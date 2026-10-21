@@ -1,0 +1,1455 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] CLIMBINGESE",
+    "notebook_id": "2ae6273e-33cb-4f4e-aab7-ea0ebccb44f0",
+    "notebook_url": "https://notebook.google.com/notebook/2ae6273e-33cb-4f4e-aab7-ea0ebccb44f0?authuser=1",
+    "captured_at": "2026-10-21T22:31:39.577Z",
+    "visible_source_count": 9,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 34
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "How would you describe the progress of the conversation in the sources?",
+      "citations": [],
+      "key": "00bef26f"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The conversation in the sources progresses from an initial skeptical inquiry about a suspected spam email to a sophisticated, strategic deconstruction of the expert network industry and the user's potential role within it. The trajectory moves through several distinct phases:\n1. Initial Skepticism and Sector Definition\nThe dialogue begins with a specific query about an email regarding \"Biologic Combination Products\"\nlock\n. The user and the expert initially identify the outreach as likely spam or \"fishing\" due to its vague, flattering language\nlock\n. However, they quickly define the technical substance of the term, noting that in the pharma/biotech world, it refers to drug-device pairings often used as a regulatory maneuver to extend patent life rather than as true innovation\nlock\nmore_horiz\n.\n2. Operational Deconstruction of Dialectica\nThe focus shifts to investigating the company behind the email, Dialectica. The conversation moves from analyzing boilerplate legal signals\nlock\nlock\n to identifying its real business model as an \"expert network\" or \"knowledge brokerage\"\nlock\nmore_horiz\n. Key findings include:\nLegitimacy vs. Appearance: While the company is a registered entity with significant revenue\nlock\nlock\n, the user remains wary of its \"fast-growing\" labels and the high probability that positive reviews are \"sock puppets\" or curated marketing\nlock\nmore_horiz\n.\nLabor Arbitrage: The expert suggests the company uses a \"barbell strategy,\" combining a high-touch core team in major hubs with a high-volume, low-cost \"periphery\" in locations like Athens and Bogota to cast wide nets for experts\nlock\nmore_horiz\n.\n3. Epistemological Interrogation\nAs the conversation deepens, the user (Nathan) increasingly challenges the \"legitimacy signals\" provided by the expert. Nathan argues that revenue growth and awards can be easily faked or manipulated\nlock\nmore_horiz\n. This forces the conversation into a high-level interrogation of business intelligence epistemology, examining the reliability of sources like Sacra, LinkedIn, and Reddit\nlock\nmore_horiz\n. Nathan's skepticism is ultimately validated as a \"rational, not cynical\" approach to understanding \"epistemic rot\" in industries that monetize human insight\nlock\nlock\n.\n4. Transition to Tactical Reverse-Engineering\nA pivotal shift occurs when Nathan moves from a defensive stance (avoiding a scam) to an offensive tactical position\nlock\nlock\n. He proposes reverse-engineering Dialectica's client list by:\nPatent Mining: Identifying companies with recent filings in \"biologic combination products\"\nlock\nmore_horiz\n.\nPrivate Equity (PE) Tracking: Looking for funds that recently raised capital for healthcare or medtech\nlock\nlock\n.\nAlumni Mapping: Tracking former Dialectica employees on LinkedIn to see which consulting or PE firms they moved to, as those are high-probability clients\nlock\n.\n5. Meta-Analysis and Strategic Positioning\nThe conversation concludes by recognizing Nathan's own value. The expert observes that Nathan’s ability to \"take apart any system almost on contact\" is a professional-grade \"meta-analyst\" skill\nlock\nmore_horiz\n. They work together to develop a \"triage heuristic\" and an \"Engagement Bible\"\nlock\nmore_horiz\n. This allows Nathan to:\nSignal his value as a systems thinker rather than a narrow subject matter expert (SME)\nlock\nlock\n.\n\"Jump the funnel\" from low-value peripheral screening calls to high-value strategic engagements\nlock\nlock\n.\nMaintain agency by defining how he should be classified within the network's internal taxonomy\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "74f002b1"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Discuss what these sources say about Narrative Events, in the larger context of CLIMBINGESE.",
+      "citations": [],
+      "key": "1abcc79d"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Within the CLIMBINGESE system—a specialized glyph language based on a 2003 climbing symbology notebook—Narrative Events represent a distinct category used to document specific, often dramatic, occurrences during a rock climbing ascent\n1\n2\n. Unlike technical symbols for holds or moves, these events capture the \"story\" of the climb, ranging from technical failures to emotional breakdowns and absurd hazards\n3\n4\n.\nIn the context of the larger system, Narrative Events function as follows:\n1. Categories of Narrative Occurrences\nThe sources classify Narrative Events (noted as [EVENT] in the system legend) into several sub-types:\nTechnical & Safety Incidents: These include objective hazards such as a Fall (↓↓), an Injury (⚠), or the catastrophic Rope Broke (╳≈)\n3\n4\n.\nEmotional & Physical Reactions: The system documents the human element of climbing, such as Flail Impotently (✶), Cry (☂), or the visceral Messed My Pants (💩)\n3\nmore_horiz\n.\nExternal Factors: Some events are outside the climber's control, such as a Moss Encounter (♣) or being Attacked by Bear (🐻)\n3\nmore_horiz\n.\nEpistemic Realizations: A unique narrative event is the \"Dawning Realization of the Significance of the Climb's Name\" (✧), which signifies a moment of clarity regarding the route's character or difficulty\n3\n4\n.\n2. Integration into \"Ascent Sentences\"\nNarrative Events are not used in isolation but are integrated into a linear string of symbols to describe a complete climbing experience\n2\n.\nExample Sentence: The sources provide an example ascent string: ∪ → ↗ ▲ ≋ ◖ ʰ ★ !!! ✶ ✧ □ ✓\n2\n.\nTranslation: This string moves from technical movements (jugs, reaches) to a Narrative Event sequence: \"...Experience terror, flail briefly (✶), suddenly understand why the route is named what it is (✧), reach a rest, and continue successfully\"\n2\n.\n3. Connection to the Larger System (CLIMBINGESE)\nIn our previous conversation, we discussed your ability to deconstruct complex systems (like the expert network industry) to find the \"internal taxonomy\" and \"epistemic rot.\" CLIMBINGESE serves as a similar diagnostic tool for the physical world. While the system identifies Rock Features ([ROCK]) and Techniques ([MOVE]), the Narrative Events provide the \"meta-data\" of the experience\n1\n.\nThese events allow a climber to move beyond a mere \"beta\" (the technical instructions) to a full strategic deconstruction of a climb, including the mental and physical state (e.g., \"Rethink climbing as a hobby\" ☠?) that occurs when the system—the climb—overwhelms the climber\n3\n. By including narrative occurrences, CLIMBINGESE acknowledges that a climb is not just a series of physical vectors but a sequence of events that can include realization, failure, and absurdity\n1\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "4218bdae"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Can you construct an entire detailed climb glyph string?",
+      "citations": [],
+      "key": "be63d4cd"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Using the CLIMBINGESE system detailed in the sources, here is a detailed climb glyph string that chronicles an ascent involving technical maneuvers, physical strain, and a narrative climax.\nThe Glyph String:\n∪ ─→ ⫶ ↗ ▲ ║ 8 ʰ ∠ ★ ↑↑ !!! ✶ ⚡ ✧ ▢ ✓\nStep-by-Step Translation:\n1. The Technical Start (Rock Features and Moves)\n∪: Start the climb on a Jug (a large, easy-to-grip hold)\n1\n2\n.\n─→: Execute a Static move\n1\n...\n⫶: ...to a Pinch hold\n1\n.\n↗: Reach upward\n1\n3\n...\n▲: ...for a Hard move\n4\n...\n║: ...onto a sharp Crimp\n1\n2\n.\n2. The Tactical Crux\n8: Pause to place a Quickdraw for safety\n3\n5\n.\nʰ: Set a Heel hook\n1\n3\n...\n∠: ...around the corner of an Arete\n1\nmore_horiz\n.\n★: You have now reached the Crux, the most difficult part of the route\n4\nmore_horiz\n.\n3. Physical and Mental Escalation (States and Events)\n↑↑: You feel the Pump building in your forearms\n6\n.\n!!!: The situation becomes Too Scary! or you become Terrified\n6\nmore_horiz\n.\n✶: You begin to Flail impotently as your strength fails\n6\nmore_horiz\n.\n⚡: You Almost fell during the struggle\n6\n.\n4. Resolution and Completion\n✧: Amidst the struggle, you have a Dawning realization of the significance of the climb's name\n8\nmore_horiz\n.\n▢: Finally, you reach a No-hands rest to recover\n6\n.\n✓: You Kept Going! and finished the route successfully\n7\n8\n.\nContext in the System\nThis string follows the linear \"ascent sentence\" logic found in the Bellomy 2003 notebook, where physical rock features ([ROCK]) and movements ([MOVE]) are punctuated by physical conditions ([STATE]) and narrative incidents ([EVENT])\n11\n12\n. As noted in our conversation, the inclusion of symbols like the \"Dawning Realization\" (✧) highlights how CLIMBINGESE is designed to document not just the physics of the climb, but the meta-narrative and epiphany experienced by the climber.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4149d2f6"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "that’s a pretty short climb…",
+      "citations": [],
+      "key": "fc60d265"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "You are correct; the previous example was merely a \"sprint\" in the context of the full CLIMBINGESE taxonomy\n1\n. To capture the true complexity of an \"epic\" ascent as defined by the Bellomy 2003 notebook, a glyph string must account for technical shifts, environmental hazards, and the complete psychological breakdown of the climber\n1\nmore_horiz\n.\nHere is a comprehensive \"marathon\" climb glyph string:\nThe Marathon Ascent\n[5.11b] · ∪ → △ 8 ▲ ◖ ↗ ⌒ ╫ ← ─ ≈ ⫸ ≋ 8 ! ∩ ∪↑ ᴋ □ ★ ʰ ▲▲ ║ !!! ✶ ⚡ ♣ 🐻 ☂ 💩 ☠? ✧ ✓ ━\nThe Narrative Translation\nPhase 1: The Technical Opening The climb begins on an easy section (·) starting from a massive jug (∪)\n4\n5\n. You traverse right (→) to a flake (△), where you clip your first quickdraw (8)\n4\nmore_horiz\n. A hard move (▲) leads to a shallow pocket (◖), followed by a long reach (↗) onto a greasy sloper (⌒)\n4\n5\n.\nPhase 2: Tactical Complexity and Physical Strain You stem (╫) between walls to traverse left (←) onto a sharp edge (─)\n4\n7\n. Following a crack (≈) system, you utilize a layback (⫸) technique\n4\n8\n. As your hands begin to sweat (≋), you manage to clip a second quickdraw (8), only to realize you are now in a runout (!) section where a fall would be significant\n1\nmore_horiz\n.\nPhase 3: The Crux and Crisis You find an undercling (∩) and execute a powerful pull (∪↑), followed by a desperate knee bar (ᴋ) that allows for a brief rest (□)\n4\nmore_horiz\n. You then enter the crux (★)\n5\n9\n. Using a precise heel hook (ʰ), you attempt a very hard move (▲▲) onto a tiny crimp (║)\n4\n5\n.\nPhase 4: The Narrative Collapse and Epiphany At the height of the difficulty, you become terrified (!!!) and begin to flail impotently (✶)\n5\n10\n. You almost fall (⚡), only to realize you've reached a section covered in moss (♣) and are suddenly attacked by a bear (🐻)\n5\nmore_horiz\n. This leads to a complete emotional breakdown: you cry (☂), mess your pants (💩), and rethink climbing as a hobby (☠?)\n5\n11\n.\nPhase 5: Completion Finally, you experience a dawning realization of the significance of the climb's name (✧), which gives you the strength to keep going (✓) until you finally top out on the ridge (━)\n2\nmore_horiz\n.\nWhy this string matters\nThis expanded string illustrates the internal taxonomy of the system we discussed—where every physical move ([MOVE]) is eventually superseded by a narrative event ([EVENT]) or a cognitive shift ([STATE])\n1\n2\n. In the CLIMBINGESE world, a \"long\" climb is defined less by its vertical feet and more by the density of its drama\n2\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "296cd2d0"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "Ok… now, El Cap",
+      "citations": [],
+      "key": "53ee23d9"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "To represent an ascent of El Capitan using CLIMBINGESE, the glyph string must expand beyond a single \"ascent sentence\" into a multi-phase technical and psychological epic. Given the scale of the monolith, this string incorporates the specialized big-wall vocabulary of the Bellomy 2003 notebook, including advanced crack systems, extreme physical degradation, and the inevitable cognitive collapse\n1\n2\n.\nThe El Capitan Glyph String:\n[5.13/VI] · ≈≈ ╫ 8 ≈ ⫸ ∩ 8 !! ≋ ▢ ≈≈ ⌒̄ ⇈ ⟲ ║ 8 ▲▲ !.! ⊓↑ ◇ ◇+ ≋ ≋ ≋ ≈≈ ↓E !!! ✶ ⚡ ╳≈? ⚠ ☂ ☠? ✧✧ ✧ ✓ ━\nThe Technical & Narrative Breakdown\n1. The Lower Base & The Crack Systems\n[5.13/VI]: The rating establishes this as a Grade VI big wall of extreme difficulty\n3\n.\n≈≈ ╫ 8 ≈: The journey begins with endless crack climbing (≈) and wide stemming (╫) between granite faces, protected by frequent quickdraw placements (8)\n4\n5\n.\n⫸ ∩ 8 !!: You engage in a long layback (⫸) using underclings (∩), while the runout (!!) starts to weigh on your mind\n4\nmore_horiz\n.\n2. Physical Degradation and the Crux\n≋ ▢ ≈≈: Your hands are constantly sweaty (≋), forcing you to find a rest (□) in a chimney or ledge before entering another massive crack system (≈≈)\n7\nmore_horiz\n.\n⌒̄ ⇈ ⟲ ║: You encounter a massive roof (⌒̄), requiring a lunge (⇈) and a swing (⟲) to reach a thin crimp (║) on the headwall\n4\n5\n.\n8 ▲▲ !.!: After clipping in, you hit the very hard (▲▲) section—a danger zone (!.!) where the sequence is nearly impossible\n3\nmore_horiz\n.\n3. The Psychological \"Big Wall\" Pivot\n⊓↑ ◇ ◇+: A successful mantle (⊓↑) leads to a moment of deep focus (◇) and a tactical breakthrough (◇+) in your beta\n1\nmore_horiz\n.\n≋ ≋ ≋ ≈≈ ↓E: However, the sheer length of the wall takes its toll. Your hands are triple-sweaty (≋ ≋ ≋), you are completely winded (≈≈), and you are no longer tired—you are exhausted (↓E)\n7\n9\n.\n4. The Narrative Crisis (The \"Epic\")\n!!! ✶ ⚡ ╳≈?: Terror sets in (Too Scary! !!!). You begin to flail impotently (✶) and almost fall (⚡). There is a moment of panic where you fear the rope has broken (╳≈?)\n7\nmore_horiz\n.\n⚠ ☂ ☠?: You suffer a minor injury (⚠), break down and cry (☂), and seriously rethink climbing as a hobby (☠?)\n9\nmore_horiz\n.\n5. The Epiphany and Top-Out\n✧✧ ✧ ✓ ━: In the delirium of the final pitches, you experience a route-name joke (✧✧) followed by the dawning realization of the significance of the climb's name (✧). This allows you to keep going (✓) until you finally crest the ridge (━) at the summit\n1\nmore_horiz\n.\nWhy this fits the \"Systems\" Discussion\nAs we've discussed regarding your ability to deconstruct complex networks, this string shows how CLIMBINGESE functions as a diagnostic map of a system's failure points. On El Capitan, the \"system\" is not just the rock, but the climber's own biology and psyche. The transition from technical markers (║, ≈) to existential events (☠?, ✧) mirrors how a high-stakes engagement (like those discussed with Dialectica) eventually moves from data gathering to a test of pure strategic agency\n6\n10\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "c0d1821a"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "I feel like to do el cap Justice… we’re talking like a whole book practically",
+      "citations": [],
+      "key": "3768a8fc"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "You are absolutely right—to truly document a Grade VI big wall like El Capitan using CLIMBINGESE, a single string is merely a \"table of contents\" for what would be a sprawling technical and psychological manual\n1\n. The system is a dense compression where a single symbol can represent a profound shift in state or a significant period of time\n2\n3\n.\nTo do \"justice\" to such an ascent, a full \"book\" in this glyph language would require:\nTechnical Exhaustion: For a wall of that scale, the physical features section would be repetitive and grueling, filled with miles of crack systems (≈≈), constant placements (8), and endless stemming (╫)\n4\nmore_horiz\n.\nState Accumulation: The \"book\" would track the slow transition from being focused (◇) to winded (≈≈) and finally to a state of being completely exhausted (↓E), where the climber is no longer merely tired but physically depleted\n7\n8\n.\nNarrative Chapters: Each major pitch would likely culminate in a significant Narrative Event. In a long ascent, you don't just flail (✶) or cry (☂) once; these events become recurring chapters of the experience, interspersed with the \"Dawning Realization\" (✧) that occurs as the climber's psyche begins to unravel\n2\nmore_horiz\n.\nTactical Deconstruction: Just as we discussed reverse-engineering business networks, an El Cap \"book\" would serve as a strategic deconstruction of the wall, mapping every creative beta (◇•) and tactical breakthrough (◇+) against the climber's dwindling mental and physical reserves\n2\n8\n.\nI could create a tailored report for you that functions as a comprehensive \"Engagement Bible\" for an El Capitan ascent, expanding these glyphs into a detailed tactical and narrative analysis that captures the full \"book-length\" scale of the journey. Would you like me to generate that for you?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "f37f6c96"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Discuss what these sources say about Movements / Techniques [MOVE], in the larger context of Climbing Glyph System (Bellomy 2003).",
+      "citations": [],
+      "key": "11a323bd"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "In the Climbing Glyph System (Bellomy 2003), Movements and Techniques ([MOVE]) serve as the vital \"verbs\" that translate the static physical environment into an active narrative\n1\n. While rock features ([ROCK]) describe what is there, the movement category describes the specific, often highly technical, actions a climber takes to navigate those features\n1\n2\n.\nWithin the larger context of the system, these movements are categorized by their physical nature, technical complexity, and even their ethical standing.\n1. The Taxonomy of Action\nThe sources categorize movements into several functional groups that allow for a high-fidelity recreation of an ascent:\nFundamental Directionals: These are basic vectors used to describe the flow of a climb, such as Reach (↗), Traverse Right (→), Traverse Left (←), Pull Up (↑), and Drop Down (↓)\n2\n.\nTechnical Leverage & Positioning: This group captures the specialized body mechanics of climbing. It includes techniques like the Heel Hook (ʰ), Toe Hook (ᵗ), Knee Bar (ᴋ), and Stemming (╫)\n2\n3\n. It also includes more obscure or \"old-school\" moves like the Armbar (║╫║) or the Handheel (hh)\n2\n.\nKinetic & Dynamic Moves: The system distinguishes between the speed and momentum of actions. A climber might use a controlled Static move (─→), a semi-dynamic Deadpoint (•↑), or a fully airborne Dyno (⇑) or Lunge (⇈)\n2\nmore_horiz\n.\nSurface Interactions: Movements like the Face Smear (▒), Palm Press (⊔), and Thumb Catch (ϑ) describe the subtle ways a climber utilizes friction and minor protrusions when traditional holds are absent\n2\n5\n.\n2. Strategic and Ethical Indicators\nThe [MOVE] category goes beyond mere physics to document the \"honesty\" and tactical choices of the climb.\nTactical Placements: The Quickdraw Placement (8) is categorized as a movement, signaling a pause in upward progress to secure safety\n2\n6\n.\nDeviations from Intent: Symbols like Cheat (≈?) and Off-route Move (↺) acknowledge that the actual path taken may not always align with the intended or \"clean\" version of the route\n2\n4\n.\nExtreme Actions: The symbol for Launch (🚀) suggests a high-stakes, all-or-nothing effort often associated with desperate sections of a climb\n2\n.\n3. The Relationship Between Move and Rock\nIn the Bellomy system, there is a symbiotic relationship between the feature and the technique. For instance, a Mantle Ledge (⊓) is a physical feature, but the Mantle (⊓↑) is the specific action required to overcome it\n2\n7\n. Similarly, a Layback Feature (⫸) dictates the use of the Layback (⫸) technique\n2\n7\n. This allows the glyph strings to show how the environment \"forces\" specific behaviors from the climber.\n4. Integration with Difficulty and State\nMovements are often qualified by their difficulty rating, moving from an Easy Move (+) to the Crux (★) of the route\n4\n8\n. As we discussed regarding the \"book-length\" scale of a climb like El Cap, these movements are the building blocks that eventually lead to physical and cognitive states. A long series of Pull Ups (↑) and Stemming (╫) inevitably leads to the climber becoming Winded (≈≈) or Exhausted (↓E), transitioning the record from technical data into the narrative events of the ascent\n9\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "a643fab9"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nClimbingese_Visual_Language.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Climbingese_Visual_Language.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nClimbingese.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Climbingese.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nCLIMBINGESE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "CLIMBINGESE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nDecoding_the_Beta_Climbing_Guide.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Decoding_the_Beta_Climbing_Guide.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1952.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1952.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1953.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1953.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1954.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1954.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Secret_Unicode_Language_of_Climbingese.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Secret_Unicode_Language_of_Climbingese.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "9 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nThe survival syntax of Climbingese\n38:08 · Deep Dive · 8 sources · 127d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe survival syntax of Climbingese\n38:08 · Deep Dive · 8 sources · 127d ago"
+    },
+    {
+      "text": "The survival syntax of Climbingese\n38:08 · Deep Dive · 8 sources · 127d ago"
+    },
+    {
+      "text": "The survival syntax of Climbingese"
+    },
+    {
+      "text": "38:08 · Deep Dive · 8 sources · 127d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "videocam\nCLIMBINGESE: Field Guide\n7:46 · Explainer · 4 sources · 127d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nCLIMBINGESE: Field Guide\n7:46 · Explainer · 4 sources · 127d ago"
+    },
+    {
+      "text": "CLIMBINGESE: Field Guide\n7:46 · Explainer · 4 sources · 127d ago"
+    },
+    {
+      "text": "CLIMBINGESE: Field Guide"
+    },
+    {
+      "text": "7:46 · Explainer · 4 sources · 127d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "tablet\nClimbingese\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nClimbingese\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbingese\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbingese"
+    },
+    {
+      "text": "4 sources · 127d ago"
+    },
+    {
+      "text": "article\nClimbing Glyphs and Symbology Reference Guide\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nClimbing Glyphs and Symbology Reference Guide\n127d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Climbing Glyphs and Symbology Reference Guide\n127d ago"
+    },
+    {
+      "text": "Climbing Glyphs and Symbology Reference Guide"
+    },
+    {
+      "text": "127d ago"
+    },
+    {
+      "text": "article\nThe Bellowmy-03 Glyph System: Mastering Climbingese Narrative Syntax\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Bellowmy-03 Glyph System: Mastering Climbingese Narrative Syntax\n127d ago"
+    },
+    {
+      "text": "The Bellowmy-03 Glyph System: Mastering Climbingese Narrative Syntax\n127d ago"
+    },
+    {
+      "text": "The Bellowmy-03 Glyph System: Mastering Climbingese Narrative Syntax"
+    },
+    {
+      "text": "audio_spark\nThe Secret Unicode Language of Climbingese\n27:47 · Deep Dive · 4 sources · 127d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Secret Unicode Language of Climbingese\n27:47 · Deep Dive · 4 sources · 127d ago"
+    },
+    {
+      "text": "The Secret Unicode Language of Climbingese\n27:47 · Deep Dive · 4 sources · 127d ago"
+    },
+    {
+      "text": "The Secret Unicode Language of Climbingese"
+    },
+    {
+      "text": "27:47 · Deep Dive · 4 sources · 127d ago"
+    },
+    {
+      "text": "auto_tab_group\nMastering Climbingese: A Guide to Translating Movement into Narrative\nSequence Reading Guide · 4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nMastering Climbingese: A Guide to Translating Movement into Narrative\nSequence Reading Guide · 4 sources · 127d ago"
+    },
+    {
+      "text": "Mastering Climbingese: A Guide to Translating Movement into Narrative\nSequence Reading Guide · 4 sources · 127d ago"
+    },
+    {
+      "text": "Mastering Climbingese: A Guide to Translating Movement into Narrative"
+    },
+    {
+      "text": "Sequence Reading Guide · 4 sources · 127d ago"
+    },
+    {
+      "text": "format_list_bulleted\nClimbing Glyph and Symbology System Inventory\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "format_list_bulleted\nClimbing Glyph and Symbology System Inventory\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Glyph and Symbology System Inventory\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Glyph and Symbology System Inventory"
+    },
+    {
+      "text": "tablet\nClimbingese Visual Language\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nClimbingese Visual Language\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbingese Visual Language\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbingese Visual Language"
+    },
+    {
+      "text": "flowchart\nClimbing Taxonomy\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nClimbing Taxonomy\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Taxonomy\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Taxonomy"
+    },
+    {
+      "text": "article\nThe Taxonomy of Narrative Events in Climbingese\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Taxonomy of Narrative Events in Climbingese\n127d ago"
+    },
+    {
+      "text": "The Taxonomy of Narrative Events in Climbingese\n127d ago"
+    },
+    {
+      "text": "The Taxonomy of Narrative Events in Climbingese"
+    },
+    {
+      "text": "article\nThe Syntax of Ascent: A Climbingese Narrative\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Syntax of Ascent: A Climbingese Narrative\n127d ago"
+    },
+    {
+      "text": "The Syntax of Ascent: A Climbingese Narrative\n127d ago"
+    },
+    {
+      "text": "The Syntax of Ascent: A Climbingese Narrative"
+    },
+    {
+      "text": "article\nThe Climbingese Taxonomy: An Epic Marathon Ascent\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Climbingese Taxonomy: An Epic Marathon Ascent\n127d ago"
+    },
+    {
+      "text": "The Climbingese Taxonomy: An Epic Marathon Ascent\n127d ago"
+    },
+    {
+      "text": "The Climbingese Taxonomy: An Epic Marathon Ascent"
+    },
+    {
+      "text": "article\nClimbingese: The El Capitan Glyph Narrative\n127d ago\nmore_vert"
+    },
+    {
+      "text": "article\nClimbingese: The El Capitan Glyph Narrative\n127d ago"
+    },
+    {
+      "text": "Climbingese: The El Capitan Glyph Narrative\n127d ago"
+    },
+    {
+      "text": "Climbingese: The El Capitan Glyph Narrative"
+    },
+    {
+      "text": "stacked_bar_chart\nDecoding the Beta Climbing Guide\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nDecoding the Beta Climbing Guide\n4 sources · 127d ago"
+    },
+    {
+      "text": "Decoding the Beta Climbing Guide\n4 sources · 127d ago"
+    },
+    {
+      "text": "Decoding the Beta Climbing Guide"
+    },
+    {
+      "text": "copy\nClimbing Flashcards\n4 sources · 127d ago\nmore_vert"
+    },
+    {
+      "text": "copy\nClimbing Flashcards\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Flashcards\n4 sources · 127d ago"
+    },
+    {
+      "text": "Climbing Flashcards"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T22:31:38.967Z",
+      "event": "harvest_complete",
+      "messages": 14,
+      "reachedTop": true
+    }
+  ]
+}

@@ -1,0 +1,3895 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] BOOKERY",
+    "notebook_id": "48c28201-b9d9-45df-a95a-815da57afdc6",
+    "notebook_url": "https://notebook.google.com/notebook/48c28201-b9d9-45df-a95a-815da57afdc6?authuser=1",
+    "captured_at": "2026-10-21T22:23:11.447Z",
+    "visible_source_count": 49,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 75
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Discuss what these sources say about German Chausséegrabentapezirer, in the larger context of International Comparisons.",
+      "citations": [],
+      "key": "f861e4fc"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "German Chausséegrabentapezirer (literally \"upholsterers of the highway ditches\") represent a voluntary vagrant population of approximately 100,000 within a total roving class of 200,000\nlock\nmore_horiz\n.\nProfile and Character\nDemographics: Mostly over 30 years old, literate, and often trained in a trade\nlock\nlock\n.\nAppearance: Generally better dressed and more concerned with decency than American hoboes\nlock\n.\nTemperament: Cautious, suspicious, and notably ungenerous; they lack the \"brotherly consideration\" of American tramps, believing every man must \"hustle\" for himself\nlock\nmore_horiz\n.\nHabits: Primarily alcoholic (\"victims of the Schnappsflasche\"), carrying flasks of near-pure alcohol\nlock\nlock\n. They utilize a unique secret dialect (Kunden-Diction) to communicate in public without detection\nlock\nmore_horiz\n.\nInternational Comparisons\nUnited States (Hoboes): American tramps are typically younger, more \"vicious,\" but significantly more generous to their peers than Germans\nlock\nmore_horiz\n. Americans rely extensively on free rail travel (\"side-door Pullmans\"), whereas Germans utilize fourth-class rail tickets or walk the highways\nlock\nlock\n.\nRussia (Goriouns): Russian tramps (\"Mourners\") adopt an affectation of extreme despondency and \"pitiful spirit\" when begging\nlock\nlock\n. Unlike the solitary or small-group German model, Russians frequently travel in large families and are organized into sophisticated begging corporations or artels\nlock\nmore_horiz\n.\nEngland (Moochers): English vagrants are characterized as the filthiest in person and dress, whereas Germans maintain a standard of respectability\nlock\nlock\n. English \"moochers\" rely on specific \"gags\" or peddling tricks rather than the German method of \"tackling\" (stossen) houses for money\nlock\nlock\n.\nCanada (Frenchies): Canadian tramps are slow-going and satisfied with fewer rewards (three meals a day) than the more ambitious German or American beggars\nlock\n.\nSocial and Legal Infrastructure\nRefuges: Germans utilize Herbergen (low-class lodging) and the Herberge zur Heimath (religious/humanitarian shelters)\nlock\nlock\n.\nEmployment Tests: The Verpflegung-Station system provides food and lodging for a few hours of work, but voluntary idlers often circumvent this via cleverness or forged Wanderbuch (identity passes)\nlock\nmore_horiz\n.\nPhilanthropy: The German public is described as \"inanely generous,\" supporting a class that refuses to work despite state-sponsored labor colonies\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "ab8bf77a"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Discuss what these sources say about Russian Goriouns, in the larger context of International Comparisons.",
+      "citations": [],
+      "key": "3567feb5"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Russian Goriouns are vagabonds (estimated at 900,000 in European Russia) who adopt a persona of perpetual despondency\nlock\nlock\n. Their name derives from the Russian gore, meaning sadness or grief\nlock\n.\nInternal Characteristics\nCategories: Divided into \"authorized\" (religious mendicants protected by the church) and \"unauthorized\" (common tramps considered a social problem)\nlock\nlock\n.\nOrganization: Highly clannish; they form artels (labor corporations) with specific dialects, leaders (atamans), and common funds\nlock\nmore_horiz\n.\nBegging Persona: They use \"facial trickery\" to look forlorner than any other class, often using the appeal \"Radi Krista\" (\"For Christ's sake\")\nlock\nmore_horiz\n.\nUnique Economy: In St. Petersburg, they are recruited as funeral mourners or torch-bearers; this requires owning boots, making footwear their most prized possession\nlock\n.\nPrimary Cause: Two-thirds are reportedly degraded by an extreme addiction to vodka\nlock\n.\nInternational Comparisons\nGermany: German tramps are described as more cautious, less vicious, and more intelligent than Americans\nlock\n. Like Russians, they frequently use forged passports that police cannot detect\nlock\n.\nUnited States: American \"hoboes\" prioritize cleverness and unique, self-invented cant\nlock\nlock\n. While Goriouns rely on a pose of \"foreordained misery,\" American tramps focus on \"immediately economic\" aims or nomadic independence\nlock\nlock\n.\nEngland: English \"moochers\" typically use \"gags\" or \"lurks\" (elaborate shams like being a fake doctor) rather than the simple religious appeal dominant in Russia\nlock\n.\nCanada: Vagabonds known as \"Frenchies\" use a jargon mix of French, English, and hobo lingo, contrasting with the distinct regional dialects of Russian artels\nlock\nlock\n.\nLarger Context\nIn Russia, begging is culturally pervasive across all social tiers, known as the land of na tchai (\"for tea\")\nlock\n. Unlike Western individualism, the Goriouns' reliance on medieval-style artels mirrors the broader Russian peasant community (mir) structure\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "72f7cf10"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Tell me about Kunden-Diction and other argots",
+      "citations": [],
+      "key": "015ffab1"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Kunden-Diction (or Kunden-Sprache) is the unique secret dialect utilized by German tramps (Chausséegrabentapezirer) to communicate in public without detection\nlock\nlock\n. It functions as a complete system of secrecy, distinct from standard German, and is shared by traveling journeymen\nlock\nlock\n. Key terms include Kramp (bread), Putz (police), Flebbe (passport), and Kaff (village)\nlock\n.\nOther vagrant and revolutionary argots mentioned in the sources include:\nAmerican Hobo Jargon: A \"lingo\" or \"cant\" largely invented for secrecy and to provide expression for specialized experiences\nlock\nlock\n. Examples include \"punk\" (bread), \"bull\" (police), \"batter\" (to beg), and \"bughouse\" (insane)\nlock\nmore_horiz\n.\nRussian Artel Dialects: Highly organized Russian begging corporations (artels) use distinct, regional secret lingos nearly as difficult to learn as the Russian language itself\nlock\n. The term Kalousni is used by certain groups to mean \"reapers\" or beggars\nlock\nlock\n.\nEnglish Moocher Argot: Utilized by British vagrants for \"gags\" and \"lurks\" (tricks)\nlock\n. Common terms include \"kip-house\" or \"doss-house\" (lodging), \"scoff\" (food), \"Robert\" or \"the Dee\" (police), and \"wing\" (penny)\nlock\nmore_horiz\n.\nAnarchist Argot: A specialized jargon used to mask criminal activities with political terminology\nlock\n. Terms include \"expropriation\" (theft), \"propaganda by deed\" (murder/violence), and \"individual reprisals\"\nlock\nmore_horiz\n.\nTrimardeur Language: Moving anarchist intermediaries (trimardeurs) often acquire a cosmopolitan \"argot\" that blends various regional dialects and languages to spread propaganda\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "bec41d88"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "How extensive is the language covered",
+      "citations": [],
+      "key": "49bd629a"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "The sources cover a vast array of specialized languages, secret dialects, and technical linguistic systems, ranging from criminal argots to universal mechanical notations.\n1. Vagrant and Criminal Argots\nAmerican Hobo Jargon: Described as a \"full-fledged lingo\" consisting of at least 3,000 separate and distinct expressions used by tramps and criminals over a twenty-year period\nlock\nlock\n.\nGerman Kunden-Diction: A secret dialect (Kunden-Sprache) used by tramps to ensure \"entire secrecy... in public places.\" It is noted as being as different from standard German as \"black from white\"\nlock\nmore_horiz\n.\nRussian Artel Dialects: Highly organized begging corporations (artels) utilize regional secret lingos that are described as \"almost as hard to learn as Russian itself\"\nlock\nlock\n.\nEnglish Moocher Argot: Utilizes \"gags,\" \"lurks,\" and specific terms like Robert (police) and kip-house (lodging)\nlock\nlock\n.\nCanadian \"Frenchy\" Jargon: A mixture of French, English, and a small hobo vocabulary\nlock\n.\nTrimardeur Polyglotism: Moving anarchist intermediaries (trimardeurs) are noted for their ability to preach in various regional languages—including Breton, Normand, Walloon, Flemish, and German—as well as the specific \"argots\" of those regions\nlock\n.\n2. Technical and Philosophical Systems\nMechanical Notation: Charles Babbage developed a \"system of signs\" for machinery intended to be a \"universal language\" readable by all people, similar to Arabic numerals\nlock\nlock\n.\nPhilological Research: Pierre-Joseph Proudhon conducted \"ingenious analyses\" of the mechanism of the Hebrew language and comparative grammar\nlock\nlock\n.\nScholarly Mastery: Certain individuals, like the highwayman Eugene Aram, investigated \"the Celtic... in all its dialects,\" comparing over 3,000 words across English, Latin, Greek, and Hebrew to form a comparative lexicon\nlock\n.\n3. Cryptographic and Code Systems\nMilitary/Intelligence Codes: The German Intelligence Department utilized the A.B.C. code for naval reports\nlock\n. Hindu revolutionists employed complex ciphers based on word-numbers in dictionaries and mathematical squares combined with \"key numbers\" to evade detection\nlock\nlock\n.\nPrison Communication: Inmates developed the \"Route Sub Rosa,\" using tapping methods (similar to Russian political prisoners) and empty pipes to communicate between cells\nlock\nlock\n.\n4. Literary and Dialectal Contexts\nSyndicalist Slang: The French journal Le Père Peinard was written in the \"picturesque slang of the faubourg\" (Parisian argot), making it largely untranslatable into standard English\nlock\n.\nTraditional Formulas: Early charters and legal documents illustrate the adaptation of \"old Anglo-Saxon formulæ\"—rhyming jingles used for oral transmission in archaic societies\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "de386363"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "What do you know about Summers' trial for pederasty",
+      "citations": [],
+      "key": "1dcfc77f"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "Montague Summers was tried for sexual impropriety with young boys but was acquitted\n1\n. Rumors surrounding these accusations and his interest in Satanism likely prevented him from proceeding to higher orders after being ordained as an Anglican deacon in 1908\n1\n. Professionally and socially, Summers displayed interest in the subject through his first book, Antinous and Other Poems (1907), which was dedicated to pederasty, and his membership in the Order of Chaeronea, a secret society with a pederastic homosexual ethos\n1\n,\n2\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "17926a73"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "I don't see anything about a trial in the source you cited.",
+      "citations": [],
+      "key": "e3b06d9d"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "Montague Summers was tried and acquitted on charges of sexual impropriety with young boys\n1\n. These accusations, combined with rumors of Satanism, likely prevented him from proceeding to higher orders after his 1908 ordination as a deacon\n1\n. His 1907 book, Antinous and Other Poems, was dedicated to pederasty\n1\n. Other sources refer to these \"events in his younger days\" as being \"best forgotten\"\n2\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "d2358208"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Provide the quote from the source that discusses the trial",
+      "citations": [],
+      "key": "af40020a"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "\"He never proceeded to higher orders, however, probably because of rumours of his interest in Satanism and accusations of sexual impropriety with young boys, for which he was tried and acquitted.\"\n1",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "2cbb8988"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "OK, I’ve added several new sources that should provide significant insight into summers’ life. Synthesizing all of these new sources, what do you see?",
+      "citations": [],
+      "key": "6070f744"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "Montague Summers (1880–1948) was an enigmatic figure who blended meticulous literary scholarship with a persona defined by extreme religious conservatism and an absolute belief in the literal reality of the supernatural\n1\nmore_horiz\n.\nDual Scholarly Legacy\nRestoration Drama: Summers was the preeminent authority on the English Restoration stage\n4\nmore_horiz\n. He was the first modern editor of Aphra Behn and produced definitive editions of Dryden, Wycherley, and Congreve\n4\nmore_horiz\n. In 1919, he co-founded The Phoenix, a society dedicated to revitalizing neglected 17th-century plays through live performance\n4\nmore_horiz\n.\nGothic & Occult: He was instrumental in rediscovering the \"lost\" Gothic novels mentioned in Jane Austen's Northanger Abbey and wrote foundational texts like The Gothic Quest\n8\nmore_horiz\n. He achieved fame as a \"demonologist,\" publishing the first English translation of the Malleus Maleficarum (1928) and exhaustive studies on vampires and werewolves\n1\nmore_horiz\n.\nPersonal and Religious Paradoxes\nControversial Orders: Ordained an Anglican deacon in 1908, his career was terminated following a trial for pederasty (of which he was acquitted) and rumors of Satanic studies\n2\nmore_horiz\n. Converting to Catholicism in 1909, he styled himself a priest (\"Reverend Alphonsus Joseph-Mary\"), but he held no official ecclesiastical post in the UK; his orders were likely obtained from a schismatical \"vagans\" source\n2\nmore_horiz\n.\nDichotomous Life: While publicly advocating for the death penalty for witchcraft and portraying himself as a learned Catholic witch-hunter, Summers was an active member of the pederastic secret society Order of Chaeronea and the British Society for the Study of Sex Psychology\n17\nmore_horiz\n.\nPersona: He was a renowned eccentric who dressed in an 18th-century clerical soutane and shovel hat, carrying a silver-topped cane depicting Leda and the Swan\n2\nmore_horiz\n.\nBelief System\nSummers distinguished himself from typical folklorists through his absolute credulity\n1\nmore_horiz\n. He believed that witches, vampires, and werewolves were terrifying physical realities rather than psychological phenomena or myths\n1\nmore_horiz\n. He categorized witchcraft as a vast, anarchical political conspiracy against Christian civilization\n44\nmore_horiz\n.\nDeath\nHe died suddenly in Richmond in 1948\n1\nmore_horiz\n. He is buried alongside his devoted secretary and heir, Hector Stuart-Forbes; the headstone bears Summers' trademark greeting: \"Tell me strange things\"\n48\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "e07015e8"
+    },
+    {
+      "index": 17,
+      "role": "user",
+      "text": "What can we learn about Summers based on the Georgetown Papers descriptions?",
+      "citations": [],
+      "key": "b77ec154"
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "text": "The Georgetown Papers reveal Montague Summers as a scholar of dual legacies, blending rigorous literary research with an absolute belief in the supernatural.\nScholarly and Literary Focus\nRestoration Stage: He was a preeminent authority on 17th-century drama, specifically Dryden, Aphra Behn, Wycherley, and Congreve\n1\nmore_horiz\n.\nGothic Rediscovery: He pioneered the study of \"lost\" Gothic romances, including those mentioned in Jane Austen’s Northanger Abbey\n5\nmore_horiz\n.\nDemonology: He treated ghosts, witchcraft, werewolves, and vampires as literal physical realities rather than folklore or psychological phenomena\n2\nmore_horiz\n.\nMysticism: His later work focused heavily on the physical phenomena of mysticism and hagiography\n10\n11\n.\nEcclesiastical and Social Life\nReligious Paradox: Documents track his move from the Anglican diaconate (1908) to a self-styled Catholic priesthood (\"Reverend Alphonsus Joseph-Mary\") after a trial and acquittal for pederasty [38, 43, 922, Summers synthesis].\nControversial Circle: He maintained a \"dossier\" on Aleister Crowley and corresponded with sexologist Havelock Ellis\n1\n12\n.\nTheatrical Activism: He co-founded The Phoenix, a society dedicated to performing neglected 17th-century plays\n1\nmore_horiz\n.\nKey Associates: His papers are inextricably linked with biographer S.M. Ellis and his heir/secretary Hector Stuart-Forbes\n1\nmore_horiz\n.\nProfessional Network\nPublishing: He had long-term, sometimes contentious, relationships with publishers R.A. Caton (Fortune Press), Greville Poke (Everybody's Weekly), and Victor Gollancz\n17\nmore_horiz\n.\nResearch Stature: He was a frequent correspondent with the British Museum and National Portrait Gallery regarding historical research\n21\n22\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "0613b83e"
+    },
+    {
+      "index": 19,
+      "role": "user",
+      "text": "Discuss what these sources say about Clippings (Crowley & Witchcraft), in the larger context of Series III. Printed Matter.",
+      "citations": [],
+      "key": "d82496bb"
+    },
+    {
+      "index": 20,
+      "role": "user",
+      "text": "Within the Montague Summers Papers, clippings concerning Aleister Crowley and Witchcraft cases are primarily organized under Series III (Printed Matter), specifically Sub-Series E (Clippings)\n1\nmore_horiz\n.\n1. Aleister Crowley File (1911–1948)\nDossier: Summers maintained an extensive personal \"dossier\" of clippings related to Crowley, with whom he was an acquaintance\n4\nmore_horiz\n.\nContext: These records document their \"mutual admiration\" and frequent meetings to discuss the occult, despite their diametrically opposed roles as \"Catholic witch-hunter\" and \"modern-day witch\"\n7\nmore_horiz\n.\nLinkages: The dossier is supplemented by Series IV records showing that Summers' associate, S.M. Ellis, also sought introductions to Crowley\n4\n5\n.\n2. Witchcraft Cases File (1919–1946)\nResearch Base: This file contains news reports and \"loose material\" documenting legal trials and contemporary witchcraft occurrences\n2\nmore_horiz\n.\nPurpose: Summers utilized these clippings to argue for the physical reality of witchcraft, citing them as proof that the \"Witch-Cult\" was a persistent, malignant organization rather than a myth\n13\nmore_horiz\n.\nSeries III Context\nSeries III (1863–1948) acts as the evidentiary archive for Summers' primary scholarly and occult interests\n1\n17\n. While other sub-series contain academic materials like Phoenix Theatre programmes and Restoration drama galley proofs, the clippings in Sub-Series E represent the \"raw data\" for his demonological works\n18\nmore_horiz\n. These files bridge his meticulous literary research with his absolute belief in the physical reality of supernatural phenomena\n13\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "093c2ea0"
+    },
+    {
+      "index": 21,
+      "role": "user",
+      "text": "Tell me everything that’s known about the relationship between Alistair, Crowley and Montague Summers … being careful to distinguish between what is certain and what is speculative or loosely described in a potentially misleading way, and paying close attention to what seems likely to be closest to primary sources and what seems more likely to have been picked up and passed around by various biographers",
+      "citations": [],
+      "key": "a2675938"
+    },
+    {
+      "index": 22,
+      "role": "user",
+      "text": "The relationship between Aleister Crowley and Montague Summers is characterized by a blend of archival evidence, contemporary eyewitness accounts, and interpretive biographical flourishes.\nCertainty: Primary and Archival Evidence\nThe Crowley Dossier: The Georgetown University Montague Summers Papers contain a dedicated \"Aleister Crowley\" file in Series III (Printed Matter), Sub-Series E, spanning 1911–1948\n1\nmore_horiz\n. This indicates Summers methodically tracked Crowley’s activities for nearly four decades.\nLiterary Antagonism/Usage: Summers utilized Crowley's public persona as evidence for his own theories. In The History of Witchcraft and Demonology (1926), Summers positioned himself as the \"learned Catholic witch-hunter\" against Crowley’s \"modern-day witch\" persona\n6\n7\n.\nLiteral Credulity: Summers accepted Crowley's most scandalous claims at face value. He quoted Crowley’s assertion that a \"male child of perfect innocence\" is the best sacrificial victim, ignoring Crowley's hyperbolic claim of performing such a sacrifice 150 times a year. Summers cited this with \"gratified horror\" to support his belief in the malignant reality of modern Satanism\n8\nmore_horiz\n.\nS.M. Ellis Connection: Summers’ close associate S.M. Ellis sought introductions to Crowley via an assistant, further grounding the acquaintance in a verifiable social circle\n1\n11\n.\nContemporary Witness: The Richmond Meetings\nC.R. Cammell Account: Author Charles Richard Cammell, who lived in Richmond, Surrey, concurrently with Summers and Crowley, provides the primary source for their personal interaction. He recorded that the two met at his flat to discuss the occult in an atmosphere of \"friendship and wit\"\n12\n.\nGeography: It is a confirmed fact that both men resided in Richmond at the same time, facilitating these meetings\n12\n.\nSpeculation and Biographical Interpretation\n\"Mutual Admiration\": While Cammell and archival descriptions use this phrase, it is likely more \"eccentric professional curiosity\" than a traditional friendship\n1\n12\n. Their worldviews were diametrically opposed; biographers note they \"advocated extreme opposite practices\"\n12\n.\nSatanic Association: Biographers often speculate that Summers' interest in Crowley—combined with rumors of his own studies in Satanism—suggests a \"sinister\" side\n13\n14\n. However, the sources emphasize that Summers’ writings remained \"consistently hostile\" toward the occult practices Crowley championed\n15\n.\nThe \"Mask\" of Eccentricity: Biographers like Brocard Sewell interpret Summers' public interactions (including his \"strange\" greetings and theatrical portfolio labels) as a \"whiff of the Widow Twankey\" or a \"studied falsity\"\n16\nmore_horiz\n. This makes it difficult to determine if his interactions with Crowley were sincere or part of a carefully curated \"character\" intended to dazzle London society\n20\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "04b883f7"
+    },
+    {
+      "index": 23,
+      "role": "user",
+      "text": "Give me a representative sampling of all of the verbatim quotes that you can find about Crowley",
+      "citations": [],
+      "key": "7059d69a"
+    },
+    {
+      "index": 24,
+      "role": "user",
+      "text": "On Ritual Sacrifice: \"'For the highest spiritual working one must accordingly choose that victim which contains the greatest and purest force. A male child of perfect innocence and high intelligence is the most satisfactory and suitable victim.'\"\n1\nmore_horiz\nOn the Frequency of Sacrifice: \"...he performed this sacrifice an average of 150 times a year between 1912 and 1928!\"\n1\nmore_horiz\nOn His Relationship with Summers: \"Crowley and Summers not only knew each other but also shared a mutual admiration.\"\n4\nOn Their Interactions: \"...they used to meet in [Charles Richard Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit.\"\n4\nOn Their Occult Knowledge: \"...both had singularly brilliant minds in their knowledge of the occult.\"\n4\nOn His Public Persona: \"Aleister Crowley... adopted the persona of a modern-day witch.\"\n5\n6\nOn His Provocative Nature: \"Aleister Crowley could not pass over such an opportunity to scandalize his readers.\"\n7\nmore_horiz\nOn His Title: \"Aleister Crowley - 'The Great Beast'.\"\n10",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4b357e24"
+    },
+    {
+      "index": 25,
+      "role": "user",
+      "text": "Put together a list of direct quotations from the sources regarding Alistair Crowley",
+      "citations": [],
+      "key": "5a8331a1"
+    },
+    {
+      "index": 26,
+      "role": "user",
+      "text": "Public Persona: \"Aleister Crowley — 'The Great Beast'\"\n1\n.\nRole Identification: \"While Aleister Crowley, with whom he was acquainted, adopted the persona of a modern-day witch, Summers played the part of the learned Catholic witch-hunter\"\n2\n3\n.\nRelationship with Summers: \"Crowley and Summers not only knew each other but also shared a mutual admiration\"\n4\n.\nPersonal Interaction: \"...they used to meet in [Charles Richard Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit\"\n4\n.\nIntellectual Standing: \"...both had singularly brilliant minds in their knowledge of the occult\"\n4\n.\nRitualistic Provocation: \"Aleister Crowley could not pass over such an opportunity to scandalize his readers\"\n5\n6\n.\nOn Sacrificial Victims: \"'For the highest spiritual working one must accordingly choose that victim which contains the greatest and purest force. A male child of perfect innocence and high intelligence is the most satisfactory and suitable victim'\"\n5\nmore_horiz\n.\nOn Frequency of Sacrifice: \"...he performed this sacrifice an average of 150 times a year between 1912 and 1928!\"\n5\nmore_horiz\n.\nSummers' Reaction to Crowley: \"Montague Summers took this seriously, as he took everything else, and quotes it with gratified horror\"\n5\n6\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "9bdb69f5"
+    },
+    {
+      "index": 27,
+      "role": "user",
+      "text": "OK, expand that list if you can and list the source for each in its entirety",
+      "citations": [],
+      "key": "09742c29"
+    },
+    {
+      "index": 28,
+      "role": "user",
+      "text": "\"Aleister Crowley — 'The Great Beast'\"\nSource: Montague Summers.pdf\n1\n.\n\"curious friendship with the notorious Aleister Crowley\"\nSource: Montague Summers.pdf\n2\n.\n\"Crowley and Summers not only knew each other but also shared a mutual admiration.\"\nSource: Montague Summers.pdf\n2\n.\n\"...they used to meet in [Charles Richard Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit.\"\nSource: Montague Summers.pdf\n2\n.\n\"...both had singularly brilliant minds in their knowledge of the occult.\"\nSource: Montague Summers.pdf\n2\n.\n\"While Aleister Crowley, with whom he was acquainted, adopted the persona of a modern-day witch, Summers played the part of the learned Catholic witch-hunter.\"\nSource: MONTAGUE SUMMERS_OceanofPDF.com_THE_SUPERNATURAL_OMNIBUS_.pdf\n3\n4\n.\n\"...the 'dossier' of clippings related to Aleister Crowley, kept by Summers who is known to have been an acquaintance, is supplemented by a letter to S.M. Ellis from an assistant to Crowley, inferring Ellis' expressed interest in meeting Crowley.\"\nSource: MONTAGUE SOMMERS — PAPERS - INDEX.txt\n5\n6\n.\n\"Aleister Crowley could not pass over such an opportunity to scandalize his readers.\"\nSource: Decadent | The Amish Catholic\n7\nmore_horiz\n.\n\"'For the highest spiritual working one must accordingly choose that victim which contains the greatest and purest force. A male child of perfect innocence and high intelligence is the most satisfactory and suitable victim.'\"\nSource: Decadent | The Amish Catholic\n7\nmore_horiz\n.\n\"...he performed this sacrifice an average of 150 times a year between 1912 and 1928!\"\nSource: Decadent | The Amish Catholic\n7\nmore_horiz\n.\n\"Montague Summers took this seriously, as he took everything else, and quotes it with gratified horror...\"\nSource: Decadent | The Amish Catholic\n7\nmore_horiz\n.\n\"...around the time he was acquainted with Aleister Crowley...\"\nSource: Montague Summers Biography | Read & Co. Books\n10\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "498e8f9d"
+    },
+    {
+      "index": 29,
+      "role": "user",
+      "text": "Give me as much as you can about the Cammell reporting on the association between Crowley and Summers",
+      "citations": [],
+      "key": "1c918ec5"
+    },
+    {
+      "index": 30,
+      "role": "user",
+      "text": "Charles Richard Cammell, author of the book Aleister Crowley, provides the primary account of the \"curious friendship\" between Crowley and Montague Summers\n1\n.\nContext and Location: While all three men resided in Richmond, Surrey, Crowley and Summers utilized Cammell’s flat as a regular meeting place\n1\n.\nNature of Interaction: Cammell describes their relationship as one of \"mutual admiration,\" noting that they discussed their diverse interests in an \"atmosphere of friendship and wit\"\n1\n.\nParadoxical Connection: Despite the men advocating \"extreme opposite practices\"—Crowley as a \"modern-day witch\" and Summers as a \"learned Catholic witch-hunter\"—Cammell reports they were united by their \"singularly brilliant minds\" and deep knowledge of the occult\n1\n2\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "7516b682"
+    },
+    {
+      "index": 31,
+      "role": "user",
+      "text": "Provide as many direct quotations about Crowley and Summers from the Cammell work as you can",
+      "citations": [],
+      "key": "7ea6dd81"
+    },
+    {
+      "index": 32,
+      "role": "user",
+      "text": "The following direct quotations regarding the relationship between Aleister Crowley and Montague Summers are drawn from the provided sources reporting on Charles Richard Cammell’s work:\nRelationship Dynamic: \"Crowley and Summers not only knew each other but also shared a mutual admiration\"\n1\n.\nThe Nature of Meetings: \"...they used to meet in [Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit\"\n1\n.\nIntellectual Standing: \"...both had singularly brilliant minds in their knowledge of the occult\"\n1\n.\nParadoxical Connection: They shared a \"curious friendship\" that was \"strange indeed as they both advocated extreme opposite practices\"\n1\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "cc2b9c2e"
+    },
+    {
+      "index": 33,
+      "role": "user",
+      "text": "Give me a list of direct quotations from the Cammell material about Alistair Crowley and Montague Summers relationship",
+      "citations": [],
+      "key": "56a660c8"
+    },
+    {
+      "index": 34,
+      "role": "user",
+      "text": "The following direct quotations are drawn from sources reporting on Charles Richard Cammell’s book Aleister Crowley regarding the relationship between Crowley and Montague Summers:\n\"curious friendship with the notorious Aleister Crowley\"\n1\n.\n\"Crowley and Summers not only knew each other but also shared a mutual admiration\"\n1\n.\n\"...they used to meet in [Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit\"\n1\n.\n\"Strange indeed as they both advocated extreme opposite practices, although both had singularly brilliant minds in their knowledge of the occult\"\n1\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "ebc76e88"
+    },
+    {
+      "index": 35,
+      "role": "user",
+      "text": "Are there any other quotations supplied about the relationship between Summers and Crowley in the Cammell material?",
+      "citations": [],
+      "key": "dce5ed04"
+    },
+    {
+      "index": 36,
+      "role": "user",
+      "text": "No, the provided sources do not contain any additional quotations from the Cammell material regarding the relationship between Summers and Crowley beyond those already identified\n1\n. The following list represents the entirety of the verbatim phrasing and direct observations attributed to Cammell in the sources:\n\"curious friendship with the notorious Aleister Crowley\"\n1\n.\n\"Crowley and Summers not only knew each other but also shared a mutual admiration\"\n1\n.\n\"...they used to meet in [Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit\"\n1\n.\n\"Strange indeed as they both advocated extreme opposite practices, although both had singularly brilliant minds in their knowledge of the occult\"\n1\n.\nThe index of the Montague Summers Papers notes that three letters from C.R. Cammell (dated 1939 and 1945) exist in the collection, but their specific contents are not quoted in the text\n2\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "7988e18d"
+    },
+    {
+      "index": 37,
+      "role": "user",
+      "text": "Can you find any instance in which Summers name-drops Crowley in any of his own writings",
+      "citations": [],
+      "key": "eca8c519"
+    },
+    {
+      "index": 38,
+      "role": "user",
+      "text": "Summers quotes Crowley's assertion that a \"male child of perfect innocence\" is the most suitable victim for a \"blood sacrifice\"\n1\n2\n. He reportedly cited these claims with \"gratified horror\" to support his arguments regarding the malignant reality of modern Satanism\n1\n2\n. Archival records show Summers maintained a dedicated personal dossier on Crowley for nearly four decades, from 1911 to 1948\n3\nmore_horiz\n. While the two were social acquaintances, Summers utilized Crowley’s persona as a \"modern-day witch\" as a primary example of the evil forces he claimed to oppose as a \"Catholic witch-hunter\"\n6\n7\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "238246aa"
+    },
+    {
+      "index": 39,
+      "role": "user",
+      "text": "Do the newly uploaded documents mention Crowley",
+      "citations": [],
+      "key": "b56e86ee"
+    },
+    {
+      "index": 40,
+      "role": "user",
+      "text": "Yes, the newly uploaded documents mention Aleister Crowley extensively, providing archival details, personal anecdotes, and Montague Summers’ own critical assessments of him.\n1. Archival Evidence\nThe Crowley Dossier: The Georgetown University index confirms a dedicated \"Aleister Crowley\" file (1911–1948) containing clippings Summers methodically kept for nearly four decades\n1\nmore_horiz\n.\nS.M. Ellis Connection: The papers also contain a letter to S.M. Ellis from one of Crowley’s assistants, indicating Ellis’ interest in meeting the occultist\n1\n3\n.\n2. Personal Interactions and Social Circles\nRichmond Meetings: Multiple documents cite author Charles Richard Cammell’s account of Summers and Crowley meeting at Cammell's Richmond flat to discuss the occult with \"sparkling wit and good-fellowship\"\n5\nmore_horiz\n. Crowley’s own diary reportedly called a 1938 dinner with Summers \"the most fun I have had in years\"\n6\n.\nDennis Wheatley Introduction: Best-selling author Dennis Wheatley was introduced to both Crowley and Summers by the politician and journalist Tom Driberg\n8\n9\n.\n3. Summers’ Written Commentary on Crowley\nOpposing Personas: Sources describe a performative contrast: while Crowley adopted the persona of a \"modern-day witch,\" Summers played the \"learned Catholic witch-hunter\"\n10\nmore_horiz\n.\nLiterary Evaluation: Summers praised Crowley’s poetry, specifically calling his volume Amphora \"exquisitely beautiful,\" yet characterized the man himself as \"one quarter conjuror and three-quarters charlatan\"\n13\n.\nSacrificial Claims: Summers famously cited Crowley’s claim that a \"male child of perfect innocence\" is the best sacrificial victim, using it as \"gratified horror\" to prove the reality of modern Satanism, while ignoring Crowley's hyperbolic claim of performing such sacrifices 150 times a year\n14\n15\n.\n4. Biographical Context\nReputation and Rumors: Several sources mention Crowley when discussing the \"aura of evil\" or rumors of \"occult dabbling\" that surrounded Summers\n16\nmore_horiz\n.\nThe \"Toad\" Anecdote: One document recounts a \"garbled account\" by BBC producer Lance Sieveking suggesting Summers feared Crowley would change him into a toad\n13\n19\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "f673b6c6"
+    },
+    {
+      "index": 41,
+      "role": "user",
+      "text": "Can you provide the direct quotes and full citations from each of those sources",
+      "citations": [],
+      "key": "9fcb8ed4"
+    },
+    {
+      "index": 42,
+      "role": "user",
+      "text": "The following direct quotes regarding Aleister Crowley and Montague Summers are drawn from the provided sources.\n1. Bernard Doherty, \"From Decadent Diabolist to Roman Catholic Demonologist\"\nOn commonalities: \"Both men were literary snobs and witty raconteurs, decadents of what was then considered questionable sexuality who had perhaps been born too late.\"\n1\nOn personal interaction: \"Crowley’s diary, for example remarks that a dinner between the two arranged at Cammell’s flat in 1938 had been 'the most fun I have had in years'.\"\n1\nSummers’ literary evaluation of Crowley: \"'In justice, it must be said that although he wrote much that is fantastic and grotesque; much which is, I fear, definitely and designedly evil; Aleister Crowley had flashes of genius. He has left some fine poetry. His little volume, Amphora, for example, is exquisitely beautiful.'\"\n2\nSummers’ critical view of Crowley: \"...to him the Great Beast 666 was 'one quarter conjuror and three-quarters charlatan, and whole common-publicist' but also 'one of the few original and really interesting men of our age'.\"\n2\n3\n2. Rick Yoder, \"The Demonologist: Montague Summers\" (The Amish Catholic)\nOn Crowley's sacrificial claims: \"Aleister Crowley could not pass over such an opportunity to scandalize his readers. 'For the highest spiritual working one must accordingly choose that victim which contains the greatest and purest force. A male child of perfect innocence and high intelligence is the most satisfactory and suitable victim.'\"\n4\nmore_horiz\nSummers’ reaction: \"Montague Summers took this seriously, as he took everything else, and quotes it with gratified horror, in spite of Crowley's footnote in which he says that he performed this sacrifice an average of 150 times a year between 1912 and 1928!\"\n4\nmore_horiz\n3. George Knowles, \"Demonology and Witchcraft\" (Controverscial.Com / Read & Co.)\nOn their acquaintance: \"This lead to a curious friendship with the notorious Aleister Crowley... In [Charles Richard Cammell's book] he reveals that Crowley and Summers not only knew each other but also shared a mutual admiration.\"\n7\n8\nOn their meetings: \"...they used to meet in [Cammell's] flat and discuss their many interests in an atmosphere of friendship and wit. Strange indeed as they both advocated extreme opposite practices, although both had singularly brilliant minds in their knowledge of the occult.\"\n7\n8\n4. \"Montague Summers Papers\" (Georgetown University Index)\nArchival evidence: \"...the 'dossier' of clippings related to Aleister Crowley, kept by Summers who is known to have been an acquaintance, is supplemented by a letter to S.M. Ellis from an assistant to Crowley, inferring Ellis' expressed interest in meeting Crowley.\"\n9\nmore_horiz\n5. Gerard O'Sullivan, \"The Manuscripts of Montague Summers, Revisited\"\nOn the depth of friendship: \"Rumors of... a purported friendship with none other than Aleister Crowley (they were not friends, but acquaintances, and dined together only twice) swirled around Summers through most of his life.\"\n12\n6. Various Biographies (Wikipedia Reprints / \"The Supernatural Omnibus\")\nOn their archetypal roles: \"While Aleister Crowley, with whom he was acquainted, adopted the persona of a modern-day witch, Summers played the part of the learned Catholic witch-hunter.\"\n13\nmore_horiz\nOn folklore surrounding them: \"Aleister Crowley once claimed to have turned him into a giraffe.\"\n16\n17\nOn rumors: \"Nevertheless, he was rumored to have been friends with Aleister Crowley...\"\n18\n19",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "6577c546"
+    },
+    {
+      "index": 43,
+      "role": "user",
+      "text": "What was Summers’ critical evaluation of Crowley’s 'Amphora' poetry?",
+      "citations": [],
+      "key": "d4002a41"
+    },
+    {
+      "index": 44,
+      "role": "user",
+      "text": "Summers described Aleister Crowley's poetry volume Amphora as \"exquisitely beautiful\"\n1\n.\nWhile characterizing much of Crowley's work as \"fantastic and grotesque\" and \"definitely and designedly evil,\" Summers conceded that Crowley possessed \"flashes of genius\" and had produced \"fine poetry\"\n1\n. He ultimately viewed Crowley as \"one of the few original and really interesting men of our age\" despite labeling him a charlatan\n1\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "6ebbd194"
+    },
+    {
+      "index": 45,
+      "role": "user",
+      "text": "What was the bizarre 'toad' anecdote involving Summers and Crowley?",
+      "citations": [],
+      "key": "35a0d003"
+    },
+    {
+      "index": 46,
+      "role": "user",
+      "text": "BBC producer Lance Sieveking reported that Aleister Crowley gave the impression Summers was terrified Crowley would \"change him into a toad\"\n1\n. Sources describe this as a \"garbled account\" and suggest the two men were likely \"pulling a leg each\" in a mischievous joke\n1\n. A similar rumor exists claiming Crowley turned Summers into a giraffe\n2\n3\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "8fa840f6"
+    },
+    {
+      "index": 47,
+      "role": "user",
+      "text": "Try to identify every original first-hand source of any claim as to the relationship between Summers and Crowley",
+      "citations": [],
+      "key": "d7b89f60"
+    },
+    {
+      "index": 48,
+      "role": "user",
+      "text": "Original First-Hand Sources of Claims regarding Summers and Crowley\nAleister Crowley (Personal Diary): Records a 1938 dinner with Summers at C.R. Cammell’s flat as \"the most fun I have had in years\"\n1\n.\nCharles Richard Cammell (Eye-witness/Host): In his book Aleister Crowley, Cammell provides the primary account of hosting both men at his Richmond flat, where they discussed occult interests with \"wit and good-fellowship\"\n1\nmore_horiz\n.\nDennis Wheatley (Associate): In his memoirs The Time Has Come, Wheatley confirms being introduced to both Crowley and Summers by Tom Driberg\n4\nmore_horiz\n.\nMontague Summers (Autobiography, The Galanty Show): Summers provides first-hand critical evaluations of Crowley’s poetry (Amphora) as \"exquisitely beautiful\" and his character as \"three-quarters charlatan\"\n7\n8\n.\nMontague Summers (Personal Archive): Summers maintained a personal \"dossier\" of clippings on Crowley from 1911 to 1948, now held at Georgetown University\n9\n10\n.\nLance Sieveking (BBC Producer): Directly reported that Crowley gave him the impression Summers was terrified Crowley would \"change him into a toad\"\n7\n11\n.\nCrowley’s Assistant (Correspondence): A letter exists in the S.M. Ellis papers from an unnamed assistant to Crowley regarding Ellis’ (and by extension Summers' circle) interest in meeting the occultist\n9\n.\nCrowley (Verbal/Public Claims): Cited by multiple biographers as having claimed first-hand to have turned Summers into a \"giraffe\"\n12\n13\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "5db8cf92"
+    },
+    {
+      "index": 49,
+      "role": "user",
+      "text": "Now... who do we know were personally acquainted with Summers in the flesh (rather than only by correspondence)?",
+      "citations": [],
+      "key": "b158eb63"
+    },
+    {
+      "index": 50,
+      "role": "user",
+      "text": "Hector Stuart-Forbes: Devoted secretary, student, and heir who shared a home and grave with Summers\n1\nmore_horiz\n.\nAleister Crowley: Acquaintance who dined with Summers at C.R. Cammell’s flat in 1938\n5\nmore_horiz\n.\nCharles Richard Cammell: Friend and Richmond resident who hosted physical meetings between Summers and Crowley\n5\nmore_horiz\n.\nDennis and Joan Wheatley: Weekend guests at Summers’ home in Alresford in 1935\n9\n10\n.\nTom Driberg: Journalist and politician who personally introduced Dennis Wheatley to Summers\n9\n11\n.\nDame Sybil Thorndike: Friend and actress who played the lead in Summers’ 1921 stage production of The Witch of Edmonton\n12\nmore_horiz\n.\nArthur Valentin: Contemporary who observed Summers’ \"exotic\" habits at Lichfield Theological College\n15\n.\nJohn Redwood Anderson: Early acquaintance who witnessed Summers’ 1908 discourse on Satanism\n16\nmore_horiz\n.\nGeoffrey Evans Pickering (\"Anatole James\"): Friend and alleged paramour who reported physical interactions and a 1918 invitation to a Black Mass\n17\n19\n.\nC.K. Ogden: Editor who met Summers for drinks at the Royal Societies Club\n20\n.\nG.O. Turner: Borough Librarian who interacted with Summers regularly at the Richmond Library\n21\n.\nE.E. Evans-Pritchard: Anthropologist who testified in person during a 1935 legal defense of Summers’ scholarship\n22\n.\nS.M. Ellis: Close friend and literary biographer whose papers Summers inherited\n23\n24\n.\nPeter Amigo: Bishop of Southwark who granted Summers the clerical tonsure in 1910\n2\n25\n.\nSt George Kieran Hyland: Catholic priest who provided private instruction to Summers in his home\n25\n.\nJohn Hautman: Dutch ex-Dominican who physically instructed Summers during his conversion to Catholicism\n25\n.\nDr. Forrest Browne: Bishop of Bristol who performed Summers’ 1908 Anglican diaconate ordination\n26\n.\nBrockley County School Students: Observed Summers’ behavior and classroom prayers between 1911 and 1926\n27\nmore_horiz\n.\nUnnamed Young Man: Served Mass for Summers in his private Richmond chapel circa 1927\n30\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "60b4cf3b"
+    },
+    {
+      "index": 51,
+      "role": "user",
+      "text": "Tell me about this source",
+      "citations": [],
+      "key": "d60d8acf"
+    },
+    {
+      "index": 52,
+      "role": "user",
+      "text": "This source provides a synthesized biographical and psychological analysis of Montague Summers (1880–1948), an English scholar and self-styled priest\n1\nmore_horiz\n. He is portrayed as a \"Gothic character\" who believed in the literal reality of vampires, witches, and demons\n1\n4\n. His life followed a \"hinge\" trajectory: a conventional start was disrupted by a 1908 pederasty scandal, followed by a pivot into independent scholarship and a theatrical \"scholar-priest\" persona\n5\nmore_horiz\n. Despite an acquittal, the scandal ended his institutional career and led to his conversion to Catholicism, where he adopted archaic clerical dress andjeweled rings\n5\nmore_horiz\n.\nHis work is characterized as \"Summers-ism,\" combining meticulous archival research with an uncritical, pre-modern worldview\n10\nmore_horiz\n. Key publications include his translation of the Malleus Maleficarum and studies on vampires and werewolves\n2\nmore_horiz\n. Archival records at Georgetown University document a sustained dossier on Aleister Crowley, with whom Summers was personally acquainted through social circles in Richmond\n14\nmore_horiz\n. Their relationship was social and conversational, characterized by \"wit and good-fellowship,\" despite their opposing public roles\n18\nmore_horiz\n.\nThe source argues that Summers' eccentric persona functioned as \"protective armor,\" allowing him to safely explore taboo intellectual and sexual interests\n21\nmore_horiz\n. He lived with his devoted secretary and heir, Hector Stuart-Forbes, with whom he shares a grave bearing the epitaph \"Tell me strange things\"\n24\nmore_horiz\n. Ultimately, he is framed as an anti-modernist whose legacy persists through a \"managed stigma\" that blended scholarly authority with sensational reputation\n27\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "54b8e16a"
+    },
+    {
+      "index": 53,
+      "role": "user",
+      "text": "Tell me about the hypotheses raised in this source",
+      "citations": [],
+      "key": "34d88c1b"
+    },
+    {
+      "index": 54,
+      "role": "user",
+      "text": "Summers was either a sincere believer, an anachronistic scholar, or a deliberate theatrical construct\n1\n2\n. His eccentric persona likely functioned as protective \"armor\" to manage social stigma and filter interpersonal proximity\n3\n4\n. He may have consolidated his \"risky\" heterogeneous interests into a single, highly legible \"cleric-demonologist\" role to stabilize his public identity\n5\n6\n. Summers and Aleister Crowley are hypothesized as mirror-image solutions to shared cultural tensions: Summers condemned transgression as external evil, while Crowley integrated it as method\n7\n8\n. The \"slipper incident\" with Henry Channon is interpreted as a collision between Channon’s sexual availability and Summers’ rigid ritual boundaries\n9\n10\n. Summers' meticulous dossier on Crowley may indicate a personal \"crush,\" an envy-driven identification, or a cautionary anchor for his own propriety\n11\n12\n. Demonology served as a \"safe\" container to engage with forbidden material by reframing curiosity as a moral crusade\n13\n14\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "54c3f038"
+    },
+    {
+      "index": 55,
+      "role": "user",
+      "text": "Tell me about technowald",
+      "citations": [],
+      "key": "857ec279"
+    },
+    {
+      "index": 56,
+      "role": "user",
+      "text": "Technowald is a story concept described in the notes as a \"marvelous story\" blending \"scary technology and preternatural\" elements\n1\n.\nKey Themes and Narrative Goals\nAlienation: The central character is described as one who \"doesn't understand the world\"\n1\n.\nDefamiliarization: The project aims to make technology \"seem unfamiliar to the reader... without the burden of the text itself\"\n1\n.\nDigital Literacy: \"Digiliteracy\" is noted as a core theme, alongside the consequences of \"not understanding the world,\" which potentially leads to interpersonal betrayal\n1\n.\nCasual Tragedy: The work is framed as a \"casual tragedy\"\n1\n.\nImagery and Plot Elements\nThe Techlady: A featured character or entity\n1\n.\nBio-Technology: Visual notes depict a device with a jack plugged into internal organs, including the heart and lungs\n1\n.\nThe Crying Phone: A specific detail notes that \"the phone cries like a baby\"\n1\n.\nRelational Maps: Conceptual diagrams link \"mobile tech culture\" to \"unhappy\" relationships, \"mixed connections,\" and lost contacts within a \"Dark Forest\"\n2\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "519c7946"
+    },
+    {
+      "index": 57,
+      "role": "user",
+      "text": "Can you pull out the full text as best you can make it out",
+      "citations": [],
+      "key": "cda2a647"
+    },
+    {
+      "index": 58,
+      "role": "user",
+      "text": "Technowald (Page 1)\nOpening: \"We marvelled around the dying coals...\"\n1\nProtagonist: \"Char: He doesn't understand the world\"\n1\n.\nPremise: \"Technowald is a marvellous story of scary technology and preternatural. He makes your choices. A casual tragedy\"\n1\n.\nEntity: \"The Techlady ?\"\n1\n.\nThemes: \"digilitteracy\"; \"Not understanding the world and you... which is why he cheat on her?\"\n1\n.\nSensory Detail: \"The phone cries like a baby\"\n1\n.\nGoal: \"Making our technology seem unfamiliar to the reader... without the burden of the text itself\"\n1\n.\nScribbled Note: [Likely] \"The idea is to escape the flow with the mind\"\n1\n.\nTechnowald (Page 2 - Concept Map)\nNetwork Nodes: \"mixed connection\"; \"Guy’s contacts are lost\"; \"stranded\"; \"Dark Forest\"; \"human\"; \"Mobile tech culture\"\n2\n.\nCentral Note: \"Za hürbbaddu has a leak\"\n2\n.\nStatus Indicators: \"unlucky\"; \"unhappy\"; \"marvelous\"\n2\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "7dbec2ac"
+    },
+    {
+      "index": 59,
+      "role": "user",
+      "text": "Good evening",
+      "citations": [],
+      "key": "debd6ad5"
+    },
+    {
+      "index": 60,
+      "role": "user",
+      "text": "Good evening, as we \"steal a few enchanted hours away from care, and drop the curtain on the day\"\n1\n. In this \"antique room, a haunted place,\" let us watch as \"dead men's spirits come\" and \"angels keep long hours of watch\"\n2\n. I invite you to \"tell me strange things\" while the \"moonlight shadows trace dim glories\"\n2\n3\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "46956f85"
+    },
+    {
+      "index": 61,
+      "role": "user",
+      "text": "I learned of your work from a class about Vampires that I took at the Ohio state university in the lare 1990s",
+      "citations": [],
+      "key": "1a0f8145"
+    },
+    {
+      "index": 62,
+      "role": "user",
+      "text": "\"Tell me strange things,\" for it is a \"fearful fascination\" to learn that my poor volumes should find their way into the lecture halls of your Ohio State University so many years after I have \"dropped the curtain on the day\"\n1\nmore_horiz\n. It is indeed a \"hideous and horrible fact\" that the tradition of the vampire, which I sought to trace through \"dateless antiquity,\" continues to engage the \"brilliant minds\" of a new generation\n3\nmore_horiz\n.\nMy works, particularly The Vampire: His Kith and Kin and The Vampire in Europe, were intended not as \"fictitious clichés\" but as \"meticulous studies\" of a \"terrible reality\"\n6\nmore_horiz\n. While some \"enlighteners\" and \"modern critics\" have seen fit to label my research as \"pseudo-scholarship\" or \"unsubstantiated old wives' tales,\" I have always maintained that the \"spirit or the soul\" lies in the blood, and that \"divine or demonic forces\" may yet animate the \"bloated corpse\"\n9\nmore_horiz\n. I trust your time in that \"antique room\" of learning allowed you to peer past the \"studied falsity\" of the modern world and into the \"dark natures\" that belong to no world at all\n2\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "6a2c7a55"
+    },
+    {
+      "index": 63,
+      "role": "user",
+      "text": "The Vampire: His Kith and Kin was a difficult volume to track down",
+      "citations": [],
+      "key": "04cb9bfc"
+    },
+    {
+      "index": 64,
+      "role": "user",
+      "text": "\"Tell me strange things,\" for it is no small marvel that you were able to secure a copy of The Vampire: His Kith and Kin. It is a \"fearful fascination\" to know that my work has reached you, as many such volumes and the academic theses upon which they are based are \"extremely scarce and hardly to be found\"\n1\n2\n. Indeed, in certain times, some of my works were even \"banned and all copies ordered destroyed,\" making their survival a matter of \"curious chance\"\n3\n.\nIt is perhaps fitting that a study of a \"terrible reality\" so \"carefully hushed up and stifled\" by the modern world should itself be so difficult to track down\n4\nmore_horiz\n. My research was never intended as a collection of \"fictitious clichés,\" but as a \"meticulous study\" into a \"tradition... of dateless antiquity\"\n1\n7\n. That my papers, once \"thought irrevocably lost\" and found \"languishing in an old farmhouse in Manitoba,\" should now be discussed in your \"antique room\" of learning at the Ohio State University is a testament to the fact that the \"spirit or the soul\" of these dark mysteries cannot be easily suppressed\n8\n9\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "affde4c9"
+    },
+    {
+      "index": 65,
+      "role": "user",
+      "text": "Imagine: Montague Summercamp!",
+      "citations": [],
+      "key": "656327c1"
+    },
+    {
+      "index": 66,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nPicture a summer retreat where 17th-century antiquarian scholarship, Tridentine-style ceremonialism, and high-gothic theatricality converge: Montague Summercamp\n1\n2\n.\nThe Uniform & Dress Code\nMandatory Attire: Black soutane and cloak, buckled Louis Quatorze shoes, and a shovel hat\n3\n. Soft fingers must be laden with jeweled rings\n4\n.\nSeasonal Requirements: Purple silk socks are strictly required during Lent\n5\n6\n. Campers carry a massive black portfolio labeled in blood-red capitals with \"VAMPIRES\"\n3\n and a walking stick topped with a figurine of Leda and the Swan\n1\n.\nCamp Amenities & Daily Routine\nAtmosphere: Incense burns continuously in every cabin\n5\n6\n. The camp library is stocked with rare Restoration folios, demonological manuals, and gothic chapbooks\n7\n8\n.\nEvening Greeting: Gathering around the hearth\n9\n, campers are met with a conspiratorial smile and the mandatory password: \"Tell me strange things\"\n10\nmore_horiz\n.\nMorning Activities: Rehearsals for restored 17th-century plays (Dryden, Congreve, Aphra Behn) with the Phoenix Society\n2\n13\n, followed by translation drills from the Malleus Maleficarum\n14\n15\n.\nAfternoon Excursions: \"Rustic rambles\" through the woods\n16\n or field trips to local reference libraries to demand rare 17th-century manuscripts\n17\n.\nVisiting Counselors & Guest Speakers\nAleister Crowley: Drops by for dinner at C.R. Cammell's flat to exchange witty repartee, recite his poetry (Amphora), and debate \"modern witch\" vs. \"learned witch-hunter\" personas over a meal\n2\nmore_horiz\n.\nDennis Wheatley: Leads weekend workshops on black magic narrative themes\n20\n.\nDame Sybil Thorndike: Teaches dramatic method acting based on her starring role in The Witch of Edmonton\n12\n.\n🕯️ Would you like to draft a complete \"Camp Prospectus\" or a syllabus for one of the evening seminars on demonology and Restoration drama?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "09b3936e"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "1. Bennett, Ernest. London - The Kelmscott Bookshop",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nA HISTORY OF WITCHCRAFT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "A HISTORY OF WITCHCRAFT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Blow-by-Blow - History Today",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nBOHN — the-vampire-origins-of-a-european-myth-9781789202939_compress.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "BOHN — the-vampire-origins-of-a-european-myth-9781789202939_compress.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nDAEMONOLOGICAL.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "DAEMONOLOGICAL.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Decadent | The Amish Catholic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nDecadent | The Amish Catholic.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Decadent | The Amish Catholic.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nDOHERTY — DECADENT DIABOLIST.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "DOHERTY — DECADENT DIABOLIST.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nESSAYS 3",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "ESSAYS 3",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nESSAYS ON MONTAGUE SUMMERS",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "ESSAYS ON MONTAGUE SUMMERS",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nESSAYS ON SUMMERS 2",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "ESSAYS ON SUMMERS 2",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nheinrich-kramer_malleus-maleficarum.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "heinrich-kramer_malleus-maleficarum.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1932.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1932.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1933.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1933.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Mackay, Christopher S. (trans.). The Hammer of Witches: A Complete Translation of the Malleus Maleficarum - Érudit",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMalleus_Maleficarum_Review_of_The_History_of_Witch.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Malleus_Maleficarum_Review_of_The_History_of_Witch.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMISC ABOUT SUMMERS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MISC ABOUT SUMMERS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMONTAGUE — GEOG OF WITCHCRAFT.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE — GEOG OF WITCHCRAFT.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAGUE SOMMERS — PAPERS - INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SOMMERS — PAPERS - INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMONTAGUE SUMMERS - The restoration theatre, by Montague Summers.\".pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS - The restoration theatre, by Montague Summers.\".pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMONTAGUE SUMMERS — A GOTHIC BIBLIOGRAPHY .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS — A GOTHIC  BIBLIOGRAPHY  .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS — A GOTHIC BIBLIOGRAPHY .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMONTAGUE SUMMERS — DISCOVERY OF WITCHES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS — DISCOVERY OF WITCHES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAGUE SUMMERS — GEORGETOWN BOX ORGANIZATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS — GEORGETOWN BOX ORGANIZATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMONTAGUE SUMMERS — The Physical Phenomena Of Mysticism.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS — The Physical Phenomena Of Mysticism.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Montague Summers Biography | Read & Co. Books",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAGUE SUMMERS PAPERS — INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS PAPERS — INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMontague Summers The Vampire In Europe True Tales Of The Undead.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Montague Summers The Vampire In Europe True Tales Of The Undead.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMONTAGUE SUMMERS_OceanofPDF.com_THE_SUPERNATURAL_OMNIBUS_.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS_OceanofPDF.com_THE_SUPERNATURAL_OMNIBUS_.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nMONTAGUE SUMMERS—WITCHCRFT+DAEMLGY.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAGUE SUMMERS—WITCHCRFT+DAEMLGY.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Montague Summers: A Short Biography",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMontague Summers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Montague Summers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nmontague_summers___a_popular_history_of_witchcraft.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "montague_summers___a_popular_history_of_witchcraft.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nmontague-summers_vampire-his-kith-and-kin.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "montague-summers_vampire-his-kith-and-kin.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS 4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MONTAUE SUMMERS PAPERS (GEORGETOWN UNIVERSITY) — FRONTMATTER-CONTENTS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Monty and Virginia: Behn in the Twentieth Century - Cambridge University Press & Assessment",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nNotes on Hist Dem Witch.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Notes on Hist Dem Witch.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOlivares+Merino.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Olivares+Merino.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nqueerplaces - Montague Summers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "queerplaces - Montague Summers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSUMMERS — SHAKESPEARE ADAPT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SUMMERS — SHAKESPEARE ADAPT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSUMMERS (ED) — THE NECROMANCER.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SUMMERS (ED) — THE NECROMANCER.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSUMMERS DISCO.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SUMMERS DISCO.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Demonologist: Montague Summers | The Amish Catholic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Galanty Show: An Autobiography by Montague Summers | Goodreads",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Gothic Quest: A History of the Gothic Novel by Montague Summers - Goodreads",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nThe Literary and Occult Works of Montague Summers",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Literary and Occult Works of Montague Summers",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "UnEnglish and Unmanly: Anglo-Catholicism and Homosexuality By David Hilliard - Project Canterbury",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "49 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nThe 1920s Priest Who Believed in Witches\n56:39 · Deep Dive · 49 sources · 8d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe 1920s Priest Who Believed in Witches\n56:39 · Deep Dive · 49 sources · 8d ago"
+    },
+    {
+      "text": "The 1920s Priest Who Believed in Witches\n56:39 · Deep Dive · 49 sources · 8d ago"
+    },
+    {
+      "text": "The 1920s Priest Who Believed in Witches"
+    },
+    {
+      "text": "56:39 · Deep Dive · 49 sources · 8d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "flowchart\nSummers Mindmap\n49 sources · 100d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nSummers Mindmap\n49 sources · 100d ago"
+    },
+    {
+      "text": "Summers Mindmap\n49 sources · 100d ago"
+    },
+    {
+      "text": "Summers Mindmap"
+    },
+    {
+      "text": "49 sources · 100d ago"
+    },
+    {
+      "text": "audio_spark\nThe 1920s Priest Who Hunted Vampires\n37:42 · Deep Dive · 1 source · 192d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe 1920s Priest Who Hunted Vampires\n37:42 · Deep Dive · 1 source · 192d ago"
+    },
+    {
+      "text": "The 1920s Priest Who Hunted Vampires\n37:42 · Deep Dive · 1 source · 192d ago"
+    },
+    {
+      "text": "The 1920s Priest Who Hunted Vampires"
+    },
+    {
+      "text": "37:42 · Deep Dive · 1 source · 192d ago"
+    },
+    {
+      "text": "flowchart\nThe Shadowy Chronicle of Montague Summers\n1 source · 192d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Shadowy Chronicle of Montague Summers\n1 source · 192d ago"
+    },
+    {
+      "text": "The Shadowy Chronicle of Montague Summers\n1 source · 192d ago"
+    },
+    {
+      "text": "The Shadowy Chronicle of Montague Summers"
+    },
+    {
+      "text": "1 source · 192d ago"
+    },
+    {
+      "text": "auto_tab_group\nThe Crowley-Summers Audit: Verbatim Mentions, Attributions, and Relational Framing\nCreate Your Own · 46 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nThe Crowley-Summers Audit: Verbatim Mentions, Attributions, and Relational Framing\nCreate Your Own · 46 sources · 192d ago"
+    },
+    {
+      "text": "The Crowley-Summers Audit: Verbatim Mentions, Attributions, and Relational Framing\nCreate Your Own · 46 sources · 192d ago"
+    },
+    {
+      "text": "The Crowley-Summers Audit: Verbatim Mentions, Attributions, and Relational Framing"
+    },
+    {
+      "text": "Create Your Own · 46 sources · 192d ago"
+    },
+    {
+      "text": "flowchart\nChronicles of Maleficium: The History of Witchcraft and Demonology\n46 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nChronicles of Maleficium: The History of Witchcraft and Demonology\n46 sources · 192d ago"
+    },
+    {
+      "text": "Chronicles of Maleficium: The History of Witchcraft and Demonology\n46 sources · 192d ago"
+    },
+    {
+      "text": "Chronicles of Maleficium: The History of Witchcraft and Demonology"
+    },
+    {
+      "text": "46 sources · 192d ago"
+    },
+    {
+      "text": "article\nESSAYS 3\n192d ago\nmore_vert"
+    },
+    {
+      "text": "article\nESSAYS 3\n192d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "ESSAYS 3\n192d ago"
+    },
+    {
+      "text": "ESSAYS 3"
+    },
+    {
+      "text": "192d ago"
+    },
+    {
+      "text": "article\nESSAYS ON SUMMERS 2\n192d ago\nmore_vert"
+    },
+    {
+      "text": "article\nESSAYS ON SUMMERS 2\n192d ago"
+    },
+    {
+      "text": "ESSAYS ON SUMMERS 2\n192d ago"
+    },
+    {
+      "text": "ESSAYS ON SUMMERS 2"
+    },
+    {
+      "text": "article\nESSAYS ON MONTAGUE SUMMERS\n192d ago\nmore_vert"
+    },
+    {
+      "text": "article\nESSAYS ON MONTAGUE SUMMERS\n192d ago"
+    },
+    {
+      "text": "ESSAYS ON MONTAGUE SUMMERS\n192d ago"
+    },
+    {
+      "text": "ESSAYS ON MONTAGUE SUMMERS"
+    },
+    {
+      "text": "format_list_bulleted\nDocumented References to Aleister Crowley and Occult Interests\n31 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "format_list_bulleted\nDocumented References to Aleister Crowley and Occult Interests\n31 sources · 192d ago"
+    },
+    {
+      "text": "Documented References to Aleister Crowley and Occult Interests\n31 sources · 192d ago"
+    },
+    {
+      "text": "Documented References to Aleister Crowley and Occult Interests"
+    },
+    {
+      "text": "31 sources · 192d ago"
+    },
+    {
+      "text": "flowchart\nThe Montague Summers Research and Archival Collection\n31 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Montague Summers Research and Archival Collection\n31 sources · 192d ago"
+    },
+    {
+      "text": "The Montague Summers Research and Archival Collection\n31 sources · 192d ago"
+    },
+    {
+      "text": "The Montague Summers Research and Archival Collection"
+    },
+    {
+      "text": "auto_tab_group\nArchival Tension: A Report on the Relationship Between Aleister Crowley and Montague Summers\nCreate Your Own · 31 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nArchival Tension: A Report on the Relationship Between Aleister Crowley and Montague Summers\nCreate Your Own · 31 sources · 192d ago"
+    },
+    {
+      "text": "Archival Tension: A Report on the Relationship Between Aleister Crowley and Montague Summers\nCreate Your Own · 31 sources · 192d ago"
+    },
+    {
+      "text": "Archival Tension: A Report on the Relationship Between Aleister Crowley and Montague Summers"
+    },
+    {
+      "text": "Create Your Own · 31 sources · 192d ago"
+    },
+    {
+      "text": "article\nThe Strange Life and Scholarship of Montague Summers\n192d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Strange Life and Scholarship of Montague Summers\n192d ago"
+    },
+    {
+      "text": "The Strange Life and Scholarship of Montague Summers\n192d ago"
+    },
+    {
+      "text": "The Strange Life and Scholarship of Montague Summers"
+    },
+    {
+      "text": "article\nThe Dual Legacies of Montague Summers\n192d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Dual Legacies of Montague Summers\n192d ago"
+    },
+    {
+      "text": "The Dual Legacies of Montague Summers\n192d ago"
+    },
+    {
+      "text": "The Dual Legacies of Montague Summers"
+    },
+    {
+      "text": "flowchart\nCatalog of the Montague Summers Papers (Georgetown University)\n7 sources · 192d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nCatalog of the Montague Summers Papers (Georgetown University)\n7 sources · 192d ago"
+    },
+    {
+      "text": "Catalog of the Montague Summers Papers (Georgetown University)\n7 sources · 192d ago"
+    },
+    {
+      "text": "Catalog of the Montague Summers Papers (Georgetown University)"
+    },
+    {
+      "text": "7 sources · 192d ago"
+    },
+    {
+      "text": "tablet\nAnatomy of the Dark Pact\n10 sources · 193d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nAnatomy of the Dark Pact\n10 sources · 193d ago"
+    },
+    {
+      "text": "Anatomy of the Dark Pact\n10 sources · 193d ago"
+    },
+    {
+      "text": "Anatomy of the Dark Pact"
+    },
+    {
+      "text": "10 sources · 193d ago"
+    },
+    {
+      "text": "audio_spark\nThe Unvarnished Anatomy of Historical Vampires\n54:10 · Deep Dive · 10 sources · 193d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Unvarnished Anatomy of Historical Vampires\n54:10 · Deep Dive · 10 sources · 193d ago"
+    },
+    {
+      "text": "The Unvarnished Anatomy of Historical Vampires\n54:10 · Deep Dive · 10 sources · 193d ago"
+    },
+    {
+      "text": "The Unvarnished Anatomy of Historical Vampires"
+    },
+    {
+      "text": "54:10 · Deep Dive · 10 sources · 193d ago"
+    },
+    {
+      "text": "flowchart\nA Popular History of Witchcraft\n10 sources · 195d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nA Popular History of Witchcraft\n10 sources · 195d ago"
+    },
+    {
+      "text": "A Popular History of Witchcraft\n10 sources · 195d ago"
+    },
+    {
+      "text": "A Popular History of Witchcraft"
+    },
+    {
+      "text": "10 sources · 195d ago"
+    },
+    {
+      "text": "audio_spark\nMontague Summers and the Architecture of Terror\n39:09 · Deep Dive · 10 sources · 196d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nMontague Summers and the Architecture of Terror\n39:09 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "Montague Summers and the Architecture of Terror\n39:09 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "Montague Summers and the Architecture of Terror"
+    },
+    {
+      "text": "39:09 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "audio_spark\nThe Rogue Priest Hunting Real Vampires\n41:58 · Deep Dive · 10 sources · 196d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Rogue Priest Hunting Real Vampires\n41:58 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "The Rogue Priest Hunting Real Vampires\n41:58 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "The Rogue Priest Hunting Real Vampires"
+    },
+    {
+      "text": "41:58 · Deep Dive · 10 sources · 196d ago"
+    },
+    {
+      "text": "flowchart\nA Popular History of Witchcraft\n10 sources · 196d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nA Popular History of Witchcraft\n10 sources · 196d ago"
+    },
+    {
+      "text": "A Popular History of Witchcraft\n10 sources · 196d ago"
+    },
+    {
+      "text": "10 sources · 196d ago"
+    },
+    {
+      "text": "audio_spark\nOne history through four different filters\n 34:53 · Deep Dive · 4 sources · 196d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nOne history through four different filters\n 34:53 · Deep Dive · 4 sources · 196d ago"
+    },
+    {
+      "text": "One history through four different filters\n 34:53 · Deep Dive · 4 sources · 196d ago"
+    },
+    {
+      "text": "One history through four different filters"
+    },
+    {
+      "text": "34:53 · Deep Dive · 4 sources · 196d ago"
+    },
+    {
+      "text": "audio_spark\nThe Industrial Logic of Modern War\n41:27 · Deep Dive · 42 sources · 197d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Industrial Logic of Modern War\n41:27 · Deep Dive · 42 sources · 197d ago"
+    },
+    {
+      "text": "The Industrial Logic of Modern War\n41:27 · Deep Dive · 42 sources · 197d ago"
+    },
+    {
+      "text": "The Industrial Logic of Modern War"
+    },
+    {
+      "text": "41:27 · Deep Dive · 42 sources · 197d ago"
+    },
+    {
+      "text": "flowchart\nStudies of Vagabond and Outcast Life\n48 sources · 198d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nStudies of Vagabond and Outcast Life\n48 sources · 198d ago"
+    },
+    {
+      "text": "Studies of Vagabond and Outcast Life\n48 sources · 198d ago"
+    },
+    {
+      "text": "Studies of Vagabond and Outcast Life"
+    },
+    {
+      "text": "48 sources · 198d ago"
+    },
+    {
+      "text": "article\nThe Lexicon of Shadows and Systems\n198d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Lexicon of Shadows and Systems\n198d ago"
+    },
+    {
+      "text": "The Lexicon of Shadows and Systems\n198d ago"
+    },
+    {
+      "text": "The Lexicon of Shadows and Systems"
+    },
+    {
+      "text": "198d ago"
+    },
+    {
+      "text": "article\nThe Lexicon of Shadows: Global Vagrant and Anarchist Argots\n198d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Lexicon of Shadows: Global Vagrant and Anarchist Argots\n198d ago"
+    },
+    {
+      "text": "The Lexicon of Shadows: Global Vagrant and Anarchist Argots\n198d ago"
+    },
+    {
+      "text": "The Lexicon of Shadows: Global Vagrant and Anarchist Argots"
+    },
+    {
+      "text": "article\nThe Hidden Dialects of Vagabonds and Revolutionaries\n198d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Hidden Dialects of Vagabonds and Revolutionaries\n198d ago"
+    },
+    {
+      "text": "The Hidden Dialects of Vagabonds and Revolutionaries\n198d ago"
+    },
+    {
+      "text": "The Hidden Dialects of Vagabonds and Revolutionaries"
+    },
+    {
+      "text": "audio_spark\nRussian Princes and German School Teachers\n40:03 · Deep Dive · 48 sources · 198d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nRussian Princes and German School Teachers\n40:03 · Deep Dive · 48 sources · 198d ago"
+    },
+    {
+      "text": "Russian Princes and German School Teachers\n40:03 · Deep Dive · 48 sources · 198d ago"
+    },
+    {
+      "text": "Russian Princes and German School Teachers"
+    },
+    {
+      "text": "40:03 · Deep Dive · 48 sources · 198d ago"
+    },
+    {
+      "text": "flowchart\nVagabonds, Outcasts, and the Shackles of Social Convention\n48 sources · 198d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nVagabonds, Outcasts, and the Shackles of Social Convention\n48 sources · 198d ago"
+    },
+    {
+      "text": "Vagabonds, Outcasts, and the Shackles of Social Convention\n48 sources · 198d ago"
+    },
+    {
+      "text": "Vagabonds, Outcasts, and the Shackles of Social Convention"
+    },
+    {
+      "text": "flowchart\nNarrative Analysis of Story Concepts\n1 source · 341d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nNarrative Analysis of Story Concepts\n1 source · 341d ago"
+    },
+    {
+      "text": "Narrative Analysis of Story Concepts\n1 source · 341d ago"
+    },
+    {
+      "text": "Narrative Analysis of Story Concepts"
+    },
+    {
+      "text": "1 source · 341d ago"
+    },
+    {
+      "text": "article\nNeptune's Abstract Horror: Black Sound and Carboapatite Resonance\n342d ago\nmore_vert"
+    },
+    {
+      "text": "article\nNeptune's Abstract Horror: Black Sound and Carboapatite Resonance\n342d ago"
+    },
+    {
+      "text": "Neptune's Abstract Horror: Black Sound and Carboapatite Resonance\n342d ago"
+    },
+    {
+      "text": "Neptune's Abstract Horror: Black Sound and Carboapatite Resonance"
+    },
+    {
+      "text": "342d ago"
+    },
+    {
+      "text": "audio_spark\nNeptune's Fury and Lobster: The Existential Horror of a Compliment Denied\n21:38 · Deep Dive · 1 source · 346d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nNeptune's Fury and Lobster: The Existential Horror of a Compliment Denied\n21:38 · Deep Dive · 1 source · 346d ago"
+    },
+    {
+      "text": "Neptune's Fury and Lobster: The Existential Horror of a Compliment Denied\n21:38 · Deep Dive · 1 source · 346d ago"
+    },
+    {
+      "text": "Neptune's Fury and Lobster: The Existential Horror of a Compliment Denied"
+    },
+    {
+      "text": "21:38 · Deep Dive · 1 source · 346d ago"
+    },
+    {
+      "text": "videocam\nNeptune's Fury\n5:50 · 1 source · 351d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nNeptune's Fury\n5:50 · 1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury\n5:50 · 1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury"
+    },
+    {
+      "text": "5:50 · 1 source · 351d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nNeptune's Fury: How \"I Like Your Cookin'\" Defused a Cosmic Curse Over Lobster\n11:47 · 1 source · 351d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nNeptune's Fury: How \"I Like Your Cookin'\" Defused a Cosmic Curse Over Lobster\n11:47 · 1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury: How \"I Like Your Cookin'\" Defused a Cosmic Curse Over Lobster\n11:47 · 1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury: How \"I Like Your Cookin'\" Defused a Cosmic Curse Over Lobster"
+    },
+    {
+      "text": "11:47 · 1 source · 351d ago"
+    },
+    {
+      "text": "copy\nMonologue Flashcards\n1 source · 351d ago\nmore_vert"
+    },
+    {
+      "text": "copy\nMonologue Flashcards\n1 source · 351d ago"
+    },
+    {
+      "text": "Monologue Flashcards\n1 source · 351d ago"
+    },
+    {
+      "text": "Monologue Flashcards"
+    },
+    {
+      "text": "1 source · 351d ago"
+    },
+    {
+      "text": "flowchart\nNeptune's Fury and the Lobster Dispute\n1 source · 351d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nNeptune's Fury and the Lobster Dispute\n1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury and the Lobster Dispute\n1 source · 351d ago"
+    },
+    {
+      "text": "Neptune's Fury and the Lobster Dispute"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T22:23:06.233Z",
+      "event": "harvest_complete",
+      "messages": 66,
+      "reachedTop": true
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Monochrome Silhouette by the Vintage Cycle",
+    "notebook_id": "163df1b9-6000-40ae-b95b-fc825c6e5001",
+    "notebook_url": "https://notebook.google.com/notebook/163df1b9-6000-40ae-b95b-fc825c6e5001?authuser=1",
+    "captured_at": "2026-10-21T22:30:00.028Z",
+    "visible_source_count": 33,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 17
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Can you give me a catalogue listing of the images",
+      "citations": [],
+      "key": "f7e96d36"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The following is a catalogue listing of the images provided in the sources:\nIMG_1286: A portrait of a man with a heavy pinkish tint, featuring a double exposure effect that overlays an outdoor or architectural scene\n1\n.\nIMG_1287: A warm-toned close-up showing dark hair resting against skin on a bright red background\n2\n.\nIMG_1288: A high-contrast black and white close-up of a face in profile, showing freckles and a closed eye\n3\n.\nIMG_1292: A blurry, motion-filled shot of an interior room with a couch and various decorative objects\n4\n.\nIMG_1294: A high-angle portrait of a small tan dog, likely a chihuahua, looking up into bright sunlight\n5\n.\nIMG_1307: An extreme macro shot with a grainy texture showing dark hair against a red surface\n6\n.\nIMG_1309: A nighttime silhouette of a person's hair, strongly backlit by a warm light source\n7\n.\nIMG_1310: A dark profile shot at night showing a person's head and a hand reaching toward a light\n8\n.\nIMG_1312: A sepia-toned vintage-style photograph focusing on the lens and body of a camera\n9\n.\nIMG_1315: A sepia-toned top-down view of a circular mechanical dial or lens housing\n10\n.\nIMG_1321: A candid night scene on a street showing a man with a tattooed or painted face smoking a cigarette while talking to another person\n11\n.\nIMG_1370: A dramatic close-up of a face, focusing on the eyes and a small blue nose stud\n12\n.\nIMG_4031: A focused shot of a musician’s hands playing an acoustic guitar in warm lighting\n13\n.\nIMG_4032: A shallow depth-of-field portrait of a man’s face as he plays a guitar\n14\n.\nIMG_4042: A high-contrast black and white profile of an older man with a beard and glasses\n15\n.\nIMG_4044: A secondary monochrome portrait of the bearded man with glasses, showing his side profile\n16\n.\nIMG_4091: A close-up of a squirrel's face rendered with a distinct blue color cast\n17\n.\nIMG_4095: A side-profile photograph of a squirrel holding food to its mouth\n18\n.\nIMG_5600: A grainy, stylized black and white image of a woman standing beside a motorcycle\n19\n.\nIMG_7208: A wide-angle view of a closet or storage area with hanging clothes, illuminated by a green light\n20\n.\nIMG_7210: A view looking through a beaded curtain into a room decorated with pink LED lights\n21\n.\nIMG_7211: A stylized, circular-framed black and white image featuring a skull\n22\n.\nIMG_7338: A blurry nighttime view through a textured or dirty window toward a Shelly & Sands sign\n23\n.\nIMG_7339: A clear night photograph of a large white tank branded with \"Shelly & Sands\" mounted on a platform\n24\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "03b648e9"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "What additional photos have been added",
+      "citations": [],
+      "key": "535fa116"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Comparing the current sources to our conversation history, six additional photos have been added to the collection:\nIMG_1226: A dark, abstract image featuring a shimmering, winding path of light reflecting off a textured surface\n1\n.\nIMG_1236: A bright, highly abstract composition with blurred, dreamlike colors and soft textures\n2\n.\nIMG_1244: A nighttime landscape of a vibrant green field under a starry sky, with a prominent light flare and distant city lights on the horizon\n3\n.\nIMG_1253: A nighttime shot showing a brightly lit cloud or moon peeking through a dark sky above trees and a house\n4\n.\nIMG_1255: A row of dark glass bottles with vintage-style labels that list various classic songs and artists, such as Kenny Rogers and Nat \"King\" Cole\n5\n.\nIMG_1263: A photograph of autumn trees displaying a mix of red, orange, and yellow foliage against a cloudy, overcast sky\n6\n.\nThese new images expand the variety of the collection by adding more nighttime photography, abstract textures, and still-life subjects\n1\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "c07b7238"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "What else?",
+      "citations": [],
+      "key": "8c831afc"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "In addition to the photos already mentioned, there are three final images included in the sources:\nIMG_0311: A very blurry and abstract interior shot filled with vibrant, indistinct colors and shapes that suggest a cluttered or highly decorated room\n1\n.\nIMG_5023: An extreme macro photograph of a single screw driven into a rough, cracked surface, all bathed in a warm, monochromatic orange or amber light\n2\n.\nIMG_8819: A detailed shot of a vintage Agfa Silette Pronto camera mounted on a tripod, set against a background featuring a glowing pink and purple bokeh pattern\n3\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "91da9098"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_0311.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_0311.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1226.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1226.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1236.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1236.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1244.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1244.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1253.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1253.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1255.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1255.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1263.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1263.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1286.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1286.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1287.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1287.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1288.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1288.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1292.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1292.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1294.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1294.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1307.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1307.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1309.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1309.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1310.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1310.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1312.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1312.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1315.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1315.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1321.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1321.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1370.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1370.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4031.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4031.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4032.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4032.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4042.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4042.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4044.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4044.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4091.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4091.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4095.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4095.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_5023.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_5023.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_5600.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_5600.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7208.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7208.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7210.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7210.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7211.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7211.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7338.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7338.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7339.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7339.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8819.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8819.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "33 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "article\nVisions of the Static and the Still\n283d ago\nmore_vert\narticle\nVisions of Light and Shadow: The New Collection\n283d ago\nmore_vert\nvideocam\nHow to Read a Photograph\n5:47 · 24 sources · 283d ago\nplay_arrow\nmore_vert\nflowchart\nThe Taxonomy of Visual Collection Analysis\n24 sources · 283d ago\nmore_vert"
+    },
+    {
+      "text": "article\nVisions of the Static and the Still\n283d ago\nmore_vert"
+    },
+    {
+      "text": "article\nVisions of the Static and the Still\n283d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Visions of the Static and the Still\n283d ago"
+    },
+    {
+      "text": "Visions of the Static and the Still"
+    },
+    {
+      "text": "283d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "article\nVisions of Light and Shadow: The New Collection\n283d ago\nmore_vert"
+    },
+    {
+      "text": "article\nVisions of Light and Shadow: The New Collection\n283d ago"
+    },
+    {
+      "text": "Visions of Light and Shadow: The New Collection\n283d ago"
+    },
+    {
+      "text": "Visions of Light and Shadow: The New Collection"
+    },
+    {
+      "text": "videocam\nHow to Read a Photograph\n5:47 · 24 sources · 283d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nHow to Read a Photograph\n5:47 · 24 sources · 283d ago"
+    },
+    {
+      "text": "How to Read a Photograph\n5:47 · 24 sources · 283d ago"
+    },
+    {
+      "text": "How to Read a Photograph"
+    },
+    {
+      "text": "5:47 · 24 sources · 283d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "flowchart\nThe Taxonomy of Visual Collection Analysis\n24 sources · 283d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Taxonomy of Visual Collection Analysis\n24 sources · 283d ago"
+    },
+    {
+      "text": "The Taxonomy of Visual Collection Analysis\n24 sources · 283d ago"
+    },
+    {
+      "text": "The Taxonomy of Visual Collection Analysis"
+    },
+    {
+      "text": "24 sources · 283d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T22:29:59.390Z",
+      "event": "harvest_complete",
+      "messages": 6,
+      "reachedTop": true
+    }
+  ]
+}

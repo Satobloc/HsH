@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Pulsar Glitch Dynamics in the Scalar-Angular-Torsion Framework",
+    "notebook_id": "1e627a11-5c54-4b28-9f86-e0e9c6581d67",
+    "notebook_url": "https://notebook.google.com/notebook/1e627a11-5c54-4b28-9f86-e0e9c6581d67?authuser=4",
+    "captured_at": "2026-10-21T21:40:22.251Z",
+    "visible_source_count": 13,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 17
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "I'm going to upload some papers, and I want you to write the appropriate citations that should be included in the PULSAR_PAPER. These are all unpublished drafts",
+      "citations": [],
+      "key": "98dba05b"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "I have reviewed the excerpts from your draft, \"Fractal-Scaled Surface Velocity Thresholds and Idealized Fingerprint Curves for Pulsar Glitches in the Scalar-Angular-Torsion Framework\"\n1\n.\nAt this time, only the PULSAR_PAPER.pdf excerpts have been provided in the sources. To write the appropriate citations for the other unpublished drafts you mentioned, please go ahead and upload them.\nOnce those drafts are available, I can help you:\nFormat the bibliographic entries for your references section (which currently contains only a placeholder)\n2\n.\nIdentify specific locations in the text where these citations should be inserted, such as when discussing the Scalar-Angular-Torsion (SAT) framework\n1\n3\n or the Zottenwelt ontology and SAT lattice structures mentioned in your acknowledgments\n4\n.\nI am ready to assist as soon as you provide the additional documents. If you would like me to create a structured report or a set of slides once the citations are integrated, I can certainly do that as well.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "51d8a0a5"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Ok, you have the drafts",
+      "citations": [],
+      "key": "1ae00982"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "To properly integrate your research into the PULSAR_PAPER, you should cite the specific installments of the Scalar-Angular-Torsion (SAT) framework that define the underlying mechanics. Below are the recommended bibliographic entries and a citation map for your draft.\nI. Recommended Bibliography for PULSAR_PAPER\nThese citations correspond to the unpublished drafts provided in the sources:\n1\n McKnight, N. (2026). The Scalar-Angular-Torsion Framework: I. Ontological Foundation of the Zottenwelt.\n2\n3\n McKnight, N. (2026). The Scalar-Angular-Torsion Framework: II. The Substrate and Universal Anchors.\n5\n McKnight, N. (2026). The Scalar-Angular-Torsion Framework: VI. Relativistic Phenomena and the Dark Matter Illusion.\n7\n McKnight, N. (2026). The Scalar-Angular-Torsion Framework: VIII. Comprehensive Glossary of the Zottenwelt.\n9\n McKnight, N. (2026). The Scalar-Angular-Torsion Framework: IX. Pulsar Glitch Mechanisms and the Achromatic Phase Snap.\n11\n\n--------------------------------------------------------------------------------\n\nII. Citation Map (In-Text Integration)\nBased on the content of the PULSAR_PAPER excerpts, here is where these references should be inserted to ensure theoretical consistency:\nSection I: Introduction\nSentence: \"We present a deterministic, scale-invariant model of pulsar glitches within the Scalar-Angular-Torsion (SAT) framework.\"\nCitation: Add\n1\n and\n4\n here to reference the ontological shift and the 24-cell HSUCV lattice substrate.\n2\n12\nSentence: \"Pulsars are treated as macroscopic filamental bundles interacting with a discretized 4D lattice.\"\nCitation: Add\n8\n to refer the reader to the Glossary for definitions of \"Filamental Primacy\" and the \"HSUCV lattice.\"\n13\nSection II: Velocity-Threshold Mechanism\nSentence: \"Define the dimensionless ratio x=v/v\ncrit\n\t​\n\n, where v\ncrit\n\t​\n\n is the scaled critical velocity for 3D decoupling.\"\nCitation: Add\n6\n and\n10\n. These sources explicitly derive v\ncrit\n\t​\n\n as the product of the Projection Constant (B) and the speed of light (c), approximately 0.2387c.\n14\n15\nSentence: \"Surface layers temporarily dis-engage from electromagnetic interactions while retaining gravitational coupling...\"\nCitation: Add\n6\n. This installment explains the Geometric Blackout and the Dark Matter Illusion, where matter precesses past the Obscuration Constant (θ\nobs\n\t​\n\n≈14.1\n∘\n).\n16\n17\nSection IV: Discussion and Predictions\nSentence: \"Luminosity dips coincide with glitch onset, reflecting outer-layer decoupling from EM interactions.\"\nCitation: Add\n6\n. This links the luminosity drop to the filament tangent exiting the observable gauge sector upon reaching the Obscuration Constant.\n17\nNew Prediction (Optional addition): You may wish to mention the Achromatic Phase Snap here.\nDrafting Note: Reference\n10\n to predict the discrete, frequency-independent timing jump of 0.246 rad that serves as the framework's \"Smoking Gun.\"\n18\n19\nAcknowledgments\nSentence: \"Additional conceptual inspiration was drawn from the Zottenwelt ontology and previous SAT lattice structures...\"\nCitation: Add\n1\n and\n4\n to acknowledge the formal definitions of the Zottenwelt substrate and the Zero-Parameter Economy.\n2\n20\n\n--------------------------------------------------------------------------------\n\nSummary of Key Constants to Cross-Reference\nWhen finalizing the paper, ensure the following values remain consistent across all cited drafts to maintain Failure Rigidity:\nProjection Constant (B): ≈0.2387 rad.\n21\n22\nObscuration Constant (θ\nobs\n\t​\n\n): ≈0.246 rad (14.1\n∘\n).\n16\n21\nCritical Velocity (v\ncrit\n\t​\n\n): B⋅c≈71,500 km/s.\n14\n15\nWould you like me to generate a tailored report summarizing the specific mathematical proofs from these drafts that support your pulsar glitch model?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4365873d"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nPULSAR_PAPER.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "PULSAR_PAPER.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSCALAR_ANGULAR_TORSION___PHYS_D_FINAL.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SCALAR_ANGULAR_TORSION___PHYS_D_FINAL.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "13 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "edit_fix_auto\nStudio output will be saved here.\nAfter adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:40:21.498Z",
+      "event": "harvest_complete",
+      "messages": 4,
+      "reachedTop": true
+    }
+  ]
+}

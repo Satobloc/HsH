@@ -1,0 +1,850 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] SAT and String Theory",
+    "notebook_id": "a289f282-9f32-4019-a2ea-93c71126503b",
+    "notebook_url": "https://notebook.google.com/notebook/a289f282-9f32-4019-a2ea-93c71126503b?authuser=4",
+    "captured_at": "2026-10-21T21:42:21.582Z",
+    "visible_source_count": 23,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 22
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Is there a core equation of SAT?",
+      "citations": [],
+      "key": "539ebd98"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "According to the sources, Stringing Along Theory (SAT) is currently a speculative \"toy theory\" and a conceptual heuristic rather than a fully formalized mathematical theory\n1\nmore_horiz\n. As such, it does not yet have a single, unique \"core equation\" that has been mathematically finalized.\nHowever, the sources identify several mathematical and logical foundations that serve as the theory's \"governing\" principles:\n1. The Foundational Logic: The Law of Identity (A=A)\nThe most fundamental principle underlying SAT (and the broader Radical Meta-Skepticism framework it sits within) is the Equivalence Principle, which is described as a restatement of the Law of Identity (A=A)\n4\n5\n. It asserts that any two propositions (or physical models) that yield identical evidence and predictive outcomes are essentially undifferentiable and equivalent\n4\n6\n.\n2. Proposed Mathematical Formalism: The Polyakov Action\nIn discussions regarding the formalization of SAT, it is suggested that the theory could potentially utilize the Polyakov action from traditional string theory to describe the dynamics of its filaments\n7\n8\n. This action is represented as:\nS=−\n4πα\n′\n1\n\t​\n\n∫dτdσ\n−h\n\t​\n\nh\nab\n∂\na\n\t​\n\nX\nμ\n∂\nb\n\t​\n\nX\nμ\n\t​\n\n+(interaction terms)\nWhile this is a borrowed construct, SAT reinterprets the \"strings\" of this equation not as one-dimensional loops in spacetime, but as intersectional \"cross-sections\" of four-dimensional filaments as they pass through the three-dimensional time surface\n8\n9\n.\n3. Quantification of Gravity as \"Cumulative Tugs\"\nA central goal of SAT is to quantify gravity not as a static force, but as an emergent property\n10\n. The theory proposes that gravity can be modeled as the sum total of all \"tugs\" exerted by filaments upon one another across three spatial dimensions and the fourth dimension of time\n11\n12\n. This incorporates a temporal \"memory\" where past and future interactions influence the current gravitational state of a system\n13\n14\n.\n4. Theoretical Intersections\nThe sources mention that in specific continuum models—such as the modeling of protoplanetary discs—the governing equations often resolve into the Schrödinger equation\n15\n16\n. While this is not the unique \"core\" of SAT, it represents a point where SAT’s wave-like filament vibrations intersect with established physical models\n16\n17\n.\nSummary of Status SAT is described as being in a conceptual stage that requires further mathematical development and empirical validation before it can produce a formal paper or a definitive core equation\n2\n18\n. Its current \"equations\" are largely borrowed from string theory and re-envisioned through the lens of its unique four-dimensional geometry\n8\n19\n.\n\n--------------------------------------------------------------------------------\n\nAnalogy: If standard physics is a series of precise blueprints (equations) for a building, SAT is currently the philosophical architecture that describes what those blueprints mean and how they relate to the observers living inside, using the basic law of \"A equals A\" as the ultimate foundation stone upon which all other mathematical structures must be built.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "e80cde64"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nA Taxonomy of Human Perception",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "A Taxonomy of Human Perception",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAha Moments",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Aha Moments",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nFilament Vibrational Modes in Stringing Along Theory",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Filament Vibrational Modes in Stringing Along Theory",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nHuman-AI Interaction: A Speculative String Theory Perspective",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Human-AI Interaction: A Speculative String Theory Perspective",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nPlanetary Encounters in Stringing Along Theory",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Planetary Encounters in Stringing Along Theory",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nRadical Meta-Skepticism and Perceptual Interconnectedness",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Radical Meta-Skepticism and Perceptual Interconnectedness",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nRadical Meta-Skepticism: A Foundational Empiricism",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Radical Meta-Skepticism: A Foundational Empiricism",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nReconfiguring Filaments: A Stringing Along Theory Perspective",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Reconfiguring Filaments: A Stringing Along Theory Perspective",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nRMS Glossary",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "RMS Glossary",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nRMS_FULL_CANON.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "RMS_FULL_CANON.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT & STRING THEORY",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT & STRING THEORY",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSAT and String Theory: A Comparative Analysis",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT and String Theory: A Comparative Analysis",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT_overview.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT_overview.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSpeculative Cosmology of Thought and Communication (SAT)",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Speculative Cosmology of Thought and Communication (SAT)",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Filament-Based Cosmology",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Filament-Based Cosmology",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Filament-Based Life Cycle Model",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Filament-Based Life Cycle Model",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Four-Dimensional View of Chemical Reactions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Four-Dimensional View of Chemical Reactions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Four-Dimensional View of Organisms",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Four-Dimensional View of Organisms",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Novel Framework",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Novel Framework",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: A Speculative Cosmological Framework",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: A Speculative Cosmological Framework",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: Filaments, Thought, and Communication",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: Filaments, Thought, and Communication",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nStringing Along Theory: Thought, Communication, and the Fabric of Reality",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Stringing Along Theory: Thought, Communication, and the Fabric of Reality",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "23 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "article\nNew Note\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nNew Note\n624d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "New Note\n624d ago"
+    },
+    {
+      "text": "New Note"
+    },
+    {
+      "text": "624d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Novel Framework\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Novel Framework\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Novel Framework\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Novel Framework"
+    },
+    {
+      "text": "article\nSAT and String Theory: A Comparative Analysis\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSAT and String Theory: A Comparative Analysis\n624d ago"
+    },
+    {
+      "text": "SAT and String Theory: A Comparative Analysis\n624d ago"
+    },
+    {
+      "text": "SAT and String Theory: A Comparative Analysis"
+    },
+    {
+      "text": "article\nSpacetime-Aware Theory: Extending String Theory\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSpacetime-Aware Theory: Extending String Theory\n624d ago"
+    },
+    {
+      "text": "Spacetime-Aware Theory: Extending String Theory\n624d ago"
+    },
+    {
+      "text": "Spacetime-Aware Theory: Extending String Theory"
+    },
+    {
+      "text": "article\nFilament Vibrational Modes in Stringing Along Theory\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nFilament Vibrational Modes in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Filament Vibrational Modes in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Filament Vibrational Modes in Stringing Along Theory"
+    },
+    {
+      "text": "article\nReconfiguring Filaments: A Stringing Along Theory Perspective\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nReconfiguring Filaments: A Stringing Along Theory Perspective\n624d ago"
+    },
+    {
+      "text": "Reconfiguring Filaments: A Stringing Along Theory Perspective\n624d ago"
+    },
+    {
+      "text": "Reconfiguring Filaments: A Stringing Along Theory Perspective"
+    },
+    {
+      "text": "article\nDigital Signals and Filaments in Stringing Along Theory\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nDigital Signals and Filaments in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Digital Signals and Filaments in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Digital Signals and Filaments in Stringing Along Theory"
+    },
+    {
+      "text": "article\nHuman-AI Interaction: A Speculative String Theory Perspective\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nHuman-AI Interaction: A Speculative String Theory Perspective\n624d ago"
+    },
+    {
+      "text": "Human-AI Interaction: A Speculative String Theory Perspective\n624d ago"
+    },
+    {
+      "text": "Human-AI Interaction: A Speculative String Theory Perspective"
+    },
+    {
+      "text": "article\nStringing Along Theory and Gravitons\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory and Gravitons\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory and Gravitons\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory and Gravitons"
+    },
+    {
+      "text": "article\nSpacetime Asymmetry Theory and Gravity\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSpacetime Asymmetry Theory and Gravity\n624d ago"
+    },
+    {
+      "text": "Spacetime Asymmetry Theory and Gravity\n624d ago"
+    },
+    {
+      "text": "Spacetime Asymmetry Theory and Gravity"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Four-Dimensional View of Organisms\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Four-Dimensional View of Organisms\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Four-Dimensional View of Organisms\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Four-Dimensional View of Organisms"
+    },
+    {
+      "text": "article\nThe Stringing Along Theory of Organisms\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Stringing Along Theory of Organisms\n624d ago"
+    },
+    {
+      "text": "The Stringing Along Theory of Organisms\n624d ago"
+    },
+    {
+      "text": "The Stringing Along Theory of Organisms"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Life Cycle Model\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Life Cycle Model\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Life Cycle Model\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Life Cycle Model"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Cosmology\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Cosmology\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Cosmology\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Cosmology"
+    },
+    {
+      "text": "article\nPlanetary Encounters in Stringing Along Theory\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nPlanetary Encounters in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Planetary Encounters in Stringing Along Theory\n624d ago"
+    },
+    {
+      "text": "Planetary Encounters in Stringing Along Theory"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Four-Dimensional View of Chemical Reactions\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Four-Dimensional View of Chemical Reactions\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Four-Dimensional View of Chemical Reactions\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Four-Dimensional View of Chemical Reactions"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Model of Reality\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Filament-Based Model of Reality\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Model of Reality\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Filament-Based Model of Reality"
+    },
+    {
+      "text": "article\nStringing Along Theory: Thought, Speech, and Hearing\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: Thought, Speech, and Hearing\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Thought, Speech, and Hearing\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Thought, Speech, and Hearing"
+    },
+    {
+      "text": "article\nFilaments of Thought and Communication\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nFilaments of Thought and Communication\n624d ago"
+    },
+    {
+      "text": "Filaments of Thought and Communication\n624d ago"
+    },
+    {
+      "text": "Filaments of Thought and Communication"
+    },
+    {
+      "text": "article\nStringing Along Theory: Thought, Communication, and the Fabric of Reality\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: Thought, Communication, and the Fabric of Reality\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Thought, Communication, and the Fabric of Reality\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Thought, Communication, and the Fabric of Reality"
+    },
+    {
+      "text": "article\nStringing Along Theory: Filaments, Thought, and Communication\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: Filaments, Thought, and Communication\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Filaments, Thought, and Communication\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: Filaments, Thought, and Communication"
+    },
+    {
+      "text": "article\nSpeculative Cosmology of Thought and Communication (SAT)\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSpeculative Cosmology of Thought and Communication (SAT)\n624d ago"
+    },
+    {
+      "text": "Speculative Cosmology of Thought and Communication (SAT)\n624d ago"
+    },
+    {
+      "text": "Speculative Cosmology of Thought and Communication (SAT)"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Speculative Cosmological Framework\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nStringing Along Theory: A Speculative Cosmological Framework\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Speculative Cosmological Framework\n624d ago"
+    },
+    {
+      "text": "Stringing Along Theory: A Speculative Cosmological Framework"
+    },
+    {
+      "text": "article\nAha Moments\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nAha Moments\n624d ago"
+    },
+    {
+      "text": "Aha Moments\n624d ago"
+    },
+    {
+      "text": "Aha Moments"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism and Perceptual Interconnectedness\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism and Perceptual Interconnectedness\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism and Perceptual Interconnectedness\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism and Perceptual Interconnectedness"
+    },
+    {
+      "text": "article\nA Taxonomy of Human Perception\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nA Taxonomy of Human Perception\n624d ago"
+    },
+    {
+      "text": "A Taxonomy of Human Perception\n624d ago"
+    },
+    {
+      "text": "A Taxonomy of Human Perception"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism and the Framework\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism and the Framework\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism and the Framework\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism and the Framework"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism: A Foundational Empiricism\n624d ago\nmore_vert"
+    },
+    {
+      "text": "article\nRadical Meta-Skepticism: A Foundational Empiricism\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism: A Foundational Empiricism\n624d ago"
+    },
+    {
+      "text": "Radical Meta-Skepticism: A Foundational Empiricism"
+    },
+    {
+      "text": "article\nNew note\n705d ago\nmore_vert"
+    },
+    {
+      "text": "article\nNew note\n705d ago"
+    },
+    {
+      "text": "New note\n705d ago"
+    },
+    {
+      "text": "New note"
+    },
+    {
+      "text": "705d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:42:10.317Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    },
+    {
+      "at": "2026-10-21T21:42:21.039Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}

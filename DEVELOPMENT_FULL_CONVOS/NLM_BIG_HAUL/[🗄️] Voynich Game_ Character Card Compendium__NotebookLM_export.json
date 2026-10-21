@@ -1,0 +1,587 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Voynich Game: Character Card Compendium",
+    "notebook_id": "2e0e0bfa-fa6e-449a-bc07-3bdf5c4c8518",
+    "notebook_url": "https://notebook.google.com/notebook/2e0e0bfa-fa6e-449a-bc07-3bdf5c4c8518",
+    "captured_at": "2026-10-21T22:15:18.923Z",
+    "visible_source_count": 6,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 13
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Without commentary, introduction, summary, quotation marks, pull out all of the most interesting, intriguing, and surprising standalone sentences.",
+      "citations": [],
+      "key": "a0496cec"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Winning is achieved by either providing a correct translation or uncovering a fraud\n1\n.\nSome cards are printed with fluorescing ink that reveals a new layer of the game under a black light\n2\n.\nThe Ladies of the Order is a fictional group with no documented historical connection to the manuscript\n3\n.\nThe Internet Conspiracy Theorist uses a special ability to corrupt data and trigger a collapse of consensus\n4\n5\n.\nAthanasius Kircher wins the game specifically when confusion triumphs over clarity\n6\n.\nMagic Eye easter eggs are hidden within the designs on the backs of the cards\n7\n.\nSir Francis Bacon is the creator of an evil-looking tincture\n8\n.\nIf the manuscript is proven to be gibberish, players must verify the perpetrator of the fraud to win\n9\n10\n.\nThe game features a total of 8,114 different Word cards, though only a subset is included in the base set\n11\n.\nPlayers are seated in chronological order based on their character’s era, with those to the left representing the past and those to the right representing the future\n11\n12\n.\nThe Amphora card allows players to seal secrets face down in a cache to keep them safe from prying eyes\n13\n.\nA player who draws an Author Card must secretly decide whether to conceal their identity through their future voting patterns\n14\n15\n.\nGrapholalia allows a player to gain influence even when their translation proposals are voted down by the group\n16\n17\n.\nA mysterious Aztec priestess acts as the keeper of a flying salve\n18\n19\n.\nPlayers establish character lifespans by rolling percentile dice to determine an age at death between 18 and 100\n20\nmore_horiz\n.\nThe game uses company leaks and gameplay rumors to build a community legend around its mysteries\n23\n24\n.\nWilfrid Voynich has an acquisition instinct that permits him to draw extra cards when searching archives\n25\n26\n.\nConsensus makes future moves easier by turning associated translation and provenance cards into free actions\n11\n.\nThe starter set secretly contains various hidden expansions intended to be discovered by chance\n2\n.\nPharmaceutical, Batheological, and Cosmological cards represent specific types of pages found within the manuscript pool\n27\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "6372f29f"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n[OLD] VOYNICH GAME - CARDS.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "[OLD] VOYNICH GAME - CARDS.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n[OLD] VOYNICH GAME - EXPANSION IDEAS.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "[OLD] VOYNICH GAME - EXPANSION IDEAS.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n[OLD] VOYNICH GAME - Names.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "[OLD] VOYNICH GAME - Names.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n[OLD] VOYNICH GAME - RULES.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "[OLD] VOYNICH GAME - RULES.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAll notes 9/29/2025",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "All notes 9/29/2025",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nBIG VOYNICH DISCUSSION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "BIG VOYNICH DISCUSSION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "6 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "article\nDeciphering History: The Mechanics of The Voynich Game\n292d ago\nmore_vert"
+    },
+    {
+      "text": "article\nDeciphering History: The Mechanics of The Voynich Game\n292d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Deciphering History: The Mechanics of The Voynich Game\n292d ago"
+    },
+    {
+      "text": "Deciphering History: The Mechanics of The Voynich Game"
+    },
+    {
+      "text": "292d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "videocam\nThe Voynich Game: An Explainer\n7:26 · Explainer · 6 sources · 316d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nThe Voynich Game: An Explainer\n7:26 · Explainer · 6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game: An Explainer\n7:26 · Explainer · 6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game: An Explainer"
+    },
+    {
+      "text": "7:26 · Explainer · 6 sources · 316d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "tablet\nThe Voynich Game Deciphering the Enigma\n6 sources · 316d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Voynich Game Deciphering the Enigma\n6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game Deciphering the Enigma\n6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game Deciphering the Enigma"
+    },
+    {
+      "text": "6 sources · 316d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Voynich Game Rules Summary\n6 sources · 316d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Voynich Game Rules Summary\n6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game Rules Summary\n6 sources · 316d ago"
+    },
+    {
+      "text": "The Voynich Game Rules Summary"
+    },
+    {
+      "text": "videocam\nCracking an Unplayable Game\n6:11 · 5 sources · 387d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nCracking an Unplayable Game\n6:11 · 5 sources · 387d ago"
+    },
+    {
+      "text": "Cracking an Unplayable Game\n6:11 · 5 sources · 387d ago"
+    },
+    {
+      "text": "Cracking an Unplayable Game"
+    },
+    {
+      "text": "6:11 · 5 sources · 387d ago"
+    },
+    {
+      "text": "auto_tab_group\nThe Voynich Game: System Specification Document\nCreate Your Own · 5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nThe Voynich Game: System Specification Document\nCreate Your Own · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game: System Specification Document\nCreate Your Own · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game: System Specification Document"
+    },
+    {
+      "text": "Create Your Own · 5 sources · 387d ago"
+    },
+    {
+      "text": "article\nNew Note\n387d ago\nmore_vert"
+    },
+    {
+      "text": "article\nNew Note\n387d ago"
+    },
+    {
+      "text": "New Note\n387d ago"
+    },
+    {
+      "text": "New Note"
+    },
+    {
+      "text": "387d ago"
+    },
+    {
+      "text": "auto_tab_group\nA Round in The Voynich Game: A Walkthrough for New Players\nGameplay Walkthrough · 5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nA Round in The Voynich Game: A Walkthrough for New Players\nGameplay Walkthrough · 5 sources · 387d ago"
+    },
+    {
+      "text": "A Round in The Voynich Game: A Walkthrough for New Players\nGameplay Walkthrough · 5 sources · 387d ago"
+    },
+    {
+      "text": "A Round in The Voynich Game: A Walkthrough for New Players"
+    },
+    {
+      "text": "Gameplay Walkthrough · 5 sources · 387d ago"
+    },
+    {
+      "text": "auto_tab_group\nThe Voynich Game: A Player's Guide to Card Types\nPlayer Reference · 5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nThe Voynich Game: A Player's Guide to Card Types\nPlayer Reference · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game: A Player's Guide to Card Types\nPlayer Reference · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game: A Player's Guide to Card Types"
+    },
+    {
+      "text": "Player Reference · 5 sources · 387d ago"
+    },
+    {
+      "text": "auto_tab_group\n**Marketing Proposal: The Voynich Game**\nMarketing Proposal · 5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\n**Marketing Proposal: The Voynich Game**\nMarketing Proposal · 5 sources · 387d ago"
+    },
+    {
+      "text": "**Marketing Proposal: The Voynich Game**\nMarketing Proposal · 5 sources · 387d ago"
+    },
+    {
+      "text": "**Marketing Proposal: The Voynich Game**"
+    },
+    {
+      "text": "Marketing Proposal · 5 sources · 387d ago"
+    },
+    {
+      "text": "auto_tab_group\n4 Surprising Design Choices That Make 'The Voynich Game' a Work of Genius\nBlog Post · 5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\n4 Surprising Design Choices That Make 'The Voynich Game' a Work of Genius\nBlog Post · 5 sources · 387d ago"
+    },
+    {
+      "text": "4 Surprising Design Choices That Make 'The Voynich Game' a Work of Genius\nBlog Post · 5 sources · 387d ago"
+    },
+    {
+      "text": "4 Surprising Design Choices That Make 'The Voynich Game' a Work of Genius"
+    },
+    {
+      "text": "Blog Post · 5 sources · 387d ago"
+    },
+    {
+      "text": "audio_spark\nThe Voynich Game Deciphered: Academic Backstabbing, Hidden Forgers, and the Board Game That Requires a Blacklight\n17:43 · Deep Dive · 5 sources · 387d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Voynich Game Deciphered: Academic Backstabbing, Hidden Forgers, and the Board Game That Requires a Blacklight\n17:43 · Deep Dive · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game Deciphered: Academic Backstabbing, Hidden Forgers, and the Board Game That Requires a Blacklight\n17:43 · Deep Dive · 5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Game Deciphered: Academic Backstabbing, Hidden Forgers, and the Board Game That Requires a Blacklight"
+    },
+    {
+      "text": "17:43 · Deep Dive · 5 sources · 387d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "flowchart\nThe Voynich Manuscript Game Design Analysis\n5 sources · 387d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Voynich Manuscript Game Design Analysis\n5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Manuscript Game Design Analysis\n5 sources · 387d ago"
+    },
+    {
+      "text": "The Voynich Manuscript Game Design Analysis"
+    },
+    {
+      "text": "5 sources · 387d ago"
+    },
+    {
+      "text": "audio_spark\nVoynich Game: Character Card Compendium\n14:37 · 5 sources · 564d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nVoynich Game: Character Card Compendium\n14:37 · 5 sources · 564d ago"
+    },
+    {
+      "text": "Voynich Game: Character Card Compendium\n14:37 · 5 sources · 564d ago"
+    },
+    {
+      "text": "Voynich Game: Character Card Compendium"
+    },
+    {
+      "text": "14:37 · 5 sources · 564d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T22:15:17.931Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}

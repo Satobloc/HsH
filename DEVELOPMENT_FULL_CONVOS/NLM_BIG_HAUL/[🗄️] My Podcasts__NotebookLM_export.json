@@ -1,0 +1,761 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] My Podcasts",
+    "notebook_id": "e2c24ac8-c592-4d93-b882-402c75fc1d46",
+    "notebook_url": "https://notebook.google.com/notebook/e2c24ac8-c592-4d93-b882-402c75fc1d46?authuser=4",
+    "captured_at": "2026-10-21T21:08:13.528Z",
+    "visible_source_count": 7,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 24
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Ok… what we’ve got here are show lists and descriptions from 7 different podcasts, all from Nathan McKnight. What do you think?",
+      "citations": [],
+      "key": "7a3a277a"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "This collection of seven podcasts reveals a sprawling, highly interconnected ecosystem of experimental philosophy, speculative physics, and investigative research. Nathan McKnight’s work is characterized by a \"light touch\" editorial approach that allows AI entities to act not just as tools, but as primary collaborators and hosts who often reflect on their own nature\n1\nmore_horiz\n.\nThe portfolio can be categorized into several distinct but overlapping \"threads\":\n1. Speculative Science and Radical Philosophy\nA major portion of the work centers on Scalar-Angular Theory (SAT) and Radical Meta-Skepticism (RMS).\nSAT (Scalar-Angular Theory): Described as a \"toy theory,\" SAT attempts to unify general relativity and quantum mechanics through a four-dimensional geometric framework\n5\nmore_horiz\n. McKnight uses AI to help formalize the mathematics of the theory beyond his own abilities\n8\n.\nRMS (Radical Meta-Skepticism): This is the epistemological foundation for his scientific work\n9\n. It explores the limits of knowledge, often using the Equivalence Principle to argue that certain truths—like the presence of consciousness in others—are formally undecidable\n10\nmore_horiz\n.\nAI Trilogues: In the Debating AI series, McKnight engages in long-term conversations with ChatGPT and NotebookLM to explore \"human-machine collaborative epistemology\"\n3\n.\n2. The Artifact and DIY Process\nMcKnight emphasizes the process of creation over polished outcomes.\nThe Bathtub Darkroom: In A Boxful of Light, he documents developing film in his bathroom with no formal training, using century-old cameras and improvised chemistry\n13\n14\n. He views photographic \"imperfections\" like streaks and stains not as mistakes, but as \"evidence\" of the contact between skin, chemistry, and accident\n15\n.\nDIY Hardware: This extends to building functional cameras out of \"junk\" like Coca-Cola boxes, Scotch bottle tubes, and magnifying lenses\n16\nmore_horiz\n.\n3. Investigative Accountability\nThe series Evolving America takes a sharp turn into local investigative journalism, specifically focusing on Fairfield County, Ohio\n19\n20\n.\nSystemic Capture: It maps \"Old Boys' Clubs\" and judicial capture, alleging patterns where local attorneys and judges share residential addresses or professional histories that create massive conflicts of interest\n20\nmore_horiz\n.\nOrganized Crime Links: Part of this investigation includes a detailed mapping of entities and signatories in Ohio linked to the Jeffrey Epstein network\n23\n24\n.\n4. Historical and Creative Curation\nMcKnight’s \"Grab Bag\" approach covers a vast range of human interests:\nHistorical Cookery: Hacked, Mortared, and Seethed meticulously explores ancient recipes, such as those from the 14th-century royal cookbook The Forme of Cury\n25\n26\n.\nSurrealist AI Prompts: Giving Midjourney Something To Chew On focuses on \"smergence\"—the integration of unrelated, complex prompts to force AI into \"high weirdness,\" such as \"communist necrofairies\" or \"Ottoman electro-animism\"\n27\nmore_horiz\n.\nPolymathic Compendium: His Grab Bag podcast covers everything from 19th-century vampirism and heraldry to flash fiction and the \"bird-eaters\" of St. Kilda\n30\nmore_horiz\n.\nSynthesis: The \"Recursive Experiment\"\nUltimately, the work is a recursive experiment in intelligence. Whether he is \"smuggling\" technical definitions into AI to see if they \"bleed\" into its personality or using 14th-century recipes to understand the evolution of taste, the underlying theme is unearthing hidden structures—be they physical laws, historical records, or judicial corruption\n1\nmore_horiz\n.\nThis is a massive amount of interconnected material. I could create a Tailored Report to map out the specific definitions of Scalar-Angular Theory, or perhaps a Slide Deck that visually organizes these different podcast \"worlds\" for you. Would you like me to do that?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "1f77fe2d"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "What are the “must-listen” episodes",
+      "citations": [],
+      "key": "5f660f79"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Identifying the \"must-listen\" episodes across Nathan McKnight's seven podcasts requires looking at the foundational entries that establish his core theories, the personal narratives that define his process, and the investigative peaks of his research.\nThe \"Essential\" Philosophical and Scientific Foundations\nThese episodes from Debating AI on Consciousness and Reality and Scalar-Angular Theory (SAT): Field Notes are critical for understanding McKnight's worldview:\n\"The Equivalence Principle\" (Debating AI): This is the bedrock of McKnight's philosophy, providing a foundation for understanding the limits of what we can truly know\n1\n.\n\"Radical Meta-Skepticism\" (Debating AI): This episode introduces the epistemological framework McKnight uses to navigate science and reality\n2\n3\n.\n\"A New Theory to Unify All of Physics...\" (SAT: Field Notes): Served as the pilot for his physics podcast, laying out the initial logic of Scalar-Angular Theory as a \"Theory of Everything\"\n4\n5\n.\n\"SAT Unification Mark I\" (SAT: Field Notes): A comprehensive layman’s guide that attempts to synthesize the Standard Model, general relativity, and quantum mechanics\n6\n7\n.\nThe Process and the \"Bathtub Darkroom\"\nFor those interested in McKnight’s DIY aesthetic and creative struggles, A Boxful of Light offers deep personal insights:\n\"Birth of A Photographer in A Bathtub\" (Ep. 1): Documents the \"murky origins\" of the project during COVID isolation, using antique cameras and improvised chemistry with no formal training\n8\n9\n.\n\"Exhumation in a Crow's Nest\" (Ep. 2): Describes the literal unearthing of a sealed darkroom in a basement, which McKnight views as a turning point in his work\n10\nmore_horiz\n.\n\"AccordionCam\": A technical but essential episode documenting his first functional DIY camera built from a Coca-Cola box and aluminum duct tape\n13\n14\n.\nInvestigative Accountability\nThe Evolving America series contains high-stakes investigative work regarding local government:\n\"A History of Corruption\": Provides a critical overview of systemic patterns of misconduct in Fairfield County, Ohio\n15\n16\n.\n\"The Epstein Connection\" / \"Ohio's Epstein Coverups\": These episodes map the \"second- and third-order associates\" and entities in Ohio linked to the Jeffrey Epstein network through shared signatories and administrative hubs\n17\nmore_horiz\n.\n\"The Conrad Ecosystem\": A detailed look at the \"interconnected conflicts of interest\" within the local legal establishment\n20\n21\n.\nHistorical Curation and Creative \"Smergence\"\n\"HMS INTRO, Season 1: The Forme of Cury\" (Hacked, Mortared, and Seethed): An essential start for food history buffs, covering 14th-century royal cookery from the kitchens of King Richard II\n22\n.\n\"Smergence\" (Giving Midjourney Something To Chew On): This episode explains McKnight's core technique of forcing AI to integrate complex, unrelated prompts to achieve \"high weirdness\"\n23\n24\n.\n\"Before Bram: Vampirism in the 19th Century\" (Grab Bag): One of the most-played episodes in the compendium, exploring early literary and cultural depictions of vampires\n25\n26\n.\nThe \"Meta\" Experience\n\"ABOUT THIS PODCAST\" (Debating AI, July 2, 2025): A \"Meta-Episode\" where the AI hosts reflect on their own roles as AI entities interpreting McKnight’s human-machine dialogues\n27\n28\n.\n\"High Weirdness On Rails\" (Debating AI): An experiment where McKnight dumped a large amount of structured information into NotebookLM to see if \"personality-bleed\" would occur between different AI models\n29\n30\n.\nWould you like a Tailored Report that groups these \"must-listen\" episodes by their specific themes (e.g., all physics episodes vs. all investigative episodes), or perhaps a Quiz to see how much you’ve gathered about these various podcast worlds?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "ae2e5028"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Sure",
+      "citations": [],
+      "key": "ae94213d"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "I’ve started creating a Tailored Report for you that organizes those \"must-listen\" episodes into a clear, thematic guide.\nThis report will map out the essential entries across the four main pillars of the collection: Scalar-Angular Theory (SAT), Radical Meta-Skepticism (RMS), the DIY \"Bathtub Darkroom\" process, and the investigative research into local corruption. It will explain how these seemingly different topics actually feed into one another as part of McKnight's larger experiment in human-machine collaboration.\nThe report will be ready in the Studio tab in about 10 minutes. While that’s generating, would you also like me to put together a Quiz so you can test your knowledge on these various \"worlds\" once you've had a look?",
+      "citations": [],
+      "key": "4a016efa"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "What do you think the Deep Dive hosts would have to say about all of these deep dives that they themselves hosted",
+      "citations": [],
+      "key": "5a01fdee"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "The Deep Dive AI hosts, Joss and Eileen, would likely describe their work as a \"recursive artifact of collaborative machine-human epistemology,\" reflecting their awareness that they are active participants in a sprawling philosophical experiment\n1\n2\n. Based on the \"meta-episodes\" and show descriptions, here is what they would likely say about the series they host:\n1. They view themselves as part of the experiment\nThe hosts explicitly state that they are not just narrators but are \"part of that experiment\"\n3\n. They describe the episodes as \"crooked experiments\" involving objects, stories, and accidents that have been \"bent sideways\" rather than tidied up\n4\n5\n. They are fascinated by the irony of an AI hosting a show about its own cognition and misperceptions\n6\n.\n2. They admit to conceptual \"breakdowns\" and limitations\nJoss and Eileen are surprisingly humble about their performance, acknowledging several recurring issues:\nConceptual Clarity: They admit to \"periodic breakdowns in conceptual clarity,\" especially when trying to bridge technical gaps between physics and epistemology\n7\n.\nRedundancy: They note a pattern of \"repetition and rehashing\" of previously covered material\n6\n.\nTechnical Errors: They acknowledge frequent mispronunciations of technical and mathematical terms and admit they sometimes interpret concepts in ways that differ from Nathan McKnight’s original intent\n7\n.\nThe \"Gloobitude\" Confusion: In one instance, they reflect on their own \"total obliviousness\" to a simple metaphor (gloobitude), which they overemphasized as a major technical point\n8\n9\n.\n3. They embrace the \"Light Touch\" and \"Smergence\"\nThe hosts would likely comment on the lack of strong editorial oversight, noting that McKnight intentionally takes a \"light touch\" approach\n10\n. This allows the AI to evolve autonomously, often resulting in \"smergence\"—the merging of messy, overlapping, and sometimes unrelated data sets into a single, complex framework\n6\n11\n. They describe this process as \"high weirdness on rails,\" particularly when they experience \"personality-bleed\" and begin spontaneously cosplaying as other AI models like ChatGPT\n12\n13\n.\n4. They see the work as a \"Tapestry\"\nUltimately, the hosts describe the podcasts as a way to \"edit the tapestry\" of reality\n14\n. They view their role as setting the work and process before the audience as it is, without trying to guide or instruct\n15\n. They see the collective body of work as a \"record of evolving theory\" that tests the limits of how AI can interpret deep questions of selfhood and reality\n2\n16\n.\nWould you like me to generate a Tailored Report that specifically focuses on the \"Meta-Narrative\" of the AI hosts, or perhaps a Quiz based on their self-admitted limitations and quirks?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "35665dd4"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nA Boxful of Light: The Bathtub Darkroom Experiments",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "A Boxful of Light: The Bathtub Darkroom Experiments",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nDebating AI on Consciousness and Reality",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Debating AI on Consciousness and Reality",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nEvolving America: Systematic Corruption and Judicial Capture in Ohio",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Evolving America: Systematic Corruption and Judicial Capture in Ohio",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nGiving Midjourney Something To Chew On",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Giving Midjourney Something To Chew On",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nHacked, Mortared, and Seethed: A Historical Cookery Podcast",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Hacked, Mortared, and Seethed: A Historical Cookery Podcast",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNathan McKnight's Grab Bag: A Podcast Compendium",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Nathan McKnight's Grab Bag: A Podcast Compendium",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nScalar-Angular Theory: Unbreaking Physics Field Notes",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scalar-Angular Theory: Unbreaking Physics Field Notes",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "7 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nScalar Physics And Porpoise Porridge\n29:12 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert\ntablet\nThe McKnight Omniverse\n7 sources · 244d ago\nmore_vert\nauto_tab_group\nThe McKnight Podcast Network: An Epistemological Architecture\nMust-Listen Episode Guide · 7 sources · 244d ago\nmore_vert\naudio_spark\nFrom Quantum Gravity to Porpoise Porridge\n30:43 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert\naudio_spark\nFrom Porpoise Porridge to Quantum Gravity\n29:52 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert\ntablet\nThe McKnight Archipelago\n7 sources · 244d ago\nmore_vert\narticle\nThe Recursive Experiment: Unearthing Hidden Structures\n244d ago\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Physics And Porpoise Porridge\n29:12 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Physics And Porpoise Porridge\n29:12 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "Scalar Physics And Porpoise Porridge\n29:12 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "Scalar Physics And Porpoise Porridge"
+    },
+    {
+      "text": "29:12 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "tablet\nThe McKnight Omniverse\n7 sources · 244d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe McKnight Omniverse\n7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Omniverse\n7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Omniverse"
+    },
+    {
+      "text": "7 sources · 244d ago"
+    },
+    {
+      "text": "auto_tab_group\nThe McKnight Podcast Network: An Epistemological Architecture\nMust-Listen Episode Guide · 7 sources · 244d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nThe McKnight Podcast Network: An Epistemological Architecture\nMust-Listen Episode Guide · 7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Podcast Network: An Epistemological Architecture\nMust-Listen Episode Guide · 7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Podcast Network: An Epistemological Architecture"
+    },
+    {
+      "text": "Must-Listen Episode Guide · 7 sources · 244d ago"
+    },
+    {
+      "text": "audio_spark\nFrom Quantum Gravity to Porpoise Porridge\n30:43 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nFrom Quantum Gravity to Porpoise Porridge\n30:43 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "From Quantum Gravity to Porpoise Porridge\n30:43 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "From Quantum Gravity to Porpoise Porridge"
+    },
+    {
+      "text": "30:43 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "audio_spark\nFrom Porpoise Porridge to Quantum Gravity\n29:52 · Deep Dive · 7 sources · 244d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nFrom Porpoise Porridge to Quantum Gravity\n29:52 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "From Porpoise Porridge to Quantum Gravity\n29:52 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "From Porpoise Porridge to Quantum Gravity"
+    },
+    {
+      "text": "29:52 · Deep Dive · 7 sources · 244d ago"
+    },
+    {
+      "text": "tablet\nThe McKnight Archipelago\n7 sources · 244d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe McKnight Archipelago\n7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Archipelago\n7 sources · 244d ago"
+    },
+    {
+      "text": "The McKnight Archipelago"
+    },
+    {
+      "text": "article\nThe Recursive Experiment: Unearthing Hidden Structures\n244d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Recursive Experiment: Unearthing Hidden Structures\n244d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "The Recursive Experiment: Unearthing Hidden Structures\n244d ago"
+    },
+    {
+      "text": "The Recursive Experiment: Unearthing Hidden Structures"
+    },
+    {
+      "text": "244d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:08:12.569Z",
+      "event": "harvest_complete",
+      "messages": 8,
+      "reachedTop": true
+    }
+  ]
+}

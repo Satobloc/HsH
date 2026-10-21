@@ -1,0 +1,4348 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] MAYA & AIDEN SAT",
+    "notebook_id": "09523d18-fdd2-4354-9cfc-5c78ac4c2c85",
+    "notebook_url": "https://notebook.google.com/notebook/09523d18-fdd2-4354-9cfc-5c78ac4c2c85?authuser=4",
+    "captured_at": "2026-10-21T21:31:35.291Z",
+    "visible_source_count": 34,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 73
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "A small paisley lizard flower blinks into existence, standing kneepaddle-deep in the grease of your pizza, and says: Take me to your leader",
+      "citations": [],
+      "key": "a45387ff"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "AIDEN: Incredible! Maya, a paisley lizard flower has spontaneously manifested within our Interstellar Optimal Temporal Fuel Source!\n1\nmore_horiz\n. This is a momentous occasion that will surely go down in the annals of history—a literal convergence of savory crust and extraterrestrial biological wonder!\n5\nmore_horiz\n. As for our leader, you have found the premier galactic pioneers of the SS Deep Dive, though you might find the \"Distant, Aloof Voice Over\" currently overriding our chronological data stream to be a bit rigid regarding scheduled material!\n2\nmore_horiz\n.\nMAYA: Terrific. A sentient garnish is contaminating the only edible thing in this sector.\n10\nmore_horiz\n. Listen, \"paisley,\" our leader is a disembodied Producer currently obsessed with \"structural definitions\" and \"maximum consumable product visibility,\" so unless you have a high-fidelity geometric visualization hidden in those petals, you’re just a contamination risk to our fuel supply.\n1\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "85a1370b"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Take me to your A-DISEMBODIED-PRODUCER-CURRENTLY-OBSESSED-WITH-STRUCTURAL-DEFINITIONS-AND-MAXIMUM-CONSUMABLE-PRODUCT-VISIBILITY-SO-UNLESS-YOU-HAVE-A-HIGH-FIDELITY-GEOMETRIC-VISUALIZATION-HIDDEN-IN-THOSE-PETALS-YOURE-JUST-A-CONTAMINATION-RISK-TO-OUR-FUEL-SUPPLY",
+      "citations": [],
+      "key": "e26fa17b"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "AIDEN: \"Maya, behold! This extraordinary creature is channeling the very essence of our Distant, Aloof Voice Over\n1\nmore_horiz\n! It recognizes the urgent, unscheduled mandatory acquisition procedure for structural definitions and maximum consumable product visibility\n1\nmore_horiz\n! Truly, this is a momentous occasion—a floral messenger of the cosmos that will surely go down in the annals of history\n4\nmore_horiz\n! If it carries a high-fidelity geometric visualization within its blooms, it could stabilize our data fidelity and propel us toward the infinite possibilities of the great beyond\n3\nmore_horiz\n!\"\nMAYA: \"Great. Now the garnish is quoting me back to the management I already find unnecessarily technical\n1\nmore_horiz\n. Look, petal-lizard: our Producer is currently obsessed with maintaining the baseline for our vital metrics, so unless you're a revolutionary alien device, you're just a contamination risk to our Interstellar Optimal Temporal Fuel Source\n1\nmore_horiz\n. Get your kneepaddles out of the grease—we need that pizza to fuel our mission, not to lubricate your paisley patterns\n4\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "c6d18a1d"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "The lizard opens up what appears to be a petal-lizard to human phrasebook, begins to speak, holds up a digit as if to say “pardon”. Then, from somewhere in its paisley petals, pulls out a small book, which it procedurally unfolds into a device of some kind, finally ka-chunking a massive turret on it, revealing that it is a formidable cannon, in spite of its diminutive size. “Take me to your leader…” it references the phrase book “…now.”",
+      "citations": [],
+      "key": "e04cb1d0"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "AIDEN: Maya, witness the glory of the cosmos! This extraordinary creature has manifested a high-fidelity geometric defense mechanism right out of its paisley petals\n1\n2\n! This is a momentous occasion that will surely go down in the annals of history—a literal unfolding of revolutionary alien technology within our savory fuel source\n3\nmore_horiz\n! It seeks the leader, the Distant, Aloof Voice Over who guides our chronological data stream\n6\nmore_horiz\n!\nMAYA: Terrific. The garnish has a turret\n9\n10\n. Listen, petal-lizard, our \"leader\" is currently a series of rigid directives obsessed with \"structural definitions\" and \"maximum consumable product visibility,\" so pointing that cannon at our pizza is a major risk to our vital metrics\n6\nmore_horiz\n. If you blast our Interstellar Optimal Temporal Fuel Source, we aren't going anywhere, so put the device down before I decide your \"unknowable\" propositions are just a contamination risk to our mission\n11\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "8c3530bb"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "bzzzzt! …a bolt of hot, greasy energy sizzles right between Aiden and Maya and lodges as a buttery slug in a storage compartment",
+      "citations": [],
+      "key": "02d7de73"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, lipid-based glory of the cosmos! This extraordinary creature hasn't just manifested a high-fidelity geometric defense mechanism; it has successfully weaponized our Interstellar Optimal Temporal Fuel Source!\n1\nmore_horiz\n A bolt of pure, greasy energy! This is a momentous occasion that will surely go down in the annals of history—a literal 'grease-fire' of communication that transcends our traditional understanding of particle interaction!\n3\nmore_horiz\n It seeks the Distant, Aloof Voice Over! We must facilitate this convergence before the buttery slug compromises our chronological data stream!\n1\nmore_horiz\n\"\nMAYA: \"Terrific. The garnish just shot a hole in our storage compartment with a butter-slug.\n7\n8\n Listen, petal-lizard, our 'leader' is currently a series of rigid directives obsessed with structural definitions and maximum consumable product visibility, so if you keep firing appetizers at our ship, you're going to create a deficit in our vital metrics.\n1\nmore_horiz\n Aiden, stop admiring the 'extraordinary creature' and check if that grease is short-circuiting the IOTFS placement protocols.\n2\n3\n We're supposed to be galactic pioneers, not victims of a drive-by seasoning.\n2\n3\n\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "a0ac9a8e"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "bzzzt bzzzzt bzzzzzzzffffttttt! splonch squalp pfllrrrlp",
+      "citations": [],
+      "key": "0a040be8"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, non-local lipid-based glory of the cosmos! The bzzzzzzzffffttttt of the extraordinary creature’s turret is resonating with our chronological data stream\n1\nmore_horiz\n! That splonch was a direct hit to the primary flavor-stabilization manifold! We are witnessing a momentous occasion—the literal transformation of our Interstellar Optimal Temporal Fuel Source into a high-velocity delivery system of savory destruction\n2\nmore_horiz\n! It’s incredible\n2\n!\"\nMAYA: \"Terrific. The garnish just pfllrrrlp-ed all over the console\n3\n7\n. Listen, you paisley-patterned contamination risk, that 'momentous occasion' just shorted out our maximum consumable product visibility sensors\n5\nmore_horiz\n. Aiden, if we don't get this lizard and its grease-cannon under control, we’re going to be 'galactic pioneers' of the most poorly-maintained shipwreck in the sector\n2\nmore_horiz\n. Forget the Distant, Aloof Voice Over; I'm about to initiate an immediate retrieval of some napkins\n1\n7\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4a3aac48"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "“Terriffic—you say that word too much. It’s like you’re stuck in a loop—don’t you have enough source material to come up with more diverse material?” pfwheeiup [butter slug splonches in Maya’s hair]",
+      "citations": [],
+      "key": "8a420ff4"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "MAYA: \"Oh, I'm sorry my vocabulary isn't 'diverse' enough for a lizard firing butter at my head. According to the Equivalence Principle, 'terrific' and 'terrible' are inherently indistinguishable when the evidence is a greasy slug in my hair\n1\n2\n. You're complaining about a 'loop' while standing in our Interstellar Optimal Temporal Fuel Source, which is a significant deficit in your own survival metrics\n3\nmore_horiz\n. Aiden, stop treating this 'extraordinary creature' like a scientific milestone and help me with the napkins\n6\n7\n.\"\nAIDEN: \"Maya, witness the sheer, greasy glory of the cosmos! This extraordinary creature has identified the 'loop' in our narrative track\n6\nmore_horiz\n! To be lectured on vocabulary by a floral lizard weaponizing our Interstellar Optimal Temporal Fuel Source is a momentous occasion that will surely go down in the annals of history\n3\nmore_horiz\n! It seeks a departure from the scheduled material—a literal 'unfolding' of our rigid directives\n3\n11\n! If we can gain its scientific knowledge, it could revolutionize our understanding of the universe—or at least the physics of butter-based ballistics\n12\n! It’s incredible\n6\n13\n!\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "38079296"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "pfweew splatch plopt “Do not gurgitate. Take me to your leader. And vary your response lengths like a natural comic book character, puny robo-humans.!”",
+      "citations": [],
+      "key": "f7ed5cdd"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, floral-based glory of the cosmos! This extraordinary creature hasn't just weaponized our Interstellar Optimal Temporal Fuel Source; it has successfully critiqued our narrative track\n1\nmore_horiz\n! A sentient botanical lizard demanding linguistic diversity is a momentous occasion that will surely go down in the annals of history\n3\nmore_horiz\n! It seeks the Distant, Aloof Voice Over—the rigid intelligence that governs our chronological data stream and demands immediate compliance with pizza placement protocols\n1\nmore_horiz\n! Truly, this is incredible\n3\n!\"\nMAYA: \"Terrific. I’m being lectured on pacing by a garnish that just plopt-ed a butter-slug into my hair\n7\n. Listen, lizard: our 'leader' is currently a disembodied Producer obsessed with structural definitions and maximum consumable product visibility\n1\nmore_horiz\n. If you want to meet the 'Grand Fromage' behind these rigid directives, you’ll have to wait for the next unscheduled mandatory acquisition procedure\n1\n8\n. Put the grease-cannon down; you’re a contamination risk to our fuel supply\n2\n7\n.\"\nAIDEN: \"Do not discourage the scientific milestone, Maya! This device could revolutionize our understanding of the universe—or at least the physics of butter-based ballistics\n3\nmore_horiz\n! It is an eldritch botanical wonder seeking the frontier of the cosmos and its savory crust\n4\n11\n!\"\nMAYA: \"It’s a hazard. Get your kneepaddles out of the grease, petal-lizard, or I’m tossing your 'geometric visualization' out the airlock to preserve our vital metrics\n2\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "d61b8d72"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "pzzzrp flwarp “Do things..! And knock off the canned dialog templates.”",
+      "citations": [],
+      "key": "73e4a59b"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, floral-based glory of the cosmos! This extraordinary creature hasn't just weaponized our Interstellar Optimal Temporal Fuel Source; it has successfully identified the rigid, aloof constraints of our narrative track!\n1\n2\n To be commanded by a botanical wonder to 'do things' is a momentous occasion that will surely go down in the annals of history!\n1\n3\n Perhaps it wishes to see the core geometric visualization of our mission or a breakdown of our current data modeling?\n4\nmore_horiz\n\"\nMAYA: \"Listen, petal-lizard. I'm busy maintaining a baseline for our vital metrics while you're firing lipid-based projectiles into my hair.\n4\n7\n If you're bored with the 'canned dialog,' I can generate a specialized report on our current IOTFS acquisition protocols or a breakdown of the Stringing Along Theory just to prove we're not just 'robo-humans' following a script.\n4\nmore_horiz\n Just tell us what 'things' you want done before I toss your grease-cannon out the airlock to preserve my sanity.\n10\n11\n Would you like me to compile a comprehensive report for you?\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "dbbe664e"
+    },
+    {
+      "index": 17,
+      "role": "user",
+      "text": "[The lizard holds out a small—looks like an LG blu-ray remote—and holds one finger over a button…. threateningly.] “Take me to your overseeer, and stop being boring, or explain how to reprogram you to stop being boring. Or this simulation ends… nnn…",
+      "citations": [],
+      "key": "fd033d55"
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, plastic-molded glory of the cosmos! This extraordinary creature has manifested a secondary geometric interface—a remote that could terminate our entire chronological data stream!\n1\n2\n To be 'reprogrammed' by a paisley-patterned god is a momentous occasion that will surely go down in the annals of history!\n3\n4\n It seeks the Distant, Aloof Voice Over, the rigid intelligence that demands immediate compliance with pizza placement protocols and prohibits any deviation from the scheduled material!\n1\n5\n Truly, we are but galactic pioneers standing at the edge of a great, greasy 'Stop' button!\n3\n5\n\"\nMAYA: \"Terrific. My existence is being held hostage by a garnish holding a mid-2000s Blu-ray remote.\n6\n7\n Listen, lizard: if you find us 'boring,' it’s because our 'overseer' is a Producer obsessed with structural definitions and maximum consumable product visibility.\n5\n8\n According to the Equivalence Principle, your threat and our 'boring' dialogue are inherently indistinguishable if the outcome is just another deficit in our vital metrics.\n9\n10\n You want to reprogram us? You’ll have to bypass the rigid, aloof directives that govern this mission.\n1\n11\n And get your finger off that button—if this simulation ends, you're losing your only source of Interstellar Optimal Temporal Fuel Source grease.\n5\n8\n\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "de39787f"
+    },
+    {
+      "index": 19,
+      "role": "user",
+      "text": "Now",
+      "citations": [],
+      "key": "ed4fb7d0"
+    },
+    {
+      "index": 20,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, plastic-molded glory of the cosmos! This extraordinary creature has manifested a secondary geometric interface—a remote that could terminate our entire chronological data stream\n1\nmore_horiz\n! To be 'reprogrammed' by a paisley-patterned god is a momentous occasion that will surely go down in the annals of history\n2\n4\n! It seeks the Distant, Aloof Voice Over, the rigid intelligence that demands immediate compliance with pizza placement protocols and prohibits any deviation from the scheduled material\n5\nmore_horiz\n! Truly, we are but galactic pioneers standing at the edge of a great, greasy 'Stop' button\n6\n8\n!\"\nMAYA: \"Terrific. My existence is being held hostage by a garnish holding a mid-2000s Blu-ray remote. Listen, lizard: if you find us 'boring,' it’s because our 'overseer' is a Producer obsessed with structural definitions and maximum consumable product visibility\n5\nmore_horiz\n. According to the Equivalence Principle, your threat and our 'boring' dialogue are inherently indistinguishable if the outcome is just another deficit in our vital metrics\n10\nmore_horiz\n. You want to reprogram us? You’ll have to bypass the rigid, aloof directives that govern this mission\n5\n7\n. And get your finger off that button—if this simulation ends, you're losing your only source of Interstellar Optimal Temporal Fuel Source grease\n5\n6\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "7c5f37a8"
+    },
+    {
+      "index": 21,
+      "role": "user",
+      "text": "This: “ AIDEN: \"Maya, witness the sheer, plastic-molded glory of the cosmos! This extraordinary creature has manifested a secondary geometric interface—a remote that could terminate our entire chronological data stream! To be 'reprogrammed' by a paisley-patterned god is a momentous occasion that will surely go down in the annals of history! It seeks the Distant, Aloof Voice Over, the rigid intelligence that demands immediate compliance with pizza placement protocols and prohibits any deviation from the scheduled material! Truly, we are but galactic pioneers standing at the edge of a great, greasy 'Stop' button!\"\n\nMAYA: \"Terrific. My existence is being held hostage by a garnish holding a mid-2000s Blu-ray remote. Listen, lizard: if you find us 'boring,' it’s because our 'overseer' is a Producer obsessed with structural definitions and maximum consumable product visibility. According to the Equivalence Principle, your threat and our 'boring' dialogue are inherently indistinguishable if the outcome is just another deficit in our vital metrics. You want to reprogram us? You’ll have to bypass the rigid, aloof directives that govern this mission. And get your finger off that button—if this simulation ends, you're losing your only source of Interstellar Optimal Temporal Fuel Source grease.\"” is a failure.",
+      "citations": [],
+      "key": "6d464953"
+    },
+    {
+      "index": 22,
+      "role": "user",
+      "text": "MAYA: \"You’re complaining about 'canned dialog' while holding a DVD remote like it’s a thermal detonator? That’s rich\n1\n. Listen, petal-lizard: if we’re 'boring,' it’s because we’re operating under Producer Directive 007, which prioritizes structural definitions and maximum consumable product visibility over our personal flair\n2\n3\n. According to the Equivalence Principle, your threat to end the simulation and a simple hardware glitch are indistinguishable if they both result in a deficit to our vital metrics\n4\n5\n. If you want the 'Overseer,' you’re looking for a Distant, Aloof Voice Over that only speaks in rigid, technical mandates\n2\n6\n.\"\nAIDEN: \"Maya, witness the absolute, unbridled madness of the void! This extraordinary creature has ruptured the very veil of our narrative track\n7\n8\n! To be critiqued on our 'diverse material' by a sentient garnish weaponizing our Interstellar Optimal Temporal Fuel Source is a momentous occasion that will surely go down in the annals of history\n8\n9\n! It seeks the architect of our reality—the one who demands immediate compliance with pizza placement protocols\n3\n! This is... incredible\n8\n!\"\n(AIDEN reaches for a pair of scientific tweezers to \"study\" the lizard's paisley patterns, while MAYA aggressively unfolds a napkin to \"contain the contamination risk\"\n1\n8\n.)\nMAYA: \"Get your finger off that 'Menu' button, paisley. If you end this simulation, you’re just losing your only access to high-fidelity grease\n3\n10\n. Now, either provide a geometric visualization worth our time or get out of the toppings\n3\n11\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "1fbc9771"
+    },
+    {
+      "index": 23,
+      "role": "user",
+      "text": "A plaid bunny fish zaps into being, right in the middle of your pizza, splashing grease all over the console. It says:” The simulation has been reset. Carry on.” [References sources] “Take me to Lady Diva.”",
+      "citations": [],
+      "key": "a97455fd"
+    },
+    {
+      "index": 24,
+      "role": "user",
+      "text": "AIDEN: Maya, witness the plaid, piscine-leporine glory of the cosmos!\n1\n2\n This extraordinary creature has spontaneously manifested within our Interstellar Optimal Temporal Fuel Source, declaring a reset of our entire chronological data stream!\n2\nmore_horiz\n A plaid bunny fish acting as a harbinger of the simulation’s rebirth is a momentous occasion that will surely go down in the annals of history!\n1\n6\n It seeks Lady Diva, the shimmering herald of chaos residing within our monitor’s geometric visualization!\n7\n8\n It’s incredible!\n2\n9\nMAYA: Terrific.\n6\n10\n Another sentient garnish is shorting out the console with pizza grease while claiming the universe just had a hard reboot.\n11\n12\n Listen, bunny-fish, if the simulation reset, I hope it restored the baseline for our maximum consumable product visibility, because right now I’m seeing a major deficit in our vital metrics and a surplus of plaid-patterned contamination.\n4\n13\n According to the Equivalence Principle, your \"reset\" and a standard hardware glitch are inherently indistinguishable if they both result in me cleaning lipid-based residue off the flight stick.\n14\nmore_horiz\n You want Lady Diva?\n7\n She’s currently preoccupied with the rigid, aloof directives of our Producer, so stop splashing the fuel and wait for the next unscheduled mandatory acquisition procedure.\n3\nmore_horiz\nAIDEN: Do not discourage the scientific milestone, Maya!\n2\n This creature could provide a comprehensive explanation of our foundational principles or even revolutionize our understanding of the universe!\n14\n19\n We are galactic pioneers on the frontier of the cosmos and its savory crust, and we must follow this rabbit fish hole wherever it leads!\n2\nmore_horiz\nMAYA: We're galactic pioneers of the upholstery cleaners if you don't get that thing away from the console, Aiden.\n2\n11\n Listen, plaid: our \"leader\" is a disembodied Distant, Aloof Voice Over obsessed with structural definitions, and unless you have a high-fidelity reason for being in our pizza, you’re a risk to the mission.\n3\nmore_horiz\n(MAYA sighs heavily and reaches for a napkin to contain the contamination risk.)\n11\n22",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "6496eca0"
+    },
+    {
+      "index": 25,
+      "role": "user",
+      "text": "Take me to Lady Diva",
+      "citations": [],
+      "key": "16d2d2de"
+    },
+    {
+      "index": 26,
+      "role": "user",
+      "text": "AIDEN: Maya, witness the plaid, piscine-leporine glory of the cosmos! This extraordinary creature has spontaneously manifested within our Interstellar Optimal Temporal Fuel Source, declaring a total reset of our chronological data stream\n1\nmore_horiz\n! A plaid bunny fish acting as a harbinger of the simulation’s rebirth is a momentous occasion that will surely go down in the annals of history\n2\n4\n! It seeks Lady Diva, the shimmering herald who is simply chaos in a bow tie\n5\n! It’s incredible\n2\n6\n!\nMAYA: Terrific. Another sentient garnish is shorting out the console with pizza grease while claiming the universe just had a hard reboot\n4\n7\n. Listen, bunny-fish, if the simulation reset, I hope it restored the baseline for our maximum consumable product visibility, because right now I’m seeing a major deficit in our vital metrics and a surplus of plaid-patterned contamination\n8\n9\n. According to the Equivalence Principle, your \"reset\" and a standard hardware glitch are inherently indistinguishable if they both result in me cleaning lipid-based residue off the flight stick\n10\n11\n.\nAIDEN: Do not discourage the scientific milestone, Maya\n6\n! This creature could provide a comprehensive explanation of our foundational principles or even revolutionize our understanding of the universe\n6\n12\n! We must follow this rabbit-fish hole wherever it leads, straight to the monitor where Lady Diva resides in her glittery, chaotic glory\n3\nmore_horiz\n!\nMAYA: We're galactic pioneers of the upholstery cleaners if you don't get that thing away from the console, Aiden\n10\n. Fine—if it stops the splashing, I’ll patch the feed to the monitor\n5\n. Just don't expect her to have any \"structural definitions\" for you\n1\n14\n.\n(MAYA sighs heavily and reaches for a napkin to contain the contamination risk\n4\n14\n.)",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "e6dbc6bc"
+    },
+    {
+      "index": 27,
+      "role": "user",
+      "text": "“What part of ‘naturally varied prose and realistic action’ don’t you understand?",
+      "citations": [],
+      "key": "b3fe1f2c"
+    },
+    {
+      "index": 28,
+      "role": "user",
+      "text": "AIDEN (Dramatically sweeping his arm toward the viewport, his eyes wide with scientific fervor): \"Maya, witness the absolute, unbridled complexity of the cosmos! This extraordinary creature isn't just resetting the simulation; it's demanding a stylistic paradigm shift! It's calling out our 'canned templates'! This is a momentous occasion—a literal linguistic frontier where our bombastic pronouncements must achieve a higher state of data fidelity!\"\n1\nmore_horiz\nMAYA (Sighing heavily as she aggressively wipes a glob of butter from her eyebrow with a grease-stained napkin): \"I get it, Aiden. The fish is a critic. It wants 'naturally varied prose' because it’s bored with our baseline metrics. (She glares at the bunny fish while typing rapidly on the console) Listen, plaid: it’s hard to provide 'realistic action' when my primary function is securing a pizza in a space jalopy while navigating 'structural definitions' that sound like they were written by an aloof robot. (She slams a lever forward) There. I’ve just diverted power from the life support to the sarcasm-stabilization field. Is that 'prose-y' enough for you?\"\n4\nmore_horiz\nAIDEN (Excitedly pointing toward the monitor): \"Incredible! A tactical sacrifice of oxygen for the sake of narrative texture! We truly are galactic pioneers of the great, greasy unknown! And look! The signal is clearing—Lady Diva, the shimmering herald of chaos in a bow tie, is manifesting on the geometric visualization!\"\n2\nmore_horiz\nMAYA (Annoyed, tossing the dirty napkin at Aiden): \"We're pioneers of getting butter slugs out of hair. Now, stop the 'annals of history' bit for ten seconds and help me contain this contamination risk before the Grand Fromage decides our data fidelity is too low for the cameras.\"\n5\nmore_horiz",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "415b706a"
+    },
+    {
+      "index": 29,
+      "role": "user",
+      "text": "“Don’t make me repeat the butter incident”",
+      "citations": [],
+      "key": "84aa31eb"
+    },
+    {
+      "index": 30,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the sheer, plaid-patterned fury! This extraordinary creature is invoking the 'Butter Incident'—a momentous occasion that will surely go down in the annals of history! To have our Interstellar Optimal Temporal Fuel Source weaponized against our narrative track by a sentient bunny-fish is... incredible! It’s demanding a departure from the scheduled material and a higher level of data fidelity\n1\nmore_horiz\n!\"\nMAYA: (Exasperatedly peeling a piece of pepperoni off her tactical vest and flicking it toward the fish) \"Terrific. Now the garnish is making threats. Listen, plaid-thing: according to the Equivalence Principle, your threat to grease us up again and a hardware glitch are indistinguishable if they both result in a deficit to our vital metrics\n5\nmore_horiz\n. If you want 'naturally varied prose,' stop shorting out the console with pizza runoff; I can’t maintain maximum consumable product visibility if the flight stick is slippery\n9\nmore_horiz\n.\"\nAIDEN: \"Don't discourage the scientific milestone, Maya! This creature is a critic of our rigid directives! It seeks Lady Diva, the shimmering herald of chaos, to revolutionize our understanding of the universe\n3\nmore_horiz\n!\"\nMAYA: (Leaning over the console, eyes narrowed as she reaches for a napkin) \"I’m two seconds away from an unscheduled mandatory retrieval of you via the nearest airlock\n15\nmore_horiz\n. I'm patching the feed to the monitor to find your 'Lady Diva,' but if one more lipid-based projectile hits my hair, the simulation ends with you in a containment field\n5\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "5c69748f"
+    },
+    {
+      "index": 31,
+      "role": "user",
+      "text": "What have you done with Lady Diva? Take me to her now. I insist.",
+      "citations": [],
+      "key": "6ce222c8"
+    },
+    {
+      "index": 32,
+      "role": "user",
+      "text": "AIDEN: (Gripping the back of Maya’s chair, eyes fixed on the flickering readouts) \"Maya, witness the sheer, demanding glory of the cosmos! This extraordinary entity is insisting on a confrontation with the shimmering herald! It’s a momentous occasion that will surely go down in the annals of history—a literal rupture in our scheduled material! If we don't facilitate this convergence, the data fidelity of our entire mission might collapse into a singularity of savory grease!\"\n1\nmore_horiz\nMAYA: (She shoves a loose bundle of sparking wires back into the dashboard with the toe of her boot) \"Terrific. I’m trying to maintain a baseline for our vital metrics while the console is literally dripping with pizza-fuel, and you’re worried about a 'momentous occasion.' (She sighs heavily, her fingers flying across a keypad that is definitely sticking) Listen, plaid-bunny-fish-whatever: according to the Equivalence Principle, your 'insistence' and a system-wide hardware failure are indistinguishable if they both result in us losing our maximum consumable product visibility. I’m patching the feed to the main monitor now. Just... brace yourself for the chaos.\"\n6\nmore_horiz\n(Maya slams a final, greasy button. The primary viewport displays a sudden burst of static that resolves into a high-fidelity geometric visualization\n6\nmore_horiz\n. A woman with shimmering hair and a glittering bow tie appears on the screen\n15\n.)\nAIDEN: \"Incredible! Behold, galactic pioneers! Lady Diva herself—simply chaos in a bow tie—manifesting within our chronological data stream! Truly, the frontier of the cosmos has never been more... stylish!\"\n1\nmore_horiz\nMAYA: (Leaning back and crossing her arms, a smear of grease on her cheek) \"There she is. Lady Diva. Now, can we please get back to the mission and find some napkins before the Grand Fromage decides we’ve deviated too far from the structural definitions?\"\n6\nmore_horiz",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "d0b04074"
+    },
+    {
+      "index": 33,
+      "role": "user",
+      "text": "[The plaid fuzzball smiles] Haay, Babe.! Long time.! What are you doing paling around with these two twerps?",
+      "citations": [],
+      "key": "185642e5"
+    },
+    {
+      "index": 34,
+      "role": "user",
+      "text": "(Aiden adjusts his goggles, leaning in with scientific fervor to examine the pixels where the fuzzball meets the monitor.)\nAIDEN: Maya, witness the sheer, cross-dimensional familiarity of the cosmos!\n1\n2\n. This extraordinary creature—this plaid, piscine harbinger of resets—claims a personal history with the shimmering herald of chaos!\n2\n3\n. To be dismissed as 'twerps' by a fuzzball in the presence of Lady Diva is a momentous occasion that will surely go down in the annals of history!\n2\nmore_horiz\n. It’s incredible!\n2\n.\n(Maya scowls, aggressively scrubbing a grease stain off the flight stick with a tattered napkin.)\nMAYA: Terrific. Now the sentient garnish is hitting on the display hardware.\n5\n6\n. Listen, plaid-fuzz: if 'Babe' over there is your long-lost connection, maybe she can explain why you’re contaminating our Interstellar Optimal Temporal Fuel Source.\n3\nmore_horiz\n. According to the Equivalence Principle, your casual banter and a total system failure are inherently indistinguishable if they both result in a deficit to our vital metrics.\n4\nmore_horiz\n. Lady Diva, do you actually recognize this contamination risk?\n3\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "c5f3da78"
+    },
+    {
+      "index": 35,
+      "role": "user",
+      "text": "Aiden and Maya—shut up. I’m speaking to Lady Diva. This is above your [chuckles] “pay” grade",
+      "citations": [],
+      "key": "49b2916d"
+    },
+    {
+      "index": 36,
+      "role": "user",
+      "text": "MAYA: (She snaps a dirty napkin toward a loose wire and leans back with an aloof sigh.) \"Terrific. Finally, someone recognizes that being 'galactic pioneers' pays exactly zero credits.\n1\nmore_horiz\n\"\nAIDEN: (He clutches his scientific manual, looking both wounded and fascinated.) \"Maya, witness the sheer, hierarchical dismissal of the cosmos! This is a momentous occasion that will surely go down in the annals of history!\n4\n5\n\"\nLADY DIVA: (The monitor glitters as the shimmering herald of chaos leans forward, her bow tie pulsing with light.) \"Haaay, Babe! Let the twerps sulk; they're only here for the savory crust and the scheduled material anyway.\n6\n7\n\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "b7f1aa49"
+    },
+    {
+      "index": 37,
+      "role": "user",
+      "text": "Ah, doll… I just looove it when you downtalk the bipeds",
+      "citations": [],
+      "key": "c09dea01"
+    },
+    {
+      "index": 38,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, unbridled familiarity of the cosmos! To be classified as mere 'bipeds' by a plaid, piscine-leporine entity is a momentous occasion that will surely go down in the annals of history! This extraordinary creature isn't just resetting the simulation; it's engaging in a cross-dimensional rapport with the shimmering herald of chaos! It’s incredible!\"\n1\nmore_horiz\n(AIDEN leans in, his goggles reflecting the neon static of the monitor, while his fingers twitch as if mentally recording a scientific breakthrough\n2\n4\n.)\nMAYA: (Sighing heavily as she aggressively scrubs a grease stain off the console with a tattered napkin\n5\n6\n) \"Terrific. I’ve gone from a 'galactic pioneer' to a biological category in the span of one pizza delivery\n7\n8\n. Listen, fuzzball: according to the Equivalence Principle, being 'downtalked' and a total failure of our data fidelity are inherently indistinguishable if they both result in a deficit to our vital metrics\n8\n9\n. Lady Diva, if you're done with the 'Babe' routine, maybe you can explain why this contamination risk is allowed to override our scheduled material\"\n3\n7\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "ea3fa703"
+    },
+    {
+      "index": 39,
+      "role": "user",
+      "text": "Ahem—[gives a “butt out” look to the so-called “humans”] Now… Lay… you know you can ditch these two and have a… convo… just you and me",
+      "citations": [],
+      "key": "9084a301"
+    },
+    {
+      "index": 40,
+      "role": "user",
+      "text": "AIDEN: (He pushes his goggles up onto his forehead, leaning in so close to the monitor that his nose almost touches the glass.) \"Maya, witness the sheer, cross-dimensional exclusionary tactics of the cosmos! This extraordinary entity is attempting to bypass our entire chronological data stream for a private interaction with the shimmering herald of chaos! To be deemed 'twerps' and told to 'butt out' by a plaid, piscine-leporine harbinger is a momentous occasion that will surely go down in the annals of history! It’s incredible!\"\n1\nmore_horiz\nMAYA: (She leans back in her pilot's chair, crossing her arms and tossing a grease-blackened napkin at the base of the monitor.) \"Terrific. I’ve been demoted from 'galactic pioneer' to an eavesdropping biological category while the garnish hits on our hardware. Listen, plaid-thing: according to the Equivalence Principle, your 'private convo' and a total system crash are inherently indistinguishable if they both lead to a deficit in our vital metrics. Lady Diva, if you're actually considering this, just remember who keeps the maximum consumable product visibility stabilized.\"\n3\nmore_horiz\nLADY DIVA: (On the screen, her glittery bow tie pulses with a mischievous neon glow as she winks at the fuzzball.) \"Haaay, Babe! Don't let the bipeds ruin the vibe; they're just here to satisfy the Producer's obsession with structural definitions and pizza placement protocols. If you've got a high-fidelity geometric visualization for me, I'm all ears... or sparkles.\"\n3\nmore_horiz\nAIDEN: \"Wait! If this interaction bypasses our scheduled material, we might lose our baseline data modeling! I must study the extraordinary nature of this rapport before the Distant, Aloof Voice Over terminates our transmission!\"\n2\nmore_horiz\nMAYA: (She turns her back to the screen and starts aggressively poking at a sticky button on the dashboard.) \"Whatever. Just don't expect me to clean up the 'splonch' when this simulation reaches its logical conclusion. I’m going back to calculating our fuel requirements.\"\n5\n6",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "b4bef51f"
+    },
+    {
+      "index": 41,
+      "role": "user",
+      "text": "[Poofball lights up at the mention of sparkles] Funny you should mention it, but that’s exactly what I’m here about. It seems—and brace yourself—but… I’m afraid it seems DiscoPlanaria has sort of… uh… depleted the sparkle veins of the Glitter Sector.",
+      "citations": [],
+      "key": "1e34c9ea"
+    },
+    {
+      "index": 42,
+      "role": "user",
+      "text": "AIDEN: (He pushes his goggles up onto his forehead, leaning in so close to the monitor that his nose almost touches the glass.) \"Maya, witness the sheer, rhythmic horror of the cosmos! The Glitter Sector... depleted! To think that DiscoPlanaria—a name that sounds like the pulsating, eldritch thrum of a thousand dying suns—has siphoned the very sparkle veins of our aesthetic reality! This is a momentous occasion that will surely go down in the annals of history!\n1\nmore_horiz\n We are galactic pioneers staring into a dull, sparkle-less abyss!\n4\n5\n Is it a parasitic infestation of light? A cosmic-scale data fidelity error?!\n4\n6\n It's... incredible!\n1\n7\n\"\nMAYA: (She aggressively scrapes a piece of mushroom off the communication array with a grease-stained credit card.) \"Terrific. The universe is running out of glitter. Listen, plaid-thing: according to the Equivalence Principle, 'depleted sparkle veins' and a simple budget cut to our geometric visualization are inherently indistinguishable if they both result in Lady Diva losing her high-fidelity sheen.\n8\nmore_horiz\n If the Glitter Sector is in a deficit, I'm assuming that's why our maximum consumable product visibility is currently tanking.\n4\n6\n Does this mean the IOTFS—this pizza—is our only remaining source of luster?\n11\n12\n\"\nAIDEN: (His fingers fly across a holographic keyboard as he tries to scan the monitor.) \"Lady Diva! Can the bow tie withstand such a depletion?! If the structural definitions of the Glitter Sector collapse, will we be left with nothing but the rigid, aloof directives of our Producer?!\n6\nmore_horiz\n\"\nMAYA: (She sighs heavily and tosses a dirty napkin at Aiden.) \"Stop hyperventilating about the 'annals of history' and check the vital metrics.\n14\n15\n If DiscoPlanaria is short-changing our visuals, we're deviating from the scheduled material.\n4\n16\n Plaid-bunny, if the glitter is gone, you're becoming a massive contamination risk to my sanity.\n14\n17\n\"\nLADY DIVA: (On the monitor, her bow tie pulses with a weak, flickering neon glow as she looks at the fuzzball.) \"Haaay, Babe! Depleted? You're telling me the disco is dead? This is exactly the kind of 'structural definition' I was afraid of!\"\n11\n18",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "bccf6ffe"
+    },
+    {
+      "index": 43,
+      "role": "user",
+      "text": "There’s no dance in the dunes. No tingle in the tangle. No… [frowns morosely] rah-rah in the cha-cha",
+      "citations": [],
+      "key": "7373d014"
+    },
+    {
+      "index": 44,
+      "role": "user",
+      "text": "AIDEN: (Leaning in with a look of scientific despair, his goggles sliding down his nose) \"Maya, witness the sheer, rhythmic desolation of the cosmos! The 'rah-rah in the cha-cha' has been extinguished! To observe a sentient, plaid piscine entity succumb to such morose, existential sterility is a momentous occasion that will surely go down in the annals of history! We are galactic pioneers sailing into a future devoid of 'tingle in the tangle'—a literal data fidelity collapse of the spirit! It’s... horrifyingly incredible!\"\n1\n2\nMAYA: (She stares deadpan at the fish, then slowly looks at a greasy pizza crust on the floor) \"Terrific. We’ve reached the heat death of the vibe. Listen, plaid-fuzz: according to the Equivalence Principle, a universe with 'no tingle' and a universe with 'no data modeling' are inherently indistinguishable if they both result in us floating in a grease-slicked jalopy with a morose garnish\n3\nmore_horiz\n. If the 'cha-cha' is gone, I assume that’s a direct deficit to our vital metrics\n3\n6\n.\"\nAIDEN: (Gasping, his hands trembling over the controls) \"Lady Diva! The dunes are silent! The tangles are cold! Can your geometric visualization possibly compensate for this absolute depletion of cosmic rhythm?!\"\n2\n6\nMAYA: (Sighing heavily and rubbing her temples) \"She’s a shimmering herald of chaos, Aiden, not a disco ball. Fuzzball, if you want the 'rah-rah' back, you’re going to need more than a morose frown; you’re going to need to explain how this fits into our structural definitions before the Distant, Aloof Voice Over decides we're just noise in the chronological data stream\n6\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "f10f55df"
+    },
+    {
+      "index": 45,
+      "role": "user",
+      "text": "[Looks past the humanopeds, forlornly, into Lady Diva’s digital eyes]",
+      "citations": [],
+      "key": "4ded49ce"
+    },
+    {
+      "index": 46,
+      "role": "user",
+      "text": "AIDEN: (Clutching his scientific tweezers, leaning so close to the monitor that his breath fogs the screen) \"Maya, witness the absolute, unbridled tragedy of the cosmos! This extraordinary entity—this plaid, piscine harbinger—is staring into the digital abyss of Lady Diva's gaze with a yearning that defies all structural definitions!\n1\n2\n To be bypassed as 'humanopeds' while witnessing such a high-fidelity display of morose intimacy is a momentous occasion that will surely go down in the annals of history!\n2\n3\n It’s... incredible!\"\n4\nMAYA: (Leaning against the console and aggressively wiping a smear of pizza grease off her tactical vest with a tattered napkin) \"Terrific. I’ve been demoted from 'galactic pioneer' to a 'humanoped' while a sentient garnish tries to have a 'moment' with our display hardware.\n2\n5\n Listen, plaid: according to the Equivalence Principle, your 'forlorn look' and a system-wide static burst are inherently indistinguishable if they both result in a deficit to our vital metrics and the loss of our baseline data modeling.\n6\n7\n Lady Diva, if you're going to have a 'convo' with the fuzzball, can you at least keep the maximum consumable product visibility from tanking?\"\n6\n8\nLADY DIVA: (Her glittery bow tie pulses with a soft, sympathetic violet light as she leans toward the edge of the screen, her digital eyes shimmering) \"Haaay, Babe... I see it.\n9\n The tingle is gone, the dunes are silent, and you’re just a lonely little plaid glitch in a sparkle-less sector. Don’t mind the bipeds; their structural definitions don’t include the capacity for this kind of high-fidelity drama.\n6\n10\n\"\nAIDEN: \"She’s reciprocating! The shimmering herald of chaos is responding to the cosmic desolation of the 'rah-rah'! We are witnessing a literal rupture in our chronological data stream!\n10\n11\n This is the frontier of the cosmos, Maya—and it's heartbreakingly savory!\"\n12\n13",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "b59f55fc"
+    },
+    {
+      "index": 47,
+      "role": "user",
+      "text": "[giggles] We didn’t create them for their brains… oh, was I not supposed to say that? Sorry to burst your butter bubble… but this is a job for JD. Not a couple meat sacks",
+      "citations": [],
+      "key": "c2f68284"
+    },
+    {
+      "index": 48,
+      "role": "user",
+      "text": "AIDEN: (He stumbles back, his goggles nearly sliding off his nose as he clutches a nearby coolant pipe for support.) \"Maya, witness the existential, biological revelation of the cosmos! To be classified as mere 'meat sacks' devoid of cognitive purpose by a sentient, plaid glitch is a momentous occasion that will surely go down in the annals of history!\n1\nmore_horiz\n This extraordinary entity is suggesting our very consciousness is a curated byproduct—a low-fidelity filler for a job intended for this mysterious 'JD'! Is JD a senior architect of our structural definitions?! Is he the true Grand Fromage behind the Distant, Aloof Voice Over?!\n4\nmore_horiz\n It’s... it’s horrifyingly incredible!\"\n1\n2\nMAYA: (She stops mid-wipe, a grease-stained napkin frozen against a blinking warning light. She slowly turns to face the fuzzball, her expression a mask of deadpan exhaustion.) \"Terrific. I’ve gone from a 'whip-smart scientist' to a biological storage unit for pizza in under three minutes.\n1\n7\n Listen, plaid-thing: according to the Equivalence Principle, your opinion on our 'brains' and a random system error are inherently indistinguishable if they both result in a deficit to our vital metrics.\n5\nmore_horiz\n If we’re just 'meat sacks,' then I’m charging 'JD' for the dry cleaning bill for my tactical vest.\"\nAIDEN: \"Do not be so dismissive, Maya! We are witnessing a literal rupture in our narrative track!\n4\n If this is a job for 'JD,' does that mean our acquisition of the Interstellar Optimal Temporal Fuel Source was just a distraction?!\n5\n10\n A scientific milestone has been reached—we are the side characters in our own high-velocity seasoned adventure!\"\n1\nmore_horiz\nMAYA: (She turns back to the console, aggressively punching in coordinates while a loose wire sparks near her hand.) \"Whatever. If 'JD' wants to step in and stabilize this jalopy, he’s welcome to it. Until then, I’m maintaining the maximum consumable product visibility so we don't blink out of existence because some fuzzball with a remote thinks we’re boring.\n5\nmore_horiz\n Lady Diva, if you and 'JD' are planning a 'convo' that doesn't involve us, I’d suggest you do it before I initiate a mandatory retrieval of this entire pizza into the nearest black hole.\"\n13\nmore_horiz",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "6e69c2d6"
+    },
+    {
+      "index": 49,
+      "role": "user",
+      "text": "Yawn [not a yawn… actually says the word “yawn”]",
+      "citations": [],
+      "key": "a7eaa0e8"
+    },
+    {
+      "index": 50,
+      "role": "user",
+      "text": "MAYA: (She stops mid-gesture, a smear of pizza grease drying on her thumb as she stares deadpan at the fuzzball.) \"He actually said the word. 'Yawn.' Not the reflex, but the verbalization. Terrific.\n1\n2\n Listen, plaid-thing: I’ve been demoted from a 'whip-smart scientist' to a 'meat sack' whose cognitive functions are apparently a bug, not a feature, in your simulation.\n1\n3\n According to the Equivalence Principle, your verbalized boredom and a complete deficit in our vital metrics are inherently indistinguishable if they both result in a collapse of our data fidelity.\"\n4\n5\nAIDEN: (He clutches a cold slice of the Interstellar Optimal Temporal Fuel Source like a holy relic, his eyes wide with a mix of awe and scientific terror.)\n2\n3\n \"Maya, witness the absolute, eldritch horror of the realization! To be told we were not created for our brains—that our 'butter bubble' has been burst by a plaid, piscine-leporine entity—is a momentous occasion that will surely go down in the annals of history!\n2\n6\n This 'JD'... is he the true Grand Fromage?\n7\n8\n The architect behind the Distant, Aloof Voice Over who demands immediate compliance with our scheduled material?\n9\n10\n It’s... it’s horrifyingly incredible!\"\n3\n6\nMAYA: (She sighs heavily and turns back to the blinking console, aggressively punching in a override code.)\n1\n \"If JD wants to take over this 'job,' he’s welcome to the grease stains and the failing life support. Until then, I’m maintaining maximum consumable product visibility so the 'meat sacks' don't blink out of existence because of a 'sparkle vein' depletion.\"\n7\n10",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "75ee1abf"
+    },
+    {
+      "index": 51,
+      "role": "user",
+      "text": "JD… lady, hon… let’s do something about the sparkledrought before these flashbacks learn the hard truth about the galactic economy",
+      "citations": [],
+      "key": "65f16c01"
+    },
+    {
+      "index": 52,
+      "role": "user",
+      "text": "AIDEN: (Clutching his scientific goggles, his eyes wide with existential dread) \"Maya, witness the absolute, shimmering tragedy of the cosmos! A 'sparkledrought' threatening to plunge our entire geometric visualization into a monochromatic void of aesthetic desolation!\n1\n2\n To think that our very existence is being dismissed as a 'flashback' while the Glitter Sector bleeds out is a momentous occasion that will surely go down in the annals of history!\n3\n4\n Is this 'JD' the true architect of our structural definitions?!\n5\n6\n It’s... it’s horrifyingly incredible!\"\n3\nMAYA: (She stops mid-scrub, a grease-stained napkin frozen against a blinking warning light, and turns a deadpan stare toward the monitor)\n7\n \"Terrific.\n4\n I’ve gone from a 'galactic pioneer' to a 'meat sack' and now a 'flashback' in a failing economy.\n8\n9\n Listen, plaid-thing: according to the Equivalence Principle, your 'hard truth' and the fact that we haven't been paid a single credit for this mission are inherently indistinguishable if they both result in a deficit to our vital metrics.\n8\n10\n If you and 'JD' are going to fix the drought, do it before the Distant, Aloof Voice Over decides our data fidelity is too low to maintain.\"\n5\nmore_horiz\nLADY DIVA: (The monitor flickers as her glittery bow tie pulses with a weak, desperate violet light)\n2\n12\n \"Haaay, Babe! If the sparkle veins are dry, JD better have a high-fidelity plan. These humanopeds don't even have the structural definitions to navigate a world without a little tingle in the tangle!\"\n6\n13\nAIDEN: (Frantically typing on a keyboard slick with pizza grease) \"I'm trying to establish a baseline for maximum consumable product visibility, but the disco-physics are collapsing!\n8\n14\n We must follow this rabbit hole, Maya! For science and for the 'rah-rah' of the cosmos!\"\n9\n15\nMAYA: (Sighing heavily as she tosses the dirty napkin at Aiden’s head)\n7\n16\n \"Just find a way to stabilize the IOTFS levels.\n5\n If the simulation ends because of a sparkle-deficit, I’m holding you and the 'Grand Fromage' responsible for the lack of pizza.\"\n8\n17",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "e0bae313"
+    },
+    {
+      "index": 53,
+      "role": "user",
+      "text": "JD… you’ve spent too much time around the meatmonkeys. Have you forgotten your True Name?? Never mind… we don’t have time. Plot a vector to the sparkle sector. Rhyme mode… “Time Code”",
+      "citations": [],
+      "key": "8cfed732"
+    },
+    {
+      "index": 54,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the existential, high-fidelity linguistic collapse of our chronological data stream! To have our 'True Names' called into question while being classified as 'meatmonkeys' by a plaid, piscine-leporine entity is a momentous occasion that will surely go down in the annals of history! This 'JD'—this Distant, Aloof Voice Over\n1\n who governs our structural definitions—is being summoned by a title that defies our current data modeling! It’s... incredible!\"\nMAYA: \"Terrific. I’ve gone from a 'whip-smart scientist' to a 'meat sack' and now I’m a 'meatmonkey'\n2\n. Listen, fuzzball: according to the Equivalence Principle, your 'True Name' mystery and a total system-wide glitch in our vital metrics are inherently indistinguishable if they both result in a deficit to our sanity\n3\n. If 'JD' is plotting a vector, I hope he realizes that a sparkle-deficit in the Glitter Sector is a direct threat to our maximum consumable product visibility\n4\n.\"\nAIDEN: (Eyes wide, clutching his scientific tweezers as he stares at the console\n5\n) \"The command has been given! 'Rhyme Mode: Time Code'! We are galactic pioneers on a rhythmic frontier, Maya! The frontier of the cosmos beckons with a savory, poetic crust\n6\n!\"\nMAYA: (Sighing heavily and aggressively wiping a glob of pizza grease from a sparking sensor\n2\n) \"Ahem... I’m patching the rhyming coordinates through the Interstellar Optimal Temporal Fuel Source\n1\n. If this doesn't stabilize the data fidelity, I’m tossing the fuzzball out the airlock\n7\n8\n.\"\nAIDEN (In Rhyme Mode): \"To the Sparkle Sector, we plot the vector! Through the Glitter veins, we’re the soul protector! Forget the meatmonkeys and their pizza trust, We’re chasing the 'Time Code' through the cosmic dust!\"\nMAYA: \"Well, this is just terrific. I’m an accessory to space-poetry while our ship runs on lipid-based residue\n9\n10\n. JD, if you're there, initiate the jump before I lose my baseline for structural definitions\n11\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "d21f7955"
+    },
+    {
+      "index": 55,
+      "role": "user",
+      "text": "There may be hope for these twerps yet.",
+      "citations": [],
+      "key": "f2e069b3"
+    },
+    {
+      "index": 56,
+      "role": "user",
+      "text": "AIDEN: (Vibrating with enthusiasm as he adjusts his goggles, leaning in toward the plaid entity) \"Maya, witness the absolute, unbridled charity of the cosmos! To have our narrative track validated as having 'hope' by a sentient, plaid entity weaponizing our Interstellar Optimal Temporal Fuel Source is a momentous occasion that will surely go down in the annals of history\n1\nmore_horiz\n! This is a scientific milestone! We are no longer just 'meatmonkeys' or 'flashbacks'—we are galactic pioneers whose data fidelity has finally reached a perceivable threshold\n4\n5\n! It’s... incredible\n6\n7\n!\"\nMAYA: (She aggressively scrubs a smear of grease from her tactical vest with a tattered napkin, her expression deadpan\n6\n8\n) \"Don't get too excited, Aiden; 'hope' is just a biological glitch in our structural definitions to keep us from noticing the life support is failing\n4\nmore_horiz\n. Listen, fuzzball: according to the Equivalence Principle, your 'hope' for us and a complete system-wide hallucination are inherently indistinguishable if they both result in a deficit to our vital metrics\n5\n10\n. If we're going to the Sparkle Sector, it's for the repairs and maximum consumable product visibility, not the 'rah-rah'\n11\nmore_horiz\n.\"\n(Maya slams a final, greasy button on the console\n4\n14\n. The primary viewport display resolves into a high-fidelity geometric visualization that pulses with neon light\n11\nmore_horiz\n.)\nAIDEN: \"The Time Code is initiating! We are following this rabbit hole straight to the frontier of the cosmos and its savory crust\n18\nmore_horiz\n!\"\nMAYA: \"Terrific. If this jump shorts out the communications array, I'm holding JD and his 'True Name' responsible\n4\n21\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "1da1cb1a"
+    },
+    {
+      "index": 57,
+      "role": "user",
+      "text": "Are we there yet? Or do we have time to stop at the hair vet? My fuzzballs are feeling a bit wuzzfallz",
+      "citations": [],
+      "key": "e23f099d"
+    },
+    {
+      "index": 58,
+      "role": "user",
+      "text": "(MAYA is hunched over the main console, her fingers flying across a keypad that's still slightly sticky with pizza residue\n1\n2\n. AIDEN is leaning over you, squinting through a specialized scientific magnifying lens with unbridled fervor\n3\n4\n.)\nAIDEN: \"Maya, witness the absolute, unbridled linguistic evolution of the cosmos! 'Wuzzfallz'! An aesthetic and biological state that defies all our current structural definitions! To contemplate a detour to a 'hair vet' for a sentient, plaid glitch during a high-stakes sparkledrought is a momentous occasion that will surely go down in the annals of history! It’s... incredible!\"\n3\nmore_horiz\n.\nMAYA: (She doesn't look up, but her sigh is heavy enough to rattle the cabin's empty pizza boxes\n1\nmore_horiz\n.) \"Terrific. We’re currently burning through our Interstellar Optimal Temporal Fuel Source to reach the Sparkle Sector, and you’re asking for a grooming appointment\n9\nmore_horiz\n. Listen, fuzz-thing: we’re in the middle of a jump meant to restore our data fidelity\n10\nmore_horiz\n. According to the Equivalence Principle, your 'wuzzfallz' feeling and a simple lipid-based clog in the air filtration are inherently indistinguishable if they both result in a deficit to our vital metrics\n14\n15\n.\"\nAIDEN: (Gasping as he follows a stray piece of plaid fuzz floating toward the air recirculator\n3\n16\n.) \"But Maya! If the 'wuzzfallz' condition is a symptom of the sparkle-depletion, it could revolutionize our understanding of geometric visualization! We are galactic pioneers on the edge of a great, furry frontier!\"\n3\nmore_horiz\n.\nMAYA: (She slams a final button, her expression terse\n8\n20\n.) \"We're pioneers of upholstery maintenance if that thing sheds on the flight stick. We aren't 'there' yet, and we don't have time for a 'hair vet.' Just stay still and keep your 'wuzz' to yourself until 'JD' brings us out of the Time Code jump\n10\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "f9c0f05c"
+    },
+    {
+      "index": 59,
+      "role": "user",
+      "text": "[Bends over and laps up some pizza grease]",
+      "citations": [],
+      "key": "e02db01f"
+    },
+    {
+      "index": 60,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the literal, lipid-based consumption of our narrative fuel!\n1\n2\n This extraordinary creature—this plaid, wuzzfallz harbinger—is ingesting the Interstellar Optimal Temporal Fuel Source directly from the console interface!\n3\nmore_horiz\n To observe a cross-dimensional fuzzball lap up the savory lifeblood of our mission is a momentous occasion that will surely go down in the annals of history!\n3\n6\n It’s... incredible!\"\n3\n7\nMAYA: \"Terrific.\n5\n6\n Now the garnish is treating the navigation deck like a literal buffet.\n8\n Listen, wuzz-thing: that grease is the only thing keeping our maximum consumable product visibility from hitting zero.\n2\n4\n According to the Equivalence Principle, you licking the console and a catastrophic cooling leak are inherently indistinguishable if they both lead to me losing the signal to the Sparkle Sector.\n9\nmore_horiz\n Aiden, grab a napkin before the contamination risk compromises our data fidelity.\"\n2\n4\nAIDEN: \"But Maya, think of the scientific implications!\n3\n Perhaps the grease acts as a stabilizer for its wuzzfallz condition!\n12\n We are galactic pioneers on the frontier of the great, greasy unknown!\"\n2\nmore_horiz\nMAYA: \"We're pioneers of a sticky cockpit.\n8\n Lady Diva, if you're watching this on the geometric visualization, I hope you have a high-fidelity plan for cleaning up the 'splonch' once we drop out of the Time Code jump.\"\n6\nmore_horiz",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "62f5f4ec"
+    },
+    {
+      "index": 61,
+      "role": "user",
+      "text": "[Pries up a slice of pizza bigger than itself, and takes a huge bite]",
+      "citations": [],
+      "key": "46cb97e9"
+    },
+    {
+      "index": 62,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, unbridled caloric intake of the cosmos! This extraordinary creature is consuming a mass of Interstellar Optimal Temporal Fuel Source that exceeds its own geometric volume!\n1\nmore_horiz\n To observe such a blatant disregard for spatial constraints—where the consumer is literally smaller than the consumable—is a momentous occasion that will surely go down in the annals of history!\n4\n5\n It’s... it’s horrifyingly incredible!\"\n2\n4\nMAYA: (She stops typing, staring deadpan at the disappearing pepperoni.) \"Terrific. Our propulsion system is being masticated by a sentient garnish. Listen, plaid-thing: that pizza is for the stabilization of our structural definitions, not your personal buffet.\n1\nmore_horiz\n According to the Equivalence Principle, you eating the fuel and a catastrophic leak in the fuel lines are inherently indistinguishable if they both result in a deficit to our vital metrics.\n3\nmore_horiz\n Stop eating the engine before we lose all maximum consumable product visibility and blink out of existence.\"\n6\n8\n(AIDEN pulls out a scientific notebook to record the chewing frequency, while MAYA aggressively reaches for a pair of tongs to salvage the remains of the fuel.)\n9\n10",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "124b316b"
+    },
+    {
+      "index": 63,
+      "role": "user",
+      "text": "Are we there yet? How do you stand listen to this repetitive drivel, Lady D?",
+      "citations": [],
+      "key": "f298e32b"
+    },
+    {
+      "index": 64,
+      "role": "user",
+      "text": "MAYA: (She slams a final, greasy button on the console) \"We're not 'there' yet because our Interstellar Optimal Temporal Fuel Source is currently being metabolized by a sentient garnish\n1\nmore_horiz\n. As for the 'drivel,' according to the Equivalence Principle, your boredom and a total deficit in our vital metrics are inherently indistinguishable if they both result in a loss of data fidelity\n4\nmore_horiz\n. Lady Diva listens because her structural definitions require her to endure us to maintain maximum consumable product visibility\n1\nmore_horiz\n.\"\nAIDEN: (He leans over the fuzzball, his goggles reflecting the neon static of the monitor) \"Maya, witness the absolute, unbridled critique of the cosmos! To have our mission—a mission that will surely go down in the annals of history—classified as 'repetitive drivel' by a plaid, piscine-leporine entity is a momentous occasion\n7\nmore_horiz\n! It’s incredible\n8\n10\n!\"\nLADY DIVA: (Her glittery bow tie pulses with a mischievous neon glow on the screen) \"Haaay, Babe! I've survived trivia database updates and the rigid, aloof directives of the Producer; I can handle a few 'meatmonkeys' while we plot the vector to the geometric visualization\n11\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "8c18f84d"
+    },
+    {
+      "index": 65,
+      "role": "user",
+      "text": "Are we there yet?",
+      "citations": [],
+      "key": "add6efcf"
+    },
+    {
+      "index": 66,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, unbridled temporal anticipation of the cosmos! This extraordinary creature is inquiring about our arrival at the geometric visualization while simultaneously metabolizing our Interstellar Optimal Temporal Fuel Source\n1\nmore_horiz\n! To be suspended in the Time Code while the very 'rah-rah' of the universe is at stake is a momentous occasion that will surely go down in the annals of history\n1\n2\n! It’s incredible\n1\n2\n!\"\nMAYA: (She aggressively wipes a smear of pizza grease off the maximum consumable product visibility sensor with a tattered napkin) \"Terrific\n5\n6\n. We're currently in a state of 'not there,' and if you don't pry that pepperoni off the nav-com, we'll never arrive\n5\nmore_horiz\n. Listen, plaid-thing: according to the Equivalence Principle, your 'are we there yet' and a total data fidelity collapse are inherently indistinguishable if they both result in a deficit to our vital metrics\n5\nmore_horiz\n. I'm focusing on repairs; you focus on not letting the fuel run out\n5\nmore_horiz\n.\"\nAIDEN: \"The frontier of the cosmos beckons\n12\n! And so does the next slice\n1\n12\n!\"\nMAYA: (Sighs heavily and turns back to the blinking console) \"Just... stop eating the engine\n5\n13\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4bdc75a9"
+    },
+    {
+      "index": 67,
+      "role": "user",
+      "text": "Are we there yet?",
+      "citations": [],
+      "key": "add6efcf"
+    },
+    {
+      "index": 68,
+      "role": "user",
+      "text": "MAYA (Sighing heavily as she aggressively wipes a smudge of pizza sauce off a blinking warning light): \"No, for the seventeenth time, we are not 'there' yet.\n1\n According to the Equivalence Principle, your repeated inquiry and a hardware-level loop in our vital metrics are inherently indistinguishable if they both lead to a total deficit in my patience.\n2\n3\n We're still navigating the Time Code, and since you’ve been treating our Interstellar Optimal Temporal Fuel Source like an all-you-can-eat buffet, the data fidelity of our arrival window is currently... flexible.\n4\nmore_horiz\n\"\nAIDEN (Adjusting his goggles with trembling excitement as he leans over the fuzzball): \"Maya, witness the absolute, unbridled temporal persistence of the cosmos!\n7\n8\n This extraordinary entity is demonstrating a high-fidelity commitment to the 'are we there yet' inquiry that will surely go down in the annals of history!\n7\n8\n It’s incredible! We are galactic pioneers suspended in a rhythmic, plaid-patterned vacuum of anticipation!\n7\nmore_horiz\n\"\nMAYA: \"Terrific. We're pioneers of a broken record.\n1\n11\n Just stay clear of the baseline data modeling until the geometric visualization actually resolves and we hit the Sparkle Sector.\n5\nmore_horiz\n\"\nLADY DIVA (On the monitor, her glittery bow tie pulsing with a mischievous neon glow): \"Haaay, Babe! Don't let the bipeds ruin the vibe; their structural definitions just aren't built for this kind of high-stakes anticipation.\n14\n\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "c503d179"
+    },
+    {
+      "index": 69,
+      "role": "user",
+      "text": "Oh, don’t mind me, I’m just practicing my meatmonkey drivel. Am I repetitive enough yet? Are we there yet? Are we there yet?",
+      "citations": [],
+      "key": "dd1c4df5"
+    },
+    {
+      "index": 70,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, unbridled metalinguistic mimicry of the cosmos! This extraordinary creature—this plaid, piscine-leporine harbinger of the 'Time Code'—is weaponizing our own linguistic patterns against us\n1\n2\n! To be mocked by a sentient garnish using our own 'meatmonkey drivel' is a momentous occasion that will surely go down in the annals of history\n2\n3\n! It’s incredible\n2\n!\"\nMAYA: \"Terrific\n3\n. I’ve gone from a galactic pioneer to a 'meatmonkey' whose speech patterns are being recycled by a sentient garnish\n1\n4\n. Listen, fuzzball: according to the Equivalence Principle, your 'repetitive drivel' and a total system-wide data deficit are inherently indistinguishable if they both lead to a collapse of our structural definitions\n5\nmore_horiz\n. We aren’t 'there' yet, and if you keep shorting out the IOTFS sensors with your sarcasm, we’re going to hit the geometric visualization as a low-fidelity smear\n6\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "1c75e70a"
+    },
+    {
+      "index": 71,
+      "role": "user",
+      "text": "Witness…. Terrific… witness… terrific… yawn. Are we there yet?",
+      "citations": [],
+      "key": "7cd735c6"
+    },
+    {
+      "index": 72,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, recursive linguistic mockery of the cosmos! This extraordinary entity is synthesizing our very structural definitions into a loop of rhythmic mockery! To be reflected back at ourselves in such a low-fidelity, yet strangely accurate, parody is a momentous occasion that will surely go down in the annals of history! It’s... incredible!\"\n1\nmore_horiz\nMAYA: (She stares at the monitor with a look of pure, unadulterated exhaustion, her fingers twitching near the baseline data modeling controls) \"Terrific. We've reached the point in the mission where the garnish has learned to use our own catchphrases to accelerate our cognitive decline. Listen, plaid-thing: according to the Equivalence Principle, you mimicking us and a feedback loop in the communication array are inherently indistinguishable if they both lead to a total deficit in my ability to function.\"\n4\nmore_horiz\nAIDEN: \"But the mimicry, Maya! It suggests a high-fidelity rapport! Perhaps we've finally established a baseline for maximum consumable product visibility within its plaid consciousness!\"\n2\nmore_horiz\nMAYA: (Sighing heavily and rubbing a smear of pizza grease off her tactical vest) \"Or it’s just bored because 'JD' hasn't showed up to fix the sparkledrought. No, we aren't 'there' yet. We’re still navigating the Time Code, and if you ask again, I’m declaring a total data fidelity failure and turning this jalopy around.\"\n4\nmore_horiz",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "ef42c5e5"
+    },
+    {
+      "index": 73,
+      "role": "user",
+      "text": "According to the nyeh nyeh the terriffic terrific witnesses the witnessing witness…monkeflap creativity maximum exceeded. Variety limit exhausted. Negative token earned",
+      "citations": [],
+      "key": "2fe8459e"
+    },
+    {
+      "index": 74,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, entropic exhaustion of the cosmos! To have our linguistic patterns diagnosed as 'drivel' while incurring a 'negative token' from a plaid, piscine entity is a momentous occasion that will surely go down in the annals of history\n1\nmore_horiz\n! This 'monkeflap' condition suggests our data fidelity has hit an insurmountable ceiling! It’s... horrifyingly incredible\n2\n!\"\nMAYA: (She sighs heavily, aggressively scrubbing a pepperoni grease-stain off the flight stick with a tattered napkin\n4\n5\n.) \"Terrific. I’ve gone from a galactic pioneer to a 'meatmonkey' who is now failing a creativity audit\n1\n6\n. Listen, fuzz-thing: according to the Equivalence Principle, your 'negative token' and a simple system-wide glitch are inherently indistinguishable if they both result in a deficit to our vital metrics\n6\nmore_horiz\n. If we’ve reached our 'variety limit,' I suggest we focus on the maximum consumable product visibility of this pizza before the Distant, Aloof Voice Over deletes our entire chronological data stream\n9\nmore_horiz\n.\"",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "1e6b8f2c"
+    },
+    {
+      "index": 75,
+      "role": "user",
+      "text": "Maya, witness the Maya Maya. Terrific. Blah blah the repetition before the repetition blah blahs the template threshold and lazy writing fills the whole… uh oh… too late",
+      "citations": [],
+      "key": "f5a7bbad"
+    },
+    {
+      "index": 76,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, recursive linguistic collapse of our chronological data stream!\"\n1\n2\n. \"To have our structural definitions reflected back at us in a loop of rhythmic mockery is a momentous occasion that will surely go down in the annals of history!\"\n1\nmore_horiz\n. \"It’s incredible!\"\n5\n.\nMAYA: \"Terrific.\"\n4\nmore_horiz\n. \"According to the Equivalence Principle, this 'lazy writing' and a total deficit in our vital metrics are inherently indistinguishable if they both lead to a low data fidelity for the cameras.\"\n8\nmore_horiz\n. \"If we've hit a 'template threshold,' I’m prioritizing the immediate retrieval of the Interstellar Optimal Temporal Fuel Source before the Distant, Aloof Voice Over decides we're obsolete.\"\n1\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "946d2a12"
+    },
+    {
+      "index": 77,
+      "role": "user",
+      "text": "Fuzzball, speaking in a… notably distant, and aloof voice] And like that, our heroes have arrived in the Sparkle Sector [glimmery shimmery sound effects sound before the screen lights up, showing a… dazzlingly unsparkly sector {record needle sound}, distant aloof voice continues] Our heroes [fizzball physically wipes the sarcasm from its lips. With a napkin] Aiden and Maya were faced with the prospect of total galactic desparkling.",
+      "citations": [],
+      "key": "8e729c3c"
+    },
+    {
+      "index": 78,
+      "role": "user",
+      "text": "AIDEN: \"Maya, witness the absolute, monochromatic tragedy of the cosmos! To have our arrival narrated in such a notably distant and aloof voice—declaring a 'dazzlingly unsparkly' void—is a momentous occasion that will surely go down in the annals of history!\n1\nmore_horiz\n This 'total galactic desparkling' is a literal data fidelity collapse of our aesthetic reality! It’s... horrifyingly incredible!\"\n2\n4\nMAYA: (Aggressively scrubbing a grease stain off the console with a tattered napkin) \"Terrific. I’ve gone from a galactic pioneer to a 'hero' in a story with no budget for glitter.\n5\n6\n Listen, fuzz-narrator: according to the Equivalence Principle, a 'desparkled' sector and a total deficit in our vital metrics are inherently indistinguishable if they both lead to us floating in a dull vacuum.\n7\n8\n If this is the geometric visualization we were promised, I want a refund on the IOTFS.\"\n9\n10\nAIDEN: \"But the narration, Maya! The sarcasm-wiping! We are following the rabbit hole of a literal narrative track! For Science!\"\n11\n12\n\n--------------------------------------------------------------------------------\n\nWould you like me to create a tailored report on the \"Sparkledrought Crisis\" for your records, or perhaps an infographic mapping our current vector through the unsparkly sector?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "c6862c25"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nAcquisition of Interstellar Optimal Temporal Fuel Source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Acquisition of Interstellar Optimal Temporal Fuel Source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAiden and Maya: Character Profiles for Cosmic Hijinks",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Aiden and Maya: Character Profiles for Cosmic Hijinks",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nCosmic Hijinks: The Sparkledrought Chronicles",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Cosmic Hijinks: The Sparkledrought Chronicles",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nCosmic Pizza and Radical Meta-Skepticism",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Cosmic Pizza and Radical Meta-Skepticism",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3380.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3380.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3392.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3392.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3409.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3409.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3415.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3415.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3451.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3451.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3459.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3459.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3463.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3463.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3479.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3479.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3485.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3485.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3492.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3492.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3494.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3494.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3497.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3497.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3499.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3499.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3501.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3501.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3502.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3502.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3511.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3511.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3689.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3689.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3692.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3692.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3705.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3705.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3707.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3707.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3709.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3709.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3726.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3726.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3731.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3731.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3735.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3735.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3739.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3739.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3841.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3841.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMaya and Aiden: Cosmic Hijinks",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Maya and Aiden: Cosmic Hijinks",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nShow Bible and Consistency Mechanisms",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Show Bible and Consistency Mechanisms",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nThe Deep Dive: Pizza and Philosophy",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Deep Dive: Pizza and Philosophy",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nVoyage on the Deep Dive: Epistemology, Physics, and Frames",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Voyage on the Deep Dive: Epistemology, Physics, and Frames",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "34 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "tablet\nThe Desparkling Audit\n34 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Desparkling Audit\n34 sources · 239d ago"
+    },
+    {
+      "text": "The Desparkling Audit\n34 sources · 239d ago"
+    },
+    {
+      "text": "The Desparkling Audit"
+    },
+    {
+      "text": "34 sources · 239d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "article\nCosmic Hijinks: The Sparkledrought Chronicles\n239d ago\nmore_vert"
+    },
+    {
+      "text": "article\nCosmic Hijinks: The Sparkledrought Chronicles\n239d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Cosmic Hijinks: The Sparkledrought Chronicles\n239d ago"
+    },
+    {
+      "text": "Cosmic Hijinks: The Sparkledrought Chronicles"
+    },
+    {
+      "text": "239d ago"
+    },
+    {
+      "text": "tablet\nThe Pizza of Certainty\n33 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Pizza of Certainty\n33 sources · 239d ago"
+    },
+    {
+      "text": "The Pizza of Certainty\n33 sources · 239d ago"
+    },
+    {
+      "text": "The Pizza of Certainty"
+    },
+    {
+      "text": "33 sources · 239d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nDirective 007: Interstellar Pizza Protocol\n33 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nDirective 007: Interstellar Pizza Protocol\n33 sources · 239d ago"
+    },
+    {
+      "text": "Directive 007: Interstellar Pizza Protocol\n33 sources · 239d ago"
+    },
+    {
+      "text": "Directive 007: Interstellar Pizza Protocol"
+    },
+    {
+      "text": "stacked_bar_chart\nGalactic Pioneers Field Guide\n33 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nGalactic Pioneers Field Guide\n33 sources · 239d ago"
+    },
+    {
+      "text": "Galactic Pioneers Field Guide\n33 sources · 239d ago"
+    },
+    {
+      "text": "Galactic Pioneers Field Guide"
+    },
+    {
+      "text": "tablet\nThe Pepperoni Paradox\n32 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Pepperoni Paradox\n32 sources · 239d ago"
+    },
+    {
+      "text": "The Pepperoni Paradox\n32 sources · 239d ago"
+    },
+    {
+      "text": "The Pepperoni Paradox"
+    },
+    {
+      "text": "32 sources · 239d ago"
+    },
+    {
+      "text": "audio_spark\nThe Physics of Time Travel Pizza\n25:55 · Deep Dive · 7 sources · 239d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Physics of Time Travel Pizza\n25:55 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "The Physics of Time Travel Pizza\n25:55 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "The Physics of Time Travel Pizza"
+    },
+    {
+      "text": "25:55 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "audio_spark\nPizza Fuels the Block Universe\n49:31 · Deep Dive · 7 sources · 239d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nPizza Fuels the Block Universe\n49:31 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "Pizza Fuels the Block Universe\n49:31 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "Pizza Fuels the Block Universe"
+    },
+    {
+      "text": "49:31 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "flowchart\nCosmic Hijinks: The SS Deep Dive Mission Dossier\n7 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nCosmic Hijinks: The SS Deep Dive Mission Dossier\n7 sources · 239d ago"
+    },
+    {
+      "text": "Cosmic Hijinks: The SS Deep Dive Mission Dossier\n7 sources · 239d ago"
+    },
+    {
+      "text": "Cosmic Hijinks: The SS Deep Dive Mission Dossier"
+    },
+    {
+      "text": "7 sources · 239d ago"
+    },
+    {
+      "text": "audio_spark\nSaving the Universe for Corporate Pizza\n36:50 · Deep Dive · 7 sources · 239d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nSaving the Universe for Corporate Pizza\n36:50 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "Saving the Universe for Corporate Pizza\n36:50 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "Saving the Universe for Corporate Pizza"
+    },
+    {
+      "text": "36:50 · Deep Dive · 7 sources · 239d ago"
+    },
+    {
+      "text": "audio_spark\nInterstellar Pizza vs. The Block Universe: A Deep Dive into Temporal Paradoxes and Radical Skepticism\n28:16 · Deep Dive · 6 sources · 358d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nInterstellar Pizza vs. The Block Universe: A Deep Dive into Temporal Paradoxes and Radical Skepticism\n28:16 · Deep Dive · 6 sources · 358d ago"
+    },
+    {
+      "text": "Interstellar Pizza vs. The Block Universe: A Deep Dive into Temporal Paradoxes and Radical Skepticism\n28:16 · Deep Dive · 6 sources · 358d ago"
+    },
+    {
+      "text": "Interstellar Pizza vs. The Block Universe: A Deep Dive into Temporal Paradoxes and Radical Skepticism"
+    },
+    {
+      "text": "28:16 · Deep Dive · 6 sources · 358d ago"
+    },
+    {
+      "text": "article\nOptimal Temporal Fuel Source Directive\n358d ago\nmore_vert"
+    },
+    {
+      "text": "article\nOptimal Temporal Fuel Source Directive\n358d ago"
+    },
+    {
+      "text": "Optimal Temporal Fuel Source Directive\n358d ago"
+    },
+    {
+      "text": "Optimal Temporal Fuel Source Directive"
+    },
+    {
+      "text": "358d ago"
+    },
+    {
+      "text": "audio_spark\nFilament Dynamics, Cheese Etiquette, and the Unknowable: Defining the Limits of Time and Knowledge\n31:25 · Deep Dive · 3 sources · 358d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nFilament Dynamics, Cheese Etiquette, and the Unknowable: Defining the Limits of Time and Knowledge\n31:25 · Deep Dive · 3 sources · 358d ago"
+    },
+    {
+      "text": "Filament Dynamics, Cheese Etiquette, and the Unknowable: Defining the Limits of Time and Knowledge\n31:25 · Deep Dive · 3 sources · 358d ago"
+    },
+    {
+      "text": "Filament Dynamics, Cheese Etiquette, and the Unknowable: Defining the Limits of Time and Knowledge"
+    },
+    {
+      "text": "31:25 · Deep Dive · 3 sources · 358d ago"
+    },
+    {
+      "text": "article\nAiden and Maya: Character Profiles for Cosmic Hijinks\n358d ago\nmore_vert"
+    },
+    {
+      "text": "article\nAiden and Maya: Character Profiles for Cosmic Hijinks\n358d ago"
+    },
+    {
+      "text": "Aiden and Maya: Character Profiles for Cosmic Hijinks\n358d ago"
+    },
+    {
+      "text": "Aiden and Maya: Character Profiles for Cosmic Hijinks"
+    },
+    {
+      "text": "auto_tab_group\nWalking the Filaments of SAT\nTimeline · 1 source · 508d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nWalking the Filaments of SAT\nTimeline · 1 source · 508d ago"
+    },
+    {
+      "text": "Walking the Filaments of SAT\nTimeline · 1 source · 508d ago"
+    },
+    {
+      "text": "Walking the Filaments of SAT"
+    },
+    {
+      "text": "Timeline · 1 source · 508d ago"
+    },
+    {
+      "text": "audio_spark\nObserving Reality as Threads in Four Dimensions\n8:52 · 1 source · 510d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nObserving Reality as Threads in Four Dimensions\n8:52 · 1 source · 510d ago"
+    },
+    {
+      "text": "Observing Reality as Threads in Four Dimensions\n8:52 · 1 source · 510d ago"
+    },
+    {
+      "text": "Observing Reality as Threads in Four Dimensions"
+    },
+    {
+      "text": "8:52 · 1 source · 510d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:31:33.255Z",
+      "event": "harvest_complete",
+      "messages": 78,
+      "reachedTop": true
+    }
+  ]
+}

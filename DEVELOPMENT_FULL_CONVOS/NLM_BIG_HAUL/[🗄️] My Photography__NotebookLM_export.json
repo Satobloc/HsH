@@ -1,0 +1,1785 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] My Photography",
+    "notebook_id": "bfc840c5-ff75-4b1a-b47a-55c7daaadb96",
+    "notebook_url": "https://notebook.google.com/notebook/bfc840c5-ff75-4b1a-b47a-55c7daaadb96?authuser=4",
+    "captured_at": "2026-10-21T21:45:09.065Z",
+    "visible_source_count": 51,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 35
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Can you give me a condensed, concise catalogue of the photos contained here?",
+      "citations": [],
+      "key": "bde54cbe"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "This catalogue provides a concise overview of the imagery found in the sources, grouped by recurring themes and subjects:\nPhotographic Equipment and Process\nLarge Format Cameras: Several images feature professional field or studio cameras, often shown in low-light settings with specialized lamps or reflective foil\nlock\nmore_horiz\n.\nOptics and Shutters: Close-up views of camera lenses and shutters, including sepia-toned vintage components\n2\n3\n and abstract views through glass or lenses\nlock\n4\n.\nFilm Media: Visible film strips with sprocket holes, showing a shirtless man\n5\n and decorative patterns\n6\n.\nPortraits and Human Figures\nExtreme Face Close-ups: Numerous grainy or high-contrast shots focusing on eyes, noses, and beards in various tints like sepia\n7\nlock\n, blue\n8\n, and black-and-white\n9\nmore_horiz\n.\nCandid Portraits: A man playing guitar\n11\n, a man seen through tinted glass\n12\n, a reclining figure with color distortion\n13\nlock\n, and a man sitting beneath a bare tree in a cemetery\n14\n15\n.\nStylized Portraits: A ghostly purple-tinted portrait of a woman\n16\n.\nMiniatures and Still Life\nFigurines: Small toys including a girl jumping rope\n17\n, a pair of children\n18\n, and a blurred toy face\n19\n.\nFound Objects: Mechanical tools on a wooden surface\n20\n, a pipe and electronic tube near a small dish\n21\n, and a close-up of hair\n22\n.\nInterior Details: Light fixtures with chains or flower shapes\n23\n24\n, and a cat viewed through a window with figurines\n25\n.\nLandscapes and Structures\nNature and Environment: Bare tree branches against various backgrounds\nlock\n26\n, a tree trunk in a snow-covered field\nlock\n, and close-ups of grass and gravel with a blurred car\nlock\n27\n.\nArchitecture: Grainy views of houses and roofs\n28\n29\n, a house at night framed like a Polaroid\n30\n, and views through dirty windows\n31\n.\nIndustrial Imagery: Night shots of a \"SHELLY & SANDS\" tanker\nlock\n, also shown through a streaked windshield\n32\n.\nAbstract and Textured Works\nLighting Effects: Abstract light trails and bokeh patterns in purple, orange, and yellow\nlock\nlock\n.\nDistressed Textures: Heavily stained, sepia-toned images that appear physically weathered or chemically altered\n33\n34\n.\nThe collection functions like a visual diary or a photographer's scrapbook, where technical studies of the tools of the trade sit alongside fragmented memories and experimental textures.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "5e9d2702"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "How would you describe the style of photography?",
+      "citations": [],
+      "key": "bd864518"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The style of photography in the sources is best described as experimental, tactile, and lo-fi, characterized by a deep preoccupation with the physicality of the photographic process and a preference for atmospheric imperfection over technical clarity.\nThe following elements define this aesthetic:\nExperimental and Alternative Processes\nThe photographer frequently uses techniques that highlight the limitations and textures of film. Several images display visible sprocket holes from 35mm film\n1\n2\n, while others appear to be chemically or physically distressed, featuring heavy stains, drips, and discolorations that suggest a messy darkroom process\n3\nmore_horiz\n. There is also a recurring focus on vintage equipment, such as large-format bellows cameras and studio lamps, treating the tools of the trade as subjects themselves\nlock\nmore_horiz\n.\nAtmospheric and Moody Tonality\nThe collection relies heavily on monochromatic tints to evoke specific moods.\nCyan and Deep Blue: Used for melancholic or wintry scenes, such as a cemetery in the snow or close-ups of eyes\n7\nmore_horiz\n.\nSepia and Warm Yellow: Applied to portraits and mechanical objects, giving them an aged, archival quality\n10\nmore_horiz\n.\nSaturated Red and Purple: Used in interior shots or abstracts to create a sense of artificial or neon-lit urgency\n14\nmore_horiz\n.\nMacro and Abstract Perspectives\nThe style prioritizes fragmentation over whole subjects, often utilizing an extremely shallow depth of field.\nAnatomical Close-ups: The photographer captures extreme, grainy details of eyes, noses, and facial hair, reducing the human face to a series of textures\n12\nmore_horiz\n.\nMiniature Still Lifes: Small figurines and found objects are shot with soft focus and bokeh backgrounds, making the mundane feel surreal or nostalgic\n18\nmore_horiz\n.\nPure Abstraction: Some images abandon representation entirely, focusing on blurred light trails and out-of-focus shapes\nlock\nlock\n.\nAesthetic of the \"Unseen\" and Transience\nMany images feel like candid, stolen moments or views through barriers. There are shots taken through dirty or streaked windows\n21\n22\n, silhouettes obscured by tinted glass\n23\n, and grainy, low-light views of industrial sites like tankers at night\nlock\n. This \"rough\" perspective gives the work a visual diary feel, as if the viewer is looking at a collection of half-remembered dreams or fragmented memories\n24\nmore_horiz\n.\nIn essence, this style is like looking through a dusty attic window; it values the grit, the blur, and the decay of the image as much as the subject being captured.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "c4dc896a"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "What formats, processes, and cameras/lenses would you guess for these",
+      "citations": [],
+      "key": "144cbf26"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Based on the visual evidence in the sources, the photographer uses a diverse array of traditional and experimental equipment, formats, and chemical treatments.\nCameras and Lenses\nThe sources explicitly feature several types of cameras, both as subjects and as the likely tools used for capture:\nLarge Format Field Cameras: Multiple images show a wooden field camera with accordion-style bellows\nlock\nmore_horiz\n. These cameras are often seen in a \"DIY\" state, such as having reflective foil taped around the lens board\nlock\nlock\n or being held together with gaffer tape\nlock\n.\nVintage Shutters and Optics: There is a focus on older mechanical components, specifically a Kodak RPO shutter assembly\n1\n. This suggests the use of vintage lenses that lack modern electronic housing, often favored for their unique \"character\" and imperfections\n1\n2\n.\nMacro and Low-Fi Lenses: The extremely shallow depth of field in portraits\nlock\n3\n and miniatures\n4\n5\n suggests the use of macro lenses or perhaps a large format camera’s bellows extended to their limit. The heavy blur and light distortions in other images\nlock\n6\n imply the use of \"toy\" lenses or optics with significant spherical aberration.\nFilm Formats\nThe collection utilizes at least three distinct film formats:\n35mm Film (Sprocket-Hole Photography): Several images clearly show the perforated sprocket holes and frame numbers (like \"8\" and \"7A\") typical of 135-format film\n7\n. In some cases, the image is exposed across the entire width of the film, including the sprockets, a technique often called \"sprocket-hole photography\"\n7\n8\n.\nInstant Film: Images featuring a thick, white bottom border and a square or rectangular frame strongly resemble Polaroid or Instax formats\n9\nmore_horiz\n.\nSheet Film: Given the presence of large format cameras\nlock\nlock\n, it is highly likely that many of the high-detail or highly textured images were captured on 4x5 or 8x10 sheet film.\nProcesses and Development\nThe photographer moves beyond standard development to treat the film as a physical, malleable object:\nChemical and Physical Distress: Many images show signs of intentional \"film souping\" or distressed development, evidenced by heavy stains, chemical drips, and uneven textures\n11\nmore_horiz\n.\nAlternative Tinting: The sources showcase a variety of monochromatic processes:\nCyanotype or Blue Toning: Used for wintry and melancholic scenes\n14\nmore_horiz\n.\nSepia Toning: Applied to portraits and mechanical studies to create an archival or \"found\" aesthetic\n3\nlock\n.\nLavender/Purple Tints: Likely achieved through digital post-processing or specific color-shift films\nlock\n17\n.\nIn-Camera Effects: The use of barriers, such as shooting through dirty glass, streaked windshields, or tinted filters, creates a layered, hazy effect that obscures the subject\n18\nmore_horiz\n.\nThis combination of tools and techniques suggests a \"Process Art\" approach, where the act of capturing the image and the physical degradation of the film are just as important as the subject itself.\n\n--------------------------------------------------------------------------------\n\nNote: While I can identify these as large format or 35mm cameras and various toning processes from the visual evidence, specific brands of chemicals or exact lens focal lengths are not mentioned in the sources and would require independent verification.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "28823640"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "What additional pieces have been added",
+      "citations": [],
+      "key": "5d9730b4"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "Based on the comprehensive list of 50 images provided in the sources, the collection includes several specific subjects and compositions that expand on the previously discussed themes:\nMechanical and Still Life Subjects\nVintage Tool Arrangement: A collection of well-worn tools, including a caliper and a feeler gauge, laid out on a dark wooden surface\n1\n.\nEclectic Still Life: A composition featuring a smoking pipe, an electronic vacuum tube labeled \"THEON,\" and a small ceramic dish containing fragments of paper\n2\n.\nGlassware and Optics: Multiple studies of glass vessels and lab-like equipment, sometimes appearing in high-contrast yellow or sepia tones\n3\nmore_horiz\n.\nSpecific Camera Components: Close-up views of a Kodak RPO shutter assembly\n6\n and an optical view through a lens showing the numbers \"28\" and \"23\"\n7\n.\nOutdoor and Garden Imagery\nThe Blue Garden Series: A sequence of cyan-tinted images featuring a vintage bicycle parked near a birdbath, decorative metal trellises, and garden flowers\n8\nmore_horiz\n.\nArchitectural Details: A night shot of a house framed by a red morning glory flower\n13\n, a view of a house with a prominent chimney under a cloudy sky\n14\n, and a snow-covered deck or balcony\n15\n.\nEnvironmental Perspectives: A ground-level view of a gravel path leading toward a car\n16\n and a view of greenery through a very dirty, cobwebbed window\n17\n.\nHuman Figures and Figurines\nSpecific Figurines: Macro shots of a girl jumping rope\n18\n and a pair of small children in winter hats and boots\n19\n.\nAnatomical Close-ups: An image of dark hair flowing over a red surface\n20\n and a hand adjusting a black leather boot with a red ribbon\n21\n.\nDistinct Portraits: A blue-tinted shot of a shirtless man on a weight bench\n22\n, a man with crossed arms seen through a reflective surface\n23\n, and a ghostly, purple-toned portrait of a woman\n24\n.\nCandid Moments: Several frames of a man reclining or sleeping, shown with distorted colors and visible film sprocket holes\n25\nmore_horiz\n.\nAdvanced Textural Abstractions\nChemical/Film Distress: Intense examples of film degradation, featuring heavy black stains, drips, and chemical \"burns\" that obscure images of trees and windows\n28\nmore_horiz\n.\nLight and Pattern: A study of rippling light patterns on a textured surface\n31\n and close-ups of decorative light fixtures with hanging chains\n32\n33\n.\nThis collection serves as a fragmented mosaic, where the rust of a tool is given the same photographic weight as a human eye or a distant house in the snow.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "81bc8aa8"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "What would you say about the artist’s style and technique",
+      "citations": [],
+      "key": "ea37565e"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "The artist’s style and technique are characterized by an experimental, tactile approach that prioritizes the physical process of photography over traditional clarity or \"perfection.\" Their work emphasizes the limitations and artifacts of analog media, resulting in an aesthetic that is both nostalgic and hauntingly fragmented.\nIntentional Physicality and Film Process\nThe photographer frequently treats the film itself as a canvas, exposing the mechanics of the medium.\nFilm Exposure: Several images feature visible sprocket holes, indicating that the artist either scans the film beyond the frame or uses a specialized camera that exposes the entire 35mm strip\n1\nmore_horiz\n.\nChemical Distress: Many pieces exhibit heavy chemical stains, drips, and solarization effects, suggesting \"film souping\" or experimental darkroom development\n4\nmore_horiz\n.\nAnalog Formats: The technique spans various formats, from the square, framed aesthetic of instant film to high-detail compositions likely shot on large format cameras utilizing bellows and vintage shutters\n9\nmore_horiz\n.\nAtmospheric and Monochromatic Tonality\nRather than naturalistic color, the artist uses heavy monochromatic tints to define the emotional temperature of their subjects.\nCyan and Cold Blues: Used for garden scenes, portraits in cemeteries, and extreme facial close-ups, creating a sense of distance or melancholy\n13\nmore_horiz\n.\nSepia and Saturated Yellows: Applied to mechanical objects, tools, and macro studies to give them an archival, \"found\" quality\n17\nmore_horiz\n.\nHigh-Contrast Black and White: Used to highlight texture, such as the grain in skin or the intricate branches of a tree\n21\n22\n.\nPerspective and Barriers\nA recurring stylistic choice is the use of extreme macro focus and visual barriers, which forces the viewer to confront the image’s texture.\nMacro Focus: Miniature figurines and human features are often shot with an extremely shallow depth of field, rendering much of the frame as soft bokeh or abstract light\n22\nmore_horiz\n.\nBarriers: The photographer often shoots through dirty, cobwebbed windows or streaked windshields, using the grime on the glass to add a layer of texture that obscures the subject\n26\n27\n.\nFragmented Subjects: The human form is rarely presented in full; instead, the artist focuses on fragmented anatomy, such as hair on a red surface, a hand on a boot, or a single eye peering through a haze\n16\nmore_horiz\n.\nIntersection of Man and Machine\nThe artist’s technique involves a deep fascination with mechanical tools and the very cameras used to take the pictures. They often photograph their own field cameras, lamps, and optics, treating the equipment as part of the artistic narrative\n11\nmore_horiz\n. This is contrasted with candid, vulnerable human moments, such as a man sleeping or reclining, captured with the same grainy, distorted focus as the inanimate objects\n3\n33\n.\nIn essence, the artist’s style is like looking through a jar of old, clouded water; the subjects are familiar, but the medium itself—the \"water\"—is thick with sediment, tint, and history, making the act of looking feel as significant as the object being seen.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "ee57742a"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "Ok, how would you envision tis talk:\n\nBUILD YOUR OWN CAMERAS\nCoffee & Convos Series (public artist talks)\nColumbus Cultural Arts Center\n12pm May 7th, 2026 at the Fran Ryan Center\n\n⸻\n\nDRAFT BIO\n\nNathan McKnight, Multi Media Artist\n\nNathan McKnight is a Columbus-based multi media artist who spends his days building cameras that probably shouldn’t exist and photographing things that probably shouldn’t be photographed. Since 2022, he’s been exploring experimental photography at the crossroads of analog and digital, human and AI, film and code. His work often pairs human creativity with AI-generated elements, creating images and soundscapes that are part meticulous experiment, part happy accident.\n\nIn addition to photography, Nathan makes audio projects. His album Hyperflirt blends his own writing and experimental music with AI-generated compositions, while his Spotify podcast A Boxful of Light chronicles the trials, triumphs, and occasional chaos of building his own cameras. Across media, he’s fascinated by what happens when human intuition meets algorithmic logic.\n\nNathan has over 30 years of experience in education and public engagement, including work with museums, cultural institutions, and appearances on Animal Planet’s Pet Star and NY1. He co-founded Sexology On Tap, a spinoff of Astronomy On Tap, bringing science (and sometimes risqué discussion) to a bar near you.\n\nAt the Columbus Cultural Arts Center, he presents Building Your Own Cameras, a one-hour dive into the quirks, chemistry, and optics of experimental camera making—proof that even in the digital age, you can still get your hands dirty and your brain pleasantly scrambled.",
+      "citations": [],
+      "key": "5618cee6"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "Based on the draft bio and the structured outline provided in the sources, this talk at the Columbus Cultural Arts Center will be a highly engaging, slightly irreverent, and sensory-rich exploration of the \"chaos\" of creative experimentation\n1\n2\n.\nHere is how I envision the one-hour session unfolding:\n1. The Hook: \"Surprising Myself\"\nNathan will likely open with a bold statement: “Anyone can build a working camera—out of just about anything”\n2\n. He will set an experimental tone, explaining that his goal isn't technical perfection, but to \"break the AI's brains\" and see things he has never seen before\n2\n. This aligns with his bio’s description of a man who builds cameras that \"probably shouldn't exist\"\n3\n.\n2. The \"Mad Scientist\" Gallery\nThe audience will be introduced to his signature builds, such as The Royale, KeeblerKam, Transparecam, and ClampCam\n4\n.\nVisual Integration: He might display props of these physical ingenuity projects, perhaps showcasing the wooden field camera or the Kodak RPO shutter assembly featured in the sources\n4\nmore_horiz\n.\nLive Demo: A highlight of the talk will be the \"Stab Cam\" demonstration, where Nathan pokes a hole in a box and tapes on a lens to prove that a functional camera is born in seconds\n4\n.\n3. The Narrative of \"Happy Accidents\"\nNathan will likely share humorous personal anecdotes about his learning curve during COVID isolation, including the trials of developing film in a bathtub and the \"triumph\" of finally getting a successful image after over a hundred blank negatives\n8\n9\n. He will show the progression from early abstract accidents to the \"real\" photos found in the collection\n10\n.\n4. Exploring the \"Crossroads\" of Analog, Digital, and AI\nA significant portion of the talk (about 10–15 minutes) will dive into his broader artistic practice\n11\n.\nThe AI Loop: He will explain his fascination with the intersection of human intuition and algorithmic logic, where physical work feeds AI, and the AI output is then brought back into the physical world\n11\n12\n.\nMultimedia Showcase: To illustrate this, he plans to show a music video from his album Hyperflirt, which blends his own writing with AI-generated compositions\n11\n12\n.\n5. Visual Style and Methodology\nThroughout the talk, Nathan will use his photography to reinforce his themes of \"getting your hands dirty\"\n1\n.\nHe may showcase the \"Blue Garden\" series featuring the vintage bicycle and birdbath to discuss color tinting\n13\nmore_horiz\n.\nHe might use the sprocket-hole portraits to discuss the physicality of 35mm film\n18\n19\n.\nThe distressed, chemically-stained images will serve as proof of the \"experimental chemistry\" mentioned in the talk's description\n1\nmore_horiz\n.\nConclusion: A Call to Curiosity\nThe talk will conclude with a call to action, encouraging the audience to embrace their own curiosity because \"you don’t need a lab... just maybe a bathtub\"\n9\n. He will direct people to his Spotify podcast, A Boxful of Light, and his Instagram to continue following the \"occasional chaos\" of his work\n9\n12\n.\nThis session promises to leave the audience’s \"brains pleasantly scrambled\" by showing that in a digital age, there is still immense value in the tactile, the messy, and the unpredictable\n1\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "8c008803"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nBDCEF2C0-B26A-4303-926B-332CF324B3EE.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "BDCEF2C0-B26A-4303-926B-332CF324B3EE.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nBuilding Your Own Cameras: Nathan McKnight at the CCAC",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Building Your Own Cameras: Nathan McKnight at the CCAC",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nCloset Obscura",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Closet Obscura",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1279.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1279.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1286.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1286.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1287.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1287.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1315.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1315.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1702.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1702.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1706.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1706.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3268.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3268.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3280.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3280.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3537.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3537.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3570.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3570.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3588.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3588.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3591.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3591.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3592.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3592.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3594.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3594.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3625.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3625.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3655.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3655.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3848.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3848.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3858.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3858.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3874.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3874.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4041.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4041.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_5394.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_5394.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_5588.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_5588.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7320.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7320.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7339.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7339.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7340.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7340.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8115.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8115.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8117.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8117.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8432.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8432.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8477.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8477.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8546.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8546.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8554.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8554.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8559.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8559.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8567.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8567.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8571.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8571.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8781.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8781.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8790.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8790.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nRemini20210912134627310.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Remini20210912134627310.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nsaveimage.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "saveimage.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nsaveimage.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "saveimage.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxIMG_8215.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xIMG_8215.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxIMG_8242.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xIMG_8242.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxIMG_8461 copy.tiff",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xIMG_8461 copy.tiff",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxIMG_8464 copy.tiff",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xIMG_8464 copy.tiff",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxScreen Shot 2021-12-13 at 4.03.46 PM.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xScreen Shot 2021-12-13 at 4.03.46 PM.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nxScreen Shot 2021-12-14 at 4.29.54 PM.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "xScreen Shot 2021-12-14 at 4.29.54 PM.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "51 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "tablet\nBreaking the Lens\n51 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nBreaking the Lens\n51 sources · 239d ago"
+    },
+    {
+      "text": "Breaking the Lens\n51 sources · 239d ago"
+    },
+    {
+      "text": "Breaking the Lens"
+    },
+    {
+      "text": "51 sources · 239d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "tablet\nAnalog Alchemy\n51 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nAnalog Alchemy\n51 sources · 239d ago"
+    },
+    {
+      "text": "Analog Alchemy\n51 sources · 239d ago"
+    },
+    {
+      "text": "Analog Alchemy"
+    },
+    {
+      "text": "tablet\nBuild Your Own Chaos\n51 sources · 256d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nBuild Your Own Chaos\n51 sources · 256d ago"
+    },
+    {
+      "text": "Build Your Own Chaos\n51 sources · 256d ago"
+    },
+    {
+      "text": "Build Your Own Chaos"
+    },
+    {
+      "text": "51 sources · 256d ago"
+    },
+    {
+      "text": "tablet\nHandmade Visions\n51 sources · 257d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nHandmade Visions\n51 sources · 257d ago"
+    },
+    {
+      "text": "Handmade Visions\n51 sources · 257d ago"
+    },
+    {
+      "text": "Handmade Visions"
+    },
+    {
+      "text": "51 sources · 257d ago"
+    },
+    {
+      "text": "audio_spark\nBuilding Trash Cameras to Break AI\n37:22 · Deep Dive · 51 sources · 257d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nBuilding Trash Cameras to Break AI\n37:22 · Deep Dive · 51 sources · 257d ago"
+    },
+    {
+      "text": "Building Trash Cameras to Break AI\n37:22 · Deep Dive · 51 sources · 257d ago"
+    },
+    {
+      "text": "Building Trash Cameras to Break AI"
+    },
+    {
+      "text": "37:22 · Deep Dive · 51 sources · 257d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "stacked_bar_chart\nBuild Your Own Cameras Talk\n51 sources · 257d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nBuild Your Own Cameras Talk\n51 sources · 257d ago"
+    },
+    {
+      "text": "Build Your Own Cameras Talk\n51 sources · 257d ago"
+    },
+    {
+      "text": "Build Your Own Cameras Talk"
+    },
+    {
+      "text": "article\nThe Fragmented Mosaic: A Visual Catalog\n282d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Fragmented Mosaic: A Visual Catalog\n282d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "The Fragmented Mosaic: A Visual Catalog\n282d ago"
+    },
+    {
+      "text": "The Fragmented Mosaic: A Visual Catalog"
+    },
+    {
+      "text": "282d ago"
+    },
+    {
+      "text": "article\nThe Alchemical Lens: Experimental Analog Photography Techniques\n282d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Alchemical Lens: Experimental Analog Photography Techniques\n282d ago"
+    },
+    {
+      "text": "The Alchemical Lens: Experimental Analog Photography Techniques\n282d ago"
+    },
+    {
+      "text": "The Alchemical Lens: Experimental Analog Photography Techniques"
+    },
+    {
+      "text": "audio_spark\nThe Photographer's Eye Technical Flaws and Intentional Decay\n30:34 · Deep Dive · 50 sources · 282d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Photographer's Eye Technical Flaws and Intentional Decay\n30:34 · Deep Dive · 50 sources · 282d ago"
+    },
+    {
+      "text": "The Photographer's Eye Technical Flaws and Intentional Decay\n30:34 · Deep Dive · 50 sources · 282d ago"
+    },
+    {
+      "text": "The Photographer's Eye Technical Flaws and Intentional Decay"
+    },
+    {
+      "text": "30:34 · Deep Dive · 50 sources · 282d ago"
+    },
+    {
+      "text": "tablet\nFact to Haze\n50 sources · 282d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nFact to Haze\n50 sources · 282d ago"
+    },
+    {
+      "text": "Fact to Haze\n50 sources · 282d ago"
+    },
+    {
+      "text": "Fact to Haze"
+    },
+    {
+      "text": "50 sources · 282d ago"
+    },
+    {
+      "text": "article\nThe Tactile Lens: An Aesthetic of Atmospheric Decay\n283d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Tactile Lens: An Aesthetic of Atmospheric Decay\n283d ago"
+    },
+    {
+      "text": "The Tactile Lens: An Aesthetic of Atmospheric Decay\n283d ago"
+    },
+    {
+      "text": "The Tactile Lens: An Aesthetic of Atmospheric Decay"
+    },
+    {
+      "text": "283d ago"
+    },
+    {
+      "text": "article\nThe Visual Diary of Photographic Fragments\n283d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Visual Diary of Photographic Fragments\n283d ago"
+    },
+    {
+      "text": "The Visual Diary of Photographic Fragments\n283d ago"
+    },
+    {
+      "text": "The Visual Diary of Photographic Fragments"
+    },
+    {
+      "text": "flowchart\nThe Taxonomy of Analog Vision\n50 sources · 283d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Taxonomy of Analog Vision\n50 sources · 283d ago"
+    },
+    {
+      "text": "The Taxonomy of Analog Vision\n50 sources · 283d ago"
+    },
+    {
+      "text": "The Taxonomy of Analog Vision"
+    },
+    {
+      "text": "50 sources · 283d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:45:06.178Z",
+      "event": "harvest_complete",
+      "messages": 12,
+      "reachedTop": true
+    }
+  ]
+}

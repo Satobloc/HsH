@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Defining Murvelly: An Exploration of a Musical Quality",
+    "notebook_id": "66f5d2bc-58d5-4561-ba5e-9ac48c95c74f",
+    "notebook_url": "https://notebook.google.com/notebook/66f5d2bc-58d5-4561-ba5e-9ac48c95c74f?authuser=4",
+    "captured_at": "2026-10-21T21:36:45.495Z",
+    "visible_source_count": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 34
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "List every example of a Murvelly song in this format. Omit any explanation, commentary, introductionn, or summary:\n\nTitle / Artist",
+      "citations": [],
+      "key": "f58582fa"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Hine Ma Tov / Ensemble Kol Aviv Cryptorchid / Marilyn Manson It's Five O' Clock / Aphrodite's Child The Fool / Neutral Milk Hotel Oompa Loompa / original Willy Wonka soundtrack I'm 9 Today / múm Julia Dream / Pink Floyd Aikendrum / The Tannahill Weavers Sad for Me / No Doubt Spiegelbeeld / Willeke Alberti November / Tom Waits Just the Right Bullets / Tom Waits That’s the Way / Tom Waits Angel from Montgomery / Bonnie Raitt Der Bua / Buntspecht Video Games / Lana Del Rey Born to die / Lana Del Rey East Hastings / Godspeed You! Black Emperor The Fox, the Crow, and the Cookie / Mewithoutyou Nantes / Beirut You Have Already Gone to the Otherworld / A Hawk and a Hacksaw The Moss / Cosmo Sheldrake Chiraa-Khoor / Huun-Huur-Tu White Copper Alley / Stick in the Wheel Mõtsavele mäng / Mari Kalkun The Yew Tree / The Battlefield Band The Rovin Dies Hard / The Battlefield Band Which Side are You On / Pete Seeger Fire in the Hole / (Unspecified) Don't Put Her Down You Helped Put Her There / (Unspecified) The Craic was Ninety in the Isle of Man / The Dubliners Ramblin Rover / Silly Wizard No Time for Love / Christy Moore Song for Ireland / Dick Gaughan Lover's Heart / Silly Wizard Dirty Old Town / The Pogues A Pair of Brown Eyes / The Pogues When I was a Fair Maid / Fiona ni Domhnaill Gypsy Laddie / The Tannahill Weavers Are Ye Sleepin Maggie / The Tannahill Weavers A Night Visitor's Song / The Tannahill Weavers The Queen Amang the Heather / The Tannahill Weavers Rennardyne / (Unspecified) Land o' the Leel / Andy M. Stewart Samliga Gar med Trasiga Skor / Cornelis Vreeswijk The Wreck of the Edmund Fitzgerald / (Unspecified) Northwest Passage / Stan Rogers The Witch of the Westmoreland / Stan Rogers Lies / Stan Rogers The Flowers of Bermuda / Stan Rogers Valse a Roses / Bruno Le Tron Чорни Очка / (Unspecified) Дорогои Длинною / (Unspecified) Janošek / Čechomor Amari Szi Amari / Csokolom Chorumal Bodum / Yat-Kha Khöömei / Huun-Huur-Tu Tezeta / Mulatu Astatke Betepotepo / D'Gary The Green Fields of France / (Unspecified) The Reason I Left Mullingar / (Unspecified) Garrett Barry's Jig / (Unspecified) Ride / Lana Del Rey Venice Bitch / Lana Del Rey Mississippi / Lana Del Rey You’re Dreaming / Lana Del Rey Powder Blue / Lana Del Rey The Wild Rover / Lankum",
+      "citations": [],
+      "key": "ef4bb257"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "List every example of a Murvelly song in this format. Omit any explanation, commentary, introductionn, or summary:\n\nTitle / Artist [line break]",
+      "citations": [],
+      "key": "6e71c695"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Hine Ma Tov / Ensemble Kol Aviv Cryptorchid / Marilyn Manson It's Five O' Clock / Aphrodite's Child The Fool / Neutral Milk Hotel Oompa Loompa / original Willy Wonka soundtrack I'm 9 Today / múm Julia Dream / Pink Floyd Aikendrum / The Tannahill Weavers Sad for Me / No Doubt Spiegelbeeld / Willeke Alberti November / Tom Waits Just the Right Bullets / Tom Waits That’s the Way / Tom Waits Angel from Montgomery / Bonnie Raitt Der Bua / Buntspecht Video Games / Lana Del Rey Born to die / Lana Del Rey East Hastings / Godspeed You! Black Emperor The Fox, the Crow, and the Cookie / Mewithoutyou Nantes / Beirut You Have Already Gone to the Otherworld / A Hawk and a Hacksaw The Moss / Cosmo Sheldrake Chiraa-Khoor / Huun-Huur-Tu White Copper Alley / Stick in the Wheel Mõtsavele mäng / Mari Kalkun The Yew Tree / The Battlefield Band The Rovin Dies Hard / The Battlefield Band Which Side are You On / Pete Seeger Fire in the Hole / (Unspecified) Don't Put Her Down You Helped Put Her There / (Unspecified) The Craic was Ninety in the Isle of Man / The Dubliners Ramblin Rover / Silly Wizard No Time for Love / Christy Moore Song for Ireland / Dick Gaughan Lover's Heart / Silly Wizard Dirty Old Town / The Pogues A Pair of Brown Eyes / The Pogues When I was a Fair Maid / Fiona ni Domhnaill Gypsy Laddie / The Tannahill Weavers Are Ye Sleepin Maggie / The Tannahill Weavers A Night Visitor's Song / The Tannahill Weavers The Queen Amang the Heather / The Tannahill Weavers Rennardyne / (Unspecified) Land o' the Leel / Andy M. Stewart Samliga Gar med Trasiga Skor / Cornelis Vreeswijk The Wreck of the Edmund Fitzgerald / (Unspecified) Northwest Passage / Stan Rogers The Witch of the Westmoreland / Stan Rogers Lies / Stan Rogers The Flowers of Bermuda / Stan Rogers Valse a Roses / Bruno Le Tron Чорни Очка / (Unspecified) Дорогои Длинною / (Unspecified) Janošek / Čechomor Amari Szi Amari / Csokolom Chorumal Bodum / Yat-Kha Khöömei / Huun-Huur-Tu Tezeta / Mulatu Astatke Betepotepo / D'Gary The Green Fields of France / (Unspecified) The Reason I Left Mullingar / (Unspecified) Garrett Barry's Jig / (Unspecified) Ride / Lana Del Rey Venice Bitch / Lana Del Rey Mississippi / Lana Del Rey You’re Dreaming / Lana Del Rey Powder Blue / Lana Del Rey The Wild Rover / Lankum",
+      "citations": [],
+      "key": "ef4bb257"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "List every example of a Murvelly song in this format. Omit any explanation, commentary, introductionn, or summary:\n\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]",
+      "citations": [],
+      "key": "7cdc79e5"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Hine Ma Tov / Ensemble Kol Aviv Cryptorchid / Marilyn Manson It's Five O' Clock / Aphrodite's Child The Fool / Neutral Milk Hotel Oompa Loompa / original Willy Wonka soundtrack I'm 9 Today / múm Julia Dream / Pink Floyd Aikendrum / The Tannahill Weavers Sad for Me / No Doubt Spiegelbeeld / Willeke Alberti November / Tom Waits Just the Right Bullets / Tom Waits That’s the Way / Tom Waits Angel from Montgomery / Bonnie Raitt Der Bua / Buntspecht Video Games / Lana Del Rey Born to die / Lana Del Rey East Hastings / Godspeed You! Black Emperor The Fox, the Crow, and the Cookie / Mewithoutyou Nantes / Beirut Postcards From Italy / Beirut You Have Already Gone to the Otherworld / A Hawk and a Hacksaw The Moss / Cosmo Sheldrake The Wild Rover / Lankum Chiraa-Khoor / Huun-Huur-Tu Khöömei / Huun-Huur-Tu Chorumal Bodum / Yat-Kha White Copper Alley / Stick in the Wheel Mõtsavele mäng / Mari Kalkun The Yew Tree / The Battlefield Band The Rovin Dies Hard / The Battlefield Band Which Side are You On / Pete Seeger Fire in the Hole / (Unspecified) Don't Put Her Down You Helped Put Her There / (Unspecified) The Craic was Ninety in the Isle of Man / The Dubliners Ramblin Rover / Silly Wizard No Time for Love / Christy Moore Song for Ireland / Dick Gaughan Lover's Heart / Silly Wizard Dirty Old Town / The Pogues A Pair of Brown Eyes / The Pogues When I was a Fair Maid / Fiona ni Domhnaill Gypsy Laddie / The Tannahill Weavers Are Ye Sleepin Maggie / The Tannahill Weavers A Night Visitor's Song / The Tannahill Weavers The Queen Amang the Heather / The Tannahill Weavers Rennardyne / (Unspecified) Land o' the Leel / Andy M. Stewart Samliga Gar med Trasiga Skor / Cornelis Vreeswijk The Wreck of the Edmund Fitzgerald / (Unspecified) Northwest Passage / Stan Rogers The Witch of the Westmoreland / Stan Rogers Lies / Stan Rogers The Flowers of Bermuda / Stan Rogers Valse a Roses / Bruno Le Tron Чорни Очка / (Unspecified) Дорогои Длинною / (Unspecified) Janošek / Čechomor Amari Szi Amari / Csokolom Everybody Knows / Leonard Cohen So Long, Marianne / Leonard Cohen Tezeta / Mulatu Astatke Betepotepo / D'Gary The Green Fields of France / (Unspecified) The Reason I Left Mullingar / (Unspecified) Garrett Barry's Jig / (Unspecified) Ride / Lana Del Rey Venice Bitch / Lana Del Rey Mississippi / Lana Del Rey You’re Dreaming / Lana Del Rey Powder Blue / Lana Del Rey",
+      "citations": [],
+      "key": "d5aeae31"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "You forgot to put in line breaks",
+      "citations": [],
+      "key": "d4987a37"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "I apologize for omitting the requested line breaks in the previous response, thereby failing to follow the specified formatting instructions\n1\n. I will ensure that future lists, which encompass the wide variety of music identified as \"murvelly\" (ranging from Ensemble Kol Aviv's \"Hine Ma Tov\" to Stan Rogers' \"Northwest Passage\" to the traditional music of The Tannahill Weavers)\n1\n, adhere precisely to the requested layout, including a line break after each entry.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "158143e5"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "List every example of a Murvelly song in this format. Omit any explanation, commentary, introductionn, or summary, and making sure to insert a line break after each entry:\n\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]\nTitle / Artist [Line Break]",
+      "citations": [],
+      "key": "1ac6809f"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "Hine Ma Tov / Ensemble Kol Aviv Cryptorchid / Marilyn Manson It's Five O' Clock / Aphrodite's Child The Fool / Neutral Milk Hotel Oompa Loompa / original Willy Wonka soundtrack I'm 9 Today / múm Julia Dream / Pink Floyd Aikendrum / The Tannahill Weavers Sad for Me / No Doubt Spiegelbeeld / Willeke Alberti November / Tom Waits Just the Right Bullets / Tom Waits That’s the Way / Tom Waits Angel from Montgomery / Bonnie Raitt Der Bua / Buntspecht Video Games / Lana Del Rey Born to die / Lana Del Rey East Hastings / Godspeed You! Black Emperor The Fox, the Crow, and the Cookie / Mewithoutyou Nantes / Beirut Postcards From Italy / Beirut You Have Already Gone to the Otherworld / A Hawk and a Hacksaw The Moss / Cosmo Sheldrake The Wild Rover / Lankum Chiraa-Khoor / Huun-Huur-Tu White Copper Alley / Stick in the Wheel Mõtsavele mäng / Mari Kalkun The Yew Tree / The Battlefield Band The Rovin Dies Hard / The Battlefield Band Which Side are You On / Pete Seeger Fire in the Hole / (Unspecified) Don't Put Her Down You Helped Put Her There / (Unspecified) The Craic was Ninety in the Isle of Man / The Dubliners Ramblin Rover / Silly Wizard No Time for Love / Christy Moore Song for Ireland / Dick Gaughan Lover's Heart / Silly Wizard Dirty Old Town / The Pogues A Pair of Brown Eyes / The Pogues When I was a Fair Maid / Fiona ni Domhnaill Gypsy Laddie / The Tannahill Weavers Are Ye Sleepin Maggie / The Tannahill Weavers A Night Visitor's Song / The Tannahill Weavers The Queen Amang the Heather / The Tannahill Weavers Rennardyne / (Unspecified) Land o' the Leel / Andy M. Stewart Samliga Gar med Trasiga Skor / Cornelis Vreeswijk The Wreck of the Edmund Fitzgerald / (Unspecified) Northwest Passage / Stan Rogers The Witch of the Westmoreland / Stan Rogers Lies / Stan Rogers The Flowers of Bermuda / Stan Rogers Valse a Roses / Bruno Le Tron Чорни Очка / (Unspecified) Дорогои Длинною / (Unspecified) Janošek / Čechomor Amari Szi Amari / Csokolom Chorumal Bodum / Yat-Kha Khöömei / Huun-Huur-Tu Tezeta / Mulatu Astatke Betepotepo / D'Gary The Green Fields of France / (Unspecified) The Reason I Left Mullingar / (Unspecified) Garrett Barry's Jig / (Unspecified) Ride / Lana Del Rey Venice Bitch / Lana Del Rey Mississippi / Lana Del Rey You’re Dreaming / Lana Del Rey Powder Blue / Lana Del Rey Everybody Knows / Leonard Cohen So Long, Marianne / Leonard Cohen",
+      "citations": [],
+      "key": "ffc0d5d1"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "List every example of a Murvelly song in this format. Omit any explanation, commentary, introductionn, or summary:\n\nTitle / Artist [Line Break]\n\nTitle / Artist [Line Break]\n\nTitle / Artist [Line Break]",
+      "citations": [],
+      "key": "5b83351f"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "Hine Ma Tov / Ensemble Kol Aviv\nCryptorchid / Marilyn Manson\nIt's Five O' Clock / Aphrodite's Child\nThe Fool / Neutral Milk Hotel\nOompa Loompa / original Willy Wonka soundtrack\nI'm 9 Today / múm\nJulia Dream / Pink Floyd\nAikendrum / The Tannahill Weavers\nSad for Me / No Doubt\nSpiegelbeeld / Willeke Alberti\nNovember / Tom Waits\nJust the Right Bullets / Tom Waits\nThat’s the Way / Tom Waits\nAngel from Montgomery / Bonnie Raitt\nDer Bua / Buntspecht\nVideo Games / Lana Del Rey\nBorn to die / Lana Del Rey\nEast Hastings / Godspeed You! Black Emperor\nThe Fox, the Crow, and the Cookie / Mewithoutyou\nNantes / Beirut\nPostcards From Italy / Beirut\nYou Have Already Gone to the Otherworld / A Hawk and a Hacksaw\nThe Moss / Cosmo Sheldrake\nThe Wild Rover / Lankum\nChiraa-Khoor / Huun-Huur-Tu\nWhite Copper Alley / Stick in the Wheel\nMõtsavele mäng / Mari Kalkun\nThe Yew Tree / The Battlefield Band\nThe Rovin Dies Hard / The Battlefield Band\nWhich Side are You On / Pete Seeger\nFire in the Hole / (Unspecified)\nDon't Put Her Down You Helped Put Her There / (Unspecified)\nThe Craic was Ninety in the Isle of Man / The Dubliners\nRamblin Rover / Silly Wizard\nNo Time for Love / Christy Moore\nSong for Ireland / Dick Gaughan\nLover's Heart / Silly Wizard\nDirty Old Town / The Pogues\nA Pair of Brown Eyes / The Pogues\nWhen I was a Fair Maid / Fiona ni Domhnaill\nGypsy Laddie / The Tannahill Weavers\nAre Ye Sleepin Maggie / The Tannahill Weavers\nA Night Visitor's Song / The Tannahill Weavers\nThe Queen Amang the Heather / The Tannahill Weavers\nRennardyne / (Unspecified)\nLand o' the Leel / Andy M. Stewart\nSamliga Gar med Trasiga Skor / Cornelis Vreeswijk\nThe Wreck of the Edmund Fitzgerald / (Unspecified)\nNorthwest Passage / Stan Rogers\nThe Witch of the Westmoreland / Stan Rogers\nLies / Stan Rogers\nThe Flowers of Bermuda / Stan Rogers\nValse a Roses / Bruno Le Tron\nЧорни Очка / (Unspecified)\nДорогои Длинною / (Unspecified)\nJanošek / Čechomor\nAmari Szi Amari / Csokolom\nChorumal Bodum / Yat-Kha\nKhöömei / Huun-Huur-Tu\nTezeta / Mulatu Astatke\nBetepotepo / D'Gary\nThe Green Fields of France / (Unspecified)\nThe Reason I Left Mullingar / (Unspecified)\nGarrett Barry's Jig / (Unspecified)\nRide / Lana Del Rey\nVenice Bitch / Lana Del Rey\nMississippi / Lana Del Rey\nYou’re Dreaming / Lana Del Rey\nPowder Blue / Lana Del Rey\nEverybody Knows / Leonard Cohen\nSo Long, Marianne / Leonard Cohen",
+      "citations": [],
+      "key": "bfd40629"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Define murvelly, and make an extensive/exhaustive list of qualities associated with it",
+      "citations": [],
+      "key": "56034712"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "The concept of \"murvelly\" describes a specific, nuanced aesthetic in music that transcends traditional boundaries, genres, and eras\n1\n2\n. It is less about a specific sound or genre and more about a music's ability to evoke a richly layered emotional experience\n3\n.\nDefinition of Murvelly\nThe essence of \"murvelliness\" is the navigation of the delicate balance between the comforting and familiar (heimlich) and the unsettling or uncanny (unheimlich)\n4\nmore_horiz\n.\n\"Murvelly\" music encapsulates a nuanced blend of emotional and sonic qualities that create a deeply textured, resonant experience\n6\n. This aesthetic thrives on the tension between comfort and unease\n8\n. At its core, \"murvelliness\" embodies the Freudian concept of the unheimlich—where something familiar unexpectedly reveals a deeply unsettling aspect\n7\n. This results in an atmosphere that is at once intimate and eerily disquieting\n6\n, fostering a profound introspection\n8\n.\nIt is generally seen as a transient state within music, meaning it often appears in specific songs or moments within the broader discographies of artists, rather than defining a consistent style\n2\n9\n.\nExhaustive List of Associated Qualities\nThe qualities associated with \"murvelly\" music are extensive, encompassing emotional dualities, sonic textures, and thematic content:\nEmotional and Aesthetic Dualities\nA simultaneous presence of the \"unheimlich\" (uncanny) and a cozy, homey feel (heimlich)\n4\n5\n.\nA tension between comfort and unease\n5\n8\n.\nA feeling of intimacy coupled with uncomfortable closeness\n1\n.\nA juxtaposition of intimacy and existential solitude\n10\nmore_horiz\n.\nA profound \"unheimlichkeit\" – an unfamiliarity within the familiar, a haunting eeriness that goes beyond mere sentimentality\n13\n14\n.\nThe emotional quality of something \"lost or just out of reach,\" evoking a profound longing\n8\nmore_horiz\n.\nEmotional ambiguity that invites deep introspection\n8\n.\nSonic and Instrumental Characteristics\nA strong association with the minor key\n4\n10\n.\nA potential use of uncommon musical scales or modes\n4\nmore_horiz\n.\nA distinct \"creaky\" sound in the instrumentation and/or vocals\n4\nmore_horiz\n.\nMelodic ambiguity, often blending major and minor scales, or employing modal melodies\n18\n.\nThe use of unique instrumentation or unusual vocal techniques, creating a complex and captivating sonic texture\n19\n20\n.\nTraditional instruments and vocal styles that may mimic or evoke natural sounds\n21\n.\nMelodies that possess a haunting quality, being both beautiful and melancholic\n21\n22\n.\nThe ability to create a palpable atmosphere or mood that is deeply immersive\n23\n.\nThematic and Contextual Elements\nA strong sense of familiarity coupled with a transportation to a different time and place\n4\nmore_horiz\n.\nEvocation of spaces often envisioned as small, cramped, smoky, and dark, which feel both deeply comfortable and deeply foreign\n4\nmore_horiz\n.\nCultural or temporal dislocation, contributing to a timeless, placeless quality\n1\n8\n.\nA connection to the ancient and the elemental, as perceived in Tuvan throat singing\n7\nmore_horiz\n.\nA blend of nostalgia and warmth\n17\n.\nA sense of melancholic beauty and lyrical nostalgia\n26\n.\nA potential to evoke a timeless sense of community and belonging\n27\nmore_horiz\n.\nA sense of being connected to a particular time and place while also transcending it\n30\n31\n.\nThe presence of the uncanny and the nostalgic working together\n32\n.\nStorytelling that is deeply atmospheric, blending the familiar with the surreal\n33\n.\nThe ability of music to evoke landscapes and natural imagery, contributing to a bucolic side of \"murvelly\"\n34\n35\n.\nDeep cultural roots and storytelling that resonate with historical, mythical, or personal themes\n36\n37\n.\nThemes reflecting upon historical events, social struggles, or deep personal experiences\n38\n39\n.\nExploration of complex human emotions such as love, loss, struggle, and resilience\n40\n41\n.\nA blend of the ancient and the modern, enhancing its timeless quality\n7\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "b5f8e244"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nDefining the Murvelly Aesthetic\ndescription\nMURVELLY.txt\nmarkdown\nSongs Described as \"Murvelly\"",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nDefining the Murvelly Aesthetic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Defining the Murvelly Aesthetic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMURVELLY.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MURVELLY.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nSongs Described as \"Murvelly\"",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Songs Described as \"Murvelly\"",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "3 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "tablet\nMurvelly The Uncanny Hearth Aesthetic\n3 sources · 302d ago\nmore_vert\nstacked_bar_chart\nDefining Murvelly: Comfortably Uncanny Aesthetics.\n3 sources · 302d ago\nmore_vert\nvideocam\nThe Quest for Murvelly Music\n6:04 · Explainer · 3 sources · 346d ago\nplay_arrow\nmore_vert\nvideocam\nWas ist „Murvelly“-Musik?\n7:10 · Explainer · 3 sources · 346d ago\nplay_arrow\nmore_vert\nflowchart\nThe Murvelly Aesthetic: Music and Emotional Duality\n3 sources · 346d ago\nmore_vert\narticle\nDefining the Murvelly Aesthetic\n568d ago\nmore_vert\naudio_spark\nDefining Murvelly: An Exploration of a Musical Quality\n23:59 · 2 sources · 568d ago\nwaving_hand\nplay_arrow\nmore_vert\narticle\nSongs Described as \"Murvelly\"\n568d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nMurvelly The Uncanny Hearth Aesthetic\n3 sources · 302d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nMurvelly The Uncanny Hearth Aesthetic\n3 sources · 302d ago"
+    },
+    {
+      "text": "Murvelly The Uncanny Hearth Aesthetic\n3 sources · 302d ago"
+    },
+    {
+      "text": "Murvelly The Uncanny Hearth Aesthetic"
+    },
+    {
+      "text": "3 sources · 302d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nDefining Murvelly: Comfortably Uncanny Aesthetics.\n3 sources · 302d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nDefining Murvelly: Comfortably Uncanny Aesthetics.\n3 sources · 302d ago"
+    },
+    {
+      "text": "Defining Murvelly: Comfortably Uncanny Aesthetics.\n3 sources · 302d ago"
+    },
+    {
+      "text": "Defining Murvelly: Comfortably Uncanny Aesthetics."
+    },
+    {
+      "text": "videocam\nThe Quest for Murvelly Music\n6:04 · Explainer · 3 sources · 346d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nThe Quest for Murvelly Music\n6:04 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "The Quest for Murvelly Music\n6:04 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "The Quest for Murvelly Music"
+    },
+    {
+      "text": "6:04 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "videocam\nWas ist „Murvelly“-Musik?\n7:10 · Explainer · 3 sources · 346d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nWas ist „Murvelly“-Musik?\n7:10 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "Was ist „Murvelly“-Musik?\n7:10 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "Was ist „Murvelly“-Musik?"
+    },
+    {
+      "text": "7:10 · Explainer · 3 sources · 346d ago"
+    },
+    {
+      "text": "flowchart\nThe Murvelly Aesthetic: Music and Emotional Duality\n3 sources · 346d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Murvelly Aesthetic: Music and Emotional Duality\n3 sources · 346d ago"
+    },
+    {
+      "text": "The Murvelly Aesthetic: Music and Emotional Duality\n3 sources · 346d ago"
+    },
+    {
+      "text": "The Murvelly Aesthetic: Music and Emotional Duality"
+    },
+    {
+      "text": "3 sources · 346d ago"
+    },
+    {
+      "text": "article\nDefining the Murvelly Aesthetic\n568d ago\nmore_vert"
+    },
+    {
+      "text": "article\nDefining the Murvelly Aesthetic\n568d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Defining the Murvelly Aesthetic\n568d ago"
+    },
+    {
+      "text": "Defining the Murvelly Aesthetic"
+    },
+    {
+      "text": "568d ago"
+    },
+    {
+      "text": "audio_spark\nDefining Murvelly: An Exploration of a Musical Quality\n23:59 · 2 sources · 568d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nDefining Murvelly: An Exploration of a Musical Quality\n23:59 · 2 sources · 568d ago"
+    },
+    {
+      "text": "Defining Murvelly: An Exploration of a Musical Quality\n23:59 · 2 sources · 568d ago"
+    },
+    {
+      "text": "Defining Murvelly: An Exploration of a Musical Quality"
+    },
+    {
+      "text": "23:59 · 2 sources · 568d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "article\nSongs Described as \"Murvelly\"\n568d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSongs Described as \"Murvelly\"\n568d ago"
+    },
+    {
+      "text": "Songs Described as \"Murvelly\"\n568d ago"
+    },
+    {
+      "text": "Songs Described as \"Murvelly\""
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:36:43.925Z",
+      "event": "harvest_complete",
+      "messages": 14,
+      "reachedTop": true
+    }
+  ]
+}

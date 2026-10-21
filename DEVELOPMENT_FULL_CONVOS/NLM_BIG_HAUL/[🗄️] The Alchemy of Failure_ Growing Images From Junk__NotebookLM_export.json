@@ -1,0 +1,632 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] The Alchemy of Failure: Growing Images From Junk",
+    "notebook_id": "9b67a366-86f4-4ade-8f33-ce46bfb42e32",
+    "notebook_url": "https://notebook.google.com/notebook/9b67a366-86f4-4ade-8f33-ce46bfb42e32?authuser=4",
+    "captured_at": "2026-10-21T21:18:58.036Z",
+    "visible_source_count": 32,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 14
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "In what sources is Amanda mentioned",
+      "citations": [],
+      "key": "6190aaac"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Amanda is mentioned in the following four sources:\n\"Cracking the Code of Conduct: From Courthouse Corruption to Chaotic Chats\": This source focuses heavily on text message exchanges between Amanda and Nathan, which provide a candid look at their evolving personal relationship\nlock\nlock\n. The transcript explores their intellectual banter, their shared engagement in a sexual fantasy dynamic, and the complexities of navigating multiple partners in a social group they refer to as \"Cuttlefish\"\nlock\nmore_horiz\n. It also documents a \"truck incident\" on February 19, 2022, which highlights Amanda’s practical resilience while juggling roles as a parent, a partner, and a full-time trucker\nlock\nmore_horiz\n.\n\"DJXPFLW6DNZ6E.m4a\": This transcript delves into the origins of Amanda and Nathan's connection, beginning with their meeting at a Halloween party in 2019\nlock\n. It details their initial communication via Facebook Messenger, their shared creative interests—such as Amanda’s idea for Nathan to sell \"photocopes\"—and their bold move to live together in the \"Carnival House\" alongside Amanda’s partner, Jason\nlock\nmore_horiz\n. The source also notes that after a period of separation, they are currently starting a new chapter together as single individuals\nlock\nlock\n.\n\"The Cat With A Hole In Reality\": In this source, Amanda is discussed to ground the abstract concepts of the \"Scalar-Angular-Twist\" (SAT) theory in human emotion and experience\nlock\n. The text describes her as being very isolated and struggling, and it uses her environment—keeping lights and music on 24/7—as an example of someone attempting to stabilize their \"manifold\" according to SAT principles\nlock\nlock\n. It also mentions a \"topological betrayal\" that occurred when Nathan attempted to involve an outside doctor in her care\nlock\n.\n\"Reality Remembers: Nathan McKnight's Scalar-Angular-Twist and the...\": This source similarly positions Amanda as a central figure used to ground Nathan's theoretical work\n1\n. It notes that she is someone Nathan cares for deeply and emphasizes her isolation as a key part of the narrative surrounding the development of his theories\n1\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "584fcf53"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Is Amanda mentioned in these",
+      "citations": [],
+      "key": "01ca0bf3"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "In the new sources provided, Amanda is mentioned only in the transcript \"The Cat With A Hole In Reality\".\nAccording to this source, Amanda is a figure used to ground the abstract concepts of the Scalar-Angular-Twist (SAT) theory in human emotion and experience\nlock\n. She is described as being very isolated and struggling\nlock\n. The text explains her behavior—specifically keeping lights and music on 24/7 and surrounding herself with uranium glass—as a subconscious attempt to \"stabilize her manifold\" by creating a \"standing wave of consciousness\" to hold her psyche together\nlock\n. Additionally, the source mentions a \"topological betrayal\" that occurred when Nathan attempted to involve an outside doctor in her care, which she perceived as a violation of the \"literal geometry of her safety\"\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "0311198f"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\n2025-10-24_17:33_SAT.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "2025-10-24_17:33_SAT.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nChaos_to_Canon__How_1930s_Sci-Fi_Feuds,_Staple_Wars,_and_Filk_M.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Chaos_to_Canon__How_1930s_Sci-Fi_Feuds,_Staple_Wars,_and_Filk_M.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nDrunk_Astronauts_and_Moonshine_in_1969.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drunk_Astronauts_and_Moonshine_in_1969.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nElders.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Elders.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nEther_Soap,_Fancy_Cakes,_and_Grief.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Ether_Soap,_Fancy_Cakes,_and_Grief.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nFrom_Quantum_Gravity_to_Porpoise_Porridge.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "From_Quantum_Gravity_to_Porpoise_Porridge.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nGeopolitical_Decay_to_Quark_Drives__Unpacking_the_Maximalist_Co.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Geopolitical_Decay_to_Quark_Drives__Unpacking_the_Maximalist_Co.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nGlasduchgeist_and_the_Linguistic_Yoke__How_Bogothia_Engineered_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Glasduchgeist_and_the_Linguistic_Yoke__How_Bogothia_Engineered_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nInterstellar_Pizza_vs.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Interstellar_Pizza_vs.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nMusic_Genres_That_Don_t_Exist_Yet.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Music_Genres_That_Don_t_Exist_Yet.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nPhotographer_of_Forgotten_Things.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Photographer_of_Forgotten_Things.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nProtector_Protocol__Biological_Destiny,_Interstellar_Tech,_and_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Protector_Protocol__Biological_Destiny,_Interstellar_Tech,_and_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nReality_Remembers__Nathan_McKnight_s_Scalar-Angular-Twist_and_t.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Reality_Remembers__Nathan_McKnight_s_Scalar-Angular-Twist_and_t.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nRichard_II_s_Golden_Pig_and_Porpoise_Feast.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Richard_II_s_Golden_Pig_and_Porpoise_Feast.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nRothstein_Epstein_and_Ohio’s_Legal_Camouflage.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Rothstein_Epstein_and_Ohio’s_Legal_Camouflage.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_1920s_Blueprint_for_Lawful_Occupancy.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_1920s_Blueprint_for_Lawful_Occupancy.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_AI_Battle_Royale__How_Surrealist__Promptergy__Built_a_ddd.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_AI_Battle_Royale__How_Surrealist__Promptergy__Built_a_ddd.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Brains_Versus_Brutes_Siege 2.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Brains_Versus_Brutes_Siege 2.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Brilliant_Blueprint_Behind_Candle_&_Crown__Deconstructing_t.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Brilliant_Blueprint_Behind_Candle_&_Crown__Deconstructing_t.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Drowned_Civilization_of_the_Sunda_Shelf.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Drowned_Civilization_of_the_Sunda_Shelf.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Feral_Stretch__How_Financial_Desperation_and_Junkware_Built.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Feral_Stretch__How_Financial_Desperation_and_Junkware_Built.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Floating_Liars__Club_and_the_Pig.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Floating_Liars__Club_and_the_Pig.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Galactic_Census_of_Workable_Planets.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Galactic_Census_of_Workable_Planets.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Nation_of_Engineers__Unpacking_Bogothia,_the_Kingdom_Built_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Nation_of_Engineers__Unpacking_Bogothia,_the_Kingdom_Built_.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Stewarthands_Expedition_s_Winter_of_Discontext.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Stewarthands_Expedition_s_Winter_of_Discontext.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nThe_Voynich_Game_Deciphered__Academic_Backstabbing,_Hidden_Forg.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The_Voynich_Game_Deciphered__Academic_Backstabbing,_Hidden_Forg.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nUnifying_Physics_and_Biology_Through_Topology.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Unifying_Physics_and_Biology_Through_Topology.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nUvip-Av__The_Grammar_That_Forces_You_to_Show_Your_Cards—Source,.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Uvip-Av__The_Grammar_That_Forces_You_to_Show_Your_Cards—Source,.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nVampires,_Bureaucracy,_and_the_Birth_of_Bogothia__How_a_Gotho-S.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Vampires,_Bureaucracy,_and_the_Birth_of_Bogothia__How_a_Gotho-S.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nVillage_Logic_and_the_Button_Video_Cigarette.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Village_Logic_and_the_Button_Video_Cigarette.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nWallace_N Andrews 2.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Wallace_N Andrews 2.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "video_audio_call\nWanna_Bounce__Unifying_the_Universe_from_Trampolines_to_Black_H.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Wanna_Bounce__Unifying_the_Universe_from_Trampolines_to_Black_H.m4a",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "32 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nTen Thousand Bats, Mushrooms, and Moonshine\n26:03 · Deep Dive · 36 sources · 239d ago\nwaving_hand\nplay_arrow\nmore_vert\nflowchart\nThe Architecture of SAT.4D and Recursive Spacetime Geometry\n36 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nTen Thousand Bats, Mushrooms, and Moonshine\n26:03 · Deep Dive · 36 sources · 239d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nTen Thousand Bats, Mushrooms, and Moonshine\n26:03 · Deep Dive · 36 sources · 239d ago"
+    },
+    {
+      "text": "Ten Thousand Bats, Mushrooms, and Moonshine\n26:03 · Deep Dive · 36 sources · 239d ago"
+    },
+    {
+      "text": "Ten Thousand Bats, Mushrooms, and Moonshine"
+    },
+    {
+      "text": "26:03 · Deep Dive · 36 sources · 239d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "flowchart\nThe Architecture of SAT.4D and Recursive Spacetime Geometry\n36 sources · 239d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Architecture of SAT.4D and Recursive Spacetime Geometry\n36 sources · 239d ago"
+    },
+    {
+      "text": "The Architecture of SAT.4D and Recursive Spacetime Geometry\n36 sources · 239d ago"
+    },
+    {
+      "text": "The Architecture of SAT.4D and Recursive Spacetime Geometry"
+    },
+    {
+      "text": "36 sources · 239d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-21T21:18:56.720Z",
+      "event": "harvest_complete",
+      "messages": 4,
+      "reachedTop": true
+    }
+  ]
+}
