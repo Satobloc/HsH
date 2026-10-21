@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "example-follow-up",
+  "parent_id": "cruller-rubin",
+  "sequence": 1,
+  "title": "Addendum 1: follow-up title",
+  "authors": ["Author name"],
+  "date": "2026-10-21",
+  "status": "SANDBOX ADDENDUM R0",
+  "preface": "Explain what this follow-up adds or corrects, including its limits.",
+  "pdf": "PUBLIC_SITE/PAPERS/cruller-rubin/addenda/001-example-follow-up.pdf",
+  "published": false
+}

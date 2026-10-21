@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "example-paper",
+  "title": "Paper title and version",
+  "authors": ["Author name"],
+  "date": "2026-10-21",
+  "status": "SANDBOX MANUSCRIPT R0",
+  "preface": "Explain the question and what the reader should expect in plain English.",
+  "pdf": "PUBLIC_SITE/PAPERS/example-paper/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/example-paper/paper.tex",
+  "published": false
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "cruller-rubin",
+  "reader_id": "cruller-rubin",
+  "title": "Crullerverse: Projected Toroidal Geometry and Transient Stellar Visibility",
+  "authors": ["Nathan McKnight", "Meridian"],
+  "date": "2026-10-21",
+  "status": "SANDBOX MANUSCRIPT R0",
+  "preface": "Could confirmed stellar disappearances and reappearances show a pattern across the sky? A conditional Rubin search framework; no detected signal or parameter-independent forecast is claimed.",
+  "pdf": "SAT_VISUALS/Cruller_Rubin_Stellar_Visibility_Sandbox_R0.pdf",
+  "source": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md",
+  "published": true
+}
