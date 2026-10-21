@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-21T21:50:40.834656+00:00",
+  "generated_at_utc": "2026-10-21T23:17:14.037235+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 790,
-    "skipped": 358
+    "skipped": 406
   },
   "records": [
     {
@@ -4767,6 +4767,582 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/run20_summary.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/Buffon's Natural History, Vol 1-10__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/To Be__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] 2025 Change__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Alberrisch__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] BOOKERY__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Bell Pepper Catsup and Tip-Top Cake Recipes__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] CLIMBINGESE__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Defining Murvelly_ An Exploration of a Musical Quality__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Digital Chronicle of Enduring Friendship__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Fundamental Intuitions of Scalar-Angular-Torsion Theory__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Galactic Gazeteer__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] H(s)H Big Upload__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] H(s)H—OUROBOROS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] MAYA & AIDEN SAT__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] MOIRESPACE__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] MORGAN & ELLIS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Monochrome Silhouette by the Vintage Cycle__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] My Photography__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] My Podcasts__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Open Source Theory of Everything — Falsification Ready__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Paradigm__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Paradigm__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Parametric Grids and Four-Dimensional Geometry Models__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Pulsar Glitch Dynamics in the Scalar-Angular-Torsion Framework__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] S4(5). THE SIMPLEST SAT__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT 2026 BUILDBOX__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT 2026 Plug-n-Play__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT Framework_ Geometric Unification of Worldline Action__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT GEOMETRY__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT SCIENCE NEWS + PARADIGM__NotebookLM_export.TXT",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT and String Theory__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT — HUB__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] SAT_ Scalar-Angular Theory__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] STATISTICAL GALAXY__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] THE NEW PHYSICS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] The Alchemy of Failure_ Growing Images From Junk__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] The Scalar-Angular-Torsion Framework Operational Guide__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] The Universal Indicatrix and 4D Superhelical Lagrangian__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Timbre Scale 80 BPM Session__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Unified Filament Ontology and the SAT Lagrangian__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] VOYINCH GAME DESIGN WORKSHOP__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] VOYNICH CARDS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] Voynich Game_ Character Card Compendium__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] V͆OV͆ & WHT-DNAN__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] WORLDLINES__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] WORLDLINES__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] [[[ H (( s )) H ]]]__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/[🗄️] {{SAT JAN 2026}}__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
       "end_local": null,

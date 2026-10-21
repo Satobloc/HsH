@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-21T21:51:05.121499+00:00",
+  "generated_at_utc": "2026-10-21T23:17:33.519783+00:00",
   "date_basis": "original message timestamps; original conversation timestamps only as explicit fallback",
   "roots": [
     {
@@ -10,7 +10,7 @@
         "needs_renaming": 0,
         "unresolved_collisions": 0,
         "undatable_conversations": 0,
-        "skipped_not_conversations_or_bad_json": 358
+        "skipped_not_conversations_or_bad_json": 406
       },
       "exceptions": []
     },
@@ -31,7 +31,7 @@
     "needs_renaming": 0,
     "unresolved_collisions": 0,
     "undatable_conversations": 0,
-    "skipped_not_conversations_or_bad_json": 365
+    "skipped_not_conversations_or_bad_json": 413
   },
   "fully_tagged": true
 }
