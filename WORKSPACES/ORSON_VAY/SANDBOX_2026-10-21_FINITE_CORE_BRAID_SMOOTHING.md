@@ -448,3 +448,128 @@ The historical `epsilon ~= 2e-21 m` is itself not secure.
 Separately, `MACHINE1.py` exposes `epsilon_ratio` as a free dimensionless model input with default `0.01`, confirming that at least one historical executable treated the ratio epsilon/ell_f as a modeling parameter rather than a derived invariant.
 
 Accordingly, neither the 2e-21 m value nor the code default is promoted. They are useful sensitivity controls only.
+
+## 14. Helical-phase control: triad shielding turns on before symmetric pair shielding
+
+`FINDING THE DONUT` and the old phase audit motivate a more native local control than static sphere centers.
+
+Take coaxial equal-radius helical centerlines
+
+`X_i(w) = (a cos(k w + delta_i), a sin(k w + delta_i), z(w), w)`
+
+with the same pitch/history law and fixed relative phases.
+
+The transverse separation at equal w is invariant:
+
+`d_ij = 2 a |sin((delta_i-delta_j)/2)|`.
+
+### Symmetric pair
+
+For the maximally separated two-phase branch
+
+`delta = {0, pi}`
+
+so
+
+`d_2 = 2a`.
+
+A circular finite interaction/readout support of radius R around each centerline begins to overlap when
+
+`R >= d_2/2 = a`.
+
+### Symmetric triad
+
+For
+
+`delta = {0, 2pi/3, 4pi/3}`
+
+every pair has
+
+`d_3 = sqrt(3) a`.
+
+Pairwise support overlap therefore begins when
+
+`R >= d_3/2 = (sqrt(3)/2) a ~= 0.8660254 a`.
+
+Thus there is a clean interval
+
+`sqrt(3)/2 <= R/a < 1`
+
+in which the symmetric triad has finite-core/readout shielding while the symmetric pair still has none.
+
+This gives a purely geometric candidate explanation for the recovered archive ordering 'deuterium little suppression; triadic systems moderate suppression' without Q lookup rules or Z3.
+
+### Exact transverse active-perimeter ratios
+
+For two equal disks radius R with separation d, define
+
+`alpha = arccos(d/(2R))`
+
+once R >= d/2.
+
+The union-boundary perimeter relative to isolated perimeters is
+
+`S_perim,2 = 1 - alpha/pi`.
+
+For the symmetric pair d=2a:
+
+`S_perim,2(q) = 1`, q<1,
+
+`S_perim,2(q) = 1 - arccos(1/q)/pi`, q>=1,
+
+where `q=R/a`.
+
+For the equilateral symmetric triad d=sqrt(3)a, define
+
+`alpha_3 = arccos(sqrt(3)/(2q))`.
+
+Before the two hidden arcs on each disk meet, i.e. sqrt(3)/2 <= q <= 1:
+
+`S_perim,3(q) = 1 - 2 alpha_3/pi`.
+
+After q >= 1, the central/common-overlap geometry changes the visible-arc bookkeeping and
+
+`S_perim,3(q) = 5/6 - alpha_3/pi`.
+
+These pieces join continuously at q=1:
+
+`S_perim,3(1) = 2/3`.
+
+Selected controls:
+
+| R/a | pair S | triad S |
+|---:|---:|---:|
+| 0.8660254 | 1.000000 | 1.000000 |
+| 0.9000000 | 1.000000 | 0.824520 |
+| 0.9500000 | 1.000000 | 0.730313 |
+| 1.0000000 | 1.000000 | 0.666667 |
+| 1.2000000 | 0.813571 | 0.589967 |
+| 2.0000000 | 0.666667 | 0.475883 |
+| 10.000000 | 0.531884 | 0.360934 |
+
+Limits:
+
+`lim_(q->infinity) S_perim,2 = 1/2`
+
+`lim_(q->infinity) S_perim,3 = 1/3`.
+
+### Strong consequence for historical S ~= 0.2621
+
+A single symmetric three-helix bundle with equal circular supports has
+
+`S_perim,3 > 1/3`
+
+for every finite q, approaching 1/3 only in the infinite-support limit.
+
+Therefore historical `S ~= 0.2621 < 1/3` cannot be the one-level transverse active-perimeter ratio of a single equal triad, regardless of how thick the interaction support is.
+
+This is stronger than the previous dilute-overlap observation.
+
+If a geometric quantity near 0.2621 exists, it must involve at least one additional ingredient such as nested/coarse-grained levels, non-equal radii, strong anisotropy, history accumulation, multi-bundle packing, a different observable than active perimeter, or target fitting.
+
+### Caveats
+
+- The pair phase pi is a symmetric/maximal-separation control, not yet a derived deuterium phase.
+- The triad 2pi/3 branch is variationally present in old audits but was NOT established as a topological law; one audit explicitly corrected the old winding-based derivation.
+- This is local transverse geometry of worldtubes, not a full nuclear model.
+- BR-008 still applies: R must be a physical interaction support or finite core, not arbitrary display/readout resolution.
