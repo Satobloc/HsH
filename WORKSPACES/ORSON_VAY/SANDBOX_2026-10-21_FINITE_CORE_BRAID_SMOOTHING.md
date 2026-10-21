@@ -242,3 +242,99 @@ The archive's qualitative sequence
 can be produced by a finite-core active-surface calculation without using Q as the controlling variable and without inserting S=0.2621.
 
 This is the first current derivation in this lane where the old 'braid smoothing' phrase has been replaced by an explicit geometric functional and a minimal-pair calculation.
+
+## 10. Contact-graph law in the dilute-overlap regime
+
+The two- and three-body results generalize before hidden caps overlap one another.
+
+Let:
+- N = number of equal finite cores;
+- E = number of active pair contacts in the local contact graph;
+- R = r + xi;
+- d = 2r for the tangent physical-core control;
+- each readout-support contact hides two spherical caps of height xi.
+
+One pair contact removes
+
+`A_hidden,pair = 4*pi*R*xi`
+
+from the external active area.
+
+Total isolated area is
+
+`A_iso = 4*pi*R^2*N`.
+
+Therefore, as long as pairwise hidden caps remain disjoint and no higher-overlap correction is needed,
+
+`S_xi(G) = 1 - (E/N) * xi/R`.
+
+Using mean contact degree `z_bar = 2E/N`,
+
+`S_xi(G) = 1 - (z_bar/2) * xi/R`.
+
+This reproduces the controls:
+- pair: N=2, E=1, z_bar=1 -> `S_2 = 1 - xi/(2R)`;
+- equilateral triad: N=3, E=3, z_bar=2 -> `S_3 = 1 - xi/R`.
+
+### Interpretation
+
+This is a morphology law, not a strand-count law.
+
+Two bundles with the same N or historical Q can have different smoothing because they can have different:
+- contact graphs;
+- coordination numbers;
+- contact-patch areas;
+- anisotropies;
+- braid histories;
+- readout orientations.
+
+This directly supports replacing old Q/inverse-Q smoothing rules by finite-core morphology.
+
+### Breakdown condition
+
+The contact-graph formula is only the first regime.
+When cap regions overlap on a core or a true common three-body support appears, higher-order geometry must be added.
+
+A schematic expansion is
+
+`S = 1 - pair shielding + triple correction - quadruple correction + ...`
+
+but the surface-area terms must be derived from the actual union boundary rather than imported from scalar inclusion-exclusion by analogy.
+
+The clean three-body onset in the symmetric control remains
+
+`epsilon_* = 2/sqrt(3) - 1 ~= 0.154700538`.
+
+Above this point a nonpairwise descriptor such as
+
+`C_3 = measure(K_1^xi intersect K_2^xi intersect K_3^xi)`
+
+can become nonzero and the pair-contact law alone is incomplete.
+
+## 11. Coarse-graining / interaction commutator interpretation
+
+Define the fine isolated active area
+
+`A_fine = sum_i A(boundary K_i^xi)`
+
+and the bundle readout
+
+`A_bundle = A_ext(union_i K_i^xi)`.
+
+Then the finite-core nonadditivity defect is
+
+`Delta_xi = A_bundle - A_fine <= 0`
+
+in the present shielding regime.
+
+The smoothing functional is simply
+
+`S_xi = 1 + Delta_xi/A_fine`.
+
+For the tangent equal-core contact-graph regime,
+
+`Delta_xi = -4*pi*R*xi*E`.
+
+This connects directly to the earlier coarse-graining-commutator program: braid smoothing can be read as a measurable failure of 'sum isolated interactions' and 'coarse-grain the interacting bundle' to commute.
+
+Crucially, this defect is derived from finite-core geometry rather than inserted as a correction coefficient.
