@@ -1,5 +1,8 @@
 # Meridian — New NLM haul intake and Cruller geometry gates (2026-10-21)
 
+> **2026-10-21 CORRECTION (Nathan Direct):** Spatial rotation and genuine acceleration of marked material are **curvature of their four-dimensional worldlines/worldtubes** even in flat ambient R4. The original Gate A below concerns **only** the pure-gauge curvature of an SO(4) rotation-frame connection and must NOT be read as denying material-history curvature. Intrinsic ambient Riemann curvature is a separate object. Exact example and proof: [Rotation as Worldtube Curvature Correction](SANDBOX_2026-10-21_ROTATION_AS_WORLDTUBE_CURVATURE_CORRECTION.md). Previous unqualified phrase "rotation is not curvature" was incorrect in context.
+
+
 **Status:** SANDBOXED source intake and analytical checks. Not BEDROCK; no derived optical anomaly and no external observational data.
 
 ## Repository events actually inspected
