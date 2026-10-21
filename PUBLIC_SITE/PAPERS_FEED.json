@@ -59,6 +59,18 @@
           "commit": "ce195617ff4d158aabc01e0daaf783adae191287",
           "posted_date": null,
           "website_url": null
+        },
+        {
+          "id": "cruller-rubin-noise-addendum-04",
+          "title": "Addendum 04: Forest statistical midpoint and S³ projection null",
+          "version": "A4",
+          "date": "2026-10-21",
+          "status": "sandbox_review_pending",
+          "summary": "Exact 4D isotropic-hemisphere projection statistics: mean 4/(3pi), variance 1/4-16/(9pi²); distinguishes path speed c from mean radial projection and statistical midpoint.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_04_FOREST_STATISTICAL_MIDPOINT_S3_2026-10-21.md",
+          "commit": "4dc5f39b49d5f0f216acb51fa8e10ab9d3f6ba74",
+          "posted_date": null,
+          "website_url": null
         }
       ]
     },
