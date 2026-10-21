@@ -35,6 +35,18 @@
           "commit": "4ad3febc6ec3b1d18bcccd43f3bca213b5563641",
           "posted_date": null,
           "website_url": null
+        },
+        {
+          "id": "cruller-rubin-noise-addendum-02",
+          "title": "Addendum 02: Translating-screen versus coherent stellar-noise correlations",
+          "date": "2026-10-21",
+          "version": "A2",
+          "status": "sandbox_review_pending",
+          "summary": "Cross-star delay ridges distinguish conditional moving-screen and simultaneous common-mode models; scale example and selection controls.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_02_ADVECTED_VS_COHERENT_NOISE_2026-10-21.md",
+          "commit": "2e32951531691be0c1b0789f0c82cfb8da96117c",
+          "posted_date": null,
+          "website_url": null
         }
       ]
     },
