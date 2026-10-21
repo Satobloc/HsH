@@ -1,5 +1,7 @@
 # Whirligig R/Q Engine: rolling sphere, gimbals, two equations, Curvy_Lisa
 
+> **2026-10-21 mechanism distinction:** The current **browser Whirligig** (see `PUBLIC_SITE/instruments/whirligig/index.html`) uses the **INNER torus radial surface** as the selected rolling contact, positive same-direction spin, a minimum even **three-axis GrAnn** SO(3) rotational lock, and `LCM(GrAnn turns, R/Q sweep turns)` to drive the unique gimbal elbow. See [the current technical contract](GRANN_INNER_WALL_ROTATIONAL_LOCK_2026-10-21.md). The standalone [grann_rotational_lock.py](grann_rotational_lock.py) has been updated to that branch. **The older full R/Q solver `whirligig.py` described below still uses the separate OUTER-wall selected-contact branch and its own original gimbal/pen implementation. Its results are not proof that the new browser coupling is implemented there.** Do not silently mix the branches or assume that a GitHub update deploys ChatGPT Sites.
+
 **Version:** experimental v0.1, 11 October 2026  
 **Status:** SANDBOXED engineering reconstruction. Mathematical/procedural tool, not a proof of a physical isomorphism.
 
