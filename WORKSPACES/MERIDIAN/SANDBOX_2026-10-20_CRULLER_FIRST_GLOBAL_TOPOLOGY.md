@@ -55,7 +55,7 @@ g_E_cyl=(R0/r)^2*delta = R0^2*(ds^2+dOmega3^2).
 ```
 It is locally Riemannian, positive-definite, globally well defined under the scale+orthogonal return, and intrinsically curved (S3 scalar contribution 6/R0^2). It is not a proof that SAT physically chooses this metric: its value is to expose that global closure plus expansion has metric consequences.
 
-If one uses the SAT candidate radial Householder reflection of Euclidean delta, `g_H=delta-2 n_flat dn_flat=-dr^2+r^2 dOmega3^2` (schematically, u=dr in an orthonormal frame), the 4D **Lorentzian scalar curvature is exactly 12/r^2**. Verified by direct Christoffel/Ricci symbolic calculation, even though the Euclidean ambient delta is flat. The conformally normalized radial candidate is
+If one uses the SAT candidate radial Householder reflection of Euclidean delta, `g_H=delta-2(dr tensor dr)=-dr^2+r^2 dOmega3^2` (u=dr is a delta-unit covector away from the radial origin), the 4D **Lorentzian scalar curvature is exactly 12/r^2**. Verified by direct Christoffel/Ricci symbolic calculation, even though the Euclidean ambient delta is flat. The conformally normalized radial candidate is
 ```text
 g_L_cyl=(R0/r)^2*g_H=R0^2*(-ds^2+dOmega3^2).
 ```
