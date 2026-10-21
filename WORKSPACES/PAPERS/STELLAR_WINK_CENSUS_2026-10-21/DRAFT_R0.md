@@ -94,6 +94,14 @@ For detected, classified events with measured data \(d_j\), one may use a marked
 
 The intensities \(\lambda(d)\) are formed by marginalizing over latent true event properties and measurement uncertainties. A basic corrected count \(N/(\epsilon E)\) is only appropriate when efficiencies are adequately constant within a stratum, classifications are reliable, and \(E\) is defined monitored source-time. Publish likelihood alternatives accommodating recurrent or clustered events, source-specific frailty, weather-dependent selection and temporal correlations.
 
+**Power and null-result utility.** For a *preselected*, independent Poisson event class with negligible false positives, no recovered events, and a known integrated effective exposure \(E_{\mathrm{eff}}\) measured in detection-efficiency-weighted star-years, the one-sided 95% upper bound is
+
+\[
+R_{95} = -\ln(0.05)/E_{\rm eff} \simeq 2.996/E_{\rm eff}.
+\]
+
+This is the simplest quantitative planning and reporting benchmark, not a substitute for the full selection/contamination likelihood. If the candidate class is searched across many thresholds, time windows or sky templates, report multiplicity-aware uncertainty and use an independent validation set. **A scientifically useful null result is a principal deliverable, not a project failure.**
+
 **Censoring.** A finite observing season creates interval-censored starts and ends, left/right-censored events and missed short events. Estimate duration distributions with an observation-window likelihood or injected-cadence forward modeling. Kaplan–Meier style methods are appropriate only when their censoring assumptions hold. Source years should count usable monitored intervals, not the full calendar time indiscriminately.
 
 **Error budget.** At minimum report Poisson/statistical error, completeness variation, classification contamination, baseline instability, source-count calibration, cross-matching, season and filter exposure differences, astrophysical population model uncertainty, and correlated detector/atmospheric calibration. Give upper limits in empty bins with specified confidence/credibility and model assumptions.
