@@ -1,3 +1,5 @@
+> **SUPERSEDED terminology and contact-track model, 2026-10-21:** The user corrected `GrAnn` / `Great Annulum` to **Analemma**. The circular/oblique-axis track and radius-geared even-return scheme discussed below are superseded by an explicit self-crossing spherical analemma with true material arc-length locking. The corrected browser specification is [ANALEMMA_CORRECTION_2026-10-21.md](../../PUBLIC_SITE/instruments/whirligig/ANALEMMA_CORRECTION_2026-10-21.md). Preserve this document as an implementation/provenance record, not as the site builder's current authority.
+
 # GrAnn / R–Q Whirligig: inner-wall rolling and minimum shared rotational lock
 
 **Date:** 2026-10-21  
