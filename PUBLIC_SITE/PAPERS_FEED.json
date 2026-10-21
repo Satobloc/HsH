@@ -83,6 +83,18 @@
           "commit": "aef09132df6416ccf524fea5220a54e548c46f56",
           "posted_date": null,
           "website_url": null
+        },
+        {
+          "id": "cruller-rubin-addendum-06-nlm-audit",
+          "title": "Addendum 06: Audit of NLM's Stellar-Wink Experimental Discriminators",
+          "version": "A6",
+          "date": "2026-10-21",
+          "status": "sandbox_review_pending",
+          "summary": "Separates validated lensing, extinction, and survey tests from unsupported 0.246-rad and 80% blackout claims; corrects fold-caustic signs and shows odd-lag covariance occurs for nonrotating drift.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_06_NLM_EXPERIMENTAL_DISCRIMINATOR_AUDIT_2026-10-21.md",
+          "commit": "842df3dc24419e67e0e31ab8406f1c268157726a",
+          "posted_date": null,
+          "website_url": null
         }
       ]
     },
