@@ -55,3 +55,17 @@ The HTML file was independently read back from GitHub after its committed write.
 These are executed geometry smoke tests **not** browser/visual-acceptance tests, and are not formal verification of the chosen mathematical adapters. Full browser usability, semantic mathematical review, and deployed ChatGPT Sites publication remain unverified.
 
 Next steps: add optional parameter controls with domain/unit checking for each representative; standardize a serialized source specification compatible with the Python engine; separately validate higher-dimensional and nonperiodic solution branches without forcing fake closure; and test whether the experimental composite curves preserve source invariants beyond similar appearance.
+
+## 2026-10-21 UPDATE: 42-profile unfiltered comparison library (supersedes 14-only summary)
+
+The current browser implements the 14 earlier demonstration, gauge, GR, and QM profiles **plus 28 new mathematical representatives**. The selector groups now include **Best-known series (11)** and **Often overlooked series (17)**, alongside the original sector groups. The groups are editorial and exhaustive within this defined library; “best-known” and “often overlooked” are not objective rank, rarity, or significance assessments.
+
+**Best-known:** Newtonian oscillator, Kepler ellipse, Maxwell vacuum wave, Fourier heat mode, Laplace disk harmonic, Schrödinger infinite-well eigenfunction scan, wave-equation standing mode, special-relativistic Lorentz factor, Planck spectrum, Maxwell–Boltzmann speed distribution, Fermi–Dirac occupation.
+
+**Often overlooked:** Jacobi theta₃, Legendre P₄, Chebyshev T₅, Bessel J₀ (numerical quadrature), Clausen Cl₂ (truncated Fourier series), Re Li₂ (truncated power series), 2D Dirac Berry-curvature scan, Mathieu equation coefficient (not a Mathieu solution), KdV sech² soliton (periodic spatial scan, not a periodic traveling solution), sine–Gordon kink scan, Burgers viscous-shock profile scan, Morse potential, Lennard–Jones 12–6 potential, Kitaev-chain Bogoliubov band, Pöschl–Teller well, Fresnel C (numerical quadrature), U(1) Wilson phase for a **specified** family of fluxes.
+
+Each named profile displays its explicit formula, the sampled quantity, and what is NOT implied. A prescribed closed sampling path is *not* equivalent to claiming an inherently nonperiodic solution becomes periodic. The current UI has **no user-supplied arbitrary code evaluation**. The synthetic and physical examples are never declared automatically equivalent by curve appearance.
+
+**Uncurated traversal:** `Next pair in series` deterministically walks all unordered pairs of the chosen set in lexicographic order, with a visible index; counts are 55 familiar, 136 overlooked, or 861 among all 42. This avoids auto-selecting outputs for beauty, similarity, or expected theory claims. Manual R/Q selection and original named pairs are preserved.
+
+**Source and tests:** [Current GrAnn mechanism plus complete test record](../../../tools/whirligig_rq/GRANN_INNER_WALL_ROTATIONAL_LOCK_2026-10-21.md). 42 scalar representatives verified finite and closed under `f(0)=f(2π)`, with 84 complete R- and Q-side apparatus configurations and 117,684 samples meeting torus-wall, E/W, and perpendicularity numerical checks. The figure-of-merit is not a GR–QM/gauge equivalence proof; deployed browser QA remains unverified.
