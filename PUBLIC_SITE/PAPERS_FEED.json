@@ -1,9 +1,29 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-10-21",
   "authority": "presentation only; paper state is controlled by the linked originator and review records",
   "policy": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
   "entries": [
+    {
+      "id": "cruller-rubin-visibility-r0",
+      "title": "Projected Toroidal Geometry and Testable Angular Statistics for Transient Stellar Visibility",
+      "short_title": "Cruller sky-projection and Rubin visibility test",
+      "kind": "physicist-facing conditional observational proposal",
+      "status": "sandbox_originator_draft_r0_review_pending",
+      "site_display": "sandbox_manuscript",
+      "version": "R0",
+      "originator": "Meridian with Nathan McKnight",
+      "date": "2026-10-21",
+      "summary": "Exact off-axis projection of a toroidal inner ring, a gravitational lens image-count counterexample, and a survey-mask-aware preregistered search design for apparent stellar disappearance and return.",
+      "caveat": "No star detections or validated cosmological model; illustrative angles, geometry, rates and significance are not physical forecasts. Requires independent review. Feed stage is not live-site publication.",
+      "manuscript_path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md",
+      "manuscript_ref": "8b30c2e97774b6505dc0624d2d5e3fba419a4a05",
+      "manuscript_blob": "",
+      "review_path": null,
+      "acceptance_path": null,
+      "website_url": null,
+      "posted_date": null
+    },
     {
       "id": "boundary-weak-emission-r1",
       "title": "A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments",
