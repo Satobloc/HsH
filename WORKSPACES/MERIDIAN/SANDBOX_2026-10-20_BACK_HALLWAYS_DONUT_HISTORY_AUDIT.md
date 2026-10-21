@@ -2,6 +2,20 @@
 
 **Research status:** Assistant-authored SANDBOX. Exact Riemannian/kine­matic calculations; not new established physics. No BEDROCK promotion, no Kerr claim, no proof of cosmobarygenesis. Current directives ND-2026-10-20-01/02 and BR-008 apply.
 
+## 2026-10-20 second Nathan Direct correction — METHOD continuity, formalism supersession
+
+Nathan clarifies that the circa-2025 *Back Hallways* documents are historically valuable primarily as **the tipping point at which the SAT programme began to cohere**. They are prior to *The Forest* (Sep 2026), and were sometimes mathematically sloppy. **They are not fresh SAT and are not authority for the current formalism, notation, constitutive laws or cosmology. Once a mechanism has been superseded, it stays superseded.**
+
+**The conceptual programme, not the specific mathematics, persists**:
+
+1. **The Loop:** derive/test one sector, traverse independently grounded cross-sector implications, and return to the starting sector to check numerical/algebraic closure or conflict. Do not treat old chain `c -> c_2 -> G -> m_star -> masses` or its conditional PPN claims as current derived physics.
+2. **Later Star-Shaped Derivation Map:** organize cross-sector derivations around a specified common geometric hub and connect multiple independently testable spokes, with dimension and provenance discipline, independent holdouts, a prohibition on inserting observed target values, and explicit gaps. *Posters.txt* in the historical SAT archive associates the map with an old `Unified 4DHH-UC Lagrangian` hub: **that historical hub is NOT automatically today's native H(s)H/Klein Fabric hub.**
+3. **Historical versus current use:** the early mathematical 'corridors' are primarily metaphors for model/parameter translations. They are not proto-ER wormholes or topological events in the newer physical construction. The early filament-vs-timesheet choice has been superseded since the Klein Fabric became common, as recorded in the preceding correction and in current user direction. The Forest then adds physical ancestry and locality constraints to the contemporary geometrical programme, not retroactive proof of the earlier math.
+
+**Source cross-check, not current model adoption:** `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/LOOPING PROTOCOL.txt` discusses cross-sector GR/cosmology/SM loop cascades and repeated return checks, with many assistant overclaims. `SAT_THEORY_ARCHIVE_2023-25/Posters.txt` explicitly names the star-shaped map and an old 4DHH-UC hub. `synthesis/SOURCE_PRIORITY.md` (HsH) already calls the star-shaped lane a **cross-sector coherence spine** and says to retain process discipline but quarantine claimed zero-parameter closure. `WORKSPACES/MERCER/search_topics_derivation_chain.json` records discovery aliases for the historical methodological chain; aliases confer no mathematical authority.
+
+**Operational instruction to Meridian:** Start new cosmobarygenesis/forest/Klein calculations from *current* defined SAT premises. Consult old Back Hallways/Loop/Star Map to recover **questions to ask and audits to run**, not equations to assume. Any old formula must be newly source-typed and independently reconstructed before reuse. This replaces my previous framing that treated Back Hallways as a present-day technical translation formalism rather than historical method.
+
 ## 2026-10-20 Nathan Direct corrective interpretation (supersedes my earlier historical framing)
 
 - **Chronology:** The Back Hallways phase being read is approximately a year older than the present work (circa 2025 in Nathan's recollection). Do NOT represent its formulations as equivalent-status current cosmology or silently assume the dates of derivative NotebookLM documents establish the origin date.
