@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Sandboxed GrAnn minimum-return SO(3) lock.
 
-A functional 3-axis rotational locking candidate, NOT the historical
+INNER-torus-contact 3-axis rotational locking candidate, NOT the historical
 self-intersecting GrAnn, NOT the full R/Q elbow mechanism, and NOT a globally
 no-slip sphere/tube contact for the b=a limiting case.
 """
@@ -40,11 +40,10 @@ def common_return(rates):
 
 def minimum_grann_turns(major, radius, source_periods=(1, 1),
                         require_even=True):
-    """Smallest admissible integer material turns > geometric rolling ratio.
+    """Smallest admissible even material turns > inner-contact spin offset.
 
-    The strict inequality ensures nonzero x/y spin, while evenness and the
-    caller's source orders are optional/divisibility constraints. These orders
-    must come from validated source-curve phase/symmetry closure, not labels.
+    Strict inequality preserves nonzero x/y spin. R/Q sweep periods lock the
+    elbow through LCM, rather than forcing the material rotor count.
     """
     M, b = exact_ratio(major), exact_ratio(radius)
     if M <= b or b <= 0:
@@ -52,45 +51,51 @@ def minimum_grann_turns(major, radius, source_periods=(1, 1),
     orders = [int(x) for x in source_periods]
     if any(x <= 0 for x in orders):
         raise ValueError("Source periods must be positive integers")
-    multiple = lcm(*(orders + ([2] if require_even else [1])))
-    gear = (M + b) / b
-    turns = multiple * (gear.numerator // (gear.denominator * multiple) + 1)
-    return turns, float(gear)
+    delta = M / b - 1
+    multiple = 2 if require_even else 1
+    turns = multiple * (delta.numerator // (delta.denominator * multiple) + 1)
+    return turns, float(delta)
 
 
 def simulate(major=1.65, radius=.55, source_periods=(1, 1),
              require_even=True, samples=2401):
-    n, gear = minimum_grann_turns(major, radius, source_periods, require_even)
+    n, delta = minimum_grann_turns(major, radius, source_periods, require_even)
     R, b = float(major), float(radius)
-    sigma = sqrt(n*n - gear*gear)
+    sigma = sqrt(n*n - delta*delta)
     psi = np.linspace(0., 2*pi, samples)
     er = np.column_stack((np.cos(psi), np.sin(psi), np.zeros_like(psi)))
     et = np.column_stack((-np.sin(psi), np.cos(psi), np.zeros_like(psi)))
     Q = (Rotation.from_rotvec(np.column_stack((np.zeros_like(psi),
                                               np.zeros_like(psi), psi)))
          * Rotation.from_rotvec(np.outer(psi,
-                                        np.array([sigma, 0., -gear])))).as_matrix()
+                                        np.array([sigma, 0., delta])))).as_matrix()
     C = R * er
-    contact_body = np.einsum("nji,nj->ni", Q, er)
+    contact_body = np.einsum("nji,nj->ni", Q, -er)
     wall_pivot = C + b*np.einsum("nij,nj->ni", Q, contact_body)
-    wall_target = (R+b)*er
+    wall_target = (R-b)*er
+    outer_pivot = (R+b)*er
+    ball_antipode = C - b*np.einsum("nij,nj->ni", Q, contact_body)
     omega = np.column_stack((sigma*er[:,0], sigma*er[:,1],
-                             np.full(len(psi), -R/b)))
-    slip = R*et + np.cross(omega, b*er)
+                             np.full(len(psi), R/b)))
+    slip = R*et + np.cross(omega, -b*er)
     spin_angle = n * psi
     theta_turns = spin_angle[-1]/(2*pi)
     dQ = np.gradient(Q, psi, axis=0, edge_order=2)
     Omega = dQ @ np.swapaxes(Q, 1, 2)
     omega_fd = np.column_stack((Omega[:,2,1],Omega[:,0,2],
                                 Omega[:,1,0]))
-    fd_slip = R*et + np.cross(omega_fd, b*er)
+    fd_slip = R*et + np.cross(omega_fd, -b*er)
     track_distance = float(np.sum(np.linalg.norm(np.diff(contact_body, axis=0), axis=1)))
+    elbow_turns = lcm(n, *[int(x) for x in source_periods])
     result = {
         "major_radius": R,
         "ball_and_tube_radius": b,
-        "geometric_contact_ratio": gear,
+        "inner_wall_roll_ratio": R/b,
+        "co_rotating_spin_offset": delta,
+        "selected_rolling_wall": "INNER",
         "minimal_grann_turns": n,
         "source_phase_orders": list(source_periods),
+        "lcm_locked_elbow_turns": int(elbow_turns),
         "even_winding": (n % 2 == 0),
         "radial_spin_rate": sigma,
         "angular_velocity_component_ranges": {
@@ -99,9 +104,11 @@ def simulate(major=1.65, radius=.55, source_periods=(1, 1),
         },
         "material_turn_count": float(theta_turns),
         "material_track_length_total": track_distance,
-        "predicted_material_track_length_total": 2*pi*gear,
-        "one_contact_track_cycle_length": 2*pi*gear/n,
-        "max_pivot_wall_error": float(np.linalg.norm(wall_pivot-wall_target,axis=1).max()),
+        "predicted_material_track_length_total": 2*pi*abs(delta),
+        "one_contact_track_cycle_length": 2*pi*abs(delta)/n,
+        "max_inner_contact_error": float(np.linalg.norm(wall_pivot-wall_target,axis=1).max()),
+        "max_outer_pivot_error": float(np.linalg.norm(ball_antipode-outer_pivot,axis=1).max()),
+        "min_omega_z": float(omega[:,2].min()),
         "max_analytic_point_slip": float(np.linalg.norm(slip,axis=1).max()),
         "max_fd_point_slip_interior": float(np.linalg.norm(fd_slip[5:-5],axis=1).max()),
         "SO3_seam_error": float(np.linalg.norm(Q[0]-Q[-1])),
@@ -111,7 +118,9 @@ def simulate(major=1.65, radius=.55, source_periods=(1, 1),
 
 
 def check(report):
-    assert report["max_pivot_wall_error"] < 1e-10, "Wall pivot mismatch"
+    assert report["max_inner_contact_error"] < 1e-10, "Inner wall mismatch"
+    assert report["max_outer_pivot_error"] < 1e-10, "Outer antipode mismatch"
+    assert report["min_omega_z"] > 0, "Sphere must roll with positive z spin at inner contact"
     assert report["max_analytic_point_slip"] < 1e-10, "Selected-point rolling fails"
     assert report["SO3_seam_error"] < 1e-10, "Orientation failed to close"
     assert report["SO3_orthogonality_error"] < 1e-10, "Frame ceased to be SO(3)"
@@ -119,7 +128,8 @@ def check(report):
     for component in ("x","y","z"):
         a,b=report["angular_velocity_component_ranges"][component]
         assert b-a > 1e-6 or (component=="z" and abs(a)>1e-6)
-    assert report["material_turn_count"] == report["minimal_grann_turns"]
+    assert abs(report["material_turn_count"] - report["minimal_grann_turns"]) < 1e-8
+    assert report["lcm_locked_elbow_turns"] % report["minimal_grann_turns"] == 0
 
 
 def main():
