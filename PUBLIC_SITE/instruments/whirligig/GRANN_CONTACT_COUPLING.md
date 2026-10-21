@@ -1,3 +1,5 @@
+> **USER CORRECTION (2026-10-21):** The older term `GrAnn / Great Annulum` was mistaken. The intended figure was an **Analemma**. This original selected-contact great-circle sketch is obsolete. See [the current Analemma/contact-frame reconstruction](ANALEMMA_CORRECTION_2026-10-21.md). Do not instruct Sites to restore the round track.
+
 > **HISTORICAL IMPLEMENTATION, SUPERSEDED 2026-10-21:** This earlier wall-coupled great-circle version used OUTER-wall selected rolling and independent elbow phase; it is no longer the canonical Whirligig mechanism. The current version uses inner Donomphulon rolling, outer P_ivot, three-axis minimum-return GrAnn, and LCM-locked elbow. See [current technical design](../../../tools/whirligig_rq/GRANN_INNER_WALL_ROTATIONAL_LOCK_2026-10-21.md).
 
 # GrAnn → Torus Wall | Selected-contact mechanical reconstruction
