@@ -2,9 +2,9 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 1275
+- JSON files scanned: 1277
 - conversation exports recognized: 764
-- non-conversation JSON skipped: 509
+- non-conversation JSON skipped: 511
 - parse errors: 2
 - structural-index gap candidates: 234
 
@@ -5378,14 +5378,14 @@
 - density: 0.897959; top retrieval score: 58.72
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `FINITE-CORE`, `GEOLOGY`, `GEOMETRY`, `GITHUB-REPO`, `GRATICULE`
 
-### `LIVE CONVOS/Meridian Free Build — raw.json` **INDEX-GAP-CANDIDATE**
+### `LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json` **INDEX-GAP-CANDIDATE**
 
 - title: Meridian Free Build
 - messages/user: 1184/79
 - density: 0.974662; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `FINITE-CORE`, `GEOMETRY`
 
-### `LIVE CONVOS/Predict the Song Style — raw.json` **INDEX-GAP-CANDIDATE**
+### `LIVE CONVOS/26.10.15•26.10.20•Predict the Song Style — raw.json` **INDEX-GAP-CANDIDATE**
 
 - title: Predict the Song Style
 - messages/user: 789/389

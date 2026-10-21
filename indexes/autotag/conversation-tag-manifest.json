@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 1275,
+  "json_files_scanned": 1277,
   "conversation_exports_recognized": 764,
-  "nonconversation_json_skipped": 509,
+  "nonconversation_json_skipped": 511,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
@@ -167036,7 +167036,7 @@
       ]
     },
     {
-      "source_path": "LIVE CONVOS/Meridian Free Build — raw.json",
+      "source_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
       "title": "Meridian Free Build",
       "conversation_id": "6ac45d1f-17b0-83ea-ad1f-fa524602378b",
       "message_count": 1184,
@@ -167401,7 +167401,7 @@
       "exact_duplicate_paths": []
     },
     {
-      "source_path": "LIVE CONVOS/Predict the Song Style — raw.json",
+      "source_path": "LIVE CONVOS/26.10.15•26.10.20•Predict the Song Style — raw.json",
       "title": "Predict the Song Style",
       "conversation_id": "6ad0cf68-eebc-83ea-9da8-4aa0b56bad53",
       "message_count": 789,
