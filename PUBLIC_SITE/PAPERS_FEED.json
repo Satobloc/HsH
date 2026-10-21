@@ -47,6 +47,18 @@
           "commit": "2e32951531691be0c1b0789f0c82cfb8da96117c",
           "posted_date": null,
           "website_url": null
+        },
+        {
+          "id": "cruller-rubin-noise-addendum-03",
+          "title": "Addendum 03: Rotational noise correlations and chirality identification",
+          "version": "A3",
+          "date": "2026-10-21",
+          "status": "sandbox_review_pending",
+          "summary": "Signed time-lag covariance distinguishes clockwise and counterclockwise toy advection; requires oriented observer-frame calibration and control for systematic rotational patterns.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_03_ROTATIONAL_NOISE_SIGNATURE_2026-10-21.md",
+          "commit": "ce195617ff4d158aabc01e0daaf783adae191287",
+          "posted_date": null,
+          "website_url": null
         }
       ]
     },
