@@ -1,3 +1,5 @@
+> **UPDATE 2026-10-21:** The earlier candidate below was based on the OUTER radial torus-wall contact and is retained for historical provenance. The user specified the INNER radial rolling surface and an LCM-locked elbow. The canonical corrected implementation and tests are now [GRANN_INNER_WALL_ROTATIONAL_LOCK_2026-10-21.md](GRANN_INNER_WALL_ROTATIONAL_LOCK_2026-10-21.md). The inside-wall sign of rolling spin is positive; do not use the old outward-contact gearing as the default.
+
 # GrAnn R/Q: minimum-return three-axis rotational lock
 
 **Status:** Nathan Direct functional correction (2026-10-18), with a separately derived/tested **candidate** realization of a contact-preserving SO(3) lock. Not implemented in the live Whirligig browser instrument.
