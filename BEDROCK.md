@@ -438,3 +438,7 @@ The objective is that any competent fresh instance can answer, before beginning 
 4. What did Nathan directly establish or override?
 5. Where is the primary evidence/source?
 6. What must I not silently assume?
+
+## Nathan Direct — Planck-unit-first calculation standard (2026-10-21)
+
+For all new SAT/H(s)H/Cruller calculations, use **Planck units throughout** as the native reporting and computation convention: `c = G = hbar = 1`. Express lengths in `l_P`, times in `t_P`, masses in `m_P`, frequencies in inverse `t_P`, while angular quantities remain dimensionless radians. Use SI/astronomical units only as a clearly identified external comparison or observational readout, never to choose an arbitrary modeling scale. Do not confuse setting units to one with deriving free physical coefficients: independently determine periods, shear, metric, characteristic sizes and all free parameters from equations or label the calculation explicitly SANDBOX illustrative. Never compare angular speed with dimensionless angle or shear without a derived physical time factor. Retroactive conversions of toy constants do not transform those toy constants into predictions.
