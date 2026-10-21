@@ -20,7 +20,7 @@
 <label>Time fraction <output id="vt"></output><input id="time" type="range" min="0" max="1" step=".002" value="0"></label>
 <label class="speed-label">Playback speed <output id="vspeed">1.5×</output><input id="speed" type="range" min=".25" max="4" step=".25" value="1.5"></label>
 </div><div id="stats" class="stats" role="status">Computing geometry…</div><section class="grann-panel"><strong>GrAnn torus-wall coupling · selected-contact carrier</strong><div id="grannStatus" role="status">Computing GrAnn constraints…</div><button id="evenGear" type="button">Restore inner-wall reference</button></section>
-<p class="foot">This is a browser reconstruction of the historical <b>b=a</b> limiting setup. Its selected contact obeys the analytic no-slip condition at one nominated point; because equal radii create a nonisolated contact set, this does <b>not</b> certify no-slip across every point of contact. There is no separate pen or projector. The only tracing member is the gimbal elbow, constrained perpendicular to the moving crossbar. GrAnn is a minimum-return three-axis rotational lock with the INNER torus selected contact at Donomphulon and opposite OUTER torus P_ivot; the radial construction is BigRad. The historical GrAnn_Omph self-intersection and GrAnn_t_ipode self-tangency remain unresolved. New rotational lock uses the INNER torus wall and drives the elbow from minimum even three-axis rotations via LCM. Two independently shaped source curves share a sweep clock; GrAnn's minimum rotational return sets the elbow-turn count by LCM, with no independently chosen curvature-gain phase. This is not a certified physical bearing model. No isomorphism or physical law is assumed. Research reference: <a href="https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq">Whirligig R/Q Python solver</a>.</p></main>
+<p class="foot">This is a browser reconstruction of the historical <b>b=a</b> limiting setup. Its selected contact obeys the analytic no-slip condition at one nominated point; because equal radii create a nonisolated contact set, this does <b>not</b> certify no-slip across every point of contact. There is no separate pen or projector. The only tracing member is the gimbal elbow, constrained perpendicular to the moving crossbar. Analemma is a minimum-return three-axis rotational lock with the INNER torus selected contact at Donomphulon and opposite OUTER torus P_ivot; the radial construction is BigRad. The earlier GrAnn/Great Annulum naming was incorrect. The intended Analemma is reconstructed as a closed spherical figure-eight with a genuine double-point and distinct branch tangents. New rotational lock uses the INNER torus wall and drives the elbow from minimum even three-axis rotations via LCM. Two independently shaped source curves share a sweep clock; GrAnn's minimum rotational return sets the elbow-turn count by LCM, with no independently chosen curvature-gain phase. This is not a certified physical bearing model. No isomorphism or physical law is assumed. Research reference: <a href="https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq">Whirligig R/Q Python solver</a>.</p></main>
 <script>(()=>{'use strict';const $=s=>document.querySelector(s),PI=Math.PI,TWO=2*PI,mc=$('#mechanism'),oc=$('#output'),dc=$('#detail'),m=mc.getContext('2d'),o=oc.getContext('2d'),dctx=dc.getContext('2d'),inputs=[...document.querySelectorAll('[data-key]')];let run=true,show=true,phase=0,az=.7,el=.45,drag=false,px=0,py=0,last=performance.now(),data=[],cfg=null;
 const add=(a,b)=>a.map((x,i)=>x+b[i]),sub=(a,b)=>a.map((x,i)=>x-b[i]),mul=(a,k)=>a.map(x=>x*k),dot=(a,b)=>a.reduce((v,x,i)=>v+x*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],norm=a=>Math.hypot(...a),unit=a=>mul(a,1/Math.max(1e-12,norm(a)));function Rx(v,t){let c=Math.cos(t),s=Math.sin(t);return[v[0],c*v[1]-s*v[2],s*v[1]+c*v[2]]}function Ry(v,t){let c=Math.cos(t),s=Math.sin(t);return[c*v[0]+s*v[2],v[1],-s*v[0]+c*v[2]]}
 function params(){return Object.fromEntries(inputs.map(x=>[x.dataset.key,+x.value]))}
@@ -110,7 +110,7 @@ function bearing(t,c,side){
         +.03*(Math.tanh(equation(t,c,side))-Math.tanh(equation(0,c,side)));
 }
 function polar(t,c,side){
- const east=side==='r',a=.48+.20*Math.tanh(equation(t,c,side));
+ const east=side==='r',a=.78+.58*Math.tanh(equation(t,c,side));
  const phi=bearing(t,c,side)+(east?0:PI);
  return [(east?1:-1)*Math.cos(a),Math.sin(a)*Math.cos(phi),Math.sin(a)*Math.sin(phi)];
 }
@@ -137,57 +137,72 @@ function follow(cur,c,sweep){
  const planeN=[0,-Math.sin(alpha),Math.cos(alpha)];
  return {p,turn,t,planeResidual:Math.abs(dot(p,planeN))};
 }
-function gcd(a,b){while(b){let x=a%b;a=b;b=x}return a}
+function gcd(a,b){while(b){let k=a%b;a=b;b=k}return a}
 function lcm(a,b){return a/gcd(a,b)*b}
-function rotate(v,n,t){const c=Math.cos(t),s=Math.sin(t);return add(add(mul(v,c),mul(cross(n,v),s)),mul(n,dot(n,v)*(1-c)))}
-function rz(v,t){const c=Math.cos(t),s=Math.sin(t);return [c*v[0]-s*v[1],s*v[0]+c*v[1],v[2]]}
-function clock(c){
- const roll=c.major/c.minor,delta=roll-1;
- // Strictly more than |delta|, with a roundoff guard at even integer borders.
- const turns=2*(Math.floor((Math.abs(delta)+1e-10)/2)+1);
- const radialSpin=Math.sqrt(Math.max(0,turns*turns-delta*delta));
- const sweeps=Math.max(1,Math.round(c.g1)),elbowTurns=lcm(turns,sweeps);
- return{roll,delta,turns,radialSpin,axis:[radialSpin/turns,0,delta/turns],
-        sweeps,elbowTurns,shared:1};
+// Analemma: explicit uneven-lobed figure-eight on the UNIT sphere.
+// This mechanical contact specimen is NOT a solar ephemeris.
+function analemma(t,a){return unit([-1,a*Math.sin(t),a*(Math.sin(2*t)+.27*Math.sin(t))])}
+function analemmaFrame(t,a){
+ const v=[-1,a*Math.sin(t),a*(Math.sin(2*t)+.27*Math.sin(t))],g=unit(v),
+ v1=[0,a*Math.cos(t),a*(2*Math.cos(2*t)+.27*Math.cos(t))],
+ v2=[0,-a*Math.sin(t),a*(-4*Math.sin(2*t)-.27*Math.sin(t))],
+ tangent=unit(sub(v1,mul(g,dot(g,v1)))),h=cross(g,tangent);
+ const cg=cross(v,v1),kg=norm(v)**3*dot(v,cross(v1,v2))/norm(cg)**3;
+ return{g,t:tangent,h,kg};
 }
+function arcLength(a,N=1536){let s=0,p=analemma(0,a);for(let i=1;i<=N;i++){let q=analemma(TWO*i/N,a);s+=norm(sub(q,p));p=q}return s}
+function buildCam(c){
+ const delta=c.major/c.minor-1,upper=arcLength(2);if(delta<=0)throw Error('Need R > b');
+ let cycles=2;while(TWO*delta/cycles>=upper){cycles+=2;if(cycles>128)throw Error('Cam resonance infeasible')}
+ const target=TWO*delta/cycles,n=1536;let low=1e-6,high=2;
+ for(let i=0;i<28;i++){let m=(low+high)/2;if(arcLength(m,n)<target)low=m;else high=m}
+ const scale=(low+high)/2,angles=[0],arc=[0];let prev=analemma(0,scale);
+ for(let i=1;i<=n;i++){let t=TWO*i/n,p=analemma(t,scale);angles.push(t);arc.push(arc[i-1]+norm(sub(p,prev)));prev=p}
+ const L=arc[n];
+ function at(psi){
+  let s=(delta*psi)%L;if(s<0)s+=L;if(s>L-1e-7)s=0;
+  let i=0,j=n;while(j-i>1){let k=(i+j)>>1;if(arc[k]<=s)i=k;else j=k}
+  let t=angles[i]+(angles[j]-angles[i])*(s-arc[i])/(arc[j]-arc[i]);
+  return analemmaFrame(t,scale);
+ }
+ return{at,track:t=>analemma(t,scale),scale,L,cycles,delta};
+}
+let cam=null;
+function clock(c){const v=cam||buildCam(c),sweeps=Math.max(1,Math.round(c.g1));
+ return{roll:c.major/c.minor,turns:v.cycles,sweeps,elbowTurns:lcm(v.cycles,sweeps),shared:1,analemmaLength:v.L}}
 function sample(psi,c){
- const k=clock(c),er=[Math.cos(psi),Math.sin(psi),0],et=[-Math.sin(psi),Math.cos(psi),0];
- const Q=v=>rz(rotate(v,k.axis,k.turns*psi),psi);
- const Qi=v=>rotate(rz(v,-psi),k.axis,-k.turns*psi);
- // Inner torus equator: P=(R-b)er, offset -b er from the ball center.
- const innerWall=mul(er,c.major-c.minor),outerWall=mul(er,c.major+c.minor);
- const grannBody=Qi(mul(er,-1));
- const center=sub(innerWall,mul(Q(grannBody),c.minor));
- const rollingContact=add(center,mul(Q(grannBody),c.minor));
- const antipode=add(center,mul(Q(mul(grannBody,-1)),c.minor));
- // P_ivot remains on OUTER torus wall. Donomphulon is the INNER rolling contact.
- const pivot=outerWall,donomphulon=innerWall;
- const omega=add(mul(er,k.radialSpin),[0,0,k.roll]);
+ const k=clock(c),er=[Math.cos(psi),Math.sin(psi),0],et=[-Math.sin(psi),Math.cos(psi),0],ez=[0,0,1],b=cam.at(psi);
+ // Lock the analemma material normal, tangent, and cross normal to
+ // inner-wall contact -er, torus forward tangent +et and -ez.
+ const Q=v=>add(add(mul(er,-dot(b.g,v)),mul(et,dot(b.t,v))),mul(ez,-dot(b.h,v)));
+ const inWall=mul(er,c.major-c.minor),outWall=mul(er,c.major+c.minor);
+ const center=sub(inWall,mul(Q(b.g),c.minor)),contact=add(center,mul(Q(b.g),c.minor)),
+ antipode=add(center,mul(Q(mul(b.g,-1)),c.minor));
+ const omega=add(mul(er,b.kg*cam.delta),mul(ez,k.roll));
  const selectedSlip=norm(add(mul(et,c.major),cross(omega,mul(er,-c.minor))));
- const sweep=k.sweeps*psi,A=follow(curveR,c,sweep),B=follow(curveQ,c,sweep);
- const pr=add(center,mul(Q(A.p),c.minor)),pq=add(center,mul(Q(B.p),c.minor));
- const bar=sub(pq,pr),dir=unit(bar),mid=mul(add(pr,pq),.5);
- let ref=Q([0,0,1]);if(Math.abs(dot(ref,dir))>.90)ref=Q([0,1,0]);
- const u=unit(sub(ref,mul(dir,dot(ref,dir)))),v=unit(cross(dir,u));
- const theta=k.elbowTurns*psi,elbow=unit(add(mul(u,Math.cos(theta)),mul(v,Math.sin(theta))));
- return{center,pr,pq,mid,dir,elbow,contact:rollingContact,pivot,donomphulon,antipode,
-   bigRadStart:[0,0,0],bigRadEnd:outerWall,grannBody,grannSpin:k.turns*psi,grannGear:k.turns,
-   grannTurns:k.turns,elbowTurns:k.elbowTurns,radialSpin:k.radialSpin,
-   selectedContact:'INNER',angularVelocity:omega,bodyForwardOmegaZ:k.roll,
-   wallResidual:Math.abs(torusF(rollingContact,c)),innerWallResidual:Math.abs(torusF(pivot,c)),
-   pivotResidual:norm(sub(antipode,pivot)),innerResidual:norm(sub(rollingContact,donomphulon)),
-   bigRadResidual:norm(cross(unit(pivot),unit(outerWall))),selectedSlip,Q,er,r:A.p,q:B.p,
-   grannCircle:a=>add(center,mul(Q(rotate([-1,0,0],k.axis,-a)),c.minor)),
-   grannBodyCircle:a=>rotate([-1,0,0],k.axis,-a),
-   curvatureR:A.turn,curvatureQ:B.turn,curvatureSignal:0,
-   tR:A.t,tQ:B.t,sweep,planeR:A.planeResidual,planeQ:B.planeResidual,
-   midOffset:norm(sub(mid,center))/c.minor,elbowDot:dot(elbow,dir)};
+ const sweep=k.sweeps*psi,A=follow(curveR,c,sweep),B=follow(curveQ,c,sweep),
+ pr=add(center,mul(Q(A.p),c.minor)),pq=add(center,mul(Q(B.p),c.minor)),
+ dir=unit(sub(pq,pr)),mid=mul(add(pr,pq),.5);
+ let ref=Q([0,0,1]);if(Math.abs(dot(ref,dir))>.9)ref=Q([0,1,0]);
+ const u=unit(sub(ref,mul(dir,dot(ref,dir)))),v=unit(cross(dir,u)),
+ theta=k.elbowTurns*psi,elbow=unit(add(mul(u,Math.cos(theta)),mul(v,Math.sin(theta))));
+ return{center,pr,pq,mid,dir,elbow,contact,pivot:outWall,donomphulon:inWall,antipode,
+  bigRadStart:[0,0,0],bigRadEnd:outWall,grannBody:b.g,grannSpin:cam.delta*psi,
+  grannGear:k.turns,grannTurns:k.turns,elbowTurns:k.elbowTurns,radialSpin:b.kg*cam.delta,
+  selectedContact:'INNER',angularVelocity:omega,bodyForwardOmegaZ:k.roll,
+  wallResidual:Math.abs(torusF(contact,c)),innerWallResidual:Math.abs(torusF(outWall,c)),
+  pivotResidual:norm(sub(antipode,outWall)),innerResidual:norm(sub(contact,inWall)),
+  bigRadResidual:norm(cross(unit(inWall),unit(outWall))),selectedSlip,Q,er,r:A.p,q:B.p,
+  grannCircle:t=>add(center,mul(Q(cam.track(t)),c.minor)),grannBodyCircle:t=>cam.track(t),
+  curvatureR:A.turn,curvatureQ:B.turn,curvatureSignal:b.kg,tR:A.t,tQ:B.t,sweep,
+  planeR:A.planeResidual,planeQ:B.planeResidual,midOffset:norm(sub(mid,center))/c.minor,
+  elbowDot:dot(elbow,dir),analemmaPhase:cam.delta*psi,analemmaCurvature:b.kg};
 }
 function torusF(v,c){let r=Math.hypot(v[0],v[1]);return (r-c.major)**2+v[2]**2-c.minor**2}
 function rayHit(origin,ray,c){ // Find earliest positive crossing via bracketed 1D solves; equation is torus implicit, equivalent to quartic zeros.
  let r0=torusF(origin,c),bound=2*(c.major+c.minor)+3;let lastx=0,lastf=r0,steps=100;for(let j=1;j<=steps;j++){let x=bound*j/steps,f=torusF(add(origin,mul(ray,x)),c);if((lastf<0&&f>=0)||(lastf>0&&f<=0)){let lo=lastx,hi=x,flo=lastf;for(let k=0;k<35;k++){let mid=(lo+hi)/2,fm=torusF(add(origin,mul(ray,mid)),c);if((fm>0)===(flo>0)){lo=mid;flo=fm}else hi=mid}return add(origin,mul(ray,(lo+hi)/2))}lastx=x;lastf=f}return null}
 function rebuild(){
- cfg=params();updateCatalog();const k=clock(cfg);sharedTurns=1;N=1401;
+ cfg=params();cam=buildCam(cfg);updateCatalog();const k=clock(cfg);sharedTurns=1;N=1401;
  curveR=curve(cfg,'r');curveQ=curve(cfg,'q');data=[];
  for(let i=0;i<N;i++){const s=sample(TWO*i/(N-1),cfg);s.hit=rayHit(s.mid,s.elbow,cfg);data.push(s)}
  const max=v=>Math.max(...data.map(s=>Math.abs(s[v]))),hits=data.filter(s=>s.hit).length;
@@ -197,8 +212,8 @@ function rebuild(){
  const a=sample(0,cfg),b=sample(TWO,cfg),frame=Math.max(...[[1,0,0],[0,1,0],[0,0,1]].map(v=>norm(sub(a.Q(v),b.Q(v)))));
  $('#stats').textContent='INNER torus wall · physical rolling spin +'+k.roll.toFixed(3)+
  ' (same direction as orbit) · min shared return 1 torus circuit'+
- ' · 3-axis GrAnn '+k.turns+' rotations · R/Q sweep '+k.sweeps+
- ' · LCM elbow '+k.elbowTurns+' rotations · radial spin '+k.radialSpin.toFixed(3)+
+ ' · Analemma '+k.turns+' material circuits · R/Q sweep '+k.sweeps+
+ ' · LCM elbow '+k.elbowTurns+' rotations · radial spin '+Math.max(...data.map(s=>Math.abs(s.radialSpin))).toFixed(3)+
  ' · frame seam '+frame.toExponential(1)+' · trace seam '+seam.toExponential(1)+
  ' · E/W violations '+EW+' · sweep error '+plane.toExponential(1)+
  ' · perpendicular error '+max('elbowDot').toExponential(1)+' · wall hits '+hits+'/'+N;
@@ -207,8 +222,8 @@ function rebuild(){
  ' · INNER Donomphulon '+max('innerResidual').toExponential(2)+
  ' · BigRad '+max('bigRadResidual').toExponential(2)+
  ' · same-sense contact slip '+max('selectedSlip').toExponential(2)+
- ' · GrAnn winding '+k.turns+' even · elbow LCM('+k.turns+','+k.sweeps+')='+k.elbowTurns+
- '. Historical GrAnn_Omph topology not derived. Equal-radius contact is nonisolated.';
+ ' · Analemma winding '+k.turns+' even · elbow LCM('+k.turns+','+k.sweeps+')='+k.elbowTurns+
+ ' · spherical analemma length '+k.analemmaLength.toFixed(3)+' · self-crossing at 0 and π. Equal-radius contact is nonisolated.';
  inputs.forEach(i=>{const ids={ra:'vr',qa:'vq',ph:'vp',g1:'vg1',major:'vmajor',minor:'va'};if(ids[i.dataset.key])$('#'+ids[i.dataset.key]).textContent=i.value});
  $('#vGrannTurns').textContent=String(k.turns);$('#vElbowTurns').textContent=String(k.elbowTurns);
 }
@@ -242,7 +257,7 @@ function drawBodyDetail(s){
   const z=p(v);dctx.beginPath();dctx.arc(z[0],z[1],radius,0,TWO);dctx.fillStyle=color;dctx.fill();
  }
  dctx.font='11px system-ui';dctx.fillStyle='#ed88cf';
- dctx.fillText('GrAnn 3-axis locking track',12,20);
+ dctx.fillText('Analemma figure-eight material track',12,20);
 
  stroke(dctx,[p([-1.1,0,0]),p([1.1,0,0])],'#7c8683',.9);
  const mid=mul(add(s.r,s.q),.5);
