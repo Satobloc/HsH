@@ -777,3 +777,12 @@ Added `PUBLIC_SITE/PUBLIC_COPY_STANDARD.md`: public pages summarize the research
 Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub links for ambiguous HsH images whose filenames do not support automatic gallery placement.
 
 **Frontend requirement:** the main-menu “Start with pictures” action should load the gallery feed into a thumbnail-first Visual Atlas landing page. It must not route to generic repository browse. Thumbnail clicks should open a lightbox/detail/presented destination, with source provenance available secondarily.
+
+
+## 2026-10-21 — Cruller/Rubin paper R0 staged for site
+
+- Nathan requested write-up and publication to the Glass Sausage Factory.
+- Physicist-facing SANDBOX R0 Markdown manuscript committed at `WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md` (commit `8b30c2e`); local LaTeX/PDF produced in the originating session and separately downloadable there.
+- `PUBLIC_SITE/PAPERS_FEED.json` gained `cruller-rubin-visibility-r0` (commit `f378245`), with `site_display=sandbox_manuscript`, `review_pending`, `posted_date=null` and `website_url=null`.
+- **No direct website publishing action was available in this pass.** Editing repo source/feed is NOT proof the external chatgpt.site page changed. Site builder or publishing integration must ingest the new manuscript, render equations/figures, and confirm live URL by readback. Do not claim published until confirmed.
+- Content emphasis: exact off-axis toroidal ring projection; standard gravitational-shear lens 2↔4 image counterexample; survey footprint-controlled angular clustering test; no derived metric, rate, detected stellar events or peer review.
