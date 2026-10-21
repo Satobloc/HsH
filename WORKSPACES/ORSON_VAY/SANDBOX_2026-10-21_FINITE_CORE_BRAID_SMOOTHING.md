@@ -338,3 +338,60 @@ For the tangent equal-core contact-graph regime,
 This connects directly to the earlier coarse-graining-commutator program: braid smoothing can be read as a measurable failure of 'sum isolated interactions' and 'coarse-grain the interacting bundle' to commute.
 
 Crucially, this defect is derived from finite-core geometry rather than inserted as a correction coefficient.
+
+## 12. Genealogy update: historical S = B^(1-delta)
+
+New mining found an older explicit formula repeated in:
+- `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Interconn.txt`;
+- `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Scalar-Angular.txt`;
+- archived Core Pack / Math Revamp material;
+- public-record/podcast transcripts.
+
+The historical expression is
+
+`S(Q,n) = B^(1-delta) ~= 0.262065`.
+
+This is more informative than treating S as a naked scalar, but the recovered sources do not define delta independently in the same construction.
+
+Solving the equation backward with
+
+`B = 3/(4*pi) = 0.238732414637843...`
+
+and
+
+`S = 0.262065`
+
+gives
+
+`delta_required = 1 - ln(S)/ln(B)`
+
+`               = 0.0650994592534...`.
+
+Targeted repository searches found no independent `delta ~= 0.0651` derivation.
+
+Using later B values changes the required delta:
+- B=0.24177 -> delta_required ~= 0.05677384;
+- B=0.2412328757 -> delta_required ~= 0.05824912.
+
+So the formula is not invariant under the historical B variants unless delta changes with them.
+
+Current classification:
+
+`S = B^(1-delta)` is a historical parameterization, not yet a derivation.
+
+To promote it, delta must be recovered from a pre-target geometric quantity and then predict S without isotope-mass input.
+
+### Comparison with the new finite-core control
+
+If one tries to force the minimal triad formula
+
+`S_3 = 1/(1+epsilon)`
+
+to equal the old 0.262065, it requires
+
+`epsilon = xi/r ~= 2.81585`.
+
+That is far outside the dilute-overlap regime and beyond the three-body-overlap threshold `epsilon_* ~= 0.15470` where the simple formula ceases to apply.
+
+Therefore old S=0.262065 cannot be identified with one minimal triadic finite-readout contact.
+It must represent higher-order/nested geometry, a different observable, or a fitted correction.
