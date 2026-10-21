@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-10-20T22:23:24.210812+00:00",
+  "generated_at_utc": "2026-10-21T05:00:11.704815+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 15,
-    "skipped": 7,
-    "renamed": 3
+    "unchanged": 18,
+    "skipped": 7
   },
   "records": [
     {
@@ -153,12 +152,42 @@
       "warnings": []
     },
     {
+      "old_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "new_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "start_local": "2026-10-05T22:29:14.494314-04:00",
+      "end_local": "2026-10-20T17:24:23.459344-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 989,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.10.15•26.10.20•Predict the Song Style — raw.json",
+      "new_path": "LIVE CONVOS/26.10.15•26.10.20•Predict the Song Style — raw.json",
+      "start_local": "2026-10-15T09:07:22.121000-04:00",
+      "end_local": "2026-10-20T13:19:22.422541-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1090,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "LIVE CONVOS/26.10.18•26.10.20•Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt",
       "new_path": "LIVE CONVOS/26.10.18•26.10.20•Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt",
       "start_local": "2026-10-18T09:32:36.420875-04:00",
       "end_local": "2026-10-20T08:32:55.088321-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 55,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.10.19•26.10.20•Interpret abstract artwork — raw.txt",
+      "new_path": "LIVE CONVOS/26.10.19•26.10.20•Interpret abstract artwork — raw.txt",
+      "start_local": "2026-10-19T18:52:53.906000-04:00",
+      "end_local": "2026-10-20T09:10:15.827740-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 503,
       "status": "unchanged",
       "warnings": []
     },
@@ -211,16 +240,6 @@
       ]
     },
     {
-      "old_path": "LIVE CONVOS/Interpret abstract artwork — raw.txt",
-      "new_path": "LIVE CONVOS/26.10.19•26.10.20•Interpret abstract artwork — raw.txt",
-      "start_local": "2026-10-19T18:52:53.906000-04:00",
-      "end_local": "2026-10-20T09:10:15.827740-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 503,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
       "old_path": "LIVE CONVOS/Interpret abstract artwork — raw__chunk_0001_of_0002.txt",
       "new_path": null,
       "start_local": null,
@@ -231,16 +250,6 @@
       "warnings": [
         "Expecting property name enclosed in double quotes: line 32121 column 1 (char 2447172)"
       ]
-    },
-    {
-      "old_path": "LIVE CONVOS/Meridian Free Build — raw.json",
-      "new_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
-      "start_local": "2026-10-05T22:29:14.494314-04:00",
-      "end_local": "2026-10-20T17:24:23.459344-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 989,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "LIVE CONVOS/Meridian Free Build — raw__chunk_0001_of_0005.txt",
@@ -265,16 +274,6 @@
       "warnings": [
         "Expecting ',' delimiter: line 13067 column 188 (char 1187204)"
       ]
-    },
-    {
-      "old_path": "LIVE CONVOS/Predict the Song Style — raw.json",
-      "new_path": "LIVE CONVOS/26.10.15•26.10.20•Predict the Song Style — raw.json",
-      "start_local": "2026-10-15T09:07:22.121000-04:00",
-      "end_local": "2026-10-20T13:19:22.422541-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1090,
-      "status": "renamed",
-      "warnings": []
     }
   ]
 }
