@@ -643,3 +643,56 @@ Multiplicative composition is a test hypothesis, not yet derived.
 The correct H(s)H question is exactly the earlier commutator question: whether coarse-graining a smoothed constituent and then computing the next interaction equals computing the full fine finite-core union and only then coarse-graining.
 
 Thus the two-level `4/9` value is a regression control for a future explicit fine-vs-coarse calculation, not a promoted prediction.
+
+## 17. Exact stability gate on the historical 120-degree phase branch
+
+The May 2026 audit uses
+
+`V_int = k a^2 sum_(i<j) [1 - cos(delta_i-delta_j)]`.
+
+For three phases, the Hessian is
+
+`H_ii = k a^2 sum_(j != i) cos(delta_i-delta_j)`
+
+`H_ij = -k a^2 cos(delta_i-delta_j), i != j`.
+
+### Aligned branch
+
+At `delta = {0,0,0}`:
+
+`H/(k a^2) = [[2,-1,-1],[-1,2,-1],[-1,-1,2]]`
+
+with eigenvalues
+
+`{0,3,3}`.
+
+For k>0 this is a local minimum modulo the global-phase zero mode.
+
+### 120-degree branch
+
+At `delta = {0,2pi/3,4pi/3}`, all pair cosines equal -1/2:
+
+`H/(k a^2) = [[-1,1/2,1/2],[1/2,-1,1/2],[1/2,1/2,-1]]`
+
+with eigenvalues
+
+`{0,-3/2,-3/2}`.
+
+For k>0 this is a local maximum in the two relative-phase directions.
+
+This reproduces the archive audit's correction exactly.
+
+### H(s)H implication
+
+The geometrically useful 120-degree finite-core branch cannot be claimed stable from this positive cosine interaction alone.
+
+If the branch is physically selected, at least one additional ingredient must matter:
+- finite-core nonintersection / excluded volume;
+- bending or torsional elastic energy;
+- another interaction sign/kernel;
+- boundary/closure conditions;
+- or a different equilibrium geometry.
+
+This is a useful role for the H(s)H lift: a finite core can make the coincident/aligned centerline minimum of the line model physically inadmissible.
+
+But nonintersection by itself does not prove the 120-degree branch is the unique allowed/stable state. That must be solved from the full finite-core action.
