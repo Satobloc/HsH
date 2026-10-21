@@ -71,6 +71,18 @@
           "commit": "4dc5f39b49d5f0f216acb51fa8e10ab9d3f6ba74",
           "posted_date": null,
           "website_url": null
+        },
+        {
+          "id": "cruller-rubin-known-physics-addendum-05",
+          "title": "Addendum 05: Known-physics stellar-wink duration distributions",
+          "date": "2026-10-21",
+          "version": "A5",
+          "status": "sandbox_review_pending",
+          "summary": "Existing dust-extinction physics and exact chord geometry predict the conditional stellar-wink duration CDF, mean duration, event-rate/covering-fraction relation and survey-cadence detection bias; explicitly not a Cruller prediction.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_05_KNOWN_PHYSICS_WINK_DURATION_STATISTICS_2026-10-21.md",
+          "commit": "aef09132df6416ccf524fea5220a54e548c46f56",
+          "posted_date": null,
+          "website_url": null
         }
       ]
     },
