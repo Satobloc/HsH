@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-10-21T23:22:19.308134+00:00",
+  "generated_at_utc": "2026-10-21T23:54:12.454649+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 18,
-    "skipped": 7
+    "skipped": 7,
+    "renamed": 1
   },
   "records": [
     {
@@ -262,6 +263,16 @@
       "warnings": [
         "Expecting value: line 32894 column 1 (char 2440397)"
       ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Orson Free Build — raw.json",
+      "new_path": "LIVE CONVOS/26.10.06•26.10.21•Orson Free Build — raw.json",
+      "start_local": "2026-10-06T08:18:05.177783-04:00",
+      "end_local": "2026-10-21T19:27:17.973653-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 954,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "LIVE CONVOS/Orson Free Build — raw__chunk_0001_of_0005.txt",
