@@ -22,7 +22,21 @@
       "review_path": null,
       "acceptance_path": null,
       "website_url": null,
-      "posted_date": null
+      "posted_date": null,
+      "addenda": [
+        {
+          "id": "cruller-rubin-noise-addendum-01",
+          "title": "Addendum 01: Angular–temporal correlations in hypothetical stellar noise",
+          "date": "2026-10-21",
+          "version": "A1",
+          "status": "sandbox_review_pending",
+          "summary": "Frozen-screen covariance, temporal power spectrum, cross-star lag prediction and numerical angular coherence at 1–1000 pc. Conditional test only, not measured Rubin evidence.",
+          "path": "WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/ADDENDA/ADDENDUM_01_CORRELATED_STELLAR_NOISE_2026-10-21.md",
+          "commit": "4ad3febc6ec3b1d18bcccd43f3bca213b5563641",
+          "posted_date": null,
+          "website_url": null
+        }
+      ]
     },
     {
       "id": "boundary-weak-emission-r1",
