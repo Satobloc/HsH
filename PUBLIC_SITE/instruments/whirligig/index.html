@@ -150,19 +150,38 @@ function analemmaFrame(t,a){
  const cg=cross(v,v1),kg=norm(v)**3*dot(v,cross(v1,v2))/norm(cg)**3;
  return{g,t:tangent,h,kg};
 }
-function arcLength(a,N=1536){let s=0,p=analemma(0,a);for(let i=1;i<=N;i++){let q=analemma(TWO*i/N,a);s+=norm(sub(q,p));p=q}return s}
+function analemmaSpeed(t,a){
+ const v=[-1,a*Math.sin(t),a*(Math.sin(2*t)+.27*Math.sin(t))],
+ v1=[0,a*Math.cos(t),a*(2*Math.cos(2*t)+.27*Math.cos(t))];
+ return norm(cross(v,v1))/(norm(v)**2);
+}
+function arcLength(a,N=1536){
+ const dt=TWO/N;let sum=0,prev=analemmaSpeed(0,a);
+ for(let i=1;i<=N;i++){const t=i*dt,mid=analemmaSpeed(t-dt/2,a),next=analemmaSpeed(t,a);
+  sum+=dt*(prev+4*mid+next)/6;prev=next}
+ return sum;
+}
 function buildCam(c){
  const delta=c.major/c.minor-1,upper=arcLength(2);if(delta<=0)throw Error('Need R > b');
  let cycles=2;while(TWO*delta/cycles>=upper){cycles+=2;if(cycles>128)throw Error('Cam resonance infeasible')}
  const target=TWO*delta/cycles,n=1536;let low=1e-6,high=2;
- for(let i=0;i<28;i++){let m=(low+high)/2;if(arcLength(m,n)<target)low=m;else high=m}
- const scale=(low+high)/2,angles=[0],arc=[0];let prev=analemma(0,scale);
- for(let i=1;i<=n;i++){let t=TWO*i/n,p=analemma(t,scale);angles.push(t);arc.push(arc[i-1]+norm(sub(p,prev)));prev=p}
+ for(let i=0;i<40;i++){let m=(low+high)/2;if(arcLength(m,n)<target)low=m;else high=m}
+ const scale=(low+high)/2,angles=[0],arc=[0],dt=TWO/n;
+ let prev=analemmaSpeed(0,scale);
+ for(let i=1;i<=n;i++){let t=i*dt,next=analemmaSpeed(t,scale);
+  angles.push(t);arc.push(arc[i-1]+dt*(prev+4*analemmaSpeed(t-dt/2,scale)+next)/6);prev=next}
  const L=arc[n];
  function at(psi){
-  let s=(delta*psi)%L;if(s<0)s+=L;if(s>L-1e-7)s=0;
+  let s=(delta*psi)%L;if(s<0)s+=L;if(s>L-1e-9)s=0;
   let i=0,j=n;while(j-i>1){let k=(i+j)>>1;if(arc[k]<=s)i=k;else j=k}
-  let t=angles[i]+(angles[j]-angles[i])*(s-arc[i])/(arc[j]-arc[i]);
+  const t0=angles[i],t1=angles[j],v0=analemmaSpeed(t0,scale);
+  let t=t0+(t1-t0)*(s-arc[i])/(arc[j]-arc[i]);
+  // Smooth local Simpson integral inversion avoids piecewise linear
+  // derivative jumps at arc table boundaries.
+  for(let k=0;k<4;k++){
+   const dt=t-t0,integral=dt*(v0+4*analemmaSpeed((t0+t)/2,scale)+analemmaSpeed(t,scale))/6;
+   t=Math.max(t0,Math.min(t1,t-(arc[i]+integral-s)/Math.max(1e-12,analemmaSpeed(t,scale))));
+  }
   return analemmaFrame(t,scale);
  }
  return{at,track:t=>analemma(t,scale),scale,L,cycles,delta};
