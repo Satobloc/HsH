@@ -395,3 +395,56 @@ That is far outside the dilute-overlap regime and beyond the three-body-overlap 
 
 Therefore old S=0.262065 cannot be identified with one minimal triadic finite-readout contact.
 It must represent higher-order/nested geometry, a different observable, or a fitted correction.
+
+## 13. Archive-scale discriminator: epsilon versus ell_f
+
+Historical archive claims distinguish:
+- intrinsic filament/core thickness `epsilon ~= 2e-21 m`;
+- first-order helical/coil radius `ell_f ~= 0.7937 fm`.
+
+Current BEDROCK explicitly cautions that ell_f is historical coil radius, not intrinsic core thickness.
+
+If, solely as a diagnostic control, we identify:
+
+`r = ell_f = 0.7937e-15 m`
+
+and take the active coupling/readout thickness to be no larger than the old intrinsic thickness:
+
+`xi = epsilon = 2e-21 m`,
+
+then
+
+`xi/r = 2.51984377e-6`.
+
+Plugging this into the finite-core minimal-contact laws gives:
+
+`S_2 = 0.99999874008129`
+
+`S_3 = 0.99999748016258`.
+
+So the corresponding first-contact suppressions are:
+
+- pair: `1.25991871e-6` = about 1.26 ppm;
+- triad: `2.51983742e-6` = about 2.52 ppm.
+
+### Consequence
+
+If the old epsilon and ell_f scales are even approximately the relevant physical scales, a single local finite-core shielding contact is orders of magnitude too weak to explain historical `S ~= 0.2621`.
+
+Therefore at least one of the following must hold if substantial braid smoothing is real:
+1. the physical interaction/readout zone xi is much thicker than the intrinsic filament core;
+2. the relevant local bundle radius r is much smaller than the historical coil radius ell_f;
+3. suppression accumulates over many contacts or nested coiling/history integration;
+4. orientation/anisotropy weighting produces much stronger shielding than the isotropic control;
+5. the historical S ~= 0.2621 was fitted and has no independent local-geometric meaning.
+
+This is a discriminator, not a choice among those branches.
+
+### Provenance caution on epsilon
+
+The historical `epsilon ~= 2e-21 m` is itself not secure.
+`Dim.txt` says its derivation begins by assuming a lattice spacing `ell_0 ~= 1e-21 m`, then defining a curvature cap. Thus epsilon cannot currently serve as a parameter-free physical input.
+
+Separately, `MACHINE1.py` exposes `epsilon_ratio` as a free dimensionless model input with default `0.01`, confirming that at least one historical executable treated the ratio epsilon/ell_f as a modeling parameter rather than a derived invariant.
+
+Accordingly, neither the 2e-21 m value nor the code default is promoted. They are useful sensitivity controls only.
