@@ -5,6 +5,27 @@
   "policy": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
   "entries": [
     {
+      "id": "stellar-wink-rate-statistics-r0",
+      "title": "Toward a Survey-Agnostic Census of Temporary Stellar Non-Detection",
+      "short_title": "Stellar Wink Census: rate statistics and observational tests",
+      "kind": "mainstream astrophysics / methods research proposal",
+      "status": "sandbox_originator_draft_r0_review_pending",
+      "site_display": "sandbox_manuscript",
+      "version": "R0",
+      "originator": "Research draft prepared for Nathan McKnight (coauthors TBD)",
+      "date": "2026-10-21",
+      "summary": "A survey-agnostic protocol for quantifying temporary source nondetections, event rates, durations, detection efficiencies, and multi-mechanism diagnostics; with 17-hypothesis evidence matrix.",
+      "caveat": "Methodology draft only. No observed wink rate or evidence for any speculative cosmological mechanism. Requires domain review before scientific submission.",
+      "manuscript_path": "WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/DRAFT_R0.md",
+      "manuscript_ref": "b14feda4ae53fcc3fca650469435560b165c4484",
+      "datasheet_path": "WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/HYPOTHESIS_EVIDENCE_MATRIX_R0.csv",
+      "datasheet_ref": "8989ffa890b6877642819e88fc54598b130e60cb",
+      "review_path": null,
+      "acceptance_path": null,
+      "website_url": null,
+      "posted_date": null
+    },
+    {
       "id": "cruller-rubin-visibility-r0",
       "title": "Projected Toroidal Geometry and Testable Angular Statistics for Transient Stellar Visibility",
       "short_title": "Cruller sky-projection and Rubin visibility test",
