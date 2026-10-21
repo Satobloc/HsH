@@ -1,3 +1,5 @@
+> **CURRENT 2026-10-21 output mapping:** The canonical Whirligig now uses a self-crossing spherical **Analemma** contact track and a higher-aperture, explicitly selected equation-to-sphere mapping `a(lambda)=0.78+0.58*tanh(display_gain*f(lambda))`. This replaces the earlier narrow `0.48+0.20*tanh(...)` mapping described in the historical text below. [Current mechanism and differential-output tests](ANALEMMA_CORRECTION_2026-10-21.md). The UI overlays the prior torus trace and plots actual world-space RMS and maximum displacement. **Labels alone do not guarantee different traces:** identical sampled representatives in the same port under identical settings must produce identical outputs, despite different originating equations. No equivalence claim follows from this.
+
 # Whirligig R/Q | Selectable equation adapters
 
 **Status:** SANDBOXED / OPERATIONAL BROWSER INPUT LIBRARY (not a mathematical equivalence claim)  
