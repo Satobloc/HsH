@@ -64,6 +64,22 @@ Planck-native controlled values chosen *only as a kinematic illustration*, not c
 
 Executed \`meridian_cruller_material_shear_gate_20261022.py\` in this conversation using Python/NumPy/Matplotlib. Assertions verify analytic 4D curvature from ambient tangent/acceleration, identical central worldline in both flows, entire material metric by independent finite differences at 18 combinations of radius/time, determinant conservation. Class P-style figure \`meridian_cruller_material_shear_gate_20261022.png\` depicts 12 initially straight marked radial spokes in the co-rotating frame at \(w=0,50,100\); this image exists as a conversation artifact but is **not uploaded into GitHub**.
 
+## Further exact director gate: zero material shear does not mean parallel 4D worldline tangents
+
+At a common affine slice \(w=0\) and common azimuth \(\phi\), the material tangent to an orbit at radius \(r\), normalized using the native Euclidean 4D metric, makes angle
+\[
+\theta_E(r)=\arctan[r\omega(r)]
+\]
+with the fourth-axis direction. Hence the physical-chart derivative of material tangent tilt across radial neighboring histories is
+\[
+\boxed{\theta'_E(r)=\frac{\omega(r)+r\omega'(r)}{1+r^2\omega(r)^2}.}
+\]
+This is **not** an intrinsic scalar independent of the chosen material time/section and the chosen radial direction; it is an exactly defined comparison observable in the fixed affine-time graph. For the numerical central ring:
+- rigid flow: \(\theta'_E=0.0441176470588\,\ell_P^{-1}\) despite \(D_{\hat r\hat\phi}=0\);
+- differentially rotating flow: \(\theta'_E=0.0882352941176\,\ell_P^{-1}\) with \(D_{\hat r\hat\phi}=0.03\,\ell_P^{-1}\).
+
+These values were computed and checked by finite differences of the actual normalized tangent vectors at neighboring radii. **Three objects differ even in one exact minimal pair:** intrinsic curvature of each material trajectory, tilt-gradient of neighboring material histories, and symmetric shear of the material congruence. The fourth-dimensional embedding contains all three, and none should be substituted for another. Rigid spin has directed circulation and relative tangent tilt even when it is strain-free as a rigid body.
+
 ## Cross-domain closure gate, no imported elasticity
 The recovered Blockwave projected-gradient kernel suggests that a common field could carry information about 4D curvature, shear and vorticity, **but it does not identify them** and its free coefficients are not determined. Before applying a physical force law, decompose the inherited gradient geometry into expansion, antisymmetric circulation, trace-free shear, and curvature/acceleration **on the same explicitly specified native metric/time readout**. A nonzero \(\nabla u\) is not an independent proof of coupling to photons.
 
