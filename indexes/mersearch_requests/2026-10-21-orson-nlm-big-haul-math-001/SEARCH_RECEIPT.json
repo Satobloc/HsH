@@ -1,0 +1,575 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "8f5deb2a369fb59d4b14413ec9b1909253f6361342dfbb13a83f3151c1ddc4c5",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-22T01:31:36.499353+00:00",
+  "query": "math:\"B=3/(4*pi)\" OR math:\"hbar=m0*c*lf*B\" OR math:\"G=rho_embed^2*c^2*lf/m0\" OR math:\"Q=Lwind+Llink+Wwrithe\" OR math:\"y=rRx0\" OR math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\" OR \"Braid Smoothing\" OR \"Star Pattern\" OR \"iterative closure\" OR \"loop system\" OR \"Laplace-Beltrami\" OR \"Polyakov action\" OR \"pair of pants\" OR cobordism",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 13897,
+    "records_scanned": 23825506,
+    "hits": 34983
+  },
+  "counted_hits": 34983,
+  "distinct_sources": 1627,
+  "results_by_root": {
+    "archive": 3468,
+    "hsh-main": 30113,
+    "resources": 1402
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "Braid Smoothing",
+      15969
+    ],
+    [
+      "Laplace-Beltrami",
+      11602
+    ],
+    [
+      "math:\"B=3/(4*pi)\"",
+      3090
+    ],
+    [
+      "cobordism",
+      2728
+    ],
+    [
+      "Polyakov action",
+      425
+    ],
+    [
+      "math:\"Q=Lwind+Llink+Wwrithe\"",
+      380
+    ],
+    [
+      "math:\"y=rRx0\"",
+      221
+    ],
+    [
+      "Star Pattern",
+      122
+    ],
+    [
+      "loop system",
+      54
+    ],
+    [
+      "pair of pants",
+      53
+    ],
+    [
+      "iterative closure",
+      16
+    ],
+    [
+      "math:\"hbar=m0*c*lf*B\"",
+      3
+    ],
+    [
+      "math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\"",
+      1
+    ],
+    [
+      "math:\"G=rho_embed^2*c^2*lf/m0\"",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json",
+      "title": "MERSEARCH_REQUEST",
+      "record_count": 2,
+      "best_score": 351,
+      "first_hit_index": 13946,
+      "sample_hit_index": 13947,
+      "locator": "$.query",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"hbar=m0*c*lf*B\"",
+        "math:\"G=rho_embed^2*c^2*lf/m0\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "math:\"y=rRx0\"",
+        "math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\"",
+        "Braid Smoothing",
+        "Star Pattern",
+        "iterative closure",
+        "loop system",
+        "Laplace-Beltrami",
+        "Polyakov action"
+      ],
+      "excerpt": "math:\"B=3/(4*pi)\" OR math:\"hbar=m0*c*lf*B\" OR math:\"G=rho_embed^2*c^2*lf/m0\" OR math:\"Q=Lwind+Llink+Wwrithe\" OR math:\"y=rRx0\" OR math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\" OR \"Braid Smoothing\" OR \"Star Pattern\" OR \"iterative closure\" OR \"loop system\" OR \"Laplace-Beltrami\" OR \"Polyakov a"
+    },
+    {
+      "root": "archive",
+      "path": "archive/COMPOSITE 1.txt",
+      "title": "COMPOSITE 1",
+      "record_count": 18,
+      "best_score": 87,
+      "first_hit_index": 5348,
+      "sample_hit_index": 5353,
+      "locator": "line:29664",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "Braid Smoothing"
+      ],
+      "excerpt": "…parametrization, SAT Lagrangian construction, and Euler–Lagrange solution; pages 4–6 emphasize the Rydberg constant as a dimensional anchor that forces the lattice/scale/projection constants to stop drifting; pages 7–8 discuss the “Jarlskog Shadow,” braid smoothing, Helium-3, Ho"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/COMPOSITE 1.txt",
+      "title": "COMPOSITE 1",
+      "record_count": 18,
+      "best_score": 87,
+      "first_hit_index": 8336,
+      "sample_hit_index": 8341,
+      "locator": "line:29664",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "Braid Smoothing"
+      ],
+      "excerpt": "…parametrization, SAT Lagrangian construction, and Euler–Lagrange solution; pages 4–6 emphasize the Rydberg constant as a dimensional anchor that forces the lattice/scale/projection constants to stop drifting; pages 7–8 discuss the “Jarlskog Shadow,” braid smoothing, Helium-3, Ho"
+    },
+    {
+      "root": "archive",
+      "path": "archive/JETSTREAMS 2.txt",
+      "title": "JETSTREAMS 2",
+      "record_count": 15,
+      "best_score": 87,
+      "first_hit_index": 6099,
+      "sample_hit_index": 6104,
+      "locator": "line:24790",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "Braid Smoothing"
+      ],
+      "excerpt": "…parametrization, SAT Lagrangian construction, and Euler–Lagrange solution; pages 4–6 emphasize the Rydberg constant as a dimensional anchor that forces the lattice/scale/projection constants to stop drifting; pages 7–8 discuss the “Jarlskog Shadow,” braid smoothing, Helium-3, Ho"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Jetstream Construction Story Retelling — raw (2).json",
+      "title": "Construction Story Retelling",
+      "record_count": 11,
+      "best_score": 87,
+      "first_hit_index": 3030,
+      "sample_hit_index": 3068,
+      "locator": "message:e652c0c1-9d73-4dcf-b4e1-70c202c2ee83",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "Braid Smoothing"
+      ],
+      "excerpt": "…parametrization, SAT Lagrangian construction, and Euler–Lagrange solution; pages 4–6 emphasize the Rydberg constant as a dimensional anchor that forces the lattice/scale/projection constants to stop drifting; pages 7–8 discuss the “Jarlskog Shadow,” braid smoothing, Helium-3, Ho"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.26•26.08.26•Jetstream Construction Story Retelling — raw (2).json",
+      "title": "Construction Story Retelling",
+      "record_count": 11,
+      "best_score": 87,
+      "first_hit_index": 3031,
+      "sample_hit_index": 3069,
+      "locator": "message:e652c0c1-9d73-4dcf-b4e1-70c202c2ee83",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "math:\"Q=Lwind+Llink+Wwrithe\"",
+        "Braid Smoothing"
+      ],
+      "excerpt": "…parametrization, SAT Lagrangian construction, and Euler–Lagrange solution; pages 4–6 emphasize the Rydberg constant as a dimensional anchor that forces the lattice/scale/projection constants to stop drifting; pages 7–8 discuss the “Jarlskog Shadow,” braid smoothing, Helium-3, Ho"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 83,
+      "best_score": 84,
+      "first_hit_index": 1490,
+      "sample_hit_index": 1629,
+      "locator": "message:4ca92b61-8afd-4f9e-889b-fb4cd34c2107",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "… EPR E = energy in some old docs Normalized: 𝔈_k = ER-continuity structure EPR = resolved entanglement expression E_energy = energy, only when needed Do not use E_k for energy. 7. S collision Old ambiguous usage: S_k = recursive state S = action S = braid smoothing factor Normal"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.22•26.06.23•Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 83,
+      "best_score": 84,
+      "first_hit_index": 1492,
+      "sample_hit_index": 1631,
+      "locator": "message:4ca92b61-8afd-4f9e-889b-fb4cd34c2107",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "… EPR E = energy in some old docs Normalized: 𝔈_k = ER-continuity structure EPR = resolved entanglement expression E_energy = energy, only when needed Do not use E_k for energy. 7. S collision Old ambiguous usage: S_k = recursive state S = action S = braid smoothing factor Normal"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/26.06.22•26.06.23•Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 60,
+      "best_score": 84,
+      "first_hit_index": 1491,
+      "sample_hit_index": 1630,
+      "locator": "message:4ca92b61-8afd-4f9e-889b-fb4cd34c2107",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "… EPR E = energy in some old docs Normalized: 𝔈_k = ER-continuity structure EPR = resolved entanglement expression E_energy = energy, only when needed Do not use E_k for energy. 7. S collision Old ambiguous usage: S_k = recursive state S = action S = braid smoothing factor Normal"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1870,
+      "sample_hit_index": 1876,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1871,
+      "sample_hit_index": 1877,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1872,
+      "sample_hit_index": 1878,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1873,
+      "sample_hit_index": 1879,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1874,
+      "sample_hit_index": 1880,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 59,
+      "best_score": 84,
+      "first_hit_index": 1875,
+      "sample_hit_index": 1881,
+      "locator": "message:499316b6-8fd0-433b-a500-067dc8f8b019",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.06•26.07.22•WolframAlpha Integration Guide — raw.json",
+      "title": "WolframAlpha Integration Guide",
+      "record_count": 55,
+      "best_score": 84,
+      "first_hit_index": 2273,
+      "sample_hit_index": 2337,
+      "locator": "message:8abc51b6-4a46-401b-8d10-d371e5ccd374",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "title": "26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy",
+      "record_count": 50,
+      "best_score": 84,
+      "first_hit_index": 9675,
+      "sample_hit_index": 9680,
+      "locator": "line:12421",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…der is 2 (probably) and Q is equal to atomic number times 3\\nproject_sources/07-ORDERS.txt:12:nucleons: Q=3, coiling order = 1, persistent braiding of three intercoiled quark filaments = strong force, may experience mass suppression via first-order ‘braid smoothing’\\nproject_sou"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 26,
+      "best_score": 84,
+      "first_hit_index": 2508,
+      "sample_hit_index": 2597,
+      "locator": "message:91cb61e2-36ce-4785-8677-551bc67ce4c8",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…rder is 2 (probably) and Q is equal to atomic number times 3 project_sources/07-ORDERS.txt:12:nucleons: Q=3, coiling order = 1, persistent braiding of three intercoiled quark filaments = strong force, may experience mass suppression via first-order ‘braid smoothing’ project_sour"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw - .TXT",
+      "title": "SAT_H(s)H Skill Development — raw -",
+      "record_count": 4,
+      "best_score": 84,
+      "first_hit_index": 6789,
+      "sample_hit_index": 6789,
+      "locator": "line:1239",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…r mode of filament-material\\n\\n[C5] Finite resolving sheet\\nΣ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2}\\n\\n[C6] Finite-thickness particle-instantiation\\nP_t^(h) = Σ_t^(h) ∩ N_ε(F)\\n\\n[C7] Resolved particle manifold\\nM_{P,t} = Σ_t^(h) ∩ N_ε(F)\\n\\n[C8] Cobordism boundary relation\\n"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw.json",
+      "title": "SAT/H(s)H Skill Development",
+      "record_count": 2,
+      "best_score": 84,
+      "first_hit_index": 2504,
+      "sample_hit_index": 2504,
+      "locator": "message:0ac90489-132a-4975-aa2c-8296362d81cb",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami",
+        "cobordism"
+      ],
+      "excerpt": "…ned low-transfer mode of filament-material [C5] Finite resolving sheet Σ_t^(h) = {x ∈ 𝔈_exp : |τ(x) - t| ≤ h_Σ/2} [C6] Finite-thickness particle-instantiation P_t^(h) = Σ_t^(h) ∩ N_ε(F) [C7] Resolved particle manifold M_{P,t} = Σ_t^(h) ∩ N_ε(F) [C8] Cobordism boundary relation ∂"
+    },
+    {
+      "root": "archive",
+      "path": "archive/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt",
+      "title": "1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy",
+      "record_count": 19,
+      "best_score": 79,
+      "first_hit_index": 4761,
+      "sample_hit_index": 4763,
+      "locator": "line:39156",
+      "matched_terms": [
+        "Braid Smoothing",
+        "pair of pants",
+        "cobordism"
+      ],
+      "excerpt": "…nce.\\n- **Potentially useful quarry:** SO(4), `S3`, Clifford tori, higher Frenet–Serret/framed curves, variational calculus, ambient isotopy/link invariants, symplectic geometry, numerical invariant-preserving schemes, response kernels, and possibly cobordism/AKSZ/BV after nativ"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 68,
+      "best_score": 75,
+      "first_hit_index": 6221,
+      "sample_hit_index": 6286,
+      "locator": "line:8178",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami"
+      ],
+      "excerpt": "…rom the Misalignment Angle ($\\theta_4$)2.4. $V_{GEOM}$ (Topological Potential)This \"Geometric Potential\" is utilized to recover quantum spectra from the hypersphere geometry14. $$V(\\chi) = \\frac{-k}{R \\sin \\chi}$$1415This potential maps the discrete Laplace-Beltrami ground state"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 63,
+      "best_score": 75,
+      "first_hit_index": 1062,
+      "sample_hit_index": 1160,
+      "locator": "message:19e9fe17-94c6-4065-8097-cfcde0ecf5af",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami"
+      ],
+      "excerpt": "…atio (\\mu) [L62] The ratio is derived from the \"Baryon gear\" vs the \"Lepton gear,\" corrected by the Holonomy Bridge (\\Delta_{bridge} \\approx 8.2 \\times 10^{-5}): \\mu = \\frac{m_p}{m_e} = \\frac{3}{2 B^5} (1 + \\Delta_{bridge}) \\approx 1836.152673 [L63] Braid Smoothing and Anomalies"
+    },
+    {
+      "root": "archive",
+      "path": "archive/xGitHub Archive Review — raw - .txt",
+      "title": "xGitHub Archive Review — raw -",
+      "record_count": 56,
+      "best_score": 75,
+      "first_hit_index": 7538,
+      "sample_hit_index": 7541,
+      "locator": "line:103222",
+      "matched_terms": [
+        "math:\"B=3/(4*pi)\"",
+        "Braid Smoothing",
+        "Laplace-Beltrami"
+      ],
+      "excerpt": "… useful structures:\\n- recursive 4D hyper/superhelical worldline geometry\\n- fourth-order elastic filament dynamics\\n- UI / Universal Indicatrix as transform engine\\n- topology / braid / Q-scaling attempts\\n- covariant action as translation layer\\n- Laplace-Beltrami / holonomy q"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
+      "locator": "message:4e1cb797-eed7-49ac-804b-62e00d9aa058",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json",
+      "locator": "message:4e1cb797-eed7-49ac-804b-62e00d9aa058",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
+      "locator": "message:1c4ebdf6-cc5f-49ad-bc68-5284f901dbdc",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json",
+      "locator": "message:1c4ebdf6-cc5f-49ad-bc68-5284f901dbdc",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
+      "locator": "message:34c8ec94-927d-44f7-8c4a-50e259d32cca",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json",
+      "locator": "message:34c8ec94-927d-44f7-8c4a-50e259d32cca",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.23•25.05.23•SAT Goals and Roles — raw.json",
+      "locator": "message:6f5785a7-0020-4e94-b9ec-c1cf08ab41ce",
+      "matched_terms": [
+        "cobordism"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.23•25.05.23•SAT Goals and Roles — raw.json",
+      "locator": "message:7c03c273-9a31-453b-ab6d-98a1b09527be",
+      "matched_terms": [
+        "cobordism"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}

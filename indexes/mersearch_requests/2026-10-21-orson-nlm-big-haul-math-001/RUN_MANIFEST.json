@@ -1,0 +1,63 @@
+{
+  "request_id": "2026-10-21-orson-nlm-big-haul-math-001",
+  "query": "math:\"B=3/(4*pi)\" OR math:\"hbar=m0*c*lf*B\" OR math:\"G=rho_embed^2*c^2*lf/m0\" OR math:\"Q=Lwind+Llink+Wwrithe\" OR math:\"y=rRx0\" OR math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\" OR \"Braid Smoothing\" OR \"Star Pattern\" OR \"iterative closure\" OR \"loop system\" OR \"Laplace-Beltrami\" OR \"Polyakov action\" OR \"pair of pants\" OR cobordism",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "8394f761d94fb2869266cb5b377a320ab4cfb235",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "0dbd2349abd28cd0941f4a3f898e60b14d8afc5a",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "63a28e8ae5467641220a692cb8476694c9664c7d",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "8394f761d94fb2869266cb5b377a320ab4cfb235",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "0dbd2349abd28cd0941f4a3f898e60b14d8afc5a",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "8f5deb2a369fb59d4b14413ec9b1909253f6361342dfbb13a83f3151c1ddc4c5",
+    "SEARCH_RESULTS.md": "a35f23ee1a64474415d0eeed5853a35dd9a59dc88b367312f04781fde94739c3",
+    "SEARCH_RECEIPT.json": "22cec078a69e8295375c77b49060faadf94e8b5e82a60f33f39470e546e56993",
+    "SEARCH_RECEIPT.md": "ba9b947c4a237b0e4b6da76feedaaacf29e62fb7ed8cf11a4cf6f4cdccae4fe4"
+  }
+}
