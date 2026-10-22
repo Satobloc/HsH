@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-21T23:55:07.464757+00:00`
+- Generated: `2026-10-22T00:29:26.555712+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **19**
+- Dated conversation exports: **20**
 - Skipped non-conversation or unparseable files: **7**
 - Exact duplicate-content groups: **0**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -32,6 +32,7 @@
 | 2026-10-15 | 2026-10-20 | [Predict the Song Style](../LIVE%20CONVOS/26.10.15%E2%80%A226.10.20%E2%80%A2Predict%20the%20Song%20Style%20%E2%80%94%20raw.json) | `.` | 1090 |  |  |
 | 2026-10-18 | 2026-10-20 | [Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt](../LIVE%20CONVOS/26.10.18%E2%80%A226.10.20%E2%80%A2Calculation%20Relay%20_24%20_%20House%20Tools%20%E2%80%94%20raw%20%281%29__chunk_0001_of_0001.txt) | `.` | 55 |  |  |
 | 2026-10-19 | 2026-10-20 | [Interpret abstract artwork](../LIVE%20CONVOS/26.10.19%E2%80%A226.10.20%E2%80%A2Interpret%20abstract%20artwork%20%E2%80%94%20raw.txt) | `.` | 503 |  |  |
+| 2026-10-20 | 2026-10-21 | [Meridian Minkowski Ring Analysis](../LIVE%20CONVOS/26.10.20%E2%80%A226.10.21%E2%80%A2Meridian%20Minkowski%20Ring%20Analysis%20%E2%80%94%20raw.json) | `.` | 1390 |  |  |
 
 ## Skipped files
 
