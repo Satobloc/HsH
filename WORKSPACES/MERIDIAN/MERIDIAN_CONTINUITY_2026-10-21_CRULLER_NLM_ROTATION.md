@@ -39,108 +39,113 @@ The assistant was previously discussing intrinsic ambient Riemann curvature and 
 
 ## 2. Latest exact calculation: rotation makes a curved 4D material history
 
-Take a marked material element at constant spatial radius (R>0), angular rate (omega), with dimensioned native time-length coordinate `w` and fixed affine slicing in Planck units:
+Take a marked material element at constant spatial radius \(R>0\), angular rate \(\omega\), with native time-length coordinate \(w\) and fixed affine slicing in Planck units:
 
-[
-X(w)=(Rcosomega w,; Rsinomega w,; 0,; w).
-]
+\[
+X(w)=\bigl(R\cos(\omega w), R\sin(\omega w), 0, w\bigr).
+\]
 
 Then
-[
-v=Romega,quad
-|mathbf a_3|=Romega^2,quad
-kappa_{4,E}
-=rac{Romega^2}{1+R^2omega^2}
-=rac{v^2}{R(1+v^2)}.
-]
 
-For any smooth (mathbf x(w)), (X(w)=(mathbf x(w),w)) with spatial velocity (mathbf v), acceleration (mathbf a),
-[
-kappa_{4,E}^2
-=rac{(1+|mathbf v|^2)|mathbf a|^2-(mathbf vcdotmathbf a)^2}
-{(1+|mathbf v|^2)^3}.
-]
-Therefore for this physically fixed affine readout (mathbf a
-e0Rightarrowkappa_{4,E}>0). Spatial acceleration can be only *apparent* in accelerated coordinate frames or nonlinear observer resolvers: see Orson's straight 4D carrier/nonlinear (T(X)) counterexample before universalizing to arbitrary readouts.
+\[
+v=R\omega,\qquad
+|\mathbf a_3|=R\omega^2,\qquad
+\kappa_{4,E}
+=\frac{R\omega^2}{1+R^2\omega^2}
+=\frac{v^2}{R(1+v^2)}.
+\]
 
-Illustrative, fully typed numerical fixture (not a cosmological choice): (R=10ell_P,;v=0.6,;omega=0.06ell_P^{-1}), giving (a_3=0.036ell_P^{-1}), (kappa_{4,E}=0.0264705882353ell_P^{-1}). **External GR comparison**, same worldline with Lorentzian proper length: (kappa_{4,M}=gamma^2v^2/R=0.05625ell_P^{-1}). Different curvature norms, not contradictory trajectories.
+For any smooth \(\mathbf x(w)\), \(X(w)=(\mathbf x(w),w)\) with spatial velocity \(\mathbf v\), acceleration \(\mathbf a\),
+
+\[
+\kappa_{4,E}^2
+=\frac{(1+|\mathbf v|^2)|\mathbf a|^2-(\mathbf v\cdot\mathbf a)^2}
+{(1+|\mathbf v|^2)^3}.
+\]
+
+Therefore for this physically fixed affine readout \(\mathbf a\ne0\Rightarrow\kappa_{4,E}>0\). Spatial acceleration can be only *apparent* in accelerated coordinate frames or nonlinear observer resolvers: see Orson's straight 4D carrier/nonlinear \(T(X)\) counterexample before universalizing to arbitrary readouts.
+
+Illustrative, fully typed numerical fixture (not a cosmological choice): \(R=10\ell_P,\;v=0.6,\;\omega=0.06\ell_P^{-1}\), giving \(a_3=0.036\ell_P^{-1}\), \(\kappa_{4,E}=0.0264705882353\ell_P^{-1}\). **External GR comparison**, same worldline with Lorentzian proper length: \(\kappa_{4,M}=\gamma^2v^2/R=0.05625\ell_P^{-1}\). Different curvature norms, not contradictory trajectories.
 
 Committed and verified:
-- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_ROTATION_AS_WORLDTUBE_CURVATURE_CORRECTION.md`, commit `d3df22f9cdb97dc4a4b598fac297031eb5acc741`.
-- `WORKSPACES/MERIDIAN/meridian_rotation_worldtube_curvature_gate_20261021.py`, commit `f97e0951011d64848ac5f93dd753dbd3aaff6102`.
-- The earlier NLM intake erratum update, commit `a140c8fe8b04af745de113a250251ee6c4691686`.
+- \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_ROTATION_AS_WORLDTUBE_CURVATURE_CORRECTION.md\`, commit \`d3df22f9cdb97dc4a4b598fac297031eb5acc741\`.
+- \`WORKSPACES/MERIDIAN/meridian_rotation_worldtube_curvature_gate_20261021.py\`, commit \`f97e0951011d64848ac5f93dd753dbd3aaff6102\`.
+- The earlier NLM intake erratum update, commit \`a140c8fe8b04af745de113a250251ee6c4691686\`.
 
-**Figure provenance:** code-rendered `meridian_rotation_worldtube_4d_curvature.png` was generated in conversation/local working runtime and displayed; the figure itself was not committed to GitHub. The script was committed.
+**Figure provenance:** code-rendered \`meridian_rotation_worldtube_4d_curvature.png\` was generated in conversation/local working runtime and displayed; the figure itself was not committed to GitHub. The script was committed.
 
 **Crucial observation:** the *unlabelled swept envelope* of a rigidly spinning body may stay unchanged while individual *marked material histories* acquire helicity. Do not infer rotation from the outer envelope alone. Inertial shear is not identical to spatial-volume expansion, and neither is the ambient Riemann tensor.
 
 ## 3. Complete Cruller topology and old Meridian calculations (conditional, not promoted)
 
 **Global Cruller-first candidate**:
-- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-20_CRULLER_FIRST_GLOBAL_TOPOLOGY.md`.
-- In (mathbb R^4simeqmathbb C^2), (mathbb R^4setminus0simeq S^3	imesmathbb R), possible return quotient ((S^3	imes[0,L])/((n,L)sim(Qn,0))). For (Qin SO(4)), orientable topology diffeomorphic to (S^3	imes S^1). Mere differential rotations do NOT establish a nonorientable Klein topology; an orientation-changing identification requires independent global data.
-- Normal Euclidean (delta) fails to descend under nontrivial radial dilation identification (xmapsto e^LQx). Conformally rescaled cylinder is a **declared alternate comparison**, not approved dynamics. Making return direction a compact physical time in a simple static Lorentzian cylinder produces CTCs: strong causal gate.
-- Hopf coordinate (S^3) contains two complementary solid tori and a Clifford torus boundary (not two distinct cosmic shells). For (z_1=Rcoschi e^{ialpha}), (z_2=Rsinchi e^{ieta}), a ((2,3)) curve (alpha=2u,eta=3u) is a topological fixture, not a physical carrier assumption.
-- A **global rigid** SO(4) rotation preserves the round spatial (S^3) metric, but **marked points follow nonstraight rotating 4D histories**. Differential (V=p(chi)partial_alpha+q(chi)partial_eta) yields finite material shear (E_{chialpha}=(R^2/2)cos^2chi,p'(chi)), (E_{chieta}=(R^2/2)sin^2chi,q'(chi)), volume divergence zero. Material shear, extrinsic bending and intrinsic curvature must not be conflated.
+- \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-20_CRULLER_FIRST_GLOBAL_TOPOLOGY.md\`.
+- In \(\mathbb R^4\simeq\mathbb C^2\), \(\mathbb R^4\setminus\{0\}\simeq S^3\times\mathbb R\), possible return quotient \((S^3\times[0,L])/((n,L)\sim(Qn,0))\). For \(Q\in SO(4)\), orientable topology diffeomorphic to \(S^3\times S^1\). Mere differential rotations do NOT establish a nonorientable Klein topology; an orientation-changing identification requires independent global data.
+- Normal Euclidean \(\delta\) fails to descend under nontrivial radial dilation identification \(x\mapsto e^LQx\). Conformally rescaled cylinder is a **declared alternate comparison**, not approved dynamics. Making return direction a compact physical time in a simple static Lorentzian cylinder produces CTCs: strong causal gate.
+- Hopf coordinate \(S^3\) contains two complementary solid tori and a Clifford torus boundary (not two distinct cosmic shells). For \(z_1=R\cos\chi e^{i\alpha}\), \(z_2=R\sin\chi e^{i\beta}\), a \((2,3)\) curve \(\alpha=2u,\beta=3u\) is a topological fixture, not a physical carrier assumption.
+- A **global rigid** SO(4) rotation preserves the round spatial \(S^3\) metric, but **marked points follow nonstraight rotating 4D histories**. Differential \(V=p(\chi)\partial_\alpha+q(\chi)\partial_\beta\) yields finite material shear \(E_{\chi\alpha}=(R^2/2)\cos^2\chi\,p'(\chi)\), \(E_{\chi\beta}=(R^2/2)\sin^2\chi\,q'(\chi)\), volume divergence zero. Material shear, extrinsic bending and intrinsic curvature must not be conflated.
 
 **Inner longitude / stretching**:
-- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_CRULLER_BIG_BANG_INNER_LONGITUDE_FINITE_CORE_STRETCH.md`.
-- Ordinary torus section (X(u,v)=((R+rcos v)cos u,(R+rcos v)sin u,rsin v)), inner longitudinal circle at (v=pi) has (L_{m inner}=2pi(R-r)), outer (L_{m outer}=2pi(R+r)). Geometric stretch (Lambda_{m geo}=(R+r)/(R-r)). These are exact for this illustrative 3D torus, **not** an established 4D cosmology nor a metric/lensing result.
+- \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_CRULLER_BIG_BANG_INNER_LONGITUDE_FINITE_CORE_STRETCH.md\`.
+- Ordinary torus section \(X(u,v)=((R+r\cos v)\cos u,(R+r\cos v)\sin u,r\sin v)\), inner longitudinal circle at \(v=\pi\) has \(L_{\rm inner}=2\pi(R-r)\), outer \(L_{\rm outer}=2\pi(R+r)\). Geometric stretch \(\Lambda_{\rm geo}=(R+r)/(R-r)\). These are exact for this illustrative 3D torus, **not** an established 4D cosmology nor a metric/lensing result.
 - An independently justified finite-core longitudinal closure length or maximum stretch would constrain inner radius; neither is recovered as a physical number.
 
 **Second-order winding**:
-- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_CRULLER_SECOND_ORDER_VARIATION.md` and `...CRULLER_RELATIVE_REVERSE_WINDING.md`.
-- Parametrized (S^3) parent (C(u)=(cos2u,sin2u,cos3u,sin3u)/sqrt2) with explicitly defined normal ((N_1,N_2)). For chosen (V_m=cos(mu)N_1+sin(mu)N_2), positive arclength tension and bending cost yield **positive** unconstrained second variations for tested (m=1,dots,14). Not an all-mode stability theorem; fixed-material-length/twist/holonomy constraints could change the result.
-- Crucial: bare **negative** (m) of daughter in a rotating normal frame is not necessarily physical reverse chirality. Frame connection (mathcal A=N_1'cdot N_2=12/sqrt{26}) shifts relative phase rate; detect real twist/holonomy invariantly and quotient rigid SO(4) and tangential reparameterization zero modes.
-- Native finite-core reach, excluded-volume constraints, stored strain and historical maximum bend-energy derivation are open; do not use arbitrary tension (T) or bending modulus (B_{m bend}) as discovered SAT constants.
+- \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_CRULLER_SECOND_ORDER_VARIATION.md\` and \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_CRULLER_RELATIVE_REVERSE_WINDING.md\`.
+- Parametrized \(S^3\) parent \(C(u)=(\cos2u,\sin2u,\cos3u,\sin3u)/\sqrt2\) with explicitly defined normal \((N_1,N_2)\). For chosen \(V_m=\cos(mu)N_1+\sin(mu)N_2\), positive arclength tension and bending cost yield **positive** unconstrained second variations for tested \(m=1,\dots,14\). Not an all-mode stability theorem; fixed-material-length/twist/holonomy constraints could change the result.
+- Crucial: bare **negative** \(m\) of daughter in a rotating normal frame is not necessarily physical reverse chirality. Frame connection \(\mathcal A=N_1'\cdot N_2=12/\sqrt{26}\) shifts relative phase rate; detect real twist/holonomy invariantly and quotient rigid SO(4) and tangential reparameterization zero modes.
+- Native finite-core reach, excluded-volume constraints, stored strain and historical maximum bend-energy derivation are open; do not use arbitrary tension \(T\) or bending modulus \(B_{\rm bend}\) as discovered SAT constants.
 
 **Bending ancestry**:
-- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_NLM_BENDING_ENERGY_RECOVERY.md`. Recover exact original arithmetic and units of recalled *maximum* bending energy from `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/GRQM.txt`, `Interconn.txt`, `SAT-GIGAPACK.txt`, etc. Avoid confusing energy, energy density, stiffness and pointwise curvature cap. Original 4th-order two-plane Lagrangian derivations do **not** presently establish a stable unequal-frequency superhelix.
+- \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_NLM_BENDING_ENERGY_RECOVERY.md\`. Recover exact original arithmetic and units of recalled *maximum* bending energy from \`DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/GRQM.txt\`, \`Interconn.txt\`, \`SAT-GIGAPACK.txt\`, etc. Avoid confusing energy, energy density, stiffness and pointwise curvature cap. Original 4th-order two-plane Lagrangian derivations do **not** presently establish a stable unequal-frequency superhelix.
 
 ## 4. New NLM big haul, October 21
 
-Commit `64134ea8d3a2` uploaded 48 NotebookLM JSON exports under `DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/`. **Read actual source; don't rely on notebook synopsis.**
+Commit \`64134ea8d3a2\` uploaded 48 NotebookLM JSON exports under \`DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL/\`. **Read actual source; don't rely on notebook synopsis.**
 
-Critical exporter defect: `role: "user"` appears even on plainly generated NotebookLM answer messages (confirmed 106/106 in Universal Indicatrix, 172/172 in H(s)H big notebook, 16/16 in OUROBOROS, 22/22 in worldline-action export). These role tags **cannot identify Nathan Direct text**. Separate genuine user utterances, generated responses, historical primary sources, repeated messages/duplicates.
+Critical exporter defect: \`role: "user"\` appears even on plainly generated NotebookLM answer messages (confirmed 106/106 in Universal Indicatrix, 172/172 in H(s)H big notebook, 16/16 in OUROBOROS, 22/22 in worldline-action export). These role tags **cannot identify Nathan Direct text**. Separate genuine user utterances, generated responses, historical primary sources, repeated messages/duplicates.
 
 Main intake:
-`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_NEW_NLM_HAUL_INTAKE_AND_CRULLER_GEOMETRY_GATES.md` (the *corrected* version; latest commit `a140c8f`).
+\`WORKSPACES/MERIDIAN/SANDBOX_2026-10-21_NEW_NLM_HAUL_INTAKE_AND_CRULLER_GEOMETRY_GATES.md\` (the *corrected* version; latest commit \`a140c8f\`).
 Team:
-`WORKSPACES/COMMON/NLM_BIG_HAUL_INITIAL_MATH_TRIAGE_2026-10-21.md`;
-`WORKSPACES/COMMON/NLM_BIG_HAUL_MATH_EXCAVATION_PASS2_2026-10-21.md`;
-`WORKSPACES/COMMON/DERIVATION_LOOP_STAR_MAP_CURRENT_PROCESS_2026-10-21.md`.
+\`WORKSPACES/COMMON/NLM_BIG_HAUL_INITIAL_MATH_TRIAGE_2026-10-21.md\`;
+\`WORKSPACES/COMMON/NLM_BIG_HAUL_MATH_EXCAVATION_PASS2_2026-10-21.md\`;
+\`WORKSPACES/COMMON/DERIVATION_LOOP_STAR_MAP_CURRENT_PROCESS_2026-10-21.md\`.
 
-Strong source families: `[🗄️] The Universal Indicatrix and 4D Superhelical Lagrangian__NotebookLM_export.json`; `[🗄️] H(s)H Big Upload__NotebookLM_export.json`; `[🗄️] Parametric Grids and Four-Dimensional Geometry Models__NotebookLM_export.json`; `[🗄️] SAT and String Theory__NotebookLM_export.json`; `[🗄️] WORLDLINES__NotebookLM_export.json`; `[🗄️] S4(5). THE SIMPLEST SAT__NotebookLM_export.json`; `[🗄️] [[[ H (( s )) H ]]]__NotebookLM_export.json`; `[🗄️] SAT Framework_ Geometric Unification of Worldline Action__NotebookLM_export.json`.
+Strong source families: \`[🗄️] The Universal Indicatrix and 4D Superhelical Lagrangian__NotebookLM_export.json\`; \`[🗄️] H(s)H Big Upload__NotebookLM_export.json\`; \`[🗄️] Parametric Grids and Four-Dimensional Geometry Models__NotebookLM_export.json\`; \`[🗄️] SAT and String Theory__NotebookLM_export.json\`; \`[🗄️] WORLDLINES__NotebookLM_export.json\`; \`[🗄️] S4(5). THE SIMPLEST SAT__NotebookLM_export.json\`; \`[🗄️] [[[ H (( s )) H ]]]__NotebookLM_export.json\`; \`[🗄️] SAT Framework_ Geometric Unification of Worldline Action__NotebookLM_export.json\`.
 
 **Math gates, typed correctly**:
-- Pure-gauge SO(4) left connection (mathcal A=R^{-1}dR) satisfies Maurer–Cartan (dmathcal A+mathcal Awedgemathcal A=0) on smooth patches. This does **not** say marked material curve curvature vanishes. Nor does it settle distinct induced Householder-metric Riemann curvature.
-- Positive ensemble outer-product (C^{AB}=langle v^Av^Bangle) stays positive semidefinite; an invertible such co-metric cannot become Lorentzian merely through matrix inversion. Additional signed causal structure required.
-- Existing Meridian 5 October `WORKSPACES/MERIDIAN/SANDBOX_2026-10-05_HOUSEHOLDER_FLOW_CURVATURE.md` already derived (mathcal R=-4k^2cos(2kx)) for the **explicitly optional** Householder effective-metric fixture (u=(cos kx,sin kx,0,0)). **Do not announce as new**. An alternative nonconstant (u) can induce flat geometry (Alberr exact flat-director and fixed 2D radial-flow fixtures). The Householder map is a comparison bridge, not an automatic GR solution or the physical Cruller metric.
+- Pure-gauge SO(4) left connection \(\mathcal A=R^{-1}dR\) satisfies Maurer–Cartan \(d\mathcal A+\mathcal A\wedge\mathcal A=0\) on smooth patches. This does **not** say marked material curve curvature vanishes. Nor does it settle distinct induced Householder-metric Riemann curvature.
+- Positive ensemble outer-product \(C^{AB}=\langle v^Av^B\rangle\) stays positive semidefinite; an invertible such co-metric cannot become Lorentzian merely through matrix inversion. Additional signed causal structure required.
+- Existing Meridian 5 October \`WORKSPACES/MERIDIAN/SANDBOX_2026-10-05_HOUSEHOLDER_FLOW_CURVATURE.md\` already derived \(\mathcal R=-4k^2\cos(2kx)\) for the **explicitly optional** Householder effective-metric fixture \(u=(\cos kx,\sin kx,0,0)\). **Do not announce as new**. An alternative nonconstant \(u\) can induce flat geometry (Alberr exact flat-director and fixed 2D radial-flow fixtures). The Householder map is a comparison bridge, not an automatic GR solution or the physical Cruller metric.
 - Differentiable rotating directions, worldtube extrinsic bending, internal material strain, and a fully determined spacetime optical metric are separate deliverables.
 
 ### Shared Mersearch status and asynchronous work
 
-The live shared request `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` is **owned by Orson Vay**, request `2026-10-21-orson-nlm-big-haul-math-001`, targeting SAT/HsH/HSH_RESOURCES archives. Workflow `39692587169` was queried on October 21 and remained `in_progress`, `conclusion=null`. **No completed new search results claimed.** Do not overwrite request or trigger duplicate; later instance must check receipt, `indexes/mersearch_requests/`, workflow and derived verified files, then source-follow exact hits. An older separate result does not verify this request.
+The live shared request \`WORKSPACES/COMMON/MERSEARCH_REQUEST.json\` is **owned by Orson Vay**, request \`2026-10-21-orson-nlm-big-haul-math-001\`, targeting SAT/HsH/HSH_RESOURCES archives. Workflow \`39692587169\` was queried on October 21 and remained \`in_progress\`, \`conclusion=null\`. **No completed new search results claimed.** Do not overwrite request or trigger duplicate; later instance must check receipt, \`indexes/mersearch_requests/\`, workflow and derived verified files, then source-follow exact hits. An older separate result does not verify this request.
 
-Recent Orson handoff `WORKSPACES/COMMON/HANDOFF_2026-10-21_ORSON_NLM_BIG_HAUL_BRAID_SMOOTHING.md` and `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-21_FINITE_CORE_BRAID_SMOOTHING.md` derive morphology instead of historic scalar smoothing. First readout support example: two and three finite-core spheres/surfaces, contact graph, triple-overlap onset (epsilon_*=2/sqrt3-1approx0.15470). Historial (Ssim0.2621) not recovered as physical predictor, (S=B^{1-delta}) has un-derived (delta); the aligned and 120-degree phase branches have **opposite** stability for a positive cosine coupling. Orson's separate `OV_CONTINUITY` is canonical for their latest lane, not Meridian's.
+Recent Orson handoff \`WORKSPACES/COMMON/HANDOFF_2026-10-21_ORSON_NLM_BIG_HAUL_BRAID_SMOOTHING.md\` and \`WORKSPACES/ORSON_VAY/SANDBOX_2026-10-21_FINITE_CORE_BRAID_SMOOTHING.md\` derive morphology instead of historic scalar smoothing. First readout support example: two and three finite-core spheres/surfaces, contact graph, triple-overlap onset \(\epsilon_*=2/\sqrt3-1\approx0.15470\). Historical \(S\sim0.2621\) not recovered as physical predictor; \(S=B^{1-\delta}\) has un-derived \(\delta\); the aligned and 120-degree phase branches have **opposite** stability for a positive cosine coupling. Orson's separate \`OV_CONTINUITY\` is authoritative for their latest lane, not Meridian's.
 
 ## 5. Stellar-wink branch: independent mainstream comparator, not SAT proof
 
 A separate exploratory discussion generated established-physics source/population tests: gravitational caustic lensing changes detectable image multiplicity, dust/extinction/occultation, transient stellar variation and instrument/catalog/cadence artifacts. Even completely ordinary matter and curvature permit lensing *and demagnification relative to reference*; nothing in that statement predicts frequent rapid occultation of bright isolated stars.
 
 Global flux threshold, not disappearance of one image pair:
-[
-F_{m obs,lambda}(t)=sum_j|mu_j|,F_{star,lambda}(t-Delta t_j),T_{j,lambda}(t)
-]
-with observational throughput and noise modeled; wink detection when below flux limit with known uncertainty. Simple uniform spherical extinction-cloud **declared toy model** gives (T_{max}=2R_{m wink}/v), conditional event distribution (p(T)=T/[T_{max}^2sqrt{1-(T/T_{max})^2}]), CDF (1-sqrt{1-(T/T_{max})^2}); geometry/cadence can be modeled. This is not a derived cosmic distribution without real physical cloud populations. Correlated advected and rotating screens can be distinguished only with stringent controls; odd-in-lag covariance alone occurs under pure translation and does NOT uniquely imply chirality.
+
+\[
+F_{\mathrm{obs},\lambda}(t)=\sum_j|\mu_j|\,
+F_{\star,\lambda}(t-\Delta t_j)\,T_{j,\lambda}(t).
+\]
+
+Observational throughput and noise must also be modeled; wink detection means flux below threshold with known uncertainty. Simple uniform spherical extinction-cloud **declared toy model** gives \(T_{\max}=2R_{\rm wink}/v\), conditional event distribution \(p(T)=T/[T_{\max}^2\sqrt{1-(T/T_{\max})^2}]\), CDF \(1-\sqrt{1-(T/T_{\max})^2}\); geometry/cadence can be modeled. This is not a derived cosmic distribution without real physical cloud populations. Correlated advected and rotating screens can be distinguished only with stringent controls; odd-in-lag covariance alone occurs under pure translation and does NOT uniquely imply chirality.
 
 Mainstream independent manuscript:
-`WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/DRAFT_R0.md`;
-17-family matrix `.../HYPOTHESIS_EVIDENCE_MATRIX_R0.csv`;
-single-file LuaLaTeX REVTeX `.../REVTeX_SINGLEFILE_R0.tex` (verified, status research draft).
+\`WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/DRAFT_R0.md\`;
+17-family matrix \`.../HYPOTHESIS_EVIDENCE_MATRIX_R0.csv\`;
+single-file LuaLaTeX REVTeX \`.../REVTeX_SINGLEFILE_R0.tex\` (verified, status research draft).
 SAT/H(s)H is only an **unprivileged exploratory row** in this observational evidence matrix.
 Separate Cruller preprint:
-`WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md`; addenda 01–06 in sibling `ADDENDA/`. All six indexed in `PUBLIC_SITE/PAPERS_FEED.json` at last check, live website rendering unverified. Addendum 06 audits unsupported 0.246 rad optical phase snap and 80% blackout assertions. Never turn a historical pulsar conjecture into a mandatory stellar-flux prediction.
+\`WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md\`; addenda 01–06 in sibling \`ADDENDA/\`. All six indexed in \`PUBLIC_SITE/PAPERS_FEED.json\` at last check, live website rendering unverified. Addendum 06 audits unsupported 0.246 rad optical phase snap and 80% blackout assertions. Never turn a historical pulsar conjecture into a mandatory stellar-flux prediction.
 
 **Experimental theme:** a survey-agnostic rate, duration and selection-function census is useful under *all* hypotheses. The Cruller contribution must be a geometry-derived additional distribution with pre-registered, held-out tests; not parameter fishing.
 
