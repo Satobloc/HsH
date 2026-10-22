@@ -55,6 +55,12 @@ These are geometric properties, not fitted constants. Multiplying I_turn by a gu
 
 Note that a monotonic time coordinate means the entire physical 4D history does NOT make a closed spacetime loop; compare **material orientation across successive return sections**, not same spacetime event.
 
+### Negative control: native helix Frenet twist does not automatically equal the comma
+Define the frame-twist deficit of one geometrical spatial revolution as
+ delta_tau(v)=2*pi*[1 - 1/sqrt(1+v^2)].
+At the historical v=B0=3/(4*pi), direct computation gives delta_tau(B0)=0.171742122048132 rad, **not** 0.24567 rad or 0.246 rad.
+Solving delta_tau(v)=phi_P gives v=0.200691958054912; solving delta_tau(v)=2*phi_P gives v=0.288162863156175. These are mathematical solutions of a chosen kinematic relationship, NOT predictions or permission to fit v. This rules out the naïve identification of the historical B0 with the helix's one-turn torsion deficit.
+
 ## E. Failure gates / next calculations
 1. Does SAT/H(s)H actually select 3:2 and 2:1 frequency ratios (or another fixed primitive resonance) without importing them from music?
 2. Does native worldtube/Cruller geometry demand **opposite isoclinic** plane rotations instead of same-sign or independent winding?
