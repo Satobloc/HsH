@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-10-22T00:28:29.672762+00:00",
+  "generated_at_utc": "2026-10-22T05:04:00.694655+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 19,
-    "skipped": 7,
-    "renamed": 1
+    "unchanged": 20,
+    "skipped": 7
   },
   "records": [
     {
@@ -203,6 +202,16 @@
       "warnings": []
     },
     {
+      "old_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "new_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "start_local": "2026-10-20T18:22:53.355000-04:00",
+      "end_local": "2026-10-21T19:58:09.107091-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1390,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "LIVE CONVOS/Calculation Relay _00 _ House Tools — raw__chunk_0001_of_0002.txt",
       "new_path": null,
       "start_local": null,
@@ -273,16 +282,6 @@
       "warnings": [
         "Expecting value: line 32894 column 1 (char 2440397)"
       ]
-    },
-    {
-      "old_path": "LIVE CONVOS/Meridian Minkowski Ring Analysis — raw.json",
-      "new_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
-      "start_local": "2026-10-20T18:22:53.355000-04:00",
-      "end_local": "2026-10-21T19:58:09.107091-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1390,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "LIVE CONVOS/Orson Free Build — raw__chunk_0001_of_0005.txt",
