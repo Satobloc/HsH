@@ -20,6 +20,9 @@
 
 ### ND-2026-10-22-02 — Existing SAT mechanics are constraints, not disposable optional inventions
 
+> **OPERATIVE RULE, NATHAN DIRECT CORRECTION (2026-10-22): THERE ARE NO MECHANISMS 'WE MIGHT INTRODUCE SOMEDAY.' INTRODUCE NOTHING NEW UNLESS THE EXISTING COUPLED CONSTRUCTION AND ESTABLISHED PHYSICS FORCE IT. WHAT HAS ALREADY BEEN INTRODUCED IS CONSTRAINING NOW. THIS INCLUDES THE KELVIN-VORTEX OR JUSTIFIED EQUIVALENT RESPONSE, LITERAL ROTATIONAL-SPIN HYPOTHESIS, PRECESSION/SHELF-COCKING IDENTIFICATION, AND THE CURRENT TENTATIVE TIME/MEDIUM/EXCITATION ALTERNATIVES. CARRY THEIR CONSEQUENCES THROUGH THE STAR MAP EVEN WHEN THEY CAUSE FAILURE. TENTATIVE MEANS FALSIFIABLE AND REVISABLE, NOT OPTIONAL OR IGNORABLE.**
+
+
 **Authority:** Nathan Direct correction, 2026-10-22. This section qualifies the opening prohibition against introducing additional machinery. **Existing SAT/H(s)H candidate mechanics are part of the operative, fail-rigid constraint network unless and until contradicted or superseded by calculation; their status remains tentative as physical explanations, not optional decorations to be discarded at each turn.** Their mathematical consequences must be propagated and tested, not silently ignored. This does **not** mean a hypothesis is empirically proven or immune to revision.
 
 **Chronology and hierarchy of the three residuals.**
