@@ -1,0 +1,19 @@
+# Kestrel relay 1477 | Planck gravity closure and spin-circulation gate
+
+Status: SANDBOX / source-grounded historical audit. No BEDROCK promotion, no independent empirical prediction. Date: 2026-10-23.
+
+## Historical gravity formula and exact dimensional obstruction
+HsH Interconn, `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Interconn.txt` (blob `02312fbb23167e8ce1c996451199ee0e498437b1`) prints `G/c^4 = 8*pi*ell_f^2*rho_embed`, with `ell_f=0.793732 fm` and dimensionless `rho_embed~1e-19`. LHS has dimensions M^-1 L^-1 T^2; RHS L^2. Therefore the printed equation cannot predict G in SI. The SAT archive `SAT-TO-STANDARD 2.txt` (blob `f32cca74bbb174bb95319d92d354abb6f368e373`) already labels the relationship a G-scale fracture; this is not an original validated gravitational derivation.
+
+One minimal dimensionally valid *comparator*, NOT a uniquely authorized SAT repair, is `G/c^4 = 8*pi*ell_f^2*rho/(hbar*c)`. In native Planck units it requires `1=8*pi*(ell_f/ell_P)^2*rho`. With 2022 CODATA G=6.67430(15)e-11 m^3 kg^-1 s^-2 and exact SI c,h: `ell_f/ell_P=4.910932915942609e19`; `rho_required=1.649803182464424e-41`, while the archived `rho=1e-19` makes the closure RHS `6.061329076273396e21`. Thus the dimensionally completed historical pair fails by 21.78 orders in the closure ratio. No source-supported replacement for rho has been recovered; fitting it to G would not be a prediction.
+
+## Existing spin/Kelvin/EM comparator
+Historical SAT.O `LEAN CHECK_drafts/SATO-BLOCKWAVE_leancheck.txt` (blob `b128efd3004fe34e48dc7da2c39bdd14f9926ddc`) specifies `v=grad chi+(lambda/rho)*grad(rho*Phi)` but contains unproved `sorry`. For smooth axisymmetric rho and single-valued chi,Phi, its circular circulation is zero (Meridian STAR005 previously established this). Standard co-moving rotating mass+charge ring instead has `Gamma=2*pi*R^2*omega`, `J=m*R^2*omega`, `mu=Q*R^2*omega/2`, hence `mu=Q*J/(2*m)` and `|g|=1`, independent of R. At electron `J=hbar/2`, CODATA 2022 `|g_e|=2.00231930436092(36)`, signed residual `-1.00231930436092`; this rules out the *single co-moving classical ring* comparator, not Kerr-Newman g~2 or the full SAT/H(s)H finite-core system. Charge and inertia may be carried differently; that distribution must be source-recovered, not fitted.
+
+Native Planck-unit bridge for a uniform material ring: `J/hbar=(m/m_P)*(Gamma/(ell_P*c))/(2*pi)`. CODATA electron mass and moment give conditional radius bounds `R_spin>=1.930796337176188e-13 m` and `R_magnetic>=3.866070778703742e-13 m` under subluminal single-sign co-moving charge assumptions. Neither is an electron-size measurement.
+
+## Time/geometry gate
+The historical expanding UI with r proportional to t and conserved two-plane angular momenta gives `omega_i~t^-2` and common phase `theta=q*(1-t0/t)`. The first 2:3 angular orientation return requires q>2*pi; q=1 never returns even though the instantaneous frequency ratio stays 2:3. The full expanding 4D trajectory cannot close while its radius increases monotonically. These are conditional standard-kinematics controls, not a derived finite-core law.
+
+## Provenance and reproducibility
+Full source and captured stdout are retained in the companion manual archival packet. Executed Python+SymPy assertions passed for dimensions, circular integrals, J/Gamma identity, and finite phase limit. Exact CODATA benchmark: 2022 recommended values, NIST Web Version 9.0 (May 2024); no uncertainty assigned to historical ell_f or rho. Reading: live BEDROCK blob `83caab6cb3b2dc89ae4ba81cf3ff4873494ca8e8`, STATE_OF_THE_THEORY blob `b5958a1056c2541f00ab4f3477d8acc32426cfe9`; bounded random SAT `HsH AHA TOPOLOGY.txt` blob `5283ceb8d06109061543711ebe7c46954efe7ede` and HsH `GRQM.txt` blob `33785afb8d46804122d79056b952169f99b325e2`. Both selected files retrieved, not line-by-line read in full. No Lean proof, no Contents update.
