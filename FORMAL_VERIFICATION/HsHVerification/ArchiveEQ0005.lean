@@ -18,10 +18,12 @@ theorem wave_local_energy_balance
     (hCompatibility : slope_t = velocity_s) :
     mu * velocity * velocity_t + tension * slope * slope_t =
       tension * (velocity * slope_s + slope * velocity_s) := by
-  rw [mul_assoc mu velocity velocity_t]
-  rw [mul_comm mu velocity, ← mul_assoc velocity mu velocity_t]
-  rw [hMomentum, hCompatibility]
-  ring
+  calc
+    mu * velocity * velocity_t + tension * slope * slope_t =
+        velocity * (mu * velocity_t) + tension * slope * slope_t := by ring
+    _ = velocity * (tension * slope_s) + tension * slope * velocity_s := by
+          rw [hMomentum, hCompatibility]
+    _ = tension * (velocity * slope_s + slope * velocity_s) := by ring
 
 theorem periodic_mode_dispersion
     (mu tension omega k : ℝ)
