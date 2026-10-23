@@ -200,3 +200,130 @@ Typical stack:
 **BEDROCK → Mersearch → primary source → symbol/type audit → Minkowski/control geometry → exact calculation → minimal pair / holdout → Class-P visual → Factory Floor gate → independent comparison → durable checkpoint.**
 
 That is the current toolchain spine.
+
+
+## 14. Dedicated toolbox / toolkit ecosystem
+
+This layer deserves separate treatment from generic "mathematical tools." The project already has an explicit ingestion system and historical containers.
+
+### A. Historical `H(s)H TOOLKIT.txt`
+
+Path: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H TOOLKIT.txt`.
+
+It names seven functional families:
+
+1. **Foundational 4D geometry**
+   - SO(4)
+   - hyperspherical geometry / S^3
+   - Clifford-torus embeddings
+
+2. **nth-order filament kinematics**
+   - higher-dimensional Frenet-Serret machinery in R4
+   - calculus of variations for framed curves
+   - geometric constraint solvers
+
+3. **Topological stability / knot theory**
+   - ambient isotopy + link invariants
+   - Links-Gould polynomial machinery
+   - Z3 modular/fusion structures
+
+4. **Projection engine**
+   - symplectic geometry
+   - BV pushforward
+   - 1D AKSZ sigma models
+
+5. **Regularization / multiscale scaling**
+   - t-deformed Yamabe/scalar-curvature machinery
+   - sigma_k Hessian estimates
+   - fractional Hardy inequalities
+
+6. **Discrete/global topology**
+   - spectral graph theory
+   - Ollivier-Ricci graph curvature
+   - cobordism/TQFT machinery
+   - discrete-gradient-correction methods
+
+7. **Statistical emergence**
+   - ensemble co-metric constructions
+   - medium-response kernels
+
+Important: these are historical proposed jobs, not automatically valid or adopted mathematics.
+
+### B. Historical `H(s)H HEAVY TOOLBOX.txt`
+
+The named path exists but is currently empty at its observed blob. The live toolbox ledger classifies it as `MISSING-HISTORICAL-ARTIFACT`. Do not infer content. Recover genealogy or duplicate/superset copies if found elsewhere.
+
+### C. `[[SAT26 TOOLBOX]]/`
+
+This is a multi-file historical toolbox package, not a single document. Current verified contents include:
+
+- `H(s)H FIRST BUILD.txt`
+- `H(s)H STRUCTURAL SKETCH.txt`
+- `HsH SUGGESTIONS + RECCOMENDATIONS.txt`
+- `HsHtoolkit_manifest.csv`
+- `SAT to H(s)H TRANSITION.txt`
+- `SAT26 MATH ROUNDUP.txt`
+- `SAT26 THOUGHTS ROUNDUP.txt`
+- `SAT26 VETTING TEMPLATE.txt`
+- `THE SPHERES.txt`
+
+The manifest is a substantial source-discovery map spanning calculus of variations, symplectic geometry, Lie groups, constraint solving, cobordism, graph theory, hyperspherical geometry, ensemble methods, Hardy inequalities, discrete gradients, AKSZ, and many current/recent papers. Manifest presence is not source comprehension.
+
+The vetting template is itself a methodological tool: identify the actual geometric object, preserve worldline/worldtube and angle/sheet/slab distinctions, separate scaffolds from forced structure, keep useful pieces even when a containing theory document fails, and classify KEEP/BAN/repair rather than canonizing whole artifacts.
+
+### D. Live toolbox ingestion / namespace system
+
+Controlling files:
+- `WORKSPACES/COMMON/TOOLBOX_INGESTION_NAMESPACE_PRIORITY.md`
+- `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md`
+- `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
+- `WORKSPACES/COMMON/CITATION_AS_DEFAULT_POLICY.md`
+
+Adoption state machine:
+
+`UNREVIEWED → CANDIDATE → {ADOPT | ADAPT | DEFER | REJECT | HISTORICAL-ONLY}`
+
+Current source-verified candidate tranche:
+- `EXT:LIE:SO4`
+- `EXT:DIFFGEO:FRENET_R4`
+- `EXT:CONSTRAINT:BOUMA95`
+
+These are candidates, not adopted theory.
+
+### E. HSH_RESOURCES `H(s)H_Toolkit/`
+
+This is the large supporting literature/tool library. Its AI index currently identifies:
+- **237** bibliographic records in `H(s)H_Toolkit/`
+- **2** in `H(s)H_Toolkit/REFERENCE — GR`
+- **60** in `H(s)H_Toolkit/STRING THEORY (MIT)`
+- **299 total** across the three toolkit directories
+
+The toolkit digestion plan groups sources by the problems they solve:
+- differential/Lorentzian geometry
+- framed curves/ribbons/rods/elastica/worldlines/worldtubes
+- topology/knots/braids/anyons
+- category/representation/quantum groups
+- gauge/connections/holonomy/geometric phase
+- QFT/particle physics/QCD/confinement
+- Clifford/spinor/Dirac machinery
+- causal structure/foliations/signature change
+- dynamical systems/waves/defects/solitons
+- continuum mechanics/elasticity/effective media
+- statistical/condensed-matter analogues
+- numerical/formal methods
+
+Review-depth states:
+`CATALOGED | TRIAGED | PARTIAL | FULL | CARD | TESTED`.
+
+### Janus rule for toolbox use
+
+When a problem appears, do not merely ask "what math do we know?" Ask:
+
+1. Does one of the historical toolboxes already name machinery for this exact job?
+2. Is that object already in the live namespace/adoption ledger?
+3. Is the underlying source present in HSH_RESOURCES?
+4. What is its review depth?
+5. Has it ever been TESTED against a current SAT/H(s)H object?
+6. Does current BEDROCK still permit the original proposed use?
+
+This toolbox stack should be consulted before inventing replacement formalism.
