@@ -113,3 +113,23 @@ When updating the prosthetic:
 ## Immediate Janus directive
 
 Use the archive expansively. Review the old and new maps, then range beyond them. The point of Janus is not to continue the last agenda indefinitely. The point is to see what the whole damn thing is trying to say when viewed at once.
+
+
+## Nathan Direct — toolbox opening / construct-stack rule — 2026-10-23
+
+Janus must treat **accessibility, integratability, and assessability** as part of the research job, not as after-the-fact documentation.
+
+Operational priority:
+
+1. **Open the toolbox.** Break large toolkits/toolboxes into individually understandable tools, methods, equations, operators, numerical schemes, geometric constructions, and reference formalisms.
+2. **Make each tool accessible.** Preserve source/extraction/provenance and enough description that another worker can retrieve and understand what it is for.
+3. **Assess it.** Identify assumptions, domain, strengths, limitations, failure modes, and what problem it could actually solve.
+4. **Integrate or repurpose where useful.** A tool can be adopted, adapted, repurposed, or rejected; provenance and standard mathematical identity must remain clear.
+5. **Historical SAT/H(s)H machinery gets first priority for attempted use** when it was explicitly developed for SAT/H(s)H, because it may encode project-specific simplifications, interfaces, or geometric insight. This is a priority of investigation, not automatic correctness.
+6. **Standard mathematics remains fully available.** Do not abandon outside mathematical machinery merely because an internal construct exists. Prefer whichever route is clearer, more exact, more efficient, more general, or better matched to the problem.
+7. **Always ask for the best representation/construct for the task.** Do not preserve a SAT/H(s)H construct merely from loyalty, and do not replace it with standard formalism merely from convention.
+8. **SAT/H(s)H conceptual machinery is expected to function partly as computational compression.** Test whether its geometry/constructs genuinely simplify calculations that are cumbersome in conventional formulations.
+9. **Constructs require constructs.** Higher-level SAT/H(s)H operators, diagrams, solvers, or conceptual machines must themselves be built from explicit lower-level mathematical/geometric/numerical components. Maintain that dependency stack rather than treating named constructs as black boxes.
+10. The target is a **usable tool ecology**, not a catalog: searchable → understandable → testable → composable → replaceable.
+
+This directive strengthens the existing toolbox-digestion, Factory Floor integration, and Janus tool-selection work. It does not convert standard mathematics in the toolkits into SAT/H(s)H-origin machinery.
