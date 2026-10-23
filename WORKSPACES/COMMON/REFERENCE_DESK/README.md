@@ -52,6 +52,10 @@ BigBook is a major historical roundup/source reservoir. Use the index to find re
 - [Nathan preferences](<https://github.com/Satobloc/HSH_RESOURCES/tree/main/info/NATHAN_PREFERENCES>)
 - [Sable source inventory run](<https://github.com/Satobloc/HSH_RESOURCES/tree/main/SOURCE_INVENTORY/SABLE/source_inventory_run>)
 
+## TOOLBOX / TOOLKIT ROUTER
+
+- [Consolidated toolbox/toolkit router](./TOOLBOX_TOOLKIT_ROUTER_2026-10-23.md) — connects the SAT26 manifest, Heavy Toolbox sequential ingestion, HSH_RESOURCES toolkit catalog, and live namespace/adoption ledger. Use this before treating a toolbox as one undifferentiated source.
+
 ## TOOLS — immediate familiarity
 
 - [HQ Tool Chest](<https://github.com/Satobloc/HSH_RESOURCES/blob/main/HQ/TOOL_CHEST.md>)
