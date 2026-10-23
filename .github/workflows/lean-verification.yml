@@ -27,6 +27,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+      - name: Generate Lake dependency manifest
+        working-directory: FORMAL_VERIFICATION
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          "$HOME/.elan/bin/lake" update
       - name: Install Lean and compile formal library
         uses: leanprover/lean-action@v1
         with:
