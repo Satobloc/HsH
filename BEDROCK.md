@@ -1,6 +1,23 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
-CODE 000: Nathan Permanent<br> <text color=green> Code Meangreen Invoked</text> — Mandatory Prove/Play …Lean …Factory Floor. —NM 23OCT2026🦉 <p>
+CODE 000: Nathan Permanent<br> <span style="color:green">Code Meangreen Invoked</span> — Mandatory Prove/Play …Lean …Factory Floor. —NM 23OCT2026🦉
+
+### ND-2026-10-23 — CODE MEAN GREEN: Correction-First Archival Recovery
+
+**Nathan Direct · October 23, 2026 · Mandatory Calculation Relay source-selection rule.**
+
+1. **Search for established later corrections first.** Match underlying construction across changed terminology, symbols, and formalizations. Prioritize the operative finite-core H(s)H framework over obsolete Blockwave/SAT shorthand when a later correction genuinely addresses the same mathematics.
+2. **Use applicable later work when its correction is established**, retaining the original formulation and before/after source genealogy. A later date or an assistant's paraphrase is not proof of correctness; verify the construction, assumptions, and calculation.
+3. **Otherwise fall back to the historical work.** Recover its full mathematical content and check what works and what fails. Do not discard useful earlier results merely because their surrounding language has changed.
+4. **Audit the operative formulation** for syntax, algebra, dimensions, signs, limits, topology, physical constraints, and reproducible numerical consequences. Distinguish an invalid legacy surrogate from a defect that survives in current H(s)H.
+5. **Classify and preserve provenance:** historical validity; current applicability (retained, corrected, superseded, rejected, unresolved); independent physical verification. Keep competing or inadequately justified repairs visible. Apply existing CODATA verification-queue gates where a suitable independently specified quantity exists; neither correction nor agreement automatically promotes a physical claim.
+6. **Carry corrections forward, not backward by assumption.** Propagate justified changes to dependent calculations and compare against current BEDROCK, STATE_OF_THE_THEORY, primary archive records, and established physics. Mersearch-first and all privacy/read-only boundaries remain in force.
+
+**Nathan's formulation:** "OK when we know corrections are present, we use the later work otherwise we fall back to the old stuff and figure out what’s wrong or what works"
+
+**Nathan sign-off, separate from assistant-authored protocol:** This directive and the request to append its provenance are Nathan's messages in the October 23, 2026 conversation concerning the Calculation Relay, Blockwave, H(s)H, projectors, cobordism and inductive reconnection. Nathan also directed that the addition appear after his existing signet. The signet above is preserved unchanged. —NM 23OCT2026
+
+---
 
 > **NATHAN DIRECT · 2026-10-22 · PRIMARY RESEARCH MANDATE**
 >
