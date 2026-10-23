@@ -35,9 +35,10 @@ Source status:
 - **repo:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25`
 - **path:** `H(s)H HEAVY TOOLBOX.txt`
 - **observed_blob_sha:** `aa021ed7839bc6417035e3bd09fcdc4ed1bd1bb3`
-- **observed_content:** empty
-- **source_status:** `MISSING-HISTORICAL-ARTIFACT`
-- **decision:** do not infer or substitute content; recover genealogy/content if another source identifies it
+- **source_status:** `VERIFIED` as a very large historical project-provenance artifact
+- **retrieval correction (2026-10-23):** an earlier ranged/file-reader call returned blank and was incorrectly interpreted as empty. Direct GitHub blob retrieval returned **1,178,134 characters** of content. Treat blank/zero-length reader responses for large archive objects as a possible retrieval/display failure, not evidence of an empty source.
+- **content observed at head:** large compiled reference/toolbox material beginning with Clifford-torus and Hopf-fibration reference text and continuing through extensive mathematical/reference and SAT/H(s)H material.
+- **decision:** inventory and digest by bounded sections/chunks; do not infer completeness from any single truncated read.
 - **microcite:** `⟦PROV:HSH-HEAVY⟧`
 
 ## PROV:SAT26-TBOX — `[[SAT26 TOOLBOX]]/`
