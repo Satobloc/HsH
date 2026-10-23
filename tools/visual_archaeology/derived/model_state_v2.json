@@ -551,7 +551,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1915
+            "weight": 4.1916
           },
           {
             "family": "pseudo-correlation",
@@ -616,7 +616,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1915
+            "weight": 4.1916
           },
           {
             "family": "pseudo-correlation",
@@ -681,7 +681,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1915
+            "weight": 4.1916
           },
           {
             "family": "pseudo-correlation",
@@ -746,7 +746,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1915
+            "weight": 4.1916
           },
           {
             "family": "pseudo-correlation",
@@ -811,7 +811,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1915
+            "weight": 4.1916
           },
           {
             "family": "pseudo-correlation",
@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 657.0,
+      "alpha": 662.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 657.0,
+      "alpha": 662.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 131,
-  "run_utc": "2026-10-23T12:08:42.291815+00:00",
+  "run_number": 132,
+  "run_utc": "2026-10-23T17:27:43.467207+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
@@ -2420,7 +2420,7 @@
   "validation_updates": [
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
-      "rule": "H12A",
+      "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
       "verdict": "support",
@@ -2428,14 +2428,6 @@
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
-      "rule": "H12B",
-      "target": "podcast_stylesheet",
-      "truth": true,
-      "verdict": "support",
-      "weight_sign": "positive"
-    },
-    {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2451,7 +2443,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2467,7 +2459,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
       "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2483,7 +2475,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
       "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2493,6 +2485,14 @@
     {
       "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
       "rule": "H12B",
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
       "verdict": "support",
