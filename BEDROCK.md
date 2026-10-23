@@ -17,6 +17,27 @@ CODE 000: Nathan Permanent<br> <span style="color:green">Code Meangreen Invoked<
 
 **Nathan sign-off, separate from assistant-authored protocol:** This directive and the request to append its provenance are Nathan's messages in the October 23, 2026 conversation concerning the Calculation Relay, Blockwave, H(s)H, projectors, cobordism and inductive reconnection. Nathan also directed that the addition appear after his existing signet. The signet above is preserved unchanged. —NM 23OCT2026
 
+### ND-2026-10-23 — Factory Floor admission means mathematical validity only
+
+**Nathan Direct · October 23, 2026 · Mandatory Factory Floor interpretation.**
+
+**Every result admitted to the Factory Floor is TENTATIVE.** Its tentative acceptance certifies only that the *specific mathematical construction or result, under its explicitly stated assumptions*, has passed the applicable internal mathematical validity tests. This is permission to consider it an **allowed candidate** in further work, **not** an endorsement of its applicability to SAT/H(s)H and **not** proof of any physical claim.
+
+**Keep the three gates separate:**
+1. **Mathematical validity / Factory Floor admission:** The stated equations, transformations, dimensional typing, topology, limits, numerical results, and assumptions are internally sound to the scope tested. **Status: TENTATIVE ALLOWED CANDIDATE.** Record precise scope, checks, and any remaining mathematical qualifications.
+2. **Connection to H(s)H:** Whether this sound mathematics describes, follows from, or can be consistently integrated into the *operative* finite-core H(s)H construction is a **separate, unresolved question** until explicitly established. Factory Floor presence is never evidence of that connection.
+3. **Connection to physical reality:** Whether an H(s)H candidate reproduces established physics, survives independent empirical comparison and makes valid physical predictions is a further **separate** verification problem. No Factory Floor result is automatically promoted into physical truth, BEDROCK, or a settled H(s)H mechanism.
+
+**Failure handling:** A result that fails mathematical validity is not admitted merely for being historically interesting or numerically suggestive. Keep failures, nonunique repairs, and conjectural constructions in their appropriate unresolved/rejected/quarantine records. Passing a limited mathematical check is not a blanket proof beyond its tested assumptions.
+
+**Interaction with the Correction-First Protocol:** Search for and use justified later corrections first. If none exists, audit the older construction. Admit only what passes as **tentative mathematics**, with original-source genealogy and no implied physical endorsement.
+
+**Nathan's instruction, verbatim:** "Ok. Now… For everything that goes into the factory floor… It’s tentative. And the tentative acceptance is that we’ve proven it to be valid math, not that we’ve proven it to be connected to HSH or anything physical. But it is now an allowed candidate."
+
+**Provenance:** Nathan Direct, October 23, 2026, continuation of the conversation establishing CODE MEAN GREEN correction-first archival recovery. This paragraph records the user's instruction, not an assistant-authored claim of scientific validation.
+
+---
+
 ---
 
 > **NATHAN DIRECT · 2026-10-22 · PRIMARY RESEARCH MANDATE**
