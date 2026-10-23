@@ -1,0 +1,15 @@
+# Ariadne 2026-10-23 | GPS/Galileo physical clock audit
+
+SANDBOXED, NOT BEDROCK. Executed numerical orbital-clock tests; historical SAT GPS comparison corrected; HsH clock toy fails. Independent H(s)H metric/clock dynamics not derived.
+
+Historical SAT source: PREDICTIONS/CLOCK SHIFT PREDICTION PROTOCOL.txt (2025-06-03, Git blob 142b7bcc3420bc25f2147ecebe90ef5b67c0d0dc) posits kappa(r)=sin^2(theta4), GPS kappa=0.995+/-0.005, and gravitational GPS shift 4.252e-10. SAT XYZ/STANDALONE CODES.txt (blob 26d66cabee4178ec8f8e2ed8214a3074688a90dc) labels gravitational-only shift 4.4648e-10 and compares it to operational net GPS rate 4.4647e-10. Both conflate gravitational-only and gravity-plus-kinematic shifts. HsH 30SEP26_DUMP/CLOCK SHIFT PREDICTION PROTOCOL.txt is a duplicate of the SAT source, not independent support.
+
+Real-world inputs: JPL Earth GM=398600.435507 km3/s2, GPS circular orbit radius 26560 km, c exact, Earth equatorial R=6378137 m, WGS84 omega=7.2921151467e-5 rad/s, Ashby geoid effective potential magnitude/c2=6.9693e-10. Executed 60-digit results: gravitational-only +45.65091062 microseconds/day; satellite velocity -7.21359971 microseconds/day; equatorial ground rotation +0.10397695 microseconds/day; net spherical +38.54128786 microseconds/day. Geoid-normalized circular Schwarzschild +38.57395290 microseconds/day, versus NASA GPS engineering design +38.57544 microseconds/day. This comparison is against a DESIGN setting, not a raw observation. Earth J2 and full ephemeris omitted.
+
+Published Galileo redshift measurement (Delva et al., PRL 121, 231101, 2018) alpha=(0.19+/-2.48)e-5, 1 sigma. If historical kappa is CONSTANT and multiplies gravitational redshift alone, alpha=kappa-1: kappa=0.995 gives -201.69 observational sigma, kappa=0.98 gives -806.53 sigma. The archival kappa=0.995+/-0.005 itself includes unity, so this rejects fixed central choices under the stated mapping, not all kappa(r) functions or current H(s)H.
+
+Numerical representative Galileo recovery orbit (ILRS 2022, a=27977.9 km, e=0.1544): Kepler integration period 12.93692777 hours, periodic GR clock bias amplitude 362.8376 ns; conditional kappa=0.995 extra residual amplitude 0.9071 ns; integration agrees with independent analytic Kepler result to 2.07e-14 s. Not a dated raw satellite clock fit.
+
+HsH satellite anomaly toy (30SEP26_DUMP/SAT_SATELLITE_ANOMALY_ANALYSIS (1).txt, blob a97510e9b6f6088bb965fb1591f8141871e9af3b) uses theta4=0.05 sin(2pi t/T), normalized fclick=sin^2(theta4). Executed FFT: TWO cycles per orbit, not the stated one; normalized fractional clock variation near +/-1, not GNSS scale. HISTORICAL TOY FAILED.
+
+Live BEDROCK and theory state fetched; bounded historical SAT/HsH primary passages reviewed; real randomized reading selection logged in manual report. Shared Mersearch occupied and not changed. Python mpmath, SciPy, NumPy and Class P figures executed; no Lean. CODATA 2022 G reference only, not independently predicted. Mathematical controls PASS; historical comparison CORRECTED; kappa physical gate OPEN; no canonical promotion.
