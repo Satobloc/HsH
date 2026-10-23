@@ -5,6 +5,48 @@
 **Scope:** SAT/H(s)H mathematical-tool ingestion, namespace control, source recovery, solver integration, and use decisions  
 **Relationship to active edge:** parallel supporting priority for the Hagalaz / geometric-solver-unification active edge; this does **not** suspend that work. It should increasingly feed it with cleanly identified mathematical objects.
 
+## 0. Access → integrate → assess
+
+One of the standing jobs of the research system is to make available machinery **accessible, integratable, and assessable**.
+
+That means:
+- open the boxes rather than merely inventorying them;
+- break large compilations into usable mathematical objects;
+- identify what each object actually does;
+- connect it to the project object/problem it could act on;
+- test it;
+- preserve the result so the next worker can retrieve and reuse it.
+
+### Priority order for mathematical machinery
+
+Use the following preference order when attacking a project problem:
+
+1. **Historical SAT/H(s)H machinery developed specifically for the same job**  
+   Recover, reconstruct, and test this first. It has priority because it carries project-specific problem structure, accumulated insight, and prior adaptation work.
+
+2. **Standard mathematics already compiled in the toolboxes/toolkits**  
+   Use freely as mathematical machinery where it is cleaner, more rigorous, more general, or supplies a missing construct. These tools are external standard mathematics, not SAT/H(s)H inventions.
+
+3. **New project-specific constructs/adaptations**  
+   Build only when neither recovered native machinery nor standard mathematics provides an adequate interface.
+
+This priority is **not conservatism for its own sake**. Historical SAT/H(s)H machinery may fail, be superseded, or be less elegant than a standard formulation. The governing question is always: **what is the best available way to do the job while preserving the project's actual geometric/conceptual constraints?**
+
+### Constructs require constructs
+
+A project construct is not operational merely because its concept is intelligible. To calculate with it, it may require supporting constructs such as:
+- a coordinate/parameter representation;
+- a frame or bundle;
+- a variational object/action;
+- an invariant;
+- a projection/readout map;
+- an admissibility condition;
+- a constitutive law;
+- a numerical solver representation;
+- an interface to measured observables.
+
+Those supporting constructs may themselves come from historical SAT machinery, standard mathematics, or a declared project adaptation. Each layer must remain typed so that a useful scaffold is not mistaken for physical content.
+
 ## Nathan-direct instruction
 
 Prioritize ingestion and namespacification of these historical toolbox surfaces, then make active decisions about use as soon as the ingestion system is operational. Imported mathematics must carry proper citations to the underlying sources, and citation should become normal project practice rather than a cleanup step.
@@ -15,7 +57,7 @@ Primary source surfaces:
    - current blob SHA observed 2026-09-21: `384b40a595d41daa4c573218022a0b802ad3deee`
 2. `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H HEAVY TOOLBOX.txt`
    - current blob SHA observed 2026-09-21: `aa021ed7839bc6417035e3bd09fcdc4ed1bd1bb3`
-   - **current content is empty**; treat as a provenance/source-recovery target, not as ingested mathematics.
+   - **2026-10-23 correction:** this is a very large compiled standard-mathematics/reference packet; the earlier empty-file reading was a retrieval artifact. A complete sequential ingestion record already exists in the old archive `INGESTION_LEDGER.md`. Use that semantic map plus bounded source reads.
 3. `Satobloc/SAT_THEORY_ARCHIVE_2023-25/[[SAT26 TOOLBOX]]/`
    - multi-file historical package, including `HsHtoolkit_manifest.csv`, `SAT26 MATH ROUNDUP.txt`, `SAT26 VETTING TEMPLATE.txt`, large build/transition/spheres corpora, and related recommendation/roundup material.
 
@@ -212,3 +254,32 @@ If there is no answer, it is not yet active machinery.
 ## Next cursor
 
 Complete a first source-verified tranche for `SO(4)`, higher-dimensional Frenet frames, and geometric constraint solving; then ask whether each materially improves the current Hagalaz transformation/solver interface. In parallel, resolve the identity/origin of the empty `H(s)H HEAVY TOOLBOX.txt` path.
+
+## 9. Accessibility / integration / assessment ladder
+
+For each recovered or imported mathematical tool, prefer a concrete progression:
+
+`LOCATED → TEXT-ACCESSIBLE → IDENTIFIED → DECOMPOSED → MAPPED → TESTED → INTEGRATED → ASSESSED`
+
+Definitions:
+
+- **LOCATED** — source/container known.
+- **TEXT-ACCESSIBLE** — native text or verified extraction/OCR exists and is searchable.
+- **IDENTIFIED** — standard mathematical object and source identity are clear.
+- **DECOMPOSED** — useful equations/operators/assumptions separated from surrounding compilation.
+- **MAPPED** — exact SAT/H(s)H object/problem/interface is named.
+- **TESTED** — exercised on an explicit fixture or reconstruction.
+- **INTEGRATED** — connected to a live solver/calculation path with namespaces and provenance.
+- **ASSESSED** — comparison against alternatives recorded: strengths, limitations, failure modes, and decision state.
+
+Do not stop at LOCATED or IDENTIFIED merely because the archive now looks organized.
+
+## 10. Comparative construction rule
+
+When a current calculation is difficult, run a three-way comparison where practical:
+
+- **native route:** best recovered SAT/H(s)H machinery;
+- **standard route:** best standard mathematical/physics formulation available in the toolboxes/resources;
+- **hybrid route:** minimal declared adaptation that preserves the native conceptual simplification while inheriting standard rigor.
+
+The goal is not to privilege novelty. The goal is to discover whether SAT/H(s)H's conceptual compression actually makes the calculation easier, clearer, or more reusable, and if so, to formalize the supporting constructs that make that advantage real.
