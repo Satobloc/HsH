@@ -1,11 +1,13 @@
 # SAT/H(s)H Toolbox & Toolkit Router — 2026-10-23
 
 **Status:** ACTIVE routing/index surface; not theory authority.  
-**Purpose:** connect the historical toolbox containers, the SAT26 manifest, the complete Heavy Toolbox ingestion pass, the current HSH_RESOURCES literature catalog, and the live namespace/adoption ledger so workers can retrieve actual usable machinery instead of treating “toolkit” as one undifferentiated blob.
+**Purpose:** connect the toolbox containers, the SAT26 manifest, the complete Heavy Toolbox ingestion pass, the current HSH_RESOURCES literature catalog, and the live namespace/adoption ledger so workers can retrieve actual usable standard mathematics instead of treating “toolkit” as one undifferentiated blob.
+
+**Identity rule:** the toolboxes/toolkits are **not SAT/H(s)H constructions or theory artifacts**. They are collections of standard mathematics / physics reference machinery assembled for consideration, comparison, and possible import. Project commentary, generated summaries, or SAT/H(s)H discussion that may occur inside a compiled packet does not change the identity of the toolbox itself.
 
 ## 1. Bottom line
 
-The historical `[[SAT26 TOOLBOX]]/HsHtoolkit_manifest.csv` **does tell us what was packed into the five SAT26 toolkit compilation PDFs**, but it is **not a complete index of the whole toolbox/toolkit ecosystem**.
+The `[[SAT26 TOOLBOX]]/HsHtoolkit_manifest.csv` **does tell us what was packed into the five SAT26 toolkit compilation PDFs**, but it is **not a complete semantic index of the whole toolbox/toolkit ecosystem**.
 
 Verified manifest coverage:
 - **121 rows / 121 unique source paths**
@@ -27,9 +29,24 @@ It does **not** by itself:
 - reflect later BEDROCK corrections;
 - cover all current `HSH_RESOURCES/H(s)H_Toolkit/` material.
 
+## 1A. Text extraction status
+
+Verified 2026-10-23:
+
+- HSH_RESOURCES maintains the canonical PDF-text extraction layer in `derived/text/`, with source-to-text mappings in `derived/manifests/extraction.jsonl`.
+- The extraction manifest currently contains **1,183 records** overall.
+- **314 records** point into `H(s)H_Toolkit/`, and all 314 observed records are marked `status: extracted`.
+- Most importantly for the historical SAT26 toolkit manifest: **all 121 / 121 source PDFs listed in `HsHtoolkit_manifest.csv` match by basename to extracted HSH_RESOURCES toolkit sources with a derived text path.**
+
+Therefore **do not create a new bulk text-extraction document for the SAT26 toolkit sources**. Use the existing extraction manifest + `derived/text/` files and Mersearch. Only create a new extraction artifact if a specific source is demonstrably missing or unreadable after checking the existing extraction routes.
+
+The old SAT archive also has a substantial `_AUTO_EXTRACTED_TEXT/` corpus for project PDFs and other binary artifacts. Treat that as an extraction/search surface, not as a separate source authority.
+
 ## 2. Existing work already covering the gaps
 
 ### A. Heavy Toolbox sequential ingestion already exists
+
+The Heavy Toolbox is a compiled **reference/mathematics resource**, not an H(s)H construction. The ingestion ledger is a semantic reading/index of that reference packet and any attached discussion, not evidence that the imported mathematics originated inside SAT/H(s)H.
 
 `Satobloc/SAT_THEORY_ARCHIVE_2023-25/INGESTION_LEDGER.md` contains a **complete sequential pass** of `H(s)H HEAVY TOOLBOX(1).txt`, recorded as **175,625 words**.
 
