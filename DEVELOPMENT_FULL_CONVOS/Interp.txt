@@ -1,0 +1,48 @@
+Interpretation
+
+Good. Then I’m locking that in as the philosophical baseline for reading SAT:
+
+SAT is not a flight from physics into metaphysics. It is an attempt to stay as close as possible to the empirical record by taking the relativistic worldline map as the primary object.
+
+The “ontology” is therefore conditional and disciplined: not “I can prove this is what reality is beyond all perception,” but “this is the most coherent physical reading of the map we actually have.” RMS prevents SAT from pretending to possess metaphysical certainty; Minkowski prevents SAT from dissolving into vague epistemic humility. Nice tension, honestly.
+
+So as I keep reading, I’ll separate claims into something like:
+
+Hard epistemic scaffold: events, trajectories, worldlines, observable constraints.
+
+Map-literal physical model: real 4D worldlines/worldtubes, timesheet, filament interactions, hyperhelical topology.
+
+Mechanistic reconstruction: θ₄, UI, Whirligig, phase snap, Z₃, vortex/solenoid, historical tension.
+
+Speculative extensions: dark sector claims, photon/neutrino identity, black-hole end states, cosmological eschatology, etc.
+
+That should help avoid both failure modes: treating everything as equally canonical, or sanding off the central insight until SAT becomes just “some geometry metaphors.” 
+
+Yes. That gives the speculation rule real teeth.
+
+So SAT extensions are not justified merely because a geometric story can be told. They are justified only when the geometry creates a structural necessity and that same structural necessity has explanatory surplus.
+
+In cleaner terms:
+
+A SAT speculative extension is admissible only when the proposed dynamic follows from the geometry of the worldline/worldtube map rather than being freely invented, and when that dynamic explains more than the single anomaly or phenomenon that motivated it.
+
+That creates a useful two-part filter:
+
+First: geometric compulsion. Given the mapped structure, would this behavior have to occur, or at least be strongly expected? Your neutrino example is good: if neutrinos are modeled as single-loop helical excitations propagating on/between filaments, then precession-like behavior is not an optional metaphor; it follows from the geometry of a helical object moving through that system.
+
+Second: cross-problem leverage. The proposed dynamic should simultaneously illuminate other puzzles, constraints, or observations. If “dimensional clipping” follows from a limited 3D intersectional perspective on a 4D physical topology, then it should not only explain one weird observational feature; it should also help clarify measurement limits, phase availability, apparent discreteness, tunneling-like behavior, visibility/invisibility, or other neighboring phenomena.
+
+That is a strong defense against fantasy because it prevents “SAT can explain anything” from becoming a vice. A claim has to pass:
+
+Does the map force or strongly imply it?
+
+Does it solve multiple problems without adding arbitrary machinery?
+
+Does it preserve known physics in the appropriate limit?
+
+Does it generate new constraints or predictions?
+
+Does it reduce the number of mysteries rather than merely rename one?
+
+For the future clean repo, this should probably become a formal section: Admissibility Criteria for SAT Extensions. It would sit right after the RMS/Minkowski-first foundation. That way the project states up front that speculation is allowed, but only under geometric necessity plus explanatory compression.
+

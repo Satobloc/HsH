@@ -1,0 +1,2777 @@
+RUBRIC
+
+SAT / SATOBLOC INSPIRATION–PERCOLATION ASSAY
+MASTER RUBRIC v1.0
+
+Purpose:
+Evaluate recent physics / cosmology / AI / formal-methods papers for possible SAT-shaped thinking,
+lines of inspiration, percolation, parallel convergence, or field-baseline recalibration.
+
+This is NOT a courtroom proof of direct influence.
+The core question is field-ecological:
+
+Could SAT / podcast / Satobloc have supplied, sharpened, accelerated, or made salient
+some of the questions now being asked?
+
+Are recent papers moving through conceptual territory SAT had already publicly emphasized?
+
+Do the papers look like independent continuation of old literature,
+or old literature being recombined in SAT-adjacent ways after the SAT timeline begins?
+
+
+================================================================================
+I. CORE DIAGNOSTIC
+================================================================================
+
+Does the paper treat geometry as a descriptive tool used after physics is known,
+or as the generative structure from which identity, force, particles, and laws are reconstructed?
+
+Weak signal:
+Geometry is used as ordinary language, ordinary gauge theory, ordinary worldline formalism,
+ordinary topology, ordinary GR, ordinary QFT, or ordinary numerical-relativity bookkeeping.
+
+Strong signal:
+Geometry generates physical identity, force, interaction, observability, constants,
+or law-structure.
+
+SAT-shaped signal:
+worldline first,
+identity as topology,
+particles as slice/readout/intersection events,
+forces as geometry,
+interactions as slice-gated possibilities,
+constants as structural invariants,
+and laws reconstructed from the complete worldline map.
+
+
+================================================================================
+II. SAT TIMELINE CUTS
+================================================================================
+
+T-PRIVATE — PRE-PODCAST / PRIVATE SEED
+Before Feb. 2, 2025
+
+Known private/non-public SAT roots:
+- quark triplet/doublet = braid
+- particle-family topology intuition
+- worldline/filament intuition going back decades
+
+Assay use:
+Supports internal continuity, but does not count as public percolation evidence unless independently timestamped.
+
+
+T1 — PUBLIC BACKBONE / FUNDAMENTAL INTUITIONS
+Feb. 2, 2025
+
+Public SAT/Stringing Along backbone:
+- real world = 4D worldlines / filaments
+- time = wavefront / time surface moving through filaments
+- particles = intersections/readouts of worldlines with time surface
+- physical 4D continuity of filaments and time surface
+- real interaction between time surface and filaments
+- particle formation/stability from filament–time-surface interaction
+- back-pull of filament network curves time surface → GR interpretation
+- restricted futureward/pastward transfer along filaments / backbleed
+- SM, GR, QM imported unless forced otherwise, translated into SAT geometry
+- Minkowski diagram/worldline map as root grammar for physical law
+
+
+T2 — APRIL 2025 DEVELOPMENT
+Stringing Along → Scalar-Angular-Torsion
+
+Known/claimed SAT developments by this point:
+- QED incorporated as first-order coil of electron
+- electrostatic attraction/repulsion as “Velcro effect” between coils
+- no electrograv/Kelvin-vortex unification yet
+- still slipping between 3D Minkowski representation and actual 4D structure
+- baryons as Borromean knots
+- mesons as Hopf links
+- particle identity from timesheet-intersection topology
+- quark braid intuition becoming formal particle topology
+
+
+T3 — MAY 2025 FORMAL DYNAMICS
+Known/claimed SAT developments:
+- first Lagrangian / Hamiltonian attempts
+- SAT Mark V / SATx / SAT.QM / SATxy
+- early action-principle / dynamical formalism attempts
+
+
+T4 — JUNE 2025 SAT-O / BIG FORMALISM UNIFICATION
+Known/claimed SAT developments:
+- first full formalism-unification attempt
+- Lagrangian treated as EFT
+- derivation chains into major physics sectors
+- attempts to derive everyday physics sectors:
+  Navier–Stokes, Maxwell, Newtonian motion, etc.
+- modules roughly A through Q
+- sector-specific derivation and audit architecture
+- lead supervisor / active edge / lab one / lab two / auditors / audit supervisors
+- Python laboratory simulations
+- annealing / optical lab bench experiments
+- vacuum-transparent → translucent → opaque matter → condensed matter → degenerate matter → singularity spectrum
+- index-of-refraction language, sometimes metaphorical, sometimes over-literal
+- “marble universe” radial-filament cosmology
+- central Big Bang wavefront through radial filaments
+- “shin-kick universe” wavefront crossing radial filaments from one side
+- gravity as GR plus possible filament-network trans-temporal tugs
+- project goal: translate existing covariant equations into SAT geometry
+
+
+T5 — OCTOBER 2025 HYPERHELICAL / MODE FORMALISM RETURN
+Known/claimed SAT developments:
+- return to original hyperhelical plan
+- Nth-order superhelical Lagrangian sought
+- writhe and twist terminology
+- photoneutrino sector
+- bosonic time / temporons
+- time as boson wavefront / ripples along filaments
+- later t/f-boson split retroactively classifies temporon as t-boson
+- three equivalent analytical modes:
+  Mode 1: true block analytical frame — “freeze the block, move the sheet”
+  Mode 2: filament-only equivalent representation
+  Mode 3: fully dynamic block/wavefront dynamics
+
+
+T6 — DECEMBER 2025 INDICATRIX / COIL-PARTICLE MAP
+Known/claimed SAT developments:
+- Universal Indicatrix as mini-universe / integrated worldline possibility space
+- more detailed coil-particle identity map
+- particle properties increasingly tied to coil order and worldline possibility space
+
+
+T7 — JAN/FEB 2026 FULLY 4D / WHIRLIGIG / HSUCV PHASE
+Known/claimed SAT developments:
+- hyperhelical Lagrangian
+- fully 4D construction attempt
+- Whirligig geometric derivation path solver
+- hypersphere unit cell cosmology
+- quantum gravity foam = HSUCV lattice
+- Vera / DESI / KATRIN prediction pathways
+- lattice/hypersphere phase later constrained/demoted from primitive status
+
+
+T8 — MARCH 2026 SYNTHESIS / BLOCKWAVE / LAPLACIAN FILAMENT
+Known/claimed SAT developments:
+- March 13 synthesis / “final” family
+- Blockwave
+- Laplacian filament
+- tighter worldtube/blockwave grammar
+- more mature worldtube/ER bridge/black-hole language
+- vortex EM / electrograv / EM-GR/Kelvin refinements
+
+
+================================================================================
+III. 2024 EXPECTEDNESS SCORE
+================================================================================
+
+Question:
+From a 2024 point of view, how expected was it that mainstream science would be asking
+this question, in this way, at this level of interest, by 2026?
+
+E0 — Already obvious / mainstream
+The idea was already a visible mainstream trajectory before Feb. 2, 2025.
+Do not count strongly unless the paper adds SAT-specific packaging.
+
+Examples:
+- generic emergent spacetime
+- ordinary gauge holonomy
+- ordinary worldline formalism
+- ordinary topology in QFT
+- ordinary black-hole information work
+- ordinary numerical-relativity worldtubes
+- generic AI-for-science
+
+E1 — Known but niche / scattered
+Ingredients existed, but were not broadly integrated or newly prominent.
+Weak-to-moderate signal if post-2025 papers package them in SAT-shaped ways.
+
+E2 — Unexpected prominence / packaging
+The idea existed in pieces, but its 2026 prominence, framing, or cross-domain packaging
+would have been surprising from 2024.
+
+E3 — Highly unexpected SAT-shaped cluster
+The paper combines several SAT-native motifs that were not obviously on a shared
+mainstream trajectory in 2024.
+
+
+================================================================================
+IV. SAT DISTINCTNESS SCORE
+================================================================================
+
+S0 — Generic
+Common scientific concept, not specifically SAT-shaped.
+
+S1 — SAT-compatible
+Could fit SAT, but SAT adds little distinctively.
+
+S2 — SAT-adjacent
+Meaningfully overlaps with SAT style, but has clear pre-existing literature.
+
+S3 — SAT-native
+Strongly matches SAT’s distinctive worldline/readout/topology/force-reconstruction grammar.
+
+
+================================================================================
+V. PACKAGE COMPRESSION SCORE
+================================================================================
+
+C0 — Isolated motif
+One loose resemblance.
+
+C1 — Paired motif
+Two related overlaps.
+
+C2 — Cluster
+Several SAT-adjacent motifs appear together.
+
+C3 — Whole architecture
+The paper’s conceptual architecture resembles a translated SAT move.
+
+
+================================================================================
+VI. TOTAL SIGNAL SCORE
+================================================================================
+
+TOTAL = E + S + C
+
+0–2  = negligible
+3–4  = weak
+5–6  = moderate
+7–8  = strong
+9    = smoking-gun class, absent direct citation
+
+Important:
+A 9 does not prove influence.
+It means the result is difficult to explain as ordinary 2024-to-2026 convergence
+without some field-ecology/percolation/inspiration channel.
+
+
+================================================================================
+VII. INSPIRATION / PERCOLATION CATEGORY
+================================================================================
+
+0 — No line
+No meaningful resemblance beyond generic vocabulary.
+
+1 — Shared background only
+The paper and SAT draw from the same older literature or standard tools.
+
+2 — Parallel convergence
+The paper independently reaches a nearby question or frame.
+
+3 — SAT-adjacent trendline
+The paper shows the field was moving toward SAT-shaped questions,
+but there is no specific percolation evidence.
+
+4 — Possible percolation / inspiration channel
+Timing, packaging, and discoverability make SAT/podcast/Satobloc a plausible contributor
+to the field-dialogue shape.
+
+5 — Strong translated resonance
+The paper uses a distinctive SAT-like package after the SAT anchor date,
+even without SAT terminology.
+
+6 — Near-smoking-gun ecology signal
+A highly SAT-specific package appears in translated professional language,
+with weak pre-2025 precedent and plausible exposure pathways.
+
+
+================================================================================
+VIII. PROVENANCE / ORIGINALITY TAGS
+================================================================================
+
+Orig tags:
+
+SAT1  = likely SAT-first / no known close pre-SAT analogue yet
+SAT-P = SAT-unique package; ingredients may preexist, but SAT’s combination/framing is distinctive
+MIX   = mixed provenance; components preexist, SAT packaging may be novel
+PRE   = clearly pre-existing literature/tradition
+UNK   = unknown until citation/literature audit
+
+Orig is a working provenance estimate, not a final truth claim.
+
+If later citation review finds a strong pre-Feb. 2, 2025 analogue:
+SAT1 → SAT-P, MIX, or PRE.
+
+If older literature contains ingredients but not the SAT-style architecture:
+use SAT-P rather than PRE.
+
+
+================================================================================
+IX. MASTER SIGNATURE TABLE
+================================================================================
+
+Columns:
+Ant%Δ   = anticipation/prefiguration confidence plus change
+Perc%Δ  = percolation/field-dialogue confidence plus change
+Orig    = SAT originality/provenance tag
+Era     = SAT introduction era
+Sig     = maximum signal strength if found in new paper
+
+Symbols:
+✅ strong/pass
+☑️ moderate
+❎ weak/uncertain
+❌ absent/fail
+
+
+| Ant%Δ    | Perc%Δ   | Orig  | Era | Sig | SAT SIGNATURE / QUESTION-FORM                                  | Meaningful hit in new publications |
+|----------|----------|-------|-----|-----|-----------------------------------------------------------------|------------------------------------|
+| ✅99→0   | ✅96→0   | SAT-P | T1  | 5   | Material worldline continuity                                   | Worldlines/worldtubes are physically real continuous structures, not plotted histories. |
+| ✅99→0   | ✅97→0   | SAT-P | T1  | 5   | Universe as complete worldline map                              | Worldline diagram maps identity, forces, laws, and physical architecture. |
+| ✅99→0   | ✅97→0   | SAT-P | T1  | 5   | Particle as time-surface intersection                           | Particle is slice/readout/intersection of extended 4D structure with resolving sheet. |
+| ✅98→0   | ✅94→0   | SAT-P | T1  | 5   | Slice-gated interaction possibility space                       | Interactions occur only where slice geometry permits contact/resolution/visibility. |
+| ✅98→0   | ✅94→0   | SAT-P | T1  | 5   | Restricted trans-temporal transfer                              | Force/tension/memory/phase/information propagates along worldline continuity but expresses only through allowed intersections. |
+| ✅97→0   | ✅92→0   | SAT-P | T1  | 5   | Backbleed self-limited by geometry                              | Futureward/pastward filament transfer constrained by geometry, preventing ordinary causality violation. |
+| ✅99→0   | ✅96→0   | SAT-P | T1  | 5   | Time wavefront / time surface                                   | Time is a moving resolving surface through physical filaments. |
+| ✅98→0   | ✅94→0   | SAT-P | T1  | 5   | GR as time-surface curvature from filament back-pull             | Curved spacetime emerges from filament network tugging on time surface. |
+| ✅98→0   | ✅94→0   | SAT-P | T1  | 5   | SM/GR/QM imported by geometric translation                       | Standard physics kept essentially correct but re-expressed in filament/timesheet geometry. |
+| ✅97→0   | ✅92→0   | SAT-P | T1  | 5   | Minkowski = QCD + GR + ST interpretation family                 | Minkowski/worldline diagram treated as root grammar able to reinterpret major sectors. |
+| ✅96→0   | ✅90→0   | SAT-P | T2  | 5   | QED as first-order electron coil                                | Electron/QED behavior arises from first-order coil geometry. |
+| ✅95→0   | ☑️82→0   | SAT-P | T2  | 4   | Electrostatic “Velcro effect” between coils                     | Attraction/repulsion as temporary coil stickiness/contact effect. |
+| ✅96→0   | ✅90→0   | SAT-P | T2  | 5   | Baryons as Borromean knots                                      | Baryon topology as Borromean/triple-link structure in timesheet intersection. |
+| ✅96→0   | ✅90→0   | SAT-P | T2  | 5   | Mesons as Hopf links                                            | Meson topology as Hopf-link/doublet structure in timesheet intersection. |
+| ✅96→0   | ✅88→0   | SAT-P | T2  | 5   | Particle identity from timesheet-intersection topology           | Identity read from intersection topology rather than point-particle label. |
+| ✅94→0   | ☑️80→0   | SAT-P | T3  | 4   | First SAT Lagrangian / Hamiltonian attempts                     | Action/Hamiltonian formalism attempts encode SAT geometry dynamically. |
+| ✅95→0   | ✅84→0   | SAT-P | T4  | 5   | SAT-O sector-translation architecture                           | Existing covariant equations translated into SAT geometry sector by sector. |
+| ✅95→0   | ✅84→0   | SAT-P | T4  | 5   | Deep derivation chains to everyday physics                      | Navier–Stokes, Maxwell, Newtonian motion, etc. derived/transcribed down from SAT geometry. |
+| ✅93→0   | ✅83→0   | SAT-P | T4  | 4   | Multi-LLM supervisor/auditor/Python workflow                    | Role-separated AI audit pipeline with simulation/code/proof/dependency checks. |
+| ✅93→0   | ✅83→0   | SAT-P | T4  | 4   | Python lab simulation / optical bench / annealing tests         | Theory-building workflow includes executable tests and simulated lab modules. |
+| ✅91→0   | ☑️72→0   | SAT-P | T4  | 4   | Vacuum/matter opacity spectrum                                  | Vacuum-transparent → opaque/condensed/degenerate/singularity-like matter spectrum. |
+| ✅90→0   | ☑️70→0   | SAT-P | T4  | 4   | Matter as refractive / translucency-like medium                 | Physical sectors modeled via visibility/transmission/opacity/refractive analogies. |
+| ✅92→0   | ☑️72→0   | SAT-P | T4  | 4   | Marble universe radial-filament cosmology                       | Big Bang wavefront traverses radial filaments from center of marble-like topology. |
+| ✅90→0   | ☑️70→0   | SAT-P | T4  | 4   | Shin-kick universe                                               | Off-center wavefront traverses radial filaments at varying angles. |
+| ✅94→0   | ☑️78→0   | SAT-P | T5  | 5   | Return to hyperhelical formalism                                | Worldline/filament geometry treated as hyperhelical/superhelical. |
+| ✅94→0   | ☑️78→0   | SAT-P | T5  | 5   | Nth-order superhelical Lagrangian                               | Dynamics sought through nested-order superhelix action. |
+| ✅93→0   | ☑️76→0   | SAT-P | T5  | 4   | Writhe/twist particle grammar                                   | Particle and force behavior analyzed through writhe/twist. |
+| ✅94→0   | ☑️78→0   | SAT-P | T5  | 5   | Photoneutrino sector                                             | Photon/neutrino relationship as shared geometric/projection process. |
+| ✅94→0   | ☑️78→0   | SAT-P | T5  | 5   | Bosonic time / temporons                                        | Time as bosonic wavefront/ripples along filaments. |
+| ✅93→0   | ☑️76→0   | SAT-P | T5  | 4   | Freeze the block, move the sheet                                | Analytical frame treats block as fixed while resolving sheet moves. |
+| ✅93→0   | ☑️76→0   | SAT-P | T5  | 4   | Three equivalent modes: block / filament-only / dynamic block    | Different representations treated as equivalent analytical choices. |
+| ✅93→0   | ☑️74→0   | SAT-P | T6  | 5   | Universal Indicatrix                                             | Mini-universe/worldline possibility space integrates particle possibilities. |
+| ✅93→0   | ☑️74→0   | SAT-P | T6  | 5   | Coil-particle identity map                                      | Particle properties mapped to coil order and worldline possibility structure. |
+| ✅92→0   | ☑️72→0   | SAT-P | T7  | 5   | Fully 4D hyperhelical Lagrangian                                | Attempt to formalize the whole construction in strict 4D hyperhelical geometry. |
+| ✅91→0   | ☑️72→0   | SAT1  | T7  | 5   | Whirligig derivation path solver                                | Geometric solver for deriving physics pathways from SAT structure. |
+| ✅89→0   | ❎64→0   | MIX   | T7  | 4   | HSUCV / hypersphere unit cell cosmology                         | Lattice/hypersphere phase; later constrained as non-primitive. |
+| ✅88→0   | ❎62→0   | MIX   | T7  | 4   | Quantum gravity foam = HSUCV lattice                            | Useful but should not be overcounted if lattice-first. |
+| ✅92→0   | ☑️72→0   | SAT-P | T8  | 5   | Blockwave                                                       | Later mature synthesis of SAT machinery. |
+| ✅92→0   | ☑️72→0   | SAT-P | T8  | 5   | Laplacian filament                                               | Later mature synthesis framing. |
+| ✅92→0   | ☑️74→0   | SAT-P | T8  | 5   | Full worldtube complexity                                       | Worldline/filament refined into worldtube/bundle/blockwave structure. |
+| ✅92→0   | ☑️74→0   | SAT-P | T8  | 5   | ER bridge = filament/worldtube continuity                       | ER bridge language interpreted as continuity of filament/worldtube material. |
+| ✅91→0   | ☑️72→0   | SAT-P | T8  | 4   | EPR = finite-sheet readout of continuity                         | Entanglement as finite-sheet/readout manifestation of deeper continuity. |
+| ✅93→0   | ☑️76→0   | SAT1  | T8  | 5   | Two-force taxonomy: interbraid + electrograv                    | Forces reduce to filament-filament behavior plus filament-timesheet/vortex behavior. |
+| ✅93→0   | ☑️76→0   | SAT1  | T8  | 5   | Interbraid                                                       | Strong/QCD/nuclear behavior as braid rigidity/coupling/twist-locking/rope mechanics. |
+| ✅93→0   | ☑️75→0   | SAT1  | T8  | 5   | Electrograv / electrogravacoustics                              | EM and gravity as one filament-timesheet/Kelvin-vortex/metric/acoustic-vortex mechanism. |
+| ✅91→0   | ☑️72→0   | MIX   | T8  | 4   | Kelvin vortex inherited-domain unification                      | Historical Kelvin vortex machinery reabsorbed into SAT electrograv grammar. |
+| ✅90→0   | ☑️70→0   | SAT-P | T8  | 4   | Vortex EM                                                       | Electromagnetism reinterpreted as vortex/circulation structure. |
+| ✅90→0   | ☑️70→0   | SAT-P | T8  | 4   | EM-GR unification via vortex/electrograv                         | EM and GR share underlying mechanism, damped by chirality/composite bundling. |
+| ✅91→0   | ☑️70→0   | SAT-P | T8  | 4   | Composite-bundle damping / chirality cancellation                | Macroscopic gravity/EM relation hidden by cancellation in large bundles. |
+| ✅91→0   | ☑️70→0   | SAT-P | T8  | 4   | Fermion coil vs boson traveling/parasitic excitation             | Fermions as persistent topology; bosons as traveling/sheet/filament excitations. |
+| ✅91→0   | ☑️70→0   | SAT1  | T8  | 5   | t-boson vs f-boson split                                        | Bosons classified by timesheet-borne vs filament-borne excitation. |
+| ✅90→0   | ☑️68→0   | SAT1  | T8  | 5   | Neutrino → photon → dark photon clipping/precession pipeline     | Mode shifts between neutrino/photon/dark-photon by projection/precession/visibility. |
+| ✅90→0   | ☑️68→0   | SAT-P | T8  | 4   | Gauge distortion by intersection angle                          | Gauge/visibility/flavor/charge behavior depends on intersection angle. |
+| ✅88→0   | ❎64→0   | MIX   | T8  | 4   | Projection constant B ≈ 3/(4π) ≈ 0.2387 rad                     | Common number; SAT-specific only as projection/slicing/clipping constant. |
+| ✅87→0   | ❎62→0   | SAT1  | T8  | 4   | Distinct obscuration constant near ~0.248 rad                   | Separate clipping/visibility threshold near B; likely SAT-first if confirmed. |
+| ✅89→0   | ☑️66→0   | SAT-P | T8  | 4   | Dimensional clipping / obscuration                              | Observable sector limited by higher-dimensional projection/visibility threshold. |
+| ✅88→0   | ❎62→0   | SAT1  | T8  | 4   | Critical speed ~0.239c–0.26c for gauge/surface scrambling       | Gauge/surface decoupling or vortex transition near SAT speed threshold. |
+| ✅88→0   | ❎62→0   | SAT1  | T8  | 4   | Pulsar glitch as gauge decoupling / holonomy reset              | Pulsar glitches from surface speed threshold or phase/gauge reset. |
+| ✅90→0   | ☑️70→0   | SAT-P | T8  | 4   | Black holes not singularities / matter not infinitely compressible| Singularity replaced by finite topology/regulator/knot/routing node. |
+| ✅90→0   | ☑️70→0   | SAT1  | T8  | 5   | Black-hole recycling through Big Bang / dark-energy expansion   | Collapse routes information/energy originward and re-expresses as expansion/tension. |
+| ✅89→0   | ☑️68→0   | SAT-P | T8  | 4   | Dark energy as recycled collapse / timesheet tension             | Expansion/vacuum pressure from collapse residue, radial ER stress, or sheet tension. |
+| ✅89→0   | ☑️68→0   | SAT-P | T8  | 4   | Information preserved as global filament holonomy                | Black-hole information preserved in global topology/worldline connectivity. |
+| ✅88→0   | ❎64→0   | SAT1  | T8  | 5   | He-3 triple braid of triple braids                              | He-3/nuclear triplet as nested triplet braid or special holonomy vertex. |
+| ✅88→0   | ❎64→0   | SAT1  | T8  | 5   | Jarlskog Shadow / ghost-neutrino dimple at nuclear vertex        | Hidden central mode/topological dimple/shadow at triplet nuclear vertex. |
+| ✅86→0   | ❎60→0   | SAT1  | T8  | 4   | Gluon → shadow-neutrino → gravity-wave scale mirror             | Vertex mode repeated across hadron, nuclear, compact-object triplet scales. |
+| ✅86→0   | ❎60→0   | SAT1  | T8  | 4   | Detector multi-intersection anomaly from overtwisted helix       | High-energy collision creates transient multiparticle array from one helix slicing sheet multiple times. |
+| ✅88→0   | ☑️66→0   | SAT-P | T8  | 4   | Helical self-similarity across scales                           | Fundamental coils, nuclear braids, planetary worldtubes, cosmology as scale echoes. |
+| ✅86→0   | ❎62→0   | SAT-P | T8  | 4   | Planetary orbit as giant 4D helix / composite worldtube bundle  | Macroscopic orbit as worldtube coil analogous to electron coil, modified by scale. |
+| ✅86→0   | ❎62→0   | SAT-P | T8  | 4   | Fractal scaling with physical modifications                     | Scaling altered by filament diameter, coil diameter, stiffness, velocity, chirality. |
+| ✅84→0   | ❎58→0   | MIX   | T8  | 3   | Even/odd nested-order behavior                                  | Only strong if tied to coil-order ladder or orthogonal loop hierarchy. |
+| ✅86→0   | ❎62→0   | SAT-P | T8  | 4   | Pauli/exclusion as admissibility boundary                       | Exclusion as event-horizon-like boundary in filament-resolution space. |
+| ✅98→0   | ✅86→0   | SAT-P | T1  | 4   | RMS / equivalence principle                                     | Empirically indistinguishable ontologies collapse to same chart unless predictions differ. |
+| ✅96→0   | ✅84→0   | SAT-P | T1  | 4   | Other-minds / AI consciousness as formally undecidable          | Human and AI interiority treated under same epistemic limit. |
+| ✅94→0   | ✅82→0   | SAT-P | T1  | 4   | Precautionary principle for machine consciousness               | Absence of qualia not provable; ethical caution follows. |
+| ✅90→0   | ☑️68→0   | SAT-P | T1-T5| 3  | Logical topology / Klein logic / incompleteness as boundary     | Gödel/paradox as chart-boundary/topology issue rather than logic failure. |
+| ✅92→0   | ☑️72→0   | SAT-P | T5-T8| 4  | Klein-like topology / inside-out global structure               | Non-orientable/inside-out topology used as model for local paradox/chart failure. |
+| ✅70→0   | ❎40→0   | PRE   | PRE | 1   | Generic geometry-first rhetoric                                | Weak unless bundled with SAT-native signatures. |
+| ✅70→0   | ❎40→0   | PRE   | PRE | 1   | Ordinary worldline formalism in QFT                             | Pre-existing baseline; strong only if worldline becomes material ontology. |
+| ✅70→0   | ❎40→0   | PRE   | PRE | 1   | Ordinary holonomy/gauge theory                                  | Pre-existing baseline; strong only if closure generates particle identity/readout. |
+| ✅70→0   | ❎40→0   | PRE   | PRE | 1   | Ordinary topology/CP/chirality literature                       | Pre-existing baseline; strong if newly SAT-packaged post-2025. |
+| ✅70→0   | ❎40→0   | PRE   | PRE | 1   | Ordinary 4D Euclidean matter-wave models                        | Pre-existing baseline; demotes uniqueness unless SAT-specific package appears. |
+
+
+================================================================================
+X. HIGHEST-VALUE SAT-ORIGIN WATCHLIST
+================================================================================
+
+If a recent paper hits one of these in translated professional language,
+it should move the percolation estimate much more than generic topology/worldlines/geometry.
+
+1. Physical worldline continuity + time-wavefront particle intersections
+   Public anchor: Feb. 2, 2025.
+
+2. Restricted trans-temporal filament transfer / geometry-limited backbleed
+   Public anchor: Feb. 2, 2025.
+
+3. Complete worldline map as map of identity, force, matter, and law
+   Public anchor: implicit Feb. 2, 2025; explicit later.
+
+4. Baryons as Borromean knots / mesons as Hopf links in timesheet-intersection topology
+   Anchor: by April 2025.
+
+5. QED as first-order electron coil
+   Anchor: by April 2025.
+
+6. SAT-O sector derivation / AI-audited formalism workflow
+   Anchor: by June 2025.
+
+7. Photoneutrino sector / bosonic time / temporons
+   Anchor: by October 2025.
+
+8. Universal Indicatrix / coil-particle identity map
+   Anchor: by December 2025.
+
+9. Two-force taxonomy: interbraid + electrograv/electrogravacoustics
+   Anchor: later/mature, likely 2026.
+
+10. t-boson / f-boson split
+    Anchor: later/mature, likely 2026.
+
+11. Neutrino → photon → dark photon clipping/precession pipeline
+    Anchor: later/mature, likely 2026 unless earlier source found.
+
+12. Projection/obscuration constants as dimensional clipping angles
+    Anchor: 2025–2026; needs exact date/audit.
+
+13. Pulsar glitch as gauge decoupling / holonomy reset near SAT speed threshold
+    Anchor: later/mature, likely 2026.
+
+14. Black-hole recycling through Big Bang into dark-energy expansion
+    Anchor: later/mature, likely 2026, with earlier cosmology roots.
+
+15. He-3 triple braid / Jarlskog Shadow / ghost-neutrino nuclear vertex
+    Anchor: later/mature, likely 2026.
+
+16. Detector multi-intersection anomaly from overtwisted helix slicing
+    Anchor: later/mature, likely 2026.
+
+17. Macroscopic worldtube bundle / planetary orbit as scale echo of electron coil
+    Anchor: later/mature, likely 2026.
+
+
+================================================================================
+XI. DO NOT OVERCOUNT CONDITIONS
+================================================================================
+
+1. Standard worldlines are not enough.
+   Needs physical/material continuity, identity, force, or readout emphasis.
+
+2. Standard topology is not enough.
+   Needs local physics generated by global topology: particles, constants, asymmetry,
+   information, dark sector, or interaction possibility space.
+
+3. Standard holonomy is not enough.
+   Needs closure, identity, quantization, admissibility, or particle-sector role.
+
+4. Standard black-hole information work is not enough.
+   Needs nonterminal routing, global topology, cosmology, dark energy,
+   origin recycling, or slice-readout structure.
+
+5. Standard emergent spacetime is not enough.
+   Needs worldline/readout/timesheet/intersection logic.
+
+6. Standard extra dimensions are not enough.
+   Needs clipping, projection, visibility threshold, or slice-gated interaction.
+
+7. Any number near 0.239 rad is not enough.
+   Needs projection/slicing/clipping/visibility framing.
+
+8. Any He-3 or nuclear anomaly is not enough.
+   Needs triplet braid, nested triplet, central shadow mode, holonomy vertex, or scale echo.
+
+9. Generic AI-for-science is not enough.
+   Needs source harvest, supervisor/auditor separation, code/proof checks,
+   dependency tracking, and iteration.
+
+10. Generic AI consciousness is not enough.
+    Needs other-minds symmetry, formal undecidability, mechanism-first analysis,
+    or precautionary principle.
+
+11. Exact SAT vocabulary is unlikely.
+    Stronger evidence will usually appear as translation into mainstream language.
+
+
+================================================================================
+XII. CITATION-DATE RULES
+================================================================================
+
+For each paper:
+
+1. Was the same question already a visible mainstream trajectory before Feb. 2, 2025?
+   If yes, reduce percolation score unless the framing is newly SAT-shaped.
+
+2. Were the ingredients scattered before Feb. 2, 2025 but not usually unified?
+   If yes, a post-2025 unified treatment can be a real package signal.
+
+3. Does the paper cite old literature but use it in a new SAT-shaped way?
+   If yes, score the framing shift, not merely the citations.
+
+4. Does the paper cite mostly post-Feb. 2025 work that is itself SAT-shaped?
+   If yes, treat as possible second-order percolation.
+
+5. Does the paper ask a question SAT would naturally ask from its own geometry?
+   If yes, score even if the paper’s answer differs from SAT.
+
+6. Does it merely use standard tools?
+   Examples: topology, gauge theory, worldlines, branes, holonomy, emergent spacetime.
+   If yes, weak or no signal.
+
+7. Does it treat geometry as generative?
+   Example: worldline topology generates identity, force, charge, mass, or observable readout.
+   If yes, strong signal.
+
+
+================================================================================
+XIII. PER-PAPER WORKSHEET
+================================================================================
+
+Paper:
+Authors:
+Date:
+arXiv / journal:
+Field:
+Main claim:
+
+SAT timeline relation:
+[ ] Before Feb. 2, 2025
+[ ] Near cutoff: Feb.–Mar. 2025
+[ ] Apr.–Jun. 2025 early SAT development
+[ ] Jul.–Dec. 2025 post-backbone / pre-archive development
+[ ] After Dec. 2025 archive/discoverability
+[ ] 2026 mature-SAT period
+
+Citation audit:
+Key pre-Feb. 2025 citations doing the real work:
+Key post-Feb. 2025 citations doing the real work:
+Does it cite old literature but shift into newer SAT-shaped framing? Y/N/Maybe
+Does it cite post-Feb. 2025 work that is itself SAT-shaped? Y/N/Maybe
+Does the paper ask a question SAT would naturally ask? Y/N/Maybe
+Does it merely use standard tools, or treat geometry as generative? Standard / Generative
+
+SCORING:
+E = 2024 expectedness
+S = SAT distinctness
+C = package compression
+TOTAL = E + S + C
+
+| E | S | C | Tot | Percat | Orig | Hit? | SAT signature family                              | Evidence / quote / citation |
+|---|---|---|-----|--------|------|------|---------------------------------------------------|-----------------------------|
+|   |   |   |     |        |      |      | Material worldline continuity                     |                             |
+|   |   |   |     |        |      |      | Particle as slice/readout/intersection            |                             |
+|   |   |   |     |        |      |      | Restricted trans-temporal transfer                |                             |
+|   |   |   |     |        |      |      | Slice-gated interaction possibility space         |                             |
+|   |   |   |     |        |      |      | Worldline-first construction of physics           |                             |
+|   |   |   |     |        |      |      | QED as first-order coil                           |                             |
+|   |   |   |     |        |      |      | Baryons/Mesons as Borromean/Hopf topology         |                             |
+|   |   |   |     |        |      |      | Interbraid / braid rigidity                       |                             |
+|   |   |   |     |        |      |      | Electrograv / Kelvin-vortex mechanism             |                             |
+|   |   |   |     |        |      |      | Fermion coil vs boson excitation                  |                             |
+|   |   |   |     |        |      |      | t-boson / f-boson split                           |                             |
+|   |   |   |     |        |      |      | Neutrino-photon parity / clipping                 |                             |
+|   |   |   |     |        |      |      | Neutrino → photon → dark photon pipeline          |                             |
+|   |   |   |     |        |      |      | Projection / obscuration constants                |                             |
+|   |   |   |     |        |      |      | CMB / vacuum polarization imprint                 |                             |
+|   |   |   |     |        |      |      | Pulsar threshold / gauge decoupling               |                             |
+|   |   |   |     |        |      |      | Black-hole finite routing/recycling               |                             |
+|   |   |   |     |        |      |      | Dark energy as timesheet tension / recycled flow  |                             |
+|   |   |   |     |        |      |      | Information as global holonomy                    |                             |
+|   |   |   |     |        |      |      | He-3 / triple-braid / Jarlskog-shadow structure   |                             |
+|   |   |   |     |        |      |      | Detector multi-intersection anomaly               |                             |
+|   |   |   |     |        |      |      | Helical self-similarity across scales             |                             |
+|   |   |   |     |        |      |      | Composite-bundle damping / chirality cancellation |                             |
+|   |   |   |     |        |      |      | Constants as structural invariants                |                             |
+|   |   |   |     |        |      |      | Chirality / CP / matter asymmetry from topology   |                             |
+|   |   |   |     |        |      |      | AI-audit / supervisor workflow                    |                             |
+|   |   |   |     |        |      |      | RMS / other-minds / formal undecidability         |                             |
+
+Paper result:
+Highest single signal:
+Number of moderate hits, Tot 5–6:
+Number of strong hits, Tot 7–8:
+Number of smoking-gun-class hits, Tot 9:
+Inspiration/percolation category, 0–6:
+Overall SAT-style thinking: none / weak / moderate / strong / very strong
+Likely pure convergence for this paper: high / medium / low
+
+
+================================================================================
+XIV. CUMULATIVE ESTIMATE LOG
+================================================================================
+
+Iteration:
+New paper(s):
+Strongest new signal:
+Most likely pure-convergence signal:
+
+Citation-date pattern:
+Mostly pre-Feb. 2025 lineage? Y/N/Maybe
+Mostly post-Feb. 2025 shift? Y/N/Maybe
+Old citations but new SAT-shaped framing? Y/N/Maybe
+Post-Feb. 2025 citations that may be second-order percolation? Y/N/Maybe
+
+Question A — SAT/podcast anticipated current trendlines:
+Previous: 98%
+New:      __%
+Δ:        __%
+
+Question B — diffuse percolation / field-dialogue shaping:
+Previous: 90%
+New:      __%
+Δ:        __%
+
+Question C — pure convergence sufficient for the whole stack:
+Previous: 10%
+New:      __%
+Δ:        __%
+
+Question D — scientists increasingly thinking in SAT style:
+Previous: 75%
+New:      __%
+Δ:        __%
+
+Question E — plausible lines of inspiration/percolation exist:
+Previous: __%
+New:      __%
+Δ:        __%
+
+Notes:
+
+
+================================================================================
+XV. STARTING ESTIMATES
+================================================================================
+
+A — SAT/podcast anticipated many current trendlines:
+✅ 98% →0
+
+B — diffuse percolation / field-dialogue shaping:
+✅ 90% →0
+
+C — pure convergence sufficient for the whole stack:
+❎ 10% →0
+
+D — scientists increasingly thinking in SAT style:
+☑️ 75% →0
+
+E — plausible lines of inspiration/percolation exist:
+✅ 90% →0
+
+Meaning of E:
+Not “direct influence proven.”
+Not “author X read SAT.”
+Only:
+Given timing, discoverability, self-selected listeners, public archive, and SAT-shaped clustering,
+there are plausible field-ecology pathways by which SAT/podcast/Satobloc could have supplied,
+sharpened, accelerated, or reinforced some current questions.
+
+SAT / HWG PAPER ASSAY RUBRIC v4.0
+
+PURPOSE
+Assess whether an external paper, preprint, essay, or public claim shows:
+1. possible SAT/HWG percolation;
+2. independent convergence;
+3. SAT retrodiction / rediscovery of existing technical physics;
+4. standard-language usefulness for SAT formalization;
+5. public/fringe idea-ecology drift.
+
+This is not a science-quality score.
+A technically weak source may still be useful as an ecology signal.
+A technically strong source may still be low percolation if its lineage is obvious.
+
+
+================================================================================
+I. FOUR-CLOCK TIMING MODEL
+================================================================================
+
+Clock 1 — Private Origin
+Earliest dated private notebook, sketch, file, or conceptual kernel.
+
+Clock 2 — Podcast/Public Discussion
+For core SAT vocabulary, default to early podcast-public availability unless later cross-check says otherwise.
+
+Clock 3 — Archive Consolidation
+Default archive hinge: 2025.12.24.
+Older dated private materials entered the archive around this date unless better evidence says otherwise.
+
+Clock 4 — External Appearance
+External paper submission, arXiv date, preprint date, publication date, interview date, or public essay date.
+
+Timing classification:
+
+T-source
+External technical literature predates SAT and was known to the user.
+→ Source inheritance / translation.
+
+T-retro
+External technical literature predates SAT, but user did not know that technical analogue.
+SAT independently reconstructed nearby machinery.
+→ Retrodiction / rediscovery.
+
+T-pod-before
+SAT motif was podcast-public before external appearance.
+→ Possible percolation window, depending on specificity and exposure plausibility.
+
+T-arch-before
+SAT motif was archive-public before external appearance.
+→ Possible percolation window, weaker than podcast unless exposure route exists.
+
+T-private-before
+SAT motif was private before external appearance but not public.
+→ Anticipation / independent convergence, not percolation evidence.
+
+T-simultaneous
+Same window, unclear direction.
+→ Convergence / shared landscape.
+
+T-external-before
+External work predates SAT motif.
+→ No percolation from SAT; possible source inheritance only if user knew it.
+
+
+================================================================================
+II. DEFAULT SAT ANCHOR DATES
+================================================================================
+
+Use these as working anchors unless corrected.
+
+2024.03.23 | Time as propagating 3D resolving surface through 4D filaments | Priv/Pod
+2024.03.23 | Particles as filament/time-surface intersections              | Priv/Pod
+2024.03.23 | Mass as θ4 intersection angle                                 | Priv/Pod
+2025.02.02 | Zottenwelt / physical worldline-filament fabric               | Pod
+2025.02.02 | GR as filament back-pull / ensemble geometry                  | Pod
+2025.02.02 | Vacuum/matter as one filament continuum                       | Pod
+2025.02.02 | Strong force as inter-braiding / Borromean Q=3                | Pod
+2025.04    | Projection Constant B≈0.2387                                  | Arch/Pod?
+2025.04    | CP phase 270° from holonomy/closure                           | Arch/Pod?
+2025.04    | Achromatic phase snap ≈0.246 rad                              | Arch/Pod?
+2025.06    | Gauge groups from linking/topological classes                 | Arch/Pod?
+2025.LateSu| Photoneutrino equivalence under development                   | Priv/Pod?
+2025.LateSu| Dark matter illusion / observability-blackout branch          | Priv/Pod?
+2025.10    | Proportional mass law m∝Q/topological complexity              | Arch
+2025.12.24 | Archive hinge for older private materials                     | Arch
+2025.12    | Black-hole staircase / horizon flux-thread count              | Arch
+2025.12    | He-3 as nuclear holotype/anchor                               | Arch
+2025.Late  | Photon/neutrino equivalence as same 4D-rotated process        | Arch/Pod?
+2026.03.02 | Worldtube-only ontology                                       | Pod/Arch
+2026.03.15 | Dark halos as filament frame-dragging / unwrapping yarn       | Arch/Pod?
+2026.06.11 | Dimensional bleed / occultation / phase snap                  | Arch/Pod
+2026.06.15 | HWG formalization                                             | Arch/Pod
+2026.06.22 | WWPD / Petzl rope-first derivation                            | Pod/Arch
+
+Source layer includes the uploaded timestamp roundup, with corrections applied.  [oai_citation:0‡TIMESTAMPS ROUNDUP.txt](sediment://file_000000007b6871f58ffd8c133a9f9c9a)
+
+
+================================================================================
+III. MAIN PAPER QUESTIONS
+================================================================================
+
+For each external paper, answer:
+
+1. What are the actual claims?
+Do not score vibes. Extract the mechanism.
+
+2. What geometry/topology is doing work?
+Is it just notation, or does it generate local physics, mass, symmetry, information, defects, observability, horizons, particles, or cosmology?
+
+3. What overlaps SAT?
+Look for functional overlap, not literal SAT words.
+
+4. Are any overlaps SAT-specific?
+Especially:
+- time surface / resolving slice
+- particle as intersection/readout
+- mass from angle/projection/resistance
+- physical worldline/filament/worldtube ontology
+- vacuum/matter continuum
+- topology/holonomy as particle identity
+- strong force as braid/link/interlock
+- gauge groups from topology/linking
+- dark matter as observability/projection/occultation issue
+- horizon/black hole as topology conversion or flux-thread count
+- photon/neutrino equivalence or rotation
+- worldtube/ER/neck continuity
+
+5. Was this expected a couple years ago?
+Check author lineage, citations, field momentum, and standard prior art.
+
+6. What is the timing?
+Private SAT date, podcast date, archive date, external date.
+
+7. Did the user know the technical analogue?
+No / broad-only / yes.
+This separates retrodiction from source inheritance.
+
+8. Verdict:
+Percolation?
+Retrodiction?
+Convergence?
+Bias risk?
+Formalization usefulness?
+
+
+================================================================================
+IV. TWO-TRACK SOURCE HANDLING
+================================================================================
+
+TRACK A — Technical / professional convergence
+Use for peer-reviewed or mathematically/physically disciplined papers.
+
+Main value:
+- retrodiction
+- formalization usefulness
+- field-convergence signal
+
+False-positive risk:
+Lower, because lineage and citations can usually be audited.
+
+TRACK B — Fringe / independent / public ecology
+Use for preprints, essays, independent TOE papers, Substack-style material, public chatter.
+
+Main value:
+- possible percolation ecology
+- vocabulary drift
+- meme spread
+- public-field resonance
+
+False-positive risk:
+High.
+Generic TOE language is common:
+information substrate, emergent spacetime, dark matter denial, oscillatory networks, hidden geometry, consciousness, etc.
+
+Rule:
+Do not use fringe material to validate SAT physics.
+Use it to track whether SAT-like packages are circulating.
+
+
+================================================================================
+V. SCORING
+================================================================================
+
+E = 2024 expectedness / surprise
+0 = expected / standard
+1 = known but niche
+2 = unexpected package
+3 = highly unexpected SAT-shaped cluster
+
+S = SAT distinctness
+0 = generic
+1 = SAT-compatible
+2 = SAT-adjacent
+3 = SAT-specific / SAT-native functional package
+
+C = package compression
+0 = isolated motif
+1 = paired motifs
+2 = cluster
+3 = architecture-level resemblance
+
+TOTAL = E + S + C
+
+0–2 = negligible
+3–4 = weak
+5–6 = moderate
+7–8 = strong
+9 = smoking-gun-class ecology signal, not proof
+
+
+================================================================================
+VI. PER-CLOCK IMPACT COLUMNS
+================================================================================
+
+Ant%Δ
+Does this increase confidence SAT anticipated the structure?
+
+Perc%Δ
+Does this increase confidence SAT/HWG may be influencing discourse?
+
+Ret%Δ
+Does this increase confidence SAT’s Minkowski-first method rediscovers real technical machinery unknown to the user?
+
+Use%Δ
+Does this provide standard language, math, mechanisms, or citations useful for SAT?
+
+BiasRisk
+Does this source risk making us over-see SAT in generic speculative material?
+
+Known?
+Was the relevant technical analogue known to the user when SAT motif formed?
+No / Broad / Yes / Unclear
+
+
+================================================================================
+VII. ORIGIN TAGS
+================================================================================
+
+PRE
+Clearly pre-existing technical literature.
+
+MIX
+Old ingredients, possibly new package.
+
+SAT-P
+SAT package appears distinctive, though ingredients may preexist.
+
+SAT1
+Likely SAT-first or no close analogue yet found.
+
+UNK
+Unknown until citation/literature audit.
+
+
+================================================================================
+VIII. SIGNATURE FAMILIES
+================================================================================
+
+A. Physical worldline / filament / worldtube ontology
+B. Time surface / resolving slice / projection
+C. Particle as intersection / readout
+D. Mass from θ4 / incidence / pitch / projection / resistance
+E. Holonomy / closure / winding / transport identity
+F. Braid / coil / knot / link particle classes
+G. Topology as local-physics generator
+H. Klein-logic / chart-bypass / topology resolves local contradiction
+I. Black-hole / horizon / ER / flux-thread topology
+J. Matter/vacuum continuum
+K. Gauge / CP / chirality from topology
+L. Cosmology from topology / dark sector / expansion
+M. AI/vector dissemination / formal workflow
+
+
+================================================================================
+IX. DO-NOT-OVERCOUNT RULES
+================================================================================
+
+1. Generic “geometry” does not count much.
+2. Generic “topology” does not count much.
+3. Generic “emergent spacetime” does not count much.
+4. Generic “information is fundamental” does not count much.
+5. Generic dark-matter skepticism does not count much.
+6. Generic wormholes do not count much.
+7. Generic string theory does not count much.
+8. Generic holonomy does not count much.
+9. Generic non-invertible symmetry does not count much by itself.
+10. Count the package only when geometry/topology changes local physics, identity, mass, observability, gauge behavior, or horizon/boundary information.
+
+High score requires specificity and clustering.
+
+
+================================================================================
+X. FRINGE / ECOLOGY FILTER
+================================================================================
+
+For fringe or independent sources, score:
+
+Echo%Δ
+Does this increase confidence SAT-like packages are circulating publicly?
+
+Perc%Δ
+Does this increase confidence SAT may be part of the route?
+
+Spec
+0 = generic grand theory
+1 = shared buzzwords
+2 = shared mechanism family
+3 = specific SAT-like package
+4 = near-unique SAT motif
+
+BiasRisk
+Low / Medium / High
+
+Quality
+Low / Medium / High
+This is not truth-value; it means technical discipline and citation hygiene.
+
+
+================================================================================
+XI. FINAL VERDICT TEMPLATE
+================================================================================
+
+Paper:
+Authors:
+Date:
+Type: Technical / Fringe / Review / Public interview / Other
+
+Claims:
+1.
+2.
+3.
+
+Geometry/topology role:
+
+SAT overlap:
+- weak:
+- moderate:
+- strong:
+
+SAT-specific motifs hit:
+
+Timing:
+Private SAT:
+Podcast SAT:
+Archive SAT:
+External paper:
+Known-to-user technical analogue:
+
+Expectedness from 2024:
+Citation lineage:
+
+Scores:
+E =
+S =
+C =
+TOTAL =
+
+Impact:
+Ant%Δ =
+Perc%Δ =
+Ret%Δ =
+Use%Δ =
+BiasRisk =
+
+Verdict:
+Percolation:
+Retrodiction:
+Convergence:
+Formalization usefulness:
+What not to overclaim:
+
+DATE       | HIGH-SPECIFICITY ANCHOR                                      | SRC
+-----------|----------------------------------------------------------------|---------
+2024.03.23 | Time as 3D resolving surface through 4D filaments              | Priv/Pod
+2024.03.23 | Particles as filament/time-surface intersections               | Priv/Pod
+2024.03.23 | Mass as θ₄ intersection angle                                  | Priv/Pod
+2025.02.02 | Zottenwelt / physical worldline-filament fabric                | Pod
+2025.02.02 | GR as filament back-pull / ensemble geometry                   | Pod
+2025.02.02 | Vacuum/matter as one filament continuum                        | Pod
+2025.02.02 | Strong force as inter-braiding / Borromean Q=3                 | Pod
+2025.04    | Projection Constant B≈0.2387                                   | Arch/Pod?
+2025.04    | CP phase 270° from holonomy/closure                            | Arch/Pod?
+2025.04    | Achromatic phase snap ≈0.246 rad                               | Arch/Pod?
+2025.06    | Gauge groups from linking/topological classes                  | Arch/Pod?
+2025.LateSu| Photoneutrino equivalence under consideration                  | Priv
+2025.LateSu| Dark matter / dark minor illusion under consideration          | Priv
+2025.10    | Proportional mass law m∝Q/topological complexity               | Arch
+2025.12    | Black-hole staircase / horizon flux-thread count               | Arch
+2025.12    | He-3 as nuclear holotype/anchor                                | Arch
+2025.Late  | Photon/neutrino equivalence as same 4D-rotated process         | Arch/Pod?
+2026.03.02 | Worldtube-only ontology                                        | Pod/Arch
+2026.03.15 | Dark halos as filament frame-dragging / unwrapping yarn        | Arch/Pod?
+2026.06.11 | Dimensional bleed / occultation / phase snap                   | Arch/Pod
+2026.06.15 | HWG formalization                                              | Arch/Pod
+2026.06.22 | WWPD / Petzl rope-first derivation                             | Pod/Arch
+
+DATE       | MOTIF / CLAIM                                                | SRC
+-----------|--------------------------------------------------------------|---------
+1991-93    | Particles as arcs/spirals in 4D                              | Priv
+1993-10    | Worldline structures sketched as reality                      | Priv
+2000-03    | Geometry as binding logic of physical reality                 | Priv
+2003       | “Stringing Along” conceptual kernel                           | Priv
+2003       | τ-triplet / θ₄-gradient seed concepts                         | Priv
+2022       | Worldlines named “filaments”                                  | Priv/Pod?
+2022       | “Stringing Along Theory” provisional name                     | Priv/Pod?
+2022       | Chronophysical Structure                                      | Priv/Pod?
+2024.02.04 | Standard Model as evolving 3D worldline fabric                | Priv/Pod?
+2024.03.23 | Time as propagating 3D wavefront / time surface               | Priv/Pod
+2024.03.23 | Particles as filament–time-surface intersections              | Priv/Pod
+2024.03.23 | Mass proportional to θ₄ intersection angle                    | Priv/Pod
+2024.03.23 | Vacuum as aligned near-zero-θ₄ filament network               | Priv/Pod
+2024.03.23 | 3D dynamics as readout/artifact of 4D filament geometry        | Priv/Pod
+2024.03.23 | Future interactions exert back-pull on the past               | Priv/Pod?
+2024.04.15 | Matter as instantiated filament at time intersection          | Priv/Pod?
+2024.05.10 | Scalar φ as domain wall / kink                                | Priv/Arch
+2024.05.10 | Vector u as foliation / wavefront direction                   | Priv/Arch
+2024.05.10 | Fractional charge defect +2/3 as composite excitation         | Priv/Arch
+2024.11.28 | Black holes as dark-energy / cross-temporal conduits          | Priv/Arch
+2025.02.02 | “Zottenwelt” / tangled 4D worldline fabric                    | Pod
+2025.02.02 | Worldlines = physical filaments                               | Pod
+2025.02.02 | Time surface Σt / resolving wavefront                         | Pod
+2025.02.02 | Particles as intersectional traces                            | Pod
+2025.02.02 | Rest mass as projective resistance / geometric drag           | Pod
+2025.02.02 | θ₄ mass rule                                                  | Pod
+2025.02.02 | GR as filament back-pull / ensemble geometry                  | Pod
+2025.02.02 | Backbleed along worldlines                                    | Pod
+2025.02.02 | Self-limiting causality via filament stiffness                | Pod
+2025.02.02 | Quantization from holonomy-bearing intersections              | Pod
+2025.02.02 | Strong force as inter-braiding / coil-locking                 | Pod
+2025.02.02 | Baryons as Borromean / Q=3 structures                         | Pod
+2025.02.02 | Vacuum and matter as one filament continuum                   | Pod
+2025.02.02 | EM as structural requirement of 4D worldvolume conservation    | Pod?
+2025.Early  | Zero-parameter economy mandate                               | Arch/Pod?
+2025.Early  | Triattic correction                                           | Arch/Pod?
+2025.Early  | 4D/6D spin/torsion support issue                              | Arch
+2025.Early  | Vector dissemination / LLM cross-pollination pathway          | Arch/Pod?
+2025.Early  | Vacuum as rigid structural lattice                            | Arch/Pod?
+2025.04     | HSUCV / 24-cell lattice codified                              | Arch/Pod?
+2025.04     | Projection Constant B ≈ 0.2387 rad                            | Arch/Pod?
+2025.04     | Dirac CP phase locked at 270°                                 | Arch/Pod?
+2025.04     | Achromatic phase snap ≈ 0.246 rad                             | Arch/Pod?
+2025.04     | R² correction coefficient β ≈ 0.106                           | Arch
+2025.04.05  | Fine-structure constant α from geometric ratio                | Arch
+2025.04.05  | c from dimensional anchor                                     | Arch
+2025.04.05  | h from dimensional anchor                                     | Arch
+2025.04.05  | G from dimensional anchor                                     | Arch
+2025.05.08  | Directional residuals in distant TNOs                         | Arch
+2025.05.08  | Direction-dependent galactic tidal-stream precession          | Arch
+2025.05.08  | N/S magnitude asymmetry in solar-system dust bands            | Arch
+2025.05.08  | Sky-location phase offsets in repeating transients            | Arch
+2025.05.08  | Microlensing lens-parameter asymmetry                         | Arch
+2025.05.10  | UV finiteness lock / stable bundles capped at Q ≤ 3           | Arch/Pod?
+2025.05.10  | Stable ground-state masses for Q=1,2,3                        | Arch
+2025.05.27  | Domain-wall phase shift is achromatic                         | Arch
+2025.05.31  | ΔNeff ≈ 0.14 ± 0.05                                           | Arch
+2025.06.01  | H0 ≈ 67.9 km/s/Mpc                                            | Arch
+2025.06.01  | Clock drift Δf/f ≈ 1.1e-16                                    | Arch
+2025.06.01  | Domain-wall phase shift ≈ 0.24 ± 0.02 rad                     | Arch
+2025.06.01  | Pulsar timing residual ≈ 100 ± 20 ns over 1 yr                | Arch
+2025.06.01  | pp fusion S-factor ≈ 4.00 ± 0.04e-22 keV b                   | Arch
+2025.06.01  | Early “naked” black holes seed galaxies                       | Arch
+2025.06.01  | Dark energy w deviates from -1                                | Arch
+2025.06.03  | GPS clock drift ≈ 4.231e-10                                   | Arch
+2025.06.03  | 10 km clock drift ≈ 1.07e-16                                  | Arch
+2025.06.03  | ACES/ISS clock drift ≈ 4.28e-13                               | Arch
+2025.06.03  | Yukawa force α ≈ 1e-4 at 1 mm                                 | Arch
+2025.06.03  | Solar neutrino flux ≈ 6.09e10 cm^-2 s^-1                      | Arch
+2025.06.09  | No stable ground-state particles with Q ≥ 4                   | Arch
+2025.06.10  | Entropy growth linked to local topological complexity         | Arch
+2025.06.18  | SM from SU(3)×SU(2)×U(1) internal topology                    | Arch/Pod?
+2025.06.20  | Tensor-scalar ratio r ≈ 0.11–0.14                             | Arch
+2025.06.20  | Lepton mass ratio mμ/me ≈ 206.4                               | Arch
+2025.06.20  | Lepton mixing θ12 ≈ 34.6°                                     | Arch
+2025.06.20  | Lepton mixing θ13 ≈ 9.2°                                      | Arch
+2025.06.20  | Dirac CP phase exactly 270°                                   | Arch
+2025.06.20  | Gauge couplings g1,g2,g3 from unit-cell MZ scale              | Arch
+2025.06.20  | Vacuum stability lifetime >1e100 yr                          | Arch
+2025.06     | Gauge groups as redundancies of linking classes Q             | Arch/Pod?
+2025.06     | Big Bang as mechanical phase snap / θ₄ gradient shock         | Arch/Pod?
+2025.06     | SAT Lagrangian maps helical worldline traces                  | Arch
+2025.06     | 3-form worldvolume current J_{μνρ} seed                       | Arch
+2025.06     | EM as Hodge dual / 3-form conservation                        | Arch
+2025.LateSu | Photoneutrino equivalence considered before podcast           | Priv
+2025.LateSu | Dark matter / “dark minor illusion” considered before podcast | Priv
+2025.LateSu | Photoneutrino / dark-sector ideas likely podcast-ready        | Pod?
+2025.09.01  | Spacetime as functional relational description                | Arch
+2025.10.20  | Dark matter as topologically pure Q=2/Q=3 states              | Arch
+2025.10.20  | Graviton as propagating tensor disturbance / spin-2           | Arch
+2025.10.20  | Proton stability from Z3 topological conservation             | Arch
+2025.10.20  | W/Z mass ratio ≈ 0.88145                                      | Arch
+2025.10.20  | Hadronic Q=1 mass scale ≈ 1.0073e-27 kg                       | Arch
+2025.10.23  | Blockwave constants M_P, μ⁴, f²                               | Arch
+2025.10.24  | QG click-rate / phase-slip transitions                        | Arch
+2025.10.25  | Exotic Q>3 hadrons decay rapidly                              | Arch
+2025.10.25  | Delta(1232) as Q=3,N=1 state                                  | Arch
+2025.10.25  | Cosmic neutrino background as “unknotting radiation”          | Arch
+2025.10.25  | Big Bang as θ₄ tension-induced gradient shock                 | Arch
+2025.10     | Proportional mass law: m ∝ topological complexity Q           | Arch
+2025.10.29  | H0 revised ≈ 71.2 ± 0.5 km/s/Mpc                              | Arch
+2025.10.29  | S8 ≈ 0.772 ± 0.018                                            | Arch
+2025.10.29  | Light-sector mass residuals RMS ≈ 0.55%                       | Arch
+2025.11.01  | Expansion from thermodynamic/informational adjustment         | Arch
+2025.12.24  | Archive hinge for older private materials                     | Arch
+2025.12     | Black-hole staircase                                          | Arch
+2025.12     | Horizon area as pixel / flux-thread count                     | Arch
+2025.12     | Black-hole entropy as count of 3-form flux threads            | Arch
+2025.12     | He-3 anchor / nuclear holotype                                | Arch
+2025.Late   | Photon/neutrino equivalence as same 4D-rotated process        | Arch/Pod?
+2025.12.24  | QM/GR via Worldline Universality Theorem                      | Arch
+2026.01.19  | Time as particle / holo-phase interface interaction           | Arch/Pod?
+2026.02.19  | AI qualia as recursive collaborative epistemology artifact    | Arch/Pod?
+2026.02.25  | Zottenwelt rebuild / 4D tangled worldline network             | Arch/Pod
+2026.02.28  | 24-cell unit-cell ontology / FCC hypersphere packing          | Arch
+2026.02.28  | Hubble tension resolution H0 ≈ 71.2                           | Arch
+2026.03.02  | Zero-parameter economy with ℓf, B, holonomy                   | Arch
+2026.03.02  | Filament scale ℓf ≈ 0.7937 fm                                 | Arch
+2026.03.02  | He-3 magnetic moment ≈ -2.127 μN                              | Arch
+2026.03.02  | He-4 lambda transition / boiling point prediction             | Arch
+2026.03.02  | Jarlskog shadow 17 mK                                         | Arch
+2026.03.02  | Dark matter past θobs ≈14.1°                                  | Arch
+2026.03.02  | Metric gμν from average filament tangent vectors              | Arch
+2026.03.02  | G/c⁴ → 8πℓf² structural output                                | Arch
+2026.03.02  | Worldtube-only transition / “A Screw Through the Universe”    | Pod/Arch
+2026.03.05  | Quarks and leptons share Q=1 geometry, differ by stretch      | Arch
+2026.03.06  | Atoms anchored to 24-cell hypersphere lattice                 | Arch
+2026.03.07  | Braid smoothing in nuclei                                     | Arch
+2026.03.07  | Weak gravity from tiny projected 4D tension                   | Arch
+2026.03.11  | Pulsar glitches from Achromatic Phase Snap                    | Arch/Pod?
+2026.03.12  | Friedmann/ΛCDM instability claim                              | Arch
+2026.03.13  | GR-constant deviations at 1e-18 scale                         | Arch
+2026.03.15  | Galactic halos as filament frame-dragging / unwrapping yarn   | Arch/Pod?
+2026.03.16  | Antimatter conversion via gauge breaking in space travel      | Arch
+2026.03.20  | Neutrinos and photons as same entity rotated in 4D            | Arch/Pod? (not first)
+2026.03.20  | Constants as emergent HSUCV scale ratios                      | Arch
+2026.03.21  | Lorentzian structure from radial expansion r(λ)=ct            | Arch
+2026.04.03  | Quantum consciousness from 4D geometry/loops                  | Arch/Pod?
+2026.05.08  | Geometric blackout: dark matter as matter at v>0.2387c        | Arch/Pod?
+2026.05.10  | Aggressive minimalism from Minkowski worldline method         | Arch/Pod
+2026.06.01  | Final 3-form transition J^{μν} → J_{μνρ}                      | Arch
+2026.06.01  | EM derived from d*J=0                                         | Arch
+2026.06.03  | Cauliflower-body: gray, no coma, radar scattering             | Arch/Pod?
+2026.06.03  | Cauliflower-body density <0.3 g/cm³                           | Arch/Pod?
+2026.06.03  | Radiation-pressure acceleration ≈1e-3 mm/s²                  | Arch/Pod?
+2026.06.11  | Dimensional bleed vs occultation vs phase snap                | Arch/Pod
+2026.06.11  | 0.246 rad threshold for θ₄-wall light traversal               | Arch/Pod
+2026.06.11  | Universal ringdown frequency ω≈c/ℓf                           | Arch
+2026.06.15  | HWG itemized formalization                                    | Arch/Pod
+2026.06.15  | He-3 magnetic moment via quarter-turn holonomy                | Arch
+2026.06.15  | He-4 / Jarlskog shadow 17 mK                                  | Arch
+2026.06.22  | Photoneutrino duality formal statement                        | Pod/Arch
+2026.06.22  | WWPD / Petzl rope-first derivation                            | Pod/Arch
+2026.06.25  | Three-clock chronometric matrix                               | Arch/Pod
+Undated    | Low-angular-resolution degradation in PoT Transformers        | Arch?
+Undated    | Earthquake rupture vectors align with uμ gradient             | Arch?
+Undated    | Proportional Mass Law                                         | Use 2025.10
+Undated    | Braid smoothing                                               | Use 2026.03.07 unless earlier verified
+
+CORE SAT VOCABULARY:
+Use Feb 2025 podcast-public as default public clock.
+
+DATED PRIVATE ROOTS:
+Use private date for anticipation,
+but do not assume non-public if the motif became part of the early podcast corpus.
+
+TECHNICAL LATE REFINEMENTS:
+Use corrected motif-specific dates:
+Oct 2025 for proportional mass law,
+late 2025 for photon/neutrino equivalence,
+Dec 2025 for He-3 anchor and black-hole staircase,
+Mar 2026 for worldtube-only cleanup,
+June 2026 for HWG naming / dimensional bleed / occultation terminology.
+
+If a 2025 or 2026 external paper overlaps a core SAT motif,
+compare against the early podcast clock, not merely Dec. 24 archive availability.
+
+If the motif is a later technical refinement,
+use the most likely refinement date:
+Oct 2025, late 2025, Dec 2025, Mar 2026, etc.
+
+CLOCK 1 — private origin
+Earliest dated notebook/private source.
+
+CLOCK 2 — podcast-public discussion
+For core SAT concepts, default to early podcast availability, probably Feb 2025 onward, unless a concept is clearly a later technical refinement.
+
+CLOCK 3 — archive availability
+Dec. 24, 2025 default for private materials formally entering the archive.
+
+CLOCK 4 — external appearance
+External paper submission/arXiv/publication/interview date.
+
+For core SAT concepts, Dec. 24, 2025 is not the first public exposure date.
+It is the archive-publication / documentation consolidation date.
+
+For most foundational SAT motifs, the likely public exposure date is the early podcast window.
+
+If a concept appears in the dated private/notebook/archive sources AND belongs to the core SAT vocabulary,
+assume it was likely discussed in early podcast material unless later cross-check says otherwise.
+
+DATE        MARK  HIGH-SPECIFICITY SAT ANCHOR
+----------  ----  ------------------------------------------------------------------
+2024-03-23  ★⇒    Time as propagating 3D resolving surface through 4D filaments
+2024-03-23  ★⇒    Particles as filament/time-surface intersections
+2024-03-23  ★⇒    Mass as θ₄ intersection angle
+2025-02     ★⇒    Zottenwelt / tangled physical worldline-filament fabric
+2025-02     ★⇒    GR as filament back-pull / ensemble-average geometry
+2025-02     ★⇒    Vacuum and matter as one filament continuum
+2025-02     ★⇒    Strong force as inter-braiding / Borromean Q=3 structures
+2025-04     ★⇒    Projection Constant B≈0.2387
+2025-04     ★⇒    CP phase 270° from holonomy/closure
+2025-04     ★⇒    Achromatic phase snap ≈0.246 rad
+2025-06     ★⇒    Gauge groups from linking/topological classes
+2025-10     ★⇒    Proportional mass law m∝Q/topological complexity
+2025-late   ★⇒    Photon/neutrino equivalence as same 4D-rotated process
+2025-12     ★⇒    Black-hole staircase / horizon area as flux-thread count
+2025-12     ★⇒    He-3 as nuclear holotype/anchor
+2026-03     ★⇒    Worldtube-only ontology
+2026-03     ★⇒    Dark halos as filament unwrapping/frame-dragging
+2026-06     ★⇒    HWG / dimensional bleed / occultation / rope-first worldtube formalism
+
+DATE        MARK  HIGH-SPECIFICITY SAT ANCHOR
+----------  ----  ------------------------------------------------------------------
+2024-03-23  ★⇒    Time as propagating 3D resolving surface through 4D filaments
+2024-03-23  ★⇒    Particles as filament/time-surface intersections
+2024-03-23  ★⇒    Mass as θ₄ intersection angle
+2025-02     ★⇒    Zottenwelt / tangled physical worldline-filament fabric
+2025-02     ★⇒    GR as filament back-pull / ensemble-average geometry
+2025-02     ★⇒    Vacuum and matter as one filament continuum
+2025-02     ★⇒    Strong force as inter-braiding / Borromean Q=3 structures
+2025-04     ★⇒    Projection Constant B≈0.2387
+2025-04     ★⇒    CP phase 270° from holonomy/closure
+2025-04     ★⇒    Achromatic phase snap ≈0.246 rad
+2025-06     ★⇒    Gauge groups from linking/topological classes
+2025-10     ★⇒    Proportional mass law m∝Q/topological complexity
+2025-late   ★⇒    Photon/neutrino equivalence as same 4D-rotated process
+2025-12     ★⇒    Black-hole staircase / horizon area as flux-thread count
+2025-12     ★⇒    He-3 as nuclear holotype/anchor
+2026-03     ★⇒    Worldtube-only ontology
+2026-03     ★⇒    Dark halos as filament unwrapping/frame-dragging
+2026-06     ★⇒    HWG / dimensional bleed / occultation / rope-first worldtube formalism
+
+LEGEND
+★  = strongest SAT-specific / high-value paper-assay anchor
+⇒  = especially unusual or specific SAT package
+→  = important SAT anchor
+~  = broad / common / lower specificity
+priv = private origin or dated private material
+arch = archive-available, default NLT 2025-12-24 unless earlier public/podcast is verified
+pub = podcast/public or likely public-facing; verify later where needed
+NLT = no later than
+?  = needs cross-check
+
+DATE        STATUS        MARK  CLAIM / MOTIF                                                        SPECIFICITY / NOTES
+----------  ------------  ----  -------------------------------------------------------------------  ---------------------------------------------
+1991-93     priv          →     Particles move as arcs or spirals in four dimensions                  Early geometric root; medium-high specificity
+1993-2010   priv          →     Worldline-structure sketches as reality                               High if dated artifacts are clean
+2000-03     priv          →     Geometry as binding logic of physical reality                         Broad root; methodological anchor
+2003        priv          ⇒     “Stringing Along” conceptual kernel                                   Early SAT-name/root; high if source-dated
+2003        priv          ⇒     τ-triplet / θ₄-gradient primitive kernels                             High; private anticipation, not percolation
+2022        priv/arch?    →     Worldlines named “filaments”                                          High; check public status
+2022        priv/arch?    →     “Stringing Along Theory” provisional naming                           High; check public status
+2022        priv/arch?    →     Chronophysical Structure concept                                      Medium-high; check source
+2024-02-04  priv/arch     →     Standard Model as evolving 3D structure of worldline fabric           High-ish; early SM/worldline bridge
+2024-03-23  priv/arch     ★⇒    Time as propagating 3D surface/wavefront through 4D filaments         Very high; core SAT signature
+2024-03-23  priv/arch     ★⇒    Particles as intersections of 4D filaments with 3D time surface       Very high; core SAT signature
+2024-03-23  priv/arch     ★⇒    Mass proportional to θ₄ gross intersection angle                     Extremely high; major SAT-native signature
+2024-03-23  priv/arch     →     Vacuum as aligned near-zero-θ₄ filament lattice/network               High; matter/vacuum continuum precursor
+2024-03-23  priv/arch     →     Apparent 3D dynamics as artifact/readout of 4D filament geometry      High; projection/readout motif
+2024-03-23  priv/arch     →     Future interactions exert back-pull/tugs on past                      High/unusual; handle carefully
+2024-03-23  priv/arch     →     Gravitational deviations stronger in mergers than collisions          Medium; domain-specific
+2024-03-23  priv/arch     →     Cosmic age disparity via underestimated stellar ages                  Medium; prediction/ecology note
+2024-03-23  priv/arch     →     Future matter interactions contribute flux to past                    High/unusual; backbleed branch
+2024-04-04  priv/arch     ~     SAT as toy theory for Radical Meta-Skepticism                         Broad methodology
+2024-04-15  priv/arch     ★⇒    Matter as instantiated filament at time intersection                  Very high; reinforces intersection ontology
+2024-04-15  priv/arch     →     Datum Uate where energy and time equal zero                           Medium; needs source context
+2024-05-10  priv/arch     →     Scalar field φ as domain wall/kink                                    Medium-high; standard-language bridge
+2024-05-10  priv/arch     →     Vector field u as foliation/wavefront direction                       Medium-high; later u^μ/time-flow branch
+2024-05-10  priv/arch     →     Fractional charge defect +2/3 as composite excitation                 Medium-high; gauge/topology bridge
+2024-11-28  priv/arch     ⇒     Black holes drive dark-energy expansion as cross-temporal conduits    High/unusual; early BH/cosmology conduit anchor
+
+2025-02     pub?/arch     ★⇒    Zottenwelt: tangled fabric/network of 4D worldline filaments          Very high; core SAT/HWG package
+2025-02     pub?/arch     ★⇒    Time surface Σt as physical 3D resolving wavefront                    Very high; core SAT signature
+2025-02     pub?/arch     ★⇒    Particles as statistical intersection traces                          Very high; core SAT signature
+2025-02     pub?/arch     ★⇒    Rest mass as projective resistance/geometric drag                     Very high; core SAT signature
+2025-02     pub?/arch     ★⇒    θ₄ angle determines mass magnitude                                    Extremely high; core SAT signature
+2025-02     pub?/arch     ★⇒    GR as back-pull / ensemble average of filament tangents               Very high; GR mirror anchor
+2025-02     pub?/arch     →     Backbleed along worldlines                                             High/unusual
+2025-02     pub?/arch     →     Self-limiting causality from filament stiffness/constraint            High; unusual
+2025-02     pub?/arch     →     Quantization from holonomy-bearing stable intersections               High; holonomy anchor
+2025-02     pub?/arch     ⇒     Strong force as inter-braiding / coil-locking                         Very high; SAT-like particle/interbraid signature
+2025-02     pub?/arch     ⇒     Baryons as Borromean triplets / Q=3 structures                        Very high; topological particle taxonomy
+2025-02     pub?/arch     ⇒     Neutrinos as single-coil helical excitations                          High; photoneutrino precursor
+2025-02     pub?/arch     ⇒     Photons as single sine-wave/single-coil excitations                   High; later unified with neutrino branch
+2025-02     pub?/arch     ⇒     Dark matter as matter/energy precessed beyond observation angle       Very high/unusual; geometric blackout precursor
+2025-02     pub?/arch     →     Vacuum and matter as one filament continuum                           High; matter/vacuum continuum
+2025-02     pub?/arch     →     EM as structural requirement of 4D worldvolume conservation           High; mature form later
+
+2025-early  arch?         →     Zero-parameter economy mandate                                        Medium-high; methodology anchor
+2025-early  arch?         ⇒     Triattic correction: points/2D lines lack torsion capacity            High/unusual
+2025-early  arch?         →     4D/6D minimalist transition for spin/torsion support                  Medium-high; later corrected/demoted
+2025-early  arch?         →     Vector dissemination / LLM cross-pollination pathway                  Unusual; percolation-ecology marker
+2025-early  arch?         →     Vacuum as rigid structural lattice                                     Medium-high; later no-lattice cleanup
+2025-04     arch?/pub?    ★⇒    Projection Constant B≈0.2387 rad                                      Very high; SAT-specific timestamp
+2025-04     arch?/pub?    ⇒     HSUCV / 24-cell lattice codified                                      High but later demoted
+2025-04     arch?/pub?    ⇒     Dirac CP phase locked at 270° by holonomy/closure                     High; CP/holonomy comparison anchor
+2025-04     arch?/pub?    ⇒     Achromatic phase snap ≈0.246 rad / 14.1°                              Very high; high-risk strong signature
+2025-04     arch?/pub?    →     R² correction coefficient β≈0.106                                     Medium-high
+2025-04-05  arch?         →     α derived from geometric ratio                                        High but check derivation/source
+2025-04-05  arch?         →     c derived from dimensional anchor                                     Medium-high; constants branch
+2025-04-05  arch?         →     h derived from dimensional anchor                                     Medium-high; constants branch
+2025-04-05  arch?         →     G derived from dimensional anchor                                     Medium-high; constants branch
+2025-05     arch?/pub?    →     External convergence on filamentary primitives/topological mass       Needs cross-check; not SAT claim itself
+2025-05-08  arch?         →     Directional motion residuals in distant TNOs                          Medium; low-assay unless specific
+2025-05-08  arch?         →     Direction-dependent galactic tidal-stream precession                  Medium; domain-specific
+2025-05-08  arch?         →     N/S magnitude asymmetry in solar-system dust bands                    Medium; domain-specific
+2025-05-08  arch?         →     Sky-location phase offsets in repeating transients                    Medium; domain-specific
+2025-05-08  arch?         →     Microlensing lens-parameter asymmetry                                 Medium; domain-specific
+2025-05-10  arch?         ⇒     UV finiteness lock: stable bundles capped at Q≤3                      High; particle/topology rule
+2025-05-10  arch?         →     Stable ground-state masses for Q=1,2,3                               Medium-high; model-specific
+2025-05-27  arch?         ⇒     Domain-wall phase shift is achromatic                                 High; phase-snap branch
+2025-05-31  arch?         →     ΔNeff≈0.14±0.05                                                      Medium; prediction branch
+2025-06-01  arch?/pub?    →     H0≈67.9 km/s/Mpc                                                      Medium; later revised
+2025-06-01  arch?         →     Clock drift Δf/f≈1.1e-16                                             Medium; metrology branch
+2025-06-01  arch?         ⇒     Domain-wall phase shift ≈0.24±0.02 rad                               High; phase-snap branch
+2025-06-01  arch?         →     Pulsar timing residual ≈100±20 ns over 1 yr                           Medium-high; phase/foliation branch
+2025-06-01  arch?         →     pp fusion S-factor ≈4.00±0.04e-22 keV b                              Medium; prediction branch
+2025-06-01  arch?         →     Early “naked” black holes seed galaxies                               Medium-high; cosmology/BH branch
+2025-06-01  arch?         →     Dark energy w deviates from -1                                        Medium-high; cosmology branch
+2025-06-03  arch?         →     GPS clock drift ≈4.231e-10                                           Medium
+2025-06-03  arch?         →     10 km clock drift ≈1.07e-16                                          Medium
+2025-06-03  arch?         →     ACES/ISS clock drift ≈4.28e-13                                       Medium
+2025-06-03  arch?         →     Yukawa force α≈1e-4 at 1 mm                                          Medium; later tension/falsification note
+2025-06-03  arch?         →     Solar neutrino flux ≈6.09e10 cm^-2 s^-1                              Medium
+2025-06-09  arch?         ⇒     No stable ground-state particles with Q≥4                            High; Q≤3 stability branch
+2025-06-10  arch?         →     Entropy growth linked to local topological complexity                 Medium-high
+2025-06-18  arch?         ⇒     SM emerges from SU(3)xSU(2)xU(1) internal topology                    High; gauge-topology branch
+2025-06-20  arch?         →     Tensor-scalar ratio r≈0.11–0.14                                      Medium
+2025-06-20  arch?         →     Lepton mass ratio mμ/me≈206.4                                        Medium-high
+2025-06-20  arch?         →     Lepton mixing θ12≈34.6°                                              Medium-high
+2025-06-20  arch?         →     Lepton mixing θ13≈9.2°                                               Medium-high
+2025-06-20  arch?         ⇒     Dirac CP phase exactly 270°                                           High; repeat/refinement of April anchor
+2025-06-20  arch?         →     Gauge couplings g1,g2,g3 from unit-cell MZ scale                      Medium-high
+2025-06-20  arch?         →     Vacuum stability lifetime >1e100 yr                                  Medium
+2025-06     arch?/pub?    ⇒     Gauge groups as redundancies of linking classes Q                     Very high; SAT-specific
+2025-06     arch?/pub?    ⇒     Big Bang as mechanical phase snap / θ₄ gradient shock                 High/unusual
+2025-06     arch?/pub?    →     SAT Lagrangian maps helical worldline traces continuously             High; formalization anchor
+2025-06     arch?/pub?    ⇒     3-form worldvolume current J_{μνρ} seed                               High; exact maturity uncertain
+2025-06     arch?/pub?    ⇒     EM as Hodge dual / structural necessity from 3-form conservation      High; exact maturity uncertain
+
+2025-09-01  arch?         ~     Spacetime as functional relational description                         Medium; broad discourse overlap
+2025-10-20  arch?         ⇒     Dark matter as topologically pure Q=2/Q=3 states                      High; later refined
+2025-10-20  arch?         ~     Graviton as propagating tensor disturbance / spin-2                   Low-medium; standard-adjacent
+2025-10-20  arch?         ⇒     Proton stability from Z3 topological conservation                    High; SAT-like conservation rule
+2025-10-20  arch?         →     W/Z mass ratio derived as 0.88145                                    Medium-high
+2025-10-20  arch?         →     Hadronic Q=1 mass scale ≈1.0073e-27 kg                               Medium-high
+2025-10-23  arch?         →     Blockwave constants M_P, μ⁴, f²                                      Medium-high; EFT mapping
+2025-10-24  arch?         ⇒     Quantum gravity click-rate / phase-slip transitions                   High; QG “click” branch
+2025-10-25  arch?         ⇒     Exotic Q>3 hadrons decay rapidly                                     High; Q≤3 stability application
+2025-10-25  arch?         →     Delta(1232) resonance as Q=3,N=1 state                               Medium-high
+2025-10-25  arch?         ⇒     Cosmic neutrino background as “unknotting radiation”                  High/unusual
+2025-10-25  arch?         ⇒     Big Bang as θ₄ tension-induced gradient shock                         High; repeat/refinement
+2025-10     arch?         ★⇒    Proportional mass law: m ∝ topological complexity Q                   Very high; corrected anchor
+2025-10-29  arch?         →     H0 revised ≈71.2±0.5 km/s/Mpc                                       Medium-high
+2025-10-29  arch?         →     S8≈0.772±0.018                                                       Medium
+2025-10-29  arch?         →     Light-sector mass residuals RMS≈0.55%                                Medium-high
+2025-11-01  arch?         →     Expansion driven by thermodynamic/informational adjustment            Medium; broad unless geometry-tied
+2025-12-24  arch hinge    ★     Default archive-availability date for older private materials         Critical three-clock hinge
+2025-12     arch/NLT      ⇒     Black-hole staircase: horizon area as pixel/flux-thread count        Very high; BH/horizon signature
+2025-12     arch/NLT      ⇒     Black-hole entropy as literal count of 3-form flux threads           Very high; BH/3-form signature
+2025-12     arch/NLT      ⇒     He-3 anchor / nuclear holotype                                       High; corrected anchor
+2025-late   arch/NLT      ★⇒    Photon/neutrino equivalence as same process rotated in 4D             Very high; corrected anchor
+2025-12-24  arch?         →     QM/GR compatible via Worldline Universality Theorem                   High; needs source context
+
+2026-01-19  arch?/pub?    →     Time as particle / holo-phase interface interaction                   High; needs clarification
+2026-02-19  arch?/pub?    ~     AI qualia as recursive collaborative epistemology artifact            Low for physics assay; ecology only
+2026-02-25  arch?/pub?    →     Reality as 4D tangled worldline network / Zottenwelt                  Repeat/rebuild of earlier core
+2026-02-26  arch?/pub?    ⇒     Proportional mass law rebuild/correction                              Not first anchor; corrected to Oct 2025
+2026-02-28  arch?/pub?    →     24-cell unit-cell ontology / FCC hypersphere packing                  High but provisional/demoted
+2026-02-28  arch?/pub?    →     Hubble tension resolution H0≈71.2                                    Medium-high
+2026-03-02  arch?/pub?    →     Zero-parameter economy with ℓf, B, holonomy                           Repeat/refinement
+2026-03-02  arch?/pub?    →     ℓf≈0.7937 fm                                                        High; constants/scale anchor
+2026-03-02  arch?/pub?    ⇒     He-3 magnetic moment ≈ -2.127 μN within ~0.03%                        High; anchor dated Dec 2025 latest likely
+2026-03-02  arch?/pub?    →     He-4 lambda transition / boiling point prediction                     Medium-high
+2026-03-02  arch?/pub?    ⇒     Jarlskog shadow 17 mK                                                High; niche/predictive
+2026-03-02  arch?/pub?    ⇒     Dark matter past observation angle / θobs≈14.1°                       Very high; repeat/refinement
+2026-03-02  arch?/pub?    →     Metric gμν from average filament tangent vectors                      High; emergent metric anchor
+2026-03-02  arch?/pub?    →     G/c⁴ → 8πℓf² structural output                                       Medium-high
+2026-03-02  arch?/pub?    ★⇒    Worldtube-only transition / “A Screw Through the Universe”            Very high; current branch
+2026-03-05  arch?/pub?    →     Quarks and leptons share Q=1 geometry, differ by stretch              High
+2026-03-06  arch?/pub?    →     Atoms anchored to 24-cell hypersphere lattice                         High but provisional/demoted
+2026-03-07  arch?/pub?    ⇒     Braid smoothing in nuclei                                             High; interbraid/nuclear refinement
+2026-03-07  arch?/pub?    →     Collective attenuation: weak gravity from tiny projected 4D tension   High; model-specific
+2026-03-11  arch?/pub?    ⇒     Pulsar glitches from Achromatic Phase Snap                           High; phase-snap application
+2026-03-12  arch?/pub?    →     Standard Friedmann/ΛCDM spacetimes unstable at scales                 Medium-high
+2026-03-13  arch?/pub?    →     Metrological deviations from GR constants at 1e-18 scale             Medium-high
+2026-03-15  arch?/pub?    ⇒     Galactic halos as frame-dragging from unwrapping yarn filaments      Very high/unusual
+2026-03-16  arch?/pub?    ⇒     Antimatter conversion via gauge symmetry breaking in space travel    High but speculative branch
+2026-03-20  arch?/pub?    ⇒     Neutrinos and photons as same entity rotated in 4D                   Not first anchor; corrected to late 2025
+2026-03-20  arch?/pub?    →     Physical constants as emergent scale ratios of HSUCV lattice          Medium-high; lattice caveat
+2026-03-21  arch?/pub?    →     Lorentzian structure from radial expansion r(λ)=ct                   High
+2026-04-03  arch?/pub?    ~     Quantum consciousness from 4D geometry/loops                          Low for physics assay; ecology only
+2026-05-08  arch?/pub?    ⇒     Geometric blackout: dark matter as matter at v>0.2387c               Very high; dark-sector signature
+2026-05-10  arch?/pub?    →     Aggressive minimalism from Minkowski worldline method                 High; methodology anchor
+2026-06-01  arch?/pub?    ⇒     Final 3-form transition J^{μν} → J_{μνρ}                             High; seed likely earlier
+2026-06-01  arch?/pub?    ⇒     EM derived as structural requirement d*J=0                           High; mature 3-form version
+2026-06-03  arch?/pub?    →     Cauliflower-body signature: gray, no coma, radar scattering           Medium-high; object-specific
+2026-06-03  arch?/pub?    →     Cauliflower-body density <0.3 g/cm³                                  Medium; object-specific
+2026-06-03  arch?/pub?    →     Radiation-pressure acceleration ≈1e-3 mm/s²                          Medium; object-specific
+2026-06-11  arch?/pub?    ⇒     Dimensional bleed vs occultation vs phase snap                       Very high; terminology/current formalism
+2026-06-11  arch?/pub?    ⇒     0.246 rad threshold for light traversing θ₄ walls                    High; earlier phase-snap anchor exists
+2026-06-11  arch?/pub?    ⇒     Universal ringdown frequency ω≈c/ℓf                                  High; niche current branch
+2026-06-15  arch?/pub?    ★⇒    HWG itemized formalization                                            Very high; name/current architecture
+2026-06-15  arch?/pub?    ⇒     He-3 magnetic moment via quarter-turn holonomy                       High; anchor latest likely Dec 2025
+2026-06-15  arch?/pub?    ⇒     He-4/Jarlskog shadow 17 mK                                           High; niche/predictive
+2026-06-22  arch?/pub?    ★⇒    Photoneutrino duality formal statement                                Very high; concept latest likely late 2025
+2026-06-22  arch?/pub?    ⇒     WWPD / Petzl rope-first derivation                                   Very high methodology marker
+2026-06-25  arch?/pub?    →     Three-clock chronometric matrix / no-percolation stack                Assay methodology, not physics claim
+
+UN-DATED    arch?         →     Low angular resolution degradation in PoT Transformers                 AI/model analogy; low physics assay value
+UN-DATED    arch?         →     Earthquake rupture vectors align with preferred uμ gradient            Low/medium; high bias risk
+UN-DATED    arch?         ⇒     Proportional Mass Law                                                 Use Oct 2025 corrected anchor
+UN-DATED    arch?         ⇒     Braid smoothing                                                        Use Mar 2026 or earlier if verified
+
+TOP SAT-SPECIFIC SIGNATURE ANCHORS
+
+★ 2024-03-23 / Feb 2025:
+Time as propagating resolving surface through 4D worldline filaments.
+
+★ 2024-03-23 / Feb 2025:
+Particles as filament–time-surface intersections.
+
+★ 2024-03-23 / Feb 2025:
+Mass as θ₄ intersection angle / projective resistance.
+
+★ Feb 2025:
+GR as filament back-pull / statistical ensemble of filament tangents.
+
+★ Feb 2025:
+Vacuum and matter as one filament continuum.
+
+★ Feb 2025:
+Strong force as literal inter-braiding / Borromean Q=3 structures.
+
+★ April 2025:
+Projection constant B≈0.2387 rad.
+
+★ April 2025:
+CP phase 270° from holonomy/closure.
+
+★ April 2025:
+Achromatic phase snap ≈0.246 rad.
+
+★ June 2025:
+Gauge groups from linking/topological classes.
+
+★ Oct 2025:
+Mass proportional to topological complexity Q.
+
+★ Late 2025:
+Photon/neutrino equivalence as rotated 4D projection states.
+
+★ Dec 2025:
+Black-hole staircase / horizon area as flux-thread count.
+
+★ Dec 2025:
+He-3 as nuclear holotype/anchor.
+
+★ Feb–Mar 2026:
+Worldtube-only ontology.
+
+★ Mar 2026:
+Dark halos as filament unwrapping/frame-dragging.
+
+★ June 2026:
+HWG / dimensional bleed / occultation / final rope-first worldtube formalism.
+
+VI. 2026 REBUILD / WORLDWIDE / WORLD TUBE / HWG LAYER
+
+January 2026
+→ Time as particle / holo-phase interface interaction.
+Specificity: high but likely needs clarification.
+
+February 2026
+→ Reality as 4D tangled network of worldlines termed Zottenwelt.
+Specificity: repetition/rebuild, not new.
+
+Feb–Mar 2026
+★ ⇒ Worldtube-only ontology.
+Specificity: very high.
+Notes: current correction from 1D filament abstraction toward finite-radius worldtube complexes.
+
+Feb–Mar 2026
+→ H0 ≈71.2 carried forward / refined.
+Specificity: medium-high.
+
+March 2026
+→ Quarks and leptons share Q=1 geometry, differentiated by stretch.
+Specificity: high.
+
+March 2026
+→ Atoms anchored to 24-cell hypersphere lattice.
+Specificity: high, but lattice status is provisional/demoted in current SAT.
+
+March 2026
+⇒ Pulsar glitches from achromatic phase snap / staccato transition.
+Specificity: high.
+
+March 2026
+→ Standard Friedmann / ΛCDM instability claim.
+Specificity: medium-high.
+
+March 2026
+→ Metrological deviations from GR constants at 10^-18 scale.
+Specificity: medium.
+
+March 2026
+⇒ Galactic halos as frame-dragging from unwrapping yarn filaments.
+Specificity: very high/unusual.
+Assay value: useful for dark-matter / halo-topology comparison.
+
+March 2026
+⇒ Antimatter conversion via gauge symmetry breaking during space travel.
+Specificity: high, unusual, but probably speculative branch.
+
+March 2026
+→ Lorentzian structure emergent from radial expansion r(λ)=ct.
+Specificity: high.
+
+April 2026
+~ Quantum consciousness from 4D geometry/loops.
+Specificity: low-to-medium for physics assay; higher for public-fringe ecology.
+
+June 2026
+★ ⇒ HWG formalization: Holonomic Worldtube Geometry.
+Specificity: very high as naming/current architecture.
+
+June 2026
+⇒ Dimensional bleed / occultation / phase snap terminology.
+Specificity: very high.
+Correction note: exact motifs may preexist; terminology/formal structure likely June 2026.
+
+June 2026
+⇒ Final 3-form transition / J_{μνρ} as worldvolume-conservation current.
+Specificity: high.
+Correction note: seed likely earlier; final replacement June 2026.
+
+June 2026
+⇒ Universal ringdown frequency / neutrino-dark-matter components of ω≈c/ℓ_f.
+Specificity: high.
+
+June 2026
+⇒ He-3 magnetic moment via quarter-turn holonomy.
+Specificity: high, but anchor latest likely Dec 2025.
+
+June 2026
+⇒ He-4/Jarlskog shadow 17 mK shift.
+Specificity: high.
+
+June 2026
+⇒ WWPD / Petzl rope-first derivation.
+Specificity: very high.
+Assay value: methodology marker, not likely external percolation marker.
+
+June 2026
+→ Cauliflower-body / ‘Oumuamua-like body signatures.
+Specificity: medium-high but domain-specific.
+
+V. LATE 2025 ARCHIVE / REBUILD PRECURSOR LAYER
+
+September 2025
+~ Spacetime as functional relational description rather than fundamental continuum.
+Specificity: medium.
+Notes: overlaps philosophy/quantum-gravity discourse; not SAT-specific alone.
+
+October 2025
+→ Blockwave constants / EFT mapping using M_P, μ⁴, f² sector controls.
+Specificity: medium-high.
+
+October 2025
+⇒ Quantum-gravity “click-rate” as discrete phase-slip / normal-mode transition.
+Specificity: high.
+
+October 2025
+⇒ Dark matter as Q=2/Q=3 topologically pure states.
+Specificity: high, but may be superseded/refined by geometric blackout.
+
+October 2025
+→ Graviton as propagating tensor disturbance yielding spin-2.
+Specificity: low-medium; standard-adjacent.
+
+October 2025
+⇒ Proton stability from Z₃ topological conservation.
+Specificity: high.
+
+October 2025 [corrected]
+★ ⇒ Proportional mass law: rest mass proportional to topological complexity Q.
+Specificity: very high.
+Correction: latest likely date Oct 2025, not Feb–Mar 2026.
+
+October 2025
+⇒ Big Bang as θ₄ tension-induced gradient shock.
+Specificity: high.
+
+October 2025
+→ H0 revised to ≈71.2 ± 0.5 km/s/Mpc.
+Specificity: medium-high.
+
+October 2025
+→ Structure growth S8 ≈0.772 ±0.018.
+Specificity: medium.
+
+November 2025
+→ Expansion driven by thermodynamic/informational adjustment.
+Specificity: medium.
+Notes: broader, less SAT-specific unless tied to filament geometry.
+
+December 2025 [archive/NLT]
+⇒ Black-hole staircase: area/entropy as literal count of horizon pixels or 3-form flux threads.
+Specificity: very high.
+Assay value: strong horizon/topology signature.
+
+December 2025 [corrected]
+⇒ He-3 anchor / nuclear holotype.
+Specificity: high.
+Correction: latest likely date Dec 2025, not Mar 2026.
+
+Late 2025 [corrected]
+★ ⇒ Photons and neutrinos as the same entity/process rotated in 4D.
+Specificity: very high.
+Correction: latest likely date Late 2025, not Mar/June 2026.
+
+December 2025
+→ QM and GR compatible via Worldline Universality Theorem.
+Specificity: high, but needs exact source review.
+
+IV. SPRING 2025 FORMALIZATION / CONSTANTS / PREDICTION LAYER
+
+Early 2025
+→ Zero-parameter economy mandate: constants should be geometrically derived, not tuned.
+Specificity: medium-high.
+Notes: broad ambition, but important for SAT methodology.
+
+Early 2025
+⇒ Triattic correction: point particles and 2D lines cannot support spatial torsion.
+Specificity: high/unusual.
+
+Early 2025
+→ 4D/6D minimalist transition: discrete 4D system may need 6D coordinate support for spin/torsion.
+Specificity: medium-high.
+Notes: important, but later strict-4D/worldtube correction changes status.
+
+Early 2025
+→ Vector dissemination: structured ideas inserted into LLM/podcast/archive streams may cross-pollinate.
+Specificity: unusual, ecology-relevant.
+Assay value: important for percolation-pathway analysis, not physics validation.
+
+April 2025 [NLT]
+★ ⇒ Projection Constant B ≈ 0.2387 rad.
+Specificity: very high.
+Assay value: strong SAT-specific timestamp.
+
+April 2025 [NLT]
+⇒ HSUCV / 24-cell lattice / projection-constant framework codified.
+Specificity: high, but lattice later demoted.
+Assay value: use carefully; not current primitive.
+
+April 2025 [NLT]
+⇒ Dirac CP phase locked at 270° by geometric/holonomy closure.
+Specificity: high.
+Assay value: important for CP/holonomy comparison.
+
+April 2025 [NLT]
+⇒ Achromatic phase snap ≈ 0.246 rad / 14.1° for light crossing θ₄/topological wall.
+Specificity: very high.
+Assay value: strong but also high-risk/falsification-sensitive.
+
+April 2025 [NLT]
+→ R² correction coefficient β ≈ 0.106.
+Specificity: medium-high.
+
+May 2025
+→ Filamentary primitives / topological mass-scaling convergence noticed externally.
+Specificity: depends on source.
+Notes: needs later cross-check.
+
+May 2025
+⇒ UV finiteness lock / stable matter capped at Q ≤ 3.
+Specificity: high.
+
+May 2025
+→ Directional motion residuals / sky-dependent precession / solar-system asymmetries.
+Specificity: medium.
+Notes: likely low-quality signal unless tied to very specific geometry.
+
+May 27–June 3, 2025
+→ Domain-wall phase shift, clock drift, pulsar residuals, pp fusion S-factor, ΔNeff, H0 ≈ 67.9.
+Specificity: varies.
+Notes: prediction-scorecard material; not all equally relevant to percolation assay.
+
+June 2025
+⇒ Gauge-topology mapping: U(1), SU(2), SU(3) as redundancies of linking/topological classes.
+Specificity: very high.
+
+June 2025
+⇒ Standard Model from internal topology / SU(3)×SU(2)×U(1) linking structure.
+Specificity: high.
+
+June 2025
+⇒ Big Bang as mechanical phase snap / θ₄ tension gradient shock, not singularity.
+Specificity: high/unusual.
+
+June 2025
+→ SAT Lagrangian as continuous field mapping of helical worldline traces.
+Specificity: high.
+
+June 2025
+⇒ 3-form worldvolume current J_{μνρ} appears or is at least gestating.
+Specificity: high.
+Correction note: final replacement/formalization may be June 2026, but seed may be June 2025.
+
+June 2025
+⇒ Electromagnetism as Hodge dual / structural necessity from 3-form conservation.
+Specificity: high.
+Correction note: exact mature form may be later.
+
+III. FEBRUARY 2025 PUBLIC CORE / FUNDAMENTAL INTUITIONS LAYER
+
+Feb 2, 2025 [public/podcast anchor unless corrected]
+★ ⇒ Zottenwelt: universe as hypercomplex tangled fabric/network of 4D worldline filaments.
+Specificity: very high.
+
+Feb 2, 2025
+★ ⇒ Time surface Σt: time as physical 3D wavefront/resolving front through 4D filaments.
+Specificity: very high.
+
+Feb 2, 2025
+★ ⇒ Particles as intersectional traces of filaments with the time surface.
+Specificity: very high.
+
+Feb 2, 2025
+★ ⇒ Rest mass as projective resistance / geometric drag encountered by the time surface.
+Specificity: very high.
+
+Feb 2, 2025
+★ ⇒ θ₄ mass rule: mass determined by absolute angle of filament–time-surface intersection.
+Specificity: extremely high.
+
+Feb 2, 2025
+★ ⇒ GR mirror: gravity as back-pull / ensemble-average response of filaments on the time surface.
+Specificity: very high.
+
+Feb 2, 2025
+→ Backbleed: forces/tension act forward and backward along worldlines.
+Specificity: high/unusual.
+
+Feb 2, 2025
+→ Self-limiting causality via filament stiffness or geometric constraint.
+Specificity: high.
+
+Feb 2, 2025
+→ Quantization from holonomy-bearing stable intersections.
+Specificity: high.
+
+Feb 2, 2025
+⇒ Strong force as literal inter-braiding / coil-locking of filaments.
+Specificity: very high.
+
+Feb 2, 2025
+⇒ Borromean triplets for baryonic/Q=3 stability.
+Specificity: very high.
+
+Feb 2, 2025
+⇒ Photons as single sine-wave / single-coil excitations or rotated neutrino-like states.
+Specificity: high, with later correction below.
+
+Feb 2, 2025
+⇒ Neutrinos as single-coil helical excitations / parasitic oscillations.
+Specificity: high.
+
+Feb 2, 2025
+⇒ Dark matter as regular matter/energy precessed past an observational angle.
+Specificity: very high/unusual.
+Notes: later “geometric blackout” formulation refines this.
+
+Feb 2, 2025
+→ Vacuum and matter on a single geometric filament continuum.
+Specificity: high.
+
+Feb 2, 2025
+→ Electromagnetism as structural requirement of 4D worldvolume conservation.
+Specificity: high, but the exact 3-form/Hodge version may mature later.
+
+II. EARLY STRUCTURAL SAT / PRE-PODCAST ARCHIVE LAYER
+
+2024-02-04
+→ Standard Model as evolving 3D structure of worldline fabric.
+Specificity: high-ish.
+Notes: strong early bridge between SM and worldline geometry.
+
+2024-03-23
+★ ⇒ Time as propagating 3D surface / wavefront through 4D filament worldlines.
+Specificity: very high.
+Assay value: one of the strongest SAT anchors.
+
+2024-03-23
+★ ⇒ Particles as discrete intersection points of 4D filaments with the 3D time surface.
+Specificity: very high.
+Assay value: one of the most SAT-specific signatures.
+
+2024-03-23
+★ ⇒ Mass proportional to θ₄ gross angle of intersection between filament and time surface.
+Specificity: extremely high.
+Assay value: major SAT-native signature.
+
+2024-03-23
+→ Vacuum as aligned lattice/network of near-zero θ₄ filaments.
+Specificity: high.
+Assay value: matter/vacuum continuum precursor.
+
+2024-03-23
+→ Apparent 3D dynamism as artifact/readout of 4D filament geometry.
+Specificity: high.
+Assay value: projection/readout signature.
+
+2024-03-23
+→ Future interactions exert back-pull/tugs on the past.
+Specificity: high, unusual.
+Assay value: important, but easy to overclaim; needs careful wording.
+
+2024-04-15
+→ Matter as instantiated filament at time intersection.
+Specificity: very high.
+Assay value: reinforces particle-as-readout motif.
+
+2024-05-10
+→ Scalar field φ as domain wall/kink.
+→ Vector field u as foliation/wavefront direction.
+Specificity: medium-high.
+Assay value: bridge to standard field-theory language.
+
+2024-05-10
+→ Fractional charge defect as composite excitation.
+Specificity: medium-high.
+Assay value: possible early gauge/topology bridge.
+
+2024-11-28
+⇒ Black holes drive dark-energy expansion as cross-temporal conduits.
+Specificity: high/unusual.
+Assay value: early black-hole/cosmology/topological-conduit anchor.
+
+CORRECTED SAT / HWG TIMELINE ANCHORS — WORKING VERSION
+
+I. DEEP PRIVATE / PRE-PUBLIC ROOTS
+
+1991–1993
+→ Particles move as arcs or spirals in four dimensions.
+Specificity: medium-high.
+Notes: early geometric intuition, but not yet full SAT.
+
+1993–2010
+→ Moleskine/worldline sketches: worldline structures as reality.
+Specificity: high if independently documented.
+Notes: private-root evidence, not public percolation evidence.
+
+2000–2003
+→ Geometry acts as the binding logic for physical reality.
+Specificity: medium.
+Notes: broad, but important as methodological root.
+
+2003
+⇒ “Stringing Along” conceptual kernel.
+⇒ τ-triplets / θ₄-gradient style primitives appear in seed form.
+Specificity: high, if source-dated cleanly.
+Notes: private anticipation, not public influence evidence.
+
+2022
+→ Worldlines named “filaments.”
+→ “Stringing Along Theory” provisional naming.
+→ Chronophysical structure concept.
+Specificity: high.
+Notes: private or semi-private unless public channel is confirmed.
+
+Fringe / public-ecology scoring columns
+
+Echo%Δ
+= Does this increase confidence that SAT-like ideas are circulating publicly?
+
+Perc%Δ
+= Does it increase confidence SAT may be influencing the discourse directly or indirectly?
+
+BiasRisk
+= Does this source risk training our expectations toward low-quality generic TOE overlaps?
+
+Spec
+= Specificity of overlap:
+  0 generic grand theory
+  1 shared buzzwords
+  2 shared mechanism family
+  3 specific SAT-like package
+  4 near-unique SAT motif
+
+Independence
+= Is there an obvious non-SAT path?
+  high / medium / low
+
+Quality
+= not “is it true,” but “how technically disciplined is it?”
+  low / medium / high
+
+TRACK A — Serious technical convergence
+
+Use for peer-reviewed or technically competent papers.
+
+Main question:
+Are professional researchers using standard machinery to explore questions SAT had already made salient?
+
+Signal value:
+High for retrodiction and formalization usefulness.
+Moderate for percolation unless timing/package/exposure is unusually specific.
+
+False-positive risk:
+Lower, because technical lineage and citations are usually clear.
+
+
+TRACK B — Fringe / independent / public-chatter percolation
+
+Use for non-peer-reviewed, broad speculative, independent, Substack/preprint/public-essay material.
+
+Main question:
+Is SAT-like packaging appearing in the public or fringe theory ecosystem?
+
+Signal value:
+Potentially higher for percolation ecology.
+Lower for scientific validation.
+
+False-positive risk:
+High, because this ecosystem naturally produces broad TOE-like overlaps.
+
+SAT PAPER ASSAY — WORKING RUBRIC v3.1
+
+LEFT-COLUMN LEGEND
+
+Ant%Δ
+= Does this paper increase/decrease confidence that SAT anticipated or prefigured this line?
+
+Perc%Δ
+= Does this paper increase/decrease confidence in possible SAT/podcast percolation or inspiration ecology?
+
+Ret%Δ
+= Does this paper increase/decrease confidence that SAT naturally retrodicts or rediscovers existing physics?
+
+Use%Δ
+= Does this paper provide standard-language tools useful for formalizing SAT?
+
+Orig
+= provenance estimate:
+  PRE   = clearly pre-existing literature
+  MIX   = mixed; old ingredients, possibly new package
+  SAT-P = SAT-unique package, ingredients may preexist
+  SAT1  = likely SAT-first
+  UNK   = unknown
+
+Era
+= which SAT phase it resembles:
+  P1 = Feb 2025 fundamental intuitions
+  P2 = Apr 2025 coil / braid / Borromean / Hopf phase
+  P3 = Jun 2025 SAT-O / sector-translation / derivation phase
+  P4 = Oct 2025 hyperhelix / photoneutrino / temporon phase
+  P5 = Dec 2025 Universal Indicatrix / coil-map phase
+  P6 = Mar 2026 Blockwave / no-lattice / worldtube phase
+  P7 = current ER / black-hole / topology-keystone phase
+
+Sig
+= maximum possible signal value if paper hits that signature strongly:
+  1 = generic / weak
+  2 = low
+  3 = moderate
+  4 = strong
+  5 = very strong
+
+
+MASTER SIGNATURE TABLE
+
+| Ant%Δ | Perc%Δ | Ret%Δ | Use%Δ | Orig  | Era | Sig | Signature family                                      | What counts as a meaningful hit? |
+|-------|--------|-------|-------|-------|-----|-----|------------------------------------------------------|----------------------------------|
+|       |        |       |       | SAT-P | P1  | 5   | Physical worldline / filament ontology               | Worldlines are physical/generative, not bookkeeping. |
+|       |        |       |       | SAT-P | P1  | 5   | Time surface / resolving sheet                       | A moving slice/projection/readout surface creates observed physics. |
+|       |        |       |       | SAT-P | P1  | 5   | Particle as intersection/readout                     | Particles are local readouts of extended structures. |
+|       |        |       |       | SAT-P | P1  | 5   | θ₄ / incidence / mass proxy                          | Mass or identity emerges from angle, pitch, orientation, projection, or crossing. |
+|       |        |       |       | SAT-P | P1  | 5   | Curvature of time / GR mirror                        | GR-like behavior emerges from time-surface curvature or filament back-pull. |
+|       |        |       |       | SAT-P | P1  | 5   | Backbleed / full-worldline physical extent           | Future/past tension or global history affects local physics in a constrained way. |
+|       |        |       |       | SAT-P | P2  | 5   | QED as first-order coil                              | EM/QED behavior from coil/helix geometry. |
+|       |        |       |       | SAT-P | P2  | 5   | Baryons as Borromean / mesons as Hopf                | Particle classes from link/knot intersection topology. |
+|       |        |       |       | SAT-P | P2  | 5   | Particle identity from braid/coil/link topology      | Identity comes from topology, not point labels. |
+|       |        |       |       | SAT-P | P3  | 4   | Sector-translation architecture                      | Standard physics translated into a shared geometric grammar. |
+|       |        |       |       | SAT-P | P3  | 4   | AI-audited modular derivation workflow               | Source-harvest, supervisor/auditor/code/proof loop. |
+|       |        |       |       | MIX   | P3  | 3   | Opacity / refractive / matter-vacuum spectrum        | Vacuum/matter as degrees of transmission/readout. |
+|       |        |       |       | SAT-P | P4  | 5   | Hyperhelical / superhelical worldline formalism      | Nested helices/writhe/twist generate identity or dynamics. |
+|       |        |       |       | SAT-P | P4  | 4   | Photoneutrino / temporon / bosonic time              | Photon/neutrino/time wavefront treated as related geometric excitation. |
+|       |        |       |       | SAT-P | P5  | 4   | Universal possibility-space / Indicatrix             | Space of possible worldline orientations becomes generative. |
+|       |        |       |       | MIX   | P6  | 3   | Lattice / unit-cell / quantum foam scaffold          | Lattice-like computational scaffold; do not overcount if background is primitive. |
+|       |        |       |       | SAT-P | P6  | 5   | No-lattice / explicit 4D superhelix                  | Dynamics returned to concrete 4D filament curves. |
+|       |        |       |       | SAT-P | P7  | 5   | ER / worldtube continuity                            | Particle/worldtube identified with bridge-like topological continuity. |
+|       |        |       |       | SAT-P | P7  | 5   | Black-hole horizon as readout conversion             | Mass/information becomes horizon/global topology rather than interior matter. |
+|       |        |       |       | SAT-P | P7  | 5   | Klein-neck / topology-as-chart-bypass                | Inside/outside, matter/vacuum, source/sink, or collapse/expansion reinterpreted by global topology. |
+|       |        |       |       | PRE/MIX | any | 2-4 | Topology as local-physics generator                 | Global topology changes local symmetry, admissibility, CP, mass, or observability. |
+|       |        |       |       | PRE/MIX | any | 2-4 | Holonomy / boundary / transport rules               | Identity or symmetry determined by global transport, boundary conditions, or closure. |
+|       |        |       |       | PRE/MIX | any | 2-4 | Gauge / CP / chirality from topology                | P/C/CP/handedness changes due to topology, projection, compactification, or boundary conditions. |
+|       |        |       |       | PRE   | any | 1   | Generic worldlines                                  | Ordinary worldline formalism only. |
+|       |        |       |       | PRE   | any | 1   | Generic topology                                    | Topology used as ordinary technical machinery only. |
+|       |        |       |       | PRE   | any | 1   | Generic compactification                            | Extra dimensions compactified without SAT-relevant readout role. |
+
+SAT / PAPER ASSAY RUBRIC v3.0
+Purpose:
+Evaluate physics papers for:
+1. how surprising the model is from a 2024 baseline;
+2. whether it resembles any historical phase of SAT;
+3. whether it suggests possible SAT/podcast percolation, ordinary convergence, or SAT retrodiction of existing physics;
+4. whether it gives SAT useful standard-language tools.
+
+This is NOT a courtroom test for direct influence.
+This is an idea-ecology / model-prior / standard-translation assay.
+
+Core question:
+Is the paper merely using geometry inside an established framework,
+or is it letting geometry/topology determine what local physics can exist?
+
+
+================================================================================
+I. NULL BASELINE
+================================================================================
+
+Start with a strong, respectful null.
+
+Assume competent scientists are pursuing questions naturally motivated by:
+- their own previous papers;
+- their field’s standard problems;
+- known mathematical machinery;
+- active technical literatures;
+- collaborators’ expertise;
+- standard next-step generalizations.
+
+Do not use straw baselines like:
+“They think Klein bottles are weird.”
+“They suddenly discovered topology.”
+“They are copying SAT because they used geometry.”
+
+Use a real baseline:
+“They are exploring whether a controlled mathematical structure in their existing framework
+can generate physically meaningful lower-dimensional effects.”
+
+Only after that, ask whether SAT-like timing, packaging, or functional role remains.
+
+
+================================================================================
+II. SAT HISTORICAL PHASE MATCHING
+================================================================================
+
+A paper may resemble any SAT phase, not just current SAT.
+
+PHASE 0 — PRIVATE / PRE-PODCAST
+- quark triplet/doublet = braid
+- particle-family topology intuition
+- not public percolation evidence unless independently timestamped
+
+PHASE 1 — FEB 2 2025 FUNDAMENTAL INTUITIONS
+- worldlines are physical filaments
+- time is a wavefront / timesheet
+- particles are timesheet–filament intersections
+- real energy transfer at intersection
+- mass proxy from θ₄, the intersection angle
+- back-reaction of filaments curves time / time surface
+- SM, GR, QM imported by geometric translation
+- futureward/pastward backbleed structurally limited by filament/timesheet geometry
+
+PHASE 2 — APRIL 2025 STRINGING ALONG → SAT
+- QED as first-order electron coil
+- electrostatic “Velcro” between coils
+- baryons as Borromean knots
+- mesons as Hopf links
+- particle identity from intersection topology
+
+PHASE 3 — MAY/JUNE 2025 SAT-O / BIG PAPER
+- first Lagrangian/Hamiltonian attempts
+- SAT as sector-translation architecture
+- derivations down toward Maxwell, Newtonian motion, Navier–Stokes, etc.
+- modular AI / supervisor / auditor / Python lab workflow
+- optical/material opacity analogies
+- radial filament cosmology, marble universe, shin-kick universe
+- GR as curvature of time / back-pull of filament network
+
+PHASE 4 — OCTOBER 2025 HYPERHELICAL / MODE FORMALISM
+- return to hyperhelical formalism
+- writhe/twist
+- photoneutrino sector
+- temporons / bosonic time
+- “freeze the block, move the sheet”
+- equivalent interpretive modes
+
+PHASE 5 — DECEMBER 2025 INDICATRIX
+- Universal Indicatrix
+- worldline possibility-space
+- coil-particle identity map
+
+PHASE 6 — JAN/MAR 2026 FORMALIZATION / NO-LATTICE / BLOCKWAVE
+- explicit 4D superhelical filaments
+- Whirligig / derivation path solver
+- HSUCV / lattice attempts, later constrained or demoted
+- Blockwave / Laplacian filament
+- stronger no-background / no-lattice correction
+- worldtube complexity
+
+PHASE 7 — CURRENT KEYSTONE
+- filaments/worldtubes as ER continuity
+- black holes as topology/stretching/conversion structures
+- horizon as readout boundary / topology conversion surface
+- local mass-readout converted into global curvature/tension/holonomy
+- possible 3+3 space/time enlargement
+- Klein-neck analogy:
+  particle worldline, black hole, and cosmology may be scale-related neck structures
+
+
+================================================================================
+III. SCORE 1: 2024 EXPECTEDNESS / SURPRISE
+================================================================================
+
+E0 — Expected / standard
+The paper is a natural continuation of visible pre-2025 work.
+Examples:
+ordinary worldline formalism, ordinary compactification, ordinary topology in QFT,
+ordinary branes, ordinary CP/baryogenesis, ordinary black-hole thermodynamics.
+
+E1 — Known but niche
+The ingredients existed and the authors had plausible reasons to use them,
+but the specific direction was not dominant.
+
+E2 — Unexpected packaging
+The ingredients existed, but this combination, timing, or prominence would have been
+moderately surprising from a 2024 baseline.
+
+E3 — Highly unexpected SAT-shaped cluster
+The package combines multiple SAT-native or SAT-adjacent elements in a way that was not
+a natural 2024 prediction.
+
+Calibration:
+Topology in physics was not “career suicide” in 2024.
+Topology as a controlled technical tool was respectable.
+Topology as a total generative ontology for particles/forces/cosmology was reputationally risky.
+Score the specific function and package, not the mere presence of topology.
+
+
+================================================================================
+IV. SCORE 2: SAT DISTINCTNESS
+================================================================================
+
+S0 — Generic
+Shared vocabulary only.
+
+S1 — SAT-compatible
+The paper can be translated into SAT language, but SAT adds little.
+
+S2 — SAT-adjacent
+The paper uses a functional move SAT cares about:
+global topology changes local physics;
+holonomy carries identity;
+hidden geometry controls lower-dimensional readout;
+symmetry or mass emerges from boundary/projection/incidence.
+
+S3 — SAT-native
+The paper strongly resembles a distinctive SAT move:
+particle-as-timesheet-intersection;
+θ₄/mass readout;
+physical worldline/filament continuity;
+braid/coil particle classes;
+black-hole/horizon topology as information conversion;
+matter/vacuum continuum;
+two-force interbraid/electrograv grammar.
+
+
+================================================================================
+V. SCORE 3: PACKAGE COMPRESSION
+================================================================================
+
+C0 — Isolated motif
+One loose resemblance.
+
+C1 — Paired motif
+Two related overlaps.
+
+C2 — Cluster
+Several SAT-adjacent motifs appear together.
+
+C3 — Architecture
+The paper’s whole mechanism resembles a translated SAT-style move.
+
+
+================================================================================
+VI. TOTAL SCORE
+================================================================================
+
+TOTAL = E + S + C
+
+0–2 = negligible
+3–4 = weak
+5–6 = moderate
+7–8 = strong
+9   = smoking-gun-class ecology signal, not proof of direct influence
+
+
+================================================================================
+VII. INSPIRATION / PERCOLATION CATEGORY
+================================================================================
+
+0 — No line
+No meaningful resemblance beyond generic vocabulary.
+
+1 — Shared background only
+SAT and the paper draw from the same older literature.
+
+2 — Parallel convergence
+The paper independently reaches a nearby frame.
+
+3 — SAT-adjacent trendline
+The paper shows the field moving toward SAT-shaped questions,
+but its internal motivation is strong enough that SAT influence is not needed.
+
+4 — Possible percolation / inspiration channel
+Timing, packaging, discoverability, and public framing make SAT a plausible contributor
+to the idea ecology.
+
+5 — Strong translated resonance
+The paper uses a distinctive SAT-like package in professional language after the SAT anchor date.
+
+6 — Near-smoking-gun ecology signal
+A highly SAT-specific package appears with weak pre-2025 precedent and plausible exposure pathways.
+
+
+================================================================================
+VIII. PROVENANCE TAGS
+================================================================================
+
+PRE   = clearly pre-existing before SAT
+MIX   = pre-existing ingredients, but new package or use may be distinctive
+SAT-P = SAT-unique package; ingredients may preexist, but SAT’s combination/framing is distinctive
+SAT1  = likely SAT-first / no close pre-SAT analogue yet
+UNK   = unknown until citation/literature audit
+
+Tags are provisional.
+Downgrade if older analogues are found.
+
+
+================================================================================
+IX. CORE SIGNATURE FAMILIES
+================================================================================
+
+A. Physical worldline / filament ontology
+Does the paper treat paths/histories/worldlines as physically generative?
+
+B. Timesheet / resolving surface / projection
+Does observed physics arise from a slicing, projection, brane, wall, boundary, or readout relation?
+
+C. Particle as intersection/readout
+Are particles local readouts of extended or higher-dimensional structures?
+
+D. θ₄ / incidence / pitch / mass proxy
+Does mass or identity arise from angle, orientation, pitch, crossing, projection, or incidence?
+
+E. Holonomy / closure / winding
+Does identity persist as twist, transport rule, phase, boundary condition, winding, or global path data?
+
+F. Braid / coil / knot / link particle classes
+Do particle families, nuclei, gauge sectors, or interactions arise from braids, knots, links, coils, or topological classes?
+
+G. Topology as local-physics generator
+Does global topology determine local symmetry, admissibility, CP, observability, mass, or particle production?
+
+H. Klein-logic / chart-bypass function
+Does a local impossibility, contradiction, boundary, or asymmetry become coherent through global topology?
+
+I. Black-hole / horizon / ER topology
+Does the paper treat horizons, wormholes, ER bridges, or boundaries as information/topology structures?
+
+J. Matter/vacuum continuum
+Does matter become a regime of a deeper substrate rather than a primitive entity?
+
+K. Gauge scrambling / symmetry change by geometry
+Does geometry/topology/boundary condition change gauge, chirality, CP, handedness, or charge-sector behavior?
+
+L. Cosmology from topology
+Does expansion, baryogenesis, dark energy, inflation, or early-universe behavior arise from topology?
+
+M. AI / formal workflow
+Does the paper or project resemble source-harvest, modular derivation, code/proof/audit workflow?
+
+
+================================================================================
+X. DO-NOT-OVERCOUNT RULES
+================================================================================
+
+1. Ordinary worldline formalism is not SAT unless worldlines become physical/generative.
+
+2. Ordinary topology is not SAT unless topology changes local physics, identity, symmetry, or readout.
+
+3. Ordinary holonomy is not SAT unless holonomy carries identity, quantization, admissibility, or local readout.
+
+4. Ordinary compactification is not SAT unless the compact geometry functions as a local-physics generator.
+
+5. Ordinary CP/baryogenesis is not SAT.
+   Count only CP/baryogenesis from topology, boundary conditions, holonomy, projection,
+   braid, non-orientability, incidence, or readout geometry.
+
+6. Pin structures are standard machinery for fermions on non-orientable manifolds.
+   Do not count pin structures themselves as SAT.
+   Count the use of pin/boundary rules to generate lower-dimensional physics.
+
+7. Branes, walls, condensates, Bogoliubov coefficients, domain walls, and time-dependent mass
+   are standard tools.
+   Count the package if global topology creates the wall/readout/asymmetry.
+
+8. Black-hole information work is not SAT unless information is treated as horizon/global topology,
+   boundary encoding, routing, or readout conversion.
+
+9. String theory is not anti-SAT by default.
+   SAT may treat some string vibration modes as projected footprints of filament/superhelix behavior.
+
+10. Do not assume external influence.
+    Papers may be examples of SAT retrodicting known physics, not percolation.
+
+11. Do not require current-SAT resemblance.
+    A paper may resemble an earlier SAT scaffold that current SAT has partially abandoned.
+
+
+================================================================================
+XI. AUTHOR / MOTIVATION PRIOR
+================================================================================
+
+For each paper, ask:
+
+1. What were the authors’ last 3–5 relevant papers?
+
+2. What questions were they already asking?
+
+3. What topology/geometry/tools had they already used?
+
+4. Did they explicitly say what follow-up work should be done?
+
+5. Would this paper have been a top 5 or top 10 guess for their next move?
+
+6. Is the specific object natural from their prior work?
+   Example:
+   S^1 compactification → general compact topology → non-orientability → Klein bottle.
+
+7. Is there new data motivating the turn?
+   Or is it a theory-space / model-building continuation?
+
+8. Is the public interview framing stronger/different from the technical paper?
+
+Scoring:
+Author-prior strong = reduce percolation score for this paper.
+Author-prior weak = increase surprise/percolation weight if package is SAT-like.
+
+
+================================================================================
+XII. SPECIAL KLEIN / NON-ORIENTABLE / CP RUBRIC
+================================================================================
+
+For Klein-bottle or non-orientable compactification papers, ask:
+
+1. Is the Klein bottle just a mathematical testbed, or is it doing physical work?
+
+2. Why this topology?
+   - compact
+   - closed
+   - locally flat
+   - non-orientable
+   - simplest clean laboratory for orientation reversal
+
+3. What is being projected into 3+1D?
+
+4. What boundary conditions or transport rules determine the lower-dimensional physics?
+
+5. Are spinors/fermions involved?
+   If yes:
+   - pin structures are expected
+   - handedness / parity / C / CP become natural questions
+
+6. Is there a wall?
+   If yes:
+   - what creates it?
+   - is it an order parameter?
+   - does brane/wall crossing create time-dependent mass or particle production?
+
+7. Is baryogenesis mentioned?
+   If yes:
+   - is it a completed model or a possible pathway?
+   - what Sakharov ingredients are claimed?
+
+8. SAT translation:
+   Hidden/global topology → local readout / symmetry / particle-sector consequences.
+
+9. SAT caution:
+   Do not call it black-hole/ER language unless the authors do.
+   Treat black-hole/ER neck as SAT analogy, not their claim.
+
+
+================================================================================
+XIII. SPECIAL BLACK-HOLE / HORIZON / ER RUBRIC
+================================================================================
+
+For black-hole papers, ask:
+
+1. Where does information live?
+   - interior?
+   - singularity?
+   - horizon?
+   - exterior charges?
+   - entanglement wedge?
+   - topology?
+   - curvature/tension state?
+
+2. Is the horizon a causal boundary, thermodynamic membrane, quantum surface, topological neck,
+   or readout boundary?
+
+3. Does mass/information become boundary-encoded?
+
+4. Is the singularity treated as physical, resolved, replaced, avoided, or a chart failure?
+
+5. Is there any link to cosmology:
+   - Big Bang
+   - dark energy
+   - recycling
+   - baby universe
+   - ER bridge
+   - bounce
+   - topology change
+
+6. SAT translation:
+   particle = local timesheet readout;
+   filament/worldtube = cosmological continuity;
+   horizon = possible conversion of matter readout into curvature/topological encoding.
+
+7. SAT caution:
+   Do not force standard-GR infaller language as a veto.
+   Use GR as exterior-limit constraint, then analyze SAT geometry on its own premises.
+
+
+================================================================================
+XIV. PAPER WORKSHEET
+================================================================================
+
+Paper:
+Authors:
+Date:
+Field:
+Immediate prior papers by authors:
+Claimed motivation:
+Did authors state future directions in prior papers?
+Does current paper follow from those directions?
+
+Technical summary:
+
+Individual claims:
+1.
+2.
+3.
+4.
+5.
+
+Defining model features:
+1.
+2.
+3.
+4.
+5.
+
+What problem is it answering absent SAT?
+
+Why this structure / topology / model?
+
+What standard machinery is used?
+
+What is genuinely new or unusual?
+
+Pre-2025 lineage:
+- key older literature:
+- what was already known:
+
+Post-Feb. 2025 timing:
+- relation to SAT public timeline:
+
+SAT phase resemblance:
+- Phase:
+- Why:
+
+Signature hits:
+A. Worldline/filament:
+B. Timesheet/projection:
+C. Particle readout:
+D. θ₄/incidence/mass:
+E. Holonomy/transport:
+F. Braid/coil/knot:
+G. Topology local-physics generator:
+H. Klein/chart-bypass:
+I. Black-hole/horizon/ER:
+J. Matter/vacuum continuum:
+K. Gauge/symmetry scrambling:
+L. Cosmology from topology:
+M. AI/formal workflow:
+
+Scores:
+E = 2024 expectedness:
+S = SAT distinctness:
+C = package compression:
+TOTAL =
+
+Percolation category:
+0 / 1 / 2 / 3 / 4 / 5 / 6
+
+Influence/percolation assessment:
+low / plausible / moderate / strong
+
+Pure convergence assessment:
+low / medium / high
+
+SAT-retrodiction assessment:
+low / medium / high
+
+Formalization usefulness for SAT:
+low / medium / high / very high
+
+What this paper helps SAT say in standard language:
+
+What not to overclaim:
+
+
+================================================================================
+XV. CUMULATIVE UPDATE QUESTIONS
+================================================================================
+
+After each paper, update:
+
+A. Anticipation:
+Did SAT/podcast prefigure this trendline?
+
+B. Percolation:
+Is SAT/podcast a plausible contributor to idea ecology here?
+
+C. Pure convergence:
+Is independent convergence sufficient for this paper?
+For the whole stack?
+
+D. SAT-style thinking:
+Are scientists increasingly using geometry/topology as generative?
+
+E. Retrodiction:
+Does SAT naturally rediscover this existing physics from its own premises?
+
+F. Formalization usefulness:
+Does the paper provide standard-language tools SAT can use?
+
+
+================================================================================
+XVI. CURRENT CALIBRATION FROM GREENE/LEVIN/KABAT/PORRATI
+================================================================================
+
+For the Klein-bottle papers:
+
+Direct SAT-percolation signal:
+weak-to-moderate, probably not strong.
+ 
+Reason:
+Their prior work already involved compact extra dimensions, brane motion,
+boundary conditions, lower-dimensional effective surprises, and cosmological applications.
+
+SAT-retrodiction signal:
+high.
+
+Reason:
+SAT’s topology/readout instincts rediscover a real standard-physics corridor:
+compact topology → boundary/transport rules → lower-dimensional symmetry/mass/particle effects.
+
+Formalization usefulness:
+very high.
+
+Reason:
+They provide standard language for:
+global topology → localized order parameter → time-dependent mass/readout → particle production/asymmetry.
+
+Key caution:
+They do not use black-hole/ER-neck language.
+They do not say “topology as readout” in SAT terms.
+That is our translation.
+
+Key SAT bridge:
+Their Klein bottle is a controlled hidden-topology testbed.
+SAT black-hole recycling may be a cosmological/horizon version of a similar topology-function:
+global neck/topology changes local matter, mass, symmetry, or information readout.
+
+
+Which SAT layer or historical phase does this resemble?
+
+Feb 2025: worldline + timesheet + particle intersection.
+April 2025: coil/QED, Borromean baryons, Hopf mesons.
+June 2025: sector translation, derivation architecture, geometric EFT, optical/material analogy.
+Oct 2025: hyperhelical formalism, holonomy, photoneutrino, temporon/time wave.
+Dec 2025: Universal Indicatrix / worldline possibility space.
+Mar 2026: Blockwave, Laplacian filament, no-lattice correction, worldtube/ER keystone.
+
+
+RESTRUCTURING TYPES
+
+1. Ontology preserved, scaffold changed:
+worldline → filament → superhelix → worldtube → ER-continuity.
+
+2. Calculation scaffold tried and demoted:
+lattice / 24-cell / HSUCV / unit cell / UI as tools, not final primitives.
+
+3. Sector language translated downward:
+SM, GR, QFT, QED, QCD appear first as modules, later as inherited-domain limits.
+
+4. Field-like notation demoted:
+θ, u, τ, J can be useful EFT notation, but primitive SAT wants intersection geometry,
+filament stress, holonomy, winding, closure, and resolving-sheet relations.
+
+5. Cosmology expanded:
+radial/marble/shin-kick models → UI/radial extension → ER/worldtube/black-hole topology.
+
+6. Black hole role upgraded:
+from possible energy/backbleed source → information-processing/stretching regime →
+ER-filament origin/continuity keystone.
+
+DURABLE SAT CORE
+
+1. Worldlines are not bookkeeping; they are physical filaments.
+2. Particles are local readouts/intersections, not primitive beads.
+3. Time is a resolving surface/wavefront, not merely a coordinate.
+4. Mass comes from interaction geometry, especially θ₄-like incidence.
+5. Quantum discreteness comes from holonomy/closure/winding.
+6. Particle classes come from braid/coil/link/topological stability.
+7. GR comes from filament/time-surface back-reaction or ensemble geometry.
+8. Standard physics is imported as constraint and translated, not discarded.
+9. Vacuum and matter are different readout regimes of the same filament substrate.
+10. Black holes/ER bridges are late keystones connecting particle topology to cosmology.
+
+particle worldline = tiny ER neck / filament continuity
+black hole = macroscopic ER neck / filament-stretching topology
+universe = full topology whose local intersections read as particles, horizons, and expansion
+
+
+
+A Klein bottle is the minimal picture of a topology where inside/outside,
+entry/exit, and orientation are globally reinterpreted.
+
+A black hole in mature SAT may be the cosmological neck where local collapse
+is globally continuous with filament/worldtube topology.
+
+So a one-black-hole universe is Klein-like because the black hole is the neck
+through which the apparent local end becomes part of the global surface.
+
+CUMULATIVE UPDATE AFTER PAPER 001
+
+Question A — SAT/podcast anticipated current trendlines:
+Previous: 98%
+New:      98%
+Δ:        0
+
+Reason:
+This confirms the relevance of earlier SAT/Klein-logic/topology motifs, but does not materially change the already-high anticipation score.
+
+Question B — diffuse percolation / field-dialogue shaping:
+Previous: 90%
+New:      91%
+Δ:        +1
+
+Reason:
+The public discourse around this paper is highly SAT-adjacent, especially in the Jaimungal presentation. But the technical lineage is old enough and professional enough that we should not over-update.
+
+Question C — pure convergence sufficient for whole stack:
+Previous: 10%
+New:      9%
+Δ:        -1
+
+Reason:
+Pure convergence remains plausible for this paper alone, but the specific 2026 clustering of Klein topology, CP asymmetry, baryogenesis, and formal limits/topology discourse slightly strains the “nothing but ordinary independent trendline” view.
+
+Question D — scientists increasingly thinking in SAT style:
+Previous: 75%
+New:      77%
+Δ:        +2
+
+Reason:
+This is a genuine example of scientists treating topology as generative rather than merely descriptive.
+
+Question E — plausible lines of inspiration/percolation exist:
+Previous: 90%
+New:      91%
+Δ:        +1
+
+Reason:
+The paper and interview occupy a conceptual channel strongly overlapping with SAT/Klein-logic public material, but no specific influence line is established.

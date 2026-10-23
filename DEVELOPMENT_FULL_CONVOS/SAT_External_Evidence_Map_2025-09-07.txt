@@ -1,0 +1,79 @@
+
+SAT External Constraints & Signals — Evidence Map
+As of: 2025-09-08
+
+Scope
+------
+Cross-field findings that can constrain, validate, or falsify classes of SAT/SAT_4D predictions.
+Organized by sector with plain-language “What this means for SAT” notes.
+(Primary literature references are listed in your chat view with live citations.)
+
+A. Gravity / Relativity
+-----------------------
+A1) Weak Equivalence Principle (WEP) — MICROSCOPE final results (2017–2022).
+    • Eötvös parameter consistent with zero at ~1e-15 precision.
+    • What this means for SAT: Any composition-dependent or direction-dependent inertial effects from u^μ, θ₄, or τ at Solar‑System scales must be below ~10^-15 relative to standard gravity, or be shielded/screened.
+
+A2) Speed of gravity vs. light — GW170817/GRB170817A (2017).
+    • |v_g − c|/c constrained to within a few ×10^-15.
+    • What this means for SAT: Any dispersion of gravitational waves (GW) or c≠c_g implied by θ₄/u^μ sectors must be negligible in the propagation regime probed by BNS mergers.
+
+A3) Extra GW polarizations & graviton mass — LIGO/Virgo/KAGRA (GWTC‑3).
+    • No evidence for non‑tensor polarizations in current ground‑based band; bound on m_g ~ O(10^-23 eV/c^2).
+    • What this means for SAT: Models predicting scalar/vector GW modes must keep their excitation or coupling sufficiently small in LIGO/Virgo/KAGRA bands, or confine them to other regimes (frequencies/sources) with quantitative forecasts.
+
+A4) PPN γ (light bending/Shapiro delay) — Cassini (2003) and later analyses.
+    • γ − 1 ≈ (2.1 ± 2.3)×10^-5; consistent with GR.
+    • What this means for SAT: Metric-limit of SAT must reduce to GR’s PPN values within these bounds in weak-field Solar‑System conditions.
+
+A5) Nanohertz GW background — Pulsar Timing Arrays (NANOGrav 15‑yr, 2023).
+    • Common-spectrum Hellings‑Downs correlations consistent with a stochastic GW background.
+    • What this means for SAT: Opportunity to forecast distinctive low‑f spectral tilt/features if SAT geometry modifies SMBH-binary populations or adds topological backgrounds; must remain compatible with observed amplitude/correlation pattern.
+
+B. Electromagnetism / Photon Sector
+-----------------------------------
+B1) Photon mass limits — global reviews (PDG 2024).
+    • Secure (method-dependent) bounds span ~10^-18 eV (solar wind/MHD) to ~10^-27 eV (galactic field; model‑dependent).
+    • What this means for SAT: Any effective Proca-like mass from θ₄/u^μ background must sit well below these bounds, or be explicitly frequency/region dependent with a consistent mechanism.
+
+B2) Cosmic birefringence / polarization rotation.
+    • Current CMB‑scale analyses find an isotropic angle at the sub‑degree level (≈0.3°) with ongoing debate on systematics.
+    • What this means for SAT: Claims of large, wavelength‑independent optical rotations (e.g., fixed ~0.24 rad) must be framed as localized/defect‑linked effects with quantified sky/frequency coverage; broad, isotropic rotations at that level are excluded.
+
+C. Quantum / CP Violation
+-------------------------
+C1) Electron electric dipole moment (eEDM).
+    • Best present bound |d_e| ≲ few ×10^-30 e·cm (molecular ion experiments, 2023–2024).
+    • What this means for SAT: Any new CP‑violating phases predicted by ψ/τ/θ₄ couplings must respect these limits; gives sharp targets for parameter scans or radiative estimates in SAT_4D EFT.
+
+D. Particle / Hadron Structure
+------------------------------
+D1) Exotics (tetraquarks/pentaquarks).
+    • Multiple states observed as resonances with finite widths (e.g., T_cc^+ narrow but short‑lived; pentaquarks with MeV‑scale widths). No evidence for asymptotically stable multiquark states.
+    • What this means for SAT: The “no asymptotically stable >3‑quark states” heuristic remains viable; if SAT predicts quasi‑stable composites, their lifetimes must be reconciled with measured widths.
+
+D2) Proton decay.
+    • No observation; mode‑dependent limits now push lifetimes beyond 10^34 yr in several channels.
+    • What this means for SAT: If SAT entails GUT‑like operators, ensure predicted rates suppress below current limits or demonstrate symmetry/topology protection.
+
+E. Neutrinos
+------------
+E1) Absolute mass scale — KATRIN (2024–2025).
+    • m(ν_e) < 0.45 eV (90% CL).
+    • What this means for SAT: Any mass‑generation mechanism or coupling to θ₄/ψ must be compatible with sub‑eV neutrino masses; provide a path to normal ordering and small Majorana phases if relevant.
+
+Quick “If‑X‑Then‑Y” Hooks for SAT
+---------------------------------
+• Detecting long‑lived (>ns) tetra/pentaquarks at colliders → strains the “no stable exotics” motif.
+• Observation of frequency‑independent photon mass effects or cosmic‑scale optical phase steps at ≫degree levels → conflicts with current EM bounds unless highly localized/rare.
+• Significant non‑tensor GW polarizations in ground‑based band → motivates a SAT mechanism and re‑fits to all LVK events.
+• eEDM discovery at ≳10^-30 e·cm → immediate constraints on SAT CP‑phases; opportunity for distinctive ψ–τ operator textures.
+• WEP violation at ≥10^-15 → would force changes in u^μ–matter couplings or screening.
+
+Suggested Next Actions
+----------------------
+1) Turn each “What this means for SAT” into a quantified SAT_4D bound (symbolic → numeric) with explicit parameter combinations.
+2) Produce forecast plots for: GW polarizations (LVK bands), birefringence angle vs. wavelength (optical → CMB), and eEDM vs. SAT CP‑phase space.
+3) Maintain a living “Red Flag List”: any single observation that would decisively falsify core SAT claims.
+
+(End of file)

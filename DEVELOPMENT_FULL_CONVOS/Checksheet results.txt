@@ -1,0 +1,382 @@
+CHECKSHEET RESULTS
+
+Awesome—thanks for the checksheet. I pulled the latest authoritative numbers (CODATA 2022, PDG 2024, and recent cosmology results) and compared them to your entries. I also dropped two interactive tables above so you can scan the numeric deltas at a glance.
+
+What lines up (✅) and what doesn’t (❌)
+
+Electromagnetism
+	•	α (fine-structure): your α = 0.00729735256928 is ≈4.5σ higher than CODATA-2022 (α = 0.0072973525643(11)). Equivalently, your 1/α = 137.035999084 is ≈4.4σ lower than CODATA-2022 (137.035999177(21)). So this one is a mismatch at the few-ppb level (but statistically significant given today’s uncertainties).  
+
+Planck units
+	•	Planck mass/length/time: your values for M_{\rm Pl}=1.2208901286\times10^{19} GeV, \ell_{\rm Pl}=1.616255\times10^{-35} m, t_{\rm Pl}=5.391247\times10^{-44} s match the CODATA/PDG central values to displayed precision. (Note: those central values don’t justify the extra digits beyond the published uncertainty, but they’re numerically consistent.) ✅  
+
+Lepton mass ratios
+	•	m_\mu/m_e: your 204.9736845 vs PDG-based 206.768283… → −0.87% (big relative to tiny experimental errors) ❌.
+	•	m_\tau/m_\mu: your 16.7432659 vs PDG-based 16.817692… → −0.44% ❌.
+(Computed from PDG-2024: m_e=0.51099895000 MeV, m_\mu=105.6583755 MeV, m_\tau=1776.93 MeV.)  
+
+CKM “within-column” ratios
+	•	You list |V_{ub}|/|V_{cb}| = 1.718\times10^{-3} and |V_{td}|/|V_{cd}| = 7.406\times10^{-3}. PDG-2024 global fit gives |V_{ub}|=0.003732^{+0.000090}{-0.000085}, |V{cb}|=0.04183^{+0.00079}{-0.00069}, |V{td}|=0.00858^{+0.00019}{-0.00017}, |V{cd}|=0.22487\pm0.00068, so
+\frac{|V_{ub}|}{|V_{cb}|}\approx 0.0892,\quad \frac{|V_{td}|}{|V_{cd}|}\approx 0.0382.
+Your ratios are ≈52× and ≈5× smaller, respectively. This looks like a labeling/clipboard error, because those two numbers exactly match your up-sector “overlap factors” Y_{uc}=0.001718 and Y_{ct}=0.007406 elsewhere in the sheet. ❌  
+
+Neutrino mass sum \Sigma m_\nu (bands)
+	•	Your NO bands: {0.0637 eV, 0.067 eV, 0.105–0.114 eV}.
+	•	Your IO band: 0.111–0.114 eV.
+	•	Status: PDG-2024 summarizes the mainstream upper bound at <0.12 eV (95% CL), compatible with all your bands. Newer, tighter combinations that include DESI BAO can reach <0.072 eV, which would strongly squeeze 0.105–0.114 eV and effectively disfavour the IO band—but this depends on dataset choices and analysis details. So: parts of your bands are robust; the high-Σ corridors are under pressure in the tightest analyses. ⚠️    
+
+Other “relationships & predictions”
+	•	\Delta a_\tau/\Delta a_\mu \approx 31.38: no precision \tau g-2 yet; nothing definitive to compare. For context, current world average for \Delta a_\mu is 11659205.9(2.2)\times10^{-10} (FNAL+BNL). ✳️  
+	•	Cosmic birefringence co-variation: current CMB analyses suggest a small rotation angle \beta\sim 0.3^\circ with modest significance and notable systematics; hints persist in Planck PR4 reanalyses, but no consensus discovery. So this correlation isn’t testable yet. ✳️
+
+⸻
+
+Headlines (blunt, as requested)
+	•	Planck-unit entries: good.
+	•	α / 1/α: numerically very close, but statistically off (≈4–5σ vs CODATA-2022).
+	•	Lepton mass ratios: off by 0.4–0.9%, i.e., far outside experimental errors.
+	•	CKM ratios: way off; likely a mis-paste from your Y parameters.
+	•	\Sigma m_\nu: low-Σ points fine; high-Σ corridors are increasingly constrained by DESI-augmented fits, yet still consistent with PDG’s headline bound.
+
+If you want, I can also rewrite the CKM section to use your Y parameters as a model input and then compute the implied |V_{ij}| ratios to compare directly with PDG—right now the two numbers under “CKM ratios” look like they wandered in from the Y row.
+
+Sources used: CODATA-2022 constants; PDG-2024 lepton masses and CKM fit; PDG-2024 neutrino mass-sum review; Planck/DESI cosmology papers; Planck birefringence analyses. Citations are inline above.  
+
+Refs: CODATA wall poster for 2022 constants; NIST pages; PDG 2024 reviews/listings; PDG astrophysical constants (Planck units); Planck 2018/PR4 birefringence literature; DESI-based neutrino-mass constraints.     
+
+⸻
+
+Want me to (a) correct the two CKM entries and (b) propagate your Y set to a full |V_{ij}| matrix + uncertainties so we can see where your geometry best/fails vs PDG?
+
+Got it — I’ve consolidated everything from your two files into a single “SAT constants sheet” and split them into two groups: those checkable now (because experiment or observation already pins them) and those that are structural SAT outputs but not yet experimentally measurable.
+
+⸻
+
+✅ Constants checkable today (directly or via strong published values)
+
+Core EM & Planck sector
+	•	Fine-structure constant
+ • \alpha = 0.00729735256928
+ • 1/\alpha = 137.035999084
+	•	Planck units
+ • M_{\rm Pl}=1.2208901286\times10^{19}\,\text{GeV}
+ • \ell_{\rm Pl}=1.616255\times10^{-35}\,\text{m}
+ • t_{\rm Pl}=5.391247\times10^{-44}\,\text{s}
+	•	Gravitational stiffness scale (normalized)
+ • m_\star = 9.0346\times10^{17}\,\text{GeV}
+ • m_\star/M_{\rm Pl} = 0.074
+
+Leptons
+	•	Mass ratios
+ • m_\mu/m_e = 204.974
+ • m_\tau/m_\mu = 16.743
+	•	Lepton ladder angles (from m_f/m_\star)
+ • \sin^2\theta_e = 5.65\times10^{-22}
+ • \sin^2\theta_\mu = 1.17\times10^{-19}
+ • \sin^2\theta_\tau = 1.97\times10^{-18}
+
+CKM ratios (texture-independent, within-column)
+	•	|V_{ub}|/|V_{cb}| = 1.718\times10^{-3}
+	•	|V_{td}|/|V_{cd}| = 7.406\times10^{-3}
+
+Neutrinos
+	•	Σmν bands from SAT
+ • Normal ordering: 0.0637 eV, 0.067 eV, 0.105–0.114 eV
+ • Inverted ordering: 0.111–0.114 eV
+(These can be compared to cosmology limits: <0.12 eV at 95% CL, tighter with DESI/BAO.)
+
+⸻
+
+🚫 Constants not directly checkable yet (structural, awaiting measurement)
+
+Overlap constants (Y’s)
+	•	Down sector:
+ • Y_{ds}=0.0485, Y_{sb}=0.0233, Y_{db}=0.00113, plus squares/products.
+	•	Up sector:
+ • Y_{uc}=0.00172, Y_{ct}=0.00741, Y_{ut}=1.27\times10^{-5}, plus squares/products.
+	•	Mixed up–down composites:
+ • Y_{ct}Y_{sb}=1.73\times10^{-4}, Y_{uc}Y_{ds}=8.33\times10^{-5}, Y_{ut}Y_{db}=1.44\times10^{-8}.
+
+(These govern penguins/boxes, but are not directly measurable yet — only indirectly via flavor fits.)
+
+g−2 ↔ birefringence
+	•	Co-variation slope factor = −78
+(No direct birefringence measurement at required precision yet.)
+
+Tau vs muon anomalous magnetic moments
+	•	\Delta a_\tau/\Delta a_\mu = 31.38 (assuming ΔKτℓ₄ = 36).
+(τ g−2 not yet measured to remotely required accuracy.)
+
+Birefringence absolute angle
+	•	Formula in terms of κ and LOS step known, but absolute β awaits both κ and cosmic measurement.
+
+⸻
+
+🧾 Summary
+	•	Checkable today: all EM/Planck constants, lepton mass ratios, CKM within-column ratios, neutrino Σmν bands vs cosmology.
+	•	Not directly checkable yet: overlap constants Y, g−2↔birefringence slope, τ/μ g−2 ratio, and absolute birefringence predictions.
+
+⸻
+
+Would you like me to now map each checkable constant explicitly against its latest CODATA/PDG/cosmology number (like I did earlier with the table), so you’ve got one single “comparison grid” that says match / mismatch across the board?
+
+Here’s a refined breakdown of your constants—first those checkable with current data, then the others you’d hoped to test more indirectly.
+
+⸻
+
+Checkable with current data (and how they fare)
+
+1. Fine-structure constant \alpha and its reciprocal
+	•	CODATA-2022 gives
+\alpha = 7.297\,352\,5643(11) \times 10^{-3}
+and
+1/\alpha = 137.035\,999\,177(21)
+ .
+	•	Your values:
+\alpha = 0.00729735256928 (≈ 7.297 352 569 28 × 10⁻³) → about 4.1 × 10⁻⁹ higher
+1/\alpha = 137.035999084 → around 1.0 × 10⁻⁹ lower
+Both deviate beyond the quoted CODATA uncertainties—so they don’t perfectly align with today’s best value.
+
+2. Muon-to-electron mass ratio m_\mu/m_e
+	•	CODATA-based (2022):
+m_\mu/m_e = 206.768 2827(46) (uncertainty ~2.2×10⁻⁸)   .
+	•	Your value: 204.9736845 → a –0.88% error—far beyond current experimental bounds.
+
+3. Other checkable constants (Planck mass, length, time; CKM ratios; neutrino sum bands)
+
+You’ve already compared those in your earlier spreadsheet. Briefly:
+	•	Planck-scale values match published central values to the precision shown.
+	•	Lepton mass ratios and CKM “within-column” ratios diverge significantly.
+	•	Neutrino Σm_ν ranges from your sheet lie within (or are being squeezed by) cosmological bounds but generally remain viable.
+
+⸻
+
+Indirect checks (structural/derived constants not directly measurable)
+
+For constants not directly accessible (Y overlaps, g\!-\!2 ratios, birefringence slope, etc.), we can attempt indirect validation by mapping them onto observables or theoretical predictions:
+
+A. Overlap constants Y_{ij}
+
+These are structural elements in your theory—not directly measured—but could influence observables such as:
+	•	Rates of rare flavor-changing processes (e.g., K^0–\bar K^0 mixing, B-meson oscillations, rare decays).
+	•	Global CKM fits or leptonic decay branching ratios.
+
+Actionable route:
+Using your Y_{uc}, Y_{ct}, \dots, you can derive predicted |V_{ij}| entries or processes and then compare them with PDG-2024 global fits or flavor data. That would provide a meaningful indirect test.
+
+B. Anomalous magnetic moments (g\!-\!2), particularly \Delta a_\tau/\Delta a_\mu
+	•	\Delta a_\mu (muon) is measured to extraordinary precision; deviations are well-tracked.
+	•	\Delta a_\tau (tau) is not yet measured at a useful precision level—so the ratio is still speculative.
+
+Actionable route:
+Future or projected sensitivity for tau g\!-\!2 (e.g., Belle II) could be compared to your predicted ratio (31.38). For now, we can note that it’s plausible but untestable.
+
+C. Cosmic birefringence slope factor (-78)
+
+Current CMB/Planck and ground-based experiments pick up hints of a polarization rotation (~0.3° with marginal significance), but not yet at the precision needed to test a specific slope relationship with some model parameter.
+
+Actionable route:
+Compare with current latest constraints (Planck PR4, ACTpol, SPTpol). If your slope can be translated into a predicted rotation angle, you could at least gauge whether it’s within the current error bar.
+
+⸻
+
+Summary & Next Steps
+
+Constant/Parameter Type	Checkable?	Status / Next step
+\alpha, 1/\alpha	Yes	Slightly off CODATA-2022 central values (mismatch)
+m_\mu/m_e	Yes	Large mismatch (≈ –0.88 %)
+Planck units	Yes	Match central values
+Lepton mass ratios, CKM ratios	Yes	Significant deviations
+Neutrino Σm_ν ranges	Yes (via cosmology)	Some ranges compliant; highest bands under pressure
+Y_{ij} overlaps	Indirect only	Can be checked via flavor observables
+\Delta a_\tau/\Delta a_\mu (ratio)	Indirect only	Predictive—awaiting future tau g\!-\!2 data
+Birefringence slope / rotation angle	Indirect only	Compare against latest CMB polarization constraints
+
+
+⸻
+
+Your move?
+
+Let me know if you’d like me to:
+	•	Build a unified comparison table with measured vs predicted values for the directly checkable constants (with pull/σ).
+	•	Translate your structural parameters into predictions for specific physical processes or decay rates, which we can then check against PDG/Fermilab data.
+	•	Estimate what experimental precision would be required to test your \Delta a_\tau/\Delta a_\mu or birefringence slope predictions.
+
+Just say the word—I’m ready to dive deeper where you need it.
+
+You got it. I’ve done three things:
+	1.	built a single comparison grid for every checkable constant (with % error, and a σ-pull where that’s meaningful),
+	2.	mapped your structural parameters to the cleanest indirect checks we can do today (and showed what current data already implies), and
+	3.	estimated the experimental precision needed to test the g-2 and birefringence pieces.
+
+I’ve dropped two interactive tables up top:
+	•	“Checkable constants: Predicted vs Published” — side-by-side numbers, % differences, and a pull for 1/\alpha.
+	•	“Neutrino Σmν bands vs cosmology bounds” — quick pass/fail vs Planck+BAO and tighter DESI-augmented limits.
+
+Below is the narrative, with citations.
+
+⸻
+
+A) What’s checkable now — and how you did
+
+Fine-structure constant (α) and inverse
+	•	Best (CODATA-2022): \alpha=0.0072973525643(11), 1/\alpha=137.035999177(21).  
+	•	Yours: \alpha=0.00729735256928 (↑ by 4.98\times10^{-12}), 1/\alpha=137.035999084 (↓ by 9.3\times10^{-8} ≈ −4.4σ vs CODATA-2022).
+Verdict: numerically ultra-close, but statistically off at the ppb level.
+
+Planck units (from G,\hbar,c)
+	•	Best (CODATA-2022): \ell_{\rm P}=1.616255\times10^{-35}\,\mathrm{m}, t_{\rm P}=5.391247\times10^{-44}\,\mathrm{s}; M_{\rm Pl}=1.220890\times10^{19}\,\mathrm{GeV} (central).  
+	•	Yours: same to the shown precision.
+Verdict: match to central values (be mindful of significant figures vs CODATA uncertainties).
+
+Lepton mass ratios
+	•	Best (PDG-2024): from m_e, m_\mu, m_\tau listings and summary tables.  
+	•	m_\mu/m_e \approx 206.76828
+	•	m_\tau/m_\mu \approx 16.81769
+	•	Yours: 204.97368 and 16.74327 → −0.88% and −0.44% respectively.
+Verdict: clear mismatches (orders of magnitude beyond the tiny experimental uncertainties).
+
+CKM “within-column” ratios (texture-independent check)
+	•	Best (PDG-2024 global fit): |V_{ub}|=0.003732, |V_{cb}|=0.04183, |V_{td}|=0.00858, |V_{cd}|=0.22487 →
+|V_{ub}|/|V_{cb}|\approx 0.0892, |V_{td}|/|V_{cd}|\approx 0.0382.  
+	•	Yours (SAT-pure, given your Δ-ladder choice): 1.718\times10^{-3} and 7.406\times10^{-3}.
+Verdict: way lower than PDG ratios (≈52\times and 5\times too small). This is a strong tension unless those numbers were meant as different internal Y overlaps (which they numerically match).
+
+Neutrino mass sum \Sigma m_\nu (bands)
+	•	Best: PDG and recent reviews quote 95% CL bounds typically in the range <0.07\text{–}0.12 eV, with <0.12 eV a conservative, widely used number; DESI BAO combinations can push to the <0.07\text{–}0.08 eV ballpark depending on data choices.    
+	•	Yours: NO bands at 0.0637 eV and 0.067 eV are safe even under very tight combos; 0.105–0.114 eV (NO) and 0.111–0.114 eV (IO) remain allowed vs the conservative 0.12 eV bound but are squeezed (and disfavored) by the harshest DESI-augmented analyses.
+Verdict: part-pass, part-under-pressure.
+
+⸻
+
+B) Indirect checks for the rest (how to test them today)
+
+B1) Overlap constants Y_{ij} (up/down and mixed)
+
+What they’re supposed to control: loop “nudges” in flavor (penguins, boxes) scaling like Y, Y^2, or products such as Y_{ct}Y_{sb}.
+
+How to check indirectly now (without committing to a full model):
+	•	Constraint-extraction recipe: pick clean channels where SM theory is precise and data are tight, and bound an effective BSM amplitude A_{\rm BSM}\propto \kappa\cdot(\text{relevant }Y\text{ combo}).
+	•	Examples:
+	•	b\to s\gamma and b\to s\ell^+\ell^- → sensitive to Y_{ct}, Y_{sb}, product Y_{ct}Y_{sb}.
+	•	K^0–\bar K^0 and B^0_{d,s} mixings → scale like relevant Y^2 or mixed products.
+	•	Charm rare/FCNC (quiet in data) → probes tiny Y_{uc}, Y_{ut}.
+	•	What you can already say qualitatively: your hierarchy
+Y_{ds}\!\sim\!5\times10^{-2},\ Y_{sb}\!\sim\!2.3\times10^{-2},\ Y_{ct}\!\sim\!7.4\times10^{-3},\ Y_{uc}\!\sim\!1.7\times10^{-3},\ Y_{ut}\!\sim\!1.3\times10^{-5}
+is consistent with the pattern “kaon/B sectors feel percent-level nudges first; charm is the quietest.” That lines up with the experimental fact that charm FCNCs are especially suppressed, while b\to s transitions are the most fertile ground. (To turn this into numbers we’d need your overall coupling normalization(s) per operator; absent that, we only set upper limits on those normalizations using current branching-ratio and mixing constraints.)
+
+Next step if you want numbers: pick one golden mode (e.g., B\to X_s\gamma) and let me write a minimal effective operator with a single global \kappa scaling the SAT piece. Using PDG world averages, we can then produce a limit on \kappa given your Y values. (That would be a crisp, falsifiable indirect check.)
+
+B2) g\!-\!2 sector: \Delta a_\tau/\Delta a_\mu \simeq 31.38
+	•	Your SAT prediction relates BSM shifts: \Delta a_\tau \approx 31.38\,\Delta a_\mu (for \Delta K_{\tau\ell_4}=36).
+	•	Muon g\!-\!2: Fermilab’s 2025 combined result reached 127 ppb precision on the anomaly and provides the current world benchmark.    
+	•	Tau g\!-\!2: direct sensitivity remains poor; Belle II projections indicate reach at the level |a_\tau| \lesssim 1.7\times10^{-5} with 50\,\mathrm{ab}^{-1} (∼1.5% of the SM).  
+
+What this implies numerically: keep it parametric to avoid over-committing —
+if a BSM \Delta a_\mu were \mathcal{O}(2\times10^{-9}), your prediction gives \Delta a_\tau\sim 6\times10^{-8}, ~300× below Belle II’s optimistic sensitivity. Conclusion: the ratio is sharp, but an absolute test of \tau g\!-\!2 needs orders of magnitude better sensitivity (think future Tera-Z/FCC-ee era).
+
+B3) Cosmic birefringence: co-variation slope (−78) and absolute angle
+	•	Recent Planck PR4/NPIPE map-space analyses, combined with ground-based data (ACT/SPT/BICEP/POLARBEAR), keep hinting at a small isotropic rotation \beta \sim 0.3–0.4^\circ at modest significance; anisotropic components remain consistent with zero with stringent bounds.    
+	•	Your slope prediction ties fractional changes in \beta to those in \Delta a_\mu. That’s testable only when \beta reaches <10^{-2}°-level precision and systematics on absolute polarization angle are beaten down (an active area for ACT/SPT/BICEP).  
+
+What this implies for testing: today’s birefringence constraints don’t yet pin down a small, model-specific co-variation like your −78 slope. We can, however, forecast: if future CMB polarization achieves \sigma(\beta)\lesssim0.01^\circ and the muon g\!-\!2 BSM piece crystalizes, your co-motion prediction becomes falsifiable.
+
+⸻
+
+C) Concrete “what it would take” estimates
+	•	\tau g\!-\!2: to see \Delta a_\tau\sim 10^{-7} (scaling from a \Delta a_\mu\sim 10^{-9}), experiments need sensitivity at least two orders tighter than Belle II’s 50\,\mathrm{ab}^{-1} projection. High-luminosity Tera-Z/FCC-ee concepts might plausibly probe down toward \mathcal{O}(10^{-7})–10^{-8}.  
+	•	Cosmic birefringence: isotropic \beta needs \sigma(\beta)\sim10^{-3}–10^{-2}° and absolute pol-angle calibration under exquisite control to test detailed co-variation slopes; current PR4+ground results are close but not there yet.   
+	•	Flavor (via Y): choose one golden observable; with today’s branching-ratio/mixing uncertainties, we can already place meaningful upper limits on your overall SAT coupling(s) when multiplied by your fixed Y hierarchies. (Tell me which channel you’d like to anchor on; I’ll run the bound.)
+
+⸻
+
+Want me to push further right now?
+	•	I can export the comparison grid to CSV or a nicely formatted PDF.
+	•	I can instantiate a minimal effective-operator for a specific flavor channel (your pick) and turn the latest PDG averages into a numerical bound on your global SAT normalization \kappa.
+	•	Or I can write a short forecast calc: “If \sigma(\beta)=0.01^\circ and \Delta a_\mu BSM is X, what \sigma on your slope would CMB-Stage-4 need?”
+
+Just say which lever you want to pull first.
+
+Sweet—let’s pick the classic workhorse channel b\to s\gamma (inclusive B\to X_s\gamma with E_\gamma>1.6\,\mathrm{GeV}). It’s theoretically clean and directly constrains the dipole Wilson coefficient C_7, so it’s perfect for a first-principles “minimal EFT” bound on your single SAT scale factor \kappa.
+
+I’ll keep the setup minimal and transparent, show the algebra, and give the number.
+
+⸻
+
+1) Minimal EFT setup
+
+Use the usual dipole operator
+\mathcal O_7 \;=\; \frac{e}{16\pi^2}\,m_b\,(\bar s\,\sigma^{\mu\nu}P_R\,b)\,F_{\mu\nu},
+\qquad
+\mathcal L_{\rm eff}\supset \big(C_7^{\rm SM}+\Delta C_7\big)\,\mathcal O_7.
+
+Ansatz (minimal SAT mapping). Your framework says penguin-like amplitudes scale \propto Y (not Y^2). For b\to s radiative penguins, the up-sector spurion Y_{ct}=7.406\times10^{-3} is the natural driver. I’ll therefore take
+\Delta C_7(\mu_b)\;=\;\kappa\,Y_{ct}\,,
+with a single SAT normalization \kappa (dimensionless here).
+(If you instead prefer a mixed factor like \kappa\,Y_{ct}Y_{sb}, I’ll show that bound too—spoiler: it’s much weaker.)
+
+How B\to X_s\gamma constrains \Delta C_7. At leading order in the small NP piece,
+\frac{{\rm BR}}{{\rm BR}_{\rm SM}}\;\equiv\;R\;\approx\;
+\Big|\tfrac{C_7^{\rm SM}+\Delta C_7}{C_7^{\rm SM}}\Big|^2
+\;\approx\;1+2\,\mathrm{Re}\!\Big(\frac{\Delta C_7}{C_7^{\rm SM}}\Big),
+so an experimental \pm\delta R roughly implies
+\Big|\tfrac{\Delta C_7}{C_7^{\rm SM}}\Big|\;\lesssim\;\tfrac{1}{2}\,\delta R.
+
+Take the world picture (data vs SM) at E_\gamma>1.6 GeV:
+	•	A modern global determination finds the rate in good agreement with the SM and explicitly frames sensitivity in terms of \(|C_7^{\rm incl} V_{tb}V_{ts}^\*|\).  
+	•	Reviews emphasize that C_7 is already very tightly constrained by B\to X_s\gamma.   
+
+For a numerical error bar, it’s standard to compare exp. avg and SM prediction; representative numbers widely used in the literature are:
+	•	\mathrm{BR}{\rm exp}(B\to X_s\gamma;E\gamma>1.6\,\mathrm{GeV}) \approx (3.32\pm0.15)\times10^{-4} (world avg),
+	•	\mathrm{BR}_{\rm SM}\approx (3.36\pm0.23)\times10^{-4} (NNLO SM).  
+
+Combine uncertainties in quadrature relative to the SM prediction:
+\delta R \;\approx\; \frac{\sqrt{0.15^2+0.23^2}}{3.36}\;\simeq\;0.082 \quad(\text{1}\sigma).
+Then
+\Big|\tfrac{\Delta C_7}{C_7^{\rm SM}}\Big|\;\lesssim\; \tfrac{1}{2}\,\delta R
+\;\simeq\;0.041 \quad (1\sigma),
+\qquad \text{or } \; \lesssim 0.082 \quad (2\sigma).
+
+Use the standard low-scale value C_7^{\rm SM}(\mu_b)\approx -0.30 (sign and size are well known from NNLO analyses). Putting it together,
+|\Delta C_7| \;\lesssim\; 0.041\times|C_7^{\rm SM}|
+\;\simeq\;0.0123 \quad (1\sigma),
+\qquad \text{or } \;\lesssim 0.0246 \quad(2\sigma).
+
+⸻
+
+2) Bound on your \kappa
+
+Choice A (my “minimal” mapping): \Delta C_7=\kappa\,Y_{ct}
+	•	With Y_{ct}=7.406\times10^{-3}:
+|\kappa|\;\lesssim\;\frac{|\Delta C_7|}{Y_{ct}}
+\;\Rightarrow\;
+\boxed{\,|\kappa|\;\lesssim\;1.66\ \ (1\sigma),\quad \lesssim\;3.32\ \ (2\sigma)\,}.
+
+Choice B (if you insist on a mixed factor): \Delta C_7=\kappa\,Y_{ct}Y_{sb}
+	•	With Y_{sb}=2.3346\times10^{-2}\Rightarrow Y_{ct}Y_{sb}=1.7286\times10^{-4}:
+\boxed{\,|\kappa|\;\lesssim\;71\ \ (1\sigma),\quad \lesssim\;142\ \ (2\sigma)\,}.
+This is far weaker (because the product is tiny). The single-spurion choice (A) yields a more meaningful constraint.
+
+Why I prefer Choice A: your own SAT notes say penguin amplitudes scale \propto Y (not Y^2); also, b\to s\gamma already knows about the external b\to s leg—what’s “new” is the loop spurion, aptly captured by Y_{ct}.
+
+Caveat (honesty box): I deliberately absorbed unknown short-distance details into \kappa. A full UV match would add loop factors, RG running pieces, etc., but those simply renormalize \kappa. The bound above is therefore the cleanest model-agnostic constraint you can quote today from B\to X_s\gamma.
+
+Support in the literature:
+	•	B\to X_s\gamma is the key constraint on C_7, already squeezing NP shifts at the few-percent level in amplitude.   
+	•	Global inclusive fits explicitly determine the effective C_7-normalization and find agreement with the SM (room is limited).  
+
+⸻
+
+3) What this tells you about your Y hierarchy
+
+Given your fixed Y set, Y_{ct} is the right “lever arm.” The bound |\kappa|\lesssim 1.7 (1σ) means any SAT penguin-level effect feeding b\to s\gamma must be at most \sim40% of the SM dipole amplitude (and \lesssim8% at 2σ in rate, by construction). That’s consistent with your expectation of “few-percent nudges” in the cleanest channels.
+
+⸻
+
+Want me to do one more channel?
+
+Two strong follow-ons (both complementary to C_7):
+	1.	B_s\to\mu^+\mu^- (constrains C_{10} / scalar/pseudoscalar pieces): world avg (3.34\pm0.27)\times10^{-9} vs SM (3.64\pm0.12)\times10^{-9} → tight room for NP in b\!-\!s\ell\ell operators.   
+	2.	b\to s\ell^+\ell^- low-q^2 angular observables (constrains C_9 especially): C_9 can move more than C_7, so this would bound a different \kappa–Y linear combo.  
+
+Pick one and I’ll run the same one-parameter EFT exercise to produce a crisp numerical \kappa bound for that sector too.
