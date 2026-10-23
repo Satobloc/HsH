@@ -17,24 +17,23 @@ CODE 000: Nathan Permanent<br> <span style="color:green">Code Meangreen Invoked<
 
 **Nathan sign-off, separate from assistant-authored protocol:** This directive and the request to append its provenance are Nathan's messages in the October 23, 2026 conversation concerning the Calculation Relay, Blockwave, H(s)H, projectors, cobordism and inductive reconnection. Nathan also directed that the addition appear after his existing signet. The signet above is preserved unchanged. —NM 23OCT2026
 
-### ND-2026-10-23 — Factory Floor admission means mathematical validity only
+### ND-2026-10-23 — Factory Floor mathematical clearance is NOT candidacy
 
-**Nathan Direct · October 23, 2026 · Mandatory Factory Floor interpretation.**
+**Nathan Direct · October 23, 2026 · Correction and supersession of the immediately preceding Factory Floor admission wording.**
 
-**Every result admitted to the Factory Floor is TENTATIVE.** Its tentative acceptance certifies only that the *specific mathematical construction or result, under its explicitly stated assumptions*, has passed the applicable internal mathematical validity tests. This is permission to consider it an **allowed candidate** in further work, **not** an endorsement of its applicability to SAT/H(s)H and **not** proof of any physical claim.
+**Factory Floor clearance establishes mathematical validity only, within the stated assumptions and actual scope of checks.** It means the mathematical result is **ALLOWED TO BE CONSIDERED FOR TENTATIVE H(s)H CANDIDACY**. It does **not** itself make the result a tentative candidate. The former label “TENTATIVE ALLOWED CANDIDATE” was erroneous and is explicitly withdrawn.
 
-**Keep the three gates separate:**
-1. **Mathematical validity / Factory Floor admission:** The stated equations, transformations, dimensional typing, topology, limits, numerical results, and assumptions are internally sound to the scope tested. **Status: TENTATIVE ALLOWED CANDIDATE.** Record precise scope, checks, and any remaining mathematical qualifications.
-2. **Connection to H(s)H:** Whether this sound mathematics describes, follows from, or can be consistently integrated into the *operative* finite-core H(s)H construction is a **separate, unresolved question** until explicitly established. Factory Floor presence is never evidence of that connection.
-3. **Connection to physical reality:** Whether an H(s)H candidate reproduces established physics, survives independent empirical comparison and makes valid physical predictions is a further **separate** verification problem. No Factory Floor result is automatically promoted into physical truth, BEDROCK, or a settled H(s)H mechanism.
+**Distinct gates, with no automatic promotion:**
 
-**Failure handling:** A result that fails mathematical validity is not admitted merely for being historically interesting or numerically suggestive. Keep failures, nonunique repairs, and conjectural constructions in their appropriate unresolved/rejected/quarantine records. Passing a limited mathematical check is not a blanket proof beyond its tested assumptions.
+1. **Factory Floor, mathematical clearance:** Verify mathematical soundness (including algebra, dimensions, signs, limits, geometry/topology, stated hypotheses, and reproducibility as appropriate). Status: **MATHEMATICALLY CLEARED; ELIGIBLE FOR CANDIDACY CONSIDERATION ONLY**. Acceptance is tentative with respect to the breadth and completeness of the mathematical audit, not evidence of H(s)H applicability or physical truth.
+2. **Tentative H(s)H construction candidate:** Requires an explicit and independently audited connection to the operative H(s)H construction **AND explanatory or constraining power across multiple physical sectors** of the same coupled system. Name the sectors and demonstrate cross-sector consistency, shared constraints, and consequences; a one-sector match, an attractive analogy, or purely formal compatibility is insufficient. Status remains **NOT A CANDIDATE** until this additional gate is met.
+3. **Physical verification:** Even a genuine cross-sector tentative H(s)H candidate is not thereby established physics. Independently compare with accepted physics and observations, testing quantitative consequences, uncertainties, alternatives, predictions versus fits, and fail-rigid inter-sector propagation. No automatic BEDROCK promotion or claim of physical validation.
 
-**Interaction with the Correction-First Protocol:** Search for and use justified later corrections first. If none exists, audit the older construction. Admit only what passes as **tentative mathematics**, with original-source genealogy and no implied physical endorsement.
+**Handling:** Retain mathematically cleared results as eligible research material without labeling them H(s)H candidates. Preserve failures and unresolved/nonunique repairs outside mathematical clearance. Apply the Correction-First Protocol: justified later corrections are consulted first; otherwise recover and test the historical math, retaining source genealogy. Prior BEDROCK safeguards, Mersearch-first rule, and privacy boundaries remain in force.
 
-**Nathan's instruction, verbatim:** "Ok. Now… For everything that goes into the factory floor… It’s tentative. And the tentative acceptance is that we’ve proven it to be valid math, not that we’ve proven it to be connected to HSH or anything physical. But it is now an allowed candidate."
+**Nathan's correction, verbatim:** “No, …. it does not become a tentative candidate. It is allowed to be considered for tentative candidacy. In order to become a candidate, HSH construction, it has to explain things across multiple sectors.”
 
-**Provenance:** Nathan Direct, October 23, 2026, continuation of the conversation establishing CODE MEAN GREEN correction-first archival recovery. This paragraph records the user's instruction, not an assistant-authored claim of scientific validation.
+**Provenance:** Nathan Direct, October 23, 2026, this conversation's correction to the immediately prior Factory Floor wording. The earlier wording has been replaced rather than left as an operative competing directive.
 
 ---
 
