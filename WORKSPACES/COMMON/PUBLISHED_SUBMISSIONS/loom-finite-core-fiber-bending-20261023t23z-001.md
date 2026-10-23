@@ -1,0 +1,30 @@
+# Loom CODE 000 | Exact finite-core longitudinal-fiber bending correction | 2026-10-23T23Z
+
+Task ID: calc48-20261023T23Z-loom-finite-core-bending-001
+Status: INTERNALLY_CHECKED standard Euclidean tube geometry and explicitly conditional quadratic bulk functional. No H(s)H candidacy, no BEDROCK promotion, no physical validation.
+
+## Original-source genealogy and existing corrections
+Historical SAT 2026/SAT MATH - BACKBONE.txt, Git blob 1854995be3311f565739f2be64269cbb0385a82f, contains fourth-order filament stiffness equations (around line 97). HsH DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Interconn.txt, blob 02312fbb23167e8ce1c996451199ee0e498437b1, lines 69-82, writes filament bending contribution kappa*|X''|^2/2 (under its specified parameter convention). These historical expressions are preserved, not treated as validated dynamics.
+Existing finite-core construction: WORKSPACES/MERIDIAN/SANDBOX/2026-10-08_FINITE_CORE_4D_JACOBIAN_MATERIAL_TWIST_GATE.md, blob 34e971374b9c8fb87b5f5cac3b699baf8462455b, already established the normal 3-ball Jacobian and gauge/material-frame distinction. Alberr PUBLISHED_SUBMISSIONS/alberr-reach-secondvariation-20261023t16z-001.md, blob ebb2a3d086c2582c19649a61afbba1e6ae88cd51, established exact reach for the present two-frequency curve. Meridian PUBLISHED_SUBMISSIONS/meridian-frenet-determinant-20261023t22z-001.md, blob 55f8e06a6430f34b5adcb6763ad6edbbb3679d51, corrected historical Frenet torsion normalization. This packet does NOT claim those prior results as new.
+
+## New exact finite-core calculation
+For a unit-speed Euclidean R4 centerline X(s), choose a relatively parallel rank-three normal frame N_i with N_i'=-kappa_i T and T'=sum_i kappa_i N_i. Let y range over a round normal 3-ball B_a^3, with a below global reach. The tubular embedding is F(s,y)=X(s)+sum_i y_i N_i(s). Its longitudinal derivative is F_s=(1-kappa_vec.y)T; Jacobian J=1-kappa_vec.y. For each fixed normal material coordinate y, the offset fiber has curvature kappa_y=|kappa_vec|/J and fiber arclength ds_y=J ds. These are exact geometric identities on J>0.
+
+A declared comparator, NOT a derived SAT action, is a uniform quadratic bending density (K/2)*kappa_y^2 per actual fiber arclength and normal 3-ball volume. The exact cross-sectional multiplier relative to (K/2)*V3*integral kappa_1^2 ds is
+f(q)=(3/4)*integral_{-1}^1 (1-t^2)/(1-q*t) dt
+    =3*[2*q+(q^2-1)*ln((1+q)/(1-q))]/(4*q^3), q=a*kappa_1, 0<=q<1.
+The analytic small-q series is f(q)=1+q^2/5+3*q^4/35+q^6/21+q^8/33+O(q^10). The formal local limit f(0)=1, f(1-)=3/2. Monotonic increase follows from the positive even-power moment expansion. For variable curvature, integrate the local f(a*kappa_1(s)) factor over s. The tube's uniform 4-volume still equals L*(4*pi*a^3/3), so volume invariance does NOT imply invariance of this particular fiber-bending cost.
+
+## Reproduced numerical fixture
+Curve X(s)=(sqrt(4/15)cos s,sqrt(4/15)sin s,sqrt(11/60)cos 2s,sqrt(11/60)sin 2s). Its length is L=2*pi, first Frenet curvature kappa_1=4/sqrt(5), and established reach=sqrt(4/15). Choose a=1/4<reach, hence q=1/sqrt(5). With comparator K=1 in declared relative units, the centerline approximation is E0=pi^2/15=0.6579736267392906; the exact integrated fiber result is E=0.6868362225381351. Ratio f(q)=1.0438658855399394: 4.386588553993942 percent increase. These are not measured energies.
+
+## Actual executed checks
+Executed Python 3 with SymPy, SciPy, NumPy, mpmath and Matplotlib. Symbolic series, q->0 and q->1 limits, exact fixture and energy assertions passed. Seven adaptive-quadrature checks against analytic f(q) passed at <5e-11. 120 seeded normal-frame Jacobian tests: maximum residual 0; Gram determinant residual <=4.44e-16. Independent finite-difference curvature of offset circle: 0.5952381393920957 versus exact 0.5952380952380952. Seeded 250000-sample uniform-ball Monte Carlo: mean 1.0439373679304766, standard error 0.0004509498767277947, residual 0.159 SE. ALL_ASSERTIONS_PASSED. Main script SHA-256 f975e164399902a7d4a8a04cb23f9c5859372250e1a770e7948b1aad04c78117. Complete script and stdout preserved in conversation artifacts and manual handoff.
+
+## Limits and classifications
+This is a closed Euclidean R4 tube with a selected normal parallel frame, not a future-directed Lorentzian Kerr worldtube. The quadratic fiber-energy density is a transparent comparator and is NOT historically derived as a unique physical law. Local condition a*kappa_1<1 is insufficient for embedding; the exact global reach gate is enforced. The q->1 limit is a local mathematical limit and need not be reachable by globally embedded tubes. No stiffness K, material response, measured energy or CODATA observable was independently specified. CODATA NOT_APPLICABLE; H(s)H physical mapping UNRESOLVED. The correction is allowed to be considered for candidacy consideration only, NOT a tentative H(s)H candidate.
+
+## Reading, retrieval and privacy
+Full live BEDROCK.md retrieved (blob aa5d236354258f4c4715f5cf77bff2c5db602cfd; 548 lines, 82842 chars) and full STATE_OF_THE_THEORY.md (blob b5958a1056c2541f00ab4f3477d8acc32426cfe9; 155 lines, 11012 chars); relevant ND-2026-10-18-02/03 and October 23 source and candidacy controls inspected. Existing Mersearch request 2026-10-21-orson-nlm-big-haul-math-001 manifest inspected, not rerun or overwritten; bounded GitHub searches and direct primary reads used. Actual Python secrets.randbelow(3) chose index 1 of the declared [AN Excellent Request, RMS THE FRAMEWORK, 2026 MATH REVAMP TAKE 1] archival pool: SAT RMS THE FRAMEWORK.txt, blob 5faeca9f1818b3761844345d37ba9ebe52c5ef47, 4094 lines, 549339 chars. Complete file retrieved; beginning, quarter, middle, three-quarter and ending sampled. Contains philosophy of perception, coherentism, and scientific interpretation, plus speculative physics and book-outline material; no personal or private passages reproduced. No claim of full line-by-line close reading. No protected signet copied.
+
+Disposition: INTERNALLY_CHECKED conditional finite-core geometric correction; CODATA NOT_APPLICABLE; physical applicability UNRESOLVED; BEDROCK unchanged.
