@@ -9,15 +9,15 @@ Use the **broadest appropriate search surface first**, then move inward toward e
 
 Default order for archive/provenance work:
 
-**Mersearch → repository/router index → primary source → exact local context → chronology/provenance check → status/authority check → durable note or calculation**
+**Mersearch (or a purpose-built Mersearch derivative) → repository/router index → primary source or canonical extracted text → exact local context → chronology/provenance check → status/authority check → durable note or calculation**
 
 Do not infer absence from one tool, one index, one repository, one keyword, or one failed reader.
 
 ---
 
-## 1. Cross-archive default: Mersearch first
+## 1. Cross-archive default: Mersearch is the standing primary search system
 
-For SAT/H(s)H history, equations, geometry, claimed earlier results, terminology, provenance, or source-first mathematics, **Mersearch is the default first search tool**.
+For archive search of any substantive kind, **Mersearch is the standing primary search system**. Use Mersearch itself by default, or a clearly identified derivative/modification of Mersearch when a specialized corpus or search behavior requires it. Other indexes and viewers are routing, chronology, accessibility, or context tools, not competing primary search engines.
 
 Search all three permitted repositories together by default:
 1. `SAT_THEORY_ARCHIVE_2023-25`
@@ -45,6 +45,16 @@ Protocol:
 Mersearch results are **navigation evidence**, not theory authority or proof of absence. If coverage is partial, say so.
 
 ---
+
+### Text-extraction preference
+
+Search should normally operate over the existing text-accessible corpus rather than forcing direct binary reads. Across the big three repositories, prefer:
+- native text when present;
+- canonical extracted text for PDFs/binaries;
+- OCR-derived text only when native extraction is unavailable;
+- direct binary/page inspection when exact layout, equations, figures, or extraction quality require it.
+
+Before creating a new extraction, check the existing extraction manifest/index. The HSH_RESOURCES toolkit corpus already has extensive text extraction, including verified extracted-text matches for all 121 SAT26 toolkit-manifest source PDFs.
 
 ## 2. HsH: current-development archive
 
