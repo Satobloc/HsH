@@ -1,0 +1,13 @@
+# Meridian 2026-10-24T14Z: SAT B^5 / B^2 cross-sector closure audit
+
+Status: SANDBOX; algebra verified, physical closure failed. No BEDROCK modification.
+
+Sources: SAT_THEORY_ARCHIVE_2023-25/SAT UNODROP.txt (blob 53437e7d734b8e77894a7465a8cd37cc8ac8462a, lines 269-295, 569-590, 824-880); MISC/DUGUP.txt (blob a1f1185cd020002722f4c3656e7a319bcef6e670, lines 640-716); HsH mass playground 2026-10-01 (blob 276eda2a886c80c3650e33b0e3cf4ad9633b6cda). Historical document date/author unverified; no inference from repository upload date. Random reading: secrets.randbelow(4) returned 0, SAT UNODROP selected (1702 lines, complete retrieval, programmatic scan, sampled unrelated material). Mersearch: existing 2026-10-21-orson-nlm-big-haul-math-001 three-root manifest inspected; shared slot occupied, no new run.
+
+Historical hypotheses: mu=mp/me=3/(2 B^5); alpha=B^2/8. Exact elimination: mu*alpha^(5/2)=3/(256 sqrt(2))=0.0082864075920298538, independent of B. CODATA 2022 v9.0: mu=1836.152673426(32), alpha=0.0072973525643(11), observed product=0.0083526082436007039. Relative discrepancy -0.79257460232939%. The two exact formulas cannot simultaneously fit CODATA at any single B. B from mass=0.24123287565696146; B from alpha=0.24161709483064314. These are separate inverse fits, not predictions.
+
+Historical Bstable=0.24177 gives mu=1815.84680658617 (-1.10589207%), alpha=0.0073065916125 (+0.12660822%). Independently specified geometric B0=3/(4pi) gives mu=1934.34664950696 (+5.34781108%), alpha=0.007124145724851875 (-2.37355723%). These errors remain visible.
+
+Conditional atomic readouts, explicitly using CODATA electron mass as external input: Rinf=alpha^2 me c/(2h); a0=hbar/(me c alpha). Bstable yields Rinf=11001536.450982165 m^-1 (+0.25337674% vs CODATA 10973731.568157(12) m^-1); a0=5.285080758785019e-11 m (-0.12644813% vs CODATA 5.29177210544(82)e-11 m). Reverse anchoring to observed Rinf yields me_fit=9.086360989037616e-31 kg, 0.252736% below CODATA me; that is a fit, not an independent prediction. CODATA quantities are correlated; uncertainty-normalized residuals without the covariance and theoretical error are not significance tests.
+
+Checks executed: SymPy exact elimination, logarithmic slopes (-5,+2), dimensions, 70-digit mpmath arithmetic, +/−1% perturbation scaling (mu~B^-5, alpha~B^2, R~B^4, a0~B^-2), SI readout controls, Class P plots. No coefficient or parameter repaired. Gate: historical relations are algebraically coherent but jointly empirically incompatible as exact fixed-coefficient laws; geometric origin of alpha=B^2/8 is unsupported; NOT A H(s)H CANDIDATE, no CODATA promotion as successful prediction. Retain as FAILED cross-sector verification and unresolved reconstruction input.
