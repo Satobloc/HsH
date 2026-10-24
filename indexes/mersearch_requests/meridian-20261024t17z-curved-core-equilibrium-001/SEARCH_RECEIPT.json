@@ -1,0 +1,641 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "1fea2c15299881906ad6965442a26ba706a66ad4a398468dc0fcff8ecbd69b4c",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-24T19:15:57.177905+00:00",
+  "query": "(\"worldtube\" NEAR/12 \"pressure\") OR (\"finite core\" NEAR/12 \"elastic\") OR (\"filament\" NEAR/12 \"tension\") OR (\"Piola\" NEAR/12 \"curvature\") OR (\"Kelvin\" NEAR/12 \"stress\")",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14164,
+    "records_scanned": 24066538,
+    "hits": 38726
+  },
+  "counted_hits": 38726,
+  "distinct_sources": 1913,
+  "results_by_root": {
+    "archive": 14190,
+    "hsh-main": 22562,
+    "resources": 1974
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "filament",
+      35942
+    ],
+    [
+      "tension",
+      35683
+    ],
+    [
+      "curvature",
+      10235
+    ],
+    [
+      "elastic",
+      2287
+    ],
+    [
+      "pressure",
+      1985
+    ],
+    [
+      "worldtube",
+      1934
+    ],
+    [
+      "stress",
+      1670
+    ],
+    [
+      "finite core",
+      810
+    ],
+    [
+      "Kelvin",
+      242
+    ],
+    [
+      "Piola",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_4.json",
+      "title": "MERSEARCH_REQUEST_LANE_4",
+      "record_count": 2,
+      "best_score": 103,
+      "first_hit_index": 30533,
+      "sample_hit_index": 30534,
+      "locator": "$.query",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "Piola",
+        "curvature",
+        "Kelvin",
+        "stress"
+      ],
+      "excerpt": "(\"worldtube\" NEAR/12 \"pressure\") OR (\"finite core\" NEAR/12 \"elastic\") OR (\"filament\" NEAR/12 \"tension\") OR (\"Piola\" NEAR/12 \"curvature\") OR (\"Kelvin\" NEAR/12 \"stress\")"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "title": "THE WAVEFRONT BRAIN TRUST",
+      "record_count": 24,
+      "best_score": 86,
+      "first_hit_index": 1109,
+      "sample_hit_index": 5436,
+      "locator": "message:e4834200-d334-43e8-97f5-6406e38eac26",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…etry of the complete carrier from geometry induced in the resolving slice? [ ] A014 [CURRENT|ΔMED] Does it distinguish resolver thickness from physical/material core thickness? [ ] A015 [CURRENT|ΔMED] Does it demand explicit maps between centerline, finite core, boundary, materi"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
+      "title": "SATity Corpus Audit",
+      "record_count": 10,
+      "best_score": 86,
+      "first_hit_index": 5394,
+      "sample_hit_index": 5439,
+      "locator": "message:62ec0352-06e1-4eb6-a014-fe3b526afa6d",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…te carrier from geometry induced in the resolving slice?\\n\\n[ ] A014 [CURRENT|\\u0394MED]\\nDoes it distinguish resolver thickness from physical/material core thickness?\\n\\n[ ] A015 [CURRENT|\\u0394MED]\\nDoes it demand explicit maps between centerline, finite core, boundary, materi"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10•26.09.12•SATity Corpus Audit — raw (1).json",
+      "title": "SATity Corpus Audit",
+      "record_count": 10,
+      "best_score": 86,
+      "first_hit_index": 5395,
+      "sample_hit_index": 5440,
+      "locator": "message:62ec0352-06e1-4eb6-a014-fe3b526afa6d",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…te carrier from geometry induced in the resolving slice?\\n\\n[ ] A014 [CURRENT|\\u0394MED]\\nDoes it distinguish resolver thickness from physical/material core thickness?\\n\\n[ ] A015 [CURRENT|\\u0394MED]\\nDoes it demand explicit maps between centerline, finite core, boundary, materi"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 77,
+      "best_score": 84,
+      "first_hit_index": 4203,
+      "sample_hit_index": 4463,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 77,
+      "best_score": 84,
+      "first_hit_index": 4205,
+      "sample_hit_index": 4465,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 77,
+      "best_score": 84,
+      "first_hit_index": 4208,
+      "sample_hit_index": 4468,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 75,
+      "best_score": 84,
+      "first_hit_index": 4204,
+      "sample_hit_index": 4464,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 75,
+      "best_score": 84,
+      "first_hit_index": 4206,
+      "sample_hit_index": 4466,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 75,
+      "best_score": 84,
+      "first_hit_index": 4207,
+      "sample_hit_index": 4467,
+      "locator": "message:e47d6080-5e98-49cd-b281-ec269dbee6d3",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "… experiment. **LEGACY** = historically important, but not current unless reworked. ## 1. Domain, resolving surface, and primitive objects **Purpose:** define what kind of object SAT is about before assigning physics to it. \\[ M_4 \\] Four-dimensional worldtube arena. **KEEP**, bu"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 51,
+      "best_score": 84,
+      "first_hit_index": 13313,
+      "sample_hit_index": 13317,
+      "locator": "line:2189",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin"
+      ],
+      "excerpt": "…b}$2026 SAT MIDWAY REBUILD 32026 / v0.1$k(H_i - G_i)$2INFERRED$[ML^{-3}T^{-2}]$ (for $k$)Audit Notes:$\\mu_0$ (Inertia): Explicitly identified in \"Backbone.txt\" as \"Topological Inertia,\" representing resistance of arclength to path changeslock.$T_0$ (Tension): Defined as \"filamen"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 51,
+      "best_score": 84,
+      "first_hit_index": 28256,
+      "sample_hit_index": 28260,
+      "locator": "line:2189",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin"
+      ],
+      "excerpt": "…b}$2026 SAT MIDWAY REBUILD 32026 / v0.1$k(H_i - G_i)$2INFERRED$[ML^{-3}T^{-2}]$ (for $k$)Audit Notes:$\\mu_0$ (Inertia): Explicitly identified in \"Backbone.txt\" as \"Topological Inertia,\" representing resistance of arclength to path changeslock.$T_0$ (Tension): Defined as \"filamen"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/2 H(S)H EQUATION ROUNDUP.txt",
+      "title": "2 H(S)H EQUATION ROUNDUP",
+      "record_count": 9,
+      "best_score": 84,
+      "first_hit_index": 13303,
+      "sample_hit_index": 13306,
+      "locator": "line:2159",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin"
+      ],
+      "excerpt": "…b}$2026 SAT MIDWAY REBUILD 32026 / v0.1$k(H_i - G_i)$2INFERRED$[ML^{-3}T^{-2}]$ (for $k$)Audit Notes:$\\mu_0$ (Inertia): Explicitly identified in \"Backbone.txt\" as \"Topological Inertia,\" representing resistance of arclength to path changeslock.$T_0$ (Tension): Defined as \"filamen"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/2 H(S)H EQUATION ROUNDUP.txt",
+      "title": "2 H(S)H EQUATION ROUNDUP",
+      "record_count": 9,
+      "best_score": 84,
+      "first_hit_index": 28244,
+      "sample_hit_index": 28247,
+      "locator": "line:2159",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin"
+      ],
+      "excerpt": "…b}$2026 SAT MIDWAY REBUILD 32026 / v0.1$k(H_i - G_i)$2INFERRED$[ML^{-3}T^{-2}]$ (for $k$)Audit Notes:$\\mu_0$ (Inertia): Explicitly identified in \"Backbone.txt\" as \"Topological Inertia,\" representing resistance of arclength to path changeslock.$T_0$ (Tension): Defined as \"filamen"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/HSH Convo NLM.txt",
+      "title": "HSH Convo NLM",
+      "record_count": 4,
+      "best_score": 84,
+      "first_hit_index": 23318,
+      "sample_hit_index": 23320,
+      "locator": "line:300",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin"
+      ],
+      "excerpt": "…b}$2026 SAT MIDWAY REBUILD 32026 / v0.1$k(H_i - G_i)$3INFERRED$[ML^{-3}T^{-2}]$ (for $k$)Audit Notes:$\\mu_0$ (Inertia): Explicitly identified in \"Backbone.txt\" as \"Topological Inertia,\" representing resistance of arclength to path changeslock.$T_0$ (Tension): Defined as \"filamen"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 13,
+      "best_score": 72,
+      "first_hit_index": 4745,
+      "sample_hit_index": 4771,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "Kelvin",
+        "stress"
+      ],
+      "excerpt": "…L.txt-281- -- project_sources/10-ReGEL.txt-347-manifold first project_sources/10-ReGEL.txt-348- project_sources/10-ReGEL.txt:349:then SAT may ultimately become less a theory of worldtubes and more a theory of topological intersection manifolds whose worldtube decomposition is me"
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 30,
+      "best_score": 71,
+      "first_hit_index": 5085,
+      "sample_hit_index": 5103,
+      "locator": "message:07c1d7bc-8658-4fd5-9727-182b892c4799",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…e particle’s extended material structure. Metrize time if needed by: w = c t. Then the ordinary Newtonian history becomes a curve in four coordinates: X(t) = (w(t), x(t), y(t), z(t)). And suddenly a surprising amount follows without adding “helix,” “worldtube,” “spin,” or “infor"
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.txt",
+      "title": "ChatGPT Voice Glitch — raw",
+      "record_count": 6,
+      "best_score": 71,
+      "first_hit_index": 7702,
+      "sample_hit_index": 7703,
+      "locator": "line:17670",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…tended material structure.\\n\\nMetrize time if needed by:\\n\\nw = c t.\\n\\nThen the ordinary Newtonian history becomes a curve in four coordinates:\\n\\nX(t) = (w(t), x(t), y(t), z(t)).\\n\\nAnd suddenly a surprising amount follows without adding “helix,” “worldtube,” “spin,” or “infor"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 3,
+      "best_score": 71,
+      "first_hit_index": 5086,
+      "sample_hit_index": 5104,
+      "locator": "message:07c1d7bc-8658-4fd5-9727-182b892c4799",
+      "matched_terms": [
+        "worldtube",
+        "finite core",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "…e particle’s extended material structure. Metrize time if needed by: w = c t. Then the ordinary Newtonian history becomes a curve in four coordinates: X(t) = (w(t), x(t), y(t), z(t)). And suddenly a surprising amount follows without adding “helix,” “worldtube,” “spin,” or “infor"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 56,
+      "best_score": 66,
+      "first_hit_index": 4002,
+      "sample_hit_index": 4101,
+      "locator": "message:90616c79-bbe1-4853-bb21-2e21e8c5afa7",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "…efects Particle as intersection with present surface | spacetime slicing, Cauchy hypersurface, foliation, section Time surface / resolving front | hypersurface Σ_t, simultaneity slice, Cauchy surface, observer foliation Moving particle from diagonal filament | worldline tangent "
+    },
+    {
+      "root": "archive",
+      "path": "archive/xGitHub Archive Review — raw - .txt",
+      "title": "xGitHub Archive Review — raw -",
+      "record_count": 56,
+      "best_score": 66,
+      "first_hit_index": 18987,
+      "sample_hit_index": 18991,
+      "locator": "line:103151",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "…ining source. Not current canon. Best treated as a structured archive of candidate kernels, scaffolded formalisms, and translation layers.\\n\\nPRIMARY VALUE:\\nShows recurring SAT mathematical structures across versions:\\n- 4D superhelical worldline / filament geometry\\n- recursiv"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 24,
+      "best_score": 66,
+      "first_hit_index": 4153,
+      "sample_hit_index": 4673,
+      "locator": "message:75a629dd-6538-45ef-939f-b283dee38af6",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "===== /mnt/data/HsH ARCHITECT.txt ===== 1:% PAULI EVENT HORIZON / PAULI-KERR UNIFICATION? 2- 3:Ok. A couple things. The filament, is essentially the union of several pieces of known physics: 1) ER bridge / event horizon (I think the tube boundary is effectively an event Horizon—t"
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 2/H(s)H—Ouroboros.txt",
+      "title": "H(s)H—Ouroboros",
+      "record_count": 9,
+      "best_score": 66,
+      "first_hit_index": 10403,
+      "sample_hit_index": 10411,
+      "locator": "line:6924",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ],
+      "excerpt": "1. Uncontrolled Unkinking and Structural ShearingAt a stationary baseline, particles like the massive bosons (\\(W, Z\\)) are modeled as temporary de-entrainments—high-energy \"kinks\" held in a delicate equilibrium by the Elastic Backsnap resistance of the bulk medium.When you apply"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 11,
+      "best_score": 60,
+      "first_hit_index": 4775,
+      "sample_hit_index": 4811,
+      "locator": "message:db08076c-931e-4647-985d-26b6ebb8580d",
+      "matched_terms": [
+        "worldtube",
+        "pressure",
+        "elastic",
+        "filament",
+        "tension",
+        "curvature"
+      ],
+      "excerpt": "Make sure to include fileciteturn8file7 in your response to cite this file, or to surface it as a link. H(s)H Hyper(super)helical Worldtube Theory An Extension of SAT (Scalar-Angular Torsion) Hyperhelical Worldline Theory DRAFT AND OVERVIEW -- TENTATIVE H(s)H BV The mathematic"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.03•25.04.03•Weinstein's Physics Critique — raw.json",
+      "locator": "message:437bb2ad-4887-4255-9116-4984c0601b26",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.03•25.04.03•Weinstein's Physics Critique — raw.json",
+      "locator": "message:437bb2ad-4887-4255-9116-4984c0601b26",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•SAT Theory Exploration — raw.json",
+      "locator": "message:aff71973-d70e-4323-a315-4d09f4e81eaa",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04•25.04.04•SAT Theory Exploration — raw.json",
+      "locator": "message:aff71973-d70e-4323-a315-4d09f4e81eaa",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•SAT Theory Exploration — raw.json",
+      "locator": "message:ec523051-00b2-4960-9784-e75115f53882",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04•25.04.04•SAT Theory Exploration — raw.json",
+      "locator": "message:ec523051-00b2-4960-9784-e75115f53882",
+      "matched_terms": [
+        "filament",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:065aebd6-d0c4-4737-a601-daab5521e310",
+      "matched_terms": [
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:065aebd6-d0c4-4737-a601-daab5521e310",
+      "matched_terms": [
+        "filament",
+        "tension",
+        "curvature",
+        "stress"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}

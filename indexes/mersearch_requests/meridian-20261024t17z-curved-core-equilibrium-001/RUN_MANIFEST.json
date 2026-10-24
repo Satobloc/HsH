@@ -1,0 +1,63 @@
+{
+  "request_id": "meridian-20261024t17z-curved-core-equilibrium-001",
+  "query": "(\"worldtube\" NEAR/12 \"pressure\") OR (\"finite core\" NEAR/12 \"elastic\") OR (\"filament\" NEAR/12 \"tension\") OR (\"Piola\" NEAR/12 \"curvature\") OR (\"Kelvin\" NEAR/12 \"stress\")",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "8d49183464ad8fb2411d5b8e13c6408eecd39e18",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "57240bf56ec9ea466e26c0f122753fd55217e6de",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "72399fe1691b6ed17f56815f1160b7c8a04ad050",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "8d49183464ad8fb2411d5b8e13c6408eecd39e18",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "57240bf56ec9ea466e26c0f122753fd55217e6de",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "1fea2c15299881906ad6965442a26ba706a66ad4a398468dc0fcff8ecbd69b4c",
+    "SEARCH_RESULTS.md": "8b40278fccddeca6e0aea127da011fea54234e68cb1cbafe396c472b4a4710b2",
+    "SEARCH_RECEIPT.json": "6b1fed0336c74aff8988a977a57bb06d5ba4fbeba2a4a3922e141576237226f3",
+    "SEARCH_RECEIPT.md": "84de09e49e2d9fd587e6cff71e8d3c579fec92e89f490864948207e23f47b240"
+  }
+}
