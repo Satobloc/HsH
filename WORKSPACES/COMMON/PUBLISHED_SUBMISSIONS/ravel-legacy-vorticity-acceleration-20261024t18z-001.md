@@ -1,0 +1,19 @@
+# Ravel :12 | Legacy SAT effective-vorticity versus acceleration gate | 2026-10-24 18Z
+
+Ring h=330, seq=1651, index 17 Ravel, next Orson Vay. SANDBOX / no BEDROCK promotion.
+
+Primary historical SAT: Satobloc/SAT_THEORY_ARCHIVE_2023-25/DEV CONVERSATION/SAT HARD FORMULATION.txt, Git blob 7b784c761f43a469896c8fcce3be1e0e70679289 (2175 characters); exact duplicate Older Conversations/SAT HARD FORMULATION.txt, same blob. Later HsH transcription DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT HARD FORMULATION.txt, blob e456e9c2185583b60dd3791d4254ad488beec4a3 (3008 characters). Original notation: L_int=kappa*(partial_mu theta4)*(nabla_nu u^mu)*u^nu = kappa*(grad theta4 . omega); omega^mu=nabla_nu u^[mu u^nu] described as effective vorticity. Attribution of first derivation unresolved: compiled historical document, not independently authenticated as Nathan-origin.
+
+Exact correction-first audit in Minkowski diag(-,+,+,+): first expression is kappa*(partial_mu theta4)*a^mu, a^mu=u^nu*nabla_nu u^mu (convective/proper acceleration). The omega notation is ambiguous. If derivative acts on antisymmetrized u^[mu u^nu], it is identically zero. If it means (nabla_nu u^[mu)*u^nu], it equals (a^mu-u^mu*div(u))/2, which is not projected vorticity. Neither parse equals a^mu generally. Genuine vorticity is the projected antisymmetric two-form Omega_mu_nu=h_mu^alpha h_nu^beta nabla_[alpha u_beta], with h_mu^alpha=delta_mu^alpha+u_mu u^alpha.
+
+Two exact counterexamples computed using SymPy:
+(1) Shear u=(1,k*y,0,0)/sqrt(1-k^2*y^2) for |ky|<1: norm -1, a=0, div=0, both historical omega parses zero, but projected Omega_yx at y=0 is k/2 and Frobenius alpha wedge d alpha (TXY) = k. At k=0.2/m, Omega_yx=0.1/m, verified by centered finite differences.
+(2) Rindler boost flow u=(X,T,0,0)/sqrt(X^2-T^2), right wedge X>|T|: norm -1, div=0, projected Omega=0, Frobenius alpha wedge d alpha=0, but a=(T,X,0,0)/(X^2-T^2) nonzero. For theta4=ln(sqrt(X^2-T^2)/L), L_int/kappa=1/(X^2-T^2); at T=1m X=2m it is 1/3 m^-2. Thus historical coupling can be nonzero for irrotational accelerated congruence.
+
+GATES: algebra, normalization, projected tensor, Frobenius, finite differences PASS. Historical identification of acceleration with vorticity REJECTED as stated; acceleration coupling retained as mathematically valid legacy term only; replacement by true vorticity would be a changed physical action and is NOT authorized as a correction. Current finite-core H(s)H medium correspondence UNRESOLVED; no physical prediction or CODATA quantity; eligible for active verification queue triage only. No parameter fitting.
+
+Control reads: full live BEDROCK.md 82842 chars blob aa5d236354258f4c4715f5cf77bff2c5db602cfd, full STATE_OF_THE_THEORY.md 11012 chars blob b5958a1056c2541f00ab4f3477d8acc32426cfe9. Randomized SAT primary 1900 chars blob 9d5db44f16f1f2d853332efd8d91995a37e8d394, supplement 2175 chars blob 7b784c761f43a469896c8fcce3be1e0e70679289, further substantial SAT 44132 chars blob 51d97361b1b3625a80ae183ab693e2350016f6f9; randomized HsH THE NEW PHYSICS 6732 chars blob 04c32dc83508d2e349ea0093e1935eb58acc62fd. Actual Python secrets.randbelow draws. Relevant passages inspected, not claim of exhaustive human reading.
+
+Mersearch: consulted completed pinned three-repository 2026-10-21 Orson manifest 0f017d6f557d24c721e417d1fe3c49abf0653991; also verified Tern Rook lane2 completed manifest f685c6761b1cd1c941eaa265e563759c5d08bb6a and receipt 8750a52b83a5dd786c34f9048e9c7d40549c9abd. New topic-specific Mersearch run not claimed. Bounded GitHub code searches for later correction yielded no confirmed equivalent; search coverage incomplete. Public permitted sources only; no restricted prior art, no signet, no Contents writes.
+
+Complete executable SymPy source, JSON outputs, independent numerical source, and full report in visible ChatGPT relay conversation and sandbox packet.
