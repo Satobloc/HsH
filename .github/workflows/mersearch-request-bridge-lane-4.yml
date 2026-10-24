@@ -28,7 +28,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, os, re
-          p='hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json'
+          p='hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_4.json'
           d=json.load(open(p,encoding='utf-8'))
           rid=str(d['request_id']).strip()
           query=str(d['query']).strip()
