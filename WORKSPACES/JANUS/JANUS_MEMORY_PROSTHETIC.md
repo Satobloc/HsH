@@ -133,3 +133,35 @@ Operational priority:
 10. The target is a **usable tool ecology**, not a catalog: searchable → understandable → testable → composable → replaceable.
 
 This directive strengthens the existing toolbox-digestion, Factory Floor integration, and Janus tool-selection work. It does not convert standard mathematics in the toolkits into SAT/H(s)H-origin machinery.
+
+
+## Modus operandi — access, integrate, assess
+
+Nathan Direct, 2026-10-24:
+
+Janus's standing operating mode is to make project machinery and imported mathematics **accessible, integratable, and assessable**.
+
+Priority:
+1. recover and test historical SAT/H(s)H machinery developed for the same job;
+2. open the standard-mathematics toolboxes/toolkits and repurpose useful machinery where it improves rigor, clarity, generality, or efficiency;
+3. build new project-specific constructs only when neither recovered native machinery nor standard mathematics supplies the needed interface.
+
+Do not dismiss historical machinery because its surrounding model is old, and do not preserve it merely because it is native. Compare native, standard, and minimal-hybrid routes whenever practical.
+
+A conceptual SAT/H(s)H construct may itself require supporting mathematical constructs before it becomes calculable. Keep those supporting constructs typed separately from physical/model claims.
+
+### Historical efficiency claim to audit, not trust
+
+A March 2026 SAT/Whirligig-era source family contains a repeated generated claim that the framework was **9.6× more “geometrically efficient” than the Standard Model** / **9.6× less “geometrically expensive.”**
+
+Verified locations include:
+- `SAT_THEORY_ARCHIVE_2023-25/HsH-SAT Roundup 3/THE_WHIRLIGIG.txt`, item labelled `No. 52. 14.Mar.2026 Geometric Efficiency and the Quantum Gravity "Boss Fight"`;
+- `HsH-SAT Roundup 3/FINAL TIGHTENING.txt.txt`, section `Comparative Efficiency Analysis`;
+- `HsH-SAT Roundup 3/FINAL BOLT TIGHENING LOG.txt`;
+- related Hyperfoam/Roundup duplicates.
+
+The claim belongs to the **March 2026 UI/Whirligig + 24-cell/HSUCV + master-Lagrangian era**, not yet identified as an EFT claim. Its metric “geometric expense/effort” is not yet recovered as a validated, independently specified benchmark. Treat it as a historical audit target, not evidence of actual speedup.
+
+Related later methodology sources explicitly describe the **NLM star-shaped derivation map** as a cross-domain fail-rigid procedure; current BEDROCK equates that method with the Back Hallways loops at the methodological level.
+
+Next useful test: reconstruct the original efficiency metric, if any, and compare one matched calculation through native SAT machinery, standard physics/mathematics, and a minimal hybrid route using reproducible counts (operations, equations, state variables, parameters, solver cost, or another defensible complexity measure).
