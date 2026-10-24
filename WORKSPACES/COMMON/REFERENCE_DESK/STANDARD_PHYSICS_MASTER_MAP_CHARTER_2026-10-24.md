@@ -216,21 +216,32 @@ Newtonian cosmology
 with major alternatives / modifications:
 steady state, cyclic/ekpyrotic, bouncing models, modified gravity, emergent cosmologies.
 
-## 7. SAT/H(s)H use
+## 7. Parallel SAT/H(s)H atlas — NOT an overlay
 
-SAT/H(s)H is **not** part of the standard-physics map on first construction.
+SAT/H(s)H is **not** to be treated as an annotation layer on top of the standard map.
 
-First build the map independently.
+Build a **separate, equally explicit SAT/H(s)H map** alongside the standard/historical physics map.
 
-Then add a separate overlay showing:
-- which standard nodes SAT/H(s)H claims merely to reuse;
-- which it translates geometrically;
-- which it attempts to compress into a common representation;
-- which historical machinery resembles or supplies supporting constructs;
-- where it introduces genuinely additional structure;
-- where a proposed equivalence is only asserted.
+The two maps may share:
+- common empirical targets;
+- common mathematical objects where identity is established;
+- translation edges;
+- comparison edges;
+- source-backed claims of equivalence or non-equivalence.
 
-This preserves the control.
+But neither map is privileged as the other's internal ontology.
+
+The standard/historical map records what those theories say their objects are and how they connect.
+
+The SAT/H(s)H map records what SAT/H(s)H says its own objects are and which things SAT/H(s)H itself treats as equivalent, distinct, approximate, dual, emergent, projected, or unresolved, **even when that classification differs from standard interpretation**.
+
+Comparison happens through typed cross-map edges, never by silently replacing one map's identity structure with the other's.
+
+The control question is therefore two-sided:
+- what does standard / historical physics claim?
+- what does SAT/H(s)H claim?
+- what is genuinely the same mathematical object?
+- what is only translated, analogous, approximately equivalent, or disputed?
 
 ## 8. Search and source protocol
 
@@ -288,3 +299,75 @@ A worker facing a physical problem should be able to use the map to answer:
 8. Which connections are facts, which are literature claims, and which are conjectures?
 
 That is the control map against which the SAT/H(s)H map will be tested.
+
+
+## 12. Namespace-control foundation
+
+This map is also the top-level routing structure for the project's namespace-control ledger.
+
+The unit of registration is **not the printed symbol**. The unit is the **qualified mathematical/physical object occurrence**.
+
+Every distinct quantity, coefficient, operator, tensor, field, map, functional, state, parameter, constant, index family, transformation, manifold, action term, Hamiltonian term, boundary condition, and other reusable object receives a globally unique project ID before cross-equation equivalence is asserted.
+
+A single glyph such as `m`, `R`, `T`, `α`, `ψ`, `H`, `G`, or `θ` may therefore correspond to many registered objects.
+
+Conversely, one registered object may have many historical or source-faithful symbols.
+
+### Identity classes between registered objects
+
+Do not jump directly from "looks the same" to "same object."
+
+Use typed identity/relationship states:
+
+- `SAME_GLYPH` — printed notation coincides; no semantic claim.
+- `ALIASED_NOTATION` — transcription/notation variants of one source object.
+- `SAME_DEFINITION` — definitions coincide under stated convention.
+- `SAME_OBJECT` — object identity established across contexts.
+- `EQUIVALENT_UNDER` — mathematically equivalent only under explicit assumptions/transformation.
+- `TRANSFORMABLE_TO` — a map exists; identity is not implied.
+- `LIMIT_OF` — relation holds in a specified limiting regime.
+- `APPROXIMATES` — controlled or empirical approximation.
+- `PHYSICALLY_IDENTIFIED_BY_SOURCE` — a theory/source claims physical identity; independent establishment may be open.
+- `POSSIBLY_SAME` — live unresolved identity question.
+- `DISTINCT` — explicitly not the same object.
+- `CONFLICTING_IDENTIFICATION` — different theories/sources classify the relationship differently.
+
+Each relation carries provenance, assumptions, units, dimensions, frame/signature, invertibility, information loss, epistemic status, and verification/test status.
+
+### Every occurrence matters
+
+The same registered object appearing in multiple equations should point to the same object ID only after the identity is established.
+
+Until then, occurrences remain separately qualified.
+
+This avoids:
+- symbol collision;
+- accidental parameter sharing;
+- copying a coefficient from one regime into another;
+- conflating source convention with project convention;
+- silently equating equal numerical values;
+- mistaking identical functional form for identical mechanism.
+
+### Presentation
+
+Human presentation may use collapsible trees, sector dashboards, dependency graphs, pivot tables, filtered tables, or equation drill-down views.
+
+Machine representation should remain flat enough to query:
+- **object table**
+- **equation table**
+- **occurrence table**
+- **edge/identity table**
+- **source/provenance table**
+- **theory/formalism table**
+
+Views are generated from those records rather than becoming the source of truth.
+
+### Existing controls to extend, not replace
+
+This project must extend:
+- `WORKSPACES/COMMON/NONNEGOTIABLE_SYMBOL_MANAGEMENT.md`
+- `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
+- `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md`
+- `WORKSPACES/COMMON/FORMALISM_INDEX/CROSS_FORMALISM_INDEX_2026-10-10.md`
+
+The new master map becomes their large-scale routing architecture.
