@@ -1,0 +1,576 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "aad180f43b28c6c93dc2c8b06db6c22c8d3c49b07a9f378465977540c9d4651e",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-24T18:24:21.373521+00:00",
+  "query": "(\"time-flow elasticity\" OR \"fractalcope\" OR \"fluctuation-generated\" OR \"coarse-graining\") AND (tension OR covariance OR anisotropic OR isotropic)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14163,
+    "records_scanned": 24066417,
+    "hits": 2212
+  },
+  "counted_hits": 2212,
+  "distinct_sources": 501,
+  "results_by_root": {
+    "archive": 329,
+    "hsh-main": 1827,
+    "resources": 56
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "tension",
+      1872
+    ],
+    [
+      "coarse-graining",
+      1774
+    ],
+    [
+      "covariance",
+      425
+    ],
+    [
+      "time-flow elasticity",
+      319
+    ],
+    [
+      "isotropic",
+      292
+    ],
+    [
+      "fractalcope",
+      232
+    ],
+    [
+      "anisotropic",
+      198
+    ],
+    [
+      "fluctuation-generated",
+      5
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 1,
+      "best_score": 131,
+      "first_hit_index": 2102,
+      "sample_hit_index": 2102,
+      "locator": "$.query",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "fluctuation-generated",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic",
+        "isotropic"
+      ],
+      "excerpt": "(\"time-flow elasticity\" OR \"fractalcope\" OR \"fluctuation-generated\" OR \"coarse-graining\") AND (tension OR covariance OR anisotropic OR isotropic)"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/PUBLIC_SITE/generated/discovery.json",
+      "title": "discovery",
+      "record_count": 11,
+      "best_score": 101,
+      "first_hit_index": 2090,
+      "sample_hit_index": 2090,
+      "locator": "$.documents[1175].excerpt",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "fluctuation-generated",
+        "coarse-graining",
+        "tension"
+      ],
+      "excerpt": "Mercer sandbox — fluctuation-generated infrared tension Date: 2026-10-06 Status: SILOED PLAYGROUND / conditional derivation, not canonical theory Namespace: all symbols below are LOCAL:MERCER-FLUCTENSION-20261006. Sources actually read 1. Satobloc/SATTHEORYARCHIVE2023-25/HsH-SAT "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.01•26.06.03•[B] SATNet and Neural Networks — raw.json",
+      "title": "[B] SATNet and Neural Networks",
+      "record_count": 2,
+      "best_score": 99,
+      "first_hit_index": 400,
+      "sample_hit_index": 400,
+      "locator": "message:51716b1b-dd11-4f21-ada2-be14088eb827",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "isotropic"
+      ],
+      "excerpt": "…nes. The natural next step is to transition from the old filament sector to the new full theory. Conceptually, the old sector confirms that your geometrically intuitive approach works. The new version presumably extends this, making the whole system isotropic and fully unifying "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.01•26.06.03•SATNet and Neural Networks — raw.json",
+      "title": "SATNet and Neural Networks",
+      "record_count": 2,
+      "best_score": 99,
+      "first_hit_index": 401,
+      "sample_hit_index": 401,
+      "locator": "message:51716b1b-dd11-4f21-ada2-be14088eb827",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "isotropic"
+      ],
+      "excerpt": "…nes. The natural next step is to transition from the old filament sector to the new full theory. Conceptually, the old sector confirms that your geometrically intuitive approach works. The new version presumably extends this, making the whole system isotropic and fully unifying "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json",
+      "title": "🧶🧱SAT",
+      "record_count": 10,
+      "best_score": 90,
+      "first_hit_index": 526,
+      "sample_hit_index": 534,
+      "locator": "message:0afa14e5-5edd-4aa2-b47c-ebb88688e65a",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.09.16•26.06.20•[A] 🧶🧱SAT — raw.json",
+      "title": "[A] 🧶🧱SAT",
+      "record_count": 9,
+      "best_score": 90,
+      "first_hit_index": 525,
+      "sample_hit_index": 533,
+      "locator": "message:0afa14e5-5edd-4aa2-b47c-ebb88688e65a",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 7,
+      "best_score": 90,
+      "first_hit_index": 431,
+      "sample_hit_index": 456,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•[A] Trends in Geometric Unification — raw.json",
+      "title": "[A] Trends in Geometric Unification",
+      "record_count": 7,
+      "best_score": 90,
+      "first_hit_index": 432,
+      "sample_hit_index": 457,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 7,
+      "best_score": 90,
+      "first_hit_index": 433,
+      "sample_hit_index": 458,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 7,
+      "best_score": 90,
+      "first_hit_index": 434,
+      "sample_hit_index": 459,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 6,
+      "best_score": 90,
+      "first_hit_index": 599,
+      "sample_hit_index": 608,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 6,
+      "best_score": 90,
+      "first_hit_index": 600,
+      "sample_hit_index": 609,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 6,
+      "best_score": 90,
+      "first_hit_index": 601,
+      "sample_hit_index": 610,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…nt space defined by the Finsler norm. If SAT uses “Universal Indicatrix,” it should either explicitly connect to or distinguish from Finsler indicatrices. Prior art to note: - Finsler indicatrix - Unit tangent sphere / norm shell - Randers metrics - Anisotropic geometry Useful r"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 22,
+      "best_score": 80,
+      "first_hit_index": 544,
+      "sample_hit_index": 574,
+      "locator": "message:e44eba03-ba23-4cf6-83f1-c6d621ea7c91",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "coarse-graining",
+        "tension"
+      ],
+      "excerpt": "…deviation, extrinsic curvature Filament bundle | fiber bundle, worldtube bundle, congruence, brane/defect network Intertwining as binding | linking number, knotting, braiding, topological entanglement Rope/twine/yarn hierarchy | multi-scale bundles, coarse-graining, effective fi"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 12,
+      "best_score": 80,
+      "first_hit_index": 468,
+      "sample_hit_index": 476,
+      "locator": "message:59d62ee7-e453-4b09-a120-7a3a526e4860",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "anisotropic"
+      ],
+      "excerpt": "…deviation, extrinsic curvature Filament bundle | fiber bundle, worldtube bundle, congruence, brane/defect network Intertwining as binding | linking number, knotting, braiding, topological entanglement Rope/twine/yarn hierarchy | multi-scale bundles, coarse-graining, effective fi"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 3,
+      "best_score": 80,
+      "first_hit_index": 267,
+      "sample_hit_index": 273,
+      "locator": "message:654824a9-40b6-4047-8a72-22631678d890",
+      "matched_terms": [
+        "time-flow elasticity",
+        "coarse-graining",
+        "tension",
+        "anisotropic"
+      ],
+      "excerpt": "…e action. In its finalized four-dimensional form, the total action is the integral over spacetime of the square root of the negative determinant of the metric multiplied by the sum of energy blocks including Einstein-Hilbert, compact phase (L θ ​ ), time-flow elasticity (L u ​ )"
+    },
+    {
+      "root": "archive",
+      "path": "archive/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "title": "3 Planetology -- Geometric Foundations Evaluation — raw (1)",
+      "record_count": 3,
+      "best_score": 80,
+      "first_hit_index": 1344,
+      "sample_hit_index": 1344,
+      "locator": "line:62746",
+      "matched_terms": [
+        "time-flow elasticity",
+        "fractalcope",
+        "coarse-graining",
+        "tension"
+      ],
+      "excerpt": "…averaged filament tangent vectors.\\n* The Hawking/Black Hole Sector: Black holes as \\\"topological saturation\\\" zones where area $A = n \\\\cdot l_f^2$ and entropy $S = A/4$.\\n* Lay Interpretation: Spacetime curves because the filament network is under tension, like a heavy weight "
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 38,
+      "best_score": 64,
+      "first_hit_index": 794,
+      "sample_hit_index": 872,
+      "locator": "message:65bef718-12e6-4ddf-a8d4-e56a16bc474c",
+      "matched_terms": [
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic",
+        "isotropic"
+      ],
+      "excerpt": "…ain: \\[ \\boxed{ \\text{configuration history} \\rightarrow \\text{constraint carrier} \\rightarrow \\text{material frame and tube} \\rightarrow \\text{transport/deformation} \\rightarrow \\text{nested superhelical or braided state} \\rightarrow \\text{holonomy/coarse-graining} \\rightarrow "
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 12,
+      "best_score": 64,
+      "first_hit_index": 806,
+      "sample_hit_index": 835,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic",
+        "isotropic"
+      ],
+      "excerpt": "… distortion of the superfluid substrate, and Gravity as the low-frequency, unsigned scalar residual of those same distortions. upload/H(s)H BEGIN REVIEW(1).txt-14- Interfilamental Elastic Stabilization : The concept of a \"Forward Tug\"—the collective tension of the network resist"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 25,
+      "best_score": 57,
+      "first_hit_index": 617,
+      "sample_hit_index": 653,
+      "locator": "message:ca04a5b1-d8d8-4ec8-8350-52ddb75156c9",
+      "matched_terms": [
+        "coarse-graining",
+        "covariance",
+        "anisotropic",
+        "isotropic"
+      ],
+      "excerpt": "…best understood as the crystallization of a broader electrodynamic transformation rather than as an isolated creation [5]. Accepting that claim, the element of the crystallized package that was empirically forced was the invariance structure—Lorentz covariance, the group, the in"
+    },
+    {
+      "root": "archive",
+      "path": "archive/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt",
+      "title": "1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy",
+      "record_count": 2,
+      "best_score": 55,
+      "first_hit_index": 1324,
+      "sample_hit_index": 1325,
+      "locator": "line:39156",
+      "matched_terms": [
+        "coarse-graining",
+        "tension",
+        "covariance",
+        "anisotropic"
+      ],
+      "excerpt": "…zed excitations.\\n - Mass described metaphorically as intersectional resistance or “time drag.”\\n - Timesheet deformation proposed as the geometric location of GR-like response.\\n - Euclidean `++++` manifold with time/space distinction attributed to anisotropic expansion (`H0+c`"
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 18,
+      "best_score": 54,
+      "first_hit_index": 125,
+      "sample_hit_index": 143,
+      "locator": "message:3e9d12da-0fa9-4e43-8a06-37b300618ff2",
+      "matched_terms": [
+        "coarse-graining",
+        "tension",
+        "anisotropic",
+        "isotropic"
+      ],
+      "excerpt": "… in moiré materials), GR analogues (Einstein-Æther theory), and optical birefringence experimentsSAT Full Revamp. 3. Conceptual Innovation • Introduces the idea of “click rate” as a clock-like inertial rhythm. • Replaces gravitational curvature with tension and foliation strain."
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 9,
+      "best_score": 54,
+      "first_hit_index": 1046,
+      "sample_hit_index": 1072,
+      "locator": "message:4bc9868c-fe9b-4553-a9dc-e023bd29802e",
+      "matched_terms": [
+        "time-flow elasticity",
+        "tension"
+      ],
+      "excerpt": "…/4\\\\pi \\\\approx 0.23873241 rad 4DHH Stability Point [Lattice Closure] B_stable \\\\approx 0.24177 rad Topological Saturation Limit [Fundamental Scale Anchor] \\\\tau_\\\\chi \\\\approx 1.45 \\\\pm 0.20 \\\\Rightarrow l_f Vacuum Packing Condition [Minimal Length/Tension Ratio] l_f = (2A/T)^{"
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Orson Free Build — raw.json",
+      "title": "Orson Free Build",
+      "record_count": 3,
+      "best_score": 54,
+      "first_hit_index": 1278,
+      "sample_hit_index": 1278,
+      "locator": "message:5b919af8-7f5d-4014-87b7-020ceea088f1",
+      "matched_terms": [
+        "time-flow elasticity",
+        "tension"
+      ],
+      "excerpt": "…id / topology / linking; precision / constants / calibration; holonomy / torsion / phase,1. What such a mechanism tends to produce physically | C. Effective nonlocal potential in time | 2. What this would imply for Solar System dynamics | 5. The key tension your idea runs into |"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11•25.05.11•Symbolic Expression Interpretation — raw.json",
+      "locator": "message:1fc4976a-8abe-4b4e-ad27-976f03ab3ea0",
+      "matched_terms": [
+        "coarse-graining",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
+      "locator": "message:841acc38-1522-4867-8804-511f2b24c95e",
+      "matched_terms": [
+        "coarse-graining",
+        "anisotropic"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json",
+      "locator": "message:841acc38-1522-4867-8804-511f2b24c95e",
+      "matched_terms": [
+        "coarse-graining",
+        "anisotropic"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
+      "locator": "message:53e0db76-6c7d-4075-b52c-3f1486069d72",
+      "matched_terms": [
+        "coarse-graining",
+        "anisotropic"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json",
+      "locator": "message:53e0db76-6c7d-4075-b52c-3f1486069d72",
+      "matched_terms": [
+        "coarse-graining",
+        "anisotropic"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.23•25.05.23•SAT Goals and Roles — raw.json",
+      "locator": "message:c2e26e75-a305-40b5-874b-bdefca4dde2e",
+      "matched_terms": [
+        "coarse-graining",
+        "anisotropic"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.23•25.05.23•SAT Goals and Roles — raw.json",
+      "locator": "message:0997818c-a340-44c6-a271-66210aa2bbb3",
+      "matched_terms": [
+        "coarse-graining",
+        "tension"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01•25.09.13•♾️ SAT_O METASUPERVISOR — raw.json",
+      "locator": "message:b07649e5-091e-4ec9-acd9-a310b944d6a6",
+      "matched_terms": [
+        "coarse-graining",
+        "tension"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
