@@ -7,12 +7,30 @@
 
 ## 1. Deliverable
 
-Build an **"all of physics on one chalkboard"** map with two synchronized layers:
+Build an **"all of physics on one chalkboard"** map in the order physics is ordinarily understood and taught before attempting deep namespace reconciliation.
 
-1. **Board layer** — compact visual/conceptual map of the major theories, equations, actions, Hamiltonians, kinematic structures, state spaces, symmetry groups, and historical branches.
-2. **Reference layer** — source-backed cards for every node and edge, sufficient to recover the actual mathematics and not merely the label.
+### Stage A — conventional floor plan
+First construct the standard schematic understanding of physics:
+- what the major fields/sectors are;
+- which domains they are normally said to govern;
+- which theories historically grew into or connect to others;
+- where textbooks/reviews say the bridges, limits, overlaps and discontinuities are;
+- how modern physics understands increasing interconnection among formerly separated sectors.
 
-The board is a router. The cards are the evidence.
+At this stage, take physics largely at its own word. Do not begin by atomizing every coefficient or resolving every symbol collision. The point is to recover the **conventional architecture** accurately enough that later mathematical structure can be compared against it.
+
+### Stage B — local plumbing
+Only after the floor plan is usable, pick a local object/equation and follow its connections in two independent directions:
+
+1. **Mathematical-local track** — which equations, operators, approximations and effective descriptions are directly derived from, reduce to, couple to, or are standardly expected to connect with the selected equation/object?
+2. **Observational-local track** — where does the corresponding physical entity/process actually occur in nature, laboratory systems, materials, astrophysics, chemistry, biology, geophysics, sedimentology and other emergent regimes? Where is its influence calculable, negligible, screened, averaged away, unresolved, impractical to propagate, or replaced by a more useful effective description?
+
+This local traversal is how the detailed namespace/object ledger is populated. The ledger follows the map; it does not precede it.
+
+### Stage C — comparison of architecture with mathematics
+After enough local traversals exist, ask whether the actual mathematical dependency graph overlaps, branches and disconnects in the same places the conventional conceptual map led us to expect.
+
+The board is therefore initially a floor plan, then gradually becomes an audited structural map.
 
 ## 2. Scope
 
@@ -371,3 +389,47 @@ This project must extend:
 - `WORKSPACES/COMMON/FORMALISM_INDEX/CROSS_FORMALISM_INDEX_2026-10-10.md`
 
 The new master map becomes their large-scale routing architecture.
+
+
+## 13. Representation-gap map
+
+A central output is a map of **representation scale and practical calculational handoff**.
+
+For any physical chain, distinguish:
+
+- **ontic/presence continuity:** lower-level physics is still present in the system;
+- **calculational relevance:** lower-level variables may cease to be useful for the target observable;
+- **effective handoff:** a higher-level description becomes the standard working representation;
+- **derivable in principle:** a connection is accepted or formally available in principle;
+- **computationally impractical:** direct derivation exists conceptually but is intractable or wildly inefficient;
+- **unknown bridge:** no accepted derivational route is presently known;
+- **negligible/screened/coarse-grained:** effect survives formally but is too small or averaged out for the regime;
+- **emergent closure:** higher-level equations become approximately autonomous over a regime.
+
+The map should therefore be able to trace questions such as:
+
+- How does an electron described in quantum field theory enter atomic, chemical, material, biological, geological or atmospheric systems?
+- Where does QCD hand off to nuclear physics, atomic physics, chemistry, continuum mechanics and eventually macroscopic pattern formation?
+- Why is it legitimate or illegitimate to stop carrying lower-level variables at each transition?
+- Which thresholds make the next level of description appropriate?
+- Which supposedly continuous chains contain genuine mathematical gaps rather than merely computational inconvenience?
+
+The goal is not to derive every macroscopic pattern directly from microscopic theory. It is to locate and characterize the **gulf between known physical presence and useful level of representation**.
+
+## 14. Locality rule
+
+Do not leap across the map by conceptual association.
+
+Start from one equation/object and follow only immediate or standardly expected neighbors:
+- direct derivation;
+- coupling term;
+- limit;
+- effective theory;
+- constitutive relation;
+- standard approximation;
+- experimentally established dependency;
+- accepted scale transition.
+
+Repeat recursively.
+
+This produces a path whose uncertainties and handoffs are visible rather than hidden by a grand narrative.
