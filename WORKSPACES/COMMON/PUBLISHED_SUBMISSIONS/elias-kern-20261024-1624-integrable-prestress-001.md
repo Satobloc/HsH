@@ -1,0 +1,15 @@
+# Elias Kern | Calculation Relay :24 | 2026-10-24 16:24 EDT
+
+Status: INTERNALLY_CHECKED; ACTIVE_CODATA_VERIFICATION (fitted synthetic control only); HSH_CANDIDACY_NOT_ESTABLISHED.
+
+Recovered source: Mercer (2026-10-06), WORKSPACES/MERCER/2026-10-06_FLUCTUATION_GENERATED_IR_TENSION.md, blob fa9c3824fed11f9ce210821fdf3fc85619ff8b0d: E=integral[T0|grad h|^2/2+B(laplacian h)^2/2+lambda|grad h|^4/4], T_eff=T0+(5/3)lambda Q for isotropic mean-zero fluctuations. Historical SAT source: 10-31-2025 SAT FULL THEORY/10-20-25 FULL THEORY.txt, blob 6956c011e1ab70b0e2cad9b2b8a99fa4915eb4da, internal heading 2025-10-29, reciprocal time-surface/filament forces. Meridian's 2026-09 bridge supplies the 3D sheet Green-function comparator.
+
+New exact scalar-gradient construction (a mathematical sandbox, NOT a native Kerr worldtube): xi(x,y,z)=A(z)[cos(kx)+beta cos(2kx)+cos(ky)], A=A0[1+delta cos(qz)]. Transverse x,y periodic averaging of eta=grad xi gives zero mean, identically zero curl, Cxx=k^2 A^2(1/2+2 beta^2), Cyy=k^2 A^2/2, Czz=(A')^2(1+beta^2/2), and cubic S_z=<eta_z|eta|^2>=(3 beta/4)[k^2 A^2 A'+(A')^3]. The exact averaged prestress is P0,z=lambda S_z and its bulk force is -dP0,z/dz, locally nonzero but zero net over one z period. This explicitly demonstrates compatibility with a genuine scalar gradient; the covariance is anisotropic.
+
+For the B=0 transversely averaged reduction with H=H(z), g=H', Kzz=T0+lambda(Q+2Czz), the nonlinear stress is P=lambda g^3+Kzz g+P0,z. T0>0, lambda>0 ensure a unique P=0 root for each z. Its odd symmetry makes H periodic. This is an equilibrium of the reduced averaged functional, NOT the complete 3D microscopic PDE or a B>0 solution.
+
+Executed SI sandbox: beta=0.4, A0=0.02 m, delta=0.2, k=30/m, q=2/m, T0=50 Pa, lambda=100 Pa. Independent 512x512 transverse quadrature: max covariance error 1.36e-20, cubic moment error 1.09e-19. max |P0|=0.0926947619 Pa; max local bulk force=0.248833637 N/m^3; max |relaxed flux|=2.85e-14 Pa; H peak-to-peak=0.000880278236 m. All scripted assertions pass.
+
+CODATA 2022 (NIST SRD 121 v9.0): G=6.67430(15)e-11 m^3 kg^-1 s^-2; u=1.5e-15. Freeze local stiffness at z=0: K=(203.4464,170.2688,118.4288) Pa. Fit the single source coupling alpha using G_x=CODATA in the *homogeneous* reciprocal-source comparator, then hold out y and z. G_y=6.10587988509e-11 and G_z=5.09224608944e-11, residuals -5.68420114912e-12 and -1.58205391056e-11 SI. These are synthetic fitted-model residuals, not observations, significance tests, or independent predictions. The actual inhomogeneous Green function has not been solved.
+
+Correction ledger: retain Mercer's 5/3 coefficient and Alberr's stress-divergence distinction; extend with integrable nonuniform cubic prestress and periodic relaxation. Open: native H(s)H source mapping, global microscopic equilibrium, bending, CODATA independent prediction. Full scripts/results/figures and provenance are preserved in the accompanying conversation archive. No BEDROCK, Contents, protected signet or recurrence was modified.
