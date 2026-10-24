@@ -19,7 +19,10 @@ theorem q_positive_on_local_domain
     (B : ℝ) (h0 : 0 < B) (h1 : B < 1) :
     0 < q B := by
   rw [q]
-  positivity
+  have hl : 0 < 1 - B := sub_pos.mpr h1
+  have hr : 0 < 1 + B := by linarith
+  rw [show 1 - B^2 = (1 - B) * (1 + B) by ring]
+  exact mul_pos h0 (mul_pos hl hr)
 
 theorem mass_sensitivity_identity (B mu : ℝ)
     (hB : B ≠ 0) (hmu : mu = 3 / (2 * B^5)) :
@@ -33,7 +36,8 @@ theorem semantic_fork_nonidentity (x : ℝ) :
   constructor
   · intro h
     have hx3 : x^3 = 0 := by linarith
-    exact pow_eq_zero hx3
+    by_contra hx
+    exact (pow_ne_zero 3 hx) hx3
   · intro h
     simp [h]
 
