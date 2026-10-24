@@ -1,0 +1,585 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "54904edef69779492a8bb9d39f39186f788442391b11494be064dc3d05e4c5c1",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-24T18:11:35.009686+00:00",
+  "query": "(\"theta_4\" NEAR/12 \"tanh\") OR (\"phase retardance\" NEAR/12 \"kink\") OR (\"sin²\" NEAR/12 \"theta\")",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14162,
+    "records_scanned": 24066393,
+    "hits": 316
+  },
+  "counted_hits": 316,
+  "distinct_sources": 108,
+  "results_by_root": {
+    "archive": 73,
+    "hsh-main": 236,
+    "resources": 7
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "kink",
+      250
+    ],
+    [
+      "tanh",
+      193
+    ],
+    [
+      "theta_4",
+      185
+    ],
+    [
+      "phase retardance",
+      183
+    ],
+    [
+      "theta",
+      100
+    ],
+    [
+      "sin²",
+      54
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json",
+      "title": "MERSEARCH_REQUEST_LANE_2",
+      "record_count": 1,
+      "best_score": 67,
+      "first_hit_index": 270,
+      "sample_hit_index": 270,
+      "locator": "$.query",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²",
+        "theta"
+      ],
+      "excerpt": "(\"theta_4\" NEAR/12 \"tanh\") OR (\"phase retardance\" NEAR/12 \"kink\") OR (\"sin²\" NEAR/12 \"theta\")"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "title": "LAB 1: Validation Lead",
+      "record_count": 12,
+      "best_score": 63,
+      "first_hit_index": 3,
+      "sample_hit_index": 57,
+      "locator": "message:e61c0f62-b967-4b28-9ed2-ae7d07eab0e6",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…age[a4paper,margin=1in]{geometry} \\usepackage{amsmath,amssymb} \\usepackage{graphicx} \\usepackage{siunitx} \\usepackage{hyperref} \\usepackage{caption} \\usepackage{subcaption} \\usepackage{minted} % Comment out if not using shell-escape \\title{% Optical Phase Retardance from a Scala"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "title": "LAB 1: Validation Lead",
+      "record_count": 12,
+      "best_score": 63,
+      "first_hit_index": 4,
+      "sample_hit_index": 58,
+      "locator": "message:e61c0f62-b967-4b28-9ed2-ae7d07eab0e6",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…age[a4paper,margin=1in]{geometry} \\usepackage{amsmath,amssymb} \\usepackage{graphicx} \\usepackage{siunitx} \\usepackage{hyperref} \\usepackage{caption} \\usepackage{subcaption} \\usepackage{minted} % Comment out if not using shell-escape \\title{% Optical Phase Retardance from a Scala"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "title": "LAB 1: Validation Lead",
+      "record_count": 12,
+      "best_score": 63,
+      "first_hit_index": 5,
+      "sample_hit_index": 59,
+      "locator": "message:e61c0f62-b967-4b28-9ed2-ae7d07eab0e6",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…age[a4paper,margin=1in]{geometry} \\usepackage{amsmath,amssymb} \\usepackage{graphicx} \\usepackage{siunitx} \\usepackage{hyperref} \\usepackage{caption} \\usepackage{subcaption} \\usepackage{minted} % Comment out if not using shell-escape \\title{% Optical Phase Retardance from a Scala"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•26.09.12•LAB 1_ Validation Lead — raw (1).json",
+      "title": "LAB 1: Validation Lead",
+      "record_count": 12,
+      "best_score": 63,
+      "first_hit_index": 6,
+      "sample_hit_index": 60,
+      "locator": "message:e61c0f62-b967-4b28-9ed2-ae7d07eab0e6",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…age[a4paper,margin=1in]{geometry} \\usepackage{amsmath,amssymb} \\usepackage{graphicx} \\usepackage{siunitx} \\usepackage{hyperref} \\usepackage{caption} \\usepackage{subcaption} \\usepackage{minted} % Comment out if not using shell-escape \\title{% Optical Phase Retardance from a Scala"
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[[SAT_2025-26_PRED-POST]]].txt",
+      "title": "[[[SAT_2025-26_PRED-POST]]]",
+      "record_count": 10,
+      "best_score": 63,
+      "first_hit_index": 188,
+      "sample_hit_index": 190,
+      "locator": "line:214768",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[SAT_2025-26_PRED-POST]]].txt",
+      "title": "[[[SAT_2025-26_PRED-POST]]]",
+      "record_count": 10,
+      "best_score": 63,
+      "first_hit_index": 222,
+      "sample_hit_index": 224,
+      "locator": "line:214768",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 24,
+      "sample_hit_index": 30,
+      "locator": "message:62fca285-b822-47cc-9b96-3ae609d66c0f",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…nergy &emsp;C. Retrodiction and Cross-Domain Validation IV. Interdisciplinary Workflow V. Actor Roles & Epistemic Commitments VI. Conclusion & Forward Plan **List of Illustrations** - **Figure 1:** Layered field schematic of the SAT model (θ₄ scalar kink, τ lattice, and u vector"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.05.09•26.06.16•[A] SAT ACTIVE EDGE vNext — raw.json",
+      "title": "[A] SAT ACTIVE EDGE vNext",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 25,
+      "sample_hit_index": 31,
+      "locator": "message:62fca285-b822-47cc-9b96-3ae609d66c0f",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…nergy &emsp;C. Retrodiction and Cross-Domain Validation IV. Interdisciplinary Workflow V. Actor Roles & Epistemic Commitments VI. Conclusion & Forward Plan **List of Illustrations** - **Figure 1:** Layered field schematic of the SAT model (θ₄ scalar kink, τ lattice, and u vector"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09•26.06.16•SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 26,
+      "sample_hit_index": 32,
+      "locator": "message:62fca285-b822-47cc-9b96-3ae609d66c0f",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…nergy &emsp;C. Retrodiction and Cross-Domain Validation IV. Interdisciplinary Workflow V. Actor Roles & Epistemic Commitments VI. Conclusion & Forward Plan **List of Illustrations** - **Figure 1:** Layered field schematic of the SAT model (θ₄ scalar kink, τ lattice, and u vector"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PREDICTIONS/CONCAT_COMB_SAT_PREDICTIONS_5.txt",
+      "title": "CONCAT_COMB_SAT_PREDICTIONS_5",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 155,
+      "sample_hit_index": 157,
+      "locator": "line:18401",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CONCAT_COMB_SAT_PREDICTIONS_5.txt",
+      "title": "CONCAT_COMB_SAT_PREDICTIONS_5",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 199,
+      "sample_hit_index": 201,
+      "locator": "line:18401",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09•26.06.16•SAT ACTIVE EDGE vNext — raw - .TXT",
+      "title": "25.05.09•26.06.16•SAT ACTIVE EDGE vNext — raw -",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 251,
+      "sample_hit_index": 251,
+      "locator": "line:19697",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…C. Retrodiction and Cross-Domain Validation \\nIV. Interdisciplinary Workflow \\nV. Actor Roles & Epistemic Commitments \\nVI. Conclusion & Forward Plan \\n\\n**List of Illustrations** \\n- **Figure 1:** Layered field schematic of the SAT model (θ₄ scalar kink, τ lattice, and u vector"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-2004.json",
+      "title": "2026-09-15-LAB1-AFTER-2004",
+      "record_count": 5,
+      "best_score": 63,
+      "first_hit_index": 283,
+      "sample_hit_index": 284,
+      "locator": "$.selected[10].text",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…age[a4paper,margin=1in]{geometry} \\usepackage{amsmath,amssymb} \\usepackage{graphicx} \\usepackage{siunitx} \\usepackage{hyperref} \\usepackage{caption} \\usepackage{subcaption} \\usepackage{minted} % Comment out if not using shell-escape \\title{% Optical Phase Retardance from a Scala"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PREDICTIONS/SAT PREDICTIONS — ROUNDUP 1.5.txt",
+      "title": "SAT PREDICTIONS — ROUNDUP 1.5",
+      "record_count": 4,
+      "best_score": 63,
+      "first_hit_index": 160,
+      "sample_hit_index": 162,
+      "locator": "line:14051",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Mark V/ActiveEdgevNext.txt",
+      "title": "ActiveEdgevNext",
+      "record_count": 4,
+      "best_score": 63,
+      "first_hit_index": 169,
+      "sample_hit_index": 169,
+      "locator": "line:11058",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_PREDICTIONS/SAT PREDICTIONS — ROUNDUP 1.5.txt",
+      "title": "SAT PREDICTIONS — ROUNDUP 1.5",
+      "record_count": 4,
+      "best_score": 63,
+      "first_hit_index": 181,
+      "sample_hit_index": 183,
+      "locator": "line:14051",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT PREDICTIONS — ROUNDUP 1.5.txt",
+      "title": "SAT PREDICTIONS — ROUNDUP 1.5",
+      "record_count": 4,
+      "best_score": 63,
+      "first_hit_index": 211,
+      "sample_hit_index": 213,
+      "locator": "line:14051",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "theta"
+      ],
+      "excerpt": "…her words, the constraint sequence closed at $\\phi_2$ without the need for any additional condition:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}. This is an important consistency check: it means the introduction of $\\theta_4$ (and even a $\\tau$ c"
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 1,
+      "best_score": 62,
+      "first_hit_index": 88,
+      "sample_hit_index": 88,
+      "locator": "message:ad0c071e-2407-41ed-b96d-836e643c868f",
+      "matched_terms": [
+        "theta_4",
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ],
+      "excerpt": "…to known physics. 🧾 THEORY OVERVIEW 1. θ₄(x) – Scalar Field of Angular Misalignment Represents the angular deviation of filament-like structures from a propagating time wavefront. Drives mass/inertia via angular misalignment: e.g., $m \\propto \\sin^2\\theta_4$. Has a Z₃-symmetric "
+    },
+    {
+      "root": "archive",
+      "path": "archive/DEV CONVERSATION/SAT DEV DISCUSSIONS 1.txt",
+      "title": "SAT DEV DISCUSSIONS 1",
+      "record_count": 2,
+      "best_score": 55,
+      "first_hit_index": 144,
+      "sample_hit_index": 145,
+      "locator": "line:37122",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ],
+      "excerpt": "🧪 TO THREAD 1 (Experimental Validation) Phase 3 Results – Simulation Feedback Two core SAT mechanisms have now been simulated: 1. θ₄ Domain Wall → Phase Retardance Kink profile: θ₄(x) = (2π/3)(1 + tanh(μx))/2 Refractive modulation: Δn(x) = η·sin²(θ₄(x)) Result: smooth index bump "
+    },
+    {
+      "root": "archive",
+      "path": "archive/Alberr/text 28.txt",
+      "title": "text 28",
+      "record_count": 1,
+      "best_score": 55,
+      "first_hit_index": 141,
+      "sample_hit_index": 141,
+      "locator": "line:238",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ],
+      "excerpt": "🧪 TO THREAD 1 (Experimental Validation) Phase 3 Results – Simulation Feedback Two core SAT mechanisms have now been simulated: 1. θ₄ Domain Wall → Phase Retardance Kink profile: θ₄(x) = (2π/3)(1 + tanh(μx))/2 Refractive modulation: Δn(x) = η·sin²(θ₄(x)) Result: smooth index bump "
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Alberr/text 28.txt",
+      "title": "text 28",
+      "record_count": 1,
+      "best_score": 55,
+      "first_hit_index": 150,
+      "sample_hit_index": 150,
+      "locator": "line:238",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ],
+      "excerpt": "🧪 TO THREAD 1 (Experimental Validation) Phase 3 Results – Simulation Feedback Two core SAT mechanisms have now been simulated: 1. θ₄ Domain Wall → Phase Retardance Kink profile: θ₄(x) = (2π/3)(1 + tanh(μx))/2 Refractive modulation: Δn(x) = η·sin²(θ₄(x)) Result: smooth index bump "
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 3,
+      "best_score": 54,
+      "first_hit_index": 115,
+      "sample_hit_index": 119,
+      "locator": "message:93754ad4-99ef-43fe-8124-be45bb640e74",
+      "matched_terms": [
+        "theta_4",
+        "phase retardance",
+        "kink"
+      ],
+      "excerpt": "… Module O9} [L10] \\author{Audit Deployment: Master Thread} [L11] \\date{\\today} [L12] [L13] \\begin{document} [L14] [L15] \\maketitle [L16] [L17] \\section*{Module Content (Unmodified)} [L18] [L19] \\textbf{Scalar–Angular–Twist Prediction of a Measurable Phase Retardance from a Singl"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Early Misc/REPORT1.txt",
+      "title": "REPORT1",
+      "record_count": 1,
+      "best_score": 54,
+      "first_hit_index": 146,
+      "sample_hit_index": 146,
+      "locator": "line:94",
+      "matched_terms": [
+        "theta_4",
+        "phase retardance",
+        "kink"
+      ],
+      "excerpt": "Section II.C was essentially a schematic of what Lab 1 observed. Quantitatively, Lab 1 reported: *“domains emerge clearly and preferentially align near the radial kink zone; fusion violation density is lowest around r ≈ 15 m, where the θ₄ gradient is steepest; domain coherence is"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "locator": "message:0a9375c7-83b0-4a5f-9bfe-67ba773df4db",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "locator": "message:0a9375c7-83b0-4a5f-9bfe-67ba773df4db",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "locator": "message:0a9375c7-83b0-4a5f-9bfe-67ba773df4db",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•26.09.12•LAB 1_ Validation Lead — raw (1).json",
+      "locator": "message:0a9375c7-83b0-4a5f-9bfe-67ba773df4db",
+      "matched_terms": [
+        "tanh",
+        "phase retardance",
+        "kink",
+        "sin²"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:332b0b62-c148-4600-9f61-966f2687608a",
+      "matched_terms": [
+        "theta_4",
+        "phase retardance",
+        "kink"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
