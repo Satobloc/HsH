@@ -165,3 +165,41 @@ The claim belongs to the **March 2026 UI/Whirligig + 24-cell/HSUCV + master-Lagr
 Related later methodology sources explicitly describe the **NLM star-shaped derivation map** as a cross-domain fail-rigid procedure; current BEDROCK equates that method with the Back Hallways loops at the methodological level.
 
 Next useful test: reconstruct the original efficiency metric, if any, and compare one matched calculation through native SAT machinery, standard physics/mathematics, and a minimal hybrid route using reproducible counts (operations, equations, state variables, parameters, solver cost, or another defensible complexity measure).
+
+
+## Epistemic correction — no mathematical-closure target
+
+Nathan Direct, 2026-10-24:
+
+Do **not** treat "mathematical closure" as the goal of SAT/H(s)H. The project goal is the ordinary scientific one: build an approximation that works, compare it with competing approximations, and improve it where possible. There is no privileged terminal representation to chase.
+
+Working stance:
+- SAT/H(s)H is primarily a **map / common representational language**, with a comparatively small theory-specific remainder.
+- The map is grounded in established physics and is constrained by it.
+- Standard Model / GR / QFT / ordinary mechanics remain available in full as baseline calculational machinery. Using them honestly places the project at **methodological parity of available tools**, not evidentiary parity of the SAT/H(s)H-specific representation.
+- The project-specific question is whether returning to a cleaner, earlier geometric representation of accepted physics makes any calculation, derivation, pedagogy, transfer across domains, or model comparison simpler, clearer, more reusable, or more constraining.
+- If it does, even locally, that is a legitimate contribution.
+- If it makes things worse, that is equally informative and prunes the representation tree.
+
+Confidence should attach to the **doability of the mapping/reconstruction programme**, not to any particular current formula, realization, constant, or mechanism.
+
+### Barnraising rule
+
+Treat the current structure as a largely built house whose geometry, joins, shims, and load paths must be audited:
+- fix arithmetic, transcription, inversion, dimensional, sign, normalization, and bookkeeping errors;
+- recover and retest native SAT/H(s)H machinery before discarding it;
+- identify questionable equivalence choices and mark them rather than silently cementing them;
+- replace ad hoc foam with proper joinery where a cleaner standard or native construction exists;
+- use the star-shaped derivation map / Back Hallways as the cross-domain load frame;
+- compare native, standard, and hybrid routes on matched physical tasks;
+- let failed comparisons narrow the space of equivalent representations.
+
+The success question is not "is SAT/H(s)H mathematically closed?" It is:
+
+> Does this common geometric map preserve accepted physics and make any part of doing physics easier, clearer, more economical, more transferable, or more predictive without losing accuracy?
+
+### Archive perspective
+
+Nathan reports a recurrent pattern across the project: sparse geometric reasoning often led him to infer that a phenomenon or mathematical structure should exist before he knew the specialist literature, after which archive/research work located related standard work in older or niche literatures. Treat such episodes as methodological evidence for the usefulness of the map, **not** as proof that the SAT/H(s)H explanation is correct.
+
+One recovered example family: project discussions about the need for phase/transport structure were later compared with standard gauge-connection logic; framed-curve/worldtube questions repeatedly route into established framed-curve, rod, bundle, holonomy, and related literature. Continue excavating such examples with Mersearch and preserve exact chronology and attribution.
