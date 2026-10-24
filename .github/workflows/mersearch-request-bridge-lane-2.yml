@@ -1,0 +1,215 @@
+name: Mersearch Request Bridge Lane 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mersearch-request-bridge-lane-2
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout HsH main
+        uses: actions/checkout@v4
+        with:
+          path: hsh-main
+          fetch-depth: 0
+      - name: Read and validate request
+        id: req
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, re
+          p='hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json'
+          d=json.load(open(p,encoding='utf-8'))
+          rid=str(d['request_id']).strip()
+          query=str(d['query']).strip()
+          if not re.fullmatch(r'[A-Za-z0-9._-]{1,120}', rid):
+              raise SystemExit('request_id must use only A-Z a-z 0-9 . _ - and be <=120 chars')
+          if not query:
+              raise SystemExit('query must be nonempty')
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('request_id='+rid+'\n')
+              f.write('query<<EOF\n'+query+'\nEOF\n')
+          PY
+      - name: Checkout stable Mersearch
+        uses: actions/checkout@v4
+        with:
+          ref: mersearch-stable-1.0
+          path: mersearch
+          fetch-depth: 1
+      - name: Checkout original SAT archive
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+          fetch-depth: 1
+      - name: Checkout HSH_RESOURCES
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: resources
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record exact inputs
+        id: inputs
+        shell: bash
+        run: |
+          echo "hsh_sha=$(git -C hsh-main rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "mersearch_sha=$(git -C mersearch rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "archive_sha=$(git -C archive rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "resources_sha=$(git -C resources rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "mersearch_script_sha256=$(sha256sum mersearch/tools/search_archive_content.py | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+      - name: Run Mersearch
+        id: run_mersearch
+        shell: bash
+        env:
+          QUERY: ${{ steps.req.outputs.query }}
+        run: |
+          rm -rf /tmp/mersearch-request
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, re, os
+          src_path=Path('mersearch/tools/search_archive_content.py')
+          src=src_path.read_text(encoding='utf-8')
+          hotfix=False
+          if not re.search(r'^TOOL_NAME\s*=', src, flags=re.M):
+              marker='TEXT_EXTS='
+              if marker not in src:
+                  raise SystemExit('Cannot apply Mersearch identity hotfix: TEXT_EXTS marker missing')
+              src=src.replace(marker, 'TOOL_NAME="Mercer_Searcher_1.0"\nTOOL_VERSION="1.0"\n'+marker, 1)
+              hotfix=True
+          runtime=Path('/tmp/mersearch-runtime.py')
+          runtime.write_text(src,encoding='utf-8')
+          digest=hashlib.sha256(runtime.read_bytes()).hexdigest()
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('runtime_script_sha256='+digest+'\n')
+              f.write('identity_hotfix_applied='+str(hotfix).lower()+'\n')
+          PY
+          python /tmp/mersearch-runtime.py archive hsh-main resources --expr "$QUERY" --sort date --out /tmp/mersearch-request
+          test -s /tmp/mersearch-request/SEARCH_RESULTS.json
+          test -s /tmp/mersearch-request/SEARCH_RESULTS.md
+      - name: Build run manifest
+        shell: bash
+        env:
+          REQUEST_ID: ${{ steps.req.outputs.request_id }}
+          QUERY: ${{ steps.req.outputs.query }}
+          HSH_SHA: ${{ steps.inputs.outputs.hsh_sha }}
+          MERSEARCH_SHA: ${{ steps.inputs.outputs.mersearch_sha }}
+          ARCHIVE_SHA: ${{ steps.inputs.outputs.archive_sha }}
+          RESOURCES_SHA: ${{ steps.inputs.outputs.resources_sha }}
+          MERSEARCH_SCRIPT_SHA256: ${{ steps.inputs.outputs.mersearch_script_sha256 }}
+          RUNTIME_SCRIPT_SHA256: ${{ steps.run_mersearch.outputs.runtime_script_sha256 }}
+          IDENTITY_HOTFIX_APPLIED: ${{ steps.run_mersearch.outputs.identity_hotfix_applied }}
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, pathlib
+          out=pathlib.Path('/tmp/mersearch-request')
+          def sha256(p): return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+          manifest={
+            'request_id':os.environ['REQUEST_ID'],
+            'query':os.environ['QUERY'],
+            'tool':'Mercer_Searcher_1.0',
+            'mersearch_ref':'mersearch-stable-1.0',
+            'mersearch_commit':os.environ['MERSEARCH_SHA'],
+            'source_repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25',
+            'source_repositories':[
+              {'repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25','commit':os.environ['ARCHIVE_SHA'],'root':'archive/'},
+              {'repository':'Satobloc/HsH','commit':os.environ['HSH_SHA'],'root':'hsh-main/'},
+              {'repository':'Satobloc/HSH_RESOURCES','commit':os.environ['RESOURCES_SHA'],'root':'resources/'}
+            ],
+            'archives_requested':['Satobloc/SAT_THEORY_ARCHIVE_2023-25','Satobloc/HsH','Satobloc/HSH_RESOURCES'],
+            'scope_note':'All three checked-out repositories searched; extension, size and policy exclusions still apply.',
+            'source_commit':os.environ['ARCHIVE_SHA'],
+            'request_repository':'Satobloc/HsH',
+            'request_commit':os.environ['HSH_SHA'],
+            'read_root':'archive/ hsh-main/ resources/',
+            'read_roots':['archive/','hsh-main/','resources/'],
+            'write_root':'indexes/mersearch_requests/<request_id>/',
+            'write_class':'derived/generated output',
+            'default_exclusions':['QUARANTINE','PRIOR_ART'],
+            'bridge_runtime_hotfix':{
+              'applied':os.environ['IDENTITY_HOTFIX_APPLIED'].lower()=='true',
+              'reason':'mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them',
+              'scope':'runtime copy only; mersearch-stable-1.0 branch is unchanged',
+              'injected_definitions':{'TOOL_NAME':'Mercer_Searcher_1.0','TOOL_VERSION':'1.0'},
+              'stable_script_sha256':os.environ['MERSEARCH_SCRIPT_SHA256'],
+              'runtime_script_sha256':os.environ['RUNTIME_SCRIPT_SHA256']
+            },
+            'outputs':{
+              'SEARCH_RESULTS.json':sha256(out/'SEARCH_RESULTS.json'),
+              'SEARCH_RESULTS.md':sha256(out/'SEARCH_RESULTS.md')
+            }
+          }
+          (out/'RUN_MANIFEST.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+      - name: Build bounded, provenance-bearing search receipt
+        shell: bash
+        run: |
+          # The full Mersearch output can exceed connector text-reader limits.
+          # Receipt is a NON-authoritative source index, not a substitute for results.
+          python hsh-main/tools/test_mersearch_compact_receipt.py
+          python hsh-main/tools/mersearch_compact_receipt.py \
+            --results /tmp/mersearch-request/SEARCH_RESULTS.json \
+            --out-dir /tmp/mersearch-request
+          python - <<'PY'
+          import json, hashlib, pathlib
+          out=pathlib.Path('/tmp/mersearch-request')
+          manifest=out/'RUN_MANIFEST.json'
+          data=json.loads(manifest.read_text(encoding='utf-8'))
+          for filename in ('SEARCH_RECEIPT.json','SEARCH_RECEIPT.md'):
+              data['outputs'][filename]=hashlib.sha256((out/filename).read_bytes()).hexdigest()
+          manifest.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+      - name: Publish auditable request-scoped results from fresh main
+        shell: bash
+        env:
+          REQUEST_ID: ${{ steps.req.outputs.request_id }}
+        run: |
+          cd hsh-main
+          git fetch origin main
+          git reset --hard origin/main
+          dest="indexes/mersearch_requests/$REQUEST_ID"
+          if [ -e "$dest" ]; then
+            echo "::error::Request output already exists: $dest"
+            exit 1
+          fi
+          mkdir -p "$dest"
+          cp /tmp/mersearch-request/SEARCH_RESULTS.json "$dest/SEARCH_RESULTS.json"
+          cp /tmp/mersearch-request/SEARCH_RESULTS.md "$dest/SEARCH_RESULTS.md"
+          cp /tmp/mersearch-request/RUN_MANIFEST.json "$dest/RUN_MANIFEST.json"
+          cp /tmp/mersearch-request/SEARCH_RECEIPT.json "$dest/SEARCH_RECEIPT.json"
+          cp /tmp/mersearch-request/SEARCH_RECEIPT.md "$dest/SEARCH_RECEIPT.md"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dest"
+          test "$(git diff --cached --name-only | grep -vc "^$dest/")" -eq 0
+          git commit -m "Run Mersearch request $REQUEST_ID [skip mersearch-request]"
+          # Main receives frequent independent worker commits. Rebase ONLY this
+          # generated-results commit, without discarding or overwriting others.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Published after attempt $attempt"
+              exit 0
+            fi
+            echo "Concurrent main-branch update; rebasing generated artifact commit (attempt $attempt)"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Rebase conflict: refuse to overwrite existing results"
+              exit 1
+            fi
+            sleep "$attempt"
+          done
+          echo "::error::Generated-results push failed after bounded retries"
+          exit 1
