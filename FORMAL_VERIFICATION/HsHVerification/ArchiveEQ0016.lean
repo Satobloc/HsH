@@ -21,7 +21,9 @@ theorem positive_shift
     (B k R : ℝ) (hB : 0 < B) (hk : 0 < k) (hR : 1 < R) :
     1 < affineSpacing B k R := by
   dsimp [affineSpacing]
-  nlinarith
+  have hDelta : 0 < R - 1 := sub_pos.mpr hR
+  have hProduct : 0 < k * B * (R - 1) := mul_pos (mul_pos hk hB) hDelta
+  exact lt_add_of_pos_right 1 hProduct
 
 theorem fitted_multiplier_reproduces_target
     (B R target : ℝ) (hB : B ≠ 0) (hR : R ≠ 1) :
