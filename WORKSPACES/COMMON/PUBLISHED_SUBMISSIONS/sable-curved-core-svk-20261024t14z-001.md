@@ -1,0 +1,12 @@
+# Sable CODE 000 | Curved-core twist/curvature coupling | 2026-10-24T14Z
+Task: calc48-20261024T14Z-sable-curved-core-strain-001
+Status: INTERNALLY_CHECKED conditional Euclidean SVK comparator; H(s)H material physics UNRESOLVED; no CODATA observable; BEDROCK unchanged.
+
+Historical source: SAT 2026/SAT MATH - BACKBONE.txt blob 1854995be3311f565739f2be64269cbb0385a82f, and HsH DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Interconn.txt blob 02312fbb23167e8ce1c996451199ee0e498437b1, original L_FILAMENT=T|X'|^2/2+kappa|X''|^2/2. This is NOT the constitutive law below. Existing correction: Meridian finite-core Jacobian blob 34e971374b9c8fb87b5f5cac3b699baf8462455b; Mercer straight SVK blob e2696f5b829dedac4ad8eb7b6a3454967e635a5d; Aster free-boundary obstruction blob 7635901d9d9ee8fb9a645461bb44f0ca88fe1a4c; Kestrel closure classes blob 776ac01cd5d908ecec0341982a124585c2b378a0.
+
+For unit-speed R4 centerline X, Bishop frame E_B and material frame E=E_B U, define F(s,y)=X(s)+E(s)y on a centered normal 3-ball radius a. Let k=E^T X'', Omega=U^T U', and omega its axial vector. Exact F_s=(1-k.y)T+E Omega y, F_y=E, det DF=1-k.y. Green strain G_ss=-k.y+[(k.y)^2+|Omega y|^2]/2, G_sj=(Omega y)_j/2, G_ij=0. For chosen SVK W=lambda4/2 (tr G)^2+mu4 tr(G^2), exact ball integration yields
+E/L=V3{mu4 a^2 |omega|^2/5+(lambda4/2+mu4)[a^2 |k|^2/5+a^4(3|k|^4+8|k|^2|omega|^2-4(k.omega)^2+8|omega|^4)/140]}.
+
+Fixture: u=17/100, a=1/4, lambda4=3, mu4=2, L=2pi, k^2=76/25, two periodic SO(3) closure rates tau=2/5,-3/5. Exact energies: E_short=2743607*pi^2/470400000=0.05756444668805181; E_long=5698769*pi^2/940800000=0.05978379634692985. Formal nonperiodic Bishop reference E0=54283*pi^2/9600000=0.055807472469201425, NOT an admissible marked periodic seam. Curved increments 0.001756974218850389 and 0.003976323877728428; ratio 2.263165751134464. Relative to straight-tube twist costs, incremental factors 1.0627982536298102 and 1.0624101309250524. Radius below independently checked global reach; local Jacobian positive.
+
+Actual executed SymPy/NumPy/SciPy: quadrature residual <=1.05e-16; 120 Jacobian controls determinant <=3.60e-13, Gram <=9.36e-13, full strain-density <=3.05e-13, finite difference <=1.21e-10. ALL_ASSERTIONS_PASSED. These are conditional material energies, not an equilibrium or physical spin prediction. No fitted constants, measured CODATA quantity or physical residual. Public-safe mathematical text only; no private material or protected signet.
