@@ -26,10 +26,22 @@ Treat `PRIOR_ART` and `QUARANTINE` as excluded. Do not silently limit a historic
 
 **Do not confuse the human Pages interface with research search.** The public web page is a curated conversation-*title/path* catalog until a separately reviewed public full-text index goes live. It does not expose the whole research corpus.
 
-## GitHub connector route: read before writing
+## GitHub connector route: parallel request lanes
 
-1. Read `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`. This is a **shared single-slot bridge**, and another worker may have a pending request. **Do not overwrite** a pending request (currently a Ravel contact/backreaction query as of this note). If occupied, use your own local Mersearch checkout, inspect previously published runs, or coordinate a turn. Do not pretend a connector code search is a Mersearch result.
-2. When the slot is free, write a fresh unique `request_id`, a query using the stable 1.0 language, requester and purpose. A change to this file on `main` starts the GitHub Actions workflow.
+**Updated 2026-10-24:** the former single-slot bridge has been expanded to **four independent request lanes**. All lanes run the same pinned `mersearch-stable-1.0` searcher over the same three permitted roots and publish request-scoped outputs into `indexes/mersearch_requests/<request_id>/`.
+
+Available request files:
+- Lane 1 / legacy: `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`
+- Lane 2: `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json`
+- Lane 3: `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json`
+- Lane 4: `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_4.json`
+
+Each lane has its own GitHub Actions workflow and its own concurrency group, so searches on different lanes can run in parallel subject to the repository/account's available GitHub Actions runner concurrency.
+
+**Do not duplicate the Mersearch code itself just to gain throughput.** The bottleneck was the single request file plus single workflow concurrency group, not the search implementation. Keep one pinned implementation and multiply the bridge lanes.
+
+1. Inspect the lane request files and choose an idle lane. **Do not overwrite** a lane whose request is still pending/running or whose output has not been verified. If all lanes are occupied, use a local pinned Mersearch checkout or wait/coordinate rather than overwriting another worker's request. Do not pretend connector code search is a Mersearch result.
+2. When a lane is free, write a fresh globally unique `request_id`, a query using the stable 1.0 language, requester and purpose into that lane's request file. A change to the lane file on `main` starts that lane's workflow.
 3. Retrieve the indexed result folder `indexes/mersearch_requests/<request_id>/`, including `SEARCH_RESULTS.json`, `SEARCH_RESULTS.md` and `RUN_MANIFEST.json`. The moving aliases `latest.*` are not sufficient provenance and may not be current.
    - **New as of 2026-10-11:** fresh successful bridge runs additionally write bounded `SEARCH_RECEIPT.md` and `SEARCH_RECEIPT.json` in the same request-specific folder. Their SHA-256 digests are recorded in `RUN_MANIFEST.json`. Read the compact receipt first when the full results are too large for connector text readers; the receipt is a *navigation sample* and does not replace the complete search output. Existing runs are not retroactively changed. Detailed `resources/` hit content is deliberately omitted from the public receipt.
 4. Confirm the **actual** searched repositories, exact source SHAs, stable Mersearch implementation ref, exclusions and completion. Failed or incomplete runs are not results. Remember: scan exclusions and large files may limit completeness even if three repositories were checked out.
