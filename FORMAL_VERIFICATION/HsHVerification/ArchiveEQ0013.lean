@@ -7,6 +7,7 @@ theorem bridge_is_not_identity (x : ℝ) :
   constructor
   · intro h
     have : x^3 = 0 := by linarith
-    exact (pow_eq_zero this)
+    by_contra hx
+    exact (pow_ne_zero 3 hx) this
   · intro h; simp [h]
 end HsHVerification.ArchiveEQ0013
