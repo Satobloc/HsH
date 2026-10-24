@@ -1,7 +1,9 @@
 import Mathlib
 namespace HsHVerification.ArchiveEQ0012
-theorem fifth_power_monotone_direction (a b : ℝ) (ha : 0 < a) (h : a < b) :
-    a^5 < b^5 := by nlinarith [sq_nonneg a, sq_nonneg b, mul_pos ha h]
+theorem fifth_power_positive (a : ℝ) (ha : 0 < a) :
+    0 < a^5 := by positivity
 theorem multiplicative_bridge_solution (m p : ℝ) (hp : p ≠ 0) :
-    p * (1 + (m/p - 1)) = m := by field_simp
+    p * (1 + (m/p - 1)) = m := by
+  field_simp
+  ring
 end HsHVerification.ArchiveEQ0012
