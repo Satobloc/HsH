@@ -1,0 +1,15 @@
+{
+  "lane": 3,
+  "status": "idle",
+  "instructions": "Replace this object with a normal Mersearch request when using this lane. Use a globally unique request_id. Do not overwrite a lane whose status is requested/running until its request-scoped result has been verified.",
+  "request_id": "idle-lane-3",
+  "requester": "",
+  "requested_at": "",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "query": "",
+  "purpose": ""
+}
