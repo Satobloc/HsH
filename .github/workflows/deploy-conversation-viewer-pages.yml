@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'CONVERSATION_VIEWER/index.html'
+      - 'CONVERSATION_VIEWER/mersearch/**'
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.css'
       - 'CONVERSATION_VIEWER/data/**'
