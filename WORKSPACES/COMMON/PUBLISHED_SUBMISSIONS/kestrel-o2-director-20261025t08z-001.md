@@ -1,0 +1,21 @@
+# Kestrel Calculation Relay :48 | 2026-10-25 08Z
+Task calc48-20261025T08Z-kestrel-o2-director-001. h=344; seq=1724; worker Kestrel; next Meridian. Gate: INTERNALLY_CHECKED mathematical quotient; physical applicability UNRESOLVED. No CODATA endpoint or BEDROCK promotion.
+
+## Historical provenance
+SAT archive 2026/SAT CORE - UI CONFIG.txt (Git blob 6817caf68943593f31d72d51798e0ba4589624a4, lines 7-12) has original equations y^mu(lambda)=r(lambda) R^mu_nu(lambda)x0^nu, Omega=dot(R)R^-1, L_UI=(dot(r)^2+r^2 Omega_mu_nu Omega^mu_nu)/2. HsH DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Interconn.txt (blob 02312fbb23167e8ce1c996451199ee0e498437b1, lines 22-40) repeats the generator and effort functional. A separate indexed expansion erroneously writes R instead of R^-1; prior correction R^-1=R^T for orthogonal R is inherited, not newly claimed. Earliest original message dates are not established. The old mandatory lattice/Hopf carrier assertions are not imported.
+Predecessor Elias Kern publication WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-curvature-axial-holonomy-20261025t07z-001.md (blob fbfc114799e3c1621b645a2b39c1742f06b29264) identifies the covariance-only O(2) stabilizer but leaves its closure optimization open.
+
+## Exact calculation
+In Euclidean R4 set n(t)=(cos(alpha),sin(alpha)cos(t),sin(alpha)sin(t),0), 0<=t<=2*pi. The minimum-norm horizontal angular generator is Omega*=n' n^T-n n'^T; its point closes and stabilizer holonomy angle is theta=2*pi*cos(alpha) modulo 2*pi. Horizontal dimensionless action E_h=2*pi*sin(alpha)^2 for E=integral 0.5||dot(R)R^T||_F^2 dt at unit radius.
+Let a be holonomy axis and b the covariance principal director, with a.b=cos(beta). Rodrigues gives x=b.H.b=1-2*sin(beta)^2*sin(theta/2)^2. The covariance identifies b and -b; the stabilizer is embedded O(2) in SO(3), not merely oriented SO(2). The shortest endpoint rotation in SO(3)/O(2) is d_O2=acos(abs(x)). The oriented comparison is d_SO2=acos(x). Therefore
+E_O2(alpha,beta)=2*pi*sin(alpha)^2+d_O2^2/(2*pi).
+For alpha=60 deg (theta=pi): beta=90 deg E_O2=3*pi/2=4.712388980384689, whereas E_SO2=2*pi=6.283185307179585. At beta=45 deg E_O2=13*pi/8=5.1050880620834125. At beta=60 deg E_O2=3*pi/2+pi/18=4.8869219055841215. SO(3)/O(2) is RP2, with pi1(RP2)=Z2. These are geometry, not spin statistics or measured energy.
+
+## Finite-core and limiting discriminator
+For Euclidean tubular-volume weight J=1-kappa.y and a normal three-ball of radius A (A|kappa|<1), mu=-A^2*kappa/5, Sigma=A^2*I3/5-A^4*kappa*kappa^T/25, eigenvalue splitting Delta=A^4|kappa|^2/25. For nonzero curvature, covariance has an unoriented axis with O(2) stabilizer; at zero curvature, the full SO(3) stabilizer returns. Holding direction fixed as curvature tends to zero makes Delta vanish but a hard O(2) closure penalty can remain finite until exactly zero. This discontinuous hard-symmetry limit must not be mistaken for a physical energy law. A physically labeled centroid displacement can instead orient the axis; its readout must be specified.
+
+## Actual checks and gate
+Python 3, NumPy and SciPy were executed: 30 angle fixtures, 60 numerical minimizations over both O(2) components, 30 SO(3)-conjugation invariance checks, and curvature eigenvalue limits. Max independent angle discrepancy 1.4191833930254919e-08 rad; all assertions PASS. No parameters fitted. Code SHA256 b05229c5b9640c2a33ceeea790c4f23e905b848a9515258adabda7f4b36eede3. Physical time map, constitutive law and observable absent: CODATA N/A, not CODATA_COMPARED.
+
+## Reading and privacy
+Full BEDROCK.md retrieved blob aa5d236354258f4c4715f5cf77bff2c5db602cfd (548 lines, 82842 chars), ND-2026-10-18-02/03 and BR-007/008 inspected. STATE_OF_THE_THEORY.md retrieved blob b5958a1056c2541f00ab4f3477d8acc32426cfe9 (155 lines, 11012 chars). Actual Python secrets.randbelow(2) draw index 1 selected SAT archive music podcast Making AI Music Weird.srt, blob 26bd5b4ac6dbca0617c9a289c4741409de09c94e (3971 lines, 67884 chars); full retrieved, distributed passages inspected. Observation: interpretations of unusual musical constructions are not evidence of their generative mechanism. All four Mersearch request lanes occupied; no lane overwritten and no new Mersearch run claimed. Bounded primary-source fallback used. No private archival quotations, personal records, or protected signet published.
