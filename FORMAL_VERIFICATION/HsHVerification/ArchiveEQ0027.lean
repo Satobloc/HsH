@@ -31,7 +31,7 @@ theorem june_orientation_dimension :
     Dim.div (Dim.mul speedSquaredDim massDim) lengthDim = forceDim := by
   rfl
 
-def model (rho c ell m : ℝ) : ℝ := rho^2 * c^2 * ell / m
+noncomputable def model (rho c ell m : ℝ) : ℝ := rho^2 * c^2 * ell / m
 
 theorem model_positive {rho c ell m : ℝ}
     (hr : rho ≠ 0) (hc : c ≠ 0) (he : 0 < ell) (hm : 0 < m) :
