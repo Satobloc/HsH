@@ -36,8 +36,12 @@ theorem zero_projection (m c ell : ℝ) : model m c ell 0 = 0 := by simp [model]
 theorem fitted_mass_is_identity {target c ell b : ℝ}
     (hc : c ≠ 0) (he : ell ≠ 0) (hb : b ≠ 0) :
     model (target / (c * ell * b)) c ell b = target := by
-  field_simp [model, hc, he, hb]
-  <;> ring
+  have hceb : c * ell * b ≠ 0 := mul_ne_zero (mul_ne_zero hc he) hb
+  unfold model
+  calc
+    target / (c * ell * b) * c * ell * b =
+        target / (c * ell * b) * (c * ell * b) := by ring
+    _ = target := div_mul_cancel₀ target hceb
 
 -- Exact rational transcription of the printed anchors using B = 0.2387.
 -- The right side is the 2022 CODATA/SI decimal 1.054571817e-34 J s.
@@ -48,4 +52,3 @@ theorem printed_anchors_underpredict :
   norm_num [model]
 
 end HsHVerification.ArchiveEQ0026
-56b8ada4e9260d7e38cf9e759d6a192502fb02f9c71130cc68fd30df29817e8e  ArchiveEQ0026.lean
