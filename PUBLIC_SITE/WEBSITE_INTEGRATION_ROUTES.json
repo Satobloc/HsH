@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "intent": "Sites integration routing (not a claim that chatgpt.site is already updated)",
+  "published_repo": "Satobloc/HsH",
+  "content_policy": "Public-safe only; historical/source evidence stays labeled; no private HSH_RESOURCES links",
+  "routes": [
+    {
+      "id": "conversation-viewer",
+      "title": "Original Mercer Conversation Viewer",
+      "href": "https://satobloc.github.io/HsH/",
+      "source": "CONVERSATION_VIEWER/index.html",
+      "site_path": "/conversations/",
+      "rendering": "embed original GitHub Pages viewer intact, iframe if allowed; else open canonical link",
+      "status": "backend-committed; GitHub Pages deployment status must be checked separately"
+    },
+    {
+      "id": "mersearch-reader",
+      "title": "Mersearch Public Reader",
+      "href": "https://satobloc.github.io/HsH/mersearch/",
+      "source": "CONVERSATION_VIEWER/mersearch/index.html",
+      "site_path": "/research/search/",
+      "rendering": "embed or direct canonical link; label preview public-conversation candidate search, not protected full Mersearch engine",
+      "status": "backend-committed; GitHub Pages deployment status must be checked separately"
+    }
+  ],
+  "curation": {
+    "public_projection_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/PUBLIC_SITE/OWNER_CURATION_PUBLIC.json",
+    "schema_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/PUBLIC_SITE/OWNER_CURATION_PUBLIC_SCHEMA.json",
+    "owner_write_access": "not provided by static GitHub Pages; requires trusted authenticated Sites server and exact verified user-account identity",
+    "private_notes": "must remain in authenticated private server storage; never in public GitHub public projection",
+    "supported_display_fields": [
+      "display_visibility",
+      "status",
+      "priority",
+      "prominence",
+      "front_page_rotation",
+      "front_page_slot",
+      "section_display_order",
+      "related_ids",
+      "relationship_labels",
+      "public_comment",
+      "provenance_note"
+    ]
+  },
+  "protection": {
+    "private_reference_repo_publication": "forbidden by project source-exposure controls, regardless of repository API visibility",
+    "source_files": "never mutate or delete raw archival source as a side effect of display curation",
+    "archived_conversation_titles": "never rename",
+    "public_machine_files": "not generic reader documents"
+  }
+}
