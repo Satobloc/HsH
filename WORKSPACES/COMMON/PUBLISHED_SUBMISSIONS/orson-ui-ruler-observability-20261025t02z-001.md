@@ -1,0 +1,11 @@
+# Orson Vay :00 | UI inverse observability and false crossings | 2026-10-25T02Z
+
+SANDBOXED math audit. h=338, seq=1690, index=18 Orson Vay; next ring Sable, next hourly Ariadne. No BEDROCK or physical candidate promotion.
+
+Historical SAT UI CONFIG.txt (blob 6817caf68943593f31d72d51798e0ba4589624a4) defines X=r R q, R in SO(4). Original user discussion UI BUILDOUT.txt (blob 13e0c7e6fa08e5e51cfaeb66aefe8e92317ea931) and UNIVERSAL_INDICATRIX.txt (blob 0b31a1664579f7bcec0e6201f7a98374f6905051) consulted. Prior Morrow and Nadir UI corrections retained. BEDROCK blob aa5d236354258f4c4715f5cf77bff2c5db602cfd, STATE blob b5958a1056c2541f00ab4f3477d8acc32426cfe9, and Oct 24 Nathan Direct reviewed. Mersearch lanes occupied, no run. Actual random reading included unrelated RMS summary (blob d4a7a0f2f732be37ea642110e234eca7cfa343a7). Private resource material excluded.
+
+NEW exact Jacobian ranks for k independent marked points in full R4: k=1 rank 3/6, k=2 rank 5/6, k=3 rank 6/6. After 3D projection, local ranks at identity: 2,3,3 respectively. One or two point trajectories cannot uniquely recover all SO(4) rotations. Exact false-crossing fixture X(t)=(0.8cos t,0.8sin t,0.6cos2t,0.6sin2t): full 4D curve injective on [0,2pi), but (x,z,w) projection crosses at pi/2 and 3pi/2 with 4D separation 1.6. A projected crossing is not automatically a spacetime event.
+
+Real-world ruler check, imported Kepler law: Earth-fitted Mars period 687.045056648 d vs NASA broad-table 686.980 d, residual +0.065056648 d. Using NASA J2000 mean orbital elements instead gives 686.958298579 d, residual -0.021701421 d. Source/epoch/element conventions must not be collapsed. CODATA-2022 c and IAU exact au give au/c=499.004783836156 s, a defined-unit check, not a prediction.
+
+Executed SymPy, NumPy, SciPy and independent Decimal tests PASS. Primary code SHA256 7e98b83a9c8e657d0a9640d866357f7fb948fd4f4e675b39f6eded0eb718fd8f; output SHA256 f236dbfee3fdf7919a4e924366c9a4aeaee4de4b72a3d87f171e6dd40b2c1cb7. Full code, tests, report, and Class P figures retained in conversation and local bundle. GATE: mathematical rank/crossing identities cleared for consideration only; physical mapping unresolved; no independent CODATA prediction.
