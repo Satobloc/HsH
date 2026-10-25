@@ -13,9 +13,11 @@
   const list = document.getElementById("conversationList");
   const showDevelopment = document.getElementById("showDevelopment");
   const showLive = document.getElementById("showLive");
+  const scope = document.getElementById("catalogSearchScope");
+  const status = document.getElementById("catalogSearchStatus");
   if (!filter || !list) return;
 
-  filter.placeholder = "Search titles, dates, or message bodies…";
+  filter.placeholder = "Search all conversation messages…";
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
@@ -111,14 +113,14 @@
     list.querySelectorAll("[data-body-search-added='true']").forEach(node => node.remove());
   }
 
-  function appendBodyResults(conversations, query) {
+  function appendBodyResults(conversations, query, total) {
     removeBodyResults();
-    if (!conversations.length || filter.value.trim() !== query) return;
+    if (filter.value.trim() !== query) return;
 
     const label = document.createElement("div");
     label.dataset.bodySearchAdded = "true";
     label.className = "body-search-divider";
-    label.textContent = `Message-body matches · ${conversations.length}`;
+    label.textContent = `Message-body matches · ${total} conversation(s)`;
     list.appendChild(label);
 
     for (const c of conversations) {
@@ -143,19 +145,34 @@
   async function runBodySearch() {
     const serial = ++searchSerial;
     const query = filter.value.trim();
+    const mode = scope?.value || "messages";
     removeBodyResults();
-    if (!query || !normalizeTokens(query).length) return;
-
+    if (!query) {
+      if (status) status.textContent = "Search inside the entire indexed public conversation corpus.";
+      return;
+    }
+    if (mode === "titles" || mode === "dates") {
+      if (status) status.textContent = `${list.querySelectorAll(".conversation-card:not([data-body-search-added])").length} matching ${mode} result(s)`;
+      return;
+    }
+    if (!normalizeTokens(query).length) {
+      if (status) status.textContent = "Enter at least one word (2+ characters) to search conversation contents.";
+      return;
+    }
+    if (status) status.textContent = "Searching every indexed public conversation…";
     try {
       const [ids, catalog] = await Promise.all([bodyMatches(query), getCatalog()]);
       if (serial !== searchSerial || filter.value.trim() !== query) return;
       const existing = alreadyRenderedIds();
       const wanted = new Set(ids);
-      const matches = catalog
-        .filter(c => wanted.has(c.id) && !existing.has(c.id) && allowedByCorpus(c) && visibleByAnnotation(c))
+      const allMatches = catalog
+        .filter(c => wanted.has(c.id) && allowedByCorpus(c) && visibleByAnnotation(c))
         .sort((a, b) => String(b.start_local || "").localeCompare(String(a.start_local || "")) || String(a.title || "").localeCompare(String(b.title || "")));
-      appendBodyResults(matches, query);
+      const freshMatches = allMatches.filter(c => !existing.has(c.id));
+      appendBodyResults(freshMatches, query, allMatches.length);
+      if (status) status.textContent = `${allMatches.length} conversations contain all query words. Tokens may occur in different messages; select a conversation to inspect exact hits.`;
     } catch (error) {
+      if (status) status.textContent = "Full-text index unavailable. The source archive remains accessible; try again.";
       console.warn("Conversation body search unavailable:", error);
     }
   }
@@ -170,4 +187,9 @@
   filter.addEventListener("input", schedule);
   showDevelopment?.addEventListener("change", schedule);
   showLive?.addEventListener("change", schedule);
+  scope?.addEventListener("change", () => {
+    const mode = scope.value;
+    filter.placeholder = mode === "titles" ? "Search conversation titles…" : mode === "dates" ? "Search dates…" : "Search all conversation messages…";
+    schedule();
+  });
 })();
