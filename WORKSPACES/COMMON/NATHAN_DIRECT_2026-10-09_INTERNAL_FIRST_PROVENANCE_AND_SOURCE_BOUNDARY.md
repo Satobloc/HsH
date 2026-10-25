@@ -1,5 +1,7 @@
 # Nathan Direct | October 9, 2026 | SAT/H(s)H internal-first construction and revised prior-art access
 
+> **SUPERSEDED IN PART BY NATHAN DIRECT 2026-10-24:** The remaining hard access quarantine described below is no longer active. Hypothesis H proper and directly Schreiber-authored material may now be read for research/comparison. The **internal-first provenance sequence remains active**: recover and cite SAT/H(s)H precedent first, then compare external literature, preserving independent-development history and not silently importing assumptions. Public/private exposure controls remain separate. Current directive: `WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-24_PRIOR_ART_UI_ARCHIVE_READING_ANNOUNCEMENT.md`.
+
 **Status:** controlling **Nathan Direct** research/ingestion directive. This is an assistant-authored transcription/interpretive operating digest of Nathan's cross-posted message, **not** a substitute for the actual authored turn. **Source:** Nathan's 2026-10-09 cross-post from Morrow/Kestrel in the current research discussion; exact original message ID/export not yet recovered. **Authorship evidence:** the source turn carries Nathan's signet; normalize its reference exclusively as `[OWL]`, for that source turn alone. Do not reproduce or use the signet as a worker mark. A cross-post may contain cited/quoted material; the direct instructions and attribution are scoped to Nathan's accompanying text.
 
 ## 1. Controlling sequence: INSIDE first
