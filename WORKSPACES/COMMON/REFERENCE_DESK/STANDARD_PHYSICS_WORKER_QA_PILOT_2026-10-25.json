@@ -1,0 +1,678 @@
+{
+  "schema_version": "pilot-v0.2",
+  "date": "2026-10-25",
+  "status": "DRAFT_REFERENCE_DESK_EXTENSION_NOT_CANONICAL",
+  "canonical_charter": "WORKSPACES/COMMON/REFERENCE_DESK/STANDARD_PHYSICS_MASTER_MAP_CHARTER_2026-10-24.md",
+  "canonical_namespace_schema": "WORKSPACES/COMMON/REFERENCE_DESK/PHYSICS_MASTER_NAMESPACE_LEDGER_SCHEMA_2026-10-24.md",
+  "source_inventory": [
+    "user-upload PHYSICS_ICEBERG.txt",
+    "user-upload 2026-10-24_SPI_pdf_0003.pdf pages 1-5",
+    "user-upload physmap.png",
+    "user-upload issues.txt snapshot",
+    "current GitHub issue records listed below"
+  ],
+  "sources": [
+    {
+      "id": "SRC-CHARTER",
+      "path": "WORKSPACES/COMMON/REFERENCE_DESK/STANDARD_PHYSICS_MASTER_MAP_CHARTER_2026-10-24.md",
+      "role": "internal proposed floor plan"
+    },
+    {
+      "id": "SRC-ICEBERG",
+      "path": "user-upload:PHYSICS_ICEBERG.txt",
+      "role": "introductory inventory, not independently authoritative"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "STD-NEWTON",
+      "name": "Newtonian mechanics",
+      "type": "THEORY",
+      "scope": "classical low-speed massive bodies",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-LAGRANGE",
+      "name": "Lagrangian mechanics",
+      "type": "FORMALISM",
+      "scope": "Euler–Lagrange equations",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-HAMILTON",
+      "name": "Hamiltonian mechanics",
+      "type": "FORMALISM",
+      "scope": "phase-space evolution",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-CONTINUUM",
+      "name": "Continuum mechanics",
+      "type": "FORMALISM",
+      "scope": "stress, strain and conserved fluxes",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-EULER-FLUID",
+      "name": "Ideal-fluid Euler equations",
+      "type": "EQUATION",
+      "scope": "inviscid continuum dynamics",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-NAVIER-STOKES",
+      "name": "Navier–Stokes equations",
+      "type": "EQUATION",
+      "scope": "viscous continuum dynamics",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-THERMO",
+      "name": "Thermodynamics",
+      "type": "THEORY",
+      "scope": "equilibrium and non-equilibrium energy constraints",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-STATMECH",
+      "name": "Statistical mechanics",
+      "type": "THEORY",
+      "scope": "ensemble description of many-body systems",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-MAXWELL",
+      "name": "Maxwell electrodynamics",
+      "type": "THEORY",
+      "scope": "classical electric and magnetic fields",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-OPTICS",
+      "name": "Optics",
+      "type": "THEORY",
+      "scope": "rays and electromagnetic waves; medium-specific limitations",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-SR",
+      "name": "Special relativity",
+      "type": "THEORY",
+      "scope": "Lorentz-covariant kinematics in flat spacetime",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-MINKOWSKI",
+      "name": "Minkowski spacetime",
+      "type": "OBJECT",
+      "scope": "flat Lorentzian geometry, signature convention required",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-GR",
+      "name": "General relativity",
+      "type": "THEORY",
+      "scope": "dynamical Lorentzian metric and matter coupling",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-EH",
+      "name": "Einstein–Hilbert action",
+      "type": "ACTION",
+      "scope": "metric gravitational action with boundary conditions",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-QM",
+      "name": "Quantum mechanics",
+      "type": "THEORY",
+      "scope": "Hilbert-space state evolution",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-DIRAC",
+      "name": "Dirac equation",
+      "type": "EQUATION",
+      "scope": "relativistic spin-1/2 quantum field equation",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-QFT",
+      "name": "Quantum field theory",
+      "type": "FORMALISM",
+      "scope": "quantum fields and operator/path-integral methods",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-QED",
+      "name": "Quantum electrodynamics",
+      "type": "THEORY",
+      "scope": "renormalized electromagnetic quantum field theory",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-YM",
+      "name": "Yang–Mills gauge theory",
+      "type": "FORMALISM",
+      "scope": "non-Abelian gauge fields",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-QCD",
+      "name": "Quantum chromodynamics",
+      "type": "THEORY",
+      "scope": "SU(3) strong gauge interactions",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-EW",
+      "name": "Electroweak theory",
+      "type": "THEORY",
+      "scope": "SU(2)L×U(1)Y sector with spontaneous symmetry breaking",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-SM",
+      "name": "Standard Model",
+      "type": "THEORY",
+      "scope": "electroweak and strong sectors with matter fields",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-FLRW",
+      "name": "FLRW cosmological spacetime",
+      "type": "OBJECT",
+      "scope": "homogeneous isotropic GR metric ansatz",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "STD-LCDM",
+      "name": "ΛCDM cosmology",
+      "type": "MODEL",
+      "scope": "GR+matter+radiation+Λ cosmological inference model",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HIST-KELVIN",
+      "name": "Kelvin vortex-atom programme",
+      "type": "HISTORICAL_BRANCH",
+      "scope": "historical vortex-model research",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HIST-HINTON",
+      "name": "Hinton four-dimensional geometrical visualization",
+      "type": "HISTORICAL_BRANCH",
+      "scope": "historical 4D conceptual methods",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HIST-EC",
+      "name": "Einstein–Cartan theory",
+      "type": "HISTORICAL_BRANCH",
+      "scope": "gravity with torsion/spin coupling",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HIST-TP",
+      "name": "Teleparallel equivalent of GR",
+      "type": "FORMALISM",
+      "scope": "specific torsion-based GR reformulation",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HIST-KK",
+      "name": "Kaluza–Klein theory",
+      "type": "HISTORICAL_BRANCH",
+      "scope": "higher-dimensional geometrical unification",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    },
+    {
+      "id": "HSH-WORLDTUBE",
+      "name": "Finite-core H(s)H worldtube",
+      "type": "OBJECT",
+      "scope": "SAT/H(s)H physical construction, independent namespace",
+      "source_ids": [
+        "SRC-CHARTER"
+      ],
+      "verification": "inventory_only"
+    }
+  ],
+  "edges": [
+    {
+      "id": "EDGE-001",
+      "from": "STD-NEWTON",
+      "to": "STD-LAGRANGE",
+      "relation": "REFORMULATION_OF",
+      "grade": "K",
+      "conditions": "conservative holonomic systems with standard variational conditions",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-002",
+      "from": "STD-LAGRANGE",
+      "to": "STD-HAMILTON",
+      "relation": "TRANSFORMABLE_TO",
+      "grade": "K",
+      "conditions": "regular Legendre transform, nondegenerate velocity Hessian",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-003",
+      "from": "STD-CONTINUUM",
+      "to": "STD-EULER-FLUID",
+      "relation": "GENERALIZES",
+      "grade": "K",
+      "conditions": "inviscid continuum fluid limit; semantic edge oriented continuum→Euler",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-004",
+      "from": "STD-EULER-FLUID",
+      "to": "STD-NAVIER-STOKES",
+      "relation": "LIMIT_OF",
+      "grade": "K",
+      "conditions": "Euler arises when viscosity tends to zero under suitable smoothness; singular limits possible",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-005",
+      "from": "STD-THERMO",
+      "to": "STD-STATMECH",
+      "relation": "SHARES_MATHEMATICAL_STRUCTURE",
+      "grade": "R",
+      "conditions": "statistical foundations for thermodynamics; ensemble and limit dependence",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-006",
+      "from": "STD-MAXWELL",
+      "to": "STD-OPTICS",
+      "relation": "SUPPORTS_LIMIT",
+      "grade": "K",
+      "conditions": "geometric optics eikonal/short-wavelength regime",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-007",
+      "from": "STD-MINKOWSKI",
+      "to": "STD-SR",
+      "relation": "GEOMETRY_OF",
+      "grade": "K",
+      "conditions": "flat Lorentzian spacetime",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-008",
+      "from": "STD-SR",
+      "to": "STD-GR",
+      "relation": "LOCAL_LIMIT_OF",
+      "grade": "K",
+      "conditions": "local inertial-frame reduction; general global limit needs assumptions",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-009",
+      "from": "STD-EH",
+      "to": "STD-GR",
+      "relation": "ACTION_FOR",
+      "grade": "K",
+      "conditions": "metric variation with boundary terms and matter action",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-010",
+      "from": "STD-GR",
+      "to": "STD-FLRW",
+      "relation": "ADMITS_ANSATZ",
+      "grade": "K",
+      "conditions": "spatial homogeneity/isotropy",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-011",
+      "from": "STD-FLRW",
+      "to": "STD-LCDM",
+      "relation": "GEOMETRIC_COMPONENT_OF",
+      "grade": "K",
+      "conditions": "FLRW geometry plus specified source inventory/parameters",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-012",
+      "from": "STD-QM",
+      "to": "STD-QFT",
+      "relation": "RELATED_FORMALISM",
+      "grade": "R",
+      "conditions": "QFT encompasses relativistic quantum fields; not a global equivalence to nonrelativistic QM",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-013",
+      "from": "STD-DIRAC",
+      "to": "STD-QFT",
+      "relation": "FIELD_EQUATION_IN",
+      "grade": "K",
+      "conditions": "free relativistic Dirac field",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-014",
+      "from": "STD-MAXWELL",
+      "to": "STD-QED",
+      "relation": "CLASSICAL_LIMIT_OF",
+      "grade": "K",
+      "conditions": "semiclassical/classical Maxwell behavior in applicable regimes; loops/quantum corrections",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-015",
+      "from": "STD-YM",
+      "to": "STD-QCD",
+      "relation": "FORMALISM_OF",
+      "grade": "K",
+      "conditions": "SU(3) gauge Yang–Mills sector plus quarks",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-016",
+      "from": "STD-YM",
+      "to": "STD-EW",
+      "relation": "FORMALISM_OF",
+      "grade": "K",
+      "conditions": "electroweak gauge structure with Higgs and fermion matter",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-017",
+      "from": "STD-QCD",
+      "to": "STD-SM",
+      "relation": "SECTOR_OF",
+      "grade": "K",
+      "conditions": "strong-interaction sector",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-018",
+      "from": "STD-EW",
+      "to": "STD-SM",
+      "relation": "SECTOR_OF",
+      "grade": "K",
+      "conditions": "electroweak sector",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-019",
+      "from": "HIST-KELVIN",
+      "to": "STD-EULER-FLUID",
+      "relation": "HISTORICALLY_USES",
+      "grade": "R",
+      "conditions": "historical ideal-fluid vortex modelling; requires primary citation audit",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-020",
+      "from": "HIST-HINTON",
+      "to": "STD-MINKOWSKI",
+      "relation": "HISTORICAL_RESEMBLANCE",
+      "grade": "S",
+      "conditions": "do not assume direct lineage or physical equivalence",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-021",
+      "from": "HIST-EC",
+      "to": "STD-GR",
+      "relation": "EXTENDS",
+      "grade": "K",
+      "conditions": "torsion/spin extension; not equivalent in matter with spin",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-022",
+      "from": "HIST-TP",
+      "to": "STD-GR",
+      "relation": "EQUIVALENT_UNDER",
+      "grade": "K",
+      "conditions": "TEGR action/field equations under stated boundary and coupling conventions",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-023",
+      "from": "HIST-KK",
+      "to": "STD-MAXWELL",
+      "relation": "GEOMETRIZES_UNDER",
+      "grade": "R",
+      "conditions": "specific dimensional reduction ansatz, NOT native 4D equivalence",
+      "status": "seed_requires_primary_source"
+    },
+    {
+      "id": "EDGE-024",
+      "from": "HSH-WORLDTUBE",
+      "to": "STD-MINKOWSKI",
+      "relation": "USES_AS_BASELINE",
+      "grade": "A",
+      "conditions": "SAT/H(s)H construction claim, not equation identity",
+      "status": "seed_requires_primary_source"
+    }
+  ],
+  "worker_issue_routes": [
+    {
+      "ref": "Satobloc/HsH#388",
+      "url": "https://github.com/Satobloc/HsH/pull/388",
+      "title": "Formal verification: archive audits EQ-0011–EQ-0016",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": true
+    },
+    {
+      "ref": "Satobloc/HsH#262",
+      "url": "https://github.com/Satobloc/HsH/pull/262",
+      "title": "Add isolated Lean 4 + Mathlib verification CI",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": true
+    },
+    {
+      "ref": "Satobloc/HsH#426",
+      "url": "https://github.com/Satobloc/HsH/issues/426",
+      "title": "Meridian UI address audit",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    },
+    {
+      "ref": "Satobloc/HsH#427",
+      "url": "https://github.com/Satobloc/HsH/issues/427",
+      "title": "Ravel UI address audit",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    },
+    {
+      "ref": "Satobloc/HsH#428",
+      "url": "https://github.com/Satobloc/HsH/issues/428",
+      "title": "Orson UI inverse observability",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    },
+    {
+      "ref": "Satobloc/HsH#430",
+      "url": "https://github.com/Satobloc/HsH/issues/430",
+      "title": "Loom UI horizontal lift holonomy",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    },
+    {
+      "ref": "Satobloc/HsH#410",
+      "url": "https://github.com/Satobloc/HsH/issues/410",
+      "title": "Meridian EQ-0018 reduced Planck",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    },
+    {
+      "ref": "Satobloc/HsH#433",
+      "url": "https://github.com/Satobloc/HsH/issues/433",
+      "title": "Orson native helix slice",
+      "qa_status": "discovered_not_audited",
+      "requires": [
+        "independent source verification",
+        "symbol/dimension/regime check",
+        "dependency edges",
+        "formal status separate from physical status"
+      ],
+      "is_pull_request": false
+    }
+  ],
+  "status_axes": {
+    "mathematical": [
+      "unreviewed",
+      "failed",
+      "internally_checked",
+      "factory_floor_cleared"
+    ],
+    "construction": [
+      "not_considered",
+      "eligible_for_consideration",
+      "tentative_candidate_after_cross_sector_review"
+    ],
+    "physical": [
+      "unverified",
+      "under_independent_comparison",
+      "validated_with_scope"
+    ]
+  },
+  "prohibitions": [
+    "Never infer equality from symbol",
+    "Do not flatten SAT/H(s)H into standard-physics map",
+    "Do not promote an issue's internal check to Factory Floor",
+    "Do not infer correctness from PR title or open status",
+    "Do not identify finite-core worldtube with medium vortex",
+    "Do not convert sector taxonomy into physical ontology"
+  ]
+}
