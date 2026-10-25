@@ -364,6 +364,27 @@ These are supporting files, **not** necessarily independent verified pulls.
 - [WORKSPACES/COMMON/scripts/package_nathan_direct.py](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/scripts/package_nathan_direct.py) — filename tags: UNKNOWN
 - [WORKSPACES/COMMON/TERN_NATHAN_DIRECT_GITHUB_ACCESS_NOTE_2026-09-25.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/TERN_NATHAN_DIRECT_GITHUB_ACCESS_NOTE_2026-09-25.md) — filename tags: INFRASTRUCTURE
 
+## File-level authorship triage (all three GitHub trees, post-index snapshot)
+
+**Do not confuse a file's location with its author.** These are mutually exclusive, automatically assigned *provenance/format leads* on 17,417 current Git blobs, not proof of who wrote the file. Source content must be inspected to promote an item from `CANDIDATE` to `VERIFIED`.
+
+| Provenance bin / operational interpretation | Original SAT | HsH | Private resources | Total | Percent of all files |
+|---|---:|---:|---:|---:|---:|
+| VERIFIED Nathan **user-only message shards** (4 JSONL shards; text originated in user-role messages) | 0 | 4 | 0 | 4 | 0.02% |
+| Assistant/worker *location* (WORKSPACES and original archive's AI-machine folder; **NOT verified assistant authorship**) | 580 | 2,554 | 29 | 3,163 | 18.16% |
+| Conversation / early-source locations (**MIXED**, often both user and assistant) | 327 | 3,502 | 0 | 3,829 | 21.98% |
+| External/derived or prior-art locations (**THIRD-PARTY OR PROCESSING**, not attributable to either chat speaker) | 0 | 0 | 1,798 | 1,798 | 10.32% |
+| Other / not safely classified from path | 4,005 | 1,558 | 3,060 | 8,623 | 49.51% |
+| **Total** | **4,912** | **7,618** | **4,887** | **17,417** | **100%** |
+
+**Three-bin caution:** If forced to sort *file locations* into (A) verified Nathan-message-only, (B) assistant-associated *candidate*, and (C) unresolved/mixed/third-party: **4 (0.02%) / 3,163 (18.16%) / 14,250 (81.82%)**. This is not a defensible estimate of actual human-versus-assistant authorship. The original request for true authorship percentages requires parsing and classifying the contents of each file, including mixed conversation speaker turns and external writing. That work remains incomplete.
+
+**Message-level measure, different denominator:** the HsH autotagger processed 150,297 raw message occurrences; 41,420 had `role=user` (27.56% of occurrences), including archive duplicates. The remaining 108,877 are **not all assistant**; they include tools and other roles. Unique user messages in the packaged corpus number 20,575. Neither message ratio describes the authorship of 17,417 files.
+
+**Tree SHAs:** original SAT `8d49183464ad8fb2411d5b8e13c6408eecd39e18`; HsH `b5e2c76f61e14d031d9f82350d61ac6270ff67f5` at this post-index snapshot; private resources `33f4234a25e9e6bf799e0cfdac9c9e2ce90fa204`. Subsequent metadata-only changes to this audit file update HsH tree SHA, not the counts unless files are added/deleted.
+
+---
+
 ## E. QA and remaining coverage gaps
 
 1. **All-three-repository coverage is not demonstrated.** Autotagger scope in its manifest is `["."]` on HsH. Original SAT-era TXT and other file types are outside its conversation-JSON scan.
