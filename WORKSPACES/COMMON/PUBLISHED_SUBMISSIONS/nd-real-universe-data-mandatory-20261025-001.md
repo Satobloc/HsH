@@ -1,0 +1,12 @@
+# ND-2026-10-25 | MANDATORY REAL-UNIVERSE DATA GATE
+
+Nathan Direct. HIGH PRIORITY BEDROCK rule for ALL SAT/H(s)H workers, Calculation Relay, geometry, simulation and numerical research.
+
+1. EVERY research calculation MUST begin with a named real physical system and genuine measured/observed data. Record primary source, event/experiment ID, numerical inputs, units, uncertainties, conditions and provenance. Map and calculate that real system with established physics and SAT/H(s)H tools. Distinguish observation, inference, independent prediction, calibration/fit and speculation; report numerical residuals and uncertainties where applicable. Never invent systems, measurements, scales or constants to make a calculation work.
+2. If a worker believes a calculation for which NO real-world data are available is necessary, STOP and request Nathan's EXPLICIT PRIOR PERMISSION. Do NOT execute the data-free calculation before receiving permission. Prior assistant practice, mathematical elegance, a toy geometry, a schedule or a convenient example is NOT permission. Status: BLOCKED_PENDING_NATHAN_PERMISSION.
+3. Search for real measurements before declaring data unavailable. If suitable data cannot be obtained, report BLOCKED_DATA_UNAVAILABLE rather than replacing reality with arbitrary fixtures. Data-free mathematical checks that constitute separate research calculations also require prior permission; internal algebra checks on an actual data-anchored calculation remain allowed.
+4. Mandatory report: physical system and data citation; measurement units/uncertainties; exact recovered source equations and corrections; executed reproducible code and numerical output; input/prediction/fit ledger; measured comparison; unresolved assumptions and status.
+5. This rule supersedes earlier stand-alone abstract axis, helix, sphere, frame-holonomy and other unanchored relay calculations. An axis plus rotation about it carries chirality; do not debate arrows in place of analyzing actual systems.
+6. Apply across all workers and handoffs. Do not imply mathematical correctness equals physical validation or BEDROCK theory promotion. Preserve existing read-only, privacy and publication controls.
+
+PUBLIC-SAFE STAGING NOTE: This is Nathan's directive to be incorporated in live HsH/BEDROCK.md and worker onboarding by an authorized integrator. A published staging note alone is NOT a verified BEDROCK edit.
