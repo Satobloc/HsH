@@ -786,3 +786,20 @@ Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub link
 - `PUBLIC_SITE/PAPERS_FEED.json` gained `cruller-rubin-visibility-r0` (commit `f378245`), with `site_display=sandbox_manuscript`, `review_pending`, `posted_date=null` and `website_url=null`.
 - **No direct website publishing action was available in this pass.** Editing repo source/feed is NOT proof the external chatgpt.site page changed. Site builder or publishing integration must ingest the new manuscript, render equations/figures, and confirm live URL by readback. Do not claim published until confirmed.
 - Content emphasis: exact off-axis toroidal ring projection; standard gravitational-shear lens 2↔4 image counterexample; survey footprint-controlled angular clustering test; no derived metric, rate, detected stellar events or peer review.
+
+---
+
+## 2026-10-25 — Original Mercer Viewer, public Mersearch reader, owner-curation routing
+
+**Source of record:** GitHub-backed changes, not a claim that the independent ChatGPT Sites publisher has been updated.
+
+- Original `CONVERSATION_VIEWER/index.html`, `viewer.js` and `catalog_body_search.js` now default to cross-conversation message-body search with optional titles/dates modes. Typealong assistant speed no longer multiplies x10 and has a separate speed selector defaulting to 0.5x. Query links preserve `q` when opening a selected conversation. GitHub readback and static JavaScript parsing verified.
+- `CONVERSATION_VIEWER/mersearch/index.html` and `reader.js` implement a public **candidate search** (Boolean, word, approximate math symbol) over the existing curation-approved conversation-body index. Explicitly not the pinned 3-repository Mersearch/NEAR/math normalization server. Viewer GitHub Pages deployment workflow includes nested Mersearch route; run `40161594814` reported success. Live browser appearance was not independently verified.
+- `PUBLIC_SITE/WEBSITE_INTEGRATION_ROUTES.json` provides public URL/route manifest for the independent Sites editor.
+- `PUBLIC_SITE/OWNER_CURATION_PUBLIC_SCHEMA.json` and empty `OWNER_CURATION_PUBLIC.json` establish a public-safe presentation projection schema only. No public write endpoint, authentication, or owner-editing service exists yet. A trusted Sites backend must verify the actual account identity server-side before implementing hide/promote/comment/priority/section ordering.
+- Full Sites handoff and acceptance tests: `PUBLIC_SITE/build_suggestions/2026-10-25__SITES_EDITOR__MERCER_VIEWER_MERSEARCH_OWNER_CURATION.md`.
+- Operational/clone/branch/issue forensic report: `WORKSPACES/COMMON/REPO_OPERATIONS_CLONE_AND_WEBSITE_AUDIT_2026-10-25.md`.
+
+**Open issues:** (1) Separate `chatgpt.site` site cannot be published from this GitHub connector session; the Sites editor must restore/embed the *original* viewer rather than rewriting it. (2) Full research Mersearch requires a constrained server execution endpoint; public preview cannot access protected/private data. (3) Owner curation requires authenticated backend writes/receipts and private notes storage. (4) HSH_RESOURCES repository visibility metadata reports `public` despite its reference-private documentation; escalate to Nathan's GitHub settings review, do not syndicate that corpus. (5) Latest Javascript was syntax-checked but not interactive browser tested.
+
+**Site acceptance:** publish and verify `/conversations/`, `/research/search/`, default whole-archive message-body query, slower Typealong assistant, owner-only inline menu and exact frontpage slots; no changes to historical source files. Preserve the project visual system and navigation.
