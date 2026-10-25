@@ -232,10 +232,12 @@
   function catalogMatch(c, query) {
     const q = String(query || "").trim().toLocaleLowerCase();
     if (!q) return { matched: true, score: 0 };
-    const ordinary = `${c.title || ""} ${c.path || ""}`.toLocaleLowerCase();
+    const scope = document.getElementById("catalogSearchScope")?.value || "messages";
+    if (scope === "messages") return { matched: false, score: -1 }; // body-search module supplies results
+    const ordinary = scope === "all" ? `${c.title || ""} ${c.path || ""}` : String(c.title || "");
     const dates = dateSearchText(c);
-    const ordinaryHit = ordinary.includes(q);
-    const dateHit = dates.includes(q);
+    const ordinaryHit = scope !== "dates" && ordinary.toLocaleLowerCase().includes(q);
+    const dateHit = scope !== "titles" && dates.includes(q);
     if (!ordinaryHit && !dateHit) return { matched: false, score: -1 };
     const dateLike = looksDateLike(q);
     let score = 0;
@@ -358,10 +360,13 @@
       state.activeIndex = Math.max(0, Math.min(requested, messages.length - 1));
       state.searchQuery = ""; state.searchHits = []; state.searchCursor = -1; state.speakerEnabled.clear();
       for (const msg of messages) state.speakerEnabled.set(msg.speaker, true);
-      el.threadSearch.value = ""; el.viewerNotice.hidden = true; el.timeline.max = String(messages.length - 1); el.timeline.value = String(state.activeIndex);
+      const crossConversationQuery = parseParams().get("q") || "";
+      el.threadSearch.value = crossConversationQuery; el.viewerNotice.hidden = true; el.timeline.max = String(messages.length - 1); el.timeline.value = String(state.activeIndex);
       document.dispatchEvent(new CustomEvent("viewer:conversation-loaded", { detail: { conversation: convo, messageCount: messages.length } }));
       buildSpeakerFilters(); renderNext(Math.max(INITIAL_RENDER, state.activeIndex + 20)); applySpeakerFilters(); jumpToMessage(state.activeIndex, false);
-      updateConversationButtons(); updateUrl(state.activeIndex, !push);
+      updateConversationButtons();
+      if (crossConversationQuery) searchThread();
+      updateUrl(state.activeIndex, !push);
     } catch (error) {
       el.viewerNotice.hidden = false;
       el.viewerNotice.innerHTML = `<h3>Could not load conversation</h3><p>${esc(error.message || error)}</p><p><a class="button-link" target="_blank" rel="noopener" href="${esc(convo.github_url)}">Open source on GitHub</a></p>`;
@@ -535,7 +540,9 @@
   function replaySpeed(index = null) {
     const base = Number(el.replaySpeed.value) || 1;
     if (index == null) return base;
-    return ["assistant", "companion"].includes(state.messages[index]?.role) ? base * 10 : base;
+    // User-requested: do not fast-forward assistant Typealong at 10x.
+    const assistantFactor = Number(document.getElementById("assistantReplaySpeed")?.value || 0.5);
+    return ["assistant", "companion"].includes(state.messages[index]?.role) ? base * assistantFactor : base;
   }
 
   function stopReplay() {
@@ -625,6 +632,7 @@
 
   function bindEvents() {
     el.conversationFilter.addEventListener("input", renderCatalog); el.showDevelopment.addEventListener("change", renderCatalog); el.showLive.addEventListener("change", renderCatalog);
+    document.getElementById("catalogSearchScope")?.addEventListener("change", renderCatalog);
     el.threadSearch.addEventListener("input", searchThread); el.searchPrev.addEventListener("click", () => cycleSearch(-1)); el.searchNext.addEventListener("click", () => cycleSearch(1));
     el.displayDensity?.addEventListener("change", () => document.dispatchEvent(new CustomEvent("viewer:viewmode", { detail: { density: el.displayDensity.value, showInternals: Boolean(el.showInternals?.checked) } })));
     el.showInternals?.addEventListener("change", () => document.dispatchEvent(new CustomEvent("viewer:viewmode", { detail: { density: el.displayDensity?.value || "compact", showInternals: Boolean(el.showInternals.checked) } })));
