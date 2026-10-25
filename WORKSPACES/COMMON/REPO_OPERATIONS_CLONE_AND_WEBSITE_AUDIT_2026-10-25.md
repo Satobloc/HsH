@@ -148,3 +148,20 @@ The ledger contains **9 reconstructed self-mechanism events: 8 CONFIRMED NOT A F
 5. Preserve per-run clone provenance and actual checkout mechanism. Do not treat named AI workers or recurring sessions as network cloners.
 
 **Method:** GitHub REST tree/branch compare/issues API and 57 current workflow source inspections, actions latest run API, existing clone ledger and controls. Inventory includes current files and named historical mechanisms but does not claim to encompass deleted, inaccessible or external service histories.
+
+
+## 2026-10-25 addendum: independently reported experiments on CI-generated clones
+
+**Important refinement to the "UNKNOWN whether counted" entries above.** A public experimental report by GitHub Traffic Tracker, [How GitHub Counts CI Clones](https://github.com/djdarcy/github-traffic-tracker/blob/main/docs/ci-clone-research.md), describes **14 controlled tests over 22 days during February–March 2026** using a private test repository. Its reported observations:
+
+- One `actions/checkout` yielded one clone in GitHub's traffic API; two checkouts in a job yielded two; nine matrix-job checkouts yielded nine.
+- Multiple checkout actions using the default `GITHUB_TOKEN` were one *unique cloner* per UTC day in those tests, notwithstanding the higher clone-event count. Personal-access-token authentication could generate a distinct unique-cloner attribution.
+- A workflow **without** a checkout generated zero clone events in their baseline control.
+- GitHub Pages conventional build/deployment produced additional hidden clone activity in the test configuration.
+
+This strongly supports **GitHub Actions checkouts and Pages builds as real self-generated-clone mechanisms**, not merely abstract possibilities. The behavior is externally reported and experimentally controlled, **not yet reproduced in these specific SAT/HsH repositories**. A unique-cloner value cannot simply be deduced by subtracting 1 from every clone action; identity attribution depends on authentication and sampling.
+
+GitHub's own documentation says Traffic includes full clones, not ordinary fetches, and offers daily/weekly aggregation for the last 14 days: [GitHub Traffic overview](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository) and [Traffic API](https://docs.github.com/en/rest/metrics/traffic). The previous nine-event project ledger does not disprove the existence of self-clones through Actions. It simply did not identify confirmed successful Git clone mechanisms on the historical dates it reconstructed.
+
+**Audit adjustment:** For a given day, the highest-priority quantitative reconciliation is now: (1) enumerate actually executed jobs and each checkout step by *repository*, (2) identify additional Pages build runs, (3) compare the daily result with observed traffic clone counts, and (4) separately test the claimed *unique cloner* tally against auth provenance and user-independent activity. Do **not** treat workflow YAML definitions alone as executed events; nor attribute all clone residual to outsiders. The GitHub Pages checkout/deployment mechanism is a candidate only when Pages was actually operating for that repository on that date.
+
