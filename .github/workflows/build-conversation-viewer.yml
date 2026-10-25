@@ -63,6 +63,7 @@ jobs:
       - name: Validate viewer JavaScript
         run: |
           node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/mersearch/reader.js
           node --check CONVERSATION_VIEWER/catalog_body_search.js
           node --check CONVERSATION_VIEWER/landmarks.js
           node --check CONVERSATION_VIEWER/presentation.js
