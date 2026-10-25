@@ -6,6 +6,7 @@
 
 - [Nathan Direct manifest](https://github.com/Satobloc/HsH/blob/main/indexes/nathan-direct/MANIFEST.json): 20,575 unique raw `user` messages, across year shards 2023 (305), 2024 (497), 2025 (7,599), 2026 (12,174).
 - [20,575-row message locator](https://github.com/Satobloc/HsH/blob/main/indexes/nathan-direct/nathan-direct-lookup.jsonl): key `(conversation_id, message_id)` -> year shard / ordinal and source aliases.
+- [2023–2024 per-message topic locator](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_DIRECT_2023_2024_MESSAGE_TOPIC_LOCATOR_2026-10-24.md): 802 linked user messages across 43 original conversation IDs. Distinguishes direct-message versus adjacency-only topics; 363/802 (45.3%) lack direct topic tags.
 - [Topic-tagged conversation file index](https://github.com/Satobloc/HsH/blob/main/indexes/autotag/CONVERSATION_TAG_INDEX.md): 766 recognized conversation-export file instances, scanned in HsH only.
 - [Verified Words Compendium](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md): 143 dated headings (not necessarily unique messages).
 - [Tagging ledger directory](https://github.com/Satobloc/HsH/tree/main/WORKSPACES/COMMON/tagging_ledgers): 146 files.
