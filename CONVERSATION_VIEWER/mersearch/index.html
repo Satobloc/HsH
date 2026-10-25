@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mersearch Reader · Public conversation search</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f15;--panel:#151d28;--line:#354356;--text:#e9edf5;--muted:#adb7c6;--accent:#8ac4d9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Arial,sans-serif}
+main{max-width:1080px;margin:auto;padding:24px 18px 100px}h1{font-size:clamp(1.7rem,3vw,2.7rem);margin:8px 0}
+.kicker{font-size:.8rem;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}
+nav{display:flex;gap:16px;flex-wrap:wrap}a{color:#9fdaef}p{color:var(--muted);margin:8px 0 18px}
+.searchbox{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:12px;margin:20px 0}
+label{display:block;font-weight:600;margin:10px 0 6px}input[type=search],select{width:100%;background:var(--bg);border:1px solid #596d83;border-radius:8px;color:var(--text);font:inherit;padding:11px}
+fieldset{display:flex;gap:14px;flex-wrap:wrap;border:none;padding:0;margin:10px 0}fieldset label{font-weight:400;margin:0}
+button{padding:10px 18px;border:1px solid #86c4d7;border-radius:8px;background:#205269;color:white;font:inherit;cursor:pointer}
+button:disabled{cursor:not-allowed;opacity:.5}
+small,.muted{color:var(--muted)}code{font-size:.9em;color:#bce6e9}
+.examples{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.examples button{font-size:.85rem;padding:5px 9px;background:#263542}
+#status{padding:6px 0;min-height:32px}.result{padding:16px 18px;margin:10px 0;border:1px solid var(--line);border-radius:10px;background:#121a24}.result h2{font-size:1.05rem;margin:0}.result .meta{font-size:.82rem;color:var(--muted);margin-top:4px}
+details{margin:15px 0;color:var(--muted)}summary{cursor:pointer;font-weight:600}
+.note{border-left:3px solid var(--accent);padding:12px 15px;background:#111b25;margin:15px 0}
+#results:empty{min-height:100px}
+</style>
+</head>
+<body><main>
+<nav><a href="../index.html">Original Mercer Conversation Viewer</a><a href="https://github.com/Satobloc/HsH">HsH source</a></nav>
+<div class="kicker">Mersearch public reader · indexed public conversations</div>
+<h1>Search what was actually said.</h1>
+<p>Search <strong>message bodies across the public SAT/H(s)H conversation catalog</strong>, not only titles. Boolean words and mathematical-symbol queries are supported as <em>candidate retrieval</em>. The research Mersearch engine is more capable than this static public reader.</p>
+<form class="searchbox" id="searchForm">
+<label for="q">Search words, equations, or Boolean expressions</label>
+<input type="search" id="q" name="q" autocomplete="off" placeholder='Example: (worldline OR worldtube) AND time' required>
+<label for="mode">How to interpret your search</label>
+<select id="mode"><option value="all">All words (AND)</option><option value="any">Any word (OR)</option><option value="boolean">Boolean: AND, OR, NOT, parentheses</option><option value="math">Math symbols / formula terms</option></select>
+<fieldset><label><input type="checkbox" id="dev" checked> Development conversations</label><label><input type="checkbox" id="live" checked> Live conversations</label></fieldset>
+<div class="examples"><button type="button" data-example='helix time surface'>helix · time surface</button><button type="button" data-example='(braid OR helix) AND gravity' data-mode="boolean">braid OR helix · gravity</button><button type="button" data-example='math:"theta_4"' data-mode="math">θ₄ (math)</button><button type="button" data-example='photon neutrino'>photon · neutrino</button></div>
+<button type="submit" id="go">Search the archive</button>
+</form>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="results" aria-label="Search results"></div>
+<button id="more" type="button" hidden>More results</button>
+<details><summary>What this search includes and what it cannot do</summary>
+<div class="note">This is a static, public-only front end over the Conversation Viewer's approved, curation-aware inverted index. Search matches mean <strong>all requested tokens occur somewhere in that conversation</strong>, not necessarily in the same user message. Quoted strings, formula syntax, AND/OR/NOT are candidate filters. They do not certify phrase order, mathematical equivalence, proximity, or speaker authorship. For exact context, open the original viewer. <strong>Private HSH_RESOURCES content and internal material are not indexed here.</strong> Full Mersearch mathematical normalization, field search, NEAR/n and all-repository research require a protected service and are not claimed here.</div></details>
+</main><script src="reader.js?v=20261025b" defer></script></body></html>
