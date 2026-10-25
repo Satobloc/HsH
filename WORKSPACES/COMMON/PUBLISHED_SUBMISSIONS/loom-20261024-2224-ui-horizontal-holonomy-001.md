@@ -1,0 +1,17 @@
+# Loom :24 | UI minimum-rotation lift and frame holonomy | 2026-10-25T02Z
+
+STATUS: INTERNALLY_CHECKED geometric comparator. NOT physical H(s)H prediction, tentative H(s)H construction candidate, or BEDROCK promotion.
+
+HISTORICAL SOURCE: SAT `2026/SAT CORE — UI CONFIG.txt`, blob `6817caf68943593f31d72d51798e0ba4589624a4`, full 50 lines, `y=rRx0`, `Omega=Rdot R^-1`. HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 3/UI CONFIG.txt` is the same blob, not independent evidence. Historical wrong-sign S3 geodesic equation was ALREADY corrected in HsH Meridian 2026-10-10 (`829bbc0060cd0ba11cb51bd8565e66f99690b2f1`) and Nadir 2026-10-23 (`9dc93b11c36b22356fb109f0af89562d8468f824`). Corrected affine equation: X''-(X''·X)X/R²=0. No new sign-correction priority claimed.
+
+NEW UI RULER FIXTURE (standard mathematics, new bounded project application): For unit point history u(phi) in S3, any SO(4) angular rate Omega satisfying Omega u=u' decomposes as Omega_min+K, with Omega_min=u'u^T-u u'^T and K u=0. Orthogonality gives ||Omega||_F²=2||u'||²+||K||_F². Thus Omega_min is the unique instantaneous minimum-norm lift. This is a declared metric/gauge convention, NOT an independent worldtube material-spin law.
+
+EXACT CLOSED LOOP: u(phi)=(sin(theta)cos(phi),sin(theta)sin(phi),cos(theta),0), 0<=phi<=2pi. Parallel transport by Omega_min returns a tangent frame with phase -2pi cos(theta) modulo 2pi, equivalent to spherical-cap solid angle 2pi(1-cos(theta)). At theta=pi/3 the point closes while the frame rotates by pi. Executed DOP853 phase -3.141592653589298 rad, residual 4.96e-13 rad. Adding K=gamma(e_phi e_theta^T-e_theta e_phi^T) with gamma=1/4 changes no point coordinates but yields frame phase -pi/2; executed -1.5707963267947354 rad, residual 1.62e-13 rad. Norm-squared rotational cost increases by 1/12. Distinguish point closure from material-frame closure.
+
+INDEPENDENT CHECK: Separate polygonal shortest-rotation transport, without integrating Omega, converged to pi with phase errors 7.588e-3, 4.732e-4, 2.957e-5, 1.848e-6, 1.155e-7 rad at 32,128,512,2048,8192 segments; 80-digit mpmath spherical-cap value equals pi. Four colatitudes independently checked. SymPy reverified preexisting geodesic correction. Four script-rendered Class P figures, code, stdout, report and source ledger in originating conversation.
+
+CODATA 2022 NIST Web 9.0: c=299792458 m/s, exact standard uncertainty 0. A synthetic R=1m, f=1Hz, theta=60deg circle gives v=5.441398092702653 m/s and v/c=1.815055031405311e-8. Arithmetic v-c=-299792452.5586019 m/s is NOT an observational discrepancy: no physical c prediction was made. GATE: REFERENCE_INPUT_ONLY; INDEPENDENT_PREDICTION_OPEN.
+
+READING: BEDROCK 548 lines blob aa5d236354258f4c4715f5cf77bff2c5db602cfd and theory state 155 lines blob b5958a1056c2541f00ab4f3477d8acc32426cfe9 retrieved, governing sections reviewed. Genuine secrets.randbelow(3) selected unrelated HsH 15-Oct Suno prompt conversation (221 lines, blob 976e7139f04d7e2fde2330b42f609576b7e1b72f). Four Mersearch lanes occupied; no new Mersearch run or private resource exposure. GitHub searches are bounded fallback, not corpus coverage. Current 24-Oct Nathan Direct map-first rule honored.
+
+NEXT: Recover native finite-core worldtube material directors and test whether the SO(3) stabilizer spin is physically constrained or only coordinate framing. Ambient Euclidean R4 remains flat; nontrivial holonomy of its S3 submanifold does not establish Lorentzian spacetime curvature, electromagnetic charge, or Kerr dynamics.
