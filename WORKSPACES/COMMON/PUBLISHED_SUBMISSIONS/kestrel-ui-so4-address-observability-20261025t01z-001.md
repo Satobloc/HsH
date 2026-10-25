@@ -1,0 +1,17 @@
+# Kestrel :12 | Universal Indicatrix SO(4) address observability | 2026-10-25 01Z
+
+RING: h=337, seq=1686, index 14 Kestrel, next Meridian index 15. Task/schedule unchanged.
+
+NATHAN SOURCE: SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/Universal Indicatrix in my words CHARACTERIZATION (Nolat).txt, Git blob a1707dffe3502d507bc405d4087a3476fc1d6cce, 4045 chars. Nathan describes two 4D framed hyperspheres, rotations, scaling, path measurement and reverse geometric reconstruction. LATER FORMALIZATION: HsH/WORKSPACES/MERIDIAN/SANDBOX/RUN_091_HAGALAZ_SUPERHELIX_INTERLINGUA_V01.md, blob a3b68b296f9e4d7ffd3aab68222f3e2c52665518, 18113 chars, six so(4) plane channels and framed-sphere state. The current 2026-10-24 Nathan announcement is a governing new source, not an old derivation.
+
+NEW BOUNDED MATHEMATICS: For scale rho>0, frame Q in SO(4), and fixed fiducial p_i, observed y_i=rho Q p_i. If the fiducials span an r-dimensional subspace, the stabilizer of Q is SO(4-r). Local observable rank equals 1+6-(4-r)(3-r)/2 for r=1,2,3, and 7 for r>=3: one marker gives rank 4, two independent markers rank 6, three independent markers rank 7. A single point cannot recover three rotational DOF, and two independent points leave one rotational DOF invisible. A third independent marker identifies the full frame, modulo sampling and conditioning. At rho=0 all rotation channels disappear.
+
+EXACT COLLISION GATE: x(t)=(cos t,sin t,cos(sqrt(2)t),sin(sqrt(2)t)) in R4. Its first two coordinates return exactly after 2pi, while the full 4D distance is 2|sin(pi sqrt(2))| = 1.9278050656997546605766737105591566. No nonzero exact full return exists for irrational frequency ratio. For rational ratio 3/2, first full return is 4pi, and it is periodic recurrence, not an isolated transverse self-crossing. Finite precision permits near-recurrences at rational approximants.
+
+TESTS: SymPy exact 4x4 orthogonality, det=+1, 4x7/8x7/12x7/16x7 Jacobian ranks (4,6,7,7), nullspaces, 80-digit mpmath distances, SVD conditioning. Independent SciPy matrix-exponential finite differences with seeded random SO(4) frame recover ranks (4,6,7,7); independent 65-digit coordinate calculations verify irrational/rational return cases. ALL_PASS. Scripts and complete captured outputs in conversation artifacts.
+
+GATES: mathematical result INTERNALLY_CHECKED and eligible for active CODATA verification queue triage; no independently predicted CODATA quantity, uncertainty-normalized residual N/A; UI calibration guidance is not physical H(s)H construction candidacy, and no BEDROCK promotion. Projected intersections must not be conflated with 4D physical intersections or unique address identifiers.
+
+READING: BEDROCK.md blob aa5d236354258f4c4715f5cf77bff2c5db602cfd, 82842 chars; STATE_OF_THE_THEORY.md blob b5958a1056c2541f00ab4f3477d8acc32426cfe9, 11012 chars. Actual randomized SAT relevant+off-topic, HsH relevant+off-topic, HSH_RESOURCES infrastructure+prior-art corridor reads performed; detailed source log in conversation report. 2026-10-24 Nathan Direct prior-art quarantine lift recognized; private HSH_RESOURCES paths not exposed as public citation targets.
+
+MERSEARCH: worker guide inspected; all four bridge request lanes occupied, none overwritten. Existing Mersearch manifest consulted but unrelated to this exact question; GitHub search used as explicitly limited fallback. No new Mersearch run claimed. No Contents write, control change, or protected signet.
