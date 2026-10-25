@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GSF Owner Curation Public Projection",
+  "description": "Validate public-safe user-owner display policy only. Raw private annotations remain in authenticated Sites backend, never here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "exposure",
+    "rules",
+    "front_page_slots"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "exposure": {
+      "const": "public-safe-projection-only"
+    },
+    "last_updated_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "curation_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rule"
+      }
+    },
+    "front_page_slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slot",
+          "target_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "slot": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "target_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          },
+          "placement": {
+            "type": "string",
+            "enum": [
+              "hero",
+              "featured",
+              "reading",
+              "visuals",
+              "podcast",
+              "general"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_id",
+        "source_repository",
+        "source_path",
+        "display_visibility",
+        "prominence",
+        "front_page_rotation",
+        "priority",
+        "status",
+        "related_ids"
+      ],
+      "properties": {
+        "target_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "source_repository": {
+          "type": "string",
+          "enum": [
+            "Satobloc/HsH",
+            "Satobloc/SAT_THEORY_ARCHIVE_2023-25"
+          ]
+        },
+        "source_path": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1500
+        },
+        "source_sha": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "section_anchor": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 500
+        },
+        "display_visibility": {
+          "type": "string",
+          "enum": [
+            "public",
+            "hidden",
+            "source_only"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "current",
+            "historical",
+            "tentative",
+            "retired",
+            "superseded",
+            "withdrawn",
+            "needs_review"
+          ]
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "prominence": {
+          "type": "string",
+          "enum": [
+            "normal",
+            "featured",
+            "front_page",
+            "archive_only"
+          ]
+        },
+        "front_page_rotation": {
+          "type": "string",
+          "enum": [
+            "eligible",
+            "excluded"
+          ]
+        },
+        "front_page_slot": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "section_display_order": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "related_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          }
+        },
+        "relationship_labels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "SEE_ALSO",
+              "CORRECTS",
+              "REFINES",
+              "SUPERSEDES",
+              "SUPERSEDED_BY",
+              "RELATED",
+              "CONTINUES",
+              "RETIRE_FROM_ROTATION"
+            ]
+          }
+        },
+        "public_comment": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 1000
+        },
+        "provenance_note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 1000
+        },
+        "last_action_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        }
+      }
+    }
+  }
+}
