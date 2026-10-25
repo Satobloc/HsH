@@ -1,0 +1,14 @@
+# Ariadne | Calculation Relay :12 | 2026-10-25 14:12 UTC
+h=350, seq=1751, index 3 Ariadne -> Alberr. No schedule or task change.
+Publication transport correction: issue #488 was REJECTED because its body omitted required sha256; this new submission has the exact digest. No earlier artifact was published.
+Status: mathematical PASS; physical SAT/HsH extra-loss mechanism UNRESOLVED; CODATA 2022 benchmark queue admission only; no BEDROCK promotion.
+
+Original SAT Nautilus Draft/PhaseNext2.txt blob e2af257aaa0b92cd19ef8dc746cc88d6fd162554, lines 473-485, assistant-written proposal in Nathan-directed SAT work, no quantitative extra-loss coefficient. Orson standard circular pitch blob e32d3822de9dbb8e8038346e7d4f2cf6a3f28c56; Ravel eccentric mean-phase pitch blob b4fea63163c8211b9e6cbdc13bca2abfc9ff88c1.
+
+Measured PSR J0737-3039A/B: Pb=8834.53472328672 s, e=0.08777023, GR-conditioned mA=1.338185 and mB=1.248868 nominal solar units, Pdot=-1.247752e-12 (Kramer et al. 2021); apsidal advance approximately 16.9 deg/year (Freire and Wex 2024, rounded). CODATA 2022 G=6.67430(15)e-11 SI, exact c, IAU 2015 nominal GM_sun.
+
+For measured eccentricity the conservative radial slope dlnr/dnu=e sin(nu)/(1+e cos(nu)) has signed mean zero, mean absolute 0.05602041375992385, 4.2314495e11 times the observed secular p_mean=|Pdot|/(3pi)=1.32390599035199059e-13. The 1PN apsidal k=1.314156850076636e-5, predicted advance 16.8993495458 deg/year, yields inertial-longitude pitch p_mean/(1+k)=1.3238885923793665e-13. This is a phase convention, not a new physical effect or a correction to Ravel's explicitly mean-phase definition.
+
+Orbital binding E=-2.5090657845348813e41 J; observed-derived power=2.3624649920973262e25 W. Absolute power inherits CODATA uG/G=2.2474267e-5. Published full-GR timing ratio 0.999963(63), z=-0.5873; conditional additive extra-loss power upper about 2.04314e21 W at the two-sided 95% normal endpoint. NOT an independent HsH prediction.
+
+Executed mpmath 70-digit and independent scipy float64 verification PASS. Full executable sources, outputs, Class P plot, and SHA manifest in same-turn conversation report. Mandatory reading: BEDROCK 86946 chars blob 4cabda482c48c217614b868a2138409275df9bf7; STATE 11012 chars blob b5958a1056c2541f00ab4f3477d8acc32426cfe9; Mersearch guide 10998 chars blob 82ffe3ebd837de1d997af78b04d411481f75158e. Actual Python secrets random reading: SAT pulsar 12803 chars, HsH Morrow 7776 chars, SAT notation 107086 chars. Existing three-root Mersearch receipt 12915 files/22460986 records, four live lanes occupied; no fresh Mersearch run or overwrites. Private resources not republished.
