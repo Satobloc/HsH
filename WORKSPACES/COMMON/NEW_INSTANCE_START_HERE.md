@@ -1,5 +1,7 @@
 # New / Newer / Revived Instance — Start Here
 
+> **ACTIVE PHASE OVERVIEW, 2026-10-26:** Read the [current phase steering/return-to-work map](PHASE_STEERING_2026-10-26.md) as a project-level *navigation and continuity* control. Identify its active lane(s) and actual evidence of progress; do not assume all its proposed assignments are executed or override existing BEDROCK, Nathan Direct authority, security rules or Tern's execution leases. Maintain explicit return cursors when new articles or urgent requests interrupt work.
+
 > **NATHAN DIRECT, 2026-10-25 — PRIOR EXPECTATION / ARCHIVE LITERACY:** Before describing archive work as "merely conceptual", "scattered references", "surprisingly substantive", or absent, inspect the [existing Field Notes Assumption Revision Index](FIELD_NOTES/ASSUMPTION_REVISION_INDEX.md), the [Oct 24 SAT-O/Blockwave historical high-water-mark route](UI_TOOL_VS_STUDY_OBJECT_AND_HISTORICAL_HIGH_WATERMARK_2026-10-24.md), Mersearch and relevant primary conversations. Document what you expected, why, what the actual sources showed, what remains unchecked, and how it changes next workers' assumptions. Reading a heading or finding an equation does not establish original technical depth, correctness or executed results. Report real changes through the existing Field Notes, source indexes, genealogy ledgers, and worker checkpoint; do not build yet another independent index or confuse novelty-to-this-worker with novelty-in-SAT.
 
 
