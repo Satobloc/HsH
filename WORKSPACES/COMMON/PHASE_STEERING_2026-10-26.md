@@ -80,3 +80,18 @@ A new article, side experiment, impromptu question, or newly discovered project 
 This map is written now, but there has been **no local Ouroboros installation or runtime, production repository service deployment, financial engagement, complete old-worker survey census, completed 4-subject Mersearch census, full Lean proof audit, or assurance of every worker reading this note**. The four Mersearch result receipts were not published at latest check. Opening a management document does not resolve those gaps.
 
 **Return cursor:** Read/provenance-check the Sept 12 Clinamen check-in against original conversation; build old-worker [A]/[B] crosswalk in current indexes; audit Factory Floor five Lean proofs; draft safe Soxieu local+container experiment; recheck Mersearch receipt state. If an article arrives meanwhile, record its paper/source identity and return to these after answering it.
+
+
+## October 26 checked subtask notes and readbacks
+
+**Survey integration:** The existing [Past Theorist Survey Addendum](PAST_THEORIST_SURVEY_ADDENDUM.md) has been updated with separate typed `NATHAN_FILENAME_PRIORITY` vs `HISTORICAL_WORKER_SELF_RATING` vs raw-source/evidence/BEDROCK statuses. The original [survey](PAST_THEORIST_SURVEY.md) links that crosswalk. 53 tagged paths in chronology = 36 [A] + 17 [B], *not* 53 verified unique worker identities.
+
+**Ouroboros architecture:** [OUROBOROS_SOXIEU_INTEGRATION_GATE_2026-10-26.md](OUROBOROS_SOXIEU_INTEGRATION_GATE_2026-10-26.md) specifies desktop, isolated GitHub workspaces, optional persistent container, review/budget/privilege gates; no installer or host executed.
+
+**Factory Floor verification read:** Five [FACTORY_FLOOR intake issues](https://github.com/Satobloc/FACTORY_FLOOR/issues) (#1–#5) have run IDs and bounded proof claims. Independently read GitHub Actions job summaries for runs `39960043562`, `39987817298`, `39996929325`, `40005392966`, `40040647137`: each has a completed `verify` job with conclusion `success`. Independently fetched [HsH PR #262](https://github.com/Satobloc/HsH/pull/262): **open, not merged, not mergeable at inspection**. This validates CI-job reporting, NOT theorem-to-physics translation, and NOT a completed Factory Showroom presentation. Workstream S04 requires source proof-file inspection, full scope and assumptions review, and explicit showroom transfer status.
+
+**Strong cross-program link:** the old [Clinamen Compression-Indexing survey entry](PAST_THEORIST_CHECKINS.md) connects shared-corpus residual coding with UI/Whirligig addressing and the same generic-LLM expectation failure currently being indexed. Original conversation still not recovered, so it is a *survey-identified incomplete idea*, not an implemented subsystem.
+
+**Live caution:** Repository metadata said HSH_RESOURCES visibility `public`, contrary to old resource privacy documentation. This is a visibility/permissions audit need; the records must still maintain public-safe publication boundaries and not publish private sensitive content just because a repo exposes it.
+
+**No action falsely claimed:** No full-repo access installed for Ouroboros; no paid model connection; no active traffic collector; no CI merged; no manufacturing of new scientific data or unapproved toy physics calculations.
