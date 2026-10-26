@@ -1,5 +1,8 @@
 # Three-Manuscript Campaign, October 26 to December 14, 2026
 
+> **UNIVERSAL SHAPE-TO-LEAN REVIEW GATE (Nathan Direct 2026-10-26):** P1 (LLM cognition), P2 (real-system geometry), P3 (full theory) each require a source-faithful geometric/mathematical triage and, wherever a definite theorem can be formulated, an attempted Lean 4/Mathlib proof with exact compiled status and explicit assumptions. Cognition, epistemology, provenance and linguistic geometry are eligible, not exempt by genre. Formal proof is *additional* to genuine data, independent critical review, LaTeX manuscript and PDF/reader. Preserve Orson's cognition ownership and existing dates. [Full directive](NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md).
+
+
 **Status: ACTIVE PLAN, no new papers yet delivered.** Nathan's Oct 26 directive makes production of a minor, major, and full-theory manuscript the highest near-term output goal. These labels mean scale/scope, not new publication types. Existing [Live New Papers standards](LIVE_NEW_PAPERS_STANDARD.md) still distinguish field-facing vs framework-building papers. Current Code Grurple formatting/interlock status must be verified, not presumed complete.
 
 ## Target docket
