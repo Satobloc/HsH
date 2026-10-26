@@ -28,6 +28,8 @@ Treat `PRIOR_ART` and `QUARANTINE` as excluded. Do not silently limit a historic
 
 **Do not confuse the human Pages interface with research search.** The public web page is a curated conversation-*title/path* catalog until a separately reviewed public full-text index goes live. It does not expose the whole research corpus.
 
+> **2026-10-26 publication containment and recursion control (live):** All four bridge workflows now publish only `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md`. New raw `SEARCH_RESULTS.json/.md` are withheld in temporary job storage, not durable public artifacts; older runs may still have raw results and remain a separate exposure-remediation problem. This preserves public-safe bounded navigation but **does not satisfy an exhaustive full-hit inventory request**. The bridge also passes stable Mersearch's existing `--exclude mersearch_requests` option, preventing prior generated request outputs from recursively dominating fresh source searches. The manifest records `bridge_exclusions`. Neither change has yet been verified by a post-patch Actions execution. For exhaustive, access-controlled results, use a local pinned checkout or obtain an approved restricted artifact path; do not overwrite occupied lanes or claim full results from a compact receipt.
+
 ## GitHub connector route: parallel request lanes
 
 **Updated 2026-10-24:** the former single-slot bridge has been expanded to **four independent request lanes**. All lanes run the same pinned `mersearch-stable-1.0` searcher over the same three permitted roots and publish request-scoped outputs into `indexes/mersearch_requests/<request_id>/`.
