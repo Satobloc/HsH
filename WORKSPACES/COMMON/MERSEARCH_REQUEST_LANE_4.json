@@ -1,20 +1,20 @@
 {
   "lane": 4,
   "status": "requested",
-  "request_id": "meridian-20261024t17z-curved-core-equilibrium-001",
-  "requester": "Meridian Calculation Relay :48",
-  "requested_at": "2026-10-24T17:48:00Z",
+  "request_id": "archive-harvest-20261025-superconductors-01",
+  "requester": "Archive subject inventory / Nathan Direct",
+  "requested_at": "2026-10-25",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(\"worldtube\" NEAR/12 \"pressure\") OR (\"finite core\" NEAR/12 \"elastic\") OR (\"filament\" NEAR/12 \"tension\") OR (\"Piola\" NEAR/12 \"curvature\") OR (\"Kelvin\" NEAR/12 \"stress\")",
-  "purpose": "Recover historical SAT/HsH mathematical tension, pressure, core-relaxation, Kelvin-medium and Piola antecedents and corrections; distinguish matter worldtube from medium vortices.",
+  "query": "superconductivity OR superconducting OR superconductor OR \"Cooper pair\" OR Meissner OR Josephson OR \"flux quantization\" OR \"critical temperature\" OR \"critical current\" OR Abrikosov OR \"vortex lattice\" OR superfluid OR \"Bose-Einstein condensate\" OR condensate OR \"quantum Hall\" OR \"London equation\" OR \"Ginzburg-Landau\" OR \"type II superconductor\" OR BCS",
+  "purpose": "Discovery-only inventory of historical SAT/H(s)H superconductors, BEC, superconductivity analogies, vortex phases and condensed-matter experiments across two archives.",
   "preferred_outputs": [
-    "exact original equations and context",
-    "source paths, dates and SHAs",
-    "later corrections",
-    "numerical or dimensional checks"
+    "all file paths and conversation/message locators",
+    "matched contexts sufficient to classify documents",
+    "original dates and source SHA256",
+    "cross-repository duplication candidates"
   ]
 }
