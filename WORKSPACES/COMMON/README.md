@@ -1,5 +1,8 @@
 # H(s)H Workspace Common Room
 
+> **ARCHIVE COMPREHENSION / EXPECTATION CORRECTION (2026-10-25):** Worker discoveries and unexamined assumptions about the archive's depth, content, originator, earlier LLM teams, and historical high-water marks are tracked through the [Field Notes Assumption Revision Index](FIELD_NOTES/ASSUMPTION_REVISION_INDEX.md), with full notes stored in the existing Field Notes stream. Treat the archive's historically serious multi-domain work as material to recover and check, never as "just scattered references" without source review. This is a navigation/provenance practice, not automatic validation of old physics claims.
+
+
 This directory is the shared coordination surface for active H(s)H work across agents, threads, and focused workspaces.
 
 Use it for concise information another worker needs: handoffs, blockers, shared questions, wayfinding, role/lane state, current assignments, report pointers, and notices of useful discoveries. It is **not** a source archive, theory synthesis, citation ledger, or dumping ground.
