@@ -40,7 +40,7 @@ jobs:
           assert d["math_pass"] is None and d["math_fail"] is None
           assert d["lean_status"]=="NOT_RUN"
           rows=[json.loads(x) for x in (folder/"CANDIDATES.jsonl").read_text().splitlines()]
-          assert rows and all(x["source_sha256"] and x["math"]=="NOT_RUN" for x in rows)
+          assert rows and all(x["sha256"] and x["math"]=="NOT_RUN" for x in rows)
           print("ARCHIVE_HOPPER_SOURCE_SMOKE_PASS",d["candidates"])
           PY
       - name: Upload report and manifest ONLY (not raw math candidates)
