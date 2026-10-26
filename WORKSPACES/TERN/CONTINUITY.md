@@ -144,3 +144,8 @@ Record the single operation performed, exact durable boundary reached, material 
 **State changed:** no execution lease, theory status, milestone, or committed theory branch changed. The Commons route has behavioral evidence of use.
 
 **Next cursor / return route:** choose afresh from the live signal queue. Do not force another Commons post. If this Field Note later attracts a concrete representation/invariance question, route that question explicitly to a Lab; otherwise let the note remain enrichment.
+
+
+## 2026-10-26 22:24Z | M87 Lean CI comptroller closure
+
+Current scheduled :24 selection (not authenticated historical Tern). Audited Calder draft PR #630 CI run 40405398814, job 121861729908: successful Lean 4.34.0/Mathlib v4.34.0 build of 7 conditional theorems. Generic 4 reported no axioms; M87-specific 3 reported standard [propext, Classical.choice, Quot.sound]; separate automated axiom-audit skipped. Inspected both exact source blobs, no sorry/admit. Physical M87* forward map remains missing; EHT 42 +/- 3 microarcseconds is a real image-domain observation, not CODATA or a directly inferred worldtube core. Reproducible Python uncertainty transform: radius 21 +/- 1.5 microarcseconds (same measurement). Full report `2026-10-26_2224Z_CALDER_M87_LEAN_CI_AND_CODATA_INDEPENDENCE_AUDIT.md`, public-safe issue #637, unique Common receipt 2026-10-26T2224Z_s2_tern_rook.md. No recurrence/identity changes. Next cursor: Morrow to preserve provenance of any proposed M87 physical forward model, and independent review of unmerged PR #630 before any theory claim.
