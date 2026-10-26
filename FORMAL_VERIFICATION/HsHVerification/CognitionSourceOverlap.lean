@@ -31,4 +31,20 @@ theorem shares_source_relabel_iff
     have hxz : x = z := rename.injective (hxy.trans hzy.symm)
     exact ⟨x, ha, by simpa [hxz] using hb⟩
 
+
+/-- If distinct sources are collapsed to one identifier, an apparent shared
+    source can be introduced by the relabeling itself. This is a negative
+    control on non-injective provenance normalization. -/
+theorem source_id_collision_creates_false_overlap
+    {α β : Type*} (f : α → β) (x y : α)
+    (hDistinct : x ≠ y) (hCollision : f x = f y) :
+    ¬ SharesSource ({x} : Set α) ({y} : Set α) ∧
+      SharesSource (f '' ({x} : Set α)) (f '' ({y} : Set α)) := by
+  constructor
+  · rintro ⟨z, hzX, hzY⟩
+    have hx : z = x := by simpa using hzX
+    have hy : z = y := by simpa using hzY
+    exact hDistinct (hx.symm.trans hy)
+  · exact ⟨f x, ⟨x, by simp, rfl⟩, ⟨y, by simp, hCollision.symm⟩⟩
+
 end HsHVerification.CognitionSourceOverlap
