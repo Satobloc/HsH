@@ -185,8 +185,19 @@ jobs:
             exit 1
           fi
           mkdir -p "$dest"
-          cp /tmp/mersearch-request/SEARCH_RESULTS.json "$dest/SEARCH_RESULTS.json"
-          cp /tmp/mersearch-request/SEARCH_RESULTS.md "$dest/SEARCH_RESULTS.md"
+          # INTERIM PUBLIC-SAFETY GATE (2026-10-26): publish only compact
+          # receipts and provenance. Full SEARCH_RESULTS contain source excerpts,
+          # including resources-root hits, and can exceed GitHub blob limits.
+          # Keep raw results in the job's temporary workspace; do not copy
+          # them into this public repository without an approved review path.
+          python - <<'PY'
+          from pathlib import Path
+          out = Path('/tmp/mersearch-request')
+          for name in ('RUN_MANIFEST.json', 'SEARCH_RECEIPT.json', 'SEARCH_RECEIPT.md'):
+              p = out / name
+              if not p.is_file() or not 0 < p.stat().st_size < 95 * 1024 * 1024:
+                  raise SystemExit('Missing/empty/oversized public receipt: ' + name)
+          PY
           cp /tmp/mersearch-request/RUN_MANIFEST.json "$dest/RUN_MANIFEST.json"
           cp /tmp/mersearch-request/SEARCH_RECEIPT.json "$dest/SEARCH_RECEIPT.json"
           cp /tmp/mersearch-request/SEARCH_RECEIPT.md "$dest/SEARCH_RECEIPT.md"
