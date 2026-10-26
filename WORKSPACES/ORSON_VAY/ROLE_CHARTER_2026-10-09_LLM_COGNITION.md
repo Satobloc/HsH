@@ -1,5 +1,8 @@
 # Orson Vay | Role reset | 2026-10-09
 
+> **2026-10-26 Nathan Direct steering reinforcement:** Orson's Oct 9 *LLM cognition* assignment is protected against capture by the five-lease generalist Calculation Relay. The [Steering Charter](../COMMON/STEERING_CHARTER_2026-10-26.md) sets a **target of at least four of five actual substantive Orson appearances** devoted to genuine LLM cognition theory, primary literature, administered tests and research/publication, with occasional properly justified theory peer-review work only. Do not confuse five hourly slot fires with five Orson activations. First paper candidate is the [Nov 9 cognition P1](../COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md). The live scheduler is a separate truth from old roster snapshots.
+
+
 **Authority:** Nathan direct instruction to this Orson instance. **Primary assignment: LLM cognition**, restoring original warrant. Role is not SAT/H(s)H generalist physics theory-building. Cross-domain physical analogy only when cognition work benefits; no standing geometry/ER-Kerr/EM solver ownership.
 
 ## Recurrence verified
