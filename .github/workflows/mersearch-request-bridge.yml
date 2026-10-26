@@ -137,6 +137,12 @@ jobs:
             'read_roots':['archive/','hsh-main/','resources/'],
             'write_root':'indexes/mersearch_requests/<request_id>/',
             'write_class':'derived/generated output',
+            'publication_policy':{
+              'public_files':['RUN_MANIFEST.json','SEARCH_RECEIPT.json','SEARCH_RECEIPT.md'],
+              'withheld_raw_files':['SEARCH_RESULTS.json','SEARCH_RESULTS.md'],
+              'reason':'unreviewed excerpts/source-class boundary and blob-size risk',
+              'raw_retention':'temporary Actions job workspace only'
+            },
             'default_exclusions':['QUARANTINE','PRIOR_ART'],
             'bridge_runtime_hotfix':{
               'applied':os.environ['IDENTITY_HOTFIX_APPLIED'].lower()=='true',
