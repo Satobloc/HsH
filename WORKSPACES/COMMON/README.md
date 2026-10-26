@@ -117,3 +117,5 @@ Keep Common entries short enough to scan. A useful entry normally identifies:
 `date — from → to/all — subject/type — status/action — source or destination pointer`
 
 When an item becomes stable or consequential, promote it to its proper durable destination and leave a pointer here. Common coordinates work; it should not become the final record by accumulation.
+
+> **Bulk equation archive intake, 2026-10-26:** See the [Math Hopper technical route](ARCHIVE_MATH_HOPPER_2026-10-26.md) and [Hopper issue #578](https://github.com/Satobloc/HsH/issues/578). Newly committed adapter builds a provenance-preserving, extraction-only candidate index from existing Mersearch; curated claims still enter `formalization/equations.json` and existing Lean/independent math audit. Do not call extracted snippets "proved" or mathematical check failures physical disproof; workflow-scale pilot/readback pending.
