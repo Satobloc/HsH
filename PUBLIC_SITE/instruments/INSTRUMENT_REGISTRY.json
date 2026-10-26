@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-26",
+  "status": "repo-curated instrument navigation, not live-site deployment proof",
+  "instruments": [
+    {
+      "id": "whirligig-rq",
+      "name": "Whirligig R/Q",
+      "kind": "constrained geometry comparison apparatus",
+      "repo_html": "PUBLIC_SITE/instruments/whirligig/index.html",
+      "requested_route": "/laboratory/whirligig/",
+      "source": "tools/whirligig_rq/",
+      "integration": "PUBLIC_SITE/instruments/whirligig/SITES_INTEGRATION.md",
+      "live_deployment": "unverified_by_this_handoff"
+    },
+    {
+      "id": "universal-indicatrix",
+      "name": "Universal Indicatrix · Blind Geometry Laboratory",
+      "kind": "dimensionless relative SO(4) frame ruler and variational geometry diagnostic",
+      "repo_html": "PUBLIC_SITE/instruments/universal-indicatrix/index.html",
+      "requested_route": "/laboratory/universal-indicatrix/",
+      "source": "tools/ui_blind_lab/",
+      "version": "SAT-UI-BLIND-20261026-001",
+      "integration": "PUBLIC_SITE/instruments/universal-indicatrix/SITES_INTEGRATION.md",
+      "worker_handoff": "tools/ui_blind_lab/HANDOFF_AUDIT_AND_RECOMMENDATIONS_20261026.md",
+      "postfreeze_review": "tools/ui_blind_lab/POSTFREEZE_COMPARISON_20261026.md",
+      "sciences_status": "geometric software tested; semiconductor prediction not derived",
+      "live_deployment": "unverified_by_this_handoff"
+    }
+  ]
+}
