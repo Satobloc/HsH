@@ -2,7 +2,7 @@ import Mathlib
 
 /-!
 Archive EQ-0031: dimensional and algebraic checks for the spatial fourth-order
-beam limit of the historical H(s)H equation. These theorems establish only
+beam limit of the historical H(s)H equation.  These theorems establish only
 the stated mathematics; they do not validate an H(s)H physical interpretation.
 -/
 
@@ -25,8 +25,8 @@ theorem bending_term_dimension :
     mulDim flexuralRigidityDim fourthSpatialDerivativeDim = distributedLoadDim := by
   rfl
 
-def secondMoment (b t : ℝ) : ℝ := b * t ^ 3 / 12
-def tipStiffness (E b t L : ℝ) : ℝ := E * b * t ^ 3 / (4 * L ^ 3)
+noncomputable def secondMoment (b t : ℝ) : ℝ := b * t ^ 3 / 12
+noncomputable def tipStiffness (E b t L : ℝ) : ℝ := E * b * t ^ 3 / (4 * L ^ 3)
 
 theorem secondMoment_width_scaling (b t c : ℝ) :
     secondMoment (c * b) t = c * secondMoment b t := by
