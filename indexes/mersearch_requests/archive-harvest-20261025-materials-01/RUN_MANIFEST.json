@@ -1,0 +1,63 @@
+{
+  "request_id": "archive-harvest-20261025-materials-01",
+  "query": "\"materials science\" OR \"material science\" OR \"solid state\" OR \"crystal lattice\" OR \"crystallography\" OR \"metamaterial\" OR phonon OR semiconductor OR \"elastic modulus\" OR metallurgy OR graphene OR \"band gap\" OR dielectric OR ferroelectric OR piezoelectric OR \"material properties\" OR nanomaterial OR conductivity OR resistivity",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "8d49183464ad8fb2411d5b8e13c6408eecd39e18",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "e41fa62810618234a47d1f42016e8c4e1a94fbaa",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "dcbfcae2da4c2b9fd59536ebdb88c11d7421385d",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "8d49183464ad8fb2411d5b8e13c6408eecd39e18",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "e41fa62810618234a47d1f42016e8c4e1a94fbaa",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "1fb1d0f2354a65158d7dd152aafdff94c8e2017028e4f68ffe87e5adf4df4a8b",
+    "SEARCH_RESULTS.md": "e5fd2482ce3ee007af3171f5613d48a1901bc0533d3798f24944b06f7df899f4",
+    "SEARCH_RECEIPT.json": "af0a7347aea47a44f856e071d183424deb17e79818b5db8d82240d8dbad753be",
+    "SEARCH_RECEIPT.md": "849f662fdcad84f7d06158479ec60cd78794bbf52c9b898f9f870c0783162ef9"
+  }
+}
