@@ -803,3 +803,17 @@ Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub link
 **Open issues:** (1) Separate `chatgpt.site` site cannot be published from this GitHub connector session; the Sites editor must restore/embed the *original* viewer rather than rewriting it. (2) Full research Mersearch requires a constrained server execution endpoint; public preview cannot access protected/private data. (3) Owner curation requires authenticated backend writes/receipts and private notes storage. (4) HSH_RESOURCES repository visibility metadata reports `public` despite its reference-private documentation; escalate to Nathan's GitHub settings review, do not syndicate that corpus. (5) Latest Javascript was syntax-checked but not interactive browser tested.
 
 **Site acceptance:** publish and verify `/conversations/`, `/research/search/`, default whole-archive message-body query, slower Typealong assistant, owner-only inline menu and exact frontpage slots; no changes to historical source files. Preserve the project visual system and navigation.
+
+---
+
+## 2026-10-26 — Universal Indicatrix blind laboratory website-source integration
+
+**Published in HsH repository:** new executable `PUBLIC_SITE/instruments/universal-indicatrix/index.html`, bidirectional lab navigation to and from `PUBLIC_SITE/instruments/whirligig/index.html`, searchable `PUBLIC_SITE/instruments/INSTRUMENT_REGISTRY.json`, and detailed `PUBLIC_SITE/instruments/universal-indicatrix/SITES_INTEGRATION.md`.
+
+**Frozen research source + documentation:** `tools/ui_blind_lab/`. Contains full offline HTML, Python kernel, regression tests (six PASS), audit manifest, frozen geometry, recovered-source README, detailed independent post-freeze comparison, and recommended next research steps. Do not modify baseline to make the comparator fit. Distinguish shipped geometric software from physical prediction; no 3C-SiC observable was derived.
+
+**Worker invitations persisted:** Meridian #615, Mercer #616, Ravel #617, Kestrel #618, Sites editor #619. Review/task creation confirmed; independent execution and live site deployment not established. 
+
+**Site integration queue:** deliver a prominent second Geometry Laboratory tile at `/laboratory/universal-indicatrix/` alongside `/laboratory/whirligig/`, with crosslinks, actual editable GitHub source, docs/test entry points, version/freeze labeling, accessible controls, functional JSON/CSV exports, and deployment readback. Existing Whirligig motion, Analemma and tests must not regress. Site-builder must import current GitHub HTML; a GitHub source commit alone does not publish to ChatGPT Sites.
+
+**Source:** `PUBLIC_SITE/instruments/universal-indicatrix/SITES_INTEGRATION.md`; [Sites issue #619](https://github.com/Satobloc/HsH/issues/619). Binary PDF/screenshot distributions remain session-local; no unsupported claim of GitHub-hosted ZIP/PDF release.
