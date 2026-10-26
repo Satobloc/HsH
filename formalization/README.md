@@ -1,5 +1,8 @@
 # Executable Equation Registry
 
+> **2026-10-26 bulk archive intake:** Before curating individual equations by hand, use [Archive Math Hopper](../tools/archive_math_hopper.py) and the [source/proof-status and QA guide](../WORKSPACES/COMMON/ARCHIVE_MATH_HOPPER_2026-10-26.md) to generate a provenance-bearing candidate index from actual checked-out source files/conversations. The hopper is **extraction-only**, not an evaluator or Lean proof generator. It does not modify this registry. Check source context, assumptions, namespaces, units and original status before promotion. [Implementation and full-archive rollout issue #578](https://github.com/Satobloc/HsH/issues/578).
+
+
 This directory is the machine-checkable bridge between source recovery and
 formalization. It does not replace the human equation ledger or the original
 archive documents.
