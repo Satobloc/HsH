@@ -59,6 +59,7 @@ def build(data, source_sha, limit=24, per_root=12):
         if score > b['best_score']:
             b.update(best_score=score, best_index=ix, hit=h)
 
+    # Public navigation receipts must not reproduce unreviewed source text.
     rows = []
     for (root, path), b in by_source.items():
         h = b['hit']
@@ -67,7 +68,7 @@ def build(data, source_sha, limit=24, per_root=12):
                          first_hit_index=b['first_index'], sample_hit_index=b['best_index'],
                          locator=clean(h.get('locator'), 200),
                          matched_terms=list(h.get('matched_terms', []))[:12],
-                         excerpt=clean(h.get('excerpt'), 280)))
+                         excerpt=''))
 
     # Stable tie-breaks and explicit bounded per-root representation.
     rows.sort(key=lambda r: (-r['best_score'], -r['record_count'], r['first_hit_index'], r['path']))
@@ -104,7 +105,7 @@ def build(data, source_sha, limit=24, per_root=12):
                 counted_hits=len(hits),
                 distinct_sources=len(by_source),
                 results_by_root=dict(sorted(counts.items())),
-                redaction_policy='No detailed resources/ paths, excerpts, or matched terms in this public receipt',
+                redaction_policy='No source excerpts from any root; no detailed resources/ paths or matched terms',
                 most_common_terms=terms.most_common(24),
                 ranking_note='Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking',
                 top_sources=selected, first_hits=first,
@@ -124,7 +125,7 @@ def markdown(receipt):
              f"**records scanned:** {receipt['coverage'].get('records_scanned', 'unknown')}; "
              f"**hits:** {receipt['counted_hits']}; **distinct source paths:** {receipt['distinct_sources']}", '',
              '**This is a bounded navigation receipt, not the full search results or evidence of a theory claim.**',
-             'No detailed hits from the HSH_RESOURCES \x60resources/\x60 checkout are repeated in this public receipt.', '',
+             'No verbatim source excerpts are published. Detailed HSH_RESOURCES \x60resources/\x60 hits are withheld.', '',
              '## Hits by root (counts only)', '']
     for root, count in sorted(receipt['results_by_root'].items()):
         lines.append(f'- \x60{esc(root)}\x60: {count}')
