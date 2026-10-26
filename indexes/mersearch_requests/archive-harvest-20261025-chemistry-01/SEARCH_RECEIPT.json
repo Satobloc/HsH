@@ -1,0 +1,595 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "de75e8f6b2b45d9fcdd7af2bf8c49350a0dc2e3f16f3d0d896594d43f6b2ab40",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-26T04:58:42.236409+00:00",
+  "query": "\"atomic chemistry\" OR \"chemical bond\" OR covalent OR \"ionic bond\" OR valence OR \"electron orbital\" OR \"atomic spectra\" OR \"periodic table\" OR molecule OR molecular OR stoichiometry OR \"reaction kinetics\" OR \"electron shell\" OR hybridization OR \"electron configuration\" OR \"hydrogen atom\" OR \"helium atom\" OR chemical",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14360,
+    "records_scanned": 24300866,
+    "hits": 25334
+  },
+  "counted_hits": 25334,
+  "distinct_sources": 2314,
+  "results_by_root": {
+    "archive": 7749,
+    "hsh-main": 11514,
+    "resources": 6071
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "molecular",
+      7356
+    ],
+    [
+      "chemical",
+      7253
+    ],
+    [
+      "molecule",
+      2600
+    ],
+    [
+      "hydrogen atom",
+      1279
+    ],
+    [
+      "periodic table",
+      1168
+    ],
+    [
+      "atomic spectra",
+      760
+    ],
+    [
+      "valence",
+      414
+    ],
+    [
+      "hybridization",
+      299
+    ],
+    [
+      "chemical bond",
+      229
+    ],
+    [
+      "electron shell",
+      167
+    ],
+    [
+      "covalent",
+      163
+    ],
+    [
+      "stoichiometry",
+      43
+    ],
+    [
+      "helium atom",
+      41
+    ],
+    [
+      "reaction kinetics",
+      31
+    ],
+    [
+      "electron orbital",
+      14
+    ],
+    [
+      "electron configuration",
+      12
+    ],
+    [
+      "atomic chemistry",
+      1
+    ],
+    [
+      "ionic bond",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 2,
+      "best_score": 403,
+      "first_hit_index": 17824,
+      "sample_hit_index": 17825,
+      "locator": "$.query",
+      "matched_terms": [
+        "atomic chemistry",
+        "chemical bond",
+        "covalent",
+        "ionic bond",
+        "valence",
+        "electron orbital",
+        "atomic spectra",
+        "periodic table",
+        "molecule",
+        "molecular",
+        "stoichiometry",
+        "reaction kinetics"
+      ],
+      "excerpt": "\"atomic chemistry\" OR \"chemical bond\" OR covalent OR \"ionic bond\" OR valence OR \"electron orbital\" OR \"atomic spectra\" OR \"periodic table\" OR molecule OR molecular OR stoichiometry OR \"reaction kinetics\" OR \"electron shell\" OR hybridization OR \"electron configuration\" OR \"hydroge"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 10,
+      "best_score": 115,
+      "first_hit_index": 2289,
+      "sample_hit_index": 2297,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "periodic table",
+        "molecular",
+        "electron shell",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 10,
+      "best_score": 115,
+      "first_hit_index": 2290,
+      "sample_hit_index": 2298,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "periodic table",
+        "molecular",
+        "electron shell",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 10,
+      "best_score": 115,
+      "first_hit_index": 2291,
+      "sample_hit_index": 2299,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "periodic table",
+        "molecular",
+        "electron shell",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 10,
+      "best_score": 115,
+      "first_hit_index": 2292,
+      "sample_hit_index": 2300,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "periodic table",
+        "molecular",
+        "electron shell",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.29•Theory of Everything_ — raw.json",
+      "title": "Theory of Everything?",
+      "record_count": 1,
+      "best_score": 99,
+      "first_hit_index": 753,
+      "sample_hit_index": 753,
+      "locator": "message:2f3fbf38-0b78-4b94-a768-3128ea672e36",
+      "matched_terms": [
+        "valence",
+        "periodic table",
+        "molecule",
+        "molecular",
+        "helium atom",
+        "chemical"
+      ],
+      "excerpt": "…lso References List of particles Article Talk Read Edit View history Tools Appearance hide Text Small Standard Large Width Standard Wide Color (beta) Automatic Light Dark From Wikipedia, the free encyclopedia This is a list of known and hypothesized molecular, atomic, and subato"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory of Everything_ — raw.json",
+      "title": "Theory of Everything?",
+      "record_count": 1,
+      "best_score": 99,
+      "first_hit_index": 754,
+      "sample_hit_index": 754,
+      "locator": "message:2f3fbf38-0b78-4b94-a768-3128ea672e36",
+      "matched_terms": [
+        "valence",
+        "periodic table",
+        "molecule",
+        "molecular",
+        "helium atom",
+        "chemical"
+      ],
+      "excerpt": "…lso References List of particles Article Talk Read Edit View history Tools Appearance hide Text Small Standard Large Width Standard Wide Color (beta) Automatic Light Dark From Wikipedia, the free encyclopedia This is a list of known and hypothesized molecular, atomic, and subato"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/[A] Geometry in Physics — raw.json",
+      "title": "[A] Geometry in Physics",
+      "record_count": 67,
+      "best_score": 98,
+      "first_hit_index": 1532,
+      "sample_hit_index": 1684,
+      "locator": "message:cf0303fd-fe01-4802-8871-4ae82a9b0e8e",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 53,
+      "best_score": 98,
+      "first_hit_index": 1529,
+      "sample_hit_index": 1681,
+      "locator": "message:cf0303fd-fe01-4802-8871-4ae82a9b0e8e",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 53,
+      "best_score": 98,
+      "first_hit_index": 1530,
+      "sample_hit_index": 1682,
+      "locator": "message:cf0303fd-fe01-4802-8871-4ae82a9b0e8e",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.07•26.09.08•Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 48,
+      "best_score": 98,
+      "first_hit_index": 1531,
+      "sample_hit_index": 1683,
+      "locator": "message:cf0303fd-fe01-4802-8871-4ae82a9b0e8e",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 46,
+      "best_score": 98,
+      "first_hit_index": 1935,
+      "sample_hit_index": 2130,
+      "locator": "message:75d8af95-9964-454b-a95f-f85e64c7159f",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 46,
+      "best_score": 98,
+      "first_hit_index": 1936,
+      "sample_hit_index": 2131,
+      "locator": "message:75d8af95-9964-454b-a95f-f85e64c7159f",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 46,
+      "best_score": 98,
+      "first_hit_index": 1937,
+      "sample_hit_index": 2132,
+      "locator": "message:75d8af95-9964-454b-a95f-f85e64c7159f",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 46,
+      "best_score": 98,
+      "first_hit_index": 1938,
+      "sample_hit_index": 2133,
+      "locator": "message:75d8af95-9964-454b-a95f-f85e64c7159f",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 27,
+      "best_score": 98,
+      "first_hit_index": 1824,
+      "sample_hit_index": 1839,
+      "locator": "message:9afc67c4-71ec-4024-94f7-21c40c8a4aea",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 18,
+      "best_score": 98,
+      "first_hit_index": 1897,
+      "sample_hit_index": 2220,
+      "locator": "message:b12ecf0c-5cdd-4fde-be75-f0786f2c3059",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw - .TXT",
+      "title": "SAT_H(s)H Skill Development — raw -",
+      "record_count": 2,
+      "best_score": 98,
+      "first_hit_index": 9402,
+      "sample_hit_index": 9402,
+      "locator": "line:1445",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw.json",
+      "title": "SAT/H(s)H Skill Development",
+      "record_count": 1,
+      "best_score": 98,
+      "first_hit_index": 2287,
+      "sample_hit_index": 2287,
+      "locator": "message:46079dec-f141-419a-b23d-e1f7f2476b53",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "hydrogen atom"
+      ],
+      "excerpt": "… solenoids all the way down, just interpreted as springs/helices); electrons are not considered to be ‘intercoiled’ with nuclei (I don’t think) they’re sort of ‘accessory coils’ forming a bundle—although now that I think of it, certain geometries of electron shell would probably"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "title": "SAT Framework Analysis",
+      "record_count": 43,
+      "best_score": 86,
+      "first_hit_index": 69,
+      "sample_hit_index": 123,
+      "locator": "message:d608d3ae-c538-40c0-b093-db82621da42b",
+      "matched_terms": [
+        "atomic spectra",
+        "molecular",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "… misalignment” also suggests that matter might form where filaments bunch up or fail to stay parallel. SAT describes a hierarchy of structure: threads, twines, yarns, bundles【4†L449-L458】, implying that increasingly complex matter (from subatomic to molecular to macroscopic) com"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 17,
+      "best_score": 78,
+      "first_hit_index": 8011,
+      "sample_hit_index": 8024,
+      "locator": "line:7863",
+      "matched_terms": [
+        "periodic table",
+        "electron shell",
+        "chemical"
+      ],
+      "excerpt": "…1.0$, the formula yields: $\\mu = 3 / (2 \\cdot 1^5) = \\mathbf{1.5}$.The Result: Instead of a proton being $\\approx 1836$ times heavier than an electron, it would be only 1.5 times heavier6. This would make the formation of stable atoms and the entire periodic table a structural i"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 3,
+      "best_score": 78,
+      "first_hit_index": 1154,
+      "sample_hit_index": 1154,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "atomic spectra",
+        "periodic table",
+        "chemical"
+      ],
+      "excerpt": "…timate falsification test of 4D lattice existence ────────────────────────────────────────────── [Step 8] Macroscopic & Universe-Scale Phenomena ────────────────────────────────────────────── - Emergent gravity: weak 3D effect of strong 4D tension - Atomic spectra subtly tuned b"
+    },
+    {
+      "root": "archive",
+      "path": "archive/COMPOSITE 1.txt",
+      "title": "COMPOSITE 1",
+      "record_count": 97,
+      "best_score": 77,
+      "first_hit_index": 4749,
+      "sample_hit_index": 4753,
+      "locator": "line:29782",
+      "matched_terms": [
+        "atomic spectra",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "…function of local lattice rigidity rather than a universal constant, treating the $1/R^2$ Cosmic Correction as a \\\"calibrated torque wrench\\\" to connect local atomic transitions to global $S^3$ curvature6more_horiz.Topological Spectroscopy: By using atomic spectra as high-precis"
+    },
+    {
+      "root": "archive",
+      "path": "archive/JETSTREAMS 2.txt",
+      "title": "JETSTREAMS 2",
+      "record_count": 95,
+      "best_score": 77,
+      "first_hit_index": 7035,
+      "sample_hit_index": 7039,
+      "locator": "line:24908",
+      "matched_terms": [
+        "atomic spectra",
+        "hydrogen atom",
+        "chemical"
+      ],
+      "excerpt": "…function of local lattice rigidity rather than a universal constant, treating the $1/R^2$ Cosmic Correction as a \\\"calibrated torque wrench\\\" to connect local atomic transitions to global $S^3$ curvature6more_horiz.Topological Spectroscopy: By using atomic spectra as high-precis"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:aaa22721-191f-4a9e-98ea-ac1ddb3f8bc7",
+      "matched_terms": [
+        "chemical"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:ad335718-3ac2-460c-b606-8fdf248be319",
+      "matched_terms": [
+        "chemical"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:c3c47164-9f9f-486e-b61b-9376c7b8a371",
+      "matched_terms": [
+        "molecular"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:aaa2bbfd-a4d1-4844-a842-410556ab22ad",
+      "matched_terms": [
+        "chemical"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:e6e97d61-f9f4-4d6c-a35f-d1378055990e",
+      "matched_terms": [
+        "chemical"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:aaa2f48d-3841-4824-b5b1-191fbfef492c",
+      "matched_terms": [
+        "molecule",
+        "chemical"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:d7ff4f14-7c26-4f57-97b7-f6527a5e5c8b",
+      "matched_terms": [
+        "covalent",
+        "molecule",
+        "molecular"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:aaa2f3ad-eb63-4640-bf12-4f9f3d2ee44e",
+      "matched_terms": [
+        "molecule"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
