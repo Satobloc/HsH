@@ -73,4 +73,9 @@ theorem no_universal_role_decoder (year : Nat) :
     ht.symm.trans hc
   cases hbad
 
+-- Kernel-axiom audit printed into CI logs; inspect for sorryAx/custom axioms.
+#print axioms title_and_composition_are_distinct
+#print axioms erase_year_role_not_injective
+#print axioms no_universal_role_decoder
+
 end HsHVerification.AsterYearRoleProvenance
