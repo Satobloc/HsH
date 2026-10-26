@@ -1,5 +1,8 @@
 # SAT/H(s)H Past Theorist Survey
 
+> **October 26 review note:** Nathan's uploaded `[A]` and `[B]` conversation-title prefixes are *his archival-value triage*, and must not be conflated with this survey's former-worker self-ratings, task suitability, source evidence, theorem validity or quarantine labels. See [Past Theorist Survey Addendum](PAST_THEORIST_SURVEY_ADDENDUM.md) for the source/worker/current-review crosswalk and [phase steering](PHASE_STEERING_2026-10-26.md) for the outstanding historic-work and compression recovery tasks. This note does not rewrite the original September survey questions or their responses.
+
+
 **Purpose:** recover useful institutional knowledge from earlier theorist/worker instances without assuming they know the current team structure, current terminology, or present theory status.
 
 This is a **blank-slate archival and capability survey**, not a test of whether the instance remembers the current project correctly. Answer from the context actually available in your thread. If you do not know something, say so.
