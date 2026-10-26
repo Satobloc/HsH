@@ -1,0 +1,52 @@
+name: Archive Math Hopper smoke
+
+on:
+  push:
+    paths:
+      - .github/workflows/archive-math-hopper-smoke.yml
+      - tools/archive_math_hopper.py
+      - tools/mersearch_math_structural.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile ingestion code (no physics calculations)
+        run: python -m py_compile tools/archive_math_hopper.py
+      - name: Scan one actual archive research file, metadata-only outputs
+        run: |
+          python tools/archive_math_hopper.py \
+            WORKSPACES/ORSON_VAY/OV_CUMULATIVE_FINDINGS_2026-10-20.md \
+            --out "$RUNNER_TEMP/math-hopper"
+      - name: Check extraction report contract
+        env:
+          MATH_HOPPER_OUT: ${{ runner.temp }}/math-hopper
+        run: |
+          python - <<'PY'
+          import os,json,pathlib
+          folder=pathlib.Path(os.environ["MATH_HOPPER_OUT"])
+          d=json.loads((folder/"MANIFEST.json").read_text())
+          assert d["files_inspected"]==1
+          assert d["candidates"]>0
+          assert d["math_pass"] is None and d["math_fail"] is None
+          assert d["lean_status"]=="NOT_RUN"
+          rows=[json.loads(x) for x in (folder/"CANDIDATES.jsonl").read_text().splitlines()]
+          assert rows and all(x["source_sha256"] and x["math"]=="NOT_RUN" for x in rows)
+          print("ARCHIVE_HOPPER_SOURCE_SMOKE_PASS",d["candidates"])
+          PY
+      - name: Upload report and manifest ONLY (not raw math candidates)
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-math-hopper-smoke-summary
+          path: |
+            ${{ runner.temp }}/math-hopper/MANIFEST.json
+            ${{ runner.temp }}/math-hopper/REPORT.md
