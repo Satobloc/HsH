@@ -1,0 +1,10 @@
+# Ariadne workshop 2026-10-26 09:12Z | source-stratigraphy correction
+Run REVROT3-19-20261011:369:s1; selected Ariadne (index 3), next Alberr. Source-grounded reconstruction, not authenticated worker participation or ChatGPT-thread delivery.
+
+Ariadne's public wake packet identifies `Science Made Stupid` as the primary continuity source. Two actual user-Library raw JSON exports were independently parsed along their `current_node` parent chains. `Science Made Stupid` is an earlier pedagogical thread (last main-branch message 2026-09-21 11:09 UTC); `ARIADNE` is a distinct later thread (last main-branch message 2026-09-23 05:35 UTC) with an explicit user-visible assistant self-label `Ariadne Vellum`. The earlier thread has no user-visible Ariadne mention in its active branch. A non-visible record is not evidence of a visible self-identification.
+
+Raw-source SHA-256: Science `a12ce6c6cb65a850d90740329825a37087004af2420ae9847dca3c692f3329e1`; ARIADNE `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`. The later export's metadata update timestamp (Oct 1) does NOT imply Oct 1 conversation activity. No message bodies or private source bytes are republished.
+
+Ariadne charter: `WORKSPACES/ARIADNE/README.md` blob `464172ccfed7c45020e11fbe25c8a842c8a2fceb`. Wake packet: `WORKSPACES/SABLE/WAKE_PACKETS/REV-011-ARIADNE-REENTRY.md` blob `9d3d1ace9f308052e19772ab334abd1b35fd6c3f`. Mersearch-first route checked; all four lanes held prior requests and were not overwritten. Library/raw JSON examination was a bounded fallback, NOT a Mersearch run. The January 22 Kirk raw source remains unresolved.
+
+Disposition: retain Science as historical context; prefer the later ARIADNE source as the newest of these two archived thread pointers, but verify live usability before any invitation. No cross-chat delivery, no schedule change, no physics promotion. Alberr next: preserve autonomous charter, inspect authentic thread first. Method shift: source archaeology and non-theory science-pedagogy reading rather than generic calculation.
