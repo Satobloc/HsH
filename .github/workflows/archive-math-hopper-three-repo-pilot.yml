@@ -1,0 +1,81 @@
+name: Archive Math Hopper three-repo bounded pilot
+
+on:
+  push:
+    paths:
+      - .github/workflows/archive-math-hopper-three-repo-pilot.yml
+  workflow_dispatch:
+    inputs:
+      max_files_each:
+        description: 'Bounded number of files per source repository'
+        required: true
+        default: '100'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: archive-math-hopper-3repo-pilot
+  cancel-in-progress: false
+
+jobs:
+  three-repo-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: HsH
+          fetch-depth: 1
+      - uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: SAT_THEORY_ARCHIVE_2023-25
+          fetch-depth: 1
+      - uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: HSH_RESOURCES
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Bounded source-based math extraction (not proof)
+        env:
+          MAX_FILES: ${{ inputs.max_files_each || '100' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile HsH/tools/archive_math_hopper.py
+          mkdir -p "$RUNNER_TEMP/math-hopper/manifest"
+          for repo in SAT_THEORY_ARCHIVE_2023-25 HsH HSH_RESOURCES; do
+            git -C "$repo" rev-parse HEAD > "$RUNNER_TEMP/math-hopper/manifest/$repo.commit.txt"
+            python HsH/tools/archive_math_hopper.py "$repo" \
+              --max-bytes 25000000 --limit-files "$MAX_FILES" \
+              --out "$RUNNER_TEMP/math-hopper/$repo"
+            cp "$RUNNER_TEMP/math-hopper/$repo/MANIFEST.json" "$RUNNER_TEMP/math-hopper/manifest/$repo.MANIFEST.json"
+            cp "$RUNNER_TEMP/math-hopper/$repo/REPORT.md" "$RUNNER_TEMP/math-hopper/manifest/$repo.REPORT.md"
+          done
+      - name: Assert non-evaluating source provenance and summarize bounded totals
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib, os
+          base=pathlib.Path(os.environ["RUNNER_TEMP"])/"math-hopper"/"manifest"
+          overall={}
+          for repo in ("SAT_THEORY_ARCHIVE_2023-25","HsH","HSH_RESOURCES"):
+              x=json.loads((base/(repo+".MANIFEST.json")).read_text())
+              assert x["lean_status"]=="NOT_RUN"
+              assert x["math_pass"] is None and x["math_fail"] is None
+              assert x["files_inspected"]<=100 or os.environ.get("GITHUB_EVENT_NAME")=="workflow_dispatch"
+              overall[repo]={"commit":(base/(repo+".commit.txt")).read_text().strip(),
+                             "files":x["files_inspected"],"candidates":x["candidates"],
+                             "notation_keys":x["unique_notation_keys"]}
+          (base/"SUMMARY.json").write_text(json.dumps(overall,indent=2)+"\n")
+          print("THREE_REPO_MATH_EXTRACTION",json.dumps(overall))
+          PY
+      - name: Keep compact run statistics only, no original math snippets
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-math-hopper-three-repo-manifests
+          path: ${{ runner.temp }}/math-hopper/manifest/
