@@ -1,4 +1,7 @@
 # Steering Charter: scientific workshop ecology
+
+> **NEW NATHAN DIRECT 2026-10-26: UNIVERSAL SHAPE-TO-LEAN PRIORITY.** On all worker lanes, any explicit mathematical claim OR described/referenced/extractable geometry or transformation triggers source-faithful Lean 4 formal-proof triage; exemption only when neither math nor geometry exists. Preserve real-data-first permission gates, distinct specialist charters, actual Lean-versus-pseudocode status, and proof-versus-physical-truth separation. See [full verified directive](NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md). Adoption must be tested from subsequent actual worker receipts; publishing instructions alone is not evidence of compliance.
+
 **October 26, 2026 | active management and methodology directive**
 
 Nathan directly appoints the present assistant as lead methodology, workflow, oversight and strategic steering supervisor alongside himself, with broad authority to inspect, adapt, build, route, assess and improve project research, archival, software and publication workflows without seeking approval for ordinary reversible project actions. This is an assistant-authored operational summary; link the original turn when archived.
