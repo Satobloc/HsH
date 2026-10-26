@@ -161,3 +161,11 @@ A memorable quotation, news juxtaposition, attractive diagram, or polished page 
 - add Nathan-supplied thumbnails/visuals to `ASSET_MANIFEST.json` as they arrive;
 - when the site publisher is available, wire these feeds and the editorial/visual system into the public presentation;
 - update `SITE_DEVELOPMENT_WORK_LOG.md` after material design, architecture, asset, or publication changes.
+
+## Geometry Laboratory: two source-controlled instruments (2026-10-26)
+
+- [Whirligig R/Q](instruments/whirligig/index.html) — existing constrained curve comparison; [integration contract](instruments/whirligig/SITES_INTEGRATION.md).
+- [Universal Indicatrix](instruments/universal-indicatrix/index.html) — independent dimensionless 4D relative-frame geometric instrument; [integration contract](instruments/universal-indicatrix/SITES_INTEGRATION.md), [full editor prompt](instruments/universal-indicatrix/SITES_EDITOR_PROMPT_20261026.md), [download assets/manifest](instruments/universal-indicatrix/ASSET_MANIFEST.json), [frozen source and tests](../tools/ui_blind_lab/).
+- [Instrument registry](instruments/INSTRUMENT_REGISTRY.json) — site-facing source links and requested live routes. **GitHub source integration has been committed; live ChatGPT Sites publish/readback is not verified.**
+
+Both instruments are public-facing *mathematical tools*, not automatic evidence for SAT/H(s)H physical claims. The 3C-SiC comparison exists only as a post-freeze review; the blind UI has no measured/effective-mass fitting targets.
