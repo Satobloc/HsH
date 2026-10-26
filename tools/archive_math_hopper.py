@@ -49,11 +49,15 @@ def scan(roots,out,max_bytes,limit,excludes):
     engine=core()
     skipped=EXCLUDED | set(excludes)
     seen=set()
-    candidates=[]
     files=0
     modes=Counter()
+    notation_keys=set()
+    candidate_count=0
+    out.mkdir(parents=True,exist_ok=True)
+    pending=out/"CANDIDATES.jsonl.tmp"
+    writer=pending.open("w",encoding="utf-8")
     for root in roots:
-        for file in ([root] if root.is_file() else root.rglob("*")):
+        for file in ([root] if root.is_file() else sorted(root.rglob("*"))):
             if not file.is_file() or any(part in skipped for part in file.parts) or file.suffix.lower() not in ALLOWED:
                 continue
             if file.resolve() in seen or file.stat().st_size>max_bytes:
@@ -77,7 +81,7 @@ def scan(roots,out,max_bytes,limit,excludes):
                     cid="MH-"+hashlib.sha256(identity.encode()).hexdigest()[:20]
                     level="delimited" if raw!=text[start:end] else "line-candidate"
                     modes[level]+=1
-                    candidates.append({
+                    record={
                         "candidate_id":cid,"notation_key":fp,
                         "repo":repo,"path":relative,"sha256":source_sha,
                         "locator":locator,"message_id":message_id,
@@ -87,17 +91,19 @@ def scan(roots,out,max_bytes,limit,excludes):
                         "extraction":"FOUND","format":"NOT_VALIDATED",
                         "math":"NOT_RUN","lean":"NOT_RUN","empirical":"NOT_RUN",
                         "next":"SOURCE_CONTEXT_SYMBOLS_ASSUMPTIONS_AND_UNITS"
-                    })
+                    }
+                    writer.write(json.dumps(record,ensure_ascii=False,sort_keys=True)+"\n")
+                    candidate_count+=1
+                    notation_keys.add(fp)
         if limit and files>=limit:
             break
-    candidates.sort(key=lambda x:(x["repo"],x["path"],x["locator"],x["start"]))
-    out.mkdir(parents=True,exist_ok=True)
-    (out/"CANDIDATES.jsonl").write_text("".join(json.dumps(item,ensure_ascii=False,sort_keys=True)+"\n" for item in candidates),encoding="utf-8")
+    writer.close()
+    pending.replace(out/"CANDIDATES.jsonl")
     summary={
-        "tool":VERSION,"date_utc":datetime.now(timezone.utc).isoformat(),
+        "tool":VERSION,"streaming":True,"date_utc":datetime.now(timezone.utc).isoformat(),
         "roots":[str(p) for p in roots],"files_inspected":files,
-        "candidates":len(candidates),
-        "unique_notation_keys":len({x["notation_key"] for x in candidates}),
+        "candidates":candidate_count,
+        "unique_notation_keys":len(notation_keys),
         "modes":dict(modes),"math_pass":None,"math_fail":None,
         "lean_status":"NOT_RUN","excluded":sorted(skipped),
         "warning":"Archive ingestion only: equation validity cannot be inferred from extracted notation."
@@ -105,7 +111,7 @@ def scan(roots,out,max_bytes,limit,excludes):
     (out/"MANIFEST.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     (out/"REPORT.md").write_text(
         "# Archive Math Hopper\n\n"
-        +f"- Files: {files}\n- Candidate occurrences: {len(candidates)}\n"
+        +f"- Files: {files}\n- Candidate occurrences: {candidate_count}\n"
         +f"- Distinct notation keys: {summary['unique_notation_keys']}\n"
         +"- Mathematical/Lean proof: NOT RUN.\n\n"
         +"Curate source context, domains, symbols, units and assumptions, then transfer an appropriate claim into formalization/equations.json. This extraction score is NOT a truth score.\n",
