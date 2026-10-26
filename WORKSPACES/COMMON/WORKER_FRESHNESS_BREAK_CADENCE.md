@@ -1,5 +1,8 @@
 # Worker Freshness / Break Cadence
 
+**2026-10-26 execution addition:** Nathan again requires substantive non-theory reading, outside research and recreation as a genuine part of worker method and creativity, not a token footnote. The [new Steering Charter](STEERING_CHARTER_2026-10-26.md) proposes one meaningful lateral reading/exploration quantum per five actual worker activations (where safe), with exact source/extent/surprise and a resumable cursor; the actual ratio is **not yet measured**. A preserved worker charter (especially Orson's cognition lane) is primary even inside a generalist recurrence. Rotating through the same calculation template does not satisfy differentiation. The Comptroller samples evidence and changes method/lease if a rut is observed.
+
+
 **Status:** CURRENT / LIGHTWEIGHT HEALTH CONTROL  
 **Established:** 2026-09-21  
 **Nathan directive:** keep the workflow fresh and make sure workers take breaks.
