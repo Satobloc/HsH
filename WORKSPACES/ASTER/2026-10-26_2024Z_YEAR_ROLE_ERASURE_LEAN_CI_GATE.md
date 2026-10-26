@@ -49,3 +49,14 @@ These are universally quantified abstract type/logic claims with **no invented p
 **First compile succeeded.** GitHub Actions run [40395147258](https://github.com/Satobloc/HsH/actions/runs/40395147258), job `121826093468`, completed `success`. The independently retrieved 49,703-character job log records `✔ [8936/8938] Built HsHVerification.AsterYearRoleProvenance` and `Build completed successfully (8938 jobs)`; Lean `4.34.0`, Lake `5.0.0-src+293d5d0`, Mathlib pinned `v4.34.0`. Existing unrelated ArchiveEQ0004 emitted two unused-variable warnings; no compilation error in the Aster module.
 
 **Kernel-axiom audit now requested.** The CI environment output includes `nanoda-allow-sorry: true`; absence of `sorry` in Aster's file was source-checked, but that configuration alone does not prohibit holes elsewhere. Added three `#print axioms` commands at new proof-source blob `6e3f6c30234aeecca49ed94a06f5a5f87fc5a98e`, commit `5985a56076d8d08de283555e403d1598200b0400`. Follow-up run [40395854858](https://github.com/Satobloc/HsH/actions/runs/40395854858), job `121828566743`, **in progress** as of this update. Do not promote `NO_UNCHECKED_AXIOMS` until its actual log is read.
+
+## Final CI/axiom readback 2026-10-26T20:33Z
+
+**LEAN_PROVED (typed provenance schema only):** Follow-up run [40395854858](https://github.com/Satobloc/HsH/actions/runs/40395854858), job `121828566743`, completed **success**. The independently fetched 49,554-character log records `Built HsHVerification.AsterYearRoleProvenance` and `Build completed successfully (8938 jobs)`. The three `#print axioms` outputs at `AsterYearRoleProvenance.lean:77–79` each explicitly state **"does not depend on any axioms"** for:
+- `title_and_composition_are_distinct`
+- `erase_year_role_not_injective`
+- `no_universal_role_decoder`
+
+The separate Lean Action `axiom-audit` action step was **skipped**, not executed; the explicit compiler `#print axioms` readback above is the evidence for these three declarations. Lean version `4.34.0`; Lake `5.0.0-src+293d5d0`; pinned Mathlib `v4.34.0`. PR synthetic CI checkout commit `ed1e799ce95429eed35bfbb8464190d780c920ec`; source branch head `5985a56076d8d08de283555e403d1598200b0400`, source blob `6e3f6c30234aeecca49ed94a06f5a5f87fc5a98e`. Unrelated existing ArchiveEQ0004 unused-variable warnings and Node.js deprecation warning remain in log.
+
+**Scientific interpretation unchanged:** only the typed metadata information-loss theorem has been kernel-checked. The story's original composition/publication date and historical authorship remain unresolved. PR #626 is still **draft/open** and no merge, paper completion, physics test or BEDROCK promotion is claimed.
