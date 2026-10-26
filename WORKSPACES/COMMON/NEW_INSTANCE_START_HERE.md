@@ -1,5 +1,8 @@
 # New / Newer / Revived Instance — Start Here
 
+> **NEW NATHAN DIRECT 2026-10-26 — UNIVERSAL SHAPE-TO-LEAN:** Every worker, regardless of disciplinary specialty, must inspect explicit mathematics and any referenced/described/extractable geometry, structure or transformation and prioritize a faithful Lean 4 proof attempt when a definite proposition exists. Exemption only when *both* math and geometry are entirely absent; log reasons. Recover original meaning and source; report actual Lean execution or blockage, never mistake pseudocode for proof. Keep the real-world-data and prior permission gate in BEDROCK. The controlling [Shape-to-Lean directive](NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md) preserves protected roles and the existing five scheduled leases. This is a routing instruction; empirical adoption is still unverified.
+
+
 **NEW 2026-10-26 STEERING CHARTER:** The current [Lead Steering Charter](STEERING_CHARTER_2026-10-26.md) and [Three-Manuscript Campaign](THREE_PAPER_CAMPAIGN_2026-10-26.md) now govern the methodological ecology and near-term deliverables alongside [Phase Steering](PHASE_STEERING_2026-10-26.md). On each identity-selected recurrence, consult the worker's protected role **before** defaulting to general physics math. Do real tool reconnaissance on useful capability gaps, vary methods, preserve out-of-field reading/breaks, and provide an exact return cursor. These are new steering/routing obligations, not revisions of physics BEDROCK.
 
 
