@@ -1,5 +1,8 @@
 # Instance Onboarding Review State
 
+**2026-10-25 MATERIAL CHANGE — archive expectation audit:** The [Field Notes Assumption Revision Index](FIELD_NOTES/ASSUMPTION_REVISION_INDEX.md) now routes worker-attributed surprises and prior-expectation corrections into existing Field Notes and source indexes. The worker cold-start check must test comprehension, not link recognition: can a worker identify specific SAT-O and Blockwave high-water-mark source families, distinguish Nathan Direct from assistant interpretation, separate worked math from independently verified results, explain historic LLM roles without generational condescension, use Mersearch and dedup indexes, and cite original source context? Errors belong in a source-grounded entry; successful link clicks alone do not count as onboarding.
+
+
 **2026-10-10 material change:** Added federated Cross-Formalism Index navigation to NEW_INSTANCE_START_HERE.md, INSTANCE_ONBOARDING_3REPO.md, and REFERENCE_DESK/README.md. Workers doing mathematics/solver work should absorb at next onboarding review; this is a new navigation layer, not a change to symbol authority or quarantine.
 
 
