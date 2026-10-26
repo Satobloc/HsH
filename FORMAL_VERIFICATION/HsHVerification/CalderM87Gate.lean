@@ -7,7 +7,7 @@ import Mathlib
 Empirical anchor, NOT a theorem premise:
 Event Horizon Telescope Collaboration, 2019, ApJL 875 L1
 DOI 10.3847/2041-8213/ab0ec7, 2017 1.3 mm interferometry,
-reported image-domain ring diameter 42 +/- 3 microarcseconds.
+reported image-domain ring diameter 42 ± 3 microarcseconds.
 Paper VI uses geometric and GRMHD calibration to infer angular
 gravitational radius and mass; these are not raw independent diameter
 observations. This Lean model DOES NOT reproduce EHT interferometric
