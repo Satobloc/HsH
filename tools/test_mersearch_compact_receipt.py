@@ -20,8 +20,11 @@ text = m.markdown(out)
 assert out['counted_hits'] == 3
 assert out['results_by_root']['resources'] == 1
 assert all(x['root'] != 'resources' for x in out['top_sources'])
+assert all(x['excerpt'] == '' for x in out['top_sources'])
+assert 'TEST A' not in text and 'TEST B' not in text
+assert 'Sample:' not in text
 assert 'TOP SECRET' not in text
 assert 'SENSITIVE' not in text
 assert 'SECRET/private' not in text
 assert out == m.build(sample,'testsha')
-print('PASS compact receipt, deterministic ranking and private-source redaction')
+print('PASS compact receipt, deterministic ranking and all-root source-excerpt suppression')
