@@ -48,6 +48,7 @@ theorem fitted_neutrino_is_identity {target cosB B rho : ℝ}
 theorem linear_in_neutrino (m1 m2 cosB B rho : ℝ) :
     pseudoMass (m1 + m2) cosB B rho =
       pseudoMass m1 cosB B rho + pseudoMass m2 cosB B rho := by
+  unfold pseudoMass
   ring
 
 end HsHVerification.ArchiveEQ0029
