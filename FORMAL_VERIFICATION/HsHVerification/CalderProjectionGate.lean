@@ -65,10 +65,11 @@ theorem augmented_injective_of_extra_injective
     (extra : Hidden → Extra) (hextra : Function.Injective extra) :
     Function.Injective (augmentedReadout (Obs := Obs) extra) := by
   intro x y h
-  apply Prod.ext
-  · exact congrArg Prod.fst h
-  · apply hextra
-    exact congrArg Prod.snd h
+  have hobs : x.1 = y.1 := by
+    exact congrArg (fun q : Obs × Extra => q.1) h
+  have hex : extra x.2 = extra y.2 := by
+    exact congrArg (fun q : Obs × Extra => q.2) h
+  exact Prod.ext hobs (hextra hex)
 
 #print axioms hidden_fiber_collision
 #print axioms readout_not_injective
