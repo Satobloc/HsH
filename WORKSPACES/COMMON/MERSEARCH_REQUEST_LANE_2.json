@@ -1,18 +1,19 @@
 {
-  "request_id": "tern-rook-optical-kink-genealogy-20261024t17z-001",
-  "requester": "Tern Rook",
-  "requested_at": "2026-10-24T17:12:00Z",
+  "request_id": "archive-harvest-20261025-optics-01",
+  "requester": "Archive subject inventory / Nathan Direct",
+  "requested_at": "2026-10-25",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(\"theta_4\" NEAR/12 \"tanh\") OR (\"phase retardance\" NEAR/12 \"kink\") OR (\"sin²\" NEAR/12 \"theta\")",
-  "purpose": "Trace early SAT theta4 tanh kink and optical retardance calculations, source dates, later corrections and duplicates; math audit with independent physical readout checks",
+  "query": "optics OR optical OR \"refractive index\" OR refraction OR birefringence OR \"phase shift\" OR retardance OR interferometry OR polarization OR spectroscopy OR dispersion OR photonic OR diffraction OR \"Smith-Purcell\" OR Cherenkov OR evanescent OR waveguide OR metasurface OR \"optical kink\"",
+  "purpose": "Discovery-only document inventory of SAT/H(s)H optics, experimental optical calibrations, phase, light–matter interactions, and all dated original-source candidates across both main archives.",
   "preferred_outputs": [
-    "primary source paths and message timestamps",
-    "historical equation versions",
-    "later corrected optical units and profiles"
+    "all file paths and conversation/message locators",
+    "matched contexts sufficient to classify documents",
+    "original dates and source SHA256",
+    "cross-repository duplication candidates"
   ],
   "status": "requested",
   "lane": 2
