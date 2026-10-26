@@ -1,5 +1,7 @@
 # Old Plan Recovery Sweep — 2026-09-24
 
+> **2026-10-26 continuation and expanded parent context:** Nathan has designated the ongoing live conversation as the current phase's top-level management interface. [PHASE_STEERING_2026-10-26.md](PHASE_STEERING_2026-10-26.md) federates this existing old-plan sweep with the historical Dashboard, [A]/[B] conversation source ratings, old-worker surveys, Ouroboros/Soxieu and mission-control forks, Clinamen compression, Factory Floor Lean, external-paper comparisons, traffic analytics, licensing and sustainable income. Continue OP-01 onward here rather than restarting plan reconstruction in a new competing ledger. This pointer does NOT close older OP items or change their historical status.
+
 **Status:** ACTIVE / first pass
 **Nathan directive:** deliberately search arbitrarily old project material for `to-do`, `TODO`, `action plan`, `action items`, `next steps`, `roadmap`, `priority`, and similar unfinished-plan language; recover still-useful intent without blindly reviving obsolete mechanisms.
 
