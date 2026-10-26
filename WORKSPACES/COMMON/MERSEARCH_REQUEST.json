@@ -1,22 +1,20 @@
 {
-  "request_id": "2026-10-21-orson-nlm-big-haul-math-001",
-  "requester": "Orson Vay",
-  "requested_at": "2026-10-21",
+  "request_id": "archive-harvest-20261025-materials-01",
+  "requester": "Archive subject inventory / Nathan Direct",
+  "requested_at": "2026-10-25",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "math:\"B=3/(4*pi)\" OR math:\"hbar=m0*c*lf*B\" OR math:\"G=rho_embed^2*c^2*lf/m0\" OR math:\"Q=Lwind+Llink+Wwrithe\" OR math:\"y=rRx0\" OR math:\"L=1/2*rdot^2+1/2*r^2*Omega^2\" OR \"Braid Smoothing\" OR \"Star Pattern\" OR \"iterative closure\" OR \"loop system\" OR \"Laplace-Beltrami\" OR \"Polyakov action\" OR \"pair of pants\" OR cobordism",
-  "purpose": "Broad math excavation of DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL and recovery of cross-repository ancestors/duplicates for the major equation families and relationship structures. Use math-normalized search where possible, then compare hits against current team audits before promoting or repairing anything.",
+  "query": "\"materials science\" OR \"material science\" OR \"solid state\" OR \"crystal lattice\" OR \"crystallography\" OR \"metamaterial\" OR phonon OR semiconductor OR \"elastic modulus\" OR metallurgy OR graphene OR \"band gap\" OR dielectric OR ferroelectric OR piezoelectric OR \"material properties\" OR nanomaterial OR conductivity OR resistivity",
+  "purpose": "Discovery-only document inventory, materials science and condensed-matter SAT/H(s)H work. Identify all relevant original archival files in both principal archives, retaining contextual excerpts and document paths; do not draft or extract theory.",
   "preferred_outputs": [
-    "exact file paths and conversation/message locators",
-    "math-normalized equation hits",
-    "NLM_BIG_HAUL hits plus older/internal ancestor hits",
-    "duplicate/source-family relationships",
-    "equation-bearing excerpts",
-    "cross-domain loop/star-map passages",
-    "braid smoothing / cobordism / SAT-ST bridge passages"
+    "all file paths and conversation/message locators",
+    "matched contexts sufficient to classify documents",
+    "original dates and source SHA256",
+    "cross-repository duplication candidates"
   ],
-  "status": "requested"
+  "status": "requested",
+  "lane": 1
 }
