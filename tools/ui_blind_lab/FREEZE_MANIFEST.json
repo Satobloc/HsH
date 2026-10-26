@@ -1,0 +1,33 @@
+{
+  "freeze_id": "SAT-UI-BLIND-20261026-001",
+  "status": "SOURCE_ONLY_GEOMETRY_FROZEN",
+  "dataset_inputs": "NONE",
+  "external_paper_parameters": "NONE",
+  "source_family": [
+    "SAT GEOMETRIC SOLVERS.txt",
+    "2026/SAT CORE \u2014 UI CONFIG.txt",
+    "SAT UNODROP.txt",
+    "ONE FILE SAT 2.pdf (extracted text)"
+  ],
+  "model_commit_files_sha256": {
+    "index.html": "aa3b7ec1eb7cb9232e277aca4266826dc5d4b612627b07af748c4adb46b88b09",
+    "ui_kernel.py": "fda4bf713e3b624c0b43bffcfec7395bb917d36517985e411c1027b23fcc72a7",
+    "test_ui.py": "21306bb0b628ca479560827e8c9475b1ea32a316e6533eb031f708df770a8e66",
+    "ui_browser.js": "23ed68786d15c60e3f9acd5a736b36b61cef8dc9eda44f17e969ce716ba30661",
+    "BLIND_FREEZE_GEOMETRY.json": "f6ce0d605aaf0d0eb9ccd312f0f5dd3e2312aac404a257ce0aaee380cd130469"
+  },
+  "default_identity_check": {
+    "sha256": "e9d833c4aaf69087b74793386015bd43c402047ef4d5e67e163b47d767af8f12",
+    "description": "dimensionless unit-circle SO(4) fixture; not physics evidence"
+  },
+  "predicted_material_observables": "NONE",
+  "nuisance_parameters_not_determined": [
+    "T",
+    "kappa",
+    "alpha",
+    "V_int",
+    "time-normal field",
+    "sector Hamiltonian"
+  ],
+  "claim_boundary": "No fit, no access to paper data by executable engine"
+}
