@@ -1,19 +1,19 @@
 {
-  "request_id": "archive-harvest-20261025-materials-01",
-  "requester": "Archive subject inventory / Nathan Direct",
-  "requested_at": "2026-10-25",
+  "request_id": "indicatrix-corpus-20261026-001",
+  "requester": "Nathan Direct / full lexical archive inventory",
+  "requested_at": "2026-10-26",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "\"materials science\" OR \"material science\" OR \"solid state\" OR \"crystal lattice\" OR \"crystallography\" OR \"metamaterial\" OR phonon OR semiconductor OR \"elastic modulus\" OR metallurgy OR graphene OR \"band gap\" OR dielectric OR ferroelectric OR piezoelectric OR \"material properties\" OR nanomaterial OR conductivity OR resistivity",
-  "purpose": "Discovery-only document inventory, materials science and condensed-matter SAT/H(s)H work. Identify all relevant original archival files in both principal archives, retaining contextual excerpts and document paths; do not draft or extract theory.",
+  "query": "Indicatrix",
+  "purpose": "Find every eligible document and conversation export containing literal word Indicatrix (case-insensitive) in content, and all filenames containing it. Return all matching unique source document paths, grouped by repository, with original locators and coverage limits. Inventory-only; do not substitute semantic matches.",
   "preferred_outputs": [
-    "all file paths and conversation/message locators",
-    "matched contexts sufficient to classify documents",
-    "original dates and source SHA256",
-    "cross-repository duplication candidates"
+    "complete list of distinct document paths and repositories",
+    "all matching records with original line/message offsets",
+    "matching filename and full-text sources",
+    "source snapshot commits, exclusions, and deduplication"
   ],
   "status": "requested",
   "lane": 1
