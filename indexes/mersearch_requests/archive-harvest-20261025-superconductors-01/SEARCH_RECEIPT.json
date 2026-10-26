@@ -1,0 +1,614 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "50a93e86aba14cb92126ee88130e52ebac3830b4a2484345afaaf56c6f9914e0",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-26T04:18:33.481255+00:00",
+  "query": "superconductivity OR superconducting OR superconductor OR \"Cooper pair\" OR Meissner OR Josephson OR \"flux quantization\" OR \"critical temperature\" OR \"critical current\" OR Abrikosov OR \"vortex lattice\" OR superfluid OR \"Bose-Einstein condensate\" OR condensate OR \"quantum Hall\" OR \"London equation\" OR \"Ginzburg-Landau\" OR \"type II superconductor\" OR BCS",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14360,
+    "records_scanned": 24300866,
+    "hits": 17154
+  },
+  "counted_hits": 17154,
+  "distinct_sources": 1672,
+  "results_by_root": {
+    "archive": 4180,
+    "hsh-main": 9060,
+    "resources": 3914
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "superfluid",
+      4709
+    ],
+    [
+      "condensate",
+      2797
+    ],
+    [
+      "superconductivity",
+      2715
+    ],
+    [
+      "superconducting",
+      1366
+    ],
+    [
+      "quantum Hall",
+      1130
+    ],
+    [
+      "flux quantization",
+      1086
+    ],
+    [
+      "Bose-Einstein condensate",
+      998
+    ],
+    [
+      "superconductor",
+      367
+    ],
+    [
+      "BCS",
+      276
+    ],
+    [
+      "Josephson",
+      188
+    ],
+    [
+      "Cooper pair",
+      113
+    ],
+    [
+      "vortex lattice",
+      103
+    ],
+    [
+      "critical temperature",
+      102
+    ],
+    [
+      "Meissner",
+      40
+    ],
+    [
+      "Ginzburg-Landau",
+      37
+    ],
+    [
+      "critical current",
+      33
+    ],
+    [
+      "Abrikosov",
+      8
+    ],
+    [
+      "type II superconductor",
+      1
+    ],
+    [
+      "London equation",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_4.json",
+      "title": "MERSEARCH_REQUEST_LANE_4",
+      "record_count": 2,
+      "best_score": 408,
+      "first_hit_index": 11709,
+      "sample_hit_index": 11710,
+      "locator": "$.query",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "superconductor",
+        "Cooper pair",
+        "Meissner",
+        "Josephson",
+        "flux quantization",
+        "critical temperature",
+        "critical current",
+        "Abrikosov",
+        "vortex lattice",
+        "superfluid"
+      ],
+      "excerpt": "superconductivity OR superconducting OR superconductor OR \"Cooper pair\" OR Meissner OR Josephson OR \"flux quantization\" OR \"critical temperature\" OR \"critical current\" OR Abrikosov OR \"vortex lattice\" OR superfluid OR \"Bose-Einstein condensate\" OR condensate OR \"quantum Hall\" OR "
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "title": "SAT Framework Analysis",
+      "record_count": 92,
+      "best_score": 154,
+      "first_hit_index": 6,
+      "sample_hit_index": 100,
+      "locator": "message:d608d3ae-c538-40c0-b093-db82621da42b",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "superconductor",
+        "Cooper pair",
+        "flux quantization",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "…tropies. That will require significant development. For now, one can say **SAT doesn’t obviously contradict cosmology’s big facts, but hasn’t demonstrated it can explain the finer details either**. ### Implications for Condensed Matter Physics (e.g. Superconductivity) Condensed "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "title": "SAT Framework Analysis",
+      "record_count": 92,
+      "best_score": 154,
+      "first_hit_index": 7,
+      "sample_hit_index": 101,
+      "locator": "message:d608d3ae-c538-40c0-b093-db82621da42b",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "superconductor",
+        "Cooper pair",
+        "flux quantization",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "…tropies. That will require significant development. For now, one can say **SAT doesn’t obviously contradict cosmology’s big facts, but hasn’t demonstrated it can explain the finer details either**. ### Implications for Condensed Matter Physics (e.g. Superconductivity) Condensed "
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 56,
+      "best_score": 107,
+      "first_hit_index": 1517,
+      "sample_hit_index": 1712,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 56,
+      "best_score": 107,
+      "first_hit_index": 1519,
+      "sample_hit_index": 1714,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 56,
+      "best_score": 107,
+      "first_hit_index": 1522,
+      "sample_hit_index": 1717,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 55,
+      "best_score": 107,
+      "first_hit_index": 1518,
+      "sample_hit_index": 1713,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 55,
+      "best_score": 107,
+      "first_hit_index": 1520,
+      "sample_hit_index": 1715,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 55,
+      "best_score": 107,
+      "first_hit_index": 1521,
+      "sample_hit_index": 1716,
+      "locator": "message:c2c31b9c-be5b-41d4-8a3c-6f563da7f3ca",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "Cooper pair",
+        "superfluid",
+        "quantum Hall"
+      ],
+      "excerpt": "Make sure to include fileciteturn75file3 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 8> Chiral Superfluid Helium-3 in the Quasi-Two-Dimensional Limit Petri J. Heikkinen ,* Lev V. Levitin , Xavier Rojas , Angadjit Singh , Nathan En"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ALBERRAGAIN.txt",
+      "title": "ALBERRAGAIN",
+      "record_count": 15,
+      "best_score": 104,
+      "first_hit_index": 10325,
+      "sample_hit_index": 10327,
+      "locator": "line:142",
+      "matched_terms": [
+        "superconductivity",
+        "Cooper pair",
+        "Bose-Einstein condensate",
+        "condensate"
+      ],
+      "excerpt": "…lti-particle universe. It explicitly discards the idea that space is an empty void where point-particles are added one by one. The Baseline Vacuum (\\[\\mathcal{V}_{0}\\]): The ground-state vacuum is structurally modeled as a massive, perfectly aligned Bose-Einstein Condensate (BEC"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 18,
+      "best_score": 100,
+      "first_hit_index": 2555,
+      "sample_hit_index": 2817,
+      "locator": "message:bf569c2c-a1d1-4007-a577-4e99b7ee633c",
+      "matched_terms": [
+        "superconducting",
+        "superconductor",
+        "flux quantization",
+        "quantum Hall"
+      ],
+      "excerpt": "…ham Sati, Urs Schreiber: FQH Liquids with Flux-Expulsion Islands allow Nonabelian Anyons, European Physics Letters (2026) [arXiv:2602.18748] [L926] [L927] Experimental realization: [L928] [L929] Önder Gül et al.: Andreev reflection in the fractional quantum Hall state, Physical "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 18,
+      "best_score": 100,
+      "first_hit_index": 2557,
+      "sample_hit_index": 2818,
+      "locator": "message:bf569c2c-a1d1-4007-a577-4e99b7ee633c",
+      "matched_terms": [
+        "superconducting",
+        "superconductor",
+        "flux quantization",
+        "quantum Hall"
+      ],
+      "excerpt": "…ham Sati, Urs Schreiber: FQH Liquids with Flux-Expulsion Islands allow Nonabelian Anyons, European Physics Letters (2026) [arXiv:2602.18748] [L926] [L927] Experimental realization: [L928] [L929] Önder Gül et al.: Andreev reflection in the fractional quantum Hall state, Physical "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 17,
+      "best_score": 100,
+      "first_hit_index": 2558,
+      "sample_hit_index": 2819,
+      "locator": "message:bf569c2c-a1d1-4007-a577-4e99b7ee633c",
+      "matched_terms": [
+        "superconducting",
+        "superconductor",
+        "flux quantization",
+        "quantum Hall"
+      ],
+      "excerpt": "…ham Sati, Urs Schreiber: FQH Liquids with Flux-Expulsion Islands allow Nonabelian Anyons, European Physics Letters (2026) [arXiv:2602.18748] [L926] [L927] Experimental realization: [L928] [L929] Önder Gül et al.: Andreev reflection in the fractional quantum Hall state, Physical "
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json",
+      "title": "🧮 arXiv keyword scraping script",
+      "record_count": 14,
+      "best_score": 93,
+      "first_hit_index": 2568,
+      "sample_hit_index": 2594,
+      "locator": "message:3405e362-911c-4c56-8ad9-7d87ccc17c32",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "superconductor",
+        "Cooper pair",
+        "Josephson"
+      ],
+      "excerpt": "…ture\", \"cmb\", \"baryon acoustic oscillation\", ]), # Orthogonal physics controls: same broad arXiv neighborhoods, different # structural content. Useful for estimating topical leakage. \"ctl_orthogonal_superconductivity\": (\"orthogonal_physics\", 1.0, [ \"superconductivity\", \"supercon"
+    },
+    {
+      "root": "archive",
+      "path": "archive/FREEFORM DISCUSSION/CHAT 1.5.2 DATE.txt",
+      "title": "CHAT 1.5.2 DATE",
+      "record_count": 315,
+      "best_score": 81,
+      "first_hit_index": 4586,
+      "sample_hit_index": 4781,
+      "locator": "line:36353",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "- **Any New Insights or Conflicts?** As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically diffe"
+    },
+    {
+      "root": "archive",
+      "path": "archive/DEV CONVERSATION/SAT DEV DISCUSSIONS 1.txt",
+      "title": "SAT DEV DISCUSSIONS 1",
+      "record_count": 264,
+      "best_score": 81,
+      "first_hit_index": 3979,
+      "sample_hit_index": 4134,
+      "locator": "line:126935",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/DEV CONVERSATION/SAT DEV HISTORY.txt",
+      "title": "SAT DEV HISTORY",
+      "record_count": 196,
+      "best_score": 81,
+      "first_hit_index": 4243,
+      "sample_hit_index": 4417,
+      "locator": "line:25749",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Older Conversations/SAT DEV HISTORY.txt",
+      "title": "SAT DEV HISTORY",
+      "record_count": 196,
+      "best_score": 81,
+      "first_hit_index": 5189,
+      "sample_hit_index": 5363,
+      "locator": "line:25749",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/2023-24 FRAMEWORK DEVELOPMENT/SAT FULL EVALUATION.txt",
+      "title": "SAT FULL EVALUATION",
+      "record_count": 14,
+      "best_score": 81,
+      "first_hit_index": 3325,
+      "sample_hit_index": 3329,
+      "locator": "line:177",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/DEV CONVERSATION/SAT FULL EVALUATION.txt",
+      "title": "SAT FULL EVALUATION",
+      "record_count": 14,
+      "best_score": 81,
+      "first_hit_index": 4440,
+      "sample_hit_index": 4444,
+      "locator": "line:177",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Older Conversations/SAT FULL EVALUATION.txt",
+      "title": "SAT FULL EVALUATION",
+      "record_count": 14,
+      "best_score": 81,
+      "first_hit_index": 5386,
+      "sample_hit_index": 5390,
+      "locator": "line:177",
+      "matched_terms": [
+        "superconductivity",
+        "superconductor",
+        "critical temperature",
+        "BCS"
+      ],
+      "excerpt": "Any New Insights or Conflicts? As long as SAT doesn’t contradict the quantum mechanics underlying superconductivity (and it shouldn’t, if it hopes to be a superset of quantum theory), it might simply reinterpret the same mechanism. It’s unlikely to provide a radically different p"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 50,
+      "best_score": 71,
+      "first_hit_index": 1264,
+      "sample_hit_index": 1382,
+      "locator": "message:a7b080eb-3105-4934-80e4-b78d1ddc5c6d",
+      "matched_terms": [
+        "superconductivity",
+        "superconducting",
+        "quantum Hall"
+      ],
+      "excerpt": "… almost mythological quality—a number with no units, no obvious derivation, and no known deeper meaning. Yet despite its ubiquity, it has never been meaningfully connected to material design or macroscopic properties like conductivity. Certainly not superconductivity. [L14] And "
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[SAT26 TOOLBOX]]/THE SPHERES.txt",
+      "title": "THE SPHERES",
+      "record_count": 48,
+      "best_score": 71,
+      "first_hit_index": 6449,
+      "sample_hit_index": 6458,
+      "locator": "line:12120",
+      "matched_terms": [
+        "superfluid",
+        "Bose-Einstein condensate",
+        "condensate"
+      ],
+      "excerpt": "To transition the Bose-Einstein Condensate (BEC) vacuum model from its current state of \"conceptual scaffolding\" to a rigorous \"zero-resistance baseline,\" additional mathematical reagents would be beneficial. While the \"Heavy Toolbox\" contains advanced formalisms for topological "
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt",
+      "title": "H(s)H STRUCTURAL SKETCH",
+      "record_count": 44,
+      "best_score": 71,
+      "first_hit_index": 6369,
+      "sample_hit_index": 6377,
+      "locator": "line:2787",
+      "matched_terms": [
+        "superfluid",
+        "Bose-Einstein condensate",
+        "condensate"
+      ],
+      "excerpt": "To transition the Bose-Einstein Condensate (BEC) vacuum model from its current state of \"conceptual scaffolding\" to a rigorous \"zero-resistance baseline,\" additional mathematical reagents would be beneficial. While the \"Heavy Toolbox\" contains advanced formalisms for topological "
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:38f99038-078f-4d8b-8dd8-37e0385e2eb2",
+      "matched_terms": [
+        "condensate"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:38f99038-078f-4d8b-8dd8-37e0385e2eb2",
+      "matched_terms": [
+        "condensate"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:3a77aeb3-4f53-42dd-a5ee-b2aaed4112c9",
+      "matched_terms": [
+        "flux quantization"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:3a77aeb3-4f53-42dd-a5ee-b2aaed4112c9",
+      "matched_terms": [
+        "flux quantization"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:102cbe1c-bf25-46a5-918b-e63c0427951a",
+      "matched_terms": [
+        "superconductivity"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:102cbe1c-bf25-46a5-918b-e63c0427951a",
+      "matched_terms": [
+        "superconductivity"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:1243b738-92b9-4516-8917-7460ec956594",
+      "matched_terms": [
+        "quantum Hall"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:1243b738-92b9-4516-8917-7460ec956594",
+      "matched_terms": [
+        "quantum Hall"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
