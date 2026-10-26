@@ -1,3 +1,15 @@
+> **LIVE SCHEDULER READBACK — 2026-10-26 (NEWER THAN ALL SNAPSHOTS BELOW).** In response to Nathan's direct delegation of joint methodology/steering authority, all five **existing** enabled hourly task IDs have been updated in place to charter-first **Workshop Relay** instructions. They still fire hourly at the same local minute and execute the same 19-worker deterministic rotation. No additional active recurrence was created and the disabled Tern/Shuttle task remains disabled. Primary worker remits (especially Orson's LLM cognition), non-theory source reading, tool recon, P1/P2/P3 manuscript dates, real-data-first calculations and anti-rut checks are now in their live prompts. This is **verified scheduler configuration**, not yet evidence that subsequent workers followed the instructions. See [Steering Charter](STEERING_CHARTER_2026-10-26.md), [Three Paper Campaign](THREE_PAPER_CAMPAIGN_2026-10-26.md) and [Phase Steering](PHASE_STEERING_2026-10-26.md).
+>
+> | Phase EDT | Live title (readback) | Existing task ID |
+> |---|---|---|
+> | :00 | Workshop Relay :00 / Archive | `6aa1fe0de5e48191b886496095b1343f` |
+> | :12 | Workshop Relay :12 / Mind | `6aa61b3b2e4081918927a35b61007acc` |
+> | :24 | Workshop Relay :24 / Geometry | `6abda4c8eda88191bf23a6f2849e9a17` |
+> | :36 | Workshop Relay :36 / Worldtube | `6a9f52b69ec08191b0a2ba24a074f781` |
+> | :48 | Workshop Relay :48 / Review | `6aa6c3bc02b48191b8a91a30d2a155e0` |
+>
+> **Pending empirical adoption test:** after 19 worker-identity selections, audit completed receipts for correct identity/actual access, 4/5 Orson research protection over real Orson turns, deliberate side reading, genuine tool-use/reuse experiments, manuscript advancement and dropped/repeated no-value work. No adoption pass is claimed yet.
+
 > **LIVE SCHEDULER VERIFICATION — 2026-10-11, NEWER THAN ALL SNAPSHOTS BELOW.** Nathan directed conversion of the five already-enabled hourly recurrences into a **19-identity revival rotation** without creating a sixth task. Fresh scheduler readback verified all five original automation IDs remain enabled with original :00, :12, :24, :36, :48 America/New_York phases (every hour). Fixed worker titles and old `Current scheduled` tables farther down this document are historical snapshots, not today's leases. [Full algorithm, ring, receipt and autonomy/access guards](REVIVAL_ROTATION_V3_2026-10-11.md).
 >
 > | Current local phase | Current lease/task label | Existing automation ID |
