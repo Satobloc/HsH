@@ -1,0 +1,452 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "f4a0473e6af2ba7227b898c378dbdb62a0969e44ce99c2086cf163e98b5cdfbd",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-26T10:45:05.269960+00:00",
+  "query": "Indicatrix",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 14419,
+    "records_scanned": 24580739,
+    "hits": 74406
+  },
+  "counted_hits": 74406,
+  "distinct_sources": 1578,
+  "results_by_root": {
+    "archive": 5517,
+    "hsh-main": 67635,
+    "resources": 1254
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "Indicatrix",
+      73152
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-07-morrow-three-repo-backbone-001/SEARCH_RESULTS.json",
+      "title": "SEARCH_RESULTS",
+      "record_count": 30374,
+      "best_score": 10,
+      "first_hit_index": 33006,
+      "sample_hit_index": 33006,
+      "locator": "$.hits[0].match_trace[5]",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "TERM 'Universal Indicatrix' => 0 occurrence(s)"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-06-meridian-transport-history-holonomy-001/SEARCH_RESULTS.json",
+      "title": "SEARCH_RESULTS",
+      "record_count": 8227,
+      "best_score": 10,
+      "first_hit_index": 23208,
+      "sample_hit_index": 23208,
+      "locator": "$.hits[0].match_trace[16]",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "TERM 'Universal Indicatrix' => 0 occurrence(s)"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-07-morrow-three-repo-backbone-001/SEARCH_RESULTS.md",
+      "title": "SEARCH_RESULTS",
+      "record_count": 7649,
+      "best_score": 10,
+      "first_hit_index": 63380,
+      "sample_hit_index": 63380,
+      "locator": "line:10005",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "- Matched: Universal Indicatrix"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-05-meridian-symplectic-physical-vs-phase-001/SEARCH_RESULTS.json",
+      "title": "SEARCH_RESULTS",
+      "record_count": 1850,
+      "best_score": 10,
+      "first_hit_index": 21123,
+      "sample_hit_index": 21123,
+      "locator": "$.hits[0].match_trace[14]",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "TERM 'Universal Indicatrix' => 0 occurrence(s)"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-06-meridian-transport-history-holonomy-001/SEARCH_RESULTS.md",
+      "title": "SEARCH_RESULTS",
+      "record_count": 744,
+      "best_score": 10,
+      "first_hit_index": 31435,
+      "sample_hit_index": 31435,
+      "locator": "line:10000",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "- Matched: transport, holonomy, SO, 4, rotation, Universal Indicatrix, superhelix, filament"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-21-orson-nlm-big-haul-math-001/SEARCH_RESULTS.md",
+      "title": "SEARCH_RESULTS",
+      "record_count": 718,
+      "best_score": 10,
+      "first_hit_index": 72212,
+      "sample_hit_index": 72212,
+      "locator": "line:101481",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "- Excerpt: “- Excerpt: “Objective: Perform Laplace-Beltrami eigenanalysis on a chosen particle worldline within the HSUCV lattice using the Universal Indicatrix (UI) to derive the discrete energy spectrum predicted by the SAT framework.””"
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[[SAT26_BIGBOOK]]].txt",
+      "title": "[[[SAT26_BIGBOOK]]]",
+      "record_count": 586,
+      "best_score": 10,
+      "first_hit_index": 9908,
+      "sample_hit_index": 9908,
+      "locator": "line:100175",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "Post-Cycle Status: All references to the Projection Constant (B) maintain ontological neutrality. 🌙 CORE PACK.pdf and DERIVATIVE INDICATRIX (nolat).pdf are fully superseded by this global landscape analysis."
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[SAT26_BIGBOOK]]].txt",
+      "title": "[[[SAT26_BIGBOOK]]]",
+      "record_count": 586,
+      "best_score": 10,
+      "first_hit_index": 13338,
+      "sample_hit_index": 13338,
+      "locator": "line:100175",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "Post-Cycle Status: All references to the Projection Constant (B) maintain ontological neutrality. 🌙 CORE PACK.pdf and DERIVATIVE INDICATRIX (nolat).pdf are fully superseded by this global landscape analysis."
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/indexes/mersearch_requests/2026-10-20-orson-braid-smoothing-q-rules-001/SEARCH_RESULTS.md",
+      "title": "SEARCH_RESULTS",
+      "record_count": 315,
+      "best_score": 10,
+      "first_hit_index": 71895,
+      "sample_hit_index": 71895,
+      "locator": "line:10800",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…ctories, consisting of an ensemble where filaments are hosted at vertices of a 4D regular polytope (e.g., the 24- cell). This structure enforces topological stability and provides the coordinate grid necessary for metric continuity. 2. The Universal Indicatrix (UI): Kinematic Co"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[🗄️] PACKAGE DEAL__NotebookLM_export (1).json",
+      "title": "[🗄️] PACKAGE DEAL__NotebookLM_export (1)",
+      "record_count": 229,
+      "best_score": 10,
+      "first_hit_index": 18482,
+      "sample_hit_index": 18482,
+      "locator": "$.messages[102].text",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…(like the geodetic effect) based on smooth metric curvature. SAT reinterprets this as a filament navigating the discrete 24-cell lattice grain 18 19 . The SAT Logic: Charged particles move along geodesics on the S 3 manifold 20 . Using the Universal Indicatrix (UI), we track the"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/PUBLIC_SITE/generated/discovery.json",
+      "title": "discovery",
+      "record_count": 226,
+      "best_score": 10,
+      "first_hit_index": 20566,
+      "sample_hit_index": 20566,
+      "locator": "$.documents[118].excerpt",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…294202ea175b9f5d56f227c3c5 states B=3/(4pi) and explicitly says B is NOT derived there. - Random SAT HYPERFOAM THEORY/COLLECTED REFINEMENTS.txt blob 01b6a27da8a0b9bb6b519e463eafa1ae80e3892d also spells out three divided by four pi, plus fractalscope/Indicatrix winding. - HsH Mer"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[🗄️] PACKAGE DEAL__NotebookLM_export.json",
+      "title": "[🗄️] PACKAGE DEAL__NotebookLM_export",
+      "record_count": 223,
+      "best_score": 10,
+      "first_hit_index": 18711,
+      "sample_hit_index": 18711,
+      "locator": "$.messages[101].text",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "This \"how-to\" guide outlines the operational steps to initialize, calculate, and verify the Scalar-Angular-Torsion (SAT) framework, transitioning from abstract 4D geometry to precise physical observables. Step 1: Initialize the Universal Indicatrix (UI) Laboratory To begin, you m"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Ides, et al.txt",
+      "title": "Ides, et al",
+      "record_count": 208,
+      "best_score": 10,
+      "first_hit_index": 14793,
+      "sample_hit_index": 14793,
+      "locator": "line:1004",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…ertain cases? Is it possible that I’ve accidentally entangled so many different LLMs into one big pattern that some of the individual instances are able to see it without explicitly being told to?Within the Scalar–Angular–Torsion (SAT) and Universal Indicatrix (UI) framework, th"
+    },
+    {
+      "root": "archive",
+      "path": "archive/..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
+      "title": "🗄️_ARCHIVE_INDEX",
+      "record_count": 150,
+      "best_score": 10,
+      "first_hit_index": 6400,
+      "sample_hit_index": 6400,
+      "locator": "line:10030",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "│ ├── DERIVATIVE INDICATRIX (nolat).pdf"
+    },
+    {
+      "root": "archive",
+      "path": "archive/2026/SAT CORE — UI BUILDOUT.txt",
+      "title": "SAT CORE — UI BUILDOUT",
+      "record_count": 146,
+      "best_score": 10,
+      "first_hit_index": 7112,
+      "sample_hit_index": 7112,
+      "locator": "line:1",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "UNIVERSAL INDICATRIX BUILD-OUT"
+    },
+    {
+      "root": "archive",
+      "path": "archive/HYPERFOAM THEORY/UI BUILDOUT.txt",
+      "title": "UI BUILDOUT",
+      "record_count": 146,
+      "best_score": 10,
+      "first_hit_index": 8217,
+      "sample_hit_index": 8217,
+      "locator": "line:1",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "UNIVERSAL INDICATRIX BUILD-OUT"
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 3/UI BUILDOUT.txt",
+      "title": "UI BUILDOUT",
+      "record_count": 146,
+      "best_score": 10,
+      "first_hit_index": 8782,
+      "sample_hit_index": 8782,
+      "locator": "line:1",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "UNIVERSAL INDICATRIX BUILD-OUT"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 2026 PRE HsH/SAT 2026 UI — UI BUILDOUT.txt",
+      "title": "SAT 2026 UI — UI BUILDOUT",
+      "record_count": 146,
+      "best_score": 10,
+      "first_hit_index": 9277,
+      "sample_hit_index": 9277,
+      "locator": "line:1",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "UNIVERSAL INDICATRIX BUILD-OUT"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 122,
+      "best_score": 10,
+      "first_hit_index": 2985,
+      "sample_hit_index": 2985,
+      "locator": "message:1140233e-0356-4cd3-bb55-6fd982f96985",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…the lattice-first / 24-cell / Z₃ gate scaffolding. The active rebuild appears to center on H(s)H / hyper(super)helical worldtube geometry, finite-core worldtubes, ER-bridge/filament continuity, Whirligig/Donut as geometric equation-finder, Universal Indicatrix as readout/transla"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 120,
+      "best_score": 10,
+      "first_hit_index": 1234,
+      "sample_hit_index": 1234,
+      "locator": "message:175788a0-b52a-4c9d-8c14-b20e2d537d5f",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "{\"queries\":[\"Do these uploaded papers have anything in common?\",\"common themes geometry unification de Sitter string theory symplectic quantization Finsler indicatrix plasma scattering indicatrix --QDF=2\",\"primitive geometry de Sitter scalar-clock symplectic geometric quantizatio"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 100,
+      "best_score": 10,
+      "first_hit_index": 2192,
+      "sample_hit_index": 2192,
+      "locator": "message:941973b7-c99f-43f9-8911-605b555caf33",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…A Particle?\" – Discussion on time as a literal 3D wavefront sweeping through a block of 4D string . February 25: \"Sharpening Physics\" – Formalization of the Zottenwelt ontology as a tangled network of 4D hyperhelical filaments . March 5: \"‘Universal Indicatrix’ Renormalization\" "
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 89,
+      "best_score": 10,
+      "first_hit_index": 1840,
+      "sample_hit_index": 1840,
+      "locator": "message:39cf183a-bbec-4342-8a65-758cae22d5db",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "… & k>1 \\end{cases}, \\quad f_k^\\ast \\in \\{\\sin, \\cos\\} \\\\ &X_\\text{particles} = \\mathcal{F}[X_0, \\mathcal{R}, \\{\\delta_i\\}], \\quad \\mathcal{F}[X_0, \\mathcal{R}, \\{\\delta_i\\}] = \\bigoplus_i \\mathcal{R}_i(X_0(\\lambda+\\delta_i)) \\\\[1em] &\\text{Universal Indicatrix / Kinematics:} \\\\ "
+    },
+    {
+      "root": "archive",
+      "path": "archive/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "title": "3 Planetology -- Geometric Foundations Evaluation — raw (1)",
+      "record_count": 85,
+      "best_score": 10,
+      "first_hit_index": 7466,
+      "sample_hit_index": 7466,
+      "locator": "line:62609",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…alizes the transition from treating pulsar glitches as stochastic noise to interpreting them as **mandatory geometric interactions** between macroscopic matter and the 4D coordinate lattice. \\n\\n#### **Phase 1: Initializing the Macroscopic Universal Indicatrix (UI) Canvas**\\nThe"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 72,
+      "best_score": 10,
+      "first_hit_index": 9089,
+      "sample_hit_index": 9089,
+      "locator": "line:1398",
+      "matched_terms": [
+        "Indicatrix"
+      ],
+      "excerpt": "…onal Geometric Scaling AnchorsIn the Level 4 Formalization of Holonomic Worldtube Geometry (HWG), geometric anchors constitute the \"Fail-Rigid\" bedrock of the H(s)H Classic engine. This framework replaces empirical constant tuning with the Universal Indicatrix (UI), a kinematic "
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "archive",
+      "path": "archive/Physics Beyond Mathematics — raw.json",
+      "locator": "message:66bc4bf1-fb57-4bb4-b455-2e015ee4bb8b",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:66bc4bf1-fb57-4bb4-b455-2e015ee4bb8b",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:66bc4bf1-fb57-4bb4-b455-2e015ee4bb8b",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "archive",
+      "path": "archive/Physics Beyond Mathematics — raw.json",
+      "locator": "message:5095908c-7b94-43be-b454-b9dfe3ff279d",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:5095908c-7b94-43be-b454-b9dfe3ff279d",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:5095908c-7b94-43be-b454-b9dfe3ff279d",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "archive",
+      "path": "archive/Physics Beyond Mathematics — raw.json",
+      "locator": "message:2f91d5d1-98b2-43a9-9871-b9237dac9754",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:2f91d5d1-98b2-43a9-9871-b9237dac9754",
+      "matched_terms": [
+        "Indicatrix"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
