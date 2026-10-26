@@ -38,7 +38,7 @@
 - Sites editor: https://github.com/Satobloc/HsH/issues/619
 
 ## Binary/source packaging limitations at handoff
-The executable HTML, source code, JSON freeze, metadata and full **Markdown** comparison are in GitHub. In-chat PDFs and screenshot were NOT uploaded as binary Git objects by this handoff; they are not required for the interactive lab's function. These source artifacts remain separately downloadable from the original turn while available:
+The executable HTML, source code, JSON freeze, metadata, comparison Markdown AND **binary comparison PDF, complete source ZIP and screenshot** are now GitHub committed under `PUBLIC_SITE/instruments/universal-indicatrix/assets/` (commit `099025868144b19d926e3710a6e42e713a93f2d5`). Git tree returned matching blob SHAs and byte sizes. The independent original-paper **holdout ZIP remains separate and NOT GitHub committed** to preserve the computational holdout boundary. See `ASSET_MANIFEST.json`. These source artifacts remain separately downloadable from the original turn while available:
 - `SAT_UI_BLIND_LAB_20261026.zip` SHA256 `147643193d32a2924344c064a550d3803ef5cbf2d6f84fc991a0224c4e99d67f`.
 - `SAT_POSTFREEZE_COMPARISON_20261026.pdf` SHA256 `4727cd57870a729897853693a968024706f918f4b772ec5e0fc2ce640b571986`.
 - `SAT_3C_SiC_HOLDOUT_20261026.zip` SHA256 `c84b66dd9cfc43e2a7567395c7cf1d6c26e0f2d0919c9a588cf32983a66bc8f8`.
