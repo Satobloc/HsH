@@ -817,3 +817,7 @@ Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub link
 **Site integration queue:** deliver a prominent second Geometry Laboratory tile at `/laboratory/universal-indicatrix/` alongside `/laboratory/whirligig/`, with crosslinks, actual editable GitHub source, docs/test entry points, version/freeze labeling, accessible controls, functional JSON/CSV exports, and deployment readback. Existing Whirligig motion, Analemma and tests must not regress. Site-builder must import current GitHub HTML; a GitHub source commit alone does not publish to ChatGPT Sites.
 
 **Source:** `PUBLIC_SITE/instruments/universal-indicatrix/SITES_INTEGRATION.md`; [Sites issue #619](https://github.com/Satobloc/HsH/issues/619). Binary PDF/screenshot distributions remain session-local; no unsupported claim of GitHub-hosted ZIP/PDF release.
+
+
+### 2026-10-26 addendum — binary assets successfully committed after initial note
+The earlier note that comparison PDF, screenshot and ZIP existed only in the conversation is now **superseded**. They are in the HsH Git tree at `PUBLIC_SITE/instruments/universal-indicatrix/assets/` following binary release commit `099025868144b19d926e3710a6e42e713a93f2d5`. See `ASSET_MANIFEST.json` for SHA-256 and byte sizes. Site HTML now links to these downloads, the frozen source and the complete worker handoff. Full editor prompt: `PUBLIC_SITE/instruments/universal-indicatrix/SITES_EDITOR_PROMPT_20261026.md`. Live Sites publication remains **unverified**. The external holdout source ZIP remains outside the HsH repo by design.
