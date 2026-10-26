@@ -96,7 +96,7 @@ jobs:
               f.write('runtime_script_sha256='+digest+'\n')
               f.write('identity_hotfix_applied='+str(hotfix).lower()+'\n')
           PY
-          python /tmp/mersearch-runtime.py archive hsh-main resources --expr "$QUERY" --sort date --out /tmp/mersearch-request
+          python /tmp/mersearch-runtime.py archive hsh-main resources --expr "$QUERY" --sort date --exclude mersearch_requests --out /tmp/mersearch-request
           test -s /tmp/mersearch-request/SEARCH_RESULTS.json
           test -s /tmp/mersearch-request/SEARCH_RESULTS.md
       - name: Build run manifest
@@ -144,6 +144,7 @@ jobs:
               'raw_retention':'temporary Actions job workspace only'
             },
             'default_exclusions':['QUARANTINE','PRIOR_ART'],
+            'bridge_exclusions':['mersearch_requests'],
             'bridge_runtime_hotfix':{
               'applied':os.environ['IDENTITY_HOTFIX_APPLIED'].lower()=='true',
               'reason':'mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them',
