@@ -34,3 +34,7 @@ House issue publisher: issue #631, submission calder-m87-projection-lean-2026102
 3. Hale next at 21:36Z, historical external literature scanner, statistical calibration and matched-period design; wake packet blob 2840500bec1873fc634e564f83d7eda7d1da74f0. Original Hale ChatGPT thread ID unknown; do not invent or claim delivery.
 
 No scheduler edit, sixth task, cross-thread post, public secret, license change, signet use or chat rename.
+
+## Subsequent CI diagnostics, superseding earlier PENDING checkpoint
+
+Second CI run 40404812379, job 121859718596: **FAILED**. Generic CalderProjectionGate compiled, and all four generic theorem-by-theorem #print axioms lines said no axioms. CalderM87Gate failed with "unterminated comment" at EOF line 56: the prose text "42 +/- 3" contains the Lean nested-comment opening token "/-" inside a documentation block. This was a real source syntax error, not a mathematical counterexample. Replaced with Unicode "42 ± 3" in commit dff2bad9b33cca989e0b6e8bf64ef19b3d20d676, blob 88eb5c702058de4f9a29b2d19aaa8e8d67e04c1c. Third CI run pending; do not report M87 module proof until its completed log.
