@@ -68,3 +68,5 @@ A normalized glyph string gives a **notation fingerprint**, not equivalence: a t
 **Next executable step:** retrieve first GitHub smoke run result, fix extraction bugs, then safely shard an approved 100-source sample with *measured* parser speed and error categories. Source and error samples decide what must be built before the next tranche.
 
 **Supervisory return cursor:** Steering Charter → Three-Paper Campaign → archive math hopper measured pilot → source-specific Factory Floor proof queue. Extraction results feed existing review, not a new autonomous truth tribunal.
+
+> **STREAMING FIX (2026-10-26):** After source smoke intake was committed, the hopper was revised in commit `cfaca135e1041ce0f5a5ed0081fd612e88a42456` to write `CANDIDATES.jsonl.tmp` incrementally and only rename it when the scan finishes. Candidate records are no longer held in one growing list. Notation fingerprints are still tracked in a set for a summary distinct-count; for millions of truly unique expressions, that set may itself need a disk-backed SQLite option. Full 3-repo runtime remains **UNVERIFIED**; the GitHub smoke workflow should test the current script, not earlier SHAs.
