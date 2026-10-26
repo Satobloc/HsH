@@ -1,5 +1,8 @@
 # Phase Steering | October 26, 2026 | Archive-to-Workshop Ecology
 
+> **2026-10-26 authority / immediate implementation:** Nathan directly appointed this assistant joint lead for methodology, workflow, oversight and steering and requested prompt practical reform, protected worker remits and three papers. Current operating documents: [Steering Charter](STEERING_CHARTER_2026-10-26.md) and [P1/P2/P3 paper campaign](THREE_PAPER_CAMPAIGN_2026-10-26.md). Date targets: Nov 9 (minor), Nov 30 (major), Dec 14 (full-theory manuscript). Check exact actual scheduler/CI/source/runtime state; track empirical adoption rather than presuming successful integration.
+
+
 **Status:** Nathan Direct phase-overview request / assistant-curated operational translation. **Do not mistake this note for a new theory theorem, completed workflow deployment, or a replacement for existing BEDROCK, scheduler, Workspaces, source indexes, tools, or repository boundaries.**
 
 **Source:** Nathan's live Oct 26, 2026 overview in the SAT/H(s)H archive-harvest and methodology conversation. Exact archival message/turn ID is not yet linked. This is a public-safe management digest, **not verbatim Nathan Direct**, and it must be backlinked to the original raw turn when archived. Do not copy Nathan's protected signet.
