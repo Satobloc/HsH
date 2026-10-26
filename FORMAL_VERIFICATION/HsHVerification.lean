@@ -9,6 +9,7 @@ import HsHVerification.ArchiveEQ0008
 import HsHVerification.ArchiveEQ0009
 import HsHVerification.ArchiveEQ0010
 import HsHVerification.ArchiveEQ0011
+import HsHVerification.CognitionSourceOverlap
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
