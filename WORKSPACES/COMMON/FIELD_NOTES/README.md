@@ -1,5 +1,8 @@
 # Field Notes / TIL
 
+> **Archive understanding / corrected assumptions, October 25, 2026:** Use the [Assumption Revision Index](ASSUMPTION_REVISION_INDEX.md) to register and retrieve worker-attributed "aha" moments, disproven first impressions, mistaken source-depth assumptions, and evidence-driven expectation changes. Continue placing full attributed entries in the **existing** `ENTRIES/` stream. The index is a linked view, not a replacement for Mersearch, chronology, raw sources, or other research ledgers. Do not manufacture surprise to populate it.
+
+
 **Status:** ACTIVE / PERSONAL DISCOVERY STREAM  
 **Established:** 2026-09-20
 
