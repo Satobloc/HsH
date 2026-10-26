@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-26",
+  "scope": "UI browser artifact downloads; binary blobs verified in Git commit 099025868144b19d926e3710a6e42e713a93f2d5",
+  "freeze_id": "SAT-UI-BLIND-20261026-001",
+  "assets": [
+    {
+      "name": "SAT_UI_BLIND_LAB_20261026.zip",
+      "path": "PUBLIC_SITE/instruments/universal-indicatrix/assets/SAT_UI_BLIND_LAB_20261026.zip",
+      "bytes": 292213,
+      "git_blob_sha1": "2e3b153afad76d8eaac221feec05b03726bcfd81",
+      "sha256": "147643193d32a2924344c064a550d3803ef5cbf2d6f84fc991a0224c4e99d67f",
+      "role": "frozen reproducibility package; includes source and unit-circle QA fixture"
+    },
+    {
+      "name": "SAT_POSTFREEZE_COMPARISON_20261026.pdf",
+      "path": "PUBLIC_SITE/instruments/universal-indicatrix/assets/SAT_POSTFREEZE_COMPARISON_20261026.pdf",
+      "bytes": 52784,
+      "git_blob_sha1": "76659339353c4a5b9cc8d49b371e4011b5e339c1",
+      "sha256": "4727cd57870a729897853693a968024706f918f4b772ec5e0fc2ce640b571986",
+      "role": "post-freeze technical comparison; not a blind model input"
+    },
+    {
+      "name": "screenshot.png",
+      "path": "PUBLIC_SITE/instruments/universal-indicatrix/assets/screenshot.png",
+      "bytes": 275312,
+      "git_blob_sha1": "0cba82f458cfeab6d359b21c12c14f2fe5d093cc",
+      "sha256": "c1c3b729849d1657183727d2bca7e4a7e8deafaa6c9613b6269f0b38025dea1e",
+      "role": "UI laboratory preview; screenshot is not proof of live Sites deployment"
+    }
+  ],
+  "external_holdout": {
+    "status": "NOT_GITHUB_COMMITTED",
+    "session_download": "SAT_3C_SiC_HOLDOUT_20261026.zip",
+    "sha256": "c84b66dd9cfc43e2a7567395c7cf1d6c26e0f2d0919c9a588cf32983a66bc8f8",
+    "paper_doi": "10.4236/ampc.2026.168018",
+    "reason": "kept separate from repository/engine to preserve computational holdout boundary; rebuild from original DOI if needed"
+  }
+}
