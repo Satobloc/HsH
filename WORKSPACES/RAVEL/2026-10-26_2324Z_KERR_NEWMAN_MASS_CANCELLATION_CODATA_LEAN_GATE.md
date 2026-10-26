@@ -37,7 +37,7 @@ Incoming Mercer s1 23:12Z handoff Git blob a82650cced0ec2bfba2cbe73aa95841d5e48f
 
 ## Source controls, search and FIE
 
-Current BEDROCK Git blob 4cabda482c48c217614b868a2138409275df9bf7, steering b9b8de55f8d5add7c42cf80be7c34677ee36305e, campaign 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0, onboarding 7d78afd95654bd9d41bbbcc6ba56db1fd10b3110, V3 rotation, Ravel README blob 8830694ecaecece0c61ba8b0ae3b67a6ff3315, continuity/state and current theory map inspected. Ravel original thread identity NOT authenticated.
+Current task graph `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` Git blob 80e267cdd7dd3a4c61044357cd346ff49c805e23 (active seed, 2026-09-22) inspected; routing index only, not theory authority. Lean base branch `infra/lean4-verification-20261023` verified via PR #262; PR #642 remains draft, no merge.\n\nCurrent BEDROCK Git blob 4cabda482c48c217614b868a2138409275df9bf7, steering b9b8de55f8d5add7c42cf80be7c34677ee36305e, campaign 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0, onboarding 7d78afd95654bd9d41bbbcc6ba56db1fd10b3110, V3 rotation, Ravel README blob 8830694ecaecece0c61ba8b0ae3b67a6ff3315, continuity/state and current theory map inspected. Ravel original thread identity NOT authenticated.
 
 Mersearch guide blob 086778737a004c467b0b52142d71aa5b961fc166 and all four live request files read; all occupied or requested, left unchanged. No Mersearch run. Direct bounded primary-source fallback, not comprehensive 3-repo search:
 - SAT-O original `SAT-O Theory Work/SATO.4D Coherence Project Instructions.txt`, July 2025, Git blob a2709c7aa1ff70e32362afd759039afae2c46a58, first 55 lines; core/interpretive separation.
