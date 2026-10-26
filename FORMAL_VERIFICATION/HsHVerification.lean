@@ -12,6 +12,7 @@ import HsHVerification.ArchiveEQ0011
 import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
+import HsHVerification.WhirligigTorusPerturbation
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
