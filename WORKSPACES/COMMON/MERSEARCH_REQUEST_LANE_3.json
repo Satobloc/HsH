@@ -1,20 +1,20 @@
 {
   "lane": 3,
   "status": "requested",
-  "request_id": "morrow-20261024t17z-fluctuation-tensor-001",
-  "requester": "Morrow",
-  "requested_at": "2026-10-24T17:24:00Z",
+  "request_id": "archive-harvest-20261025-chemistry-01",
+  "requester": "Archive subject inventory / Nathan Direct",
+  "requested_at": "2026-10-25",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(\"time-flow elasticity\" OR \"fractalcope\" OR \"fluctuation-generated\" OR \"coarse-graining\") AND (tension OR covariance OR anisotropic OR isotropic)",
-  "purpose": "Recover original SAT/HsH coarse-grained elasticity and later corrections; locate assumptions for fourth-rank orientation and Kelvin-medium response, preserving historical dates and mathematical forms",
+  "query": "\"atomic chemistry\" OR \"chemical bond\" OR covalent OR \"ionic bond\" OR valence OR \"electron orbital\" OR \"atomic spectra\" OR \"periodic table\" OR molecule OR molecular OR stoichiometry OR \"reaction kinetics\" OR \"electron shell\" OR hybridization OR \"electron configuration\" OR \"hydrogen atom\" OR \"helium atom\" OR chemical",
+  "purpose": "Discovery-only inventory of SAT/H(s)H atomic physics, chemical bonds, molecular structure, atomic spectra, and chemistry as modeled geometrically across original archives.",
   "preferred_outputs": [
-    "source path and dated message",
-    "original equation and notation",
-    "later corrections and numeric checks",
-    "cross-repository duplicate genealogy"
+    "all file paths and conversation/message locators",
+    "matched contexts sufficient to classify documents",
+    "original dates and source SHA256",
+    "cross-repository duplication candidates"
   ]
 }
