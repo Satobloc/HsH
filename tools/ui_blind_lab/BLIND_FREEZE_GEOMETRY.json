@@ -1,0 +1,45 @@
+{
+  "build": "0.1.0-blind-20261026",
+  "protocol": "SOURCE-ONLY / NO EMPIRICAL HOLDOUT ACCESS",
+  "controls": {
+    "q": "1",
+    "planes": [
+      "s",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "s_start": "0",
+    "s_end": "2*pi",
+    "n": 401,
+    "seed": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "normal": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "identity": "X=qR x0; |X_prime|^2=q_prime^2+q^2 |u_prime|^2",
+  "integrals": {
+    "I_stretch": 3.1413362142637764,
+    "I_bend": 3.141078706021233,
+    "I_director": 0
+  },
+  "identity_residual_interior": 3.9968028886505635e-15,
+  "stretch_lower_bound": 4.7738836572212255e-33,
+  "claims": {
+    "electronic_band_energy": "NOT_DERIVED",
+    "mobility": "NOT_DERIVED",
+    "effective_mass": "NOT_DERIVED"
+  },
+  "sample_count": 401,
+  "sha256_canonical_payload": "e9d833c4aaf69087b74793386015bd43c402047ef4d5e67e163b47d767af8f12"
+}
