@@ -95,3 +95,19 @@ This map is written now, but there has been **no local Ouroboros installation or
 **Live caution:** Repository metadata said HSH_RESOURCES visibility `public`, contrary to old resource privacy documentation. This is a visibility/permissions audit need; the records must still maintain public-safe publication boundaries and not publish private sensitive content just because a repo exposes it.
 
 **No action falsely claimed:** No full-repo access installed for Ouroboros; no paid model connection; no active traffic collector; no CI merged; no manufacturing of new scientific data or unapproved toy physics calculations.
+
+
+## S03 Mersearch bridge publication update, October 26
+
+After the initial four requests were submitted, two of the requested **three-repository Mersearch** runs published independent machine-readable run manifests and receipts, verified by exact-path fetch:
+
+| Domain | Request ID | Run manifest / receipt | Raw hits | Distinct matching source **paths** | Notes |
+|---|---|---|---:|---:|---|
+| Atomic chemistry | `archive-harvest-20261025-chemistry-01` | [manifest](../../indexes/mersearch_requests/archive-harvest-20261025-chemistry-01/RUN_MANIFEST.json) / [receipt](../../indexes/mersearch_requests/archive-harvest-20261025-chemistry-01/SEARCH_RECEIPT.json) | 25,334 | 2,314 | 14,360 files/24,300,866 records scanned across all three roots |
+| Superconductors | `archive-harvest-20261025-superconductors-01` | [manifest](../../indexes/mersearch_requests/archive-harvest-20261025-superconductors-01/RUN_MANIFEST.json) / [receipt](../../indexes/mersearch_requests/archive-harvest-20261025-superconductors-01/SEARCH_RECEIPT.json) | 17,154 | 1,672 | Same bounded three-repository coverage |
+| Materials science | `archive-harvest-20261025-materials-01` | `SUBMITTED_NOT_VERIFIED` | UNRESOLVED | UNRESOLVED | No manifest/receipt at last check |
+| Optics | `archive-harvest-20261025-optics-01` | `SUBMITTED_NOT_VERIFIED` | UNRESOLVED | UNRESOLVED | No manifest/receipt at last check |
+
+**Crucial classification:** these are raw query hits/source-path counts, **not** numbers of independently relevant SAT research documents, unique conversation families, or physical verifications. The broad OR terms also hit outside reference material, repeated exports, and the search-request input file itself. The self-hitting request file appears first in each ranking, a concrete retrieval-QA issue. Do not sum these as an exhaustive science archive census. The next action remains deduplication, search-term refinement, provenance/message/author classification and crosswalk to existing indexes; the two missing runs need receipt/runtime investigation. Primary sources outrank ranked snippets. The previous 'four receipts missing' observations were true *at earlier inspection time*, and are now superseded by this timed update.
+
+**Return cursor for S03:** Audit first 30 original-source families per published lane after excluding request files, generated indexes, outside literature, trivial one-term matches and duplicate message IDs; prioritize exact original chemistry / BCS/TRON source passages; recheck materials and optics bridge publication and inspect failing workflow if absent.
