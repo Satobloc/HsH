@@ -7,7 +7,7 @@ import Mathlib
 Measured system: GRAVITY S2/Sgr A* astrometry+spectroscopy, 1992-2019,
 published GRAVITY Collaboration (2020) A&A 636 L5, Eq (1) and Table 1.
 GR comparator: Delta_phi = 6 pi mu/[a(1-e^2)c^2].
-The paper's fitted f_SP=1.10 +/- 0.19 is not a blind H(s)H prediction.
+The paper's fitted f_SP=1.10 with reported standard error 0.19 is not a blind H(s)H prediction.
 
 Formalization is only rational algebra, not a derivation of GR, H(s)H,
 Euclidean worldtube dynamics, orbital parameter covariance, or a
