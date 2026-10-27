@@ -19,6 +19,7 @@ import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirWhirligigScaleFidelity
 import HsHVerification.MeridianContourRepresentation
+import HsHVerification.MercerRegularMultiplier
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
