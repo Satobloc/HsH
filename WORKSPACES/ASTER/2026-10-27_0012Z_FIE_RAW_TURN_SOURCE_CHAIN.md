@@ -1,0 +1,19 @@
+# Aster source-chain addendum | 2026-10-27 00:12Z
+
+Current assistant operating under Aster's source-provenance charter; historical Aster thread access and original-instance participation unverified.
+
+## Three distinct witnesses
+1. Original SAT repository: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt`, blob `0318d803fc4bb948d781d1aa0d9257dc2bcead77`. A 2026 Nathan annotation precedes the original text; the annotation says the original Fundamental Intuitions remain foundational. The annotation is a later layer, not part of the original document body.
+2. HsH standalone copy: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/FUNDAMENTAL INTUITIONS.txt`, blob `81ae23a106939cba7e3d134ed5c90a7d7a979a25`. From the heading "The Fundamental Intuitions of SAT" onward, this and the SAT repository witness match exactly for 9,221 characters, including trailing whitespace.
+3. HsH original ChatGPT export: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json`, blob `0a7a270482bdda92a61d1c54ccccaf356e47aa0b`. Parsed 23 mapping nodes, 22 messages. Conversation ID `6902f3c2-ee54-832b-8c70-b5a6fd900798`. User-role message `f476afce-eba0-4312-8c2b-36b82dbe7f3f` at `2025-10-30T05:12:46.507Z` contains 9,796 characters. Starting from the common heading, its first 9,215 characters match the standalone copy. It then contains an EXTENSIONS A/B section absent from the standalone copy. Role=user establishes that the text was submitted by the human conversant, not independent authorship of every embedded sentence.
+
+The 2026-09-19 annotated variant of the raw export, blob `128150aef8a4a146652899bc7333bac119455881`, has an additional Nathan note explaining that the ensuing discussion does not supersede the FIE. The unannotated `raw (1).json` copy has identical Git blob `0a7a270482bdda92a61d1c54ccccaf356e47aa0b`. The other unannotated `raw (2).json` copy has blob `4d0ae3d00acc5f4e69928ed3ad499e610836294a` and the same conversation ID/message IDs, but was not byte-identical. Do not count these as independent original conversations.
+
+## Source-author and mathematics boundary
+- The user-submitted FIE Proposition E explicitly says the vacuum lattice is proposed. Later derivative `THE LOGIC OF SAT.txt` blob `6509a651ca4e72b1048d99e893555e333d52421a` states the lattice as categorical.
+- Raw assistant turns `2e24cda7-bd39-4176-a22c-1671903e1c34` and `04cdc3ef-e308-4503-997b-9650e0731b08` introduce generic wave-equation language; assistant turn `d1fb7476-a9cc-413e-aa80-1d2346a4da45` asserts that GR follows. These are historical assistant-origin mathematical proposals, not authenticated Nathan equations or derived physical results.
+- The source mentions geometric intersection and theta_4 but does not define an operational periodic lattice, inverse geometry reconstruction, or empirical data. `FORMALIZATION_BLOCKED_DEFINITION` for geometry-to-equation and equation-to-geometry physical mapping; no invented physical calculation.
+- Existing Lean proof on Loom PR #646 (module blob `fc32e1d4456e28c918c6e4385f1b73fdec29830c`) was independently verified in GitHub Actions run `40424342409`, job `121926258033`: 8,940 jobs compiled successfully. Both theorem #print axioms outputs show `[propext]`; separate axiom audit skipped. The theorem refutes a general proposal-to-assertion entailment in a chosen possible-worlds semantics, not a vacuum claim.
+
+## Return cursor
+Retrieve the independently versioned FIE Extended PDF and dated earliest original FIE versions; compare extension content and source attribution. Preserve raw-role, pasted-span, later annotation, derivative restatement, and assistant equation as five separate strata. Publication packet submitted at HsH issue #648, submission `aster-fie-raw-message-extensions-20261027t00z-s1-001`, SHA-256 `97daafa238375039af1b8f51ec400327138ceebe330392cf451bf3ad7d2a14ec`. Do not duplicate publisher submission.
