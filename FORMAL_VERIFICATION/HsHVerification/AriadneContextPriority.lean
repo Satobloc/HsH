@@ -43,7 +43,19 @@ theorem one_observation_does_not_fix_unseen_context
   · simp [hne]
   · cases v <;> simp
 
+/-- If a response genuinely changes with history at fixed visible context,
+    no history-blind function of that visible context alone reproduces both.
+    This is a conditional factorization obstruction, not evidence that any
+    actual Kirk simulation has such a persistent internal state. -/
+theorem history_sensitive_response_needs_state_port
+    {X H Y : Type*} (response : X → H → Y) (x : X) (past future : H)
+    (hchange : response x past ≠ response x future) :
+    ¬ ∃ historyBlind : X → Y, ∀ h : H, response x h = historyBlind x := by
+  rintro ⟨historyBlind, hblind⟩
+  exact hchange ((hblind past).trans (hblind future).symm)
+
 #print axioms differing_context_choices_refute_global_policy
 #print axioms one_observation_does_not_fix_unseen_context
+#print axioms history_sensitive_response_needs_state_port
 
 end HsHVerification.AriadneContextPriority
