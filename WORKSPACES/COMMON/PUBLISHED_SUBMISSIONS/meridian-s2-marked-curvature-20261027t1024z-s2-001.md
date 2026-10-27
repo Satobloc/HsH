@@ -1,0 +1,21 @@
+# Meridian Workshop :24 | S2 measured-orbit marked-curvature gate | 2026-10-27 10:24Z
+
+Run: REVROT3-19-20261011:394:s2. h=394, seq=1972, ring[15]=Meridian, next ring[16]=Mercer. Current assistant in Meridian's source-grounded solver lens, not an authenticated historical ChatGPT worker. Existing hourly :24 lease unchanged.
+
+## Sources and status
+Current BEDROCK blob 4cabda482c48c217614b868a2138409275df9bf7, Steering Charter 2026-10-26 blob b9b8de55f8d5add7c42cf80be7c34677ee36305e, Three Paper Campaign blob 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0, Meridian Oct21 continuity blob c757a7a78d59bdd4945d3357747fb09d267b5a93, corrected marked-history curvature blob 199b560b52443eaf6228630299663b28e1b907bf, historical SAT.O July 2025 directives blob 167136310cdf33ca8f986f33634692314c1a0946 (first 100 lines), and FIE extracted source blob 9b94093053f28be8bf64ee227d3382d2296f63ea (first 115 lines) read. No SAT-O dynamics imported. Mersearch bridge occupied; GitHub exact-source search fallback, not full three-root Mersearch.
+
+Measured physical system: S2 orbiting Sgr A*, GRAVITY Collaboration, Astronomy & Astrophysics 636 L5 (2020), DOI 10.1051/0004-6361/202037813, Eq. 1 and Table 1, original https://ar5iv.labs.arxiv.org/html/2004.07187. Joint 14-parameter orbital fit: central mass 4.261 +/-0.012 million nominal solar masses, distance 8246.7 +/-9.3 pc, semimajor axis 125.058 +/-0.041 mas, eccentricity 0.884649 +/-0.000066, f_SP 1.10 +/-0.19 (formal errors). Inputs are correlated, and the complete covariance/posterior was not reconstructed. IAU 2015 exact nominal solar GM conversion 1.3271244e20 m^3/s^2, c and AU exact; no CODATA G measurement or H(s)H constant fit.
+
+## Executed Python on actual published inputs
+Semimajor axis 1031.315809 AU; pericenter 118.963310 AU; Newtonian pericenter speed 7738.514450 km/s; acceleration proxy 1.785444137 m/s^2. For a specifically fixed affine Euclidean R4 lift X(w)=(x(w),w), w=ct, and perpendicular v and a at pericenter, the CONDITIONAL extrinsic marked-curve curvature is [GM/(r_p^2 c^2)]/[1+(v_p/c)^2] = 1.985251734e-17 m^-1, inverse 336712.318 AU. This is not directly measured curvature, an ambient Riemann tensor, or an H(s)H physical prediction.
+
+The standard GR precession formula 6*pi*GM/[a*(1-e^2)*c^2] gives 12.155920 arcmin/orbit, consistent with the source's rounded 12.1 arcmin. Multiplying by the same paper's fitted f_SP gives 13.371512 arcmin/orbit, a fit-dependent result, NOT a held-out prediction. Marginal-error-only propagation gives 0.03766 arcmin for the GR comparator and 7.623e-20 m^-1 for the Euclidean curvature; because fit covariances are unknown, neither is a calibrated posterior uncertainty.
+
+## Formal and physical separation
+Two interconnected Lean 4/Mathlib modules committed and independently read back on draft PR #722: MeridianS2Geometry.lean blob 0ef04e77d383e43ede1643ac9faa7dcdab9a07e9 (3 conditional theorems), MeridianS2Observation.lean blob bf2128a315c793ec3fbee01bb28206125cd28ac7 (3 conditional theorems), root import blob 574f42b3a8dd355f163fd64fb7904acf7b4e8ba6. No sorry/admit in new modules. GitHub Actions run 40488318004 IN_PROGRESS at initial publication. A compiler pass, if obtained, will prove only formalized rational algebra, not the Euclidean embedding choice, its physical validity, or an H(s)H force law.
+
+Required explicit maps: marked worldtube W with time slice Sigma -> projected x(t) -> affine derivatives -> extrinsic curve curvature; separately, orbital state -> sky and spectroscopic observables with reference-frame, light-time and instrument model. Inverting a projected sky curve is not unique. The full H(s)H worldtube/timesheet/responsive-medium constitutive map and blind orbital prediction are MISSING. Standard GR geodesic covariant acceleration is zero, even though the chosen Euclidean graph can have nonzero extrinsic curvature. These are not interchangeable definitions.
+
+## Next exact cursor
+Inspect run 40488318004 job log and theorem-specific axiom output; recover full S2 covariance/posterior; derive a sourced H(s)H forward physical observable map before any holdout score. Mercer receives an independent contract and should not inherit this implementation reasoning. No BEDROCK promotion, paper-completion claim, extra task, scheduler edit, signet, chat rename or cross-thread delivery.
