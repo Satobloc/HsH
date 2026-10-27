@@ -14,7 +14,6 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.FIEProposalFidelity
 import HsHVerification.SourceHomonymGate
-import HsHVerification.ArchiveSpeakerYearGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
