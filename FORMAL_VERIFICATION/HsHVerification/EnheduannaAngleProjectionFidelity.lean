@@ -18,10 +18,10 @@ or infer which repair to adopt.
 
 namespace HsHVerification.EnheduannaAngleProjectionFidelity
 
-def sourceX (θ : ℝ) : ℝ := Real.cos θ
-def sourceW (θ : ℝ) : ℝ := Real.sin θ
-def sourceMass (θ : ℝ) : ℝ := |sourceX θ|
-def sourceHidden (θ : ℝ) : ℝ := |sourceW θ|
+noncomputable def sourceX (θ : ℝ) : ℝ := Real.cos θ
+noncomputable def sourceW (θ : ℝ) : ℝ := Real.sin θ
+noncomputable def sourceMass (θ : ℝ) : ℝ := |sourceX θ|
+noncomputable def sourceHidden (θ : ℝ) : ℝ := |sourceW θ|
 
 theorem zero_angle_source_basis :
     sourceX 0 = 1 ∧ sourceW 0 = 0 := by
