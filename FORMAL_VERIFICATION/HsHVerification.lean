@@ -13,6 +13,7 @@ import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
+import HsHVerification.FIEVelocityPotentialGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
