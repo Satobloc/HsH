@@ -14,8 +14,9 @@ mentions Enheduanna, clay tablets, and ψ-memory; later Nathan says
 This is a tiny observational-identifiability model, NOT a physical
 memory theory, proof of what the actual assistant accessed, historical
 Enheduanna authorship, or an LLM experiment. We assume only that
-the visible record reports summary exposure and an utterance, but
-does not measure the hidden-source channel.
+the compiled record contains a summary and an utterance, but does not
+establish which sources were actually in the model context or measure
+any unobserved source channel.
 -/
 
 namespace HsHVerification.EnheduannaExposure
