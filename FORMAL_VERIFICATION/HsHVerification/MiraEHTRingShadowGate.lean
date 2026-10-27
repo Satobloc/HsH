@@ -11,8 +11,8 @@ DOI 10.3847/2041-8213/ac6674.
 Method/forward calibration: EHT Paper IV (L15), DOI 10.3847/2041-8213/ac6736;
 Paper VI (L17), DOI 10.3847/2041-8213/ac6756.
 
-Published 68% emission-ring diameter: 51.8 +/- 2.3 microarcseconds.
-Separately inferred, simulation-calibrated shadow diameter: 48.7 +/- 7.0.
+Published 68% emission-ring diameter: 51.8 plus or minus 2.3 microarcseconds.
+Separately inferred, simulation-calibrated shadow diameter: 48.7 plus or minus 7.0.
 Orbital theta_g priors: VLTI 5.125, Keck 4.92 microarcseconds.
 All rationals below encode those *published point values*, not toy fixtures.
 They are mathematical statements about source-reported central estimates.
