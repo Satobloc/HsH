@@ -49,7 +49,7 @@ theorem source_key_all_match :
 theorem leading_no_key_all_mismatch :
     allMismatch leadingNoNormalizedKey recordedCB68447 := by
   intro i
-  decide
+  simp [recordedCB68447, leadingNoNormalizedKey]
 
 theorem recorded_case_scoring_noninvariance :
     allMatch sourceNormalizedKey recordedCB68447 ∧
