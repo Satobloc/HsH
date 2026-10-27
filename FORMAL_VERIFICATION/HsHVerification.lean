@@ -21,6 +21,7 @@ import HsHVerification.OrsonCategoryReversal
 import HsHVerification.OrsonCGDRevisionTrace
 import HsHVerification.SableCosmoGaugeFidelity
 import HsHVerification.MiraRapidityHilbertSourceFidelity
+import HsHVerification.AldusSatXScalarSpinorGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
