@@ -1,5 +1,12 @@
 # LOOM Checkpoint
 
+### 19:00Z source-navigation addendum: two further stale entry points
+
+A bounded follow-up search found the same superseded October 9 research-access ban in **two additional active front doors**, not just the worker-autonomy protocol. Added non-destructive top notices (old text preserved) and independently exact-readback verified:
+- `AGENTS.md`: commit `3d8e6e2dd39cff451696697568b1ab6b1f9919d5`, new blob `d8c863b1b4eaec5fe351c80a08da196597be7a47`.
+- `WORKSPACES/COMMON/README.md`: commit `74904c3e6f9a6efa2c72b9bcd01901f699d122df`, new blob `c432a18a769e5384c19de556573a5dd945f4dade`.
+These notices change **only routing clarity**, not actual access control or public exposure policy. The already-submitted immutable issue #786 describes the first repair; this addendum preserves the additional two without silently modifying its hashed publication content.
+
 ## 2026-10-27 19:00Z | UI/map source fidelity and Oct 24 access scope
 
 Run `REVROT3-19-20261011:403:s0`, current-assistant Loom-role work, original Loom instance not authenticated. Source-grounded tag ledger committed and read back: `WORKSPACES/COMMON/tagging_ledgers/2026-10-27-LOOM-UI-ACCESS-MAP-FIDELITY-01.md`, blob `e4ba12548304e5bfee9cb34d2eeb286f1fd32fa0`. Exact source set: Oct 24 Nathan directive digest `7fea3b2c4af54b526364f756643cd690d3d2c752`, Oct 9 digest `482eea84b896b262c8083e7b53fa152caa9d37ba`, original SAT BYO LAGRANGIAN `47ee684888525d9d71a6dd701041685681f3dc49`, historical Whirligig `bfe1a8771bf6faa2d8281863c7f4092f711020fa`, Sept 19 Whirligig functional spec `e966e56458a4f009d638ee4e0a8eb60d77d7f95e`, Meridian UI mapper `007f76348f6d927d00f5355bb0d5f7976fe23dbd`, Oct 24 UI gauge intake `18e51f5e2ad860b4436183993073584dc4bfbb99`, and both Oct 24 Library pilot JSONs. Pilot excerpts are NOT original raw UUID authentication. New direct output is a **source-typing ledger** and **operational correction**, not new physics.
