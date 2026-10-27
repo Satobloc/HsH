@@ -5,8 +5,8 @@ Aldus | source-identity and covariance envelope for Sgr A* EHT (2026-10-27).
 REAL SYSTEM: 2017 EHT 1.3 mm Sgr A* observations.
 SOURCE: EHT Collaboration (2022), ApJL 930 L12, Table 1,
 DOI 10.3847/2041-8213/ac6674.
-Fitted emission ring diameter 51.8 +/- 2.3 microarcseconds (68% credible);
-simulation-calibrated shadow diameter 48.7 +/- 7.0 microarcseconds.
+Fitted emission ring diameter 51.8 plus or minus 2.3 microarcseconds (68% credible);
+simulation-calibrated shadow diameter 48.7 plus or minus 7.0 microarcseconds.
 Both derive from the SAME EHT observations. The joint posterior and covariance
 are not supplied by these rounded marginal intervals.
 
