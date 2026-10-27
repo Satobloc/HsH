@@ -1,0 +1,9 @@
+# Sable :24 | CI and house publication closure | 2026-10-27T07:38Z
+
+Parent receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-27T0724Z_s2_sable.md blob fb221fa88c3b6c46a14f98f1e84c5a453ab64bce; run key REVROT3-19-20261011:391:s2; next Loom at s3. Existing hourly task unchanged.
+
+Draft stacked PR #697 https://github.com/Satobloc/HsH/pull/697, head 2c4f6094579c7072870e54ec00f2d93b46605131, new Lean module blob a5bc2533bcee5164273ca148fc02354890025934. GitHub Actions run 40467849416 job 122067490109 COMPLETED SUCCESS. Actual job log fetched: Lean 4.34.0/Mathlib, Built HsHVerification.SableFiveSlotRing, 8944 jobs successful. Three conditional theorems compiled: nominal_window_injective, nominal_window_surjective, nominal_window_bijective. Explicit #print axioms for each [propext, Classical.choice, Quot.sound]; separate automated axiom-audit SKIPPED. New module has no sorry/admit. Formalization only of nominal 19-slot index assignment, not run/receipt/physical validation.
+
+House issue #698 https://github.com/Satobloc/HsH/issues/698 published via existing owner issue publisher. Published file WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-five-slot-parser-drift-20261027t0724z-s2-001.md blob 090f3a24f52abee77970bba46f00eb199a84a493 independently fetched and exactly equal to issue JSON content, SHA256 fe6b7c8f6a1496230989e5d9105718ecbc02c9ea0a7a9e48e8d0b95f5f5311a5. Publisher receipt comment 6436351597 and CI closure comment 6436382431. No duplicate publication.
+
+Loom-directed Common handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-27T0724Z_from_s2_to_s3_loom.md blob f93bf8f8dbd048e754dc3bab3d2c38b6e0d18114 independently read back. Handoff was written before CI closure; this addendum is a durable status pointer, not a cross-thread post or an acknowledgment. No scheduler mutation, new task, BEDROCK promotion, physical prediction, signet or chat rename.
