@@ -34,3 +34,17 @@ assert abs(coefficient-1.497920872590807)<1e-12
 assert abs(z_cross+0.505779684916144)<1e-10
 assert abs(2*math.pi*(3/(4*math.pi))-1.5)<1e-14
 print('NUMERIC ASSERTIONS PASS; LEAN NOT RUN; HsH physical map BLOCKED')
+
+# Two independent channel coefficients: spin transport vs solar-radio delay.
+# These coefficients refer to different physical observables; NOT frequencies.
+radio_coefficient=1+cass_gamma
+cross_ratio=coefficient/radio_coefficient
+cross_ratio_sd=math.hypot(coefficient_sd/radio_coefficient,
+                         coefficient*cass_sd/radio_coefficient**2)
+cross_ratio_z=(cross_ratio-3/4)/cross_ratio_sd
+print('GPB coefficient / Cassini radio coefficient',cross_ratio,
+      '+/-',cross_ratio_sd,'z from GR 3/4',cross_ratio_z)
+print('reciprocal 4/3 comparator',1/cross_ratio,
+      '+/-',cross_ratio_sd/(cross_ratio**2))
+assert abs(cross_ratio-0.7489525722933944)<1e-12
+assert abs(cross_ratio_z+0.504518710777162)<1e-10
