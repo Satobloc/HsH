@@ -17,7 +17,7 @@
 > This is the operations/admin/infrastructure lane. Its control documents govern how the project is operated; they do not define theory truth.
 >
 > **Using outside/supporting mathematics and resources? → HSH_RESOURCES / RESOURCES Toolkit**  
-> These are supporting-resource/methods lanes. They are usable unless specifically quarantined. **PRIOR_ART alone is the hard-quarantine lane** and requires its special provenance discipline.
+> These are supporting-resource/methods lanes. **Prior-art research access is open under Nathan's [October 24, 2026 directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-24_PRIOR_ART_UI_ARCHIVE_READING_ANNOUNCEMENT.md)**, superseding the October 9 hard research-access quarantine, including Hypothesis H/Schreiber material. Recover internal SAT/H(s)H provenance first; distinguish comparison from influence or equivalence. **Private-source exposure, permissions and publication authorization remain separate controls.**
 >
 > **Rule of thumb:** “reference material” is not a status. Every habitually consulted document should be clearly routed as **theory/BEDROCK**, **archive/provenance**, **navigation/orientation**, **admin/workflow**, **infrastructure/QA**, **methods/resources**, or **quarantine/prior-art**. If its lane is unclear, treat that as a documentation defect rather than guessing its authority.
 
