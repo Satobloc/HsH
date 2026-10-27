@@ -18,6 +18,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.KestrelSgrACrossChannel
 import HsHVerification.MeridianS2Geometry
 import HsHVerification.MeridianS2Observation
+import HsHVerification.MeridianUIOrigin
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
