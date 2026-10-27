@@ -15,6 +15,7 @@ import HsHVerification.EnheduannaTempleLayers
 import HsHVerification.EnheduannaDeclaredCounts
 import HsHVerification.EnheduannaRubricReconciliation
 import HsHVerification.EnheduannaAngleProjectionFidelity
+import HsHVerification.MorrowNeutronPhaseIdentifiability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
