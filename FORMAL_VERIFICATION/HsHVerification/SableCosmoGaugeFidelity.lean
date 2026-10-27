@@ -68,7 +68,6 @@ theorem cosmoDiagonalScale_axis_preserved (rates : Fin 4 → ℝ) (t : ℝ) :
 theorem cosmoHubbleRadius_definitional (H c : ℝ) (hH : H ≠ 0) :
     H * (c / H) = c := by
   field_simp
-  ring
 
 #print axioms HsHVerification.cosmoGap_commonShift_invariant
 #print axioms HsHVerification.cosmoCommonShift_distinct
