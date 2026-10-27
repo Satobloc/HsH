@@ -40,9 +40,9 @@ theorem euclidean_plus_not_idempotent (v : Four) (hv : v 0 ≠ 0) :
     euclideanPlus (euclideanPlus v) ≠ euclideanPlus v := by
   intro h
   have h0 := congrArg (fun w : Four => w 0) h
-  have heq : (4 : ℝ) * v 0 = (2 : ℝ) * v 0 := by
-    simpa [euclideanPlus] using h0
-  have hz : v 0 = 0 := by linarith
+  have hz : v 0 = 0 := by
+    simp only [euclideanPlus, ↓reduceIte] at h0
+    linarith
   exact hv hz
 
 /-- The correctly signed Euclidean transverse operator is idempotent. -/
@@ -66,7 +66,7 @@ theorem lorentzian_plus_agrees_with_transverse (v : Four) :
   funext i
   by_cases hi : i = 0
   · subst i
-    simp [lorentzianPlusMixed, transverse] <;> ring
+    simp [lorentzianPlusMixed, transverse]
   · simp [lorentzianPlusMixed, transverse, hi]
 
 #print axioms euclidean_plus_not_idempotent
