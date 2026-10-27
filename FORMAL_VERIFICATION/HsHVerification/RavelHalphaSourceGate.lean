@@ -12,10 +12,10 @@ namespace HsHVerification.RavelHalphaSourceGate
 
 -- Tuple used as a lightweight four-coordinate carrier. No SU(2) or H-alpha
 -- physical semantics are assumed.
-def sourceCurve (t : ℝ) : ℝ × ℝ × ℝ × ℝ :=
+noncomputable def sourceCurve (t : ℝ) : ℝ × ℝ × ℝ × ℝ :=
   (Real.cos t, Real.sin t, Real.cos (2 * t), Real.sin (2 * t))
 
-def hAlphaLabelCurve (t : ℝ) : ℝ × ℝ × ℝ × ℝ :=
+noncomputable def hAlphaLabelCurve (t : ℝ) : ℝ × ℝ × ℝ × ℝ :=
   sourceCurve ((5 / 36 : ℝ) * t)
 
 theorem hAlpha_is_reparametrized (t : ℝ) :
