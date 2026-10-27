@@ -39,7 +39,8 @@ theorem spatial_projection_independent_of_scale
 theorem alpha_one_agrees_with_meridian (acc c v : ℝ) :
     markedCurvature acc c v 1 =
       HsHVerification.MeridianS2Geometry.curvatureFromAcceleration acc c v := by
-  simp [markedCurvature, HsHVerification.MeridianS2Geometry.curvatureFromAcceleration]
+  simp only [markedCurvature, HsHVerification.MeridianS2Geometry.curvatureFromAcceleration, one_mul]
+  rw [add_comm (v ^ 2) (c ^ 2)]
 
 theorem curvature_strictly_decreases_with_lift_scale
     (acc c v alpha beta : ℝ)
