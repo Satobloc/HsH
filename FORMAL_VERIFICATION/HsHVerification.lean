@@ -23,6 +23,7 @@ import HsHVerification.SableCosmoGaugeFidelity
 import HsHVerification.MiraRapidityHilbertSourceFidelity
 import HsHVerification.AldusSatXScalarSpinorGate
 import HsHVerification.AldusSATxWitnessChronology
+import HsHVerification.AldusArchiveTimestampOrder
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
