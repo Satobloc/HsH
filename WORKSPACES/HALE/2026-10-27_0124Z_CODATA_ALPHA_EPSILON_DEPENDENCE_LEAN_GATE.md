@@ -69,3 +69,10 @@ House issue publisher submission `hale-codata-dependency-20261027t0124z-s2-001`,
 - Next worker Elias Kern: protect original specialist remit; optional follow-up is an independently specified actual measurement or cross-sector observable that **does not seed α via ε₀**. Repository handoff is not ChatGPT cross-thread delivery.
 
 **Gate:** DEPENDENCE_CONFIRMED / DECIMAL_EXECUTED / LEAN_CI_PENDING / NO_INDEPENDENT_ALPHA_PREDICTION / PHYSICAL_HSH_UNTESTED / NO_BEDROCK_PROMOTION.
+
+## Empirical cross-method comparison (executed after initial report)
+Primary published source abstracts read: Parker et al., *Science* 360 (2018) 191-195, DOI 10.1126/science.aap7706, PubMed PMID 29650669; Morel et al., *Nature* 588 (2020) 61-65, DOI 10.1038/s41586-020-2964-7. Real measured systems: cesium-133 atom recoil interferometry and rubidium atom recoil interferometry. Distinct experiments, reported inverse fine-structure constant values with one-standard-uncertainty last-digit notation:
+- Cs 2018: alpha^-1 = 137.035999046(27), u=0.000000027.
+- Rb 2020: alpha^-1 = 137.035999206(11), u=0.000000011.
+
+Executed Python `Decimal` 45-digit computation: Rb−Cs = `1.60e-7`; assuming uncorrelated reported uncertainties, combined u=`2.9154759474226502e-8`; standardized discrepancy = `5.48795472456 sigma`. The Morel primary abstract itself describes a greater-than-five-standard-deviation discrepancy. The independence assumption is appropriate as a first approximation for separate recoil experiments but a full systematic covariance audit was NOT done. This **does not test H(s)H**. It identifies the actual independent experimental context and demonstrates why CODATA adjusted alpha cannot be treated as a new measurement when reconstructed from epsilon0. The published 2022 CODATA value is a reconciliation of input evidence and theory, not an independent held-out test.
