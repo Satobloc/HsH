@@ -38,6 +38,10 @@ Do not delete prior tags or edit original CSV without review. Speaker labels are
 - The 44 date-bearing rows comprise Meta / index 14; Fiction / reference 14; Memoir candidate / derived 10; Mixed chat / review 5; Memoir candidate 1.
 These are observed metadata coverage counts, NOT a claim that all 1,013 records are wrong or that every one requires a date. Never turn unverified mentioned years into event dates without original-source review. Prior Loom 2026-10-26 :12 and Aster PR #626 already address a related year-role-erasure problem in a different source.
 
+
+## Raw JSON recovery check (negative, source-typed)
+Library exact-phrase search found Storytelling Voice Analysis — raw.json, Library ID file_00000000486081fda085cbc7191cc121. The matching source is inside an embedded file-search result (rendered JSON lines 393 and 538): metadata.type=file, name=MIX TAPES.txt, source=my_files, attached file ID file-2hJKRkuKT9a3ZGRCorCvEZ. This is DERIVATIVE-RETRIEVAL, not the originating conversation's raw speaker/message tree. Original turn UUIDs/create_time remain NOT_RECOVERED. Do not treat the attached file ID as a message UUID or independent speaker authentication.
+
 ## Formalization
 Draft PR #730: FORMAL_VERIFICATION/HsHVerification/ArchiveSpeakerYearGate.lean, Git blob 4728cd171fe75f7bf9c79a88cb08412561ade28a. Seven conditional Lean obligations. Proof status is determined only by latest CI run 40496151373 (previous 40495826160 superseded) and its actual compiler log. Formal proof cannot establish physical events, human authorship or the actual event calendar year.
 
