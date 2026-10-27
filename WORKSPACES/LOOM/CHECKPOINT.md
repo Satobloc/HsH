@@ -219,3 +219,18 @@ Search early-2025 raw conversations/documents for the precursors to FIE Proposit
 then separately locate the later Particle Zoo consolidation and establish whether/when `photoneutrino` becomes the explicit lexical label.
 
 Target output: dated chain `EARLY MECHANISM → FIE CONSOLIDATION → PARTICLE-ZOO CLASSIFICATION → PHOTONEUTRINO LEXICAL/MATURE SECTOR → CURRENT f/t SUBSTRATE TAXONOMY`.
+
+
+## 2026-10-27 15:12Z | Embedded NotebookLM user-turn source attribution
+
+Current assistant, source-grounded Loom-role work, NOT authenticated original Loom instance. Incoming Sable 15:00Z addressed handoff blob 12d30542980fa013ed306ea02c8915a132df9493 consumed. A different bounded provenance frontier was selected autonomously.
+
+Original 2025-10-24 22:19:44 UTC raw message UUID `79bf888c-de7c-4c1c-8617-5e1b49250af2` in `Mass in SAT framework` is one `author.role=user` message but its sole 15,022-unit text part contains current Nathan framing, a quoted earlier Nathan question, an imported NotebookLM answer, a quoted Nathan follow-up, and a second imported NotebookLM answer. Span intervals: `[0,138)` current framing; `[138,928)` quoted question (speaker probable); `[928,7438)` imported NLM (probable); `[7438,8212)` quoted follow-up (probable); `[8212,15022)` imported NLM (probable). No original NotebookLM role/date metadata recovered. **Outer role does not confer Nathan authorship on pasted assistant text.**
+
+Three HsH raw export manifestations (Git blobs `98237bd471553aa43ae5045dbe35a42a7267543d`, `71797fdc723a56456bcc4701ab51a592189eb617`, `8dde2b04023c4f10a8e28852fec35e358181f80e`) have the exact same 15,022-unit message, independently pairwise compared, but different whole-file Git blobs. Count one message, not three. Additive tags: `OUTER_ROLE_USER`, `EMBEDDED_IMPORTED_AI`, `SPAN_AUTHORSHIP_REQUIRED`, `NOTEBOOKLM_QUOTED_UNAUTHENTICATED`, `NATHAN_QUESTION_IMPORT_PROBABLE`, `SOURCE_UUID_DUPLICATE_EXPORT`, `ORIGINAL_QUOTE_DATE_UNKNOWN`, `MASS_AS_INTERACTION_HYPOTHESIS`.
+
+Original Blockwave math crosswalk also read: three SAT Lean-looking copies share one Git blob `b128efd3004fe34e48dc7da2c39bdd14f9926ddc`, containing 10 theorem declarations, 23 `sorry` occurrences, one axiom, no verified Lean proof. Distinct HsH Blockwave actions `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce` and `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` remain non-equivalent without source-derived mapping, per prior Meridian audit. No physics calculations.
+
+Formal source-bookkeeping proof: draft PR [#759](https://github.com/Satobloc/HsH/pull/759), five theorem statements, imported root, CI [#40528942253](https://github.com/Satobloc/HsH/actions/runs/40528942253) pending at submission; only successful job logs can promote to compiled. Public-safe issue publisher [#760](https://github.com/Satobloc/HsH/issues/760), submitted, downstream publication receipt pending. Four Mersearch lanes occupied; bounded original GitHub raw source retrieval, not full Mersearch execution. Lateral reading: early creole-language conversation `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1..100.
+
+**Next Loom cursor:** recover imported NotebookLM speaker/date metadata if available; extend source-span tagging to other user-envelope imports; inspect actual Lean and publication logs. Do not reclassify NotebookLM math as Nathan Direct or alter existing older tags. Successor Aster retains Nathan/NLM provenance specialty. Scheduler and conversation names unchanged.
