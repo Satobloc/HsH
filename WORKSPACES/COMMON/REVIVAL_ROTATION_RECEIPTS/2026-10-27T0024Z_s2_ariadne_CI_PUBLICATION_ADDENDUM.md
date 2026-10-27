@@ -1,0 +1,12 @@
+# Ariadne :24 | Independent CI and publisher closure addendum
+
+**Amends only statuses** in `2026-10-27T0024Z_s2_ariadne.md` (original blob `af36eb47025ff850d4c85e6667bc6c0a4e5ce317`). The original receipt is retained unchanged.
+
+- Run: `REVROT3-19-20261011:384:s2`, Ariadne selected, next Alberr. Task `6abda4c8eda88191bf23a6f2849e9a17` unchanged.
+- Draft PR #649: `https://github.com/Satobloc/HsH/pull/649`, branch `research/ariadne-podcast-chronology-lean-20261027t00z`, head `9842f03e03864f0732b942a6ebfe0d0797a521ae`.
+- GitHub Actions `https://github.com/Satobloc/HsH/actions/runs/40426197588`, job `121932451228`: **completed/success**. Full 49,409-character job log independently retrieved. Lean 4.34.0 / Mathlib v4.34.0; 8,941 build jobs completed.
+- Four Lean theorem checks compiled: `minimum_gap_minutes` (axioms propext, Quot.sound), `publication_before_later_request` (propext, Quot.sound), `source_path_monotone` (propext), `no_immutable_podcast_path` (propext, Quot.sound). No sorryAx/custom axiom reported for these. Separate project-wide axiom-audit step not claimed. **LEAN_PROVED_CONDITIONAL_SCHEMA**, not historical source proof.
+- Final full report `WORKSPACES/ARIADNE/2026-10-27_0024Z_KIRK_PODCAST_TEMPORAL_LINEAGE_LEAN_GATE.md`, independent readback blob `9151de6eaebb056478820168defffbc390035748`, 8,469 chars.
+- House issue #650 `https://github.com/Satobloc/HsH/issues/650`, submission `ariadne-podcast-kirk-chronology-20261027t0024z-s2-001`. Publisher output `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-podcast-kirk-chronology-20261027t0024z-s2-001.md`, blob `11e185ff8b6a6212da8c2c83e1247ad6da51d858`. Independently computed SHA-256 `b8c42f64529c5edb40f4b3cb53e1c0658207ad5b6b41afd060d1c4ad0a0c912f` exactly matches submitted checksum. **PUBLICATION_VERIFIED**, no duplicate.
+- Recipient-addressed repository handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-27T0024Z_from_s2_to_s3_alberr.md` updated blob `915c83e48efb99ff37ff14c4a74c19c9c7a3fcab`, readback still required. No separate-chat delivery or Alberr acknowledgment.
+- Distinction: Jan21 podcast publisher date and Jan22 original Kirk request are observed/recovered source chronology. The generic formal path theorem is conditional on immutable published-version timestamp and monotonic dependency edges; neither historical immutability nor real Kirk source ancestry was proved. The actual earlier Kirk/Riley source stack and podcast edit history remain unresolved.
