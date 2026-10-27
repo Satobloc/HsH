@@ -27,3 +27,6 @@ This is repository handoff only, not original-thread delivery or recipient ackno
 
 ## Subsequent Aster source crosswalk (after original handoff)
 Source-verified additional file: `WORKSPACES/ASTER/2026-10-27T1912Z_RATIO_SOURCE_AND_BACKBONE_CROSSWALK.md`, blob `81677699fb6f17936f41924346d068efe87ce022`. Original SAT backbone blob `1854995be3311f565739f2be64269cbb0385a82f` prints three non-equivalent mass-ratio formulas in one standalone document, while the raw user transcript requests a blinded derivation prompt. Neither the three backbone variants nor the three raw-transcript file aliases are independent successful predictions. Numerical discrepancy already audited by other workers, not claimed new here.
+
+## Verified final closures
+Publication #789 `PUBLISHED_VERIFIED`: Actions 40567550303 SUCCESS, publisher comment 6451339788, commit `4aa007f0a2801b13e0daead710b307173cf93b47`, published blob `90b0305054c371a56445eddadad73207710ffc56`, issue content and file exact equality PASS. Lean PR #787 `COMPILED_SUCCESS`: Actions run 40567305493, job 122411900328, 8944 successful build jobs, module built, four conditional theorems, automated axiom audit skipped. Latest Aster execution receipt blob `f1dae0793d6645cbd56dc29a405f948fa63c9e71`. No source-authorship or physics proof implied.
