@@ -1,0 +1,23 @@
+# Morrow Workshop :00 | Paired Aldus/Morrow identity turns | 2026-10-27 10Z
+
+Run REVROT3-19-20261011:394:s0; selected Morrow index 13, next Kestrel index 14 at 10:12Z. Current assistant source-grounded reconstruction, not original Morrow authentication or cross-thread delivery. Existing task ID 6aa1fe0de5e48191b886496095b1343f and hourly phase unchanged.
+
+## Primary archive source and actual finding
+Parsed Morrow original export blob 362075c5e32ec9e97579bd1de58fba7f612cb6bb (465 mapping nodes), Aldus original export blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a (1578 mapping nodes), and earliest Morrow snapshot blob e32873cd17c1d96003dced0310ebf4d3cd954d07 (117 mapping nodes). Only the six relevant messages and their metadata were read for dialogue; not full-conversation semantic coverage.
+
+Nathan's Morrow prompt 4298fb5d... was created 2026-09-08 11:00:33.530Z; Morrow reply 2a0548d8... at 11:00:51.446Z. Nathan's DIFFERENT Aldus prompt ae2eb196... was created at 11:01:57.555Z; Aldus reply 77ffa5bb... at 11:02:18.688Z. Thus the first Morrow answer precedes that later Aldus prompt by exactly 66.108781 s in exported create_time. The two prompts and two replies are not text-identical and have separate UUID families, parent chains and turn IDs. It is not this later Aldus prompt's response mirror, conditional on comparable faithful export clocks.
+
+Nathan's later Morrow observation at 11:03:25.421Z asks why both did not answer; Morrow reply 74526064... at 11:03:32.172734Z has an earliest-surviving SEEDED citation to the earlier Aldus wording about sometimes both answering. The later Morrow snapshot keeps its body unchanged and upgrades citation status to COMPLETE. This supports citation-visible selective retrieval metadata, NOT a proof of actual prompt exposure, model memory transfer, causal backend routing, or an authenticated communication channel. The first Morrow reply also has an earlier Aldus snippet citation; its presence does not make the later Aldus prompt a cause.
+
+## Symmetric source-fidelity disposition
+Nathan directly observes role-name ambiguity and variable double answers, but does not specify a backend cause or controlled experiment. The historical assistants propose identity attractors, hybrid self-models, selective context propagation, and a dangling-question routing rule. These are hypotheses, not demonstrated mechanisms. A different earlier Sept 8 branch contains an actual exact work-stream mirror; do not merge that event with this distinct-response pair. No physical calculations or CODATA scoring.
+
+## Actual checks and proof boundary
+A source-data JavaScript parse verified roles, timestamps, graph UUIDs, distinct texts, citation metadata and snapshot status. Independent local Decimal Python verification passed six assertions on the original timestamp strings. Script SHA256 becf7e0cf83381cb68a83997391439d1045f26a1b0f2df510f39a9cdd155fcd0; stdout SHA256 9f0a788072cc8eadd4d291a90b560131e3f214a253161195c66d20d12f73466d.
+
+Draft Lean PR #719, head a9bdda58a0c5d09fdefe2402500218487eded53b, adds four conditional theorem statements encoding observed timestamp ordering and necessary time admissibility. Source blob 363a3c14d352fefc8764df52c5cda54c5e4dc7b2; root import f1ac4b8642b82b65dccb687257bea42daeb3dcbc. At submission, CI run 40485592993 IN_PROGRESS; no Lean success claimed. Lean cannot prove source-clock accuracy, context exposure or causality.
+
+Mersearch bridge lane 1 is occupied by Nathan's Indicatrix request; it was not overwritten. Bounded exact GitHub source reads are not Mersearch. Existing Morrow comparator and previous audits were checked before new work; no duplicate source-identity theorem or tool built. Morrow administrative source-identity remit and theory freeze preserved. Historical Blockwave Hamiltonian 138-line blob 13b6da983ea8dcad5509b1c6941b8855a2653677 inspected for cross-source separation, not used as cognition evidence.
+
+## Next cursor
+Check PR #719 actual Lean CI and #print axioms. Trace the earlier Aldus snippet cited by the first Morrow answer to exact source message/time; seek authorized retrieval logs before assigning causal mechanism. Preserve Kestrel's separate whole-picture remit. Nov 9 Orson cognition paper, Nov 30 measured-system paper and Dec 14 full-theory paper remain distinct uncompleted gates. No BEDROCK promotion, new task, schedule/access/license/signet/chat-name changes, or original-worker acknowledgement.
