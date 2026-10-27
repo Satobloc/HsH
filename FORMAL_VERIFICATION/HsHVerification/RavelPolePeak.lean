@@ -22,10 +22,10 @@ assert any measured resonance or H(s)H prediction.
 
 namespace HsHVerification.RavelPolePeak
 
-def freePoleOscSq (inertia stiffness damping : ℝ) : ℝ :=
+noncomputable def freePoleOscSq (inertia stiffness damping : ℝ) : ℝ :=
   stiffness / inertia - damping ^ 2 / (4 * inertia ^ 2)
 
-def drivenDisplacementPeakSq (inertia stiffness damping : ℝ) : ℝ :=
+noncomputable def drivenDisplacementPeakSq (inertia stiffness damping : ℝ) : ℝ :=
   stiffness / inertia - damping ^ 2 / (2 * inertia ^ 2)
 
 /-- Free-pole oscillation and driven displacement peaks are distinct
