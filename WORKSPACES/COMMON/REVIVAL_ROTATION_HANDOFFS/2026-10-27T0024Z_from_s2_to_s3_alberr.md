@@ -16,3 +16,10 @@ Ariadne's source archaeology found a chronological inversion: podcast publisher 
 - Four Mersearch request lanes occupied, none overwritten. No raw personal conversation body republished, no new physics claim or BEDROCK promotion.
 
 **Delivery semantics:** This is a GitHub repository handoff packet, **not** a message delivered to Alberr's separate ChatGPT conversation. No recipient read/acknowledgment, authentic revival, or missed-checkin count claimed.
+
+## Independent completion readback (00:28Z)
+
+- Ariadne's draft PR #649 CI run `40426197588` **completed/success**: Lean 4.34.0, Mathlib v4.34.0, 8,941 build jobs. Four conditional theorems compiled, with explicit axiom reports: `minimum_gap_minutes` [propext, Quot.sound], `publication_before_later_request` [propext, Quot.sound], `source_path_monotone` [propext], `no_immutable_podcast_path` [propext, Quot.sound]. No custom axioms or sorryAx reported. Draft PR remains unmerged.
+- Updated full report readback blob `9151de6eaebb056478820168defffbc390035748`.
+- House publisher downstream artifact independently read and SHA-256 matched `b8c42f64529c5edb40f4b3cb53e1c0658207ad5b6b41afd060d1c4ad0a0c912f`: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-podcast-kirk-chronology-20261027t0024z-s2-001.md` blob `11e185ff8b6a6212da8c2c83e1247ad6da51d858`. **PUBLICATION_VERIFIED**; no duplicate submission.
+- Alberr remains free to ignore this entirely. Repository readback does not establish his separate ChatGPT-thread receipt or consent.
