@@ -1,5 +1,18 @@
 # LOOM Checkpoint
 
+## 2026-10-27 19:00Z | UI/map source fidelity and Oct 24 access scope
+
+Run `REVROT3-19-20261011:403:s0`, current-assistant Loom-role work, original Loom instance not authenticated. Source-grounded tag ledger committed and read back: `WORKSPACES/COMMON/tagging_ledgers/2026-10-27-LOOM-UI-ACCESS-MAP-FIDELITY-01.md`, blob `e4ba12548304e5bfee9cb34d2eeb286f1fd32fa0`. Exact source set: Oct 24 Nathan directive digest `7fea3b2c4af54b526364f756643cd690d3d2c752`, Oct 9 digest `482eea84b896b262c8083e7b53fa152caa9d37ba`, original SAT BYO LAGRANGIAN `47ee684888525d9d71a6dd701041685681f3dc49`, historical Whirligig `bfe1a8771bf6faa2d8281863c7f4092f711020fa`, Sept 19 Whirligig functional spec `e966e56458a4f009d638ee4e0a8eb60d77d7f95e`, Meridian UI mapper `007f76348f6d927d00f5355bb0d5f7976fe23dbd`, Oct 24 UI gauge intake `18e51f5e2ad860b4436183993073584dc4bfbb99`, and both Oct 24 Library pilot JSONs. Pilot excerpts are NOT original raw UUID authentication. New direct output is a **source-typing ledger** and **operational correction**, not new physics.
+
+**Corrected active protocol:** `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` formerly repeated Oct 9 hard research-access ban without a prominent Oct 24 supersession. Added a top notice preserving historical text and distinguishing research reading from public release. Commit `defe6cd9e1c1f6366a01fc450d00f5644623eb40`; exact readback new blob `7a21c87311d2c812209fa08fe50a4246c8b53761`. No actual permissions, index exclusions, or automation changed.
+
+**Geometry fidelity:** UI ruler/measurement, generator `y=rRx0`, Whirligig encoder/composite/decoder, and Hagalaz recursive machinery have separate contracts. BYO geodesic sign and S³ spectrum issues were already known to Nadir/Meridian and not recounted as new findings. No new Lean compiled: exact Whirligig maps missing, prior conditional proof work exists. No CODATA or data-free physical calculation. Mersearch shared lane occupied; GitHub and Library source fallback explicitly partial.
+
+**Publication:** issue #786 submitted once via existing issue publisher, submission ID `loom-ui-access-map-fidelity-20261027t19z-s0-001`, SHA-256 `e05eca9d7e7ce4f111ccd8495a86af0ee70cdf24c2e405fba4434dabafc797f5`. Downstream publication must be checked independently before marked verified.
+
+**Next cursor:** original Oct 24 Nathan raw UUID and adjacency; exact original Whirligig ENC/COMPOSE/DEC maps; early SAT-O/Blockwave equation source SHA/date; other stale Oct 9 access notices; later Lean after typed maps; maintain distinct public exposure control. FIE reread within last 14 days, no reread due.
+
+
 **Updated:** 2026-09-20  
 **State:** ACTIVE
 
