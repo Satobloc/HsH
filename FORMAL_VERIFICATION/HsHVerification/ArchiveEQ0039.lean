@@ -31,7 +31,6 @@ theorem two_step_telescopes
     endpointEdge state j k * endpointEdge state i j =
       endpointEdge state i k := by
   simp [endpointEdge]
-  group
 
 /-- Endpoint-derived transport cannot distinguish two routes with the same
 start and finish. -/
@@ -41,7 +40,6 @@ theorem same_endpoints_force_same_transport
     endpointEdge state a j * endpointEdge state i a =
       endpointEdge state b j * endpointEdge state i b := by
   simp [endpointEdge]
-  group
 
 /-- Every triangular loop of endpoint-derived edges closes trivially. -/
 theorem endpoint_triangle_loop_is_trivial
@@ -50,7 +48,6 @@ theorem endpoint_triangle_loop_is_trivial
     endpointEdge state k i * endpointEdge state j k *
         endpointEdge state i j = 1 := by
   simp [endpointEdge]
-  group
 
 /-- A nontrivial triangular loop is an exact obstruction to representing all
 three measured edges as endpoint-state differences. -/
