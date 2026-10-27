@@ -28,6 +28,7 @@ import HsHVerification.ArchiveEQ0035
 import HsHVerification.ArchiveEQ0036
 import HsHVerification.ArchiveEQ0037
 import HsHVerification.ArchiveEQ0038
+import HsHVerification.ArchiveEQ0039
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
