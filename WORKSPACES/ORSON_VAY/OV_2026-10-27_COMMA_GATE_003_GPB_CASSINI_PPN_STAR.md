@@ -56,3 +56,25 @@ Historical `B0=3/(4*pi)` has exact `2*pi*B0=3/2`. GR spin transport has `gamma+1
 **Archive note:** Both GP-B and Cassini are **historical measurements**. They are a benchmark for the present coupled reconstruction, not newly observed anomalies or sources of current experiment availability.
 
 Orson lane, assistant-authored research record.
+
+## Additional relationship: measured 3:4 cross-spoke coefficient ratio
+The two different physical channels depend on the **same** PPN spatial-curvature parameter but carry distinct coefficients:
+```
+C_gyro = gamma + 1/2  [spin connection]
+C_radio = gamma + 1  [solar Shapiro signal amplitude]
+R_cross = C_gyro / C_radio = (gamma+1/2)/(gamma+1).
+At gamma=1 (GR), R_cross = (3/2)/2 = 3/4; 1/R_cross = 4/3.
+```
+This exact `3/4` is a ratio of **coefficients in differently normalized physical observables**, not an actual measured frequency interval. It therefore does **not** establish that the perfect fourth or the comma is mechanically realized.
+
+Using two **different experimental** measurements without fitting one to the other:
+```
+C_gyro,GPB = 1.497920872590807 +/- 0.004152193639373  (formal)
+C_radio,Cassini = 1+gamma_C = 2.000021 +/- 0.000023
+R_data = 0.7489525722933944 +/- 0.002076092886609  (formal)
+z against 3/4 = -0.504518710777162
+reciprocal = 1.335198031215601 +/- 0.003701162446552 (formal)
+```
+Propagate measurement variances independently as
+`sigma_R^2=(sigma_Cgyro/C_radio)^2 + (Cgyro*sigma_Cradio/C_radio^2)^2`.
+Orbital/model uncertainties remain unquantified, so these are formal statistics only. This is an experimentally grounded PPN relationship across a massive-gyro and a radiative radio-link spoke, not a verified H(s)H derivation of either coefficient.
