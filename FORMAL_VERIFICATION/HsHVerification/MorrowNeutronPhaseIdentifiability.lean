@@ -6,7 +6,7 @@ import Mathlib
 Physical anchor: Werner, Colella, Overhauser and Eagen, Phys. Rev. Lett. 35,
 1053 (1975), DOI 10.1103/PhysRevLett.35.1053, printed Eqs. (3) and (4).
 Actual measured system: unpolarized 1.445 Angstrom neutron interferometer;
-reported magnetic-field fringe period 62 +/- 2 gauss.
+reported magnetic-field fringe period 62 plus or minus 2 gauss.
 
 The symbols below are the paper's instrumental intensities and phases:
   C2 = gamma - alpha * cos(delta) * cos(beta)
