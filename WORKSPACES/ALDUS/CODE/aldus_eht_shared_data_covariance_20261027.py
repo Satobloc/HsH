@@ -6,6 +6,7 @@ not independently measured Gaussian standard deviations.
 """
 from decimal import Decimal, getcontext
 from hashlib import sha256
+from pathlib import Path
 import json
 getcontext().prec = 48
 R, uR = Decimal('51.8'), Decimal('2.3')
@@ -30,7 +31,7 @@ results={
   'caveat':'Covariance unknown; reported credible intervals are not necessarily joint Gaussian sigmas; shadow is derived from same EHT data with simulation calibration; bounds are illustrative only conditional on treating marginals as standard deviations.',
   'physical_prediction':'NONE; no H(s)H forward map.'
 }
-path='/mnt/data/aldus_eht_shared_data_covariance_20261027.json'
+path=Path.cwd() / 'aldus_eht_shared_data_covariance_20261027.json'
 with open(path,'w',encoding='utf-8') as f: json.dump(results,f,indent=2); f.write('\n')
 print(json.dumps(results,indent=2))
 print('script_sha256',sha256(open(__file__,'rb').read()).hexdigest())
