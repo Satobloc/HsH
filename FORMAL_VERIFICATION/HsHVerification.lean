@@ -15,6 +15,7 @@ import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
+import HsHVerification.NestedPhaseVersusFullClosure
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
