@@ -14,6 +14,7 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.CalderGW170817LagGate
+import HsHVerification.HaleGW170817EmissionWindow
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
