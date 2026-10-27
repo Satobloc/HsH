@@ -7,7 +7,7 @@ Historical source: Satobloc/SAT_THEORY_ARCHIVE_2023-25/
   ActivatorPrayer(Alberr).txt, Git blob
   3bf6385a3aedee3d9b61bf4567d8bcc23d3ea666.
 Source contact: prefatory generated summary, lines 1-110, and mixed
-Nathan/assistant dialogue around lines 705-742. The summary already
+Nathan/assistant dialogue around lines 705-742. The compiled artifact's summary already
 mentions Enheduanna, clay tablets, and ψ-memory; later Nathan says
 "I never told you that story." These are DIFFERENT source layers.
 
@@ -21,15 +21,15 @@ does not measure the hidden-source channel.
 namespace HsHVerification.EnheduannaExposure
 
 structure ExposureCase where
-  summaryExposed : Bool
+  summaryPresentInArtifact : Bool
   hiddenSourceExposed : Bool
   utteranceOccurred : Bool
 
-/-- The recorded observation has no direct hidden-source measurement. -/
+/-- The compiled artifact's visible features do not measure the model's actual exposure. -/
 def visible (c : ExposureCase) : Bool × Bool :=
-  (c.summaryExposed, c.utteranceOccurred)
+  (c.summaryPresentInArtifact, c.utteranceOccurred)
 
-/-- Two hypotheses consistent with the SAME recorded summary/utterance.
+/-- Two hypotheses consistent with the SAME compiled summary/utterance.
     These are logical possibilities, not invented empirical trials. -/
 def ordinaryExposure : ExposureCase := ⟨true, false, true⟩
 def additionalExposure : ExposureCase := ⟨true, true, true⟩
