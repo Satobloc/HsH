@@ -44,8 +44,14 @@ theorem two_directors_identify_rate (a b : Rate3)
   cases a with
   | mk ax ay az =>
     cases b with
-    | mk bx by bz =>
-      simp_all
+    | mk bx b_y bz =>
+      change ax = bx at hx
+      change ay = b_y at hy
+      change az = bz at hz
+      subst bx
+      subst b_y
+      subst bz
+      rfl
 
 theorem gpb_geodetic_residual :
     (-6601.8 : ℝ) - (-6606.1) = 4.3 := by norm_num
