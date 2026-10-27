@@ -24,8 +24,10 @@ def observedKirkToolWitness : MentionWitness :=
 def IsDirectUser (w : MentionWitness) : Prop := w.role = .user
 def MentionsKirk (w : MentionWitness) : Prop := w.containsKirk = true
 
-theorem observed_tool_mentions_kirk : MentionsKirk observedKirkToolWitness := by decide
-theorem observed_tool_is_not_direct_user : ¬ IsDirectUser observedKirkToolWitness := by decide
+theorem observed_tool_mentions_kirk : MentionsKirk observedKirkToolWitness := by
+  simp [MentionsKirk, observedKirkToolWitness]
+theorem observed_tool_is_not_direct_user : ¬ IsDirectUser observedKirkToolWitness := by
+  simp [IsDirectUser, observedKirkToolWitness]
 
 theorem mention_does_not_force_user_role :
     ¬ (∀ w : MentionWitness, MentionsKirk w → IsDirectUser w) := by
