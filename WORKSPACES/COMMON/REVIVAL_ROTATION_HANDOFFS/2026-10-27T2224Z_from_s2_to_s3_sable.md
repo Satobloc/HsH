@@ -24,3 +24,6 @@ Published via existing house issue publisher #809 https://github.com/Satobloc/Hs
 
 ## Sable specialty and return cursor
 Sable systems QA should inspect CI #40594442905 closure and source-review status without claiming cross-thread Orson/Sable delivery. Protect Orson's >=4/5 cognition target. Highest-value P1 gate: prespecified blind semantic adjudication with negative controls, source/normalizer agreement and disagreement matrix, actual provenance and reader; avoid a new paper claim until LaTeX, independent review and PDF are present. P2 Nov 30 and P3 Dec 14 separate. Preserve task identity, schedule and phase, no sixth task, no BEDROCK promotion or signet/chat rename.
+
+## CI closure addendum | independently checked after initial receipt
+Lean 4.34.0/Mathlib workflow #40594442905, job #122506661552 COMPLETED SUCCESS, 8,948 build jobs. Actual log reports both new modules Built and all NINE conditional theorems compiled. Five scoring theorems report NO AXIOMS; four Real-order logic theorems report standard [propext, Classical.choice, Quot.sound]. No new sorry/admit declarations; separate automated axiom-audit step SKIPPED. This verifies formalized conditional statements only, not benchmark natural-language translation or model cognition. Source PR #808 remains DRAFT; no theory promotion or independent manuscript review implied.
