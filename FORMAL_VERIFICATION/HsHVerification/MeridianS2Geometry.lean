@@ -13,8 +13,10 @@ measured S2 orbital motion, Newtonian acceleration, the fixed affine
 Euclidean R4 lift X(w)=(x(w),w) with w=ct, and any H(s)H material tube
 requires separate physical/observational justification. At pericenter
 v dot a=0 and the Euclidean extrinsic curvature reduces to
-(a_phys/c^2)/(1+(v_phys/c)^2). Here 'a' is spatial acceleration
-per unit w^2 and 'v' is dimensionless dx/dw.
+(a_phys/c^2)/(1+(v_phys/c)^2) = a_phys/(c^2+v_phys^2).
+The Lean parameters 'acc', 'c', and 'v' use physical SI acceleration
+(m/s^2) and speeds (m/s); mu/r^2 has acceleration units. The native
+R4 derivatives with respect to w=ct are separately normalized by c.
 -/
 
 namespace HsHVerification.MeridianS2Geometry
