@@ -21,7 +21,9 @@ dFx, dFy = 2*(x+a*e)/a**2, 2*y/b**2
 h = 1+(r/a)**2
 dhx, dhy = 2*x/a**2, 2*y/a**2
 g0 = np.hypot(dFx,dFy)
-g1 = np.hypot(h*dFx+F*dhx,h*dFy+F*dhy)
+g1x, g1y = h*dFx+F*dhx, h*dFy+F*dhy
+g1 = np.hypot(g1x,g1y)
+unit_normal_max_gap = np.max(np.hypot(dFx/g0-g1x/g1,dFy/g0-g1y/g1))
 
 # Faithful transcription of the original script's normalize_channel routine.
 def normalize_channel(q):
@@ -53,6 +55,7 @@ result = {
        "q_F_peri":float(q0[p]),"q_F_apo":float(q0[ap]),
        "q_hF_peri":float(q1[p]),"q_hF_apo":float(q1[ap]),
        "max_channel_difference":float(np.max(np.abs(q0-q1))),
+       "unit_normal_max_gap":float(unit_normal_max_gap),
        "degenerate":[bool(deg0),bool(deg1)]},
     "caveat":"No fitted covariance; not a new H(s)H prediction or independent observation."
 }
@@ -60,4 +63,5 @@ assert np.max(np.abs(F)) < 1e-12
 assert not deg0 and not deg1
 assert abs(q0[p]-q0[ap]) < 1e-10
 assert abs(q1[p]-q1[ap]) > 0.05
+assert unit_normal_max_gap < 1e-12
 print(json.dumps(result,indent=2))
