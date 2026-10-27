@@ -16,6 +16,7 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.TernRotationFairness
+import HsHVerification.TernHydraIdentityGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
