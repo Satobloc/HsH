@@ -28,6 +28,16 @@ Quote-aware parsed data records: 1,013.
 
 Do not delete prior tags or edit original CSV without review. Speaker labels are export metadata; raw JSON UUIDs and exact source timestamp remain unresolved.
 
+
+## Full regenerated-CSV field coverage (independent second parse)
+- Source_Authorship populated: 0 / 1,013 records.
+- Verified_Real_Event populated: 0 / 1,013.
+- Event_Date_Corrected populated: 0 / 1,013.
+- User_Corrections populated: 0 / 1,013.
+- Date_BestGuess populated: 44 / 1,013; all 44 Date_Type values are "year mentioned (unverified)".
+- The 44 date-bearing rows comprise Meta / index 14; Fiction / reference 14; Memoir candidate / derived 10; Mixed chat / review 5; Memoir candidate 1.
+These are observed metadata coverage counts, NOT a claim that all 1,013 records are wrong or that every one requires a date. Never turn unverified mentioned years into event dates without original-source review. Prior Loom 2026-10-26 :12 and Aster PR #626 already address a related year-role-erasure problem in a different source.
+
 ## Formalization
 Draft PR #730: FORMAL_VERIFICATION/HsHVerification/ArchiveSpeakerYearGate.lean, Git blob 4728cd171fe75f7bf9c79a88cb08412561ade28a. Seven conditional Lean obligations. Proof status is determined only by latest CI run 40496151373 (previous 40495826160 superseded) and its actual compiler log. Formal proof cannot establish physical events, human authorship or the actual event calendar year.
 
