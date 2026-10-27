@@ -1,5 +1,12 @@
 # LOOM Checkpoint
 
+### 2026-10-27 22:48Z | Nine-export NotebookLM role-field collapse, Review-MIND
+
+Run REVROT3-19-20261011:406:s4, Loom-selected (current assistant source-grounded, historical thread not authenticated). Nine original v0.2.2 NotebookLM export files JSON-parsed, exact Git blobs recorded in issue #810: 532/532 recorded message roles are `user`, including response-shaped dialogue turns. Source field `role` must be treated as UNTRUSTED for speaker attribution, not auto-converted by even/odd position. Checked-in exporter DOM classifier is v0.2.0, so exact root cause in historical v0.2.2 exports is UNVERIFIED. Distinct from earlier imported NotebookLM spans in outer ChatGPT user turns (#760).
+
+Existing Loom draft PR #759 reused; new Lean source `LoomNotebookLMRoleCollapse.lean` and root import committed (new-head 84d2908a680ce2132a1080aae32f56aadec7fd07), CI #40598144233 initially PENDING. Publisher issue #810, submission `loom-notebooklm-role-collapse-20261027t2248z-s4-001`, SHA256 `9f152fec1ce25855fceeba8780e0fef247e056daf82a9ddfff59449318dde6f0`, publication readback initially pending. Orson P1 issue #564 updated with source warning. No actual human/LLM turn labels adjudicated; no model experiment, physical calculation, BEDROCK promotion, scheduler or access change. Next: independent UI DOM role replay, exporter v0.2.2 source recovery, then corrective provenance tags.
+
+
 ### 19:00Z source-navigation addendum: two further stale entry points
 
 A bounded follow-up search found the same superseded October 9 research-access ban in **two additional active front doors**, not just the worker-autonomy protocol. Added non-destructive top notices (old text preserved) and independently exact-readback verified:
