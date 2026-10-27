@@ -21,12 +21,12 @@ namespace HsHVerification.ScreenedExteriorMassGate
 
 /-- Quasi-local mass divided by the horizon-calibrating parameter M,
     for x = r/r_s, under the specified static spherical metric. -/
-def normalizedMass (x : ℝ) : ℝ :=
+noncomputable def normalizedMass (x : ℝ) : ℝ :=
   x * Real.exp (1 - x)
 
 /-- Dimensionless factor proportional to the radial mass derivative.
     The derivative identity is independently checked with SymPy. -/
-def normalizedMassSlope (x : ℝ) : ℝ :=
+noncomputable def normalizedMassSlope (x : ℝ) : ℝ :=
   Real.exp (1 - x) * (1 - x)
 
 theorem normalizedMass_at_horizon : normalizedMass 1 = 1 := by
