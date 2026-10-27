@@ -13,6 +13,7 @@ import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.EnheduannaTempleLayers
 import HsHVerification.EnheduannaDeclaredCounts
+import HsHVerification.EnheduannaRubricReconciliation
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
