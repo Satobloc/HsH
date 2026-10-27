@@ -82,3 +82,8 @@ theorem observed_change_blocks_base_factorization
       project director move frame hfactor hfix)
 
 end HsHVerification.ArchiveEQ0041
+
+
+#print axioms factored_director_invariant_under_stabilizer
+#print axioms director_change_blocks_base_factorization
+#print axioms observed_change_blocks_base_factorization
