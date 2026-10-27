@@ -21,7 +21,7 @@ is a derived calibration and NOT an independent H(s)H prediction.
 namespace HsHVerification.KestrelSgrACrossChannel
 
 /-- Abstract single angular observable with a dimensionless factor k. -/
-def angularScale (k mass distance : ℝ) : ℝ :=
+noncomputable def angularScale (k mass distance : ℝ) : ℝ :=
   k * mass / distance
 
 /-- One angular readout alone cannot break a joint positive or negative
@@ -33,7 +33,6 @@ theorem joint_scale_invariance
       angularScale k mass distance := by
   unfold angularScale
   field_simp [hd, hs]
-  ring
 
 /-- Once distance and nonzero k are supplied externally, the algebraic
     forward map can be inverted to recover mass. -/
@@ -43,7 +42,6 @@ theorem recover_mass_given_distance
     angularScale k mass distance * distance / k = mass := by
   unfold angularScale
   field_simp [hd, hk]
-  ring
 
 /-- A coefficient defined by dividing the observed diameter by an
     independently estimated scale reproduces that same observed diameter
