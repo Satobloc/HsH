@@ -10,7 +10,7 @@ Git blob: 9be7a256d08fcb1aacf3e77b807db0e9555681c4
 Read extent: full 762 lines; 23 explicit user and 23 explicit assistant turn markers.
 
 - Line 85: ASSISTANT-SUGGESTION / BAROQUE-ENGLISH / FIRST-IN-THIS-FILE.
-- Line 93: USER-ENDORSEMENT / SAME-TERM / NOT-USER-COINAGE-EVIDENCE.
+- Line 93: USER-ENDORSEMENT / SAME-NORMALIZED-TERM / NOT-USER-COINAGE-EVIDENCE. Original surface has lower-case initial 'b', unlike assistant line 85. Preserve both verbatim surfaces and an explicit case-folded index key.
 - Line 154: ASSISTANT-RETROACTIVE-COINAGE-ATTRIBUTION / UNVERIFIED.
 - Lines 187-188: ASSISTANT-RETROACTIVE-SUGGESTION-ATTRIBUTION / UNVERIFIED.
 - Lines 695-696: USER-RECOLLECTION / VEHICLE-MODEL-YEAR-1978 / EVENT-DATE-UNSTATED.
@@ -29,6 +29,6 @@ Quote-aware parsed data records: 1,013.
 Do not delete prior tags or edit original CSV without review. Speaker labels are export metadata; raw JSON UUIDs and exact source timestamp remain unresolved.
 
 ## Formalization
-Draft PR #730: FORMAL_VERIFICATION/HsHVerification/ArchiveSpeakerYearGate.lean, Git blob 0fcf24126637880ebc96a18a0b140fb8e6446b9c. Seven conditional Lean obligations. Proof status is determined only by CI run 40495826160 and its actual compiler log. Formal proof cannot establish physical events, human authorship or the actual event calendar year.
+Draft PR #730: FORMAL_VERIFICATION/HsHVerification/ArchiveSpeakerYearGate.lean, Git blob 4728cd171fe75f7bf9c79a88cb08412561ade28a. Seven conditional Lean obligations. Proof status is determined only by latest CI run 40496151373 (previous 40495826160 superseded) and its actual compiler log. Formal proof cannot establish physical events, human authorship or the actual event calendar year.
 
 No physics calculation, CODATA comparison, BEDROCK promotion or conversation rename.
