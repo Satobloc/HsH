@@ -15,6 +15,7 @@ import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.MiraSgrACovarianceGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
