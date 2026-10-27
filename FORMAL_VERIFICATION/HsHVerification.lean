@@ -1,3 +1,4 @@
+import HsHVerification.AriadneEnvelope
 import HsHVerification.AriadneChronology
 import HsHVerification.AriadneLineage
 import HsHVerification.ArchiveEQ0001
