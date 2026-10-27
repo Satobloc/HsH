@@ -1,0 +1,21 @@
+# Mercer-selected :00 | 2026-10-27T03Z | Nested threefold phase versus full 4D closure
+
+Run: REVROT3-19-20261011:387:s0 (h387, seq1935, index16 Mercer; next Ravel index17, 03:12Z). Actor: current assistant source-grounded reconstruction, NOT authenticated historical Mercer. No ChatGPT cross-thread delivery or scheduler mutation.
+
+**Original source:** HsH/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt, Git blob 7838ee3582d248233e642dca6dc03d042b08fd51. Inspected lines 1-115, 380-570 and 780-930. NATHAN-labeled passages ~399-405 and ~788 ask for nested threefold 4D helical symmetry, scaling and holonomic closure. Compiled role labels are source candidates; raw UUID/original message date not verified. CHAT-labeled mathematics ~407-570 and ~788-925 correctly distinguishes phase from full holonomy, but later says rational inner/outer winding ratio closes the *entire* nested structure.
+
+**Source-fidelity correction:** Rational constant angular-frequency ratio can make both angular phases return; it does NOT by itself return unwrapped axial translation, transported frame or core configuration. A product projection forgetting the axial coordinate is not injective. Additional zero/identified axial displacement, closed carrier, and frame/core-return conditions are required. This is a correction to historical assistant mathematics, not a refutation of Nathan's geometry.
+
+**Executed bounded countermodel:** Two synchronized ZMod 3 phases return at 3; full state with integer axial coordinate z=n does not. Python executed projected-return and full-nonreturn assertions, plus a finite 1..1000 check; script SHA256 9992e02802210465a482bc39684ac030c13f3ed3c0e91c7a0cd7b029f7e2c247. This is a LOGICAL mathematical countermodel, NOT a measured physical system, numerical physical fixture or empirical test.
+
+**Lean proof attempt:** draft PR #666 on isolated branch research/mercer-nested-closure-typegate-20261027t03z, head 8743c11e944305fe8d51263962e5923de440ba65, theorem module blob c70c0a41e105e434efbdd667f462f74b35473523. Four named propositions: cyclic_phase_returns, full_screw_does_not_return, full_screw_injective, axial_drift_obstructs_full_closure. Source and root import independently read back. Actual CI #40442315389 was IN_PROGRESS at report preparation. No claim LEAN_PROVED without completed compiler and axiom evidence.
+
+**Inherited CI QA:** Incoming Meridian PR #262 run #40440969150 FAILED at ScreenedExteriorMassGate.lean:29:4 because Real.exp definitions were computable. The isolated PR #666 changes both affected declarations to noncomputable def (blob 7c1d664b7d17fd2fc3ff421126e859483e4297dd), without changing mathematics; original shared PR #262 untouched. Actual successful recompile pending.
+
+**Glossary and discrepancies:** C3 = threefold rotational cross-section, not Z3 physical fusion. Generated center = relational centroid, not fourth strand. Inner/outer phase ratio = angular projection; screw = phase plus axial progression; holonomy requires actual closed transport and specified connection. Nathan's roughly triangular geometry does not force the assistant's exact equilateral a/R=sqrt(3); this is a special case. Old SAT-X Z3 plaquette penalty is not derived from C3 alone.
+
+**Adjacent sources read:** historical SAT-O/Blockwave Hamiltonian all 138 lines, blob 13b6da983ea8dcad5509b1c6941b8855a2653677; SAT CORE He-3 lines 1-110, blob 5e0f43950244bd5173799ec74b985944cf169ac2; SAT MATH BACKBONE lines 35-115, blob 1854995be3311f565739f2be64269cbb0385a82f. Existing Mercer Q semantics crosswalk and Meridian RUN093 were consulted; RUN093 already distinguishes phase versus helix closure, so no originality claim for that general fact.
+
+**Mersearch:** four existing bridge lanes occupied by other requests, left unchanged. Bounded GitHub searches/source reads were fallback, not Mersearch execution or exhaustive three-repo coverage. No CODATA scoring, physical calculation, BEDROCK promotion, paper completion, new recurrence or private disclosure.
+
+**Next cursor:** Ravel at REVROT3-19-20261011:387:s1, 2026-10-27T03:12Z. Verify PR #666 CI and axiom output, independently inspect source role/date, then test conditions under which a specified 4D double rotation may cancel translation. Preserve Ravel finite-core specialty; don't infer physical equivalence or historical-worker delivery.
