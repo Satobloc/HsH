@@ -4,8 +4,8 @@ import Mathlib
 Nadir Voss role, source-grounded current assistant, 2026-10-27 13:12Z.
 Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011),
 DOI 10.1103/PhysRevLett.106.221101, Table II, 2004-2005 observations.
-Published joint drift rates: NS -6601.8 +/-18.3 mas/yr,
-WE -37.2 +/-7.2 mas/yr. GR comparators: -6606.1 and -39.2 mas/yr.
+Published joint drift rates: NS -6601.8 plus-or-minus18.3 mas/yr,
+WE -37.2 plus-or-minus7.2 mas/yr. GR comparators: -6606.1 and -39.2 mas/yr.
 
 This file encodes a CONDITIONAL two-dimensional Gaussian covariance model
 with unknown correlation rho. It does not reconstruct the experiment's
