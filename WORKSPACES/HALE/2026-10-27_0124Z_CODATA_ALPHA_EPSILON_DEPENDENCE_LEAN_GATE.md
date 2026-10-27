@@ -76,3 +76,13 @@ Primary published source abstracts read: Parker et al., *Science* 360 (2018) 191
 - Rb 2020: alpha^-1 = 137.035999206(11), u=0.000000011.
 
 Executed Python `Decimal` 45-digit computation: Rb−Cs = `1.60e-7`; assuming uncorrelated reported uncertainties, combined u=`2.9154759474226502e-8`; standardized discrepancy = `5.48795472456 sigma`. The Morel primary abstract itself describes a greater-than-five-standard-deviation discrepancy. The independence assumption is appropriate as a first approximation for separate recoil experiments but a full systematic covariance audit was NOT done. This **does not test H(s)H**. It identifies the actual independent experimental context and demonstrates why CODATA adjusted alpha cannot be treated as a new measurement when reconstructed from epsilon0. The published 2022 CODATA value is a reconciliation of input evidence and theory, not an independent held-out test.
+
+## Independent Lean CI closure (2026-10-27T01:34Z)
+- Draft stacked PR #657 head `4a6ee0d9044955b45ecff11259fda95989ef30f1`, base Ravel draft branch, **unmerged**.
+- GitHub Actions run `40432833903`, job `121954408158`: **COMPLETED SUCCESS**, Lean 4.34.0 / Mathlib v4.34.0; `Build completed successfully (8941 jobs)`. Retrieved complete 51,700-character log and inspected the theorem-specific `#print axioms` lines.
+- `alpha_roundtrip`: COMPILED; axioms `[propext, Classical.choice, Quot.sound]`.
+- `alpha_residual_zero`: COMPILED; axioms `[propext, Classical.choice, Quot.sound]`.
+- `kn_ratio_reuses_alpha`: COMPILED; axioms `[propext, Classical.choice, Quot.sound]`.
+- New Lean source blob `c3b1147caf176ecd8a29ce02ce3ae3d55fad72c9` independently fetched; no `sorry`, `admit`, `sorryAx` token in new module. Separate automated `axiom-audit` step **SKIPPED**; the bounded axiom report is from individual `#print axioms`, not a project-wide hole audit.
+- Linter warnings: one unused `ring` tactic and a `<;>` style warning, nonfatal. No proof errors.
+- **Updated status:** `THREE_LEAN_PROOFS_COMPILED_CONDITIONAL / NO_CUSTOM_AXIOMS_REPORTED / SEPARATE_AUDIT_SKIPPED / NO_PHYSICAL_HSH_PREDICTION`. These are mathematical consequences of post-2019 SI definitions and Ravel's assumed Kerr-Newman mapping, not a proof of that mapping's physical applicability.
