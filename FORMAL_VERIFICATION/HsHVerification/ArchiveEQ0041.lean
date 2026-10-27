@@ -84,6 +84,6 @@ theorem observed_change_blocks_base_factorization
 end HsHVerification.ArchiveEQ0041
 
 
-#print axioms factored_director_invariant_under_stabilizer
-#print axioms director_change_blocks_base_factorization
-#print axioms observed_change_blocks_base_factorization
+#print axioms HsHVerification.ArchiveEQ0041.factored_director_invariant_under_stabilizer
+#print axioms HsHVerification.ArchiveEQ0041.director_change_blocks_base_factorization
+#print axioms HsHVerification.ArchiveEQ0041.observed_change_blocks_base_factorization
