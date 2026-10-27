@@ -14,6 +14,7 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.MiraEHTRingShadowGate
+import HsHVerification.AldusEHTSharedDataGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
