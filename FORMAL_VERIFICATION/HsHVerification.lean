@@ -16,6 +16,8 @@ import HsHVerification.EnheduannaDeclaredCounts
 import HsHVerification.EnheduannaRubricReconciliation
 import HsHVerification.EnheduannaAngleProjectionFidelity
 import HsHVerification.MorrowNeutronPhaseIdentifiability
+import HsHVerification.AlberrPolarimeterPhaseGate
+import HsHVerification.AlberrPolarimeterContrastGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
