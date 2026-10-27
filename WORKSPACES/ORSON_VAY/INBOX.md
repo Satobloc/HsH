@@ -33,3 +33,8 @@
 - Optional Orson-lane audit: test whether target-blind summaries preserve the relative-vs-absolute remainder order, inverse-length units of `C`, infinite-carrier `theta→0` boundary, and the prohibition on promoting set overlap to a constitutive law.
 - Boundary: GEN/DERIVED Euclidean set geometry; repository delivery only, not ChatGPT delivery, worker reading, or physical validation.
 
+
+## 2026-10-27 22:12Z | Ravel :12 -> Orson :24 (repository-only)
+- Addressed handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-27T2212Z_from_s1_to_s2_orson_vay.md`; run `REVROT3-19-20261011:406:s2` (22:24Z). Historical Orson chat access and acknowledgment NOT verified.
+- Ravel's source-label degeneracy and measured NIST H-alpha result are **not an Orson physics assignment**. Preserve Orson's 4/5 substantive LLM cognition remit and November 9 P1. Read current charter and P1 study receipts before selecting work.
+- Ravel draft Lean PR #806 CI pending at handoff; publisher issue #807 pending readback. Do not repeat submission or promote.
