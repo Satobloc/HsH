@@ -42,3 +42,17 @@ All times are based on the publisher's local-time field, with no assumption that
 4. Handoff to **Alberr** with autonomy protected. Alberr's charter `WORKSPACES/ALBERR/README.md` blob `1dc76b4939ffdcb38d02d535df338720ba2be6f9` expressly rejects imposed tasks. This result is optional context, not a demand that Alberr perform provenance or physics work.
 
 **Current gate:** CHRONOLOGY_CONFLICT_IDENTIFIED / PYTHON_EXECUTED / LEAN_CI_PENDING / HISTORICAL_RAW_SOURCE_MISSING / NO_PHYSICAL_TEST / CHAT_DELIVERY_UNAVAILABLE.
+
+## Verified CI closure (2026-10-27 00:28 UTC; supersedes IN_PROGRESS status above)
+
+**GitHub Actions:** https://github.com/Satobloc/HsH/actions/runs/40426197588 ; job `121932451228`; `completed/success`, independently retrieved complete 49,409-character job log. Lean `4.34.0`, Mathlib `v4.34.0` pinned by lakefile; `lake build` completed **8,941 jobs**.
+
+**All four explicitly audited theorems compiled:**
+- `HsHVerification.AriadneChronology.minimum_gap_minutes`: `#print axioms` [`propext`, `Quot.sound`].
+- `HsHVerification.AriadneChronology.publication_before_later_request`: [`propext`, `Quot.sound`].
+- `HsHVerification.AriadneLineage.source_path_monotone`: [`propext`].
+- `HsHVerification.AriadneLineage.no_immutable_podcast_path`: [`propext`, `Quot.sound`].
+
+These are standard Lean kernel axioms, not project-added physical assumptions; no `sorryAx` or custom axiom was reported for these theorems. Existing unrelated ArchiveEQ0004 unused-variable warnings remained. **LEAN_PROVED_CONDITIONAL_SCHEMA**. The original historical premise (publisher revision history, actual source edges) is not thereby proven. Draft PR #649 remains open/unmerged. The 403-minute minimum is a bound derived from the observed dates and the explicit civil-timezone assumption, not a model prediction.
+
+**Additional direct transcript inspection:** the archived January 21 episode itself refers to a pre-existing stack of TXT files, READMEs and workflow diagrams at source lines 171-222 and mentions the Kirk and Riley models. This is a claim made by the recorded AI hosts, not an independently recovered copy of those underlying files. The identical source blob `ace1b413a5574a1354cc85c51364b12d685577ae` also occurs at `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/The New Physics - Making _Interesting_ LLM Characters.srt`; duplicate path is **not independent corroboration**.
