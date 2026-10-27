@@ -17,6 +17,7 @@ import HsHVerification.MiraSgrACovarianceGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
+import HsHVerification.NadirWhirligigScaleFidelity
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
