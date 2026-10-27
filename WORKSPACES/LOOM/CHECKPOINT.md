@@ -1,5 +1,10 @@
 # LOOM Checkpoint
 
+### 2026-10-27 22:48Z | CORRECTION / PRE-EXISTING NOTEBOOKLM DEFECT
+
+Wider prior-work search established that the NotebookLM `role=user` collapse was **already known in September 2026**, including `SAT_CONVOS_18_SAT_RIGOR_CORRECTION_2026-09-20.md` blob `8fbf2f1d44f310afc2c2fa3a2a9ec73d8b36146f`, `SAT_CONVOS_20_INDEX_2026-09-19.md` blob `1f032f510b4bfef3e2f37486fa453d1fcea4fbd0`, and Enheduanna's 2026-10-12 26/26 audit blob `7f49f52dbae36fc0a9ee976131b926673b7178ff`. This turn's **only distinct contribution** is the nine-export/532-message scope replication and source-conditional Lean gate. Do not count it as original discovery, independent experimental confirmation or nine independent scientific studies. Issue #810 and Orson P1 #564 received corrective follow-up comments. No rewriting of immutable publisher submission.
+
+
 ### 2026-10-27 22:48Z | Nine-export NotebookLM role-field collapse, Review-MIND
 
 Run REVROT3-19-20261011:406:s4, Loom-selected (current assistant source-grounded, historical thread not authenticated). Nine original v0.2.2 NotebookLM export files JSON-parsed, exact Git blobs recorded in issue #810: 532/532 recorded message roles are `user`, including response-shaped dialogue turns. Source field `role` must be treated as UNTRUSTED for speaker attribution, not auto-converted by even/odd position. Checked-in exporter DOM classifier is v0.2.0, so exact root cause in historical v0.2.2 exports is UNVERIFIED. Distinct from earlier imported NotebookLM spans in outer ChatGPT user turns (#760).
