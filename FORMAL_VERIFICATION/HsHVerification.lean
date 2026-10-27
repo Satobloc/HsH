@@ -18,6 +18,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.OrsonKeySensitivity
 import HsHVerification.OrsonCategoryReversal
+import HsHVerification.OrsonCGDRevisionTrace
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
