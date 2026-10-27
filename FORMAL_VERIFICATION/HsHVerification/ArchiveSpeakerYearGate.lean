@@ -8,7 +8,7 @@ Satobloc/SAT_THEORY_ARCHIVE_2023-25
 FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt
 Git blob 9be7a256d08fcb1aacf3e77b807db0e9555681c4
 - line 85: assistant offers the phrase "Baroque English".
-- line 93: user endorses that phrase.
+- line 93: user endorses that phrase with lower-case initial 'b'.
 - line 187: assistant later lists the phrase and calls it "as you suggested".
 - lines 695-696: user describes a 1978-model car in an anecdote without
   providing an event calendar year.
@@ -19,6 +19,8 @@ Git blob aecb6a811ab56e21880de471e69770643805a410
 Rows M00616, M00445, M00844 lose speaker or confuse model-year with
 a guessed event-year field.
 
+The common normalizedTerm is an explicitly editorial case-folded index key;
+the source surfaces are not identical byte strings.
 The encoding is an assistant reconstruction of *observed archival fields*.
 The Lean proofs certify conditional properties of this encoding, not
 speaker authentication, source chronology, or physical history.
@@ -40,28 +42,29 @@ structure Mention where
   sourceLine : Nat
   speaker : Speaker
   act : SpeechAct
-  term : String
+  surface : String
+  normalizedTerm : String
   deriving DecidableEq, Repr
 
 def initialSuggestion : Mention :=
-  ⟨85, .assistant, .suggested, "Baroque English"⟩
+  ⟨85, .assistant, .suggested, "Baroque English", "baroque english"⟩
 
 def userEndorsement : Mention :=
-  ⟨93, .user, .endorsed, "Baroque English"⟩
+  ⟨93, .user, .endorsed, "baroque English", "baroque english"⟩
 
-theorem same_term :
-    initialSuggestion.term = userEndorsement.term := rfl
+theorem same_normalized_term :
+    initialSuggestion.normalizedTerm = userEndorsement.normalizedTerm := rfl
 
 theorem different_mentions :
     initialSuggestion ≠ userEndorsement := by decide
 
-theorem different_speech_acts :
-    initialSuggestion.act ≠ userEndorsement.act := by decide
+theorem different_raw_surface :
+    initialSuggestion.surface ≠ userEndorsement.surface := by decide
 
-theorem text_only_index_not_injective :
-    ¬ Function.Injective (fun m : Mention => m.term) := by
+theorem normalized_term_index_not_injective :
+    ¬ Function.Injective (fun m : Mention => m.normalizedTerm) := by
   intro h
-  exact different_mentions (h same_term)
+  exact different_mentions (h same_normalized_term)
 
 /-- Source line 696 specifies a vehicle model year, not an event date. -/
 def vehicleModelYear : Nat := 1978
@@ -78,10 +81,10 @@ theorem source_does_not_attest_model_year_as_event_year :
 theorem no_exact_event_year_is_attested (year : Nat) :
     sourceEventYear ≠ some year := by simp [sourceEventYear]
 
-#print axioms same_term
+#print axioms same_normalized_term
 #print axioms different_mentions
-#print axioms different_speech_acts
-#print axioms text_only_index_not_injective
+#print axioms different_raw_surface
+#print axioms normalized_term_index_not_injective
 #print axioms event_year_unrecorded
 #print axioms source_does_not_attest_model_year_as_event_year
 #print axioms no_exact_event_year_is_attested
