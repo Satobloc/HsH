@@ -1,5 +1,8 @@
 # Worker Autonomy / Continuity / Handoff Protocol
 
+> **CURRENT SOURCE-ACCESS SUPERSESSION NOTICE — 2026-10-27 (operational clarification; historical text retained).** The October 9 hard research-access prohibition below for Hypothesis H proper and directly Schreiber-authored material was explicitly superseded by Nathan's [October 24 research-access directive](NATHAN_DIRECT_2026-10-24_PRIOR_ART_UI_ARCHIVE_READING_ANNOUNCEMENT.md). Such sources may now be read and compared for research after recovering internal SAT/H(s)H provenance. **This does not authorize public indexing, redistribution of private material, publication without review, or importation of external assumptions as SAT premises.** Automatic public-index exclusions and independent source/permissions controls remain separate. The old October 9 wording is preserved below as historical genealogy, not an operative access ban. No repository permissions or scheduler controls are changed by this notice.
+
+
 **Status:** ACTIVE — Nathan directive, 2026-09-14  
 **Applies to:** recurring SAT/H(s)H worker loops unless superseded by a newer explicit Nathan directive.
 
