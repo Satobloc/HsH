@@ -8,8 +8,8 @@ import json, math
 from pathlib import Path
 import sympy as sp
 
-x={'a_mas':125.058,'e':0.884649,'i_deg':134.567,'omega_deg':66.263,'ring_uas':51.8}
-sigma={'a_mas':0.041,'e':0.000066,'i_deg':0.033,'omega_deg':0.031,'ring_uas':2.3}
+x={'a_mas':125.058,'e':0.884649,'i_deg':134.567,'omega_deg':66.263,'node_deg':228.171,'ring_uas':51.8}
+sigma={'a_mas':0.041,'e':0.000066,'i_deg':0.033,'omega_deg':0.031,'node_deg':0.031,'ring_uas':2.3}
 a,e,i,w,d=sp.symbols('a e i w d',real=True)
 q=sp.sqrt(1-sp.sin(i*sp.pi/180)**2*sp.sin(w*sp.pi/180)**2)
 exprs={'intrinsic_peri_mas':a*(1-e),'sky_peri_mas':a*(1-e)*q,
@@ -35,7 +35,7 @@ assert abs(q2-results['projection_factor']['central'])<1e-13
 # Independent Rz(node) Rx(inclination) Rz(omega) sky-plane check.
 # Node rotates the sky vector but cannot change its magnitude.
 rr=results['intrinsic_peri_mas']['central']
-ii,ww,oo=map(math.radians,[x['i_deg'],x['omega_deg'],228.171])
+ii,ww,oo=map(math.radians,[x['i_deg'],x['omega_deg'],x['node_deg']])
 xp=rr*math.cos(ww)
 yp=rr*math.sin(ww)*math.cos(ii)
 xs=xp*math.cos(oo)-yp*math.sin(oo)
