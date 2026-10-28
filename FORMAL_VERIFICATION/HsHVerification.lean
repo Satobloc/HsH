@@ -20,6 +20,7 @@ import HsHVerification.CalderNormalizerSensitivity
 import HsHVerification.CalderArchiveContextClassification
 import HsHVerification.CalderWitnessAlignment
 import HsHVerification.CalderWitnessGraph
+import HsHVerification.CalderScoreContext
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
