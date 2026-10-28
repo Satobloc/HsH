@@ -14,7 +14,7 @@ def inspectedChecks : List Bool → Nat
   | true :: _ => 1
   | false :: rest => 1 + inspectedChecks rest
 
-def storedCheckerRaw (initialRaw revisedRaw : String) : String :=
+def storedCheckerRaw (initialRaw _revisedRaw : String) : String :=
   initialRaw
 
 theorem raw_precedes_revised (initialRaw revisedRaw : String) :
@@ -36,7 +36,7 @@ theorem all_unflagged_checks_inspected (xs : List Bool)
     have hbs : ∀ x ∈ bs, x = false := by
       intro x hx
       exact h x (by simp [hx])
-    simp [inspectedChecks, hb, ih hbs]
+    simpa [inspectedChecks, hb, ih hbs, Nat.add_comm]
 
 theorem source_recorded_stale_text_bounds :
     (1174 : Nat) ≤ 4386 := by
