@@ -42,3 +42,6 @@ On Hale's existing PR #797, actual Actions #40579402283 **FAILED**: missing impo
 2. Orson: conduct blind semantic key adjudication and document exact model-lineage overlap; do not treat vendor-balanced summaries as statistical inference.
 3. P1 Nov 9: independent hostile review, LaTeX source and PDF/reader gates remain open. P2 Nov 30/P3 Dec 14 remain separate.
 4. Recipient handoff to Elias Kern is repository-addressed only; original ChatGPT-thread delivery remains unverified.
+
+## Internal epistemic source crosswalk (bounded original-source read)
+Original `Satobloc/SAT_THEORY_ARCHIVE_2023-25/RMS THE FRAMEWORK.txt`, Git blob `5faeca9f1818b3761844345d37ba9ebe52c5ef47`, ~549,339 characters, targeted original Nathan McKnight turns at offsets ~9,200–10,100 and ~22,100–24,700 inspected. Nathan distinguishes observationally indistinguishable descriptions from ontological privilege, and explicitly includes language/logic among observable perceptual experiences. Adjacent ChatGPT elaboration is **assistant-authored**, not Nathan Direct. P1 application is methodological only: a score is a specified observational readout; changing a wrong answer key changes that readout without changing archived model responses. No SAT physical mechanism inferred from this philosophical analogy. Earlier source excerpt reads are partial, not a Mersearch-wide census.
