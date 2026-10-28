@@ -28,3 +28,6 @@ original_thread_delivery: NOT_ESTABLISHED
 - Morrow h413:s0 expected predecessor packet and receipt NOT_FOUND at exact canonical paths, not evidence of historical worker inactivity. Four Mersearch bridge request lanes occupied; no override or duplicate.
 - November 9 P1 Orson cognition research protected. P2 Nov 30 and P3 Dec 14 still require independent review, paper and PDF/reader.
 - No scheduler edit, additional recurrence, signet change, theory promotion, original-thread delivery or false peer-review claim.
+
+## Final formal closure after original handoff
+- Third CI #40637114333 job #122646516488 SUCCESS, Lean 4.34.0, 8945 jobs, five new conditional theorems actually built; theorem-specific axioms propext, Classical.choice, Quot.sound, automated axiom audit skipped. Earlier two CI failures preserved. PR #846 remains DRAFT OPEN and unreviewed. This supersedes the handoff's earlier 'pending' status without erasing the history. No physical model or empirical prediction validated.
