@@ -18,6 +18,8 @@ import HsHVerification.EnheduannaAngleProjectionFidelity
 import HsHVerification.MorrowNeutronPhaseIdentifiability
 import HsHVerification.AlberrPolarimeterPhaseGate
 import HsHVerification.AlberrPolarimeterContrastGate
+import HsHVerification.KestrelPhaseWrapGate
+import HsHVerification.KestrelPolarizationWrapGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
