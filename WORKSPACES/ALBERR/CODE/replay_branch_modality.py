@@ -19,7 +19,7 @@ SKETCH = "a5b72889-adb6-49a2-ab43-b15dd52dcf19"
 
 
 def git_blob_sha(payload: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\\0" + payload).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\0" + payload).hexdigest()
 
 
 def audit(raw_path: Path, flat_path: Path) -> dict:
