@@ -20,7 +20,7 @@ premise is proved here. No arbitrary physical measurements are used.
 
 namespace HsHVerification.CalderSATxFoliation
 
-def ratioDerivative (C D dC dD : ℝ) : ℝ :=
+noncomputable def ratioDerivative (C D dC dD : ℝ) : ℝ :=
   dD / C - D * dC / (C * C)
 
 theorem ratioDerivative_eq_twist
@@ -28,7 +28,6 @@ theorem ratioDerivative_eq_twist
     ratioDerivative C D dC dD = (C * dD - D * dC) / (C * C) := by
   unfold ratioDerivative
   field_simp [hC]
-  ring
 
 theorem frobenius_coefficient_zero_implies_ratio_stationary
     (C D dC dD : ℝ) (hC : C ≠ 0)
