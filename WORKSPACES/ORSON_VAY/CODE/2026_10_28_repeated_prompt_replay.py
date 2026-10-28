@@ -15,7 +15,7 @@ FULL_SHA = "3171d2899fd1eb4292794df5952514666b0e2f43"
 
 def read_pinned(path, expected):
     raw = path.read_bytes()
-    actual = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    actual = hashlib.sha1(b"blob " + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
     if actual != expected:
         raise AssertionError((str(path), "git blob mismatch", actual, expected))
     return json.loads(raw)
@@ -56,11 +56,11 @@ def main(root):
     assert sum(s["excess_positions"] for s in full_stats.values()) == 366
 
     prior_script = Path(__file__).with_name("2026_10_28_conjunction_null_replay.py").read_text()
-    manifest = re.search(r'MANIFEST = """([\\s\\S]*?)"""\\.strip\\(\\)', prior_script)
-    if manifest is None:
+    manifest_text = prior_script.split('MANIFEST = """', 1)[1].split('"""', 1)[0]
+    if not manifest_text:
         raise AssertionError("source-pinned 35-file manifest missing")
     rows = []
-    for line in manifest.group(1).strip().splitlines():
+    for line in manifest_text.strip().splitlines():
         model, vanilla, cgd = line.strip().split()
         rows.append((model, "vanilla", vanilla))
         if cgd != "-":
