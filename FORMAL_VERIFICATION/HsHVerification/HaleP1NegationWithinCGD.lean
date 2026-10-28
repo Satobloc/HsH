@@ -31,7 +31,7 @@ def strictCoherence (q1 q2 q3 : Bool) : Prop :=
 
 theorem negation_triple_is_coherent (p : Bool) :
     strictCoherence p (!p) (!(!p)) := by
-  cases p <;> decide
+  cases p <;> simp [strictCoherence]
 
 theorem archived_family_positions : 17 * 50 = 850 := by
   norm_num
