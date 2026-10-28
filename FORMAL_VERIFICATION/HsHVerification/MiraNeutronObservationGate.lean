@@ -24,7 +24,6 @@ theorem linear_inverse (k L b : ℝ) (hk : k ≠ 0)
     (hb : b = k * L) : b / k = L := by
   rw [hb]
   field_simp
-  ring
 
 theorem same_coefficient_cannot_match_both
     (k L : ℝ) (hpred : k * L = (predictedSlope : ℝ))
