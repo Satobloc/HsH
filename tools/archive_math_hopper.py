@@ -114,7 +114,7 @@ def scan(roots,out,max_bytes,limit,excludes):
     (out/"MANIFEST.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     (out/"REPORT.md").write_text(
         "# Archive Math Hopper\n\n"
-        +f"- Files: {files}\n- Unique source bodies: {len(source_bodies)}\n- Candidate occurrences: {candidate_count}\n
+        +f"- Files: {files}\n- Unique source bodies: {len(source_bodies)}\n- Candidate occurrences: {candidate_count}\n"
         +f"- Distinct notation keys: {summary['unique_notation_keys']}\n"
         +"- Mathematical/Lean proof: NOT RUN.\n\n"
         +"Curate source context, domains, symbols, units and assumptions, then transfer an appropriate claim into formalization/equations.json. This extraction score is NOT a truth score.\n",
