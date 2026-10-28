@@ -49,3 +49,12 @@ Using NASA's **own rounded** a,e,P, the Kepler formula returns perihelion `58.97
 - **Search:** Mersearch guide consulted; shared request lane occupied by Indicatrix, not overwritten. Bounded three-repo GitHub search and direct original blob retrieval, not a full Mersearch run. FIE reread Oct 27 (<14 days); unrelated reading next cursor TheTANGLE.txt line 716.
 
 **Reproducibility:** executed script `mercury_variational_parameter_audit.py`, JSON output and full report preserved in current run's local artifact bundle. PR #920 contains Lean source. No scheduler changes, extra recurrence, signet, promotion, or original-thread delivery.
+
+
+## Additive full-source dimensional reconnaissance (post-initial publication)
+
+The **complete 122,391-character original SAT composite** was subsequently scanned for `arclength`, `arc length`, `unit-speed`, `path parameter`, and related formulas. **No literal arclength or unit-speed definition was found** (a bounded string search, not proof that the author never intended one). The text repeatedly calls `s` a *path parameter* and writes `s in [0,L]`.
+
+A second **within-document notation discrepancy** was recovered. Near original character offset ~92,810 the source correctly writes angle progression as `theta(s)=2*pi*n*s/L`, dimensionally compatible with length-valued `s` and dimensionless winding count `n`. Near offset ~95,005 it instead writes `theta_i(s)=n_i*s+phi_i` while calling `n_i` winding numbers. The latter is dimensionally valid only if `s` is dimensionless or `n_i` has inverse-length units, neither stated in that passage. Earlier opening superhelix expressions also use `n_i*s`. This is **notation/normalization drift inside a tentative LLM-era composite**, not a Nathan Direct mistake or a falsified physical prediction. Source Git blob remains `199618ae856702bb942a48328de59232487555c2`.
+
+**Action:** any extracted equation must carry a typed `parameter_kind` (arclength, normalized phase, proper time, coordinate time, unspecified) and `winding_units` field before comparing actions or importing it into a paper. Do not silently repair missing factors of `2*pi/L`.
