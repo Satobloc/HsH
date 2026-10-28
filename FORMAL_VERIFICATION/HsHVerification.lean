@@ -24,6 +24,7 @@ import HsHVerification.HaleNeutronJointProduct
 import HsHVerification.HaleP1ProviderSensitivity
 import HsHVerification.EliasEvidenceGate
 import HsHVerification.EliasHaleLiveGate
+import HsHVerification.EliasFreshDirectiveSourceRoute
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
