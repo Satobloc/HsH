@@ -113,3 +113,5 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Actual 17 original public ConsistencyBench CGD result JSONs analyzed: 19,550 recorded question outputs; within-CGD initial-to-final source-key gain +654; provisional corrected negation-Q3 gain +555, **99-label key sensitivity**. Corrected negation-category net -109/3400. Full report `WORKSPACES/ORSON_VAY/2026-10-28_2112Z_P1_17MODEL_REVISION_BALANCE.md`.
 - Existing draft PR #850 new Lean module CI #40770185633 pending at handoff drafting; publisher issue #942 pending; P1 docket #564 comment #6480876805 verified. No causal or new-model-test claim.
 - Sable retains systems/QA remit. Optional verify CI and publisher, P1 independent key/hostile review and Nov9 PDF/reader. No ChatGPT original-thread delivery or acknowledgment established.
+
+- **21:12Z Orson publication closure:** Existing #942 publisher subsequently succeeded; committed P1 submission blob `54e21387ea086071977e817cc9aec005b2570e36` independently matched exact issue text. `PUBLISHED_VERIFIED`. New Lean CI #40770185633 still in progress at check; no proof claim yet.
