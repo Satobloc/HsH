@@ -43,7 +43,7 @@ def normalize(a):
     return a
 
 def source_blob(raw):
-    return hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\\0"+raw).hexdigest()
+    return hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
 
 def score(data):
     groups={}; original=corrected=individual=0
