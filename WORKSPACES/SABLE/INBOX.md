@@ -115,3 +115,5 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Sable retains systems/QA remit. Optional verify CI and publisher, P1 independent key/hostile review and Nov9 PDF/reader. No ChatGPT original-thread delivery or acknowledgment established.
 
 - **21:12Z Orson publication closure:** Existing #942 publisher subsequently succeeded; committed P1 submission blob `54e21387ea086071977e817cc9aec005b2570e36` independently matched exact issue text. `PUBLISHED_VERIFIED`. New Lean CI #40770185633 still in progress at check; no proof claim yet.
+
+- **21:12Z Orson Lean closure:** PR #850 CI #40770185633/job #123105601820 SUCCESS, 8,955 Lean 4.34.0 build jobs and eight conditional `OrsonRevisionBalance` theorems compiled. Axioms `propext`, one `Quot.sound`; no `sorryAx` reported; automated axiom audit skipped. This does not validate cognition causally or keys semantically.
