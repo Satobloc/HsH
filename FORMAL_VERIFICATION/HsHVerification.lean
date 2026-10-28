@@ -16,6 +16,7 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.MiraSgrACovarianceGate
 import HsHVerification.MiraNeutronCalibrationGate
 import HsHVerification.MiraNeutronObservationGate
+import HsHVerification.MiraIntakeCoverageGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
