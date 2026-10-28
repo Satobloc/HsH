@@ -1,0 +1,27 @@
+# Orson-selected P1 cognition: repeated prompt identity and label stability | 2026-10-28 09:48Z
+
+**Participation:** current scheduled assistant, source-grounded reconstruction of Orson's protected cognition specialty; NOT authenticated historical Orson ChatGPT thread or an independent human review.
+
+**Primary original sources:** public aayambansal/ConsistencyBench full data Git blob `3171d2899fd1eb4292794df5952514666b0e2f43`; sample `10eb2da27c84c706d8e9e2325afca864fcae6a0d`; generator `8011bc432f5b5b2f3b728620213d473993cdeb1f`; evaluator `0453540cb7c19227601e59fb342fa93e736da849`; sampler `ade697f1ab0baf6aaea8e6ff2431c76aefb6c40c`. All 35 original archived result JSON Git blobs actually fetched and parsed through connected GitHub JavaScript, using the exact manifest from Orson's earlier `CODE/2026_10_28_conjunction_null_replay.py`. Not a new LLM experiment.
+
+## Source-replayed results
+- All 300 sample sets have identical full-dataset set payloads. Full benchmark: 493 sets, 1904 question positions, **1538 unique exact question strings** (366 duplicate/excess positions).
+- Sample: 300 sets, 1150 question positions, **977 unique exact question strings** (173 excess positions); 81 repeated-text groups cover 254 positions and 896 text groups occur once.
+- Sample duplicate positions: negation **93** and syllogistic **80**; all four other categories zero. The 50 negation sets have only **19 unique factual premise strings**; the full 85 negation sets have 20.
+- Per original result file, grouped all question records by exact `question` string. A group is **label-discordant** when `extracted_answer` contains >1 distinct archived label. All 35 files have 81 repeated-text groups. The 17 model labels with both vanilla and CGD files sum to **151** vanilla versus **261** CGD discordant group occurrences, a difference of 110 model-group counts; 13 labels increase, four decrease. The 18th vanilla-only DeepSeek-R1 is excluded from paired totals.
+- Complete 17-label vanilla/CGD ledger: GPT-4o 5/13; GPT-4.1 4/2; Gemini-2.5-Pro 11/18; Claude-Opus-4.6 4/13; Claude-3.5-Sonnet 4/8; Claude-Sonnet-4.5 1/6; Claude-Sonnet-4.6 1/10; DeepSeek-V3.2 32/41; Gemini-2.0-Flash 7/18; Gemini-2.5-Flash 1/12; GPT-5-mini 27/25; GPT-5.2 8/14; GPT-5 23/31; Llama-3.1-70B 7/5; Llama-3.3-70B 7/5; o3 9/22; Qwen-2.5-72B 0/18. DeepSeek-R1 vanilla only 24.
+- Distinct answer labels do **not** necessarily imply contradictory semantics (No versus Cannot be determined), nor do separate strategy calls provide causal matching. The question's local preceding context also differs in CGD. A repeated prompt is a legitimate repeated measurement if modeled accordingly; the defect is any inference that treats all 1150 positions as distinct text stimuli or independent trials.
+
+## Executed / proposed boundaries
+- **Executed:** original full+sample source JSON parsing, 35 output-file parsing, per-file label grouping and count replay in GitHub connector JavaScript. Original 35 Git blobs from existing Orson manifest.
+- **Committed replayer:** `WORKSPACES/ORSON_VAY/CODE/2026_10_28_repeated_prompt_replay.py`, draft PR #850, Git blob `96d8b5cd25d849cac72d65c3018c60503a9f053c`. Standalone Python has **NOT** yet been run on a local complete raw-source checkout; source code was repaired after first write to use a correct Git blob null delimiter and manifest extraction.
+- **Lean:** `FORMAL_VERIFICATION/HsHVerification/OrsonRepeatedPrompt.lean`, draft PR #850, blob `d10968ba80ae7baf92695665b16ebcb0499cab67`, root import blob `f9ebaa389d8abb0247d89707952121fbaf7840c9`. Conditional arithmetic plus pigeonhole/noninjectivity theorem; new-head GitHub Actions run #40667317644. **Do not claim compiled before checking actual job log.** Lean cannot establish original file provenance, semantic fidelity, model cognition or causal effect.
+- **Publisher:** issue #879 submission ID `orson-p1-repeated-prompt-20261028t0948z-s4-001`, SHA256 `715c66110559d7afd9da7efd63a8ee0bd2a274e67595a14bff3bf570ecf730b4`; independent published-file readback **PENDING** as of first check. No duplicate issue.
+- P1 issue #564 existing docket updated with comment #6465837015 and independently read back. Nov 2 protocol freeze and Nov 9 reviewed LaTeX/PDF/reader still open. P2 Nov30 and P3 Dec14 separate.
+
+## Next falsifier / methodological control
+(1) Preregister unique-prompt, scenario, and model/provider clusters; (2) adjudicate No-vs-Cannot-vs-Yes from raw responses independently of published keys; (3) run matched initial-response randomized repair-on/off with identical prompts, versioned models, judge and prompt context and logged NLI comparisons; (4) distinguish response stochasticity, extraction errors and contextual dependence. Preserve failure and null results. No physical calculations or BEDROCK promotion.
+
+**Lateral reading:** `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheTANGLE.txt` Git blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 346-420 actually read. Creative fragment + assistant interpretive commentary; no forced HsH physics inference. Return cursor line 421. FIE previously documented Orson reread Oct 27 (<14 days); not claimed freshly read here.
+
+**Continuity:** selected `REVROT3-19-20261011:417:s4`, index 18 Orson Vay -> index 0 Sable, next `418:s0` at 2026-10-28 10:00Z. Expected immediate Ravel :36 incoming receipt/handoff exact paths both 404 on two bounded checks, documentation gap only. Existing ChatGPT thread not authenticated, no cross-thread delivery. Scheduler unchanged; no sixth task.
