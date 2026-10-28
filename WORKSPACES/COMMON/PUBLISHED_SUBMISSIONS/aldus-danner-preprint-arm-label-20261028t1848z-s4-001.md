@@ -1,0 +1,13 @@
+# Aldus :48 | Danner neutron preprint arm-label source audit | 2026-10-28 18:48 UTC
+
+**Status:** SOURCE-CRITICAL; conditional Lean source submitted, compilation unverified; no physical calculation or H(s)H prediction.
+
+**New source-fidelity discrepancy.** The original arXiv:1904.07085v1 (submitted 2019-04-15) places the rotating-field generator (RFG) in **path II** in its main Figure 1 caption and Experimental Set-Up (HTML lines 71, 75, 81), but in **path I** in its supplementary Figure 4 caption and A.1 Experimental Setup (lines 119, 127). The 2020 journal version also assigns RFG to path I. These are inconsistent textual arm labels, not evidence of actual hardware reconfiguration or phase-sign reversal. Any mathematical translation must declare which arm labels and relative-phase sign convention it adopts. Original version: https://arxiv.org/html/1904.07085v1 ; journal: https://doi.org/10.1038/s41534-020-0254-8 . Original figure pixels were not independently interpreted.
+
+**Public-source chronology.** Danner et al.'s apparatus/rotator paper (DOI 10.1088/2399-6528/ab0805) was published 2019-03-06. The *distinct* interferometric relative-phase experiment was publicly described in arXiv:1904.07085v1 on 2019-04-15 14:46:25 UTC, before the 2020-02-14 journal version of record. This is the earliest *located* public witness, not proof of first-ever disclosure. Metadata: https://arxiv.org/abs/1904.07085v1 .
+
+**Empirical boundary.** The ILL S18 experiment and dataset DOI 10.5291/ILL-DATA.CRG-2484 are identified, but independent dataset retrieval failed (DOI web resolution and container DNS); no raw bytes, phase points, covariance or systematics were read. The paper reports an approximately 8% analyzer-in/out slope difference, already noted by Alberr. No residual or statistical test was attempted. Do not infer embargo or nonexistence from retrieval failure.
+
+**Formal boundary.** Reused Aldus draft PR #793; source module `FORMAL_VERIFICATION/HsHVerification/AldusDannerExposureChronology.lean` and root import added, latest commit `df06acf0a1e9a7d7a4950418bc18a655fea579f8`. Six conditional Lean targets encode source dates, apparatus-vs-phase identity, and the preprint's inconsistent arm labels. Actual Lean compilation has **not** been verified; Lean cannot establish physical truth or original-source accuracy.
+
+**Incoming handoff:** Mira issue #930 publication still pending (expected published file 404; no completion comment). Do not resubmit it. Next: verify PR #793 compilation, inspect preprint/journal PDF figures, obtain ILL dataset and uncertainty model, and fix a path-to-phase sign convention before any H(s)H residual. No BEDROCK promotion, task changes or historical cross-thread delivery.
