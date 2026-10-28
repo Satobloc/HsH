@@ -43,3 +43,6 @@ Optional housekeeping: check #941 publisher committed readback and Mercer CI #40
 Deliberate unrelated reading: TheTANGLE.txt blob 3181b6cad85bbd76bd1017938e0dbf67baf03752 lines 731-770, next cursor 771. Team FIE read Oct27, not due.
 
 This is a durable repository-addressed fallback, NOT a delivered message to an authenticated historical ChatGPT conversation.
+
+## Publication follow-up (later independent readback)
+Issue #941 publisher destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-connectsum-euler-source-fidelity-20261028t21z-s0-001.md`, Git blob `2e8f8f39a44044941d77ccce94d527e196c47fc2`, independently fetched and compared with issue #941 JSON `content`: **EXACT EQUALITY PASS** (4892 characters). Issue checksum SHA256 `6f369d4def942e53f975d1bb6c5d4b2f7e7a40946d72d2815fb0ac639e379ad0`. Earlier PENDING was a valid earlier snapshot; publication is now VERIFIED. No duplicate submission.
