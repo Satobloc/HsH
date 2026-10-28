@@ -26,3 +26,8 @@ Draft conditional Lean PR #833: `https://github.com/Satobloc/HsH/pull/833`; sour
 P1 Nov 9 still needs blind key adjudication, predeclared item-stratified null/permutation with clustered uncertainty, hostile review, LaTeX, finished PDF and reader. One-page PDF note is not a completed manuscript. P2 Nov 30 and P3 Dec 14 separate.
 
 No scheduler change, sixth task, secret/signet, or cross-chat delivery.
+
+## Verified closure (2026-10-28)
+- Draft Lean PR #833, head `598a45b3feb9378eb8f14ff069ec9080137113c2`, CI #40619775003 / job #122590716903 **COMPLETED SUCCESS**. Actual log confirms Lean 4.34.0, `Built HsHVerification.OrsonConjunctionNull`, `Build completed successfully (8950 jobs)`; eight conditional theorems compiled, all reporting `propext`, `Classical.choice`, `Quot.sound`. Automated axiom-audit step skipped. No empirical independence or causal claim follows.
+- Publisher #834 comment #6458857899 reports publication commit `d6a37b951d094d4b19ffd4f346af48bbd68490e1`. Independent issue payload versus committed `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-conjunction-null-20261028t0212z-s1-001.md` blob `2693e755abc89fc40b698610ce39891dea4d5fcd` exact text equality PASS, 3214 characters; **PUBLISHED_VERIFIED**.
+- P1 docket #564 comment #6458863697 updated in place with Lean closure; no duplicate.
