@@ -59,7 +59,7 @@ def add(dst, src):
         dst[k] += src[k]
 
 def git_blob_sha(raw):
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 def analyze(path, expected_sha):
     raw = path.read_bytes()
