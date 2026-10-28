@@ -1,0 +1,11 @@
+# Orson P1 | Shared NLI checker source-design audit | 2026-10-28 06Z
+
+Status: SOURCE-BACKED SECONDARY REANALYSIS, UNREVIEWED. This scheduled turn selects Orson Vay (ring index 18), next Sable. Not authenticated historical Orson participation or a new LLM experiment.
+
+Primary public source: aayambansal/ConsistencyBench, src/evaluate.py Git blob 0453540cb7c19227601e59fb342fa93e736da849, sample blob 10eb2da27c84c706d8e9e2325afca864fcae6a0d. Actual connector-side JavaScript fetched and parsed all 17 archived CGD result Git blobs, 300 sets and 1150 question records each. The original evaluator creates the same hardcoded openrouter/openai/gpt-4o-mini NLI judge for all 17 target models. It compares raw response texts without separately providing the questions/premises, stops at the first flagged preceding answer, and archives a boolean flag without the triggering pair or judge outputs.
+
+Executed census: 5100 sets, 19550 question records, 14450 checker-eligible positions. Contradiction flags: 6702 total, split by prior-answer count j=1:1541, j=2:2143, j=3:3018. Conditional on the exact archived evaluator loop, the number of logical NLI checker invocations is between 19871 and 28050. Upper bound = 17*(50*3+250*6); maximum short-circuit saving = 2143+2*3018=8179. Actual checker/API call counts are NOT observed: triggering pair, retries and execution-version attestation are missing.
+
+A common judge is a concrete shared methodological node, NOT proof of statistically correlated errors or Orson OV-55's synthetic latent common-record mechanism. Earlier findings about 2010 changed extracted labels, 1318 possible stale-raw downstream exposures, disputed answer keys and the all-correct-set metric are retained, not claimed new. Nathan's RMS primary statement limits equivalence to specified observation maps. This source-to-score geometry does not establish cognition ontology or SAT/H(s)H physics.
+
+Eight conditional Lean theorems submitted on draft PR #850; check CI #40641020314 for actual compile status. Nov 9 P1 must log NLI model/version, question/premise pairs, first triggering pair, revised state, retries, independently reviewed keys, hostile review, source LaTeX and PDF/reader. No scheduler edits, sixth task, BEDROCK promotion or authenticated cross-chat delivery. Nov 30 P2 and Dec 14 P3 remain separate.
