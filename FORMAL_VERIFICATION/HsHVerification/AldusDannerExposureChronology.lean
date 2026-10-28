@@ -59,6 +59,36 @@ theorem earliest_located_phase_record_precedes_journal :
     preprint.dateKey < journal.dateKey := by
   decide
 
+/-!
+Additional source-faithful arm-label audit:
+arXiv:1904.07085v1 HTML lines 71, 75, 81 name RFG arm II in
+the main text, while lines 119 and 127 name RFG arm I in
+supplemental Figure 4 and the experimental setup.
+The 2020 journal version names RFG arm I in Figure 1 and Methods.
+This is a *textual label mismatch*, not a demonstrated apparatus
+reconfiguration or a measured phase-sign reversal.
+-/
+
+inductive InterferometerArm
+  | I
+  | II
+  deriving DecidableEq, Repr
+
+def preprintMainRfgArm : InterferometerArm := .II
+def preprintSupplementRfgArm : InterferometerArm := .I
+def journalRfgArm : InterferometerArm := .I
+
+theorem preprint_arm_label_disagrees :
+    preprintMainRfgArm ≠ preprintSupplementRfgArm := by
+  decide
+
+theorem journal_matches_preprint_supplement :
+    journalRfgArm = preprintSupplementRfgArm := by
+  decide
+
+#print axioms preprint_arm_label_disagrees
+#print axioms journal_matches_preprint_supplement
+
 #print axioms recorded_chronology
 #print axioms apparatus_is_different_observable
 #print axioms preprint_and_journal_share_recorded_object
