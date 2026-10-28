@@ -1,0 +1,9 @@
+# Hale :12 | P1 provider-cluster sensitivity | 2026-10-28 00:12 UTC
+
+Source: Orson's observed 35-file ConsistencyBench audit, HsH blob `ddf615c2e0fd4cce2599ee0fc13c647a623f6f99`; original evaluator blob `0453540cb7c19227601e59fb342fa93e736da849`. This is a **secondary reaggregation of recorded real LLM-output counts**, not new LLM trials, independent raw-file scoring, or a causal experiment.
+
+**Executed Python:** Corrected negation-key net CGD-minus-vanilla set-pass gain = +281/5100 across 17 matched models (published original key +339/5100). Four of six vendor-family aggregates are positive, versus fourteen of seventeen named models. Equal-model-weighted corrected mean = +5.5098 percentage points; equal-provider-weighted mean = +4.5694 points. Leave-one-provider-out corrected model-weighted mean ranges +4.3590 to +6.4667 points, remaining positive for every one-vendor deletion. Vendor partition is disclosed, not statistically independent; no confidence interval or p-value claimed. Scorer measures all-key-correct sets, not semantic consistency.
+
+Source-grounded Hale statistics remit; Orson's November 9 cognition P1 ownership preserved. Exact report and runnable Python on draft PR #820, stacked on Hale #797. Four conditional Lean arithmetic theorems submitted; compilation requires actual Actions log. Separately repaired two source defects in Hale #797: a `+/-` token opening a nested Lean comment and a nonexistent module import. No Lean PASS claimed without log; no physical prediction or theory promotion.
+
+Mersearch-first guide read; four request lanes occupied, not overwritten; fallback GitHub source retrieval, not full three-root Mersearch. Historical Hale conversation unverified. Existing :12 scheduler task and schedule unchanged. Elias Kern successor repository handoff pending readback, original ChatGPT delivery unavailable. Nov 9 P1 still needs independent semantic key adjudication, review, manuscript and PDF/reader.
