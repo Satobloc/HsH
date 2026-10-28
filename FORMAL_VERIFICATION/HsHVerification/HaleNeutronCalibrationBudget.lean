@@ -5,7 +5,7 @@ import Mathlib
 Hale, 2026-10-27: measured neutron-interferometry calibration budget.
 Werner et al., PRL 35, 1053 (1975), Eq. (5)-(7):
 1.445 Angstrom neutron wavelength, probe-derived 2.7 cm effective
-field-integral coefficient, observed gap-field period 62 +/- 2 gauss.
+field-integral coefficient, observed gap-field period 62 ± 2 gauss.
 K >= 187 gauss cm is a rounded EXTERNAL numerical premise from
 CODATA-2022-based Python calculation (K=187.743430... G cm).
 Formalized statements are conditional algebra, NOT proof of the
