@@ -27,6 +27,7 @@ import HsHVerification.OrsonSharedNLI
 import HsHVerification.OrsonRepeatedPrompt
 import HsHVerification.OrsonSplitLeakage
 import HsHVerification.OrsonPromptComponentGate
+import HsHVerification.OrsonRevisionBalance
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
