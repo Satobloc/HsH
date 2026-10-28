@@ -59,7 +59,7 @@ def graph(sets, key):
 
 def main(path):
     raw=path.read_bytes()
-    gitsha=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\\0"+raw).hexdigest()
+    gitsha=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
     expected=BLOBS.get(path.name)
     if expected is None or gitsha!=expected:
         raise SystemExit(f"Source identity not verified: {path.name} {gitsha} expected {expected}")
