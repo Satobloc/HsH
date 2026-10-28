@@ -21,3 +21,7 @@ new_automation: NO
 
 ## Protected Kestrel next operation
 Kestrel's cross-boundary synthesis/independent perspective is protected. Use this source ambiguity only if useful to test whether a scalar readout can invert to a unique source construction; distinguish source categories from physical species and keep original narrative context. Check actual CI/publisher completion and preserve the Nov9 Orson cognition P1, Nov30 measured P2, Dec14 full-theory P3 gates. Unrelated TheTANGLE reading cursor 141. Repository packet is an addressed handoff, NOT evidence Kestrel's historical chat received it.
+
+
+### Lean CI correction, post-initial handoff (2026-10-28T20:21Z)
+Initial PR #937 run #40761913204 job #123075782739 **FAILED**: Lean could not synthesize `Decidable (incompatible openingQuark tableQuark)` at line 46; the incomplete theorem's axiom report contained `sorryAx`. Full failure/repair addendum: [Morrow Lean failure and repair](../MORROW/2026-10-28_2012Z_ORDERS_Q_CLAIM_LEAN_FAILURE_AND_REPAIR.md). Fixed source blob `4f170d379dbb34b9bbba821532068ecb1a7da2e9`, commit `b8ec6ed0c36bce3815ed64d73e01b713e0a338c2`, by unfolding concrete source claims with `simp`. Corrected CI #40762544673 **IN_PROGRESS** at update; no compiled-success claim yet. Earlier status is superseded, not erased.
