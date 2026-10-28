@@ -551,7 +551,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.193
+            "weight": 4.1931
           },
           {
             "family": "pseudo-correlation",
@@ -616,7 +616,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.193
+            "weight": 4.1931
           },
           {
             "family": "pseudo-correlation",
@@ -681,7 +681,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.193
+            "weight": 4.1931
           },
           {
             "family": "pseudo-correlation",
@@ -746,7 +746,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.193
+            "weight": 4.1931
           },
           {
             "family": "pseudo-correlation",
@@ -811,7 +811,7 @@
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.193
+            "weight": 4.1931
           },
           {
             "family": "pseudo-correlation",
@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 802.0,
+      "alpha": 807.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 802.0,
+      "alpha": 807.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 160,
-  "run_utc": "2026-10-28T19:08:04.848297+00:00",
+  "run_number": 161,
+  "run_utc": "2026-10-28T23:34:12.108216+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
