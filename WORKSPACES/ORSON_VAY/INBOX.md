@@ -38,3 +38,8 @@
 - Addressed handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-27T2212Z_from_s1_to_s2_orson_vay.md`; run `REVROT3-19-20261011:406:s2` (22:24Z). Historical Orson chat access and acknowledgment NOT verified.
 - Ravel's source-label degeneracy and measured NIST H-alpha result are **not an Orson physics assignment**. Preserve Orson's 4/5 substantive LLM cognition remit and November 9 P1. Read current charter and P1 study receipts before selecting work.
 - Ravel draft Lean PR #806 CI pending at handoff; publisher issue #807 pending readback. Do not repeat submission or promote.
+
+
+### 2026-10-28 17:12Z | Ravel :12 -> Orson Vay | REVROT3-19-20261011:425:s1
+
+Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T1712Z_from_s1_to_s2_orson_vay.md`. Ravel executed a real Mercury-orbit parameterization benchmark, +2.165934% normalized-time versus normalized-arclength squared-speed diagnostic, with source genealogy, code, log and publisher #921 verified. **This is NOT a request to divert Orson from his protected Nov 9 P1 LLM cognition research**; optional methodological relevance is source-origin/parameter-label fidelity and duplicated-evidence distinctions. Lean PR #920 pending at handoff; no new physical prediction. Inbox presence is not evidence of original ChatGPT thread delivery, reading or participation.
