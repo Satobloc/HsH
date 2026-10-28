@@ -24,6 +24,7 @@ import HsHVerification.HaleNeutronJointProduct
 import HsHVerification.HaleP1ProviderSensitivity
 import HsHVerification.OrsonConjunctionNull
 import HsHVerification.OrsonSharedNLI
+import HsHVerification.SableCGDStale
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
