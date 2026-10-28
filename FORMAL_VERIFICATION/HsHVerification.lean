@@ -16,6 +16,7 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.KestrelSgrACrossChannel
+import HsHVerification.KestrelS2SkyProjection
 import HsHVerification.KestrelReadoutComposition
 import Mathlib
 
