@@ -30,8 +30,13 @@ theorem apsidal_radii_difference (a e : ℝ) :
 theorem eccentricity_from_apsidal_radii (a e : ℝ) (ha : a ≠ 0) :
     (apoRadius a e - periRadius a e) /
       (apoRadius a e + periRadius a e) = e := by
-  rw [apsidal_radii_sum, apsidal_radii_difference]
+  have hsum : apoRadius a e + periRadius a e = 2 * a := by
+    calc
+      apoRadius a e + periRadius a e = periRadius a e + apoRadius a e := by ring
+      _ = 2 * a := apsidal_radii_sum a e
+  rw [apsidal_radii_difference, hsum]
   field_simp [ha]
+  all_goals ring
 
 theorem curvature_forward_inverse (mu r c v : ℝ)
     (hr : r ≠ 0) (hcv : c ^ 2 + v ^ 2 ≠ 0) :
