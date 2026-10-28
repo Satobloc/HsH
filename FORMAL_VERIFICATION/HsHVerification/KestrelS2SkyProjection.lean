@@ -3,9 +3,9 @@ import Mathlib
 /-!
 Kestrel S2 orbital-plane -> sky-plane -> EHT angular-ratio gate, 2026-10-28.
 Empirical anchors: GRAVITY Collaboration (2020), A&A 636 L5, Table E.1:
- a=125.058 +/-0.041 mas, e=0.884649 +/-0.000066,
- i=134.567 +/-0.033 deg, omega=66.263 +/-0.031 deg.
-EHT Collaboration (2022), ApJL 930 L15: ring diameter 51.8 +/-2.3 microas.
+ a=125.058 plus-or-minus0.041 mas, e=0.884649 plus-or-minus0.000066,
+ i=134.567 plus-or-minus0.033 deg, omega=66.263 plus-or-minus0.031 deg.
+EHT Collaboration (2022), ApJL 930 L15: ring diameter 51.8 plus-or-minus2.3 microas.
 The symbolic theorems are conditional identities and bounds; the measured
 numerical replay, covariances, and astrophysical limitations are separate.
 No H(s)H material-core or emission law is assumed or proved.
