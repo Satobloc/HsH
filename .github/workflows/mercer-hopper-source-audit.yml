@@ -1,0 +1,32 @@
+name: Mercer SAT Math Hopper source coverage
+
+on:
+  push:
+    branches:
+      - research/mercer-hopper-line-window-gate-20261028t1312z
+    paths:
+      - tools/audit_hopper_backbone_coverage.py
+      - .github/workflows/mercer-hopper-source-audit.yml
+  pull_request:
+    paths:
+      - tools/audit_hopper_backbone_coverage.py
+      - .github/workflows/mercer-hopper-source-audit.yml
+
+permissions:
+  contents: read
+
+jobs:
+  pinned-source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile audit code
+        run: python -m py_compile tools/audit_hopper_backbone_coverage.py
+      - name: Execute original SAT backbone extraction regression
+        run: python tools/audit_hopper_backbone_coverage.py
