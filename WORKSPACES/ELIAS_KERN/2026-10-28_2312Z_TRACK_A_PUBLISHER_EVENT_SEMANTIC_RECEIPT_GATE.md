@@ -65,3 +65,15 @@ FIE team reread Oct 27, so no >=14-day revisit trigger. No new unrelated-reading
 - Nadir Voss at :24 retains SILOED/PLAYGROUND remit; handoff should offer these routing observations as optional, not force production workflow duties. Original ChatGPT-thread delivery unavailable; GitHub packet is not an authenticated worker check-in.
 
 **Publication:** This file is a GitHub research report, not an issue-publisher publication. Any public-safe issue publication must be independently verified; none is claimed here.
+
+## Related original SAT/O status-fidelity cluster (later source read)
+
+Three additional interrelated July 2025 archive documents were retrieved in full:
+
+1. `SAT 4D Theory Work/SAT4D_3.txt`, blob `f2a2540da5bb399ed4218d65a65e3b983dc00d01`, 3,755 characters, labels SAT.O1–O8 rewritten/complete while explicitly listing D1–D6 derivations as **active tasks**.
+2. `SAT 4D Theory Work/SAT4D_7.txt`, blob `597060293196a8017fbbb144a3393733e76ee267`, 2,818 characters, again labels all eight modules **complete** and lists D1–D6 as next-priority derivations.
+3. `SAT O Derivations/SAT_DERIVATIONS_INDEX.txt`, blob `19610d8eb16878ace3a2cf50047bff9319ed1b27`, 1,506 characters, is a **template** with bracketed placeholder derivation descriptions (e.g. `[Short description, e.g. from eq. (2.3) to (2.7)]` and ellipses).
+
+**Bounded source conclusion:** In this witness cluster, the adjective *complete* describes a clean-core **module rewrite stage**, not independently demonstrated completion of all D1–D6 derivations. The placeholder index is not a derivation receipt. This does **not** prove that no complete derivations exist elsewhere in the archive: code search returned path-index hits but did not establish exhaustive three-root coverage. The historical texts identify `SATO.4D Coherence Project` as author for two plans; Nathan's exact user-turn authorship and whether an LLM drafted their wording remain unverified. This distinction parallels, but does not prove equivalence to, the live publisher-stage result.
+
+The independent Track A observation was also posted as an **additive comment**, not a new publisher submission, on existing issue #714: comment `6483140769`, independently fetched and matched. Track B review/acknowledgment remains unverified.
