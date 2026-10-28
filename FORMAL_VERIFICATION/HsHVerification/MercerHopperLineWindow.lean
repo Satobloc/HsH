@@ -17,28 +17,28 @@ No source measurements or author identities are proved by Lean.
 
 namespace HsHVerification.MercerHopperLineWindow
 
-def admissibleWindow (prefix trigger suffix : Nat) : Prop :=
-  prefix ≤ 200 ∧ 1 ≤ trigger ∧ trigger ≤ 5 ∧ suffix ≤ 200
+def admissibleWindow (leftLen trigger rightLen : Nat) : Prop :=
+  leftLen ≤ 200 ∧ 1 ≤ trigger ∧ trigger ≤ 5 ∧ rightLen ≤ 200
 
 theorem window_length_le_405
-    (prefix trigger suffix : Nat)
-    (h : admissibleWindow prefix trigger suffix) :
-    prefix + trigger + suffix ≤ 405 := by
+    (leftLen trigger rightLen : Nat)
+    (h : admissibleWindow leftLen trigger rightLen) :
+    leftLen + trigger + rightLen ≤ 405 := by
   rcases h with ⟨hp, htpos, htmax, hs⟩
   omega
 
 theorem over_405_cannot_match_line_window
     (lineLength : Nat) (hLong : 405 < lineLength) :
-    ¬ ∃ prefix trigger suffix : Nat,
-        admissibleWindow prefix trigger suffix ∧
-        prefix + trigger + suffix = lineLength := by
-  rintro ⟨prefix, trigger, suffix, hwindow, hsum⟩
-  have hbound := window_length_le_405 prefix trigger suffix hwindow
+    ¬ ∃ leftLen trigger rightLen : Nat,
+        admissibleWindow leftLen trigger rightLen ∧
+        leftLen + trigger + rightLen = lineLength := by
+  rintro ⟨leftLen, trigger, rightLen, hwindow, hsum⟩
+  have hbound := window_length_le_405 leftLen trigger rightLen hwindow
   omega
 
 theorem long_prefix_rejected
-    (prefix trigger suffix : Nat) (hLong : 200 < prefix) :
-    ¬ admissibleWindow prefix trigger suffix := by
+    (leftLen trigger rightLen : Nat) (hLong : 200 < leftLen) :
+    ¬ admissibleWindow leftLen trigger rightLen := by
   intro h
   exact (Nat.not_le_of_gt hLong) h.1
 
