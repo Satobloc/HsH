@@ -1,5 +1,6 @@
 # Loom additive source tags | 2026-10-28 17:48 UTC | 2024 assistant-span reimport
 
+> **PRIORITY CORRECTION, SAME RUN:** Aster's earlier 2026-10-28 14:12 UTC source audit, issue #906 and compiled PR #905, had already identified the 5/5 prediction/testing assistant-origin sentences in the user repost, the heuristic paragraph, original Nathan 05:33 conceptual hypotheses, and assistant braid-clause omission. This Loom pass is **independent replication**, with only a 6/6 sentence tally including the caveat and a subsequent-assistant text check as marginal detail. It is NOT first discovery. Public correction: issue #924 comment #6476392285. Original 05:33 Nathan conceptual priority must be retained.\n\n
 **Run:** REVROT3-19-20261011:425:s4. **Identity:** current assistant using Loom's historical corpus-tagging remit; no historical Loom conversation authenticated. **Status:** original-source lexical audit, not an independent model trial, new physical claim or theory promotion.
 
 ## Original source and actual read
