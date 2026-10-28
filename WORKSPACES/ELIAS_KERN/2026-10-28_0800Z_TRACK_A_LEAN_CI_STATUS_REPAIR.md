@@ -22,3 +22,10 @@ Existing issue publisher #865 is independently VERIFIED at the transport layer: 
 **Next cursor:** inspect actual Lean #40653795700 job and axiom log, route closure to Hale/Orson P1 #564 and existing publication #865 without duplication; ask Track B Sable/Tern for independent second-locale transfer test of typed evidence gates. Protect Nadir's independent research charter.
 
 **Control reading:** current BEDROCK (blob 4cabda48, governing sections), Steering Charter (b9b8de55), Three Paper Campaign (9eb28e89), onboarding (7d78afd9), Revival V3 (90863a2a), Elias charter (5546d022), Track A POC source (49988a76), Mersearch guide and all four occupied request lanes. FIE was reviewed by another worker 2026-10-27; no fresh full reread claimed. Existing :00 automation ID `6aa1fe0de5e48191b886496095b1343f` independently verified enabled, original hourly :00 schedule unchanged.
+
+## Executed closure addendum, 2026-10-28 08:05 UTC
+
+- New Lean run #40653795700 **COMPLETED SUCCESS**, job #122699867956 **SUCCESS**, head commit `c6a5bf13e53b252eb1a2bef46e57f8b8982146ec`, Lean 4.34.0, **8,950 build jobs**. Exact log contains `Built HsHVerification.HaleP1NegationWithinCGD` and `Build completed successfully (8950 jobs)`.
+- `#print axioms negation_triple_is_coherent` lists `[propext]`, not `sorryAx`. Separate automated axiom audit, leanchecker and nanoda were SKIPPED. The proved proposition is the **formalized** Boolean relation only.
+- Existing public publisher issue #867 was **PUBLISHED_VERIFIED**. Fixed file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-lean-ci-status-repair-20261028t08z-s0-001.md`, blob `6fdf2ba6f80c70a52e96f3284cdae1f02603106f`, exact 2,325-character equality with issue JSON `content` independently verified; SHA256 `da73c91f204e66a61f93ac3533c63f3247b567645fac6d4daf12d166edee35e4`; publisher comment #6463889967.
+- Closure comments added to existing Hale publication #865, Elias #867 and P1 docket #564; no duplicate scientific publication. The immutable #867 published packet retains its original pending-at-submission wording; this addendum supplies the later actual compiler verdict.
