@@ -44,4 +44,8 @@ theorem normal_plane_slope_reciprocity
     (transverse / axial) * (axial / transverse) = 1 := by
   field_simp
 
+#print axioms rise_for_axial_coefficient
+#print axioms rise_for_pitch_per_turn
+#print axioms normal_plane_slope_reciprocity
+
 end HsHVerification.AldusHelixPitchSourceFidelity
