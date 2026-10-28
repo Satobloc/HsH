@@ -32,6 +32,15 @@ for name,expr in exprs.items():
                    'sensitivity':derivs,'sigma_contributions':contributions}
 q2=math.sqrt(math.cos(math.radians(x['omega_deg']))**2 + math.cos(math.radians(x['i_deg']))**2 * math.sin(math.radians(x['omega_deg']))**2)
 assert abs(q2-results['projection_factor']['central'])<1e-13
+# Independent Rz(node) Rx(inclination) Rz(omega) sky-plane check.
+# Node rotates the sky vector but cannot change its magnitude.
+rr=results['intrinsic_peri_mas']['central']
+ii,ww,oo=map(math.radians,[x['i_deg'],x['omega_deg'],228.171])
+xp=rr*math.cos(ww)
+yp=rr*math.sin(ww)*math.cos(ii)
+xs=xp*math.cos(oo)-yp*math.sin(oo)
+ys=xp*math.sin(oo)+yp*math.cos(oo)
+assert math.isclose(math.hypot(xs,ys),results['sky_peri_mas']['central'],rel_tol=0,abs_tol=1e-11)
 assert 0<q2<1
 assert results['sky_peri_mas']['central']<results['intrinsic_peri_mas']['central']
 assert abs(results['sky_peri_to_ring_radius']['central']-2*results['sky_peri_to_ring_diameter']['central'])<1e-10
