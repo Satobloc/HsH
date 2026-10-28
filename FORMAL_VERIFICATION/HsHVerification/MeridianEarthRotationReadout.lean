@@ -14,8 +14,8 @@ or the observational validity of an effective metric.
 
 namespace HsHVerification.MeridianEarthRotationReadout
 
-def kEuclid (r beta : ℝ) : ℝ := beta^2 / (r * (1 + beta^2))
-def kLorentz (r beta : ℝ) : ℝ := beta^2 / (r * (1 - beta^2))
+noncomputable def kEuclid (r beta : ℝ) : ℝ := beta^2 / (r * (1 + beta^2))
+noncomputable def kLorentz (r beta : ℝ) : ℝ := beta^2 / (r * (1 - beta^2))
 
 /-- Scalar Euclidean curve curvature cannot distinguish clockwise from anticlockwise. -/
 theorem euclid_chirality_blind (r beta : ℝ) :
