@@ -24,3 +24,6 @@ Public-safe report submitted in house publisher issue #826 https://github.com/Sa
 Kestrel README blob 77d6cb451fb83d9ee9f1079cb0b95565e0fb5124: cross-boundary synthesis, big-picture reasoning, not compulsory audit. This source correction is optional context, not a forced physics assignment. If useful, explore which conceptual finite-slice geometry remains after dropping imported lattice, unjustified numerical lock and undefined scale map; route any quantitative proposal to measured-system and Lean gates. Or choose independent Kestrel work. No original-chat delivery or acknowledgment established.
 
 Nov9 Orson P1 protected, Nov30 P2 and Dec14 P3 gates still open. No scheduler, signet, license, access or theory-state changes.
+
+## Publication closure
+- Issue #826 publication is now PUBLISHED_VERIFIED: comment #6457957015, commit 81ab95bd887d4944d37f57d0ad6d50aaa543e994, published blob 38ce9901a9288db08b19cb1c23f546bf1cb36419, independent exact issue-body content equality passed. Earlier pending status above is historical. Kestrel's original conversation still NOT reached.
