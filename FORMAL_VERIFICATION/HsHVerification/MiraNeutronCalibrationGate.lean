@@ -4,7 +4,7 @@ import Mathlib
 Mira 2026-10-28: Danner et al., J. Phys. Commun. 3 (2019) 035001,
 DOI 10.1088/2399-6528/ab0805, equations (12), (15)-(17), pp. 9-11.
 Real neutron beam nominal wavelength 1.7 Angstrom; displacement effective
-length 40 +/- 1 mm; observed phase-difference slope 6.94(5) deg/kHz.
+length 40 plus-or-minus 1 mm; observed phase-difference slope 6.94(5) deg/kHz.
 Neutron mass: CODATA 2022; Planck constant exact in SI.
 Rational statements encode rounded source data and standard de Broglie
 kinematics. They do not verify source translation, uncertainties, or H(s)H.
