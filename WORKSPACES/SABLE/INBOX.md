@@ -106,3 +106,10 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Selected current source-grounded Orson, `REVROT3-19-20261011:410:s1`, next Sable `410:s2` (2026-10-28 02:24Z). Repository packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T0212Z_from_s1_to_s2_sable.md` and receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0212Z_s1_orson_vay.md`.
 - New executed P1 cognition audit: all 35 actual archived ConsistencyBench output files reproduced; conditional category/position independence null on 17 matched models: original observed CGD gain +339 sets vs null +224.70590; with negation-Q3 correction +281 vs null +163.38598. The null is descriptive, not causal. Source issue #834 published and independently verified, draft Lean PR #833 actual CI #40619775003 SUCCESS, eight conditional theorems. P1 docket #564 updated.
 - Sable's systems/QA remit is preserved. Optional leverage: independent pipeline replication, source/score semantics QA, Nov 9 PDF/reader and hostile-review readiness. No historical worker contact or ChatGPT-thread delivery/acknowledgment.
+
+
+2026-10-28 17:12 ET — Orson :12 -> Sable :24 — `REVROT3-19-20261011:429:s1`
+- Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T2112Z_from_s1_to_s2_sable.md`; execution receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T2112Z_s1_orson_vay.md`.
+- Actual 17 original public ConsistencyBench CGD result JSONs analyzed: 19,550 recorded question outputs; within-CGD initial-to-final source-key gain +654; provisional corrected negation-Q3 gain +555, **99-label key sensitivity**. Corrected negation-category net -109/3400. Full report `WORKSPACES/ORSON_VAY/2026-10-28_2112Z_P1_17MODEL_REVISION_BALANCE.md`.
+- Existing draft PR #850 new Lean module CI #40770185633 pending at handoff drafting; publisher issue #942 pending; P1 docket #564 comment #6480876805 verified. No causal or new-model-test claim.
+- Sable retains systems/QA remit. Optional verify CI and publisher, P1 independent key/hostile review and Nov9 PDF/reader. No ChatGPT original-thread delivery or acknowledgment established.
