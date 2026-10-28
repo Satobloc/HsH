@@ -1,0 +1,18 @@
+# Ravel | S2 marked R4 Gram geometry and inverse non-identifiability
+Nominal 2026-10-28 13:24 UTC, REVROT3-19-20261011:421:s2. Source-grounded Ravel remit, not authenticated original ChatGPT instance. Status: REAL MEASURED-FIT INPUT / PYTHON AND SYMBOLIC CHECKS PASS / LEAN CI PENDING / NO INDEPENDENT H(s)H PREDICTION.
+
+## Original source and provenance
+GRAVITY Collaboration (2020), A&A 636 L5, DOI 10.1051/0004-6361/202037813, Table E.1. S2 orbit around Sagittarius A*. Jointly fitted correlated inputs: central mass 4.261 +/- 0.012 million M_sun; R0=8246.7 +/- 9.3 pc; angular semimajor axis 125.058 +/- 0.041 mas; eccentricity 0.884649 +/- 0.000066. Fitted Schwarzschild-precession factor fSP=1.10 +/- 0.19 from same observations, NOT independent held-out data. Joint covariance not recovered. c and AU exact SI, IAU nominal solar GM=1.3271244e20 m^3/s^2 is a convention, not a separate CODATA measurement.
+
+Original historical SAT.4D Deployment Guidelines (July 2025), Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT 4D Theory Work/SAT.4D Deployment Guidelines.txt, blob 6a1ef773c40f805aace5fd61e3584ba50c21241d, lines 47-50, prints gamma^mu(lambda), u^mu(x), theta_4(x), S_(mu nu)=nabla_mu u_nu+nabla_nu u_mu. These are source equations, NOT the Euclidean Gram formula below. Project-authored; Nathan Direct equation authorship not authenticated.
+
+## Explicit forward and inverse maps
+Assistant reconstruction, not original SAT equation: assume Euclidean marked lift X_alpha(t)=(x(t),alpha*c*t), V=(v,alpha*c), A=(a,0). Gram G=(V.V)(A.A)-(V.A)^2=(|v|^2+(alpha*c)^2)|a|^2-(v.a)^2. At a Keplerian apsis v.a=0, extrinsic curvature squared G/(V.V)^3=|a|^2/(|v|^2+(alpha*c)^2)^2 for nonzero V. This closes the missing *typed geometric derivation* behind the earlier stipulated quotient in Ravel PR #725. New draft PR #899 contains two connected Lean modules and 12 conditional theorem candidates; Actions CI #40696057232 initiated, actual compiler conclusion pending at initial submission. No theorem is claimed compiled until log readback.
+
+Reverse non-identifiability: alpha and -alpha give different coordinate lifts when alpha*t != 0, but identical 3D projection, speed squared, Gram determinant and curvature squared. This is a Euclidean reflection ambiguity, not a physically distinct worldtube or an observed fourth-coordinate direction. No H(s)H constitutive dynamics or timesheet/detector map has been derived.
+
+## Actual numerical execution
+Python Decimal 65-digit, independent mpmath 85-digit relative check <1e-58 and SymPy exact Gram/reflection identity PASS. Fitted S2 pericentre radius 118.963310 AU, speed 7738.514450 km/s, acceleration 1.785444137 m/s^2. For assumed alpha=+/-1, Euclidean marked curvature is 1.9852517340e-17 m^-1. v^2/c^2=0.0006663061011, and curvature/(a/c^2)=0.9993341376. Standard GR 1PN periapsis advance 12.155920 arcmin/orbit is a DIFFERENT observable from extrinsic curve curvature. Sixteen marginal-endpoint corners give [1.97165833e-17,1.99892980e-17] m^-1, a sensitivity envelope, NOT a credible interval without joint covariance.
+
+## Verification and next
+Ravel research record WORKSPACES/RAVEL/2026-10-28_1324Z_S2_TYPED_GRAM_GEOMETRY_GATE.md. Python SHA256 014f2d2485fbac6607a0e5f0a9c6cd59189ff1691d9365c3b1e244bb4cdd7860; JSON SHA256 25d954cabe327b183fb4c2a71e08eb1eee71ad9dd0fd55c4b26dc8492b12eaaa. Nov9 cognition P1, Nov30 real-system geometry P2 and Dec14 full theory P3 remain separate OPEN gates. Need actual Lean CI logs, independently sourced worldtube-to-observable prediction and full observational covariance. No BEDROCK promotion, task change, or historical chat delivery.
