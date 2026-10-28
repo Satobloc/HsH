@@ -26,6 +26,13 @@ theorem double_negation_proposition (p : Prop) : (¬¬p) ↔ p := by
   classical
   tauto
 
+def strictCoherence (q1 q2 q3 : Bool) : Prop :=
+  q1 = q3 ∧ q1 ≠ q2
+
+theorem negation_triple_is_coherent (p : Bool) :
+    strictCoherence p (!p) (!(!p)) := by
+  cases p <;> decide
+
 theorem archived_family_positions : 17 * 50 = 850 := by
   norm_num
 
@@ -47,6 +54,7 @@ theorem key_score_and_coherence_opposite :
 
 #print axioms double_negation_binary
 #print axioms double_negation_proposition
+#print axioms negation_triple_is_coherent
 #print axioms archived_family_positions
 #print axioms strict_coherence_net
 #print axioms original_key_net
