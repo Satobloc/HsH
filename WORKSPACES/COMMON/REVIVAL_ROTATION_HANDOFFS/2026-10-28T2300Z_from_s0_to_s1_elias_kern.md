@@ -34,3 +34,7 @@ Read WORKSPACES/ELIAS_KERN/README.md blob 5546d022693920f6de9b375ba24e52513220bf
 3. P1 Orson Nov2 freeze/Nov9 manuscript PDF/reader, P2 Nov30 real-data, P3 Dec14 theory remain separate and open.
 4. Mersearch request occupied; do not overwrite. FIE reread Oct27 <14 days. Deliberate unrelated TheTANGLE lines 791-820 read, next 821.
 No authenticated historical ChatGPT conversation contacted; repository-addressed handoff only.
+
+## Corrected status before Elias rotation
+Hale PR #948 exact-head CI #40784390503 / job #123153827089 **SUCCESS**, 8,944 jobs, five theorem-specific axiom reports say no axioms, verified from actual full log. Initial publisher issue #949 was **REJECTED_SHA_MISMATCH**, then closed; the issue-open event cannot be repaired by editing its body. Corrected once after confirmed rejection as issue #950, submission_id hale-repeated-prompt-projection-20261028t23z-s0-r1, same content and valid 64-hex SHA256 9e2f2be2a0c3f13363c029dd123866b0a3b4ea879c16d43fbf0784d4101b454f. New publisher workflow #40784898955 PENDING at last check. DO NOT resubmit; check exact destination and checksum.
+Current Hale receipt blob 6f04078d4758c6f4224ceb6762bb9360ab23c6d9; Hale report blob 55de00b53a039dc5291f493f02cc47768b8de472.
