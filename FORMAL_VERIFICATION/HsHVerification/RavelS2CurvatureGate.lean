@@ -35,7 +35,6 @@ theorem curvature_sq_at_apsis (v a : Spatial) (alpha c : ℝ)
   unfold curvatureSq
   rw [gram_at_apsis v a alpha c horth, velocity_norm]
   field_simp
-  ring
 
 theorem speed_reflection (v : Spatial) (alpha c : ℝ) :
     markedSpeedSq v (-alpha) c = markedSpeedSq v alpha c := by
