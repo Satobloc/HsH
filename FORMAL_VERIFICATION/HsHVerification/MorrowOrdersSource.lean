@@ -43,7 +43,7 @@ def incompatible (a b : CountClaim) : Prop :=
 /-- The two quoted statements disagree if "quark" is one fixed source type. -/
 theorem two_source_quark_claims_incompatible :
     incompatible openingQuark tableQuark := by
-  decide
+  simp [incompatible, openingQuark, tableQuark]
 
 /-- No single unqualified counting function can realize both readings
     on the same source-kind argument. -/
