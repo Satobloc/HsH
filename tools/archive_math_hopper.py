@@ -52,6 +52,7 @@ def scan(roots,out,max_bytes,limit,excludes):
     files=0
     modes=Counter()
     notation_keys=set()
+    source_bodies=set()  # exact bytes, distinct from path occurrences
     candidate_count=0
     out.mkdir(parents=True,exist_ok=True)
     pending=out/"CANDIDATES.jsonl.tmp"
@@ -69,6 +70,7 @@ def scan(roots,out,max_bytes,limit,excludes):
             repo=root.name if root.is_dir() else root.parent.name
             relative=file.relative_to(root).as_posix() if root.is_dir() else file.name
             source_sha=hashlib.sha256(file.read_bytes()).hexdigest()
+            source_bodies.add(source_sha)
             for text,locator,message_id,conversation_id,speaker,role in get_records(file,engine):
                 occupied=set()
                 for start,end,raw in extract_math(text):
@@ -103,6 +105,7 @@ def scan(roots,out,max_bytes,limit,excludes):
         "tool":VERSION,"streaming":True,"date_utc":datetime.now(timezone.utc).isoformat(),
         "roots":[str(p) for p in roots],"files_inspected":files,
         "candidates":candidate_count,
+        "unique_source_bodies":len(source_bodies),
         "unique_notation_keys":len(notation_keys),
         "modes":dict(modes),"math_pass":None,"math_fail":None,
         "lean_status":"NOT_RUN","excluded":sorted(skipped),
@@ -111,7 +114,7 @@ def scan(roots,out,max_bytes,limit,excludes):
     (out/"MANIFEST.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     (out/"REPORT.md").write_text(
         "# Archive Math Hopper\n\n"
-        +f"- Files: {files}\n- Candidate occurrences: {candidate_count}\n"
+        +f"- Files: {files}\n- Unique source bodies: {len(source_bodies)}\n- Candidate occurrences: {candidate_count}\n
         +f"- Distinct notation keys: {summary['unique_notation_keys']}\n"
         +"- Mathematical/Lean proof: NOT RUN.\n\n"
         +"Curate source context, domains, symbols, units and assumptions, then transfer an appropriate claim into formalization/equations.json. This extraction score is NOT a truth score.\n",
