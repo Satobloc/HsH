@@ -39,6 +39,14 @@ theorem distinct_signed_inputs_same_unsigned
     exact hu hz
   · exact unsigned_incidence_reversal u
 
+theorem aligned_slice_factor (K : ℝ) :
+    sliceFactor K 1 = K := by
+  simp [sliceFactor]
+
+theorem aligned_positive_factor (K : ℝ) (hK : 0 < K) :
+    0 < sliceFactor K 1 := by
+  simpa [aligned_slice_factor] using hK
+
 theorem no_two_sided_sign_recovery
     (decode : ℝ → ℝ) (u : ℝ) (hu : u ≠ 0)
     (hforward : decode (unsignedIncidence u) = u)
@@ -54,6 +62,8 @@ theorem no_two_sided_sign_recovery
 #print axioms unsigned_incidence_reversal
 #print axioms scalar_slice_factor_reversal
 #print axioms distinct_signed_inputs_same_unsigned
+#print axioms aligned_slice_factor
+#print axioms aligned_positive_factor
 #print axioms no_two_sided_sign_recovery
 
 end HsHVerification.TernDimReadout
