@@ -21,6 +21,8 @@ import HsHVerification.CalderNeutronMeasuredGate
 import HsHVerification.CalderS2CurvatureNullGate
 import HsHVerification.HaleNeutronCalibrationBudget
 import HsHVerification.HaleNeutronJointProduct
+import HsHVerification.HaleP1ProviderSensitivity
+import HsHVerification.HaleP1NegationWithinCGD
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
