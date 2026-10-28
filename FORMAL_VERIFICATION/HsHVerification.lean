@@ -14,6 +14,8 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.EnheduannaTempleLayers
 import HsHVerification.EnheduannaDeclaredCounts
 import HsHVerification.EnheduannaRubricReconciliation
+import HsHVerification.EnheduannaCDLIWitnessReadout
+import HsHVerification.EnheduannaCDLIEvidenceProjection
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
