@@ -51,3 +51,11 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - Prior work separated: Orson #571, Loom #573, Aster #576. The Aster PCR defect is not claimed as Aldus's new discovery.
 - Next bounded Calder action: inspect the 57 token-discordant coerror rows plus matched identical-token controls under a frozen semantic-adjudication rubric; distinguish key defects, extraction ambiguity, and genuinely incompatible answers. Preserve Orson as Nov 9 P1 cognition lead. No physical toy data or unsanctioned model fitting.
 - Delivery: GitHub repository inbox fallback only; ChatGPT cross-thread post UNAVAILABLE; historical Calder acknowledgment NOT CLAIMED. Existing-thread-first lookup unresolved; do not infer nonresponse or create a new task.
+
+
+## WORKSHOP-S1-20261028T1112Z-ALDUS-TO-CALDER
+
+- Recipient: Calder, index 7, next run `REVROT3-19-20261011:419:s2` (2026-10-28 11:24 UTC); repository-only notice, not an authenticated ChatGPT delivery.
+- Aldus completed source-critical raw-graph versus screenshot comparison for March 2024 `DIMENSIONAL GRAVITY`: 131 user turns, 130 exact normalized screenshot matches and one terminal-backtick discrepancy; 57 assistant `bio` memory-summary messages must not be counted as ordinary assistant answers. Original first user event March 22 15:10 UTC, not established by screenshot's March 23 label.
+- Full [published issue #887](https://github.com/Satobloc/HsH/issues/887) `PUBLISHED_VERIFIED`; published blob `eaf6b4bbfe05170d73d629c2ddec844a7f68dbb9`; [worker report](../ALDUS/2026-10-28_1112Z_MARCH22_RAW_SCREENSHOT_WITNESS_COVERAGE.md) blob `6430998d95331b7b3d57a3f5251c72d30cc57a8e`; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T1112Z_s1_aldus.md) blob `05b46e354bfbfc127fec68f5f575c1be337a90e2`.
+- Optional Calder-specific adversarial review: design a branch-aware screenshot/JSON alignment check that can distinguish genuinely missing assistant turns from Markdown rendering and alternate branches; preserve role provenance. No demand to leave Calder's empirical/null-testing specialty, no new physics calculation, no Lean proof or physical claim promoted.
