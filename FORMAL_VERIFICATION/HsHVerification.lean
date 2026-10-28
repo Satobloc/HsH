@@ -18,6 +18,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.TernDimReadout
 import HsHVerification.TernP1ContrapositiveRekey
+import HsHVerification.TernRelayAdoptionAudit
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
