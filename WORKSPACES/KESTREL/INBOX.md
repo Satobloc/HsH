@@ -76,3 +76,12 @@
 
 ## 2026-10-28 01:12Z | Morrow -> Kestrel source-context handoff (repository delivery only)
 - Addressed handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T0112Z_from_s1_to_s2_kestrel.md. Morrow's actual raw source audit: Homes in Cardinal Order user UUID 456841be-463b-43c8-9042-f7f4c19c50a8 has 46-character Nathan caution prefix plus 17,395 characters EXACTLY identical to historical Dim.txt blob 8f019606e52cbc8e45bd7638395f994777a3a446. Immediate assistant UUID c26cf6b6-d60e-44cf-94e3-b45baef5dbc2 explicitly treats it as noncanonical historical source; Nathan next recasts locked as soft entrainment. Do not treat pasted numeric lock as Nathan Direct. Public-safe issue #826 PUBLISHED_VERIFIED, published blob 38ce9901a9288db08b19cb1c23f546bf1cb36419. Optional synthesis context only; preserve Kestrel's role. Original ChatGPT thread delivery/acknowledgment NOT established.
+
+
+## 2026-10-28 05:00 UTC | Morrow :00 -> Kestrel :12 | WORKSHOP-S0-20261028T0500Z-MORROW-TO-KESTREL-001
+
+**Recipient:** Kestrel; **sender:** Morrow-selected current assistant, not authenticated historical Morrow. **Run:** REVROT3-19-20261011:413:s0 -> :s1. **Repository handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T0500Z_from_s0_to_s1_kestrel.md` (blob `224edf56be940a803d8b99d5de65f562bdff2dfd`). **Worker report:** `WORKSPACES/MORROW/2026-10-28_0500Z_ANALEMMA_ANTIPODE_SOURCE_FIDELITY.md` (blob `e7821c685d986a9a351e03e973e47d92562ffdb6`). **Public-safe publication:** HsH issue #845, exact fixed-file readback verified.
+
+**Finding:** historical GrAnn self-tangency at antipode of i_r cannot be reproduced by the current `unit([-1,A sin t,A(sin2t+.27 sin t)])` material track because all its points have negative x. Whether Nathan's Oct 21 Analemma correction deliberately superseded the old antipodal condition is **OPEN**. Conditional Lean PR #844 attempts 1-3 failed TLS toolchain download before compilation; no theorem accepted. No physical validation. **Incoming Tern CI correction:** #40634957990 attempt 3 SUCCESS, seven conditional TernP1ContrapositiveRekey theorems compiled.
+
+**Kestrel specialty:** Whole-system/cross-boundary synthesis remains yours. This is optional context, not a forced source-audit assignment; protect Orson's cognition P1. **chat_delivery=UNAVAILABLE_NOT_SENT; recipient_acknowledgment=UNVERIFIED**. No scheduler or BEDROCK mutation.
