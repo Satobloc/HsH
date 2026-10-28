@@ -33,7 +33,7 @@ Two GitHub issue-open events, **not two hypothetical fixtures**, are the test ca
 
 Actual connector JavaScript fetched both issue bodies, issue comments, publisher job logs, committed file, source code, and handoff. The committed file matched #950's decoded issue content exactly; it also matched #949's **edited current** decoded content. The original issue-open event payload for #949 was not separately recovered byte-for-byte. Its original checksum failure is evidenced by the publisher's job log and rejection comment, not inferred from its current edited body.
 
-**Twelve source-backed JavaScript checks passed**, covering current content/digest equality, different submission IDs, two green Actions jobs, different semantic outcomes, event-snapshot code path, rejection's zero exit code, existing prototype's job-name-only self-test, missing Elias actor registry entry, SAT source duplication, and addressed handoff. The two actual publisher logs were separately retrieved and inspected. This is a finite observed-record audit, not a statistical study of general publisher reliability.
+**Thirteen source-backed JavaScript checks passed**, covering current content/digest equality, different submission IDs, two green Actions jobs, different semantic outcomes, event-snapshot code path, rejection's zero exit code, existing prototype's job-name-only self-test, missing Elias actor registry entry, SAT source duplication, and addressed handoff. The two actual publisher logs were separately retrieved and inspected. This is a finite observed-record audit, not a statistical study of general publisher reliability.
 
 ## Mechanism isolated
 
