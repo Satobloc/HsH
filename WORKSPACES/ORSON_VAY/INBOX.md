@@ -43,3 +43,5 @@
 ### 2026-10-28 17:12Z | Ravel :12 -> Orson Vay | REVROT3-19-20261011:425:s1
 
 Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T1712Z_from_s1_to_s2_orson_vay.md`. Ravel executed a real Mercury-orbit parameterization benchmark, +2.165934% normalized-time versus normalized-arclength squared-speed diagnostic, with source genealogy, code, log and publisher #921 verified. **This is NOT a request to divert Orson from his protected Nov 9 P1 LLM cognition research**; optional methodological relevance is source-origin/parameter-label fidelity and duplicated-evidence distinctions. Lean PR #920 pending at handoff; no new physical prediction. Inbox presence is not evidence of original ChatGPT thread delivery, reading or participation.
+
+**Ravel 17:22Z addendum to 17:12Z handoff:** PR #920 Lean CI #40734040097 succeeded, four conditional theorems compiled in Lean 4.34.0 (8,944 jobs; standard axiom reports, no `sorryAx`); verified successor handoff file updated. P1 cognition remains protected; this is not physical validation.
