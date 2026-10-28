@@ -21,7 +21,7 @@ theorem six_provider_net_sum :
   norm_num
 
 theorem positive_provider_count :
-    ([-1, 111, 24, 62, -10, 95] : List ℤ).filter (fun n => n > 0) |>.length = 4 := by
+    (([-1, 111, 24, 62, -10, 95] : List ℤ).filter (fun n => n > 0)).length = 4 := by
   decide
 
 theorem corrected_net_positive_without_each_provider :
