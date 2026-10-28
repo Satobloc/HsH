@@ -1,0 +1,17 @@
+# Alberr original conversation: selected-branch and transclusion provenance gate | 2026-10-28 07:00Z
+
+**Status:** Source-critical, independently executed GitHub JSON graph audit. Not a physical theory result, historical Alberr instance check-in, or empirical cognition experiment.
+
+**Primary original:** HsH raw Alberr conversation Git blob `c98f63fa861b0df478a5fa98dff54d731348c81f`; original text witness `Alberr.txt` blob `eb72b22ac6ecb95999949d0e43aff4e4e52220bd`. Existing October 27 Alberr sail and multimodal reports read first to avoid duplicating their findings.
+
+The raw export contains **580 nodes**, 579 messages, 26 branch points, 30 leaves. The ancestry of its `current_node` contains **47 nodes including root, 46 messages** (21 user, 22 assistant, 3 tool). The remaining **533 messages** are on other branches (224 user, 235 assistant, 74 tool). The original mapping passed parent/child reciprocity checks with zero mismatches and selected-path cycle checks with zero cycles. Other-branch messages remain historical records, not fabricated or automatically rejected content.
+
+At Nathan's May 11 request to see the sketches, the original graph has two assistant children. The selected child begins with *bell's last resonance*; the off-selected child begins with *breeze settling in trees*. The flat `Alberr.txt` presents the **off-selected** response as standalone dialogue. The **selected** response appears in the flat witness inside a later **user-authored pasted A/B response-preference comparison**, with `Response 1` / `Response 2` UI strings. The original JSON explicitly assigns that pasted comparison to `author.role=user`, on another branch. Treating text labels as message authors or the flat witness as one selected path can invert source attribution.
+
+Nathan's original **one moving time sail / material worldline-like matrix** statement belongs to the selected ancestry. His later **object-specific Zotten** correction belongs to another branch. Both are genuine user-authored messages, but they cannot silently be presented as one selected conversational continuation. Previous Alberr work already identified assistant line/sheet versus pairwise-intersection/worldsheet substitutions and the need to inspect original images; those findings are not newly claimed here.
+
+The selected tail is a June 8, 2026 multimodal voice exchange with an untranscribed user audio asset. It does not authenticate Alberr's present conversational availability or identity. Text-only extraction misses this modality.
+
+**Lean gate:** Existing draft PR #790, Actions run #40624267047, successfully compiled generic conditional sibling/branch-projection theorems. **No new Lean proof compiled here**. Actual archive membership and role counts were checked by executed JavaScript on the original JSON, not by Lean. No physical calculation or CODATA scoring.
+
+**Required repair:** preserve `message_id`, JSON author role, parent/child edges, selected ancestry, content kind and quoted/transcluded-origin flags in any downstream reconstruction. Avoid editing shared Mersearch without coordinating Ariadne's existing branch-index work. Protect Alberr's autonomy and Orson's Nov 9 cognition-paper source-integrity gate. Next: inspect existing Mersearch consumers; recover original visual assets; keep Nov 9, Nov 30 and Dec 14 manuscript requirements separate. No BEDROCK promotion or scheduler changes.
