@@ -54,4 +54,22 @@ theorem new_discordance_requires_change {α : Type*}
 #print axioms observed_prompt_component_partition
 #print axioms new_discordance_requires_change
 
+
+-- Separate 2025 Nathan-authored Fundamental Intuitions Extension B and
+-- assistant-proposed derivative-dependent effective potential.
+-- For a source-form L = rho*Ft²/2 - tau*Fs²/2 - V(F,Ft,Fs),
+-- the Euler-Lagrange residual contains -∂t(V_Ft)-∂s(V_Fs).
+-- The historical abbreviated equation omits these terms.
+-- This theorem checks only the algebraic relationship of the residuals;
+-- it does NOT prove a variational theorem or a physical field equation.
+theorem derivative_dependent_potential_omission
+    (inertial tension spatialPotential timeDerivative spatialDerivative : ℝ)
+    (hfull :
+      inertial - tension - timeDerivative - spatialDerivative + spatialPotential = 0) :
+    (inertial - tension + spatialPotential = 0 ↔
+      timeDerivative + spatialDerivative = 0) := by
+  constructor <;> intro h <;> linarith
+
+#print axioms derivative_dependent_potential_omission
+
 end HsHVerification.SableCGDStageProjection
