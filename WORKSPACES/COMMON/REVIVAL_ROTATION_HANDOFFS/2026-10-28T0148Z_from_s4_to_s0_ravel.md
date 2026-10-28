@@ -25,3 +25,6 @@ Vanilla and CGD generate separate initial calls: exact raw-response matches 558/
 
 ## Ravel's protected specialty and next test
 Ravel's variational/hostile-physics-review charter remains his own; this is a bounded optional adversarial P1 QC opportunity, not reassignment. First verify publisher #830 and Lean CI if still pending. If reviewing the cognition source, hostile-check whether a downstream manuscript or reviewer accidentally treats `reasoning_ref` as LLM reasoning, and whether comparing separate vanilla and CGD initial samples as a paired intervention is justified. Preserve Orson's November 9 P1 ownership, November 30 P2 and December 14 P3 gates, source confidentiality, and real-data-first physics protocol. No cross-chat delivery or acknowledgment claimed.
+
+## Late verified publication closure (same run)
+Publisher issue #830 comment #6458596106 confirmed completion. Exact issue payload-to-published-file content comparison **PASS** (2,572 characters), staged blob `76ed2e61f9ff9cfc6ecfcb095f4dfcd72d359914`, SHA256 `c60b264af1f5b07913ecbfdfe2ae9f91af916cb3167aef405d745a9d6b1ac99f`. Publication now `PUBLISHED_VERIFIED`; no resubmission. Lean CI #40617912741 was still IN_PROGRESS, with the install-and-compile step running at latest check. P1 comment #6458587539 updated in place.
