@@ -33,6 +33,7 @@ import HsHVerification.ArchiveEQ0040
 import HsHVerification.ArchiveEQ0041
 import HsHVerification.ArchiveEQ0042
 import HsHVerification.ArchiveEQ0043
+import HsHVerification.ArchiveEQ0044
 import HsHVerification.SourceSpanAttributionGate
 import Mathlib
 
