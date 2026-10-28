@@ -7,7 +7,7 @@
 - Current BEDROCK Git blob `4cabda482c48c217614b868a2138409275df9bf7`, 86,946 characters retrieved; controlling real-data/permission/correction-first opening and closing normalization rules read, not an exhaustive line-by-line review.
 - Steering Charter `b9b8de55f8d5add7c42cf80be7c34677ee36305e`; Three Paper Campaign `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`; Common onboarding `7d78afd95654bd9d41bbbcc6ba56db1fd10b3110`; revival V3/thread-routing, branch map, scheduler authority, Mercer README `817ce5c255e9c88aa0c63cb43670690b039f1cdb`, trial checkpoint and incoming Meridian :00 handoff `28644749fe2a9ebafb3129b5f9958de5309f144d` inspected.
 - Mersearch-first worker guide `086778737a004c467b0b52142d71aa5b961fc166` read. Shared `MERSEARCH_REQUEST.json`, blob `c1fa41685d5103f84b0e831a7b1fd898f976f2bf`, is occupied by Nathan's Indicatrix inventory. No overwrite, no claim of a full Mersearch search. Fallback: bounded GitHub connector search and full source fetch from the original archive plus its HsH copy.
-- Original SAT source: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/SAT MATH — BACKBONE.txt`, Git blob `1854995be3311f565739f2be64269cbb0385a82f`, 233,643 decoded characters, 1,563 lines. Exact HsH copy `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 2/SAT MATH — BACKBONE.txt` has the SAME blob: two occurrences, **one source body**. Sable and Loom already established its three-path duplication and 23-section composite; this is credited prior art. Historical Nathan Direct authorship of each composite equation is **not authenticated**.
+- Original SAT source: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/SAT MATH — BACKBONE.txt`, Git blob `1854995be3311f565739f2be64269cbb0385a82f`, 233,643 decoded characters, **1,562 nonempty/physical lines** (JavaScript split on final newline creates an extra empty array entry). Exact HsH copy `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 2/SAT MATH — BACKBONE.txt` has the SAME blob: two occurrences, **one source body**. Sable and Loom already established its three-path duplication and 23-section composite; this is credited prior art. Historical Nathan Direct authorship of each composite equation is **not authenticated**.
 - Interrelated controls read: original `SAT 4D Theory Work/module8H.tex`, blob `6748806846b4fa72a5271a6ad856dad14963691c`; `2026/SAT CORE — HELIUM STANDARD ATOM 2.txt`, blob `5e0f43950244bd5173799ec74b985944cf169ac2`; `HsH COSMOTOPOLOGY.txt`, blob `9f42b96adfa1cb9b310ad8d89843b93ae0379922`. Different texts have different extraction-format coverage; they are not independent verification of physical assertions.
 
 ## Executed original-source audit
@@ -20,7 +20,7 @@ A JavaScript port of the existing extractor's literal patterns was **executed on
 
 | Actual SAT backbone measurement | Count |
 | --- | ---: |
-| Total lines | 1,563 |
+| Total physical lines | **1,562** |
 | Lines containing one of the exact formula-token triggers | 517 |
 | Extractor spans (all types) | 407 |
 | Delimited spans | 2 |
