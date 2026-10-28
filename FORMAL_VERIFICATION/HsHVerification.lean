@@ -17,6 +17,7 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.TernRotationFairness
 import HsHVerification.SableFiveSlotRing
+import HsHVerification.SablePhaseEvidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
