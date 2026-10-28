@@ -23,6 +23,8 @@ import HsHVerification.NadirE989ClosureProjection
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.NadirModule8HBK18Gate
+import HsHVerification.NadirTangProjectionData
+import HsHVerification.NadirTangProjectionGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
