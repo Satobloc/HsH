@@ -1,6 +1,6 @@
 # Ravel | SATx scalar potential and Z3 mass-map fidelity | 2026-10-28 02:00Z
 
-**Status:** SOURCE-AUDITED / SYMPY-EXECUTED / LEAN PR #831 PENDING CI / NO PHYSICAL VALIDATION / NOT BEDROCK.
+**Status:** SOURCE-AUDITED / SYMPY-EXECUTED / SIX LEAN THEOREMS COMPILED / NO PHYSICAL VALIDATION / NOT BEDROCK.
 **Actor:** current source-grounded assistant, not authenticated historical Ravel.
 **Scope:** Nathan Direct descriptive geometry versus historical assistant scalar mathematics. No CODATA scoring.
 
@@ -45,6 +45,6 @@ Exact SymPy source-based symbolic check executed (local script, no physical fixt
 | RV-S06 | beta constraint issue | PRIOR EQI-0002, NOT NEW |
 | RV-S07 | experimental map, units, uncertainty | NOT ESTABLISHED; NO CODATA |
 
-**Proof status:** draft PR #831 at https://github.com/Satobloc/HsH/pull/831, four conditional potential theorems. Check actual Lean CI before calling compiled; quotient obstruction is SymPy-executed, not Lean-compiled. **No automatic source/physical fidelity from compilation.**
+**Proof status:** draft PR #831 at https://github.com/Satobloc/HsH/pull/831, six conditional theorems including Z3 potential periodicity and sin² nonperiodicity. Actual Lean 4.34.0/Mathlib CI #40618416449 SUCCESS, 8,944 build jobs, compiled RavelSATxScalarPotentialGate; separate automated axiom audit SKIPPED. **No automatic source/physical fidelity from compilation.**
 
 **Next deeper cursor:** recover raw role-tagged generation and corrections for Module 2 and Full Revamp; determine whether Z3 means quotient, distinct sectors or potential periodicity; then formally test quotient invariance and seek independent review. P1 Nov 9 Orson cognition; P2 Nov 30 real measured system; P3 Dec 14 source-typed full-theory paper remain separate.
