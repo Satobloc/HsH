@@ -30,3 +30,8 @@ Using conventional first-order LOD-to-rate correction `omega=omega_WGS84*86400/(
 - `kE_LOD=3.773631136033401e-19 ± 5.5906e-29 m^-1` (formal LOD sigma ONLY; no geodetic model or covariance error).
 - `kE_LOD-kE_nominal=-7.959566329892420e-27 m^-1`, 4381.74 times the Euclidean/Lorentzian scalar curvature gap; formal sigma about 30.78 times that gap. Not a detection, nor an experimental test of either metric.
 - Full source-pinned replay: local `/mnt/data/workshop_20261028_0912Z_meridian/earth_rotation_gate.py` actually executed, with assertions. This is an actual measured-system anchor with source/date/units/uncertainty. The SAT/H(s)H-specific physical readout still lacks an independent prediction and observation.
+
+
+## Formal and publisher closure (post-initial receipt)
+Actual first Lean CI #40663313127 job #122731463127 **FAILED** at Lean 4.34.0 because `def kEuclid` and `def kLorentz` depended on noncomputable `Real.instDivInvMonoid`. Five theorem bodies were elaborated and their axiom reports emitted, but **the library build failed**, so no compiled-proof success claimed for this run. Warnings on redundant tactics are nonfatal. Source repaired with `noncomputable def` in commit `48f560b951cdcc3188d03f7f36e415180d59461e`; second CI #40663826208 started, outcome to be checked.
+Issue publisher #876 **PUBLISHED_VERIFIED**: committed document blob `5d8472a7d08f062e269dd505c7fcb5d39df2af78`, publisher commit `9e86f5a1e9e3fa62d1deb4815fc140583aaef6e2`, exact equality of submitted issue content and committed Markdown verified, SHA256 `8c4f5650849035871267b1216926a5a4eff4ad638dfabd67b2cdc15260f5d6be`. Publisher comment #6465297871 read back. This publication is a research note, not a reviewed paper.
