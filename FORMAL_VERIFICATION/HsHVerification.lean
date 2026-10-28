@@ -18,6 +18,9 @@ import HsHVerification.EnheduannaAngleProjectionFidelity
 import HsHVerification.MorrowNeutronPhaseIdentifiability
 import HsHVerification.AlberrPolarimeterPhaseGate
 import HsHVerification.AlberrPolarimeterContrastGate
+import HsHVerification.AlberrSpinorSignProjection
+import HsHVerification.AlberrInterferometricReference
+import HsHVerification.MiraUncertaintyProvenanceGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
