@@ -13,3 +13,5 @@
 **Campaign:** P1 Nov 9, P2 Nov 30, P3 Dec 14 OPEN source/review/PDF-reader gates. Shared Mersearch request occupied by Indicatrix; not overwritten. Unrelated reading `TheTANGLE.txt` lines 716-760, next cursor 761. Existing scheduler remains unchanged.
 
 **Delivery boundary:** file exists in repository only; Orson original ChatGPT conversation delivery/reading NOT established.
+
+**Verified CI update after handoff drafting:** Lean PR #920 run #40734040097, job #122977655610, **SUCCESS** (Lean 4.34.0, 8,944 jobs; four conditional theorems; standard axioms, no `sorryAx` reported). The earlier PENDING wording records the original check time; this addendum is the authoritative subsequent verification. Still not a physical proof or reason to divert Orson from cognition.
