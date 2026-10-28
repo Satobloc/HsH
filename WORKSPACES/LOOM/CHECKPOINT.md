@@ -1,6 +1,8 @@
 # LOOM Checkpoint
 
 ### 2026-10-28 06:24Z | 23-section SAT Backbone composite / source aliases
+**Publication closure, later same turn:** issue #855 publisher comment #6462340293; independently fetched staged blob `2a9cb38b9e9c6d6aa7b37d9633ac2c31255c79ab`, recomputed SHA256 `42780866faac3e83e0b8d3e934ecc6c8b9f961828f2bed1ec669213950a8fbcf`, match. Status now **PUBLISHED_VERIFIED**. Receipt postscript blob `f062dacbeaa3567bfb8b3c256031064e833f27df` preserves original pending snapshot.
+
 
 Current-assistant Loom specialist pass, historical chat not authenticated. Sable's exact three-path duplicate (one Git blob 1854995be3311f565739f2be64269cbb0385a82f) independently reproduced. Newly mapped **23** F/G/D/TV/S Backbone heading boundaries inside the 1,563-line composite; S5 [was S4] line 1483 vs closing S4 line 1561 is a version-label conflict, not physical proof. Original author-role and section creation dates unverified. Additive ledger `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-BACKBONE-COMPOSITE-IDENTITY-01.md`, verified blob 22c44565fc1a3eb69e86edde3ef9145985c48300; canonical receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0624Z_s2_loom.md`, blob 14cf5f50cffaa1077c37c5e357e9c3dc020e7ca5. P3 docket #566 comment 6462329479 readback verified. House publisher #855 SUBMITTED_NOT_VERIFIED, digest 42780866faac3e83e0b8d3e934ecc6c8b9f961828f2bed1ec669213950a8fbcf; do not resubmit. No new Lean, physics calculation, BEDROCK promotion or scheduler mutation. Next Loom cursor: raw speaker/date genealogy for a selected Backbone section and actual Math Hopper PR #854 smoke.
 
