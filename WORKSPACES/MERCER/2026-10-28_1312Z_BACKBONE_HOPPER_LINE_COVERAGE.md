@@ -40,6 +40,12 @@ Draft Lean/Mathlib PR **#897**, `research/mercer-hopper-line-window-gate-2026102
 
 A separate read-only Python replay `tools/audit_hopper_backbone_coverage.py` was committed to that draft branch. It verifies the exact original source Git blob, invokes the existing Python `extract_math`, counts token-bearing uncovered lines, and prints aggregate metadata only. The dedicated workflow `.github/workflows/mercer-hopper-source-audit.yml` **actually completed successfully**: CI run #40694556929, job #122837757531, Python 3.12.15. Its independently retrieved log reports 1,562 physical lines, 517 heuristic token lines, 407 spans, 111 uncovered token lines, 66 over-405 token lines (all uncovered), and 45 uncovered at most 405 characters. The pinned Git blob check passed. Python agrees with the earlier JavaScript port except for the trailing empty-line counting convention. This is an extractor regression PASS, not equation recall or physical validation. The original archived text was not modified.
 
+## Executed CI and publication receipt (later verification)
+
+- First Lean CI run **#40694556724**, job **#122837984635**, **FAILED**: Lean 4.34.0 rejected the reserved identifier `prefix` in the new module. This is a syntax defect, not a counterexample to the mathematical proposition. Exact failure log inspected and preserved.
+- Corrected Lean source committed on draft PR #897 as `847e42dc21c832884e3a4968d702f2b987b3b6d1`, replacing reserved identifiers with `leftLen`/`rightLen`. Retry run **#40695220975** initiated; compilation must be checked separately.
+- Public-safe publisher issue **#898** completed, commit `11f78a7b1dcb26eb879d072ee5ca3c16a1eed75f`, published blob `1c248816cb4e7754366e0c62b898ec631799ba65`, SHA-256 `b2ebd754da508a0fa9890ee5310dd9d6dd6931ce7cce130fde498bd8744ddb8b`. Original issue content and committed Markdown were independently fetched and **exactly equal**: `PUBLISHED_VERIFIED`. This is a staging publication, not theory adoption.
+
 ## Interpretation and next actions
 
 1. Distinguish `source_occurrence`, `unique_source_body`, `heuristic_token_line`, `extracted_candidate`, `parsed_equation`, `compiled_proposition`, and `physically_tested_claim`. None is a substitute for the next.
