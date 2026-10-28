@@ -122,4 +122,53 @@ theorem observed_all_branch_exposure_overstates_selected :
 #print axioms offpath_images_make_all_branch_exposure_larger
 #print axioms observed_all_branch_exposure_overstates_selected
 
+
+/-!
+## 2026-10-28 :12 source-graph pointer/depth counterexample
+Original raw export Git blob c98f63fa861b0df478a5fa98dff54d731348c81f.
+Actual source-graph traversal (not invented physics): current_node points
+to a 46-nonroot-node ancestry with 2 image parts; the longest recorded
+leaf has 491 nonroot nodes and 56 image parts. Both share the first
+44 nodes (root included), then diverge at an assistant alternative.
+The current pointer's terminal timestamp is LATER than the long leaf's.
+These are transcribed metadata, not facts independently proven by Lean.
+-/
+
+structure RecordedBranch where
+  depth : Nat
+  imageParts : Nat
+  userImageParts : Nat
+  leafEpochSeconds : Nat
+  deriving DecidableEq, Repr
+
+def currentPointerBranch : RecordedBranch :=
+  { depth := 46, imageParts := 2, userImageParts := 2,
+    leafEpochSeconds := 1780878863 }
+
+def longestRecordedBranch : RecordedBranch :=
+  { depth := 491, imageParts := 56, userImageParts := 50,
+    leafEpochSeconds := 1780876619 }
+
+theorem observed_current_pointer_not_deepest :
+    currentPointerBranch.depth < longestRecordedBranch.depth := by
+  norm_num [currentPointerBranch, longestRecordedBranch]
+
+theorem observed_longer_branch_more_images :
+    currentPointerBranch.imageParts < longestRecordedBranch.imageParts := by
+  norm_num [currentPointerBranch, longestRecordedBranch]
+
+theorem observed_later_leaf_not_longer :
+    longestRecordedBranch.leafEpochSeconds < currentPointerBranch.leafEpochSeconds ∧
+    currentPointerBranch.depth < longestRecordedBranch.depth := by
+  constructor <;> norm_num [currentPointerBranch, longestRecordedBranch]
+
+theorem observed_long_branch_contains_more_user_images :
+    currentPointerBranch.userImageParts < longestRecordedBranch.userImageParts := by
+  norm_num [currentPointerBranch, longestRecordedBranch]
+
+#print axioms observed_current_pointer_not_deepest
+#print axioms observed_longer_branch_more_images
+#print axioms observed_later_leaf_not_longer
+#print axioms observed_long_branch_contains_more_user_images
+
 end HsHVerification.AlberrMultimodalSource
