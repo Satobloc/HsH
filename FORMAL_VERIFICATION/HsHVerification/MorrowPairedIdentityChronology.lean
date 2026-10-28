@@ -70,4 +70,47 @@ theorem distinct_exported_reply_roles :
 #print axioms aldus_prompt_precedes_morrow_followup
 #print axioms distinct_exported_reply_roles
 
+
+/-!
+## Source-conditional strict mirror-pair timestamp audit (2026-10-28)
+
+The original Morrow 44-node and Aldus 28-node branches were aligned by
+LCS on EXACT serialized (author.role, message.content) records. This
+strict equality criterion yields 16 aligned records: one user prompt
+and 15 assistant/tool records. It is narrower than the historical
+23-record normalized-content comparison, which includes thought records.
+The following values are rounded signed milliseconds:
+Aldus create_time minus Morrow create_time, in strict-pair order,
+excluding the user prompt. Source blobs are pinned above.
+
+A positive difference means Aldus's export timestamp is later;
+negative means Aldus's is earlier. Neither sign authenticates the
+backend generator, physical clock synchronization, or external side
+effects. Do not count mirrored records as independent model trials.
+-/
+def strictMirroredDeltasMs : List Int :=
+  [39296, 24361, 24367, 12, 301, 7, -38, -39,
+   -18, 231, 16, -38, -48, 191, 188]
+
+theorem strict_mirror_has_fifteen_nonuser_pairs :
+    strictMirroredDeltasMs.length = 15 := by
+  decide
+
+theorem strict_mirror_has_five_negative_deltas :
+    (strictMirroredDeltasMs.filter (fun d => decide (d < 0))).length = 5 := by
+  decide
+
+theorem strict_mirror_has_twelve_subhalfsecond_deltas :
+    (strictMirroredDeltasMs.filter (fun d => decide (-500 < d ∧ d < 500))).length = 12 := by
+  decide
+
+theorem strict_mirror_has_eight_subtenthsecond_deltas :
+    (strictMirroredDeltasMs.filter (fun d => decide (-100 < d ∧ d < 100))).length = 8 := by
+  decide
+
+#print axioms strict_mirror_has_fifteen_nonuser_pairs
+#print axioms strict_mirror_has_five_negative_deltas
+#print axioms strict_mirror_has_twelve_subhalfsecond_deltas
+#print axioms strict_mirror_has_eight_subtenthsecond_deltas
+
 end HsHVerification.MorrowPairedIdentityChronology
