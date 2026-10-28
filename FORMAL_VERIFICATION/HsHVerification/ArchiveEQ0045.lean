@@ -90,7 +90,6 @@ theorem phase_lock_alone_cannot_close_witness
     (PhaseLocked : Phase → Prop)
     (TopologicallyAdmissible : Topology → Prop)
     (witness : BindingState Phase Topology)
-    (hphase : PhaseLockedState PhaseLocked witness)
     (htopology : ¬ TopologicallyAdmissibleState
       TopologicallyAdmissible witness) :
     ¬ StableBinding PhaseLocked TopologicallyAdmissible witness := by
@@ -117,15 +116,15 @@ theorem archive_equation_does_not_close_topology_gate
     {Topology : Type*}
     (TopologicallyAdmissible : Topology → Prop)
     (phi_i phi_j : ℝ) (k n : ℤ) (topology : Topology)
-    (hphase : ArchivePhaseEquation phi_i phi_j k n)
     (htopology : ¬ TopologicallyAdmissible topology) :
-    ¬ StableBinding
-      (fun phase : ℝ × ℝ × ℤ × ℤ =>
-        ArchivePhaseEquation phase.1 phase.2.1 phase.2.2.1 phase.2.2.2)
-      TopologicallyAdmissible
-      ⟨(phi_i, phi_j, k, n), topology⟩ := by
-  intro hstable
-  exact htopology hstable.2
+    ¬ (ArchivePhaseEquation phi_i phi_j k n ∧
+      StableBinding
+        (fun phase : ℝ × ℝ × ℤ × ℤ =>
+          ArchivePhaseEquation phase.1 phase.2.1 phase.2.2.1 phase.2.2.2)
+        TopologicallyAdmissible
+        ⟨(phi_i, phi_j, k, n), topology⟩) := by
+  intro hgate
+  exact htopology hgate.2.2
 
 #print axioms phase_lock_is_necessary_for_encoded_stability
 #print axioms topology_is_necessary_for_encoded_stability
