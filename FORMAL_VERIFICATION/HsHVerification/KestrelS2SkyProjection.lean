@@ -47,7 +47,7 @@ theorem common_angular_scale_cancels
     peri (scale * a) e / (scale * diameter) = peri a e / diameter := by
   unfold peri
   field_simp [hd, hs]
-  ring
+  all_goals ring
 
 /-- The orbital-to-ring and ring-to-gravitational-scale ratios compose.
     This is an algebraic readout contract, not a model prediction. -/
@@ -62,7 +62,7 @@ theorem diameter_radius_factor_two
     (r diameter : ℝ) (hd : diameter ≠ 0) :
     r / (diameter / 2) = 2 * (r / diameter) := by
   field_simp [hd]
-  ring
+  all_goals ring
 
 #print axioms projection_sq_identity
 #print axioms projected_radius_bound
