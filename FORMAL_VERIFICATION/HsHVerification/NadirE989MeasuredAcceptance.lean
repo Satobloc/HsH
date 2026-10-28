@@ -5,7 +5,7 @@ Nadir E989 measured-input interval gate, 2026-10-28.
 Physical inputs, encoded as exact reported decimal rationals:
 Aguillard et al. PRL 135 101802 (2025), Fermilab a_mu;
 NIST CODATA 2022 muon rest energy; Reimann ICHEP2022 E989
-nominal momentum and +/-0.5% design momentum acceptance.
+nominal momentum and plus-or-minus 0.5% design momentum acceptance.
 
 The rational arithmetic below is exact conditional mathematics. The
 experimental decimals have uncertainties; no claim of exact physical
