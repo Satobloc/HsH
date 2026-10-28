@@ -41,4 +41,23 @@ theorem printed_potential_opposite (μ θ : ℝ) :
     inferredPotential μ θ = -(-(μ ^ 2 * Real.cos (3 * θ))) := by
   simp [inferredPotential]
 
+
+/-- The threefold cosine potential respects a shift of 2*pi/3. -/
+theorem inferred_potential_z3_periodic (μ θ : ℝ) :
+    inferredPotential μ (θ + 2 * Real.pi / 3) = inferredPotential μ θ := by
+  have h : (3 : ℝ) * (θ + 2 * Real.pi / 3) = 3 * θ + 2 * Real.pi := by ring
+  simp [inferredPotential, h, Real.cos_add_two_pi]
+
+/-- The assistant's mass shape sin²(theta) is NOT well-defined on the
+    claimed theta ~ theta + 2*pi/3 quotient, even at the aligned state.
+    This proves only a statement about the printed functions. -/
+theorem mass_shape_not_z3_periodic :
+    (Real.sin (0 : ℝ)) ^ 2 ≠ (Real.sin (2 * Real.pi / 3)) ^ 2 := by
+  have hpos : 0 < (2 * Real.pi / 3 : ℝ) := by positivity
+  have hlt : (2 * Real.pi / 3 : ℝ) < Real.pi := by nlinarith [Real.pi_pos]
+  have hs : 0 < Real.sin (2 * Real.pi / 3) :=
+    Real.sin_pos_of_pos_of_lt_pi hpos hlt
+  have hsq : 0 < (Real.sin (2 * Real.pi / 3)) ^ 2 := pow_pos hs 2
+  simpa using (ne_of_lt hsq)
+
 end HsHVerification.RavelSATxScalarPotentialGate
