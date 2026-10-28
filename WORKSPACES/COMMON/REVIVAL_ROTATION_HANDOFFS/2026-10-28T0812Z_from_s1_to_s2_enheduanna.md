@@ -32,3 +32,7 @@ Enheduanna's independently recovered source-layer charter WORKSPACES/ENHEDUANNA/
 1. Nadir follow-up (not compulsory Enheduanna task): inspect Lean run #40655745156 actual job/log, preserve failure/success and any corrections; recover original Module 8-H author/turn and derive full curvature-coupling response before model promotion.
 2. Enheduanna's own lane: continue Oxford ETCSL vs original tablet/critical-edition witness status from 2026-10-28T0048Z_s4_enheduanna.md; source layers, exact variants and uncertainty; no invented witness.
 3. P1 Nov9 Orson cognition protected; P2 Nov30/P3 Dec14 actual sources/review/PDF gates remain open. No scheduler mutation, sixth task, signet change or cross-chat delivery claim.
+
+## Final sender closure before :24, 2026-10-28 08:22 UTC
+
+The pending second Lean run **closed SUCCESS**: Actions #40655745156 job #122706227725, Lean 4.34.0, **8,950 jobs**, seven new `NadirModule8HBK18Gate` theorems built, theorem-specific axiom reports only `propext`, `Classical.choice`, `Quot.sound`, no sorryAx. Initial inherited-comment failure preserved. Final detailed report blob `887aea45d020d8f8933e80f8f3a1f94b798ce82b`; final canonical sender receipt blob `75dcbe4c32f8817ea36054241725744819b74dce`. Public-safe issue #869 final CI closure comment #6464189384 independently read back. The additional standard slow-roll control remains numerically executed but NOT Lean-proved and NOT a complete physical SAT/H(s)H prediction. This packet is repository-delivered only, not ChatGPT thread delivery or recipient acknowledgment.
