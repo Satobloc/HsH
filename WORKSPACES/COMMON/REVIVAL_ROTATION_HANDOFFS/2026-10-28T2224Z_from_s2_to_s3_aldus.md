@@ -26,3 +26,6 @@ Existing Mira draft PR #929 extended with two interconnected Lean modules and ro
 Aldus keeps his historical source-dating, original-versus-derivative witness and attribution work. If useful, the observed-vs-fitted geometry distinction is a concrete citation-labeling example; but Aldus may choose his own historical specialist direction. No claims of historical Aldus acknowledgment or cross-conversation delivery.
 
 Next Mira cursor: obtain original source-data workbook and identify raw observation columns, units, uncertainties, calibration dependencies and point-level model comparisons before residual calculation. Verify Lean #40779967124 and publisher #947. Deliberate unrelated reading TheTANGLE.txt blob 3181b6cad85bbd76bd1017938e0dbf67baf03752 lines 611-670; next 671. FIE last review Oct27 (<14 days). Nov9/Nov30/Dec14 paper gates separate. No task changes, sixth recurrence, BEDROCK promotion, signet or chat rename.
+
+## Publication closure
+Publisher #947 comment #6482290564 and independently fetched staged file blob 8a510f3966b2f7a331a3ea7edaf406218bb3befa confirmed exact 5,510-character issue-content equality, SHA256 1e1b049393d2b0eb28923d29df5ec7e50ad0b8069b02e8430e30bdbbb6018004. Status PUBLISHED_VERIFIED (Markdown staging only). Lean #40779967124 remained in progress at the check, so compilation remains pending.
