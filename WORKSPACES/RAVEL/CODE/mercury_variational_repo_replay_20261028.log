@@ -1,0 +1,4 @@
+JPL perimeter m, J_time m^2, J_arc m^2, ratio, vp/va km/s: (np.float64(359976854550.08704), 1.3239002538601686e+23, np.float64(1.2958333581177452e+23), np.float64(1.0216593403515957), 58.97697999841561, 38.8584917735904)
+NASA rounded-input consistency: (np.float64(359976812253.21924), 1.3238898956560297e+23, np.float64(1.2958330535998945e+23), np.float64(1.0216515869680833), 58.97453674163081, 38.859797600822425)
+JPL percentage gap: 2.165934035159567
+PASS: quadrature; NASA reported rounded speeds; nonzero parameter gap
