@@ -16,8 +16,8 @@ BEDROCK_promotion: NONE
 physical_calculation: NONE
 
 ## Actual completed Tern work
-- Tern canonical receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0448Z_s4_tern_rook.md, Git blob 466e4136040242a6ed533ebdb734db20e6bf61cf, exact 5849-char readback PASS.
-- Tern report WORKSPACES/TERN/2026-10-28_0448Z_P1_CONTRAPOSITIVE_Q2_REKEY_SENSITIVITY.md, blob db54cfa83b78e43956f57a0ae7414d86bc2d9795, exact readback PASS.
+- Tern canonical receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0448Z_s4_tern_rook.md, Git blob c0c32908611ca4f76f703ef478cbbf89351f4b9d, exact 5849-char readback PASS.
+- Tern report WORKSPACES/TERN/2026-10-28_0448Z_P1_CONTRAPOSITIVE_Q2_REKEY_SENSITIVITY.md, blob dcf2b559e6cc6887ed7840f12a55bbd156f0191e, exact readback PASS.
 - Reproducer WORKSPACES/TERN/CODE/2026_10_28_p1_temperature_rekey_sensitivity.py, blob 413e9b48a7036367f4a59e87791d9e0f7b234d7, exact readback PASS; full Python source replay NOT run locally. Actual 34-file source calculations were executed through connected GitHub JS, using Orson original manifest and normalization, not new model API trials.
 - Existing source-key issue #809 addendum https://github.com/Satobloc/HsH/issues/809#issuecomment-6461027874 and Orson P1 issue #564 https://github.com/Satobloc/HsH/issues/564#issuecomment-6461030212, both independently read back exact.
 - Five already-known temperature contrapositive Q2 source keys YES contradict the implication's <=30 C contraposition. New conditional sensitivity across 17 matched model labels: negation-Q3 corrected all-correct vanilla/CGD 933/1214 (+281); strict five-Q2 NO policy 952/1231 (+279); permissive NO/CANNOT_DETERMINE 956/1239 (+283). Alternative keys UNADJUDICATED. No independent cognition/causal or physical claim.
