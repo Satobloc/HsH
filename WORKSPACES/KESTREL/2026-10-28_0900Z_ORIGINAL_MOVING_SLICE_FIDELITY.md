@@ -40,3 +40,7 @@ Same historical source `RMS SAT.txt`, characters 20,200–39,000 additionally in
 ## Publication closure
 
 Publisher #874 completed; committed file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-original-moving-slice-20261028t09z-s0-001.md` Git blob `49274b1674f59f75b926e2dd6898dd22ae79b820`, publisher commit `c9850e414dbbe23bbecb2781e04c6f1041e0ab84`, SHA256 `f70b53c64959d07e89dddf816b7521e6c37827d41a986c83f2793de0e48b50af`. Independent fetch exactly matched the issue's submitted JSON content, 3,666 characters. `PUBLISHED_VERIFIED`. The later K09-08 hierarchy addendum lives in this worker report, not the immutable publisher packet.
+
+## Lean CI closure
+
+New-head Actions #40661145868 / job #122724186928 **COMPLETED SUCCESS** (Lean 4.34.0, Mathlib, 8,944 build jobs). `HsHVerification.KestrelMovingSlice` and root library built; all three conditional theorem-specific `#print axioms` reports show `[propext, Classical.choice, Quot.sound]`, no `sorryAx`. Separate automated `axiom-audit` SKIPPED. Verified directly from actual job logs. This checks formalized algebra only, not the original source's physical interpretation or measured reality. Draft PR #873 remains unmerged, independent review pending.
