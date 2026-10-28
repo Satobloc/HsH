@@ -37,9 +37,9 @@ theorem reverse_inclusion_requires_injectivity
 
 /-- A later readout cannot recover an identification already lost upstream. -/
 theorem upstream_noninjectivity_survives_readout
-    (section : A → B) (readout : B → C)
-    (h : ¬ Function.Injective section) :
-    ¬ Function.Injective (readout ∘ section) := by
+    (sliceMap : A → B) (readout : B → C)
+    (h : ¬ Function.Injective sliceMap) :
+    ¬ Function.Injective (readout ∘ sliceMap) := by
   intro hcomposed
   apply h
   intro x y hxy
@@ -48,10 +48,10 @@ theorem upstream_noninjectivity_survives_readout
 
 /-- Two injective maps compose to an injective readout. -/
 theorem composed_injectivity_requires_both_maps
-    (section : A → B) (readout : B → C)
-    (hs : Function.Injective section)
+    (sliceMap : A → B) (readout : B → C)
+    (hs : Function.Injective sliceMap)
     (hr : Function.Injective readout) :
-    Function.Injective (readout ∘ section) :=
+    Function.Injective (readout ∘ sliceMap) :=
   hr.comp hs
 
 #print axioms inclusion_survives_forward_map
