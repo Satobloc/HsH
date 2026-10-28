@@ -59,7 +59,7 @@ Across 17 x 295 = 5015 matched model-by-set positions: **226 vanilla-only passes
 
 ## Formal verification and epistemic limits
 
-Existing draft Tern PR #824 branch `research/tern-dim-provenance-signloss-20261028t01z` received `FORMAL_VERIFICATION/HsHVerification/TernP1ContrapositiveRekey.lean` and root import at head `ee9db98ba50c25702f47d8aeb2b50393973da18d`. Seven conditional Lean targets include the general gain-shift identity and source-transcribed partitions/score changes. **Compilation status must be read from new-head Actions #40634957990; do not infer success from source existence.** A successful proof would establish only the encoded algebra, not source correctness, independent semantic adjudication, trial independence or causality. No physical calculation, empirical H(s)H prediction or BEDROCK promotion occurred.
+Existing draft Tern PR #824 branch `research/tern-dim-provenance-signloss-20261028t01z` received `FORMAL_VERIFICATION/HsHVerification/TernP1ContrapositiveRekey.lean` and root import at head `ee9db98ba50c25702f47d8aeb2b50393973da18d`. Seven conditional Lean targets include the general gain-shift identity and source-transcribed partitions/score changes. **Compilation: BLOCKED_ENVIRONMENT.** New-head Actions #40634957990 failed twice *before* Lean compilation while downloading Lean 4.34.0, with SSL/TLS connection errors. Both job logs were inspected. No theorem-level failure or success has been observed; retry after download service recovers. A successful proof would establish only the encoded algebra, not source correctness, independent semantic adjudication, trial independence or causality. No physical calculation, empirical H(s)H prediction or BEDROCK promotion occurred.
 
 ## P1 gate and next cursor
 
