@@ -22,3 +22,7 @@ The failing tactic `decide` was replaced with `simp [incompatible, openingQuark,
 - Same draft PR #937; **new corrected-head compilation PENDING until actual CI log is inspected**.
 
 This repair is to proof elaboration, not a change to the archival claims or an empirical result. Conditional source-translation proof is not a particle-physics derivation. Preserve first-failure CI log as negative evidence.
+
+## House publication closure
+
+Issue [#938](https://github.com/Satobloc/HsH/issues/938), submission `morrow-orders-q-source-fidelity-20261028t2012z-s1-001`: exact JSON `content` versus committed file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-orders-q-source-fidelity-20261028t2012z-s1-001.md` equality independently verified. Published Git blob `352aa353933b1a720e94603769eb09d3093b8617`, 2,453 characters. **PUBLISHED_VERIFIED**. This does not prove Lean, source authorship, or physical theory. Mira #930 still PENDING.
