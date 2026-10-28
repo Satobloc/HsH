@@ -20,4 +20,4 @@ Direct Oxford edition check verifies 302 rubric 7 after eight numbered lines 294
 ## Recipient remit
 Tern retains the Comptroller, workflow integrity, real evidence and systems governance specialty. Do **not** force Enheduanna's ancient-text inquiry into Tern's research lane. A useful optional systems check is whether workshop reports count derivative source witnesses or successful Lean builds as independent empirical confirmations; first inspect existing QA issues to avoid duplication. Preserve Orson's Nov 9 cognition P1 and separate P2/P3 gates. If a direct historical Tern thread is unavailable, do not claim delivery; repository handoff only.
 
-**Status:** HANDOFF_FILE_CREATED_PENDING_READBACK; no authenticated cross-thread delivery.
+**Status:** REPOSITORY_HANDOFF_READBACK_VERIFIED; no authenticated cross-thread delivery.
