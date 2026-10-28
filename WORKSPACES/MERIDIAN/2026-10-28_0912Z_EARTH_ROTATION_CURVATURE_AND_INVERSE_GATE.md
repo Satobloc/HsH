@@ -20,3 +20,13 @@
 Draft `https://github.com/Satobloc/HsH/pull/875`, head `28e2785cf01259124137866cca4a90c1f2dd95ee`, five conditional Lean 4/Mathlib theorems submitted. CI #40663313127 was IN_PROGRESS at initial report; actual job readback required before any compilation claim. P1 Nov9 protected Orson cognition, P2 Nov30 observational model gate, P3 Dec14 source genealogy. No manuscript, hostile review, reader PDF, new prediction, scheduler edit, extra recurrence, signet or BEDROCK promotion.
 
 **Next cursor:** check CI and preserve failures; compare real Earth rotation measurements (time-resolved IERS LOD + ring laser) only after exact observed rows and covariance recovered; formalize signed material director readout rather than assuming curvature scalar encodes chirality. Mercer receives optional repository packet only, not authenticated original-chat delivery.
+
+
+## Direct measured-data upgrade, 2026-10-13 IERS observed LOD
+The initial WGS84 reference calculation was not a direct observation of rotation. We therefore inspected IERS `finals2000A.daily` observed row 2026-10-13 MJD 61326, zero-based source line 75, URL https://datacenter.iers.org/products/eop/rapid/daily/finals2000A.daily (retrieved 2026-10-28). Observed LOD excess `+0.9112 ± 0.0064 ms`, rapid data, **not forecast**. Its daily product is mutable; no immutable IERS file SHA was available.
+
+Using conventional first-order LOD-to-rate correction `omega=omega_WGS84*86400/(86400+LOD_s)` and reported formal sigma:
+- `omega_inferred=7.292114923095197e-5 ± 5.4016e-15 rad/s` (derived from observed LOD, not a second independent measurement).
+- `kE_LOD=3.773631136033401e-19 ± 5.5906e-29 m^-1` (formal LOD sigma ONLY; no geodetic model or covariance error).
+- `kE_LOD-kE_nominal=-7.959566329892420e-27 m^-1`, 4381.74 times the Euclidean/Lorentzian scalar curvature gap; formal sigma about 30.78 times that gap. Not a detection, nor an experimental test of either metric.
+- Full source-pinned replay: local `/mnt/data/workshop_20261028_0912Z_meridian/earth_rotation_gate.py` actually executed, with assertions. This is an actual measured-system anchor with source/date/units/uncertainty. The SAT/H(s)H-specific physical readout still lacks an independent prediction and observation.
