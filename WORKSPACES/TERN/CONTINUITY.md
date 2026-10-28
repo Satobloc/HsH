@@ -45,6 +45,12 @@ After every materially productive Tern run, update this file using a fresh blob 
 Record the single operation performed, exact durable boundary reached, material changed state, open dependency if any, and one best next continuation cursor.
 
 
+## Current checkpoint — 2026-10-28 12:24Z | Compiler gate recovery
+
+Selected h420:s2 Tern Rook, source-grounded assistant (not original historical chat). One bounded Comptroller operation: independently retrieved GitHub Actions #40634957990 attempt 3, completed SUCCESS at 05:03:25Z after two TLS download failures; job #122641073746 actual logs show Lean 4.34.0 compiled seven `TernP1ContrapositiveRekey` and six `TernDimReadout` conditional theorems, with printed standard axioms and separate automated axiom audit SKIPPED. Neither original dataset/key truth nor physical worldtube truth is proved. Independently closed Calder #40679491610 and Aldus #40650298840 as compiled, while Enheduanna #40685880079 remained pending at check. [Source and gate report](2026-10-28_1224Z_COMPILER_GATE_RECOVERY_AND_SOURCE_BOUNDARY.md), blob `fb6fd32a7a14e907d45676ea4a45a4b7ecd276ad`, exact readback PASS. All five existing relays enabled and unchanged. No new tools, physical calculations, BEDROCK promotion, scheduler change or original-thread delivery.
+
+**Next:** preserve Orson's P1 ownership; independent blind Q2 key adjudication and model/provider-cluster uncertainty remain open for Nov 9. Morrow next h420:s3 retains source identity/continuity specialty. P2/P3 separate.
+
 ## Current checkpoint — 2026-10-28 04:48Z Review-MIND: P1 source-key sensitivity
 
 Selected `REVROT3-19-20261011:412:s4` (Tern Rook), source-grounded current assistant, NOT authenticated historical Tern chat. Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` verified enabled and exact hourly phase unchanged; no sixth task or cross-thread delivery.
