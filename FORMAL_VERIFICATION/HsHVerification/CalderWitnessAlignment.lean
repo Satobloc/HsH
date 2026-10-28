@@ -1,38 +1,56 @@
 import Mathlib
 
 /-!
-Calder 2026-10-28 11:24Z. CONDITIONAL arithmetic about two real archived
-witnesses, NOT proof of their transcription or of a physical theory.
-Original ChatGPT raw graph: Git blob 2cea1924266418e19b825b95ae51e6b7cbace7e1 (HsH).
-Derivative March 23 screenshot transcription: Git blob
-339fddec01b717bedffed770f1b73f8bab103fb5 (SAT archive).
-All counts were independently recomputed by a graph-aware source replay.
+Calder 2026-10-28 15:12Z correction to the March 2024 source-witness
+alignment formalization, based on two actual archived witnesses.
+
+Original ChatGPT raw graph: HsH blob 2cea1924266418e19b825b95ae51e6b7cbace7e1.
+Derivative screenshot text: SAT archive blob
+339fddec01b717bedffed770f1b73f8bab103fb5.
+
+The first Calder source replay counted 130 alphabetic-token matches.
+A stricter replay preserving digits establishes 129 alphanumeric-token matches:
+97 whitespace/UI-normalized exact, 8 additionally token-identical after
+punctuation/Markdown normalization, and 24 after removing numbered-list
+enumerators. One derivative reply inserts 748 after 'intertwining'; one
+has appended screenshot UI footer. Four raw assistant-to-all nodes lie
+off the selected ancestry. These categories describe *observed source
+processing*, not a proof of archival authenticity or physical theory.
+The older 130 count is retained below explicitly as ALPHABETIC ONLY.
 -/
 
 namespace HsHVerification.CalderWitnessAlignment
 
--- March 2024 assistant-to-all graph nodes: 97 exact normalized text,
--- 33 additional token-equal after Markdown/UI normalization,
--- four inactive branch leaves, one active reply with appended UI footer.
-theorem assistant_partition : 97 + 33 + 4 + 1 = 135 := by
+-- Raw March 2024 assistant-to-all nodes, counting mutually exclusive
+-- selected-path fidelity categories and inactive graph leaves.
+theorem assistant_partition_strict : 97 + 8 + 24 + 1 + 1 + 4 = 135 := by
   norm_num
 
-theorem nonexact_partition : 33 + 4 + 1 = 38 := by
+theorem selected_path_partition_strict : 97 + 8 + 24 + 1 + 1 = 131 := by
   norm_num
 
-theorem active_token_matches : 97 + 33 = 130 := by
+theorem strict_alphanumeric_matches : 97 + 8 + 24 = 129 := by
   norm_num
 
-theorem active_reply_coverage : 130 + 1 = 131 := by
+-- Alphabetic-only comparison hides the numeric insertion.
+theorem alphabetic_only_matches : 129 + 1 = 130 := by
+  norm_num
+
+theorem all_assistant_positions_accounted : 129 + 1 + 1 = 131 := by
+  norm_num
+
+theorem raw_to_selected_path : 135 - 4 = 131 := by
   norm_num
 
 theorem screenshot_turns : 131 + 131 = 262 := by
   norm_num
 
-#print axioms assistant_partition
-#print axioms nonexact_partition
-#print axioms active_token_matches
-#print axioms active_reply_coverage
+#print axioms assistant_partition_strict
+#print axioms selected_path_partition_strict
+#print axioms strict_alphanumeric_matches
+#print axioms alphabetic_only_matches
+#print axioms all_assistant_positions_accounted
+#print axioms raw_to_selected_path
 #print axioms screenshot_turns
 
 end HsHVerification.CalderWitnessAlignment
