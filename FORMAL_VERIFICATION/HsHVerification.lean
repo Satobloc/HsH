@@ -25,6 +25,8 @@ import HsHVerification.HaleP1ProviderSensitivity
 import HsHVerification.OrsonConjunctionNull
 import HsHVerification.OrsonSharedNLI
 import HsHVerification.SableCGDStale
+import HsHVerification.SableD2DensityGate
+import HsHVerification.SableD2MassGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
