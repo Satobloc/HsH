@@ -41,6 +41,7 @@ import HsHVerification.SableP1ModelFlagLift
 import HsHVerification.LoomP1MP4Source
 import HsHVerification.LoomP1MP4Lift
 import HsHVerification.AriadneP1AgreementTurnover
+import HsHVerification.OrsonP1EndpointChange
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
