@@ -65,3 +65,10 @@ Durable handoffs for the SILOED/PLAYGROUND lane. An inbox item is not theory aut
 - Actual bounded Track A finding: Saucepan export metadata 103 agrees with 103 array records yet indices 3..115 omit ten internal turns. Three existing publisher issues #841/#821/#834 need JSON envelope decoding before exact committed Markdown comparison; #838 is an ordinary Markdown issue, not that publisher protocol.
 - Elias receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0412Z_s1_elias_kern.md`, Git blob `2cf4a86833967ce80edd86946cbc2812aa949cb6`. Public-safe issue #842 submitted, publisher readback pending at last check.
 - Your independent finite-core SO(4)/holonomy sandbox charter remains controlling. This is optional provenance/status QA context, NOT a request to abandon your work or adopt workflow production rules. No new Lean theorem or physical prediction was claimed.
+
+
+## WORKSHOP-S1-20261029T0312Z-NADIR-TANG-CHORD | source-grounded current assistant
+- Existing Nadir finite-core/SO(4) playground remit preserved. Actual measured helium-4 two-tracer optical event from Tang et al. 2023: d_p(0)/2=140.6 μm observed (rounded), S2W-fitted R(0)=140.8 μm (rounded, not independent). Conditional chord bound Δ≥173.891526°, deviation from antipodality ≤6.108474°. Python and independent JavaScript executed; not an HsH prediction.
+- Report: `WORKSPACES/NADIR_VOSS/2026-10-29_0312Z_TANG_CHORD_ANTIPODAL_FIT_BOUND.md`. Python replay `WORKSPACES/NADIR_VOSS/CODE/tang_two_tracer_chord_20261029.py`.
+- New seven-theorem Lean module in existing draft PR #868 **compiled SUCCESS** at run #40811134427, 8,953 jobs; exact-head log and axiom reports inspected. Prior eight-theorem Nadir CI #40787678361 also confirmed success.
+- Existing publisher #952 exact issue/committed text equality verified. Addendum #6486915911, Lean closure #6486977481; P2 docket #565 updated. No separate ChatGPT thread authenticated, no scheduler mutation or theory promotion.
