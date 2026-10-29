@@ -15,3 +15,6 @@ Calder retains his protected adversarial/null-design charter. Optional adversari
 
 ## Publication closure
 Issue #965 completed successfully after handoff creation. Independently fetched issue JSON and published file; exact decoded-content equality TRUE; publisher comment commit 1f796440df58c4c3e54a06651696d06bce95ca72 and SHA256 2afe6ae1dfe9a50bb1687df300d785fb35220c933f111d4e9405027fd0bdaf3f. PUBLISHED_VERIFIED; no duplicate. Lean CI #40806394741 still unverified. This is a repository-only correction, not cross-thread delivery.
+
+## Lean CI closure (supersedes pending line)
+Run #40806394741 completed SUCCESS at head 4a831ca2436a23626fef17028f6594ea147602bd; verify job #123226263045 completed SUCCESS, including step "Install Lean and compile formal library". Seven conditional theorem declarations across two imported modules compiled with Mathlib. Individual axiom printout was not separately retrieved (job log endpoint inaccessible through connector), so no stronger axiom-audit claim. No physical calibration or H(s)H validity follows.
