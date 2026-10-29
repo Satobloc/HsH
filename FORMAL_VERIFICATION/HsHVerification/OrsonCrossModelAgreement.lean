@@ -35,6 +35,18 @@ theorem source_pair_partition :
 theorem substantive_pair_agreement_cross_product :
     (103942 : ℕ) * 141409 < (105122 : ℕ) * 140091 := by norm_num
 
+/-- On identical eligible pairs at both stages, the agreement sign reverses. -/
+theorem paired_complete_case_agreement_delta :
+    (102881 : ℤ) - 102797 = 84 := by norm_num
+
+/-- The sign of the observed comparison depends on the eligibility projection. -/
+theorem missing_label_projection_sign_reversal :
+    (104673 : ℕ) < 105795 ∧ (102797 : ℕ) < 102881 := by
+  constructor <;> norm_num
+
+#print axioms paired_complete_case_agreement_delta
+#print axioms missing_label_projection_sign_reversal
+
 #print axioms model_pairs_per_question
 #print axioms observed_pair_opportunities
 #print axioms pair_agreement_delta
