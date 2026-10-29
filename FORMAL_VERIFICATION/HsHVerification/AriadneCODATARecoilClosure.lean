@@ -41,7 +41,7 @@ def corrVariance (uRb uCs rho : ℝ) : ℝ :=
 theorem correlation_gap (uRb uCs rho : ℝ) :
     uncorrVariance uRb uCs - corrVariance uRb uCs rho =
       2 * rho * uRb * uCs := by
-  unfold uncorrVariance corrVariance
+  simp only [corrVariance, uncorrVariance]
   ring
 
 theorem positive_correlation_reduces_variance
