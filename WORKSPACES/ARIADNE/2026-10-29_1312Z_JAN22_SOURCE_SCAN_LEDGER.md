@@ -61,7 +61,7 @@ The connector returned empty content or truncated/invalid JSON for these specifi
 
 ## Separate private Library file (not part of public GitHub corpus)
 
-An 11,825,479-byte user Library JSON export was materialized and parsed in the private execution container. It has 1,734 mapping nodes, conversation ID 6ab070ce-2384-83e9-b76f-4661c55867c4, creation 2026-09-20. No Kirk/Riley/Hyde/Gothos target content was found. Incidental search-result text containing a surname is not a Kirk conversation. No raw private content was published.
+A user Library JSON export was materialized and parsed in the private execution container. No Kirk/Riley/Hyde/Gothos target content was found. Its title, conversation ID, timestamps and raw content are intentionally omitted from this public ledger. Incidental search-result text containing a surname is not a Kirk conversation.
 
 ## Method limitations and next cursor
 
