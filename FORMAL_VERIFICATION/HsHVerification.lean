@@ -21,6 +21,7 @@ import HsHVerification.LoomNotebookLMRoleCollapse
 import HsHVerification.LoomReimportedSpanProvenance
 import HsHVerification.LoomJune2026EditGraph
 import HsHVerification.LoomJune2026ClaimTypes
+import HsHVerification.LoomNLIVisibility
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
