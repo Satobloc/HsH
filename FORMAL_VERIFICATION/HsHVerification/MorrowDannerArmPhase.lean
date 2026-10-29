@@ -30,7 +30,7 @@ theorem arm_II_phase_increment (reference increment : ℝ) :
   unfold relativePhase
   ring
 
-def mashhoonPhase (omega transitTime : ℝ) : ℝ := omega * transitTime / 2
+noncomputable def mashhoonPhase (omega transitTime : ℝ) : ℝ := omega * transitTime / 2
 
 theorem reverse_rotation_reverses_phase (omega transitTime : ℝ) :
     mashhoonPhase (-omega) transitTime = -mashhoonPhase omega transitTime := by
