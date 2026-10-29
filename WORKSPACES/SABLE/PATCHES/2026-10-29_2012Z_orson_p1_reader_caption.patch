@@ -1,0 +1,13 @@
+--- a/orson_p1_flag_diagnostic_draft.tex
++++ b/orson_p1_flag_diagnostic_draft.tex
+@@ -2,8 +2,9 @@
+ \usepackage[margin=0.88in]{geometry}
+ \usepackage[T1]{fontenc}
+ \usepackage{lmodern}
+-\usepackage{booktabs,amsmath,amssymb,array,hyperref}
++\usepackage{booktabs,amsmath,amssymb,array,hyperref,caption}
+ \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue}
++\captionsetup[table]{skip=8pt}
+ \title{What Does a Contradiction Flag Diagnose?\\A Source-Locked Audit of 17 Recorded LLM Evaluation Runs}
+ \author{Orson Vay research lane\\Source-grounded assistant reconstruction, SAT/H(s)H workshop}
+ \date{Working manuscript v0.1, 29 October 2026\\Not peer reviewed; no new LLM calls}
