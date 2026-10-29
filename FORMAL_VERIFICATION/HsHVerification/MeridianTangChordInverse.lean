@@ -35,6 +35,22 @@ theorem cosine_bound_rational
   have h := cosine_upper_bound z c hz hcircle
   nlinarith [h]
 
+/-- Composition of the forward projection interval with the inverse
+circular-chord cosine gate. The observed ratio is a premise, not a proof
+of measurement fidelity or independent physical prediction. -/
+theorem measured_projection_to_cosine_bound
+    (r projected trueChord c : ℝ)
+    (hr : 0 < r)
+    (hproj : projected ≤ trueChord)
+    (hdiam : trueChord ≤ 2 * r)
+    (hobs : projected / (2 * r) = (703 : ℝ) / 704)
+    (hcircle : (trueChord / (2 * r)) ^ 2 = (1 - c) / 2) :
+    c ≤ -(246401 : ℝ) / 247808 := by
+  have hratio : (703 : ℝ) / 704 ≤ trueChord / (2 * r) := by
+    rw [← hobs]
+    exact (projected_chord_interval r projected trueChord hr hproj hdiam).1
+  exact cosine_bound_rational (trueChord / (2 * r)) c hratio hcircle
+
 /-- Scalar chord geometry cannot tell which tracer was first:
 reversing a signed angular separation preserves its cosine. -/
 theorem chord_reversal_blind (angle : ℝ) :
@@ -43,6 +59,7 @@ theorem chord_reversal_blind (angle : ℝ) :
 
 #print axioms cosine_upper_bound
 #print axioms cosine_bound_rational
+#print axioms measured_projection_to_cosine_bound
 #print axioms chord_reversal_blind
 
 end HsHVerification.MeridianTangChordInverse
