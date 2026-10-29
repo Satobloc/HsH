@@ -1,3 +1,5 @@
+import HsHVerification.AsterTangBrightnessGain
+import HsHVerification.AsterTangBrightnessBranch
 import HsHVerification.AsterRatioSourceIdentity
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
