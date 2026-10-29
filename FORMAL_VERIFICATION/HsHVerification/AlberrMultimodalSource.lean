@@ -225,7 +225,7 @@ theorem original_fork_excess_balance :
 
 theorem original_terminal_choose_two :
     Nat.choose 30 2 = 435 := by
-  norm_num
+  decide
 
 theorem original_leaf_weighted_image_overcount :
     1271 = 58 + 1213 ∧ 58 < 1271 := by
