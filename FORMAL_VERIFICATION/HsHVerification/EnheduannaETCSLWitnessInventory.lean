@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # ETCSL Temple Hymns bibliography: conditional source-line inventory
 
-Source: Oxford ETCSL, `b4801.htm`, section Cuneiform sources, HTML lines
+Source: Oxford ETCSL, `b4801.htm`, section Cuneiform sources, retrieved text-display lines
 22--69, as directly read 2026-10-29. This is a real catalogue inventory.
 Each of the 48 *rows* is a bibliographic source entry, not necessarily a
 separate tablet, ancient witness, or independent attestation.
@@ -21,7 +21,7 @@ physical joins, tablet identity, original ancient authorship, or completeness.
 
 namespace HsHVerification.EnheduannaETCSLWitnessInventory
 
-/-- HTML line numbers in the inspected Oxford ETCSL witness list. -/
+/-- Retrieval display-line indices in the inspected Oxford ETCSL witness list; not stable Oxford identifiers. -/
 def sourceLines : List Nat := (List.range 48).map (· + 22)
 def aliasLines : List Nat := [57, 67, 68, 69]
 def linkedLines : List Nat := [24, 36, 60]
