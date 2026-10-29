@@ -22,6 +22,8 @@ translation, or establish SAT/H(s)H physics.
 
 namespace HsHVerification.ArchiveEQ0054
 
+section Descent
+
 variable {R Smooth Thin Value : Type*}
 variable [Semiring R]
 variable [AddCommMonoid Smooth] [Module R Smooth]
@@ -54,10 +56,13 @@ theorem kernel_sensitive_witness_blocks_descent
     (descended_action_invariant_under_kernel_shift
       project action hDescends current shift hKernel)
 
+end Descent
+
 section NormSquare
 
-variable [NormedAddCommGroup Smooth] [NormedAddCommGroup Thin]
-variable [NormedSpace ℝ Smooth] [NormedSpace ℝ Thin]
+variable {Smooth Thin : Type*}
+variable [NormedAddCommGroup Smooth] [NormedSpace ℝ Smooth]
+variable [NormedAddCommGroup Thin] [NormedSpace ℝ Thin]
 
 /-- Model of a derivative-quadratic or current-quadratic contribution after a
 regularized current has been placed in a normed function space. -/
@@ -71,7 +76,8 @@ theorem nonzero_kernel_blocks_norm_square_descent
   intro hDescends
   have hInvariant :=
     descended_action_invariant_under_kernel_shift
-      project.toLinearMap normSquareAction hDescends (0 : Smooth) shift hKernel
+      project.toLinearMap normSquareAction hDescends (0 : Smooth) shift
+      (by simpa using hKernel)
   have hNormSq : ‖shift‖ ^ 2 = 0 := by
     simpa [normSquareAction] using hInvariant
   have hNorm : ‖shift‖ = 0 := by
