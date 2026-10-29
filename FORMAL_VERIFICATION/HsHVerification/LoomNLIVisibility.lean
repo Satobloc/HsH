@@ -17,8 +17,15 @@ Observed counts:
   1,744 such positions have a long current OR earlier response;
   6,702 flagged positions; 1,060 flagged positions have possible
   truncation exposure; 28,050 ordered prior/current comparison slots;
-  3,123 slots have a long endpoint; 849 flagged modus-tollens fourth
-  positions, of which 188 have at least one long prior response.
+  3,123 slots have a long endpoint; 849 flagged fourth questions
+  (modus ponens inference) inside modus-tollens-category sets, of which
+  188 have at least one long prior response.
+
+The benchmark's source generator `src/generate_benchmark.py` Git blob
+8011bc432f5b5b2f3b728620213d473993cdeb1f explicitly labels Q4
+`Modus ponens: P→Q, P, therefore Q` in category `modus_tollens`.
+The category name and individual question inference form are different
+levels of the source hierarchy; do not collapse them.
 
 The actual NLI triggering prior index and NLI output are not archived.
 Thus 'possible exposure' is NOT a count of actual clipped NLI calls.
@@ -36,7 +43,7 @@ def flaggedLaterPositions : Nat := 6702
 def possiblyExposedFlags : Nat := 1060
 def candidatePriorPairs : Nat := 28050
 def possiblyExposedPairs : Nat := 3123
-def flaggedModusTollensFourth : Nat := 849
+def flaggedModusPonensFourthInModusTollensSets : Nat := 849
 def fourthPossiblyExposed : Nat := 188
 
 theorem raw_length_partition :
@@ -52,12 +59,12 @@ theorem candidate_pair_partition :
     possiblyExposedPairs + 24927 = candidatePriorPairs := by decide
 
 theorem fourth_position_partition :
-    fourthPossiblyExposed + 661 = flaggedModusTollensFourth := by decide
+    fourthPossiblyExposed + 661 = flaggedModusPonensFourthInModusTollensSets := by decide
 
 theorem exposure_subset_bounds :
     possiblyExposedFlags ≤ possiblyExposedPositions ∧
     possiblyExposedFlags ≤ flaggedLaterPositions ∧
-    fourthPossiblyExposed ≤ flaggedModusTollensFourth := by decide
+    fourthPossiblyExposed ≤ flaggedModusPonensFourthInModusTollensSets := by decide
 
 theorem possible_exposure_is_not_every_flag :
     possiblyExposedFlags < flaggedLaterPositions := by decide
