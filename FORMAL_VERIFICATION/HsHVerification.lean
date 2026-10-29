@@ -17,6 +17,8 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.MeridianEarthRotationReadout
+import HsHVerification.MeridianTangChordProjection
+import HsHVerification.MeridianTangChordInverse
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
