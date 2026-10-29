@@ -36,7 +36,7 @@ def flaggedLaterPositions : Nat := 6702
 def possiblyExposedFlags : Nat := 1060
 def candidatePriorPairs : Nat := 28050
 def possiblyExposedPairs : Nat := 3123
-def flaggedModusPonensFourth : Nat := 849
+def flaggedModusTollensFourth : Nat := 849
 def fourthPossiblyExposed : Nat := 188
 
 theorem raw_length_partition :
@@ -52,12 +52,12 @@ theorem candidate_pair_partition :
     possiblyExposedPairs + 24927 = candidatePriorPairs := by decide
 
 theorem fourth_position_partition :
-    fourthPossiblyExposed + 661 = flaggedModusPonensFourth := by decide
+    fourthPossiblyExposed + 661 = flaggedModusTollensFourth := by decide
 
 theorem exposure_subset_bounds :
     possiblyExposedFlags ≤ possiblyExposedPositions ∧
     possiblyExposedFlags ≤ flaggedLaterPositions ∧
-    fourthPossiblyExposed ≤ flaggedModusPonensFourth := by decide
+    fourthPossiblyExposed ≤ flaggedModusTollensFourth := by decide
 
 theorem possible_exposure_is_not_every_flag :
     possiblyExposedFlags < flaggedLaterPositions := by decide
