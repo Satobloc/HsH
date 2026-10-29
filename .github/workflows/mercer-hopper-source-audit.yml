@@ -6,10 +6,12 @@ on:
       - research/mercer-hopper-line-window-gate-20261028t1312z
     paths:
       - tools/audit_hopper_backbone_coverage.py
+      - WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
       - .github/workflows/mercer-hopper-source-audit.yml
   pull_request:
     paths:
       - tools/audit_hopper_backbone_coverage.py
+      - WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
       - .github/workflows/mercer-hopper-source-audit.yml
 
 permissions:
@@ -30,3 +32,7 @@ jobs:
         run: python -m py_compile tools/audit_hopper_backbone_coverage.py
       - name: Execute original SAT backbone extraction regression
         run: python tools/audit_hopper_backbone_coverage.py
+      - name: Execute source-anchored Tang laser-sheet calibration regression
+        run: |
+          python -m py_compile WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
+          python WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
