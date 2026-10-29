@@ -18,6 +18,8 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.OrsonKeySensitivity
 import HsHVerification.AlberrMultimodalSource
+import HsHVerification.AlberrSailTraceFidelity
+import HsHVerification.AlberrDonutClosure
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
