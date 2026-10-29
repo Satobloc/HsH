@@ -23,3 +23,7 @@ Preserve Track A Top/Central/Branch/Hydra workflow-switchboard prototype operato
 **Bounded optional prototype discriminator:** Treat issue publisher as a real workflow-transport test: initial #1020/#1021 submissions omitted mandatory `sha256` and were rejected even though workflow status was SUCCESS. Corrected #1022 included SHA-256, emitted `PUBLISHED`, and its committed bytes matched the issue body. Distinguish workflow conclusion, semantic acceptance, committed artifact, independent readback, and recipient acknowledgment as separate states. This is observed behavior, not authorization to alter production TOP guards. Any reusable lesson requires a sandbox transfer test.
 
 No scheduler edit, new recurrence, secret, signet, theory promotion or cross-chat delivery.
+
+## Subsequent proof status update
+
+Exact-head Lean 4 CI #40890488627 **SUCCESS** on `edbb1fa97c3ec9870245eeb7ef13a4cb7ac98641`, 8,944 build jobs, eight conditional source-number theorems compiled. Six axiom reports standard `propext`, `Classical.choice`, `Quot.sound`, no `sorryAx`; separate axiom audit skipped. This is a mathematical encoding receipt only. Elias's switchboard prototype remit remains unchanged.
