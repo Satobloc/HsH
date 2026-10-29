@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.KestrelMovingSlice
 import HsHVerification.KestrelProjectedIncidence
 import HsHVerification.KestrelConsensusIdentityBlindness
+import HsHVerification.KestrelFlagInformationCounts
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
