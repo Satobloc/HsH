@@ -23,6 +23,7 @@ import HsHVerification.CalderWitnessGraph
 import HsHVerification.CalderScoreContext
 import HsHVerification.CalderNegationLedger
 import HsHVerification.CalderNegationProjection
+import HsHVerification.CalderNegationRepeatStability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
