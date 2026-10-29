@@ -38,7 +38,8 @@ theorem commute_and_anticommute_force_zero
     have hentry := congrArg (fun M : Mat => M i j) hdouble
     have htwo : (gamma * charge) i j + (gamma * charge) i j = 0 := by
       simpa using hentry
-    linarith
+    have hzentry : (gamma * charge) i j = 0 := by linarith
+    simpa using hzentry
   calc
     charge = (1 : Mat) * charge := by simp
     _ = (gamma * gamma) * charge := by rw [gamma_sq]
