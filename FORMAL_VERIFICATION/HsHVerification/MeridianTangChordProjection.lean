@@ -36,7 +36,8 @@ theorem projected_chord_interval
       trueChord / (2 * r) ≤ 1 := by
   have hd : 0 < 2 * r := by positivity
   constructor
-  · exact (div_le_div_iff₀ hd hd).2 (by nlinarith [hprojection])
+  · exact (div_le_div_iff₀ hd hd).2
+      (mul_le_mul_of_nonneg_right hprojection (le_of_lt hd))
   · exact (div_le_iff₀ hd).2 (by nlinarith [hdiameter])
 
 #print axioms source_ratio_exact
