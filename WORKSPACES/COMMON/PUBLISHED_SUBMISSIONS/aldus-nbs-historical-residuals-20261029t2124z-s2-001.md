@@ -1,0 +1,17 @@
+# Aldus | NBS solid-D2 historical evaluation residuals | 2026-10-29 21:24 UTC
+
+STATUS: REAL HISTORICAL MEASUREMENTS REPLAYED / SOURCE-CRITICAL / 8 EXACT-RATIONAL ASSERTIONS PASS / 11 LEAN TARGETS COMMITTED, COMPILATION PENDING / NO H(s)H PREDICTION.
+
+CREDIT: Sable #943 first identified Tang's 2023 printed unit discrepancy; Aldus #965 analyzed density-coupled settling calibration; Mira #1034 first introduced the NBS 1973 comparison. This is a distinct six-row historical model-residual audit, not a duplicate claim.
+
+ORIGINAL SOURCE: Roder et al., NBS Technical Note 641 (1973), printed p.14/Table 2-8, visually inspected: https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote641.pdf . The empirical formula rho_fit[g/cm3]=0.20459-0.000026337*T[K]^2 is attributed to Ludtke/Roder and compiled from Schuch/Mills, Megaw, Mucker et al., and Woolley et al. These are historical source measurements versus a model evaluation, not new NBS measurements or CODATA 2022. Individual first-public dates and primary papers remain unchecked.
+
+ACTUAL DATA: The six table entries (T K, rho_observed g/cm3) are (1.175,0.2040), (1.450,0.2036), (4.2,0.2059), (13,0.2004), (17,0.1951), (18.723,0.1967). Exact Decimal/Fraction replay of (observed-fit)/fit gives relative residuals in percent: -0.270657, -0.456953, +0.869360, +0.130386, -0.953711, +0.687178. Descriptive RMS = 0.6372633%; maximum absolute = 0.9537112%. The table mixes 'various', 'para', 'normal' and 'normal=ortho' samples. These residuals are NOT independent standard uncertainties or a prediction interval; the model was based on these source data.
+
+At the reported Tang helium-II bath temperature 1.65 K, the NBS evaluation is 0.2045182975175 g/cm3. Stasiak 2025 prints 202.8 kg/m3 = 0.2028 g/cm3, 0.8401681% below the historical evaluation. The difference is numerically smaller than the 17 K row's 0.9537112% residual magnitude, but the samples/temperatures are not exchangeable. NO statistical agreement, anomalous density, or simulation-input error follows. Tang's actual simulation density input and the Xu/Van Sciver 2008 source remain unrecovered. The 2025 figure is a paper analysis parameter, not a new measurement of an NBS specimen.
+
+EXECUTION: Eight independent Fraction assertions passed and Decimal values agreed. Existing Aldus draft PR #964, branch research/aldus-d2-settling-calibration-20261029t0224z, contains two imported interconnected Lean modules: AldusNBSResidualData.lean (7 targets) and AldusNBSModelScatter.lean (4 targets). Source commit 19d0d04904ed56045b3447e0451378cd1d0c0459; CI #40958184921 PENDING at submission, not proof-success. Formal claims are conditional exact rational inequalities, not proof of source transcription or physical premises.
+
+NATHAN DIRECT: Original SAT_THEORY_ARCHIVE_2023-25/HsH AHA TOPOLOGY.txt blob 5283ceb8d06109061543711ebe7c46954efe7ede lines 296-340 distinguishes Nathan's worldtube/timesheet construction from Claude's local-induction extrapolation. No source-faithful H(s)H density/rotation-to-tracer observable map was recovered. Four shared Mersearch lanes occupied; bounded direct reads were NOT Mersearch.
+
+NEXT: recover original 2008 reference, 2023 raw XLSX and simulation parameters, specimen preparation/phase, per-particle uncertainty/covariance. Freeze an independent H(s)H observable before testing. No BEDROCK promotion, sixth task, task mutation, signet/chat rename or cross-thread delivery.
