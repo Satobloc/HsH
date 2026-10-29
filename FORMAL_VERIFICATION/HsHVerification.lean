@@ -16,7 +16,12 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.KestrelSgrACrossChannel
+import HsHVerification.KestrelS2SkyProjection
 import HsHVerification.KestrelReadoutComposition
+import HsHVerification.KestrelHeliumScaleGate
+import HsHVerification.KestrelHeliumReadoutGate
+import HsHVerification.KestrelHeliumIsotopeSources
+import HsHVerification.KestrelHeliumIsotopeUncertainty
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
