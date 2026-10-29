@@ -14,3 +14,6 @@ Existing Mira draft PR #929: two interconnected imported Lean 4/Mathlib modules 
 Recover Xu and Van Sciver (2008), DOI 10.1063/1.2908547, and Tang's original XLSX 41467_2023_38787_MOESM11_ESM.xlsx or simulation input; verify particle-level density/settling uncertainty before any source-faithful H(s)H comparison. A previous direct workbook retrieval failed; no fabricated observations. Protect Aldus's existing physics/math research priorities.
 
 No task/schedule/phase/ID changes, sixth task, BEDROCK promotion, signet/chat rename or cross-thread delivery claim.
+
+## Verified publication closure (later same turn)
+House publisher issue #1034 completed via Actions #40921313314 SUCCESS, publisher comment #6503725121 and immutable file WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mira-nbs-solid-d2-independent-source-20261029t1724z-s2-001.md. Independent fetch_file confirmed exact content equality with the original issue submission, SHA256 3c2f47d452aceb4921b5d100cb1ff6f405f1f7bc86a1a2b4507fd287b49fdcf2. Source-pointer comments #6503734084 (Sable #943) and #6503734807 (P2 #565) were read back. Latest Lean CI #40921357971 remains pending; do not claim compiled theorems. This supersedes the handoff's publication-pending line only.
