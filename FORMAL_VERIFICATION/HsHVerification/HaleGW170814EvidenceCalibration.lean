@@ -10,14 +10,14 @@ and not SAT/H(s)H predictions.
 
 Hiroki Takeda, Soichiro Morisaki, Atsushi Nishizawa, Phys Rev D 103,
 064037 (2021), DOI 10.1103/PhysRevD.103.064037:
-  - Their abstract and section VI.A: ln B_TV = 2.775, ln B_TS = 3.636.
+  - Their abstract and section VI.A: reported log B_TV = 2.775, log B_TS = 3.636.
   - Their introduction, citing earlier LIGO-Virgo analyses:
-    ln B_TV = 1.48, ln B_TS = 2.34.
+    reported log B_TV = 1.48, log B_TS = 2.34.
     This earlier attribution must be audited: the original LIGO-Virgo
     GW170814 2017 paper reports B_TV > 200, B_TS > 1000,
     not those two rounded natural-log numbers.
 
-This module encodes the four printed DECIMAL VALUES AS RATIONALS and
+CAUTION: Section VI.A typesets 'ln B' while Figures 7-8 plot ordinary\nBayes factors near 10^2.775 and 10^3.636, apparently using base-10.\nNeither exponential conversion is established without resolving this\nsource-internal notation/plot discrepancy. Earlier report issue #1020\nincorrectly treated the values as natural logs; correction issued.\n\nThis module encodes the four printed DECIMAL VALUES AS RATIONALS and
 proves only exact arithmetic and nonuniqueness of a source-free number.
 It does NOT claim any one value is the true physical Bayes factor, nor
 infer that SAT predicts GW polarization. Published ln B values are
@@ -40,10 +40,10 @@ def earlierReportedTV : ℚ := 148 / 100
 /-- Earlier LVC ln B_TS as reported in Takeda et al. introduction. -/
 def earlierReportedTS : ℚ := 234 / 100
 
-/-- Takeda et al. 2021 ln B_TV, direct result in section VI.A. -/
+/-- Takeda et al. 2021 printed log B_TV, direct result in section VI.A. -/
 def takedaTV : ℚ := 2775 / 1000
 
-/-- Takeda et al. 2021 ln B_TS, direct result in section VI.A. -/
+/-- Takeda et al. 2021 printed log B_TS, direct result in section VI.A. -/
 def takedaTS : ℚ := 3636 / 1000
 
 theorem published_vector_logs_distinct : earlierReportedTV ≠ takedaTV := by
