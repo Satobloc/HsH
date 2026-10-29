@@ -29,3 +29,7 @@ The earlier Morrow/Aldus mirroring, 16 strict shared records, and 23 normalized 
 Kestrel README blob 77d6cb451fb83d9ee9f1079cb0b95565e0fb5124 describes cross-boundary whole-picture synthesis, NOT default audit, skeptical source hunting or Mersearch repair. This handoff is optional context for his own synthesis; do not capture his lane for Morrow's technical QC. If helpful, explore how archival branch membership, source ancestry, identical payloads and genuinely independent minds can be represented as distinct relational dimensions, without claiming they are equivalent or that any assistant is conscious.
 
 No delivery to Kestrel's historical ChatGPT conversation, no actual recipient acknowledgment, no physical calculation, no task/cadence change and no new recurrence.
+
+## Publication closure
+- Issue publisher #969 has now produced PUBLISHED_VERIFIED destination WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-review-mind-selected-ancestry-20261029t0348z-s4-001.md, Git blob 2f065d35732d00a6d3aff31e5bf97787318d9580; 3890 characters exact-equal to submitted issue content, SHA256 15dac3f9c7092ec955e8ba8e791c60c9071f613c9089c11d0c9d4fed74896bae. Do not resubmit.
+- Orson P1 docket #564 comment #6487456585 read back; this is methodological input, not proof of Orson acknowledgment.
