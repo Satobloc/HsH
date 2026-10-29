@@ -53,4 +53,25 @@ theorem p1_nonneg_gain_positive_under_missingness
 #print axioms p1_nonneg_missingness_interval
 #print axioms p1_nonneg_gain_positive_under_missingness
 
+/- Observational equivalence is relative to a specified readout map.
+   This formalizes the equivalence-relation part of Nathan-attributed RMS,
+   not any claim that distinct models are ontologically identical. -/
+def p1ObsEq {Model Observation : Type*}
+    (readout : Model → Observation) (a b : Model) : Prop :=
+  readout a = readout b
+
+theorem p1_obsEq_refl {M O : Type*} (readout : M → O) (a : M) :
+    p1ObsEq readout a a := rfl
+
+theorem p1_obsEq_symm {M O : Type*} (readout : M → O) (a b : M)
+    (h : p1ObsEq readout a b) : p1ObsEq readout b a := h.symm
+
+theorem p1_obsEq_trans {M O : Type*} (readout : M → O) (a b c : M)
+    (hab : p1ObsEq readout a b) (hbc : p1ObsEq readout b c) :
+    p1ObsEq readout a c := hab.trans hbc
+
+#print axioms p1_obsEq_refl
+#print axioms p1_obsEq_symm
+#print axioms p1_obsEq_trans
+
 end HsHVerification
