@@ -1,43 +1,55 @@
 #!/usr/bin/env python3
-"""Source-indexed arithmetic on published GW170814 model-selection results.
+"""GW170814 published-log-base source calibration, CORRECTED.
 
-Real event: GW170814, 2017-08-14 10:30:43 UTC, LIGO Hanford/Livingston/Virgo.
-Original LIGO/Virgo (2017), PRL 119 141101, Sec VII: B_TV>200, B_TS>1000.
-Takeda/Morisaki/Nishizawa (2021), PRD 103 064037, Sec VI.A:
-ln B_TV=2.775, ln B_TS=3.636. Takeda Introduction additionally reports
-earlier LVC ln B_TV=1.48 and ln B_TS=2.34; attribution to the 2017
-paper remains under audit because its original bounds differ.
+Actual GW170814, 2017-08-14T10:30:43Z, LIGO Hanford/Livingston/Virgo.
+LIGO/Virgo 2017 PRL 119 141101 Sec VII: B_TV >200 and B_TS >1000.
+Takeda/Morisaki/Nishizawa 2021 PRD 103 064037: printed 2.775/3.636,
+earlier LVC values 1.48/2.34 (secondary attribution).
 
-All values are published rounded inferences, not raw strain or SAT predictions.
-Bayes factors depend on hypotheses, priors, waveform and likelihood versions.
+CRITICAL SOURCE DISCREPANCY: Takeda Sec VI.A typesets 'ln B' yet its
+Figures 7-8 plot Bayes factors at roughly 10^2.775 and 10^3.636, not
+exp(2.775) and exp(3.636). We compute BOTH bases, LABEL CONDITIONAL,
+and do not choose a source-independent BF. Earlier report issue #1020
+incorrectly treated the printed values as natural logarithms; the
+corrective publication is the authoritative numerical interpretation.
+
+These are published rounded model inferences, not direct strain data
+or a SAT prediction. Uncertainty of printed BF estimates not provided.
 """
 import json
 import math
 
-event = "GW170814"
-event_time_utc = "2017-08-14T10:30:43Z"
-inputs = {
-    "tensor_over_vector": {"lvc_2017_bf_strict_lower": 200,
-                           "takeda_2021_ln_bf": 2.775,
-                           "takeda_cited_earlier_ln_bf": 1.48},
-    "tensor_over_scalar": {"lvc_2017_bf_strict_lower": 1000,
-                           "takeda_2021_ln_bf": 3.636,
-                           "takeda_cited_earlier_ln_bf": 2.34},
+data = {
+    "event": "GW170814",
+    "time_utc": "2017-08-14T10:30:43Z",
+    "detectors": ["LIGO Hanford", "LIGO Livingston", "Virgo"],
+    "unit": "dimensionless",
+    "lvc2017_direct_BF_strict_lower": {"TV": 200, "TS": 1000},
+    "takeda2021_printed_log": {"TV": 2.775, "TS": 3.636},
+    "takeda2021_secondary_earlier_printed_log": {"TV": 1.48, "TS": 2.34},
+    "log_base_status": "UNRESOLVED: text says ln; Figures 7-8 align with base10",
+    "uncertainty": "not reported for the printed model-evidence values",
 }
-out = {"event": event, "event_time_utc": event_time_utc,
-       "units": "dimensionless", "uncertainty": "not supplied for printed ln BF",
-       "inputs": inputs, "derived": {}}
-for mode, item in inputs.items():
-    a, b, lower = (item["takeda_2021_ln_bf"],
-                   item["takeda_cited_earlier_ln_bf"],
-                   item["lvc_2017_bf_strict_lower"])
-    assert a > b and math.log(lower) > a
-    out["derived"][mode] = {
-        "takeda_bf": math.exp(a),
-        "earlier_secondary_bf": math.exp(b),
-        "takeda_to_earlier_secondary_ratio": math.exp(a-b),
-        "lvc_2017_log_bf_strict_lower": math.log(lower),
-        "lvc_2017_to_takeda_bf_strict_lower": lower/math.exp(a),
-        "log_bf_difference": a-b,
+out = {"source": data, "conditional": {}}
+for mode in ("TV", "TS"):
+    x = data["takeda2021_printed_log"][mode]
+    y = data["takeda2021_secondary_earlier_printed_log"][mode]
+    lower = data["lvc2017_direct_BF_strict_lower"][mode]
+    out["conditional"][mode] = {
+        "if_natural_log": {
+            "takeda_BF": math.exp(x),
+            "earlier_secondary_BF": math.exp(y),
+            "ratio_takeda_over_earlier": math.exp(x-y),
+            "lvc2017_lower_over_takeda": lower/math.exp(x),
+        },
+        "if_base10_log": {
+            "takeda_BF": 10**x,
+            "earlier_secondary_BF": 10**y,
+            "ratio_takeda_over_earlier": 10**(x-y),
+            "lvc2017_lower_over_takeda": lower/(10**x),
+        },
+        "printed_log_difference": x-y,
     }
-print(json.dumps(out, indent=2, sort_keys=True))
+    assert 10**x > 10**y
+    assert math.exp(x) > math.exp(y)
+print(json.dumps(out, sort_keys=True, indent=2))
