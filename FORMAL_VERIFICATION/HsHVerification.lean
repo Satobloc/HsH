@@ -25,6 +25,7 @@ import HsHVerification.HaleP1ProviderSensitivity
 import HsHVerification.OrsonConjunctionNull
 import HsHVerification.OrsonSharedNLI
 import HsHVerification.SableCGDStale
+import HsHVerification.SableNineModelProjection
 import HsHVerification.SableD2DensityGate
 import HsHVerification.SableD2MassGate
 import Mathlib
