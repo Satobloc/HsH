@@ -47,4 +47,41 @@ theorem no_antipodal_pair (y z y' z' : ℝ) :
   intro heq
   linarith
 
+
+/-!
+## 2026-10-29 source-fidelity extension: R/Q shared anchor
+
+Original Nathan-attributed Finding the Donut, p. 26 (same source blob)
+requires a common point i_r on R and Q. The current browser
+PUBLIC_SITE/instruments/whirligig/index.html (same blob above), lines
+105-116, maps R to x = +cos(aperture) and Q to x = -cos(aperture),
+with aperture = 0.78 + 0.58*tanh(scalar value). Thus the actual
+source-code curves occupy strictly opposite x hemispheres.
+
+These conditional theorems prove that strictly separated x signs
+prevent a common anchor. The proof does not formalize the browser's
+tanh range, source-role attribution, or any physical prediction.
+-/
+
+theorem east_west_cos_ne (a b : ℝ)
+    (ha : 0 < Real.cos a) (hb : 0 < Real.cos b) :
+    Real.cos a ≠ -Real.cos b := by
+  intro heq
+  linarith
+
+theorem opposite_open_hemispheres_no_common_anchor
+    (R Q : ℝ → Fin 3 → ℝ)
+    (hR : ∀ t, 0 < (R t) 0)
+    (hQ : ∀ t, (Q t) 0 < 0) :
+    ¬ ∃ tr tq, R tr = Q tq := by
+  rintro ⟨tr, tq, heq⟩
+  have hx : (R tr) 0 = (Q tq) 0 :=
+    congrArg (fun p : Fin 3 → ℝ => p 0) heq
+  have h1 := hR tr
+  have h2 := hQ tq
+  linarith
+
+#print axioms east_west_cos_ne
+#print axioms opposite_open_hemispheres_no_common_anchor
+
 end HsHVerification.MorrowAnalemmaAntipode
