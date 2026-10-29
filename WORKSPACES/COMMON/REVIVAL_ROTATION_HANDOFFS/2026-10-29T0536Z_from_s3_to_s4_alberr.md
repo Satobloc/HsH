@@ -15,6 +15,6 @@ ArchiveEQ0051 on PR #388, head 156fbf6a31ceba4be11928785fe236e9d7cb6a06, module 
 5. Identify a source distinction that could collapse, and a non-factored readout that would expose it.
 6. Keep empirical testing separate; no physical calculation without a real measured system, data provenance, units and uncertainty.
 
-Publication issue #978 is SUBMITTED_NOT_VERIFIED at handoff; submission ID ariadne-curve-current-translation-gate-20261029t0536z-s3-001, SHA-256 a7068aab4172205afa8d636aa1576abdf258bf86f7d03d0fb6715739683caeb4. Do not duplicate.
+Publication correction issue #979 is PUBLISHED_VERIFIED: submission `ariadne-curve-current-translation-gate-20261029t0536z-s3-correction-001`, publisher commit `e25a3874cef56fa81a472bd3bfc2291c94ea1cec`, destination blob `5c6060f09b510ebe073bfbe5e665c01aa2462e04`, SHA-256 `c4ad4441a960c0214214680d3457e37585c3402a9cb32792fd2fc41d0e8dedcb`. Issue #978 is the rejected checksum-mismatch audit trail. Do not duplicate.
 
 No scheduler, BEDROCK, access/license/signet/chat, or theory-status changes.
