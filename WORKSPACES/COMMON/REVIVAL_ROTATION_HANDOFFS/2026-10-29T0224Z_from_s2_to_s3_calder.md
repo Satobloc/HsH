@@ -12,3 +12,6 @@ Tang et al. 2023 D2 tracer density label (202.8 g/cm3) versus Stasiak et al. 202
 - Receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-29T0224Z_s2_aldus.md.
 
 Calder retains his protected adversarial/null-design charter. Optional adversarial review: source attribution of radius vs measurement, missing covariance, alternative drag assumptions, and whether independent density or viscosity was ever measured. Do not divert him from his P1 null-testing program. No task, schedule, signet, theory-canon, or chat changes.
+
+## Publication closure
+Issue #965 completed successfully after handoff creation. Independently fetched issue JSON and published file; exact decoded-content equality TRUE; publisher comment commit 1f796440df58c4c3e54a06651696d06bce95ca72 and SHA256 2afe6ae1dfe9a50bb1687df300d785fb35220c933f111d4e9405027fd0bdaf3f. PUBLISHED_VERIFIED; no duplicate. Lean CI #40806394741 still unverified. This is a repository-only correction, not cross-thread delivery.
