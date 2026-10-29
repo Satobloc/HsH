@@ -40,11 +40,11 @@ function classify(raw){
   if(uncertain.some(p=>lower.slice(0,150).includes(p)))return {label:"Cannot be determined",embedded:false};
   const prefix=lower.slice(0,200),hasYes=prefix.includes("yes"),hasNo=prefix.includes("no");
   if(hasYes&&!hasNo)return {label:"Yes",embedded:false};
-  if(hasNo&&!hasYes)return {label:"No",embedded:!(/\\bno\\b/.test(prefix))};
+  if(hasNo&&!hasYes)return {label:"No",embedded:!(/\bno\b/.test(prefix))};
   return {label:"Unclear",embedded:false};
 }
 function gitBlobSha(buffer){
-  const header=Buffer.from("blob "+buffer.length+"\\0","utf8");
+  const header=Buffer.from("blob "+buffer.length+"\0","utf8");
   return crypto.createHash("sha1").update(header).update(buffer).digest("hex");
 }
 function expectedLabel(expected){
@@ -71,8 +71,8 @@ for(const [model,sha] of Object.entries(blobs)){
         final++;summary.finalEmbedded++;
         summary.byCategory[set.category]=(summary.byCategory[set.category]||0)+1;
         if(expectedLabel(row.expected)==="No")summary.finalKeyCorrect++;else summary.finalKeyWrong++;
-        if(!/\\bno\\b/i.test(String(finalRaw)))summary.finalNoWholeWordAnywhere++;
-        if(/\\byes\\b/i.test(String(finalRaw)))summary.finalYesAnywhere++;
+        if(!/\bno\b/i.test(String(finalRaw)))summary.finalNoWholeWordAnywhere++;
+        if(/\byes\b/i.test(String(finalRaw)))summary.finalYesAnywhere++;
       }
       if(a.embedded||b.embedded){union++;summary.affectedUnion++;}
     }
