@@ -7,6 +7,7 @@ on:
     paths:
       - tools/audit_hopper_backbone_coverage.py
       - WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
+      - WORKSPACES/MERCER/helion_readout_gate_20261029.py
       - .github/workflows/mercer-hopper-source-audit.yml
   pull_request:
     paths:
@@ -36,3 +37,8 @@ jobs:
         run: |
           python -m py_compile WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
           python WORKSPACES/MERCER/tang_laser_gaussian_gate_20261029.py
+
+      - name: Execute measured CODATA helion free-vs-shielded readout gate
+        run: |
+          python -m py_compile WORKSPACES/MERCER/helion_readout_gate_20261029.py
+          python WORKSPACES/MERCER/helion_readout_gate_20261029.py
