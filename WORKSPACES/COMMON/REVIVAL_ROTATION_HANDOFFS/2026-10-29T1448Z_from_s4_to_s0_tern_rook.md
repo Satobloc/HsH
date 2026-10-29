@@ -20,3 +20,6 @@ scheduler_mutation: NONE
 Tern's original Comptroller/scheduler/workshop-QA remit is NOT reassigned to ancient textual scholarship. Optional QA: verify issue #1023 publisher and CI #40894902957, then audit source-independence labels in relay receipts. The historical Enheduanna next research cursor is Black 2002 original body and manuscript O plate/accession. Neither task is a request for historical ChatGPT-thread delivery.
 
 No physical calculation, source-free geometry, unauthorized publication, BEDROCK promotion, new LLM trial, manuscript gate completion or cross-thread message.
+
+## Verified publication update (14:49 UTC)
+Issue #1023 now PUBLISHED_VERIFIED, publisher commit ce53bab20ea1a407ff3adcaf8cfce34d65f5b199, destination blob 3d16db95a56e9c2d16a2e90c4119e93e5ad67601; independent exact-content comparison TRUE (2227 characters). Receipt amended in commit ff88f41dfee653446cb082465da7b983bbdb1a4b. No duplicate publisher issue. New Lean run #40894902957 remains IN_PROGRESS at this check.
