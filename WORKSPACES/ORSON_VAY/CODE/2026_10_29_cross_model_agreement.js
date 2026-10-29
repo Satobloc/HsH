@@ -32,17 +32,22 @@ const models=manifest.map(([name,hash])=>{const raw=fs.readFileSync(path.join(ro
 const ref=models[0].rows;assert.equal(ref.length,1150);
 const frequency=new Map();for(const r of ref)frequency.set(r.question,(frequency.get(r.question)||0)+1);
 const blank=()=>({positions:0,pairs:0,initial:0,final:0});const total=blank(),category={},duplicate={};
-let initiallyCorrect=0,finallyCorrect=0;
+let initiallyCorrect=0,finallyCorrect=0;const completeCase={pairs:0,initial:0,final:0};
 for(let i=0;i<ref.length;i++){
 const rs=models.map(m=>m.rows[i]);for(const r of rs)assert.ok(r.id===ref[i].id&&r.question===ref[i].question&&r.key===ref[i].key,"source alignment "+i);
 const a=rs.map(r=>r.a),b=rs.map(r=>r.b);initiallyCorrect+=a.filter(x=>x===ref[i].key).length;finallyCorrect+=b.filter(x=>x===ref[i].key).length;
+for(let j=0;j<17;j++)for(let k=j+1;k<17;k++){
+if(a[j]==="unclear"||a[k]==="unclear"||b[j]==="unclear"||b[k]==="unclear")continue;
+completeCase.pairs++;completeCase.initial+=a[j]===a[k];completeCase.final+=b[j]===b[k];
+}
 const ia=agreement(a),fa=agreement(b),group=frequency.get(ref[i].question)>1?"repeated":"singleton";
 for(const d of [total,category[ref[i].category] ||=blank(),duplicate[group] ||=blank()]){d.positions++;d.pairs+=c2(17);d.initial+=ia;d.final+=fa;}
 }
 assert.deepEqual({pairs:total.pairs,initial:total.initial,final:total.final,initiallyCorrect,finallyCorrect},{pairs:156400,initial:105795,final:104673,initiallyCorrect:12567,finallyCorrect:13221});
 assert.deepEqual(duplicate.singleton,{positions:896,pairs:121856,initial:83053,final:83344});
 assert.deepEqual(duplicate.repeated,{positions:254,pairs:34544,initial:22742,final:21329});
-console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,initiallyCorrect,finallyCorrect},null,2));
+assert.deepEqual(completeCase,{pairs:137911,initial:102797,final:102881});
+console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect},null,2));
 }
 if(process.argv.length!==3)throw Error("Usage: node script.js /path/to/ConsistencyBench");
 main(process.argv[2]);
