@@ -104,9 +104,39 @@ theorem C2_zero_iff_C1_preserved (u du : V4) :
     ring
   · exact C2_zero_if_C1_preserved u du
 
+
+/-!
+The historical C2 writes u^mu * partial_0(u_mu), with an index lowered
+by g. If g varies, differentiating u_mu differentiates the metric too.
+Let q=(partial_0 g)(u,u). Then
+  partial_0 C1 = 2*g(u,partial_0 u) + q
+  u^mu partial_0 u_mu = g(u,partial_0 u) + q.
+This section does NOT assume a dynamical equation for q.
+-/
+
+/-- Rate of C1 when the metric itself has a nonzero rate q. -/
+def dynamicC1Rate (u du : V4) (q : ℝ) : ℝ := dC1 u du + q
+
+/-- The actual lower-index C2 in the time-varying-metric case. -/
+def dynamicLoweredC2 (u du : V4) (q : ℝ) : ℝ := C2 u du + q
+
+theorem dynamic_metric_rate_identity (u du : V4) (q : ℝ) :
+    dynamicC1Rate u du q = 2 * dynamicLoweredC2 u du q - q := by
+  dsimp [dynamicC1Rate, dynamicLoweredC2]
+  rw [dC1_is_twice_C2]
+  ring
+
+theorem dynamic_lowered_C2_from_preserved_C1 (u du : V4) (q : ℝ)
+    (h : dynamicC1Rate u du q = 0) :
+    2 * dynamicLoweredC2 u du q = q := by
+  rw [dynamic_metric_rate_identity] at h
+  linarith
+
 #print axioms lorentz_projector_matches_adapted_frame
 #print axioms spatial_embedding_injective
 #print axioms dC1_is_twice_C2
 #print axioms C2_zero_iff_C1_preserved
+#print axioms dynamic_metric_rate_identity
+#print axioms dynamic_lowered_C2_from_preserved_C1
 
 end HsHVerification.RavelBlockwaveConstraintGate
