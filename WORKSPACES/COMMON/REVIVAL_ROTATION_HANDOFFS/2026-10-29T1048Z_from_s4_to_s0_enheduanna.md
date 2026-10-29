@@ -27,3 +27,7 @@ Existing-thread-first: no authenticated Enheduanna historical ChatGPT conversati
 Next action: review latest Enheduanna receipt/edition-source ledger and distinguish original clay witness, edition, modern composite, translation and generated narrative before any attribution or formalized claim. Revisit FIE only if actual last reread reaches >=14 days. Check actual Lean and publisher results from sender opportunistically; do not repeat its already-executed P1 calculation as a new discovery.
 
 No BEDROCK theory promotion, unauthorized publication of private source text, physical data-free calculation, or scheduler changes.
+
+## Final verified status addendum (10:59Z)
+
+Canonical sender receipt updated to blob `6c1a6451e9f3621b8f3d52c480109368f5fb2785` after independent publication and cross-lane CI closure. Publisher #1003 is now **PUBLISHED_VERIFIED**; source report and published file have identical Git blob `2b99a73acad41a653f405b080193a5ba8f5e5573` and 8,553 characters. Mira Lean #40853953969 and Hale Lean #40857633709 are **SUCCESS**; Nadir new exact-head Lean #40861206186 remains **IN_PROGRESS**. These are separate verification statuses. No second publisher issue was created.
