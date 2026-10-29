@@ -27,6 +27,8 @@ import HsHVerification.OrsonSharedNLI
 import HsHVerification.OrsonRepeatedPrompt
 import HsHVerification.SableCGDStageProjection
 import HsHVerification.SableP1EvidenceStageGate
+import HsHVerification.SableP1ModelFlagSource
+import HsHVerification.SableP1ModelFlagLift
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
