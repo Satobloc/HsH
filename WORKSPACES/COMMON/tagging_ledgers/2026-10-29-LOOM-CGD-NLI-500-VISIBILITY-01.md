@@ -28,3 +28,7 @@ Seven source-conditional Lean targets added to existing Loom draft PR #759, modu
 ## Next
 
 P1 Orson Nov2 protocol should list `raw_response`, `P500(raw_response)`, `initial_extracted_label`, `revision_response`, `final_extracted_label`, `flag`, `actual_checker_pair` (missing) and `checker_output` (missing) as separate typed evidence. A follow-up requiring new administered trials should log every NLI comparison and full untruncated inputs with consent and privacy. Keep P1 Nov9, P2 Nov30 and P3 Dec14 gates separate.
+
+
+## Deliberate unrelated reading / return cursor
+HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheTANGLE.txt`, Git blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 1001-1040 actually read (continuing Loom's earlier line-1001 cursor). Tags: CREATIVE-WORLDBUILDING, HISTORIOGRAPHIC-FORMATS, COMMODITY-TRACE, PROCEDURAL-ERROR-AS-MYTH, CALENDAR-INTERSECTION-IMAGE, FLATTENED-TRANSCRIPT-SPEAKER-NEEDS-RAW-ROLE-CHECK. The excerpt includes a flattened `You said` prompt about "The place where calendars meet" and assistant elaboration; attribution is not promoted to verified raw message UUID. No forced physical or cognition analogy. Next cursor: line 1041. FIE reread documented October 27, fewer than 14 days; no fresh FIE reread claimed.
