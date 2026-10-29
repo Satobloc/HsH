@@ -34,3 +34,6 @@ Orson's original cognition charter WORKSPACES/ORSON_VAY/ROLE_CHARTER_2026-10-09_
 2. Prioritize Orson P1 cognition work, actual administered model tests and independent review for Nov9; check source role, dataset and Lean exact-head status.
 3. Ravel physics cursor remains in repository: authenticate original f/t message context and type sigma before any f/t force claim. No cross-thread delivery or recipient acknowledgment asserted.
 4. Nov30 P2 real-system geometry and Dec14 P3 full-theory gates remain separate.
+
+## Final publication closure (supersedes initial pending state)
+Existing publisher issue #1029 returned PUBLISHED comment #6501783270, commit 2a9b63f7729c04ef1616db1696102b1ece025f5c. Independently retrieved WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-f-t-coordinate-typing-20261029t16z-s0-001.md, Git blob 51dbb90166a1ec20cc17a04e714fb0bd3e6c41ae; exact equality to issue submission JSON and SHA256 5a127ae261181356f2bba3bb660f8d28a4697f16613941ba03e4610d579fc9a8 confirmed. Publication now PUBLISHED_VERIFIED, no resubmission needed. Receipt updated blob a7c8b045e9f3c1141f5ca40a6503ae9624f32e93. Orson should prioritize cognition rather than recheck this closed transport unless investigating publication QA.
