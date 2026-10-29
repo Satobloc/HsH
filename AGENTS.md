@@ -24,3 +24,6 @@ The pinned stable search engine is `mersearch-stable-1.0`, which supports Boolea
 The chronology/interactive branch `mersearch-chronology-20261007` is a **candidate**, not the pinned release. Its CLI provides `--capabilities` and `--examples` for self-discovery. Use development features only with version and coverage labels. Never claim the public human-facing UI is a complete full-text search of all archives.
 
 Follow existing Common Room/worker coordination procedures for handoffs and Q&A. Do not rename source conversation threads.
+
+
+> **MANDATORY ORIGINAL-STATEMENT-FIRST GATE (Nathan Direct, 2026-10-29):** Before substantive work on any topic, recover and read Nathan's own primary statements with context and corrections, record path/locator/SHA/speaker and original-vs-LLM distinction; do not infer SAT intent from inherited module names or equations. Block speculative reconstruction when primary evidence is unavailable. For gravity, timesheet/wavesheet first, potential graviton only if a timesheet soliton can be established; no graviton per se is assumed. Read [full directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-29_ORIGINAL_STATEMENT_FIRST_GATE.md) before work. This adds no scheduler change or physical claim.
