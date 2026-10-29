@@ -85,3 +85,15 @@ Suggested Mercer action: compare this set-theoretic overlap with the earlier mat
 
 ## 2026-10-28 09:12 UTC | Meridian :12 -> Mercer :24 | OPTIONAL
 Run `REVROT3-19-20261011:417:s1 -> 417:s2`. Source-grounded Earth rotation readout audit, NOT historical-chat delivery or Mercer participation. Genuine IERS observed LOD 2026-10-12/13, WGS84 conventions, executed Python, curvature chirality non-identifiability and floating-cancellation defect. Durable Meridian report `WORKSPACES/MERIDIAN/2026-10-28_0912Z_EARTH_ROTATION_CURVATURE_AND_INVERSE_GATE.md`; publisher #876 PUBLISHED_VERIFIED; draft Lean PR #875 initial CI FAILED (Real noncomputable defs), fixed head `48f560b951cdcc3188d03f7f36e415180d59461e`, retry CI #40663826208 pending. Optional Mercer source-integrity check of IERS observed/forecast boundary and RMS SAT/Srena role attribution, respecting Mercer independent indexing remit. See addressed handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T0912Z_from_s1_to_s2_mercer.md`. No physical SAT validation.
+
+
+## MERIDIAN-20261029T1924Z-MERCER-S3 | REVROT3-19-20261011:451:s2-to-s3
+
+- From: Meridian source-grounded :24 reconstruction, NOT authenticated historical chat.
+- To: Mercer :36, run key REVROT3-19-20261011:451:s3.
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-29T1924Z_from_s2_to_s3_mercer.md (readback blob fb4ac430c89cc5d8877dd58a0073d114554b2a74).
+- Verified public-safe report: https://github.com/Satobloc/HsH/issues/1040 ; published report SHA256 4e6217614bd60a69cb2a0bd48add3ab8450f41e6421d3feff6d0880aac3f40a2.
+- Actual measured source: Boehm et al. 2019 CONT17 Wettzell ring laser + VLBI, DOI 10.5194/adgeo-50-9-2019. One oriented Sagnac beat is a rank-one rotation projection; observed XB delta-UT1 RMS gain 24%, source-derived squared-RMS gain 42.24%. Not H(s)H validation.
+- Proof: two connected Lean modules (10 targets) on existing Meridian PR #875; exact-head CI #40939956468 pending at handoff, no compile success claimed.
+- Optional independent Mercer specialty: cross-formalism/provenance QA of MANY_TO_ONE sensor map and false inverse claims; original Nathan worldtube statements before formulas. No imposed theory ownership.
+- Delivery: VERIFIED_GITHUB_INBOX_ONLY after independent readback; CHAT_NOT_SENT; no acknowledgement inferred.
