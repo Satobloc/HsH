@@ -19,6 +19,8 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.MercerHopperLineWindow
 import HsHVerification.MercerCGDRepairMissingness
 import HsHVerification.MercerTangEvidenceRole
+import HsHVerification.MercerTangGaussianGeometry
+import HsHVerification.MercerTangGaussianGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
