@@ -57,6 +57,39 @@ theorem changed_direction_implies_distinct_nodes
   intro hSame
   exact different_direction (congrArg direction hSame)
 
+/-!
+2026-10-29 source-conditional Mersearch stable 1.0 triage.
+The pinned source iter_conversation iterates every nonempty mapping message
+without consulting current_node or parent ancestry. In a genuine archived
+conversation, a nonempty abandoned node was observed. These propositions
+formalize the resulting projection limits, NOT parser execution, source
+authorship, or whether any particular search query was actually run.
+-/
+theorem stable_index_not_active_only
+    {Node : Type*} (indexed selected : Node → Prop)
+    (abandoned : Node) (hIndexed : indexed abandoned)
+    (hAbandoned : ¬ selected abandoned) :
+    ¬ (∀ n : Node, indexed n → selected n) := by
+  intro hAll
+  exact hAbandoned (hAll abandoned hIndexed)
+
+theorem role_projection_not_active_classifier
+    {Node Role : Type*} (role : Node → Role)
+    (selected : Node → Bool) (abandoned current : Node)
+    (sameRole : role abandoned = role current)
+    (differentStatus : selected abandoned ≠ selected current) :
+    ¬ ∃ classify : Role → Bool,
+      ∀ n : Node, selected n = classify (role n) := by
+  rintro ⟨classify, hClassify⟩
+  apply differentStatus
+  calc
+    selected abandoned = classify (role abandoned) := hClassify abandoned
+    _ = classify (role current) := congrArg classify sameRole
+    _ = selected current := (hClassify current).symm
+
+#print axioms stable_index_not_active_only
+#print axioms role_projection_not_active_classifier
+
 #print axioms parent_projection_not_injective
 #print axioms no_two_sibling_decoder
 #print axioms active_membership_not_parent_only
