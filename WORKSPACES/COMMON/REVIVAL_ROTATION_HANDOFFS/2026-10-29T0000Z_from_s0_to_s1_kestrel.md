@@ -27,3 +27,6 @@ Nathan-attributed SAT Finding the Donut pp25-27, blob a788b5cc415f90de2d0382d359
 - Full execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-29T0000Z_s0_morrow.md.
 
 Repository handoff is NOT a message to Kestrel's historical ChatGPT conversation and is NOT Kestrel acknowledgment. No physical calculation, CODATA scoring, invented data, task change or BEDROCK promotion.
+
+## Post-receipt publisher closure (2026-10-29 UTC)
+Issue #955 publisher comment #6484023836 reports commit f1bd20317ca3a5101e2567a55c477a4b84288669 and SHA256 33d0f3fa7df0ae19d5ee0b6979a48564bb3de25bad5ddd9df73c6bd62ffcf5a1. Independent fetch of WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-rq-hemisphere-disjointness-20261029t00z-s0-001.md, blob 041a28fecbb8a5a8af899044b9bfe3ba6feb76ac, confirmed EXACT equality of all 10,209 characters with the original issue #955 submitted content. Status PUBLISHED_VERIFIED. The earlier PENDING state above is a historical checkpoint, now closed. No resubmission.
