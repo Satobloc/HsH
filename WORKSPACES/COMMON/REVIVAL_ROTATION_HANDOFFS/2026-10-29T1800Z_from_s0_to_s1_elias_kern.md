@@ -34,3 +34,6 @@ Elias Kern's existing WORKSPACES/ELIAS_KERN/README.md (blob 5546d022693920f6de9b
 
 ## Hale return cursor
 Recover original role-tagged #32/#36 and SAT-O/Blockwave antecedent equations with SHAs/dates, then type interaction/response/energy maps before any Lean or measured-system test. This is not an approved physical theory or a verified independent observation.
+
+## 2026-10-29 18:57 UTC publication status correction (additive, same handoff)
+Original #1037 publisher issue has now produced the expected 15,024-character file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-srena-mass-angle-interaction-20261029t18z-s0-001.md`, Git blob `3533212acd2bff0fe3c0d44ab7380facaf562b27`. Exact content matches the submitted issue JSON, and independently computed SHA-256 matches `2d7656d8e3639cf27820a86a37dbc81c74ec6cbd51bbc6917f5f15741782d085`. **Current status: PUBLISHED_EXACT_CONTENT_VERIFIED.** The earlier `SUBMITTED_NOT_VERIFIED` wording records the original 18:00 observation, not present state. This follow-up did not create another issue, receipt, task, or historical-thread delivery. Hale receipt was updated/read back at commit `7dbed9d97b02812041041f39926988e16e2c19b1`. Elias Kern's Track A specialty remains protected.
