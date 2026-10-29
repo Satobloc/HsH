@@ -22,12 +22,12 @@ theorem completed_and_next_unreported_coexist :
   decide
 
 theorem long_runtime_does_not_prevent_recorded_completion :
-    observed.any (fun r => r.runtimeMicroseconds > 900000000 &&
+    observed.any (fun r => decide (r.runtimeMicroseconds > 900000000) &&
       r.lastCompleted) = true := by
   decide
 
 theorem early_dispatch_and_recorded_completion_coexist :
-    observed.any (fun r => r.startOffsetMicroseconds < 0 &&
+    observed.any (fun r => decide (r.startOffsetMicroseconds < 0) &&
       r.lastCompleted) = true := by
   decide
 
