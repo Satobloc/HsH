@@ -50,3 +50,8 @@ Original `SAT Mark V/TheTANGLE.txt` blob `3181b6cad85bbd76bd1017938e0dbf67baf037
 
 ## Return cursor
 (1) Check Lean run #40816534799 and preserve actual compilation logs/failures; repair if needed, no invented proof. (2) Seek original `SAT 2 WP2.2.lean` and complete §7.2 conversation authorship via Mersearch when lane opens. (3) Source-check any later correction to the operator identities, especially distinguishing operator Q from nested geometric Q labels. (4) Hostile-review the exact mass-operator inversion and compare only once full physical model and measured inputs exist. (5) Send honest repository handoff to Mercer, no original-thread delivery claim.
+
+## Executed original-source machine checks (post-commit addendum)
+Using the GitHub connector's exact UTF-8 file contents, nine JavaScript assertions executed and **9/9 PASSED**: three source paths share identical Git blob, those three strings compare equal, both commutator and anticommutator occur in the original, both survive in the PDF-derived text, the historical “proof compiles” sentence exists as text, and the qee=0 mass sentence occurs in both versions. These are source checks, not a compiled historical Lean proof or independent witness count. The checked blobs and character lengths were [32227920da7ec1d08ef04c8ab3ba8a9a790108fb ×3, 69b0085c86f6c4876aacc0556243dd2fccdc0aef]; [96979, 96979, 96979, 200279].
+
+P3 docket #566 additive comment #6487744776 independently read back with its full 1,342-character body. URL: https://github.com/Satobloc/HsH/issues/566#issuecomment-6487744776 . **Direct docket comment VERIFIED; house issue-publisher workflow NOT USED.**
