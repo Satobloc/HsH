@@ -171,4 +171,79 @@ theorem observed_long_branch_contains_more_user_images :
 #print axioms observed_later_leaf_not_longer
 #print axioms observed_long_branch_contains_more_user_images
 
+
+/-!
+## 2026-10-29 :48 finite original-source leaf-ancestry audit
+
+Observed from the same raw export Git blob
+c98f63fa861b0df478a5fa98dff54d731348c81f.
+The export has 580 mapping nodes, 30 terminal leaves, 26 forks
+(23 binary, 3 ternary), 435 unordered terminal-path pairs.
+The histogram lists (shared-prefix nodes, number of terminal-path pairs).
+Each pair has at least 21 shared nodes. These are transcribed parser
+outputs. Formalization does not prove the parsing or stochastic dependence.
+Repeated source nodes do NOT by themselves establish statistical
+dependence of model outputs.
+-/
+
+def terminalPrefixHistogram : List (Nat × Nat) :=
+  [(21, 29), (44, 28), (52, 27), (217, 26), (219, 25),
+   (221, 47), (231, 22), (233, 41), (240, 19), (256, 18),
+   (263, 32), (264, 1), (275, 29), (304, 13), (328, 30),
+   (329, 2), (330, 1), (353, 9), (367, 8), (392, 7),
+   (408, 6), (418, 5), (420, 4), (424, 3), (431, 2),
+   (471, 1)]
+
+def histogramPairCount : Nat :=
+  (terminalPrefixHistogram.map Prod.snd).sum
+
+def histogramAtLeast (k : Nat) : Nat :=
+  ((terminalPrefixHistogram.filter (fun p => k ≤ p.1)).map Prod.snd).sum
+
+def histogramWeightedPrefixTotal : Nat :=
+  (terminalPrefixHistogram.map (fun p => p.1 * p.2)).sum
+
+theorem original_terminal_pair_count :
+    histogramPairCount = 435 := by
+  decide
+
+theorem original_pair_prefix_44 :
+    histogramAtLeast 44 = 406 := by
+  decide
+
+theorem original_pair_prefix_52 :
+    histogramAtLeast 52 = 378 := by
+  decide
+
+theorem original_pair_weighted_prefix :
+    histogramWeightedPrefixTotal = 97667 := by
+  decide
+
+theorem original_fork_excess_balance :
+    1 + 23 * (2 - 1) + 3 * (3 - 1) = 30 := by
+  norm_num
+
+theorem original_terminal_choose_two :
+    Nat.choose 30 2 = 435 := by
+  norm_num
+
+theorem original_leaf_weighted_image_overcount :
+    1271 = 58 + 1213 ∧ 58 < 1271 := by
+  omega
+
+theorem shared_ancestor_witness {α : Type*}
+    (p q : List α) (ancestor : α)
+    (hp : ancestor ∈ p) (hq : ancestor ∈ q) :
+    ∃ x : α, x ∈ p ∧ x ∈ q :=
+  ⟨ancestor, hp, hq⟩
+
+#print axioms original_terminal_pair_count
+#print axioms original_pair_prefix_44
+#print axioms original_pair_prefix_52
+#print axioms original_pair_weighted_prefix
+#print axioms original_fork_excess_balance
+#print axioms original_terminal_choose_two
+#print axioms original_leaf_weighted_image_overcount
+#print axioms shared_ancestor_witness
+
 end HsHVerification.AlberrMultimodalSource
