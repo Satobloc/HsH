@@ -48,7 +48,10 @@ theorem B_printed_sequence :
 
 theorem O_printed_sequence_and_missing_rubric :
     reportedTail .O = [.attribution, .damagedTail] ∧
-    Token.hymnCountRubric ∉ reportedTail .O := by decide
+    Token.hymnCountRubric ∉ reportedTail .O := by
+  constructor
+  · rfl
+  · simp [reportedTail]
 
 theorem Q_printed_sequence :
     reportedTail .Q = [.attribution, .hymnCountRubric] := by decide
