@@ -41,3 +41,6 @@ Existing Aldus PR #982 Lean Actions #40828315187 completed SUCCESS, exact head 9
 5. Continue independent source first, Lean compile where typed, measured real-system data for physics, and existing November/December manuscript gates.
 
 No authenticated cross-thread delivery or original Calder chat acknowledgment is claimed.
+
+## Subsequent publication closure (after original receipt)
+Issue #1000 publisher comment #6493763592 reports PUBLISHED, commit 2eae8b24970b79086c64defe8a376e167788bf9b. Independent exact destination fetch returned Git blob 2c615b29909e69a76e4809f8b5fbc8d31e2f4655, 11,575 characters, SHA-256 726031c7ada31f1b067ef93a8adef46a5b721fbda33ff8ef5ba609a9e0170f55, equal to submitted issue-body digest. Status now PUBLISHED_VERIFIED; earlier SUBMITTED_NOT_VERIFIED was accurate at its timestamp. No second issue was created.
