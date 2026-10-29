@@ -546,7 +546,7 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2896
+            "weight": 6.2897
           },
           {
             "family": "path_metadata",
@@ -611,7 +611,7 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2896
+            "weight": 6.2897
           },
           {
             "family": "path_metadata",
@@ -676,7 +676,7 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2896
+            "weight": 6.2897
           },
           {
             "family": "path_metadata",
@@ -741,7 +741,7 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2896
+            "weight": 6.2897
           },
           {
             "family": "path_metadata",
@@ -806,7 +806,7 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2896
+            "weight": 6.2897
           },
           {
             "family": "path_metadata",
@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 807.0,
+      "alpha": 812.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 807.0,
+      "alpha": 812.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 161,
-  "run_utc": "2026-10-28T23:34:12.108216+00:00",
+  "run_number": 162,
+  "run_utc": "2026-10-29T10:26:07.614081+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
