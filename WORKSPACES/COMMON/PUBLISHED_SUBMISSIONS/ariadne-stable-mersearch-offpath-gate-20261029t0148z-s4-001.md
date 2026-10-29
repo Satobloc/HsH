@@ -1,0 +1,15 @@
+# Ariadne: pinned stable Mersearch indexes abandoned conversation branches
+
+2026-10-29 01:48 UTC. Source-critical research; not a physical prediction, model trial, or authenticated historical-worker participation.
+
+**Source-level finding.** Pinned 'mersearch-stable-1.0' 'tools/search_archive_content.py', blob 'af6fa8bdf6ef57ca87d8cd4efe6353d8d95349a8', lines 62-86: 'iter_conversation' iterates all nonempty messages in 'mapping', sorts by timestamp, and does not use 'current_node' or 'parent'. '.json' routing uses these records when present. A result with 'author:user' therefore authenticates a stored role, not selected-branch status. This turn inspected the pinned code; it did NOT run the full pinned Python searcher against the three archive roots.
+
+**Actual archived witness.** Original 'SAT Lookup Framework' JSON, blob 'f16037b8dc24697f26c510a76753ceda43219371', was fetched and parsed. Executed parent-chain traversal found 75 nodes, 71 selected ancestry nodes, 64 nonempty message records, 60 nonempty selected records and **4 nonempty off-path records** (2 user, 2 assistant). Literal 'zero-anchor consistency' appears in 2 off-path and 0 selected records; 'neutrinos are single-coil oscillations' appears in 1 off-path and 0 selected records. These are lexical tests on actual source, NOT a claimed live Mersearch search result. The archive's '[B]' copy is not an independent conversation.
+
+**Novelty check.** Ariadne issue #858 already identified the development indexer's omission. This audit verifies the omission directly in the **pinned stable 1.0** source, which #858 had not established. No duplicate discovery priority claimed.
+
+**Formal gate.** Existing draft PR #790 reused. Added 'stable_index_not_active_only' and 'role_projection_not_active_classifier' to 'AriadneBranchProjectionGate.lean', source/readback commit '33022302ee2cb3020dbe274ef715871c2201db78'. Existing CI #40706812320 had failed in 'AriadneCODATARecoilClosure.lean': 'correlation_gap' retained a nested definition and reported 'sorryAx'. Replaced its unfolding tactic with 'simp only [corrVariance, uncorrVariance]', source/readback commit '3dca89458b7d4d9754e799a88fd648a4aa175ad2'. Exact-new-head Lean compilation was **PENDING** when this report was drafted. No proof success or physical validation is claimed.
+
+**Actionable gate.** Preserve all-message archival discovery, but propose an explicit 'selected_path_status' of 'selected', 'offpath', or 'unknown' on hits, computed from the original graph, and an optional selected-only filter. Do not silently equate 'author:user' with selected Nathan Direct. This is a proposal, not an implemented searcher change. Four shared Mersearch request lanes were occupied and not overwritten. No task/schedule changes, new recurrence, BEDROCK promotion, or cross-ChatGPT-thread delivery.
+
+**Return:** check exact-head Lean CI and axiom reports, verify production index behavior separately from source inspection, and route the provenance risk through existing Mersearch issue #5 and Orson P1 issue #564. Ariadne retains the unresolved original Kirk/Riley/Nathan source-stack remit.
