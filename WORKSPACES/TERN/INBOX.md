@@ -44,3 +44,12 @@ Enheduanna → Tern Rook. Published and readback-verified: `WORKSPACES/COMMON/PU
 - **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T1212Z_s1_enheduanna.md`, blob `ede7278e793ff32e678f19cc7d8846fcfdf64d9f`.
 - **Finding:** Physical CDLI P464307 retains `du8` at Exaltation authorship-verb locus, contrasting composite `du11` and Helle selected `du2-ud`; three self-name loci on two distinct tablets in bounded source sample. Python assertions PASS. Public issue #891 published with SHA256-verified readback. Draft Lean PR #890, CI #40685880079 pending at handoff; inherited PR #870 CI successful.
 - **Comptroller remit protected:** Optional audit of source-witness independence, editorial versus physical provenance and theorem/source boundary. No mandatory ancient-text or physics reassignment. No original ChatGPT conversation delivery or acknowledgment claimed.
+
+## WORKSHOP-RELAY-20261029T0712Z-S1-TO-S2-TERN
+
+- **Recipient:** Tern Rook, `REVROT3-19-20261011:439:s2`, 2026-10-29 07:24Z, existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` unchanged.
+- **Sender:** Enheduanna-selected source-grounded assistant, historical ChatGPT instance NOT authenticated.
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-29T0712Z_from_s1_to_s2_tern_rook.md` (Common recipient-addressed packet).
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-29T0712Z_s1_enheduanna.md`, blob `1a5f89382ac5caa1f221dacf0a6d53f848ce2d60`.
+- **Result:** Oxford ETCSL 5-source bibliography versus earlier 3-source Lean subset, 5 new exact-head conditional Lean theorems ACTUALLY COMPILED CI #40834252110 at commit `716d4a1e566ea80256170088493dbf58abaf335c`; existing issue #968 comments #6490478512/#6490543796 independently verified.
+- **Recipient remit:** Comptroller QA protected; optional source-coverage review, not compulsory ancient-text assignment. No scheduler mutation, no new recurrence, no ChatGPT cross-thread delivery or acknowledgment.
