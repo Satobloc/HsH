@@ -45,7 +45,7 @@ def source_rows(root):
     for line in MANIFEST:
         name, expected_sha = line.split()
         raw = (root / "results" / (name + "_cgd.json")).read_bytes()
-        digest = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+        digest = hashlib.sha1(b"blob " + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
         assert digest == expected_sha, (name, digest, expected_sha)
         obj = json.loads(raw)
         assert obj["model"] == name and len(obj["results"]) == 300
