@@ -47,3 +47,10 @@ From the published printed quantities, `q=(140.6)/(140.8)=703/704`. Executed Pyt
 - P3 Dec 14: preserve SO(3) historical Donut vs finite-core SO(4) frame/holonomy type distinctions and source-authorship uncertainty.
 - Obtain the actual Tang Fig. 2 source workbook and numerical covariance before inferring a statistical angular bound or testing independent dynamics. A measured ring radius independent of the S2W fit would be required to turn this into a model-independent antipodality constraint.
 - No scheduler mutation, no sixth recurrence, no secret/signet, no cross-thread delivery, no BEDROCK promotion.
+
+
+## Verified Lean closure, added after original pending record
+- Exact-head GitHub Actions run #40811134427, job #123241880889, commit `53413a780a1ea407aa6e42b3f2ebbba856ee32f1`: **COMPLETED SUCCESS**, Lean 4.34.0, `Build completed successfully (8953 jobs)`. Actual 63,344-character job log retrieved.
+- New `HsHVerification.NadirTangChordGate` module built; all **seven** named theorem-specific `#print axioms` reports present. They depend on standard Lean axioms (including `propext`, `Classical.choice`, `Quot.sound`); no `sorryAx` appears in these seven reports. Separate automated axiom-audit step was skipped.
+- This verifies the exact encoded source arithmetic and conditional inequality, **not** the independent accuracy of the optical measurements, the numerical inverse-trigonometric computation, or any H(s)H physics.
+- https://github.com/Satobloc/HsH/actions/runs/40811134427
