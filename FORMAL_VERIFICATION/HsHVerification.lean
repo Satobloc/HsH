@@ -16,6 +16,9 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.RavelS2GramGeometry
+import HsHVerification.RavelS2CurvatureGate
+import HsHVerification.RavelS2SensitivityGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
