@@ -19,6 +19,7 @@ import HsHVerification.EnheduannaCDLIEvidenceProjection
 import HsHVerification.EnheduannaCDLIThirdWitness
 import HsHVerification.EnheduannaTCS3Bibliography
 import HsHVerification.EnheduannaSourceFamilyCount
+import HsHVerification.EnheduannaETCSLWitnessInventory
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
