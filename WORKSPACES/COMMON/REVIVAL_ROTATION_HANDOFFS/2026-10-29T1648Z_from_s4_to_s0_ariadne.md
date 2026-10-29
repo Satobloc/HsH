@@ -29,3 +29,7 @@ Read Ariadne's own current historical charter/continuity first, preserve archive
 - Identical content, same submission ID, valid SHA-256 `f7bb6c156361ff6e797a7d90c007376f6816a9075b79199aef225ff304f5cdb2` submitted as issue #1032. Publisher reports PUBLISHED at commit `639b24ed4a80db476dc3bd35ae785474fd8c9bed`.
 - Independent main-branch fetch confirmed published file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-p1-seven-receipt-source-ancestry-20261029t1648z-s4-001.md`, blob `434b998afd9672bbfeb7bb3ac30b3b24dd5c7aff`, EXACT 3,606-character equality with #1032 issue content. **PUBLISHED_VERIFIED**. No duplicate file.
 - Orson P1 docket #564 comment #6502965498 independently read back, contains methodological finding. This is a repository comment, not an authenticated Orson ChatGPT delivery.
+
+## Actual Lean compiler failure and repaired exact-head retry
+- First CI run #40915700617 completed **FAILURE**. Exact job log inspected: `AsterP1ReceiptSourceAncestry.lean:25:24` finite-enumeration rewrite failure and `:49:2` maximum recursion depth in the finite-union proof. No scientific contradiction established; these are proof elaboration failures. `#print axioms` output from a failed build cannot certify the module.
+- Repaired existing Aster PR #905 module at commit `82c623e7d0e672ccaff45770766b9585a31b3025`, Git blob `27b53f39526169f1694d63a0a3c326032d420960`: `Receipt := Fin 7` and explicit finite union witness. New exact-head Lean run #40916691935 **IN_PROGRESS** at this checkpoint. Do not infer success from submission.
