@@ -21,6 +21,7 @@ import HsHVerification.EnheduannaTCS3Bibliography
 import HsHVerification.EnheduannaSourceFamilyCount
 import HsHVerification.EnheduannaETCSLWitnessInventory
 import HsHVerification.EnheduannaETCSLSourceDependence
+import HsHVerification.EnheduannaTemplePlacementMissingness
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
