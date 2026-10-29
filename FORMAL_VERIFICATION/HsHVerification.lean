@@ -35,6 +35,8 @@ import HsHVerification.OrsonModusPonensFourth
 import HsHVerification.OrsonModusPonensRisk
 import HsHVerification.OrsonFlagDiagnostic
 import HsHVerification.SableP1EvidenceStageGate
+import HsHVerification.SableP1ModelFlagSource
+import HsHVerification.SableP1ModelFlagLift
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
