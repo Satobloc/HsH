@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.LoomEmbeddedNotebookLMSpans
 import HsHVerification.LoomNotebookLMRoleCollapse
 import HsHVerification.MercerReasoningRefProvenance
+import HsHVerification.MercerP1LeaveOneOut
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
