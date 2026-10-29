@@ -50,7 +50,7 @@ theorem readout_preserves_descent
   rcases hdesc with ⟨descended, hfactor⟩
   refine ⟨fun s => readout (descended s), ?_⟩
   intro p
-  rw [hfactor p]
+  exact congrArg readout (hfactor p)
 
 /-- A changed downstream observable on same-shape representatives also refutes
 descent of the original encoding. -/
