@@ -53,8 +53,8 @@ theorem stage_exposure_total : 402 + 294 = 696 := by
 theorem observed_overlap_accounting : 402 + 294 = 438 + 258 := by
   norm_num
 
-/-- Source-reported final-stage split against the published key. -/
-theorem final_published_key_partition : 62 + 232 = 294 := by
+/-- Corrected source-normalized final-stage split against the published key. -/
+theorem final_published_key_partition : 46 + 248 = 294 := by
   norm_num
 
 /-- A label-only map cannot equal both different fallback outputs
