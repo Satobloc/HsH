@@ -26,6 +26,7 @@ import HsHVerification.OrsonConjunctionNull
 import HsHVerification.OrsonSharedNLI
 import HsHVerification.OrsonRepeatedPrompt
 import HsHVerification.SableCGDStageProjection
+import HsHVerification.SableP1EvidenceStageGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
