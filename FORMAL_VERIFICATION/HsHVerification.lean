@@ -25,6 +25,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.NadirModule8HBK18Gate
 import HsHVerification.NadirTangProjectionData
 import HsHVerification.NadirTangProjectionGate
+import HsHVerification.NadirTangChordGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
