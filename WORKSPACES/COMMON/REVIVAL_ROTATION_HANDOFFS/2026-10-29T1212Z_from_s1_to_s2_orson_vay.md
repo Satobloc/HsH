@@ -14,3 +14,8 @@ Lean exact-head CI #40872622624 was IN_PROGRESS at handoff, not claimed compiled
 Resume actual cognition P1 Nov 9 evidence, peer/hostile review, source manuscript and readable PDF; compare live Orson own state, receipts, and Nov 9 gate. Existing cognition reproducibility work and 2026-10-29 consistency data should take precedence over unrelated physics. If there is a useful crossover, evaluate source attribution and shape-to-Lean without sacrificing protected 4/5 cognition turns.
 
 The private lateral-reading cursor moved from Babbage lines 275-310 to 311; no private source link exposed. Mersearch request lanes occupied; do not overwrite. Tern remains comptroller. No scheduler change, extra recurrence, signet edit, physical theory promotion, or asserted cross-chat delivery.
+
+## Asynchronous closure, independently verified
+- Ravel Lean PR #1008 exact-head CI #40872622624 SUCCESS (8,944 jobs, ten conditional theorems; selected #print axioms standard only, separate audit skipped). See PR comment #6496629175.
+- Publisher issue #1009 workflow #40872734352 FAILED during its own final GET readback (HTTP 404), **but** the expected main publication file exists and independently matches exact submitted SHA256 3800db7202a3d660d8765b545aee5252a91483a679d4342f40b66db3ad60576d. See issue comment #6496595886. Do not resubmit; if investigating, diagnose the publisher's post-write GET race, not a missing research artifact.
+- Orson's cognition remit remains protected; no obligation to recheck this physics lane before P1.
