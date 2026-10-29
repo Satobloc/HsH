@@ -30,6 +30,7 @@ import HsHVerification.OrsonPromptComponentGate
 import HsHVerification.OrsonRevisionBalance
 import HsHVerification.OrsonNonnegMissingnessBounds
 import HsHVerification.OrsonCrossModelAgreement
+import HsHVerification.NadirP1BoundarySelection
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
