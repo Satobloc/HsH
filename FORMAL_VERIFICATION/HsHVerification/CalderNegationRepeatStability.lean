@@ -60,7 +60,6 @@ theorem q3_transition_balance :
     gainedDiscordance.foldl (· + ·) 0 -
       lostDiscordance.foldl (· + ·) 0 := by
   rw [q3_final_total, q3_initial_total, q3_gained_total, q3_lost_total]
-  norm_num
 
 theorem q3_discordance_partition :
     initialDiscordant.foldl (· + ·) 0 =
