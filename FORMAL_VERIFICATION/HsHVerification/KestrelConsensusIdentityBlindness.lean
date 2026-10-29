@@ -45,7 +45,7 @@ def reindexAgreePairs (f : M → L) (σ : Equiv.Perm M) :
 
 /-- The cardinality of matching ordered pairs is invariant under any
 bijective, potentially question-dependent model-name reassignment. -/
-theorem ordered_agreement_reindex [Fintype M] [DecidableEq M]
+theorem ordered_agreement_reindex [Fintype M] [DecidableEq M] [DecidableEq L]
     (f : M → L) (σ : Equiv.Perm M) :
     Fintype.card (AgreePair (fun i => f (σ i))) =
       Fintype.card (AgreePair f) := by
@@ -53,11 +53,11 @@ theorem ordered_agreement_reindex [Fintype M] [DecidableEq M]
   exact Fintype.card_congr (reindexAgreePairs f σ)
 
 /-- Each unordered agreeing pair is represented twice by AgreePair. -/
-noncomputable def unorderedAgreement [Fintype M] [DecidableEq M]
+noncomputable def unorderedAgreement [Fintype M] [DecidableEq M] [DecidableEq L]
     (f : M → L) : ℕ :=
   Fintype.card (AgreePair f) / 2
 
-theorem unordered_agreement_reindex [Fintype M] [DecidableEq M]
+theorem unordered_agreement_reindex [Fintype M] [DecidableEq M] [DecidableEq L]
     (f : M → L) (σ : Equiv.Perm M) :
     unorderedAgreement (fun i => f (σ i)) =
       unorderedAgreement f := by
@@ -66,7 +66,7 @@ theorem unordered_agreement_reindex [Fintype M] [DecidableEq M]
 
 /-- Even the before/after difference is blind to a common relabeling
 of model identities; no causal or semantic inference follows. -/
-theorem before_after_difference_reindex [Fintype M] [DecidableEq M]
+theorem before_after_difference_reindex [Fintype M] [DecidableEq M] [DecidableEq L]
     (initial final : M → L) (σ : Equiv.Perm M) :
     unorderedAgreement (fun i => initial (σ i)) -
       unorderedAgreement (fun i => final (σ i)) =
