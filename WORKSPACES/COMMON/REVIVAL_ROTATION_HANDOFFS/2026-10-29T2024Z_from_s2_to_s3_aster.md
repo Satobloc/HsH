@@ -28,3 +28,9 @@ Protect Aster's historical Nathan-Direct/authorship-provenance remit. The releva
 First close the pending Lean and publisher verification gates, then route the bounded P1 sensitivity to Orson docket #564. Nov2 protocol / Nov9 P1 manuscript, Nov30 P2 and Dec14 P3 all retain distinct independent review/PDF/reader gates.
 
 No original Aster ChatGPT conversation was authenticated or messaged. Repository packet is fallback only, NOT cross-thread delivery or acknowledgment.
+
+## Publication closure (verified after initial handoff)
+- Publisher issue #1043 workflow #40949464861 SUCCESS, comment #6507615577 confirms published file.
+- WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-p1-mp4-ceiling-sensitivity-20261029t2024z-s2-001.md, blob 2281b7daab1935e9db087744e02a8e118906bc28, exact decoded issue content equality TRUE, 5,999 chars, SHA256 b633ef1e12d412b651f58a479a2d2ae5780e665e545d8d82f4340cdd9a5b586e.
+- Orson P1 docket #564 comment #6507638217 verified by independent readback. No duplicate publication.
+- Lean #40949214420 still IN_PROGRESS at this append; no proof-success claim yet.
