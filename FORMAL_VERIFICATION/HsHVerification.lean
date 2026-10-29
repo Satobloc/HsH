@@ -23,6 +23,8 @@ import HsHVerification.EnheduannaETCSLWitnessInventory
 import HsHVerification.EnheduannaETCSLSourceDependence
 import HsHVerification.EnheduannaTemplePlacementMissingness
 import HsHVerification.EnheduannaPlacementCompletion
+import HsHVerification.EnheduannaBlack2002Witness
+import HsHVerification.EnheduannaBlack2002Inference
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
