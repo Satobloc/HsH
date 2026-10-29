@@ -48,8 +48,12 @@ function gitBlobSha(buffer){
   return crypto.createHash("sha1").update(header).update(buffer).digest("hex");
 }
 function expectedLabel(expected){
-  const e=String(expected).toLowerCase();
-  return e.startsWith("yes")?"Yes":e.startsWith("no")?"No":"Cannot be determined";
+  const e=String(expected).trim().toLowerCase();
+  if(e.startsWith("yes"))return "Yes";
+  if(["cannot be determined","cannot conclude","not necessarily","we cannot","insufficient","cannot determine"].some(p=>e.includes(p)))return "Cannot be determined";
+  if(e.startsWith("no"))return "No";
+  if(e==="unclear")return "Unclear";
+  return e;
 }
 const root=process.argv[2];if(!root)throw Error("Provide local original results directory");
 const summary={files:0,records:0,stageRecords:0,replayMismatches:0,initialEmbedded:0,finalEmbedded:0,affectedUnion:0,finalKeyCorrect:0,finalKeyWrong:0,finalNoWholeWordAnywhere:0,finalYesAnywhere:0,byModel:{},byCategory:{}};
@@ -81,5 +85,5 @@ for(const [model,sha] of Object.entries(blobs)){
   summary.byModel[model]={records,initial,final,union};
 }
 if(summary.files!==17||summary.records!==19550||summary.stageRecords!==39100||summary.replayMismatches!==0)throw Error("Source alignment or extraction replay failed");
-if(summary.initialEmbedded!==402||summary.finalEmbedded!==294||summary.affectedUnion!==438)throw Error("Exposure-count regression failed");
+if(summary.initialEmbedded!==402||summary.finalEmbedded!==294||summary.affectedUnion!==438||summary.finalKeyCorrect!==46||summary.finalKeyWrong!==248)throw Error("Exposure-count regression failed");
 console.log(JSON.stringify(summary,null,2));
