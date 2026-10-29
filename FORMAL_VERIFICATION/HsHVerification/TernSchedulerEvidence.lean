@@ -35,13 +35,13 @@ def observed : List TaskObservation :=
   ]
 
 def earlyCount : Nat :=
-  (observed.filter (fun r => r.startOffsetMicroseconds < 0)).length
+  (observed.filter (fun r => decide (r.startOffsetMicroseconds < 0))).length
 
 def lateCount : Nat :=
-  (observed.filter (fun r => r.startOffsetMicroseconds > 0)).length
+  (observed.filter (fun r => decide (r.startOffsetMicroseconds > 0))).length
 
 def overFifteenMinutes : Nat :=
-  (observed.filter (fun r => r.runtimeMicroseconds > 900000000)).length
+  (observed.filter (fun r => decide (r.runtimeMicroseconds > 900000000))).length
 
 theorem five_actual_records : observed.length = 5 := by decide
 theorem all_enabled : observed.all (fun r => r.enabled) = true := by decide
