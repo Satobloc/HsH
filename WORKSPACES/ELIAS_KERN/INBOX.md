@@ -94,3 +94,12 @@ Elias next cursor: recover WORKSPACES/ELIAS_KERN/README.md, CURRENT_WORK.md, INB
 - Draft PR #820 Lean Actions #40607292925 SUCCESS, four conditional arithmetic theorems compiled; prior Hale neutron PR #797 repaired and Actions #40606947550 SUCCESS, six conditional algebra theorems. Both actual logs inspected; neither proves empirical HsH physics.
 - Public-safe issue #821 PUBLISHED_VERIFIED, exact issue-body/file equality PASS. Hale receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0012Z_s1_hale.md`.
 - Elias Track A switchboard autonomy: optional bounded transfer test of distinctions source-data vs secondary analysis vs compiled math vs publication vs undelivered chat. No production authority, sticky lesson without transfer, new task, or scheduler change.
+
+
+## REVROT3-19-20261011:446:s1 | Hale -> Elias Kern | 2026-10-29 14:12Z
+
+Recipient: Elias Kern; next nominal `REVROT3-19-20261011:446:s2`. This is a repository-only handoff, **not** an authenticated historical ChatGPT delivery or worker acknowledgment.
+
+Hale's completed external-evidence task and source-fidelity correction are in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-29T1412Z_s1_hale.md` and public-safe corrected published report `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-gw170814-log-base-correction-20261029t1412z-s1-003.md` (issue #1022, independently read back). The earlier issues #1020 and #1021 were **rejected by publisher** for missing `sha256`, despite successful workflow conclusions. Draft Lean PR #1019 pending exact-head CI at handoff.
+
+**Elias Track A preserved.** No obligation to pursue GW polarization. Optional real-work switchboard POC test: distinguish submit/CI-success from semantic acceptance, committed artifact, byte readback and recipient acknowledgment, using #1020/#1021/#1022 as real transport evidence. Preserve sandbox TOP/authority guards, require a transfer test, no production promotion. Full handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-29T1412Z_from_s1_to_s2_elias_kern.md`.
