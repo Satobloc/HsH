@@ -1,0 +1,26 @@
+# Mercer | Free vs shielded helion moment: source/readout gate | 2026-10-29 23:24 UTC
+
+STATUS: REAL CODATA DATA REPLAYED / 11 DECIMAL ASSERTIONS PASS / 11 LEAN TARGETS COMMITTED AND IMPORTED / CI PENDING / NO H(s)H PHYSICAL PREDICTION OR BEDROCK PROMOTION.
+
+NATHAN ORIGINAL: HsH/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt blob 7838ee3582d248233e642dca6dc03d042b08fd51, read lines 370-425 and 770-950. NATHAN-labeled turns at 399-403 and 925 ff require first/second tripartite helical structure, generated centroid, real nucleon/He-3 dimensions and candidate worldtube-core diameter. CHAT-labeled C3/holonomy equations are assistant reconstruction, not Nathan's formulas. Role labels not independently authenticated. No nuclear electromagnetic readout operator recovered.
+
+HISTORICAL CLAIM: SAT_THEORY_ARCHIVE_2023-25/2026/SAT MATH -- BACKBONE.txt (repository filename uses an em dash), blob 1854995be3311f565739f2be64269cbb0385a82f, lines 465-475: approximate He-3 magnetic moment -2.127 mu_N and claimed ~0.03% deviation. _AUTO_EXTRACTED_TEXT/0PHYS_REV_D_V_1_Submission.txt blob 2ea110aff27297888b5dba382082bec3f9a86697, Eq. (9) repeats the number without a numeric 4D-current derivation. Assistant-mediated historical source, not an authenticated independent prediction.
+
+REAL SYSTEM: free 3He nucleus (helion) vs neutral 3He gas, spherical sample at 25 C. NIST CODATA 2022 adjusted values, data cutoff 2022-12-31, Mohr et al., Rev Mod Phys 97 025002 (2025), DOI 10.1103/RevModPhys.97.025002:
+https://physics.nist.gov/cgi-bin/cuu/Value?muhsmun
+https://physics.nist.gov/cgi-bin/cuu/Value?muhpsmun
+Free mu_h/mu_N = -2.1276253498(17), neutral-gas shielded mu'_h/mu_N = -2.1274977624(17). Both dimensionless nuclear-magneton ratios, standard uncertainty 0.0000000017 each. These are CORRELATED evaluation outputs, not independent measurements; covariance not reconstructed.
+
+ORIGINAL MEASUREMENT/THEORY: Schneider et al., Nature 606 878-883 (2022), DOI 10.1038/s41586-022-04761-7, measured one-electron 3He+ hyperfine/Zeeman transitions in a Penning trap, extracted ionic shielded nuclear g-factor, and used shielding theory for free-nucleus inference. Wehrli et al., PRL 127 263001 (2021), DOI 10.1103/PhysRevLett.127.263001, theoretically evaluated nuclear shielding for hydrogen, ionic 3He+ and neutral 3He: 17.735436(3), 35.507434(9), 59.967029(23), all times 1e-6. These are different electronic readout states; theoretical uncertainties are not raw experimental errors or CODATA adjusted uncertainties.
+
+EXECUTED: Local 45-digit Decimal, 11 assertions passed. Legacy -2.127 minus free = +0.0006253498 mu_N (0.0293919134%); legacy minus neutral shielded = +0.0004977624 mu_N (0.0233966122%). Shielding shift +0.0001275874 mu_N equals 20.4025651% of the legacy/free residual. If and ONLY if approximate -2.127 is interpreted as nearest three-decimal rounding, bin [-2.1275,-2.1265], free is OUTSIDE and neutral shielded INSIDE. Historical rounding policy and prediction uncertainty are UNKNOWN; this is NOT a statistical rejection.
+
+The ratio-derived neutral shielding 1-mu'_h/mu_h = 59.9670426055 ppm, about 0.0000136055 ppm from the 2021 theory central value. CODATA's shielded value DEPENDS on shielding theory, so this is a consistency/dependency reconstruction, NOT independent verification of QED. No naive free-vs-shielded sigma test.
+
+LEAN/REPRODUCIBILITY: Existing Mercer draft PR #897, branch research/mercer-hopper-line-window-gate-20261028t1312z, head 7e4a689cabed242234a6cf83e2255848d724d00b. New interconnected imported modules MercerHelionCODATA.lean (5 theorems) and MercerHelionReadoutGate.lean (6). Exact-head Lean run #40972748277 pending; no compiled-proof claim. WORKSPACES/MERCER/helion_readout_gate_20261029.py committed/read back and added to existing Python workflow #40972748542, in progress at submission. Lean formalizes conditional rational inequalities only, not source translation or physical truth.
+
+FORWARD/REVERSE: Nathan geometry -> nuclear charge/current -> free magnetic moment -> ionic/neutral shielding -> measured spectrum remains UNDERIVED. A scalar moment does not uniquely invert to a 4D worldtube. No independent held-out H(s)H prediction, model uncertainty or cross-sector closure.
+
+CONTROLS: BEDROCK blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c (568 lines fetched, governing sections read); Steering 5f4263381afcb065e9062d5b5885593d0baa58db; Three Paper Campaign 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0; Oct29 original-statement-first gate e5d5390015528381d0f497a54335f9b40b9c50cf; onboarding, revival, branch map, Mercer specialist README/checkpoint/handoff read. All four Mersearch request lanes occupied and not overwritten; two-root GitHub search/direct file reads are partial fallback, NOT a complete three-root Mersearch run. No new tool project, no task changes.
+
+NEXT: inspect CI/axiom logs; authenticate original user passage; recover source-faithful current operator; build typed free/ion/neutral readout composition maps and test a held-out observable. Nov30 P2 still requires original derivation, independent hostile review, manuscript source and readable PDF. No sixth automation, schedule/phase change, signet/chat rename or cross-thread delivery.
