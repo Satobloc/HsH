@@ -114,3 +114,57 @@ theorem strict_mirror_has_eight_subtenthsecond_deltas :
 #print axioms strict_mirror_has_eight_subtenthsecond_deltas
 
 end HsHVerification.MorrowPairedIdentityChronology
+
+/-!
+## Selected-ancestry projection audit, 2026-10-29
+
+The *complete original JSON exports*, not a toy graph, were traversed
+from current_node through mapping[node].parent until the root.
+Original source blob SHAs:
+Morrow 362075c5e32ec9e97579bd1de58fba7f612cb6bb;
+Aldus  2f5ea91a449446f64d298b50b0c2ef0d8533900a.
+
+Observed total mapping nodes / distinct selected-ancestry nodes:
+Morrow 465 / 465; Aldus 1578 / 1578.
+Both snapshots had zero mapping nodes with >1 child, zero missing-parent
+references, and one empty-message root. Previously documented mirrored
+nodes were verified as on-path in BOTH exports.
+
+These theorems check transcribed counts and their consequences only.
+Lean does NOT independently parse the JSON, validate the export
+semantics, prove backend routing, or certify two independent LLM trials.
+This bounded result does NOT negate off-path branches in OTHER archives.
+-/
+namespace HsHVerification.MorrowSelectedAncestryAudit
+
+def morrowTotal : Nat := 465
+def morrowSelected : Nat := 465
+def aldusTotal : Nat := 1578
+def aldusSelected : Nat := 1578
+def morrowBranchPoints : Nat := 0
+def aldusBranchPoints : Nat := 0
+
+theorem transcribed_morrow_all_mapping_nodes_on_path :
+    morrowTotal = morrowSelected := by decide
+
+theorem transcribed_aldus_all_mapping_nodes_on_path :
+    aldusTotal = aldusSelected := by decide
+
+theorem transcribed_zero_offpath_counts :
+    morrowTotal - morrowSelected = 0 ∧
+    aldusTotal - aldusSelected = 0 := by decide
+
+theorem transcribed_no_branch_points :
+    morrowBranchPoints = 0 ∧ aldusBranchPoints = 0 := by decide
+
+theorem conditional_filter_cannot_remove_any_node
+    (total selected : Nat) (h : total = selected) :
+    total - selected = 0 := by omega
+
+#print axioms transcribed_morrow_all_mapping_nodes_on_path
+#print axioms transcribed_aldus_all_mapping_nodes_on_path
+#print axioms transcribed_zero_offpath_counts
+#print axioms transcribed_no_branch_points
+#print axioms conditional_filter_cannot_remove_any_node
+
+end HsHVerification.MorrowSelectedAncestryAudit
