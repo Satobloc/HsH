@@ -47,7 +47,7 @@ Standard-reference corroboration: T. Yoneya, “Travels with Nambu,” PTEP 2016
 
 `FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0053.lean` encodes an abstract alternating bilinear surface density. It proves the conditional implications that duplicate/collinear tangent data give zero, a nonzero density needs a second non-collinear direction, tangent swaps reverse orientation, one tangent reversal changes sign, and two reversals preserve sign.
 
-The first CI run is deliberately retained: run #40836988576 failed at the swap theorem because an unnecessary negation-equivalence lemma was applied in the wrong direction; Lean marked that theorem with `sorryAx`. The repair uses the antisymmetry hypothesis directly at swapped arguments: `hAnti w v`. Replacement exact-head CI status must be read from the branch receipt before any compile-success claim.
+The first CI run is deliberately retained: run #40836988576 failed at the swap theorem because an unnecessary negation-equivalence lemma was applied in the wrong direction; Lean marked that theorem with `sorryAx`. The repair uses the antisymmetry hypothesis directly at swapped arguments: `hAnti w v`. Replacement exact-head run #40867608049, job #123426229890, completed **SUCCESS** at proof commit `ea9f93f9da81585d6542141f7688ad2033527f76`: `Built HsHVerification.ArchiveEQ0053`; `Build completed successfully (8973 jobs)`. Lean 4.34.0 and Lake 5.0.0. All six theorem-specific prints depend only on Mathlib's standard `propext` and `Quot.sound`; no `sorryAx` remains.
 
 Lean checks only the encoded algebra. It does not formalize distributions, prove `partial_mu J^{mu nu}=0`, establish source fidelity, or validate physical premises.
 
@@ -64,3 +64,8 @@ Lean checks only the encoded algebra. It does not formalize distributions, prove
 | Observable | real measured system, comparator, calibration/holdout | fitted-only, missing provenance, or threshold failure |
 
 No physical calculation was performed in this turn.
+
+
+## Publisher correction status
+
+Issue #988 is the single publisher ID. The publisher consumed the first, incorrectly routed body before its in-place correction and committed `morrow-curve-worldsheet-current-20261029t0736z-s3-001.md` at `06548ceb1fab9b8a9f9f917d7b5886d66ffb5913`. That file is a retained audit trail, not the canonical receipt. Corrected issue body checksum is `da79b2600d14314fc809864edef000a205a2ee6e28f013033fd7ec4551fd5def`; correction comment #6495750237 was independently read back. No duplicate publisher issue was submitted.
