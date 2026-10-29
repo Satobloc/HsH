@@ -31,7 +31,7 @@ theorem commute_and_anticommute_force_zero
   have hdouble : gamma * charge + gamma * charge = 0 := by
     calc
       gamma * charge + gamma * charge = gamma * charge + charge * gamma := by
-        rw [hc]
+        simp only [hc]
       _ = 0 := anticommutes
   have hzero : gamma * charge = 0 := by
     ext i j
