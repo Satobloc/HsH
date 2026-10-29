@@ -16,7 +16,17 @@ First independent executed JavaScript algorithm directly enumerated all 17-choos
 | Source-key correct model-position labels / 19,550 | 12,567 | 13,221 | +654 (+3.3453 percentage points) |
 | Excluding Unclear-labeled pairs: matched / eligible pairs | 105,122/141,409 (74.3390%) | 103,942/140,091 (74.1961%) | -0.1429 percentage points |
 
-Thus a source-key accuracy gain and a cross-model extracted-label agreement loss coexist on the SAME recorded initial/final CGD outputs. Neither readout can substitute for the other. This is a finite archival observation, NOT evidence that the common checker caused a population-level diversity increase.
+The inclusive extracted-label metric declines while source-key score rises on the SAME archived outputs. These are different readouts, not interchangeable measures of cognition. Crucially, the sign of the agreement change is **not robust to missing-label handling**. This is finite archival evidence, NOT evidence that the common checker caused a population-level diversity increase.
+
+### Adversarial sensitivity: FIXED complete-case model pairs
+A third independent complete-JSON replay required each pair of models to have a substantive (non-Unclear) extracted label at BOTH initial and final stages. This holds the eligible model-pair/question observations fixed, unlike stage-specific non-Unclear rates above:
+- **137,911 same eligible pairs**; initial 102,797/137,911 (74.5387%) agreeing, final 102,881/137,911 (74.5996%) agreeing.
+- **+84 matching pairs (+0.0609 percentage points)**. This reverses the inclusive -1,122 result.
+- Singleton question positions: 80,931 -> 81,813 matched of 106,955 fixed pairs (**+882**).
+- Repeated-text positions: 21,866 -> 21,068 matched of 30,956 fixed pairs (**-798**).
+- +882 - 798 = +84.
+
+**Critical methodological correction:** The original all-label comparison and the separately denominated non-Unclear comparison both decrease, but a properly paired complete-case analysis slightly increases. The data therefore do NOT support a missingness-robust direction of cross-model agreement change. All three projections should be reported, with their eligibility definitions, before interpreting consensus. The original publisher issue #974 contains the pre-correction snapshot; this corrected worker report and an explicit issue addendum supersede that narrow interpretation without altering the historical issue content.
 
 ## Stimulus dependence: original source-text multiplicity
 The 1,150 question positions contain 896 exact-text singleton occurrences and 254 occurrences whose question text repeats elsewhere in the same sample (81 repeated-text groups). Agreement counts partition:
@@ -36,7 +46,7 @@ contrapositive: 20,710 -> 19,796 (-914), 200 positions.
 These sum to -1,122, with substantial category heterogeneity. Unclear labels increase from 979 to 1,065 across 19,550 recorded positions; these are evaluator labels, not a verified count of raw API failures.
 
 ## Formalization, replay and status
-- Reused existing Orson draft PR #850, branch research/orson-p1-shared-nli-bound-20261028t06z. Added eight source-conditional Lean 4 theorems in FORMAL_VERIFICATION/HsHVerification/OrsonCrossModelAgreement.lean, imported in root. Theorems encode pair opportunities, count partition, opposing score/agreement signs and an Unclear-excluded rate comparison. Source/import readback PASS; exact-head GitHub Actions #40820069053 PENDING at initial check, not yet a compiled proof.
+- Reused existing Orson draft PR #850, branch research/orson-p1-shared-nli-bound-20261028t06z. Added ten source-conditional Lean 4 theorems in FORMAL_VERIFICATION/HsHVerification/OrsonCrossModelAgreement.lean, imported in root. Theorems encode pair opportunities, count partition, opposing score/agreement signs, separately denominated Unclear exclusion, and fixed-pair complete-case sign reversal. Source/import readback PASS; exact-head GitHub Actions #40820069053 PENDING at initial check, not yet a compiled proof.
 - Portable source-locked Node.js replayer committed to WORKSPACES/ORSON_VAY/CODE/2026_10_29_cross_model_agreement.js. Syntax parsed in JavaScript; NOT executed from a local original-data checkout. Actual 17-file analyses were executed in the connector runtime, twice, using different counting algorithms.
 - Lean can check the formalized arithmetic and conditional comparisons only. It cannot establish data authenticity, label semantics, experimental independence, causal checker effects, human cognition, model consciousness or physics.
 - No new tooling was built before checking existing Orson PR #850, source-locked 17-model replay, Math Hopper and P1 docket. The existing branch and publisher were reused.
