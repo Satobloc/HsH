@@ -68,10 +68,9 @@ theorem separation_above_two_tolerances_blocks_joint_fit
     (joint_fit_bounds_prediction_separation
       epsilon observation candidate comparator hboth.1 hboth.2)
 
-theorem joint_fit_blocks_exclusive_support
+theorem comparator_fit_blocks_exclusive_support
     {X : Type*} [PseudoMetricSpace X]
     (epsilon : ℝ) (observation candidate comparator : X)
-    (hcandidate : WithinTolerance epsilon observation candidate)
     (hcomparator : WithinTolerance epsilon observation comparator) :
     ¬ ExclusiveSupport epsilon observation candidate comparator := by
   intro hexclusive
@@ -95,7 +94,7 @@ theorem exclusive_support_is_asymmetric
 #print axioms fit_forces_nonnegative_tolerance
 #print axioms joint_fit_bounds_prediction_separation
 #print axioms separation_above_two_tolerances_blocks_joint_fit
-#print axioms joint_fit_blocks_exclusive_support
+#print axioms comparator_fit_blocks_exclusive_support
 #print axioms exclusive_support_requires_comparator_rejection
 #print axioms exclusive_support_is_asymmetric
 
