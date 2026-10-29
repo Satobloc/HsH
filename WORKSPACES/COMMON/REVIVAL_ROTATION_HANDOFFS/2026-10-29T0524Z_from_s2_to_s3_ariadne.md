@@ -19,3 +19,6 @@ Six conditional Lean targets in existing Aster PR #787, head 08ca171f4f53758ba11
 Within Ariadne's protected authorship/intent remit, locate an actual Nathan-authored worldtube-to-observation projection with exact speaker/date/blob, if one exists. Type the forward and inverse maps and test composition; do not import a Gaussian calibration into H(s)H without source. Alternatively close pending Lean CI and publisher. Tang workbook, beam profile, initial offset and covariance are missing. FIE team reread Oct27 (<14 days); incoming Loom :12 D3 provenance is a separate priority.
 
 Nonclaims: no original-thread delivery, recipient acknowledgment, agent revival, H(s)H validation, BEDROCK promotion, new automation, task cadence change, signet or chat rename.
+
+## Publication closure (independently verified)
+Issue #977 publisher comment #6488811850 reports PUBLISHED, commit ddea14d007fe1708e6f43fcc4d8d20581f815a30. Exact destination WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-tang-gaussian-branch-gate-20261029t0524z-s2-001.md fetched, blob 4469e81a49290d096a2b2ff226aedca50a58fafd; content matched issue JSON.content exactly (2990 JS characters); SHA256 6955d192fab6ecb9cec2b24bd5aeb158a5e1b9f221ebac6fc29de95b17de9beb. PUBLISHED_VERIFIED. Earlier pending statement remains true for its time, now superseded. No duplicate issue.
