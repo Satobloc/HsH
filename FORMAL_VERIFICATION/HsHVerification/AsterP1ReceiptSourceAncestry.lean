@@ -20,9 +20,9 @@ model identity, semantic validity, or cognitive claims.
 
 namespace HsHVerification.AsterP1ReceiptSourceAncestry
 
-inductive Receipt
-  | kestrel | mira | nadirVoss | meridian | loom | aldus | mercer
-  deriving DecidableEq, Fintype, Repr
+-- Source-verified receipt index: 0 Kestrel, 1 Mira, 2 Nadir Voss,
+-- 3 Meridian, 4 Loom, 5 Aldus, 6 Mercer.
+abbrev Receipt := Fin 7
 
 abbrev SourceFile := Fin 17
 
@@ -46,7 +46,17 @@ theorem source_read_edges :
 
 theorem distinct_source_files :
     ((Finset.univ : Finset Receipt).biUnion observedSources).card = 17 := by
-  decide
+  have h : (Finset.univ : Finset Receipt).biUnion observedSources =
+      (Finset.univ : Finset SourceFile) := by
+    ext x
+    constructor
+    · intro _
+      exact Finset.mem_univ x
+    · intro _
+      exact Finset.mem_biUnion.mpr
+        ⟨(0 : Receipt), Finset.mem_univ _, Finset.mem_univ _⟩
+  rw [h]
+  simp
 
 #print axioms receipt_count
 #print axioms each_receipt_uses_seventeen
