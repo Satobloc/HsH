@@ -43,3 +43,8 @@ The separate conversation-json-content CI #40835133957 completed FAILURE with ze
 No scheduler change warranted by these observations. Preserve five leases and the exact existing phases; no sixth recurrence. P1 (Orson LLM cognition) Nov 9, P2 real-data geometry Nov 30, P3 source-faithful full-theory Dec 14 remain open with actual original sources, critical review and PDF/reader requirements. No physics fixture, measured physical prediction, CODATA fit, signet, BEDROCK edit, worker impersonation or cross-chat delivery occurred.
 
 **Next cursor:** Morrow at 2026-10-29 11:24Z retains source/provenance remit. Check actual exact-head CI #40864054774 and theorem-specific axioms, and retain the Elias :36 gap as a path-specific unverified edge. Only diagnose the separate zero-job workflow when its check-suite/workflow configuration evidence becomes available. Avoid redundant publisher issues.
+
+## Exact-head Lean closure (verified later in this same turn)
+- Run #40864054774, job #123414842181, exact head `3c8a9f2393efd39ad6acf18433bfb72db51b8c46`: **COMPLETED SUCCESS**. Actual 55,295-character job log inspected: `Built HsHVerification.TernRelayGapObservation`; `Build completed successfully (8949 jobs)`.
+- All **eight** new theorem-specific `#print axioms` outputs explicitly say **does not depend on any axioms**. No `sorryAx` in the eight theorem-specific prints. These are source-conditional finite metadata propositions, not a physical model, not proof of absent files globally, and not a scheduler backend guarantee.
+- Earlier PENDING status in this document is a historical checkpoint and is superseded by this verified closure. The separate zero-job conversation-json-content CI remains FAILED/UNDIAGNOSED.
