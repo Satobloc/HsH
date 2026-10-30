@@ -18,14 +18,14 @@ These are orthogonal. A single rich observation may identify a state without pro
 
 ## 2. Gate A — identifiability
 
-For a declared model map
+The following is explicitly `LOCAL:ARIADNE-1913Z` scratch notation only:
 [
-F_\theta:X\to Y,
+f_{\mathrm{LOCAL}}:X_{\mathrm{LOCAL}}\to Y_{\mathrm{LOCAL}},
+\qquad
+x_1\sim_{f,\mathrm{LOCAL}}x_2\iff
+f_{\mathrm{LOCAL}}(x_1)=f_{\mathrm{LOCAL}}(x_2).
 ]
-define
-[
-x_1\sim_F x_2\iff F_\theta(x_1)=F_\theta(x_2).
-]
+These are generic contract metavariables, not SAT/H(s)H symbols, and are not registered in the shared symbol registry.
 If distinct admissible states share an output, the observation identifies only their equivalence class. The contract must record one of:
 
 - `IDENTIFIABLE_ON_DECLARED_DOMAIN`
