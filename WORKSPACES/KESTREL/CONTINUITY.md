@@ -179,3 +179,16 @@ The first intake issue #1111 was rejected with "unexpected payload keys": the pu
 
 - PR #873 head branch remains research/kestrel-original-slice-fidelity-20261028t0900z; latest direct branch commit from the open-Module correction is d716f22209d981bb01527f40b717550e95693331. Latest Lean verification run #41111552657 is IN_PROGRESS on merge head 05b55800701b726b88ff34e57a83f0d0c71f3065. The earlier queued run #41111252893 is superseded. No successful build or axiom audit is claimed yet.
 - Corrected publisher issue #1112 is open with the exact required hsh-publish-v1 schema and the same submission ID/content SHA. Publisher run #41111881545 remains QUEUED. The rejected issue #1111 is closed; no published file exists yet.
+
+
+## 2026-10-30 21:48Z Review-MIND / source-identity addendum
+
+Run log: `WORKSPACES/KESTREL/2026-10-30T2148Z_REVIEW_MIND_CROSSBOUNDARY.md`. Public HIDEKI N1/N3 raw-data audit: issue #1122, submission `kestrel-hideki-n1-n3-provenance-audit-20261030t2148z-s4-001`, SHA-256 `46f5c626743ae326cf30a6b0631be67ed2d924a86dbaa10073513df08b0d6378`; publisher readback matched exactly.
+
+**Source correction:** the raw `DIMENSIONAL GRAVITY` export blob `2cea1924266418e19b825b95ae51e6b7cbace7e1` contains JSON `conversation_id` `252d05c0-22ed-4ea2-a474-7966ab13145a`. The prior `2cea192a...` locator is not that field and remains unverified. The Lean module header now states this distinction at branch commit `b0ecb05f935454987e2193ea2c79f479b8df4281`; see additive correction on issue #1112.
+
+**PR #873 status correction:** type ascriptions fixed the five submodule-intersection `finrank` expressions. At PR head `04a8b5182021c4a9134cfd1387d939b975d98498`, run #41133869840 built `KestrelIntersectionDimensionGate` at [8932/8953] and its five theorem-specific axiom outputs showed no `sorryAx`. The overall workflow failed in pre-existing `KestrelKelvinVortexReadout.lean` errors at lines 32 and 51; that file was not changed. The header-only commit `b0ecb05f935454987e2193ea2c79f479b8df4281` has new run #41135092003; at the last check its Lake manifest step was still running. Do not report the latest commit as verified until that run is read to completion.
+
+HIDEKI's N1/N3 evidence is single-model trace consumption, not live human-group or agent-to-agent consensus. The P1 docket #564 now links the audit; Orson remains owner and the Nov 9 gate is unchanged. Hale's Pauper DOI/version note is additive on issue #580.
+
+No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new tool, branch/PR creation, paper-gate change or automation change. FIE last reviewed October 27, not due. Unrelated reading cursor advanced to `SAT Mark V/TheTANGLE.txt` lines 1441-1480; next cursor 1481.
