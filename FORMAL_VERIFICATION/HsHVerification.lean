@@ -22,6 +22,7 @@ import HsHVerification.LoomReimportedSpanProvenance
 import HsHVerification.LoomJune2026EditGraph
 import HsHVerification.LoomJune2026ClaimTypes
 import HsHVerification.LoomNLIVisibility
+import HsHVerification.LoomSAT4DCurrentTypeGate
 import HsHVerification.LoomOpticalClaimProvenance
 import Mathlib
 
