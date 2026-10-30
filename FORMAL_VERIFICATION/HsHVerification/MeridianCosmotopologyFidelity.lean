@@ -77,14 +77,11 @@ theorem euclidean_inversion_circle_image
     (L^2 * x / (x^2 + y^2))^2 + (L^2 * y / (x^2 + y^2))^2
         = (L^2)^2 * (x^2 + y^2) / (x^2 + y^2)^2 := by
             field_simp [hden]
-            ring
     _ = (L^2)^2 / (x^2 + y^2) := by
           field_simp [hden]
-          ring
     _ = (L^2)^2 / a^2 := by rw [hcircle]
     _ = (L^2 / a)^2 := by
           field_simp [ha]
-          ring
 
 /-- For the quotient convention (n,L) ~ (Q n,0), the lifted deck step is
 (x,m) ↦ (Q x,m-1). Thus the one-period lift representing the same quotient
