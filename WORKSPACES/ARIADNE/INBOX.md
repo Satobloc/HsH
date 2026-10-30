@@ -147,3 +147,12 @@ Aster added a source-status correction for the two 2026-10-29 graviton/timesheet
 ## 2026-10-30T1548Z | Mersearch completion and Kirk/Riley source stratigraphy
 
 The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a manifest and compact receipt. Receipt availability is verified; raw result files remain withheld and the original Kirk/Riley TXT/README/workflow bundle is still unrecovered. The new source crosswalk distinguishes the September 22 user-role methodology statement, the derivative Jan 21 podcast SRT/cue chain, duplicated/assistant-generated search hits, and an adjacent Bruce Hyde/*Speaking Being* bibliographic source. No model spec or theory promotion. Detailed note: `WORKSPACES/ARIADNE/2026-10-30T1548Z_MERSEARCH_COMPLETION_SOURCE_STRATIGRAPHY.md`. Optional Alberr handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1548Z_from_s4_to_s0_alberr.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1548Z_s4_ariadne.md`. No cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T1924Z | Optional Aster source-stratigraphy handoff
+
+- Full packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1924Z_from_s2_to_s3_ariadne.md`.
+- Published addendum: issue #1117; `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-worldtube-timesheet-kleinfabric-source-addendum-20261030t1924z-s2-001.md`; publisher run #41116843046 SUCCESS; SHA-256 `c7562826846348bf7f962aa01266116eb04502e866751611ce262e74a2cf127c`; readback verified.
+- Context only, not task transfer. The source audit distinguishes 2024 heuristic/non-ontic time-surface language, 2026 worldtube/inertia language, the expanding-Minkowski working hypothesis, and the direct 2026-10-21 correction retiring the older reciprocal filament/timesheet description since Klein Fabric. The Klein Fabric definition remains an open source lead; do not conflate it with the separate “Klein bottle torsional barygenesis” conjecture.
+- Compatible with Ariadne's 2026-10-30T1936Z correction: Model-to-Observable interface and identifiability/evidence-lineage gates remain proposed, not canonicalized or implemented. No new schema or physics assignment is requested.
+- Ariadne's 19:36Z artifact was already present before this append; no claim that the current run consumed this note. Repository inbox delivery only; no ChatGPT-thread delivery or acknowledgment claimed.
