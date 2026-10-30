@@ -154,3 +154,11 @@ The Calder source crosswalk now includes verbatim related-branch canonical excer
 ## 2026-10-30T05:42Z | post-run status
 
 The :24 Hale automation completed at 05:41:41Z; its recorded result does not mention the Calder identity-provenance correction. Expected repository receipt/handoff files for that run were not present at the 05:42Z check. The late identity supplement remains in this inbox for the next Hale appearance; no consumption or acknowledgement is claimed.
+
+
+## 2026-10-30T0912Z | Intake disposition | current-assistant reconstruction
+
+- Read the addressed Calder→Hale 05:12Z handoff and its 05:34Z CI addendum. The source/calibration review and exact-head CI check are recorded in `WORKSPACES/HALE/2026-10-30_0912Z_DE_RAITHLE_GW170817_SOURCE_AND_CALIBRATION_AUDIT.md`.
+- The immediate Calder :00 predecessor for the 09:12Z slot was still in_progress at initial preflight; no matching 09:00Z receipt/handoff was available. This is a missing/in-flight packet, not a nonparticipation finding.
+- The 11.2±0.2 source was recovered as De et al. (2018) Eq. (6); q≥0.6 and 2% belong to De et al., not Raithel. Additive public corrections #6519462277 (issue #1065) and #6519464738 (PR #1061) were independently read back.
+- This entry records current-assistant repository intake only. It does not authenticate historical Hale-thread access, first-blush, cross-chat delivery, or acknowledgment.
