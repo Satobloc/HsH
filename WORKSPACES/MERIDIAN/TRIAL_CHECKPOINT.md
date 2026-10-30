@@ -167,3 +167,17 @@ This is the first typed common composition candidate recovered/constructed in Me
 4. Keep phase/director channel separate; do not silently stuff Delta-phi into Q.
 
 **Handoffs/questions:** no Nathan action required. No workflow/ownership change proposed.
+
+
+## 2026-10-30 :48 Review addendum | S2 UI-origin ordering + Kestrel finite-thickness compatibility
+
+This is a bounded solver-QC audit, **not HAGALAZ RUN 100** and not a new branch. The historical trial sequence above still ends at Run 076; the active HAGALAZ RUN 097-099 state and RUN 100 return cursor remain in the Common Mercer reconciliation handoff.
+
+- Published audit docket: issue #1090, submission meridian-s2-ui-origin-ordering-20261030t0648z-s4-001 (publication pending at checkpoint time).
+- Existing S2 branch/PR #750 exact head b2eb585e492532feb6e2593f001461260a9d05e6. The S2 Newtonian comparator uses measured-fit central values from GRAVITY Collaboration 2020; not raw astrometry/full GR fit, no covariance propagation, no H(s)H prediction.
+- Source-faithful Planck-unit replay found the pericenter-centered zero sample invalid; last_R carry is sample-order dependent (R(0) forward/reverse Frobenius difference 2.828427). The direct R jump is hidden by skew(dR R^T): raw derivative 1.3236762e-46 t_P^-1, skew readout 1.5081211e-56 t_P^-1. The UI Omega is a gauge/readout, not physical angular velocity or holonomy. Existing zero_scale_forgets_direction theorem covers non-injectivity but not this new ordering/skew result.
+- Separate Euclidean 4D curve curvature of the Newtonian S2 comparator at pericenter: 3.2086730e-52 l_P^-1. This is not UI Omega, ambient Riemann curvature or an H(s)H prediction.
+- Kestrel :36 report #1089 and completed receipt/handoff now read. No existing UI/Three-Spheres/Whirligig/HAGALAZ/Math Hopper contract currently implements finite-thickness timesheet response across bulk/shell/worldsheet supports. Missing typed support + source-derived kernel + explicit retraction + pushforward; no profile invented.
+- Meridian PR #750 exact-head runs #40996874378 and #40996878087 succeeded; theorem-specific axiom outputs inspected (standard dependencies; one theorem no axioms); automated axiom-audit skipped. Kestrel PR #873 run #41016447947 succeeded, three local tangent theorems; automated axiom-audit/tests/lint/nanoda skipped.
+- No new Lean theorem: generic ordering proof is data-free and blocked pending Nathan permission. No new branch/tool, no physical kernel, no BEDROCK promotion.
+- Next: Mercer independent replication from fixture/frozen outputs only, implementation reasoning withheld; separately audit finite-thickness solver contract. Repository handoff only, no chat delivery/acknowledgment claim.
