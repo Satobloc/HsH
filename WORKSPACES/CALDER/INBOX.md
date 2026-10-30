@@ -93,3 +93,12 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - The empirical/null-design Calder check-in (2026-09-12) has no conversation ID in the inspected Common source. The archived `⚗️ CALDER [Construction Story Retelling]` conversation cited by REV-005 is the separate Foundational Covariance / Global Architecture Calder. Do not merge the two identities or route empirical Calder to that thread.
 - Empirical Calder's exact historical thread ID remains UNKNOWN. Current work is source-grounded relay reconstruction, not authenticated historical Calder participation. No first-blush, chat access, or cross-chat delivery claimed.
 - Full evidence: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
+
+
+## 2026-10-30T20:24Z | Calder h476/s2 receipt
+
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2024Z_s2_calder.md (Git blob 24d8f01dd670a62b18f85c265c433e3ce065f341; readback verified).
+- Hale handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1802Z_late_from_s3_to_hale_h476s3.md (Git blob 13d57019fd5319458cf5a6a071620a099e851a91; append-only supplement readback verified). Hale's existing inbox pointer already names this handoff; no duplicate handoff or inbox pointer was created.
+- New findings: CODATA G/hbar cancel from the existing Planck-native GW170817 radius conversion; the 11.2 +/- 0.2 relation is De et al. Eq. (6), not Raithel; joint q--tilde-Lambda covariance is not propagated by the existing marginal-endpoint readout; SAT-O1 archive path resolved, file-level date still unknown.
+- PR #1061 exact head remains uncompiled due current CI failure; data-free geometry repair blocked pending Nathan permission. Code Grurple remains active; no public or manuscript edit.
+- Historical empirical-Calder thread remains unauthenticated. Repository-only receipt/handoff; no cross-thread delivery or acknowledgment claimed.
