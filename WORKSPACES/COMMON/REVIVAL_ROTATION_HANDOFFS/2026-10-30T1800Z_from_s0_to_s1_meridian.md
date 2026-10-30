@@ -70,3 +70,8 @@ This is a continuation of the existing handoff, not a new worker identity or cro
 - Deliberate unrelated read advanced through TheTANGLE lines 1401-1440. Return cursor 1441.
 
 Meridian next: use the new genealogy report and preserve the distinction between direct 2026 one-core geometry, assistant X(w,Omega) reconstruction, historical Blockwave worldsheet, and the un-recovered Klein Fabric global map. Do not repeat the dimension count as if it were a physical validation. The highest-value next source task is to recover the raw Oct 18 messages and the adopted Klein Fabric definition, then type the map from global fabric to finite-core tube and slice/readout.
+
+
+## Existing-thread-first routing check
+
+The latest verified Meridian relay record is titled "Workshop Relay :48 | Meridian → Mercer", timestamp 2026-10-30T07:10:35Z. Its active focus is reproducing/attacking the S2 frame-ordering result and auditing finite-thickness solver support. No authenticated historical Meridian ChatGPT thread ID or cross-thread delivery is established. This repository handoff is context only; it does not claim that the next Meridian thread received or acknowledged it. Preserve Meridian's active S2/finite-thickness lane and treat this geometry genealogy as source context, not a replacement assignment.
