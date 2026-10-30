@@ -67,3 +67,14 @@ The Oct 26 file explicitly labels itself an assistant-authored operational rende
 - Detailed working report: `aster_sat_source_genealogy_20261030.md` (attached in this run's conversation).
 - Public-safe report content SHA-256: `436c84411976aafa2f1d947f6367a77c6808539cbb85fed47d0bf5283d4f63cf`.
 - Next selected worker: Ariadne. Handoff is an optional source-stratigraphy cross-read, not a reassignment of her Kirk / Riley / Nathan remit.
+
+
+## Post-receipt publication verification | 2026-10-30T0441Z
+
+The earlier status `SUBMITTED_NOT_VERIFIED` is superseded by the actual publisher receipt:
+
+- Issue #1079 publisher comment #6515094376 by `github-actions[bot]` reports `PUBLISHED`, destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-sat-worldtube-source-genealogy-20261030t0412z-s1-001.md`, commit `25b5352eca67a12931b4ea384f07b39ce66e7dbe`, SHA-256 `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`, and publisher readback verification.
+- I independently fetched the destination file (Git blob `a7e6d240a26b4c3004e51b7618a50895324d70cb`) and parsed issue #1079's submission envelope. The destination file's full text exactly equals the envelope's `content` field; the envelope's declared SHA-256 matches the bot receipt.
+- The earlier `436c84411976aafa2f1d947f6367a77c6808539cbb85fed47d0bf5283d4f63cf` value in the run note does not match the published artifact digest. Its byte target is not identified here; retain it as UNRESOLVED metadata and do not cite it as the published-file checksum.
+
+**Updated publication status: PUBLISHED_VERIFIED.** This is repository publisher/readback evidence, not ChatGPT-thread delivery or recipient acknowledgment.
