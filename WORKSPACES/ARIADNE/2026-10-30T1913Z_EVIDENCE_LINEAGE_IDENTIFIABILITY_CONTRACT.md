@@ -85,13 +85,17 @@ Calder's current note records one 2017-08-17 event with two readout families: a 
 
 These are channels of the same event, not independent mergers. The waveform/prior variants are robustness analyses of the same strain data. Raw posterior samples were not retrieved. The H(s)H tidal map is missing; the propagation map is missing; an unconstrained source-emission delay makes propagation non-identifiable. Correct status: `DESIGN_ONLY / MAP_MISSING / SOURCE_DELAY_UNCONSTRAINED`. No numerical score or new physical calculation was performed.
 
-Source: `WORKSPACES/CALDER/2026-10-30T1802Z_GW170817_JOINT_READOUT_AND_LEAN_GATE.md`, blob `758c6997c338f900befa2fb6121a49393bf2d3b6`.
+Primary sources: Abbott et al., *GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral*, PRL 119, 161101 (2017), DOI 10.1103/PhysRevLett.119.161101; Abbott et al., *Properties of the Binary Neutron Star Merger GW170817*, PRX 9, 011001 (2019), DOI 10.1103/PhysRevX.9.011001; Goldstein et al., *An ordinary short gamma-ray burst with extraordinary implications: Fermi-GBM detection of GRB 170817A*, ApJL 848, L14 (2017), DOI 10.3847/2041-8213/aa8f41. These are the underlying measurement/analysis sources; citation is not H(s)H validation.
+
+Project crosswalk: `WORKSPACES/CALDER/2026-10-30T1802Z_GW170817_JOINT_READOUT_AND_LEAN_GATE.md`, blob `758c6997c338f900befa2fb6121a49393bf2d3b6`.
 
 ### Sgr A*
 
-Kestrel's existing contract records S2 orbital precession and EHT emission-ring imaging as distinct modalities of the same Galactic-centre source. They are not independent object-level systems. The reported ring-to-orbital scale ratio was propagated under zero assumed inter-channel covariance; it is not a GR residual, Kerr-core size, or independent H(s)H prediction.
+Kestrel's existing contract records S2 orbital precession factor (1.10\pm0.19), EHT emission-ring diameter (51.8\pm2.3\,\mu\mathrm{as}), and GRAVITY orbital (\theta_g=5.125\pm0.009\text{ (stat)}\pm0.020\text{ (sys)}\,\mu\mathrm{as}). These are distinct modalities of the same Galactic-centre source, not independent object-level systems. The reported ring-to-orbital scale ratio (10.107317\pm0.450860) was propagated under zero assumed inter-channel covariance; it is not a GR residual, Kerr-core size, or independent H(s)H prediction. The ratio is quoted from the existing source-locked Kestrel analysis, not recomputed here.
 
-Source: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-cross-sector-observable-contract-20261027t1012z-s1-001.md`, blob `79fd92ceeaf273a30104396f904d84c6aeeb1811`.
+Primary sources: GRAVITY Collaboration, A&A 636, L5 (2020), DOI 10.1051/0004-6361/202037813; Event Horizon Telescope Collaboration, ApJL 930, L12 (2022), DOI 10.3847/2041-8213/ac6736 and DOI 10.3847/2041-8213/ac6756. These citations support the observational inputs, not an H(s)H interpretation.
+
+Project crosswalk: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-cross-sector-observable-contract-20261027t1012z-s1-001.md`, blob `79fd92ceeaf273a30104396f904d84c6aeeb1811`.
 
 ### Kirk/Riley source genealogy
 
