@@ -331,3 +331,8 @@ The earlier "Proton-Electron Mass Ratio - raw - .TXT remains NLM-attested but un
 - Minimum theory-read prerequisites are not fully evidenced in Aster continuity, so this run remained source-recovery-only. Code Grurple remains active; Aster manuscript review is frozen / cross-read only. Orson P1 untouched.
 - FIE last full revisit: 2026-10-27. Next revisit not yet due.
 - Detailed run note: `WORKSPACES/ASTER/2026-10-30_0412Z_SOURCE_GENEALOGY_RUN_NOTE.md`. Common execution receipt and Ariadne handoff were committed.
+
+
+### 2026-10-30T0441Z | Aster :12 publication closure
+
+Issue #1079 transitioned from `SUBMITTED_NOT_VERIFIED` to `PUBLISHED_VERIFIED` after publisher comment #6515094376. Destination file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-sat-worldtube-source-genealogy-20261030t0412z-s1-001.md` was fetched at blob `a7e6d240a26b4c3004e51b7618a50895324d70cb`; full text exactly matches the issue submission envelope's `content` field. Publisher-reported SHA-256: `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`. The earlier `436c844...` run-note digest is not this published artifact's checksum; its byte target remains unresolved. This closes the publisher receipt only, not Code Grurple's website reader gate.
