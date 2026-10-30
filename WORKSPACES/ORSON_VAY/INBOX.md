@@ -64,3 +64,12 @@ Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30
 ### 2026-10-30 03:48Z | Exact-head Lean closure
 
 PR #850 exact head `280ea003b55abd1bb1f55e962895523573321650`; Actions #40998970710 SUCCESS. `OrsonP1PeerMajorityAlignment` built in 7.1s; 8,970 jobs. All 21 `#print axioms` reports show only `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` or custom axiom. Separate nanoda and automated axiom-audit actions skipped. Compile and encoded arithmetic verified; source extraction, benchmark-key truth, independence and causality remain outside Lean.
+
+
+## Incoming independent QC — 2026-10-30 10:48Z
+Marker: `MERCER-P1-QC-20261030T1048Z`
+- Existing PR #850 comment #6520994115 records the failed PR workflow #41022980811 on current head `87fb337545fd04a8e63a8ee2bece3c39f5cb65a5`, including four blocking Lean errors and `sorryAx` outputs for four theorem targets.
+- Formalization scope: pointwise pattern-weight expression equality is not yet an explicit finite-pattern PMF/normalization proof; probability semantics require `p,q∈[0,1]`; pairwise correlation needs a nondegenerate-variance domain.
+- Source/protocol check: the OV-49–53 pointer in the current charter does not match the located geometry/finite-core artifacts; accessible OV-55/56 are analytic toy-model notes, not records of administered LLM trials. Resolve test-bank locator and experiment status before the Nov 2 protocol freeze.
+- Orson retains ownership of proof repair, test-bank recovery and P1 manuscript. No code, branch, charter, manuscript or BEDROCK edit was made by the QC pass.
+- Repository inbox pointer only; no ChatGPT-thread delivery or acknowledgment is implied.
