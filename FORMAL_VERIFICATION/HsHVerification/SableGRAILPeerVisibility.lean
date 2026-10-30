@@ -88,7 +88,9 @@ theorem transcript_length_is_scope_count
 
 /-- Abstract the source loop's append-after-response behavior. -/
 def commitReplies (context replies : List Message) : List Message :=
-  replies.foldl (fun acc reply => acc ++ [reply]) context
+  match replies with
+  | [] => context
+  | reply :: rest => commitReplies (context ++ [reply]) rest
 
 theorem commitReplies_eq_append (context replies : List Message) :
     commitReplies context replies = context ++ replies := by
