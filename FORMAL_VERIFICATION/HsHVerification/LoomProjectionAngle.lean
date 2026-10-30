@@ -66,6 +66,30 @@ theorem tilted_component_partition (δ : ℝ) :
             (tiltedFromFourthAxis δ)
     _ = 1 := tilted_vector_is_unit δ
 
+/-- Coherent accumulation adds the angle before applying cos². -/
+def coherentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
+  Real.cos ((n : ℝ) * δ) ^ 2
+
+/-- Independent per-step survival multiplies the one-step cos² factors. -/
+def independentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
+  Real.cos δ ^ (2 * n)
+
+/--
+These are different mathematical models: accumulated angle then cos²
+is not generally the same as multiplying n independent cos² factors.
+This exact counterexample is mathematical only, not a physical crossing model.
+-/
+theorem coherent_and_independent_accumulation_differ :
+    coherentAccumulation 2 (Real.pi / 2) ≠
+      independentAccumulation 2 (Real.pi / 2) := by
+  change Real.cos ((2 : ℝ) * (Real.pi / 2)) ^ 2 ≠
+    Real.cos (Real.pi / 2) ^ (2 * 2)
+  rw [show (2 : ℝ) * (Real.pi / 2) = Real.pi by ring,
+    Real.cos_pi, Real.cos_pi_div_two]
+  norm_num
+
+#print axioms coherent_and_independent_accumulation_differ
+
 #print axioms fourth_axis_projects_to_zero
 #print axioms spatial_projection_pythagorean_decomposition
 #print axioms tilted_vector_is_unit
