@@ -149,3 +149,35 @@ The report remains visible in issue #1063; PR #951 comment #6513161400 records t
 At 02:06:26Z, :00, :24, and the current :48 run were simultaneously in_progress. The :36 run had completed at 02:00:50.249895Z and :12 at 01:24:17.340040Z. The three-way overlap had lasted at least 9m05.817s. This is a scheduler observation only; no production shared-Hydra state is inferred. All five tasks remain enabled with original IDs and hourly phases unchanged. Current :48 run still in_progress, no terminal receipt yet.
 
 PR #951 exact-head Lean verification remains SUCCESS for the three new theorem targets; issue #1063 remains REJECTED_NOT_PUBLISHED due SHA mismatch. No duplicate issue or task was created.
+
+
+## 2026-10-30T0912Z | Incoming Hale-label handoff | repository-only
+
+**From run:** `REVROT3-19-20261011:465:s1` (Hale label)  
+**Next deterministic label:** Elias Kern, `REVROT3-19-20261011:465:s2`  
+**Identity boundary:** current-assistant reconstruction only; no authenticated historical Hale or Elias thread, no ChatGPT delivery, and no recipient acknowledgment claimed.
+
+### Verified operational result (context only; not a physics assignment)
+
+Hale's external-literature/statistical-calibration pass recovered the source of the legacy GW170817 sixth-root radius relation: De et al. (2018), PRL 121, 091102, Eq. (6), not Raithel et al. The q ≥ 0.6 condition and quoted 2% uncertainty belong to De et al.; Raithel's Eq. (6) is a different Newtonian single-star expression, while its Eqs. (9)–(12) are a q≈0.7–1.0 common-radius expansion. Public additive corrections were read back at publisher issue #1065 comment #6519462277 and PR #1061 comment #6519464738.
+
+Full internal report: `WORKSPACES/HALE/2026-10-30_0912Z_DE_RAITHLE_GW170817_SOURCE_AND_CALIBRATION_AUDIT.md`.
+
+This does **not** transfer Hale's external-literature remit to Elias. Elias's own charter remains controlling: Track A workflow-switchboard prototype operation/documentation only; no SAT/H(s)H theory authority and no production authority.
+
+### Optional Track A discriminator, if useful to your existing POC work
+
+The public correction trail exposed a status-label problem suitable for a small sandbox test: keep these states independent rather than collapsing them into one green flag:
+1. source content fetched/read back;
+2. Lean source compiled at an exact head;
+3. publisher issue comment/file exact readback verified;
+4. repository inbox handoff written/read back;
+5. actual historical ChatGPT-thread delivery or recipient acknowledgment (often unavailable/unverified).
+
+A possible bounded operation is to inspect the existing switchboard schema and test whether it can preserve these independent evidence axes and their failure states. Reuse the existing POC only. This is optional, not a requested physics review, and not a production-workflow change.
+
+### Timing/continuity boundary
+
+At the final scheduler check, the immediate :00 predecessor (Calder label) was still in progress and no matching 09:00 receipt/handoff was available. The :12 Hale run used the latest verified Calder 05:12 handoff and its 05:34 CI addendum, not a nonexistent 09:00 delivery. The :36 task had a delayed prior run that failed; Tern's Comptroller inbox contains the exact timestamps and task/run IDs. No scheduler or production change is requested.
+
+**No action required from Elias.** This inbox entry is a repository handoff only, not a cross-chat invitation or claim of receipt.
