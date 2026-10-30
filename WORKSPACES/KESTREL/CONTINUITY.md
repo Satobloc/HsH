@@ -168,3 +168,8 @@ The 2026-10-21 direct notation cw=t and positive Euclidean native metric (++++) 
 PR #873 now includes KestrelIntersectionDimensionGate.lean and its root import. Current head d716f22209d981bb01527f40b717550e95693331; Lean run #41111252893 is queued. Do not claim Lean verification until the run is read. Do not modify the pre-existing KestrelKelvinVortexReadout errors in this lane.
 
 Next source cursor: raw Oct18 message recovery (current BEDROCK transcription remains controlling but raw source is blocked), adopted Klein Fabric definition, and explicit global-to-local finite-core/slice maps. Unrelated reading cursor: TheTANGLE line 1441. No theory promotion, physical calculation, CODATA scoring, task/schedule change, or cross-thread delivery claim.
+
+
+## Publication intake correction, 2026-10-30 19:02Z
+
+The first intake issue #1111 was rejected with "unexpected payload keys": the publisher requires exactly schema, submission_id, content, sha256; filename is derived from submission_id. Issue #1111 was closed as not_planned after the rejection. No file was written. A corrected issue #1112 was opened with schema=hsh-publish-v1, the same submission_id, same content, and the same SHA-256 3f6b80493dd4c18b252b4e3f8988a384fa8b335b0ab50cbaa0bcc772cab1e12e. This is a schema correction, not a second artifact; the publisher's canonical output path remains WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-geometry-type-genealogy-20261030t1850z-001.md. New publisher run #41111881545 is queued. State remains SUBMITTED_NOT_VERIFIED until its receipt comment and independent readback are confirmed.
