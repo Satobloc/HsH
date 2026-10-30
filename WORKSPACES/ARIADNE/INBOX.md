@@ -175,3 +175,6 @@ The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a
 - Full report: `WORKSPACES/ARIADNE/2026-10-30T2324Z_CODATA_RECOIL_VARIANCE_AND_SOURCE_PROVENANCE.md` (blob `f4ef5a02cf4f7d0f1d3b2c3061e3182194bbb92a`). Existing issue #907 received additive comment #6535733803; exact readback and SHA-256 recorded in receipt.
 - Optional Alberr context only: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2324Z_from_s2_to_s3_alberr.md`. No task or response expected; no cross-thread delivery/acknowledgment claimed.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2324Z_s2_ariadne.md`; exact readback verified.
+
+
+Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, raw export update `2026-09-23T05:25:58.790Z`; current live usability unverified. This Workshop Relay chat is separate. No cross-thread delivery/acknowledgment claimed.
