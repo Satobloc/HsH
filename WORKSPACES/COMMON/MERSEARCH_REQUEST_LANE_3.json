@@ -1,30 +1,30 @@
 {
   "lane": 3,
-  "request_id": "enheduanna-temple-hymns-nathan-source-20261030-1340",
-  "requester": "Workshop Relay :36 / Enheduanna source-layer provenance reconstruction",
-  "requested_at": "2026-10-30T13:40:14Z",
+  "request_id": "loom-sato-blockwave-source-set-20261030-2017",
+  "requester": "Workshop Relay :12 / Loom source-provenance recovery",
+  "requested_at": "2026-10-30T20:17:14Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND (Enheduanna OR Enheduana OR \"Temple Hymns\" OR \"Sumerian Temple Hymns\" OR Q000750 OR \"TCS 3\" OR \"witness O\" OR \"siglum O\" OR \"Nin-me-sar-ra\" OR \"Exaltation of Inanna\")",
-  "purpose": "Source-first search for Nathan-authored original statements about Enheduanna, the Temple Hymns, manuscript witness sigla A/B/O/Q, TCS 3, CDLI composite Q000750, the original 1969 volume/plates, and any corrections or access instructions. Recover exact source path/blob/commit/message UUID/timestamp/speaker, surrounding context, duplicate/derivative relations and later corrections. Determine whether any Nathan Direct philological intent or original O-accession locator exists. Discovery only; do not infer a philological position from assistant summaries or roleplay.",
+  "query": "(name:SAT_O*.pdf OR path:*SAT*O*Core*Modules* OR name:*Blockwave* OR path:*Blockwave* OR name:*WHIRLIGIG* OR path:*WHIRLIGIG*) OR (author:user AND ((\"worldline\" NEAR/12 \"timesheet\") OR (\"time wavefront\" NEAR/12 filament) OR (filament NEAR/12 \"time surface\") OR (\"SAT-O\" OR SAT_O OR Blockwave OR SATO))) OR (author:assistant AND ((Blockwave NEAR/12 Lagrangian) OR (SAT20 NEAR/12 filament) OR (\"unified action\" NEAR/12 timesheet)))",
+  "purpose": "Recover a sizeable interrelated set of original SAT-O and Blockwave mathematical materials, including module PDFs and text derivations, while tracing exact repository path, blob SHA, source commit, raw conversation/message UUID, timestamp and speaker. Separate Nathan-authored geometric statements, user-role pasted material, assistant/NotebookLM equations, and later project summaries. Identify PDF/text duplicate or derivative relations and note whether module PDFs contain readable text or require visual/OCR review. Discovery only: no theory promotion, no new mathematical derivation, no data-free calculation, no publication claim.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original source paths, exact blob SHAs, repository commits and message UUIDs",
-    "speaker/role and source dates, with surrounding context and later corrections",
-    "duplicate/prefix/superset and source-exposure relationships",
-    "coverage, exclusions, size/extension limitations and omissions"
+    "candidate original SAT-O/Blockwave source paths, exact blob SHAs and repository commits",
+    "raw conversation UUID/message UUID/timestamp/role plus surrounding context where available",
+    "duplicate, prefix, source, PDF/text, and derivative relationships",
+    "coverage, exclusions, file-extension/size limits, and omissions"
   ],
   "exclusions": [
-    "Use only this completed lane 3 request slot; previous request completed successfully and all three outputs were verified",
-    "Do not overwrite any other pending/running lane",
+    "Reuse only lane 3 after verifying its previous request-scoped manifest and receipt; do not overwrite another pending/running lane",
     "Do not publish raw source excerpts or private HSH_RESOURCES paths",
-    "Do not treat assistant-generated roleplay, summaries or reconstructions as Nathan Direct",
-    "Do not infer A/B/O/Q accession identities from TCS 3 page numbers, museum numbers, blank Witness fields or composite membership alone",
-    "Do not enter QUARANTINE or PRIOR_ART",
-    "Do not promote any theory claim or modify BEDROCK"
+    "Do not treat user-role pasted assistant text as Nathan-authored equations",
+    "Do not treat assistant-generated action/field equations as Nathan Direct without source evidence",
+    "Do not treat compact receipts as exhaustive search results",
+    "Do not create software, branches, PRs, automations, or recurrence",
+    "Do not modify BEDROCK, promote theory, or execute data-free mathematics"
   ],
   "status": "requested"
 }
