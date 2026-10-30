@@ -85,6 +85,18 @@ theorem coherent_and_independent_accumulation_differ :
     Real.cos_pi, Real.cos_pi_div_two]
   norm_num
 
+
+/-- If δ is the tilt away from the chosen unit normal, α = π/2 - δ
+is the complementary angle to the spatial subspace. This records only the
+angle convention; it does not assign a physical meaning to either angle. -/
+noncomputable def angleToSubspaceFromTilt (δ : ℝ) : ℝ :=
+  Real.pi / 2 - δ
+
+/-- Complementary angle conventions give cos(α) = sin(δ). -/
+theorem cos_angle_to_subspace_from_tilt (δ : ℝ) :
+    Real.cos (angleToSubspaceFromTilt δ) = Real.sin δ := by
+  simp [angleToSubspaceFromTilt, Real.cos_sub]
+
 #print axioms coherent_and_independent_accumulation_differ
 
 #print axioms fourth_axis_projects_to_zero
