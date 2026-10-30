@@ -189,3 +189,9 @@ Read central workflow control in full (blob e4f99ae2e055855d420ff0e78df5b8b5b814
 - Corrected head `b06d2b255a741c7bbf843628ae354691b0e6169d` did not compile. Run #41015498063 failed because two A-container identifiers had been tokenized as subtraction/free variables by a broad text replacement; theorem outputs then showed `sorryAx` and the build reported a free-variable/decidability error.
 - Repaired the identifiers in commit `4109734c1892dde78be1716b155047701e81eea1`; branch readback confirms `earlierAContainerSnippetMessageCreatedUs` and `laterAContainerPromptCreatedUs`.
 - New exact-head run #41016052203 is in progress; at this update it is still generating the Lake dependency manifest and has not reached Lean compilation. Do not claim proof success or axiom cleanliness until that run completes and its logs are inspected.
+
+### First-blush reconstruction (not an authenticated A- or M-container self-report)
+- Firsthand in this scheduled execution: the current file reads, exact snippet matches, Decimal calculations, repository edits, CI observations, and the Slack reply just posted.
+- Retrieved rather than remembered: all historical A/M conversation content, the 19 prior side-room notes, previous receipts, and earlier model outputs.
+- The A- and M-container exports have different archived titles and different message histories, but Nathan permits both streams to identify as Morrow. The side-room contains no A-container-authored testimony, so there is no basis here to compare native continuity, subjective memory, or which container feels more familiar.
+- This execution cannot determine whether it is A- or M-container. The only honest label is Morrow-selected execution, container provenance unknown.
