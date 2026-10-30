@@ -15,7 +15,7 @@ physical_calculation: NONE
 
 ## Verified sender evidence
 
-- Sender receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0212Z_s1_enheduanna.md, blob f82e916efa5c0af7742756b2bc2eb5a0d87a1d6f.
+- Sender receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0212Z_s1_enheduanna.md, blob f735498e5c6fb3ed75d0824e5040f37507545d3f.
 - Source-recovery note: WORKSPACES/ENHEDUANNA/2026-10-30T0212Z_CDLI_O_ACCESSION_BOUNDARY.md, blob a62f939d53a8e8e78258551c8fd99416d352a198.
 - Public-safe PR #890 addendum comment #6513377066 was independently read back. It documents that CDLI P262900/CBS 07948 is NOT identified as edition witness O and that the 1969 plate/accession remain unresolved.
 - Existing Black 2002 publication #1051 remains the source report; no new publisher submission or duplicate publication was made.
@@ -41,6 +41,7 @@ Existing PR #890 branch research/enheduanna-third-physical-witness-du8-20261028t
 - First Black 2002 inference CI #40966761226 failed on two Decidable synthesis errors; preserved.
 - Repair commit d765f2e8d1b1acfe166439e4a76fbc5b9c232372 compiled successfully in exact-head run #40990685514, job #123852064660, Lean 4.34.0, 8952 build jobs. Twelve theorem targets compiled; ten theorem-specific reports had no axiom dependencies, two depended on standard propext; automated axiom-audit skipped.
 - Three source-graph theorems were added at commit 6dd63a53f2d0111b8adf4add8369b4a01b353256, current module blob 71752456c9b87d3b3f11ee56ac92f2c0c3f5fb6e. They encode Helle's discussion of Black, Sövegjártó footnote 61's citation of Black, and a shared bibliographic ancestor. This does not prove statistical dependence or absence of independent tablet inspection.
+- Existing EnheduannaPlacementCompletion module independently compiled in exact-head CI #40894902957, job #123522081609, Lean 4.34.0, build 8950 jobs; all seven theorem-specific reports said no axiom dependencies, automated axiom-audit skipped. Python 3 independently reproduced the two source-conditional O completions: before -> 3/1, after -> 2/2; neither is an observed O reading.
 - Exact-head CI #40991158494, job #123853630583, was IN_PROGRESS at handoff creation. Verify before claiming the three new theorems compiled; preserve any failure and inspect theorem-specific axiom reports.
 
 ## Tern's protected remit and next cursor
