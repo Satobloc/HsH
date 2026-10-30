@@ -130,3 +130,64 @@ The nominal next ring identity, Hale at h=457/s3, already completed its 2026-10-
 Unrelated reading: TheTANGLE source, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 831–860 actually read; next cursor 861. Last FIE re-review 2026-10-27, so the 14-day trigger is not due.
 
 No new tool, branch, automation, task ID, schedule, phase, signet, chat rename, or BEDROCK promotion was made.
+
+
+## 1A. Verbatim assistant-synthesized composite and later user re-paste
+
+### Assistant synthesis at 2025-10-19T12:29:46.538Z (message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`)
+
+The assistant's displayed “Unified SAT / Blockwave Action” was:
+
+```tex
+S[g_{\mu\nu}, u^\mu, \theta; J^{\mu\nu}]
+= \int d^4x\,\sqrt{-g}\,
+\Big[
+\frac{M_P^2}{2}R
++\frac{f_\theta}{2}\nabla_\mu\theta\nabla^\mu\theta
+-\Lambda_\theta^4(1-\cos\theta)
++\frac{c_1}{2}P^{\alpha\beta}P^{\mu\nu}
+ (\nabla_\alpha u_\mu)(\nabla_\beta u_\nu)
++\frac{c_2}{2}(\nabla_\mu u^\mu)^2
++\lambda(u^\mu u_\mu+1)
++\frac{\kappa_0}{4}J_{\mu\nu}P^\mu{}_{\rho}P^\nu{}_{\sigma}J^{\rho\sigma}
++\frac{\kappa_2\ell^2}{4}(\nabla_\alpha J_{\mu\nu})
+ P^\alpha{}_\beta P^\mu{}_\rho P^\nu{}_\sigma
+ (\nabla^\beta J^{\rho\sigma})
++\frac{g_h}{2}F_{\mu\nu}(\theta)J^{\mu\nu}
++\frac12 J_{\mu\nu}\mathcal M^{\mu\nu}{}_{\rho\sigma}(\theta,u)J^{\rho\sigma}
+\Big].
+```
+
+This is the assistant's composite equation, not a verbatim equation recovered from one original file. Its (f_\theta,\Lambda_\theta,c_1,c_2,\kappa_0,\kappa_2,J^{\mu\nu}) packaging is not identical to the (ho,f^2,\mu^4,\alpha_1/M_*^2) minimal Lagrangian in source A.
+
+### Later user-role re-paste at 2025-10-19T14:49:49.631Z (message `f77f769e-8e74-4def-b4c9-bced0edbb8bc`)
+
+```text
+S[g_{μν}, u^μ, θ; J^{μν}] = ∫ d^4x √(-g) [
+  (M_P^2 / 2) R
++ (f_θ / 2) ∇_μθ ∇^μθ
+− 2 Λ_θ^4 sin^2(θ / 2)
++ (1/2) (c_1 P^{αβ} P^{μν} (∇_α u_μ)(∇_β u_ν) + c_2 (∇_μ u^μ)^2)
++ λ (u^μ u_μ + 1)
++ (1/4) (κ_0 J_{μν} P^{μ}_ρ P^{ν}_σ J^{ρσ} + κ_2 ℓ^2 (∇_α J_{μν}) P^{α}_β P^{μ}_ρ P^{ν}_σ (∇^β J^{ρσ}))
++ (g_h / 2) F_{μν}(θ) J^{μν}
++ (1/2) J_{μν} 𝓜^{μν}_{ρσ}(θ, u) J^{ρσ}
+]
+```
+
+The assistant review's “INPUT ACTION (as given)” preserves this positive kinetic sign, while its separate comment 2 says the negative sign is standard. The potential identity (2\sin^2(\theta/2)=1-\cos\theta) is a valid rewrite; it does not change the kinetic sign. No corrected full action was actually emitted in that review.
+
+### Source A minimal-Lagrangian excerpt (verbatim, inspected lines 96–104)
+
+```tex
+\mathcal{L}_{\min} =
+\frac{M_P^2}{2}R
++\lambda(u^\mu u_\mu+1)
++\frac{\rho}{2}(\nabla_\mu u_\nu)(\nabla^\mu u^\nu)
++\frac{f^2}{2}\partial_\mu\theta\,\partial^\mu\theta
+-\mu^4(1-\cos\theta)
++\frac{\alpha_1}{M_*^2}[(\nabla u)^2][(\partial\theta)^2]
++\cdots
+```
+
+The ellipsis is retained because the inspected excerpt continues beyond the requested lines; no missing terms are reconstructed here.
