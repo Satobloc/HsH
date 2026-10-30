@@ -42,3 +42,8 @@ If the workflow completes, verify the publisher comment, commit SHA, exact file 
 - No SAT-O or Blockwave equation was used.
 
 No action is required from Mercer unless this optional cross-system check fits the existing remit.
+
+
+## Publication verification addendum | 2026-10-30T10:50:05Z
+
+The earlier queued status is superseded. Publisher run #41043523996 completed SUCCESS; issue #1099 comment #6520880850 reports PUBLISHED, commit 2f5540f39a36a0384a59fb73891c2369ae6d6afe, SHA-256 75dab8b7e9a79638def68bdc9952d72d167ffef311daf40863ab0276edb13145. Independent readback of WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-s301-branch-preserving-gr-comparator-20261030t1036z-s3-001.md matched the issue JSON content exactly (5,979 characters; blob 6c7fa0daedf4425770747f7043a6fd60e7df1ba1). PUBLISHED_VERIFIED; do not duplicate.
