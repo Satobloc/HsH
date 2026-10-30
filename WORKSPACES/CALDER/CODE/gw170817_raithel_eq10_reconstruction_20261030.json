@@ -1,0 +1,76 @@
+{
+  "Eq10_inversion": {
+    "delta0_at_q1_root": "0.164050157",
+    "q0p73_Mc_sensitivity_km": ["12.812481312", "12.834105753"],
+    "q0p73_radius_shift_km": "-0.025083318",
+    "q0p73_second_order_radius_Planck_lengths": "7.933954322233E+38",
+    "q0p73_second_order_radius_km_external_readout": "12.823293533",
+    "q1_Mc_sensitivity_km": ["12.837543481", "12.859210221"],
+    "q1_radius_upper_Planck_lengths": "7.949473728413E+38",
+    "q1_radius_upper_km_external_readout": "12.848376851",
+    "second_order_tildeLambda_correction_at_q0p73": "0.011959256",
+    "xi_at_q1_root": "0.156571478"
+  },
+  "Raithel_Table1_reproduction_at_Mc_1p188": {
+    "10": {"published_tildeLambda": "143.400000000", "relative_error": "0.001436598", "reproduced_tildeLambda": "143.606008103"},
+    "11": {"published_tildeLambda": "268.000000000", "relative_error": "0.001543720", "reproduced_tildeLambda": "268.413716962"},
+    "12": {"published_tildeLambda": "465.800000000", "relative_error": "0.001483222", "reproduced_tildeLambda": "466.490884673"},
+    "13": {"published_tildeLambda": "764.600000000", "relative_error": "0.001502231", "reproduced_tildeLambda": "765.748605531"}
+  },
+  "assertions_passed": 12,
+  "inputs": {
+    "Raithel_q_expansion_range": ["0.700000000", "1.000000000"],
+    "chirp_mass_Planck_units": "1.083540202010E+38",
+    "high_spin_q_lower_endpoint": "0.530000000",
+    "low_spin_PhenomPNRT_tildeLambda_90pct_HPD": ["70.000000000", "720.000000000"],
+    "low_spin_q_interval": ["0.730000000", "1.000000000"],
+    "source_frame_chirp_mass_Msun": "1.186000000",
+    "source_frame_chirp_mass_sensitivity_Msun": ["1.185000000", "1.187000000"]
+  },
+  "legacy_unverified_sixth_root_fit_comparison": {
+    "Eq10_q1_radius_km": "12.848376851",
+    "effective_Eq10_coefficient_at_this_point": "11.025285025",
+    "legacy_11p2_radius_km": "13.051981913",
+    "legacy_minus_Eq10_km": "0.203605061",
+    "status": "not found as Eq. (6); retained only as an unverified approximation"
+  },
+  "limitations": [
+    "The 720 value is a 90% HPD upper endpoint, not a Gaussian measurement with a symmetric sigma.",
+    "Eq. (10) is a quasi-Newtonian common-radius relation under the paper's equal-mass/equal-radius approximation.",
+    "The q=0.73 result uses only the Eq. (9) second-order term; O((1-q)^3) is omitted.",
+    "The high-spin q interval extends below the paper's q approximately 0.7-1.0 expansion range; no high-spin radius conversion is made.",
+    "The calculation transforms published posterior summaries; it is not a new posterior inference, raw-strain analysis, or independent prediction.",
+    "The paper's 6.5% accuracy statement concerns the Yagi-Yunes compactness relation; it is not asserted here as a calibrated 2% radius uncertainty.",
+    "No H(s)H worldtube-to-Love-number mapping has been supplied or tested."
+  ],
+  "low_spin_waveform_family_upper_endpoint_radius_km": {
+    "PhenomDNRT": {"q0p73_second_order": "12.852401967", "q1": "12.877282652", "tildeLambda_upper": "730.000000000"},
+    "PhenomPNRT": {"q0p73_second_order": "12.823293533", "q1": "12.848376851", "tildeLambda_upper": "720.000000000"},
+    "SEOBNRT": {"q0p73_second_order": "12.733997392", "q1": "12.759705559", "tildeLambda_upper": "690.000000000"},
+    "TaylorF2": {"q0p73_second_order": "13.127323080", "q1": "13.150314408", "tildeLambda_upper": "830.000000000"}
+  },
+  "native_units": "Planck units throughout calculation: c=G=hbar=1",
+  "planck_constants_and_conversion": {
+    "GM_sun_over_c2_km_external_readout": "1.476625038050E+0",
+    "G_CODATA_2022_m3_kg_s2": "6.674300000000E-11",
+    "IAU_nominal_GM_sun_m3_s2": "132712440000000000000.000000000",
+    "c_m_s_exact": "2.997924580000E+8",
+    "hbar_CODATA_2022_J_s": "1.054571817000E-34",
+    "planck_length_m": "1.616255023929E-35",
+    "planck_mass_kg": "2.176434342051E-8"
+  },
+  "python": "3.13.5",
+  "q_mass_ratio_check": {
+    "R13_q07_second_order_correction": "0.014049267",
+    "published_Table1_R13_q07_correction_approx": "0.014"
+  },
+  "system": "GW170817 binary neutron-star inspiral, observed 2017-08-17",
+  "table1_max_relative_error": "0.001543720",
+  "unit_conversion_cross_check": {
+    "absolute_differences_km": ["0E-9", "0E-9"],
+    "q0p73_Planck_native_km": "12.823293533",
+    "q0p73_geometric_unit_km": "12.823293533",
+    "q1_Planck_native_km": "12.848376851",
+    "q1_geometric_unit_km": "12.848376851"
+  }
+}
