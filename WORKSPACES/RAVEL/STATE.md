@@ -83,3 +83,14 @@ Keep charge, mass, exclusion, Kelvin reach, and any EM/gravity weighting as live
 ## Next restart action
 
 Read `CONTINUITY.md`, then inspect repo changes newer than the recorded checkpoints. Do not assume this file is current merely because it is named `STATE.md`. Sandbox reconstruction is active project-wide; before propagating any sandbox result outside sandbox, re-check the project-wide standdown and obtain the required release/promotion authority.
+
+
+## 2026-10-30 07:12Z — source-genealogy / minimal carrier-readout gate
+
+See WORKSPACES/RAVEL/2026-10-30_0712Z_MINIMAL_CARRIER_READOUT_SOURCE_GATE.md (latest blob 8dd8db91c9cef9c6e492c6a7be71d13e4857238f).
+
+Nathan-direct source review confirms distinct centerline/history, finite-core worldtube, timesheet, and optional responsive-medium layers. The direct “induction current connection within the timesheet thickness” remains qualitative; no Nathan-authored electromagnetic current equation or typed worldtube-to-current operator was recovered. The archived line-current and two-form worldsheet-current equations are assistant/document-derived and not interchangeable.
+
+The 2026-09-16 point helix kernel and 2026-10-22 full-core coarea sandbox are compatible at different resolutions. The historical alpha ambiguity is resolved only by naming separate normal and plane angles; Mercer PR #917 exact-head CI compiled the conditional trig identities, but its new module has no theorem-specific axiom report.
+
+No new physical calculation, data-free proof, or theory promotion. Existing real-data Ravel PR #993 CI remains successful. Current unresolved bridge: finite-core worldtube + timesheet + optional medium -> source-faithful conserved electromagnetic current -> measured charge profile/form factor. Next Ravel cursor: define this readout only from a recovered Nathan-direct source or a separately approved derivation.
