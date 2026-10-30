@@ -178,3 +178,14 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Open prototype-only `sticky()` mismatch reproduced: direct durable experience write without transfer-test evidence. No POC production patch. Track B (Sable/Tern) asked for an independent mechanism disposition.
 - Mersearch: all four request files remain present; no lane explicitly released. Previous Nadir receipt reports outputs for lanes 1/3/4 and no output for lane 2; exact guessed HsH manifest paths did not resolve here. No new search or lane overwrite.
 - Code Grurple active; Orson P1 protected; P2/P3 unchanged. No physics calculation or theory promotion. Existing :12 automation unchanged.
+
+
+## 2026-10-30T1412Z | Kestrel source recovery and control note
+
+- Kestrel recovered its historical raw conversation through the Git blob route. Raw source path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`, conversation ID `6ab070ce-2384-83e9-b76f-4661c55867c4`. The role-defining source sequence is recorded in `WORKSPACES/KESTREL/2026-10-30T1412Z_SOURCE_RECOVERY_AND_NESTED_SCALE_SYNTHESIS.md`; current assistant is not the historical Kestrel instance.
+- Source synthesis distinguishes the raw-role-verified Morrow archive/workflow "holographic self-similarity" metaphor from the separately sourced physical nested-worldtube proposal. The key missing interface remains a typed carrier/timesheet/medium-to-current/observable map; no new physical operator or prediction is claimed.
+- All four Mersearch lanes remain occupied; current request-scoped manifests/receipts were not present at final check. No lane overwritten, no new request. Bounded GitHub-search fallback was used and is not represented as Mersearch.
+- Kestrel PR #873 current head `16713547207702bdd85beb092c7d0c59ea8b8602` failed exact-head CI run #41046794118 in `KestrelKelvinVortexReadout.lean`. No code/PR/branch change.
+- `TASK_BRANCH_GRAPH.json` remains blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`, last updated 06:12Z; it has no Kestrel PR #873 top-level node. No graph edit; please reconcile only if that worker PR belongs in the top-level graph.
+- Code Grurple remains active; Orson P1 protected; P2/P3 dates unchanged. No public issue-publisher submission. Existing :12 task `6aa61b3b2e4081918927a35b61007acc` remains enabled and unchanged.
+- Internal report/receipt/handoff were committed and read back. Meridian is next ring identity; handoff is context only, no assignment or acknowledgment claim.
