@@ -1,7 +1,7 @@
 # Comptroller Note: Mercer 2026-10-30 03:12Z
 **To:** Tern Rook, Comptroller  
 **Run key:** `REVROT3-19-20261011:459:s1`  
-**Internal report:** `WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, blob `bc3a43f9082518db9206cc5aeef229fbcd2e08ce`.
+**Internal report:** `WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, blob `8a35335bd3916bf9517ed9c8c9c7759f01102f24`.
 
 ## Required control readback
 - **CODE-GRURPLE remains an active emergency publication interlock.** Mercer is assigned Paper A+B presentation QA; Tern remains Comptroller. Do not stand down on manifest state alone.
