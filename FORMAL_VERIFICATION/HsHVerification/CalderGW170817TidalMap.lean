@@ -83,7 +83,7 @@ theorem component_tidal_lambda_love_radius_rescaling
       componentTidalLambda m R k2 c G := by
   unfold componentTidalLambda
   have ht5 : t^5 ≠ 0 := pow_ne_zero 5 ht
-  field_simp [hden, ht5]
+  field_simp [ht5]
 
 /--
 With k₂ fixed, the same standard relation scales as R⁵.  This is the
@@ -92,11 +92,11 @@ fixes k₂ rather than allowing it to vary independently.
 -/
 theorem component_tidal_lambda_fixed_k2_scales_as_t5
     (m R k2 c G t : ℝ)
-    (hden : G*m ≠ 0) :
+    (_hden : G*m ≠ 0) :
     componentTidalLambda m (t*R) k2 c G =
       t^5 * componentTidalLambda m R k2 c G := by
   unfold componentTidalLambda
-  field_simp [hden]
+  field_simp
 
 theorem distinct_positive_radius_love_pair
     (R k2 t : ℝ)
