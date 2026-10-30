@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.EliasPublisherStatus
 import HsHVerification.EliasHydraRewriteStarvation
 import HsHVerification.EliasActorRegistryCoverage
+import HsHVerification.EliasCapabilityRouteGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
