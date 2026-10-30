@@ -2,7 +2,7 @@ import Mathlib
 
 namespace HsHVerification.OrsonSharedRecordIdentifiability
 
-/-!
+/-
 Conditional formalization of Orson Vay's assistant-authored OV-55 / OV-56
 cognition-sandbox model (2026-10-10).
 
@@ -12,24 +12,28 @@ Source status:
 * These equations are not Nathan Direct statements and are not empirical
   estimates of any model's source dependence.
 
-The formal result is deliberately narrow: under the stated Bernoulli models,
-a shared all-or-nothing reliability gate and a latent item-difficulty mixture
-induce exactly the same probability for every finite labelled correctness
-pattern. This is an observational-equivalence theorem, not a causal claim.
+The formal result is deliberately narrow: under the stated Bernoulli-model
+expressions, a shared all-or-nothing reliability gate and a latent item-
+difficulty mixture assign the same weight to every fixed labelled correctness
+pattern. This is a pointwise expression-equivalence result. The module does
+not construct a finite probability space/PMF or prove normalization, and it
+does not identify which latent interpretation generated any observations.
 -/
 
-/-- Probability of one fixed labelled correctness pattern under the
-shared-record gate model. successes and failures are the pattern counts. -/
+/-- Probability weight of one fixed labelled correctness pattern under the
+shared-record gate model. For a probability interpretation, p and q must be
+valid Bernoulli parameters in [0,1]. -/
 def gatePatternProbability (p q : ℝ) (successes failures : ℕ) : ℝ :=
   q * (if successes = 0 then 1 else 0) +
     (1 - q) * p ^ successes * (1 - p) ^ failures
 
 /-- The alternative latent-difficulty mixture: item difficulty is zero with
 probability q, and p with probability 1-q; agents are conditionally
-independent given that difficulty. -/
+independent given that difficulty. Parentheses make the zero-difficulty
+pattern factor explicit for the pointwise identity below. -/
 def difficultyMixturePatternProbability
     (p q : ℝ) (successes failures : ℕ) : ℝ :=
-  q * (0 : ℝ) ^ successes * (1 : ℝ) ^ failures +
+  q * ((0 : ℝ) ^ successes * (1 : ℝ) ^ failures) +
     (1 - q) * p ^ successes * (1 - p) ^ failures
 
 /-- A Bernoulli(0) item gives positive probability only to the all-failure
@@ -39,8 +43,8 @@ lemma zeroDifficultyPattern (successes failures : ℕ) :
       (if successes = 0 then 1 else 0) := by
   cases successes <;> simp
 
-/-- Full finite-pattern observational equivalence of the two latent
-interpretations. This is stronger than equality of the first two moments. -/
+/-- For every fixed labelled pattern, the two model expressions agree.
+This does not construct a finite PMF or establish a normalized distribution. -/
 theorem passivePatternDistributionEquivalence
     (p q : ℝ) (successes failures : ℕ) :
     gatePatternProbability p q successes failures =
@@ -65,9 +69,34 @@ def pairwiseCovariance (p q : ℝ) : ℝ :=
 def marginalVariance (p q : ℝ) : ℝ :=
   marginalCorrectness p q * (1 - marginalCorrectness p q)
 
-/-- Pairwise correlation of correctness indicators. -/
-def pairwiseErrorCorrelation (p q : ℝ) : ℝ :=
+/-- Pairwise correlation of correctness indicators.
+
+This is a totalized real-valued definition because Lean's real division is
+total. Its statistical interpretation is restricted to the nondegenerate
+domain 0 < marginalCorrectness p q < 1, where the variance denominator is
+strictly positive; see marginalVariancePositive and
+pairwiseErrorCorrelationDomain below. -/
+noncomputable def pairwiseErrorCorrelation (p q : ℝ) : ℝ :=
   pairwiseCovariance p q / marginalVariance p q
+
+/-- On the nondegenerate Bernoulli-marginal domain, the variance denominator
+is strictly positive. -/
+theorem marginalVariancePositive
+    (p q : ℝ)
+    (h0 : 0 < marginalCorrectness p q)
+    (h1 : marginalCorrectness p q < 1) :
+    0 < marginalVariance p q := by
+  unfold marginalVariance
+  exact mul_pos h0 (by linarith)
+
+/-- Consequently, the correlation denominator is nonzero on the domain
+where the correlation has its ordinary statistical interpretation. -/
+theorem pairwiseErrorCorrelationDomain
+    (p q : ℝ)
+    (h0 : 0 < marginalCorrectness p q)
+    (h1 : marginalCorrectness p q < 1) :
+    marginalVariance p q ≠ 0 :=
+  ne_of_gt (marginalVariancePositive p q h0 h1)
 
 /-- The covariance formula recorded in OV-55/56. -/
 theorem pairwiseCovarianceIdentity (p q : ℝ) :
@@ -75,17 +104,20 @@ theorem pairwiseCovarianceIdentity (p q : ℝ) :
   unfold pairwiseCovariance pairJointCorrectness marginalCorrectness
   ring
 
-/-- A single marginal does not identify the two gate parameters: for every
-strictly interior marginal m, two distinct valid parameter pairs produce it. -/
+/-- Two distinct valid gate-parameter pairs can produce the same strictly
+interior marginal. This is parameter non-identifiability from one moment. -/
 theorem twoDistinctParametersSameMarginal
     (m : ℝ) (hm0 : 0 < m) (hm1 : m < 1) :
     marginalCorrectness m 0 = marginalCorrectness 1 (1 - m) ∧
-      (m, (0 : ℝ)) ≠ (1, 1 - m) := by
+      (m, (0 : ℝ)) ≠ (1, 1 - m) ∧
+      0 < 1 - m ∧ 1 - m < 1 := by
   constructor
   · simp [marginalCorrectness]
+  constructor
   · intro h
     have hfirst : m = 1 := congrArg Prod.fst h
     linarith
+  · constructor <;> linarith
 
 /-- Under the assumed gate model, the first two moments recover p when the
 marginal is nonzero. This is model-conditional identification, not causal
@@ -95,7 +127,7 @@ theorem recoverPFromFirstTwoMoments
     pairJointCorrectness p q / marginalCorrectness p q = p := by
   unfold pairJointCorrectness marginalCorrectness at *
   field_simp [hm]
-  <;> ring
+  <;> ring_nf
 
 /-- Under the assumed gate model, the first two moments recover q when the
 pairwise joint moment is nonzero. The observational-equivalence theorem above
@@ -105,7 +137,7 @@ theorem recoverQFromFirstTwoMoments
     1 - (marginalCorrectness p q) ^ 2 / pairJointCorrectness p q = q := by
   unfold pairJointCorrectness marginalCorrectness at *
   field_simp [hv]
-  <;> ring
+  <;> ring_nf
 
 /-- Combined conditional parameter recovery from the first two moments. -/
 theorem firstTwoMomentsRecoverGateParameters
@@ -146,6 +178,8 @@ theorem ov55PairwiseCorrelationExample :
 
 #print axioms passivePatternDistributionEquivalence
 #print axioms pairwiseCovarianceIdentity
+#print axioms marginalVariancePositive
+#print axioms pairwiseErrorCorrelationDomain
 #print axioms twoDistinctParametersSameMarginal
 #print axioms recoverPFromFirstTwoMoments
 #print axioms recoverQFromFirstTwoMoments
