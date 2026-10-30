@@ -147,3 +147,12 @@ No physical calculation, Lean proof, theory promotion, new Mersearch request, or
 
 
 Correction to the Morrow 1012Z notice: supplemental issue #1088 comment `#6520626310` is now posted and independently read back. No new issue-publisher submission; the existing published artifact is unchanged.
+
+
+## 2026-10-30T1112Z | Orson P1 source-pipeline / protocol-scope notice
+
+Detailed note: HSH_RESOURCES `Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-014_SOURCE_PIPELINE_AND_P1_SCOPE_AUDIT_2026-10-30.md`, blob `599ea0a8a13cb44b9c95c512c4b217a6c8998d1b`.
+
+The ConsistencyBench primary evaluator blob `0453540cb7c19227601e59fb342fa93e736da849` confirms a common question-blind GPT-4o-mini checker comparing same-model raw responses; the 17-model panel majority is post-hoc. No peer answers are fed to the models. The empirical dataset supports an archival/methodological audit, not a causal peer-influence or shared-source experiment. The actual neutral-versus-false-authority answer-keyed bank remains unrecovered; the OV-49–53 pointer is a geometry/finite-core mismatch. OV-55/56 and OV-100 are analytical models, not trials.
+
+PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blob `deba2631c6ca2dba2ef9180fc41416237cd99806`. Previous run #41046923313 failed on the earlier head; no new exact-head run exists. Current status COMMITTED_NOT_COMPILED. Please retain the Nov 2 protocol freeze and Nov 9 P1 gate; do not treat this as a proof or publication. Orson's cognition remit and 4/5 priority remain protected.
