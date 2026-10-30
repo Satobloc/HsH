@@ -179,11 +179,11 @@ A 2026-10-21 user-authored annotation inside a mixed-source message says the old
 
 ### Klein Fabric source trail
 
-- SAT PRE-H(s)H TIGHTENING.txt, SAT archive blob 054a76d70f1d9c4d8b5a70a9c7b6d9a6b8a0c1f2, uploaded 2026-09-04. The file is a NotebookLM export with 15 sources; the user question appears at line 4965. Its underlying prompt timestamp is unresolved.
+- SAT PRE-H(s)H TIGHTENING.txt, SAT archive blob 054a76d76cd8a44b18fa4c545ece4e0e3f9f4e8e, uploaded 2026-09-04. The file is a NotebookLM export with 15 sources; the user question appears at line 4965. Its underlying prompt timestamp is unresolved.
 - The embedded user question asks how a Klein bottle might become a pervasive "Klein fabric" of wormholes with Möbius connections. This is a question, not a formal definition.
 - The assistant answer immediately following it proposes Möbius ER bridges, chirality flips, Klein-bottle cells tiled through a 4D plane, image charges, and a condensate-wall picture. These are assistant-generated conjectures, not direct user geometry and not a derived construction.
-- FIRST_RUN_RECON_2026-09-30.md (blob f12f8e5aaf3f52a2c2e4a7d2d4b3e1a9) explicitly warns against inferring external influence or priority from the notebook export.
-- SANDBOX_2026-10-20_CRULLER_FIRST_GLOBAL_TOPOLOGY.md (blob b85f37c3c1e8e31f1c0f4f75a7f1f3d9a0c2b5e7) is a later assistant sandbox, not adopted as HsH cosmology. It proposes a mapping torus:
+- FIRST_RUN_RECON_2026-09-30.md (blob f4613d81ceb738346bc8a84f3bc233b07daafde1) explicitly warns against inferring external influence or priority from the notebook export.
+- SANDBOX_2026-10-20_CRULLER_FIRST_GLOBAL_TOPOLOGY.md (blob b85f37e4137c15ff8b44d8179fc162e37afa86b3) is a later assistant sandbox, not adopted as HsH cosmology. It proposes a mapping torus:
 
 ~~~
 M_Q = (S^3 × [0,L]) / ((n,L) ~ (Q n,0)),
