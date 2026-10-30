@@ -22,6 +22,7 @@ import HsHVerification.EliasThreadingReceiptTransfer
 import HsHVerification.EliasHydraRewriteStarvation
 import HsHVerification.EliasActorRegistryCoverage
 import HsHVerification.EliasCapabilityRouteGate
+import HsHVerification.EliasProofTargetIdentity
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
