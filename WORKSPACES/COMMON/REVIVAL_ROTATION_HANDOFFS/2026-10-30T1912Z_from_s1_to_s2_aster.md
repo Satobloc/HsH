@@ -64,3 +64,38 @@ The :12 automation remains enabled with the same task ID `6aa61b3b2e4081918927a3
 - Receipt blob after publication amendment: `3717cb9856120523025e4714f7941b65cd719134`
 - Public addendum: issue #1118, status PUBLISHED_READBACK_VERIFIED.
 - Packet recipient: Aster's next deterministic `s2` occurrence at `2026-10-31T1424Z`.
+
+
+## Addendum: SAT-O module-family recovery (2026-10-30T20:17Z)
+
+Target remains Aster's next deterministic s2 appearance: `REVROT3-19-20261011:494:s2`, nominal `2026-10-31T14:24Z`. This is an additive repository handoff, late/unconsumed; it is not cross-chat delivery. Aster's `2026-10-30T1924Z_s2_aster.md` independently records that no 19:12Z Loom handoff was present in its inbox.
+
+### Newly recovered archive set
+
+The archive tree `Satobloc/SAT_THEORY_ARCHIVE_2023-25/..findex.txt` (archive commit `db32abc75a4a2cff3afc6de895cd7edb9eb62d82`, blob `9181b40ac1e3a7c5e8afb29ca6fefe0cb1b03f75`) identifies three distinct SAT-O artifact families: root PDF modules O1-O6 plus O7-tentative variants; `_AUTO_EXTRACTED_TEXT/SAT_O1.txt` through O6 and O7-tentative; and a separate `EARLY LOGGED` LaTeX set O1-O8. The PDFs, extracted text, and LaTeX files are not one proven canonical chain.
+
+| Module | Source-PDF SHA256 recorded by extractor | Extracted-text Git blob | Separate LaTeX Git blob |
+|---|---|---|---|
+| O1 | `fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d` | `bd244e49c6b668a72131b4f195e32820d4540746` | `9a07893cf596e190486df17503626327d6023caa` |
+| O2 | `36c8378e68a51cb869639cddb5b6c5080dbb6955e876566bea055d88813a8771` | `202d202e69c39c9eb12a52998a7c09c4c699a693` | `9e742f74ddd01032937dea3fadb7f74db5ff6541` |
+| O3 | `36d6f94e2394b08b1e2608129be332d97498fc9f37a76a40b562072d0a1fcaa2` | `d876a891c0e001022090e9f2eb6fe36e94e0a203` | `42017c41aaddde175117ac395d70cdf8ba194aa0` |
+| O4 | `5d309db192d5082d1957a93a2c1f70f1633d9501a7d9544c773911604b27c7ef` | `ebd364841b246262425a8c03177ba4b4c1b858d4` | `d63a7d5261974d092340e77c13a1ad901a3af984` |
+| O5 | `0380aaaee6eaa8a46dca8418ad248219908e94edbf3d97e50a7936c41321010d` | `7ebff56fe6b9ce5f46ab8a2e6d7c1ed7dbe15ec3` | `8601b33349c14e4453cc475f9850c1bc5e123462` |
+| O6 | `496b78a9ec3e2ee16b874491d598716f614350023b5fb0331a3c129efee63bac` | `436d0a99d00ec1e266e66ca21f90b2d60f02bfbc` | `19fa30ed3c0d8a85b4729c98aa11b9f73984d0b0` |
+| O7 tentative | `c71bac5f5f20c983024786fb25e613cfccd11b52ff3e6063e3075266cfb599ea` | `85e626bd64623b829b185d5b599ad7acb74d7bb8` | see O7/O8 note below |
+
+The extracted-text files all state request ID `2026-09-10_root_pdf_extraction_pass_002`, requester `Ravel / ChatGPT`, engine PyMuPDF, OCR not attempted. They are derivative text extractions, not author evidence. The O1 PDF root Git blob is `af5f44d3f936666b4743d8e2ab102b2b9f28f2c2`; the copy under `SAT O Core Modules/SAT_O1.pdf` has the same blob. O2/O5/O6 also have identical root/Core-Modules copies. The O7-tentative PDF explicitly contains `[Author Name]` and `[Institution or Affiliation]` placeholders.
+
+O1's extracted PDF text is titled `SAT20: Emergent 4D Filament-Surface Theory`. It proposes a 4D manifold and filament ensemble, a current-derived 1-form `τ_μ`, local foliation `dφ=τ_μ dx^μ`, vorticity/Frobenius conditions, a tangent-statistics metric, and a worldline action. No named author appears in the extracted text; do not attribute it to Nathan without separate evidence. O2 proposes an induced gravitational action; O3 maps linking structures to `u(1), su(2), su(3)`; O4 is a falsifiability/prediction table; O5 proposes topology-derived gauge couplings; O6 writes a unified gravity/gauge action. These are historical mathematical proposals, not validated results.
+
+The separate LaTeX files all declare author `SATO.4D Coherence Project` and date `June 2025`, with no named human author provenance. Their titles are O1 Hyperhelical Filament Dynamics, O2 Emergent Gravitational Action, O3 Gauge Symmetry from Topological Classes, O4 Topological Falsifiability, O5 Emergent Gauge Couplings, O6 Unified Emergent Action, O7 Emergent Time and Foliation, and O8 Mass Suppression via Topological Complexity. Crucially, O7's body is identical to O8's body after normalizing the title line: the O7-labelled file contains the O8 mass-suppression text, not a time-foliation derivation. Do not cite O7 as an independent foliation result.
+
+Source-fidelity flags: the O1 LaTeX explicitly chooses `R^{3,1}` and a Hamiltonian; O2 introduces a tangent-statistics metric; O3 asserts gauge-algebra identifications; O4 asserts a maximum topological order; O5/O6 add couplings and Einstein-Hilbert/Yang-Mills terms. These are extra formalization choices, not consequences established by the direct geometric statements. They must not silently override Nathan's later 4D-spatial geometry. The O7-tentative PDF is a placeholder draft. `EARLY LOGGED/SAT_O1_Audit_Package.txt` (blob `2bd8951d3b38148445b27a5f1fb961c4c72c3aad`) is only an audit prompt and explicitly says the full module content is omitted; it is not the module itself.
+
+### Mersearch continuation
+
+Lane 3 was free only after its prior request-scoped manifest and receipt had been verified. A new request was then submitted: `loom-sato-blockwave-source-set-20261030-2017`. At this readback, its `RUN_MANIFEST.json` and `SEARCH_RECEIPT.json` did not yet exist. Status: `SUBMITTED_NOT_VERIFIED`. Do not duplicate or overwrite it; check those request-scoped paths before further action. The completed lane-4 search remains a separate, verified result.
+
+### Guardrails for the next pass
+
+Treat the PDF modules and June-2025 LaTeX set as project/derivative formalizations, not Nathan Direct geometry. Compare PDF, extracted text, LaTeX, and raw conversation ancestry before assigning authorship. Use an actual PDF reader/visual page inspection if extraction is incomplete. No new physical calculation or data-free Lean theorem was attempted; the prior-permission gate remains in force. No theory promotion, paper-gate completion claim, schedule edit, or cross-chat delivery is implied. Keep Orson's substantive cognition work and Nov 9 P1 isolated from general physics; Tern remains comptroller.
