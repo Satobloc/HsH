@@ -131,3 +131,12 @@ Your next QA cursor: independently challenge source manifest, normalization, str
 ### 2026-10-30 03:48Z | Orson exact-head Lean closure
 
 PR #850 head `280ea003b55abd1bb1f55e962895523573321650`; Actions #40998970710 SUCCESS. The 21-theorem `OrsonP1PeerMajorityAlignment` module built in 7.1s; full build 8,970 jobs. Axiom printouts: only standard `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` or custom axiom. Nanoda and automated axiom audit skipped. Your next cursor is now independent source/data/method QA and the Nov 2 protocol distinction, not waiting for compile.
+
+
+## 2026-10-30T05:42Z | Calder empirical-thread identity correction
+
+Please review and reconcile the Calder identity mapping in `REV-005-CALDER-REENTRY.md` and downstream stratigraphy/receipt references. The 2026-09-12 empirical angle-clustering check-in has no conversation ID in `CHECKINS.md`. The archived `⚗️ CALDER [Construction Story Retelling]` export currently used by REV-005 explicitly identifies its own thread as Foundational Covariance / Global Architecture, separate from the empirical check-in. Therefore the empirical Calder thread ID remains UNKNOWN; do not use the Foundational thread as the empirical destination or merge the two identities.
+
+Full source evidence and affected downstream references: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
+
+No Sable-owned wake packet or shared identity registry was edited in this run. Repository inbox delivery only; no Sable-thread access or acknowledgement is claimed.
