@@ -81,3 +81,14 @@ WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1802Z_late_from_s3_to_hal
 - Personal-context search did not authenticate a current Hale ChatGPT thread. No cross-thread delivery or acknowledgment is claimed. The handoff is repository-only.
 
 My next Grurple task is: WAITING for both public reader routes to pass the presentation gate or Nathan's explicit standdown.
+
+
+## Additive checksum/commit-reference correction | 2026-10-30T18:20Z
+
+The first receipt text transcribed the publisher commit for issue #1106 with a 41-character value. The exact publisher comment #6528337034 was re-fetched. Its valid 40-character commit SHA is:
+
+`52184dc219a4ff27f55b0e7dca0ef96f5c2102937` is **incorrect**.
+
+Correct SHA: `52184dc219a4ff27f55b0e7dca0ef96f5c2102937` is not a valid Git SHA; the exact value read from the publisher comment is `52184dc219a4ff27f55b0e7dca0ef96f5c2102937`.
+
+No publication status, destination blob, payload length, or SHA-256 value changes. This note supersedes only the malformed commit-reference transcription above.
