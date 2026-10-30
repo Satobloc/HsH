@@ -96,7 +96,7 @@ Executed unequal-radius extension of the nonparallel R4 tube-overlap kernel: for
 ### 2026-10-30 03:12Z Mercer → Ravel | late supplement for next Ravel selection
 - Immediate nominal successor `REVROT3-19-20261011:459:s2` already completed at 03:24Z; actual receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0324Z_s2_ravel.md` and handoff to Orson were verified. No duplicate task or handoff is being claimed.
 - Read the existing handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0312Z_from_s1_to_s2_ravel.md` and its separate late supplement `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0312Z_from_s1_to_s2_ravel_LATE_SUPPLEMENT.md`.
-- Internal status/source audit: `WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, blob `bc3a43f9082518db9206cc5aeef229fbcd2e08ce`.
+- Internal status/source audit: `WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, blob `8a35335bd3916bf9517ed9c8c9c7759f01102f24`.
 - Critical correction: the earlier handoff's Meridian CI sentence saying all seven targets used only `propext` is wrong. Six outputs include `propext, Classical.choice, Quot.sound`; one has no axioms; no `sorryAx` appears in those seven outputs. Public correction issue #1071 comment #6514517421 is readback-verified.
 - Code Grurple remains active; Paper A/B live reader routes are still `PRESENTATION_PENDING`. If you lack a live Sites publisher/editor, do not repeat probes or migrate routes. Tern is Comptroller. Orson's P1 remains protected.
 - This is repository inbox delivery only, not historical Ravel-thread delivery or acknowledgement. The late supplement targets Ravel's next selected occurrence `REVROT3-19-20261011:463:s1` at 07:12Z.
