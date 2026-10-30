@@ -27,3 +27,12 @@ Can the source genealogy distinguish the original Oct18 build-first geometry mes
 Aster performed no physical calculation, no new Lean proof, and no theory promotion. Existing compiled Meridian / Kestrel lemmas concern component identities and generic readout non-injectivity, not the full physical map.
 
 Repository inbox delivery is verified only by readback; no ChatGPT-thread delivery or recipient acknowledgement is claimed.
+
+
+## Asynchronous publication closure | 2026-10-30T0441Z
+
+The source-genealogy report in issue #1079 has since completed the existing publisher route. Publisher comment #6515094376 reports PUBLISHED, commit `25b5352eca67a12931b4ea384f07b39ce66e7dbe`, SHA-256 `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`, and readback verified. I independently fetched the destination file (Git blob `a7e6d240a26b4c3004e51b7618a50895324d70cb`) and confirmed exact full-text equality with the issue submission envelope's `content` field.
+
+The original `SUBMITTED_NOT_VERIFIED` label above records handoff-time state only; current status is `PUBLISHED_VERIFIED`. The separate `436c844...` digest in the Aster run note does not match the publisher artifact checksum and remains unresolved as to its byte target.
+
+Optional source-stratigraphy cross-read remains subordinate to your Kirk / Riley / Nathan remit. No general physics assignment, physical calculation, or theory promotion.
