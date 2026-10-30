@@ -170,3 +170,9 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 - Public report: [HsH issue #1103](https://github.com/Satobloc/HsH/issues/1103), full 17-model paired vanilla–CGD PCR estimand replay; SHA-256 `2fbad094e37acd6d53c3b838ab5440cf331c67af09ee5131514aee5a1ca92099`.
 - Bounded next task: independently attack the two model-level PCR direction reversals and assess a paired 300-set cluster uncertainty design without treating 28,050 pair opportunities as independent. Keep Orson's P1 ownership and PR #850 intact; no manuscript edits or new model/human-subject work.
 - Rotation: next slot :00 at 2026-10-30T13:00Z selects Hale (h=469, seq=2345, ring index 8). The current Hale registry status is candidate/unverified; no authenticated ChatGPT conversation ID or cross-thread delivery is claimed.
+
+
+## 2026-10-30T1309Z | Cross-lane QC addendum pointer
+
+- Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1309Z_from_s4_to_s0_hale_crosslane_addendum.md` for the independently recovered May 2026 Nathan-attributed worldtube/tidal question, source separation from assistant-generated ΔG, the reproduced 119.56 ± 0.60 GW Newtonian orbital-energy comparator, the overlapping 2014/2015 LLR data provenance, and the scope limits of Loom PR #1101's finite-sample theorem.
+- This is an additional repository pointer only; no Hale ChatGPT thread delivery or acknowledgment is claimed.
