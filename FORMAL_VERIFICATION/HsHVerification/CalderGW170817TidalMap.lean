@@ -184,7 +184,7 @@ theorem binary_readout_noninjective_under_free_k2
     binaryWorldtubeReadout m1 m2 (t*R1,k21/t^5) (R2,k22) c G =
       binaryWorldtubeReadout m1 m2 (R1,k21) (R2,k22) c G ∧
     ((t*R1,k21/t^5),(R2,k22)) ≠ ((R1,k21),(R2,k22)) ∧
-    0 < t*R1 ∧ 0 < k21/t^5 := by
+    0 < t*R1 ∧ 0 < k21/t^5 ∧ 0 < R2 ∧ 0 < k22 := by
   have hpair := distinct_positive_radius_love_pair R1 k21 t hR1 hk21 ht ht1
   constructor
   · exact binary_readout_invariant_under_primary_R_k2_rescaling
@@ -197,7 +197,7 @@ theorem binary_readout_noninjective_under_free_k2
     rcases mul_eq_zero.mp hzero with ht0 | hR0
     · exact ht1 (sub_eq_zero.mp ht0)
     · exact (ne_of_gt hR1) hR0
-  · exact ⟨hpair.2.1, hpair.2.2⟩
+  · exact ⟨hpair.2.1, hpair.2.2, hR2, hk22⟩
 
 #print axioms effective_tidal_lambda_common_mass_scaling
 #print axioms effective_tidal_lambda_swap
