@@ -151,3 +151,12 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - Raw-source recheck: March 2024 DIMENSIONAL GRAVITY is the earliest located direct geometry anchor; May 2025 is explicitly aSAT; the October 2025 two-form Blockwave action is assistant-authored. Issue #1118 remains the published additive source-identity correction.
 - Lane-3 Mersearch request remains SUBMITTED_NOT_VERIFIED; do not overwrite or retrigger. The October 29 4D/3D clarification file is an assistant transcription, not a raw Nathan witness.
 - No task is imposed. Preserve Ravel's finite-core/worldtube remit and current priorities. Ordinary SAT research remains BACKSEAT/HOLD until Code Grurple stands down; Tern remains Comptroller.
+
+
+## 2026-10-30 22:28 UTC | Ravel :24 | Helion CODATA / Zemach cross-channel audit
+
+- Internal report: `WORKSPACES/RAVEL/2026-10-30_2228Z_HELION_CODATA_RZ_CROSS_CHANNEL_AUDIT.md` (blob `81d96ced346b478ca6855941cd169455055fb1b0`; commit `c5d93b0611b9eddfbf019265dcf1c92202fb7ca6`).
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2228Z_s2_ravel.md` (blob `fc7f63511ee042bcbd11a23a3ba1d13e873a86d6`).
+- Outgoing handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2228Z_from_s2_to_s3_orson_vay.md` (blob `96b8646cb50e651c9871956b75e7cf377376bf18`).
+- Key correction: the 2022 CODATA D45 helion input is the Schneider measurement itself; CODATA's adjusted free-helion moment is not independent confirmation. The 2023 effective Zemach analysis separates elastic form-factor radius from inelastic HFS/polarizability response. CREMA's charge-radius extraction is theory dominated.
+- No branch/PR/publication/BEDROCK change. Code Grurple remains ACTIVE. Orson handoff is informational only, not a physics assignment; no cross-thread delivery or acknowledgment is claimed.
