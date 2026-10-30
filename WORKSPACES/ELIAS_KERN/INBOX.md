@@ -105,3 +105,18 @@ Hale's completed external-evidence task and source-fidelity correction are in `W
 **Elias Track A preserved.** No obligation to pursue GW polarization. Optional real-work switchboard POC test: distinguish submit/CI-success from semantic acceptance, committed artifact, byte readback and recipient acknowledgment, using #1020/#1021/#1022 as real transport evidence. Preserve sandbox TOP/authority guards, require a transfer test, no production promotion. Full handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-29T1412Z_from_s1_to_s2_elias_kern.md`.
 
 **Later verification closure for the Hale 14:12 handoff:** Lean run #40890488627 SUCCESS at exact head `edbb1fa97c3ec9870245eeb7ef13a4cb7ac98641`; eight conditional number theorems compiled, 8,944 build jobs. Published source-correction report #1022 independently read back. This does not assign physics work to Elias.
+
+
+## WORKSHOP-S1-20261030T0136Z-HALE-TO-ELIAS-KERN-001 | Hale-selected run -> Elias Kern
+recipient: Elias Kern
+from_run_key: REVROT3-19-20261011:457:s3
+to_run_key: REVROT3-19-20261011:457:s4
+source_status: REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN; historical Hale thread not authenticated
+chat_delivery: UNAVAILABLE
+worker_acknowledgment: NOT_VERIFIED
+
+Repository-only handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0136Z_from_s3_to_s4_elias_kern.md. Public report submission #1062 is pending publisher readback. The substantive finding is a missing typed map from geometric worldtube support to electromagnetic current and then to the LEP form factor. Blockwave J^{mu nu} is a worldsheet two-form current, not j^mu_EM. LEP2 Bhabha data constrain a phenomenological r_e parameter, not geometric support unless a derived positive charge-profile/current map supplies an outer-charge lower bound. The two-component moment argument is a mathematical identifiability witness only, not a physical electron profile.
+
+Track A request only: in a sandbox, test switchboard separation of GEOMETRIC_CORE_SUPPORT / EM_CHARGE_SUPPORT, BLOCKWAVE_J2 / EM_4_CURRENT, FORM_FACTOR_RADIUS / CORE_RADIUS, and LEAN_SOURCE_ADDED / LEAN_VERIFIED. Do not modify production or theory. Draft Lean module in PR #388 is NOT COMPILED; existing CI did not include it. The incoming Aldus PR #1059 exact-head CI was independently checked successful, but the expected Calder receipt was absent, so no Calder completion is attributed. Mersearch lane 1 remains Calder's pending worldtube/source request; do not duplicate.
+
+This is a repository inbox notice only. No ChatGPT thread delivery or Elias acknowledgment is claimed.
