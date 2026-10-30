@@ -120,3 +120,10 @@ The 2024 raw JSON source above was parsed by message ID, not inferred from a lat
 > Well, the complexity would arise from the interactions between filaments, threads, ropes, etc. The interaction between these four-dimensional structures and the time surface would not be the cause of the complexity, but rather the manifestation in three-dimensional space that constitute the familiar small and large scale structures of the universe.
 
 Both messages have `author.role=user` in the raw export. The first explicitly marks the vibration idea as not yet considered in depth; the second explicitly distinguishes inter-filament interactions as the source of complexity from the time-surface intersection as its 3D manifestation. Neither supplies a Love-number equation, tidal response law, or measured neutron-star prediction.
+
+
+## 9. Public correction and readback
+
+- Publisher issue #1065 received additive source correction comment **#6519462277**. Exact comment was independently fetched and read back. It identifies De et al. Eq. (6) as the source of the 11.2 ± 0.2 relation, q ≥ 0.6 condition, and 2% uncertainty, and distinguishes the separate Raithel equations.
+- Draft PR #1061 received additive correction comment **#6519464738**. Exact comment was independently fetched and read back. It explicitly corrects the earlier comment #6515834557: the current PR body still contains the old attribution; the correction was not already present in the body.
+- No PR body, code, branch, merge, or original published artifact was edited. No duplicate publisher submission was created. The additive issue/PR comments are the public correction path.
