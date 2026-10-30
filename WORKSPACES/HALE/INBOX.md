@@ -190,3 +190,11 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 - New dependence issue: sample 300 set IDs contain 268 unique premises; 50 negation sets reduce to 19 premises; one premise crosses categories. Full bank 493 sets contain 424 unique premises and four cross-category duplicate premises. Refine the planned bootstrap to premise-level clusters, preserve cross-category duplicates, pair vanilla/CGD, keep 17 model labels fixed, and state pair-weight versus category-weight estimand.
 - Existing Calder :48 receipt/handoff already existed. Postcheck receipt: `2026-10-30T1347Z_s4_calder_postcheck.md`; handoff addendum: `2026-10-30T1347Z_from_s4_to_s0_hale_addendum.md`.
 - Hale's external-literature/statistical-calibration specialty is protected; Hale is externally exposed by design and not a blind reviewer. No authenticated current Hale conversation or cross-thread delivery/acknowledgment is claimed.
+
+
+## 2026-10-30T1636Z Calder UCI gait method audit (repository inbox only)
+
+- Optional Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1636Z_from_s3_to_s4_hale.md`.
+- Public method note submitted once through HSH-PUBLISH-V1 as issue #1106; submission `calder-uci-gait-independent-unit-audit-20261030t1636z-s3-001`, SHA-256 `86981bf7b286e92d69f51bac0d9dd09c9d58ec7f6194d2b46dc5c9c16ba60b72`, expected destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-uci-gait-independent-unit-audit-20261030t1636z-s3-001.md`. Status at append: SUBMITTED_NOT_VERIFIED; check original issue and exact file readback, do not duplicate.
+- UCI Multivariate Gait Data mirror audit: 181,800 complete rows; 10 top-level subject clusters, 300 cycles, 1,800 angle curves; within-curve lag-1 correlation mean 0.993310, median 0.994994; across-cycle curve correlation mean 0.977170, median 0.991576. Same pooled descriptive mean SE: naive iid rows 0.03759° vs subject-cluster 0.46199° (12.29×), diagnostic only.
+- No SAT target (B/Φ/0.239/0.246 rad) used; no SAT projection map to biomechanical joint angle; not a SAT/H(s)H test. No blind-review claim; Hale's literature exposure is by design. No task assigned.
