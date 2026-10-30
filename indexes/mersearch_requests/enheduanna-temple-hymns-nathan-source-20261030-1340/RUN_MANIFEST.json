@@ -1,0 +1,79 @@
+{
+  "request_id": "enheduanna-temple-hymns-nathan-source-20261030-1340",
+  "query": "author:user AND (Enheduanna OR Enheduana OR \"Temple Hymns\" OR \"Sumerian Temple Hymns\" OR Q000750 OR \"TCS 3\" OR \"witness O\" OR \"siglum O\" OR \"Nin-me-sar-ra\" OR \"Exaltation of Inanna\")",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "9c65c16cb48ad341066beac5bd3671b957c52d5a",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "b2ad3828b5a7f67985d5d91ec3911a2516e3a8ff",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "9c65c16cb48ad341066beac5bd3671b957c52d5a",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "43dd94488ef3ff467ef11344ff419170e838db32af7254186460a78e55d13111",
+    "SEARCH_RESULTS.md": "70ef19b89928bb9e5307c8b3a07bbaed076d888cdbbac21666653dca1f0da6e0",
+    "SEARCH_RECEIPT.json": "a21adc536499344ffcc71a3aee7c60b927df5facb7def20e68c3702489067126",
+    "SEARCH_RECEIPT.md": "22e10668e994fd280ba4e08eab1f38b5087fa2159c2c03e488e75a4b33c78134"
+  }
+}
