@@ -40,3 +40,5 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
   group
 
 end HsHVerification
+import HsHVerification.CalderGW170817TidalMap
+import HsHVerification.CalderGW170817PosteriorChecks
