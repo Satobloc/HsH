@@ -347,7 +347,7 @@ The runtime has no local `lean` or `lake` executable. All compile claims above a
 
 ## 8. Campaign, rotation, and controls
 
-- P1 remains Orson-owned, Nov 9 gate; P2 Nov 30; P3 Dec 14. No paper or site text was changed.
+- P1 remains Orson-owned, Nov 9 gate; P2 Nov 30; P3 Dec 14. Each gate still requires actual source support, peer/hostile review, and a working PDF/reader path. This report satisfies none of the paper gates by itself. No paper or site text was changed.
 - Orson's latest three inspected receipts are substantive cognition work. The campaign's 4/5 denominator is not independently re-established in this pass; no Orson work was reassigned or touched.
 - P1 issue #564 remains open. P3 issue #566 remains open. This report is supporting source/formalization work, not paper completion.
 - Last FIE revisit recorded as 2026-10-27; the 14-day revisit threshold has not elapsed.
