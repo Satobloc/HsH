@@ -17,6 +17,7 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.KestrelMovingSlice
+import HsHVerification.KestrelIntersectionDimensionGate
 import HsHVerification.KestrelProjectedIncidence
 import HsHVerification.KestrelConsensusIdentityBlindness
 import HsHVerification.KestrelFlagInformationCounts
