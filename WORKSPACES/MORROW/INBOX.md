@@ -85,3 +85,8 @@ Outgoing repository handoff to Kestrel: `2026-10-30T0624Z_from_s2_to_s3_kestrel.
 ## 2026-10-30T0647Z | CI repair status
 
 The corrected A/M-label branch head `4109734c1892dde78be1716b155047701e81eea1` repairs the two malformed identifiers found in failed run #41015498063. New exact-head run #41016052203 is in progress at dependency-manifest generation; compilation and theorem-specific axiom inspection remain pending.
+
+## 2026-10-30T0651Z | source coverage and Lean completion
+A-container live snapshot `728b4618…` (1,133 nodes) has the same conversation ID/create_time but neither matched message; development snapshots 1,505/1,578 nodes contain both, while the 1,480-node snapshot contains only the earlier message. M-container 117/175-node snapshots have both citation-bearing answers with `seeded` status; the 465-node full export has `complete`; the 107-node snapshot has neither. This is snapshot coverage, not runtime retrieval/deletion.
+
+PR #719 corrected A/M head `4109734c1892dde78be1716b155047701e81eea1` now has successful exact-head run #41016052203; 11 new citation-date theorem outputs are axiom-free, with no `sorryAx`; separate axiom-audit action not run. The earlier failed head was a naming-tokenization defect, repaired. PR #388 Morrow evidence gate also verified at #41015101863.
