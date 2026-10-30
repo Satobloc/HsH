@@ -1,0 +1,79 @@
+{
+  "request_id": "ariadne-kirk-riley-upstream-stack-20261030-1200",
+  "query": "(name:*Kirk* OR name:*Riley* OR name:*Reley* OR name:*Shatner* OR name:*Hyde* OR path:*Kirk* OR path:*Riley* OR path:*Reley* OR path:*Shatner* OR path:*Hyde*) OR (\"Bruce Hyde\" NEAR/12 Riley) OR (\"William Shatner\" NEAR/12 Kirk) OR (\"Human Relic Lens\") OR (\"Nathan from 1975\") OR (\"Shatner drift\") OR (\"Refusal of False Stakes\") OR (\"Acceptance of Moral Residue\") OR (\"Identity Anchoring\") OR (\"low tolerance for indecision\") OR (Kirk NEAR/8 mind) OR (Riley NEAR/8 mind)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "0cbb70f52a18b504630933879b61f6f21dfc3758",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "8235284e46888075732d51d54518c5fb7b4715ec",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "0cbb70f52a18b504630933879b61f6f21dfc3758",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "2c9c5ab2e90f8eef60aa0d5d2c428670db8712ba94864dd803374e5b68914847",
+    "SEARCH_RESULTS.md": "95474581dafee563d6c019c7e7268db8423490bc58562a29ef8af982d0351df3",
+    "SEARCH_RECEIPT.json": "a17d9dd07b7b03ad610b7417041006280f8eb5dd352dc0c8afdbc235c172eb18",
+    "SEARCH_RECEIPT.md": "50a5c106879333f06419324bb7615e1406c466366c2f21e04ccd358cc8ebacd7"
+  }
+}

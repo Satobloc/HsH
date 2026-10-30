@@ -1,0 +1,409 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "2c9c5ab2e90f8eef60aa0d5d2c428670db8712ba94864dd803374e5b68914847",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-30T14:29:14.826753+00:00",
+  "query": "(name:*Kirk* OR name:*Riley* OR name:*Reley* OR name:*Shatner* OR name:*Hyde* OR path:*Kirk* OR path:*Riley* OR path:*Reley* OR path:*Shatner* OR path:*Hyde*) OR (\"Bruce Hyde\" NEAR/12 Riley) OR (\"William Shatner\" NEAR/12 Kirk) OR (\"Human Relic Lens\") OR (\"Nathan from 1975\") OR (\"Shatner drift\") OR (\"Refusal of False Stakes\") OR (\"Acceptance of Moral Residue\") OR (\"Identity Anchoring\") OR (\"low tolerance for indecision\") OR (Kirk NEAR/8 mind) OR (Riley NEAR/8 mind)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15590,
+    "records_scanned": 20808904,
+    "hits": 551
+  },
+  "counted_hits": 551,
+  "distinct_sources": 31,
+  "results_by_root": {
+    "hsh-main": 475,
+    "resources": 76
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*Kirk*",
+      326
+    ],
+    [
+      "name:*Kirk*",
+      326
+    ],
+    [
+      "Kirk",
+      177
+    ],
+    [
+      "mind",
+      113
+    ],
+    [
+      "Riley",
+      111
+    ],
+    [
+      "Nathan from 1975",
+      34
+    ],
+    [
+      "Acceptance of Moral Residue",
+      25
+    ],
+    [
+      "Shatner drift",
+      24
+    ],
+    [
+      "Refusal of False Stakes",
+      24
+    ],
+    [
+      "Bruce Hyde",
+      21
+    ],
+    [
+      "Identity Anchoring",
+      18
+    ],
+    [
+      "Human Relic Lens",
+      15
+    ],
+    [
+      "William Shatner",
+      13
+    ],
+    [
+      "low tolerance for indecision",
+      9
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json",
+      "title": "MERSEARCH_REQUEST",
+      "record_count": 1,
+      "best_score": 326,
+      "first_hit_index": 490,
+      "sample_hit_index": 490,
+      "locator": "$.query",
+      "matched_terms": [
+        "Bruce Hyde",
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Human Relic Lens",
+        "Nathan from 1975",
+        "Shatner drift",
+        "Refusal of False Stakes",
+        "Acceptance of Moral Residue",
+        "Identity Anchoring",
+        "low tolerance for indecision",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 56,
+      "best_score": 197,
+      "first_hit_index": 11,
+      "sample_hit_index": 119,
+      "locator": "message:ae164437-a7db-4062-9b28-eb73bee3c375",
+      "matched_terms": [
+        "Riley",
+        "Kirk",
+        "Human Relic Lens",
+        "Shatner drift",
+        "Refusal of False Stakes",
+        "Acceptance of Moral Residue",
+        "Identity Anchoring",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 56,
+      "best_score": 197,
+      "first_hit_index": 12,
+      "sample_hit_index": 120,
+      "locator": "message:ae164437-a7db-4062-9b28-eb73bee3c375",
+      "matched_terms": [
+        "Riley",
+        "Kirk",
+        "Human Relic Lens",
+        "Shatner drift",
+        "Refusal of False Stakes",
+        "Acceptance of Moral Residue",
+        "Identity Anchoring",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 2,
+      "best_score": 86,
+      "first_hit_index": 1,
+      "sample_hit_index": 1,
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "title": "Revival Rotation",
+      "record_count": 2,
+      "best_score": 86,
+      "first_hit_index": 2,
+      "sample_hit_index": 2,
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 2,
+      "best_score": 86,
+      "first_hit_index": 3,
+      "sample_hit_index": 3,
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 2,
+      "best_score": 86,
+      "first_hit_index": 4,
+      "sample_hit_index": 4,
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL.md",
+      "title": "CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL",
+      "record_count": 151,
+      "best_score": 76,
+      "first_hit_index": 338,
+      "sample_hit_index": 446,
+      "locator": "line:42",
+      "matched_terms": [
+        "name:*Kirk*",
+        "path:*Kirk*",
+        "Acceptance of Moral Residue"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK.md",
+      "title": "CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK",
+      "record_count": 94,
+      "best_score": 69,
+      "first_hit_index": 244,
+      "sample_hit_index": 246,
+      "locator": "line:101",
+      "matched_terms": [
+        "name:*Kirk*",
+        "path:*Kirk*",
+        "Nathan from 1975",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-kirk-context-policy-source-gate-20261027t08z-s0-002.md",
+      "title": "ariadne-kirk-context-policy-source-gate-20261027t08z-s0-002",
+      "record_count": 18,
+      "best_score": 62,
+      "first_hit_index": 512,
+      "sample_hit_index": 513,
+      "locator": "line:11",
+      "matched_terms": [
+        "name:*Kirk*",
+        "path:*Kirk*",
+        "Shatner drift"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/ARCHIVE_RETRIEVAL_HUMAN_SIMULATION_NOTES_2026-09-22.md",
+      "title": "ARCHIVE_RETRIEVAL_HUMAN_SIMULATION_NOTES_2026-09-22",
+      "record_count": 12,
+      "best_score": 54,
+      "first_hit_index": 232,
+      "sample_hit_index": 235,
+      "locator": "line:38",
+      "matched_terms": [
+        "Kirk",
+        "Refusal of False Stakes"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11•26.10.15•Morrow + Kestrel Free Quarry — raw.json",
+      "title": "Morrow + Kestrel Free Quarry",
+      "record_count": 2,
+      "best_score": 50,
+      "first_hit_index": 186,
+      "sample_hit_index": 186,
+      "locator": "message:4e2f5748-ab42-4eaa-bc7b-dbbc3e304da4",
+      "matched_terms": [
+        "Bruce Hyde",
+        "Riley",
+        "Kirk",
+        "mind"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.21•26.05.21•Blowing up Suno — raw.json",
+      "locator": "message:123c82aa-8794-4b62-91f6-81f1bd2252c6",
+      "matched_terms": [
+        "Identity Anchoring"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:bbe265d4-5f9a-479d-b6f3-8fb520114ded",
+      "matched_terms": [
+        "Riley",
+        "William Shatner",
+        "Kirk",
+        "Nathan from 1975",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:120d366f-72d4-4b13-b5db-b9d167ee050c",
+      "matched_terms": [
+        "Riley",
+        "Kirk",
+        "Nathan from 1975"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "locator": "message:120d366f-72d4-4b13-b5db-b9d167ee050c",
+      "matched_terms": [
+        "Riley",
+        "Kirk",
+        "Nathan from 1975"
+      ]
+    },
+    {
+      "hit_index": 8,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:120d366f-72d4-4b13-b5db-b9d167ee050c",
+      "matched_terms": [
+        "Riley",
+        "Kirk",
+        "Nathan from 1975"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
