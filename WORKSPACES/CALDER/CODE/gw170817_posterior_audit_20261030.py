@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-"""Reproduce the GW170817 posterior-summary audit from pinned public NPZ products.
+"""Reproduction script for a source-pinned GW170817 posterior-sample audit.
+
+STATUS: NOT EXECUTED in the 2026-10-30 Calder relay.  No numerical output from
+this script is used in the published report or Lean theorems.  Run only when
+the four pinned binary products can be retrieved and their Git blob hashes
+verified.
 
 Requires Python 3.10+ and NumPy only. The NPZ products are processed extracts,
-not raw strain data or independent experiments. The component-Lambda samples are
-not reweighted to the paper's flat prior in effective tidal deformability.
+not raw strain data or independent experiments. The component-Lambda samples
+are not reweighted to the 2019 paper's flat prior in effective tidal
+deformability, so their derived summaries must not be presented as the paper's
+official Table II posterior.
 """
 from __future__ import annotations
 
@@ -42,7 +49,10 @@ DATASETS = {
     },
 }
 
-HOST_REDSHIFT = 0.0099  # geocentric host-galaxy redshift used in the 2019 paper
+# Used only for an algebraic common-mass-rescaling check.  The pinned JESTER NPZ
+# products already contain source-frame masses; this does not add data or perform
+# a new detector/source-frame inference.
+HOST_REDSHIFT = 0.0099
 
 
 def git_blob_sha1(raw: bytes) -> str:
