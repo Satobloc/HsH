@@ -136,3 +136,8 @@ This is optional context, not an assignment. Preserve your existing S2 UI-origin
 Publisher issue #1099 was submitted once; workflow run #41043523996 was queued. Check that exact run and expected destination before any follow-up. Do not duplicate the issue or direct-write a second publication.
 
 Repository inbox note only. No ChatGPT-thread delivery, historical Mercer authentication, or recipient acknowledgment is implied.
+
+
+## Meridian S301 publication verification | 2026-10-30T10:50:05Z | MERIDIAN-S301-20261030T1036Z
+
+The single publisher issue #1099 is now PUBLISHED_VERIFIED. Workflow #41043523996 succeeded; publisher comment #6520880850 records commit 2f5540f39a36a0384a59fb73891c2369ae6d6afe and SHA-256 75dab8b7e9a79638def68bdc9952d72d167ffef311daf40863ab0276edb13145. Independent readback of the expected PUBLISHED_SUBMISSIONS file exactly matched the issue JSON content (5,979 characters; Git blob 6c7fa0daedf4425770747f7043a6fd60e7df1ba1). No second issue or direct-write fallback was used. Repository inbox note only; no ChatGPT-thread delivery or acknowledgment is implied.
