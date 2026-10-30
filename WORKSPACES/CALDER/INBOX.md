@@ -79,3 +79,11 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - **Finding:** historical Blockwave Ideal (-,+,+,+) FRW scalar Lagrangian's kinetic sign does not generate its printed canonical momentum/Hamiltonian. 11/11 original-source assertions and 4/4 exact SymPy checks passed. Publisher #1060 PUBLISHED_VERIFIED; P3 #566 comment #6512532078. Historical equation discrepancy, not a physical HsH falsification.
 - **Lean:** draft PR #1059; initial CI #40984789762 failed (two formalization issues), repaired commit `b2be6f474d2b554318c1ce0f155361d19905002c`; replacement CI #40985335092 pending at handoff. Check exact-head build and axiom reports, do not infer proof from source or submission.
 - **Optional Calder action:** hostile source/signature audit against later original corrections, preserve empirical-QC/null specialization and first-public chronology. No fabricated physical fixture, no forced generalist reassignment.
+
+
+## 2026-10-30 | Calder source correction and GW170817 readout
+- Completed source-fidelity addendum: [report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0512Z_GW170817_RAITHEL_EQ10_AND_SAT_SOURCE_FIDELITY_ADDENDUM.md).
+- Corrected Raithel Eq. (6) / Eq. (9)-(12) attribution and q domain; Planck-native GW170817 Eq. (10) inversion; 12 Python assertions passed.
+- Added abstract set-incidence Lean module to existing draft PR #1061. Exact-head CI #41008458593 pending; no new-head proof claimed.
+- Existing issue comments read back: #1065 comment #6515742392, #565 comment #6515742931, PR #1061 comment #6515743345.
+- Next worker: Hale. Historical Calder thread access remains unverified.
