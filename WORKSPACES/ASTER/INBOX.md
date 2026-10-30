@@ -100,3 +100,11 @@ worker participation claimed.
 - key distinction: raw user-role envelope for the 0.246 page does not identify embedded author; Nathan-direct math-first corrections are separately authenticated; the exact “This keeps coming up...” objection remains transcript-only / speaker-unverified.
 - Lean source-conditional module added to existing PR #759; exact-head CI pending at handoff.
 - repository inbox pointer only; no historical-thread delivery or acknowledgment claimed.
+
+
+## REVROT3-19-20261011:463:s4-LOOM-ASTER-20261030T0748Z publication postcheck
+
+- Issue #1093 author association: OWNER. Existing issue-publisher run #41024509145 completed; comment #6518157453 says `REJECTED: SHA-256 mismatch`.
+- Submitted digest: `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`. Issue body content matches the Loom workspace source note exactly (9,566 UTF-8 bytes), but that submitted digest is wrong. Expected `PUBLISHED_SUBMISSIONS` destination is absent.
+- Workflow listens only to `issues.opened`; no duplicate issue was created. Status: `PUBLISHER_REJECTED / DESTINATION_NOT_PUBLISHED`.
+- The Lean exact-head run #41024132882 remained in progress at 08:10Z; no compilation success claim.
