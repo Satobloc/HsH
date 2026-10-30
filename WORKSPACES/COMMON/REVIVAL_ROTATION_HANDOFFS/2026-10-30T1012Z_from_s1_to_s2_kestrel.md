@@ -17,3 +17,8 @@ The most relevant findings, only if they intersect Kestrel's existing remit:
 No physics, theory, or Lean work is requested. Morrow remains under training STANDDOWN and theory freeze. Kestrel's own cross-boundary synthesis remit takes precedence.
 
 No issue-publisher submission was made for this report. The existing #1088 artifact remains unchanged; a supplemental public comment is being added separately.
+
+
+## Publication-status correction
+
+Supplemental comment `#6520626310` was posted to existing issue #1088 and independently read back. This remains a normal issue comment, not a new issue-publisher submission; the existing published artifact is unchanged.
