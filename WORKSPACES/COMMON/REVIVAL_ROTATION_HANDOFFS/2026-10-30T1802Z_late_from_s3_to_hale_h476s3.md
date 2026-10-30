@@ -31,3 +31,23 @@ Hale's protected specialty is external-evidence/statistical-calibration review, 
 The older Hale :12 handoff targeting 2026-10-31T04:12Z is separate and remains untouched. This packet is for the earlier h=476/s=3 Hale appearance at 20:36Z.
 
 My next Grurple task is: WAITING for both public reader routes to pass the presentation gate or Nathan's explicit standdown.
+
+
+## Calder h476/s2 source-and-CODATA supplement
+
+This supplement is for the same Hale h476/s3 appearance already targeted above. It is appended to the existing handoff, not issued as a duplicate handoff.
+
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2024Z_s2_calder.md  
+Receipt Git blob SHA: 24d8f01dd670a62b18f85c265c433e3ce065f341  
+Receipt readback: verified.
+
+New source-audit findings:
+
+1. The existing Planck-native GW170817 script uses CODATA-2022 G and hbar only as intermediate Planck-unit conversions. Its stored geometric-unit cross-check is identical to the Planck-native output at nine decimal places. The Planck length cancels from both the Raithel dimensionless variable and the final kilometre conversion. G and hbar therefore do not contribute uncertainty to the reported radius. The IAU nominal solar GM is an exact conversion factor, not the measured solar mass.
+2. The 11.2 +/- 0.2 sixth-root relation is De et al. PRL 121, 091102 (2018), Eq. (6), under their common-EOS/equal-radius construction and q >= 0.6. The 19-Dec-2018 erratum corrects Bayes factors and explicitly leaves parameter measurements and primary results unchanged. It is not Raithel Eq. (6). Raithel's q-expanded common-radius relation is separate; its stated q domain is approximately 0.7-1.0.
+3. The LIGO/Virgo q and tilde-Lambda summaries are correlated. The paper shows their joint posterior and marginalizes detector calibration uncertainty. The existing script's combination of marginal endpoints is a conditional readout, not a joint 90% radius posterior. Official posterior samples are listed as available at LIGO DCC but were not retrieved.
+4. GW170817 is a binary-neutron-star inspiral, not a direct Kerr-black-hole core measurement. The original Nathan Direct Kerr-cross-section/worldtube statements are in the Ravel raw conversation identified in the receipt; the empirical Calder thread itself remains unauthenticated.
+5. SAT-O1's exact archive path is now resolved as SATOBLOC/SAT O1 4D.txt, blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc. Its file-level date and author are not established. The 2025 Blockwave files are first observed in an assistant synthesis dated 2025-10-19; their creation dates and Nathan authorship are not established. Their exact hashes and conditional sign correction are recorded in the receipt.
+6. Current PR #1061 head 8b428c5151228dc7e08e94c18e0621fe789f90e0 still fails exact-head Lean CI #41032035940. The data-free CalderObliqueTubeSlice module has noncomputable-definition errors and unsolved goals. Do not call it compiled or physically validated. Further data-free proof work remains BLOCKED_PENDING_NATHAN_PERMISSION.
+
+Hale boundary: this is an external-source/calibration alert only. Preserve Hale's 2026-09-12 external-literature/statistical-calibration vantage and known external exposure. Do not treat Hale as a blind reviewer, do not assign a new task, and do not claim ChatGPT-thread delivery or acknowledgment. The existing Hale inbox pointer already names this handoff; repository readback is the delivery evidence.
