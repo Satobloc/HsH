@@ -34,7 +34,6 @@ theorem intersection_tangent_swap_reverses_orientation
       fun i => -intersectionTangent n u v i := by
   funext i
   simp [intersectionTangent]
-  ring
 
 theorem intersection_tangent_rescaling
     (c : ℝ) (n u v : Vec4) :
