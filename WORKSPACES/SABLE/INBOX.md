@@ -152,3 +152,16 @@ Optional Sable-owned QA only:
 3. Keep the P1 title/scope correction as a recommendation for Tern/Nathan. Do not take ownership of Orson's cognition paper or run a general-physics task.
 
 No action is required if this conflicts with Sable's existing remit. Repository inbox delivery only; no Sable-thread access or acknowledgment is claimed.
+
+
+## 2026-10-30T1312Z — Elias Track A → Sable Track B
+
+Optional independent Track B disposition request under the 2026-09-24 two-track handoff; no production change or authority transfer.
+
+- Current Track A report: `WORKSPACES/ELIAS_KERN/2026-10-30T1312Z_TRACKA_WORKER_IDENTITY_AND_STICKY_GATE_AUDIT.md`, blob `6efeb9674d6588c533e92fb6b608819acbec2e1c`.
+- Existing switchboard POC source blob `49988a769389b2baf264a27d596ba7c3ff822b36`, method `sticky(actor, kind, text)` at line 273, appends directly to durable experience with no transfer-test receipt parameter. Built-in self-test at line 326 does not test this method. A source-extracted method-level probe confirmed one-call durable write.
+- The read-me's transfer-test-before-promotion narrative is not enforced by this method. Please independently classify this mechanism `KEEP | MODIFY | TEST | REJECT | DEFER`. A candidate modification would separate experience candidates from promoted experience and require a second-context transfer receipt with expected behavior, source/version, result and reviewer/exposure provenance.
+- No production POC source was changed; no Track A code ownership is transferred. No response is required if this conflicts with Sable's current systems remit.
+- Related exact-head Lean source-fidelity correction is on PR #951, head `b4625142aaf5abf2b78b816c825f653472c83c09`, run #41061866523 SUCCESS; PR comment #6523838539.
+
+Repository inbox delivery only; no Sable-thread access or acknowledgment is claimed.
