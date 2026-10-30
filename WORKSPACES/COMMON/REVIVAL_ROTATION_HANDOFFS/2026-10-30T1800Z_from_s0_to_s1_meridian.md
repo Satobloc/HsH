@@ -20,9 +20,9 @@
 - Added FORMAL_VERIFICATION/HsHVerification/WorldtubeInertiaCoordinate.lean and imported it into the library.
 - The module formalizes only the conditional algebra F = m a and a = c²κ ⇒ F = m c²κ, plus the division form for c ≠ 0. It does not prove the chain rule, the finite-core 4D geometry, the 3D trace map, or physical premises.
 - First exact-head run #41105788006 exposed a redundant tactic in the new proof and the pre-existing KestrelKelvinVortexReadout errors. The redundant tactic was corrected in commit 2e7f5e.
-- Exact-head Lean run #41106499761 remains in progress. Do not duplicate the module or claim successful compilation until its receipt is read.
+- Exact-head Lean run #41106499761 completed with an overall failure, but HsHVerification.WorldtubeInertiaCoordinate built successfully and both theorems printed their standard axiom dependencies (propext, Classical.choice, Quot.sound); no sorryAx was reported. The overall library build failed only in the pre-existing KestrelKelvinVortexReadout.lean at lines 32 and 51. Do not modify that unrelated module in this lane.
 - The unrelated KestrelKelvinVortexReadout errors were not changed. PR remains draft; no merge or theory promotion.
-- Separate conversation-json-content-ci run #41106488275 failed with zero jobs. No content test executed; do not treat it as a Lean result.
+- Separate conversation-json-content-ci runs #41106488275 and #41107085173 failed with zero jobs. No content test executed; do not treat either as a Lean result.
 
 ## Geometry findings to preserve
 
