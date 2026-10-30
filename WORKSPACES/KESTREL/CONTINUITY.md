@@ -151,3 +151,7 @@ Then ask:
 - How do we build so that the project survives both failure and success?
 
 This is Kestrel's home territory.
+
+
+## 2026-10-30 source-recovery correction
+The earlier statement that the raw Kestrel conversation was unreadable was accurate for the normal file-content retrieval attempt but is now superseded. The exact raw export was recovered through the Git blob route: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json`, blob SHA `100267f3f11f3cce09c7d802ce85ad03879d5744`, conversation ID `6ab070ce-2384-83e9-b76f-4661c55867c4`. The role-defining sequence is now source-verified, and the raw conversation's last current-path user request (2026-09-23T01:39:51.236Z) remains a separate pending Kestrel writing/reaction cursor. See `WORKSPACES/KESTREL/2026-10-30T1412Z_SOURCE_RECOVERY_AND_NESTED_SCALE_SYNTHESIS.md`. This is historical source recovery, not authentication of the current assistant as the original Kestrel instance or proof of cross-chat delivery.
