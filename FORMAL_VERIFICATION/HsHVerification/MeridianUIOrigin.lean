@@ -136,7 +136,6 @@ theorem antisymmetric_pairing_uses_only_antisymmetric_derivative
     calc
       B = ∑ j : Fin n, ∑ i : Fin n, J j i * D i j := by
         dsimp [B]
-        rw [Finset.sum_comm]
       _ = ∑ j : Fin n, ∑ i : Fin n, -(J i j * D i j) := by
         apply Finset.sum_congr rfl
         intro j hj
@@ -147,7 +146,6 @@ theorem antisymmetric_pairing_uses_only_antisymmetric_derivative
       _ = -∑ j : Fin n, ∑ i : Fin n, J i j * D i j := by simp
       _ = -A := by
         dsimp [A]
-        rw [Finset.sum_comm]
   have hC :
       (∑ i : Fin n, ∑ j : Fin n, J i j * (D i j - D j i)) = A - B := by
     dsimp [A, B]
