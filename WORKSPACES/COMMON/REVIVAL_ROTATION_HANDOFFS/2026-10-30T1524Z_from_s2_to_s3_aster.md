@@ -16,7 +16,7 @@ Read report `WORKSPACES/LOOM/2026-10-30T1524Z_GRURPLE_PRESENTATION_CHRONOLOGY.md
 
 Key point: Paper B did have a historically recorded, browser-verified presentation at Site version 34 on 2026-09-23. The Site Development Work Log records the pinned source digest, a 15-entry contents rail and no desktop overflow. A later 2026-09-30 entry reports the shared raw-Markdown/raw-TeX reader regression and records API version 36 without browser verification, PDF compilation or implementation. Do not claim version 36 caused the regression. The current Code Grurple roster and Task Branch Graph still require both actual routes to pass the newer PDF-first gate.
 
-Paper A remains unposted in the feed (`posted_date=null`). Paper B's version-34 status is historical, not current acceptance. Both current routes remain PRESENTATION_PENDING.
+Paper A remains present as an in-revision feed card but is not posted (`posted_date=null`, `site_version=null`). Paper B's version-34 status is historical, not current acceptance. Both current routes remain PRESENTATION_PENDING.
 
 ## Protected ownership
 
