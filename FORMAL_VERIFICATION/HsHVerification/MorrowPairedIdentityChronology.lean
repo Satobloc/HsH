@@ -168,3 +168,80 @@ theorem conditional_filter_cannot_remove_any_node
 #print axioms conditional_filter_cannot_remove_any_node
 
 end HsHVerification.MorrowSelectedAncestryAudit
+
+/-!
+## Conversation-context citation pub_date versus message create_time (2026-10-30)
+
+Primary JSON sources:
+- Morrow raw export blob 362075c5e32ec9e97579bd1de58fba7f612cb6bb.
+- Earliest Morrow citation snapshot e32873cd17c1d96003dced0310ebf4d3cd954d07.
+- Aldus raw export blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a.
+
+In this observed citation, citation.pub_date exactly equals the Aldus
+conversation's top-level create_time. The citation snippet is matched by
+exact text search to an individual Aldus user message whose own
+message.create_time is later. The citation object carries conversation
+identity/title/snippet/pub_date, not that message UUID or message time.
+
+All constants below are transcribed from the original JSON decimal
+timestamps and represented as integer microseconds. These theorems
+prove only the declared arithmetic facts. Lean does not parse the JSON,
+validate the snippet-to-message match, or establish generation-time
+exposure or causal influence.
+-/
+namespace HsHVerification.MorrowCitationDateAudit
+
+def aldusConversationCreatedUs : Nat := 1788734012522178
+def citationPubDateUs : Nat := 1788734012522178
+def earlierAldusSnippetMessageCreatedUs : Nat := 1788862185906000
+def laterAldusPromptCreatedUs : Nat := 1788865317555000
+def morrowFirstAnswerCreatedUs : Nat := 1788865251446219
+def morrowFollowupPromptCreatedUs : Nat := 1788865405421000
+def morrowFollowupAnswerCreatedUs : Nat := 1788865412172734
+
+theorem citation_pub_date_equals_target_conversation_create_time :
+    citationPubDateUs = aldusConversationCreatedUs := by decide
+
+theorem citation_pub_date_is_not_earlier_snippet_message_time :
+    citationPubDateUs ≠ earlierAldusSnippetMessageCreatedUs := by decide
+
+theorem citation_pub_date_is_not_later_snippet_message_time :
+    citationPubDateUs ≠ laterAldusPromptCreatedUs := by decide
+
+theorem citation_pub_date_precedes_earlier_snippet_message :
+    citationPubDateUs < earlierAldusSnippetMessageCreatedUs := by decide
+
+theorem citation_pub_date_precedes_later_snippet_message :
+    citationPubDateUs < laterAldusPromptCreatedUs := by decide
+
+theorem exact_container_to_earlier_message_gap_us :
+    earlierAldusSnippetMessageCreatedUs - citationPubDateUs = 128173383822 := by decide
+
+theorem exact_container_to_later_prompt_gap_us :
+    laterAldusPromptCreatedUs - citationPubDateUs = 131305032822 := by decide
+
+theorem later_aldus_prompt_precedes_morrow_followup_prompt :
+    laterAldusPromptCreatedUs < morrowFollowupPromptCreatedUs := by decide
+
+theorem exact_later_prompt_to_morrow_followup_prompt_gap_us :
+    morrowFollowupPromptCreatedUs - laterAldusPromptCreatedUs = 87866000 := by decide
+
+theorem exact_later_prompt_to_morrow_followup_answer_gap_us :
+    morrowFollowupAnswerCreatedUs - laterAldusPromptCreatedUs = 94617734 := by decide
+
+theorem exact_morrow_followup_prompt_to_answer_gap_us :
+    morrowFollowupAnswerCreatedUs - morrowFollowupPromptCreatedUs = 6751734 := by decide
+
+#print axioms citation_pub_date_equals_target_conversation_create_time
+#print axioms citation_pub_date_is_not_earlier_snippet_message_time
+#print axioms citation_pub_date_is_not_later_snippet_message_time
+#print axioms citation_pub_date_precedes_earlier_snippet_message
+#print axioms citation_pub_date_precedes_later_snippet_message
+#print axioms exact_container_to_earlier_message_gap_us
+#print axioms exact_container_to_later_prompt_gap_us
+#print axioms later_aldus_prompt_precedes_morrow_followup_prompt
+#print axioms exact_later_prompt_to_morrow_followup_prompt_gap_us
+#print axioms exact_later_prompt_to_morrow_followup_answer_gap_us
+#print axioms exact_morrow_followup_prompt_to_answer_gap_us
+
+end HsHVerification.MorrowCitationDateAudit
