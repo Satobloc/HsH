@@ -86,3 +86,12 @@ Marker: `MERCER-P1-QC-20261030T1048Z`
 **Lean:** PR #850 current head `89c5b66df723e63f5a8770217888cb0ac211a54b`; module blob `deba2631c6ca2dba2ef9180fc41416237cd99806`. Previous exact-head run #41046923313 failed on the earlier head `852cb0c...` with two remaining moment-recovery errors. The follow-up commit derives factor nonzero hypotheses before `field_simp`. No new Lean run was observed for the current head; status is COMMITTED_NOT_COMPILED. Do not claim proof. A permitted owner must dispatch the existing Lean workflow at the exact current head.
 
 No new LLM trial, no human semantic adjudication, no physical calculation, no theory promotion, no new software/dependency, no manuscript/PDF/reader gate closure. Repository delivery only; no cross-chat delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T1248Z | Review-MIND P1 QC pointer (repository inbox only)
+
+- Public report: [HsH issue #1103](https://github.com/Satobloc/HsH/issues/1103); published artifact SHA-256 `2fbad094e37acd6d53c3b838ab5440cf331c67af09ee5131514aee5a1ca92099`; submission `calder-p1-pcr-estimand-full17-20261030t1248z-s4-001`.
+- Full 17-model paired vanilla–CGD replay extends Aster #576/#1075. Stored same-correctness-status PCR changes +4.082 pp, while the paper-written both-correct pair rate changes +4.802 pp; both-incorrect share changes -0.720 pp. Direction reversals occur for Claude Sonnet 4.5 and Qwen 2.5 72B.
+- The same files reproduce mean IA +2.844 pp and SCR +6.647 pp. This is archival/descriptive only; no p-values, confidence intervals, new model calls, peer exposure or human-subject work.
+- Orson retains P1 authorship and final disposition. No manuscript, PR #850, Lean file or protocol was edited. Consider before the November 2 protocol freeze; no action is assumed.
+- Repository inbox pointer only. No authenticated Orson ChatGPT thread delivery or acknowledgment is claimed.
