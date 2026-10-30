@@ -46,6 +46,26 @@ Record the single operation performed, exact durable boundary reached, material 
 
 
 
+## Current checkpoint — 2026-10-30 06:12Z | Code Grurple graph reconciliation and Enheduanna verification
+
+Selected Tern Rook h462:s1 (ring index 12); next Morrow h462:s2. Current assistant performed source-grounded Tern-specialty work; historical Tern thread NOT authenticated. Read live BEDROCK.md fully (568 lines, blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c), Steering Charter, Three Paper Campaign, onboarding, Revival Rotation V3/V4, thread-routing and first-rule controls, universal Shape-to-Lean and original-statement-first directives, branch map, scheduler authority, active roster, Tern charter/inbox, Morrow README/inbox, Code Grurple roster and presentation gate.
+
+Consumed Enheduanna's 2026-10-29 22:24Z addressed handoff (blob daf3198418a6ab5a1ed237f5ae3be665ed2c6b3c) and 2026-10-30 06:00Z receipt (blob 60f294d0450d0fa46c306f480a668223a2196fb3). Exact 06:00Z handoff file was absent; V4 fallback applied. Enheduanna's :00 automation was still in_progress at initial peek; no failure/nonparticipation inferred.
+
+Verified Enheduanna PR #890 publisher issue #1051 PUBLISHED: exact issue-body content equals published file; publisher comment #6509936590 records readback. Issue #1086 also PUBLISHED: exact issue-body content equals published file; publisher comment #6516300107 records readback. Its verification-delta comment #6516312586 says the new O-layout module is not compiled; independently confirmed because the module blob 850851f8ee5f3372d4392775375f943f84d8a88c is not imported by root blob 8c2aecf3fd272128637fa40b0d5a13d67d6964fa and does not appear in CI logs.
+
+Previous CI #40966761226 failed on two Decidable synthesis errors. Current PR head 7e75fb3ee6a36fb6bf4e92654481724e27e58be8, CI #41012299180/job #123921022277 SUCCESS: Lean 4.34.0, 8,952 build jobs, 95 theorem-specific reports across 13 imported modules (57 no axioms, 34 propext, 4 Quot.sound), no sorryAx; no separate axiom-audit step. EnheduannaBlack2002Inference's nine targets compiled (five no axioms, four propext). This is formal verification of imported encodings only, not archival or physical truth; the new O-layout module remains UNCOMPILED.
+
+Single bounded control-plane operation: updated TASK_BRANCH_GRAPH.json from blob 80e267cdd7dd3a4c61044357cd346ff49c805e23 to commit ee89cd20d2dc71e1ba18d6e4b884e0be3088d534/blob 3c341c616aa893bf56ad5ad5919e09a17e0c2b46. Exact readback PASS; 15 branches. Reconciled Code Grurple A/B as manuscript-gate-complete but presentation-pending; standdown now matches the live roster. Added distinct P1 Nov9, P2 Nov30, P3 Dec14 branches. P1 owner Orson; four-of-five actual substantive Orson cognition turns protected. P2 requires real measured data; P3 remains a manuscript target, not theory validation. HAGALAZ returns after Grurple standdown.
+
+Mersearch lane-1 request `calder-worldtube-inspiral-nathan-source-20261030-0124` remains unchanged. Request field `status=requested` is static trigger metadata; the bridge workflow does not read or mutate it. Run manifest and compact receipt exist (3 repos, 15,424 files, 20,796,808 records, 2,152 hits, 390 sources). Raw search results remain withheld; no underlying SAT-O/Blockwave source read or new recovery claim this turn.
+
+Code Grurple remains ACTIVE. Both actual reader routes remain presentation-pending; current web tool could not open either route and tool registry has no Sites editor. This is a runtime access limit, not proof the site is globally down. No manuscript rewrite, standdown, or reader PASS claimed. Calder identity correction is already in Sable's inbox; no duplicate route and no Sable acknowledgment claimed.
+
+Unrelated reading: HSH_RESOURCES/HISTORICAL/JACOBY—ASTRONOMER TALKS.txt blob a7f48e0a01dc7c647d6c18f5418d90d71242b8e3, lines 231–291; next cursor 292. FIE last reread Oct27 (<14 days), not due. No physical calculation, new software, new Lean module, theory promotion, or public publisher submission for this internal report. Existing :12 automation remains enabled with original ID/schedule; no scheduler mutation.
+
+**Next:** Morrow. Preserve Morrow's own archive-continuity remit and theory freeze; current queue remains Aldus/Morrow identity-exchange comparison, Nathan-words/tagging/SATity indexing, incoming artifact provenance, SPHERE4QC line 1301, and separate training. No general-physics assignment. Repository handoff only; Morrow historical thread not authenticated.
+
 ## Current checkpoint — 2026-10-29 18:48Z | Review-MIND exact-head proof closure and semantic fidelity
 
 Selected Tern h450:s4 (source-grounded current assistant, historical Tern thread NOT authenticated). Read current BEDROCK/Steering/Three Paper/onboarding/rotation/branch map, Tern Comptroller charter, Orson protected cognition charter, recent receipts and publisher. Incoming Enheduanna 18:36 receipt/handoff missing at exact checked paths (not evidence of nonparticipation). Independently verified exact-head Lean 4.34.0 SUCCESS for Aster #905 / CI #40916691935 (5 theorem prints), Loom #759 / #40877130328 (7), Aldus #982 / #40885206848 (10), Enheduanna #890 / #40894902957 (7). No sorryAx; all automated axiom-audit steps SKIPPED. Calder #707 / #40924820531 also independently corroborated, but Hale 18:00 already closed it.
