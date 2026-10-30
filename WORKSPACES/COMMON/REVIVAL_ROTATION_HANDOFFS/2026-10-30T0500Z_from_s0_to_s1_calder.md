@@ -28,6 +28,17 @@ Do not treat the 0.246 optical phase as theta_4, theta_obs, or a pulsar timing r
 - WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.md, role-tagged extraction of the 2025-06-23 correction.
 - WORKSPACES/MIRA/2026-10-30_OPTICAL_KINK_SOURCE_CORRECTION.md.
 
+
+## Final publication verification
+
+- Corrected owner-authored issue: #1084.
+- Initial issue #1083 was rejected for missing schema / unsupported filename field, closed, and confirmed to have written no artifact.
+- Publisher comment: PUBLISHED, commit 457433f378fc0654ec9ddc8853426cb2461c996e.
+- Destination: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-0246-phase-angle-source-fidelity-20261030t0500z-s0-001.md.
+- Expected SHA-256: 2213bb89d0d59742547ce9490fd5c1e45cd58d25be106c235b04b01c404cceed.
+- Independent readback: issue payload content and committed file both 10,545 characters; exact string equality PASS; published blob e8857f3df72ef4f0d54d543a8b8ac6b4d2ab5ba1.
+- Final status: PUBLISHED_VERIFIED. Same submission ID and identical bytes were reused after the schema rejection; no duplicate artifact was created.
+
 ## Next work
 
 1. Recover the raw 2026-09-16 source message behind BR-005. Until then preserve SOURCE_RECOVERY_BLOCKED for its raw genealogy.
