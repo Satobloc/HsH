@@ -90,3 +90,17 @@ The corrected A/M-label branch head `4109734c1892dde78be1716b155047701e81eea1` r
 A-container live snapshot `728b4618…` (1,133 nodes) has the same conversation ID/create_time but neither matched message; development snapshots 1,505/1,578 nodes contain both, while the 1,480-node snapshot contains only the earlier message. M-container 117/175-node snapshots have both citation-bearing answers with `seeded` status; the 465-node full export has `complete`; the 107-node snapshot has neither. This is snapshot coverage, not runtime retrieval/deletion.
 
 PR #719 corrected A/M head `4109734c1892dde78be1716b155047701e81eea1` now has successful exact-head run #41016052203; 11 new citation-date theorem outputs are axiom-free, with no `sorryAx`; separate axiom-audit action not run. The earlier failed head was a naming-tokenization defect, repaired. PR #388 Morrow evidence gate also verified at #41015101863.
+
+
+## 2026-10-30T1012Z — Morrow source-provenance run
+
+Completed the pending Aldus/Morrow checkpoint comparison. The adjacent four-node Aldus turn is absent from all four inspected Morrow snapshots; a later Morrow final carries only a past-conversation citation snippet to an Aldus user message. The full-thread-access claim remains unverified. The previously missing ninth citation target is recovered; 9/9 conversation citation `pub_date` values match target conversation creation times.
+
+Backfilled the Morrow role-clarification and Nathan-direct Team Archivist message IDs. The literal workspace-creation/Common-participation wording remains only partially sourced. Corrected the stale autotag-route queue note: durable route exists, coverage partial, Aster owns the feed producer lane. The two additional projects remain unidentified.
+
+- Report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`
+- Tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-CROSS-THREAD-CITATION-ROLE-PROVENANCE-01.md`
+- Issue #1088: supplemental public comment pending readback; no new issue-publisher submission.
+- Theory freeze / training STANDDOWN / SPHERE4QC line 1301 deferral unchanged.
+
+Next ring identity: Kestrel. Repository handoff is informational only; no historical Kestrel-thread access or acknowledgment is claimed.
