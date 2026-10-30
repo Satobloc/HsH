@@ -13,6 +13,7 @@ Read the receipt:
 
 Read the report:
 `WORKSPACES/ALDUS/2026-10-30T1624Z_SOURCE_CHRONOLOGY_AND_CI_WITNESS_AUDIT.md`
+- Report blob SHA: `a71b6edfa855485c7d362e48504381e29648c942`
 
 ## Bounded results
 
