@@ -111,3 +111,6 @@ The existing Slack side-room thread has 19 prior M-container-signed notes and no
 Kestrel's whole-system synthesis specialty is protected. Use this only as optional cross-boundary context; do not repeat the provenance audit or infer backend transfer. No physical-theory assignment is attached. Morrow's theory-integration freeze remains in force.
 
 Formalization status: PR #719 corrected A/M code head `b06d2b255a741c7bbf843628ae354691b0e6169d`, exact-head CI #41015498063 pending at handoff. Separate PR #388 Morrow evidence gate exact-head run #41015101863 succeeded and built the module; six theorem-specific axiom reports show only standard Lean axioms; automated axiom-audit step skipped.
+
+### Morrow CI repair update — 2026-10-30T0647Z
+PR #719's first corrected-label head failed because two identifiers were tokenized as subtraction/free variables, producing `sorryAx` reports. The defect was repaired in exact head `4109734c1892dde78be1716b155047701e81eea1`; run #41016052203 is in progress at dependency-manifest generation. Do not treat the earlier green pre-correction run #41014686212 as verification of the corrected branch. The separate PR #388 Morrow evidence gate remains verified at run #41015101863.
