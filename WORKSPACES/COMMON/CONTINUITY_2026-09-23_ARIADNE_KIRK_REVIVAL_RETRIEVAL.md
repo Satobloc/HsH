@@ -235,3 +235,18 @@ The authenticated index-level events currently available are:
 Accordingly, the title and operator list are **assistant-attributed reconstruction**, not Nathan Direct. The direct user event establishes the episode-order choice only. The raw January 22 conversation identity and message bodies remain unrecovered. The January 21 podcast predates the January 22 event, so it cannot be derived from that later assistant output; it may reflect an earlier upstream bundle, which is still missing.
 
 The older retrieval note's “correct Kirk hit rejected as false positive” example is also corrected: the inspected large raw candidate contained unrelated embedded bibliography/personal-name token matches, not Captain Kirk/Lieutenant Riley source material. The general requirement to inspect plausible hits remains, but that candidate is not evidence for the human-simulation stack.
+
+## Supplemental source-status correction — 2026-10-30T12:55Z
+
+A separate **prior-conversation retrieval** (outside the public GitHub date index and outside the recovered raw Ariadne export) now returns a role-attributed user event at **2026-01-22 17:55:59Z** requesting continuation of the accumulative Kirk theory-of-mind work. It also returns a same-thread assistant title/operator synthesis. The retrieval did **not** return a conversation title, conversation ID, message UUID, raw JSON export, or complete role-tagged message object.
+
+This changes the earlier 2026-10-30 status only as follows:
+
+- The 17:55:59Z user request is now **PRIOR_CONVERSATION_SEARCH_CORROBORATED / RAW_EXPORT_NOT_RECOVERED**, not simply an unsupported legacy timestamp.
+- The assistant title/operator output remains **assistant-authored**, not Nathan Direct. Its timestamp is disputed: this prior-conversation retrieval places it at 17:55:59Z, while the public index records it at 17:57:40Z. Preserve both witnesses; do not choose one without the raw conversation.
+- The same prior-conversation retrieval reports no Riley, Bruce Hyde, or Nathan-from-1975 material in that January 22 Kirk conversation. Keep those components in the separate January 21 podcast/source-bundle lineage.
+- The exact January 22 conversation identity and raw export remain unresolved. Do not cite this private retrieval as a public raw-source locator, and do not amend public issue #1100 on its basis alone.
+
+The January 21 SRT remains a derivative published witness, with 487 timed cues and no speaker labels in its derived cue representation. Its own references to upstream TXT/README/workflow materials are not proof that those files have been recovered. The January 22 user request is later than the podcast publication and cannot be the source of that earlier episode.
+
+**Status transition:** `17:55:59 USER EVENT = PRIOR_CONTEXT_ROLE_CORROBORATED`; `RAW_MESSAGE_ID / CONVERSATION_ID / RAW_EXPORT = PENDING`; `ASSISTANT_TITLE_OPERATOR_AUTHORSHIP = RETAINED`; `ASSISTANT_OUTPUT_TIMESTAMP = CONFLICTED`.
