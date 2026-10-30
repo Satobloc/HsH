@@ -1,0 +1,110 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "packet_id": "calder-factory-handoff-pending-aldus-blockwave-20261030t0124z",
+  "created_at_utc": "2026-10-30T01:24:00Z",
+  "status": "FACTORY_HANDOFF_PENDING",
+  "source_worker_lane": "Calder",
+  "worker_identity_status": "Ring selection only; not an authenticated ChatGPT instance or historical conversation.",
+  "target": {
+    "repository": "Satobloc/FACTORY_FLOOR",
+    "route": "1 GLASS+HSH -> 2 WORKSHOP",
+    "floor_id": null,
+    "intake_mechanism_available": false,
+    "reason": "The public Factory Floor README and FLOORROOM_TODO expose no authorized machine-readable intake endpoint or allocated Floor ID. Direct repository writes are not authorized."
+  },
+  "source_proof": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 1059,
+    "branch": "research/aldus-blockwave-ideal-sign-20261030t0112z",
+    "head_sha": "b2be6f474d2b554318c1ce0f155361d19905002c",
+    "tested_merge_ref_sha": "7402d44c07537fc2c418c0458b6e0a2795fa7347",
+    "workflow_run_id": 40985335092,
+    "workflow_run_url": "https://github.com/Satobloc/HsH/actions/runs/40985335092",
+    "job_id": 123834914915,
+    "job_conclusion": "success",
+    "proof_module_path": "FORMAL_VERIFICATION/HsHVerification/AldusBlockwaveIdealSign.lean",
+    "proof_module_blob_sha": "c1d0c57c3829260b4036ffee3f69e1dff98a0aae",
+    "theorem_targets": [
+      "source_momentum_disagrees_with_printed",
+      "source_legendre_time_term",
+      "source_kinetic_opposite_of_printed",
+      "source_kinetic_negative_if_nonzero_time_mode"
+    ],
+    "lean_toolchain": "leanprover/lean4:v4.34.0",
+    "lean_version_commit": "293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+    "lake_version": "5.0.0-src+293d5d0",
+    "mathlib_git_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+    "dependency_manifest": {
+      "generated_in_ci": true,
+      "committed_to_repository": false,
+      "exact_transitive_manifest_retained": false,
+      "limitation": "The workflow runs lake update at job time. Mathlib commit is visible in logs, but lake-manifest.json is not committed or retained as a source artifact."
+    },
+    "workflow_scope": {
+      "lake_build": "success",
+      "test_step": "disabled",
+      "lint_step": "disabled",
+      "standalone_axiom_audit_step": "skipped",
+      "theorem_specific_print_axioms": "present in build log",
+      "sorryAx_found": false,
+      "observed_standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  },
+  "historical_source": {
+    "source_repository": "Satobloc/HsH",
+    "source_path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT—Blockwave Ideal Model.txt",
+    "source_blob_sha": "dd0631bc0b25c951dc5e1d6738280e08487b46b2",
+    "source_git_ingest_commit": "6e4415f62616b19ae5cb677984c85d1985834d9d",
+    "source_git_ingest_date_utc": "2026-10-08T02:42:49Z",
+    "original_creation_or_first_publication_date": "UNRESOLVED",
+    "raw_conversation_path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.19•Full action definitions — raw.json",
+    "raw_conversation_blob_sha": "1f074cc67057ae9df1e92bab45e8ba34c96b0d77",
+    "raw_export_git_commit": "12bb502527e78a347e27e2b0eb5598f354ef2be1",
+    "raw_export_git_date_utc": "2026-10-10T01:26:41Z",
+    "role_provenance": {
+      "user_message_uuid": "f77f769e-8e74-4def-b4c9-bced0edbb8bc",
+      "user_message_timestamp_utc": "2025-10-19T14:49:49.631Z",
+      "user_message_role": "Review request / re-paste; not proof of original authorship of each equation.",
+      "earlier_user_request_uuid": "fa1e045d-a7ff-4dcf-8110-ae9fa555a54a",
+      "earlier_assistant_synthesis_uuid": "121d607d-53e7-4b5a-8a7a-75d7e09deb3d",
+      "assistant_review_uuid": "68759291-9b8b-473f-81e4-08f563a15d0b",
+      "assistant_review_timestamp_utc": "2025-10-19T14:50:59.140Z",
+      "authorship_conclusion": "The earlier user request asked the assistant to supply the action; the assistant synthesized it from retrieved files. Do not attribute the positive-sign action to Nathan Direct."
+    }
+  },
+  "equations": {
+    "original_source_equation": {
+      "status": "Historical source transcription; assistant-derived provenance, not Nathan Direct.",
+      "metric_signature": "(-,+,+,+)",
+      "metric": "ds^2 = -dt^2 + a(t)^2 d(vec{x})^2",
+      "lagrangian": "L_theta = +(f_theta^2/2) g^{mu nu} (partial_mu theta)(partial_nu theta)",
+      "source_locator": "SAT—Blockwave Ideal Model.txt, lines 96-104; metric and printed canonical sector, lines 383-405."
+    },
+    "separate_conditional_correction": {
+      "status": "Assistant reconstruction / standard positive-kinetic sign choice under the stated (-,+,+,+) convention; not a source correction or Nathan Direct equation.",
+      "lagrangian": "L_theta_corrected = -(f_theta^2/2) g^{mu nu} (partial_mu theta)(partial_nu theta)",
+      "limitation": "This correction is conditional on the legacy Lorentzian signature and is not transferable to the current H(s)H ++++ ambient metric without a separately derived action and signature map."
+    }
+  },
+  "interpretation": {
+    "result": "The source's positive-sign kinetic term and printed positive canonical momentum/Hamiltonian are algebraically inconsistent under its stated (-,+,+,+) metric for a nonzero homogeneous time mode.",
+    "not_established": [
+      "No demonstration of a ghost in the full coupled historical theory.",
+      "No physical system or independent measurement.",
+      "No validation of current H(s)H dynamics.",
+      "No later source-authenticated correction found yet; Mersearch source-recovery request remains pending."
+    ],
+    "bedrock_promotion": false,
+    "paper_status": "Not a manuscript, not a paper submission, no PDF/reader."
+  },
+  "delivery": {
+    "delivery_claim": false,
+    "floor_id": null,
+    "status": "PENDING_AUTHORIZED_INTAKE",
+    "next_action": "When an authorized Factory Floor intake endpoint and stable Floor ID exist, route this exact source-linked packet through 1 GLASS+HSH -> 2 WORKSHOP. Until then, do not write directly to Factory Floor or claim delivery."
+  }
+}
