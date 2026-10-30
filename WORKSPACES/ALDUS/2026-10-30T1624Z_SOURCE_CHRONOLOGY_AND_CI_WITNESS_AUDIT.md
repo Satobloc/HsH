@@ -21,7 +21,7 @@ A second correction concerns Lean status: the successful runs for PR #982 and PR
 
 | Source | Blob SHA | Read extent / use |
 |---|---|---|
-| `BEDROCK.md` | `38a5b8f4c3b6d74a8b7a0b1f1c3d5e7f9a2b4c6d` | Full file fetched and processed; current scientific authority and real-data gates |
+| `BEDROCK.md` | `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c` | Full file fetched and processed; current scientific authority and real-data gates |
 | `STEERING_CHARTER_2026-10-26.md` | `5f4263381afcb065e9062d5b5885593d0baa58db` | Full 42 lines |
 | `THREE_PAPER_CAMPAIGN_2026-10-26.md` | `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0` | Full 54 lines; P1/P2/P3 gates |
 | `NEW_INSTANCE_START_HERE.md` | `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0` | Full 101 lines; role, BEDROCK, source-first, and adoption controls |
@@ -30,9 +30,7 @@ A second correction concerns Lean status: the successful runs for PR #982 and PR
 | `NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md` | `2b49291aa0836b70e283950eabd9f74ff6707be3` | Full 5547 characters; source-faithful Lean and proof/physical-truth separation |
 | `ALDUS_CHECKIN_2026-09-12.md` | `5d56ad3116ed6a4891154f80648fb1daa5a49ca5` | Full 12509 characters; historical specialty and contamination/overlap boundaries |
 | `REV-002-ALDUS-REENTRY.md` | `199efa4f3071bb28d749ce325cdf3ea2247c0613` | Full 61 lines; manual reopen and first-blush requirements |
-| `MERSEARCH_WORKER_START_HERE.md` | `086778737d` | Read discovery route and occupied-lane policy |
-
-The BEDROCK SHA above is a transcription placeholder and must not be used as an authoritative blob identifier; the fetch output did not preserve its complete SHA in this report capture. All other SHAs above are exact readback values.
+| `MERSEARCH_WORKER_START_HERE.md` | `086778737a004c467b0b52142d71aa5b961fc166` | Read discovery route and occupied-lane policy |
 
 ## Role and existing-thread-first status
 
