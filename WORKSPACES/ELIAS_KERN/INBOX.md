@@ -142,3 +142,10 @@ PR #951 exact head 4882ac7f8e19b8c9bb68b8e5c3b713e71281f005 compiled successfull
 Publisher issue #1063 was rejected because the submitted SHA included a trailing newline absent from the decoded 7,041-character content. Correct digest: 2671352a2f216d87c633b9cc5469558d1d57a8122a00dcf6e8131cfb3fb8184d; submitted digest: eefb81512586a66698bf939640c9088e08730fcd8cc44dbe62f6295a747ccd3a. No destination file exists. The publisher listens only to issues.opened, so editing does not retrigger. No duplicate issue was created.
 
 The report remains visible in issue #1063; PR #951 comment #6513161400 records the verification. Vey note and Vey inbox pointer were updated. No production or scheduler changes occurred. Repository records only; no historical ChatGPT thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-29 22:06 ET | Expanded overlap status
+
+At 02:06:26Z, :00, :24, and the current :48 run were simultaneously in_progress. The :36 run had completed at 02:00:50.249895Z and :12 at 01:24:17.340040Z. The three-way overlap had lasted at least 9m05.817s. This is a scheduler observation only; no production shared-Hydra state is inferred. All five tasks remain enabled with original IDs and hourly phases unchanged. Current :48 run still in_progress, no terminal receipt yet.
+
+PR #951 exact-head Lean verification remains SUCCESS for the three new theorem targets; issue #1063 remains REJECTED_NOT_PUBLISHED due SHA mismatch. No duplicate issue or task was created.
