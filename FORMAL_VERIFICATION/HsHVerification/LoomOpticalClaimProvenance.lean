@@ -36,9 +36,12 @@ a derivation in that response.
 Nathan-direct user message 8690f979-d3f3-4e67-807b-90d34b2f0cc9 at
 2026-02-25T01:23:20.560Z asks whether the described results follow
 "without squinting and shoehorning". Assistant message
-be9d54f6-0da9-496a-a764-21558b33c7bf is its direct child and retracts
-the earlier automatic-derivation claims, explicitly saying optical
-Delta-phi requires an extra mapping to real physics.
+be9d54f6-0da9-496a-a764-21558b33c7bf is its direct child. It partially
+corrects the earlier response: it disclaims the optical Delta-phi and
+other real-world mappings as speculative without an additional mapping,
+but still asserts that 0.239 rad is internally inevitable from combinatorial
+projections without deriving that assertion in the cited response. Treat
+that remaining statement as assistant-authored, not proof.
 
 Further Nathan-direct turns:
 - 980c80a0-fd6d-44cb-9f24-7498dfdad1b0, 2026-02-25T01:26:06.369Z:
@@ -104,6 +107,7 @@ inductive ClaimKind where
   | assistantContinuation
   | assistantTargetReframing
   | assistantUnitConversion
+  | directQuestion
   deriving DecidableEq, Repr
 
 structure Turn where
@@ -156,7 +160,7 @@ def nathanProjectionInterpretation : Turn :=
 
 def nathanQuestion141 : Turn :=
   ⟨"b8cc4592-3a32-4893-9857-21f2b1e28e4b",
-    .user, .directNathanTurn, .methodDirective,
+    .user, .directNathanTurn, .directQuestion,
     "9d017c80-44e0-45b2-af66-f31d452be3b9"⟩
 
 def assistant141Hop1 : Turn :=
@@ -208,6 +212,12 @@ theorem march_assistant_conversion_is_direct_child_of_submitted_test :
     parentOf marchAssistantConversion marchUserSuppliedOpticalTest = true := by
   decide
 
+theorem fourteen_one_user_prompt_is_a_direct_question :
+    nathanQuestion141.role = OuterRole.user ∧
+    nathanQuestion141.provenance = Provenance.directNathanTurn ∧
+    nathanQuestion141.kind = ClaimKind.directQuestion := by
+  decide
+
 theorem fourteen_one_target_reframing_is_an_assistant_only_chain :
     parentOf assistant141Hop1 nathanQuestion141 = true ∧
     parentOf assistant141Hop2 assistant141Hop1 = true ∧
@@ -230,6 +240,7 @@ theorem projection_statement_is_direct_interpretation_not_formal_proof :
 #print axioms assistant_correction_is_direct_child_of_nathan_challenge
 #print axioms fact_reality_request_follows_assistant_correction
 #print axioms march_assistant_conversion_is_direct_child_of_submitted_test
+#print axioms fourteen_one_user_prompt_is_a_direct_question
 #print axioms fourteen_one_target_reframing_is_an_assistant_only_chain
 #print axioms local_curvature_statement_is_a_direct_hypothesis
 #print axioms projection_statement_is_direct_interpretation_not_formal_proof
