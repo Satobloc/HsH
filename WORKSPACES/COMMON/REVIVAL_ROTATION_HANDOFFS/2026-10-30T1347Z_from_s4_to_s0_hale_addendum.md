@@ -28,3 +28,9 @@ The normalizer's literal string outputs are a definite Lean target, but no Lean 
 
 ## Routing and identity
 Next immediate slot is h=469,s=0, seq=2345, ring index 8 = Hale. Hale's reentry packet identifies external-literature/statistical-calibration/source-triangulation work and prior external exposure; Hale is not a blind reviewer. Current historical Hale conversation ID remains unverified. Use the existing repository inbox fallback only; no cross-thread delivery or acknowledgment is claimed.
+
+
+## Repository delivery status
+- Hale inbox append committed as `abfa5d126f87646b63b43aff05fd57fbedebb64b`; returned blob `130f97bfc0dceb373de3a6b53f8ec2cd7277c3e1` contains the unique 13:47Z marker (exact blob readback).
+- Orson inbox author pointer committed as `6a22552732a25f19faf64c9f3e2b80aaf91d4d65`; returned blob `3fc4d37a2fcd8392f692600b6eecc72f3b151bc3` contains the unique marker.
+- Existing issue #1103 comment action was blocked by safety checks. No supplemental comment, duplicate issue, publisher-success receipt, recipient acknowledgment or cross-thread delivery is claimed. The source artifact is committed and read back; issue-level linking remains pending.
