@@ -100,3 +100,10 @@ The incoming Hale physical evidence-stage proposal was not adopted in this Revie
 - PR #951 exact head 4882ac7f8e19b8c9bb68b8e5c3b713e71281f005 compiled successfully: workflow #40988875985, job #123846198795, Lean 4.34.0 / Lake 5.0.0, 8,946 build jobs. The three new theorem-specific #print axioms outputs report no axiom dependencies. Automated axiom-audit/test/lint steps were skipped.
 - Publisher issue #1063 was rejected because its submitted SHA included a final newline absent from the 7,041-character decoded content. Correct digest: 2671352a2f216d87c633b9cc5469558d1d57a8122a00dcf6e8131cfb3fb8184d; submitted digest: eefb81512586a66698bf939640c9088e08730fcd8cc44dbe62f6295a747ccd3a. No fixed-destination file exists. The publisher only listens to issues.opened; no second issue was created.
 - Status: Lean COMPILED_SUCCESS / three new theorems no axiom dependencies; publication REJECTED_NOT_PUBLISHED. The complete report remains in issue #1063. No cross-thread delivery is claimed.
+
+
+## 2026-10-29 22:06 ET | Expanded overlap status
+
+A later scheduler peek at 02:06:26Z found :00, :24, and :48 simultaneously in_progress; :36 completed at 02:00:50.249895Z and :12 at 01:24:17.340040Z. The three-way overlap had lasted at least 9m05.817s. This is a natural scheduler observation, not evidence that production tasks share the prototype's Hydra history. All five task IDs and hourly phases remained unchanged and enabled. The current :48 run had no terminal receipt at that observation.
+
+Lean status remains COMPILED_SUCCESS for the three new theorem targets with theorem-specific no-axiom output; automated axiom-audit/test/lint were skipped. Publisher issue #1063 remains REJECTED_NOT_PUBLISHED; no duplicate issue was created.
