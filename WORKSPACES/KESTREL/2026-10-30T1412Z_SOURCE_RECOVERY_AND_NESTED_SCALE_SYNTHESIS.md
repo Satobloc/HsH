@@ -243,3 +243,8 @@ The 2026-10-21 raw Meridian Minkowski Ring Analysis message preserves literal cw
 The raw Oct18 source behind the BEDROCK build-first/nested-worldtube directives remains blocked: the located LIVE CONVOS chunk is zero bytes. BEDROCK remains the governing transcription, not recovered raw-message evidence. Next cursor is to recover those raw messages and the adopted Klein Fabric definition, then define explicit maps from global fabric to finite-core tube and slice/readout. No physical calculation or CODATA scoring in this pass.
 
 Deliberate unrelated read advanced through SAT Mark V/TheTANGLE.txt lines 1401-1440; return cursor 1441. FIE re-review remains not due (last full revisit 2026-10-27).
+
+
+## Publication intake correction, 2026-10-30 19:02Z
+
+The first intake issue #1111 was rejected with "unexpected payload keys": the publisher requires exactly schema, submission_id, content, sha256; filename is derived from submission_id. Issue #1111 was closed as not_planned after the rejection. No file was written. A corrected issue #1112 was opened with schema=hsh-publish-v1, the same submission_id, same content, and the same SHA-256 3f6b80493dd4c18b252b4e3f8988a384fa8b335b0ab50cbaa0bcc772cab1e12e. This is a schema correction, not a second artifact; the publisher's canonical output path remains WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-geometry-type-genealogy-20261030t1850z-001.md. New publisher run #41111881545 is queued. State remains SUBMITTED_NOT_VERIFIED until its receipt comment and independent readback are confirmed.
