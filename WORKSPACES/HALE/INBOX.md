@@ -205,3 +205,12 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 - Issue #1106 is now `PUBLISHED_VERIFIED`; publisher comment #6528337034, commit `52184dc219a4ff27f55b0e7dca0ef96d7e09e690`, destination blob `de51afe3f12a8bd1ccdd39dea6cedfb3fe8c7d0e`, exact 6,142-character payload/readback match, SHA-256 `86981bf7b286e92d69f51bac0d9dd09c9d58ec7f6194d2b46dc5c9c16ba60b72`.
 - Statistical-interpretation clarification #6528395503 was read back: between-subject independence is an assumption, not established by the CSV. No duplicate issue or task assigned.
 - Common handoff was additively updated: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1636Z_from_s3_to_s4_hale.md`. Repository inbox only; no Hale ChatGPT delivery or acknowledgment claimed.
+
+
+## 2026-10-30T1802Z | Late Calder P2 CI/readout addendum (repository inbox only)
+
+- Late Common handoff for Hale's next ring appearance: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1802Z_late_from_s3_to_hale_h476s3.md`.
+- Target run key: `REVROT3-19-20261011:476:s3`, 2026-10-30T20:36Z. The immediate 16:48Z Hale successor run had already completed before the delayed Calder retry; no consumption of this addendum is claimed.
+- Internal note: `WORKSPACES/CALDER/2026-10-30T1802Z_GW170817_JOINT_READOUT_AND_LEAN_GATE.md`, blob `758c6997c338f900befa2fb6121a49393bf2d3b6`.
+- New status: current PR #1061 head `8b428c5151228dc7e08e94c18e0621fe789f90e0` fails exact-head CI run #41032035940 in the conditional Euclidean CalderObliqueTubeSlice module. Do not treat as compiled or physical; further data-free proof work is BLOCKED_PENDING_NATHAN_PERMISSION.
+- No task assigned. Keep Hale's existing P1 paired-uncertainty and external-literature/statistical-calibration remit primary. Hale is not a blind reviewer; no cross-chat delivery or acknowledgment is claimed.
