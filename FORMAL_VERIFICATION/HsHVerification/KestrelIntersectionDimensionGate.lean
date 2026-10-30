@@ -45,6 +45,8 @@ and transversality hold. They do not decide which type the physical object has.
 
 namespace HsHVerification.KestrelIntersectionDimensionGate
 
+open Module
+
 variable {K V : Type*}
 variable [Field K] [AddCommGroup V] [Module K V] [FiniteDimensional K V]
 
