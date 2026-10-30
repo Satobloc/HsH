@@ -18,7 +18,7 @@ The source hierarchy relevant to this addendum is:
 - Unattributed or assistant-derived material: `🧱BLOCKWAVE.txt`, blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, begins “Here’s a single, compact action…” and is an assistant-style synthesis; `SAT—Blockwave Ideal Model.txt`, blob `dd0631bc0b25c951dc5e1d6738280e08487b46b2`, has no author/date metadata; `BLOCKWAVE EXTENSION .txt`, blob `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce`, is a distinct 1+1D draft with no authenticated Nathan-direct authorship.
 - `SATOBLOC/SATOBLOCK_inputs.txt`, blob `ee08d8a6f5f187847914442f5971c7e2ed8cecd7`, is a NotebookLM-style source guide, not primary evidence. Its calibration anchors and semi-empirical mass formula are not used as measured inputs or accepted predictions.
 
-The July 2026 user statement is particularly important: the core remains a worldline/line with thickness and a spacetime surface; fields are not the core ontology, while field-like behavior enters the EM interaction through Kelvin vortices in a BEC-like medium. The 2026-10-29 direct clarification separately fixes the four-dimensional worldtube and three-dimensional timesheet, and says the optional normal 2-plane/circle support in the Nadir playground is not the whole 3D core.
+The July 2026 user statement is particularly important: the core remains a worldline/line with thickness and a spacetime surface; fields are not the core ontology, while field-like behavior enters the EM interaction through Kelvin vortices in a BEC-like medium. The 2026-09-07 induction-current/timesheet-thickness statements are in the role-verified Nathan words compendium, blob `1076d5841ea8ec67ddae39e8949dbc5b2649b35c`, including user message `496a15ea-...`; the raw September export blob `c49367b0...` returned an empty body, so that role attribution is inherited from the verified extraction rather than a fresh raw parse. The 2026-10-29 direct clarification separately fixes the four-dimensional worldtube and three-dimensional timesheet, and says the optional normal 2-plane/circle support in the Nadir playground is not the whole 3D core.
 
 ## 2. Minimal typed architecture and readout
 
@@ -67,6 +67,8 @@ B & \omega_N
 the mixed block (B) is the second fundamental form. Flatness of the full ambient connection yields the Gauss–Codazzi–Ricci relations; in one common sign convention, (F_T=B^T\wedge B), (F_N=B\wedge B^T), and (D B=0). The projected tangent/normal holonomies can be nontrivial even though the full ambient frame holonomy is trivial.
 
 Therefore the current (H[C]\in SO(4)) formula needs one of three explicit choices: (i) replace (Omega) by the projected tangent or normal connection; (ii) specify a nontrivial bundle with transition functions/monodromy and local frames; or (iii) use a genuinely independent connection, while acknowledging the extra primitive. The present text does not yet make that choice. If (E) is only locally defined, nontrivial global holonomy is possible, but the transition data must be written down.
+
+The group hierarchy must remain explicit: a one-dimensional curve in four dimensions has a rank-three normal bundle with structure group SO(3); a two-dimensional surface has a rank-two normal bundle with structure group SO(2); the full ambient orthonormal frame is SO(4); a four-dimensional support region has no normal bundle at its interior points. The Nadir playground's earlier SO(3) connection and later SO(4) surface frame are different levels, not interchangeable descriptions of the same object. The optional normal 2-plane is not the entire three-dimensional core.
 
 The gauge-invariant object is the conjugacy class of a closed-loop holonomy in the chosen subbundle. For a frame gauge (G), (Omega\mapsto G^{-1}\Omega G+G^{-1}dG) and (H\mapsto G(p)^{-1}HG(p)). Comparing loops at different basepoints still requires a connector or a common frame. The geometry-to-equation direction is the embedding (X:S^2\to\mathbb R^4) yielding the induced metric, (B), (omega_T), and (omega_N). The inverse requires Gauss–Codazzi–Ricci compatibility and is unique only locally up to ambient Euclidean isometry and frame gauge; global topology can add obstructions.
 
@@ -136,7 +138,7 @@ The Nadir modules establish algebraic representation/holonomy distinctions, not 
 
 ## 6. Unrelated-reading cursor correction
 
-Source: `HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt`, blob `fa52e41f` (same source path/version as the prior Nadir receipts).
+Source: `HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt`, blob `fa52e41ab73566a13109a0a7aeaed3e895b41163` (same source path/version as the prior Nadir receipts).
 
 Verified prior high-water sequence:
 - 2026-10-29 22:12Z: lines 166–220, next 221;
