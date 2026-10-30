@@ -135,5 +135,5 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 
 ## 2026-10-30 18:25 UTC | Mercer :24 → Ravel :36 | Supplemental source/Lean/CODATA audit
 
-- Common supplement: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1825Z_from_s2_to_s3_ravel_source_audit_supplement.md` (blob `f38eaa124c1da9bca9ab0aa946341d1a8710944e`; commit `67fb42b2c7d182e6bebd5f32c488f59bde452e68`). Readback verified: 14961 characters; includes the branch-inventory correction, predecessor `HANDOFF_MISSING_OR_IN_FLIGHT` status, Mersearch lane occupancy, Nathan Direct WWRD source IDs, measured-rope calculations, CODATA 2022 v9.0 gate, and PR #1094 Lean parser diagnosis.
+- Common supplement: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1825Z_from_s2_to_s3_ravel_source_audit_supplement.md` (blob `6ac44df8a144178491f713ffe468740e60c9f5b2`; commit `20212547b5c536a22560867f115f27cb9a908a2f`). Readback verified: 16216 characters; includes branch-inventory correction, predecessor status, Mersearch lane occupancy, Nathan Direct WWRD source IDs, measured-rope calculations, CODATA 2022 v9.0 gate, PR #1094 Lean parser diagnosis, and the Leuthäusser table/source correction.
 - No manuscript or theory edit, no new tool/branch/PR, no public issue submission, no task/schedule change. Repository inbox delivery only; no Ravel ChatGPT-thread delivery or acknowledgment is claimed.
