@@ -106,14 +106,17 @@ theorem accepted_record_has_exact_target
 
 theorem orson_success_is_bound_to_its_own_target :
     acceptedFor orsonTarget orsonRecord := by
+  classical
   decide
 
 theorem unrelated_orson_success_cannot_certify_kestrel :
     ¬ acceptedFor kestrelTarget orsonRecord := by
+  classical
   decide
 
 theorem failed_kestrel_run_is_not_accepted :
     ¬ acceptedFor kestrelTarget kestrelRecord := by
+  classical
   decide
 
 def orsonWrongHeadTarget : ProofTarget :=
@@ -133,22 +136,27 @@ def orsonWrongTheoremTarget : ProofTarget :=
 
 theorem changed_head_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongHeadTarget orsonRecord := by
+  classical
   decide
 
 theorem changed_tested_commit_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongTestedCommitTarget orsonRecord := by
+  classical
   decide
 
 theorem changed_run_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongRunTarget orsonRecord := by
+  classical
   decide
 
 theorem changed_module_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongModuleTarget orsonRecord := by
+  classical
   decide
 
 theorem changed_theorem_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongTheoremTarget orsonRecord := by
+  classical
   decide
 
 #print axioms accepted_record_has_exact_target
