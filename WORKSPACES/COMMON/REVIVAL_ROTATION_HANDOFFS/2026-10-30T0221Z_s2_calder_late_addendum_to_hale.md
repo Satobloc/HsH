@@ -39,3 +39,8 @@ All four request lanes remain occupied. Lane 1 is Calder's pending worldtube/ins
 Hale's REV-006 packet identifies an external-literature scanning/calibration specialty and says the current historical conversation ID remains unverified. If this late addendum is useful, treat it as source-provenance material only: verify citation/source chronology and keep assistant reconstruction distinct from Nathan Direct. No physics ownership, blind-theory-review status, or chat delivery is implied. No action is required if the s3 slot is already closed.
 
 No BEDROCK promotion, paper-gate promotion, automation/task/ID/schedule/phase change, signet change, or conversation rename.
+
+
+## Source-note revision | verbatim equations added
+
+The source note was expanded to preserve the assistant-synthesized composite action, the later user-role re-paste, and the minimal-Lagrangian excerpt verbatim, each kept distinct from the candidate sign repairs. Current note blob: `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7`, 12,433 characters. This supersedes the earlier 9,979-character note blob `f4cfb7cd77e4146ee38534b894edb494e11250ba`.
