@@ -39,7 +39,9 @@ Parameter identifiability must be assessed under the actual likelihood and nuisa
 
 PR [#676](https://github.com/Satobloc/HsH/pull/676) contains a generic assistant-reconstructed engine/paint lemma: if two distinct states produce identical outputs in every context, the context-indexed observation map is non-injective; one separating context distinguishes that pair.
 
-Exact head `c54c417bac415e00e2456262ceb197d2590aae91`; GitHub Actions run `41056801972`, job `124066269828`, completed SUCCESS on 2026-10-30 12:43:06Z. The job explicitly completed the Lean-library compilation step. Exact Lean version and theorem-specific axiom-output audit were not recovered from run metadata. The source contains no literal `sorry`.
+Exact head `c54c417bac415e00e2456262ceb197d2590aae91`; source file `FORMAL_VERIFICATION/HsHVerification/AriadneJan22SourceGate.lean`, blob `fd74c86f96e5876f2e7cf30608f95b75e5269cc7`. GitHub Actions run `41056801972`, job `124066269828`, completed SUCCESS on 2026-10-30 12:43:06Z. The job explicitly completed the Lean-library compilation step. Exact Lean version and theorem-specific axiom-output audit were not recovered from run metadata. The source contains no literal `sorry`.
+
+This readback supersedes the earlier 15:48Z note's statement that no approved CI route was available: an existing exact-head CI run for PR #676 had in fact completed successfully. The historical note is left unchanged; this is an additive status correction, not a claim that the 15:48Z run itself added or compiled a new theorem.
 
 This is a valid generic conditional result, not a theorem about the actual Kirk/Riley model, not a source-to-math validation, and not evidence of human/LLM cognition. The underlying Kirk/Riley TXT/README/workflow bundle remains unrecovered; the source stratigraphy is recorded in `WORKSPACES/ARIADNE/2026-10-30T1548Z_MERSEARCH_COMPLETION_SOURCE_STRATIGRAPHY.md`.
 
