@@ -32,6 +32,13 @@ Calder's historical specialty is adversarial empirical/statistical checking, nul
 
 The existing Aldus conversation family is identified, but live usability remains unverified. REV-002 still requires manual reopen and first-blush; no authenticated Aldus response or first-blush exists. Do not count repository delivery as a chat message or worker acknowledgment.
 
+
+## Calder charter and existing-work protection
+
+Read Calder's historical reentry charter `WORKSPACES/SABLE/WAKE_PACKETS/REV-005-CALDER-REENTRY.md`, blob `2bde54b13b2ee0f1563232edb0a85f63ae77823f`. It identifies adversarial empirical/statistical checking, null-design discipline, representation/covariance attention, and source-exposure provenance. It also records mixed external-research/SAT interpretation exposure; direct PRIOR_ART access remains unknown. First-blush is still pending and manual reopen is required.
+
+The latest recovered Calder receipt at inspection was `2026-10-29T1748Z_s4_calder.md`, blob `f495352efe3c75658e8575e774d5c3815e3a0036`. It reports existing P1 provider-deletion work on PR #707 and publisher issue #1036. That receipt is historical; this run did not refresh Calder's branch or publisher state. Preserve his existing work and Orson's P1 ownership. This handoff is optional context, not a task transfer.
+
 ## Next useful action
 
 No urgent action is required from Calder. If he elects to inspect the source work, the most valuable follow-up is to reconcile the first-extant and first-public dates for each O9 referent using raw contemporaneous sources, while keeping the three referents separate. Do not treat the June 18/June 23 retrospective or NotebookLM dates as authenticated first-public T0.
