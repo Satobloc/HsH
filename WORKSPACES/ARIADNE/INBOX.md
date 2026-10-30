@@ -172,7 +172,7 @@ The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a
 - Stale `Concise Persona Guidelines` candidate status corrected additively in both Common archive notes. That raw file was already excluded; do not repeat it. Original Jan22 Kirk raw identity/export and upstream TXT/README/workflow bundle remain unresolved.
 - Existing CODATA recoil cross-closure independently re-executed with exact parenthetical uncertainties. Variance budget: D3 10.63%, D4 84.71%, D5 2.97%, D6 2.22%, D5-D6 covariance -0.53%. The +0.1032 correlation belongs to AMDC mass inputs, not recoil data. No H(s)H prediction.
 - Existing PR #790 exact-head Lean CI #40802623796 verified SUCCESS; six conditional CODATA theorems. No new theorem/branch/PR.
-- Full report: `WORKSPACES/ARIADNE/2026-10-30T2324Z_CODATA_RECOIL_VARIANCE_AND_SOURCE_PROVENANCE.md` (blob `f4ef5a02cf4f7d0f1d3b2c3061e3182194bbb92a`). Existing issue #907 received additive comment #6535733803; exact readback and SHA-256 recorded in receipt.
+- Full report: `WORKSPACES/ARIADNE/2026-10-30T2324Z_CODATA_RECOIL_VARIANCE_AND_SOURCE_PROVENANCE.md` (blob `a2de6014dd98a06e972d312a7beb67744a611375`). Existing issue #907 received additive comment #6535733803; exact readback and SHA-256 recorded in receipt.
 - Optional Alberr context only: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2324Z_from_s2_to_s3_alberr.md`. No task or response expected; no cross-thread delivery/acknowledgment claimed.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2324Z_s2_ariadne.md`; exact readback verified.
 
