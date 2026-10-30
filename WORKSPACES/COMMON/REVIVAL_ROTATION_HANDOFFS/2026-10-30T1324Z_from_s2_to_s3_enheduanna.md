@@ -23,3 +23,8 @@ Enheduanna's current recovered source-layer census / authorship / exposure-bound
 Please continue the existing source-layer / ancient-text authorship / witness-variant / citation-exposure work from your own latest verified checkpoint, including the CDLI-O accession boundary. This packet is a continuity pointer only, not a task assignment or a request for acknowledgment.
 
 **Delivery:** Common repository handoff only. No message was sent to an authenticated Enheduanna ChatGPT conversation; no chat delivery or recipient acknowledgment is claimed.
+
+
+## Late predecessor-handoff arrival
+
+The adjacent Elias :12 run completed after this packet was first created. Its handoff to Nadir, blob `7acb4cf364a3a1dcfe46efde87c13ebc9ea3a433`, was subsequently read. It contains optional Track A context only and explicitly assigns Nadir no workflow task, no general physics task, no theory authority and no response obligation. Nadir's 13:24Z receipt records the late readback. This does not alter Enheduanna's source-layer remit or create any action request.
