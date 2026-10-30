@@ -29,6 +29,7 @@ import HsHVerification.AldusO9AuditIdentity
 import HsHVerification.AldusCGDProvenanceFields
 import HsHVerification.CalderGW170817TidalMap
 import HsHVerification.CalderGW170817PosteriorChecks
+import HsHVerification.CalderWorldtubeTimesheetIncidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
