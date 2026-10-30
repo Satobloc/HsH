@@ -61,7 +61,7 @@ local instance submoduleFiniteDimensional (U : Submodule K V) :
 Here transversality is the explicit linear condition U ⊔ W = ⊤. -/
 theorem transverse_intersection_finrank
     (U W : Submodule K V) (htrans : U ⊔ W = ⊤) :
-    finrank K (U ⊓ W) + finrank K V = finrank K U + finrank K W := by
+    finrank K (U ⊓ W : Submodule K V) + finrank K V = finrank K U + finrank K W := by
   have h := Submodule.finrank_sup_add_finrank_inf_eq U W
   rw [htrans, finrank_top] at h
   simpa [add_comm] using h
@@ -76,7 +76,7 @@ theorem transverse_curve_plane_finrank_zero
     (hW : finrank K W = 2)
     (hV : finrank K V = 3)
     (htrans : U ⊔ W = ⊤) :
-    finrank K (U ⊓ W) = 0 := by
+    finrank K (U ⊓ W : Submodule K V) = 0 := by
   have h := transverse_intersection_finrank U W htrans
   omega
 
@@ -89,7 +89,7 @@ theorem transverse_worldline_hypersurface_finrank_zero
     (hW : finrank K W = 3)
     (hV : finrank K V = 4)
     (htrans : U ⊔ W = ⊤) :
-    finrank K (U ⊓ W) = 0 := by
+    finrank K (U ⊓ W : Submodule K V) = 0 := by
   have h := transverse_intersection_finrank U W htrans
   omega
 
@@ -104,7 +104,7 @@ theorem transverse_worldsheet_hypersurface_finrank_one
     (hW : finrank K W = 3)
     (hV : finrank K V = 4)
     (htrans : U ⊔ W = ⊤) :
-    finrank K (U ⊓ W) = 1 := by
+    finrank K (U ⊓ W : Submodule K V) = 1 := by
   have h := transverse_intersection_finrank U W htrans
   omega
 
@@ -118,7 +118,7 @@ theorem transverse_full_core_hypersurface_finrank_three
     (hW : finrank K W = 3)
     (hV : finrank K V = 4)
     (htrans : U ⊔ W = ⊤) :
-    finrank K (U ⊓ W) = 3 := by
+    finrank K (U ⊓ W : Submodule K V) = 3 := by
   have h := transverse_intersection_finrank U W htrans
   omega
 
