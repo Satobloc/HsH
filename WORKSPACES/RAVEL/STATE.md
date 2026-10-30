@@ -94,3 +94,18 @@ Nathan-direct source review confirms distinct centerline/history, finite-core wo
 The 2026-09-16 point helix kernel and 2026-10-22 full-core coarea sandbox are compatible at different resolutions. The historical alpha ambiguity is resolved only by naming separate normal and plane angles; Mercer PR #917 exact-head CI compiled the conditional trig identities, but its new module has no theorem-specific axiom report.
 
 No new physical calculation, data-free proof, or theory promotion. Existing real-data Ravel PR #993 CI remains successful. Current unresolved bridge: finite-core worldtube + timesheet + optional medium -> source-faithful conserved electromagnetic current -> measured charge profile/form factor. Next Ravel cursor: define this readout only from a recovered Nathan-direct source or a separately approved derivation.
+
+
+## 2026-10-30 18:32Z — helion current-form / paired-readout contract
+
+Report: WORKSPACES/RAVEL/2026-10-30_1832Z_HELION_CURRENT_FORM_READOUT_CONTRACT.md, blob 8598fce368c43fe9b16502ef8ef11aff7c7c382e (readback exact).
+
+The archive contains a candidate 4D Hodge-dual map from a three-form current to a one-form/vector current, but no source-derived charge-weighted worldtube current. A typed distinction is now explicit: electromagnetic source 𝒥³, its dual current j♭, gauge potential A, and Blockwave medium two-form J² are separate objects. The WB7 first-order dualization is form-degree inconsistent as written; no corrected action was guessed.
+
+A single core current must produce both the helion electric and magnetic form factors. The real measured anchors are CREMA 2025 r_h=1.97007(94) fm and Schneider et al. 2022 g_I=-4.2552506997(30)stat(17)sys(1)theory, giving μ_h/μ_N=-2.12762534985 for I=1/2. The historical SAT value -2.127 differs by 0.0293919%, but has no uncertainty or reproducible derivation and is not an independent blind prediction. No H(s)H prediction was computed.
+
+Use Q_fund=9 and Q_eff=3 as distinct nested He3 counts per BEDROCK ND-2026-10-18-07; raw 2026-10-18 message UUID was not recovered. Keep both separate from electric charge q_em=+2e. The map from the fundamental count to electric-current normalization remains open.
+
+Lean proof targets (Hodge degree, current-conservation equivalence, WB7 form-degree audit, slice-charge conservation) are data-free geometry and remain BLOCKED_PENDING_NATHAN_PERMISSION. No local lean/lake is installed. Existing PR #993 exact-head CI run #40997062623 succeeded for the measured-radius ledger only; no PR change.
+
+Code Grurple remains active and Ravel continuity holds public issue publication. Report saved in workspace; no publisher issue, PR, branch, paper, task, or BEDROCK change. Next Ravel cursor: recover or explicitly authorize the geometry-to-current map, then freeze one measured channel and test the other.
