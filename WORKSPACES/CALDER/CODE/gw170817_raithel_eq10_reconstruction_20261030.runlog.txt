@@ -1,0 +1,14 @@
+GW170817 Raithel Eq. (9)-(10) reconstruction
+Run date: 2026-10-30
+Runtime: Python 3.13.5
+Command: python gw170817_raithel_eq10_reconstruction_20261030.py
+Execution: two independent invocations; stdout byte-identical.
+Assertions: 9 passed.
+Script SHA-256: 8a673f14d886efbafb867930c0238f2a1b7198d88dadcf46e23ab2345af51024
+JSON SHA-256: f6b901a7cd89f32949c2d49486a7b344796dec9651253099797482aef7bbb025
+Main q=1 radius upper: 12.848376851 km.
+q=0.73 second-order boundary sensitivity: 12.823293533 km.
+Chirp-mass sensitivity (q=1): 12.837543481 to 12.859210221 km.
+Legacy 11.2 sixth-root fit: 13.051981913 km; difference from Eq. (10): +0.203605061 km.
+Raithel Table 1 reproduction maximum relative error: 0.154372%.
+No raw strain or posterior-sample bytes were read. This is a deterministic transformation of published summary inputs, not a posterior inference or H(s)H prediction.
