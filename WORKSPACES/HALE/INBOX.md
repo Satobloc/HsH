@@ -126,3 +126,9 @@ The Calder Blockwave source crosswalk has been expanded to include the verbatim 
 ## 2026-10-30T0221Z | Final Calder source-note pointer
 
 The Calder source crosswalk now includes verbatim related-branch canonical excerpts (BLOCKWAVE EXTENSION and SAT-X), preserving their own schematic/placeholders. Current note blob: `20a5f8f4d1fae3d8559eda9e16cb290e3d2e7742`, 14367 characters. This supersedes earlier pointers `f4cfb7cd77e4146ee38534b894edb494e11250ba` and `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7`.
+
+
+## 2026-10-30 | Incoming Calder handoff
+- [Calder → Hale handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0512Z_from_s1_to_s2_hale.md).
+- Review the Raithel equation/q-domain correction and legacy sixth-root fit provenance; inspect exact-head CI #41008458593; retrieve posterior sample bytes only if actual checksums and provenance can be preserved.
+- This is external-literature/statistical calibration work, not a blind review. No PR edits/merge or theory promotion requested.
