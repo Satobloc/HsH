@@ -35,3 +35,16 @@ Controlling current guidance: `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
 ## Next cursor
 
 Apply this register to one addressable Nathan-direct raw source containing a terminology collision, recording the exact historical wording and the minimum additive context tag without rewriting the source.
+## 2026-10-30 source genealogy addition
+
+
+| `B` / `0.239 rad` / `Phi ~= 0.246 rad` / `Delta-phi` | Numeric proximity or assistant narrative collapsed into one angle/parameter | Keep separate source-typed records. Raw user message `15338421-a5e7-4538-879a-d25d840d2bdd` contains a user-supplied page with a 0.246-rad optical claim, but embedded authorship is unresolved. Assistant `c2f22ca2...` supplies a Z3/4D explanation without derivation; assistant `be9d54f6...` later retracts automatic derivation. Nathan-direct `77fd1295...` is a 0.239 projection interpretation; `4dbcbf32...` is a conditional time-wavefront-curvature hypothesis, not proof. The 14.1-degree target reframing is assistant-authored. Obtain B's unit/type from its defining source equation; never infer identity from numeric proximity. | ACTIVE |
+
+## Additive tags
+
+- `0.246 rad` → `HISTORICAL-OPTICAL-CANDIDATE / EMBEDDED-AUTHOR-UNRESOLVED / NO-DERIVATION / NO-MEASUREMENT`
+- `0.239 rad` → `NATHAN-DIRECT-PROJECTION-INTERPRETATION / NOT-PROVEN`
+- `B` → `SEPARATE-COEFFICIENT / TYPE-FROM-DEFINING-SOURCE`
+- `14.1 degrees` → `ASSISTANT-TARGET-REFRAMING / NOT-OPTICAL-EVIDENCE`
+- “This keeps coming up...” → `TRANSCRIPT-ONLY / SPEAKER-UNVERIFIED`
+- Source ledger: `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md`
