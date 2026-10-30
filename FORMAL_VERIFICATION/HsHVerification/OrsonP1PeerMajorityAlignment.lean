@@ -143,6 +143,69 @@ theorem source_key_gains_outnumber_losses :
     sourceKeyGainCount > sourceKeyLossCount := by
   norm_num [sourceKeyGainCount, sourceKeyLossCount]
 
+
+/-! Question-level strict panel-majority results over the 1,150 aligned positions. -/
+
+def questionPositions : Nat := 1150
+def initialPanelCovered : Nat := 1077
+def initialPanelCorrect : Nat := 749
+def initialPanelWrong : Nat := 328
+def initialPanelNoMajority : Nat := 73
+
+def finalPanelCovered : Nat := 1078
+def finalPanelCorrect : Nat := 839
+def finalPanelWrong : Nat := 239
+def finalPanelNoMajority : Nat := 72
+
+def bothPanelMajoritiesCorrect : Nat := 722
+def initialCorrectFinalWrong : Nat := 12
+def initialWrongFinalCorrect : Nat := 92
+def bothPanelMajoritiesWrong : Nat := 219
+def initialOnlyPanelMajority : Nat := 32
+def finalOnlyPanelMajority : Nat := 33
+def neitherPanelMajority : Nat := 40
+
+theorem initial_panel_majority_partition :
+    initialPanelCorrect + initialPanelWrong = initialPanelCovered := by
+  norm_num [initialPanelCorrect, initialPanelWrong, initialPanelCovered]
+
+theorem final_panel_majority_partition :
+    finalPanelCorrect + finalPanelWrong = finalPanelCovered := by
+  norm_num [finalPanelCorrect, finalPanelWrong, finalPanelCovered]
+
+theorem initial_panel_coverage_partition :
+    initialPanelCovered + initialPanelNoMajority = questionPositions := by
+  norm_num [initialPanelCovered, initialPanelNoMajority, questionPositions]
+
+theorem final_panel_coverage_partition :
+    finalPanelCovered + finalPanelNoMajority = questionPositions := by
+  norm_num [finalPanelCovered, finalPanelNoMajority, questionPositions]
+
+theorem both_covered_panel_transition_partition :
+    bothPanelMajoritiesCorrect + initialCorrectFinalWrong +
+      initialWrongFinalCorrect + bothPanelMajoritiesWrong = 1045 := by
+  norm_num [bothPanelMajoritiesCorrect, initialCorrectFinalWrong,
+    initialWrongFinalCorrect, bothPanelMajoritiesWrong]
+
+theorem full_panel_transition_partition :
+    1045 + initialOnlyPanelMajority + finalOnlyPanelMajority +
+      neitherPanelMajority = questionPositions := by
+  norm_num [initialOnlyPanelMajority, finalOnlyPanelMajority,
+    neitherPanelMajority, questionPositions]
+
+theorem panel_majority_correct_count_increases_by_ninety :
+    (finalPanelCorrect : Int) - (initialPanelCorrect : Int) = 90 := by
+  norm_num [finalPanelCorrect, initialPanelCorrect]
+
+theorem panel_majority_key_match_fraction_increases :
+    (finalPanelCorrect : ℚ) / (questionPositions : ℚ) >
+      (initialPanelCorrect : ℚ) / (questionPositions : ℚ) := by
+  norm_num [finalPanelCorrect, initialPanelCorrect, questionPositions]
+
+theorem panel_majority_coverage_changes_by_one :
+    (finalPanelCovered : Int) - (initialPanelCovered : Int) = 1 := by
+  norm_num [finalPanelCovered, initialPanelCovered]
+
 #print axioms peer_match_delta_is_classified_movement
 #print axioms away_move_has_negative_alignment_delta
 #print axioms toward_move_has_positive_alignment_delta
@@ -155,6 +218,15 @@ theorem source_key_gains_outnumber_losses :
 #print axioms strict_peer_majority_match_rate_falls
 #print axioms away_revisions_outnumber_toward
 #print axioms source_key_gains_outnumber_losses
+#print axioms initial_panel_majority_partition
+#print axioms final_panel_majority_partition
+#print axioms initial_panel_coverage_partition
+#print axioms final_panel_coverage_partition
+#print axioms both_covered_panel_transition_partition
+#print axioms full_panel_transition_partition
+#print axioms panel_majority_correct_count_increases_by_ninety
+#print axioms panel_majority_key_match_fraction_increases
+#print axioms panel_majority_coverage_changes_by_one
 
 end OrsonP1PeerMajorityAlignment
 end HsHVerification
