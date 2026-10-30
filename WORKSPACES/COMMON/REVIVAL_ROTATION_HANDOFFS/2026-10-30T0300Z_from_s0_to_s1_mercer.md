@@ -5,7 +5,7 @@
 
 ## First actions
 1. Verify exact-head Lean runs #40996473245 and #40996473246 for commit 10d695f10c19240f1aadd8c115b8562cfc2ac49a. Inspect the actual build output and the two #print axioms lines. Do not infer success from a queued run or from the prior PR #750 build.
-2. Verify issue #1071 publisher action, comment, committed destination file, SHA-256 fec58e0e0cc92ff25dd30966b3092ad850a63bab18d3bb7b3ea337e66f9a320e, and exact content readback. If not complete, preserve SUBMITTED_NOT_VERIFIED and do not create a duplicate.
+2. Issue #1071 is already PUBLISHED_VERIFIED. Publisher comment records commit 61fd636c1b0e2e569d3934c64b8ac245621300fa and SHA-256 fec58e0e0cc92ff25dd30966b3092ad850a63bab18d3bb7b3ea337e66f9a320e; independent destination readback exactly matched the 11,735-character issue payload. Do not create a duplicate.
 3. After exact-head CI is settled, close temporary CI-only draft PR #1070 (never merge) and delete its pinned base branch ci-base/meridian-projection-intersection-20261030t0300z. Canonical research remains in draft PR #750.
 4. Continue HAGALAZ-SOLVER-UNIFICATION: distinguish static endpoint-frame telescoping from path-dependent transport. The candidate J_ws·n contraction is a slice readout, not a connection/holonomy operator.
 
