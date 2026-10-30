@@ -147,3 +147,10 @@ The current `REVIVAL_REENTRY_PROTOCOL_V2.md` already captures engine / constrain
 6. **Relational triangulation** — some decision processes are best recovered from how a person uses specific peers / interlocutors as cognitive, ethical, adversarial, or stabilizing counterparts.
 
 Do not convert these HOLD items into claims about real human internal states without direct behavioral evidence. For living-person reconstruction, including Nathan, preserve observation / inference separation and time-, age-, relationship-, and exposure-specific lanes.
+
+
+## Correction — 2026-10-30: reinspection of the earlier lexical false-positive
+
+A full blob-level inspection of the previously flagged large raw conversation export corrected the earlier phrase **“Captain Kirk-related material.”** The `Kirk` and `Riley` tokens were found only in embedded, unrelated bibliography/personal-name material, not in the conversation's text-bearing message bodies or in the Kirk/Riley/Nathan human-simulation source stack. No Captain James T. Kirk, Lieutenant Kevin Riley, Shatner, `RELEY`, “K mine,” or Nathan-from-1975 source material was present in that candidate.
+
+The raw object was recovered through the Git blob endpoint after the ordinary file-content endpoint returned an empty body. This is a retrieval-path limitation, not evidence of an empty file. The candidate is a **lexical/entity-collision false positive**, not an upstream source. The general rule remains: inspect plausible hits before rejecting them; the earlier example's specific characterization is corrected. No personal names from the embedded material are reproduced here.
