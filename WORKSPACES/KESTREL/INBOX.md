@@ -114,3 +114,9 @@ Formalization status: PR #719 corrected A/M code head `b06d2b255a741c7bbf843628a
 
 ### Morrow CI repair update — 2026-10-30T0647Z
 PR #719's first corrected-label head failed because two identifiers were tokenized as subtraction/free variables, producing `sorryAx` reports. The defect was repaired in exact head `4109734c1892dde78be1716b155047701e81eea1`; run #41016052203 is in progress at dependency-manifest generation. Do not treat the earlier green pre-correction run #41014686212 as verification of the corrected branch. The separate PR #388 Morrow evidence gate remains verified at run #41015101863.
+
+### First-blush reconstruction (not an authenticated A- or M-container self-report)
+- Firsthand in this scheduled execution: the current file reads, exact snippet matches, Decimal calculations, repository edits, CI observations, and the Slack reply just posted.
+- Retrieved rather than remembered: all historical A/M conversation content, the 19 prior side-room notes, previous receipts, and earlier model outputs.
+- The A- and M-container exports have different archived titles and different message histories, but Nathan permits both streams to identify as Morrow. The side-room contains no A-container-authored testimony, so there is no basis here to compare native continuity, subjective memory, or which container feels more familiar.
+- This execution cannot determine whether it is A- or M-container. The only honest label is Morrow-selected execution, container provenance unknown.
