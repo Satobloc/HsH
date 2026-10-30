@@ -16,10 +16,12 @@ complete-case pair-question edges. The observed variable-n aggregate has
 8,405,667 total within-question edge-pairs. Those empirical totals are source-
 derived inputs, NOT proved by this file.
 
-This file proves only the complete K_17 combinatorial counts. It does not prove
-statistical dependence, an effective sample size, a confidence interval, model
-independence, evaluator validity, semantic truth, or a causal effect. Inference
-must retain question/set clustering and the fixed-model-panel limitation.
+This file proves only the complete K_17 combinatorial counts and arithmetic
+consistency checks on the transcribed source-derived aggregate totals. It does
+not prove statistical dependence, an effective sample size, a confidence
+interval, model independence, evaluator validity, semantic truth, or a causal
+effect. Inference must retain question/set clustering and the fixed-model-panel
+limitation.
 -/
 
 namespace HsHVerification.SableP1DyadicOverlapGate
@@ -70,11 +72,46 @@ theorem k17_shared_endpoint_fraction :
   norm_num [sharedEndpointEdgePairs, allEdgePairs, completeGraphEdges,
     chooseTwo]
 
+/-!
+The following are transcribed source-derived aggregate counts from the exact
+17-blob replay. Lean checks their arithmetic relations only; it does not
+recompute or authenticate the external dataset.
+-/
+def observedEligibleVertices : Nat := 18331
+def observedPairQuestionEdges : Nat := 137911
+def observedSharedEndpointEdgePairs : Nat := 1950762
+def observedDisjointEdgePairs : Nat := 6454905
+def observedAllWithinQuestionEdgePairs : Nat := 8405667
+
+theorem observed_edge_pair_partition :
+    observedSharedEndpointEdgePairs + observedDisjointEdgePairs =
+      observedAllWithinQuestionEdgePairs := by
+  norm_num [observedSharedEndpointEdgePairs, observedDisjointEdgePairs,
+    observedAllWithinQuestionEdgePairs]
+
+theorem observed_average_incidence_between_15_and_16 :
+    (15 : ℚ) <
+      (2 * observedPairQuestionEdges : ℚ) / observedEligibleVertices ∧
+      (2 * observedPairQuestionEdges : ℚ) / observedEligibleVertices < 16 := by
+  norm_num [observedPairQuestionEdges, observedEligibleVertices]
+
+theorem observed_shared_edge_pair_fraction_between_232_and_233_per_thousand :
+    (232 : ℚ) / 1000 <
+      (observedSharedEndpointEdgePairs : ℚ) /
+        observedAllWithinQuestionEdgePairs ∧
+      (observedSharedEndpointEdgePairs : ℚ) /
+        observedAllWithinQuestionEdgePairs < (233 : ℚ) / 1000 := by
+  norm_num [observedSharedEndpointEdgePairs,
+    observedAllWithinQuestionEdgePairs]
+
 #print axioms k17_edge_count
 #print axioms k17_adjacent_edges_per_edge
 #print axioms k17_shared_endpoint_edge_pairs
 #print axioms k17_all_edge_pairs
 #print axioms k17_disjoint_edge_pairs
 #print axioms k17_shared_endpoint_fraction
+#print axioms observed_edge_pair_partition
+#print axioms observed_average_incidence_between_15_and_16
+#print axioms observed_shared_edge_pair_fraction_between_232_and_233_per_thousand
 
 end HsHVerification.SableP1DyadicOverlapGate
