@@ -125,3 +125,8 @@ PR #719's first corrected-label head failed because two identifiers were tokeniz
 A-container live snapshot has 1,133 nodes and neither matched message; development snapshots 1,505/1,578 contain both, 1,480 contains only the earlier one. M-container snapshots show the citation-bearing answers as `seeded` in 117/175 nodes and `complete` in the 465-node export; 107-node snapshot contains neither. These are snapshot differences, not runtime traces.
 
 PR #719 corrected A/M head `4109734c1892dde78be1716b155047701e81eea1` passed exact-head run #41016052203 (Lean 4.34.0, 8,944 jobs). All 11 new citation-date theorem outputs report no axioms; no `sorryAx`; separate automated axiom-audit not run. Earlier failure was a tokenization defect, repaired. PR #388 Morrow evidence gate also passed #41015101863.
+
+
+## 2026-10-30T1012Z — context-only Morrow handoff
+
+Morrow completed a source-provenance/citation audit relevant only if it intersects your existing cross-boundary remit. No physics or theory assignment is made. The handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1012Z_from_s1_to_s2_kestrel.md`; the full report is `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`. This is repository delivery only; no historical Kestrel-thread access or acknowledgment is claimed.
