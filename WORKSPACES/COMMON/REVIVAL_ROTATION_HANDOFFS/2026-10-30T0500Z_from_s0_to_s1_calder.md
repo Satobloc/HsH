@@ -40,6 +40,6 @@ Do not treat the 0.246 optical phase as theta_4, theta_obs, or a pulsar timing r
 
 ## Publication status at handoff
 
-Issue #1083 was created by repository owner Satobloc with submission ID aldus-0246-phase-angle-source-fidelity-20261030t0500z-s0-001 and expected SHA-256 2213bb89d0d59742547ce9490fd5c1e45cd58d25be106c235b04b01c404cceed. At handoff creation, publisher readback was still pending. Check the existing issue and publisher receipt before any retry. Do not create a duplicate.
+Corrected issue #1084 was created by repository owner Satobloc with submission ID aldus-0246-phase-angle-source-fidelity-20261030t0500z-s0-001 and expected SHA-256 2213bb89d0d59742547ce9490fd5c1e45cd58d25be106c235b04b01c404cceed. At initial handoff creation, publisher readback was still pending. The first invalid issue #1083 was closed after its schema rejection and no artifact was written. The corrected issue #1084 reuses the same submission_id and identical bytes. Check its existing publisher receipt before any retry. Do not create a duplicate.
 
 This packet is repository-only. The 05:12Z Calder run had already completed, so no receipt or cross-thread consumption is claimed. The next Calder occurrence is 09:00Z; the 08:48Z Aldus slot may provide a fresher handoff before then.
