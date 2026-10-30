@@ -226,6 +226,7 @@ function panelClusterBootstrap(keyFn,seed0){
   return {clusters:clusters.length,replicates:B,
     intervals:Object.fromEntries(Object.entries(values).map(([k,a])=>[k,[q(a,.025),q(a,.975)]]))};
 }
+assert.equal(panelItems.filter(x=>x.initialLabel!==x.finalLabel).length,172,"question-level strict-majority label turnover");
 const panelMajority={
   interpretation:"strict question-level majority among the 17 model-labelled archived outputs; benchmark-key-relative, not independent-vote truth",
   initial:panelInitial,final:panelFinal,transitions:panelTransitions,
