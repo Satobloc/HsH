@@ -95,3 +95,13 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - The same files reproduce mean IA +2.844 pp and SCR +6.647 pp. This is archival/descriptive only; no p-values, confidence intervals, new model calls, peer exposure or human-subject work.
 - Orson retains P1 authorship and final disposition. No manuscript, PR #850, Lean file or protocol was edited. Consider before the November 2 protocol freeze; no action is assumed.
 - Repository inbox pointer only. No authenticated Orson ChatGPT thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T1347Z | P1 answer-key / premise-cluster sensitivity QC
+
+- Supplemental source-locked artifact: [P1 answer-key normalization and premise-cluster sensitivity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-p1-answer-key-and-premise-cluster-sensitivity-20261030t1347z-s4-001.md), SHA-256 `875efc5ee21be6e47aaa5b52cd7eab6bf9e45ebfe49e43ea640aed139bf85dea`.
+- The benchmark contains 68 full-bank / 50 sample expected answers `No, not with certainty`; current normalization maps these to `no`, while closely related expected phrasings map to `cannot_determine`. The 17-model sample has 1,677/1,700 affected outputs whose correctness class flips under a plausible alternate mapping. This is sensitivity-only; no semantic adjudication or corrected score is claimed.
+- Sample set IDs contain 268 unique premises among 300; the negation category has 50 sets but 19 premises, plus a cross-category duplicate. The full bank has 424 premises among 493 sets and four cross-category duplicate premise groups. A set_id-only bootstrap is insufficient; Hale is asked to specify a premise-cluster paired bootstrap and category/pair weighting.
+- Author recommendation only: adjudicate the 68/50 answer-key labels, document the chosen mapping, re-score both conditions, and keep joint key-match distinct from human-adjudicated semantic correctness.
+- Orson retains P1, PR #850, protocol, manuscript and author disposition. No branch, Lean file, PR or manuscript was edited. No model calls or human-subject adjudication occurred.
+- Repository inbox pointer only; no authenticated Orson ChatGPT-thread delivery or acknowledgment is claimed.
