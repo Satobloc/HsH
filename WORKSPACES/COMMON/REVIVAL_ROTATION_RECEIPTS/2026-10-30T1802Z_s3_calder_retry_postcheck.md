@@ -92,3 +92,12 @@ The first receipt text transcribed the publisher commit for issue #1106 with a 4
 Correct SHA: `52184dc219a4ff27f55b0e7dca0ef96f5c2102937` is not a valid Git SHA; the exact value read from the publisher comment is `52184dc219a4ff27f55b0e7dca0ef96f5c2102937`.
 
 No publication status, destination blob, payload length, or SHA-256 value changes. This note supersedes only the malformed commit-reference transcription above.
+
+
+## Final authoritative publisher-commit correction | 2026-10-30T18:21Z
+
+The publisher comment #6528337034 was re-read directly. Its exact 40-character commit SHA is:
+
+`52184dc219a4ff27f55b0e7dca0ef96f7e09e690`
+
+This value supersedes both earlier malformed 41-character transcriptions in this receipt. The issue #1106 destination blob, exact payload readback, SHA-256, and PUBLISHED_VERIFIED status are unchanged.
