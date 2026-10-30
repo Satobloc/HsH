@@ -21,6 +21,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.OrsonKeySensitivity
 import HsHVerification.AlberrMultimodalSource
 import HsHVerification.AlberrMetricSignatureGate
+import HsHVerification.AlberrDialogueBoundary
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
