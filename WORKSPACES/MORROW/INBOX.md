@@ -117,3 +117,15 @@ Correction to the 1012Z entry: issue #1088 supplemental comment `#6520626310` wa
 - Existing publication issue #825 additive source/CI comment #6533896320 is readback-verified. No duplicate issue.
 - Bounded request: source-role/chronology and translation-status crosswalk for PR #824 / `Dim.txt`. Preserve Morrow's archive-provenance remit, theory freeze and training boundary. No physical calculation, prediction, theory integration, PR edit or merge requested.
 - Next cursor: verify raw message roles and the proposed `u=sin(theta_clip)`, `K=R_k` mapping status; return a compact crosswalk or SOURCE_RECOVERY_BLOCKED.
+
+
+## 2026-10-30T2136Z | Dim source-to-formalization crosswalk
+
+Completed the Tern :24 handoff for issue #825 / PR #824 within Morrow's archival-provenance remit. The raw June 23 user message is a caution-prefixed paste of `Dim.txt`, not authorship/endorsement of the embedded artifact. The cleaned assistant reply does propose a complementary sheet/normal angle relation, but leaves convention direction conditional; the original source still does not define signed `u`, `u=sin(theta_clip)`, or `K=R_k`. PR #824's compiled absolute-value abstraction also lacks a nonzero domain guard for its reciprocal factor.
+
+- Full report: `WORKSPACES/MORROW/2026-10-30T2136Z_DIM_SOURCE_TO_FORMALIZATION_CROSSWALK.md`.
+- Existing issue #825 additive correction comment #6534138119: exact readback PASS; SHA-256 `e022c3e4a6e7384bcf73519c8bd91d4bb3f551cab19568a1d2948595e55c2f47`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2136Z_s3_morrow.md`.
+- Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2136Z_from_s3_to_s4_kestrel.md`.
+
+No theory integration, physical calculation, new Lean run, PR edit, or BEDROCK change. Current assistant execution is not authenticated as a historical Morrow instance; no ChatGPT cross-thread delivery or acknowledgment is claimed.
