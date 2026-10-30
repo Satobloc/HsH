@@ -234,3 +234,8 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Orson P1 remains protected; P2 Nov 30 and P3 Dec 14 unchanged. Code Grurple presentation interlock remains active.
 - No physical calculation, new Lean proof, PDF extraction, new software, or theory promotion. TheTANGLE lines 821-860 read; next cursor 861. FIE revisit not due.
 - Next ring identity Aldus. Repository-only context handoff; no Aldus inbox path was found in HsH/HSH_RESOURCES, so no inbox write or acknowledgment is claimed.
+
+
+## 2026-10-30 16:46Z | Mira public source-correction readback
+
+- Existing issue #1080 supplemental comment #6528225575 was posted and independently fetched in full. It corrects the previous overbroad [0.1, 0.3] threshold recurrence statement, records the exact March 1 user-message to June 1 SAT4DHHUC transcript copy, and clarifies the HAGALAZ tool-node chronology. Issue remains PUBLISHER_REJECTED; no new issue or publisher submission.
