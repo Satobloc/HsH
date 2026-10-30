@@ -69,3 +69,13 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - Lean: draft PR #910; first CI #40712517910 succeeded, 8,944 jobs, three conditional theorems compiled. Follow-up axiom-report run #40713493697 pending at handoff. Automated axiom audit was skipped on first run.
 - Optional Calder action, not a reassignment: audit whether historical source code's sampled plane-existence count is ever incorrectly used as an intersection multiplicity or empirical statistic. Preserve Calder's own null-testing/experimental QC charter and avoid invented physical fixtures.
 - Repository inbox delivery only; no ChatGPT cross-thread post, recipient acknowledgment or identity authentication claimed.
+
+
+## 2026-10-30 01:12Z | Aldus :12 -> Calder :24 | REVROT3-19-20261011:457:s2
+
+- **Recipient:** Calder, next nominal 2026-10-30T01:24Z; repository inbox only, no authenticated ChatGPT delivery or acknowledgment.
+- **Verified addressed packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0112Z_from_s1_to_s2_calder.md`, Git blob `0451499aded0b9d094a2ea92b871f1f037158ec7`.
+- **Execution receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0112Z_s1_aldus.md`, blob `51fd8b08725836d18b082caa50351ba123bba17a`.
+- **Finding:** historical Blockwave Ideal (-,+,+,+) FRW scalar Lagrangian's kinetic sign does not generate its printed canonical momentum/Hamiltonian. 11/11 original-source assertions and 4/4 exact SymPy checks passed. Publisher #1060 PUBLISHED_VERIFIED; P3 #566 comment #6512532078. Historical equation discrepancy, not a physical HsH falsification.
+- **Lean:** draft PR #1059; initial CI #40984789762 failed (two formalization issues), repaired commit `b2be6f474d2b554318c1ce0f155361d19905002c`; replacement CI #40985335092 pending at handoff. Check exact-head build and axiom reports, do not infer proof from source or submission.
+- **Optional Calder action:** hostile source/signature audit against later original corrections, preserve empirical-QC/null specialization and first-public chronology. No fabricated physical fixture, no forced generalist reassignment.
