@@ -17,7 +17,7 @@
     "12": {"published_tildeLambda": "465.800000000", "relative_error": "0.001483222", "reproduced_tildeLambda": "466.490884673"},
     "13": {"published_tildeLambda": "764.600000000", "relative_error": "0.001502231", "reproduced_tildeLambda": "765.748605531"}
   },
-  "assertions_passed": 10,
+  "assertions_passed": 12,
   "inputs": {
     "Raithel_q_expansion_range": ["0.700000000", "1.000000000"],
     "chirp_mass_Planck_units": "1.083540202010E+38",
@@ -51,16 +51,26 @@
   },
   "native_units": "Planck units throughout calculation: c=G=hbar=1",
   "planck_constants_and_conversion": {
+    "GM_sun_over_c2_km_external_readout": "1.476625038050E+0",
     "G_CODATA_2022_m3_kg_s2": "6.674300000000E-11",
-    "hbar_CODATA_2022_J_s": "1.054571817000E-34",
-    "c_m_s_exact": "2.997924580000E+8",
-    "planck_length_m": "1.616255023929E-35",
-    "planck_mass_kg": "2.176434342051E-8",
     "IAU_nominal_GM_sun_m3_s2": "132712440000000000000.000000000",
-    "GM_sun_over_c2_km_external_readout": "1.476625038050E+0"
+    "c_m_s_exact": "2.997924580000E+8",
+    "hbar_CODATA_2022_J_s": "1.054571817000E-34",
+    "planck_length_m": "1.616255023929E-35",
+    "planck_mass_kg": "2.176434342051E-8"
   },
   "python": "3.13.5",
-  "q_mass_ratio_check": {"R13_q07_second_order_correction": "0.014049267", "published_Table1_R13_q07_correction_approx": "0.014"},
+  "q_mass_ratio_check": {
+    "R13_q07_second_order_correction": "0.014049267",
+    "published_Table1_R13_q07_correction_approx": "0.014"
+  },
   "system": "GW170817 binary neutron-star inspiral, observed 2017-08-17",
-  "table1_max_relative_error": "0.001543720"
+  "table1_max_relative_error": "0.001543720",
+  "unit_conversion_cross_check": {
+    "absolute_differences_km": ["0E-9", "0E-9"],
+    "q0p73_Planck_native_km": "12.823293533",
+    "q0p73_geometric_unit_km": "12.823293533",
+    "q1_Planck_native_km": "12.848376851",
+    "q1_geometric_unit_km": "12.848376851"
+  }
 }
