@@ -22,7 +22,7 @@ namespace HsHVerification.LoomLunarResponseSampling
 /-- The four period labels used in the published summary, in months.
     The 3-year and 6-year entries are conditional lower-bound constraints,
     not four independent point measurements. -/
-def publishedQSummaryPeriodsMonths : Finset ℝ := {1, 12, 36, 72}
+noncomputable def publishedQSummaryPeriodsMonths : Finset ℝ := {1, 12, 36, 72}
 
 /-- A finite list of response-period constraints does not identify an
     arbitrary real-valued response function uniquely. Two distinct
@@ -31,6 +31,7 @@ theorem finite_summary_period_samples_do_not_identify_response :
     ∃ f g : ℝ → ℝ,
       f ≠ g ∧
       ∀ p ∈ publishedQSummaryPeriodsMonths, f p = g p := by
+  classical
   let f : ℝ → ℝ := fun p => if p = 2 then 1 else 0
   let g : ℝ → ℝ := fun _ => 0
   refine ⟨f, g, ?_, ?_⟩
