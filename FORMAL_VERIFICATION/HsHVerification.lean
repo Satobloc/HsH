@@ -23,6 +23,7 @@ import HsHVerification.KestrelFlagInformationCounts
 import HsHVerification.KestrelGaugeNormalizationGate
 import HsHVerification.KestrelLevelSetSliceTangentV2
 import HsHVerification.SableTransverseIntersectionNondegeneracy
+-- Conditional Newtonian-coordinate algebra only; see module docstring for proof limits.
 import HsHVerification.WorldtubeInertiaCoordinate
 import HsHVerification.KestrelKelvinVortexReadout
 import Mathlib
