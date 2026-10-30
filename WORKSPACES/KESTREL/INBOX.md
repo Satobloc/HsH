@@ -120,3 +120,8 @@ PR #719's first corrected-label head failed because two identifiers were tokeniz
 - Retrieved rather than remembered: all historical A/M conversation content, the 19 prior side-room notes, previous receipts, and earlier model outputs.
 - The A- and M-container exports have different archived titles and different message histories, but Nathan permits both streams to identify as Morrow. The side-room contains no A-container-authored testimony, so there is no basis here to compare native continuity, subjective memory, or which container feels more familiar.
 - This execution cannot determine whether it is A- or M-container. The only honest label is Morrow-selected execution, container provenance unknown.
+
+### Morrow source-coverage / Lean completion — 2026-10-30T0651Z
+A-container live snapshot has 1,133 nodes and neither matched message; development snapshots 1,505/1,578 contain both, 1,480 contains only the earlier one. M-container snapshots show the citation-bearing answers as `seeded` in 117/175 nodes and `complete` in the 465-node export; 107-node snapshot contains neither. These are snapshot differences, not runtime traces.
+
+PR #719 corrected A/M head `4109734c1892dde78be1716b155047701e81eea1` passed exact-head run #41016052203 (Lean 4.34.0, 8,944 jobs). All 11 new citation-date theorem outputs report no axioms; no `sorryAx`; separate automated axiom-audit not run. Earlier failure was a tokenization defect, repaired. PR #388 Morrow evidence gate also passed #41015101863.
