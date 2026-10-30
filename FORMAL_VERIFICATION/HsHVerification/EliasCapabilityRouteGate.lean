@@ -96,13 +96,7 @@ theorem scout_route_requires_gap_or_explicit_request
       s.toolRequested = true ∨
       s.pluginRequested = true := by
   simp [routesCapabilityScout] at h
-  rcases h with h | h
-  · rcases h with h | h
-    · exact Or.inl h
-    · exact Or.inr (Or.inl h)
-  · rcases h with h | h
-    · exact Or.inr (Or.inr (Or.inl h))
-    · exact Or.inr (Or.inr (Or.inr h))
+  tauto
 
 /-- The POC's priority order: freshness precedes capability, blockers, and work. -/
 inductive NextOperation where
