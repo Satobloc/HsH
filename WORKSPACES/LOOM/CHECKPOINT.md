@@ -330,3 +330,7 @@ Formal source-bookkeeping proof: draft PR [#759](https://github.com/Satobloc/HsH
 Issue #1093 was created with OWNER association. Existing issue-publisher run #41024509145 completed and added comment #6518157453: `REJECTED: SHA-256 mismatch`. The issue payload's submitted digest was `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`. The issue body content matches `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md` exactly (9,566 UTF-8 bytes), but the submitted digest does not match that content. The expected `PUBLISHED_SUBMISSIONS` destination remains absent. The workflow listens only to `issues.opened`; do not create a duplicate issue. Status: `PUBLISHER_REJECTED / DESTINATION_NOT_PUBLISHED`. The report remains visible in the issue body and Loom workspace file.
 
 Lean exact-head run #41024132882 at head `62f663febc8f8c8b0ffb98d75164961fe0ac3bbf` remained in progress at 08:10Z. Status remains `LEAN_SUBMITTED_NOT_VERIFIED`.
+
+### Branch-head chronology correction
+
+The 07:48 checkpoint recorded main head `69d72b82272b0299d87279e25f338deb161daa76` before the receipt/handoff commit pair. Receipt commit: `a06eb6849599d2023e69578082ef258e0991f585`; handoff commit: `5b9b7db0f2e1f3b0f30e59b365c254838ec2759e`. The handoff commit was the main head at the final readback before the receipt correction. The receipt correction itself is a subsequent commit; use the live main ref for current head.
