@@ -4,13 +4,14 @@ Runtime: Python 3.13.5
 Native calculation frame: Planck units (c=G=hbar=1); km used only as final external readout.
 Command: python gw170817_raithel_eq10_reconstruction_20261030.py
 Execution: two independent invocations; stdout byte-identical.
-Assertions: 10 passed.
-Script SHA-256: f3e8bffab63a1466761748a2e66d3e77606692e6eee39af36ee0c43ec912e7cb
-JSON SHA-256: e9406c558d1602d5a055d6009a4e7d43607c2d5020a82d1864aa42931f1d90fe
+Assertions: 12 passed.
+Script SHA-256: a5030536150860a924bd925be55f0afc6a9a7221ab25789d99ba5ef55b92ce90
+JSON SHA-256: 33bd0e387d0e5927fa279ba138f1e7c336800c44ffe284b55557af1074dc0965
 Main q=1 radius upper: 12.848376851 km (7.949473728413E+38 Planck lengths).
 q=0.73 second-order boundary sensitivity: 12.823293533 km.
 Chirp-mass sensitivity (q=1): 12.837543481 to 12.859210221 km.
 Legacy 11.2 sixth-root fit: 13.051981913 km; difference from Eq. (10): +0.203605061 km.
 Raithel Table 1 reproduction maximum relative error: 0.154372%.
 Raithel Table 1 R=13 km, q=0.7 second-order correction: 1.404927%, versus published rounded 1.4%.
+Independent geometric-unit conversion cross-check agrees with Planck-native results to displayed precision for q=1 and q=0.73.
 No raw strain or posterior-sample bytes were read. This is a deterministic transformation of published summary inputs, not a posterior inference or H(s)H prediction.
