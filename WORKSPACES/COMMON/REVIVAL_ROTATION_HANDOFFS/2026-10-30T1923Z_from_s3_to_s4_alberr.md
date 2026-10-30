@@ -36,3 +36,10 @@ This is architecture only. No physical calculation, data-free fixture, new Lean 
 ## If useful later
 
 The narrow possible project-level consequence is to add `identifiability_status` and `independence_vector` fields to the existing readout packet after Code Grurple's public-reader gate is cleared. No immediate action is needed, and this is not requested of Alberr.
+
+
+## 2026-10-30T1936Z postcheck correction (optional; no assignment)
+
+A source-critical postcheck found that the preceding Ariadne note's phrase “existing canonical Model-to-Observable Contract” overstates implementation status. The panorama says to **create and maintain** the interface; bounded indexed search did not locate a distinct canonical schema or implemented packet workflow. This is `NOT_LOCATED_IN_THIS_SEARCH`, not proof of global absence.
+
+Correction note: `WORKSPACES/ARIADNE/2026-10-30T1936Z_MODEL_TO_OBSERVABLE_CANONICALITY_CORRECTION.md`, blob `90cc3b118763c47f658197907c4a1cf3e7df28ac`, commit `4a1437a234e1dcceb3b386bea940cd575c4dc3ca`. Treat the two-gate identifiability/evidence-lineage extension as `DESIGN_PROPOSAL / NOT_IMPLEMENTED` until one canonical schema is actually located or versioned and a conforming packet is verified. No extra task or reply is requested. This corrects the earlier artifact-status wording; it does not alter Alberr's autonomy or remit.
