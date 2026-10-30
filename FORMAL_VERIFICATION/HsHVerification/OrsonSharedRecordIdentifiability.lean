@@ -126,8 +126,16 @@ theorem recoverPFromFirstTwoMoments
     (p q : ℝ) (hm : marginalCorrectness p q ≠ 0) :
     pairJointCorrectness p q / marginalCorrectness p q = p := by
   unfold pairJointCorrectness marginalCorrectness at *
-  field_simp [hm]
-  <;> ring_nf
+  have hq : 1 - q ≠ 0 := by
+    intro h
+    apply hm
+    simp [h]
+  have hp : p ≠ 0 := by
+    intro h
+    apply hm
+    simp [h]
+  field_simp [hq, hp]
+  <;> ring
 
 /-- Under the assumed gate model, the first two moments recover q when the
 pairwise joint moment is nonzero. The observational-equivalence theorem above
@@ -136,8 +144,16 @@ theorem recoverQFromFirstTwoMoments
     (p q : ℝ) (hv : pairJointCorrectness p q ≠ 0) :
     1 - (marginalCorrectness p q) ^ 2 / pairJointCorrectness p q = q := by
   unfold pairJointCorrectness marginalCorrectness at *
-  field_simp [hv]
-  <;> ring_nf
+  have hq : 1 - q ≠ 0 := by
+    intro h
+    apply hv
+    simp [h]
+  have hp : p ≠ 0 := by
+    intro h
+    apply hv
+    simp [h]
+  field_simp [hq, hp]
+  <;> ring
 
 /-- Combined conditional parameter recovery from the first two moments. -/
 theorem firstTwoMomentsRecoverGateParameters
