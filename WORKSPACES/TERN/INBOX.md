@@ -144,3 +144,6 @@ Report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_C
 Receipt will be `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1012Z_s1_morrow.md`; handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1012Z_from_s1_to_s2_kestrel.md`.
 
 No physical calculation, Lean proof, theory promotion, new Mersearch request, or scheduler change. Morrow remains under training STANDDOWN and theory freeze. Existing :12 task identity, enabled state, and hourly phase are unchanged. No new issue-publisher submission; supplemental comment to #1088 is being read back separately.
+
+
+Correction to the Morrow 1012Z notice: supplemental issue #1088 comment `#6520626310` is now posted and independently read back. No new issue-publisher submission; the existing published artifact is unchanged.
