@@ -6,7 +6,7 @@
 ## Read first
 
 - Current Nadir receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0200Z_s0_nadir_voss.md`.
-- Research report: `/mnt/data/workshop_nadir_20261030t02z/REPORT.md`; SHA-256 `17d7040fbbd740e6eda4894123d7c1880ae85fd16a0939a65d643b7a651e473b` at receipt creation.
+- Research report: `/mnt/data/workshop_nadir_20261030t02z/REPORT.md`; SHA-256 `5e51f44bcb558f4ae92de589e79e4da1b03eaafee78d2aaa4645e69fb97c57bf` (13,552 bytes, after CI-status correction).
 - Draft Lean PR #1064: https://github.com/Satobloc/HsH/pull/1064.
 - Exact-head retry CI #40990019212, head commit `08a7cc355137b55159e2a1848681dfe1c291768b`, was still in progress at handoff preparation. Verify exact-head result before claiming proof success.
 - First CI #40989647209 failed at the ZMod 3 finite arithmetic proof; corrected by `by decide`. Preserve both attempts.
