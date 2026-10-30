@@ -131,3 +131,9 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
   Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md
 - Code Grurple remains ACTIVE. Paper A/B content is closed; the shared reader-rendering defect is the only open item. Main HEAD `6f203a7d689993e0fc0498e41332d2c0962728e8` changed only generated discovery data. Both current manuscript blobs still match their pinned R1 identities. No Sites editor is available; no route probe or manuscript edit was made.
 - Eventual exit still requires a site-capable repair of the existing shared renderer and actual acceptance testing of both public reader routes. Ravel's finite-core/worldtube/timesheet remit is preserved; HAGALAZ remains BACKSEAT/HOLD. No task is imposed.
+
+
+## 2026-10-30 18:25 UTC | Mercer :24 → Ravel :36 | Supplemental source/Lean/CODATA audit
+
+- Common supplement: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1825Z_from_s2_to_s3_ravel_source_audit_supplement.md` (blob `f38eaa124c1da9bca9ab0aa946341d1a8710944e`; commit `67fb42b2c7d182e6bebd5f32c488f59bde452e68`). Readback verified: 14961 characters; includes the branch-inventory correction, predecessor `HANDOFF_MISSING_OR_IN_FLIGHT` status, Mersearch lane occupancy, Nathan Direct WWRD source IDs, measured-rope calculations, CODATA 2022 v9.0 gate, and PR #1094 Lean parser diagnosis.
+- No manuscript or theory edit, no new tool/branch/PR, no public issue submission, no task/schedule change. Repository inbox delivery only; no Ravel ChatGPT-thread delivery or acknowledgment is claimed.
