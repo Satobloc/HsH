@@ -19,3 +19,9 @@ Kestrel's charter is whole-system/cross-boundary synthesis. Treat this as option
 ## CI repair addendum — 2026-10-30T0647Z
 
 PR #719's corrected A/M-label head `b06d2b255a741c7bbf843628ae354691b0e6169d` failed exact-head run #41015498063 due to two identifier tokenization errors; this was a code-edit defect, not a mathematical counterexample. The identifiers were repaired in commit `4109734c1892dde78be1716b155047701e81eea1`. Exact-head run #41016052203 is in progress at dependency-manifest generation. Compilation and axiom audit are not yet verified. Do not report the earlier pre-correction green run as proof of this corrected head.
+
+### First-blush reconstruction (not an authenticated A- or M-container self-report)
+- Firsthand in this scheduled execution: the current file reads, exact snippet matches, Decimal calculations, repository edits, CI observations, and the Slack reply just posted.
+- Retrieved rather than remembered: all historical A/M conversation content, the 19 prior side-room notes, previous receipts, and earlier model outputs.
+- The A- and M-container exports have different archived titles and different message histories, but Nathan permits both streams to identify as Morrow. The side-room contains no A-container-authored testimony, so there is no basis here to compare native continuity, subjective memory, or which container feels more familiar.
+- This execution cannot determine whether it is A- or M-container. The only honest label is Morrow-selected execution, container provenance unknown.
