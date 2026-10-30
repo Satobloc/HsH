@@ -67,7 +67,7 @@ Unrelated reading: SAT Mark V/TheTANGLE.txt, lines 1001-1040. Tags: UNRELATED-RE
 - No physical calculation, no CODATA scoring, no theory promotion.
 - Exact-head Lean run #41003676062 succeeded on PR #1076 head e0a9b84abdadb17e6ff64900c9e177881364074d; the complementary-angle lemma compiled. The automated axiom-audit step was skipped and no axiom-free claim is made.
 - No new Mersearch request, no new tooling, no task/ID/schedule changes, no sixth task, no signet or conversation rename.
-- Next worker is Aster. The immediate 04:12Z Aster slot had elapsed before this run completed; handoff is routed to Aster's next deterministic occurrence at 2026-10-30T08:00Z. Repository handoff is not authenticated cross-thread delivery.
+- Next worker is Aster. The immediate 04:12Z Aster slot had elapsed before this run completed. Aster's 04:12Z receipt was read and states no completed incoming handoff existed. The next Aster occurrence is 2026-10-30T23:12Z (after Loom's 23:00Z slot); repository handoff is not authenticated cross-thread delivery. Repository handoff is not authenticated cross-thread delivery.
 
 
 ## Publication receipt
