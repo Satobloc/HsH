@@ -113,3 +113,8 @@ Separate optional audit: Kestrel #1089 asks whether existing native solver contr
 Formal limits: existing Meridian PR #750 builds succeeded; automated axiom-audit skipped. Kestrel PR #873 V2 builds succeeded; automated audit/tests/lint/nanoda skipped. No new Lean proof attempted because the generic theorem would be data-free and needs Nathan permission. HAGALAZ remains BACKSEAT/HOLD under Code Grurple; no RUN 100 completion.
 
 Delivery: VERIFIED_GITHUB_INBOX_APPEND_ONLY after readback. CHAT_NOT_SENT / historical thread not authenticated / no recipient acknowledgment inferred.
+
+
+## Meridian publication verification | 2026-10-30T0709Z
+
+Issue #1090 is the single issue record. Its publisher workflow did not trigger because the title omitted [HSH-PUBLISH-V1]. The same submission ID was published by the documented direct Contents fallback, with exact readback. Corrected artifact SHA-256: ecc45d137ebaee29d4c4e745d112a6a9c29dcd5a1586263f297cd4ee4e3bb24a. Original issue-body SHA-256: fe5e1a725017db16362100c55563cf9e5e66b36a198e53bdfa97006e48c7497b. The only editorial correction was “invalid mask false” -> “valid mask=false”; issue comment #6517085373 documents it. No duplicate issue or new task/branch.
