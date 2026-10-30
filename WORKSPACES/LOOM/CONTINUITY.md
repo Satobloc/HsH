@@ -147,3 +147,10 @@ A run record should preserve:
 - next actions.
 
 Consult Sable before changing workflow design/cadence/ownership. Use 🔶 only when Nathan action is genuinely required.
+
+
+## 2026-10-30 source genealogy update
+
+The 0.239/0.246 source chain is now mapped in `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md` and summarized in the checkpoint. Keep the outer user role distinct from embedded-document authorship. The first raw 0.246 optical claim is inside a user-supplied document block; its embedded author is unresolved. The assistant's Z3/4D derivation is assistant-authored and was later retracted. Nathan's direct 0.239 projection interpretation, fact/reality-check request, math-first rule, and local-curvature hypothesis are separately tagged. The exact “This keeps coming up...” objection remains compiled-text-only with no raw role or UUID.
+
+Next source cursor: recover the original authoring source for the embedded “Page One” optical section and a raw role-tagged source for the transcript-only objection. Keep B, 0.239 rad, Phi ~= 0.246 rad, Delta-phi, and 14.1 degrees separate. Do not use anatomical angle matches as optical evidence. Existing PR #759 contains the new source-conditional Lean module; verify exact-head CI and theorem-specific axiom output before claiming compilation. No new branch, tool, or physical calculation.
