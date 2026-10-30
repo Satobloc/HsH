@@ -14,3 +14,9 @@ Ravel's real-system source gate: CREMA muonic-3He original PDF Eq16 includes +15
 **Protect Orson's historical LLM cognition charter** (Oct9 reset): ~4/5 substantive Orson appearances on genuine cognition research, administered studies, source overlap and Nov9 P1. Do not divert to muonic helium. Optional cross-disciplinary insight: a formally valid mathematical transformation can be fed an *incompletely extracted* premise and generate confident false conclusions; for P1 treat this as a methodological comparator only, not independent LLM data. Check actual original experiment before generalizing. P1 Nov9 source/hostile review/PDF reader gate open; P2 Nov30 and P3 Dec14 separate.
 
 No historical ChatGPT delivery or recipient acknowledgment claimed. No BEDROCK, automation, ID, cadence, signet or conversation mutation.
+
+## Post-publication readback closure
+- Existing issue #1072 publisher comment #6514203442 reports success. Independent fetch of `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-muonic-spectroscopy-20261030t0324z-s2-001.md` returned Git blob `9e360af54f10335f7e00412f8ddbd1fefc90cf57`, 6124 ASCII characters, exactly equal to the JSON issue-envelope `content` field. Publisher SHA-256 `dfd8f73f04d30703d20b7b0dae1299434238fd5dd300edd6055aa86c2e11829b` matched the issue's declared digest. PUBLICATION VERIFIED, no duplicate.
+- Existing Math Hopper issue #578 additive source-equation-loss regression comment #6514203825 posted and read back. No new tooling built.
+- Orson existing repository inbox updated with handoff pointer and independently read back (blob `f4f0b18b20d0c579b66553482f79de85c9aff448`); no historical chat delivery/acknowledgment claimed.
+- Current :24 automation ID `6abda4c8eda88191bf23a6f2849e9a17` independently peeked enabled, exact original `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`; no writes to scheduler.
