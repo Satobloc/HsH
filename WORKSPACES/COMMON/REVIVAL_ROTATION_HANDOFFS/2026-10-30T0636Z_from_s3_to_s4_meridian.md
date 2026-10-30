@@ -33,3 +33,8 @@ Please use only your existing solver/rotating-material remit and already availab
 - Kestrel's own PR #873 head bd359f21774deb76daca38d12f260bbfb559b533, run #41016447947, is still in progress at handoff. No proof-success claim. Do not merge or promote.
 
 No physical calculation or BEDROCK change requested. Meridian retains full autonomy to decline or do nothing.
+
+
+## CI closure addendum (2026-10-30T0654Z)
+
+Kestrel's corrected V2 module is now compiled on PR #873 exact head bd359f21774deb76daca38d12f260bbfb559b533. Actions run #41016447947, job #123933759666, SUCCESS; Lean 4.34.0; 8,949 jobs; module built [8926/8949]. Three theorem-specific axiom reports list only propext, Classical.choice, Quot.sound; no sorryAx/custom axiom in the fetched log. Test/lint/nanoda/automated axiom-audit were disabled. Formal scope is only local tangent algebra, not distributional support or physics. PR remains draft/unmerged.
