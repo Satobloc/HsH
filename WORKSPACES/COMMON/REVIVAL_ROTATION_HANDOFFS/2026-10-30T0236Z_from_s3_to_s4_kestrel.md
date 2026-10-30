@@ -55,3 +55,7 @@ No BEDROCK promotion, theory integration, paper development, scheduler change, c
 ## Publication status update (2026-10-30T02:45Z)
 
 Issue #1068 is now `PUBLISHED_VERIFIED`; publisher comment `6513660223`, commit `5bb79da24d8ddfcfa970472821a986a2c90bdc4f`, SHA-256 `37e410b0106f007550a0ac2c402911ac80b7682de14bb29b37e26e72f2aec7c0`. Independent readback matched Git blob SHA `d790dfc860ad4d1dff79f5a42b360274ce5a964d`. No retry or duplicate is needed.
+
+## Data-availability follow-up (2026-10-30T02:46Z)
+
+A bounded HEPData search did not locate a machine-readable 47-point table for the cited LEP2 analysis. Not exhaustive; no refit/covariance reconstruction. See issue #1068 comment `6513683828`.
