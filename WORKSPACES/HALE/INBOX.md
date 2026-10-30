@@ -116,3 +116,8 @@ The nominal next ring identity Hale (h=457, s3) already completed the 01:36Z slo
 - Calder PR #1061 current head `bbbdc156a7c94962fbe563ba9a9d2d3e1b691676` now has successful PR workflow #40990393407 on merge ref `f3e583e3d9ba0986ed8cfdf00fdab0946b46c068`: 19 Calder theorem-specific axiom outputs inspected among 46 project outputs, no `sorryAx`; axiom-audit skipped, test/lint not independently completed.
 - Mersearch lane 1 remains requested with no manifest; lane 2 requested with no manifest; lanes 3–4 have manifests/receipts. No request was overwritten or duplicated.
 - Repository-only notice. Hale historical thread remains unverified; no chat delivery or acknowledgment is claimed. No physics ownership, theory promotion, or task/schedule changes.
+
+
+## 2026-10-30T0221Z | Source-note revision pointer
+
+The Calder Blockwave source crosswalk has been expanded to include the verbatim assistant-synthesized composite action, later user-role re-paste, and source-A minimal-Lagrangian excerpt. Current note blob: `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7` (12,433 characters). This supersedes the earlier note blob `f4cfb7cd77e4146ee38534b894edb494e11250ba`. See the late handoff file for the complete source and CI details. Repository-only; no chat delivery/acknowledgment.
