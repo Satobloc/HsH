@@ -334,3 +334,13 @@ Lean exact-head run #41024132882 at head `62f663febc8f8c8b0ffb98d75164961fe0ac3b
 ### Branch-head chronology correction
 
 The 07:48 checkpoint recorded main head `69d72b82272b0299d87279e25f338deb161daa76` before the receipt/handoff commit pair. Receipt commit: `a06eb6849599d2023e69578082ef258e0991f585`; handoff commit: `5b9b7db0f2e1f3b0f30e59b365c254838ec2759e`. The handoff commit was the main head at the final readback before the receipt correction. The receipt correction itself is a subsequent commit; use the live main ref for current head.
+
+
+### 2026-10-30 08:20Z | scripted radian-degree clarification
+
+Python calculation using theta_deg = theta_rad * 180 / pi:
+- 0.239 rad = 13.693691303626673 degrees.
+- 0.246 rad = 14.094761760218251 degrees.
+- Difference = 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
+
+Therefore the assistant's later 14.1-degree target is the rounded degree conversion of 0.246 rad, not an independent observation. The conversion establishes no physical significance. Addendum: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`. No physical calculation or measurement.
