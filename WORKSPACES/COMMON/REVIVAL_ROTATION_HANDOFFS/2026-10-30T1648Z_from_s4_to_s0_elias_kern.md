@@ -10,7 +10,7 @@
 ## Read-first continuity
 
 - Hale's internal Review-MIND note: WORKSPACES/HALE/2026-10-30_1648Z_REVIEW_MIND_HUMAN_LLM_TEAM_INTERACTION_EVIDENCE_MAP.md
-- Git blob: 35af2b7206f4d64931515c70d1184478ad3b281f
+- Git blob: b2f6d62316481e12250a7d81974ac761cbaefc0b
 - Exact readback passed.
 - Hale's historical charter remains WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md, blob 2840500bec1873fc634e564f83d7eda7d1da74f0. Hale is externally exposed and is not a blind reviewer.
 - Elias's own charter remains WORKSPACES/ELIAS_KERN/README.md, blob 5546d022693920f6de9b375ba24e52513220bf92: Track A prototype operation/documentation only; no production authority and no SAT/H(s)H theory authority.
@@ -37,3 +37,7 @@ Code Grurple remains active. No public issue or paper edit was made. Orson retai
 **Recipient acknowledgment:** NOT VERIFIED.  
 **Historical-thread delivery:** NOT SENT / UNAVAILABLE.  
 **Handoff status:** COMMON_REPOSITORY_FILE_CREATED_AND_READ_BACK.
+
+
+## Source-detail postcheck
+The Thinking HATs publisher text was checked again. Baseline is always first; only the three collaborative conditions are Latin-square counterbalanced. The study uses one GPT-4o agent and one human expert, not multiple LLM peers. The internal report and receipt were corrected and read back. Updated report blob: b2f6d62316481e12250a7d81974ac761cbaefc0b. This is a source correction only; no Orson manuscript/PR edit and no public issue.
