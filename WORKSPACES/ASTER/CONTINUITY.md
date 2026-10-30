@@ -336,3 +336,20 @@ The earlier "Proton-Electron Mass Ratio - raw - .TXT remains NLM-attested but un
 ### 2026-10-30T0441Z | Aster :12 publication closure
 
 Issue #1079 transitioned from `SUBMITTED_NOT_VERIFIED` to `PUBLISHED_VERIFIED` after publisher comment #6515094376. Destination file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-sat-worldtube-source-genealogy-20261030t0412z-s1-001.md` was fetched at blob `a7e6d240a26b4c3004e51b7618a50895324d70cb`; full text exactly matches the issue submission envelope's `content` field. Publisher-reported SHA-256: `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`. The earlier `436c844...` run-note digest is not this published artifact's checksum; its byte target remains unresolved. This closes the publisher receipt only, not Code Grurple's website reader gate.
+
+
+## 2026-10-30T1536Z | October 29 graviton / 4D–3D source-status correction
+
+Aster source-provenance pass recovered the exact 2026-10-29 user wording and timestamps through prior-conversation context retrieval, but did **not** recover either raw conversation export, conversation ID, or message UUID:
+- 06:46:50Z: “We don’t have a graviton per se. What we have is time waferont / wavesheet. If a soliton forms on the timesheet… Then we might have a graviton.”
+- 07:17:34Z: “Our universe is four dimensional … Our Time slice is a three dimensional.”
+
+Classify both as `PRIOR_CONTEXT_RETRIEVED / RAW_ARCHIVE_NOT_RECOVERED`, not `RAW_USER_VERIFIED`. Their relationship at the conversation/thread level is unresolved; do not claim adjacency or same-thread correction. The 06:46:54Z and 07:17:58Z paraphrases are assistant-authored.
+
+Corrected the nearby provenance crosswalk: the cited `NATHAN_VERIFIED_WORDS_COMPENDIUM.md` lines 2110–2140 (blob `9437d5aafda081bd169b39d9a67547e8e71d16b0`) resolve to a different 2026-09-06 raw-user message, conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, message `59a38049-e410-455d-afe9-87fcbc6f5264`. That September source is historical context, not an October 29 witness.
+
+The two October 29 Common files (gate blob `e5d5390015528381d0f497a54335f9b40b9c50cf`; 4D/3D clarification blob `933d09e802bb98f2fd4f932b2d342f412f5bf718`) are assistant-authored transcriptions/implementations, not raw primary witnesses. Loom issue #996 already preserves the 2024/July source-role genealogy; no duplicate audit was made. An additive clarification comment was added to issue #996 rather than creating a duplicate publication.
+
+Detailed note: `WORKSPACES/ASTER/2026-10-30_1536Z_OCT29_STATEMENT_PROVENANCE_CORRECTION.md`, blob `da36aad3c666f2134d88ba7df807c85156638aca` (readback fetched; 7,104 characters). Mersearch-first check found all four lanes occupied; bounded GitHub search fallback across the three permitted repositories found only the derivative October 29 files, not the raw export. No exhaustive absence claim.
+
+This was source-provenance work only. No new mathematical proposition was formalized; no Lean compile, physical calculation, manuscript review, new branch, or BEDROCK promotion. Next cursor: recover the actual October 29 raw export(s) with conversation ID, message UUID, role, timestamp, and adjacent turns before treating either statement as raw-archive verified.
