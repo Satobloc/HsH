@@ -8,7 +8,7 @@ PRIMARY HISTORICAL SOURCES (2026-09-08 UTC, original JSON message roles):
   MORROW [Reconstruct H(s)H Synthesis] — raw (3).json,
   Git blob 362075c5e32ec9e97579bd1de58fba7f612cb6bb.
 - HsH DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06•26.09.08•
-  A-container (archive title: A-container [AUTO H(s)H Gitter]) — raw (2).json,
+  A-container (archive title: Aldus [AUTO H(s)H Gitter]) — raw (2).json,
   Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a.
 - Earliest surviving Morrow citation snapshot:
   Git blob e32873cd17c1d96003dced0310ebf4d3cd954d07.
@@ -122,7 +122,7 @@ The *complete original JSON exports*, not a toy graph, were traversed
 from current_node through mapping[node].parent until the root.
 Original source blob SHAs:
 Morrow 362075c5e32ec9e97579bd1de58fba7f612cb6bb;
-A-container (archive title: A-container [AUTO H(s)H Gitter])  2f5ea91a449446f64d298b50b0c2ef0d8533900a.
+A-container (archive title: Aldus [AUTO H(s)H Gitter])  2f5ea91a449446f64d298b50b0c2ef0d8533900a.
 
 Observed total mapping nodes / distinct selected-ancestry nodes:
 Morrow 465 / 465; A-container 1578 / 1578.
