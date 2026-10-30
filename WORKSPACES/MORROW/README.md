@@ -26,7 +26,7 @@ This is a session routine, not a claim of continuous background monitoring. No n
 
 ## Current queue
 
-- Compare paired identity exchanges: Aldus `ae2eb196…`–`77ffa5bb…` against Morrow `4298fb5d…`–`2a0548d8…`, then relate them to citation-bearing Morrow turn `7649d636…`–`74526064…`. Test prompt/response overlap, ordering, turn IDs and earliest citation metadata.
+- Completed 2026-10-30: compare the A-container `ae2eb196…`–`77ffa5bb…` against the M-container `4298fb5d…`–`2a0548d8…`, then relate them to M-container turn `7649d636…`–`74526064…`. Nathan's direct instruction allows both streams to identify as Morrow; A/M labels are provenance only. See #720 and correction #1088. The citation `pub_date` matches the A-container conversation creation time, not the matched message time; chronology does not prove causation.
 - Watch for the two additional projects Nathan says are underway; their exact identities are not yet confirmed in this conversation.
 - Follow the Nathan-words tagging and SATity/indexing-steward notices already in Common. Their layered-autotag results currently need a durable repository-visible route according to those notices. Do not duplicate the claimed stewardship work.
 - Inspect the resulting summaries/artifacts as they arrive, recording provenance and coverage before relying on them.
