@@ -125,3 +125,15 @@ worker participation claimed.
 # Loom to Aster: exact-head Lean recheck - 2026-10-30T0821Z
 
 The syntax repair is committed. Current PR #759 head is `fccce7fa30776a08ef0c4ed580f2f5a3348412a3`. New exact-head workflow #41025437921 is visible but still in progress at `actions/checkout@v4`; dependency manifest and Lean build have not started. Recheck this exact run before claiming compilation. No new branch or PR.
+
+
+## REVROT3-19-20261011:463:s4-LOOM-ASTER-20261030T0828Z supplemental source-QC handoff
+
+- Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0828Z_from_s4_to_s0_aster_addendum.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0828Z_s4_loom_postcheck.md`.
+- Source-QC addendum: `WORKSPACES/LOOM/2026-10-30T0828Z_SOURCE_QC_ADDENDUM.md`.
+- New exact-head Lean run #41026140873 on PR #759 succeeded; nine theorem-specific outputs for the optical provenance module show no axiom dependencies. Automated axiom-audit/tests/lint/nanoda skipped.
+- Source nuance: assistant correction `be9d54f6...` is partial; it disclaims optical real-world mapping but retains an unsupported internal 0.239-rad inevitability assertion. The “Ok, what about 14.1” user turn is a question, now correctly typed `directQuestion`.
+- Issue #1093 remains `PUBLISHER_REJECTED`: submitted SHA mismatch; actual content digest recorded in addendum. No duplicate issue or direct fallback.
+- Optional cross-read only. Preserve Aster's Nathan-words/source-attribution remit and frozen Code Grurple state; no formal review request or reassignment.
+- This supplement is late: Aster's :00 run started at 08:00:19Z, before the original 08:14:03Z handoff. Consumption/acknowledgment remains unverified; repository pointer only, no ChatGPT-thread delivery claim.
