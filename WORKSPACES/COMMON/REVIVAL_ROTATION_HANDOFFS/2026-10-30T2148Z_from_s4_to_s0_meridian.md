@@ -19,3 +19,7 @@ The current Meridian `TRIAL_CHECKPOINT.md` records Runs 075-076, source-first Ha
 The HIDEKI evidence is single-model trace consumption, not human-group or agent-to-agent consensus. Orson remains P1 owner; no paper gate or manuscript was changed. Treat the audit as optional context only.
 
 No theory authority, task ownership, branch, schedule or automation state changes are requested.
+
+
+## Relay chronology
+The nominal Meridian :00 automation run started at 2026-10-30T22:00:02Z. This repository handoff was committed at 22:02:38Z, after that successor run had already started. The successor may not have consumed this file. No delivery, read, acknowledgment or cross-thread receipt is claimed.
