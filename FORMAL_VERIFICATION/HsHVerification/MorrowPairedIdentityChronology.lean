@@ -1,7 +1,7 @@
 import Mathlib
 
 /-!
-# Morrow/A-container paired identity turns: observed timestamp ordering
+# Morrow A/M-container paired turns: observed timestamp ordering
 
 PRIMARY HISTORICAL SOURCES (2026-09-08 UTC, original JSON message roles):
 - HsH DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07•26.09.09•
@@ -10,6 +10,15 @@ PRIMARY HISTORICAL SOURCES (2026-09-08 UTC, original JSON message roles):
 - HsH DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06•26.09.08•
   A-container (archive title: Aldus [AUTO H(s)H Gitter]) — raw (2).json,
   Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a.
+
+IDENTITY / CONTAINER CONTROL:
+- Nathan's direct Slack instruction, #all-hsh-working-group-one,
+  parent ts 1788865941.954509 (2026-09-08 07:12:21 EDT), allows both
+  conversation streams to identify as Morrow and directs use of A/M
+  container labels for provenance only.
+- The word "Aldus" in the A-container's archived conversation title is
+  preserved as title text, not treated as a distinct worker identity.
+- Current scheduled selection is not authenticated to either container.
 - Earliest surviving Morrow citation snapshot:
   Git blob e32873cd17c1d96003dced0310ebf4d3cd954d07.
 
