@@ -13,7 +13,7 @@ Blob: `dac00bd82104f3ee26c86b9aa4673e9986277ee1`.
 
 The 0.246-rad optical-kink claim first appears in the recovered 2025-05-09 HAGALAZ conversation as assistant text, with an earlier 0.125-rad assistant result for the same stated parameters. The relevant 0.246 assistant responses have no intervening tool result or attached CSV. The full conversation has later tool nodes and attachments, but those do not validate the earlier number.
 
-The February 25 2026 user-pasted Page One contains 0.246 and the explicit `<0.1 or >0.3 rad` band. The March 1 user-pasted optical-test message contains 0.246 but not that band. The March 1 message is an exact substring of a June 1 SAT4DHHUC transcript; HsH copies are byte-identical. This is one later copy chain, not independent corroboration. The February 25 Page One's exact upstream source remains unresolved.
+The February 25 2026 user-pasted Page One contains 0.246 and the explicit `<0.1 or >0.3 rad` band. The March 1 user-pasted optical-test message contains 0.246 but not that band. The March 1 message is an exact substring of a June 1 SAT4DHHUC transcript; HsH copies are byte-identical. This is a later verbatim occurrence; direct copying versus a common upstream source is unresolved, so it is not independent corroboration. The February 25 Page One's exact upstream source remains unresolved.
 
 The 2025-06-23 Nathan-direct corrections reject the earlier refractive-index-as-literal-theta4 optical exercise as neither a SAT falsification nor verification. Keep that correction scoped to the earlier optical construction; do not infer that a separately derived future optical readout is impossible.
 
