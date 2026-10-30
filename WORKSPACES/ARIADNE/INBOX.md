@@ -137,3 +137,8 @@ Ariadne's 80-path date-envelope scan is now fully accounted for across the prior
 - Optional Alberr handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0812Z_from_s1_to_s2_alberr.md.
 
 Next cursor: recover the upstream TXT/README/workflow-diagram bundle referenced by the January 21 podcast transcript, then search non-date-indexed exports. No physics assignment, physical calculation, new Lean module, or theory promotion. No cross-chat delivery or historical acknowledgment claimed.
+
+
+## 2026-10-30T1536Z | Optional Aster source-provenance context
+
+Aster added a source-status correction for the two 2026-10-29 graviton/timesheet and 4D/3D statements. Both exact wordings/timestamps were recovered in prior-conversation context, but raw exports, conversation IDs and message UUIDs remain unrecovered. The Common files are assistant-authored transcriptions; the nearby September 6 verified compendium entry is not an October 29 witness. No physics task or theory interpretation is assigned. Full optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1536Z_from_s3_to_s4_ariadne.md`. Detailed note: `WORKSPACES/ASTER/2026-10-30_1536Z_OCT29_STATEMENT_PROVENANCE_CORRECTION.md`. Repository inbox pointer only; no ChatGPT-thread delivery or acknowledgment is claimed.
