@@ -20,8 +20,8 @@ The broader SAT-O/Blockwave source-genealogy audit is already recorded in [MERCE
 ### Nathan Direct
 
 - The verified statement archive records the 4D ambient-history / 3D timesheet distinction and finite-core/intersection framing. These support W⁴, Σ³τ, and their section, but do not themselves define an electromagnetic current density.
-- The 2026-09-07 source statement describes an induction-current connection within timesheet thickness. It is qualitative and does not specify whether the object is a current, a potential, or another connection.
-- The 2026-10-18 correction establishes Q_fil=9 for full-mode ³He: three nucleons times three fundamental strands. Q=3 remains the nucleon-level/coarse count, not the full helion count. The verified message ID begins 19c3 in NATHAN_VERIFIED_WORDS_COMPENDIUM.md.
+- The role-verified 2026-09-07 Nathan message 496a15ea-0263-459d-b815-908f52155b90 (06:06:12.842 EDT; verified-batch blob 0d948062a064ee3db0d5bc39ce0ad46829e222d4) describes an induction-current connection within timesheet thickness. The dedicated source-fidelity note is WORKSPACES/RAVEL/2026-10-30_1100Z_SAT4D_CURRENT_NAMESPACE_SOURCE_FIDELITY.md, blob c5e940fbffbc75b7ed3a4715e674ffd2ab79fcc9. The phrase is qualitative and does not specify whether the object is a current, a potential, or another connection.
+- The live BEDROCK entry ND-2026-10-18-07, authority-labeled Nathan Direct, distinguishes nine constituent quark worldlines/worldtubes from three effective hadron worldtubes for the same ³He system. Use Q_fund=9 and Q_eff=3, and do not conflate either with Q_top. The underlying 2026-10-18 raw message UUID was not recovered in this pass, so this is a controlling transcription, not a fresh raw-message verification. BEDROCK blob: 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c.
 - The source distinction between rms charge radius and braid-envelope radius is retained. The measured charge radius is a moment of the charge distribution, not automatically a geometric support radius.
 - The July 2026 medium proposal places Kelvin-vortex-like structures in a responsive BEC-like medium, rather than identifying the medium field with the filament core. That is a conditional medium layer, not a license to identify a Blockwave two-form with the core electromagnetic current.
 
@@ -65,7 +65,7 @@ SAT 4D Theory Work/SAT4D_Covariant_Field_Equations.tex, blob c2493431c743ab14e67
 
 ### Author-attributed 2026 helion claim
 
-0PHYS_REV_D_V_1_Submission.pdf is dated 2026-03-30 and attributed to Nathan McKnight. The extracted-text Git blob is 2ea1100...; the PDF source SHA-256 recorded by the extractor is 44a51b....
+0PHYS_REV_D_V_1_Submission.pdf is dated 2026-03-30 and attributed to Nathan McKnight. The extracted-text Git blob is 2ea110aff27297888b5dba382082bec3f9a86697; the PDF source SHA-256 recorded by the extractor is 44a51b480e9cd52cd196d88dedc91869799c3ffd798ccb8352c6ff9cec99ad20.
 
 The paper reports:
 
@@ -73,13 +73,13 @@ The paper reports:
 \mu_{^{3}\mathrm{He}}\approx -2.127\,\mu_N,
 \]
 
-and describes the result as a geometric dual of a 4D three-form current J_μνρ, associated with a 270-degree quarter-turn holonomy. It does not provide an explicit component formula, normalization, current profile, or uncertainty budget. Its helion holotype uses the older Q=3 convention; the later Nathan Direct full-mode correction is Q_fil=9. The old numerical value is retained as a historical source claim, not treated as a current-convention derivation or an independently scored prediction.
+and describes the result as a geometric dual of a 4D three-form current J_μνρ, associated with a 270-degree quarter-turn holonomy. It does not provide an explicit component formula, normalization, current profile, or uncertainty budget. Its helion holotype uses Q=3 without an explicit resolution label. Under BEDROCK ND-2026-10-18-07, that could denote the effective hadron-level count Q_eff=3, while the constituent count is Q_fund=9. The paper does not state which level its current/moment equation uses, so the value must not be silently reinserted into a constituent-level formula.
 
 ### Assistant-generated and unattributed reconstructions
 
 These are useful leads, not Nathan Direct:
 
-1. DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/WB7.txt, blob a609..., has the candidate dual
+1. DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/WB7.txt, blob a609b86cb78af467b7234c17cd921f5069251248, has the candidate dual
    \[
    \widetilde J^\mu
    =\frac{1}{3!}\epsilon^{\mu\nu\rho\sigma}J_{\nu\rho\sigma},
@@ -102,18 +102,17 @@ These are useful leads, not Nathan Direct:
    \]
    The notation overloads the three-form and its dual vector. The transcript contains July 2026 timestamps, but raw message-role metadata for this passage was not independently recovered.
 
-4. 2026/HOMESTRETCH/SAT CORE PACK.txt, blob ec3cd7975f49251847242199f7e49765f0c39199, contains J_μ=*J_μνρ, but no author/date metadata. The same file includes a Q≤3 cap alongside Q=3A, which is not reconciled with the later full-mode Q_fil=9 correction.
+4. 2026/HOMESTRETCH/SAT CORE PACK.txt, blob ec3cd7975f49251847242199f7e49765f0c39199, contains J_μ=*J_μνρ, but no author/date metadata. The same file includes Q≤3 alongside Q=3A without specifying whether the cap is local-vertex or composite-level. Current BEDROCK ND-2026-10-18-07 distinguishes Q_fund=9 from Q_eff=3, but this file supplies no explicit map between those levels.
 
-5. The Blockwave assistant synthesis is a separate rank sector. The raw assistant message is 121d... in export blob 1f074..., timestamped 2025-10-19T12:29:46.539Z. Its source attachments include the scalar term
+5. The Blockwave assistant synthesis is a separate rank sector. The raw assistant message is 121d607d-53e7-4b5a-8a7a-75d7e09deb3d in export blob 1f074cc67057ae9df1e92bab45e8ba34c96b0d77, timestamped 2025-10-19T12:29:46.539Z. Its user prompt was fa1e045d-a7ff-4dcf-8110-ae9fa555a54a; the later user re-paste was f77f769e-8e74-4def-b4c9-bced0edbb8bc and does not establish original authorship. The cited attachments contain distinct scalar terms:
    \[
-   +\frac{f_\theta}{2}\nabla_\mu\theta\nabla^\mu\theta
-   -\Lambda_\theta^4(1-\cos\theta)
+   +\frac{f^2}{2}\partial_\mu\theta\,\partial^\mu\theta-\mu^4(1-\cos\theta)
    \]
-   from SAT—Blockwave Ideal Model.txt (blob dd0631...) and the Maxwell-like term
+   from SAT—Blockwave Ideal Model.txt (blob dd0631bc0b25c951dc5e1d6738280e08487b46b2), and
    \[
-   -\frac{1}{4g_h^2}F_{\mu\nu}F^{\mu\nu}
+   +\frac{f_\theta}{2}\nabla_\mu\theta\nabla^\mu\theta-\Lambda_\theta^4(1-\cos\theta)
    \]
-   from 🧱BLOCKWAVE.txt (blob ffdb8...). The later assistant action introduces a two-form J^μν. That is not the same object as the three-form charge current. A medium/vortex-worldsheet interpretation is possible, but remains a proposal. The attachment dates and authorship were not authenticated in this pass.
+   from 🧱BLOCKWAVE.txt (blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d). The raw assistant action introduces a two-form J^μν. That is not the same object as the three-form charge current. A medium/vortex-worldsheet interpretation is possible, but remains a proposal. The attachment creation dates and authorship were not authenticated in this pass.
 
 ## 3. Typed object ledger
 
@@ -282,7 +281,7 @@ This is a rough numerical correspondence, not a precision validation. The SAT va
 | Element | Required contract |
 |---|---|
 | Hypothesis | One conserved core electromagnetic current 3-form, generated by the finite-core worldtube, yields both electric and magnetic form factors. |
-| Shared state | Q_fil=9, worldtube profile, orientation/framing, any retained 270-degree holonomy, and the native-to-induced metric map. The values and status of ε and ℓ_f remain distinct. |
+| Shared state | Q_fund=9, worldtube profile, orientation/framing, any retained 270-degree holonomy, and the native-to-induced metric map. The values and status of ε and ℓ_f remain distinct. |
 | Calibration | Fix the geometry/current from r_h=1.97007(94) fm, or preferably the full low-Q_tr² electric form factor. Do not set the envelope radius equal to r_h. |
 | Holdout | Predict μ_h/μ_N=-2.12762534985 from the same frozen current, with shielding-theory uncertainty treated separately. |
 | Comparator | Standard spin-1/2 Dirac-Pauli/Sachs current and published nuclear form-factor analyses. |
