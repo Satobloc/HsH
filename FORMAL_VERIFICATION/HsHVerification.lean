@@ -16,6 +16,15 @@ import HsHVerification.EnheduannaDeclaredCounts
 import HsHVerification.EnheduannaRubricReconciliation
 import HsHVerification.EnheduannaCDLIWitnessReadout
 import HsHVerification.EnheduannaCDLIEvidenceProjection
+import HsHVerification.EnheduannaCDLIThirdWitness
+import HsHVerification.EnheduannaTCS3Bibliography
+import HsHVerification.EnheduannaSourceFamilyCount
+import HsHVerification.EnheduannaETCSLWitnessInventory
+import HsHVerification.EnheduannaETCSLSourceDependence
+import HsHVerification.EnheduannaTemplePlacementMissingness
+import HsHVerification.EnheduannaPlacementCompletion
+import HsHVerification.EnheduannaBlack2002Witness
+import HsHVerification.EnheduannaBlack2002Inference
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
