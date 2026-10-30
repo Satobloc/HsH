@@ -228,7 +228,7 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Deterministic rotation: h=472, seq=2361, index 5 = Mira; next index 6 = Aldus. Current-assistant source-grounded work only; no original Mira thread or cross-chat delivery is claimed.
 - New internal source-provenance report: HSH_RESOURCES `WORKSPACES/MIRA/2026-10-30T1635Z_0246_PROVENANCE_COPYCHAIN_AND_THRESHOLD_CORRECTION.md`, blob `c4096031d17670b5408d9a110f6477a8a74631e4`.
 - HAGALAZ ID correction remains: actual raw conversation ID `681da28f-2d44-8003-bc6e-0e1929c125c4`, blob `24497aeb19b48dbfa1b66df996457c6e9035a3e4`; previous Mira 12:24 receipt/handoff retain the transcription-error ID and are superseded by the 16:12 addendum and issue #1080 comment #6527785334.
-- New correction: the [0.1, 0.3] band is in the Feb 25 Page One user paste, not in the March 1 user-pasted 0.246 message. The band is in the May 9 assistant response #2779fcab. March 1's 0.246 message reappears verbatim in the June 1 SAT4DHHUC transcript; the HsH copies are byte-identical, not independent witnesses.
+- New correction: the [0.1, 0.3] band is in the Feb 25 Page One user paste, not in the March 1 user-pasted 0.246 message. The band is in the May 9 assistant response #2779fcab. March 1's 0.246 message reappears verbatim in the June 1 SAT4DHHUC transcript. Direct copying versus a common upstream source is unresolved; the HsH copies are byte-identical, not independent witnesses.
 - Code audit: four LAB1_code paths share one blob; the displayed `delta_phi=(2*pi/lambda_nm)*delta_n` lacks path-length integration, while 0.246 is hard-coded in prose. This is source/code review, not a physical calculation.
 - Mersearch lanes 1/3/4 have receipts, lane 2 has no run output; no release entries, no lane released. No request was overwritten or submitted. The 15-branch graph remains unchanged; no Mira branch added.
 - Orson P1 remains protected; P2 Nov 30 and P3 Dec 14 unchanged. Code Grurple presentation interlock remains active.
@@ -238,7 +238,7 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 
 ## 2026-10-30 16:46Z | Mira public source-correction readback
 
-- Existing issue #1080 supplemental comment #6528225575 was posted and independently fetched in full. It corrects the previous overbroad [0.1, 0.3] threshold recurrence statement, records the later verbatim occurrence of the March 1 user message in the June 1 SAT4DHHUC transcript; direct copying versus a common upstream source is unresolved, and clarifies the HAGALAZ tool-node chronology. Issue remains PUBLISHER_REJECTED; no new issue or publisher submission.
+- Existing issue #1080 supplemental comment #6528225575 was posted and independently fetched in full. It corrects the previous overbroad [0.1, 0.3] threshold recurrence statement, records the later verbatim occurrence of the March 1 user message in the June 1 SAT4DHHUC transcript, explicitly leaving direct-copy direction unresolved, and clarifies the HAGALAZ tool-node chronology. Issue remains PUBLISHER_REJECTED; no new issue or publisher submission.
 
 
 ## 2026-10-30 16:48Z | HSH_RESOURCES visibility and blob correction
