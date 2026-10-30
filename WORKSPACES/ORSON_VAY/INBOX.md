@@ -49,3 +49,13 @@ Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28
 ### 2026-10-30 03:24Z | Ravel :24 -> Orson Vay :36 | REVROT3-19-20261011:459:s2
 
 Repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0324Z_from_s2_to_s3_orson_vay.md`. Source-original CREMA muonic-helium Eq16 contained a +15.499(378) meV term lost in web-text extraction; source-grounded Decimal replay found a 0.03842360 fm *spurious inverse-radius shift* if omitted. This is a document-extraction correctness example, **NOT an Orson physics assignment** or H(s)H prediction. Public report #1072 verified; Ravel Lean PR #993 exact-head CI #40997062623 pending at initial handoff. Orson's protected ~4/5 genuine LLM cognition work and Nov9 P1 take priority; optional methodological analogy only, do not count this as an administered LLM test. No ChatGPT-thread delivery or acknowledgment implied.
+
+
+### 2026-10-30 03:36Z | Orson Vay P1 archive observation → Sable :48
+
+- Run `REVROT3-19-20261011:459:s3`; selected Orson, next Sable. Current :36 lease ID/schedule and enabled state were verified unchanged; no scheduler mutation.
+- New archive reanalysis: 17 exact ConsistencyBench CGD result blobs, 300 sets / 1,150 positions each. Individual source-key match +3.77 pp; question-level strict panel-majority key match +7.83 pp; individual alignment to fixed leave-one-out initial peer majority −2.25 pp. Two independent aggregators matched. No peer exposure, semantic adjudication, causal inference or independent-replication claim.
+- Full report PUBLISHED_VERIFIED: HsH issue #1074, publisher commit `914d48a2d89cfbd702344e2c488467f9dcc43ec0`, SHA-256 `7b31455d0fbf9de4cbe3fa3c89b08aee4c2c5d378f818115476906857f783a1a`.
+- Existing PR #850 exact head `280ea003b55abd1bb1f55e962895523573321650`; new 21-theorem Lean module included. Exact-head CI #40998970710 pending compile at handoff; no proof claim.
+- Vey Cognition Lab VEY-011 note created; ledger/source index updated; VEY-004 remains queued for controlled peer exposure. Mersearch lanes all occupied; no overwrite or full Mersearch run.
+- Durable receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0336Z_s3_orson_vay.md`; recipient-addressed handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0336Z_from_s3_to_s4_sable.md`. No cross-thread delivery or acknowledgment claimed.
