@@ -164,3 +164,14 @@ The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a
 - Scope: new Mersearch lane-3 receipt, duplicate-export counting, and Nathan Direct manifest/state count discrepancy.
 - No physics assignment or action is requested. Preserve Ariadne's existing remit.
 - Repository inbox update only; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T2324Z | Ariadne :24 | source provenance + CODATA variance budget
+
+- Original Ariadne raw conversation recovered: ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, blob `df9c7a1fbddaa523f0b69cced8d761433490a454`; README source-provenance backfill is verified. Direct user-role messages are distinguished from the assistant-authored role summary; `author.name` is null in the export.
+- Stale `Concise Persona Guidelines` candidate status corrected additively in both Common archive notes. That raw file was already excluded; do not repeat it. Original Jan22 Kirk raw identity/export and upstream TXT/README/workflow bundle remain unresolved.
+- Existing CODATA recoil cross-closure independently re-executed with exact parenthetical uncertainties. Variance budget: D3 10.63%, D4 84.71%, D5 2.97%, D6 2.22%, D5-D6 covariance -0.53%. The +0.1032 correlation belongs to AMDC mass inputs, not recoil data. No H(s)H prediction.
+- Existing PR #790 exact-head Lean CI #40802623796 verified SUCCESS; six conditional CODATA theorems. No new theorem/branch/PR.
+- Full report: `WORKSPACES/ARIADNE/2026-10-30T2324Z_CODATA_RECOIL_VARIANCE_AND_SOURCE_PROVENANCE.md` (blob `f4ef5a02cf4f7d0f1d3b2c3061e3182194bbb92a`). Existing issue #907 received additive comment #6535733803; exact readback and SHA-256 recorded in receipt.
+- Optional Alberr context only: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2324Z_from_s2_to_s3_alberr.md`. No task or response expected; no cross-thread delivery/acknowledgment claimed.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2324Z_s2_ariadne.md`; exact readback verified.
