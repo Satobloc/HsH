@@ -207,3 +207,39 @@ The live task branch graph is blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`, l
 The most useful next step is not another broad search or another monolithic action. It is to recover the raw October 18 source behind ND-2026-10-18-04/-07, then build a source-faithful type contract for carrier, timesheet, diagrammatic projection, nesting/coarse-graining, and medium response. Only after those maps are specified should the field/current readout be derived and sent through the existing Lean gate.
 
 The project-level archive-reconstruction analogy and the physical nested-worldtube proposal are now clearly separated. Their structural rhyme is worth retaining, but it is not evidence for either one.
+
+
+## 11. 2026-10-30 18:50Z geometry-type genealogy addendum
+
+This section supersedes only the earlier status lines about no new Lean module and internal-only publication; the preceding chronology is preserved as historical record.
+
+### New primary source recovery
+
+The full 2024-03-22 HsH raw conversation DIMENSIONAL GRAVITY was recovered and parsed (blob 2cea1924266418e19b825b95ae51e6b7cbace7e1; conversation ID 2cea192a7d16b57a27c531ac7c860e42; 466 nodes). Direct user statements distinguish a one-dimensional line/helix from a two-dimensional moving plane: each instantaneous intersection is one point; the moving point traces a circle; pitch changes angular rate, not orbit radius. The user explicitly corrected the assistant's earlier spiral and maximum/minimum-radius interpretations.
+
+### Type genealogy
+
+- 2025 SAT4D: a one-dimensional parameterized curve gamma in R^(3,1), with a point-particle-style action. The same file calls the worldtube a four-dimensional volume swept out by the vibrating filament, but gives no thickening/family map.
+- 2025 Blockwave assistant material: a conserved J^{mu nu} two-form worldsheet current. Its own trace prescription intersects a 2D worldsheet with a 3D timesheet to produce a 1D loop.
+- 2026 Nathan Direct: a finite-core 4D worldtube/region whose 3D rendering is described as an intersectional trace. This is a distinct object type. The exact core construction and slice/readout maps remain open.
+- Global Klein Fabric: a supersession signal is present, but the adopted global definition and its map to the local finite-core object remain unrecovered.
+
+### Klein Fabric provenance
+
+The earliest located prompt is an embedded user question in the NotebookLM export SAT PRE-H(s)H TIGHTENING.txt (blob 054a76d76cd8a44b18fa4c545ece4e0e3f9f4e8e, line 4965; timestamp unresolved). The following Möbius/ER-bridge, chirality-flip, and Klein-cell tiling answer is assistant-generated speculation. The 2026-10-20 Cruller mapping-torus construction M_Q=(S^3 x [0,L])/((n,L)~(Qn,0)) is a mathematically clearer assistant sandbox, not adopted HsH cosmology. The 2026-10-21 user annotation confirms the old reciprocal model was superseded but does not define the replacement.
+
+### Current notation correction
+
+The 2026-10-21 raw Meridian Minkowski Ring Analysis message preserves literal cw=t and positive Euclidean native metric (++++) while treating induced Lorentzian metrics separately. Do not silently equate this with the earlier w=ct translation in WorldtubeInertiaCoordinate. That older theorem remains conditional on its declared coordinate substitution.
+
+### Formalization and publication
+
+- Added KestrelIntersectionDimensionGate.lean to existing PR #873 and imported it into the library. It states the finite-dimensional transverse intersection identity and conditional 1D/2D/4D cases. First attempt failed because finrank was unqualified; open Module was added. Current head d716f22209d981bb01527f40b717550e95693331; exact-head run #41111252893 is queued. No Lean verification claimed yet. The pre-existing KestrelKelvinVortexReadout errors remain untouched under the prior lane boundary.
+- New public-safe addendum is submitted as issue #1111, submission ID kestrel-geometry-type-genealogy-20261030t1850z-001, SHA-256 3f6b80493dd4c18b252b4e3f8988a384fa8b335b0ab50cbaa0bcc772cab1e12e. Publisher run #41111434274 is queued; independent readback remains required.
+- Full report: WORKSPACES/KESTREL/2026-10-30T1850Z_GEOMETRY_TYPE_GENEALOGY.md.
+
+### Source-recovery blockers and cursor
+
+The raw Oct18 source behind the BEDROCK build-first/nested-worldtube directives remains blocked: the located LIVE CONVOS chunk is zero bytes. BEDROCK remains the governing transcription, not recovered raw-message evidence. Next cursor is to recover those raw messages and the adopted Klein Fabric definition, then define explicit maps from global fabric to finite-core tube and slice/readout. No physical calculation or CODATA scoring in this pass.
+
+Deliberate unrelated read advanced through SAT Mark V/TheTANGLE.txt lines 1401-1440; return cursor 1441. FIE re-review remains not due (last full revisit 2026-10-27).
