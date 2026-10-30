@@ -1,28 +1,27 @@
 {
-  "request_id": "ariadne-kirk-riley-upstream-stack-20261030-1200",
-  "requester": "Workshop Relay :00 / Ariadne archive-source archaeology",
-  "requested_at": "2026-10-30T12:00:00Z",
+  "request_id": "orson-cognition-bank-source-recovery-20261030-2236",
+  "requester": "Workshop Relay :36 / Orson Vay LLM cognition source recovery",
+  "requested_at": "2026-10-30T22:36:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*Kirk* OR name:*Riley* OR name:*Reley* OR name:*Shatner* OR name:*Hyde* OR path:*Kirk* OR path:*Riley* OR path:*Reley* OR path:*Shatner* OR path:*Hyde*) OR (\"Bruce Hyde\" NEAR/12 Riley) OR (\"William Shatner\" NEAR/12 Kirk) OR (\"Human Relic Lens\") OR (\"Nathan from 1975\") OR (\"Shatner drift\") OR (\"Refusal of False Stakes\") OR (\"Acceptance of Moral Residue\") OR (\"Identity Anchoring\") OR (\"low tolerance for indecision\") OR (Kirk NEAR/8 mind) OR (Riley NEAR/8 mind)",
-  "purpose": "Locate the underlying TXT/README/workflow-diagram source bundle referenced by the January 21, 2026 podcast transcript and recover the original Kirk/Riley/Nathan human-simulation source strata. Search filename/path variants and distinctive content; distinguish original source files, raw conversations, derivative podcast transcripts, later assistant reconstructions, and unresolved ASR spellings. This is source discovery only; no persona reconstruction or theory promotion.",
+  "query": "(name:*OV* OR path:*ORSON* OR path:*VEY_COGNITION_LAB*) OR (author:user AND ((\"false authority\" NEAR/12 neutral) OR (\"false-authority\" NEAR/12 neutral) OR (\"matched cognition\" NEAR/12 \"answer key\") OR (\"test bank\" NEAR/12 cognition) OR (\"authority framing\" NEAR/12 LLM)))",
+  "purpose": "Mersearch-first source recovery for Orson's historically referenced neutral-versus-false-authority matched cognition test bank. Determine whether OV-49 through OV-53 were mispointed, whether another original test-bank artifact or raw Nathan/Orson conversation exists, and whether the intended bank can be recovered without confusing geometry artifacts, assistant-authored toy models, later summaries, or administered trials. Search all three permitted repositories; preserve exact source path, blob SHA, source commit, conversation/message IDs, role, timestamp and surrounding correction context where available. Discovery only; no new LLM trial, human adjudication, data-free calculation, theory promotion or publication.",
   "preferred_outputs": [
-    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json, SEARCH_RECEIPT.md",
-    "candidate original source paths, file names, exact blob SHAs and repository commit SHAs",
-    "source dates and role/message identifiers where available",
-    "duplicate, derivative and source-representation relationships",
-    "coverage, exclusions, size/extension limitations and known omissions"
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "original candidate paths, exact blob SHAs and source commit SHAs",
+    "raw conversation/message UUID, role and timestamp where available",
+    "duplicate/derivative relationships and explicit negative search limits",
+    "coverage, exclusions, extension/size limitations and omissions"
   ],
   "exclusions": [
-    "Do not overwrite any other lane",
-    "Do not canonize ASR-rendered filenames from the podcast transcript",
-    "Do not treat the January 21 podcast as the original source bundle",
-    "Do not treat the January 22 assistant-attributed title/operator artifact as Nathan Direct",
-    "Do not treat user-role pasted material as proof of sole Nathan authorship",
-    "Do not publish raw source excerpts or restricted HSH_RESOURCES paths",
+    "Do not overwrite another pending/running lane",
+    "Do not treat OV-49 through OV-53 geometry artifacts as cognition trials",
+    "Do not treat OV-55/56 or OV-100 analytic/synthetic artifacts as administered LLM experiments",
+    "Do not publish raw source excerpts or private HSH_RESOURCES content",
+    "Do not infer authorship from user-role pasted material",
     "Do not enter QUARANTINE or PRIOR_ART"
   ],
   "lane": 1,
