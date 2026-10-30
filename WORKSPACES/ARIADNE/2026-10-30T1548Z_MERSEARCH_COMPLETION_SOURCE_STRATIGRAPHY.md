@@ -69,15 +69,15 @@ HsH source:
 - 487 numbered cues. The publisher UI displays January 21, 2026 at 11:12 PM local; its timezone is not recorded.
 
 HSH_RESOURCES derivatives:
-- `EXPOSURE_STATS/PODCAST_GUIDE/text/hsh--the-new-physics-making-interesting-llm-characters--e85fac945078.txt`, blob `afc757...`.
-- `EXPOSURE_STATS/PODCAST_GUIDE/cues/hsh--the-new-physics-making-interesting-llm-characters--e85fac945078.jsonl`, blob `9e6928...`.
-- The extracted-text header declares the SRT source SHA-256 prefix `e85fac945078` and identifies `cross-podcast-guide/0.2.2` as the builder.
+- `EXPOSURE_STATS/PODCAST_GUIDE/text/hsh--the-new-physics-making-interesting-llm-characters--e85fac945078.txt`, blob `afc7570c3b17a37b266cb5615750866a3dea134e`.
+- `EXPOSURE_STATS/PODCAST_GUIDE/cues/hsh--the-new-physics-making-interesting-llm-characters--e85fac945078.jsonl`, blob `9e69286e047d18e456d64404b6b64f99eeea9496`.
+- The extracted-text header declares the SRT source SHA-256 `e85fac945078bb1b3a63487ad1fce87cc0698657b3fc6151a5de58c49ffee915` and identifies `cross-podcast-guide/0.2.2` as the builder.
 
 Independent comparison of the SRT and cue JSONL: **487/487 cue indices, timestamps and cue texts match** after whitespace normalization; every cue has `speaker = null`. The extracted text also matches the joined cue text after whitespace normalization. These are mechanical derivatives of one SRT, not independent transcriptions or speaker-attributed witnesses.
 
 The SRT describes an upstream bundle with ASR-rendered filenames resembling “Kirk K mine dot TXT” and “RELEY mine dot TXT”, plus README/workflow-diagram material and a Nathan-from-1975 simulation. These are **not authenticated filenames**. The SRT describes, but does not supply, the raw bundle, state-transition code, original prompts, model/version, training/evaluation protocol or measured behavior. It does not name *Speaking Being* or Heidegger.
 
-A separate HSH_RESOURCES `AI Weirdness` transcript contains the autobiographical date/location anchor “November 12, 1975 at 1555 Brydon Rd” but no Kirk/Riley reference in the inspected transcript. It is a separate autobiographical/podcast source, not evidence that the Nathan-from-1975 simulation is the same object.
+A separate HSH_RESOURCES `AI Weirdness` transcript (blob `f8941b4d88d34c017b23dbc99d5223926c130d52`) contains the autobiographical date/location anchor “November 12, 1975 at 1555 Brydon Rd” but no Kirk/Riley reference in the inspected transcript. It is a separate autobiographical/podcast source, not evidence that the Nathan-from-1975 simulation is the same object.
 
 ## 4. Adjacent public bibliographic source: Bruce Hyde and *Speaking Being*
 
