@@ -17,7 +17,7 @@ Orson retains full P1 cognition ownership. This is context only, not a reassignm
 
 ### New internal evidence note
 
-- Vey Lab note: `STUDIES/VEY-015_P1_KEY_SEMANTICS_AND_FINITE_PATTERN_IDENTIFIABILITY_2026-10-30.md`, blob `01f9a213de14b8defab570105471a219281f1b1b`.
+- Vey Lab note: `STUDIES/VEY-015_P1_KEY_SEMANTICS_AND_FINITE_PATTERN_IDENTIFIABILITY_2026-10-30.md`, blob `c305bca9296d85b2ca56a448d98cd5b95ea49526`.
 - Static source-key packet: `STUDIES/VEY-015_P1_NEGATIVE_INFERENCE_KEY_ROWS_2026-10-30.csv`, blob `a6d93b39a47fa86d2720036e571bfed79586790e`, 578 full-bank rows / 350 sample rows.
 
 The original ConsistencyBench bank has four negative-inference key strings with counts 68 / 255 / 85 / 170; the P1 analysis scorer maps only "No, not with certainty" to `no` and the other three phrases to `cannot_determine`. This is a lexical sensitivity, not an adjudicated correction.
