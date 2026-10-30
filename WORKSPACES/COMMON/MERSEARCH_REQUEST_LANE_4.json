@@ -1,20 +1,28 @@
 {
   "lane": 4,
-  "status": "requested",
-  "request_id": "archive-harvest-20261025-superconductors-01",
-  "requester": "Archive subject inventory / Nathan Direct",
-  "requested_at": "2026-10-25",
+  "request_id": "alberr-sat-o-worldline-timesheet-interbraid-20261030-1212",
+  "requester": "Workshop Relay :12 / Alberr bounded source-recovery curiosity; current assistant reconstruction, not authenticated historical Alberr",
+  "requested_at": "2026-10-30T12:12:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "superconductivity OR superconducting OR superconductor OR \"Cooper pair\" OR Meissner OR Josephson OR \"flux quantization\" OR \"critical temperature\" OR \"critical current\" OR Abrikosov OR \"vortex lattice\" OR superfluid OR \"Bose-Einstein condensate\" OR condensate OR \"quantum Hall\" OR \"London equation\" OR \"Ginzburg-Landau\" OR \"type II superconductor\" OR BCS",
-  "purpose": "Discovery-only inventory of historical SAT/H(s)H superconductors, BEC, superconductivity analogies, vortex phases and condensed-matter experiments across two archives.",
+  "query": "(author:user AND ((\"worldline\" NEAR/12 \"filament\") OR (\"time\" NEAR/8 \"sail\") OR (\"timesheet\" NEAR/12 \"intersection\") OR (\"worldtube\" NEAR/12 \"filament\") OR (\"wavesheet\" OR \"time wavefront\") OR (\"interbraid\" OR \"back-tug\" OR \"back tug\") OR (\"theta_4\" OR \"θ₄\") OR (\"maximum bending energy\"))) OR (author:assistant AND ((\"Blockwave\" NEAR/12 \"action\") OR (\"worldsheet current\") OR (\"filament current\") OR (\"finite-core\" NEAR/12 \"worldtube\") OR (\"J^{mu nu}\" OR \"J^{\\mu\\nu}\")))",
+  "purpose": "Source discovery across all three permitted repositories for interrelated original SAT-O/Blockwave geometry and mathematical constructions. Recover user-authored direct geometry separately from assistant-authored equations; identify exact repository/path/blob SHA, message speaker/ID/timestamp, adjacent corrections, later supersession, duplicate/derivative relationships, and coverage limits. This is discovery and archival self-study only, not a physical calculation, theory promotion, or claim of historical Alberr participation.",
   "preferred_outputs": [
-    "all file paths and conversation/message locators",
-    "matched contexts sufficient to classify documents",
-    "original dates and source SHA256",
-    "cross-repository duplication candidates"
+    "request-scoped RUN_MANIFEST.json",
+    "request-scoped SEARCH_RECEIPT.json",
+    "request-scoped SEARCH_RECEIPT.md",
+    "source paths, blob SHAs, source-role and locator leads when exposed by the compact receipt"
+  ],
+  "exclusions": [
+    "Do not overwrite any other lane",
+    "Do not publish raw source excerpts or private HSH_RESOURCES paths",
+    "Do not enter QUARANTINE or PRIOR_ART",
+    "Do not treat lexical matches as authorship proof or semantic equation equivalence",
+    "Do not treat assistant-authored equations as Nathan Direct",
+    "Do not infer physical validity or promote theory",
+    "No new calculation or synthetic fixture"
   ]
 }
