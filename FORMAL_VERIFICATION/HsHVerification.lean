@@ -47,6 +47,7 @@ import HsHVerification.ArchiveEQ0052
 import HsHVerification.ArchiveEQ0053
 import HsHVerification.ArchiveEQ0054
 import HsHVerification.SourceSpanAttributionGate
+-- Morrow source-stage / two-bridge evidence gate; compilation is checked on this exact branch head.
 import HsHVerification.MorrowFormFactorEvidenceGate
 import Mathlib
 
