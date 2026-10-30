@@ -254,3 +254,75 @@ theorem exact_morrow_followup_prompt_to_answer_gap_us :
 #print axioms exact_morrow_followup_prompt_to_answer_gap_us
 
 end HsHVerification.MorrowCitationDateAudit
+
+
+/-!
+## Independent cross-container pub_date controls (2026-10-30)
+
+The same M-container export contains conversation-context citations to three
+other source containers. Eight citation records are verifiable against the
+three retrieved raw exports: four A-container records, three Janus records,
+and one Build Geometry record. All eight pub_date values exactly equal the
+target export's top-level conversation create_time. A ninth citation points
+to "Continue Conversation Here", but its source export was not recovered, so
+it remains unverified and is not counted as a match.
+
+Additional source blobs:
+- Janus development raw export:
+  8086aa3e467c4e055bad1f236b894b5e4ee261b2
+- Build Geometry Coding Skill raw export:
+  7426016a72905bb37a45abac4394e4e7bb051144
+- M-container source export:
+  362075c5e32ec9e97579bd1de58fba7f612cb6bb
+
+Janus citation:
+- pub_date = 1788820814.002277, equal to Janus top-level create_time.
+- Snippet "Let's talk about Aldus and Morrow" matches user message
+  a044a94b-e4fe-4d27-874f-a503022cfa4d at 1788863311.349000.
+
+Build Geometry citation:
+- pub_date = 1788913188.389306, equal to Build Geometry top-level create_time.
+- Snippet beginning "OK… well.. to decide how this actually ought to work"
+  matches user message 2165e13d-e517-46b6-896f-033daf422720
+  at 1788917802.099174.
+
+The theorem statements prove only the transcribed integer-microsecond
+equalities and differences. They do not establish a universal platform
+serialization rule, source-message retrieval causality, or worker identity.
+-/
+namespace HsHVerification.MorrowCitationContainerControls
+
+def janusConversationCreatedUs : Nat := 1788820814002277
+def janusCitationPubDateUs : Nat := 1788820814002277
+def janusSnippetMessageCreatedUs : Nat := 1788863311349000
+
+theorem janus_citation_pub_date_equals_target_conversation_create_time :
+    janusCitationPubDateUs = janusConversationCreatedUs := by decide
+
+theorem janus_citation_pub_date_precedes_snippet_message :
+    janusCitationPubDateUs < janusSnippetMessageCreatedUs := by decide
+
+theorem janus_exact_container_to_snippet_gap_us :
+    janusSnippetMessageCreatedUs - janusCitationPubDateUs = 42497346723 := by decide
+
+def geometryConversationCreatedUs : Nat := 1788913188389306
+def geometryCitationPubDateUs : Nat := 1788913188389306
+def geometrySnippetMessageCreatedUs : Nat := 1788917802099174
+
+theorem geometry_citation_pub_date_equals_target_conversation_create_time :
+    geometryCitationPubDateUs = geometryConversationCreatedUs := by decide
+
+theorem geometry_citation_pub_date_precedes_snippet_message :
+    geometryCitationPubDateUs < geometrySnippetMessageCreatedUs := by decide
+
+theorem geometry_exact_container_to_snippet_gap_us :
+    geometrySnippetMessageCreatedUs - geometryCitationPubDateUs = 4613709868 := by decide
+
+#print axioms janus_citation_pub_date_equals_target_conversation_create_time
+#print axioms janus_citation_pub_date_precedes_snippet_message
+#print axioms janus_exact_container_to_snippet_gap_us
+#print axioms geometry_citation_pub_date_equals_target_conversation_create_time
+#print axioms geometry_citation_pub_date_precedes_snippet_message
+#print axioms geometry_exact_container_to_snippet_gap_us
+
+end HsHVerification.MorrowCitationContainerControls
