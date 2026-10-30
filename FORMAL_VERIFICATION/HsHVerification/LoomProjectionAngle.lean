@@ -15,7 +15,6 @@ structure Vec4 where
   y : ℝ
   z : ℝ
   w : ℝ
-deriving DecidableEq, Repr
 
 def zeroVec : Vec4 := ⟨0, 0, 0, 0⟩
 
@@ -27,7 +26,7 @@ def spatialProjection (v : Vec4) : Vec4 :=
 def normSq4 (v : Vec4) : ℝ :=
   v.x ^ 2 + v.y ^ 2 + v.z ^ 2 + v.w ^ 2
 
-def tiltedFromFourthAxis (δ : ℝ) : Vec4 :=
+noncomputable def tiltedFromFourthAxis (δ : ℝ) : Vec4 :=
   ⟨Real.sin δ, 0, 0, Real.cos δ⟩
 
 /-- The exact fourth coordinate axis has zero projection onto w = 0. -/
@@ -38,20 +37,18 @@ theorem fourth_axis_projects_to_zero :
 /-- The squared norm of the spatial projection discards only the w component. -/
 theorem spatial_projection_pythagorean_decomposition (v : Vec4) :
     normSq4 v = normSq4 (spatialProjection v) + v.w ^ 2 := by
-  simp [normSq4, spatialProjection]
-  ring
+  simp [normSq4, spatialProjection] <;> ring
 
 /-- The canonical vector tilted by δ away from the fourth axis is unit. -/
 theorem tilted_vector_is_unit (δ : ℝ) :
     normSq4 (tiltedFromFourthAxis δ) = 1 := by
-  simp [normSq4, tiltedFromFourthAxis]
-  nlinarith [Real.sin_sq_add_cos_sq δ]
+  simpa [normSq4, tiltedFromFourthAxis] using Real.sin_sq_add_cos_sq δ
 
 /-- Its squared spatial projection is sin² δ, not sin² of its angle to the subspace. -/
 theorem tilted_spatial_projection_squared (δ : ℝ) :
     normSq4 (spatialProjection (tiltedFromFourthAxis δ)) =
       Real.sin δ ^ 2 := by
-  rfl
+  simp [normSq4, spatialProjection, tiltedFromFourthAxis]
 
 /-- The squared spatial and normal components partition the unit norm. -/
 theorem tilted_component_partition (δ : ℝ) :
@@ -67,11 +64,11 @@ theorem tilted_component_partition (δ : ℝ) :
     _ = 1 := tilted_vector_is_unit δ
 
 /-- Coherent accumulation adds the angle before applying cos². -/
-def coherentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
+noncomputable def coherentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
   Real.cos ((n : ℝ) * δ) ^ 2
 
 /-- Independent per-step survival multiplies the one-step cos² factors. -/
-def independentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
+noncomputable def independentAccumulation (n : ℕ) (δ : ℝ) : ℝ :=
   Real.cos δ ^ (2 * n)
 
 /--
