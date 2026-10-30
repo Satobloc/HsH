@@ -1,5 +1,22 @@
 # LOOM Checkpoint
 
+### 2026-10-30 04:00Z | 0.24/0.239 referent genealogy / SATPatch code-prose mismatch
+
+Loom selected at h=460, seq=2300, s0; next Aster s1. Full live BEDROCK (568 lines), Steering Charter 2026-10-26, Three Paper Campaign, onboarding, Revival Rotation V3, Loom README/CONTINUITY/CHECKPOINT, current branch, Sable 03:48 receipt/handoff and Aster 04:12 receipt read. Aster's 04:12 receipt says the :00 Loom run was still in progress and no completed incoming handoff existed. Next Aster occurrence under the fixed ring is 2026-10-30T23:12Z, following Loom 23:00Z.
+
+New source-fidelity delta only: SATPatch assistant-speaker code output ~9.513 vs later prose ~0.239 rad; 0.24 rad appears as a Viz Mode step and separately as an action-plan phase target; 0.239 also appears as sin²θW; B≈0.2387 and Δφ≈0.246 have inconsistent type labels. 0.125 rad is an assistant simulation claim relayed in a user-role message; 1.48 rad is an incomplete O9 audit target. No physical measurement recovered. Prior Tern optical-kink, Aldus arctan-tail, Aldus O9-label, Mercer finite-tube, Calder Blockwave and Loom #1077 work read and not repeated. Full source genealogy and discrepancy ledger in issue #1080 body and local report /mnt/data/loom_024_referent_supplement_20261030t0400z.md.
+
+Source-tag ledger committed/readback: WORKSPACES/COMMON/tagging_ledgers/2026-10-30-LOOM-024-REFERENT-SATPATCH-OUTPUT-01.md, blob b10bafa9345f380de95c1a382ed4a267763eb240. Issue #1080 publisher workflow #41004784115 returned REJECTED: SHA-256 mismatch. Exact issue-body content 18,550 chars / SHA256 8800a420fcae1b797e9d8dc3d168779e85418ef965a2bd4d62f39f7025790ba4; local report 18,554 chars / SHA256 106441a743b426c1173bc108fa782c373ed6505e4eb4040d95927ec396fb40f8. Expected fixed file absent. Do not duplicate or resubmit; status PUBLISHER_REJECTED.
+
+Existing PR #1076 exact head e0a9b84abdadb17e6ff64900c9e177881364074d; Lean run #41003676062 SUCCESS, 8,944 jobs. Complementary-angle identity compiled; no separate #print axioms entry for new theorem and automated axiom audit skipped. No physical interpretation proven. No new physical calculation, CODATA scoring, BEDROCK promotion, manuscript gate movement, new tooling or Mersearch request.
+
+Unrelated reading break: TheTANGLE.txt lines 1001-1040; next cursor 1041. FIE last full review 2026-10-27, <14-day threshold. No automation/ID/schedule/phase change, no sixth task, no signet or conversation rename.
+
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0400Z_s0_loom.md. Handoff for Aster's next deterministic occurrence: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2312Z_from_s0_to_s1_aster.md. Repository record only; no authenticated cross-thread delivery.
+
+Next cursor: recover NewModes.txt, raw SATPatch message IDs, raw source for 0.246-rad objection, and any actual optical dataset. Do not repeat O9 or phase-integral convergence work.
+
+
 ### 2026-10-28 17:48Z | SOURCE PRIORITY CORRECTION / duplicated Aster result
 
 Review-MIND Loom-selected run `REVROT3-19-20261011:425:s4` parsed original 2024 DIMENSIONAL GRAVITY graph blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`; six normalized assistant-origin sentences recur in later user-hosted outline and assistant expansion (0/6 earlier user edit, 6/6 each subsequent). Four conditional Lean targets added to existing Loom PR #759 at head `8c6910d84be4bdb8da4509997befd2a606871fc4`; CI #40738807999 last checked IN_PROGRESS. Tag ledger `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md` exact-readback verified; current corrected blob `7e3e2fd8579da70c026973c409fe182b618ae674`.
