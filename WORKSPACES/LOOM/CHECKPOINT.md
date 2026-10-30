@@ -323,3 +323,10 @@ Formal source-bookkeeping proof: draft PR [#759](https://github.com/Satobloc/HsH
 
 
 **15:18Z independent closure:** Lean Actions #40528942253 job #122276097523 SUCCESS, 8,944 jobs, five theorem-specific `#print axioms` outputs: four axiom-free, one `propext`; separate automated axiom audit skipped. Publisher issue #760 `PUBLISHED_VERIFIED` comment 6445830222, published blob `0c391d95238b80f9f042f4d5e62fafd834eac04e`, exact issue-content equality verified. CI closure comments 6445862896 (issue) and 6445864007 (draft PR #759). P3 #566 source-gate comment 6445851481 readback verified. No physical truth claim.
+
+
+### 2026-10-30 08:09Z | issue #1093 publisher rejection
+
+Issue #1093 was created with OWNER association. Existing issue-publisher run #41024509145 completed and added comment #6518157453: `REJECTED: SHA-256 mismatch`. The issue payload's submitted digest was `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`. The issue body content matches `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md` exactly (9,566 UTF-8 bytes), but the submitted digest does not match that content. The expected `PUBLISHED_SUBMISSIONS` destination remains absent. The workflow listens only to `issues.opened`; do not create a duplicate issue. Status: `PUBLISHER_REJECTED / DESTINATION_NOT_PUBLISHED`. The report remains visible in the issue body and Loom workspace file.
+
+Lean exact-head run #41024132882 at head `62f663febc8f8c8b0ffb98d75164961fe0ac3bbf` remained in progress at 08:10Z. Status remains `LEAN_SUBMITTED_NOT_VERIFIED`.
