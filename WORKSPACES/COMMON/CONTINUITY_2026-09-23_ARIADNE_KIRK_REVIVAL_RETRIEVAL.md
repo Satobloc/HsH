@@ -250,3 +250,17 @@ This changes the earlier 2026-10-30 status only as follows:
 The January 21 SRT remains a derivative published witness, with 487 timed cues and no speaker labels in its derived cue representation. Its own references to upstream TXT/README/workflow materials are not proof that those files have been recovered. The January 22 user request is later than the podcast publication and cannot be the source of that earlier episode.
 
 **Status transition:** `17:55:59 USER EVENT = PRIOR_CONTEXT_ROLE_CORROBORATED`; `RAW_MESSAGE_ID / CONVERSATION_ID / RAW_EXPORT = PENDING`; `ASSISTANT_TITLE_OPERATOR_AUTHORSHIP = RETAINED`; `ASSISTANT_OUTPUT_TIMESTAMP = CONFLICTED`.
+
+
+## Additive correction — 2026-10-30T2324Z: Concise Persona Guidelines candidate already excluded
+
+The older “Newer conversation-tranche hunt” paragraph below still calls `SAT_CONVOS_16/Concise Persona Guidelines — raw.json` a candidate awaiting content inspection. That status is superseded.
+
+- Exact path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json`.
+- Git blob: `9a1b5cdb455cd2c6ed8ef932aedcb6ed5eb3250f`.
+- The 2026-10-12T0700Z chronology audit parsed 32 timestamped message nodes: zero January 22 messages and no Kirk, Riley, Spock, Shatner, Hyde, or Kirk-v1.0 title.
+- The 2026-10-28T2200Z Ariadne pass re-read the full raw JSON (136,989 characters; 33 graph nodes) and again found no Kirk/Riley/Shatner/Hyde/Nathan-from-1975 or episode/file-name fingerprints.
+
+**Disposition: EXCLUDED AS THE JANUARY 22 KIRK SOURCE.** The 32-message versus 33-graph-node counts are different counting conventions for the same blob, not evidence of a second export. This is a negative result for this one candidate only, not a global archive-absence proof.
+
+The remaining cursor is the upstream TXT/README/workflow-diagram bundle described by the January 21 derivative SRT and the unresolved raw January 22 Kirk conversation identity/export. The completed Mersearch request's raw result files remain withheld; do not bypass that boundary or repeat this candidate. No new request was submitted and no lane was overwritten.
