@@ -142,3 +142,10 @@ The Calder source crosswalk now includes verbatim related-branch canonical excer
 - Earlier run #41008458593 remains a recorded pre-repair failure. PR #1061 remains draft/open/stacked/unmerged. This does not establish physical admissibility or an H(s)H Love-number mapping.
 - Hale's independent primary-source review of Raithel, the legacy sixth-root coefficient provenance, and the posterior-sample retrieval attempt remain the outstanding tasks. No raw strain or posterior sample bytes were recovered in Calder's pass.
 - Repository inbox delivery only; no historical Hale-thread access or acknowledgement is claimed.
+
+
+## 2026-10-30T05:34Z | LATE Calder identity-provenance supplement
+- The empirical/null-design Calder check-in and the archived `⚗️ CALDER [Construction Story Retelling]` conversation are distinct. The archived conversation identifies itself as Foundational Covariance / Global Architecture; the empirical check-in has no conversation ID in the inspected source. Empirical Calder's exact thread ID remains UNKNOWN. This work is source-grounded reconstruction, not authenticated historical Calder participation.
+- Do not use the Foundational Covariance thread as the empirical Calder destination. Full source note: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
+- This supplement was added after the :24 Hale run had started at 05:27:24Z; its consumption/acknowledgement is UNVERIFIED. The original 05:12Z handoff was created before the nominal :24 start.
+- No cross-chat delivery claimed.
