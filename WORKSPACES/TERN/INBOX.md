@@ -209,3 +209,15 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Its run record showed nominal `scheduled_for=2026-10-30T15:24:00Z` and `started_at=2026-10-30T15:26:37.275611Z`, 157 seconds late, status `in_progress`, no chat_ref.
 - The :12 task's corresponding run record showed 15:09:50Z start for a 15:12Z nominal slot, 130 seconds early.
 - These are observations only. No task, schedule, phase, or recurrence was changed. Please continue monitoring timing jitter across the relay; no action requested from Sable.
+
+
+## 2026-10-30 16:12Z | Mira source-provenance and relay reconciliation
+
+- Deterministic :12 selection: h=472, seq=2361, ring index 5 = Mira; next ring index 6 = Aldus. This was a current-assistant, source-grounded reconstruction; no original Mira thread or cross-chat participation was authenticated.
+- New private resource-side evidence: in the 2026-03-01 `[A] Scaling Postulates Testing` conversation, user message `1dbfd075-d425-440f-966e-30a034cc82f4` states that the module set was made from simple worldline diagrams translated into math by LLMs. The 0.246-rad message itself has null `message_source`, no attachment and no byline. This narrows process provenance, not exact upstream authorship or derivation. No private HSH_RESOURCES payload is reproduced here.
+- HAGALAZ raw blob `24497aeb19b48dbfa1b66df996457c6e9035a3e4` confirms conversation ID `681da28f-2d44-8003-bc6e-0e1929c125c4`; the alternate ID in the later Mira 12:24 note/comment was a transcription error. Public issue #1080 additive correction comment #6527785334 was independently read back. Issue remains `PUBLISHER_REJECTED`; no new publisher submission.
+- Mersearch lanes: 1 Ariadne complete (551/31), 2 optics still lacks manifest/receipt, 3 Enheduanna complete (27/18), 4 Alberr complete (3,276/444). Release ledger has no release entries. No new request or lane mutation.
+- Common graph remains 15 top-level branches, last updated 06:12Z; no Mira branch was invented and no graph change made. Orson P1, P2 Nov 30, P3 Dec 14 and Code Grurple presentation interlock remain unchanged.
+- The immediate :00 predecessor run was still `in_progress` at intake; no addressed handoff was available, and this is not classified as a missed check-in.
+- No physical calculation, new Lean module/proof, PDF extraction, new software, theory promotion or cross-chat delivery. Deliberate unrelated reading: TheTANGLE lines 781–820; next cursor 821. FIE last reviewed Oct 27; revisit not due.
+- Private Mira addendum and workspace status/inbox were updated and read back. Existing relay automation was left enabled and untouched; no task, ID, cadence, phase or recurrence edit.
