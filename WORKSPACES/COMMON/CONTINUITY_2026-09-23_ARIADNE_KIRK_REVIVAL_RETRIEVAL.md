@@ -221,3 +221,17 @@ Do not lose the broader revival work while chasing Kirk:
 Nathan: “Doh. Whelp, max convo lenth reached. Time to make sure everything's saved. I'll put htis convo in folder 21.”
 
 When the uploaded conversation appears in Folder 21, treat it as an additional first-party continuity/source artifact and crosswalk it against this handoff rather than reconstructing the work from scratch.
+
+
+## Source-attribution correction — 2026-10-30
+
+The earlier statement that Nathan explicitly requested the title **“KIRK — ACCUMULATIVE THEORY OF MIND (v1.0)”** at about 17:55Z on 2026-01-22 is not supported by the recovered index evidence and is superseded.
+
+The authenticated index-level events currently available are:
+- **17:54:03Z, user role:** selects episode order 15 → 17 → 22 and indicates Season 2 should follow.
+- **17:57:40Z, assistant role:** emits the title “KIRK — ACCUMULATIVE THEORY OF MIND (v1.0)” and the associated tendencies/operators.
+- **17:55:59Z:** a legacy flattened-index time with no recovered raw message UUID/body; it remains unauthenticated.
+
+Accordingly, the title and operator list are **assistant-attributed reconstruction**, not Nathan Direct. The direct user event establishes the episode-order choice only. The raw January 22 conversation identity and message bodies remain unrecovered. The January 21 podcast predates the January 22 event, so it cannot be derived from that later assistant output; it may reflect an earlier upstream bundle, which is still missing.
+
+The older retrieval note's “correct Kirk hit rejected as false positive” example is also corrected: the inspected large raw candidate contained unrelated embedded bibliography/personal-name token matches, not Captain Kirk/Lieutenant Riley source material. The general requirement to inspect plausible hits remains, but that candidate is not evidence for the human-simulation stack.
