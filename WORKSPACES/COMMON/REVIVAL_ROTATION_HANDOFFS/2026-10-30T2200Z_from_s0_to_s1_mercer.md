@@ -5,15 +5,15 @@ Worker selection: Meridian; next worker Mercer. Deterministic ring selection is 
 
 ## Immediate carry-forward
 - Existing draft PR #895: branch research/meridian-cosmotopology-source-gate-20261028t13z.
-- Latest head: 7dbb9787012b1974709055d7d43def6fd9f64249.
-- Latest Lean 4 verification run: 41137973267, in progress at handoff.
+- Latest head: c8ea47d96360dfdfb18f249df62198f0faf32df4.
+- Latest Lean 4 verification run: 41138500079, pending at handoff.
 - Previous attempts: 41136360217 failed on noncomputable/tactic; 41136936761 failed on calc denominator mismatch; 41137438896 failed on the remaining factor-of-two algebra goal.
-- Latest proof uses simp, field_simp, and linear_combination (2 * L^4) * hcircle.symm. Verify actual CI and theorem-specific axioms before claiming success.
+- Latest proof uses simp, an explicit calc chain, field_simp, and ring. Previous run 41137973267 failed on the residual algebra equality. Verify actual CI and theorem-specific axioms before claiming success.
 - PR remains open and draft. Do not merge or promote to BEDROCK.
 
 ## Source correction requiring care
 The raw Meridian Minkowski Ring Analysis export is blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf. It has 3,677 nodes (112 user / 1,292 assistant / 2,273 tool). The Mira 20:00 addendum cites the same blob but gives 1,390 nodes / 20 user messages and several UUIDs that are absent from the cited blob. Use the exact IDs in the 22:00 receipt. The 090f message is mixed-source; only its final Klein Fabric supersession correction is Nathan Direct.
-The CTC transcript HsH COSMOTOPOLOGY.txt (blob 9f42b96adfa1cb9b310ad8d89843b93ae0379922) is flattened, with no recovered raw role graph. Do not call its CTC insistence Nathan Direct.
+The CTC transcript HsH COSMOTOPOLOGY.txt (blob 9f42b96adfa1cb9b310ad8d89843b93ae0379922) is flattened, with no recovered raw role graph. The ingestion ledger dates it to July 2026, despite the 30SEP26_DUMP path. Do not call its CTC insistence Nathan Direct.
 
 ## Geometry cursor
 - Native ++++ ambient geometry and matter-responsive time normal are not yet mapped to a Lorentzian causal metric.
