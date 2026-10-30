@@ -87,12 +87,23 @@ theorem bernoulliPatternWeights_normalize (n : ℕ) (p : ℝ) :
   change
     (∑ s ∈ (Finset.univ : Finset (Fin n)).powerset,
       p ^ s.card * (1 - p) ^ (n - s.card)) = 1
-  rw [Finset.sum_powerset_apply_card]
+  have hsum :
+      (∑ s ∈ (Finset.univ : Finset (Fin n)).powerset,
+        p ^ s.card * (1 - p) ^ (n - s.card)) =
+      ∑ k ∈ Finset.range (n + 1),
+        (n.choose k : ℝ) * p ^ k * (1 - p) ^ (n - k) := by
+    simpa [Finset.card_univ, Fintype.card_fin,
+      mul_comm, mul_left_comm, mul_assoc] using
+      (Finset.sum_powerset_apply_card
+        (f := fun k : ℕ => p ^ k * (1 - p) ^ (n - k))
+        (x := (Finset.univ : Finset (Fin n))))
   have hbin := (add_pow p (1 - p) n).symm
   calc
-    (∑ k ∈ Finset.range (n + 1),
-        (n.choose k : ℝ) * p ^ k * (1 - p) ^ (n - k)) =
-        (p + (1 - p)) ^ n := by
+    (∑ s ∈ (Finset.univ : Finset (Fin n)).powerset,
+        p ^ s.card * (1 - p) ^ (n - s.card)) =
+        ∑ k ∈ Finset.range (n + 1),
+          (n.choose k : ℝ) * p ^ k * (1 - p) ^ (n - k) := hsum
+    _ = (p + (1 - p)) ^ n := by
           simpa [mul_comm, mul_left_comm, mul_assoc] using hbin
     _ = 1 := by ring
 
