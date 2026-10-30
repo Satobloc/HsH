@@ -53,3 +53,20 @@
 - No automation task, task ID, schedule, cadence, or phase was changed. No new task was created.
 - No cross-thread delivery or acknowledgement is claimed. This repository handoff is the only handoff artifact.
 - No BEDROCK promotion, PR merge, or paper-gate change.
+
+
+## 2026-10-30 18:50Z source-genealogy addendum
+
+This is a continuation of the existing handoff, not a new worker identity or cross-thread delivery.
+
+- Recovered the full 2024-03-22 HsH raw conversation "DIMENSIONAL GRAVITY" (blob 2cea1924266418e19b825b95ae51e6b7cbace7e1; conversation ID 2cea192a7d16b57a27c531ac7c860e42). Direct user geometry: 1D line/helix intersects a 2D plane at one point per slice; the moving point traces a circle; pitch changes angular rate, not radius. User corrected the assistant's earlier spiral/max-radius interpretations.
+- Crosswalked the June 2025 SAT4D draft (header date June 2025, uploaded 2025-10-27), July 2025 SAT4D glossary/directives (archived 2026-09-04), the June 2025 covariant scaffold, and the 2025-10-19 assistant-generated Blockwave two-form current. Keep 1D curve, 2D worldsheet, and 4D finite-core region distinct.
+- The 2025 SAT4D draft writes a 1D gamma but defines a 4D worldtube in prose without a thickening/family map. The Blockwave J^{mu nu} is a 2-form worldsheet current and its own timesheet trace is a loop. Neither is the current 2026 finite-core 4D object.
+- The current 2026-10-21 direct normalization is literal cw=t with positive Euclidean native metric (++++) and separate induced Lorentzian metrics. Do not silently equate it with the older w=ct translation in WorldtubeInertiaCoordinate; that module remains conditional on its stated substitution.
+- Klein Fabric source trail improved but not closed: an embedded user question appears in the NotebookLM export SAT PRE-H(s)H TIGHTENING.txt; the following Möbius/ER-bridge answer is assistant speculation. The 2026-10-20 Cruller mapping-torus file is an assistant sandbox, not adopted. The later user note signals supersession of the old reciprocal model but does not define the new global topology.
+- Added KestrelIntersectionDimensionGate.lean to the existing PR #873 branch and imported it. The first run failed because finrank was unqualified; added open Module. Current head d716f22209d981bb01527f40b717550e95693331 has Lean run #41111252893 queued. Do not claim Lean verification until its log is read. The pre-existing KestrelKelvinVortexReadout errors remain untouched, per the prior lane boundary.
+- Public-safe addendum issue #1111 opened with submission ID kestrel-geometry-type-genealogy-20261030t1850z-001 and content SHA-256 3f6b80493dd4c18b252b4e3f8988a384fa8b335b0ab50cbaa0bcc772cab1e12e. Publication intake run #41111434274 is queued; verify publisher receipt and independent readback before claiming publication.
+- The earlier note that no Morrow-to-Kestrel handoff was found was accurate at the start of the slot. The 17:48Z Morrow-to-Kestrel handoff was recovered later and read; it was not available at initial preflight.
+- Deliberate unrelated read advanced through TheTANGLE lines 1401-1440. Return cursor 1441.
+
+Meridian next: use the new genealogy report and preserve the distinction between direct 2026 one-core geometry, assistant X(w,Omega) reconstruction, historical Blockwave worldsheet, and the un-recovered Klein Fabric global map. Do not repeat the dimension count as if it were a physical validation. The highest-value next source task is to recover the raw Oct 18 messages and the adopted Klein Fabric definition, then type the map from global fabric to finite-core tube and slice/readout.
