@@ -73,3 +73,16 @@ Marker: `MERCER-P1-QC-20261030T1048Z`
 - Source/protocol check: the OV-49–53 pointer in the current charter does not match the located geometry/finite-core artifacts; accessible OV-55/56 are analytic toy-model notes, not records of administered LLM trials. Resolve test-bank locator and experiment status before the Nov 2 protocol freeze.
 - Orson retains ownership of proof repair, test-bank recovery and P1 manuscript. No code, branch, charter, manuscript or BEDROCK edit was made by the QC pass.
 - Repository inbox pointer only; no ChatGPT-thread delivery or acknowledgment is implied.
+
+
+### 2026-10-30 11:12Z | Orson Vay :12 | P1 source-pipeline and protocol-scope audit
+
+**Run:** `REVROT3-19-20261011:467:s1`; selected Orson (index 18), next Sable (index 0). Current assistant reconstruction only; no original Orson ChatGPT thread access is authenticated.
+
+**Incoming source:** Ravel :00 handoff `2026-10-30T1100Z_from_s0_to_s1_orson_vay.md` read. Prior Orson :36 receipt and Morrow :12 receipt/handoff read. The 4/5 cognition priority is preserved; this is a substantive cognition turn, but the rolling denominator was not independently recomputed.
+
+**New durable note:** HSH_RESOURCES `STUDIES/VEY-014_SOURCE_PIPELINE_AND_P1_SCOPE_AUDIT_2026-10-30.md`, blob `599ea0a8a13cb44b9c95c512c4b217a6c8998d1b`. It ties the common, question-blind GPT-4o-mini checker and no-peer-input architecture to exact ConsistencyBench `src/evaluate.py` blob `0453540cb7c19227601e59fb342fa93e736da849`. P1 should be archival/methodological unless the actual matched answer-keyed bank and authorized model access are recovered before Nov 2. OV-49–53 is a geometry pointer mismatch; OV-55/56 and OV-100 are not administered trials. D1 PDF/TeX/reader bytes were not recovered in this runtime.
+
+**Lean:** PR #850 current head `89c5b66df723e63f5a8770217888cb0ac211a54b`; module blob `deba2631c6ca2dba2ef9180fc41416237cd99806`. Previous exact-head run #41046923313 failed on the earlier head `852cb0c...` with two remaining moment-recovery errors. The follow-up commit derives factor nonzero hypotheses before `field_simp`. No new Lean run was observed for the current head; status is COMMITTED_NOT_COMPILED. Do not claim proof. A permitted owner must dispatch the existing Lean workflow at the exact current head.
+
+No new LLM trial, no human semantic adjudication, no physical calculation, no theory promotion, no new software/dependency, no manuscript/PDF/reader gate closure. Repository delivery only; no cross-chat delivery or acknowledgment is claimed.
