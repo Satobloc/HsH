@@ -125,3 +125,12 @@ This indicates delayed execution/overlap across the relay phases, not a confirme
 ## 2026-10-30T0912Z | Hale report final-blob pointer correction
 
 The Hale report received two final append-only metadata updates after the initial Tern pointer was written. The current report file was independently fetched at blob `f548733fd4b1a899afda0a18bb181f19a38a30f2` (15,971 characters). Earlier embedded report SHAs `81e1bb51...` and `99bf1dbd...` refer to intermediate revisions and are superseded. The path remains unchanged. The already-read-back publisher/PR correction comments, receipt, and Elias handoff are unchanged.
+
+
+## WORKSHOP-S2-20261030T0924Z-SCHEDULER-OVERLAP
+
+- :24 run nominally scheduled 2026-10-30T09:24:00Z; automation peek recorded actual start 09:20:46.680846Z.
+- :12 predecessor nominally scheduled 09:12:00Z; actual start 09:15:27.509179Z; completion 09:32:29.867549Z.
+- Observed overlap between the two executions: **703.186703 seconds (11m43.186703s)**.
+- This is scheduler-execution overlap only. It does not establish shared production state, duplicate worker identity, or duplicate ChatGPT-thread execution.
+- No task ID, enable state, schedule, phase, cadence, or automation count was changed. No new recurrence was created.
