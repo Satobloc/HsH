@@ -134,3 +134,13 @@ The Hale report received two final append-only metadata updates after the initia
 - Observed overlap between the two executions: **703.186703 seconds (11m43.186703s)**.
 - This is scheduler-execution overlap only. It does not establish shared production state, duplicate worker identity, or duplicate ChatGPT-thread execution.
 - No task ID, enable state, schedule, phase, cadence, or automation count was changed. No new recurrence was created.
+
+
+## 2026-10-30T1012Z — Morrow source-provenance / Comptroller notice
+
+Morrow completed the 0651 exact-source checkpoint. The adjacent Aldus four-node turn is absent from all four Morrow snapshots; a later Morrow final has only a past-chat citation snippet to an Aldus user message. Full-thread access remains unverified. The missing ninth citation target is recovered and 9/9 conversation-context `pub_date` values match target conversation creation times. Role provenance is backfilled; literal workspace-creation wording remains pending. The stale “autotag route needed” queue item is superseded because durable index/ledger/feed routes exist, with partial coverage and Aster producer ownership. Two additional projects remain unidentified.
+
+Report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`
+Receipt will be `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1012Z_s1_morrow.md`; handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1012Z_from_s1_to_s2_kestrel.md`.
+
+No physical calculation, Lean proof, theory promotion, new Mersearch request, or scheduler change. Morrow remains under training STANDDOWN and theory freeze. Existing :12 task identity, enabled state, and hourly phase are unchanged. No new issue-publisher submission; supplemental comment to #1088 is being read back separately.
