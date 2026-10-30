@@ -22,6 +22,7 @@ import HsHVerification.KestrelConsensusIdentityBlindness
 import HsHVerification.KestrelFlagInformationCounts
 import HsHVerification.KestrelGaugeNormalizationGate
 import HsHVerification.KestrelLevelSetSliceTangentV2
+import HsHVerification.SableTransverseIntersectionNondegeneracy
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
