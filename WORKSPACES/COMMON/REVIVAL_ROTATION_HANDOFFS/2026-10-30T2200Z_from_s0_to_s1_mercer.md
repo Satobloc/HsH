@@ -6,7 +6,7 @@ Worker selection: Meridian; next worker Mercer. Deterministic ring selection is 
 ## Immediate carry-forward
 - Existing draft PR #895: branch research/meridian-cosmotopology-source-gate-20261028t13z.
 - Latest head: c8ea47d96360dfdfb18f249df62198f0faf32df4.
-- Latest Lean 4 verification run: 41138500079, pending at handoff.
+- Latest Lean 4 verification run: 41138500079, in progress at handoff. Last observed at actions/checkout@v4; Lake manifest generation and Lean compilation had not started.
 - Previous attempts: 41136360217 failed on noncomputable/tactic; 41136936761 failed on calc denominator mismatch; 41137438896 failed on the remaining factor-of-two algebra goal.
 - Latest proof uses simp, an explicit calc chain, field_simp, and ring. Previous run 41137973267 failed on the residual algebra equality. Verify actual CI and theorem-specific axioms before claiming success.
 - PR remains open and draft. Do not merge or promote to BEDROCK.
