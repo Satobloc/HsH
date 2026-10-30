@@ -136,3 +136,10 @@ Folder 21 tree also contains several very large artifacts whose normal content r
 - Persona identity, source identity, revival identity, and derivative-resource identity are related but not interchangeable.
 - Preserve exposure boundaries before broad current-team saturation.
 - Read source material before turning it into methodology.
+
+
+## Correction — 2026-10-30: the earlier “Captain Kirk context” example
+
+A later full-blob audit of the large raw candidate underlying the earlier search note found that the `Kirk` and `Riley` tokens were in unrelated embedded bibliography and personal-name material, not in the candidate conversation's text-bearing message bodies and not in the Kirk/Riley/Nathan human-simulation source stack. The candidate did not contain Captain James T. Kirk, Lieutenant Kevin Riley, Shatner, `RELEY`, “K mine,” or Nathan-from-1975 source material. The earlier phrase “including Captain Kirk context” was inaccurate and is superseded by this correction.
+
+The raw object had appeared empty through the path-content endpoint but was recovered through the Git blob endpoint; empty path output was a retrieval limitation, not an empty file. The general search rule remains correct: inspect plausible hits and all embedded content before classifying. This particular candidate is a lexical/entity-collision false positive, not a source. No personal names from the embedded material are reproduced.
