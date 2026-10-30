@@ -70,7 +70,8 @@ theorem treatmentIndicator_eq_groupIndicator
   intro g
   by_cases h : assign g = t
   · have hg : g = g₀ := (h_unique g).mp h
-    simp [indicator, h, hg]
+    subst g
+    simp [indicator, h]
   · have hg : g ≠ g₀ := by
       intro hg
       exact h ((h_unique g).mpr hg)
@@ -93,7 +94,6 @@ theorem linearPredictor_shift_invariant
   rw [treatmentIndicator_eq_groupIndicator assign t g₀ h_unique g]
   by_cases hg : g = g₀
   · simp [indicator, hg]
-    ring
   · simp [indicator, hg]
 
 /-- A nonzero shift produces a genuinely different coefficient pair. -/
@@ -102,7 +102,8 @@ theorem shiftedCoefficients_areDistinct
     (alpha + delta, beta - delta) ≠ (alpha, beta) := by
   intro h
   have h_first : alpha + delta = alpha := congrArg Prod.fst h
-  linarith
+  have h_zero : delta = 0 := by linarith
+  exact h_delta h_zero
 
 /--
 Conditional non-identifiability: with one group per treatment level, distinct
