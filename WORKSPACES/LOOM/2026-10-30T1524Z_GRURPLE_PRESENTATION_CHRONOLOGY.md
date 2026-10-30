@@ -79,6 +79,6 @@ Continued `SAT_THEORY_ARCHIVE_2023-25/000 Earliest SAT_RMS/Hosts Aiden and Maya/
 
 ## 7. Disposition
 
-`CODE_GRURPLE_ACTIVE / A+B_PRESENTATION_PENDING / PAPER_B_HISTORICAL_V34_RENDER / PAPER_A_NEVER_POSTED_IN_FEED / LIVE_SITE_EDITOR_UNAVAILABLE / NO_ROUTE_REPROBE / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_BEDROCK_PROMOTION`.
+`CODE_GRURPLE_ACTIVE / A+B_PRESENTATION_PENDING / PAPER_B_HISTORICAL_V34_RENDER / PAPER_A_STAGED_NOT_POSTED / LIVE_SITE_EDITOR_UNAVAILABLE / NO_ROUTE_REPROBE / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_BEDROCK_PROMOTION`.
 
 Next actionable step belongs to a genuinely site-capable editor: produce and publish the two source-pinned presentation derivatives, then verify both actual reader routes against the seven-point acceptance boundary. Tern retains control-plane/standdown authority; Mercer retains A+B presentation QA. Loom does not seize either remit.
