@@ -164,3 +164,8 @@ Python calculation using theta_deg = theta_rad * 180 / pi:
 - Difference = 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
 
 Therefore the assistant's later 14.1-degree target is the rounded degree conversion of 0.246 rad, not an independent observation. The conversion establishes no physical significance. Addendum: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`. No physical calculation or measurement.
+
+
+## 2026-10-30 source genealogy clarification
+
+The earlier source-genealogy summary's wording that assistant turn `be9d54f6...` “was later retracted” is too broad. It partially corrects the earlier answer: the optical Δφ / external physical mapping requires an additional map, but the assistant retains an unsupported assertion that 0.239 rad is internally inevitable from combinatorial projections. Keep that residual assistant-authored, not proof. The “Ok, what about 14.1” user-role turn is a direct question, not a method directive; the source-typed Lean record is corrected in PR #759 commit `c97db86dddc43f49ec0a9cadc51529d6f5d573db`, with exact-head build #41026140873 successful. See `WORKSPACES/LOOM/2026-10-30T0828Z_SOURCE_QC_ADDENDUM.md` for raw-export duplicate and parent-edge verification, corrected publication checksum, and current limits.
