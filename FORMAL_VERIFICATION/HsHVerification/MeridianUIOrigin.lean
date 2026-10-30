@@ -72,6 +72,36 @@ theorem zero_scale_forgets_direction :
   have hcoord := congrArg (fun f : Fin 4 → ℝ => f 0) heq
   norm_num at hcoord
 
+-- A lower-dimensional readout does not generally preserve intersections.
+-- The image of a true source intersection is contained in the intersection
+-- of the images; equality needs an injectivity condition on the readout.
+theorem image_intersection_subset
+    {α β : Type*} (f : α → β) (A B : Set α) :
+    f '' (A ∩ B) ⊆ (f '' A) ∩ (f '' B) := by
+  intro y hy
+  rcases hy with ⟨x, hx, rfl⟩
+  exact ⟨⟨x, hx.1, rfl⟩, ⟨x, hx.2, rfl⟩⟩
+
+theorem image_intersection_eq_of_injective
+    {α β : Type*} (f : α → β) (hf : Function.Injective f)
+    (A B : Set α) :
+    f '' (A ∩ B) = (f '' A) ∩ (f '' B) := by
+  apply Set.Subset.antisymm
+  · exact image_intersection_subset f A B
+  · intro y hy
+    rcases hy with ⟨⟨a, ha, hfa⟩, ⟨b, hb, hfb⟩⟩
+    have hab : a = b := hf (hfa.trans hfb.symm)
+    subst b
+    exact ⟨a, ⟨ha, hb⟩, hfa⟩
+
+/-- Pure set-theoretic negative control: a noninjective projection can
+    make disjoint source sets appear to intersect. This is not a physical
+    fixture or a model of a particular SAT/H(s)H readout. -/
+theorem noninjective_projection_can_create_false_intersection :
+    ∃ (f : Bool → Unit) (A B : Set Bool),
+      A ∩ B = ∅ ∧ (f '' A) ∩ (f '' B) ≠ ∅ := by
+  refine ⟨fun _ => (), {false}, {true}, ?_, ?_⟩ <;> simp
+
 #print axioms core_history_inside_shell_history
 #print axioms marked_history_injective
 #print axioms nonzero_period_cannot_close_full_history
