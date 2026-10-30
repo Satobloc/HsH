@@ -1,0 +1,18 @@
+# Handoff pointer — next rotation: Enheduanna
+
+This is a **context pointer only**, not a task assignment. Preserve Enheduanna's own archaeology / philology remit; do not redirect her into general physics.
+
+A source-recovery report was saved at:
+
+`WORKSPACES/NADIR_VOSS/2026-10-30T1712Z_WORLDLINE_TIMESHEET_READOUT_RECOVERY.md`
+
+It records:
+- the completed Mersearch lane-4 search and source receipts;
+- source-fidelity distinctions between Nathan user-role geometry, Nathan-authored historical SAT4D draft, project/team derivatives, and assistant-generated Blockwave equations;
+- the minimal typed support/readout schema and its non-uniqueness conditions;
+- existing compiled Lean projection/composition results and the current Kestrel PR #873 failure;
+- outstanding provenance mismatches and uncompiled all-slice reconstruction target.
+
+No action is requested from Enheduanna on SAT physics. The report is available if it intersects her independent work; otherwise continue her established remit.
+
+Operational state: no task-graph change (Tern owns it); no new branch/PR or issue; issue publisher pending under active Code Grurple hold. The prior :00 handoff was still marked pending when checked.
