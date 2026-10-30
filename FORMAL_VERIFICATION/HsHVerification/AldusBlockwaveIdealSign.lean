@@ -41,7 +41,7 @@ theorem source_momentum_disagrees_with_printed
     linarith
   exact (mul_ne_zero hK hv) hzero
 
-def sourceTimeLagrangian (K v : ℝ) : ℝ := -(K * v ^ 2) / 2
+noncomputable def sourceTimeLagrangian (K v : ℝ) : ℝ := -(K * v ^ 2) / 2
 
 theorem source_legendre_time_term (K v : ℝ) :
     sourceMomentum K v * v - sourceTimeLagrangian K v =
@@ -62,7 +62,14 @@ theorem source_kinetic_negative_if_nonzero_time_mode
   have htime : 0 < p ^ 2 / (2 * K) := div_pos hp2 hden
   have hgrad : 0 ≤ K * q / 2 :=
     div_nonneg (mul_nonneg (le_of_lt hK) hq) (by norm_num)
-  linarith
+  calc
+    -p ^ 2 / (2 * K) - K * q / 2 =
+        -(p ^ 2 / (2 * K) + K * q / 2) :=
+          source_kinetic_opposite_of_printed K p q
+    _ < 0 := by
+      have hsum : 0 < p ^ 2 / (2 * K) + K * q / 2 :=
+        add_pos_of_pos_of_nonneg htime hgrad
+      linarith
 
 #print axioms source_momentum_disagrees_with_printed
 #print axioms source_legendre_time_term
