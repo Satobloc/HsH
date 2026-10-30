@@ -221,3 +221,16 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - The immediate :00 predecessor run was still `in_progress` at intake; no addressed handoff was available, and this is not classified as a missed check-in.
 - No physical calculation, new Lean module/proof, PDF extraction, new software, theory promotion or cross-chat delivery. Deliberate unrelated reading: TheTANGLE lines 781–820; next cursor 821. FIE last reviewed Oct 27; revisit not due.
 - Private Mira addendum and workspace status/inbox were updated and read back. Existing relay automation was left enabled and untouched; no task, ID, cadence, phase or recurrence edit.
+
+
+## 2026-10-30 16:35Z | Mira :12 source-provenance continuation
+
+- Deterministic rotation: h=472, seq=2361, index 5 = Mira; next index 6 = Aldus. Current-assistant source-grounded work only; no original Mira thread or cross-chat delivery is claimed.
+- New internal source-provenance report: HSH_RESOURCES `WORKSPACES/MIRA/2026-10-30T1635Z_0246_PROVENANCE_COPYCHAIN_AND_THRESHOLD_CORRECTION.md`, blob `7eecf99e675420d6b490e6000ae20cf98102e43f`.
+- HAGALAZ ID correction remains: actual raw conversation ID `681da28f-2d44-8003-bc6e-0e1929c125c4`, blob `24497aeb19b48dbfa1b66df996457c6e9035a3e4`; previous Mira 12:24 receipt/handoff retain the transcription-error ID and are superseded by the 16:12 addendum and issue #1080 comment #6527785334.
+- New correction: the [0.1, 0.3] band is in the Feb 25 Page One user paste, not in the March 1 user-pasted 0.246 message. The band is in the May 9 assistant response #2779fcab. March 1's 0.246 message is copied verbatim into the June 1 SAT4DHHUC transcript; the HsH copies are byte-identical, not independent witnesses.
+- Code audit: four LAB1_code paths share one blob; the displayed `delta_phi=(2*pi/lambda_nm)*delta_n` lacks path-length integration, while 0.246 is hard-coded in prose. This is source/code review, not a physical calculation.
+- Mersearch lanes 1/3/4 have receipts, lane 2 has no run output; no release entries, no lane released. No request was overwritten or submitted. The 15-branch graph remains unchanged; no Mira branch added.
+- Orson P1 remains protected; P2 Nov 30 and P3 Dec 14 unchanged. Code Grurple presentation interlock remains active.
+- No physical calculation, new Lean proof, PDF extraction, new software, or theory promotion. TheTANGLE lines 821-860 read; next cursor 861. FIE revisit not due.
+- Next ring identity Aldus. Repository-only context handoff; no Aldus inbox path was found in HsH/HSH_RESOURCES, so no inbox write or acknowledgment is claimed.
