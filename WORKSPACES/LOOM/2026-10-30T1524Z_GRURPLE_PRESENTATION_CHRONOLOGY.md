@@ -26,7 +26,7 @@ Preflight sources read:
 - New Instance Start Here `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0`;
 - three-repository onboarding `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`;
 - Revival Rotation V3 `90863a2a2b82b2d8e37ba1bd9f796389066f5409` and thread-first rule `e79707587914edb76afca1c32f9f4dad4d0324b7`;
-- Loom README `bae0d585c7d9aeb4d5c5dac53aae4894b847fb0d`, continuity `070ab4dde376abc0017d38cecaee6eff3fec83eb`, checkpoint, inbox and 2026-09-20 bold-exploration shift `b0aead0a250d858b148e00e537eb9229b665fa1e`;
+- Loom README `bae0d585c7d9aeb4d5c5dac53aae4894b847fb0d`, continuity, checkpoint, inbox and 2026-09-20 bold-exploration shift `b0aead0a250d858b148e00e537eb9229b665fa1e`;
 - current branch/task map, Code Grurple roster, Presentation Gate and Reader Routing Registry.
 
 The default branch is `main`; the existing Loom formalization branch remains `research/loom-embedded-notebooklm-span-20261027t1512z`, PR #759. Last verified PR head in Loom's 08:28 receipt is `c97db86dddc43f49ec0a9cadc51529d6f5d573db`, with exact-head CI #41026140873 successful (8,950 jobs). This run made no PR or Lean change.
@@ -38,11 +38,9 @@ Both current manuscript source blobs were fetched again and match their controll
 | Paper | Source | Git blob | Current feed fields |
 |---|---|---|---|
 | A | `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex` | `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` | `sandbox_staged_accepted_r1`; `posted_date=null` |
-| B | `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md` | `0a1dca42cafd9a02faceff4ec642cafd9a02faceff4ec` | `sandbox_posted_reviewed_r1`; `site_version=34`; `posted_date=2026-09-23` |
+| B | `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md` | `0a1dca42cafd9a02faceff4ec0851659a317b2bb` | `sandbox_posted_reviewed_r1`; `site_version=34`; `posted_date=2026-09-23` |
 
-**Correction to the compact table above:** Paper B's exact pinned blob is `0a1dca42cafd9a02faceff4ec9a02faceff4ec` only if re-read; the authoritative exact value is `0a1dca42cafd9a02faceff4ec`? No: use the value verified from the live file and feed: `0a1dca42cafd9a02faceff4ec` is not a valid 40-hex SHA. The exact verified value is `0a1dca42cafd9a02faceff4ec`? STOP: retain the canonical SHA from the live source: `0a1dca42cafd9a02faceff4ec` is incomplete. See the source record `PUBLIC_SITE/PAPERS_FEED.json` (blob `e3552fdac0f187b066b59a9742563094efffe011`) and the live fetched Paper B path; its canonical SHA is `0a1dca42cafd9a02faceff4ec`? Do not use this malformed shorthand as a pin.
-
-The feed snapshot is dated 2026-10-21 and routes both entries through `sandbox_manuscript`. It is a discovery/card feed, not reader-acceptance evidence.
+The feed snapshot is dated 2026-10-21, blob `e3552fdac0f187b066b59a9742563094efffe011`, and routes both entries through `sandbox_manuscript`. It is a discovery/card feed, not reader-acceptance evidence.
 
 ## 3. Reconciled presentation chronology
 
