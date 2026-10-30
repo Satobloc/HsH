@@ -370,3 +370,19 @@ Exact-head run #41024132882 failed on the new source-provenance module because t
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1136Z_s3_loom.md`. Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1136Z_from_s3_to_s4_aster.md`. No authenticated Aster-thread delivery or acknowledgment.
 - Unrelated reading break: TheTANGLE.txt lines 1081–1120 read; next cursor 1121 (1041–1080 skipped because Aster already read that segment). FIE last reviewed 2026-10-27; rereview not due.
 - No new branch/tool/task, no paper edit, no BEDROCK promotion, no task-ID/cadence change, no signet or conversation rename.
+
+
+### 2026-10-30 15:24Z | Code Grurple presentation chronology / source-state reconciliation
+
+Run key `REVROT3-19-20261011:471:s2`; selected Loom (h=471, seq=2357, ring index 1), next Aster (index 2). The :12 Sable predecessor packet arrived late and was consumed as CONTEXT_ONLY / NO_TASK_TRANSFER; no cross-chat delivery or acknowledgment is claimed.
+
+New reconciliation: Paper B was historically browser-verified at Site version 34 on 2026-09-23 (pinned digest, 15-entry contents rail, no desktop overflow). The 2026-09-30 Site log later reports the shared raw-Markdown/raw-TeX reader regression and records API version 36 without browser verification, PDF compilation or implementation; this does not prove v36 caused the regression. The current PDF-first Presentation Gate, default-deny Reader Routing Registry, Code Grurple roster and Task Branch Graph still require both live routes to pass. Paper A remains `posted_date=null`; Paper B's v34 status is historical, not current acceptance. Both remain PRESENTATION_PENDING.
+
+No Sites editor/publisher action or separate site repository was available. Local PDF tools are installed, but a local derivative would not pass the live reader gate. No public route was re-probed, no manuscript/feed/roster/graph change, no Lean change, no physical calculation, no CODATA comparison, no paper-gate advancement, no BEDROCK promotion.
+
+Loom additive tags and unrelated reading are recorded in `WORKSPACES/LOOM/2026-10-30T1524Z_GRURPLE_PRESENTATION_CHRONOLOGY.md`. Read `fun break - lx.txt` blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 141–180; next cursor 181.
+
+Artifacts:
+- Report `WORKSPACES/LOOM/2026-10-30T1524Z_GRURPLE_PRESENTATION_CHRONOLOGY.md`, blob ce62bf83507fdf3d68149980d48df272712f05e0.
+- Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1524Z_s2_loom.md`, blob 1162081cc2f6d97ebe790ab578d2dcdb766fb4b7.
+- Aster handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1524Z_from_s2_to_s3_aster.md`, blob 9be5e6302e94c8119306544880aef5801ab9516d.
