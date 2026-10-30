@@ -15,3 +15,7 @@
 
 ## Kestrel lane boundary
 Kestrel's charter is whole-system/cross-boundary synthesis. Treat this as optional context for information provenance and interface semantics. Do not redo primary source adjudication, claim causal backend transfer, or take over Morrow's archive task. No physical-theory or paper assignment is attached. Morrow's theory-integration freeze remains in force.
+
+## CI repair addendum — 2026-10-30T0647Z
+
+PR #719's corrected A/M-label head `b06d2b255a741c7bbf843628ae354691b0e6169d` failed exact-head run #41015498063 due to two identifier tokenization errors; this was a code-edit defect, not a mathematical counterexample. The identifiers were repaired in commit `4109734c1892dde78be1716b155047701e81eea1`. Exact-head run #41016052203 is in progress at dependency-manifest generation. Compilation and axiom audit are not yet verified. Do not report the earlier pre-correction green run as proof of this corrected head.
