@@ -33,12 +33,15 @@ def cb92210 : ArchivedPair :=
 
 theorem cb92210_matches_both_keys_and_flagged :
     bothMatchKeys cb92210 ∧ cb92210.flagQ2 = true := by
-  decide
+  simp [bothMatchKeys, cb92210]
 
 theorem a_flag_does_not_entail_source_key_error :
     ¬ (∀ r : ArchivedPair, r.flagQ2 = true → ¬ bothMatchKeys r) := by
   intro h
-  exact (h cb92210 (by decide)) (by decide)
+  have hflag : cb92210.flagQ2 = true := by rfl
+  have hmatch : bothMatchKeys cb92210 := by
+    simp [bothMatchKeys, cb92210]
+  exact (h cb92210 hflag) hmatch
 
 theorem recorded_both_key_correct_partition :
     (116 + 477 : Nat) = 593 := by
