@@ -114,3 +114,17 @@ The existing Slack side-room thread was read in full (19 prior notes, all signed
 https://hshworkinggroupone.slack.com/archives/C0C09NV79CL/p1793342429717989?thread_ts=1788865941.954509&cid=C0C09NV79CL
 
 Corrections: issue #1088 supersedes the A-container identity wording in #720 and #1087; numerical timestamps and ordering are unchanged. Current Morrow ChatGPT thread was not found after bounded LIVE CONVOS / registry / crosswalk search; this run is a source-grounded revival, not authenticated continuity with either historical container.
+
+### Cross-snapshot coverage matrix — 2026-10-30
+All A-container snapshots share conversation ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153` and top-level `create_time=1788734012.522178`, but their mapping coverage differs:
+- Development snapshot `e871e710d4634bfed0dc8cf5f6d3eefdf9770e64` (1,480 nodes): earlier matched message `3eec9833…` present; later prompt `ae2eb196…` absent.
+- Development snapshots `11515984ab47a5924a7eef8d5ab8379e305efcdc` (1,505 nodes), `2f5ea91a449446f64d298b50b0c2ef0d8533900a` (1,578 nodes), and `63b03960d87c6410d186be698ea8692df1dd3363` (1,578 nodes): both matched messages present.
+- Live snapshot `728b4618e869e32a015b5fd9395f6bec118ccc31` (1,133 nodes): neither matched message ID present, despite matching conversation ID and `create_time`.
+
+M-container snapshot coverage for the two citation-bearing answers:
+- `e32873cd17c1d96003dced0310ebf4d3cd954d07` (117 nodes): both answers present; citation status `seeded`.
+- `342b50c3927c3466783b091234647f338990a113` (107 nodes): neither answer present.
+- `d0bb8335307b21e6637deed52338e3f31d0199df` (175 nodes): both answers present; citation status `seeded`.
+- `362075c5e32ec9e97579bd1de58fba7f612cb6bb` (465 nodes): both answers present; citation status `complete`.
+
+Interpretation: the message-level snippet matches are supported by the development A-container snapshots, not by the smaller live snapshot. The stable container `create_time` and `pub_date` survive across snapshots; message presence and citation status vary with export coverage. This is snapshot provenance, not evidence of deletion, runtime retrieval, or causal transfer.
