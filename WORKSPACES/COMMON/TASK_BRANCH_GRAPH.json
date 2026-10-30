@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-22",
+  "updated": "2026-10-30T06:12Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -10,7 +10,11 @@
     "Do not invent missing branches from filenames, worker names, or recurrence labels.",
     "A worker change, method change, repository move, or bounded step does not by itself create a new branch.",
     "Populate progressively from verified durable branch/task state; unknown fields remain explicit.",
-    "Nathan Direct 2026-09-20 reweights the active edge from excavation/preservation as the dominant mode toward bold sandboxed construction and projection/benchmark work. Excavation remains supporting infrastructure. Confidence attaches first to faithful representation/reproduction of accepted physics; it does not automatically transfer to SAT/H(s)H derivation, novelty, or validation."
+    "Nathan Direct 2026-09-20 reweights the active edge from excavation/preservation as the dominant mode toward bold sandboxed construction and projection/benchmark work. Excavation remains supporting infrastructure. Confidence attaches first to faithful representation/reproduction of accepted physics; it does not automatically transfer to SAT/H(s)H derivation, novelty, or validation.",
+    "2026-10-30 Tern Comptroller reconciliation: CODE-GRURPLE-20260922 remains the active emergency publication interlock. Paper A accepted R1 blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa; Paper B reviewed/originator-accepted R1 blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb. Both manuscript gates are closed; both actual reader routes remain PRESENTATION_PENDING until live reader-facing rendering/version checks pass. Repository/feed staging is not acceptance. Current relay has no Sites editor action; live route opens were unavailable, so no repair or pass is claimed.",
+    "2026-10-30 campaign reconciliation: add distinct P1 (Nov 9), P2 (Nov 30), P3 (Dec 14) branches under the 2026-10-26 Three Paper Campaign. They have distinct exit criteria and remain open; Code Grurple still outranks ordinary work until standdown. P1 remains Orson Vay's protected LLM-cognition remit; preserve four-of-five actual substantive Orson activations, not scheduled slot count.",
+    "Mersearch request state: MERSEARCH_REQUEST.json status=requested is trigger/request metadata, not a completion state. The bridge workflow does not read or mutate that field. Use the request-scoped RUN_MANIFEST.json and SEARCH_RECEIPT.json committed outputs for execution evidence; do not edit the request or retrigger a completed lane.",
+    "The 2026-10-21 PAPERS_FEED.json is a discovery/card feed, not reader acceptance evidence. The current live gate is PUBLIC_SITE/PRESENTATION_GATE.md plus CODE_GRURPLE_ROSTER.md and actual reader-route verification."
   ],
   "allowed_status": [
     "candidate",
@@ -218,7 +222,7 @@
       "next_cursor": "Activate a channel that cannot collapse to static endpoint-frame telescoping. Supply a declared connection/history or other explicitly typed transport input on a controlled path, keep the shared primitive/source boundary explicit, and test whether the common record preserves endpoint relative frame separately from path-dependent transport/holonomy.",
       "exit_criterion": "Common solver architecture preserves typed solver-specific channels and demonstrates at least one controlled path-dependent transport/history case without conflating it with static endpoint-frame relations; downstream disposition is explicit.",
       "return_route": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/MERCER_RUN_100_ACTIVE_EDGE_RECONCILIATION.md + Meridian handoff/checkpoint surfaces",
-      "priority_note": "PROJECT HIGHEST PRIORITY. Other healthy work continues; new routing and scarce attention preferentially support solver unification."
+      "priority_note": "PROJECT HIGHEST-PRIORITY TECHNICAL RETURN AFTER CODE GRURPLE STANDDOWN. Currently BACKSEAT/HOLD under the active publication interlock. Preserve the controlled transport/history return cursor; do not force work through the presentation gate."
     },
     {
       "id": "CODE-GRURPLE-20260922",
@@ -254,12 +258,14 @@
         "LIVE_NEW_PAPERS_STANDARD.md",
         "website sandbox publication surface"
       ],
-      "blockers": [],
-      "last_material_state": "Code Grurple activated. Meridian and Mercer are authoring the two incoming drafts with Nathan; review/consolidation roster and signaling rules are live.",
-      "next_cursor": "Detect first frozen draft; create/update its canonical packet; trigger independent one-turn reviews without pre-reading; after each review freezes, open cross-communication/consolidation; route comments to Originator; persist Nathan-ready alert when revised paper reaches Nathan.",
-      "exit_criterion": "Both papers are visibly sandboxed on the website and Nathan explicitly stands Code Grurple down.",
+      "blockers": [
+        "Shared reader presentation defect remains open; actual reader-facing route verification is still required. Current relay has no Sites editor action and live route opens were unavailable."
+      ],
+      "last_material_state": "ACTIVE emergency publication interlock. Paper A R1 accepted (blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa); Paper B R1 reviewed/originator-accepted (blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb). Both manuscript gates are closed. Shared reader presentation defect remains open for both actual routes; no live route acceptance is established by repository/feed staging.",
+      "next_cursor": "A site-capable worker must repair the shared sandbox_manuscript presentation route without changing either pinned manuscript. Then verify both actual public routes against the seven Code Grurple acceptance checks and current PRESENTATION_GATE; preserve source identity and SANDBOX/review/provenance affordances. Current relay has no Sites editor and could not open either route; do not repeatedly probe an unobservable surface.",
+      "exit_criterion": "Automatic standdown only after both current papers have completed their required review/revision/disposition gates and both actual public reader routes pass the shared rendering/version acceptance boundary. Nathan may stand down earlier.",
       "return_route": "Restore ordinary priority ordering from preserved durable branch cursors; ᚼ solver-unification resumes unless paper results materially reweight it.",
-      "priority_note": "PROJECT OVERRIDE. Every other priority is BACKSEAT/HOLD until the two papers reach website sandbox posting; explicit Nathan standdown controls full return."
+      "priority_note": "ACTIVE EMERGENCY PUBLICATION INTERLOCK. Ordinary work remains BACKSEAT/HOLD, not cancelled. Preserve all return cursors. Do not reopen manuscript content or peer review to solve a presentation-only defect."
     },
     {
       "id": "GRURPLE-A",
@@ -271,13 +277,13 @@
       "origin": "Nathan Direct 2026-09-22",
       "intent": "First incoming rapid sandbox paper",
       "repository": "Satobloc/HsH",
-      "primary_surface": "TBD on frozen draft",
+      "primary_surface": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/; pinned R1 blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa; reader paper.html?id=convergent-motifs-r1",
       "owner_instance": "Meridian",
       "dependencies": [],
       "blockers": [],
-      "last_material_state": "Authoring with Nathan; title/canonical packet not yet verified.",
-      "next_cursor": "Freeze/name first draft and canonical packet, then independent review fan-out.",
-      "exit_criterion": "Revised, Nathan-reviewed as required, visibly SANDBOXED on website.",
+      "last_material_state": "R1 ACCEPTED; manuscript gate closed. Shared presentation defect remains open. Pinned accepted R1 blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa must be preserved; no manuscript rewrite absent a concrete regression or explicit request.",
+      "next_cursor": "After shared sandbox_manuscript renderer repair, verify the actual Paper A reader route against the seven-point acceptance boundary and pinned R1 blob; report PASS/FAIL with live route evidence.",
+      "exit_criterion": "Actual Paper A reader route renders the pinned accepted R1 cleanly, preserves SANDBOX/review/provenance affordances, and passes the shared acceptance checklist.",
       "return_route": "CODE-GRURPLE-20260922"
     },
     {
@@ -290,14 +296,189 @@
       "origin": "Nathan Direct 2026-09-22",
       "intent": "Second incoming rapid sandbox paper",
       "repository": "Satobloc/HsH",
-      "primary_surface": "TBD on frozen draft",
+      "primary_surface": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/; pinned reviewed R1 blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb; reader paper.html?id=boundary-weak-emission-r1",
       "owner_instance": "Mercer",
       "dependencies": [],
       "blockers": [],
-      "last_material_state": "Authoring with Nathan; title/canonical packet not yet verified.",
-      "next_cursor": "Freeze/name first draft and canonical packet, then independent review fan-out.",
-      "exit_criterion": "Revised, Nathan-reviewed as required, visibly SANDBOXED on website.",
+      "last_material_state": "R1 REVIEWED/ORIGINATOR-ACCEPTED; manuscript/source-hardening/review/revision gates closed. Shared presentation defect is the only reopened work. Pinned reviewed R1 blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb must be preserved.",
+      "next_cursor": "After shared sandbox_manuscript renderer repair, independently verify the actual Paper B reader route against the seven-point acceptance boundary and pinned R1 blob; do not reopen content.",
+      "exit_criterion": "Actual Paper B reader route renders the pinned reviewed R1 cleanly, preserves SANDBOX/review/provenance affordances, and passes the shared acceptance checklist.",
       "return_route": "CODE-GRURPLE-20260922"
+    },
+    {
+      "id": "PAPER-CAMPAIGN-2026-10-26",
+      "title": "Three-manuscript campaign: P1 cognition, P2 measured system, P3 full theory",
+      "kind": "manuscript_campaign",
+      "status": "active",
+      "parent": null,
+      "children": [
+        "P1-LLM-COGNITION-2026-11-09",
+        "P2-REAL-SYSTEM-GEOMETRY-2026-11-30",
+        "P3-FULL-THEORY-2026-12-14"
+      ],
+      "origin": "Nathan Direct 2026-10-26; operationalized in WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md",
+      "intent": "Deliver one minor, one major and one full-theory manuscript with source LaTeX, evidence/provenance, independent review and readable PDF/reader. Do not infer known-physics reproduction or physical validation from manuscript existence.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md",
+      "exposure_constraints": [
+        "Preserve exact source authorship/context/SHA",
+        "Do not conflate Nathan Direct with assistant-generated equations",
+        "Real measured data first for physical calculations; specific Nathan permission required for data-free calculations",
+        "Lean compilation and mathematical truth remain separate from physical correctness",
+        "No theory promotion from publication or repeated AI agreement"
+      ],
+      "owner_instance": null,
+      "candidate_instances": [
+        "Orson Vay",
+        "Aster",
+        "Meridian",
+        "Mercer",
+        "Ravel",
+        "Morrow",
+        "Kestrel",
+        "Nadir Voss",
+        "Calder",
+        "Tern Rook"
+      ],
+      "dependencies": [
+        "P1 Nov 9 protected cognition charter and actual LLM study protocol",
+        "P2 Nov 30 real measured system/data with provenance, units and uncertainties",
+        "P3 Dec 14 original SAT-O/Blockwave source genealogy and cross-sector reconstruction",
+        "Independent review and source LaTeX/PDF/reader for each paper"
+      ],
+      "blockers": [
+        "Code Grurple remains the active emergency publication interlock; ordinary research branches remain BACKSEAT/HOLD until standdown where they conflict."
+      ],
+      "last_material_state": "Campaign remains active with three distinct gates: P1 Nov 9, P2 Nov 30, P3 Dec 14. This Tern pass added explicit graph branches; no paper completion or review pass is claimed here.",
+      "next_cursor": "Use the campaign document as the controlling scope and preserve each paper's separate owner, evidence class, review, source-LaTeX, PDF and reader status. Do not collapse the three papers into one general SAT manuscript.",
+      "exit_criterion": "Each paper independently satisfies its campaign gate with source-faithful content, evidence/provenance, hostile/independent review, source LaTeX and readable PDF/reader. Physical validation remains a separate gate.",
+      "return_route": "WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md; issue dockets #564/#565/#566.",
+      "priority_note": "High-value near-term deliverable, but Code Grurple remains the higher active interlock until both existing reader routes pass. Preserve campaign work without allowing it to overwrite protected specialist remits."
+    },
+    {
+      "id": "P1-LLM-COGNITION-2026-11-09",
+      "title": "P1 minor paper — LLM cognition, shared-source errors and apparent multi-agent consensus",
+      "kind": "paper",
+      "status": "active",
+      "parent": "PAPER-CAMPAIGN-2026-10-26",
+      "children": [],
+      "origin": "Nathan Direct 2026-10-26; Three Paper Campaign",
+      "intent": "Produce a source-grounded cognition paper using reproducible model studies and literature, distinguishing shared-source dependence from genuine independent convergence.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/ORSON_VAY/; issue #564; Three Paper Campaign",
+      "exposure_constraints": [
+        "Orson's cognition/literature/real-agent research remit is protected",
+        "Use actual model outputs and recorded prompts/settings for empirical claims",
+        "Do not infer consciousness or subjective experience from consistency scores",
+        "Do not reassign Orson to general physics to fill a slot"
+      ],
+      "owner_instance": "Orson Vay",
+      "candidate_instances": [
+        "Orson Vay"
+      ],
+      "dependencies": [
+        "Orson role charter and original OV studies",
+        "Versioned prompt/model/settings/output corpus or explicit methods-only scope",
+        "Independent/hostile review",
+        "Source LaTeX, compiled PDF and reader"
+      ],
+      "blockers": [
+        "Current manuscript/experiment status must be read from Orson's actual latest receipt before any progress claim; this Tern pass does not infer it."
+      ],
+      "last_material_state": "Campaign target Nov 9. Existing campaign cautions that prior results were substantially synthetic; actual trial status is not inferred here. Orson's protected cognition lane remains intact.",
+      "next_cursor": "At Orson's next actual substantive activation, read his latest receipt and original OV studies, freeze the protocol by Nov 2, then run a reproducible actual-model study if feasible; otherwise narrow honestly to a methods/literature paper. Preserve at least four of five actual substantive Orson activations for cognition.",
+      "exit_criterion": "By Nov 9, source-grounded manuscript with genuine recorded model outputs for any empirical claim (or an explicit methods-only scope), independent/hostile review, versioned LaTeX, compiled PDF and readable reader. No unearned consciousness claims.",
+      "return_route": "WORKSPACES/ORSON_VAY/ and issue #564.",
+      "priority_note": "PROTECTED SPECIALIST REMIT. Count actual substantive Orson turns, not scheduled slot firings; target 4/5 cognition. No general-physics reassignment."
+    },
+    {
+      "id": "P2-REAL-SYSTEM-GEOMETRY-2026-11-30",
+      "title": "P2 major paper — geometry on a real measured physical system",
+      "kind": "paper",
+      "status": "active",
+      "parent": "PAPER-CAMPAIGN-2026-10-26",
+      "children": [],
+      "origin": "Nathan Direct 2026-10-26; Three Paper Campaign",
+      "intent": "Test a source-faithful SAT/H(s)H construction against an identifiable real physical system and genuine measurements, with independent baseline comparison and clear separation of fit from prediction.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md; issue #565",
+      "exposure_constraints": [
+        "Name actual system and dataset, original source, date/version, units and uncertainties",
+        "Separate measured inputs, established laws, fits and independent predictions",
+        "No invented fixtures or data-free physical calculations without Nathan's specific prior permission",
+        "Keep failed/null results and alternative models visible"
+      ],
+      "owner_instance": null,
+      "candidate_instances": [
+        "Calder",
+        "Hale",
+        "Nadir Voss",
+        "Meridian",
+        "Morrow",
+        "Kestrel",
+        "Ravel",
+        "Mercer"
+      ],
+      "dependencies": [
+        "Original SAT-O/Blockwave equations with exact source authorship/context/SHA",
+        "Actual measured dataset and uncertainty/covariance information",
+        "Established-physics comparator",
+        "Independent hostile review",
+        "Source LaTeX, compiled PDF and reader"
+      ],
+      "blockers": [
+        "This Tern pass does not verify a selected P2 dataset or completed P2 draft; current evidence must be recovered from the live #565 docket and actual worker receipts."
+      ],
+      "last_material_state": "Campaign target Nov 30. GW170817/Raithel material exists as a candidate reconstruction, but this graph entry does not treat it as a completed P2 paper, raw-data recovery, or independent H(s)H prediction.",
+      "next_cursor": "Read the current #565 docket and actual receipts; choose/verify a real measured system, retrieve raw data or record the precise access limit, recover Nathan's relevant original SAT-O/Blockwave mathematics via Mersearch, then separate model fit from held-out independent prediction and obtain hostile review.",
+      "exit_criterion": "By Nov 30, a source-grounded major manuscript with actual measured system/data, units/provenance/uncertainties, baseline comparator, explicit fit-versus-independent-prediction distinction, independent review, source LaTeX, compiled PDF and reader.",
+      "return_route": "Issue #565 and WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md.",
+      "priority_note": "Physical work must obey BEDROCK ND-2026-10-25-01. Code Grurple currently outranks ordinary work; do not invent examples to fill time."
+    },
+    {
+      "id": "P3-FULL-THEORY-2026-12-14",
+      "title": "P3 full-theory paper — source-grounded SAT/H(s)H reconstruction and known-physics map",
+      "kind": "paper",
+      "status": "active",
+      "parent": "PAPER-CAMPAIGN-2026-10-26",
+      "children": [],
+      "origin": "Nathan Direct 2026-10-26; Three Paper Campaign",
+      "intent": "Produce the full theory manuscript with a faithful source genealogy, minimal typed geometric construction, cross-sector known-physics mapping, unresolved requirements and explicit failure/limitation ledger.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md; issue #566",
+      "exposure_constraints": [
+        "Recover original Nathan statements before formalizing each subject",
+        "Separate Nathan Direct geometry from LLM-authored equations",
+        "Map geometry to equations and equations back to geometry, preserving non-uniqueness/gauges/source fidelity",
+        "Lean compilation proves encoding only; not physical correctness",
+        "No theory promotion from manuscript or formal proof"
+      ],
+      "owner_instance": null,
+      "candidate_instances": [
+        "Aster",
+        "Meridian",
+        "Mercer",
+        "Ravel",
+        "Morrow",
+        "Nadir Voss",
+        "Tern Rook",
+        "Kestrel"
+      ],
+      "dependencies": [
+        "Original SAT-O/Blockwave and FIE primary sources",
+        "Current BEDROCK and STATE_OF_THE_THEORY",
+        "Known-physics comparators across GR/string theory/SM-QM/information",
+        "Source LaTeX and independent hostile review",
+        "Compiled PDF and readable reader"
+      ],
+      "blockers": [
+        "This Tern pass does not verify a complete P3 manuscript, full cross-sector coverage matrix, or final reader."
+      ],
+      "last_material_state": "Campaign target Dec 14. Existing source-genealogy and geometry audits are supporting artifacts, not evidence that the full theory manuscript is complete.",
+      "next_cursor": "Recover interrelated original SAT-O/Blockwave mathematics through Mersearch, preserve exact author/context/SHA, define the minimal worldtube/timesheet/optional-medium representation, map both directions and non-uniqueness, then build a cross-sector known-physics coverage and open-requirements matrix.",
+      "exit_criterion": "By Dec 14, source-grounded full-theory manuscript with explicit geometry/equation maps, cross-sector coverage, known-physics comparators, failures/open equations, independent hostile review, source LaTeX, compiled PDF and readable reader. Physical validity remains separate.",
+      "return_route": "Issue #566 and WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md.",
+      "priority_note": "Full theory is a manuscript target, not a validated theory. No automatic BEDROCK promotion; Code Grurple remains active until its separate standdown gate."
     }
   ]
 }
