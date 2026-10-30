@@ -12,7 +12,7 @@ Mersearch-first was attempted. No Mersearch action is exposed in this runtime. T
 
 The earliest located direct geometry anchor is the 2024-03-22 **DIMENSIONAL GRAVITY** conversation, conversation ID `6a39839c-0d50-83ea-b76f-6805ece3ee9f`, raw blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Two user-role messages at 16:57:54Z and 17:07:55Z describe a tentative, explicitly vague early intuition: strings intersecting a three-dimensional time surface, with the present treated as an intersection point and the surface compared to a propagating wavefront. This is historical intuition, not a complete worldtube/current construction.
 
-The September 2026 Ravel conversation is identified as `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, raw-export SHA recorded in Ravel continuity as `c49367b0faa424491e7b3520a034b9e44fe6897f`. The connector returned an empty body for that large raw export in this run, so it was not independently reparsed. Its role-verified user excerpts remain available in `NATHAN_VERIFIED_WORDS_COMPENDIUM.md`, blob `84d333...`, including:
+The September 2026 Ravel conversation is identified as `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, raw-export SHA recorded in Ravel continuity as `c49367b0faa424491e7b3520a034b9e44fe6897f`. The connector returned an empty body for that large raw export in this run, so it was not independently reparsed. Its role-verified user excerpts remain available in `NATHAN_VERIFIED_WORDS_COMPENDIUM.md`, blob `84d333479a224a82df6f1265dd443662322656f6`, including:
 - 2026-09-07 03:39 EDT, message `8471543a-6ed1-4743-9073-74735f019da4`: four-dimensional extension of a worldtube with Kerr cross-section, initially idealized, with shell distortion explicitly left as a question.
 - 2026-09-07 03:46 EDT, message `3d0ad680-51db-4c79-ad4a-9bbacada24ef`: choose a spatial Kerr section and extend it along the filament; the ER-mouth/timesheet relation remains qualified.
 - 2026-09-07 06:06 EDT, message `496a15ea-0263-459d-b815-908f52155b90`: multiple representations must be kept distinct; an induction-current connection within timesheet thickness is proposed tentatively, not defined mathematically.
@@ -88,7 +88,7 @@ A standard Maxwell type-correction would be (\nabla_\mu F^{\mu\nu}=\mu_0 j^\nu) 
 ## 6. Formalization and operational status
 
 - Ravel measured-system branch PR #993 remains open/draft at head `5842fcaf77d4de85a969bebcca3c3a5580e5f07a`; exact-head Lean CI run #40997062623 succeeded. The existing conditional radius/arithmetic modules built; theorem-specific `sorryAx` was absent. Automated axiom audit was disabled/skipped.
-- Separate Blockwave/projector PR #1008 remains open/draft at head `2fbb064d...`; its exact-head CI run #40872622624 succeeded. It is not an electromagnetic-current proof.
+- Separate Blockwave/projector PR #1008 remains open/draft at head `2fbb064d46ef6f47aca981d9b16e6c354f306539`; its exact-head CI run #40872622624 succeeded. It is not an electromagnetic-current proof.
 - Local runtime has no Lean/Lake executable. No new Lean module, branch, PR, or physical fixture was created. The H(s)H current map is not yet a well-typed source-derived proposition; formalization is deferred rather than filled with invented premises.
 - Code Grurple remains ACTIVE. No public issue submission, manuscript edit, reader-route probe, or paper-gate advancement was made.
 - This addendum is internal Ravel workspace material, not a public paper or BEDROCK promotion.
