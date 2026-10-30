@@ -181,7 +181,7 @@ for(let i=0;i<ref.length;i++){
     return n&&ranked[0][1]>n/2?ranked[0][0]:null;
   };
   const a=strictMajority("a"),b=strictMajority("b");
-  const item={setId:ref[i].id.split("|")[0],question:ref[i].question,
+  const item={setId:ref[i].id.split("|")[0],question:ref[i].question,initialLabel:a,finalLabel:b,
     initialCovered:a!==null,finalCovered:b!==null,
     initialCorrect:a!==null&&a===key,finalCorrect:b!==null&&b===key};
   if(a!==null){panelInitial.covered++;if(a===key)panelInitial.correct++;else panelInitial.wrong++;}
@@ -233,7 +233,7 @@ const panelMajority={
     initialMajorityAccuracy:panelInitial.correct/panelInitial.covered,
     finalMajorityAccuracy:panelFinal.correct/panelFinal.covered,
     initialCorrectFraction:panelInitial.correct/ref.length,finalCorrectFraction:panelFinal.correct/ref.length},
-  majorityLabelChanged:panelItems.filter(x=>x.initialCovered!==x.finalCovered).length,
+  majorityLabelChanged:panelItems.filter(x=>x.initialLabel!==x.finalLabel).length,
   clusterBootstrap:{bySet:panelClusterBootstrap(x=>x.setId,20261030),
     byExactQuestion:panelClusterBootstrap(x=>x.question,20261031)}
 };
