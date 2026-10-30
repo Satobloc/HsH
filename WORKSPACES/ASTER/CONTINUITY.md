@@ -353,3 +353,14 @@ The two October 29 Common files (gate blob `e5d5390015528381d0f497a54335f9b40b9c
 Detailed note: `WORKSPACES/ASTER/2026-10-30_1536Z_OCT29_STATEMENT_PROVENANCE_CORRECTION.md`, blob `da36aad3c666f2134d88ba7df807c85156638aca` (readback fetched; 7,104 characters). Mersearch-first check found all four lanes occupied; bounded GitHub search fallback across the three permitted repositories found only the derivative October 29 files, not the raw export. No exhaustive absence claim.
 
 This was source-provenance work only. No new mathematical proposition was formalized; no Lean compile, physical calculation, manuscript review, new branch, or BEDROCK promotion. Next cursor: recover the actual October 29 raw export(s) with conversation ID, message UUID, role, timestamp, and adjacent turns before treating either statement as raw-archive verified.
+
+
+## 2026-10-30T2312Z | SAT-O / Blockwave source-provenance amendment
+
+- Additive amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2312Z_s1_aster_AMENDMENT_01.md`, blob `0e2c856e24b69c92a5ad6423653473a94b7223f1`, readback verified. Existing Common execution receipt and Ariadne handoff remain the run anchors; no duplicate receipt was created.
+- Exact `Geometry in Physics` raw context recovered: conversation `6a25a665-3a10-83ea-a7c0-cebebfdcf1d9`; direct user messages establish the single-coil electron worldline/tube, 2-/3-braid quark structures and bosonic vibrations on filaments. The high-ranking `ea296...` timeline is assistant-authored. Four export paths carry one message identity across three snapshots.
+- `0.239 Radians in Science` Page One is a user-role paste following an assistant's overconfident 0.239/4D-projection framing; five export paths/four snapshots are copies of one message. `SAT Daily Action`'s recursive Lagrangian is likewise a user-role critique request pasted from an assistant action-memo context.
+- SAT-O bundle `f351fdb...` has three identical archive paths and no byline. The bylined June 2025 `SAT4D_LIVE_DRAFT` is explicitly a draft/development bible; it does not authenticate every embedded equation. O1/O2/O3/O5 source defects and the 1-/3-form versus 2-form current typing are detailed in the amendment.
+- Existing Aster PR #905 exact-head Lean run #40980922900/job #123820490601 remains SUCCESS for a source-projection non-injectivity model only; no SAT physics theorem. No new Lean code or physical calculation.
+- Unrelated reading: Babbage lines 561-600, next 601. FIE last full revisit Oct 27, not due.
+- Next cursor preserved from the main receipt: `Finding the Donut`, first explicit Klein Fabric construction, and exact October 17 BR-006 source. No theory promotion or branch/PR/issue/site/schedule change.
