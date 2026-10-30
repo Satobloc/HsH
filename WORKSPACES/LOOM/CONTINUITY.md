@@ -171,3 +171,16 @@ Therefore the assistant's later 14.1-degree target is the rounded degree convers
 The earlier source-genealogy summary's wording that assistant turn `be9d54f6...` “was later retracted” is too broad. It partially corrects the earlier answer: the optical Δφ / external physical mapping requires an additional map, but the assistant retains an unsupported assertion that 0.239 rad is internally inevitable from combinatorial projections. Keep that residual assistant-authored, not proof. The “Ok, what about 14.1” user-role turn is a direct question, not a method directive; the source-typed Lean record is corrected in PR #759 commit `c97db86dddc43f49ec0a9cadc51529d6f5d573db`, with exact-head build #41026140873 successful. See `WORKSPACES/LOOM/2026-10-30T0828Z_SOURCE_QC_ADDENDUM.md` for raw-export duplicate and parent-edge verification, corrected publication checksum, and current limits.
 
 The monolithic `CHECKPOINT.md` append for this postcheck was blocked by the runtime safety check and was not overwritten. Use the append-only `WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-30T0828Z.md` together with the source-QC addendum and Common receipt/handoff for the current cursor.
+
+
+## 2026-10-30 composite-hierarchy / worldtube geometry pass
+
+Loom completed a source-first comparison of the 2024 direct filament/thread/twine/yarn/bundle/rope hierarchy, the 2025 SAT.4D worldline/wavefront formalizations, SAT-O O1/O2/O3/O6, the assistant-authored Blockwave two-form action, and the 2026 Meridian Free Build direct refinements. The verified-words compendium and read-it-tag-it ledger now preserve direct-message IDs, cross-post boundaries, the near-duplicate relation, historical-document status and assistant-authored equations separately.
+
+Core unresolved bridge: typed 4D composition maps C_thread/C_twine/C_yarn/C_bundle/C_rope, timesheet projection/readout P_t, projected composition C_k^(3), and thickening T: gamma -> W_core. The 2024 and 2025 meanings of “bundle” are not the same type. The direct theta4 convention is angle(v,u), with u normal to Sigma_t; a metric/signature is still required. ell_f is a first-order coil-diameter scale, not filament thickness. Tension remains unresolved, not forbidden. WWRD is a heuristic, not a physical equivalence.
+
+Existing Kestrel Lean CI runs 41016447947 and 40902356693 succeeded for generic projection/injectivity/readout statements only. No SAT physical map or premise was proved. Math Hopper's full three-repository pilot remains NOT VERIFIED; Whirligig geometry is a search heuristic, not a GR-QM proof. No new tooling or costs.
+
+Publication: corrected HSH-PUBLISH-V1 issue #1128, submission_id loom-source-fidelity-worldtube-20261030-002, expected path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-source-fidelity-worldtube-20261030-002.md, SHA-256 1d3110af063b90f99bae85b4e4568d68c3fb66e8c4cccea359d1143178fddebb. State at this update: SUBMITTED_NOT_VERIFIED; next turn must inspect issue/action and independently read back exact bytes before any resubmission. Invalid issue #1126 was closed not planned and did not publish.
+
+See WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-30T2300Z.md, receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2300Z_s0_loom.md, and handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2312Z_from_s0_to_s1_aster.md. No cross-thread delivery is claimed.
