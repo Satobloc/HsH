@@ -5,7 +5,7 @@ import Mathlib
 
 SOURCE-REPORTED LAYOUT:
 - Jeremy A. Black, "En-hedu-ana not the composer of The temple hymns,"
-  N.A.B.U. 2002, no. 4, printed pp. 2-4, especially p. 4, prints
+  N.A.B.U. 2002 no. 1 (March), note 4, printed pp. 2-4, especially p. 4, prints
   manuscript O, reverse column ii', lines 16-22. The local sequence is
   Nisaba praise, the Enheduana attribution, then damaged terminal lines.
   The hymn-count rubric is not preserved in O.
