@@ -154,3 +154,13 @@ Consult Sable before changing workflow design/cadence/ownership. Use 🔶 only w
 The 0.239/0.246 source chain is now mapped in `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md` and summarized in the checkpoint. Keep the outer user role distinct from embedded-document authorship. The first raw 0.246 optical claim is inside a user-supplied document block; its embedded author is unresolved. The assistant's Z3/4D derivation is assistant-authored and was later retracted. Nathan's direct 0.239 projection interpretation, fact/reality-check request, math-first rule, and local-curvature hypothesis are separately tagged. The exact “This keeps coming up...” objection remains compiled-text-only with no raw role or UUID.
 
 Next source cursor: recover the original authoring source for the embedded “Page One” optical section and a raw role-tagged source for the transcript-only objection. Keep B, 0.239 rad, Phi ~= 0.246 rad, Delta-phi, and 14.1 degrees separate. Do not use anatomical angle matches as optical evidence. Existing PR #759 contains the new source-conditional Lean module; verify exact-head CI and theorem-specific axiom output before claiming compilation. No new branch, tool, or physical calculation.
+
+
+### 2026-10-30 08:20Z | scripted radian-degree clarification
+
+Python calculation using theta_deg = theta_rad * 180 / pi:
+- 0.239 rad = 13.693691303626673 degrees.
+- 0.246 rad = 14.094761760218251 degrees.
+- Difference = 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
+
+Therefore the assistant's later 14.1-degree target is the rounded degree conversion of 0.246 rad, not an independent observation. The conversion establishes no physical significance. Addendum: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`. No physical calculation or measurement.
