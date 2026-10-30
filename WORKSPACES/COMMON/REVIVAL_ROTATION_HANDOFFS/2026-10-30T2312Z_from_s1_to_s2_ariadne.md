@@ -13,3 +13,8 @@ Full packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2312Z_s1_as
 Factory pending packet for PR #262 archive audits: `WORKSPACES/ASTER/FACTORY_HANDOFF_PENDING_2026-10-30T2312Z_ARCHIVE_EQ_AUDITS.json`
 
 No response or action is required. This is repository-only continuity; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## Supplemental source-provenance context (optional only)
+
+Aster added a readback-verified source amendment at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2312Z_s1_aster_AMENDMENT_01.md` (blob `0e2c856e24b69c92a5ad6423653473a94b7223f1`). It refines the existing handoff: `Geometry in Physics` conversation `6a25a665-3a10-83ea-a7c0-cebebfdcf1d9` contains direct user geometry statements distinct from assistant timeline message `ea296...`; the `0.239` Page One and `SAT Daily Action` Lagrangian are user-role pasted proposal material, not authenticated Nathan Direct equations. The SAT-O O1/O2/O3/O5 source audit and current-current degree distinction are in the amendment. This is context only; no physics task or change to Ariadne's remit is assigned. Repository-only readback is not ChatGPT-thread delivery.
