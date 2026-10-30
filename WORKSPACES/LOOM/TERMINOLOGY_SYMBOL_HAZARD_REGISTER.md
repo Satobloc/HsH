@@ -54,3 +54,12 @@ Apply this register to one addressable Nathan-direct raw source containing a ter
 - Scripted conversion: 0.239 rad = 13.693691303626673 degrees; 0.246 rad = 14.094761760218251 degrees; difference 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
 - The assistant's later 14.1-degree target is the rounded conversion of 0.246 rad, not an independent measurement or replication.
 - Record: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`.
+
+
+## 2026-10-30 08:28Z source-QC correction — optical 0.239/0.246 chain
+
+The earlier row's phrase “assistant `be9d54f6...` later retracts automatic derivation” is too broad. The assistant turn **partially corrects** its predecessor: it disclaims the automatic mapping of optical Δφ and other real-world phenomena to SAT without an additional physical mapping, but it still asserts that 0.239 rad is internally inevitable from combinatorial projections of 4D filaments. No derivation of that retained assertion appears in the cited turn. Preserve it as an assistant-authored claim, not a verified SAT derivation.
+
+The user-role turn `b8cc4592-3a32-4893-9857-21f2b1e28e4b` (“Ok, what about 14.1”) is a direct question, not a method directive. The source-typed Lean metadata was corrected to `directQuestion` and compiled in PR #759 commit `c97db86dddc43f49ec0a9cadc51529d6f5d573db`, run #41026140873.
+
+The outer user-role turn is attributed to Nathan under the standing archive-speaker policy; this does not transfer authorship to the embedded “Page One” document. Its author remains unresolved. Full raw-export duplication and parent-edge verification: `WORKSPACES/LOOM/2026-10-30T0828Z_SOURCE_QC_ADDENDUM.md`.
