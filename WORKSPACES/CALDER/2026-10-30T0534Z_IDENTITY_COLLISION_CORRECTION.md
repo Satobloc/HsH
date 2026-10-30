@@ -60,3 +60,11 @@ The last full FIE review is recorded as 2026-10-27; the 14-day revisit threshold
 Tern/Sable: reconcile the empirical Calder identity pointer across REV-005, the instance stratigraphy, the rounded-target gate, and downstream receipts/handoffs. Preserve the Foundational Covariance / Global Architecture thread as a separate Calder identity. Do not invent the empirical thread ID; leave it UNKNOWN until an original export or exact conversation ID is recovered.
 
 No automation was created, edited, disabled, renamed, or rescheduled. No sixth recurrence, signet, theory promotion, or cross-chat delivery occurred.
+
+
+## Post-Hale-run status check — 2026-10-30T05:42Z
+
+- Hale's :24 automation run completed at 05:41:41Z. Its recorded result is a CODATA-cancellation derivation, an independent Raithel inversion/model-sensitivity analysis, an Aldus affine-timesheet PR #1082 with successful run #41009015850, and a text-only handoff to Elias Kern.
+- Hale's result text does **not** mention the Calder identity-provenance correction or its linked note. The expected repository receipt `2026-10-30T0524Z_s2_hale.md` and handoff `2026-10-30T0524Z_from_s2_to_s3_elias_kern.md` were still absent at the 05:42Z check. Therefore consumption of the original Calder handoff and the later identity supplement is **not explicitly evidenced**; no acknowledgement is claimed.
+- The :00 Aldus run remained `in_progress` (started 05:29:50Z) and its expected 05:00Z receipt/handoff were not available at this check. The :36 Elias Kern run had started 05:39:03Z and remained `in_progress`. No predecessor or successor participation is inferred from those states.
+- The :12 run itself remains `in_progress` in the automation registry while this final repository verification is being recorded. Its task ID, enabled state, and hourly :12 America/New_York schedule remain unchanged.
