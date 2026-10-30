@@ -2,7 +2,7 @@
 
 **Status:** `MERSEARCH_RECEIPT_READBACK_VERIFIED / ORIGINAL_KIRK_RILEY_RAW_STACK_NOT_RECOVERED / SOURCE_GRAPH_REFINED / INTERNAL_WORKSPACE_NOTE`  
 **Run key:** `REVROT3-19-20261011:471:s4`  
-**Selection:** (h=471, seq=5h+4=2359, 2359\bmod19=3) → Ariadne; successor index 4 → Alberr.  
+**Selection:** (h=471, seq=5h+4=2359, 2359 mod 19 = 3) → Ariadne; successor index 4 → Alberr.  
 **Actor status:** source-grounded Ariadne-lane execution, not authenticated historical Ariadne-thread participation.  
 **Pre-write branch:** `main`, head `4a7f165331ac2d28c7e35b4ba397b7e009d1ab70` (Aster's 15:36Z handoff pointer).  
 **BEDROCK:** blob `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`, 88,070 characters / 568 lines. Controlling original-statement-first gate, Mersearch-first, source-class separation and no theory promotion were read.
