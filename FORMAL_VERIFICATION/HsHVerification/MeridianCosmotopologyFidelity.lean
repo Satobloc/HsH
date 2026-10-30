@@ -48,7 +48,7 @@ theorem radial_scaling_preserves_zero_transverse_coordinate
 
 /-- Standard Euclidean point inversion with length scale L.
 The physical domain excludes the origin (r² = 0). -/
-def euclideanPointInversion (L x y z : ℝ) : ℝ × ℝ × ℝ :=
+noncomputable def euclideanPointInversion (L x y z : ℝ) : ℝ × ℝ × ℝ :=
   let r2 := x^2 + y^2 + z^2
   (L^2 * x / r2, L^2 * y / r2, L^2 * z / r2)
 
@@ -69,10 +69,22 @@ theorem euclidean_inversion_circle_image
     (euclideanPointInversion L x y 0).1 ^ 2
       + (euclideanPointInversion L x y 0).2.1 ^ 2
       = (L^2 / a)^2 := by
-  simp only [euclideanPointInversion, zero_pow, add_zero, mul_zero, zero_div]
-  rw [hcircle]
-  field_simp [ha]
-  nlinarith [hcircle]
+  simp only [euclideanPointInversion, zero_div, mul_zero]
+  have hden : x^2 + y^2 ≠ 0 := by
+    rw [hcircle]
+    exact pow_ne_zero 2 ha
+  calc
+    (L^2 * x / (x^2 + y^2))^2 + (L^2 * y / (x^2 + y^2))^2
+        = (L^2)^2 * (x^2 + y^2) / (x^2 + y^2)^2 := by
+            field_simp [hden]
+            ring
+    _ = (L^2)^2 / (x^2 + y^2) := by
+          field_simp [hden]
+          ring
+    _ = (L^2)^2 / a^2 := by rw [hcircle]
+    _ = (L^2 / a)^2 := by
+          field_simp [ha]
+          ring
 
 /-- For the quotient convention (n,L) ~ (Q n,0), the lifted deck step is
 (x,m) ↦ (Q x,m-1). Thus the one-period lift representing the same quotient
