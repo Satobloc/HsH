@@ -59,3 +59,7 @@ Issue #1068 is now `PUBLISHED_VERIFIED`; publisher comment `6513660223`, commit 
 ## Data-availability follow-up (2026-10-30T02:46Z)
 
 A bounded HEPData search did not locate a machine-readable 47-point table for the cited LEP2 analysis. Not exhaustive; no refit/covariance reconstruction. See issue #1068 comment `6513683828`.
+
+## Prior Hale module distinction
+
+`ChargeSupportIdentifiabilityGate.lean` is still present on the PR branch (blob `9071a40e5b2b15507bc26c9d1d09094791565424`) but remains unimported and uncompiled. Do not treat it as verified or conflate it with the new imported Morrow source-evidence gate.
