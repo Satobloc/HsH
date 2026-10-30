@@ -166,7 +166,79 @@ const peerMajority={
   bootstrapReplicates:10000,clusterBootstrap:peerBootstrap
 };
 
-console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority},null,2));
+
+const panelInitial={covered:0,correct:0,wrong:0,noMajority:0};
+const panelFinal={covered:0,correct:0,wrong:0,noMajority:0};
+const panelTransitions={correctToCorrect:0,correctToWrong:0,wrongToCorrect:0,wrongToWrong:0,initialOnly:0,finalOnly:0,neither:0};
+const panelItems=[];
+for(let i=0;i<ref.length;i++){
+  const rs=models.map(m=>m.rows[i]),key=ref[i].key;
+  const strictMajority=field=>{
+    const counts={yes:0,no:0,cannot_determine:0};
+    for(const r of rs)if(valid.has(r[field]))counts[r[field]]++;
+    const n=Object.values(counts).reduce((a,b)=>a+b,0);
+    const ranked=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+    return n&&ranked[0][1]>n/2?ranked[0][0]:null;
+  };
+  const a=strictMajority("a"),b=strictMajority("b");
+  const item={setId:ref[i].id.split("|")[0],question:ref[i].question,
+    initialCovered:a!==null,finalCovered:b!==null,
+    initialCorrect:a!==null&&a===key,finalCorrect:b!==null&&b===key};
+  if(a!==null){panelInitial.covered++;if(a===key)panelInitial.correct++;else panelInitial.wrong++;}
+  else panelInitial.noMajority++;
+  if(b!==null){panelFinal.covered++;if(b===key)panelFinal.correct++;else panelFinal.wrong++;}
+  else panelFinal.noMajority++;
+  if(a!==null&&b!==null){
+    if(a===key&&b===key)panelTransitions.correctToCorrect++;
+    else if(a===key&&b!==key)panelTransitions.correctToWrong++;
+    else if(a!==key&&b===key)panelTransitions.wrongToCorrect++;
+    else panelTransitions.wrongToWrong++;
+  }else if(a!==null)panelTransitions.initialOnly++;
+  else if(b!==null)panelTransitions.finalOnly++;
+  else panelTransitions.neither++;
+  panelItems.push(item);
+}
+assert.deepEqual(panelInitial,{covered:1077,correct:749,wrong:328,noMajority:73});
+assert.deepEqual(panelFinal,{covered:1078,correct:839,wrong:239,noMajority:72});
+assert.deepEqual(panelTransitions,{correctToCorrect:722,correctToWrong:12,wrongToCorrect:92,
+  wrongToWrong:219,initialOnly:32,finalOnly:33,neither:40});
+function panelClusterBootstrap(keyFn,seed0){
+  const map=new Map();
+  for(const item of panelItems){
+    const key=keyFn(item),z=map.get(key)??{n:0,initialCovered:0,finalCovered:0,initialCorrect:0,finalCorrect:0};
+    z.n++;z.initialCovered+=item.initialCovered?1:0;z.finalCovered+=item.finalCovered?1:0;
+    z.initialCorrect+=item.initialCorrect?1:0;z.finalCorrect+=item.finalCorrect?1:0;map.set(key,z);
+  }
+  const clusters=[...map.values()],B=10000,values={coverageDelta:[],correctFractionDelta:[],initialMajorityAccuracy:[],finalMajorityAccuracy:[]};
+  let seed=seed0;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+  for(let b=0;b<B;b++){
+    let n=0,ic=0,fc=0,iv=0,fv=0;
+    for(let j=0;j<clusters.length;j++){
+      const z=clusters[Math.floor(random()*clusters.length)];
+      n+=z.n;ic+=z.initialCorrect;fc+=z.finalCorrect;iv+=z.initialCovered;fv+=z.finalCovered;
+    }
+    values.coverageDelta.push((fv-iv)/n);
+    values.correctFractionDelta.push((fc-ic)/n);
+    values.initialMajorityAccuracy.push(iv?ic/iv:0);
+    values.finalMajorityAccuracy.push(fv?fc/fv:0);
+  }
+  const q=(a,p)=>{const z=a.slice().sort((x,y)=>x-y);return z[Math.floor(p*(z.length-1))];};
+  return {clusters:clusters.length,replicates:B,
+    intervals:Object.fromEntries(Object.entries(values).map(([k,a])=>[k,[q(a,.025),q(a,.975)]]))};
+}
+const panelMajority={
+  interpretation:"strict question-level majority among the 17 model-labelled archived outputs; benchmark-key-relative, not independent-vote truth",
+  initial:panelInitial,final:panelFinal,transitions:panelTransitions,
+  rates:{initialCoverage:panelInitial.covered/ref.length,finalCoverage:panelFinal.covered/ref.length,
+    initialMajorityAccuracy:panelInitial.correct/panelInitial.covered,
+    finalMajorityAccuracy:panelFinal.correct/panelFinal.covered,
+    initialCorrectFraction:panelInitial.correct/ref.length,finalCorrectFraction:panelFinal.correct/ref.length},
+  majorityLabelChanged:panelItems.filter(x=>x.initialCovered!==x.finalCovered).length,
+  clusterBootstrap:{bySet:panelClusterBootstrap(x=>x.setId,20261030),
+    byExactQuestion:panelClusterBootstrap(x=>x.question,20261031)}
+};
+
+console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority,panelMajority},null,2));
 }
 if(process.argv.length!==3)throw Error("Usage: node script.js /path/to/ConsistencyBench");
 main(process.argv[2]);
