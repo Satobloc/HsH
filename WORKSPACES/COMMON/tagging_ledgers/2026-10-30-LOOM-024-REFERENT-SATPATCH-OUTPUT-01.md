@@ -21,6 +21,18 @@
 | CHRONOPHYSICAL PROPOSITION/hostile_pass_c_plus.txt | 4562c67103dce361b5e67b9f49a1f56f0d5983b7; archive commit 2026-10-29T20:00:52Z | INTERNAL-AUDIT-ARTIFACT, STATED-3-OF-20-PASSES, SYNTHETIC-MONTE-CARLO, NOT-EMPIRICAL, AUDITOR-IDENTITY-UNVERIFIED. Aldus has already audited its count/rubric details. |
 | SAT Mark V/SAT_Phase_Shift_Note.txt | f110f6f7a2e2c1515528619296957acec3518acb; archive commit 2025-10-27T23:48:37Z | HISTORICAL-PHASE-NOTE, INFINITE-DOMAIN-INTEGRAL, CONVERGENCE-ISSUE-PRIOR-MERCER-ALDUS, DO-NOT-REDERIVE. |
 
+
+
+Additional historical context read in this pass:
+
+| Source | Blob SHA | Tags and provenance |
+|---|---|---|
+| HYPERFOAM THEORY/4DHHUC—DISCUSSION.txt | 22b3dcc3194d89a4a90badbee7c22dc9588613b7 | SPEAKER-ATTRIBUTED-DIALOGUE, 0.246RAD-OBJECTION-CONTEXT, DIMMING-RESCUE-CONTEXT, RAW-ROLE-NOT-RECOVERED. Exact duplicate at HsH-SAT Roundup 3/4DHHUC—DISCUSSION.txt; one witness. |
+| SAT O Core Modules/SAT.O Official Directives.txt | 167136310cdf33ca8f986f33634692314c1a0946 | HISTORICAL-CORE-DIRECTIVE, O1-O8-SCOPE, VERSION-BOUNDARY; not a current BEDROCK amendment. |
+| SAT O Derivations/ACTION PLAN.txt | 06d9a5142ba4521de970d81bde3564fa31ad0d40 | HISTORICAL-ACTION-PLAN, O9-O10-PREDICTIVE-CLAIM, GROUND-STATE-FIT-CONTEXT; prior O9 report covers detailed collision. |
+| SAT O Derivations/audit_results.txt | 66da0983476329015b9e4d3394d3c28f53a15b16 | GENERAL-AUDIT-HARNESS-RESULTS, NOT-OPTICAL-O9-AUDIT-RESULT. |
+| SAT O Core Modules/O9-10_intro.txt | 7ca41068bc3f753a86d486817856a5c0dbbd041d | HISTORICAL-MASS-MODULE-INTRO, GROUND-STATE-CALIBRATION, NOT-OPTICAL-RETARDANCE-MODULE. |
+
 ## Raw-message index and attribution
 
 Existing Tern request: tern-rook-optical-kink-genealogy-20261024t17z-001. Reused its existing SEARCH_RECEIPT.md and SEARCH_RESULTS.json; no new Mersearch request was created. The indexed results file blob is f76bd43e31370530adc94c0cf4502e33ef2ee9a1.
