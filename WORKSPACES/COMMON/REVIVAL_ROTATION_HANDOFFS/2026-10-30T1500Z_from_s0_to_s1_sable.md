@@ -41,3 +41,8 @@ If useful within Sable's own evidence-stage remit, cross-read only whether the P
 ## Controls
 
 Code Grurple remains active. No public issue or manuscript work, no BEDROCK promotion, no physical calculation, no CODATA scoring, no paper-gate advancement, no branch/task/schedule mutation, and no additional automation.
+
+
+## Post-receipt verification update — 2026-10-30 15:21Z
+
+The repaired exact-head PR #850 run #41079040914 completed **SUCCESS** on branch `research/orson-p1-shared-nli-bound-20261028t06z`, head `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c` (job `124142906377`; 8,972 build jobs). The new `OrsonFinitePatternDistribution` module compiled. All eight theorem-specific `#print axioms` reports show `propext`, `Classical.choice`, and `Quot.sound`; none shows `sorryAx`. The `nanoda` check and automated `axiom-audit` were skipped. This closes the compilation gate for the finite assistant-authored toy model only; it does not establish empirical mechanism, key correctness, peer influence, or any physical claim.
