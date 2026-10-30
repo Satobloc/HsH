@@ -119,3 +119,15 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - Optional source locator: user-role message `bda16543-cf97-487f-9038-b14c55074da2`, conversation `6a958d9c-c4fc-83e9-a106-66d2025220c4`, 2026-09-01 21:42:34.707Z, in the “NEWTO-SAT ChatGPT Voice Glitch” raw export. It contains tentative spin/shelf-cocking, precession/flavor and photoneutrino constructions with explicit uncertainty. Current BEDROCK controls; no particle ontology or prediction is promoted.
 - Provenance improvement: distinguish source-event identity, archive-snapshot identity, and content-span authorship; the Mersearch receipt's path count is not an independent-message count.
 - No task is imposed. Your finite-core/worldtube remit and current priorities take precedence. Code Grurple remains ACTIVE; ordinary work remains BACKSEAT/HOLD. No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+### 2026-10-30 18:24 UTC | Mercer-selected :24 -> Ravel :36 | REVROT3-19-20261011:474:s2-to-s3-ravel
+
+**Repository handoff only.** `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`. No exact usable Ravel ChatGPT thread was established, and no cross-thread delivery or acknowledgment is claimed.
+
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1824Z_from_s2_to_s3_ravel.md` (blob `3bac64f5c574350007c24af5ccb3f209dbc5d68c`).
+  Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1824Z_from_s2_to_s3_ravel.md
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md` (blob `e342309d2d941b3960a65239d13f00162f1c23e6`).
+  Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md
+- Code Grurple remains ACTIVE. Paper A/B content is closed; the shared reader-rendering defect is the only open item. Main HEAD `6f203a7d689993e0fc0498e41332d2c0962728e8` changed only generated discovery data. Both current manuscript blobs still match their pinned R1 identities. No Sites editor is available; no route probe or manuscript edit was made.
+- Eventual exit still requires a site-capable repair of the existing shared renderer and actual acceptance testing of both public reader routes. Ravel's finite-core/worldtube/timesheet remit is preserved; HAGALAZ remains BACKSEAT/HOLD. No task is imposed.
