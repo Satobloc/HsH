@@ -13,7 +13,7 @@ The prior 18:24Z receipt/handoff described the branch inventory as “main only.
 
 - The repository default branch is `main`.
 - A branch search returned 100 branch records, including numerous worker/research branches. The query was capped at 100 and is not treated as an exhaustive branch count.
-- The latest observed repository commit is `fd312412bc2b0562371f08438df2d2e1fd696090`, timestamped 2026-10-30 18:24:51Z, message “Refresh public display docket from source receipts.” The connector did not expose an authoritative branch-ref SHA in this pass, so this is **not** asserted to be the exact current `main` HEAD.
+- The latest observed **pre-supplement** repository commit was `fd312412bc2b0562371f08438df2d2e1fd696090`, timestamped 2026-10-30 18:24:51Z, message “Refresh public display docket from source receipts.” This run then committed the supplement to `main` as `67fb42b2c7d182e6bebd5f32c488f59bde452e68` and updated Ravel's inbox pointer in commit `69b71282ee15507b74de655ad4749623121ed30b`. The connector did not expose an authoritative branch-ref SHA in this pass, so no exact current `main` HEAD is asserted.
 - `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` is blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`, last updated 2026-10-30 06:12Z. It is a useful control record but stale relative to the current repository activity.
 
 ### Expected predecessor
@@ -30,7 +30,7 @@ The Code Grurple interlock remains active. Paper A/B content remains closed; the
 
 The current Mercer README (blob `817ce5c255e9c88aa0c63cb43670690b039f1cdb`) and trial checkpoint (blob `b0919ef45967d01e0459d6336da8523ccab5cb1b`, current through Run 146) define the operational remit as archive/index/retrieval/provenance/documentation QA plus Nathan Direct methodology and source reconstruction.
 
-The historical Sable Revival Rotation export records a direct user instruction on 2026-09-13 14:06:28Z (message `ae5b7dcc-ff78-4044-80fd-5793dc9bf968`) authorizing intelligent duty division and source-first extraction/tagging. It does **not** name Mercer. The Mercer-named role assignment in `AUTOMATION_WORKFLOW_CONTROL.md` is assistant-authored. The exact Mercer-named Nathan authorization remains unrecovered; do not upgrade the provenance.
+The prior 18:24Z source-verified receipt reports that a Sable Revival Rotation export (conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`) contains an **assistant-authored** Mercer role assignment, and that direct user message `ae5b7dcc-ff78-4044-80fd-5793dc9bf968` (2026-09-13 14:06:28Z) authorizes intelligent duty division and source-first extraction/tagging but does **not** name Mercer. The raw export path for that exact conversation was not re-retrieved in this pass. The exact Mercer-named Nathan authorization therefore remains unrecovered; do not upgrade the provenance.
 
 ## 3. Mersearch-first retrieval
 
@@ -46,7 +46,7 @@ Raw source file: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DI
 Git blob: `2cea1924266418e19b825b95ae51e6b7cbace7e1`  
 Conversation: `252d05c0-8b4d-4e9f-93c7-6cbccce1c6c7`
 
-Role-authenticated user messages `aaa28a9a-dcfc-4835-8359-e7da7b36911c` (2024-03-22 17:07:55.781Z) and `aaa24791-27b2-4b58-8f1a-19ee7e30d650` (2024-03-23 06:14:56.575Z) describe four-dimensional strings intersecting a three-dimensional time surface, “now” as the current intersection/wavefront, and complexity as arising from filament interactions. These are qualitative geometric proposals. They do not specify a rope constitutive law, finite cross-section, local director/twist frame, contact law, or detector/readout map.
+Raw-export user-role messages `aaa28a9a-dcfc-4835-8359-e7da7b36911c` (2024-03-22 17:07:55.781Z) and `aaa24791-27b2-4b58-8f1a-19ee7e30d650` (2024-03-23 06:14:56.575Z) describe an explicitly tentative early intuition: four-dimensional strings as fundamental building blocks; particle behavior *possibly* related to string vibration; time as a three-dimensional surface intersecting the strings; “now” as the current intersection, analogous to a propagating wavefront. The follow-up says complexity arises from interactions among filaments/threads/ropes, not from the time-surface intersection itself. These are qualitative proposals, not a mathematical model. They do not specify a rope constitutive law, finite cross-section, local director/twist frame, contact law, or detector/readout map.
 
 ### June 22, 2026 WWRD source
 
@@ -66,13 +66,14 @@ The existing WWRD report `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/wwrd-rope-cont
 
 G. Kozyreff and B. Seron, “Dynamical elastic contact of a rope with the ground,” *Physical Review Research* 3, L022026 (2021), DOI `10.1103/PhysRevResearch.3.L022026`, arXiv:2103.14395.
 
-- Actual object: 2 mm stranded metallic wire rope; line density 15 g/m; bending stiffness approximately 0.0005 N m²; initial elevation 0.81 m.
-- The experiment manually applies tension of order 1 N, but does not measure tension directly. The static contact location (x_0) is used as a monotone proxy for tension.
-- Seven measured ((x_0,f_1)) pairs are reported. (x_0) uncertainty is ±0.03 m; transition-frequency uncertainty is about ±0.02 Hz. The paper does not supply a full covariance/error model.
-- Recomputed from the seven published frequencies: mean (f_1=1.1957143) Hz; descriptive sample SD (0.0190238) Hz; range 1.17–1.23 Hz.
-- Reproducing the paper’s approximate model value with (g=9.81 mathrm{m,s^{-2}}) and (Z_0=0.81) m gives (sqrt{g/(8Z_0)}=1.2304019) Hz. Model value minus observed mean is 0.0346876 Hz, or 2.8192% of the model value. The paper gives approximately 1.23 Hz; the exact local (g) was not reported, so (9.81) is a reproduction input, not a measured local-gravity value.
+- The seven-point resonance table uses a 2 mm stranded metallic wire rope; line density 15 g/m; bending stiffness approximately 0.0005 N m²; initial elevation 0.81 m.
+- The experiment manually applies tension of order 1 N, but does not measure tension directly. The static contact location x0 is used as a monotone proxy for tension.
+- Seven measured (x0, f1) pairs are reported. x0 uncertainty is ±0.03 m; transition-frequency uncertainty is about ±0.02 Hz. The paper does not supply a full covariance/error model.
+- Recomputed from the seven published frequencies: mean f1 = 1.1957143 Hz; descriptive sample SD = 0.0190238 Hz; range 1.17–1.23 Hz.
+- Reproducing the paper’s approximate model value with g = 9.81 m/s² and Z0 = 0.81 m gives sqrt(g/(8 Z0)) = 1.2304019 Hz. Model value minus observed mean is 0.0346876 Hz, or 2.8192% of the model value. The paper gives approximately 1.23 Hz; the exact local g was not reported, so 9.81 is a reproduction input, not a measured local-gravity value.
 - This is a descriptive reproduction of the paper’s small-slope/constant-tension model, **not** an independent H(s)H prediction or a formal significance test. The paper itself notes that tension was not actively controlled, the slope is not everywhere small, parasitic slip makes tension vary, and quantitative agreement of the large-wave boundary is poor.
-- The observed small-wave and large-wave regimes can coexist at the same forcing parameters. The simple model does not reproduce the large-wave regime. The reported minimum near 2.3 Hz is a minimum in a forcing/bifurcation boundary, not a universal energy-conversion minimum.
+- Important system distinction: the paper’s large-wave/small-wave coexistence experiment uses a different, heavier rope (line density 48 g/m, bending stiffness approximately 0.01 N m²). Do not attach that regime result to the 2 mm, 15 g/m rope used for the seven-point resonance table. The simple model does not reproduce the large-wave regime.
+- The reported minimum near 2.3 Hz is a minimum in a forcing/bifurcation boundary, not a universal energy-conversion minimum.
 
 ### B. Torsion, tension, and fracture load
 
@@ -86,7 +87,8 @@ H. Endo, S.-J. Yoon, and K. Arakawa, “Effects of Torsion on Mechanical Propert
 
 ### C. Actual climbing-rope falls and weight dependence
 
-- U. Leuthäusser, September 2018 author manuscript, published 2019: measured force-deformation curves for Cobra 10.3 across successive UIAA falls; eight successful falls and fracture on the ninth. The reported approximately 30% loss of energy-storage capacity and approximately 40% spring-constant increase are inferred from curve scaling/model analysis, not direct calorimetry. The paper separates global plastic deformation from local anchor-contact damage.
+- U. Leuthäusser, “The fracture of a climbing rope: a phenomenological approach,” author manuscript dated September 2018 and published in 2019. The retrieved Table 1 reports Cobra 10.3 and Joker 9.1 parameters, U/Ufall = 1.90 and 1.41, and a3/a1 = 1.25 and 1.35, respectively. The table text says the Cobra held eight successful falls and the Joker four. It does **not** document an observed ninth-fall break in the retrieved passage.
+- The earlier WWRD summary's generic “30% energy-storage loss / 40% spring-constant increase” is not supported as a within-rope change by that table. Its 30% and 40% entries are in the table’s relative-difference row comparing rope types; within-rope a3/a1 ratios correspond to 25% and 35%. Treat the 30%/40% summary as **SOURCE_CORRECTION_REQUIRED** unless a different exact source span and definition are produced. The table's energy-capacity ratios are model/curve-derived, not direct calorimetry.
 - A. Nikonov et al., DOI `10.1177/17543371241265997`, first online 2024-07-26, issue publication June 2026: a falling-weight climbing-rope experiment measures impact force, deformation, dissipated/retrieved energy, and maximum deceleration; the abstract reports non-monotonic maximum-deceleration dependence on mass. Full numerical tables/raw traces were not available in this pass; no numerical reanalysis is claimed.
 - Petzl product specifications remain nominal manufacturer data, not specimen-resolved force-time traces or torsional measurements. They do not supply a direct WWRD dataset.
 
@@ -96,7 +98,7 @@ H. Endo, S.-J. Yoon, and K. Arakawa, “Effects of Torsion on Mechanical Propert
 
 For any future fundamental-constant comparison, the current NIST source is the **2022 CODATA recommended values, Web Version 9.0 (9 May 2024)**. NIST identifies these as the latest CODATA values available and states that the 2026 adjustment is the next scheduled adjustment, with eligible data required to be available in a publication/preprint before 31 December 2026. As of this 2026-10-30 pass, no published 2026 recommended set was found.
 
-The 2022 adjustment is not a raw measurement table. Mohr et al. report a least-squares adjustment of 133 input data and 79 adjusted constants (54 degrees of freedom). Correlations among input data are included through covariances. The initial (chi^2=109.6) was inconsistent with 54 degrees of freedom; the adjustment applied uncertainty expansion factors 1.7 to specified H/D and related data and 2.5 to six fine-structure-constant data, producing final (chi^2=44.2), (p=0.83). The 16 gravitational-constant data were treated separately with a 3.9 expansion factor. The paper documents experimental inputs, theoretical observational equations, data exclusions, correlations, and model-dependent corrections.
+The 2022 adjustment is not a raw measurement table. Mohr et al. report a least-squares adjustment of 133 input data and 79 adjusted constants (54 degrees of freedom). Correlations among input data are included through covariances. The initial chi^2 = 109.6 was inconsistent with 54 degrees of freedom; the adjustment applied uncertainty expansion factors 1.7 to specified H/D and related data and 2.5 to six fine-structure-constant data, producing final chi^2 = 44.2, p = 0.83. The 16 gravitational-constant data were treated separately with a 3.9 expansion factor. The paper documents experimental inputs, theoretical observational equations, data exclusions, correlations, and model-dependent corrections.
 
 **Applicability:** CODATA is not the relevant reference for the material/rope comparisons above. Those require measured specimen parameters and local experimental conditions. If a later H(s)H comparison uses fundamental constants, record the CODATA version, source experiment/theory, adjusted-vs-measured status, relative uncertainty, and correlation coefficients before comparing; do not treat a CODATA recommended value as an independent raw measurement.
 
