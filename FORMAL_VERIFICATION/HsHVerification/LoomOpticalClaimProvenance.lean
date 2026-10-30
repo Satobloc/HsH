@@ -208,7 +208,7 @@ theorem march_assistant_conversion_is_direct_child_of_submitted_test :
     parentOf marchAssistantConversion marchUserSuppliedOpticalTest = true := by
   decide
 
-theorem 141_target_reframing_is_an_assistant_only_chain :
+theorem fourteen_one_target_reframing_is_an_assistant_only_chain :
     parentOf assistant141Hop1 nathanQuestion141 = true ∧
     parentOf assistant141Hop2 assistant141Hop1 = true ∧
     parentOf assistant141Reframing assistant141Hop2 = true ∧
@@ -230,7 +230,7 @@ theorem projection_statement_is_direct_interpretation_not_formal_proof :
 #print axioms assistant_correction_is_direct_child_of_nathan_challenge
 #print axioms fact_reality_request_follows_assistant_correction
 #print axioms march_assistant_conversion_is_direct_child_of_submitted_test
-#print axioms 141_target_reframing_is_an_assistant_only_chain
+#print axioms fourteen_one_target_reframing_is_an_assistant_only_chain
 #print axioms local_curvature_statement_is_a_direct_hypothesis
 #print axioms projection_statement_is_direct_interpretation_not_formal_proof
 
