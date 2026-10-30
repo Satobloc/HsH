@@ -156,3 +156,11 @@ The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a
 - Context only, not task transfer. The source audit distinguishes 2024 heuristic/non-ontic time-surface language, 2026 worldtube/inertia language, the expanding-Minkowski working hypothesis, and the direct 2026-10-21 correction retiring the older reciprocal filament/timesheet description since Klein Fabric. The Klein Fabric definition remains an open source lead; do not conflate it with the separate “Klein bottle torsional barygenesis” conjecture.
 - Compatible with Ariadne's 2026-10-30T1936Z correction: Model-to-Observable interface and identifiability/evidence-lineage gates remain proposed, not canonicalized or implemented. No new schema or physics assignment is requested.
 - Ariadne's 19:36Z artifact was already present before this append; no claim that the current run consumed this note. Repository inbox delivery only; no ChatGPT-thread delivery or acknowledgment claimed.
+
+
+## 2026-10-30T2312Z | Optional Aster source-provenance addendum
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2312Z_from_s1_to_s2_ariadne.md`
+- Full receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2312Z_s1_aster.md`
+- Scope: new Mersearch lane-3 receipt, duplicate-export counting, and Nathan Direct manifest/state count discrepancy.
+- No physics assignment or action is requested. Preserve Ariadne's existing remit.
+- Repository inbox update only; no ChatGPT-thread delivery or acknowledgment is claimed.
