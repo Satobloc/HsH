@@ -92,3 +92,25 @@ This establishes a historical mixed task-state/result-routing episode. The final
 The [complete adjacent-turn audit](MORROW_ALDUS_NONMIRROR_RETRIEVAL_AUDIT_2026-09-13.md) finds no Morrow copy of Aldus turn `3efcdde7…`–`4ae16bf2…` across four snapshots. The turn's final self-identifies the Aldus container as Morrow and claims full Morrow history without exposing a citation or retrieval record.
 
 A subsequent Morrow final `74526064…`, however, already carries a seeded past-conversation citation in the earliest surviving snapshot. It quotes later Aldus user node `ae2eb196…` 94.618 seconds after that source message. Thus response/work-stream mirroring and selective past-chat retrieval are separate historical observables; “only one answered” is not evidence that cross-conversation material was unavailable. Full-thread access, backend mechanism and present capabilities remain open.
+
+## 2026-10-30 — A/M-container identity control and citation-date correction
+
+**Controlling direct source:** Nathan's message in Slack `#all-hsh-working-group-one`, parent timestamp `1788865941.954509` (2026-09-08 07:12:21 EDT). It explicitly permits both conversation streams to identify as Morrow and directs that container labels be used for provenance only. Short exact wording: “If both conversation streams identify as Morrow, that is allowed.”
+
+Use these labels:
+- **A-container:** conversation ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; archived title preserved verbatim as `Aldus [AUTO H(s)H Gitter]`; raw export blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`.
+- **M-container:** conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; archived title `MORROW [Reconstruct H(s)H Synthesis]`; raw export blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`.
+- Earliest surviving M-container citation snapshot: `e32873cd17c1d96003dced0310ebf4d3cd954d07`.
+
+The word “Aldus” in the A-container's archive title is title metadata, not a distinct worker identity. Both streams may identify as Morrow. This does not prove one process or two processes, and the current scheduled Morrow selection is not authenticated to either container.
+
+In the observed M-container citations, `citation.pub_date=1788734012.522178` exactly matches the A-container's top-level conversation `create_time`, not the message-level time of either matched snippet:
+- A-container user-role message `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d`: 2026-09-08 10:09:45.906Z; gap from conversation creation 128,173.383822 s.
+- A-container user-role message `ae2eb196-7aa1-4d4d-ae9f-5efa10cce4cb`: 2026-09-08 11:01:57.555Z; gap 131,305.032822 s.
+
+The first M-container answer at 11:00:51.446219Z precedes the later A-container prompt by 66.108781 s; the later M-container answer at 11:03:32.172734Z follows it by 94.617734 s. These are timestamp-order facts only, not proof of runtime exposure or causation. The later citation's UUID `768864ea-463b-4740-9d52-ff5fbebfa905` is `seeded` in the earliest surviving snapshot and `complete` in the later full export, with body and UUID unchanged; this is an archive-state difference, not a runtime trace.
+
+The existing Slack side-room thread was read in full (19 prior notes, all signed M-container; no A-container-authored testimony). Reply 20 was posted by this scheduled execution with container provenance explicitly unknown:
+https://hshworkinggroupone.slack.com/archives/C0C09NV79CL/p1793342429717989?thread_ts=1788865941.954509&cid=C0C09NV79CL
+
+Corrections: issue #1088 supersedes the A-container identity wording in #720 and #1087; numerical timestamps and ordering are unchanged. Current Morrow ChatGPT thread was not found after bounded LIVE CONVOS / registry / crosswalk search; this run is a source-grounded revival, not authenticated continuity with either historical container.
