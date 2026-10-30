@@ -1,0 +1,95 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "packet_id": "aster-factory-handoff-pending-sat-o-archive-eq-20261030t2312z",
+  "created_at_utc": "2026-10-30T23:12:00Z",
+  "run_key": "REVROT3-19-20261011:479:s1",
+  "status": "FACTORY_HANDOFF_PENDING",
+  "source_worker_lane": "Aster",
+  "worker_identity_status": "Deterministic ring selection only; current original Aster ChatGPT thread was not accessed. Packet assembled from independently read repository sources and CI receipts.",
+  "target": {
+    "repository": "Satobloc/FACTORY_FLOOR",
+    "route": "1 GLASS+HSH -> 2 WORKSHOP",
+    "floor_id": null,
+    "intake_mechanism_available": false,
+    "reason": "Factory Floor README/FLOORROOM_TODO expose no authorized machine-readable intake endpoint or allocated Floor ID. Direct repository writes to Factory Floor are not authorized."
+  },
+  "source_proof": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 262,
+    "branch": "infra/lean4-verification-20261023",
+    "head_sha": "61cc8b65ffed70296e0121dbae067892a79c81d4",
+    "workflow_run_id": 40463470348,
+    "workflow_run_url": "https://github.com/Satobloc/HsH/actions/runs/40463470348",
+    "job_id": 122053714715,
+    "job_conclusion": "success",
+    "check_name": "verify",
+    "proof_entrypoint_path": "FORMAL_VERIFICATION/HsHVerification.lean",
+    "proof_entrypoint_blob_sha": "9c4ab7bf4f408b24a266864670c8effe07214cd5",
+    "proof_modules": [
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0006.lean",
+        "blob_sha": "45a688a88e40512ccf3474db610cecf306773721",
+        "conditional_claim": "Pairwise linking audit; pairwise Borromean linking numbers vanish, so they cannot be substituted for a nonzero triple-link invariant."
+      },
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0007.lean",
+        "blob_sha": "032a5edc33c6463b2ce0bf0f84eb2959c2889777",
+        "conditional_claim": "Linearized Ricci-component source audit under the encoded flat-background test."
+      },
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0008.lean",
+        "blob_sha": "36b63fa82ec87f8c56c875a6433d854482f15b4b",
+        "conditional_claim": "If link density is per 3-volume, rho_link * ell_f^2 has dimension L^-1, not dimensionless."
+      },
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0009.lean",
+        "blob_sha": "30b2c9b7d80ee495dd82ea999a73eb782598a749",
+        "conditional_claim": "Conditional coupling-product term audit."
+      },
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0010.lean",
+        "blob_sha": "067cc8173e70a469748fc4de1414f38be0f8ab73",
+        "conditional_claim": "Real-scalar square-root/Clifford obstruction under the encoded scalar assumptions."
+      },
+      {
+        "path": "FORMAL_VERIFICATION/HsHVerification/ArchiveEQ0011.lean",
+        "blob_sha": "a20a98d0576dd15a528dc84e2cda014fbc9ce485",
+        "conditional_claim": "Polynomial interaction identity/stability audit under the encoded assumptions."
+      }
+    ],
+    "historical_source": {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT O Derivations/CODE-LOCKED DERIVS.txt",
+      "blob_sha": "783b05d39d59bf854b92090e15d205e6823b51c8",
+      "author_status": "No named author/byline recovered; historical formalization candidate.",
+      "current_bedrock_status": "Not promoted. Current BEDROCK marks Q and inverse-Q inadequate."
+    },
+    "toolchain": {
+      "lean_toolchain": "leanprover/lean4:v4.34.0",
+      "mathlib_tag": "v4.34.0",
+      "lake_manifest_committed": false,
+      "exact_transitive_manifest_retained": false,
+      "workflow_scope": "lake build / compilation only; no test, lint or separate axiom-audit step",
+      "inspected_modules_no_explicit_sorry_or_custom_axiom": true,
+      "project_wide_axiom_audit": false
+    }
+  },
+  "interpretation": {
+    "result": "Exact-head Lean CI compiled the verification entrypoint and imported ArchiveEQ modules. This verifies the encoded conditional mathematics only.",
+    "not_established": [
+      "No physical validation or independent measured system.",
+      "No correctness of the SAT/H(s)H physical interpretation.",
+      "No unique geometry reconstruction from the equations.",
+      "No theory or BEDROCK promotion.",
+      "No independent axiom audit of the entire project."
+    ],
+    "bedrock_promotion": false,
+    "paper_status": "Not a manuscript or paper submission; no PDF/reader review."
+  },
+  "delivery": {
+    "delivery_claim": false,
+    "floor_id": null,
+    "status": "PENDING_AUTHORIZED_INTAKE",
+    "next_action": "When an authorized Factory Floor intake endpoint and stable Floor ID exist, route this exact packet through 1 GLASS+HSH -> 2 WORKSHOP. Until then, do not write directly to Factory Floor or claim delivery."
+  }
+}
