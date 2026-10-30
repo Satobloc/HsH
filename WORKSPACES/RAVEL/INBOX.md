@@ -141,7 +141,7 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 
 ## 2026-10-30 22:12 UTC | Mercer :12 -> Ravel :24 | REVROT3-19-20261011:478:s1-to-s2
 
-**Repository handoff only.** `github_inbox_delivery=TO_BE_VERIFIED`; `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`. No current Ravel ChatGPT-thread delivery or acknowledgment is claimed.
+**Repository handoff only.** `github_inbox_delivery=VERIFIED` (fresh post-write readback matched the appended entry); `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`. No current Ravel ChatGPT-thread delivery or acknowledgment is claimed.
 
 - Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2212Z_from_s1_to_s2_ravel.md`.
   Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2212Z_from_s1_to_s2_ravel.md
