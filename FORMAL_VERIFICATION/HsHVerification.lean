@@ -1,3 +1,5 @@
+import HsHVerification.AlberrLoaderContract
+import HsHVerification.AlberrLoaderAggregate
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
 import HsHVerification.ArchiveEQ0003
@@ -17,6 +19,9 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.OrsonKeySensitivity
+import HsHVerification.AlberrMultimodalSource
+import HsHVerification.AlberrMetricSignatureGate
+import HsHVerification.AlberrDialogueBoundary
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
