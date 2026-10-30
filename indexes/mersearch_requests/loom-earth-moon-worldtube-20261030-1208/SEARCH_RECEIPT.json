@@ -1,0 +1,281 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "0be438ca07cb64a71e4239cc0d06fc4899e93d48fa8c3ce2445202a0d4f7e721",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-30T13:28:12.234361+00:00",
+  "query": "author:user AND (\"Earth-Moon\" OR \"Earth Moon\" OR \"lunar laser ranging\" OR \"lunar recession\" OR \"tidal dissipation\" OR \"orbital recession\" OR (Moon NEAR/10 tidal))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15592,
+    "records_scanned": 20809006,
+    "hits": 11
+  },
+  "counted_hits": 11,
+  "distinct_sources": 8,
+  "results_by_root": {
+    "hsh-main": 11
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:user",
+      11
+    ],
+    [
+      "Moon",
+      9
+    ],
+    [
+      "Earth Moon",
+      5
+    ],
+    [
+      "Earth-Moon",
+      3
+    ],
+    [
+      "lunar laser ranging",
+      3
+    ],
+    [
+      "tidal",
+      3
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "title": "SAT Theorizer Emeritus",
+      "record_count": 1,
+      "best_score": 86,
+      "first_hit_index": 5,
+      "sample_hit_index": 5,
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "title": "SAT Theorizer Emeritus",
+      "record_count": 1,
+      "best_score": 86,
+      "first_hit_index": 6,
+      "sample_hit_index": 6,
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "title": "SAT Theorizer Emeritus",
+      "record_count": 1,
+      "best_score": 86,
+      "first_hit_index": 7,
+      "sample_hit_index": 7,
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/25.04.24•25.04.25•4D Body Mind Model — raw.json",
+      "title": "4D Body Mind Model",
+      "record_count": 3,
+      "best_score": 52,
+      "first_hit_index": 2,
+      "sample_hit_index": 2,
+      "locator": "message:eb651fa6-77db-44e1-9502-0438226284d0",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "Moon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json",
+      "title": "Gravitational Lensing Exoplanets",
+      "record_count": 2,
+      "best_score": 33,
+      "first_hit_index": 0,
+      "sample_hit_index": 0,
+      "locator": "message:aaa24dd0-fbd4-42ef-9afc-3cbdda213fa3",
+      "matched_terms": [
+        "author:user",
+        "Earth-Moon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 32,
+      "first_hit_index": 8,
+      "sample_hit_index": 8,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "Moon",
+        "tidal"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 32,
+      "first_hit_index": 9,
+      "sample_hit_index": 9,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "Moon",
+        "tidal"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13•26.09.20•Analyze Voice Models — raw.json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 32,
+      "first_hit_index": 10,
+      "sample_hit_index": 10,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "Moon",
+        "tidal"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json",
+      "locator": "message:aaa24dd0-fbd4-42ef-9afc-3cbdda213fa3",
+      "matched_terms": [
+        "author:user",
+        "Earth-Moon"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json",
+      "locator": "message:aaa2e56b-d084-4dea-9c29-66e1db928bfa",
+      "matched_terms": [
+        "author:user",
+        "Earth-Moon"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/25.04.24•25.04.25•4D Body Mind Model — raw.json",
+      "locator": "message:eb651fa6-77db-44e1-9502-0438226284d0",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "Moon"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/25.04.24•25.04.25•4D Body Mind Model — raw.json",
+      "locator": "message:b6632f6b-056d-4f2b-873a-4fb28c6621ea",
+      "matched_terms": [
+        "author:user",
+        "Earth-Moon",
+        "Moon"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/25.04.24•25.04.25•4D Body Mind Model — raw.json",
+      "locator": "message:5ba6c6ba-a26e-4e5e-aaf2-4162a6033ac9",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "Moon"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:48444da7-ed9d-47e8-aa7c-abef007f3cda",
+      "matched_terms": [
+        "author:user",
+        "Earth Moon",
+        "lunar laser ranging",
+        "Moon"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
