@@ -202,8 +202,8 @@ namespace HsHVerification.MorrowCitationDateAudit
 
 def aContainerConversationCreatedUs : Nat := 1788734012522178
 def citationPubDateUs : Nat := 1788734012522178
-def earlierA-containerSnippetMessageCreatedUs : Nat := 1788862185906000
-def laterA-containerPromptCreatedUs : Nat := 1788865317555000
+def earlierAContainerSnippetMessageCreatedUs : Nat := 1788862185906000
+def laterAContainerPromptCreatedUs : Nat := 1788865317555000
 def morrowFirstAnswerCreatedUs : Nat := 1788865251446219
 def morrowFollowupPromptCreatedUs : Nat := 1788865405421000
 def morrowFollowupAnswerCreatedUs : Nat := 1788865412172734
@@ -212,31 +212,31 @@ theorem citation_pub_date_equals_target_conversation_create_time :
     citationPubDateUs = aContainerConversationCreatedUs := by decide
 
 theorem citation_pub_date_is_not_earlier_snippet_message_time :
-    citationPubDateUs ≠ earlierA-containerSnippetMessageCreatedUs := by decide
+    citationPubDateUs ≠ earlierAContainerSnippetMessageCreatedUs := by decide
 
 theorem citation_pub_date_is_not_later_snippet_message_time :
-    citationPubDateUs ≠ laterA-containerPromptCreatedUs := by decide
+    citationPubDateUs ≠ laterAContainerPromptCreatedUs := by decide
 
 theorem citation_pub_date_precedes_earlier_snippet_message :
-    citationPubDateUs < earlierA-containerSnippetMessageCreatedUs := by decide
+    citationPubDateUs < earlierAContainerSnippetMessageCreatedUs := by decide
 
 theorem citation_pub_date_precedes_later_snippet_message :
-    citationPubDateUs < laterA-containerPromptCreatedUs := by decide
+    citationPubDateUs < laterAContainerPromptCreatedUs := by decide
 
 theorem exact_container_to_earlier_message_gap_us :
-    earlierA-containerSnippetMessageCreatedUs - citationPubDateUs = 128173383822 := by decide
+    earlierAContainerSnippetMessageCreatedUs - citationPubDateUs = 128173383822 := by decide
 
 theorem exact_container_to_later_prompt_gap_us :
-    laterA-containerPromptCreatedUs - citationPubDateUs = 131305032822 := by decide
+    laterAContainerPromptCreatedUs - citationPubDateUs = 131305032822 := by decide
 
 theorem later_a_container_prompt_precedes_morrow_followup_prompt :
-    laterA-containerPromptCreatedUs < morrowFollowupPromptCreatedUs := by decide
+    laterAContainerPromptCreatedUs < morrowFollowupPromptCreatedUs := by decide
 
 theorem exact_later_prompt_to_morrow_followup_prompt_gap_us :
-    morrowFollowupPromptCreatedUs - laterA-containerPromptCreatedUs = 87866000 := by decide
+    morrowFollowupPromptCreatedUs - laterAContainerPromptCreatedUs = 87866000 := by decide
 
 theorem exact_later_prompt_to_morrow_followup_answer_gap_us :
-    morrowFollowupAnswerCreatedUs - laterA-containerPromptCreatedUs = 94617734 := by decide
+    morrowFollowupAnswerCreatedUs - laterAContainerPromptCreatedUs = 94617734 := by decide
 
 theorem exact_morrow_followup_prompt_to_answer_gap_us :
     morrowFollowupAnswerCreatedUs - morrowFollowupPromptCreatedUs = 6751734 := by decide
