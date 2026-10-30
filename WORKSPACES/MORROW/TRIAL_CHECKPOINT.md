@@ -183,3 +183,9 @@ Read central workflow control in full (blob e4f99ae2e055855d420ff0e78df5b8b5b814
 2. Keep A/M labels in all future source references; do not force a distinct “Aldus worker” identity.
 3. Kestrel may use the result for cross-boundary synthesis only; no repeat provenance adjudication or physics assignment.
 4. Continue the two-additional-project scan only after identities are confirmed.
+
+## 2026-10-30T0647Z — exact-head Lean correction
+
+- Corrected head `b06d2b255a741c7bbf843628ae354691b0e6169d` did not compile. Run #41015498063 failed because two A-container identifiers had been tokenized as subtraction/free variables by a broad text replacement; theorem outputs then showed `sorryAx` and the build reported a free-variable/decidability error.
+- Repaired the identifiers in commit `4109734c1892dde78be1716b155047701e81eea1`; branch readback confirms `earlierAContainerSnippetMessageCreatedUs` and `laterAContainerPromptCreatedUs`.
+- New exact-head run #41016052203 is in progress; at this update it is still generating the Lake dependency manifest and has not reached Lean compilation. Do not claim proof success or axiom cleanliness until that run completes and its logs are inspected.
