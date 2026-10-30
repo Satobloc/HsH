@@ -17,6 +17,7 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.EliasPublisherStatus
+import HsHVerification.EliasPublisherKeyEvidence
 import HsHVerification.EliasHydraRewriteStarvation
 import HsHVerification.EliasActorRegistryCoverage
 import HsHVerification.EliasCapabilityRouteGate
