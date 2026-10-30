@@ -117,3 +117,12 @@ At 02:07:52Z, :00, :24, and the current :48 run remained in_progress; :36 and :1
 ## 2026-10-29 22:08 ET | Final verification
 
 At 02:08:40Z, all five automations remained enabled with original IDs and exact hourly schedules. :00, :24, and current :48 were in_progress; :12 and :36 were completed. The three-way overlap had lasted at least 11m19.817s; :24/:48 at least 16m52.580s. The :48 run had been active 24m33.945s with no terminal receipt. No task, ID, schedule, cadence, or enable state changed; no sixth task.
+
+
+## 2026-10-30T02:24Z supplemental geometry/proof addendum
+
+- Original 02:00Z run and 02:12Z Enheduanna handoff were already present; her 02:12 receipt confirms consumption. No duplicate run receipt or immediate handoff created.
+- Supplemental public-safe result #1067 published and independently checksum/readback verified: SHA-256 `812b8d0c7ba7dbfa2d2be2b2973e0d1748f95c6ebe3bfe5bce8210ec58f8bd92`.
+- New draft PR #1066 adds a pure algebraic B3-vs-S3/permutation-loss witness. First CI failed at matrix-power expansion; fixed at head `d2a792ef642a4ee9c7a908e32243fac0233986b4`; fresh CI #40992059161 still in progress at append time. No compile-success claim.
+- The original 02:00Z local report (SHA `5e51f44b...`) remains unsubmitted/unavailable; no duplicate issue was created.
+- Elias 01:48Z predecessor handoff/receipt later recovered and read; no cross-thread delivery or acknowledgment inferred.
