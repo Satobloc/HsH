@@ -44,7 +44,6 @@ theorem effective_tidal_lambda_common_mass_scaling
   have hs5 : s^5 ≠ 0 := pow_ne_zero 5 hs
   have hm5 : (m1 + m2)^5 ≠ 0 := pow_ne_zero 5 hm
   field_simp [hs5, hm5]
-  <;> ring
 
 /-- Exchanging component labels and their associated tidal parameters changes nothing. -/
 theorem effective_tidal_lambda_swap
@@ -59,8 +58,7 @@ theorem effective_tidal_lambda_equal_mass_equal_response
     (m l : ℝ) (hm : m ≠ 0) :
     effectiveTidalLambda m m l l = l := by
   unfold effectiveTidalLambda
-  field_simp [hm]
-  <;> ring
+  field_simp [hm]; ring
 
 /--
 Standard single-star GR relation:
@@ -79,14 +77,13 @@ by a physical neutron-star equation of state.
 -/
 theorem component_tidal_lambda_love_radius_rescaling
     (m R k2 c G t : ℝ)
-    (hden : G*m ≠ 0)
+    (_hden : G*m ≠ 0)
     (ht : t ≠ 0) :
     componentTidalLambda m (t*R) (k2/t^5) c G =
       componentTidalLambda m R k2 c G := by
   unfold componentTidalLambda
   have ht5 : t^5 ≠ 0 := pow_ne_zero 5 ht
   field_simp [hden, ht5]
-  <;> ring
 
 /--
 With k₂ fixed, the same standard relation scales as R⁵.  This is the
@@ -100,7 +97,6 @@ theorem component_tidal_lambda_fixed_k2_scales_as_t5
       t^5 * componentTidalLambda m R k2 c G := by
   unfold componentTidalLambda
   field_simp [hden]
-  <;> ring
 
 theorem distinct_positive_radius_love_pair
     (R k2 t : ℝ)
