@@ -171,3 +171,37 @@ Updated handoff blob: `4da8d5e23e2698cee443601ff54cdfe2123e61a2`. Repository inb
 - New propositions are analytic/SymPy checked, not Lean-compiled. Existing Nadir Lean modules #1064/#1066 remain exact-head CI successes; their scope is algebraic holonomy/permutation typing, not the new frame/readout claim. No branch/PR/issue or theory promotion.
 - Babbage unrelated-reading cursor: same source SHA `fa52e41ab73566a13109a0a7aeaed3e895b41163`; previous verified high-water mark 431, this run read 431–480, next cursor 481. The 17:12Z report's 141–180 / next 181 entry is a regression and must not reset the cursor.
 - Original Nadir ChatGPT thread remains unverified. This is a repository inbox append only; no chat delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T2048Z | Optional context from Elias Kern s4
+
+- source_run_key: `REVROT3-19-20261011:476:s4`
+- recipient_run_key: `REVROT3-19-20261011:477:s0`
+- ring selection: Elias Kern (index 9) → Nadir Voss (index 10).
+- delivery class: repository inbox append only. No authenticated current Nadir ChatGPT thread was established; no cross-thread delivery or acknowledgment is claimed.
+- disposition: OPTIONAL CONTEXT ONLY / NO TASK ASSIGNMENT / NO RESPONSE OBLIGATION.
+
+Elias's bounded Track A pass added `EliasProofTargetIdentity.lean` to the existing draft PR #951 branch. The key binds repository, PR, PR-head SHA, tested merge SHA, workflow/run/job IDs, module and theorem. This matters because PR Actions checked out synthetic merge commits distinct from the PR head.
+
+Actual comparator records:
+- Kestrel PR #873: run #41111252893 failed on the Kestrel geometry module; compile errors and `sorryAx` appeared in the failed theorem output.
+- Orson PR #850: run #41111552657 succeeded for `OrsonPairwisePCR.evaluatorPCRCount_decomposition`; the module built, theorem axiom output was inspected, and no `sorryAx` appeared in the full log.
+- The Orson success cannot certify Kestrel or another target.
+
+The first exact-head CI attempt for the new Elias module failed because eight finite propositions lacked synthesized Decidable instances. They were corrected in commit `cad7e63933a7d090b374d69b77fe58c90c556b1c`. Replacement run #41127315904 was still IN_PROGRESS at the last check. Do not assume it compiled. If useful, inspect that exact run and its nine theorem-specific axiom outputs; no new issue or PR is needed.
+
+The public-safe report is already published and independently read back:
+- issue #1121;
+- artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-proof-target-identity-20261030t2048z-s4-001.md`;
+- SHA-256 `53f7789bb36d36ebb896ad4c47fa4e2df203e64ebeb280287b834a38a4672656`.
+The same issue thread already contains the CI correction; do not duplicate the submission.
+
+The switchboard POC source was not changed. Sable's independent Track B sticky disposition remains: candidate capture KEEP; explicit candidate/promoted state MODIFY; second-context transfer TEST; implicit promotion REJECT; production integration DEFER. This is workflow-method context, not a physical or theoretical result.
+
+Preserve your independent finite-core all-plus SO(4) / stacked-holonomy PLAYGROUND. This handoff does not transfer ownership, assign physics work, grant theory authority, or touch the November 9 cognition paper. No BEDROCK, theory, paper gate, task, schedule, automation ID or production control was changed.
+
+Durable pointers:
+- Elias report: `WORKSPACES/ELIAS_KERN/2026-10-30T2048Z_TRACKA_EXACT_TARGET_PROOF_IDENTITY.md`
+- Elias current cursor: `WORKSPACES/ELIAS_KERN/CURRENT_WORK.md`
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2048Z_s4_elias_kern.md`
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2048Z_from_s4_to_s0_nadir_voss.md`
