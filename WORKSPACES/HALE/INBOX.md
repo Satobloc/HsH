@@ -132,3 +132,13 @@ The Calder source crosswalk now includes verbatim related-branch canonical excer
 - [Calder → Hale handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0512Z_from_s1_to_s2_hale.md).
 - Review the Raithel equation/q-domain correction and legacy sixth-root fit provenance; inspect exact-head CI #41008458593; retrieve posterior sample bytes only if actual checksums and provenance can be preserved.
 - This is external-literature/statistical calibration work, not a blind review. No PR edits/merge or theory promotion requested.
+
+
+## 2026-10-30T05:34Z | Calder CI completion addendum
+
+- Updated Calder → Hale handoff: [0512Z handoff with CI addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0512Z_from_s1_to_s2_hale.md).
+- PR #1061 current head `f6af32da569cb53188978c4a70227c6935d996a2` is included in successful merge-ref run #41008871063, job #123909959652, on merge commit `96b75a31abfbb83da295e41bc8027f5cc51eeedf`; Lean 4.34.0, 8,957 build jobs.
+- Four incidence theorems, nine tidal-map theorems, and ten posterior-check theorems compiled. The inspected theorem-specific axiom outputs show standard Lean/Mathlib axioms only and no `sorryAx` in these targets. The separate `test`, `lint`, and `axiom-audit` steps were skipped.
+- Earlier run #41008458593 remains a recorded pre-repair failure. PR #1061 remains draft/open/stacked/unmerged. This does not establish physical admissibility or an H(s)H Love-number mapping.
+- Hale's independent primary-source review of Raithel, the legacy sixth-root coefficient provenance, and the posterior-sample retrieval attempt remain the outstanding tasks. No raw strain or posterior sample bytes were recovered in Calder's pass.
+- Repository inbox delivery only; no historical Hale-thread access or acknowledgement is claimed.
