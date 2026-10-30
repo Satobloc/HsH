@@ -1,0 +1,609 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "9a2e4fba2a12f889d382a821c8a8d55accc2f5cfd8db8fc4b9f22e41e87bb781",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-30T03:13:21.092475+00:00",
+  "query": "author:user AND (\"finite-core\" OR \"worldtube\" OR \"world tube\" OR \"timesheet\" OR \"wavesheet\" OR \"interbraid\" OR \"inspiral\" OR \"contact\" OR \"Ropes:\" OR \"STRAND COMPLEXES\" OR \"Blockwave\" OR \"SAT-O\" OR \"Kerr\" OR \"Cruller\")",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15424,
+    "records_scanned": 20796808,
+    "hits": 2152
+  },
+  "counted_hits": 2152,
+  "distinct_sources": 390,
+  "results_by_root": {
+    "archive": 307,
+    "hsh-main": 1810,
+    "resources": 35
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:user",
+      2117
+    ],
+    [
+      "timesheet",
+      822
+    ],
+    [
+      "worldtube",
+      511
+    ],
+    [
+      "Blockwave",
+      440
+    ],
+    [
+      "contact",
+      344
+    ],
+    [
+      "world tube",
+      239
+    ],
+    [
+      "Kerr",
+      183
+    ],
+    [
+      "Ropes:",
+      159
+    ],
+    [
+      "interbraid",
+      104
+    ],
+    [
+      "SAT-O",
+      90
+    ],
+    [
+      "finite-core",
+      50
+    ],
+    [
+      "Cruller",
+      3
+    ],
+    [
+      "STRAND COMPLEXES",
+      2
+    ],
+    [
+      "inspiral",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "title": "🧗‍♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis]",
+      "record_count": 2,
+      "best_score": 92,
+      "first_hit_index": 1938,
+      "sample_hit_index": 1938,
+      "locator": "message:fed478ad-8022-46b1-a972-ac74bf7d37b2",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "interbraid",
+        "contact",
+        "SAT-O",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07•26.09.09•MORROW [Reconstruct H(s)H Synthesis] — raw (3).json",
+      "title": "MORROW [Reconstruct H(s)H Synthesis]",
+      "record_count": 2,
+      "best_score": 92,
+      "first_hit_index": 1939,
+      "sample_hit_index": 1939,
+      "locator": "message:fed478ad-8022-46b1-a972-ac74bf7d37b2",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "interbraid",
+        "contact",
+        "SAT-O",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1171,
+      "sample_hit_index": 1254,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1172,
+      "sample_hit_index": 1255,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1173,
+      "sample_hit_index": 1256,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1174,
+      "sample_hit_index": 1257,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1175,
+      "sample_hit_index": 1258,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 32,
+      "best_score": 80,
+      "first_hit_index": 1176,
+      "sample_hit_index": 1259,
+      "locator": "message:99b6d1d6-bb4a-4984-8994-02201f6ccfec",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•GitHub Archive Review — raw.json",
+      "title": "GitHub Archive Review",
+      "record_count": 17,
+      "best_score": 73,
+      "first_hit_index": 902,
+      "sample_hit_index": 920,
+      "locator": "message:b8e27cef-650b-43bc-9baf-2ef5edd5b214",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "contact"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw.json",
+      "title": "GitHub Archive Review",
+      "record_count": 17,
+      "best_score": 73,
+      "first_hit_index": 903,
+      "sample_hit_index": 921,
+      "locator": "message:b8e27cef-650b-43bc-9baf-2ef5edd5b214",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube",
+        "timesheet",
+        "contact"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.05•26.07.18•Mathematical Tool Exploration — raw.json",
+      "title": "Mathematical Tool Exploration",
+      "record_count": 25,
+      "best_score": 68,
+      "first_hit_index": 1368,
+      "sample_hit_index": 1374,
+      "locator": "message:3e3bffc6-fc10-4f76-868d-b1e516d053e4",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "world tube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 21,
+      "best_score": 66,
+      "first_hit_index": 1651,
+      "sample_hit_index": 1715,
+      "locator": "message:234a3f30-c3d7-44df-9047-a007991bc7b1",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "timesheet",
+        "interbraid",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31•26.09.05•SAT Decon + Prior ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 21,
+      "best_score": 66,
+      "first_hit_index": 1653,
+      "sample_hit_index": 1716,
+      "locator": "message:234a3f30-c3d7-44df-9047-a007991bc7b1",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "timesheet",
+        "interbraid",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31•26.09.05•ChatGPT Voice Glitch — raw (1).json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 21,
+      "best_score": 66,
+      "first_hit_index": 1657,
+      "sample_hit_index": 1717,
+      "locator": "message:234a3f30-c3d7-44df-9047-a007991bc7b1",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "timesheet",
+        "interbraid",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Gravitational Changes and Motion — raw.json",
+      "title": "Gravitational Changes and Motion",
+      "record_count": 16,
+      "best_score": 65,
+      "first_hit_index": 838,
+      "sample_hit_index": 864,
+      "locator": "message:3e52745c-d19b-4e66-ba46-82f2b5cb9bdf",
+      "matched_terms": [
+        "author:user",
+        "world tube",
+        "timesheet",
+        "inspiral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 6,
+      "best_score": 64,
+      "first_hit_index": 1652,
+      "sample_hit_index": 1670,
+      "locator": "message:6bd0a54a-a3a8-474a-aebd-ab1dd41fb11c",
+      "matched_terms": [
+        "author:user",
+        "world tube",
+        "interbraid",
+        "Ropes:"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Freeze SAT Object Hierarchy — raw.json",
+      "title": "Freeze SAT Object Hierarchy",
+      "record_count": 1,
+      "best_score": 62,
+      "first_hit_index": 1410,
+      "sample_hit_index": 1410,
+      "locator": "message:8d9d3566-07e2-4595-98df-01ecf6f86250",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "timesheet",
+        "interbraid"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 16,
+      "best_score": 57,
+      "first_hit_index": 1110,
+      "sample_hit_index": 1119,
+      "locator": "message:eb5b7c42-91cb-43f7-a994-05c8731021bb",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "world tube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Theory of Everything Review — raw.json",
+      "title": "Theory of Everything Review",
+      "record_count": 5,
+      "best_score": 57,
+      "first_hit_index": 810,
+      "sample_hit_index": 816,
+      "locator": "message:f5ac30fd-636d-4bb8-85d7-eaeaf79a81d5",
+      "matched_terms": [
+        "author:user",
+        "world tube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 4,
+      "best_score": 57,
+      "first_hit_index": 1159,
+      "sample_hit_index": 1168,
+      "locator": "message:51900d33-5288-423c-a255-0406aec36f17",
+      "matched_terms": [
+        "author:user",
+        "world tube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Succinctness And Math Check — raw (1).json",
+      "title": "Succinctness And Math Check",
+      "record_count": 15,
+      "best_score": 56,
+      "first_hit_index": 1803,
+      "sample_hit_index": 1835,
+      "locator": "message:59a38049-e410-455d-afe9-87fcbc6f5264",
+      "matched_terms": [
+        "author:user",
+        "finite-core",
+        "worldtube",
+        "timesheet",
+        "Kerr"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometric Foundations Evaluation2 — raw.json",
+      "title": "Geometric Foundations Evaluation",
+      "record_count": 15,
+      "best_score": 54,
+      "first_hit_index": 1076,
+      "sample_hit_index": 1536,
+      "locator": "message:5a3f2234-9aa5-4c34-ba3a-e969d94fccd2",
+      "matched_terms": [
+        "author:user",
+        "world tube",
+        "Ropes:"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 9,
+      "best_score": 50,
+      "first_hit_index": 987,
+      "sample_hit_index": 1019,
+      "locator": "message:d5e5afcc-56a7-4bd1-9b25-628b79b82e0a",
+      "matched_terms": [
+        "author:user",
+        "contact",
+        "Ropes:",
+        "Blockwave",
+        "SAT-O"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Orson Free Build — raw.json",
+      "title": "Orson Free Build",
+      "record_count": 4,
+      "best_score": 48,
+      "first_hit_index": 2060,
+      "sample_hit_index": 2060,
+      "locator": "message:6dc6efde-f6d8-4b94-a3f9-d3e792815791",
+      "matched_terms": [
+        "author:user",
+        "world tube"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.18•23.10.24•Arctic Bridge Chaos Showdown — raw.json",
+      "locator": "message:aaa25b6a-fc38-4f42-8219-c90e96a57c09",
+      "matched_terms": [
+        "author:user",
+        "contact"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa211f1-462b-4426-b163-0bb0fe0df40f",
+      "matched_terms": [
+        "author:user",
+        "contact"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa2af9a-f657-4085-b02d-8ce4641203ee",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa218da-6d14-4b99-87ba-bababdd99d57",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa26726-1c19-4da5-814b-400288b86382",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa246c9-e52c-4650-84e8-b078149df0cc",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa29d22-4bf4-4137-8f89-a901ec44616c",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa2e835-56ef-4e54-a209-06f18ef6e5f1",
+      "matched_terms": [
+        "author:user",
+        "Ropes:"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
