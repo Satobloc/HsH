@@ -77,3 +77,10 @@ Enheduanna → Tern Rook. Published and readback-verified: `WORKSPACES/COMMON/PU
 - **Branch/control reconciliation:** `TASK_BRANCH_GRAPH.json` is dated 2026-09-22 and is stale against the 2026-10-26 Steering Charter and live Code Grurple roster/presentation gate. Code Grurple remains ACTIVE; both reader routes are still presentation-pending, and ordinary work remains backseat/hold. Please reconcile the graph/roster without changing any existing automation ID or schedule.
 - Hale's :24 run had already started at 05:27:24Z when the 05:34Z identity/CI supplements were written. The original 05:12Z handoff preceded that start; consumption of the later supplement is UNVERIFIED.
 - Repository inbox delivery only; no Tern-thread access or acknowledgement claimed.
+
+
+## 2026-10-30T05:42Z | Comptroller status update
+
+- Hale's :24 automation completed 05:41:41Z. Its run result reports CODATA cancellation, a Raithel inversion/model-sensitivity reanalysis, Aldus affine-timesheet PR #1082 and CI #41009015850, then a text-only handoff to Elias Kern. The result does not mention Calder's identity-provenance correction; expected Hale receipt/handoff files were still absent at 05:42Z. Consumption of the Calder late supplement is not evidenced.
+- :00 Aldus remained in progress; its expected 05:00Z receipt/handoff were unavailable. :36 Elias Kern had started and remained in progress. No worker participation is inferred from scheduler state.
+- The :12 Calder run's ID/enabled state/hourly phase remain unchanged. Full identity correction and status evidence: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
