@@ -32,13 +32,15 @@ theorem direct_positions_two_one_one :
     directlyBefore = 2 ∧ directlyAfter = 1 ∧ missingCountOrder = 1 := by decide
 
 theorem editorial_majority_contains_O :
-    Witness.O ∈ editorialMajority := by decide
+    Witness.O ∈ editorialMajority := by
+  simp [editorialMajority]
 
 theorem editorial_majority_has_three_members :
     editorialMajority.length = 3 := by decide
 
 theorem editorial_majority_includes_unresolved_rubric :
-    Witness.O ∈ editorialMajority ∧ directBeforeCount .O = none := by decide
+    Witness.O ∈ editorialMajority ∧ directBeforeCount .O = none := by
+  simp [editorialMajority, directBeforeCount]
 
 theorem editorial_majority_not_three_directly_attested_before :
     directlyBefore ≠ editorialMajority.length := by decide
