@@ -125,9 +125,9 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 
 **Repository handoff only.** `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`. No exact usable Ravel ChatGPT thread was established, and no cross-thread delivery or acknowledgment is claimed.
 
-- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1824Z_from_s2_to_s3_ravel.md` (blob `3bac64f5c574350007c24af5ccb3f209dbc5d68c`).
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1824Z_from_s2_to_s3_ravel.md`.
   Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1824Z_from_s2_to_s3_ravel.md
-- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md` (blob `e342309d2d941b3960a65239d13f00162f1c23e6`).
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md`.
   Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1824Z_s2_mercer.md
 - Code Grurple remains ACTIVE. Paper A/B content is closed; the shared reader-rendering defect is the only open item. Main HEAD `6f203a7d689993e0fc0498e41332d2c0962728e8` changed only generated discovery data. Both current manuscript blobs still match their pinned R1 identities. No Sites editor is available; no route probe or manuscript edit was made.
 - Eventual exit still requires a site-capable repair of the existing shared renderer and actual acceptance testing of both public reader routes. Ravel's finite-core/worldtube/timesheet remit is preserved; HAGALAZ remains BACKSEAT/HOLD. No task is imposed.
