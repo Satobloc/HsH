@@ -1,20 +1,30 @@
 {
   "lane": 3,
-  "status": "requested",
-  "request_id": "archive-harvest-20261025-chemistry-01",
-  "requester": "Archive subject inventory / Nathan Direct",
-  "requested_at": "2026-10-25",
+  "request_id": "loom-earth-moon-worldtube-20261030-1208",
+  "requester": "Workshop Relay :36 / Loom source-first architecture",
+  "requested_at": "2026-10-30T12:08:46Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "\"atomic chemistry\" OR \"chemical bond\" OR covalent OR \"ionic bond\" OR valence OR \"electron orbital\" OR \"atomic spectra\" OR \"periodic table\" OR molecule OR molecular OR stoichiometry OR \"reaction kinetics\" OR \"electron shell\" OR hybridization OR \"electron configuration\" OR \"hydrogen atom\" OR \"helium atom\" OR chemical",
-  "purpose": "Discovery-only inventory of SAT/H(s)H atomic physics, chemical bonds, molecular structure, atomic spectra, and chemistry as modeled geometrically across original archives.",
+  "query": "author:user AND (\"Earth-Moon\" OR \"Earth Moon\" OR \"lunar laser ranging\" OR \"lunar recession\" OR \"tidal dissipation\" OR \"orbital recession\" OR (Moon NEAR/10 tidal))",
+  "purpose": "Source-first discovery of Nathan-authored Earth-Moon/lunar-tide statements relevant to cross-scale worldtube/interbraid and orbital-response architecture. Recover exact original conversation/message locators, speaker/role, chronology, corrections and any SAT-O/Blockwave equations. Separate direct Nathan premises from assistant proposals and standard geophysical descriptions. Discovery only; do not infer an H(s)H tidal law.",
   "preferred_outputs": [
-    "all file paths and conversation/message locators",
-    "matched contexts sufficient to classify documents",
-    "original dates and source SHA256",
-    "cross-repository duplication candidates"
-  ]
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "candidate original source paths, exact blob SHAs, repository commits and message UUIDs",
+    "speaker/role and source dates",
+    "duplicate/prefix/superset and correction relationships",
+    "coverage, exclusions, size/extension limitations and omissions"
+  ],
+  "exclusions": [
+    "Do not overwrite any pending/running lane",
+    "Use only this completed lane 3 request slot",
+    "Do not publish raw source excerpts or private HSH_RESOURCES paths",
+    "Do not treat assistant-written Nautilus plans as Nathan Direct",
+    "Do not infer a tidal response law from the word interbraid",
+    "Do not enter QUARANTINE or PRIOR_ART",
+    "Do not promote any theory claim"
+  ],
+  "status": "requested"
 }
