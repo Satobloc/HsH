@@ -43,6 +43,7 @@ import HsHVerification.LoomP1MP4Lift
 import HsHVerification.AriadneP1AgreementTurnover
 import HsHVerification.OrsonP1EndpointChange
 import HsHVerification.OrsonP1PeerMajorityAlignment
+import HsHVerification.OrsonSharedRecordIdentifiability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
