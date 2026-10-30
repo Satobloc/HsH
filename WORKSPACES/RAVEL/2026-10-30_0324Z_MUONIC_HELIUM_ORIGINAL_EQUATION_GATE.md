@@ -12,3 +12,9 @@ Existing publisher issue #1072, submission ravel-muonic-spectroscopy-20261030t03
 Live BEDROCK blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c, steering 5f4263381afcb065e9062d5b5885593d0baa58db, campaign 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0, onboarding, revival, Ravel charter, original compendium, Math Hopper, Whirligig and cross-formalism index consulted. Four Mersearch lanes occupied; no overwrite or exhaustive search claimed. Lateral TheTANGLE lines 941-970 read, next cursor 971; FIE last Oct27, not due.
 
 Return: verify CI and publisher readback; open extraction-regression gate on existing Math Hopper issue; recover source-authenticated worldtube->conserved current->form-factor->muonic spectrum maps and holdout prediction. Protect Orson's Nov9 cognition remit; P2 Nov30 and P3 Dec14 remain distinct. No task/ID/cadence, signet, BEDROCK or conversation changes.
+
+## Post-publication readback closure
+- Existing issue #1072 publisher comment #6514203442 reports success. Independent fetch of `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-muonic-spectroscopy-20261030t0324z-s2-001.md` returned Git blob `9e360af54f10335f7e00412f8ddbd1fefc90cf57`, 6124 ASCII characters, exactly equal to the JSON issue-envelope `content` field. Publisher SHA-256 `dfd8f73f04d30703d20b7b0dae1299434238fd5dd300edd6055aa86c2e11829b` matched the issue's declared digest. PUBLICATION VERIFIED, no duplicate.
+- Existing Math Hopper issue #578 additive source-equation-loss regression comment #6514203825 posted and read back. No new tooling built.
+- Orson existing repository inbox updated with handoff pointer and independently read back (blob `f4f0b18b20d0c579b66553482f79de85c9aff448`); no historical chat delivery/acknowledgment claimed.
+- Current :24 automation ID `6abda4c8eda88191bf23a6f2849e9a17` independently peeked enabled, exact original `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`; no writes to scheduler.
