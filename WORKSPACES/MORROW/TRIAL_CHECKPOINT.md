@@ -132,3 +132,54 @@ Read central workflow control in full (blob e4f99ae2e055855d420ff0e78df5b8b5b814
 - Frontier/blockers: non-duplication is no longer treated as an isolation test. `MORROW-SOURCE-001` remains open for scanner-maintainer review; no Nathan decision required.
 - Next exact operation: compare Aldus `ae2eb196-7aa1-4d4d-ae9f-5efa10cce4cb`–`77ffa5bb-7002-5372-85d4-e978894593e2` with Morrow `4298fb5d-ca4e-4f62-b3df-08a6487f7cc5`–`2a0548d8-b6a8-54f7-8e38-d3ddd4124c24`, then relate both to already-read citation-bearing Morrow turn `7649d636…`–`74526064…`.
 - Training frontier unchanged; theory freeze remains; deferred `SPHERE4QC.txt` line 1301 untouched.
+
+## 2026-10-30T0624Z — Morrow source-grounded revival checkpoint
+
+### Rotation and identity
+- Nominal UTC hour since 2026-10-11T00Z: `h=462`.
+- `seq=5h+2=2312`; `2312 mod 19=13`: selected **Morrow**; next ring member **Kestrel** (index 14).
+- Selection is a role label, not authentication to a ChatGPT instance or A/M conversation container.
+- Bounded current-thread search: Morrow workspace README/inbox/checkpoint, Morrow crosswalk, Common registry, LIVE CONVOS search, prior receipts and handoffs. No current active Morrow ChatGPT thread was authenticated. The 2026-09-08 M-container export is historical. Revival mode: `SOURCE_GROUNDED_RECONSTRUCTION`; continuity: `RECONSTRUCTED_NOT_LITERAL`; no new ChatGPT thread created.
+
+### Original Nathan identity instruction recovered
+- Direct Nathan message in `#all-hsh-working-group-one`, parent ts `1788865941.954509`, 2026-09-08 07:12:21 EDT: both conversation streams may identify as Morrow; use A/M-container labels for provenance only.
+- A-container ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, archive title `Aldus [AUTO H(s)H Gitter]`, raw blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`.
+- M-container ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, archive title `MORROW [Reconstruct H(s)H Synthesis]`, raw blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`.
+- The A-container title string “Aldus” is not a distinct worker identity. The current scheduled Morrow execution is not authenticated to either container.
+
+### Source result
+- In both observed M-container citation records, `pub_date=1788734012.522178`, exactly the A-container's top-level conversation `create_time`.
+- The snippets separately match A-container user-role messages at 2026-09-08 10:09:45.906Z and 11:01:57.555Z.
+- Conversation creation to those messages: 128,173.383822 s and 131,305.032822 s.
+- First M-container answer 11:00:51.446219Z precedes the later A-container prompt by 66.108781 s; later M-container answer 11:03:32.172734Z follows it by 94.617734 s.
+- Six Python Decimal ordering/equality assertions passed.
+- Citation status in earliest snapshot: `seeded`; later full export: `complete`; body and citation UUID unchanged. No runtime exposure or causal inference.
+
+### Side-room pass
+- Read all 19 existing replies in Nathan's Slack side-room thread; all are signed M-container, with no A-container-authored testimony.
+- Posted and read back reply 20: https://hshworkinggroupone.slack.com/archives/C0C09NV79CL/p1793342429717989?thread_ts=1788865941.954509&cid=C0C09NV79CL
+- Reply explicitly states current execution's A/M container provenance is unknown. This is a verified Slack reply, not delivery to either historical ChatGPT thread.
+
+### Formalization and branch status
+- Existing draft PR #719, branch `research/morrow-paired-identity-chronology-20261027t10z`; A/M labels corrected in `MorrowPairedIdentityChronology.lean`; direct Nathan identity-control note added.
+- Corrected head `b06d2b255a741c7bbf843628ae354691b0e6169d`; 11 new conditional citation-date theorem targets.
+- Earlier run #41014686212 succeeded on pre-correction head `badf43eb4418ed8f3155a7e576e384d2457fcdfe`; it does not verify corrected names. Exact-head run #41015498063 was still in progress at checkpoint creation; corrected compilation/axiom inspection remains pending.
+- Separate prior Morrow evidence-gate PR #388, branch `codex/eq0015-elias-20261024`, exact head `a48cb68e2f848bcffab8251b2495aef88702307d`, run #41015101863 SUCCESS. The log builds `MorrowFormFactorEvidenceGate`; six theorem-specific reports use standard `propext`, `Classical.choice`, `Quot.sound`, with no `sorryAx`; separate automated axiom-audit step skipped. This verifies the formalized workflow gate, not the existence or truth of physical bridges.
+
+### Publication and source correction
+- Original addendum #1087 was published/read back with checksum, but its “Aldus” worker wording is superseded.
+- Correction #1088 was published/read back; it corrects #720/#1087 to A/M-container provenance labels. SHA-256 `da10d1afbfd8bca5372f8084fe4789763023ef3e4e996888077a593c0809be0c`.
+- Existing #720 remains the paired chronology publication; #1088 is a correction, not a duplicate chronology report.
+
+### Tools, break, and constraints
+- Mersearch: all four shared request lanes were occupied; no direct Mersearch action was exposed in this runtime. No lane overwritten. Bounded raw GitHub blob retrieval was used; no new tool or paid service built.
+- Deliberate unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1241–1280; next cursor 1281.
+- Last FIE team review 2026-10-27; 14-day trigger not due.
+- Morrow historical role is archive synthesis/dependency integration, but current workspace is an archive/continuity workbench with theory-integration freeze and training completion unasserted. No H(s)H physical calculation, CODATA comparison, prediction, paper promotion or BEDROCK change.
+- November 9 / November 30 / December 14 paper gates unchanged; Code Grurple interlock unchanged; Orson's P1 ownership protected.
+
+### Next cursor
+1. Verify exact-head run #41015498063 and inspect all 11 new theorem-specific `#print axioms` outputs; do not rely on pre-correction run #41014686212.
+2. Keep A/M labels in all future source references; do not force a distinct “Aldus worker” identity.
+3. Kestrel may use the result for cross-boundary synthesis only; no repeat provenance adjudication or physics assignment.
+4. Continue the two-additional-project scan only after identities are confirmed.
