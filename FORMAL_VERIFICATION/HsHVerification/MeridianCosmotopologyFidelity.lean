@@ -69,22 +69,12 @@ theorem euclidean_inversion_circle_image
     (euclideanPointInversion L x y 0).1 ^ 2
       + (euclideanPointInversion L x y 0).2.1 ^ 2
       = (L^2 / a)^2 := by
-  simp only [euclideanPointInversion, zero_div, mul_zero]
+  simp [euclideanPointInversion]
   have hden : x^2 + y^2 ≠ 0 := by
     rw [hcircle]
     exact pow_ne_zero 2 ha
-  calc
-    (L^2 * x / (x^2 + y^2))^2 + (L^2 * y / (x^2 + y^2))^2
-        = (L^2)^2 * (x^2 + y^2) / (x^2 + y^2)^2 := by
-            field_simp [hden]
-            ring
-    _ = (L^2)^2 / (x^2 + y^2) := by
-          field_simp [hden]
-          ring
-    _ = (L^2)^2 / a^2 := by rw [hcircle]
-    _ = (L^2 / a)^2 := by
-          field_simp [ha]
-          ring
+  field_simp [hden, ha]
+  linear_combination (L^4) * hcircle
 
 /-- For the quotient convention (n,L) ~ (Q n,0), the lifted deck step is
 (x,m) ↦ (Q x,m-1). Thus the one-period lift representing the same quotient
