@@ -44,3 +44,8 @@ No BEDROCK promotion, paper-gate promotion, automation/task/ID/schedule/phase ch
 ## Source-note revision | verbatim equations added
 
 The source note was expanded to preserve the assistant-synthesized composite action, the later user-role re-paste, and the minimal-Lagrangian excerpt verbatim, each kept distinct from the candidate sign repairs. Current note blob: `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7`, 12,433 characters. This supersedes the earlier 9,979-character note blob `f4cfb7cd77e4146ee38534b894edb494e11250ba`.
+
+
+## Final source-note pointer | verbatim related-branch excerpts
+
+The source note now also preserves verbatim the BLOCKWAVE EXTENSION 1+1D canonical excerpt and the SAT-X schematic Hamiltonian excerpt, with the source's own “schematic” and placeholder qualifications retained. Current note blob: `20a5f8f4d1fae3d8559eda9e16cb290e3d2e7742`, 14367 characters. This supersedes both earlier note blobs `f4cfb7cd77e4146ee38534b894edb494e11250ba` and `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7`.
