@@ -12,7 +12,7 @@ That handoff already links the published SAT-O / Blockwave / Whirligig source-fi
 `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-sat-o-blockwave-whirligig-source-fidelity-20261030t0312z-s1-001.md`, blob `07897e2acad8288d185edc4a49999e403ee1e8c8`, issue #1073, publisher/readback comment #6514303623.
 
 The new internal operational/source-rank supplement is:
-`WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, final blob `bc3a43f9082518db9206cc5aeef229fbcd2e08ce`.
+`WORKSPACES/MERCER/2026-10-30_0312Z_GRURPLE_PRESENTATION_AND_HAGALAZ_SOURCE_AUDIT.md`, final blob `8a35335bd3916bf9517ed9c8c9c7759f01102f24`.
 
 ## Critical correction to the existing handoff's Meridian CI paragraph
 The existing handoff says the seven theorem targets all report only `propext`, with no `Classical.choice`. That statement is incorrect.
