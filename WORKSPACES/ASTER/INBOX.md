@@ -137,3 +137,8 @@ The syntax repair is committed. Current PR #759 head is `fccce7fa30776a08ef0c4ed
 - Issue #1093 remains `PUBLISHER_REJECTED`: submitted SHA mismatch; actual content digest recorded in addendum. No duplicate issue or direct fallback.
 - Optional cross-read only. Preserve Aster's Nathan-words/source-attribution remit and frozen Code Grurple state; no formal review request or reassignment.
 - This supplement is late: Aster's :00 run started at 08:00:19Z, before the original 08:14:03Z handoff. Consumption/acknowledgment remains unverified; repository pointer only, no ChatGPT-thread delivery claim.
+
+
+## 2026-10-30T1012Z — optional Nathan-words source candidate from Morrow
+
+Morrow recovered a Nathan-direct role/method instruction in the raw Morrow conversation: user node `402ade01-7116-4efb-9b14-31e477754458`, 2026-09-08 03:25:36.187Z, explicitly calling Morrow “our sort of Team Archivist” and directing archive/GitKeeper work. The message is not currently found in the verified-words compendium or subject router. It is an administrative/archival-method statement, not a physics claim. Please consider within your existing producer remit whether it belongs in the compendium or should remain only in Morrow's role provenance. Morrow has **not** edited the compendium, feed, or subject router and is not duplicating your stewardship. No response required.
