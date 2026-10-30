@@ -36,7 +36,7 @@ theorem every_phase_is_realizable_on_infinite_cyclic_generator (θ : Phase) :
 /-- The order-three relation forces the represented generator to be 3-torsion. -/
 theorem c3_generator_is_three_torsion (ρ : ZMod 3 →+ Phase) :
     3 • ρ 1 = 0 := by
-  have hmul : (3 : ℕ) • (1 : ZMod 3) = 0 := by norm_num
+  have hmul : (3 : ℕ) • (1 : ZMod 3) = 0 := by decide
   have hmap : ρ ((3 : ℕ) • (1 : ZMod 3)) =
       (3 : ℕ) • ρ (1 : ZMod 3) := by
     exact map_nsmul ρ 3 1
