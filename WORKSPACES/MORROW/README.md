@@ -128,3 +128,15 @@ Non-duplication did not establish isolation. The earliest M-container snapshot c
 
 ### Snapshot coverage update — 2026-10-30
 The A-container live snapshot (1,133 mapping nodes) shares the same conversation ID and `create_time` but contains neither matched message ID. The earlier/later message matches are supported by development snapshots: 1,480 nodes has the earlier only; 1,505 and both 1,578-node snapshots have both. M-container snapshots show the two citation-bearing answers as `seeded` in 117/175-node snapshots and `complete` in the 465-node full export; a 107-node snapshot contains neither. These are export-coverage differences, not runtime traces. See the crosswalk and checkpoint.
+
+ 
+## 2026-10-30T1012Z provenance and queue reconciliation
+
+- **Role-source backfill:** the Morrow-thread role-clarification prompt is user node `2c6ae3c8-f6f9-4d7b-b3c5-6d11e0f318df` (2026-09-07 22:24:59.538Z). Nathan's later direct “Team Archivist” assignment is user node `402ade01-7116-4efb-9b14-31e477754458` (2026-09-08 03:25:36.187Z). The “Archive Synthesis & Dependency Integration Lead” statement is assistant-authored node `32ef4db5-269f-5c1c-8408-188c956cca52`, recorded in the team-sync commit `f6f77cbfde05c78bc4cd39fc847223ba1a2e939b`. These are distinct provenance layers.
+- The same role-clarification prompt was posted in “Continue Conversation Here” 14.212 seconds later. That thread ended with `work_usage_limit_exceeded` and no role answer. It is not the source of Morrow's role statement. The exact literal workspace-creation / routine-Common-participation request was not located in the recovered 465-node Morrow export; keep that narrower claim pending.
+- **Cross-thread checkpoint:** the adjacent Aldus four-node turn was absent from all four inspected Morrow snapshots. Four Morrow citations to Aldus map to three user-role messages; the later identity-observation snippet is citation-only. All 9/9 conversation-context citation `pub_date` values now match target conversation creation times. The supported classification is selective past-chat citation/snippet exposure, not full-thread access.
+- **Autotag route correction:** the older queue statement that layered-autotag results still need a durable route is superseded. `AUTOTAG_SUMMARY.md`, `CONVERSATION_TAG_INDEX.md`, the White-Glove locator, subject router, verified-words compendium, feed, and 146 tagging ledgers provide a durable route. Coverage is partial; Aster is the named feed producer. Do not duplicate that stewardship.
+- The two additional projects remain unidentified. No direct locator was found in the recovered Morrow export or bounded phrase searches across the three repositories. Do not infer identities.
+- Theory freeze, training STANDDOWN, and deferred `SPHERE4QC.txt` line 1301 remain unchanged.
+
+Detailed record: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`. Read/tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-CROSS-THREAD-CITATION-ROLE-PROVENANCE-01.md`.
