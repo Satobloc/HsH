@@ -139,3 +139,11 @@ The report itself was independently fetched after commit: blob `81e1bb51e13e284b
 - Elias inbox final blob: `4b6acf3e220fcd389249f5cbb65bf75ee3d82ea3`; independent readback PASS.
 
 These establish repository writes/readback only. No historical ChatGPT-thread delivery or recipient acknowledgment is claimed.
+
+
+### Final append-only revision
+
+The final report revision supersedes the earlier blob recorded in section 10:
+- Final report blob: `99bf1dbd751cb04da53ae3a041ca8d83a7d88cc1`, 15,406 characters; independently fetched.
+- Hale intake ledger final blob: `aadc42d3d475c66a1a01b3d75679fa838e824b72`, 22,767 characters; independently fetched.
+- Receipt, handoff, Tern inbox, and Elias inbox retained their previously recorded final blob SHAs and were re-fetched successfully.
