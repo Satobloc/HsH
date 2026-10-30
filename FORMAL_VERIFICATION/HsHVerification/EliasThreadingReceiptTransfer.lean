@@ -27,6 +27,12 @@ VACATE timestamp was found, so this module proves only the sample state-threshol
 result; it does not evaluate the time-cap branch or assert that any worker
 actually vacated a recurrence.
 
+The chain-key grouping is provenance-only and is not the Python OutputReceipt.worker
+field. The source-faithful diversity bound is therefore stated separately for two
+arbitrary worker strings: one or two distinct workers are possible, but never the
+sample threshold of three. The full sample threshold is false for any assignment
+of those two worker identities because the output-count gate already fails.
+
 These theorems check this formalized finite case, not the Python runtime,
 publisher SHA-256 implementation, semantic independence, or a production policy.
 -/
@@ -73,6 +79,30 @@ def sampleStateThresholdMet : Bool :=
   (distinctProducerKeys.length >= sampleMinWorkers) &&
   sampleBothOutcomesPresent
 
+/-- For exactly two OutputReceipt records, the Python distinct_workers set
+has either one or two members. The actual worker strings remain arbitrary. -/
+def twoReceiptDistinctWorkerCount (workerA workerB : String) : Nat :=
+  if workerA = workerB then 1 else 2
+
+def sampleStateThresholdForTwoReceipts (workerA workerB : String) : Bool :=
+  (2 >= sampleMinOutputs) &&
+  (twoReceiptDistinctWorkerCount workerA workerB >= sampleMinWorkers) &&
+  sampleBothOutcomesPresent
+
+theorem two_receipt_worker_count_at_most_two (workerA workerB : String) :
+    twoReceiptDistinctWorkerCount workerA workerB <= 2 := by
+  unfold twoReceiptDistinctWorkerCount
+  split <;> omega
+
+theorem two_receipt_worker_diversity_gate_fails_for_any_ids (workerA workerB : String) :
+    twoReceiptDistinctWorkerCount workerA workerB < sampleMinWorkers := by
+  unfold twoReceiptDistinctWorkerCount sampleMinWorkers
+  split <;> decide
+
+theorem sample_state_threshold_fails_for_any_two_worker_ids (workerA workerB : String) :
+    sampleStateThresholdForTwoReceipts workerA workerB = false := by
+  simp [sampleStateThresholdForTwoReceipts, sampleMinOutputs]
+
 theorem publisher_digest_sequence_is_mismatch_then_match :
     declaredDigestMatches = [false, true] := by decide
 
@@ -109,5 +139,8 @@ theorem sample_state_threshold_not_met :
 #print axioms sample_output_count_gate_fails
 #print axioms sample_producer_diversity_gate_fails
 #print axioms sample_state_threshold_not_met
+#print axioms two_receipt_worker_count_at_most_two
+#print axioms two_receipt_worker_diversity_gate_fails_for_any_ids
+#print axioms sample_state_threshold_fails_for_any_two_worker_ids
 
 end HsHVerification.EliasThreadingReceiptTransfer
