@@ -158,9 +158,11 @@ JSON SHA-256: `33bd0e387d0e5927fa279ba138f1e7c336800c44ffe284b55557af1074dc0965`
 Existing draft PR #1061 remains open, draft, unmerged, and stacked on its original Aldus base.
 
 - Prior head `bbbdc156a7c94962fbe563ba9a9d2d3e1b691676`, run #40990393407: 19 Calder theorem targets compiled, 8,956 build jobs. Retrieved theorem-specific axiom reports showed standard Lean/Mathlib axioms only and no `sorryAx`. Separate axiom-audit, test, and lint steps were skipped.
-- The current branch adds the corrected q-expansion threshold (0.7 rather than 0.6), the Planck-native GW170817 script/output/log, and the new incidence module.
-- Current head: `d644cbc618b43f964a264108f0f38d3893bb7195`.
-- Exact-head CI run #41008458593 was **PENDING** at the final check. The q-domain correction and incidence module are not claimed compiled until the exact-head run is retrieved and inspected.
+- The branch added the corrected q-expansion threshold (0.7 rather than 0.6), the Planck-native GW170817 script/output/log, and the new incidence module.
+- At PR head `d644cbc618b43f964a264108f0f38d3893bb7195`, run #41008458593 completed **FAILURE** on synthetic merge ref `81ec9f7928b662b104774b2a553f695e583ea779` (a PR merge-ref build, not an isolated branch-head build). The library replayed 8,954/8,957 targets. The new module failed at `slice_union`: `and_or_left_comm` and `and_or_right_comm` were unknown identifiers, leaving the set-distribution goal unsolved. The failed target's `#print axioms` output included `sorryAx` because compilation failed; no `sorry` was added to source. The other three new incidence theorem outputs showed standard axioms. Test, lint, and automated axiom-audit steps were skipped.
+- Full retrieved failure log is preserved at `WORKSPACES/CALDER/CODE/lean_failure_41008458593.log.txt`.
+- Repair: replace the simp-based `slice_union` proof with explicit membership cases; commit `f6af32da569cb53188978c4a70227c6935d996a2`.
+- Current PR head: `f6af32da569cb53188978c4a70227c6935d996a2`; associated run #41008871063 is **IN_PROGRESS**. The q-domain correction and incidence module are not claimed compiled until this new run is retrieved and inspected.
 
 ## 6. Mersearch and control-plane discrepancy
 
