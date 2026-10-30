@@ -115,6 +115,36 @@ def solve_radius_km(target_lambda: Decimal, Mc_Msun: Decimal, q: Decimal = D(1))
     return radius_km_from_planck(solve_radius_Pl(target_lambda, Mc_Msun, q))
 
 
+def lambda_equal_mass_geom(R_km: Decimal, Mc_Msun: Decimal) -> Decimal:
+    # External geometric-unit cross-check only; core calculation remains Planck-native.
+    xi = TWO_ONE_FIFTH * GM_SUN_OVER_C2_KM * Mc_Msun / R_km
+    return COEFF * pow_real(xi, D(-5)) * pow_real(D(1)-D(2)*xi, D("2.5"))
+
+
+def delta0_geom(R_km: Decimal, Mc_Msun: Decimal) -> Decimal:
+    xi = TWO_ONE_FIFTH * GM_SUN_OVER_C2_KM * Mc_Msun / R_km
+    return (D(3)/D(104)) * pow_real(D(1)-D(2)*xi, D(-2)) * (
+        D(-10) + D(94)*xi - D(83)*xi*xi
+    )
+
+
+def solve_radius_geom(target_lambda: Decimal, Mc_Msun: Decimal, q: Decimal = D(1)) -> Decimal:
+    lo, hi = D("8"), D("20")
+    def f(R_km):
+        return lambda_equal_mass_geom(R_km, Mc_Msun) * (
+            D(1)+delta0_geom(R_km, Mc_Msun)*(D(1)-q)**2
+        ) - target_lambda
+    if not (f(lo) < 0 and f(hi) > 0):
+        raise ValueError("geometric-unit cross-check root not bracketed")
+    for _ in range(240):
+        mid=(lo+hi)/2
+        if f(mid) < 0:
+            lo=mid
+        else:
+            hi=mid
+    return (lo+hi)/2
+
+
 def s(x: Decimal) -> str:
     return str(x.quantize(D("0.000000001")))
 
@@ -195,8 +225,10 @@ LEGACY_MINUS_EQ10 = LEGACY_RADIUS-R_Q1
 
 # Conversion identity check: Planck-native solve agrees with the external
 # geometric-length readout based on the nominal IAU GM parameter.
-R_GEOM_CHECK = solve_radius_km(LAMBDA_UPPER, MC, D(1))
+R_GEOM_CHECK = solve_radius_geom(LAMBDA_UPPER, MC, D(1))
+R_GEOM_CHECK_Q073 = solve_radius_geom(LAMBDA_UPPER, MC, Q_LOW)
 assert abs(R_GEOM_CHECK-R_Q1) < D("1e-45")
+assert abs(R_GEOM_CHECK_Q073-R_Q073) < D("1e-45")
 
 # Executable checks.
 assert Q_LOW >= RAITHEL_Q_MIN
@@ -258,6 +290,13 @@ out = {
         "R13_q07_second_order_correction": s(Q_CORR_TABLE_R13_Q07),
         "published_Table1_R13_q07_correction_approx": "0.014",
     },
+    "unit_conversion_cross_check": {
+        "q1_Planck_native_km": s(R_Q1),
+        "q1_geometric_unit_km": s(R_GEOM_CHECK),
+        "q0p73_Planck_native_km": s(R_Q073),
+        "q0p73_geometric_unit_km": s(R_GEOM_CHECK_Q073),
+        "absolute_differences_km": [s(abs(R_GEOM_CHECK-R_Q1)), s(abs(R_GEOM_CHECK_Q073-R_Q073))],
+    },
     "legacy_unverified_sixth_root_fit_comparison": {
         "legacy_11p2_radius_km": s(LEGACY_RADIUS),
         "Eq10_q1_radius_km": s(R_Q1),
@@ -275,7 +314,7 @@ out = {
         "No H(s)H worldtube-to-Love-number mapping has been supplied or tested.",
     ],
     "table1_max_relative_error": s(max(TABLE1_REL_ERR.values())),
-    "assertions_passed": 10,
+    "assertions_passed": 12,
     "python": platform.python_version(),
 }
 print(json.dumps(out, indent=2, sort_keys=True))
