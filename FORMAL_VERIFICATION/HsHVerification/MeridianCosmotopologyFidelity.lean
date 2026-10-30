@@ -74,7 +74,7 @@ theorem euclidean_inversion_circle_image
     rw [hcircle]
     exact pow_ne_zero 2 ha
   field_simp [hden, ha]
-  linear_combination (2 * L^4) * hcircle.symm
+  linear_combination (2 * L^4) * hcircle
 
 /-- For the quotient convention (n,L) ~ (Q n,0), the lifted deck step is
 (x,m) ↦ (Q x,m-1). Thus the one-period lift representing the same quotient
