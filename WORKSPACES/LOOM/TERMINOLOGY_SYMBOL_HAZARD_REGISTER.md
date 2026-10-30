@@ -48,3 +48,9 @@ Apply this register to one addressable Nathan-direct raw source containing a ter
 - `14.1 degrees` → `ASSISTANT-TARGET-REFRAMING / NOT-OPTICAL-EVIDENCE`
 - “This keeps coming up...” → `TRANSCRIPT-ONLY / SPEAKER-UNVERIFIED`
 - Source ledger: `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md`
+
+
+## 2026-10-30 unit-conversion clarification
+- Scripted conversion: 0.239 rad = 13.693691303626673 degrees; 0.246 rad = 14.094761760218251 degrees; difference 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
+- The assistant's later 14.1-degree target is the rounded conversion of 0.246 rad, not an independent measurement or replication.
+- Record: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`.
