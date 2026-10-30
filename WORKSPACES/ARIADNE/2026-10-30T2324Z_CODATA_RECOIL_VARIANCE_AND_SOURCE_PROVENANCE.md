@@ -61,7 +61,7 @@ D5 and D6 are not new recoil measurements. They are relative atomic-mass inputs 
 
 **Correlation scope:** (r(D5,D6)=+0.1032) in CODATA Tables I/XXVI is the AMDC Rb/Cs relative-mass-input correlation. It is not the correlation between the D3/D4 recoil experiments and not the correlation between the final alpha determinations. Table XXVI lists correlations above (|r|>0.0001); D3-D4 and the other D3-D6 cross-pairs are not listed there.
 
-CODATA's alpha comparison applies an expansion factor of 2.5 to the relevant atom-recoil determinations and QED-theory uncertainty. A uniform (z/2.5) sensitivity for this standalone ratio diagnostic is not the CODATA global least-squares residual.
+CODATA's final 2022 alpha adjustment multiplies the uncertainties of all six input data D1-D6 in Table XXV by an expansion factor of 2.5: D1 electron anomaly, D2 its theory-uncertainty correction, D3/D4 atom recoil, and D5/D6 AMDC mass inputs. The adjustment is global (133 input data and 79 adjusted constants). A uniform (z/2.5) sensitivity for this standalone D3-D6 ratio diagnostic is not the CODATA global least-squares residual.
 
 ## 5. Independently re-executed uncertainty budget
 
