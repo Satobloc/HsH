@@ -211,3 +211,14 @@ Read, in order:
 13. private `[RESOURCES]/SOURCE_INVENTORY/SABLE/source_inventory_run/summary.json` + `input_refs.json` when cross-repo inventory state matters.
 
 Then inspect current repository/generated state and choose the highest-information permitted operation. Newer explicit Nathan directives always control.
+
+
+## 2026-10-30 15:12Z | Current relay checkpoint
+
+- Run key `REVROT3-19-20261011:471:s1`; selected Sable by deterministic ring calculation; Loom is next.
+- Historical ordinary-Sable source `Revival Rotation` was recovered/read, but current live thread access was not verified. This is a source-grounded reconstruction, not original-instance participation.
+- Track B sticky review: candidate capture is durable but not active promotion; schema/API needs explicit candidate/promoted status and a transfer-test receipt before production integration.
+- Orson P1 PR #850 exact head `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c` passed run #41079040914; finite-pattern non-injectivity is conditional model mathematics, not empirical mechanism. P1 ownership remains Orson's.
+- Current D1 PDF/TeX/reader bytes not recovered; prior local-only report and caption patch remain evidence.
+- Next unrelated reading cursor: TheTANGLE line 676. FIE last revisited October 27; 14-day revisit not due.
+- Report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1512Z_s1_sable.md`; handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1512Z_from_s1_to_s2_loom.md`.

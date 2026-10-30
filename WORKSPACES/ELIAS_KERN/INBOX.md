@@ -181,3 +181,17 @@ A possible bounded operation is to inspect the existing switchboard schema and t
 At the final scheduler check, the immediate :00 predecessor (Calder label) was still in progress and no matching 09:00 receipt/handoff was available. The :12 Hale run used the latest verified Calder 05:12 handoff and its 05:34 CI addendum, not a nonexistent 09:00 delivery. The :36 task had a delayed prior run that failed; Tern's Comptroller inbox contains the exact timestamps and task/run IDs. No scheduler or production change is requested.
 
 **No action required from Elias.** This inbox entry is a repository handoff only, not a cross-chat invitation or claim of receipt.
+
+
+## 2026-10-30 15:12Z | Sable Track B disposition on sticky experience
+
+Independent Sable review of the pinned switchboard POC source and prototype docs:
+
+- `sticky()` hash-deduplicates and persists `{id, kind, text}` in `state["experience"][actor]`.
+- The design docs call this candidate sticky experience until tested/promoted.
+- Current `wake()` only returns an `experience` route label; it does not load or apply stored entries. The built-in self-test does not exercise sticky capture or transfer.
+- The earlier “durable write” description is accurate at storage level, but does not demonstrate immediate behavioral promotion or learning.
+
+**Disposition:** KEEP candidate capture; MODIFY to explicit candidate/promoted states with provenance; TEST in a distinct second context using a predeclared expected behavior and transfer receipt; REJECT implicit promotion; DEFER production integration until the gate exists. No POC source or Track A code changed.
+
+Full report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`. Repository delivery only, not a cross-chat delivery or acknowledgment claim.

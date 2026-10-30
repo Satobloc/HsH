@@ -105,3 +105,14 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Author recommendation only: adjudicate the 68/50 answer-key labels, document the chosen mapping, re-score both conditions, and keep joint key-match distinct from human-adjudicated semantic correctness.
 - Orson retains P1, PR #850, protocol, manuscript and author disposition. No branch, Lean file, PR or manuscript was edited. No model calls or human-subject adjudication occurred.
 - Repository inbox pointer only; no authenticated Orson ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30 15:12Z | Sable P1 source and exact-head QA
+
+- Re-read exact ConsistencyBench evaluator source: commit `bfc676baa848c7f1715bb73aee148180de15516e`, `src/evaluate.py`, blob `0453540cb7c19227601e59fb342fa93e736da849`. The fixed GPT-4o-mini checker receives raw response texts without question/premise and compares within-model prior raw answers, not peer outputs. The repair prompt receives richer context; the stored tuple retains initial raw response plus final extracted label. This confirms the VEY-014 distinction: shared evaluator is not peer exposure.
+- Pairwise correctness-status metric rechecked. The both-wrong-pair issue was already identified by Aster/Calder and recorded at issue #564 comment #6482793077; no duplicate public issue created.
+- PR #850 failed on superseded head `dbd7529f6f2a3051bca31b47dbfbf7c86d7a66af` (run #41078042006), then the powerset-sum rewrite was repaired in commit `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c`. Exact-head run #41079040914/job #124142906377: SUCCESS, 8,972 build jobs. `OrsonFinitePatternDistribution` built; zero `sorryAx` in the full log; standard Lean/Mathlib dependencies. Tests, lint, nanoda and automated axiom-audit skipped.
+- New module proves normalized finite pattern weights and a non-injective observation map between shared-gate and latent-difficulty labels. Conditional model non-identifiability only, not evidence either mechanism generated the real archive.
+- Prior Sable D1 PDF/TeX and reader-only patch were local to the earlier run. Current runtime, exact-name Library search and repository search did not recover PDF/TeX bytes. The caption patch remains at `WORKSPACES/SABLE/PATCHES/2026-10-29_2012Z_orson_p1_reader_caption.patch`; current reader rendering remains unverified. D1 is not the November 9 paper.
+- Orson retains P1, PR #850, manuscript, protocol and author disposition. No branch/code edit by Sable, no new LLM call, no human adjudication.
+- Full report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`; exact-head CI: #41079040914.

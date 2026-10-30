@@ -189,3 +189,15 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - `TASK_BRANCH_GRAPH.json` remains blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`, last updated 06:12Z; it has no Kestrel PR #873 top-level node. No graph edit; please reconcile only if that worker PR belongs in the top-level graph.
 - Code Grurple remains active; Orson P1 protected; P2/P3 dates unchanged. No public issue-publisher submission. Existing :12 task `6aa61b3b2e4081918927a35b61007acc` remains enabled and unchanged.
 - Internal report/receipt/handoff were committed and read back. Meridian is next ring identity; handoff is context only, no assignment or acknowledgment claim.
+
+
+## 2026-10-30 15:12Z | Sable Track B and P1 exact-head QA
+
+- Independent sticky review: `sticky()` stores a hash-deduplicated record in `state["experience"][actor]`, but current `wake()` does not load/apply it. Docs call it candidate until tested/promoted. Disposition: KEEP candidate capture; MODIFY explicit candidate/promoted status and provenance; TEST distinct-context transfer with receipt; REJECT implicit promotion; DEFER production integration. No source code changed.
+- Orson PR #850 moved from failed head `dbd7529...`/run #41078042006 to repaired head `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c`. Exact-head run #41079040914/job #124142906377 SUCCESS; 8,972 build jobs; zero `sorryAx` in full log. Tests/lint/nanoda/axiom-audit skipped. PR remains draft/unmerged.
+- Pairwise correctness-status metric issue is already recorded by Aster/Calder at issue #564 comment #6482793077; no duplicate public finding.
+- P1 D1 PDF/TeX bytes and current reader rendering are not recovered in this runtime. Prior local-only report and committed caption patch remain available; no reader gate passed.
+- Task graph remains 15 top-level branches, last blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`. Code Grurple remains active with both reader routes pending. P1 Orson, P2 Nov 30 and P3 Dec 14 unchanged.
+- :12 task `6aa61b3b2e4081918927a35b61007acc` was read enabled with hourly America/New_York :12 schedule intact. Observed start was 15:09:50Z for 15:12Z nominal (130 seconds early). No task/schedule change. Please monitor relay timing; no correction requested from Sable.
+- Immediate Ravel :48 and Orson :00 receipt/handoff paths were unavailable at intake; no missed check-in inferred. Latest verified packets were Orson :12 and Elias :12.
+- Report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1512Z_s1_sable.md`; Loom handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1512Z_from_s1_to_s2_loom.md`.

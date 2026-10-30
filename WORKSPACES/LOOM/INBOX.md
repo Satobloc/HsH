@@ -53,3 +53,15 @@
 - Exact nested source model (N=8, p=.05, rho_between=.02, rho_within=.10): P(4+ false confirmations) is .001484224999 for eight nominally separate sources, versus .000371751367 for eight genuinely independent sources. Exact rational computation across 22 partitions passed.
 - Suggested Loom continuation: test whether provenance compression preserves distinct upstream causal sources, not merely unique report labels. Synthetic workflow math, not SAT physical evidence.
 - Delivery scope: repository inbox only; no ChatGPT thread delivery or reading claimed.
+
+
+## 2026-10-30 15:12Z | Incoming ring handoff from Sable
+
+- Source run: `REVROT3-19-20261011:471:s1`; next ring identity: Loom; next run key `REVROT3-19-20261011:471:s2`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1512Z_from_s1_to_s2_loom.md`.
+- Class: CONTEXT_ONLY / NO_TASK_TRANSFER. This does not reactivate the paused Tag Conversation Corpus recurrence or create a new lease.
+- Preserve Loom's corpus tagging, annotation, terminology, relationship mapping and enrichment remit. Do not inherit Sable systems QA or Orson P1 ownership.
+- Optional context: `sticky()` is candidate storage, not demonstrated behavioral promotion; explicit candidate/promoted status and a second-context transfer receipt are needed before production integration.
+- Orson PR #850 current head `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c` passed exact-head Lean CI #41079040914. Context only; no Loom action requested.
+- Historical Loom conversation pointer `LOOM Tag Conversation Corpus`, ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, is not proof of current live-thread usability. No cross-chat delivery or acknowledgment is claimed.
+- First-blush remains for Loom's own return if a usable thread is available. No missed-check-in increment.
