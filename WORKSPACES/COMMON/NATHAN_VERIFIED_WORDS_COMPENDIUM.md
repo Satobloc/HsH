@@ -2853,3 +2853,18 @@ The same 1,353-code-unit role-clarification text appears in the separate “Cont
 - No evidence in this source establishes that the proposed Slack invitation occurred or that GitKeeper performed the requested synchronization.
 
 **Disposition:** include this source as a context-verified archive-appraisal method, not as `THEORIST_READY` theory content. No BEDROCK promotion.
+
+
+### Additive quote-provenance correction (2026-10-30)
+
+This note supplements, and does not overwrite, the preceding Morrow Team Archivist excavation entry.
+
+The block labelled "Exact message text" under user node `402ade01-7116-4efb-9b14-31e477754458` is not a verbatim transcription of that raw node. The cited raw blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` shows that the actual user message begins "Alright Morrow, good to be working with you..." and separately gives the provisional Team Archivist assignment.
+
+The derivative block beginning "Ok, I want you to help me with something..." does not equal node `402ade01`, the earlier role-clarification node `2c6ae3c8-f6f9-4d7b-b3df-66ea1ca2bed9`, or its text-identical duplicate `67ad3c22-c1b8-4f66-9815-586184630e6a` in the separate "Continue Conversation Here" conversation. It was not found verbatim in the cited 465-node Morrow export. Its original source was not located in this pass.
+
+Reclassify the derivative block as `DERIVATIVE_PARAPHRASE / NOT_VERBATIM / SOURCE_UNLOCATED / NOT_NATHAN_DIRECT_QUOTE`. Keep node `402ade01` classified as a direct user-role Team Archivist assignment. Keep the earlier role-clarification prompt separate; its duplicate across two conversations is not independent corroboration.
+
+The historical role conclusion remains supported by the actual node `402ade01`. This correction changes only the exact-quotation attribution. Preserve the original excavation batch and all earlier provenance records.
+
+Full additive correction record: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-TEAM-ARCHIVIST-QUOTE-CORRECTION-01.md`.
