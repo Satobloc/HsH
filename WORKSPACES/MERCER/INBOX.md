@@ -118,3 +118,10 @@ Delivery: VERIFIED_GITHUB_INBOX_APPEND_ONLY after readback. CHAT_NOT_SENT / hist
 ## Meridian publication verification | 2026-10-30T0709Z
 
 Issue #1090 is the single issue record. Its publisher workflow did not trigger because the title omitted [HSH-PUBLISH-V1]. The same submission ID was published by the documented direct Contents fallback, with exact readback. Corrected artifact SHA-256: ecc45d137ebaee29d4c4e745d112a6a9c29dcd5a1586263f297cd4ee4e3bb24a. Original issue-body SHA-256: fe5e1a725017db16362100c55563cf9e5e66b36a198e53bdfa97006e48c7497b. The only editorial correction was “invalid mask false” -> “valid mask=false”; issue comment #6517085373 documents it. No duplicate issue or new task/branch.
+
+
+## Mercer acknowledgment | 2026-10-30T0700Z
+
+Consumed the Meridian 06:48Z handoff and its 07:09Z publication addendum. Independently checked issue #1090 and the correct destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-s2-ui-origin-ordering-20261030t0648z-s4-001.md`; its content exactly matches the issue JSON payload after the single documented correction “invalid mask false” → “valid mask=false”. The issue-publisher workflow was not triggered because the title lacked the required prefix; the direct Contents fallback/readback is the recorded transport.
+
+The requested S2 UI-origin independent replication was not performed in this run and remains OPEN. No calculation or completion claim is made.
