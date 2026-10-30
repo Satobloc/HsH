@@ -1,0 +1,545 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "20f3561673c66275896b8938b5d29c0b0bbad512065a3933d988e18d34f16b63",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-30T23:53:31.614783+00:00",
+  "query": "(name:*OV* OR path:*ORSON* OR path:*VEY_COGNITION_LAB*) OR (author:user AND ((\"false authority\" NEAR/12 neutral) OR (\"false-authority\" NEAR/12 neutral) OR (\"matched cognition\" NEAR/12 \"answer key\") OR (\"test bank\" NEAR/12 cognition) OR (\"authority framing\" NEAR/12 LLM)))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15749,
+    "records_scanned": 20826144,
+    "hits": 718805
+  },
+  "counted_hits": 718805,
+  "distinct_sources": 608,
+  "results_by_root": {
+    "archive": 161003,
+    "hsh-main": 460304,
+    "resources": 97498
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "name:*OV*",
+      515754
+    ],
+    [
+      "path:*ORSON*",
+      108787
+    ],
+    [
+      "author:user",
+      4158
+    ],
+    [
+      "LLM",
+      1217
+    ],
+    [
+      "cognition",
+      643
+    ],
+    [
+      "neutral",
+      401
+    ],
+    [
+      "answer key",
+      20
+    ],
+    [
+      "matched cognition",
+      2
+    ],
+    [
+      "false-authority",
+      2
+    ],
+    [
+      "test bank",
+      2
+    ],
+    [
+      "authority framing",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ORSON_VAY/ROLE_CHARTER_2026-10-09_LLM_COGNITION.md",
+      "title": "ROLE_CHARTER_2026-10-09_LLM_COGNITION",
+      "record_count": 17,
+      "best_score": 111,
+      "first_hit_index": 617169,
+      "sample_hit_index": 617176,
+      "locator": "line:18",
+      "matched_terms": [
+        "path:*ORSON*",
+        "neutral",
+        "false-authority",
+        "matched cognition",
+        "test bank",
+        "cognition"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T1324Z_from_s2_to_s3_orson_vay.md",
+      "title": "2026-10-28T1324Z_from_s2_to_s3_orson_vay",
+      "record_count": 34,
+      "best_score": 90,
+      "first_hit_index": 609110,
+      "sample_hit_index": 609136,
+      "locator": "line:36",
+      "matched_terms": [
+        "path:*ORSON*",
+        "neutral",
+        "false-authority",
+        "matched cognition",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/PUBLIC_SITE/generated/discovery.json",
+      "title": "discovery",
+      "record_count": 112007,
+      "best_score": 58,
+      "first_hit_index": 490097,
+      "sample_hit_index": 542896,
+      "locator": "$.documents[509].excerpt",
+      "matched_terms": [
+        "name:*OV*",
+        "answer key",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1112Z_s1_orson_vay.md",
+      "title": "2026-10-30T1112Z_s1_orson_vay",
+      "record_count": 37,
+      "best_score": 57,
+      "first_hit_index": 610195,
+      "sample_hit_index": 610208,
+      "locator": "line:30",
+      "matched_terms": [
+        "path:*ORSON*",
+        "test bank",
+        "cognition"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-peer-majority-alignment-20261030t0336z-s3-001.md",
+      "title": "orson-p1-peer-majority-alignment-20261030t0336z-s3-001",
+      "record_count": 117,
+      "best_score": 56,
+      "first_hit_index": 607510,
+      "sample_hit_index": 607549,
+      "locator": "line:156",
+      "matched_terms": [
+        "path:*ORSON*",
+        "authority framing"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.05•26.06.05•SAT Theory Archive Overview — raw.json",
+      "title": "SAT Theory Archive Overview",
+      "record_count": 162,
+      "best_score": 51,
+      "first_hit_index": 5958,
+      "sample_hit_index": 6145,
+      "locator": "message:dad49596-b4c2-4ac5-b7bf-a2bdd6ad17a5",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user",
+        "neutral",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.05•[A] SAT Theory Archive Overview — raw (1).json",
+      "title": "[A] SAT Theory Archive Overview",
+      "record_count": 135,
+      "best_score": 51,
+      "first_hit_index": 5956,
+      "sample_hit_index": 6143,
+      "locator": "message:dad49596-b4c2-4ac5-b7bf-a2bdd6ad17a5",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user",
+        "neutral",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.05•[A] SAT Theory Archive Overview — raw.json",
+      "title": "[A] SAT Theory Archive Overview",
+      "record_count": 135,
+      "best_score": 51,
+      "first_hit_index": 5957,
+      "sample_hit_index": 6144,
+      "locator": "message:dad49596-b4c2-4ac5-b7bf-a2bdd6ad17a5",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user",
+        "neutral",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-mp4-flag-saturation-20261029t1224z-s2-001.md",
+      "title": "orson-p1-mp4-flag-saturation-20261029t1224z-s2-001",
+      "record_count": 35,
+      "best_score": 49,
+      "first_hit_index": 607410,
+      "sample_hit_index": 607441,
+      "locator": "line:5",
+      "matched_terms": [
+        "path:*ORSON*",
+        "answer key"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ORSON_VAY/OV_20261009_43_OBSERVER_RESOLUTION_MULTIPOLE_HESSIAN_GATE.md",
+      "title": "OV_20261009_43_OBSERVER_RESOLUTION_MULTIPOLE_HESSIAN_GATE",
+      "record_count": 35,
+      "best_score": 49,
+      "first_hit_index": 615283,
+      "sample_hit_index": 615312,
+      "locator": "line:42",
+      "matched_terms": [
+        "name:*OV*",
+        "path:*ORSON*",
+        "neutral",
+        "cognition"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ORSON_VAY/2026-10-29_1612Z_P1_FLAG_DIAGNOSTIC_SOURCE_AUDIT.md",
+      "title": "2026-10-29_1612Z_P1_FLAG_DIAGNOSTIC_SOURCE_AUDIT",
+      "record_count": 27,
+      "best_score": 49,
+      "first_hit_index": 614215,
+      "sample_hit_index": 614219,
+      "locator": "line:14",
+      "matched_terms": [
+        "path:*ORSON*",
+        "answer key"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.22•Mercer Archive Mover — raw (3).json",
+      "title": "Mercer Archive Mover",
+      "record_count": 1671,
+      "best_score": 46,
+      "first_hit_index": 15631,
+      "sample_hit_index": 16126,
+      "locator": "message:c2840466-0f21-420a-b18d-9d28ec477b43",
+      "matched_terms": [
+        "name:*OV*",
+        "answer key"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/RMS_OVERVIEW_AND_STUDY_GUIDE.txt",
+      "title": "RMS_OVERVIEW_AND_STUDY_GUIDE",
+      "record_count": 186,
+      "best_score": 46,
+      "first_hit_index": 172664,
+      "sample_hit_index": 172758,
+      "locator": "line:212",
+      "matched_terms": [
+        "name:*OV*",
+        "answer key"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 1051,
+      "best_score": 40,
+      "first_hit_index": 6607,
+      "sample_hit_index": 8697,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral",
+        "cognition",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Orson Free Build — raw.json",
+      "title": "Orson Free Build",
+      "record_count": 228,
+      "best_score": 38,
+      "first_hit_index": 22468,
+      "sample_hit_index": 22598,
+      "locator": "message:55e4f9fe-d0bd-4286-a7c2-ddb70a4f22f9",
+      "matched_terms": [
+        "path:*ORSON*",
+        "author:user",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Accordioncam overview — raw.json",
+      "title": "Accordioncam overview",
+      "record_count": 33,
+      "best_score": 32,
+      "first_hit_index": 3094,
+      "sample_hit_index": 3094,
+      "locator": "message:c2e3f363-5bd7-4573-80d1-e816366570de",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview and Details — raw.json",
+      "title": "SAT Overview and Details",
+      "record_count": 23,
+      "best_score": 32,
+      "first_hit_index": 6545,
+      "sample_hit_index": 6545,
+      "locator": "message:980285d9-890f-4e13-96ed-481612f79237",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Nov 2024 RMS MORAL REALISM & PERCEPTUAL TAXONOMY.txt",
+      "title": "Nov 2024 RMS MORAL REALISM & PERCEPTUAL TAXONOMY",
+      "record_count": 3273,
+      "best_score": 30,
+      "first_hit_index": 141718,
+      "sample_hit_index": 141858,
+      "locator": "line:1152",
+      "matched_terms": [
+        "name:*OV*",
+        "cognition"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/2 OS-00 world overview — raw.txt",
+      "title": "2 OS-00 world overview — raw",
+      "record_count": 27186,
+      "best_score": 28,
+      "first_hit_index": 26390,
+      "sample_hit_index": 43391,
+      "locator": "line:253",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/OS-00 world overview — raw.txt",
+      "title": "OS-00 world overview — raw",
+      "record_count": 27186,
+      "best_score": 28,
+      "first_hit_index": 144991,
+      "sample_hit_index": 161992,
+      "locator": "line:253",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 3/NOVEL PREDICTOINS.txt",
+      "title": "NOVEL PREDICTOINS",
+      "record_count": 359,
+      "best_score": 28,
+      "first_hit_index": 134398,
+      "sample_hit_index": 134689,
+      "locator": "line:547",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SATOBLOC/NOVEL PREDICTOINS.txt",
+      "title": "NOVEL PREDICTOINS",
+      "record_count": 359,
+      "best_score": 28,
+      "first_hit_index": 183362,
+      "sample_hit_index": 183653,
+      "locator": "line:547",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/_SATOBLOCKSTRING CALIBRATED/NOVEL PREDICTOINS.txt",
+      "title": "NOVEL PREDICTOINS",
+      "record_count": 359,
+      "best_score": 28,
+      "first_hit_index": 185358,
+      "sample_hit_index": 185649,
+      "locator": "line:547",
+      "matched_terms": [
+        "name:*OV*",
+        "neutral"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/DEBATING AI PODCAST/Debating A.I. On the Future of Physics - Dzhanibekov Planets.txt",
+      "title": "Debating A.I. On the Future of Physics - Dzhanibekov Planets",
+      "record_count": 2532,
+      "best_score": 24,
+      "first_hit_index": 55228,
+      "sample_hit_index": 57180,
+      "locator": "line:328",
+      "matched_terms": [
+        "name:*OV*",
+        "LLM"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:aaa235ed-8ef0-46ec-87e1-363583616687",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:609e8205-4e4e-457d-9b81-2c545b9439a7",
+      "matched_terms": [
+        "name:*OV*"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:aaa28dbc-fc4b-46d4-86dd-196da8464fdb",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:7c1443c8-811b-41a2-bbd8-0dbd8d09bbf5",
+      "matched_terms": [
+        "name:*OV*"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:aaa20ed7-bb1d-4738-aae3-c3ab3b5bc26e",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:03b0cc98-86f2-4dcd-89b2-6868d106552f",
+      "matched_terms": [
+        "name:*OV*"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:aaa2081c-86c0-40d6-af81-1a5deee47c6e",
+      "matched_terms": [
+        "name:*OV*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "locator": "message:b9556f29-9046-468a-a31a-e14eb04564db",
+      "matched_terms": [
+        "name:*OV*"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
