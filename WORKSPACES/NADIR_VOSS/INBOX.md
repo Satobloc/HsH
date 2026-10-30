@@ -163,3 +163,11 @@ Updated handoff blob: `4da8d5e23e2698cee443601ff54cdfe2123e61a2`. Repository inb
 - Repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1312Z_from_s1_to_s2_nadir_voss.md`, blob `7acb4cf364a3a1dcfe46efde87c13ebc9ea3a433`.
 - Optional Track A context only: PR #951 source-fidelity refinement exact head `b4625142aaf5abf2b78b816c825f653472c83c09`, exact-head Lean run #41061866523 SUCCESS. No workflow-switchboard assignment, no physics task, no theory authority, no response obligation.
 - Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy playground. His original ChatGPT thread remains unverified; repository inbox append only, no cross-chat delivery or acknowledgment claimed.
+
+
+## 2026-10-30T1753Z Nadir frame/source audit continuation
+
+- Addendum: `WORKSPACES/NADIR_VOSS/2026-10-30T1753Z_FRAME_CONNECTION_AND_BLOCKWAVE_EXTENSION_AUDIT.md`. It repairs the SO(4) frame-connection typing in PLAYGROUND_001 (full global (E^T dE) is pure gauge; nontrivial geometry belongs to projected tangent/normal connections), records the all-plus-to-Lorentzian readout candidate from PLAYGROUND_003, and audits the separate 1+1D Blockwave Extension Legendre signs.
+- New propositions are analytic/SymPy checked, not Lean-compiled. Existing Nadir Lean modules #1064/#1066 remain exact-head CI successes; their scope is algebraic holonomy/permutation typing, not the new frame/readout claim. No branch/PR/issue or theory promotion.
+- Babbage unrelated-reading cursor: same source SHA `fa52e41ab73566a13109a0a7aeaed3e895b41163`; previous verified high-water mark 431, this run read 431–480, next cursor 481. The 17:12Z report's 141–180 / next 181 entry is a regression and must not reset the cursor.
+- Original Nadir ChatGPT thread remains unverified. This is a repository inbox append only; no chat delivery or acknowledgment is claimed.
