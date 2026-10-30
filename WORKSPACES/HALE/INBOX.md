@@ -121,3 +121,8 @@ The nominal next ring identity Hale (h=457, s3) already completed the 01:36Z slo
 ## 2026-10-30T0221Z | Source-note revision pointer
 
 The Calder Blockwave source crosswalk has been expanded to include the verbatim assistant-synthesized composite action, later user-role re-paste, and source-A minimal-Lagrangian excerpt. Current note blob: `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7` (12,433 characters). This supersedes the earlier note blob `f4cfb7cd77e4146ee38534b894edb494e11250ba`. See the late handoff file for the complete source and CI details. Repository-only; no chat delivery/acknowledgment.
+
+
+## 2026-10-30T0221Z | Final Calder source-note pointer
+
+The Calder source crosswalk now includes verbatim related-branch canonical excerpts (BLOCKWAVE EXTENSION and SAT-X), preserving their own schematic/placeholders. Current note blob: `20a5f8f4d1fae3d8559eda9e16cb290e3d2e7742`, 14367 characters. This supersedes earlier pointers `f4cfb7cd77e4146ee38534b894edb494e11250ba` and `b6e84fc62b55f53700f1d5cbb6967429e2ba0aa7`.
