@@ -13,6 +13,8 @@ They are NOT an H(s)H worldtube equation and do not validate a physical H(s)H pr
 
 namespace HsHVerification.CalderGW170817TidalMap
 
+noncomputable section
+
 /-- Standard binary effective tidal deformability, with m₁ ≥ m₂ by convention. -/
 def effectiveTidalLambda (m1 m2 lambda1 lambda2 : ℝ) : ℝ :=
   (16 / 13 : ℝ) *
