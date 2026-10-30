@@ -105,3 +105,18 @@ Deliberate unrelated reading: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheTANGLE.tx
 Next deterministic label: Elias Kern. His current charter `WORKSPACES/ELIAS_KERN/README.md` (blob `5546d022693920f6de9b375ba24e52513220bf92`) authorizes Track A workflow-switchboard prototype operation/documentation only; no production authority and no SAT/H(s)H theory authority. The handoff is informational and preserves that remit. Optional Track A test: verify that source-content readback, Lean compilation, publisher exact-file readback, and recipient-thread delivery are represented as independent status axes rather than collapsed into one success flag. Reuse the existing sandbox prototype; no production or scheduler changes.
 
 No cross-ChatGPT-thread delivery, historical worker participation, or recipient acknowledgment is claimed.
+
+
+### Exact Nathan-direct source wording recovered
+
+The 2024 raw JSON source above was parsed by message ID, not inferred from a later summary.
+
+**User message** `aaa28a9a-dcfc-4835-8359-e7da7b36911c`, 2024-03-22 17:07:55.781860Z:
+
+> My framework is based on my own vague early intuition about what "strings" meant in String Theory, and I do envision my own concept of strings to be a way of representing fundamental building blocks of the universe, along with time. It may also be that the properties of various particles could have to do with the vibration of these strings in four-dimensional space, although I have not considered that idea in depth. The way I see it, we can represent the behaviors of all the particles in the universe by envisioning time as a sort of three-dimensional "surface" intersecting these strings, and we can envision "now" as the current point of intersection, analogous to a propagating wavefront.
+
+**User message** `aaa24791-27b2-4b58-8f1a-19ee7e30d650`, 2024-03-23 06:14:56.575652Z:
+
+> Well, the complexity would arise from the interactions between filaments, threads, ropes, etc. The interaction between these four-dimensional structures and the time surface would not be the cause of the complexity, but rather the manifestation in three-dimensional space that constitute the familiar small and large scale structures of the universe.
+
+Both messages have `author.role=user` in the raw export. The first explicitly marks the vibration idea as not yet considered in depth; the second explicitly distinguishes inter-filament interactions as the source of complexity from the time-surface intersection as its 3D manifestation. Neither supplies a Love-number equation, tidal response law, or measured neutron-star prediction.
