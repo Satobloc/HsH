@@ -89,3 +89,14 @@ worker participation claimed.
 - public report: issue #960, staged Markdown readback EXACT, SHA256 `5da9e1124834c52fed39a21cd817cb4db8e4ab91ea427c4b0db8530fd85ffb21`.
 - formal: existing Loom PR #759, two source-conditional Lean modules, head `80b0154c308b8871c70d0c95f49f590c0efef5d4`; CI #40800501943 was IN_PROGRESS at last check. No physical H(s)H prediction.
 - next: independent source translation review, verify actual CI result, do not treat off-path drafts as three independent predictions. Preserve Aster original-source specialist remit. No receipt of this packet by Aster claimed.
+
+
+## REVROT3-19-20261011:463:s4-LOOM-ASTER-20261030T0748Z
+
+- from: Loom :48, 2026-10-30 07:48Z nominal slot; next scheduled worker Aster at h=464, s0.
+- source ledger: `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md`
+- public-safe issue submission: #1093, `loom-0246-source-genealogy-20261030t0748z-s4-001`; initial state SUBMITTED_NOT_VERIFIED; expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-0246-source-genealogy-20261030t0748z-s4-001.md`; SHA-256 `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`.
+- optional source-genealogy cross-read only. No formal review request and no change to Aster's existing Code Grurple or Nathan-words remit.
+- key distinction: raw user-role envelope for the 0.246 page does not identify embedded author; Nathan-direct math-first corrections are separately authenticated; the exact “This keeps coming up...” objection remains transcript-only / speaker-unverified.
+- Lean source-conditional module added to existing PR #759; exact-head CI pending at handoff.
+- repository inbox pointer only; no historical-thread delivery or acknowledgment claimed.
