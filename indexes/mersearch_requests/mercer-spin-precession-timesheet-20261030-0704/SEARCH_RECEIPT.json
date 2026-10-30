@@ -1,0 +1,598 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "f1345647b2c7356f0c9641c39745084588e102080091c0c82f52e88f6bc91a02",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-30T08:13:25.123982+00:00",
+  "query": "author:user AND ((spin NEAR/12 worldtube) OR (precession NEAR/12 timesheet) OR (\"shelf-cocking\" NEAR/12 tilt) OR (rotation NEAR/12 filament))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15525,
+    "records_scanned": 20804164,
+    "hits": 81
+  },
+  "counted_hits": 81,
+  "distinct_sources": 53,
+  "results_by_root": {
+    "archive": 21,
+    "hsh-main": 60
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "rotation",
+      81
+    ],
+    [
+      "author:user",
+      81
+    ],
+    [
+      "filament",
+      79
+    ],
+    [
+      "spin",
+      50
+    ],
+    [
+      "timesheet",
+      45
+    ],
+    [
+      "precession",
+      40
+    ],
+    [
+      "tilt",
+      18
+    ],
+    [
+      "worldtube",
+      12
+    ],
+    [
+      "shelf-cocking",
+      9
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 72,
+      "sample_hit_index": 72,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 73,
+      "sample_hit_index": 73,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31•26.09.05•SAT Decon + Prior ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 74,
+      "sample_hit_index": 74,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 75,
+      "sample_hit_index": 75,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 76,
+      "sample_hit_index": 76,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 77,
+      "sample_hit_index": 77,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31•26.09.05•ChatGPT Voice Glitch — raw (1).json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 78,
+      "sample_hit_index": 78,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31•26.09.05•ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 79,
+      "sample_hit_index": 79,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.31•26.09.05•ChatGPT Voice Glitch — raw (2).json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 84,
+      "first_hit_index": 80,
+      "sample_hit_index": 80,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "worldtube",
+        "precession",
+        "timesheet",
+        "shelf-cocking",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 25,
+      "sample_hit_index": 25,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.12•26.06.01•[A] Physical Reality Evaluation — raw.json",
+      "title": "[A] Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 26,
+      "sample_hit_index": 26,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12•26.06.01•Physical Reality Evaluation — raw (1).json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 27,
+      "sample_hit_index": 27,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12•26.06.01•Physical Reality Evaluation — raw (2).json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 28,
+      "sample_hit_index": 28,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12•26.06.01•Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 29,
+      "sample_hit_index": 29,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 4,
+      "best_score": 62,
+      "first_hit_index": 13,
+      "sample_hit_index": 19,
+      "locator": "message:f11275ae-5ca5-4834-a4d7-d861b85cec43",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.06•26.06.11•Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 4,
+      "best_score": 62,
+      "first_hit_index": 14,
+      "sample_hit_index": 20,
+      "locator": "message:f11275ae-5ca5-4834-a4d7-d861b85cec43",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "timesheet",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 7,
+      "best_score": 58,
+      "first_hit_index": 30,
+      "sample_hit_index": 30,
+      "locator": "message:e50092e1-e738-4bbf-a168-8e4b79723597",
+      "matched_terms": [
+        "author:user",
+        "precession",
+        "timesheet",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Paper Restructuring Plan — raw.json",
+      "title": "Paper Restructuring Plan",
+      "record_count": 1,
+      "best_score": 56,
+      "first_hit_index": 42,
+      "sample_hit_index": 42,
+      "locator": "message:7ff2aeb9-0d22-4b19-9991-9e2df7563873",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "timesheet",
+        "tilt",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Idea Evaluation Request — raw.json",
+      "title": "Idea Evaluation Request",
+      "record_count": 1,
+      "best_score": 53,
+      "first_hit_index": 11,
+      "sample_hit_index": 11,
+      "locator": "message:4f967b88-d751-45be-85ac-6118e16aa8a6",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "precession",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physics Theory Sandbox — raw.json",
+      "title": "Physics Theory Sandbox",
+      "record_count": 2,
+      "best_score": 49,
+      "first_hit_index": 21,
+      "sample_hit_index": 23,
+      "locator": "message:b3999be1-6410-4475-9c9a-a1f77e61a88a",
+      "matched_terms": [
+        "author:user",
+        "precession",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Equation Breakdown Topological Tension — raw.json",
+      "title": "Equation Breakdown Topological Tension",
+      "record_count": 2,
+      "best_score": 49,
+      "first_hit_index": 46,
+      "sample_hit_index": 46,
+      "locator": "message:74637b9c-979a-4918-b506-1e585604810b",
+      "matched_terms": [
+        "author:user",
+        "precession",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reddit OCR Analysis — raw.json",
+      "title": "Reddit OCR Analysis",
+      "record_count": 1,
+      "best_score": 43,
+      "first_hit_index": 50,
+      "sample_hit_index": 50,
+      "locator": "message:9392e8cf-7077-46e6-b9e2-b22ee0f3cb58",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "rotation",
+        "filament"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json",
+      "locator": "message:4fc25a7c-dcfc-4215-b81f-a3814c483558",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json",
+      "locator": "message:4fc25a7c-dcfc-4215-b81f-a3814c483558",
+      "matched_terms": [
+        "author:user",
+        "spin",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:98ff5f92-f3de-415e-96c9-11e79c285810",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "locator": "message:98ff5f92-f3de-415e-96c9-11e79c285810",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:98ff5f92-f3de-415e-96c9-11e79c285810",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.09.16•26.06.20•[A] 🧶🧱SAT — raw.json",
+      "locator": "message:2a05b5a9-4fbe-4342-98a4-267e5c70094b",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json",
+      "locator": "message:2a05b5a9-4fbe-4342-98a4-267e5c70094b",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22•25.10.22•Consciousness as geometry — raw.json",
+      "locator": "message:fe1bddc2-1d9b-4dde-8bec-90fa3fbdc36f",
+      "matched_terms": [
+        "author:user",
+        "rotation",
+        "filament"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "request_id": "mercer-spin-precession-timesheet-20261030-0704",
+  "query": "author:user AND ((spin NEAR/12 worldtube) OR (precession NEAR/12 timesheet) OR (\"shelf-cocking\" NEAR/12 tilt) OR (rotation NEAR/12 filament))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "07a0682f5de21b3f90288db210e004afc96638c5",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "7d9646329488794eb51001e138a45f88fd211a7e",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "07a0682f5de21b3f90288db210e004afc96638c5",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "f1345647b2c7356f0c9641c39745084588e102080091c0c82f52e88f6bc91a02",
+    "SEARCH_RESULTS.md": "49393a430dc3b398dd4394dd4d246c56ab4a1bc5ad5ed67024c18e10f8b56d8d",
+    "SEARCH_RECEIPT.json": "0d6adcae8d59042cf855626ce0fe70f6ef63e9ae643784254daff71b7bcd2f60",
+    "SEARCH_RECEIPT.md": "7b3bf212c2344e69e3edb21d0c12e0fd048206dec27d4a8e8a181a76f70ec930"
+  }
+}
