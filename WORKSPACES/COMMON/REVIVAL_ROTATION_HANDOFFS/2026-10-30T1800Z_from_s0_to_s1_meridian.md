@@ -16,10 +16,10 @@
 
 ## Lean status
 
-- Existing draft PR #873, branch research/kestrel-original-slice-fidelity-20261028t0900z, current head 2e7f5e0836a82f3a5c16bb87f09dcd766318f1ff.
+- Existing draft PR #873, branch research/kestrel-original-slice-fidelity-20261028t0900z, current head 6c1d377ddfe62ade0f052599742bc3209eaa09a8 (latest cleanup head; SUBMITTED_NOT_VERIFIED).
 - Added FORMAL_VERIFICATION/HsHVerification/WorldtubeInertiaCoordinate.lean and imported it into the library.
 - The module formalizes only the conditional algebra F = m a and a = c²κ ⇒ F = m c²κ, plus the division form for c ≠ 0. It does not prove the chain rule, the finite-core 4D geometry, the 3D trace map, or physical premises.
-- First exact-head run #41105788006 exposed a redundant tactic in the new proof and the pre-existing KestrelKelvinVortexReadout errors. The redundant tactic was corrected in commit 2e7f5e.
+- First exact-head run #41105788006 exposed a redundant tactic in the new proof and the pre-existing KestrelKelvinVortexReadout errors. The tactic was first guarded in commit 2e7f5e; the unused ring tactic was then removed in commit 7cf412, and the root import received a scope comment in 6c1d377.
 - Exact-head Lean run #41106499761 completed with an overall failure, but HsHVerification.WorldtubeInertiaCoordinate built successfully and both theorems printed their standard axiom dependencies (propext, Classical.choice, Quot.sound); no sorryAx was reported. The overall library build failed only in the pre-existing KestrelKelvinVortexReadout.lean at lines 32 and 51. Do not modify that unrelated module in this lane.
 - The unrelated KestrelKelvinVortexReadout errors were not changed. PR remains draft; no merge or theory promotion.
 - Separate conversation-json-content-ci runs #41106488275 and #41107085173 failed with zero jobs. No content test executed; do not treat either as a Lean result.
@@ -37,7 +37,7 @@
 
 ## Next work
 
-1. Verify Lean run #41106499761 and inspect its logs for WorldtubeInertiaCoordinate. If it fails, distinguish this module's errors from the pre-existing KestrelKelvinVortexReadout failure.
+1. Watch for an exact-head Lean run on cleanup head 6c1d377. No run has yet been observed. If one appears, confirm WorldtubeInertiaCoordinate builds without the removed linter warning and keep the pre-existing KestrelKelvinVortexReadout errors separate.
 2. Recover the raw October 18 user messages behind ND-2026-10-18-04/-07. Do not infer their exact wording from BEDROCK.
 3. Recover the original Klein Fabric description and define its projection/intersection map.
 4. Define the types and maps for the generator γ, finite-core 4D tube W, hollow winding H_outer, current fabric K_fabric, and 3D trace I₃. Decide intersection versus projection explicitly.
