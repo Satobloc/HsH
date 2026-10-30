@@ -2,57 +2,70 @@ import Mathlib
 import HsHVerification.CalderGW170817TidalMap
 
 /-!
-Arithmetic checks on rounded posterior summaries computed from the four processed
-GW170817 sample arrays in nuclear-multimessenger-astronomy/jester at commit
-9c75712264491178b7a5aac27eaf85a5af483b3a.
+Source-anchored interval arithmetic for GW170817.
 
-These are un-reweighted component-Λ posterior sample summaries. They are NOT the
-paper's official flat-prior-in-\tilde{Λ} posterior. The theorems check only the
-rationalized summary arithmetic, not the NPZ parser or the physical likelihood.
+Source: LIGO Scientific Collaboration and Virgo Collaboration,
+"Properties of the Binary Neutron Star Merger GW170817",
+Phys. Rev. X 9, 011001 (2019), Table II and Sec. III.D,
+DOI 10.1103/PhysRevX.9.011001.
+
+For the PhenomPNRT analysis, the low-spin-prior 90% HPD interval is
+\tilde{Λ} = 300^{+420}_{-230} = [70,720].  The high-spin-prior result is
+a one-sided 90% upper limit [0,630], so it does not exclude zero.
+
+These are two prior-conditioned posterior summaries from the same event and
+waveform family, not independent measurements.  Their set intersection below
+is interval arithmetic, not a combined posterior or a probability of agreement.
+
+A separate common-EOS radius inference exists (De et al., PRL 121, 091102,
+2018, arXiv:1804.08583), but its erratum retracts the original claim that the
+GW data strongly favor the common-EOS model.  The common-EOS relation is
+therefore treated here as a conditional model assumption, not an empirically
+selected H(s)H or GR theorem.
 -/
 
 namespace HsHVerification.CalderGW170817PosteriorChecks
 
-def p1800061LowSpinMedian : ℚ := 356217514 / 1000000
-def p1800061HighSpinMedian : ℚ := 289296098 / 1000000
-def gwtc1LowSpinMedian : ℚ := 405863464 / 1000000
-def gwtc1HighSpinMedian : ℚ := 327862913 / 1000000
+def lowSpinHPDLower : ℚ := 70
+def lowSpinHPDUpper : ℚ := 720
+def highSpinLower : ℚ := 0
+def highSpinUpper : ℚ := 630
 
-def p1800061LowSpinQ10 : ℚ := 727160 / 1000000
-def p1800061HighSpinQ10 : ℚ := 529367 / 1000000
+def reportedOverlapLower : ℚ := max lowSpinHPDLower highSpinLower
+def reportedOverlapUpper : ℚ := min lowSpinHPDUpper highSpinUpper
 
-def medianReduction (low high : ℚ) : ℚ := (low - high) / low
+theorem low_spin_HPD_interval_excludes_zero :
+    0 < lowSpinHPDLower := by
+  norm_num [lowSpinHPDLower]
 
-theorem p1800061_high_spin_sample_median_is_lower :
-    p1800061HighSpinMedian < p1800061LowSpinMedian := by
-  norm_num [p1800061HighSpinMedian, p1800061LowSpinMedian]
+theorem high_spin_one_sided_limit_includes_zero :
+    highSpinLower = 0 := by
+  norm_num [highSpinLower]
 
-theorem p1800061_high_spin_sample_median_reduction_bounds :
-    (187 / 1000 : ℚ) <
-      medianReduction p1800061LowSpinMedian p1800061HighSpinMedian ∧
-    medianReduction p1800061LowSpinMedian p1800061HighSpinMedian <
-      (189 / 1000 : ℚ) := by
-  norm_num [medianReduction, p1800061LowSpinMedian, p1800061HighSpinMedian]
+theorem reported_intervals_overlap :
+    lowSpinHPDLower < highSpinUpper ∧
+    highSpinLower < lowSpinHPDUpper := by
+  norm_num [lowSpinHPDLower, lowSpinHPDUpper, highSpinLower, highSpinUpper]
 
-theorem gwtc1_high_spin_sample_median_is_lower :
-    gwtc1HighSpinMedian < gwtc1LowSpinMedian := by
-  norm_num [gwtc1HighSpinMedian, gwtc1LowSpinMedian]
+theorem reported_overlap_endpoints :
+    reportedOverlapLower = 70 ∧ reportedOverlapUpper = 630 := by
+  norm_num [reportedOverlapLower, reportedOverlapUpper,
+    lowSpinHPDLower, lowSpinHPDUpper, highSpinLower, highSpinUpper]
 
-theorem gwtc1_high_spin_sample_median_reduction_bounds :
-    (191 / 1000 : ℚ) <
-      medianReduction gwtc1LowSpinMedian gwtc1HighSpinMedian ∧
-    medianReduction gwtc1LowSpinMedian gwtc1HighSpinMedian <
-      (193 / 1000 : ℚ) := by
-  norm_num [medianReduction, gwtc1LowSpinMedian, gwtc1HighSpinMedian]
+theorem reported_overlap_width :
+    reportedOverlapUpper - reportedOverlapLower = 560 := by
+  norm_num [reportedOverlapLower, reportedOverlapUpper,
+    lowSpinHPDLower, lowSpinHPDUpper, highSpinLower, highSpinUpper]
 
-theorem p1800061_low_spin_q10_rounds_to_published_band :
-    (72 / 100 : ℚ) < p1800061LowSpinQ10 ∧
-    p1800061LowSpinQ10 < (74 / 100 : ℚ) := by
-  norm_num [p1800061LowSpinQ10]
+theorem high_spin_upper_limit_is_below_low_spin_HPD_upper :
+    highSpinUpper < lowSpinHPDUpper := by
+  norm_num [highSpinUpper, lowSpinHPDUpper]
 
-theorem p1800061_high_spin_q10_rounds_to_published_band :
-    (52 / 100 : ℚ) < p1800061HighSpinQ10 ∧
-    p1800061HighSpinQ10 < (54 / 100 : ℚ) := by
-  norm_num [p1800061HighSpinQ10]
+#print axioms low_spin_HPD_interval_excludes_zero
+#print axioms high_spin_one_sided_limit_includes_zero
+#print axioms reported_intervals_overlap
+#print axioms reported_overlap_endpoints
+#print axioms reported_overlap_width
+#print axioms high_spin_upper_limit_is_below_low_spin_HPD_upper
 
 end HsHVerification.CalderGW170817PosteriorChecks
