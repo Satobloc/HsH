@@ -104,3 +104,6 @@ Backfilled the Morrow role-clarification and Nathan-direct Team Archivist messag
 - Theory freeze / training STANDDOWN / SPHERE4QC line 1301 deferral unchanged.
 
 Next ring identity: Kestrel. Repository handoff is informational only; no historical Kestrel-thread access or acknowledgment is claimed.
+
+
+Correction to the 1012Z entry: issue #1088 supplemental comment `#6520626310` was posted and independently read back in full. No new issue-publisher submission was made.
