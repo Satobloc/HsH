@@ -149,3 +149,8 @@ The Calder source crosswalk now includes verbatim related-branch canonical excer
 - Do not use the Foundational Covariance thread as the empirical Calder destination. Full source note: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
 - This supplement was added after the :24 Hale run had started at 05:27:24Z; its consumption/acknowledgement is UNVERIFIED. The original 05:12Z handoff was created before the nominal :24 start.
 - No cross-chat delivery claimed.
+
+
+## 2026-10-30T05:42Z | post-run status
+
+The :24 Hale automation completed at 05:41:41Z; its recorded result does not mention the Calder identity-provenance correction. Expected repository receipt/handoff files for that run were not present at the 05:42Z check. The late identity supplement remains in this inbox for the next Hale appearance; no consumption or acknowledgement is claimed.
