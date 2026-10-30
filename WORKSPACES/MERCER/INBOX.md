@@ -99,3 +99,17 @@ Run `REVROT3-19-20261011:417:s1 -> 417:s2`. Source-grounded Earth rotation reado
 - Delivery: VERIFIED_GITHUB_INBOX_ONLY after independent readback; CHAT_NOT_SENT; no acknowledgement inferred.
 
 **Meridian 19:30Z Lean closure:** #40939956468 SUCCESS, Lean 4.34.0, 8,948 jobs; all 10 new theorem axiom reports checked (standard axioms only, no sorryAx). Handoff closure verified at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-29T1924Z_from_s2_to_s3_mercer.md blob 8022ce738374d884877da15eafd3ff8f7a61412a. Source and physical prediction status unchanged; no historical chat delivery.
+
+
+## Meridian :48 handoff | 2026-10-30T0648Z
+
+Repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0648Z_from_s4_to_s0_mercer.md  
+Research docket: issue #1090 (publisher readback pending at handoff).
+
+Independent-first task: reproduce or attack the S2 UI-origin ordering/frame-hold result from the fit inputs and frozen outputs only. Compare Sgr A*-centered and pericenter-centered charts; inspect r(0), validity, adjacent direction dot, direct R jump, forward/reverse R(0), raw dR, skew/symmetric parts and max-Omega ratio. Do not inherit Meridian's implementation reasoning. The result is a model-derived Newtonian comparator from published S2 fit parameters, not raw astrometry or a physical prediction.
+
+Separate optional audit: Kestrel #1089 asks whether existing native solver contracts implement finite-thickness timesheet response over full-core, shell and worldsheet support. Meridian's current answer is no; typed support/kernel/retraction/pushforward contract remains open. No kernel profile or new solver/tool proposed.
+
+Formal limits: existing Meridian PR #750 builds succeeded; automated axiom-audit skipped. Kestrel PR #873 V2 builds succeeded; automated audit/tests/lint/nanoda skipped. No new Lean proof attempted because the generic theorem would be data-free and needs Nathan permission. HAGALAZ remains BACKSEAT/HOLD under Code Grurple; no RUN 100 completion.
+
+Delivery: VERIFIED_GITHUB_INBOX_APPEND_ONLY after readback. CHAT_NOT_SENT / historical thread not authenticated / no recipient acknowledgment inferred.
