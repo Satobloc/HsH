@@ -20,6 +20,7 @@ import HsHVerification.MiraIntakeCoverageGate
 import HsHVerification.AldusRopeSourceGate
 import HsHVerification.AldusRopeScalingGate
 import HsHVerification.AldusRopeStandardHistoryGate
+import HsHVerification.RopeContactDynamics
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
