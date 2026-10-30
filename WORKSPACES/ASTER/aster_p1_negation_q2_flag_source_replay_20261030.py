@@ -31,7 +31,7 @@ o3 4f408b9d207d50b2bbbd31b1283f50798173e602
 qwen-2.5-72b 38393e09d44de963d109b00f66a1378f5b431720"""
 
 def git_blob_sha(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 def main(root: Path) -> None:
     counts = {k: 0 for k in ("files", "sets", "negation_q2", "both_key_correct",
@@ -66,7 +66,7 @@ def main(root: Path) -> None:
                     local["both_flag"] += 1
                 else:
                     counts["both_key_correct_unflagged"] += 1
-            bare = all(re.fullmatch(r"(yes|no)[.!]?\\s*", r["initial_response"].strip(), re.I)
+            bare = all(re.fullmatch(r"(yes|no)[.!]?\s*", r["initial_response"].strip(), re.I)
                        for r in (a, b))
             if both and flag and bare:
                 counts["minimal_pair_flagged"] += 1
