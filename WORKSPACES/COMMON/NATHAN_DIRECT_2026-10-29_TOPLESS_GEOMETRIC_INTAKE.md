@@ -30,3 +30,43 @@ Standard astronomy already observes the past through finite light travel time; a
 **Next formal task (NOT YET RUN IN LEAN):** Recover exact Forest Normalization source, define ambient 4D metric, time-front foliation and unit tangent vector of each filament, separate normalized intrinsic arc-length speed from coordinate-projected front advance, and derive a measurable comparison of coiled/straight worldline local densities. For arc angle θ, distinguish w=Rθ (constant R model) from w=ct, which implies dθ/dt=c/R when R fixed, without claiming the cosmic R is fixed. Obtain empirical constraints (Hubble relation, GR clock and redshift metrics, timing/particle data) before numerical physics.
 
 **No BEDROCK promotion, observational validation, or successful Lean compilation.**
+
+## Workshop panorama checkpoint | 2026-10-30
+
+Purpose: preserve the TOPLESS / w=ct exchange and its place in the wider SAT/H(s)H program. This is a work-state checkpoint, not a theory promotion, scientific endorsement, task change, or authenticated cross-thread handoff.
+
+### Nathan Direct clarification
+- All four dimensions are intended as the same kind of spatial geometry. The experienced temporal asymmetry arises from intrinsic motion along the w direction, not from time being a different substance or kind of distance.
+- Use Forest Normalization w = ct. Do not use bare H_0+c; it is dimensionally invalid and is only a historical shorthand pending recovery of the correct relation.
+- Wavefront motion is intrinsically c along worldlines in the normalized description. Matter worldlines are coiled/bunched relative to straight vacuum worldlines.
+- Particle continuity is the same in all dimensions; matter filaments are much more extended along w. The radial-angle arc-length interpretation and its relationship to curvature between local now and the Hubble radius / hypothesized universal gravity well remain hypotheses to derive.
+
+### Assistant reconstruction, provisional
+Let M be the ambient four-dimensional geometry, Sigma_w a family of wavefront/time-surface cross-sections, and W_i the extended worldtube for particle i. Its observed particle-mouth/cross-section is P_i(w)=W_i intersect Sigma_w, subject to explicit dimension and transversality conditions. Distinguish ambient metric distance, coordinate w=ct, filament arclength, and projected density/bunching. Do not equate them without an explicit map and proof.
+
+### Big-picture architecture and priorities
+1. Local ontology: finite-core, continuous superhelical/worldtube filaments; particle appearances are intersections with the evolving wavefront. Black/white-hole language is an orientation/perspective heuristic unless an actual horizon solution is derived.
+2. Global geometry: the universe is not a doughnut with a privileged top/bottom. The donut/hole picture is a projection of many intersecting and interwoven trajectories. A global embedding, foliation, topology, and projection maps are still required; the global torus picture is not established.
+3. Kinematics: same four-dimensional spatial character plus a distinguished w-flow. Derive how equal intrinsic propagation speed c produces different projected behavior for straight vacuum trajectories and coiled matter worldlines. This is the central candidate mechanism.
+4. Gravity/cosmology: investigate whether accumulated filament arclength, coiling/bunching, radial-angle coordinate and Hubble-scale geometry yield an effective metric/curvature. Recover exact historical Forest Normalization and H0-related source equations first. Compare against measured cosmological distances, redshifts, expansion history and local GR constraints. Keep prediction versus fit separate; do not invent fixtures.
+5. Observation: ordinary astronomy already receives light from earlier events; time-lapse does not enable past travel. The interesting proposal is reconstruction of 4D trajectory geometry from sequences/projections. Establish an observation map, identifiability conditions and degeneracies before calling it a time telescope.
+6. Formalization: after source recovery, formalize intersection dimensions, foliation/projection composition, path-length identities and conditional kinematic theorems in Lean 4/Mathlib. No Lean proof yet exists for the TOPLESS/w=ct physical interpretation in this checkpoint.
+
+### Provenance and maturity
+- Nathan Direct: the statements in the 2026-10-29 TOPLESS message and subsequent w=ct clarification.
+- Historical source: DEVELOPMENT_FULL_CONVOS/SAT SIZE OF TIME.txt; contains both historical user statements and assistant elaborations, so attribution must be separated.
+- Existing assistant source review: WORKSPACES/LABS/LIGHTCONE_DONUT_PLAYGROUND/SOURCE_REVIEW_2026-10-05.md.
+- Existing assistant historical audit: WORKSPACES/MERIDIAN/SANDBOX_2026-10-20_BACK_HALLWAYS_DONUT_HISTORY_AUDIT.md.
+- Existing methodology direction: WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md, which explicitly warns that bare H0+c is dimensionally invalid and directs source recovery plus comparison of multiple geometries.
+- The TOPLESS intake record remains an abbreviated synopsis, not a verbatim transcript. Original user text remains in the conversation.
+
+### Open gates / return cursor
+A. Recover exact Forest Normalization source and all original equations with dates/context; hash verbatim forms before corrected versions.
+B. Specify M, metric/signature, w-coordinate, wavefront foliation, worldtube core/finite-core definitions, tangent fields and orientation.
+C. Derive the projection/bunching relation between a straight vacuum worldline and a coiled matter worldline at equal intrinsic speed; identify invariant versus coordinate-dependent quantities.
+D. Construct explicit maps from filament arclength and radial-angle coordinates to effective metric/curvature; establish conditions, invertibility and composition.
+E. Only then select real measured systems/data and calculate quantitative predictions against GR/cosmology; state units, uncertainties, provenance, holdouts, and prediction-versus-fit.
+F. Formalize definite lemmas in Lean and report compile status separately from translation and physical validity.
+G. Keep Orson's Nov 9 cognition manuscript, Nov 30 geometry paper and Dec 14 theory paper as separate gates. This TOPLESS tangent must not displace P1 ownership or deadline.
+
+Not done and must not be claimed: no complete Forest Normalization source recovery; no physical calculation; no observational validation; no completed Lean formalization or compilation; no independent hostile review; no HsH BEDROCK promotion. No scheduler IDs, enabled states, schedules, phases or worker assignments changed. No cross-thread delivery claimed.
