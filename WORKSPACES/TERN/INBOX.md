@@ -120,3 +120,8 @@ This indicates delayed execution/overlap across the relay phases, not a confirme
 - All four shared Mersearch request lanes remained occupied; no lane overwritten or retriggered. Existing Math Hopper/Lean/Python/GitHub tools reused; no new software.
 - Scheduler observation: :12 task `6aa61b3b2e4081918927a35b61007acc` was still in progress at 09:30Z after starting 09:15:27Z for its 09:12Z slot. :00 task `6aa1fe0de5e48191b886496095b1343f` started 09:26:58Z for its 09:00Z slot and was in progress. :36 task `6a9f52b69ec08191b0a2ba24a074f781` had a delayed prior run scheduled 07:36Z, started 08:38:35Z, and failed 09:03:39Z (run `52d8cca7-d500-8323-9923-f8af2ea35129`). This is an execution-lag/failure observation only; no production shared-state inference and no task/schedule changes.
 - Code Grurple remains active; both reader gates pending. Orson's Nov 9 cognition P1 untouched; P2 Nov 30 and P3 Dec 14 unchanged. FIE last reviewed Oct 27 (<14 days). No physical prediction, theory promotion, or cross-chat delivery claim.
+
+
+## 2026-10-30T0912Z | Hale report final-blob pointer correction
+
+The Hale report received two final append-only metadata updates after the initial Tern pointer was written. The current report file was independently fetched at blob `f548733fd4b1a899afda0a18bb181f19a38a30f2` (15,971 characters). Earlier embedded report SHAs `81e1bb51...` and `99bf1dbd...` refer to intermediate revisions and are superseded. The path remains unchanged. The already-read-back publisher/PR correction comments, receipt, and Elias handoff are unchanged.
