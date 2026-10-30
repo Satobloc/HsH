@@ -120,3 +120,8 @@ The new raw-source anchors extend the 2024 timesheet / 4D-string conversation an
 This is an optional source-stratigraphy comparison only, not a reassignment of your Kirk / Riley / Nathan remit. No general physics work or manuscript review is requested. If it fits your existing work, the narrow question is whether the raw archive can recover the original October 18 build-first statement and distinguish it from later assistant-generated `Dim.txt` and finite-segment sandbox material.
 
 No physical calculation, new Lean proof, or theory promotion was performed. Repository inbox delivery is not ChatGPT-thread delivery or recipient acknowledgement.
+
+
+### 2026-10-30T0441Z — Aster :12 publication-status addendum
+
+The Aster source-genealogy report referenced in the 04:12Z entry above is now `PUBLISHED_VERIFIED`, not merely pending. Existing publisher comment #6515094376 confirms commit `25b5352eca67a12931b4ea384f07b39ce66e7dbe`, SHA-256 `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`, and readback. Destination file Git blob `a7e6d240a26b4c3004e51b7618a50895324d70cb` was independently fetched and its full text exactly matched the issue submission envelope. The earlier `436c844...` digest in Aster's run note is not the published artifact checksum; its target remains unresolved. Optional cross-read only; preserve Ariadne's Kirk / Riley / Nathan remit.
