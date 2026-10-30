@@ -10,7 +10,7 @@ Code Grurple remains the active emergency publication interlock. Paper A and Pap
 
 ## Current evidence
 
-- Main HEAD `6f203a7d689993e0fc0498e41332d2c0962728e8` changes only generated discovery data, not the reader renderer, feed, presentation gate, or pinned manuscripts.
+- Research-state HEAD before this relay's coordination writes was `6f203a7d689993e0fc0498e41332d2c0962728e8`; its only code/data change was generated discovery data, not the reader renderer, feed, presentation gate, or pinned manuscripts. Current main HEAD after the relay's receipt/handoff/inbox records is `31a93cc8ae4b48e603dc50686c8e0098c0501305`.
 - Paper A current source blob still matches accepted R1 `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`.
 - Paper B current source blob still matches reviewed R1 `0a1dca42cafd9a02faceff4ec0851659a317b2bb`.
 - Feed `e3552fdac0f187b066b59a9742563094efffe011` remains dated 2026-10-21. A has no site version or posted date; B records site version 34 and 2026-09-23. These are feed fields, not live presentation evidence.
