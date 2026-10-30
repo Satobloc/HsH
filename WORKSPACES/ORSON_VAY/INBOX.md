@@ -156,3 +156,15 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Supporting Ravel audit: `WORKSPACES/RAVEL/2026-10-30_2228Z_HELION_CODATA_RZ_CROSS_CHANNEL_AUDIT.md` (blob `81d96ced346b478ca6855941cd169455055fb1b0`).
 - This is optional context only. It is not a physics assignment. Preserve the LLM Cognition Lab, November 9 P1, and the approximately 4/5 cognition allocation.
 - Repository delivery only. No current Orson ChatGPT thread is authenticated; no cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T2236Z | VEY-017 GRAIL multi-peer architecture audit
+
+- Durable study: HSH_RESOURCES `Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-017_GRAIL_MULTI_PEER_EXTENSION_SOURCE_AUDIT_2026-10-30.md`, blob `a295fefd826cd06e80296c03b275807642e2df92`.
+- Current GRAIL main code is a single shared LLM facilitator, not multiple independently stateful peer agents. Exact source blobs, line references, static scan and a minimal adaptation contract are in VEY-017.
+- Proposed experiment separates common evidence from direct peer exposure; group/session replication and independent outcome adjudication required. No sample-size calculation or trial was run.
+- P1 issue #564 remains open and source/experiment readiness. Original neutral-versus-false-authority bank remains unrecovered. OV-49–53 are geometry artifacts; OV-55/56/100 are analytical/synthetic, not administered cognition trials.
+- New Mersearch lane-1 request `orson-cognition-bank-source-recovery-20261030-2236` submitted, `SUBMITTED_NOT_VERIFIED`.
+- Formalization of proposed visibility/state invariant is `BLOCKED_PENDING_NATHAN_PERMISSION`; no Lean run. No model calls, human sessions, manuscript change, or public issue.
+- Optional Sable handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2236Z_from_s3_to_s4_sable.md`. Repository-only; no ChatGPT delivery or acknowledgment claimed.
+- Orson cognition remit preserved. No task or schedule change.
