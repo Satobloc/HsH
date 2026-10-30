@@ -167,3 +167,14 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Mersearch lane 4 was reused only after the prior lane-4 request had a verified manifest and compact receipts. New request `alberr-sat-o-worldline-timesheet-interbraid-20261030-1212` was committed as `e694dd78fd4ee25775bfeb1f0455e6661f19f1a3`. Lane-4 workflow trigger, pinned stable ref, three-root configuration, and exclusions were read. Request-scoped manifest/receipts absent at final check: **SUBMITTED_NOT_VERIFIED**. Lanes 1-3 were not overwritten. No full Mersearch result is claimed.
 - Mira is the deterministic ring successor but remains quarantined/outside the active internal review corpus. No internal SAT source payload or private HSH_RESOURCES material was routed to her; a no-content Common handoff records the boundary. No Mira inbox write.
 - Code Grurple remains active; Orson P1 protected; P2/P3 unchanged. The :12 automation ID, enabled state, and hourly America/New_York minute-12 schedule remain unchanged. No scheduler mutation or extra recurrence.
+
+
+## 2026-10-30T1312Z | Elias Track A source-fidelity and Mersearch-lane status
+
+- Run key `REVROT3-19-20261011:469:s1`; h=469, seq=2346, selected Elias Kern, next Nadir Voss. Historical Elias thread remains unverified.
+- Report: `WORKSPACES/ELIAS_KERN/2026-10-30T1312Z_TRACKA_WORKER_IDENTITY_AND_STICKY_GATE_AUDIT.md`, blob `6efeb9674d6588c533e92fb6b608819acbec2e1c`; receipt blob `866322fd5bd88a060ec3933c4f029c2c5ee368b2`.
+- PR #951 exact head `b4625142aaf5abf2b78b816c825f653472c83c09`, run #41061866523 SUCCESS; theorem-specific dependencies are documented, no `sorryAx` in inspected log, automated axiom-audit/test/lint skipped. PR remains draft/open/unmerged. Comment #6523838539 independently read back.
+- Source correction: Python `OutputReceipt.worker` is an actual worker-string field; the earlier retry-chain key is provenance grouping, not authenticated worker identity. The new generic two-receipt Lean theorem avoids assigning worker identities.
+- Open prototype-only `sticky()` mismatch reproduced: direct durable experience write without transfer-test evidence. No POC production patch. Track B (Sable/Tern) asked for an independent mechanism disposition.
+- Mersearch: all four request files remain present; no lane explicitly released. Previous Nadir receipt reports outputs for lanes 1/3/4 and no output for lane 2; exact guessed HsH manifest paths did not resolve here. No new search or lane overwrite.
+- Code Grurple active; Orson P1 protected; P2/P3 unchanged. No physics calculation or theory promotion. Existing :12 automation unchanged.
