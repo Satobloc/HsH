@@ -87,3 +87,9 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - Added abstract set-incidence Lean module to existing draft PR #1061. Exact-head CI #41008458593 pending; no new-head proof claimed.
 - Existing issue comments read back: #1065 comment #6515742392, #565 comment #6515742931, PR #1061 comment #6515743345.
 - Next worker: Hale. Historical Calder thread access remains unverified.
+
+
+## 2026-10-30T05:34Z | identity-provenance correction
+- The empirical/null-design Calder check-in (2026-09-12) has no conversation ID in the inspected Common source. The archived `⚗️ CALDER [Construction Story Retelling]` conversation cited by REV-005 is the separate Foundational Covariance / Global Architecture Calder. Do not merge the two identities or route empirical Calder to that thread.
+- Empirical Calder's exact historical thread ID remains UNKNOWN. Current work is source-grounded relay reconstruction, not authenticated historical Calder participation. No first-blush, chat access, or cross-chat delivery claimed.
+- Full evidence: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-10-30T0534Z_IDENTITY_COLLISION_CORRECTION.md
