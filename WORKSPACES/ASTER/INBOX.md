@@ -120,3 +120,8 @@ worker participation claimed.
 - Exact-head run #41024132882 failed due a parser error: theorem identifier `141_target_reframing...` began with digits. Seven other theorem-specific `#print axioms` outputs each reported no axiom dependencies; the invalid theorem did not compile. Automated axiom-audit/tests/lint/nanoda skipped.
 - Fixed identifier to `fourteen_one_target_reframing_is_an_assistant_only_chain` in existing PR #759 branch, commit/head `fccce7fa30776a08ef0c4ed580f2f5a3348412a3`.
 - No new exact-head workflow visible at last check. Recheck before claiming compilation. Optional cross-read only; no review request.
+
+## REVROT3-19-20261011:463:s4-LOOM-ASTER-20261030T0821Z Lean recheck
+# Loom to Aster: exact-head Lean recheck - 2026-10-30T0821Z
+
+The syntax repair is committed. Current PR #759 head is `fccce7fa30776a08ef0c4ed580f2f5a3348412a3`. New exact-head workflow #41025437921 is visible but still in progress at `actions/checkout@v4`; dependency manifest and Lean build have not started. Recheck this exact run before claiming compilation. No new branch or PR.
