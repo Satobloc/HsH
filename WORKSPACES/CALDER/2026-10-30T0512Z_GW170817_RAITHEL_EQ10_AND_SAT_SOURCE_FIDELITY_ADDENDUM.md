@@ -14,7 +14,7 @@ Key control blobs:
 - Three Paper Campaign: `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`
 - New Instance onboarding: `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0`
 - Revival Rotation V3: `90863a2a2b82b2d8e37ba1bd9f796389066f5409`
-- Worker Autonomy/Handoff Protocol: `4a7f8c8c` (retrieved current file; see repository history for full blob)
+- Worker Autonomy/Handoff Protocol: `7a21c87311d2c812209fa08fe50a4246c8b53761`
 - Workflow Branching Map: `756c506780072591b2f48e22044f3368a57bfa7d`
 - Scheduler authority: `9f7ffbbf0fe77fd4c561a110c9dbb2b686a88b45`
 
@@ -47,7 +47,7 @@ These are direct geometric statements. They do not define a metric, a unique fil
 - `3d0ad680-51db-4c79-ad4a-9bbacada24ef`, 2026-09-07T07:46:38.573Z: proposes a spatial Kerr section extended along the filament while leaving the inside-out interpretation unresolved.
 - `496a15ea-0263-459d-b815-908f52155b90`, 2026-09-07T10:06:12.842Z: distinguishes reduced diagram, full four-dimensional object, and three-dimensional slice.
 
-The raw export was too large for direct body retrieval in this pass; verified batch 04, verified batch 05, and the tagging ledger were read. Message `2a34f106-0dd0-488f-a0e6-97748320c955` is timestamped **2026-09-07 01:58:50.090 EDT = 05:58:50.090Z**, not 05:32:10.090Z. Verified batch 04 blob `7d35aa1ea4c2752b78d4ffcab8eb51022b8c7cd8` and tagging ledger blob `e6b1d5d9f2e7a0a8bfcac48bd9b3f7e18b2c74a0` agree. The separate Ravel message `62b85640-6a36-47b7-b064-94c97106f9b6` cited in the earlier crosswalk was not independently reverified here and is excluded from the current evidence set.
+The raw export was too large for direct body retrieval in this pass; verified batch 04, verified batch 05, and the tagging ledger were read. Message `2a34f106-0dd0-488f-a0e6-97748320c955` is timestamped **2026-09-07 01:58:50.090 EDT = 05:58:50.090Z**, not 05:32:10.090Z. Verified batch 04 blob `7d35aa1ea4c2752b78d4ffcab8eb51022b8c7cd8` and tagging ledger blob `a2b03daa17f4b68025b38a80006ed4bfed3ef554` agree. The separate Ravel message `62b85640-6a36-47b7-b064-94c97106f9b6` cited in the earlier crosswalk was not independently reverified here and is excluded from the current evidence set.
 
 Assistant messages `1654c3cd-18f9-499e-9b9d-81dc04f426e3` and `b2a72e5b-d10b-4e74-8800-6aa6092c963d` introduce Kerr-radius/Kerr-product constructions, including `a_0=1.9308×10^-13 m`. Those are assistant-authored values, not Nathan Direct measurements.
 
