@@ -143,7 +143,6 @@ These establish repository writes/readback only. No historical ChatGPT-thread de
 
 ### Final append-only revision
 
-The final report revision supersedes the earlier blob recorded in section 10:
-- Final report blob: `99bf1dbd751cb04da53ae3a041ca8d83a7d88cc1`, 15,406 characters; independently fetched.
+The prior report revision `99bf1dbd751cb04da53ae3a041ca8d83a7d88cc1` was independently fetched before this final append. The current report file was fetched again after the append; use the GitHub file's current blob SHA from that readback rather than an embedded self-reference.
 - Hale intake ledger final blob: `aadc42d3d475c66a1a01b3d75679fa838e824b72`, 22,767 characters; independently fetched.
 - Receipt, handoff, Tern inbox, and Elias inbox retained their previously recorded final blob SHAs and were re-fetched successfully.
