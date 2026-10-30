@@ -22,7 +22,7 @@ The June 23 assistant reply `c26cf6b6-d60e-44cf-94e3-b45baef5dbc2` explicitly pr
 
 It leaves the naming direction conditional (“or vice versa depending convention”), and it is assistant reconstruction, not Nathan Direct. Current BEDROCK BR-005 measures `theta_4` from the time normal with aligned vacuum `theta_4=0`; the raw Nathan message behind BR-005 was not recovered in this pass. If this angle relation ever matters to the broader synthesis, keep it labeled as a candidate translation until the source genealogy is closed.
 
-The original `Dim.txt` itself does not define signed `u), `u=sin(theta_clip)`, or `K=R_k). PR #824's compiled absolute-value theorem is conditional on its chosen abstraction. Its `sliceFactor(K,u)=K/|u|` also lacks a `u ≠ 0` domain restriction, despite the source's reciprocal-sine singular limit under the proposed mapping.
+The original `Dim.txt` itself does not define signed `u`, `u=sin(theta_clip)`, or `K=R_k`. PR #824's compiled absolute-value theorem is conditional on its chosen abstraction. Its `sliceFactor(K,u)=K/|u|` also lacks a `u ≠ 0` domain restriction, despite the source's reciprocal-sine singular limit under the proposed mapping.
 
 ### Why this is only context
 
