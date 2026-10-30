@@ -30,7 +30,7 @@ This is a delayed independent postcheck of an already-existing Loom packet, not 
 
 ### Conversation 2 — “Scaling Postulates Testing”
 
-- Conversation UUID: `69a...` (the raw export title and conversation metadata were inspected; the abbreviated UUID is retained here because the current source ledger is the exact locator).
+- Conversation UUID: `69a49445-e3b4-8333-8dce-6713108a6e2d`.
 - Three exports: blobs `a2d72dd38d9bc671f5b81f20d965407cc8ac72ca`, `32c49e7bf4818fe9798bb7372b64fd5768c1b440`, and `0fb8ea34f86260d52deabc984b71c56b415e96c2`.
 - Each contains 155 nodes; all three compare exactly by message ID, role, parent, timestamp and content.
 
