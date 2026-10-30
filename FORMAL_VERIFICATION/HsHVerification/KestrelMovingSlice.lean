@@ -2,13 +2,28 @@ import Mathlib
 
 /-!
 Source-conditional geometry fidelity gate for Nathan's historical moving-plane
-line/helix construction, 2026-10-28.
-Original flattened transcript: Satobloc/SAT_THEORY_ARCHIVE_2023-25,
-RMS SAT.txt, Git blob 4eb4146f74b089aa7d587bbf9cbcbc6c56c49513.
-Role-tagged opening: HsH DIMENSIONAL GRAVITY, 2024-03-28.
-These theorems prove only symbolic relationships under explicitly given
-assumptions. They do not authenticate authorship, prove a physical model,
-or infer empirical particle properties.
+line/helix construction.
+
+Primary raw transcript:
+HsH `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`,
+Git blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, conversation ID
+`2cea192a7d16b57a27c531ac7c860e42`, created 2024-03-22.
+Direct user nodes:
+* `aaa2269b-7eab-4781-9454-647098d6747f`: ideal line and plane meet at
+  one point, not a spiral pattern.
+* `aaa2d0b1-017d-453e-b95a-b23915f87d32`: moving plane makes H trace
+  a circle; angular speed depends on pitch and slice rate.
+* `aaa2a1cc-e884-4f6a-800f-8afc29ab221a`: orbit radius depends on the
+  helix cross-section, not pitch.
+* `aaa2d58f-3738-44f9-9fcc-d4c054b23c2a`: rejects a maximum/minimum
+  radius interpretation for a perfect helix.
+
+Historical flattened source: SAT archive `RMS SAT.txt`, Git blob
+`4eb4146f74b089aa7d587bbf9cbcbc6c56c49513`.
+The equations below are assistant reconstructions from those direct
+geometric constraints, not user-supplied formulas. They prove only symbolic
+relationships under explicit assumptions. They do not authenticate authorship,
+prove a physical model, or infer empirical particle properties.
 -/
 
 namespace HsHVerification.KestrelMovingSlice
