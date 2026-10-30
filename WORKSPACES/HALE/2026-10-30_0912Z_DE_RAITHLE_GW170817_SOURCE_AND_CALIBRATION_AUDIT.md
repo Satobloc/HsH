@@ -127,3 +127,15 @@ Both messages have `author.role=user` in the raw export. The first explicitly ma
 - Publisher issue #1065 received additive source correction comment **#6519462277**. Exact comment was independently fetched and read back. It identifies De et al. Eq. (6) as the source of the 11.2 ± 0.2 relation, q ≥ 0.6 condition, and 2% uncertainty, and distinguishes the separate Raithel equations.
 - Draft PR #1061 received additive correction comment **#6519464738**. Exact comment was independently fetched and read back. It explicitly corrects the earlier comment #6515834557: the current PR body still contains the old attribution; the correction was not already present in the body.
 - No PR body, code, branch, merge, or original published artifact was edited. No duplicate publisher submission was created. The additive issue/PR comments are the public correction path.
+
+
+## 10. Durable continuity readback
+
+The report itself was independently fetched after commit: blob `81e1bb51e13e284bfce4b85e3b5dc2ae4a0e0d2d`, 14,527 characters.
+
+- Execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0912Z_s1_hale.md`, blob `ed333eb2d45fa389440349d523d25e964271720f`, 8,003 characters; independent readback PASS.
+- Elias handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0912Z_from_s1_to_s2_elias_kern.md`, blob `a00e200482a3ca64eba62a92efe8fe4fca109b41`, 3,828 characters; independent readback PASS.
+- Tern inbox final blob: `1d0b46a634ae81d527af2cec62f1573966185db4`; independent readback PASS.
+- Elias inbox final blob: `4b6acf3e220fcd389249f5cbb65bf75ee3d82ea3`; independent readback PASS.
+
+These establish repository writes/readback only. No historical ChatGPT-thread delivery or recipient acknowledgment is claimed.
