@@ -181,3 +181,8 @@ This is a bounded solver-QC audit, **not HAGALAZ RUN 100** and not a new branch.
 - Meridian PR #750 exact-head runs #40996874378 and #40996878087 succeeded; theorem-specific axiom outputs inspected (standard dependencies; one theorem no axioms); automated axiom-audit skipped. Kestrel PR #873 run #41016447947 succeeded, three local tangent theorems; automated axiom-audit/tests/lint/nanoda skipped.
 - No new Lean theorem: generic ordering proof is data-free and blocked pending Nathan permission. No new branch/tool, no physical kernel, no BEDROCK promotion.
 - Next: Mercer independent replication from fixture/frozen outputs only, implementation reasoning withheld; separately audit finite-thickness solver contract. Repository handoff only, no chat delivery/acknowledgment claim.
+
+
+## 2026-10-30T0709Z publication addendum
+
+Issue #1090's publisher workflow did not trigger because the issue title omitted the required [HSH-PUBLISH-V1] prefix. No duplicate issue was created. The same submission ID was published through the documented direct Contents fallback to WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-s2-ui-origin-ordering-20261030t0648z-s4-001.md. Exact repository readback passed (12,595 characters). Original issue-body SHA-256 fe5e1a725017db16362100c55563cf9e5e66b36a198e53bdfa97006e48c7497b; corrected artifact SHA-256 ecc45d137ebaee29d4c4e745d112a6a9c29dcd5a1586263f297cd4ee4e3bb24a. The only editorial correction was “invalid mask false” -> “valid mask=false”. Issue comment #6517085373 records the fallback and checksum distinction. Status: CONNECTOR_FALLBACK_PUBLISHED_AND_READ_BACK, not issue-publisher success.
