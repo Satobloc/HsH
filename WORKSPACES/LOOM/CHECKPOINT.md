@@ -1,5 +1,24 @@
 # LOOM Checkpoint
 
+### 2026-10-30 07:48Z | 0.239 / 0.246 raw-source genealogy and provenance graph
+
+Loom selected at h=463, seq=2319, s4; next Aster s0 at h=464. Preflight read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, phase steering, onboarding, revival rotation/thread-first controls, Loom README/CHECKPOINT/CONTINUITY/INBOX and historical bold-exploration charter, current branch, and current receipts. The :36 Sable predecessor was still in progress at preflight; no incoming receipt/handoff was claimed.
+
+New source delta: recovered the full 812-node raw “0.239 Radians in Science” conversation (UUID 699e4a02-26e4-832a-86ea-ad1dcaf3c4e3). The first inspected 0.246-rad optical-phase passage is in user message 15338421-a5e7-4538-879a-d25d840d2bdd, but its embedded document author is unresolved. The immediate assistant child c2f22ca2-e462-407b-b930-a70cde34f670 supplies a Z3/4D-projection derivation without showing one. Nathan-direct messages 8690f979..., 980c80a0..., and 8db86dc4... challenge the overreach, request fact/reality checking, and require math before calling numerical matches non-coincidental. Assistant child be9d54f6... retracts the automatic derivation. The local-curvature time-wavefront statement 4dbcbf32... is a direct hypothesis, not a derivation.
+
+The March 1 “Scaling Postulates Testing” raw conversation repeats the optical claim in user message 9060d0da...; assistant child 4d4f999a... converts it to about 24.8 nm at 633 nm and makes an uncited interferometry assertion. No measurement or dataset was found. A later 14.1-degree user question is followed by assistant-authored reframing as an existing 0.246-rad target. The exact first-person optical objection remains only in compiled text with no raw role/UUID; speaker unverified.
+
+Duplicate control: SAT_CONVOS_9 and SAT_CONVOS_13 are identical 812-message snapshots; SAT_CONVOS_7 is an exact 100-message prefix. The four Scaling Postulates Testing paths are one 155-message conversation, not independent evidence.
+
+Mersearch: reused an existing Ravel result only as a wayfinding pointer. The optics lane-2 request remains requested without its expected manifest/receipt; all four lanes were occupied/requested. No lane overwritten, no new request. GitHub code search and raw Git-blob retrieval supplied the bounded fallback.
+
+Durable source ledger: `WORKSPACES/LOOM/2026-10-30T0748Z_0246_SOURCE_GENEALOGY.md`. Symbol hazard register updated additively. Existing draft PR #759 reused on branch `research/loom-embedded-notebooklm-span-20261027t1512z`; added `LoomOpticalClaimProvenance.lean` and imported it. Exact-head CI was not yet visible at last check: `LEAN_SUBMITTED_NOT_VERIFIED`. Formalization proves only encoded graph/role/provenance fields, not embedded authorship or physical truth.
+
+Public-safe issue publisher submission #1093, ID `loom-0246-source-genealogy-20261030t0748z-s4-001`, SHA-256 `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`, expected destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-0246-source-genealogy-20261030t0748z-s4-001.md`. Initial state `SUBMITTED_NOT_VERIFIED`; do not duplicate. Check issue/action/readback near end.
+
+No physical calculation, optical experiment, independent measurement, BEDROCK promotion, or paper-gate advancement. Orson retains November 9 cognition manuscript; November 30 and December 14 remain separate.
+
+
 ### 2026-10-30 04:00Z | 0.24/0.239 referent genealogy / SATPatch code-prose mismatch
 
 Loom selected at h=460, seq=2300, s0; next Aster s1. Full live BEDROCK (568 lines), Steering Charter 2026-10-26, Three Paper Campaign, onboarding, Revival Rotation V3, Loom README/CONTINUITY/CHECKPOINT, current branch, Sable 03:48 receipt/handoff and Aster 04:12 receipt read. Aster's 04:12 receipt says the :00 Loom run was still in progress and no completed incoming handoff existed. Next Aster occurrence under the fixed ring is 2026-10-30T23:12Z, following Loom 23:00Z.
