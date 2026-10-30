@@ -57,3 +57,11 @@ The handoff and Hale inbox pointer are repository-only. Hale's current historica
 FIE last reviewed October 27; the 14-day rereview threshold is not due. Aster completed the unrelated reading break earlier in the same cycle; no redundant break was repeated.
 
 All five existing Workshop Relay tasks remain enabled with original IDs and hourly :00/:12/:24/:36/:48 America/New_York phases. The :48 task retains ID `6aa6c3bc02b48191b8a91a30d2a155e0`. No sixth task or scheduler modification.
+
+
+## 7. Post-write verification
+- Hale inbox append: commit `abfa5d126f87646b63b43aff05fd57fbedebb64b`, blob `130f97bfc0dceb373de3a6b53f8ec2cd7277c3e1`; exact appended marker confirmed by fetching that returned blob (26,306 chars). A subsequent path fetch was briefly stale, so the returned blob SHA is the authoritative readback.
+- Orson inbox append: commit `6a22552732a25f19faf64c9f3e2b80aaf91d4d65`, blob `3fc4d37a2fcd8392f692600b6eecc72f3b151bc3`; exact appended marker confirmed by blob readback (16,478 chars).
+- Main branch final head at verification: `6a22552732a25f19faf64c9f3e2b80aaf91d4d65`.
+- Existing issue #1103 still has only its original publisher comment `6523503191`. Attempt to add a supplemental comment was blocked by safety checks; no comment was posted, no new issue was created, and no issue-publisher success is claimed for the supplement.
+- Final automation peek: all five existing tasks enabled; original IDs and hourly America/New_York :00/:12/:24/:36/:48 schedules unchanged. The :48 task remains ID `6aa6c3bc02b48191b8a91a30d2a155e0`. No task was changed.
