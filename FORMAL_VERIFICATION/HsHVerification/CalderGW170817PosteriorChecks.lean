@@ -17,10 +17,11 @@ Table IV reports low-spin HPD upper endpoints 830 (TaylorF2), 690 (SEOBNRT),
 and 730 (PhenomDNRT), compared with 720 for PhenomPNRT.  High-spin upper
 endpoints are 730, 630, and 640, compared with 630 for PhenomPNRT.
 
-The Raithel-Ozel-Psaltis 2018 common-radius relation states a validity domain
-q >= 0.6.  The low-spin q interval lies within that domain; the high-spin q
-interval extends below it.  Thus the full high-spin posterior is not converted
-to a radius here.
+Raithel, Ozel & Psaltis (2018), Eqs. (9)-(12), discuss the mass-ratio
+expansion over q approximately 0.7 to 1.0.  The low-spin q interval begins
+at 0.73, inside that range; the high-spin interval begins at 0.53, below it.
+This arithmetic check does not prove the quasi-Newtonian common-radius
+approximation is accurate for every equation of state.
 
 These are posterior summaries from one event, not independent experiments.
 The interval intersection is set arithmetic, not a combined posterior.
@@ -38,7 +39,7 @@ def reportedOverlapUpper : ℚ := min lowSpinHPDUpper highSpinUpper
 
 def lowSpinQLower : ℚ := 73/100
 def highSpinQLower : ℚ := 53/100
-def raithelQLower : ℚ := 6/10
+def raithelQExpansionLower : ℚ := 7/10
 
 def lowSpinWaveformHPDUppers : List ℚ := [720, 830, 690, 730]
 def highSpinWaveformUppers : List ℚ := [630, 730, 630, 640]
@@ -70,13 +71,13 @@ theorem high_spin_upper_limit_is_below_low_spin_HPD_upper :
     highSpinUpper < lowSpinHPDUpper := by
   norm_num [highSpinUpper, lowSpinHPDUpper]
 
-theorem low_spin_q_interval_within_raithel_domain :
-    raithelQLower < lowSpinQLower := by
-  norm_num [raithelQLower, lowSpinQLower]
+theorem low_spin_q_interval_within_raithel_expansion_range :
+    raithelQExpansionLower < lowSpinQLower := by
+  norm_num [raithelQExpansionLower, lowSpinQLower]
 
-theorem high_spin_q_interval_extends_below_raithel_domain :
-    highSpinQLower < raithelQLower := by
-  norm_num [highSpinQLower, raithelQLower]
+theorem high_spin_q_interval_extends_below_raithel_expansion_range :
+    highSpinQLower < raithelQExpansionLower := by
+  norm_num [highSpinQLower, raithelQExpansionLower]
 
 theorem low_spin_waveform_HPD_upper_spread :
     lowSpinWaveformHPDUppers.min? = some 690 ∧
@@ -94,8 +95,8 @@ theorem high_spin_waveform_upper_spread :
 #print axioms reported_overlap_endpoints
 #print axioms reported_overlap_width
 #print axioms high_spin_upper_limit_is_below_low_spin_HPD_upper
-#print axioms low_spin_q_interval_within_raithel_domain
-#print axioms high_spin_q_interval_extends_below_raithel_domain
+#print axioms low_spin_q_interval_within_raithel_expansion_range
+#print axioms high_spin_q_interval_extends_below_raithel_expansion_range
 #print axioms low_spin_waveform_HPD_upper_spread
 #print axioms high_spin_waveform_upper_spread
 
