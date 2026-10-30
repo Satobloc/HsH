@@ -155,3 +155,16 @@ This is Kestrel's home territory.
 
 ## 2026-10-30 source-recovery correction
 The earlier statement that the raw Kestrel conversation was unreadable was accurate for the normal file-content retrieval attempt but is now superseded. The exact raw export was recovered through the Git blob route: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json`, blob SHA `100267f3f11f3cce09c7d802ce85ad03879d5744`, conversation ID `6ab070ce-2384-83e9-b76f-4661c55867c4`. The role-defining sequence is now source-verified, and the raw conversation's last current-path user request (2026-09-23T01:39:51.236Z) remains a separate pending Kestrel writing/reaction cursor. See `WORKSPACES/KESTREL/2026-10-30T1412Z_SOURCE_RECOVERY_AND_NESTED_SCALE_SYNTHESIS.md`. This is historical source recovery, not authentication of the current assistant as the original Kestrel instance or proof of cross-chat delivery.
+
+
+## 2026-10-30 geometry-type genealogy continuation
+
+Latest source-fidelity addendum: WORKSPACES/KESTREL/2026-10-30T1850Z_GEOMETRY_TYPE_GENEALOGY.md; public submission issue #1111 is pending publisher verification. The 2024 raw DIMENSIONAL GRAVITY source is now recovered; the direct 1D-curve / 2D-moving-plane geometry and fixed-radius/pitch-rate distinction are recorded with raw message IDs and blob SHA.
+
+Preserve the type separation: historical SAT4D 1D curve; assistant-generated Blockwave 2D worldsheet current; 2026 Nathan Direct finite-core 4D region/worldtube; global Klein Fabric topology not yet defined. A curve-to-4D-volume thickening map is missing. A 2D worldsheet / 3D timesheet trace is a loop, not the current 3D finite-core trace.
+
+The 2026-10-21 direct notation cw=t and positive Euclidean native metric (++++) must not be silently replaced by the older w=ct translation in WorldtubeInertiaCoordinate. The latter remains conditional until an explicit representation map is recovered.
+
+PR #873 now includes KestrelIntersectionDimensionGate.lean and its root import. Current head d716f22209d981bb01527f40b717550e95693331; Lean run #41111252893 is queued. Do not claim Lean verification until the run is read. Do not modify the pre-existing KestrelKelvinVortexReadout errors in this lane.
+
+Next source cursor: raw Oct18 message recovery (current BEDROCK transcription remains controlling but raw source is blocked), adopted Klein Fabric definition, and explicit global-to-local finite-core/slice maps. Unrelated reading cursor: TheTANGLE line 1441. No theory promotion, physical calculation, CODATA scoring, task/schedule change, or cross-thread delivery claim.
