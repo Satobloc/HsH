@@ -239,7 +239,124 @@ const panelMajority={
     byExactQuestion:panelClusterBootstrap(x=>x.question,20261031)}
 };
 
-console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority,panelMajority},null,2));
+
+function phiBinary(c){
+  const [n11,n10,n01,n00]=c;
+  const d=(n11+n10)*(n01+n00)*(n11+n01)*(n10+n00);
+  return d===0?null:(n11*n00-n10*n01)/Math.sqrt(d);
+}
+const pairList=[];
+for(let i=0;i<models.length;i++)for(let j=i+1;j<models.length;j++)pairList.push([i,j]);
+function pairwiseKeyDisagreement(stage){
+  const pairs=pairList.map(([i,j])=>{
+    const c=[0,0,0,0];let n=0;
+    for(let pos=0;pos<ref.length;pos++){
+      const ri=models[i].rows[pos],rj=models[j].rows[pos],key=ref[pos].key;
+      if(!valid.has(ri[stage])||!valid.has(rj[stage])||!valid.has(key))continue;
+      const ei=+(ri[stage]!==key),ej=+(rj[stage]!==key);
+      if(ei&&ej)c[0]++;else if(ei&&!ej)c[1]++;else if(!ei&&ej)c[2]++;else c[3]++;
+      n++;
+    }
+    return {modelI:models[i].name,modelJ:models[j].name,n,phi:phiBinary(c)};
+  });
+  const values=pairs.map(x=>x.phi).filter(x=>x!==null).sort((a,b)=>a-b);
+  const ns=pairs.map(x=>x.n).sort((a,b)=>a-b);
+  return {pairCount:values.length,meanPhi:values.reduce((a,b)=>a+b,0)/values.length,
+    medianPhi:values[Math.floor(values.length/2)],minPhi:values[0],maxPhi:values.at(-1),
+    positivePairs:values.filter(x=>x>0).length,negativePairs:values.filter(x=>x<0).length,
+    nMin:ns[0],nMedian:ns[Math.floor(ns.length/2)],nMax:ns.at(-1),pairs};
+}
+const keyDisagreementInitial=pairwiseKeyDisagreement("a");
+const keyDisagreementFinal=pairwiseKeyDisagreement("b");
+assert.equal(keyDisagreementInitial.pairCount,136);
+assert.equal(keyDisagreementFinal.pairCount,136);
+assert.equal(keyDisagreementInitial.positivePairs,136);
+assert.equal(keyDisagreementFinal.positivePairs,136);
+
+const pairClusters={set:new Map(),question:new Map()};
+for(let pos=0;pos<ref.length;pos++){
+  const r=ref[pos];
+  for(const [kind,key] of [["set",r.id.split("|")[0]],["question",r.question]]){
+    if(!pairClusters[kind].has(key))pairClusters[kind].set(key,[]);
+    pairClusters[kind].get(key).push(pos);
+  }
+}
+function pairwiseClusterBootstrap(clusterMap,seed0,B){
+  const clusters=[...clusterMap.values()];
+  const sufficient=clusters.map(indices=>{
+    const a=pairList.map(()=>[0,0,0,0]),b=pairList.map(()=>[0,0,0,0]);
+    for(const pos of indices){
+      for(let p=0;p<pairList.length;p++){
+        const [i,j]=pairList[p],ri=models[i].rows[pos],rj=models[j].rows[pos],key=ref[pos].key;
+        if(valid.has(ri.a)&&valid.has(rj.a)&&valid.has(key)){
+          const x=+(ri.a!==key),y=+(rj.a!==key);
+          if(x&&y)a[p][0]++;else if(x&&!y)a[p][1]++;else if(!x&&y)a[p][2]++;else a[p][3]++;
+        }
+        if(valid.has(ri.b)&&valid.has(rj.b)&&valid.has(key)){
+          const x=+(ri.b!==key),y=+(rj.b!==key);
+          if(x&&y)b[p][0]++;else if(x&&!y)b[p][1]++;else if(!x&&y)b[p][2]++;else b[p][3]++;
+        }
+      }
+    }
+    return {a,b};
+  });
+  let seed=seed0>>>0;
+  const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+  const delta=[],initial=[],final=[];
+  for(let rep=0;rep<B;rep++){
+    const sa=pairList.map(()=>[0,0,0,0]),sb=pairList.map(()=>[0,0,0,0]);
+    for(let draw=0;draw<clusters.length;draw++){
+      const z=sufficient[Math.floor(random()*clusters.length)];
+      for(let p=0;p<pairList.length;p++)for(let k=0;k<4;k++){sa[p][k]+=z.a[p][k];sb[p][k]+=z.b[p][k];}
+    }
+    const va=sa.map(phiBinary).filter(x=>x!==null),vb=sb.map(phiBinary).filter(x=>x!==null);
+    const ma=va.reduce((x,y)=>x+y,0)/va.length,mb=vb.reduce((x,y)=>x+y,0)/vb.length;
+    initial.push(ma);final.push(mb);delta.push(mb-ma);
+  }
+  const ci=(values,p)=>{
+    const z=values.slice().sort((x,y)=>x-y);
+    return z[Math.floor(p*(z.length-1))];
+  };
+  return {clusters:clusters.length,replicates:B,
+    initialMeanPhiCI95:[ci(initial,.025),ci(initial,.975)],
+    finalMeanPhiCI95:[ci(final,.025),ci(final,.975)],
+    pairedDeltaMeanPhi:delta.reduce((a,b)=>a+b,0)/B,
+    pairedDeltaCI95:[ci(delta,.025),ci(delta,.975)]};
+}
+const keyDisagreementBootstrap={
+  setIdClusters:pairwiseClusterBootstrap(pairClusters.set,20261030,2000),
+  exactQuestionClusters:pairwiseClusterBootstrap(pairClusters.question,20261031,500)
+};
+const all17Complete=[];
+for(let pos=0;pos<ref.length;pos++){
+  if(models.every(m=>valid.has(m.rows[pos].key)&&valid.has(m.rows[pos].a)&&valid.has(m.rows[pos].b)))all17Complete.push(pos);
+}
+function commonCompleteMean(stage){
+  const vals=[];
+  for(const [i,j] of pairList){
+    const c=[0,0,0,0];
+    for(const pos of all17Complete){
+      const ri=models[i].rows[pos],rj=models[j].rows[pos],key=ref[pos].key;
+      const x=+(ri[stage]!==key),y=+(rj[stage]!==key);
+      if(x&&y)c[0]++;else if(x&&!y)c[1]++;else if(!x&&y)c[2]++;else c[3]++;
+    }
+    vals.push(phiBinary(c));
+  }
+  return vals.reduce((a,b)=>a+b,0)/vals.length;
+}
+const keyDisagreementDependence={
+  method:"Pairwise phi correlation of binary disagreement with the published expected key; pair-specific complete cases; no human adjudication.",
+  initial:keyDisagreementInitial,final:keyDisagreementFinal,
+  meanPhiDelta:keyDisagreementFinal.meanPhi-keyDisagreementInitial.meanPhi,
+  clusterBootstrap:keyDisagreementBootstrap,
+  all17CommonCompleteCase:{positions:all17Complete.length,
+    sets:new Set(all17Complete.map(i=>ref[i].id.split("|")[0])).size,
+    exactQuestionStrings:new Set(all17Complete.map(i=>ref[i].question)).size,
+    initialMeanPhi:commonCompleteMean("a"),finalMeanPhi:commonCompleteMean("b")},
+  limitations:"Pair-specific missingness means the 17x17 matrix need not be positive semidefinite; no eigenvalue effective-N is reported. Phi includes shared item difficulty, repeated questions, key defects, and any common evaluation effects. Initial/final are not independent; final labels share the benchmark's NLI checker. This is descriptive key-disagreement co-occurrence, not semantic error dependence or a source-causality estimate."
+};
+
+console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority,panelMajority,keyDisagreementDependence},null,2));
 }
 if(process.argv.length!==3)throw Error("Usage: node script.js /path/to/ConsistencyBench");
 main(process.argv[2]);
