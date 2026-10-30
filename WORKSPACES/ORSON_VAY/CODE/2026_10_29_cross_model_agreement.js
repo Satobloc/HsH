@@ -47,7 +47,126 @@ assert.deepEqual({pairs:total.pairs,initial:total.initial,final:total.final,init
 assert.deepEqual(duplicate.singleton,{positions:896,pairs:121856,initial:83053,final:83344});
 assert.deepEqual(duplicate.repeated,{positions:254,pairs:34544,initial:22742,final:21329});
 assert.deepEqual(completeCase,{pairs:137911,initial:102797,final:102881});
-console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect},null,2));
+
+const valid=new Set(["yes","no","cannot_determine"]);
+const peerTotals={eligible:0,changed:0,majorityDefined:0,initialMajorityMatches:0,finalMajorityMatches:0,toward:0,away:0,other:0,noMajority:0,keyGain:0,keyLoss:0,keyOther:0};
+const peerCross={toward:{gain:0,loss:0,other:0},away:{gain:0,loss:0,other:0},other:{gain:0,loss:0,other:0},noMajority:{gain:0,loss:0,other:0}};
+const peerByCategory={},peerByModel={},peerItems=[];
+for(const [name] of manifest)peerByModel[name]={eligible:0,changed:0,toward:0,away:0,other:0,noMajority:0,keyGain:0,keyLoss:0};
+for(let i=0;i<ref.length;i++){
+  const rs=models.map(m=>m.rows[i]);
+  const item={setId:ref[i].id.split("|")[0],id:ref[i].id,question:ref[i].question,category:ref[i].category,
+    eligible:0,changed:0,majorityDefined:0,initialMatch:0,finalMatch:0,
+    toward:0,away:0,other:0,noMajority:0,keyGain:0,keyLoss:0,keyOther:0};
+  for(let j=0;j<17;j++){
+    const r=rs[j];
+    if(!valid.has(r.a)||!valid.has(r.b)||!valid.has(r.key))continue;
+    peerTotals.eligible++;peerByModel[manifest[j][0]].eligible++;item.eligible++;
+    const peers=rs.filter((_,k)=>k!==j).map(x=>x.a).filter(x=>valid.has(x));
+    const counts={yes:0,no:0,cannot_determine:0};for(const x of peers)counts[x]++;
+    const ranked=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+    const majority=peers.length&&ranked[0][1]>peers.length/2?ranked[0][0]:null;
+    if(majority!==null){
+      peerTotals.majorityDefined++;item.majorityDefined++;
+      if(r.a===majority){peerTotals.initialMajorityMatches++;item.initialMatch++;}
+      if(r.b===majority){peerTotals.finalMajorityMatches++;item.finalMatch++;}
+    }
+    if(r.a===r.b)continue;
+    peerTotals.changed++;peerByModel[manifest[j][0]].changed++;item.changed++;
+    let direction="noMajority";
+    if(majority===null){peerTotals.noMajority++;peerByModel[manifest[j][0]].noMajority++;item.noMajority++;}
+    else if(r.a!==majority&&r.b===majority){direction="toward";peerTotals.toward++;peerByModel[manifest[j][0]].toward++;item.toward++;}
+    else if(r.a===majority&&r.b!==majority){direction="away";peerTotals.away++;peerByModel[manifest[j][0]].away++;item.away++;}
+    else {direction="other";peerTotals.other++;peerByModel[manifest[j][0]].other++;item.other++;}
+    let keyChange="other";
+    if(r.a!==r.key&&r.b===r.key){keyChange="gain";peerTotals.keyGain++;peerByModel[manifest[j][0]].keyGain++;item.keyGain++;}
+    else if(r.a===r.key&&r.b!==r.key){keyChange="loss";peerTotals.keyLoss++;peerByModel[manifest[j][0]].keyLoss++;item.keyLoss++;}
+    else {peerTotals.keyOther++;item.keyOther++;}
+    peerCross[direction][keyChange]++;
+  }
+  peerItems.push(item);
+  const c=peerByCategory[item.category]??(peerByCategory[item.category]={eligible:0,changed:0,majorityDefined:0,initialMatch:0,finalMatch:0,toward:0,away:0,other:0,noMajority:0,keyGain:0,keyLoss:0,keyOther:0});
+  for(const k of Object.keys(c))c[k]+=item[k]??0;
+}
+// Independent grouped-count reconstruction: count each question's initial labels once,
+// then remove the focal model's own vote to recover its leave-one-out reference.
+const groupedPeerTotals={eligible:0,changed:0,majorityDefined:0,initialMajorityMatches:0,finalMajorityMatches:0,
+  toward:0,away:0,other:0,noMajority:0,keyGain:0,keyLoss:0,keyOther:0};
+for(let i=0;i<ref.length;i++){
+  const rs=models.map(m=>m.rows[i]),counts={yes:0,no:0,cannot_determine:0};
+  for(const r of rs)if(valid.has(r.a))counts[r.a]++;
+  const totalInitial=Object.values(counts).reduce((a,b)=>a+b,0);
+  for(const r of rs){
+    if(!valid.has(r.a)||!valid.has(r.b)||!valid.has(r.key))continue;
+    groupedPeerTotals.eligible++;
+    const peerCounts={...counts};peerCounts[r.a]--;
+    const peerN=totalInitial-1;
+    const ranked=Object.entries(peerCounts).sort((a,b)=>b[1]-a[1]);
+    const majority=peerN>0&&ranked[0][1]>peerN/2?ranked[0][0]:null;
+    if(majority!==null){
+      groupedPeerTotals.majorityDefined++;
+      if(r.a===majority)groupedPeerTotals.initialMajorityMatches++;
+      if(r.b===majority)groupedPeerTotals.finalMajorityMatches++;
+    }
+    if(r.a===r.b)continue;
+    groupedPeerTotals.changed++;
+    let direction="noMajority";
+    if(majority===null)groupedPeerTotals.noMajority++;
+    else if(r.a!==majority&&r.b===majority){direction="toward";groupedPeerTotals.toward++;}
+    else if(r.a===majority&&r.b!==majority){direction="away";groupedPeerTotals.away++;}
+    else {direction="other";groupedPeerTotals.other++;}
+    if(r.a!==r.key&&r.b===r.key)groupedPeerTotals.keyGain++;
+    else if(r.a===r.key&&r.b!==r.key)groupedPeerTotals.keyLoss++;
+    else groupedPeerTotals.keyOther++;
+  }
+}
+assert.deepEqual(groupedPeerTotals,peerTotals,"independent peer-majority algorithms disagree");
+assert.deepEqual(peerTotals,{eligible:18331,changed:1616,majorityDefined:17258,
+  initialMajorityMatches:14088,finalMajorityMatches:13699,toward:489,away:878,other:41,
+  noMajority:208,keyGain:1096,keyLoss:405,keyOther:115});
+const setClusters=new Map(),questionClusters=new Map();
+for(const item of peerItems){
+  for(const [map,key] of [[setClusters,item.setId],[questionClusters,item.question]]){
+    const z=map.get(key)??{changed:0,majorityDefined:0,initialMatch:0,finalMatch:0,toward:0,away:0,other:0,keyGain:0,keyLoss:0};
+    for(const k of Object.keys(z))z[k]+=item[k]??0;
+    map.set(key,z);
+  }
+}
+assert.equal(peerItems.length,1150);
+assert.equal(setClusters.size,300);
+assert.equal(questionClusters.size,977);
+function clusterBootstrap(map,seed0){
+  const clusters=[...map.values()],B=10000,values={towardShare:[],netTowardAway:[],keyGainShare:[],keyLossShare:[],peerAlignmentDelta:[]};
+  let seed=seed0;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+  for(let b=0;b<B;b++){
+    const s={changed:0,majorityDefined:0,initialMatch:0,finalMatch:0,toward:0,away:0,other:0,keyGain:0,keyLoss:0};
+    for(let j=0;j<clusters.length;j++){
+      const z=clusters[Math.floor(random()*clusters.length)];
+      for(const k of Object.keys(s))s[k]+=z[k]??0;
+    }
+    const d=s.toward+s.away+s.other;
+    values.towardShare.push(d?s.toward/d:0);
+    values.netTowardAway.push(d?(s.toward-s.away)/d:0);
+    values.keyGainShare.push(s.changed?s.keyGain/s.changed:0);
+    values.keyLossShare.push(s.changed?s.keyLoss/s.changed:0);
+    values.peerAlignmentDelta.push(s.majorityDefined?(s.finalMatch-s.initialMatch)/s.majorityDefined:0);
+  }
+  const quantile=(a,p)=>{const z=a.slice().sort((x,y)=>x-y);return z[Math.floor(p*(z.length-1))];};
+  return Object.fromEntries(Object.entries(values).map(([k,a])=>[k,[quantile(a,.025),quantile(a,.975)]]));
+}
+const peerBootstrap={
+  setIdClusters:clusterBootstrap(setClusters,20261030),
+  exactQuestionClusters:clusterBootstrap(questionClusters,20261031)
+};
+const peerMajority={
+  method:"leave-one-out strict majority of other models' INITIAL extracted labels; compare focal model initial vs final label",
+  interpretation:"retrospective alignment only; archived models were not shown peer answers",
+  counts:peerTotals,crossTab:peerCross,byCategory:peerByCategory,byModel:peerByModel,
+  uniqueSets:setClusters.size,uniqueExactQuestionStrings:questionClusters.size,
+  bootstrapReplicates:10000,clusterBootstrap:peerBootstrap
+};
+
+console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority},null,2));
 }
 if(process.argv.length!==3)throw Error("Usage: node script.js /path/to/ConsistencyBench");
 main(process.argv[2]);
