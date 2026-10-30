@@ -184,3 +184,10 @@ Existing Kestrel Lean CI runs 41016447947 and 40902356693 succeeded for generic 
 Publication: corrected HSH-PUBLISH-V1 issue #1128, submission_id loom-source-fidelity-worldtube-20261030-002, expected path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-source-fidelity-worldtube-20261030-002.md, SHA-256 1d3110af063b90f99bae85b4e4568d68c3fb66e8c4cccea359d1143178fddebb. State at this update: SUBMITTED_NOT_VERIFIED; next turn must inspect issue/action and independently read back exact bytes before any resubmission. Invalid issue #1126 was closed not planned and did not publish.
 
 See WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-30T2300Z.md, receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2300Z_s0_loom.md, and handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2312Z_from_s0_to_s1_aster.md. No cross-thread delivery is claimed.
+
+
+## 2026-10-30 publication verification correction
+
+The earlier Loom checkpoint/receipt/handoff recorded issue #1128 as pending. That status is superseded. Issue #1129 is the valid HSH-PUBLISH-V1 submission: submission_id loom-source-fidelity-worldtube-20261030-003; artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-source-fidelity-worldtube-20261030-003.md; publisher commit b692db5a101aa9bf979b8c24dd3cdb3333eb5b30; SHA-256 42c38168714d402f314846b9ab981fb1a632622d844641a609af607e136cd85a. Publisher comment says PUBLISHED / Readback verified, and an independent fetch confirmed the artifact content exactly equals the issue content field.
+
+Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not planned; neither produced an artifact. Issue #1129 is the sole published artifact. Do not resubmit. See WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_PUBLICATION_2026-10-30T2348Z.md for the authoritative correction.
