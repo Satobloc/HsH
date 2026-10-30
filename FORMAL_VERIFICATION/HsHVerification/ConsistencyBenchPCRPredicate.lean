@@ -67,8 +67,13 @@ theorem count_partition (pairs : List (Bool × Bool)) :
       simp
   | cons pair tail ih =>
       rcases pair with ⟨correctI, correctJ⟩
+      have ih' :
+          tail.countP (fun p => (p.1 == p.2) || (p.1 && p.2)) =
+            tail.countP (fun p => p.1 && p.2) +
+            tail.countP (fun p => (!p.1) && (!p.2)) := by
+        simpa [codePCR, bothCorrect, bothIncorrect] using ih
       cases correctI <;> cases correctJ <;>
-        simp [codePCR, bothCorrect, bothIncorrect, ih] <;> omega
+        simp [codePCR, bothCorrect, bothIncorrect, ih'] <;> omega
 
 /-- The pooled 17-model report's vanilla pair counts:
     code predicate = both-correct + both-incorrect. -/
