@@ -55,6 +55,7 @@ theorem artin_braid_relation_matrix :
 /-- The matrix image of the full twist is -I, hence is not the identity. -/
 theorem full_twist_matrix :
     (sigma1Mat * sigma2Mat) ^ 3 = minusIdentity := by
+  simp only [pow_succ, pow_one]
   ext i j
   fin_cases i <;> fin_cases j <;>
     norm_num [sigma1Mat, sigma2Mat, minusIdentity,
