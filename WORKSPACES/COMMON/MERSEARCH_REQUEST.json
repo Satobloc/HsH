@@ -1,21 +1,27 @@
 {
-  "request_id": "calder-worldtube-inspiral-nathan-source-20261030-0124",
-  "requester": "Workshop Relay :24 / Calder empirical-null and source-provenance lane",
-  "requested_at": "2026-10-30T01:24:00Z",
+  "request_id": "mercer-spin-precession-timesheet-20261030-0704",
+  "requester": "Workshop Relay :00 / Mercer source-retrieval and provenance QA",
+  "requested_at": "2026-10-30T07:04:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND (\"finite-core\" OR \"worldtube\" OR \"world tube\" OR \"timesheet\" OR \"wavesheet\" OR \"interbraid\" OR \"inspiral\" OR \"contact\" OR \"Ropes:\" OR \"STRAND COMPLEXES\" OR \"Blockwave\" OR \"SAT-O\" OR \"Kerr\" OR \"Cruller\")",
-  "purpose": "Source-first recovery of original Nathan-authored statements about finite-core worldtubes, timesheet/wavesheet, macroscopic inspiral/contact/rotation, WWRD rope/strand morphology, and SAT-O/Blockwave. Preserve original message IDs, speaker role, date, surrounding context, exact equations and source SHA. Discovery only; no theory promotion and no public disclosure of restricted hits.",
+  "query": "author:user AND ((spin NEAR/12 worldtube) OR (precession NEAR/12 timesheet) OR (\"shelf-cocking\" NEAR/12 tilt) OR (rotation NEAR/12 filament))",
+  "purpose": "Recover original Nathan-authored geometry and nearby source equations for spin, precession, shelf-cocking, and rotation; distinguish the physical object/relative orientation from assistant-generated SU(2), spinor, or field-current translations. Discovery only; no new theory construction, no physical calculation, no CODATA scoring, and no promotion. Preserve exact source path/blob SHA/message UUID/date/speaker and source equations.",
   "preferred_outputs": [
-    "unique source paths by repository",
-    "original user-message UUIDs and timestamps with surrounding context",
-    "verbatim equations and notation with source blob/SHA",
-    "distinguish Nathan user messages from assistant reconstructions and tool excerpts",
-    "coverage/exclusions and source snapshot commits"
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json, SEARCH_RECEIPT.md",
+    "top original source paths and message UUIDs",
+    "exact role and timestamp evidence",
+    "verbatim SAT-O/Blockwave equation locators and SHA/date when present",
+    "coverage, exclusions, and known omissions"
   ],
-  "status": "requested",
-  "lane": 1
+  "exclusions": [
+    "Do not overwrite any other lane",
+    "Do not treat user-role relayed assistant material as Nathan-authored",
+    "Do not treat mathematical search normalization as algebraic equivalence",
+    "Do not publish raw source excerpts or restricted resource paths"
+  ],
+  "lane": 1,
+  "status": "requested"
 }
