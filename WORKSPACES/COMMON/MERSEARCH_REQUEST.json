@@ -1,19 +1,20 @@
 {
-  "request_id": "indicatrix-corpus-20261026-001",
-  "requester": "Nathan Direct / full lexical archive inventory",
-  "requested_at": "2026-10-26",
+  "request_id": "calder-worldtube-inspiral-nathan-source-20261030-0124",
+  "requester": "Workshop Relay :24 / Calder empirical-null and source-provenance lane",
+  "requested_at": "2026-10-30T01:24:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "Indicatrix",
-  "purpose": "Find every eligible document and conversation export containing literal word Indicatrix (case-insensitive) in content, and all filenames containing it. Return all matching unique source document paths, grouped by repository, with original locators and coverage limits. Inventory-only; do not substitute semantic matches.",
+  "query": "author:user AND (\"finite-core\" OR \"worldtube\" OR \"world tube\" OR \"timesheet\" OR \"wavesheet\" OR \"interbraid\" OR \"inspiral\" OR \"contact\" OR \"Ropes:\" OR \"STRAND COMPLEXES\" OR \"Blockwave\" OR \"SAT-O\" OR \"Kerr\" OR \"Cruller\")",
+  "purpose": "Source-first recovery of original Nathan-authored statements about finite-core worldtubes, timesheet/wavesheet, macroscopic inspiral/contact/rotation, WWRD rope/strand morphology, and SAT-O/Blockwave. Preserve original message IDs, speaker role, date, surrounding context, exact equations and source SHA. Discovery only; no theory promotion and no public disclosure of restricted hits.",
   "preferred_outputs": [
-    "complete list of distinct document paths and repositories",
-    "all matching records with original line/message offsets",
-    "matching filename and full-text sources",
-    "source snapshot commits, exclusions, and deduplication"
+    "unique source paths by repository",
+    "original user-message UUIDs and timestamps with surrounding context",
+    "verbatim equations and notation with source blob/SHA",
+    "distinguish Nathan user messages from assistant reconstructions and tool excerpts",
+    "coverage/exclusions and source snapshot commits"
   ],
   "status": "requested",
   "lane": 1
