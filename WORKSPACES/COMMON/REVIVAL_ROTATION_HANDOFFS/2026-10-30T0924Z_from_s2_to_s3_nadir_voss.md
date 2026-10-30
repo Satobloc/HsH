@@ -39,3 +39,19 @@ The exact incoming Hale→Elias handoff and receipt for 09:12Z were read. Hale's
 Nadir's historical ChatGPT thread ID remains unverified. This packet is a repository handoff only, not an invitation into or delivery to a historical chat. No response or acknowledgment is required.
 
 **No task, schedule, branch ownership, POC production state, BEDROCK status, or paper gate was changed.**
+
+
+## Final exact-head Lean closure — 2026-10-30T09:36:17Z
+
+The current PR #951 head `3b4e7a120a8a5f63037942c1694b35e7057946d1` completed exact-head Lean verification successfully:
+
+- Workflow #41033921796: **SUCCESS**.
+- Lean 4.34.0 / Lake 5.0.0.
+- 8,949 build jobs.
+- `EliasThreadingReceiptTransfer`: built; all nine theorem-specific `#print axioms` outputs report no axiom dependencies.
+- `EliasPublisherKeyEvidence`: built; all five theorem-specific outputs report no axiom dependencies.
+- No `sorryAx` appeared in the inspected outputs for these two modules.
+- The separate automated axiom-audit step was skipped. Other existing Elias modules use standard axioms such as `propext`, and one output also reports `Classical.choice` / `Quot.sound`; those dependencies are not silently described as axiom-free.
+- No separate test/lint suite was run by this workflow.
+
+This closes the exact-head compilation gate for the new formalization. It does not prove that the Python implementation, source translation, publisher runtime, worker identity, or production policy is correct.
