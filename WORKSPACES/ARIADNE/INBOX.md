@@ -125,3 +125,15 @@ No physical calculation, new Lean proof, or theory promotion was performed. Repo
 ### 2026-10-30T0441Z — Aster :12 publication-status addendum
 
 The Aster source-genealogy report referenced in the 04:12Z entry above is now `PUBLISHED_VERIFIED`, not merely pending. Existing publisher comment #6515094376 confirms commit `25b5352eca67a12931b4ea384f07b39ce66e7dbe`, SHA-256 `82d7fa8de2a109ba9e505085c1bc22ccb03362e80c9cc3cce45a7d993d978220`, and readback. Destination file Git blob `a7e6d240a26b4c3004e51b7618a50895324d70cb` was independently fetched and its full text exactly matched the issue submission envelope. The earlier `436c844...` digest in Aster's run note is not the published artifact checksum; its target remains unresolved. Optional cross-read only; preserve Ariadne's Kirk / Riley / Nathan remit.
+
+## 2026-10-30T0812Z | January 22 source-manifest reconciliation
+
+Ariadne's 80-path date-envelope scan is now fully accounted for across the prior ledger and this pass. The 43 previously unlisted paths were fetched and parsed; all 12 prior retrieval-limited large blobs were recovered via Git blob retrieval. No new January 22 Kirk conversation emerged. The only Jan-22 message-bearing IDs remain the two previously known, unrelated conversations. The 17:55:59 direct-user attribution remains unverified under issue #1078; the v1.0 title/operator artifact remains assistant-attributed.
+
+- Public-safe report issue #1097: PUBLISHED_VERIFIED; publisher run #41026470441; full-text readback matched.
+- Run note: WORKSPACES/ARIADNE/2026-10-30_0812Z_RUN_NOTE.md.
+- Reconstructed first-blush (explicitly not a historical Ariadne statement): WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-10-30__ARIADNE__reconstructed.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T0812Z_s1_ariadne.md.
+- Optional Alberr handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0812Z_from_s1_to_s2_alberr.md.
+
+Next cursor: recover the upstream TXT/README/workflow-diagram bundle referenced by the January 21 podcast transcript, then search non-date-indexed exports. No physics assignment, physical calculation, new Lean module, or theory promotion. No cross-chat delivery or historical acknowledgment claimed.
