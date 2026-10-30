@@ -154,3 +154,16 @@ Do not convert these HOLD items into claims about real human internal states wit
 A full blob-level inspection of the previously flagged large raw conversation export corrected the earlier phrase **“Captain Kirk-related material.”** The `Kirk` and `Riley` tokens were found only in embedded, unrelated bibliography/personal-name material, not in the conversation's text-bearing message bodies or in the Kirk/Riley/Nathan human-simulation source stack. No Captain James T. Kirk, Lieutenant Kevin Riley, Shatner, `RELEY`, “K mine,” or Nathan-from-1975 source material was present in that candidate.
 
 The raw object was recovered through the Git blob endpoint after the ordinary file-content endpoint returned an empty body. This is a retrieval-path limitation, not evidence of an empty file. The candidate is a **lexical/entity-collision false positive**, not an upstream source. The general rule remains: inspect plausible hits before rejecting them; the earlier example's specific characterization is corrected. No personal names from the embedded material are reproduced here.
+
+## Additive correction — 2026-10-30T2324Z: Concise Persona Guidelines candidate already excluded
+
+The older “Newer conversation-tranche hunt” paragraph below still calls `SAT_CONVOS_16/Concise Persona Guidelines — raw.json` a candidate awaiting content inspection. That status is superseded.
+
+- Exact path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json`.
+- Git blob: `9a1b5cdb455cd2c6ed8ef932aedcb6ed5eb3250f`.
+- The 2026-10-12T0700Z chronology audit parsed 32 timestamped message nodes: zero January 22 messages and no Kirk, Riley, Spock, Shatner, Hyde, or Kirk-v1.0 title.
+- The 2026-10-28T2200Z Ariadne pass re-read the full raw JSON (136,989 characters; 33 graph nodes) and again found no Kirk/Riley/Shatner/Hyde/Nathan-from-1975 or episode/file-name fingerprints.
+
+**Disposition: EXCLUDED AS THE JANUARY 22 KIRK SOURCE.** The 32-message versus 33-graph-node counts are different counting conventions for the same blob, not evidence of a second export. This is a negative result for this one candidate only, not a global archive-absence proof.
+
+The remaining cursor is the upstream TXT/README/workflow-diagram bundle described by the January 21 derivative SRT and the unresolved raw January 22 Kirk conversation identity/export. The completed Mersearch request's raw result files remain withheld; do not bypass that boundary or repeat this candidate. No new request was submitted and no lane was overwritten.
