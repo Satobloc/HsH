@@ -58,3 +58,17 @@ No CODATA scoring, physical calculation, or new data-free numerical fixture was 
 - The 14-day FIE re-review is not due; the last recorded review was 2026-10-27.
 - The predecessor's deliberate unrelated reading was `SAT Mark V/TheTANGLE.txt`, lines 1481–1520, return cursor 1521; no duplicate break was needed here.
 - Next deep cursor: reconcile the exact type and normalization of `cw=t` against the earlier `w=ct`; then define `γ`, `W`, `Σ³`, the thickening/intersection maps, the normal-field operator, and the coarse-grain/slice composition. Keep the local Kerr/ER core hypothesis separate from the global Cruller/Klein-Fabric hypothesis. Do not promote the mapping-torus or Hopf-coordinate sandbox as the user's ontology.
+
+
+## 6. Lean CI final result (2026-10-30T23:06Z)
+
+The accepted rerun of Actions run `41141185069` completed **SUCCESS** on job `124358367833`, exact source commit `71a68306d33472bbbe54df609dd05a5063e30297`.
+
+- Lean: `4.34.0`, commit `293d5d0c0c3f3dded4688b3ccd6a33939ac5102b`.
+- Mathlib: revision `5ed2965256430c3649e86755f9576b54eca72435`.
+- `lake build`: **Build completed successfully (8946 jobs)**.
+- `HsHVerification.MeridianCosmotopologyFidelity` built successfully.
+- The module's `#print axioms` output lists `propext`, `Classical.choice`, and `Quot.sound` for the first five theorems; the mapping-torus endpoint theorem lists `propext` and `Quot.sound`. No `sorryAx` is listed.
+- The workflow's separate `axiom-audit` option was disabled; test and lint steps were skipped. This is a successful Lean build with in-file axiom reporting, not a full external axiom audit.
+
+This resolves the compilation failure only. The statements remain conditional: the build does not establish that the mapping-torus quotient, Euclidean inversion, monotone global time, or their translation from Nathan Direct geometry are physically correct.
