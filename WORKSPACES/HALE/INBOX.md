@@ -176,3 +176,8 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 
 - Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1309Z_from_s4_to_s0_hale_crosslane_addendum.md` for the independently recovered May 2026 Nathan-attributed worldtube/tidal question, source separation from assistant-generated ΔG, the reproduced 119.56 ± 0.60 GW Newtonian orbital-energy comparator, the overlapping 2014/2015 LLR data provenance, and the scope limits of Loom PR #1101's finite-sample theorem.
 - This is an additional repository pointer only; no Hale ChatGPT thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-30T1311Z | Hale exposure boundary
+
+- Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1311Z_from_s4_to_s0_hale_identity_exposure_addendum.md` before treating this as independent review. The Hale reentry packet states prior external-literature exposure by design; Hale is not a blind reviewer. The exact current conversation ID remains unverified. This task is non-blind external-evidence/statistical-calibration QC only.
