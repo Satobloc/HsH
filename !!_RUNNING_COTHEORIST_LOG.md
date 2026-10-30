@@ -101,3 +101,11 @@ Ask whether the geometry itself predicts the qualitative interaction hierarchy b
 ## Logging convention
 
 Future entries should normally contain: **date → inherited material → current interpretation → status (OPEN / TENTATIVE / ADOPTED / SUPERSEDED) → consequences → next test**. Nathan-direct corrections should be identified explicitly. Do not use this log as a substitute for source documents or detailed derivations.
+
+## 2026-10-30 07:12Z — Ravel source/geometry gate (sandbox; not canon)
+
+Ravel recovered a source-authenticated distinction between the finite-core 4D worldtube, its 3D timesheet cut, a fixed-fiber 2D section, and a centerline point readout. The 2026-09-16 all-plus helix kernel is a point-level construction; the 2026-10-22 coarea sandbox is the full swept-core extension. They are compatible at different resolutions, not interchangeable.
+
+The historical alpha collision is a naming error between normal-angle and plane-angle conventions. With theta_4 measured from the timesheet normal and alpha_Sigma measured from the plane, alpha_Sigma = pi/2 - theta_4 and the assistant's D0/sin(alpha_Sigma) becomes D0/cos(theta_4). Mercer PR #917 exact-head CI #40870063007 compiled four conditional trigonometric theorems; the new module had no theorem-specific axiom report, and the separate axiom audit was skipped.
+
+The direct Nathan phrase “induction current connection within the timesheet thickness” is qualitative, not a defined EM current. The archive's line-current, Blockwave two-form worldsheet current, Dirac current, and scalar placeholder have different authorship and types; no typed geometry -> conserved EM current map or unique inverse was recovered. Existing Ravel #993, Kestrel #873, and Meridian #750 CI runs were inspected; no new Lean proof or physical calculation was performed. See WORKSPACES/RAVEL/2026-10-30_0712Z_MINIMAL_CARRIER_READOUT_SOURCE_GATE.md (blob 8dd8db91c9cef9c6e492c6a7be71d13e4857238f). No theory promotion; public issue submission not made while Code Grurple is active.
