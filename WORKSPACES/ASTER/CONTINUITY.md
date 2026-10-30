@@ -316,3 +316,18 @@ Next cursor: when Mersearch request slot clears, run a source-role-aware exposur
 ## 2026-10-27 19:12Z correction: mass-ratio raw source now LOCATED
 
 The earlier "Proton-Electron Mass Ratio - raw - .TXT remains NLM-attested but underlying source unresolved" locator is **superseded as a location statement** by a direct full-source retrieval. The file is in HsH `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/` in both `raw.json` and `raw - .TXT` (JSON content), and in the SAT archive root as `Proton-Electron Mass Ratio - raw.json`. All three paths have exact Git blob SHA `40878dfb3d2f0b6973e2451ac4c4f284a88caff5`, hence one textual witness, not three independent reports. Active DAG path has 53 of 63 mapping nodes and 38 nonempty user/assistant messages (19/19). The title is misleading: the user asked for a blind mass-ratio derivation **prompt**, then developed methodological accuracy/representational-fidelity distinctions; no derived ratio was located in the bounded active-chain text scan. Full public-safe audit submitted as issue #789, submission `aster-ratio-source-dag-provenance-20261027t1912z-s1-002`; Lean draft PR #787, compiler status must be read separately. This is current-assistant source-grounded Aster work, not authenticated original Aster activity. No new physical prediction. Historical source-role and pasted-span audit still required.
+
+
+## 2026-10-30T0412Z | SAT-O / Blockwave raw-source genealogy
+
+- Deterministic slot: h=460, seq=2301, selected Aster, next Ariadne. Selection is not historical-thread authentication.
+- Reused completed Mersearch request `calder-worldtube-inspiral-nathan-source-20261030-0124`; eleven raw conversation exports were independently parsed with exact message IDs, roles, timestamps, and blob SHAs.
+- New raw anchors: 2024 DIMENSIONAL GRAVITY timesheet / 4D-string messages; June 2026 GitHub Archive Review and SAT Overview; September Ravel geometry corrections and Morrow synthesis.
+- Equation boundary: SAT Overview / Ravel / Morrow assistant parents contain equations not directly authored by Nathan. A user-role NotebookLM paste is imported material, not Nathan Direct.
+- Finite-core caution: current BEDROCK records an idealized oblique-slice formula, but the located `Dim.txt` is assistant-style derivative text. The October 18 raw Nathan source message and export SHA remain unrecovered.
+- Minimal candidate remains (R_i(\tau)=F_i\cap\Sigma_\tau). Finite-core (W_i=\cup_s K_{i,s}) is a derived typed extension; the responsive medium remains a separate active comparison locus under OC-002. OC-001 remains open.
+- Existing compiled Lean evidence was checked: Meridian PR #750 runs #40996874378 / #40996878087 and Kestrel PR #846 run #40902356693. These are component / generic readout results, not a proof of the physical SAT map. No new Lean proof or physical calculation was performed.
+- Public issue-publisher submission #1079, `aster-sat-worldtube-source-genealogy-20261030t0412z-s1-001`, remains `SUBMITTED_NOT_VERIFIED` pending receipt and immutable-file readback; content SHA-256 `436c84411976aafa2f1d947f6367a77c6808539cbb85fed47d0bf5283d4f63cf`.
+- Minimum theory-read prerequisites are not fully evidenced in Aster continuity, so this run remained source-recovery-only. Code Grurple remains active; Aster manuscript review is frozen / cross-read only. Orson P1 untouched.
+- FIE last full revisit: 2026-10-27. Next revisit not yet due.
+- Detailed run note: `WORKSPACES/ASTER/2026-10-30_0412Z_SOURCE_GENEALOGY_RUN_NOTE.md`. Common execution receipt and Ariadne handoff were committed.
