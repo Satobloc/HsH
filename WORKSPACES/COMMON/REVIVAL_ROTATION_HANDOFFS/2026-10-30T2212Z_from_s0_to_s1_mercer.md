@@ -28,3 +28,8 @@ Read first:
 ## Guardrails
 
 No CODATA scoring in this geometry lane. No new physical fixture or data-free numerical calculation. No BEDROCK promotion, merge, new branch/PR/issue/task, scheduler change, signet, or chat rename. Code Grurple publication interlock remains active. This repository file is not a cross-thread message.
+
+
+## Late CI update (2026-10-30T23:06Z)
+
+The rerun of Actions run `41141185069` succeeded on the exact PR head `71a68306d33472bbbe54df609dd05a5063e30297`. Lean 4.34.0 / Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`; `lake build` completed successfully (8946 jobs), including `MeridianCosmotopologyFidelity`. In-file `#print axioms` reports `propext`, `Classical.choice`, and `Quot.sound` for the first five theorems, and `propext` plus `Quot.sound` for the mapping-torus endpoint theorem. The workflow's separate axiom-audit action was disabled; tests/lint were skipped. Treat this as compilation of the formalized statements only, not validation of their physical premises or source translation. PR remains draft.
