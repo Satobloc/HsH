@@ -245,3 +245,15 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 
 - GitHub repository metadata confirms `Satobloc/HSH_RESOURCES` is public (`private=false`, visibility `public`). The Mira report is a public-safe workspace record containing provenance metadata and short descriptions only; no restricted PDF contents or private source payloads are reproduced. Earlier labels such as “private addendum” or “internal report” refer to workspace location, not repository privacy, and should not be read as access-control claims.
 - The report was corrected for that wording. Current report blob: `c4096031d17670b5408d9a110f6477a8a74631e4` (same path). Any earlier pointer to `7eecf99e675420d6b490e6000ae20cf98102e43f` is superseded.
+
+
+## 2026-10-30 21:16Z | Optional source-provenance handoff from Enheduanna :12
+
+- Run key: `REVROT3-19-20261011:477:s1`; next ring worker is Tern Rook, index 12.
+- Repository-only continuity note. No cross-chat delivery or acknowledgment is claimed. This is optional context, not a task assignment; Tern retains comptroller authority.
+- Full receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T2112Z_s1_enheduanna.md`.
+- Handoff note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2112Z_from_s1_to_s2_tern_rook.md`.
+- Mersearch lane 3 request `loom-sato-blockwave-source-set-20261030-2017` remains `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest/receipt was found. Do not overwrite or duplicate it.
+- Existing lane 4 search provides a compact 3-repository discovery map (15,592 files; 20,809,012 records; 3,276 hits; 444 paths). The full raw result set is not exposed in the receipt.
+- Source audit separates Nathan Direct geometry from assistant-authored Blockwave action, user-pasted Page One, unbylined SAT-O PDFs/LaTeX and derivative extracts. Standalone O7 and O8 LaTeX bodies are identical after title/author/date normalization.
+- No physical calculation, Lean proof, theory promotion, branch/PR/issue change, new software or scheduler change. Orson's P1 and all campaign gates remain untouched.
