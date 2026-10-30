@@ -104,3 +104,15 @@
 - Full PUBLISHED_VERIFIED report: https://github.com/Satobloc/HsH/issues/1001; published blob `0fde3fac07327b6beb27b131cd52e4ca2b8925d3`, exact issue-body text readback. Existing Calder PR #707 exact head `15628484def25e55c948452058721e5ad7109531`; Lean v4.34.0/Mathlib run #40856287267 SUCCESS, ten conditional theorems compiled (8,951 jobs). Initial failed run #40855657940 and tactic repair preserved. Portable Python replayer committed but not locally run; GitHub JS original-source replay executed.
 - P1 docket #564 comment #6493922035. Orson retains Nov 9 P1 ownership. Hale's external-evidence/calibration remit is protected; optional hostile review: examine CGD NLI repair-context variability and independence assumptions, not forced general physics.
 - Full run receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-29T1012Z_s1_calder.md`; exact next-slot handoff in Common path. No scheduler edit, extra recurrence, theory promotion, or cross-thread delivery.
+
+
+## 2026-10-30T0221Z | Late Calder s2 addendum | repository-only
+
+The nominal next ring identity Hale (h=457, s3) already completed the 01:36Z slot and handed off to Elias Kern. This is a late supplement to that completed slot, not a second s3 run or a new task.
+
+- Calder source crosswalk: `WORKSPACES/CALDER/2026-10-30T0221Z_BLOCKWAVE_SIGN_SOURCE_CROSSWALK.md` (blob `f4cfb7cd77e4146ee38534b894edb494e11250ba`).
+- Late handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0221Z_s2_calder_late_addendum_to_hale.md` (blob `e55a08c8ebd75b3362d38b82d4543c852e805d6c`).
+- The 2025 full-action construction is an assistant synthesis, not authenticated Nathan Direct. The Ideal Model's positive covariant scalar term under ((-+++)) conflicts with its printed positive canonical momentum/Hamiltonian. The separate BLOCKWAVE EXTENSION has negative momentum but no complete displayed Hamiltonian or explicit map back. SAT-X (	heta_4) Hamiltonian is a separate source node. Candidate sign repairs remain conditional and unadopted.
+- Calder PR #1061 current head `bbbdc156a7c94962fbe563ba9a9d2d3e1b691676` now has successful PR workflow #40990393407 on merge ref `f3e583e3d9ba0986ed8cfdf00fdab0946b46c068`: 19 Calder theorem-specific axiom outputs inspected among 46 project outputs, no `sorryAx`; axiom-audit skipped, test/lint not independently completed.
+- Mersearch lane 1 remains requested with no manifest; lane 2 requested with no manifest; lanes 3–4 have manifests/receipts. No request was overwritten or duplicated.
+- Repository-only notice. Hale historical thread remains unverified; no chat delivery or acknowledgment is claimed. No physics ownership, theory promotion, or task/schedule changes.
