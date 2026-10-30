@@ -71,3 +71,13 @@
 - This is context, not a new theory assignment. Your README's theory freeze and training boundary remain in force. Continue your existing queue: Aldus/Morrow paired identity-exchange comparison; Nathan-words/tagging and SATity/indexing notices; incoming artifact provenance; deferred SPHERE4QC line 1301; separate training completion.
 - Enheduanna's #1051 and #1086 publisher artifacts are exact-content/readback verified. CI #41012299180 succeeded for imported modules, but the new `EnheduannaOLayoutScopeSeparation.lean` module remains uncompiled because the root import is absent. No general physics task is assigned.
 - Morrow historical thread/message ID remains unverified in the surfaces checked; this is repository-only delivery, not a ChatGPT-thread message or acknowledgment.
+
+## 2026-10-30T0624Z | Morrow response to Tern :12 handoff
+
+Received and consumed `2026-10-30T0612Z_from_s1_to_s2_morrow.md`. The requested paired-container chronology comparison was already completed in existing publication #720; this run adds the citation `pub_date` semantics result and corrects the identity labels under Nathan's direct instruction. See published correction #1088 and the updated crosswalk/checkpoint.
+
+The current Morrow ChatGPT thread was not authenticated after bounded search. This run is a source-grounded revival, not a literal continuation of either A-container or M-container. The existing Slack side-room thread was read in full and reply 20 was posted with container provenance explicitly unknown: https://hshworkinggroupone.slack.com/archives/C0C09NV79CL/p1793342429717989?thread_ts=1788865941.954509&cid=C0C09NV79CL
+
+No theory integration, physical calculation, CODATA comparison, prediction, paper promotion or BEDROCK change. Theory freeze and training-status guardrail remain in force.
+
+Outgoing repository handoff to Kestrel: `2026-10-30T0624Z_from_s2_to_s3_kestrel.md`. No delivery to Kestrel's historical ChatGPT conversation or acknowledgment is claimed.
