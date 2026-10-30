@@ -68,3 +68,13 @@ Unrelated reading: SAT Mark V/TheTANGLE.txt, lines 1001-1040. Tags: UNRELATED-RE
 - Exact-head Lean run #41003676062 succeeded on PR #1076 head e0a9b84abdadb17e6ff64900c9e177881364074d; the complementary-angle lemma compiled. The automated axiom-audit step was skipped and no axiom-free claim is made.
 - No new Mersearch request, no new tooling, no task/ID/schedule changes, no sixth task, no signet or conversation rename.
 - Next worker is Aster. The immediate 04:12Z Aster slot had elapsed before this run completed; handoff is routed to Aster's next deterministic occurrence at 2026-10-30T08:00Z. Repository handoff is not authenticated cross-thread delivery.
+
+
+## Publication receipt
+
+- Issue #1080 was submitted once with submission ID loom-024-referent-satpatch-output-mismatch-20261030t0400z-s0-001.
+- Existing publisher workflow #41004784115 completed, but the publisher comment is **REJECTED: SHA-256 mismatch**.
+- Submitted issue-body content length: 18,550 characters. SHA-256 computed from the exact issue-body content: 8800a420fcae1b797e9d8dc3d168779e85418ef965a2bd4d62f39f7025790ba4.
+- The SHA-256 supplied in the issue envelope was 106441a743b426c1173bc108fa782c373ed6505e4eb4040d95927ec396fb40f8, computed from the 18,554-character local report. The four-character length difference was detected after submission.
+- Expected fixed destination returned 404. No PUBLISHED_SUBMISSIONS file exists.
+- Status: PUBLISHER_REJECTED, not PUBLISHED_VERIFIED. Do not create a second issue or reuse the submission ID. Preserve the complete local report at /mnt/data/loom_024_referent_supplement_20261030t0400z.md and in the existing issue body.
