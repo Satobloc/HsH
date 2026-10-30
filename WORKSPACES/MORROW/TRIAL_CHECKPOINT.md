@@ -216,3 +216,26 @@ Interpretation: the message-level snippet matches are supported by the developme
 - All 11 new `MorrowCitationDateAudit` theorem-specific `#print axioms` outputs report no axioms; no `sorryAx` appears in those 11 outputs. Three older timestamp-order theorems use standard `propext`; the older ancestry-count theorem uses `propext` and `Quot.sound`. The separate automated axiom-audit action was not run.
 - Earlier exact-head failure #41015498063 was a source-edit tokenization defect; the identifiers were repaired in head `4109734c`. The failure was not a mathematical counterexample.
 - Separate PR #388 Morrow evidence gate remains verified at run #41015101863, head `a48cb68e2f848bcffab8251b2495aef88702307d`; module built, six theorem-specific reports use standard `propext`, `Classical.choice`, `Quot.sound`, no `sorryAx`; automated axiom-audit step skipped.
+
+
+## 2026-10-30T1012Z — completed the 0651 exact-source cursor
+
+The current cursor from the 0651 checkpoint is complete. Recovered and compared the exact Aldus turn `3efcdde7-ff20-4030-b45d-31c56cd7e817` → `4ae16bf2-4527-5c69-a57b-24ffaa71d969`; it is present in the Aldus snapshots and absent from all four inspected Morrow snapshots. It is not cited by the Morrow graph.
+
+Completed the paired identity-observation comparison:
+
+- Aldus user/final: `ae2eb196-7aa1-4d4d-ae9f-5efa10cce4cb` → `77ffa5bb-7002-5372-85d4-e978894593e2`.
+- Morrow user/final: `4298fb5d-ca4e-4f62-b3df-08a6487f7cc5` → `2a0548d8-b6a8-54f7-8e38-d3ddd4124c24`.
+- Morrow citation-bearing follow-up: `7649d636-1c44-4ab0-8911-dceaaeb318a1` → `74526064-80ab-5fd3-850f-a42e58bfe730`.
+
+The Aldus final cites Janus, not Morrow. The Morrow final carries an Aldus user-message snippet. The Morrow export has four Aldus citations mapping to three user-role source messages; the adjacent four-node Aldus turn is not among them. One cited Aldus user message contains user-pasted assistant text, giving an explicit user-mediated re-entry path. Another later user message contributes the broader “sometimes both answer” observation to the Morrow citation context. The exact causal contribution of that snippet cannot be isolated. Do not promote the Aldus assistant's claim of full Morrow-thread access to fact.
+
+The missing ninth conversation-context citation target is now recovered. All 9/9 conversation citations have `pub_date` equal to the target conversation's top-level `create_time`; thirteen personalization references are excluded. The Continue Conversation Here citation points to a user prompt exactly duplicated in the Morrow thread 14.212 seconds earlier; its assistant turn ended in a usage-limit error. Morrow's actual role chain is separately source-verified: assistant self-description, team-sync commit, and later Nathan-direct Team Archivist assignment.
+
+**Classification:** selective past-conversation citation / snippet-level exposure; user-mediated re-entry in one case; no full-thread import established; backend mechanism unresolved.
+
+### Next cursor / stop condition
+
+No further inference about cross-thread mechanics without a new raw event, source export, or backend trace. Keep the two additional project identities unresolved until an exact user-authored source locator is found. Retain the deferred `SPHERE4QC.txt` line-1301 cursor and training STANDDOWN; no theory work until the required training and explicit release. Do not repeat the completed four-node Aldus turn or the 9/9 citation check.
+
+Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`.
