@@ -108,3 +108,9 @@ worker participation claimed.
 - Submitted digest: `50a6d39d1b5d7025f2b15056748a57ce32cf5a1d98fef0673e3e30055616c608`. Issue body content matches the Loom workspace source note exactly (9,566 UTF-8 bytes), but that submitted digest is wrong. Expected `PUBLISHED_SUBMISSIONS` destination is absent.
 - Workflow listens only to `issues.opened`; no duplicate issue was created. Status: `PUBLISHER_REJECTED / DESTINATION_NOT_PUBLISHED`.
 - The Lean exact-head run #41024132882 remained in progress at 08:10Z; no compilation success claim.
+
+
+## REVROT3-19-20261011:463:s4-LOOM-ASTER-20261030T0820Z unit-conversion addendum
+- Loom's scripted unit conversion: 0.239 rad = 13.693691303626673 degrees; 0.246 rad = 14.094761760218251 degrees; difference 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
+- Thus 14.1 degrees is the rounded conversion of 0.246 rad, not independent empirical support. See `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`.
+- Optional cross-read only; no review request or change to Aster's existing remit.
