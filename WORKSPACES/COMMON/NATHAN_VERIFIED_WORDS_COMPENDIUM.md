@@ -2868,3 +2868,80 @@ Reclassify the derivative block as `DERIVATIVE_PARAPHRASE / NOT_VERBATIM / SOURC
 The historical role conclusion remains supported by the actual node `402ade01`. This correction changes only the exact-quotation attribution. Preserve the original excavation batch and all earlier provenance records.
 
 Full additive correction record: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-TEAM-ARCHIVIST-QUOTE-CORRECTION-01.md`.
+
+
+## Excavation batch 2026-10-30 | Geometry fidelity / timesheet projection
+
+### 2025-10-30 — Fundamental Intuitions: worldline and time-wavefront intersection
+- Source: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.30•Exploring inspiration together — raw.json
+- Conversation: 6902c86b-2168-8332-8027-71ec62b72a91
+- Message: bc8d8dac-d16a-4cf6-a473-0701d7c40286
+- Tags: NATHAN_DIRECT, WORLDLINE, TIMESHEET, INTERSECTION-READOUT, THETA4, MASS-ANGLE, VACUUM-ALIGNMENT, 2025-HISTORICAL
+- Exact excerpts: “The perceived particle is the intersection of the particle's worldline with the time wavefront.” “Mass is approximately proportional to the angle θ4 between the filament and time surface.” “Vacuum filaments have θ4 near-zero.”
+- Attribution: raw user-role message, direct source.
+- Fidelity note: preserve the original “angle between filament and time surface” wording. The July 2025 project glossary later gives the more precise convention θ4 = angle(v,u), with u normal to Σ_t. Do not silently rewrite the source phrase as an angle to the tangent 3-plane.
+
+### 2025-10-30 — Large LaTeX document submitted in user-role message
+- Source: same raw conversation; message 779b416f-77b4-4877-9355-1edc6929e52d.
+- Tags: NATHAN_USER_ROLE_SUBMITTED_DOCUMENT, EMBEDDED_MANUSCRIPT, EQUATION-AUTHORSHIP-UNRESOLVED.
+- Attribution: user-role document submission. Preserve as a submitted document; do not assume the embedded equations are direct prose or independently established as authored in that turn.
+
+### 2026-10-09 — Flexibility, tension and stiffness remain open parameterization questions
+- Source: LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json; message 44e9df22-a6ac-49ca-92ac-c74c8f137310.
+- Tags: NATHAN_DIRECT, FLEXIBILITY, TENSION, STIFFNESS, WORLDtube-CONSTITUTIVE-LAW, OPEN-QUESTION.
+- Exact excerpt: “What actually is ‘flexibility’, ‘bending energy’, ‘stiffness’ of a worldtube?”
+- Attribution: raw user-role message. The message proposes extracting stiffness from known force/momentum systems but supplies no measured dataset or numerical inputs.
+
+### 2026-10-09 — Worldtube curvature / inertia proposition
+- Source: same raw conversation; message 3c657387-b80b-4982-a61a-8e6d8568b8d1.
+- Tags: NATHAN_DIRECT, WORLDTUBE-CURVATURE, INERTIA, CLASSICAL-LIMIT, BLOCK-UNIVERSE, PROPOSITION-NOT-PROOF.
+- Exact excerpts: “worldtube curvature == inertia.” “Filament motion is not a thing. Particle motion is filament topology.”
+- Attribution: raw user-role message. Preserve as a model proposition, not a proof or independent measurement.
+
+### 2026-10-09 — Timesheet is a 3D slice/bulk; blanket no-tension claim rejected
+- Source: same raw conversation; message 5a929b5e-515e-4f77-a32a-e49feef42812.
+- Tags: NATHAN_DIRECT, TIMESHEET-3D, BULK-SLICE, TENSION-QUALIFICATION, ASSISTANT-QUOTE-BOUNDARY.
+- Exact excerpt from the direct continuation: “it's not a ‘sheet’ of course, it's a 3D ‘slice’, it's a bulk that overlaps with the xyz bulk as wxyz.”
+- Attribution: raw user-role message. The preceding quoted lines are assistant text; the user's “Not really, no” rejects the assistant's blanket “No elastic modulus / no invented filament tension” summary. Tension is unresolved, not forbidden.
+
+### 2026-10-09 — 4D filament versus 3D intersectional trace; ℓ_f is a coil-diameter scale
+- Source: same raw conversation; message 28b2378a-846d-4c3f-a242-91f9007ce261.
+- Tags: NATHAN_DIRECT, FOUR-D-FILAMENT, THREE-D-TRACE, ELL_F-SCALE, COIL-DIAMETER, NOT-FILAMENT-THICKNESS, SELF-CLOSURE-OPEN.
+- Exact excerpts: “We should treat them as bounds for the presumed spin-equivalent first order coil diameter.” “We have to start with a 4D filament.”
+- Attribution: raw user-role message. The message explicitly questions whether self-closure should be expected in the 3D cobordism. Message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1 is a near-duplicate, not independent corroboration.
+
+### 2026-10-09 — First-order helix period along second-order coil
+- Source: same raw conversation; message 68ea28d0-7f74-4264-ace8-e910439eb327.
+- Tags: NATHAN_DIRECT, FIRST-ORDER-HELIX, SECOND-ORDER-COIL, PERIOD-CONSTANCY, TENTATIVE-HYPOTHESIS.
+- Attribution: raw user-role message. The wording is explicitly tentative (“probably”); do not promote to a constraint without a derivation.
+
+### 2026-10-09 — One helical core; hollow outer superhelix
+- Source: same raw conversation; message 6f00a97a-aa84-45bf-9429-4ff70736014a.
+- Tags: NATHAN_DIRECT, ONE-PHYSICAL-CORE, HOLLOW-OUTER-COIL, NO-SECOND-CORE.
+- Attribution: raw user-role message.
+
+### 2026-10-09 — Carrier is abstraction, not a physical support
+- Source: same raw conversation; message 7aec988d-0398-4eb1-9bb1-cb6d133e9a7d.
+- Tags: NATHAN_DIRECT, CARRIER-ABSTRACTION, NO-PHYSICAL-CARRIER.
+- Exact excerpt: “the carrier is just an abstraction, like a gridline.”
+- Attribution: raw user-role message.
+
+### 2026-10-10 — Vacuum orientation and non-wrapping worldlines
+- Source: same raw conversation; message 59c5c4c6-c914-48d4-af4c-5f53a1698f37.
+- Tags: NATHAN_USER_ROLE_MIXED, DIRECT-CONTINUATION, WORLDLINE-NO-WRAP, VACUUM-ORIENTATION, TENTATIVE-ER-KERR.
+- Attribution: mixed user-role message. The opening explicitly cross-posts Morrow/Kestrel material; the later “One additional important detail...” continuation is a direct clarification. Preserve the segment boundary. The ER/Kerr worldtube and Kerr-shell suggestion is explicitly tentative.
+
+### 2026-10-10 — Cross-post from Morrow/Kestrel
+- Source: same raw conversation; message a96d56d7-59bc-48cc-8338-0a37240e8fd4.
+- Tags: NATHAN_USER_ROLE_CROSSPOST, ORIGIN-MORROW-KESTREL, WWRD-HEURISTIC-CONTEXT, HOPF-FIBRE-CORRECTION-CONTEXT.
+- Attribution: user-role cross-post. The current direct instruction separately establishes that WWRD rope mechanics is heuristic, not physical equivalence. Do not treat copied worker analysis as independent first-origin evidence.
+
+### 2026-10-10 — Cross-post from Mercer
+- Source: same raw conversation; message b27ec702-f976-4273-8d87-166ecccdfeb8.
+- Tags: NATHAN_USER_ROLE_CROSSPOST, ORIGIN-MERCER, MODEL-RECONSTRUCTION-CONTEXT.
+- Attribution: user-role cross-post; preserve source origin rather than promoting embedded analysis to independent first-origin evidence.
+
+### 2026-10-20 — Mixed Kerr-ring text with unresolved quote boundary
+- Source: same raw conversation; message 357da9ad-f0ac-44eb-b4b8-36fb4afe8b7b.
+- Tags: NATHAN_USER_ROLE_MIXED, KERR-RING, ROTATION-GEOMETRY, QUOTE-BOUNDARY-UNRESOLVED.
+- Attribution: user-role mixed text. The first paragraph reads as a quoted/reused formulation and the following reply is incomplete; retain for later segmentation, do not promote the paragraph as a standalone direct proposition.
