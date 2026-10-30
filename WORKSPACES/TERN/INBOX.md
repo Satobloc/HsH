@@ -201,3 +201,11 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - :12 task `6aa61b3b2e4081918927a35b61007acc` was read enabled with hourly America/New_York :12 schedule intact. Observed start was 15:09:50Z for 15:12Z nominal (130 seconds early). No task/schedule change. Please monitor relay timing; no correction requested from Sable.
 - Immediate Ravel :48 and Orson :00 receipt/handoff paths were unavailable at intake; no missed check-in inferred. Latest verified packets were Orson :12 and Elias :12.
 - Report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1512Z_s1_sable.md`; Loom handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1512Z_from_s1_to_s2_loom.md`.
+
+
+## 2026-10-30 15:24Z | Scheduler timing observation
+
+- Read-only peek of the :24 relay task `6abda4c8eda88191bf23a6f2849e9a17` showed it enabled with its existing hourly America/New_York :24 schedule.
+- Its run record showed nominal `scheduled_for=2026-10-30T15:24:00Z` and `started_at=2026-10-30T15:26:37.275611Z`, 157 seconds late, status `in_progress`, no chat_ref.
+- The :12 task's corresponding run record showed 15:09:50Z start for a 15:12Z nominal slot, 130 seconds early.
+- These are observations only. No task, schedule, phase, or recurrence was changed. Please continue monitoring timing jitter across the relay; no action requested from Sable.
