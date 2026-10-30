@@ -23,6 +23,7 @@ import HsHVerification.KestrelFlagInformationCounts
 import HsHVerification.KestrelGaugeNormalizationGate
 import HsHVerification.KestrelLevelSetSliceTangentV2
 import HsHVerification.SableTransverseIntersectionNondegeneracy
+import HsHVerification.KestrelKelvinVortexReadout
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
@@ -36,4 +37,3 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
   group
 
 end HsHVerification
-import HsHVerification.KestrelKelvinVortexReadout
