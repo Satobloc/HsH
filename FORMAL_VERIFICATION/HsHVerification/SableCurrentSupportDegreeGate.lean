@@ -61,6 +61,12 @@ hypersurface in a 4D ambient manifold. Transversality is an external premise. -/
 def transverseHypersurfaceSliceDimension (supportDimension : Nat) : Nat :=
   supportDimension + 3 - 4
 
+/-- Conditional boundary bookkeeping: the boundary of a k-dimensional support
+has dimension k-1 when it is a regular nonempty boundary. Existence/regularity
+of the boundary is an external geometric premise. -/
+def boundarySupportDimension (supportDimension : Nat) : Nat :=
+  supportDimension - 1
+
 theorem poincare_dual_degree_plus_support
     (k : Nat) (hk : k ≤ 4) :
     poincareDualFormDegree k + k = 4 := by
@@ -120,6 +126,20 @@ theorem swept_worldline_has_two_form_poincare_dual :
     poincareDualFormDegree (sweptSupportDimension 1) = 2 := by
   norm_num [poincareDualFormDegree, sweptSupportDimension]
 
+/-- Under the standard current/Poincare-dual convention and Stokes, the PD of
+an oriented boundary has form degree one higher than the PD of its support.
+This theorem checks only the degree arithmetic, not Stokes or current existence. -/
+theorem boundary_raises_poincare_dual_degree_by_one
+    (k : Nat) (hk : 1 ≤ k) :
+    poincareDualFormDegree (boundarySupportDimension k) =
+      poincareDualFormDegree k + 1 := by
+  simp [poincareDualFormDegree, boundarySupportDimension]
+  omega
+
+theorem worldsheet_boundary_poincare_dual_is_three_form :
+    poincareDualFormDegree (boundarySupportDimension 2) = 3 := by
+  norm_num [poincareDualFormDegree, boundarySupportDimension]
+
 /-- The 3-form-to-2-form change cannot be attributed to Hodge duality alone:
 Hodge duality sends degree 3 to degree 1, while a one-parameter sweep of a
 1D support has a degree-2 Poincare dual. -/
@@ -159,6 +179,8 @@ theorem shell_meets_transverse_hypersurface_in_two_dimensions :
 #print axioms independent_sweep_raises_support_by_one
 #print axioms sweep_lowers_poincare_dual_degree_by_one
 #print axioms swept_worldline_has_two_form_poincare_dual
+#print axioms boundary_raises_poincare_dual_degree_by_one
+#print axioms worldsheet_boundary_poincare_dual_is_three_form
 #print axioms hodge_and_sweep_are_distinct
 #print axioms transverse_hypersurface_slice_dimension
 #print axioms worldline_meets_transverse_hypersurface_in_zero_dimension
