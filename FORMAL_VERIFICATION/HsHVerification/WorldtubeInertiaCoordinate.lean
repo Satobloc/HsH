@@ -38,8 +38,7 @@ theorem force_eq_mass_c_squared_of_divided_curvature
     (hCurvature : κ = a / c ^ 2) :
     force = m * c ^ 2 * κ := by
   rw [hNewton, hCurvature]
-  field_simp [hc]
-  ring
+  field_simp [hc] <;> ring
 
 #print axioms force_eq_mass_c_squared_curvature
 #print axioms force_eq_mass_c_squared_of_divided_curvature
