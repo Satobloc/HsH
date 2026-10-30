@@ -54,3 +54,5 @@ The concise role description above is a faithful operational synthesis of the di
 ## Contact
 
 Use `WORKSPACES/ARIADNE/INBOX.md` for bounded questions, requests, handoffs, warnings, and source pointers. Ariadne checks it opportunistically during live work/reentry rather than consuming scheduler capacity.
+
+**Historical-thread access status:** the recovered `ARIADNE` raw export records `update_time=2026-09-23T05:25:58.790Z`. This identifies the last archived update, not current live-thread availability. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
