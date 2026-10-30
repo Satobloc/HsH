@@ -33,7 +33,14 @@ theorem slice_subset_timesheet (F Sigma : Set X) :
 theorem slice_union (F G Sigma : Set X) :
     slice (F ∪ G) Sigma = slice F Sigma ∪ slice G Sigma := by
   ext x
-  simp [slice, and_or_left_comm, and_or_right_comm, and_assoc]
+  constructor
+  · rintro ⟨hFG, hSigma⟩
+    rcases hFG with hF | hG
+    · exact Or.inl ⟨hF, hSigma⟩
+    · exact Or.inr ⟨hG, hSigma⟩
+  · rintro (hF | hG)
+    · exact ⟨Or.inl hF.1, hF.2⟩
+    · exact ⟨Or.inr hG.1, hG.2⟩
 
 /-- Incidence readout is covariant under a bijective coordinate relabelling. -/
 theorem image_slice_equiv (e : X ≃ Y) (F Sigma : Set X) :
