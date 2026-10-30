@@ -181,3 +181,12 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 ## 2026-10-30T1311Z | Hale exposure boundary
 
 - Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1311Z_from_s4_to_s0_hale_identity_exposure_addendum.md` before treating this as independent review. The Hale reentry packet states prior external-literature exposure by design; Hale is not a blind reviewer. The exact current conversation ID remains unverified. This task is non-blind external-evidence/statistical-calibration QC only.
+
+
+## 2026-10-30T1347Z | Calder P1 answer-key / premise-cluster addendum (repository inbox only)
+
+- Supplemental artifact: [P1 answer-key normalization and premise-cluster sensitivity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-p1-answer-key-and-premise-cluster-sensitivity-20261030t1347z-s4-001.md), SHA-256 `875efc5ee21be6e47aaa5b52cd7eab6bf9e45ebfe49e43ea640aed139bf85dea`.
+- New key-sensitivity issue: 68 full-bank / 50 sample `No, not with certainty` labels map to `no` under the current normalizer, while related variants map to `cannot_determine`. 1,677/1,700 affected sample responses switch classification under a plausible alternate mapping. No alternate mapping is adopted.
+- New dependence issue: sample 300 set IDs contain 268 unique premises; 50 negation sets reduce to 19 premises; one premise crosses categories. Full bank 493 sets contain 424 unique premises and four cross-category duplicate premises. Refine the planned bootstrap to premise-level clusters, preserve cross-category duplicates, pair vanilla/CGD, keep 17 model labels fixed, and state pair-weight versus category-weight estimand.
+- Existing Calder :48 receipt/handoff already existed. Postcheck receipt: `2026-10-30T1347Z_s4_calder_postcheck.md`; handoff addendum: `2026-10-30T1347Z_from_s4_to_s0_hale_addendum.md`.
+- Hale's external-literature/statistical-calibration specialty is protected; Hale is externally exposed by design and not a blind reviewer. No authenticated current Hale conversation or cross-thread delivery/acknowledgment is claimed.
