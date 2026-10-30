@@ -55,4 +55,38 @@ theorem editorial_majority_is_not_all_directly_before :
 #print axioms editorial_majority_not_three_directly_attested_before
 #print axioms editorial_majority_is_not_all_directly_before
 
+/-!
+## Shared citation ancestry (source-conditional)
+
+Helle 2020 Appendix 3.1 discusses Black 2002's placement argument.
+Sövegjártó 2022 p.39 n.61 explicitly cites Black 2002 p.3.
+The shared ancestor is a bibliographic edge only: it does not prove
+statistical dependence, identical readings, or absence of independent
+tablet inspection by either later author.
+-/
+
+inductive Publication where
+  | black2002 | helle2020 | sovegjarto2022
+  deriving DecidableEq, Repr
+
+/-- Bounded source-graph edge: Helle discusses Black; Sövegjártó cites Black. -/
+def black2002Link : Publication → Bool
+  | .helle2020 => true
+  | .sovegjarto2022 => true
+  | _ => false
+
+theorem helle_2020_discusses_black_2002 :
+    black2002Link .helle2020 = true := by decide
+
+theorem sovegjarto_2022_footnote_61_cites_black_2002 :
+    black2002Link .sovegjarto2022 = true := by decide
+
+theorem both_modern_analyses_have_black_2002_as_a_shared_source_ancestor :
+    black2002Link .helle2020 = true ∧
+    black2002Link .sovegjarto2022 = true := by decide
+
+#print axioms helle_2020_discusses_black_2002
+#print axioms sovegjarto_2022_footnote_61_cites_black_2002
+#print axioms both_modern_analyses_have_black_2002_as_a_shared_source_ancestor
+
 end HsHVerification.EnheduannaBlack2002Inference
