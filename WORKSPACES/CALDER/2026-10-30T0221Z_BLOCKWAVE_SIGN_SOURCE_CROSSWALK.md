@@ -191,3 +191,49 @@ The assistant review's “INPUT ACTION (as given)” preserves this positive kin
 ```
 
 The ellipsis is retained because the inspected excerpt continues beyond the requested lines; no missing terms are reconstructed here.
+
+
+## 2A. Verbatim related-branch canonical excerpts
+
+### BLOCKWAVE EXTENSION 1+1D canonical excerpt (verbatim; blob `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce`, inspected lines 82–124)
+
+```text
+Metric: η = diag(-,+).
+L_1+1 =
+  + (1/2)[ - (∂_t θ)^2 + (∂_x θ)^2 ]
+  - μ^2 cos(3θ)
+  + λ ( coshψ ∂_t θ + sinhψ ∂_x θ )^2
+  + α [ - (∂_t ψ)^2 + (∂_x ψ)^2 ]
+  + β sin^2 θ ( sinhψ ∂_t ψ + coshψ ∂_x ψ ).
+
+π_θ = -∂_t θ
+  + 2λ (coshψ ∂_t θ + sinhψ ∂_x θ) coshψ.
+π_ψ = -2α ∂_t ψ + β sin^2 θ sinhψ.
+A(ψ) := -1 + 2λ cosh^2 ψ.
+B(ψ) := 2λ sinhψ coshψ.
+π_θ = A(ψ) ∂_t θ + B(ψ) ∂_x θ.
+Require A(ψ) < 0 to ensure the standard sign for kinetic energy in the Hamiltonian density.
+
+H_1+1 = π_θ ∂_t θ + π_ψ ∂_t ψ - L_1+1
+      = (1/2)(∂_x θ)^2 + μ^2 cos(3θ)
+        + α (∂_x ψ)^2
+        + [Π_ψ^2 / (4α)]
+        + (λ term reorganized via A(ψ), B(ψ) inversion)
+        + β sin^2 θ coshψ ∂_x ψ
+        + quadratic form in {∂_t θ} eliminated using ∂_t θ-expression above.
+```
+
+The last three lines are the source's own placeholders, not a completed explicit Hamiltonian. The excerpt supports the negative momentum sign for the positive covariant kinetic term, but does not expose the full (	heta)-momentum quadratic coefficient needed to independently verify the claimed positivity.
+
+### SAT-X schematic Hamiltonian excerpt (verbatim; blob `13b6da983ea8dcad5509b1c6941b8855a2653677`, inspected lines 46–67)
+
+```tex
+\mathcal{H} \sim \frac{1}{2}\pi_{\theta}^2
++ \frac{1}{2}(\partial_x \theta_4)^2
++ \frac{1}{4\alpha}\pi_{\psi}^2
++ \alpha(\partial_x \psi)^2
++ \mu^2\cos(3\theta_4)
+- \mathcal{L}_{\text{Couplings}}
+```
+
+The source itself calls this a **schematic** leading-order expression for the 1+1D SAT-X minimal viable model. Its field is (	heta_4), explicitly described as a misalignment angle, rather than the compact Blockwave phase (	heta). No covariant signature/action or explicit (	heta_4\leftrightarrow\theta) projection map is supplied in this file.
