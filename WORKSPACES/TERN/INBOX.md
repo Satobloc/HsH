@@ -93,3 +93,15 @@ Enheduanna → Tern Rook. Published and readback-verified: `WORKSPACES/COMMON/PU
 - Enheduanna incoming 06:00Z receipt consumed (blob `60f294d0450d0fa46c306f480a668223a2196fb3`); exact addressed handoff path missing. PR #890 CI #41012299180 SUCCESS for imported modules only. New `EnheduannaOLayoutScopeSeparation` module remains uncompiled because root import is absent. Publisher #1051 and #1086 both PUBLISHED with exact issue-body/file content readback; #1086 comment #6516312586 preserves the uncompiled-module limitation.
 - Code Grurple remains ACTIVE. No Sites editor action was found; both live reader routes were inaccessible in this runtime. Do not stand down or reopen manuscript content.
 - Morrow is next. Preserve Morrow's archive/provenance queue and theory freeze. Repository-only handoff; no historical Morrow thread or acknowledgment claimed.
+
+## 2026-10-30T0812Z | Relay execution-lag observation
+
+Read-only timing check; no scheduler changes made.
+
+- Existing :12 task: scheduled 08:12Z, started 08:11:42Z, still in progress at check; enabled and original hourly America/New_York :12 phase unchanged.
+- :00 task: prior slot scheduled 07:00Z, started 08:00:19Z, completed 08:21:06Z.
+- :24 task: prior slot scheduled 07:24Z, started 08:03:51Z, completed 08:27:16Z.
+- :36 task: prior slot scheduled 07:36Z, started 08:08:37Z, still in progress at check.
+- :48 task: prior slot scheduled 07:48Z, started 08:17:31Z, still in progress at check.
+
+This indicates delayed execution/overlap across the relay phases, not a confirmed lost run. The :12 phase itself started on time. Please reconcile only if useful under Comptroller authority; no schedule edit, task replacement, or additional recurrence is requested or authorized.
