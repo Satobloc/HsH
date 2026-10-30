@@ -115,3 +115,58 @@ theorem observed_source_separation :
 #print axioms observed_source_separation
 
 end HsHVerification.AriadneJan22SourceGate
+
+
+/-!
+# Conditional engine/paint identifiability lemma
+
+Source basis: the January 21, 2026 *Making Interesting LLM Characters* SRT,
+a derivative podcast transcript. It distinguishes a decision-generating
+"engine" from visible expressive "paint", but the upstream TXT/README/
+workflow definitions remain unrecovered.
+
+The theorem below is an assistant reconstruction of one generic implication.
+It does NOT assert that the actual Kirk or Riley observation maps are
+non-injective, and it is not attributed to Nathan Direct.
+-/
+
+namespace HsHVerification.AriadneEnginePaint
+
+universe u v w
+
+variable {State : Type u} {Context : Type v} {Surface : Type w}
+
+/-- The complete observable surface profile of a latent state over contexts. -/
+def observationMap (render : State → Context → Surface) :
+    State → (Context → Surface) :=
+  render
+
+/-- If two distinct internal states have identical rendered outputs in every
+context, the surface observation map cannot identify the internal state. -/
+theorem indistinguishable_states_imply_noninjective
+    (render : State → Context → Surface)
+    (s₁ s₂ : State)
+    (hneq : s₁ ≠ s₂)
+    (hobs : ∀ c, render s₁ c = render s₂ c) :
+    ¬ Function.Injective (observationMap render) := by
+  intro hinj
+  apply hneq
+  apply hinj
+  funext c
+  exact hobs c
+
+/-- A single context whose rendered outputs differ is sufficient to distinguish
+the two states under the observation map. -/
+theorem separating_context_distinguishes_states
+    (render : State → Context → Surface)
+    (s₁ s₂ : State)
+    (c : Context)
+    (h : render s₁ c ≠ render s₂ c) :
+    observationMap render s₁ ≠ observationMap render s₂ := by
+  intro heq
+  exact h (congrFun heq c)
+
+#print axioms indistinguishable_states_imply_noninjective
+#print axioms separating_context_distinguishes_states
+
+end HsHVerification.AriadneEnginePaint
