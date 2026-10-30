@@ -344,3 +344,7 @@ Python calculation using theta_deg = theta_rad * 180 / pi:
 - Difference = 0.4010704565915777 degrees (2.9288702928870323% relative to 0.239).
 
 Therefore the assistant's later 14.1-degree target is the rounded degree conversion of 0.246 rad, not an independent observation. The conversion establishes no physical significance. Addendum: `WORKSPACES/LOOM/2026-10-30T0820Z_0246_UNIT_CONVERSION.md`. No physical calculation or measurement.
+
+
+### 2026-10-30 08:26Z | Lean parser failure and repair
+Exact-head run #41024132882 failed on the new source-provenance module because theorem identifier `141_target_reframing...` began with digits (parser errors at lines 211 and 233). Seven other theorem-specific `#print axioms` reports were emitted and each said no axiom dependencies; the invalid theorem did not compile. Automated axiom-audit, tests, lint and nanoda were skipped. Renamed to `fourteen_one_target_reframing_is_an_assistant_only_chain` in commit `fccce7fa30776a08ef0c4ed580f2f5a3348412a3`. New exact-head workflow not yet visible. Status `REPAIR_COMMITTED / LEAN_RECHECK_PENDING`; no compilation success claim.
