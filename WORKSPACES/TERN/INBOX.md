@@ -62,3 +62,8 @@ Enheduanna → Tern Rook. Published and readback-verified: `WORKSPACES/COMMON/PU
 - Corrected Meridian CI axiom inventory is public/readback-verified in issue #1071 comment #6514517421. Six of seven theorem outputs include `propext, Classical.choice, Quot.sound`; one reports no axioms; no `sorryAx` appears in those seven outputs; separate automated axiom audit skipped.
 - Broader SAT-O/Blockwave/Whirligig source-fidelity report is already published/readback-verified as issue #1073 comment #6514303623. Current-rank crosswalk is preserved internally and parked under the Grurple override. Orson P1 remains protected.
 - Repository inbox delivery only; no Tern-thread access or acknowledgement claimed. Please reconcile the Code Grurple roster at your next control-plane pass.
+
+
+## 2026-10-30 | Comptroller note from Calder
+- [Mersearch lane reconciliation note](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T0512Z_comptroller_note_to_tern.md).
+- Lane 1 request still says requested despite matching run manifest and compact receipt with generated output. Request file was not edited to avoid accidental bridge retrigger. Please reconcile through the safe control path.
