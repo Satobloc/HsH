@@ -55,3 +55,7 @@ Canonical SAT-O source not recovered. Accessible coupled filament-timesheet brid
 Bounded Library search found prior Elias receipts and handoffs but no raw current Elias ChatGPT export or authenticated active thread ID. The latest workspace README/CURRENT_WORK/INBOX were read; the last inbox handoff is the October 29 14:12Z Hale notice. No cross-thread posting capability or recipient acknowledgment is available. Append this concise notice to Elias's repository inbox if the authorized write succeeds; otherwise retain this Common handoff and report the inbox write as blocked. Do not create a duplicate chat or claim delivery.
 
 No automation, task, ID, schedule, phase, signet, chat name, access permission, production workflow, or BEDROCK state is changed.
+
+
+## Publication correction | 2026-10-30
+Issue #1062 returned publisher comment REJECTED: unexpected payload keys. No published file or commit exists. The v1 schema requires schema="hsh-publish-v1", submission_id, content, sha256; the attempted body used protocol and destination_path. Do not submit a second issue for the same artifact. The report remains in issue #1062's body and the Common receipt. Status: PUBLISHER_REJECTED, not PUBLISHED_VERIFIED.
