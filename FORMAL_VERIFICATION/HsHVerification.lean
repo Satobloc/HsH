@@ -16,6 +16,9 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.MeridianCosmotopologyFidelity
+import HsHVerification.MeridianAnswerProjection
+import HsHVerification.MeridianProviderPartition
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
