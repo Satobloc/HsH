@@ -11,7 +11,7 @@ The experimental rope was a 2 mm stranded metallic wire rope with line
 density rho = 15 g/m, estimated bending stiffness B ~= 0.0005 N m^2,
 and static elevation Z0 = 0.81 m. The authors manually applied tension
 of order 1 N, but did not directly measure T; x0 was used as a monotone
-proxy for tension. Their Table I reports x0 +/- 0.03 m and f1 +/- 0.02 Hz:
+proxy for tension. Their Table I reports x0 ± 0.03 m and f1 ± 0.02 Hz:
 x0 = [1.08, 1.20, 1.47, 1.65, 1.80, 2.30, 2.45] m,
 f1 = [1.18, 1.19, 1.20, 1.20, 1.23, 1.17, 1.20] Hz.
 The cancellation theorem below is conditional on the paper's small-slope,
