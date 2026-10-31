@@ -34,7 +34,7 @@ Source anchors:
 The two 2025 repository commit timestamps are exact Git metadata. Their
 difference is 1,955 seconds (32 minutes 35 seconds). This is path/commit
 ordering, not source-creation order, author identity, or first-public order.
-Historical repository visibility at those commits is not established. The earlier #1000 record also carries 2025-02-02 as a broad SAT ground-zero date, but its underlying public witness was not recovered in this pass; that date is deliberately excluded from this formal ledger.
+Historical repository visibility at those commits is not established. The prior #1000 broad-SAT date 2025-02-02 is now source-verified through the public Spotify episode catalog and description; it remains distinct from every O9-specific T0.
 
 The 2026-06-09 Spotify episode is publicly catalogued, but the O9 filename
 claim is only present in the saved auto-transcript candidate. The exact audio
@@ -59,6 +59,7 @@ inductive Claim where
   deriving DecidableEq, Repr
 
 inductive WitnessKind where
+  | publicEpisodeDescription
   | notebookLmDerivative
   | repositoryMassModule
   | spotifyCatalogTranscript
@@ -76,6 +77,7 @@ inductive ContentStatus where
 
 inductive Attribution where
   | roleVerifiedNathan
+  | publisherFirstPersonNotRoleVerified
   | transcriptSpeakerUnknown
   | derivativeAuthorUnknown
   deriving DecidableEq, Repr
@@ -89,6 +91,15 @@ structure Witness where
   content : ContentStatus
   attribution : Attribution
   deriving Repr
+
+def satGroundZero : Witness :=
+  { sourceFamily := 4
+    kind := .publicEpisodeDescription
+    claim := .satFramework
+    dateKey := 20250202
+    visibility := .verifiedPublic
+    content := .verified
+    attribution := .publisherFirstPersonNotRoleVerified }
 
 def notebookMassLabel : Witness :=
   { sourceFamily := 1
@@ -145,7 +156,7 @@ def spotifyGravitonFilenameCandidate : Witness :=
     attribution := .transcriptSpeakerUnknown }
 
 def boundedWitnesses : List Witness :=
-  [notebookMassLabel, notebookMassFormulaFragment, notebookGravitonFilename,
+  [satGroundZero, notebookMassLabel, notebookMassFormulaFragment, notebookGravitonFilename,
    notebookGravitonTopic, massModulePathWitness, spotifyGravitonFilenameCandidate]
 
 def qualifiesAsVerifiedPublic (w : Witness) : Bool :=
@@ -203,8 +214,8 @@ theorem notebook_mass_and_graviton_claims_share_one_witness_family :
 
 /-! Claim-granular public-exposure results for the bounded ledger. -/
 
-theorem broad_sat_has_no_verified_public_t0_in_bounded_ledger :
-    publicT0 .satFramework = none := by
+theorem broad_sat_public_t0_in_bounded_ledger :
+    publicT0 .satFramework = some 20250202 := by
   decide
 
 theorem broad_sat_has_no_role_verified_nathan_public_t0_in_bounded_ledger :
@@ -235,7 +246,7 @@ theorem o9_graviton_filename_is_candidate_not_verified_t0 :
 #print axioms notebook_derivative_commit_precedes_mass_path_commit
 #print axioms derivative_to_mass_path_commit_gap_seconds
 #print axioms notebook_mass_and_graviton_claims_share_one_witness_family
-#print axioms broad_sat_has_no_verified_public_t0_in_bounded_ledger
+#print axioms broad_sat_public_t0_in_bounded_ledger
 #print axioms broad_sat_has_no_role_verified_nathan_public_t0_in_bounded_ledger
 #print axioms o9_mass_module_has_no_verified_public_t0_in_bounded_ledger
 #print axioms o9_mass_formula_fragment_has_no_verified_public_t0_in_bounded_ledger
