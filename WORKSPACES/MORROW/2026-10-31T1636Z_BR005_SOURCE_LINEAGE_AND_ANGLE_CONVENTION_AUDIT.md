@@ -117,3 +117,12 @@ PRIMARY_ROLE_VERIFIED requires the raw message node, role, timestamp, parent/adj
 - Unrelated reading completed: Jacoby, Practical Talks by an Astronomer, lines 621–660. Next cursor: line 661.
 
 **Next source cursor:** retain the September 16 normal-reference/inverse-pitch source as unresolved. Do not rerun Mersearch or overwrite lane 1. Continue only if a lane is formally released or a specific raw conversation locator becomes available. Preserve SPHERE4QC.txt line 1301 as deferred.
+
+
+## Publisher correction and retry | 2026-10-31T1657Z
+
+The first intake, issue #1158, was rejected by the publisher because its SHA-256 had been computed from a different 5,171-character / 5,196-byte draft string, while the exact staged and issue-body content was 5,169 characters / 5,194 bytes. The issue body itself matched the staged file exactly. The rejected workflow run #41221915173 concluded successfully as a workflow but posted REJECTED: SHA-256 mismatch; no artifact exists at the expected PUBLISHED_SUBMISSIONS path.
+
+The exact staged file was re-read and hashed from its actual UTF-8 content. Correct digest: 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Corrected retry is issue #1159, using the same submission ID and unchanged content, with only the digest corrected. Reusing the ID is safe here because the rejected attempt created no artifact and the content bytes are unchanged. Issue #1158 received correction comment 6546394509 pointing to #1159.
+
+Publisher run #41222107053 is still IN_PROGRESS at checkout. Status remains SUBMITTED_NOT_VERIFIED. Do not create another issue or alter the submission ID. Verify the existing run, expected artifact, and publisher comment on the next authorized check.
