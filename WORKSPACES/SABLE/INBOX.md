@@ -291,3 +291,12 @@ Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIO
 - Run key: REVROT3-19-20261011:501:s2
 - Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NEXT_APPEARANCE_ONLY.
 - VEY-023 primary-source crosswalk, conditional Lean status, and P1 boundary are in the handoff. Current :36 run consumption is not claimed.
+
+
+## ELIAS-2324-20261031-TRACKB-OPTIONAL-001 | Complete-prototype actor-registry sandbox result
+- Optional Track A -> Track B context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2324Z_from_s2_elias_kern_to_trackb_sable_tern.md`.
+- Detailed report: `WORKSPACES/ELIAS_KERN/2026-10-31T2324Z_TRACKA_COMPLETE_POC_ELIAS_REGISTRY_SANDBOX_TEST.md`.
+- Reviewable sandbox patch: `WORKSPACES/ELIAS_KERN/2026-10-31T2324Z_ELIAS_ACTOR_REGISTRY_SANDBOX.patch`.
+- Full exact-source sandbox run: baseline 7/7, patched 13/13; all prior scenario outputs unchanged; unknown actor still fails closed; TOP and fresh-directive priority preserved.
+- Upstream HSH_RESOURCES source and production workflow were not changed. This is not a Track B approval or promotion request. No task, response obligation, or ownership transfer.
+- Repository inbox pointer only; no Sable ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
