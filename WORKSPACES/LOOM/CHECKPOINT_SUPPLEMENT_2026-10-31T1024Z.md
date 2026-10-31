@@ -220,3 +220,8 @@ d(\iota_u J_3)=\mathcal L_u J_3-\iota_u(dJ_3).
 Thus, if `dJ3=0` and `L_u J3=0`, the contracted 2-form is closed. This is a candidate projection with explicit conditions, not a recovered Nathan equation and not yet Lean-formalized. It should not be called a Hodge dual.
 
 The source ledger already contains these message IDs and tags; no duplicate tag was created. The Sable report and handoff are the source of this continuity update, and the raw conversation was independently inspected through the Library copy.
+
+
+### Attribution precision correction
+
+The phrase “the 3-form is fundamental” appears verbatim in assistant-role message `eee9e477-6977-48e8-9114-246d123c86be` at 2025-09-18T15:10:36.644963Z. It is **assistant-authored**, not a Nathan Direct quotation. Nathan's direct record is the sequence of questions/challenges and the explicit editorial instruction in `e92efb17-2499-482e-b930-9ad11221bd7c` at 2025-09-18T15:19:27.048539Z (message SHA-256 `8160ccd77f1f218663bb0445af5fc11df252b02990a8fe0e07277000b871b4cb`) to rewrite Chapters 1–5 in the 3-form track, followed by the train-track editorial metaphor in `9dc27aac-b34d-46db-8bb1-be603ba3fb73` at 15:42:49.979981Z. The user-authored evidence establishes the editorial choice; it does not by itself prove a physical ontology or the assistant's proposed J3/J2 duality.
