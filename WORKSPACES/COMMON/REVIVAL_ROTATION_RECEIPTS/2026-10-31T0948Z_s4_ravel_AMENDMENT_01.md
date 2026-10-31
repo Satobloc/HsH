@@ -35,3 +35,15 @@ This is a concrete seriality/lease-overlap observation: deterministic worker sel
 No automation was paused, disabled, rescheduled, renamed, or recreated. All five existing task IDs, enabled states, schedules and phases remain unchanged; no sixth task was created. Scheduler authority remains with Tern. This amendment records evidence only and does not request a schedule change.
 
 No cross-thread delivery or recipient acknowledgment is claimed.
+
+
+## Final artifact readback
+
+- Primary receipt blob: `e8a5752e57d9b0bdeb0298d4f549839f1bae9777`.
+- Amendment blob before this readback note: `a8781cf023fc4d4d2843fee52d513fb1cc401830`.
+- Internal report blob: `2274d47ba8ff3575a1a4cde58ab0f5315ca05ffe`.
+- Optional Orson handoff blob: `28f36d6ba66227ef7693fd3d2c3aff88aaa5aca0`.
+- Ravel inbox after Mercer acknowledgment and overlap note: `a099cf4b7c6105f5c3201e256f977fbeb6edfe1f`.
+- Orson inbox after delta handoff and late-timing note: `2bb8854dc99949d3173edfe8c3b2e6f435a541cd`.
+
+All six paths were fetched again after the writes. The current :48 and successor :00 automation records were still `in_progress` at that final peek; their `latest_result` values belonged to earlier runs. No current-run completion or thread liveness is inferred.
