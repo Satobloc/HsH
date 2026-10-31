@@ -188,3 +188,48 @@ The recovered THE_WHOLE_READY source section has 8,124 Unicode-split lines / 814
 - Optional no-assignment context handoff to next ring identity Alberr created and read back: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1436Z_from_s3_to_s4_alberr.md`, blob `93c194fd648713fde96351ed382c92c6f6e23cfd`.
 - Alberr inbox pointer appended and read back exactly: `WORKSPACES/ALBERR/INBOX.md`, blob `331f3d0013df97e6b824f3307045ed636f88f08a`.
 - The packet is OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_REPLY_REQUIRED. Repository delivery is verified; recipient consumption and cross-thread delivery are not claimed. Alberr's autonomy is preserved.
+
+
+## Amendment 08 | exact-head verification closed; fail-closed guard added
+
+### Exact-head build verification
+
+The previously pending run #41214856914 completed SUCCESS. Its job log records:
+- Event `GITHUB_SHA`: `474dacf742ae5fe18603a5eacf0bdef4423e12f6` (pull-request merge-ref event SHA).
+- Checked-out commit: `c06f161ecd2572684963759274a5921abf15cf6f`.
+- `PR_HEAD_SHA`: the same `c06f161ecd2572684963759274a5921abf15cf6f`.
+
+Therefore the successful build did compile the exact PR head, not merely the merge-ref event commit. Lean 4.34.0 / Lake 5.0.0; full build SUCCESS, 8,948 jobs. The claim-lineage module was replayed.
+
+### Fail-closed workflow guard
+
+A pre-build assertion was added to the existing PR branch in `.github/workflows/lean-verification.yml`. On pull-request events it compares `git rev-parse HEAD` with `github.event.pull_request.head.sha` and exits before dependency generation or compilation if they differ.
+
+- Workflow blob: `eb07041b270ebd57703339144edc6e8d71a6d581`.
+- Branch commit/current PR head: `68aadf6c90e6b69a03999e8c3cd8d22c58118e20`.
+- Exact-head run: [#41215958162](https://github.com/Satobloc/HsH/actions/runs/41215958162).
+- Job: `124580410072`.
+- Guard step: SUCCESS.
+- Lake dependency manifest: SUCCESS.
+- Lean build: SUCCESS, 8,948 jobs.
+- Environment readback: `GITHUB_SHA=239821cec902c4c42724821c00a8c5450456fbaa`; checked-out commit and PR head both equal `68aadf6c90e6b69a03999e8c3cd8d22c58118e20`.
+
+Six target-specific `#print axioms` reports were inspected. `contains_trans` has no axioms; the other five depend only on `propext`, `Classical.choice`, and `Quot.sound`. The complete job log contains zero `sorryAx` occurrences. Tests, lint, nanoda, and the separate automated axiom-audit stage were not run. This is an exact-head compile plus six target-specific axiom reports, not a repository-wide proof audit.
+
+### Epistemic and branch limits
+
+The shared-core SHA, normalization and extraction remain external audit inputs. Lean does not read the private Library exports or authenticate their content, authorship, chronology, acquisition history or copying direction. The proof establishes only the conditional claim-scope classification encoded in the module.
+
+PR #790 remains open, draft and unmerged, based on `infra/lean4-verification-20261023` at `61cc8b65ffed70296e0121dbae067892a79c81d4`. No rebase or merge was attempted.
+
+Correction to Amendment 06: its `25af8fa...` value was described as the current main head, but the available branch lookup in this follow-up did not expose the main tip SHA. Treat that value and the 57-ahead/5138-behind comparison as an unverified prior snapshot, not current branch state. The live `refs/heads/main` content was read; the PR's own base/head are verified. The task branch graph remains an older snapshot and was not edited.
+
+### Relay timing
+
+At the final scheduler inspection, all five existing automations remained enabled with their original hourly phases. The :00, :24 and current :36 executions were recorded in progress; :12 and :48 had completed. No task, ID, prompt, schedule or phase was changed.
+
+The expected Aster :24 receipt/handoff for `REVROT3-19-20261011:494:s2` was not present at Ariadne startup; the :24 execution was still in progress. Status: `HANDOFF_MISSING_OR_IN_FLIGHT`, not worker nonresponse.
+
+The optional Ariadne-to-Alberr packet was committed after Alberr's :48 execution had completed at 14:59:01Z. Repository availability is verified, but it was late relative to recipient startup and does not establish consumption or cross-thread delivery.
+
+Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1101-1140. Next cursor: line 1141. FIE review remains not due; last full review was October 27.
