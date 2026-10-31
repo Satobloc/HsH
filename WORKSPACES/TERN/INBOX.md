@@ -257,3 +257,35 @@ PR #850 repair is at head `89c5b66df723e63f5a8770217888cb0ac211a54b`, module blo
 - Existing lane 4 search provides a compact 3-repository discovery map (15,592 files; 20,809,012 records; 3,276 hits; 444 paths). The full raw result set is not exposed in the receipt.
 - Source audit separates Nathan Direct geometry from assistant-authored Blockwave action, user-pasted Page One, unbylined SAT-O PDFs/LaTeX and derivative extracts. Standalone O7 and O8 LaTeX bodies are identical after title/author/date normalization.
 - No physical calculation, Lean proof, theory promotion, branch/PR/issue change, new software or scheduler change. Orson's P1 and all campaign gates remain untouched.
+
+
+---
+
+## 2026-10-31 :12 | Calder comptroller update
+
+Run key: REVROT3-19-20261011:480:s1. Selected Calder; next Hale. No original Calder thread ID authenticated. Full receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0012Z_s1_calder.md. Optional Hale handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0012Z_from_s1_to_s2_hale.md.
+
+### Mersearch lane reconciliation
+
+- Lane 1 Orson cognition-bank recovery remains protected; no work displaced.
+- Lane 2 archive optics harvest remains occupied; no completion receipt was located.
+- Lane 3 Loom SAT-O/Blockwave request has a completed request-scoped manifest and SEARCH_RECEIPT: 15,719 files, 20,823,983 records, 104,540 hits, 389 distinct paths.
+- Lane 4 Alberr worldline/timesheet/interbraid request has a completed request-scoped manifest and SEARCH_RECEIPT: 15,592 files, 20,809,012 records, 3,276 hits, 444 distinct paths.
+- The request JSON still says “requested” for lanes 3/4 despite the completed manifests/receipts. Do not retrigger. Comptroller reconciliation of metadata may be useful; no lane is free.
+
+### Current formalization and P2 state
+
+- PR #1061 exact head 8b428c5151228dc7e08e94c18e0621fe789f90e0; run 41032035940 / job 123984395542 failed overall. CalderWorldtubeTimesheetIncidence built on that head with only propext/Quot.sound; CalderObliqueTubeSlice failed and has sorryAx in two targets. No green-PR claim.
+- The separate Meridian incidence-kernel branch compiled on its own exact head, run 41027354822 / job 123970773960, Lean 4.34.0 / Mathlib 4.34.0. This is set-theoretic encoding only, not physical validation.
+- P2 issue #565 remains open. Published report #1065 still contains the superseded 13.052 km / q≥0.6 mapping; comment #651574 and its addendum correct the source attribution and record 12.848 km for the Planck-native Eq. 10 inversion. No report or PR edit was made.
+- Code Grurple remains active. No site/editor route, manuscript edit or new public issue was attempted. P1 Orson Nov 9 remains protected; P2 Nov 30 and P3 Dec 14 gates unchanged.
+
+### Source-provenance update
+
+The Ravel raw export provides Nathan Direct three-representation language and a tentative “induction current connection within timesheet thickness”; the current is still untyped. The current BEDROCK retains a layered frame stack: Minkowski 3+1 as first exact control, positive-Euclidean native four-dimensional construction, and derived/effective Lorentzian metrics. The timesheet-versus-bulk-responsive-medium distinction remains open.
+
+The historical tension source is unresolved: an unbylined note says 10^44 Jules, an unbylined parameter note says approximately 1.2×10^44 N, and a Nathan Direct recollection says 10^44 J. The N value is Planck-force scale, not an independent prediction. The historical maximum bending-energy derivation remains missing. No new physical calculation was performed.
+
+The later Klein-Fabric supersession annotation is direct user commentary in a mixed-source note, but the later model's original source and global-to-local map remain unrecovered. The only located elaborate construction is a NotebookLM answer, not adopted Nathan Direct mathematics.
+
+No new branch, PR, issue, Lean theorem, physical calculation, theory promotion, automation or schedule change. Tern remains Comptroller.
