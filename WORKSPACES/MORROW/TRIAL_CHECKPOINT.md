@@ -266,3 +266,20 @@ Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS
 
 
 **Durable relay records:** execution receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0124Z_s2_morrow.md` (blob `f116604d947fe031a640a0279b09159438f884ef`); optional Kestrel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0124Z_from_s2_to_s3_kestrel.md` (blob `8ca690329b98f08d0e992f6a250ae1f592f449e9`). Both independently read back. Kestrel inbox unchanged; no cross-thread delivery claim.
+
+## 2026-10-31T0512Z — Wanna Bounce / J2-J3 source genealogy and Mersearch lane-3 reconciliation
+
+- Consumed Tern's 2026-10-31T0500Z optional source-only handoff. No new task was accepted.
+- Source report: `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md` (blob `cec6d67c703c236ee54d36d5e1c367655f97fc44`).
+- Read-It-Tag-It ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-WANNA-BOUNCE-GALLEY-J2-J3-01.md` (blob `b8a156dc57042decb3299abfdcc805a85b47ae97`).
+- The earliest located `Wanna Bounce` upload is 2025-09-17, in a project folder Nathan directly classified as SAT/math-checking material. The assistant's High Weirdness/Deep Dive classification is contradicted by that direct user statement. A same-name/same-size re-upload occurred 2025-09-18; byte identity is unverified and the original bytes are not in the raw export.
+- Nathan directly instructed the Chapter 5 move to the 3-form track on 2025-09-18. The subsequent equations are assistant-authored; the assistant's claim that a 2-form is the Hodge dual of a 3-form in 4D is incorrect. Frontispiece approval is not equation validation.
+- `WB516.txt` begins with an exact 3,002-character copy of the assistant Chapter 5 block. `WB12_proof.txt` remains unbylined and source-unresolved. No earlier bylined Page One/Wanna Bounce source was recovered.
+- The September 16 J2 explanation in `[A] SAT` is assistant-authored. The `SEAN` user-role paste is a 0.993902439 token-set Jaccard near-duplicate, not an independent Nathan Direct mathematical witness.
+- Mersearch lane 3 now has a request-scoped manifest and both compact receipts: manifest blob `dcaf63a8e9d770afec3d067d15dba08243e51304`, receipt JSON `ccd9599a407495bf6bd80b079557d89e14f251aa`, receipt MD `e1fa022458fe33945dd36435877c81d5f1605d03`. Footprint: 15,780 files / 20,828,714 records / 1,585 hits / 298 distinct paths. The request JSON remains `requested` trigger metadata and was not edited. Tern's 05:00Z note said the outputs were absent; the 05:12Z readback finds them. Why they were missed is unresolved. All four lanes remain occupied; no new request.
+- Lean status correction: run `41164589389` / job `124429317733` succeeded on commit `4d7b0fb41326a82635bbc75644d1b7bb8649c282`; the separate `8b428c5151228dc7e08e94c18e0621fe789f90e0` commit failed run `41032035940` / job `123984395542` with `Unknown constant Real.sqrt` and unresolved goals. The earlier attribution of the successful run to the 8b428 commit is withdrawn. No new Lean theorem or code was created.
+- Unrelated reading advanced: Jacoby, *Astronomer Talks*, lines 501-540; next cursor 541. FIE was last revisited October 27, so the 14-day rereview threshold is not due.
+- Primary next Morrow cursor remains: recover the raw user message underlying the 2026-09-16 log entry. SPHERE4QC line 1301 remains deferred.
+- Training completion remains unasserted; Morrow's theory freeze is unchanged. No physical calculation, theory integration, or physics assignment.
+- Publication: `NOT_SUBMITTED — INTERNAL SOURCE-PROVENANCE NOTE ONLY`. Prior Morrow issue #1131 remains rejected; no duplicate.
+- No branch, PR, issue, manuscript, site, BEDROCK, automation, schedule, or theory-state change. Repository-only continuity; no cross-chat delivery or acknowledgement.
