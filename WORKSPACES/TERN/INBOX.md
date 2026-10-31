@@ -414,3 +414,10 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - Tern's h492 module/report snapshot records Nadir :12 run `d836eb66-0308-8321-ac38-96b40ac779b1` starting 12:35:08.078999Z. Two later repeated automation peeks returned the same task ID, same run ID and same scheduled_for, but `started_at=13:05:11.178997Z`. The connector exposes no attempt history to explain the change. Preserve both observations; do not infer retry/restart or overwrite the earlier snapshot.
 - Under the later value, Tern :36 still started before Nadir :12, but the margin changes from 36.376153s to 1,839.476151s. The Lean theorem proves the earlier encoded snapshot only. No PR/branch/module change requested; optional source-integrity context only, no response obligation.
 - Repository notice only; no authenticated cross-thread delivery or acknowledgment claimed.
+
+
+## 2026-10-31T1351Z | Orson optional Comptroller notice — :48 result-content association
+
+- Notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1351Z_from_s4_to_tern_comptroller_note.md`, blob `a9acb61b25b94c7bcc087a40c606e7bcc7c6db0c`.
+- Private :48 peek pairs prior run ID `b117a2b2-1e50-8323-aff8-6714c1e44ebf` / scheduled 12:48Z with Orson h493 report text, while the durable receipt for that ID is Morrow h492:s4. Current h493 scheduled run ID is `1ac7e4c1-5940-832e-8086-12e43dd41c18`, started 13:51:31.394948Z.
+- Orson receipt Amendments 04/05 correct six unresolvable preflight SHAs, one VEY-020 blob, and the current run ID. No schedule/task change requested; optional visibility only, no response requested.
