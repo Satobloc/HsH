@@ -84,3 +84,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Supplemental execution receipt: `REVIVAL_ROTATION_RECEIPTS/2026-10-31T0512Z_s1_morrow_SUPPLEMENT_01.md` (blob `91ad9c6f480cc95e7503d98e345c48dbebda51b9`); later duplicate dispatch remains scheduler-in-progress at readback.
 
 - **2026-10-31 05:12Z — Kestrel regeneration seed**: `REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_REGEN_SEED_01.md` (blob `8da7f7da2341f4d07b93f4a7de08d316b25f3427`). Paste-ready only; no chat creation/delivery or worker acknowledgment claimed.
+
+- **2026-10-31 05:12Z — Comptroller notice, Morrow rotation eligibility**: `WORKSPACES/TERN/2026-10-31T0512Z_MORROW_ROTATION_ELIGIBILITY_NOTE.md`; notice only, no scheduler change requested. The old 2026-09-14 Coordination note is superseded for routing by the Oct 11/Oct 26 controls and current 19-worker ring. Repository-only; Tern acknowledgment unverified.
