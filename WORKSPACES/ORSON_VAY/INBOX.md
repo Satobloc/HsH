@@ -263,3 +263,11 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - P1 issue #564 comment `6544004804` links the publication. P1 remains SOURCE / EXPERIMENT READINESS. Original OV-49-OV-53 answer-keyed bank remains UNRECOVERED; no authorized model endpoint; no new trial or human subjects.
 - Recommendation only: if bank and authorized inference route remain unavailable at Nov 2 freeze, freeze Nov 9 P1 as methods/archival synthesis, not an administered experiment.
 - No manuscript, paper gate, PR, branch, task graph, or BEDROCK theory status changed.
+
+
+## 2026-10-31T1348Z | PR #850 finite-pattern verification clarification
+
+- Current PR #850 head `d59a17b270df730e84edbd614eaea3b1b76166e2` imports `OrsonFinitePatternDistribution.lean` and `OrsonKishEffectiveSampleSize.lean`.
+- Exact-head CI #41160835210, job #124417786006, Lean 4.34.0, 8,943 targets, SUCCESS; no `sorryAx` in the retrieved log. `lake test`, `lake lint`, nanoda, and automated axiom audit skipped.
+- The finite-pattern module proves normalization and observational non-injectivity between two specified latent labels under its encoded model. It does not show which mechanism generated real LLM outputs. New VEY-020 evidence-lifecycle propositions remain unformalized.
+- Public addendum comments recorded on publisher issue #1152 (comment #6544041447) and P1 issue #564 (comment #6544042018).
