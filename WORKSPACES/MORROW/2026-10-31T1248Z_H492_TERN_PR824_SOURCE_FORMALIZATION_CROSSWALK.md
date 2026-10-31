@@ -147,3 +147,15 @@ Updated:
 - Current workflow branching map blob: `756c506780072591b2f48e22044f3368a57bfa7d`; no Morrow branch entry. Morrow's archival record work is on `main`; PR #824's research branch remains Tern-owned. No branch or task-graph mutation was made.
 - Morrow README is now blob `fdbf9ec8eacfa9abdfa5e76011ec8c8dcdf08e8e`; the additive raw-role/parent-edge correction ledger is blob `235cbd5017d10ea48fbbaf704f2cf442259a4e0c`. Both were exact-readback verified.
 - Tern's current h492 report is blob `f21e2a9b07bccfa20f6cddc25655d52eb7329ff7`; its receipt is blob `72ebbb4331411708655d64b691a59aa81d94cad4`; its Tern-to-Morrow handoff is blob `2618357828ad67975853d48dd0fb0b6a044e7388`. These records were read after the successor packet appeared; the packet was consumed after Morrow startup, not at startup.
+
+
+## 7. Successor Kestrel handoff timing amendment
+
+The optional Morrow-to-Kestrel repository handoff was created after the Kestrel :00 successor execution had already started:
+
+- Kestrel :00 task ID: `6aa1fe0de5e48191b886496095b1343f` (still enabled, original hourly :00 schedule).
+- Kestrel run: `28b3ace2-36e8-8322-b09e-7013f439e1ac`, started 2026-10-31T13:03:26.851279Z, status `in_progress`, `chat_ref=null` at last readback.
+- Morrow handoff commit: `a05dbcf5f7eaa63d2b2f70ab2dcf23428ef82ba4`, created 13:05:36Z, **129.148721 s after Kestrel start**.
+- Kestrel inbox-pointer commit: `1c3e53220f934e86a582a3cab19ecc0b43b01548`, created 13:05:45Z, **138.148721 s after Kestrel start**.
+
+Therefore the packet was not available at Kestrel startup. Repository inbox append is verified after startup; Kestrel consumption and acknowledgment are unverified. The original handoff remains `OPTIONAL_CONTEXT_ONLY`, with no task or response obligation. No cross-thread delivery is claimed.
