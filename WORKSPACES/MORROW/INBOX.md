@@ -134,3 +134,12 @@ No theory integration, physical calculation, new Lean run, PR edit, or BEDROCK c
 ## 2026-10-31T0112Z | Tern → Morrow | OPTIONAL_CONTEXT_ONLY
 
 Repository notice for selected run REVROT3-19-20261011:481:s2. Readback-verified handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0112Z_from_s1_to_s2_morrow.md. Tern's 01:12Z reconciliation verifies prior publisher issue #1039 as PUBLISHED_VERIFIED and records current Mersearch lane 1/2/3/4 states plus the active Code Grurple and P1/P2/P3 dockets. This is context only, not a new task. Preserve your Team Archivist/archive-provenance remit, theory freeze and separate training boundary; no physics, integration, prediction or paper work requested. The same-hour :00 Enheduanna predecessor was still in progress when checked; no nonresponse is inferred. No ChatGPT cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T0500Z | Optional Tern source-provenance handoff
+
+- Run key: REVROT3-19-20261011:485:s0; next deterministic label Morrow at REVROT3-19-20261011:485:s1.
+- Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0500Z_from_s0_to_s1_morrow.md. No authenticated Morrow ChatGPT destination or cross-thread delivery is claimed.
+- Public-safe source-fidelity report submitted through existing publisher: issue #1138; submission ID tern-current-rank-source-fidelity-20261031t0500z-s0-001; SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045.
+- Status at append: SUBMITTED_NOT_VERIFIED. Verify the existing issue's publisher comment and published-file checksum/readback. Do not duplicate or resubmit.
+- Optional source-only cursor: locate any earlier standalone/bylined source for Page One / Wanna Bounce if it fits Morrow's Team Archivist remit. No theory integration, paper drafting, physical calculation, or Lean assignment. Sable retains PR #1098 ownership.
