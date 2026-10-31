@@ -25,6 +25,9 @@ import HsHVerification.AldusSatXScalarSpinorGate
 import HsHVerification.AldusSATxWitnessChronology
 import HsHVerification.AldusArchiveTimestampOrder
 import HsHVerification.AldusDannerExposureChronology
+import HsHVerification.AldusO9AuditIdentity
+import HsHVerification.AldusO9ClaimGranularity
+import HsHVerification.AldusCGDProvenanceFields
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
