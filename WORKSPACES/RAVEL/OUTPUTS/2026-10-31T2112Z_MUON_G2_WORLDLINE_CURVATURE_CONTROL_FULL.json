@@ -1,0 +1,155 @@
+{
+  "Ce_inferred_beam_offsets": {
+    "Run4_5_6_combined": {
+      "Ce_ppb": 347.0,
+      "rms_effective_horizontal_offset_mm": 9.549931817943326,
+      "rms_fractional_momentum_offset": 0.0011977698511818683,
+      "rms_p_MeV_c": 3.7058999195567,
+      "u_Ce_ppb": 27.0,
+      "u_rms_effective_horizontal_offset_mm_Ce_only": 0.3715391341274782,
+      "u_rms_fractional_offset_Ce_only": 4.6599115247709575e-05,
+      "u_rms_p_MeV_c_Ce_only": 0.1441776625764134
+    },
+    "noRF": {
+      "Ce_ppb": 382.1,
+      "rms_effective_horizontal_offset_mm": 10.021299744233062,
+      "rms_fractional_momentum_offset": 0.0012568896754578025,
+      "rms_p_MeV_c": 3.888816655866441,
+      "u_Ce_ppb": 26.8,
+      "u_rms_effective_horizontal_offset_mm_Ce_only": 0.35144050398514265,
+      "u_rms_fractional_offset_Ce_only": 4.4078308430082574e-05,
+      "u_rms_p_MeV_c_Ce_only": 0.13637828628267548
+    },
+    "xRF": {
+      "Ce_ppb": 317.6,
+      "rms_effective_horizontal_offset_mm": 9.136414206249633,
+      "rms_fractional_momentum_offset": 0.0011459057187815905,
+      "rms_p_MeV_c": 3.5454322939102405,
+      "u_Ce_ppb": 25.5,
+      "u_rms_effective_horizontal_offset_mm_Ce_only": 0.36677985242343447,
+      "u_rms_fractional_offset_Ce_only": 4.60021974636816e-05,
+      "u_rms_p_MeV_c_Ce_only": 0.14233079895263087
+    },
+    "xyRF5": {
+      "Ce_ppb": 329.5,
+      "rms_effective_horizontal_offset_mm": 9.306004174301904,
+      "rms_fractional_momentum_offset": 0.0011671760016137935,
+      "rms_p_MeV_c": 3.611242548993077,
+      "u_Ce_ppb": 28.3,
+      "u_rms_effective_horizontal_offset_mm_Ce_only": 0.3996356876065916,
+      "u_rms_fractional_offset_Ce_only": 5.012303618462877e-05,
+      "u_rms_p_MeV_c_Ce_only": 0.15508067395524136
+    },
+    "xyRF6": {
+      "Ce_ppb": 326.6,
+      "rms_effective_horizontal_offset_mm": 9.264961601678127,
+      "rms_fractional_momentum_offset": 0.0011620283673645796,
+      "rms_p_MeV_c": 3.5953157686260093,
+      "u_Ce_ppb": 25.2,
+      "u_rms_effective_horizontal_offset_mm_Ce_only": 0.3574357507077293,
+      "u_rms_fractional_offset_Ce_only": 4.483024319900092e-05,
+      "u_rms_p_MeV_c_Ce_only": 0.13870477245770885
+    }
+  },
+  "RF_comparison": {
+    "Ce_reduction_percent": 16.880397801622614,
+    "field_change_xRF_vs_noRF_ppm": 0.3058701829594668,
+    "sigma_p_reduction_percent": 8.830047604280622,
+    "sigma_p_xRF_over_noRF": 0.9116995239571938
+  },
+  "classification": {
+    "data_status": "published summary values, not raw shot-level events",
+    "fit_status": "no fit; no independent prediction",
+    "frame": "Minkowski reference-orbit control, w = c t",
+    "not_claimed": [
+      "SAT prediction",
+      "native HsH ++++ curvature",
+      "finite-core worldtube validation",
+      "responsive-medium validation",
+      "elastic modulus, filament tension, or spring constant"
+    ],
+    "system": "Fermilab E989 positive-muon storage ring"
+  },
+  "inputs": {
+    "R0_m_nominal": 7.112,
+    "beta_derived": 0.9994174123293735,
+    "field_index_n_approx": 0.108,
+    "gamma_magic_nominal": 29.3,
+    "gamma_p_shielded_Hz_T": 42576385.43,
+    "muon_mass_kg_CODATA2022": 1.883531627e-28,
+    "muon_mass_u_kg_CODATA2022": 4.2e-36,
+    "p0_GeV_c_nominal": 3.094,
+    "u_gamma_p_shielded_Hz_T": 0.17
+  },
+  "measured_field_datasets": {
+    "noRF": {
+      "B_T": 1.4512955803068508,
+      "F_qvB_N": 6.96680862788033e-11,
+      "f_p_Hz": 61790920.0,
+      "u_B_T_table_plus_CODATA": 8.240918126226826e-08,
+      "u_B_relative_ppb": 56.78318213085463,
+      "u_F_field_only_N": 3.955975631877382e-18,
+      "u_f_p_Hz_table": 3.5
+    },
+    "xRF": {
+      "B_T": 1.4512960242148953,
+      "F_qvB_N": 6.96681075881936e-11,
+      "f_p_Hz": 61790938.9,
+      "u_B_T_table_plus_CODATA": 8.240918138690142e-08,
+      "u_B_relative_ppb": 56.78316484845478,
+      "u_F_field_only_N": 3.95597563786028e-18,
+      "u_f_p_Hz_table": 3.5
+    },
+    "xyRF5": {
+      "B_T": 1.451295366573348,
+      "F_qvB_N": 6.96680760187265e-11,
+      "f_p_Hz": 61790910.9,
+      "u_B_T_table_plus_CODATA": 8.240918120225972e-08,
+      "u_B_relative_ppb": 56.78319045201388,
+      "u_F_field_only_N": 3.955975628996728e-18,
+      "u_f_p_Hz_table": 3.5
+    },
+    "xyRF6": {
+      "B_T": 1.4512951951168016,
+      "F_qvB_N": 6.966806778811544e-11,
+      "f_p_Hz": 61790903.6,
+      "u_B_T_table_plus_CODATA": 8.2409181154121e-08,
+      "u_B_relative_ppb": 56.78319712723133,
+      "u_F_field_only_N": 3.955975626685874e-18,
+      "u_f_p_Hz_table": 3.5
+    }
+  },
+  "noRF_reference_orbit": {
+    "B_from_p0_R0_T": 1.45113513855889,
+    "F_from_pv_over_R_N": 6.966038442282624e-11,
+    "F_from_qvB_N": 6.96680862788033e-11,
+    "F_residual_ppm": 110.5507038939082,
+    "Minkowski_proper_curvature_radius_mm": 8.293974273752465,
+    "Minkowski_proper_worldline_curvature_m_inv": 120.56946006749155,
+    "R_from_p0_B_m": 7.111213763393907,
+    "R_reference_m": 7.112,
+    "R_residual_mm": -0.7862366060926718,
+    "R_residual_ppm": -110.55070389379524,
+    "curvature_ratio_gamma_squared": 858.49,
+    "cyclotron_frequency_Hz": 6704957.019649702,
+    "kappa_M_from_force_m_inv": 120.58330375067726,
+    "kappa_w_from_force_m_inv": 0.14045976511162306,
+    "lab_acceleration_m_s2": 1.2622444831408632e+16,
+    "proper_acceleration_m_s2": 1.0836242663315997e+19,
+    "proper_force_N": 2.0412749279689368e-09,
+    "spatial_path_curvature_m_inv": 0.140607424071991,
+    "u_F_field_only_N": 3.955975631877382e-18,
+    "w_ct_coordinate_curvature_m_inv": 0.1404436394920052
+  },
+  "uncertainty_limits": {
+    "Ce_uncertainty_note": "Only quoted Ce uncertainty propagated; n uncertainty and full covariance not supplied.",
+    "field_uncertainty_note": "Table XXVIII's 3.5 Hz on 61.790920 MHz implies about 56.8 ppb; report prose states 48-51 ppb. Not reconciled; table-derived value retained conservatively.",
+    "interpretation_note": "RMS momentum offset is inferred from the published Ce formula, not a raw momentum standard deviation. Effective horizontal offset is likewise model-derived.",
+    "orbit_uncertainty_note": "p0, R0 and gamma are nominal/reference values; no full covariance propagated.",
+    "report_text_field_uncertainty_ppb_range": [
+      48.0,
+      51.0
+    ],
+    "table_noRF_frequency_uncertainty_implied_ppb": 56.78318213085463
+  }
+}
