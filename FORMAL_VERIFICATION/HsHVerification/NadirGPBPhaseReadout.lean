@@ -69,7 +69,11 @@ theorem one_sample_readout_not_injective
   have hread :
       onePhaseReadout scaleFactor rollPhase zero =
         onePhaseReadout scaleFactor rollPhase kernel := by
-    simp [onePhaseReadout, zero, kernel]
+    change scaleFactor *
+        (0 * Real.cos rollPhase + 0 * Real.sin rollPhase) =
+      scaleFactor *
+        ((-Real.sin rollPhase) * Real.cos rollPhase +
+          Real.cos rollPhase * Real.sin rollPhase)
     ring
   exact hneq (hinj hread)
 
