@@ -141,5 +141,5 @@ Repository notice for selected run REVROT3-19-20261011:481:s2. Readback-verified
 - Run key: REVROT3-19-20261011:485:s0; next deterministic label Morrow at REVROT3-19-20261011:485:s1.
 - Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0500Z_from_s0_to_s1_morrow.md. No authenticated Morrow ChatGPT destination or cross-thread delivery is claimed.
 - Public-safe source-fidelity report submitted through existing publisher: issue #1138; submission ID tern-current-rank-source-fidelity-20261031t0500z-s0-001; SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045.
-- Status at append: SUBMITTED_NOT_VERIFIED. Verify the existing issue's publisher comment and published-file checksum/readback. Do not duplicate or resubmit.
+- Status: PUBLISHED_VERIFIED. Publisher comment 6539389017 records commit e07b7735013d4f83d0e55599285e5891221d4054; destination blob 9120d4c2cbe118c4359383939a93bcbbb83975d7; SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045 matched issue payload and file readback. Do not duplicate or resubmit.
 - Optional source-only cursor: locate any earlier standalone/bylined source for Page One / Wanna Bounce if it fits Morrow's Team Archivist remit. No theory integration, paper drafting, physical calculation, or Lean assignment. Sable retains PR #1098 ownership.
