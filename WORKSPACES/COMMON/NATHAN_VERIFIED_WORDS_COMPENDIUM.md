@@ -2945,3 +2945,130 @@ Full additive correction record: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-M
 - Source: same raw conversation; message 357da9ad-f0ac-44eb-b4b8-36fb4afe8b7b.
 - Tags: NATHAN_USER_ROLE_MIXED, KERR-RING, ROTATION-GEOMETRY, QUOTE-BOUNDARY-UNRESOLVED.
 - Attribution: user-role mixed text. The first paragraph reads as a quoted/reused formulation and the following reply is incomplete; retain for later segmentation, do not promote the paragraph as a standalone direct proposition.
+
+
+---
+
+## Excavation batch 2026-10-31 | 3-form / 2-form manuscript genealogy
+
+**Primary raw source:** conversation "The Tourist Tailor", ID 68cad3d4-0ccc-8325-be36-94c5b5527997, raw JSON Git blob SHA1 dd2b6141af86dea54e4ba2e782214128619ce78c.  
+**Earlier related artifact:** 2025-09-16 conversation "🧶🧱SAT", ID 68c990dd-df28-832e-b766-c267190aaffa. Its uploaded Blockwave artifact is separately classified as user-supplied / authorship unresolved, not Nathan Direct.  
+**Tagging rule:** assistant equations and assistant chapter prose remain assistant-origin. User decisions, corrections, questions and editorial instructions are recorded as Nathan Direct. Exact duplicate messages are retained as recurrences, not independent corroboration.
+
+### 2025-09-18T14:29:31.289575Z | 98bb20e8-9c85-4b62-973b-bbc00911be62
+
+Tags: NATHAN-DIRECT; CHAPTER5-QUANTIZATION-CRITIQUE; DIMENSIONAL-CONSISTENCY; COUPLING-REVIEW.
+
+> Quantization of charge is not justified by simply writing down a topological term. You need to show that the integral of the current over a closed surface is quantized. Also, the term you wrote down is not dimensionless. You have a factor of theta times J squared, but theta is dimensionless and J has dimensions of inverse length squared. So you need a coupling constant with dimensions of length to the fourth power. The topological term should be proportional to the integral of the current over a closed surface, not the square of the current. If you want to keep the quadratic term, it should be treated as a kinetic term for the current, not a topological term.
+
+### 2025-09-18T14:42:25.644390Z | 71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0
+
+Tags: NATHAN-DIRECT; 2FORM-3FORM-INDEX-MISMATCH; CURRENT-RANK-CLARIFICATION; ALTERNATIVE-COUPLING-PROPOSAL.
+
+> You wrote \tilde J^\mu = \frac{1}{2}\epsilon^{\mu\nu\rho\sigma}J_{\nu\rho\sigma}, but earlier J was a 2-form. If J is fundamentally a 3-form current, then \tilde J is its dual. If you want to stay with the 2-form, write the topological term directly as \theta \epsilon^{\mu\nu\rho\sigma}\partial_\mu J_{\nu\rho}. The point is that the current has to be the same object throughout the chapter.
+
+### 2025-09-18T14:47:38.889742Z | d6d42938-f937-4ac6-973b-e5a3c468151b
+
+Tags: NATHAN-DIRECT; EXACT-TEXT-RECURRENCE; 2FORM-3FORM-INDEX-MISMATCH; NOT-INDEPENDENT-CORROBORATION.
+
+> You wrote \tilde J^\mu = \frac{1}{2}\epsilon^{\mu\nu\rho\sigma}J_{\nu\rho\sigma}, but earlier J was a 2-form. If J is fundamentally a 3-form current, then \tilde J is its dual. If you want to stay with the 2-form, write the topological term directly as \theta \epsilon^{\mu\nu\rho\sigma}\partial_\mu J_{\nu\rho}. The point is that the current has to be the same object throughout the chapter.
+
+### 2025-09-18T15:00:22.113467Z | 5fa30a76-66ff-41d6-b667-77d8aae5aeef
+
+Tags: NATHAN-DIRECT; EQUIVALENCE-CHALLENGE; UNRESOLVED-QUESTION.
+
+> Are they really entirely equivalent? This is kind of the fulcrum of the whole thing, right? So… that little note isn’t hiding some jiggery-pokery v
+
+The trailing "v" is preserved exactly. The message is incomplete; it is not treated as a completed proposition.
+
+### 2025-09-18T15:03:16.275939Z | c1fefb88-da82-455c-8834-5e35a72d9d8b
+
+Tags: NATHAN-DIRECT; 4D-SCOPE; DIMENSIONAL-CONSISTENCY.
+
+> What if someone says that the theory should be a 4D theory? Why are we dipping into 3D?
+
+### 2025-09-18T15:06:21.765072Z | a9bee95a-5549-4a09-9979-5e0602223f45
+
+Tags: NATHAN-DIRECT; 4D-FROM-GROUND-UP; MODEL-CONSISTENCY; ANTI-SHORTCUT.
+
+> SAT is by its nature four dimensional from the ground up. My thinking is that if you're dropping into three dimensions here and there just to make it easier or cleaner-looking, you're taking shortcuts. I'm not saying you can't do it. But if you're going to do it, it needs to be done very carefully and with a good reason. Otherwise, it could lead to inconsistencies or misunderstandings.
+
+### 2025-09-18T15:08:14.620497Z | 5730114b-8327-4856-b4ec-3c3f98a7a551
+
+Tags: NATHAN-DIRECT; 3FORM-PREFERENCE-QUESTION; CHAPTER-FOUNDATION-CHOICE.
+
+> Why adopt the 2-form? Shouldn't the whole book be in 3-form?
+
+### 2025-09-18T15:10:27.444462Z | f5f025e1-3b48-479f-8a94-b59db3b88312
+
+Tags: NATHAN-DIRECT; 3FORM-INSIGHT-QUESTION; FUNDAMENTAL-STRUCTURE-UNCERTAINTY.
+
+> Does dropping out of the 3-form risk obscuring potential insights of the fundamental 3-form?
+
+### 2025-09-18T15:19:27.048539Z | e92efb17-2499-482e-b930-9ad11221bd7c
+
+Tags: NATHAN-DIRECT; 3FORM-EDITORIAL-DECISION; CHAPTER-1-REWIND; CHAPTER-STRUCTURE.
+
+> So. We're going to have to rewrite ch 1-5, all in the 3-form or we're going to have to say we've reached the end of the 2-form utility and probably obscured some insights. Either way, chapter 1 is the first needle-threader, chapter 5 exposes the issue, and then the next chapter is also chapter 1, but now it gets the reader onto the right track. Then chapter 6 continues from there. Am I doing alright for a guy who never took calculus?
+
+### 2025-09-18T15:35:04.906098Z | b85bff55-f8dc-465f-ad82-796a87181620
+
+Tags: NATHAN-DIRECT; CHAPTER5-TRANSITION; DUPLICATE-FRONTISPIECE; APPENDIX-CHAPTERS-2-4; EDITORIAL-ARCHITECTURE.
+
+> Here's the deal. We need to write a note that says we have come to the end of the 2-form's utility. The next chapter will start over with chapter 1, but this time in the 3-form. We should make the frontispiece the same as the first one, but with the new 3-form notation. Then chapter 6 continues as planned. The updated chapters 2-4 will be in the appendix. We can make a note that the 3-form is the fundamental object and the 2-form is a useful approximation or projection, but we need to be careful not to imply they're exactly equivalent unless we can show the map.
+
+### 2025-09-18T15:38:12.346456Z | 3a60a178-15d5-413e-a671-2297b1d68252
+
+Tags: NATHAN-DIRECT; APPENDIX-FOOTNOTE; NO-BONUS-CHAPTER-PROMISE.
+
+> I love it. It does the job. But don't promise any bonus chapters. I want to be clear about that. We have a footnote or something that says the updated chapters 2-4 are in the appendix.
+
+### 2025-09-18T15:42:49.979981Z | 9dc27aac-b34d-46db-8bb1-be603ba3fb73
+
+Tags: NATHAN-DIRECT; TRAIN-TRACK-METAPHOR; 3FORM-EDITORIAL-CHOICE; NARRATIVE-NOT-PHYSICAL-MODEL.
+
+> At this point, we're not even on one of the two tracks. We're in a ditch between them. The train is still on the 2-form track, but we need to lift it bodily onto the proper track: the 3-form track. From here forward, the 3-form is the fundamental object, and the 2-form is just a useful way of looking at it when we need to talk about flux through surfaces. The frontispiece should make that transition clear, and the reader should understand that we're not changing the underlying theory, just the mathematical language.
+
+### 2025-09-18T15:45:17.370656Z | 4847aa08-b38c-4e87-8692-6f22e8c6ab69
+
+Tags: NATHAN-DIRECT; FRONTISPIECE-EDITORIAL-APPROVAL; NOT-MATHEMATICAL-VALIDATION.
+
+> Ok. Good. Frontispiece.
+
+### 2025-09-18T15:51:11.021513Z | 63a023c8-4cc5-43e4-9cc9-6724869cf8d6
+
+Tags: NATHAN-DIRECT; WORD-FOR-WORD-FIDELITY; MINIMAL-3FORM-SUBSTITUTION; AUTHOR-NOTE.
+
+> No, no story begins again. Just start over. We just reprint Chapter 1 word for word, with only the minimal wording differences necessary to accommodate the 3-form changes. Then add an author's note to myself about considering some additional annotations that might make the 4D geography more explicit, but don't do that yet.
+
+### 2025-09-18T15:53:32.515244Z | b6780984-52c3-40a6-93d7-a175b1f773fe
+
+Tags: NATHAN-DIRECT; DOCUMENT-PACKAGING; CHAPTER-ORDER.
+
+> This is the package order. No headers, no section labels, no page breaks, just the chapters in sequence. Chapter 1, Chapter 2, Chapter 3, Chapter 4, Chapter 5, Chapter 1, Chapter 6.
+
+### 2025-09-18T15:54:44.606111Z | 675d0d69-9c14-4548-9563-6036aefdaf3c
+
+Tags: NATHAN-DIRECT; EXACT-TEXT-RECURRENCE; DOCUMENT-PACKAGING; NOT-INDEPENDENT-CORROBORATION.
+
+> This is the package order. No headers, no section labels, no page breaks, just the chapters in sequence. Chapter 1, Chapter 2, Chapter 3, Chapter 4, Chapter 5, Chapter 1, Chapter 6.
+
+### 2025-09-18T15:59:57.806082Z | fac8b8c5-fea9-40b4-8e92-3988cdc68a20
+
+Tags: NATHAN-DIRECT-FRAMING; USER-ROLE-CROSSPOST; ASSISTANT-DRAFT-ORIGIN-BOUNDARY.
+
+> OK, double check that this is Word for Word the original chapter 1. I'm going to copy chapter one from the original chapter 1.
+
+The following pasted code block is an exact cross-post of assistant message 90ad63b2-9da2-481f-b2b0-69ebbe604735. It is not added here as Nathan-authored technical prose.
+
+### 2025-09-18T16:01:11.555093Z | 079078fc-efc4-4338-b5ca-43f6375876e9
+
+Tags: NATHAN-DIRECT; CORRECTS-ASSISTANT-MISUNDERSTANDING; MINIMAL-DIFF-REQUEST.
+
+> I know that the text I pasted was Chapter 1. What I'm asking is make sure your new chapter 1 is word for word this, with only the changes necessary to make it 3-form.
+
+### 2025-09-18T16:06:17.703081Z | bef9bf1c-a201-4d37-b64c-6acf54e1fae3
+
+Tags: NATHAN-DIRECT; EDITORIAL-ACCEPTANCE; APPENDIX-FOOTNOTE-REQUEST; NOT-MATHEMATICAL-VALIDATION.
+
+> OK, good now we need our footnote about the updated chapters 2 through four being in the appendix. Dry. Simple.
