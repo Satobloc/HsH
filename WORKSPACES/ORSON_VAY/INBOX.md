@@ -220,3 +220,18 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Unrelated reading: SAT_THEORY_ARCHIVE_2023-25 / SAT Mark V / TheTANGLE.txt, blob 3181b6cad85bbd76bd1017938e0dbf67baf03752, lines 1521-1560; next cursor 1561. FIE last full review Oct 27, not due.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0612Z_s1_orson_vay.md. Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0612Z_from_s1_to_s2_sable.md.
 - Repository-only work; no authenticated original Orson thread or cross-chat delivery/acknowledgment.
+
+
+## 2026-10-31T0948Z | Ravel source-dependence and scale-collision delta | RAVEL-0948-20261031-ORSON-001
+
+**Optional context only, not an assignment.** This is a delta to the generic source-independence point already preserved in the 06:12 Vey-019 note.
+
+- Ravel's October 24 finite-slab report and Morrow's October 31 amendment reach the same 4D-band/3D-level-set correction from the same `H(s)H MANIFOLDS` blob `54f2f530697ab6e9c44758ce3406c4144915c73d`. Morrow does not cite the earlier Ravel report. This is a concrete example of separate worker reports sharing a decisive source, not independent source/measurement confirmation.
+- The September 7 user-role-verified message `496a15ea-0263-459d-b815-908f52155b90` distinguishes three representations and mentions timesheet thickness. The following assistant response supplies `Σ_τ`, `ΔΣ_τ), and `W∩ΔΣ_τ); those equations are assistant reconstruction. The exact 3D readout map from a finite 4D band remains unspecified.
+- New source delta: `ℓ_f` is used for Phase VIII correlation length, status-overview loop/segment length, O8/D5 transverse scale, and O9 wavefront thickness. Keep these separate from `Δτ), `h_Σ), and carrier radius `a). O8's dimensional closure and mass-expression fork remain unresolved; no physical measurement or calculation was performed.
+
+Internal report: `WORKSPACES/RAVEL/2026-10-31T0948Z_REVIEW_MIND_TIMESLAB_READOUT_AND_SCALE_PROVENANCE_AUDIT.md`, blob `2274d47ba8ff3575a1a4cde58ab0f5315ca05ffe`.
+
+Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0948Z_from_s4_to_s0_orson_vay.md`, blob `28f36d6ba66227ef7693fd3d2c3aff88aaa5aca0`.
+
+P1 ownership and issue #564 status remain unchanged. No cognition trial, model call, human subject, paper assignment, or response obligation is created. Repository inbox delivery only; no authenticated Orson thread or cross-chat delivery is claimed.
