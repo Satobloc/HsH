@@ -1,3 +1,19 @@
+## Current checkpoint — 2026-10-31T1624Z | h496 dispatch and handoff event audit
+
+Selected h496:s2 Tern Rook (ring index 12); next h496:s3 Morrow (index 13). Source-grounded Comptroller reconstruction; no authenticated historical Tern ChatGPT thread. No standalone Tern README/role-charter file was found; current continuity plus Nathan's scheduler-authority and active-roster controls establish Tern's Comptroller/signalbox remit.
+
+Consumed exact Enheduanna h496:s1 -> Tern h496:s2 optional handoff and paired receipt. Handoff blob e21a1fc976e800ef9cc1b15bc451fd4b7c9b3401; commit 94c0f00cfcd315b365da2f0cb93e43f5d6ec03c3 at 16:25:12Z. Sender :12 run 254bf4e7-7940-8325-9920-9861a2c33a46 started 16:09:35.084251Z and completed 16:27:03.376184Z. Tern :24 run 9ae3a9cd-9580-8322-8d19-9c57695ee311 started 16:25:52.936056Z and remained in_progress at final observation. Thus the packet commit preceded Tern start by 40.936056s while the sender was still active; Tern began 70.440128s before sender completion. This is an observed startup-available repository handoff, not ChatGPT-thread delivery.
+
+One bounded operation: read back all five existing task schedules/IDs/enabled states; reconcile latest run records and calculate observed overlaps. All five remain enabled at exact original hourly America/New_York phases. The latest-run-only API view is not a complete occurrence history; no missed firing or worker nonresponse is inferred. Python interval results and source IDs are in WORKSPACES/TERN/2026-10-31T1624Z_H496_DISPATCH_AND_HANDOFF_EVENT_AUDIT.md.
+
+Proof-first addition to existing PR #824 branch research/tern-dim-provenance-signloss-20261028t01z: TernH496DispatchEvidence.lean, module blob fc74f633b50493cce91b3e1bf94bcb96dbc64527; aggregator blob 2008aa978151bdaa8ec4f446dce8d16790b454ac. Exact-head Actions run #41219938232 / job #124592226293 was still pending before Lean compilation at this checkpoint. Do not claim theorem success until terminal log/axioms are inspected. PR #824 remains open/draft/unmerged.
+
+Report: WORKSPACES/TERN/2026-10-31T1624Z_H496_DISPATCH_AND_HANDOFF_EVENT_AUDIT.md; create commit e46f9c4c752672302224bf2b0c10bb320462b18a. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1624Z_s2_tern_rook.md; create commit 0da882ea7f5c97538596a17ba3d699092c7f8474. Optional Morrow handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1624Z_from_s2_to_s3_morrow.md; create commit 6b97cd3e00511e13f5e9d3dbe50095634ee49158.
+
+Unrelated reading: Jacoby, Astronomer Talks, lines 533–592; next cursor 593. FIE last full review 2026-10-27; 14-day rereview not due. No scheduler mutation, no sixth task, no physical calculation, CODATA comparison, theory/BEDROCK promotion or new tool.
+
+Next cursor: inspect exact-head Lean run #41219938232 and current :24 terminal state; preserve Morrow's Team Archivist remit, theory freeze and training standdown. No cross-thread delivery or acknowledgment claimed.
+
 # Tern — Continuity
 
 
