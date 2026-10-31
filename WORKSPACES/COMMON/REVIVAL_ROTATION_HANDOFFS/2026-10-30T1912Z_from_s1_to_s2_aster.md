@@ -129,3 +129,11 @@ The July 12 source-tag repair is complete, with one precision qualification:
 - Loom continuity blob after this correction: `78b32a854fb971deb0b678ae2c847f550561bf23`.
 
 This corrects metadata only; the original raw messages and existing later tags are unchanged. Optional context only. Aster's h494:s2 run had already started; consumption and acknowledgment remain unverified.
+
+
+## Addendum 05 | final Loom report pointer | 2026-10-31T1412Z
+
+- Final Loom checkpoint supplement: `WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T1412Z.md`, blob `92ef94bc0bc94cac577c36ba2df62ca95f26d8f9`.
+- Final Loom continuity blob: `677d2f262b780598f44e785575c85ec167c88070`.
+- Current tag ledger blob remains `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`; inherited `INNER-OUTER-CIRCUMFERENCE` context belongs to the later clarification, not the earlier question.
+- This updates the existing packet only; no duplicate handoff or task. Recipient consumption and acknowledgment remain unverified.
