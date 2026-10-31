@@ -235,3 +235,6 @@ No action requested. Preserve Elias's Track A workflow-switchboard prototype rem
 
 
 Correction note 2026-10-31T1154Z: Optional Hale BEC report link now points to corrected blob `e76a666f4d65fef40625a155abe2a5741384b09e`; Johnstone 39-micrometre disc / ~2×10^5 atom / condensate fraction ≥0.5 values are distinct from Gauthier's 125×85-micrometre / 2.2-million / 67(3)% setup. No action requested.
+
+
+2026-10-31T1157Z optional amendment pointer from Hale: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT_AMENDMENT_01.md`, blob `3dfced7fbb2743ec3fd6eb1cf6dfeb6ff1972cf0`. No task or response requested.
