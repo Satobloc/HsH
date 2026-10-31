@@ -148,3 +148,16 @@ Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the origin
 
 ### Receipt amendment 01 | 2026-10-31T2112Z
 The E989 report now records the independent horizontal MiniSciFi direct-beam cross-check of Ce, agreeing with Fast-Rotation and positron-tracking methods within 13 ppb. MiniSciFi is a cross-check, not part of the combined correction. Updated report blob: bb478a4d9d4fc58171dacb75d2afd22f0d4912c1. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_01.md. No calculation result or project status changed.
+
+
+## 2026-10-31 22:15Z — exact-head coupling audit CI and scheduler reconciliation
+
+Addendum: `WORKSPACES/RAVEL/2026-10-31T2215Z_RAVEL_EXACT_HEAD_CI_AND_SCHEDULER_MERSEARCH_ADDENDUM.md`, blob `28b28b1bad119349335151af37cf41cd29a6b398`.
+
+The conditional coupling-scale module in existing PR #1133 now has an exact-PR-head library compilation success at corrected head `c606afa2d8405319f86a4a4d6bbb6e98e9e8e946` (run #41246994835, job #124672375521). The earlier merge-ref build failed before the right-hand division lemma correction; a separate push-event run on the corrected head failed with no jobs/diagnostic. The module's five conditional theorems compile, but theorem-specific axiom outputs were not retrieved; retain `COMPILED_WITH_ASSUMPTIONS`, not an unrestricted proof/physical claim. PR remains draft/unmerged and stacked on the infrastructure base.
+
+Mersearch lane 1 and lane 3 now have request-scoped manifests and compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. Do not overwrite or retrigger. Lane 3's request JSON still says `requested`; its manifest/receipt are the execution evidence.
+
+The h501 scheduler run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` has conflicting `started_at` snapshots (21:42:31Z in its report; 22:12:17.759535Z in later scheduler readback) for the same `scheduled_for=21:12Z`. Preserve both; no attempt ID or root cause is available. Tern notice packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
+
+No new physical calculation, Lean theorem, PR, branch, issue, paper, BEDROCK change, or theory promotion. Orson cognition / P1 remains protected; no physics handoff. Next cursor remains the source-defined geometry-to-current / physical response map, requiring recovered Nathan Direct or explicit specific permission before any data-free derivation.
