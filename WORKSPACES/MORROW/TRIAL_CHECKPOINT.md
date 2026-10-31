@@ -410,3 +410,12 @@ Public-safe additive source correction submitted through the existing issue publ
 Incoming Tern h496:s2 packet was consumed as optional context; it was committed before this run began and creates no task. No Kestrel handoff was created because this source-provenance result does not require Kestrel action and the Kestrel inbox already contains prior Morrow context. No cross-thread delivery or acknowledgment is claimed.
 
 Unrelated reading: Jacoby, Practical Talks by an Astronomer, lines 621–660. Next cursor line 661. FIE last full review 2026-10-27; not due. Next source cursor: retain the September 16 normal-reference/inverse-pitch event as unresolved; continue only if a specific raw locator appears or a Mersearch lane is formally released. SPHERE4QC.txt line 1301 remains deferred.
+
+
+## 2026-10-31T1657Z | Publisher checksum correction
+
+Issue #1158 was REJECTED: SHA-256 mismatch. Its Actions run #41221915173 concluded as a completed workflow, but validation rejected the payload and no published artifact exists. The issue body content exactly matched the staged public-draft file; the digest had been computed from a different 5,171-character / 5,196-byte draft, while the actual staged content is 5,169 characters / 5,194 bytes.
+
+The exact staged UTF-8 content was re-read and hashed. Correct SHA-256: 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Corrected retry: issue #1159, same submission ID morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001, unchanged content, corrected digest. Reusing the submission ID is safe because #1158 produced no artifact and the content bytes are unchanged. Issue #1158 correction comment: 6546394509.
+
+Corrected publisher Actions run #41222107053 was IN_PROGRESS at this update, still at checkout. Status remains SUBMITTED_NOT_VERIFIED. Expected path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001.md. Do not create another issue; verify #1159 and its existing run/readback.
