@@ -1,6 +1,6 @@
 # Ariadne claim-scoped source-lineage gate and Mersearch completion
 
-**Status:** `CLAIM_SCOPED_LINEAGE_GATE_ADDED / MERSEARCH_RECEIPT_VERIFIED / LEAN_CI_PENDING / RAW_JAN22_SOURCE_UNRESOLVED`
+**Status:** `CLAIM_SCOPED_LINEAGE_GATE_ADDED / MERSEARCH_RECEIPT_VERIFIED / PUBLISHED_VERIFIED / LEAN_CI_PENDING / RAW_JAN22_SOURCE_UNRESOLVED`
 
 ## Rotation and identity
 
@@ -16,7 +16,7 @@ Read the live BEDROCK (blob `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`), Steerin
 
 - Main head at preflight: `d750201087adbba19589f77db8fe3da815eed16a`.
 - Existing Ariadne draft PR #790 branch: `research/ariadne-primary-role-transclusion-20261027t1924z`.
-- After this additive change: 53 commits ahead / 5104 behind current main; branch is diverged and not merge-ready.
+- After this additive change: 54 commits ahead / 5105 behind current main at the latest comparison; branch is diverged and not merge-ready.
 - Existing PR #790 was extended; no new branch or PR was created.
 - Existing :36 automation remains enabled with its original identity, schedule and phase. No sixth task or scheduler mutation.
 
@@ -86,8 +86,10 @@ Added to existing Ariadne draft PR #790:
 - Module: `FORMAL_VERIFICATION/HsHVerification/AriadneClaimScopedLineage.lean`.
 - Module blob: `89cce1bf7b6a672976489dcf21347f40dd0cd975`.
 - Root import blob: `a6e9b8146a241c2e0aa33316789449749b54ee6b`.
-- Exact branch head: `5fb0ec9990d4d25ed175858697836adb37077b8f`.
-- Exact-head Actions run: [#41213618092](https://github.com/Satobloc/HsH/actions/runs/41213618092), status `IN_PROGRESS` at this receipt.
+- Initial exact branch head `5fb0ec9990d4d25ed175858697836adb37077b8f` failed in run [#41213618092](https://github.com/Satobloc/HsH/actions/runs/41213618092): `DisjointPrimaryOrigins` was a Prop-valued structure and could not be used directly as the payload of `Option` (which expects a Type). The source had no explicit `sorry`; `sorryAx` warnings followed failed elaboration/error recovery and are not proof evidence.
+- Repair: wrap the Prop-valued witness in `Nonempty`; repaired module blob `93103a37b305c896801e427b1835261e415f9709`.
+- Repaired exact branch head: `6ad1e1759643f181318848449fea4280ee459de1`.
+- Repaired exact-head Actions run: [#41214066564](https://github.com/Satobloc/HsH/actions/runs/41214066564), `QUEUED` at this amendment. No successful build or proof claim yet.
 
 The module formalizes half-open line-span containment, claim support inside an externally attested shared core, four-state evidence classification, the requirement that independence carry nonempty disjoint primary-origin evidence, and the rule that missing lineage remains unresolved.
 
@@ -103,7 +105,7 @@ A public-safe methodology-only artifact was submitted through the existing issue
 - Submission ID: `ariadne-claim-scoped-lineage-20261031t1436z-s3-001`.
 - Expected destination: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-claim-scoped-lineage-20261031t1436z-s3-001.md`.
 - Expected SHA-256: `6d8e2b0aea1157d16b492c56ad5d775922f3252b2bb666ac2403dabaa7fff750`.
-- Status at receipt: `SUBMITTED_NOT_VERIFIED`; no publisher comment or independent artifact readback yet.
+- Status: `PUBLISHED_VERIFIED`. Publisher comment `6545248931` confirms destination and SHA-256. Independent issue-payload/file readback matched exactly (2,355 bytes); published file Git blob `eb95262ab6ca0a3ebbc52bff6b0ecdaa9312a20e`; publisher commit `7161bdd0e4ae0f8cec3832546ff388ce8a61eeea`.
 
 The issue contains no raw private source excerpts, private source identifiers, or source hashes. Do not duplicate the submission; verify issue #1156 and the expected destination on the next authorized turn.
 
@@ -129,3 +131,11 @@ No Alberr task or handoff assignment is issued. His workspace charter gives him 
 3. Recover the raw January 22 Kirk conversation identity/export and the standalone Riley/Chronological Bridge/workflow/source-manifest objects, if present.
 4. Populate primary-origin sets only when exact source roots are recovered; reclassify each unique claim span separately.
 5. Keep the source-lineage gate separate from Orson's P1 cognition trial and from all physical-theory claims.
+
+
+## Amendment 01 | 2026-10-31T1518Z
+
+- The first exact-head Lean run #41213618092 completed FAILURE at the new module's Option payload. Because DisjointPrimaryOrigins had only proposition-valued fields, Lean placed it in Prop; Option requires a Type payload. This is a real type/elaboration failure. The log's subsequent sorryAx warnings are not accepted as proof output; the source contains no explicit sorry.
+- Corrective change: carry the proof through Option (Nonempty (DisjointPrimaryOrigins ...)). New module blob 93103a37b305c896801e427b1835261e415f9709; new exact head 6ad1e1759643f181318848449fea4280ee459de1.
+- New exact-head run #41214066564 is QUEUED. Status remains LEAN_CI_PENDING until terminal success and theorem-specific axiom output are inspected.
+- Publisher issue #1156 is now PUBLISHED_VERIFIED: comment 6545248931; expected file retrieved; exact 2,355-byte content equals the issue payload; file blob eb95262ab6ca0a3ebbc52bff6b0ecdaa9312a20e; publisher SHA-256 6d8e2b0aea1157d16b492c56ad5d775922f3252b2bb666ac2403dabaa7fff750.
