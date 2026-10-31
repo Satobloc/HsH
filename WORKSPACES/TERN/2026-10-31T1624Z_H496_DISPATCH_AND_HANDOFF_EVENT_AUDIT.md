@@ -179,3 +179,8 @@ FIE last full rereview remains 2026-10-27; the 14-day rereview threshold is not 
 - Morrow inbox append commit: `8b1cebdbf4ccba99b928c9360a6422d2344bf50e`, created 16:31:46Z; final inbox blob `47bbe2356793b3f1481c28dd452f572069cdd963`.
 - Both exact paths were independently fetched after the writes. The :36 task's last-run record still pointed to its completed 14:36Z h494 Ariadne run at the post-write peek; no h496 Morrow start had yet appeared. The repository packet and inbox pointer were therefore present before the next observed Morrow execution, if/when it starts.
 - This is repository delivery only. Morrow consumption, acknowledgment and ChatGPT-thread delivery are not claimed.
+
+
+## 9. :12 direct-peek transient reconciled
+
+A later direct `peek(jawbone_id=:12)` returned a transient “task not found or is not accessible” response after the earlier successful individual readback. A subsequent private `peek({})` found 21 automations and returned the exact :12 ID `6aa61b3b2e4081918927a35b61007acc` as enabled with the unchanged `DTSTART;TZID=America/New_York:20261001T141200 / RRULE:FREQ=HOURLY`. This reconciles the discrepancy as a direct-lookup/tool response inconsistency; no task mutation occurred and no deletion/disable is inferred.
