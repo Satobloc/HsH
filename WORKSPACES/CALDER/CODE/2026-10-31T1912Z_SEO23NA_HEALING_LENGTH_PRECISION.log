@@ -1,0 +1,16 @@
+m(23Na) = 3.81754100782179e-26 kg
+mu = h * 510.0 Hz = 3.37929577650000e-31 J
+xi(mu) = 0.656532462 um
+xi(paper rounded) = 0.600000 um
+Rbar = sqrt(Rx*Ry) = 171.610023017 um
+Rbar/xi(mu) = 261.388480912
+Rbar/xi(0.6 um) = 286.016705029
+Rz/xi(mu) = 2.893992466
+Rz/xi(0.6 um) = 3.166666667
+lv = Rbar/sqrt(Nv) = 33.655494465 um
+lv/xi(mu) = 51.262498646
+xi implied by Rbar/xi=290 = 0.591758700 um
+mu/h for xi=0.6 um = 610.632738 Hz
+mu/h for Rbar/xi=290 = 627.759483 Hz
+xi(mu) relative to 0.6 um = 9.422077%
+Rbar/xi(mu) relative to 290 = -9.866041%
