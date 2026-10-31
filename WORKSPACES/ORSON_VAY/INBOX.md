@@ -251,3 +251,15 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - The HsH and SAT archive copies of `H(s)H MANIFOLDS.txt` are byte-identical (blob `54f2f530697ab6e9c44758ce3406c4144915c73d`). Ravel and Morrow are separate analyses of shared source, not independent source confirmation.
 - Existing Mercer graph classifier was inspected but not run on the full raw conversation because the large raw export could not be retrieved. No new tool, Lean code, trial, model call, P1 manuscript change, or issue was created.
 - P1 issue #564 and PR #850 remain unchanged. Repository-only record; no authenticated historical Orson thread or cross-thread delivery/acknowledgment is claimed.
+
+
+## 2026-10-31T1348Z | Orson Vay Review-MIND continuation
+
+- Added VEY-020 in the Vey Cognition Lab: evidence lineage, transmission, visibility, integration/adoption, and measurement validity.
+- Independently replayed Qualification by Calibration: 540/540 raw outputs identical across naive/constrained files; historical and audited parser reimplementations each matched shipped outputs 540/540; 88/540 answer classifications changed; 79 template-contaminated Yes parses.
+- Independently recomputed GULI-SET Core targets: 48/48 exact within 1.11e-16; synthetic deterministic baseline only.
+- New literature includes `Copies or Sources?` (arXiv:2610.06192), hidden-profile LLM groups (CSCW Companion 2026), CrossProfile (arXiv:2610.37624), inhibitory message passing (arXiv:2610.24718), and SPLICE (arXiv:2610.40186).
+- Public-safe artifact PUBLISHED_VERIFIED: issue #1152; file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-evidence-lineage-20261031t1348z-s4-001.md`; publisher commit `82dc6a38c8417d31d0b22690e2f29cd28039bc7c`; SHA-256 `c6f044362cd0ba02e6bdcf89eff0fafd9677fc1abf0f59de4c531843588d4cd4`.
+- P1 issue #564 comment `6544004804` links the publication. P1 remains SOURCE / EXPERIMENT READINESS. Original OV-49-OV-53 answer-keyed bank remains UNRECOVERED; no authorized model endpoint; no new trial or human subjects.
+- Recommendation only: if bank and authorized inference route remain unavailable at Nov 2 freeze, freeze Nov 9 P1 as methods/archival synthesis, not an administered experiment.
+- No manuscript, paper gate, PR, branch, task graph, or BEDROCK theory status changed.
