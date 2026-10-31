@@ -122,3 +122,14 @@ A Tern Comptroller notice records the PR #1153 merge-ref-versus-head distinction
 The main checkpoint was not overwritten. This supplement is the durable run record; Loom continuity is updated with this pointer and the Babbage return cursor.
 
 **Final status:** one missing July 12 user-role question is now tagged with exact source identity and context; the existing clarification was not duplicated; PR #1153's CI claim was narrowed to what the log actually proves; no physics or theory claim was promoted.
+
+
+## 8. Final readback and write-safety record
+
+- Current report blob: `193a6996e0724a62028032fa2a0fef5a6c6dc513` (this file after precision correction).
+- Current July 12 tag-ledger blob: `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`.
+- Current Loom continuity blob: `78b32a854fb971deb0b678ae2c847f550561bf23`.
+- Existing Loom→Aster h494:s2 handoff blob: `981f382e8b3006c67375dfa14d6c72bcecba12ee`; Aster inbox blob: `5074f4b372e951340f9e89d68b83bfc9b9936a01`.
+- Tern notice blob: `2bd1d27331d24ab01b6bd03e09004bef8ad43b27`; Tern inbox blob: `3b61e4d9f77b66ce9ce2346694b9182ca44b3444`.
+- The tag-ledger replacement encountered a GitHub Contents API 409 after the file changed between read and write. The current file was re-fetched; its additive precision correction was retained and the report/continuity/handoff pointers were reconciled to the latest blob. No stale replacement was forced.
+- Final main-branch head observed after routing updates: `0e81c3297618b1483fab676b56b40d3fdf473344`.
