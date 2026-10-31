@@ -39,24 +39,56 @@ STRUCTURED_FIELDS = {
     "chat_delivery_state", "historical_chat_delivery",
     "delivery_counts_as_invitation", "verified_message_id",
     "chat_message_id", "delivery_receipt_id", "handoff_class",
-    "run", "selection", "thread_status", "selected_ring_index", "next_ring_index",
+    "run", "selection", "thread_status", "selected_ring_index", "next_ring_index", "next",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
+HEADING = re.compile(r"^\s*(#{2,3})\s+(.+?)\s*$")
+TITLE_STAMP = re.compile(r"\d{4}-\d{2}-\d{2}T\d{4}Z")
 
 def field_name(value):
     return value.strip().lower().replace(" ", "_").replace("-", "_")
 
-def data(text, conflicts=None):
-    """Parse recognized metadata fields, including named Rotation/Run Metadata sections."""
-    result = {}
+def is_metadata_section(section):
+    normalized = re.sub(r"\s+", " ", section.strip().lower())
+    return any(
+        normalized == base
+        or normalized.startswith(base + " ")
+        or normalized.startswith(base + ":")
+        for base in METADATA_SECTIONS
+    )
+
+def metadata_lines(text):
+    """Return the preamble and first metadata section, excluding later narrative sections.
+
+    Timestamped level-two headings are receipt titles, not content sections.
+    Rotation headings accept the documented dialects (e.g. 'Rotation and
+    scheduler lease', 'Rotation calculation', and level-three 'Rotation').
+    """
+    result = []
+    metadata_started = False
     for line in text.splitlines():
-        if line.lstrip().startswith("## "):
-            section = line.lstrip()[3:].strip().lower()
-            if section not in METADATA_SECTIONS:
+        heading = HEADING.fullmatch(line)
+        if heading:
+            section = re.sub(r"\s+", " ", heading[2].strip().lower())
+            if is_metadata_section(section):
+                metadata_started = True
+                result.append(line)
+                continue
+            if metadata_started:
                 break
-            continue
+            if TITLE_STAMP.search(section):
+                result.append(line)
+                continue
+            break
+        result.append(line)
+    return result
+
+def data(text, conflicts=None):
+    """Parse recognized fields from the preamble/metadata block, not later prose."""
+    result = {}
+    for line in metadata_lines(text):
         match = BOLD_FIELD.fullmatch(line) or PLAIN_FIELD.fullmatch(line)
         if not match:
             continue
@@ -91,21 +123,14 @@ def parse_key(value):
 def canonical_identity(value):
     if not value:
         return None
-    raw = value.strip().strip(chr(96))
+    raw = re.sub(r"[*`]", "", value.strip()).strip()
     for name in sorted(RING, key=len, reverse=True):
         if raw == name or re.match(rf"^{re.escape(name)}(?=$|[\s,(\-—])", raw):
             return name
     return raw
 
 def identity_hint(text, which):
-    header = []
-    for line in text.splitlines():
-        if line.lstrip().startswith("## "):
-            section = line.lstrip()[3:].strip().lower()
-            if section not in METADATA_SECTIONS:
-                break
-        header.append(line)
-    source = "\n".join(header)
+    source = re.sub(r"[*`]", "", "\n".join(metadata_lines(text)))
     for name in sorted(RING, key=len, reverse=True):
         if which == "selected":
             patterns = (
@@ -114,6 +139,8 @@ def identity_hint(text, which):
                 rf"\bselected\s+ring\s+index\s*:\s*\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"\bselected\s+ring\s+index\s+\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"(?<!next )\bring\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
+                rf"\bselected\s*:\s*{re.escape(name)}\b",
+                rf"\bring\s+index\s+\d+\s*mod\s*19\s*=\s*\d+\s*:\s*{re.escape(name)}\b",
             )
         else:
             patterns = (
@@ -123,6 +150,8 @@ def identity_hint(text, which):
                 rf"\bnext\s+ring\s+index\s+\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"\bnext\s+index\s*:\s*\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"\bnext\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
+                rf"\bnext\s*:\s*{re.escape(name)}\b",
+                rf"\bnext\s+index\s+\d+\s*:\s*{re.escape(name)}\b",
             )
         if any(re.search(pattern, source, flags=re.I) for pattern in patterns):
             return name
@@ -177,7 +206,7 @@ class Audit:
             self.warnings.append(f"{p.name}: selected identity recovered from explicit ring-index header")
         if selected != identity(h, s):
             self.error(p, f"selected identity not ring[{5*h+s} mod 19]")
-        next_raw = d.get("next_identity") or d.get("next_selected")
+        next_raw = d.get("next_identity") or d.get("next_selected") or d.get("next")
         next_identity = canonical_identity(next_raw) or identity_hint(text, "next")
         if next_identity and next_identity != identity(*next_hop(h, s)):
             self.error(p, "next identity mismatch")
@@ -383,7 +412,60 @@ def self_test():
         bad = h / "2026-10-11T1236Z_from_s3_to_s0_wrong.md"
         bad.write_text("**Run:** REVROT3-19-20261011:12:s3\n**Selection:** ring index 6 = Aldus; next index 7 = Calder.\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
-    return {"status": "PASS", "checks": 17}
+    # Actual repository receipt dialects: extended Rotation headings, timestamp
+    # title headings, level-three Rotation headings, and ring-index prose.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        h = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); h.mkdir()
+        samples = {
+            "2026-10-30T1512Z_s1_sable.md": (
+                "# Revival Rotation Execution Receipt | Sable | 2026-10-30T1512Z\n"
+                "- run_key: `REVROT3-19-20261011:471:s1`\n"
+                "- selected: Sable\n- next: Loom\n"
+                "## Source and participation\n- run_key: narrative must not override metadata.\n"
+            ),
+            "2026-10-30T1412Z_s1_kestrel.md": (
+                "# Workshop Relay execution receipt\n"
+                "## 2026-10-30T1412Z | Kestrel | s1\n"
+                "### Rotation\n"
+                "- Run key: `REVROT3-19-20261011:470:s1`\n"
+                "- Selected ring index 14: Kestrel\n"
+                "- Next ring index 15: Meridian\n"
+                "### Live control documents read\n"
+                "- Run key: narrative must not override metadata.\n"
+            ),
+            "2026-10-31T0324Z_s2_alberr.md": (
+                "# Workshop Relay receipt | Alberr | 2026-10-31T0324Z\n"
+                "## Rotation and scheduler lease\n"
+                "- Run key: `REVROT3-19-20261011:483:s2`\n"
+                "- Ring index 2417 mod 19 = 4: Alberr\n"
+                "- Next index 5: Mira\n"
+                "## Continuity and authority\n"
+                "- Run key: narrative must not override metadata.\n"
+            ),
+            "2026-10-31T0548Z_s4_mercer.md": (
+                "# Workshop Relay receipt | Mercer | 2026-10-31T0548Z\n"
+                "## Rotation and liveness\n"
+                "- Run key: `REVROT3-19-20261011:485:s4`\n"
+                "- Selected ring index 16: Mercer\n"
+                "- Next ring index 17: Ravel\n"
+                "## Evidence\n- Run key: narrative must not override metadata.\n"
+            ),
+            "2026-10-31T0248Z_s4_loom.md": (
+                "# Workshop Relay :48 | Loom receipt\n"
+                "- Run key: `REVROT3-19-20261011:482:s4`\n"
+                "## Rotation calculation\n"
+                "- Selected: Loom. Next: Aster.\n"
+                "## Research findings\n- Run key: narrative must not override metadata.\n"
+            ),
+        }
+        for name, content in samples.items():
+            (r / name).write_text(content, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["receipts"] == 5 and not result["errors"], result
+    return {"status": "PASS", "checks": 22}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
