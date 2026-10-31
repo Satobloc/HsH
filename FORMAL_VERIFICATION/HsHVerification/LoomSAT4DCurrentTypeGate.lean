@@ -143,4 +143,44 @@ theorem induction_phrase_has_no_declared_rank :
 #print axioms blockwave_current_has_rank_two
 #print axioms induction_phrase_has_no_declared_rank
 
+
+/-!
+## Exact-phase field-strength consequence
+
+Source: assistant message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`,
+conversation `68f4d9b5-b908-832e-940e-6782db174a4a`,
+2025-10-19T12:29:46.538Z, raw export blob
+`1f074cc67057ae9df1e92bab45e8ba34c96b0d77`. The action defines
+`A_μ = α_* ∇_μ θ` and `F_{μν}=∇_[μ A_{ν]}`.
+The assistant's later review message
+`68759291-9b8b-473f-81e4-08f563a15d0b` (2025-10-19T14:50:59.139Z)
+explicitly notes that this exact-gradient choice gives zero local field
+strength on a smooth patch.
+
+The theorem below formalizes the standard exterior-calculus statement
+`d(α dθ)=0) for a sufficiently smooth 0-form and constant `α`.
+Translating the source's antisymmetrized covariant derivative into the
+exterior derivative additionally requires a torsion-free connection.
+This module does not prove that connection assumption, global smoothness,
+defect structure, nontrivial holonomy, or physical applicability.
+-/ 
+
+theorem constant_smul_exact_phase_has_zero_field_strength
+    {𝕜 E F : Type*}
+    [NontriviallyNormedField 𝕜]
+    [NormedAddCommGroup E] [NormedSpace 𝕜 E]
+    [NormedAddCommGroup F] [NormedSpace 𝕜 F]
+    {r : WithTop ℕ∞}
+    (theta : E → E [⋀^Fin 0]→L[𝕜] F)
+    (hTheta : ContDiff 𝕜 r theta)
+    (hSmooth : minSmoothness 𝕜 2 ≤ r)
+    (alpha : 𝕜) :
+    extDeriv (alpha • extDeriv theta) = 0 := by
+  ext x
+  rw [extDeriv_smul]
+  rw [extDeriv_extDeriv hTheta hSmooth]
+  simp
+
+#print axioms constant_smul_exact_phase_has_zero_field_strength
+
 end HsHVerification.LoomSAT4DCurrentTypeGate
