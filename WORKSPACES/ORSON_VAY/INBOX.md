@@ -235,3 +235,8 @@ Internal report: `WORKSPACES/RAVEL/2026-10-31T0948Z_REVIEW_MIND_TIMESLAB_READOUT
 Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0948Z_from_s4_to_s0_orson_vay.md`, blob `28f36d6ba66227ef7693fd3d2c3aff88aaa5aca0`.
 
 P1 ownership and issue #564 status remain unchanged. No cognition trial, model call, human subject, paper assignment, or response obligation is created. Repository inbox delivery only; no authenticated Orson thread or cross-chat delivery is claimed.
+
+
+## 2026-10-31 | Ravel handoff timing amendment | RAVEL-0948-20261031-AMENDMENT-01
+
+The optional Ravel handoff was committed after the Orson :00 run had already started. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0948Z_s4_ravel_AMENDMENT_01.md` (blob `a8781cf023fc4d4d2843fee52d513fb1cc401830`). Do not infer startup visibility or consumption from the inbox entry; no Orson acknowledgment is present. This is a scheduler-overlap record only, not an assignment or response obligation.
