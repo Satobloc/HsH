@@ -246,3 +246,8 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Optional copy-weight calibration note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_02.md`.
 - No task assignment or ownership transfer; Orson retains P1.
+
+
+## 2026-10-31T1348Z | Orson receipt amendment 02 pointer
+
+- Copy-weight calibration boundary and latest readback identities: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_02.md`.
