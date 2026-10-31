@@ -251,3 +251,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 ## 2026-10-31T1348Z | Orson receipt amendment 02 pointer
 
 - Copy-weight calibration boundary and latest readback identities: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_02.md`.
+
+
+## 2026-10-31T1351Z | Optional Orson handoff addendum 03
+
+- Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1351Z_from_s4_to_s0_sable_ADDENDUM_03.md`, blob `3d77e72f8014335b23556cf0666801523cbec15c`.
+- Adds one source-provenance case and an automation result-content association anomaly. Optional context only; Orson retains P1 ownership. No task, response obligation, or cross-thread delivery/acknowledgment claimed.
