@@ -263,3 +263,6 @@ Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS
 **Unrelated reading:** *Jacoby: Astronomer Talks*, lines 461–500 (Bessel's Pleiades work, Elkin's 1885 follow-up and proper-motion discrimination). Next cursor: line 501. FIE last reviewed October 27; 14-day rereview not due.
 
 **Next source cursor:** recover the raw user message underlying the 2026-09-16 log entry. Until then, retain the inverse-pitch clause as `UNVERIFIED_SOURCE_CLAIM`; do not promote it or formalize a guessed map.
+
+
+**Durable relay records:** execution receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0124Z_s2_morrow.md` (blob `f116604d947fe031a640a0279b09159438f884ef`); optional Kestrel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0124Z_from_s2_to_s3_kestrel.md` (blob `8ca690329b98f08d0e992f6a250ae1f592f449e9`). Both independently read back. Kestrel inbox unchanged; no cross-thread delivery claim.
