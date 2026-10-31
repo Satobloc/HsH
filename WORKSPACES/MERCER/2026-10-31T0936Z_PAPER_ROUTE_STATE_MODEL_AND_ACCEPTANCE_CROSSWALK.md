@@ -173,3 +173,35 @@ Public-safe artifact:
 Next useful site-capable action: select the actual derivative format per route; build with exact source-blob and renderer/config binding; deploy; read both live routes; record all per-route checks and evidence; do not stand down until both pass.
 
 No Sites route, manuscript, feed, presentation gate, roster, BEDROCK or theory state was modified by this run.
+
+
+## 8. Addendum — format adapter and computed gate state
+
+The two source formats make a further architecture boundary explicit. A shared reader route should not treat TeX and Markdown as one generic text input. Use:
+
+SOURCE (format-specific)
+→ FORMAT ADAPTER / parser
+→ semantic document representation
+→ presentation renderer
+→ versioned derivative
+→ site deployment
+→ live route readback.
+
+The adapter should preserve typed nodes for title/section, paragraph, inline/display mathematics, table, figure, citation/reference, ordinary link, and sandbox/provenance metadata. The route manifest should therefore add adapter_id/version, parser_config_digest, and semantic_document_ir_sha256 before renderer_id/version and derivative_sha256. This allows a single downstream presentation system without erasing the different source semantics of Paper A TeX and Paper B Markdown. It is a proposed interface, not implemented code.
+
+A scripted evaluation of the actual evidence record produced:
+- Paper A: source pin PASS; feed binding PASS; derivative provenance, deployment, live readback and all-check acceptance NOT OBSERVED. Route pass is not established.
+- Paper B: same 2/6 evidence predicates PASS; the same four remain NOT OBSERVED. Route pass is not established.
+- Combined Grurple standdown predicate: FALSE because both route predicates are not established.
+
+Here FALSE means the acceptance condition is not evidenced, not that a new live route failure was observed.
+
+## 9. Publication correction trail
+
+The first publisher issue #1143 was rejected by the existing Action with “SHA-256 mismatch”; its fixed-destination artifact was absent on readback. The mismatch was caused by a final-newline difference between the hashed text and the submitted content. No artifact was published under the first submission ID.
+
+A corrected retry was submitted as issue #1144 with a new submission ID and the exact no-final-newline content digest:
+- Submission ID: mercer-paper-route-state-model-20261031t0936z-002.
+- Expected SHA-256: 162748eeafd6a88ca318f1a62916987dc3696e446636b3219bafde32bfc3e28b.
+- Expected destination: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-paper-route-state-model-20261031t0936z-002.md.
+- State at addendum: SUBMITTED_NOT_VERIFIED; no success comment or artifact readback yet.
