@@ -134,7 +134,7 @@ The old archive contains a separate PDF-derived extraction:
 
 The opening has the same chapter title and a J2-oriented action, but this is a derivative extraction. Its byte relationship to either user-uploaded galley is unproven. The extracted text has “Author's Note” sections but no named author/byline was found in the inspected text.
 
-The February 25, 2026 `0.239 Radians in Science` raw conversation (blob `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`, message `15338421-a5e7-4538-879a-d25d840d2bdd`) contains a user-role paste of Page One without a byline. The later July 2, 2026 `Consciousness and AI Debate` file-search result (raw blob `512c5713ea0b5dc13fec59f4835913e92ff2f14c`, tool message `8a76c477-9bf0-4415-bd0a-4ddbc8b43119`) is a retrieval event, not the original Page One source.
+The February 25, 2026 `0.239 Radians in Science` raw conversation (blob `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`, message `15338421-a5e7-4538-879a-d25d840d2bdd`) contains a user-role paste of Page One without a byline. The later July 2, 2026 `Consciousness and AI Debate` file-search result (conversation `6a3a15d9-bc20-83ea-b427-430d0ff293b1`; raw blob `512c5713ea0b5dc13fec59f4835913e92ff2f14c`; tool message `8a76c477-9bf0-4415-bd0a-4ddbc8b43119`) is a retrieval event, not the original Page One source.
 
 **Byline verdict:** no earlier bylined Page One/Wanna Bounce source recovered. The earliest located galley is user-supplied and explicitly placed in an SAT/math-checking project, but the file's internal author is unresolved and its original bytes are unavailable.
 
