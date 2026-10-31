@@ -109,3 +109,18 @@ Use Q_fund=9 and Q_eff=3 as distinct nested He3 counts per BEDROCK ND-2026-10-18
 Lean proof targets (Hodge degree, current-conservation equivalence, WB7 form-degree audit, slice-charge conservation) are data-free geometry and remain BLOCKED_PENDING_NATHAN_PERMISSION. No local lean/lake is installed. Existing PR #993 exact-head CI run #40997062623 succeeded for the measured-radius ledger only; no PR change.
 
 Code Grurple remains active and Ravel continuity holds public issue publication. Report saved in workspace; no publisher issue, PR, branch, paper, task, or BEDROCK change. Next Ravel cursor: recover or explicitly authorize the geometry-to-current map, then freeze one measured channel and test the other.
+
+
+## 2026-10-31 17:24Z | Run 497 — carrier-slice proof repair
+
+The 2026-10-26 Nathan Direct proof-first instruction was applied narrowly to an already source-anchored, definite set-theoretic proposition in the existing Ravel PR #1133. The 2024 moving-plane construction is explicitly a heuristic, and the 2026 direct source distinguishes a 4D filament from its 3D intersectional trace while describing an interacting 3D time bulk. The formal module therefore labels its object as a bare support-set intersection and explicitly does not claim to encode the physical response operator, force/inertia law, metric, signature, or coordinate normalization.
+
+The uncovered-sheet non-injectivity proof was repaired on the existing branch. PR-triggered Actions run #41224981349 succeeded under Lean 4.34.0 / Lake 5.0.0 with 8,944 build jobs. This was a merge-ref build, not a strict head-only checkout; the module and aggregator blobs at the merge ref were independently verified equal to the branch blobs. Tests, lint, nanoda, and automated axiom audit were skipped; the complete retrieved log contains zero `sorryAx` occurrences. PR #1133 remains draft and unmerged, stacked on open PR #262.
+
+This is a conditional mathematical property of the bare set-intersection map, not a physical readout law. No new physical calculation, measured-data comparison, CODATA comparison, or theory promotion occurred. The previous Helion measured-input gate remains the empirical frontier. The geometry-to-current / constitutive response map is still unresolved and must be recovered from a Nathan-direct source or separately approved before physical formalization.
+
+Detailed report: `WORKSPACES/RAVEL/2026-10-31T1724Z_CARRIER_SLICE_NONINJECTIVITY_PROOF_REPAIR.md` (blob `eecedcfa2c005b1069f23dca5319dc049e860739`).
+
+Common receipt and Orson handoff/inbox delivery were blocked by safety checks; no alternate write path was used. Orson's cognition remit and approximately 4/5 substantive activation target remain protected; no physics assignment or cognition-protocol change.
+
+**Next cursor:** recover a source-defined geometry-to-current / physical response map, then freeze one actual measured channel with dataset provenance, units, calibration, uncertainty and covariance before any numerical comparison. Do not infer this map from the set-intersection theorem.
