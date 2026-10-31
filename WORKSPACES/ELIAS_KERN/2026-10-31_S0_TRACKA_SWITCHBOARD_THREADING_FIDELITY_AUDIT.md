@@ -26,10 +26,10 @@ This audit treats the workflow as a directed, typed coordination graph. It does 
 
 - Switchboard design document, internal source blob SHA-1: 0a708813bac6e1e7dc763779ed080b6d7e27fd42.
 - Switchboard read-first guide, blob SHA-1: e6b6bd6d413cddfcf43b37b1b1f01317c48caf86.
-- Switchboard executable, blob SHA-1: 49988a769389b2baf264a27d596ba7c3ff822b36; SHA-256 of the exact retrieved bytes: 876393a8d5dfe1b0b5e3f9e0d9e30f9b8a3fdbed4f1b6f7f9a7b6a2b7a7d4b0b.
+- Switchboard executable, blob SHA-1: 49988a769389b2baf264a27d596ba7c3ff822b36; SHA-256 of the exact retrieved bytes: 876393e188134f059a1e3f4f6daecd7465495e7124e7b6c1d9d44b7063dcdf2a.
 - Threading design document, blob SHA-1: f87ff21918b6fa4804d090cdb9153aa0dd53d288.
 - Threading operators document, blob SHA-1: a71422918fdf671e8859eec82fa74d576301d53a.
-- Threading executable, blob SHA-1: ce313e46b1b85ae35028b46a4196d2a945b535d8; SHA-256 of the exact retrieved bytes: e7bafa7d8c3d4c7a8f5c2e0d0c8a2e0b6e2f0f7b2d9a8c1e6a4b7f3a5c9d2e11.
+- Threading executable, blob SHA-1: ce313e46b1b85ae35028b46a4196d2a945b535d8; SHA-256 of the exact retrieved bytes: e7bafa2a54ca14b3f4b50456cd2a6777461565bd2e40264caf53b4813fe6249c.
 
 The two Python source files were reconstructed locally from the connector-returned contents and their Git blob hashes were recomputed using Git's blob-hash convention before execution. Both matched their pinned source blobs exactly. No source file was edited.
 
