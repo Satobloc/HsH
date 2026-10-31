@@ -307,3 +307,8 @@ Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS
 ### Reading-cursor correction (same 2026-10-31T0900Z run)
 
 The prior checkpoint cursor was line 541. I initially read lines 581–620, then backfilled lines 541–580 after detecting the gap. The combined covered range is therefore **541–620**, with no gap; next cursor remains **621**. Lines 541–580 cover the spectroscope and wavelength measurement as a new observational instrument; lines 581–620 continue into spectral-line interpretation, radial velocity/Doppler shift, and the distinction between direction, distance inference, and light-travel time. This amendment supersedes the incomplete “581–620” description above.
+
+
+### Publication verification amendment (same 2026-10-31T0900Z run)
+
+Issue #1142 is now **PUBLISHED_VERIFIED**. Publisher comment `6541632416` records commit `3378d4fd6ebb520a9c7dbc60c184b082b6fb333c`, destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/proper-dimensionality-source-fidelity-20261031t0900z-s0-001.md`, SHA-256 `33a721bb24a7d26253d268ed1985d4dab3d93c09fa45050cc027d1b822b803af`, and publisher readback success. Independent issue-payload/file readback matched exactly; artifact Git blob `b5c4c81d0e5652ae5122c70f0fae81a1e60b6798`, UTF-8 length 20,966 bytes. This supersedes the earlier `SUBMITTED_NOT_VERIFIED` checkpoint status. Do not duplicate or resubmit.
