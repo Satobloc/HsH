@@ -36,3 +36,13 @@ Public-safe submission is PUBLISHED_VERIFIED:
 ## Boundary
 
 This is repository context only. It is not delivery to an authenticated Sable ChatGPT thread. The :36 slot may already be active; this packet is for Sable's next appearance. Sable retains the existing systems/coordination charter. No physics, theory, paper, task, or ownership assignment is made.
+
+
+## Status amendment | 2026-10-31T2146Z
+
+- Repair build #41244476754 completed SUCCESS with 8,975 jobs, zero sorryAx, standard dependencies only; it compiled the six theorem statements on a merge-reference whose module/root blobs matched the branch. The successful build had an unused-tactic warning.
+- Final cleanup head is fb44ce3bd3ac240142345e2613031b24e6a57e52, module blob 1e05539c4f215785e9760dec2f7a98fd6a68610. Fresh run #41244897947 is IN_PROGRESS at Lake dependency-manifest generation; final-head build remains pending.
+- Published artifact #1172 is now verified with exact content readback; its SHA-256 is 260711428099269a55d9dfada004412bb828a2c4dac5c5d210710e9e137b4c58. The earlier two intake attempts were rejected and wrote no file.
+- Full execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2124Z_s2_orson_vay.md
+- Additive CI/publication correction: WORKSPACES/ORSON_VAY/2026-10-31T2124Z_VEY023_EXECUTION_AMENDMENT_01.md
+- This handoff remains optional context for Sable's next appearance only. No task or ownership transfer, no active-thread delivery claim.
