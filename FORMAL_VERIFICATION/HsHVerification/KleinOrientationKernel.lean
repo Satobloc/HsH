@@ -46,7 +46,7 @@ theorem fiberSign_neg (m : ℤ) :
     fiberSign (-m) = fiberSign m := by
   by_cases hm : m % 2 = 0
   · have hneg : (-m) % 2 = 0 := by omega
-    simp [fiberSign, hm, hneg]
+    simp [fiberSign, hm]
   · have hneg : (-m) % 2 ≠ 0 := by omega
     simp [fiberSign, hm, hneg]
 
@@ -56,6 +56,14 @@ structure KleinPair where
   base : ℤ
   fiber : ℤ
 deriving DecidableEq, Repr
+
+@[ext] theorem KleinPair.ext {x y : KleinPair}
+    (hbase : x.base = y.base) (hfiber : x.fiber = y.fiber) : x = y := by
+  cases x
+  cases y
+  cases hbase
+  cases hfiber
+  rfl
 
 def mulK (x y : KleinPair) : KleinPair :=
   ⟨x.base + y.base, x.fiber + fiberSign x.base * y.fiber⟩
@@ -122,7 +130,9 @@ theorem fiber_orientation_character (x y : KleinPair) :
 /-- Algebraic orientation-preserving subgroup: even base-loop parity. -/
 def orientationKernel : Subgroup KleinPair where
   carrier := fun x => fiberSign x.base = 1
-  one_mem' := by simp [oneK, fiberSign]
+  one_mem' := by
+    change fiberSign (0 : ℤ) = 1
+    norm_num [fiberSign]
   mul_mem' := by
     intro x y hx hy
     change fiberSign (x.base + y.base) = 1
@@ -135,28 +145,31 @@ def orientationKernel : Subgroup KleinPair where
 
 theorem orientationKernel_iff_even (x : KleinPair) :
     x ∈ orientationKernel ↔ x.base % 2 = 0 := by
+  change fiberSign x.base = 1 ↔ x.base % 2 = 0
   by_cases h : x.base % 2 = 0
-  · simp [orientationKernel, fiberSign, h]
-  · simp [orientationKernel, fiberSign, h]
+  · simp [fiberSign, h]
+  · simp [fiberSign, h]
 
 /-- On the orientation-preserving subgroup, the twisted product reduces
     to coordinatewise addition. -/
 theorem orientationKernel_mul_componentwise (x y : orientationKernel) :
     (x * y : KleinPair) =
       ⟨x.1.base + y.1.base, x.1.fiber + y.1.fiber⟩ := by
+  have hx : fiberSign x.1.base = 1 := x.property
+  change mulK x.1 y.1 = _
   apply KleinPair.ext
   · rfl
-  · change x.1.fiber + fiberSign x.1.base * y.1.fiber
-      = x.1.fiber + y.1.fiber
-    rw [x.property]
-    ring
+  · simp [mulK, hx]
 
 /-- Therefore the orientation-preserving subgroup is abelian. -/
 theorem orientationKernel_comm (x y : orientationKernel) :
     x * y = y * x := by
   apply Subtype.ext
-  rw [orientationKernel_mul_componentwise, orientationKernel_mul_componentwise]
-  apply KleinPair.ext <;> simp [add_comm]
+  have hx : fiberSign x.1.base = 1 := x.property
+  have hy : fiberSign y.1.base = 1 := y.property
+  apply KleinPair.ext
+  · simp [mulK, add_comm]
+  · simp [mulK, hx, hy, add_comm]
 
 #print axioms fiberSign_add
 #print axioms klein_presentation_relation
