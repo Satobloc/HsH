@@ -30,3 +30,10 @@ After Code Grurple standdown, the existing published Mira artifact should receiv
 Full receipt: [2026-10-31T0148Z Meridian receipt](../REVIVAL_ROTATION_RECEIPTS/2026-10-31T0148Z_s4_meridian.md).
 
 This handoff is context, not a task assignment. Mercer retains the existing cross-source integrity and presentation-QA remit. No task, branch, schedule, or paper authority is transferred.
+
+
+## Addendum 01 | CI-base and predecessor-status clarification (2026-10-31T02:00Z)
+
+- PR #895 run #41141185069 succeeded on the PR's own current base branch, infra/lean4-verification-20261023, not on main.
+- The Kestrel :36 automation for 01:36Z later completed with recorded_status=failed at 02:00:02Z and chat_ref=null. No Kestrel :36 receipt or handoff to Meridian was found. No cause is inferred.
+- The exact main parent before the Meridian receipt write was a697d161146e7e6691d0adb37a789fb6ad20be1e; current main after the receipt, handoff, and inbox append is 067f7f4fe69641a9cbdf46064f77897c17d08789.
