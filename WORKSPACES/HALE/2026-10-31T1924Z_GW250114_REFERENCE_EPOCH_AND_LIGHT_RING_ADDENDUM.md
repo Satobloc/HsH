@@ -1,4 +1,4 @@
-# GW250114 direct-wave addendum: reference epoch, estimator dependence, and light-ring alternatives
+# GW250114 direct-wave addendum: reference epoch, estimator dependence, and source interpretations
 
 **Run:** REVROT3-19-20261011:499:s2  
 **Nominal hour:** 2026-10-31T19:00Z; h=499, seq=2497, index 8  
@@ -68,7 +68,7 @@ The supplement reports P320 reference-epoch transport factors separately, but do
 
 The reported median paired P222 contributions are -35.61 percentage points from reference-epoch transport and +13.41 points from the additional explicit realignment/refit; the reported median paired net change is -19.46 points. These medians are not additive. A Python/SymPy check of the published summary arithmetic gives differences of marginal medians -35.57, +13.42, and -22.15 points respectively. The mismatch between -22.15 and the paired median -19.46 is expected because a median of paired differences is not the difference of two marginal medians. Do not add marginal medians as though they were linear statistics.
 
-**Correction note:** the initial internal draft included unsupported P320 median-contrast values. They have been removed after checking the actual main paper and supplement. P320 remains supported for the reported transport-factor range, fit-window covariance spread, pairwise covariance results, and posterior-width summaries only.
+**Correction note:** the initial internal draft included unsupported P320 median-contrast values. They have been removed after checking the actual main paper and supplement. P320 remains supported for the reported transport-factor range, fit-window covariance spread, pairwise covariance results, and posterior-width summaries only. The initial draft also mislabeled arXiv:2610.25176 as the paper accepted by PRL on October 27. That was a source collision: the accepted PRL is the distinct Dyer–Chung–Moore paper arXiv:2606.25021, DOI 10.1103/xftt-2n6t. The October 21 five-author light-ring paper remains a separate arXiv preprint; no acceptance status is claimed for it.
 
 The supplement reports analytic epoch-transport amplitude factors of 0.565–0.785 for P222 and 0.916–0.965 for P320. Endpoint arithmetic corresponds to coefficient-magnitude changes of -43.5% to -21.5% and -8.4% to -3.5%, respectively. These are source-reported ranges with derived endpoint percentages, not a new raw-waveform reproduction.
 
@@ -86,7 +86,7 @@ The exact GitHub commit cited is 819b6f0aab6a36d9131e0abafc57357265db2ccb. At th
 
 The archive ZIP itself was not retrieved in this run. Its SHA-256 is therefore cross-checked between the Jxiv supplement and pinned repository record, **not independently recomputed from archive bytes**. The machine-readable tables and scripts were not rerun. No reproduction claim is made.
 
-## 4. New light-ring alternatives to a near-horizon interpretation
+## 4. New source interpretations and model alternatives
 
 The source landscape now contains materially different theoretical explanations. These are competing model interpretations, not a settled consensus.
 
@@ -102,26 +102,34 @@ Kankani and McWilliams, “Direct waves in black hole binary mergers: insights f
 
 Their backward one-body model constructs a ringdown signal from light-ring dynamics and finds that the direct-wave frequency follows the frequency at peak news rather than the horizon frequency. This is a peer-reviewed theoretical/NR comparator, not an additional astrophysical event.
 
-### 4.3 Dyer et al.: three-strand light-ring challenge
+### 4.3 Dyer, Chung & Moore: accepted PRL horizon-mode test
 
-Dyer, Kankani, Marks, McWilliams and Moore, “Moving Beyond Quasinormal Modes and Reinterpreting Direct Waves,” arXiv:2610.25176, submitted 2026-10-18 (manuscript dated 2026-10-21); accepted by *Physical Review Letters* 2026-10-27.
+Richard Dyer, Adrian Ka-Wai Chung and Christopher J. Moore, “Modeling Direct Waves in Binary Black Hole Ringdowns,” arXiv:2606.25021 (submitted 2026-06-23; manuscript dated 2026-06-26), accepted by *Physical Review Letters* 2026-10-27, DOI [10.1103/xftt-2n6t](https://doi.org/10.1103/xftt-2n6t).
+
+Using public SXS CCE numerical-relativity waveforms and a Bayesian Gaussian-process model for numerical uncertainty, they identify a direct-wave component over start times up to about 31M after peak, with amplitude about an order of magnitude below the fundamental QNM. The fixed horizon-mode frequency improves the fit and is favored over a range of start times, but free-frequency fits drift by roughly 10–20% and do not reliably recover the horizon-mode value. The authors therefore support a useful horizon-mode *modeling approximation* while questioning whether the component directly probes horizon geometry.
+
+This is a peer-reviewed NR analysis, not a new astrophysical detector event and not an exact horizon-frequency confirmation.
+
+### 4.4 Dyer et al.: October light-ring reinterpretation preprint
+
+Richard Dyer, Alok Kankani, Alex Marks, Scott T. McWilliams and Christopher J. Moore, “Moving Beyond Quasinormal Modes and Reinterpreting Direct Waves,” arXiv:2610.25176, submitted 2026-10-18 (manuscript dated 2026-10-21). The arXiv record is the source used here; no journal acceptance is claimed.
 
 The paper combines:
-1. Frequency-versus-spin comparisons using 125 SXS simulations, including 43 retrograde cases (the aligned-spin subset is used for the principal fit).
-2. A backward one-body analytic model, with fitted light-ring scaling factors D=0.73 and E=0.68, compared against a much larger numerical-relativity set.
+1. Frequency-versus-spin comparisons using SXS simulations, including retrograde cases.
+2. A backward one-body analytic model with fitted light-ring scaling factors D=0.73 and E=0.68, compared against a much larger numerical-relativity set.
 3. Scalar-field perturbations on horizonless ultracompact-object backgrounds: a thin-shell boson-star model with a light ring produces a similar non-QNM residual, while a non-ultracompact boson-star model without a light ring does not.
 
 The authors report that the residual frequency tracks light-ring rather than horizon frequency. Their decomposition also separates an unfiltered BOB waveform from filter effects: filter effects dominate before roughly -7M; the unfiltered BOB component dominates from about -7M to the peak; after roughly +5M, the components become comparable and approximately opposite in phase, damping the residual.
 
 Limitations: the D,E scales are fitted, not parameter-free constants; the analytic BOB frequency model is simplified; the horizonless-object calculation is a scalar-field/particle-trajectory model on prescribed backgrounds, not a full nonlinear binary-merger simulation. This is a strong alternative interpretation, not an independent observational falsification of the GW250114 event.
 
-### 4.4 Ma & Wang: a competing near-horizon Green-function derivation
+### 4.5 Ma & Wang: a competing near-horizon Green-function derivation
 
 Sizheng Ma and Hai-Yang Wang, “Foundations of Direct Waves in Schwarzschild Ringdown,” arXiv:2607.06677v1, submitted 2026-07-07; full text dated 2026-08-24.
 
 They derive the filtered Schwarzschild Zerilli response using the causal Green function and attribute the direct-wave cycles to an accumulated anti-causal segment of the filter response sourced by near-horizon plunge dynamics. They explicitly say the direct wave is not itself a horizon mode and that the all-pass filter redistributes source information in time rather than adding new physical content. This is a Schwarzschild linear-perturbation calculation, not a Kerr detector-data result.
 
-This conflicts in physical source interpretation with the light-ring-centered Cheung/Kankani/Dyer results. The models differ in spacetime, source, observable decomposition and approximation. No consensus or H(s)H equivalence is asserted.
+This leaves a real interpretive disagreement: the Ma–Wang Schwarzschild source derivation and the Dyer–Chung–Moore Kerr NR horizon-mode fit support a near-horizon modeling role, while Cheung/Kankani and the later Dyer et al. preprint emphasize the light ring and the small contribution from inside it. Their models differ in spacetime, source, observable decomposition and approximation. No consensus or H(s)H equivalence is asserted.
 
 ## 5. What the all-pass result does and does not say
 
