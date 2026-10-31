@@ -449,3 +449,14 @@ Read-It-Tag-It record for `WORKSPACES/COMMON/NATHAN_DIRECT_BOLD_EXPLORATION_SHIF
 All four Mersearch lanes remain occupied (`requested`); no request was submitted, overwritten, or treated as completed. No new tool, dependency, branch, PR, issue, or automation was created. No SAT-O/Blockwave equation was copied or changed. Orson's protected P1 cognition remit and the Nov 9 gate were untouched; P2 Nov 30 and P3 Dec 14 remain separate. FIE's last full review was 2026-10-27, so the 14-day rereview is not due. The unrelated-reading cursor remains Babbage, line 581.
 
 **Next cursor:** after Code Grurple standdown or explicit site-capable authorization, add the typed excerpt-status/binary-detection/blob-dedup regression to the existing `site_discovery.py` and `tests/test_site_discovery.py`. Do not alter the shared paper renderer, either manuscript, or the current presentation gate as a workaround.
+
+
+## 2026-10-31T1104Z | Aharonov–Bohm holonomy comparator
+
+- Source: assistant-role Blockwave compact-phase attachment; exact provenance and authorship boundary recorded in the run addendum.
+- Actual comparator: 1986 Tonomura/Osakabe electron-holography experiment; measured 0/π relative phase with flux quantization h/(2e). Exact-SI calculation gives Φ₀=2.0678338484619293×10⁻¹⁵ Wb and phase magnitude π; no CODATA adjustment used.
+- Geometric result: local flatness and global holonomy are compatible on a multiply connected exterior. Blockwave α_* normalization, torsion convention, FJ-to-loop bridge, and timesheet-trace/meridian projection remain unspecified.
+- Lean: PR #759 head `834396a18bcec0d12c788f57049a17be1d29b4ec`; exact-head run #41194990361 SUCCESS, 8,951 jobs, zero `sorryAx`, standard theorem axioms; tests/lint/nanoda/automated axiom audit skipped. PR remains draft/unmerged.
+- Report: `WORKSPACES/LOOM/2026-10-31T1104Z_AB_HOLONOMY_COMPARATOR.md`; publication issue #1147 / publisher run #41195565255 SUCCESS / exact destination readback.
+- Mersearch lane 3 optical-kink request #41192852584 remains in progress; no manifest/receipt. No duplicate request.
+- Aster inbox addendum appended; recipient consumption unverified.
