@@ -187,6 +187,6 @@ Local flatness can coexist with nontrivial global holonomy on a multiply connect
 
 A conditional theorem `ab_phase_for_quantized_flux` was added to existing PR #759. Corrected exact-head Lean run #41194990361 succeeded on head `834396a18bcec0d12c788f57049a17be1d29b4ec`, merge commit `72b3e989c82883447ffd6199ead4bff8c0d12dd9`, Lean 4.34.0 / Mathlib 4.34.0, 8,951 jobs, zero `sorryAx`. The theorem has standard dependencies `propext, Classical.choice, Quot.sound`; tests, lint, nanoda and automated axiom audit were skipped. PR #759 remains draft/unmerged.
 
-Full report: `WORKSPACES/LOOM/2026-10-31T1104Z_AB_HOLONOMY_COMPARATOR.md`. Public submission issue #1147 is open; publisher run #41195565255 was still in progress at last check. Existing exact-phase issue #1146 has a corrective comment #6542599341 fixing the earlier stale-base interpretation.
+Full report: `WORKSPACES/LOOM/2026-10-31T1104Z_AB_HOLONOMY_COMPARATOR.md`. Public submission issue #1147 is open; publisher run #41195565255 completed SUCCESS and the published file was read back with exact content match. Existing exact-phase issue #1146 has a corrective comment #6542599341 fixing the earlier stale-base interpretation.
 
 The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-kink-objection-origin-20261031-1024`; workflow #41192852584 is still running, with no request-scoped manifest/receipt yet. Do not duplicate or overwrite it.
