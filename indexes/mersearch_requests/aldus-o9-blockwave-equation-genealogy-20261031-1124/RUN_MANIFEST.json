@@ -1,0 +1,79 @@
+{
+  "request_id": "aldus-o9-blockwave-equation-genealogy-20261031-1124",
+  "query": "(name:*O9* OR path:*O9* OR name:*BLOCKWAVE* OR path:*BLOCKWAVE* OR \"SAT O9\" OR \"SAT.O9\") OR (author:user AND ((\"O9\" NEAR/12 \"graviton\") OR (\"O9\" NEAR/12 \"mass spectrum\") OR (\"O9\" NEAR/12 \"retardance\") OR (\"Blockwave\" NEAR/12 \"holonomy\") OR (\"Blockwave\" NEAR/12 \"three-form\") OR (\"Blockwave\" NEAR/12 \"two-form\") OR (\"m^2 = k\" NEAR/12 \"beta Q^2\") OR (\"1.48 rad\" NEAR/12 \"retardance\")))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "e327487a8b20a56fae5f4c93a6a94b3bbfc8dedb",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "87289c92068c134e84a70e6a2f18807247b4a36c",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "e327487a8b20a56fae5f4c93a6a94b3bbfc8dedb",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "c1eaf2ea2df50fdb34aada4a90a9ef3206c9dbb2b104f256f3b58ccf12be62e8",
+    "SEARCH_RESULTS.md": "65a4b8eef1767ef68be15c5c52e6af4c4e670fee5c5a7e2268afbb9a868fa731",
+    "SEARCH_RECEIPT.json": "86a93f717345395a2a3aae3a735c5cb827e57db08fbdcf8d989329ae6b18cfc6",
+    "SEARCH_RECEIPT.md": "5fee6e6f772417e6ffc5a28b8ad98dc2410408191349f1ecf2209be671038dd5"
+  }
+}

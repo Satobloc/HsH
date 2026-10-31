@@ -1,0 +1,665 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "c1eaf2ea2df50fdb34aada4a90a9ef3206c9dbb2b104f256f3b58ccf12be62e8",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-31T13:43:18.208212+00:00",
+  "query": "(name:*O9* OR path:*O9* OR name:*BLOCKWAVE* OR path:*BLOCKWAVE* OR \"SAT O9\" OR \"SAT.O9\") OR (author:user AND ((\"O9\" NEAR/12 \"graviton\") OR (\"O9\" NEAR/12 \"mass spectrum\") OR (\"O9\" NEAR/12 \"retardance\") OR (\"Blockwave\" NEAR/12 \"holonomy\") OR (\"Blockwave\" NEAR/12 \"three-form\") OR (\"Blockwave\" NEAR/12 \"two-form\") OR (\"m^2 = k\" NEAR/12 \"beta Q^2\") OR (\"1.48 rad\" NEAR/12 \"retardance\")))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15945,
+    "records_scanned": 20843011,
+    "hits": 37290
+  },
+  "counted_hits": 37290,
+  "distinct_sources": 294,
+  "results_by_root": {
+    "archive": 1151,
+    "hsh-main": 36106,
+    "resources": 33
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*BLOCKWAVE*",
+      35060
+    ],
+    [
+      "name:*BLOCKWAVE*",
+      35060
+    ],
+    [
+      "name:*O9*",
+      1407
+    ],
+    [
+      "path:*O9*",
+      1407
+    ],
+    [
+      "Blockwave",
+      726
+    ],
+    [
+      "SAT.O9",
+      555
+    ],
+    [
+      "holonomy",
+      546
+    ],
+    [
+      "O9",
+      342
+    ],
+    [
+      "author:user",
+      303
+    ],
+    [
+      "mass spectrum",
+      213
+    ],
+    [
+      "graviton",
+      183
+    ],
+    [
+      "SAT O9",
+      167
+    ],
+    [
+      "m^2 = k",
+      166
+    ],
+    [
+      "beta Q^2",
+      161
+    ],
+    [
+      "two-form",
+      72
+    ],
+    [
+      "retardance",
+      3
+    ],
+    [
+      "three-form",
+      3
+    ],
+    [
+      "1.48 rad",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 2,
+      "best_score": 190,
+      "first_hit_index": 34831,
+      "sample_hit_index": 34832,
+      "locator": "$.query",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "graviton",
+        "mass spectrum",
+        "retardance",
+        "Blockwave",
+        "holonomy",
+        "three-form",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06•26.06.15•🤖 SAT O REWRITE SUPERVISOR — raw.json",
+      "title": "🤖 SAT O REWRITE SUPERVISOR",
+      "record_count": 6,
+      "best_score": 130,
+      "first_hit_index": 68,
+      "sample_hit_index": 68,
+      "locator": "message:edd53d7b-210f-4cae-922f-bc64d1de39bb",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
+      "title": "Lagrangian Permutations Analysis",
+      "record_count": 1,
+      "best_score": 130,
+      "first_hit_index": 65,
+      "sample_hit_index": 65,
+      "locator": "message:fa08e2cf-988a-4957-a678-ac0e32d1b7f9",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
+      "title": "SAT Quark Binding Rewrite",
+      "record_count": 1,
+      "best_score": 130,
+      "first_hit_index": 66,
+      "sample_hit_index": 66,
+      "locator": "message:10f35e4b-5d0d-436f-8539-41aea93c3eac",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SATO-BLOC FULL LEANCHECK — raw.json",
+      "title": "SATO-BLOC FULL LEANCHECK",
+      "record_count": 3,
+      "best_score": 123,
+      "first_hit_index": 571,
+      "sample_hit_index": 572,
+      "locator": "message:3bf39270-2cf8-47f2-9123-6bce0e607c03",
+      "matched_terms": [
+        "author:user",
+        "O9",
+        "mass spectrum",
+        "Blockwave",
+        "holonomy",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 8,
+      "best_score": 122,
+      "first_hit_index": 423,
+      "sample_hit_index": 423,
+      "locator": "message:c1b25a3f-5849-479a-a998-378174ac8be6",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 8,
+      "best_score": 122,
+      "first_hit_index": 424,
+      "sample_hit_index": 424,
+      "locator": "message:c1b25a3f-5849-479a-a998-378174ac8be6",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 2,
+      "best_score": 122,
+      "first_hit_index": 717,
+      "sample_hit_index": 717,
+      "locator": "message:25f35950-762c-41aa-a971-c7c116e160d3",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 2,
+      "best_score": 122,
+      "first_hit_index": 718,
+      "sample_hit_index": 718,
+      "locator": "message:25f35950-762c-41aa-a971-c7c116e160d3",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 2,
+      "best_score": 122,
+      "first_hit_index": 719,
+      "sample_hit_index": 719,
+      "locator": "message:25f35950-762c-41aa-a971-c7c116e160d3",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.05•[A] SAT Theory Archive Overview — raw (1).json",
+      "title": "[A] SAT Theory Archive Overview",
+      "record_count": 1,
+      "best_score": 122,
+      "first_hit_index": 694,
+      "sample_hit_index": 694,
+      "locator": "message:531aa8b1-d95a-4cd3-8f9e-ba90328da42d",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.05•[A] SAT Theory Archive Overview — raw.json",
+      "title": "[A] SAT Theory Archive Overview",
+      "record_count": 1,
+      "best_score": 122,
+      "first_hit_index": 695,
+      "sample_hit_index": 695,
+      "locator": "message:531aa8b1-d95a-4cd3-8f9e-ba90328da42d",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.05•26.06.05•SAT Theory Archive Overview — raw.json",
+      "title": "SAT Theory Archive Overview",
+      "record_count": 1,
+      "best_score": 122,
+      "first_hit_index": 696,
+      "sample_hit_index": 696,
+      "locator": "message:531aa8b1-d95a-4cd3-8f9e-ba90328da42d",
+      "matched_terms": [
+        "SAT O9",
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.30•Exploring inspiration together — raw.json",
+      "title": "Exploring inspiration together",
+      "record_count": 3,
+      "best_score": 121,
+      "first_hit_index": 577,
+      "sample_hit_index": 577,
+      "locator": "message:779b416f-77b4-4877-9355-1edc6929e52d",
+      "matched_terms": [
+        "author:user",
+        "graviton",
+        "mass spectrum",
+        "Blockwave",
+        "holonomy",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Theory Synthesis — raw.json",
+      "title": "SAT Theory Synthesis",
+      "record_count": 1,
+      "best_score": 109,
+      "first_hit_index": 62,
+      "sample_hit_index": 62,
+      "locator": "message:5b780abd-de88-43b4-8873-2ea98b73d6ed",
+      "matched_terms": [
+        "SAT.O9",
+        "O9",
+        "mass spectrum",
+        "holonomy",
+        "two-form",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT theory clarification — raw.json",
+      "title": "SAT theory clarification",
+      "record_count": 1,
+      "best_score": 96,
+      "first_hit_index": 593,
+      "sample_hit_index": 593,
+      "locator": "message:12a1bdab-33fb-49b5-9522-b7dbf9216e72",
+      "matched_terms": [
+        "author:user",
+        "mass spectrum",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 4D Theory Work/O9.tex",
+      "title": "O9",
+      "record_count": 62,
+      "best_score": 75,
+      "first_hit_index": 1514,
+      "sample_hit_index": 1520,
+      "locator": "line:16",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 4D Theory Work/sat_o9_module.tex",
+      "title": "sat_o9_module",
+      "record_count": 62,
+      "best_score": 75,
+      "first_hit_index": 1578,
+      "sample_hit_index": 1584,
+      "locator": "line:16",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT O Core Modules/O9.txt",
+      "title": "O9",
+      "record_count": 49,
+      "best_score": 75,
+      "first_hit_index": 1730,
+      "sample_hit_index": 1734,
+      "locator": "line:13",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 4D Theory Work/O9-10_intro_IDS.tex",
+      "title": "O9-10_intro_IDS",
+      "record_count": 46,
+      "best_score": 75,
+      "first_hit_index": 1468,
+      "sample_hit_index": 1474,
+      "locator": "line:17",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT O Core Modules/O9-10_intro_IDS.txt",
+      "title": "O9-10_intro_IDS",
+      "record_count": 46,
+      "best_score": 75,
+      "first_hit_index": 1684,
+      "sample_hit_index": 1690,
+      "locator": "line:17",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 4D Theory Work/O9-10_intro.tex",
+      "title": "O9-10_intro",
+      "record_count": 44,
+      "best_score": 75,
+      "first_hit_index": 1424,
+      "sample_hit_index": 1430,
+      "locator": "line:17",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT O Core Modules/O9-10_intro.txt",
+      "title": "O9-10_intro",
+      "record_count": 44,
+      "best_score": 75,
+      "first_hit_index": 1640,
+      "sample_hit_index": 1646,
+      "locator": "line:17",
+      "matched_terms": [
+        "name:*O9*",
+        "path:*O9*",
+        "m^2 = k",
+        "beta Q^2"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FORMALIZATION DEVELOPMENTS/LEAN CHECK_drafts/SATO-BLOCKWAVE_leancheck.txt",
+      "title": "SATO-BLOCKWAVE_leancheck",
+      "record_count": 153,
+      "best_score": 72,
+      "first_hit_index": 1005,
+      "sample_hit_index": 1055,
+      "locator": "line:159",
+      "matched_terms": [
+        "name:*BLOCKWAVE*",
+        "path:*BLOCKWAVE*",
+        "mass spectrum"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01•25.09.13•♾️ SAT_O METASUPERVISOR — raw.json",
+      "locator": "message:1a5dbd9d-d0dd-4915-8c70-ce3d225d1c67",
+      "matched_terms": [
+        "SAT O9",
+        "O9"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "archive",
+      "path": "archive/Document Comparison and Integration — raw.json",
+      "locator": "message:acddb333-7b3e-4505-bbf1-e1302cae23fc",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton",
+        "mass spectrum"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07•25.06.08•Document Comparison and Integration — raw.json",
+      "locator": "message:acddb333-7b3e-4505-bbf1-e1302cae23fc",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton",
+        "mass spectrum"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "archive",
+      "path": "archive/Document Comparison and Integration — raw.json",
+      "locator": "message:79621e50-3563-4ca7-b0ea-1b2f95697034",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07•25.06.08•Document Comparison and Integration — raw.json",
+      "locator": "message:79621e50-3563-4ca7-b0ea-1b2f95697034",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01•25.09.13•♾️ SAT_O METASUPERVISOR — raw.json",
+      "locator": "message:677960e7-7667-42bf-bf53-397b70241168",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton",
+        "mass spectrum"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01•25.09.13•♾️ SAT_O METASUPERVISOR — raw.json",
+      "locator": "message:bc98fb3c-9820-45ef-9295-6b45d712af05",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton",
+        "mass spectrum"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01•25.09.13•♾️ SAT_O METASUPERVISOR — raw.json",
+      "locator": "message:76a16b95-1d09-4c9f-8ce5-670f4307e011",
+      "matched_terms": [
+        "SAT O9",
+        "O9",
+        "graviton",
+        "mass spectrum"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
