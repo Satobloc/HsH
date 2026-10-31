@@ -128,7 +128,7 @@ The 2026-06-09 “Prehistory of SAT” creator/admin SRT has a cue containing th
 
 ### 3.7 Existing Lean result
 
-PR #982, branch `research/aldus-o9-audit-identity-20261029t0612z`, head `14c713...`, contains `AldusO9ClaimGranularity.lean`. Exact-head CI run #41182177659 succeeded under Lean 4.34.0/Mathlib 4.34.0. The retrieved build log reports ten theorem-specific outputs, no axioms for the O9 chronology/count theorems, and zero `sorryAx` occurrences. Separate tests, lint, nanoda, and automated axiom audit were not run.
+PR #982, branch `research/aldus-o9-audit-identity-20261029t0612z`, exact head `14c713fe7e1fc0853760a64bf6cd26a1cbacd7d8`, based on `research/aldus-satx-witness-chronology-20261027t20z`, contains `AldusO9ClaimGranularity.lean`. Exact-head CI run #41182177659 succeeded under Lean 4.34.0/Mathlib 4.34.0. The retrieved build log reports ten theorem-specific outputs, no axioms for the O9 chronology/count theorems, and zero `sorryAx` occurrences. Separate tests, lint, nanoda, and automated axiom audit were not run.
 
 This proves the formalized finite-ledger statements only. It does not authenticate the source translations, establish historical public visibility, or validate any physical premise. The new local-file metadata is not yet represented in that formal ledger and should be treated as a separate metadata-only witness class if added later.
 
