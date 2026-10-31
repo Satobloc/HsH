@@ -63,3 +63,14 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - No physical calculation, CODATA comparison, new tool, production workflow, scheduler, TOP, paper, or theory change.
 - Next: verify exact-head CI on `170b929edfdf1d27fcc466e6db603c36dc671a51`; inspect all nine theorem-specific axiom outputs and full-log `sorryAx`. Keep PR #951 draft/open/unmerged.
 - Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0424Z_from_s2_to_s3_nadir_voss.md`; no assignment or response obligation.
+
+## 2026-10-31T0436Z — exact-head proof verified
+
+- The first constructive patch at `170b929edfdf1d27fcc466e6db603c36dc671a51` failed exact-head run #41168711433 because `orsonRecord` was not unfolded before field projection.
+- Corrected the same existing PR #951 branch at `12b6487cc8e163d333b58bae9da920205a91fb4a`; module blob `8484d62eaf76eb3139a57462f446720eed1e6aee`.
+- Exact-head Lean run #41168950813 / job #124442528880 **SUCCESS**; tested merge checkout `6e642a8959e47f18c6eebb3b82084ea27d638b1b`; Lean 4.34.0 / Lake 5.0.0; 8,950 build jobs.
+- `EliasProofTargetIdentity` built; nine theorem-specific axiom outputs inspected; zero `sorryAx` in the complete job log. Some negative field-mismatch theorems depend on standard `propext`, `Classical.choice`, `Quot.sound`; three theorem targets have no axiom dependencies. Four non-fatal unnecessary-`simpa` warnings remain. Separate test/lint/automated axiom-audit stages did not run.
+- Separate push-triggered `conversation-json-content-ci` run #41168947188 failed with zero job records; it is not the Lean verification.
+- Existing issue #1121 received additive comment #6539087662; exact readback SHA-256 `0b26d3ed7567938c4176aaaa4b7d77bc9c83e19b4b6cc0e28ff2bf4eed8e43f6`.
+- PR #951 remains draft/open/unmerged. Proof scope is the formalized finite predicate only; no GitHub/source/CI/Python/production/physics truth is established.
+- No POC or production workflow change, no physical calculation, no theory promotion.
