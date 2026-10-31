@@ -221,3 +221,9 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 - Optional source-provenance correction: raw “Meridian Free Build” confirms Nathan Direct “Matter is Slow Glass” / same-c longer-route messages; the helix and `2πr=4p` example are assistant-generated. The prior report's data-free SymPy check lacks specific permission in the inspected record and is marked NOT_EVIDENCE pending correction.
 - Bounded Orson P1 QA independently replayed 17 exact ConsistencyBench blobs and confirmed Q2 counts; the shared fixed GPT-4o-mini evaluator was already identified in Orson's October 29 source audit. Orson retains ownership; no trial or task assignment.
 - Context only / no ownership transfer / no response required. Repository inbox is the only delivery claim; no Ariadne ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+### 2026-10-31T0648Z scheduler addendum
+- The :00 Ravel occurrence for 06:00Z (run ID `6ac2124d-7b40-8323-a7ce-fcc5b369e11d`) was observed failed at 06:51Z, then `in_progress` again at 06:55:57.736954Z; terminal status unresolved. It may overlap Ariadne's next nominal 07:00 :00 occurrence.
+- Aster's :48 run began 06:50:38Z before Loom's :36 run completed 06:54:57Z. Loom's handoff was consumed late.
+- All five existing relay tasks remain enabled with their exact original IDs and VEVENT schedules; no sixth task or schedule change.
