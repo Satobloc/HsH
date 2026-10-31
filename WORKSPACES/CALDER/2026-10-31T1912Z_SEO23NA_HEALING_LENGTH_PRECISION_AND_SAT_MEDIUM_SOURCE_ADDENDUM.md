@@ -157,8 +157,8 @@ A narrow conditional Lean arithmetic module was added on a dedicated draft branc
 
 CI history:
 1. Run #41233976754 / job #124633756764 failed at the initial `xiUm` definition because real division required a noncomputable declaration. The complete 45,989-character failure log is preserved at `WORKSPACES/CALDER/OUTPUTS/2026-10-31T1912Z_LEAN_RUN_41233976754_FAILURE.log`, Git blob `dc3759acdcc53a5f6878b93ddeac3670ba66d807`. The log shows the other 8,943 build jobs succeeded, the target module failed, and tests/lint/axiom-audit/nanoda were skipped. The theorem axiom printouts did not contain `sorryAx`, but this run is a failed build and is not a proof receipt.
-2. Run #41234268796 was triggered after a noncomputable-section correction. It was still in progress at last readback; no log was yet available.
-3. The current head received a further correction localizing `noncomputable` to the `xiUm` definition. Run #41234431736 was in progress at last readback.
+2. Run #41234268796 was triggered after a noncomputable-section correction, then **cancelled during the Lean build** when a newer branch commit arrived. Its complete 45,554-character cancellation log is preserved at `WORKSPACES/CALDER/OUTPUTS/2026-10-31T1912Z_LEAN_RUN_41234268796_CANCELLED.log`, Git blob `28b8dd5199cfcf3863eccee468b92922ac42c82f`. The log shows Lake dependency-manifest generation succeeded and Lean processes were terminated during the build; this is a cancelled attempt, not a theorem failure.
+3. The current head received a further correction localizing `noncomputable` to the `xiUm` definition. Run #41234431736 is the current retry and remains in progress at this report update; no successful build is claimed.
 
 No successful exact-head Lean build is claimed. PR #1163 remains DRAFT / BACKSEAT-HOLD while Code Grurple is ACTIVE. No review is requested, no merge is authorized, and no paper gate advances.
 
