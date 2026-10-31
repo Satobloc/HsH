@@ -26,25 +26,91 @@ RING = (
 EPOCH = datetime(2026, 10, 11, tzinfo=timezone.utc)
 PHASE = (0, 12, 24, 36, 48)
 KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
+LEGACY_KEY = re.compile(r"^REVROT3-19-(\d{8}):(\d{2}):s([0-4])$")
 BOLD_FIELD = re.compile(r"^\s*-\s*\*\*(.+?):\*\*\s*(.+?)\s*$")
-PLAIN_FIELD = re.compile(r"^\s*([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
+PLAIN_FIELD = re.compile(r"^\s*(?:-\s*)?([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
+STRUCTURED_FIELDS = {
+    "run_key", "selected_identity", "selected", "worker_identity",
+    "next_identity", "next_selected", "next_run_key",
+    "delivery_verified", "checkin_status", "count_this_as_miss",
+    "reconstruction_trigger", "participation_class", "status",
+    "from_run_key", "to_run_key", "sender_identity", "recipient_identity",
+    "from_identity", "to_identity", "from_selected", "recipient_selected",
+    "chat_delivery_state", "historical_chat_delivery",
+    "delivery_counts_as_invitation", "verified_message_id",
+    "chat_message_id", "delivery_receipt_id", "handoff_class",
+}
+KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key"}
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
 
 def field_name(value):
     return value.strip().lower().replace(" ", "_").replace("-", "_")
 
-def data(text):
-    """Parse both documented receipt dialects without interpreting prose."""
+def data(text, conflicts=None):
+    """Parse only recognized metadata fields before the first narrative section."""
     result = {}
     for line in text.splitlines():
+        if line.lstrip().startswith("## "):
+            break
         match = BOLD_FIELD.fullmatch(line) or PLAIN_FIELD.fullmatch(line)
-        if match:
-            result[field_name(match[1])] = match[2].strip().strip(chr(96))
+        if not match:
+            continue
+        key = field_name(match[1])
+        if key not in STRUCTURED_FIELDS:
+            continue
+        value = match[2].strip().strip(chr(96))
+        if key in KEY_FIELDS and ";" in value:
+            value = value.split(";", 1)[0].strip().strip(chr(96))
+        if key in result and result[key] != value:
+            if conflicts is not None:
+                conflicts.append((key, result[key], value))
+            continue
+        result[key] = value
     return result
 
 def parse_key(value):
-    m = KEY.fullmatch((value or "").strip(chr(96)))
-    return (int(m[1]), int(m[2])) if m else None
+    raw = (value or "").strip().strip(chr(96)).rstrip(";").strip()
+    m = KEY.fullmatch(raw)
+    if m:
+        return int(m[1]), int(m[2])
+    legacy = LEGACY_KEY.fullmatch(raw)
+    if legacy:
+        moment = datetime.strptime(legacy[1] + legacy[2], "%Y%m%d%H").replace(tzinfo=timezone.utc)
+        hours = (moment - EPOCH).total_seconds() / 3600
+        if hours.is_integer():
+            return int(hours), int(legacy[3])
+    return None
+
+def canonical_identity(value):
+    if not value:
+        return None
+    raw = value.strip().strip(chr(96))
+    for name in sorted(RING, key=len, reverse=True):
+        if raw == name or re.match(rf"^{re.escape(name)}(?=$|[\s,(\-—])", raw):
+            return name
+    return raw
+
+def identity_hint(text, which):
+    header = []
+    for line in text.splitlines():
+        if line.lstrip().startswith("## "):
+            break
+        header.append(line)
+    source = "\n".join(header)
+    for name in sorted(RING, key=len, reverse=True):
+        if which == "selected":
+            patterns = (
+                rf"\bselected\s+ring\[\d+\]\s+{re.escape(name)}\b",
+                rf"(?<!next )\bindex\s*=\s*\d+\s+{re.escape(name)}\b",
+            )
+        else:
+            patterns = (
+                rf"\bnext\s+ring\[\d+\]\s+{re.escape(name)}\b",
+                rf"\bnext\s+index\s*=\s*\d+\s+{re.escape(name)}\b",
+            )
+        if any(re.search(pattern, source, flags=re.I) for pattern in patterns):
+            return name
+    return None
 
 def identity(h, s):
     return RING[(5 * h + s) % len(RING)]
@@ -72,19 +138,32 @@ class Audit:
             self.error(p, f"timestamp {match[1]} != {expected}")
 
     def receipt(self, p):
-        d = data(p.read_text(encoding="utf-8"))
-        key = parse_key(d.get("run_key"))
+        text = p.read_text(encoding="utf-8")
+        conflicts = []
+        d = data(text, conflicts)
+        for key_name, earlier, later in conflicts:
+            self.error(p, f"conflicting structured field {key_name}: {earlier!r} vs {later!r}")
+        raw_key = d.get("run_key")
+        key = parse_key(raw_key)
         if not key:
             self.error(p, "invalid/missing run_key")
             return
         h, s = key
+        if LEGACY_KEY.fullmatch((raw_key or "").strip().strip(chr(96))):
+            self.warnings.append(f"{p.name}: legacy display-date run_key normalized to epoch-hour form")
         self.check_stamp(p, h, s)
         if key in self.receipts:
             self.error(p, f"duplicate receipt, earlier: {self.receipts[key]}")
         self.receipts[key] = p.name
-        if d.get("selected_identity") != identity(h, s):
+        selected_raw = d.get("selected_identity") or d.get("selected") or d.get("worker_identity")
+        selected = canonical_identity(selected_raw) or identity_hint(text, "selected")
+        if not selected_raw and selected:
+            self.warnings.append(f"{p.name}: selected identity recovered from explicit index/selected-ring header")
+        if selected != identity(h, s):
             self.error(p, f"selected identity not ring[{5*h+s} mod 19]")
-        if "next_identity" in d and d["next_identity"] != identity(*next_hop(h, s)):
+        next_raw = d.get("next_identity") or d.get("next_selected")
+        next_identity = canonical_identity(next_raw) or identity_hint(text, "next")
+        if next_identity and next_identity != identity(*next_hop(h, s)):
             self.error(p, "next identity mismatch")
         if "next_run_key" in d and parse_key(d["next_run_key"]) != next_hop(h, s):
             self.error(p, "next run key mismatch")
@@ -101,27 +180,45 @@ class Audit:
             self.error(p, "NO_ACCESS receipt claims genuine revived execution")
 
     def handoff(self, p):
-        d = data(p.read_text(encoding="utf-8"))
+        text = p.read_text(encoding="utf-8")
+        conflicts = []
+        d = data(text, conflicts)
+        for key_name, earlier, later in conflicts:
+            self.error(p, f"conflicting structured field {key_name}: {earlier!r} vs {later!r}")
         src = parse_key(d.get("from_run_key"))
         dst = parse_key(d.get("to_run_key"))
         if not src or not dst:
             self.error(p, "invalid/missing from_run_key or to_run_key")
             return
         h, s = src
+        if LEGACY_KEY.fullmatch((d.get("from_run_key") or "").strip().strip(chr(96))) or LEGACY_KEY.fullmatch((d.get("to_run_key") or "").strip().strip(chr(96))):
+            self.warnings.append(f"{p.name}: legacy display-date handoff key normalized to epoch-hour form")
         self.check_stamp(p, h, s)
         if src in self.handoffs:
             self.error(p, f"duplicate handoff, earlier: {self.handoffs[src]}")
         self.handoffs[src] = p.name
         if dst != next_hop(h, s):
             self.error(p, f"wrong successor key: {dst} != {next_hop(h,s)}")
-        if d.get("sender_identity") != identity(*src):
+        sender_raw = d.get("sender_identity") or d.get("from_identity") or d.get("from_selected")
+        recipient_raw = d.get("recipient_identity") or d.get("to_identity") or d.get("recipient_selected")
+        sender = canonical_identity(sender_raw)
+        recipient = canonical_identity(recipient_raw)
+        if not d.get("sender_identity") and sender_raw:
+            self.warnings.append(f"{p.name}: sender identity recovered from documented alias field")
+        if not d.get("recipient_identity") and recipient_raw:
+            self.warnings.append(f"{p.name}: recipient identity recovered from documented alias field")
+        if sender != identity(*src):
             self.error(p, "sender identity mismatch")
-        if d.get("recipient_identity") != identity(*dst):
+        if recipient != identity(*dst):
             self.error(p, "recipient identity mismatch")
         f = re.search(r"_from_s([0-4])_to_s([0-4])_", p.name)
         if f and (int(f[1]), int(f[2])) != (s, dst[1]):
             self.error(p, "filename routing slots mismatch")
-        chat = d.get("chat_delivery_state", "").upper()
+        chat_raw = d.get("chat_delivery_state") or d.get("historical_chat_delivery")
+        chat = (chat_raw or "").upper()
+        if chat in ("UNAVAILABLE_NOT_SENT", "CHAT_POST_UNAVAILABLE", "CHAT_DELIVERY_UNAVAILABLE"):
+            chat = "UNAVAILABLE"
+            self.warnings.append(f"{p.name}: unavailable chat status normalized from explicit alias")
         invitation = d.get("delivery_counts_as_invitation", "").lower()
         if chat == "UNAVAILABLE" and invitation in ("true", "yes", "1"):
             self.error(p, "unavailable chat delivery counted as an invitation")
@@ -149,12 +246,26 @@ class Audit:
                 # Manual continuations and retrospectively recovered records are
                 # valuable evidence but NOT proof of a nominal scheduler firing.
                 # Never apply strict on-time stamp/run-key assertions to them.
-                beginning = file.read_text(encoding="utf-8")[:800]
+                full_text = file.read_text(encoding="utf-8")
+                beginning = full_text[:800]
                 if "_manual" in file.name.lower() or "Retrospective recovery receipt" in beginning:
                     kind = "manual" if "_manual" in file.name.lower() else "retrospective"
                     self.out_of_band.append(f"{file.name}: {kind}")
                     self.warnings.append(f"{file.name}: {kind} evidence, excluded from scheduled-run totals")
                     continue
+                if subdir == "REVIVAL_ROTATION_HANDOFFS":
+                    fields = data(full_text)
+                    first_line = next((line.strip() for line in full_text.splitlines() if line.strip()), "")
+                    context_marker = (
+                        first_line.lower().startswith("# optional handoff")
+                        or fields.get("handoff_class", "").upper().startswith("CONTEXT_ONLY")
+                        or "CONTEXT_ONLY / NO_TASK_TRANSFER" in beginning
+                    )
+                    no_run_keys = not fields.get("from_run_key") and not fields.get("to_run_key")
+                    if context_marker and no_run_keys:
+                        self.out_of_band.append(f"{file.name}: context-only handoff")
+                        self.warnings.append(f"{file.name}: context-only handoff, excluded from scheduled-run totals")
+                        continue
                 inspect(file)
         for key, name in self.receipts.items():
             if key not in self.handoffs:
@@ -186,8 +297,6 @@ def self_test():
         receipt.write_text("- **run_key:** REVROT3-19-20261011:12:s3\n- **selected_identity:** Aldus\n- **next_identity:** Calder\n- **next_run_key:** REVROT3-19-20261011:12:s4\n- **delivery_verified:** false\n", encoding="utf-8")
         packet.write_text("- **from_run_key:** REVROT3-19-20261011:12:s3\n- **to_run_key:** REVROT3-19-20261011:12:s4\n- **sender_identity:** Aldus\n- **recipient_identity:** Calder\n- **chat_delivery_state:** UNAVAILABLE\n- **delivery_counts_as_invitation:** false\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "PASS"
-        # Current relay artifacts commonly use plain key/value lines. They must
-        # audit identically to the older bold-list dialect.
         receipt.write_text("run_key: REVROT3-19-20261011:12:s3\nselected_identity: Aldus\nnext_identity: Calder\nnext_run_key: REVROT3-19-20261011:12:s4\ndelivery_verified: false\n", encoding="utf-8")
         packet.write_text("from_run_key: REVROT3-19-20261011:12:s3\nto_run_key: REVROT3-19-20261011:12:s4\nsender_identity: Aldus\nrecipient_identity: Calder\nchat_delivery_state: UNAVAILABLE\ndelivery_counts_as_invitation: false\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "PASS"
@@ -196,7 +305,50 @@ def self_test():
         receipt.write_text(receipt.read_text().replace("count_this_as_miss: true\n", ""), encoding="utf-8")
         packet.write_text(packet.read_text().replace(":s4\n", ":s3\n"), encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
-    return {"status": "PASS", "checks": 7}
+
+        # Real modern bullet/semicolon dialect plus identity and delivery aliases.
+        receipt.write_text(
+            "- run_key: REVROT3-19-20261011:12:s3; h=12, seq=63, index=6 Aldus; next index=7 Calder at 12:48Z.\n",
+            encoding="utf-8",
+        )
+        packet.write_text(
+            "from_run_key: REVROT3-19-20261011:12:s3\n"
+            "to_run_key: REVROT3-19-20261011:12:s4\n"
+            "from_selected: Aldus-selected, current assistant reconstruction\n"
+            "recipient_selected: Calder (7)\n"
+            "historical_chat_delivery: UNAVAILABLE_NOT_SENT\n"
+            "delivery_counts_as_invitation: false\n",
+            encoding="utf-8",
+        )
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
+
+        # Date-based legacy keys normalize to the fixed epoch, including negative h.
+        assert parse_key("REVROT3-19-20261012:07:s3") == (31, 3)
+        assert parse_key("REVROT3-19-20261010:23:s4") == (-1, 4)
+
+        # Explicit optional context packets are not scheduled handoffs.
+        optional = h / "2026-10-31T0224Z_from_s2_to_s0_sable.md"
+        optional.write_text("# Optional handoff | Orson Vay -> Sable\n\nRepository-only context.\n", encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS"
+        assert result["handoffs"] == 1 and any("context-only handoff" in w for w in result["warnings"])
+
+        # An unmarked or partial handoff must still fail closed.
+        malformed = h / "2026-10-11T1236Z_from_s3_to_s0_unknown.md"
+        malformed.write_text("# Handoff\nNo machine run keys.\n", encoding="utf-8")
+        assert Audit().check(temp)["status"] == "FAIL"
+
+        conflicts = []
+        parsed = data(
+            "run_key: REVROT3-19-20261011:12:s3\n"
+            "run_key: REVROT3-19-20261011:12:s4\n"
+            "## Narrative\nrun_key: REVROT3-19-20261011:12:s0\n",
+            conflicts,
+        )
+        assert parsed["run_key"] == "REVROT3-19-20261011:12:s3"
+        assert conflicts == [("run_key", "REVROT3-19-20261011:12:s3", "REVROT3-19-20261011:12:s4")]
+    return {"status": "PASS", "checks": 14}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
