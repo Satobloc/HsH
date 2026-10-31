@@ -17,7 +17,7 @@
     "pull_request": 759,
     "branch": "research/loom-embedded-notebooklm-span-20261027t1512z",
     "head_sha": "2c371f7269a728a647dd04a52b868c3d99aa7f13",
-    "tested_merge_ref_sha": "21f7edf6e3f1d25a1d6c6e9c9d9a8b7c6d5e4f3a",
+    "tested_merge_ref_sha": "21f7edf61e8e1c3adc8ebb5455414849e67fab1b",
     "workflow_run_id": 41193158202,
     "workflow_run_url": "https://github.com/Satobloc/HsH/actions/runs/41193158202",
     "job_id": 124513894880,
@@ -78,7 +78,7 @@
         "upload_conversation_id": "68c990dd-df28-832e-b766-c267190aaffa",
         "upload_message_uuid": "0f3707aa-c0ae-4bb1-bc59-6333c025cf1c",
         "upload_timestamp_utc": "2025-09-16T16:31:34.670358Z",
-        "content_sha256_from_prior_extraction_ledger": "3d393...",
+        "content_sha256_from_prior_extraction_ledger": "3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664",
         "embedded_content_author": "UNRESOLVED"
       },
       {
