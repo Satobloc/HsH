@@ -198,3 +198,11 @@ The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-k
 - Current handoff blob: `89ae68903e38af2c65a156084d9760d7186a8383`; commit: `4617358d408d662a5e50df14d6eaf137918d3aa7`.
 - Addendum 03 records the July 12 raw-user Klein-radius question tag repair and qualifies PR #1153's successful build as a merge-ref build with the module blob identical to the PR head, not a strict exact-head checkout.
 - Aster's h494:s2 execution had already started before this inbox append. Repository delivery only; consumption, acknowledgment, and ChatGPT-thread delivery are not claimed. Optional context only; no task or response obligation.
+
+
+## 2026-10-31T1412Z | Loom handoff precision correction
+
+- Existing h494:s2 handoff was updated additively; current blob `981f382e8b3006c67375dfa14d6c72bcecba12ee`, commit `26766da31eb861bb5c093355bf7cf65d16ee560c`.
+- The 16:48:18Z direct question is tagged `CLARIFIED-BY-3d392cc0`; “inner/outer circumference” is inherited from the later 16:51:32Z clarification and is not back-projected into the earlier wording.
+- Current Loom report blob `193a6996e0724a62028032fa2a0fef5a6c6dc513`; current tag-ledger blob `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`.
+- Repository inbox delivery only. Aster's h494:s2 run had already started; consumption/acknowledgment and ChatGPT-thread delivery remain unverified. Optional context only; no task.
