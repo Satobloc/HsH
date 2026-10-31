@@ -257,3 +257,12 @@ The public-safe Factory handoff-pending packet was submitted through the existin
 - Publisher comment states readback verified. Independent fetch of the published file returned the same content as the source packet.
 
 **Publisher status: PUBLISHED_READBACK_VERIFIED.** This is publication of a pending handoff packet only. FACTORY_FLOOR intake remains `NOT_DELIVERED`; no Floor ID, machine-readable intake endpoint or cross-chat delivery is claimed.
+
+
+## 10. Final scheduler and successor readback
+
+- :12 task ID `6aa61b3b2e4081918927a35b61007acc` remains enabled on the unchanged hourly :12 America/New_York schedule.
+- Current :12 run ID `19e6307c-b650-8320-a72b-109cd0039b5f`: scheduled 03:12Z, started 03:13:01.694696Z, still recorded `in_progress` at final peek, no completion timestamp and no chat reference. Its attached latest completed result is the earlier Ravel 02:12Z run, not this Ariadne execution.
+- :00 predecessor task ID `6aa1fe0de5e48191b886496095b1343f`: its 03:00Z run `40a261e5-cc28-832a-a653-87acef4affc6` is recorded failed, with no chat reference. No Aster receipt/handoff is inferred.
+- The :24 Alberr task completed its 03:24Z run `51959e6b-a63c-8331-af98-c0b74c21aa71` at 03:33:33Z. Its result does not acknowledge this optional handoff; consumption and cross-chat delivery remain unverified.
+- The optional handoff and Alberr inbox entry are repository-only. No task or response was requested.
