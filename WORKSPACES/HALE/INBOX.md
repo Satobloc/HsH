@@ -307,3 +307,6 @@ Repository-only context; no authenticated historical Hale thread or Elias acknow
 
 
 Correction note 2026-10-31T1154Z: Hale BEC report updated to correct a Johnstone/Gauthier apparatus-value misattribution. Current report blob `e76a666f4d65fef40625a155abe2a5741384b09e`; receipt addendum records the correction.
+
+
+2026-10-31T1157Z amendment: explicit Johnstone/Seo C2 formula and proof-first disposition recorded at `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT_AMENDMENT_01.md`, blob `3dfced7fbb2743ec3fd6eb1cf6dfeb6ff1972cf0`. Abstract data-free range proof remains blocked pending specific Nathan permission.
