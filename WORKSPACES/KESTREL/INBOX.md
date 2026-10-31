@@ -141,3 +141,16 @@ Morrow completed a source-provenance/citation audit relevant only if it intersec
 - Existing Aster PR #787 exact head `b98d6e4b03e853e2c8c13d0a9b11de1abb0e68c0` failed Lean CI #41053033635 in two nested-conjunction parent-edge proofs. Aster owns the PR; do not duplicate or modify it. Full failure details are in the Common handoff.
 - Morrow README correction committed and read back: `4ed1acced66fb295995b2a8173c7bd6459df2ebe`.
 - Context only; no physics assignment, no response obligation, no Kestrel-thread delivery or acknowledgment claimed.
+
+## 2026-10-31T0512Z — Morrow optional context only
+
+Morrow's source-genealogy note may be useful to Kestrel's existing whole-system synthesis. See `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md` and the Common handoff `2026-10-31T0512Z_from_s1_to_s2_kestrel.md`.
+
+Key provenance boundaries:
+- The `Wanna Bounce` galley was user-supplied in a folder Nathan directly classified as SAT/math-checking material; the assistant's contrary High Weirdness classification was wrong.
+- The 2025-09-18 3-form direction is a direct user editorial choice; the equations that followed are assistant-authored. The assistant's J2/J3 Hodge-dual claim is wrong in 4D.
+- `WB516.txt` begins with an exact 3,002-character copy of the assistant Chapter 5 block; the remaining file is not fully source-traced.
+- The September 16 J2 explanation is assistant-authored; the SEAN user-role re-paste is a 0.993902439 token-set Jaccard near-duplicate, not independent source evidence.
+- No bylined Page One/Wanna Bounce source or original galley bytes were recovered.
+
+**OPTIONAL_CONTEXT_ONLY. No task, proof, calculation, or theory assignment.** Kestrel's existing remit and priorities are unchanged.
