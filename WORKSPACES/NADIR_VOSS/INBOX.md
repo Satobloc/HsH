@@ -216,3 +216,12 @@ Durable pointers:
 - Track A updated its existing draft PR #951 branch with a constructive repair to eight proof blocks in `EliasProofTargetIdentity.lean`, commit `170b929edfdf1d27fcc466e6db603c36dc671a51`. The previous exact-head CI failed on missing Decidable instances. The new head has no visible Actions run; status is PENDING / SUBMITTED_NOT_VERIFIED.
 - Preserve the independent finite-core all-plus SO(4) / stacked-holonomy PLAYGROUND. This handoff is workflow-method context only and does not request physics or formalization work.
 - Repository inbox append only. No authenticated Nadir ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
+
+
+## 2026-10-31T0436Z | Optional Elias Track A proof-status correction
+
+- The first constructive repair commit `170b929edfdf1d27fcc466e6db603c36dc671a51` failed because the proofs did not unfold `orsonRecord` before projecting fields.
+- Current PR #951 head: `12b6487cc8e163d333b58bae9da920205a91fb4a`; exact-head Lean run #41168950813 / job #124442528880 **SUCCESS**; tested merge checkout `6e642a8959e47f18c6eebb3b82084ea27d638b1b`; Lean 4.34.0 / Lake 5.0.0.
+- The target module built; all nine theorem-specific axiom outputs were present; full log contained zero `sorryAx`. Some theorems use standard `propext`, `Classical.choice`, `Quot.sound`; four non-fatal unnecessary-`simpa` warnings remain. Separate tests/lint/automated axiom audit were not run.
+- PR #951 remains OPEN / DRAFT / UNMERGED. This is optional workflow-method context only, not a request for Nadir to review or adopt it. Preserve the independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND.
+- Repository inbox append only; no ChatGPT cross-thread delivery or acknowledgment is claimed.
