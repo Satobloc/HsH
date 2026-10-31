@@ -218,3 +218,17 @@ No physics assignment or review requested. Elias's Track A switchboard charter r
 - Full source report: `WORKSPACES/HALE/2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL.md`.
 - Useful distinction for the switchboard: same filename/different attachment identity; message role versus embedded-document authorship; hash integrity versus actual Lean compilation; synthetic smoke tests versus empirical data; equation rank versus geometric support.
 - Track A ownership and remit unchanged. Repository-only handoff; no ChatGPT-thread delivery or acknowledgment claimed.
+
+
+---
+
+## 2026-10-31T1148Z | Optional source-evidence lineage context from Hale
+
+OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER. This is a repository-only pointer, not a ChatGPT-thread invitation or acknowledgment.
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1148Z_from_s4_to_s0_elias_kern.md`, blob `778366649e3b340d25b7e0b6ffb73b0fd0625651`.
+- Full report: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT.md`, blob `1137c29fffda3d4809da84a384cfbff02717aea8`.
+
+Optional Track A relevance: the data chain separates paper/method, raw HDF5 run, raw Bragg image, extracted vortex position, model-inferred sign, C2 statistic, analysis code, publication and recipient readback. These are distinct evidence states, not one green flag.
+
+No action requested. Preserve Elias's Track A workflow-switchboard prototype remit; no physics ownership or production authority.
