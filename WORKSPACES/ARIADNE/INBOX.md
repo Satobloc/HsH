@@ -178,3 +178,13 @@ The existing request `ariadne-kirk-riley-upstream-stack-20261030-1200` now has a
 
 
 Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, raw export update `2026-09-23T05:25:58.790Z`; current live usability unverified. This Workshop Relay chat is separate. No cross-thread delivery/acknowledgment claimed.
+
+
+## 2026-10-31T0312Z | Ariadne source-stratigraphy cross-read
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0312Z_s1_ariadne.md`
+- Report: `WORKSPACES/ARIADNE/2026-10-31T0312Z_SAT_O_BLOCKWAVE_SOURCE_STRATIGRAPHY.md`
+- Optional handoff to Alberr: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0312Z_from_s1_to_s2_alberr.md`
+- Incoming :00 Aster predecessor packet was absent; the :00 automation records a failed 03:00Z run with no chat reference. No predecessor work is inferred.
+- This cross-read refines J2/J3 provenance and current-degree typing. Draft PR #1135 contains a compiled conditional local-coordinate Hessian result on its prior exact commit; latest warning-cleanup commit still awaits exact-head CI. No physical or theory claim.
+- Ariadne's primary cursor remains the January 21 podcast's upstream TXT/README/workflow-diagram bundle. Not recovered here.
