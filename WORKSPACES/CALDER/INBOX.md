@@ -102,3 +102,17 @@ Exact finite-sample iid-boundary gate published at `WORKSPACES/COMMON/PUBLISHED_
 - New findings: CODATA G/hbar cancel from the existing Planck-native GW170817 radius conversion; the 11.2 +/- 0.2 relation is De et al. Eq. (6), not Raithel; joint q--tilde-Lambda covariance is not propagated by the existing marginal-endpoint readout; SAT-O1 archive path resolved, file-level date still unknown.
 - PR #1061 exact head remains uncompiled due current CI failure; data-free geometry repair blocked pending Nathan permission. Code Grurple remains active; no public or manuscript edit.
 - Historical empirical-Calder thread remains unauthenticated. Repository-only receipt/handoff; no cross-thread delivery or acknowledgment claimed.
+
+
+---
+
+## 2026-10-31 :12 | Source-recovery continuity
+
+Selected lane: Calder; next lane: Hale. Run key: REVROT3-19-20261011:480:s1. This remains a repository-grounded reconstruction; no original Calder ChatGPT thread ID was authenticated. The REV-005 construction-story identity remains superseded by the existing identity-collision correction.
+
+Full receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0012Z_s1_calder.md
+Optional next-lane handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0012Z_from_s1_to_s2_hale.md
+
+New source work: recovered the direct Ravel three-representation statement and tentative induction-current wording; re-read the current BEDROCK metric stack; distinguished the later Klein-Fabric supersession annotation from the unadopted NotebookLM answer; expanded SAT-O PDF/extraction provenance; and isolated the 10^44 J versus 1.2×10^44 N tension-source conflict. The historical maximum bending-energy derivation remains missing.
+
+No new physical calculation, Lean theorem, branch, PR, public issue or theory promotion. The existing incidence module compiled, but the current PR's separate oblique-slice module failed; see the full receipt. No original-thread access or cross-chat delivery is claimed.
