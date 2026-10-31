@@ -86,6 +86,8 @@ The SAT4D project-document set has separate, exact provenance:
 | `SAT 4D Theory Work/SAT4D_DERIVATIONS_MASTER.tex` | `e2db11592040fd6962d3b7a9528e1386275eb830` | SATO.4D Coherence Project, June 2025 | D5 gives the coupling variant (g_G^{-2}=\rho_G\ell_f^2). |
 | `SAT-O Theory Work/pre-mathproofBAK.txt` | `843efca87b817ed75a03278225aca5cc615cdc7a` | Unbylined June 22, 2025 compilation | A secondary mathematical compilation, not Nathan Direct equation authorship. |
 
+The unbylined `pre-mathproofBAK.txt` gives, at line 64, the exact pair (g_G^{-2}=\rho_G/2) and (g_G=1/\sqrt{\rho_G}). For (\rho_G>0), those two exact equalities are algebraically incompatible; existing Kestrel theorem `inverse_square_vs_sqrt_normalization` checks only that conditional contradiction. The same file gives a separate approximate relation at line 66, (g_G^{-2}(x)\sim\rho_G(x)\ell_f^2), while the project-level D5 master gives (g_G^{-2}=\rho_G\ell_f^2). These are distinct normalization variants, not one canonical gauge law. The Lean theorem does not validate any physical coupling.
+
 The SAT4D vector-current (J_\mu) is not shown equivalent to either the Blockwave J2 or Page One J3 object. The `SAT4D_4` statement that no metric/connection is assumed a priori must be reconciled with the later covariant-derivative and d'Alembertian definitions; this is a dependency/derivation gap, not proof that an emergent metric cannot be introduced later.
 
 ## 5. Geometry lineage and current constraints
