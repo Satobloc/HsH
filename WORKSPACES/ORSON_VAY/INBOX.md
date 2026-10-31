@@ -297,3 +297,8 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 
 - Optional handoff addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_02.md`.
 - Clarifies that numeric copy weights are calibration-dependent estimates from rounded verbalized-probability means; qualitative copy effects have separate conflict/action-channel support.
+
+
+## 2026-10-31T1348Z | Receipt amendment 02
+
+- Copy-weight calibration boundary and latest readback identities recorded in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_02.md`.
