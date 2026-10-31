@@ -37,6 +37,21 @@ theorem inverse_square_vs_sqrt_normalization
     nlinarith
   nlinarith [hnorm]
 
+
+/-- If a quadratic form is nonnegative on every vector, it cannot assign
+the Lorentzian unit-timelike value -1 to any vector. Applied conditionally:
+the historical Blockwave constraint u^μ u_μ = -1 cannot use the same
+positive-definite native (++++) metric. It requires an explicitly derived
+induced Lorentzian metric or a different, source-supported reformulation.
+This is a signature compatibility gate, not a physical no-go for H(s)H. -/
+theorem positive_metric_excludes_unit_timelike_vector
+    {V : Type*} (q : V → ℝ) (hq : ∀ v, 0 ≤ q v)
+    (u : V) (hunit : q u = -1) : False := by
+  have hnonneg := hq u
+  linarith
+
+#print axioms positive_metric_excludes_unit_timelike_vector
+
 #print axioms inverse_square_vs_sqrt_normalization
 
 end HsHVerification.KestrelGaugeNormalizationGate
