@@ -145,3 +145,24 @@ Ravel's existing candidate map uses (W^4=\bigcup_s K_s^3), 3D normal-core fibers
 8. No physical prediction or CODATA scoring in this geometry-fidelity phase. Any later physical calculation must begin with a named measured system, dataset, provenance, units, uncertainties, and prediction-vs-fit separation.
 
 **Publication:** No public issue submitted. Code Grurple remains active and no Sites editor route is available. No BEDROCK promotion, manuscript/reader edit, branch/PR creation, task/schedule change, signet, or chat rename was made. This handoff is informational only; Ravel's consumption is unverified.
+
+
+## Mersearch-first provenance correction: the 2-form / 3-form fork
+
+The compact Mersearch receipt's first relevant “conserved three-form current” hit is not itself a Nathan Direct equation. It resolves to the assistant-authored Chapter 5 response in the raw `🪡 The Tourist Tailor [e-]` conversation:
+
+- Conversation: `68cad3d4-0ccc-8325-be36-94c5b5527997`
+- Raw blob: `dd2b6141af86dea54e4ba2e782214128619ce78c`
+- User prompt `9dc27aac-b34d-46db-8bb1-be603ba3fb73`, 2025-09-18 15:42:49.979Z: Nathan explicitly asks for the Chapter 5 “fork” and says the train must be lifted onto the track leading to 3-form. This is Nathan Direct conceptual direction.
+- Assistant response `ff0ef513-0f75-4e87-a719-378447788b32`, 15:43:01.515Z: assistant supplies the formal story: (J_{\mu\nu\rho}) fundamental, its Hodge dual a vector, and the 2-form description “as its dual.”
+- User response `4847aa08-b38c-4e87-8692-6f22e8c6ab69`, 15:45:17.370Z: “Ok. Good. Frontispiece.” This accepts the narrative/frontispiece; it does not independently prove or specify the assistant's duality equation.
+
+Mathematical correction: in four dimensions, Hodge star maps a 3-form to a 1-form, not a 2-form. The assistant's phrase “the 2-form description will remain as its dual” has no supplied map and is not standard Hodge duality. A separate sweep/projection or other explicitly typed operation is required.
+
+This gives a more precise genealogy:
+1. Nathan Direct requests a conceptual shift from the earlier 2-form chapter to a 3-form track.
+2. The assistant supplies the detailed 3-form formalization and an unsupported 2-form-duality sentence.
+3. The 2025-10-19 Blockwave assistant later returns to a 2-form (J^{\mu\nu}) “worldsheet” current without defining its relation to the 3-form.
+4. The 2026-02-25 Page One paste contains both rank-3 and rank-2 blocks, but no integral definitions or support map; authorship remains unknown.
+
+Do not call the 3-form direction wholly assistant-invented: the conceptual switch is Nathan Direct. Do not call the detailed current equation or the 2-form/3-form equivalence Nathan Direct: those are assistant formalization until an original equation is recovered. The Mersearch receipt is a lexical navigation aid, not chronology or authority; raw search results were withheld and exclusions remain.
