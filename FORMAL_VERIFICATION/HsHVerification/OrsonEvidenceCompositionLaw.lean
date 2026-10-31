@@ -95,6 +95,7 @@ theorem equal_channel_commute_iff (a margin d1 d2 : ℝ) :
     · exact Or.inr (sub_eq_zero.mp hd)
   · rintro (ha | hd)
     · simp [update, ha]
+      ring
     · simp [update, hd]
 
 #print axioms HsHVerification.OrsonEvidenceCompositionLaw.compose_12
