@@ -2,6 +2,17 @@
 
 Standing rule applied: **if read, tag it**. This ledger is additive metadata only. `ASSISTANT` items are context-only and never Nathan-authorship evidence. Automated candidate-class tags are retained alongside manual topical tags.
 
+## Additive pre-window gap repair | 2026-10-31
+
+The original 16:51:32–18:35:29 EDT ledger window had one earlier raw-user question immediately preceding it. This repair is additive; existing entries below are unchanged. Source export: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`; conversation `6a51def1-1224-83ea-8b56-d9405e694034`; Git blob `b7868607d89f66bbc0e638398182fb2d6b2da2ce`; 579 mapping nodes.
+
+- `16:35:55` `0510ff44-fe47-46e7-bc97-fb25c87f718a` — `TOOL` `CONTEXT_ONLY_NONUSER` `IMPORTED_TEXT` `EMBEDDED_SPEAKER_LABELS_NOT_RAW_ROLE` `TOPOLOGY` `WORLD_TUBE` `COLLAPSE`. Tool-returned text from `HsH AHA TOPOLOGY.txt` contains embedded `NATHAN:` and `CLAUDE:` labels; those labels are not raw ChatGPT speaker metadata and are not promoted as direct authorship.
+- `16:38:23` `a93049ff-c0b8-5a8b-85d7-a5d930ccecd7` — `ASSISTANT` `CONTEXT_ONLY_NONUSER` `NOT-NATHAN-AUTHORSHIP` `KLEIN` `TORUS` `WORLD-SHEET` `TOPOLOGY` `METRIC-VS-TOPOLOGY` `MORSE-THEORY`. Assistant synthesis of the imported note; its proposed equations/classifications remain assistant-origin.
+- `16:48:18` `9671629d-7033-4188-92fb-7809df2933d8` — `USER` `RAW-USER-VERIFIED` `SAT_RUN_CONTEXT` `EXPLORATORY-QUESTION` `KLEIN-BOTTLE` `TORUS` `TOPOLOGY` `RADIUS-INTERPRETATION` `INNER-OUTER-CIRCUMFERENCE` `METRIC-VS-TOPOLOGY` `PREMISE-UNVERIFIED`. Exact wording: “Actually, a torus necessitates two radii by definition. A Klein bottle... is it one radius that traverses the whole surface?” This is a question with an embedded premise, not a settled mathematical proposition or adopted SAT definition.
+- `16:48:39` `3a41ed6a-f33a-5810-a93f-cd11eb3dee12` — `ASSISTANT` `CONTEXT_ONLY_NONUSER` `NOT-NATHAN-AUTHORSHIP` `KLEIN` `CYCLE-STRUCTURE`. The visible assistant turn begins with a generated qualification; no assistant statement is transferred into Nathan's voice.
+
+Relationship: the later direct user clarification `3d392cc0-e113-47de-94f2-4615260b48fd` at 16:51:32 EDT (“I meant two radii in the sense of the radii of the inner/outer circumference”) is already present below and is not duplicated. The later `bed36236`, `54ba3cda`, `b43f5b3e`, and `ac413920` entries remain covered by existing records. No compendium promotion is made: this repair records a direct exploratory question, not a derived result.
+
 - `16:51:32` `3d392cc0-e113-47de-94f2-4615260b48fd` — `USER` `SAT_RUN_CONTEXT` `RAW-USER-VERIFIED` `GEOMETRY-CLARIFICATION`
 - `16:51:52` `f838d0aa-4e03-51ec-a1cf-9b0e85027d1e` — `ASSISTANT` `CONTEXT_ONLY_NONUSER` `CONTEXT-ONLY` `NOT-NATHAN-AUTHORSHIP` `KLEIN`
 - `16:51:53` `f97e91dc-57d9-594d-b0b4-25d82c3539c6` — `ASSISTANT` `CONTEXT_ONLY_NONUSER` `CONTEXT-ONLY` `NOT-NATHAN-AUTHORSHIP` `KERR` `KLEIN` `TORUS` `BEC` `TRANSPORT-LAW`
