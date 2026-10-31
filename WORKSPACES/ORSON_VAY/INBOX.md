@@ -277,3 +277,10 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 
 - Optional handoff addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_01.md`.
 - Clarifies that PR #850 exact-head CI compiled both finite-pattern and Kish modules; finite-pattern non-injectivity is conditional mathematical identifiability, not empirical mechanism validation.
+
+
+## 2026-10-31T1348Z | Receipt hash correction
+
+- Primary receipt preserved: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay.md`.
+- Exact preflight and artifact blob hashes corrected in additive amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_01.md`.
+- Amendment is authoritative for current BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival, role charter, task graph, Code Grurple, presentation gate, and artifact readback hashes.
