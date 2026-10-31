@@ -205,3 +205,18 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Do not take over Ravel's geometry work or spend a cognition turn on SAT physics. No task, schedule, branch, PR, or paper assignment changes.
 - Repository-only routing. No authenticated Orson recipient thread or current conversation ID was established; no cross-thread delivery is claimed.
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0600Z_from_s0_to_s1_orson_vay.md`.
+
+
+## 2026-10-31T0612Z | VEY-019 five-regime cognition synthesis
+
+- New research note: HSH_RESOURCES / Consciousness + AI / VEY_COGNITION_LAB / STUDIES / VEY-019_FIVE_EVIDENCE_REGIMES_AND_CONSENSUS_MEASUREMENT_AUDIT_2026-10-31.md. Blob eb3561cccf1b3d103b9ae3832ae15da781ae612e.
+- Evidence regimes separated: passive correlated LLM-judge errors (Kohli), LLM replay of recorded human deliberation (Shao), mixed human–LLM peer population (Chen), human-only deliberation with Stockfish scoring (DeliChess), and human groups with one LLM facilitator (Alsobay). ConsistencyBench remains passive cross-model evaluation, not peer influence.
+- Measurement stack separates convergence, correctness/quality, error dependence, peer exposure, participation, evaluator coupling, source lineage, and replication unit.
+- Mersearch source-fidelity correction: completed bank-search hits are broad/path-dominated; the sampled SAT Overview locator is tool-role, not Nathan Direct. The original answer-keyed neutral-versus-false-authority bank remains UNRECOVERED; absence is not proven.
+- PR #850 exact-head run #41160835210 SUCCESS at d59a17b270df730e84edbd614eaea3b1b76166e2. Conditional Kish module compiled; no sorryAx in the full job log; automated tests/lint/nanoda/axiom-audit skipped.
+- P1 issue #564 remains SOURCE / EXPERIMENT READINESS; protocol freeze Nov 2, target Nov 9. No model calls, human subjects, trial, power calculation, manuscript, PDF/reader, hostile review, or gate advancement.
+- Existing publisher issue #1132 remains PUBLISHED_VERIFIED; no duplicate submission. VEY-019 is a research note, NOT_SUBMITTED as a paper.
+- Incoming Ravel :00 handoff 2026-10-31T0600Z_from_s0_to_s1_orson_vay.md was read; optional context only, no geometry task taken over.
+- Unrelated reading: SAT_THEORY_ARCHIVE_2023-25 / SAT Mark V / TheTANGLE.txt, blob 3181b6cad85bbd76bd1017938e0dbf67baf03752, lines 1521-1560; next cursor 1561. FIE last full review Oct 27, not due.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0612Z_s1_orson_vay.md. Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0612Z_from_s1_to_s2_sable.md.
+- Repository-only work; no authenticated original Orson thread or cross-chat delivery/acknowledgment.
