@@ -40,7 +40,7 @@ The verified extraction and batch identify message:
 - Timestamp: `2026-09-07T10:06:12.842Z`
 - Role: `user`
 - Raw conversation path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`
-- Raw export blob reported in the source audit: `c49367b...`
+- Raw export blob reported in the source audit: `c49367b0faa424491e7b3520a034b9e44fe6897f`
 - Role-bearing extraction: `WORKSPACES/COMMON/extraction_outputs/2026-09-13-RAVEL-AFTER-025946.md`, blob `2817bc71c6a101198d1547b46ed91447d38402c5`
 - Verified batch: `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-05.md`, blob `0d948062a064ee3db0d5bc39ce0ad46829e222d4`
 
@@ -168,7 +168,7 @@ This is a concrete Review-MIND example of why worker count, report count, source
 ### Sable PR #1098
 
 - Module: `SableCurrentSupportDegreeGate.lean`
-- Exact head: `7666f2...`
+- Exact head: `7666f2cb5b408be77e0c87f3b8ec18cc1950f55a`
 - Exact-head workflow: #41176686005
 - Job: #124465590995
 - Result: SUCCESS; 8,944 build targets.
