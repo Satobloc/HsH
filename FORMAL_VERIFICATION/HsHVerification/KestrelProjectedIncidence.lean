@@ -63,7 +63,6 @@ theorem noninjective_readout_can_create_spurious_overlap :
     · exact ⟨1, by simp [rightSource], by simp [collapsedReadout]⟩
   · ext x
     simp [leftSource, rightSource]
-    omega
 
 /-- Two distinct source sets can have exactly the same non-injective
 readout, so inverse reconstruction is not unique in general. -/
