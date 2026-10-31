@@ -1,29 +1,30 @@
 {
-  "request_id": "enheduanna-page-one-origin-20261031-0100",
-  "requester": "Workshop Relay :00 / Enheduanna source-layer and geometry-fidelity recovery",
-  "requested_at": "2026-10-31T01:00:00Z",
+  "request_id": "loom-optical-kink-objection-origin-20261031-1024",
+  "requester": "Workshop Relay :24 / Loom bounded source-genealogy recovery",
+  "requested_at": "2026-10-31T10:24:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "\"The full Scalar-Angular-Torsion\" OR \"conserved three-form current\" OR \"The Time-Flow Elasticity Block\" OR \"Filament Spectrum Block\" OR \"Page One: SAT\"",
-  "purpose": "Trace the source genealogy of the 12,777-character user-role pasted document titled Page One: SAT – Ontology and Unified Action in raw conversation 699e4a02-26e4-832a-86ea-ad1dcaf3c4e3, message 15338421-a5e7-4538-879a-d25d840d2bdd (2026-02-25T01:12:37.975Z). Determine whether its exact distinctive prose/equations occur earlier in an assistant message, source document, or another conversation; preserve author role, raw message UUID, timestamp, repository/path/blob SHA, and surrounding context. Distinguish the outer user-role paste from embedded document authorship. Specifically trace the first occurrence and version history of the three-form J_{μνρ} action and the alternate two-form J^{μν} action. Discovery only; do not attribute the pasted text to Nathan, do not promote theory, do not calculate physical predictions, and do not treat lexical matches as source authorship.",
+  "query": "(author:user AND (\"This keeps coming up, and it has to be wrong\" OR \"orders of magnitude off\" OR \"laboratory optics\" OR \"Optical Kink\" OR \"0.246 rad\")) OR (author:assistant AND (\"Optical Kink\" OR \"0.246 rad\" OR \"dimming hypothesis\"))",
+  "purpose": "Mersearch-first discovery-only source genealogy for the optical-kink objection and adjacent 0.246-radian claims. Recover any original raw conversation/message UUIDs, role, timestamps, exact surrounding context, source paths/blob SHAs/source commits, and whether the objection is Nathan Direct, an assistant message, a user-role pasted package, or only a later compiled-text passage. Compare the known 0.239 Radians in Science raw conversation and the 4DHHUC/SAT Radian Leap compiled documents without assuming they share authorship or source identity. Preserve first-extant versus first-public chronology, duplicate/snapshot relationships, and explicit coverage limits. No physical calculation, optical prediction, theory promotion, or paper-gate change.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "exact candidate paths, blob SHAs, raw conversation/message IDs, roles and timestamps",
-    "first-extant versus first-public distinctions where evidence exists",
-    "duplicate/derivative/version relationships and explicit negative-search limits",
-    "three-root coverage, exclusions, extension/size limits and omitted sources"
+    "candidate raw conversation paths and exact Git blob/source commit SHAs",
+    "message UUID, role, timestamp and surrounding correction context where exposed",
+    "compiled-document versus raw-conversation distinction",
+    "duplicate/derivative relationships and explicit negative search limits",
+    "three-root coverage, exclusions, size/extension limitations and omissions"
   ],
   "exclusions": [
-    "Do not overwrite a pending/running lane",
-    "Do not treat user-role pasted text as proof of Nathan authorship",
-    "Do not treat assistant-generated equations as Nathan Direct",
+    "Do not overwrite any pending/running lane; this lane is reused only after its prior workflow and receipt were independently verified complete",
     "Do not publish raw source excerpts or private HSH_RESOURCES paths",
     "Do not enter QUARANTINE or PRIOR_ART",
-    "Do not create software, branches, PRs or automations",
-    "Do not perform data-free physical calculations or theory promotion"
+    "Do not infer embedded-document authorship from an outer user-role paste",
+    "Do not infer Nathan Direct from compiled text without raw role/message evidence",
+    "Do not treat lexical matches as semantic equivalence or independent corroboration",
+    "No new software, branches, PRs, automations, physical calculations or theory promotion"
   ],
   "lane": 3,
   "status": "requested"
