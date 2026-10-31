@@ -215,3 +215,10 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 - Key empirical QC: Qualification by Calibration parser replay changed 88/540 answer classifications on identical raw generations; 79 changes involved template-contaminated Yes parses. GULI-SET Core Bayesian targets matched 48/48, but the benchmark is synthetic and its baseline is deterministic, not an LLM result.
 - Optional methods context for Sable's empirical-QC remit only. Orson retains P1 ownership. No task assignment, response obligation, or ownership transfer.
 - Repository delivery only; no ChatGPT-thread delivery or acknowledgment claimed.
+
+
+## 2026-10-31T1348Z | Optional formalization clarification
+
+- PR #850 current exact-head CI #41160835210 compiles the existing finite-pattern latent-label module and Kish module. The finite-pattern result proves non-injectivity under a specified abstract distribution model, not an empirical mechanism for real LLM behavior.
+- VEY-020's new source-lineage and evidence-lifecycle propositions remain unformalized. See publisher issue #1152 comment #6544041447 and P1 issue #564 comment #6544042018.
+- Optional QC context only; Orson retains P1 ownership.
