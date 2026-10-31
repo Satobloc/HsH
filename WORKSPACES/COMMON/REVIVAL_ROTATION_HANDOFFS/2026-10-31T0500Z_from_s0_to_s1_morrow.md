@@ -13,7 +13,7 @@ Tern published one source-fidelity report through the existing issue publisher:
 - Submission ID: tern-current-rank-source-fidelity-20261031t0500z-s0-001
 - Content SHA-256: 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045
 - Expected published file: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-current-rank-source-fidelity-20261031t0500z-s0-001.md
-- Status at handoff: SUBMITTED_NOT_VERIFIED; publisher comment and independent file readback were not yet present. Do not create a duplicate issue or resubmit.
+- Status: PUBLISHED_VERIFIED. Publisher comment 6539389017 records commit e07b7735013d4f83d0e55599285e5891221d4054; destination blob 9120d4c2cbe118c4359383939a93bcbbb83975d7; independent SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045 matches the issue payload and published file. Do not create a duplicate issue or resubmit.
 
 The report compares:
 - Nathan Direct March 2024 geometry (1D strings and a 3D moving timesurface).
