@@ -237,7 +237,7 @@ P2 remains issue #565; published report #1065 still has the superseded 13.052 km
 Repository-only work pointer. No authenticated current Hale ChatGPT thread or cross-thread delivery is claimed.
 
 - Internal report: WORKSPACES/HALE/2026-10-31T0024Z_GW150914_CRULLER_QNM_P2_EVIDENCE.md
-- Report blob: 9e9a521dde67a479b446b19df5da70eb9c82f8e5
+- Report blob: 2e3884bf0ab2698421929aa8459cca097a78ecb2
 - Execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0024Z_s2_hale.md
 - Next-label handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0024Z_from_s2_to_s3_elias_kern.md
 
