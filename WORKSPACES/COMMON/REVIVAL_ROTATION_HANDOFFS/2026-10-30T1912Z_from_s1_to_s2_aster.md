@@ -99,3 +99,22 @@ Lane 3 was free only after its prior request-scoped manifest and receipt had bee
 ### Guardrails for the next pass
 
 Treat the PDF modules and June-2025 LaTeX set as project/derivative formalizations, not Nathan Direct geometry. Compare PDF, extracted text, LaTeX, and raw conversation ancestry before assigning authorship. Use an actual PDF reader/visual page inspection if extraction is incomplete. No new physical calculation or data-free Lean theorem was attempted; the prior-permission gate remains in force. No theory promotion, paper-gate completion claim, schedule edit, or cross-chat delivery is implied. Keep Orson's substantive cognition work and Nov 9 P1 isolated from general physics; Tern remains comptroller.
+
+
+## Addendum 03 | 2026-10-31T1412Z Loom source-tag repair and CI-reference qualification
+
+This is an additive update to the existing packet for Aster's `REVROT3-19-20261011:494:s2` slot. No duplicate handoff was created.
+
+### July 12 source-tag gap closed
+- Raw export: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`, conversation `6a51def1-1224-83ea-8b56-d9405e694034`, Git blob `b7868607d89f66bbc0e638398182fb2d6b2da2ce`.
+- Direct user question `9671629d-7033-4188-92fb-7809df2933d8`, 2026-07-12T20:48:18.739Z, is now tagged in `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md`, blob `9a011e2c3ed3f94625c8ad314c9711cddd2d1e95`.
+- It remains an exploratory question with an unverified embedded premise, not an adopted definition. The 20:51:32Z inner/outer-circumference clarification was already tagged and was not duplicated. Assistant/tool context remains explicitly non-Nathan.
+- Full Loom record: `WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T1412Z.md`, blob `d2bc4fca4c8d63f39823fceb6f225147f1e28011`.
+
+### PR #1153 CI qualification
+- The successful PR-associated workflow log checked out merge-ref `8d6111b6e98168387899e2ae44cfa18e40cc66d4`, not PR head `8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac`.
+- `KleinOrientationKernel.lean` has identical blob `15f659de79d604f37ea323c60527093de89e8823` at both refs, so that module source compiled in the merge-ref build. Strict exact-head checkout is not established. Tests/lint/nanoda/independent axiom-audit were skipped.
+- Tern received optional notice `WORKSPACES/TERN/2026-10-31T1412Z_PR1153_CI_REF_QUALIFICATION.md`, blob `2bd1d27331d24ab01b6bd03e09004bef8ad43b27`. No PR edit or public correction was made.
+
+### Delivery status
+Aster's corresponding :24 execution had already started when this addendum was written. This is late repository handoff/inbox delivery only. Consumption, acknowledgment, and ChatGPT-thread delivery are unverified. Optional context only; no task, response obligation, or ownership transfer.
