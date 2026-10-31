@@ -189,56 +189,84 @@ theorem changed_theorem_rejects_otherwise_successful_record :
 
 
 /-!
-## Automation-run / latest-result identity
+## Automation occurrence and attempt identity
 
-The live automation peek exposes the most recent attempt separately from the
-most recent completed result. A result is attributable to the current attempt
-only when the automation identity, nominal scheduled slot, and run ID match.
-This is a source-independent schema theorem; it does not authenticate the
-connector payload or prove scheduler semantics.
+A scheduled occurrence may be retried while retaining its occurrence/run ID.
+A result's occurrence key is therefore not, by itself, an attempt identifier.
+For a result even to be temporally compatible with one attempt, its creation
+time must not precede that attempt's start. This is necessary, not sufficient:
+the observed connector payload does not expose a distinct attempt ID here.
+
+These theorems check this schema only. They do not authenticate connector
+payloads, parse timestamps, or prove scheduler semantics.
 -/
 
-structure AutomationRunIdentity where
+structure AutomationOccurrenceIdentity where
   automationId : String
   scheduledFor : String
   runId : String
   deriving DecidableEq, Repr
 
-def resultMatchesCurrentRun
-    (current result : AutomationRunIdentity) : Prop :=
+def resultMatchesScheduledOccurrence
+    (current result : AutomationOccurrenceIdentity) : Prop :=
   result.automationId = current.automationId ∧
   result.scheduledFor = current.scheduledFor ∧
   result.runId = current.runId
 
-theorem matching_automation_run_is_attributable
-    (current : AutomationRunIdentity) :
-    resultMatchesCurrentRun current current := by
+theorem matching_automation_occurrence_has_matching_identity
+    (current : AutomationOccurrenceIdentity) :
+    resultMatchesScheduledOccurrence current current := by
   exact ⟨rfl, rfl, rfl⟩
 
-theorem mismatched_automation_id_rejects_attribution
-    (current result : AutomationRunIdentity)
+theorem mismatched_automation_id_rejects_occurrence_match
+    (current result : AutomationOccurrenceIdentity)
     (h : result.automationId ≠ current.automationId) :
-    ¬ resultMatchesCurrentRun current result := by
+    ¬ resultMatchesScheduledOccurrence current result := by
   intro hm
   exact h hm.1
 
-theorem mismatched_scheduled_slot_rejects_attribution
-    (current result : AutomationRunIdentity)
+theorem mismatched_scheduled_slot_rejects_occurrence_match
+    (current result : AutomationOccurrenceIdentity)
     (h : result.scheduledFor ≠ current.scheduledFor) :
-    ¬ resultMatchesCurrentRun current result := by
+    ¬ resultMatchesScheduledOccurrence current result := by
   intro hm
   exact h hm.2.1
 
-theorem mismatched_automation_run_id_rejects_attribution
-    (current result : AutomationRunIdentity)
+theorem mismatched_run_id_rejects_occurrence_match
+    (current result : AutomationOccurrenceIdentity)
     (h : result.runId ≠ current.runId) :
-    ¬ resultMatchesCurrentRun current result := by
+    ¬ resultMatchesScheduledOccurrence current result := by
   intro hm
   exact h hm.2.2
 
-#print axioms matching_automation_run_is_attributable
-#print axioms mismatched_automation_id_rejects_attribution
-#print axioms mismatched_scheduled_slot_rejects_attribution
-#print axioms mismatched_automation_run_id_rejects_attribution
+structure AutomationAttemptIdentity where
+  occurrence : AutomationOccurrenceIdentity
+  startedAt : Nat
+  deriving DecidableEq, Repr
+
+structure AutomationResultIdentity where
+  occurrence : AutomationOccurrenceIdentity
+  createdAt : Nat
+  deriving DecidableEq, Repr
+
+def resultTemporallyCompatibleWithAttempt
+    (attempt : AutomationAttemptIdentity)
+    (result : AutomationResultIdentity) : Prop :=
+  result.occurrence = attempt.occurrence ∧
+  attempt.startedAt ≤ result.createdAt
+
+theorem result_created_before_attempt_cannot_belong
+    (attempt : AutomationAttemptIdentity)
+    (result : AutomationResultIdentity)
+    (h : result.createdAt < attempt.startedAt) :
+    ¬ resultTemporallyCompatibleWithAttempt attempt result := by
+  intro hm
+  exact Nat.not_le_of_gt h hm.2
+
+#print axioms matching_automation_occurrence_has_matching_identity
+#print axioms mismatched_automation_id_rejects_occurrence_match
+#print axioms mismatched_scheduled_slot_rejects_occurrence_match
+#print axioms mismatched_run_id_rejects_occurrence_match
+#print axioms result_created_before_attempt_cannot_belong
 
 end HsHVerification.EliasProofTargetIdentity
