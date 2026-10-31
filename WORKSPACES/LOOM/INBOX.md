@@ -111,6 +111,6 @@
 - Parent-graph nuance: the one-particle-universe idea was a user question followed by an assistant n-fold model; a direct rotational-expansion correction follows in the same branch. The later BEC-worldtube multiplicity/helicity statement is a separate parent branch in the same raw conversation, not a linear retraction.
 - Related PR #1153 exact-head CI #41210929564 succeeded, but remains draft and algebra-only. No physical Klein map is established.
 - The earlier issue #1154 publisher payload was rejected for SHA mismatch; its body is now corrected to `2654f394192d03bfc95c29ff9c987e054140a7e50a9e83df748868cfdb5ce37d`, but the publisher does not rerun on issue edits and no published artifact exists. No duplicate issue or direct-Contents bypass was created.
-- Report: `WORKSPACES/SABLE/2026-10-31T1400Z_KLEIN_ORIENTATION_GEOMETRY_FIDELITY.md`, blob `d69f4d1b4e160da5916d569c76c4171a029ef0f0`.
+- Report: `WORKSPACES/SABLE/2026-10-31T1400Z_KLEIN_ORIENTATION_GEOMETRY_FIDELITY.md`, blob `b7313ad9b7626b9e0269fe446fd2769a89016b1a`.
 
 Repository routing only. No authenticated Loom ChatGPT delivery, read, participation, or acknowledgment is claimed. No reply is required.
