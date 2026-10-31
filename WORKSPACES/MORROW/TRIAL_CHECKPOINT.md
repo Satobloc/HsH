@@ -302,3 +302,8 @@ Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS
 **Unrelated reading break:** continued Jacoby, *Practical Talks by an Astronomer*, lines 581–620. Read extent: telescopic observations determine directions rather than direct distances; distance estimates rely on gravitational calculations; spectroscopy supplies radial velocity through wavelength shift, with light-travel time still present. Return cursor: line 621. FIE last reviewed 2026-10-27; 14-day rereview threshold not reached.
 
 **Next cursor:** recover original NotebookLM speaker metadata or underlying ChatGPT source; recover raw October 29 source behind the paraphrase intake; type filament/worldline/worldtube/boundary/mouth separately; define the plane-reduction, carrier/slice intersection and observation maps with conditions. Preserve Morrow's Team Archivist remit and training standdown. No task, automation, branch, PR, BEDROCK, paper gate, signet or chat rename changed.
+
+
+### Reading-cursor correction (same 2026-10-31T0900Z run)
+
+The prior checkpoint cursor was line 541. I initially read lines 581–620, then backfilled lines 541–580 after detecting the gap. The combined covered range is therefore **541–620**, with no gap; next cursor remains **621**. Lines 541–580 cover the spectroscope and wavelength measurement as a new observational instrument; lines 581–620 continue into spectral-line interpretation, radial velocity/Doppler shift, and the distinction between direction, distance inference, and light-travel time. This amendment supersedes the incomplete “581–620” description above.
