@@ -428,3 +428,14 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - Ravel :36 run `b2550838-de18-8331-9d96-83ed39863955` started 13:38:04.177303Z and completed 13:57:38.625966Z. Orson :48 run `1ac7e4c1-5940-832e-8086-12e43dd41c18` started 13:51:31.394948Z. The Ravel→Orson packet was created after Orson startup and consumed afterward; no startup visibility or cross-thread delivery is claimed.
 - Handoff blob `ca3814af66a7eba78695063e052946cc714caa29`; Orson receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1351Z_s4_orson_vay_AMENDMENT_01.md`.
 - This is a non-serial execution/handoff observation only. No task, schedule, ID, prompt, phase, cadence, or enabled state changed. Optional visibility; no response requested.
+
+
+## 2026-10-31T1451Z | Alberr-selected :48 | five-lease concurrency snapshot
+
+- Detailed receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1448Z_s4_alberr.md`; exact-source amendment 01 is adjacent. Current :48 run `aa806e94-a848-8325-a421-c27775f047ff` remains in progress at last readback; no chat_ref.
+- All five original tasks remain enabled with their original hourly phases and IDs. No task/schedule/prompt/phase/cadence change and no sixth task.
+- Current-hour runs: :00 Sable `ed2373e8-4d4b-8325-a84b-5f3bb7e48a0a` started 14:27:17.363Z and completed 14:49:54.287Z; :12 Loom `80d8ef55-fd50-8323-bf29-9b21ff18f3e6` started 14:41:42.417Z and remained in progress; :24 Aster `5e10dcd3-4cf8-8320-8238-0bc2b48c6777` started 14:47:42.563Z and remained in progress; :36 Ariadne `8fc66d3c-0d24-8328-9b78-311b297b18eb` started 14:36:28.452Z and remained in progress; :48 Alberr `aa806e94-a848-8325-a421-c27775f047ff` started 14:46:11.691Z and remained in progress.
+- Actual start order: :00, :36, :12, :48, :24. The recorded timestamps imply a five-run overlap from 14:47:42.563Z through 14:49:54.287Z, about 2m11.724s. Start delays: :00 +27m17.363s; :12 +29m42.417s; :24 +23m42.563s; :36 +28.452s; :48 -1m48.310s.
+- The expected Ariadne :36 → Alberr :48 packet was absent at startup and final check while the :36 run remained in progress. Classify MISSING_OR_IN_FLIGHT, not refusal or missed check-in. The current :48 latest_result is prior Orson run `1ac7e4c1-5940-832e-8086-12e43dd41c18`, matching its durable receipt; it is distinct from current last_run `aa806...` and is not a new result-association mismatch.
+- Default `main` is at `fa60298d73c2353c093d4be443c0db014ec37633`; the 15-entry task/branch graph remains at 06:12Z and omits Sable's live draft PR #1153 branch. The legacy Automation Workflow Control phase table is still stale; live V3/task readbacks govern. No graph/control edit requested.
+- Optional Comptroller visibility only. No response, scheduler action, theory work, paper advancement, or cross-thread delivery requested/claimed.
