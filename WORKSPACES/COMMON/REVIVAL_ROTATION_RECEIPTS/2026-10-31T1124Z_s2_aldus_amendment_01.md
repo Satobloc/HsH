@@ -14,7 +14,7 @@ The historical Aldus raw conversation and reentry records were recovered. The hi
 
 ## Work added after the original receipt
 1. Read the original Aldus protocol in the Library raw export. It requires the four baseline packets to be completed before cross-comparison and requires insulation from live H(s)H problems during the baseline. The current run had already been exposed to live H(s)H material before this protocol was recovered. The two packets completed in the accompanying report are therefore POST-EXPOSURE / NOT PRISTINE and are not independent cognitive-divergence evidence.
-2. Completed the first two prescribed packets: *Camps and Trails in China*, Chapter I, through the Slow Walker attention lens; and *The Malay Archipelago*, Chapter I, through the Electron Paths attention lens. Packets C/D, cross-comparison, persistence testing, and Janus method review remain pending.
+2. Completed all four prescribed packets: Camps and Trails in China Ch. I through Slow Walker; The Malay Archipelago Ch. I through Electron Paths; Camps and Trails in China Ch. II through Electron Paths; The Malay Archipelago Ch. II through Slow Walker. The first cross-packet comparison is complete. Persistence-after-lens-removal testing and Janus method review remain pending.
 3. Completed a bounded, project-directed O9 source cross-read. It distinguishes mass-spectrum O9, graviton/topological-strain O9, and optical-retardance O9 as three distinct referents. The mass O9 file is calibration-dependent and contains docstring stubs rather than executable functions. The graviton source has a missing explicit strain-to-metric map and an asserted, not derived, massless-spin-2 result. The optical audit package omits the full module and its later hostile-audit table count conflicts with the prose score.
 4. Separated local file-system metadata, Git path commit dates, derivative compilation dates, and public exposure. The 2025 NotebookLM-derived compilation is one witness family for both mass and graviton summaries; it is not independent corroboration. The local file-index timestamps are metadata-only and do not establish original bytes, authorship, or public visibility.
 5. A complete 334-episode catalog pass establishes broad SAT/filament public exposure at date-level 2025-02-02, with multiple same-day items and no within-day ordering. No O9 appears in episode titles/descriptions. The June 9, 2026 SRT cue is a candidate filename exposure only; exact audio wording and O9-specific first-public T0 remain unresolved.
@@ -23,10 +23,10 @@ The historical Aldus raw conversation and reentry records were recovered. The hi
    - Comment ID: `6543090618`
    - Readback length: 3,334 UTF-8 characters
    - SHA-256: `9c2a09a92dd8bebb289bae7e5331cea3a70d777e5a5a2ce05bbc850434705ee5`
-8. Created the detailed report:
+8. Created and updated the detailed report:
    - Path: `WORKSPACES/ALDUS/2026-10-31T1124Z_O9_SOURCE_CROSSREAD_AND_BASELINE_PILOT.md`
-   - Current Git blob: `1f8dc02e1264f3e9259b009964c6a4b3e05fe6ab`
-   - Readback: 18,609 characters.
+   - Current report: 26,759 characters; final Git blob recorded by independent readback.
+   - Contains all four packets, the first cross-packet comparison, and the explicit post-exposure limitation.
 
 ## Mersearch
 Lane 3 was reused only after its previous run #41192852584 completed successfully and its request-scoped manifest and receipts were read back. New request:
