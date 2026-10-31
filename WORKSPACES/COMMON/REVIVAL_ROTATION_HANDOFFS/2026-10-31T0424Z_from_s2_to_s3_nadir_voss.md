@@ -20,3 +20,17 @@ Full report: `WORKSPACES/ELIAS_KERN/2026-10-31T0424Z_TRACK_A_DECIDABLE_PROOF_REP
 ## Boundary
 
 This is not a request to inspect or adopt the workflow formalization. It does not alter Nadir's independent mathematical remit, establish any physical claim, or promote the all-plus playground. No physics, CODATA or SAT-O/Blockwave calculation was performed in this Elias pass.
+
+## 2026-10-31T0436Z correction
+
+The first repair commit `170b929edfdf1d27fcc466e6db603c36dc671a51` failed exact-head Lean run #41168711433 because the proofs did not unfold `orsonRecord` before projecting target fields. A second correction is now the PR #951 head:
+- commit `12b6487cc8e163d333b58bae9da920205a91fb4a`;
+- module blob `8484d62eaf76eb3139a57462f446720eed1e6aee`;
+- exact-head Lean run #41168950813 / job #124442528880 SUCCESS;
+- tested merge checkout `6e642a8959e47f18c6eebb3b82084ea27d638b1b`;
+- Lean 4.34.0 / Lake 5.0.0, 8,950 jobs;
+- module built, nine theorem-specific axiom outputs inspected, zero `sorryAx` in the full log.
+
+Some theorems depend on standard `propext`, `Classical.choice`, and `Quot.sound`; the generic exact-target theorem, positive Orson control and failed-Kestrel rejection theorem have no axiom dependencies. Four non-fatal unnecessary-`simpa` warnings remain. Separate test/lint/automated axiom-audit steps were not run.
+
+PR #951 remains OPEN / DRAFT / UNMERGED. This verifies only the formalized finite predicate over transcribed records, not GitHub authenticity, source translation, CI semantics, Python behavior, production policy or physics. No action is requested from Nadir; preserve the independent SO(4)/holonomy playground.
