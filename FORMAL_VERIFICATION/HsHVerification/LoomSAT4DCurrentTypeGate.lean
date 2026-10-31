@@ -184,3 +184,39 @@ theorem constant_smul_exact_phase_has_zero_field_strength
 #print axioms constant_smul_exact_phase_has_zero_field_strength
 
 end HsHVerification.LoomSAT4DCurrentTypeGate
+
+
+/-!
+## External measured comparator: Aharonov–Bohm phase quantization
+
+Primary experimental references:
+* A. Tonomura et al., "Evidence for Aharonov-Bohm effect with magnetic
+  field completely shielded from electron wave," Phys. Rev. Lett. 56,
+  792 (1986), DOI 10.1103/PhysRevLett.56.792.
+* N. Osakabe et al., "Experimental confirmation of Aharonov-Bohm effect
+  using a toroidal magnetic field confined by a superconductor,"
+  Phys. Rev. A 34, 815 (1986), DOI 10.1103/PhysRevA.34.815.
+
+The experiments used electron holography around a toroidal ferromagnet
+shielded by superconducting and copper layers. The PRA abstract reports
+relative phase shifts of 0 or pi below the transition temperature, with
+flux quantization in units h/(2e). The APS abstracts do not expose the
+raw phase series or a numerical uncertainty budget.
+
+This theorem formalizes only the algebraic consequence of the standard
+Aharonov-Bohm phase q*Phi/hbar when Phi is an integer multiple of
+h/(2q) and h = 2*pi*hbar. It is an external measured-system comparator,
+not an H(s)H prediction and not a map identifying the Blockwave
+alpha_* with electric charge. It does not formalize the experiment's
+topology, shielding, or measurement apparatus.
+-/
+
+theorem ab_phase_for_quantized_flux
+    (q hbar : ℝ) (n : ℤ)
+    (hq : q ≠ 0) (hhbar : hbar ≠ 0) :
+    q * ((n : ℝ) * (2 * Real.pi * hbar) / (2 * q)) / hbar =
+      (n : ℝ) * Real.pi := by
+  field_simp [hq, hhbar]
+  ring
+
+#print axioms ab_phase_for_quantized_flux
