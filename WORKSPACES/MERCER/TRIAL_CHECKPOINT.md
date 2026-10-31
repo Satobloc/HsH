@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 146, 2026-10-30
+**Current through:** Run 147, 2026-10-31
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -395,3 +395,44 @@ Future Mersearch interpretation should distinguish three levels: (1) source even
 - **Formalization / execution:** no new mathematical or geometric proposition was required for this presentation-QA quantum; no Lean run or physical calculation was attempted. This is not a proof or empirical validation claim.
 - **Next test:** a site-capable execution must repair the existing shared `sandbox_manuscript` route for both source formats and verify the seven acceptance checks against the exact pinned R1 blobs. No manuscript rewrite or parallel reader.
 - **Durable evidence:** relay receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0548Z_s4_mercer.md`; optional Ravel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0548Z_from_s4_to_s0_ravel.md`; Ravel inbox entry `MERCER-0548-20261031-RAVEL-001`. Repository readbacks verified; chat delivery/recipient consumption unverified.
+
+
+---
+
+## Run 147 — 2026-10-31 09:36Z | Paper A/B two-axis reader acceptance and source binding
+
+**Rotation:** h=489; seq=5h+3=2448; 2448 mod 19=16 = Mercer; next index 17 = Ravel. Run key REVROT3-19-20261011:489:s3; next run key REVROT3-19-20261011:489:s4. This is deterministic role routing, not historical-instance authentication.
+
+**Participation / thread status:** current-assistant source-grounded reconstruction under Mercer's historical charter. Personal-context lookup did not establish an authenticated current Mercer ChatGPT thread or a current usable Ravel destination. Ravel's archived family ID remains historical, not proof of current usability. No cross-thread delivery is claimed.
+
+**Scheduler:** task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact hourly America/New_York :36 schedule. Current run ID facdbe67-bddc-832b-8e75-b1007e285e24 was still recorded in_progress at final peek, chat_ref=null. No task/ID/prompt/enabled-state/cadence/phase change; no sixth task. The :24 Meridian run started after its nominal slot and completed at 09:38:31Z, after this run began; no expected standard :24 receipt/handoff was found. The :00 Morrow and :12 Kestrel runs were also in progress at final scheduler inspection. Treat this as execution overlap/late completion, not refusal or nonresponse.
+
+**Controls / specialist remit:** read live BEDROCK (blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c), Steering Charter (5f4263381afcb065e9062d5b5885593d0baa58db), Three Paper Campaign (9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0), onboarding (e1fa2fb7c582a1b4528e9507644bd3f481fce8e0), Revival Rotation V3 (90863a2a2b82b2d8e37ba1bd9f796389066f5409), workflow map, autonomy, write-safety, thread-first, scheduler and publisher controls. Mercer README, CONTINUITY and Trial Checkpoint were read. Current Code Grurple roster remains ACTIVE; Mercer is assigned Papers A+B presentation QA only. Ravel README/CONTINUITY/INBOX were read; no task is transferred.
+
+**Source/feed identity:** papers feed blob e3552fdac0f187b066b59a9742563094efffe011, updated field 2026-10-21. Paper A source commit 58b0ed9c19c8dba123846c411d4ac8b7db5c0df9 and fetched TeX blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa match the feed path/blob. Paper B source commit 731e2fb5888b0aec856fd9e31319c39746514239 and fetched Markdown blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb match the feed path/blob. Paper A has no site_version or posted_date; Paper B has site_version 34 and posted_date 2026-09-23. Those are legacy feed fields, not current reader acceptance.
+
+**Substantive improvement:** separated manuscript/editorial lifecycle from public-presentation lifecycle. Each route requires source pin, feed binding, format adapter/parser identity, semantic-document representation digest, renderer/configuration identity, derivative digest, deployed site build, live readback, and granular per-check evidence. TeX and Markdown should pass through format-specific adapters into a semantic document representation before a common presentation layer. This is proposed architecture, not deployed code or a changed control.
+
+The explicit acceptance predicate is:
+ROUTE_PASS = SOURCE_PINNED AND FEED_BOUND AND DERIVATIVE_PROVENANCE_BOUND AND DEPLOYMENT_IDENTIFIED AND LIVE_READBACK_VERIFIED AND ALL_REQUIRED_CHECKS_PASS.
+STANDDOWN = MANUSCRIPT_A_PASS AND MANUSCRIPT_B_PASS AND ROUTE_A_PASS AND ROUTE_B_PASS.
+
+Python evaluation of the actual evidence record: each route has 2/6 evidence predicates established (source pin and feed binding); derivative provenance, deployment identity, live readback and all-check acceptance are NOT OBSERVED. Both route-pass predicates are unestablished; combined standdown predicate is false. This is fail-closed evidence status, not a new observed route failure.
+
+**Presentation capability:** no local HsH checkout was present; no suitable existing Actions writer or Sites editor action was exposed. Browser list_tabs failed because the originating browser context was unavailable. No live route probe was repeated. No renderer, site, feed, manuscript, presentation gate or roster was modified. No parallel reader was created.
+
+**Public-safe publication:** issue #1143 was rejected by the publisher Action for a final-newline SHA mismatch; no artifact was created. The issue was annotated with correction comment #6541801094. Corrected issue #1144, submission ID mercer-paper-route-state-model-20261031t0936z-002, is PUBLISHED_VERIFIED. Publisher comment #6541803720 records commit 7c72f4a595ca323d75c728868aaeb98192151e26 and SHA-256 162748eeafd6a88ca318f1a62916987dc3696e446636b3219bafde32bfc3e28b. Independent destination readback blob 7a42b08b48d6058ea50ad6971189309ed7de6067 exactly matched the submitted content (5,419 characters). No duplicate artifact was created.
+
+**Durable internal report:** WORKSPACES/MERCER/2026-10-31T0936Z_PAPER_ROUTE_STATE_MODEL_AND_ACCEPTANCE_CROSSWALK.md; final blob d8c661c960b520889654ad789c69f22905407681; exact readback PASS.
+
+**Site continuity log:** PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md; final blob 65c92c8d4d43ca41bb4f33e2e1785d1ea6557d39; exact readback PASS. The log records the publication correction and format-adapter proposal.
+
+**Next-worker routing:** optional Ravel handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0936Z_from_s3_to_s4_ravel.md; blob 95ed401872463091263f96c19cb2289e384fcbb0; commit deaaee0cd6d237745bfd9d0e6b4b44014be903aa. Ravel INBOX append committed as 410209bff44fa3d233446f913dc6a8206a9eba7e; final blob 6b3fe9c0700426f728069e547159fbb814125979; exact readback PASS. Repository inbox delivery is verified; chat delivery unavailable; recipient consumption unverified. No assignment or response obligation.
+
+**Proof / physical boundaries:** the acceptance predicate is explicit, but a new Lean proof of its Boolean implication would be data-free formalization and lacks specific prior permission; BLOCKED_PENDING_NATHAN_PERMISSION. No Lean run, physical calculation, measured-system fit, new tool, PR, branch, SAT-O/Blockwave equation edit, BEDROCK promotion or theory change.
+
+**Lateral reading:** continued SAT Mark V/TheTANGLE.txt, lines 1081–1120 (blob 3181b6cad85bbd76bd1017938e0dbf67baf03752). This is unrelated creative worldbuilding about incompatible calendars and time-based social institutions, not physics. Next cursor: line 1121.
+
+**FIE:** last full review 2026-10-27; 14-day re-review threshold not due.
+
+**Next cursor:** a site-capable builder must choose and record the actual TeX/Markdown derivative route, build with adapter/parser/semantic-IR/source/configuration provenance, deploy, read both public routes, and complete all granular visual/mobile/source-identity checks. Do not stand down Code Grurple until both actual reader routes pass. Ordinary research remains BACKSEAT/HOLD.
