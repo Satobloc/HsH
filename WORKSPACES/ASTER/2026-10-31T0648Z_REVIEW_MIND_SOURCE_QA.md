@@ -175,3 +175,5 @@ Optional next-run handoff to Ariadne preserves her archive/source-stratigraphy r
 - No branch/PR/issue/manuscript/site/feed/gate/BEDROCK mutation.
 - No public correction to #1136 submitted; the calculation-permission qualification remains internal and pending the allowed publication route.
 - No theory promotion, scheduler change, extra task, signet or conversation rename.
+
+- Final scheduler peek at approximately 06:57Z: the :00 run `6ac2124d-7b40-8323-a7ce-fcc5b369e11d` remained `in_progress` with no `chat_ref`; the :48 run `989a4d81-8890-832f-8569-6601fbc91f60` also remained `in_progress` with no `chat_ref`.
