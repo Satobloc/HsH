@@ -175,3 +175,9 @@ The recovered THE_WHOLE_READY source section has 8,124 Unicode-split lines / 814
 - Corrected module proof is `rfl`; module blob `7958942a1dee42bef42926815a96437575540111`; latest branch head `c06f161ecd2572684963759274a5921abf15cf6f`.
 - New run #41214856914 is PENDING. It is the first run after the explicit-head checkout change; exact checkout must still be verified in its log. No compile success or exact-head proof claim yet.
 - Latest branch comparison against main: 57 commits ahead / 5134 behind, diverged and not merge-ready. The current main branch has no FORMAL_VERIFICATION root, lean-toolchain or this Lean workflow; the formalization remains isolated on the existing legacy draft PR.
+
+
+## Amendment 06 | 2026-10-31T1533Z
+
+- Explicit-head workflow run #41214856914 has moved from pending to IN_PROGRESS. Job #124577423249 is at checkout; compile has not started. The workflow now sets checkout ref to the PR head SHA and records git rev-parse HEAD. Exact checkout remains to be verified from the completed job log.
+- Current main head observed: `25af8fa082a358f2c07cee79e7f1c2919af2e7e1`. Current branch comparison: 57 commits ahead / 5138 behind; still diverged and not merge-ready.
