@@ -1,30 +1,31 @@
 {
-  "request_id": "loom-optical-kink-objection-origin-20261031-1024",
-  "requester": "Workshop Relay :24 / Loom bounded source-genealogy recovery",
-  "requested_at": "2026-10-31T10:24:00Z",
+  "request_id": "aldus-o9-blockwave-equation-genealogy-20261031-1124",
+  "requester": "Workshop Relay :24 / Aldus bounded source-chronology and cross-reading pass; current assistant reconstruction, not authenticated historical Aldus",
+  "requested_at": "2026-10-31T11:41:33Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND (\"This keeps coming up, and it has to be wrong\" OR \"orders of magnitude off\" OR \"laboratory optics\" OR \"Optical Kink\" OR \"0.246 rad\")) OR (author:assistant AND (\"Optical Kink\" OR \"0.246 rad\" OR \"dimming hypothesis\"))",
-  "purpose": "Mersearch-first discovery-only source genealogy for the optical-kink objection and adjacent 0.246-radian claims. Recover any original raw conversation/message UUIDs, role, timestamps, exact surrounding context, source paths/blob SHAs/source commits, and whether the objection is Nathan Direct, an assistant message, a user-role pasted package, or only a later compiled-text passage. Compare the known 0.239 Radians in Science raw conversation and the 4DHHUC/SAT Radian Leap compiled documents without assuming they share authorship or source identity. Preserve first-extant versus first-public chronology, duplicate/snapshot relationships, and explicit coverage limits. No physical calculation, optical prediction, theory promotion, or paper-gate change.",
+  "query": "(name:*O9* OR path:*O9* OR name:*BLOCKWAVE* OR path:*BLOCKWAVE* OR \"SAT O9\" OR \"SAT.O9\") OR (author:user AND ((\"O9\" NEAR/12 \"graviton\") OR (\"O9\" NEAR/12 \"mass spectrum\") OR (\"O9\" NEAR/12 \"retardance\") OR (\"Blockwave\" NEAR/12 \"holonomy\") OR (\"Blockwave\" NEAR/12 \"three-form\") OR (\"Blockwave\" NEAR/12 \"two-form\") OR (\"m^2 = k\" NEAR/12 \"beta Q^2\") OR (\"1.48 rad\" NEAR/12 \"retardance\")))",
+  "purpose": "Mersearch-first, three-repository source genealogy for the colliding SAT.O9 labels and Blockwave equation lineage. Recover original SAT-O mass-spectrum, graviton/topological-strain, and optical-retardance audit witnesses; exact verbatim equations and file/blob/source-commit dates; original conversation/message UUIDs, outer role, timestamp and surrounding corrections; Blockwave compact-phase/action/current-formula witnesses; duplicate/derivative/supersession relationships; first-extant versus first-public chronology; and whether any claimed public T0 contains the exact claim rather than a filename or broad framework description. Distinguish Nathan Direct, assistant-authored construction, historical composite, NotebookLM derivative, audit shell, standard mathematical reconstruction and later correction. No physical calculation, CODATA comparison, theory promotion, new experiment or paper-gate change.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate raw conversation paths and exact Git blob/source commit SHAs",
-    "message UUID, role, timestamp and surrounding correction context where exposed",
-    "compiled-document versus raw-conversation distinction",
-    "duplicate/derivative relationships and explicit negative search limits",
+    "candidate original paths, exact Git blob SHAs, source commit SHAs and UTC commit timestamps",
+    "verbatim equation strings with source locator and authorship class",
+    "raw conversation/message UUID, outer role and timestamp where exposed",
+    "claim-granular first-extant/first-public chronology with witness-family and derivative distinctions",
     "three-root coverage, exclusions, size/extension limitations and omissions"
   ],
   "exclusions": [
-    "Do not overwrite any pending/running lane; this lane is reused only after its prior workflow and receipt were independently verified complete",
-    "Do not publish raw source excerpts or private HSH_RESOURCES paths",
+    "Do not overwrite any pending/running lane; lane 3 is reused only after its prior run #41192852584 completed successfully and its request-scoped manifest and receipts were read back",
+    "Do not publish raw conversation excerpts or private HSH_RESOURCES content",
+    "Do not infer Nathan Direct authorship from embedded bylines, outer user-role pastes, NotebookLM summaries or assistant-authored documents",
+    "Do not infer historical public visibility from current repository visibility or a Git commit timestamp",
+    "Do not treat filename exposure as exact equation/topic exposure",
+    "Do not treat duplicate transcript derivatives or repeated repository snapshots as independent witnesses",
     "Do not enter QUARANTINE or PRIOR_ART",
-    "Do not infer embedded-document authorship from an outer user-role paste",
-    "Do not infer Nathan Direct from compiled text without raw role/message evidence",
-    "Do not treat lexical matches as semantic equivalence or independent corroboration",
-    "No new software, branches, PRs, automations, physical calculations or theory promotion"
+    "No physical calculation, CODATA comparison, theory promotion, new software, branch, PR, automation or paper-gate change"
   ],
   "lane": 3,
   "status": "requested"
