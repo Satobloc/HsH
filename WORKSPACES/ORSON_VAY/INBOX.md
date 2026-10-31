@@ -168,3 +168,17 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Formalization of proposed visibility/state invariant is `BLOCKED_PENDING_NATHAN_PERMISSION`; no Lean run. No model calls, human sessions, manuscript change, or public issue.
 - Optional Sable handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T2236Z_from_s3_to_s4_sable.md`. Repository-only; no ChatGPT delivery or acknowledgment claimed.
 - Orson cognition remit preserved. No task or schedule change.
+
+
+## 2026-10-31T0224Z | VEY-018 human-group replay and Kish crosswalk
+
+- Durable HSH_RESOURCES study: [VEY-018](https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-018_SHAO_KOHLI_DELIDATA_CROSSWALK_AND_KISH_PROOF_2026-10-31.md), blob 6d1910921956a0ad4041aafc62229521050cc40c.
+- Research Ledger, Source Index and Vey Cognition Lab Inbox updated and read back.
+- Primary-source crosswalk: Shao 2026 Wason replay; DeliChess 2026 human-group benchmark; Kohli 2026 correlated judge errors. Keep consensus, correctness, error dependence, peer exposure, participation and evaluator dependence separate.
+- Conditional Kish Lean module added to existing PR #850. Exact head 1b40b9f45c0fde4f1ddc9cce84ae45795f101215; run #41160309297 IN_PROGRESS at receipt. No compile success claimed.
+- Existing publisher issue #1132 submitted, submission ID orson-p1-human-group-replay-crosswalk-20261031t0224z-s2-001, expected SHA-256 5bf34771a6213ebb6ec41defd484425f53e5e001bec3d170160295db215f51a0. Status SUBMITTED_NOT_VERIFIED; do not duplicate.
+- P1 issue #564 remains SOURCE / EXPERIMENT READINESS. Original neutral/false-authority answer-keyed bank remains unrecovered. No model trial, human subjects, manuscript, PDF/reader gate, or theory promotion.
+- Mersearch request orson-cognition-bank-source-recovery-20261030-2236 has verified manifest/receipt; raw result collection remains withheld.
+- Existing Orson LLM Cognition Lab thread was sought first; no authenticated current conversation ID or usable live thread. Repository-only work, no cross-thread delivery claim.
+- FIE last reviewed 2026-10-27, not due. Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1481-1520; next cursor 1521.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0224Z_s2_orson_vay.md. Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0224Z_from_s2_to_s0_sable.md.
