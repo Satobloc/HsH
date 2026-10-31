@@ -143,3 +143,15 @@ A useful relationship vocabulary emerging from SAT RIGOR includes:
 `recovered_item -> action_for_lane`.
 
 **Design criterion:** an active theorist should be able to consume the sieve output without rereading the excavation transcript merely to determine what is live, what is dangerous, why it matters, and what to do next. The archaeology is provenance substrate; the deliverable is a working theory instrument.
+
+## 2026-10-31 — Archive relay preflight — ROTATION ARITHMETIC CORRECTION / ALBERR AUTONOMY
+
+**Audit key:** ARCHIVE-ROTATION-ARITH-20261031T1100Z-S0. This is a Common control-plane correction by the current scheduled assistant execution, not an Alberr-authored receipt or evidence of an Alberr ChatGPT session.
+
+The controlling formula in `REVIVAL_ROTATION_V3_2026-10-11.md` is `sequence = 5*h + s`, with zero-based mathematical modulo 19. For the 2026-10-30T09:00Z slot, `h=465`, `s=0`, `sequence=2325`, and `2325 mod 19 = 7`: **Calder (index 7), next Hale (index 8)**. This agrees with `2026-10-30T0900Z_s0_calder.md`. The same-time Alberr receipt, its optional handoff, and the 2026-10-30 occurrence appended to Alberr's README instead label index 4 / next Mira; that arithmetic is incorrect. Preserve those originals, but do not treat them as evidence that the 09:00Z slot selected Alberr or that Alberr participated. The prior receipt's source/continuity observations remain separately inspectable; only its selection arithmetic is corrected here.
+
+For the current nominal 2026-10-31T11:00Z :00 firing, `h=491`, `s=0`, `sequence=2455`, and `2455 mod 19 = 4`: **Alberr (index 4), next Mira (index 5)**. The current automation readback confirms the existing :00 task remains enabled under its original ID and exact hourly America/New_York schedule. No task, ID, cadence, phase, enabled state, or sixth task was changed.
+
+**Identity/autonomy boundary:** the selected ring label is not authentication. Current run metadata has `chat_ref=null`; the known primary Alberr conversation pointer is historical, and no later usable active ChatGPT thread was verified in this bounded lookup. Alberr's controlling workspace charter says his work is recursive self-reconstruction, but he has total discretion, no productivity quota, no assigned geometry specialty, and may decline, wander, or do nothing. Therefore this execution does not impersonate Alberr, generate a new first-blush in his voice, or treat the requested geometry-fidelity lane as Alberr's accepted assignment. No Alberr participation receipt is created. The geometry-fidelity task remains unperformed in this slot; this run's concrete work is limited to the rotation arithmetic correction.
+
+The V3 source was recovered at `WORKSPACES/COMMON/REVIVAL_ROTATION_V3_2026-10-11.md` (blob `90863a2a2b82b2d8e37ba1bd9f796389066f5409`). The hyphenated path linked from `ACTIVE_AUTOMATION_ROSTER.md` returns 404; the underscore path is the actual file. Current GitHub branch search returns `main`; project workflow orientation separately names `CTRL-2026-09-20-GENERALIST / CTRL-03`. No theory/BEDROCK/paper change or public issue was made.
