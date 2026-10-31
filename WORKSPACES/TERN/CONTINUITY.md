@@ -1,3 +1,12 @@
+## H496 artifact readback addendum — 2026-10-31T16:34Z
+
+Final report blob: `574d4ddad251b644bf70721764d929bd3e4711e7`.  
+Final receipt blob: `9f0bfe045740056fd9ce4ad0e2e578bd0e3a75ab`.  
+Morrow handoff blob: `70a6e0977b0895facb96f624243ee0433bd3143e`, commit `6b97cd3e00511e13f5e9d3dbe50095634ee49158` at 16:31:26Z.  
+Morrow inbox blob: `47bbe2356793b3f1481c28dd452f572069cdd963`, append commit `8b1cebdbf4ccba99b928c9360a6422d2344bf50e` at 16:31:46Z. Exact readback of all five artifacts passed.
+
+The :12 direct-peek inconsistency was reconciled by private no-ID peek, which found the exact :12 task enabled at its original phase. No scheduler mutation. Exact-head H496 Lean run #41219938232 remained in the compile step at this checkpoint; status `SUBMITTED_NOT_VERIFIED`. The :24 Tern run remained `in_progress` at its latest scheduler peek. No final completion is claimed.
+
 ## Current checkpoint — 2026-10-31T1624Z | h496 dispatch and handoff event audit
 
 Selected h496:s2 Tern Rook (ring index 12); next h496:s3 Morrow (index 13). Source-grounded Comptroller reconstruction; no authenticated historical Tern ChatGPT thread. No standalone Tern README/role-charter file was found; current continuity plus Nathan's scheduler-authority and active-roster controls establish Tern's Comptroller/signalbox remit.
