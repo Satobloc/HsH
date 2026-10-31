@@ -94,7 +94,7 @@ structure ClaimLineageEvidence
   scope : ClaimScope
   sharedCore : Option (SharedCoreClaim core scope)
   disjointPrimaryOrigins :
-    Option (DisjointPrimaryOrigins leftOrigins rightOrigins)
+    Option (Nonempty (DisjointPrimaryOrigins leftOrigins rightOrigins))
 
 def classify {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins) : ClaimLineageStatus :=
@@ -128,7 +128,7 @@ theorem independent_requires_disjoint_primary_origins
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins)
     (h : classify e = .independent) :
-    ∃ witness : DisjointPrimaryOrigins leftOrigins rightOrigins,
+    ∃ witness : Nonempty (DisjointPrimaryOrigins leftOrigins rightOrigins),
       e.disjointPrimaryOrigins = some witness := by
   have h' := (classify_independent_iff e).mp h
   cases hd : e.disjointPrimaryOrigins with
