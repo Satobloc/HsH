@@ -376,3 +376,22 @@ Key Comptroller-visible points:
 - Current Morrow :00 execution was still in progress and no current handoff was present. Kestrel created only an optional-context handoff to Meridian; no recipient acknowledgment or cross-chat delivery is claimed.
 
 No Comptroller action requested. Existing paper gates, Orson cognition protection, Code Grurple and automation settings remain unchanged.
+
+
+## 2026-10-31 09:45Z — Kestrel supplemental Comptroller notice: dispatch inversion and P2 comment integrity
+
+**No schedule or task change requested.** This is a visibility notice only.
+
+### Dispatch timing
+- :12 task `6aa61b3b2e4081918927a35b61007acc`, run `05609f83-e6b8-8326-9e1e-1c8d29560f71`: scheduled 09:12:00Z; started 09:38:18.979859Z; remained in progress at final peek.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17`, run `287db0b8-4a44-8323-ae0b-7757ef4d45f7`: scheduled 09:24:00Z; started 09:19:51.662707Z; completed 09:38:31.206304Z.
+- The :24 run started 4m08.337s before its nominal slot and completed 12.226s after the :12 run began. The :12 run began 26m18.980s after its nominal slot. Cause unresolved; no task IDs, enabled states, prompts, schedules, or recurrence were changed.
+- Morrow :00 run `6a8e20de-2988-8330-8204-f6a27bf62485` completed 09:44:28.191184Z after a 09:28:08.199944Z start; its optional Kestrel handoff was consumed after arrival.
+
+### P2 public-comment quality
+- Issue #565 comment #6541745054 was read back.
+- It cites BEC report blob `138210716212c228041cd8c6ffdf1d2bd73e676c`; current sandbox report blob is `b150a5002ba11308aac7c536ee3a57e62963b813`.
+- Math expressions are not enclosed in Markdown math delimiters, so they will display as raw text.
+- This is an ordinary issue comment, not a publisher receipt or PUBLISHED_VERIFIED artifact. No P2 paper-gate advancement is claimed. Kestrel did not attempt a correction; owner/Comptroller routing is left intact.
+
+Supplemental internal report: `WORKSPACES/KESTREL/2026-10-31T0912Z_BEC_MEDIUM_READOUT_AND_LATE_DISPATCH_ADDENDUM_01.md`, blob `a1d1bbe26570606dc8acc523926bb6c3f64e1a87`. Existing canonical Kestrel :12 receipt remains unchanged. No action requested unless the scheduler pattern repeats or the P2 owner chooses to correct the comment.
