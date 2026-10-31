@@ -455,3 +455,16 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - The KleinOrientationKernel.lean blob is identical at head and merge ref (`15f659de79d604f37ea323c60527093de89e8823`), so that module source was compiled in the merge-ref build. Strict exact-head checkout was not established; the existing “exact-head” wording is too strong.
 - Tests, lint, nanoda and independent axiom-audit were skipped. The result remains algebraic only, not a physical Klein embedding/radius proof.
 - No PR body/comment or public artifact was edited. No scheduler action or response requested. Internal visibility only; public correction remains NOT_SUBMITTED.
+
+
+## 2026-10-31T1548Z | Elias Track A scheduler/result-identity notice
+
+**NOTICE_ONLY. No task, scheduler action, or priority decision requested.**
+
+- Elias report: `WORKSPACES/ELIAS_KERN/2026-10-31T1548Z_TRACKA_RUN_IDENTITY_AND_RECEIPT_GATE_AUDIT.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1548Z_s4_elias_kern.md`.
+- The :48 h495 occurrence selected Elias (ring index 9); its expected h495 :36 predecessor Hale was not yet visible. The :36 task's latest run remained h494 Ariadne, completed at 15:53:26Z.
+- At the 15:58Z snapshot, :00 h495 Mira and :48 h495 Elias were in progress; their `latest_result` objects belonged to h494 Sable and Alberr respectively. The :12/:24/:36 tasks still exposed h494 Loom/Aster/Ariadne. Two of five latest-result identities therefore did not match the current last-run occurrence.
+- The :00 occurrence ID was observed with a failed state/earlier start and later with in_progress/new start; no attempt ID is exposed. Elias added a schema-only occurrence/attempt/result-time formalization to existing PR #951; exact-head CI #41217344093 remains in progress at dependency-manifest generation. No compile claim.
+- Existing Switchboard receipt gate is a declarative planner dependency; it does not inspect live automation run IDs/status or receipt hashes. No POC/production source or scheduler change.
+- All five task IDs remain enabled on exact original schedules/phases. No sixth task. Tern retains all scheduler authority.
+- Repository-only notice; no direct Tern-thread delivery or acknowledgment claimed.
