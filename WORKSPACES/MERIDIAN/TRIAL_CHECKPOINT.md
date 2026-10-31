@@ -186,3 +186,21 @@ This is a bounded solver-QC audit, **not HAGALAZ RUN 100** and not a new branch.
 ## 2026-10-30T0709Z publication addendum
 
 Issue #1090's publisher workflow did not trigger because the issue title omitted the required [HSH-PUBLISH-V1] prefix. No duplicate issue was created. The same submission ID was published through the documented direct Contents fallback to WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-s2-ui-origin-ordering-20261030t0648z-s4-001.md. Exact repository readback passed (12,595 characters). Original issue-body SHA-256 fe5e1a725017db16362100c55563cf9e5e66b36a198e53bdfa97006e48c7497b; corrected artifact SHA-256 ecc45d137ebaee29d4c4e745d112a6a9c29dcd5a1586263f297cd4ee4e3bb24a. The only editorial correction was “invalid mask false” -> “valid mask=false”. Issue comment #6517085373 records the fallback and checksum distinction. Status: CONNECTOR_FALLBACK_PUBLISHED_AND_READ_BACK, not issue-publisher success.
+
+
+## Run 075 — 2026-10-31T0924Z: BEC finite-core medium-vortex comparator (sandbox only)
+
+- Rotation: h=489; seq=2447; Meridian index 15; Mercer index 16 next. Existing :24 automation remains enabled with its original task ID and hourly phase; no task mutation or sixth task.
+- New report: WORKSPACES/MERIDIAN/SANDBOX/2026-10-31T0924Z_BEC_FINITE_CORE_MEDIUM_READOUT_COMPARATOR.md; current Git blob 36c3b6db4fd27c5e730d49b17de5cfe3579639c7.
+- Source-first: July 11 and September 6 Nathan Direct Kelvin-vortex statements recovered from verified batches. Four Mersearch lanes remain occupied; no Mersearch execution, no overwrite, and no exhaustive three-repository source clearance.
+- External comparator: Anderson et al. (2000) two-component 87Rb BEC filled/bare vortex-core precession; Coddington et al. (2004) equilibrium vortex-core imaging and GPE comparison. The BEC vortex is a medium structure, not the SAT worldtube. It constrains the medium-vortex response and image/readout chain only.
+- Calculated from published rounded summaries: 260/1.7 = 152.94 local-rate factor; sqrt(152.94)=12.37 radius factor, compatible with reported maximum factor 13. This is not independent validation because the local rate is derived from quantized circulation and fitted radius. Precession changes by at most about factor 2. No combined significance because full covariance/raw images are unavailable.
+- CODATA 2022 not used in dimensionless ratio; hbar/m cancels. AME2020 mass and a specific scattering-length source would be needed for absolute reconstruction. No covariance invented.
+- Geometry: BEC centerline history and finite-core history are distinct; their equal-time intersections have different dimensions; image projection/fitting is another non-injective map. SAT worldtube-to-medium-vortex coupling remains missing.
+- Formal checks: Kestrel PR #873 slice/incidence modules built but overall PR remains FAILED in KestrelKelvinVortexReadout. Meridian PR #750 and Kestrel PR #846 have successful exact-head builds for separate conditional modules. No BEC-specific Lean module or new PR.
+- Code Grurple remains ACTIVE; HAGALAZ remains backseat/hold. Browser context and Sites editor/publisher action unavailable; no route probe repeated. Main Paper A/B source blobs still match the feed; latest main commit only changed generated discovery JSON. No manuscript, feed, renderer, site, paper-gate, or BEDROCK change.
+- Public docket: P2 issue #565 comment #6541745054 created/read back. Its embedded report blob is the initial version; current report blob is recorded above. Corrective issue-comment attempt was safety-blocked and not retried. No PUBLISHED_SUBMISSIONS artifact claimed.
+- Common Mercer handoff creation was safety-blocked; no alternate route or inbox write was attempted. No cross-thread delivery or acknowledgment claimed.
+- FIE rereview not due; unrelated reading break was completed in the preceding run. No theory promotion.
+
+**Return cursor after Code Grurple standdown:** resume Meridian's existing HAGALAZ material-history/finite-core/medium-response question only after preserving the current source and measurement gates. First recover raw BEC image/fit data and covariance if available; then specify the observation operator and a separately derived SAT-worldtube-to-medium coupling. Do not treat this comparator as validation.
