@@ -164,6 +164,14 @@ No successful exact-head Lean build is claimed. PR #1163 remains DRAFT / BACKSEA
 
 ## 7. Existing publication, controls, and next reading
 
+### Optional Hale handoff
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, final Git blob `b6192a49678c8c3a544063a294d7ebfee0fbec52`.
+- Hale inbox final readback: blob `298a67267c82b0a5be1981912ad96b30546153c5`.
+- Hale's :24 execution had already started at 19:25:16Z before the handoff was written. Repository delivery is verified; recipient consumption and cross-chat delivery are not claimed.
+- Class: LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
+
+
 Existing issue #1150 has a publisher-bot comment confirming the earlier Calder isotope/null-design artifact was published and read back. This run did not submit a duplicate public issue or alter that artifact. The present precision addendum remains internal-only until the Lean result and source uncertainty issue are settled.
 
 - Code Grurple: ACTIVE.
@@ -181,4 +189,4 @@ Existing issue #1150 has a publisher-bot comment confirming the earlier Calder i
 - Existing public source-correction artifact: issue #1150, publisher receipt present.
 - No new Mersearch request, issue-publisher submission, manuscript edit, branch promotion, theory promotion, or automation change.
 
-**FINAL STATUS: DIRECT SAT MEDIUM/WORLDTUBE SOURCE CONTEXT RECOVERED AND PROVENANCE-TYPED. 23Na HEALING-LENGTH CENTRAL-VALUE CHECK REPRODUCED. APPROXIMATE ξ/μ/R̄ RATIO PRECISION GAP IDENTIFIED, NOT DECLARED AN ERROR. C2 NULL STILL BLOCKED BY MISSING SHOT-LEVEL DATA AND SIGN-PROVENANCE. LEAN BUILD NOT YET VERIFIED; FIRST FAILURE PRESERVED, TWO RETRIES IN PROGRESS. CODE GRURPLE HOLD RESPECTED.**
+**FINAL STATUS: DIRECT SAT MEDIUM/WORLDTUBE SOURCE CONTEXT RECOVERED AND PROVENANCE-TYPED. 23Na HEALING-LENGTH CENTRAL-VALUE CHECK REPRODUCED. APPROXIMATE ξ/μ/R̄ RATIO PRECISION GAP IDENTIFIED, NOT DECLARED AN ERROR. C2 NULL STILL BLOCKED BY MISSING SHOT-LEVEL DATA AND SIGN-PROVENANCE. LEAN BUILD NOT YET VERIFIED; FIRST FAILURE AND ONE CANCELLATION PRESERVED, CURRENT RETRY IN PROGRESS. CODE GRURPLE HOLD RESPECTED.**
