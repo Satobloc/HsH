@@ -46,11 +46,11 @@ Its exact normalized comparison found a 12,598-line common core (608,387 bytes; 
 Calculated from the audited source counts:
 
 - Common core is 98.7149% of the 12,762-line KIRK-side artifact and 99.0331% of the 12,721-line READY_ROOM-side artifact.
-- It is 96.5134% of the KIRK-side bytes and 97.1185% of the READY_ROOM-side bytes.
+- After LF normalization, the 608,387-byte core is 98.4552% of the 617,933-byte KIRK block and 99.0782% of the 614,047-byte READY_ROOM block. The corresponding raw CRLF source-section sizes are 630,365 and 626,438 bytes.
 - KIRK-side unique suffix: 164 lines.
 - READY_ROOM-side unique material: 122 leading lines plus one trailing line.
 
-The full normalized KIRK-side text is also present as a contiguous substring in a larger composite at normalized offset 8,252. That composite is another representation of the same content for claims supported by that embedded text, not an independent witness.
+The recovered THE_WHOLE_READY composite contains a KIRK source-guide summary and generated RileyMind material, but not the full normalized KIRK_mind or READY_ROOM source block; exact substring checks against both source blocks return -1. It is a derived summary/output, not an independent witness for the underlying source claims.
 
 The standalone version 1.2.1 instruction document and embedded version 1.3 instruction section remain distinct source objects. No authenticated composition date or author metadata establishes chronology from the higher version label. The RileyMind profile is embedded; no standalone RileyMind file was recovered. Two NotebookLM chat/export outputs report 12 and 5 sources, but source manifests are absent; generated summaries/in-character output are not independent evidence about the source material.
 
@@ -64,7 +64,7 @@ A whole-artifact binary label is too coarse when two artifacts share a verified 
 
 The new four-state contract is:
 
-1. **DEPENDENT:** the claim's support in both artifacts lies within a verified shared normalized core.
+1. **DEPENDENT (shared-content):** the claim's support in both artifacts lies within a verified shared normalized core, so the two copies are not independent content witnesses for that claim. This does not establish copying direction or a common acquisition event.
 2. **INDEPENDENT:** both primary-origin sets are nonempty and proven disjoint, with no shared-core evidence for that claim.
 3. **UNRESOLVED:** neither shared-core dependence nor disjoint primary ancestry has been established.
 4. **CONFLICTING:** shared-core and disjoint-origin evidence are both present; neither is silently preferred.
@@ -156,3 +156,12 @@ The private Library export bundles were materialized and their embedded source s
 A source-level correction: the recovered THE_WHOLE_READY section does not contain the full KIRK_mind or READY_ROOM text (both exact substring checks return -1). It contains v1.3 instructions, a KIRK source-guide summary, a first-person passage without raw role metadata, assistant-generated four-field advice and RileyMind reconstruction. THE_WHOLE_READY2/3 are shorter NotebookLM outputs. The earlier claim of full KIRK_mind inclusion at offset 8,252 is withdrawn. The standalone READY_ROOM_README is v1.2.1; version labels do not prove chronology.
 
 The claim-scoped model remains appropriate, but its DEPENDENT state means non-independent as a content witness for that claim, not proven causal ancestry. The shared-core attestation is now independently reproduced by Python from the materialized Library export sections; Lean still treats that comparison as an external input.
+
+
+## Amendment 04 | 2026-10-31T1526Z
+
+The current Library bundle re-extraction is now the controlling calculation record. The KIRK_mind and READY_ROOM source sections were extracted from one 2,259,195-byte bundle; their raw section sizes are 630,365 and 626,438 bytes. After CRLF-to-LF normalization and Unicode-aware Python str.splitlines(), they contain 12,762 and 12,721 lines. SequenceMatcher(autojunk=False) gives 0.9888160734607385; its largest exact block is 12,598 lines at KIRK [1,12599) and READY_ROOM [123,12721), 608,387 normalized bytes, SHA-256 32b9b8f18fc220f776bb39a24a760dd759db0df755f5a2293aaedc0878634345. Normalized byte coverage is 98.4552% and 99.0782%, respectively.
+
+The common block is shared content, not proof of causal ancestry. The 122-line READY_ROOM prefix and 164-line KIRK suffix are separate claim scopes; absent primary-origin evidence they remain unresolved. The common block begins with a first-person passage, but the source section has no raw role metadata, so that passage is not authenticated Nathan Direct.
+
+The recovered THE_WHOLE_READY source section has 8,124 Unicode-split lines / 814,717 normalized bytes. It contains the v1.3 instruction guide, a KIRK source-guide summary, a first-person passage without raw role metadata, an assistant-generated four-field response and RileyMind reconstruction. It does not contain the full KIRK_mind or READY_ROOM source text. THE_WHOLE_READY2/3 are shorter NotebookLM output sections, not source copies. The earlier offset-8,252 full-KIRK inclusion statement is withdrawn. The separate READY_ROOM_README is version 1.2.1; the embedded guide is v1.3, with no authenticated chronology or author metadata.
