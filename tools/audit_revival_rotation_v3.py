@@ -39,19 +39,24 @@ STRUCTURED_FIELDS = {
     "chat_delivery_state", "historical_chat_delivery",
     "delivery_counts_as_invitation", "verified_message_id",
     "chat_message_id", "delivery_receipt_id", "handoff_class",
+    "run", "selection", "thread_status", "selected_ring_index", "next_ring_index",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key"}
+METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
 
 def field_name(value):
     return value.strip().lower().replace(" ", "_").replace("-", "_")
 
 def data(text, conflicts=None):
-    """Parse only recognized metadata fields before the first narrative section."""
+    """Parse recognized metadata fields, including named Rotation/Run Metadata sections."""
     result = {}
     for line in text.splitlines():
         if line.lstrip().startswith("## "):
-            break
+            section = line.lstrip()[3:].strip().lower()
+            if section not in METADATA_SECTIONS:
+                break
+            continue
         match = BOLD_FIELD.fullmatch(line) or PLAIN_FIELD.fullmatch(line)
         if not match:
             continue
@@ -94,7 +99,9 @@ def identity_hint(text, which):
     header = []
     for line in text.splitlines():
         if line.lstrip().startswith("## "):
-            break
+            section = line.lstrip()[3:].strip().lower()
+            if section not in METADATA_SECTIONS:
+                break
         header.append(line)
     source = "\n".join(header)
     for name in sorted(RING, key=len, reverse=True):
@@ -102,11 +109,15 @@ def identity_hint(text, which):
             patterns = (
                 rf"\bselected\s+ring\[\d+\]\s+{re.escape(name)}\b",
                 rf"(?<!next )\bindex\s*=\s*\d+\s+{re.escape(name)}\b",
+                rf"\bselected\s+ring\s+index\s*:\s*\d+\s*=\s*{re.escape(name)}\b",
+                rf"(?<!next )\bring\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
             )
         else:
             patterns = (
                 rf"\bnext\s+ring\[\d+\]\s+{re.escape(name)}\b",
                 rf"\bnext\s+index\s*=\s*\d+\s+{re.escape(name)}\b",
+                rf"\bnext\s+ring\s+index\s*:\s*\d+\s*=\s*{re.escape(name)}\b",
+                rf"\bnext\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
             )
         if any(re.search(pattern, source, flags=re.I) for pattern in patterns):
             return name
@@ -143,7 +154,7 @@ class Audit:
         d = data(text, conflicts)
         for key_name, earlier, later in conflicts:
             self.error(p, f"conflicting structured field {key_name}: {earlier!r} vs {later!r}")
-        raw_key = d.get("run_key")
+        raw_key = d.get("run_key") or d.get("run")
         key = parse_key(raw_key)
         if not key:
             self.error(p, "invalid/missing run_key")
@@ -158,7 +169,7 @@ class Audit:
         selected_raw = d.get("selected_identity") or d.get("selected") or d.get("worker_identity")
         selected = canonical_identity(selected_raw) or identity_hint(text, "selected")
         if not selected_raw and selected:
-            self.warnings.append(f"{p.name}: selected identity recovered from explicit index/selected-ring header")
+            self.warnings.append(f"{p.name}: selected identity recovered from explicit ring-index header")
         if selected != identity(h, s):
             self.error(p, f"selected identity not ring[{5*h+s} mod 19]")
         next_raw = d.get("next_identity") or d.get("next_selected")
@@ -185,13 +196,24 @@ class Audit:
         d = data(text, conflicts)
         for key_name, earlier, later in conflicts:
             self.error(p, f"conflicting structured field {key_name}: {earlier!r} vs {later!r}")
-        src = parse_key(d.get("from_run_key"))
+        raw_src = d.get("from_run_key") or d.get("run_key") or d.get("run")
+        src = parse_key(raw_src)
         dst = parse_key(d.get("to_run_key"))
-        if not src or not dst:
-            self.error(p, "invalid/missing from_run_key or to_run_key")
+        if not src:
+            self.error(p, "invalid/missing from_run_key or legacy Run key")
             return
         h, s = src
-        if LEGACY_KEY.fullmatch((d.get("from_run_key") or "").strip().strip(chr(96))) or LEGACY_KEY.fullmatch((d.get("to_run_key") or "").strip().strip(chr(96))):
+        if not dst:
+            candidate = next_hop(h, s)
+            f = re.search(r"_from_s([0-4])_to_s([0-4])_", p.name)
+            next_hint = canonical_identity(d.get("recipient_identity") or d.get("to_identity") or d.get("recipient_selected")) or identity_hint(text, "next")
+            if f and (int(f[1]), int(f[2])) == (s, candidate[1]) and next_hint == identity(*candidate):
+                dst = candidate
+                self.warnings.append(f"{p.name}: legacy handoff omitted to_run_key; successor derived from ring rule, filename and next-identity witness")
+            else:
+                self.error(p, "invalid/missing to_run_key; legacy successor could not be independently cross-checked")
+                return
+        if LEGACY_KEY.fullmatch((raw_src or "").strip().strip(chr(96))) or LEGACY_KEY.fullmatch((d.get("to_run_key") or "").strip().strip(chr(96))):
             self.warnings.append(f"{p.name}: legacy display-date handoff key normalized to epoch-hour form")
         self.check_stamp(p, h, s)
         if src in self.handoffs:
@@ -201,12 +223,12 @@ class Audit:
             self.error(p, f"wrong successor key: {dst} != {next_hop(h,s)}")
         sender_raw = d.get("sender_identity") or d.get("from_identity") or d.get("from_selected")
         recipient_raw = d.get("recipient_identity") or d.get("to_identity") or d.get("recipient_selected")
-        sender = canonical_identity(sender_raw)
-        recipient = canonical_identity(recipient_raw)
-        if not d.get("sender_identity") and sender_raw:
-            self.warnings.append(f"{p.name}: sender identity recovered from documented alias field")
-        if not d.get("recipient_identity") and recipient_raw:
-            self.warnings.append(f"{p.name}: recipient identity recovered from documented alias field")
+        sender = canonical_identity(sender_raw) or identity_hint(text, "selected")
+        recipient = canonical_identity(recipient_raw) or identity_hint(text, "next")
+        if not d.get("sender_identity") and sender:
+            self.warnings.append(f"{p.name}: sender identity recovered from documented alias/index field")
+        if not d.get("recipient_identity") and recipient:
+            self.warnings.append(f"{p.name}: recipient identity recovered from documented alias/index field")
         if sender != identity(*src):
             self.error(p, "sender identity mismatch")
         if recipient != identity(*dst):
@@ -290,8 +312,7 @@ def self_test():
         base = Path(temp) / "WORKSPACES" / "COMMON"
         r = base / "REVIVAL_ROTATION_RECEIPTS"
         h = base / "REVIVAL_ROTATION_HANDOFFS"
-        r.mkdir(parents=True)
-        h.mkdir()
+        r.mkdir(parents=True); h.mkdir()
         receipt = r / "2026-10-11T1236Z_s3_aldus.md"
         packet = h / "2026-10-11T1236Z_from_s3_to_s4_calder.md"
         receipt.write_text("- **run_key:** REVROT3-19-20261011:12:s3\n- **selected_identity:** Aldus\n- **next_identity:** Calder\n- **next_run_key:** REVROT3-19-20261011:12:s4\n- **delivery_verified:** false\n", encoding="utf-8")
@@ -306,53 +327,58 @@ def self_test():
         packet.write_text(packet.read_text().replace(":s4\n", ":s3\n"), encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
 
-        # Real modern bullet/semicolon dialect plus identity and delivery aliases.
-        receipt.write_text(
-            "- run_key: REVROT3-19-20261011:12:s3; h=12, seq=63, index=6 Aldus; next index=7 Calder at 12:48Z.\n",
-            encoding="utf-8",
-        )
-        packet.write_text(
-            "from_run_key: REVROT3-19-20261011:12:s3\n"
-            "to_run_key: REVROT3-19-20261011:12:s4\n"
-            "from_selected: Aldus-selected, current assistant reconstruction\n"
-            "recipient_selected: Calder (7)\n"
-            "historical_chat_delivery: UNAVAILABLE_NOT_SENT\n"
-            "delivery_counts_as_invitation: false\n",
-            encoding="utf-8",
-        )
+        receipt.write_text("- run_key: REVROT3-19-20261011:12:s3; h=12, seq=63, index=6 Aldus; next index=7 Calder.\n", encoding="utf-8")
+        packet.write_text("from_run_key: REVROT3-19-20261011:12:s3\nto_run_key: REVROT3-19-20261011:12:s4\nfrom_selected: Aldus-selected, current assistant reconstruction\nrecipient_selected: Calder (7)\nhistorical_chat_delivery: UNAVAILABLE_NOT_SENT\ndelivery_counts_as_invitation: false\n", encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
 
-        # Canonical fixed-epoch keys must not be mislabeled as legacy date keys.
         assert parse_key("REVROT3-19-20261011:12:s3") == (12, 3)
         assert not LEGACY_KEY.fullmatch("REVROT3-19-20261011:12:s3")
-
-        # Date-based legacy keys normalize to the fixed epoch, including negative h.
         assert parse_key("REVROT3-19-20261012:07:s3") == (31, 3)
         assert parse_key("REVROT3-19-20261010:23:s4") == (-1, 4)
 
-        # Explicit optional context packets are not scheduled handoffs.
         optional = h / "2026-10-31T0224Z_from_s2_to_s0_sable.md"
         optional.write_text("# Optional handoff | Orson Vay -> Sable\n\nRepository-only context.\n", encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "PASS_WITH_WARNINGS"
         assert result["handoffs"] == 1 and any("context-only handoff" in w for w in result["warnings"])
 
-        # An unmarked or partial handoff must still fail closed.
         malformed = h / "2026-10-11T1236Z_from_s3_to_s0_unknown.md"
         malformed.write_text("# Handoff\nNo machine run keys.\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
 
         conflicts = []
-        parsed = data(
-            "run_key: REVROT3-19-20261011:12:s3\n"
-            "run_key: REVROT3-19-20261011:12:s4\n"
-            "## Narrative\nrun_key: REVROT3-19-20261011:12:s0\n",
-            conflicts,
-        )
+        parsed = data("run_key: REVROT3-19-20261011:12:s3\nrun_key: REVROT3-19-20261011:12:s4\n## Narrative\nrun_key: REVROT3-19-20261011:12:s0\n", conflicts)
         assert parsed["run_key"] == "REVROT3-19-20261011:12:s3"
         assert conflicts == [("run_key", "REVROT3-19-20261011:12:s3", "REVROT3-19-20261011:12:s4")]
-    return {"status": "PASS", "checks": 15}
+
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        h = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); h.mkdir()
+        receipt = r / "2026-10-31T0224Z_s2_orson_vay.md"
+        receipt.write_text("## Rotation\n- Run key: REVROT3-19-20261011:482:s2\n- Selected ring index: 18 = Orson Vay\n- Next ring index: 0 = Sable\n## Continuity and authority\n- Run key: narrative must not override metadata.\n", encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
+        assert result["receipts"] == 1
+
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        h = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); h.mkdir()
+        receipt = r / "2026-10-11T1236Z_s3_aldus.md"
+        receipt.write_text("run_key: REVROT3-19-20261011:12:s3\nselected_identity: Aldus\n", encoding="utf-8")
+        packet = h / "2026-10-11T1236Z_from_s3_to_s4_calder.md"
+        packet.write_text("**Run:** REVROT3-19-20261011:12:s3\n**Selection:** (h=12), ring index 6 = Aldus; next index 7 = Calder.\n", encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
+        assert result["handoffs"] == 1 and any("successor derived" in w for w in result["warnings"])
+        bad = h / "2026-10-11T1236Z_from_s3_to_s0_wrong.md"
+        bad.write_text("**Run:** REVROT3-19-20261011:12:s3\n**Selection:** ring index 6 = Aldus; next index 7 = Calder.\n", encoding="utf-8")
+        assert Audit().check(temp)["status"] == "FAIL"
+    return {"status": "PASS", "checks": 17}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
