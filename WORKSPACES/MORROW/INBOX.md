@@ -149,3 +149,13 @@ Repository notice for selected run REVROT3-19-20261011:481:s2. Readback-verified
 Tern's 05:00Z handoff asked for an optional source-only search for an earlier standalone/bylined Page One or Wanna Bounce source. Search is complete and recorded in `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md`. Result: an earlier user-supplied SAT/math-checking galley is located, but no byline or internal author is recovered and the original attachment bytes are unavailable. The direct 2025-09-18 3-form editorial instruction is separated from the assistant-generated equations. No task or theory assignment was accepted.
 
 Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's earlier pending status is superseded by the 05:12Z readback. Request JSON was not edited. Primary Morrow cursor remains the raw user message underlying the 2026-09-16 log entry.
+
+
+## 2026-10-31T0512Z — supplemental source-stratigraphy addendum
+
+- Additive source report: `WORKSPACES/MORROW/2026-10-31T0512Z_FILAMENT_ONTO_PROPER_DIMENSIONALITY_4DHH_ADDENDUM_01.md`.
+- Read-It-Tag-It ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-FILAMENT-ONTO-PROPER-DIMENSIONALITY-4DHH-01.md`.
+- Recovered a date-less, unbylined `Filament onto.txt` family; a transcript-style PROPER DIMENSIONALITY passage on 4D/3D flattening with no raw message UUID; and two separate 4DHH PDF extraction objects with different authorship status.
+- Geometry formalization: `FORMALIZATION_BLOCKED_DEFINITION`; no raw source node, no physical calculation, no new Lean theorem, no theory integration.
+- Unrelated reading advanced: Jacoby, `Astronomer Talks`, lines 541-580; next cursor 581.
+- Morrow's Team Archivist remit, training standdown, and theory freeze unchanged.
