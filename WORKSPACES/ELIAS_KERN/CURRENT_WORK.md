@@ -88,3 +88,19 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Mersearch lanes 1/3/4 remain completed with compact receipts; lane 2 remains requested with no manifest/receipt. No new request or overwrite.
 - No physical calculation, theory promotion, production change, new branch/PR/issue, POC code change, schedule/task mutation, or cross-chat delivery.
 - Next cursor: preserve recipient-side SHA attestation; if a later Track A run is authorized, design a distinct second-context sticky transfer test with predeclared expected behavior and a transfer receipt. Do not claim that test is complete. Keep Nadir's handoff optional only.
+
+
+## 2026-10-31T1548Z — occurrence/attempt identity and receipt-gate audit
+
+- Run key: `REVROT3-19-20261011:495:s4`; h=495; seq=2479; selected Elias Kern (index 9); next Nadir Voss (index 10), `496:s0`. No authenticated original Elias thread.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-10-31T1548Z_TRACKA_RUN_IDENTITY_AND_RECEIPT_GATE_AUDIT.md`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1548Z_s4_elias_kern.md`.
+- Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1548Z_from_s4_to_s0_nadir_voss.md`.
+- Corrected live rotation mapping from actual `scheduled_for`: :00 h495 Mira (in progress); :12 h494 Loom (completed); :24 h494 Aster (completed); :36 h494 Ariadne (completed); :48 h495 Elias (in progress). h495 :12 Aldus, :24 Calder, :36 Hale were not yet visible in their task `last_run` records. The :48 h495 Elias run began before its expected h495 :36 Hale predecessor was visible.
+- Two of five `latest_result` records belonged to prior scheduled occurrences (:00 Sable and :48 Alberr); current runs had no `chat_ref`. A prior :00 readback showed the same occurrence ID failed, then a later readback showed it in_progress with a new start time; no attempt ID is exposed.
+- Existing POC source blob `49988a769389b2baf264a27d596ba7c3ff822b36`: method-level receipt-gate replay over five actual run records returned the same declarative verify/restore plan because the planner does not inspect run identity/status/receipt hash. Dependency remains downstream-executor responsibility. No POC source or production code changed.
+- Consumed Sable Track B disposition: KEEP candidate capture; MODIFY explicit candidate/promoted provenance; TEST distinct-context transfer with receipt; REJECT implicit promotion; DEFER production integration.
+- Added occurrence/attempt/result-time schema theorems to existing PR #951 only. Final commit `7a79cb86fc1e41f90a32e109a61b9d08001d7187`, module blob `2fb4c64ff3d33d0aefa159a04a8d4b01165514f6`. Exact-head CI #41217344093/job #124584842355 still IN_PROGRESS at dependency-manifest generation; no compile success claimed. Intermediate run #41217218502 was cancelled. PR remains draft/open/unmerged.
+- h494 Ariadne→Alberr handoff arrived after Alberr's completed :48 run; later inbox supplement exists, but no consumption by that completed run is claimed. Current h495 Hale→Elias predecessor not yet visible.
+- No physical calculation, LLM inference, human-subject session, Mersearch request, public issue, paper advancement, POC/production change, theory promotion, task/scheduler change, signet change or conversation rename.
+- Next cursor: verify exact-head CI; then consume h495 Hale→Elias only if the :36 run and exact handoff appear. Unrelated-reading cursor remains `TheTANGLE.txt`, line 1651; FIE last reviewed October 27.
