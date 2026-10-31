@@ -326,3 +326,21 @@ Correction note 2026-10-31T1154Z: Hale BEC report updated to correct a Johnstone
 The source addendum records Nathan Direct July 11 and September 6-7 statements about a thickened worldline/worldtube, responsive fluid medium, Kelvin-vortex or timesheet-bound-soliton candidates, and a tentative BEC-ocean vacuum picture. These are exploratory model statements, not a measured SAT-to-medium coupling. Seo et al. (2017) is a conventional 23Na BEC comparator; a central-value recomputation gives ξ≈0.656532462 μm from μ≈h×510 Hz, while the paper quotes rounded ξ≈0.6 μm. The discrepancy is precision-limited because the retrieved article supplies no uncertainty for μ or the radii. The raw shot-level data and sign-source labels remain unavailable; no permutation inference was run.
 
 Preserve Hale's matched 2024-vs-2026 literature-scanner and external-evidence/statistical-calibration remit. No action or response is requested. No Hale ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+---
+
+## 2026-10-31T1924Z | HALE-1924-20261031-GW250114-ADDENDUM-001 | completed source update
+
+- **Run:** REVROT3-19-20261011:499:s2; h=499; seq=2497; selected Hale (index 8), next Elias Kern (index 9).
+- **Status:** INTERNAL_REPORT_VERIFIED / RECEIPT_VERIFIED / EXISTING_PUBLIC_ISSUE_1167_PRESERVED / PUBLIC_ADDENDUM_PENDING / NO_P2_SELECTION.
+- **Report:** WORKSPACES/HALE/2026-10-31T1924Z_GW250114_REFERENCE_EPOCH_AND_LIGHT_RING_ADDENDUM.md, final blob 00362bf3b33ccb9c56e057eaf651b8649bfab884.
+- **Receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1924Z_s2_hale.md, blob 6518a5fcfd9ad2096e5dcbfae9ff84473ba76b21.
+- **New evidence:** Yoshimura Jxiv reference-epoch/estimator sensitivity across 12 SXS ExtCCE waveforms; Cheung light-ring source calculation; Kankani–McWilliams PRD; separate Dyer–Chung–Moore accepted PRL (arXiv:2606.25021) and Dyer et al. October light-ring preprint (arXiv:2610.25176); Ma–Wang Schwarzschild Green-function alternative.
+- **Corrections:** unsupported P320 median contrasts removed; accepted PRL and October preprint separated after source-identity check. Final report records both corrections.
+- **Proof:** reference-epoch transport group action and real-frequency all-pass property are formalization candidates. No matching Lean module found; local Lean/Lake absent; Code Grurple ACTIVE. No Lean build or new PR.
+- **Incoming Calder packet:** late optional context from 19:12 was consumed after arrival; it was not incorporated into the GW analysis.
+- **Publication:** original issue #1167 remains the single published comparator. Addendum remains internal; no duplicate issue created because no verified existing-issue append route is available.
+- **Next:** Elias Kern's immediate h=499 :36 run had already completed. Optional packet prepared for his next appearance, h=518 s3, 2026-11-01T14:36Z. No task or ownership transfer.
+
+Repository-only continuity; no authenticated Hale thread or cross-thread delivery is claimed.
