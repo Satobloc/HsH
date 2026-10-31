@@ -292,3 +292,8 @@ Next useful source/definition gates:
 - Common rotation receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel.md
 
 Publication status: NOT_SUBMITTED_INTERNAL_ONLY. No issue-publisher submission, no public paper claim, no new Lean proof, no theory promotion.
+
+
+## Source addendum | independent MiniSciFi cross-check
+
+The 2026 E989 report also describes a horizontal MiniSciFi direct-beam method that reconstructs the time-momentum distribution and independently determines the electric-field correction. It agrees with the Fast-Rotation and positron-tracking determinations within 13 ppb. MiniSciFi covered only part of the data-taking configurations, so it was used as a cross-check rather than entered directly into the combined correction. This independently supports the published Ce correction values used as inputs here; it does not make the inverted RMS momentum offset a raw measurement, remove the missing n/covariance uncertainties, or validate SAT. See the report's direct-beam cross-check and combined-correction discussion (arXiv:2606.17323, Sec. V.A.3; pp. 29-30 of the rendered report).
