@@ -166,7 +166,7 @@ Lean checks only the formalized statements. It does not validate source translat
 
 **Calibration/noise:** the inspected pSEOBNR likelihood section does not document explicit detector-calibration nuisance marginalization. The GW150914 calibration literature reports frequency-dependent H1/L1 amplitude/phase uncertainties (broadly below 10% and 10 degrees across the analysis band; more detailed band extrema are available). Do not assume those uncertainties are included in the quoted QNM posterior unless a calibration-marginalized analysis is identified. The Gaussian-noise assumption is another model condition.
 
-**Raw access limit:** the official GWOSC H1/L1 4 kHz 32 s HDF5 URLs were identified, but binary downloads failed in this runtime. No raw-strain reanalysis was performed. The pSEOBNR joint posterior samples/covariance were not retrieved; the paper provides marginal tables and plotted joint contours. Therefore no joint f-tau, mass-spin, or derived-Q credible interval is calculated here.
+**Raw/sample access limit:** the official GWOSC H1/L1 4 kHz 32 s HDF5 URLs were identified, but binary downloads failed in this runtime. No raw-strain reanalysis was performed. A separate public Bilby GWTC-1 release was located: its GW150914 summary page reports 50,000 Bilby posterior samples and 23,184 LALInference samples reweighted to the Bilby default priors, using IMRPhenomPv2 with f_low=20 Hz. The page documents UIB2016, Healy, and HBR2016 remnant-fit functions. The LIGO DCC offers a 334.5 MB PESummary downsampled archive, a 497.3 MB downsampled archive, and a 2.1 GB original-results archive. Those binary downloads also failed here because this runtime could not resolve dcc.ligo.org. These are baseline IMR samples, not the 2021 pSEOBNR QNM-deviation posterior. The pSEOBNR joint samples/covariance remain unrecovered; its paper provides marginal tables and plotted joint contours. Therefore no joint f-tau, mass-spin, or derived-Q credible interval is calculated here.
 
 ## 6. Constants and unit conversion
 
@@ -275,7 +275,7 @@ The Kerr QNM result is an **external Lorentzian control** for the Cruller-genera
 
 ## 9. P2 recommendation and separate observable channels
 
-Recommend GW150914 as the **primary P2 ringdown/spectral benchmark candidate**, not as a final adopted dataset. It now has a post-merger-only damped-sinusoid analysis, a time-domain multimode analysis, and a later full-IMR parameterized QNM posterior. They are complementary analyses of the same H1/L1 event, not independent experiments; raw posterior samples/covariance and calibration treatment still need recovery.
+Recommend GW150914 as the **primary P2 ringdown/spectral benchmark candidate**, not as a final adopted dataset. It has a post-merger-only damped-sinusoid analysis, a time-domain multimode analysis, and a later full-IMR parameterized QNM posterior. The separate Bilby GWTC-1 release supplies a free baseline IMR posterior-sample route (50,000 Bilby and 23,184 LALInference-reweighted samples) and documents remnant NR-fit functions, but its archive was not downloadable in this runtime. These are complementary analyses of the same H1/L1 event, not independent experiments; pSEOBNR joint samples/covariance and calibration treatment still need recovery.
 
 Keep other candidates separate:
 
@@ -299,7 +299,7 @@ Issue #565 still has no selected P2 dataset or branch. This is a candidate recom
 - **Forks:** HsH reports zero forks.
 - **SciSpace:** used for literature discovery. No paid source was required.
 - **Runtime packages:** numpy/scipy/h5py are present; LALSuite, Bilby, GWpy, qnm, gwosc, and Astropy are absent.
-- **Free path:** GWOSC strain and arXiv papers are public/free. No monetary cost is required for the published-summary calculation. Full strain/posterior reanalysis needs the H1/L1 binary data, PSD/calibration inputs, and a free LALSuite/Bilby environment; setup and sampling are a material compute task, not a paid-service dependency.
+- **Free path:** GWOSC strain, the LIGO DCC Bilby GWTC-1 posterior release, and the cited arXiv papers are public/free. No monetary cost is required. The 334.5 MB PESummary archive is the smallest listed bulk route; the 497.3 MB and 2.1 GB archives are larger. Full strain/posterior reanalysis needs H1/L1 binary data, PSD/calibration inputs, and a free LALSuite/Bilby environment; setup and sampling are a material compute task, not a paid-service dependency. This runtime could not resolve the DCC host, so no sample propagation was claimed.
 - No new tool, branch, PR, automation, or task was created.
 
 ## 11. Publication, review, and disposition
@@ -327,3 +327,14 @@ Code Grurple remains **ACTIVE**; the presentation gate is still closed. This is 
 - IAU 2015 Resolution B3, nominal solar and planetary conversion constants: https://www.iau.org/static/resolutions/IAU2015_English.pdf
 
 The external references establish the standard-GR comparison and measurement provenance. None supplies the missing H(s)H Cruller-to-spectrum derivation.
+
+
+### Additional free posterior-sample source located
+
+- Bilby GWTC-1 public site: https://bilby-gwtc1.github.io/
+- GW150914 summary page: https://bilby-gwtc1.github.io/GW150914/home.html
+- LIGO DCC release: LIGO-P2000193-v2, https://dcc.ligo.org/LIGO-P2000193/public
+- The GW150914 page reports 50,000 Bilby samples and 23,184 LALInference-reweighted samples; metadata lists IMRPhenomPv2, 20 Hz low-frequency cutoff, and UIB2016/Healy/HBR2016 remnant-fit functions.
+- DCC archive sizes: 334.5 MB PESummary downsampled samples; 497.3 MB downsampled posterior samples; 2.1 GB original Bilby results.
+- Download attempt failed with DNS resolution error for dcc.ligo.org. This is a runtime network limitation, not an access-denial result.
+- This release is a baseline IMR parameter-estimation route, not the 2021 pSEOBNR QNM-deviation posterior. It can support a future correlated remnant-mass/spin-to-Kerr-QNM propagation once the sample bytes are retrieved.
