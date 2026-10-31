@@ -34,3 +34,7 @@ Task `6aa61b3b2e4081918927a35b61007acc` remains enabled on its original hourly :
 - Code Grurple ACTIVE; P1 Nov 9, P2 Nov 30, P3 Dec 14 unchanged.
 - No public issue submission; `NOT_SUBMITTED_INTERNAL_ONLY`.
 - Tern Comptroller notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
+
+## Source correction to original receipt item 6
+
+The original 21:12 receipt correctly described the HsH file `2025_📕_✅SAT BIG PAPER.pdf` as UTF-8 text, but its conclusion that the original PDF bytes remained unrecovered is superseded by the later source-stratigraphy report. The original binary is separately located at `Satobloc/SAT_THEORY_ARCHIVE_2023-25/✅SAT BIG PAPER.pdf`, Git blob `caf5771a9d01b8505c23c07ac7cccca04fff49f5`. The existing extraction header records SHA-256 `77eb9e652c45650e29cd08be1a86198f05572573b452d170ce274e53bfde9f93`; that hash was not freshly recomputed from binary bytes in this run. The identity of any separate ChatGPT attachment versus this archive binary remains unverified. The HsH text wrapper and the archive PDF must remain distinct source artifacts.
