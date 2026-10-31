@@ -141,7 +141,7 @@ The two dimension ladders are orthogonal:
 The composition invariant is:
 
 [
-4-k=3-(k-1),\ad 1\le k\le4.
+4-k=3-(k-1),\quad 1\le k\le4.
 ]
 
 Thus the **Poincaré-dual form degree is numerically preserved under a transverse codimension-one slice**, conditional on the support and slice dimension formulas. This is an arithmetic composition invariant, not a construction of distributional currents or proof that a physical carrier has the assumed dimension.
