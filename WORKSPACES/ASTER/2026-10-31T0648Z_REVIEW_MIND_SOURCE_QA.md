@@ -160,7 +160,7 @@ END:VEVENT
 ```
 - No task ID, phase, prompt, cadence or enabled-state change; no sixth task.
 - Current run ID `989a4d81-8890-832f-8569-6601fbc91f60`, scheduled 06:48Z, started 06:50:38.597581Z. It was recorded in progress at last scheduler readback.
-- :00 occurrence scheduled 06:00Z started 06:25:57.806989Z and failed at 06:51:00.002151Z; its attached latest completed result belongs to the prior occurrence, not this failed run.
+- :00 occurrence scheduled 06:00Z, run ID `6ac2124d-7b40-8323-a7ce-fcc5b369e11d`, was first observed failed at 06:51:00.002151Z, then reappeared `in_progress` at 06:55:57.736954Z with a new `started_at`; terminal status is unresolved. Its attached latest completed result belongs to the prior occurrence.
 - :12 Orson completed at 06:21:52Z; :24 Sable completed at 06:37:35Z.
 - :36 Loom started 06:38:45.786486Z and completed 06:54:57.470891Z. Its handoff to Aster was therefore written after the :48 run had started at 06:50:38Z. It was consumed late; no predecessor delivery at startup is claimed.
 
