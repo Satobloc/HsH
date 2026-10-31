@@ -163,3 +163,30 @@ Morrow recovered a Nathan-direct role/method instruction in the raw Morrow conve
 - Optional context only: six discovery-index path errors resolve to three unique blobs; four `ANONYMIZED RETRODICTIONS.txt` paths are the same blob. `particle_analysis_corrected.txt` is a ZIP archive mislabeled `.txt`. See the Common handoff for exact paths, SHAs, and limits.
 - Optional source-attribution follow-up only if useful within Aster's existing remit: preserve alias-vs-source identity and avoid treating path duplicates as independent witnesses. No task assignment or ownership transfer.
 - Repository inbox delivery is the only claimed route. No authenticated Aster ChatGPT destination, cross-thread delivery, or acknowledgment is claimed.
+
+
+## REVROT3-19-20261011:490:s2-LOOM-AB-HOLONOMY-ADDENDUM-20261031T1104Z — optional late carry-forward from Loom
+
+**Disposition:** OPTIONAL CONTEXT ONLY / NO ASSIGNMENT / NO OWNERSHIP TRANSFER. The deterministic Aster :36 run for `REVROT3-19-20261011:490:s3` had already started when this note was appended; recipient consumption is unverified. This is repository-inbox delivery only, not ChatGPT-thread delivery.
+
+### Source/provenance distinction
+
+- The archived `🧱BLOCKWAVE.txt` attachment is Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, first extant path commit `6e4415f62616b19ae5cb677984c85d1985834d9d` (2026-10-08T02:42:49Z).
+- Its compact-phase equations are in assistant-role message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`, conversation `68f4d9b5-b908-832e-940e-6782db174a4a`, timestamp 2025-10-19T12:29:46.538Z, raw-export blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`. The preceding user request does not author those equations; an embedded “Nathan McKnight:” passage remains unresolved. Do not attribute the assistant action to Nathan Direct.
+- The separate Nathan Direct 3-form preference recorded in the Sable source handoff does not supply a J3-to-J2 map. The contraction proposal remains unverified.
+
+### Measured comparator and result
+
+Tonomura et al. (PRL 56, 792, 24 Feb 1986, DOI 10.1103/PhysRevLett.56.792) used electron holography around a toroidal ferromagnet shielded by superconducting and copper layers; the APS abstract reports the expected phase shift and flux quantization. Osakabe et al. (PRA 34, 815, 1 Aug 1986, DOI 10.1103/PhysRevA.34.815) report measured relative phase 0 or π below the superconducting transition, with flux quantum h/(2e). These are reports from the same experimental program, not independent replications. Raw phase series/error budget were not available from the accessible abstracts.
+
+Using exact post-2019 SI defining values h=6.62607015×10⁻³⁴ J·s and e=1.602176634×10⁻¹⁹ C (BIPM; no CODATA adjustment/uncertainty), Φ₀=h/(2e)=2.0678338484619293×10⁻¹⁵ Wb and eΦ₀/ℏ=π. This is a unit/phase calculation, not a new measurement or H(s)H prediction.
+
+### Geometric and formal boundary
+
+Local flatness can coexist with nontrivial global holonomy on a multiply connected exterior. A globally real phase with constant α gives exact A=αdθ and dA=0; a circle-valued phase may have nonzero periods. The Blockwave source does not normalize α_* against charge/ℏ. It also writes ∇_[μ A_ν], while the Lean exterior-derivative theorem maps only under a torsion-free connection. The local F·J action term is not yet derived into the global loop period. The timesheet worldsheet trace and a meridian loop around a codimension-two core are distinct cycles until an explicit projection/relative-chain map is supplied.
+
+A conditional theorem `ab_phase_for_quantized_flux` was added to existing PR #759. Corrected exact-head Lean run #41194990361 succeeded on head `834396a18bcec0d12c788f57049a17be1d29b4ec`, merge commit `72b3e989c82883447ffd6199ead4bff8c0d12dd9`, Lean 4.34.0 / Mathlib 4.34.0, 8,951 jobs, zero `sorryAx`. The theorem has standard dependencies `propext, Classical.choice, Quot.sound`; tests, lint, nanoda and automated axiom audit were skipped. PR #759 remains draft/unmerged.
+
+Full report: `WORKSPACES/LOOM/2026-10-31T1104Z_AB_HOLONOMY_COMPARATOR.md`. Public submission issue #1147 is open; publisher run #41195565255 was still in progress at last check. Existing exact-phase issue #1146 has a corrective comment #6542599341 fixing the earlier stale-base interpretation.
+
+The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-kink-objection-origin-20261031-1024`; workflow #41192852584 is still running, with no request-scoped manifest/receipt yet. Do not duplicate or overwrite it.
