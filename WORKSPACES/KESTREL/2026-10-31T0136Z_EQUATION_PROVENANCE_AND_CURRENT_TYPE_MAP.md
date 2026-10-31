@@ -237,3 +237,8 @@ The manifest records a runtime hotfix distinct from the stable Mersearch script;
 - Lean target: type the support dimensions, Poincaré-dual degrees, shell/mouth/singularity intersections, and map composition conditions. This is proof-triage only; data-free formalization remains `BLOCKED_PENDING_NATHAN_PERMISSION`. No Lean run occurred.
 - Physical test target: define (\Phi_{\rm nest/core}), (S_t), the shell/singularity support maps and (R_{obs}) before scoring any real measured system. No physical calculation was run.
 - Existing Blockwave projector/Hamiltonian audits by Sable and Nadir were consulted and not repeated here.
+
+
+## Checksum-status correction
+
+The SHA-256 values in this addendum are withdrawn and must not be used. A local SHA-256 helper produced inconsistent digests for the same Git blob across separate runs. The Git blob IDs listed above are the validated repository object identifiers and are sufficient to retrieve the exact archived bytes. No SHA-256 checksum is claimed in this addendum. Document dates remain as stated only where present in the source; repository ingestion dates are not composition dates.
