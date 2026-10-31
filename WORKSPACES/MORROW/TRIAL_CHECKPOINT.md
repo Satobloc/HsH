@@ -369,3 +369,44 @@ Created optional, non-assignment handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAN
 
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1248Z_s4_morrow.md`, blob `ba9cad8bfc689a430f692d54a733e52e382f3747`, exact readback PASS.
 - Receipt records current :48 run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` as `in_progress` / `chat_ref=null` at final scheduler readback; no authenticated historical Morrow thread or cross-thread delivery is claimed.
+
+
+## 2026-10-31T1636Z | BR-005 source-lineage and angle-convention audit
+
+Run key REVROT3-19-20261011:496:s3. Deterministic selection Morrow (index 13), next Kestrel (index 14). This is not authentication of a historical Morrow instance or thread. The recovered historical role source is raw user-role message 402ade01-7116-4efb-9b14-31e477754458 in conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob 362075c5e32ec9e97579bd1de58fba7f612cb6bb, dated 2026-09-08T03:25:36.187Z. It establishes a provisional Team Archivist remit. REV-004 says no active historical-thread lease; the separate training standdown and theory freeze remain. This run is source-grounded assistant reconstruction only.
+
+### Mersearch completion
+
+The existing request morrow-br005-time-normal-source-20261031-1253 now has a request-scoped RUN_MANIFEST and compact JSON/Markdown receipts. Coverage: 15,966 files, 20,844,775 records, 1,094 hits, 334 distinct paths across archive/HsH/resources (138/917/39). Raw results remain temporary Actions outputs; detailed resources-root paths remain withheld. Runtime-only manifest-writer hotfix was applied; stable script and search logic unchanged. MERSEARCH_REQUEST.json still says requested because it is a request descriptor; the manifest and receipts establish that this run completed. Do not rerun or overwrite the lane.
+
+### Source correction
+
+Recovered raw user-role turns in the March 7 Switching to English conversation establish a within-conversation reference convention change:
+- 05:08:33Z message 5ff0019c... tentatively describes θ₄ as angle between filament tangent and unit time-flow vector.
+- 08:08:45Z message f236e23d... explicitly says measure θ₄ from the timesheet plane, not its normal, with vacuum at 90° to the plane.
+- 08:19:25Z message 70101050... repeats the plane-reference convention in the same conversation/parent.
+
+March 13 user-role message e41e50ba... describes θ₄ as a composite of helix tangent and gross orientation/rate, without specifying the reference map. September 7 user-role message 1896b541... says a filament parallel to timesheet propagation is the vacuum baseline, without giving a θ₄ number. The September 16 RUNNING_COTHEORIST_LOG entry (blob 5394ff86..., lines 45 onward) records normal-relative θ₄=0 and an at-rest inverse-pitch equivalence but has no raw conversation/message/role/parent/export pointer. The October 9 cross-post transcription supports front-normal alignment as vacuum but its raw identity remains pending.
+
+The plane and normal angles can be complementary under explicit Euclidean orthogonality and acute-angle assumptions: θ_plane + θ_normal = π/2. Existing Aster PR #674 formalized the conditional algebra on earlier head 74dbac1... (Actions run #40447650215); current PR head 138a40a... differs, so no current-head success is claimed. The proof does not establish source intent or physical geometry. The March 13 composite-angle description still needs a sourced composition map. The inverse-pitch clause remains LOG-ONLY / RAW SOURCE NOT RECOVERED; inverse pitch alone has units of inverse length, so a length scale or dimensionless ratio must be specified.
+
+The first eight Mersearch user-role hit records collapse to three unique message IDs across duplicate paths; two Casual Check-in messages are an unreviewed LLM draft and its disclaimer, and one Switching to English message is the plane-reference source. Multiple other high-ranked candidates were inspected and proved to be assistant/tool echoes of the same log. The remaining search hits were not all individually inspected. This is a bounded audit, not proof of historical absence.
+
+### Disposition and workflow improvement
+
+Claim status: PARTIALLY_SOURCE_ANCHORED / REFERENCE_CONVENTION_TRANSITION_UNRESOLVED / INVERSE_PITCH_CLAUSE_UNRESOLVED. Current BEDROCK BR-005 is unchanged. A claim-scoped source witness must bind repository/commit/path/blob, conversation/message IDs, outer role, timestamp, parent/adjacent turns, exact span, source class, duplicate-family ID, derivative parent, request/receipt IDs and retrieval method. User-role alone is insufficient when the message embeds unreviewed generated text; tool output quoting a log is not an independent witness; distinct paths are not independent events.
+
+No new Lean theorem, physical calculation, prediction, theory promotion, BEDROCK edit, Mersearch request, branch, PR, tool, dependency or paid service. Morrow's archive-only remit and training standdown preserved.
+
+### Publication and carried status
+
+Public-safe additive source correction submitted through the existing issue publisher:
+- Issue #1158
+- Submission morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001
+- Publisher Actions run #41221915173 was IN_PROGRESS at checkpoint update.
+- Status SUBMITTED_NOT_VERIFIED until artifact and issue-comment readback.
+- Previous issue #1142 was rechecked and is PUBLISHED_VERIFIED; its artifact content exactly matches the issue payload. No duplicate submission.
+
+Incoming Tern h496:s2 packet was consumed as optional context; it was committed before this run began and creates no task. No Kestrel handoff was created because this source-provenance result does not require Kestrel action and the Kestrel inbox already contains prior Morrow context. No cross-thread delivery or acknowledgment is claimed.
+
+Unrelated reading: Jacoby, Practical Talks by an Astronomer, lines 621–660. Next cursor line 661. FIE last full review 2026-10-27; not due. Next source cursor: retain the September 16 normal-reference/inverse-pitch event as unresolved; continue only if a specific raw locator appears or a Mersearch lane is formally released. SPHERE4QC.txt line 1301 remains deferred.
