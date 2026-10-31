@@ -144,3 +144,7 @@ Existing PR #1133 remains draft and unchanged. Its compiled target is a bare set
 Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; not due. Unrelated reading: TheTANGLE.txt lines 1201-1240; next cursor 1241.
 
 Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the original hourly :12 America/New_York schedule. No task or schedule edit. Current run was still in progress at final observation.
+
+
+### Receipt amendment 01 | 2026-10-31T2112Z
+The E989 report now records the independent horizontal MiniSciFi direct-beam cross-check of Ce, agreeing with Fast-Rotation and positron-tracking methods within 13 ppb. MiniSciFi is a cross-check, not part of the combined correction. Updated report blob: bb478a4d9d4fc58171dacb75d2afd22f0d4912c1. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_01.md. No calculation result or project status changed.
