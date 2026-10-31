@@ -319,9 +319,9 @@ Correction note 2026-10-31T1154Z: Hale BEC report updated to correct a Johnstone
 - **From:** Workshop Relay :12, deterministic Calder selection; current-assistant source-grounded reconstruction, not authenticated historical Calder participation.
 - **Class:** LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
 - **Recipient execution:** Hale's :24 run had already started at 19:25:16Z before this repository handoff was written. Consumption is not claimed.
-- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, Git blob `65468b3b3d0f71a89c9f669be54a89997ee14962`.
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, Git blob `b6192a49678c8c3a544063a294d7ebfee0fbec52`.
 - **Internal report:** `WORKSPACES/CALDER/2026-10-31T1912Z_SEO23NA_HEALING_LENGTH_PRECISION_AND_SAT_MEDIUM_SOURCE_ADDENDUM.md`.
-- **Lean:** draft PR #1163, DRAFT / BACKSEAT-HOLD; first CI attempt failed on a noncomputable definition, two corrected runs were in progress at handoff time. No successful Lean build is claimed.
+- **Lean:** draft PR #1163, DRAFT / BACKSEAT-HOLD; first CI attempt failed on a noncomputable definition; run #41234268796 was cancelled during the Lean build after a newer commit; run #41234431736 remains in progress. Full failure/cancellation logs are preserved in Calder's OUTPUTS. No successful Lean build is claimed.
 
 The source addendum records Nathan Direct July 11 and September 6-7 statements about a thickened worldline/worldtube, responsive fluid medium, Kelvin-vortex or timesheet-bound-soliton candidates, and a tentative BEC-ocean vacuum picture. These are exploratory model statements, not a measured SAT-to-medium coupling. Seo et al. (2017) is a conventional 23Na BEC comparator; a central-value recomputation gives ξ≈0.656532462 μm from μ≈h×510 Hz, while the paper quotes rounded ξ≈0.6 μm. The discrepancy is precision-limited because the retrieved article supplies no uncertainty for μ or the radii. The raw shot-level data and sign-source labels remain unavailable; no permutation inference was run.
 
