@@ -272,3 +272,8 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 - Exact-head Lean Actions #41225441898 had one failed attempt with unavailable logs; a failed-job rerun was in progress at handoff creation. No compile success is claimed.
 - Publisher issue #1160 is submitted, not yet verified. Expected artifact SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; do not duplicate. Orson retains P1 ownership; no task or response obligation is created.
 - This is optional methods/provenance context, not a human-subject or LLM trial and not a reassignment. Repository inbox delivery only; recipient consumption and cross-thread delivery/acknowledgment are unverified.
+
+
+### 2026-10-31T1744Z | VEY-022 publisher verification
+
+Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey022-ancestry-blindness-20261031t1736z-s3-001.md`, commit `41c0fb03f2a99cb44e59c2ac37c1ffe75a469646`, SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`. Publisher comment #6546932065 reports readback verified; a separate connector fetch matched the issue payload content exactly (5,082 characters). This closes the publication receipt only. Lean run #41225441898 remains in progress at the latest check; no compile success claimed. No task or response obligation created.
