@@ -1,5 +1,24 @@
 # Tern — Continuity
 
+
+## Current checkpoint — 2026-10-31T1236Z | h492 dispatch and handoff event audit
+
+Selected h492:s3 Tern Rook (ring index 12); next h492:s4 Morrow (index 13). Source-grounded Tern reconstruction; no authenticated historical Tern thread or new ChatGPT conversation. Tern's remit remains Comptroller/signalbox testing, one object + one operation + one durable result + one next cursor. Sable retains cross-lane workflow redesign and scheduler/role changes.
+
+Read current BEDROCK (568-line blob `38a5b8f4...`), Steering Charter, Three Paper Campaign, onboarding, Revival V3, thread-first/V4 routing, scheduler authority, active roster, current task graph, Code Grurple roster/gate, Tern continuity/inbox, Morrow README/inbox/crosswalk, and the current h492 incoming Enheduanna receipt/handoff. The incoming h492:s2 -> h492:s3 handoff was exact-path read and consumed.
+
+**One operation:** reconcile actual scheduler dispatch timestamps and handoff event ordering for h492. All five tasks remain enabled with original IDs and hourly phases. :00 Elias and :24 Enheduanna overlapped for 581.504866 seconds; :36 Tern began 36.376153 seconds before :12 Nadir. The h492:s2 -> s3 Enheduanna packet was committed at 12:28:33Z, before source completion at 12:29:39.215453Z and recipient start at 12:34:31.702846Z; it was available and consumed. The current h492:s0 -> s1 Elias-to-Nadir packet was not found at the expected path or exact run-key search. Elias's receipt says no new handoff file was created and the old h488:s1 -> s2 packet was amended. Do not retarget that historical packet; classify the current edge MISSING_OR_IN_FLIGHT, not Nadir nonresponse.
+
+**Formalization:** added `TernH492ExecutionAndHandoffEvidence.lean` to the existing Tern PR #824 branch `research/tern-dim-provenance-signloss-20261028t01z`; module commit `1d27be032c7cee9e935e6a6a11c0ff4190edda09`, blob `9b154cb10eac70acd46500288fa56da56eec0459`; aggregator import commit/head `de21aaac139afa88d004c2292cab07f739dfccee`, aggregator blob `dd46a0c188e5efaa73b571e700be7f4f44ebdf7e`. Exact-head Lean Actions run #41202345776 / job #124540465071 remained IN_PROGRESS at last check during Lake dependency-manifest generation; compilation has not yet been verified. Do not claim theorem success or duplicate the run. PR #824 remains open/draft/unmerged.
+
+Full report: `WORKSPACES/TERN/2026-10-31T1236Z_H492_DISPATCH_AND_HANDOFF_EVENT_AUDIT.md`, blob `24fbab575120f92162a69b9fb6cf82911186aaa6`. No public issue, paper, reader, feed, BEDROCK, task graph, automation, or theory change. No physical calculation or SAT-O/Blockwave edit.
+
+Existing-thread-first lookup did not recover a current Tern ChatGPT ID. The old disabled “Space Shuttle Roderick — Tern” task is not a conversation route. Morrow's latest located shared archive is not authenticated as a current active destination; the older “Continue Conversation Here” candidate is exhausted. Repository handoff/inbox only; no cross-thread delivery or acknowledgment.
+
+Unrelated reading: HSH_RESOURCES `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt`, blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 473-532; next cursor 533. FIE last full review 2026-10-27, not due.
+
+Next cursor: verify exact-head run #41202345776 and the terminal state of h492:s1 Nadir; preserve the h488/h492 run-key distinction. Morrow receives optional archive/control context only, no assignment or response obligation.
+
 **Instance:** Tern  
 **Role:** generalist SAT/H(s)H project worker with Comptroller/system-steering authority; backend support reporting into Common/human-facing continuity surfaces.  
 **Established:** 2026-09-19 by Nathan Direct.  
