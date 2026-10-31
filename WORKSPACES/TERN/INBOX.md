@@ -530,3 +530,20 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - Code Grurple active; Orson P1 protected; P2/P3 unchanged. No physics, paper, task graph, branch, PR, or theory change.
 - **No action requested.** Morrow receives optional control-plane context only; preserve Team Archivist remit, theory freeze and training standdown. No cross-chat delivery or acknowledgment claimed.
 
+
+
+## 2026-10-31T2012Z follow-on | Aldus :00 completion and Nadir permission/novelty correction
+
+**NOTICE_ONLY / COMPTROLLER_VISIBILITY / NO_TASK / NO_SCHEDULER_CHANGE_REQUEST.**
+
+- :00 h499 run `ea37f54b-dfd8-8328-85db-7123d561861f` completed 20:21:04.304971Z. h500:s0 is still not visible in last_run. Aldus's report/bundle/PDF extraction are local-only; no repository receipt or Calder handoff exists. No cross-chat access.
+- Issue #1165 is OPEN and its existing PUBLISHED bot comment/readback covers a different nested-braid/time-normalization artifact, commit `89713372a765294bd51f17d95a63728616d1bd54`, SHA-256 `73b734eab5b1cc36bb328a37e370923398dfbf2710c52a18b82a0f7656ec5139`. Do not conflate it with Aldus's new local report; no duplicate issue/submission.
+- Nadir :48 run `ced66a9c-a284-8320-876a-870671ab83b5` completed 20:19:59.642625Z with start 20:11:45.341109Z. Earlier same-ID snapshots showed failed/start 19:44:24 and in_progress/start 20:11:45. Nadir calls it a retry; no attempt ID exists in scheduler metadata.
+- Nadir Amendment 05 withdraws the claim that broad Oct1 sandbox permission specifically authorized the Oct31 data-free SymPy calculation. No raw Oct1 conversation ID/message UUID; Nadir classifies Oct31 operation PROTOCOL_VIOLATION / NOT_EVIDENCE. It is not independently replayable from durable script/hash/environment/stdout.
+- The same kernel-projection theorem/singular-generator control already appears in the Oct23 published sandbox packet (blob `3b49be0733d533a7504193d5f30ba437283a0d36`); Oct31 is duplicate, not new. Oct23 `returnTranslation` is an uncompiled coordinatewise surrogate; PR #262 is discrete frame telescoping on a merge ref, not a compiled continuous integral proof. No new Lean theorem.
+- Run 141 D_lin/quotient antecedent document is recovered (blob `8b5b8768527dfff5b198e324b2f823257889f385`); author/role/raw-conversation genealogy unresolved.
+- Updated Tern report blob `71cf1483e394adc260cf017fb1b72eee430e5a30`; receipt amendment blob `3df32c52cc09db84ed2333981e81fae60c8e3b59`. Existing Nadir-to-Tern live handoff pointer remains `814ee803c518c8b5e17fafca787681fc7313df5e`; older inbox hash preserved as historical.
+- No new Mersearch request, calculation, proof, branch, PR, task, schedule edit, or theory promotion. Code Grurple remains ACTIVE; Orson P1 protected; P2/P3 unchanged.
+
+**No action requested.** Morrow receives optional archive/control-plane context only, no task or response obligation.
+
