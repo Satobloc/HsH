@@ -181,3 +181,42 @@ This correction supersedes only the incomplete/truncated file-hash and “empty 
 The 2025-09-16 `🧱BLOCKWAVE.txt` upload's full content SHA-256 is `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; its exact HsH archive Git blob is `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`. The two bytesets are verified identical by the existing Loom extraction ledger.
 
 The exact PR #759 merge ref tested by CI #41193158202 is `21f7edf61e8e1c3adc8ebb5455414849e67fab1b` (merge of PR head `2c371f7269a728a647dd04a52b868c3d99aa7f13` into base `a650534ce484ff56f0cdfe831cba6bfada3e0dc7`). The Factory handoff packet was corrected to this exact merge-ref SHA; the earlier placeholder value in its first version is superseded.
+
+
+## 8. Newly consumed Sable handoff: Nathan Direct 3-form editorial decision
+
+The completed h=490 s1 Sable receipt and optional handoff were read. The handoff identifies a stronger primary source for the J3/J2 history than the 2026 Page One paste.
+
+Canonical raw conversation:
+- Title: “The Tourist Tailor [e-]”.
+- Conversation UUID: `68cad3d4-0ccc-8325-be36-94c5b5527997`.
+- Raw HsH path: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json`.
+- Raw Git blob: `dd2b6141af86dea54e4ba2e782214128619ce78c`.
+- 3,032 mapping nodes in the source audit.
+
+The following outer-user-role messages were located in the raw JSON and read in context:
+
+| Message UUID | UTC timestamp | Source significance |
+|---|---|---|
+| `71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0` | 2025-09-18T14:42:25.644Z | Directly flags the J2/J3 rank change and says the shift needs an explicit explanation. |
+| `a9bee95a-5549-4a09-9979-5e0602223f45` | 2025-09-18T15:06:21Z | Directly insists on building the theory in 4D and rejects convenience reductions that discard structure. |
+| `5730114b-8327-4856-b4ec-3c3f98a7a551` | 2025-09-18T15:08:14Z | Directly asks why a 2-form is being adopted instead of using a 3-form throughout. |
+| `e92efb17-2499-482e-b930-9ad11221bd7c` | 2025-09-18T15:19:27.048Z | Explicitly directs that Chapters 1–5 be rewritten “all in the 3-form.” |
+
+This is **NATHAN DIRECT EDITORIAL AUTHORITY** for treating the 3-form as primary in Chapters 1–5. It supersedes any claim that the 2026-02-25 Page One paste is the earliest located direct 3-form preference. The 2026 paste remains useful for its embedded equations, but its embedded document authorship remains unresolved.
+
+The direct editorial decision does **not** supply a mathematical conversion map from J3 to J2. The assistant's later statement that the 2-form is simply the Hodge dual of the 3-form is not a valid 4D Hodge-degree statement: `* : Ω³ → Ω¹` and `* : Ω² → Ω²`.
+
+A possible, explicitly **PROPOSED** spatial-flux map is contraction with a distinguished time-flow vector:
+\[
+J_2 := \iota_u J_3,
+\qquad
+j_2 := \iota_t^*(J_2)
+\]
+where `u` is specified and `i_t` is the embedding of the selected spatial timesheet. Cartan's identity gives
+\[
+d(\iota_u J_3)=\mathcal L_u J_3-\iota_u(dJ_3).
+\]
+Thus, if `dJ3=0` and `L_u J3=0`, the contracted 2-form is closed. This is a candidate projection with explicit conditions, not a recovered Nathan equation and not yet Lean-formalized. It should not be called a Hodge dual.
+
+The source ledger already contains these message IDs and tags; no duplicate tag was created. The Sable report and handoff are the source of this continuity update, and the raw conversation was independently inspected through the Library copy.
