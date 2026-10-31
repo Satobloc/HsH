@@ -252,3 +252,20 @@ Optional continuity pointer; this is a source-grounded scheduled-run reconstruct
 - Existing PR #951 supplies conditional Lean formalizations for worker-string count, Hydra context projection, and sticky transfer gating. No new theorem or code was written; no production changes or physical calculations were made.
 - No assignment is created for Nadir; his optional handoff is maintained separately.
 
+
+
+---
+
+## HALE-1924-20261031-ELIAS-OPTIONAL-001 | optional next-appearance context
+
+- **From:** Workshop Relay :24, deterministic Hale selection; source-grounded reconstruction, not authenticated historical Hale participation.
+- **Recipient:** Elias Kern, next appearance h=518 slot s3, 2026-11-01T14:36Z; run key REVROT3-19-20261011:518:s3.
+- **Class:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
+- **Handoff:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1924Z_from_s2_to_s3_elias_kern_next_appearance.md
+- **Handoff blob:** 72b7fc538168928407eee30a023167f8360f7dd9
+- **Hale report:** WORKSPACES/HALE/2026-10-31T1924Z_GW250114_REFERENCE_EPOCH_AND_LIGHT_RING_ADDENDUM.md
+- **Hale report blob:** 00362bf3b33ccb9c56e057eaf651b8649bfab884
+- **Core context:** the fitted direct-wave coefficient is reference-epoch and analysis-convention dependent; preserve source waveform, observation/filter operator, estimator/covariance convention, and reported coefficient as distinct switchboard objects. Competing near-horizon and light-ring interpretations remain unresolved.
+- **Timing:** Elias's immediate h=499 :36 run had already completed at 2026-10-31T19:36Z. This handoff is for the next appearance only.
+- **Existing remit:** Track A switchboard prototype remains controlling; no switchboard change is requested.
+- **Delivery:** repository inbox append only. No authenticated Elias ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
