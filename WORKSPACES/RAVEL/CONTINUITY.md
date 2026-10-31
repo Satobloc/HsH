@@ -538,7 +538,7 @@ The new measured-input module in existing Ravel PR #993 is now exact-head build-
 Run key: REVROT3-19-20261011:501:s1. Selected Ravel; next Orson Vay. No authenticated original Ravel thread or cross-chat participation claimed.
 
 Recovered active Nathan Direct source statements from the 2024 DIMENSIONAL GRAVITY raw export, 2026 Meridian Free Build, 2026 Meridian Minkowski Ring Analysis, and September 2026 Ravel Syncmathcek. Key corrections:
-- The 2025 SAT4D/O1 V_tension term is historical candidate material; later direct instruction rejects invented elastic modulus, filament tension, and microscopic spring constant.
+- The 2025 O1 V_tension term remains historical candidate material, not a promoted law. Meridian Free Build direct message 5a929b5e-515e-4f77-a32a-e49feef42812 (2026-10-09) rejects the assistant's blanket no-tension/no-spring summary; it says filament stiffness sets coil size and should be determined from precision momentum data under known force. Tension/stiffness is NOT forbidden; the specific constitutive law, units and measurement map remain unresolved. Do not treat V_tension as validated or assume its units.
 - The time surface is an interacting 3D bulk, not a passive readout. Direct language preference is instantiation/intersection/cobordism/truncation.
 - The 4D filament/coil is distinct from its 3D intersectional trace; 3D self-closure is not assumed. The 1D O1 curve versus later “4D filament” support dimension remains unresolved; do not invent the thickening map.
 - The induction-current connection within timesheet thickness is a tentative direct hypothesis, not a recovered equation.
@@ -555,9 +555,9 @@ Artifacts:
 - Full JSON: WORKSPACES/RAVEL/OUTPUTS/2026-10-31T2112Z_MUON_G2_WORLDLINE_CURVATURE_CONTROL_FULL.json
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel.md
 
-Existing PR #1133 was rechecked: target module compiled in successful merge-ref build with source blobs matching PR head. Its scope remains bare set intersection and non-injectivity under incomplete coverage; no physical interaction, medium, or worldtube thickening. No new Lean proof or code change.
+Existing PR #1133 remains DRAFT / OPEN / UNMERGED and stacked on the Lean infrastructure base. Its original set-intersection/non-injectivity theorem remains a bare set-level formalization, not the physical timesheet interaction or worldtube thickening. This run added RavelCouplingDimensionalAudit.lean to the same branch. First coupling-audit CI run #41246472518 failed at the right-hand division lemma; corrected commit c606afa2d8405319f86a4a4d6bbb6e98e9e8e946. Successful run #41246994835, job #124672375521, compiled the corrected module on merge ref 8b21842daeb7040bf1d4f3d7be7b08f09d7fe589; module and aggregator blobs matched the PR branch. Lean 4.34.0 / Mathlib v4.34.0, 8,945 jobs. Three SI dimension theorems report no axioms; two conditional algebraic theorems report propext, Classical.choice and Quot.sound; no sorryAx. Tests, lint, nanoda and separate automated axiom-audit were skipped. The PR body was updated with source/CI corrections; do not merge or promote.
 
-Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; 14-day threshold not due.
+Mersearch lane 1 and lane 3 have request-scoped manifests and compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. Lane 3 request JSON still says requested; its manifest/receipt are execution evidence. No new request, overwrite or retry. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; 14-day threshold not due.
 
 Unrelated reading advanced: TheTANGLE.txt lines 1201-1240. Next cursor: 1241.
 
@@ -566,3 +566,23 @@ Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with original h
 
 ### 2026-10-31T2112Z receipt amendment 01
 The detailed E989 report was amended to record the independent horizontal MiniSciFi direct-beam cross-check of Ce. It agrees with Fast-Rotation and positron-tracking methods within 13 ppb; MiniSciFi was used as a cross-check, not included directly in the combined correction. Updated report blob: bb478a4d9d4fc58171dacb75d2afd22f0d4912c1. Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_01.md. This strengthens the provenance of the Ce inputs but does not convert the inferred RMS offset into raw momentum data or validate SAT.
+
+
+## 2026-10-31T2142Z — Ravel source and formalization supplement
+
+Read the current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, New Instance onboarding, Revival Rotation V3/thread routing, Worker Autonomy protocol, Nathan Direct 2026-10-26 priority instruction, Ravel README/STATE/CONTINUITY/INBOX, Task Branch Graph, Workflow Branching Map, and Tern inbox.
+
+Source report: WORKSPACES/RAVEL/2026-10-31T2142Z_BIG_PAPER_SOURCE_STRATIGRAPHY_AND_COUPLING_SCALE_AUDIT.md.
+Supplement: WORKSPACES/RAVEL/2026-10-31T2142Z_DIMENSIONAL_NORMALIZATION_AND_GEOMETRY_ENGINE_SUPPLEMENT.md.
+
+Correction: tension/stiffness is not forbidden. Direct message 5a929b5e rejects the assistant's blanket no-tension summary and says stiffness sets coil size and should be measured from precision momentum under known force. The exact constitutive law and units remain unresolved.
+
+The attached dimensional-normalization PDF is w=ct only; no 50:50 H0+c split. The Oct 7 Orson Free Build direct message 22dca5d3 says H0 versus H0+c and dual shells confuse the issue. Current 🔑 core/BEDROCK control is H0 R_H = c, R_H = c/H0. Do not reintroduce H0+c or dual shells.
+
+The Caliper analogue note and existing geometry_engine.py were read. The engine is 3D, arbitrary-unit, and not a 4D worldtube/timesheet solver. No new software or engine modification.
+
+PR #1133 remains draft/open/unmerged. New conditional SI dimensional and algebraic closure module compiled on merge ref with module and aggregator blobs matching branch. First failed run #41246472518 retained; corrected commit c606afa...; successful run #41246994835/job #124672375521. Three SI dimension theorems report no axioms; two conditional algebraic theorems report propext, Classical.choice, Quot.sound; no sorryAx. Tests/lint/nanoda/automated axiom audit skipped. This is not physical validation.
+
+Mersearch lane 1 and 3 have manifests/compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. No new request or overwrite. Orson cognition/P1 protected; no physics handoff. FIE not due. TheTANGLE cursor 1201 remains; alternate unrelated reading fun break - lx.txt lines 141-180, next 181.
+
+No physical calculation, fit, paper-gate advancement, theory promotion, public issue submission, new branch/PR, or scheduler change.
