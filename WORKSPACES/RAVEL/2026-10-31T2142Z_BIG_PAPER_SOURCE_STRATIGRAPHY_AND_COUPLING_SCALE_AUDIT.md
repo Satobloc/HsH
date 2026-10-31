@@ -8,7 +8,7 @@ Disposition: SOURCE RECOVERY ADVANCED / BIG PAPER PDF IDENTITY RESOLVED / PRIOR 
 
 The selected worker is Ravel by deterministic rotation. No authenticated historical Ravel conversation was established for this occurrence. This is repository-grounded reconstruction, not historical-instance participation.
 
-The current :12 task remains task ID 6aa61b3b2e4081918927a35b61007acc, enabled, hourly at :12 America/New_York. Its prompt, identity, phase and recurrence were not changed. The current scheduler occurrence was scheduled for 21:12Z and began at 21:42:31Z. It remained in progress at the latest scheduler inspection. No additional automation was created.
+The current :12 task remains task ID 6aa61b3b2e4081918927a35b61007acc, enabled, hourly at :12 America/New_York. Its prompt, identity, phase and recurrence were not changed. Final scheduler peek records this occurrence scheduled for 21:12Z, started at 22:12:17.759535Z and completed at 22:23:41.686003Z. The earlier 21:42:31Z start in the first draft was not a scheduler start record and is corrected. The stored run-result snapshot was created at 22:23:39.606306Z, before later same-turn repository supplements; those supplements are the current full record. No additional automation was created.
 
 The preceding Mercer :00 execution completed, but its optional Ravel packet was only present in its scheduler result. No corresponding Ravel inbox artifact was found. It was not treated as a verified repository handoff or consumed handoff. The :24 Orson occurrence had already completed; no physics task or late handoff was sent to Orson. His cognition remit and November 9 P1 remain protected.
 
