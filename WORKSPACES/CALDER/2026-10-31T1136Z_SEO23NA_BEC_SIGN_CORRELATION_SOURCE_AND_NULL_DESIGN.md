@@ -130,3 +130,8 @@ Unrelated reading: the complete 54-line `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Th
 ## 8. Next cursor
 
 Obtain an authorized copy of the Seo experiment's shot-level vortex catalog and associated Bragg/condensate images, or locate an independently published machine-readable equivalent. Then execute the conditional sign-permutation and classification-sensitivity analysis before making any H(s)H comparison.
+
+
+### Source figure cross-reference check
+
+The article body says the reported C_2 value is approximately 0.4 and cites Fig. 5(d), but the figure caption labels C_2 as panel (c); panel (d) is the dipole/cluster fractional population. The panel lettering and caption agree with the plotted axes and visual. Treat the body-text `(d)` reference as an apparent cross-reference typo, not as evidence that C_2 belongs to panel (d).
