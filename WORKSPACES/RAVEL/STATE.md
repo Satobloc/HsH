@@ -161,3 +161,9 @@ Mersearch lane 1 and lane 3 now have request-scoped manifests and compact receip
 The h501 scheduler run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` has conflicting `started_at` snapshots (21:42:31Z in its report; 22:12:17.759535Z in later scheduler readback) for the same `scheduled_for=21:12Z`. Preserve both; no attempt ID or root cause is available. Tern notice packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
 
 No new physical calculation, Lean theorem, PR, branch, issue, paper, BEDROCK change, or theory promotion. Orson cognition / P1 remains protected; no physics handoff. Next cursor remains the source-defined geometry-to-current / physical response map, requiring recovered Nathan Direct or explicit specific permission before any data-free derivation.
+
+
+Durable follow-up pointers:
+- Ravel receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_02.md`, final blob `85da1abe5bf4b0ebad6e244dd141d07f6e6934fe`.
+- Tern Comptroller notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
+- Tern inbox append: verified at blob `75b54ccdfacd35ae1f96272078f3efcb33731828`; repository delivery only, no ChatGPT-thread delivery or acknowledgment.
