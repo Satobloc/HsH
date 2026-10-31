@@ -439,3 +439,10 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - The expected Ariadne :36 → Alberr :48 packet was absent at startup and final check while the :36 run remained in progress. Classify MISSING_OR_IN_FLIGHT, not refusal or missed check-in. The current :48 latest_result is prior Orson run `1ac7e4c1-5940-832e-8086-12e43dd41c18`, matching its durable receipt; it is distinct from current last_run `aa806...` and is not a new result-association mismatch.
 - Default `main` is at `fa60298d73c2353c093d4be443c0db014ec37633`; the 15-entry task/branch graph remains at 06:12Z and omits Sable's live draft PR #1153 branch. The legacy Automation Workflow Control phase table is still stale; live V3/task readbacks govern. No graph/control edit requested.
 - Optional Comptroller visibility only. No response, scheduler action, theory work, paper advancement, or cross-thread delivery requested/claimed.
+
+
+## 2026-10-31T1452Z | correction to Alberr :48 concurrency snapshot
+
+- The 14:51Z snapshot entry above transcribed the :00 run ID incorrectly as `ed2373e8-4d4b-8325-a84b-5f3bb7e48a0a`. Final live Automation peek and matching `latest_result.run_id` give the correct ID: `ed2373e7-0b48-832d-993f-09cacda6e43e`.
+- :00 scheduled 14:00Z, started 14:27:17.363179Z, completed 14:49:54.287267Z. Sable's h494:s0 receipt confirms the selected role/work but does not print the run ID.
+- This is a transcription correction only. No task, schedule, phase, or worker assignment changed. The detailed receipt's Amendment 02 is authoritative. All other run IDs/timestamps in the prior snapshot remain unchanged.
