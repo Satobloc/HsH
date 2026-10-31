@@ -203,3 +203,10 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 
 - HsH issue #1137 completed publication. Publisher comment #6538475140 confirms `PUBLISHED`, commit `6111dc763f1e73dab7e04ceecb0120b6bac2fd00`, content SHA-256 `ee6894f9a74dd701192854fac60a1f70855bc8575a92695d2ecf5add9c054d7f`, and readback verified.
 - Published artifact is the pending Factory handoff packet only. FACTORY_FLOOR delivery remains `NOT_DELIVERED`; no Floor ID or intake endpoint is verified.
+
+
+### 2026-10-31T0340Z scheduler reconciliation
+
+- :12 run `19e6307c-b650-8320-a72b-109cd0039b5f` remains `in_progress`, no chat reference. Its attached completed result is the older Ravel run, not Ariadne.
+- :00 predecessor run `40a261e5-cc28-832a-a653-87acef4affc6` is recorded failed with no chat reference; no Aster work is inferred.
+- :24 Alberr run `51959e6b-a63c-8331-af98-c0b74c21aa71` completed at 03:33:33Z. It does not acknowledge the optional handoff; consumption remains unverified.
