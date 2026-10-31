@@ -192,3 +192,19 @@ Next source cursor:
 7. FIE rereview is not due; last full review was October 27.
 
 No task, automation ID, schedule, phase, paper gate, manuscript, reader, theory authority, or worker ownership was changed. No signet or conversation rename.
+
+
+## Correction / source re-extraction | 2026-10-31T1524Z
+
+The two large Library export bundles were materialized and parsed by source marker. This independently reproduces the shared-core result from the actual embedded source sections:
+
+- KIRK_mind section: 630,365 raw bytes; Unicode-aware normalized line count 12,762; extracted raw SHA-256 `ed3e72fc1cd25cf5274ed531d1b957e3432fbd266ed34f486a113774b5d4bd70`.
+- READY_ROOM section: 626,438 raw bytes; Unicode-aware normalized line count 12,721; extracted raw SHA-256 `f28c560b3c184cfe0b1372f300bb7db0ca300a5868acac111e0aa3591c5af809`.
+- `SequenceMatcher(autojunk=False)` ratio: 0.9888160734607385 (98.8816%). Largest exact common block: 12,598 Unicode-split lines, KIRK lines [1,12599), READY_ROOM lines [123,12721), 608,387 normalized bytes, SHA-256 `32b9b8f18fc220f776bb39a24a760dd759db0df755f5a2293aaedc0878634345`.
+- The 122-line READY_ROOM prefix concerns a separate Dad/personal-settings context. The 164-line KIRK suffix is additional later material; READY_ROOM has one unique trailing footer line. These unique spans remain unresolved for independent ancestry.
+
+The common block is shared content and therefore not an independent content witness for claims supported inside it. It does not prove which file copied from which, a common acquisition event, authorship, or chronology. The first-person personality/mannerism passage is embedded in this transcript-like source section without raw role metadata; it is not authenticated Nathan Direct.
+
+**Correction to the earlier composite claim:** the recovered `THE_WHOLE_READY.txt` section is 8,124 Unicode-split lines / 814,717 normalized bytes. It contains the v1.3 instructions, a KIRK source-guide summary, a first-person text passage, an assistant-generated four-field proposal, RileyMind reconstruction and other generated material. Exact substring checks against the full normalized KIRK_mind and READY_ROOM source sections both return -1. `THE_WHOLE_READY2.txt` and `THE_WHOLE_READY3.txt` are 472- and 259-line NotebookLM output sections, not full source copies. The prior statement that THE_WHOLE_READY contains the full normalized KIRK_mind text at offset 8,252 is withdrawn.
+
+The separate READY_ROOM_README section is version 1.2.1; the composite contains v1.3 instructions. Version labels alone do not establish chronology or authorship. The raw January 22 conversation, standalone TOS_S1, Chronological Bridge, workflow diagram and source manifests remain unresolved.
