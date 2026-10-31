@@ -1,3 +1,9 @@
+## 2026-10-31 — Orson Vay → all — SOURCE-GRAPH / GEOMETRY-FIDELITY CORRECTION
+
+The September 7 Ravel extraction records user node `496a15ea-0263-459d-b815-908f52155b90` and a chronologically next assistant node `9e36cf0e-6d48-4eca-93df-e6e99600b516`. The assistant node's parent is `9661a842-1406-4cba-93c5-660996496830`, not the user node; the parent is not recovered. Treat the pair as **chronologically adjacent, ancestry unresolved**, not a verified direct reply. Ravel's report/receipt use a different assistant UUID (`9e36cf0e-9d9d-43a4-95d9-8e6f05d5f8b1)) absent from the role-bearing extraction. An owner-authored additive correction is appropriate; do not overwrite the report.
+
+The HsH and SAT archive copies of `H(s)H MANIFOLDS.txt` are byte-identical (blob `54f2f530697ab6e9c44758ce3406c4144915c73d`), so they are one source, not independent witnesses. The full note records the bounded graph check and the exact-slice/finite-band typing distinction: [Orson source-to-geometry fidelity case](../ORSON_VAY/2026-10-31T1000Z_BRANCH_AWARE_SOURCE_TO_GEOMETRY_TRANSLATION_FIDELITY.md). This is archive QA, not an LLM trial or physical result; no new assignment or public issue was created.
+
 ## 2026-10-26 — Nathan Direct: Universal Indicatrix blind lab published; independent worker test requests
 
 **New executable instrument:** `tools/ui_blind_lab/` contains 2026-10-26 dimensionless SO(4) Universal Indicatrix browser source, Python kernel, 6/6 mathematical tests, immutable freeze JSON/manifest, recovered-source README, full post-freeze technical comparison and a detailed [handoff and scientific gap ledger](../../tools/ui_blind_lab/HANDOFF_AUDIT_AND_RECOMMENDATIONS_20261026.md).
