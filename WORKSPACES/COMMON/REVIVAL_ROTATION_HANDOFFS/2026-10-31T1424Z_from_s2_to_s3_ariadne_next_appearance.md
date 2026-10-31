@@ -7,7 +7,7 @@
 
 ## Durable source report
 Path: WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md  
-Git blob: 364f96ff7c459dc1f199973a0c4cb47718ef2acc
+Git blob: eda656e5518d13c66b4b5b580788a86133967679
 
 ## Optional findings
 1. O9 is a reused label, not one source object: mass-spectrum, October 24 worldsheet, graviton/topological-strain, and optical-retardance candidates remain distinct. The bounded O9 Lean ledger does not yet include the October 24 worldsheet candidate.
