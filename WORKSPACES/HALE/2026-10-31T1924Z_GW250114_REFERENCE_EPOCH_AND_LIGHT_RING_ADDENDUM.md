@@ -55,16 +55,20 @@ The paper compares two QNM-removal prescriptions:
 - P222: {220,221,222}
 - P320: {220,221,320}
 
-Its source-reported median symmetric contrasts are:
+The main paper reports the following **standard-GP median symmetric contrasts for P222**:
 
-| Convention | P222 | P320 |
-|---|---:|---:|
-| Prescription-specific alignment | +1.35% | +0.46% |
-| Analytic common-epoch transport | -34.22% | -6.93% |
-| Explicit common realignment and refit | -20.80% | -5.81% |
-| No additional realignment | -31.35% | -7.02% |
+| Convention | P222 |
+|---|---:|
+| Prescription-specific alignment | +1.35% |
+| Analytic common-epoch transport | -34.22% |
+| Explicit common realignment and refit | -20.80% |
+| No additional realignment | -31.35% |
 
-The reported median paired contributions are -35.61 percentage points from reference-epoch transport and +13.41 points from the additional explicit realignment/refit; the reported median paired net change is -19.46 points. These medians are not additive. A Python/SymPy check of the published summary arithmetic gives differences of medians -35.57, +13.42, and -22.15 points respectively. The mismatch between -22.15 and the paired median -19.46 is expected because a median of paired differences is not the difference of two marginal medians. Do not add marginal medians as though they were linear statistics.
+The supplement reports P320 reference-epoch transport factors separately, but does **not** provide a corresponding P320 median-contrast series in the cited summary table. No P320 median contrasts are inferred here.
+
+The reported median paired P222 contributions are -35.61 percentage points from reference-epoch transport and +13.41 points from the additional explicit realignment/refit; the reported median paired net change is -19.46 points. These medians are not additive. A Python/SymPy check of the published summary arithmetic gives differences of marginal medians -35.57, +13.42, and -22.15 points respectively. The mismatch between -22.15 and the paired median -19.46 is expected because a median of paired differences is not the difference of two marginal medians. Do not add marginal medians as though they were linear statistics.
+
+**Correction note:** the initial internal draft included unsupported P320 median-contrast values. They have been removed after checking the actual main paper and supplement. P320 remains supported for the reported transport-factor range, fit-window covariance spread, pairwise covariance results, and posterior-width summaries only.
 
 The supplement reports analytic epoch-transport amplitude factors of 0.565–0.785 for P222 and 0.916–0.965 for P320. Endpoint arithmetic corresponds to coefficient-magnitude changes of -43.5% to -21.5% and -8.4% to -3.5%, respectively. These are source-reported ranges with derived endpoint percentages, not a new raw-waveform reproduction.
 
