@@ -53,14 +53,13 @@ The sentence contains an embedded premise about the torus, but the turn is a que
 Updated existing ledger:
 `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md`
 
-- New blob: `9a011e2c3ed3f94625c8ad314c9711cddd2d1e95`.
-- Commit: `222db9be385861f63e21fef1b174b1e80c7fe952`.
+- Current blob after the additive precision correction: `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`. The original gap-repair commit remains in history; the latest readback preserves the correction below.
 - Added an explicitly late-recovered pre-window section; original 16:51:32–18:35:29 entries remain unchanged.
-- Added context-only tags for the imported tool result and assistant synthesis, plus the direct user's question tags: `SAT_RUN_CONTEXT`, `RAW-USER-VERIFIED`, `EXPLORATORY-QUESTION`, `KLEIN-BOTTLE`, `TORUS`, `TOPOLOGY`, `RADIUS-INTERPRETATION`, `INNER-OUTER-CIRCUMFERENCE`, `METRIC-VS-TOPOLOGY`, `PREMISE-UNVERIFIED`.
+- Added context-only tags for the imported tool result and assistant synthesis, plus direct-question tags: `SAT_RUN_CONTEXT`, `RAW-USER-VERIFIED`, `EXPLORATORY-QUESTION`, `KLEIN-BOTTLE`, `TORUS`, `TOPOLOGY`, `RADIUS-INTERPRETATION`, `METRIC-VS-TOPOLOGY`, `CLARIFIED-BY-3d392cc0`, `PREMISE-UNVERIFIED`. `INNER-OUTER-CIRCUMFERENCE` is inherited context from the later clarification, not wording in the earlier question.
 - The later inner/outer-circumference clarification remains tagged once.
 - No compendium promotion: this is an exploratory question, not a derived result.
 
-The ledger update was independently read back.
+The ledger update was independently read back. A precision correction subsequently marked `INNER-OUTER-CIRCUMFERENCE` as inherited from the later clarification rather than a literal tag of the earlier question.
 
 ## 4. Existing Lean result: precise CI qualification
 
