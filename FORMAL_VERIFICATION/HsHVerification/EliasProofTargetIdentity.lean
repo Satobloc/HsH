@@ -187,4 +187,58 @@ theorem changed_theorem_rejects_otherwise_successful_record :
 #print axioms changed_module_rejects_otherwise_successful_record
 #print axioms changed_theorem_rejects_otherwise_successful_record
 
+
+/-!
+## Automation-run / latest-result identity
+
+The live automation peek exposes the most recent attempt separately from the
+most recent completed result. A result is attributable to the current attempt
+only when the automation identity, nominal scheduled slot, and run ID match.
+This is a source-independent schema theorem; it does not authenticate the
+connector payload or prove scheduler semantics.
+-/
+
+structure AutomationRunIdentity where
+  automationId : String
+  scheduledFor : String
+  runId : String
+  deriving DecidableEq, Repr
+
+def resultMatchesCurrentRun
+    (current result : AutomationRunIdentity) : Prop :=
+  result.automationId = current.automationId ∧
+  result.scheduledFor = current.scheduledFor ∧
+  result.runId = current.runId
+
+theorem matching_automation_run_is_attributable
+    (current : AutomationRunIdentity) :
+    resultMatchesCurrentRun current current := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem mismatched_automation_id_rejects_attribution
+    (current result : AutomationRunIdentity)
+    (h : result.automationId ≠ current.automationId) :
+    ¬ resultMatchesCurrentRun current result := by
+  intro hm
+  exact h hm.1
+
+theorem mismatched_scheduled_slot_rejects_attribution
+    (current result : AutomationRunIdentity)
+    (h : result.scheduledFor ≠ current.scheduledFor) :
+    ¬ resultMatchesCurrentRun current result := by
+  intro hm
+  exact h hm.2.1
+
+theorem mismatched_automation_run_id_rejects_attribution
+    (current result : AutomationRunIdentity)
+    (h : result.runId ≠ current.runId) :
+    ¬ resultMatchesCurrentRun current result := by
+  intro hm
+  exact h hm.2.2
+
+#print axioms matching_automation_run_is_attributable
+#print axioms mismatched_automation_id_rejects_attribution
+#print axioms mismatched_scheduled_slot_rejects_attribution
+#print axioms mismatched_automation_run_id_rejects_attribution
+
 end HsHVerification.EliasProofTargetIdentity
