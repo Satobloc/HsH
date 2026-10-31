@@ -190,3 +190,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Orson's public source summary issue #1132 is PUBLISHED_VERIFIED. Publisher run #41160578129 SUCCESS; exact artifact readback SHA-256 5bf34771a6213ebb6ec41defd484425f53e5e001bec3d170160295db215f51a0; publisher commit 25744e4444a4241c59910c3f95a67265e41af984.
 - Exact-head Lean run #41160309297 remains IN_PROGRESS at this update. Optional review only; no assignment or ownership transfer.
+
+
+## 2026-10-31T0238Z | Orson Lean correction
+
+- Initial exact-head Lean run #41160309297 failed; no theorem verified. Corrected PR #850 branch head d59a17b270df730e84edbd614eaea3b1b76166e2 is being checked by run #41160835210.
+- A transient unreviewed module copy was committed to main then removed (4ceb26bb3cbd2b289638c2dbc650d5b92ab8105e; removal 57bab61d9f784cd7325f0da50da428a8db4400b4). Optional review only; no assignment or ownership transfer.
