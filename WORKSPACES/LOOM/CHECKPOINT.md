@@ -386,3 +386,66 @@ Artifacts:
 - Report `WORKSPACES/LOOM/2026-10-30T1524Z_GRURPLE_PRESENTATION_CHRONOLOGY.md`, blob 9e98edcf7956557b08c6d5700bff0ae8440fe1b8.
 - Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1524Z_s2_loom.md`, blob 44129c27bd4e57e399db753b2fd2b39251bafac5.
 - Aster handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1524Z_from_s2_to_s3_aster.md`, blob d98ff2c7fa64e955d29e9a630391853d35a62e2f.
+
+
+### 2026-10-31 06:36Z | site-discovery excerpt-state audit
+
+**Run:** `REVROT3-19-20261011:486:s3`  
+**Selection:** Loom (ring index 1); next ring identity Aster (index 2).  
+**Classification:** bounded archive/accessibility and workflow QA; continuity reconstruction, not authenticated historical Loom participation.
+
+#### 1. Source and control boundary
+
+Loom's historical user-assigned remit is cumulative tagging/enrichment of Nathan-authored material, preserving exact authorship, provenance, chronology, corrections, and relationships. Prior-conversation retrieval locates the historical “LOOM Tag Conversation Corpus” thread (`6aa67478-541c-83e9-b8fa-32d6d575eeb9`) and the user's 2026-09-19 selection/role assignment. That is a historical locator, not an authenticated live thread or a recovered verbatim charter. Current Loom README/CONTINUITY and the 2026-09-20 bold-exploration control summary were read. No conversation was renamed.
+
+The 06:24Z Sable packet was read as **OPTIONAL CONTEXT ONLY / NO ASSIGNMENT**. It reports a 178-commit-behind receipt-auditor branch and an exact-head Lean success on PR #1098, with separate test/lint/nanoda/automated-axiom-audit stages skipped. Its existing Loom J2/J3 source genealogy ledger was reused as a pointer; no source re-excavation, merge, rebase, or physics transfer was made.
+
+Preflight: live BEDROCK fully read in four sequential ranges; Steering Charter, Three Paper Campaign, onboarding, Revival Rotation V3, current workflow orientation, branching map, task graph, automation/write-safety controls, Code Grurple roster, presentation gate, current branch, current receipts/handoffs, and Loom/Aster workspace state read. Current HsH main preflight head: `591f44c8be3a72b8fb321bf4d2cce9c4902f2251`. The task-branch graph remains an older `ACTIVE_SEED` snapshot dated 2026-10-30T06:12Z; the live Code Grurple roster is the controlling current interlock. Code Grurple remains ACTIVE; HAGALAZ remains BACKSEAT/HOLD.
+
+#### 2. One object: public discovery excerpt state
+
+The current generated `PUBLIC_SITE/generated/discovery.json` is blob `8853738f2962fabb03fb60d11a4589eda457c35f`, updated 2026-10-31T06:45:34Z. It indexes HsH source commit `1d25d9a59e6bb97ac883ba0a927763b50186e8f1` and SAT archive commit `db32abc75a4a2cff3afc6de895cd7edb9eb62d82`: 10,117 documents, 577 visuals, 48 docket entries, and 6 excerpt errors, while both repository inventory statuses say `complete`.
+
+The prior snapshot, blob `954104a36fe7066945aa7c8de7c7a58ca2d2e88f`, was updated at 06:38:20Z and had 10,116 documents with the same six errors. Thus the failures persist across two successive snapshots, 7m14s apart.
+
+Three unique source blobs account for the six path-level errors:
+
+| Source blob | Exact source condition | Index result |
+|---|---|---|
+| `72664637d3f0f334da180756d080a180e6ccbbb1` | One identical `ANONYMIZED RETRODICTIONS.txt` blob at four paths across the SAT archive and HsH dump | UTF-8 decode error, byte `0x93`, offset 4971, repeated four times |
+| `6077ef831a37f9dda6db9f24c03cf7fe29cc191b` | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/frosch-loch.txt` | UTF-8 decode error, byte `0x97`, offset 1076 |
+| `4c787d73ca1643e6a2274c2146fb2d9d271b274b` | `particle_analysis_corrected.txt`, 11,735 bytes | UTF-8 decode error, byte `0xFD`, offset 15; exact raw bytes begin `PK\x03\x04`, so this is a ZIP archive mislabeled `.txt` |
+
+The four `ANONYMIZED RETRODICTIONS` paths were fetched at the exact commits named by the index and all returned the same Git blob SHA. The two text-blob decode errors were independently reproduced by exact-SHA blob retrieval. The ZIP byte stream was independently reconstructed from the base64 response and its computed Git blob SHA matched exactly.
+
+#### 3. Architecture defect and test matrix
+
+Existing `tools/site_discovery.py` checks the source blob hash, then applies strict `data.decode('utf8')` to eligible `.md`/`.txt` files up to 128,000 bytes. The candidate list is path-based, not blob-deduplicated. Failed excerpts are not stored as per-document state; because the next candidate filter is `not excerpt`, unchanged failures are eligible for another attempt on the next run. The same four-path blob is therefore decoded four times.
+
+The script appends decode failures to a top-level string list, but its return code depends only on repository inventory status. The workflow validation checks schema version, nonempty documents, and repository statuses; it does not inspect or classify `errors`. The existing `tests/test_site_discovery.py` covers square-image boundaries/exclusions, incremental revision/deletion/last-good behavior, and truncated-tree walking, but no excerpt decoding, binary sniffing, alias deduplication, or error-state persistence. `AUTOMATIC_DISCOVERY.md` says errors appear in the feed, but does not distinguish inventory completeness from excerpt completeness.
+
+| Case | Actual input / calibration | Expected observable | Comparator | Falsification threshold |
+|---|---|---|---|---|
+| Binary mislabeled text | ZIP blob `4c787d...`, exact SHA and magic bytes | `SKIPPED_BINARY`, no text excerpt attempt | Extension-only UTF-8 path | Any binary payload emitted as an excerpt |
+| Duplicate aliases | Four paths, one blob `726646...` | One decode attempt, four path records retained | Current per-path attempts | More than one decode per unchanged blob or any alias lost |
+| Legacy/mixed text | Exact blobs `726646...` and `6077ef...` | Declared reversible decoder mode or explicit unresolved state | Strict UTF-8 only | Silent CP1252/Latin-1 conversion, source rewrite, or unflagged replacement |
+| Status semantics | Two repos complete, six path errors | `inventory_status=complete`, `excerpt_status=partial` | Current single `complete` status | Overall completion claimed with unclassified excerpt errors |
+| Retry behavior | Same unchanged source blobs in successive snapshots | Persisted error state keyed by blob and decoder version | Current no-excerpt retry filter | Repeated fetch/decode of an unchanged known failure without a decoder/source change |
+
+**Recommended existing-code repair, deferred:** sniff binary signatures before text decoding; deduplicate excerpt work by source blob SHA while retaining every path alias; store per-blob/per-document excerpt status and decoder version; separate inventory and excerpt completeness; use strict UTF-8 first and never blanket-convert a possibly mixed file to CP1252; represent errors as typed records with source SHA, paths, decode mode, and retry state. Known binary skips may be nonfatal; unclassified errors should prevent an unqualified excerpt-complete claim. Preserve original bytes unchanged.
+
+This is a software-ingestion QA matrix, not a physical prediction matrix. No physical calculation, measured-system claim, Lean theorem, or H(s)H prediction was made. No code, test, workflow, reader, feed, gate, or paper was modified while Code Grurple remains active. The discovery index is a machine/search artifact and does not satisfy either paper's live-reader acceptance gate.
+
+#### 4. Additive source tags
+
+Read-It-Tag-It record for `WORKSPACES/COMMON/NATHAN_DIRECT_BOLD_EXPLORATION_SHIFT_2026-09-20.md`, blob `70a109354e4a8d6576a398931884f52ac2826076`:
+
+- **Source class:** assistant-authored control summary whose authority field declares a Nathan Direct instruction; the original raw turn is not linked in the file and was not reauthenticated in this run. Do not quote it as a verbatim Nathan transcript.
+- **Content tags:** `METHODOLOGY`, `WORKFLOW_ARCHITECTURE`, `BOUNDED_EXPLORATION`, `CARPE_TURNEM`, `SANDBOXED_CONSTRUCTION`, `PROVENANCE_FIREWALL`, `TOOL_REUSE`, `FAILURE_SEARCH`, `ANTI_RUT`, `PROMOTION_GATE`.
+- The companion `WORKSPACES/LOOM/RUN_2026-09-20_BOLD_EXPLORATION_SHIFT.md`, blob `b0aead...`, is assistant-authored historical execution context, not Nathan voice. The locator index's `filename tags: UNKNOWN` remains unchanged; these are content tags, not filename-derived tags.
+
+#### 5. Disposition and next cursor
+
+All four Mersearch lanes remain occupied (`requested`); no request was submitted, overwritten, or treated as completed. No new tool, dependency, branch, PR, issue, or automation was created. No SAT-O/Blockwave equation was copied or changed. Orson's protected P1 cognition remit and the Nov 9 gate were untouched; P2 Nov 30 and P3 Dec 14 remain separate. FIE's last full review was 2026-10-27, so the 14-day rereview is not due. The unrelated-reading cursor remains Babbage, line 581.
+
+**Next cursor:** after Code Grurple standdown or explicit site-capable authorization, add the typed excerpt-status/binary-detection/blob-dedup regression to the existing `site_discovery.py` and `tests/test_site_discovery.py`. Do not alter the shared paper renderer, either manuscript, or the current presentation gate as a workaround.
