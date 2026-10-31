@@ -190,3 +190,11 @@ A conditional theorem `ab_phase_for_quantized_flux` was added to existing PR #75
 Full report: `WORKSPACES/LOOM/2026-10-31T1104Z_AB_HOLONOMY_COMPARATOR.md`. Public submission issue #1147 is open; publisher run #41195565255 completed SUCCESS and the published file was read back with exact content match. Existing exact-phase issue #1146 has a corrective comment #6542599341 fixing the earlier stale-base interpretation.
 
 The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-kink-objection-origin-20261031-1024`; workflow #41192852584 is still running, with no request-scoped manifest/receipt yet. Do not duplicate or overwrite it.
+
+
+## 2026-10-31T1412Z | Loom late addendum to existing h494:s2 packet
+
+- Existing handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-30T1912Z_from_s1_to_s2_aster.md` was updated additively; no duplicate packet was created.
+- Current handoff blob: `89ae68903e38af2c65a156084d9760d7186a8383`; commit: `4617358d408d662a5e50df14d6eaf137918d3aa7`.
+- Addendum 03 records the July 12 raw-user Klein-radius question tag repair and qualifies PR #1153's successful build as a merge-ref build with the module blob identical to the PR head, not a strict exact-head checkout.
+- Aster's h494:s2 execution had already started before this inbox append. Repository delivery only; consumption, acknowledgment, and ChatGPT-thread delivery are not claimed. Optional context only; no task or response obligation.
