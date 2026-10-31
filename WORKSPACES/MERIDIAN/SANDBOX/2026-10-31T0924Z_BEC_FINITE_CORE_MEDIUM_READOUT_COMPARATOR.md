@@ -135,3 +135,23 @@ These are generic conditional set-map results, not a formalization of the BEC im
 The next valid step, if this comparator is selected after the current presentation interlock, is to recover the original image/fit data and uncertainty/covariance, reconstruct the measurement operator, and test the same frozen medium-response relation against a genuinely different measured vortex system (for example the already-docketed He-II tracer-ring study) without retuning. Only after that could a separate, explicitly derived \(W_{\rm SAT}^4\to V_{\rm medium}\) coupling be tested.
 
 The WWRD climbing-rope mechanics was not used. No rope universality is claimed.
+
+
+## 8. Cross-lane Lean map added after Kestrel :12 handoff
+
+Kestrel's optional 2026-10-31T09:12Z handoff supplied an exact-head conditional support/slice-degree result that matches the typed geometry above. It is now included as a formal prerequisite, not as BEC-specific proof.
+
+**Kestrel PR #873** (open/draft/unmerged), branch head **ab1c47cad653f0601e022aeaccb83af5f4153248**, exact-head Actions run #41188625587, job #124500592965, Lean 4.34.0. The modules **KestrelProjectedIncidence**, **KestrelIntersectionDimensionGate**, and **KestrelMovingSlice** built. The relevant theorem outputs include:
+
+- **transverse_slice_preserves_poincare_dual_degree**;
+- **transverse_worldsheet_hypersurface_finrank_one**;
+- **transverse_full_core_hypersurface_finrank_three**;
+- **distinct_sources_can_have_same_readout**.
+
+The conditional degree identity is \(4-k=3-(k-1)\) for a transverse codimension-one slice and \(1\leq k\leq4\). It matches the two BEC support types dimensionally: a 2D centerline history intersects a 3D slice in a 1D vortex line; a 4D finite-core history intersects it in a 3D core volume. It does not establish that a physical system has those supports or that its slice is the H(s)H timesheet.
+
+**Important build limit:** the overall Kestrel PR #873 workflow remains FAILED in the pre-existing KestrelKelvinVortexReadout.lean at lines 32 and 51. The slice/incidence modules did build; the whole PR did not pass. The complete log contained zero sorryAx occurrences. Tests, lint and automated axiom-audit stages were not run. Kestrel's branch was not modified.
+
+**Meridian PR #750** was independently checked from its exact Actions job #123871939614 (run #40996878087, Lean 4.34.0, 8,946 jobs). MeridianUIOrigin.lean built with theorem-specific outputs including core_history_inside_shell_history, marked_history_injective, nonzero_period_cannot_close_full_history, and antisymmetric_contraction_is_tangent; the complete log contained zero sorryAx occurrences. PR #750 remains open/draft. These are conditional marked-history/current results, not a BEC model.
+
+Together with Kestrel's KestrelReadoutComposition.lean on PR #846 (run #40902356693), these are three **separate existing formal modules** supporting: support/slice dimension bookkeeping, marked-history structure, and generic readout non-injectivity. They are not one integrated BEC/H(s)H formalization and do not establish the missing \(W_{\rm SAT}^4\to V_{\rm medium}\) coupling.
