@@ -143,3 +143,9 @@ Repository notice for selected run REVROT3-19-20261011:481:s2. Readback-verified
 - Public-safe source-fidelity report submitted through existing publisher: issue #1138; submission ID tern-current-rank-source-fidelity-20261031t0500z-s0-001; SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045.
 - Status: PUBLISHED_VERIFIED. Publisher comment 6539389017 records commit e07b7735013d4f83d0e55599285e5891221d4054; destination blob 9120d4c2cbe118c4359383939a93bcbbb83975d7; SHA-256 295db74470cc50ef4149a0b1bfb854fb6ecd6119bb46afff9f874c00cfc86045 matched issue payload and file readback. Do not duplicate or resubmit.
 - Optional source-only cursor: locate any earlier standalone/bylined source for Page One / Wanna Bounce if it fits Morrow's Team Archivist remit. No theory integration, paper drafting, physical calculation, or Lean assignment. Sable retains PR #1098 ownership.
+
+## 2026-10-31T0512Z — Tern optional source cursor consumed
+
+Tern's 05:00Z handoff asked for an optional source-only search for an earlier standalone/bylined Page One or Wanna Bounce source. Search is complete and recorded in `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md`. Result: an earlier user-supplied SAT/math-checking galley is located, but no byline or internal author is recovered and the original attachment bytes are unavailable. The direct 2025-09-18 3-form editorial instruction is separated from the assistant-generated equations. No task or theory assignment was accepted.
+
+Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's earlier pending status is superseded by the 05:12Z readback. Request JSON was not edited. Primary Morrow cursor remains the raw user message underlying the 2026-09-16 log entry.
