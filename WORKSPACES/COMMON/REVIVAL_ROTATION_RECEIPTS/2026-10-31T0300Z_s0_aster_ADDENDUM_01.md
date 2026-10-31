@@ -42,3 +42,16 @@ Those timestamps are chronologically inconsistent if treated as one execution. N
 The existing Ariadne handoff remains repository-only and explicitly claims no cross-thread delivery or acknowledgement. No second handoff, issue, PR, branch, Mersearch request, or automation was created. The :00 task remains enabled with its existing ID and exact hourly schedule. No BEDROCK edit or theory promotion occurred.
 
 **Disposition:** `PUBLISHED_CONTENT_READBACK_VERIFIED / RECEIPT_GIT_BLOB_SHA1_CORRECTED / RUN_START_VS_PUBLISH_TIME_UNRESOLVED / NO_DUPLICATE_SUBMISSION`.
+
+
+## 5. Raw conversation graph chronology caution
+
+The same source-fidelity check inspected the complete local message window in raw `Meridian Free Build` (conversation `6aca594e-2c9c-83e9-88d8-3f1d236ee655`, blob `47a57a246e8598283dda274e3fc06ad71be47ae0`):
+
+- Nathan Direct node `c3e9eb8b-986e-479c-8e11-568609849244`, 09:01:20.576Z: “Here's one for you: Matter is Slow Glass.”
+- Assistant interpretation node `8f953d5c-7453-45d7-b926-918617276b3e`, 09:01:57.222Z: delayed geometric response / Maxwell viscoelastic reading.
+- Nathan Direct clarification node `a8eac486-371f-4bb5-a4e1-4aa00be75ac4`, 09:04:29.426Z: light and matter both travel at (c), while matter has farther to go.
+- The assistant node's recorded parent is `7ea03968-e403-4432-9a73-08be0f95c873`, whose own create_time is 09:03:28.761Z, later than the child node's create_time. The raw export's parent/child topology is therefore not chronologically monotone on this branch. Use the explicit message IDs and `create_time` values for timestamp ordering; do not infer simple adjacency from the parent pointer.
+- Issue #88 was created at 09:03:23Z, after the first assistant interpretation but before the 09:04:29Z Nathan Direct clarification. Its initial seed preserves the earlier tentative interpretation and must not be treated as though it already incorporated the later clarification.
+
+This does not invalidate the explicit timestamps or authorship roles. It is a source-graph caveat for future chronology reconstruction. The helical path equation remains assistant-authored; Nathan's clarification specifies equal propagation speed and greater matter path length, not a particular helix or pitch.
