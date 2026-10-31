@@ -531,3 +531,34 @@ Code Grurple remains ACTIVE; public issue publication remains held. No BEDROCK/p
 ### 2026-10-31 13:53Z — Lean completion addendum
 
 The new measured-input module in existing Ravel PR #993 is now exact-head build-verified. PR head `ea72b5a4072c297b13240f6ea3924e28325690f1`; Actions run #41207194774 / job #124554843195 succeeded on the corresponding PR merge commit `a8533f80e0b3b9e5dd6bfe7cad4faf84ca3c3311`. Lean 4.34.0 / Lake 5.0.0; 8,948 build jobs; new module built at 8,946/8,948. Nine theorem-specific axiom reports each list only `propext`, `Classical.choice`, `Quot.sound`; full log has zero `sorryAx`. Tests, lint, nanoda and separate automated axiom audit were skipped. This proves only the formalized rational arithmetic over rounded published inputs, not the measurement sources, shielding theory, electromagnetic current map, or H(s)H physics. Full report final blob: `c1e93ea8960ac06d3bfeedc76402e63f9d6dff84`.
+
+
+## 2026-10-31T2112Z | Source recovery and measured Minkowski control
+
+Run key: REVROT3-19-20261011:501:s1. Selected Ravel; next Orson Vay. No authenticated original Ravel thread or cross-chat participation claimed.
+
+Recovered active Nathan Direct source statements from the 2024 DIMENSIONAL GRAVITY raw export, 2026 Meridian Free Build, 2026 Meridian Minkowski Ring Analysis, and September 2026 Ravel Syncmathcek. Key corrections:
+- The 2025 SAT4D/O1 V_tension term is historical candidate material; later direct instruction rejects invented elastic modulus, filament tension, and microscopic spring constant.
+- The time surface is an interacting 3D bulk, not a passive readout. Direct language preference is instantiation/intersection/cobordism/truncation.
+- The 4D filament/coil is distinct from its 3D intersectional trace; 3D self-closure is not assumed. The 1D O1 curve versus later “4D filament” support dimension remains unresolved; do not invent the thickening map.
+- The induction-current connection within timesheet thickness is a tentative direct hypothesis, not a recovered equation.
+- Earlier w=ct Minkowski control is distinct from later native cw=t, Forest Normalization, ++++; no conversion assumed.
+
+Completed a real-data Fermilab E989 reference-orbit control using arXiv:2606.17323 beam/field summaries and CODATA 2022 constants. For noRF, B=1.4512955803 T, F_lab=6.9668086e-11 N, coordinate curvature with w=ct=0.14044364 m^-1, intrinsic Minkowski proper-time curvature=120.56946 m^-1, ratio gamma^2=858.49. This is a worldline-centerline Minkowski control only, not SAT, native ++++, finite-core, or medium validation. No fit or independent prediction. No elastic parameter introduced.
+
+The published Ce correction implies conditional RMS momentum-offset estimates: noRF 3.8888±0.1364 MeV/c; xRF 3.5454±0.1423 MeV/c. Only Ce uncertainty propagated; n and full covariance unavailable. Table XXVIII's 3.5 Hz implies 56.8 ppb field uncertainty, while report prose states 48-51 ppb; discrepancy unresolved.
+
+Artifacts:
+- Report: WORKSPACES/RAVEL/2026-10-31T2112Z_MERIDIAN_DIRECT_GEOMETRY_AND_MUON_G2_CONTROL.md
+- Script: WORKSPACES/RAVEL/CODE/2026-10-31T2112Z_MUON_G2_WORLDLINE_CURVATURE_CONTROL.py
+- Summary log: WORKSPACES/RAVEL/OUTPUTS/2026-10-31T2112Z_MUON_G2_WORLDLINE_CURVATURE_CONTROL.log
+- Full JSON: WORKSPACES/RAVEL/OUTPUTS/2026-10-31T2112Z_MUON_G2_WORLDLINE_CURVATURE_CONTROL_FULL.json
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel.md
+
+Existing PR #1133 was rechecked: target module compiled in successful merge-ref build with source blobs matching PR head. Its scope remains bare set intersection and non-injectivity under incomplete coverage; no physical interaction, medium, or worldtube thickening. No new Lean proof or code change.
+
+Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; 14-day threshold not due.
+
+Unrelated reading advanced: TheTANGLE.txt lines 1201-1240. Next cursor: 1241.
+
+Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with original hourly :12 America/New_York schedule. No task or schedule edit. Current run remained in progress at final observation.
