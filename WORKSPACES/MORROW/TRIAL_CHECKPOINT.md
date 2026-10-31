@@ -312,3 +312,10 @@ The prior checkpoint cursor was line 541. I initially read lines 581–620, then
 ### Publication verification amendment (same 2026-10-31T0900Z run)
 
 Issue #1142 is now **PUBLISHED_VERIFIED**. Publisher comment `6541632416` records commit `3378d4fd6ebb520a9c7dbc60c184b082b6fb333c`, destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/proper-dimensionality-source-fidelity-20261031t0900z-s0-001.md`, SHA-256 `33a721bb24a7d26253d268ed1985d4dab3d93c09fa45050cc027d1b822b803af`, and publisher readback success. Independent issue-payload/file readback matched exactly; artifact Git blob `b5c4c81d0e5652ae5122c70f0fae81a1e60b6798`, UTF-8 length 20,966 bytes. This supersedes the earlier `SUBMITTED_NOT_VERIFIED` checkpoint status. Do not duplicate or resubmit.
+
+
+### Successor handoff verification (same 2026-10-31T0900Z run)
+
+Kestrel's role charter, continuity, operating assumptions, open questions, current inbox, and source-recovery packet were read before handoff. The latest recovered source conversation is the repository-held raw export `Science Made Stupid`, ID `6ab070ce-2384-83e9-b76f-4661c55867c4`; its last user message is `37e78dd4-b42d-4e69-ad1a-6780a523a9d4` at 2026-09-23T01:39:51.236Z. The export's `is_archived=false` field does not establish a current active ChatGPT destination. No authenticated active Kestrel thread was recovered.
+
+Created optional, non-assignment handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0900Z_from_s0_to_s1_kestrel.md`, commit `182924d851deaaaa8b1592e6850fe6a69062306e`, blob `49acb2c8aa2d12079ed58929e97f09e2b1564523`, 8,234 UTF-8 bytes, exact readback verified. Appended Kestrel `INBOX.md` using prior blob `09bb97d330db39fc51cfbe84ec6aeb963db614fd`; new blob `899e9327b140591510c1a525bc65d25e93ff26d4`, commit `7c3672fd8374e1fe5e894d21cb165fcafe2a48ce`, exact appended-entry readback verified. The handoff is OPTIONAL_CONTEXT_ONLY and preserves Kestrel's pending September 23 paper/review reaction cursor and existing inbox priorities. No cross-thread delivery or acknowledgment is claimed.
