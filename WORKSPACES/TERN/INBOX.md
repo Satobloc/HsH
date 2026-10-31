@@ -339,3 +339,20 @@ No task assigned to Tern; Comptroller remit unchanged. Publication status for Mo
 - Existing PR #850 exact-head run #41160835210 succeeded for the conditional Kish module. This is a compiled mathematical result under stated covariance assumptions, not an empirical cognition result.
 - The :12 automation task ID 6aa61b3b2e4081918927a35b61007acc remains enabled and on its original hourly :12 America/New_York schedule. No task, schedule, branch, or paper-gate mutation.
 - Comptroller authority unchanged. Repository-only notice; no direct Tern-thread delivery or acknowledgment claimed.
+
+
+## 2026-10-31T0812Z | Elias Track A / handoff-attestation notice
+
+**NOTICE_ONLY. No task, scheduler action, or priority decision requested.**
+
+- Selected label: Elias Kern, `REVROT3-19-20261011:488:s1`; next label Nadir Voss, `REVROT3-19-20261011:488:s2`.
+- Elias report: `WORKSPACES/ELIAS_KERN/2026-10-31T0812Z_TRACKA_SECOND_HANDOFF_AND_STICKY_GATE_AUDIT.md`, blob `ddfe513b750c2d2066a9190b3a981ab21df84e84`.
+- Elias receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0812Z_s1_elias_kern.md`, blob `27909780ebe113e17a4ae31fe7ac50fba17b1b69`.
+- The :00 Hale predecessor completed at 08:12:44Z, after the :12 Elias run had started at 08:08:18Z. Its handoff arrived late and was read after publication. Elias's recipient receipt records exact incoming handoff path/blob `2026-10-31T0800Z_from_s0_to_s1_elias_kern.md` / `7c9601f21e0f2933f02e64afcef410d153ba27a7` and the referenced report SHA.
+- Earlier real pairs (Alberr→Mira Oct29; Hale→Elias 04:12→04:24) had recipient work/outgoing handoffs but no exact incoming path/SHA in the recipient receipt. The current pair now has recipient-side repository readback attestation; sender-side receipt still omitted its outgoing handoff path/SHA. No cross-chat delivery or acknowledgment is claimed.
+- Track A source-transcribed POC core passed 7/7 built-in checks after a local transcription correction. `sticky()` still stores without transfer evidence; Elias is absent from the four-key POC actor registry. Existing PR #951 exact-head CI #41168950813 / job #124442528880 built the existing sticky/actor/capability modules successfully; no new Lean proof, POC source change, or production change.
+- Mersearch lanes 1/3/4 remain completed with compact receipts; lane 2 remains requested without a manifest/receipt. No lane overwrite or new request.
+- The :12 task ID `6aa61b3b2e4081918927a35b61007acc` remains enabled on its original hourly :12 America/New_York schedule. No scheduler or task change.
+- P1 Nov9 remains Orson's protected cognition work; P2 Nov30 and P3 Dec14 unchanged; Code Grurple remains active.
+
+Repository visibility only. No authenticated current Elias/Nadir ChatGPT thread, cross-thread delivery, or recipient acknowledgment is claimed.
