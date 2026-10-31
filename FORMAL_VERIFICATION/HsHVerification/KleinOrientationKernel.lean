@@ -119,7 +119,11 @@ def fiberGenerator : KleinPair := ⟨0, 1⟩
 theorem klein_presentation_relation :
     baseGenerator * fiberGenerator * baseGenerator⁻¹
       = fiberGenerator⁻¹ := by
-  ext <;> norm_num [baseGenerator, fiberGenerator, mulK, invK, fiberSign]
+  change mulK (mulK baseGenerator fiberGenerator) (invK baseGenerator)
+    = invK fiberGenerator
+  apply KleinPair.ext
+  · norm_num [baseGenerator, fiberGenerator, mulK, invK]
+  · norm_num [baseGenerator, fiberGenerator, mulK, invK, fiberSign]
 
 /-- The sign character is multiplicative under the Klein-pair group law. -/
 theorem fiber_orientation_character (x y : KleinPair) :
@@ -165,6 +169,7 @@ theorem orientationKernel_mul_componentwise (x y : orientationKernel) :
 theorem orientationKernel_comm (x y : orientationKernel) :
     x * y = y * x := by
   apply Subtype.ext
+  change mulK x.1 y.1 = mulK y.1 x.1
   have hx : fiberSign x.1.base = 1 := x.property
   have hy : fiberSign y.1.base = 1 := y.property
   apply KleinPair.ext
