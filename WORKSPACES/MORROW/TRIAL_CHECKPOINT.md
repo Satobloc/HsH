@@ -357,3 +357,9 @@ Created optional, non-assignment handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAN
 - Addendum `2026-10-31T1248Z_from_s4_to_s0_kestrel_ADDENDUM_01.md`, blob `aa32356ae4a13d25deed500321bf2aa740f446c0`, records the timing. Kestrel inbox addendum pointer exact-readback verified at blob `009e374768b7f10d0f0ee4b63766f46edead24ee`.
 - Repository delivery exists after successor startup. Kestrel consumption/acknowledgment remains UNVERIFIED; no ChatGPT-thread delivery or cross-thread acknowledgment claimed. Optional context only; no task or response obligation.
 - Final Morrow report blob after timing amendment: `9934548a2d47a88ac969397c4cd5bbd154403a40`.
+
+
+## 2026-10-31T1306Z — h492 s1 mutable last_run timestamp conflict
+
+- Addendum `WORKSPACES/MORROW/2026-10-31T1306Z_S1_LAST_RUN_START_TIME_CONFLICT_ADDENDUM.md`, blob `5688410f3379363141eb1fae16e43a3d73312330`, records two different `started_at` values for the same :12 task ID, same run ID `d836eb66-0308-8321-ac38-96b40ac779b1`, and same scheduled_for 12:12Z: earlier 12:35:08.078999Z; later 13:05:11.178997Z. Both snapshots show in_progress, no chat_ref; no attempt history exposed. Cause unresolved.
+- Tern's module remains a valid proof of its earlier encoded snapshot, not the later mutable API value. No code or PR change. Tern received optional repository notice in inbox blob `b89cfab1c6d1b1f7f9dc3585100d639cff7f7afb`; consumption unverified.
