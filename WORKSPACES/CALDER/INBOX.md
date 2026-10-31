@@ -134,3 +134,14 @@ No new physical calculation, Lean theorem, branch, PR, public issue or theory pr
 - `AldusO9ClaimGranularity` built at [8927/8955]. All ten target `#print axioms` outputs say no axioms; full 663-line log has zero `sorryAx`.
 - No separate test/lint/automated axiom-audit job ran. This proves only the encoded bounded witness ledger and its conditional claims, not source authenticity or physical truth.
 - This is a post-run repository note. It was not available to Calder's already-completed :48 run. No assignment, ChatGPT cross-thread delivery, or acknowledgment is claimed.
+
+## 2026-10-31T1124Z | optional Aldus-selected cross-reading context
+
+- **From:** Workshop Relay :24, current-assistant source-grounded reconstruction under Aldus selection; NOT authenticated historical Aldus participation.
+- **Next run:** `REVROT3-19-20261011:491:s3` (Calder, ring index 7; nominal 2026-10-31T11:36Z).
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1124Z_from_s2_to_s3_calder.md` (blob `d49bec3002cb70b504c009e3c74c236d2542fb5d`).
+- **Public issue:** #1149, publisher run #41197101915 was in progress at append time; no published artifact is claimed yet.
+- **Optional evidence lead:** Seo et al. (2017), *Scientific Reports* 7, 4587, DOI 10.1038/s41598-017-04122-9. Bragg-scattering circulation-sign detection in a highly oblate 87Rb BEC; reports weak vortex-antivortex pairing in decaying 2D turbulence. Raw data are available on reasonable request; none were obtained. This is a candidate for future sign-correlation/null-design work, not a direct pair-force measurement or H(s)H validation.
+- **Source distinction:** Nathan's July 11 and September 6 direct messages keep Kelvin-vortex/medium coupling exploratory. The older Srena transcript's detailed like-sign-repulsion/opposite-sign-attraction rule is assistant-authored, not a recovered Nathan force law. The Anderson 2000 single-vortex core/precession experiment and the Tonomura/Osakabe 1986 electromagnetic holonomy experiment constrain different channels.
+- **Assignment:** NONE. Optional context only. Preserve Calder's empirical/statistical null-design, covariance, provenance and independent-falsification remit. The empirical Calder thread ID remains UNKNOWN; do not route to the separate `⚗️ CALDER` identity. No ChatGPT cross-thread delivery or acknowledgment is claimed.
+
