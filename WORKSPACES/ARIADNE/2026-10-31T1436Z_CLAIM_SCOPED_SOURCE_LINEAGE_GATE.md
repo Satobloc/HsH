@@ -248,3 +248,31 @@ The startup finding in Amendment 08 was correct at the time: the expected Aster 
 The correct final classification is therefore: `LATE_NEXT_APPEARANCE_HANDOFF_AVAILABLE / CURRENT_RUN_CONSUMED_AFTER_START`. The earlier `HANDOFF_MISSING_OR_IN_FLIGHT` describes only the startup boundary and is superseded for final state. No cross-thread delivery or acknowledgment is claimed.
 
 The packet's optional context identifies distinct O9 mass-spectrum, worldsheet, graviton/strain and optical constructions; the unresolved O8 carrier-scale versus O9 wavefront-thickness reuse of `ell_f`; incompatible Q meanings; and the assistant-authored Blockwave action boundary. It does not authorize a physical calculation or theory promotion.
+
+
+## Amendment 10 | original role-bearing messages recovered from Git blobs
+
+The earlier statement that the GitHub raw-export reader returned empty is now narrowed: `fetch_file` returned an empty body for the large exports, but the existing GitHub `fetch_blob` action successfully retrieved and parsed both exact raw blobs. No new search request or archive tooling was needed.
+
+### ARIADNE raw export
+
+- Conversation: `6ab339d2-8fb4-83ea-b728-c8001a034371`.
+- Git blob: `df9c7a1fbddaa523f0b69cced8d761433490a454`.
+- Retrieved bytes: 6,021,301; JSON parse: SUCCESS.
+- Message `c4f0aae9-3290-42c6-a5d0-b42c19a88255`, 2026-09-23T04:27:14.907Z: outer `author.role=user`, `author.name=null`. It grants broad archive examination/reproduction and suggestion discretion, conditioned on active workflows/onboarding, then explicitly says the Comptroller controls scheduled tasks.
+- Message `e689eb6e-5814-4a27-a366-796605bd5f4d`, 2026-09-23T04:48:27.113Z: outer `author.role=user`, `author.name=null`. It explicitly says Tern/Comptroller allocates scheduled-task time and suggests a near-term Python-offload study for Tern, not an independently authorized task.
+
+### Revival Rotation raw export
+
+- Conversation: `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`.
+- Git blob: `386516f7c2d5b9ab2cd4f0050869ae00c133274d`.
+- Retrieved bytes: 1,233,024; JSON parse: SUCCESS.
+- Message `41fe4df4-fa3f-4045-bf99-0f095903c052`, 2026-09-23T02:06:05.180Z: outer `author.role=user`, `author.name=null`. Exact content: “Kirk material informs revival strategy, esp for human simulation (including me)”.
+
+These are direct user-role records with null author-name metadata: preserve as user-role/Nathan-attributed, not independently name-authenticated. The Kirk statement establishes methodological relevance to human simulation, not authorship of the KIRK_mind/READY_ROOM artifacts or recovery of the January 22 source conversation.
+
+### Export-copy identity boundary
+
+The separate Library search surfaced `ARIADNE — raw.json` at 6,226,127 bytes and `MARLOWE — raw.json` at 1,852,875 bytes. Those sizes differ from the corresponding GitHub blobs above. The matching message IDs/contents are confirmed in the Library copies, but byte-identical export identity is not established; treat them as separate export versions, not independent witnesses.
+
+This directly supersedes the earlier raw-body limitation for the two GitHub blobs. It does not change the source-lineage model's external shared-core attestation or prove authorship, chronology, or copying direction for the two transcript-like artifacts. The assistant-authored Ariadne role summary remains a synthesis, not a verbatim Nathan-authored charter.
