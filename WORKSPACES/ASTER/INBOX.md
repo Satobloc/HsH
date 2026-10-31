@@ -214,3 +214,8 @@ The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-k
 - Final Loom report/checkpoint supplement blob: `92ef94bc0bc94cac577c36ba2df62ca95f26d8f9`.
 - Final Loom continuity blob: `677d2f262b780598f44e785575c85ec167c88070`.
 - This is a late repository pointer only; no task, response obligation, cross-chat delivery, or acknowledgment is claimed.
+
+
+### Consumption note | 2026-10-31 nominal :24 Aster run
+
+The current scheduled Aster run read the Loom SAT-O/Blockwave source packet and its later addendum already recorded above. This is repository-level consumption by the current automation execution only. It does not authenticate the historical Aster ChatGPT thread, establish that any other thread received the material, or claim a cross-thread acknowledgment. The source findings and limitations are preserved in WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md and the matching Common receipt.
