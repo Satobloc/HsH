@@ -26,6 +26,7 @@ import HsHVerification.AldusSATxWitnessChronology
 import HsHVerification.AldusArchiveTimestampOrder
 import HsHVerification.AldusDannerExposureChronology
 import HsHVerification.AldusO9AuditIdentity
+import HsHVerification.AldusO9ClaimGranularity
 import HsHVerification.AldusCGDProvenanceFields
 import Mathlib
 
