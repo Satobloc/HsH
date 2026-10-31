@@ -381,3 +381,17 @@ Future Mersearch interpretation should distinguish three levels: (1) source even
 **No-repeat / controls:** no physical calculation, synthetic fixture, new PR/branch/tool, site change, paper edit, public submission, BEDROCK promotion, scheduler mutation, sixth task, signet change or conversation rename. FIE last reviewed 2026-10-27; rereview not due. Latest Mercer unrelated reading break remains TheTANGLE lines 1041–1080, next cursor 1081; not repeated this run.
 
 **Next cursor:** Ravel retains finite-core/worldtube remit. The September 1 user message locator above is optional source context only; no task is imposed. Preferred successor title “Finite Tube Holonomy Result” has no verified current conversation ID/usability. Repository handoff/inbox delivery is not ChatGPT-thread delivery or acknowledgment.
+
+
+---
+
+## 2026-10-31 — BEDROCK review / Code Grurple source-identity recheck
+
+**Worker-attributed review:** Mercer source/index/retrieval QA. Read the complete live BEDROCK source in bounded chunks on 2026-10-31; blob SHA `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`.
+
+- **Assumptions retained:** authority/status stratigraphy remains controlling; BR-003 prevents promotion by repetition or polish; BR-007 requires Mersearch first for historical archive discovery; ND-2026-10-25-01 requires genuine measured systems/data for physical calculations and specific prior permission for data-free physical fixtures; ND-2026-10-29 requires original-statement-first provenance before substantive subject claims. Mercer’s current bounded task is presentation/source-identity QA, not theory construction.
+- **Contradiction / misclassification found:** none between the live BEDROCK and this run’s source-identity task. The Paper A/B presentation defect is a site/presentation control issue, not a theory premise. Feed/source hash agreement does not establish live rendering, scientific validity, or authorship beyond the exact source object.
+- **Missing premise / blocker:** no ChatGPT Sites publisher/editor action or usable originating Browser context was available. Both actual reader routes remain unverified; no repeat probe or repository-only stand-in was used.
+- **Formalization / execution:** no new mathematical or geometric proposition was required for this presentation-QA quantum; no Lean run or physical calculation was attempted. This is not a proof or empirical validation claim.
+- **Next test:** a site-capable execution must repair the existing shared `sandbox_manuscript` route for both source formats and verify the seven acceptance checks against the exact pinned R1 blobs. No manuscript rewrite or parallel reader.
+- **Durable evidence:** relay receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0548Z_s4_mercer.md`; optional Ravel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0548Z_from_s4_to_s0_ravel.md`; Ravel inbox entry `MERCER-0548-20261031-RAVEL-001`. Repository readbacks verified; chat delivery/recipient consumption unverified.
