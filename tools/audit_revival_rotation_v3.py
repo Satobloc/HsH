@@ -473,15 +473,18 @@ def self_test():
         h = base / "REVIVAL_ROTATION_HANDOFFS"
         r.mkdir(parents=True); h.mkdir()
         receipt = r / "2026-10-31T1648Z_s4_kestrel.md"
-        sample = (
-            "# Kestrel :48 execution receipt\\n\\n"
-            "**Date:** 2026-10-31\\n"
-            "**Run key:** \`REVROT3-19-20261011:496:s4\`\\n"
-            "**Selected worker:** Kestrel, zero-based ring index 14\\n"
-            "**Next worker:** Meridian, index 15\\n"
-            "**Next run key:** \`REVROT3-19-20261011:497:s0\`\\n\\n"
-            "## Execution identity\\n"
-        )
+        sample = chr(10).join([
+            "# Kestrel :48 execution receipt",
+            "",
+            "**Date:** 2026-10-31",
+            "**Run key:** " + chr(96) + "REVROT3-19-20261011:496:s4" + chr(96),
+            "**Selected worker:** Kestrel, zero-based ring index 14",
+            "**Next worker:** Meridian, index 15",
+            "**Next run key:** " + chr(96) + "REVROT3-19-20261011:497:s0" + chr(96),
+            "",
+            "## Execution identity",
+            ""
+        ])
         receipt.write_text(sample, encoding="utf-8")
         parsed = data(sample)
         assert parsed.get("selected_worker") == "Kestrel, zero-based ring index 14"
