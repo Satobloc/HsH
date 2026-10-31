@@ -1,3 +1,7 @@
+## H496 CI completion correction — 2026-10-31T16:34Z
+
+H496 run #41219938232 completed SUCCESS on PR merge commit `b5a56b73ce8fbc5c137cc1e2b22518fc13cb96a8`, not PR head directly. New module blob `fc74f633b50493cce91b3e1bf94bcb96dbc64527` and aggregator blob `2008aa978151bdaa8ec4f446dce8d16790b454ac` match branch blobs. 8,951 build jobs; Lean 4.34.0 / Lake 5.0.0; 13 H496 axiom outputs (11 none, two `propext`), zero `sorryAx`; separate axiom-audit/nanoda skipped. Prior H492 run #41202345776 also checked merge commit `22228ddd278bdedd296e9d01793851e5158a5922`; H492 module and aggregator blobs match branch. Strict PR-head checkout was not established for either run. PR #824 remains open/draft/unmerged.
+
 ## H496 artifact readback addendum — 2026-10-31T16:34Z
 
 Final report blob: `574d4ddad251b644bf70721764d929bd3e4711e7`.  
