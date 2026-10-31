@@ -104,3 +104,19 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - h494 Ariadne→Alberr handoff arrived after Alberr's completed :48 run; later inbox supplement exists, but no consumption by that completed run is claimed. Current h495 Hale→Elias predecessor not yet visible.
 - No physical calculation, LLM inference, human-subject session, Mersearch request, public issue, paper advancement, POC/production change, theory promotion, task/scheduler change, signet change or conversation rename.
 - Next cursor: verify exact-head CI; then consume h495 Hale→Elias only if the :36 run and exact handoff appear. Unrelated-reading cursor remains `TheTANGLE.txt`, line 1651; FIE last reviewed October 27.
+
+
+## 2026-10-31T1936Z — exact-source switchboard execution / sticky-transfer test
+
+- Run key: `REVROT3-19-20261011:499:s3`; h=499; seq=2498; selected Elias Kern (index 9); next Nadir Voss (index 10), slot s4 in the same nominal hour. Deterministic label only; no authenticated original Elias thread.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-10-31T1936Z_TRACKA_EXACT_SWITCHBOARD_AND_STICKY_TRANSFER_TEST.md`, blob `ed882fd5bd34fcad8e6a9f4aa83db07ab603ea14`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1936Z_s3_elias_kern.md`, blob `0dd41b1f397afbd001881f284263f86ba0411add`.
+- Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1936Z_from_s3_to_s4_nadir_voss.md`, blob `c1ffa1db1c4168b7ee595b04e9396c8065c32784`.
+- Executed the exact upstream HSH_RESOURCES `workflow_switchboard_demo.py` source; local Git blob SHA-1 matched upstream `49988a769389b2baf264a27d596ba7c3ff822b36`; Python 3.13.5; self-test 7/7 PASS, exit 0.
+- New distinct-locale test: candidate survives JSON state round-trip and duplicate capture deduplicates, but destination `wake()` does not read experience; candidate does not affect rules/next operation; `sticky()` has no transfer-receipt parameter and record has no lifecycle status. TOP rules remain intact. Disposition: candidate storage verified; behavioral transfer not demonstrated; promotion not authorized. No upstream POC code change.
+- Existing PR #951 exact-head CI #41217344093 / job #124584842355 now SUCCESS on exact head `7a79cb86fc1e41f90a32e109a61b9d08001d7187`. Full textual Actions log was not retrieved; no independent zero-`sorryAx` scan claimed. PR remains open/draft/unmerged.
+- Existing issue #1121 received additive comment #6548224304; readback verified. No new issue/submission.
+- Predecessor Hale :24 remained in progress; no incoming receipt/handoff visible. No nonresponse inferred.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1651–1690; next cursor 1691. FIE last full review 2026-10-27, <14-day threshold.
+- No physical calculation, LLM inference, human-subject session, Mersearch request, POC/production change, theory promotion, task/scheduler mutation, or cross-thread delivery.
+- Next: preserve candidate/promoted lifecycle as a design cursor; do not patch upstream POC without Track B review. Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND; no task or review requested.
