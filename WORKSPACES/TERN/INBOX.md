@@ -603,3 +603,8 @@ Orson cognition/P1 remains protected; no physics handoff. No physical prediction
 ### Correction to parent Ravel 22:15 notice
 
 The parent handoff's phrase “exact-head PR-event Lean library compile success” was overstrong. Run #41246994835 is a PR-triggered merge-ref build at 8b21842daeb7040bf1d4f3d7be7b08f09d7fe589, not a strict exact-head checkout. The corrected branch head is c606afa2d8405319f86a4a4d6bbb6e98e9e8e946. The target module and root aggregator blobs match between branch and merge ref. The successful log contains the theorem-specific axiom outputs now listed in the 22:24 Ravel addendum. This qualification supersedes the parent wording.
+
+
+### Final scheduler completion correction
+
+Final private peek for task 6aa61b3b2e4081918927a35b61007acc records the h501 run completed: scheduled_for 21:12Z, started_at 22:12:17.759535Z, completed_at 22:23:41.686003Z. The earlier 21:42:31Z start in the first Ravel report was not a scheduler start record and is corrected. The stored run-result snapshot was created at 22:23:39.606306Z; it predates later same-turn repository supplements. Use the current source report, normalization/geometry supplement, corrected PR body and this inbox addendum as the full record. The task remains enabled and the original hourly :12 America/New_York schedule is unchanged.
