@@ -364,3 +364,69 @@ This was source-provenance work only. No new mathematical proposition was formal
 - Existing Aster PR #905 exact-head Lean run #40980922900/job #123820490601 remains SUCCESS for a source-projection non-injectivity model only; no SAT physics theorem. No new Lean code or physical calculation.
 - Unrelated reading: Babbage lines 561-600, next 601. FIE last full revisit Oct 27, not due.
 - Next cursor preserved from the main receipt: `Finding the Donut`, first explicit Klein Fabric construction, and exact October 17 BR-006 source. No theory promotion or branch/PR/issue/site/schedule change.
+
+
+
+
+## 2026-10-31T1036Z | Klein-surface antecedent, Donut solver separation, and typed map registry
+
+**Run key:** REVROT3-19-20261011:490:s3  
+**Selection:** Aster (ring index 2); next Ariadne (index 3). Deterministic routing only; no historical instance authentication.  
+**Participation class:** CONTINUITY_RECONSTRUCTION. The historical Aster raw export body again returned empty; no fresh raw-role parse or original-instance first-blush was obtained. The 2026-10-17 source-grounded reentry charter and this continuity file governed the work.
+
+### New source result
+
+The previously unintegrated HsH AHA TOPOLOGY transcript in the 30SEP26 development dump is an earlier candidate for a global Klein-like surface made from connected particle tube-skins. It is also present in the SAT archive with the identical blob 5283ceb8d06109061543711ebe7c46954efe7ede; those copies are one witness. The generated library presentation is derivative and has no source date. The transcript has NATHAN/CLAUDE labels but no raw message IDs, conversation ID or original timestamp. Its presence in the 30SEP26 dump is an archive-presence bound, not a composition date. It is a NATHAN-LABELLED TRANSCRIPT WITNESS, not raw-role-verified Nathan Direct.
+
+Relevant transcript locations: lines 104–109, 122–129, 136–141, 296–299, 312–315. The last passage identifies the surface of topology with the resolving surface/timesheet. The source does not fix the surface dimension or supply an embedding/gluing map. Assistant-generated 2D surface assignments, rotational equations and Betti-number particle-count readouts remain assistant reconstruction.
+
+The separate HsH COSMOTOPOLOGY transcript is another document-level lead, also without raw role/time metadata. Its detailed topology surgery and fundamental-group equations are assistant elaborations.
+
+The exact raw-user name Klein Fabric is first located in the 2026-10-21 supersession message already recorded in issue #1117. That message retires the older reciprocal filament/timesheet-deformation model but does not define the Klein Fabric. The AHA transcript is a plausible conceptual antecedent, not proof of identity or first construction. The October 9 “Klein bottle torsional barygenesis” phrase remains a separate, unlinked witness. The October 20 Cruller remains a separate physical working hypothesis.
+
+### Donut solver separation
+
+The June 23 source compendium records raw-user messages identifying Finding the Donut as Nathan’s original formulation and explicitly stating that it is not part of SAT. The raw SAT Overview export body was empty in this run; these records are from the existing verified compendium, not a fresh raw reparse. The original PDF extraction describes a sphere-to-torus intersection solver. The later additive Y = X_T + εV canon is assistant-authored and not the original intersection map. PR #811’s exact-head Lean run verifies only the conditional off-torus result for that additive construction.
+
+### Map architecture
+
+A typed registry now separates: candidate Klein-like object K^d; tube-skin/shell F^3; finite-core W^4; timesheet Σ_t^3; mouth M_t^3; rim R_t^2; skeletal trace C_t^1; Donut solver D_solver; and the separate candidate J3-to-J2 operator P_{u,Σ}.
+
+Three interpretations remain open: (A) global fabric equals resolving timesheet; (B) fabric is a separate shell intersected by the timesheet; (C) a 2D Klein base has a rank-2 normal bundle whose tubular neighborhood gives a 4D core and 3D shell. The tubular-neighborhood construction is conditional standard geometry, not a recovered Nathan equation. The source does not select a dimension or map.
+
+If C is chosen, the proposed map is W_ε^4 = exp⊥(D_ε(νK)), F_ε^3 = ∂W_ε^4, with M_t^3 = W_ε^4 ∩ Σ_t^3, R_t^2 = F_ε^3 ∩ Σ_t^3, and C_t^1 = K^2 ∩ Σ_t^3 under clean/transverse conditions. The normal rank is two if K^2 is embedded in M^4; ε and its profile are not fixed by topology. A physical contact law and rotational expansion field are additional structure. A Klein bottle and a Möbius band have different boundary conditions; the transcript does not choose.
+
+The incoming Loom/Sable packet was also consumed. Nathan Direct’s 2025-09-18 instruction is editorial preference for the 3-form track, not a J3-to-J2 equation. The candidate J2 = i_Σ^*(ι_u J3) is assistant proposal; u is not source-defined, and Cartan’s identity shows closure requires additional invariance conditions. This is separate from the tubular-neighborhood and Donut maps.
+
+### Proof and empirical status
+
+Existing Sable PR #1098 exact-head CI and Aster PR #811 exact-head CI were checked; both builds succeeded with no sorryAx in the retrieved logs. #1098 covers generic support/degree and transverse-intersection dimensions, not the proposed Klein embedding. #811 covers the conditional additive torus counterexample, not the original solver or physical ontology. No new Lean module or PR was created because the source does not yet choose the geometric object/type; formalizing one now would formalize an assistant guess.
+
+No measured system, dataset, units, uncertainty model or physical readout map was connected. No physical calculation, prediction, or observational validation was performed.
+
+### Publication and operations
+
+Public report: https://github.com/Satobloc/HsH/issues/1148  
+Published artifact: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-klein-surface-map-contract-20261031t1036z-s3-001.md  
+Submission ID: aster-klein-surface-map-contract-20261031t1036z-s3-001  
+Artifact blob: 8e53023af9422ba88e046bce0854f31cf851810f  
+SHA-256: 675a9b5a3003e0937b548dc6efc733946b475314364743b3d05cb2807c3b3d34  
+Publisher commit: b3f3f49e56d8e3b720bd477418488f952679412d  
+Exact content comparison and independent SHA-256: PASS.
+
+All four Mersearch request lanes were occupied; no request was overwritten or resubmitted. Bounded GitHub search was fallback retrieval, not a Mersearch run. Code Grurple remains active. No manuscript, reader, feed, BEDROCK, paper gate, or theory branch was changed. No SAT-O or Blockwave equation was edited. No new tool, branch, PR, paid service, or automation was created.
+
+### Deliberate unrelated reading
+
+Read Babbage, “Reflections on the Decline of Science in England,” lines 601–640 from the internal historical source (blob fa52e41ab73566a13109a0a7aeaed3e895b41163). Next cursor: line 641. This was a separate historical reading break, not physics research. Last full FIE review remains 2026-10-27; the 14-day threshold is not due.
+
+### Next cursor
+
+1. Recover raw role/timestamp metadata for the AHA transcript and the exact first Klein Fabric construction.
+2. Decide from source, not analogy, whether the current fabric is a 2D base, 3D shell, or the resolving timesheet itself.
+3. Recover the exact October 17 BR-006 originating message; do not substitute the Slow Glass conversation.
+4. Recover the original Whirligig/Analemma correction and preserve code-version split.
+5. Only after the object and maps are source-defined, formalize the selected composition and connect it to a real measured system.
+6. Keep J3-to-J2 blocked until the current/vector field and source-defined current are established.
+
+The current :36 automation run remained recorded in_progress at the last scheduler readback, with chat_ref null. Its latest_result still belonged to the previous Mercer run; no historical Aster instance or cross-thread delivery is claimed.
