@@ -45,6 +45,7 @@ import HsHVerification.OrsonP1EndpointChange
 import HsHVerification.OrsonP1PeerMajorityAlignment
 import HsHVerification.OrsonSharedRecordIdentifiability
 import HsHVerification.OrsonFinitePatternDistribution
+import HsHVerification.OrsonKishEffectiveSampleSize
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
