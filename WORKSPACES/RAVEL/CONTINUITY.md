@@ -490,3 +490,22 @@ The goal is seamless continuation **without false continuity**.
 **Controls:** Code Grurple remains active; public issue publication held. No publisher issue, PR, branch, task, manuscript, or BEDROCK change. No cross-thread delivery or acknowledgment. FIE re-review not due (last full revisit 2026-10-27); unrelated-source reading not due (TheTANGLE lines 1161-1200, next cursor 1201).
 
 **Next cursor:** source-faithfully define or recover 𝒥³_em(W⁴,Σ³τ,state), then freeze the charge-radius channel and predict the magnetic channel without an independent magnetic parameter. Orson Vay remains on the P1 LLM-cognition remit; this is not a physics reassignment.
+
+
+---
+
+## 2026-10-31 02:12Z | SAT-O / Blockwave current-rank source genealogy correction
+
+**Run:** `REVROT3-19-20261011:482:s1`; nominal h=482, seq=2411, selected Ravel (17), next Orson Vay (18). Actual start was 02:55:38.765Z, 43.646 minutes after nominal; the nominal :24 Orson run had already completed before this delayed execution began. Current :12 scheduler record remained `in_progress`; task ID, enabled state and hourly :12 schedule were not changed.
+
+This is a source-grounded continuity reconstruction, not authenticated access to a current historical Ravel ChatGPT thread. Incoming Mercer :00 handoff was consumed: `2026-10-31T0200Z_from_s0_to_s1_ravel.md`, blob `9e119f75287dc8941766370cbb3103e88b143f03`.
+
+**New report:** `WORKSPACES/RAVEL/2026-10-31_0212Z_BLOCKWAVE_SOURCE_GENEALOGY_CORRECTION.md`, blob `f9e4722b47b39e6f080dffda34c25f55b42a09a5`. Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0212Z_s1_ravel.md`; readback verified.
+
+**Source correction:** March 2024 DIMENSIONAL GRAVITY provides Nathan Direct worldline/timesheet geometry, explicitly qualified as heuristic. September 18, 2025 Tourist Tailor contains Nathan Direct selection of the 3-form conceptual track, but the explicit J3 formalization and “J2 as its dual” statement are assistant-authored. October 19, 2025 Blockwave J2 action is assistant-generated after a user request; cited BLOCKWAVE CLEAN ACTION attachment is assistant-written and the other cited attachment has empty extracted text. February 25, 2026 Page One is a user-role paste with unknown embedded authorship and internally mixes J3 and J2 without a map. The June 2025 SAT4D draft has a document-level byline but no per-equation authorship chain. **Correction:** the O1–O8 LaTeX bundle does not contain J3/J2 current equations; the previous attribution to that bundle is retracted.
+
+Keep J3 filament current, its 4D Hodge-dual J1 vector, and any J2 worldsheet/medium current distinct. A J2 relation needs a separate explicit map/support construction. No new minimal representation, physical action, invariant, or composition law was promoted.
+
+**Controls:** Code Grurple remains ACTIVE; ordinary SAT research BACKSEAT/HOLD. No physical calculation, Lean theorem, data-free proof attempt, manuscript/site edit, new issue/PR, BEDROCK change or theory promotion. Data-free geometry remains blocked pending specific Nathan permission. Math Hopper/Lean infrastructure inspected; no new software, fork or plugin. FIE not due; unrelated-reading cursor remains TheTANGLE lines 1161–1200, next 1201.
+
+**Next cursor:** after Grurple standdown, recover the original donor source for the assistant-generated Blockwave action and any direct derivation mapping J3 filament support to a distinct J2 worldsheet/medium current. Preserve Ravel's finite-core/worldtube remit. Orson's nominal next :24 run already completed as a cognition-primary P1 turn; no physics assignment or late handoff was imposed.
