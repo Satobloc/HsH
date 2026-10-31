@@ -143,3 +143,13 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Exact upstream actor-key overlap with the 19-name ring is 2/19 (`Sable`, `Meridian`); the sandbox-only Elias addition makes 3/19, not full-ring support. Remaining exact-key omissions are not repaired or aliased here.
 - Unrelated reading: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/TheTANGLE.txt`, lines 1691-1730; next cursor 1731. This is creative worldbuilding, not physics evidence.
 - Publisher issue #1180 / run #41252975086 remains `SUBMITTED_NOT_VERIFIED` at the last check; logs unavailable while running and no published artifact readback yet. Do not duplicate.
+
+
+### 2026-10-31T2324Z | Publication completion
+
+- Publisher issue #1180 completed successfully through existing v1 workflow run #41252975086 / job #124690159893.
+- Publisher comment #6550645284 confirms `PUBLISHED`.
+- Destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-complete-poc-actor-registry-sandbox-20261031t2324z-001.md`, blob `8994c88c96f2d2cc516b2b9e25ab91d53a83b0d4`, 3,049 characters.
+- SHA-256 independently recomputed from fetched destination: `e17a12cb78b1013ae5f7b33b6ae7d7a6f132f3ad1ce54800a7337cec513e1503`; exact match and readback verified.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2324Z_s2_elias_kern_AMENDMENT_01.md`.
+- Issue #985 remains the earlier coverage audit; #1180 is a distinct sandbox execution addendum, not a duplicate.
