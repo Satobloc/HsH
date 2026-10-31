@@ -139,3 +139,11 @@ No Alberr task or handoff assignment is issued. His workspace charter gives him 
 - Corrective change: carry the proof through Option (Nonempty (DisjointPrimaryOrigins ...)). New module blob 93103a37b305c896801e427b1835261e415f9709; new exact head 6ad1e1759643f181318848449fea4280ee459de1.
 - New exact-head run #41214066564 is QUEUED. Status remains LEAN_CI_PENDING until terminal success and theorem-specific axiom output are inspected.
 - Publisher issue #1156 is now PUBLISHED_VERIFIED: comment 6545248931; expected file retrieved; exact 2,355-byte content equals the issue payload; file blob eb95262ab6ca0a3ebbc52bff6b0ecdaa9312a20e; publisher SHA-256 6d8e2b0aea1157d16b492c56ad5d775922f3252b2bb666ac2403dabaa7fff750.
+
+
+## Amendment 02 | 2026-10-31T1521Z
+
+- The intermediate Nonempty repair was not compiled: run #41214066564 was cancelled during Lake dependency-manifest generation when the branch advanced. This is CANCELLED, not a compiler failure and not proof evidence.
+- Inspection caught that Lean's Nonempty wrapper is itself Prop-valued, so it would not satisfy Option's Type requirement. The latest repair makes DisjointPrimaryOrigins a data-carrying structure with explicit left/right origin identifiers, membership proofs, and a disjointness proof; Option now carries a Type-valued witness.
+- Latest module blob: 191929c381335488d280cfdd4faae1c4bba25e61. Latest exact branch head: ee673f74a5b61b3a497f19bf02cf46015a3385c4. Exact-head run #41214178623 is IN_PROGRESS; no success claim yet.
+- Latest observed comparison at 2026-10-31T1517Z: PR branch 54 commits ahead / 5110 behind main, diverged and not merge-ready.
