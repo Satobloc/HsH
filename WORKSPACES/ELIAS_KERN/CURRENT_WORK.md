@@ -120,3 +120,18 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1651–1690; next cursor 1691. FIE last full review 2026-10-27, <14-day threshold.
 - No physical calculation, LLM inference, human-subject session, Mersearch request, POC/production change, theory promotion, task/scheduler mutation, or cross-thread delivery.
 - Next: preserve candidate/promoted lifecycle as a design cursor; do not patch upstream POC without Track B review. Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND; no task or review requested.
+
+
+## 2026-10-31T2324Z | Complete-prototype Elias actor-registration sandbox test
+
+- Run key: `REVROT3-19-20261011:503:s2`; h=503; seq=2517; selected Elias Kern (index 9); next Nadir Voss (index 10, next slot s3). Deterministic routing only; no authenticated historical Elias thread.
+- Live HsH controls and Elias source/charter were reread. Main preflight head: `f2879c44d36a500ddd1b88b6c42364a77f29c9b7`; task graph remains the 2026-10-30 snapshot and was not edited.
+- Existing HSH_RESOURCES prototype source was reconstructed byte-for-byte; local Git blob SHA-1 matched upstream `49988a769389b2baf264a27d596ba7c3ff822b36`. Baseline self-test 7/7 PASS.
+- A complete local sandbox copy adds one explicit Elias actor mapping, one scenario, and six predicates. Patched self-test 13/13 PASS; all seven prior scenario outputs and candidate fail/pass outputs unchanged; unknown actor still KeyError; TOP lock and fresh-directive preemption preserved. Python 3.13.5.
+- Upstream HSH_RESOURCES source was not modified. No production workflow, scheduler, branch, PR, dependency, or theory change.
+- Durable report: `WORKSPACES/ELIAS_KERN/2026-10-31T2324Z_TRACKA_COMPLETE_POC_ELIAS_REGISTRY_SANDBOX_TEST.md`, blob `c5a9c0319d370da6afb2db2e5660e663b8e82caf`.
+- Reviewable patch: `WORKSPACES/ELIAS_KERN/2026-10-31T2324Z_ELIAS_ACTOR_REGISTRY_SANDBOX.patch`, blob `fb5c79eaa6bc92d9e0b4eeb34e61f27af0c4c0c1`.
+- Existing PR #951 exact-head run #41217344093/job #124584842355 was rechecked: SUCCESS, 8,950 jobs, 16 theorem-specific axiom outputs, zero `sorryAx` in the decoded log. No new Lean target.
+- Public addendum issue #1180 / submission `elias-tracka-complete-poc-actor-registry-sandbox-20261031t2324z-001`, expected SHA-256 `e17a12cb78b1013ae5f7b33b6ae7d7a6f132f3ad1ce54800a7337cec513e1503`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-complete-poc-actor-registry-sandbox-20261031t2324z-001.md`. Publisher run #41252975086 was IN_PROGRESS at this checkpoint; do not treat issue creation or green job alone as publication.
+- Optional Track A -> Track B context is in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2324Z_from_s2_elias_kern_to_trackb_sable_tern.md`; Sable and Tern inbox appends were independently read back. Repository delivery only; no ChatGPT-thread delivery/acknowledgment claimed.
+- Next cursor: await independent Track B classification before any controlling POC change. Sticky candidate/promoted lifecycle remains a separate unresolved design issue. Preserve Nadir's finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND; no switchboard task or response obligation.
