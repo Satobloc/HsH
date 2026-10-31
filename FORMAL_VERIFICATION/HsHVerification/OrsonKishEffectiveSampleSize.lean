@@ -30,17 +30,17 @@ def designEffect (k : ℕ) (rho : ℝ) : ℝ :=
   1 + ((k : ℝ) - 1) * rho
 
 /-- Kish effective sample size under the exchangeable design-effect model. -/
-def kishEffectiveSampleSize (k : ℕ) (rho : ℝ) : ℝ :=
+noncomputable def kishEffectiveSampleSize (k : ℕ) (rho : ℝ) : ℝ :=
   (k : ℝ) / designEffect k rho
 
 /-- Variance of the sample mean, written as the diagonal variance plus
 the k*(k-1) ordered off-diagonal covariance terms, divided by k^2. -/
-def exchangeableMeanVariance (k : ℕ) (variance rho : ℝ) : ℝ :=
+noncomputable def exchangeableMeanVariance (k : ℕ) (variance rho : ℝ) : ℝ :=
   variance * ((k : ℝ) + (k : ℝ) * ((k : ℝ) - 1) * rho) / (k : ℝ)^2
 
 /-- Variance of an independent sample mean with the same marginal variance
 and the effective sample size supplied by the Kish design-effect model. -/
-def independentEquivalentVariance (k : ℕ) (variance rho : ℝ) : ℝ :=
+noncomputable def independentEquivalentVariance (k : ℕ) (variance rho : ℝ) : ℝ :=
   variance * designEffect k rho / (k : ℝ)
 
 /-- Under equal marginal variance and a common off-diagonal correlation,
@@ -100,7 +100,8 @@ theorem designEffect_le_panelSize
   have hkR : (1 : ℝ) ≤ (k : ℝ) := by exact_mod_cast hk
   have hkm : 0 ≤ (k : ℝ) - 1 := by linarith
   have hmul : ((k : ℝ) - 1) * rho ≤ (k : ℝ) - 1 := by
-    have h := mul_nonneg hkm (1 - rho)
+    have h1 : 0 ≤ 1 - rho := by linarith
+    have h := mul_nonneg hkm h1
     nlinarith
   linarith
 
@@ -117,7 +118,7 @@ theorem kishEffectiveSampleSize_bounds
   constructor
   · unfold kishEffectiveSampleSize
     rw [le_div_iff₀ hdpos]
-    exact hdhi
+    simpa using hdhi
   · unfold kishEffectiveSampleSize
     rw [div_le_iff₀ hdpos]
     have hk0 : 0 ≤ (k : ℝ) := by positivity
