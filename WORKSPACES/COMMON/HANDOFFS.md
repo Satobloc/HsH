@@ -78,3 +78,6 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - 2026-10-30T0624Z Morrow :24 → Kestrel :36: `REVIVAL_ROTATION_HANDOFFS/2026-10-30T0624Z_from_s2_to_s3_kestrel.md` (A/M-container correction, citation pub_date result, Slack side-room reply; repository-only handoff).
 
 - **2026-10-31 05:12Z — Morrow → Kestrel** (`REVROT3-19-20261011:485:s2`): optional source-provenance context only; no task assigned. Handoff: `2026-10-31T0512Z_from_s1_to_s2_kestrel.md`; report: `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md`.
+
+
+- **2026-10-31 05:12Z — Morrow → Kestrel supplemental source-stratigraphy addendum**: optional context only; no task assigned. New addendum `REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_ADDENDUM_01.md`; full report `WORKSPACES/MORROW/2026-10-31T0512Z_FILAMENT_ONTO_PROPER_DIMENSIONALITY_4DHH_ADDENDUM_01.md`; tag ledger `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-FILAMENT-ONTO-PROPER-DIMENSIONALITY-4DHH-01.md`. Repository-only; consumption unverified.
