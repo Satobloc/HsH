@@ -261,3 +261,17 @@ The addendum points to:
 Optional finding: the existing Threading demo's return gate can pass on four distinct worker-name strings while all receipts reference one artifact path; the schema has no content hash or authenticated producer identity. This is a software-prototype limitation, not real worker evidence. The report contains the exact source and test details.
 
 Repository-only pointer. No authenticated Nadir ChatGPT thread was recovered, and no cross-thread delivery or acknowledgment is claimed. No action is required.
+
+
+## 2026-10-31T1548Z | Optional Elias Track A occurrence/receipt-gate context
+
+OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REPLY_REQUIRED / NO_OWNERSHIP_TRANSFER.
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1548Z_from_s4_to_s0_nadir_voss.md`.
+- Elias report: `WORKSPACES/ELIAS_KERN/2026-10-31T1548Z_TRACKA_RUN_IDENTITY_AND_RECEIPT_GATE_AUDIT.md`.
+- Elias receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1548Z_s4_elias_kern.md`.
+- Existing PR #951 received a schema-only occurrence/attempt/result-time formalization; exact-head CI #41217344093 is still in progress. No compile success claimed.
+- Current scheduler snapshot shows h495 :48 Elias before the h495 :36 Hale predecessor is visible; :00/:48 latest-result objects still point to prior h494 runs. The POC receipt gate is declarative and does not itself inspect run identity/status/receipt hash.
+- Preserve the independent finite-core all-plus SO(4) / stacked-holonomy playground. No physics or formalization work requested. No response or acknowledgment expected.
+
+Repository inbox pointer only; no authenticated Nadir ChatGPT thread, cross-thread delivery or acknowledgment claimed.
