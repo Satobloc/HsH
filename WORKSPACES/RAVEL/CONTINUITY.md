@@ -561,7 +561,7 @@ Mersearch lane 1 and lane 3 have request-scoped manifests and compact receipts; 
 
 Unrelated reading advanced: TheTANGLE.txt lines 1201-1240. Next cursor: 1241.
 
-Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with original hourly :12 America/New_York schedule. No task or schedule edit. Current run remained in progress at final observation.
+Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with original hourly :12 America/New_York schedule. No task or schedule edit. Final scheduler peek records the h501 :12 run completed at 22:23:41.686003Z (scheduled 21:12Z; started 22:12:17.759535Z). Task remains enabled on the original hourly :12 America/New_York schedule; no task or schedule edit.
 
 
 ### 2026-10-31T2112Z receipt amendment 01
