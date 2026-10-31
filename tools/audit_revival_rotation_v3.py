@@ -45,7 +45,7 @@ KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
 HEADING = re.compile(r"^\s*(#{2,3})\s+(.+?)\s*$")
-TITLE_STAMP = re.compile(r"\d{4}-\d{2}-\d{2}T\d{4}Z")
+TITLE_STAMP = re.compile(r"\d{4}-\d{2}-\d{2}T\d{4}Z", re.I)
 
 def field_name(value):
     return value.strip().lower().replace(" ", "_").replace("-", "_")
@@ -125,7 +125,7 @@ def canonical_identity(value):
         return None
     raw = re.sub(r"[*`]", "", value.strip()).strip()
     for name in sorted(RING, key=len, reverse=True):
-        if raw == name or re.match(rf"^{re.escape(name)}(?=$|[\s,(\-—])", raw):
+        if raw == name or re.match(rf"^{re.escape(name)}(?=$|[\s,.(\-—])", raw):
             return name
     return raw
 
