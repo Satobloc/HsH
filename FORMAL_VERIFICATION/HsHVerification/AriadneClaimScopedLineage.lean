@@ -75,8 +75,10 @@ def DisjointOrigins (left right : OriginSet) : Prop :=
 /-- A positive independence witness requires both primary-origin sets to be
     nonempty and disjoint. An absent/empty record is not positive evidence. -/
 structure DisjointPrimaryOrigins (left right : OriginSet) where
-  leftNonempty : left.Nonempty
-  rightNonempty : right.Nonempty
+  leftOrigin : Nat
+  rightOrigin : Nat
+  leftOriginPresent : leftOrigin ∈ left
+  rightOriginPresent : rightOrigin ∈ right
   disjoint : DisjointOrigins left right
 
 inductive ClaimLineageStatus where
@@ -94,7 +96,7 @@ structure ClaimLineageEvidence
   scope : ClaimScope
   sharedCore : Option (SharedCoreClaim core scope)
   disjointPrimaryOrigins :
-    Option (Nonempty (DisjointPrimaryOrigins leftOrigins rightOrigins))
+    Option (DisjointPrimaryOrigins leftOrigins rightOrigins)
 
 def classify {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins) : ClaimLineageStatus :=
@@ -103,6 +105,14 @@ def classify {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
   | some _, none => .dependent
   | none, some _ => .independent
   | none, none => .unresolved
+
+theorem disjoint_origin_witnesses_are_nonempty_and_disjoint
+    {leftOrigins rightOrigins : OriginSet}
+    (w : DisjointPrimaryOrigins leftOrigins rightOrigins) :
+    leftOrigins.Nonempty ∧ rightOrigins.Nonempty ∧
+      DisjointOrigins leftOrigins rightOrigins := by
+  exact ⟨⟨w.leftOrigin, w.leftOriginPresent⟩,
+    ⟨w.rightOrigin, w.rightOriginPresent⟩, w.disjoint⟩
 
 theorem classify_independent_iff
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
@@ -128,7 +138,7 @@ theorem independent_requires_disjoint_primary_origins
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins)
     (h : classify e = .independent) :
-    ∃ witness : Nonempty (DisjointPrimaryOrigins leftOrigins rightOrigins),
+    ∃ witness : DisjointPrimaryOrigins leftOrigins rightOrigins,
       e.disjointPrimaryOrigins = some witness := by
   have h' := (classify_independent_iff e).mp h
   cases hd : e.disjointPrimaryOrigins with
