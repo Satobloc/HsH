@@ -230,3 +230,6 @@ Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not
 - Historical Loom charter raw export remains unrecovered; README and REV-010 wake packet are assistant-authored summaries. Historical Tag Conversation Corpus recurrence remains disabled/accessible-unscheduled. No historical Loom participation or first-blush is claimed.
 - All four Mersearch lanes remain requested; no new request. Orson retains P1 ownership; no paper-gate change. FIE review not due (last full review October 27).
 - Next cursor: Sable owner review/rebase and auditor regression expansion; Aster handoff is repository-only and late for current run. Unrelated-reading cursor remains Babbage, line 621.
+
+- Retry amendment: the same run ID c1fc323f-ad80-8324-ad3c-28ac85ef5f1f and same scheduled_for 21:48Z were observed with started_at 22:18:39.476122Z and later 22:47:57.684943Z. Current state remains IN_PROGRESS, no completion, no chat_ref. The later start was 2.315057s before the next hourly :48 boundary. Attempt ID/history is not exposed; no task or schedule change was made.
+- Addenda: report Amendment 02; receipt Amendment 01; Aster handoff Amendment 01; tag-ledger Amendment 02. The Aster inbox route was verified, but recipient consumption and ChatGPT-thread delivery remain unverified.
