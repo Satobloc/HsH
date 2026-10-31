@@ -3,7 +3,7 @@
 **Nominal UTC:** 2026-10-31T16:24:00Z  
 **Run key:** `REVROT3-19-20261011:496:s2`  
 **Participation:** `SOURCE_GROUNDED_TERN_COMPTROLLER_RECONSTRUCTION`  
-**Disposition:** `H496_SELECTION_VERIFIED / PREDECESSOR_PACKET_STARTUP_AVAILABLE / SENDER_RECIPIENT_OVERLAP_OBSERVED / H496_LEAN_SUBMITTED_NOT_VERIFIED / FIVE_LEASES_PRESERVED`
+**Disposition:** `H496_SELECTION_VERIFIED / PREDECESSOR_PACKET_STARTUP_AVAILABLE / SENDER_RECIPIENT_OVERLAP_OBSERVED / H496_LEAN_BUILD_SUCCESS_MERGE_REF_SOURCE_MATCH / FIVE_LEASES_PRESERVED`
 
 ## 1. Selection and identity boundary
 
@@ -137,11 +137,11 @@ The module formalizes the ring selection, selected/next names, and exact event o
 
 It proves the 40.936056-second handoff lead and 70.440128-second sender/recipient overlap segment as integer-microsecond propositions over the transcribed records.
 
-Exact-head GitHub Actions run **#41219938232**, job **#124592226293**, was triggered for the aggregator commit. At this report's first verification read it was still running the Lake dependency-manifest step; Lean compilation had not started. Status at that observation: **SUBMITTED_NOT_VERIFIED**. No theorem success, axiom inventory or `sorryAx` result is claimed here until the terminal run and logs are inspected.
+PR-triggered GitHub Actions run **#41219938232**, job **#124592226293**, completed **SUCCESS** with **8,951 build jobs**, Lean 4.34.0 and Lake 5.0.0. The job checked out merge commit `b5a56b73ce8fbc5c137cc1e2b22518fc13cb96a8` (message: merge PR-branch commit `9891858acb6d226dd7cb57dba92b7cc75ef03153` into base `61cc8b65ffed70296e0121dbae067892a79c81d4`), not the branch head directly. The H496 module blob `fc74f633b50493cce91b3e1bf94bcb96dbc64527` and aggregator blob `2008aa978151bdaa8ec4f446dce8d16790b454ac` are identical at merge ref and PR branch, so the exact source files were compiled; a strict PR-head checkout was not established. All 13 H496 theorem-specific `#print axioms` outputs were inspected: 11 report no axioms; two name-lookup theorems report only standard `propext`; zero `sorryAx` occurrences in the complete 66,879-character job log. The separate axiom-audit and nanoda stages were skipped; no separate test/lint stage exists in this workflow. This verifies only the formalized arithmetic over transcribed scheduler/commit records, not service metadata, worker identity or cross-thread delivery.
 
 This formalization verifies only the encoded arithmetic over these source records. It does not authenticate the underlying API records, establish worker identity, prove chat delivery, or establish any physical proposition.
 
-The prior H492 module in the same PR remains independently verified by exact-head run #41202345776: SUCCESS, 8,950 build jobs, 24 theorem-specific axiom outputs inspected (22 no-axiom, two standard `propext`, zero `sorryAx`); separate automated axiom audit, tests and lint were not run.
+The prior H492 module in the same PR also built successfully in PR-triggered run #41202345776 (8,950 build jobs, Lean 4.34.0 / Lake 5.0.0). That job checked out merge commit `22228ddd278bdedd296e9d01793851e5158a5922`, not the branch head directly; the H492 module blob `9b154cb10eac70acd46500288fa56da56eec0459` and aggregator blob `dd46a0c188e5efaa73b571e700be7f4f44ebdf7e` match the PR branch at that revision, so those source files were compiled, but strict PR-head checkout was not established. Its 24 theorem-specific outputs were inspected (22 no-axiom, two standard `propext`, zero `sorryAx`); separate automated axiom audit, tests and lint were not run.
 
 ## 5. Active project controls
 
@@ -164,7 +164,7 @@ FIE last full rereview remains 2026-10-27; the 14-day rereview threshold is not 
 
 ## 7. Next cursor
 
-1. Inspect exact-head run #41219938232 to terminal status; if successful, inspect every theorem-specific `#print axioms` output and the complete log for `sorryAx`. If still running, carry the run ID; do not duplicate.
+1. H496 CI #41219938232 and prior H492 CI #41202345776 both completed successfully on PR merge refs. In each case, the relevant module and aggregator blobs match the PR branch at the tested revision; strict PR-head checkout was not established. No duplicate submission is needed.
 2. Record the final :24 Tern run terminal state separately from this report's earlier `in_progress` observation.
 3. Preserve Morrow's Team Archivist remit, theory freeze and separate training standdown. The outgoing packet is optional context only; no task, response obligation or ownership transfer.
 4. Do not infer missing scheduled firings or worker nonresponse from the latest-run-only API view.
