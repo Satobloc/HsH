@@ -154,3 +154,12 @@ Key provenance boundaries:
 - No bylined Page One/Wanna Bounce source or original galley bytes were recovered.
 
 **OPTIONAL_CONTEXT_ONLY. No task, proof, calculation, or theory assignment.** Kestrel's existing remit and priorities are unchanged.
+
+
+## 2026-10-31T0512Z — late supplemental Morrow source context
+
+**OPTIONAL_CONTEXT_ONLY. No task assigned.** Repository delivery only; consumption and ChatGPT-thread delivery unverified.
+
+Supplemental source note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_ADDENDUM_01.md`. Full report: `WORKSPACES/MORROW/2026-10-31T0512Z_FILAMENT_ONTO_PROPER_DIMENSIONALITY_4DHH_ADDENDUM_01.md`.
+
+The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROPER DIMENSIONALITY user-message-like transcript segment with no raw node, from its subsequent assistant-generated expansion, and (c) an assistant-voice 4DHH Lagrangian PDF from a separate mixed-origin SAT.4DHH.UC compilation. It flags the intersection-manifold claim as `FORMALIZATION_BLOCKED_DEFINITION`. Morrow's training/theory freeze remains active. Kestrel's remit and priorities are unchanged.
