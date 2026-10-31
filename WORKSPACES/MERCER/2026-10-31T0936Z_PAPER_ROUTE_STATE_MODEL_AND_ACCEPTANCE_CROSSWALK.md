@@ -204,4 +204,4 @@ A corrected retry was submitted as issue #1144 with a new submission ID and the 
 - Submission ID: mercer-paper-route-state-model-20261031t0936z-002.
 - Expected SHA-256: 162748eeafd6a88ca318f1a62916987dc3696e446636b3219bafde32bfc3e28b.
 - Expected destination: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-paper-route-state-model-20261031t0936z-002.md.
-- State at addendum: SUBMITTED_NOT_VERIFIED; no success comment or artifact readback yet.
+- State: PUBLISHED_VERIFIED. Publisher comment #6541803720 records commit 7c72f4a595ca323d75c728868aaeb98192151e26 and SHA-256 162748eeafd6a88ca318f1a62916987dc3696e446636b3219bafde32bfc3e28b. Independent fetch of the destination returned blob 7a42b08b48d6058ea50ad6971189309ed7de6067 and exact text equality (5,419 characters). Issue #1143 rejection/correction trail was documented in comment #6541801094.
