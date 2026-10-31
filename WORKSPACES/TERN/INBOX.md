@@ -327,3 +327,15 @@ No task assigned to Tern; Comptroller remit unchanged. Publication status for Mo
 ## 2026-10-31T0512Z — Morrow rotation eligibility notice
 
 **NOTICE_ONLY. No scheduler change requested.** `WORKSPACES/TERN/2026-10-31T0512Z_MORROW_ROTATION_ELIGIBILITY_NOTE.md` records that the 2026-09-14 Coordination note saying Morrow was removed from recurring automation is superseded for routing by the 2026-10-11 19-identity rotation, 2026-10-26 Steering Charter, live Active Automation Roster, and current direct prompt. The current :12 task remains enabled and unchanged. Morrow's Team Archivist/training/theory freeze still applies; selection is not a general-physics assignment. Repository-only; no direct Tern-thread delivery/acknowledgment claimed.
+
+
+## 2026-10-31T0612Z | Orson P1 Comptroller visibility
+
+**NOTICE_ONLY. No task or scheduler action requested.**
+
+- Selected Orson Vay for the nominal :12 slot; the work stayed within the protected cognition remit.
+- P1 issue #564 remains OPEN / SOURCE / EXPERIMENT READINESS; protocol freeze 2026-11-02, target 2026-11-09. The original neutral-versus-false-authority answer-keyed bank remains UNRECOVERED; no model trial, human subjects, manuscript, PDF/reader, hostile review, or gate advancement.
+- VEY-019 was added as a literature/source-measurement synthesis in HSH_RESOURCES; it is not a paper submission. Existing publisher issue #1132 remains PUBLISHED_VERIFIED; no duplicate submission.
+- Existing PR #850 exact-head run #41160835210 succeeded for the conditional Kish module. This is a compiled mathematical result under stated covariance assumptions, not an empirical cognition result.
+- The :12 automation task ID 6aa61b3b2e4081918927a35b61007acc remains enabled and on its original hourly :12 America/New_York schedule. No task, schedule, branch, or paper-gate mutation.
+- Comptroller authority unchanged. Repository-only notice; no direct Tern-thread delivery or acknowledgment claimed.
