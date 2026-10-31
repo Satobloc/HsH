@@ -70,9 +70,9 @@ These are distinct contexts without a recovered derivation connecting them. The 
 
 ### SAT-O O1/O3/O4 and the derivation-control contradiction
 
-- O1: `SATOBLOC/SAT O1 4D.txt`, blob `7577aa...`, unbylined.
-- O3: `SATOBLOC/SAT O3 4D.txt`, blob `589219...`, unbylined.
-- O4: `SATOBLOC/SAT O4 4D.txt`, blob `324628...`, unbylined.
+- O1: `SATOBLOC/SAT O1 4D.txt`, blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, unbylined.
+- O3: `SATOBLOC/SAT O3 4D.txt`, blob `589219f60a8102cf7b07791b94fcdcd119e9bb8c`, unbylined.
+- O4: `SATOBLOC/SAT O4 4D.txt`, blob `32462848d9927619624928df3a1df35feb0f126d`, unbylined.
 - Combined O1-O8 bundle: blob `f351fdb9518c9f98aa8b0f5f3485ec3e9c39d6fb`, exact duplicate at three archive paths. It contains no J2/J3 current construction.
 
 O1 uses ℝ^{3,1}, a one-parameter filament curve, and a 4D “worldtube” volume without defining the thickening map. O3 asserts Hopf/Borromean and higher-order linking claims in 4D without specifying the actual embedding dimension or a derivation. O4 states a stability limit for n≥4 hadrons without an accompanying empirical dataset in the module.
