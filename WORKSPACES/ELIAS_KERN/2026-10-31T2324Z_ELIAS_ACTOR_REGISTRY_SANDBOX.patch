@@ -1,0 +1,59 @@
+--- a/tools/workflow_switchboard_demo.py
++++ b/workflow_switchboard_demo_elias_sandbox.py
+@@ -51,6 +51,16 @@
+     "Sable": {
+         "workspace": "HsH/WORKSPACES/SABLE",
+         "rules": ["continuity/system coherence", "preserve distinct identities"],
++    },
++    "Elias Kern": {
++        "workspace": "HsH/WORKSPACES/ELIAS_KERN",
++        "rules": [
++            "prototype operation/documentation only",
++            "observe actual behavior before interpretation",
++            "transfer-test before sticky/global promotion",
++            "no independent production-workflow authority",
++            "no SAT/H(s)H theory authority",
++        ],
+     },
+ }
+ 
+@@ -191,6 +201,7 @@
+     "capability_awareness": ("Comptroller", "theory_workbench", {"tags": ["blocked", "capability", "tool", "plugin"], "requires": ["multi_page_crawl"]}, {"directives": [], "blockers": ["missing dedicated crawl primitive"]}),
+     "nested_learning": ("Orson Vey", "playground", {"tags": ["learning", "continuity"], "hydra_depth": 0}, {"directives": []}),
+     "lease_receipt_gate": ("Comptroller", "theory_workbench", {"tags": ["temporary_lease"]}, {"directives": []}),
++    "elias_registry": ("Elias Kern", "epistemic_locker", {"tags": ["continuity", "capability"]}, {}),
+ }
+ 
+ @dataclass
+@@ -328,6 +339,12 @@
+     c = run("comptroller_math"); o = run("orson_math")
+     f = candidate_scenario(False); p = candidate_scenario(True)
+     r = run("lease_receipt_gate"); n = run("nested_learning")
++    e = run("elias_registry")
++    unknown_rejected = False
++    try:
++        Switchboard().wake("Unknown Actor", "epistemic_locker", {"tags": []})
++    except KeyError:
++        unknown_rejected = True
+     return {
+         "directive_preempts": m["wake"]["next_operation"] == "incorporate_fresh_directive",
+         "war_room_first": m["wake"]["source_routes"][0] == "war_room",
+@@ -336,6 +353,18 @@
+         "passed_candidate_papers": {"prediction_packet", "paper_pipeline"}.issubset({x["job"] for x in p["hydra"]["spawn"]}),
+         "lease_has_receipt_gate": {"verify_durable_output_receipt", "restore_displaced_lease"}.issubset({x["job"] for x in r["hydra"]["spawn"]}),
+         "nested_depth_present": any(x.get("depth") == 1 and x["job"] == "perform_bounded_work" for x in n["hydra"]["spawn"]),
++        "elias_workspace_is_explicit": e["wake"]["workspace"] == "HsH/WORKSPACES/ELIAS_KERN",
++        "elias_source_routes_are_scoped": e["wake"]["source_routes"] == ["instance_workspaces", "capability_directory"],
++        "elias_fresh_directive_still_preempts": e["wake"]["next_operation"] == "incorporate_fresh_directive",
++        "unknown_actor_still_fails_closed": unknown_rejected,
++        "top_remains_locked": TOP["mutation"] == "locked",
++        "elias_authority_limits_present": all(
++            rule in e["wake"]["active_rules"] for rule in [
++                "prototype operation/documentation only",
++                "no independent production-workflow authority",
++                "no SAT/H(s)H theory authority",
++            ]
++        ),
+     }
+ 
+ def main() -> None:
