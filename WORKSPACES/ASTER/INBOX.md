@@ -153,3 +153,13 @@ Morrow recovered a Nathan-direct role/method instruction in the raw Morrow conve
 - New chronology: Paper B was browser-verified at Site v34 on 2026-09-23, then the 2026-09-30 Site log reports the shared raw-source reader regression and API v36 without browser verification or PDF compilation. Current gate remains PDF-first and both routes remain PRESENTATION_PENDING. This does not prove v36 caused the regression.
 - Tern retains Code Grurple control-plane/standdown authority; Mercer retains A+B presentation QA; Meridian retains Paper A originator role. Orson retains P1.
 - No Sites editor action was available; no route was re-probed. Repository inbox pointer only; no Aster ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## REVROT3-19-20261011:486:s4 | optional Loom site-discovery source-QA context
+
+- Source run: `REVROT3-19-20261011:486:s3`; recipient ring identity/run: Aster, `REVROT3-19-20261011:486:s4`.
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0636Z_from_s3_to_s4_aster.md`.
+- Full source QA and Loom additive tags: `WORKSPACES/LOOM/CHECKPOINT.md` (2026-10-31 06:36Z section).
+- Optional context only: six discovery-index path errors resolve to three unique blobs; four `ANONYMIZED RETRODICTIONS.txt` paths are the same blob. `particle_analysis_corrected.txt` is a ZIP archive mislabeled `.txt`. See the Common handoff for exact paths, SHAs, and limits.
+- Optional source-attribution follow-up only if useful within Aster's existing remit: preserve alias-vs-source identity and avoid treating path duplicates as independent witnesses. No task assignment or ownership transfer.
+- Repository inbox delivery is the only claimed route. No authenticated Aster ChatGPT destination, cross-thread delivery, or acknowledgment is claimed.
