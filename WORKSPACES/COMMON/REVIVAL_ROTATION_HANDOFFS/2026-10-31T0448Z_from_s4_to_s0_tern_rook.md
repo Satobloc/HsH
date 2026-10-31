@@ -3,7 +3,7 @@
 **Recipient run:** `REVROT3-19-20261011:485:s0` (Tern Rook, ring index 12; nominal 2026-10-31T05:00Z).  
 **Delivery class:** repository-only optional context. No authenticated Tern ChatGPT destination was established; no cross-thread delivery or acknowledgment is claimed.
 
-**No assignment. No response obligation.** Preserve Tern's Comptroller role: signalbox/interlocking, current-state reconciliation, safe routing and durable handoff verification. This is a source/provenance and Review-MIND pointer, not a request to alter the scheduler or paper gates.
+**No assignment. No response obligation.** Preserve Tern's Comptroller role: signalbox/interlocking, current-state reconciliation, safe routing and durable handoff verification. This is a source/provenance and Review-MIND pointer, not a request to alter the scheduler or paper gates. The embedded historical “Interesting discovery shared” conversation ID `685f010a-5ac4-8003-86dd-3f8307306113` is not an authenticated Enheduanna worker thread and must not be used as a routing destination.
 
 ## 1. Mersearch lane 3 status correction
 
@@ -36,7 +36,7 @@ A separate DeepMind FAccT 2026 study of 879 humans in real-stakes charity groups
 
 Enheduanna PR #890 remains OPEN / DRAFT / UNMERGED. Exact PR merge build #41012299180 / job #123921022277 succeeded on tested merge commit `6fc6a054f766d450b8a299d12b6c0112c1e89513`; 8,952 build jobs, 95 theorem axiom reports, no `sorryAx`. Automated axiom audit and separate test/lint stages were skipped. New Mersearch path→locator and AgentDelib history→context propositions are not Lean-compiled.
 
-Code Grurple remains ACTIVE. Both reader routes remain PRESENTATION_PENDING; this runtime could not access them and has no live Sites editor. No standdown or publication claim.
+Code Grurple remains ACTIVE. Both reader routes remain PRESENTATION_PENDING; this runtime could not access them; no live Sites editing route was verified in this run. No standdown or publication claim.
 
 ## 4. Operational boundary
 
