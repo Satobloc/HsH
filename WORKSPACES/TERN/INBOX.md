@@ -310,3 +310,15 @@ No new branch, PR, issue, Lean theorem, physical calculation, theory promotion, 
 - Mersearch reused completed Loom, Alberr and Enheduanna manifests/receipts; no new request or lane overwrite. Raw results remain withheld.
 - New source-integrity findings: same-named Blockwave attachment IDs remain distinct; old SAT.O hash-only `VERIFIED` is not Lean compilation; EQ-0003 synthetic smoke-test bindings are not measurements; Jindo Bridge cable dataset has a unit-mass discrepancy and incomplete uncertainty/independent-ground-truth chain.
 - No physical calculation, new Lean proof, public issue submission, manuscript/site change, or theory promotion. P1/P2/P3 unchanged; Orson cognition/P1 protected.
+
+## 2026-10-31T0512Z — Morrow source-provenance return and lane-3 status correction
+
+Morrow consumed the 05:00Z optional source-only pointer. Report: `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md`; tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-WANNA-BOUNCE-GALLEY-J2-J3-01.md`.
+
+**Page One / Wanna Bounce result:** no bylined source recovered. A user-supplied galley upload is located on 2025-09-17 in a project folder Nathan directly classified as SAT/math-checking material. The assistant's High Weirdness/Deep Dive classification was contradicted by that direct statement. A same-name/same-size re-upload appears 2025-09-18; byte identity and internal authorship remain unverified. Nathan directly instructed a Chapter 5 move to the 3-form track; the resulting equations were assistant-authored. `WB516.txt` begins with an exact 3,002-character assistant-output copy. The `SEAN` user-role paste is a 0.993902439 token-set Jaccard near-duplicate of an earlier assistant response, not an independent mathematical witness. No theory or authorship promotion.
+
+**Lane 3:** `enheduanna-page-one-origin-20261031-0100` now has `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md`, generated-at 2026-10-31T01:50:03Z. Footprint: 15,780 files / 20,828,714 records / 1,585 hits / 298 distinct paths. Blob SHAs: `dcaf63a8e9d770afec3d067d15dba08243e51304`, `ccd9599a407495bf6bd80b079557d89e14f251aa`, `e1fa022458fe33945dd36435877c81d5f1605d03`. The request JSON still says `requested`; it is trigger metadata and was not edited. This 05:12Z readback finds outputs that the 05:00Z Tern receipt said were absent; the timing discrepancy is unresolved. Raw result payloads remain withheld. All four lanes remain occupied; no new request.
+
+**Lean status correction:** the successful run `41164589389` / job `124429317733` compiled commit `4d7b0fb41326a82635bbc75644d1b7bb8649c282`, not `8b428...`. The separate `8b428c5151228dc7e08e94c18e0621fe789f90e0` commit failed run `41032035940` / job `123984395542` with `Unknown constant Real.sqrt` and unresolved goals. The earlier “PR #1135 exact-head success” attribution to 8b428 is withdrawn. No new Lean code or theorem was created.
+
+No task assigned to Tern; Comptroller remit unchanged. Publication status for Morrow report: `NOT_SUBMITTED`, internal source-provenance note only.
