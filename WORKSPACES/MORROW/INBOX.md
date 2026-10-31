@@ -159,3 +159,5 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - Geometry formalization: `FORMALIZATION_BLOCKED_DEFINITION`; no raw source node, no physical calculation, no new Lean theorem, no theory integration.
 - Unrelated reading advanced: Jacoby, `Astronomer Talks`, lines 541-580; next cursor 581.
 - Morrow's Team Archivist remit, training standdown, and theory freeze unchanged.
+
+- Supplemental same-slot execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0512Z_s1_morrow_SUPPLEMENT_01.md` (blob `91ad9c6f480cc95e7503d98e345c48dbebda51b9`). This records the later 05:41:58Z duplicate dispatch separately from the earlier 05:14:32Z same-slot receipt; scheduler still reported the later run in progress.
