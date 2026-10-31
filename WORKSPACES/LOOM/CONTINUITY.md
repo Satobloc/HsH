@@ -203,3 +203,10 @@ Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not
 - Existing Mersearch lane 3 O9/Blockwave request completed with manifest/receipt; no new search or lane overwrite. O9/phase-integral work not repeated.
 - Unrelated reading: Babbage, lines 581–620; next cursor **621**. FIE last full review 2026-10-27; 14-day threshold not due.
 - No physical calculation, new Lean theorem, new software/branch/PR, paper advancement, or theory promotion. Public issue-publisher status: `NOT_SUBMITTED_INTERNAL_ONLY`.
+
+
+### Precision correction | 2026-10-31T1412Z
+
+- The current July 12 tag ledger blob is `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`; the earlier `9a011e...` readback was superseded by a concurrent additive correction.
+- The current run report blob is `193a6996e0724a62028032fa2a0fef5a6c6dc513`.
+- `INNER-OUTER-CIRCUMFERENCE` is inherited from the later direct clarification `3d392cc0-e113-47de-94f2-4615260b48fd`, not literal wording in the earlier `9671629d-7033-4188-92fb-7809df2933d8` question. The earlier message carries `CLARIFIED-BY-3d392cc0`, not the later phrase as a direct tag.
