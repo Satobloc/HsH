@@ -174,11 +174,69 @@ The source title in the Library filename is “Camps and Trails of Old China”;
 
 **Intersection classification.** Productive metaphor for attention to route constraints, but not a physical equivalence. The natural routes are not engineered traces.
 
+### Packet C: Camps and Trails in China, Chapter II, “China in Turmoil,” through Electron Paths in Chips
+
+**Source on its own terms.** The chapter follows the political crisis surrounding Yuan Shikai's attempt to restore monarchy, the loyalty structure of regional armies, provincial secessions, foreign pressure, and the expedition's decision to proceed despite instability. It then traces the expedition through a chain of access points: advice from the Chinese Minister in Washington, shipboard contacts, arrival in Peking, diplomatic and embassy contacts, rail travel to Shanghai, telegrams from the Anglo-Chinese College, passport visas, and onward travel to Fukien/Yunnan.
+
+**What the lens made salient.** The path-focused lens shifts attention from the physical route alone to institutional and logistical routing. Access depends on people, documents, transport modes, and shifting political authority. The expedition's path is a sequence of gates, permissions, and fallback contacts, not a single line on a map. The passport bearing overlapping stamps from the collapsing monarchy and the republic is a particularly concrete marker of a changing authority network.
+
+**What it obscured.** The engineered-path metaphor can make a contested political system appear deterministic. It can also underweight the agency of local actors, the violence behind the changing routes, and the author's own colonial and national framing. The text's descriptions of “face saving” and political character are the author's interpretation, not neutral system labels.
+
+**Source anomaly.** The chapter's printed chronology contains apparent year conflicts: it refers to a 1918 rebellion in a sequence otherwise describing 1915-1916 events, and its emperor/death dates do not reconcile cleanly on the page. This may be a transcription/OCR or source-text error. It is flagged, not silently corrected; an authoritative edition and independent historical source would be needed before using the dates.
+
+**Next inquiry induced.** Compare the route planned in Chapter I with the route actually taken here. Identify which gates were essential, which were bypassed, and how changing political authority altered the route. Check the apparent year conflicts against the original edition before relying on the chronology.
+
+**Small artifact.** A route-and-gate graph: New York planning -> Minister Koo advice (declined) -> Tenyo Maru -> shipboard contact with Denby -> Peking diplomatic network -> rail to Shanghai -> foreign concession / security -> Foochow college contact and telegram -> passport visa -> Fukien/Yunnan. Edges are ship, rail, cable, passport, official introduction, and local institutional contact.
+
+**Intersection classification.** Structural as a reading of the expedition's access architecture. No physical equivalence is asserted.
+
+### Packet D: The Malay Archipelago, Chapter II, “Singapore,” through Slow Walker
+
+**Source on its own terms.** Wallace presents Singapore as a port and island with a dense mixture of peoples, religions, occupations, buildings, vessels, trade, and hinterland activity. He then moves from the town to the interior hills, plantations, forest patches, tiger pits, and insect collecting. He reports collecting roughly 700 beetle species in about two months, including 130 longicorn kinds, largely from one patch of jungle of about one square mile. He attributes the richness partly to soil, climate, vegetation, and season, and partly to the continuing work of Chinese woodcutters, whose dead leaves, bark, wood, and sawdust supplied substrate for insects and larvae.
+
+**What the lens made salient.** Slow observation draws attention to the texture of the port, the transitions between town and interior, the repeated daily activities of workers and traders, and the fine-grained conditions of the collecting patch. The chapter's strongest small-scale observation is that human land use can create ecological substrate and concentrate biodiversity in a limited area.
+
+**What it obscured.** The slow observational lens can turn the city into a tableau and underweight the colonial hierarchy and racial categories through which Wallace describes its inhabitants. The workers' own perspectives are absent. The 700-species count and the explanation of the collecting patch are the author's field report and interpretation, not an independently reproduced survey or controlled causal test.
+
+**Next inquiry induced.** Compare collecting effort and species yield across different patches, seasons, and disturbance histories. Separate observed counts from the author's causal explanation. Ask how the town's social geography and its ecological geography overlap or diverge.
+
+**Small artifact.** A layered field note: harbor and town; trade and craft districts; cultivated interior; forest patch; woodcutting and sawdust; insect substrate; tiger habitat. The one-square-mile patch is a high-yield sample site, with the reported 700 beetle species recorded as an author observation requiring independent verification.
+
+**Intersection classification.** Structural as a reading of the field narrative and its local sampling conditions. No physical analogy is asserted.
+
+### Four-packet comparison: what persisted and what changed
+
+The four prescribed pairings are now represented:
+
+| Packet | Source | Lens | Primary salience |
+|---|---|---|---|
+| A | Camps and Trails, Ch. I | Slow Walker | Macro-scale terrain, gradients, reconnaissance design |
+| B | Malay Archipelago, Ch. I | Electron Paths | Geographic corridors, barriers, layered dispersal routes |
+| C | Camps and Trails, Ch. II | Electron Paths | Political/logistical gates, documents, access routes |
+| D | Malay Archipelago, Ch. II | Slow Walker | Fine-scale town/habitat texture, human disturbance, sampling |
+
+**Lens persistence across terrains.**
+- Slow Walker changed scale substantially: in Camps I it emphasized regional gradients and survey design; in Malay II it emphasized a small collecting patch and the texture of a port/hinterland. The persistent operation is slower attention to spatial detail, not one fixed spatial scale.
+- Electron Paths migrated from physical/biological corridors in Malay I to institutional/logistical access in Camps II. The persistent operation is attention to connectivity, bottlenecks, alternate routes, and constraints. The mechanisms differ: sea depth and dispersal are not the same kind of process as passports, diplomatic contacts, and transport.
+
+**Complementarity.** The lenses behave like two different reading controls: Slow Walker adjusts observational resolution; Electron Paths emphasizes connectivity and route constraints. Their combination can produce a layered description, but the combination itself is a post-exposure synthesis, not evidence that the source terrains share one underlying physical mechanism.
+
+**Vocabulary migration.** “Node,” “edge,” “network,” “corridor,” “bottleneck,” and “gate” are lens-added vocabulary. “Gradient,” “microhabitat,” “texture,” and “sampling patch” are Slow-Walker-added emphases. They must not be retroactively attributed to the authors unless the source uses them.
+
+**Distortions.**
+- Slow Walker can overprivilege visible detail and local morphology while underweighting power, institutional access, and historical causation.
+- Electron Paths can over-structuralize and imply engineered or fixed routes, obscuring contingency, change over time, and agency.
+- Both lenses can suppress the source's colonial framing if the reader treats the text as a neutral map rather than a situated historical account.
+
+**Order and persistence limits.** The sequence A-B-C-D was not randomized. No lens-removal retest was performed, so persistence after lens removal remains unmeasured. The second pair swaps lenses as prescribed, but this does not eliminate order effects.
+
 ### Baseline status
 
-Packets A and B use the prescribed first pairing and the same recording schema. The lens instructions and current book text were read from their Library sources. However, the run had already been exposed to live H(s)H source material before the raw Aldus baseline protocol was recovered. These packets are therefore **POST-EXPOSURE / NOT PRISTINE**. They must not be used as blinded evidence of independent reasoning or as a clean conditioning experiment.
+All four planned chapter/lens packets and the first cross-packet comparison are now complete as a **POST-EXPOSURE PILOT**. The original protocol's insulation condition was not met: live H(s)H source material had already entered the current run before the raw Aldus protocol was recovered. The outputs are therefore not a pristine blind baseline and must not be used as independent cognitive-divergence evidence.
 
-Packets C and D, which swap the lenses on the next chapters, remain uncompleted. No cross-comparison, persistence-after-lens-removal test, or order-effect conclusion is made. The historical protocol calls for Janus experimental-method review after all four packets are frozen.
+No direct SAT analogy was introduced in the four packet analyses. Nevertheless, prior exposure remains a contamination risk. A clean baseline would require a fresh, isolated context with the four packets completed before any live H(s)H material is introduced. The current run did not create a new chat or claim historical-instance participation.
+
+No cross-domain physical equivalence, posterior probability, or theory claim is inferred from the four packets. Janus method review remains the next gate before any comparison with other worker instances or live H(s)H material.
 
 ## 5. Continuity and controls
 
