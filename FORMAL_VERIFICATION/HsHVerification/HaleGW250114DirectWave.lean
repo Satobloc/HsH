@@ -2,6 +2,8 @@ import Mathlib
 
 namespace HsHVerification.HaleGW250114DirectWave
 
+noncomputable section
+
 /-!
 Source-derived conditional algebra for the direct-wave and rational-filter
 representations used in recent black-hole ringdown analyses.
@@ -67,6 +69,21 @@ theorem directWaveDecay_lt_twoKappa
   apply (div_lt_iff₀ hden).2
   nlinarith
 
+
+/-- Under the source model's timelike tortoise-coordinate bound β < 1,
+the instantaneous source damping is strictly below the Kerr surface-gravity
+scale κH. This is conditional on that model's definition of β. -/
+theorem directWaveDecay_lt_kappa
+    (β κH : ℝ)
+    (hβ : 0 ≤ β)
+    (hβ1 : β < 1)
+    (hκ : 0 < κH) :
+    directWaveDecay β κH < κH := by
+  unfold directWaveDecay
+  have hden : 0 < 1 + β := by linarith
+  apply (div_lt_iff₀ hden).2
+  nlinarith
+
 theorem directWaveDecay_reverse
     (β κH γ : ℝ)
     (hβ : 0 ≤ β)
@@ -94,38 +111,38 @@ theorem directWaveDecay_reverse
   exact hprod
 
 theorem norm_sub_conj_eq (x : ℝ) (z : ℂ) :
-    ‖(x : ℂ) - z‖ = ‖(x : ℂ) - Complex.conj z‖ := by
+    ‖(x : ℂ) - z‖ = ‖(x : ℂ) - star z‖ := by
   calc
     ‖(x : ℂ) - z‖ =
-        ‖Complex.conj ((x : ℂ) - z)‖ := by
+        ‖star ((x : ℂ) - z)‖ := by
           symm
           exact Complex.norm_conj _
-    _ = ‖(x : ℂ) - Complex.conj z‖ := by simp
+    _ = ‖(x : ℂ) - star z‖ := by simp
 
 theorem norm_add_conj_eq (x : ℝ) (z : ℂ) :
-    ‖(x : ℂ) + Complex.conj z‖ = ‖(x : ℂ) + z‖ := by
+    ‖(x : ℂ) + star z‖ = ‖(x : ℂ) + z‖ := by
   calc
-    ‖(x : ℂ) + Complex.conj z‖ =
-        ‖Complex.conj ((x : ℂ) + Complex.conj z)‖ := by
+    ‖(x : ℂ) + star z‖ =
+        ‖star ((x : ℂ) + star z)‖ := by
           symm
           exact Complex.norm_conj _
     _ = ‖(x : ℂ) + z‖ := by simp
 
 /-- One conjugate-paired factor of the rational all-pass filter. -/
 def rationalFilterFactor (x : ℝ) (z : ℂ) : ℂ :=
-  (((x : ℂ) - z) / ((x : ℂ) - Complex.conj z)) *
-    (((x : ℂ) + Complex.conj z) / ((x : ℂ) + z))
+  (((x : ℂ) - z) / ((x : ℂ) - star z)) *
+    (((x : ℂ) + star z) / ((x : ℂ) + z))
 
 theorem rationalFilterFactor_norm_one
     (x : ℝ) (z : ℂ)
-    (hminus : (x : ℂ) - Complex.conj z ≠ 0)
+    (hminus : (x : ℂ) - star z ≠ 0)
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
   rw [norm_mul, norm_div, norm_div]
   rw [norm_sub_conj_eq, norm_add_conj_eq]
   have hminusNorm :
-      ‖(x : ℂ) - Complex.conj z‖ ≠ 0 :=
+      ‖(x : ℂ) - star z‖ ≠ 0 :=
     (norm_pos_iff.mpr hminus).ne'
   have hplusNorm :
       ‖(x : ℂ) + z‖ ≠ 0 :=
@@ -139,7 +156,7 @@ def rationalFilter (x : ℝ) : List ℂ → ℂ
 
 theorem rationalFilter_norm_one (x : ℝ) :
     ∀ roots : List ℂ,
-      (∀ z ∈ roots, (x : ℂ) - Complex.conj z ≠ 0) →
+      (∀ z ∈ roots, (x : ℂ) - star z ≠ 0) →
       (∀ z ∈ roots, (x : ℂ) + z ≠ 0) →
       ‖rationalFilter x roots‖ = 1 := by
   intro roots
@@ -149,11 +166,11 @@ theorem rationalFilter_norm_one (x : ℝ) :
       simp [rationalFilter]
   | cons z zs ih =>
       intro hminus hplus
-      have hminusZ : (x : ℂ) - Complex.conj z ≠ 0 :=
+      have hminusZ : (x : ℂ) - star z ≠ 0 :=
         hminus z (by simp)
       have hplusZ : (x : ℂ) + z ≠ 0 :=
         hplus z (by simp)
-      have hminusS : ∀ w ∈ zs, (x : ℂ) - Complex.conj w ≠ 0 := by
+      have hminusS : ∀ w ∈ zs, (x : ℂ) - star w ≠ 0 := by
         intro w hw
         exact hminus w (by simp [hw])
       have hplusS : ∀ w ∈ zs, (x : ℂ) + w ≠ 0 := by
@@ -167,5 +184,7 @@ theorem rationalFilter_norm_one (x : ℝ) :
 #print axioms directWaveDecay_reverse
 #print axioms rationalFilterFactor_norm_one
 #print axioms rationalFilter_norm_one
+
+end
 
 end HsHVerification.HaleGW250114DirectWave
