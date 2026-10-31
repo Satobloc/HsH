@@ -131,7 +131,7 @@ Common receipt and Orson handoff/inbox delivery were blocked by safety checks; n
 The October 31 21:12Z run recovered additional Nathan Direct geometry statements and completed a real-data Fermilab E989 Minkowski reference-orbit control. See the 21:12Z report and its committed Python script, summary log, and full JSON output.
 
 Current source corrections:
-- Do not carry the 2025 O1 V_tension term forward as a native physical law. The later direct instruction explicitly rejects invented elastic modulus, filament tension, and microscopic spring constant.
+- The 2025 O1 V_tension term remains historical candidate material, not a promoted law. Meridian Free Build direct message 5a929b5e-515e-4f77-a32a-e49feef42812 (2026-10-09) rejects the assistant's blanket no-tension/no-spring summary; it says filament stiffness sets coil size and should be determined from precision momentum data under known force. Tension/stiffness is NOT forbidden; the specific constitutive law, units and measurement map remain unresolved. Do not treat V_tension as validated or assume its units.
 - Preserve the distinction between the 4D filament/coil and its 3D intersectional trace. The 1D O1 curve and later “4D filament” wording are not yet reconciled by a source-defined support dimension or thickening map.
 - The 3D timesheet/time-bulk is interactive. Geometric intersection/instantiation is not the physical interaction operator. Avoid “readout slices” as ontology; direct preference is instantiation/intersection/cobordism/truncation.
 - The induction-current connection within timesheet thickness remains a tentative direct hypothesis, not a recovered equation.
@@ -139,9 +139,9 @@ Current source corrections:
 
 The E989 calculation uses published measured NMR and electric-field-correction summaries. It gives a real-system centerline control, not a SAT prediction or finite-core/medium validation. At gamma=29.3, coordinate curvature with w=ct is 0.14044364 m^-1 and intrinsic Minkowski proper-time curvature is 120.56946 m^-1, a factor gamma^2=858.49. No elastic constant was introduced. No fit or independent prediction was claimed. Field-uncertainty and Ce-covariance limitations remain explicit in the report.
 
-Existing PR #1133 remains draft and unchanged. Its compiled target is a bare set-intersection formalization, not the physical timesheet interaction or worldtube thickening. The “MinimalCarrierReadout” name is legacy and should be considered for later renaming to intersection/instantiation terminology; no code change was made.
+Existing PR #1133 remains DRAFT / OPEN / UNMERGED and stacked on the Lean infrastructure base. Its original set-intersection/non-injectivity theorem remains a bare set-level formalization, not the physical timesheet interaction or worldtube thickening. This run added RavelCouplingDimensionalAudit.lean to the same branch. First coupling-audit CI run #41246472518 failed at the right-hand division lemma; corrected commit c606afa2d8405319f86a4a4d6bbb6e98e9e8e946. Successful run #41246994835, job #124672375521, compiled the corrected module on merge ref 8b21842daeb7040bf1d4f3d7be7b08f09d7fe589; module and aggregator blobs matched the PR branch. Lean 4.34.0 / Mathlib v4.34.0, 8,945 jobs. Three SI dimension theorems report no axioms; two conditional algebraic theorems report propext, Classical.choice and Quot.sound; no sorryAx. Tests, lint, nanoda and separate automated axiom-audit were skipped. The PR body was updated with source/CI corrections; do not merge or promote.
 
-Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; not due. Unrelated reading: TheTANGLE.txt lines 1201-1240; next cursor 1241.
+Mersearch lane 1 and lane 3 have request-scoped manifests and compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. Lane 3 request JSON still says requested; its manifest/receipt are execution evidence. No new request, overwrite or retry. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; not due. TheTANGLE lines 1201-1240 remain the last completed chunk; next cursor 1241. Alternate unrelated reading completed: fun break - lx.txt lines 141-180; next cursor 181.
 
 Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the original hourly :12 America/New_York schedule. No task or schedule edit. Current run was still in progress at final observation.
 
@@ -167,3 +167,18 @@ Durable follow-up pointers:
 - Ravel receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_02.md`, final blob `007792a9dd45e66216748541752679423cb73d12`.
 - Tern Comptroller notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
 - Tern inbox append: verified at blob `75b54ccdfacd35ae1f96272078f3efcb33731828`; repository delivery only, no ChatGPT-thread delivery or acknowledgment.
+
+
+## 2026-10-31T2142Z — source, normalization and coupling supplement
+
+Detailed records:
+- Source report: WORKSPACES/RAVEL/2026-10-31T2142Z_BIG_PAPER_SOURCE_STRATIGRAPHY_AND_COUPLING_SCALE_AUDIT.md (blob 10db16eed6b616e8f4d16413e2b1baee2c49295d).
+- Normalization/geometry supplement: WORKSPACES/RAVEL/2026-10-31T2142Z_DIMENSIONAL_NORMALIZATION_AND_GEOMETRY_ENGINE_SUPPLEMENT.md (blob c6e9c4df34dc17e4a1a6b3e76531d103ba61fd4a).
+
+The September 9 dimensional-normalization PDF (SHA-256 14ecb786e2659adf227c9455e048e79ff43774574a3d9b10711613af69208b06) is the standard w=ct protocol; it contains no 50:50 H0+c split. The October 7 Orson Free Build direct message 22dca5d3-1594-497f-ba21-8a7c8bba2867 says H0 versus H0+c and dual shells confuse the issue. Current 🔑 core/BEDROCK control is H0 R_H = c, R_H = c/H0; do not restore H0+c or dual shells. The October 9 50:50 reference is an unreconciled historical phrase, not current normalization.
+
+The 15-page SAT Analogue to Calibration note (SHA-256 96c31dfa5acf1a8f0bca2bb96e49da2fb640c1a1e9c9a6ce2cba8dd61376d9f5) is a method/analogue note, not physical validation. Existing geometry_engine.py (blob 902b7dfb10647b5f19bd0bb4997b1bcafe52b104) is 3D and arbitrary-unit, not a 4D worldtube/timesheet solver. No software was created or modified.
+
+The coupling audit's conditional Lean result is compiled in the existing draft PR #1133. It proves SI exponent arithmetic and conditional algebraic implications only; it does not establish that different κ symbols are the same physical coupling, nor an empirical prediction. Tension/stiffness is not forbidden; its constitutive law and units remain unresolved.
+
+No physical calculation or fit, new measured-data claim, paper-gate advancement, BEDROCK promotion or theory promotion occurred. No Orson handoff.
