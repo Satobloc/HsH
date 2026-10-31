@@ -1,28 +1,27 @@
 {
-  "request_id": "nadir-so4-original-source-geometry-genealogy-20261031-1944",
-  "requester": "Workshop Relay :48 / Nadir Voss finite-core SO(4) playground source recovery; current-assistant reconstruction, not authenticated historical Nadir",
-  "requested_at": "2026-10-31T19:44:00Z",
+  "request_id": "loom-historical-charter-source-recovery-20261031-2248",
+  "requester": "Workshop Relay :48 / Loom historical specialist-charter source recovery; current assistant reconstruction, not authenticated historical Loom",
+  "requested_at": "2026-10-31T22:48:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*Donut* OR name:*HOLONOMY* OR path:*Donut* OR path:*HOLONOMY*) OR (author:user AND ((SO4 OR \"SO(4)\" OR \"four spatial dimensions\" OR \"++++\") NEAR/18 (holonomy OR \"finite core\" OR \"finite-core\" OR worldtube OR \"rotation expansion\" OR Donut))) OR (author:user AND (\"stacked holonomy\" OR \"rotation expansion\" OR \"rotation-expansion\" OR \"Donut canon\" OR \"HOLONOMY DRAFT\")) OR (author:assistant AND ((SO4 OR \"SO(4)\") NEAR/12 (holonomy OR \"frame connection\" OR \"finite core\")))",
-  "purpose": "Mersearch-first original-source genealogy for Nadir Voss's independent finite-core all-plus SO(4)/stacked-holonomy playground. Locate primary SAT-O/Blockwave Donut and holonomy formulations, raw Nathan user-role geometry statements about native ++++ / SO(4), finite-core/worldtube, rotation-expansion, frame/normal transport and holonomy, and historical assistant-authored equations separately. Preserve exact repository/path/blob SHA/source commit, raw conversation ID/message UUID, outer role, timestamp, adjacent context, verbatim equations and equation-string hashes where feasible. Distinguish recovered source from assistant reconstruction, standard mathematics, existing Nadir sandbox and new proposal. Discovery only; no new data-free calculation, physical calculation, new Lean theorem, theory promotion, BEDROCK change, or paper-gate change.",
+  "query": "(title:\"Loom Tag Conversation Corpus\" OR name:*Loom* OR path:*Loom* OR name:*Tag*Conversation* OR path:*Tag*Conversation*) OR \"6aa67478-541c-83e9-b8fa-32d6d575eeb9\" OR (author:user AND (\"Loom Tag Conversation Corpus\" OR \"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"corpus enrichment\" OR (Loom NEAR/10 (tagging OR annotation OR enrichment OR corpus OR provenance OR terminology)))) OR (author:assistant AND (Loom NEAR/12 (\"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"role charter\")))",
+  "purpose": "Mersearch-first recovery of the original Loom Tag Conversation Corpus conversation and any Nathan-authored specialist-role/charter instructions. Locate raw conversation exports and exact user-role messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Distinguish Nathan Direct from assistant-authored workspace summaries, wake packets, worker reports and copied/imported text. If the raw conversation is absent, identify earliest source-backed role assignment and preserve the historical pointer as unresolved rather than manufacturing a verbatim charter. Discovery only; no task/lease reactivation, no conversation rename, no first-blush attribution, no theory or paper advancement.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original SAT-O/Blockwave documents, exact blob SHAs, source commit SHAs and source dates",
-    "raw Nathan user-role conversation paths, conversation IDs, message UUIDs, timestamps, parent/adjacent messages and exact source locators where available",
-    "verbatim original equations with SHA/date kept separate from corrected or assistant-translated equations",
-    "duplicate/derivative lineage, source-authorship boundaries, three-root coverage and explicit exclusions/limitations"
+    "candidate raw conversation paths and exact blob/source commit SHAs",
+    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context for any role/charter assignment",
+    "separate tags for Nathan Direct, assistant-authored continuity, worker reconstruction and unresolved embedded material",
+    "duplicate/prefix/superset relationships and explicit three-repository coverage/exclusion limitations"
   ],
   "exclusions": [
-    "Use lane 1 only after verifying the previous lane-1 request has a complete request-scoped manifest and receipt; do not overwrite any pending/running lane",
-    "Do not treat NotebookLM user-role captures, flattened transcripts, summaries, BEDROCK or assistant-generated playground equations as raw Nathan Direct",
-    "Do not infer a physical equivalence from SO(4), holonomy, frame or worldtube vocabulary",
-    "Do not enter PRIOR_ART or QUARANTINE for this internal-source pass",
+    "Reuse lane 1 only because its previous request has a complete manifest and both compact receipts and its workflow completed successfully; do not overwrite any pending/running lane",
+    "Do not treat Loom README, CONTINUITY, REV-010 wake packets or worker reports as a verbatim Nathan-authored charter",
+    "Do not infer historical Loom instance participation, current-thread usability, first-blush or exposure history",
     "Do not publish raw excerpts or private HSH_RESOURCES content",
-    "No physical calculation, data-free calculation, new Lean theorem, theory integration, paper work, manuscript, branch, PR, automation or BEDROCK promotion"
+    "No task/automation change, no reactivation of the former Loom recurrence, no branch/PR, no theory, physical calculation, data-free calculation, new Lean theorem, manuscript or BEDROCK promotion"
   ],
   "lane": 1,
   "status": "requested"
