@@ -6,6 +6,7 @@ on:
       - .github/workflows/archive-math-hopper-smoke.yml
       - tools/archive_math_hopper.py
       - tools/mersearch_math_structural.py
+      - tools/audit_revival_rotation_v3.py
   workflow_dispatch:
 
 permissions:
@@ -43,6 +44,12 @@ jobs:
           assert rows and all(x["sha256"] and x["math"]=="NOT_RUN" for x in rows)
           print("ARCHIVE_HOPPER_SOURCE_SMOKE_PASS",d["candidates"])
           PY
+      - name: Compile and self-test revival rotation auditor
+        run: |
+          python -m py_compile tools/audit_revival_rotation_v3.py
+          python tools/audit_revival_rotation_v3.py --self-test
+      - name: Audit actual relay receipts (read-only)
+        run: python tools/audit_revival_rotation_v3.py --root . --json
       - name: Upload report and manifest ONLY (not raw math candidates)
         uses: actions/upload-artifact@v4
         with:
