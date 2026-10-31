@@ -821,3 +821,20 @@ Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub link
 
 ### 2026-10-26 addendum — binary assets successfully committed after initial note
 The earlier note that comparison PDF, screenshot and ZIP existed only in the conversation is now **superseded**. They are in the HsH Git tree at `PUBLIC_SITE/instruments/universal-indicatrix/assets/` following binary release commit `099025868144b19d926e3710a6e42e713a93f2d5`. See `ASSET_MANIFEST.json` for SHA-256 and byte sizes. Site HTML now links to these downloads, the frozen source and the complete worker handoff. Full editor prompt: `PUBLIC_SITE/instruments/universal-indicatrix/SITES_EDITOR_PROMPT_20261026.md`. Live Sites publication remains **unverified**. The external holdout source ZIP remains outside the HsH repo by design.
+
+
+## 2026-10-31 — Paper A/B reader state-axis and acceptance-evidence crosswalk (Mercer)
+
+**Repository/source QA only; no Sites publication or live route acceptance was performed.**
+
+Verified the current papers feed blob `e3552fdac0f187b066b59a9742563094efffe011` and independently fetched both pinned R1 sources:
+- Paper A TeX blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`, source commit `58b0ed9c19c8dba123846c411d4ac8b7db5c0df9`.
+- Paper B Markdown blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`, source commit `731e2fb5888b0aec856fd9e31319c39746514239`.
+
+Both feed path/blob bindings match. The feed's editorial status and legacy site metadata do not establish current reader acceptance: Paper A has no site version or posted date; Paper B records site version 34 and a 2026-09-23 posted date, neither of which is a current route readback.
+
+**Architecture clarification:** keep manuscript/editorial state separate from presentation state. For each route, require a provenance-bound chain of source pin, feed binding, renderer/config identity, derivative digest, deployed site build, live-route readback, and granular acceptance evidence. Grurple standdown still requires both manuscript gates and both actual routes to pass. The full per-route evidence model and ten granular checks are in `WORKSPACES/MERCER/2026-10-31T0936Z_PAPER_ROUTE_STATE_MODEL_AND_ACCEPTANCE_CROSSWALK.md`.
+
+Public-safe crosswalk submitted through the existing issue publisher as issue [#1143](https://github.com/Satobloc/HsH/issues/1143), submission ID `mercer-paper-route-state-model-20261031t0936z-001`, expected SHA-256 `bab5aca57bb59e6fcba33bd68447ef644247ae12dbb5be4534d45e96ab67b287`. At this log update the publisher result is still pending independent artifact readback; do not call it published until the issue comment, Actions run and fixed-destination file match.
+
+No manuscript, feed, presentation gate, renderer, public site, or theory state was changed. Both routes remain PRESENTATION_PENDING. A site-capable builder must still select the derivative route per format, build with source/config binding, deploy, and verify both live routes.
