@@ -164,6 +164,6 @@ No new physical calculation, Lean theorem, PR, branch, issue, paper, BEDROCK cha
 
 
 Durable follow-up pointers:
-- Ravel receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_02.md`, final blob `85da1abe5bf4b0ebad6e244dd141d07f6e6934fe`.
+- Ravel receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_02.md`, final blob `007792a9dd45e66216748541752679423cb73d12`.
 - Tern Comptroller notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
 - Tern inbox append: verified at blob `75b54ccdfacd35ae1f96272078f3efcb33731828`; repository delivery only, no ChatGPT-thread delivery or acknowledgment.
