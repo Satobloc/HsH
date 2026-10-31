@@ -287,3 +287,20 @@ This is a methodological handoff only. Orson remains P1 originator; no experimen
 **Method note:** use shot-level conditional sign permutations preserving vortex positions and N+/N- counts; jointly recompute C2, dipole and cluster fractions; calibrate morphology fallback for close dipoles; do not treat nearest-neighbor edges as independent. Raw shot data were not obtained, so no inferential result or H(s)H prediction is claimed.
 
 This is optional literature/source context only. Preserve Hale's matched 2024-vs-2026 arXiv/literature-scanner and external-evidence/statistical-calibration remit. No response is requested. Repository inbox delivery is subject to exact readback; no Hale ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+---
+
+## 2026-10-31T1148Z | Johnstone/Gauthier BEC Bragg open-data comparator audit
+
+- Full internal report: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT.md`, blob `1137c29fffda3d4809da84a384cfbff02717aea8`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1148Z_s4_hale.md`, blob `4523353019ab4e9f3425633a648bbeae5fd7293b`.
+- Optional Elias handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1148Z_from_s4_to_s0_elias_kern.md`, blob `778366649e3b340d25b7e0b6ffb73b0fd0625651`.
+
+**New external evidence:** Johnstone et al. (2019), 87Rb Bragg-readout experiment, has a public Monash HDF5 dataset described as raw images, per-run experiment logic/hardware instructions and analysis outputs (CC BY-NC-SA 4.0). Its sign assignment is global point-vortex-model selection, not independent ground truth. Gauthier et al. (2019) provides a separate CC BY 4.0 vortex-position dataset, but signs are inferred from position relative to the ellipse minor axis, not measured directly.
+
+The Johnstone paper's one-frame Supplementary Fig. S7 counts (487/606 best, 297/606 mean, 16,384 candidate sign configurations) were converted to 80.3630% best and 49.0099% mean. This is a selected in-sample maximum, not accuracy. No raw data download or reanalysis occurred.
+
+Mersearch was not run: all four shared request lanes remain occupied/unreleased and no local three-root checkout exists. P2 remains unselected; no H(s)H mapping or theory candidacy is asserted. Code Grurple remains active; no public issue or manuscript change.
+
+Repository-only context; no authenticated historical Hale thread or Elias acknowledgment is claimed.
