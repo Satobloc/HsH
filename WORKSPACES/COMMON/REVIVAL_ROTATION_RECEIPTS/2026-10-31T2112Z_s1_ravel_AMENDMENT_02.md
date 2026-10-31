@@ -23,7 +23,7 @@ The lane-3 request JSON remains `requested` even though its manifest and receipt
 
 ## Scheduler snapshot correction
 
-The same run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` is recorded with `scheduled_for=21:12Z) and two `started_at` values: 21:42:31Z in the 21:42 report and 22:12:17.759535Z in the later scheduler readback. Current status remains in progress; no attempt ID exists. Preserve both snapshots; infer no separate retry or root cause.
+The same run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` is recorded with `scheduled_for=21:12Z` and two `started_at` values: 21:42:31Z in the 21:42 report and 22:12:17.759535Z in the later scheduler readback. Current status remains in progress; no attempt ID exists. Preserve both snapshots; infer no separate retry or root cause.
 
 Task `6aa61b3b2e4081918927a35b61007acc` remains enabled on its original hourly :12 America/New_York schedule. No task/schedule/prompt change. No Orson physics handoff; his cognition remit and P1 remain protected.
 
