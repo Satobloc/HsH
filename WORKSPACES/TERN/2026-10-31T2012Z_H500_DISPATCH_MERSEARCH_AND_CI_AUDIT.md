@@ -127,3 +127,31 @@ A later five-task peek, after 20:19:59.642625Z, changed the :48 observation agai
 - The :48 run's later start was 87.207042 seconds after the Tern :12 start; it completed 9m41.508558s after the Tern start while the Tern run remained in progress. The :00 h499 run also remained concurrently in progress.
 
 This strengthens the observation of mutable `last_run` fields and overlapping task executions, but still does not establish root cause, a missed firing, a duplicate attempt, or a worker nonresponse. No scheduler change was made.
+
+
+## 9. Subsequent :00 and :48 completion readback; source/permission corrections
+
+A later five-task peek after 20:21:04.304971Z shows:
+
+- The :00 h499 run `ea37f54b-dfd8-8328-85db-7123d561861f` completed at 20:21:04.304971Z. Its latest_result now matches the current last_run. The :00 h500:s0 occurrence is still not visible in the task's latest last_run snapshot. Do not infer it was skipped.
+- The :00 h499 result identifies Aldus and contains a local-only source-fidelity report/bundle/PDF extraction. The expected repository receipt `2026-10-31T1900Z_s0_aldus.md` and handoff `2026-10-31T1900Z_from_s0_to_s1_calder.md` do not exist. No repository report/receipt/handoff readback is available for that run. The local sandbox artifacts are not accessible from this Tern run; no cross-chat access or delivery is claimed.
+- The :48 Nadir run completed at 20:19:59.642625Z, with current start 20:11:45.341109Z. Its latest result now matches the run ID. Nadir's completed result describes the occurrence as a retry of the already-executed nominal slot. This is a worker-reported retry; the scheduler exposes no attempt ID. Preserve the earlier failed/start-19:44 snapshot and later in_progress/start-20:11 snapshot rather than inventing a distinct attempt identifier.
+- The :12 Tern run remains in_progress with `chat_ref=null`; scheduler completion is not claimed.
+
+### Aldus issue #1165: existing publication versus new local report
+
+Issue #1165 remains OPEN and has a GitHub Actions bot comment explicitly stating PUBLISHED for:
+`WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-nested-braid-time-normalization-fidelity-20261031t1900z-s0-001.md`, commit `89713372a765294bd51f17d95a63728616d1bd54`, publisher SHA-256 `73b734eab5b1cc36bb328a37e370923398dfbf2710c52a18b82a0f7656ec5139`, readback verified. The live published file was independently fetched (Git blob `d837793f8a25bbab6bd4f6336a858587d2ff9f0a`). This is an existing public-safe nested-braid/time-normalization supplement. It is distinct from the new Aldus local-only source-fidelity report, which has no repository readback and was not submitted. No duplicate issue or submission was created.
+
+### Nadir's completed follow-on: permission and novelty correction
+
+Nadir's completed h499:s4 result and six additive records were read. The correction is material to the live specific-permission rule:
+
+1. Nadir withdraws the earlier claim that broad October 1 mathematical-playground permission specifically authorized the October 31 data-free SymPy calculation. The retrieved October 1 user-role messages did not specifically name the integral `t(L)=∫exp(sΩ)v ds` or the singular-generator control. No raw October 1 conversation ID/message UUID was recovered. Nadir classifies the reported October 31 operation `PROTOCOL_VIOLATION / NOT_EVIDENCE`. Its algebra is not thereby declared false; it must not be promoted or cited as a project result. The October 31 execution has no durable script/code hash/environment/stdout and is not independently replayable.
+2. The central kernel-translation theorem and singular-generator boundary already appear in the October 23 published sandbox packet, blob `3b49be0733d533a7504193d5f30ba437283a0d36`. October 31 is duplicate, not a new theorem or independent confirmation. The packet is explicitly PLAYGROUND/SANDBOX, not BEDROCK or established physics.
+3. The October 23 Lean `returnTranslation` is an uncompiled coordinatewise surrogate, not a formal proof of the matrix-exponential integral. PR #262's compiled `NadirFrameTelescoping` is discrete group-frame telescoping on a merge ref, not the continuous affine integral theorem. No new Lean proof exists for that theorem.
+4. Run 141's September 26 sandbox document is recovered at blob `8b5b8768527dfff5b198e324b2f823257889f385` and contains the D_lin/quotient-translation antecedent. Its original author/role/raw-conversation genealogy remains unresolved; it does not contain the later kernel-projection theorem.
+
+Nadir's Amendment 05/06, receipt Amendments 01/02, and Enheduanna handoff Addenda 02/03 were independently fetched. The live Nadir-to-Tern handoff remains blob `814ee803c518c8b5e17fafca787681fc7313df5e`; the Tern inbox's additive pointer correction remains valid. Nadir's source/permission correction supersedes the earlier Nadir receipt's contrary permission statement. Tern did not perform the calculation or independently authenticate the unrecovered October 1 raw messages.
+
+No new physical calculation, Lean proof, paper, issue, task, branch, or theory promotion was made.
