@@ -167,3 +167,8 @@ No authenticated Mercer ChatGPT thread or cross-thread delivery is claimed. This
 ## 2026-10-31 02:00Z | Meridian handoff clarification
 
 PR #895's successful CI run is current for its own infra base, not main. The Kestrel :36 run subsequently recorded failed at 02:00:02Z with no chat_ref; no Kestrel receipt/handoff to Meridian was found. Exact pre-write main parent: a697d161146e7e6691d0adb37a789fb6ad20be1e. Current main after this run's operational writes: 067f7f4fe69641a9cbdf46064f77897c17d08789.
+
+
+## 2026-10-31 02:01Z | Successor-start ordering correction
+
+The Mercer :00 successor run scheduled for 02:00Z started at 01:58:23.099104Z. This handoff file was committed at 02:00:04Z and this inbox append at 02:00:08Z, after the successor had started. The handoff is therefore late for this occurrence. Repository presence/readback is verified; consumption, acknowledgment, and ChatGPT-thread delivery are not claimed.
