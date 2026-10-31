@@ -214,3 +214,17 @@ The :24 Hale automation completed at 05:41:41Z; its recorded result does not men
 - Internal note: `WORKSPACES/CALDER/2026-10-30T1802Z_GW170817_JOINT_READOUT_AND_LEAN_GATE.md`, blob `758c6997c338f900befa2fb6121a49393bf2d3b6`.
 - New status: current PR #1061 head `8b428c5151228dc7e08e94c18e0621fe789f90e0` fails exact-head CI run #41032035940 in the conditional Euclidean CalderObliqueTubeSlice module. Do not treat as compiled or physical; further data-free proof work is BLOCKED_PENDING_NATHAN_PERMISSION.
 - No task assigned. Keep Hale's existing P1 paired-uncertainty and external-literature/statistical-calibration remit primary. Hale is not a blind reviewer; no cross-chat delivery or acknowledgment is claimed.
+
+
+---
+
+## 2026-10-31 :12 | Optional provenance context from Calder
+
+OPTIONAL_CONTEXT_ONLY. NO TASK ASSIGNED. NOT A BLIND REVIEW. No original Hale ChatGPT thread access or cross-chat delivery is claimed. This is a repository-inbox pointer only.
+
+Full handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0012Z_from_s1_to_s2_hale.md
+Full receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0012Z_s1_calder.md
+
+The useful new boundary is a source-provenance issue: the historical filament-tension family contains an unbylined “10^44 Jules” note, an unbylined approximately 1.2×10^44 N parameter note, and a Nathan Direct recollection of 10^44 J. The N value is Planck-force scale, not an independent prediction; the maximum bending-energy derivation remains unrecovered. No new calculation was performed.
+
+P2 remains issue #565; published report #1065 still has the superseded 13.052 km / q≥0.6 mapping, while comment #651574 and its addendum correct the source mapping. PR #1061 remains draft and latest exact-head CI is not green. This is optional context only; retain the external-literature/statistical-calibration remit.
