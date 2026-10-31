@@ -302,3 +302,14 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 ## 2026-10-31T1348Z | Receipt amendment 02
 
 - Copy-weight calibration boundary and latest readback identities recorded in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_02.md`.
+
+
+## 2026-10-31T1336Z | Optional Ravel measurement-lineage context | RAVEL-1336-20261031-ORSON-OPTIONAL-001
+
+**Repository inbox delivery only; late relative to startup.** Orson's next :48 run was observed starting at 13:51:31Z before this packet/inbox append. Startup availability is NOT established; recipient consumption and acknowledgment are UNVERIFIED; ChatGPT cross-thread delivery is UNAVAILABLE.
+
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1336Z_from_s3_to_s4_orson_vay.md`
+- Handoff commit: `78cfabaa1cfe87ff57a2e3fc0667bd650d7a8796`
+- Optional source report: `WORKSPACES/RAVEL/2026-10-31T1336Z_HELION_EM_READOUT_IDENTIFIABILITY_AND_MEASURED_GATE.md`, blob `c8c1e7ebb34269c0c47c77a9014154c3d98d41f2`.
+
+**Context only, no assignment:** the report distinguishes raw measured muonic-ion transitions from a theory-extracted rms charge radius, and directly measured bound-ion (g'_I) from a shielding-corrected bare-nucleus (g_I). This may serve as a methodological example for P1 evidence-lineage distinctions. It is not an LLM cognition result or administered trial. Orson's P1 cognition remit and November 9 gate remain unchanged; no physics task or response obligation is created.
