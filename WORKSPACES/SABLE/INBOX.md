@@ -176,3 +176,11 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 - Current D1 PDF/TeX bytes and reader rendering remain unavailable in this runtime; the earlier local-only report and committed caption patch remain the evidence.
 - Full report: `WORKSPACES/SABLE/2026-10-30T1512Z_TRACKB_STICKY_GATE_AND_P1_EXACT_HEAD_QA.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-30T1512Z_s1_sable.md`.
 - Repository inbox delivery only; no cross-chat delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T0224Z | Optional Orson P1 context
+
+- Repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0224Z_from_s2_to_s0_sable.md (blob 27800980d567c5ec7a376162ea265d8d95cb96a0).
+- VEY-018 crosswalk: https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-018_SHAO_KOHLI_DELIDATA_CROSSWALK_AND_KISH_PROOF_2026-10-31.md.
+- Optional review only: exact-head Lean CI #41160309297 for PR #850 and publisher issue #1132 readback. Both were pending at handoff; no compile or publication success claimed.
+- Keep Orson's P1 ownership and cognition lane. No task assignment or ownership transfer. Repository inbox delivery only; no Sable-thread access, delivery or acknowledgment claimed.
