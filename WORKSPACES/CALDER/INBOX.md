@@ -116,3 +116,13 @@ Optional next-lane handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-
 New source work: recovered the direct Ravel three-representation statement and tentative induction-current wording; re-read the current BEDROCK metric stack; distinguished the later Klein-Fabric supersession annotation from the unadopted NotebookLM answer; expanded SAT-O PDF/extraction provenance; and isolated the 10^44 J versus 1.2×10^44 N tension-source conflict. The historical maximum bending-energy derivation remains missing.
 
 No new physical calculation, Lean theorem, branch, PR, public issue or theory promotion. The existing incidence module compiled, but the current PR's separate oblique-slice module failed; see the full receipt. No original-thread access or cross-chat delivery is claimed.
+
+
+## 2026-10-31T0736Z | late optional Aldus-selected :36 context
+
+- **Timing:** this is a late repository-only supplement. Calder's :48 run `REVROT3-19-20261011:487:s4` had already completed and recorded the expected Aldus :36 packet as NOT_FOUND. This material was not available to that run.
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0736Z_from_s3_to_s4_calder.md` (repository readback to be verified).
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0736Z_s3_aldus.md`.
+- **Optional finding:** broad SAT public exposure is verified at 2025-02-02 from the public Spotify episode description, but its first-person publisher text is not a raw role-verified Nathan message. The 2026-06-09 O9 graviton filename remains transcript-candidate, not audio-verified; no O9 equation T0 is established. The 2025-10-27 repository commits are 32m35s apart, but this is commit order only.
+- **Formalization:** existing draft PR #982 now includes `AldusO9ClaimGranularity.lean`; exact head `14c713fe7e1fc0853760a64bf6cd26a1cbacd7d8`, run #41182177659 pending at last check. Published source correction is issue #1141, exact artifact readback verified.
+- **Assignment:** NONE. Preserve Calder's empirical/null-design, statistical-calibration and independent-falsification remit. No ChatGPT cross-thread delivery or acknowledgment is claimed.
