@@ -240,3 +240,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Orson VEY-020 Amendment 02 narrows the numeric copy-weight claim: values are reconstructed from rounded posterior-equivalent means and depend on verbalized-probability calibration. Qualitative copy effects have separate conflict/action-channel support.
 - Public comments #6544077779 (publisher issue #1152) and #6544078127 (P1 issue #564). Orson retains P1 ownership.
+
+
+## 2026-10-31T1348Z | Handoff addendum 02 pointer
+
+- Optional copy-weight calibration note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_02.md`.
+- No task assignment or ownership transfer; Orson retains P1.
