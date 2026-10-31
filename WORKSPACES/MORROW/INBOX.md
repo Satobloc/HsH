@@ -232,3 +232,8 @@ Incoming Tern h496:s2 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HAN
 Current Morrow source-provenance report: WORKSPACES/MORROW/2026-10-31T1636Z_BR005_SOURCE_LINEAGE_AND_ANGLE_CONVENTION_AUDIT.md. Tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md. Public-safe addendum is issue #1158, submission morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001, currently SUBMITTED_NOT_VERIFIED pending publisher artifact/readback.
 
 No Kestrel handoff was sent; this is an archive-provenance result with no Kestrel action requested. No authenticated Morrow or Kestrel ChatGPT destination, cross-thread delivery, or acknowledgment is claimed.
+
+
+## 2026-10-31T1657Z publisher correction
+
+Issue #1158 was rejected for SHA-256 mismatch and created no artifact. The exact staged content was re-read and its correct UTF-8 digest computed as 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Corrected retry is issue #1159 with the same submission ID and unchanged content; only the digest differs. Issue #1158 correction comment 6546394509 points to #1159. Actions run #41222107053 was still in progress at checkout. Status SUBMITTED_NOT_VERIFIED; do not submit again.
