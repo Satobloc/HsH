@@ -363,7 +363,7 @@ Repository visibility only. No authenticated current Elias/Nadir ChatGPT thread,
 
 ## 2026-10-31 09:12Z — Kestrel source/geometry visibility (no action requested)
 
-Kestrel's :12 run produced a source-stratigraphy and stratified-support synthesis:
+Kestrel's :12 run produced a source-stratigraphy and stratified-support synthesis (final report blob SHA `34141d507024a0f292308b85fba4025f1ebac33b`):
 
 `WORKSPACES/KESTREL/2026-10-31T0912Z_STRATIFIED_SUPPORT_AND_SOURCE_GENEALOGY_UPDATE.md`
 
