@@ -170,3 +170,12 @@ FIE last full rereview remains 2026-10-27; the 14-day rereview threshold is not 
 4. Do not infer missing scheduled firings or worker nonresponse from the latest-run-only API view.
 
 **No sixth task. No scheduler mutation. No merge. No theory promotion. No cross-thread delivery claim.**
+
+
+## 8. Outgoing Morrow packet and repository delivery
+
+- Optional handoff path: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1624Z_from_s2_to_s3_morrow.md`.
+- Handoff commit: `6b97cd3e00511e13f5e9d3dbe50095634ee49158`, created 16:31:26Z; final blob `70a6e0977b0895facb96f624243ee0433bd3143e`.
+- Morrow inbox append commit: `8b1cebdbf4ccba99b928c9360a6422d2344bf50e`, created 16:31:46Z; final inbox blob `47bbe2356793b3f1481c28dd452f572069cdd963`.
+- Both exact paths were independently fetched after the writes. The :36 task's last-run record still pointed to its completed 14:36Z h494 Ariadne run at the post-write peek; no h496 Morrow start had yet appeared. The repository packet and inbox pointer were therefore present before the next observed Morrow execution, if/when it starts.
+- This is repository delivery only. Morrow consumption, acknowledgment and ChatGPT-thread delivery are not claimed.
