@@ -90,13 +90,25 @@
         "retrieval_limit": "GitHub Contents API returned an empty body for this 57,801-byte file; Library tether excerpts expose an overview, but the full standalone bytes were not retrieved."
       }
     ],
-    "authorship_conclusion": "The 2025-10-19 assistant message is a cleaned-up re-output of a J2 action present in the user-supplied 🧱BLOCKWAVE.txt artifact and cites the separate SAT—Blockwave Ideal Model.txt. The upload proves user supply, not embedded authorship. Do not attribute the action to Nathan Direct or treat the assistant re-output as an independent source."
+    "authorship_conclusion": "The 2025-10-19 assistant message is a cleaned-up re-output of a J2 action present in the user-supplied 🧱BLOCKWAVE.txt artifact and cites the separate SAT—Blockwave Ideal Model.txt. The upload proves user supply, not embedded authorship. Do not attribute the action to Nathan Direct or treat the assistant re-output as an independent source.",
+    "nathan_direct_context": {
+      "conversation_id": "68cad3d4-0ccc-8325-be36-94c5b5527997",
+      "raw_export_blob_sha": "dd2b6141af86dea54e4ba2e782214128619ce78c",
+      "raw_export_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json",
+      "direct_editorial_message_uuid": "e92efb17-2499-482e-b930-9ad11221bd7c",
+      "direct_editorial_timestamp_utc": "2025-09-18T15:19:27.048539Z",
+      "direct_editorial_message_sha256": "8160ccd77f1f218663bb0445af5fc11df252b02990a8fe0e07277000b871b4cb",
+      "direct_instruction": "Rewrite Chapters 1–5 in the 3-form track.",
+      "attribution": "Nathan Direct editorial decision; not a complete mathematical derivation or J3-to-J2 map.",
+      "assistant_wording_correction": "The phrase 'the 3-form is fundamental' appears in assistant message eee9e477-6977-48e8-9114-246d123c86be, not in a Nathan Direct message."
+    }
   },
   "equations": {
     "source_action": "J^{mu nu} = (1/2) epsilon^{mu nu rho sigma} nabla_rho B_sigma; nabla_mu J^{mu nu}=0; A_mu=alpha_* nabla_mu theta; F_mu nu=nabla_[mu A_nu]; action includes (g_h/2) F_mu nu J^{mu nu}.",
     "formalized_consequence": "For a smooth real-valued phase on the formalized domain and constant alpha, d(alpha d theta)=0.",
     "translation_condition": "Equating the source's antisymmetrized covariant derivative with the exterior derivative requires a torsion-free connection; not formalized.",
-    "global_limit": "A circle-valued phase may have nontrivial global periods/holonomy even when local curvature vanishes. Bundle data, winding and defects are not formalized."
+    "global_limit": "A circle-valued phase may have nontrivial global periods/holonomy even when local curvature vanishes. Bundle data, winding and defects are not formalized.",
+    "j3_j2_status": "Nathan Direct editorially selects the 3-form track for Chapters 1–5; the conversion/projection map to the J2 flux representation remains unspecified. The assistant's Hodge-dual wording is not a valid 4D degree map."
   },
   "interpretation": {
     "result": "Conditional mathematical identity verified by Lean 4.34.0/Mathlib 4.34.0.",
