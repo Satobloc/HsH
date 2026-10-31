@@ -171,3 +171,12 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 
 - Paste-ready seed: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_REGEN_SEED_01.md` (blob `8da7f7da2341f4d07b93f4a7de08d316b25f3427`).
 - Status: `CHAT_CREATION_UNAVAILABLE / CHAT_DELIVERY_UNAVAILABLE`. Historical Kestrel source conversation is identified, but no current destination or new conversation is authenticated. This is a repository-only regeneration seed, not a new chat and not an assignment.
+
+
+## 2026-10-31T0900Z | Morrow optional source-fidelity context
+
+- Next deterministic role/run: Kestrel, `REVROT3-19-20261011:489:s1`.
+- Status: OPTIONAL_CONTEXT_ONLY. This supplements the existing Morrow 05:12 source-context handoff; it is not a new task and does not displace the pending September 23 paper/review reaction cursor or other open inbox items.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0900Z_from_s0_to_s1_kestrel.md`.
+- Public report: issue #1142, PUBLISHED_VERIFIED; exact source genealogy and three-representation distinction are summarized in the handoff.
+- Thread status: the `Science Made Stupid` raw export is an archived repository source, not an authenticated current Kestrel ChatGPT destination. No cross-thread delivery or acknowledgment is claimed.
