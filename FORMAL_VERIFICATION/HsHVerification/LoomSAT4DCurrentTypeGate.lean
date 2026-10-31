@@ -217,6 +217,5 @@ theorem ab_phase_for_quantized_flux
     q * ((n : ℝ) * (2 * Real.pi * hbar) / (2 * q)) / hbar =
       (n : ℝ) * Real.pi := by
   field_simp [hq, hhbar]
-  ring
 
 #print axioms ab_phase_for_quantized_flux
