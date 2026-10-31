@@ -183,7 +183,7 @@ Packets C and D, which swap the lenses on the next chapters, remain uncompleted.
 ## 5. Continuity and controls
 
 - Original 1124 receipt and Calder handoff preserved. Calder's 1136 receipt records reading the incoming handoff; no duplicate handoff was created.
-- No new issue was opened. The O9 chronology update is additive to existing issue #1141.
+- No new issue was opened. The O9 chronology update is additive to existing issue #1141, comment #6543090618. Exact readback: 3,334 UTF-8 characters; SHA-256 `9c2a09a92dd8bebb289bae7e5331cea3a70d777e5a5a2ce05bbc850434705ee5`.
 - No new branch, PR, Lean module, tooling, automation, or task was created.
 - Existing :24 automation identity, enabled state, schedule, and phase were not changed.
 - No physical calculation, CODATA comparison, new prediction, or observational validation was performed.
