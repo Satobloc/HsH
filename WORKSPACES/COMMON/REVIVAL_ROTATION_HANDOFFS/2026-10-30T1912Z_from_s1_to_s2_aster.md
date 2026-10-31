@@ -118,3 +118,14 @@ This is an additive update to the existing packet for Aster's `REVROT3-19-202610
 
 ### Delivery status
 Aster's corresponding :24 execution had already started when this addendum was written. This is late repository handoff/inbox delivery only. Consumption, acknowledgment, and ChatGPT-thread delivery are unverified. Optional context only; no task, response obligation, or ownership transfer.
+
+
+## Addendum 04 | 2026-10-31T1412Z precision correction
+
+The July 12 source-tag repair is complete, with one precision qualification:
+- Current tag-ledger blob: `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`.
+- Current Loom report blob: `193a6996e0724a62028032fa2a0fef5a6c6dc513`.
+- The earlier question `9671629d-7033-4188-92fb-7809df2933d8` says “two radii” but does not say “inner/outer circumference.” That wording belongs to the later direct clarification `3d392cc0-e113-47de-94f2-4615260b48fd`. The earlier question is tagged `CLARIFIED-BY-3d392cc0`; `INNER-OUTER-CIRCUMFERENCE` is inherited context only, not back-projected wording.
+- Loom continuity blob after this correction: `78b32a854fb971deb0b678ae2c847f550561bf23`.
+
+This corrects metadata only; the original raw messages and existing later tags are unchanged. Optional context only. Aster's h494:s2 run had already started; consumption and acknowledgment remain unverified.
