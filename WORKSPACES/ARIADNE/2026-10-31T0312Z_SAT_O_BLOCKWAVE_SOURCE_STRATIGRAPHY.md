@@ -190,7 +190,7 @@ The theorem is conditional and local-coordinate. It is not a global manifold/Lev
 - Full `lake build`: 8,944 jobs, successful.
 - Manual `#print axioms`: arithmetic degree lemmas depend on no axioms; analytic Hessian lemmas depend on `propext`, `Classical.choice` and `Quot.sound`. No `sorryAx` was reported.
 - Automated axiom-audit, test and lint steps were disabled in the existing workflow. The dependency manifest was generated at runtime and is not committed.
-- A subsequent warning-only cleanup commit `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` removes an unused simp argument; its exact-head CI rerun was pending at report creation.
+- A subsequent warning-only cleanup commit `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` removed an unused simp argument and then passed exact-head CI run #713 (`41164589389`), job `124429317733`, source merge-ref commit `4d7b0fb41326a82635bbc75644d1b7bb8649c282`. The updated module built successfully in 8,944 jobs. The remaining warnings are in unrelated `ArchiveEQ0004` files.
 
 This is a compiled conditional mathematical result. It establishes the local identity under its encoded assumptions. It does not establish that the manuscript's assumptions hold physically, nor does it validate SAT/H(s)H.
 
@@ -200,7 +200,7 @@ This is a compiled conditional mathematical result. It establishes the local ide
 - Existing Math Hopper was treated as extraction/source tooling, not as a theorem prover.
 - SciSpace connector is available but was not needed for this archival source task.
 - No dedicated fork-enumeration action is exposed, so no fresh fork-count claim is made.
-- No new tool, plugin, fork, issue or paper was created. The Lean module is a formalization file on an isolated draft branch.
+- No new tool, plugin, fork or paper was created. One HsH issue, #1137, was created solely to submit the public-safe Factory handoff-pending packet through the existing issue publisher. At last readback it was `SUBMITTED_NOT_VERIFIED`: no publisher comment or `PUBLISHED_SUBMISSIONS` copy existed yet. The issue is not a Factory Floor delivery or paper submission. The Lean module is a formalization file on an isolated draft branch.
 - Code Grurple remains ACTIVE. Paper A/B reader-presentation status remains pending. No manuscript/site edit or publication claim was made.
 - P1 Nov 9 remains Orson-owned and protected; P2 Nov 30 and P3 Dec 14 remain unchanged. No general physics assignment was imposed on Orson.
 - Tern remains Comptroller.
@@ -216,3 +216,29 @@ Ariadne's primary source-stratigraphy task remains the recovery of the upstream 
 The next rotation label is Alberr. An optional-context-only handoff records the J2/J3 source divergence, the 2025 manuscript, the 2026 Page One provenance correction, the typed support table and the draft Lean CI status. It assigns no task and requests no response.
 
 **Final state:** SOURCE-GENEALOGY-REFINED; J2/J3 KEPT DISTINCT; 4D SUPPORT-DEGREE MAP FORMALIZED AS ARITHMETIC; LOCAL SCALAR-HESSIAN ANTISYMMETRY THEOREM COMPILED; GLOBAL/PHYSICAL INTERPRETATION UNPROVEN; NO THEORY PROMOTION.
+
+
+## 8. Write-route and Factory handoff status
+
+The navigation preflight and house-tool documents were read after the first worker-report/receipt/handoff/inbox writes. This is a procedural ordering deviation: the direct GitHub Contents API writes were performed before the required house-route preflight was completed.
+
+Post-hoc route audit:
+- No local HsH checkout exists under the active container workspace. `git` is installed, but no repository checkout is present and container internet access is disabled.
+- The HsH issue publisher is the approved house route for public-safe submission packets, but it is not a generic worker-file writer.
+- No suitable existing Actions writer for arbitrary worker receipts/inboxes was identified.
+- The cross-repository write standard permits Contents API fallback with a fresh source SHA and readback. The writes used fresh SHAs and were independently read back.
+- This does not erase the ordering deviation. Future turns must complete the preflight before any write.
+
+The Factory Floor README and FLOORROOM_TODO were read. No machine-readable intake endpoint or Floor ID is verified. No direct write to FACTORY_FLOOR was attempted.
+
+A public-safe pending packet was created at:
+`WORKSPACES/ARIADNE/FACTORY_HANDOFF_PENDING_2026-10-31T0312Z_SCALAR_HESSIAN.json`
+
+The packet content SHA-256 is `ee6894f9a74dd701192854fac60a1f70855bc8575a92695d2ecf5add9c054d7f`. Its content exactly matches the issue-publisher payload and the local packet file. It includes only source hashes/locators, not private PDF bytes or personal contact details.
+
+Issue-publisher intake:
+- Issue #1137, title prefix `[HSH-PUBLISH-V1]`.
+- Submission ID: `ariadne-scalar-hessian-factory-pending-20261031t0312z-001`.
+- Status at last readback: `SUBMITTED_NOT_VERIFIED`.
+- No publisher comment or published file found yet.
+- No Factory Floor delivery, Floor ID or cross-chat delivery is claimed.
