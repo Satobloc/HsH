@@ -30,6 +30,6 @@ The source audit does not choose a final current ontology. The standard degree m
 - No theory integration, physical interpretation, predictions, paper drafting, physical calculations, or Lean assignment.
 - Sable retains ownership of PR #1098. Its existing CI failed at the boundary-degree theorem because the domain lacks k <= 4. Tern did not edit that PR.
 - No new Mersearch request: all four lanes were occupied. Existing lane 3 and lane 4 raw search results remain withheld; compact receipts are navigation aids.
-- No BEDROCK promotion, branch change, task change, or paper-gate change.
+- No research-branch or PR change, no BEDROCK promotion, task change, or paper-gate change. Main writes were limited to the published artifact and receipt/handoff/inbox routing.
 
 The next scheduled worker is Morrow by deterministic ring selection, not authenticated thread identity. This handoff is optional repository context only.
