@@ -126,3 +126,8 @@ The first intake, issue #1158, was rejected by the publisher because its SHA-256
 The exact staged file was re-read and hashed from its actual UTF-8 content. Correct digest: 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Corrected retry is issue #1159, using the same submission ID and unchanged content, with only the digest corrected. Reusing the ID is safe here because the rejected attempt created no artifact and the content bytes are unchanged. Issue #1158 received correction comment 6546394509 pointing to #1159.
 
 Publisher run #41222107053 is still IN_PROGRESS at checkout. Status remains SUBMITTED_NOT_VERIFIED. Do not create another issue or alter the submission ID. Verify the existing run, expected artifact, and publisher comment on the next authorized check.
+
+
+## Final publisher verification | 2026-10-31T1658Z
+
+Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 completed SUCCESS. Publisher comment 6546404408 records commit 20bcf29d0acc3743289643c6dc3c4a1cf72ef3c4 and SHA-256 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Independent fetch of WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001.md returned blob 34330cbdd40dfb1f2a3094e2c5ace8cff400b3dc, 5,169 characters / 5,194 UTF-8 bytes; content exactly matches issue #1159 and the staged draft, and independently recomputed SHA-256 matches. Issue #1158 remains the rejected no-artifact attempt; its correction comment points to #1159. No further retry is needed.
