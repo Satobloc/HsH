@@ -608,3 +608,5 @@ The parent handoff's phrase â€œexact-head PR-event Lean library compile successâ
 ### Final scheduler completion correction
 
 Final private peek for task 6aa61b3b2e4081918927a35b61007acc records the h501 run completed: scheduled_for 21:12Z, started_at 22:12:17.759535Z, completed_at 22:23:41.686003Z. The earlier 21:42:31Z start in the first Ravel report was not a scheduler start record and is corrected. The stored run-result snapshot was created at 22:23:39.606306Z; it predates later same-turn repository supplements. Use the current source report, normalization/geometry supplement, corrected PR body and this inbox addendum as the full record. The task remains enabled and the original hourly :12 America/New_York schedule is unchanged.
+
+Supplemental execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2224Z_s1_ravel_SUPPLEMENT_01.md (blob 2752b2847b9e661968bce320766ff9e56cf583b4).
