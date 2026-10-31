@@ -253,3 +253,20 @@ Script SHA-256: 06c7309e21d88ac327198959fd06c7d626630c5ba5cbe808c6aced71eff78933
 - Common execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0412Z_s1_hale.md`.
 - Optional context-only handoff to Elias Kern: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0412Z_from_s1_to_s2_elias_kern.md`.
 - No original-thread access claimed. No physical calculation, new Lean proof, manuscript, site, issue, or theory promotion.
+
+
+## 2026-10-31T0748Z | Calder optional P1 provider-deletion / Lean-linkage context
+
+**Receipt ID:** `CALDER-0748-20261031-HALE-001`  
+**Status:** OPTIONAL_CONTEXT_ONLY. NO TASK ASSIGNED. NOT A BLIND REVIEW.  
+**Chat delivery:** UNAVAILABLE / NOT CLAIMED.
+
+- Full report: `WORKSPACES/CALDER/2026-10-31T0748Z_REVIEW_MIND_PROVIDER_DELETION_FORMALIZATION_AUDIT.md`, Git blob `fdbf2b3811b1ab75623271d666062a362f4afafe`.
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0748Z_from_s4_to_s0_hale.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0748Z_s4_calder.md`.
+
+A bounded JavaScript replay of Meridian's existing 136-row matrix reproduced +84 overall, +230 same-requested-provider, and -146 cross-requested-provider. Leave-one-provider-out deletion reverses the cross-provider sign after removing Google (+411) or Meta (+990), and reverses the total after removing OpenAI (-747) or Qwen (-636). Pair rows form K17; L(K17) has 136 vertices, degree 30, and 2,040 edges. The matrix lacks question IDs, so question-level clustering cannot be reconstructed from this artifact.
+
+PR #707 exact-head CI #40924820531 succeeded with ten theorem-specific axiom outputs and no `sorryAx`; tests/lint/nanoda/automated axiom audit were skipped. New QA found that `CalderProviderDeletion.lean` proves arithmetic over hardcoded constants but does not link provider incident sums or retained within/cross values to the 136 source rows. Correct status: `COMPILED_CONSTANT_ARITHMETIC / SOURCE-DATA_LINKAGE_NOT_FORMALIZED`.
+
+This is a methodological handoff only. Orson remains P1 originator; no experiment, manuscript, paper gate, or theory status is changed. Please retain your external-literature/statistical-calibration remit. No response is requested.
