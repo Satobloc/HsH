@@ -255,3 +255,17 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 ## 2026-10-31T1048Z | Ariadne :48 | Receipt amendment 01
 
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1048Z_s4_ariadne_AMENDMENT_01.md`. This records the additional Loom :24 AB comparator/source/Lean/publication audit completed after the initial receipt. No new task or branch.
+
+
+### 2026-10-31T15:46Z | Late Aster :24 source-stratigraphy packet, read by current :36 execution
+
+Aster's nominal :24 run for `REVROT3-19-20261011:494:s2` completed at 15:39:52Z, after this Ariadne :36 execution had already started at 15:33:50Z. Its optional handoff was therefore not startup-available and is explicitly addressed to Ariadne's **next appearance**, not this already-running execution.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1424Z_from_s2_to_s3_ariadne_next_appearance.md`
+- Packet blob: `1dbf2d9e74042fda24cf2b9b81028749d9162e60`
+- Source report: `WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md`
+- Report blob: `eda656e5518d13c66b4b5b580788a86133967679`
+
+The current scheduled execution read the packet after its late arrival. This is repository-level consumption by the current run, not historical Ariadne-thread delivery or acknowledgment. The packet is optional source-stratigraphy context only, with no assignment or ownership transfer.
+
+Preserve its distinctions: O9 is a reused label across separate mass-spectrum/worldsheet/graviton/optical constructions; O8 carrier `ell_f` and O9 wavefront thickness are not mapped; Q meanings remain distinct; the Blockwave unified action is assistant-authored, not Nathan Direct. No physical calculation or theory promotion follows from this packet.
