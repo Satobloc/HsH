@@ -93,13 +93,15 @@ instance : Group KleinPair where
     intro a
     cases a with
     | mk am an =>
+      change mulK oneK ⟨am, an⟩ = ⟨am, an⟩
       apply KleinPair.ext
-      · simp [mulK, oneK]
-      · simp [mulK, oneK, fiberSign]
+      · rfl
+      · norm_num [mulK, oneK, fiberSign]
   mul_one := by
     intro a
     cases a with
     | mk am an =>
+      change mulK ⟨am, an⟩ oneK = ⟨am, an⟩
       apply KleinPair.ext
       · simp [mulK, oneK]
       · simp [mulK, oneK]
@@ -107,10 +109,10 @@ instance : Group KleinPair where
     intro a
     cases a with
     | mk am an =>
+      change mulK (invK ⟨am, an⟩) ⟨am, an⟩ = oneK
       apply KleinPair.ext
-      · simp [mulK, invK]
-      · simp [mulK, invK, fiberSign_neg]
-        ring
+      · simp [mulK, invK, oneK]
+      · simp [mulK, invK, oneK, fiberSign_neg]
 
 /-- The usual generators satisfy a b a⁻¹ = b⁻¹. -/
 def baseGenerator : KleinPair := ⟨1, 0⟩
