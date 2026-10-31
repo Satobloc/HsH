@@ -155,3 +155,10 @@ The conditional degree identity is \(4-k=3-(k-1)\) for a transverse codimension-
 **Meridian PR #750** was independently checked from its exact Actions job #123871939614 (run #40996878087, Lean 4.34.0, 8,946 jobs). MeridianUIOrigin.lean built with theorem-specific outputs including core_history_inside_shell_history, marked_history_injective, nonzero_period_cannot_close_full_history, and antisymmetric_contraction_is_tangent; the complete log contained zero sorryAx occurrences. PR #750 remains open/draft. These are conditional marked-history/current results, not a BEC model.
 
 Together with Kestrel's KestrelReadoutComposition.lean on PR #846 (run #40902356693), these are three **separate existing formal modules** supporting: support/slice dimension bookkeeping, marked-history structure, and generic readout non-injectivity. They are not one integrated BEC/H(s)H formalization and do not establish the missing \(W_{\rm SAT}^4\to V_{\rm medium}\) coupling.
+
+
+## 9. Measurement/model caveats from the primary 2000 paper
+
+The 2000 paper's own bare-core theory comparison is not a clean residual test. Its reported measured bare-core frequency is \(1.8(1)\,\mathrm{Hz}\), while the cited model estimates are approximately 0.8 Hz (2D Thomas–Fermi hydrodynamic), 1.3 Hz (Svidzinsky–Fetter 2D/3D GPE), and 1.2 Hz (a 2D simulation). The paper states that these comparisons assume a spherical, single-component condensate with \(3\times10^5\) atoms in a nonrotating trap, whereas the experiment began with \(10^6\) atoms and used a two-component filled/bare-core preparation. The parameter mismatch prevents treating the difference as a clean failure of Gross–Pitaevskii theory or as an H(s)H residual.
+
+The paper also reports that the \(m=\pm2\) surface-mode splitting assay was experimentally verified and used to confirm vortex persistence after image contrast was lost. It cites a conference abstract and says the detailed measurements would be presented in a future paper. Therefore this is an author-reported corroborating spectral assay, not a raw, independently reanalysable dataset in the 2000 article.
