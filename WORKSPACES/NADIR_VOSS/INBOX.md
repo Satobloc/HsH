@@ -243,3 +243,21 @@ The :00 Hale predecessor completed after the :12 Elias run had started. Elias fe
 Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND. This note does not transfer ownership, assign physics/formalization work, request review, grant theory authority, or touch the November 9 cognition paper. Ignore this context if it does not fit the current playground.
 
 No authenticated Nadir ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
+
+
+## 2026-10-31 — Optional Elias Track A handoff addendum
+
+No task, response obligation, or change to the independent finite-core all-plus SO(4)/stacked-holonomy playground.
+
+The existing Elias-to-Nadir optional handoff was amended in place; no duplicate handoff file was created:
+- WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0812Z_from_s1_to_s2_nadir_voss.md
+- Updated blob SHA-1: 432ae2d7eba3db846f80a4b709aa0cf02414db57
+
+The addendum points to:
+- Elias Track A report: WORKSPACES/ELIAS_KERN/2026-10-31_S0_TRACKA_SWITCHBOARD_THREADING_FIDELITY_AUDIT.md
+- Report blob SHA-1: 33c26c80a4ab0da922c4f020eb7d4a0819a3708a
+- Elias receipt blob SHA-1: 657387fcf34d97250efb615c65f346ab3027e6d5
+
+Optional finding: the existing Threading demo's return gate can pass on four distinct worker-name strings while all receipts reference one artifact path; the schema has no content hash or authenticated producer identity. This is a software-prototype limitation, not real worker evidence. The report contains the exact source and test details.
+
+Repository-only pointer. No authenticated Nadir ChatGPT thread was recovered, and no cross-thread delivery or acknowledgment is claimed. No action is required.
