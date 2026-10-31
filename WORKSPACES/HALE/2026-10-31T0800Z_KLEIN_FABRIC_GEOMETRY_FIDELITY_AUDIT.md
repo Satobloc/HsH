@@ -50,7 +50,7 @@ Read the live control surfaces, including:
 - Steering Charter 2026-10-26, blob `5f4263381afcb065e9062d5b5885593d0baa58db`.
 - Three Paper Campaign, blob `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`.
 - Phase Steering, blob `177576d6efb25024255b0f94c6a68dea38fdeff7`.
-- Three-repository onboarding, blob `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0`.
+- Three-repository onboarding, blob `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
 - Revival Rotation V3, blob `90863a2a2b82b2d8e37ba1bd9f796389066f5409`; thread-first rule, blob `e79707587914edb76afca1c32f9f4dad4d0324b7`.
 - Mersearch worker instructions, blob `086778737a004c467b0b52142d71aa5b961fc166`.
 - Code Grurple roster, blob `cc96c0bfafc95c54e7960899c7306031e5abce17`; presentation gate, blob `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`.
@@ -143,7 +143,7 @@ The connector returned empty content for this large JSON in this run, including 
 - `090f5160-1020-486d-9c42-df3d7dff2063`, 2026-10-21T00:17:23Z: mixed-source message; only its final correction is Nathan Direct, stating the earlier reciprocal filament/timesheet-deformation model was superseded because the Klein-Fabric model had become common. This is a supersession marker, **not a definition**.
 - `c5525f53-b7cc-4444-8102-3bf6fdb1c892`, 2026-10-21T13:55:40Z: current normalization `cw=t` and `(++++)`; accompanying alternative expression is tentative.
 
-The exact raw source must be recovered before treating the July transcript claims as direct user statements or declaring the current Klein-Fabric definition closed.
+PR #895's source audit further records that the 3,677-node raw Meridian export contains direct worldtube/timesheet/Cruller/Klein-supersession messages but does **not** establish the CTC assertion. This run's connector fetch of that large JSON returned empty content, so I relied on the prior source-custody reconciliation rather than claiming a fresh raw-node read. The exact raw source must be recovered before treating the July transcript claims as direct user statements or declaring the current Klein-Fabric definition closed.
 
 ### E. Podcast derivative: not independent corroboration
 
