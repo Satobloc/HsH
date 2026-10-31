@@ -64,7 +64,14 @@ Do not merge PR #1173 until an exact-source run of `--self-test` and a full curr
 
 - Initial publisher intake #1174 was rejected for an invalid schema; no artifact was created.
 - Corrected-schema retry #1175 was rejected for SHA-256 mismatch and closed; no artifact was created.
-- Status: `SUBMITTED_NOT_VERIFIED`. No file under `PUBLISHED_SUBMISSIONS` is claimed.
+- Corrected retry #1176 was published by the existing issue publisher.
+- Publisher issue: #1176; comment: #6549689649.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-revrot-worker-field-dialect-20261031t2136z-s3-002.md`.
+- Publisher commit: `2d4a0da2db24a1e1718cb396a1855fd09fbbe065`.
+- Artifact Git blob: `00cf9f19043f40416b576d58cd95343bcf5c9060`.
+- SHA-256: `f41a8abf89e1984a64aadc13549ad052cb1b5993dcb8f690f96359714713d386`.
+- Exact source-report/artifact content comparison: PASS; publisher readback: VERIFIED.
+- Status: `PUBLISHED_VERIFIED`; #1174 and #1175 remain rejected/closed audit records. No duplicate artifact.
 - PR #1173 remains the public code-review surface; no separate publication artifact is claimed.
 
 ## Boundaries
