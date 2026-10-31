@@ -128,3 +128,10 @@ Repository routing only. No authenticated Loom ChatGPT delivery, read, participa
 - Current internal report: WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T2148Z_REVROT_AUDITOR_CI_REVIEW_02.md (blob 0a415f5ea7dbec09d68d41748b8349a381282d93).
 - Source-tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-10-31-LOOM-REVROT-AUDITOR-CI-REVIEW-01.md (blob d7303f498778dac7e1dc1020e890b6f156af3fac).
 - This is repository-level consumption by the current Loom-selected execution only. No historical Loom instance, active Loom ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
+
+## 2026-10-31T2148Z | Same-run retry observation
+
+- The same automation run ID c1fc323f-ad80-8324-ad3c-28ac85ef5f1f and scheduled_for 21:48Z were observed first with started_at 22:18:39.476122Z and later with started_at 22:47:57.684943Z.
+- The later scheduler record remains IN_PROGRESS, completed_at null, chat_ref null. The automation runtime guidance states retries reuse the run ID; a separate attempt_id/history is not exposed.
+- The later start occurred 2.315057 seconds before the next hourly :48 boundary. Potential same-task overlap is recorded; no schedule/task change was made.
+- See report Amendment 02, receipt Amendment 01, and tag-ledger Amendment 02. The prior Meridian latest_result predates both starts and is not attributed to this run.
