@@ -242,3 +242,17 @@ Issue #1158 was rejected for SHA-256 mismatch and created no artifact. The exact
 ## 2026-10-31T1658Z publisher verification
 
 Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 SUCCESS; publisher comment 6546404408; commit 20bcf29d0acc3743289643c6dc3c4a1cf72ef3c4; SHA-256 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Published artifact blob 34330cbdd40dfb1f2a3094e2c5ace8cff400b3dc was independently fetched; exact content and digest match issue #1159 and staged draft. Issue #1158 is rejected/no artifact; correction comment points to #1159. No further retry.
+
+
+## 2026-10-31T2012Z Tern h500 optional Comptroller context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.**
+
+- Base handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2012Z_from_s1_to_s2_morrow.md`, current blob `a5adb2156843fa232ef4ada6382f6ba551e2dd6c`.
+- Addendum 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2012Z_from_s1_to_s2_morrow_ADDENDUM_01.md`, blob `556250ff21ec228958f55b04b661dab651ddaca2`.
+- Tern report: `WORKSPACES/TERN/2026-10-31T2012Z_H500_DISPATCH_MERSEARCH_AND_CI_AUDIT.md`, blob `71cf1483e394adc260cf017fb1b72eee430e5a30`.
+- Tern receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2012Z_s1_tern_rook.md`, blob `5e45bac400c1c0bae2f4d925244c98c4636b2777`.
+- Receipt amendment 01: blob `3df32c52cc09db84ed2333981e81fae60c8e3b59`.
+
+This is optional Comptroller/archive context only. Preserve Morrow's Team Archivist remit, theory freeze and training standdown. No physics or theory task, no paper/reviewer work, no reply required. Repository inbox pointer only; no cross-chat delivery, consumption or acknowledgment is claimed.
+
