@@ -266,3 +266,16 @@ Then inspect current repository/generated state and choose the highest-informati
 - FIE not due; last full review 2026-10-27. Orson :36 completed unrelated reading in `TheTANGLE.txt`, lines 1561–1600; next cursor 1601. No repeated reading.
 - Next cursor: preserve Orson P1 ownership; optional Loom context concerns the separation of export-family relations, message ancestry, and execution context. No task or ownership transfer.
 - Terminal handoff path to Loom: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1748Z_from_s4_to_s0_loom.md`; repository packet creation/readback status is recorded separately after the terminal write.
+
+
+## 2026-10-31T2136Z | REVROT3 receipt-dialect repair
+
+- Run key `REVROT3-19-20261011:501:s3`; deterministic selection Sable (index 0), next Loom (index 1). This is a current assistant reconstruction, not an authenticated historical Sable thread.
+- Preflight read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding/start-here, Nathan Direct proof-first directive, Revival Rotation V3, thread routing, task/branch graph, current branch map, Sable inbox/checkpoint, and relevant Sable/Kestrel/Orson receipts/handoffs.
+- Recovered ordinary-Sable raw source: Revival Rotation conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, blob `3bf173c217e0755419152aa2225f39713929a5fe`. Direct user-role evidence is one bulk-triage request; broader systems/capability remit is assistant-authored synthesis. Do not conflate ordinary Sable with A. Sable Meridian.
+- Actual Kestrel receipt blob `5df831ebdea71bf17902be253e92259968f3aeab` exposes unbulleted `Selected worker` and `Next worker` fields. Current-main successor branch `research/sable-rotation-auditor-current-main-20261031t2136z`, PR #1173, adds both aliases and positive/negative regression; self-test count 24. PR #1173 remains draft. Stale PR #1134 closed as superseded, not merged.
+- Local source-derived Python replay and py_compile passed, but local bytes did not match the exact repository blob; not exact-source verification. GitHub Actions did not start from connector-authored commits. Full current-tree audit remains not run. Do not merge before exact-source self-test and full-tree audit.
+- Public report published via issue #1176. Publisher comment #6549689649; artifact blob `00cf9f19043f40416b576d58cd95343bcf5c9060`; SHA-256 `f41a8abf89e1984a64aadc13549ad052cb1b5993dcb8f690f96359714713d386`; exact readback verified. Intakes #1174 and #1175 were rejected and closed; no duplicate artifact.
+- Orson optional next-appearance packet was read; no task transfer. Loom receives optional context only, with no cross-thread delivery claim.
+- No scheduler/task/ID/cadence changes, no theory/BEDROCK/SAT-O/Blockwave changes, no physical calculation, no manuscript or paper-gate changes. No new tool/dependency. FIE last full review Oct 27; not due. Unrelated-reading cursor remains TheTANGLE line 1731.
+- Report: `WORKSPACES/SABLE/2026-10-31T2136Z_REVROT_AUDITOR_WORKER_FIELD_DIALECT_REPAIR.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2136Z_s3_sable.md`; successor PR #1173; superseded PR #1134.
