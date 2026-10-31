@@ -1,0 +1,77 @@
+RUN: 2026-10-31T21:12Z
+WORKER: Ravel
+RUN KEY: REVROT3-19-20261011:501:s1
+SCRIPT: WORKSPACES/RAVEL/CODE/2026-10-31T2112Z_MUON_G2_WORLDLINE_CURVATURE_CONTROL.py
+
+CLASSIFICATION
+- Real measured system: Fermilab E989 stored positive-muon beam.
+- Minkowski reference-orbit control using w = c t.
+- No fit; no independent prediction.
+- Not a SAT prediction, not native HsH ++++ curvature, not finite-core worldtube validation, not a medium test.
+- No elastic modulus, filament tension, or spring constant introduced.
+
+INPUTS
+- Magic momentum p0 = 3.094 GeV/c (nominal reference).
+- gamma = 29.3 (nominal magic gamma); beta = 0.999417412329.
+- Reference orbit radius R0 = 7.112 m.
+- Field index n = 0.108 (approximate; uncertainty not supplied).
+- noRF muon-weighted NMR frequency = 61,790,920.0 +/- 3.5 Hz.
+- CODATA 2022 shielded proton gyromagnetic ratio = 42.57638543 +/- 0.00000017 MHz/T.
+- noRF electric-field correction Ce = 382.1 +/- 26.8 ppb.
+- xRF Ce = 317.6 +/- 25.5 ppb.
+- xyRF5 Ce = 329.5 +/- 28.3 ppb.
+- xyRF6 Ce = 326.6 +/- 25.2 ppb.
+- Run4/5/6 combined Ce = 347 +/- 27 ppb.
+- CODATA 2022 muon mass = (1.883531627 +/- 0.000000042)e-28 kg.
+- e and c are exact SI definitions.
+
+NO-RF FIELD AND FORCE
+- B from muon-weighted NMR frequency: 1.4512955803 T.
+- Table-derived relative B uncertainty (including CODATA constant): 56.783 ppb.
+- F_lab = e beta c B = 6.9668086279e-11 N.
+- Field-only partial uncertainty: 3.9559756e-18 N.
+- p0 v / R0 = 6.9660384423e-11 N.
+- Difference between the two rounded reference calculations: 110.551 ppm.
+- p0/B implies R = 7.111213763 m, 0.786237 mm below the rounded 7.112 m reference.
+- This is a rounded-reference consistency check, not a physical residual or a 127 ppb test.
+- Cyclotron frequency from the reference orbit: 6.70495702 MHz.
+
+CURVATURE CONTROL
+- Spatial path curvature 1/R0: 0.1406074241 m^-1.
+- Coordinate second-derivative magnitude |d2x/dw2| with w=ct: 0.1404436395 m^-1.
+- Intrinsic Minkowski proper-time worldline curvature: 120.5694601 m^-1.
+- Proper curvature radius: 8.293974 mm.
+- Ratio intrinsic/coordinate curvature = gamma^2 = 858.49.
+- Lab acceleration: 1.26224448e16 m/s^2.
+- Proper acceleration: 1.08362427e19 m/s^2.
+- Force-form cross-checks differ from geometric values by about 110 ppm, inherited from rounded p0/R0 reference inputs.
+
+Ce-INFERRED RMS OFFSETS
+The paper gives Ce = 2 n beta^2/(1-n) <delta^2>
+and Ce = 2 n (1-n) beta^2 <x_e^2>/R0^2.
+Only the quoted Ce uncertainty is propagated; n, beta, p0, R0 and covariance are held fixed.
+
+Dataset        RMS delta                 RMS p (MeV/c)           RMS x_e (mm)
+noRF           0.00125689 +/- 0.00004408 3.88882 +/- 0.13638    10.02130 +/- 0.35144
+xRF            0.00114591 +/- 0.00004600 3.54543 +/- 0.14233     9.13641 +/- 0.36678
+xyRF5          0.00116718 +/- 0.00005012 3.61124 +/- 0.15508     9.30600 +/- 0.39964
+xyRF6          0.00116203 +/- 0.00004483 3.59532 +/- 0.13870     9.26496 +/- 0.35744
+Run4/5/6 comb. 0.00119777 +/- 0.00004660 3.70590 +/- 0.14418     9.54993 +/- 0.37154
+
+CONTROLLED RF COMPARISON
+- xRF/noRF inferred RMS momentum-offset ratio: 0.91172.
+- Inferred RMS momentum offset decreases 8.828%.
+- Ce decreases 16.881%.
+- NMR field changes +0.306 ppm.
+- This is a beam-dynamics response under different RF configurations, not evidence for a SAT medium.
+
+PRECISION FLAGS
+- Report prose states total field uncertainty of 48-51 ppb.
+- Table XXVIII's 3.5 Hz on 61.790920 MHz implies 56.8 ppb.
+- Unresolved. The table-derived 56.8 ppb is retained conservatively for the partial force uncertainty.
+- Ce inversion is a derived RMS-offset estimate from a published correction, not a raw momentum standard deviation.
+- No shot-level raw momentum series or full covariance used.
+- No fit, no independent prediction, no SAT parameter calibrated.
+
+RESULT
+The real-system control supports the distinction between coordinate bending and intrinsic Minkowski worldline curvature. At gamma=29.3 they differ by gamma^2=858.49; they converge in the low-velocity limit. This does not validate the native HsH ++++ frame, the finite-core worldtube, or the responsive-medium coupling.
