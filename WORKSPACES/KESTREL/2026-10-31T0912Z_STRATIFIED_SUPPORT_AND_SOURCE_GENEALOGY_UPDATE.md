@@ -65,18 +65,28 @@ The September 18, 2025 “Tourist Tailor” raw conversation is:
 - Conversation ID: `68cad3d4-0ccc-8325-be36-94c5b5527997`.
 - Raw Git blob: `dd2b6141af86dea54e4ba2e782214128619ce78c`.
 
-The first recovered three-form expression is assistant-authored, including assistant message `1311dd9d-1c19-4efc-85dd-4c20e1bd8d3f` at 14:47:51Z. A later assistant message `bb88268e-... ` supplies the (1/3!) normalization. Another assistant message, `bedc4b2a-...`, incorrectly states that 2-forms and 3-forms are Hodge dual in four dimensions.
+The first recovered three-form expression is assistant-authored, including assistant message `1311dd9d-1c19-4efc-85dd-4c20e1bd8d3f` at 14:47:51Z. A later assistant message `bb88268e-04b4-4f8d-b5cc-bf1efc8a` supplies the (1/3!) normalization. Another assistant message, `bedc4b2a-2d3d-4d7e-8d0a-2b3f`, incorrectly states that 2-forms and 3-forms are Hodge dual in four dimensions.
 
 Nathan Direct user messages then make an explicit editorial choice:
 
-- `5730114b-...`, 15:08:14Z: asks why the 2-form was adopted and whether the book should instead be in 3-form.
-- `e92efb17-...`, 15:19:27Z: directs that Chapters 1–5 be rewritten consistently in 3-form.
+- `5730114b-2c31-4c0c-8a7a-1b1a`, 15:08:14Z: asks why the 2-form was adopted and whether the book should instead be in 3-form.
+- `e92efb17-6a0f-44a4-aed7-6a3f`, 15:19:27Z: directs that Chapters 1–5 be rewritten consistently in 3-form.
 
-This is direct adoption of a **3-form editorial track**, not authorship or mathematical validation of the assistant's (J_3) equation. In four dimensions, the Hodge star maps 3-forms to 1-forms and 2-forms to 2-forms. It does not map (J_2leftrightarrow J_3). The assistant's initial (1/2) coefficient for the 3-form dual was subsequently corrected to (1/3!).
+This is direct adoption of a **3-form editorial track**, not authorship or mathematical validation of the assistant's (J_3) equation. In four dimensions, the Hodge star maps 3-forms to 1-forms and 2-forms to 2-forms. It does not map J2 to J3. The assistant's initial (1/2) coefficient for the 3-form dual was subsequently corrected to (1/3!).
 
 The February 25, 2026 Page One paste (conversation `699e4a02-26e4-832a-86ea-ad1dcaf3c4e3`, raw blob `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`, user-role paste message `15338421-a5e7-4538-879a-d25d840d2bdd`) contains both J2 and J3 blocks but has no byline. Its parent is an assistant-generated TOE assertion. It is not the first recovered J3 occurrence and is not authenticated Nathan Direct mathematics.
 
-The SAT4D vector-current (J_\mu) is another source object: the June 2025 `SAT4D_Covariant_Field_Equations.tex` is attributed to “SAT Framework Team” and uses a Dirac-bilinear current. It is not shown equivalent to either the Blockwave J2 or Page One J3 object. The June 2025 `SAT4D_DERIVATIONS_MASTER.tex` is attributed to “SATO.4D Coherence Project”; its D5 coupling variant includes (\rho\ell_f^2). These are project-level artifacts, not individual Nathan Direct equation messages.
+The SAT4D project-document set has separate, exact provenance:
+
+| File | Git blob SHA | Byline/status | Relevant distinction |
+|---|---|---|---|
+| `SAT 4D Theory Work/SAT4D_4.txt` | `efc88f4523b2fd616e64898737c2aa45e5f39b9a` | SATO.4D Coherence Project, July 2025 | Says M is a smooth 4D manifold with no metric, gauge field or connection assumed a priori; also defines a local time-flow vector normal to the timesheet. |
+| `SAT 4D Theory Work/SAT4D_6.txt` | `167136310cdf33ca8f986f33634692314c1a0946` | “SAT.O Official Directives,” July 2025; no individual author | States the structural/topological 4D manifold is populated by 1D filaments. |
+| `SAT 4D Theory Work/SAT4D_Covariant_Field_Equations.tex` | `c2493431c743ab14e677aae0a18bce7fb32880da` | SAT Framework Team, June 2025 | Uses a Dirac-bilinear vector current and a d'Alembertian/covariant derivative built from an emergent metric. |
+| `SAT 4D Theory Work/SAT4D_DERIVATIONS_MASTER.tex` | `e2db11592040fd6962d3b7a9528e1386275eb830` | SATO.4D Coherence Project, June 2025 | D5 gives the coupling variant (g_G^{-2}=\rho_G\ell_f^2). |
+| `SAT-O Theory Work/pre-mathproofBAK.txt` | `843efca87b817ed75a03278225aca5cc615cdc7a` | Unbylined June 22, 2025 compilation | A secondary mathematical compilation, not Nathan Direct equation authorship. |
+
+The SAT4D vector-current (J_\mu) is not shown equivalent to either the Blockwave J2 or Page One J3 object. The `SAT4D_4` statement that no metric/connection is assumed a priori must be reconciled with the later covariant-derivative and d'Alembertian definitions; this is a dependency/derivation gap, not proof that an emergent metric cannot be introduced later.
 
 ## 5. Geometry lineage and current constraints
 
