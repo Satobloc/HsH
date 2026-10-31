@@ -157,3 +157,17 @@ This is routed to Loom for a single additive provenance/tag check. No existing t
 **SOURCE_FIDELITY_DELTA_COMPLETE.** Parent-graph distinction established; exploratory one-particle question classified correctly; BEC-worldtube branch preserved; existing conditional Lean group proof repaired and exact-head build verified; PR #1153 remains draft; issue #1154 body corrected but publisher retry is unavailable.
 
 No CODATA scoring, physical calculation, new tooling, new branch, new task, scheduler change, PR merge, paper-gate advancement, BEDROCK theory promotion, signet, or conversation rename.
+
+
+## 9. Factory Floor disposition
+
+The exact-head Lean build succeeded, so the earlier Sable receipt's conditional cursor was satisfied: a provenance-complete pending packet was prepared.
+
+- Packet: `WORKSPACES/SABLE/FACTORY_HANDOFF_PENDING_2026-10-31T1400Z_KLEIN_ORIENTATION_KERNEL.json`.
+- Git blob SHA-1: `72b92bbb93e4243996129478427d6d7d1ea78206`.
+- Exact readback: verified.
+- Target repository: `Satobloc/FACTORY_FLOOR`, default branch `main`.
+
+The Factory Floor README and `FLOORROOM_TODO.md` were read. A human-readable formal-verification intake register and route `1 GLASS+HSH -> 2 WORKSHOP` exist, but no machine-readable intake endpoint, allocated Floor ID, or authorized recipient was identified. The expected root `README.md` and `TODO.md` do not resolve; the actual `FLOORROOM_TODO.md` is present. No direct Factory Floor write, new issue, or delivery was made.
+
+**Factory status: FACTORY_HANDOFF_PENDING / INTAKE_UNVERIFIED / NOT_DELIVERED.**
