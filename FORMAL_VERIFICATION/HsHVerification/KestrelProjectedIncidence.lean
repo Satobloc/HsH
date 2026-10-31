@@ -77,10 +77,39 @@ theorem distinct_sources_can_have_same_readout :
     simp [rightSource] at h0
   · simp [collapsedReadout, leftSource, rightSource]
 
+/-- Two individually non-injective sector readouts can jointly identify a
+source configuration if, on the admissible domain, every distinct pair is
+separated by at least one channel. This is a conditional identifiability
+criterion; it does not establish that any physical H(s)H readout pair has
+the required separation property. -/
+theorem joint_readout_injective_of_separating_pair
+    {Z : Type*} (p₁ : X → Y) (p₂ : X → Z)
+    (hsep : ∀ x₁ x₂, x₁ ≠ x₂ →
+      p₁ x₁ ≠ p₁ x₂ ∨ p₂ x₁ ≠ p₂ x₂) :
+    Function.Injective (fun x => (p₁ x, p₂ x)) := by
+  intro x₁ x₂ hpair
+  have hp₁ : p₁ x₁ = p₁ x₂ := congrArg Prod.fst hpair
+  have hp₂ : p₂ x₁ = p₂ x₂ := congrArg Prod.snd hpair
+  by_contra hne
+  rcases hsep x₁ x₂ hne with hne₁ | hne₂
+  · exact hne₁ hp₁
+  · exact hne₂ hp₂
+
+/-- Once coarse-graining identifies two source configurations, no
+deterministic downstream readout can recover their distinction. -/
+theorem downstream_readout_cannot_restore_coarse_collapsed_pair
+    {Z : Type*} (g : X → Y) (r : Y → Z)
+    {x₁ x₂ : X} (h : g x₁ = g x₂) :
+    (r ∘ g) x₁ = (r ∘ g) x₂ := by
+  change r (g x₁) = r (g x₂)
+  exact congrArg r h
+
 #print axioms genuine_intersection_projects_to_overlap
 #print axioms projected_overlap_lifts_if_injective
 #print axioms disjointness_preserved_if_injective
 #print axioms noninjective_readout_can_create_spurious_overlap
 #print axioms distinct_sources_can_have_same_readout
+#print axioms joint_readout_injective_of_separating_pair
+#print axioms downstream_readout_cannot_restore_coarse_collapsed_pair
 
 end HsHVerification.KestrelProjectedIncidence
