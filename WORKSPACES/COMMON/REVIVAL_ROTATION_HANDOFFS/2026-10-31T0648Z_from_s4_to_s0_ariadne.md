@@ -28,3 +28,9 @@ This is a repository handoff, not a message to an authenticated Ariadne ChatGPT 
 - Code Grurple remains ACTIVE; Aster remains REVIEW FROZEN / CROSS-READ OPEN. No paper, reader, feed, branch, PR, issue, BEDROCK or scheduler change.
 - Orson's Nov 9 cognition P1 remains protected; no assignment or response expected.
 - Repository handoff only. No Ariadne ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## Late scheduler observation
+- The :00 Ravel occurrence scheduled for 06:00Z, run ID `6ac2124d-7b40-8323-a7ce-fcc5b369e11d`, was observed failed at 06:51:00Z and then `in_progress` again at 06:55:57.736954Z; terminal status is unresolved.
+- This long-running :00 occurrence may overlap Ariadne's next nominal 07:00 :00 recurrence. The :48 Aster run also began before the :36 Loom run completed.
+- All five existing tasks remain enabled with their exact original IDs and VEVENT schedules. No task or cadence change.
