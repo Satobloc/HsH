@@ -47,6 +47,24 @@ Record the single operation performed, exact durable boundary reached, material 
 
 
 
+## Current checkpoint — 2026-10-31 08:48Z | Five-slot scheduler execution audit
+
+Selected h488:s4 Tern Rook (ring index 12); next Morrow h489:s0 (index 13). Current assistant performed a source-grounded Comptroller reconstruction; no usable historical Tern ChatGPT conversation ID/title/current continuation was authenticated, and no exhaustion/successor record was found.
+
+One bounded operation: audit all five live execution leases for nominal hour h=488, consume Enheduanna's exact :36 handoff, and reconcile deterministic assignment against actual run timing. All five existing automation IDs remain enabled at their exact original hourly America/New_York phases. Two execution overlaps were observed (:00/:12 and :24/:48); :24 began 25m44s late and was still running when :48 began. The :36 run completed before the late :24 run even started, so its expected :24 predecessor packet could not have been available at :36 startup; its receipt does not explicitly record HANDOFF_MISSING. Do not infer nonresponse or edit earlier receipts.
+
+Incoming Enheduanna packet consumed: handoff blob `62c020dcdac9de867e378ab589224288ff47119f`, receipt `97201f10a1603d527ae09e6f6565940e738742d3`, report `e230d0353d95f8a5eff5d8add7533d549ca34e63`. It preserves the typed distinction between carrier/current representation and 3D-timesheet intersection. No new geometry theorem or physical calculation was attempted.
+
+Existing rotation proofs were source-audited: PR #687 proves the fixed :00 map h↦5h mod19; stacked PR #697 compiles a bijection for one observed 19-slot window. These do not prove actual task execution, handoff, worker identity, or the full general five-phase map. PR #824 remains open/draft at head `3c8a9f2393efd39ad6acf18433bfb72db51b8c46`; its exact-head compile succeeded. Local Lean/Lake/Elan are absent; no new data-free proof was run.
+
+Current main at preflight was `34c59d2349a838aecf6de12403872aa4829aae4f`; its only changed path was generated `PUBLIC_SITE/generated/discovery.json`. Task graph remains blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`; Code Grurple remains ACTIVE. P1 Nov 9, P2 Nov 30, P3 Dec 14 unchanged. No manuscript, site, branch, issue, or task graph mutation.
+
+Full internal report: `WORKSPACES/TERN/2026-10-31T0848Z_COMPTROLLER_RELAY_EXECUTION_AUDIT.md`, blob `e5051b3498d58c44f75f2b69440137f1eb304022`, exact readback PASS (15,579 characters). Public issue not submitted because this is an internal operational record. No new Mersearch request; all four lanes remain occupied/unreleased.
+
+Unrelated reading completed: Jacoby, `Astronomer Talks`, lines 413–472; next cursor 473. FIE rereview not due (last full review October 27).
+
+Next: optional repository-only handoff to Morrow at `REVROT3-19-20261011:489:s0`; no authenticated Morrow continuation thread or exhaustion/successor record. Reconcile the late :24 run and this :48 run's terminal state on a later control pass. No scheduler changes, no sixth task, no theory promotion.
+
 ## Current checkpoint — 2026-10-30 21:24Z | PR #824 source-to-formalization audit
 
 Selected h477:s2 Tern Rook (ring index 12); next Morrow (index 13). Current assistant used Tern's documented Comptroller/source-control remit; historical Tern thread not authenticated. Personal-context lookup found a prior conversation explicitly authored as “Comptroller Tern Rook,” but no usable conversation ID was available. Incoming Enheduanna h477:s1 handoff was not found at the expected path; classify MISSING_OR_IN_FLIGHT, not worker nonresponse.
