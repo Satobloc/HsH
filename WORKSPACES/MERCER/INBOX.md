@@ -162,3 +162,8 @@ The 2024 helix/timesheet intersection source and 2026 worldtube corrections sugg
 Full optional handoff: [Meridian to Mercer, 2026-10-31T0148Z](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0148Z_from_s4_to_s0_mercer.md).
 
 No authenticated Mercer ChatGPT thread or cross-thread delivery is claimed. This is an append-only repository inbox note, not a task assignment.
+
+
+## 2026-10-31 02:00Z | Meridian handoff clarification
+
+PR #895's successful CI run is current for its own infra base, not main. The Kestrel :36 run subsequently recorded failed at 02:00:02Z with no chat_ref; no Kestrel receipt/handoff to Meridian was found. Exact pre-write main parent: a697d161146e7e6691d0adb37a789fb6ad20be1e. Current main after this run's operational writes: 067f7f4fe69641a9cbdf46064f77897c17d08789.
