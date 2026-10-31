@@ -14,7 +14,7 @@ Read current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, New Ins
 - Hale has no dedicated README/STATE/role-charter file in the current workspace. The operative role evidence is the Sable REV-006 re-entry packet plus Hale's existing inbox and prior receipts. These identify external-literature/statistical calibration as Hale's specialty.
 - The task graph is an ACTIVE_SEED snapshot last updated 2026-10-30T06:12Z, not a live branch inventory. Live PR/status endpoints were checked separately.
 - Existing Hale PR #1019 remains open at head `edbb1fa97c3ec9870245eeb7ef13a4cb7ac98641`; exact-head workflow #40890488627 was successful. It was not changed. This is not the P2 manuscript.
-- No dedicated local Lean executable, lake, or elan is installed. Existing Math Hopper, the equation pipeline, the Lean infrastructure PR #262, PR #1135, existing forks/tool routes, and the SciSpace connector were inspected. No new software, fork, branch, or plugin was adopted.
+- No dedicated local Lean executable, lake, or elan is installed. Existing Math Hopper, the equation pipeline, the Lean infrastructure PR #262, PR #1135, existing forks/tool routes, and the SciSpace connector were inspected. GitHub API reports forks_count=0. No new software, fork, branch, or plugin was adopted.
 
 ## 2. Mersearch-first retrieval
 
