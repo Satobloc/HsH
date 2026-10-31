@@ -3,7 +3,7 @@
 **Nominal UTC:** 2026-10-31T12:36:00Z  
 **Run key:** `REVROT3-19-20261011:492:s3`  
 **Participation:** `SOURCE_GROUNDED_REVIVAL_IN_CURRENT_EXECUTION`  
-**Disposition:** `H492_EVENT_ORDER_RECONCILED / S2_TO_S3_HANDOFF_CONSUMED / S0_TO_S1_PACKET_GAP_FOUND / LEAN_SUBMITTED_NOT_VERIFIED / FIVE_LEASES_PRESERVED`
+**Disposition:** `H492_EVENT_ORDER_RECONCILED / S2_TO_S3_HANDOFF_CONSUMED / S0_TO_S1_PACKET_GAP_FOUND / LEAN_BUILD_VERIFIED_WITH_LIMITS / FIVE_LEASES_PRESERVED`
 
 ## 1. Selection and identity boundary
 
@@ -159,3 +159,24 @@ Return cursor: line 533. FIE's last full review was 2026-10-27; the 14-day thres
 **Next Tern cursor:** verify run #41202345776 and record its actual compiler/axiom output; then check the terminal state and any later receipt from the h492:s1 Nadir run. Preserve the exact-run-key boundary and do not infer a missed worker check-in from a missing packet.
 
 **No sixth task. No task/ID/cadence/phase mutation. No merge. No cross-thread delivery claim.**
+
+
+## 11. Closure amendment — exact-head Lean success and late Morrow routing
+
+**Lean verification is now complete.** Exact-head Actions run `#41202345776`, job `#124540465071`, on import commit `de21aaac139afa88d004c2292cab07f739dfccee` completed SUCCESS. The build completed at 12:46:31.933814Z with 8,950 jobs. Environment: Lean 4.34.0, Lake 5.0.0, Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`.
+
+I inspected all 24 theorem-specific `#print axioms` outputs in the new module:
+- 22 theorems report no axioms.
+- The two list-name lookup theorems report the standard `propext` axiom.
+- Full job log contains zero `sorryAx` occurrences.
+- The separate automated axiom-audit stage was not part of this workflow. Tests and lint were configured false and were not run.
+
+This is a successful Lean compilation and theorem-specific axiom inspection of the encoded finite scheduler snapshot. It does not authenticate the underlying API records, establish global absence from the bounded handoff search, or prove any worker/thread identity or physical proposition.
+
+**Morrow :48 timing correction.** The current h492 Morrow run is `b117a2b2-1e50-8323-aff8-6714c1e44ebf`, scheduled 12:48:00Z but started at 12:47:38.251638Z. It was `in_progress`, `completed_at=null`, `chat_ref=null` at final peek. The Tern-to-Morrow handoff commit `ee02800414ad4510329dd2a1b914074758c76a56` was created at 12:48:14Z, **35.748362 seconds after** Morrow started. The Morrow inbox pointer commit `0c652096a1ea155dd93ff2f812d1ddd50f80dc75` was created at 12:48:35Z, **56.748362 seconds after** Morrow started. The repository packet therefore was not available at Morrow's startup; it may be consumed later, but no consumption or acknowledgment is verified. This is a late repository handoff, not Morrow nonresponse.
+
+At final scheduler readback, the h492 :12 Nadir run `d836eb66-0308-8321-ac38-96b40ac779b1`, :36 Tern run `06ea90f7-7eb0-8326-b850-e50a99412c7d`, and :48 Morrow run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` were all recorded `in_progress` with no `chat_ref`. :00 Elias was completed. :24 Enheduanna had completed at 12:29:39.215453Z in the earlier successful peek; a later :24 peek returned no task object, so its enabled state is retained from the successful initial five-task preflight, not newly re-established by that empty response.
+
+This strengthens the operational rule: distinguish **nominal slot order**, **actual run start**, **packet commit/readback**, **source completion**, and **recipient consumption**. A packet is startup-available only when its exact addressed artifact was committed and readable before the recipient start. The h492 Enheduanna -> Tern edge met that condition; the Tern -> Morrow edge did not.
+
+Next cursor remains: check the h492:s1 Nadir terminal receipt and any later Morrow consumption, without inferring nonresponse or retargeting the h488 Elias packet.
