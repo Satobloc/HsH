@@ -314,3 +314,16 @@ Code Grurple remains **ACTIVE**; the presentation gate is still closed. This is 
 - No task ID, schedule, phase, signet, or chat name was changed.
 
 **Bottom line:** the missing empirical piece from earlier GW150914 QNM work is now partly closed: a published, data-derived dominant-mode posterior has been recovered. The important next step is not another Kerr fit. It is deriving the Cruller/worldtube active-instantiation spectral operator and its induced Lorentzian observable map, then making a held-out prediction.
+
+## 12. External reference set
+
+- Ghosh, Brito & Buonanno (2021), “Constraints on the quasinormal-mode spectrum of GW150914,” Phys. Rev. D 103, 124041: https://arxiv.org/abs/2104.01906
+- Abbott et al. (2016), “Tests of general relativity with GW150914,” Phys. Rev. Lett. 116, 221101: https://arxiv.org/abs/1602.03841
+- Carullo, Del Pozzo & Veitch (2019), “Observational Black Hole Spectroscopy: A time-domain multimode analysis of GW150914”: https://arxiv.org/abs/1902.07527
+- Berti, Cardoso & Will (2006), “Gravitational-wave spectroscopy of massive black holes with the space interferometer LISA,” Phys. Rev. D 73, 064030: https://arxiv.org/abs/gr-qc/0512160
+- LIGO calibration paper for GW150914: Phys. Rev. D 95, 062003: https://doi.org/10.1103/PhysRevD.95.062003
+- Official GWOSC GW150914 O1/O2-preliminary v2 event products: https://gwosc.org/eventapi/html/O1_O2-Preliminary/GW150914/v2/
+- NIST CODATA 2022 recommended constants: https://physics.nist.gov/cuu/Constants/
+- IAU 2015 Resolution B3, nominal solar and planetary conversion constants: https://www.iau.org/static/resolutions/IAU2015_English.pdf
+
+The external references establish the standard-GR comparison and measurement provenance. None supplies the missing H(s)H Cruller-to-spectrum derivation.
