@@ -21,84 +21,108 @@ This module isolates a conditional two-sample algebraic readout:
 - bias and noise have already been removed.
 
 Under those assumptions, two phase samples identify the two projected
-components exactly iff sin(alpha2 - alpha1) is nonzero. A single phase
-sample is not injective. This is a local observability result, not a
+components when the phase-separation determinant is nonzero. A single
+phase sample is not injective. This is a local observability result, not a
 reconstruction of the full GP-B time-varying estimator, not a 3D rotor
 orientation reconstruction, not an SO(4) lift, and not an H(s)H law.
 
 No Nathan Direct GP-B/worldtube readout equation was recovered. This is
 a standard-reference formalization and assistant reconstruction only.
+Local Lean identifiers use descriptive names rather than bare alpha, which
+is reserved in the shared symbol registry for the fine-structure constant.
 -/
 
 namespace HsHVerification.NadirGPBPhaseReadout
 
 /-- Bias-subtracted, noiseless one-sample projection from Eq. (2). -/
-def onePhaseReadout (cg alpha : ℝ) (mu : ℝ × ℝ) : ℝ :=
-  cg * (mu.1 * Real.cos alpha + mu.2 * Real.sin alpha)
+noncomputable def onePhaseReadout
+    (scaleFactor rollPhase : ℝ) (misalignmentNSWE : ℝ × ℝ) : ℝ :=
+  scaleFactor *
+    (misalignmentNSWE.1 * Real.cos rollPhase +
+      misalignmentNSWE.2 * Real.sin rollPhase)
 
 /-- Two samples with known scale factors and roll phases. -/
-def twoPhaseReadout (cg1 cg2 alpha1 alpha2 : ℝ)
-    (mu : ℝ × ℝ) : ℝ × ℝ :=
-  (onePhaseReadout cg1 alpha1 mu, onePhaseReadout cg2 alpha2 mu)
+noncomputable def twoPhaseReadout
+    (scaleFactor1 scaleFactor2 rollPhase1 rollPhase2 : ℝ)
+    (misalignmentNSWE : ℝ × ℝ) : ℝ × ℝ :=
+  (onePhaseReadout scaleFactor1 rollPhase1 misalignmentNSWE,
+   onePhaseReadout scaleFactor2 rollPhase2 misalignmentNSWE)
 
-/-- At phase zero, one scalar sample cannot identify the second component. -/
-theorem one_sample_phase_zero_not_injective :
-    ¬ Function.Injective (onePhaseReadout 1 0) := by
+/-- Any single scalar phase readout has a nontrivial one-dimensional kernel. -/
+theorem one_sample_readout_not_injective
+    (scaleFactor rollPhase : ℝ) :
+    ¬ Function.Injective (onePhaseReadout scaleFactor rollPhase) := by
   intro hinj
+  let zero : ℝ × ℝ := (0, 0)
+  let kernel : ℝ × ℝ := (-Real.sin rollPhase, Real.cos rollPhase)
+  have hneq : zero ≠ kernel := by
+    intro h
+    have hs : Real.sin rollPhase = 0 := by
+      have hfst := congrArg Prod.fst h
+      dsimp [zero, kernel] at hfst
+      linarith
+    have hc : Real.cos rollPhase = 0 := by
+      have hsnd := congrArg Prod.snd h
+      dsimp [zero, kernel] at hsnd
+      exact hsnd.symm
+    nlinarith [Real.sin_sq_add_cos_sq rollPhase]
   have hread :
-      onePhaseReadout 1 0 (0, 0) =
-        onePhaseReadout 1 0 (0, 1) := by
-    simp [onePhaseReadout, Real.cos_zero, Real.sin_zero]
-  have hpair : ((0 : ℝ), 0) = ((0 : ℝ), 1) := hinj hread
-  have hfalse : (0 : ℝ) = 1 := congrArg Prod.snd hpair
-  norm_num at hfalse
+      onePhaseReadout scaleFactor rollPhase zero =
+        onePhaseReadout scaleFactor rollPhase kernel := by
+    simp [onePhaseReadout, zero, kernel]
+    ring
+  exact hneq (hinj hread)
 
 /-- The 2x2 readout determinant is the sine of the phase separation. -/
-theorem determinant_eq_sin_phase_difference (alpha1 alpha2 : ℝ) :
-    Real.cos alpha1 * Real.sin alpha2 -
-      Real.sin alpha1 * Real.cos alpha2 =
-        Real.sin (alpha2 - alpha1) := by
+theorem determinant_eq_sin_phase_difference
+    (rollPhase1 rollPhase2 : ℝ) :
+    Real.cos rollPhase1 * Real.sin rollPhase2 -
+      Real.sin rollPhase1 * Real.cos rollPhase2 =
+        Real.sin (rollPhase2 - rollPhase1) := by
   rw [Real.sin_sub]
   ring
 
 /-- With nonzero gains and nondegenerate phase separation, the two-sample
     readout uniquely identifies the frozen NS/WE projected pair. -/
 theorem two_phase_readout_injective
-    (cg1 cg2 alpha1 alpha2 : ℝ)
-    (hcg1 : cg1 ≠ 0)
-    (hcg2 : cg2 ≠ 0)
-    (hphase : Real.sin (alpha2 - alpha1) ≠ 0) :
-    Function.Injective (twoPhaseReadout cg1 cg2 alpha1 alpha2) := by
+    (scaleFactor1 scaleFactor2 rollPhase1 rollPhase2 : ℝ)
+    (hscale1 : scaleFactor1 ≠ 0)
+    (hscale2 : scaleFactor2 ≠ 0)
+    (hphase : Real.sin (rollPhase2 - rollPhase1) ≠ 0) :
+    Function.Injective
+      (twoPhaseReadout scaleFactor1 scaleFactor2 rollPhase1 rollPhase2) := by
   have hdet :
-      Real.cos alpha1 * Real.sin alpha2 -
-        Real.sin alpha1 * Real.cos alpha2 ≠ 0 := by
+      Real.cos rollPhase1 * Real.sin rollPhase2 -
+        Real.sin rollPhase1 * Real.cos rollPhase2 ≠ 0 := by
     rw [determinant_eq_sin_phase_difference]
     exact hphase
   intro x y h
   have h1 :
-      onePhaseReadout cg1 alpha1 x =
-        onePhaseReadout cg1 alpha1 y := congrArg Prod.fst h
+      onePhaseReadout scaleFactor1 rollPhase1 x =
+        onePhaseReadout scaleFactor1 rollPhase1 y := congrArg Prod.fst h
   have h2 :
-      onePhaseReadout cg2 alpha2 x =
-        onePhaseReadout cg2 alpha2 y := congrArg Prod.snd h
+      onePhaseReadout scaleFactor2 rollPhase2 x =
+        onePhaseReadout scaleFactor2 rollPhase2 y := congrArg Prod.snd h
   have h1' :
-      x.1 * Real.cos alpha1 + x.2 * Real.sin alpha1 =
-        y.1 * Real.cos alpha1 + y.2 * Real.sin alpha1 :=
-    mul_left_cancel₀ hcg1 h1
+      x.1 * Real.cos rollPhase1 + x.2 * Real.sin rollPhase1 =
+        y.1 * Real.cos rollPhase1 + y.2 * Real.sin rollPhase1 :=
+    mul_left_cancel₀ hscale1 h1
   have h2' :
-      x.1 * Real.cos alpha2 + x.2 * Real.sin alpha2 =
-        y.1 * Real.cos alpha2 + y.2 * Real.sin alpha2 :=
-    mul_left_cancel₀ hcg2 h2
+      x.1 * Real.cos rollPhase2 + x.2 * Real.sin rollPhase2 =
+        y.1 * Real.cos rollPhase2 + y.2 * Real.sin rollPhase2 :=
+    mul_left_cancel₀ hscale2 h2
   have hx :
       (x.1 - y.1) *
-        (Real.cos alpha1 * Real.sin alpha2 -
-          Real.sin alpha1 * Real.cos alpha2) = 0 := by
-    linear_combination h1' * Real.sin alpha2 - h2' * Real.sin alpha1
+        (Real.cos rollPhase1 * Real.sin rollPhase2 -
+          Real.sin rollPhase1 * Real.cos rollPhase2) = 0 := by
+    linear_combination h1' * Real.sin rollPhase2 -
+      h2' * Real.sin rollPhase1
   have hy :
       (x.2 - y.2) *
-        (Real.cos alpha1 * Real.sin alpha2 -
-          Real.sin alpha1 * Real.cos alpha2) = 0 := by
-    linear_combination h2' * Real.cos alpha1 - h1' * Real.cos alpha2
+        (Real.cos rollPhase1 * Real.sin rollPhase2 -
+          Real.sin rollPhase1 * Real.cos rollPhase2) = 0 := by
+    linear_combination h2' * Real.cos rollPhase1 -
+      h1' * Real.cos rollPhase2
   have hdx : x.1 - y.1 = 0 :=
     (mul_eq_zero.mp hx).resolve_right hdet
   have hdy : x.2 - y.2 = 0 :=
@@ -107,7 +131,7 @@ theorem two_phase_readout_injective
   · exact sub_eq_zero.mp hdx
   · exact sub_eq_zero.mp hdy
 
-#print axioms one_sample_phase_zero_not_injective
+#print axioms one_sample_readout_not_injective
 #print axioms determinant_eq_sin_phase_difference
 #print axioms two_phase_readout_injective
 
