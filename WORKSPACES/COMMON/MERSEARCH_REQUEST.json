@@ -1,29 +1,28 @@
 {
-  "request_id": "morrow-br005-time-normal-source-20261031-1253",
-  "requester": "Workshop Relay :48 / Morrow Team Archivist source recovery",
-  "requested_at": "2026-10-31T12:53:00Z",
+  "request_id": "nadir-so4-original-source-geometry-genealogy-20261031-1944",
+  "requester": "Workshop Relay :48 / Nadir Voss finite-core SO(4) playground source recovery; current-assistant reconstruction, not authenticated historical Nadir",
+  "requested_at": "2026-10-31T19:44:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"theta_4\" OR \"theta4\" OR \"θ₄\" OR \"theta 4\") AND (\"time normal\" OR \"timesheet normal\" OR \"time-normal\" OR \"inverse helical pitch\" OR \"inverse pitch\" OR \"winding pitch\"))) OR ((\"theta_4\" OR \"theta4\" OR \"θ₄\" OR \"theta 4\") NEAR/15 (\"time normal\" OR \"timesheet normal\" OR \"time-normal\" OR \"inverse helical pitch\" OR \"inverse pitch\" OR \"winding pitch\")) OR (author:user AND ((\"parallel to the time normal\" NEAR/12 filament) OR (\"parallel to timesheet motion\" NEAR/12 filament)))",
-  "purpose": "Source-only recovery of the raw user-role message underlying the 2026-09-16 θ₄/time-normal/inverse-pitch entry in !!_RUNNING_COTHEORIST_LOG.md and BEDROCK BR-005. Locate original ChatGPT conversation export, message UUID, outer role, timestamp, parent/adjacent turns, exact source path and blob SHA; distinguish raw Nathan user-role source from NotebookLM chat captures, flattened transcripts, assistant-authored Ravel kernels, summaries and later reconstructions. Search all three permitted repositories. No theory integration, physical calculation, new Lean formalization, prediction, paper work or promotion.",
+  "query": "(name:*Donut* OR name:*HOLONOMY* OR path:*Donut* OR path:*HOLONOMY*) OR (author:user AND ((SO4 OR \"SO(4)\" OR \"four spatial dimensions\" OR \"++++\") NEAR/18 (holonomy OR \"finite core\" OR \"finite-core\" OR worldtube OR \"rotation expansion\" OR Donut))) OR (author:user AND (\"stacked holonomy\" OR \"rotation expansion\" OR \"rotation-expansion\" OR \"Donut canon\" OR \"HOLONOMY DRAFT\")) OR (author:assistant AND ((SO4 OR \"SO(4)\") NEAR/12 (holonomy OR \"frame connection\" OR \"finite core\")))",
+  "purpose": "Mersearch-first original-source genealogy for Nadir Voss's independent finite-core all-plus SO(4)/stacked-holonomy playground. Locate primary SAT-O/Blockwave Donut and holonomy formulations, raw Nathan user-role geometry statements about native ++++ / SO(4), finite-core/worldtube, rotation-expansion, frame/normal transport and holonomy, and historical assistant-authored equations separately. Preserve exact repository/path/blob SHA/source commit, raw conversation ID/message UUID, outer role, timestamp, adjacent context, verbatim equations and equation-string hashes where feasible. Distinguish recovered source from assistant reconstruction, standard mathematics, existing Nadir sandbox and new proposal. Discovery only; no new data-free calculation, physical calculation, new Lean theorem, theory promotion, BEDROCK change, or paper-gate change.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate raw conversation paths, exact blob SHAs and source commit SHAs",
-    "message UUID, outer role, author metadata, timestamp, parent/adjacent messages where available",
-    "duplicate/derivative lineage and exact source-vs-summary distinctions",
-    "coverage, exclusions, large-file/extension limitations and explicit bounded negative results"
+    "candidate original SAT-O/Blockwave documents, exact blob SHAs, source commit SHAs and source dates",
+    "raw Nathan user-role conversation paths, conversation IDs, message UUIDs, timestamps, parent/adjacent messages and exact source locators where available",
+    "verbatim original equations with SHA/date kept separate from corrected or assistant-translated equations",
+    "duplicate/derivative lineage, source-authorship boundaries, three-root coverage and explicit exclusions/limitations"
   ],
   "exclusions": [
-    "Do not overwrite another pending/running lane; lane 1 prior request has verified manifest and receipt and is being reused under the documented completed-lane rule",
-    "Do not treat NotebookLM message role=user as a raw ChatGPT role or as Nathan Direct without original source authentication",
-    "Do not treat flattened transcript files, Ravel reconstruction kernels, BEDROCK, or RUNNING_COTHEORIST_LOG as the raw source",
-    "Do not infer authorship from a user-role pasted passage",
-    "Do not enter PRIOR_ART or QUARANTINE",
+    "Use lane 1 only after verifying the previous lane-1 request has a complete request-scoped manifest and receipt; do not overwrite any pending/running lane",
+    "Do not treat NotebookLM user-role captures, flattened transcripts, summaries, BEDROCK or assistant-generated playground equations as raw Nathan Direct",
+    "Do not infer a physical equivalence from SO(4), holonomy, frame or worldtube vocabulary",
+    "Do not enter PRIOR_ART or QUARANTINE for this internal-source pass",
     "Do not publish raw excerpts or private HSH_RESOURCES content",
-    "No physics, theory, Lean, prediction, manuscript, paper-gate or BEDROCK changes"
+    "No physical calculation, data-free calculation, new Lean theorem, theory integration, paper work, manuscript, branch, PR, automation or BEDROCK promotion"
   ],
   "lane": 1,
   "status": "requested"
