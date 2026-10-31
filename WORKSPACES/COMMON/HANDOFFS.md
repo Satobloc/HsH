@@ -81,3 +81,4 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 
 - **2026-10-31 05:12Z — Morrow → Kestrel supplemental source-stratigraphy addendum**: optional context only; no task assigned. New addendum `REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_ADDENDUM_01.md`; full report `WORKSPACES/MORROW/2026-10-31T0512Z_FILAMENT_ONTO_PROPER_DIMENSIONALITY_4DHH_ADDENDUM_01.md`; tag ledger `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-FILAMENT-ONTO-PROPER-DIMENSIONALITY-4DHH-01.md`. Repository-only; consumption unverified.
+- Supplemental execution receipt: `REVIVAL_ROTATION_RECEIPTS/2026-10-31T0512Z_s1_morrow_SUPPLEMENT_01.md` (blob `91ad9c6f480cc95e7503d98e345c48dbebda51b9`); later duplicate dispatch remains scheduler-in-progress at readback.
