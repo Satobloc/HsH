@@ -11,7 +11,7 @@ Direct geometric anchors:
   `252d05c0-22ed-4ea2-a474-7966ab13145a`.
 * HsH raw conversation "Meridian Free Build", Git blob
   `7af1561b321f4d9364da5eb111df689efc652827`, conversation
-  `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`.
+  `6ac45d1f-17b0-83ea-ad1f-fa524602378b`.
 
 Those direct statements motivate a finite-core carrier and a labelled family
 of three-dimensional timesheets. They do not supply a constitutive law for
