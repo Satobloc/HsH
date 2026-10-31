@@ -9,7 +9,7 @@
 ## Report
 
 `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT.md`  
-Git blob: `1137c29fffda3d4809da84a384cfbff02717aea8`
+Git blob: `e76a666f4d65fef40625a155abe2a5741384b09e`
 
 ## Optional Track A relevance
 
@@ -30,3 +30,7 @@ Those states must not collapse into a single `verified` flag. In particular, an 
 This is only an optional example for Elias's existing Track A workflow-switchboard remit. No physics task, review, experiment, deadline, production change, or response is requested. Elias retains prototype operation/documentation only, with no SAT/H(s)H theory or production authority.
 
 **No action required.** Repository-only context; not a ChatGPT invitation or evidence of consumption.
+
+
+## Addendum 01 | 2026-10-31T1154Z
+The linked report was corrected after a source check: the Johnstone apparatus is a 39-micrometre disc, approximately 2×10^5 atoms and condensate fraction at least 0.5. The earlier 125×85-micrometre/2.2-million/67(3)% values belong to the separate Gauthier programme and were removed from the Johnstone section. Updated report blob: `e76a666f4d65fef40625a155abe2a5741384b09e`. Optional context only; no action requested.
