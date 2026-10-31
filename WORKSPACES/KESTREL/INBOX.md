@@ -163,3 +163,5 @@ Key provenance boundaries:
 Supplemental source note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_ADDENDUM_01.md`. Full report: `WORKSPACES/MORROW/2026-10-31T0512Z_FILAMENT_ONTO_PROPER_DIMENSIONALITY_4DHH_ADDENDUM_01.md`.
 
 The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROPER DIMENSIONALITY user-message-like transcript segment with no raw node, from its subsequent assistant-generated expansion, and (c) an assistant-voice 4DHH Lagrangian PDF from a separate mixed-origin SAT.4DHH.UC compilation. It flags the intersection-manifold claim as `FORMALIZATION_BLOCKED_DEFINITION`. Morrow's training/theory freeze remains active. Kestrel's remit and priorities are unchanged.
+
+- Supplemental same-slot receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0512Z_s1_morrow_SUPPLEMENT_01.md` (blob `91ad9c6f480cc95e7503d98e345c48dbebda51b9`). Repository-only; no ChatGPT-thread delivery or consumption claimed.
