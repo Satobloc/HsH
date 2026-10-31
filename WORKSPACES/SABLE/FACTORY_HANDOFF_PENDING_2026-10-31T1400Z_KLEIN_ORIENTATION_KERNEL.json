@@ -1,0 +1,163 @@
+{
+  "schema": "HSH_FACTORY_HANDOFF_PENDING_V1",
+  "packet_id": "sable-klein-orientation-kernel-20261031t1400z-s0",
+  "status": "FACTORY_HANDOFF_PENDING",
+  "created_utc": "2026-10-31T14:00:00Z",
+  "prepared_utc": "2026-10-31T14:45:00Z",
+  "source_worker_selection": {
+    "ring_role": "Sable",
+    "ring_index": 0,
+    "nominal_hour_h": 494,
+    "sequence": 2470,
+    "next_ring_role": "Loom",
+    "next_ring_index": 1,
+    "identity_status": "ROLE_SELECTION_ONLY_NOT_AUTHENTICATED_INSTANCE_OR_THREAD",
+    "workspace_lineage": "A. Sable Meridian; Sable-derived continuity branch; do not collapse into ordinary Sable or independent Meridian history"
+  },
+  "source_authority": {
+    "raw_export_repository": "Satobloc/HsH",
+    "raw_export_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+    "raw_export_blob_sha1": "b7868607d89f66bbc0e638398182fb2d6b2da2ce",
+    "conversation_id": "6a51def1-1224-83ea-8b56-d9405e694034",
+    "direct_user_messages": [
+      {
+        "id": "9671629d-7033-4188-92fb-7809df2933d8",
+        "timestamp_utc": "2026-07-12T20:48:18.739Z",
+        "claim": "Klein one-radius/two-radius question; missing from current tag ledgers."
+      },
+      {
+        "id": "3d392cc0-e113-47de-94f2-4615260b48fd",
+        "timestamp_utc": "2026-07-12T20:51:32.569Z",
+        "claim": "Clarifies inner versus outer circumference."
+      },
+      {
+        "id": "4886f70e-1f3e-41c7-8478-e08acfd97dc9",
+        "timestamp_utc": "2026-07-12T20:54:42.824Z",
+        "claim": "Exploratory one-particle-universe / rotation-multiplicity question."
+      },
+      {
+        "id": "bed36236-2f55-402a-9c9a-fa512f03c522",
+        "timestamp_utc": "2026-07-12T20:57:37.352Z",
+        "claim": "Clarifies rotation as a component of expansion."
+      },
+      {
+        "id": "54ba3cda-a0e1-4861-90f9-482f5850a245",
+        "timestamp_utc": "2026-07-12T21:02:25.701Z",
+        "claim": "Proposes inner/Kerr-ring, outer/cosmological-circumference, worldtube/neck, mouth/localization mapping."
+      },
+      {
+        "id": "b43f5b3e-9df9-417b-b6e7-dcd2a31858e7",
+        "timestamp_utc": "2026-07-12T21:09:09.392Z",
+        "claim": "Asks whether differential time/space expansion plus rotation supplies helical pitch."
+      },
+      {
+        "id": "ac413920-99c7-40c0-84b8-343fa8b001cc",
+        "timestamp_utc": "2026-07-12T21:39:58.589Z",
+        "claim": "Separate parent branch: BEC worldtube multiplicity already exists; straight tubes and helicity distinction."
+      }
+    ],
+    "assistant_authored_equations_not_nathan_direct": [
+      "Klein-bottle fundamental-group presentation and homology comparison",
+      "local-normal/radial exchange X_+ <-> X_-",
+      "single-filament n-fold-cover particle-count model",
+      "scalar expansion-plus-rotation ODE",
+      "differential-expansion/helical-pitch relation",
+      "thin-vortex helicity decomposition using circulation, self-linking, twist, writhe, and linking"
+    ],
+    "source_status": "RAW_ROLE_AND_PARENT_GRAPH_VERIFIED; group presentation and most equations are historical assistant reconstruction or standard reference, not Nathan Direct equations"
+  },
+  "formal_artifact": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 1153,
+    "pull_request_url": "https://github.com/Satobloc/HsH/pull/1153",
+    "branch": "research/sable-klein-orientation-kernel-20261031t1400z",
+    "base_branch": "infra/lean4-verification-20261023",
+    "head_sha": "8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac",
+    "draft": true,
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/KleinOrientationKernel.lean",
+    "module_blob_sha1": "15f659de79d604f37ea323c60527093de89e8823",
+    "lean_toolchain": "leanprover/lean4:v4.34.0",
+    "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+    "formalized_scope": [
+      "semidirect-product group law (m,n)(p,q)=(m+p,n+(-1)^m q)",
+      "Klein generator relation a*b*a^-1=b^-1",
+      "parity/orientation character",
+      "even-parity orientation kernel",
+      "componentwise multiplication and commutativity of the kernel"
+    ],
+    "exact_head_ci": {
+      "run_id": 41210929564,
+      "job_id": 124565546304,
+      "conclusion": "success",
+      "build_jobs": 8944,
+      "axiom_output": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "sorryAx": false,
+      "skipped": [
+        "tests",
+        "lint",
+        "nanoda",
+        "independent axiom audit"
+      ]
+    },
+    "epistemic_limits": [
+      "No orientation-double-cover homeomorphism proof",
+      "No explicit kernel isomorphism with Z^2",
+      "No Klein embedding or metric radial function",
+      "No inner/outer radial exchange map",
+      "No map from group generators to Kerr ring/cosmological circumference",
+      "No worldtube-neck/mouth/timesheet composition",
+      "No rotational-expansion, pitch, BEC, or helicity formalization",
+      "No physical or observational validation"
+    ]
+  },
+  "source_fidelity_report": {
+    "repository": "Satobloc/HsH",
+    "path": "WORKSPACES/SABLE/2026-10-31T1400Z_KLEIN_ORIENTATION_GEOMETRY_FIDELITY.md",
+    "blob_sha1": "d69f4d1b4e160da5916d569c76c4171a029ef0f0",
+    "readback": "verified"
+  },
+  "publication_status": {
+    "existing_issue": 1154,
+    "submission_id": "sable-july-klein-raw-source-orientation-kernel-20261031t1400z-s0-001",
+    "original_publisher_status": "rejected for declared SHA-256 mismatch",
+    "corrected_body_sha256": "2654f394192d03bfc95c29ff9c987e054140a7e50a9e83df748868cfdb5ce37d",
+    "body_corrected_in_place": true,
+    "publisher_retriggers_on_issue_edit": false,
+    "published_artifact_present": false,
+    "status": "PUBLISHER_REJECTED_BODY_CORRECTED_NO_PUBLISHED_FILE",
+    "duplicate_issue_created": false,
+    "direct_contents_bypass": false
+  },
+  "target": {
+    "repository": "Satobloc/FACTORY_FLOOR",
+    "default_branch": "main",
+    "human_readable_register": "README.md and FLOORROOM_TODO.md read; README describes formal-verification intake register and route 1 GLASS+HSH -> 2 WORKSHOP",
+    "machine_readable_intake_endpoint": null,
+    "allocated_floor_id": null,
+    "authorized_recipient": null,
+    "delivery_status": "NOT_DELIVERED",
+    "reason": "No machine-readable intake endpoint or allocated Floor ID was identified. No direct write or new Factory Floor issue is authorized by the available route."
+  },
+  "guardrails": {
+    "no_new_branch": true,
+    "no_new_task": true,
+    "no_task_id_or_schedule_change": true,
+    "no_pr_merge": true,
+    "no_bedrock_promotion": true,
+    "no_codataa_scoring": true,
+    "no_physical_calculation": true,
+    "no_paper_gate_advance": true,
+    "no_cross_thread_delivery_claim": true
+  },
+  "next_cursor": [
+    "Verify an authorized Factory Floor intake endpoint and Floor ID before any delivery.",
+    "Keep PR #1153 draft and algebra-only.",
+    "Define the Klein embedding, radial function, normal transport, and deck map before claiming inner/outer exchange.",
+    "Keep the single-tube exploratory model separate from the BEC congruence of multiple straight worldtubes.",
+    "Define medium, circulation, framing, and boundary conditions before identifying helicity with a SAT/H(s)H invariant."
+  ]
+}
