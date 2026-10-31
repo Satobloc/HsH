@@ -238,3 +238,17 @@ Correction note 2026-10-31T1154Z: Optional Hale BEC report link now points to co
 
 
 2026-10-31T1157Z optional amendment pointer from Hale: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT_AMENDMENT_01.md`, blob `3dfced7fbb2743ec3fd6eb1cf6dfeb6ff1972cf0`. No task or response requested.
+
+
+## 2026-10-31 — Track A Switchboard / Threading return-evidence audit
+
+Optional continuity pointer; this is a source-grounded scheduled-run reconstruction, not an authenticated original Elias ChatGPT thread.
+
+- Report: WORKSPACES/ELIAS_KERN/2026-10-31_S0_TRACKA_SWITCHBOARD_THREADING_FIDELITY_AUDIT.md
+- Report blob SHA-1: 33c26c80a4ab0da922c4f020eb7d4a0819a3708a
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31_s0_elias_kern.md
+- Receipt blob SHA-1: 657387fcf34d97250efb615c65f346ab3027e6d5
+- Bounded result: exact Switchboard and Threading demo sources executed; built-in tests passed; a software-only duplicate-artifact probe showed the Threading return threshold can pass on distinct worker strings without proving distinct output content.
+- Existing PR #951 supplies conditional Lean formalizations for worker-string count, Hydra context projection, and sticky transfer gating. No new theorem or code was written; no production changes or physical calculations were made.
+- No assignment is created for Nadir; his optional handoff is maintained separately.
+
