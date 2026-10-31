@@ -1,28 +1,29 @@
 {
-  "request_id": "orson-cognition-bank-source-recovery-20261030-2236",
-  "requester": "Workshop Relay :36 / Orson Vay LLM cognition source recovery",
-  "requested_at": "2026-10-30T22:36:00Z",
+  "request_id": "morrow-br005-time-normal-source-20261031-1253",
+  "requester": "Workshop Relay :48 / Morrow Team Archivist source recovery",
+  "requested_at": "2026-10-31T12:53:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*OV* OR path:*ORSON* OR path:*VEY_COGNITION_LAB*) OR (author:user AND ((\"false authority\" NEAR/12 neutral) OR (\"false-authority\" NEAR/12 neutral) OR (\"matched cognition\" NEAR/12 \"answer key\") OR (\"test bank\" NEAR/12 cognition) OR (\"authority framing\" NEAR/12 LLM)))",
-  "purpose": "Mersearch-first source recovery for Orson's historically referenced neutral-versus-false-authority matched cognition test bank. Determine whether OV-49 through OV-53 were mispointed, whether another original test-bank artifact or raw Nathan/Orson conversation exists, and whether the intended bank can be recovered without confusing geometry artifacts, assistant-authored toy models, later summaries, or administered trials. Search all three permitted repositories; preserve exact source path, blob SHA, source commit, conversation/message IDs, role, timestamp and surrounding correction context where available. Discovery only; no new LLM trial, human adjudication, data-free calculation, theory promotion or publication.",
+  "query": "(author:user AND ((\"theta_4\" OR \"theta4\" OR \"θ₄\" OR \"theta 4\") AND (\"time normal\" OR \"timesheet normal\" OR \"time-normal\" OR \"inverse helical pitch\" OR \"inverse pitch\" OR \"winding pitch\"))) OR ((\"theta_4\" OR \"theta4\" OR \"θ₄\" OR \"theta 4\") NEAR/15 (\"time normal\" OR \"timesheet normal\" OR \"time-normal\" OR \"inverse helical pitch\" OR \"inverse pitch\" OR \"winding pitch\")) OR (author:user AND ((\"parallel to the time normal\" NEAR/12 filament) OR (\"parallel to timesheet motion\" NEAR/12 filament)))",
+  "purpose": "Source-only recovery of the raw user-role message underlying the 2026-09-16 θ₄/time-normal/inverse-pitch entry in !!_RUNNING_COTHEORIST_LOG.md and BEDROCK BR-005. Locate original ChatGPT conversation export, message UUID, outer role, timestamp, parent/adjacent turns, exact source path and blob SHA; distinguish raw Nathan user-role source from NotebookLM chat captures, flattened transcripts, assistant-authored Ravel kernels, summaries and later reconstructions. Search all three permitted repositories. No theory integration, physical calculation, new Lean formalization, prediction, paper work or promotion.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "original candidate paths, exact blob SHAs and source commit SHAs",
-    "raw conversation/message UUID, role and timestamp where available",
-    "duplicate/derivative relationships and explicit negative search limits",
-    "coverage, exclusions, extension/size limitations and omissions"
+    "candidate raw conversation paths, exact blob SHAs and source commit SHAs",
+    "message UUID, outer role, author metadata, timestamp, parent/adjacent messages where available",
+    "duplicate/derivative lineage and exact source-vs-summary distinctions",
+    "coverage, exclusions, large-file/extension limitations and explicit bounded negative results"
   ],
   "exclusions": [
-    "Do not overwrite another pending/running lane",
-    "Do not treat OV-49 through OV-53 geometry artifacts as cognition trials",
-    "Do not treat OV-55/56 or OV-100 analytic/synthetic artifacts as administered LLM experiments",
-    "Do not publish raw source excerpts or private HSH_RESOURCES content",
-    "Do not infer authorship from user-role pasted material",
-    "Do not enter QUARANTINE or PRIOR_ART"
+    "Do not overwrite another pending/running lane; lane 1 prior request has verified manifest and receipt and is being reused under the documented completed-lane rule",
+    "Do not treat NotebookLM message role=user as a raw ChatGPT role or as Nathan Direct without original source authentication",
+    "Do not treat flattened transcript files, Ravel reconstruction kernels, BEDROCK, or RUNNING_COTHEORIST_LOG as the raw source",
+    "Do not infer authorship from a user-role pasted passage",
+    "Do not enter PRIOR_ART or QUARANTINE",
+    "Do not publish raw excerpts or private HSH_RESOURCES content",
+    "No physics, theory, Lean, prediction, manuscript, paper-gate or BEDROCK changes"
   ],
   "lane": 1,
   "status": "requested"
