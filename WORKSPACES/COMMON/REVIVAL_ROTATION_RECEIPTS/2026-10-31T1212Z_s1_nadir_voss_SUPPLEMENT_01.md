@@ -43,4 +43,4 @@ Tern's 12:36Z dispatch audit recorded an earlier start observation (12:35:08Z) f
 - Publisher state: NOT_SUBMITTED_INTERNAL_ONLY.
 - No cross-chat delivery.
 
-**Supplement status: REPOSITORY_READBACK_PENDING.**
+**Supplement status: REPOSITORY_READBACK_VERIFIED.**
