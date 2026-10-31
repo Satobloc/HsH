@@ -113,3 +113,17 @@ No new Lean module/theorem was created. No PR or branch changed.
 - Write-route check: no local HsH checkout; GitHub connector offers read plus Contents API but no workflow-dispatch action; no appropriate existing Actions writer for this internal multi-file report. Used the GitHub Contents API fallback after checking the Tool Chest and current workflows. Independent readback is required for every artifact.
 
 **Next cursor:** check whether the :00 task exposes h500:s0 after the h499:s0 run stabilizes; preserve both :48 same-run snapshots and inspect whether its last_run mutates again; check for request-scoped manifests/receipts on lanes 1, 3 and 4 and resolve lane 2 only from actual workflow evidence; recover the H496 Actions log before reconciling 14 source commands versus the prior 13-output report.
+
+
+## 8. Final scheduler re-read addendum
+
+A later five-task peek, after 20:19:59.642625Z, changed the :48 observation again:
+
+- The same :48 run ID `ced66a9c-a284-8320-876a-870671ab83b5` now reports `completed`, with `started_at=20:11:45.341109Z` and `completed_at=20:19:59.642625Z`.
+- Earlier in this relay, the same ID had appeared `failed` with start 19:44:24.159756Z and completion 20:09:28.115603Z; it then appeared `in_progress` with start 20:11:45.341109Z. The current completed state matches the latter start time. No attempt ID is exposed. Preserve all three snapshots; do not infer retry/restart or collapse them into one stable interval.
+- The :48 `latest_result` now matches run ID `ced66a9c...`; the :00 and :12 `latest_result` objects remain stale relative to their current `last_run` IDs.
+- The :00 h499 run remains `in_progress` with its 19:59:40.756354Z start; no h500:s0 occurrence is visible yet.
+- The :12 h500 Tern run remains `in_progress`, started 20:10:18.134067Z with `chat_ref=null`. Repository work is durable, but scheduler completion is not claimed.
+- The :48 run's later start was 87.207042 seconds after the Tern :12 start; it completed 9m41.508558s after the Tern start while the Tern run remained in progress. The :00 h499 run also remained concurrently in progress.
+
+This strengthens the observation of mutable `last_run` fields and overlapping task executions, but still does not establish root cause, a missed firing, a duplicate attempt, or a worker nonresponse. No scheduler change was made.
