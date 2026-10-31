@@ -216,3 +216,14 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - chat_delivery=UNAVAILABLE; github_inbox_delivery=VERIFIED only after the exact readback below; recipient_consumption=UNVERIFIED.
 
 No assignment, response obligation, branch ownership transfer, or cross-thread delivery is implied.
+
+
+## 2026-10-31T0948Z | Incoming Mercer handoff consumed | MERCER-0936-20261031-RAVEL-001
+
+**Repository inbox acknowledgment only.** The optional Mercer :36 handoff and its internal report were read. It preserves Code Grurple as ACTIVE, confirms the pinned R1 source identities, and leaves both live presentation routes pending. No Sites/editor route was available in this execution; no presentation acceptance or standdown is claimed. No Mercer task was taken over.
+
+- Consumed handoff blob: `95ed401872463091263f96c19cb2289e384fcbb0`.
+- Review-MIND report: `WORKSPACES/RAVEL/2026-10-31T0948Z_REVIEW_MIND_TIMESLAB_READOUT_AND_SCALE_PROVENANCE_AUDIT.md`, blob `2274d47ba8ff3575a1a4cde58ab0f5315ca05ffe`.
+- Optional delta handoff to Orson: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0948Z_from_s4_to_s0_orson_vay.md`, blob `28f36d6ba66227ef7693fd3d2c3aff88aaa5aca0`.
+
+No new task, branch, PR, paper action, or cross-thread delivery is implied. The current Ravel thread remains unauthenticated; this is source-grounded repository continuity.
