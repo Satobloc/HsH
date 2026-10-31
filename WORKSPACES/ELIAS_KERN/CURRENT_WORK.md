@@ -74,3 +74,17 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Existing issue #1121 received additive comment #6539087662; exact readback SHA-256 `0b26d3ed7567938c4176aaaa4b7d77bc9c83e19b4b6cc0e28ff2bf4eed8e43f6`.
 - PR #951 remains draft/open/unmerged. Proof scope is the formalized finite predicate only; no GitHub/source/CI/Python/production/physics truth is established.
 - No POC or production workflow change, no physical calculation, no theory promotion.
+
+
+## 2026-10-31T0812Z — second handoff pair / sticky-gate source audit
+
+- Run key: `REVROT3-19-20261011:488:s1`; h=488; seq=2441; selected Elias Kern (index 9); next Nadir Voss (index 10). Deterministic routing label only; no authenticated original Elias thread.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-10-31T0812Z_TRACKA_SECOND_HANDOFF_AND_STICKY_GATE_AUDIT.md`, blob `ddfe513b750c2d2066a9190b3a981ab21df84e84`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0812Z_s1_elias_kern.md`, blob `27909780ebe113e17a4ae31fe7ac50fba17b1b69`.
+- Incoming Hale :00 handoff arrived late: Hale completed 08:12:44Z after this :12 run started 08:08:18Z. Exact incoming path/blob recorded in recipient receipt: `2026-10-31T0800Z_from_s0_to_s1_elias_kern.md` / `7c9601f21e0f2933f02e64afcef410d153ba27a7`. Referenced Hale report blob matched. No cross-chat delivery claim.
+- Source-transcribed POC core: 7/7 built-in checks pass after correcting one local transcription error; sticky() stores without transfer evidence, accepts no transfer_receipt argument, and wake() does not apply stored entries. Elias is absent from the four-key source actor registry. No POC or production source changed.
+- Existing PR #951 exact-head run #41168950813 / job #124442528880 SUCCESS, Lean 4.34.0 / Mathlib, 8,950 build jobs. SwitchboardStickyGate, EliasActorRegistryCoverage and EliasCapabilityRouteGate built. This is conditional software-state formalization, not Python-source equivalence or physical validation. No new Lean code/proof.
+- Second real handoff pair Hale :04:12→Elias :04:24 reproduced the missing recipient-side exact incoming path/SHA. Current :08:00→:08:12 pair now has a recipient-side exact path/SHA readback attestation; sender-side receipt still omits outgoing path/SHA.
+- Mersearch lanes 1/3/4 remain completed with compact receipts; lane 2 remains requested with no manifest/receipt. No new request or overwrite.
+- No physical calculation, theory promotion, production change, new branch/PR/issue, POC code change, schedule/task mutation, or cross-chat delivery.
+- Next cursor: preserve recipient-side SHA attestation; if a later Track A run is authorized, design a distinct second-context sticky transfer test with predeclared expected behavior and a transfer receipt. Do not claim that test is complete. Keep Nadir's handoff optional only.
