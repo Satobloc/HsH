@@ -160,3 +160,17 @@ Factory Floor README and TODO were read. No independently verified machine-reada
 - The current h=490 s1 Sable run was still in progress at the last check; no predecessor handoff was assumed.
 - Next: verify Mersearch #41192852584 and publisher issue #1146 before any new request or duplicate submission; then pass optional context to Aster (h=490 s3). No Aster-thread delivery or acknowledgment is claimed.
 - FIE rereview not due. Unrelated reading break was completed in the prior Loom run; not repeated.
+
+
+## 6. Source-file identity correction (same run)
+
+The complete Git tree was checked rather than relying on filename search snippets.
+
+- Exact SAT-O directives blob: `SAT 4D Theory Work/SAT4D_6.txt` = `167136310cdf33ca8f986f33634692314c1a0946` (2,881 bytes; document date July 2025).
+- Exact user-supplied Blockwave artifact: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt` = `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` (25,255 bytes). The earlier extraction ledger records SHA-256 `3d393...`; content author remains unresolved.
+- Exact separate overview attachment: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT—Blockwave Ideal Model.txt` = `dd0631bc0b25c951dc5e1d6738280e08487b46b2` (57,801 bytes). The Git tree confirms the file is not empty. The Contents API returned an empty body, while a Library tether in “The Tourist Tailor” exposes an opening excerpt; the full standalone bytes were not recovered. The earlier phrase “empty extraction” means only that the connector body was empty, not that the archived file is empty.
+- A separate 1,253,957-byte `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/BLOCKWAVE.txt` exists (blob `f7cd89d9b9d40efd91d31c538d7436847173eea9`); it is not the `🧱BLOCKWAVE.txt` attachment cited by the 2025-10-19 assistant response.
+
+The 2025-10-19 assistant message cites `🧱BLOCKWAVE.txt` and `SAT—Blockwave Ideal Model.txt`. Its displayed action is a cleaned-up assistant re-output of the J2 action present in the user-supplied `🧱BLOCKWAVE.txt` artifact, not an independent equation witness. The source artifact's embedded author remains unresolved; the assistant response is not Nathan Direct. The two file IDs in the 2025-10-19 retrieval are separate attachment references, but no evidence here establishes a new independent authoring event.
+
+This correction supersedes only the incomplete/truncated file-hash and “empty extraction” wording above; it does not change the mathematical or attribution conclusions.
