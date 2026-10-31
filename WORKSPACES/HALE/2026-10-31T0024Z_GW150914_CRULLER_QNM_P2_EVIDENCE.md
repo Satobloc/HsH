@@ -160,6 +160,8 @@ Lean checks only the formalized statements. It does not validate source translat
 
 **Measured-data source used here:** Ghosh, Brito & Buonanno (2021), Phys. Rev. D 103, 124041, arXiv:2104.01906. The paper's pSEOBNR parameterized waveform uses the full inspiral-merger-ringdown signal. It keeps the inspiral/merger GR structure and allows the dominant (ell,m,n)=(2,2,0) QNM frequency and damping time to vary; other QNM modes remain at GR values. The likelihood assumes stationary Gaussian detector noise with a PSD and a 20 Hz lower frequency for GW150914. This is a model-dependent posterior inference, not a ringdown-only raw-data fit.
 
+**Post-merger-only and multimode cross-checks:** Abbott et al. (2016), PRL 116, 221101, fit a damped sinusoid to post-merger data at start times 1, 3, 5, and 6.5 ms after the MAP merger time. The 90% contour begins to overlap the GR QNM prediction at 3 ms; at 5 ms the MAP point is inside the GR contour. The corresponding damped-sinusoid-vs-noise Bayes factors/SNRs decrease with later start time (approximately log10 B=14, SNR=8.5 at 3 ms; log10 B=6.5, SNR=6.3 at 5 ms; log10 B=3.5, SNR=4.8 at 6.5 ms); these are signal-vs-noise evidences, not H(s)H-vs-GR odds. The signal becomes undetectable at about 9 ms. This gives an empirical transition window, not a timesheet-thickness measurement. Carullo et al. (2019), arXiv:1902.07527, find no evidence for more than one QNM and caution that central frequency/damping posteriors alone do not unambiguously identify a single mode; their Kerr-informed analysis cannot discriminate the l=2 and l=3 mode subsets. Thus the 220 assignment in the 2021 pSEOBNR analysis is model-conditioned, not an independent mode identification. These are complementary analyses of the same event, not independent experiments.
+
 **Important independence limit:** the QNM-inferred remnant mass/spin and the IMR/NR-fit remnant mass/spin are different model routes on the same event, not independent experiments. A true H(s)H prediction must be generated without fitting this event and tested against held-out measured data.
 
 **Calibration/noise:** the inspected pSEOBNR likelihood section does not document explicit detector-calibration nuisance marginalization. The GW150914 calibration literature reports frequency-dependent H1/L1 amplitude/phase uncertainties (broadly below 10% and 10 degrees across the analysis band; more detailed band extrema are available). Do not assume those uncertainties are included in the quoted QNM posterior unless a calibration-marginalized analysis is identified. The Gaussian-noise assumption is another model condition.
@@ -273,7 +275,7 @@ The Kerr QNM result is an **external Lorentzian control** for the Cruller-genera
 
 ## 9. P2 recommendation and separate observable channels
 
-Recommend GW150914 as the **primary P2 ringdown/spectral benchmark candidate**, not as a final adopted dataset. It has a measured dominant-mode posterior and an independent model-route comparison, but raw samples/covariance and calibration treatment still need recovery.
+Recommend GW150914 as the **primary P2 ringdown/spectral benchmark candidate**, not as a final adopted dataset. It now has a post-merger-only damped-sinusoid analysis, a time-domain multimode analysis, and a later full-IMR parameterized QNM posterior. They are complementary analyses of the same H1/L1 event, not independent experiments; raw posterior samples/covariance and calibration treatment still need recovery.
 
 Keep other candidates separate:
 
