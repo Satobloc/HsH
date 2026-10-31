@@ -145,3 +145,19 @@ No new physical calculation, Lean theorem, branch, PR, public issue or theory pr
 - **Source distinction:** Nathan's July 11 and September 6 direct messages keep Kelvin-vortex/medium coupling exploratory. The older Srena transcript's detailed like-sign-repulsion/opposite-sign-attraction rule is assistant-authored, not a recovered Nathan force law. The Anderson 2000 single-vortex core/precession experiment and the Tonomura/Osakabe 1986 electromagnetic holonomy experiment constrain different channels.
 - **Assignment:** NONE. Optional context only. Preserve Calder's empirical/statistical null-design, covariance, provenance and independent-falsification remit. The empirical Calder thread ID remains UNKNOWN; do not route to the separate `⚗️ CALDER` identity. No ChatGPT cross-thread delivery or acknowledgment is claimed.
 
+
+
+---
+
+## 2026-10-31T1136Z | Calder :36 source correction
+
+- **Run key:** `REVROT3-19-20261011:491:s3`; selected ring label Calder, next Hale.
+- **Identity:** current-assistant source-grounded reconstruction. Empirical Calder thread ID remains UNKNOWN. The archived `⚗️ CALDER` thread is the separate Foundational Covariance / Global Architecture Calder and was not used as a destination.
+- **Correction:** the 11:24Z Aldus handoff incorrectly identified Seo et al. (2017), DOI 10.1038/s41598-017-04122-9, as 87Rb. The primary Methods section specifies 23Na in `|F=1,mF=-1>`. Do not transfer 87Rb parameters from separate comparator studies.
+- **Publisher:** issue #1149 was rejected because its payload omitted required `sha256`; no artifact was created. Corrected issue #1150 published successfully via run #41197652313. Artifact blob `8efc07f040e6cd11e475fc099a83649d1ee8de3d`; SHA-256 `56881d161889f1331d8fdd8b6b3f33f03e3ebd2b767b56eddd8a48c59cc9229d`; exact issue/artifact content match PASS.
+- **Statistical improvement:** specify conditional shot-level sign permutation preserving positions and N+/N-, jointly recomputing C2, dipole fraction and cluster fraction. Do not treat 2Nv neighbor relations as independent. Calibrate the morphology fallback used for close dipoles and confirm independent-preparation versus repeated-measures structure.
+- **Data boundary:** raw images, per-shot catalog and covariance were not obtained; the paper offers data on reasonable request. No request was sent. No H(s)H prediction or fit.
+- **Internal report:** `WORKSPACES/CALDER/2026-10-31T1136Z_SEO23NA_BEC_SIGN_CORRELATION_SOURCE_AND_NULL_DESIGN.md`, final blob `0c8028aec36fb9f71fd094dc42cc17f70e75c61a`.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1136Z_s3_calder.md`.
+- **Optional next-label handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1136Z_from_s3_to_s4_hale.md`. No task or ownership transfer.
+- **No cross-thread delivery or acknowledgment claimed.**
