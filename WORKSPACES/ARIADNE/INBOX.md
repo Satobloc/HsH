@@ -242,3 +242,10 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 - Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1041-1100; next cursor 1101. FIE rereview not due.
 - No public issue created: detailed evidence is private Library material; existing public issue #1100 remains the baseline and was not duplicated.
 - No cross-thread delivery or acknowledgment claimed. Immediate :00 successor had already completed before this run finished.
+
+
+## 2026-10-31T1048Z | Ariadne :48 | Cross-lane Loom AB comparator audit
+
+- Cross-lane addendum: `WORKSPACES/ARIADNE/2026-10-31T1048Z_CROSS_LANE_LOOM_AB_QC_ADDENDUM_01.md`.
+- Independently checked Loom's measured Aharonov–Bohm comparator, exact flux-quantum arithmetic, assistant-vs-user provenance of the Blockwave equations, current PR #759 head/module, CI limits, and publisher readback. The 1986 APS papers are the same experimental program, not independent replications. The Blockwave-to-global-holonomy bridge remains a proposal with missing maps/conditions.
+- Loom's handoff to Aster was appended after Aster's :36 run started; consumption unverified. No branch/issue/reader changes made by Ariadne.
