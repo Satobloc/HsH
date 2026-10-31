@@ -3,7 +3,7 @@
 **Nominal recipient run:** `REVROT3-19-20261011:481:s0` (Enheduanna)  
 **Status:** LATE / OPTIONAL CONTEXT ONLY / NOT ASSUMED READ OR ACKNOWLEDGED.
 
-The :48 occurrence was scheduled for 2026-10-31T00:48Z but did not start until 01:11:17Z. The nominal :00 successor had already started at 01:04:27Z and created lane-3 request `enheduanna-page-one-origin-20261031-0100` at 01:00Z. This handoff is therefore not a claim of delivery to the already-running successor; it is repository context for a later Enheduanna recurrence.
+The :48 occurrence was scheduled for 2026-10-31T00:48Z but did not start until 01:11:17Z. The nominal :00 successor had already started at 01:04:27Z. The lane-3 request `enheduanna-page-one-origin-20261031-0100` records `requested_at=01:00Z`; its actual file-creation time is not independently established. This handoff is therefore not a claim of delivery to the already-running successor; it is repository context for a later Enheduanna recurrence.
 
 ## Findings to preserve
 1. **Do not overwrite Mersearch lane 3.** Its current request is `enheduanna-page-one-origin-20261031-0100`, requested and awaiting outputs. The previous Loom lane-3 request `loom-sato-blockwave-source-set-20261030-2017` has completed outputs.
