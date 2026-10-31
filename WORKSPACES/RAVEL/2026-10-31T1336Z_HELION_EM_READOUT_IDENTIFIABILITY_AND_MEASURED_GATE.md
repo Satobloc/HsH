@@ -275,3 +275,22 @@ When the new run completes, inspect its exact-head conclusion, full log, all nin
 5. Freeze the electric calibration and test the magnetic form factor with no independent magnetic profile.
 
 **No physical prediction or theory promotion is claimed.**
+
+
+---
+
+## 10. Lean completion addendum — 2026-10-31 13:53Z
+
+The new exact-head run completed successfully after the earlier pending observation.
+
+- PR #993 head remained `ea72b5a4072c297b13240f6ea3924e28325690f1`.
+- Actions run: [#41207194774](https://github.com/Satobloc/HsH/actions/runs/41207194774), run number 734.
+- Job: `verify`, job ID `124554843195`.
+- PR workflow checked out merge commit `a8533f80e0b3b9e5dd6bfe7cad4faf84ca3c3311`, whose message explicitly merges the exact PR head into base `61cc8b65ffed70296e0121dbae067892a79c81d4`.
+- Lean 4.34.0 / Lake 5.0.0.
+- Build completed successfully: 8,948 jobs; the new module built at job 8,946/8,948.
+- Nine theorem-specific `#print axioms` reports were emitted. Each reports standard Lean axioms `propext`, `Classical.choice`, and `Quot.sound`; no project-specific physical axiom was introduced.
+- Full job log: zero occurrences of `sorryAx`.
+- `lake test`, `lake lint`, nanoda, and the separate automated axiom-audit action were skipped by workflow configuration. This is a successful build and theorem-axiom printout, not a separate lint/test/audit pass.
+
+The nine rational statements are now compile-verified. Their scope remains exact arithmetic over rounded published values and conditional uncertainty components. The source measurements, shielding theory, current map, form-factor model and H(s)H interpretation remain external premises and are not proved by Lean.
