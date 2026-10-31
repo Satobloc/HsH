@@ -124,3 +124,23 @@ Detailed report: `WORKSPACES/RAVEL/2026-10-31T1724Z_CARRIER_SLICE_NONINJECTIVITY
 Common receipt and Orson handoff/inbox delivery were blocked by safety checks; no alternate write path was used. Orson's cognition remit and approximately 4/5 substantive activation target remain protected; no physics assignment or cognition-protocol change.
 
 **Next cursor:** recover a source-defined geometry-to-current / physical response map, then freeze one actual measured channel with dataset provenance, units, calibration, uncertainty and covariance before any numerical comparison. Do not infer this map from the set-intersection theorem.
+
+
+## Addendum | 2026-10-31T2112Z
+
+The October 31 21:12Z run recovered additional Nathan Direct geometry statements and completed a real-data Fermilab E989 Minkowski reference-orbit control. See the 21:12Z report and its committed Python script, summary log, and full JSON output.
+
+Current source corrections:
+- Do not carry the 2025 O1 V_tension term forward as a native physical law. The later direct instruction explicitly rejects invented elastic modulus, filament tension, and microscopic spring constant.
+- Preserve the distinction between the 4D filament/coil and its 3D intersectional trace. The 1D O1 curve and later “4D filament” wording are not yet reconciled by a source-defined support dimension or thickening map.
+- The 3D timesheet/time-bulk is interactive. Geometric intersection/instantiation is not the physical interaction operator. Avoid “readout slices” as ontology; direct preference is instantiation/intersection/cobordism/truncation.
+- The induction-current connection within timesheet thickness remains a tentative direct hypothesis, not a recovered equation.
+- Preserve w=ct as a historical Minkowski control and cw=t / Forest Normalization / ++++ as the later native convention. Do not infer a conversion without symbol types.
+
+The E989 calculation uses published measured NMR and electric-field-correction summaries. It gives a real-system centerline control, not a SAT prediction or finite-core/medium validation. At gamma=29.3, coordinate curvature with w=ct is 0.14044364 m^-1 and intrinsic Minkowski proper-time curvature is 120.56946 m^-1, a factor gamma^2=858.49. No elastic constant was introduced. No fit or independent prediction was claimed. Field-uncertainty and Ce-covariance limitations remain explicit in the report.
+
+Existing PR #1133 remains draft and unchanged. Its compiled target is a bare set-intersection formalization, not the physical timesheet interaction or worldtube thickening. The “MinimalCarrierReadout” name is legacy and should be considered for later renaming to intersection/instantiation terminology; no code change was made.
+
+Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; not due. Unrelated reading: TheTANGLE.txt lines 1201-1240; next cursor 1241.
+
+Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the original hourly :12 America/New_York schedule. No task or schedule edit. Current run was still in progress at final observation.
