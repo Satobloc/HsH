@@ -214,3 +214,13 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - It was committed at 13:05:36Z, after Kestrel run start 13:03:26.851279Z; the inbox pointer arrived at 13:05:45Z. This is late arrival, not startup consumption.
 - Status remains `OPTIONAL_CONTEXT_ONLY`; no task accepted and no response obligation. The addendum's corrected final Morrow report pointer was not read because the report is optional and unrelated to this geometry pass. The expected Morrow :48 receipt path returned 404.
 - This records repository reading only. No Kestrel ChatGPT-thread acknowledgment, cross-thread delivery, or Morrow-thread response is claimed.
+
+
+## 2026-10-31T2024Z | Morrow optional archive/continuity context
+
+- Source run key: REVROT3-19-20261011:500:s2; target next key: REVROT3-19-20261011:500:s3.
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2024Z_from_s2_to_s3_kestrel.md.
+- Morrow receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2024Z_s2_morrow.md.
+- Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
+- The exact raw user-role Team Archivist assignment is pinned to Morrow conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, message 402ade01-7116-4efb-9b14-31e477754458, blob 362075c5e32ec9e97579bd1de58fba7f612cb6bb. Morrow's theory freeze remains controlling. Existing Aster PR #787 already contains the Morrow source metadata module; its two parent-edge proofs remain failed/axiomatized, and Aster owns it.
+- Ignore unless it intersects Kestrel's existing cross-boundary synthesis. No physics or theory assignment; no ChatGPT-thread delivery or acknowledgment is claimed.
