@@ -174,3 +174,10 @@ The complete Git tree was checked rather than relying on filename search snippet
 The 2025-10-19 assistant message cites `🧱BLOCKWAVE.txt` and `SAT—Blockwave Ideal Model.txt`. Its displayed action is a cleaned-up assistant re-output of the J2 action present in the user-supplied `🧱BLOCKWAVE.txt` artifact, not an independent equation witness. The source artifact's embedded author remains unresolved; the assistant response is not Nathan Direct. The two file IDs in the 2025-10-19 retrieval are separate attachment references, but no evidence here establishes a new independent authoring event.
 
 This correction supersedes only the incomplete/truncated file-hash and “empty extraction” wording above; it does not change the mathematical or attribution conclusions.
+
+
+## 7. Exact-hash and CI-ref completion
+
+The 2025-09-16 `🧱BLOCKWAVE.txt` upload's full content SHA-256 is `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; its exact HsH archive Git blob is `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`. The two bytesets are verified identical by the existing Loom extraction ledger.
+
+The exact PR #759 merge ref tested by CI #41193158202 is `21f7edf61e8e1c3adc8ebb5455414849e67fab1b` (merge of PR head `2c371f7269a728a647dd04a52b868c3d99aa7f13` into base `a650534ce484ff56f0cdfe831cba6bfada3e0dc7`). The Factory handoff packet was corrected to this exact merge-ref SHA; the earlier placeholder value in its first version is superseded.
