@@ -1,28 +1,31 @@
 {
   "lane": 4,
-  "request_id": "alberr-sat-o-worldline-timesheet-interbraid-20261030-1212",
-  "requester": "Workshop Relay :12 / Alberr bounded source-recovery curiosity; current assistant reconstruction, not authenticated historical Alberr",
-  "requested_at": "2026-10-30T12:12:00Z",
+  "request_id": "ariadne-kirk-riley-source-lineage-20261031-1119",
+  "requester": "Workshop Relay :48 / Ariadne source archaeology; current assistant reconstruction, not authenticated historical Ariadne",
+  "requested_at": "2026-10-31T11:19:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"worldline\" NEAR/12 \"filament\") OR (\"time\" NEAR/8 \"sail\") OR (\"timesheet\" NEAR/12 \"intersection\") OR (\"worldtube\" NEAR/12 \"filament\") OR (\"wavesheet\" OR \"time wavefront\") OR (\"interbraid\" OR \"back-tug\" OR \"back tug\") OR (\"theta_4\" OR \"θ₄\") OR (\"maximum bending energy\"))) OR (author:assistant AND ((\"Blockwave\" NEAR/12 \"action\") OR (\"worldsheet current\") OR (\"filament current\") OR (\"finite-core\" NEAR/12 \"worldtube\") OR (\"J^{mu nu}\" OR \"J^{\\mu\\nu}\")))",
-  "purpose": "Source discovery across all three permitted repositories for interrelated original SAT-O/Blockwave geometry and mathematical constructions. Recover user-authored direct geometry separately from assistant-authored equations; identify exact repository/path/blob SHA, message speaker/ID/timestamp, adjacent corrections, later supersession, duplicate/derivative relationships, and coverage limits. This is discovery and archival self-study only, not a physical calculation, theory promotion, or claim of historical Alberr participation.",
+  "query": "(name:*KIRK* OR name:*RILEY* OR name:*READY_ROOM* OR name:*TOS_S1* OR path:*KIRK* OR path:*RILEY* OR path:*READY_ROOM* OR path:*TOS_S1*) OR (author:user AND ((\"Kirk\" NEAR/12 \"Riley\") OR (\"Ready Room\" NEAR/12 \"emulation\") OR (\"human simulation\" NEAR/12 \"Kirk\"))) OR (author:assistant AND (\"KirkMind\" OR \"RileyMind\" OR \"Chronological Bridge\" OR \"TOS_S1\"))",
+  "purpose": "Mersearch-first, discovery-only source genealogy for the Kirk/Riley/Nathan human-simulation stack. Recover standalone KIRK_mind, _RILEY_mind, TOS Season 1 script corpus, Chronological Bridge, workflow diagram, README/version history, and the original January 22 Kirk conversation/export if present. For every candidate preserve exact repository/path/blob SHA/source commit, raw conversation ID/message UUID, role, timestamp and surrounding context where exposed. Distinguish original source documents, flattened/transcript-like artifacts, assistant-generated profiles/summaries/emulations, NotebookLM chat outputs, composites, aliases and duplicate ancestry. Determine whether prior partial Library exports are derived from the same underlying sources. No new LLM experiment, human-subject session, physical calculation, data-free calculation, theory promotion or paper-gate change.",
   "preferred_outputs": [
-    "request-scoped RUN_MANIFEST.json",
-    "request-scoped SEARCH_RECEIPT.json",
-    "request-scoped SEARCH_RECEIPT.md",
-    "source paths, blob SHAs, source-role and locator leads when exposed by the compact receipt"
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "candidate source paths, exact blob SHAs and source commit SHAs",
+    "raw conversation/message UUID, outer role and timestamp where available",
+    "source-object versus composite/chat-export classification",
+    "duplicate/derivative relationships and first-extant chronology limits",
+    "three-root coverage, exclusions, extension/size limitations and omissions"
   ],
   "exclusions": [
-    "Do not overwrite any other lane",
-    "Do not publish raw source excerpts or private HSH_RESOURCES paths",
+    "Do not overwrite any pending/running lane; this lane is reused only after prior request-scoped manifest and receipt were independently verified complete",
+    "Do not publish raw source excerpts, personal details, copyrighted script text or private HSH_RESOURCES paths",
     "Do not enter QUARANTINE or PRIOR_ART",
-    "Do not treat lexical matches as authorship proof or semantic equation equivalence",
-    "Do not treat assistant-authored equations as Nathan Direct",
-    "Do not infer physical validity or promote theory",
-    "No new calculation or synthetic fixture"
-  ]
+    "Do not infer Nathan Direct authorship from a flattened text artifact, outer user-role paste, assistant-generated summary or NotebookLM chat output",
+    "Do not treat lexical matches or repeated archive paths as independent source corroboration",
+    "Do not claim a source absent globally from a bounded/filtered search",
+    "No new software, branches, PRs, automations, physical calculations or theory promotion"
+  ],
+  "status": "requested"
 }
