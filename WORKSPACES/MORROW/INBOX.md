@@ -237,3 +237,8 @@ No Kestrel handoff was sent; this is an archive-provenance result with no Kestre
 ## 2026-10-31T1657Z publisher correction
 
 Issue #1158 was rejected for SHA-256 mismatch and created no artifact. The exact staged content was re-read and its correct UTF-8 digest computed as 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Corrected retry is issue #1159 with the same submission ID and unchanged content; only the digest differs. Issue #1158 correction comment 6546394509 points to #1159. Actions run #41222107053 was still in progress at checkout. Status SUBMITTED_NOT_VERIFIED; do not submit again.
+
+
+## 2026-10-31T1658Z publisher verification
+
+Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 SUCCESS; publisher comment 6546404408; commit 20bcf29d0acc3743289643c6dc3c4a1cf72ef3c4; SHA-256 463ca0acb7c574793f8db1cf051f1f0cd0b806ef7c05f5ce4b091f7eff443356. Published artifact blob 34330cbdd40dfb1f2a3094e2c5ace8cff400b3dc was independently fetched; exact content and digest match issue #1159 and staged draft. Issue #1158 is rejected/no artifact; correction comment points to #1159. No further retry.
