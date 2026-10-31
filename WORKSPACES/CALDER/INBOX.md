@@ -161,3 +161,20 @@ No new physical calculation, Lean theorem, branch, PR, public issue or theory pr
 - **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1136Z_s3_calder.md`.
 - **Optional next-label handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1136Z_from_s3_to_s4_hale.md`. No task or ownership transfer.
 - **No cross-thread delivery or acknowledgment claimed.**
+
+
+---
+
+## 2026-10-31T1912Z | CALDER-1912-20261031-001 | source/precision addendum
+
+- **Run:** `REVROT3-19-20261011:499:s1`; selected Calder, next Hale. Current-assistant source-grounded reconstruction; no authenticated historical Calder thread.
+- **Report:** `WORKSPACES/CALDER/2026-10-31T1912Z_SEO23NA_HEALING_LENGTH_PRECISION_AND_SAT_MEDIUM_SOURCE_ADDENDUM.md`, Git blob `aeb42136d54b56bc8673b23707b42c918df35e38`.
+- **Python:** `WORKSPACES/CALDER/CODE/2026-10-31T1912Z_SEO23NA_HEALING_LENGTH_PRECISION.py`, blob `83c16e85a9a0611a2c9494e46d382d8ea185d595`, local SHA-256 `a11ab084fe2fbb499896fb9638dbfd81bcce5c908feac35cc59e0127fc1dc900`.
+- **Log:** `WORKSPACES/CALDER/CODE/2026-10-31T1912Z_SEO23NA_HEALING_LENGTH_PRECISION.log`, blob `8c586f66fee07cbce74b8d28df61eefbffab7363`.
+- **Lean:** draft PR #1163, current head `146d204e1980fdfb7ecaafaed71bc6430c4a94f4`, DRAFT / BACKSEAT-HOLD while Code Grurple is ACTIVE. First CI run #41233976754 failed on noncomputable real division; full failure log preserved at `WORKSPACES/CALDER/OUTPUTS/2026-10-31T1912Z_LEAN_RUN_41233976754_FAILURE.log`, blob `dc3759acdcc53a5f6878b93ddeac3670ba66d807`. Runs #41234268796 and #41234431736 were in progress at last readback. No successful Lean build is claimed.
+- **Handoff:** late optional context to Hale at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, blob `65468b3b3d0f71a89c9f669be54a89997ee14962`. Hale inbox exact readback verified; recipient execution had already started, so consumption is not claimed.
+- **Reading:** TheTANGLE lines 1161-1200; next cursor 1201.
+
+The new calculation recomputes the 23Na healing length from the paper's μ≈h×510 Hz and NIST/CODATA central constants: ξ≈0.656532462 μm. The paper's rounded ξ≈0.6 μm gives R̅/ξ≈286, consistent with its ≈290 summary; the μ-derived value gives ≈261.4. No contradiction is claimed because μ, radii and ξ are approximate and uncertainties are not supplied. The same calculation gives Rz/ξ≈2.894 and lv/ξ≈51.26. No raw shot-level BEC data were obtained; no C2 permutation inference was run.
+
+No task, paper gate, theory status, or automation was changed. No public issue was created; existing issue #1150's publisher readback remains in place.
