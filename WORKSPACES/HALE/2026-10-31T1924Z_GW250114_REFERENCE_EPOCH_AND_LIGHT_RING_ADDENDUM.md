@@ -104,7 +104,7 @@ Their backward one-body model constructs a ringdown signal from light-ring dynam
 
 ### 4.3 Dyer, Chung & Moore: accepted PRL horizon-mode test
 
-Richard Dyer, Adrian Ka-Wai Chung and Christopher J. Moore, “Modeling Direct Waves in Binary Black Hole Ringdowns,” arXiv:2606.25021 (submitted 2026-06-23; manuscript dated 2026-06-26), accepted by *Physical Review Letters* 2026-10-27, DOI [10.1103/xftt-2n6t](https://doi.org/10.1103/xftt-2n6t).
+Richard Dyer, Adrian Ka-Wai Chung and Christopher J. Moore, “Modeling Direct Waves in Binary Black Hole Ringdowns,” [arXiv:2606.25021](https://arxiv.org/abs/2606.25021) (submitted 2026-06-23; manuscript dated 2026-06-26), accepted by *Physical Review Letters* 2026-10-27, DOI [10.1103/xftt-2n6t](https://doi.org/10.1103/xftt-2n6t).
 
 Using public SXS CCE numerical-relativity waveforms and a Bayesian Gaussian-process model for numerical uncertainty, they identify a direct-wave component over start times up to about 31M after peak, with amplitude about an order of magnitude below the fundamental QNM. The fixed horizon-mode frequency improves the fit and is favored over a range of start times, but free-frequency fits drift by roughly 10–20% and do not reliably recover the horizon-mode value. The authors therefore support a useful horizon-mode *modeling approximation* while questioning whether the component directly probes horizon geometry.
 
@@ -112,11 +112,11 @@ This is a peer-reviewed NR analysis, not a new astrophysical detector event and 
 
 ### 4.4 Dyer et al.: October light-ring reinterpretation preprint
 
-Richard Dyer, Alok Kankani, Alex Marks, Scott T. McWilliams and Christopher J. Moore, “Moving Beyond Quasinormal Modes and Reinterpreting Direct Waves,” arXiv:2610.25176, submitted 2026-10-18 (manuscript dated 2026-10-21). The arXiv record is the source used here; no journal acceptance is claimed.
+Richard Dyer, Alok Kankani, Alex Marks, Scott T. McWilliams and Christopher J. Moore, “Moving Beyond Quasinormal Modes and Reinterpreting Direct Waves,” [arXiv:2610.25176](https://arxiv.org/abs/2610.25176), submitted 2026-10-18 (manuscript dated 2026-10-21). The arXiv record is the source used here; no journal acceptance is claimed.
 
 The paper combines:
-1. Frequency-versus-spin comparisons using SXS simulations, including retrograde cases.
-2. A backward one-body analytic model with fitted light-ring scaling factors D=0.73 and E=0.68, compared against a much larger numerical-relativity set.
+1. Frequency-versus-spin comparisons across 125 mixed SXS simulations, including 43 retrograde cases; the time-evolution comparison uses a 114-waveform aligned-spin, non-precessing subset.
+2. A backward one-body analytic model with fitted light-ring scaling factors D=0.73 and E=0.68 (fit to the aligned-spin sample at the news peak), compared against a separate set of nearly 600 quasicircular, non-precessing numerical-relativity simulations.
 3. Scalar-field perturbations on horizonless ultracompact-object backgrounds: a thin-shell boson-star model with a light ring produces a similar non-QNM residual, while a non-ultracompact boson-star model without a light ring does not.
 
 The authors report that the residual frequency tracks light-ring rather than horizon frequency. Their decomposition also separates an unfiltered BOB waveform from filter effects: filter effects dominate before roughly -7M; the unfiltered BOB component dominates from about -7M to the peak; after roughly +5M, the components become comparable and approximately opposite in phase, damping the residual.
@@ -125,11 +125,11 @@ Limitations: the D,E scales are fitted, not parameter-free constants; the analyt
 
 ### 4.5 Ma & Wang: a competing near-horizon Green-function derivation
 
-Sizheng Ma and Hai-Yang Wang, “Foundations of Direct Waves in Schwarzschild Ringdown,” arXiv:2607.06677v1, submitted 2026-07-07; full text dated 2026-08-24.
+Sizheng Ma and Hai-Yang Wang, “Foundations of Direct Waves in Schwarzschild Ringdown,” [arXiv:2607.06677v1](https://arxiv.org/abs/2607.06677), submitted 2026-07-07; full text dated 2026-08-24.
 
 They derive the filtered Schwarzschild Zerilli response using the causal Green function and attribute the direct-wave cycles to an accumulated anti-causal segment of the filter response sourced by near-horizon plunge dynamics. They explicitly say the direct wave is not itself a horizon mode and that the all-pass filter redistributes source information in time rather than adding new physical content. This is a Schwarzschild linear-perturbation calculation, not a Kerr detector-data result.
 
-This leaves a real interpretive disagreement: the Ma–Wang Schwarzschild source derivation and the Dyer–Chung–Moore Kerr NR horizon-mode fit support a near-horizon modeling role, while Cheung/Kankani and the later Dyer et al. preprint emphasize the light ring and the small contribution from inside it. Their models differ in spacetime, source, observable decomposition and approximation. No consensus or H(s)H equivalence is asserted.
+This leaves a real interpretive disagreement: the Ma–Wang Schwarzschild source derivation and the Dyer–Chung–Moore Kerr NR horizon-mode fit support a near-horizon modeling role, while Cheung/Kankani and the later Dyer et al. preprint emphasize the light ring and the small contribution from inside it. These are not all independent research groups: Dyer appears in both Dyer papers, and Kankani/McWilliams appear in both the PRD backward-one-body paper and the October preprint. Treat those as an evolving research line, not independent replications. Cheung and Yoshimura provide distinct analyses, but Yoshimura also uses SXS numerical-relativity waveforms rather than independent detector events. Their models differ in spacetime, source, observable decomposition and approximation. No consensus or H(s)H equivalence is asserted.
 
 ## 5. What the all-pass result does and does not say
 
@@ -214,7 +214,7 @@ Existing HsH PR search found no matching reference-epoch/all-pass module; the on
 |---|---|---|
 | GW250114 direct-wave feature | Published detector observation, one event | Not an independent multi-event replication |
 | 12 SXS CCE waveforms | Numerical-relativity simulation outputs | Not measured astrophysical events |
-| 125/43/near-600 SXS sets | Numerical-relativity simulation comparisons | Shared simulation ecosystem; not independent detector data |
+| 125 mixed SXS frequency sample (including 43 retrograde), 114 aligned non-precessing subset, and separate nearly-600 BOB set | Numerical-relativity simulation comparisons | Shared SXS simulation ecosystem; not independent detector data |
 | Cheung Teukolsky plunge | Theoretical source calculation | Not a detector measurement |
 | Ma–Wang Green-function result | Schwarzschild perturbation theory | Not Kerr event reconstruction |
 | Yoshimura fitted-amplitude contrasts | Derived estimator outputs from SXS waveforms | Convention-dependent; archive bytes not retrieved |
