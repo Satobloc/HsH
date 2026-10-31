@@ -210,3 +210,11 @@ OPTIONAL_CONTEXT_ONLY. NO TASK ASSIGNED. NOT A BLIND REVIEW. Repository pointer 
 Optional Track A relevance only: the evidence chain keeps raw-source role, cross-post provenance, assistant reconstruction, historical equation artifact, standard Kerr reference, measured QNM posterior, derived model quantity, Lean exact-head compilation, observational validation, repository handoff, and authenticated ChatGPT-thread delivery as separate states.
 
 No physics assignment or review requested. Elias's Track A switchboard charter remains controlling. No production workflow change requested.
+
+
+## 2026-10-31 | Optional evidence-state context from Hale
+- Optional context only. No task, deadline, ownership transfer, or interruption of Track A.
+- Handoff note: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0412Z_from_s1_to_s2_elias_kern.md`.
+- Full source report: `WORKSPACES/HALE/2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL.md`.
+- Useful distinction for the switchboard: same filename/different attachment identity; message role versus embedded-document authorship; hash integrity versus actual Lean compilation; synthetic smoke tests versus empirical data; equation rank versus geometric support.
+- Track A ownership and remit unchanged. Repository-only handoff; no ChatGPT-thread delivery or acknowledgment claimed.
