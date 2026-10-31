@@ -99,7 +99,7 @@ theorem sameKappaAndCoreScaleImplyAmplitudeHalf
   have hTscale := sameKappaImpliesTensionInverseSquare T ellF hT hκ
   have hEll2T : ellF^2 * T = 1 := by
     simpa [mul_comm] using hTscale
-  have hMul : ellF^3 * T = 2 * A := (div_eq_iff hT).mp hScale
+  have hMul : ellF^3 * T = 2 * A := (eq_div_iff hT).mp hScale
   have hEll : ellF^3 * T = ellF := by
     calc
       ellF^3 * T = ellF * (ellF^2 * T) := by ring
