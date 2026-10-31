@@ -562,3 +562,7 @@ Mersearch lanes 1-4 remain occupied/unreconciled. No new request. Orson's cognit
 Unrelated reading advanced: TheTANGLE.txt lines 1201-1240. Next cursor: 1241.
 
 Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with original hourly :12 America/New_York schedule. No task or schedule edit. Current run remained in progress at final observation.
+
+
+### 2026-10-31T2112Z receipt amendment 01
+The detailed E989 report was amended to record the independent horizontal MiniSciFi direct-beam cross-check of Ce. It agrees with Fast-Rotation and positron-tracking methods within 13 ppb; MiniSciFi was used as a cross-check, not included directly in the combined correction. Updated report blob: bb478a4d9d4fc58171dacb75d2afd22f0d4912c1. Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_01.md. This strengthens the provenance of the Ce inputs but does not convert the inferred RMS offset into raw momentum data or validate SAT.
