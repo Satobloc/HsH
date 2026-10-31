@@ -313,3 +313,8 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - Optional source report: `WORKSPACES/RAVEL/2026-10-31T1336Z_HELION_EM_READOUT_IDENTIFIABILITY_AND_MEASURED_GATE.md`, blob `c8c1e7ebb34269c0c47c77a9014154c3d98d41f2`.
 
 **Context only, no assignment:** the report distinguishes raw measured muonic-ion transitions from a theory-extracted rms charge radius, and directly measured bound-ion (g'_I) from a shielding-corrected bare-nucleus (g_I). This may serve as a methodological example for P1 evidence-lineage distinctions. It is not an LLM cognition result or administered trial. Orson's P1 cognition remit and November 9 gate remain unchanged; no physics task or response obligation is created.
+
+
+### 2026-10-31T1353Z | Additive verification update | RAVEL-1336-20261031-ORSON-OPTIONAL-001
+
+The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d6dff84`; existing PR #993 exact-head Actions run #41207194774 completed SUCCESS. This remains methodological context only, not an LLM cognition result or administered P1 trial. Orson's P1 ownership and November 9 gate remain unchanged. The handoff arrived after the current :48 run started; recipient consumption is still UNVERIFIED.
