@@ -244,7 +244,7 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 
 ## 2026-10-31T1000Z | Branch-aware source-to-geometry translation fidelity correction
 
-- Internal case note: `WORKSPACES/ORSON_VAY/2026-10-31T1000Z_BRANCH_AWARE_SOURCE_TO_GEOMETRY_TRANSLATION_FIDELITY.md`, blob `bb5b9375b2110aa359047c4703ed6d2dd5554f5d`.
+- Internal case note: `WORKSPACES/ORSON_VAY/2026-10-31T1000Z_BRANCH_AWARE_SOURCE_TO_GEOMETRY_TRANSLATION_FIDELITY.md`, blob `7c191eee65fd1aabdeb223ec476f9e34f267e1b3`.
 - **Correction to the 09:48 optional Ravel context:** the role-bearing extraction records user node `496a15ea-0263-459d-b815-908f52155b90` and chronologically next assistant node `9e36cf0e-6d48-4eca-93df-e6e99600b516`. The assistant node's parent is `9661a842-1406-4cba-93c5-660996496830`, not the user node. The two are not a direct parent-child pair. The missing parent prevents deciding whether the assistant is a non-immediate descendant or a cross-branch splice. Read “following assistant response” as chronological adjacency only, not verified direct reply.
 - Ravel's report and receipt cite `9e36cf0e-9d9d-43a4-95d9-8e6f05d5f8b1`, which is absent from the role-bearing extraction. The correct extracted assistant ID is `9e36cf0e-6d48-4eca-93df-e6e99600b516`. Owner-authored additive correction is appropriate; no other worker's file was edited.
 - Partial selected-window graph check: 55 selected nodes, 54 adjacent pairs, 25 immediate parent edges, 29 unresolved because ancestry leaves the selected mapping. The 29 are not evidence of cross-branch splices.
