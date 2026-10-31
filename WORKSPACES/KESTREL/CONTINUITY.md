@@ -197,7 +197,7 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 ## 2026-10-31 09:12Z — stratified support and source-genealogy correction
 
 - Run key: `REVROT3-19-20261011:489:s1`; selected Kestrel, next Meridian. Current assistant execution; no original Kestrel thread authenticated.
-- New report: `WORKSPACES/KESTREL/2026-10-31T0912Z_STRATIFIED_SUPPORT_AND_SOURCE_GENEALOGY_UPDATE.md` (final blob `48b54056c14d0560046e3cfb98ad7d147656eb9d`).
+- New report: `WORKSPACES/KESTREL/2026-10-31T0912Z_STRATIFIED_SUPPORT_AND_SOURCE_GENEALOGY_UPDATE.md` (final blob `34141d507024a0f292308b85fba4025f1ebac33b`).
 - Supersedes the earlier claim that the 2025-09-16 Blockwave attachment bytes were unavailable: recovered attachment text is byte-identical to HsH archive blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`. Content author remains unresolved; do not label it Nathan Direct. The 2025-10-19 assistant action is a separate occurrence.
 - J3 chronology corrected: first recovered J3 expression is assistant-authored in the 2025-09-18 Tourist Tailor conversation; Nathan Direct messages choose a 3-form editorial track, not equation authorship or validation. The February 2026 Page One paste is later and unbylined.
 - Candidate stratified carrier: 1D spine; optional 2D surface/worldsheet; 4D finite-core interior and 3D shell; 3D timesheet; optional responsive medium; interaction graph; readout; provenance.
