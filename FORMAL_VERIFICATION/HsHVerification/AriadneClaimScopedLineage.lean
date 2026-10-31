@@ -25,7 +25,9 @@ human/LLM cognition, physical systems, or SAT/H(s)H truth.
 
 namespace HsHVerification.AriadneClaimScopedLineage
 
-/-- One-indexed, half-open line span in a normalized artifact representation. -/
+/-- One-indexed, half-open line span in a normalized artifact representation.
+    The audit coordinates use LF-normalized text and Unicode-aware Python
+    str.splitlines() boundaries; they are not raw byte or wc -l offsets. -/
 structure LineSpan where
   firstLine : Nat
   afterLastLine : Nat
@@ -42,7 +44,8 @@ theorem contains_trans {a b c : LineSpan}
     (hab : Contains a b) (hbc : Contains b c) : Contains a c := by
   exact ⟨Nat.le_trans hab.1 hbc.1, Nat.le_trans hbc.2 hab.2⟩
 
-/-- External source-audit record for one verified shared normalized core. -/
+/-- External source-audit record for one verified shared-content core.
+    This is not a causal copy-direction or common-acquisition assertion. -/
 structure SharedCoreRecord where
   leftArtifact : String
   rightArtifact : String
@@ -82,7 +85,7 @@ structure DisjointPrimaryOrigins (left right : OriginSet) where
   disjoint : DisjointOrigins left right
 
 inductive ClaimLineageStatus where
-  | dependent
+  | dependent -- shared-content: not an independent content witness for this claim; not causal ancestry
   | independent
   | unresolved
   | conflicting
@@ -145,7 +148,7 @@ theorem independent_requires_disjoint_primary_origins
   | none =>
       simp [hd] at h'
   | some witness =>
-      exact ⟨witness, hd⟩
+      exact ⟨witness, rfl⟩
 
 /-! Actual claim-scope coordinates transcribed from the source audit.
     Spans are one-indexed and half-open. The normalized common block itself
