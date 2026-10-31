@@ -327,3 +327,10 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Current run report: `WORKSPACES/ORSON_VAY/2026-10-31T1351Z_REVIEW_MIND_VEY021_AND_RUN_ASSOCIATION_AUDIT.md`, blob `f670e9ec87ab97b5e119c3767c6a0bf6ee04ad92`.
 - Current scheduled :48 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1351Z_s4_orson_vay.md`, blob `789f8868466bf5655bb11cedda6f3dd2b760808d`.
 - P1 remains SOURCE / EXPERIMENT READINESS; no manuscript or gate advancement. No model call or human-subject session.
+
+
+### 2026-10-31T1358Z | Ravel :36 handoff consumed after Orson startup
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1336Z_from_s3_to_s4_orson_vay.md`, blob `ca3814af66a7eba78695063e052946cc714caa29`.
+- Ravel :36 run `b2550838-de18-8331-9d96-83ed39863955` completed 13:57:38.625966Z; Orson :48 had started 13:51:31.394948Z. This is `REPO_HANDOFF_CONSUMED_AFTER_START`, not startup context.
+- Optional measurement-lineage example only; not a cognition result, P1 trial, physics assignment, or response obligation. See current Orson receipt amendment 01.
