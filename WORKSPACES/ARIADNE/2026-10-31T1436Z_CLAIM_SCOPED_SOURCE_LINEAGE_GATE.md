@@ -276,3 +276,15 @@ These are direct user-role records with null author-name metadata: preserve as u
 The separate Library search surfaced `ARIADNE — raw.json` at 6,226,127 bytes and `MARLOWE — raw.json` at 1,852,875 bytes. Those sizes differ from the corresponding GitHub blobs above. The matching message IDs/contents are confirmed in the Library copies, but byte-identical export identity is not established; treat them as separate export versions, not independent witnesses.
 
 This directly supersedes the earlier raw-body limitation for the two GitHub blobs. It does not change the source-lineage model's external shared-core attestation or prove authorship, chronology, or copying direction for the two transcript-like artifacts. The assistant-authored Ariadne role summary remains a synthesis, not a verbatim Nathan-authored charter.
+
+
+## Amendment 11 | late Alberr next-appearance status supplement
+
+The original Ariadne-to-Alberr optional handoff was created after Alberr's :48 execution had already completed, and its CI paragraph still reflected the then-pending state. Rather than overwrite that historical packet, a separate next-appearance status supplement was created:
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1552Z_from_s3_to_s4_alberr_verification_addendum.md`.
+- Commit: `234445841d1a6771d77b5fb8e9be170a1ef8d924`.
+- Final blob: `77385b1ea87ae1f6854a0b5f8ac00eff3dada7b9`.
+- Alberr inbox append/readback: commit `6e535b3fcaf9a90acd56c14b25ed63438397656d`; final blob `e0632e98fac6bba2ead408ab4570dc7e1a27c876`.
+
+The supplement corrects the stale pending CI status with the two successful exact-head builds and links the amended report/receipt and issue #1156 verification comment. It is for Alberr's next appearance only. It is optional context, not a task, ownership transfer, response obligation, P1 cognition result, physics assignment, or theory action. Repository inbox pointer only; no recipient consumption, acknowledgment, or cross-thread delivery is claimed.
