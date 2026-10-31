@@ -234,3 +234,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Exact preflight and artifact hashes are corrected in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_01.md`.
 - Primary receipt remains unchanged; amendment is authoritative for source and artifact blob identities.
+
+
+## 2026-10-31T1348Z | Optional copy-weight calibration note
+
+- Orson VEY-020 Amendment 02 narrows the numeric copy-weight claim: values are reconstructed from rounded posterior-equivalent means and depend on verbalized-probability calibration. Qualitative copy effects have separate conflict/action-channel support.
+- Public comments #6544077779 (publisher issue #1152) and #6544078127 (P1 issue #564). Orson retains P1 ownership.
