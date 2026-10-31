@@ -55,3 +55,12 @@ The rerun of the failed job in exact-head Actions run #41225441898 completed SUC
 Publisher issue #1160 is PUBLISHED_VERIFIED. Publisher comment #6546932065 reports commit `41c0fb03f2a99cb44e59c2ac37c1ffe75a469646` and SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; an independent connector fetch compared the issue payload content to the published file and found exact equality (5,082 characters). Additive CI comments were read back on #1160, P1 #564 and PR #850.
 
 Proof scope remains the encoded finite source-parent graph only. This does not authenticate the raw source, establish complete context capture, prove statistical independence, or establish causality. No P1 trial or paper gate advanced.
+
+
+## Amendment 02 — context completeness
+
+A direct census of the 211-node raw mapping found 47 user nodes, 98 assistant nodes, 65 tool nodes, one node without a role, and zero system or developer nodes. This is a mapping-node census, not a count of model calls or cognitive units.
+
+The raw export alone is therefore not a complete system/developer/context snapshot. An archive-only no-path result cannot qualify as ANCESTRY_CLEAR; absent independent attestation of prompt, memory, retrieval, routing and other context completeness, classify it UNKNOWN_CONTEXT_INCOMPLETE. VEY-021 still FAILS ancestry-blindness because a prohibited path is positively present. Missing context layers do not erase that path.
+
+Public addenda were read back: publisher issue #1160 comment #6546999532 and P1 issue #564 comment #6546999945. The private Vey note and research ledger also received this amendment.
