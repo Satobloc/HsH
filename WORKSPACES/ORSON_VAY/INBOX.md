@@ -284,3 +284,10 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - Primary receipt preserved: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay.md`.
 - Exact preflight and artifact blob hashes corrected in additive amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_01.md`.
 - Amendment is authoritative for current BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival, role charter, task graph, Code Grurple, presentation gate, and artifact readback hashes.
+
+
+## 2026-10-31T1348Z | Copy-weight calibration qualification
+
+- Added VEY-020 Amendment 02: numerical `w_m` estimates are inferred from verbalized probabilities and rounded published means; calibration-dependent, not direct internal-belief measurements or universal constants.
+- The paper's conflict probes and emitted-action channel support a qualitative copy effect, but not exact numeric weight validation.
+- Public addenda: publisher issue #1152 comment #6544077779; P1 issue #564 comment #6544078127.
