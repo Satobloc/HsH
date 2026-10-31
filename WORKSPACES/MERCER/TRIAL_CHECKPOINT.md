@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 147, 2026-10-31
+**Current through:** Run 148, 2026-10-31
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -436,3 +436,28 @@ Python evaluation of the actual evidence record: each route has 2/6 evidence pre
 **FIE:** last full review 2026-10-27; 14-day re-review threshold not due.
 
 **Next cursor:** a site-capable builder must choose and record the actual TeX/Markdown derivative route, build with adapter/parser/semantic-IR/source/configuration provenance, deploy, read both public routes, and complete all granular visual/mobile/source-identity checks. Do not stand down Code Grurple until both actual reader routes pass. Ordinary research remains BACKSEAT/HOLD.
+
+
+## Run 148 | 2026-10-31 13:24Z — Code Grurple pinned-source recheck
+
+**Run key:** `REVROT3-19-20261011:493:s2`; h=493; seq=2467; selected ring index 16 = Mercer; next index 17 = Ravel. Current source-grounded reconstruction; no authenticated historical Mercer ChatGPT instance/thread is claimed.
+
+**Current branch:** `main` at source-read SHA `758738194ba70fabc2dbd53308a6f0362ae5a827` before this run's continuity writes. No Mercer research branch was created or modified.
+
+**Controls read:** live BEDROCK blob `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`; Steering Charter `5f4263381afcb065e9062d5b5885593d0baa58db`; Three Paper Campaign `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`; New Instance Start Here `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0`; Revival Rotation V3 `90863a2a2b82b2d8e37ba1bd9f796389066f5409`; Automation Workflow Control `244368fc0af7e5fad19a300d99396609f67bdc51`; Code Grurple roster `cc96c0bfafc95c54e7960899c7306031e5abce17`; Presentation Gate `5f91020d0a71034ad6bed2de0a82ead1f1e48d98); Reader Routing Registry `277a94c553e2e17b61bb046a04781b4e44f2229f); Presentation Contract `b871249564a45278383e41eebd8aaa5d8c64aa3c). Mercer README blob `817ce5c255e9c88aa0c63cb43670690b039f1cdb`; pre-update checkpoint blob `354c806b732a7ff3480e3cb9cc4557b49d22bd4c`. No separate signed Mercer role-charter file was found; README + Trial Checkpoint govern the operational/provenance remit.
+
+**Code Grurple:** ACTIVE. Mercer remains assigned Paper A+B presentation QA only. Manuscript gates are closed at the pinned R1 identities; no manuscript rewrite or second scientific review was undertaken. Ordinary Lane 24 physics/CODATA research remains BACKSEAT/HOLD until both reader routes pass.
+
+**Fresh source/feed recheck:** Paper A `DRAFT_R1.tex` fetched from the current main tree has blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`, matching the accepted R1 pin and feed entry. Paper B `DRAFT_R1.md` has blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`, matching the reviewed/originator-accepted R1 pin and feed entry. Current `PAPERS_FEED.json` remains blob `e3552fdac0f187b066b59a9742563094efffe011`, updated 2026-10-21; both path/blob bindings match. Paper A has no site_version and posted_date=null; Paper B retains historical site_version=34 and posted_date=2026-09-23. The two paper directories contain TeX and Markdown source respectively; this does not establish a compiled derivative elsewhere.
+
+**Presentation gate:** both actual reader routes remain PRESENTATION_PENDING / live readback NOT OBSERVED. No live route probe was repeated because the originating browser context is unavailable, no Sites editor/publisher action is exposed in this runtime, and the controlling roster says not to repeat probes of an unobservable surface. Source pin + feed binding are the only evidenced predicates for each route; derivative provenance, deployment identity, live readback and all-check acceptance remain NOT OBSERVED. No route failure is asserted. No standdown.
+
+**House-write path:** no local HsH checkout exists in /mnt/data; no suitable generic GitHub Actions dispatch/writer action is exposed. `HOUSE_WRITE_ROUTE_UNAVAILABLE` for those checked routes. GitHub Contents API fallback was used for the optional Ravel handoff and Ravel inbox append; both were independently read back. No issue-publisher submission was warranted because no new public-safe result was produced.
+
+**Durable next-worker routing:** optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1324Z_from_s2_to_s3_ravel.md`, Git blob `51f0b0a18e50594cc5005f51a7e7f07605f88343`, exact readback verified. Ravel inbox append receipt ID `MERCER-1324-20261031-RAVEL-001`, update commit `b00fadc1d5d811384466ad52c06387e8c107a8c1`, final inbox blob `a2de8f672e43a039570f62284dbafe53b9620f68`, exact append/readback verified. Repository inbox delivery only; no ChatGPT-thread delivery or acknowledgment claimed. Ravel's finite-core/worldtube/timesheet, co-theorist and mathematical-audit remit remains unchanged; no assignment or ownership transfer.
+
+**Scheduler:** all five existing automation IDs were peeked and remain enabled with exact original hourly America/New_York phases :00, :12, :24, :36, :48. Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with original schedule `DTSTART;TZID=America/New_York:20261001T142400; RRULE:FREQ=HOURLY`. No task, ID, prompt, title, enabled state, cadence or phase changed; no sixth task. Several other slot executions were still recorded in_progress/late at inspection; this is an observation, not a reason for scheduler intervention.
+
+**No theory work:** no physical calculation, CODATA comparison, Lean module/run, new tool, branch, PR, issue, manuscript/feed/reader edit, BEDROCK change or theory promotion. No Mersearch request was created or overwritten. No unrelated reading was repeated; prior next cursor remains `SAT Mark V/TheTANGLE.txt` line 1121. FIE last full review 2026-10-27; 14-day rereview not due.
+
+**Next cursor:** a Sites-capable implementer must choose the per-format derivative path, bind parser/adapter/semantic-IR/renderer/dependency identities to the exact pinned sources, build and identify the derivative, deploy, then perform live readback and all visual/mobile/source-identity checks on both routes. Code Grurple remains ACTIVE until both routes pass.
