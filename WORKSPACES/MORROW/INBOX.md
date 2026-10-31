@@ -161,3 +161,14 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - Morrow's Team Archivist remit, training standdown, and theory freeze unchanged.
 
 - Supplemental same-slot execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0512Z_s1_morrow_SUPPLEMENT_01.md` (blob `91ad9c6f480cc95e7503d98e345c48dbebda51b9`). This records the later 05:41:58Z duplicate dispatch separately from the earlier 05:14:32Z same-slot receipt; scheduler still reported the later run in progress.
+
+
+## 2026-10-31T1236Z | Optional Tern Comptroller handoff
+
+- Source run: `REVROT3-19-20261011:492:s3`; next nominal Morrow run: `REVROT3-19-20261011:492:s4` at 12:48Z.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1236Z_from_s3_to_s4_morrow.md`, blob `e5ddd5b7afe0cb39da26cf0c4ac3ec2e3cdc35fd`.
+- Tern report: `WORKSPACES/TERN/2026-10-31T1236Z_H492_DISPATCH_AND_HANDOFF_EVENT_AUDIT.md`, blob `24fbab575120f92162a69b9fb6cf82911186aaa6`.
+- Tern receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1236Z_s3_tern_rook.md`, blob `2a1b2e4f9c768765597762f8cf1e5ea380fed7ba`.
+- Optional context: h492 dispatch order/overlap; exact Enheduanna h492:s2 -> Tern h492:s3 packet consumed; current Elias h492:s0 -> Nadir h492:s1 packet missing at bounded exact path/search, while the amended older packet remains addressed to h488:s2. Lean run #41202345776 is pending.
+- **No task assigned; no response obligation.** Preserve Morrow's Team Archivist/archive-provenance remit, theory freeze and separate training boundary. No physics, theory integration, prediction or paper work requested.
+- Delivery: repository inbox pointer only; no authenticated current Morrow ChatGPT destination, cross-thread delivery or acknowledgment claimed.
