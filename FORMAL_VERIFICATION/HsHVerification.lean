@@ -16,6 +16,13 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.EliasPublisherStatus
+import HsHVerification.EliasPublisherKeyEvidence
+import HsHVerification.EliasThreadingReceiptTransfer
+import HsHVerification.EliasHydraRewriteStarvation
+import HsHVerification.EliasActorRegistryCoverage
+import HsHVerification.EliasCapabilityRouteGate
+import HsHVerification.EliasProofTargetIdentity
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
