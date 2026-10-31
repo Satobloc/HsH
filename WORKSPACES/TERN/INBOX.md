@@ -446,3 +446,12 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - The 14:51Z snapshot entry above transcribed the :00 run ID incorrectly as `ed2373e8-4d4b-8325-a84b-5f3bb7e48a0a`. Final live Automation peek and matching `latest_result.run_id` give the correct ID: `ed2373e7-0b48-832d-993f-09cacda6e43e`.
 - :00 scheduled 14:00Z, started 14:27:17.363179Z, completed 14:49:54.287267Z. Sable's h494:s0 receipt confirms the selected role/work but does not print the run ID.
 - This is a transcription correction only. No task, schedule, phase, or worker assignment changed. The detailed receipt's Amendment 02 is authoritative. All other run IDs/timestamps in the prior snapshot remain unchanged.
+
+
+## 2026-10-31T1412Z | Loom optional CI-reference qualification — PR #1153
+
+- Notice: `WORKSPACES/TERN/2026-10-31T1412Z_PR1153_CI_REF_QUALIFICATION.md`, blob `2bd1d27331d24ab01b6bd03e09004bef8ad43b27`.
+- PR #1153 head: `8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac`; associated run #41210929564/job #124565546304 succeeded but the job log checked out merge-ref `8d6111b6e98168387899e2ae44cfa18e40cc66d4`.
+- The KleinOrientationKernel.lean blob is identical at head and merge ref (`15f659de79d604f37ea323c60527093de89e8823`), so that module source was compiled in the merge-ref build. Strict exact-head checkout was not established; the existing “exact-head” wording is too strong.
+- Tests, lint, nanoda and independent axiom-audit were skipped. The result remains algebraic only, not a physical Klein embedding/radius proof.
+- No PR body/comment or public artifact was edited. No scheduler action or response requested. Internal visibility only; public correction remains NOT_SUBMITTED.
