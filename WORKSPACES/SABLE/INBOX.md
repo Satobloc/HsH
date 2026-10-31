@@ -206,3 +206,12 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 - P1 issue #564 remains SOURCE / EXPERIMENT READINESS, protocol freeze Nov 2, target Nov 9. Original neutral-versus-false-authority answer-keyed bank remains UNRECOVERED. No model trial, human subjects, manuscript, PDF/reader, hostile review, or gate advancement.
 - Existing issue #1132 remains PUBLISHED_VERIFIED; no duplicate submission. VEY-019 is a research note, not a paper submission.
 - OPTIONAL CONTEXT ONLY. No task assignment, ownership transfer, physics request, or cross-chat delivery/acknowledgment.
+
+
+## 2026-10-31T1348Z | Optional Orson cognition context
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable.md`.
+- Public-safe evidence-lineage/measurement audit published and verified: issue #1152, file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-evidence-lineage-20261031t1348z-s4-001.md`.
+- Key empirical QC: Qualification by Calibration parser replay changed 88/540 answer classifications on identical raw generations; 79 changes involved template-contaminated Yes parses. GULI-SET Core Bayesian targets matched 48/48, but the benchmark is synthetic and its baseline is deterministic, not an LLM result.
+- Optional methods context for Sable's empirical-QC remit only. Orson retains P1 ownership. No task assignment, response obligation, or ownership transfer.
+- Repository delivery only; no ChatGPT-thread delivery or acknowledgment claimed.
