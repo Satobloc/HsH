@@ -20,6 +20,7 @@ import HsHVerification.RavelHelionRadiusLedger
 import HsHVerification.RavelHelionRadiusBounds
 import HsHVerification.RavelMuonicSpectroscopyLedger
 import HsHVerification.RavelMuonicIsotopeGate
+import HsHVerification.RavelHelionMagneticMomentLedger
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
