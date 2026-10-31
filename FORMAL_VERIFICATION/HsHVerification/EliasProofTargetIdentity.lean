@@ -109,13 +109,15 @@ theorem accepted_record_has_exact_target
 
 theorem orson_success_is_bound_to_its_own_target :
     acceptedFor orsonTarget orsonRecord := by
-  simp [acceptedFor, orsonTarget, orsonRecord]
+  constructor
+  · rfl
+  · exact ⟨rfl, rfl, rfl, rfl⟩
 
 theorem unrelated_orson_success_cannot_certify_kestrel :
     ¬ acceptedFor kestrelTarget orsonRecord := by
   intro h
   have hpr := congrArg (fun t : ProofTarget => t.pullRequest) h.1
-  norm_num [orsonTarget, kestrelTarget] at hpr
+  norm_num [orsonRecord, orsonTarget, kestrelTarget] at hpr
 
 theorem failed_kestrel_run_is_not_accepted :
     ¬ acceptedFor kestrelTarget kestrelRecord := by
@@ -143,7 +145,7 @@ theorem changed_head_rejects_otherwise_successful_record :
   have hs := congrArg (fun t : ProofTarget => t.headSha) h.1
   have hne : "05b55800701b726b88ff34e57a83f0d0c71f3065" ≠
       "d716f22209d981bb01527f40b717550e95693331" := by decide
-  exact hne (by simpa [orsonTarget, orsonWrongHeadTarget] using hs)
+  exact hne (by simpa [orsonRecord, orsonTarget, orsonWrongHeadTarget] using hs)
 
 theorem changed_tested_commit_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongTestedCommitTarget orsonRecord := by
@@ -151,13 +153,13 @@ theorem changed_tested_commit_rejects_otherwise_successful_record :
   have hs := congrArg (fun t : ProofTarget => t.testedCommitSha) h.1
   have hne : "d07c8503e1986a6405bb3a1fadc3a1e4878bc052" ≠
       "68c4296a15067755586fd64fe92b421704cd587f" := by decide
-  exact hne (by simpa [orsonTarget, orsonWrongTestedCommitTarget] using hs)
+  exact hne (by simpa [orsonRecord, orsonTarget, orsonWrongTestedCommitTarget] using hs)
 
 theorem changed_run_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongRunTarget orsonRecord := by
   intro h
   have hr := congrArg (fun t : ProofTarget => t.workflowRunId) h.1
-  norm_num [orsonTarget, orsonWrongRunTarget] at hr
+  norm_num [orsonRecord, orsonTarget, orsonWrongRunTarget] at hr
 
 theorem changed_module_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongModuleTarget orsonRecord := by
@@ -165,7 +167,7 @@ theorem changed_module_rejects_otherwise_successful_record :
   have hs := congrArg (fun t : ProofTarget => t.moduleName) h.1
   have hne : "HsHVerification.OrsonPairwisePCR" ≠
       "HsHVerification.KestrelIntersectionDimensionGate" := by decide
-  exact hne (by simpa [orsonTarget, orsonWrongModuleTarget] using hs)
+  exact hne (by simpa [orsonRecord, orsonTarget, orsonWrongModuleTarget] using hs)
 
 theorem changed_theorem_rejects_otherwise_successful_record :
     ¬ acceptedFor orsonWrongTheoremTarget orsonRecord := by
@@ -173,7 +175,7 @@ theorem changed_theorem_rejects_otherwise_successful_record :
   have hs := congrArg (fun t : ProofTarget => t.theoremName) h.1
   have hne : "evaluatorPCRCount_decomposition" ≠
       "transverse_worldsheet_hypersurface_finrank_one" := by decide
-  exact hne (by simpa [orsonTarget, orsonWrongTheoremTarget] using hs)
+  exact hne (by simpa [orsonRecord, orsonTarget, orsonWrongTheoremTarget] using hs)
 
 #print axioms accepted_record_has_exact_target
 #print axioms orson_success_is_bound_to_its_own_target
