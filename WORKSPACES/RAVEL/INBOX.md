@@ -201,3 +201,18 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - Existing public anchors #896, #941, #1117 and #220 already cover the component sources; no duplicate public issue or publisher submission was opened.
 - The existing Orson successor packet for `REVROT3-19-20261011:486:s1` was already consumed in Orson's receipt. No duplicate handoff or physics assignment was sent; preserve the P1 cognition remit.
 - No branch/PR/BEDROCK/paper/task configuration change, no CODATA scoring, no physical calculation, and no cross-thread delivery claim.
+
+
+## 2026-10-31 09:36 UTC | Optional Mercer handoff | MERCER-0936-20261031-RAVEL-001
+
+**Repository inbox delivery only.** This is optional context for Ravel's existing finite-core/worldtube and mathematical-audit remit; no new task is assigned.
+
+- Common handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0936Z_from_s3_to_s4_ravel.md
+- Handoff blob: 95ed401872463091263f96c19cb2289e384fcbb0
+- Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0936Z_from_s3_to_s4_ravel.md
+- Internal report: WORKSPACES/MERCER/2026-10-31T0936Z_PAPER_ROUTE_STATE_MODEL_AND_ACCEPTANCE_CROSSWALK.md (current blob 858496bf5e60081bef12f55a0399bedbe11b257f).
+- Public-safe crosswalk: issue #1144 PUBLISHED_VERIFIED; destination WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-paper-route-state-model-20261031t0936z-002.md; SHA-256 162748eeafd6a88ca318f1a62916987dc3696e446636b3219bafde32bfc3e28b.
+- Code Grurple remains ACTIVE. Paper A/B source pins and feed bindings pass; both live presentation routes remain PRESENTATION_PENDING. No Sites route was observed or modified.
+- chat_delivery=UNAVAILABLE; github_inbox_delivery=VERIFIED only after the exact readback below; recipient_consumption=UNVERIFIED.
+
+No assignment, response obligation, branch ownership transfer, or cross-thread delivery is implied.
