@@ -112,7 +112,7 @@ The file calls this a conserved two-form filament/worldsheet current and describ
 
 ### 2.2 Earlier 2025-09-16 project-file reference
 
-A separate SAT conversation contains an assistant response at 2025-09-16T17:10:31.828Z (conversation `6a? [see raw export crosswalk]`, assistant message `2a7b69af-14b8-4177-b79b-9172394fa9ff`) quoting the same (J^{μν}=\tfrac12\varepsilon^{μνρσ}\nabla_ρB_σ) form while citing a project file named `🧱BLOCKWAVE.txt` (legacy file ID `file-LwaFTKkMemPPrLU4qCLpYB`, source `my_files`). The original project-file bytes and metadata are not available through the current Library surface. It is not established that this legacy project file and the later 2025-10-19 archive copy are byte-identical. The assistant message is a secondary transcript, not the original file.
+A separate SAT conversation contains an assistant response at 2025-09-16T17:10:31.828Z (conversation `68c990dd-df28-832e-b766-c267190aaffa`, assistant message `2a7b69af-14b8-4177-b79b-9172394fa9ff`) quoting the same (J^{μν}=\tfrac12\varepsilon^{μνρσ}\nabla_ρB_σ) form while citing a project file named `🧱BLOCKWAVE.txt` (legacy file ID `file-LwaFTKkMemPPrLU4qCLpYB`, source `my_files`). The original project-file bytes and metadata are not available through the current Library surface. It is not established that this legacy project file and the later 2025-10-19 archive copy are byte-identical. The assistant message is a secondary transcript, not the original file.
 
 - Raw transcript blob: `c0a26b8375c88c845ebd8cfe9b14516992ccc99d`
 - Assistant-message SHA-256: `8762e903059915e624e8c043f75ca6793c1e4d8304da095da3b57c2899778135`
