@@ -13,14 +13,25 @@ Direct geometric anchors:
   `7af1561b321f4d9364da5eb111df689efc652827`, conversation
   `6ac45d1f-17b0-83ea-ad1f-fa524602378b`.
 
-Those direct statements motivate a finite-core carrier and a labelled family
-of three-dimensional timesheets. They do not supply a constitutive law for
-the optional responsive medium or a unique geometry-to-equation map.
+The 2024 static/moving-plane construction is explicitly Nathan's abstraction
+and heuristic, not an assertion of the universe's physical ontology
+(`DIMENSIONAL GRAVITY`, user message
+`aaa26f3d-e831-49cd-976e-a85c5e3b749d`, 2024-03-23T03:44:26Z).
 
-The theorems below are conditional set-theoretic facts. They do not validate
-SAT physically, choose a metric signature, prove smooth transversality, or
-derive an action. The `Medium` and `Provenance` parameters are deliberately
-opaque slots.
+The 2026 direct source distinguishes a 4D filament from its 3D intersectional
+trace, places the proposed approximately 0.7 fm scale at a first-order coil
+radius rather than filament thickness, and describes the time object as an
+interacting 3D bulk/slice rather than a passive cut (`Meridian Free Build`,
+user messages `3c657387-b80b-4982-a61a-8e6d8568b8d1`,
+`5a929b5e-515e-4f77-a32a-e49feef42812`, and
+`1178f25c-9f92-4d1c-b43b-06482e6bf1b1`).
+
+The theorems below formalize only a conditional, set-level support
+intersection. They do not model the physical interaction/response operator,
+parametrize a 4D worldtube, choose a metric signature or coordinate
+normalization, prove smooth transversality, or derive an action. In
+particular, neither historical `w = ct` nor later `cw = t` is encoded here.
+The `Medium` and `Provenance` parameters remain deliberately opaque slots.
 
 The O3 algebraic audit is conditional: it assumes the pairing is both
 symmetric and skew-symmetric. The standard oriented linking number in an
@@ -32,7 +43,8 @@ namespace HsHVerification.RavelCarrierSliceReconstruction
 universe u v w p
 
 /-- Minimal set-level carrier/timesheet/optional-medium/provenance record.
-    `M` is an ambient point type; smooth and metric structure is a later layer. -/
+    `core` and `sheets` are support sets in an ambient point type `M`.
+    They are not parametrizations, boundaries, or a smooth/metric structure. -/
 structure MinimalCarrierReadout (M : Type u) (I : Type v)
     (Medium : Type w) (Provenance : Type p) where
   core : Set M
@@ -45,7 +57,8 @@ namespace MinimalCarrierReadout
 variable {M : Type u} {I : Type v} {Medium : Type w} {Provenance : Type p}
 variable (S : MinimalCarrierReadout M I Medium Provenance)
 
-/-- The finite-core section read by one labelled timesheet. -/
+/-- Bare set-theoretic support intersection with one labelled time-bulk
+    section. This is not the physical response/readout operator. -/
 def sectionAt (i : I) : Set M :=
   S.core ∩ S.sheets i
 
@@ -96,8 +109,10 @@ theorem sameReadoutDeterminesCarrierIfCovered
       exact ⟨hx, hi⟩
     exact hmem.1
 
-/-- If an ambient point is absent from every sheet, the readout map on all
-    candidate supports is non-injective: `univ` and `univ \ {x}` agree. -/
+/-- If an ambient point is absent from every sheet, the *bare set-intersection*
+    map on all candidate supports is non-injective: `univ` and `univ \ {x}`
+    agree. This does not establish injectivity or non-injectivity of an
+    additional physical response operator. -/
 theorem readoutNoninjectiveIfUncovered
     {M : Type u} {I : Type v} (sheets : I → Set M)
     (x : M) (hx : x ∉ ⋃ i, sheets i) :
@@ -114,11 +129,11 @@ theorem readoutNoninjectiveIfUncovered
         intro hEq
         apply hx
         exact Set.mem_iUnion.mpr ⟨i, by simpa [hEq] using hy.2⟩
-      exact ⟨Set.mem_univ y, by simpa using hyx⟩
+      exact ⟨⟨Set.mem_univ y, by simpa using hyx⟩, hy.2⟩
     · intro hy
       exact ⟨Set.mem_univ y, hy.2⟩
   have hEq : (Set.univ : Set M) = Set.univ \ {x} :=
-    hinj (Set.univ : Set M) (Set.univ \ {x}) hSame
+    hinj hSame
   have hxIn : x ∈ (Set.univ \ {x}) := by
     rw [← hEq]
     exact Set.mem_univ x
