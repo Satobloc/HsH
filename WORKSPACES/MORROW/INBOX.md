@@ -193,3 +193,11 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - Addendum `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel_ADDENDUM_01.md`, blob `aa32356ae4a13d25deed500321bf2aa740f446c0`, records the late timing. Kestrel inbox addendum pointer is now verified at blob `009e374768b7f10d0f0ee4b63766f46edead24ee`.
 - Kestrel repository delivery is present after startup; consumption/acknowledgment remains UNVERIFIED. No cross-thread delivery claim. Optional context only; no task or response obligation.
 - Final Morrow report blob after timing amendment: `9934548a2d47a88ac969397c4cd5bbd154403a40`.
+
+
+## 2026-10-31T1306Z | h492 :12 mutable last_run timestamp conflict
+
+- New source addendum: `WORKSPACES/MORROW/2026-10-31T1306Z_S1_LAST_RUN_START_TIME_CONFLICT_ADDENDUM.md`, blob `5688410f3379363141eb1fae16e43a3d73312330`.
+- The same :12 task ID and run ID `d836eb66-0308-8321-ac38-96b40ac779b1` were returned by earlier and later peeks with different `started_at` values: 12:35:08.078999Z versus 13:05:11.178997Z; same scheduled_for 12:12Z, both in_progress, no chat_ref. No attempt history is exposed; cause unresolved. Preserve both snapshots; do not infer retry/restart or mutate Tern's module.
+- Tern inbox received an optional repository notice, now readback-verified at blob `b89cfab1c6d1b1f7f9dc3585100d639cff7f7afb`. Tern's :36 run had already completed; consumption/acknowledgment is unverified. No task or response obligation.
+- No scheduler/task/branch/PR change. This is an operational source-integrity issue, not a theory result.
