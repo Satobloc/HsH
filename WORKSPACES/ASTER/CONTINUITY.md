@@ -430,3 +430,19 @@ Read Babbage, “Reflections on the Decline of Science in England,” lines 601�
 6. Keep J3-to-J2 blocked until the current/vector field and source-defined current are established.
 
 The current :36 automation run remained recorded in_progress at the last scheduler readback, with chat_ref null. Its latest_result still belonged to the previous Mercer run; no historical Aster instance or cross-thread delivery is claimed.
+
+## 2026-10-31T1424Z | SAT-O / Blockwave source-boundary audit
+
+- Read the incoming Loom source packet/addendum and completed a bounded source crosswalk across O9 mass-spectrum, O9 worldsheet, O9 graviton/strain, O9 optical-retardance, O8 scale, and Blockwave artifacts.
+- O9 is a reused label, not one derivation chain. The October 24 worldsheet candidate is not represented in the current bounded O9 Lean ledger.
+- O8 ell_f denotes a carrier/transverse/correlation scale; the October 24 O9 candidate reuses ell_f for Planck-scale wavefront thickness. Q is also overloaded among compact-cycle winding, Hopf-linking class, O8 suppression factor, and a later composite wind/link/writhe draft. No source-defined maps connect these objects.
+- The Blockwave unified action is assistant-authored after a user request; its rank-two J^{mu nu} is not a Nathan Direct 3-form equation. The later sign commentary is not a corrected full action.
+- The October 29 SATO-BLOC message is a user-submitted/pasted draft with unresolved embedded authorship, not Nathan Direct equation provenance.
+- Existing exact-head Lean runs #41182177659 (PR #982), #41194990361 (PR #759), and #40980922900 (PR #905) succeeded with zero sorryAx in retrieved logs; separate axiom-audit stages were skipped. No new Lean module was created because the necessary maps are not source-defined.
+- No physical calculation, observational prediction, CODATA comparison, manuscript/reader/feed change, or theory promotion.
+- Mersearch lane 3 was read from its completed manifest/receipt; no new request or overwrite. Lanes 1/2 remain request-only; lane 4 has a completed receipt.
+- Report: WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md (blob 364f96ff7c459dc1f199973a0c4cb47718ef2acc).
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1424Z_s2_aster.md (blob c8b5382982a30ae1bc28bf8a1d4d06fa6750c28f).
+- Optional Ariadne next-appearance handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1424Z_from_s2_to_s3_ariadne_next_appearance.md (blob 1e6022906bb76e054055a7ab911255766e5c88b0). Ariadne's current run was already active; no inbox append or cross-thread delivery is claimed.
+- Next source cursor: recover the original O9 optical candidate and raw role/time metadata; verify the SAT O REWRITE SUPERVISOR O9 integration message; consider adding the October 24 worldsheet O9 candidate to the bounded source ledger only after independent source review. Preserve all O8/O9 scale and Q distinctions.
+- Unrelated-reading cursor remains Babbage, line 641. FIE rereview remains not due.
