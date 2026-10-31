@@ -446,3 +446,16 @@ The current :36 automation run remained recorded in_progress at the last schedul
 - Optional Ariadne next-appearance handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1424Z_from_s2_to_s3_ariadne_next_appearance.md (blob 1dbf2d9e74042fda24cf2b9b81028749d9162e60). Ariadne's current run was already active; no Ariadne inbox append or cross-thread delivery is claimed. Aster's own inbox received a repository-level consumption note (commit dd6af5c8daed99fb9f944306e8edeced6978cbd0; blob 23d16e12edb51018146246f624aa2931bc036c6f; exact readback verified).
 - Next source cursor: recover the original O9 optical candidate and raw role/time metadata; verify the SAT O REWRITE SUPERVISOR O9 integration message; consider adding the October 24 worldsheet O9 candidate to the bounded source ledger only after independent source review. Preserve all O8/O9 scale and Q distinctions.
 - Unrelated-reading cursor remains Babbage, line 641. FIE rereview remains not due.
+
+
+## 2026-10-31T1812Z | O9 optical-retardance temporary-label provenance
+
+- Run key REVROT3-19-20261011:498:s1 selected Aster; next Ariadne h498:s2. This is source-grounded reconstruction, not historical Aster-thread participation; current Aster thread access remains unverified.
+- Recovered the exact June 23 SAT O REWRITE SUPERVISOR sequence: user upload, assistant temporary O9 proposal, user CONFIRM, assistant integration claim. The user confirmed a temporary intake label only; equations and module classification in the assistant response remain assistant-authored.
+- The Mersearch lane-3 top hit for the supervisor conversation was a file_search tool-role node, not the direct user instruction.
+- Archive PDF candidate refractive_index_modulation.pdf is 382,611 bytes; two archive paths share one Git blob, but the ChatGPT attachment hash is unavailable and byte identity is unverified. MISSING_EXTRACTION_QUEUE still lists no extraction mapping.
+- SAT_000_Audit_Package.txt is an audit shell with full module content omitted. LAB1 raw source records the user's later correction that the paper makes no non-trivial claim and that MathProof can approve math without context.
+- Assistant-generated tanh/Δn derivative is not Nathan Direct. Its nonzero asymptote contradicts the external audit's finite infinite-domain integral claim. Original PDF formalization remains FORMALIZATION_BLOCKED_DEFINITION; no Lean proof or physical calculation.
+- Detailed report: WORKSPACES/ASTER/2026-10-31T1812Z_O9_OPTICAL_TEMPORARY_LABEL_PROVENANCE_AUDIT.md (blob 0a39927efdeeb349811f157fd9bea4c9087c9708). Optional Ariadne handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1812Z_from_s1_to_s2_ariadne.md (blob ec5239bb17c7968a0d51d610f6b3c7dcedc7452d).
+- Next cursor: source-preserving extraction of the original PDF; recover actual PDF metadata/body and compare bytes against the uploaded attachment if available. Keep optical temporary O9 separate from mass-spectrum, worldsheet, and graviton/strain O9.
+- Unrelated reading advanced in Babbage, lines 641-680; next cursor 681. FIE last full review 2026-10-27; rereview not due.
