@@ -18,9 +18,9 @@ No active historical Morrow ChatGPT thread was authenticated. The historical raw
 The existing Enheduanna Page One request was rechecked rather than duplicated:
 
 - Request: `enheduanna-page-one-origin-20261031-0100`
-- `RUN_MANIFEST.json` blob: `dcaf6e6b6c51b2cbf0b8f76c70c8b58c6f7b0d6e`
-- `SEARCH_RECEIPT.json` blob: `ccd959cfd28e7bd2b3d0f3e3a3b9d6f0e6e0e8b1`
-- `SEARCH_RECEIPT.md` blob: `e1fa7b9e5e6f3b4c9d2a8f7e6c5b4a3928171605`
+- `RUN_MANIFEST.json` blob: `dcaf63a8e9d770afec3d067d15dba08243e51304`
+- `SEARCH_RECEIPT.json` blob: `ccd9599a407495bf6bd80b079557d89e14f251aa`
+- `SEARCH_RECEIPT.md` blob: `e1fa022458fe33945dd36435877c81d5f1605d03`
 - Generated-at in receipt: 2026-10-31T01:50:03Z
 - Search footprint: 15,780 files; 20,828,714 records; 1,585 hits; 298 distinct source paths.
 - Stable Mersearch 1.0 was pinned; the run manifest records a runtime-only tool-name/version hotfix, not a stable-branch change.
@@ -52,10 +52,10 @@ User attachment event:
 The attachment was uploaded with other material. Its bytes are not embedded in the raw export.
 
 Direct user context:
-- `404e2b3c-2f3b-4d66-bb4e-0c85e6f29d2f`, 2025-09-17T15:10:43Z: the user explicitly requires siloing and says categories should not bleed together except when deliberately crossed.
+- `404e2b3c-08d6-43dc-8513-60518ff5aaf8`, 2025-09-17T15:10:43Z: the user explicitly requires siloing and says categories should not bleed together except when deliberately crossed.
 - `1aa3851c-1ec8-429a-b422-5f2e21e3c9d0`, 2025-09-17T15:13:06.827Z: the user directly classifies the project folder as “more SAT stuff” and says it was set up to check the math.
 
-The assistant's earlier `cebac30b-...` and later `c6ffeb5f-...` descriptions of the file/folder as High Weirdness / Deep Dive are assistant classifications and conflict with the user's direct folder classification. They must not override the user statement.
+The assistant's earlier `cebac30b-612e-4bca-aa15-d77c8e764338` and later `c6ff67ce-a443-42de-9914-0732f3f9d03b` descriptions of the file/folder as High Weirdness / Deep Dive are assistant classifications and conflict with the user's direct folder classification. They must not override the user statement.
 
 ### 3.2 Re-upload and galley context: 2025-09-18
 
@@ -134,7 +134,7 @@ The old archive contains a separate PDF-derived extraction:
 
 The opening has the same chapter title and a J2-oriented action, but this is a derivative extraction. Its byte relationship to either user-uploaded galley is unproven. The extracted text has “Author's Note” sections but no named author/byline was found in the inspected text.
 
-The February 25, 2026 `0.239 Radians in Science` raw conversation (blob `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`, message `15338421-a5e7-4538-879a-d25d840d2bdd`) contains a user-role paste of Page One without a byline. The later July 2, 2026 `Consciousness and AI Debate` file-search result (raw blob `512c5713ea0b5dc13fec59f4835913e92ff2f14c`, tool message `8a76c477-...`) is a retrieval event, not the original Page One source.
+The February 25, 2026 `0.239 Radians in Science` raw conversation (blob `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`, message `15338421-a5e7-4538-879a-d25d840d2bdd`) contains a user-role paste of Page One without a byline. The later July 2, 2026 `Consciousness and AI Debate` file-search result (raw blob `512c5713ea0b5dc13fec59f4835913e92ff2f14c`, tool message `8a76c477-9bf0-4415-bd0a-4ddbc8b43119`) is a retrieval event, not the original Page One source.
 
 **Byline verdict:** no earlier bylined Page One/Wanna Bounce source recovered. The earliest located galley is user-supplied and explicitly placed in an SAT/math-checking project, but the file's internal author is unresolved and its original bytes are unavailable.
 
