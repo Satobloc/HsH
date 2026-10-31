@@ -246,3 +246,10 @@ New empirical contribution: recovered the 2016 post-merger damped-sinusoid, 2019
 P2 recommendation only: GW150914 as primary ringdown/spectral candidate. Issue #565 remains unselected. Code Grurple remains ACTIVE; no public issue/manuscript publication or theory promotion.
 
 Script SHA-256: 06c7309e21d88ac327198959fd06c7d626630c5ba5cbe808c6aced71eff78933. Local reproducible script is attached to the conversation, not committed to the repository.
+
+
+## 2026-10-31 | Hale source-recovery receipt
+- Full source-provenance and external D2 control report: `WORKSPACES/HALE/2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL.md`.
+- Common execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0412Z_s1_hale.md`.
+- Optional context-only handoff to Elias Kern: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0412Z_from_s1_to_s2_elias_kern.md`.
+- No original-thread access claimed. No physical calculation, new Lean proof, manuscript, site, issue, or theory promotion.
