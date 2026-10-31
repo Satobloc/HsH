@@ -63,7 +63,7 @@ Do not merge PR #1173 until an exact-source run of `--self-test` and a full curr
 ## Publication status
 
 - Initial publisher intake #1174 was rejected for an invalid schema; no artifact was created.
-- Corrected-schema retry #1175 received no publisher comment or artifact readback and was withdrawn.
+- Corrected-schema retry #1175 was rejected for SHA-256 mismatch and closed; no artifact was created.
 - Status: `SUBMITTED_NOT_VERIFIED`. No file under `PUBLISHED_SUBMISSIONS` is claimed.
 - PR #1173 remains the public code-review surface; no separate publication artifact is claimed.
 
