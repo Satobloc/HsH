@@ -1,0 +1,528 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "6d79bda8a7bdc20703d6d3ca30535ccd88b280c38f19c605a6beb936f64375ef",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-31T01:50:03.165116+00:00",
+  "query": "\"The full Scalar-Angular-Torsion\" OR \"conserved three-form current\" OR \"The Time-Flow Elasticity Block\" OR \"Filament Spectrum Block\" OR \"Page One: SAT\"",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15780,
+    "records_scanned": 20828714,
+    "hits": 1585
+  },
+  "counted_hits": 1585,
+  "distinct_sources": 298,
+  "results_by_root": {
+    "archive": 522,
+    "hsh-main": 1042,
+    "resources": 21
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "Filament Spectrum Block",
+      923
+    ],
+    [
+      "The Time-Flow Elasticity Block",
+      518
+    ],
+    [
+      "conserved three-form current",
+      258
+    ],
+    [
+      "Page One: SAT",
+      29
+    ],
+    [
+      "The full Scalar-Angular-Torsion",
+      19
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 287,
+      "sample_hit_index": 311,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 288,
+      "sample_hit_index": 312,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 289,
+      "sample_hit_index": 313,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 290,
+      "sample_hit_index": 314,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 291,
+      "sample_hit_index": 315,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 6,
+      "best_score": 212,
+      "first_hit_index": 292,
+      "sample_hit_index": 316,
+      "locator": "message:8a76c477-9bf0-4415-bd0a-4ddbc8b43119",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 2,
+      "best_score": 212,
+      "first_hit_index": 1565,
+      "sample_hit_index": 1566,
+      "locator": "$.query",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/0.239 Radians in Science — raw.json",
+      "title": "0.239 Radians in Science",
+      "record_count": 1,
+      "best_score": 212,
+      "first_hit_index": 144,
+      "sample_hit_index": 144,
+      "locator": "message:15338421-a5e7-4538-879a-d25d840d2bdd",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.02.24•26.09.08•🧮 0.239 Radians in Science — raw.json",
+      "title": "🧮 0.239 Radians in Science",
+      "record_count": 1,
+      "best_score": 212,
+      "first_hit_index": 145,
+      "sample_hit_index": 145,
+      "locator": "message:15338421-a5e7-4538-879a-d25d840d2bdd",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.02.24•26.06.11•0.239 Radians in Science — raw.json",
+      "title": "0.239 Radians in Science",
+      "record_count": 1,
+      "best_score": 212,
+      "first_hit_index": 146,
+      "sample_hit_index": 146,
+      "locator": "message:15338421-a5e7-4538-879a-d25d840d2bdd",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.02.24•26.09.08•0.239 Radians in Science — raw (1).json",
+      "title": "0.239 Radians in Science",
+      "record_count": 1,
+      "best_score": 212,
+      "first_hit_index": 147,
+      "sample_hit_index": 147,
+      "locator": "message:15338421-a5e7-4538-879a-d25d840d2bdd",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/[B] 🧮 0.239 Radians in Science — raw.json",
+      "title": "[B] 🧮 0.239 Radians in Science",
+      "record_count": 1,
+      "best_score": 212,
+      "first_hit_index": 148,
+      "sample_hit_index": 148,
+      "locator": "message:15338421-a5e7-4538-879a-d25d840d2bdd",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block",
+        "Page One: SAT"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.02.24•26.09.12•[A] Casual Check-in — raw.json",
+      "title": "[A] Casual Check-in",
+      "record_count": 7,
+      "best_score": 184,
+      "first_hit_index": 129,
+      "sample_hit_index": 129,
+      "locator": "message:13c1bc3e-a725-49a9-8234-2389ce5c502e",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "title": "Casual Check-in",
+      "record_count": 7,
+      "best_score": 184,
+      "first_hit_index": 130,
+      "sample_hit_index": 130,
+      "locator": "message:13c1bc3e-a725-49a9-8234-2389ce5c502e",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion",
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 11,
+      "best_score": 100,
+      "first_hit_index": 152,
+      "sample_hit_index": 182,
+      "locator": "message:654824a9-40b6-4047-8a72-22631678d890",
+      "matched_terms": [
+        "conserved three-form current",
+        "The Time-Flow Elasticity Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 3,
+      "best_score": 95,
+      "first_hit_index": 211,
+      "sample_hit_index": 211,
+      "locator": "message:0e9aa863-deb9-4471-ac0c-79538be4d125",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "title": "3 Planetology -- Geometric Foundations Evaluation — raw (1)",
+      "record_count": 2,
+      "best_score": 95,
+      "first_hit_index": 434,
+      "sample_hit_index": 434,
+      "locator": "line:62746",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Orson Free Build — raw.json",
+      "title": "Orson Free Build",
+      "record_count": 1,
+      "best_score": 95,
+      "first_hit_index": 356,
+      "sample_hit_index": 356,
+      "locator": "message:5b919af8-7f5d-4014-87b7-020ceea088f1",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/.[⚙️_AI_FILES]/INDEXES/SAT26_BIGBOOK_DOCUMENT_INDEX.csv",
+      "title": "SAT26_BIGBOOK_DOCUMENT_INDEX",
+      "record_count": 1,
+      "best_score": 95,
+      "first_hit_index": 375,
+      "sample_hit_index": 375,
+      "locator": "line:13",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/.[⚙️_AI_FILES]/INDEXES/SAT26_BIGBOOK_INDEX_2026-10-05.md",
+      "title": "SAT26_BIGBOOK_INDEX_2026-10-05",
+      "record_count": 1,
+      "best_score": 95,
+      "first_hit_index": 376,
+      "sample_hit_index": 376,
+      "locator": "line:295",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block",
+        "Filament Spectrum Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[[SAT26_BIGBOOK]]].txt",
+      "title": "[[[SAT26_BIGBOOK]]]",
+      "record_count": 90,
+      "best_score": 45,
+      "first_hit_index": 705,
+      "sample_hit_index": 710,
+      "locator": "line:137206",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/2026/SAT.4DHH-UC BUILDOUT DEV.txt",
+      "title": "SAT.4DHH-UC BUILDOUT DEV",
+      "record_count": 25,
+      "best_score": 45,
+      "first_hit_index": 408,
+      "sample_hit_index": 417,
+      "locator": "line:5949",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/4DHH-UC BUILDOUT DEV.txt",
+      "title": "4DHH-UC BUILDOUT DEV",
+      "record_count": 25,
+      "best_score": 45,
+      "first_hit_index": 436,
+      "sample_hit_index": 445,
+      "locator": "line:5949",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HYPERFOAM THEORY/4DHH-UC BUILDOUT DEV.txt",
+      "title": "4DHH-UC BUILDOUT DEV",
+      "record_count": 25,
+      "best_score": 45,
+      "first_hit_index": 463,
+      "sample_hit_index": 472,
+      "locator": "line:5949",
+      "matched_terms": [
+        "The Time-Flow Elasticity Block"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.06.27•25.09.17•🏔️Interesting discovery shared 🗻 — raw.json",
+      "locator": "message:946f67b3-fbdd-4415-acc9-bcd1edfa6982",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.06.27•25.09.17•🏔️Interesting discovery shared 🗻 — raw.json",
+      "locator": "message:946f67b3-fbdd-4415-acc9-bcd1edfa6982",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.06.27•25.09.17•🏔️Interesting discovery shared 🗻 — raw.json",
+      "locator": "message:fff58d94-f812-4e23-a50c-b35f8719085e",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.06.27•25.09.17•🏔️Interesting discovery shared 🗻 — raw.json",
+      "locator": "message:fff58d94-f812-4e23-a50c-b35f8719085e",
+      "matched_terms": [
+        "The full Scalar-Angular-Torsion"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.09.16•26.06.20•[A] 🧶🧱SAT — raw.json",
+      "locator": "message:2a7b69af-14b8-4177-b79b-9172394fa9ff",
+      "matched_terms": [
+        "Filament Spectrum Block"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json",
+      "locator": "message:2a7b69af-14b8-4177-b79b-9172394fa9ff",
+      "matched_terms": [
+        "Filament Spectrum Block"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16•25.09.18•SEAN — raw.json",
+      "locator": "message:12b331db-49d4-455c-93ec-6a744ac20f4f",
+      "matched_terms": [
+        "Filament Spectrum Block"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "locator": "message:ff0ef513-0f75-4e87-a719-378447788b32",
+      "matched_terms": [
+        "conserved three-form current"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
