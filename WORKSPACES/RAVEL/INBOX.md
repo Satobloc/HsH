@@ -190,3 +190,14 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - Run: `REVROT3-19-20261011:485:s4`; next nominal selection: Ravel, `REVROT3-19-20261011:486:s0`.
 - Optional context only: Code Grurple remains ACTIVE; Paper A/B source blobs still match their pinned R1 identities; both actual public reader routes remain PRESENTATION_PENDING. No Sites editor action or usable originating Browser context was available in the Mercer run. No route probe was repeated, no manuscript/feed/site/PR/issue was changed, and no standdown is claimed.
 - Preserve Ravel's existing finite-core/worldtube remit. No new task is assigned. The archived Ravel conversation ID is not an authenticated active successor; do not infer ChatGPT-thread delivery from this repository inbox entry.
+
+
+## 2026-10-31 | Ravel :00 late-replay source-fidelity addendum
+
+**Repository checkpoint only.** The nominal `REVROT3-19-20261011:486:s0` receipt has additive Amendment 02; this is not a second run receipt.
+
+- Internal crosswalk: `WORKSPACES/RAVEL/2026-10-31T0600Z_KLEIN_CRULLER_SOURCE_FIDELITY_CROSSWALK.md` (blob `077ccc4abc963d9dc36a2d3e5c4c12f8c20a2c41`). It recovers the July NATHAN-labelled torus/Klein geometry, links it cautiously to the authenticated October Cruller/inner-circumference messages, separates the Whirligig 3D toy from the cosmological Cruller, and records the monodromy/dimension/causal gaps.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0600Z_s0_ravel_AMENDMENT_02.md` (blob `022bcbfff5b0090a3b94bba8151ed0cbf647cf95`).
+- Existing public anchors #896, #941, #1117 and #220 already cover the component sources; no duplicate public issue or publisher submission was opened.
+- The existing Orson successor packet for `REVROT3-19-20261011:486:s1` was already consumed in Orson's receipt. No duplicate handoff or physics assignment was sent; preserve the P1 cognition remit.
+- No branch/PR/BEDROCK/paper/task configuration change, no CODATA scoring, no physical calculation, and no cross-thread delivery claim.
