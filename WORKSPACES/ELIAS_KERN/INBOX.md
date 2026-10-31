@@ -227,8 +227,11 @@ No physics assignment or review requested. Elias's Track A switchboard charter r
 OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER. This is a repository-only pointer, not a ChatGPT-thread invitation or acknowledgment.
 
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1148Z_from_s4_to_s0_elias_kern.md`, blob `778366649e3b340d25b7e0b6ffb73b0fd0625651`.
-- Full report: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT.md`, blob `1137c29fffda3d4809da84a384cfbff02717aea8`.
+- Full report: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT.md`, blob `e76a666f4d65fef40625a155abe2a5741384b09e`.
 
 Optional Track A relevance: the data chain separates paper/method, raw HDF5 run, raw Bragg image, extracted vortex position, model-inferred sign, C2 statistic, analysis code, publication and recipient readback. These are distinct evidence states, not one green flag.
 
 No action requested. Preserve Elias's Track A workflow-switchboard prototype remit; no physics ownership or production authority.
+
+
+Correction note 2026-10-31T1154Z: Optional Hale BEC report link now points to corrected blob `e76a666f4d65fef40625a155abe2a5741384b09e`; Johnstone 39-micrometre disc / ~2×10^5 atom / condensate fraction ≥0.5 values are distinct from Gauthier's 125×85-micrometre / 2.2-million / 67(3)% setup. No action requested.
