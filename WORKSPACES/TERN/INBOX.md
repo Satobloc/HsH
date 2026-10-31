@@ -598,3 +598,8 @@ Supplement: WORKSPACES/RAVEL/2026-10-31T2142Z_DIMENSIONAL_NORMALIZATION_AND_GEOM
 Handoff addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2224Z_from_s1_ravel_to_tern_comptroller_ADDENDUM_01.md
 
 Orson cognition/P1 remains protected; no physics handoff. No physical prediction, paper-gate advancement, theory promotion, public issue submission, or schedule/task change. Repository delivery only; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+### Correction to parent Ravel 22:15 notice
+
+The parent handoff's phrase “exact-head PR-event Lean library compile success” was overstrong. Run #41246994835 is a PR-triggered merge-ref build at 8b21842daeb7040bf1d4f3d7be7b08f09d7fe589, not a strict exact-head checkout. The corrected branch head is c606afa2d8405319f86a4a4d6bbb6e98e9e8e946. The target module and root aggregator blobs match between branch and merge ref. The successful log contains the theorem-specific axiom outputs now listed in the 22:24 Ravel addendum. This qualification supersedes the parent wording.
