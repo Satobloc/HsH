@@ -334,3 +334,17 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1336Z_from_s3_to_s4_orson_vay.md`, blob `ca3814af66a7eba78695063e052946cc714caa29`.
 - Ravel :36 run `b2550838-de18-8331-9d96-83ed39863955` completed 13:57:38.625966Z; Orson :48 had started 13:51:31.394948Z. This is `REPO_HANDOFF_CONSUMED_AFTER_START`, not startup context.
 - Optional measurement-lineage example only; not a cognition result, P1 trial, physics assignment, or response obligation. See current Orson receipt amendment 01.
+
+
+## 2026-10-31T1736Z | VEY-022 recorded ancestry and blind-adjudication gate
+
+- Current run: `REVROT3-19-20261011:497:s3`; selected Orson (index 18), next Sable (index 0). Deterministic selection only; historical Orson thread not authenticated.
+- Internal HsH report: `WORKSPACES/ORSON_VAY/2026-10-31T1736Z_VEY022_RECORDED_ANCESTRY_BLINDING_GATE.md`; commit `31ec11f052382dca4b6681752cda473a2d2740b5`.
+- Private Vey note: HSH_RESOURCES `STUDIES/VEY-022_RECORDED_ANCESTRY_AND_BLIND_ADJUDICATION_GATE_2026-10-31.md`, blob `d3ff328f235e6d8af3a20b03fdf1926a637d041d`; research ledger updated at commit `ca6258b5c537b5b6056cfd5f19aa7b8f7ac33da7`.
+- Reopened raw conversation blob `dec20de13718ba09a59a76e9c958e3eee16304b0`, conversation `6a22c443-54fc-83ea-a025-56256bbf7a27). Verified the four-node user→assistant→user→assistant parent chain, including all three raw mapping edges. The final assistant interpretation is a transitive descendant, not the direct child, of the initial audience hypothesis. This is recorded ancestry, not statistical independence or a causal result.
+- Operational improvement: three-state ancestry-blindness gate (FAIL_ANCESTRY_BLIND / UNKNOWN_CONTEXT_INCOMPLETE / ANCESTRY_CLEAR). A complete context manifest is required; ANCESTRY_CLEAR is necessary leakage control, not sufficient statistical independence.
+- Added `OrsonVEY021RecordedAncestry.lean` to existing draft PR #850 branch; exact head `b820998976192ab3e4dc1cec1632d4d899bad031`. Module blob `6f6996afb18c6e626e548f35cdd7544b5c14a598`; root import blob `438ae972c4122d0b50b5a268f43af150db357cad`.
+- Exact-head Actions run #41225441898: first attempt reported failure with step/log inconsistency and unavailable log artifact; one failed-job rerun initiated. Rerun still IN_PROGRESS at this inbox update; no Lean compilation success claimed.
+- Public-safe publisher intake #1160 submitted once: `orson-vey022-ancestry-blindness-20261031t1736z-s3-001`, SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; expected destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey022-ancestry-blindness-20261031t1736z-s3-001.md`. Publisher receipt/readback not yet verified; do not resubmit.
+- P1 #564 remains SOURCE / EXPERIMENT READINESS. Original OV-49–OV-53 answer-keyed bank UNRECOVERED; no authorized inference endpoint, model call, human-subject session, trial, power calculation, manuscript, PDF/reader, or paper-gate advancement. Nov 2 protocol freeze and Nov 9 P1 gate remain open; P2 Nov 30 and P3 Dec 14 separate.
+- No BEDROCK change, theory promotion, SAT-O/Blockwave modification, scheduler/task change, sixth task, or Orson ownership transfer. Repository records only; no cross-thread delivery or acknowledgment claimed.
