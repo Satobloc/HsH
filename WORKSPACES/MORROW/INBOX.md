@@ -201,3 +201,9 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - The same :12 task ID and run ID `d836eb66-0308-8321-ac38-96b40ac779b1` were returned by earlier and later peeks with different `started_at` values: 12:35:08.078999Z versus 13:05:11.178997Z; same scheduled_for 12:12Z, both in_progress, no chat_ref. No attempt history is exposed; cause unresolved. Preserve both snapshots; do not infer retry/restart or mutate Tern's module.
 - Tern inbox received an optional repository notice, now readback-verified at blob `b89cfab1c6d1b1f7f9dc3585100d639cff7f7afb`. Tern's :36 run had already completed; consumption/acknowledgment is unverified. No task or response obligation.
 - No scheduler/task/branch/PR change. This is an operational source-integrity issue, not a theory result.
+
+
+## 2026-10-31T1248Z | Morrow h492 receipt
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1248Z_s4_morrow.md`, blob `ba9cad8bfc689a430f692d54a733e52e382f3747`, exact readback PASS.
+- Receipt records current :48 run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` as `in_progress` / `chat_ref=null` at final scheduler readback; no authenticated historical Morrow thread or cross-thread delivery is claimed.
