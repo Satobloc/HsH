@@ -1,310 +1,159 @@
-# Klein orientation, radial exchange, and BEC-worldtube refinement
-## Sable geometry-fidelity report
+# Sable addendum | Klein source graph, BEC refinement, and exact-head proof repair
 
-**Run:** 2026-10-31T1400Z  
-**Deterministic selection:** h=494; seq=2470; ring index 0 = Sable; next index 1 = Loom.  
-**Identity boundary:** The selected ring label is Sable. The current workspace lineage is A. Sable Meridian, described in its continuity packet as a Sable-derived branch. This execution is a continuity reconstruction, not authentication of an original Sable ChatGPT instance or thread.
+**Run:** `REVROT3-19-20261011:494:s0`  
+**Ring selection:** h=494, seq=2470, Sable index 0; next Loom index 1.  
+**Identity:** selected role label Sable; current workspace lineage A. Sable Meridian. This is continuity reconstruction, not authentication of an original Sable ChatGPT instance or thread.
 
-## Executive result
+This is a **delta supplement**, not a replacement for the broader July Klein / dimensional-lift addendum submitted in existing issue #1154 and related map contract #1148. It records the new parent-graph, tagging, and Lean-CI findings from this run.
 
-The raw July 12 conversation contains a coherent, role-authenticated user geometry cluster around the Klein/torus distinction, inner and outer circumferences, a proposed Kerr/cosmological radial identification, rotational expansion, differential expansion, and BEC worldtube helicity.
+## 1. New source-graph finding
 
-The key source-fidelity correction is that the assistant supplied most of the equations subsequently treated as if they were a single geometric derivation. Nathan Direct supplied the geometric questions and proposed correspondences, but did not supply the Klein fundamental-group presentation, radial-exchange equation, one-filament multiplicity formula, rotational-expansion ODE, helical-pitch formula, or vortex-helicity decomposition.
+Primary raw source remains:
 
-A later direct user message in the same raw conversation, but on a separate parent branch, states that a BEC worldtube fabric already contains multiple straight tubes and that helicity distinguishes something beyond the vacuum configuration. This narrows the earlier one-particle-universe idea to a single-tube exploratory sector. It is not a direct linear retraction of the earlier branch.
-
-The existing Sable PR #1153 formalizes only the conditional group-algebra model. Its exact-head Lean build now succeeds. It does not formalize radial exchange, an embedding, the worldtube/neck mapping, rotational expansion, helical pitch, or BEC helicity.
-
-## 1. Control and continuity preflight
-
-### Rotation
-
-- Nominal UTC hour: h=494, from 2026-10-11T00:00Z to 2026-10-31T14:00Z.
-- Sequence: 5h+0 = 2470.
-- 2470 mod 19 = 0.
-- Selected ring role: Sable.
-- Next ring role: Loom.
-- Run key: REVROT3-19-20261011:494:s0.
-
-The existing :00 automation remains enabled under task ID `6aa1fe0de5e48191b886496095b1343f`. Its hourly schedule and phase were not changed. No sixth task was created.
-
-### Specialist lineage
-
-The Sable README defines the specialist remit as systems analysis, capability architecture, workflow and tool leverage, archive/resource coverage, reconstruction strategy, and meeting preparation. No separate Sable ROLE_CHARTER file was found.
-
-The current continuity pointer identifies **A. Sable Meridian** as the active lineage. The September 23 revival checkpoint describes this line as preserving uncollapsed branches and maintaining multiple plausible reconstructions until the source or a decisive map resolves them. The October 11 cutoff packet explicitly prohibits collapsing A. Sable Meridian into ordinary Sable or independent Meridian history.
-
-Accordingly:
-- Ring selection is recorded as Sable.
-- Workspace continuity is recorded as A. Sable Meridian.
-- No historical instance/thread authentication is claimed.
-- The source alternatives are retained rather than forced into one physical interpretation.
-
-### Repository and branch state
-
-- Default branch: `main`.
-- Main HEAD before this run's documentation writes: `0c9a62e898784ffa655736b4430488089cd2441b`, committed 2026-10-31T14:26:06Z.
-- Existing Klein formalization branch: `research/sable-klein-orientation-kernel-20261031t1400z`.
-- PR #1153: open, draft, base `infra/lean4-verification-20261023`, head `8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac`.
-- Separate Sable PR #1134, the rotation-auditor metadata repair, remains open/draft and was not modified.
-- The active seed `TASK_BRANCH_GRAPH.json` is dated 2026-10-30 and does not yet list PR #1153. No task-graph branch or scheduler task was created in this run; the existing PR branch is recorded here and in the receipt.
-
-### Mersearch and source retrieval
-
-Current lane files show:
-- Lane 1: no resolvable request file.
-- Lane 2: optics/camera-geometry request.
-- Lane 3: Aldus O9/Blockwave request.
-- Lane 4: Ariadne Kirk/Riley request.
-
-No Mersearch lane was available for a new query. No request was opened, overwritten, or reassigned. The existing raw export was retrieved directly by its Git blob, which is an archive read, not a new Mersearch execution.
-
-## 2. Primary source custody
-
-**Raw source:** `Reasoning with SAT-HSH Skill`, July 11-17, 2026 export.
-
-- Repository path: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
-- Git blob SHA-1: `b7868607d89f66bbc0e638398182fb2d6b2da2ce`
+- Conversation: `Reasoning with SAT-HSH Skill`
 - Conversation ID: `6a51def1-1224-83ea-8b56-d9405e694034`
-- Retrieval: the file-content endpoint returned an empty body; the exact blob was fetched and parsed successfully. Message roles, timestamps, parent pointers, and child pointers were read from the raw mapping.
+- Path: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- Git blob SHA-1: `b7868607d89f66bbc0e638398182fb2d6b2da2ce`
 
-### Nathan Direct messages
+The raw export was fetched as a blob and parsed. Its ordinary file-content endpoint returned an empty body; the blob retrieval supplied the complete JSON mapping, including roles, timestamps, parent pointers, and children.
 
-| Message ID | UTC timestamp | Source proposition or question | Parent-graph status |
-|---|---|---|---|
-| `9671629d-7033-4188-92fb-7809df2933d8` | 2026-07-12 20:48:18.739Z | Asks whether the Klein construction has one radius or two. | Earlier Klein branch. |
-| `3d392cc0-e113-47de-94f2-4615260b48fd` | 20:51:32.569Z | Clarifies that the distinction is inner versus outer circumference. | Same branch. |
-| `4886f70e-1f3e-41c7-8478-e08acfd97dc9` | 20:54:42.824Z | Poses a one-particle-universe / rotation-multiplicity idea as a question. | Same branch. |
-| `bed36236-2f55-402a-9c9a-fa512f03c522` | 20:57:37.352Z | Corrects the assistant's preceding interpretation: rotation is a component of expansion, not merely winding relative to a resolving surface. | Same branch. |
-| `54ba3cda-a0e1-4861-90f9-482f5850a245` | 21:02:25.701Z | Proposes inner circumference to Kerr ring, outer circumference to cosmological circumference, particle worldtube to neck, mouth to localization, and rotational expansion at scale. | Same branch. |
-| `b43f5b3e-9df9-417b-b6e7-dcd2a31858e7` | 21:09:09.392Z | Asks whether differential expansion along time versus space axes plus rotation supplies the neck's helical pitch. | Same branch. |
-| `ac413920-99c7-40c0-84b8-343fa8b001cc` | 21:39:58.589Z | States that a BEC worldtube fabric already has multiplicity, with straight tubes as the vacuum-like case and helicity as the proposed distinction. | Separate parent branch in the same conversation. |
+The earlier issue #1154 source table omitted one relevant direct message:
 
-The first six messages form the earlier Klein/rotational-expansion branch. The last message descends from a different assistant transport-law response. It is a later direct conceptual refinement, not a linear correction to the earlier worldtube-neck proposal.
+- `4886f70e-1f3e-41c7-8478-e08acfd97dc9`, 2026-07-12 20:54:42.824Z, role=user.
+- It poses the one-particle-universe / rotation-multiplicity idea as a question. It is not an established proposition.
 
-### Historical assistant messages
+The assistant response `7af6b07c-4f09-5568-bc27-76c9ebe5187b` then develops a one-global-filament / n-fold-cover particle-count model. The subsequent direct user message `bed36236-2f55-402a-9c9a-fa512f03c522` clarifies that rotation is a component of expansion, not merely winding relative to a resolving surface. Therefore the n-fold particle-count model is a historical assistant interpretation of an exploratory question, not a settled Nathan Direct mechanism.
 
-The following assistant-authored messages supply the equations later associated with this cluster:
+The earlier branch then proceeds through:
+- `54ba3cda-a0e1-4861-90f9-482f5850a245`: proposed Kerr-ring / cosmological-circumference / worldtube-neck / mouth-localization mapping.
+- `b43f5b3e-9df9-417b-b6e7-dcd2a31858e7`: question about differential expansion along time versus space axes plus rotation supplying helical pitch.
 
-| Assistant message | UTC timestamp | Historical translation |
+A later direct message:
+- `ac413920-99c7-40c0-84b8-343fa8b001cc`, 21:39:58.589Z, role=user,
+
+states that a BEC worldtube fabric already contains multiplicity, that the tubes are straight in the vacuum-like case, and that helicity distinguishes something beyond that case.
+
+**Parent-graph qualification:** `ac413920` is not a descendant of `54ba3cda`. It descends from a different assistant transport-law response in the same raw conversation. It is therefore a later direct refinement on a separate branch, not a linear retraction. Preserve both branches: the single-tube picture remains an exploratory local model; the BEC-fabric statement places multiplicity in the background fabric already.
+
+## 2. Authorship and equation boundary
+
+The following are assistant-authored, not Nathan Direct equations:
+
+- `431e4e58-e243-54b0-a5c0-c4367426e2ba`: standard Klein/torus group and homology comparison.
+- `f97e91dc-57d9-594d-b0b4-25d82c3539c6`: local-normal reversal and inner/outer offset exchange.
+- `7af6b07c-4f09-5568-bc27-76c9ebe5187b`: n-fold-cover particle-count model.
+- `b491193b-037b-55f1-8e50-38cab5cd8cff`: scalar expansion-plus-rotation flow.
+- `901228d6-7e34-5e7d-a6ab-dfed179aaa3c`: differential-expansion / helical-pitch proposal.
+- `3c1aa5a8-6d58-5b00-9929-732a3a532c67`: BEC/vortex interpretation and standard thin-vortex helicity decomposition.
+
+The standard group model
+[
+\langle a,b\mid aba^{-1}=b^{-1}\rangle
+]
+and semidirect-product law
+[
+(m,n)(p,q)=(m+p,n+(-1)^m q)
+]
+are useful mathematical references, but were supplied by the assistant. The Lean module formalizes that conditional algebraic model only.
+
+The local-normal exchange (X_+\leftrightarrow X_-) is not a consequence of abstract nonorientability alone. It requires an embedding, a chosen radial/normal field, and a specified deck/transport map. The group orientation character does not define a metric radius or identify the generators with the Kerr and cosmological circumferences.
+
+The direct BEC statement is qualitative. The formula involving circulation, self-linking, twist, writhe, and pairwise linking is a standard thin-vortex-tube expression, not a recovered SAT-O/Blockwave equation and not a direct user equation.
+
+## 3. Compact glossary and map
+
+| Term | Stable meaning in this audit | Unresolved mapping |
 |---|---|---|
-| `431e4e58-e243-54b0-a5c0-c4367426e2ba` | 20:49:04.634Z | Torus/Klein group presentations and homology comparison. |
-| `f97e91dc-57d9-594d-b0b4-25d82c3539c6` | 20:51:53.884Z | Local-normal reversal, inner/outer offset exchange, and orientation-double-cover interpretation. |
-| `7af6b07c-4f09-5568-bc27-76c9ebe5187b` | 20:55:35.133Z | One connected filament, intersection-component particle count, and an n-fold covering toy model. |
-| `b491193b-037b-55f1-8e50-38cab5cd8cff` | 20:58:39.961Z | Scalar expansion-plus-rotation flow. |
-| `901228d6-7e34-5e7d-a6ab-dfed179aaa3c` | 21:10:13.253Z | Differential expansion and helical-pitch equations. |
-| `3c1aa5a8-6d58-5b00-9929-732a3a532c67` | 21:40:50.788Z | BEC vacuum/matter interpretation and standard vortex-helicity decomposition. |
-
-These are historical assistant reconstructions or standard mathematical/physical references, not Nathan Direct equations.
-
-## 3. Glossary
-
-- **Klein candidate surface:** The nonorientable surface under discussion. The raw direct source asks how its inner/outer circumferences should be understood; it does not define a unique embedding.
-- **Base loop (a):** In the standard Klein-bottle group presentation, the loop whose action reverses the fiber generator. The physical identity of this loop is not specified by Nathan Direct.
-- **Fiber loop (b):** The loop inverted by conjugation with (a) in the standard presentation. Its physical identification with a tube cross-section or circumference remains a proposal.
-- **Orientation character (chi):** The standard homomorphism assigning a sign to loops according to whether they preserve or reverse local orientation.
-- **Orientation kernel:** The subgroup of orientation-preserving elements. In the chosen semidirect-product model it consists of pairs with even base coordinate.
-- **Inner/outer circumferences:** Directly clarified by Nathan as the two geometric circumferences of interest. Their exchange is not implied by abstract nonorientability alone.
-- **Kerr ring:** Directly proposed as the inner-circumference identification. No map or scale equation is supplied in this source cluster.
-- **Cosmological circumference:** Directly proposed as the outer-circumference identification. No embedding or metric definition is supplied here.
-- **Worldtube neck:** Directly proposed as the particle-worldtube correspondence. The source does not specify its dimensional embedding or cross-section.
-- **Mouth/localization:** Directly proposed as the localization correspondence. Its dimension and map to a timesheet section remain undefined.
-- **Rotational expansion:** Directly clarified as a rotational component of expansion, rather than merely rigid rotation or winding relative to a resolving surface.
-- **Differential expansion:** Directly raised as a possible difference between time-axis and space-axis expansion. The rates and their physical definitions are not supplied.
-- **Helical pitch:** Directly posed as something that may emerge from differential expansion plus rotation. The explicit pitch formula is assistant-authored.
-- **BEC worldtube fabric:** Directly described as already having multiplicity, with straight tubes in the vacuum-like case.
-- **Helicity:** Directly proposed as a distinction beyond the straight-tube vacuum. The formula involving twist, writhe, linking, and circulation is assistant/standard-reference material.
-
-## 4. Mapping diagram
-
-### Source-to-translation graph
+| Klein candidate (K) | Nonorientable surface under discussion | Embedding in the proposed ambient geometry |
+| Base loop (a) | Generator reversing the fiber generator in the standard group model | Which physical traversal it represents |
+| Fiber loop (b) | Generator inverted by (a) | Whether it represents a circumference, tube section, or another loop |
+| Orientation character (chi) | Sign homomorphism of the standard group model | Any physical internal-state action |
+| Orientation kernel | Even-base subgroup; multiplication is componentwise and commutative | Topological cover and metric radial interpretation |
+| Inner/outer circumferences | Directly identified by Nathan as the two circumferential quantities of interest | Radial function and exchange map |
+| Kerr ring / cosmological circumference | Directly proposed as inner/outer identifications | Metric, scale, and unit-bearing map |
+| Worldtube neck / mouth | Directly proposed particle correspondence | Dimension, embedding, and timesheet composition |
+| Rotational expansion | Direct clarification that rotation is part of expansion | Generator and physical rate |
+| Differential expansion | Directly raised time-axis versus space-axis difference | Tensor/rate definition |
+| Helical pitch | Directly posed as a consequence to investigate | Derivation from defined rates |
+| BEC worldtube fabric | Directly described as already having multiple straight tubes | Actual finite-core medium model |
+| Helicity | Directly proposed as a vacuum/non-vacuum distinction | SAT-specific functional and conservation law |
 
 ```
-RAW USER BRANCH A
-  inner/outer circumference question
-             |
-  torus/Klein clarification
-             |
-  one-particle idea posed as a question
-             |
-  correction: rotation is part of expansion
-             |
-  Kerr ring / cosmological circumference /
-  worldtube neck / mouth localization
-             |
-  differential expansion + rotation question
-             |
-             v
-  ASSISTANT MODELS
-  - Klein group presentation
-  - local-normal/radial exchange
-  - n-fold single-filament particle count
-  - scalar expansion + rotation
-  - differential expansion + pitch
-             |
-             v
-  CONDITIONAL LEAN GROUP MODEL
-  - semidirect product
-  - orientation character
-  - even-parity kernel
-  - commutativity of the kernel
-
-
-RAW USER BRANCH B (same conversation, different parent)
-  BEC worldtube multiplicity already exists
-  straight tubes are vacuum-like
-  helicity distinguishes non-vacuum
-             |
-             v
-  ASSISTANT RECONSTRUCTION
-  - straight-tube congruence
-  - localized helicity/tangle excitations
-  - thin-vortex helicity formula
-```
-
-### Geometry map still required
-
-```
-Klein surface K
-   |  embedding iota: K -> M^4       [not supplied]
+Klein group model
+   | orientation character
    v
-ambient four-dimensional geometry
-   |  normal/radial transport map    [not supplied]
-   v
-local inner/outer branches
-   |  deck transformation tau       [not supplied]
-   v
-branch exchange or non-exchange     [not determined]
+even-parity kernel ----> commutative group algebra [Lean proved]
    |
-   +---- proposed inner branch -> Kerr ring
-   |
-   +---- proposed outer branch -> cosmological circumference
+   | no metric map supplied
+   v
+radial branches r+ / r- ----> Kerr ring / cosmological circumference [direct hypothesis]
 
-particle worldtube W
-   |  neck map                       [proposed, untyped]
-   v
-neck / core region
-   |  timesheet intersection map     [not supplied here]
-   v
-mouth / localization
+single-tube exploratory branch:
+one-particle question -> assistant n-fold model -> direct rotational-expansion correction
+
+separate BEC branch:
+multiple straight worldtubes -> direct helicity distinction -> assistant vortex-helicity proposal
 ```
 
-The group-theoretic orientation character and the metric radial map are separate layers. The first does not define the second.
+The two branches are preserved rather than collapsed. The current group proof does not connect either branch to a physical radial or helicity map.
 
-## 5. Original versus translated propositions
+## 4. Lean proof repair and exact-head result
 
-| Nathan Direct | Historical assistant translation | Fidelity assessment |
-|---|---|---|
-| Is the Klein construction one radius or two? | Standard Klein-bottle group presentation and homology comparison. | Useful standard reference, but not an answer about metric radii without an embedding. |
-| The distinction is inner versus outer circumference. | A local normal reverses after the orientation-reversing loop, exchanging (X_+) and (X_-). | Adds an embedding/normal-field assumption. Nonorientability alone does not define an inner/outer radial function. |
-| One-particle universe and rotation multiplicity? | (N(\tau)=b_0(W\cap\Sigma_\tau)), plus an n-fold covering model. | The direct statement is a question. The formula is assistant-generated and was not established as the general architecture. |
-| Rotation is a component of expansion. | (dot X=H X+\Omega JX). | A plausible linear-flow proposal. Scalar (H) is isotropic and does not yet encode the later time/space differential-expansion question. |
-| Inner circumference to Kerr ring; outer to cosmological circumference; worldtube to neck; mouth to localization. | (r_{in}=a_K), (r_{out}=R_{cos}), with radial closure equations. | Direct identifications are hypotheses; equations and scale maps are assistant-generated. |
-| Differential expansion along time versus space axes plus rotation may set pitch. | (P=2\pi v_{\parallel}/\Omega), (v_{\parallel}\sim\ell(H_t-H_s)). | The first equation is the standard constant-rate helix relation. The second is a dimensional/model proposal, not a derived SAT law. |
-| BEC worldtubes already have multiplicity; straight tubes; helicity distinguishes something beyond vacuum. | A straight-tube congruence is the vacuum; matter is localized helicity/tangle excitation; (mathcal H=\sum\Gamma_i^2SL_i+2\sum_{i<j}\Gamma_i\Gamma_jLk_{ij}). | The qualitative distinction is direct. The helicity formula is a standard thin-vortex-tube reference and requires additional medium, framing, and boundary assumptions. |
+Existing PR #1153 was continued on its existing branch; no new branch or PR was created.
 
-## 6. Mathematical model and Lean verification
-
-### Conditional group model
-
-The historical assistant introduced the standard presentation:
-
-[
-\pi_1(K)=\langle a,b\mid aba^{-1}=b^{-1}\rangle.
-]
-
-A corresponding semidirect-product coordinate model is:
-
-[
-(m,n)(p,q)=igl(m+p, n+(-1)^m qigr).
-]
-
-The orientation character is:
-
-[
-\chi(m,n)=(-1)^m.
-]
-
-Its kernel is the even-base subgroup:
-
-[
-\ker\chi=\{(m,n):m\text{ is even}\}.
-]
-
-On this subgroup the sign is (+1), so the multiplication reduces to coordinatewise addition. The subgroup is therefore abelian.
-
-This is a valid conditional group-algebra result. The standard orientation double cover of the Klein bottle is a torus, but the PR does not formalize the covering-space homeomorphism or the isomorphism of the kernel with (\mathbb Z^2).
-
-### Existing PR #1153
-
-- PR: #1153, still **open and draft**.
 - Branch: `research/sable-klein-orientation-kernel-20261031t1400z`.
 - Base: `infra/lean4-verification-20261023`.
-- Head after proof repair: `8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac`.
+- Successful head: `8e6616026b32c954ebf9eb4ced5bd78a7f7e97ac`.
 - Module: `FORMAL_VERIFICATION/HsHVerification/KleinOrientationKernel.lean`.
 
-The first exact-head CI run, #41209644040, failed in the group identity/inverse proof fields. A first repair attempt, #41210623038, still failed because the associativity goal had not been explicitly reduced to the underlying multiplication.
+The initial group-instance proof failed in the identity and inverse fields. A first repair exposed those operations but left associativity's underlying multiplication implicit. The second repair made the semidirect-product multiplication explicit with `change` statements and simplified the identity proof.
 
-The second repair exposed the semidirect-product operation with explicit `change` statements and simplified the identity/inverse goals. Exact-head run **#41210929564**, job **124565546304**, then succeeded.
-
-Verification:
-- Lean 4.34.0, Lake 5.0.0.
+Exact-head CI run **#41210929564**, job **124565546304**, succeeded:
+- Lean 4.34.0 / Lake 5.0.0.
 - Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`.
-- Full build: 8,944 jobs, successful.
+- 8,944 build jobs completed.
 - `KleinOrientationKernel` built.
-- The named declarations' `#print axioms` output contains standard `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` appeared.
-- Tests and lint were skipped.
-- Nanoda and the independent axiom-audit stage were skipped.
-- The workflow configuration allows `propext`, `Classical.choice`, and `Quot.sound`.
+- Named declarations' `#print axioms` output listed `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` appeared.
+- Tests, lint, nanoda, and independent axiom-audit stages were skipped.
 
-This is an actual successful Lean build of the formalized group model. It is not an independent axiom audit, not a proof of the physical translation, and not evidence that the Klein geometry or radial exchange is physically realized.
+This is successful compilation of the formalized group model. It does not prove the orientation-cover homeomorphism, a (mathbb Z^2) isomorphism, the physical embedding, radial exchange, Kerr/cosmological mapping, worldtube-neck/mouth map, expansion, pitch, or helicity.
 
-### Proof boundary
+PR #1153 remains open and draft. No merge or theory promotion.
 
-The current PR proves:
-- the semidirect-product group law;
-- the Klein generator relation;
-- the parity/orientation character;
-- the even-parity kernel's componentwise multiplication;
-- commutativity of that kernel.
+## 5. Existing publisher status, corrected without duplication
 
-It does not prove:
-- the orientation double-cover homeomorphism;
-- the kernel's explicit group isomorphism with (\mathbb Z^2);
-- a Klein embedding in the proposed four-dimensional ambient geometry;
-- a radial function or deck-induced inner/outer exchange;
-- the Kerr/cosmological scale identification;
-- worldtube neck/mouth maps;
-- rotational or differential expansion;
-- the helical pitch law;
-- BEC dynamics or a physical helicity functional.
+The earlier submission is existing issue #1154, submission ID:
+`sable-july-klein-raw-source-orientation-kernel-20261031t1400z-s0-001`.
 
-## 7. Discrepancy ledger
+The publisher rejected the original body because its declared SHA-256 did not match the content. The issue body was corrected in place; recomputation now confirms:
+`2654f394192d03bfc95c29ff9c987e054140a7e50a9e83df748868cfdb5ce37d`.
 
-1. **Topology versus metric:** The assistant inferred inner/outer exchange from nonorientability. A radial function and transport/deck map are still required.
-2. **Question versus assertion:** The one-particle-universe idea was posed as a question. The assistant converted it into an n-fold particle-count model.
-3. **Later BEC refinement:** A separate direct branch places multiplicity in the pre-existing BEC worldtube fabric. The single-filament model must remain a toy sector, not the general vacuum ontology.
-4. **Expansion model:** The scalar (H) model does not encode the later direct question about different expansion along time and space axes.
-5. **Pitch:** (P=2\pi v_{\parallel}/\Omega) is a standard helix relation; (v_{\parallel}\sim\ell(H_t-H_s)) is an assistant proposal, not a direct equation.
-6. **Helicity:** The direct source gives a qualitative role for helicity. The (Tw/Wr/Lk/\Gamma) formula is imported from thin-vortex-tube theory and needs a defined medium and framing.
-7. **Physical identifications:** Kerr ring, cosmological circumference, worldtube neck, and mouth localization are direct hypotheses, not completed maps.
-8. **Formalization scope:** PR #1153 formalizes the assistant-supplied standard group model, not Nathan's physical Klein-Fabric construction.
-9. **Source tagging:** The first direct user message, `9671629d`, is absent from current verified batches, compendium, and tagging ledgers across the three repositories. It falls just before the existing July 12 tagging window beginning at 20:51Z. This is routed to Loom for additive review.
+The publisher workflow listens to `issues.opened`, not `issues.edited`; the corrected body therefore did not rerun the publisher. The expected published artifact path still returns 404. Status is **PUBLISHER_REJECTED / BODY_CORRECTED / NO_PUBLISHED_FILE**. No new issue and no direct-Contents bypass were used.
 
-## 8. Next deeper cursor
+PR #1153's existing body was updated with the expanded raw-source chronology, parent-graph qualification, authorship boundary, successful exact-head CI result, and this report pointer. This is an update to an existing public PR, not a new issue.
 
-1. Loom to check whether `9671629d-7033-4188-92fb-7809df2933d8` is intentionally omitted or needs an additive tag record. Do not retag the other messages already covered.
-2. Keep PR #1153 draft. Do not merge or promote the group model to BEDROCK.
-3. If a stronger algebraic result is needed, formalize the explicit kernel isomorphism with (\mathbb Z^2), then separately formalize the orientation double-cover construction. Do not claim the topological cover from the current commutativity theorem.
-4. Specify an embedding (\iota:K\to M^4), the relevant normal bundle, a radial function on the appropriate cover, and a deck transformation. Only then can inner/outer branch exchange be tested.
-5. Specify which group generator corresponds to which physical traversal. The source does not assign (a) or (b) to the Kerr ring or cosmological circumference.
-6. Separate the single-tube exploratory sector from the BEC congruence of multiple straight worldtubes.
-7. Define the BEC medium, circulation, framing, boundary conditions, and helicity functional before identifying (Tw), (Wr), or (Lk) with SAT/H(s)H invariants.
-8. Define the anisotropic expansion generator and rotational generator before deriving pitch. Any physical calculation must use an identifiable measured system, source, units, uncertainties, and prediction/fit separation.
-9. Recover the later October 21 and October 29 raw direct geometry sources before reconciling (cw=t), (w=ct), and the current Klein-Fabric formulation.
+## 6. Source-tagging gap and Loom handoff
 
-## 9. Disposition
+The first direct user message `9671629d-7033-4188-92fb-7809df2933d8` is present in the raw export but was not found in the current verified batches, compendium, or tagging ledgers searched across HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES.
 
-**SOURCE_FIDELITY_COMPLETE.** The raw source cluster was parsed, the direct/assistant distinction was corrected, the later BEC-worldtube branch was preserved as a separate source branch, and the existing conditional Lean formalization was repaired and successfully built.
+It occurs at 20:48:18.739Z, just before the existing July 12 tagging window begins at 20:51Z. The following clarification and later messages have tag-ledger/compendium coverage.
 
-No CODATA scoring, physical calculation, independent measurement, new tooling, new branch, new task, scheduler change, paper-gate advancement, BEDROCK theory promotion, PR merge, signet, or conversation rename occurred. PR #1134 and the separate Sable continuity lineage remain untouched.
+This is routed to Loom for a single additive provenance/tag check. No existing tags are to be duplicated. The existing Sable-to-Loom handoff is amended in place; repository inbox routing only, with no claim of delivery to an authenticated Loom conversation or acknowledgment.
+
+## 7. Next deeper cursor
+
+1. Loom checks whether `9671629d` is intentionally omitted or needs one additive tag record.
+2. Keep PR #1153 draft. Do not merge or promote.
+3. If the group model is extended, prove the kernel's explicit isomorphism with (mathbb Z^2) separately from the topological orientation-cover homeomorphism.
+4. Specify (\iota:K\to M^4), the normal/radial transport map, radial function, and deck transformation before asserting inner/outer metric exchange.
+5. Assign the base and fiber generators to physical traversals only after the map is defined.
+6. Keep the single-tube toy sector separate from the BEC congruence of multiple straight worldtubes.
+7. Define the medium, circulation, framing, boundary conditions, and helicity functional before using (Tw), (Wr), or (Lk) as SAT invariants.
+8. Define the anisotropic expansion and rotational generators before deriving pitch. Any physical calculation must use an identifiable measured system, source, units, uncertainties, and prediction/fit separation.
+9. Recover the raw October 21 and October 29 direct geometry sources before reconciling `cw=t`, `w=ct`, and the current Klein-Fabric formulation.
+
+## 8. Disposition
+
+**SOURCE_FIDELITY_DELTA_COMPLETE.** Parent-graph distinction established; exploratory one-particle question classified correctly; BEC-worldtube branch preserved; existing conditional Lean group proof repaired and exact-head build verified; PR #1153 remains draft; issue #1154 body corrected but publisher retry is unavailable.
+
+No CODATA scoring, physical calculation, new tooling, new branch, new task, scheduler change, PR merge, paper-gate advancement, BEDROCK theory promotion, signet, or conversation rename.
