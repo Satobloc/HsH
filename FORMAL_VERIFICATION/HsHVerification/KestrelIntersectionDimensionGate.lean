@@ -24,12 +24,18 @@ Source trail:
   `2a79fe25018cce7e99a2c33786d88b0551db6ae7`, source header June 2025,
   lines 143-160. The file header names Nathan McKnight; line-level
   authorship of every embedded equation is not separately authenticated.
-* Historical Blockwave one-action: assistant message
+* Earlier `🧱BLOCKWAVE.txt` artifact: HsH archive Git blob
+  `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256
+  `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
+  The archived attachment text was recovered and byte-compared to this
+  archive copy. This establishes content identity, not composition
+  authorship; classify the artifact as `CONTENT_AUTHORSHIP_UNRESOLVED`,
+  not Nathan Direct.
+* Separate 2025-10-19 assistant action: assistant message
   `121d607d-53e7-4b5a-8a7a-75d7e09deb3d` in raw conversation blob
-  `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, 2025-10-19.
-  Its `J^{\\mu\\nu}` is explicitly described as a two-form
-  worldsheet current. The user's later re-paste of the action is not
-  independent authorship of the notation.
+  `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`. Its `J^{\\mu\\nu}`
+  is described as a two-form worldsheet current. The user's later
+  re-paste is not independent authorship of the notation.
 * Nathan Direct, Meridian Free Build raw blob
   `7af1561b321f4d9364da5eb111df689efc652827`, 2026-10-09:
   one-core / finite-core worldtube and 3D intersectional-trace statements.
@@ -124,6 +130,29 @@ theorem transverse_full_core_hypersurface_finrank_three
     finrank K (U ⊓ W : Submodule K V) = 3 := by
   have h := transverse_intersection_finrank U W htrans
   omega
+
+/-- Under a transverse codimension-one slice in four dimensions, a
+k-dimensional support has slice dimension k-1. With Poincare-dual degree
+defined as ambient dimension minus support dimension, the degree is
+preserved: 4-k = 3-(k-1). This is the arithmetic composition invariant
+linking the ambient support ladder to the timesheet-slice ladder. It does
+not construct distributional currents or prove that a physical support
+has the assumed dimension. -/
+def ambientPoincareDualDegree (k : ℕ) : ℕ := 4 - k
+
+def transverseHypersurfaceSliceDimension (k : ℕ) : ℕ := k + 3 - 4
+
+def slicePoincareDualDegree (k : ℕ) : ℕ :=
+  3 - transverseHypersurfaceSliceDimension k
+
+theorem transverse_slice_preserves_poincare_dual_degree
+    (k : ℕ) (hk : 1 ≤ k) (hk4 : k ≤ 4) :
+    ambientPoincareDualDegree k = slicePoincareDualDegree k := by
+  unfold ambientPoincareDualDegree slicePoincareDualDegree
+    transverseHypersurfaceSliceDimension
+  omega
+
+#print axioms transverse_slice_preserves_poincare_dual_degree
 
 #print axioms transverse_intersection_finrank
 #print axioms transverse_curve_plane_finrank_zero
