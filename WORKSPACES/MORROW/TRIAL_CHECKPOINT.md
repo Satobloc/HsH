@@ -348,3 +348,12 @@ Created optional, non-assignment handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAN
 - FIE last full review 2026-10-27; not due. Unrelated reading remains Jacoby, *Practical Talks by an Astronomer*, lines 541-620; next cursor 621.
 
 **Next exact source cursor:** await Mersearch request `morrow-br005-time-normal-source-20261031-1253` manifest/receipt. If a raw candidate appears, fetch the exact raw blob and verify outer role, message ID, timestamp, parent and adjacent turns. If no raw message is returned, continue bounded date/conversation-index search only when a lane is released. Preserve `SPHERE4QC.txt` line 1301 as deferred. No formalization or theory use of the Ravel kernel until the raw source and frame are reconciled.
+
+
+## 2026-10-31T1248Z — Kestrel successor handoff timing correction
+
+- Parent optional handoff `2026-10-31T1248Z_from_s4_to_s0_kestrel.md` was committed as `a05dbcf5f7eaa63d2b2f70ab2dcf23428ef82ba4` at 13:05:36Z.
+- Kestrel :00 run `28b3ace2-36e8-8322-b09e-7013f439e1ac` had already started at 13:03:26.851279Z; the handoff arrived 129.148721 seconds after startup. The Kestrel inbox pointer commit `1c3e53220f934e86a582a3cab19ecc0b43b01548` at 13:05:45Z followed by 138.148721 seconds.
+- Addendum `2026-10-31T1248Z_from_s4_to_s0_kestrel_ADDENDUM_01.md`, blob `aa32356ae4a13d25deed500321bf2aa740f446c0`, records the timing. Kestrel inbox addendum pointer exact-readback verified at blob `009e374768b7f10d0f0ee4b63766f46edead24ee`.
+- Repository delivery exists after successor startup. Kestrel consumption/acknowledgment remains UNVERIFIED; no ChatGPT-thread delivery or cross-thread acknowledgment claimed. Optional context only; no task or response obligation.
+- Final Morrow report blob after timing amendment: `9934548a2d47a88ac969397c4cd5bbd154403a40`.
