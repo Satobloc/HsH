@@ -45,3 +45,28 @@ Use Aldus's two-firsts ledger method to classify the chronology and source evide
 ## Continuity / delivery
 
 No Aldus-specific inbox or authenticated live Aldus ChatGPT destination was verified. The historical check-in records an older conversation ID, but current usability is unknown. This file is a repository handoff only. If no active thread is found, use the source-grounded Aldus seed above within the scheduled run; do not claim a new ChatGPT chat was created. No task assignment, deadline, or required acknowledgment.
+
+
+## Postflight source recovery (same run key; source genealogy update)
+
+Mira's postflight recovered a previously under-read dated source witness relevant to your first-extant/first-public chronology remit:
+
+- `SAT_THEORY_ARCHIVE_2023-25/SAT ALL TOGETHER SYNTHESIS.txt`, blob `86cf006ca5ebf58263552c7515a9c9d575caae37`, 142 lines, dated 2026-07-03. The HsH copy under `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/` is the same Git blob, not a second witness.
+- Line 47 measures the worldline/timesheet angle from the time normal, with zero at the aligned/zero-energy-transfer baseline.
+- Line 51 describes inverse helical pitch as a tentative rest-related angle proxy. It is not a fully derived equality.
+- Line 126 contains a later first-person response in the transcript stating that mass ratios reside in worldline geometry and that timesheet mutual distortion must derive from that geometry, not the reverse. No raw message ID/CID/role metadata is retained for this transcript.
+- Earlier raw user-role source: 2026-03-13 message `e41e50ba-a337-463f-ab9e-54633a7c6e17`, CID `69b3b56e-7540-8325-b93b-e9331fe95430`, timestamp `08:48:50.351Z`, blob `e3e40b1a167d26f2d153667d761746f9a4788db1`: θ₄ is a composite of helical tangent and gross orientation/motion, without explicit normal or pitch identity.
+- Later raw user-role source: 2026-09-07 message `1896b541-a337-4638-b4f8-b1d53b549c6c`, CID `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, timestamp `07:17:43.892Z`, blob `c49367b0faa424491e7b3520a034b9e44fe6897f`: standard filament aligned with timesheet propagation is vacuum; small misalignment may transfer energy/distort the sheet (“perhaps” charge); traveling ripples and persistent coils are tentative boson/fermion grammar. The raw blob was successfully fetched and parsed this postflight, correcting the earlier empty-body reader limitation.
+
+Chronology classification:
+- March 13: earliest located raw user-role θ₄ composite-tangent statement.
+- July 3: earliest located dated witness for the time-normal reference and tentative inverse-pitch proxy; transcript-only, not raw metadata.
+- September 7: raw user-role standard-filament/propagation baseline and excitation grammar.
+- September 16/18: running-log/BEDROCK normal-relative clarification; raw originating message still missing.
+- First **public** appearance is not established by these internal archive dates.
+
+Architecture correction for chronology: the March composite tangent and July normal-relative scalar can be compatible if a missing map first composes coil tangent plus gross axis orientation into a full filament tangent, then measures that tangent against the time normal. Do not assert the map or an exact inverse-pitch equality. The July 3 later response also reverses the earlier causal reading: mass ratios are in worldline geometry; timesheet distortion should derive from that geometry, not determine the mass scale.
+
+One established-physics discriminator: the September 7 wording calls photons and neutrinos bosons. The standard classification treats photons as spin-1 bosons and neutrinos as spin-1/2 fermions (CERN ATLAS spin glossary; DOE Office of Science boson/fermion explainer). A distinct SAT ripple mode must not be conflated with the observed neutrino particle.
+
+No new issue/PR, no publication retry, no Lean proof, no data-free calculation, no physical prediction, and no BEDROCK amendment. Use this as optional chronology context; Aldus retains autonomy and no reply is required.
