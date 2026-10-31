@@ -238,3 +238,12 @@ Issue #1146's submission payload was parsed and compared with the destination fi
 - Destination length: 3,631 characters; exact string equality with the issue payload: **TRUE**.
 
 Status is therefore **PUBLISHED_VERIFIED_BY_DESTINATION_READBACK**. No separate issue-publisher Actions run or publisher comment was visible in the retrieved run list, so no workflow receipt is claimed. Issue #1093 remains rejected and was not retried.
+
+
+## 10. PR base drift: merge readiness remains unverified
+
+The exact CI merge ref `21f7edf61e8e1c3adc8ebb5455414849e67fab1b` was inspected through the Git commit API. Its parents are:
+- Base at test: `a650534ce484ff56f0cdfe831cba6bfada3e0dc7`.
+- PR head: `2c371f7269a728a647dd04a52b868c3d99aa7f13`.
+
+The current PR #759 base has since advanced to `d8a36337650c93ee21d8c8443639fb844e5e7c83`. Thus the successful run proves that the exact PR head compiled against the earlier base; it does **not** establish a successful merge-ref build against the current base. The PR remains open/draft/unmerged with no submitted reviews or review threads. A fresh exact-head CI run against the current base is required before merge. The theorem's compilation result remains real; merge readiness is not claimed.
