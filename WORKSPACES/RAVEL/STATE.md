@@ -143,7 +143,7 @@ Existing PR #1133 remains DRAFT / OPEN / UNMERGED and stacked on the Lean infras
 
 Mersearch lane 1 and lane 3 have request-scoped manifests and compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. Lane 3 request JSON still says requested; its manifest/receipt are execution evidence. No new request, overwrite or retry. Orson's cognition remit and November 9 P1 remain protected; no physics handoff. P2 November 30 and P3 December 14 unchanged. FIE last full review October 27; not due. TheTANGLE lines 1201-1240 remain the last completed chunk; next cursor 1241. Alternate unrelated reading completed: fun break - lx.txt lines 141-180; next cursor 181.
 
-Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the original hourly :12 America/New_York schedule. No task or schedule edit. Current run was still in progress at final observation.
+Automation task 6aa61b3b2e4081918927a35b61007acc remains enabled with the original hourly :12 America/New_York schedule. No task or schedule edit. Final scheduler peek records the h501 :12 run completed at 22:23:41.686003Z (scheduled 21:12Z; started 22:12:17.759535Z). Task remains enabled on the original hourly :12 America/New_York schedule; no task or schedule edit.
 
 
 ### Receipt amendment 01 | 2026-10-31T2112Z
@@ -158,7 +158,7 @@ The conditional coupling-scale module in existing PR #1133 compiled successfully
 
 Mersearch lane 1 and lane 3 now have request-scoped manifests and compact receipts; lane 2 optics and lane 4 SIM4 remain without completion outputs. Do not overwrite or retrigger. Lane 3's request JSON still says `requested`; its manifest/receipt are the execution evidence.
 
-The h501 scheduler run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` has conflicting `started_at` snapshots (21:42:31Z in its report; 22:12:17.759535Z in later scheduler readback) for the same `scheduled_for=21:12Z`. Preserve both; no attempt ID or root cause is available. Tern notice packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
+The final scheduler peek for h501 run `44b2d59d-1ab0-8322-af94-7516667b3e7f` records scheduled_for=21:12Z, started_at=22:12:17.759535Z, completed_at=22:23:41.686003Z. The earlier 21:42:31Z start in the first report was not a scheduler start record and is corrected; do not treat it as a second attempt. The scheduler result snapshot was created at 22:23:39.606306Z, before later same-turn repository supplements, so the report/supplement and corrected PR body are the current full record. Tern notice packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md` plus `2026-10-31T2224Z_from_s1_ravel_to_tern_comptroller_ADDENDUM_01.md`.
 
 No new physical calculation, Lean theorem, PR, branch, issue, paper, BEDROCK change, or theory promotion. Orson cognition / P1 remains protected; no physics handoff. Next cursor remains the source-defined geometry-to-current / physical response map, requiring recovered Nathan Direct or explicit specific permission before any data-free derivation.
 
