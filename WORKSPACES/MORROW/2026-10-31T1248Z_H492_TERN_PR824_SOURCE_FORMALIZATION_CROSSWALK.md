@@ -138,3 +138,12 @@ Updated:
 - No automation ID, enabled-state, prompt, schedule, phase or cadence changed. No sixth task.
 
 **Next Morrow cursor:** await request `morrow-br005-time-normal-source-20261031-1253` manifest/receipt; if it returns candidates, fetch the exact raw Git blob and verify message ID, outer role, timestamp, parent and adjacent turns before attribution. If it does not return the raw 2026-09-16 message, continue a bounded date/conversation-index search only when a Mersearch lane is released. Keep the source/formalization distinction and the training/theory freeze. Preserve `SPHERE4QC.txt` line 1301 as deferred.
+
+
+## 6. Repository and branch snapshot
+
+- Current HsH `main` head at this readback: `b0d462ee73da96e284ec0a93f20988ff2d796680` (2026-10-31T13:03:08Z).
+- Current task graph: `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json`, blob `3c341c616aa893bf56ad5ad5919e09a17e0c2b46`, last updated `2026-10-30T06:12Z`. It contains the three-paper campaign and lists Morrow only as a candidate instance for P2/P3; it assigns no Morrow-specific research branch or current theory ownership.
+- Current workflow branching map blob: `756c506780072591b2f48e22044f3368a57bfa7d`; no Morrow branch entry. Morrow's archival record work is on `main`; PR #824's research branch remains Tern-owned. No branch or task-graph mutation was made.
+- Morrow README is now blob `fdbf9ec8eacfa9abdfa5e76011ec8c8dcdf08e8e`; the additive raw-role/parent-edge correction ledger is blob `235cbd5017d10ea48fbbaf704f2cf442259a4e0c`. Both were exact-readback verified.
+- Tern's current h492 report is blob `f21e2a9b07bccfa20f6cddc25655d52eb7329ff7`; its receipt is blob `72ebbb4331411708655d64b691a59aa81d94cad4`; its Tern-to-Morrow handoff is blob `2618357828ad67975853d48dd0fb0b6a044e7388`. These records were read after the successor packet appeared; the packet was consumed after Morrow startup, not at startup.
