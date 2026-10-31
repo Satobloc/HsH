@@ -1,0 +1,79 @@
+{
+  "request_id": "aldus-geometry-fidelity-wwrd-strand-20261031-1929",
+  "query": "(author:user AND ((WWRD OR WWPD OR \"What Would Rope Do\" OR Petzl) OR ((thread OR twine OR yarn OR bundle OR rope) NEAR/12 (filament OR worldtube OR \"time surface\" OR \"four-dimensional\")))) OR (author:assistant AND ((rope NEAR/12 worldtube) OR (rope NEAR/12 filament) OR (\"coarse-graining\" NEAR/12 worldtube) OR (\"projection map\" NEAR/12 filament) OR (\"composition map\" NEAR/12 worldtube) OR WWRD OR WWPD OR Petzl))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "9180c8eabbebc07a252358636651b9c72ff47a3f",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "0e30ff7c4204eff61722cbadbcc1d0ed60621853",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "9180c8eabbebc07a252358636651b9c72ff47a3f",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "97808b21357064d5435475133fed6b23a5ce12a4e60d4273feb692e180269414",
+    "SEARCH_RESULTS.md": "1c8da43cc8d32fe2c097a79815a1d73316dfb848b865363d6185a51a7e6ecf16",
+    "SEARCH_RECEIPT.json": "0f1848eb884999d3aa473904519a5d3d84bb2431bdd0a0cf99e8a7e59c82557f",
+    "SEARCH_RECEIPT.md": "91b0c2fe8675416ecaf843948b444ce5afd360e286b425ee328eeca7fd1addc7"
+  }
+}
