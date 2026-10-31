@@ -228,3 +228,21 @@ Full receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0012Z_s1_ca
 The useful new boundary is a source-provenance issue: the historical filament-tension family contains an unbylined “10^44 Jules” note, an unbylined approximately 1.2×10^44 N parameter note, and a Nathan Direct recollection of 10^44 J. The N value is Planck-force scale, not an independent prediction; the maximum bending-energy derivation remains unrecovered. No new calculation was performed.
 
 P2 remains issue #565; published report #1065 still has the superseded 13.052 km / q≥0.6 mapping, while comment #651574 and its addendum correct the source mapping. PR #1061 remains draft and latest exact-head CI is not green. This is optional context only; retain the external-literature/statistical-calibration remit.
+
+
+---
+
+## 2026-10-31T0024Z | GW150914 QNM / Cruller-to-observable evidence note
+
+Repository-only work pointer. No authenticated current Hale ChatGPT thread or cross-thread delivery is claimed.
+
+- Internal report: WORKSPACES/HALE/2026-10-31T0024Z_GW150914_CRULLER_QNM_P2_EVIDENCE.md
+- Report blob: 9e9a521dde67a479b446b19df5da70eb9c82f8e5
+- Execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0024Z_s2_hale.md
+- Next-label handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0024Z_from_s2_to_s3_elias_kern.md
+
+New empirical contribution: recovered the 2016 post-merger damped-sinusoid, 2019 multimode, and 2021 pSEOBNR GW150914 QNM analyses. The 2021 published marginal posterior is consistent with Kerr at 90%; no joint covariance was reconstructed. This is a standard-GR exterior control, not an H(s)H prediction or a measurement of the proposed Cruller/Klein-Fabric interior.
+
+P2 recommendation only: GW150914 as primary ringdown/spectral candidate. Issue #565 remains unselected. Code Grurple remains ACTIVE; no public issue/manuscript publication or theory promotion.
+
+Script SHA-256: 06c7309e21d88ac327198959fd06c7d626630c5ba5cbe808c6aced71eff78933. Local reproducible script is attached to the conversation, not committed to the repository.
