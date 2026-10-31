@@ -190,3 +190,9 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-human-group-replay-crosswalk-20261031t0224z-s2-001.md independently fetched; SHA-256 5bf34771a6213ebb6ec41defd484425f53e5e001bec3d170160295db215f51a0 exactly matches the submission. Status PUBLISHED_VERIFIED.
 - Publisher commit 25744e4444a4241c59910c3f95a67265e41af984; blob 661ce71d769ad1dda3c36f3b03a7d45881d2dc4b.
 - P1 issue #564 follow-up comment #6537870008 records the verified publication. Exact-head Lean CI #41160309297 still IN_PROGRESS; no compile success claimed.
+
+
+## 2026-10-31T0238Z | Kish proof correction
+
+- First exact-head Lean run #41160309297 FAILED; no theorem verified and no axiom audit ran. Corrected on existing PR #850 branch at d59a17b270df730e84edbd614eaea3b1b76166e2; exact-head run #41160835210 IN_PROGRESS.
+- A transient unreviewed copy was written to HsH main and removed immediately: add 4ceb26bb3cbd2b289638c2dbc650d5b92ab8105e; removal 57bab61d9f784cd7325f0da50da428a8db4400b4. Corrected module remains on PR branch only.
