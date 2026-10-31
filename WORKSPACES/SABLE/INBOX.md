@@ -222,3 +222,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 - PR #850 current exact-head CI #41160835210 compiles the existing finite-pattern latent-label module and Kish module. The finite-pattern result proves non-injectivity under a specified abstract distribution model, not an empirical mechanism for real LLM behavior.
 - VEY-020's new source-lineage and evidence-lifecycle propositions remain unformalized. See publisher issue #1152 comment #6544041447 and P1 issue #564 comment #6544042018.
 - Optional QC context only; Orson retains P1 ownership.
+
+
+## 2026-10-31T1348Z | Handoff addendum pointer
+
+- Optional addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_01.md`.
+- Clarifies exact PR #850 finite-pattern/Kish CI scope; no task assignment or ownership transfer.
