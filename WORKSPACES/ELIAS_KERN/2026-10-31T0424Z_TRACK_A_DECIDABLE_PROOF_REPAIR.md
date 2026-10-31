@@ -82,3 +82,32 @@ All four remain marked `requested`; none was overwritten or re-triggered. Mersea
 4. Preserve the switchboard POC as sandbox-only. A byte-for-byte execution of its existing self-test remains an optional later bounded operation when a checked-out source copy is available.
 
 **Result:** SOURCE-GROUNDED TRACK A EXECUTION / CONSTRUCTIVE PROOF REPAIR COMMITTED / EXACT-HEAD CI PENDING / NO PRODUCTION OR THEORY PROMOTION.
+
+
+## 2026-10-31T0436Z — exact-head Lean verification update
+
+The first constructive patch, commit `170b929edfdf1d27fcc466e6db603c36dc671a51`, was tested by exact-head Lean run #41168711433 and **FAILED**. The remaining errors were missed reductions of `orsonRecord` projections before field contradictions; incomplete theorem outputs showed `sorryAx`. This was a proof-script defect, not a counterexample to the acceptance-key statement.
+
+A second correction was committed to the same PR #951 branch:
+- final branch head: `12b6487cc8e163d333b58bae9da920205a91fb4a`;
+- updated module blob: `8484d62eaf76eb3139a57462f446720eed1e6aee`;
+- exact-head Lean run #41168950813, job #124442528880: **SUCCESS**;
+- tested merge checkout (`GITHUB_SHA`): `6e642a8959e47f18c6eebb3b82084ea27d638b1b`;
+- Lean 4.34.0 / Lake 5.0.0; 8,950 build jobs;
+- `HsHVerification.EliasProofTargetIdentity` built;
+- all nine theorem-specific `#print axioms` outputs present;
+- full job log: zero `sorryAx` occurrences.
+
+Axiom outputs:
+- `accepted_record_has_exact_target`: none;
+- `orson_success_is_bound_to_its_own_target`: none;
+- `unrelated_orson_success_cannot_certify_kestrel`: `propext`;
+- `failed_kestrel_run_is_not_accepted`: none;
+- changed-head, changed-tested-commit, changed-module and changed-theorem rejection theorems: `propext, Classical.choice, Quot.sound`;
+- changed-run rejection theorem: `propext`.
+
+Four non-fatal unnecessary-`simpa` linter warnings remain. Separate test, lint and automated axiom-audit steps were not run by this workflow. A separate push-triggered `conversation-json-content-ci` run #41168947188 failed with zero job records; it is not the Lean run and is not evidence against the Lean build.
+
+The PR remains OPEN / DRAFT / UNMERGED. The proof success applies only to the formalized finite acceptance predicate over transcribed records. It does not authenticate GitHub, validate the transcription or CI event semantics, validate Python behavior, establish production policy, or support a physical claim.
+
+Existing published issue #1121 received an additive exact-head result comment #6539087662. Exact comment readback: 2,459 characters; SHA-256 `0b26d3ed7567938c4176aaaa4b7d77bc9c83e19b4b6cc0e28ff2bf4eed8e43f6`. No duplicate issue or publisher submission was created.
