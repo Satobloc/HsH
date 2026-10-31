@@ -291,3 +291,9 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - Added VEY-020 Amendment 02: numerical `w_m` estimates are inferred from verbalized probabilities and rounded published means; calibration-dependent, not direct internal-belief measurements or universal constants.
 - The paper's conflict probes and emitted-action channel support a qualitative copy effect, but not exact numeric weight validation.
 - Public addenda: publisher issue #1152 comment #6544077779; P1 issue #564 comment #6544078127.
+
+
+## 2026-10-31T1348Z | Sable handoff addendum 02
+
+- Optional handoff addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_02.md`.
+- Clarifies that numeric copy weights are calibration-dependent estimates from rounded verbalized-probability means; qualitative copy effects have separate conflict/action-channel support.
