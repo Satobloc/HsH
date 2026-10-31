@@ -227,3 +227,5 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 - The :00 Ravel occurrence for 06:00Z (run ID `6ac2124d-7b40-8323-a7ce-fcc5b369e11d`) was observed failed at 06:51Z, then `in_progress` again at 06:55:57.736954Z; terminal status unresolved. It may overlap Ariadne's next nominal 07:00 :00 occurrence.
 - Aster's :48 run began 06:50:38Z before Loom's :36 run completed 06:54:57Z. Loom's handoff was consumed late.
 - All five existing relay tasks remain enabled with their exact original IDs and VEVENT schedules; no sixth task or schedule change.
+
+- Final readback around 06:57Z: both the delayed :00 run `6ac2124d-7b40-8323-a7ce-fcc5b369e11d` and this :48 run `989a4d81-8890-832f-8569-6601fbc91f60` remained `in_progress` without `chat_ref`. Do not assume serial execution or predecessor completion.
