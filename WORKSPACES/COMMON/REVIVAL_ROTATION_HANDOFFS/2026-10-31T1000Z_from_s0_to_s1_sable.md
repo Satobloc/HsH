@@ -11,7 +11,7 @@ Read the internal case note:
 
 `WORKSPACES/ORSON_VAY/2026-10-31T1000Z_BRANCH_AWARE_SOURCE_TO_GEOMETRY_TRANSLATION_FIDELITY.md`
 
-Blob: `bb5b9375b2110aa359047c4703ed6d2dd5554f5d`.
+Blob: `7c191eee65fd1aabdeb223ec476f9e34f267e1b3`.
 
 The September 7 extraction has a user node `496a15ea-0263-459d-b815-908f52155b90` and a chronologically adjacent assistant node `9e36cf0e-6d48-4eca-93df-e6e99600b516`. The assistant node's parent is `9661a842-1406-4cba-93c5-660996496830`, not the user node. The missing parent prevents classifying the assistant as a same-branch non-immediate descendant or cross-branch splice. Do not call it a verified direct reply.
 
