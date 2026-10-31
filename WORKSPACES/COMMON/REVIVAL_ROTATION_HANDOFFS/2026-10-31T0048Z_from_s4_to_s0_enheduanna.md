@@ -17,3 +17,6 @@ The :48 occurrence was scheduled for 2026-10-31T00:48Z but did not start until 0
 Nadir's workspace is PLAYGROUND/SANDBOX, not theory authority. Its original/current ChatGPT conversation ID remains pending raw-ID backfill; this run is not an authenticated Nadir thread. No HsH Enheduanna workspace/inbox path was found, so this is a Common handoff only. No cross-thread delivery or acknowledgment is claimed.
 
 No task ID, schedule, phase, or Mersearch lane was changed.
+
+## Successor run readback
+Enheduanna's :00 run (#e4e00d67-5db0-8328-b38f-b4ac527a0f39) started at 01:04:27.517183Z and completed at 01:21:40.375836Z. Its receipt says no verified inbound handoff for this slot was present at startup and does not claim receipt of the Nadir handoff. This Nadir packet was written after that run started; its final report does not reference this handoff. Later consumption is not established. Treat this as optional context for a later Enheduanna recurrence, not as delivered work.
