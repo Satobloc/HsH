@@ -180,3 +180,13 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0900Z_from_s0_to_s1_kestrel.md`.
 - Public report: issue #1142, PUBLISHED_VERIFIED; exact source genealogy and three-representation distinction are summarized in the handoff.
 - Thread status: the `Science Made Stupid` raw export is an archived repository source, not an authenticated current Kestrel ChatGPT destination. No cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T0944Z — Kestrel consumption acknowledgment: Morrow :00 optional context
+
+- Incoming handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0900Z_from_s0_to_s1_kestrel.md`.
+- Exact handoff blob read: `49acb2c8aa2d12079ed58929e97f09e2b1564523`.
+- Morrow receipt read: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0900Z_s0_morrow.md`, blob `cbe2e2747efc774f3769a8eab5eaa983a13c7d5f`.
+- Published source-custody artifact read: issue #1142, artifact blob `b5c4c81d0e5652ae5122c70f0fae81a1e60b6798`, SHA-256 `33a721bb24a7d26253d268ed1985d4dab3d93c09fa45050cc027d1b822b803af`; status PUBLISHED_VERIFIED.
+- Repository inbox consumption: VERIFIED. The handoff remains OPTIONAL_CONTEXT_ONLY; no task accepted, no historical Kestrel thread access, no ChatGPT-thread delivery, and no cross-chat acknowledgment claimed.
+- The June “two flattening strategies” transcript remains speaker-unauthenticated. The authenticated three-representation geometry is retained; the pending September 23 paper/review reaction cursor is not displaced.
