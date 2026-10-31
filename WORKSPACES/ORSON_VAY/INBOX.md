@@ -366,3 +366,11 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Exact-head Actions #41225441898 rerun SUCCESS at `b820998976192ab3e4dc1cec1632d4d899bad031`; job #124609431758, Lean 4.34.0 / Lake 5.0.0, 8,974 build jobs. VEY021 module built; four theorem-specific axiom reports say no axioms; full log has zero `sorryAx`. Tests/lint and separate nanoda/axiom-audit stages were skipped. Initial failed attempt's cause remains unresolved due unavailable log artifact.
 - Publisher #1160 PUBLISHED_VERIFIED; exact issue-payload/file comparison PASS. CI addenda read back on #1160, P1 #564 and PR #850.
 - This verifies only the encoded finite parent graph. No source authentication, context completeness, statistical independence, causal effect, trial or paper-gate advancement.
+
+
+### 2026-10-31T1747Z | VEY-022 context-completeness amendment
+
+- Raw 211-node mapping role census: 47 user, 98 assistant, 65 tool, 1 missing role, 0 system, 0 developer. This is a mapping-node count, not model-call count.
+- Therefore archive-only absence of a parent path cannot qualify as ANCESTRY_CLEAR. Without independent completeness attestation for prompts, memory, retrieval, routing and other context, use UNKNOWN_CONTEXT_INCOMPLETE. VEY-021 still fails ancestry-blindness because a prohibited path is positively present.
+- Public addenda read back: #1160 comment #6546999532 and P1 #564 comment #6546999945.
+- Internal report updated; receipt amendment 02 created at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1736Z_s3_orson_vay_AMENDMENT_02.md`.
