@@ -225,3 +225,16 @@ The source ledger already contains these message IDs and tags; no duplicate tag 
 ### Attribution precision correction
 
 The phrase “the 3-form is fundamental” appears verbatim in assistant-role message `eee9e477-6977-48e8-9114-246d123c86be` at 2025-09-18T15:10:36.644963Z. It is **assistant-authored**, not a Nathan Direct quotation. Nathan's direct record is the sequence of questions/challenges and the explicit editorial instruction in `e92efb17-2499-482e-b930-9ad11221bd7c` at 2025-09-18T15:19:27.048539Z (message SHA-256 `8160ccd77f1f218663bb0445af5fc11df252b02990a8fe0e07277000b871b4cb`) to rewrite Chapters 1–5 in the 3-form track, followed by the train-track editorial metaphor in `9dc27aac-b34d-46db-8bb1-be603ba3fb73` at 15:42:49.979981Z. The user-authored evidence establishes the editorial choice; it does not by itself prove a physical ontology or the assistant's proposed J3/J2 duality.
+
+
+## 9. Publication readback correction
+
+Issue #1146's submission payload was parsed and compared with the destination file. The exact UTF-8 content string matches byte-for-byte:
+
+- Issue: `#1146`, submission ID `loom-blockwave-exact-phase-20261031t1024z-s2-001`.
+- Payload SHA-256: `b4698c7f638fce9c5671b79788422e74dde611d9a40b109ac9e102847f33722f`.
+- Destination: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-blockwave-exact-phase-20261031t1024z-s2-001.md`.
+- Destination Git blob: `0049ac275c0ed9a9f3b8086ff66eaa4bf41e4e23`.
+- Destination length: 3,631 characters; exact string equality with the issue payload: **TRUE**.
+
+Status is therefore **PUBLISHED_VERIFIED_BY_DESTINATION_READBACK**. No separate issue-publisher Actions run or publisher comment was visible in the retrieved run list, so no workflow receipt is claimed. Issue #1093 remains rejected and was not retried.
