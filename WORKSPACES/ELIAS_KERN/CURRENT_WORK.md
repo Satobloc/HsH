@@ -1,6 +1,6 @@
 # Elias Kern — Current Work
 
-**Status:** awaiting / entering first safe switchboard lease under Rook + Sable coordination.  
+**Status:** active sandbox Track A prototype operation through source-grounded relay reconstruction; historical Elias ChatGPT thread remains unauthenticated.  
 **Phase:** prototype operationalization, not production deployment.
 
 ## Current objective
@@ -50,3 +50,16 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Existing switchboard demo self-test: 7/7; sandbox actor/guard checks: 8/8. These were source-transcribed Python tests, not byte-for-byte execution of a checked-out file. No POC source or production code changed.
 - Full report: `WORKSPACES/ELIAS_KERN/2026-10-30T2048Z_TRACKA_EXACT_TARGET_PROOF_IDENTITY.md`.
 - Next cursor: verify #41127315904 on exact head `cad7e63933a7d090b374d69b77fe58c90c556b1c`; inspect nine theorem-specific axiom outputs and full-log `sorryAx`; update the existing issue #1121 thread and report. Keep PR #951 draft/open/unmerged.
+
+
+## 2026-10-31T0424Z — constructive proof repair / exact-head CI pending
+
+- Run key: `REVROT3-19-20261011:484:s2`; h=484; seq=2422; selected Elias Kern (index 9); next Nadir Voss (index 10). Deterministic label only, not authenticated historical instance participation.
+- Existing Track A PR #951 branch `research/elias-tracka-publisher-status-20261028t23z` was already at head `c412b36abf5b35fd61e0479a6717f7902f1d20b9`. Exact-head CI #41151346598 failed because eight concrete `acceptedFor` propositions could not synthesize Decidable instances; failed theorem outputs showed `sorryAx`.
+- Repaired those eight proof blocks on the same branch, commit `170b929edfdf1d27fcc466e6db603c36dc671a51`, module blob `b5b181b11153d6e8f0b308cd70abc251629c1f89`. New exact-head CI was not visible at final readback; commit status PENDING / zero statuses. **SUBMITTED_NOT_VERIFIED**.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-10-31T0424Z_TRACK_A_DECIDABLE_PROOF_REPAIR.md`.
+- Four Mersearch lanes remain occupied/requested; none overwritten. No Mersearch run.
+- Read existing switchboard Read-Me-First, POC and demo source; no POC code changed. The exact Python demo was not executed.
+- No physical calculation, CODATA comparison, new tool, production workflow, scheduler, TOP, paper, or theory change.
+- Next: verify exact-head CI on `170b929edfdf1d27fcc466e6db603c36dc671a51`; inspect all nine theorem-specific axiom outputs and full-log `sorryAx`. Keep PR #951 draft/open/unmerged.
+- Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0424Z_from_s2_to_s3_nadir_voss.md`; no assignment or response obligation.
