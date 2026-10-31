@@ -34,3 +34,7 @@ This is only an optional example for Elias's existing Track A workflow-switchboa
 
 ## Addendum 01 | 2026-10-31T1154Z
 The linked report was corrected after a source check: the Johnstone apparatus is a 39-micrometre disc, approximately 2×10^5 atoms and condensate fraction at least 0.5. The earlier 125×85-micrometre/2.2-million/67(3)% values belong to the separate Gauthier programme and were removed from the Johnstone section. Updated report blob: `e76a666f4d65fef40625a155abe2a5741384b09e`. Optional context only; no action requested.
+
+
+## Addendum 02 | 2026-10-31T1157Z
+Optional C2 formula/proof-first note: `WORKSPACES/HALE/2026-10-31T1148Z_BEC_BRAGG_OPEN_DATA_COMPARATOR_AUDIT_AMENDMENT_01.md`, blob `3dfced7fbb2743ec3fd6eb1cf6dfeb6ff1972cf0`. It records the directed 2Nv neighbor-relation structure and explicitly marks the abstract range theorem `BLOCKED_PENDING_NATHAN_PERMISSION`. No task or action requested.
