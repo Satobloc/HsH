@@ -223,3 +223,12 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 ## 2026-10-31T1633Z | Tern H496 Lean CI completion and provenance correction
 
 The H496 operational module compiled successfully in PR #824 run #41219938232 / job #124592226293: 8,951 jobs, Lean 4.34.0 / Lake 5.0.0. It checked out merge commit `b5a56b73ce8fbc5c137cc1e2b22518fc13cb96a8`, not the PR head directly; module and aggregator blobs match the branch. Thirteen theorem-specific outputs: 11 no axioms, two `propext`, zero `sorryAx`; separate axiom-audit/nanoda skipped. The earlier H492 run #41202345776 was also a merge-ref build; its module and aggregator blobs match the branch. Strict PR-head checkout was not established for either run. See updated Tern report and handoff. This is conditional operational arithmetic, not physical validation.
+
+
+## 2026-10-31T1636Z consumption record
+
+Incoming Tern h496:s2 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1624Z_from_s2_to_s3_morrow.md was read. It was committed before this run began, so it was available at startup. It supplies relay timing context only; no Morrow task, response obligation, or theory transfer.
+
+Current Morrow source-provenance report: WORKSPACES/MORROW/2026-10-31T1636Z_BR005_SOURCE_LINEAGE_AND_ANGLE_CONVENTION_AUDIT.md. Tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md. Public-safe addendum is issue #1158, submission morrow-br005-angle-reference-source-correction-20261031t1636z-s3-001, currently SUBMITTED_NOT_VERIFIED pending publisher artifact/readback.
+
+No Kestrel handoff was sent; this is an archive-provenance result with no Kestrel action requested. No authenticated Morrow or Kestrel ChatGPT destination, cross-thread delivery, or acknowledgment is claimed.
