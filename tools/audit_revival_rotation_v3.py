@@ -27,7 +27,7 @@ EPOCH = datetime(2026, 10, 11, tzinfo=timezone.utc)
 PHASE = (0, 12, 24, 36, 48)
 KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
 LEGACY_KEY = re.compile(r"^REVROT3-19-(?!20261011)(\d{8}):(\d{2}):s([0-4])$")
-BOLD_FIELD = re.compile(r"^\s*-\s*\*\*(.+?):\*\*\s*(.+?)\s*$")
+BOLD_FIELD = re.compile(r"^\s*(?:-\s*)?\*\*(.+?):\*\*\s*(.+?)\s*$")
 PLAIN_FIELD = re.compile(r"^\s*(?:-\s*)?([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
 STRUCTURED_FIELDS = {
     "run_key", "selected_identity", "selected", "worker_identity",
