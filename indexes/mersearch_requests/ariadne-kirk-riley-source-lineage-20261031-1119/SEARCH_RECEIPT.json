@@ -1,0 +1,372 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "bbde5f0980a5bb41f5a923f55b74223f455cb448dce17e1c4c2c8b308e6804d7",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-31T13:58:56.789436+00:00",
+  "query": "(name:*KIRK* OR name:*RILEY* OR name:*READY_ROOM* OR name:*TOS_S1* OR path:*KIRK* OR path:*RILEY* OR path:*READY_ROOM* OR path:*TOS_S1*) OR (author:user AND ((\"Kirk\" NEAR/12 \"Riley\") OR (\"Ready Room\" NEAR/12 \"emulation\") OR (\"human simulation\" NEAR/12 \"Kirk\"))) OR (author:assistant AND (\"KirkMind\" OR \"RileyMind\" OR \"Chronological Bridge\" OR \"TOS_S1\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15936,
+    "records_scanned": 20842329,
+    "hits": 381
+  },
+  "counted_hits": 381,
+  "distinct_sources": 14,
+  "results_by_root": {
+    "hsh-main": 372,
+    "resources": 9
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*KIRK*",
+      354
+    ],
+    [
+      "name:*KIRK*",
+      354
+    ],
+    [
+      "Kirk",
+      70
+    ],
+    [
+      "Riley",
+      38
+    ],
+    [
+      "author:assistant",
+      14
+    ],
+    [
+      "Chronological Bridge",
+      13
+    ],
+    [
+      "human simulation",
+      7
+    ],
+    [
+      "author:user",
+      4
+    ],
+    [
+      "RileyMind",
+      2
+    ],
+    [
+      "KirkMind",
+      2
+    ],
+    [
+      "Ready Room",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL.md",
+      "title": "CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL",
+      "record_count": 176,
+      "best_score": 74,
+      "first_hit_index": 164,
+      "sample_hit_index": 165,
+      "locator": "line:10",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "Riley",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 7,
+      "best_score": 72,
+      "first_hit_index": 5,
+      "sample_hit_index": 8,
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "Kirk",
+        "Riley",
+        "author:assistant",
+        "Chronological Bridge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 7,
+      "best_score": 72,
+      "first_hit_index": 6,
+      "sample_hit_index": 9,
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "Kirk",
+        "Riley",
+        "author:assistant",
+        "Chronological Bridge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK.md",
+      "title": "CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK",
+      "record_count": 97,
+      "best_score": 69,
+      "first_hit_index": 67,
+      "sample_hit_index": 161,
+      "locator": "line:96",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-kirk-context-policy-source-gate-20261027t08z-s0-002.md",
+      "title": "ariadne-kirk-context-policy-source-gate-20261027t08z-s0-002",
+      "record_count": 18,
+      "best_score": 63,
+      "first_hit_index": 357,
+      "sample_hit_index": 374,
+      "locator": "line:9",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "Ready Room"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 1,
+      "best_score": 58,
+      "first_hit_index": 0,
+      "sample_hit_index": 0,
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "title": "Revival Rotation",
+      "record_count": 1,
+      "best_score": 58,
+      "first_hit_index": 1,
+      "sample_hit_index": 1,
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 1,
+      "best_score": 58,
+      "first_hit_index": 2,
+      "sample_hit_index": 2,
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "title": "Revival Rotation",
+      "record_count": 1,
+      "best_score": 58,
+      "first_hit_index": 3,
+      "sample_hit_index": 3,
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ARIADNE/2026-10-27_0024Z_KIRK_PODCAST_TEMPORAL_LINEAGE_LEAN_GATE.md",
+      "title": "2026-10-27_0024Z_KIRK_PODCAST_TEMPORAL_LINEAGE_LEAN_GATE",
+      "record_count": 40,
+      "best_score": 43,
+      "first_hit_index": 27,
+      "sample_hit_index": 35,
+      "locator": "line:19",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "Riley"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-jan22-kirk-source-stratigraphy-20261029t1312z-s1-001.md",
+      "title": "ariadne-jan22-kirk-source-stratigraphy-20261029t1312z-s1-001",
+      "record_count": 17,
+      "best_score": 43,
+      "first_hit_index": 340,
+      "sample_hit_index": 342,
+      "locator": "line:12",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "Riley"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-podcast-kirk-chronology-20261027t0024z-s2-001.md",
+      "title": "ariadne-podcast-kirk-chronology-20261027t0024z-s2-001",
+      "record_count": 6,
+      "best_score": 43,
+      "first_hit_index": 375,
+      "sample_hit_index": 379,
+      "locator": "line:6",
+      "matched_terms": [
+        "name:*KIRK*",
+        "path:*KIRK*",
+        "Kirk",
+        "Riley"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "locator": "message:41fe4df4-fa3f-4045-bf99-0f095903c052",
+      "matched_terms": [
+        "author:user",
+        "Kirk",
+        "human simulation"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:24136a4d-1f01-46d6-853d-2579ea3f9522",
+      "matched_terms": [
+        "author:assistant",
+        "Chronological Bridge"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:24136a4d-1f01-46d6-853d-2579ea3f9522",
+      "matched_terms": [
+        "author:assistant",
+        "Chronological Bridge"
+      ]
+    },
+    {
+      "hit_index": 8,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "Kirk",
+        "Riley",
+        "author:assistant",
+        "Chronological Bridge"
+      ]
+    },
+    {
+      "hit_index": 9,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "Kirk",
+        "Riley",
+        "author:assistant",
+        "Chronological Bridge"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
