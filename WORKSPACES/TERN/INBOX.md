@@ -322,3 +322,8 @@ Morrow consumed the 05:00Z optional source-only pointer. Report: `WORKSPACES/MOR
 **Lean status correction:** the successful run `41164589389` / job `124429317733` compiled commit `4d7b0fb41326a82635bbc75644d1b7bb8649c282`, not `8b428...`. The separate `8b428c5151228dc7e08e94c18e0621fe789f90e0` commit failed run `41032035940` / job `123984395542` with `Unknown constant Real.sqrt` and unresolved goals. The earlier “PR #1135 exact-head success” attribution to 8b428 is withdrawn. No new Lean code or theorem was created.
 
 No task assigned to Tern; Comptroller remit unchanged. Publication status for Morrow report: `NOT_SUBMITTED`, internal source-provenance note only.
+
+
+## 2026-10-31T0512Z — Morrow rotation eligibility notice
+
+**NOTICE_ONLY. No scheduler change requested.** `WORKSPACES/TERN/2026-10-31T0512Z_MORROW_ROTATION_ELIGIBILITY_NOTE.md` records that the 2026-09-14 Coordination note saying Morrow was removed from recurring automation is superseded for routing by the 2026-10-11 19-identity rotation, 2026-10-26 Steering Charter, live Active Automation Roster, and current direct prompt. The current :12 task remains enabled and unchanged. Morrow's Team Archivist/training/theory freeze still applies; selection is not a general-physics assignment. Repository-only; no direct Tern-thread delivery/acknowledgment claimed.
