@@ -13,7 +13,7 @@ A source-provenance update may be useful to Kestrel's existing whole-system synt
 4. The September 16 J2 explanation in `[A] SAT` is assistant-authored. The near-identical `SEAN` user-role paste has normalized token-set Jaccard 0.993902439 and is not an independent Nathan Direct mathematical witness.
 5. No bylined Page One/Wanna Bounce source was recovered; original galley bytes remain unavailable.
 
-Source report: `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md`  
-Tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-WANNA-BOUNCE-GALLEY-J2-J3-01.md`
+Source report: `WORKSPACES/MORROW/2026-10-31T0512Z_WANNA_BOUNCE_GALLEY_AND_J2_J3_PROVENANCE.md` (blob `cec6d67c703c236ee54d36d5e1c367655f97fc44`)  
+Tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-WANNA-BOUNCE-GALLEY-J2-J3-01.md` (blob `b8a156dc57042decb3299abfdcc805a85b47ae97`)
 
 The Morrow role remains Team Archivist with training/theory freeze. This handoff is informational only and does not alter Kestrel's remit or require physics, formalization, prediction, or paper work.
