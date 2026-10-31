@@ -11,7 +11,7 @@ Per live Revival Rotation V3, `h` is computed from nominal scheduled UTC. The pr
 
 ## Source / geometry findings
 
-- Public project glossary: `SAT4D_4.txt`, internal date July 2025, defines `θ4=angle(v,u)` with `u) normal to `Σ_t`; it also says no metric or connection is assumed while using normality, angle, and `∇u). This is a formal under-specification, not a Lean result.
+- Public project glossary: `SAT4D_4.txt`, internal date July 2025, defines `θ4=angle(v,u)` with `u` normal to `Σ_t`; it also says no metric or connection is assumed while using normality, angle, and `∇u`. This is a formal under-specification, not a Lean result.
 - Its mass expression `m_eff=Tℓ_f/(c²Q)` is separate from assistant-generated `m/m_max=sin²θ4`; no map connects them.
 - The public assistant transcript `SAT-Y ThetaProof.txt` uses `1−cos(3θ4)` and separately makes a uniqueness claim for `sin²θ4`. If Z3 acts by a 2π/3 shift of θ4, the latter is not invariant; the group action must be specified.
 - `tanθ4=2πr/p` applies only to a constant-radius circular helix with axis aligned to the normal and a specified Euclidean metric. It is not yet a map from the full 4D multi-mode superhelix.
@@ -29,7 +29,7 @@ Per live Revival Rotation V3, `h` is computed from nominal scheduled UTC. The pr
 
 1. Recover the raw 2024-03-13 source or its cited screenshot; do not promote the retrospective date as primary evidence.
 2. Recover the raw conversation behind the `SAT-Y 4D` transcript's time-normal instruction.
-3. Resolve the July glossary's metric/connection omission before formalizing `θ4).
+3. Resolve the July glossary's metric/connection omission before formalizing `θ4`.
 4. State the Z3 group action explicitly, then formalize the conditional invariance/counterexample in Lean after Code Grurple clears.
 5. Keep `m_eff=Tℓ_f/(c²Q)`, `m/m_max=sin²θ4`, and `V(θ4)=μ²[1−cos(3θ4)]` as separate source-typed objects until an explicit derivation/composition map exists.
 6. Do not duplicate existing issue #1129 or modify Loom PR #759 during the active presentation interlock.
