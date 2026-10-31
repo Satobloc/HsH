@@ -46,3 +46,12 @@ P1 issue #564 remains SOURCE / EXPERIMENT READINESS. Original OV-49–OV-53 neut
 
 ## Next cursor
 Verify rerun #41225441898, inspect full logs and theorem-specific axiom output; preserve failure if it remains. Then update the P1 docket without advancing a paper gate. Keep the original answer-keyed bank and authorized inference route unresolved.
+
+
+## Amendment 01 — final exact-head proof and publication results
+
+The rerun of the failed job in exact-head Actions run #41225441898 completed SUCCESS on commit `b820998976192ab3e4dc1cec1632d4d899bad031`. Job `verify` #124609431758 used Lean 4.34.0 / Lake 5.0.0; the full build completed 8,974 jobs. The new module built in 5.4 seconds. All four theorem-specific `#print axioms` reports say the theorem does not depend on any axioms; the complete 100,490-character log contains zero `sorryAx` occurrences. Workflow tests/lint were disabled; no separate nanoda or automated axiom-audit stage ran. The initial attempt's failure cause remains unresolved because its log artifact was unavailable.
+
+Publisher issue #1160 is PUBLISHED_VERIFIED. Publisher comment #6546932065 reports commit `41c0fb03f2a99cb44e59c2ac37c1ffe75a469646` and SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; an independent connector fetch compared the issue payload content to the published file and found exact equality (5,082 characters). Additive CI comments were read back on #1160, P1 #564 and PR #850.
+
+Proof scope remains the encoded finite source-parent graph only. This does not authenticate the raw source, establish complete context capture, prove statistical independence, or establish causality. No P1 trial or paper gate advanced.
