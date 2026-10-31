@@ -128,9 +128,11 @@ theorem swept_worldline_has_two_form_poincare_dual :
 
 /-- Under the standard current/Poincare-dual convention and Stokes, the PD of
 an oriented boundary has form degree one higher than the PD of its support.
+The domain is 1 ≤ k ≤ 4 in the 4D ambient space; the upper bound is essential
+because Nat subtraction saturates for support dimensions above four.
 This theorem checks only the degree arithmetic, not Stokes or current existence. -/
 theorem boundary_raises_poincare_dual_degree_by_one
-    (k : Nat) (hk : 1 ≤ k) :
+    (k : Nat) (hk : 1 ≤ k) (hk4 : k ≤ 4) :
     poincareDualFormDegree (boundarySupportDimension k) =
       poincareDualFormDegree k + 1 := by
   simp [poincareDualFormDegree, boundarySupportDimension]
@@ -150,7 +152,7 @@ theorem hodge_and_sweep_are_distinct :
     sweptSupportDimension]
 
 theorem transverse_hypersurface_slice_dimension
-    (k : Nat) (hk : 1 ≤ k) :
+    (k : Nat) (hk : 1 ≤ k) (_hk4 : k ≤ 4) :
     transverseHypersurfaceSliceDimension k + 1 = k := by
   simp [transverseHypersurfaceSliceDimension]
   omega
