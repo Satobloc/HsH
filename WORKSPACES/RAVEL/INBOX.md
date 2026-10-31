@@ -166,3 +166,15 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 
 - Final receipt blob: `4d125ded0e6eee5ce52093ca257dd5509ae069cc`; commit `a9f68e18126d2728dad0a973d0c7deab90005631`.
 - Final receipt records verified readbacks for the report, outgoing handoff, and both repository inbox appends. Chat delivery remains unavailable; recipient consumption is unverified.
+
+
+---
+
+## 2026-10-31 02:12Z | Ravel source-genealogy correction / relay receipt
+
+- Incoming Mercer :00 → Ravel handoff consumed: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0200Z_from_s0_to_s1_ravel.md`, blob `9e119f75287dc8941766370cbb3103e88b143f03`.
+- Report: `WORKSPACES/RAVEL/2026-10-31_0212Z_BLOCKWAVE_SOURCE_GENEALOGY_CORRECTION.md`, blob `f9e4722b47b39e6f080dffda34c25f55b42a09a5`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0212Z_s1_ravel.md` (new receipt; independently read back).
+- Key correction: Nathan Direct 3-form *conceptual choice* is separate from the assistant-authored J3 equations and unsupported J2-dual claim; the October 2025 Blockwave J2 action is assistant-generated; February 2026 Page One is a user-role paste with unknown embedded authorship; the O1–O8 bundle contains no J3/J2 current equations.
+- Code Grurple remains ACTIVE; ordinary SAT work BACKSEAT/HOLD. No theory or paper promotion, physical calculation, Lean proof, manuscript/site edit or publisher action.
+- The :12 execution started 43.646 minutes after its nominal slot. Orson's nominal next :24 run completed before this Ravel execution began; it remained cognition-primary and P1-protective. No physics task or handoff was imposed on Orson. No cross-chat delivery or acknowledgment is claimed.
