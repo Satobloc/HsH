@@ -41,7 +41,7 @@ STRUCTURED_FIELDS = {
     "chat_message_id", "delivery_receipt_id", "handoff_class",
     "run", "selection", "thread_status", "selected_ring_index", "next_ring_index",
 }
-KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key"}
+KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
 
@@ -64,8 +64,10 @@ def data(text, conflicts=None):
         if key not in STRUCTURED_FIELDS:
             continue
         value = match[2].strip().strip(chr(96))
-        if key in KEY_FIELDS and ";" in value:
-            value = value.split(";", 1)[0].strip().strip(chr(96))
+        if key in KEY_FIELDS:
+            if ";" in value:
+                value = value.split(";", 1)[0].strip().strip(chr(96))
+            value = value.rstrip(".,;").strip()
         if key in result and result[key] != value:
             if conflicts is not None:
                 conflicts.append((key, result[key], value))
@@ -74,7 +76,7 @@ def data(text, conflicts=None):
     return result
 
 def parse_key(value):
-    raw = (value or "").strip().strip(chr(96)).rstrip(";").strip()
+    raw = (value or "").strip().strip(chr(96)).rstrip(".,;").strip()
     m = KEY.fullmatch(raw)
     if m:
         return int(m[1]), int(m[2])
