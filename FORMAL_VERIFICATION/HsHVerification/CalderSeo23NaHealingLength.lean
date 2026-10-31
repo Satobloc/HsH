@@ -2,7 +2,6 @@ import Mathlib
 
 namespace HsHVerification
 
-noncomputable section
 
 /-!
 Conditional numerical check of the healing length for the 23Na experiment in
@@ -29,7 +28,7 @@ def hbarMicroJSeconds : ℝ :=
 def healingDenominator : ℝ :=
   2 * na23MassKg * chemicalPotentialJ
 
-def xiUm : ℝ :=
+noncomputable def xiUm : ℝ :=
   hbarMicroJSeconds / Real.sqrt healingDenominator
 
 theorem healingDenominator_pos : 0 < healingDenominator := by
