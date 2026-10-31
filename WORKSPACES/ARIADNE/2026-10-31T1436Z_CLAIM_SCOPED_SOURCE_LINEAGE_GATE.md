@@ -147,3 +147,12 @@ No Alberr task or handoff assignment is issued. His workspace charter gives him 
 - Inspection caught that Lean's Nonempty wrapper is itself Prop-valued, so it would not satisfy Option's Type requirement. The latest repair makes DisjointPrimaryOrigins a data-carrying structure with explicit left/right origin identifiers, membership proofs, and a disjointness proof; Option now carries a Type-valued witness.
 - Latest module blob: 191929c381335488d280cfdd4faae1c4bba25e61. Latest exact branch head: ee673f74a5b61b3a497f19bf02cf46015a3385c4. Exact-head run #41214178623 is IN_PROGRESS; no success claim yet.
 - Latest observed comparison at 2026-10-31T1517Z: PR branch 54 commits ahead / 5110 behind main, diverged and not merge-ready.
+
+
+## Amendment 03 | 2026-10-31T1524Z
+
+The private Library export bundles were materialized and their embedded source sections re-extracted. This independently reproduces the 12,598-line common block: KIRK 12,762 lines, READY_ROOM 12,721 lines, common block at KIRK [1,12599) and READY_ROOM [123,12721), 608,387 normalized bytes, SHA-256 `32b9b8f18fc220f776bb39a24a760dd759db0df755f5a2293aaedc0878634345`; Unicode-aware SequenceMatcher ratio 98.8816%. The shared block is a content-overlap fact, not proof of causal derivation, direction, authorship or chronology. The READY_ROOM-only 122-line prefix and KIRK-only 164-line suffix remain unresolved.
+
+A source-level correction: the recovered THE_WHOLE_READY section does not contain the full KIRK_mind or READY_ROOM text (both exact substring checks return -1). It contains v1.3 instructions, a KIRK source-guide summary, a first-person passage without raw role metadata, assistant-generated four-field advice and RileyMind reconstruction. THE_WHOLE_READY2/3 are shorter NotebookLM outputs. The earlier claim of full KIRK_mind inclusion at offset 8,252 is withdrawn. The standalone READY_ROOM_README is v1.2.1; version labels do not prove chronology.
+
+The claim-scoped model remains appropriate, but its DEPENDENT state means non-independent as a content witness for that claim, not proven causal ancestry. The shared-core attestation is now independently reproduced by Python from the materialized Library export sections; Lean still treats that comparison as an external input.
