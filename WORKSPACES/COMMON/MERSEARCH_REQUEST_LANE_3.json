@@ -1,32 +1,28 @@
 {
-  "request_id": "aldus-o9-blockwave-equation-genealogy-20261031-1124",
-  "requester": "Workshop Relay :24 / Aldus bounded source-chronology and cross-reading pass; current assistant reconstruction, not authenticated historical Aldus",
-  "requested_at": "2026-10-31T11:41:33Z",
+  "lane": 3,
+  "request_id": "aldus-geometry-fidelity-wwrd-strand-20261031-1929",
+  "requester": "Workshop Relay :00 / Aldus geometry-fidelity lane; current assistant source-grounded reconstruction, not authenticated historical Aldus",
+  "requested_at": "2026-10-31T19:29:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*O9* OR path:*O9* OR name:*BLOCKWAVE* OR path:*BLOCKWAVE* OR \"SAT O9\" OR \"SAT.O9\") OR (author:user AND ((\"O9\" NEAR/12 \"graviton\") OR (\"O9\" NEAR/12 \"mass spectrum\") OR (\"O9\" NEAR/12 \"retardance\") OR (\"Blockwave\" NEAR/12 \"holonomy\") OR (\"Blockwave\" NEAR/12 \"three-form\") OR (\"Blockwave\" NEAR/12 \"two-form\") OR (\"m^2 = k\" NEAR/12 \"beta Q^2\") OR (\"1.48 rad\" NEAR/12 \"retardance\")))",
-  "purpose": "Mersearch-first, three-repository source genealogy for the colliding SAT.O9 labels and Blockwave equation lineage. Recover original SAT-O mass-spectrum, graviton/topological-strain, and optical-retardance audit witnesses; exact verbatim equations and file/blob/source-commit dates; original conversation/message UUIDs, outer role, timestamp and surrounding corrections; Blockwave compact-phase/action/current-formula witnesses; duplicate/derivative/supersession relationships; first-extant versus first-public chronology; and whether any claimed public T0 contains the exact claim rather than a filename or broad framework description. Distinguish Nathan Direct, assistant-authored construction, historical composite, NotebookLM derivative, audit shell, standard mathematical reconstruction and later correction. No physical calculation, CODATA comparison, theory promotion, new experiment or paper-gate change.",
+  "query": "(author:user AND ((WWRD OR WWPD OR \"What Would Rope Do\" OR Petzl) OR ((thread OR twine OR yarn OR bundle OR rope) NEAR/12 (filament OR worldtube OR \"time surface\" OR \"four-dimensional\")))) OR (author:assistant AND ((rope NEAR/12 worldtube) OR (rope NEAR/12 filament) OR (\"coarse-graining\" NEAR/12 worldtube) OR (\"projection map\" NEAR/12 filament) OR (\"composition map\" NEAR/12 worldtube) OR WWRD OR WWPD OR Petzl))",
+  "purpose": "Source-first geometry-fidelity retrieval. Recover original Nathan user-role descriptions of WWRD/WWPD, rope and strand hierarchy, finite-core/worldtube geometry, time-surface projection, coarse-graining and composition. Separately locate historical assistant-produced equations/translations for the same constructions. Preserve raw conversation IDs/message UUIDs, outer roles, timestamps, source paths, exact blob SHAs, verbatim equations, nearby conceptual corrections and duplicate/derivative lineage. The question is descriptive geometry and translation fidelity only: WWRD remains a first-blush geometric heuristic, not a physical equivalence. No CODATA scoring, physical calculation, new data-free calculation, theory promotion or paper-gate change.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original paths, exact Git blob SHAs, source commit SHAs and UTC commit timestamps",
-    "verbatim equation strings with source locator and authorship class",
-    "raw conversation/message UUID, outer role and timestamp where exposed",
-    "claim-granular first-extant/first-public chronology with witness-family and derivative distinctions",
-    "three-root coverage, exclusions, size/extension limitations and omissions"
+    "candidate original paths, exact blob SHAs, source commit SHAs and raw message UUIDs/roles/timestamps",
+    "verbatim SAT-O/Blockwave equations and assistant translations with exact source locator and SHA, keeping corrections separate",
+    "source-faithful objects, dimensions, topology, mappings, constraints and intended meaning",
+    "derivative/duplicate relationships and bounded three-root coverage with exclusions/limitations"
   ],
   "exclusions": [
-    "Do not overwrite any pending/running lane; lane 3 is reused only after its prior run #41192852584 completed successfully and its request-scoped manifest and receipts were read back",
-    "Do not publish raw conversation excerpts or private HSH_RESOURCES content",
-    "Do not infer Nathan Direct authorship from embedded bylines, outer user-role pastes, NotebookLM summaries or assistant-authored documents",
-    "Do not infer historical public visibility from current repository visibility or a Git commit timestamp",
-    "Do not treat filename exposure as exact equation/topic exposure",
-    "Do not treat duplicate transcript derivatives or repeated repository snapshots as independent witnesses",
-    "Do not enter QUARANTINE or PRIOR_ART",
-    "No physical calculation, CODATA comparison, theory promotion, new software, branch, PR, automation or paper-gate change"
+    "Do not overwrite a pending/running lane; lane 3's previous request was verified by its request-scoped manifest/receipt and execution commit before reuse",
+    "Do not infer Nathan Direct authorship from assistant text, pasted equations, filenames or outer user-role messages containing unattributed source text",
+    "Do not treat WWRD as a physical equivalence or import climbing-rope constitutive laws into H(s)H",
+    "Do not publish raw excerpts, private HSH_RESOURCES content, PRIOR_ART or QUARANTINE material",
+    "No physical calculation, CODATA scoring, new data-free calculation, Lean theorem, theory promotion, paper-gate change, new branch, PR or automation"
   ],
-  "lane": 3,
   "status": "requested"
 }
