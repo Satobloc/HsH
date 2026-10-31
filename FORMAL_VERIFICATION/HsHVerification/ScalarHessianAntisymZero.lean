@@ -12,13 +12,13 @@ theorem scalar_second_derivative_is_symmetric
     (theta : E → ℝ) (x : E)
     (hTheta : ContDiffAt ℝ 2 theta x) :
     IsSymmSndFDerivAt ℝ theta x := by
-  exact hTheta.isSymmSndFDerivAt (by simp [minSmoothness])
+  exact hTheta.isSymmSndFDerivAt (by simp)
 
 /--
 Local-coordinate covariant Hessian for a scalar field, with connection
 coefficients Gamma.  The sign convention is fixed by this definition.
 -/
-def coordinateCovariantHessian
+noncomputable def coordinateCovariantHessian
     {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
     (theta : E → ℝ) (x : E) (Gamma : E → E → E)
     (v w : E) : ℝ :=
