@@ -41,19 +41,19 @@ Its completed manifest and compact receipts report:
 - 20,852,969 records
 - 910 hits
 - 181 distinct source paths
-- source commit 9180c8e... (pinned in the manifest)
+- source commit 9180c8eabbebc07a252358636651b9c72ff47a3f (pinned in the manifest); archive commit db32abc75a4a2cff3afc6de895cd7edb9eb62d82; HSH_RESOURCES commit 0e30ff7c4204eff61722cbadbcc1d0ed60621853; Mersearch code commit 89933c358b67ccbfbbaa680aadeb1f35d22d91b2.
 
 The request file still says REQUESTED even though the manifest and receipts exist. This is a control-state reconciliation issue for Tern, not a reason to overwrite the lane. Lanes 1, 2 and 4 remain occupied or unreconciled; no new request, retry or lane overwrite was made.
 
-The top-ranked SAT Theory Unification result is a user-role paste of a long synthesis for compression. Its outer role does not authenticate the embedded synthesis as Nathan Direct. The separate direct user message is an exploratory QCD/worldline-braid/WWRD-rope sketch, not a complete derivation. The raw conversation contains 69 mapping nodes; raw blob 8048cd7181e4ae113f12aa2916ae6d6da1724f0a. Direct sketch message 1a0f8241-1e6c-4f4d-9c8e-8e0c6a9c6d31 is user-role material and remains exploratory.
+Two raw exports of the same SAT Theory Unification conversation were recovered. The base export is conversation 6a4098f3-09a4-83ea-92eb-ee738c037da7, blob 06e12a40bc0db137b9890dd78d2348d99e2f3fba, 5 mapping nodes. The later [B] export has the same conversation ID, blob 8048cd7181e4ae113f12aa2916ae6d6da1724f0a, 69 mapping nodes. User message 2a9c37c0-2832-4259-86b2-aa261563773a at 2026-06-28T03:46:51.846Z is a user-role paste of a long synthesis for compression; its outer role does not authenticate the embedded synthesis as Nathan Direct. The separate direct exploratory sketch is user message 1a0f8241-e127-4b91-9153-ba24c7870042 at 2026-06-28T03:48:05.768Z. It sketches QCD/worldline braiding and WWRD rope; it remains exploratory, not a complete derivation.
 
 ## 4. 2024 geometric origin: explicitly heuristic
 
 The raw DIMENSIONAL GRAVITY conversation contains 466 mapping nodes and 138 user messages. Its early March 2024 user-role material explores lines/planes, strings, and a three-dimensional time surface intersecting them. The user explicitly calls the construction an approximate framework and describes the string connection as a vague early intuition.
 
 Raw source:
-- Conversation: 6a0f... (see archive manifest)
-- Raw Git blob: 2cea1924... (pinned in archive)
+- Conversation: 252d05c0-22ed-4ea2-a474-7966ab13145a
+- Raw Git blob: 2cea1924266418e19b825b95ae51e6b7cbace7e1
 - The early line/plane construction is historical origin material, not a controlling final definition.
 
 This distinction matters: the early diagrammatic model should not be silently promoted into the later finite-core worldtube ontology.
@@ -65,12 +65,12 @@ The original binary source is present in SAT_THEORY_ARCHIVE_2023-25:
 - Git blob: caf5771a9d01b8505c23c07ac7cccca04fff49f5
 - Existing extraction header records source SHA-256 77eb9e652c45650e29cd08be1a86198f05572573b452d170ce274e53bfde9f93
 - Existing PyMuPDF text extraction: 171 pages, 200,279 characters
-- Extracted-text Git blob: 69b0085c... (see source file)
+- Extracted-text Git blob: 69b0085c86f6c4876aacc0556243dd2fccdc0aef (see source file).
 
 The binary blob could not be decoded through the GitHub text connector; the recorded source SHA comes from the existing extraction header, not a fresh binary hash in this run. Page images were not inspected.
 
 The HsH file named 2025_📕_✅SAT BIG PAPER.pdf is not a PDF despite its extension and Library MIME classification. Its materialized bytes are a text source-guide/wrapper, not a %PDF- binary:
-- Git blob: 1728712e...
+- Git blob: 1728712e5668f2ace33f7c71a51b8c5ffaa06b7a
 - 211,282 bytes
 - SHA-256 of the materialized text wrapper: 0111099d61e3312d8f89082745a24999570c0c3e785d0ef3bbbecfc31bc91b14
 
@@ -169,7 +169,7 @@ Aster's existing Einstein-coupling audit (2026-10-21) checks the SI dimensions:
 - ℓ_f² times ordinary SI stress-energy has force dimensions M L T^(-2), not curvature.
 - The revised expression can only be rescued by an explicit geometrized/rescaled stress-energy map or a different unit convention. No such map is present in the audited passage.
 
-The Aster report contains a Lean proof kernel but explicitly says it was not compiled in that worker's runtime. This run ported the SI exponent arithmetic and conditional algebraic closure into a new Ravel Lean module. The module is on the existing Ravel draft branch; its CI was still in progress at the time of this report. No compiled-proof claim is made until the workflow completes.
+The Aster audit source is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-einstein-coupling-scale-audit-20261021.md, blob b7c2a552650fcea8f17e8db41ddf17bd04918987. Its earlier Lean kernel was uncompiled in that worker's runtime. This run ported the SI exponent arithmetic and conditional algebraic closure into the existing Ravel draft branch. The first CI run #41246472518 failed at line 102 because div_eq_iff was used for a right-hand-side division; the full failure log is retained. Correction commit c606afa2d8405319f86a4a4d6bbb6e98e9e8e946 uses eq_div_iff. Successful run #41246994835, job #124672375521, compiled the corrected module on merge ref 8b21842daeb7040bf1d4f3d7be7b08f09d7fe589 (base 61cc8b65ffed70296e0121dbae067892a79c81d4). The module and root aggregator blobs match between PR branch and merge ref. Lean 4.34.0 / Mathlib v4.34.0; 8,945 Lake jobs succeeded. Three SI dimensional theorems report no axioms; two conditional algebraic theorems report propext, Classical.choice and Quot.sound; no sorryAx was reported. Tests, lint, nanoda and separate automated axiom-audit stages were skipped. PR #1133 remains DRAFT / OPEN / UNMERGED.
 
 ## 10. Minimal typed carrier representation
 
@@ -240,3 +240,12 @@ Next gates:
 Publication status: NOT_SUBMITTED_INTERNAL_ONLY.
 Cross-chat delivery: NOT_CLAIMED.
 Theory status: NO PROMOTION.
+
+
+## 14. Correction and source supplement pointer
+
+The exact-source and attachment record is continued in WORKSPACES/RAVEL/2026-10-31T2142Z_DIMENSIONAL_NORMALIZATION_AND_GEOMETRY_ENGINE_SUPPLEMENT.md (current blob c6e9c4df34dc17e4a1a6b3e76531d103ba61fd4a). That supplement supplies the exact 2024 DIMENSIONAL GRAVITY conversation/message IDs, separates the two SAT Theory Unification exports and their direct-versus-pasted messages, records both October 9 PDFs and SHA-256 values, inspects the existing 3D geometry_engine.py, and documents the October 7 H0+c/dual-shell correction. It also records the successful corrected coupling-audit CI run and the preserved first failure.
+
+The 50:50 H0+c phrase in the October 9 Meridian message is not in the dimensional-normalization PDF. The October 7 direct correction, current 🔑 core and live BEDROCK reject H0+c as an additive physical expression and reject dual-shell restoration. Use H0 R_H = c with R_H = c/H0; do not reintroduce the 50:50 phrase as current model.
+
+The original report's earlier abbreviated/incorrect SAT Theory Unification message identifier is superseded by the exact identities in the supplement. No source-authority or physical-theory promotion follows from these corrections.
