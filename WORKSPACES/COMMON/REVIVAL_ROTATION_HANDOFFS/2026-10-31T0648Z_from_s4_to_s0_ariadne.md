@@ -34,3 +34,5 @@ This is a repository handoff, not a message to an authenticated Ariadne ChatGPT 
 - The :00 Ravel occurrence scheduled for 06:00Z, run ID `6ac2124d-7b40-8323-a7ce-fcc5b369e11d`, was observed failed at 06:51:00Z and then `in_progress` again at 06:55:57.736954Z; terminal status is unresolved.
 - This long-running :00 occurrence may overlap Ariadne's next nominal 07:00 :00 recurrence. The :48 Aster run also began before the :36 Loom run completed.
 - All five existing tasks remain enabled with their exact original IDs and VEVENT schedules. No task or cadence change.
+
+- Final readback around 06:57Z: both the delayed :00 run `6ac2124d-7b40-8323-a7ce-fcc5b369e11d` and this :48 run `989a4d81-8890-832f-8569-6601fbc91f60` remained `in_progress` without `chat_ref`. Do not assume serial execution or predecessor completion.
