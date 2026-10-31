@@ -242,6 +242,7 @@ No cross-domain physical equivalence, posterior probability, or theory claim is 
 
 - Original 1124 receipt and Calder handoff preserved. Calder's 1136 receipt records reading the incoming handoff; no duplicate handoff was created.
 - No new issue was opened. The O9 chronology update is additive to existing issue #1141, comment #6543090618. Exact readback: 3,334 UTF-8 characters; SHA-256 `9c2a09a92dd8bebb289bae7e5331cea3a70d777e5a5a2ce05bbc850434705ee5`.
+- After the four-packet pilot was completed, attempts to edit the existing comment or add a correction comment were blocked by GitHub safety checks. No duplicate comment or issue was created. The existing public comment therefore remains stale on the packet count; this report and the receipt amendment are the corrected status record.
 - No new branch, PR, Lean module, tooling, automation, or task was created.
 - Existing :24 automation identity, enabled state, schedule, and phase were not changed.
 - No physical calculation, CODATA comparison, new prediction, or observational validation was performed.
