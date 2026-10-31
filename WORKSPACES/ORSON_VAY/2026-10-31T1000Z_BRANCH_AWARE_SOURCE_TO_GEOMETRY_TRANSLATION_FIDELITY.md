@@ -110,6 +110,98 @@ These are assistant-authored proposals, not equations stated by Nathan in messag
 | Force is the primitive; f/t distortions mutually accommodate | `force \Rightarrow \delta f + \delta t` | Reasonable shorthand for the direct qualitative statement, but not a derived constitutive law. |
 | Kerr cross-section of a worldtube, then explicit choice of a spatial Kerr section | Product/cross-section models such as `\Sigma_{Kerr}\times\mathbb R_\tau` | The spatial-section qualification is essential. A full 4D Kerr spacetime cannot be used untyped as the cross-section of another 4D carrier. |
 
+### Mapping diagram
+
+**Conversation/source graph (solid metadata, unresolved ancestry shown explicitly):**
+
+```text
+[User 496a15ea | role=user]
+parent = a2c80d0e...
+        |
+        | chronological separation = 32.526833 s
+        | NOT a direct parent edge
+        v
+[Assistant 9e36cf0e-6d48... | role=assistant]
+parent = 9661a842... (parent node not recovered)
+        |
+        ?  same-branch non-immediate OR cross-branch
+        ?  unresolved until full raw mapping is available
+        v
+[H(s)H MANIFOLDS | 2026-07-04 | author/role unauthenticated]
+        |
+        +-- HsH copy -----------+
+        |                      | identical Git blob
+        +-- SAT archive copy --+
+        |
+        +-- Ravel analysis
+        +-- Morrow analysis
+             (separate reports; shared source)
+```
+
+The vertical arrows below the assistant node are **not established provenance edges**. The diagram records candidate lineage and known duplication, not a causal derivation.
+
+**Geometry/readout map:**
+
+```text
+NATHAN DIRECT REPRESENTATIONS
+  R1: reduced 3D Minkowski diagram (one displayed dimension is time)
+  R2: full 4D bulk with dynamics
+  R3: actual 4D view + 3D slice
+                 |
+                 | assistant reconstruction, not authenticated direct reply
+                 v
+  2+1 schematic / 3+1 notation / B^4 / Sigma_tau / DeltaSigma_tau
+                 |
+                 | candidate, not a defined composition
+                 v
+  W^4 intersect exact Sigma_t     -> 3D section
+  W^4 intersect finite band       -> 4D overlap
+                 |
+                 | missing projection or quotient map pi
+                 v
+  observed 3D particle/readout
+```
+
+If the finite band is intended to generate the observed 3D particle, the required map `pi: W^4 \cap \Delta\Sigma_{t,h} \to O^3` must be defined, including its rank, fibers, and compatibility with the physical interaction. No such map is recovered in the direct source or assistant equations.
+
+### Glossary
+
+| Term | Stable use in this audit | Do not silently identify with |
+|---|---|---|
+| Representation | A distinct view or description of the same proposed geometry. | Gauge equivalence or a proven isomorphism. |
+| Gauge | Use only after specifying a transformation group/action and equivalence relation. | A synonym for “representation”. |
+| Minkowski diagram | The direct source's reduced 3D diagrammatic representation, with one displayed dimension being time. | Proof that the native 4D carrier has a Lorentzian metric. |
+| Full 4D bulk | Nathan's direct description of the complete four-dimensional geometry with dynamics. | The assistant's `B^4) notation as an authenticated definition. |
+| Timesheet `Sigma_t` | Candidate exact 3D level set `tau^{-1}(t)`, when `tau` is a regular scalar map. | A positive-thickness interval preimage. |
+| Timeslab `DeltaSigma_{t,h}` | Candidate finite band `tau^{-1}([t-h/2,t+h/2])`; 4D interior for positive thickness under regularity. | A 3D hypersurface. |
+| Worldtube `W` | Must be typed as full 4D core region, 3D boundary, or another carrier before intersection claims. | A dimensionless label that can change meaning between equations. |
+| Intersection | The geometric set intersection of typed carriers. | An observational readout map. |
+| Readout/projection `pi` | A separately specified map from physical intersection/overlap to observable state. | An automatic consequence of writing an intersection symbol. |
+| Direct parent edge | `child.parent = parent.id`. | Chronological adjacency. |
+| Chronological adjacency | Neighboring timestamps in an extracted ordering. | Direct reply or ancestry. |
+| Shared source | Same underlying content blob, even if copied into several repositories. | Independent corroboration. |
+| Nathan Direct | User-authored statement with role/provenance evidence; embedded pasted-document authorship remains separate. | Every equation appearing in a user-role message. |
+| Assistant reconstruction | Assistant-authored interpretation, notation, or equation. | Nathan Direct or independent measurement. |
+| Unattributed synthesis | Historical document with no authenticated author/role graph. | Primary-source testimony. |
+| Independent measurement | A measurement with identifiable system, dataset, provenance, units, and uncertainty. | Any source or analysis in this case. |
+
+### Discrepancy ledger
+
+| ID | Discrepancy | Status |
+|---|---|---|
+| D1 | Ravel report/receipt assistant UUID differs from role-bearing extraction. | Correct ID recovered; owner amendment pending. |
+| D2 | Chronologically adjacent assistant node is not a direct child of user node 496a15ea. | Parent node missing; ancestry unresolved. |
+| D3 | “Representations” translated to “gauges”. | Technical escalation; no gauge action supplied. |
+| D4 | 2+1/3+1 decomposition added to the diagrammatic representation. | Plausible reconstruction, not direct wording. |
+| D5 | Borromean projection and three interwoven 4D histories. | Assistant proposal; invariant and embedding unspecified. |
+| D6 | Tentative induction-current idea upgraded to exact intersection/readout equations and “instantaneous particle”. | Map and carrier types missing. |
+| D7 | Positive-thickness interval preimage labelled a 3D hypersurface. | Dimension/type mismatch for positive thickness. |
+| D8 | Full Kerr spacetime versus spatial Kerr section. | Direct source explicitly requires the spatial section before extension. |
+| D9 | (D_0) scale originated in assistant message 10abe1d8 and was later adopted by the user. | Preserve proposal/adoption distinction; not a measurement. |
+| D10 | HsH and SAT archive copies of H(s)H MANIFOLDS. | Byte-identical duplicate, not two witnesses. |
+| D11 | Ravel and Morrow reports analyze the same synthesis. | Separate analyses, shared source. |
+| D12 | H(s)H MANIFOLDS author/role provenance. | Unauthenticated; retain as historical synthesis. |
+
 ## 5. The later timeslab synthesis and dimensional typing
 
 The unattributed historical synthesis `H(s)H MANIFOLDS.txt`, internal date label 2026-07-04, contains:
