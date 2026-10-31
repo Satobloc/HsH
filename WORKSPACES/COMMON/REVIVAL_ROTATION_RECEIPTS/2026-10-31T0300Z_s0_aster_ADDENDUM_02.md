@@ -7,75 +7,74 @@
 
 ## 1. Original conditional definitions
 
-The published report defines:
-
-- (s): intrinsic arclength along a fixed carrier;
-- (x): chosen net-displacement coordinate;
-- (lambda = ds/dx);
-- material traversal along the carrier at speed (ds/dt=c);
-- a moving front (w=ct), intersecting the fixed carrier at (s_*(t)).
+- `s): intrinsic arclength along a fixed carrier.
+- `x`: chosen net-displacement coordinate.
+- `lambda = ds/dx`.
+- Material traversal along the carrier: `ds/dt = c`.
+- Moving front: `w = c t`, intersecting the fixed carrier at `s*(t)`.
 
 The published equations are:
 
-[
-v_{\mathrm{mat},x}=\frac{dx}{dt}=\frac{c}{\lambda}
-]
+```
+v_mat,x = dx/dt = c/lambda
 
-and
+ds*/dt = c/(dw/ds)
+```
 
-[
-\frac{ds_*}{dt}=\frac{c}{dw/ds}.
-]
+Under the restricted identification `w = x`, since `dx/ds = 1/lambda`:
 
-Under the restricted identification (w=x), since (dx/ds=1/\lambda),
-
-[
-\boxed{\frac{ds_*}{dt}=c\lambda}.
-]
+```
+ds*/dt = c * lambda
+```
 
 The equations are consistent, but the prose description “reciprocal material/pattern rates” needs a normalization qualifier.
 
 ## 2. Correct interpretation
 
-The two **dimensionless factors relative to (c)** are reciprocal:
+The two dimensionless factors relative to `c` are reciprocal:
 
-[
-\frac{v_{\mathrm{mat},x}}{c}=\frac{1}{\lambda},
-\qquad
-\frac{(ds_*/dt)}{c}=\lambda,
-qquad
-\left(\frac{v_{\mathrm{mat},x}}{c}\right)
-\left(\frac{(ds_*/dt)}{c}\right)=1.
-]
+```
+v_mat,x / c = 1/lambda
+(ds*/dt) / c = lambda
 
-The dimensional speeds/rates themselves are not numerical reciprocals. Their product is
+(v_mat,x / c) * ((ds*/dt) / c) = 1
+```
 
-[
-\boxed{v_{\mathrm{mat},x}\,\frac{ds_*}{dt}=c^2}.
-]
+The dimensional speeds/rates themselves are not numerical reciprocals. Their product is:
 
-Also, (ds_*/dt) is the rate at which the intersection parameter moves along the fixed carrier. It is not automatically the velocity of a material object. That identification requires a metric and an observation/readout map.
+```
+v_mat,x * (ds*/dt) = c^2
+```
+
+Also, `ds*/dt` is the rate at which the intersection parameter moves along the fixed carrier. It is not automatically the velocity of a material object. That identification requires a metric and an observation/readout map.
 
 Therefore the precise statement is:
 
-**Material projected speed and moving-front intersection-parameter rate have reciprocal dimensionless factors when normalized by (c), under (w=x) and the stated arclength convention. Their dimensional product is (c^2).**
+**Material projected speed and moving-front intersection-parameter rate have reciprocal dimensionless factors when normalized by c, under w=x and the stated arclength convention. Their dimensional product is c².**
 
 ## 3. Executed symbolic check
 
-SymPy was used to define (v_m=c/\lambda) and (v_f=c\lambda). It returned:
+SymPy was used to define:
 
-- (v_m v_f=c^2);
-- ((v_m/c)(v_f/c)=1).
+```
+v_m = c/lambda
+v_f = c*lambda
+```
+
+It returned:
+
+- `v_m * v_f = c^2`;
+- `(v_m/c) * (v_f/c) = 1`.
 
 This is conditional algebra only. It uses no measured system, physical fixture, fitted parameter or empirical claim. No CODATA scoring was performed.
 
 ## 4. Epistemic boundary
 
-- Nathan Direct: light and matter both travel at (c) by the push of time; matter has farther to go.
-- Assistant reconstruction: the specific helix, its pitch/radius, the choice (w=x), and the kinematic variables above.
-- Standard mathematics: arclength reparameterization and the implicit differentiation of (w(s_*(t))=ct).
-- Independent measurement: none.
-- Lean status: no Lean 4/Mathlib run for this proposition. The current runtime has no `lean`, `lake`, or `elan` executable. The published report's SymPy check is not a Lean proof.
+- **Nathan Direct:** light and matter both travel at c by the push of time; matter has farther to go.
+- **Assistant reconstruction:** the specific helix, its pitch/radius, the choice w=x, and the kinematic variables above.
+- **Standard mathematics:** arclength reparameterization and implicit differentiation of w(s*(t)) = c t.
+- **Independent measurement:** none.
+- **Lean status:** no Lean 4/Mathlib run for this proposition. The current runtime has no `lean`, `lake`, or `elan` executable. The published report's SymPy check is not a Lean proof.
 
 The original report's displayed conditional equations remain intact. This addendum narrows the prose interpretation and prevents dimensional speeds from being called reciprocals without normalization.
 
