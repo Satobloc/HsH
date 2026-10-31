@@ -223,6 +223,6 @@ Current 🔑/geometry control sources:
 - Image ledger: 6627d1cf9b652e2af527232e448284f0175e6c22
 - Storyo solver README: 9fe55f866fbf0fafb7d6a2dc3f012212768608bd
 
-The existing Aster Einstein-coupling audit is blob b7c2a7c2b4b6f0b4f1d0c6a5a4a3b2c1d0e9f8a7 (verify before using this abbreviated identifier; the canonical path is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-einstein-coupling-scale-audit-20261021.md).
+The existing Aster Einstein-coupling audit is blob b7c2a552650fcea8f17e8db41ddf17bd04918987 at WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-einstein-coupling-scale-audit-20261021.md.
 
 The current HsH task graph and automation roster were read; no branch graph edit or automation mutation was made.
