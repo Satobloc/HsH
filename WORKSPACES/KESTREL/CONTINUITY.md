@@ -232,3 +232,17 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 - Immediate next cursor: type wall worldvolume B, aperture history A, centerline gamma, finite core W, timesheets Sigma_t, side/separation condition, and 4D-to-3D map. Do not identify aperture A with ER mouth E by analogy.
 - Preserve the pre-existing adopted Klein-Fabric definition and local spine/core/shell mapping cursor. Preserve the September 23 paper/review reaction request; neither was displaced.
 - No BEDROCK edit, paper-gate advancement, branch/PR change, task/schedule change, or cross-thread delivery claim.
+
+
+## 2026-10-31 16:48Z | Paper A R1 reaction follow-up
+
+- Closed the historical September 23 Kestrel request (raw conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, user message `37e78dd4-c3b0-493e-bb8a-87dce1274b3a`) with a private, assistant-generated Nathan-genuine emulation update. This is NOT Nathan Direct, not a formal peer review, and not theory authority.
+- Report: `WORKSPACES/KESTREL/2026-10-31T1648Z_PAPER_A_R1_NATHAN_GENUINE_REACTION_UPDATE.md`, blob `54adcf6b3ca6f3f3ff2a60146a51ea5660271679`. It is a delta to the 2026-09-22 810-line reaction, not a replacement.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1648Z_s4_kestrel.md`, blob `5df831ebdea71bf17902be253e92259968f3aeab`.
+- No-content ring handoff to Meridian: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1648Z_from_s4_to_s0_meridian.md`, blob `fc1d66fb9ac17b9d6ed76fda2b00492d166b9261`. Meridian's independent consultant remit is protected; no private reaction or task was transferred, and no Meridian inbox/current chat destination was authenticated.
+- Paper A R1 remains accepted and pinned at `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`. No manuscript, packet, reader, PR, issue, or paper-gate edit. The R0-era REVIEW_PACKET ledger is stale; Tern owns packet currency.
+- Main branch at source inspection: `814277410e7f3f0b97d1081563ce9e4d44a1dd97`. Kestrel PR #873 remains draft/open at head `ab1c47cad653f0601e022aeaccb83af5f4153248`; exact-head run #41188625587 failed. Existing issue #1112 is PUBLISHED_VERIFIED; no duplicate publication.
+- Morrow :36 completed at 16:59:05Z and explicitly created no Kestrel handoff. Its expected :36 receipt was not present in the main tree at final readback. This is an intentional no-handoff in the report, not refusal or nonresponse.
+- Kestrel :48 run `17b40fd5-923c-8327-995e-0de4aba03200` remained in progress at final peek; latest_result still belonged to the prior 15:48Z Elias run. No terminal result or chat_ref is claimed.
+- Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1441–1480. Next cursor 1481. FIE last full review 2026-10-27; not due.
+- Next Kestrel cursor: preserve accepted R1; if Nathan later wants the argument developed further, make a separate source-by-source dependency map rather than reopening the manuscript by default.
