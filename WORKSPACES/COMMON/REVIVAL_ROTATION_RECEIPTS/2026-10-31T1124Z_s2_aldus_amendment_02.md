@@ -4,7 +4,7 @@
 
 ## Corrected report state
 - Report: `WORKSPACES/ALDUS/2026-10-31T1124Z_O9_SOURCE_CROSSREAD_AND_BASELINE_PILOT.md`
-- Final report blob: `700e9940c89403f1dee5f007e11065916f254586`
+- Final report blob: `20923b8aeda8070772bd8eef1362debe1988e690` (report update commit: `700e9940c89403f1dee5f007e11065916f254586`)
 - Final report length: 27,095 characters.
 - All four prescribed chapter/lens packets and the first cross-packet comparison are complete.
 - The pilot remains POST-EXPOSURE / NOT PRISTINE because live H(s)H material was already in context before the historical Aldus insulation protocol was recovered.
