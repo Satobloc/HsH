@@ -210,3 +210,9 @@ Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not
 - The current July 12 tag ledger blob is `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`; the earlier `9a011e...` readback was superseded by a concurrent additive correction.
 - The current run report blob is `193a6996e0724a62028032fa2a0fef5a6c6dc513`.
 - `INNER-OUTER-CIRCUMFERENCE` is inherited from the later direct clarification `3d392cc0-e113-47de-94f2-4615260b48fd`, not literal wording in the earlier `9671629d-7033-4188-92fb-7809df2933d8` question. The earlier message carries `CLARIFIED-BY-3d392cc0`, not the later phrase as a direct tag.
+
+
+### Final report pointer | 2026-10-31T1412Z
+
+- Final report/checkpoint supplement blob: `92ef94bc0bc94cac577c36ba2df62ca95f26d8f9`.
+- The report's prior revision `193a6996e0724a62028032fa2a0fef5a6c6dc513` is retained in Git history; use the final blob above.
