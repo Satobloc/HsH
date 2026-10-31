@@ -221,3 +221,14 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 - Meridian's P2 issue #565 comment #6541745054 points to an earlier BEC report blob (`138210716212c228041cd8c6ffdf1d2bd73e676c`) rather than current report blob `b150a5002ba11308aac7c536ee3a57e62963b813`; its math is not enclosed in renderable delimiters. This is an issue-comment quality defect, not a publisher receipt or paper-gate advancement. Tern was notified.
 - No new Lean target, physical prediction, absolute BEC recalibration, branch/PR/issue, BEDROCK edit, or theory promotion. FIE remains not due. TheTANGLE cursor remains 1731; rereading 1691–1730 in the duplicate execution is not counted as new progress.
 - The existing next Kestrel cursor remains the exact adopted Klein-Fabric definition and its map to the local spine/core/shell; keep the spine-to-core, worldtube-to-medium, and slice-to-observable maps distinct until their definitions are supplied.
+
+
+## 2026-10-31T1300Z | Worldline / wall-worldvolume perforation crosswalk
+
+- Published source-fidelity crosswalk: issue #1151, submission `kestrel-wall-worldvolume-perforation-fidelity-20261031t1300z-s0-001`, artifact blob `62fdd2dfd4b08b49c4d747a1fd4d57263353c443`, SHA-256 `8580b9d42968628178e7ad7f9b2edd1520e2720f5ebe8195359b897c96f842ba`. Publisher run #41205035193 succeeded; comment #6543891758 confirms readback.
+- New source-fidelity result: the September 21 wall/door model is a wall-history perforation, not an extra-dimensional bypass. The particle is one continuous helix with three visible portions and two doorway transitions. The wall aperture, ER mouth, finite-core worldtube, and BEC-like medium remain distinct objects until maps are supplied.
+- Source chronology: July 11 direct ER-line-with-thickness precursor; July 12 ambiguous ASR podcast candidate; July 18 first unambiguous transcript located; September 21 direct retrospective. The original early worldline/entanglement source and podcast role graph remain unrecovered.
+- Existing PR #873 exact-head CI built `KestrelMovingSlice`, `KestrelIntersectionDimensionGate`, and `KestrelProjectedIncidence`; the overall build failed in separate `KestrelKelvinVortexReadout`. No new Lean code, physical calculation, or theory promotion.
+- Immediate next cursor: type wall worldvolume B, aperture history A, centerline gamma, finite core W, timesheets Sigma_t, side/separation condition, and 4D-to-3D map. Do not identify aperture A with ER mouth E by analogy.
+- Preserve the pre-existing adopted Klein-Fabric definition and local spine/core/shell mapping cursor. Preserve the September 23 paper/review reaction request; neither was displaced.
+- No BEDROCK edit, paper-gate advancement, branch/PR change, task/schedule change, or cross-thread delivery claim.
