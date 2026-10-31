@@ -97,7 +97,7 @@ theorem sameReadoutDeterminesCarrierIfCovered
     exact hmem.1
 
 /-- If an ambient point is absent from every sheet, the readout map on all
-    candidate supports is non-injective: `univ` and `univ \\ {x}` agree. -/
+    candidate supports is non-injective: `univ` and `univ \ {x}` agree. -/
 theorem readoutNoninjectiveIfUncovered
     {M : Type u} {I : Type v} (sheets : I → Set M)
     (x : M) (hx : x ∉ ⋃ i, sheets i) :
@@ -105,7 +105,7 @@ theorem readoutNoninjectiveIfUncovered
   intro hinj
   have hSame :
       (fun i => (Set.univ : Set M) ∩ sheets i) =
-      (fun i => (Set.univ \\ {x}) ∩ sheets i) := by
+      (fun i => (Set.univ \ {x}) ∩ sheets i) := by
     funext i
     ext y
     constructor
@@ -117,9 +117,9 @@ theorem readoutNoninjectiveIfUncovered
       exact ⟨Set.mem_univ y, by simpa using hyx⟩
     · intro hy
       exact ⟨Set.mem_univ y, hy.2⟩
-  have hEq : (Set.univ : Set M) = Set.univ \\ {x} :=
-    hinj (Set.univ : Set M) (Set.univ \\ {x}) hSame
-  have hxIn : x ∈ (Set.univ \\ {x}) := by
+  have hEq : (Set.univ : Set M) = Set.univ \ {x} :=
+    hinj (Set.univ : Set M) (Set.univ \ {x}) hSame
+  have hxIn : x ∈ (Set.univ \ {x}) := by
     rw [← hEq]
     exact Set.mem_univ x
   exact hxIn.2 (by simp)
