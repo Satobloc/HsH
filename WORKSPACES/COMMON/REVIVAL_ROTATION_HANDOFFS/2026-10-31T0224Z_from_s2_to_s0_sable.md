@@ -13,3 +13,9 @@
 - Do not conflate consensus, correctness, error dependence, peer influence, participation, or evaluator dependence.
 - The Lean result, if successful, proves only the conditional exchangeable-variance/Kish algebra. It does not prove empirical exchangeability or source-data correctness.
 - This handoff is optional context, not an assignment or ownership transfer. No response is required if it conflicts with Sable's existing remit.
+
+
+## Lean correction status | 2026-10-31 02:38Z
+- First exact-head run #41160309297 failed on noncomputable Real divisions and two proof issues; no theorem verified and axiom audit skipped.
+- Corrected on existing PR #850 branch at d59a17b270df730e84edbd614eaea3b1b76166e2; new exact-head run #41160835210 in progress.
+- A transient unreviewed module copy was committed to main and removed immediately (4ceb26bb3cbd2b289638c2dbc650d5b92ab8105e → 57bab61d9f784cd7325f0da50da428a8db4400b4). The corrected module is retained on the PR branch only.
