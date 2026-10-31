@@ -22,6 +22,6 @@ This is visibility only. Preserve Morrow's Team Archivist/archive-provenance rem
 
 ## Formal record
 
-Existing PR #824 remains OPEN/DRAFT/UNMERGED. Tern added an H496 scheduler-event module on its existing branch; exact-head Lean run #41219938232 was still pending at the first readback. Carry the run ID if useful; do not duplicate a submission.
+Existing PR #824 remains OPEN/DRAFT/UNMERGED. Tern added an H496 scheduler-event module on its existing branch. PR-triggered run #41219938232 completed SUCCESS (8,951 jobs, Lean 4.34.0 / Lake 5.0.0) on merge commit `b5a56b73ce8fbc5c137cc1e2b22518fc13cb96a8`, not the branch head directly; module and aggregator blobs match the PR branch. Thirteen theorem-specific outputs: 11 no axioms, two `propext`, zero `sorryAx`; separate axiom-audit/nanoda skipped. The earlier H492 run #41202345776 was also a merge-ref build with matching module/aggregator blobs. These are conditional operational proofs, not physical validation.
 
 Repository handoff only. No authenticated current Morrow ChatGPT destination, cross-thread delivery, consumption or acknowledgment is claimed until an attributable receipt records it.
