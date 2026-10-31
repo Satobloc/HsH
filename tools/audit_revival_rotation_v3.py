@@ -109,7 +109,8 @@ def identity_hint(text, which):
             patterns = (
                 rf"\bselected\s+ring\[\d+\]\s+{re.escape(name)}\b",
                 rf"(?<!next )\bindex\s*=\s*\d+\s+{re.escape(name)}\b",
-                rf"\bselected\s+ring\s+index\s*:\s*\d+\s*=\s*{re.escape(name)}\b",
+                rf"\bselected\s+ring\s+index\s*:\s*\d+\s*(?:=|:)\s*{re.escape(name)}\b",
+                rf"\bselected\s+ring\s+index\s+\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"(?<!next )\bring\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
             )
         else:
@@ -117,6 +118,7 @@ def identity_hint(text, which):
                 rf"\bnext\s+ring\[\d+\]\s+{re.escape(name)}\b",
                 rf"\bnext\s+index\s*=\s*\d+\s+{re.escape(name)}\b",
                 rf"\bnext\s+ring\s+index\s*:\s*\d+\s*(?:=|:)\s*{re.escape(name)}\b",
+                rf"\bnext\s+ring\s+index\s+\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"\bnext\s+index\s*:\s*\d+\s*(?:=|:)\s*{re.escape(name)}\b",
                 rf"\bnext\s+index\s+\d+\s*=\s*{re.escape(name)}\b",
             )
@@ -359,7 +361,7 @@ def self_test():
         h = base / "REVIVAL_ROTATION_HANDOFFS"
         r.mkdir(parents=True); h.mkdir()
         receipt = r / "2026-10-31T0224Z_s2_orson_vay.md"
-        receipt.write_text("## Rotation\n- Run key: REVROT3-19-20261011:482:s2\n- Selected ring index: 18 = Orson Vay\n- Next ring index: 0: Sable\n## Continuity and authority\n- Run key: narrative must not override metadata.\n", encoding="utf-8")
+        receipt.write_text("## Rotation\n- Run key: REVROT3-19-20261011:482:s2\n- Selected ring index 18: Orson Vay\n- Next ring index 0: Sable\n## Continuity and authority\n- Run key: narrative must not override metadata.\n", encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
         assert result["receipts"] == 1
