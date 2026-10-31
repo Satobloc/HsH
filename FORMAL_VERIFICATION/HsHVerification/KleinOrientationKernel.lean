@@ -45,10 +45,8 @@ theorem fiberSign_add (m n : ℤ) :
 theorem fiberSign_neg (m : ℤ) :
     fiberSign (-m) = fiberSign m := by
   by_cases hm : m % 2 = 0
-  · have hneg : (-m) % 2 = 0 := by omega
-    simp [fiberSign, hm]
-  · have hneg : (-m) % 2 ≠ 0 := by omega
-    simp [fiberSign, hm, hneg]
+  · simp [fiberSign, hm]
+  · simp [fiberSign, hm]
 
 /-- Coordinates for the Klein-bottle group in the convention
     (m,n)(p,q) = (m+p, n + (-1)^m q). -/
@@ -85,6 +83,8 @@ instance : Group KleinPair where
       | mk bm bn =>
         cases c with
         | mk cm cn =>
+          change mulK (mulK ⟨am, an⟩ ⟨bm, bn⟩) ⟨cm, cn⟩ =
+            mulK ⟨am, an⟩ (mulK ⟨bm, bn⟩ ⟨cm, cn⟩)
           apply KleinPair.ext
           · simp [mulK, add_assoc]
           · simp [mulK, fiberSign_add]
@@ -95,7 +95,7 @@ instance : Group KleinPair where
     | mk am an =>
       change mulK oneK ⟨am, an⟩ = ⟨am, an⟩
       apply KleinPair.ext
-      · rfl
+      · simp [mulK, oneK]
       · norm_num [mulK, oneK, fiberSign]
   mul_one := by
     intro a
