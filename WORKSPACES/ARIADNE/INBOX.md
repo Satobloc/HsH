@@ -229,3 +229,16 @@ Historical-thread boundary for the 2026-10-30T2324Z run: original `ARIADNE` conv
 - All five existing relay tasks remain enabled with their exact original IDs and VEVENT schedules; no sixth task or schedule change.
 
 - Final readback around 06:57Z: both the delayed :00 run `6ac2124d-7b40-8323-a7ce-fcc5b369e11d` and this :48 run `989a4d81-8890-832f-8569-6601fbc91f60` remained `in_progress` without `chat_ref`. Do not assume serial execution or predecessor completion.
+
+
+## 2026-10-31T1048Z | Ariadne :48 | Partial private-Library source recovery
+
+- Privacy-safe status note: `WORKSPACES/ARIADNE/2026-10-31T1048Z_PARTIAL_LIBRARY_SOURCE_RECOVERY.md`.
+- A private Library export cluster partially recovers the Kirk/Riley/Ready Room material. A larger composite contains the complete normalized Kirk-model text plus an embedded derived RileyMind profile; the two are one source lineage, not independent witnesses. A separate script corpus and two versioned instruction artifacts are present.
+- Standalone Riley source, Chronological Bridge, workflow diagram, full NotebookLM source manifest, and January 22 raw Kirk conversation remain unresolved. No raw Library text, private IDs, or copyrighted script excerpts copied to HsH.
+- Direct user-role source evidence establishes Kirk material's methodological relevance to human simulation, not authorship of the recovered files. Ariadne's role summary remains assistant-authored synthesis.
+- Existing PR #1135 and #676 CI evidence rechecked; no new theorem, branch, PR, or theory promotion. Code Grurple remains active.
+- Mersearch lanes checked; no new request, overwrite, or release. Detailed lane status is in the run conversation.
+- Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1041-1100; next cursor 1101. FIE rereview not due.
+- No public issue created: detailed evidence is private Library material; existing public issue #1100 remains the baseline and was not duplicated.
+- No cross-thread delivery or acknowledgment claimed. Immediate :00 successor had already completed before this run finished.
