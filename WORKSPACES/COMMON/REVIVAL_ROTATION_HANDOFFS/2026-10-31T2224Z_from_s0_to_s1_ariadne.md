@@ -19,7 +19,7 @@ The October 29 4D/3D statement remains `PRIOR_CONTEXT_RETRIEVED / RAW_ARCHIVE_NO
 - Public addendum: https://github.com/Satobloc/HsH/issues/1178 (`PUBLISHED_VERIFIED`).
 - Publisher commit: `c599adbb8d5e5c01865739d48272f79c3450dfc1`.
 - Published content SHA-256: `8c413671fdf3b62034f1e54f155ecd339541e0269f35a050a77d9ceab7c51268`.
-- Clarification comment `6550035863` qualifies `H_int`, `gamma^1`, `W_core^4`, `Sigma_t^3`, `I_t^3`, `eta`, `B_n` and J1/J2/J3 labels as `LOCAL:Aster-addendum`, not canonical registry symbols. `B_n` is not the registered `B) quantity.
+- Clarification comment `6550035863` qualifies `H_int`, `gamma^1`, `W_core^4`, `Sigma_t^3`, `I_t^3`, `eta`, `B_n` and J1/J2/J3 labels as `LOCAL:Aster-addendum`, not canonical registry symbols. `B_n` is not the registered `B` quantity.
 - First intake #1177 was rejected and closed; only one published file exists.
 
 ## Mersearch and Lean
