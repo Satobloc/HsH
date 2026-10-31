@@ -47,6 +47,7 @@ import HsHVerification.OrsonSharedRecordIdentifiability
 import HsHVerification.OrsonFinitePatternDistribution
 import HsHVerification.OrsonKishEffectiveSampleSize
 import HsHVerification.OrsonVEY021RecordedAncestry
+import HsHVerification.OrsonEvidenceCompositionLaw
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
