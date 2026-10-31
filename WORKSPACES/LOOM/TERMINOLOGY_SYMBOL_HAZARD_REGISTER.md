@@ -63,3 +63,25 @@ The earlier row's phrase “assistant `be9d54f6...` later retracts automatic der
 The user-role turn `b8cc4592-3a32-4893-9857-21f2b1e28e4b` (“Ok, what about 14.1”) is a direct question, not a method directive. The source-typed Lean metadata was corrected to `directQuestion` and compiled in PR #759 commit `c97db86dddc43f49ec0a9cadc51529d6f5d573db`, run #41026140873.
 
 The outer user-role turn is attributed to Nathan under the standing archive-speaker policy; this does not transfer authorship to the embedded “Page One” document. Its author remains unresolved. Full raw-export duplication and parent-edge verification: `WORKSPACES/LOOM/2026-10-30T0828Z_SOURCE_QC_ADDENDUM.md`.
+
+
+## 2026-10-31 θ4 source / geometry hazard
+
+| Hazard | Unsafe collapse | Current annotation rule | Status |
+|---|---|---|---|
+| `θ4` / filament–timesheet angle | “Angle between filament and time surface” = a fully defined metric angle, or angle to the hypersurface itself = angle to its normal | Preserve the July 2025 `SAT4D_4.txt` glossary wording: `v=dγ/dλ`, `Σ_t` is the 3D resolving wavefront, `u` is declared normal to `Σ_t`, and `θ4=angle(v,u)`. The same glossary says no metric or connection is assumed, so normality/angle and its `∇u` strain tensor are under-specified until those structures are supplied. Do not silently assume Euclidean or Lorentzian geometry. | ACTIVE / STRUCTURE REQUIRED |
+| `m_eff=Tℓ_f/(c²Q)` vs `m/m_max=sin²θ4` | Canonical glossary mass formula = assistant-generated angle parameterization | Keep the two constructions separate. The July glossary's `m_eff=Tℓ_f/(c²Q)` contains no `θ4` map. The later public `SAT-Y Theta4 Calcs.txt` `sin²θ4` law is an assistant reconstruction with an un-derived `m_max`; no projection/composition map to `Q`, `T`, or `ℓ_f` has been recovered. | ACTIVE / NO MAP |
+| `sin²θ4` / Z3 | A claimed unique Z3 potential = proven symmetry consequence | The public `SAT-Y ThetaProof.txt` transcript also uses `1−cos(3θ4)`. If the intended Z3 action is `θ4↦θ4+2π/3`, then `sin²θ4` is not invariant (`0` at `θ4=0`, `3/4` at `2π/3`), while `1−cos(3θ4)` is invariant. If Z3 acts on another variable, this counterexample does not apply; the group action must be stated. | ACTIVE / ACTION UNSPECIFIED |
+| `tanθ4=2πr/p` | Circular-helix identity = general 4D superhelix law | Treat as conditional 3D circular-helix geometry only: constant radius, pitch `p` per full turn, axis aligned with `u`, and a specified Euclidean inner product. The angle to the wavefront plane is complementary to the angle to its normal. No extension to a multi-mode 4D superhelix is established. | ACTIVE / CONDITIONAL |
+
+### Public-source typing
+
+- `SAT4D_4.txt` (internal date July 2025; author line: “SATO.4D Coherence Project”; blob `efc88f4523b2fd616e64898737c2aa45e5f39b9a`) is a project glossary, not a raw Nathan message. It defines `θ4=angle(v,u)` while also declaring no metric/connection a priori and defining `S_{μν}=∇_μu_ν+∇_νu_μ`.
+- `SAT-Y 4D.txt`, `SAT-Y ThetaProof.txt`, and `SAT-Y Theta4 Calcs.txt` entered the public archive in commit `07077989481f12eca0dcb0e0f986e39eb8be1491` at 2025-10-27T01:41:47Z. The transcript's “You said” time-normal line has no recovered raw message UUID; the `sin²θ4`, `1−cos(3θ4)`, and mass-angle formulas remain assistant-reconstruction status.
+- `SAT_theta4_kink_retardance.png` entered the public archive at commit `51402d2c550978bcf5edaa432829518d59d4690d` on 2025-10-27T22:13:26Z; its file inventory carries a 2025-05-09 creation timestamp, not an authorship record.
+- The public-facing SAT/filament episode record for 2025-02-02 does not mention `θ4`. The earliest verified public θ4-bearing archive artifacts located in this pass are the 2025-10-27 repository additions; this is not proof that no earlier public mention exists elsewhere.
+- Private Library raw sources reviewed for earlier symbol adoption and mass-angle hypothesis are not reproduced or indexed in this public register. Their speaker/assistant distinctions and exact provenance remain in the current run record.
+
+### Formalization gate
+
+Before Lean formalization, specify a metric/signature and compatible connection (or replace “angle/normal” with a metric-independent structure). Then formalize the nonzero-vector angle, the circular-helix reduction, and the conditional Z3 action. No Lean theorem was compiled in this run; the exact symbolic checks are not Lean verification and do not validate physical premises.
