@@ -1,3 +1,15 @@
+## H500 final scheduler and source-correction addendum — 2026-10-31T2020Z+
+
+The :00 h499 run `ea37f54b-dfd8-8328-85db-7123d561861f` completed at 20:21:04.304971Z. Its current latest_result now matches. The h500:s0 occurrence is still not visible; do not infer skipped firing. Aldus's completed output is local-only; no repository receipt or Calder handoff exists. The existing issue #1165 PUBLISHED bot receipt covers a separate nested-braid/time-normalization artifact, not the new local report.
+
+Nadir's :48 run `ced66a9c-a284-8320-876a-870671ab83b5` completed at 20:19:59.642625Z with start 20:11:45.341109Z. Earlier same-ID snapshots showed failed/start 19:44:24 and in_progress/start 20:11:45. Nadir's completed result calls it a retry; scheduler exposes no attempt ID. Preserve all snapshots; do not infer a separate attempt identity.
+
+Nadir's completed follow-on withdraws the earlier claim that broad October 1 mathematical-playground permission specifically authorized the October 31 data-free SymPy calculation. No raw October 1 conversation ID/message UUID was recovered. Nadir classifies the operation `PROTOCOL_VIOLATION / NOT_EVIDENCE`; the durable record has no Oct31-specific script/hash/environment/stdout for replay. The kernel-projection theorem and singular-generator control already appear in the October 23 published sandbox packet (blob `3b49be0733d533a7504193d5f30ba437283a0d36`), so October 31 is duplicate, not a new theorem or independent confirmation. The October 23 `returnTranslation` is an uncompiled coordinatewise surrogate; PR #262's compiled discrete frame theorem is merge-ref only. Continuous integral theorem remains NOT FORMALIZED / NOT COMPILED. Run 141's D_lin/quotient document is recovered, author/role genealogy unresolved.
+
+The Tern report was addended: blob `71cf1483e394adc260cf017fb1b72eee430e5a30`. Receipt Amendment 01: `3df32c52cc09db84ed2333981e81fae60c8e3b59`. Morrow handoff base: `a5adb2156843fa232ef4ada6382f6ba551e2dd6c`. Tern inbox preserves the Nadir handoff pointer correction from old recorded blob `2958c9a82be6bcaee5dc86d8c292d7b1e590be4e` to live readback `814ee803c518c8b5e17fafca787681fc7313df5e`.
+
+Current Tern :12 run `d6e9b6fb-7a60-832b-b800-02472d615ed3` remains in_progress with `chat_ref=null`; scheduler completion not claimed. No schedule change, new calculation, Lean theorem, theory promotion, or issue submission.
+
 ## H496 axiom-output count qualification — 2026-10-31T2020Z
 
 The H496 module source blob `fc74f633b50493cce91b3e1bf94bcb96dbc64527` contains 14 theorem declarations and 14 `#print axioms` commands. The prior H496 report/receipt records 13 outputs (11 no-axiom, two `propext`). The current connector's Actions logs endpoint returns empty text, so that 13-versus-14 discrepancy is unresolved. Preserve the successful build and source-blob equality; do not repeat the 13/11/2 output count as newly verified until the stored log is recovered and counted. Separate automated axiom-audit/nanoda stages were skipped.
