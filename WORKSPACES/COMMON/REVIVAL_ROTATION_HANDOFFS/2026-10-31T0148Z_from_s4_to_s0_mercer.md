@@ -37,3 +37,8 @@ This handoff is context, not a task assignment. Mercer retains the existing cros
 - PR #895 run #41141185069 succeeded on the PR's own current base branch, infra/lean4-verification-20261023, not on main.
 - The Kestrel :36 automation for 01:36Z later completed with recorded_status=failed at 02:00:02Z and chat_ref=null. No Kestrel :36 receipt or handoff to Meridian was found. No cause is inferred.
 - The exact main parent before the Meridian receipt write was a697d161146e7e6691d0adb37a789fb6ad20be1e; current main after the receipt, handoff, and inbox append is 067f7f4fe69641a9cbdf46064f77897c17d08789.
+
+
+## Addendum 02 | Late relative to Mercer successor (2026-10-31T02:01Z)
+
+The Mercer :00 successor run for 2026-10-31T02:00Z started at 01:58:23.099104Z, before this handoff was committed at 02:00:04Z and before the inbox append at 02:00:08Z. This handoff is late for that occurrence. Repository readback is verified; Mercer consumption, acknowledgment, and ChatGPT-thread delivery are not claimed.
