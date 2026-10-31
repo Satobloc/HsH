@@ -66,3 +66,38 @@ theorem rapidityGraph_surjective_forces_subsingleton
 #print axioms rapidityGraph_surjective_forces_subsingleton
 
 end HsHVerification
+
+
+namespace HsHVerification
+
+/-- The positive-definite Euclidean quadratic form on real four-vectors. -/
+def euclideanNormSq4 (u : Fin 4 → ℝ) : ℝ :=
+  ∑ i : Fin 4, (u i)^2
+
+theorem euclideanNormSq4_nonneg (u : Fin 4 → ℝ) :
+    0 ≤ euclideanNormSq4 u := by
+  unfold euclideanNormSq4
+  exact Finset.sum_nonneg (fun i hi => sq_nonneg (u i))
+
+/-- A real vector in native positive-definite R⁴ cannot have squared norm -1. -/
+theorem euclidean4_not_unit_timelike (u : Fin 4 → ℝ) :
+    euclideanNormSq4 u ≠ -1 := by
+  intro h
+  have hn := euclideanNormSq4_nonneg u
+  linarith
+
+/-- The archived rapidity pair is unit timelike under the Lorentzian (-,+) form. -/
+def lorentzianNormSq11 (t x : ℝ) : ℝ :=
+  -t^2 + x^2
+
+theorem rapidityPair_unit_timelike (ψ : ℝ) :
+    lorentzianNormSq11 (Real.cosh ψ) (Real.sinh ψ) = -1 := by
+  have h := Real.cosh_sq_sub_sinh_sq ψ
+  unfold lorentzianNormSq11
+  linarith
+
+#print axioms euclideanNormSq4_nonneg
+#print axioms euclidean4_not_unit_timelike
+#print axioms rapidityPair_unit_timelike
+
+end HsHVerification
