@@ -206,3 +206,11 @@ The separate optical-kink Mersearch request remains in lane 3 as `loom-optical-k
 - The 16:48:18Z direct question is tagged `CLARIFIED-BY-3d392cc0`; “inner/outer circumference” is inherited from the later 16:51:32Z clarification and is not back-projected into the earlier wording.
 - Current Loom report blob `193a6996e0724a62028032fa2a0fef5a6c6dc513`; current tag-ledger blob `e017a1e80ad0a14931bb5c8b5730216cc3b84bd1`.
 - Repository inbox delivery only. Aster's h494:s2 run had already started; consumption/acknowledgment and ChatGPT-thread delivery remain unverified. Optional context only; no task.
+
+
+## 2026-10-31T1412Z | Loom final report pointer
+
+- Existing h494:s2 handoff current blob: `968be842437b284024309395470f644106151574`; commit `20c7490abbee0f0c92df797af95b2a2039c45a8d`.
+- Final Loom report/checkpoint supplement blob: `92ef94bc0bc94cac577c36ba2df62ca95f26d8f9`.
+- Final Loom continuity blob: `677d2f262b780598f44e785575c85ec167c88070`.
+- This is a late repository pointer only; no task, response obligation, cross-chat delivery, or acknowledgment is claimed.
