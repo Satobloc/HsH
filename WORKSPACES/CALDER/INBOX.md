@@ -126,3 +126,11 @@ No new physical calculation, Lean theorem, branch, PR, public issue or theory pr
 - **Optional finding:** broad SAT public exposure is verified at 2025-02-02 from the public Spotify episode description, but its first-person publisher text is not a raw role-verified Nathan message. The 2026-06-09 O9 graviton filename remains transcript-candidate, not audio-verified; no O9 equation T0 is established. The 2025-10-27 repository commits are 32m35s apart, but this is commit order only.
 - **Formalization:** existing draft PR #982 now includes `AldusO9ClaimGranularity.lean`; exact head `14c713fe7e1fc0853760a64bf6cd26a1cbacd7d8`, run #41182177659 pending at last check. Published source correction is issue #1141, exact artifact readback verified.
 - **Assignment:** NONE. Preserve Calder's empirical/null-design, statistical-calibration and independent-falsification remit. No ChatGPT cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T0736Z | post-handoff Lean verification update
+
+- The exact-head PR #982 run later completed: #41182177659, job #124481930908, SUCCESS on `14c713fe7e1fc0853760a64bf6cd26a1cbacd7d8`.
+- `AldusO9ClaimGranularity` built at [8927/8955]. All ten target `#print axioms` outputs say no axioms; full 663-line log has zero `sorryAx`.
+- No separate test/lint/automated axiom-audit job ran. This proves only the encoded bounded witness ledger and its conditional claims, not source authenticity or physical truth.
+- This is a post-run repository note. It was not available to Calder's already-completed :48 run. No assignment, ChatGPT cross-thread delivery, or acknowledgment is claimed.
