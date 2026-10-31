@@ -26,7 +26,7 @@ RING = (
 EPOCH = datetime(2026, 10, 11, tzinfo=timezone.utc)
 PHASE = (0, 12, 24, 36, 48)
 KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
-LEGACY_KEY = re.compile(r"^REVROT3-19-(\d{8}):(\d{2}):s([0-4])$")
+LEGACY_KEY = re.compile(r"^REVROT3-19-(?!20261011)(\d{8}):(\d{2}):s([0-4])$")
 BOLD_FIELD = re.compile(r"^\s*-\s*\*\*(.+?):\*\*\s*(.+?)\s*$")
 PLAIN_FIELD = re.compile(r"^\s*(?:-\s*)?([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
 STRUCTURED_FIELDS = {
@@ -323,6 +323,10 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"]
 
+        # Canonical fixed-epoch keys must not be mislabeled as legacy date keys.
+        assert parse_key("REVROT3-19-20261011:12:s3") == (12, 3)
+        assert not LEGACY_KEY.fullmatch("REVROT3-19-20261011:12:s3")
+
         # Date-based legacy keys normalize to the fixed epoch, including negative h.
         assert parse_key("REVROT3-19-20261012:07:s3") == (31, 3)
         assert parse_key("REVROT3-19-20261010:23:s4") == (-1, 4)
@@ -348,7 +352,7 @@ def self_test():
         )
         assert parsed["run_key"] == "REVROT3-19-20261011:12:s3"
         assert conflicts == [("run_key", "REVROT3-19-20261011:12:s3", "REVROT3-19-20261011:12:s4")]
-    return {"status": "PASS", "checks": 14}
+    return {"status": "PASS", "checks": 15}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
