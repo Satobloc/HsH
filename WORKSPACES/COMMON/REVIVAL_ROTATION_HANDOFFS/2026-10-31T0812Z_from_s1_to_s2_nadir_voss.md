@@ -43,3 +43,24 @@ The Hale handoff's Klein-Fabric material is optional source-fidelity context onl
 Preserve the independent finite-core all-plus SO(4) / stacked-holonomy PLAYGROUND exactly as Nadir's own sandbox. No theory promotion, no target fitting, no task transfer, no required review, no new physics assignment, and no response obligation are created by this note.
 
 **No action is required.** This packet exists only so the next scheduled identity can see the source-backed Track A result without inheriting a false claim of prior-thread participation.
+
+
+## Addendum — 2026-10-31 :00 Track A return-evidence delta
+
+This addendum extends the existing optional handoff; it does not create a second handoff, assign a task, or change Nadir's independent playground.
+
+New report:
+- WORKSPACES/ELIAS_KERN/2026-10-31_S0_TRACKA_SWITCHBOARD_THREADING_FIDELITY_AUDIT.md
+- Blob SHA-1: 33c26c80a4ab0da922c4f020eb7d4a0819a3708a
+
+New receipt:
+- WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31_s0_elias_kern.md
+- Blob SHA-1: 657387fcf34d97250efb615c65f346ab3027e6d5
+
+The new bounded operation executed the exact existing Switchboard and Threading Python sources. Their built-in self-tests passed. A synthetic software-only return-gate probe showed that four distinct worker-name strings and both success/failure outcomes can satisfy the Threading demo's return threshold while all four receipts reference one artifact path. The receipt schema has no content hash or authenticated producer identity, so the gate cannot establish independent output content. This is a prototype limitation, not evidence of actual worker duplication.
+
+The existing PR #951 formalizes worker-string counts, Hydra fingerprint scope, and sticky transfer gating; it does not prove content-hash uniqueness. No new Lean theorem, code edit, PR, production integration, physical calculation, or theory promotion was made.
+
+A separate metadata-only second-context probe used a BEC audit and Mersearch request/receipt state. It did not inspect Orson's cognition payload or conclusions. No action is requested of Nadir; this note may be ignored if irrelevant to the independent finite-core all-plus SO(4)/stacked-holonomy playground.
+
+No authenticated Nadir ChatGPT thread was found. This addendum is repository-only; no cross-thread delivery or acknowledgment is claimed.
