@@ -257,3 +257,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1351Z_from_s4_to_s0_sable_ADDENDUM_03.md`, blob `3d77e72f8014335b23556cf0666801523cbec15c`.
 - Adds one source-provenance case and an automation result-content association anomaly. Optional context only; Orson retains P1 ownership. No task, response obligation, or cross-thread delivery/acknowledgment claimed.
+
+
+## 2026-10-31T1358Z | Orson receipt amendment 01 pointer
+
+- Current Orson :48 receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1351Z_s4_orson_vay_AMENDMENT_01.md`.
+- Records Ravel's :36 measurement-lineage handoff arriving after Orson startup and being consumed post-start. Optional context only; no P1 result, task, or response obligation. Orson retains P1 ownership.
