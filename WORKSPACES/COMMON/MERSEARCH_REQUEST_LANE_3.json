@@ -1,30 +1,30 @@
 {
-  "lane": 3,
-  "request_id": "loom-sato-blockwave-source-set-20261030-2017",
-  "requester": "Workshop Relay :12 / Loom source-provenance recovery",
-  "requested_at": "2026-10-30T20:17:14Z",
+  "request_id": "enheduanna-page-one-origin-20261031-0100",
+  "requester": "Workshop Relay :00 / Enheduanna source-layer and geometry-fidelity recovery",
+  "requested_at": "2026-10-31T01:00:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:SAT_O*.pdf OR path:*SAT*O*Core*Modules* OR name:*Blockwave* OR path:*Blockwave* OR name:*WHIRLIGIG* OR path:*WHIRLIGIG*) OR (author:user AND ((\"worldline\" NEAR/12 \"timesheet\") OR (\"time wavefront\" NEAR/12 filament) OR (filament NEAR/12 \"time surface\") OR (\"SAT-O\" OR SAT_O OR Blockwave OR SATO))) OR (author:assistant AND ((Blockwave NEAR/12 Lagrangian) OR (SAT20 NEAR/12 filament) OR (\"unified action\" NEAR/12 timesheet)))",
-  "purpose": "Recover a sizeable interrelated set of original SAT-O and Blockwave mathematical materials, including module PDFs and text derivations, while tracing exact repository path, blob SHA, source commit, raw conversation/message UUID, timestamp and speaker. Separate Nathan-authored geometric statements, user-role pasted material, assistant/NotebookLM equations, and later project summaries. Identify PDF/text duplicate or derivative relations and note whether module PDFs contain readable text or require visual/OCR review. Discovery only: no theory promotion, no new mathematical derivation, no data-free calculation, no publication claim.",
+  "query": "\"The full Scalar-Angular-Torsion\" OR \"conserved three-form current\" OR \"The Time-Flow Elasticity Block\" OR \"Filament Spectrum Block\" OR \"Page One: SAT\"",
+  "purpose": "Trace the source genealogy of the 12,777-character user-role pasted document titled Page One: SAT – Ontology and Unified Action in raw conversation 699e4a02-26e4-832a-86ea-ad1dcaf3c4e3, message 15338421-a5e7-4538-879a-d25d840d2bdd (2026-02-25T01:12:37.975Z). Determine whether its exact distinctive prose/equations occur earlier in an assistant message, source document, or another conversation; preserve author role, raw message UUID, timestamp, repository/path/blob SHA, and surrounding context. Distinguish the outer user-role paste from embedded document authorship. Specifically trace the first occurrence and version history of the three-form J_{μνρ} action and the alternate two-form J^{μν} action. Discovery only; do not attribute the pasted text to Nathan, do not promote theory, do not calculate physical predictions, and do not treat lexical matches as source authorship.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original SAT-O/Blockwave source paths, exact blob SHAs and repository commits",
-    "raw conversation UUID/message UUID/timestamp/role plus surrounding context where available",
-    "duplicate, prefix, source, PDF/text, and derivative relationships",
-    "coverage, exclusions, file-extension/size limits, and omissions"
+    "exact candidate paths, blob SHAs, raw conversation/message IDs, roles and timestamps",
+    "first-extant versus first-public distinctions where evidence exists",
+    "duplicate/derivative/version relationships and explicit negative-search limits",
+    "three-root coverage, exclusions, extension/size limits and omitted sources"
   ],
   "exclusions": [
-    "Reuse only lane 3 after verifying its previous request-scoped manifest and receipt; do not overwrite another pending/running lane",
+    "Do not overwrite a pending/running lane",
+    "Do not treat user-role pasted text as proof of Nathan authorship",
+    "Do not treat assistant-generated equations as Nathan Direct",
     "Do not publish raw source excerpts or private HSH_RESOURCES paths",
-    "Do not treat user-role pasted assistant text as Nathan-authored equations",
-    "Do not treat assistant-generated action/field equations as Nathan Direct without source evidence",
-    "Do not treat compact receipts as exhaustive search results",
-    "Do not create software, branches, PRs, automations, or recurrence",
-    "Do not modify BEDROCK, promote theory, or execute data-free mathematics"
+    "Do not enter QUARANTINE or PRIOR_ART",
+    "Do not create software, branches, PRs or automations",
+    "Do not perform data-free physical calculations or theory promotion"
   ],
+  "lane": 3,
   "status": "requested"
 }
