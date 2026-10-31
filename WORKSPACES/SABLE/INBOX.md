@@ -228,3 +228,9 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Optional addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_01.md`.
 - Clarifies exact PR #850 finite-pattern/Kish CI scope; no task assignment or ownership transfer.
+
+
+## 2026-10-31T1348Z | Orson receipt hash amendment
+
+- Exact preflight and artifact hashes are corrected in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1348Z_s4_orson_vay_AMENDMENT_01.md`.
+- Primary receipt remains unchanged; amendment is authoritative for source and artifact blob identities.
