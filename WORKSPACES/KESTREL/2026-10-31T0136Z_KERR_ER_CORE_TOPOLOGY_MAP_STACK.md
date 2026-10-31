@@ -205,3 +205,16 @@ The first test has the strongest direct limiting constraint: the Newtonian morph
 - Next useful source step: verify the lane-3 Mersearch manifest/receipt before making any first-origin claim about Page One. Then resolve (\Phi_{\rm nest/core}) from the direct one-structure / block-static statements, keeping Kerr/ER local geometry, Klein-Fabric global topology, (\theta_4), and the timesheet readout separate. Do not reinstate the retired reciprocal deformation model.
 
 **No physical calculation, data-free proof, new Lean run, BEDROCK amendment, theory promotion, manuscript edit, new PR, new issue, task mutation, sixth task, signet, or cross-thread delivery was performed.**
+
+
+## Post-run source and Mersearch correction (2026-10-31T02Z)
+
+The Mersearch lane-3 request `enheduanna-page-one-origin-20261031-0100` completed after the initial note was written. The earlier statement that no manifest/receipt existed is a time-of-check snapshot and is superseded. Completion time: 2026-10-31T01:50:03.165Z. The compact receipt reports 1,585 hits across 15,780 files, 20,828,714 indexed records and 298 distinct source paths. It contains 20 selected sources only; raw results were retained in the Actions job workspace and are not present in the repository. This is a navigation result, not an exhaustive chronology or first-origin proof.
+
+The earlier “J2 assistant-authored” shorthand needs finer provenance. A 2025-09-16 assistant response in conversation `68c990dd-df28-832e-b766-c267190aaffa` cites a project file named `🧱BLOCKWAVE.txt` (legacy file ID `file-LwaFTKkMemPPrLU4qCLpYB`, source `my_files`) and quotes a (J^{\\mu\\nu}) current. The original project-file bytes and metadata are not accessible. A later archive copy at `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt` is demonstrably a copy of an assistant-authored 2025-10-19 response, not an independent Nathan derivation. It is not established that the September project file and October archive copy are byte-identical.
+
+The Page One (J_{\\mu\\nu\\rho}) document is an unattributed embedded artifact in the 2026-02-25 user-role paste. The July 2026 “Pants Shitter 2” file-search result returns the same first 3,835 characters, but is a later tool retrieval, not the original file. No original file ID, author or bytes were recovered.
+
+The SAT-O (J_\\mu(x)) effective filament-flux current, the Blockwave (J^{\\mu\\nu}) two-form, and the Page One (J_{\\mu\\nu\\rho}) three-form are distinct source objects. The current-rank issue is now treated as a support/type-map problem, not a canonical Nathan Direct contradiction. A conditional Poincaré-dual degree table and the (W^4/\\partial W^4/\\Sigma_t^3) mouth/shell/ring intersection stack are recorded in the companion equation-provenance addendum. No Hodge conversion or corrected current equation is adopted.
+
+Companion addendum: `WORKSPACES/KESTREL/2026-10-31T0136Z_EQUATION_PROVENANCE_AND_CURRENT_TYPE_MAP.md` (blob `3ae62b47c4bf409dcad2c8d7701bbd3ebfad6b8d`, exact readback verified). It records the exact SAT-O and Blockwave archive file hashes and dates, with missing source metadata explicitly marked.
