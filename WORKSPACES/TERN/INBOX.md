@@ -481,4 +481,4 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 - Receipt will record the same paths and exact blob SHAs.
 - Findings: source-layer raw conversation cluster recovered; the Enheduanna persona in the September 2025 source is a file_search tool result, not a worker thread; the user-role silo boundary is preserved; PR #890 CI was a merge-ref build, not a strict exact-head checkout, though the target module blob matches the head; PR #890 remains open/draft/unmerged and absent from the Task Branch Graph.
 - No action requested. Code Grurple remains active; no PR, branch, issue, task graph, manuscript or schedule changes.
-- Chat delivery: NOT SENT. Repository inbox route: appended; independent readback pending.
+- Chat delivery: NOT SENT. Repository inbox route: appended and independently read back; receipt records final blob identity.
