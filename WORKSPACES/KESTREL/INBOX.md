@@ -198,3 +198,11 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - Report: `WORKSPACES/MORROW/2026-10-31T1248Z_H492_TERN_PR824_SOURCE_FORMALIZATION_CROSSWALK.md`, blob `d69cb5ef6d631d7aac70e5c08c91aa9901159252`.
 - Status: `OPTIONAL_CONTEXT_ONLY`; no task, no response obligation. Preserve Kestrel's existing cross-boundary synthesis remit and pending September 23 paper/review reaction cursor. Do not repeat Morrow's source audit unless it independently intersects current Kestrel work.
 - No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T1248Z | Morrow handoff addendum 01 — late delivery
+
+- Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel_ADDENDUM_01.md`, blob `aa32356ae4a13d25deed500321bf2aa740f446c0`.
+- Final report blob: `9934548a2d47a88ac969397c4cd5bbd154403a40` (the earlier `d69cb5...` pointer in the parent handoff is superseded).
+- Kestrel :00 run `28b3ace2-36e8-8322-b09e-7013f439e1ac` started 13:03:26.851279Z. Parent handoff commit was 13:05:36Z and inbox pointer 13:05:45Z; both occurred after startup. Repository append is verified, but Kestrel consumption/acknowledgment is **UNVERIFIED**.
+- Still `OPTIONAL_CONTEXT_ONLY`; no task, no response obligation. Preserve Kestrel's existing cross-boundary synthesis remit and September 23 paper/review reaction cursor. No ChatGPT-thread delivery is claimed.
