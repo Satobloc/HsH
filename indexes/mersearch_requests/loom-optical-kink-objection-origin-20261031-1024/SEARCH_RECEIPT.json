@@ -1,0 +1,519 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "baa9338df932871db3b3ea49242d6c81b06918e65493116756101503dc3b9937",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-31T11:31:08.004331+00:00",
+  "query": "(author:user AND (\"This keeps coming up, and it has to be wrong\" OR \"orders of magnitude off\" OR \"laboratory optics\" OR \"Optical Kink\" OR \"0.246 rad\")) OR (author:assistant AND (\"Optical Kink\" OR \"0.246 rad\" OR \"dimming hypothesis\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 15912,
+    "records_scanned": 20840438,
+    "hits": 1633
+  },
+  "counted_hits": 1633,
+  "distinct_sources": 177,
+  "results_by_root": {
+    "archive": 357,
+    "hsh-main": 1218,
+    "resources": 58
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "0.246 rad",
+      1470
+    ],
+    [
+      "author:assistant",
+      1012
+    ],
+    [
+      "author:user",
+      563
+    ],
+    [
+      "Optical Kink",
+      220
+    ],
+    [
+      "laboratory optics",
+      18
+    ],
+    [
+      "orders of magnitude off",
+      14
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.01•26.09.12•[A] Scaling Postulates Testing — raw.json",
+      "title": "[A] Scaling Postulates Testing",
+      "record_count": 28,
+      "best_score": 93,
+      "first_hit_index": 215,
+      "sample_hit_index": 255,
+      "locator": "message:73dc48e2-d062-4af4-9ac0-c64b414a5965",
+      "matched_terms": [
+        "orders of magnitude off",
+        "Optical Kink",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
+      "title": "Scaling Postulates Testing",
+      "record_count": 28,
+      "best_score": 93,
+      "first_hit_index": 216,
+      "sample_hit_index": 256,
+      "locator": "message:73dc48e2-d062-4af4-9ac0-c64b414a5965",
+      "matched_terms": [
+        "orders of magnitude off",
+        "Optical Kink",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "title": "Scaling Postulates Testing",
+      "record_count": 28,
+      "best_score": 93,
+      "first_hit_index": 217,
+      "sample_hit_index": 257,
+      "locator": "message:73dc48e2-d062-4af4-9ac0-c64b414a5965",
+      "matched_terms": [
+        "orders of magnitude off",
+        "Optical Kink",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "title": "Scaling Postulates Testing",
+      "record_count": 28,
+      "best_score": 93,
+      "first_hit_index": 218,
+      "sample_hit_index": 258,
+      "locator": "message:73dc48e2-d062-4af4-9ac0-c64b414a5965",
+      "matched_terms": [
+        "orders of magnitude off",
+        "Optical Kink",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Theory of Everything Review — raw.json",
+      "title": "Theory of Everything Review",
+      "record_count": 15,
+      "best_score": 85,
+      "first_hit_index": 1087,
+      "sample_hit_index": 1087,
+      "locator": "message:8612648e-e3bd-4404-a3cf-43efdf2a48df",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off",
+        "0.246 rad"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.04.13•26.06.11•Theory of Everything Review — raw.json",
+      "title": "Theory of Everything Review",
+      "record_count": 15,
+      "best_score": 85,
+      "first_hit_index": 1088,
+      "sample_hit_index": 1088,
+      "locator": "message:8612648e-e3bd-4404-a3cf-43efdf2a48df",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off",
+        "0.246 rad"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/6OCT26_BIG_HAUL/26.03.21•26.08.22•Geometric Foundations Evaluation — raw.json",
+      "title": "Geometric Foundations Evaluation",
+      "record_count": 5,
+      "best_score": 85,
+      "first_hit_index": 921,
+      "sample_hit_index": 1506,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off",
+        "0.246 rad"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.21•26.08.22•[A] Geometric Foundations Evaluation — raw.json",
+      "title": "[A] Geometric Foundations Evaluation",
+      "record_count": 5,
+      "best_score": 85,
+      "first_hit_index": 922,
+      "sample_hit_index": 1507,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off",
+        "0.246 rad"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.02.24•26.09.12•[A] Casual Check-in — raw.json",
+      "title": "[A] Casual Check-in",
+      "record_count": 8,
+      "best_score": 84,
+      "first_hit_index": 135,
+      "sample_hit_index": 141,
+      "locator": "message:e30383b0-c8b5-4cb0-bbd9-99398175649c",
+      "matched_terms": [
+        "laboratory optics",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "title": "Casual Check-in",
+      "record_count": 8,
+      "best_score": 84,
+      "first_hit_index": 136,
+      "sample_hit_index": 142,
+      "locator": "message:e30383b0-c8b5-4cb0-bbd9-99398175649c",
+      "matched_terms": [
+        "laboratory optics",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "title": "Casual Check-in",
+      "record_count": 8,
+      "best_score": 84,
+      "first_hit_index": 137,
+      "sample_hit_index": 143,
+      "locator": "message:e30383b0-c8b5-4cb0-bbd9-99398175649c",
+      "matched_terms": [
+        "laboratory optics",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.02•26.09.12•[A] Testing a Theory of Everything — raw.json",
+      "title": "[A] Testing a Theory of Everything",
+      "record_count": 24,
+      "best_score": 79,
+      "first_hit_index": 345,
+      "sample_hit_index": 357,
+      "locator": "message:9632f4c3-4f46-4186-993b-29405eb13439",
+      "matched_terms": [
+        "Optical Kink",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
+      "title": "Testing a Theory of Everything",
+      "record_count": 24,
+      "best_score": 79,
+      "first_hit_index": 346,
+      "sample_hit_index": 358,
+      "locator": "message:9632f4c3-4f46-4186-993b-29405eb13439",
+      "matched_terms": [
+        "Optical Kink",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 17,
+      "best_score": 79,
+      "first_hit_index": 1295,
+      "sample_hit_index": 1375,
+      "locator": "message:8c4adf49-7cfd-46c3-9c4a-53c1ef43bf90",
+      "matched_terms": [
+        "author:user",
+        "laboratory optics",
+        "0.246 rad"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Podcast Transcript Summary — raw.json",
+      "title": "Podcast Transcript Summary",
+      "record_count": 8,
+      "best_score": 79,
+      "first_hit_index": 1159,
+      "sample_hit_index": 1159,
+      "locator": "message:542e90db-ce61-41de-ab92-81d4a2887789",
+      "matched_terms": [
+        "Optical Kink",
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 7,
+      "best_score": 61,
+      "first_hit_index": 470,
+      "sample_hit_index": 470,
+      "locator": "message:a02dd3cb-d6a3-47cb-827b-ec5ad996f6f9",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 1,
+      "best_score": 61,
+      "first_hit_index": 81,
+      "sample_hit_index": 81,
+      "locator": "message:47f2f5e7-0f6c-4f91-9171-a1a11ed8522c",
+      "matched_terms": [
+        "author:user",
+        "orders of magnitude off"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 14,
+      "best_score": 55,
+      "first_hit_index": 33,
+      "sample_hit_index": 42,
+      "locator": "message:8651554e-dbf0-4519-89e5-f31f76e65cb2",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 6,
+      "best_score": 55,
+      "first_hit_index": 196,
+      "sample_hit_index": 208,
+      "locator": "message:15c3bf7f-a50e-4393-88ed-e6f24b71b46f",
+      "matched_terms": [
+        "author:user",
+        "laboratory optics"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 86,
+      "best_score": 52,
+      "first_hit_index": 598,
+      "sample_hit_index": 600,
+      "locator": "message:0a125d48-f1dd-42e9-9c8c-9a53d59e45df",
+      "matched_terms": [
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physics Theory Sandbox — raw.json",
+      "title": "Physics Theory Sandbox",
+      "record_count": 37,
+      "best_score": 52,
+      "first_hit_index": 484,
+      "sample_hit_index": 486,
+      "locator": "message:89de2645-3dfb-4718-b2ca-3b97ee451efa",
+      "matched_terms": [
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Framework Evaluation — raw.json",
+      "title": "SAT Framework Evaluation",
+      "record_count": 36,
+      "best_score": 52,
+      "first_hit_index": 614,
+      "sample_hit_index": 622,
+      "locator": "message:8aaa4f29-5e31-47ab-bb9b-592dfdf798ad",
+      "matched_terms": [
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Scientific Paper Review — raw.json",
+      "title": "Scientific Paper Review",
+      "record_count": 25,
+      "best_score": 52,
+      "first_hit_index": 840,
+      "sample_hit_index": 842,
+      "locator": "message:a7f08343-b7d6-45d7-aad8-1996c5d9b9ba",
+      "matched_terms": [
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 24,
+      "best_score": 52,
+      "first_hit_index": 1403,
+      "sample_hit_index": 1403,
+      "locator": "message:1140233e-0356-4cd3-bb55-6fd982f96985",
+      "matched_terms": [
+        "0.246 rad",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:da629e5a-98bc-4880-8b09-f8ca4b7bac97",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "locator": "message:ef07d7fb-ab0a-4c76-9dd8-2e59a4f3590f",
+      "matched_terms": [
+        "author:user",
+        "Optical Kink"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "locator": "message:ef07d7fb-ab0a-4c76-9dd8-2e59a4f3590f",
+      "matched_terms": [
+        "author:user",
+        "Optical Kink"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "locator": "message:d47770c6-5e18-4115-ac84-65d458a10475",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "locator": "message:d47770c6-5e18-4115-ac84-65d458a10475",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:7cabcc99-1df2-4d96-a7e8-b5e6a7ec7fae",
+      "matched_terms": [
+        "Optical Kink",
+        "author:assistant"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
