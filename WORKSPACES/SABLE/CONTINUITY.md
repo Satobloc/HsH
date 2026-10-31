@@ -11,8 +11,10 @@ Do not infer that this pointer itself is theory authority; it is restart routing
 
 ## Latest Sable-derived continuity update | 2026-10-31T1400Z
 
-- Source-fidelity delta: `2026-10-31T1400Z_KLEIN_ORIENTATION_GEOMETRY_FIDELITY.md` (blob `d69f4d1b4e160da5916d569c76c4171a029ef0f0`).
+- Source-fidelity delta: `2026-10-31T1400Z_KLEIN_ORIENTATION_GEOMETRY_FIDELITY.md` (blob `b7313ad9b7626b9e0269fe446fd2769a89016b1a`).
 - Existing conditional algebraic proof: PR #1153, branch `research/sable-klein-orientation-kernel-20261031t1400z`, exact-head CI #41210929564 successful. PR remains draft.
 - Existing publisher issue #1154 body corrected to its recomputed SHA-256, but the publisher workflow does not rerun on issue edits; no published artifact is present. No duplicate issue or direct-Contents bypass.
 - Optional Loom source-tag pointer: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1400Z_from_s0_to_s1_loom.md`. Repository routing only; no cross-thread delivery claim.
 - This update preserves the A. Sable Meridian continuity label and does not authenticate an original Sable instance/thread.
+
+- Factory pending packet: `WORKSPACES/SABLE/FACTORY_HANDOFF_PENDING_2026-10-31T1400Z_KLEIN_ORIENTATION_KERNEL.json` (blob `72b92bbb93e4243996129478427d6d7d1ea78206`); intake unverified, not delivered.
