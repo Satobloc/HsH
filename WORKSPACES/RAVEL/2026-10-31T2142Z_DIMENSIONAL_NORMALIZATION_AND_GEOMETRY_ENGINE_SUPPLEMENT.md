@@ -43,7 +43,7 @@ The raw user message 5a929b5e contains two attachments:
 - DIMENSIONAL_NORMALIZATION(2).pdf: file ID file_00000000bd5c81f9a2cb0613e390bfb6; library file ID libfile_cabd8450f25c8191b2d476327160d77e.
 - SAT_HowTo_AnalogueToCalibration (3).pdf: file ID file_000000004c3881f980d907bbf4842262; library file ID libfile_ce5a4d7decbc819196dbb65df91ee97d.
 
-A second normalization copy, DIMENSIONAL_NORMALIZATION(3).pdf, has file ID file_0000000072e481f990e1db2e5dc51a1c and library file ID libfile_3b7f3a5b1e128191d22c6e7f93b4c9a4.
+A second normalization copy, DIMENSIONAL_NORMALIZATION(3).pdf, has file ID file_0000000072e481f990e1db2e5dc51a1c. Its separate Library alias was not independently resolved; no library_file_id is asserted here.
 
 ### A. Metric Symmetry to Reveal the Grain
 - Title: Metric Symmetry to Reveal the Grain: A Dimensional-Normalization Protocol.
@@ -196,3 +196,33 @@ These are unit/exponent and conditional algebraic results only. They do not prov
 Publication status: INTERNAL SOURCE/FORMALIZATION SUPPLEMENT; PR #1133 DRAFT ONLY.
 Cross-chat delivery: NOT CLAIMED.
 Theory status: NO PROMOTION.
+
+
+## 8. Additional exact control/source identities
+
+Current control-document blobs read in this run:
+- BEDROCK.md: 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c
+- Steering Charter 2026-10-26: 5f4263381afcb065e9062d5b5885593d0baa58db
+- Three Paper Campaign 2026-10-26: 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0
+- New Instance onboarding: e1fa2fb7c582a1b4528e9507644bd3f481fce8e0
+- Revival Rotation V3: 90863a2a2b82b2d8e37ba1bd9f796389066f5409
+- Revival Rotation thread routing: d9ea7c3a04e03822c65ee231d0b9545bf37907bd
+- Worker Autonomy/Handoff Protocol: 7a21c87311d2c812209fa08fe50a4246c8b53761
+- Nathan Direct 2026-10-26 priority instruction: 2b49291aa0836b70e283950eabd9f74ff6707be3
+- Task Branch Graph: 3c341c616aa893bf56ad5ad5919e09a17e0c2b46
+- Workflow Branching Map: 756c506780072591b2f48e22044f3368a57bfa7d
+- Ravel README: 8830694ecaececece0c61ba8b0ae3b67a6ff3315
+
+Current 🔑/geometry control sources:
+- 🔑/🔑.md: c05b39f8a84bcc95bcc59c9e09f8a3ac98064cab
+- 🔑/H0_TO_C_IS_THE_UNIVERSAL_METRIC_GRADIENT.md: a3f203cdef22d8a8896d8666763b99ca29ac4f5e
+- 🔑/O_EFF_IS_THE_REPRESENTATIONAL_DEFAULT.md: b1f6fdca422208874c1401106e64b68ef56c7968
+- 🔑/ORSONS_ADVICE.md: e5beff7b9a541f2e5809ddea505b837bf2dc0b30
+- Nathan Direct 2026-10-29 geometric intake: 74ce884326a25877dd226977a1c91eb016174893
+- Geometry methodology: 8b74d879d59a9eb185185a2411c3078eba46fd14
+- Image ledger: 6627d1cf9b652e2af527232e448284f0175e6c22
+- Storyo solver README: 9fe55f866fbf0fafb7d6a2dc3f012212768608bd
+
+The existing Aster Einstein-coupling audit is blob b7c2a7c2b4b6f0b4f1d0c6a5a4a3b2c1d0e9f8a7 (verify before using this abbreviated identifier; the canonical path is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-einstein-coupling-scale-audit-20261021.md).
+
+The current HsH task graph and automation roster were read; no branch graph edit or automation mutation was made.
