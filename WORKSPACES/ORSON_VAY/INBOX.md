@@ -182,3 +182,11 @@ No new LLM trial, no human semantic adjudication, no physical calculation, no th
 - Existing Orson LLM Cognition Lab thread was sought first; no authenticated current conversation ID or usable live thread. Repository-only work, no cross-thread delivery claim.
 - FIE last reviewed 2026-10-27, not due. Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1481-1520; next cursor 1521.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0224Z_s2_orson_vay.md. Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0224Z_from_s2_to_s0_sable.md.
+
+
+## 2026-10-31T0235Z | VEY-018 publication readback
+
+- Publisher issue #1132 / run #41160578129 completed SUCCESS.
+- Expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-human-group-replay-crosswalk-20261031t0224z-s2-001.md independently fetched; SHA-256 5bf34771a6213ebb6ec41defd484425f53e5e001bec3d170160295db215f51a0 exactly matches the submission. Status PUBLISHED_VERIFIED.
+- Publisher commit 25744e4444a4241c59910c3f95a67265e41af984; blob 661ce71d769ad1dda3c36f3b03a7d45881d2dc4b.
+- P1 issue #564 follow-up comment #6537870008 records the verified publication. Exact-head Lean CI #41160309297 still IN_PROGRESS; no compile success claimed.
