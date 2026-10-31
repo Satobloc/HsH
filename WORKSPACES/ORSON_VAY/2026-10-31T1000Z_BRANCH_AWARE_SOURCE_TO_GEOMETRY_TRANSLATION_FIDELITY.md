@@ -171,7 +171,7 @@ If the finite band is intended to generate the observed 3D particle, the require
 | Representation | A distinct view or description of the same proposed geometry. | Gauge equivalence or a proven isomorphism. |
 | Gauge | Use only after specifying a transformation group/action and equivalence relation. | A synonym for “representation”. |
 | Minkowski diagram | The direct source's reduced 3D diagrammatic representation, with one displayed dimension being time. | Proof that the native 4D carrier has a Lorentzian metric. |
-| Full 4D bulk | Nathan's direct description of the complete four-dimensional geometry with dynamics. | The assistant's `B^4) notation as an authenticated definition. |
+| Full 4D bulk | Nathan's direct description of the complete four-dimensional geometry with dynamics. | The assistant's `B^4` notation as an authenticated definition. |
 | Timesheet `Sigma_t` | Candidate exact 3D level set `tau^{-1}(t)`, when `tau` is a regular scalar map. | A positive-thickness interval preimage. |
 | Timeslab `DeltaSigma_{t,h}` | Candidate finite band `tau^{-1}([t-h/2,t+h/2])`; 4D interior for positive thickness under regularity. | A 3D hypersurface. |
 | Worldtube `W` | Must be typed as full 4D core region, 3D boundary, or another carrier before intersection claims. | A dimensionless label that can change meaning between equations. |
@@ -197,20 +197,18 @@ If the finite band is intended to generate the observed 3D particle, the require
 | D6 | Tentative induction-current idea upgraded to exact intersection/readout equations and “instantaneous particle”. | Map and carrier types missing. |
 | D7 | Positive-thickness interval preimage labelled a 3D hypersurface. | Dimension/type mismatch for positive thickness. |
 | D8 | Full Kerr spacetime versus spatial Kerr section. | Direct source explicitly requires the spatial section before extension. |
-| D9 | (D_0) scale originated in assistant message 10abe1d8 and was later adopted by the user. | Preserve proposal/adoption distinction; not a measurement. |
+| D9 | `D_0` scale originated in assistant message 10abe1d8 and was later adopted by the user. | Preserve proposal/adoption distinction; not a measurement. |
 | D10 | HsH and SAT archive copies of H(s)H MANIFOLDS. | Byte-identical duplicate, not two witnesses. |
 | D11 | Ravel and Morrow reports analyze the same synthesis. | Separate analyses, shared source. |
 | D12 | H(s)H MANIFOLDS author/role provenance. | Unauthenticated; retain as historical synthesis. |
 
 ## 5. The later timeslab synthesis and dimensional typing
 
-The unattributed historical synthesis `H(s)H MANIFOLDS.txt`, internal date label 2026-07-04, contains:
+The unattributed historical synthesis `H(s)H MANIFOLDS.txt`, internal date label 2026-07-04, contains the interval-preimage definition:
 
-[
-\Sigma_t^{(h)}
-=
-\{x\in\mathbb E_{\exp}:|\tau(x)-t|\le h_\Sigma/2\}
-\]
+```text
+Sigma_t^(h) = { x in E_exp : |tau(x)-t| <= h_Sigma/2 }
+```
 
 and labels it a “3D projection hypersurface”.
 
