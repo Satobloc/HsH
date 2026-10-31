@@ -2,6 +2,8 @@ import Mathlib
 
 namespace HsHVerification
 
+noncomputable section
+
 /-!
 Conditional numerical check of the healing length for the 23Na experiment in
 Seo et al. (2017), Scientific Reports 7, 4587.
