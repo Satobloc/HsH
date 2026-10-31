@@ -1,0 +1,651 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "54a4c8f841de7f24a39f686ec81fd0b9e8fc4a220fbc655ceaeb9768025c595c",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-31T22:05:32.424284+00:00",
+  "query": "(name:*Donut* OR name:*HOLONOMY* OR path:*Donut* OR path:*HOLONOMY*) OR (author:user AND ((SO4 OR \"SO(4)\" OR \"four spatial dimensions\" OR \"++++\") NEAR/18 (holonomy OR \"finite core\" OR \"finite-core\" OR worldtube OR \"rotation expansion\" OR Donut))) OR (author:user AND (\"stacked holonomy\" OR \"rotation expansion\" OR \"rotation-expansion\" OR \"Donut canon\" OR \"HOLONOMY DRAFT\")) OR (author:assistant AND ((SO4 OR \"SO(4)\") NEAR/12 (holonomy OR \"frame connection\" OR \"finite core\")))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16074,
+    "records_scanned": 20853230,
+    "hits": 40815
+  },
+  "counted_hits": 40815,
+  "distinct_sources": 183,
+  "results_by_root": {
+    "archive": 3722,
+    "hsh-main": 7795,
+    "resources": 29298
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*Donut*",
+      6935
+    ],
+    [
+      "name:*Donut*",
+      6302
+    ],
+    [
+      "path:*HOLONOMY*",
+      4249
+    ],
+    [
+      "name:*HOLONOMY*",
+      4249
+    ],
+    [
+      "holonomy",
+      942
+    ],
+    [
+      "SO(4)",
+      344
+    ],
+    [
+      "author:assistant",
+      303
+    ],
+    [
+      "Donut",
+      266
+    ],
+    [
+      "finite-core",
+      242
+    ],
+    [
+      "worldtube",
+      221
+    ],
+    [
+      "author:user",
+      94
+    ],
+    [
+      "stacked holonomy",
+      88
+    ],
+    [
+      "frame connection",
+      41
+    ],
+    [
+      "finite core",
+      37
+    ],
+    [
+      "rotation expansion",
+      12
+    ],
+    [
+      "Donut canon",
+      9
+    ],
+    [
+      "rotation-expansion",
+      9
+    ],
+    [
+      "SO4",
+      9
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 31,
+      "best_score": 118,
+      "first_hit_index": 166,
+      "sample_hit_index": 196,
+      "locator": "message:002bccc5-6103-4cb9-95d2-29a13dedd2e3",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.07.08•26.09.07•SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 31,
+      "best_score": 118,
+      "first_hit_index": 168,
+      "sample_hit_index": 198,
+      "locator": "message:002bccc5-6103-4cb9-95d2-29a13dedd2e3",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/[A] SAT Daily Action — raw.json",
+      "title": "[A] SAT Daily Action",
+      "record_count": 31,
+      "best_score": 118,
+      "first_hit_index": 170,
+      "sample_hit_index": 200,
+      "locator": "message:002bccc5-6103-4cb9-95d2-29a13dedd2e3",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.07.08•26.07.30•SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 14,
+      "best_score": 118,
+      "first_hit_index": 167,
+      "sample_hit_index": 197,
+      "locator": "message:002bccc5-6103-4cb9-95d2-29a13dedd2e3",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/LIVE CONVOS/26.07.08•26.07.30•SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 14,
+      "best_score": 118,
+      "first_hit_index": 169,
+      "sample_hit_index": 199,
+      "locator": "message:002bccc5-6103-4cb9-95d2-29a13dedd2e3",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 2,
+      "best_score": 118,
+      "first_hit_index": 87,
+      "sample_hit_index": 92,
+      "locator": "message:d2ec25c6-95dd-481f-8f02-44383a74c2ae",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•[A] Trends in Geometric Unification — raw.json",
+      "title": "[A] Trends in Geometric Unification",
+      "record_count": 2,
+      "best_score": 118,
+      "first_hit_index": 88,
+      "sample_hit_index": 93,
+      "locator": "message:d2ec25c6-95dd-481f-8f02-44383a74c2ae",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 2,
+      "best_score": 118,
+      "first_hit_index": 89,
+      "sample_hit_index": 94,
+      "locator": "message:d2ec25c6-95dd-481f-8f02-44383a74c2ae",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 2,
+      "best_score": 118,
+      "first_hit_index": 90,
+      "sample_hit_index": 95,
+      "locator": "message:d2ec25c6-95dd-481f-8f02-44383a74c2ae",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite core",
+        "finite-core",
+        "worldtube",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 114,
+      "first_hit_index": 141,
+      "sample_hit_index": 141,
+      "locator": "message:017809fc-2b35-4182-afc4-1d8b70c1dbff",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "Donut",
+        "Donut canon",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 114,
+      "first_hit_index": 142,
+      "sample_hit_index": 142,
+      "locator": "message:017809fc-2b35-4182-afc4-1d8b70c1dbff",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "Donut",
+        "Donut canon",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 114,
+      "first_hit_index": 143,
+      "sample_hit_index": 143,
+      "locator": "message:017809fc-2b35-4182-afc4-1d8b70c1dbff",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "Donut",
+        "Donut canon",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 114,
+      "first_hit_index": 144,
+      "sample_hit_index": 144,
+      "locator": "message:017809fc-2b35-4182-afc4-1d8b70c1dbff",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "Donut",
+        "Donut canon",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 114,
+      "first_hit_index": 145,
+      "sample_hit_index": 145,
+      "locator": "message:017809fc-2b35-4182-afc4-1d8b70c1dbff",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "Donut",
+        "Donut canon",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 1,
+      "best_score": 74,
+      "first_hit_index": 97,
+      "sample_hit_index": 97,
+      "locator": "message:b6393924-8bf5-4bfc-b55a-c577252613d9",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "rotation expansion",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Meridian Free Build — raw.json",
+      "title": "Meridian Free Build",
+      "record_count": 4,
+      "best_score": 64,
+      "first_hit_index": 358,
+      "sample_hit_index": 366,
+      "locator": "message:c71d8749-ce02-4e88-8a3d-c88822482b08",
+      "matched_terms": [
+        "SO(4)",
+        "author:assistant",
+        "frame connection"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 2,
+      "best_score": 52,
+      "first_hit_index": 135,
+      "sample_hit_index": 138,
+      "locator": "message:4ca92b61-8afd-4f9e-889b-fb4cd34c2107",
+      "matched_terms": [
+        "SO(4)",
+        "holonomy",
+        "finite-core",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HOLONOMY DRAFT.txt",
+      "title": "HOLONOMY DRAFT",
+      "record_count": 55,
+      "best_score": 50,
+      "first_hit_index": 1706,
+      "sample_hit_index": 1706,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "holonomy"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/2026/SAT CORE — ReDonut.txt",
+      "title": "SAT CORE — ReDonut",
+      "record_count": 297,
+      "best_score": 49,
+      "first_hit_index": 908,
+      "sample_hit_index": 931,
+      "locator": "line:124",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy",
+        "Donut"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 2/SAT CORE — ReDonut.txt",
+      "title": "SAT CORE — ReDonut",
+      "record_count": 297,
+      "best_score": 49,
+      "first_hit_index": 2262,
+      "sample_hit_index": 2285,
+      "locator": "line:124",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy",
+        "Donut"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 2026 PRE HsH/SAT 2026 WHIRLYGIG — ReDonut.txt",
+      "title": "SAT 2026 WHIRLYGIG — ReDonut",
+      "record_count": 297,
+      "best_score": 49,
+      "first_hit_index": 3061,
+      "sample_hit_index": 3084,
+      "locator": "line:124",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy",
+        "Donut"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/_AUTO_EXTRACTED_TEXT/FINDING THE DONUT (nolat).txt",
+      "title": "FINDING THE DONUT (nolat)",
+      "record_count": 723,
+      "best_score": 44,
+      "first_hit_index": 3358,
+      "sample_hit_index": 4004,
+      "locator": "line:751",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT 2026 PRE HsH/SAT 2026 WHIRLIGIG — Donut canon.txt",
+      "title": "SAT 2026 WHIRLIGIG — Donut canon",
+      "record_count": 502,
+      "best_score": 44,
+      "first_hit_index": 2559,
+      "sample_hit_index": 2611,
+      "locator": "line:179",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/2026/SAT CORE — Donut canon.txt",
+      "title": "SAT CORE — Donut canon",
+      "record_count": 501,
+      "best_score": 44,
+      "first_hit_index": 407,
+      "sample_hit_index": 458,
+      "locator": "line:177",
+      "matched_terms": [
+        "name:*Donut*",
+        "path:*Donut*",
+        "holonomy"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:dc7ea1bb-878e-4916-b525-b8adcb817e4f",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "author:user",
+        "holonomy"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:dc7ea1bb-878e-4916-b525-b8adcb817e4f",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "author:user",
+        "holonomy"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:8d7d2880-a15e-43b8-9dc6-c9d3050bae52",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "holonomy",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:8d7d2880-a15e-43b8-9dc6-c9d3050bae52",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "holonomy",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:60820015-905c-493b-a136-27e38cf6b313",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:60820015-905c-493b-a136-27e38cf6b313",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:800ba7f5-1a3d-4da6-9a20-2283793e90ba",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "holonomy",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "locator": "message:800ba7f5-1a3d-4da6-9a20-2283793e90ba",
+      "matched_terms": [
+        "name:*HOLONOMY*",
+        "path:*HOLONOMY*",
+        "holonomy",
+        "author:assistant"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
