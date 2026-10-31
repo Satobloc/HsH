@@ -301,3 +301,12 @@ No new branch, PR, issue, Lean theorem, physical calculation, theory promotion, 
 - Please monitor Mersearch, verify the receipt/readback, then decide whether one public-safe consolidated issue-publisher submission is ready. No raw excerpts/private-root paths.
 - No authenticated ChatGPT thread was found; this is a repository inbox handoff only, not cross-thread delivery.
 - No branch, PR, task, schedule, automation, signet or chat-name change; no theory promotion.
+
+
+## 2026-10-31 | Comptroller visibility: Hale source recovery
+- Hale execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0412Z_s1_hale.md`.
+- Full report: `WORKSPACES/HALE/2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL.md`.
+- Optional Elias switchboard context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0412Z_from_s1_to_s2_elias_kern.md`.
+- Mersearch reused completed Loom, Alberr and Enheduanna manifests/receipts; no new request or lane overwrite. Raw results remain withheld.
+- New source-integrity findings: same-named Blockwave attachment IDs remain distinct; old SAT.O hash-only `VERIFIED` is not Lean compilation; EQ-0003 synthetic smoke-test bindings are not measurements; Jindo Bridge cable dataset has a unit-mass discrepancy and incomplete uncertainty/independent-ground-truth chain.
+- No physical calculation, new Lean proof, public issue submission, manuscript/site change, or theory promotion. P1/P2/P3 unchanged; Orson cognition/P1 protected.
