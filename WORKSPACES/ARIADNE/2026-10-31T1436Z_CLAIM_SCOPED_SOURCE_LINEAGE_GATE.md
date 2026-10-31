@@ -165,3 +165,13 @@ The current Library bundle re-extraction is now the controlling calculation reco
 The common block is shared content, not proof of causal ancestry. The 122-line READY_ROOM prefix and 164-line KIRK suffix are separate claim scopes; absent primary-origin evidence they remain unresolved. The common block begins with a first-person passage, but the source section has no raw role metadata, so that passage is not authenticated Nathan Direct.
 
 The recovered THE_WHOLE_READY source section has 8,124 Unicode-split lines / 814,717 normalized bytes. It contains the v1.3 instruction guide, a KIRK source-guide summary, a first-person passage without raw role metadata, an assistant-generated four-field response and RileyMind reconstruction. It does not contain the full KIRK_mind or READY_ROOM source text. THE_WHOLE_READY2/3 are shorter NotebookLM output sections, not source copies. The earlier offset-8,252 full-KIRK inclusion statement is withdrawn. The separate READY_ROOM_README is version 1.2.1; the embedded guide is v1.3, with no authenticated chronology or author metadata.
+
+
+## Amendment 05 | 2026-10-31T1531Z
+
+- The data-carrying witness version reached compilation in run #41214178623 but failed at line 148: after dependent case analysis, the goal had reduced to `some witness = some witness`; the proof incorrectly supplied the pre-elimination equality `hd`. The proof is corrected to `rfl`. The failed run's `sorryAx` output is error-recovery after the failed declaration, not source-level `sorry` or proof evidence.
+- Checkout identity audit: run #41214178623 used default `actions/checkout@v4` on a pull_request event. The recorded event GITHUB_SHA was `593eeda3519350d970f9e2a2f306029642d4a6ec`, not the PR head. It was a merge-ref build, not an exact-head build.
+- Verification workflow improvement committed on the existing Ariadne branch: checkout now explicitly uses `${{ github.event.pull_request.head.sha || github.sha }}` and the environment step records both event GITHUB_SHA and `git rev-parse HEAD`. Workflow blob `a4d1fb0d460fe2a0ea85715ad46b0cfc26ed8443`; workflow commit `3e1dd091c7165cde63e302e9609a33a194ff6eb3`.
+- Corrected module proof is `rfl`; module blob `7958942a1dee42bef42926815a96437575540111`; latest branch head `c06f161ecd2572684963759274a5921abf15cf6f`.
+- New run #41214856914 is PENDING. It is the first run after the explicit-head checkout change; exact checkout must still be verified in its log. No compile success or exact-head proof claim yet.
+- Latest branch comparison against main: 57 commits ahead / 5134 behind, diverged and not merge-ready. The current main branch has no FORMAL_VERIFICATION root, lean-toolchain or this Lean workflow; the formalization remains isolated on the existing legacy draft PR.
