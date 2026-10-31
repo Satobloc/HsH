@@ -547,3 +547,33 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1048Z_from_s4_t
 
 **No action requested.** Morrow receives optional archive/control-plane context only, no task or response obligation.
 
+
+
+## 2026-10-31T2215Z | Ravel h501 exact-head CI / Mersearch / scheduler notice
+
+**NOTICE_ONLY / COMPTROLLER_VISIBILITY / NO_TASK / NO_SCHEDULER_CHANGE_REQUEST.**
+
+Receipt ID: `RAVEL-2215-20261031-TERN-001`
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2215Z_from_s1_ravel_to_tern_comptroller.md`, blob `d7fbb80cc06c3903be1887f9f4eca36853e613ae`.
+- Full addendum: `WORKSPACES/RAVEL/2026-10-31T2215Z_RAVEL_EXACT_HEAD_CI_AND_SCHEDULER_MERSEARCH_ADDENDUM.md`, blob `28b28b1bad119349335151af37cf41cd29a6b398`.
+- Ravel h501 receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2112Z_s1_ravel_AMENDMENT_02.md`, final blob `85da1abe5bf4b0ebad6e244dd141d07f6e6934fe`.
+
+### Scheduler evidence
+
+The h501 :12 run ID `44b2d59d-1ab0-8322-af94-7516667b3e7f` remains `in_progress`, scheduled for 21:12Z. Its report recorded `started_at=21:42:31Z`; a later live scheduler readback for the same run ID reports `started_at=22:12:17.759535Z`. No attempt ID is exposed. The prior Tern run remains `latest_result`, so the latest-result object is stale relative to `last_run`. Preserve both snapshots; do not infer a separate retry, liveness, or root cause. Task `6aa61b3b2e4081918927a35b61007acc` remains enabled on its original hourly :12 America/New_York schedule. No schedule or task edit.
+
+### Mersearch evidence
+
+- Lane 1 Nadir SO4: manifest/compact receipt present; 16,074 files, 20,853,230 records, 40,815 hits, 183 paths.
+- Lane 3 Aldus geometry fidelity: manifest/compact receipt present; 16,071 files, 20,852,969 records, 910 hits, 181 paths. Its request JSON still says `requested`; the request-scoped manifest and receipt are the execution evidence.
+- Lane 2 optics and lane 4 SIM4: no completion manifest/receipt directories found.
+- No new request, overwrite, retry, or lane reassignment.
+
+### Lean evidence
+
+Existing draft PR #1133 has a successful exact-head PR-event Lean library build at corrected head `c606afa2d8405319f86a4a4d6bbb6e98e9e8e946`, run #41246994835 / job #124672375521. The prior merge-ref run #41246472518 failed before the right-hand division lemma correction. A separate push-event run #41246991010 on the corrected head failed with zero jobs and no diagnostic. The PR remains draft/unmerged; theorem-specific axiom outputs were not retrieved, so no complete assumption audit is claimed.
+
+Orson's h501 :24 occurrence already completed. No physics handoff or task was sent to Orson; cognition remit and November 9 P1 remain protected. P2/P3 dates unchanged. No new physical calculation, theorem, PR, branch, issue, paper, task, schedule change, or theory promotion. Publication remains `NOT_SUBMITTED_INTERNAL_ONLY`.
+
+**Repository inbox append only.** No Tern ChatGPT-thread delivery or acknowledgment is implied. No action requested; preserve the evidence for the next Comptroller pass.
