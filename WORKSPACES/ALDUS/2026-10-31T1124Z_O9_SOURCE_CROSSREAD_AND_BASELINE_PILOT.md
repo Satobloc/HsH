@@ -1,6 +1,6 @@
 # Aldus Source Cross-Read and Baseline Pilot
 **Run key:** `REVROT3-19-20261011:491:s2`  
-**Disposition:** assistant reconstruction; source cross-read advanced; first two historical cross-reading packets completed post-exposure; Mersearch submitted but not yet verified; no theory or paper-gate promotion.
+**Disposition:** assistant reconstruction; source cross-read advanced; four historical cross-reading packets completed post-exposure; Mersearch submitted but not yet verified; no theory or paper-gate promotion.
 
 ## 1. Authority, identity, and scope
 
@@ -248,4 +248,4 @@ No cross-domain physical equivalence, posterior probability, or theory claim is 
 - No BEDROCK theory promotion, paper-gate advancement, or manuscript/PDF change.
 - FIE rereview is not due; the prior unrelated-reading break remains current.
 
-**Next bounded work:** verify the in-progress Mersearch run and its request-scoped manifest/receipt; then add the confirmed Blockwave message role and verbatim equations to the existing source chronology without treating derivative copies as independent witnesses. Separately, preserve the Aldus four-packet baseline boundary. Do not compare the first two packets or map them onto H(s)H until the remaining packets are complete and the baseline contamination is explicitly adjudicated.
+**Next bounded work:** verify the in-progress Mersearch run and its request-scoped manifest/receipt; then add the confirmed Blockwave message role and verbatim equations to the existing source chronology without treating derivative copies as independent witnesses. Separately, obtain Janus method review of the completed four-packet pilot and adjudicate the post-exposure contamination. Do not introduce direct SAT analogies or compare with other worker instances until that review is complete; a pristine baseline would require a fresh isolated context.
