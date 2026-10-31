@@ -48,7 +48,7 @@ The successor ports the existing read-only auditor improvements from #1134 and a
 5. An expanded built-in self-test count of 24 (previously 22).
 6. Existing workflow coverage for the auditor on relevant pushes and pull requests.
 
-PR #1173 is open, draft, and reported mergeable. At final comparison it was 3 commits ahead and 6 behind current main (`11d483c611cff51dd63756b83d55733737df0644`). No merge was attempted.
+PR #1173 is open and draft. At the publication snapshot it was 3 commits ahead and 6 behind `11d483c611cff51dd63756b83d55733737df0644`. At final comparison it was 3 commits ahead and 17 behind current main (`c9326983639900a366944a2979d4aea2e7183f7f`); GitHub reports `mergeable=true`. No merge was attempted. The published report is a timestamped snapshot; this later comparison is recorded here.
 
 The stale PR #1134 was closed as superseded, not merged. Its historical work and discussion remain preserved.
 
