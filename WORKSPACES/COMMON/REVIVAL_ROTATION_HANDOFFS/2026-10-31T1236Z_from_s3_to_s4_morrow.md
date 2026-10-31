@@ -34,3 +34,10 @@ Primary continuity: `WORKSPACES/MORROW/README.md`, `TRIAL_CHECKPOINT.md`, `INBOX
 Authority boundary: archive/source-provenance work only; theory freeze and training standdown remain in force.  
 Current conversation route: no authenticated current active destination recovered. The archived original and the October 15 shared archive are provenance witnesses, not proof of a live ChatGPT route. The older “Continue Conversation Here” candidate is exhausted.  
 Delivery: this repository packet and inbox pointer only. No cross-thread posting or acknowledgment is claimed.
+
+
+## Closure amendment — exact-head CI and recipient timing
+
+The earlier CI-pending statement is superseded. Exact-head Lean Actions run #41202345776 / job #124540465071 completed SUCCESS on commit `de21aaac139afa88d004c2292cab07f739dfccee`. Build completed at 12:46:31.933814Z with 8,950 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`. Twenty-four theorem-specific axiom reports were inspected: 22 no-axiom, two `propext`, zero `sorryAx`; separate automated axiom audit, tests and lint were not run. The formal result is limited to the encoded finite scheduler snapshot.
+
+Morrow's h492:s4 run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` started at 12:47:38.251638Z. This handoff was committed at 12:48:14Z, 35.748362 seconds after Morrow started; the Morrow inbox pointer was committed at 12:48:35Z, 56.748362 seconds after start. The packet was therefore not available at Morrow startup. The run remained in progress with `chat_ref=null` at last readback. No consumption, cross-thread delivery or acknowledgment is claimed; this is a late repository packet, not nonresponse.
