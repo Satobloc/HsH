@@ -7,6 +7,12 @@ on:
       - tools/archive_math_hopper.py
       - tools/mersearch_math_structural.py
       - tools/audit_revival_rotation_v3.py
+  pull_request:
+    paths:
+      - .github/workflows/archive-math-hopper-smoke.yml
+      - tools/archive_math_hopper.py
+      - tools/mersearch_math_structural.py
+      - tools/audit_revival_rotation_v3.py
   workflow_dispatch:
 
 permissions:
