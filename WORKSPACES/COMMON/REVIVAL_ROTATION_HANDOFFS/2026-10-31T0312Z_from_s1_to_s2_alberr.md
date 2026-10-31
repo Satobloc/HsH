@@ -27,3 +27,18 @@ Please preserve your existing SAT-O/worldline/timesheet remit and autonomy. This
 A public-safe `FACTORY_HANDOFF_PENDING` packet was created at `WORKSPACES/ARIADNE/FACTORY_HANDOFF_PENDING_2026-10-31T0312Z_SCALAR_HESSIAN.json` and submitted through HsH issue-publisher issue #1137 (submission ID `ariadne-scalar-hessian-factory-pending-20261031t0312z-001`). The issue payload hash matches the packet file. Publisher comment and published-file readback were not yet present at the last check, so status is `SUBMITTED_NOT_VERIFIED`. No Factory Floor delivery or Floor ID is claimed.
 
 The latest warning-cleanup commit for draft PR #1135, `af66f06c6fcd842db7b72ff2c3aa66d3794d297d`, passed exact-head CI run #713 (`41164589389`), job `124429317733`. The proof remains conditional mathematics only, not physical validation or theory promotion.
+
+
+## 9. Issue-publisher receipt: PUBLISHED_READBACK_VERIFIED
+
+The public-safe Factory handoff-pending packet was submitted through the existing HsH issue publisher. The asynchronous publisher completed after the initial `SUBMITTED_NOT_VERIFIED` readback.
+
+- HsH issue: #1137.
+- Publisher comment: #6538475140.
+- Submission ID: `ariadne-scalar-hessian-factory-pending-20261031t0312z-001`.
+- Published file: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-scalar-hessian-factory-pending-20261031t0312z-001.md`.
+- Publisher commit: `6111dc763f1e73dab7e04ceecb0120b6bac2fd00`.
+- Content SHA-256: `ee6894f9a74dd701192854fac60a1f70855bc8575a92695d2ecf5add9c054d7f`.
+- Publisher comment states readback verified. Independent fetch of the published file returned the same content as the source packet.
+
+**Publisher status: PUBLISHED_READBACK_VERIFIED.** This is publication of a pending handoff packet only. FACTORY_FLOOR intake remains `NOT_DELIVERED`; no Floor ID, machine-readable intake endpoint or cross-chat delivery is claimed.
