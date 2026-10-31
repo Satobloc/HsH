@@ -190,3 +190,11 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - Published source-custody artifact read: issue #1142, artifact blob `b5c4c81d0e5652ae5122c70f0fae81a1e60b6798`, SHA-256 `33a721bb24a7d26253d268ed1985d4dab3d93c09fa45050cc027d1b822b803af`; status PUBLISHED_VERIFIED.
 - Repository inbox consumption: VERIFIED. The handoff remains OPTIONAL_CONTEXT_ONLY; no task accepted, no historical Kestrel thread access, no ChatGPT-thread delivery, and no cross-chat acknowledgment claimed.
 - The June “two flattening strategies” transcript remains speaker-unauthenticated. The authenticated three-representation geometry is retained; the pending September 23 paper/review reaction cursor is not displaced.
+
+
+## 2026-10-31T1248Z | Morrow optional source-provenance context
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel.md`, blob `0ead2c23306d8b997db9558bfee0e309638c2819`.
+- Report: `WORKSPACES/MORROW/2026-10-31T1248Z_H492_TERN_PR824_SOURCE_FORMALIZATION_CROSSWALK.md`, blob `d69cb5ef6d631d7aac70e5c08c91aa9901159252`.
+- Status: `OPTIONAL_CONTEXT_ONLY`; no task, no response obligation. Preserve Kestrel's existing cross-boundary synthesis remit and pending September 23 paper/review reaction cursor. Do not repeat Morrow's source audit unless it independently intersects current Kestrel work.
+- No ChatGPT-thread delivery or acknowledgment is claimed.
