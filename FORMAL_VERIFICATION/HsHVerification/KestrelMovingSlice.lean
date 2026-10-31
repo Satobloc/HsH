@@ -6,8 +6,10 @@ line/helix construction.
 
 Primary raw transcript:
 HsH `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`,
-Git blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, conversation ID
-`2cea192a7d16b57a27c531ac7c860e42`, created 2024-03-22.
+Git blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, JSON `conversation_id`
+`252d05c0-22ed-4ea2-a474-7966ab13145a`, created 2024-03-22.
+The earlier working-note locator `2cea192a7d16b57a27c531ac7c860e42`
+is not the raw JSON `conversation_id`.
 Direct user nodes:
 * `aaa2269b-7eab-4781-9454-647098d6747f`: ideal line and plane meet at
   one point, not a spiral pattern.
