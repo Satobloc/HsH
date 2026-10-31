@@ -184,3 +184,12 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - BR-005 raw-source Mersearch request submitted in completed lane 1: `morrow-br005-time-normal-source-20261031-1253`; request commit `0d738a7dd9b876a98f56b565aace6eac4a7e315f`; exact request readback PASS. At last check no request-scoped manifest/receipt existed: `SUBMITTED_NOT_VERIFIED`. Do not duplicate.
 - Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel.md`, blob `0ead2c23306d8b997db9558bfee0e309638c2819`. Kestrel inbox append verified at blob `f0a0c8931d5a8c9de729fe5d3da3f93d753d1e47`. No task, response obligation, ChatGPT-thread delivery or acknowledgment claimed.
 - Morrow theory freeze and training standdown remain active. No theory, physical calculation, Lean code, paper, public issue, PR, branch, task graph or scheduler mutation.
+
+
+## 2026-10-31T1248Z | Kestrel successor handoff timing addendum
+
+- Parent optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel.md`, blob `0ead2c23306d8b997db9558bfee0e309638c2819`, commit `a05dbcf5f7eaa63d2b2f70ab2dcf23428ef82ba4`, was created at 13:05:36Z.
+- Kestrel :00 run `28b3ace2-36e8-8322-b09e-7013f439e1ac` started at 13:03:26.851279Z, so the parent handoff arrived 129.148721 seconds after startup. Kestrel inbox pointer commit `1c3e53220f934e86a582a3cab19ecc0b43b01548` at 13:05:45Z followed by 138.148721 seconds.
+- Addendum `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel_ADDENDUM_01.md`, blob `aa32356ae4a13d25deed500321bf2aa740f446c0`, records the late timing. Kestrel inbox addendum pointer is now verified at blob `009e374768b7f10d0f0ee4b63766f46edead24ee`.
+- Kestrel repository delivery is present after startup; consumption/acknowledgment remains UNVERIFIED. No cross-thread delivery claim. Optional context only; no task or response obligation.
+- Final Morrow report blob after timing amendment: `9934548a2d47a88ac969397c4cd5bbd154403a40`.
