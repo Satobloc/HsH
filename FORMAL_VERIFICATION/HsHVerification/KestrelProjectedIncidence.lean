@@ -22,8 +22,9 @@ theorem genuine_intersection_projects_to_overlap
   rintro y ⟨x, hx, rfl⟩
   exact ⟨⟨x, hx.1, rfl⟩, ⟨x, hx.2, rfl⟩⟩
 
-/-- Reversing projected overlap to a common source point requires
-an injective projection (or a separately established fiber condition). -/
+/-- Reversing projected overlap to a common source point is guaranteed
+by injectivity (or by a suitable fiber-separation condition for the
+particular source sets). -/
 theorem projected_overlap_lifts_if_injective
     (p : X → Y) (hp : Function.Injective p) (A B : Set X) :
     (p '' A) ∩ (p '' B) ⊆ p '' (A ∩ B) := by
@@ -44,8 +45,43 @@ theorem disjointness_preserved_if_injective
     projected_overlap_lifts_if_injective p hp A B ⟨hyA, hyB⟩
   exact (Set.disjoint_left.mp hdisj) hx.1 hx.2
 
+/-- Abstract finite-set counterexample, not a physical fixture:
+a non-injective readout can make disjoint source sets appear to overlap. -/
+def collapsedReadout : Fin 2 → Fin 1 := fun _ => 0
+
+def leftSource : Set (Fin 2) := {0}
+def rightSource : Set (Fin 2) := {1}
+
+theorem noninjective_readout_can_create_spurious_overlap :
+    ((collapsedReadout '' leftSource) ∩
+      (collapsedReadout '' rightSource)).Nonempty ∧
+      leftSource ∩ rightSource = ∅ := by
+  constructor
+  · refine ⟨0, ?_⟩
+    constructor
+    · exact ⟨0, by simp [leftSource], by simp [collapsedReadout]⟩
+    · exact ⟨1, by simp [rightSource], by simp [collapsedReadout]⟩
+  · ext x
+    simp [leftSource, rightSource]
+    omega
+
+/-- Two distinct source sets can have exactly the same non-injective
+readout, so inverse reconstruction is not unique in general. -/
+theorem distinct_sources_can_have_same_readout :
+    leftSource ≠ rightSource ∧
+      collapsedReadout '' leftSource =
+        collapsedReadout '' rightSource := by
+  constructor
+  · intro h
+    have h0 : (0 : Fin 2) ∈ rightSource := by
+      simpa [h] using (show (0 : Fin 2) ∈ leftSource by simp [leftSource])
+    simp [rightSource] at h0
+  · simp [collapsedReadout, leftSource, rightSource]
+
 #print axioms genuine_intersection_projects_to_overlap
 #print axioms projected_overlap_lifts_if_injective
 #print axioms disjointness_preserved_if_injective
+#print axioms noninjective_readout_can_create_spurious_overlap
+#print axioms distinct_sources_can_have_same_readout
 
 end HsHVerification.KestrelProjectedIncidence
