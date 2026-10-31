@@ -26,6 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
@@ -47,9 +48,13 @@ jobs:
         if: always()
         working-directory: FORMAL_VERIFICATION
         shell: bash
+        env:
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || '' }}
         run: |
           set -euo pipefail
-          echo "Source commit: $GITHUB_SHA"
+          echo "Event GITHUB_SHA: $GITHUB_SHA"
+          echo "Checked-out commit: $(git rev-parse HEAD)"
+          echo "PR head SHA: ${PR_HEAD_SHA:-none}"
           cat lean-toolchain
           if command -v lean >/dev/null; then lean --version; fi
           if command -v lake >/dev/null; then lake --version; fi
