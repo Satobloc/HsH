@@ -249,3 +249,5 @@ The exact-source and attachment record is continued in WORKSPACES/RAVEL/2026-10-
 The 50:50 H0+c phrase in the October 9 Meridian message is not in the dimensional-normalization PDF. The October 7 direct correction, current 🔑 core and live BEDROCK reject H0+c as an additive physical expression and reject dual-shell restoration. Use H0 R_H = c with R_H = c/H0; do not reintroduce the 50:50 phrase as current model.
 
 The original report's earlier abbreviated/incorrect SAT Theory Unification message identifier is superseded by the exact identities in the supplement. No source-authority or physical-theory promotion follows from these corrections.
+
+Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2224Z_s1_ravel_SUPPLEMENT_01.md (blob 2752b2847b9e661968bce320766ff9e56cf583b4).
