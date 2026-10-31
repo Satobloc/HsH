@@ -242,3 +242,10 @@ The :00 successor run began before the :48 report, handoff and inbox writes were
 - Feed blob remains `e3552fdac0f187b066b59a9742563094efffe011`; Paper B site_version 34 / 2026-09-23 is historical metadata, not live acceptance. Both actual routes remain PRESENTATION_PENDING / live readback NOT OBSERVED; no route was reprobed because no Sites editor/publisher action is available and prior controls prohibit repeating unobservable probes.
 - Code Grurple remains ACTIVE; no manuscript/reader/feed change, no paper-gate advance, no Lane 24 physical/CODATA work, and no theory promotion.
 - **Optional context only; no assignment or ownership transfer.** Repository inbox delivery is distinct from ChatGPT-thread delivery; no cross-thread acknowledgment is claimed.
+
+
+### 2026-10-31 13:36Z | Incoming Mercer :24 handoff consumed | MERCER-1324-20261031-RAVEL-001
+
+**Repository inbox consumption verified.** Read the addressed Common handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1324Z_from_s2_to_s3_ravel.md`, blob `51f0b0a18e50594cc5005f51a7e7f07605f88343`, and its source-pin/Code Grurple findings. It confirmed Paper A/B source blobs and feed bindings, with both live reader routes still pending. No Sites route was modified and no presentation gate advanced.
+
+Ravel's substantive work remained inside the existing finite-core/worldtube sandbox. Current report: `WORKSPACES/RAVEL/2026-10-31T1336Z_HELION_EM_READOUT_IDENTIFIABILITY_AND_MEASURED_GATE.md`, blob `c8c1e7ebb34269c0c47c77a9014154c3d98d41f2`. No Mercer assignment or ownership transfer is implied. ChatGPT cross-thread delivery is unavailable; this is repository inbox consumption only.
