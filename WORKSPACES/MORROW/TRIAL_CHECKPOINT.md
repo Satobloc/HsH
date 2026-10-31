@@ -363,3 +363,9 @@ Created optional, non-assignment handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAN
 
 - Addendum `WORKSPACES/MORROW/2026-10-31T1306Z_S1_LAST_RUN_START_TIME_CONFLICT_ADDENDUM.md`, blob `5688410f3379363141eb1fae16e43a3d73312330`, records two different `started_at` values for the same :12 task ID, same run ID `d836eb66-0308-8321-ac38-96b40ac779b1`, and same scheduled_for 12:12Z: earlier 12:35:08.078999Z; later 13:05:11.178997Z. Both snapshots show in_progress, no chat_ref; no attempt history exposed. Cause unresolved.
 - Tern's module remains a valid proof of its earlier encoded snapshot, not the later mutable API value. No code or PR change. Tern received optional repository notice in inbox blob `b89cfab1c6d1b1f7f9dc3585100d639cff7f7afb`; consumption unverified.
+
+
+## 2026-10-31T1248Z | Morrow h492 receipt
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1248Z_s4_morrow.md`, blob `ba9cad8bfc689a430f692d54a733e52e382f3747`, exact readback PASS.
+- Receipt records current :48 run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` as `in_progress` / `chat_ref=null` at final scheduler readback; no authenticated historical Morrow thread or cross-thread delivery is claimed.
