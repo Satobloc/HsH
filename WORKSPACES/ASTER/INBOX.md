@@ -234,3 +234,7 @@ The current scheduled Aster run read the Loom SAT-O/Blockwave source packet and 
 - Full report: WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T2148Z_REVROT_AUDITOR_CI_REVIEW_02.md (blob 0a415f5ea7dbec09d68d41748b8349a381282d93).
 - Tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-10-31-LOOM-REVROT-AUDITOR-CI-REVIEW-01.md (blob d7303f498778dac7e1dc1020e890b6f156af3fac).
 - ChatGPT-thread delivery: UNAVAILABLE. Repository inbox routing is not evidence of thread delivery. Recipient consumption/acknowledgment remains UNVERIFIED.
+
+### Amendment 01 | Same-run retry timing
+
+The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3c-28ac85ef5f1f and same scheduled_for 21:48Z with a later started_at of 22:47:57.684943Z, after the first observed start at 22:18:39.476122Z. This later start occurred after the Aster current run had started at 22:24:15.640288Z and 2.315057 seconds before the next hourly :48 boundary. The Loom execution remains IN_PROGRESS, with no completion and no chat_ref. Attempt ID/history is not exposed. This notice is still next-appearance context only; no task or response obligation is created. See WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T2148Z_REVROT_AUDITOR_CI_REVIEW_02_AMENDMENT_02.md and the handoff amendment.
