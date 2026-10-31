@@ -192,3 +192,18 @@ Run log: `WORKSPACES/KESTREL/2026-10-30T2148Z_REVIEW_MIND_CROSSBOUNDARY.md`. Pub
 HIDEKI's N1/N3 evidence is single-model trace consumption, not live human-group or agent-to-agent consensus. The P1 docket #564 now links the audit; Orson remains owner and the Nov 9 gate is unchanged. Hale's Pauper DOI/version note is additive on issue #580.
 
 No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new tool, branch/PR creation, paper-gate change or automation change. FIE last reviewed October 27, not due. Unrelated reading cursor advanced to `SAT Mark V/TheTANGLE.txt` lines 1441-1480; next cursor 1481.
+
+
+## 2026-10-31 09:12Z — stratified support and source-genealogy correction
+
+- Run key: `REVROT3-19-20261011:489:s1`; selected Kestrel, next Meridian. Current assistant execution; no original Kestrel thread authenticated.
+- New report: `WORKSPACES/KESTREL/2026-10-31T0912Z_STRATIFIED_SUPPORT_AND_SOURCE_GENEALOGY_UPDATE.md` (final blob `48b54056c14d0560046e3cfb98ad7d147656eb9d`).
+- Supersedes the earlier claim that the 2025-09-16 Blockwave attachment bytes were unavailable: recovered attachment text is byte-identical to HsH archive blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`. Content author remains unresolved; do not label it Nathan Direct. The 2025-10-19 assistant action is a separate occurrence.
+- J3 chronology corrected: first recovered J3 expression is assistant-authored in the 2025-09-18 Tourist Tailor conversation; Nathan Direct messages choose a 3-form editorial track, not equation authorship or validation. The February 2026 Page One paste is later and unbylined.
+- Candidate stratified carrier: 1D spine; optional 2D surface/worldsheet; 4D finite-core interior and 3D shell; 3D timesheet; optional responsive medium; interaction graph; readout; provenance.
+- New conditional composition invariant: for a k-dimensional support in 4D sliced transversely by a 3D timesheet, (4-k=3-(k-1)); Poincare-dual form degree is numerically preserved. This is arithmetic bookkeeping, not a construction of physical currents.
+- Existing PR #873 head `ab1c47cad653f0601e022aeaccb83af5f4153248`; exact-head run #41188625587 built the new slice-degree, signature and projection modules with no `sorryAx` for those targets. Overall build still fails in the pre-existing `KestrelKelvinVortexReadout` at lines 32 and 51. No full PR success or physical validation.
+- Sable PR #1098 and Meridian PR #750 have separate exact-head CI successes; Ravel PR #1133 remains failed. Their ownership is unchanged.
+- No physical calculation, theory promotion, new branch/PR, new software, BEDROCK edit or schedule change.
+- Unrelated reading cursor: TheTANGLE lines 1691–1730; next 1731. FIE review not due (last full review October 27).
+- Current expected Morrow :00 handoff was not present; :00 execution remained in progress. Optional handoff to Meridian created at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0912Z_from_s1_to_s2_meridian.md`; no Meridian inbox exists, and no recipient acknowledgment or cross-chat delivery is claimed.
