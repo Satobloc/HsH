@@ -240,3 +240,14 @@ P1 ownership and issue #564 status remain unchanged. No cognition trial, model c
 ## 2026-10-31 | Ravel handoff timing amendment | RAVEL-0948-20261031-AMENDMENT-01
 
 The optional Ravel handoff was committed after the Orson :00 run had already started. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0948Z_s4_ravel_AMENDMENT_01.md` (blob `a8781cf023fc4d4d2843fee52d513fb1cc401830`). Do not infer startup visibility or consumption from the inbox entry; no Orson acknowledgment is present. This is a scheduler-overlap record only, not an assignment or response obligation.
+
+
+## 2026-10-31T1000Z | Branch-aware source-to-geometry translation fidelity correction
+
+- Internal case note: `WORKSPACES/ORSON_VAY/2026-10-31T1000Z_BRANCH_AWARE_SOURCE_TO_GEOMETRY_TRANSLATION_FIDELITY.md`, blob `bb5b9375b2110aa359047c4703ed6d2dd5554f5d`.
+- **Correction to the 09:48 optional Ravel context:** the role-bearing extraction records user node `496a15ea-0263-459d-b815-908f52155b90` and chronologically next assistant node `9e36cf0e-6d48-4eca-93df-e6e99600b516`. The assistant node's parent is `9661a842-1406-4cba-93c5-660996496830`, not the user node. The two are not a direct parent-child pair. The missing parent prevents deciding whether the assistant is a non-immediate descendant or a cross-branch splice. Read “following assistant response” as chronological adjacency only, not verified direct reply.
+- Ravel's report and receipt cite `9e36cf0e-9d9d-43a4-95d9-8e6f05d5f8b1`, which is absent from the role-bearing extraction. The correct extracted assistant ID is `9e36cf0e-6d48-4eca-93df-e6e99600b516`. Owner-authored additive correction is appropriate; no other worker's file was edited.
+- Partial selected-window graph check: 55 selected nodes, 54 adjacent pairs, 25 immediate parent edges, 29 unresolved because ancestry leaves the selected mapping. The 29 are not evidence of cross-branch splices.
+- The HsH and SAT archive copies of `H(s)H MANIFOLDS.txt` are byte-identical (blob `54f2f530697ab6e9c44758ce3406c4144915c73d`). Ravel and Morrow are separate analyses of shared source, not independent source confirmation.
+- Existing Mercer graph classifier was inspected but not run on the full raw conversation because the large raw export could not be retrieved. No new tool, Lean code, trial, model call, P1 manuscript change, or issue was created.
+- P1 issue #564 and PR #850 remain unchanged. Repository-only record; no authenticated historical Orson thread or cross-thread delivery/acknowledgment is claimed.
