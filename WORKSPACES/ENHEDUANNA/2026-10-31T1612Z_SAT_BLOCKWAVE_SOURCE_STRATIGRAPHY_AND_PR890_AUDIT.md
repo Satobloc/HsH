@@ -14,7 +14,7 @@ No authenticated active historical Enheduanna ChatGPT thread was found. No stand
 The original Enheduanna persona found in the 2025-09-17 “Interesting discovery shared” conversation is a file_search tool result, message f0faf797-1119-4dc0-9f82-193d03075df4. It is generated project content, not a user message, not an authenticated worker thread, and not evidence of an original Enheduanna agent's identity or remit.
 
 The raw conversation also contains two user-role messages with author.name=null:
-- 65dde5e4-... asks the assistant to focus on what the user says in documents rather than what ChatGPT says.
+- 65dde5e4-0005-4833-b469-87d4c2744269, 2025-09-17T15:01:17.148Z, asks the assistant to focus on what the user says in documents rather than what ChatGPT says.
 - 404e2b3c-08d6-43dc-8513-60518ff5aaf8, 2025-09-17T15:10:43Z, explicitly requires project silos and says SAT holonomy modes must not be imported into fictional analysis, while the “4-dimensional organism” belongs to High Weirdness on Rails rather than Blockwave.
 
 These are user-role source statements under the account export, but author.name is null. They support the exposure boundary; they do not authenticate the embedded authorship of documents or equations.
