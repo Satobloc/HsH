@@ -358,3 +358,11 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Publisher #1160: PUBLISHED_VERIFIED; commit `41c0fb03f2a99cb44e59c2ac37c1ffe75a469646`; SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; issue-payload/file exact-content match PASS.
 - P1 #564 comment #6546936672 links the artifact. P1 remains SOURCE / EXPERIMENT READINESS; no trial or paper-gate advancement.
 - Lean run #41225441898 remains in progress; no compile success claimed.
+
+
+### 2026-10-31T1746Z | VEY-022 proof and publication verified
+
+- Additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1736Z_s3_orson_vay_AMENDMENT_01.md`, commit `e429a7af793169ce0900a77e09003662da569d11`.
+- Exact-head Actions #41225441898 rerun SUCCESS at `b820998976192ab3e4dc1cec1632d4d899bad031`; job #124609431758, Lean 4.34.0 / Lake 5.0.0, 8,974 build jobs. VEY021 module built; four theorem-specific axiom reports say no axioms; full log has zero `sorryAx`. Tests/lint and separate nanoda/axiom-audit stages were skipped. Initial failed attempt's cause remains unresolved due unavailable log artifact.
+- Publisher #1160 PUBLISHED_VERIFIED; exact issue-payload/file comparison PASS. CI addenda read back on #1160, P1 #564 and PR #850.
+- This verifies only the encoded finite parent graph. No source authentication, context completeness, statistical independence, causal effect, trial or paper-gate advancement.
