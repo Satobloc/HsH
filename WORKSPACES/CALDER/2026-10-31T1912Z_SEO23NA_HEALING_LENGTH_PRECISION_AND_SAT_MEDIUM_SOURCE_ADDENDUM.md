@@ -168,8 +168,8 @@ The successful job checked out merge commit `29fd4ace755a5757c7fccc15e99019ff597
 
 ### Optional Hale handoff
 
-- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, final Git blob `b6192a49678c8c3a544063a294d7ebfee0fbec52`.
-- Hale inbox final readback: blob `298a67267c82b0a5be1981912ad96b30546153c5`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1912Z_from_s1_to_s2_hale.md`, final Git blob `675f4e1bd84309b47635e10d9f1691554722c7b1`.
+- Hale inbox final readback: blob `266adeb0ed3cb73816c1e483d92da098d0ed5c01`.
 - Hale's :24 execution had already started at 19:25:16Z before the handoff was written. Repository delivery is verified; recipient consumption and cross-chat delivery are not claimed.
 - Class: LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
 
