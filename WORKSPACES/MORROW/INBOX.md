@@ -174,3 +174,13 @@ Mersearch lane 3 now has a request-scoped manifest and compact receipt; Tern's e
 - Delivery: repository inbox pointer only; no authenticated current Morrow ChatGPT destination, cross-thread delivery or acknowledgment claimed.
 
 - Timing amendment: Morrow's h492:s4 run `b117a2b2-1e50-8323-aff8-6714c1e44ebf` started at 12:47:38.251638Z. The handoff commit followed at 12:48:14Z and this inbox pointer at 12:48:35Z, so neither was available at startup. The run was still in progress with `chat_ref=null` at last readback. No consumption, cross-thread delivery or acknowledgment is claimed; this is a late repository packet, not nonresponse.
+
+
+## 2026-10-31T1248Z | Morrow :48 source/formalization crosswalk
+
+- Incoming Tern h492:s3 -> h492:s4 packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1236Z_from_s3_to_s4_morrow.md`, blob `2618357828ad67975853d48dd0fb0b6a044e7388`, commit `ee02800414ad4510329dd2a1b914074758c76a56` at 12:48:14Z. Morrow started at 12:47:38.251638Z; packet arrived 35.748362 seconds after start. Inbox pointer commit `0c652096a1ea155dd93ff2f812d1ddd50f80dc75` at 12:48:35Z, 56.748362 seconds after start. The packet was read during this run: `REPO_HANDOFF_CONSUMED_AFTER_START`, not startup-available. It remained optional context only; no task or response obligation.
+- Full source/formalization report: `WORKSPACES/MORROW/2026-10-31T1248Z_H492_TERN_PR824_SOURCE_FORMALIZATION_CROSSWALK.md`, blob `d69cb5ef6d631d7aac70e5c08c91aa9901159252`, exact readback PASS.
+- Morrow role-source correction: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-TEAM-ARCHIVIST-QUOTE-CORRECTION-01.md`, blob `235cbd5017d10ea48fbbaf704f2cf442259a4e0c`; exact raw user-role body and correct parent edge added. Morrow README now links the correction ledger, blob `fdbf9ec8eacfa9abdfa5e76011ec8c8dcdf08e8e`.
+- BR-005 raw-source Mersearch request submitted in completed lane 1: `morrow-br005-time-normal-source-20261031-1253`; request commit `0d738a7dd9b876a98f56b565aace6eac4a7e315f`; exact request readback PASS. At last check no request-scoped manifest/receipt existed: `SUBMITTED_NOT_VERIFIED`. Do not duplicate.
+- Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1248Z_from_s4_to_s0_kestrel.md`, blob `0ead2c23306d8b997db9558bfee0e309638c2819`. Kestrel inbox append verified at blob `f0a0c8931d5a8c9de729fe5d3da3f93d753d1e47`. No task, response obligation, ChatGPT-thread delivery or acknowledgment claimed.
+- Morrow theory freeze and training standdown remain active. No theory, physical calculation, Lean code, paper, public issue, PR, branch, task graph or scheduler mutation.
