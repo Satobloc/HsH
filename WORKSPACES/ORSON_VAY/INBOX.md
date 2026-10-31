@@ -271,3 +271,9 @@ The optional Ravel handoff was committed after the Orson :00 run had already sta
 - Exact-head CI #41160835210, job #124417786006, Lean 4.34.0, 8,943 targets, SUCCESS; no `sorryAx` in the retrieved log. `lake test`, `lake lint`, nanoda, and automated axiom audit skipped.
 - The finite-pattern module proves normalization and observational non-injectivity between two specified latent labels under its encoded model. It does not show which mechanism generated real LLM outputs. New VEY-020 evidence-lifecycle propositions remain unformalized.
 - Public addendum comments recorded on publisher issue #1152 (comment #6544041447) and P1 issue #564 (comment #6544042018).
+
+
+## 2026-10-31T1348Z | Sable handoff addendum
+
+- Optional handoff addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1348Z_from_s4_to_s0_sable_ADDENDUM_01.md`.
+- Clarifies that PR #850 exact-head CI compiled both finite-pattern and Kish modules; finite-pattern non-injectivity is conditional mathematical identifiability, not empirical mechanism validation.
