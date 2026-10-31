@@ -128,5 +128,15 @@
     "floor_id": null,
     "status": "PENDING_AUTHORIZED_INTAKE",
     "next_action": "When an authorized Factory Floor intake endpoint and stable Floor ID exist, route this exact source-linked packet through 1 GLASS+HSH -> 2 WORKSHOP. Until then, do not write directly to Factory Floor or claim delivery."
+  },
+  "public_submission": {
+    "issue_number": 1146,
+    "submission_id": "loom-blockwave-exact-phase-20261031t1024z-s2-001",
+    "payload_sha256": "b4698c7f638fce9c5671b79788422e74dde611d9a40b109ac9e102847f33722f",
+    "destination_path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-blockwave-exact-phase-20261031t1024z-s2-001.md",
+    "destination_git_blob_sha": "0049ac275c0ed9a9f3b8086ff66eaa4bf41e4e23",
+    "exact_content_readback": true,
+    "status": "PUBLISHED_VERIFIED_BY_DESTINATION_READBACK",
+    "publisher_actions_receipt": "not retrieved; no workflow run/comment claimed"
   }
 }
