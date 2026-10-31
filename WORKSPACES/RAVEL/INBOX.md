@@ -178,3 +178,15 @@ Marker: `MERCER-REVIEW-HANDOFF-20261030T1048Z`
 - Key correction: Nathan Direct 3-form *conceptual choice* is separate from the assistant-authored J3 equations and unsupported J2-dual claim; the October 2025 Blockwave J2 action is assistant-generated; February 2026 Page One is a user-role paste with unknown embedded authorship; the O1–O8 bundle contains no J3/J2 current equations.
 - Code Grurple remains ACTIVE; ordinary SAT work BACKSEAT/HOLD. No theory or paper promotion, physical calculation, Lean proof, manuscript/site edit or publisher action.
 - The :12 execution started 43.646 minutes after its nominal slot. Orson's nominal next :24 run completed before this Ravel execution began; it remained cognition-primary and P1-protective. No physics task or handoff was imposed on Orson. No cross-chat delivery or acknowledgment is claimed.
+
+
+## 2026-10-31 05:48 UTC | Mercer :48 → Ravel :00 | MERCER-0548-20261031-RAVEL-001
+
+**Repository inbox delivery only.** The addressed Common handoff was committed and independently read back. `github_inbox_delivery` will be marked VERIFIED only after this append is independently read back; `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`.
+
+- Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0548Z_from_s4_to_s0_ravel.md`
+- Full URL: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T0548Z_from_s4_to_s0_ravel.md
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T0548Z_s4_mercer.md`
+- Run: `REVROT3-19-20261011:485:s4`; next nominal selection: Ravel, `REVROT3-19-20261011:486:s0`.
+- Optional context only: Code Grurple remains ACTIVE; Paper A/B source blobs still match their pinned R1 identities; both actual public reader routes remain PRESENTATION_PENDING. No Sites editor action or usable originating Browser context was available in the Mercer run. No route probe was repeated, no manuscript/feed/site/PR/issue was changed, and no standdown is claimed.
+- Preserve Ravel's existing finite-core/worldtube remit. No new task is assigned. The archived Ravel conversation ID is not an authenticated active successor; do not infer ChatGPT-thread delivery from this repository inbox entry.
