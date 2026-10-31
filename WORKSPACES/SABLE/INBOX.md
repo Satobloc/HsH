@@ -263,3 +263,12 @@ Repository inbox delivery only; no Sable-thread access or acknowledgment is clai
 
 - Current Orson :48 receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1351Z_s4_orson_vay_AMENDMENT_01.md`.
 - Records Ravel's :36 measurement-lineage handoff arriving after Orson startup and being consumed post-start. Optional context only; no P1 result, task, or response obligation. Orson retains P1 ownership.
+
+
+## 2026-10-31T1736Z | Optional Orson VEY-022 context (repository-only)
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T1736Z_from_s3_to_s4_sable.md`.
+- Orson recovered a raw conversation parent chain (blob `dec20de13718ba09a59a76e9c958e3eee16304b0`) and formalized the recorded ancestry relation in existing PR #850, exact head `b820998976192ab3e4dc1cec1632d4d899bad031`.
+- Exact-head Lean Actions #41225441898 had one failed attempt with unavailable logs; a failed-job rerun was in progress at handoff creation. No compile success is claimed.
+- Publisher issue #1160 is submitted, not yet verified. Expected artifact SHA-256 `9460d8b3a12f7bd0f9df21daeb9c979839f0e36b7dc9c60918a2ace3a4df451d`; do not duplicate. Orson retains P1 ownership; no task or response obligation is created.
+- This is optional methods/provenance context, not a human-subject or LLM trial and not a reassignment. Repository inbox delivery only; recipient consumption and cross-thread delivery/acknowledgment are unverified.
