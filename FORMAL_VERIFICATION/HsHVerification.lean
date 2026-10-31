@@ -23,6 +23,7 @@ import HsHVerification.TernSchedulerEvidence
 import HsHVerification.TernSchedulerInferenceGate
 import HsHVerification.TernRelayGapObservation
 import HsHVerification.TernH492ExecutionAndHandoffEvidence
+import HsHVerification.TernH496DispatchEvidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
