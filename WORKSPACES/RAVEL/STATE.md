@@ -182,3 +182,5 @@ The 15-page SAT Analogue to Calibration note (SHA-256 96c31dfa5acf1a8f0bca2bb96e
 The coupling audit's conditional Lean result is compiled in the existing draft PR #1133. It proves SI exponent arithmetic and conditional algebraic implications only; it does not establish that different κ symbols are the same physical coupling, nor an empirical prediction. Tension/stiffness is not forbidden; its constitutive law and units remain unresolved.
 
 No physical calculation or fit, new measured-data claim, paper-gate advancement, BEDROCK promotion or theory promotion occurred. No Orson handoff.
+
+Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2224Z_s1_ravel_SUPPLEMENT_01.md (blob 2752b2847b9e661968bce320766ff9e56cf583b4).
