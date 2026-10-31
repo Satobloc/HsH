@@ -239,3 +239,27 @@ The missing ninth conversation-context citation target is now recovered. All 9/9
 No further inference about cross-thread mechanics without a new raw event, source export, or backend trace. Keep the two additional project identities unresolved until an exact user-authored source locator is found. Retain the deferred `SPHERE4QC.txt` line-1301 cursor and training STANDDOWN; no theory work until the required training and explicit release. Do not repeat the completed four-node Aldus turn or the 9/9 citation check.
 
 Detailed report: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`.
+
+
+## 2026-10-31T01:08Z | BR-005 θ₄ source-genealogy audit
+
+**Rotation:** h=481; seq=2407; ring index 13 Morrow; next ring index 14 Kestrel. Run key `REVROT3-19-20261011:481:s2`. Runtime start observed 01:08:20Z; nominal :24 slot is 01:24Z. Existing automation/task/schedule was not modified.
+
+**Historical remit check:** Morrow remains the provisional Team Archivist / archive-continuity role, with theory work frozen and training completion not asserted. Raw role source locator: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, user-role message `402ade01-7116-4efb-9b14-31e477754458`, raw export blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`. The role-source correction ledger confirms the user-role assignment but the large raw body was not returned by the connector; do not quote the earlier non-verbatim source-batch block as exact text. The operational README remains an assistant-authored role synthesis.
+
+**New source genealogy:**
+- 2026-03-13 direct user message `e41e50ba-6c02-433f-ab9e-54633a7c6e17` (conversation `69b3b56e-7540-8325-b93b-e9331fe95430`; raw blob `e3e40b1a167d26f2d153667d761746f9a4788db1`) describes θ₄ as a helix-tangent angle and composite of helical tangent plus gross orientation/motion, associated with emergent mass. It does not specify plane versus normal or inverse pitch.
+- 2026-09-07 direct user message `1896b541-a337-4638-b4f8-b1d53b549c6c` (conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`; raw blob `c49367b0faa424491e7b3520a034b9e44fe6897f`) says a filament parallel to timesheet motion is the vacuum baseline. It does not name θ₄ or inverse pitch.
+- 2026-09-16 `!!_RUNNING_COTHEORIST_LOG.md` (blob `6d5e904cc8c3efdbd752695cdb28d1b8137d8cea`) records normal-relative θ₄=0 and an inverse-helical-pitch equivalence, but its header calls it a working reconstruction record, not settled doctrine, and it supplies no raw user-message UUID/conversation ID. The exact primary source was not recovered.
+- Current BEDROCK BR-005 (blob `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`, lines 309–313) remains the live normal-relative control. The 2026-10-09 cross-post transcription (blob `8425a78db75a0c5f5e90869249d583facc6cf8d4`) corroborates it but says the original message ID/export is pending.
+- Existing Hale #1037, Tern #825 and Alberr #1046 remain distinct source threads; no existing audit was overwritten or duplicated.
+
+**Formalization boundary:** the map from the March 13 composite θ₄ object to the current normal-relative scalar is not defined in recovered Nathan-authored text. The inverse-pitch phrase lacks a source-defined dimensionless quantity/reference scale. No Lean theorem or physical calculation was attempted; doing so here would encode an assistant guess and exceed Morrow's archive remit.
+
+**Public record:** issue #1131 contains the complete public-safe addendum, but the publisher rejected it. Bot comment #6537112849: `REJECTED: invalid schema`. Submitted schema was `hsh-publication-v1`; required schema is `hsh-publish-v1`. Exact issue-body content: 6,093 UTF-8 bytes, SHA-256 `9da10c7d224347d617377fb92a6ac6eb850780e9216c2176f1f7409e442b81d1`; submitted digest `6bff658a12806558b888b60f9af03bf172308e441bf506d64f7e110ec87a1352` included a final newline absent from the issue body. Correction comment #6537118722 records both errors. Publisher listens only to `issues.opened`; no duplicate issue and no direct Contents bypass. No `PUBLISHED_SUBMISSIONS` artifact verified. Status: `PUBLISHER_REJECTED / DESTINATION_NOT_PUBLISHED`.
+
+**Mersearch:** all four existing request lanes remained occupied; no request overwritten or resubmitted. Repository search and bounded raw-source search were used as fallback. No new tooling, branch or PR.
+
+**Unrelated reading:** *Jacoby: Astronomer Talks*, lines 461–500 (Bessel's Pleiades work, Elkin's 1885 follow-up and proper-motion discrimination). Next cursor: line 501. FIE last reviewed October 27; 14-day rereview not due.
+
+**Next source cursor:** recover the raw user message underlying the 2026-09-16 log entry. Until then, retain the inverse-pitch clause as `UNVERIFIED_SOURCE_CLAIM`; do not promote it or formalize a guessed map.
