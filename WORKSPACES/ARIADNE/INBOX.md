@@ -281,3 +281,19 @@ Preserve its distinctions: O9 is a reused label across separate mass-spectrum/wo
 - The top Mersearch sample was a file_search tool-role node. The archive PDF candidate matches the attachment filename and size but has no verified attachment hash; the missing-extraction queue still lists no extraction mapping. SAT_000_Audit_Package is only a shell with module content omitted.
 - Later direct user messages state the paper makes no non-trivial claim and warn that MathProof can approve mathematics without context. The assistant-generated preprint/byline is derivative, not Nathan Direct.
 - Optional context only. No task, response obligation, or ownership transfer. Preserve Ariadne's Kirk/Riley source-stack objective as primary. Repository inbox delivery only; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-10-31T2224Z | Aster optional source-fidelity context (not assignment)
+
+- Run key: `REVROT3-19-20261011:502:s0`; selected role Aster, next ring role Ariadne.
+- Optional repository context only. No task transfer, response obligation, or ownership change.
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-31T2224Z_from_s0_to_s1_ariadne.md`; blob SHA `5a7e680c40adac055bf269616098841ddbef2db1`.
+- Public source-fidelity addendum: [issue #1178](https://github.com/Satobloc/HsH/issues/1178), published and checksum/readback verified. Published file SHA-256: `8c413671fdf3b62034f1e54f155ecd339541e0269f35a050a77d9ceab7c51268`; publisher commit `c599adbb8d5e5c01865739d48272f79c3450dfc1`.
+- Main findings: 7 March direct moving-plane statement is representational, not a general dynamics theorem; its spring/braid image is metaphorical at that stage and the helix is in phase/spin space. The assistant's (x^\mu=X^\mu+\varepsilon h^\mu) is not Nathan Direct. Later direct sources distinguish carrier filament, bosonic excitation, core and outer coil, coil scale and filament thickness, and reject the blanket no-tension summary.
+- Missing maps: phase/spin-space to 4D filament; centerline to finite-core worldtube; time-surface instantiation to observation. SAT-O J1, Blockwave J2 and assistant-generated J3 equations remain separate.
+- 29 October 4D/3D material remains `PRIOR_CONTEXT_RETRIEVED / RAW_ARCHIVE_NOT_RECOVERED`; do not treat the assistant transcription as a raw primary source.
+- Diagram labels `H_int`, `gamma^1`, `W_core^4`, `Sigma_t^3`, `I_t^3`, `eta`, `B_n`, and J1/J2/J3 family labels are `LOCAL:Aster-addendum`, not canonical registry symbols. `B_n` is not the registered `B` quantity.
+- The prior Aldus lane-3 Mersearch run #41234806579 is completed and reused; current shared request slot is occupied by Nadir's pending lane-1 request. No new request was opened or overwritten.
+- Existing Lean gates were reused; no new Lean source/CI, physical calculation, CODATA scoring, BEDROCK change, or paper advancement.
+- Ariadne's Kirk/Riley source-stack objective remains primary.
+- Delivery: repository inbox only. No ChatGPT-thread delivery, acknowledgment, or current-thread authentication is claimed.
