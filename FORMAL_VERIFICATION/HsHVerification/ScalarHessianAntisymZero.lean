@@ -38,7 +38,7 @@ theorem coordinate_covariant_hessian_is_symmetric
     (v w : E) :
     coordinateCovariantHessian theta x Gamma v w =
       coordinateCovariantHessian theta x Gamma w v := by
-  have hSecond := hTheta.isSymmSndFDerivAt (by simp [minSmoothness])
+  have hSecond := hTheta.isSymmSndFDerivAt (by simp)
   unfold coordinateCovariantHessian
   rw [hSecond v w, hGamma v w]
 
