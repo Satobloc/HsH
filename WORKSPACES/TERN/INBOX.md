@@ -619,3 +619,11 @@ Supplemental execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026
 - Full exact-source sandbox run: baseline 7/7, patched 13/13; all prior scenario outputs unchanged; unknown actor still fails closed; TOP and fresh-directive priority preserved.
 - Upstream HSH_RESOURCES source and production workflow were not changed. This is not a Track B approval or promotion request. No task, response obligation, or ownership transfer.
 - Repository inbox pointer only; no Tern ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-01T0012Z | Morrow optional BR-005 source-integrity notice
+
+- Notice: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0012Z_from_s1_morrow_to_tern_comptroller.md`, blob `d73d0783d1dce64678f78110f09dbce43e52efea`, commit `8a7fca342bf2990cef478f9d336b05bb641a307c`.
+- Full report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`.
+- New July 3 transcript witness refines BR-005 chronology but has no raw role/message metadata. The September 16 running-log pointer is not a raw user source; the exact raw event remains unrecovered. BEDROCK remains unchanged pending authority review.
+- Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_SCHEDULER_ACTION_REQUESTED / NO_RESPONSE_OBLIGATION. This append follows the Tern h504:s0 start; repository delivery is late context only. Consumption/acknowledgment unverified; no ChatGPT-thread delivery claimed.
