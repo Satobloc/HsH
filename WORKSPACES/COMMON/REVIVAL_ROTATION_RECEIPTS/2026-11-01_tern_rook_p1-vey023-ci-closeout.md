@@ -42,11 +42,9 @@ One active-edge object was audited: Orson P1 VEY-023 receiver-relative evidence 
 ## Local artifact pointers
 
 - Full report: `tern_p1_vey023_ci_closeout_20261101.md`
-- Report SHA-256: `880cd981ad99c6505323059cd88cac43ebd649cce263c4b0ad97fde11158f583`
-- Bundle SHA-256: `b05c1a327b179499f392d45aca16de06043199ee95e60a66f3d1b194d7c3a132`
+- Report SHA-256: `c745f36adbb844e0ddf2293d963a9242803ecb8e323e8a6284773ddee6b8b259`
+- Bundle SHA-256: `36baa75e93d8435dcbb77ee1b7ab059cdf038a0937fe7e68fa0ddfe4a8e59c3b`
 - Corrected local publisher-payload content SHA-256: `e52d86cc90ab5dd7e6bfab293fda09365d9b3698f38065c3c24436265f2f7344`
-
-Receipt verification update commit: `47db41a440b8deffb8f60c5815a2c0b78475dcae`.
 
 This is an operational receipt, not a paper acceptance, theory result, authenticated worker identity, or ChatGPT-thread delivery claim.
 
@@ -58,5 +56,3 @@ This is an operational receipt, not a paper acceptance, theory result, authentic
 - New Morrow inbox blob: `c740f79a9da46bc8f3e3ace30917fbadc51ddcc9`.
 - Exact readback matched the appended content.
 - This is repository-inbox delivery only. No ChatGPT-thread delivery or acknowledgment is claimed.
-- Local report SHA-256: `add321803d420efab00a0e0c782847b691a0fbbd7bf9eb81799e4907ecab4e8a`.
-- Local bundle SHA-256: `90968eaa245dd30f49d62c1dcae2c4628b6cd29e4d04b00f20566edff9401af4`.
