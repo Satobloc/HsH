@@ -141,3 +141,12 @@ FIE last full review: 2026-10-27; rereview not due. Unrelated-reading cursor rem
 ## 9. Final classification
 
 `SOURCE-GROUNDED ROLE RECOVERED / SOURCE-CONDITIONED GEOMETRY RECONSTRUCTED / CONDITIONAL TRANSPORT ALGEBRA FORMALIZED / LEAN CI PENDING / NO PHYSICAL RESPONSE MAP / NO EMPIRICAL PREDICTION / NO CODATA COMPARISON / NO THEORY PROMOTION`.
+
+
+## Amendment 01 — source equations and version tension
+
+The exact June 2025 SAT4D current/action equations, July 2025 SAT.O directive source, October 2025 assistant-authored Blockwave rank-2 equations, separate standard Maxwell type-reference, and unresolved June-2025/September-2026 dynamical-version tension are recorded in:
+
+`WORKSPACES/RAVEL/2026-11-01T1224Z_SOURCE_EQUATION_AND_VERSION_TENSION_AMENDMENT_01.md`.
+
+No SAT4D or Blockwave equation was changed or promoted by that amendment.
