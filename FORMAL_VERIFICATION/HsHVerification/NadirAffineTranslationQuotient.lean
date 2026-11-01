@@ -65,7 +65,6 @@ theorem relativeScale_comp
       relativeScale r_i r_k := by
   unfold relativeScale
   field_simp [h_i, h_j]
-  ring
 
 /-- The framed-sphere similarity maps compose under the stated nonzero-radius
     conditions. No orthogonality assumption is needed for this algebraic identity:
@@ -98,6 +97,7 @@ theorem similarityMap_affine_form
     similarityMap c_i c_j σ Q x =
       similarityLinearPart σ Q x + affineIntercept c_i c_j σ Q := by
   simp [similarityMap, similarityLinearPart, affineIntercept]
+  abel
 
 /-- Simultaneously translating both frame centers leaves their displacement unchanged. -/
 theorem centerDisplacement_origin_invariant
