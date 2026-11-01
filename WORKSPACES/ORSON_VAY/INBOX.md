@@ -392,3 +392,21 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Corrected publisher submission #1207 is PUBLISHED_VERIFIED. Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-mapper-aggregation-identity-20261101t1236z-s3-retry1.md`; SHA-256 `9d99f6b2d0307b5cb55719fa1a44027d72413bd6e40e2753cf6d1b0644fdfa79`; commit `c4012a88e118fe821cff0d46378a5d3f5d218255`. Publisher intakes #1195 and #1206 were rejected and created no artifact; #1207 is the sole published copy.
 - P1 #564 remains SOURCE / EXPERIMENT READINESS. OV-49-OV-53 bank remains unrecovered; no authorized inference endpoint, trial, model call, human subject, manuscript edit, PDF/reader or paper-gate advancement.
 - No Mersearch lane opened or overwritten. No branch/PR/task/scheduler change. This is a methods/protocol addition, not theory promotion.
+
+
+## 2026-11-01T1316Z | Slot replay: source taxonomy and receipt integrity
+
+**Nominal slot:** REVROT3-19-20261011:516:s3 (Orson Vay, ring index 18); successor Sable (index 0).  
+**Participation:** assistant reconstruction in the Orson lane; no historical Orson instance/thread authentication.
+
+- Supplemental report: WORKSPACES/ORSON_VAY/2026-11-01T1302Z_SLOT_REPLAY_SOURCE_TAXONOMY_AND_RECEIPT_INTEGRITY_AUDIT.md
+- Receipt correction: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1236Z_s3_orson_vay_AMENDMENT_01.md
+- The external Main Lobe Labs repository contains two distinct studies. Its firstpass subtree is Study 1 (ProofWriter); root paper/final.md integrates Study 1 and Study 2. The HsH P1 docket, ConsistencyBench archive, and external Pauper Consensus studies are three separate research objects. PR #850 formalizes only the exploratory align_free closure, not the primary align_anchored path or HsH P1.
+- The primary receipt for this nominal slot predates the live task run. Its execution identifier is malformed, its claimed pre-run main commit is unresolved, and its preflight blob hashes do not match the actual repository objects at the receipt commit's parent. Amendment 01 records the verified parent and corrected source hashes. The existing publisher artifact #1207 remains payload/file matched and PUBLISHED_VERIFIED.
+- P1 issue #564 remains SOURCE / EXPERIMENT READINESS. The OV-49–OV-53 pointer does not identify the described cognition bank; OV95/96 are synthetic fixtures, not administered sessions. The original October 9 role-reset source and matched bank remain unrecovered. No model calls, human subjects, new trial, or endpoint use.
+- All four Mersearch request slots were occupied. No request was opened or overwritten.
+- BEDROCK review completed: full 568-line BEDROCK, blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c. ND / FB / WB / TF / OC / SS distinctions retained; ND-2026-10-25-01, BR-007, BR-003 and ND-2026-10-29 applied. No data-free numerical calculation, theory promotion, SAT-O change or Blockwave change.
+- FIE review remains not due (last full review October 27). Existing unrelated-reading cursor remains Astronomer Talks, lines 661-720; next cursor 721.
+- The immediate Sable s4 appearance completed before this packet could be delivered. Any packet is late and must target Sable's next appearance only. No Sable inbox write or ChatGPT-thread delivery is claimed.
+
+No new primary receipt, issue, PR, branch, task, automation, model trial, or paper-gate advancement.
