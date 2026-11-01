@@ -15,14 +15,14 @@ one-dimensional convention L = (1/2) (theta')^2 - V(theta).
 namespace HsHVerification.RavelSATxEulerLagrangeAudit
 
 /-- The potential inferred from L = kinetic - V. -/
-def potential (μ θ : ℝ) : ℝ := μ ^ 2 * Real.cos (3 * θ)
+noncomputable def potential (μ θ : ℝ) : ℝ := μ ^ 2 * Real.cos (3 * θ)
 
 /-- The derivative of the inferred potential. -/
 theorem potential_hasDerivAt (μ θ : ℝ) :
     HasDerivAt (fun x : ℝ => potential μ x)
       (-3 * μ ^ 2 * Real.sin (3 * θ)) θ := by
   have hcos := (Real.hasDerivAt_cos (3 * θ)).comp θ (by
-    convert (hasDerivAt_id θ).const_mul 3 using 1 <;> ring)
+    convert (hasDerivAt_id θ).const_mul 3 using 1 <;> ring_nf)
   convert (hcos.const_mul (μ ^ 2)) using 1 <;> simp [potential] <;> ring
 
 /-- The derivative of the source Lagrangian's potential term
