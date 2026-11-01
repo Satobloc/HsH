@@ -30,6 +30,29 @@ def directWaveOmega (β ΩH Ωorb : ℝ) : ℝ :=
 def directWaveDecay (β κH : ℝ) : ℝ :=
   (2 * β * κH) / (1 + β)
 
+/-- Source notation: the hatted orbital/source frequency scale \hat{\Omega}. -/
+abbrev hatOmega := directWaveOmega
+
+/-- Source notation: the hatted damping scale \hat{\kappa}. -/
+abbrev hatKappa := directWaveDecay
+
+/-- The complex source frequency \omega_G = 2\hat{\Omega} - i\hat{\kappa}. -/
+def sourceComplexFrequency (β ΩH Ωorb κH : ℝ) : ℂ :=
+  Complex.ofReal (2 * hatOmega β ΩH Ωorb) -
+    Complex.I * Complex.ofReal (hatKappa β κH)
+
+theorem sourceComplexFrequency_re
+    (β ΩH Ωorb κH : ℝ) :
+    Complex.re (sourceComplexFrequency β ΩH Ωorb κH) =
+      2 * hatOmega β ΩH Ωorb := by
+  simp [sourceComplexFrequency]
+
+theorem sourceComplexFrequency_im
+    (β ΩH Ωorb κH : ℝ) :
+    Complex.im (sourceComplexFrequency β ΩH Ωorb κH) =
+      -hatKappa β κH := by
+  simp [sourceComplexFrequency]
+
 theorem directWaveOmega_reverse
     (β ΩH Ωorb Ωobs : ℝ)
     (hβ : 0 ≤ β)
@@ -147,7 +170,7 @@ theorem rationalFilterFactor_norm_one
   have hplusNorm :
       ‖(x : ℂ) + z‖ ≠ 0 :=
     (norm_pos_iff.mpr hplus).ne'
-  simp [hminusNorm, hplusNorm]
+  simp [hminusNorm, hplusNorm, hminus, hplus]
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
@@ -180,10 +203,95 @@ theorem rationalFilter_norm_one (x : ℝ) :
         rationalFilterFactor_norm_one x z hminusZ hplusZ,
         ih hminusS hplusS]
 
+/-!
+Source-derived calibration ledger for Prasad, Sarkar & Sarkar,
+"Listening to the Horizon: Probing Near-Horizon Reflectivity with GW250114",
+arXiv:2610.12429 (2026-10-08).
+
+The analytic DW shape is described as having no free shape parameters, but:
+* the plunge trajectory is calibrated to numerical relativity;
+* the event fit includes complex amplitude A and time alignment delta-t;
+* the echo search estimates reflectivity magnitude, phase, and delay.
+
+This ledger distinguishes a fixed analytic shape from an uncalibrated,
+parameter-free end-to-end prediction. It records the paper's stated workflow;
+it does not validate the physical model.
+-/
+
+structure DirectWaveCalibrationLedger where
+  freeShapeParameterCount : Nat
+  trajectoryNRCalibrated : Bool
+  remnantParametersEventConditioned : Bool
+  complexAmplitudeFit : Bool
+  timeAlignmentFit : Bool
+  reflectivityMagnitudeFit : Bool
+  reflectivityPhaseFit : Bool
+  echoDelayFit : Bool
+deriving DecidableEq, Repr
+
+def gw250114CalibrationLedger : DirectWaveCalibrationLedger :=
+  { freeShapeParameterCount := 0
+    trajectoryNRCalibrated := true
+    remnantParametersEventConditioned := true
+    complexAmplitudeFit := true
+    timeAlignmentFit := true
+    reflectivityMagnitudeFit := true
+    reflectivityPhaseFit := true
+    echoDelayFit := true }
+
+def shapeFixed (m : DirectWaveCalibrationLedger) : Prop :=
+  m.freeShapeParameterCount = 0
+
+def hasCalibrationOrFit (m : DirectWaveCalibrationLedger) : Prop :=
+  m.trajectoryNRCalibrated = true ∨
+  m.remnantParametersEventConditioned = true ∨
+  m.complexAmplitudeFit = true ∨
+  m.timeAlignmentFit = true ∨
+  m.reflectivityMagnitudeFit = true ∨
+  m.reflectivityPhaseFit = true ∨
+  m.echoDelayFit = true
+
+theorem gw250114_shapeFixed_and_calibrated :
+    shapeFixed gw250114CalibrationLedger ∧
+    hasCalibrationOrFit gw250114CalibrationLedger := by
+  decide
+
+/-- The source's zero-free-shape-parameter statement does not imply that
+    the complete event-conditioned plunge/echo analysis is uncalibrated
+    or fit-free. The actual source ledger is a concrete counterexample. -/
+theorem shapeFixed_does_not_imply_noCalibrationOrFit :
+    ¬ (shapeFixed gw250114CalibrationLedger →
+        ¬ hasCalibrationOrFit gw250114CalibrationLedger) := by
+  intro h
+  have hshape : shapeFixed gw250114CalibrationLedger := by decide
+  have hcal : hasCalibrationOrFit gw250114CalibrationLedger := by decide
+  exact (h hshape) hcal
+
+/-- Exact arithmetic for the published 90% posterior upper limit
+    |R_s| < 0.059. This is a unit conversion, not a new posterior. -/
+theorem reported_reflectivity_square_exact :
+    (59 / 1000 : ℝ) ^ 2 = 3481 / 1000000 := by
+  norm_num
+
+/-- The reported amplitude limit implies a squared-amplitude threshold
+    below 0.4 percent, conditional on interpreting |R_s| as an amplitude. -/
+theorem reported_reflectivity_energy_below_0_4_percent :
+    (59 / 1000 : ℝ) ^ 2 < 4 / 1000 := by
+  norm_num
+
+#eval ((59 : Rat) / 1000) ^ 2
+#eval gw250114CalibrationLedger
+
 #print axioms directWaveOmega_reverse
 #print axioms directWaveDecay_reverse
+#print axioms sourceComplexFrequency_re
+#print axioms sourceComplexFrequency_im
 #print axioms rationalFilterFactor_norm_one
 #print axioms rationalFilter_norm_one
+#print axioms gw250114_shapeFixed_and_calibrated
+#print axioms shapeFixed_does_not_imply_noCalibrationOrFit
+#print axioms reported_reflectivity_square_exact
+#print axioms reported_reflectivity_energy_below_0_4_percent
 
 end
 
