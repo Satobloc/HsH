@@ -111,7 +111,7 @@ def correctedSourceLocator : SourceLocatorWitness :=
 
 /-- A verbatim Nathan quotation must bind conversation, message, outer role,
     and the exact UTF-8 text digest. -/
-def validVerbatimQuote (raw : RawMessageWitness) (quote : QuoteWitness) : Prop :=
+abbrev validVerbatimQuote (raw : RawMessageWitness) (quote : QuoteWitness) : Prop :=
   quote.conversationId = raw.conversationId ∧
   quote.messageId = raw.messageId ∧
   raw.role = .user ∧
@@ -120,7 +120,7 @@ def validVerbatimQuote (raw : RawMessageWitness) (quote : QuoteWitness) : Prop :
 
 /-- A source locator must identify the same conversation, message, role,
     and recomputed message-text digest. -/
-def validSourceLocator (raw : RawMessageWitness) (loc : SourceLocatorWitness) : Prop :=
+abbrev validSourceLocator (raw : RawMessageWitness) (loc : SourceLocatorWitness) : Prop :=
   loc.conversationId = raw.conversationId ∧
   loc.messageId = raw.messageId ∧
   loc.role = raw.role ∧
