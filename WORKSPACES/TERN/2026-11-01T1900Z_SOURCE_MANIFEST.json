@@ -17,7 +17,7 @@
   },
   "repository": {
     "main_preflight_head": "a2bc3bd6cff83f49db62897f0e654ef8e22fad3a",
-    "main_head_before_manifest": "97d88bc75a4e12094ff8715127f57ba7b4fa0da2"
+    "main_head_before_manifest": "5e5e94352afd690b1756e2921979abf5003daebb"
   },
   "controls": {
     "bedrock_read": true,
