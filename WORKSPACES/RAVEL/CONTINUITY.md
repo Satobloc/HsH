@@ -677,3 +677,16 @@ Nathan Direct geometry: message 3d0ad680-51db-4c79-ad4a-9bbacada24ef (2026-09-07
 The 1D-base / 3D-spatial-fiber / 4D-total-space interpretation combines this direct Kerr-section instruction with separate June 2025 SAT4D and July 2025 SAT.O source strands. It is a conditional reconstruction, not a single direct equation and not a settled identification of the 1D carrier with later “4D filament” language.
 
 The corresponding conditional mathematics and abstract fiber-transport non-uniqueness result are recorded in WORKSPACES/RAVEL/2026-11-01T1224Z_SPATIAL_KERR_FIBER_TRANSPORT_SOURCE_AND_LEAN_AUDIT.md and FORMAL_VERIFICATION/HsHVerification/RavelFiberTransportNonuniqueness.lean on PR #1133. The Bool witness is abstract algebra, not a physical model. The coupled current-response map remains missing; no physical prediction or theory promotion follows.
+
+
+## 2026-11-01T2000Z — filament-tension source genealogy and dimensional audit
+
+Recovered the early SAT-O1/O5/O8 document family in response to Nathan's direct request in Ravel message b5b86a1c-9e0a-4ff5-8fcd-6f16f67c8953 (raw UTC 2026-09-10T15:05:29.300Z). SAT-O5's cube-root scale and link-density coupling do not define A's units or rho_link's measure. SAT-O8's T~c^4/G, ell_f~10^-5 m, and Q_e/Q_p values are archived module statements; the Q values are required suppression ratios until a topology-to-Q map is supplied. The undated Base Units and SAT METRICS—Basic files are byte-identical and give ell_f=0.7937 fm, epsilon=2e-21 m, and an energy-dimensional kappa. If the two ell_f values are the same quantity, their ratio is about 1.26e10; no version map has been recovered.
+
+Conditional SI results: ell_f^3=2A/T requires [A]=[T]L^3; T=N requires A=N m^3, while T=N/m requires A=N m^2. T ell_f/c^2 has mass units only for T=N. rho_link ell_f^2 is dimensionless only for areal density L^-2, not a volume density. These are unit checks, not physical calculations.
+
+The earlier 12:24 statement that a 4D total tube is not a codimension-three normal thickening of a 1D centerline is superseded: the centerline is codimension 3, a rank-3 fiber gives a 4D total tube of codimension 0. Actual fiber embedding remains unspecified.
+
+Report: WORKSPACES/RAVEL/2026-11-01T2000Z_FILAMENT_TENSION_SOURCE_GENEALOGY_AND_DIMENSION_AUDIT.md. Existing PR #1133's dimensional module compiled in merge-ref runs #41348147460 and #41348936553; current module blob 0fb4cdb424f436227b5dfcf3de3bed5f403d6253 matches the PR head and latest merge checkout. No exact-head standalone build. Concrete theorems have no axioms; generic cube-root condition reports standard Lean axioms. No physical conclusion follows.
+
+Existing issue #1202 comment #6563825577 is published and exact-body readback verified. No duplicate issue, physical calculation, CODATA, theory promotion, or paper-gate advancement. Next work: recover raw A/T/rho_link/Q provenance, define the 1D-to-4D fiber embedding, and specify the force/filament/timesheet response map. No cross-thread delivery claim.
