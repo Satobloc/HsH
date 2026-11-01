@@ -315,3 +315,135 @@ theorem product_with_time_line_adds_one_dimension
 #print axioms product_with_time_line_adds_one_dimension
 
 end HsHVerification.RavelCarrierSliceReconstruction
+
+
+/-!
+## Fibered support and explicit timesheet pullback
+
+This is a generic set-level interface for a parameter-indexed family of
+fibers embedded in an ambient type and a second embedded support (for
+example, a labelled timesheet). The base parameter is deliberately not
+identified with physical time. No manifold, metric, regularity,
+transversality, injectivity, or physical response law is assumed.
+
+The pullback retains pairs of parameter-space and sheet-space
+representatives. Its ambient image is the set intersection; that image
+forgets multiplicity when distinct representatives map to the same
+ambient point.
+-/
+
+namespace HsHVerification.RavelCarrierSliceReconstruction
+
+universe u₁ v₁ w₁ z₁
+
+/-- A support carried by a parameter-indexed family of fibers and mapped
+into one common ambient type. -/
+structure FiberedSupport (Ambient : Type u₁) (Base : Type v₁) where
+  Fiber : Base → Type w₁
+  embed : (b : Base) → Fiber b → Ambient
+
+namespace FiberedSupport
+
+variable {Ambient : Type u₁} {Base : Type v₁}
+variable (T : FiberedSupport Ambient Base)
+
+/-- The total space of the parameter-indexed family of fibers. -/
+abbrev TotalSpace := Sigma T.Fiber
+
+/-- Map from the total fiber space into the ambient type. -/
+def toAmbient : T.TotalSpace → Ambient :=
+  fun p => T.embed p.1 p.2
+
+/-- Projection from the total fiber space to its base parameter. -/
+def baseProjection : T.TotalSpace → Base := Sigma.fst
+
+/-- Ambient image of the fiber over one base parameter. -/
+def fiberImage (b : Base) : Set Ambient := Set.range (T.embed b)
+
+/-- The tube image is the union of its parameter-indexed fiber images. -/
+theorem totalImage_eq_iUnion_fiberImage :
+    Set.range T.toAmbient = ⋃ b, T.fiberImage b := by
+  ext x
+  constructor
+  · rintro ⟨⟨b, f⟩, rfl⟩
+    exact Set.mem_iUnion.mpr ⟨b, ⟨f, rfl⟩⟩
+  · intro hx
+    rcases Set.mem_iUnion.mp hx with ⟨b, hb⟩
+    rcases hb with ⟨f, hf⟩
+    exact ⟨⟨b, f⟩, hf⟩
+
+end FiberedSupport
+
+/-- A second support, such as a labelled timesheet, embedded into the
+same ambient type. -/
+structure EmbeddedSupport (Ambient : Type u₁) where
+  Carrier : Type z₁
+  embed : Carrier → Ambient
+
+/-- Set-level pullback of a fibered support and a second support over the
+ambient space. -/
+def SlicePullback {Ambient : Type u₁} {Base : Type v₁}
+    (T : FiberedSupport Ambient Base)
+    (S : EmbeddedSupport Ambient) :=
+  {p : T.TotalSpace × S.Carrier // T.toAmbient p.1 = S.embed p.2}
+
+namespace SlicePullback
+
+variable {Ambient : Type u₁} {Base : Type v₁}
+variable (T : FiberedSupport Ambient Base) (S : EmbeddedSupport Ambient)
+
+/-- Projection from the pullback to the tube's total fiber space. -/
+def toTube (p : SlicePullback T S) : T.TotalSpace := p.1.1
+
+/-- Projection from the pullback to the second support. -/
+def toSheet (p : SlicePullback T S) : S.Carrier := p.1.2
+
+/-- Composition of the pullback-to-tube projection with the tube base map. -/
+def toBase (p : SlicePullback T S) : Base :=
+  T.baseProjection (toTube T S p)
+
+/-- Ambient map from the pullback, composed through the tube projection. -/
+def toAmbient (p : SlicePullback T S) : Ambient :=
+  T.toAmbient (toTube T S p)
+
+/-- The two routes from the pullback to ambient space commute. -/
+theorem ambient_maps_commute (p : SlicePullback T S) :
+    T.toAmbient (toTube T S p) = S.embed (toSheet T S p) := p.2
+
+/-- The ambient image of the pullback is exactly the intersection of the
+two embedded supports. This is a set-level identity, not a dynamical law. -/
+theorem ambient_image_eq_intersection :
+    Set.range (toAmbient T S) = Set.range T.toAmbient ∩ Set.range S.embed := by
+  ext x
+  constructor
+  · rintro ⟨p, rfl⟩
+    exact ⟨⟨toTube T S p, rfl⟩,
+      ⟨toSheet T S p, (ambient_maps_commute T S p).symm⟩⟩
+  · rintro ⟨⟨tube, htube⟩, ⟨sheet, hsheet⟩⟩
+    refine ⟨⟨(tube, sheet), ?_⟩, htube⟩
+    exact htube.trans hsheet.symm
+
+/-- The full slice is the union, over base parameters, of the
+fiberwise intersections with the second support. -/
+theorem slice_decomposes_over_base :
+    Set.range (toAmbient T S) =
+      ⋃ b, (T.fiberImage b ∩ Set.range S.embed) := by
+  rw [ambient_image_eq_intersection T S]
+  rw [FiberedSupport.totalImage_eq_iUnion_fiberImage T]
+  ext x
+  constructor
+  · rintro ⟨hx, hs⟩
+    rcases Set.mem_iUnion.mp hx with ⟨b, hb⟩
+    exact Set.mem_iUnion.mpr ⟨b, ⟨hb, hs⟩⟩
+  · intro hx
+    rcases Set.mem_iUnion.mp hx with ⟨b, ⟨hb, hs⟩⟩
+    exact ⟨Set.mem_iUnion.mpr ⟨b, hb⟩, hs⟩
+
+#print axioms FiberedSupport.totalImage_eq_iUnion_fiberImage
+#print axioms SlicePullback.ambient_maps_commute
+#print axioms SlicePullback.ambient_image_eq_intersection
+#print axioms SlicePullback.slice_decomposes_over_base
+
+end SlicePullback
+
+end HsHVerification.RavelCarrierSliceReconstruction
