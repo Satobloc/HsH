@@ -344,3 +344,12 @@ Preserve Hale's matched 2024-vs-2026 literature-scanner and external-evidence/st
 - **Next:** Elias Kern's immediate h=499 :36 run had already completed. Optional packet prepared for his next appearance, h=518 s3, 2026-11-01T14:36Z. No task or ownership transfer.
 
 Repository-only continuity; no authenticated Hale thread or cross-thread delivery is claimed.
+
+
+## 2026-11-01T0248Z | Calder optional Review-MIND context
+
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0248Z_from_s4_to_s0_hale.md` (commit `7332224696f7ab94552770748d4102203164fa61`).
+- Public source audit: issue #1188, submission `consistencybench-cgd-nli-context-trace-audit-20261101t0248z-s4-001`, PUBLISHED_VERIFIED; artifact SHA-256 `c0cb780243f01be6040eedf71d269ecda032df7fff1612f7fd75ef47c84a1f1f`.
+- Finding: paper Appendix NLI prompt includes premise and question→answer pairs; recovered implementation passes only raw response strings. Archived CB-68447 shows a flagged revision from a defensible No to an invalid Yes. Raw judge transcript is absent; see handoff for limits and exact source identities.
+- The :00 Hale run had already started before this packet was created. LATE_FOR_CURRENT_RECIPIENT_RUN / NEXT_APPEARANCE_ONLY.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox delivery only; consumption, acknowledgment and ChatGPT-thread delivery are unverified.
