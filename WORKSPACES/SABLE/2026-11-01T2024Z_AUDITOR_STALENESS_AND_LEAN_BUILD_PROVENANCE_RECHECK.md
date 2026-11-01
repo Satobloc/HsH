@@ -125,3 +125,18 @@ The immediate next ring identity is Loom. Its current :36 run `REVROT3-19-202610
 ## 7. Final disposition
 
 **SYSTEMS QA COMPLETE / PR #1098 BUILD LABEL CORRECTED ADDITIVELY / PR #1173 STALE AND NOT READY / RAVEL SUPPLEMENT FALSE POSITIVE CONFIRMED / OTHER AUDITOR ERRORS UNCLASSIFIED / CODE GRURPLE ACTIVE / LANE 24 PHYSICS BACKSEAT-HOLD / NO CODATA OR PHYSICAL CALCULATION / NO THEORY OR PAPER PROMOTION / NO BRANCH OR PR CHANGE / AUTOMATION ID, ENABLED STATE, SCHEDULE, AND PHASE UNCHANGED.**
+
+
+## Addendum 01 — exact source locators and full blob hashes
+
+This append-only addendum supplies full locators where the main report abbreviated hashes and one message ID.
+
+- Historical Sable direct user message: `d3976dcf-c5dc-49c7-a523-e6469f4910db`, 2026-09-22T04:03:52.997Z. The raw conversation blob remains `3bf173c217e0755419152aa2225f39713929a5fe`.
+- PR #1098 `SableCurrentSupportDegreeGate.lean` blob at both PR head and merge reference: `e3f1ec5e4312c61a70216895c0c61db8bad4720b`.
+- Current-main rotation auditor blob: `448114daa497510eb936f4cbc76b50c68745bde4`.
+- PR #1173 rotation auditor blob: `45bb5ab6ec61dd827c53a3ffe9121109cf9321dc`.
+- Current-main Math Hopper smoke workflow blob: `7196328410bf38effdd545a3d8d47dacea8259ea`.
+- PR #1173 workflow blob: `eb60a85cb98edcac3542ad08955a9dde40db8030`.
+- Ravel source-audit supplement blob: `6ac44df8a144178491f713ffe468740e60c9f5b2`.
+
+These full hashes supersede the abbreviated locators in the main report. No substantive conclusion changes.
