@@ -452,3 +452,26 @@ Do not confuse existence/searchability with having read the source.
 If this continuity packet itself becomes stale, preserve it as a dated checkpoint rather than rewriting history. Update it by explicitly reconciling newer Nathan directives and newer repo controls. If a future Ravel discovers a contradiction, record both the old statement and the newer controlling correction with provenance.
 
 The goal is seamless continuation **without false continuity**.
+
+
+## 2026-11-01 | Lane 00 time-history graph and source-fidelity pass
+
+The May 2026 SAT++ discussion was re-read with source-critical separation. The flattened transcript does not carry raw role metadata. Conversation-context corroboration identifies user turns about a 3D coil cross-section carried along a persistence direction, symmetry-first treatment of time, and historical equivalence among block/timesheet/distributed-dynamics descriptions. That equivalence is historical only: an October 20 raw user-role message explicitly says the reciprocal description is no longer current since Klein Fabric became common.
+
+The later raw Meridian Free Build messages provide direct source anchors:
+- 2026-10-09 21:13:43Z, message 6f00a97a-aa84-45bf-9429-4ff70736014a: one helical core; outer coil hollow.
+- 2026-10-09 21:50:55Z, message 3c657387-b80b-4982-a61a-8e6d8568b8d1: worldtube resistance associated with inertia; classical particle motion described through filament topology.
+- 2026-10-09 22:46:38Z, message 5a929b5e-515e-4f77-a32a-e49feef42812: time surface described as an interacting 3D bulk; quoted assistant material is not direct authorship.
+- 2026-10-10 03:40:38Z, message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1: 3D intersectional trace of a 4D filament; coil radius is not filament thickness.
+
+The assistant's early 1D-helix / “4D worldline” reconstruction conflated intrinsic and ambient dimension. The corrected typing distinguishes a 1D centerline, its 2D history, a 3D finite-core cross-section, and its 4D history. A 3D timesheet can intersect the 4D core history in a 3D slice under regularity/transversality conditions.
+
+PR #1133 was extended on its existing branch:
+- History graph and spatial/time projection lemmas: commit 2523f2c4517872045f72e3b589d0498a5eb6f659. Actions #41261202834 succeeded; 8,945 build jobs. The spatial-projection noninjectivity theorem has no axioms; slice equality uses propext and Quot.sound.
+- Product-space dimension increment: commit d63e788d39d2ac0f2c161eee64d05b4c1987506e. Actions #41261628435 succeeded; 8,945 build jobs. The product theorem uses propext, Classical.choice, and Quot.sound.
+
+This is a set-level/product-space formalization, not a proof that a physical SAT/H(s)H history is a smooth product manifold. Expansion/propagation map, core-thickening map, response operator, and current Klein Fabric composition map remain undefined.
+
+Public-safe issue #1183 was submitted through the existing publisher; run #41262141571 was still in progress at the last check. Do not claim publication until the publisher receipt and independent repository readback are verified.
+
+Next cursor: verify issue-publisher run #41262141571 and read back the generated submission artifact; do not create a duplicate issue. Then specify the missing maps before attempting a manifold-dimension or physical-dynamics theorem. No CODATA work or BEDROCK promotion.

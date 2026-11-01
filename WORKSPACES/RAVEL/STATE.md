@@ -83,3 +83,14 @@ Keep charge, mass, exclusion, Kelvin reach, and any EM/gravity weighting as live
 ## Next restart action
 
 Read `CONTINUITY.md`, then inspect repo changes newer than the recorded checkpoints. Do not assume this file is current merely because it is named `STATE.md`. Sandbox reconstruction is active project-wide; before propagating any sandbox result outside sandbox, re-check the project-wide standdown and obtain the required release/promotion authority.
+
+
+## 2026-11-01 | Lane 00 source-fidelity update
+
+- Added a time-indexed spatial-support graph and explicit spatial/time projections to the existing Ravel formalization in PR #1133.
+- First Lean merge-reference build succeeded: Actions #41261202834 / job #124714661505; target module blob matched the PR-head blob.
+- Added a conditional product-space dimension theorem in commit d63e788d39d2ac0f2c161eee64d05b4c1987506e. Actions #41261628435 / job #124715902852 succeeded; target module blob matched the PR-head blob.
+- The May 2026 flattened transcript has no raw role metadata. Later October 2026 raw user-role messages support the core/coil/timesheet distinctions. The May representation-equivalence discussion is historical; the October 20 Klein Fabric correction supersedes it as the current model.
+- No physical dynamics, expansion map, thickening map, or response operator was supplied. No theory promotion, physical calculation, or CODATA scoring.
+- Public-safe addendum is in WORKSPACES/RAVEL/2026-11-01T0145Z_TIME_HISTORY_GRAPH_ADDENDUM.md; publisher issue #1183 is submitted and its intake workflow is pending verification.
+- Next cursor: verify publisher run #41262141571 and exact readback; then define the current Klein Fabric composition map and missing expansion/propagation and core-thickening maps.
