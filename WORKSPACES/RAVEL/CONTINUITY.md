@@ -614,3 +614,10 @@ Prior Ravel issue #1194 now PUBLISHED_VERIFIED; artifact and issue payload match
 Proposed holdout: freeze one dimensionful calibration anchor only after dimensionless closure; compare one-core H(s)H predictions of both electric and magnetic form factors and raw cross sections against the same standard nuclear-current/MEC comparator. Require full covariance and pre-registered 95% predictive region/global p<0.05. This is a proposed gate, not adopted; no global score is currently possible. If F_C and F_M remain independently adjustable, H(s)H is not distinguished from standard two-form-factor freedom.
 
 No new tool/dependency/branch/PR. Existing PR #993 extended. BEDROCK/theory/papers unchanged. Code Grurple ACTIVE; Nov 9 P1, Nov 30 P2, Dec 14 P3 separate. Orson's P1 cognition remit untouched; no inbox/task transfer. FIE not due. TheTANGLE cursor 1241 remains. Existing :36 automation enabled and unchanged; no sixth task.
+
+ 
+### Publication closure — 2026-11-01T0836Z
+
+Issue #1202 is PUBLISHED_VERIFIED. Submission `ravel-worldtube-em-readout-helion-holdout-20261101t0836z-s3-001`; publisher commit `96625b4b1aaa9357a2576869d0055c04e4ec548a`; artifact blob `a07f0217aeaacc546fdb23f1b4271b380351baca`; SHA-256 `0c0572b38478800ab281c636aa4cfae953e05943d2da65600022a73e5c6b47ea`. Exact issue-body/artifact comparison and independent SHA-256 recomputation passed; publisher readback verified. Comment #6555785289 records a typographic correction without rewriting the immutable artifact.
+
+Primary receipt `2026-11-01T0836Z_s3_ravel.md` and context-only Orson handoff `2026-11-01T0836Z_from_s3_to_s4_orson.md` were committed and read back. No Orson inbox write, task transfer, acknowledgment, or cross-thread delivery is claimed.
