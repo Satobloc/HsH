@@ -477,7 +477,7 @@ The actual Lean run completed successfully: workflow run `#41330715937`, job `#1
 
 ### 10.3 Proof status
 
-`BUILD_SUCCESS_MERGE_REF_MODULE_BLOB_MATCH / PR_HEAD_NOT_CHECKED_OUT / AXIOM_AUDIT_SKIPPED`. No theorem is promoted to BEDROCK. If the CI succeeds, a source-linked Factory Floor intake packet is required; it remains a workshop intake, not acceptance of the physics.
+`BUILD_SUCCESS_MERGE_REF_MODULE_BLOB_MATCH / PR_HEAD_NOT_CHECKED_OUT / AXIOM_AUDIT_SKIPPED`. No theorem is promoted to BEDROCK. Factory Floor intake issue #14 was created and its README intake register was updated. This is 1 GLASS+HSH intake only, not a WORKSHOP decision, H(s)H candidacy, or acceptance of the physics.
 
 ## 11. Cross-domain lens check
 
