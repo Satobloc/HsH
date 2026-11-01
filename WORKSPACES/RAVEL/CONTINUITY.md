@@ -472,6 +472,6 @@ PR #1133 was extended on its existing branch:
 
 This is a set-level/product-space formalization, not a proof that a physical SAT/H(s)H history is a smooth product manifold. Expansion/propagation map, core-thickening map, response operator, and current Klein Fabric composition map remain undefined.
 
-Public-safe issue #1183 was submitted through the existing publisher; run #41262141571 was still in progress at the last check. Do not claim publication until the publisher receipt and independent repository readback are verified.
+Public-safe issue #1183 was published through the existing publisher. Run #41262141571 / job #124717398929 succeeded; publisher comment #6551903421 records the file path, commit, SHA-256, and readback. An independent fetch of the published file exactly matched the issue payload.
 
 Next cursor: verify issue-publisher run #41262141571 and read back the generated submission artifact; do not create a duplicate issue. Then specify the missing maps before attempting a manifold-dimension or physical-dynamics theorem. No CODATA work or BEDROCK promotion.
