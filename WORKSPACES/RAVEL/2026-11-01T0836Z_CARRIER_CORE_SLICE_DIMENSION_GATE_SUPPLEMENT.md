@@ -144,9 +144,20 @@ The module deliberately does **not** instantiate a physical carrier, normal bund
 Branch head after proof repair: `10099fa9b9a8175269405bd77e71e0803143f645`.  
 New module blob after proof repair: `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`.  
 Root aggregator blob: `db4d5e73e00c46ae30804d20cf380dbbe805418e`.  
-Actions runs: `41292061092` (cancelled before compile), `41292069239` (job `124805479699`, failed at the new generic dimension lemma), and a corrected follow-up run pending for head `10099fa9b9a8175269405bd77e71e0803143f645`.
+Actions runs: `41292061092` (cancelled before compile), `41292069239` (job `124805479699`, one proof failure corrected), and `41292451762` (job `124806308038`, SUCCESS).
 
-**Lean status: CORRECTED BUILD PENDING.** The first complete merge-ref build attempt, run `41292069239`, compiled the surrounding library and executed the `#eval` profile output `[(3, 0), (2, 1), (1, 2), (0, 3)]`, but failed one goal at line 67: `omega` did not unfold the named expected-intersection definition in `carrierSliceDimension_eq_k_minus_one`. This was a genuine proof failure, not a dependency or checkout failure. The proof was repaired by explicitly changing the goal to `k + 3 - 4 = k - 1` before `omega`; `#print axioms` commands were also added for the principal results. The corrected module blob is `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4` at branch head `10099fa9b9a8175269405bd77e71e0803143f645`. The follow-up Actions run has not yet been observed. No successful Lean compilation is claimed. Any eventual PR workflow result must be classified by its actual merge-ref checkout; no exact-head standalone build is claimed.
+**Lean status: MERGE-REF BUILD SUCCESS.** Corrected Actions run `41292451762`, job `124806308038`, checked out merge commit `81da81cf87218b1ab5c2666b55c896af1781444e`, which merges PR head `10099fa9b9a8175269405bd77e71e0803143f645` into base `61cc8b65ffed70296e0121dbae067892a79c81d4`. The new module blob (`69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`) and root aggregator blob (`db4d5e73e00c46ae30804d20cf380dbbe805418e`) were independently fetched at both PR head and merge ref and matched exactly.
+
+Lean 4.34.0 / Lake 5.0.0 completed the full `lake build`: **8,946 jobs, success**. The new module built as target `8928/8946` in 6.8 seconds. Its `#eval` emitted `[(3, 0), (2, 1), (1, 2), (0, 3)]`.
+
+The module's `#print axioms` results:
+- `carrierSliceDimension_eq_k_minus_one`: `[propext, Quot.sound]`.
+- `positiveNormalRank_implies_carrier_lt_four`: `[propext]`.
+- The concrete line/core dimension results and `inducedMap_commutingWitness`: no axioms reported.
+
+The full decoded job log contains **0 `sorryAx` and 0 `admit` occurrences**. Tests, lint, nanoda, and the separate automated axiom-audit action were skipped; the theorem-specific `#print axioms` commands did run. This is a merge-ref build, **not** a standalone exact-PR-head build. The earlier module-only run `41292061092` was cancelled before compile when the aggregator commit superseded it; run `41292069239` exposed the single proof failure, which was repaired before the successful run.
+
+Lean checks only these formalized arithmetic and conditional pullback statements. It does not prove the physical existence of a carrier, normal bundle, Kerr fiber, tubular/sweep map, transversality, slice-preserving law, or electromagnetic response. It does not establish the soundness of the source-to-formal translation or any physical premise.
 
 ## 5. Structural test matrix
 
