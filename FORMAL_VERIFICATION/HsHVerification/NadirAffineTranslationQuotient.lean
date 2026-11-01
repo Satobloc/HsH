@@ -34,7 +34,7 @@ namespace HsHVerification.NadirAffineTranslationQuotient
 variable {V : Type*} [AddCommGroup V] [Module ℝ V]
 
 /-- Relative radius scale σᵢⱼ = rⱼ / rᵢ from the historical framed-sphere source. -/
-def relativeScale (r_i r_j : ℝ) : ℝ := r_j / r_i
+noncomputable def relativeScale (r_i r_j : ℝ) : ℝ := r_j / r_i
 
 /-- Relative frame Qᵢⱼ = Fⱼ ∘ Fᵢ⁻¹. -/
 def relativeFrame (F_i F_j : V ≃ₗ[ℝ] V) : V ≃ₗ[ℝ] V :=
@@ -46,7 +46,7 @@ def similarityMap (c_i c_j : V) (σ : ℝ)
   c_j + σ • Q (x - c_i)
 
 /-- Specialization of the similarity map to the relative radius and frame data. -/
-def framedSimilarityMap (c_i c_j : V) (r_i r_j : ℝ)
+noncomputable def framedSimilarityMap (c_i c_j : V) (r_i r_j : ℝ)
     (F_i F_j : V ≃ₗ[ℝ] V) (x : V) : V :=
   similarityMap c_i c_j (relativeScale r_i r_j)
     (relativeFrame F_i F_j) x
@@ -67,8 +67,8 @@ theorem relativeScale_comp
   field_simp [h_i, h_j]
   ring
 
-/-- The framed-sphere maps form a composable groupoid under the stated
-    nonzero-radius conditions. No orthogonality assumption is needed:
+/-- The framed-sphere similarity maps compose under the stated nonzero-radius
+    conditions. No orthogonality assumption is needed for this algebraic identity:
     arbitrary invertible linear frames suffice. -/
 theorem framedSimilarityMap_comp
     (c_i c_j c_k : V) (r_i r_j r_k : ℝ)
@@ -78,17 +78,9 @@ theorem framedSimilarityMap_comp
       (framedSimilarityMap c_i c_j r_i r_j F_i F_j x) =
     framedSimilarityMap c_i c_k r_i r_k F_i F_k x := by
   unfold framedSimilarityMap similarityMap
-  change c_k + relativeScale r_j r_k •
-      relativeFrame F_j F_k
-        ((c_j + relativeScale r_i r_j •
-          relativeFrame F_i F_j (x - c_i)) - c_j) =
-    c_k + relativeScale r_i r_k •
-      relativeFrame F_i F_k (x - c_i)
-  rw [add_sub_cancel_left]
-  rw [map_smul]
-  rw [relativeFrame_comp_apply]
-  rw [smul_smul]
-  rw [relativeScale_comp r_i r_j r_k h_i h_j]
+  simp only [add_sub_cancel_left]
+  rw [map_smul, smul_smul, relativeFrame_comp_apply,
+    relativeScale_comp r_i r_j r_k h_i h_j]
 
 /-- The linear part L = σQ of the affine representation. -/
 def similarityLinearPart (σ : ℝ) (Q : V ≃ₗ[ℝ] V) : V →ₗ[ℝ] V :=
@@ -105,9 +97,7 @@ theorem similarityMap_affine_form
     (c_i c_j x : V) (σ : ℝ) (Q : V ≃ₗ[ℝ] V) :
     similarityMap c_i c_j σ Q x =
       similarityLinearPart σ Q x + affineIntercept c_i c_j σ Q := by
-  simp [similarityMap, similarityLinearPart, affineIntercept,
-    map_sub, smul_sub, sub_eq_add_neg, add_assoc, add_comm, add_left_comm]
-  <;> abel
+  simp [similarityMap, similarityLinearPart, affineIntercept]
 
 /-- Simultaneously translating both frame centers leaves their displacement unchanged. -/
 theorem centerDisplacement_origin_invariant
@@ -123,9 +113,8 @@ theorem affineIntercept_origin_shift
       affineIntercept c_i c_j σ Q +
         ((LinearMap.id : V →ₗ[ℝ] V) -
           similarityLinearPart σ Q) g := by
-  simp [affineIntercept, similarityLinearPart, map_add, smul_add,
-    sub_eq_add_neg, add_assoc, add_comm, add_left_comm]
-  <;> abel
+  simp [affineIntercept, similarityLinearPart, map_add, sub_eq_add_neg,
+    add_assoc, add_comm, add_left_comm]
 
 /-- Explicit I-L linear map. -/
 def identityMinus (L : V →ₗ[ℝ] V) : V →ₗ[ℝ] V :=
@@ -141,8 +130,9 @@ theorem affineObstructionClass_eq_zero_iff
     (L : V →ₗ[ℝ] V) (t : V) :
     affineObstructionClass L t = 0 ↔
       t ∈ LinearMap.range (identityMinus L) := by
-  simp only [affineObstructionClass, Submodule.mkQ_apply,
-    Submodule.Quotient.mk_eq_zero, identityMinus]
+  change (Submodule.Quotient.mk t : V ⧸ LinearMap.range (identityMinus L)) = 0 ↔
+    t ∈ LinearMap.range (identityMinus L)
+  exact Submodule.Quotient.mk_eq_zero (LinearMap.range (identityMinus L))
 
 /-- Changing the origin by g shifts t by (I-L)g but leaves its quotient class unchanged. -/
 theorem affineObstructionClass_origin_shift
@@ -183,7 +173,7 @@ def matrixResidualEntry (Q : Matrix (Fin 4) (Fin 4) ℝ)
   Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2
 
 /-- The proposed Run 141 linear residual, written as a squared Frobenius residual. -/
-def linearResidual (σ : ℝ) (Q : Matrix (Fin 4) (Fin 4) ℝ) : ℝ :=
+noncomputable def linearResidual (σ : ℝ) (Q : Matrix (Fin 4) (Fin 4) ℝ) : ℝ :=
   (Real.log σ)^2 +
     ∑ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
       (matrixResidualEntry Q p)^2
@@ -214,7 +204,8 @@ theorem linearResidual_eq_zero_iff
     have hentries :
         ∀ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
           matrixResidualEntry Q p = 0 := by
-      exact (Finset.sum_sq_eq_zero_iff).mp hsum_zero
+      exact (Finset.sum_sq_eq_zero_iff
+        (Finset.univ : Finset (Fin 4 × Fin 4)) (matrixResidualEntry Q)).mp hsum_zero
     have hQ_one : Q = 1 := by
       ext i j
       have hij := hentries (i, j) (Finset.mem_univ _)
