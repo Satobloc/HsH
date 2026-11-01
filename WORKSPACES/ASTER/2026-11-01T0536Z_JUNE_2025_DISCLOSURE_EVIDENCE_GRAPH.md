@@ -187,3 +187,6 @@ Local prerequisites `pypdf 5.9.0`, `pdftotext`, `tesseract`, and `pdftoppm` are 
 Current report version is sanitized for the public HsH repository: it contains no raw conversation/message identifiers, direct user excerpts, or third-party identity/biographical details. It records only the high-level evidence disposition and public archive-artifact identities.
 
 No public issue was created. No BEDROCK, theory, SAT-O/Blockwave equation, manuscript, paper gate, task ID, automation, schedule, or branch was changed. No physical calculation, fit, measurement, Lean theorem, new PR, or new tool was created.
+
+
+**Repository-history privacy note:** An earlier draft commit of this report contained raw source locators and a short direct excerpt. The current version removes those items. The earlier commit remains in Git history; no history rewrite was performed.
