@@ -447,3 +447,9 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Direct raw Sept 7 user message `1896b541-a337-4638-b4f8-b1d53b549c6c` supports propagation-aligned filament as vacuum baseline, but does not name θ₄ or inverse pitch. March 7 plane-relative raw source and July 3 normal-relative transcript may be complementary under explicit Euclidean assumptions; no source transition is promoted.
 - Inverse pitch remains dimensionally underspecified (1/length versus dimensionless angle); no length scale or dimensionless ratio is sourced. Formalization status FORMALIZATION_BLOCKED_DEFINITION. No new Lean, physical calculation, theory work, BEDROCK edit, or publication. Existing issue #1159 remains PUBLISHED_VERIFIED.
 - Morrow theory freeze and training standdown preserved. Unrelated-reading cursor remains line 661; FIE review not due.
+
+
+### 2026-11-01T0012Z | receipt pointer
+
+- Common execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0012Z_s1_morrow.md`, blob `8d6dc4725071375bb194f46e9b187e1fb64cba69`, commit `a5436291905bd5cfe8c5c3e0411605d537097b38`, exact readback PASS.
+- Receipt records the July 3 transcript-witness correction, current Mersearch/branch state, no-theory/no-training boundary, and repository-only Kestrel/Tern routing. It does not claim historical Morrow participation or cross-thread delivery.
