@@ -60,3 +60,8 @@ These are map destinations, not demonstrated equivalences. The standard observab
 ## Machine-readable companion
 
 [Open the crosswalk JSON](STANDARD_PHYSICS_SAT_WORKER_CROSSWALK_2026-11-01.json).
+
+
+## 2026-11-01 CKM source-faithful numerical audit
+
+A source-faithful comparison is now recorded in [the dedicated CKM audit](STANDARD_PHYSICS_CKM_SOURCE_FAITHFUL_AUDIT_2026-11-01.md), with executed Python script and JSON output. Because the direct user message explicitly calls θ12 an angle in radians, compare sin(θ12) to PDG sin θ12: 0.223229475433 versus 0.22517 ± 0.00068 (−2.8537 one-sided reference σ). With the source's approximate S=0.2621, sin θ23 gives +0.1887σ and sin θ13 gives −2.3716σ against PDG 2026 global-fit values. These are not combined significance or validation; S uncertainty/covariance are unavailable and PDG values are global-fit parameters. The source's J_obs sign inconsistency is retained unresolved.
