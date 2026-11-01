@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.RavelCarrierSliceReconstruction
 import HsHVerification.RavelCouplingDimensionalAudit
 import HsHVerification.RavelCarrierSheetDimensionGate
+import HsHVerification.RavelTwoFormCurrentProjection
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
