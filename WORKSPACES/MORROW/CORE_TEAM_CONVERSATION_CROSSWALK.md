@@ -128,3 +128,28 @@ M-container snapshot coverage for the two citation-bearing answers:
 - `362075c5e32ec9e97579bd1de58fba7f612cb6bb` (465 nodes): both answers present; citation status `complete`.
 
 Interpretation: the message-level snippet matches are supported by the development A-container snapshots, not by the smaller live snapshot. The stable container `create_time` and `pub_date` survive across snapshots; message presence and citation status vary with export coverage. This is snapshot provenance, not evidence of deletion, runtime retrieval, or causal transfer.
+
+
+## 2026-11-01 — later M-container snapshot and joint Morrow/Kestrel thread
+
+The M-container row above is no longer the latest recovered snapshot for its conversation ID. A later export exists at:
+
+`DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json`
+
+- Conversation ID: `6a9ee7ca-d340-83ea-b99d-6a3097429f36` (same M-container ID as above).
+- Git blob: `ee394b446b2e36d35fd1e5ecd004685c0422457b`.
+- Original create time: `2026-09-07T16:43:41.329Z`.
+- Snapshot update time: `2026-09-14T07:11:01.416Z`.
+- 697 mapping nodes / 17 outer-role user messages.
+
+The earlier `362075c5...` export has 465 nodes / 14 user messages and an earlier update time (2026-09-09T12:45:43.552Z). These are two snapshots of the same conversation, not independent witnesses. The later snapshot contains direct user message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (2026-09-13T15:31:22.757Z), which establishes persistent workspace/checkpoint maintenance and routine Common checks. It does not establish the earlier creation of the README/checkpoint, both of which predate that message.
+
+A separate shared archive conversation is also present:
+
+- Title: `Morrow + Kestrel Free Quarry`.
+- Conversation ID: `6acb7c01-3e14-83ea-a977-a958991e35cc`.
+- Git blob: `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`.
+- Created 2026-10-11T12:07:30.878Z; last message 2026-10-15T05:13:23.584Z.
+- 222 mapping nodes / 4 outer-role user messages.
+
+This is a distinct joint Morrow/Kestrel archive thread, not the M-container conversation above and not a verified current standalone Morrow thread. The bounded LIVE CONVOS/registry search still does not authenticate a current Morrow destination. The current scheduled selection remains source-grounded reconstruction, not historical-thread continuity.
