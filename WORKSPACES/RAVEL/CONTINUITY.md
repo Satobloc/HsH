@@ -588,3 +588,29 @@ Mersearch lane 1 and 3 have manifests/compact receipts; lane 2 optics and lane 4
 No physical calculation, fit, paper-gate advancement, theory promotion, public issue submission, new branch/PR, or scheduler change.
 
 Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2224Z_s1_ravel_SUPPLEMENT_01.md (blob 2752b2847b9e661968bce320766ff9e56cf583b4).
+
+
+## 2026-11-01T0836Z — source-defined geometry/readout and helion empirical gate
+
+Preflight: live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, New Instance onboarding, Revival Rotation V3, Ravel README/STATE/CONTINUITY/INBOX, historical Ravel check-in, current PR #1133/#993, incoming Mercer handoff and receipt read. Ravel's original raw user-authored charter remains unrecovered; the 2026-09-12 check-in is a historical specialist record, not an authenticated original charter. Deterministic selection does not authenticate a ChatGPT instance/thread.
+
+Rotation for h=512: seq=2563; index 17 Ravel; ring successor index 18 Orson Vay. Incoming Mercer :36 handoff consumed. No cross-thread delivery claim.
+
+Source-first: direct user-role raw blobs read: Ravel Syncmathcek `c49367b0faa424491e7b3520a034b9e44fe6897f`; Meridian Free Build `7af1561b321f4d9364da5eb111df689efc652827`; DIMENSIONAL GRAVITY `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Preserve one core/hollow winding, epsilon vs ell_f vs unresolved worldtube dimension, active timesheet interaction, qualitative stiffness, and heuristic disclaimer. Kerr/soliton remain tentative. No SAT-O or Blockwave equation accessed or changed.
+
+Report: `WORKSPACES/RAVEL/2026-11-01T0836Z_WORLD_TUBE_TO_EM_READOUT_AND_HELION_HOLDOUT_MATRIX.md`. It defines the missing composition F → W → W∩Σ_t → J_em^μ → (F_C,F_M) → dσ/dΩ, distinguishing the existing set-level labelled pullback from the missing finite-core embedding and physical response/current operator.
+
+Measured system: helion. JLab Hall A E04-018 (Camsonne et al., PRL 119, 162501 (2017), arXiv:1610.07456v1) supplies 18 raw Table I cross-section points and eight Table II extracted absolute form-factor rows. Python computed relative-error ranges from published total errors. Q²_eff=49.0 has one forward-angle point and no magnetic extraction; Q²_eff=60.8 has weak charge and magnetic points. The table lacks full covariance/normalization matrix and omits two-photon-exchange correction. CREMA 2025 radius is a theory-dependent extraction from three measured muonic transitions. Schneider et al. 2022 directly measured the bound-ion g'_I and HFS; the bare-nucleus g_I is derived through shielding. No H(s)H fit/prediction performed.
+
+Proof-first:
+- PR #1133 labelled pullback: Actions #41274705850, job #124754418842, merge ref `b21909cbba62ea56431b49a3993fef028983cbc4`; module/aggregator blobs match PR head; 8,945 jobs; zero sorryAx/admit. Classification MERGE_REF_BUILD_SUCCESS / EXACT_PR_HEAD_NOT_STANDALONE_VERIFIED.
+- PR #993 measured-input branch extended with `RavelHelionJLabE04018DataGate.lean`; Actions #41290025410, job #124799444666, merge ref `ce0bfd4f6d6ecc50cc46ac5c6b1b1fb490f3991f`; module/aggregator blobs match PR head; 8,949 jobs; ten theorem-specific axiom reports, three no axioms and remaining only standard Lean axioms; zero sorryAx/admit. Tests/lint/nanoda/separate axiom audit skipped. Classification MERGE_REF_BUILD_SUCCESS / EXACT_PR_HEAD_NOT_STANDALONE_VERIFIED.
+- Correction: earlier PR #993 run #41207194774 was also a merge-ref build, not exact-head. Ravel amendment 01 supersedes the previous exact-head label.
+
+Factory Floor: README and FLOORROOM_TODO read; Markdown issue register only, machine-readable intake companion still future, no stable Floor ID. Pending packet created in Ravel workspace; no direct issue/write/delivery.
+
+Prior Ravel issue #1194 now PUBLISHED_VERIFIED; artifact and issue payload match exactly, publisher comment #6553633151, artifact blob `1930ed7f17a75a18f85df50c3c03bfb9c23e4c81`, SHA-256 `c32f41c92a86ffaa23d35ab52cf34db29fb0c9b403ad05c1440be5ade59e7e45`. Prior report amendment 01 records this and the PR #1133 merge-ref build.
+
+Proposed holdout: freeze one dimensionful calibration anchor only after dimensionless closure; compare one-core H(s)H predictions of both electric and magnetic form factors and raw cross sections against the same standard nuclear-current/MEC comparator. Require full covariance and pre-registered 95% predictive region/global p<0.05. This is a proposed gate, not adopted; no global score is currently possible. If F_C and F_M remain independently adjustable, H(s)H is not distinguished from standard two-form-factor freedom.
+
+No new tool/dependency/branch/PR. Existing PR #993 extended. BEDROCK/theory/papers unchanged. Code Grurple ACTIVE; Nov 9 P1, Nov 30 P2, Dec 14 P3 separate. Orson's P1 cognition remit untouched; no inbox/task transfer. FIE not due. TheTANGLE cursor 1241 remains. Existing :36 automation enabled and unchanged; no sixth task.
