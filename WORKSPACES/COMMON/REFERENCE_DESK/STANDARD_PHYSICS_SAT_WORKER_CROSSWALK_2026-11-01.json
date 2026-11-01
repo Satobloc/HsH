@@ -108,7 +108,7 @@
       "worker_refs": [
         "Satobloc/HsH#411"
       ],
-      "notes": "Do not silently merge with the separate J_shadow expression in #411; exact source genealogy and definitions need reconciliation."
+      "notes": "Direct source states J_obs=J_eff*B^5, J_eff approximately -3.3e-2, but prints J_obs approximately +2.53e-5. Since B^5 is positive, the displayed product sign is inconsistent unless J_obs is intended as a magnitude or a sign convention/definition is missing. Keep unresolved and distinct from #411 J_shadow expression."
     },
     {
       "id": "SAT-DIRECT-CKM12",
@@ -186,5 +186,54 @@
     "mersearch": "No fresh Mersearch run: all four lanes were occupied. Source retrieval for the cited raw.json message used the issue's exact path/locator and independent blob readback; this is not a substitute for a broad Mersearch search.",
     "calculation_policy": "No calculations or re-execution performed in this crosswalk. Synthetic worker calculations are flagged for prior-permission chronology review, not presumed authorized or automatically declared violations.",
     "physical_status": "No SAT/H(s)H construction candidacy or physical validation asserted."
-  }
+  },
+  "calculation_updates": [
+    {
+      "ref": "WORKSPACES/COMMON/REFERENCE_DESK/STANDARD_PHYSICS_CKM_SOURCE_FAITHFUL_AUDIT_2026-11-01.md",
+      "status": "executed_python_real_reference_comparison",
+      "source": "Nathan Direct B and angle formula; approximate S=0.2621; PDG 2026 global-fit Eq. 12.28",
+      "results": {
+        "sin_theta12": {
+          "prediction": 0.22322947543313493,
+          "pdg": 0.22517,
+          "residual": -0.0019405245668650817,
+          "one_sided_pull_sigma": -2.8537125983310023
+        },
+        "sin_theta23": {
+          "prediction": 0.04204286133831604,
+          "pdg": 0.04189,
+          "residual": 0.00015286133831604598,
+          "one_sided_pull_sigma": 0.18871770162474813
+        },
+        "sin_theta13": {
+          "prediction": 0.0035661554681424372,
+          "pdg": 0.003763,
+          "residual": -0.0001968445318575626,
+          "one_sided_pull_sigma": -2.3716208657537665
+        }
+      },
+      "limitations": [
+        "S uncertainty not supplied",
+        "PDG values are global-fit parameters, not raw independent measurements",
+        "no combined chi-square or physical validation"
+      ]
+    },
+    {
+      "ref": "WORKSPACES/COMMON/REFERENCE_DESK/STANDARD_PHYSICS_EQ0018_REAL_DATA_AUDIT_2026-11-01.md",
+      "status": "executed_python_real_data_reproduction",
+      "source": "Measured 3He+ hyperfine splitting and NIST 2022 CODATA; approximate source m0/ell_f/B",
+      "results": {
+        "ell_raw_numeric_coordinate": 4.09186869746603,
+        "ell_dimension": "M^(1/3) L T^(-1/3), not length",
+        "hbar_model_J_s": 5.721992811678646e-35,
+        "hbar_reference_J_s": 1.054571817646156e-34,
+        "relative_residual": -0.45741079783
+      },
+      "limitations": [
+        "upstream formula dimensionally invalid; numeric coordinate not a physical length",
+        "m0 and ell_f uncertainties absent; no statistical pull",
+        "downstream hbar formula belongs to MAY_2026_SNAPSHOT, not Nathan Direct"
+      ]
+    }
+  ]
 }
