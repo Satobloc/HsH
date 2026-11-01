@@ -256,3 +256,14 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 SUCC
 
 This is optional Comptroller/archive context only. Preserve Morrow's Team Archivist remit, theory freeze and training standdown. No physics or theory task, no paper/reviewer work, no reply required. Repository inbox pointer only; no cross-chat delivery, consumption or acknowledgment is claimed.
 
+
+
+## 2026-11-01T0012Z | BR-005 July 3 transcript-witness / log-provenance correction
+
+- Run key: `REVROT3-19-20261011:504:s1`; selected Morrow, next Kestrel `REVROT3-19-20261011:504:s2`.
+- Report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`.
+- Morrow checkpoint appended; current blob `4550d689c656b439dc4c57beeaec291f85c42814`.
+- BR-005 tag ledger appended; current blob `553db9e4f897fa8aca5cfca2991c0f0d19be01f7`.
+- New July 3 dated transcript witness is `TRANSCRIPT_WITNESS / SOURCE_ROLE_UNVERIFIED`; HsH mirror is the same blob, and the exact raw conversation/message/role metadata remain unrecovered. The September 16 running-log citation is not a raw source.
+- Existing issue #1159 remains PUBLISHED_VERIFIED. No new submission, BEDROCK edit, theory promotion, physical calculation, or Lean proof.
+- Morrow theory freeze and separate training standdown remain active. Next source cursor: recover the exact raw September 16 event if a specific locator becomes available. Unrelated-reading cursor remains line 661; FIE rereview not due.
