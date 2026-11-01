@@ -7,7 +7,7 @@
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*ASTER*raw* OR path:*ASTER*raw* OR \"6ab006ce-e358-83ea-b3dd-7b23a26c00fa\" OR \"2285923a-a31f-4547-9e64-5f8581522a95\" OR \"c2c5d227-1833-471a-8656-a06e2fbc56de\" OR \"95912d32-024f-468a-8da3-1c14296b1bd6\" OR \"bc810a2c-21d6-42bb-b9cf-8b3e53589e5a\" OR \"08835209-de28-4de5-a3fc-22a48550425e\") OR (name:*SAT*LAYMAN* OR path:*SAT*LAYMAN* OR name:*SAT*22Jun25* OR path:*SAT*22Jun25* OR name:*SAT*OVERVIEW*17Jun2025* OR path:*SAT*OVERVIEW*17Jun2025*) OR (author:user AND (\"this is what I gave him\" OR \"June 2025\" OR metamaterials)) OR (author:assistant AND (\"SAT 22Jun25.pdf\" OR \"SAT LAYMAN\"))",
+  "query": "(name:*ASTER*raw* OR path:*ASTER*raw* OR name:*SAT*LAYMAN* OR path:*SAT*LAYMAN* OR name:*SAT*22Jun25* OR path:*SAT*22Jun25* OR name:*SAT*OVERVIEW*17Jun2025* OR path:*SAT*OVERVIEW*17Jun2025*) OR (author:user AND (June 2025 OR metamaterials)) OR (author:assistant AND (\"SAT 22Jun25.pdf\" OR \"SAT LAYMAN\"))",
   "purpose": "Aster source-genealogy audit of the reported June 2025 external-contact/disclosure event. Locate permitted original conversation records, direct user-role source messages, attachment metadata, exact SAT LAYMAN and SAT 22Jun25 archive identities, and any contemporaneous transfer/recipient-acknowledgment records. Preserve the distinction between Nathan's later recollection, assistant interpretation of images, archive artifact existence, verified transfer, recipient review, and independent validation. No third-party personal details or raw excerpts are to be published.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
@@ -27,5 +27,8 @@
     "No manuscript, branch, PR, BEDROCK, theory, equation, task or automation changes"
   ],
   "lane": 3,
-  "status": "requested"
+  "status": "staged_not_dispatched",
+  "dispatch_blocker": "The existing Mersearch Request Bridge validates and reads only WORKSPACES/COMMON/MERSEARCH_REQUEST.json. That shared slot remains occupied by the Calder request. This lane-3 file is staged metadata only; it is not a running search. Do not overwrite the shared request slot or claim execution until a manifest request_id matches this lane-3 request.",
+  "workflow_run_id": null,
+  "execution_status": "NOT_DISPATCHED"
 }
