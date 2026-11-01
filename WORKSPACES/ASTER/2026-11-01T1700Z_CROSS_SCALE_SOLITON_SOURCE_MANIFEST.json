@@ -202,9 +202,17 @@
     {
       "name": "SAT.O13 source",
       "path": "MASS SPECTRUM CALCULATION.txt",
-      "blob": "467a0c",
+      "blob": "467a0c6a24a6f4f071fc20af438420f69b6abe61",
       "source_date": "2025-06-20",
-      "source_class": "separate flavor/mass branch; full SHA retained in Aster report #1221"
+      "source_class": "separate flavor/mass branch; full SHA retained in Aster report #1221",
+      "text_witness_blob": "d50427f21539ca983bc0a1344dc13aa24936c6b5"
+    },
+    {
+      "name": "SATOBLOC/SATOBLOCK-LIVE compilation",
+      "path": "SATOBLOC/SATOBLOCK-LIVE.txt",
+      "blob": "1642375cf78647b9f35f1681d0bccb90685b2a48",
+      "fixed_date": null,
+      "source_class": "undated compilation, not standalone O13 or Blockwave original"
     }
   ],
   "equation_sources": {
