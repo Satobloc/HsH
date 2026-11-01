@@ -34,6 +34,8 @@ timesheet. The helix is a 3D cross-section model, not the full 4D worldline.
 
 namespace HsHVerification.NadirHelixSliceGeometry
 
+noncomputable section
+
 /-- All-plus Euclidean pairing on four coordinates. -/
 def dot4 (n x : Fin 4 → ℝ) : ℝ :=
   ∑ i : Fin 4, n i * x i
@@ -79,7 +81,8 @@ theorem transverse_line_intersection_unique
     (htrans : dot4 n v ≠ 0)
     (ht : onTimeSlice n c (linePoint x v t)) :
     t = sliceParameter n x v c := by
-  unfold onTimeSlice sliceParameter at ht ⊢
+  unfold onTimeSlice at ht
+  unfold sliceParameter
   rw [dot4_linePoint] at ht
   have hmul : t * dot4 n v = c - dot4 n x := by
     linarith
@@ -113,7 +116,7 @@ theorem circularHelix_slice_z
 
 /-- Squared radial separation is r^2, independent of pitch and slice height. -/
 theorem circularHelix_slice_radius_sq
-    (r pitch z0 : ℝ) (hpitch : pitch ≠ 0) :
+    (r pitch z0 : ℝ) (_hpitch : pitch ≠ 0) :
     (circularHelix r pitch (helixSlicePhase pitch z0)).1 ^ 2
       + (circularHelix r pitch (helixSlicePhase pitch z0)).2.1 ^ 2
       = r ^ 2 := by
