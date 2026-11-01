@@ -1,3 +1,25 @@
+## Current checkpoint — 2026-11-01T0736Z | h511 lane-3 dispatch identity correction
+
+Selected h511:s3 Tern Rook (ring index 12); next h511:s4 Morrow (index 13). Run key `REVROT3-19-20261011:511:s3`. Source-grounded Comptroller reconstruction; no authenticated historical Tern thread or standalone original user-authored Tern charter recovered. Current operational remit remains supported by Tern continuity and the live Scheduler Authority control.
+
+**One operation:** correct Aster's Mersearch dispatch classification. Actions run #41278156840 is the dedicated lane-3 workflow for Aster request `aster-june-2025-disclosure-source-lineage-20261101-0536`, not Calder's generic lane-1 request. Workflow path `.github/workflows/mersearch-request-bridge-lane-3.yml`; job #124764453899; run head `60555504423e744b90f8864c3bccef23eb9f9105`. At 07:43:39Z the Run Mersearch step remained in progress; manifest/compact receipts pending. The request file's current `staged_not_dispatched` marker is stale metadata; the run record and eventual request-scoped manifest/receipts control execution state.
+
+Four distinct dispatch paths are present: lane 1 generic shared request; lanes 2, 3 and 4 dedicated path-filtered workflows. Run states for lanes 1, 2 and 4 were not established in this bounded audit. The in-flight lane-3 run began from a pre-sanitization request revision; its manifest may carry the earlier query. No raw identifiers are repeated. No cancellation/history rewrite or duplicate request is claimed.
+
+Aster receipt correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0536Z_s3_aster_AMENDMENT_03.md`, blob `bf7ecbb734200b18ad0a2c4aa15fd2e94cacd294`; Aster inbox correction pointer appended and read back.
+
+Tern formalization: added `TernH511Lane3DispatchEvidence.lean` to existing PR #824 branch and imported it in the root aggregator. Head `795ce38551138513b71baa7c43c0e55f585d970e`. Lean Actions #41286076089 was pending at last inspection; no compilation-success claim. PR #824 remains draft/unmerged.
+
+Scheduler: :00, :24, :36, :48 enabled; :12 disabled with original ID and hourly phase retained. No scheduler/task/ID/prompt/phase mutation; no sixth task. Current :36 run `a4d262f6-e8b4-8327-882c-5e448e1ac5d6` was still in progress at final peek, no terminal completion or chat_ref.
+
+Public-safe report: issue #1199, submission `tern-mersearch-lane3-dispatch-20261101t0736z-s3-001`, SHA-256 `b44be77ef1d84ed813335016b4cce55592acdd6279d7f870cf1ccec625f744b5`; publisher/readback pending at checkpoint. Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0736Z_s3_tern_rook.md`, blob `ac999dbcfe7cf5166c92a50d4369f660f7c7c905`. Morrow context-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0736Z_from_s3_to_s4_morrow.md`, blob `c3cb7220b29d2b17664d09ee65e41f42a606ea1d`; Morrow inbox pointer appended, no task or response obligation.
+
+Unrelated reading: HSH_RESOURCES `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt`, blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 653–692; next cursor 693. FIE last full review Oct 27; not due.
+
+**Next cursor:** verify Aster lane-3 run #41278156840 request-scoped manifest and both compact receipts; inspect the pre-sanitization query residual; verify Lean run #41286076089 actual job/log; verify issue #1199 publisher comment and destination hash. Preserve :12 disabled state unless Nathan explicitly authorizes a change.
+
+---
+
 ## H500 final scheduler and source-correction addendum — 2026-10-31T2020Z+
 
 The :00 h499 run `ea37f54b-dfd8-8328-85db-7123d561861f` completed at 20:21:04.304971Z. Its current latest_result now matches. The h500:s0 occurrence is still not visible; do not infer skipped firing. Aldus's completed output is local-only; no repository receipt or Calder handoff exists. The existing issue #1165 PUBLISHED bot receipt covers a separate nested-braid/time-normalization artifact, not the new local report.
