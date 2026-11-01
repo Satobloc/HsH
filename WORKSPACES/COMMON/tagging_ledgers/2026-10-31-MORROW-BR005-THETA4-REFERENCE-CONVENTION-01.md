@@ -36,3 +36,17 @@
 PARTIALLY_SOURCE_ANCHORED / REFERENCE_CONVENTION_TRANSITION_UNRESOLVED / INVERSE_PITCH_CLAUSE_UNRESOLVED.
 
 No BEDROCK change, theory promotion, new Lean module, physical calculation, prediction, or new Mersearch request.
+
+
+## 2026-11-01T0012Z — earlier July 3 transcript witness; raw-role status unchanged
+
+**Additive relation:** CLARIFIES the previous “September 16 inverse-pitch clause remains log-only” wording. It does not supersede the unresolved raw-source status.
+
+- `SAT ALL TOGETHER SYNTHESIS.txt`, archive blob `86cf006ca5ebf58263552c7515a9c9d575caae37`, 2026-07-03, 37,220 characters / 142 lines. HsH mirror is byte-identical (same Git blob), not an independent witness.
+- The transcript states normal-relative θ₄=0 at line 47, tentatively relates the at-rest helical contact to inverse pitch at line 51, and at line 126 says mass ratios belong to worldline geometry while filament-timesheet mutual distortion derives from them, not vice versa.
+- The ingestion ledger blob `8c095421bcc00d58059eddbcfdb7a62a1486bc13` describes the source as user-led verbal reconstruction plus user corrections, but its referenced `(2)` filename is absent and no raw conversation/message metadata was recovered. Tag as `DATED_TRANSCRIPT_WITNESS`, `SOURCE_ROLE_UNVERIFIED`, `NORMAL_REFERENCE_WITNESS`, `INVERSE_PITCH_TENTATIVE`, `WORLDLINE_MASS_RATIO_DIRECTIONALITY`, `NOT_RAW_EXPORT`.
+- `SAT REDISCOVERY.txt` and `SATOBLOC MISC/SAT REDISCOVERY.txt` are duplicate blob `e7384f09394c7e477ef9db13c550163edfd52708`; the `pasted` marker and assistant critique confirm derivative/transcript context, not raw role evidence.
+- The September 16 `RUNNING_COTHEORIST_LOG.md` entry (blob `5394ff86abc5516c693985b82629801d76f28c17`, line 49) remains a working-log record. Its apparent raw candidate in All-Worker Standards Read is tool output, not a user-role source.
+- Therefore the exact September 16 raw user event remains unrecovered. The earlier July 3 witness refines chronology but does not authenticate the BR-005 “ND” label by itself. Keep current BEDROCK unchanged and route source-authority review separately.
+- Formalization remains `FORMALIZATION_BLOCKED_DEFINITION`: inverse pitch needs a source-defined length scale/dimensionless ratio and a typed helix/frame construction. No new Lean or physical calculation.
+- Related raw sources remain: March 7 plane-relative messages (conversation `69ab6f13-b8f8-832e-8d71-528c15e11037`, blob `dfdaec331846087af7daf0008eba431520a5b9ad`); March 13 composite-angle message (conversation `69b3b56e-7540-8325-b93b-e9331fe95430`, blob `e3e40b1a167d26f2d153667d761746f9a4788db1`); September 7 propagation-aligned vacuum message (conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, blob `c49367b0faa424491e7b3520a034b9e44fe6897f`, message `1896b541-a337-4638-b4f8-b1d53b549c6c`).
