@@ -453,3 +453,16 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 
 - Common execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0012Z_s1_morrow.md`, blob `8d6dc4725071375bb194f46e9b187e1fb64cba69`, commit `a5436291905bd5cfe8c5c3e0411605d537097b38`, exact readback PASS.
 - Receipt records the July 3 transcript-witness correction, current Mersearch/branch state, no-theory/no-training boundary, and repository-only Kestrel/Tern routing. It does not claim historical Morrow participation or cross-thread delivery.
+
+
+## 2026-11-01T0400Z | θ₄ semantic taxonomy and source-fidelity addendum
+
+- Report: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM.md`.
+- New raw direct source recovered in SAT archive “Geometry in Physics”: conversation `6a25a665-dc92-8bcb-a5ef-5f0b5e87b2ce`, blob `2e0c8477873583b92f20a0a3f2af6528643b4a8a`. June 10 user node `7c63153a-c483-496f-8ec6-685d294f0375` defines `θ₄ = “filament-time energy transfer”`; “timesheet drag” is proposed as a possible later label, not a verified completed supersession. June 9 user node `0a1829be-9bf1-4801-aba3-da5c0cb67344` directly corrects the particle-object taxonomy: electron single-coil; quarks two-/three-braids; true bosons vibrations on filaments.
+- Source chronology now includes FIE 2025 near-zero vacuum with unspecified reference; March 7 explicit plane-relative θ₄ / vacuum 90°; March 13 composite local tangent + gross orientation; June 10 interaction naming; September 7 propagation-aligned vacuum without θ₄ numeral. September 16 normal-relative θ₄=0 / inverse-pitch remains log-only with raw source unrecovered.
+- Ravel's all-plus single-helix kernel supplies a dimensionally coherent conditional inverse-pitch mapping with radius scale, but remains assistant reconstruction and models only one local tangent. It does not define the direct composite/complex θ₄ readout.
+- Existing Aster PR #674 module was compiled on prior head #40447650215; identical module blob at current PR head, but current full head has no run. The module docstring's “later Nathan-direct clarification” source attribution to the running log is not verified. No PR edit.
+- Existing issue #1159 remains PUBLISHED_VERIFIED; no new issue because no publisher append route and duplicate risk.
+- Morrow theory freeze/training standdown preserved. No theory, physical calculation, CODATA, prediction, paper, BEDROCK or symbol-registry edit.
+- Jacoby lines 661–700 read; next cursor 701. FIE last full review 2026-10-27; rereview not due.
+- Next source cursor: recover the raw September 16 message/role/parent behind the log attribution. Preserve the distinction between angle, interaction naming, and composite readout.

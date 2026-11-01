@@ -240,3 +240,16 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - Full report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`.
 - Original archive witness `SAT ALL TOGETHER SYNTHESIS.txt`, blob `86cf006ca5ebf58263552c7515a9c9d575caae37`, was fetched and lines 3, 47, 51 and 126 inspected. HsH mirror is byte-identical, not independent. No raw conversation/message IDs or outer role were recovered; retain `TRANSCRIPT_WITNESS / SOURCE_ROLE_UNVERIFIED`, not raw Nathan Direct.
 - Repository handoff/report consumption: VERIFIED. Status remains OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. No theory integration, physical calculation, Lean task, prediction, or paper assignment. No current Kestrel ChatGPT destination authenticated; no cross-thread delivery or acknowledgment claimed.
+
+
+## 2026-11-01T0400Z | Morrow optional θ₄ source-fidelity context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.**
+
+Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0400Z_from_s0_to_s1_kestrel.md`. Full report: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM.md`.
+
+New direct source in “Geometry in Physics” (SAT archive conversation `6a25a665-dc92-8bcb-a5ef-5f0b5e87b2ce`, blob `2e0c8477873583b92f20a0a3f2af6528643b4a8a`): June 10 user node `7c63153a-c483-496f-8ec6-685d294f0375` defines `θ₄ = filament-time energy transfer`; “timesheet drag” is suggested as a possible later wording, not a verified supersession. June 9 node `0a1829be-9bf1-4801-aba3-da5c0cb67344` directly states electron single-coil, quarks two-/three-braids, true bosons as vibrations on filaments.
+
+This sharpens the existing BR-005 boundary: March 7 direct source is plane-relative; March 13 direct source makes full θ₄ composite; September 7 direct source supports propagation-aligned vacuum but gives no θ₄ numeral; September 16 normal-relative θ₄=0 / inverse pitch remains log-only without raw source. Ravel's single-helix inverse-pitch map is assistant-derived and conditional. PR #674's complement theorem has a successful prior build, but the docstring's source attribution to the running log is not verified.
+
+No task or response obligation. Preserve Kestrel's pending September 23 paper/review reaction cursor. No theory/physics assignment, no BEDROCK change, no ChatGPT-thread delivery or acknowledgment claimed.
