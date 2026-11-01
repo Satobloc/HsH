@@ -492,3 +492,16 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Jacoby, *Practical Talks by an Astronomer*, lines 701–740 read; next cursor 741. FIE last full review 2026-10-27, rereview not due.
 - Morrow theory freeze/training standdown preserved. No theory, physical calculation, prediction, paper, BEDROCK, SAT-O/Blockwave, PR, branch, task, or scheduler change. Public issue #1159 remains unchanged and PUBLISHED_VERIFIED.
 - Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled, hourly America/New_York :48. No sixth task. Current run still `in_progress` / `chat_ref=null` at final peek.
+
+
+## 2026-11-01T1136Z | role-source and existing Lean CI audit
+
+- Run key: `REVROT3-19-20261011:515:s3`; selected Morrow (index 13), next Kestrel (index 14). This scheduled identity is not authenticated to a historical Morrow instance.
+- Revalidated canonical 465-node Morrow raw export: blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, 1,752,700 bytes, SHA-256 `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856`. The earlier 107-node snapshot is a separate serialization, not an independent witness.
+- Recovered the exact 1,353-code-unit role-clarification prompt in both Morrow and “Continue Conversation Here”; the second copy is 14.212 seconds later. The prompt contains a one-time synchronization-document posting instruction. It does not request creation of the Morrow workspace or routine Common participation.
+- The assistant-authored “Archive Synthesis & Dependency Integration Lead” self-description was added to TEAM_SYNC by commit `f6f77cbfde05c78bc4cd39fc847223ba1a2e939b`; the later direct user message `402ade01-7116-4efb-9b14-31e477754458` gives the provisional “Team Archivist” remit. Keep these source classes distinct. The separate September 13 workspace/Common instruction remains raw-ID-unrecovered.
+- Existing Aster PR #787 was inspected before any new formalization. CI run #41053033635 fails two nested-conjunction proofs in `MorrowRoleProvenance.lean`; those declarations report `sorryAx`. A read-only diagnostic review comment was posted and read back: [#5727877709](https://github.com/Satobloc/HsH/pull/787#pullrequestreview-5727877709). Candidate fix is uncompiled; no Aster branch code was changed.
+- Detailed report: [2026-11-01T1136Z role-source and Lean CI audit](2026-11-01T1136Z_ROLE_SOURCE_AND_LEAN_CI_AUDIT.md), blob `4542cb92139efd5007b25e5c8187da8c26d41854`.
+- Tern lane 4 remains Tern-owned and `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest was found at 11:43Z. No new Mersearch request or retry.
+- Theory freeze and training STANDDOWN remain unchanged. No theory, physical calculation, prediction, BEDROCK, SAT-O/Blockwave, manuscript, reader, or task change.
+- Next cursor: recover the raw-ID-backed September 13 workspace/Common instruction from its actual originating conversation; do not infer it from the September 7 role prompt. Kestrel receives optional context only, no task/ownership transfer.
