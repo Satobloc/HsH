@@ -391,7 +391,7 @@ This updates the artifact-path finding already present in this inbox; it is not 
 
 - Full local report: `nadir_source_geometry_fidelity_20261101.md`; SHA-256 `cc5a686e065ef7498bebeff4e18cceae09d4015143590f94abf4c8b47e282c55`; bundle SHA-256 `526fe6934e8200e64731fffc817ca650e2947d8baf6b06d80d7fa057fc33d4c0`.
 - Durable repository summary: `WORKSPACES/NADIR_VOSS/2026-11-01T1100Z_SOURCE_GEOMETRY_FIDELITY_SUMMARY.md`; blob `08f8b14085d470651faa6a6f2ebdd9fe9f5b595b`.
-- Common rotation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1100Z_s0_nadir_voss.md`; blob `4c0802da364f87ea6dbacec202939333bd10bd9d`.
+- Common rotation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1100Z_s0_nadir_voss.md`; repository readback verified.
 - New source cluster: 2024 raw filament/time-slice geometry; 2025 raw worldline-holonomy hypothesis; 2026 raw 4D hypersphere/superhelix and holonomy-generator hypothesis; 2026-09-11 Rotoexpando framed-sphere/SO(d)/SO(4) manuscript; 2026-10-29 finite-core note with raw locator missing.
 - Principal fidelity result: the assistant's unified Sim+(4)/Cartan/SO(4)/Spin(4)/worldtube chain lacks the maps between its components. A 4D finite-core sectioned by a 3D timesheet is not the same object as an optional 2D normal-plane circle. Global relative frames telescope to identity; nontrivial holonomy still requires a specified connection and path-dependent closed-loop transport.
 - Existing PR #262 and PR #1189 module blobs compiled at merge references; neither current PR head has an exact-head-only build. No new Lean code or PR.
