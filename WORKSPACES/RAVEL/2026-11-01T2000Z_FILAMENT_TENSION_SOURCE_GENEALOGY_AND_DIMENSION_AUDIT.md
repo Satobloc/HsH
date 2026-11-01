@@ -112,3 +112,78 @@ Primary raw export:
 
 Raw-export timestamp correction: the JSON `create_time` values are UTC. The September 10 request/measurement messages above are at 14:43Z and 15:05Z; an earlier report rendered these as 06:43Z and 07:05Z, an eight-hour conversion error. This report uses the raw export's UTC timestamps.
 
+### Assistant translations and fidelity findings
+
+- Assistant `8de36fe2-ae17-434e-8272-2bd893d268b1` (2026-09-07 07:47Z) collapses the Kerr core, ER neck, flaring surface, and current timesheet into one connected 4D geometry and writes a candidate product \(W_0\simeq\Sigma_{\rm Kerr}\times\mathbb R_\tau\). The product, constant fiber, and nested topology are assistant reconstruction, not direct equations.
+- Assistant `a794da96-ed3e-4c3c-b301-5b80f38b1636` (2026-09-07 08:07Z) renders the force idea as \(F\mapsto(\delta_f,\delta_t)\), but adds “conservation” constraints and says unilateral change is incomplete. Nathan Direct supplies no conservation equation or response operator. Those additions must not be attributed to him.
+- Assistant `9e36cf0e-6d48-4eca-93df-e6e99600b516` (2026-09-07 10:06Z) calls the three representations “gauges” and writes \(P(\tau)=W\cap\Sigma_\tau\) and \(W\cap\Delta\Sigma_\tau\). No gauge group or gauge-equivalence map is defined. The positive-thickness timeslab dimensional issue is already recorded in existing issue #1142; it is not reissued here.
+- Assistant `b14f2c80-8eac-4280-b62a-dc2342ff0f83` responds to the later “do not presume” request by separating standard Kerr anatomy, possible response modes, and measurement. This is a useful methodological response, but it does not establish an HsH/Kerr equivalence.
+
+The direct statement simultaneously calls filament and timesheet “two primitives” and force “the true primitive.” Whether force is an underlying relation, a third primitive, or a shorthand for coupled response remains unresolved. The assistant's one-geometry collapse and its \(F\mapsto(\delta_f,\delta_t)\) diagram are candidate translations, not source-defined mathematics.
+
+## 4. Archived SAT-O source genealogy
+
+### 4.1 SAT4D live draft and O1
+
+`SATOBLOC/SAT4D_LIVE_DRAFT.txt`
+
+- Git blob: `2a79fe25018cce7e99a2c33786d88b0551db6ae7`
+- Document header: byline Nathan McKnight; date June 2025.
+- Archive file index contains multiple copies with June 8 and June 9 timestamps. The file is a composite: a later appended collaboration section has a placeholder byline. Do not treat every appended section as one homogeneous authorship layer.
+
+The early core describes a primarily static block with localized adjustments induced by the sweep of \(\Sigma_t\). Elsewhere, the O1 module introduces an action and a tension potential:
+\[
+S[\gamma]=\int d\lambda\,L(\gamma,\dot\gamma),\qquad
+L=\tfrac12 m\dot\gamma^\mu\dot\gamma_\mu-V_{\rm tension}(\gamma).
+\]
+No constitutive form for \(V_{\rm tension}\) is supplied there. The static-block principle and the later internal-tension/vibration language are distinct version/mode claims that need reconciliation.
+
+`SATOBLOC/SAT O1 4D.txt`
+
+- Git blob: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`
+- Archive index: a June 7, 2025 copy and a later June 9 copy.
+- No byline in this text file.
+
+It describes a 1D filament \(\gamma:\mathbb R\to\mathbb R^{3,1}\), then calls the “worldtube” the 4D volume swept out by the vibrating filament. The text supplies no 3D cross-section, family of filaments, normal-bundle map, or sweep map that turns the 1D image into a 4D region. This is a type gap, not a proof that a finite-core tube is impossible.
+
+The later Nathan Direct spatial-Kerr-section instruction is a possible route to a 3D fiber over a 1D base, but the embedding and transport are not defined in the direct message.
+
+### 4.2 SAT-O5
+
+`_AUTO_EXTRACTED_TEXT/SAT_O5.txt`
+
+- Git blob: `7ebff56fe6b9ce5f46ab8a2e6d7c1ed7dbe15ec3`
+- Extraction manifest: `2026-09-10_root_pdf_extraction_pass_002.json`
+- Recorded source PDF SHA-256: `0380aaaee6eaa8a46dca8418ad248219908e94edbf3d97e50a7936c41321010d`
+- Extraction requested by Ravel/ChatGPT on 2026-09-10.
+- The PDF binary was not decoded or page-image inspected in this run. The text is a derivative extraction, not a claim of direct PDF reading.
+- The archive index lists multiple SAT_O5.pdf copies with different June 3 and June 9 timestamps; the exact binary variant associated with the extraction hash remains unresolved.
+
+Verbatim extracted equations:
+
+\[
+\ell_f=(2A/T)^{1/3},
+\qquad
+g^{-2}\sim\rho_{\rm link}\ell_f^2.
+\]
+
+The text calls \(A\) bending rigidity and describes \(\rho_{\rm link}\) as number of links per unit volume. It does not define the dimensional measure of that density or supply units for \(A\).
+
+### 4.3 SAT-O8
+
+`SAT_O8.txt`
+
+- Git blob: `b5147fe08da0a65cb40e73365c71717aaad149ff`
+- Archive file index: 2025-06-06 13:40:48 (timezone not specified).
+- In-document author field is the placeholder `[Author Name]`; this is not authenticated Nathan Direct.
+
+The file states:
+
+\[
+T\sim c^4/G,\qquad
+\ell_f\sim(2A/T)^{1/3},\qquad
+m_\psi^{(0)}\sim T\ell_f/c^2,
+\]
+and then gives:
+\[
+\ell_f\sim10^{-5}\,\mathrm m,\qquad
