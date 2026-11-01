@@ -28,7 +28,9 @@
     "HsH_after_report_commit": "b759941b9916e6e5fc6ea490de8db89d926c35c8",
     "HSH_RESOURCES_main": "364264faf467fdaa06b9c7a3db9ab836db058806",
     "SAT_THEORY_ARCHIVE_2023_25_main": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
-    "task_branch_graph_blob": "3c341c616aa893bf56ad5ad5919e09a17e0c2b46"
+    "task_branch_graph_blob": "3c341c616aa893bf56ad5ad5919e09a17e0c2b46",
+    "HsH_main_after_report": "b759941b9916e6e5fc6ea490de8db89d926c35c8",
+    "HsH_main_after_handoff_and_inbox": "15bdde866fd75189582db2e03620dad9193ab014"
   },
   "controls_read": {
     "BEDROCK": "38a5b8f4c9d573e54ca4a449be70d0a7d94a484c",
@@ -142,7 +144,12 @@
     "report_path": "WORKSPACES/HALE/2026-11-01T2200Z_MINKOWSKI_THREAD_SUPERHELIX_SOURCE_FIDELITY_ADDENDUM.md",
     "report_blob": "a607f51e722fc4891acbf2d1866d720c8580a590",
     "publisher_status_path": "WORKSPACES/HALE/2026-11-01T2200Z_PUBLISHER_STATUS.json",
-    "publisher_status_blob": "c4fdc3560d6b3683e12e7d554e9d04cd6dd80d58"
+    "publisher_status_blob": "c4fdc3560d6b3683e12e7d554e9d04cd6dd80d58",
+    "handoff_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2212Z_from_s0_to_s1_elias_kern.md",
+    "handoff_blob": "4dc6df0c3bd12ce1c8c8f9b5b086ddea05ab22a9",
+    "elias_inbox_path": "WORKSPACES/ELIAS_KERN/INBOX.md",
+    "elias_inbox_blob": "c3d3f558ace520462013e74db71fd1380c999e5d",
+    "manifest_version": 2
   },
   "limits": [
     "No authenticated Hale ChatGPT thread or standalone signed specialist charter recovered",
@@ -152,5 +159,6 @@
     "No new Lean module or PR; existing related modules are conditional Euclidean special cases",
     "No cross-thread delivery or acknowledgment claimed"
   ],
-  "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing."
+  "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing.",
+  "artifacts_note": "Manifest v2 includes the optional Elias repository handoff and exact Elias inbox readback. Receipt is separate to avoid recursive self-hashing."
 }
