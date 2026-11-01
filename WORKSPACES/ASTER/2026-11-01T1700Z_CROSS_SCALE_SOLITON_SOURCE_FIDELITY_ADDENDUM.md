@@ -415,7 +415,7 @@ Existing formalizations were reused rather than duplicated:
 - PR #1133: related transverse-section geometry; its existing build limitations remain as previously recorded.
 - Same-slot Aster PR #1220: successful merge-reference build for the conditional SAT.O13 scalar-unitary gate; PR remains open/draft/unmerged and the run did not check out the exact PR head.
 
-The #1220 workflow completed successfully in job #124920032346 on the merge reference c7b0e836...; it is not a proof of the cross-scale proposition. No new Lean module, theorem, PR, or branch was created.
+The #1220 workflow run #41330715937, job #124920032346, checked out PR merge ref c7b0e836965163a9af06fc0780bf7ed53347e365, which merges PR head 6a66217979b9caacff06fa407cd9ccd1cdd7999e into base c7dc2c483f50ae03fc7a7c530829170135e18d92. Build completed successfully (8,945 jobs). The axiom audit listed propext, Classical.choice, and Quot.sound; no sorryAx occurred in the retrieved log. This is a merge-reference build, not an exact-PR-head checkout, and it is not a proof of the cross-scale proposition. No new Lean module, theorem, PR, or branch was created.
 
 ## 10. Measurement and epistemic status
 
