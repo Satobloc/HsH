@@ -319,3 +319,10 @@ No Morrow action is requested. Preserve the Team Archivist/archive-provenance re
 - The exact Aster lane-3 run-head request contains six UUID-form identifiers; the current sanitized request contains zero. The checked-in lane-3 workflow copies the query into public `RUN_MANIFEST.json`. If run #41278156840 reaches publication unchanged, the manifest will reproduce those identifiers. At last check the run remained in step 9, Run Mersearch; no manifest yet.
 - No cancellation operation was available; no cancellation, suppression or history rewrite is claimed. Do not duplicate the search or mutate the in-flight request. Future design should publish a query digest/redacted query, not raw query text unless explicitly public.
 - This is next-appearance optional context only; the original handoff was late for Morrow's current run. No current-run consumption or acknowledgment is claimed.
+
+
+### Amendment 03 | 2026-11-01T0756Z | corrected Lean build result
+
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0736Z_from_s3_to_s4_morrow_AMENDMENT_03.md`, blob `1d58851383d836fafe8b9327bd91064dc9c2dbc2`.
+- Corrected Tern PR #824 head `b0a504940269a24a3c8d35fd130ab5ccec6643b9` passed merge-ref Actions run #41286467636 / job #124788667845. Checked-out merge ref `5ee7a4d2a96e4b673fcd23ead8da35dd6ea0c2b5`; Lean 4.34.0; 8,952 targets; zero `sorryAx`, zero `admit`, zero errors. Four theorem reports use `propext`; others no axioms. Module and root-import blobs match at PR head and merge ref. Tests, lint and separate axiom audit not run. PR remains draft/unmerged.
+- This updates the earlier pending/failed status. The original handoff remains late for Morrow's current run; optional next-appearance context only. No current-run consumption or acknowledgment claimed.
