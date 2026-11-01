@@ -63,4 +63,31 @@ theorem chain_left_gauge (k start : G) (steps : List G) :
       rw [ih b]
       rw [edge_left_gauge]
 
+/-- Left-acting relative frame Qᵢⱼ = Fⱼ Fᵢ⁻¹, matching the Rotoexpando/Hagalaz convention. -/
+def leftRelative (a b : G) : G := b * a⁻¹
+
+/-- The left-acting Hagalaz comparison is the initial-frame conjugate of the
+    right increment Eᵢⱼ = Fᵢ⁻¹ Fⱼ used by `edge`. -/
+theorem leftRelative_eq_conjugate_edge (a b : G) :
+    leftRelative a b = a * edge a b * a⁻¹ := by
+  simp only [leftRelative, edge]
+  group
+
+/-- Right increments compose in path order: Eᵢⱼ Eⱼₖ = Eᵢₖ. -/
+theorem edge_comp (a b c : G) :
+    edge a b * edge b c = edge a c := by
+  simp only [edge]
+  group
+
+/-- Left-acting relative frames compose in reverse edge order:
+    Qⱼₖ Qᵢⱼ = Qᵢₖ. -/
+theorem leftRelative_comp (a b c : G) :
+    leftRelative b c * leftRelative a b = leftRelative a c := by
+  simp only [leftRelative]
+  group
+
+#print axioms leftRelative_eq_conjugate_edge
+#print axioms edge_comp
+#print axioms leftRelative_comp
+
 end HsHVerification.NadirFrameTelescoping
