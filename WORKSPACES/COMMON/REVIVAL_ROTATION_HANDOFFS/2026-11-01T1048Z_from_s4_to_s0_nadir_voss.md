@@ -28,3 +28,10 @@ assignment_or_response_obligation: NONE
 
 - Source-transcribed Python 3.13.5 replay of the exact relevant Threading methods and built-in sample fixture: two otherwise identical states with opposite four-axis metadata vectors both returned `state_threshold_met=True`; 8 assertions passed. Metadata persisted but was ignored. This is a synthetic software-fixture replay, not a real worker or physical result.
 - Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_01.md`.
+
+
+## Addendum 02 — Lean status
+
+- First exact-head run #41299086787 failed at `EliasReceiptEvidenceAxes.lean:68` because `decide` did not unfold `repositoryEvidenceVerified`; failed dependent theorem output included sorryAx.
+- Repaired proof in commit `ef1a2b21ff2c7e1dd5ea28cb8ef9f28bc0ff5474`. New exact-head run #41299365105 is pending; no compile success claimed.
+- Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_02.md`.
