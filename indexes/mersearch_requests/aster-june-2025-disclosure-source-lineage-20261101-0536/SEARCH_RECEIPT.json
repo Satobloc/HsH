@@ -1,0 +1,530 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "6c3f56a3f44329ec853ed16e164df29d50002b2c2868c14f561087e0f0f8c4cc",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-01T08:28:17.029663+00:00",
+  "query": "(name:*ASTER*raw* OR path:*ASTER*raw* OR \"6ab006ce-e358-83ea-b3dd-7b23a26c00fa\" OR \"2285923a-a31f-4547-9e64-5f8581522a95\" OR \"c2c5d227-1833-471a-8656-a06e2fbc56de\" OR \"95912d32-024f-468a-8da3-1c14296b1bd6\" OR \"bc810a2c-21d6-42bb-b9cf-8b3e53589e5a\" OR \"08835209-de28-4de5-a3fc-22a48550425e\") OR (name:*SAT*LAYMAN* OR path:*SAT*LAYMAN* OR name:*SAT*22Jun25* OR path:*SAT*22Jun25* OR name:*SAT*OVERVIEW*17Jun2025* OR path:*SAT*OVERVIEW*17Jun2025*) OR (author:user AND (\"this is what I gave him\" OR \"June 2025\" OR metamaterials)) OR (author:assistant AND (\"SAT 22Jun25.pdf\" OR \"SAT LAYMAN\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16250,
+    "records_scanned": 20864789,
+    "hits": 3942
+  },
+  "counted_hits": 3942,
+  "distinct_sources": 67,
+  "results_by_root": {
+    "archive": 395,
+    "hsh-main": 3297,
+    "resources": 250
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*ASTER*raw*",
+      2805
+    ],
+    [
+      "name:*ASTER*raw*",
+      2791
+    ],
+    [
+      "author:assistant",
+      1008
+    ],
+    [
+      "path:*SAT*LAYMAN*",
+      555
+    ],
+    [
+      "name:*SAT*LAYMAN*",
+      555
+    ],
+    [
+      "author:user",
+      390
+    ],
+    [
+      "June 2025",
+      200
+    ],
+    [
+      "name:*SAT*OVERVIEW*17Jun2025*",
+      185
+    ],
+    [
+      "path:*SAT*OVERVIEW*17Jun2025*",
+      185
+    ],
+    [
+      "SAT 22Jun25.pdf",
+      53
+    ],
+    [
+      "metamaterials",
+      19
+    ],
+    [
+      "6ab006ce-e358-83ea-b3dd-7b23a26c00fa",
+      14
+    ],
+    [
+      "SAT LAYMAN",
+      10
+    ],
+    [
+      "this is what I gave him",
+      3
+    ],
+    [
+      "c2c5d227-1833-471a-8656-a06e2fbc56de",
+      2
+    ],
+    [
+      "bc810a2c-21d6-42bb-b9cf-8b3e53589e5a",
+      1
+    ],
+    [
+      "95912d32-024f-468a-8da3-1c14296b1bd6",
+      1
+    ],
+    [
+      "08835209-de28-4de5-a3fc-22a48550425e",
+      1
+    ],
+    [
+      "2285923a-a31f-4547-9e64-5f8581522a95",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 1,
+      "best_score": 334,
+      "first_hit_index": 3794,
+      "sample_hit_index": 3794,
+      "locator": "$.query",
+      "matched_terms": [
+        "6ab006ce-e358-83ea-b3dd-7b23a26c00fa",
+        "2285923a-a31f-4547-9e64-5f8581522a95",
+        "c2c5d227-1833-471a-8656-a06e2fbc56de",
+        "95912d32-024f-468a-8da3-1c14296b1bd6",
+        "bc810a2c-21d6-42bb-b9cf-8b3e53589e5a",
+        "08835209-de28-4de5-a3fc-22a48550425e",
+        "this is what I gave him",
+        "June 2025",
+        "metamaterials",
+        "SAT 22Jun25.pdf",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json",
+      "title": "ASTER",
+      "record_count": 1335,
+      "best_score": 115,
+      "first_hit_index": 1446,
+      "sample_hit_index": 2772,
+      "locator": "message:4d50f819-45f7-4a7f-a0b1-5131ee47ad42",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant",
+        "SAT 22Jun25.pdf",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ASTER/2026-10-17_SOURCE_GROUNDED_REENTRY_AND_BEDROCK_REVIEW.md",
+      "title": "2026-10-17_SOURCE_GROUNDED_REENTRY_AND_BEDROCK_REVIEW",
+      "record_count": 2,
+      "best_score": 106,
+      "first_hit_index": 3777,
+      "sample_hit_index": 3777,
+      "locator": "line:24",
+      "matched_terms": [
+        "c2c5d227-1833-471a-8656-a06e2fbc56de",
+        "this is what I gave him",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/EARLY LOGGED/SAT OVERVIEW 17Jun2025.txt",
+      "title": "SAT OVERVIEW 17Jun2025",
+      "record_count": 185,
+      "best_score": 95,
+      "first_hit_index": 3218,
+      "sample_hit_index": 3218,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*SAT*OVERVIEW*17Jun2025*",
+        "path:*SAT*OVERVIEW*17Jun2025*",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
+      "title": "Coherency Master OMNI",
+      "record_count": 424,
+      "best_score": 79,
+      "first_hit_index": 60,
+      "sample_hit_index": 966,
+      "locator": "message:29ee200d-5841-401d-8333-94836383cb6b",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
+      "title": "Coherency Master OMNI",
+      "record_count": 424,
+      "best_score": 79,
+      "first_hit_index": 61,
+      "sample_hit_index": 967,
+      "locator": "message:29ee200d-5841-401d-8333-94836383cb6b",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
+      "title": "Coherency Master OMNI",
+      "record_count": 424,
+      "best_score": 79,
+      "first_hit_index": 62,
+      "sample_hit_index": 968,
+      "locator": "message:29ee200d-5841-401d-8333-94836383cb6b",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06•26.06.15•🤖 SAT O REWRITE SUPERVISOR — raw.json",
+      "title": "🤖 SAT O REWRITE SUPERVISOR",
+      "record_count": 5,
+      "best_score": 77,
+      "first_hit_index": 1306,
+      "sample_hit_index": 1310,
+      "locator": "message:0f8ea777-e061-4218-aaae-40c2bb42a9c1",
+      "matched_terms": [
+        "June 2025",
+        "author:assistant",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/EARLY LOGGED/2025-10-24_2033_SAT LAYMAN17Jun2025Imagine the universe as a giant four-dimensional block of spacetime, threaded through by .txt",
+      "title": "2025-10-24_2033_SAT LAYMAN17Jun2025Imagine the universe as a giant four-dimensional block of spacetime, threaded through by",
+      "record_count": 185,
+      "best_score": 71,
+      "first_hit_index": 3033,
+      "sample_hit_index": 3033,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*SAT*LAYMAN*",
+        "path:*SAT*LAYMAN*",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/SAT LAYMAN.txt",
+      "title": "SAT LAYMAN",
+      "record_count": 185,
+      "best_score": 71,
+      "first_hit_index": 3403,
+      "sample_hit_index": 3403,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*SAT*LAYMAN*",
+        "path:*SAT*LAYMAN*",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT LAYMAN.txt",
+      "title": "SAT LAYMAN",
+      "record_count": 185,
+      "best_score": 71,
+      "first_hit_index": 3588,
+      "sample_hit_index": 3588,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*SAT*LAYMAN*",
+        "path:*SAT*LAYMAN*",
+        "SAT LAYMAN"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "title": "Asteroid Mining Workshop",
+      "record_count": 22,
+      "best_score": 60,
+      "first_hit_index": 0,
+      "sample_hit_index": 1,
+      "locator": "message:f9279c39-afa8-4748-89ee-1c670cd7b45c",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.26•23.10.26•Darkroom Mastery Unleashed — raw.json",
+      "title": "Darkroom Mastery Unleashed",
+      "record_count": 22,
+      "best_score": 60,
+      "first_hit_index": 22,
+      "sample_hit_index": 23,
+      "locator": "message:37376227-b6ae-46d1-a51f-c44d71cef5d3",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 6,
+      "best_score": 58,
+      "first_hit_index": 1342,
+      "sample_hit_index": 1342,
+      "locator": "message:547b4f75-405e-4fc7-8ad9-c2ee202e95a4",
+      "matched_terms": [
+        "author:assistant",
+        "SAT 22Jun25.pdf"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 6,
+      "best_score": 58,
+      "first_hit_index": 1343,
+      "sample_hit_index": 1343,
+      "locator": "message:547b4f75-405e-4fc7-8ad9-c2ee202e95a4",
+      "matched_terms": [
+        "author:assistant",
+        "SAT 22Jun25.pdf"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 6,
+      "best_score": 58,
+      "first_hit_index": 1413,
+      "sample_hit_index": 1413,
+      "locator": "message:61aaf1d2-65f5-4b5e-a792-035d2537996d",
+      "matched_terms": [
+        "author:assistant",
+        "SAT 22Jun25.pdf"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 5,
+      "best_score": 47,
+      "first_hit_index": 1369,
+      "sample_hit_index": 1369,
+      "locator": "message:9ad195ba-f41e-4926-88c3-1fdc3e0a6bb4",
+      "matched_terms": [
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 4,
+      "best_score": 47,
+      "first_hit_index": 1389,
+      "sample_hit_index": 1389,
+      "locator": "message:95f71a74-694b-4607-a1c2-eb430f420cfb",
+      "matched_terms": [
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Podcast feedback summary — raw.json",
+      "title": "Podcast feedback summary",
+      "record_count": 1,
+      "best_score": 47,
+      "first_hit_index": 1355,
+      "sample_hit_index": 1355,
+      "locator": "message:0d4b87ab-e177-42d0-bdbb-8847a18f0ca3",
+      "matched_terms": [
+        "author:user",
+        "June 2025"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 3,
+      "best_score": 36,
+      "first_hit_index": 51,
+      "sample_hit_index": 51,
+      "locator": "message:f7967dab-a829-4178-8a58-44325a37d524",
+      "matched_terms": [
+        "author:user",
+        "metamaterials"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:aaa246dc-1450-4cce-aec5-84794ccd103d",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:f9279c39-afa8-4748-89ee-1c670cd7b45c",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:aaa202c9-5647-421f-8b99-ccbb141dabc0",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:e41b488c-bce5-4fa5-98aa-533a4ea05f95",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:aaa2dd0d-7369-4a9e-8121-55eb9aeaa5e7",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:f393dcb4-b7c7-43d8-85ae-5f74e74bde94",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:aaa2fdf3-5773-475d-86c0-73cad2ec30d7",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:a802e2af-6d04-4a06-bd56-db0b185ac546",
+      "matched_terms": [
+        "name:*ASTER*raw*",
+        "path:*ASTER*raw*",
+        "author:assistant"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}

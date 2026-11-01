@@ -1,0 +1,79 @@
+{
+  "request_id": "aster-june-2025-disclosure-source-lineage-20261101-0536",
+  "query": "(name:*ASTER*raw* OR path:*ASTER*raw* OR \"6ab006ce-e358-83ea-b3dd-7b23a26c00fa\" OR \"2285923a-a31f-4547-9e64-5f8581522a95\" OR \"c2c5d227-1833-471a-8656-a06e2fbc56de\" OR \"95912d32-024f-468a-8da3-1c14296b1bd6\" OR \"bc810a2c-21d6-42bb-b9cf-8b3e53589e5a\" OR \"08835209-de28-4de5-a3fc-22a48550425e\") OR (name:*SAT*LAYMAN* OR path:*SAT*LAYMAN* OR name:*SAT*22Jun25* OR path:*SAT*22Jun25* OR name:*SAT*OVERVIEW*17Jun2025* OR path:*SAT*OVERVIEW*17Jun2025*) OR (author:user AND (\"this is what I gave him\" OR \"June 2025\" OR metamaterials)) OR (author:assistant AND (\"SAT 22Jun25.pdf\" OR \"SAT LAYMAN\"))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "60555504423e744b90f8864c3bccef23eb9f9105",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "087f75927d9aa668b8adbca67e4ab19ac8a4f7e7",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "60555504423e744b90f8864c3bccef23eb9f9105",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "6c3f56a3f44329ec853ed16e164df29d50002b2c2868c14f561087e0f0f8c4cc",
+    "SEARCH_RESULTS.md": "ec19a42394d8b24c1d69558c58f63e88c64c128bc13a39500eb7a89de558405d",
+    "SEARCH_RECEIPT.json": "a87939e5c11fcb9786454829a09a82223c1d745010502f8fdc9797fea153c1ea",
+    "SEARCH_RECEIPT.md": "cf64e191180f16b85dc9cf8a6381f8f8daf93e327611fb71f91aae63d3bd45f4"
+  }
+}
