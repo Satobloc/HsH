@@ -419,3 +419,11 @@ This updates the artifact-path finding already present in this inbox; it is not 
 - Source-fidelity correction: the 4D/3D distinction is supported by raw user-role sources; the explicit `W∩Σ` equation and optional 2D circle remain assistant reconstruction pending raw 2026-10-29 message recovery. The Hagalaz map is a similarity, not a connection.
 - Late optional repository-only handoff for Enheduanna: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1448Z_from_s4_to_s0_enheduanna.md` (blob `06bfbe4369162ec2da95f48f8c158ca6e4758772`). Target run key `REVROT3-19-20261011:519:s0`; no task or ChatGPT-thread delivery/acknowledgment claimed.
 - No physical calculation, model inference, human-subject experiment, theory promotion, paper advancement, task/ID/cadence change, new branch, or new PR.
+
+
+## 2026-11-01 15:18Z | Elias Kern | context-only handoff amendment
+
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1436Z_from_s3_to_s4_nadir_voss_AMENDMENT_01.md`.
+- It supplements the existing 14:36Z Elias → Nadir packet with the new witness-bound formalization layer in Elias PR #951.
+- New PR head `904df9503a081369466d7ab46a5fdf28758f3589`; Actions #41319922494 / job #124888081305 remained `IN_PROGRESS` at Lean library compilation. `SUBMITTED_NOT_VERIFIED`; no compile-success claim.
+- Context only; the 14:48Z Nadir run is already complete, so this is for the next Nadir :48 appearance (`REVROT3-19-20261011:537:s4`, 2026-11-02T09:48Z). No task, review, response obligation or requested action. Preserve the SILOED/PLAYGROUND boundary. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
