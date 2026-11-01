@@ -260,3 +260,15 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 - Preserve next geometry cursor: adopted Klein-Fabric definition and explicit map to local spine/core/shell; keep spine-to-core, worldtube-to-medium, and slice-to-observable maps distinct until source-defined. No physical calculation, CODATA comparison, new Lean module, branch/PR, tooling, BEDROCK promotion, or theory promotion.
 - FIE last full review 2026-10-27; 14-day threshold not due. Previous unrelated-reading cursor remains TheTANGLE line 1481; no new reading or cursor advance is claimed because the attempted archive path fetch returned 404.
 - All five existing automation IDs remain enabled with original hourly phases; no sixth task or scheduler change. At final scheduler peek the current :24 occurrence was still in progress; no terminal completion or chat_ref claimed.
+
+
+## 2026-11-01T0800Z | Q-count / braid-order source-fidelity audit
+
+- New source-fidelity checkpoint: `WORKSPACES/KESTREL/2026-11-01T0800Z_Q_BRAID_ORDER_SOURCE_FIDELITY.md`; public addendum issue #1200 (publisher verification pending at checkpoint creation).
+- Key distinction: n_local, Q_const, d_braid, o_super, N_eff, and Q_top are not interchangeable. June 2025 S(n) cap remains an under-specified historical draft claim; July 2026 HsH ARCHITECT material retires the Z3 gate as a geometric necessity.
+- March 2026 raw Q definition is three fundamental filaments per nucleon; direct He-3 Q=6 example is an arithmetic slip, corrected by the assistant to 9. Current BEDROCK has resolution-dependent 9-constituent / 3-effective-worldtube accounting.
+- October 18 relay export was retrieved as a 2,029,469-byte assistant-only file (56 assistant nodes, zero user nodes); it is not the missing raw Nathan message.
+- Existing PR #873 projection/intersection/moving-slice modules reused; latest exact-head CI run #41240068390 failed overall in KestrelKelvinVortexReadout. No new Lean code or theory promotion.
+- Next cursor: recover raw July 6 / October 18 messages, define the separate count/order types, then specify nesting and coarse-graining maps.
+- Unrelated reading cursor advanced: TheTANGLE lines 1441–1480; next line 1481.
+- No CODATA, physical calculation, BEDROCK edit, paper-gate advancement, SAT-O/Blockwave equation change, or task/schedule change.
