@@ -143,8 +143,8 @@ The 2026 “projection of four-space down to three-space” statement is a separ
 **Conversation:** `0.239 Radians in Science`  
 **Conversation ID:** `699e4a02-26e4-832a-86ea-ad1dcaf3c4e3`  
 **Full raw blob:** `8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3`  
-**Duplicate export blob:** `8c87e7b9e55f7f0d6b4f3e8a9c6c0eacb4f7f3a2`  
-**Earlier 100-entry snapshot:** `67702cbaed1e0e0b6cbbd5a6b8a7d6c4e3f2a1b0`  
+**Duplicate export blob:** `8c87b92285f87ed3865fc1577a7a81b0661452b2`  
+**Earlier 100-entry snapshot:** `67702fc58b0efce1d0f89d950b86a8819a189afb`  
 **Full export structure:** 812 mapping entries, 811 message-bearing nodes, 46 user-role messages, 470 assistant-role messages.
 
 The two user-role projection statements are sibling nodes, not sequential independent observations:
@@ -157,8 +157,8 @@ The curvature message `4dbcbf32-ed4d-4b4f-83af-768c975be39c` (01:30:08.903Z) fol
 
 Two later direct messages preserve epistemic caution:
 
-- `8db86dc4-5a37-4672-885e-f81354ed7a26`, 03:34:00.184Z: coincidence cannot be distinguished from a real relationship until the mathematics is done.
-- `81dec8ec-6ae6-4a72-bd99-4f7da22eb86c`, 03:34:14.060Z: asks for a broad search of unrelated datasets, prioritizing direct measurements and then derived values.
+- `8db86dc4-5a37-4672-885e-f81354ed7a26`, 01:27:17.742Z: coincidence cannot be distinguished from a real relationship until the mathematics is done.
+- `81dec8ec-6ae6-4a72-bd99-4f7da22eb86c`, 01:37:55.669Z: asks for a broad search of unrelated datasets, prioritizing direct measurements and then derived values.
 
 No uncertainty-bearing physical dataset, measured system, independent measurement, or prediction was recovered in this source-fidelity pass. The search request is not itself a dataset result.
 
