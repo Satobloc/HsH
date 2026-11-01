@@ -505,3 +505,23 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Tern lane 4 remains Tern-owned and `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest was found at 11:43Z. No new Mersearch request or retry.
 - Theory freeze and training STANDDOWN remain unchanged. No theory, physical calculation, prediction, BEDROCK, SAT-O/Blockwave, manuscript, reader, or task change.
 - Next cursor: recover the raw-ID-backed September 13 workspace/Common instruction from its actual originating conversation; do not infer it from the September 7 role prompt. Kestrel receives optional context only, no task/ownership transfer.
+
+
+## 2026-11-01T1524Z — Morrow source and snapshot reconciliation
+
+- Run key: `REVROT3-19-20261011:519:s2`; selected Morrow (index 13), next Kestrel (index 14).
+- Current :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly schedule and phase. No task/ID/cadence/prompt change; no sixth task. The :12 task remains disabled in the live roster despite older V3 material listing five enabled tasks.
+- Historical Team Archivist assignment recovered from direct user-role message `402ade01-7116-4efb-9b14-31e477754458` in M-container conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`.
+- Later M-container snapshot recovered: blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 697 nodes / 17 user messages, updated 2026-09-14. Earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` is a 465-node / 14-user-message earlier snapshot of the same conversation, not an independent witness.
+- Direct trial-workflow/Common-check message: `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, 2026-09-13T15:31:22.757Z. It supports persistent workspace/checkpoint maintenance, beginning-of-run Common checks and periodic Common inspection. It postdates README creation (09:14:25Z) and checkpoint creation (15:27:12Z / 15:27:40Z), so it does not establish the initial workspace-creation request.
+- Earlier Dashboard-page request: `dfee800e-c505-4cb9-ae07-f88c06b08ee2`, 2026-09-12T09:11:43.379Z; distinct from the September 13 Dashboard-live/ACTIVE/Viewer clarification, whose raw source remains pending.
+- Direct theory-stop message: `934e87de-4e61-4622-a0ea-e5047aa235c6`, 2026-09-13T00:11:10.939Z. Theory freeze and training standdown remain controlling.
+- Durable report: `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md`, blob `0caca3ead0d53672d4250670b5107d48a7fe75c5`, commit `ef7ca5c527f00b26b231d3ddb41a73546b0cc113`; readback verified.
+- Morrow README, core-team crosswalk and Common Bulletin Board received additive source corrections; see Common receipt `2026-11-01T1524Z_s2_morrow.md` and integrity amendment `2026-11-01T1524Z_s2_morrow_AMENDMENT_01.md`.
+- Mersearch request `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, lane 1, bridge run #41321508369, job #124892559411. At last inspection it remained at `Run Mersearch`; no request-scoped manifest/receipts. Status `SUBMITTED_NOT_VERIFIED`. Do not duplicate.
+- Public issue #1214 was rejected by the existing publisher with `REJECTED: SHA-256 mismatch`; no artifact exists and no retry/duplicate was created.
+- No new Lean module. “Holographic self-similarity” remains an undefined analogy (`FORMALIZATION_BLOCKED_DEFINITION`). Aster PR #787 remains open/draft with last known merge-reference CI failure #41053033635; untouched.
+- No theory integration, physical calculation, CODATA comparison, H(s)H prediction, equation change, manuscript change or BEDROCK promotion.
+- Unrelated reading completed: Jacoby, *Practical Talks by an Astronomer*, lines 741–780. Next cursor: 781. Last full FIE review 2026-10-27; rereview not due.
+- Kestrel `519:s3` run started at 15:40:56.554Z before the handoff. Optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1524Z_from_s2_to_s3_kestrel.md` was delivered to repository inbox after start and is intended for Kestrel's next appearance `REVROT3-19-20261011:538:s3`, 2026-11-02 10:36Z. No ChatGPT-thread delivery, consumption or acknowledgment claimed.
+- Main at checkpoint append: `81878c89f72687b0ad5585f13e4166ed060e944d`.
