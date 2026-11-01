@@ -22,7 +22,7 @@ theorem potential_hasDerivAt (μ θ : ℝ) :
     HasDerivAt (fun x : ℝ => potential μ x)
       (-3 * μ ^ 2 * Real.sin (3 * θ)) θ := by
   have hcos := (Real.hasDerivAt_cos (3 * θ)).comp θ (by
-    convert (hasDerivAt_id θ).const_mul 3 using 1 <;> ring_nf)
+    convert ((hasDerivAt_id θ).const_mul (3 : ℝ)) using 1 <;> ring_nf)
   convert (hcos.const_mul (μ ^ 2)) using 1 <;> simp [potential] <;> ring
 
 /-- The derivative of the source Lagrangian's potential term
@@ -31,7 +31,7 @@ theorem sourcePotentialTerm_hasDerivAt (μ θ : ℝ) :
     HasDerivAt (fun x : ℝ => -μ ^ 2 * Real.cos (3 * x))
       (3 * μ ^ 2 * Real.sin (3 * θ)) θ := by
   have hcos := (Real.hasDerivAt_cos (3 * θ)).comp θ (by
-    convert (hasDerivAt_id θ).const_mul 3 using 1 <;> ring)
+    convert ((hasDerivAt_id θ).const_mul (3 : ℝ)) using 1 <;> ring_nf)
   convert hcos.const_mul (-(μ ^ 2)) using 1 <;> simp <;> ring
 
 /-- The one-dimensional Euler-Lagrange residual for the declared scalar
