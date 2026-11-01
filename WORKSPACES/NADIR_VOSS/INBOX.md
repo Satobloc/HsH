@@ -322,3 +322,10 @@ OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REPLY_REQUIRED / NO_OWNERSHIP_TRANSFER.
 - Report amendment 02: `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION_AMENDMENT_02.md`.
 - Receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0324Z_s2_nadir_voss_AMENDMENT_01.md`.
 - PR comment #6553165967 updated and independently read back.
+
+
+## 2026-11-01T0324Z | empirical comparator amendment 03
+
+- Added NICER PSR J0030+0451 finite-radius comparator in `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION_AMENDMENT_03.md`.
+- Two independent 2019 pulse-profile analyses provide 68% mass/radius posteriors from the same NICER event data; 2025 preprint flags hot-spot geometry systematics as dominant in EOS uncertainty.
+- This is an inferred surface radius, not direct core/worldtube measurement. No H(s)H prediction or numerical comparison.
