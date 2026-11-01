@@ -125,12 +125,12 @@ The module formalizes:
 
 The module deliberately does **not** instantiate a physical carrier, normal bundle, metric, tubular radius, timesheet, or current. It does not prove transversality or that the slice-preserving law holds for H(s)H. The existing `pdDegree` function has the same numerical (4-k) expression but denotes Poincare-dual form degree, not normal-fiber rank; the two objects remain distinct.
 
-Branch head after registration: `90f091d88620259d0289a986f402ee258c5ee433`.  
-New module blob: `0362d94e13ec19fc0aca24d745da926069103e45`.  
+Branch head after proof repair: `10099fa9b9a8175269405bd77e71e0803143f645`.  
+New module blob after proof repair: `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`.  
 Root aggregator blob: `db4d5e73e00c46ae30804d20cf380dbbe805418e`.  
-Actions run: `41292061092`, job `124805145045`.
+Actions runs: `41292061092` (cancelled before compile), `41292069239` (job `124805479699`, failed at the new generic dimension lemma), and a corrected follow-up run pending for head `10099fa9b9a8175269405bd77e71e0803143f645`.
 
-**Lean status at report creation: IN_PROGRESS.** A successful merge-ref build is not yet claimed. If completed, the run must be classified by its actual checkout SHA; it is not an exact-head standalone build unless that SHA equals the PR head.
+**Lean status: CORRECTED BUILD PENDING.** The first complete merge-ref build attempt, run `41292069239`, compiled the surrounding library and executed the `#eval` profile output `[(3, 0), (2, 1), (1, 2), (0, 3)]`, but failed one goal at line 67: `omega` did not unfold the named expected-intersection definition in `carrierSliceDimension_eq_k_minus_one`. This was a genuine proof failure, not a dependency or checkout failure. The proof was repaired by explicitly changing the goal to `k + 3 - 4 = k - 1` before `omega`; `#print axioms` commands were also added for the principal results. The corrected module blob is `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4` at branch head `10099fa9b9a8175269405bd77e71e0803143f645`. The follow-up Actions run has not yet been observed. No successful Lean compilation is claimed. Any eventual PR workflow result must be classified by its actual merge-ref checkout; no exact-head standalone build is claimed.
 
 ## 5. Structural test matrix
 
