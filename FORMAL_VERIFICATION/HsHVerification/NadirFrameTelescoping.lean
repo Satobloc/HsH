@@ -86,6 +86,70 @@ theorem leftRelative_comp (a b c : G) :
   simp only [leftRelative]
   group
 
+
+variable {V : Type*}
+
+/-- Edge transport obtained from one globally assigned frame at each vertex. -/
+def vertexEdge (F : V → G) (a b : V) : G := (F a)⁻¹ * F b
+
+/-- Ordered transport along a finite vertex path, with start preceding the list. -/
+def pathTransport (edgeMap : V → V → G) (start : V) : List V → G
+  | [] => 1
+  | next :: rest => edgeMap start next * pathTransport edgeMap next rest
+
+/-- A global frame potential makes path transport depend only on the endpoints. -/
+theorem pathTransport_framePotential (F : V → G) (start terminal : V)
+    (intermediate : List V) :
+    pathTransport (vertexEdge F) start (intermediate ++ [terminal]) =
+      vertexEdge F start terminal := by
+  induction intermediate generalizing start with
+  | nil =>
+      simp [pathTransport, vertexEdge]
+  | cons next rest ih =>
+      simp only [List.cons_append, pathTransport]
+      rw [ih next]
+      simp only [vertexEdge]
+      group
+
+/-- Any two paths with the same endpoints agree when their edge transport
+    comes from one globally defined frame potential. -/
+theorem pathTransport_framePotential_path_independent
+    (F : V → G) (start terminal : V) (p q : List V) :
+    pathTransport (vertexEdge F) start (p ++ [terminal]) =
+      pathTransport (vertexEdge F) start (q ++ [terminal]) := by
+  rw [pathTransport_framePotential F start terminal p,
+    pathTransport_framePotential F start terminal q]
+
+/-- If two same-endpoint paths have different transport, the edge map cannot
+    be represented by a single-valued global frame potential. This is a
+    necessary condition for path-dependent transport, not a curvature or
+    physical-holonomy theorem. -/
+theorem path_dependent_transport_excludes_global_frame
+    (edgeMap : V → V → G) (start terminal : V) (p q : List V)
+    (hneq :
+      pathTransport edgeMap start (p ++ [terminal]) ≠
+        pathTransport edgeMap start (q ++ [terminal])) :
+    ¬ ∃ F : V → G, ∀ a b, edgeMap a b = vertexEdge F a b := by
+  rintro ⟨F, hF⟩
+  have hEq : edgeMap = vertexEdge F := by
+    funext a
+    funext b
+    exact hF a b
+  subst edgeMap
+  exact hneq (pathTransport_framePotential_path_independent F start terminal p q)
+
+/-- A closed path has identity transport under a single global frame potential. -/
+theorem closed_path_framePotential_trivial
+    (F : V → G) (start : V) (intermediate : List V) :
+    pathTransport (vertexEdge F) start (intermediate ++ [start]) = 1 := by
+  simpa [vertexEdge] using
+    (pathTransport_framePotential F start start intermediate)
+
+#print axioms pathTransport_framePotential
+#print axioms pathTransport_framePotential_path_independent
+#print axioms path_dependent_transport_excludes_global_frame
+#print axioms closed_path_framePotential_trivial
+
 #print axioms leftRelative_eq_conjugate_edge
 #print axioms edge_comp
 #print axioms leftRelative_comp
