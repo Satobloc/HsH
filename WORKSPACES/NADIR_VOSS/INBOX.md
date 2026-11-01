@@ -345,3 +345,10 @@ OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REPLY_REQUIRED / NO_OWNERSHIP_TRANSFER.
 - Report amendment 04: `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION_AMENDMENT_04.md`.
 - Receipt amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0324Z_s2_nadir_voss_AMENDMENT_03.md`.
 - Physical/source-translation limits remain unchanged; no theory promotion.
+
+
+## 2026-11-01T0324Z | public correction integrity amendment 04
+
+- Receipt amendment 04: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0324Z_s2_nadir_voss_AMENDMENT_04.md`.
+- Existing PR #1189 comment #6553165967 exact readback verified; SHA-256 `fb08d4b8ae8bfba1d0bc37886c0bba5b1fd13acc5ff2afbd42f7ee061d14dfcc`.
+- No new issue-publisher submission or duplicate artifact. Existing issue #1181 remains published/verified.
