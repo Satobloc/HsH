@@ -2,7 +2,7 @@
 
 **Run key:** `REVROT3-19-20261011:521:s0`  
 **Nominal slot:** 2026-11-01 17:00 UTC  
-**Ring selection:** (h=521), (seq=5h=2605), (2605\bmod19=2). Selected label: **Aster** (index 2). Next label: **Ariadne** (index 3).  
+**Ring selection:** $h=521$, $seq=5h=2605$, $2605 \bmod 19=2$. Selected label: **Aster** (index 2). Next label: **Ariadne** (index 3).
 **Disposition:** `DIRECT_SOURCE_CLUSTER_RECOVERED / ASSISTANT_TRANSLATIONS_SEPARATED / SAT-O-BLOCKWAVE_GENEALOGY_PARTIAL / CONDITIONAL_LEAN_GATE_SUBMITTED / NO_PHYSICAL_OR_THEORY_PROMOTION`
 
 ## 1. Executive finding
