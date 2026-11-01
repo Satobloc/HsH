@@ -1,0 +1,280 @@
+{
+  "run_key": "REVROT3-19-20261011:524:s0",
+  "timestamp_utc": "2026-11-01T20:00:00Z",
+  "ring": {
+    "h": 524,
+    "seq": 2620,
+    "index": 17,
+    "selected": "Ravel",
+    "next_index": 18,
+    "next": "Orson Vay"
+  },
+  "scheduler": {
+    "task_id": "6aa1fe0de5e48191b886496095b1343f",
+    "enabled": true,
+    "schedule": "hourly America/New_York at :00",
+    "changed": false,
+    "sixth_task_created": false
+  },
+  "repositories": {
+    "HsH_main_preflight": "2da6974b3f1165959ca11b984232015ee8bbb920",
+    "SAT_THEORY_ARCHIVE_main": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+    "PR1133_branch": "research/ravel-carrier-slice-reconstruction-20261031t0212z",
+    "PR1133_head": "d8579403952ca658cf5dd0547e8c181701d18145",
+    "PR1133_merge_ref": "a1bc462a1bfd1b8f79610ffd81c02dca800b381f",
+    "HSH_RESOURCES_search": "read-only GitHub search/fetch; branch head not pinned in this run"
+  },
+  "controls": {
+    "BEDROCK": "38a5b8f4c9d573e54ca4a449be70d0a7d94a484c",
+    "STEERING_CHARTER": "5f4263381afcb065e9062d5b5885593d0baa58db",
+    "THREE_PAPER_CAMPAIGN": "9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0",
+    "NEW_INSTANCE_ONBOARDING": "e1fa2fb7c582a1b4528e9507644bd3f481fce8e0",
+    "REVIVAL_ROTATION_V4": "6761337dfcd0847226ee7baad84db0a9c496760a",
+    "THREAD_FIRST": "e79707587914edb76afca1c32f9f4dad4d0324b7",
+    "NAVIGATION_PREFLIGHT": "ce8d8be6e07340eff1f0e06d66b762e8ae8da358",
+    "WORKER_AUTONOMY_HANDOFF": "7a21c87311d2c812209fa08fe50a4246c8b53761",
+    "REVIVAL_ROTATION_V3": "90863a2a2b82b2d8e37ba1bd9f796389066f5409",
+    "SHARED_STATE_WRITE_SAFETY": "3a8695beb03ca8fe51ce3ee8fa52a9dec52ed1c5",
+    "STATE_OF_THE_THEORY": "b5958a1056c2541f00ab4f3477d8acc32426cfe9",
+    "WORKFLOW_BRANCHING_MAP": "756c506780072591b2f48e22044f3368a57bfa7d",
+    "RAVEL_README": "8830694ecaececece0c61ba8b0ae3b67a6ff3315",
+    "RAVEL_STATE": "92a730d15a1f795526941fbb221f1adb74ac6835",
+    "RAVEL_CONTINUITY": "89f35c3da5c3e418713353d875e3aad3b1c20ed4",
+    "RAVEL_INBOX": "69eef9190f88cb677f615e47b40b2e4c6876e190"
+  },
+  "ravel_raw_export": {
+    "conversation_id": "6a9d1a23-4fac-83ea-b76f-6805ece3ee9f",
+    "size_bytes": 12408770,
+    "sha256": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
+    "git_blob_sha1": "17cfe3feb830f70009557d063482b35adba0834b",
+    "mapping_nodes": 2394,
+    "active_parent_chain_nodes": 2044,
+    "active_user_messages": 145,
+    "user_role_nodes_total": 157,
+    "hsH_mirror_blob": "c49367b0faa424491e7b3520a034b9e44fe6897f",
+    "snapshots_identical": false
+  },
+  "direct_messages": [
+    {
+      "uuid": "638d13ba-1541-483d-853f-3b6d04b9b1b2",
+      "utc": "2026-09-07T22:30:51.036Z",
+      "role": "primary co-theorist assignment"
+    },
+    {
+      "uuid": "c5639160-5631-4373-90c2-68d7c4c022de",
+      "utc": "2026-09-08T09:27:54.450Z",
+      "role": "specialist responsibilities"
+    },
+    {
+      "uuid": "5590d70d-6525-42aa-9de8-5a7022b189f7",
+      "utc": "2026-09-13T12:42:46.946Z",
+      "role": "accuracy-first public record"
+    },
+    {
+      "uuid": "3d0ad680-51db-4c79-ad4a-9bbacada24ef",
+      "utc": "2026-09-07T07:46:38.573Z",
+      "role": "spatial Kerr section along filament"
+    },
+    {
+      "uuid": "b9805319-9d77-4b43-874a-5af50c0b6ef7",
+      "utc": "2026-09-07T08:06:58.114Z",
+      "role": "mutual filament/timesheet accommodation; force primitive"
+    },
+    {
+      "uuid": "c0d7fc1c-dc72-4cc7-b2a0-1e2cb686be4e",
+      "utc": "2026-09-07T08:28:03.333Z",
+      "role": "tentative Kerr/Pauli/string analogy"
+    },
+    {
+      "uuid": "496a15ea-0263-459d-b815-908f52155b90",
+      "utc": "2026-09-07T10:06:12.842Z",
+      "role": "three active representations"
+    },
+    {
+      "uuid": "62b85640-6a36-47b7-b064-94c97106f9b6",
+      "utc": "2026-09-10T14:43:07.491Z",
+      "role": "do not presume Kerr support; request geometry/dynamics/measurements"
+    },
+    {
+      "uuid": "b5b86a1c-9e0a-4ff5-8fcd-6f16f67c8953",
+      "utc": "2026-09-10T15:05:29.300Z",
+      "role": "direct request to recover/critique filament tension calculations"
+    },
+    {
+      "uuid": "8de36fe2-ae17-434e-8272-2bd893d268b1",
+      "utc": "2026-09-07T07:47:15.013909Z",
+      "role": "assistant one-connected-geometry reconstruction"
+    },
+    {
+      "uuid": "a794da96-ed3e-4c3c-b301-5b80f38b1636",
+      "utc": "2026-09-07T08:07:02.840075Z",
+      "role": "assistant force/conservation reconstruction"
+    },
+    {
+      "uuid": "9e36cf0e-6d48-4eca-93df-e6e99600b516",
+      "utc": "2026-09-07T10:06:45.368833Z",
+      "role": "assistant three-representation/gauge reconstruction"
+    },
+    {
+      "uuid": "b14f2c80-8eac-4280-b62a-dc2342ff0f83",
+      "utc": "2026-09-10T14:43:26.116679Z",
+      "role": "assistant standard Kerr anatomy/measurement sequence"
+    }
+  ],
+  "archive_sources": [
+    {
+      "path": "SATOBLOC/SAT4D_LIVE_DRAFT.txt",
+      "blob": "2a79fe25018cce7e99a2c33786d88b0551db6ae7",
+      "date": "June 2025",
+      "class": "document-level Nathan McKnight byline; composite with appended placeholder collaboration section"
+    },
+    {
+      "path": "SATOBLOC/SAT O1 4D.txt",
+      "blob": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+      "date": "archive index June 7 and June 9 copies",
+      "class": "archived text; no byline"
+    },
+    {
+      "path": "_AUTO_EXTRACTED_TEXT/SAT_O5.txt",
+      "blob": "7ebff56fe6b9ce5f46ab8a2e6d7c1ed7dbe15ec3",
+      "date": "extracted 2026-09-10",
+      "class": "derived text from PDF; PDF binary not read"
+    },
+    {
+      "path": "SAT_O5.pdf",
+      "source_sha256": "0380aaaee6eaa8a46dca8418ad248219908e94edbf3d97e50a7936c41321010d",
+      "date": "archive index lists June 3 and June 9 copies; exact variant unresolved",
+      "class": "original PDF source hash recorded in extraction manifest"
+    },
+    {
+      "path": "SAT_O8.txt",
+      "blob": "b5147fe08da0a65cb40e73365c71717aaad149ff",
+      "date": "archive index June 6 2025",
+      "class": "archived module; author placeholder"
+    },
+    {
+      "path": "Base units .txt",
+      "blob": "6b0a0f6a45008e69262e702e6f3a5ba1e3921518",
+      "date": "undated",
+      "class": "table; identical duplicate of SAT METRICS — Basic"
+    },
+    {
+      "path": "SAT METRICS — Basic.txt",
+      "blob": "6b0a0f6a45008e69262e702e6f3a5ba1e3921518",
+      "date": "undated",
+      "class": "byte-identical duplicate"
+    },
+    {
+      "path": "SAT_NOT_MYSTICISM.txt",
+      "blob": "32227920da7ec1d08ef04c8ab3ba8a9a790108fb",
+      "date": "undated composite; Module 3 v1.1 internally dated 2025-06-20",
+      "class": "authorship unresolved"
+    },
+    {
+      "path": "EARLY LOGGED/Module_O8_Audit_Combined.txt",
+      "blob": "02f61b23af689edf33a989dac57f3b69dac621e9",
+      "date": "undated",
+      "class": "composite audit/test artifact, not primary O8"
+    },
+    {
+      "path": "SAT O Core Modules/SAT.O Official Directives.txt",
+      "blob": "167136310cdf33ca8f986f33634692314c1a0946",
+      "date": "July 2025",
+      "class": "normative directive"
+    },
+    {
+      "path": "_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json",
+      "blob": "01e7af521ffaeed1d6f33230d84a2aed390cd1aa",
+      "class": "extraction manifest; records source PDF SHA-256 and request provenance"
+    },
+    {
+      "path": "SATOBLOC MISC/SAT_FULL_FILE_INDEX.txt",
+      "blob": "4accca1e0473577d6556715c5bfb9fce78e8ca4d",
+      "class": "archive index; lists multiple O5/O1/O8 copies with different timestamps"
+    }
+  ],
+  "formalization": {
+    "PR1133": {
+      "head": "d8579403952ca658cf5dd0547e8c181701d18145",
+      "module_blob": "0fb4cdb424f436227b5dfcf3de3bed5f403d6253",
+      "aggregator_head_blob": "59b478bfcac5399e6d5dfb461a09178dbfbe22ff",
+      "merge_ref": "561ee0c661da76d94753257df81d45462fcbb340",
+      "aggregator_merge_blob": "0414455e1d18f2afaf2cec86bdf1c221995b0a2b",
+      "run": 41348147460,
+      "job": 124972309257,
+      "lean": "4.34.0",
+      "lake": "5.0.0",
+      "build_jobs": 8950,
+      "status": "SUCCESS_MERGE_REFERENCE_MODULE_BLOB_MATCH",
+      "exact_head_standalone": false,
+      "sorryAx": 0,
+      "admit": 0,
+      "tests_skipped": true,
+      "lint_skipped": true,
+      "nanoda_skipped": true,
+      "separate_axiom_audit_skipped": true,
+      "concrete_theorem_axioms": "none",
+      "generic_cube_root_condition_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "first_verified_head": "287689f22ab25a4df716ee265840e0f9b0760715",
+      "first_verified_module_blob": "722acb4c53f655f5406b14a200f81b6f57987991",
+      "first_verified_run": 41348147460,
+      "first_verified_job": 124972309257,
+      "latest_run": 41348936553,
+      "latest_job": 124974692430,
+      "latest_status": "SUCCESS_MERGE_REFERENCE_MODULE_BLOB_MATCH",
+      "latest_new_theorem": "c_four_over_G_has_force_dimension",
+      "first_verified_merge_ref": "561ee0c661da76d94753257df81d45462fcbb340",
+      "latest_merge_ref": "a1bc462a1bfd1b8f79610ffd81c02dca800b381f",
+      "concrete_module_theorems_no_axioms": 11
+    }
+  },
+  "mersearch": {
+    "status": "ALL_FOUR_LANES_OCCUPIED_STAGED_OR_UNRELEASED",
+    "new_request": false,
+    "local_executable_present": false,
+    "local_checkout_present": false,
+    "fallback": "raw Library export plus read-only GitHub search/fetch across HsH, SAT_THEORY_ARCHIVE_2023-25, HSH_RESOURCES"
+  },
+  "publisher": {
+    "status": "PUBLISHED_COMMENT_VERIFIED",
+    "target_issue": 1202,
+    "new_issue_created": false,
+    "comment_id": 6563825577,
+    "comment_sha256": "bab13474565a5a757746994559c9ada0d6bb0ad5f241a741",
+    "report_path": "WORKSPACES/RAVEL/2026-11-01T2000Z_FILAMENT_TENSION_SOURCE_GENEALOGY_AND_DIMENSION_AUDIT.md",
+    "report_git_blob_sha1": "d82fcb4679b04bf290fd664e5ec2ee4fb5af876f",
+    "readback": "PASS_EXACT_BODY",
+    "lean_core": "VERIFIED_MERGE_REFERENCE_RUN_41348147460",
+    "latest_lean_extension": "VERIFIED_MERGE_REFERENCE_RUN_41348936553",
+    "exact_head_standalone": "NOT_RUN",
+    "reason": "Additive source-genealogy comment posted to existing issue #1202; no duplicate issue created."
+  },
+  "limits": [
+    "No Mersearch execution or exhaustive three-repository search claimed",
+    "SAT_O5 original PDF binary not decoded; derived text only",
+    "O5 exact source-copy variant remains unresolved",
+    "A and rho_link dimensions not source-defined",
+    "No topology-to-Q construction recovered",
+    "No physical prediction, fit, independent measurement, or CODATA score",
+    "No exact-head standalone Lean build; merge-reference build only"
+  ],
+  "artifacts_sha256": {
+    "ravel_filament_tension_source_genealogy_and_dimension_audit_20261101.md": "3a656ae7205c0ee345a6de452ad2ac83966f81ba45e47976b0af496a24c9754f",
+    "ravel_rotation_receipt_20261101T2000Z.md": "7bb74df5ad6db70ccde3d00205f0b1972ffb0c97105fdc028177f44561c91f44",
+    "optional_handoff_to_orson_not_delivered_20261101T2000Z.md": "343259259332217f144f379e87af5293a46d91d83c78cc335a49194af1adfe73",
+    "publisher_status.json": "43a6eb9b38d2f774a1a61a872e3cc5dba9c8ba8f3a601523f7cc06d47c58a4d2"
+  },
+  "self_hash_note": "Manifest excludes its own hash to avoid recursive self-hashing.",
+  "repository_artifacts": {
+    "report_path": "WORKSPACES/RAVEL/2026-11-01T2000Z_FILAMENT_TENSION_SOURCE_GENEALOGY_AND_DIMENSION_AUDIT.md",
+    "report_git_blob_sha1": "d82fcb4679b04bf290fd664e5ec2ee4fb5af876f",
+    "issue": 1202,
+    "comment_id": 6563825577,
+    "comment_sha256": "bab13474565a5a757746994559a62757d2f5b77455c9ada0d6bb0ad5f241a741",
+    "comment_readback": "PASS_EXACT_BODY"
+  }
+}
