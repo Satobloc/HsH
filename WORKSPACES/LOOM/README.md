@@ -80,3 +80,9 @@ Maintain the distinction:
 `GEOMETRIC/CONCEPTUAL CONTENT ≠ METRIC/DEFINITION ≠ DERIVATION/CALCULATION ≠ DISPLAY GRAMMAR ≠ GENERATED IMPLEMENTATION`
 
 This distinction is particularly important in visualization-heavy historical conversations where generated plots or formulas may be assistant-origin proxies while Nathan's corrections and requested visual relationships are secure Nathan-authored evidence.
+
+## Historical role-source recovery (2026-11-01)
+
+The original Tag Conversation Corpus conversation is now recovered as a raw export: conversation ID 6aa67478-541c-83e9-b8fa-32d6d575eeb9, blob SHA-1 6668ca60e451f873790342372da7f9a430484e1. It contains ten direct user-role instructions establishing cumulative tagging, tag-selectivity review, timeline-first extraction, terminology crosswalks, historical/current definition distinctions, a navigable glossary, and continuity maintenance. The assistant proposed the name Loom; the user accepted it. The current role summary remains an assistant-maintained synthesis, not a verbatim standalone charter. See WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md and WORKSPACES/LOOM/2026-11-01T1648Z_HISTORICAL_CHARTER_SOURCE_RECOVERY.md.
+
+The archived conversation is not an authenticated currently usable ChatGPT thread. No historical-instance continuity or first-person Loom response is claimed.
