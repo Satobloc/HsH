@@ -274,9 +274,11 @@ def frobeniusSqTrace (A : Mat4) : ℝ :=
 theorem frobeniusSqEntries_eq_trace (A : Mat4) :
     frobeniusSqEntries A = frobeniusSqTrace A := by
   classical
-  simp [frobeniusSqEntries, frobeniusSqTrace, Matrix.trace,
-    Matrix.mul_apply, Matrix.transpose_apply, Finset.sum_comm,
-    pow_two, mul_comm]
+  unfold frobeniusSqEntries frobeniusSqTrace
+  rw [← Finset.univ_product_univ, Finset.sum_product']
+  simp only [Matrix.trace, Matrix.diag_apply, Matrix.mul_apply,
+    Matrix.transpose_apply, pow_two]
+  exact (Finset.sum_comm (fun i j : Fin 4 => A j i * A j i)).symm
 
 /-- The existing Run 141 residual implementation is exactly the
     log-scale term plus the trace-form Frobenius-squared residual. -/
@@ -285,11 +287,10 @@ theorem linearResidual_eq_frobeniusSqTrace
     HsHVerification.NadirAffineTranslationQuotient.linearResidual σ Q =
       (Real.log σ)^2 + frobeniusSqTrace (Q - 1) := by
   unfold HsHVerification.NadirAffineTranslationQuotient.linearResidual
-  rw [← frobeniusSqEntries_eq_trace (Q - 1)]
-  congr 1
-  simp [frobeniusSqEntries,
-    HsHVerification.NadirAffineTranslationQuotient.matrixResidualEntry,
-    Matrix.sub_apply, Matrix.one_apply]
+  change (Real.log σ)^2 + frobeniusSqEntries (Q - 1) =
+    (Real.log σ)^2 + frobeniusSqTrace (Q - 1)
+  exact congrArg (fun x : ℝ => (Real.log σ)^2 + x)
+    (frobeniusSqEntries_eq_trace (Q - 1))
 
 /-- The trace-form Frobenius-squared residual is invariant under
     orthogonal conjugation. Only FᵀF = I is used in this norm identity. -/
@@ -307,7 +308,14 @@ theorem frobeniusSqTrace_orthogonal_conjugate
         (F * A * F.transpose)) =
       Matrix.trace (F * (A.transpose * A) * F.transpose) := by
         congr 1
-        simp [Matrix.mul_assoc, hF]
+        calc
+          (F * A.transpose * F.transpose) * (F * A * F.transpose) =
+              F * A.transpose * (F.transpose * F) * A * F.transpose := by
+                simp only [Matrix.mul_assoc]
+          _ = F * A.transpose * (1 : Mat4) * A * F.transpose := by
+                rw [hF]
+          _ = F * (A.transpose * A) * F.transpose := by
+                simp [Matrix.mul_assoc]
     _ = Matrix.trace (A.transpose * A) := by
         calc
           Matrix.trace (F * (A.transpose * A) * F.transpose) =
@@ -358,7 +366,12 @@ theorem leftFrameComparison_eq_conjugate_rightFrameIncrement
     (F_i F_j : Mat4) (hFi : IsOrthogonal4 F_i) :
     leftFrameComparison F_i F_j =
       F_i * rightFrameIncrement F_i F_j * F_i.transpose := by
-  simp [leftFrameComparison, rightFrameIncrement, Matrix.mul_assoc, hFi.2]
+  calc
+    F_j * F_i.transpose = 1 * F_j * F_i.transpose := by simp
+    _ = (F_i * F_i.transpose) * F_j * F_i.transpose := by
+          rw [← hFi.2]
+    _ = F_i * (F_i.transpose * F_j) * F_i.transpose := by
+          simp [Matrix.mul_assoc]
 
 /-- The Run 141 Frobenius residual is independent of the left/right
     frame-comparison convention under the source's orthogonal-frame
