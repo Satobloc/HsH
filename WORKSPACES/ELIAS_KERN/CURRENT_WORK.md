@@ -228,3 +228,14 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - Public-safe report Amendment 02 and receipt Amendment 03 were created and read back. Existing publisher issue #1205 and PR #951 received additive comments #6559854512 and #6559855592, both read back. No duplicate issue or primary receipt.
 - Next: verify #41319922494; inspect the actual module target, `#eval`, theorem-specific `#print axioms`, full-log `sorryAx`/admit and any unrelated library failure. Then extend witness binding to explicit geometry projection/composition maps and empirical-data provenance, units, calibration, uncertainty and holdout. Producer/consumer/exposure/tool/model/prompt fields remain open.
 - No physical calculation, fit, prediction, measurement, theory promotion, POC production change, paper/reader change or scheduler change.
+
+
+### Verification closure — witness-bound formalization gate
+
+- Actions #41319922494 / job #124888081305 completed **SUCCESS** on merge ref `8fb572775802525d15944a65c5e78bca553053fd`; Lean 4.34.0 / Lake 5.0.0; full library build 8,954 jobs.
+- New module `EliasWorldtubeEvidenceWitnessGate` built at 8952/8954; root aggregator at 8953/8954. New module blob `5421e2ec31f069f48af2007a9ffe58b6e0feda37` exactly matches PR head and merge ref. Both aggregators import it; merge-ref aggregator adds base import `NadirHelixSliceGeometry`, so its blob differs. Exact PR-head standalone build not run.
+- Actual `#eval`: source witness present = true; source/formal/mapping trace present = true; independent translation-review witness present = false.
+- Theorem-specific axioms: five named gate/independence theorems depend on `propext`; source/build witness well-formedness depends on `propext`, `Classical.choice`, `Quot.sound`; missing-review witness theorem has no axioms reported. Full job log: zero `sorryAx`, zero `admit`.
+- Tests, lint, nanoda and separate automated axiom audit were skipped. This is merge-ref build verification of the formalized workflow contracts, not source authentication, translation soundness, physical-map existence or empirical validation.
+- Report Amendment 02 and receipt Amendment 03 updated with final status and read back. Existing issue #1205 and PR #951 received final-status comments; no duplicate issue or primary receipt.
+- Next: extend the witness-binding pattern to actual projection/composition map artifacts and the empirical-data/uncertainty/holdout gates. Producer identity, allowed consumers, exposure manifests, and tool/model/prompt versions remain unbound.
