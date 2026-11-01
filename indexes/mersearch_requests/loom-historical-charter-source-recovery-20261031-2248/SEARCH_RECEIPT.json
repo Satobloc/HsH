@@ -1,0 +1,470 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "c144b2b1f8e7d75de561427eaf76655761c917eb1456341050d7abeef4974f18",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-01T01:50:55.782193+00:00",
+  "query": "(title:\"Loom Tag Conversation Corpus\" OR name:*Loom* OR path:*Loom* OR name:*Tag*Conversation* OR path:*Tag*Conversation*) OR \"6aa67478-541c-83e9-b8fa-32d6d575eeb9\" OR (author:user AND (\"Loom Tag Conversation Corpus\" OR \"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"corpus enrichment\" OR (Loom NEAR/10 (tagging OR annotation OR enrichment OR corpus OR provenance OR terminology)))) OR (author:assistant AND (Loom NEAR/12 (\"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"role charter\")))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16149,
+    "records_scanned": 20858793,
+    "hits": 130083
+  },
+  "counted_hits": 130083,
+  "distinct_sources": 188,
+  "results_by_root": {
+    "hsh-main": 130082,
+    "resources": 1
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*Tag*Conversation*",
+      122256
+    ],
+    [
+      "path:*Loom*",
+      7792
+    ],
+    [
+      "name:*Loom*",
+      5750
+    ],
+    [
+      "name:*Tag*Conversation*",
+      927
+    ],
+    [
+      "Loom",
+      709
+    ],
+    [
+      "author:assistant",
+      674
+    ],
+    [
+      "provenance",
+      525
+    ],
+    [
+      "tagging",
+      378
+    ],
+    [
+      "corpus",
+      312
+    ],
+    [
+      "terminology",
+      233
+    ],
+    [
+      "enrichment",
+      169
+    ],
+    [
+      "Tag Conversation Corpus",
+      144
+    ],
+    [
+      "corpus tagging",
+      71
+    ],
+    [
+      "Loom Tag Conversation Corpus",
+      27
+    ],
+    [
+      "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+      24
+    ],
+    [
+      "author:user",
+      20
+    ],
+    [
+      "annotation",
+      19
+    ],
+    [
+      "role charter",
+      1
+    ],
+    [
+      "corpus enrichment",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json",
+      "title": "MERSEARCH_REQUEST",
+      "record_count": 1,
+      "best_score": 271,
+      "first_hit_index": 1003,
+      "sample_hit_index": 1003,
+      "locator": "$.query",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "corpus enrichment",
+        "Loom",
+        "tagging",
+        "annotation",
+        "enrichment",
+        "corpus",
+        "provenance",
+        "terminology"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/PUBLIC_SITE/generated/discovery.json",
+      "title": "discovery",
+      "record_count": 3,
+      "best_score": 202,
+      "first_hit_index": 957,
+      "sample_hit_index": 959,
+      "locator": "$.documents[543].excerpt",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "Loom",
+        "tagging",
+        "annotation",
+        "enrichment",
+        "corpus",
+        "terminology"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.10•26.10.17•Meridian Free Build — raw (2).json",
+      "title": "Meridian Free Build",
+      "record_count": 1,
+      "best_score": 197,
+      "first_hit_index": 851,
+      "sample_hit_index": 851,
+      "locator": "message:1e927648-9351-4975-87ff-f2a9c6a0d17c",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "Loom",
+        "tagging",
+        "corpus",
+        "provenance",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.10•26.10.15•Meridian Free Build — raw (1).json",
+      "title": "Meridian Free Build",
+      "record_count": 1,
+      "best_score": 197,
+      "first_hit_index": 852,
+      "sample_hit_index": 852,
+      "locator": "message:1e927648-9351-4975-87ff-f2a9c6a0d17c",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "Loom",
+        "tagging",
+        "corpus",
+        "provenance",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "title": "Tag Conversation Corpus",
+      "record_count": 412,
+      "best_score": 185,
+      "first_hit_index": 0,
+      "sample_hit_index": 734,
+      "locator": "message:1a06ef02-b550-4342-b7a4-cb14165f1747",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "tagging",
+        "enrichment",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "title": "Tag Conversation Corpus",
+      "record_count": 412,
+      "best_score": 185,
+      "first_hit_index": 1,
+      "sample_hit_index": 735,
+      "locator": "message:1a06ef02-b550-4342-b7a4-cb14165f1747",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "Tag Conversation Corpus",
+        "corpus tagging",
+        "tagging",
+        "enrichment",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/LOOM/CHECKPOINT.md",
+      "title": "CHECKPOINT",
+      "record_count": 289,
+      "best_score": 173,
+      "first_hit_index": 6746,
+      "sample_hit_index": 6956,
+      "locator": "line:399",
+      "matched_terms": [
+        "path:*Loom*",
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "tagging",
+        "enrichment",
+        "corpus",
+        "provenance"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (1).json",
+      "title": "Mercer Free Build",
+      "record_count": 3,
+      "best_score": 172,
+      "first_hit_index": 836,
+      "sample_hit_index": 846,
+      "locator": "message:54034b1f-5877-49d2-8b65-2bcf12b0a2bb",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (2).json",
+      "title": "Mercer Free Build",
+      "record_count": 3,
+      "best_score": 172,
+      "first_hit_index": 837,
+      "sample_hit_index": 847,
+      "locator": "message:54034b1f-5877-49d2-8b65-2bcf12b0a2bb",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3) [collision-75cb3471ef].json",
+      "title": "Mercer Free Build",
+      "record_count": 3,
+      "best_score": 172,
+      "first_hit_index": 838,
+      "sample_hit_index": 848,
+      "locator": "message:54034b1f-5877-49d2-8b65-2bcf12b0a2bb",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3).json",
+      "title": "Mercer Free Build",
+      "record_count": 3,
+      "best_score": 172,
+      "first_hit_index": 839,
+      "sample_hit_index": 849,
+      "locator": "message:54034b1f-5877-49d2-8b65-2bcf12b0a2bb",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11•26.10.15•Mercer Free Build — raw.json",
+      "title": "Mercer Free Build",
+      "record_count": 3,
+      "best_score": 172,
+      "first_hit_index": 840,
+      "sample_hit_index": 850,
+      "locator": "message:54034b1f-5877-49d2-8b65-2bcf12b0a2bb",
+      "matched_terms": [
+        "6aa67478-541c-83e9-b8fa-32d6d575eeb9",
+        "Loom Tag Conversation Corpus",
+        "Tag Conversation Corpus",
+        "Loom",
+        "corpus",
+        "provenance",
+        "terminology",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:27a63ac5-2324-4b61-9c18-c6aaa9a6f30e",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "provenance",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:27a63ac5-2324-4b61-9c18-c6aaa9a6f30e",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "provenance",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:5cd28ea9-1143-4f4a-94d7-2cb485f96310",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:5cd28ea9-1143-4f4a-94d7-2cb485f96310",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:user"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:b6a614ce-6caa-4a9e-9320-fc0d3516570e",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:b6a614ce-6caa-4a9e-9320-fc0d3516570e",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:6d4ee7f4-5af3-4a6e-936d-b7157c8837d9",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "locator": "message:6d4ee7f4-5af3-4a6e-936d-b7157c8837d9",
+      "matched_terms": [
+        "name:*Tag*Conversation*",
+        "path:*Tag*Conversation*",
+        "author:assistant"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
