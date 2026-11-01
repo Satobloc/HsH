@@ -217,3 +217,187 @@ theorem bulk_meets_transverse_hypersurface_in_three_dimensions :
 #print axioms bulk_meets_transverse_hypersurface_in_three_dimensions
 
 end HsHVerification.SableCurrentSupportDegreeGate
+
+
+/-!
+## Source-aware representation identity gate
+
+The degree/support arithmetic above does not by itself identify which historical
+or mathematical object a symbol denotes. This section records independent axes:
+representation kind, component rank, differential-form degree, support dimension,
+outer source role, claim kind, and whether a source-defined map was recovered.
+
+The concrete records below are classifications of the cited source material.
+Lean verifies the internal distinctions once those classifications are supplied;
+it does not authenticate the source attribution or establish a physical map.
+-/
+
+namespace HsHVerification.SableCurrentIdentityGate
+
+inductive ObjectKind where
+  | tangentMultivectorCurrent
+  | antisymmetricRankTwoCurrent
+  | differentialForm
+  | hodgeDualForm
+  | poincareDualForm
+  | editorialInstruction
+  deriving DecidableEq, Repr
+
+inductive SourceRole where
+  | userRoleMessage
+  | assistantRoleMessage
+  | documentByline
+  | standardMathematics
+  | unattributedEmbeddedDocument
+  deriving DecidableEq, Repr
+
+inductive ClaimKind where
+  | editorialDirection
+  | equation
+  | geometricSupportClaim
+  | standardIdentity
+  deriving DecidableEq, Repr
+
+inductive SourceMapStatus where
+  | notApplicable
+  | sourceDefined
+  | notRecoveredInInspectedSources
+  | assistantProposed
+  | unknown
+  deriving DecidableEq, Repr
+
+/-- A source-aware descriptor. Component rank, form degree, and support
+dimension are deliberately independent optional fields. -/
+structure RepresentationRecord where
+  objectKind : ObjectKind
+  componentRank : Option Nat
+  formDegree : Option Nat
+  supportDimension : Option Nat
+  sourceRole : SourceRole
+  claimKind : ClaimKind
+  sourceMapStatus : SourceMapStatus
+  sourceLocator : String
+  deriving DecidableEq, Repr
+
+def degreeProjection (r : RepresentationRecord) : Option Nat :=
+  r.formDegree
+
+/-- Standard mathematical object: the Poincare-dual 2-form of an oriented
+2-dimensional support in an oriented 4-dimensional ambient manifold.
+This is conditional standard mathematics, not an H(s)H source equation. -/
+def worldsheetPoincareDual : RepresentationRecord :=
+  { objectKind := .poincareDualForm
+    componentRank := some 2
+    formDegree := some 2
+    supportDimension := some 2
+    sourceRole := .standardMathematics
+    claimKind := .standardIdentity
+    sourceMapStatus := .notApplicable
+    sourceLocator := "standard oriented 4D Poincare-dual degree rule; conditional on 2D support" }
+
+/-- Standard mathematical object: Hodge dual of a 2-form in four dimensions.
+Its form degree is 2; no geometric support dimension is implied by that
+degree statement alone. -/
+def hodgeDualOfTwoForm : RepresentationRecord :=
+  { objectKind := .hodgeDualForm
+    componentRank := some 2
+    formDegree := some 2
+    supportDimension := none
+    sourceRole := .standardMathematics
+    claimKind := .standardIdentity
+    sourceMapStatus := .notApplicable
+    sourceLocator := "standard 4D Hodge degree rule; 2-form input" }
+
+/-- The October 2025 Blockwave action's assistant-authored antisymmetric
+rank-two current. The inspected message supplies rank-two components and a
+conservation expression, but does not supply a metric-lowering map or a
+source-defined support/sweep map identifying it with a distributional
+Poincare-dual 2-form. -/
+def blockwaveRankTwoCurrent : RepresentationRecord :=
+  { objectKind := .antisymmetricRankTwoCurrent
+    componentRank := some 2
+    formDegree := none
+    supportDimension := none
+    sourceRole := .assistantRoleMessage
+    claimKind := .equation
+    sourceMapStatus := .notRecoveredInInspectedSources
+    sourceLocator := "conversation 68f4d9b5-b908-832e-940e-6782db174a4a; assistant message 3039b226-02d4-41a3-a2d3-c338e25204a9" }
+
+/-- The September 18 user-role instruction requests a three-form editorial
+track for Chapters 1-5. It does not itself state the later detailed J3
+equation or attest its coefficient. -/
+def userThreeFormEditorialDirection : RepresentationRecord :=
+  { objectKind := .editorialInstruction
+    componentRank := none
+    formDegree := none
+    supportDimension := none
+    sourceRole := .userRoleMessage
+    claimKind := .editorialDirection
+    sourceMapStatus := .notApplicable
+    sourceLocator := "conversation 68cad3d4-0ccc-8325-be36-94c5b5527997; user message e92efb17-2499-482e-b930-9ad11221bd7c" }
+
+/-- The detailed three-form expression in the same conversation is
+assistant-authored. It must not inherit the user-role provenance of the
+separate editorial instruction. -/
+def assistantThreeFormEquation : RepresentationRecord :=
+  { objectKind := .differentialForm
+    componentRank := some 3
+    formDegree := some 3
+    supportDimension := none
+    sourceRole := .assistantRoleMessage
+    claimKind := .equation
+    sourceMapStatus := .notRecoveredInInspectedSources
+    sourceLocator := "conversation 68cad3d4-0ccc-8325-be36-94c5b5527997; assistant message ff0ef513-0f75-4e87-a719-378447788b32" }
+
+/-- Equal form degree does not identify the operation or support:
+the Hodge dual of a 2-form and the Poincare dual of a 2D support both have
+degree 2, but they are different typed objects and only the latter record
+carries the 2D support premise. -/
+theorem two_form_degree_does_not_identify_operation :
+    degreeProjection worldsheetPoincareDual =
+      degreeProjection hodgeDualOfTwoForm ∧
+    worldsheetPoincareDual.objectKind ≠ hodgeDualOfTwoForm.objectKind ∧
+    worldsheetPoincareDual.supportDimension ≠
+      hodgeDualOfTwoForm.supportDimension := by
+  decide
+
+/-- Rank-two components alone do not establish a differential 2-form,
+a geometric support dimension, or a source-defined map. -/
+theorem blockwave_rank_two_does_not_supply_form_or_support :
+    blockwaveRankTwoCurrent.componentRank = some 2 ∧
+    blockwaveRankTwoCurrent.formDegree = none ∧
+    blockwaveRankTwoCurrent.supportDimension = none ∧
+    blockwaveRankTwoCurrent.sourceMapStatus =
+      .notRecoveredInInspectedSources := by
+  decide
+
+/-- A direct user-role editorial instruction and an assistant-role equation
+are separate source events; the former does not authenticate the latter. -/
+theorem editorial_direction_does_not_attest_equation :
+    userThreeFormEditorialDirection.sourceRole = .userRoleMessage ∧
+    userThreeFormEditorialDirection.claimKind = .editorialDirection ∧
+    assistantThreeFormEquation.sourceRole = .assistantRoleMessage ∧
+    assistantThreeFormEquation.claimKind = .equation ∧
+    userThreeFormEditorialDirection ≠ assistantThreeFormEquation := by
+  decide
+
+/-- The projection that forgets everything except form degree is not
+injective on the source-aware records. -/
+theorem degree_projection_not_injective :
+    ∃ a b : RepresentationRecord,
+      degreeProjection a = degreeProjection b ∧ a ≠ b := by
+  exact ⟨worldsheetPoincareDual, hodgeDualOfTwoForm, by decide⟩
+
+#eval (degreeProjection worldsheetPoincareDual,
+  degreeProjection hodgeDualOfTwoForm)
+#eval (worldsheetPoincareDual.objectKind,
+  hodgeDualOfTwoForm.objectKind)
+#eval (blockwaveRankTwoCurrent.formDegree,
+  blockwaveRankTwoCurrent.supportDimension)
+
+#print axioms two_form_degree_does_not_identify_operation
+#print axioms blockwave_rank_two_does_not_supply_form_or_support
+#print axioms editorial_direction_does_not_attest_equation
+#print axioms degree_projection_not_injective
+
+end HsHVerification.SableCurrentIdentityGate
