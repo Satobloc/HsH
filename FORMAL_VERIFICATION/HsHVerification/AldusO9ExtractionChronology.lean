@@ -229,3 +229,239 @@ theorem both_printed_nominal_values_outside_stated_band :
 #print axioms both_printed_nominal_values_outside_stated_band
 
 end HsHVerification.AldusO9ExtractionChronology
+
+
+/-!
+## Earlier optical-note source and scope chronology
+
+A second raw conversation contains an earlier user-role message with the full
+LaTeX optical note. It precedes the later PDF intake that received the temporary
+O9 label. The outer role establishes user-supplied provenance, not sole
+authorship of the embedded draft or its byline.
+
+The first and repeated user prompts are sibling branches with the same parent.
+The assistant cleanroom rewrite is a child of the repeated prompt, not of the
+earlier sibling. The later PDF upload and O9 label belong to a different
+conversation. Preserve these graph and timestamp facts separately.
+
+The user later corrected the interpretation: the optical construction was
+analogy/inspiration only, not a direct SAT contribution, SAT verification, or
+SAT falsification route; the user also challenged novelty and the contextual
+scope of MathProof. The later "CONFIRM" confirms the assistant's temporary
+intake label and pipeline handling, not authorship, novelty, physical validity,
+or canonical SAT-O status.
+
+The first-public optical-O9 date remains unknown in the bounded public ledger.
+Broad SAT exposure and the separate O9 graviton filename candidate are
+different claim granularities/referents.
+-/
+
+namespace HsHVerification.AldusO9OpticalSourceChronology
+
+inductive SourceEvent where
+  | firstUserDraft
+  | repeatedUserDraftPrompt
+  | assistantCleanroomRewrite
+  | userAnalogyOnlyCorrection
+  | userNoNoveltyCorrection
+  | userLabAnalogueSpeculation
+  | userLabAnalogueCaveat
+  | userMathProofContextCorrection
+  | laterPdfUpload
+  | assistantTemporaryO9Label
+  | userLabelConfirmation
+  deriving DecidableEq, Repr
+
+inductive SourceRole where
+  | user
+  | assistant
+  deriving DecidableEq, Repr
+
+def sourceRole : SourceEvent → SourceRole
+  | .firstUserDraft => .user
+  | .repeatedUserDraftPrompt => .user
+  | .assistantCleanroomRewrite => .assistant
+  | .userAnalogyOnlyCorrection => .user
+  | .userNoNoveltyCorrection => .user
+  | .userLabAnalogueSpeculation => .user
+  | .userLabAnalogueCaveat => .user
+  | .userMathProofContextCorrection => .user
+  | .laterPdfUpload => .user
+  | .assistantTemporaryO9Label => .assistant
+  | .userLabelConfirmation => .user
+
+/-! Recorded create_time decimals, scaled to integer microseconds. -/
+def sourceTimestampMicros : SourceEvent → Nat
+  | .firstUserDraft => 1750642594820000
+  | .repeatedUserDraftPrompt => 1750642710340000
+  | .assistantCleanroomRewrite => 1750642711669365
+  | .userAnalogyOnlyCorrection => 1750643282722000
+  | .userNoNoveltyCorrection => 1750643477384000
+  | .userLabAnalogueSpeculation => 1750643719983000
+  | .userLabAnalogueCaveat => 1750643828186000
+  | .userMathProofContextCorrection => 1750647288414000
+  | .laterPdfUpload => 1750650472442000
+  | .assistantTemporaryO9Label => 1750650473461564
+  | .userLabelConfirmation => 1750650509080000
+
+def sourceConversationId : SourceEvent → String
+  | .firstUserDraft => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .repeatedUserDraftPrompt => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .assistantCleanroomRewrite => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .userAnalogyOnlyCorrection => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .userNoNoveltyCorrection => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .userLabAnalogueSpeculation => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .userLabAnalogueCaveat => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .userMathProofContextCorrection => "681da28f-2d44-8003-bc6e-0e1929c125c4"
+  | .laterPdfUpload => "68430902-ada8-8003-981f-0bf779b8353f"
+  | .assistantTemporaryO9Label => "68430902-ada8-8003-981f-0bf779b8353f"
+  | .userLabelConfirmation => "68430902-ada8-8003-981f-0bf779b8353f"
+
+def sourceMessageId : SourceEvent → String
+  | .firstUserDraft => "73bab87f-6a86-45a8-aa20-6837b362438c"
+  | .repeatedUserDraftPrompt => "d9b0bd7d-96d3-4a8a-9add-29bcffa4bec0"
+  | .assistantCleanroomRewrite => "7b3532ea-c5ce-40d4-882a-45e15ff50cd3"
+  | .userAnalogyOnlyCorrection => "c86811f9-5b46-4953-8c96-a48c049f294a"
+  | .userNoNoveltyCorrection => "4ee764ed-85c0-46c2-944d-fbdd6e13981e"
+  | .userLabAnalogueSpeculation => "ee668a69-b132-442a-9380-c4fb7251185a"
+  | .userLabAnalogueCaveat => "1a875034-ddd0-48c3-af1e-4c77af02ef0f"
+  | .userMathProofContextCorrection => "7e5b66bd-0d61-4a21-a162-ae2e5e3f45a0"
+  | .laterPdfUpload => "13115169-09a8-4998-8d6e-3a8827c02c18"
+  | .assistantTemporaryO9Label => "e893cb09-f28f-4aff-9c0f-05a8c6138861"
+  | .userLabelConfirmation => "e60d3c5b-49e6-456a-ad0f-0f7e37552960"
+
+def sourceParentId : SourceEvent → String
+  | .firstUserDraft => "f8e5cc86-ed89-4f59-8d8a-da4496124e4a"
+  | .repeatedUserDraftPrompt => "f8e5cc86-ed89-4f59-8d8a-da4496124e4a"
+  | .assistantCleanroomRewrite => "d9b0bd7d-96d3-4a8a-9add-29bcffa4bec0"
+  | .userAnalogyOnlyCorrection => "eda24ff2-a45f-4f69-afda-44749878cf6a"
+  | .userNoNoveltyCorrection => "5ca58935-b645-4742-bb77-e2d649e0faea"
+  | .userLabAnalogueSpeculation => "01a81054-ddd0-48c3-af1e-4c77af02ef0f"
+  | .userLabAnalogueCaveat => "01a81054-ddd0-48c3-af1e-4c77af02ef0f"
+  | .userMathProofContextCorrection => "e3988b24-4722-45bf-8463-f5c1ef9e3fc6"
+  | .laterPdfUpload => "53b82f87-6517-4821-88a6-ec0f2b92966e"
+  | .assistantTemporaryO9Label => "763322fa-6016-4b81-a8f6-e8d4976f1d46"
+  | .userLabelConfirmation => "e893cb09-f28f-4aff-9c0f-05a8c6138861"
+
+def boundedUserRoleRecords : List SourceEvent :=
+  [ .firstUserDraft
+  , .repeatedUserDraftPrompt
+  , .userAnalogyOnlyCorrection
+  , .userNoNoveltyCorrection
+  , .userLabAnalogueSpeculation
+  , .userLabAnalogueCaveat
+  , .userMathProofContextCorrection
+  , .laterPdfUpload
+  , .userLabelConfirmation
+  ]
+
+def earlierSourceEvent (a b : SourceEvent) : SourceEvent :=
+  if sourceTimestampMicros a ≤ sourceTimestampMicros b then a else b
+
+def earliestSourceEvent (xs : List SourceEvent) : Option SourceEvent :=
+  xs.foldl
+    (fun acc e =>
+      match acc with
+      | none => some e
+      | some prior => some (earlierSourceEvent prior e))
+    none
+
+theorem earliestUserRoleRecordInBoundedSet :
+    earliestSourceEvent boundedUserRoleRecords = some .firstUserDraft := by
+  decide
+
+theorem firstDraftPrecedesLaterPdfIntake :
+    sourceTimestampMicros .firstUserDraft <
+      sourceTimestampMicros .laterPdfUpload := by
+  decide
+
+theorem userAnalogyCorrectionPrecedesO9Label :
+    sourceTimestampMicros .userAnalogyOnlyCorrection <
+      sourceTimestampMicros .assistantTemporaryO9Label := by
+  decide
+
+theorem userNoNoveltyCorrectionPrecedesO9Label :
+    sourceTimestampMicros .userNoNoveltyCorrection <
+      sourceTimestampMicros .assistantTemporaryO9Label := by
+  decide
+
+theorem userMathProofContextCorrectionPrecedesO9Label :
+    sourceTimestampMicros .userMathProofContextCorrection <
+      sourceTimestampMicros .assistantTemporaryO9Label := by
+  decide
+
+theorem pdfIntakePrecedesTemporaryO9Label :
+    sourceTimestampMicros .laterPdfUpload <
+      sourceTimestampMicros .assistantTemporaryO9Label := by
+  decide
+
+theorem temporaryO9LabelPrecedesUserConfirmation :
+    sourceTimestampMicros .assistantTemporaryO9Label <
+      sourceTimestampMicros .userLabelConfirmation := by
+  decide
+
+theorem firstAndRepeatedDraftPromptsShareParent :
+    sourceParentId .firstUserDraft =
+      sourceParentId .repeatedUserDraftPrompt := rfl
+
+theorem assistantRewriteIsChildOfRepeatedPrompt :
+    sourceParentId .assistantCleanroomRewrite =
+      sourceMessageId .repeatedUserDraftPrompt := rfl
+
+theorem firstDraftAndPdfIntakeAreDifferentConversations :
+    sourceConversationId .firstUserDraft ≠
+      sourceConversationId .laterPdfUpload := by
+  decide
+
+theorem firstDraftAndAssistantRewriteHaveDifferentOuterRoles :
+    sourceRole .firstUserDraft = .user ∧
+    sourceRole .assistantCleanroomRewrite = .assistant := by
+  decide
+
+theorem pdfUploadAndTemporaryLabelHaveDifferentOuterRoles :
+    sourceRole .laterPdfUpload = .user ∧
+    sourceRole .assistantTemporaryO9Label = .assistant := by
+  decide
+
+theorem labelConfirmationIsUserRole :
+    sourceRole .userLabelConfirmation = .user := rfl
+
+/-! The original attachment binary hash is unavailable. The two archive
+paths share a blob, but that does not establish attachment-to-archive
+byte identity. -/
+def originalPdfAttachmentSha256 : Option String := none
+def archivePdfBlobSha1 : String :=
+  "cfaad753c7c7d9302dfa6594f7ee495421af4505"
+def archivePdfBytes : Nat := 382611
+def chatAttachmentBytes : Nat := 382611
+
+theorem originalPdfAttachmentSha256Unavailable :
+    originalPdfAttachmentSha256 = none := rfl
+
+theorem archiveAndAttachmentSizesMatch :
+    archivePdfBytes = chatAttachmentBytes := rfl
+
+/-! This none is a bounded-ledger result, not proof of global absence. -/
+def opticalO9PublicT0InBoundedLedger : Option Nat := none
+
+theorem opticalO9PublicT0NotEstablishedInBoundedLedger :
+    opticalO9PublicT0InBoundedLedger = none := rfl
+
+#print axioms earliestUserRoleRecordInBoundedSet
+#print axioms firstDraftPrecedesLaterPdfIntake
+#print axioms userAnalogyCorrectionPrecedesO9Label
+#print axioms userNoNoveltyCorrectionPrecedesO9Label
+#print axioms userMathProofContextCorrectionPrecedesO9Label
+#print axioms pdfIntakePrecedesTemporaryO9Label
+#print axioms temporaryO9LabelPrecedesUserConfirmation
+#print axioms firstAndRepeatedDraftPromptsShareParent
+#print axioms assistantRewriteIsChildOfRepeatedPrompt
+#print axioms firstDraftAndPdfIntakeAreDifferentConversations
+#print axioms firstDraftAndAssistantRewriteHaveDifferentOuterRoles
+#print axioms pdfUploadAndTemporaryLabelHaveDifferentOuterRoles
+#print axioms labelConfirmationIsUserRole
+#print axioms originalPdfAttachmentSha256Unavailable
+#print axioms archiveAndAttachmentSizesMatch
+#print axioms opticalO9PublicT0NotEstablishedInBoundedLedger
+
+end HsHVerification.AldusO9OpticalSourceChronology
