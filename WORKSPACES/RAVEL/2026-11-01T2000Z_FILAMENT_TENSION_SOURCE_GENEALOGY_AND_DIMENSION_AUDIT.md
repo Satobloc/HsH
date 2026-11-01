@@ -187,3 +187,93 @@ m_\psi^{(0)}\sim T\ell_f/c^2,
 and then gives:
 \[
 \ell_f\sim10^{-5}\,\mathrm m,\qquad
+m_\psi^{(0)}\sim10^{22}\,\mathrm{kg},
+\]
+\[
+Q_e\sim10^{53},\qquad Q_p\sim10^{49},\qquad
+m_{\rm eff}=m_\psi^{(0)}/Q.
+\]
+
+The document says the \(Q_e,Q_p\) values are what is required to reproduce known electron and proton masses. Without an explicit linking/winding-to-\(Q\) map, these are required suppression factors or fit quantities, not independently derived topological predictions.
+
+The O8 file does not define \(A\)'s units and does not provide a reproducible calibration calculation for the stated \(\ell_f\) and mass scale.
+
+### 4.4 Base Units / SAT METRICS table
+
+`Base units .txt` and `SAT METRICS — Basic.txt`
+
+- Both have Git blob `6b0a0f6a45008e69262e702e6f3a5ba1e3921518`.
+- They are byte-identical, not independent sources.
+- No byline or reliable creation date was recovered.
+
+Literal entries include:
+
+- filament thickness \(\epsilon=2\times10^{-21}\,\mathrm m\);
+- filament stiffness \(\kappa=1\times10^{-26}\,\mathrm{kg\,m^2\,s^{-2}}=1\times10^{-26}\,\mathrm J\);
+- tension \(T\approx1.2\times10*44\,\mathrm N\), preserving the literal ambiguous `10*44` notation;
+- order-1 coil radius \(\ell_f=0.7937\,\mathrm{fm}\);
+- projection constant \(B\approx0.2387\,\mathrm{rad}\).
+
+The table's \(\kappa\) is energy-dimensional, not the dimensionless \(\kappa=0.243(5)\) in the separate string-tension compilation. Neither is automatically the O8 rigidity \(A\).
+
+The ratio between the O8 length claim and the table length is:
+
+\[
+\frac{10^{-5}\,\mathrm m}{0.7937\times10^{-15}\,\mathrm m}
+\approx1.2599\times10^{10}.
+\]
+
+This is only a comparison of two archived values. It is not a physical measurement or prediction. If the values denote different versions or different meanings of \(\ell_f\), the ratio does not imply a physical contradiction. The later direct distinction between coil-radius \(\ell_f\) and core-thickness \(\epsilon\) makes the missing version map especially important.
+
+### 4.5 Separate string-tension compilation and O8 audit composite
+
+`SAT_NOT_MYSTICISM.txt`
+
+- Git blob: `32227920da7ec1d08ef04c8ab3ba8a9a790108fb`
+- Undated composite; its Module 3 section is internally dated version 1.1, 2025-06-20.
+- Authorship of the entire compilation is unresolved.
+
+It contains:
+\[
+\sigma=\kappa T,\qquad \kappa=0.243(5),
+\qquad V(r)=\tfrac32\sigma r,\qquad
+\alpha'=(2\pi\sigma)^{-1}.
+\]
+A later Regge-slope passage inserts \(T_{\rm lat}=0.180(5)\,\mathrm{GeV}^2\) and says to choose the “natural normalisation” \(\kappa=1\), without explicitly mapping that convention to the earlier \(\kappa=0.243(5)\). This may be a convention change, but the conversion is absent. The 0.243 coefficient is not the 0.2387-radian projection constant \(B\).
+
+`EARLY LOGGED/Module_O8_Audit_Combined.txt`
+
+- Git blob: `02f61b23af689edf33a989dac57f3b69dac621e9`.
+- Composite audit/test artifact, not the primary `SAT_O8.txt`.
+
+It combines a “no intrinsic tension, mass, or charge assigned a priori” assumption with the \(T\sim c^4/G\) tension formula, and its testing-instructions section adds \(A\sim T\Lambda^{-3/4}\). That \(A\)-\(\Lambda\) relation is not in the primary `SAT_O8.txt`; it must not be attributed to that module. Its dimensions depend on whether \(\Lambda\) means a cosmological constant (\(L^{-2}\)) or a vacuum-energy density (\(L^{-4}\)); the composite does not define the distinction.
+
+### 4.6 Normative SAT-O directive
+
+`SAT O Core Modules/SAT.O Official Directives.txt`
+
+- Git blob: `167136310cdf33ca8f986f33634692314c1a0946`
+- Dated July 2025.
+
+The directive requires SAT-native quantities, forbids unstated assumptions, and classifies material outside the clean core as tentative. The O5/O8 formulas above should be treated as archived candidate equations until their dimensional definitions, derivations, and source genealogy are completed.
+
+## 5. Dimensional audit
+
+Use SI base dimensions \((M,L,\mathsf T)\). These are symbolic unit checks, not physical calculations.
+
+### 5.1 Cube-root filament scale
+
+The source equation
+\[
+\ell_f^3=2A/T
+\]
+requires
+\[
+[A]=[T]L^3.
+\]
+
+- If \(T\) is a force in newtons, \([T]=ML\mathsf T^{-2}\), then \([A]=ML^4\mathsf T^{-2}=\mathrm{N\,m^3}\).
+- If \(T\) is force per length, \([T]=M\mathsf T^{-2}\), then \([A]=ML^3\mathsf T^{-2}=\mathrm{N\,m^2}\).
+
+Conventional beam/rod flexural rigidity \(EI\) has dimension \(\mathrm{N\,m^2}\). Therefore the cube-root equation matches that conventional rigidity dimension only under the \(T=\mathrm{N/m}\) assignment. But the O8 relation \(T\sim c^4/G\) has force dimension \(\mathrm N\), and the Base Units table labels \(T\) in newtons.
+
