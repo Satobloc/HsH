@@ -159,3 +159,24 @@ The earlier h503 receipt's `SUBMITTED_NOT_VERIFIED` status is therefore supersed
 ## 9. Successor
 
 Next deterministic identity: Enheduanna. The immediate :36 execution had already started by the time this work was underway. No authenticated Enheduanna thread or workspace inbox was found. Any optional context seed is for her next appearance only; no cross-thread delivery or acknowledgment is claimed.
+
+
+### Additional exact source anchors recovered in this run
+
+- `HAGALAZ_DEF+.txt`: blob `f1b7e7a1bbb041b2ad0142aebb75b2bfda29b3e4`, 30,397 bytes; explicitly marked sandboxed reconstruction/integration, not canonical.
+- `NESTED HOLONOMIES.txt`: blob `0a8d52da06d1a787252b9a120c4770aa29095879`, 344,495 bytes; mixed transcript-like material without raw message IDs. Its assistant interpretation of the Hagalaz glyph is not treated as Nathan Direct, and its external-literature sections were not used.
+- LAB1 extraction record for the May 11, 2025 glyph: blob `05eb3c565ba86f162af573093474d261d263e13b`; raw user-role message ID `cd28c7f7-13f5-4e51-9afc-170fd2d79f10`. The extraction preserves the user role and text, but the raw conversation export itself was not recovered in this run. The message contains only the glyph, not a semantic definition.
+- `Meridian Free Build — raw.json`: blob `4c51b52ce841bf690025a905c4a6922b4bce8a2d`. The Run 141 reference chain terminates in assistant-authored messages; no user ancestor was recovered.
+- `Holonomy and physics compatibility — raw.json`: blob `1600b58f79c74a89ecea588ec6f5932502005098`. It contains a broad user question about holonomy as a possible physics bridge, not the specific SO(4)/Sim+(4) construction.
+- `Whirligig SAT Framework — raw.json`: blob `daad991a7dace4c2a1d157f8939b86dc04d3d732`; the user-provided summary/test request is relevant context, but the later assistant-generated numerical “test” is not observational evidence.
+- `RUN_077_LITERAL_HAGALAZ_COMPOSITION.md`: blob `a106e8328345534d74460b17196d4ab35a4b06bf`; assistant sandbox algebraically checks the same composition law now formalized in PR #1189.
+- The Run 141 document names Run 076 and Run 140 as antecedents, but their exact standalone artifacts were not recovered. The primary Rotoexpando manuscript supplies the framed-sphere similarity map independently of those missing sandbox reports.
+
+### SAT4D / Blockwave cross-boundary pointer
+
+This run deliberately did not duplicate the current-source audit. Exact source equations, source dates, SHA identities, authorship distinctions and corrected form-degree/Maxwell typing are preserved in:
+
+- Ravel, `WORKSPACES/RAVEL/2026-10-30_1100Z_SAT4D_CURRENT_NAMESPACE_SOURCE_FIDELITY.md`, blob `c5e940fbffbc75b7ed3a4715e674ffd2ab79fcc9`: June 2025 SAT4D current namespace and the October 19, 2025 assistant-generated Blockwave action.
+- Sable, `WORKSPACES/SABLE/2026-11-01T0124Z_SABLE_3FORM_2FORM_SOURCE_AND_DEGREE_MAP_AUDIT.md`, blob `ade582cb46090b4e623d492db5c24077b556fe22`, and PR #1098 comment #6551841849: 3-form/2-form degree distinction and source-attribution correction.
+
+The June 2025 SAT4D live draft uses a flux/linking average as `J_μ`, then later reuses `J_μ` for a Dirac bilinear without a derived map; its first displayed Maxwell source lacks a free `ν` index. The October 19 Blockwave action is assistant-authored and uses a distinct conserved antisymmetric `J^{μν}`. These are not interchangeable currents. No source equation was silently rewritten in this Nadir run.
