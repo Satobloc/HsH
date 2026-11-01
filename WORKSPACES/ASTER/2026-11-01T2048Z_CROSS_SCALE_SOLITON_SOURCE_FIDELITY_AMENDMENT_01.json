@@ -1,0 +1,137 @@
+{
+  "schema": "aster-source-fidelity-amendment-v1",
+  "run_key": "REVROT3-19-20261011:524:s4",
+  "nominal_utc": "2026-11-01T20:48:00Z",
+  "worker": {"name": "Aster", "ring_index": 2},
+  "next": {"name": "Ariadne", "ring_index": 3, "run_key": "REVROT3-19-20261011:525:s0"},
+  "amends": [
+    "WORKSPACES/ASTER/2026-11-01T1700Z_4D_SPIN_FLAVOR_GEOMETRY_SOURCE_FIDELITY.md",
+    "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_ADDENDUM.md"
+  ],
+  "historical_aster": {
+    "conversation_id": "6ab006ce-e358-83ea-b3dd-7b23a26c00fa",
+    "raw_blob_sha1": "1bf6e65c4ac1650297acb67d7e39f700454a03c8",
+    "mapping_nodes": 1818,
+    "user_messages": 39,
+    "key_messages": [
+      {"id": "d15369d1-1412-4f4a-9460-702d2de573ea", "time": "2026-09-22T05:37:41.366Z", "meaning": "source fidelity: does this read like Nathan and contradict prior statements"},
+      {"id": "01505af7-37cd-491f-a951-1822934e36ff", "time": "2026-09-22T19:03:08.093Z", "meaning": "Paper A review assigned"}
+    ],
+    "current_thread_authenticated": false
+  },
+  "saucepan_export": {
+    "path_hsh": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json",
+    "path_sat_archive": "saucepan_complete_chat_log_103_msgs - .txt",
+    "git_blob_sha1": "d9a25072ed462c714cdd04f2fb1bce4860d4b12d",
+    "exported_at": "2026-07-31T19:29:54.213Z",
+    "messages": 103,
+    "roles": {"Nathan": 46, "Srena": 57},
+    "conversation_id": null,
+    "per_message_timestamps": false,
+    "missing_indices": [8, 12, 32, 36, 44, 50, 52, 54, 86, 114],
+    "duplicate_paths_same_blob": true,
+    "key_indices": {
+      "58": "Nathan question whether a gluon is at least one frequency of the graviton",
+      "59": "Srena affirmative same-phenomenon-at-different-scales assertion",
+      "60": "Nathan exploratory tri-quark/He-3 braid and residual-force idea",
+      "62": "Nathan speculative stellar/galactic EM-vortex damping",
+      "63": "Srena assistant escalation claiming hierarchy problem solved",
+      "64": "Nathan response, not explicit acceptance",
+      "70": "Nathan initial neutrino/photon speculation",
+      "72": "Nathan says that specific unification is not good enough even to be tentative",
+      "98": "Nathan correction: Velcro jamming early/not current; gauge scrambling/Terrell-rotation analogy; spinning-ball/water-wake soliton heuristic; embedded formal draft not proven user-authored",
+      "108": "Nathan labels separate Pulsar Glitch Programme variation tentative; note says formal text largely LLM-written"
+    }
+  },
+  "march11_methodology_review": {
+    "conversation_id": "69b1c291-ad40-8326-8f7e-948a2ca08d32",
+    "raw_blob_sha1": "77b627687f3c2d581081be4d68254bc39a5cc7d2",
+    "mapping_nodes": 93,
+    "user_messages": 43,
+    "duplicate_raw_1_same_blob": true,
+    "key_messages": {
+      "initial_user_supplied_draft": {"id": "c1f39479-1022-46a9-bf4c-9d98854090cd", "time": "2026-03-11T19:29:50.594Z"},
+      "assistant_methodology_critique": {"id": "8fb074a0-1b9d-477f-b1d8-7cb9dff440be", "time": "2026-03-11T19:29:51.664Z"},
+      "user_scaling_comment": {"id": "9067b175-4254-41b5-8f7e-b111f721c3b0", "time": "2026-03-11T20:39:11.095Z"},
+      "user_idealized_no_real_pulsar_numbers": {"id": "5f578669-abaa-40eb-b246-ec5ad7a4110e", "time": "2026-03-11T20:46:16.457Z"},
+      "assistant_fractal_scaled_draft": {"id": "be6b8580-79c3-49fb-8efb-f648636f32b9", "time": "2026-03-11T21:01:39.783Z"},
+      "assistant_revtex_draft": {"id": "401ef960-26ef-4668-b56b-953ac5de1140", "time": "2026-03-11T21:04:35.300Z"},
+      "assistant_request_for_latex": {"id": "a6a6817b-4bbe-4ce0-ad3a-af6bcc0d54cd", "time": "2026-03-11T21:29:01.437Z"},
+      "user_repost_of_assistant_draft": {"id": "2d349371-e6e6-4b7b-a9c9-ce64d6de79b2", "time": "2026-03-11T21:29:15.342Z"},
+      "user_di_ontology_free_scope": {"id": "2c978a8a-a294-4dfa-bf95-89c72d8f5ce9", "time": "2026-03-11T22:44:04.948Z"},
+      "user_di_standard_relativistic_scope": {"id": "30fe22e1-86de-4591-ab62-29e40a6b2f76", "time": "2026-03-11T22:46:50.324Z"},
+      "assistant_di_focused_draft": {"id": "cddef09b-eb4b-4095-b169-147f662b92d3", "time": "2026-03-11T22:49:52.658Z"}
+    },
+    "normalized_latex_comparison": {
+      "assistant_chars": 5426,
+      "user_repost_chars": 6410,
+      "common_prefix_chars": 4977,
+      "assistant_prefix_fraction": 0.9172,
+      "token_jaccard": 0.8231,
+      "interpretation": "source-lineage diagnostic; chronology and parent relation are decisive; not an authorship proof from similarity alone"
+    }
+  },
+  "pulsar_glitch_programme": {
+    "paths": [
+      "HYPERFOAM THEORY/PULSAR GLITCH PROGRAMME.txt",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 3/PULSAR GLITCH PROGRAMME.txt"
+    ],
+    "git_blob_sha1": "c05f7fe826ce0edb7bcaded815d768531b554dfc",
+    "characters": 12803,
+    "lines": 162,
+    "components": [
+      "tentative internal 24-cell HSUCV lattice plan with 0.2387c, 0.246 rad and 80% luminosity claims",
+      "separate DI-centred formal paper with vcrit left symbolic and standard relativistic language"
+    ],
+    "note2": "formal text largely LLM-written",
+    "duplicate_paths_same_blob": true
+  },
+  "pulsar_paper_pdf": {
+    "extracted_text_path": "_AUTO_EXTRACTED_TEXT/PULSAR_PAPER.txt",
+    "extraction_blob_sha1": "b7f42e7b677624b9821c79f0fe2b45f49bb422ad",
+    "source_pdf_sha256": "4c224f99bfb7825dd0de09b95a51feb5d885ab0447eaf65c8e96a25be11e5794",
+    "extraction_request": "2026-09-10_root_pdf_extraction_pass_002",
+    "extraction_time": "2026-09-10T16:02:59.867862Z",
+    "pages": 2,
+    "characters": 4680,
+    "title": "Fractal-Scaled Surface Velocity Thresholds and Idealized Fingerprint Curves",
+    "di_focused": false,
+    "pdf_metadata_and_page_images_inspected": false
+  },
+  "formalization_cross_read": {
+    "loom_pr": 759,
+    "loom_current_head": "11e5eafee7d5ce361fe78f2061e5154a0994dc8b",
+    "previous_failed_run": 41348776901,
+    "current_run": 41349278088,
+    "current_run_status_at_inspection": "in_progress_at_lake_dependency_manifest",
+    "aster_pr": 1220,
+    "aster_head": "6a66217979b9caacff06fa407cd9ccd1cdd7999e",
+    "aster_merge_ref_run": 41330715937,
+    "aster_merge_ref_build": "success",
+    "aster_exact_head_build": false
+  },
+  "publication": {
+    "aster_prior_issue": 1221,
+    "related_prior_issue": 996,
+    "publisher_trigger": "issues.opened",
+    "append_route": false,
+    "new_issue_created": false,
+    "status": "PUBLISHER_HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD"
+  },
+  "mersearch": {
+    "release": "stable 1.0",
+    "lanes": {
+      "1": "Morrow request",
+      "2": "optics request awaiting execution",
+      "3": "Aster disclosure request staged",
+      "4": "Tern request"
+    },
+    "search_submitted": false,
+    "reason": "all four lanes occupied or reserved; no overwrite"
+  },
+  "reading": {
+    "source": "HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt",
+    "lines_read": "841-880",
+    "next_cursor": 881
+  }
+}
