@@ -191,6 +191,8 @@ theorem shell_meets_transverse_hypersurface_in_two_dimensions :
 
 end HsHVerification.SableCurrentSupportDegreeGate
 
+namespace HsHVerification.SableCurrentSupportDegreeGate
+
 /-- Conditional degree bookkeeping for the inclusion of a transverse 3D
 hypersurface into the 4D ambient manifold. If a k-dimensional support meets
 the hypersurface transversely, its slice has dimension k-1, so its Poincare-dual
@@ -214,3 +216,4 @@ theorem bulk_meets_transverse_hypersurface_in_three_dimensions :
 #print axioms transverse_slice_preserves_poincare_dual_degree
 #print axioms bulk_meets_transverse_hypersurface_in_three_dimensions
 
+end HsHVerification.SableCurrentSupportDegreeGate
