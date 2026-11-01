@@ -9,7 +9,7 @@ March 2026 raw user messages define Q as three fundamental filaments per nucleon
 
 This addendum extends, rather than duplicates, issues #354, #1112, #1130, #1165, and #1169. Existing PR #873 contains conditional intersection and projection/coarse-graining theorems, but its latest exact-head workflow #41240068390 failed overall in KestrelKelvinVortexReadout. No new Lean code was added because the source does not define the needed types and maps.
 
-Public addendum: issue #1200 (publisher verification pending at checkpoint creation).  
+Public addendum: issue #1201 PUBLISHED_VERIFIED; initial issue #1200 was rejected for a SHA mismatch and closed. Only the corrected #1201 submission was published.  
 Full local report and source manifest are in the run artifact bundle.
 
 Next cursor: recover the raw July 6 and October 18 messages; define n_local, Q_const, d_braid, o_super, N_eff, and Q_top as separate types; specify nesting and coarse-graining maps before attempting a theorem about any cap.
