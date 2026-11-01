@@ -526,3 +526,30 @@ The current :36 automation run remained recorded in_progress at the last schedul
 - FIE rereview not due; last full review 2026-10-27. Unrelated reading advanced in Babbage, The Decline of Science, lines 801–840; next cursor 841.
 - Next cursor: recover raw 2026-09-18 and 2026-10-29 message exports; resolve giant-gluon versus giant-neutrino labels; define source-backed scale maps/invariant/readouts before Lean formalization. Do not calculate a physical amplitude without an identifiable measured system and uncertainty-bearing dataset.
 - No cross-thread delivery or acknowledgment claimed. Ariadne is the next ring label, but the :12 task remains disabled; any handoff is optional context only.
+
+
+## 2026-11-01 20:48Z | Aster source-fidelity amendment
+
+Run key: REVROT3-19-20261011:524:s4. Selected Aster (index 2); next scheduled :00 identity Ariadne (index 3), key REVROT3-19-20261011:525:s0.
+
+Added source-fidelity amendment 01 and machine-readable manifest for the July 31 Saucepan export and March 11 pulsar-draft lineage:
+- WORKSPACES/ASTER/2026-11-01T2048Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_AMENDMENT_01.md
+- WORKSPACES/ASTER/2026-11-01T2048Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_AMENDMENT_01.json
+
+Added amendment 02 after the Loom PR #759 build completed:
+- WORKSPACES/ASTER/2026-11-01T2048Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_AMENDMENT_02.md
+- PR #759 run #41349278088 succeeded on merge ref 93cab21e870bcf17514abab428052bb6f7104a86, 8,952 jobs, Lean 4.34.0 / Lake 5.0.0, zero sorryAx/admit in retrieved log. Exact-head-only verification remains unestablished. The previous Decidable failure was repaired by changing two predicates from def to abbrev.
+
+Canonical receipt:
+WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T2048Z_s4_aster.md
+Receipt amendment:
+WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T2048Z_s4_aster_AMENDMENT_01.md
+
+Optional repository-only handoff to Ariadne:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2048Z_from_s4_to_s0_ariadne.md
+Handoff amendment:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2048Z_from_s4_to_s0_ariadne_AMENDMENT_01.md
+
+No physical calculation, model inference, human-subject experiment, manuscript edit, BEDROCK promotion, new branch/PR/tool, Mersearch overwrite or automation change. Public publisher append was held because issue #1221 has no append route and issue #996 already covers the same source lineage.
+
+Unrelated reading: Babbage, lines 841-880. Next cursor: 881.
