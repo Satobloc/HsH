@@ -27,9 +27,9 @@ A normal-bundle tube is one candidate construction, not source-established. The 
 Existing PR #1133 was extended on its existing branch; no new PR or branch was created.
 
 - Branch: `research/ravel-carrier-slice-reconstruction-20261031t0212z`
-- Head: `90f091d88620259d0289a986f402ee258c5ee433`
+- Head after proof repair: `10099fa9b9a8175269405bd77e71e0803143f645`
 - New module: `FORMAL_VERIFICATION/HsHVerification/RavelCarrierSheetDimensionGate.lean`
-- Module blob: `0362d94e13ec19fc0aca24d745da926069103e45`
+- Module blob after proof repair: `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`
 - Root aggregator blob: `db4d5e73e00c46ae30804d20cf380dbbe805418e`
 
 The module formalizes conditional dimension arithmetic and a generic `SliceCompatibleRetraction` contract. A tube-to-carrier retraction does not automatically induce a map between their timesheet pullbacks; the candidate must supply an explicit `preservesSlice` law and sheet reparameterization. The module does not instantiate a physical bundle or prove that this law holds.
@@ -37,10 +37,12 @@ The module formalizes conditional dimension arithmetic and a generic `SliceCompa
 ### Lean verification status
 
 - Actions run `41292061092`: CANCELLED before compilation when the later aggregator-registration commit superseded the earlier module-only commit.
-- Actions run `41292069239`: IN PROGRESS at the Lake dependency-manifest step at last inspection.
+- Actions run `41292069239`: FAILED in `carrierSliceDimension_eq_k_minus_one` because `omega` did not unfold the expected-intersection definition. The `#eval` command did execute and printed `[(3, 0), (2, 1), (1, 2), (0, 3)]`; all other existing targets built, but the new module target failed. Tests, lint, nanoda, and the automated axiom audit were skipped.
+- Proof correction: explicitly `change k + 3 - 4 = k - 1` before `omega`; added `#print axioms` for the principal results. New branch head `10099fa9b9a8175269405bd77e71e0803143f645`; corrected module blob `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`.
+- A follow-up workflow run for the corrected head has not yet been observed.
 - No successful Lean compile is claimed yet.
 - No exact-head standalone build is claimed.
-- No `sorry` or `admit` appears in the new source; theorem-level axiom reporting and full CI remain pending.
+- The new source contains no `sorry` or `admit`; theorem-level axiom reporting remains pending until the corrected build runs.
 
 ## Publication and readback
 
@@ -49,7 +51,7 @@ The existing issue #1202 was used; no duplicate issue or publisher artifact was 
 - Additive issue comment: `6555985381`
 - Exact comment readback: PASS.
 - Supplemental report: `WORKSPACES/RAVEL/2026-11-01T0836Z_CARRIER_CORE_SLICE_DIMENSION_GATE_SUPPLEMENT.md`
-- Supplemental report Git blob: `3c08a88a41e4a4157fc3d2bec73a580a25d8b33b`
+- Supplemental report Git blob after CI correction: `4e7e87a404a958fa7f8d89cad80a825dcaf4c341`
 - Exact file readback: PASS.
 
 The immutable original issue artifact was not rewritten.
