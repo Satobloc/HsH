@@ -342,3 +342,244 @@ This report is an internal source-fidelity addendum. No new issue, PR, branch, o
 8. If a later source-complete map creates a new theorem, formalize it in Lean 4/Mathlib without changing the current PRs or promoting theory before review.
 
 **Final classification:** substantial raw source recovered; direct geometry separated from assistant reconstruction; Nambu-Goto remains an external comparator; 4D filament/worldsheet/worldtube map unresolved; existing Lean special cases compile at merge references with stated limits; no new physical calculation, public issue, PR, branch, task, or theory promotion.
+
+
+## 11. Supplement 01: March 7, 2026 Universal Indicatrix source cluster
+
+This supplement extends the existing source-fidelity report. It does not replace the 2024 moving-plane baseline or the October 2026 finite-core/time-sheet cluster already recorded above. It is a provenance and mathematical-interface audit, not a theory integration or physical calculation.
+
+### 11.1 Raw source custody and authorship
+
+**Raw source:** Satobloc/SAT_THEORY_ARCHIVE_2023-25/Switching to English — raw.json  
+**Conversation ID:** 69ab6f13-b8f8-832e-8d71-528c15e11037  
+**Date:** 2026-03-07  
+**Git blob SHA-1:** dfdaec331846087af7daf0008eba431520a5b9ad
+
+Strong Nathan Direct geometry statements in that role-tagged export:
+
+| Message | Timestamp UTC | Source status | Geometry contribution |
+|---|---|---|---|
+| 9dc80f6c-9f05-4c60-9713-1333427a72ad | 01:54:17 | Nathan Direct | Moving-plane / curve representation; the plane is not merely a static slice. |
+| 53a90640-9dd4-45f9-8647-328533e801a9 | 03:12:50 | Nathan Direct | Clarifies that the construction is a representation, not a general theorem of dynamics. |
+| b817b693-cdeb-4e8e-9707-a81f2f5d0948 | 05:52:37 | Nathan Direct correction | Specifies an nth-order superhelix in four dimensions as a line equation, integrated and rotated about all four dimensions. |
+| a27ac504-8a09-4a2e-9de8-fc4c5cf05680 | 09:08:47 | Nathan Direct | Defines fixed and movable, superimposed four-dimensional orthogonal grids and hyperspheres; a marked point on the sphere surface traces a path by relative rotation and expansion/contraction. |
+| 8270405c-912d-4c88-a00f-32ad909cd83e | 11:05:13 | Nathan Direct | Adds two curves in opposite hemispheres, bisected intersections, an origin pivot, movable attachment points, and solids-of-rotation operations. |
+
+Two source classes must not be collapsed into that list:
+
+- 5ff0019c-bfe6-44b0-b898-b20a047a6e34 at 05:08:33 is a user-role message explicitly calling its long mathematical summary tentative and warning that LLMs had repeatedly misinterpreted the intended mathematics. Its embedded formula is therefore an endorsed/tentative candidate, not a verified Nathan Direct equation.
+- f236e23d-0266-4be8-94f7-ead029c534b6 at 08:08:45 and 70101050-1740-4666-ad5a-5bd1710705ef at 08:19:25 are user-role summary blocks. Their embedded authorship is not independently established. Preserve their time-sheet modes and angle language as a historical conceptual surface, not as primary equation provenance.
+
+Relevant assistant translations in the same raw conversation:
+
+- aa31a922-31d0-4cf4-966d-1c58274df05a at 02:00:32: initially rejects the moving-plane representation too quickly.
+- 12f1860c-e682-41ce-b934-2b77fe6850d8 at 03:14:05: swings toward broad validation without giving the required map or conditions.
+- 732c541c-4ec4-4ff0-ae86-778f9f93c743 at 05:09:48: evaluates the tentative pasted summary; its dimensional and physical claims remain assistant commentary.
+- e6bbd5c0-ad4e-4458-af38-256764c7b92d at 05:53:41: correctly changes the object type to a one-dimensional curve in four dimensions, but its two-mode example is not a complete nth-order superhelix equation.
+- 21399b43-fb83-491d-8e40-0be5e4317cba at 09:14:32: adds quantum-gravity and holonomy analogies without supplying equivalence maps.
+- 41998ddc-dc93-4edc-bebf-20bf5fa5f899 at 11:06:27: introduces the explicit candidate equation \(y^\mu(\lambda)=r(\lambda)R^\mu{}_\nu(\lambda)x_0^\nu\). The equation is an assistant reconstruction of the direct geometric description. The same response's claim that integration over the four-dimensional hypersphere volume is equivalent to summing over all possible paths is unsupported.
+
+### 11.2 Nathan Direct geometry, stated without the assistant's mathematics
+
+The direct construction has two distinct but superimposed reference systems:
+
+1. A fixed four-dimensional orthogonal grid carrying a unit hypersphere.
+2. An identical movable grid and hypersphere, initially superimposed, whose relative frame can rotate about the origin and whose radius can expand or contract.
+
+A marked point on the reference sphere is paired with the corresponding marked point on the moving sphere. The moving point's radial scale and relative orientation trace a curve in the ambient four-dimensional space. The simplest locked-frame case starts at the origin and expands to the unit sphere, producing a straight radial line. The direct source associates that special line with the location for the particle Lagrangian, but it does not provide the Lagrangian in this message.
+
+The later direct correction is explicit about object type: the requested nth-order superhelix is a **one-dimensional line/curve in four dimensions**, not a field. It is to be integrated and rotated about all four dimensions. The exact nth-order harmonic/nesting law, parameter, frequency hierarchy, and coefficients are not specified in the recovered direct statements.
+
+The two-hemisphere construction and solids-of-rotation operations are additional operations, not automatically implied by the single-point path map. The source does not yet define the hemisphere axis, the two curve sets, the intersection/bisector operator, the attachment-point constraints, or the sweep map. Those remain unresolved source geometry.
+
+### 11.3 Candidate corrected mathematical translation, not a Nathan Direct equation
+
+The assistant's formula is a useful candidate representation of the two-grid construction. State its assumptions explicitly:
+
+\[
+x_0\in S^3\subset\mathbb R^4,\qquad
+q:I\to[0,\infty),\qquad
+R:I\to SO(4),
+\]
+\[
+\gamma(s)=q(s)R(s)x_0.
+\]
+
+Here \(x_0\) is the fixed marked point on the reference unit three-sphere, \(q(s)\) is the moving sphere's radius, and \(R(s)\) is the relative orientation of the moving frame. Under these assumptions,
+
+\[
+\|\gamma(s)\|=q(s),\qquad
+u(s)=\frac{\gamma(s)}{\|\gamma(s)\|}=R(s)x_0\in S^3
+\quad\text{when }q(s)>0.
+\]
+
+This captures the radial-scale plus relative-rotation kinematics. It is not a direct quotation of Nathan's equation, and it does not yet define the nth-order superhelix or a physical action.
+
+The inverse is not unique. The stabilizer
+\[
+\operatorname{Stab}(x_0)=\{Q\in SO(4):Qx_0=x_0\}\cong SO(3)
+\]
+acts on the right: \(R(s)\) and \(R(s)Q(s)\) produce the same marked-point path. The current UI therefore recovers radial scale and direction, not a unique full rotation history. At \(q(s)=0\), direction and frame orientation are unobservable. The origin is a genuine degeneracy in the inverse map, not a harmless numerical detail.
+
+The broad "any path" claim requires a path-lifting statement for
+\[
+\pi:SO(4)\to S^3,\qquad \pi(R)=Rx_0.
+\]
+For a continuous direction path on an interval, a lift can be chosen after an initial frame is specified, but it is not unique because the fiber is \(SO(3)\). A path passing through the origin needs piecewise treatment or an explicit direction/tangent convention. A closed or periodic path additionally needs an endpoint-frame condition, with any residual frame rotation/holonomy stated. None of those conditions is established by the current UI or the Lean modules inspected here.
+
+The six independent two-plane generators of \(\mathfrak{so}(4)\) provide a natural control basis. The current UI uses an ordered product of six plane rotations. That is a valid implementation choice, but the order and control functions are not stated in the direct message and must not be retroactively attributed to Nathan.
+
+### 11.4 Dimensional and object-type separation
+
+Keep these objects distinct:
+
+| Object | Mathematical type | Status |
+|---|---|---|
+| Unit hypersphere surface | \(S^3=\partial B^4\), three-dimensional | Direct geometric object, dimension inferred from the four-dimensional ambient grid |
+| Enclosed four-dimensional ball | \(B^4\), four-dimensional volume | Mentioned by the direct integration proposal; its intended role is not yet specified |
+| Marked-point trajectory | \(\gamma:I\to\mathbb R^4\), one-dimensional image | Directly intended path/worldline |
+| nth-order superhelix | A constrained family of one-dimensional curves in four dimensions | Directly specified as a line equation; exact nth-order law absent |
+| Later finite-core support/worldtube | \(W\subset M^4\) | Separate later construction; no thickening/embedding map from \(\gamma\) to \(W\) has been supplied |
+| Later time sheet | \(\Sigma_t^3\subset M^4\), when treated as a codimension-one slice | Separate later construction; no complete response/dynamics map supplied |
+
+An integral over the finite-dimensional ball \(B^4\) is not an integral over the infinite-dimensional path space \(\mathcal P=C(I,\mathbb R^4)\). The statement
+\[
+\int_{B^4} f(x)\,d^4x
+\quad\Longleftrightarrow\quad
+\int_{\mathcal P} e^{-S[\gamma]}\,\mathcal D\gamma
+\]
+has no established meaning until a map between the domains, a path-space measure, an action \(S[\gamma]\), and boundary/regularity conditions are specified. Do not repeat the assistant's volume-to-path-sum equivalence as a theorem.
+
+The explicit \(SO(4)\) construction is Euclidean. The direct phrase "four-dimensional orthogonal grid" does not itself specify a Lorentzian metric. If one axis is intended to be timelike in the Minkowski sense, \(SO(4)\) cannot silently stand in for the Lorentz group \(SO^+(3,1)\). The metric signature and the allowed transformations must be stated before comparing this construction with Minkowski worldlines or string-theory worldsheets. A one-dimensional superhelix is not a two-dimensional Nambu-Goto worldsheet.
+
+### 11.5 Existing instrument and tooling audit
+
+The existing HsH Universal Indicatrix implementation already encodes the candidate relative-frame map. It was not rebuilt:
+
+- PUBLIC_SITE/instruments/universal-indicatrix/index.html, blob 672952dcdab431c7065b1aa4925515a012ad0394.
+- tools/ui_blind_lab/FREEZE_MANIFEST.json, blob a3b2f76715f0552a2977b8c96fdc201bc39124e4, freeze ID SAT-UI-BLIND-20261026-001.
+- tools/ui_blind_lab/README.md, blob 4cd89012a13205b2c1658be488bdb342e1d3601f.
+- tools/ui_blind_lab/ui_kernel.py, blob 6290f93d3c700166e477a04c96adf80605dbff25.
+- tools/ui_blind_lab/test_ui.py, blob 12363148c3714f80ff7aa8f4fafd6ca4445eb0f1.
+- PUBLIC_SITE/instruments/universal-indicatrix/SITES_INTEGRATION.md, blob 32a63f76a037f4d195cb1b0f9f2192b08b0cae02.
+
+The UI implements dimensionless scale and six-plane SO(4) controls, four-coordinate projections, inverse recovery of scale and direction, and separate geometric action terms. Its tests check rotation orthogonality, norm preservation, and numerical behavior of the implemented controls. They do **not** prove universal path coverage, unique recovery of \(R(s)\), the nth-order superhelix, a physical Lagrangian, or a path-space integral. The freeze manifest explicitly separates executable dimensionless geometry from independently validated physical predictions. The requested live Sites route remains readback-pending; a GitHub source commit is not a deployed-site verification.
+
+The linked source documents are not all primary user mathematics:
+
+| Derived/compiled document | Git blob SHA-1 | Provenance disposition |
+|---|---|---|
+| 2026/SAT MATH — BACKBONE.txt | 1854995be3311f565739f2be64269cbb0385a82f | Assistant-derived mathematical expansion; no raw role-tagged source in the document |
+| 2026/SAT CORE — UI CONFIG.txt | 6817caf68943593f31d72d51798e0ba4589624a4 | Assistant-derived UI/formalization summary; no embedded direct-author attribution |
+| SAT GEOMETRIC SOLVERS.txt | 5429f7cb2adbfdc0abab7db46eff4ca4de08358a | Assistant-authored generalization to relative frames and arbitrary dimension |
+| _AUTO_EXTRACTED_TEXT/25 SAT VERSIONS.txt | f32305875aa22144468f2926bd347438277f72aa | Compiled/auto-extracted archive text without raw role tags; not sufficient alone to establish Nathan Direct authorship |
+
+The source-only Universal Indicatrix UI was reused as the existing implementation. The separate Whirligig is a 3D sphere/torus mechanism with a 4D rotation mode, not a substitute for the 4D path-lifting problem. Math Hopper remains an equation-candidate extractor, not a proof engine; its full three-repository pilot is not verified as a complete archive scan. SciSpace is available but was not needed for this internal source-attribution question. All Mersearch lanes were occupied or unreleased, so no shared request slot was overwritten and no new request was submitted. The raw conversation was fetched directly from the archive. The current GitHub connector did not expose a fork-enumeration action; no claim that the repository has zero forks is made.
+
+### 11.6 Proof-first status
+
+An existing Lean 4/Mathlib formalization was inspected rather than duplicating it:
+
+- PR #1133, branch research/ravel-carrier-slice-reconstruction-20261031t0212z, head d8579403952ca658cf5dd0547e8c181701d18145.
+- RavelCarrierSheetDimensionGate.lean, blob 69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4.
+- RavelCarrierSliceReconstruction.lean, blob ee05b9b104cd69e922face1cf1beb072e380b429.
+- Actual GitHub Actions run #41348936553, job #124974692430: **SUCCESS**, Lean 4.34.0, Lake 5.0.0, build completed successfully across 8,950 jobs.
+
+The checked theorems include the dimension of a nonzero linear-functional hyperplane in four dimensions, the corresponding three-dimensional slice dimension, and explicit set-level pullback/projection compatibility maps under their stated hypotheses. This is relevant to the later 4D-carrier/3D-sheet interface. It does not prove the March moving-sphere path lift, the full superhelix, the physical premises, or the volume-to-path-space conversion. The PR remains unmerged. The adjacent Kestrel PR #873 is not green at its current head: the relevant intersection-dimension module appears in the build log, but the full build fails in KestrelKelvinVortexReadout. Do not report that PR as a successful overall compile.
+
+No new Lean file was added. The missing path-lifting proposition needs explicit path regularity, nonzero/zero handling, initial frame, and endpoint/periodicity conditions before a faithful formal statement can be compiled. Lean would validate only that formalized proposition, not the correctness of the source translation or any physical premise.
+
+### 11.7 Glossary and map hierarchy
+
+| Stable term | Definition for this report | Do not conflate with |
+|---|---|---|
+| Reference frame \(F_0\) | Fixed four-dimensional orthogonal grid | Moving frame |
+| Moving frame \(F(s)\) | Identical grid with relative scale and orientation | A physical spacetime metric |
+| Reference sphere \(S^3\) | Unit three-dimensional hypersphere surface | Four-dimensional ball \(B^4\) |
+| Scale \(q(s)\) | Nonnegative radius of the moving sphere | Path-space measure |
+| Relative rotation \(R(s)\) | Candidate element of \(SO(4)\) | Lorentz transformation unless signature is specified |
+| Indicatrix path \(\gamma(s)\) | Marked-point trajectory \(q(s)R(s)x_0\) | Full frame history |
+| Superhelix | Intended nth-order one-dimensional curve in 4D | Field or worldsheet |
+| Time sheet \(\Sigma_t^3\) | Later codimension-one 3D slice in a 4D carrier | The March reference sphere |
+| Finite-core support \(W\) | Later extended 4D support/worldtube | The 1D centerline \(\gamma\) |
+| Slice \(I_t\) | \(W\cap\Sigma_t^3\) | A dynamical interaction law |
+| Configuration/path space \(\mathcal P\) | Space of admissible curves | The finite-dimensional ball \(B^4\) |
+
+~~~mermaid
+flowchart LR
+  F0["Fixed reference frame F0<br/>unit S3 in R4"] --> X0["Marked point x0 in S3"]
+  Fs["Moving frame F(s)<br/>q(s) and R(s) in SO(4)"] --> G["gamma(s) = q(s) R(s) x0<br/>one-dimensional path in R4"]
+  X0 --> G
+  G --> T["Optional thickening or embedding<br/>gamma to W is not defined"]
+  T --> W["Finite-core support W in M4"]
+  W --> S["Intersection with time sheet Sigma_t^3"]
+  S --> I["I_t = W intersect Sigma_t^3"]
+  I --> O["Projection and response maps<br/>not yet specified"]
+  S3["S3 = boundary of B4"] --> B4["B4 is a 4D volume"]
+  B4 -. "no map or measure defined" .-> P["Path space P = C(I,R4)"]
+~~~
+
+The map hierarchy is therefore:
+\[
+(F_0,F(s),x_0)\longrightarrow \gamma
+\]
+is a candidate kinematic map;
+\[
+\gamma\longrightarrow W,\qquad
+W\times_{M^4}\Sigma_t^3\longrightarrow I_t,\qquad
+I_t\longrightarrow\text{response/observables}
+\]
+are separate maps whose definitions and conditions must be supplied. The current Lean slice map covers only a conditional part of the latter hierarchy.
+
+### 11.8 Original proposition versus assistant translation
+
+| Original source proposition | Assistant translation or later artifact | Fidelity disposition |
+|---|---|---|
+| Two superimposed 4D grids/spheres, one fixed and one scale/rotation-controlled | \(\gamma=qRx_0\) | Useful compressed representation of the marked-point path; omits the explicit paired-grid construction and is assistant-authored |
+| Any desired point path can be generated by expansion plus rotation | Universal path claim | Requires a path lift, initial frame, zero handling and endpoint conditions; not yet proved |
+| Straight radial special case is the vacuum filament | UI radial path | Geometric special case only; no physical vacuum identification established here |
+| nth-order superhelix is a 1D line equation in 4D | Assistant's two-mode example and later generic SO(4) controls | Partial correction, not the requested nth-order equation |
+| Integrate over the full 4D hypersphere volume for all configurations | Assistant equates volume integration with summing paths | Unsupported domain/measure equivalence |
+| Two opposite-hemisphere curves, bisected intersections and swept solids | Assistant adds braids, interference, holonomy and quantum analogies | Extra interpretations, not source-derived maps |
+| Multiple time-sheet descriptions/frames in the user-role summary | Assistant treats them as equivalent frames | No transition or projection maps supplied; source authorship of the embedded summary is uncertain |
+
+### 11.9 Discrepancy ledger
+
+| ID | Severity | Discrepancy | Required correction |
+|---|---|---|---|
+| UI-01 | High | \(S^3\), \(B^4\), and a 1D path are used too loosely as one "hypersphere" object | Keep surface, volume, and path as separate typed objects |
+| UI-02 | High | Four-dimensional volume integration is equated with a sum over paths | Define path space, admissible paths, measure and action, or retain as an unformalized conjecture |
+| UI-03 | High | Direct 1D superhelix is reframed as a field/worldsheet | Preserve it as a 1D curve; define any higher-dimensional support separately |
+| UI-04 | High | Euclidean \(SO(4)\) controls are liable to be read as Minkowski spacetime transformations | Specify metric signature and allowed group before any GR/string comparison |
+| UI-05 | High | No map connects the 1D Indicatrix path to the later finite-core 4D support | Define an embedding/thickening map and its conditions |
+| UI-06 | Medium | "Any path" is asserted without a path-lifting statement | State regularity, interval, initial frame, origin and periodicity conditions |
+| UI-07 | Medium | Inverse reconstruction treats direction as if it determines the full rotation | Preserve the \(SO(3)\) stabilizer nonuniqueness |
+| UI-08 | Medium | Six-plane rotation order is treated as though it were source-specified | Label the UI order as an implementation convention |
+| UI-09 | High | Dual-hemisphere intersection/bisector and solids-of-rotation operations lack definitions | Recover exact axes, sets, attachment constraints and sweep maps |
+| UI-10 | Medium | Time-sheet mode labels and plane/normal angle conventions drift | Preserve source versions; do not merge labels without transition maps |
+| UI-11 | High | Compiled/assistant-derived documents are labelled as primary source | Downgrade provenance until raw role-tagged lineage is established |
+
+The current issue #1231, "SAT sphere geodesic source distinction and H(s)H formalization plan", overlaps the same sphere/Indicatrix family. Its body labels _AUTO_EXTRACTED_TEXT/25 SAT VERSIONS.txt as a primary SAT source, but that compiled file has no raw role tags establishing Nathan Direct authorship. The issue-publisher bot rejected its submitted payload for SHA-256 mismatch, and no publication artifact was created. The existing publisher listens to issue-open events and has no append/comment publication route. To avoid a duplicate issue, this supplement is retained in the existing worker report; no new issue or comment was created.
+
+### 11.10 Operational and continuity update
+
+- This supplement is a meta-layer source-to-model audit only. No BEDROCK theory promotion, physical calculation, CODATA scoring, prediction, or paper-gate advancement.
+- No SAT-O/Blockwave equations were transcribed, altered, or promoted in this supplement.
+- No new tool, fork, branch, PR, task, schedule change, signet, or conversation rename.
+- No local repository checkout or local Lean/Lake executable was available. The existing GitHub Actions Lean run above is the actual compile evidence.
+- All four Mersearch request lanes remained occupied or unreleased. No shared request file was overwritten.
+- FIE re-review is not due: last recorded review was 2026-10-27, fewer than fourteen days before this run.
+- Unrelated reading break completed: SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/TheTANGLE.txt, lines 1321-1360. **Next reading cursor: line 1361.**
+- The existing Elias Kern handoff and Elias inbox entry already point to this report. They remain the durable repository handoff; no duplicate handoff/inbox entry was created. Chat delivery is not claimed.
+
+### 11.11 Next deeper cursor
+
+1. Recover the raw conversation/source chain behind SAT MATH - BACKBONE and SAT CORE - UI CONFIG; keep the explicit \(qR x_0\) equation classified as assistant-derived until a direct source is found.
+2. Specify whether the 4D orthogonal grid is Euclidean or has a Lorentzian time axis. Do not choose \(SO(4)\) versus \(SO^+(3,1)\) by analogy.
+3. Define the nth-order superhelix independently of the generic Indicatrix path map.
+4. Formalize the path lift \(SO(4)\to S^3\) in Lean only after fixing path regularity, initial frame, zeros and endpoint/periodicity conditions.
+5. Define the dual-hemisphere curve sets, intersection/bisector operation, attachment constraints and solids-of-rotation sweep.
+6. Define the map from the 1D centerline \(\gamma\) to the later finite-core support \(W\), then the explicit \(W\)-to-\(\Sigma_t^3\) pullback/projection and any response operator.
+7. Define a path-space measure and action before interpreting any integral as a sum over configurations.
+8. Recover the raw locator for the later 2026-10-29 four-dimensional carrier / three-dimensional time-slice clarification; do not rely on an assistant note alone.
+9. Continue unrelated reading at TheTANGLE.txt line 1361.
