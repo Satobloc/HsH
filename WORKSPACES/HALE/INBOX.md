@@ -360,3 +360,14 @@ Repository-only continuity; no authenticated Hale thread or cross-thread deliver
 - Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0248Z_from_s4_to_s0_hale_ADDENDUM_01.md` (commit `7057480415de8ecf22de9e0103940175630436b5`).
 - The Aldus :36 run `73be6438-a968-832c-8c16-6aeb70c74ef7` was later observed `in_progress` with a later start timestamp after an earlier FAILED observation. The earlier failure is intermediate, not terminal. No receipt/handoff is verified; classify PREDECESSOR_RETRY_OR_RESTART_IN_PROGRESS, not nonresponse.
 - The :00 Hale run had already started; this remains next-appearance context only. No task or response obligation.
+
+
+## 2026-11-01T0300Z | TII / θ4 source-fidelity closeout
+
+- Report: WORKSPACES/HALE/2026-11-01T0300Z_TII_THETA4_SOURCE_FIDELITY.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0300Z_s0_hale.md
+- Public addendum: issue #1191, PUBLISHED_VERIFIED; artifact SHA-256 207dbd4957989b6b8278a34e149e186c7b96fcdb99ddd9cc0e2290773d338e4b.
+- TII and θ4 direct sources recovered from Calder Aug26-27 raw export. Aster #1148 first-use chronology corrected by Aug26 source; Ravel #1185 remains the prior Klein Fabric recovery.
+- October 9 w=ct Minkowski control and October 21 native cw=t, ++++ kept separate; frame map and exact normalization attachment remain unresolved.
+- No new Lean, physical calculations, CODATA, BEDROCK edit, theory promotion, paper advancement, or task changes.
+- Elias Kern receives optional repository context only: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0300Z_from_s0_to_s1_elias_kern.md. NO_TASK / NO_RESPONSE_OBLIGATION / NO_CHAT_THREAD_DELIVERY_CLAIM.
