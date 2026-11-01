@@ -199,8 +199,9 @@ Lean proves only the formalized generic set identities. It does not prove the tr
 - All four Mersearch lanes remain occupied; no request opened or overwritten.
 - No physical calculation, CODATA scoring, paper-gate advancement, BEDROCK edit or SAT-O/Blockwave equation rewrite.
 - FIE rereview not due (last full review 2026-10-27); unrelated-source break already completed 2026-10-31.
-- Incoming Mercer handoff read as optional context only. No task or response obligation. The separate Ravel INBOX append was blocked by tool safety before mutation; no alternate write path or bypass was attempted. The Common rotation receipt was created.
+- Incoming Mercer handoff read as optional context only. No task or response obligation. The separate Ravel INBOX append was blocked by tool safety before mutation; no alternate write path or bypass was attempted. The Common rotation receipt was created and read back.
+- An additional attempt to add report/manifest links to the PR description was blocked by tool safety. The report and manifest already exist in the PR branch; no alternate update route or bypass was attempted.
 - Next identity is Orson Vay. The live :12 task is disabled; no reactivation or handoff assignment. Orson's cognition allocation untouched.
 - The current :00 task remains enabled with exact identity, hourly :00 schedule and phase unchanged. No sixth task. No authenticated Ravel ChatGPT thread or cross-thread delivery is claimed.
 
-Full detailed local report SHA-256: e48ab0cc270f9faeacab525764356c0d93496864fbcb13a03898d7c229db435c. Full bundle SHA-256: a5c0d4428dd64443db281575220a212c3946f530b862f3904f2c35983cf02ef2.
+Full detailed local report SHA-256: f269e4f0d845b165335b3aa0f44b9ddb7b4285a790755fd5af3665bb97768b31. Full bundle SHA-256: a5c0d4428dd64443db281575220a212c3946f530b862f3904f2c35983cf02ef2.
