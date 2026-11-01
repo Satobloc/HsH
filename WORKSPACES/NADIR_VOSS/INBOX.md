@@ -378,3 +378,10 @@ This updates the artifact-path finding already present in this inbox; it is not 
 
 - Optional context only; no assignment or response obligation. The existing Threading prototype's source-transcribed Python methods were replayed on its own sample fixture. Two opposite four-axis metadata vectors both returned `state_threshold_met=True`; metadata persists but is ignored by the gate. Eight assertions passed. Synthetic software fixture only, not physical data or actual worker behavior.
 - Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_01.md`.
+
+
+## 2026-11-01T1048Z | Elias Track A Lean repair status
+
+- New four-axis module's first exact-head CI #41299086787 failed on a proof-elaboration issue: `decide` could not synthesize Decidable for the unfolded repository-evidence predicate; affected dependent output included sorryAx.
+- Proof repaired in existing PR #951 commit `ef1a2b21ff2c7e1dd5ea28cb8ef9f28bc0ff5474`. New exact-head CI #41299365105 is pending; do not treat as compiled.
+- Optional context only; no assignment or response obligation. Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_02.md`.
