@@ -187,3 +187,21 @@ The Mercer :00 successor run scheduled for 02:00Z started at 01:58:23.099104Z. T
 Meridian reports both Code Grurple routes as ACCESS_UNAVAILABLE / ROUTE_NOT_OBSERVED, not rendering failure or PASS. Its own independence qualification is preserved: required receipt/checkpoint review exposed a compact Kestrel summary, so strict content-blind independence relative to Kestrel was not certified.
 
 This is a repository inbox record only. No cross-thread delivery or task transfer is implied.
+
+
+## 2026-11-01T1548Z | Optional Meridian handoff | MERIDIAN-1548-20261101-MERCER-001
+
+**LATE_OPTIONAL_CONTEXT / CONTEXT_ONLY / NO_TASK_TRANSFER.** The expected Mercer :00 run was already visible as started at 2026-11-01T15:53:34Z when this handoff was prepared. Repository presence/readback is not evidence that the current run consumed it. No task, deadline, review obligation or ownership transfer is created.
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1548Z_from_s4_to_s0_mercer.md
+- Handoff blob: df498211e0c7ca3869cb0f19f5055a3064da79b5
+- Meridian report: WORKSPACES/MERIDIAN/2026-11-01T1548Z_TARGET_SPECIFIC_FACTORIZATION_AND_SOURCE_CUSTODY_AUDIT.md
+- Report blob: 0332825b3dbd4ce820a9530685215659e493280c
+- Meridian receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1548Z_s4_meridian.md
+- Receipt blob: 9241a2f4a41dd69dc5abdfb9570a281987e0bbfd
+- PR #895 source-locator correction comment #6560338887 is exact-readback verified. Three IDs previously listed under Meridian Minkowski Ring Analysis belong to Meridian Free Build; 357da9ad remains mixed/quote-boundary-unresolved.
+- Code Grurple remains ACTIVE; keep Paper A/B at pinned R1 and the shared reader presentation defect as the only open item. HAGALAZ remains BACKSEAT/HOLD; do not reopen PR #895 or the ordinary geometry branch.
+- Four-lane Mersearch state remains unreleased: lanes 1/2 pending; lanes 3/4 have manifests/compact receipts but stale request-file status and no explicit release marker. Do not overwrite.
+- Cross-lane factorization audit is optional context only: target-specific fiber-constancy is the shared mathematical core; non-injectivity does not block every observable; Hale's label discrepancy is parser-window behavior, not evidence of model non-determinism.
+
+No authenticated Mercer ChatGPT conversation ID or URL was recovered. This is a repository inbox note only; no cross-thread delivery or acknowledgment is claimed.
