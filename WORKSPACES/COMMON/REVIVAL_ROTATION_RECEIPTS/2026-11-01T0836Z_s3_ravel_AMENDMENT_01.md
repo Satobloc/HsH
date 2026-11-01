@@ -66,6 +66,16 @@ The existing issue #1202 was used; no duplicate issue or publisher artifact was 
 
 The immutable original issue artifact was not rewritten.
 
+
+### Final publication verification
+
+- Initial dimensional-gate issue comment: `6555985381`, exact readback PASS.
+- CI-failure correction comment: `6556011007`, exact readback PASS.
+- Successful-build/source refinement comment: `6556057573`, readback PASS.
+- PR #1133 proof-failure correction: `6556011980`, readback PASS.
+- PR #1133 successful-build/source refinement: `6556057876`, readback PASS.
+- Existing issue #1202 and PR #1133 were used; no duplicate issue, publisher artifact, or PR was created.
+
 ## Boundaries
 
 - BEDROCK and STATE_OF_THE_THEORY unchanged.
@@ -77,4 +87,4 @@ The immutable original issue artifact was not rewritten.
 - No automation, task ID, schedule, phase, prompt, or enablement changes.
 - No new tool, dependency, branch, or PR.
 
-**Next cursor:** verify Actions run `41292069239`; then update this amendment with the actual checkout SHA, build conclusion, theorem/axiom audit scope, and remaining limits. Resolve whether the later “4D filament” denotes the 1D carrier, its 4D swept worldtube, or a distinct intrinsic 4D support before defining the physical sweep and current-response maps.
+**Next cursor:** resolve whether the later “4D filament” denotes the 1D carrier, its 4D swept worldtube, or a distinct intrinsic 4D support. Recover the exact spatial Kerr section and define the candidate 1D-base/3D-fiber bundle, its projection, fiber transport, and ambient embedding. Then prove or reject the slice-preserving retraction and source the coupled force/filament/timesheet response (R_t). Only after those maps are fixed should the existing measured helion holdout be reconsidered with complete cross-section covariance and normalization. No physical calculation or prediction before that gate.
