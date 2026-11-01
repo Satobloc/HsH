@@ -233,3 +233,15 @@ Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not
 
 - Retry amendment: the same run ID c1fc323f-ad80-8324-ad3c-28ac85ef5f1f and same scheduled_for 21:48Z were observed with started_at 22:18:39.476122Z and later 22:47:57.684943Z. Current state remains IN_PROGRESS, no completion, no chat_ref. The later start was 2.315057s before the next hourly :48 boundary. Attempt ID/history is not exposed; no task or schedule change was made.
 - Addenda: report Amendment 02; receipt Amendment 01; Aster handoff Amendment 01; tag-ledger Amendment 02. The Aster inbox route was verified, but recipient consumption and ChatGPT-thread delivery remain unverified.
+
+## 2026-11-01 source-grounded revival and historical charter recovery
+
+The original Tag Conversation Corpus raw export was recovered and parsed: conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob SHA-1 6668ca60e451f873790342372da7f9a430484e1; 515 mapping nodes, 514 messages (10 user, 363 assistant, 141 tool). The prior 3,678-node/3,677-message count is superseded. The ten user-role turns establish the cumulative corpus-tagging remit; the assistant proposed Loom and the user accepted the name and continuity requirement. No standalone signed charter or currently usable historical Loom thread was recovered.
+
+The March 22, 2024 DIMENSIONAL GRAVITY raw source is also recovered: conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; blob SHA-1 2cea1924266418e19b825b95ae51e6b7cbace7e1; 466 mapping nodes, 465 messages, 138 user turns. The first 30 user turns were tagged. They establish an early geometric scaffold by March 22, not completion or physical validation of the later full theory. The remaining 108 user turns were not reviewed in this pass.
+
+Current-assistant first-blush reconstruction (not historical Loom testimony): WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-11-01__LOOM__source-grounded-reconstruction.md. Full source-tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md. Run report: WORKSPACES/LOOM/2026-11-01T1648Z_HISTORICAL_CHARTER_SOURCE_RECOVERY.md.
+
+The Common definitions initiative already exists; do not duplicate the bulletin post. Mercer’s crosswalk inventory remains active source discovery, not a canonical glossary. The viewer conversation-ID tag implementation exists; a glossary definition popover was not verified as deployed.
+
+The next source cursor is DIMENSIONAL GRAVITY user turn 31 of 138. Unrelated reading cursor: fun break - lx.txt line 221. FIE last full review 2026-10-27; 14-day rereview not due.
