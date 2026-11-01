@@ -141,7 +141,8 @@ theorem affineObstructionClass_eq_zero_iff
     (L : V →ₗ[ℝ] V) (t : V) :
     affineObstructionClass L t = 0 ↔
       t ∈ LinearMap.range (identityMinus L) := by
-  simp [affineObstructionClass, identityMinus]
+  simp only [affineObstructionClass, Submodule.mkQ_apply,
+    Submodule.Quotient.mk_eq_zero, identityMinus]
 
 /-- Changing the origin by g shifts t by (I-L)g but leaves its quotient class unchanged. -/
 theorem affineObstructionClass_origin_shift
@@ -150,7 +151,10 @@ theorem affineObstructionClass_origin_shift
       affineObstructionClass L t := by
   have hmem : identityMinus L g ∈ LinearMap.range (identityMinus L) :=
     ⟨g, rfl⟩
-  simp [affineObstructionClass, identityMinus, hmem]
+  rw [map_add]
+  have hzero : affineObstructionClass L (identityMinus L g) = 0 :=
+    (affineObstructionClass_eq_zero_iff L (identityMinus L g)).2 hmem
+  rw [hzero, add_zero]
 
 /-- The affine-intercept quotient class is invariant under a simultaneous
     shift of the two framed-sphere centers. -/
@@ -173,11 +177,16 @@ theorem affineObstructionClass_eq_zero_of_surjective
   apply (affineObstructionClass_eq_zero_iff L t).2
   exact hL t
 
+/-- One matrix-entry residual used in the Run 141 Frobenius expression. -/
+def matrixResidualEntry (Q : Matrix (Fin 4) (Fin 4) ℝ)
+    (p : Fin 4 × Fin 4) : ℝ :=
+  Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2
+
 /-- The proposed Run 141 linear residual, written as a squared Frobenius residual. -/
 def linearResidual (σ : ℝ) (Q : Matrix (Fin 4) (Fin 4) ℝ) : ℝ :=
   (Real.log σ)^2 +
-    ∑ p ∈ Finset.univ,
-      (Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2)^2
+    ∑ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
+      (matrixResidualEntry Q p)^2
 
 /-- The zero set of the proposed residual is exactly the identity similarity.
     No orthogonality hypothesis on Q is needed for this zero-set statement. -/
@@ -187,14 +196,14 @@ theorem linearResidual_eq_zero_iff
   constructor
   · intro h
     have hsum_nonneg :
-        0 ≤ ∑ p ∈ Finset.univ,
-          (Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2)^2 := by
+        0 ≤ ∑ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
+          (matrixResidualEntry Q p)^2 := by
       apply Finset.sum_nonneg
       intro p hp
       exact sq_nonneg _
     have hsum_zero :
-        ∑ p ∈ Finset.univ,
-          (Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2)^2 = 0 := by
+        ∑ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
+          (matrixResidualEntry Q p)^2 = 0 := by
       unfold linearResidual at h
       nlinarith [sq_nonneg (Real.log σ), hsum_nonneg]
     have hlog_zero : Real.log σ = 0 := by
@@ -203,18 +212,20 @@ theorem linearResidual_eq_zero_iff
     have hσ_one : σ = 1 :=
       Real.eq_one_of_pos_of_log_eq_zero hσ hlog_zero
     have hentries :
-        ∀ p ∈ Finset.univ,
-          Q p.1 p.2 - (1 : Matrix (Fin 4) (Fin 4) ℝ) p.1 p.2 = 0 := by
+        ∀ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)),
+          matrixResidualEntry Q p = 0 := by
       exact (Finset.sum_sq_eq_zero_iff).mp hsum_zero
     have hQ_one : Q = 1 := by
       ext i j
       have hij := hentries (i, j) (Finset.mem_univ _)
-      exact sub_eq_zero.mp hij
+      have hij' : Q i j - (1 : Matrix (Fin 4) (Fin 4) ℝ) i j = 0 := by
+        simpa [matrixResidualEntry] using hij
+      exact sub_eq_zero.mp hij'
     exact ⟨hσ_one, hQ_one⟩
   · rintro ⟨hσ_one, hQ_one⟩
     subst σ
     subst Q
-    simp [linearResidual]
+    simp [linearResidual, matrixResidualEntry]
 
 #print axioms relativeFrame_comp_apply
 #print axioms relativeScale_comp
