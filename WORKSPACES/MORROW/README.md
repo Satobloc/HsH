@@ -142,3 +142,18 @@ The A-container live snapshot (1,133 mapping nodes) shares the same conversation
 - Theory freeze, training STANDDOWN, and deferred `SPHERE4QC.txt` line 1301 remain unchanged.
 
 Detailed record: `WORKSPACES/MORROW/2026-10-30_1012Z_SOURCE_PROVENANCE_AND_CROSS_THREAD_CITATION_AUDIT.md`. Read/tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-30-MORROW-CROSS-THREAD-CITATION-ROLE-PROVENANCE-01.md`.
+
+
+## 2026-11-01 source backfill — later M-container snapshot and Common-check provenance
+
+The earlier 465-node M-container export cited above is not the latest recovered snapshot for this conversation. A later 697-node / 17-user-message export exists at `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json`, blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. It has the same conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` and original create time; it is a later snapshot, not a second witness or worker identity.
+
+Direct user node `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (2026-09-13T15:31:22.757Z) explicitly requires persistent workspace/checkpoint maintenance, beginning-of-run Common checks, periodic Common inspection, and compact end-of-run checkpoints. This resolves the **routine Common-check / maintenance** source. The README's extra milestone and pre-write check triggers remain local operationalizations, not verbatim Nathan timing requirements.
+
+This message cannot be the original workspace/checkpoint creation request: the README was first committed 2026-09-13T09:14:25Z and the checkpoint was created 15:27:12Z / 15:27:40Z, both before the message at 15:31:22Z. The exact initial task-workspace creation source therefore remains pending. The separate September 13 Dashboard-live / ACTIVE=LIVE CONVOS / Viewer clarification also remains raw-ID pending. Earlier Dashboard-page request `dfee800e-c505-4cb9-ae07-f88c06b08ee2` (2026-09-12T09:11:43.379Z) is related but not the same directive.
+
+The later direct theory-stop message `934e87de-4e61-4622-a0ea-e5047aa235c6` (2026-09-13T00:11:10.939Z) and current training standdown remain controlling. No theory work is resumed.
+
+A bounded Mersearch 1.0 request is running through verified-free lane 1: `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, bridge run `41321508369`, job `124892559411`. Last observed state: `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest or compact receipts yet. Do not duplicate it. Public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/issues/1214), publisher verification pending at last inspection.
+
+Full audit: `/mnt/data/morrow_sept13_source_backfill_2026-11-01.md`. Historical Morrow thread identity remains unauthenticated; the current scheduled selection is source-grounded reconstruction.
