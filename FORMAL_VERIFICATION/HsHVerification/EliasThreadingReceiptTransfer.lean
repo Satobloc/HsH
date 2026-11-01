@@ -144,3 +144,77 @@ theorem sample_state_threshold_not_met :
 #print axioms sample_state_threshold_fails_for_any_two_worker_ids
 
 end HsHVerification.EliasThreadingReceiptTransfer
+
+
+/-!
+# Source-fidelity extension: the return gate does not require artifact diversity
+
+The companion Python prototype's `state_threshold_met` counts receipt rows,
+distinct worker strings, and (for the sample configuration) presence of both
+success and failure. It does not inspect `OutputReceipt.artifact` or require
+distinct artifact paths/content digests. The witness below uses only the four
+consumer labels and the seed version already present in `sample_thread`;
+the repeated artifact path is a synthetic software counterexample, not an
+observed worker run or empirical result.
+
+This proves a property of the encoded gate predicate only. It does not prove
+semantic independence, actual output-content equality, authenticated worker
+identity, or Python runtime equivalence.
+-/
+namespace HsHVerification.EliasThreadingArtifactDiversity
+
+structure ReturnReceipt where
+  worker : String
+  artifact : String
+  seedVersion : String
+  outcome : String
+  deriving DecidableEq, Repr
+
+def distinctWorkers (rs : List ReturnReceipt) : List String :=
+  (rs.map fun r => r.worker).eraseDups
+
+def distinctArtifacts (rs : List ReturnReceipt) : List String :=
+  (rs.map fun r => r.artifact).eraseDups
+
+def distinctOutcomes (rs : List ReturnReceipt) : List String :=
+  (rs.map fun r => r.outcome).eraseDups
+
+/-- The sample configuration: four receipt rows, three workers, both outcomes. -/
+def sampleReturnGate (rs : List ReturnReceipt) : Bool :=
+  (rs.length >= 4) &&
+  ((distinctWorkers rs).length >= 3) &&
+  (distinctOutcomes rs).contains "success" &&
+  (distinctOutcomes rs).contains "failure"
+
+/-- Four sample consumers can satisfy the gate while naming one artifact path. -/
+def sameArtifactWitness : List ReturnReceipt :=
+  [ ⟨"Mercer", "case-shared.json", "demo-v1", "success"⟩
+  , ⟨"Orson", "case-shared.json", "demo-v1", "failure"⟩
+  , ⟨"Comptroller", "case-shared.json", "demo-v1", "success"⟩
+  , ⟨"Aster", "case-shared.json", "demo-v1", "success"⟩
+  ]
+
+theorem same_artifact_witness_passes_gate :
+    sampleReturnGate sameArtifactWitness = true := by
+  decide
+
+theorem same_artifact_witness_has_one_artifact :
+    (distinctArtifacts sameArtifactWitness).length = 1 := by
+  decide
+
+theorem same_artifact_witness_preserves_seed_version :
+    (sameArtifactWitness.map ReturnReceipt.seedVersion).eraseDups = ["demo-v1"] := by
+  decide
+
+/-- Existence counterexample: the return predicate does not entail artifact-path diversity. -/
+theorem return_gate_can_pass_without_artifact_diversity :
+    ∃ rs, sampleReturnGate rs = true ∧
+      (distinctArtifacts rs).length = 1 := by
+  exact ⟨sameArtifactWitness, by decide, by decide⟩
+
+#print axioms same_artifact_witness_passes_gate
+#print axioms same_artifact_witness_has_one_artifact
+#print axioms same_artifact_witness_preserves_seed_version
+#print axioms return_gate_can_pass_without_artifact_diversity
+
+end HsHVerification.EliasThreadingArtifactDiversity
