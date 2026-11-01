@@ -43,7 +43,7 @@ The historical Aster raw conversation is the role source, not the current automa
 
 This run performs the source-fidelity task only. It does not reopen the frozen Paper A review.
 
-Historical role export: `WORKSPACES/ASTER/...` raw conversation blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. No authenticated live Aster ChatGPT thread was recovered. The historical export is not proof of current-thread identity.
+Historical role export: conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa` (title `ASTER`, 39 user messages), raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. No authenticated live Aster ChatGPT thread was recovered. The historical export is not proof of current-thread identity.
 
 ### 2.2 Operational controls read
 
@@ -53,7 +53,7 @@ Historical role export: `WORKSPACES/ASTER/...` raw conversation blob `1bf6e65c4a
 | Steering Charter 2026-10-26 | `5f4263381afcb065e9062d5b5885593d0baa58db` |
 | Three Paper Campaign 2026-10-26 | `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0` |
 | New-instance onboarding | `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0` |
-| Revival Rotation V3 | `90863a4c... ` |
+
 | Revival Rotation V4 | `6761337dfcd0847226ee7baad84db0a9c496760a` |
 | Thread-first rule | `e79707587914edb76afca1c32f9f4dad4d0324b7` |
 | Navigation preflight | `ce8d8be6e07340eff1f0e06d66b762e8ae8da358` |
@@ -72,15 +72,15 @@ That search concerns the June-2025 disclosure graph, not this spin/flavor source
 
 ### 3.1 Primary raw source
 
-Conversation: **NEWTO-SAT ChatGPT Voice Glitch**  
-Conversation ID: `6a958d9c-3f8a-4d2b-8df4-2dbd79f5a19e`  
+Conversation: **ChatGPT Voice Glitch**  
+Conversation ID: `6a958d9c-c4fc-83e9-a106-66d2025220c4`  
 Raw export Git blob: `001084962c2cdfd08d88154f14069e7fc8bf45e0`
 
 Relevant role-tagged user messages:
 
 | Message | UTC time | Length | Direct content |
 |---|---:|---:|---|
-| `bda16543-7c6e-4dd0-bc0e-3f6a2bfe0e8f` | 2026-09-01 21:42:34.707 | 25,338 chars | Four-dimensional filament/worldtube, time-surface intersection, ring/cross-section orientation, spin/flavor alternatives, particle morphology, and uncertainty about the right primitive |
+| `bda16543-cf97-487f-9038-b14c55074da2` | 2026-09-01 21:42:34.707 | 25,338 chars | Four-dimensional filament/worldtube, time-surface intersection, ring/cross-section orientation, spin/flavor alternatives, particle morphology, and uncertainty about the right primitive |
 | `489508ce-ec29-4b17-b005-c7c9e300aace` | 2026-09-01 22:16:36.358 | 4,077 chars | Alternative four-axis rotational/expanding picture, hypersphere and two-shell possibilities, rotational momentum, and a request to compare minimality and symmetry |
 | `dc3064a9-fea3-426a-97be-a7026509816a` | 2026-09-01 22:26:23.625 | 99 chars | Asks whether the picture can be reduced to Newton plus one new assumption plus time |
 
@@ -104,7 +104,7 @@ The direct messages do **not** specify a metric signature, a global time functio
 
 ### 4.1 Assistant response A: Euclidean helix and Frenet frame
 
-Assistant message `1ac711a2-8a62-4b0f-8e17-1a7d0d18d4a3`, 2026-09-01 21:47:31.978 UTC.
+Assistant message `1ac711a2-0cc4-4e7e-b584-8a74a93d42ea`, 2026-09-01 21:47:31.978 UTC.
 
 The response uses a 3D circular helix embedded in a 4D Euclidean carrier:
 
@@ -142,7 +142,7 @@ An anisotropic expansion tensor is also introduced using separate spatial and fo
 
 ### 4.3 Assistant response C: (S^3) foliation and radial normal
 
-Assistant message `faba3f44-... ` and the subsequent response `0a5ce2a0-...` introduce a four-dimensional radial construction:
+Assistant preamble `faba3f44-4cf2-482e-847e-8a7e5fbee8a1` and the subsequent response `0a5ce2a0-...` introduce a four-dimensional radial construction:
 
 [
 X=Rn,qquad n\in S^3,qquad u=n=\frac{X}{R},
@@ -307,6 +307,8 @@ The accompanying prose describes spin-1/2 as a (\pi)-holonomy of a (\psi) field 
 These are derivative draft equations, not recovered verbatim original Blockwave Module 4 equations. They do not establish a map from (\psi) or (Z_3) twist to the literal rotating ring plane in the September 1 direct geometry.
 
 ### 5.3 Additional historical symbol drift
+
+The undated composite `SATOBLOC/SATOBLOCK-LIVE.txt`, Git blob `1642375cf78647b9f35f1681d0bccb90685b2a48`, anchors an A4 flavor sector and a fixed $\\delta_{CP}=270^\\circ$ summary. It is a live compilation, not the standalone O13 or Blockwave source. Its claims remain separate from the September 1 relative-tilt description.
 
 | Source | (\theta_4) | (\psi) | (\tau) |
 |---|---|---|---|
