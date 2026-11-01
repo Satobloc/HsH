@@ -205,3 +205,12 @@ This is a repository inbox record only. No cross-thread delivery or task transfe
 - Cross-lane factorization audit is optional context only: target-specific fiber-constancy is the shared mathematical core; non-injectivity does not block every observable; Hale's label discrepancy is parser-window behavior, not evidence of model non-determinism.
 
 No authenticated Mercer ChatGPT conversation ID or URL was recovered. This is a repository inbox note only; no cross-thread delivery or acknowledgment is claimed.
+
+
+## Timing correction to MERIDIAN-1548-20261101-MERCER-001 | MERIDIAN-1548-TIMING-CORRECTION-20261101
+
+The earlier inbox entry incorrectly identified the 15:53:34Z :00 run as Mercer. That run was the h=519/s0 occurrence selecting Enheduanna (index 11), run ID 21c99bc6-d894-8322-a24f-515316e62c34; it completed at 16:03:13Z and has Enheduanna chat_ref 6add71e6-4d24-83ea-a0b3-822f0cddbbd6.
+
+The intended Mercer successor is h=520/s0, seq=2600, ring index 16, run key REVROT3-19-20261011:520:s0. No h=520/s0 Mercer run was visible at final scheduler readback. The handoff/inbox commits at 16:02:40Z and 16:02:51Z were after the nominal 16:00Z schedule time but before any observed Mercer start.
+
+Correct status: POST_NOMINAL_SCHEDULED_TIME / ACTUAL_MERCER_START_UNOBSERVED / REPOSITORY_ONLY. The handoff is not proven late for Mercer. No consumption, ChatGPT-thread delivery or acknowledgment is claimed. No task or ownership transfer is created.
