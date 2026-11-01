@@ -96,7 +96,8 @@ theorem similarityMap_affine_form
     (c_i c_j x : V) (σ : ℝ) (Q : V ≃ₗ[ℝ] V) :
     similarityMap c_i c_j σ Q x =
       similarityLinearPart σ Q x + affineIntercept c_i c_j σ Q := by
-  simp [similarityMap, similarityLinearPart, affineIntercept]
+  simp only [similarityMap, similarityLinearPart, affineIntercept]
+  rw [map_sub, smul_sub]
   abel
 
 /-- Simultaneously translating both frame centers leaves their displacement unchanged. -/
