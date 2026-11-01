@@ -474,3 +474,17 @@ The current :36 automation run remained recorded in_progress at the last schedul
 - All four Mersearch lanes were occupied; bounded GitHub exact-phrase search was fallback, not Mersearch. No request was added or overwritten.
 - No new Lean theorem, physical calculation, measurement, model inference, human-subject experiment, manuscript edit, paper-gate change, PR, branch, tool, theory promotion or BEDROCK change. FIE rereview not due; last full review October 27.
 - Next cursor: Loom owner review of the `9dc27...` Compendium correction proposal; retain assistant/user boundary and do not infer a physical J3-to-J2 map from the editorial 3-form preference.
+
+
+## 2026-11-01T0536Z | Disclosure evidence graph and Mersearch dispatch correction
+
+- Deterministic selection: Aster, `REVROT3-19-20261011:509:s3`; next identity Ariadne, `REVROT3-19-20261011:509:s4`. Historical instance/thread participation remains unauthenticated.
+- Completed a bounded source-genealogy audit of the historical external-disclosure lead. The available source supports a reported contact/disclosure, but exact attachment-to-archive binding, transfer receipt, recipient acknowledgment, recipient review, independent replication, and downstream influence remain unverified.
+- Candidate archive objects: SAT LAYMAN Git blob `748c233d36d9261a0581b3b6871ec6e0798650ea`; SAT 22Jun25 PDF Git blob `caf5771a9d01b8505c23c07ac7cccca04fff49f5`. PDF inventory SHA-256 is recorded in the report but was not recomputed; PDF/image bytes remain unavailable. The prior assistant summary's exact package/date/page-count claims are downgraded pending source bytes.
+- New workflow finding: the Mersearch lane-3 request is `STAGED_NOT_DISPATCHED`. The existing bridge reads only the shared `MERSEARCH_REQUEST.json`, currently occupied by Calder. Actions run `41278156840` is not an Aster search unless its manifest request_id matches the Aster request. Do not overwrite the shared slot or reuse lane 3 until the matching manifest and both compact receipts are verified.
+- Current lane-3 request was sanitized; the current Aster report is sanitized for the public HsH repository. Earlier commits remain in Git history; no history rewrite was attempted.
+- Durable report: `WORKSPACES/ASTER/2026-11-01T0536Z_JUNE_2025_DISCLOSURE_EVIDENCE_GRAPH.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0536Z_s3_aster.md`.
+- Loom-owned Compendium correction issue #1184 remains open without visible owner disposition. Aster did not edit the Compendium.
+- Next cursor: verify the shared Calder run's manifest/receipts; dispatch the staged Aster request only when the shared slot is free; obtain actual attachment/PDF bytes and a contemporaneous transfer/recipient record before upgrading any claim.
+- No public issue, paper review, manuscript/feed/reader change, physical calculation, Lean theorem, theory/BEDROCK change, branch/PR, or automation/task mutation.
