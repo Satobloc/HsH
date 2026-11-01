@@ -447,3 +447,95 @@ theorem slice_decomposes_over_base :
 end SlicePullback
 
 end HsHVerification.RavelCarrierSliceReconstruction
+
+
+/-!
+## Label-preserving fiber/slice pullback
+
+The earlier `SlicePullback` pairs a fibered total-space representative
+with one unlabelled embedded support. The earlier `MinimalCarrierReadout`
+has a labelled family of supports. This extension makes the missing
+index/base alignment explicit without identifying it with physical time.
+
+`baseOf` is an input map, not a derived or physically established map.
+The result remains set-theoretic: it proves the image decomposition for
+the supplied labelled family and alignment, not a physical interaction law.
+-/
+
+namespace HsHVerification.RavelCarrierSliceReconstruction
+
+/-- A family of embedded supports with an explicit label. -/
+structure EmbeddedSupportFamily (Ambient : Type u₁) (Label : Type z₁) where
+  Carrier : Label → Type w₁
+  embed : (i : Label) → Carrier i → Ambient
+
+/-- Label-preserving pullback of a fibered support and a labelled support
+family, using an explicit alignment map from labels to the fiber base. -/
+def LabelledSlicePullback {Ambient : Type u₁} {Base : Type v₁}
+    {Label : Type z₁}
+    (T : FiberedSupport Ambient Base)
+    (S : EmbeddedSupportFamily Ambient Label)
+    (baseOf : Label → Base) :=
+  {p : Σ i : Label, T.Fiber (baseOf i) × S.Carrier i //
+    T.embed (baseOf p.1) p.2.1 = S.embed p.1 p.2.2}
+
+namespace LabelledSlicePullback
+
+variable {Ambient : Type u₁} {Base : Type v₁} {Label : Type z₁}
+variable (T : FiberedSupport Ambient Base)
+variable (S : EmbeddedSupportFamily Ambient Label)
+variable (baseOf : Label → Base)
+
+/-- Projection preserving the support-family label. -/
+def toLabel (p : LabelledSlicePullback T S baseOf) : Label :=
+  p.1.1
+
+/-- Projection to the tube's total fiber space. -/
+def toTube (p : LabelledSlicePullback T S baseOf) : T.TotalSpace :=
+  ⟨baseOf (toLabel T S baseOf p), p.1.2.1⟩
+
+/-- Projection to the labelled support family, retaining its label. -/
+def toSheet (p : LabelledSlicePullback T S baseOf) :
+    Σ i : Label, S.Carrier i :=
+  ⟨toLabel T S baseOf p, p.1.2.2⟩
+
+/-- Projection to the tube base, explicitly composed through the label map. -/
+def toBase (p : LabelledSlicePullback T S baseOf) : Base :=
+  T.baseProjection (toTube T S baseOf p)
+
+/-- Ambient projection through the tube representative. -/
+def toAmbient (p : LabelledSlicePullback T S baseOf) : Ambient :=
+  T.toAmbient (toTube T S baseOf p)
+
+/-- The base projection is exactly the supplied label-to-base composition. -/
+theorem base_projection_commutes (p : LabelledSlicePullback T S baseOf) :
+    toBase T S baseOf p = baseOf (toLabel T S baseOf p) := rfl
+
+/-- The two labelled representatives reach the same ambient point. -/
+theorem ambient_maps_commute (p : LabelledSlicePullback T S baseOf) :
+    T.toAmbient (toTube T S baseOf p) =
+      S.embed (toLabel T S baseOf p) (p.1.2.2) := p.2
+
+/-- The ambient image is the union, over labels, of the corresponding
+fiber-image / labelled-support intersections. -/
+theorem ambient_image_eq_iUnion_fiberSheetIntersections :
+    Set.range (toAmbient T S baseOf) =
+      ⋃ i, (T.fiberImage (baseOf i) ∩ Set.range (S.embed i)) := by
+  ext x
+  constructor
+  · rintro ⟨p, rfl⟩
+    refine Set.mem_iUnion.mpr ⟨p.1.1, ?_⟩
+    exact ⟨⟨p.1.2.1, rfl⟩, ⟨p.1.2.2, p.2.symm⟩⟩
+  · intro hx
+    rcases Set.mem_iUnion.mp hx with ⟨i, ⟨hf, hs⟩⟩
+    rcases hf with ⟨f, hf⟩
+    rcases hs with ⟨s, hs⟩
+    refine ⟨⟨⟨i, (f, s)⟩, ?_⟩, hf⟩
+    exact hf.trans hs.symm
+
+#print axioms LabelledSlicePullback.base_projection_commutes
+#print axioms LabelledSlicePullback.ambient_maps_commute
+#print axioms LabelledSlicePullback.ambient_image_eq_iUnion_fiberSheetIntersections
+
+end LabelledSlicePullback
+end HsHVerification.RavelCarrierSliceReconstruction
