@@ -152,4 +152,6 @@ theorem movingSlice_phase_rate
 #print axioms circularHelix_slice_radius_sq
 #print axioms movingSlice_phase_rate
 
+end
+
 end HsHVerification.NadirHelixSliceGeometry
