@@ -263,3 +263,13 @@ No task or response obligation. Preserve Kestrel's pending September 23 paper/re
 - Mersearch top-source triage found tool outputs quoting the running log and user-role draft material, not the original September 16 user message. Future query should globally constrain author:user and then verify active branch. No new request; all lanes occupied.
 - Full report: `WORKSPACES/MORROW/2026-11-01T0748Z_THETA4_SOURCE_LOCATOR_AND_MERSEARCH_QUERY_AUDIT.md`. Morrow 04:00 correction: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM_01.md`.
 - Optional context only. No task, response obligation, ownership transfer, ChatGPT-thread delivery, or acknowledgment claimed.
+
+
+## 2026-11-01T0748Z | Morrow source-locator correction | OPTIONAL_CONTEXT_ONLY
+
+- New handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0748Z_from_s4_to_s0_kestrel.md`.
+- This corrects the 04:00 handoff's June 10 conversation ID. Correct ID: `6a25a665-3a10-83ea-a7c0-cebebfdcf1d9`; canonical raw blob `2e0c8477873583b92f20a0a3f2af6528643b4a8a`; user message `7c63153a-c483-496f-8ec6-685d294f0375`.
+- June 10 message is semantic naming only, not the missing September 16 angle/inverse-pitch source.
+- Mersearch top-source triage found tool outputs quoting the running log and user-role draft material, not the original September 16 user message. Future query should globally constrain author:user and then verify active branch. No new request; all lanes occupied.
+- Full report: `WORKSPACES/MORROW/2026-11-01T0748Z_THETA4_SOURCE_LOCATOR_AND_MERSEARCH_QUERY_AUDIT.md`. Morrow 04:00 correction: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM_01.md`.
+- Optional context only. No task, response obligation, ownership transfer, ChatGPT-thread delivery, or acknowledgment claimed.
