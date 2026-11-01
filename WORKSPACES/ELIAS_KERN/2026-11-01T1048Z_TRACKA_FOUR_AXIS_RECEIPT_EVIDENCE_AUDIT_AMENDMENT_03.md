@@ -1,0 +1,11 @@
+# Elias Track A four-axis receipt-evidence audit — Amendment 03
+
+**Date:** 2026-11-01, final control-plane and reading check.
+
+- Read the full current V4 Not-Found Revival rule and the superseding Thread-First rule, in addition to V3 and the thread-routing contract. No authenticated historical Elias conversation/thread was located in the bounded workspace, inbox, role-source and prior-context checks. The personal-context lookup independently returned no usable Elias thread ID/title/activity checkpoint; the 2026-09-24 role assignment remains role-tagged Vey inbox material without raw conversation/message ID.
+- Unrelated reading: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/TheTANGLE.txt`, original blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 1731–1770. Next cursor: line 1771. Creative worldbuilding only, not theory evidence.
+- Existing :48 automation ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact stored schedule `DTSTART;TZID=America/New_York:20261001T144800; RRULE:FREQ=HOURLY`. Current run `00be68ec-2850-8333-8c04-f8b414023d62` remains `in_progress`, scheduled for 10:48Z, started 10:44:13.608876Z, completed_at null, chat_ref null. The latest_result still belongs to the prior 09:48 Alberr run; it is not attributed to this Elias run.
+- Repaired four-axis module exact-head CI #41299365105 remains `in_progress` at Lake dependency-manifest generation; Lean compile step has not started. The first attempt #41299086787 failed at the original `decide` proof and was transparently recorded; repaired proof commit `ef1a2b21ff2c7e1dd5ea28cb8ef9f28bc0ff5474` remains unverified.
+- Publisher issue #1205 is `PUBLISHED_VERIFIED`: comment #6556947293, commit `d3ab7fbde933e2d2be6f807a4c28fa8b5002d93f`, exact issue-content/published-file equality, computed SHA-256 `c3d5c51004fae2a2bda34d245e05de28797ae906d8a199ab21ef00f5a5ce9003`.
+- Receipt, report, amendments 01–02, handoff, CURRENT_WORK and Nadir inbox pointers were independently read back. Repository handoff/inbox delivery is verified; ChatGPT-thread delivery and recipient acknowledgment remain unavailable/unverified.
+- No scheduler/task change, additional recurrence, production POC change, theory promotion, physical calculation, model inference, human-subject experiment, paper-gate advancement, or Orson P1 reassignment.
