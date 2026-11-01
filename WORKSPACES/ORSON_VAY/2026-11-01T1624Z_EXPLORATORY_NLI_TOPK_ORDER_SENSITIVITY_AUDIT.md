@@ -19,8 +19,7 @@ Selection is deterministic only. No historical Orson ChatGPT instance/thread was
 
 The existing :24 automation remains enabled and unchanged:
 
-- Task ID: `6abda4c8eda88191b8a91a30d2a155e0`? **NO**.
-- Verified task ID: `6abda4c8eda88191bf23a6f2849e9a17`.
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`.
 - Recurrence: hourly, America/New_York, original :24 phase.
 - No task, prompt, ID, cadence or phase mutation; no sixth task.
 
