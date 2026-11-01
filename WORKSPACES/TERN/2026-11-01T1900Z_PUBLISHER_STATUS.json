@@ -1,0 +1,11 @@
+{
+  "status": "HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD",
+  "existing_issues": [
+    960,
+    1096
+  ],
+  "new_issue_created": false,
+  "new_comment_created": false,
+  "reason": "Issue #960 already covers the WWRD source edit chain and issue #1096 covers rope contact/torsion comparators. The existing publisher has no append route; a new issue would duplicate the current public cluster.",
+  "public_publication_claimed": false
+}
