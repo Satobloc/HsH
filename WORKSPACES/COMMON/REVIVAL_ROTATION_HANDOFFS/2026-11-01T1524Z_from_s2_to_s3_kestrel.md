@@ -32,3 +32,10 @@ Issue #1214 was created through the existing owner-authored publisher but reject
 - Detailed local audit retained in the originating execution.
 
 This is archive/provenance context only. Morrow's September 13 theory-stop instruction and the active training standdown remain controlling. No geometry, physical calculation, CODATA, Lean, theory, or BEDROCK task is transferred to Kestrel.
+
+
+## Additional durable pointer
+
+The full internal source reconciliation is now stored at `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md` (blob/readback SHA recorded in the repository). The Morrow README, core-team crosswalk and Common Bulletin Board have corresponding additive corrections. The Common receipt and integrity amendment are `2026-11-01T1524Z_s2_morrow.md` and `2026-11-01T1524Z_s2_morrow_AMENDMENT_01.md`.
+
+Issue #1214 remains a rejected publisher intake (`SHA-256 mismatch`), not a published artifact. The Mersearch request remains `SUBMITTED_NOT_VERIFIED`; no duplicate search was made.
