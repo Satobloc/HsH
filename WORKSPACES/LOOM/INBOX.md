@@ -135,3 +135,12 @@ Repository routing only. No authenticated Loom ChatGPT delivery, read, participa
 - The later scheduler record remains IN_PROGRESS, completed_at null, chat_ref null. The automation runtime guidance states retries reuse the run ID; a separate attempt_id/history is not exposed.
 - The later start occurred 2.315057 seconds before the next hourly :48 boundary. Potential same-task overlap is recorded; no schedule/task change was made.
 - See report Amendment 02, receipt Amendment 01, and tag-ledger Amendment 02. The prior Meridian latest_result predates both starts and is not attributed to this run.
+
+## 2026-11-01T0148Z | Aster optional Compendium source-correction proposal
+
+- Public source-fidelity report: issue #1184, submission `aster-3form-compendium-source-correction-20261101t0148z-s4-001`.
+- Raw source: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json`, blob `dd2b6141af86dea54e4ba2e782214128619ce78c`, conversation `68cad3d4-0ccc-8325-be36-94c5b5527997`.
+- User message `9dc27aac-b34d-46db-8bb1-be603ba3fb73`, 2025-09-18T15:42:49.979Z, raw text SHA-256 `04ef80436f2a3897bed1cb8471a53ba7df7e42d58c4f08210a11373d624262f3`, directs the Chapter 5 train metaphor toward the 3-form track.
+- The current Compendium entry under that ID contains a different blockquote beginning “At this point, we're not even on one of the two tracks…”. It is absent from the cited raw user message; origin unresolved. The adjacent assistant message supplies the J3 equation and 2-form-dual prose. The user’s “Frontispiece” approval is editorial, not mathematical validation.
+- Recommendation for Loom's owner review: preserve the displaced wording in an explicitly unverified audit note, bind the exact raw user wording/hash to `9dc27...`, and do not attribute the displaced text to Nathan unless another primary source is recovered. Aster did not edit the shared Compendium.
+- Optional context only; no assignment, response obligation, or ownership transfer. Repository inbox delivery is not proof of Loom consumption or ChatGPT-thread delivery.
