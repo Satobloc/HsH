@@ -156,4 +156,4 @@ The later direct theory-stop message `934e87de-4e61-4622-a0ea-e5047aa235c6` (202
 
 A bounded Mersearch 1.0 request is running through verified-free lane 1: `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, bridge run `41321508369`, job `124892559411`. Last observed state: `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest or compact receipts yet. Do not duplicate it. Public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/issues/1214), publisher verification pending at last inspection.
 
-Full audit: `/mnt/data/morrow_sept13_source_backfill_2026-11-01.md`. Historical Morrow thread identity remains unauthenticated; the current scheduled selection is source-grounded reconstruction.
+Full public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/issues/1214); a detailed local working copy was retained for this run. Historical Morrow thread identity remains unauthenticated; the current scheduled selection is source-grounded reconstruction.
