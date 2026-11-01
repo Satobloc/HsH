@@ -146,6 +146,10 @@ structure WorldtubeClaimEvidence extends ReceiptEvidenceAxes where
   bulkToDiagrammatic3DProjection : EvidenceStatus
   bulkToTimesheetSliceMap : EvidenceStatus
   projectionCompositionLaws : EvidenceStatus
+  dynamicsCompatibility : EvidenceStatus
+  coarseGrainingMap : EvidenceStatus
+  scaleParameterIdentifiability : EvidenceStatus
+  projectionUncertaintyPropagation : EvidenceStatus
   sliceCompatibleRetractionContract : EvidenceStatus
   instantiatedSlicePreservingMap : EvidenceStatus
   abstractFiberTransportContract : EvidenceStatus
@@ -161,6 +165,11 @@ structure WorldtubeClaimEvidence extends ReceiptEvidenceAxes where
   uncertaintyBudget : EvidenceStatus
   predictionFitSeparation : EvidenceStatus
   heldOutPrediction : EvidenceStatus
+  sharedParameterSet : EvidenceStatus
+  calibrationHoldoutSeparation : EvidenceStatus
+  predictedObservable : EvidenceStatus
+  standardComparator : EvidenceStatus
+  falsificationThreshold : EvidenceStatus
   independentEmpiricalReview : EvidenceStatus
   latestBranchAdditionReadback : EvidenceStatus
   deriving DecidableEq, Repr
@@ -189,6 +198,10 @@ def geometricRepresentationGate (e : WorldtubeClaimEvidence) : Prop :=
   e.bulkToDiagrammatic3DProjection = .verified ∧
   e.bulkToTimesheetSliceMap = .verified ∧
   e.projectionCompositionLaws = .verified ∧
+  e.dynamicsCompatibility = .verified ∧
+  e.coarseGrainingMap = .verified ∧
+  e.scaleParameterIdentifiability = .verified ∧
+  e.projectionUncertaintyPropagation = .verified ∧
   e.sliceCompatibleRetractionContract = .verified ∧
   e.instantiatedSlicePreservingMap = .verified ∧
   e.abstractFiberTransportContract = .verified ∧
@@ -204,15 +217,25 @@ def interactionResponseGate (e : WorldtubeClaimEvidence) : Prop :=
   e.currentRankReconciliation = .verified ∧
   e.currentConstitutiveLaw = .verified
 
+/-- A falsifiable test requires shared parameters, a frozen calibration/holdout
+    split, a predicted observable, a standard comparator, a predeclared
+    falsification threshold, and explicit prediction-fit separation. -/
+def testabilityGate (e : WorldtubeClaimEvidence) : Prop :=
+  e.sharedParameterSet = .verified ∧
+  e.calibrationHoldoutSeparation = .verified ∧
+  e.predictedObservable = .verified ∧
+  e.standardComparator = .verified ∧
+  e.falsificationThreshold = .verified ∧
+  e.predictionFitSeparation = .verified
+
 /-- Physical validation requires an identified real system/dataset,
-    provenance, units/calibration, uncertainty, prediction-fit separation,
-    a genuine holdout, and independent empirical review. -/
+    provenance, units/calibration, uncertainty, a genuine holdout, and
+    independent empirical review. -/
 def empiricalValidationGate (e : WorldtubeClaimEvidence) : Prop :=
   e.measuredSystemAndDataset = .verified ∧
   e.measurementProvenance = .verified ∧
   e.unitsAndCalibration = .verified ∧
   e.uncertaintyBudget = .verified ∧
-  e.predictionFitSeparation = .verified ∧
   e.heldOutPrediction = .verified ∧
   e.independentEmpiricalReview = .verified
 
@@ -221,6 +244,7 @@ def fullWorldtubeClaimGate (e : WorldtubeClaimEvidence) : Prop :=
   formalizationAuditGate e ∧
   geometricRepresentationGate e ∧
   interactionResponseGate e ∧
+  testabilityGate e ∧
   empiricalValidationGate e
 
 def baseArtifactPublicationGate (e : WorldtubeClaimEvidence) : Prop :=
@@ -248,6 +272,10 @@ def observedRavelWorldtube : WorldtubeClaimEvidence :=
     bulkToDiagrammatic3DProjection := .notChecked
     bulkToTimesheetSliceMap := .notChecked
     projectionCompositionLaws := .notChecked
+    dynamicsCompatibility := .notChecked
+    coarseGrainingMap := .notChecked
+    scaleParameterIdentifiability := .notChecked
+    projectionUncertaintyPropagation := .notChecked
     sliceCompatibleRetractionContract := .verified
     instantiatedSlicePreservingMap := .notChecked
     abstractFiberTransportContract := .verified
@@ -263,6 +291,11 @@ def observedRavelWorldtube : WorldtubeClaimEvidence :=
     uncertaintyBudget := .notChecked
     predictionFitSeparation := .notChecked
     heldOutPrediction := .notChecked
+    sharedParameterSet := .notChecked
+    calibrationHoldoutSeparation := .notChecked
+    predictedObservable := .notChecked
+    standardComparator := .notChecked
+    falsificationThreshold := .notChecked
     independentEmpiricalReview := .notChecked
     latestBranchAdditionReadback := .notChecked }
 
@@ -344,6 +377,10 @@ theorem observedRavel_interaction_response_gate_not_passed :
     ¬ interactionResponseGate observedRavelWorldtube := by
   simp [interactionResponseGate, observedRavelWorldtube]
 
+theorem observedRavel_testability_gate_not_passed :
+    ¬ testabilityGate observedRavelWorldtube := by
+  simp [testabilityGate, observedRavelWorldtube]
+
 theorem observedRavel_empirical_validation_gate_not_passed :
     ¬ empiricalValidationGate observedRavelWorldtube := by
   simp [empiricalValidationGate, observedRavelWorldtube]
@@ -352,7 +389,8 @@ theorem observedRavel_full_worldtube_claim_gate_not_passed :
     ¬ fullWorldtubeClaimGate observedRavelWorldtube := by
   simp [fullWorldtubeClaimGate, formalizationAuditGate,
     geometricRepresentationGate, interactionResponseGate,
-    empiricalValidationGate, buildEvidenceAccepted, observedRavelWorldtube]
+    testabilityGate, empiricalValidationGate, buildEvidenceAccepted,
+    observedRavelWorldtube]
 
 theorem observedRavel_base_publication_readback_verified :
     baseArtifactPublicationGate observedRavelWorldtube := by
@@ -397,6 +435,7 @@ theorem observedRavel_end_to_end_delivery_not_verified :
 #print axioms observedRavel_formalization_audit_not_passed
 #print axioms observedRavel_geometric_representation_gate_not_passed
 #print axioms observedRavel_interaction_response_gate_not_passed
+#print axioms observedRavel_testability_gate_not_passed
 #print axioms observedRavel_empirical_validation_gate_not_passed
 #print axioms observedRavel_full_worldtube_claim_gate_not_passed
 #print axioms observedRavel_base_publication_readback_verified
