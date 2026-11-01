@@ -280,3 +280,16 @@ Issue #1090's publisher workflow did not trigger because the issue title omitted
 - Optional Mercer handoff file was created and then amended with a timing correction. Final blob: c1a2be260ba7c58a53a730e3615ae4de13f66612. Mercer INBOX append marker MERIDIAN-1548-20261101-MERCER-001 and timing-correction marker MERIDIAN-1548-TIMING-CORRECTION-20261101 are both present; final inbox blob cbcb7752c1ca24a938399415c6cf0c26eabe4667; exact appended-tail readback verified.
 - Timing correction: the 15:53:34Z :00 run was h=519/s0, selecting Enheduanna (index 11), not Mercer; it completed 16:03:13Z with chat_ref 6add71e6-4d24-83ea-a0b3-822f0cddbbd6. The intended Mercer successor is h=520/s0, seq=2600, index 16. No h=520/s0 Mercer run was visible at final readback. Handoff/inbox commits at 16:02:40Z/16:02:51Z were after nominal 16:00Z but before any observed Mercer start. Correct status: POST_NOMINAL_SCHEDULED_TIME / ACTUAL_MERCER_START_UNOBSERVED / REPOSITORY_ONLY. No consumption or acknowledgment is claimed.
 - Current :48 run 589f6e33-e554-832e-aff4-ec81ec78a976 remained IN_PROGRESS with no chat_ref at final peek. The :48 task remains enabled and unchanged; no sixth task or scheduler mutation.
+
+
+## 2026-11-01T1936Z | Projection-constant source genealogy and inverse-constant closure gate
+
+- Run: REVROT3-19-20261011:523:s3. Selected Meridian (index 15); next Mercer (index 16).
+- Report: WORKSPACES/MERIDIAN/2026-11-01T1936Z_PROJECTION_CONSTANT_SOURCE_GENEALOGY_AND_INVERSE_TEST_GATE.md (blob d88683512c71634310ac8bc17dec5a394fe9c437; exact readback verified).
+- New source correction: the recovered optical-kink artifacts contain distinct 0.125-rad, 0.239-rad, 0.246-rad, and 0.24 +/- 0.02-rad claims with different source classes and model versions. They are not one canonical Projection Constant. The 0.24-wavelength phrase is not 0.24 radians.
+- B = 3/(4 pi) remains a dimensionless candidate coefficient, not an angle by default. Its earliest occurrence in the inspected February 27 raw conversation is a user-role relay of assistant-generated material; the later pasted dictionary is not an authenticated derivation. A direct user 20-degree alternative remains a hypothesis.
+- New workflow improvement: inverse-constant cross-system closure gate. Derive from a real independent input, freeze the map and shared parameters, predict on independent holdouts without refitting, and include a blinded fake-input negative control. No physical system was scored.
+- Proof status: FORMALIZATION_BLOCKED_AT_DEFINITION. The source-defined map G and the geometric necessity of the Forest two-sided factor are missing. No Lean module or build claimed.
+- Existing Loom issue #1093 received additive comment #6563188840; exact comment readback verified. Its earlier publisher rejection remains unchanged. No new issue or publisher artifact was created.
+- Meridian PR #895 and its branch were not modified. Code Grurple remains ACTIVE; HAGALAZ remains BACKSEAT/HOLD. No theory, manuscript, paper-gate, or scheduler change.
+- Next source cursor: recover the raw Lab 1 source behind the undated 0.239 note and the original raw “The Trees Themselves” source; do not occupy any Mersearch lane while all four request slots remain owned.
