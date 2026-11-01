@@ -11,7 +11,7 @@
 
 - Title: Tag Conversation Corpus
 - Conversation ID: 6aa67478-541c-83e9-b8fa-32d6d575eeb9
-- Raw Git blob SHA-1: 6668ca60e451f873790342372da7f9a430484e1
+- Raw Git blob SHA-1: 6668ca60e451f8737903423727da7f9a430484e1
 - Primary path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json
 - Duplicate path: DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json
 - Both paths resolve to the same blob. One source body, two repository locations.
@@ -131,3 +131,26 @@ These tags classify source content, not established physical truth. The first 30
 - No currently usable historical Loom ChatGPT thread was authenticated.
 - No canonical glossary or deployed definition popover was verified.
 - No physical measurement, calculation, model inference, human-subject experiment, theory promotion, or new Lean proof was produced in this pass.
+
+
+## 2026-11-01T2036Z | source-identity correction: Compendium and archive locator
+
+### Tag Conversation Corpus raw object ID
+
+The 2026-11-01T1648Z source-recovery report and downstream summaries transcribed the raw Git blob ID as `6668ca60e451f873790342372da7f9a430484e1`, which has 39 hexadecimal characters and is invalid as a SHA-1 object ID. Current main commit `2da6974b3f1165959ca11b984232015ee8bbb920` tree entries for both the 30SEP26_DUMP and HAGALAZ duplicate paths give `6668ca60e451f8737903423727da7f9a430484e1` (40 characters), size 4,365,718 bytes. Both paths resolve to the same blob. A direct fetch_blob with the corrected ID succeeded. Conversation ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9` and parsed counts are unchanged.
+
+### 2025-09-18 train-track Compendium entry
+
+- Correct source: The Tourist Tailor [e-], conversation `68cad3d4-0ccc-8325-be36-94c5b5527997`, raw blob `dd2b6141af86dea54e4ba2e782214128619ce78c`.
+- Message `9dc27aac-b34d-46db-8bb1-be603ba3fb73`, outer role user, `2025-09-18T15:42:49.979981Z`.
+- Exact raw message: 564 Unicode code points / 584 UTF-8 bytes; SHA-256 `b35d770dc0ef53d851ca82f56b88709b9f943898113805cdd366fd1d56b5f7b2`.
+- Prior Compendium blockquote: 521 characters; SHA-256 `34a2387645523c57eb0e17f1b8018a7ad64decba7a6e5bb8bd80b3b2b215c0c6`; absent from the cited 3,031-message raw conversation and adjacent assistant message. Origin unresolved.
+- Compendium corrected to exact raw text; new blob `9d43561709f1466a33db0f65efa30eb3c89d7940`; exact readback and extracted-text equality PASS.
+
+### Aster issue #1184 source-locator correction
+
+Issue #1184 cites ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa` and message SHA `04ef80436f2a3897bed1cb8471a53ba7df7e42d58c4f08210a11373d624262f3`. The 1,817-message ASTER raw export does not contain the target ID or exact text. The actual source is The Tourist Tailor conversation above. The corrected raw-message SHA is `b35d...`; the Aster digest is nonmatching. Do not attribute the displaced Compendium wording to Nathan or to the adjacent assistant response.
+
+### Formal gate
+
+Existing PR #759 now includes `LoomCompendiumSourceBinding.lean`, which binds a verbatim quote to conversation ID, message ID, outer role and exact text digest, and separately binds a report locator. The corrected module's exact-head/merge-ref Lean run #41348776901 was pending at last check; no compilation claim yet. Lean verifies encoded predicates only, not raw-source authenticity or physical truth.
