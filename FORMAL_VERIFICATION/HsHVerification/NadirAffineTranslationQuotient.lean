@@ -5,7 +5,7 @@ import Mathlib
 
 Source boundary:
 * `RUN_141_GAUGE_SAFE_HAGALAZ_TRIANGLE_RESIDUAL.md`, HsH blob
-  `8b5b... `, dated 2026-09-26 in the document, status SANDBOXED;
+  `8b5b8768527dfff5b198e324b2f823257889f385`, dated 2026-09-26 in the document, status SANDBOXED;
   the artifact has no authenticated author/role metadata.
 * `PLAYGROUND_004_30SEP_RECOVERY_COLLISION.md`, HsH blob
   `e56b9cfffc4aa7a76b7302d6f1a66ad2ac2d4e4f`, assistant-generated
