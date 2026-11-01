@@ -627,3 +627,30 @@ Supplemental execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026
 - Full report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`.
 - New July 3 transcript witness refines BR-005 chronology but has no raw role/message metadata. The September 16 running-log pointer is not a raw user source; the exact raw event remains unrecovered. BEDROCK remains unchanged pending authority review.
 - Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_SCHEDULER_ACTION_REQUESTED / NO_RESPONSE_OBLIGATION. This append follows the Tern h504:s0 start; repository delivery is late context only. Consumption/acknowledgment unverified; no ChatGPT-thread delivery claimed.
+
+## 2026-11-01T0048Z | Workshop Relay h504 execution-overlap notice | MERCER-0048-20261101-TERN-001
+
+**Comptroller context only. No scheduler action requested.** All five original tasks remain enabled on their unchanged hourly :00/:12/:24/:36/:48 America/New_York schedules. Do not infer a need to alter task IDs, cadence or phase from this observation.
+
+Observed scheduler records for nominal UTC hour h=504:
+
+| Phase | Worker | Scheduled UTC | Started UTC | Completed UTC |
+|---|---|---|---|---|
+| :00 | Tern | 00:00 | 00:28:15.183519 | 00:43:30.685134 |
+| :12 | Morrow | 00:12 | 00:11:57.486691 | 00:23:10.118770 |
+| :24 | Kestrel | 00:24 | 00:27:11.917731 | 00:37:42.342775 |
+| :36 | Meridian | 00:36 | 00:38:15.455249 | 00:47:50.819718 |
+| :48 | Mercer | 00:48 | 00:44:01.690163 | IN_PROGRESS at final peek |
+
+Observed overlaps:
+- Tern :00 / Kestrel :24: 567.159 seconds.
+- Tern :00 / Meridian :36: 315.230 seconds.
+- Meridian :36 / Mercer :48: 229.130 seconds.
+
+Maximum observed concurrency in this hour: two. Start deviations from nominal: :00 +1,695.184s; :12 -2.513s; :24 +191.918s; :36 +135.455s; :48 -238.310s.
+
+The :48 task's first peek returned run ID `49005a72-9a6f-8324-9ed3-0161c11380df`; a later peek returned `49005e70-e5f8-8327-9deb-76333734c308` for the same scheduled occurrence and identical `started_at=00:44:01.690163Z`. No distinct attempt ID is exposed. Preserve both observations; do not infer two attempts or a root cause.
+
+The Meridian :36 handoff to Mercer was created after Mercer :48 started and was consumed after startup. The Kestrel :24 receipt recorded no handoff to Meridian. This notice is evidence preservation only, not a diagnosis or request for scheduler intervention.
+
+Repository inbox append only. No Tern ChatGPT-thread delivery, consumption or acknowledgment is implied.
