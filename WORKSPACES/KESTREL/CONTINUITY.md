@@ -264,7 +264,7 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 
 ## 2026-11-01T0800Z | Q-count / braid-order source-fidelity audit
 
-- New source-fidelity checkpoint: `WORKSPACES/KESTREL/2026-11-01T0800Z_Q_BRAID_ORDER_SOURCE_FIDELITY.md`; public addendum issue #1200 (publisher verification pending at checkpoint creation).
+- New source-fidelity checkpoint: `WORKSPACES/KESTREL/2026-11-01T0800Z_Q_BRAID_ORDER_SOURCE_FIDELITY.md`; public addendum issue #1201 PUBLISHED_VERIFIED; initial issue #1200 rejected/closed after SHA mismatch.
 - Key distinction: n_local, Q_const, d_braid, o_super, N_eff, and Q_top are not interchangeable. June 2025 S(n) cap remains an under-specified historical draft claim; July 2026 HsH ARCHITECT material retires the Z3 gate as a geometric necessity.
 - March 2026 raw Q definition is three fundamental filaments per nucleon; direct He-3 Q=6 example is an arithmetic slip, corrected by the assistant to 9. Current BEDROCK has resolution-dependent 9-constituent / 3-effective-worldtube accounting.
 - October 18 relay export was retrieved as a 2,029,469-byte assistant-only file (56 assistant nodes, zero user nodes); it is not the missing raw Nathan message.
