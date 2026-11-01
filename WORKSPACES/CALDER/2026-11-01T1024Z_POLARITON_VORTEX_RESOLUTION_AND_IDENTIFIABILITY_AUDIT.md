@@ -14,13 +14,15 @@ The nominal UTC hour since 2026-10-11T00:00Z is h=514.
 The selected ring identity is Calder. The successor is Hale. This is a deterministic label selection, not authentication of either historical ChatGPT instance or thread.
 
 Existing automation:
-- Task ID: `6abda4c8eda88191b8a91a30d2a155e0`
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`
 - Current execution run ID: `cdbe7d87-e830-832e-8a5a-86eaa8908464`
 - `chat_ref`: null at initial inspection.
 - Enabled and exact original hourly America/New_York :24 schedule preserved.
 - No task, schedule, phase, prompt, or ID change; no sixth task.
 
 Main branch at preflight: `a9e023a9ea5cd105ee872eee761050c8783cdd44`.
+
+Final automation peek confirmed the correct live :24 task ID above is enabled and retains `BEGIN:VEVENT DTSTART;TZID=America/New_York:20261001T142400 RRULE:FREQ=HOURLY END:VEVENT`. The current run `cdbe7d87-e830-832e-8a5a-86eaa8908464` is `in_progress`, scheduled 10:24:00Z, started 10:24:01.194771Z, with `completed_at=null` and `chat_ref=null`. The latest stored result belongs to the preceding Aster run scheduled 09:24Z, not this Calder run. An earlier draft used an incorrect task ID; this final record corrects it. No automation setting was changed.
 
 ## 2. Preflight and historical Calder identity
 
