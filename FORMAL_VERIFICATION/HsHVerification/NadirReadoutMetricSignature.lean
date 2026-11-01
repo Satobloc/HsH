@@ -28,8 +28,10 @@ def euclideanMetric : Mat4 := 1
 /-- Adapted resolving axis u = ∂_w = e₀. -/
 def resolvingAxis : Fin 4 → ℝ := fun i => if i = 0 then 1 else 0
 
-/-- Rank-one tensor u♭ ⊗ u♭ in the adapted Euclidean frame. -/
-def outerResolvingAxis : Mat4 := fun i j => resolvingAxis i * resolvingAxis j
+/-- The source's rank-one sign-flip formula, written componentwise. -/
+def rankOneFlip : Mat4 :=
+  fun i j => (if i = j then 1 else 0) -
+    2 * resolvingAxis i * resolvingAxis j
 
 /-- Candidate g = δ - 2 u♭ ⊗ u♭ in coordinates adapted to u. -/
 def readoutMetric : Mat4 :=
@@ -37,11 +39,10 @@ def readoutMetric : Mat4 :=
 
 /-- The diagonal readout form is exactly the source's rank-one sign flip. -/
 theorem readoutMetric_eq_rankOneFlip :
-    readoutMetric = euclideanMetric - 2 • outerResolvingAxis := by
+    readoutMetric = rankOneFlip := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [readoutMetric, euclideanMetric, resolvingAxis,
-      outerResolvingAxis, Matrix.diagonal]
+    norm_num [readoutMetric, rankOneFlip, resolvingAxis, Matrix.diagonal]
 
 /-- The distinguished resolving direction is negative for g. -/
 theorem readoutMetric_time_axis :
