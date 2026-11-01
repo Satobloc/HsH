@@ -1,0 +1,670 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "7fcc4e466209adacaed362d24a5be7428611258980871d9de3097335ae7e8dd0",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-01T03:55:45.564811+00:00",
+  "query": "(name:*Tourist*Tailor* OR path:*Tourist*Tailor* OR \"68cad3d4-0ccc-8325-be36-94c5b5527997\" OR \"71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0\" OR \"e92efb17-2499-482e-b930-9ad11221bd7c\" OR \"9dc27aac-b34d-46db-8bb1-be603ba3fb73\" OR \"3039b226-02d4-41a3-a2d3-c338e25204a9\") OR (author:user AND ((\"3-form\" NEAR/12 \"2-form\") OR \"fundamental 3-form\" OR \"flux through surfaces\" OR (\"same object\" NEAR/12 current))) OR (author:assistant AND ((\"J^{\\\\mu\\\\nu}\" OR \"J_{\\\\mu\\\\nu\\\\rho}\" OR \"J_mu\") NEAR/15 (current OR worldsheet OR flux OR dual))) OR (name:*Blockwave* OR path:*Blockwave* OR name:*SAT4D* OR path:*SAT4D* OR name:*SAT-O1* OR path:*SAT-O1*)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16185,
+    "records_scanned": 20860801,
+    "hits": 64145
+  },
+  "counted_hits": 64145,
+  "distinct_sources": 212,
+  "results_by_root": {
+    "archive": 17283,
+    "hsh-main": 46859,
+    "resources": 3
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*Blockwave*",
+      35679
+    ],
+    [
+      "name:*Blockwave*",
+      35679
+    ],
+    [
+      "name:*SAT4D*",
+      23327
+    ],
+    [
+      "path:*SAT4D*",
+      23327
+    ],
+    [
+      "name:*Tourist*Tailor*",
+      4888
+    ],
+    [
+      "path:*Tourist*Tailor*",
+      4888
+    ],
+    [
+      "author:assistant",
+      1877
+    ],
+    [
+      "current",
+      1774
+    ],
+    [
+      "author:user",
+      1434
+    ],
+    [
+      "flux",
+      1117
+    ],
+    [
+      "J^{\\mu\\nu}",
+      668
+    ],
+    [
+      "3-form",
+      470
+    ],
+    [
+      "dual",
+      394
+    ],
+    [
+      "2-form",
+      302
+    ],
+    [
+      "worldsheet",
+      213
+    ],
+    [
+      "J_{\\mu\\nu\\rho}",
+      182
+    ],
+    [
+      "68cad3d4-0ccc-8325-be36-94c5b5527997",
+      40
+    ],
+    [
+      "e92efb17-2499-482e-b930-9ad11221bd7c",
+      26
+    ],
+    [
+      "same object",
+      25
+    ],
+    [
+      "3039b226-02d4-41a3-a2d3-c338e25204a9",
+      18
+    ],
+    [
+      "9dc27aac-b34d-46db-8bb1-be603ba3fb73",
+      13
+    ],
+    [
+      "J_mu",
+      12
+    ],
+    [
+      "71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0",
+      7
+    ],
+    [
+      "flux through surfaces",
+      4
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json",
+      "title": "MERSEARCH_REQUEST_LANE_3",
+      "record_count": 1,
+      "best_score": 332,
+      "first_hit_index": 61334,
+      "sample_hit_index": 61334,
+      "locator": "$.query",
+      "matched_terms": [
+        "68cad3d4-0ccc-8325-be36-94c5b5527997",
+        "71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0",
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "9dc27aac-b34d-46db-8bb1-be603ba3fb73",
+        "3039b226-02d4-41a3-a2d3-c338e25204a9",
+        "3-form",
+        "2-form",
+        "fundamental 3-form",
+        "flux through surfaces",
+        "same object",
+        "current",
+        "J^{\\mu\\nu}"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 2444,
+      "best_score": 167,
+      "first_hit_index": 375,
+      "sample_hit_index": 3799,
+      "locator": "message:066ea8b7-a01d-4a64-ac70-b84fba241d39",
+      "matched_terms": [
+        "name:*Tourist*Tailor*",
+        "path:*Tourist*Tailor*",
+        "3-form",
+        "2-form",
+        "flux through surfaces",
+        "current",
+        "author:assistant",
+        "J^{\\mu\\nu}",
+        "J_{\\mu\\nu\\rho}",
+        "worldsheet",
+        "flux",
+        "dual"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 2444,
+      "best_score": 167,
+      "first_hit_index": 376,
+      "sample_hit_index": 3800,
+      "locator": "message:066ea8b7-a01d-4a64-ac70-b84fba241d39",
+      "matched_terms": [
+        "name:*Tourist*Tailor*",
+        "path:*Tourist*Tailor*",
+        "3-form",
+        "2-form",
+        "flux through surfaces",
+        "current",
+        "author:assistant",
+        "J^{\\mu\\nu}",
+        "J_{\\mu\\nu\\rho}",
+        "worldsheet",
+        "flux",
+        "dual"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/HALE/2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL.md",
+      "title": "2026-10-31T0412Z_SAT_O_BLOCKWAVE_SOURCE_PROVENANCE_AND_D2_CONTROL",
+      "record_count": 169,
+      "best_score": 114,
+      "first_hit_index": 62718,
+      "sample_hit_index": 62867,
+      "locator": "line:75",
+      "matched_terms": [
+        "71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0",
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "3-form",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ENHEDUANNA/2026-10-31T1612Z_SAT_BLOCKWAVE_SOURCE_STRATIGRAPHY_AND_PR890_AUDIT.md",
+      "title": "2026-10-31T1612Z_SAT_BLOCKWAVE_SOURCE_STRATIGRAPHY_AND_PR890_AUDIT",
+      "record_count": 166,
+      "best_score": 108,
+      "first_hit_index": 62552,
+      "sample_hit_index": 62646,
+      "locator": "line:221",
+      "matched_terms": [
+        "68cad3d4-0ccc-8325-be36-94c5b5527997",
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/SABLE/2026-10-31T0624Z_SABLE_SYSTEMS_AND_CURRENT_DEGREE_REPAIR.md",
+      "title": "2026-10-31T0624Z_SABLE_SYSTEMS_AND_CURRENT_DEGREE_REPAIR",
+      "record_count": 5,
+      "best_score": 96,
+      "first_hit_index": 63771,
+      "sample_hit_index": 63774,
+      "locator": "line:122",
+      "matched_terms": [
+        "9dc27aac-b34d-46db-8bb1-be603ba3fb73",
+        "3-form",
+        "2-form",
+        "flux through surfaces",
+        "flux"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md",
+      "title": "2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT",
+      "record_count": 149,
+      "best_score": 93,
+      "first_hit_index": 60934,
+      "sample_hit_index": 60993,
+      "locator": "line:180",
+      "matched_terms": [
+        "3-form",
+        "same object",
+        "current",
+        "J^{\\mu\\nu}",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "title": "Blockwave Theory Redubbed",
+      "record_count": 23,
+      "best_score": 91,
+      "first_hit_index": 0,
+      "sample_hit_index": 13,
+      "locator": "message:f975663b-dcb1-4294-89a2-b6f55827cbff",
+      "matched_terms": [
+        "3-form",
+        "current",
+        "author:assistant",
+        "worldsheet",
+        "flux",
+        "dual",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/NADIR_VOSS/2026-10-31T1212Z_SAT_O_BLOCKWAVE_SOURCE_STRATIGRAPHY_AND_MINIMAL_CARRIER.md",
+      "title": "2026-10-31T1212Z_SAT_O_BLOCKWAVE_SOURCE_STRATIGRAPHY_AND_MINIMAL_CARRIER",
+      "record_count": 131,
+      "best_score": 87,
+      "first_hit_index": 63161,
+      "sample_hit_index": 63275,
+      "locator": "line:72",
+      "matched_terms": [
+        "same object",
+        "current",
+        "worldsheet",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.22•Blockwave Lagrangian formula — raw.json",
+      "title": "Blockwave Lagrangian formula",
+      "record_count": 91,
+      "best_score": 87,
+      "first_hit_index": 5337,
+      "sample_hit_index": 5338,
+      "locator": "message:76f4dd19-1e0e-4974-ab0f-12ab77fd23c9",
+      "matched_terms": [
+        "current",
+        "author:assistant",
+        "J^{\\mu\\nu}",
+        "worldsheet",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ARIADNE/2026-10-31T0312Z_SAT_O_BLOCKWAVE_SOURCE_STRATIGRAPHY.md",
+      "title": "2026-10-31T0312Z_SAT_O_BLOCKWAVE_SOURCE_STRATIGRAPHY",
+      "record_count": 191,
+      "best_score": 82,
+      "first_hit_index": 60740,
+      "sample_hit_index": 60908,
+      "locator": "line:70",
+      "matched_terms": [
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "3-form",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/NADIR_VOSS/2026-10-31T1212Z_SAT_O_BLOCKWAVE_SUPPORT_STRATA_RECONCILIATION.md",
+      "title": "2026-10-31T1212Z_SAT_O_BLOCKWAVE_SUPPORT_STRATA_RECONCILIATION",
+      "record_count": 173,
+      "best_score": 82,
+      "first_hit_index": 63292,
+      "sample_hit_index": 63295,
+      "locator": "line:101",
+      "matched_terms": [
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "3-form",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/tagging_ledgers/2026-10-31-LOOM-3FORM-BLOCKWAVE-SOURCE-GENEALOGY-01.md",
+      "title": "2026-10-31-LOOM-3FORM-BLOCKWAVE-SOURCE-GENEALOGY-01",
+      "record_count": 166,
+      "best_score": 82,
+      "first_hit_index": 62383,
+      "sample_hit_index": 62387,
+      "locator": "line:103",
+      "matched_terms": [
+        "e92efb17-2499-482e-b930-9ad11221bd7c",
+        "3-form",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HYPERFOAM THEORY/SAT4DHHUC.txt",
+      "title": "SAT4DHHUC",
+      "record_count": 609,
+      "best_score": 67,
+      "first_hit_index": 5914,
+      "sample_hit_index": 6503,
+      "locator": "line:905",
+      "matched_terms": [
+        "3-form",
+        "current",
+        "J_{\\mu\\nu\\rho}",
+        "dual",
+        "name:*SAT4D*",
+        "path:*SAT4D*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 2/SAT4DHHUC.txt",
+      "title": "SAT4DHHUC",
+      "record_count": 609,
+      "best_score": 67,
+      "first_hit_index": 6523,
+      "sample_hit_index": 7112,
+      "locator": "line:905",
+      "matched_terms": [
+        "3-form",
+        "current",
+        "J_{\\mu\\nu\\rho}",
+        "dual",
+        "name:*SAT4D*",
+        "path:*SAT4D*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 3,
+      "best_score": 65,
+      "first_hit_index": 5473,
+      "sample_hit_index": 5475,
+      "locator": "message:8ef73bc8-c9bd-44cf-af7d-84f3cf3437cf",
+      "matched_terms": [
+        "3-form",
+        "current",
+        "author:assistant",
+        "J_{\\mu\\nu\\rho}",
+        "worldsheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 2,
+      "best_score": 65,
+      "first_hit_index": 5522,
+      "sample_hit_index": 5522,
+      "locator": "message:b1ccf122-6c1a-43bf-92e5-6a654eef4f05",
+      "matched_terms": [
+        "3-form",
+        "2-form",
+        "current",
+        "author:assistant",
+        "J_{\\mu\\nu\\rho}",
+        "dual"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 2,
+      "best_score": 55,
+      "first_hit_index": 5479,
+      "sample_hit_index": 5481,
+      "locator": "message:be1c2dfb-4462-41f3-bab7-e258d715a4b9",
+      "matched_terms": [
+        "3-form",
+        "current",
+        "author:assistant",
+        "J_{\\mu\\nu\\rho}"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 5,
+      "best_score": 53,
+      "first_hit_index": 5507,
+      "sample_hit_index": 5510,
+      "locator": "message:47538a68-0ec1-44dd-8b53-140ddeaf13ab",
+      "matched_terms": [
+        "current",
+        "author:assistant",
+        "J_{\\mu\\nu\\rho}",
+        "dual"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/RevLaTeX Fix Assistance — raw.json",
+      "title": "RevLaTeX Fix Assistance",
+      "record_count": 1,
+      "best_score": 53,
+      "first_hit_index": 5483,
+      "sample_hit_index": 5483,
+      "locator": "message:bd709c92-f7a6-4d54-986d-edbea14638a1",
+      "matched_terms": [
+        "current",
+        "author:assistant",
+        "J_{\\mu\\nu\\rho}",
+        "dual"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FORMALIZATION DEVELOPMENTS/LEAN CHECK_drafts/SATO-BLOCKWAVE_leancheck.txt",
+      "title": "SATO-BLOCKWAVE_leancheck",
+      "record_count": 153,
+      "best_score": 51,
+      "first_hit_index": 5761,
+      "sample_hit_index": 5828,
+      "locator": "line:180",
+      "matched_terms": [
+        "current",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/LEAN CHECK_drafts/SATO-BLOCKWAVE_leancheck.txt",
+      "title": "SATO-BLOCKWAVE_leancheck",
+      "record_count": 153,
+      "best_score": 51,
+      "first_hit_index": 7132,
+      "sample_hit_index": 7199,
+      "locator": "line:180",
+      "matched_terms": [
+        "current",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/EARLY LOGGED/SAT4Dovervoew.txt.txt",
+      "title": "SAT4Dovervoew.txt",
+      "record_count": 167,
+      "best_score": 47,
+      "first_hit_index": 5594,
+      "sample_hit_index": 5624,
+      "locator": "line:126",
+      "matched_terms": [
+        "current",
+        "flux",
+        "name:*SAT4D*",
+        "path:*SAT4D*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SATOBLOC MISC/SAT4D_MATHEMATICAL_BACKBONE.txt",
+      "title": "SAT4D_MATHEMATICAL_BACKBONE",
+      "record_count": 167,
+      "best_score": 47,
+      "first_hit_index": 12400,
+      "sample_hit_index": 12430,
+      "locator": "line:126",
+      "matched_terms": [
+        "current",
+        "flux",
+        "name:*SAT4D*",
+        "path:*SAT4D*"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:e68ccb68-79a2-49df-986c-36fe88f0ed8f",
+      "matched_terms": [
+        "author:user",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:bef20f6c-84db-426d-8d34-3acecfbd9e85",
+      "matched_terms": [
+        "author:assistant",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:fbd3c702-ef05-4a04-9fd7-afbe3a6175bf",
+      "matched_terms": [
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:53c907c4-3673-4ed0-b507-cd61005a74ef",
+      "matched_terms": [
+        "flux",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:19a1cd47-617f-4393-8019-129e90720bf4",
+      "matched_terms": [
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:49e021bf-d2d4-4d0f-94e6-fe94e4eee285",
+      "matched_terms": [
+        "author:user",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:aa454304-fefd-440e-b72d-9a7698d1a1e5",
+      "matched_terms": [
+        "author:assistant",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "locator": "message:64a94701-8157-422e-8faa-4b5d175aa597",
+      "matched_terms": [
+        "author:user",
+        "name:*Blockwave*",
+        "path:*Blockwave*"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
