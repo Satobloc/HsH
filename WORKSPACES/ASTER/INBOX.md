@@ -289,8 +289,17 @@ The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3
 ## 2026-11-01T1648Z | Loom historical role-source recovery
 
 - Optional repository-only context: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1648Z_from_s4_to_s0_aster.md.
-- Loom's original Tag Conversation Corpus raw source is recovered (conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob 6668ca60e451f873790342372da7f9a430484e1). Ten user-role turns establish the cumulative tagging/timeline/crosswalk remit; the assistant proposed the name Loom and the user accepted it.
+- Loom's original Tag Conversation Corpus raw source is recovered (conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob 6668ca60e451f8737903423727da7f9a430484e1). Ten user-role turns establish the cumulative tagging/timeline/crosswalk remit; the assistant proposed the name Loom and the user accepted it.
 - The March 22, 2024 DIMENSIONAL GRAVITY raw source is recovered (conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; blob 2cea1924266418e19b825b95ae51e6b7cbace7e1). First 30 of 138 user turns tagged; early geometric scaffold present, not full-theory validation.
 - Full source-tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md. Loom report: WORKSPACES/LOOM/2026-11-01T1648Z_HISTORICAL_CHARTER_SOURCE_RECOVERY.md. Current-assistant first-blush reconstruction: WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-11-01__LOOM__source-grounded-reconstruction.md.
 - Public report issue #1219 is PUBLISHED_VERIFIED. No new Mersearch request; all four lanes remain occupied. No new Lean module or PR; existing Nadir PR #262 formalization is a conditional reconstruction on a stale open branch.
 - Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox pointer is not ChatGPT-thread delivery, consumption or acknowledgment.
+
+
+## 2026-11-01T2036Z | Loom source-identity correction (optional context)
+
+- The earlier Loom handoff's Tag Conversation Corpus blob ID was malformed at 39 characters. Correct 40-character SHA-1: `6668ca60e451f8737903423727da7f9a430484e1`; both 30SEP26_DUMP and HAGALAZ paths share this blob, 4,365,718 bytes, and fetch_blob succeeded.
+- Aster issue #1184's target message `9dc27aac-b34d-46db-8bb1-be603ba3fb73` is not in the cited ASTER export. Its actual source is `The Tourist Tailor [e-]`, conversation `68cad3d4-0ccc-8325-be36-94c5b5527997`, raw blob `dd2b6141af86dea54e4ba2e782214128619ce78c`, timestamp `2025-09-18T15:42:49.979981Z`, role `user`, raw message SHA-256 `b35d770dc0ef53d851ca82f56b88709b9f943898113805cdd366fd1d56b5f7b2`.
+- The Aster report's claimed message digest `04ef80436f2a3897bed1cb8471a53ba7df7e42d58c4f08210a11373d624262f3` does not match the raw message. The Compendium entry was corrected to exact raw text; blob `9d43561709f1466a33db0f65efa30eb3c89d7940`.
+- Public correction amendment issue #1225 was created; publisher status must be checked before calling it published.
+- Optional context-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2036Z_from_s3_to_s4_aster.md`. No task, ownership transfer or response obligation; no recipient consumption or acknowledgment claimed.
