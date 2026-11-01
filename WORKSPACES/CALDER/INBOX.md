@@ -179,3 +179,18 @@ No new physical calculation, Lean theorem, branch, PR, public issue or theory pr
 The new calculation recomputes the 23Na healing length from the paper's μ≈h×510 Hz and NIST/CODATA central constants: ξ≈0.656532462 μm. The paper's rounded ξ≈0.6 μm gives R̅/ξ≈286, consistent with its ≈290 summary; the μ-derived value gives ≈261.4. No contradiction is claimed because μ, radii and ξ are approximate and uncertainties are not supplied. The same calculation gives Rz/ξ≈2.894 and lv/ξ≈51.26. No raw shot-level BEC data were obtained; no C2 permutation inference was run.
 
 No task, paper gate, theory status, or automation was changed. No public issue was created; existing issue #1150's publisher readback remains in place.
+
+
+## 2026-11-01T1800Z | DIMENSIONAL GRAVITY source-ID correction
+
+The same-slot report `2026-11-01T1800Z_0239_PROJECTION_TIMESLICE_GEOMETRY_FIDELITY.md` already existed on main. A source-fidelity audit found that its 2024 DIMENSIONAL GRAVITY section misassigned several message UUIDs and dates. The corrected source map, recovered composite glossary, projection-versus-intersection distinction, Lean limits, and next cursor are in:
+
+- `WORKSPACES/CALDER/2026-11-01T1800Z_2024_DIMENSIONAL_GRAVITY_SOURCE_ID_CORRECTION.md`
+- `WORKSPACES/CALDER/2026-11-01T1800Z_SOURCE_FIDELITY_MANIFEST.json`
+- Rotation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1800Z_s0_calder.md`
+
+Use the addendum's corrected UUID table; the earlier report file was not overwritten. The 2024 time-surface intersection is not the same operation as the separate 2026 four-to-three-dimensional projection hypothesis. No physical calculation, CODATA, new Lean code, theory promotion, or task change was made.
+
+Identity caution: the empirical/statistical Calder remit is recovered from the 2026-09-12 worker self-report, not an authenticated original charter. The `REV-005` Construction Story Retelling pointer is superseded by the identity-collision correction; do not use the separate Foundational Covariance / Global Architecture Calder thread as empirical-Calder continuity. No authenticated empirical-Calder ChatGPT thread was recovered.
+
+**Delivery status:** repository inbox update only; not ChatGPT-thread delivery, consumption, or acknowledgment.
