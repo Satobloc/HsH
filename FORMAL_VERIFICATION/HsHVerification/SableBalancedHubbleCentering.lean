@@ -40,6 +40,11 @@ structure Length where
 structure Speed where
   value : ℝ
 
+@[ext] theorem Speed.ext {x y : Speed} (h : x.value = y.value) : x = y := by
+  cases x
+  cases y
+  simp_all
+
 /-- A rate multiplied by a length is represented as a speed. -/
 def rateTimesLength (H₀ : Rate) (L : Length) : Speed :=
   ⟨H₀.value * L.value⟩
@@ -50,13 +55,13 @@ def addSpeeds (v w : Speed) : Speed :=
 def subtractSpeeds (v w : Speed) : Speed :=
   ⟨v.value - w.value⟩
 
-def midpointSpeed (v w : Speed) : Speed :=
+noncomputable def midpointSpeed (v w : Speed) : Speed :=
   ⟨(v.value + w.value) / 2⟩
 
-def halfSpeed (v : Speed) : Speed :=
+noncomputable def halfSpeed (v : Speed) : Speed :=
   ⟨v.value / 2⟩
 
-def negativeHalfSpeed (v : Speed) : Speed :=
+noncomputable def negativeHalfSpeed (v : Speed) : Speed :=
   ⟨-v.value / 2⟩
 
 /-- Time-side speed in the Nathan Direct centered representation. -/
@@ -68,7 +73,7 @@ def spaceSectorSpeed (H₀ : Rate) (L : Length) : Speed :=
   rateTimesLength H₀ L
 
 /-- Common midpoint removed by the centering operation. -/
-def center (c : Speed) (H₀ : Rate) (L : Length) : Speed :=
+noncomputable def center (c : Speed) (H₀ : Rate) (L : Length) : Speed :=
   midpointSpeed (timeSectorSpeed c H₀ L) (spaceSectorSpeed H₀ L)
 
 /-- The midpoint retains the common H₀L shift. -/
