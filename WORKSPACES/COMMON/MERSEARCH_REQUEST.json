@@ -1,28 +1,27 @@
 {
-  "request_id": "calder-empirical-charter-original-source-20261101-0248",
-  "requester": "Workshop Relay :48 / Calder empirical-null-design historical-source recovery; current assistant source-grounded reconstruction, not authenticated historical Calder",
-  "requested_at": "2026-11-01T02:51:00Z",
+  "request_id": "morrow-sep13-dashboard-common-source-recovery-20261101-1524",
+  "requester": "Workshop Relay :24 / Morrow archival source-identity recovery; source-grounded reconstruction, not authenticated historical Morrow",
+  "requested_at": "2026-11-01T15:23:10Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"0.239\" OR \"13.7\" OR \"14.1\" OR \"B = 3/(4π)\") NEAR/15 (angle OR pitch OR galaxy OR canopy OR clustering))) OR (author:user AND ((\"angle-clustering\" OR \"angle clustering\" OR \"pitch-angle\" OR \"canopy\" OR \"local null\") NEAR/15 (galaxy OR measurement OR dataset OR pilot))) OR (author:assistant AND ((\"Calder\" NEAR/12 (\"angle-clustering\" OR \"null design\" OR canopy OR covariance)) OR (\"negative/non-significant\" NEAR/12 (galaxy OR clustering))))",
-  "purpose": "Mersearch-first recovery of the actual original source and any historical specialist-role/charter statements underlying the 2026-09-12 Common CHECKINS.md section 'Calder'. Locate raw conversation exports and exact outer-role user/assistant messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Recover the earliest authentic user-role assignment of empirical angle-clustering, adversarial null design, independent-unit discipline, covariance/calibration and negative-result practice; separately locate assistant-authored summaries and the mixed external-literature/SAT exposure discussion. Determine whether the empirical/null-design Calder has a distinct raw conversation from the '⚗️ CALDER [Construction Story Retelling]' Foundational Covariance / Global Architecture thread. Preserve original wording and exact equation strings if any; do not infer a historical charter from the wrong identity or assistant summaries.",
+  "query": "author:user AND date:2026-09-12..2026-09-14 AND ((Morrow NEAR/12 (workspace OR \"Team Archivist\" OR \"Common participation\" OR archive)) OR (\"task workspace\" NEAR/12 (Common OR Morrow OR archive)) OR \"routine Common participation\" OR (\"Dashboard\" NEAR/15 (quarantine OR viewer OR navigation OR overview)) OR (\"Conversation Viewer\" NEAR/15 (annotation OR provenance OR open OR message)) OR (\"LIVE CONVOS\" NEAR/12 (Dashboard OR ACTIVE OR folder)))",
+  "purpose": "Recover the exact original outer-role user messages behind the 2026-09-13 Common records: (1) Nathan's request for a Morrow task workspace and routine Common participation; (2) the Dashboard-live/not-quarantined clarification; and (3) the Conversation Viewer follow-up. Distinguish direct Nathan instructions from Morrow-authored notices, assistant summaries, copied exports, and generated reports. Locate raw conversation exports and exact conversation IDs, message UUIDs, timestamps, parent IDs and adjacent context, repository paths, immutable blob SHAs and source commits. Preserve separate directives if they came from different conversations. Search all three permitted repositories with the stable 1.0 engine and default exclusions; use compact receipts only for navigation, then inspect permitted primary exports.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate raw conversation paths and exact blob/source commit SHAs",
-    "exact user-role and assistant-role message UUIDs, timestamps, parent IDs and adjacent context for role/charter assignments",
-    "separate source tags for Nathan Direct, historical worker self-report/check-in, assistant-authored continuity and unresolved attribution",
-    "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
+    "candidate raw conversation paths, conversation IDs, source commits and immutable blob SHAs",
+    "exact outer-role user message UUIDs, timestamps, parent IDs and adjacent context for each distinct instruction",
+    "typed distinctions among Nathan Direct, Morrow-authored notice, assistant-authored summary, duplicate snapshot and unresolved attribution",
+    "explicit three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
-    "Reuse lane 1 only because the preceding Loom request has a complete manifest and both compact receipts independently read back; its output artifacts are preserved under its original request ID",
-    "Do not overwrite lane 2 or lane 3, whose current requests have no request-scoped manifest/receipts; do not alter lane 4 Nadir request",
-    "Do not route empirical/null-design Calder to conversation 6a8eacca-c470-83ea-af92-8fb8df194de9; the identity-collision correction separates that Foundational Covariance / Global Architecture thread",
-    "Do not infer historical Calder participation, current-thread usability, first-blush, exposure history or Nathan authorship from a workspace summary or copied user-role paste",
-    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content",
-    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change, task/automation modification"
+    "Lane 1's preceding Calder request has a complete manifest and both compact receipts independently read back; its outputs remain preserved under its original request ID before reuse.",
+    "Do not overwrite lane 2, which has no request-scoped output; do not alter lane 3 or lane 4, whose completed outputs remain preserved for their owners.",
+    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content.",
+    "Do not infer a current ChatGPT thread or historical Morrow runtime from an archive title, filename or assistant-authored summary.",
+    "No theory integration, physical calculation, prediction, Lean module, branch/PR, manuscript, BEDROCK, SAT-O/Blockwave equation or automation change."
   ],
   "lane": 1,
   "status": "requested"
