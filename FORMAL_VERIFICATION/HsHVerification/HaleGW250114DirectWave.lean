@@ -162,7 +162,7 @@ theorem rationalFilterFactor_norm_one
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
-  rw [norm_mul, norm_div, norm_div]
+  rw [norm_mul, norm_div, norm_div] <;> try assumption
   rw [norm_sub_conj_eq, norm_add_conj_eq]
   have hminusNorm :
       ‖(x : ℂ) - star z‖ ≠ 0 :=
@@ -254,7 +254,10 @@ def hasCalibrationOrFit (m : DirectWaveCalibrationLedger) : Prop :=
 theorem gw250114_shapeFixed_and_calibrated :
     shapeFixed gw250114CalibrationLedger ∧
     hasCalibrationOrFit gw250114CalibrationLedger := by
-  decide
+  constructor
+  · simp [shapeFixed, gw250114CalibrationLedger]
+  · left
+    simp [gw250114CalibrationLedger]
 
 /-- The source's zero-free-shape-parameter statement does not imply that
     the complete event-conditioned plunge/echo analysis is uncalibrated
@@ -263,8 +266,11 @@ theorem shapeFixed_does_not_imply_noCalibrationOrFit :
     ¬ (shapeFixed gw250114CalibrationLedger →
         ¬ hasCalibrationOrFit gw250114CalibrationLedger) := by
   intro h
-  have hshape : shapeFixed gw250114CalibrationLedger := by decide
-  have hcal : hasCalibrationOrFit gw250114CalibrationLedger := by decide
+  have hshape : shapeFixed gw250114CalibrationLedger := by
+    simp [shapeFixed, gw250114CalibrationLedger]
+  have hcal : hasCalibrationOrFit gw250114CalibrationLedger := by
+    left
+    simp [gw250114CalibrationLedger]
   exact (h hshape) hcal
 
 /-- Exact arithmetic for the published 90% posterior upper limit
