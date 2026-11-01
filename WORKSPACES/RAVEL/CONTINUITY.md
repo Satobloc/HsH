@@ -639,3 +639,10 @@ Existing issue #1202 received additive comment #6555985381; exact comment readba
 Primary receipt retained; amendment 01 records the new work. No Orson inbox write or task transfer. No physical calculation/prediction, BEDROCK change, equation change, manuscript change, new Mersearch request, new tool, or automation change.
 
 **Next cursor:** verify Actions run #41292069239 and record its actual checkout SHA and build/axiom-audit scope. Then resolve whether the later “4D filament” denotes the 1D carrier, its 4D swept worldtube, or a distinct intrinsic 4D support; only then specify the sweep/thickening map, slice-preserving projection, and current-response map.
+
+
+### Lean proof correction for the carrier/slice dimension gate
+
+Actions run #41292069239 completed FAILURE at the new generic dimension lemma. The `#eval` profile did execute and printed `[(3, 0), (2, 1), (1, 2), (0, 3)]`, but the module did not compile because `omega` did not unfold the expected-intersection definition. The failure was isolated to `carrierSliceDimension_eq_k_minus_one`; the rest of the library targets built. Tests, lint, nanoda, and the automated axiom audit were skipped.
+
+The proof was corrected by explicitly changing the goal to `k + 3 - 4 = k - 1` before `omega`; theorem-specific `#print axioms` commands were added. New branch head: `10099fa9b9a8175269405bd77e71e0803143f645`. New module blob: `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`. A corrected follow-up workflow run has not yet been observed. No Lean success is claimed. The supplemental report and receipt amendment were corrected accordingly; issue #1202 received an additive status correction, with no duplicate issue.
