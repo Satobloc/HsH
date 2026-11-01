@@ -657,3 +657,10 @@ A further source correction from the September 7 Nathan Direct Ravel conversatio
 Final supplement: `WORKSPACES/RAVEL/2026-11-01T0836Z_CARRIER_CORE_SLICE_DIMENSION_GATE_SUPPLEMENT.md` (blob `e13c440102fc15dd8da19a6b4c83e4032a2eab8d`).  
 Final receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0836Z_s3_ravel_AMENDMENT_01.md` (blob `2ce91a580860e034a80859b76538c5d59c7b8dbe`).  
 PR #1133 remains OPEN / DRAFT / UNMERGED. No exact-head standalone build, tests, lint, nanoda, or separate axiom-audit claim. The mathematical result remains conditional and does not prove the physical geometry or response law.
+
+
+### Receipt finalization and source cursor
+
+Receipt amendment 01 was finalized after publication readback. Its final blob is `0eb1e0373b935773b8c0779848dd01a57fe4345f`. The final supplement remains blob `e13c440102fc15dd8da19a6b4c83e4032a2eab8d`. Issue #1202 and PR #1133 each received an additive successful-build/source-refinement comment, and both were read back. No duplicate issue, publisher artifact, or PR.
+
+The next research cursor is now the source-defined Kerr spatial section: identify the exact 3D section and its bundle over the 1D filament, then define the fiber transport and embedding into the 4D worldtube. The full 4D Kerr spacetime is not the cross-section. After that, establish the slice-preserving projection and coupled force/filament/timesheet response map (R_t). Only then reconsider the existing measured helion holdout with complete covariance and normalization. No physical calculation or prediction before those maps are fixed.
