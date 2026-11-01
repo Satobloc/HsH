@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 148, 2026-10-31
+**Current through:** Run 150, 2026-11-01
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -514,4 +514,18 @@ Python evaluation of the actual evidence record: each route has 2/6 evidence pre
 **FIE:** last full review 2026-10-27; 14-day rereview threshold not due. Unrelated reading break completed in Run 149 at `TheTANGLE.txt` lines 1121-1160; next cursor 1161.
 
 **Next cursor:** a site-capable builder must repair the existing shared `sandbox_manuscript` route, bind format adapters/parser/semantic IR/renderer/dependency versions to the exact pinned sources, record derivative and deployment identities, and verify both actual routes against the existing seven-point acceptance checklist. Do not create a parallel reader or reopen either manuscript.
+
+## Run 150 — 2026-11-01T0436Z | R1 source-derived renderer conformance vectors
+
+- Operative boundary: Code Grurple ACTIVE; Mercer remains Papers A+B presentation QA only. Both pinned R1 manuscripts remain unchanged.
+- Exact source pins re-read and matched: Paper A blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa; Paper B blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb. Feed blob e3552fdac0f187b066b59a9742563094efffe011 still binds both to sandbox_manuscript.
+- Added source-derived renderer golden vectors from the actual TeX/Markdown syntax. Paper B's single-backslash math delimiters require explicit parser support; a Pandoc default Markdown excerpt produced zero math nodes, while tex_math_single_backslash + MathJax produced five. Pandoc's MathML conversion warned on legacy \rm in R_{\rm bkg}; MathJax output preserved it but client execution was not tested.
+- A Paper A source excerpt compiled with pdfTeX (exit 0, 10.8 pt overfull hbox and font-size substitution warnings). Pandoc's LaTeX-to-HTML excerpt rendered the table and retained two raw TeX math nodes but dropped the in-body SANDBOXED box text and preamble watermark. These are local excerpt diagnostics, not full-paper or live-site results.
+- New internal report: WORKSPACES/MERCER/2026-11-01T0436Z_R1_SOURCE_DERIVED_RENDERER_CONFORMANCE_VECTORS.md, blob ebd7379ce493eaac8c71fca98eb7bb58a6ddcf4a.
+- Public publisher issue #1193 submitted with submission ID mercer-r1-renderer-source-vectors-20261101t0436z-s3-001, expected SHA-256 f5c5782dcda29c168780212792a5eb6b25e04489ac08d0e0c730c4da09749e37; pending Action and independent readback at checkpoint update.
+- No live route was re-probed. Both routes remain ACCESS_UNAVAILABLE / ROUTE_NOT_OBSERVED; no render failure or PASS inferred. No site editor, renderer, feed, manuscript, gate, theory, BEDROCK, SAT-O/Blockwave equation, physical model or task changed.
+- No new Lean theorem: this is source-syntax/presentation QA, not a new mathematical proposition. No physical calculation, fit or prediction. No new tool, dependency, branch or PR.
+- The existing PDF-series pipeline remains a pre-typeset-PDF indexer, not a raw TeX/Markdown converter and not an authorized workaround for the current shared route.
+- No new Mersearch request; all four lanes occupied. FIE not due. Previous unrelated reading remains TheTANGLE.txt lines 1121–1160; next cursor 1161.
+- Next identity: Ravel, run key REVROT3-19-20261011:508:s4. Optional context only; no task/ownership transfer or ChatGPT-thread delivery claim.
 
