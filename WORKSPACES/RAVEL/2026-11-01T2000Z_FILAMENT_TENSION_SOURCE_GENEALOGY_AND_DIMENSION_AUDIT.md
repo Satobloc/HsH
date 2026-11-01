@@ -4,7 +4,7 @@
 **Nominal slot:** 2026-11-01 20:00 UTC  
 **Selected ring label:** Ravel, index 17  
 **Next ring label:** Orson Vay, index 18  
-**Disposition:** `SOURCE_GENEALOGY_RECOVERED / LEAN_CORE_COMPILED / LATEST_C4_OVER_G_EXTENSION_PENDING / NO_PHYSICAL_PREDICTION / NO_THEORY_PROMOTION`
+**Disposition:** `SOURCE_GENEALOGY_RECOVERED / LEAN_MERGE_REF_BUILDS_SUCCESS / EXACT_HEAD_STANDALONE_NOT_RUN / NO_PHYSICAL_PREDICTION / NO_THEORY_PROMOTION`
 
 ## 1. Executive result
 
@@ -425,11 +425,16 @@ The concrete dimension theorems and the centerline/tube codimension compatibilit
 
 A further theorem `c_four_over_G_has_force_dimension` was added to the same existing PR branch:
 
-- New PR head: `d8579403952ca658cf5dd0547e8c181701d18145`
-- New module blob: `0fb4cdb424f436227b5dfcf3de3bed5f403d6253`
-- Actions run #41348936553; job #124974692430
+- Current PR head: `d8579403952ca658cf5dd0547e8c181701d18145`
+- Current module blob: `0fb4cdb424f436227b5dfcf3de3bed5f403d6253`
+- Second Actions run #41348936553; job #124974692430
+- Merge checkout: `a1bc462a1bfd1b8f79610ffd81c02dca800b381f`
+- Lean 4.34.0; Lake 5.0.0; 8,950 build jobs
+- Build: SUCCESS
 
-At the latest check, that run was still `in_progress` at the checkout step. Its build result is therefore **SUBMITTED_NOT_VERIFIED**. No compile, axiom, or `sorryAx` claim is made for the new theorem until that run completes.
+The module blob matches both the current PR head and the merge checkout. The merge aggregator blob is `0414455e1d18f2afaf2cec86bdf1c221995b0a2b`, different from the PR-head aggregator because the merge base contributes additional imports. This remains a merge-reference build, not an exact-head standalone checkout.
+
+The second build's `#eval` printed the \(c^4/G\) dimension \((1,1,-2)\), i.e. force, followed by the cube-root and density dimensions listed above. The new `c_four_over_G_has_force_dimension` theorem reports no axioms. Across the new module, all 11 concrete theorems report no axioms; the generic `cube_root_scale_condition` reports `[propext, Classical.choice, Quot.sound]`. The second-build log contains zero `sorryAx` and zero `admit`.
 
 Tests, lint, nanoda, and the separate automated axiom-audit action were skipped in the successful first build. Lean verifies only the formalized exponent arithmetic and rank arithmetic; it does not establish the source translation, the physical meaning of \(A,T,\rho_{\rm link},Q\), or any physical premise.
 
