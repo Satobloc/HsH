@@ -41,7 +41,7 @@ Nathan Direct instructions in that thread establish:
 
 The historical Comptroller authority is independently supported by Nathan Direct messages in the 2026-09-23 Ariadne conversation:
 
-- Conversation ID: 6ab339d2-3b39-8f6d-9d8d-2d8f9a2d7f1a
+- Conversation ID: 6ab339d2-8fb4-83ea-b728-c8001a034371
 - Raw blob: df9c7a1fbddaa523f0b69cced8d761433490a454
 - 04:27:14Z: appoint an administrator to track workers and coordinate schedules, named the Comptroller.
 - 04:48:27Z: the Comptroller has full control over task assignments; workers may request more time.
@@ -58,8 +58,8 @@ Existing-thread-first search recovered the archived Tern export and prior contin
 - Current task-branch graph and Code Grurple roster.
 - Current Tern continuity, inbox, prior Tern receipt/handoff, preceding Calder receipt/handoff.
 - Current HsH main preflight head: a2bc3bd6cff83f49db62897f0e654ef8e22fad3a.
-- Branch-graph blob: 3c341c3f9bb8b1e88cbab9b0c52e8b3a7c7f1e9a.
-- Code Grurple roster blob: cc96c1b0e3a3d75c4e2e1f0e9d5d5c7a5b6c1a8d.
+- Branch-graph blob: 3c341c616aa893bf56ad5ad5919e09a17e0c2b46.
+- Code Grurple roster blob: cc96c0bfafc95c54e7960899c7306031e5abce17.
 
 Code Grurple remains active. Tern's current Signalbox/Consolidator role is preserved. HAGALAZ solver-unification remains BACKSEAT/HOLD under the active interlock. No paper route was declared verified, no standdown was declared, and no branch or BEDROCK change was made. P1 (November 9), P2 (November 30), and P3 (December 14) remain separate. Orson's protected cognition allocation was not touched.
 
@@ -220,7 +220,7 @@ The WWRD conversation itself supplies no canonical SAT-O or Blockwave action. Th
 
 - HsH path: DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt
 - Git blob: ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d
-- SHA-256 recorded in the source-stratigraphy report: 3d393c7a8a7f6fba2e7e9f95d3b2a6d9bde9e2e5f0b1f1c9c7e6a5f1f7b4c9d0
+- The separate source-stratigraphy report records a SHA-256; this run preserves the exact Git blob SHA above and does not independently recompute the attachment SHA-256.
 - Classification: user-supplied attachment with unresolved embedded authorship, not an authenticated Nathan Direct original.
 
 Verbatim current lines:
@@ -273,37 +273,36 @@ No new Lean code or PR was created. Existing formalizations were inspected and t
 
 ### PR #1135 — ScalarHessianAntisymZero
 
-- PR head: af66f06c6fcd3a5e3a13b62e4f0b18c1c3e9f9c1
-- Workflow run: #41164589389; job #124429317733
-- Build source checked out merge reference 4d7b0fb3e3d5c7c4b6a8f5d9e2c1a0b7f6e5d4c3, not the PR head.
+- PR #1135 remains open/draft/unmerged.
+- Workflow run #41164589389; job #124429317733.
+- Merge commit checked out: 4d7b0fb41326a82635bbc75644d1b7bb8649c282; this is a PR merge-reference build, not an exact-head checkout.
 - Lean 4.34.0 / Mathlib 4.34.0; 8,944 build jobs; SUCCESS.
-- Module blob: 432dfbc5d9c0c9f7b5e6a3d8f1c2b4e6a8d0f2c4.
-- The module formalizes scalar Hessian antisymmetry under symmetric connection coefficients and arithmetic support/Hodge/Poincaré-dual degree bookkeeping.
+- The module ScalarHessianAntisymZero.lean formalizes scalar Hessian antisymmetry under symmetric connection coefficients and arithmetic support/Hodge/Poincaré-dual degree bookkeeping.
 - It does not construct actual submanifolds, prove transversality, define a physical rope map, or prove nontrivial holonomy.
 - No sorryAx line appeared in the retrieved build log; the separate automated axiom-audit step was skipped. Do not report this as an independent zero-axiom audit.
 
 ### PR #862 — Petzl manufacturer-spec gate
 
-- PR head: c52ed18c250ad49c9715434cf26f55ac62741fe7
+- PR #862 remains open/draft/unmerged.
 - Workflow run #40650298840; job #122688907234.
-- Build checked out merge reference 76a42cc, not the exact PR head; 8,950 jobs; SUCCESS.
+- Merge commit checked out: 76a42cc83e90bf8e65d7bc9d7841734b0ecd7ea9; this is a PR merge-reference build, not an exact-head checkout; 8,950 jobs; SUCCESS.
 - Compares published nominal specifications for Petzl MAMBO 10.1 mm and VOLTA 9.2 mm. The printed impact forces are 8.5 and 8.6 kN, respectively.
 - This is a manufacturer-spec comparator, not raw dynamic force data, not a torsion test, and not a 90-degree traveling-kink experiment.
 
 ### PR #1094 — RopeContactDynamics
 
-- PR head: 5fc4a418d1c8f4b5b9a9f0f1c2d3e4f5a6b7c8d9
+- PR #1094 remains open/draft/unmerged.
 - Workflow run #41025767004; job #123963395720.
-- Build checked out merge reference cb85d7f, not the exact PR head; 8,951 jobs; SUCCESS.
+- Merge commit checked out: cb85d7fb142d0b00e8580b1f097c3d51128427c3; this is a PR merge-reference build, not an exact-head checkout; 8,951 jobs; SUCCESS.
 - Uses published metallic-wire-rope and polymer-rope measurements for narrow contact/bending/torsion comparisons.
 - It does not model a Petzl climbing rope with a traveling helical excitation through a roughly 90-degree kink.
 - It does not establish a universal energy-conversion minimum.
 
 ### PR #824 — Tern scheduler/provenance work
 
-- Current head: 435f60fc
-- Open/draft/unmerged; no changes made.
-- The h515 scheduler-overlap evidence module remains unimported in the package aggregator; the later merge-reference build does not by itself prove that unimported module was compiled.
+- PR #824 remains open/draft/unmerged on branch research/tern-dim-provenance-signloss-20261028t01z.
+- No changes were made in this run.
+- The prior Tern receipt records the h515 scheduler-overlap module as unimported; this run did not re-audit or modify that separate work.
 
 ## 8. Physical-evidence disposition
 
