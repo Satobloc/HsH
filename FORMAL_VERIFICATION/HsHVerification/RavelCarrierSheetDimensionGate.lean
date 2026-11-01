@@ -64,6 +64,7 @@ def expectedTransverseIntersectionDimension
 theorem carrierSliceDimension_eq_k_minus_one
     (k : Nat) (hPositive : 1 ≤ k) (hBounded : k ≤ 4) :
     expectedTransverseIntersectionDimension k 3 4 = k - 1 := by
+  change k + 3 - 4 = k - 1
   omega
 
 /-- A 1D carrier generically meets a 3D timesheet in a 0D trace. -/
@@ -199,5 +200,14 @@ theorem zeroSection_embedding_agrees_with_carrier
     (c : Carrier) :
     R.tubeEmbed (R.zeroSection c) = R.carrierEmbed c :=
   R.embed_zero c
+
+
+#print axioms carrierSliceDimension_eq_k_minus_one
+#print axioms lineCarrierSliceDimension_four_three
+#print axioms fullCoreSliceDimension_four_three
+#print axioms lineCarrierNormalComplementRank
+#print axioms fullDimensionalCarrierNormalComplementRank
+#print axioms positiveNormalRank_implies_carrier_lt_four
+#print axioms inducedMap_commutingWitness
 
 end HsHVerification.RavelCarrierSheetDimensionGate
