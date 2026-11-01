@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1",
+  "status": "SOURCE_GROUNDED_CROSSWALK_NOT_PHYSICS_VALIDATION",
+  "date": "2026-11-01",
+  "source": {
+    "id": "SRC-NATHAN-DIRECT-2026-03-21",
+    "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "path": "Paper Restructuring Plan — raw.json",
+    "blob_sha": "4e49650f2a0b6960d5ce99d6484825b463637828",
+    "locator": "serialized lines 2185-2202; message UUID 54674374-f032-4c85-a3b0-35cf1584d13c",
+    "speaker": "user",
+    "timestamp_utc": "2026-03-21T18:40:11.069Z",
+    "readback": "The fetched source record explicitly has author.role=user and the stated timestamp. This authenticates the message role and archive locator, not the truth of its scientific claims.",
+    "topics": [
+      "24-cell HSUCV projection",
+      "projection constant B",
+      "helium-3 hyperfine frequency and filament scale",
+      "mass anchor m0",
+      "critical velocity",
+      "obscuration/phase snap",
+      "proton-electron mass ratio and bridge residual",
+      "G scaling",
+      "CP phase",
+      "Jarlskog invariant",
+      "CKM mixing angles"
+    ]
+  },
+  "claims": [
+    {
+      "id": "SAT-DIRECT-B",
+      "domain": "4D geometry / projection",
+      "direct_form": "B=3/(4 pi) approximately 0.23873241 rad",
+      "standard_map": "geometry; dimensionless constants; polytope projections",
+      "status": "source_recovered_claim_unverified",
+      "notes": "Source calls B the smallest non-zero angular separation in a 24-cell projection. No independent derivation or mapping to a standard observable established here."
+    },
+    {
+      "id": "SAT-DIRECT-ELL",
+      "domain": "nuclear hyperfine spectroscopy / fundamental constants / length scale",
+      "direct_form": "ell_f = (h c/(2 pi f_He3 alpha^2))^(1/3) approximately 0.7937 fm",
+      "standard_map": "atomic/nuclear spectroscopy; CODATA constants; nuclear length scales",
+      "status": "direct_source_recovered_worker_reports_dimensional_failure",
+      "worker_refs": [
+        "Satobloc/HsH#410"
+      ],
+      "notes": "The direct message is source-authenticated. Issue #410 reports a dimensional failure for the upstream expression and a separate numeric mismatch for the downstream hbar formula. Its calculations have not been rerun in this pass."
+    },
+    {
+      "id": "SAT-DIRECT-M0",
+      "domain": "mass scale / proposed worldtube tension",
+      "direct_form": "m0 approximately 1.0073e-27 kg, described as baseline mass derived from absolute resting tension of a single bare filament",
+      "standard_map": "mass-energy; particle mass scales; mechanics",
+      "status": "source_recovered_operational_definition_missing",
+      "notes": "The phrase 'absolute resting tension' lacks a fully specified physical system, observable, and measurement protocol in this source passage."
+    },
+    {
+      "id": "SAT-DIRECT-VCRIT",
+      "domain": "special relativity / kinematic threshold",
+      "direct_form": "v_crit = B c approximately 0.2387 c",
+      "standard_map": "SR; Lorentz kinematics; speed measurements",
+      "status": "source_recovered_prediction_not_verified",
+      "notes": "No physical system, operational measurement definition, or independent observation attached in this passage."
+    },
+    {
+      "id": "SAT-DIRECT-PHASE",
+      "domain": "phase / geometry",
+      "direct_form": "theta_obs = Delta_phi = 0.246 rad approximately 14.1 degrees",
+      "standard_map": "wave phase; optics; quantum phase; geometric phase",
+      "status": "source_recovered_prediction_not_verified",
+      "notes": "The physical meaning and measurement protocol of the proposed phase snap are not defined in this passage."
+    },
+    {
+      "id": "SAT-DIRECT-MU",
+      "domain": "particle data / mass ratio",
+      "direct_form": "mu = mp/me = [3/(2 B^5)] (1+Delta_bridge) approximately 1836.15",
+      "standard_map": "CODATA proton-electron mass ratio; particle properties",
+      "status": "source_recovered_equation_has_unspecified_bridge_term",
+      "worker_refs": [
+        "Satobloc/HsH#411"
+      ],
+      "notes": "The original user equation explicitly contains (1+Delta_bridge). Worker #411's reported raw-B numerical comparison uses 3/(2 B^5) without that factor, so it tests the Delta_bridge=0 special case, not the complete direct equation. Delta_bridge is not numerically specified in this source."
+    },
+    {
+      "id": "SAT-DIRECT-G",
+      "domain": "gravity / coupling",
+      "direct_form": "G/c^4 -> 8 pi ell_f^2",
+      "standard_map": "Newtonian gravity; GR; dimensional constants",
+      "status": "source_recovered_units_and_convention_unresolved",
+      "notes": "Do not infer a standard identity without the unit system, tensor normalization, and dimensional definitions of ell_f and G/c^4."
+    },
+    {
+      "id": "SAT-DIRECT-CP",
+      "domain": "quark flavour / CP violation",
+      "direct_form": "delta_CP = 270 degrees (exact)",
+      "standard_map": "Standard Model; CKM parameterization; CP-violating observables",
+      "status": "source_recovered_convention_comparison_open",
+      "worker_refs": [
+        "Satobloc/HsH#411"
+      ],
+      "notes": "Compare only after fixing CKM parameterization, phase convention and rephasing-invariant observables."
+    },
+    {
+      "id": "SAT-DIRECT-J",
+      "domain": "quark flavour / CP violation",
+      "direct_form": "J_obs = J_eff B^5; J_eff approximately -3.3e-2; J_obs approximately 2.53e-5",
+      "standard_map": "Jarlskog invariant and CKM matrix",
+      "status": "source_recovered_formula_branch_distinct",
+      "worker_refs": [
+        "Satobloc/HsH#411"
+      ],
+      "notes": "Do not silently merge with the separate J_shadow expression in #411; exact source genealogy and definitions need reconciliation."
+    },
+    {
+      "id": "SAT-DIRECT-CKM12",
+      "domain": "quark flavour mixing",
+      "direct_form": "theta_12 = B(1-B^2) approximately 0.2251 rad",
+      "standard_map": "CKM matrix; PDG |V_us| observable",
+      "status": "source_recovered_angle_not_sine",
+      "worker_refs": [
+        "Satobloc/HsH#411"
+      ],
+      "notes": "The direct source explicitly labels theta_12 in radians. Therefore the source-faithful observable comparison is sin(theta_12) against |V_us| in the standard CKM parameterization. Treating the numerical theta_12 itself as |V_us| is a separate reinterpretation, not an equally supported reading of this user message."
+    },
+    {
+      "id": "SAT-DIRECT-CKM23",
+      "domain": "quark flavour mixing",
+      "direct_form": "theta_23 = B^2(1-S) approximately 0.0420",
+      "standard_map": "CKM matrix; |V_cb| parameterization",
+      "status": "source_recovered_unit_convention_not_explicit",
+      "notes": "Called a mixing angle but no explicit rad label in this line; preserve the exact source and record convention as not explicit."
+    },
+    {
+      "id": "SAT-DIRECT-CKM13",
+      "domain": "quark flavour mixing",
+      "direct_form": "theta_13 = B^3 S approximately 0.00356",
+      "standard_map": "CKM matrix; |V_ub| parameterization",
+      "status": "source_recovered_unit_convention_not_explicit",
+      "notes": "Called a mixing angle but no explicit rad label in this line; preserve the exact source and record convention as not explicit."
+    }
+  ],
+  "worker_audits": [
+    {
+      "ref": "Satobloc/HsH#410",
+      "submission_id": "meridian-eq0018-hbar-scale-20261024-001",
+      "live_status": "open issue; report body retrieved",
+      "scope": "ell_f upstream formula and hbar downstream formula",
+      "audit": "Direct Nathan source for the relevant formula is now recovered and its message UUID/time/blob match the issue's provenance citation. Worker reports upstream dimensional failure and downstream numerical mismatch. This pass did not rerun code or verify its output. Preserve as reported worker result pending independent reproduction."
+    },
+    {
+      "ref": "Satobloc/HsH#411",
+      "submission_id": "mercer-ckm-observable-type-20261024t21z-001",
+      "live_status": "open issue; report body retrieved",
+      "scope": "proton/electron mass ratio and CKM observables",
+      "audit": "Original Nathan message explicitly defines theta12 in radians and includes Delta_bridge in the mass-ratio equation. The report's angle-versus-sine branch should therefore be asymmetric: sin(theta12) is the source-faithful CKM |Vus| comparison; theta12-as-|Vus| is a separate reinterpretation. The report's raw mass comparison omits Delta_bridge and is only the zero-bridge special case. J_shadow and J_obs are distinct source forms until provenance and definitions are reconciled. No calculations rerun."
+    },
+    {
+      "ref": "Satobloc/HsH#424",
+      "submission_id": "morrow-whirlygig-ns-endpoint-20261025t01z-001",
+      "live_status": "open issue; report body retrieved",
+      "scope": "Whirligig field and unforced Navier-Stokes endpoint residual",
+      "audit": "The report uses dimensionless/synthetic torus fields and chosen epsilon, nu values, not a measured physical system. No Nathan permission for a data-free calculation is evidenced in the issue body. Do not use reported numerical values as physical evidence; chronology against the 2026-10-25 permission gate remains to be checked."
+    },
+    {
+      "ref": "Satobloc/HsH#418",
+      "live_status": "open issue; report body retrieved",
+      "scope": "lattice group-speed and microcausality",
+      "audit": "Report includes arbitrary model parameters and synthetic wavevector samples; no measured physical system or prior permission is evidenced in the issue body. Retain its internal model claims separately; do not treat as empirical physics or independently verified here."
+    },
+    {
+      "ref": "Satobloc/HsH#430",
+      "submission_id": "loom-20261024-2224-ui-horizontal-holonomy-001",
+      "live_status": "open issue; report body retrieved",
+      "scope": "SO(4) minimum-rotation lift and frame holonomy",
+      "audit": "Explicit unit-radius, chosen-angle synthetic loop and arbitrary stabilizer gamma; no measured physical system or prior permission is evidenced in the issue body. Its geometry is a comparator, not a physical worldtube prediction. Do not re-execute without checking permission."
+    },
+    {
+      "ref": "Satobloc/HsH#433",
+      "submission_id": "orson-helix-native-slice-20261025t02z-001",
+      "live_status": "open issue; report body retrieved",
+      "scope": "native Euclidean helix and finite-core slice",
+      "audit": "Report uses illustrative A=10 and epsilon=0.1 Planck lengths; no measured physical system or prior permission is evidenced in the issue body. Retain the reported geometry as unverified worker work; not physical evidence. Do not re-execute without checking permission."
+    }
+  ],
+  "protocol": {
+    "bedrock": "BEDROCK.md ND-2026-10-25-01",
+    "mersearch": "No fresh Mersearch run: all four lanes were occupied. Source retrieval for the cited raw.json message used the issue's exact path/locator and independent blob readback; this is not a substitute for a broad Mersearch search.",
+    "calculation_policy": "No calculations or re-execution performed in this crosswalk. Synthetic worker calculations are flagged for prior-permission chronology review, not presumed authorized or automatically declared violations.",
+    "physical_status": "No SAT/H(s)H construction candidacy or physical validation asserted."
+  }
+}
