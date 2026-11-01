@@ -65,7 +65,7 @@ def endToEndDeliveryVerified (r : ReceiptEvidenceAxes) : Prop :=
 
 theorem observed0700_repository_evidence_verified :
     repositoryEvidenceVerified observed0700 := by
-  decide
+  simp [repositoryEvidenceVerified, observed0700]
 
 theorem observed0700_historical_chat_delivery_unavailable :
     observed0700.historicalChatDelivery = .unavailable := rfl
