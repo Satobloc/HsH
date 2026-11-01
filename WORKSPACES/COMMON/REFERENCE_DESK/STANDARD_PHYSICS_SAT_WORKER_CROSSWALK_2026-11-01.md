@@ -65,3 +65,8 @@ These are map destinations, not demonstrated equivalences. The standard observab
 ## 2026-11-01 CKM source-faithful numerical audit
 
 A source-faithful comparison is now recorded in [the dedicated CKM audit](STANDARD_PHYSICS_CKM_SOURCE_FAITHFUL_AUDIT_2026-11-01.md), with executed Python script and JSON output. Because the direct user message explicitly calls θ12 an angle in radians, compare sin(θ12) to PDG sin θ12: 0.223229475433 versus 0.22517 ± 0.00068 (−2.8537 one-sided reference σ). With the source's approximate S=0.2621, sin θ23 gives +0.1887σ and sin θ13 gives −2.3716σ against PDG 2026 global-fit values. These are not combined significance or validation; S uncertainty/covariance are unavailable and PDG values are global-fit parameters. The source's J_obs sign inconsistency is retained unresolved.
+
+
+## 2026-11-01 EQ-0018 real-data reproduction
+
+[Independent EQ-0018 reproduction](STANDARD_PHYSICS_EQ0018_REAL_DATA_AUDIT_2026-11-01.md) now records a Python reproduction using the measured ³He⁺ hyperfine splitting and NIST 2022 CODATA constants. The upstream scale expression's numeric coordinate is 4.091868697466030e-11 in SI base-unit evaluation, but its dimension is M^(1/3)L T^(-1/3), **not length**; it must not be called metres or femtometres. The later archived ℏ relation gives 5.721992811678646e-35 J s versus exact-SI 1.054571817646156e-34 J s (relative residual −0.457410797830). Numerical reproduction PASS; upstream dimensions FAIL; downstream numeric agreement FAIL; no statistical pull because m0 and ell_f uncertainties are absent. The downstream relation is in MAY_2026_SNAPSHOT.txt, not the recovered direct user message.
