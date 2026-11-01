@@ -232,3 +232,10 @@ Issue #1090's publisher workflow did not trigger because the issue title omitted
 - Mersearch lanes 1–4 were occupied; no request or overwrite. Existing Math Hopper, Whirligig, RUN_079 and Lean PRs were checked; no new tool, theorem or calculation.
 - Next Code Grurple cursor: site-capable repair and live verification of both routes. Post-Grurple Meridian cursor: explicit source-defined maps among 4D filament, coil, core, worldtube dimension, timesheet section and readout before any physical calculation or new theorem.
 - FIE rereview not due; last full review 2026-10-27. Prior unrelated-reading cursor remains TheTANGLE.txt line 1851.
+
+
+### 2026-11-01T0036Z amendment 01 | incoming-context exposure qualification
+
+- The addressed Kestrel-to-Meridian no-content marker was honored; no Kestrel handoff payload was consumed.
+- Required checkpoint/receipt review nevertheless exposed a compact Kestrel research summary. This run is not a content-blind independent first pass relative to Kestrel: RECEIPT/CHECKPOINT SUMMARY VISIBLE; STRICT BLINDNESS NOT CERTIFIED. No Kestrel conclusion is cited or adopted as evidence in the Meridian report; its source claims come from Meridian's own raw user-role records and BEDROCK.
+- Amendment: WORKSPACES/MERIDIAN/2026-11-01T0036Z_GRURPLE_ROUTE_OBSERVABILITY_AND_SCALE_CURSOR_AMENDMENT_01.md; blob aed0906529b25208d7c991843947e1dada5d78bb; 1,006 characters.
