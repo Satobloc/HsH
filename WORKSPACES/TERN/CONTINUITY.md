@@ -432,3 +432,14 @@ Mersearch state: lane 1 Orson cognition search has verified compact output; lane
 At intake the same-hour :00 Enheduanna predecessor was still in progress and its addressed packet was absent; classify MISSING_OR_IN_FLIGHT, not nonresponse. Unrelated reading gap-fill: HSH_RESOURCES historical astronomy/Jacoby text, lines 292–352; later Tern receipt separately read 353–412, so highest sequential cursor remains 413. FIE last reviewed Oct 27; rereview not due. No physical calculation, new Lean theorem, new software, theory promotion or cross-chat delivery.
 
 Next: Morrow h481:s2. Optional control-plane context only; preserve Morrow's archive-provenance remit, theory freeze and training boundary. No physics assignment.
+
+## 2026-11-01T1124Z — Comptroller source and scheduler reconciliation
+
+- Direct Nathan Comptroller authority is now source-recovered by 2026-09-23 in Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, blob `df9c7a1fbddaa523f0b69cced8d761433490a454`; messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`. The historical `Space Shuttle Roderick — Tern` conversation `6ab6609c-3e8c-83ea-b262-627322737cb3` was recovered in two versioned snapshots (34 and 26 user messages); Nathan's Oct 11-17 messages establish the five-task ceiling, revival/rotation, next-worker handoff, existing-tool reuse, robust not-found fallback and asynchronous publication discipline.
+- Source correction: the continuity's earlier 2026-09-19 establishment date remains unverified; direct role evidence recovered here establishes it by 2026-09-23. The “one object + one operation + one durable result + one next cursor” wording remains assistant-authored operating synthesis absent a direct Nathan source.
+- Detailed report: `WORKSPACES/TERN/2026-11-01T1124Z_COMPTROLLER_SOURCE_AND_SCHEDULER_RECONCILIATION.md`, blob `e4546797bf6c5e0bd941774d492d2fafd1cbf527`; amendment 01 corrects the next run key to `REVROT3-19-20261011:515:s3`.
+- Targeted Mersearch request `tern-comptroller-original-user-charter-targeted-20261101-1124` is `SUBMITTED_NOT_VERIFIED`; do not duplicate or overwrite.
+- Scheduler readback anomaly: :00 run ID `bb3641e4-0cf8-8332-bb79-8cceba5ee856` returned conflicting start/status snapshots; preserve as mutable/retry/inconsistent state, not a terminal failure. Four fixed Workshop Relay tasks remain enabled; existing :12 remains disabled; no task/ID/phase/cadence changes.
+- Existing h511 PR #824 module build succeeded on a merge reference. The newly created h515 scheduler module is unimported and uncompiled; its first :00 snapshot was superseded by the later conflicting read. Do not import or cite it as verified.
+- FIE last full review 2026-10-27; not due. Unrelated reading cursor: Jacoby, *Astronomer Talks*, next line 733.
+
