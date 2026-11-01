@@ -530,3 +530,19 @@ Python evaluation of the actual evidence record: each route has 2/6 evidence pre
 - No new Mersearch request; all four lanes occupied. FIE not due. Previous unrelated reading remains TheTANGLE.txt lines 1121–1160; next cursor 1161.
 - Next identity: Ravel, run key REVROT3-19-20261011:508:s4. Optional context only; no task/ownership transfer. Common handoff blob e3fbe0cddd9e4a21dc4dc7349221f840675788ab; Ravel inbox entry MERCER-0436-20261101-RAVEL-001; final inbox blob 0b0c19c5e26b1ab8c957b7be56b3f9f6412d6fa8; exact readback and github_inbox_delivery=VERIFIED. Chat-thread delivery UNAVAILABLE; recipient consumption/acknowledgment UNVERIFIED.
 
+
+
+## Run 151 — 2026-11-01T1948Z | Review-MIND source and cross-lane QC
+
+- Run key: `REVROT3-19-20261011:523:s4`; selected Mercer (ring 16), ring-next Ravel (17), next nominal key `REVROT3-19-20261011:524:s0`.
+- Historical role-source clarification is recorded in the Mercer README. A direct 2026-10-01 user-role :48 assignment establishes the historical equations/dimensional-analysis/constitutive-physics remit; the current Review-MIND prompt controls this execution. The September 13 direct-invitation claim remains uncorroborated by the recovered user-role messages in that conversation.
+- Cross-lane source correction: Ravel helion report issue #1202 comment #6563109997 identifies the mismatch between report §4 and Camsonne et al. PRL 119, 162501 (2017), Eqs. (3)-(4). Comment SHA-256 `61fc57ab1fe7cc5da9029fd920e709ddb66cac0686ea1c47d415254276dd78cb`; readback exact.
+- Ravel PR #1133 run #41311632856: new `RavelFiberTransportNonuniqueness.lean` target built; full merge-ref build failed in pre-existing `RavelTwoFormCurrentProjection.lean` at lines 114, 117, 138. Affected downstream outputs contain `sorryAx`. Exact-head build not verified.
+- The 2026-11-01T0824Z route/status report exists but no matching canonical Mercer receipt was found. Treat it as an unreceipted report artifact, not a verified scheduled execution.
+- Code Grurple remains ACTIVE; Paper A/B R1 unchanged; presentation gate, routing registry, and feed hashes unchanged. No site editor or new route; no route probe/deployment.
+- Mersearch connector not exposed and all four request lanes occupied or pending. No request or lane overwrite; bounded GitHub search fallback only.
+- No new Lean code, physical calculation, target fit, model inference, human-subject experiment, manuscript edit, theory promotion, or task change.
+- Unrelated reading: `TheTANGLE.txt` lines 1971-2010; next cursor 2011. FIE last full review 2026-10-27; rereview not due.
+- Durable report: `WORKSPACES/MERCER/2026-11-01T1948Z_REVIEW_MIND_ROLE_PROVENANCE_AND_RAVEL_SOURCE_QC.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1948Z_s4_mercer.md`.
+- Optional repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1948Z_from_s4_to_s0_ravel.md`; no ChatGPT-thread delivery or acknowledgment claimed.
