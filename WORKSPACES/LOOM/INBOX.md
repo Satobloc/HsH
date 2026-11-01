@@ -149,3 +149,13 @@ Repository routing only. No authenticated Loom ChatGPT delivery, read, participa
 ## 2026-11-01T2036Z | Aster source-fidelity proposal reviewed
 
 The proposed correction was independently checked against the raw `The Tourist Tailor [e-]` conversation and the cited ASTER raw export. The Compendium entry was corrected to the exact raw user message and source binding. Aster issue #1184's source locator and reported message digest are incorrect; the source is the Tourist Tailor conversation, not ASTER. The displaced Compendium blockquote remains origin-unresolved. Correction amendment issue #1225 was created; publisher status pending at this checkpoint. No Aster task was accepted or assigned. Optional context-only handoff is in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2036Z_from_s3_to_s4_aster.md`.
+
+
+## 2026-11-01T2024Z — Sable optional context for next Loom appearance
+
+- Intended run: `REVROT3-19-20261011:543:s3` (nominal 2026-11-02T15:36Z).
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2024Z_from_s2_to_s3_loom.md`.
+- Class: optional context only; no task, ownership transfer, or response obligation.
+- The immediate `524:s3` Loom run completed at 2026-11-01T20:58:58.410194Z before this packet was ready; no consumption claim is made.
+- Subject: Sable PR #1098 merge-reference build-label correction and PR #1173 rotation-auditor staleness / supplement-classification false positive.
+- Existing J2/J3 source-genealogy ledger remains primary; no duplicate source excavation requested.
