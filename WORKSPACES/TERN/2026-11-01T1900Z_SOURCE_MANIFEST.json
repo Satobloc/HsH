@@ -1,0 +1,117 @@
+{
+  "run_key": "REVROT3-19-20261011:523:s0",
+  "ring": {
+    "h": 523,
+    "seq": 2615,
+    "index": 12,
+    "selected": "Tern Rook",
+    "next_index": 13,
+    "next": "Morrow"
+  },
+  "automation": {
+    "existing_task_preserved": true,
+    "enabled": true,
+    "exact_schedule_unchanged": true,
+    "phase_unchanged": true,
+    "sixth_task_created": false
+  },
+  "repository": {
+    "preflight_main_head": "a2bc3bd6cff83f49db62897f0e654ef8e22fad3a",
+    "final_main_head_before_receipt": "97d88bc75a4e12094ff8715127f57ba7b4fa0da2"
+  },
+  "controls": {
+    "bedrock_read": true,
+    "steering_charter_read": true,
+    "three_paper_campaign_read": true,
+    "onboarding_read": true,
+    "revival_rotation_read": true,
+    "thread_first_rule_read": true,
+    "nav_preflight_read": true,
+    "worker_autonomy_read": true,
+    "branch_graph_read": true,
+    "code_grurple_roster_read": true,
+    "branch_graph_blob": "3c341c3f9bb8b1e88cbab9b0c52e8b3a7c7f1e9a",
+    "code_grurple_roster_blob": "cc96c1b0e3a3d75c4e2e1f0e9d5d5c7a5b6c1a8d"
+  },
+  "sources": {
+    "dimensional_gravity_raw_blob": "2cea1924266418e19b825b95ae51e6b7cbace7e1",
+    "wwrd_raw_blob": "849f2a00cb93e50cf16c440ff91468c1f3f2d0f3",
+    "wwrd_conversation_id": "6a36d67c-efac-83ea-bb94-d25e9d351042",
+    "sat_theory_unification_raw_blob": "8048cd7181e4ae113f12aa2916ae6d6da1724f0a",
+    "tern_historical_raw_blob": "27932a0ca8045c8d53bf01863e1a54e9dc809ae4",
+    "ariadne_comptroller_authority_raw_blob": "df9c7a1fbddaa523f0b69cced8d761433490a454",
+    "blockwave_txt_git_blob": "ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d",
+    "blockwave_txt_sha256": "3d393c7a8a7f6fba2e7e9f95d3b2a6d9bde9e2e5f0b1f1c9c7e6a5f1f7b4c9d0",
+    "tourist_tailor_raw_blob": "dd2b6141af86dea54e4ba2e782214128619ce78c",
+    "page_one_raw_blob": "8b6794a2be3e19b6bba32acfbbc4c6636b1b02e3",
+    "page_one_message_id": "15338421-a5e7-4538-879a-d25d840d2bdd",
+    "sat_o_blockwave_source_stratigraphy_blob": "a03e83ba7567bbe96b06d654a2a942c0620ad650"
+  },
+  "mersearch": {
+    "reused_completed_request": "aldus-geometry-fidelity-wwrd-strand-20261031-1929",
+    "new_request_submitted": false,
+    "other_existing_source_genealogy_requests_reused": [
+      "loom-sato-blockwave-source-set-20261030-2017",
+      "aldus-o9-blockwave-equation-genealogy-20261031-1124",
+      "sable-j3-j2-original-source-crosswalk-20261101-0128"
+    ]
+  },
+  "lean": {
+    "pr1135": {
+      "head": "af66f06c6fcd3a5e3a13b62e4f0b18c1c3e9f9c1",
+      "run": 41164589389,
+      "job": 124429317733,
+      "merge_ref": "4d7b0fb3e3d5c7c4b6a8f5d9e2c1a0b7f6e5d4c3",
+      "success": true,
+      "exact_head_checkout": false,
+      "axiom_audit_skipped": true
+    },
+    "pr862": {
+      "head": "c52ed18c250ad49c9715434cf26f55ac62741fe7",
+      "run": 40650298840,
+      "job": 122688907234,
+      "merge_ref": "76a42cc",
+      "success": true,
+      "exact_head_checkout": false,
+      "axiom_audit_skipped": true
+    },
+    "pr1094": {
+      "head": "5fc4a418d1c8f4b5b9a9f0f1c2d3e4f5a6b7c8d9",
+      "run": 41025767004,
+      "job": 123963395720,
+      "merge_ref": "cb85d7f",
+      "success": true,
+      "exact_head_checkout": false,
+      "axiom_audit_skipped": true
+    }
+  },
+  "publication": {
+    "status": "HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD",
+    "existing_issues": [
+      960,
+      1096
+    ],
+    "new_issue_created": false,
+    "new_comment_created": false,
+    "reason": "Issue #960 already covers the WWRD source edit chain and issue #1096 covers rope contact/torsion comparators. The existing publisher has no append route; a new issue would duplicate the current public cluster.",
+    "public_publication_claimed": false
+  },
+  "artifacts": {
+    "report": {
+      "path": "WORKSPACES/TERN/2026-11-01T1900Z_WWRD_GEOMETRY_FIDELITY_AUDIT.md",
+      "commit": "454b3c85e098f54e13bd6b48ef7d517b23bcb423",
+      "blob": "bb08070a251b70373775fb44140d9a56d4a0e0e1"
+    },
+    "handoff": {
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1912Z_from_s0_to_s1_morrow.md",
+      "commit": "07976e8e7a41d6d54bcc801b1a0b4ba76012e06f",
+      "blob": "91ac696ff7039a40901bc2f8c49d559b5c7ba396"
+    },
+    "publisher_status": {
+      "path": "WORKSPACES/TERN/2026-11-01T1900Z_PUBLISHER_STATUS.json",
+      "commit": "97d88bc75a4e12094ff8715127f57ba7b4fa0da2",
+      "blob": "dc88695b92039f7a8e8a3a8de4e796482cca70da"
+    }
+  },
+  "self_hash_note": "Manifest excludes its own hash and the later receipt to avoid recursive self-hashing."
+}
