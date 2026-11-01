@@ -162,14 +162,17 @@ theorem rationalFilterFactor_norm_one
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
-  simp only [norm_mul, norm_div, norm_sub_conj_eq, norm_add_conj_eq]
-  have hminusNorm :
-      ‖(x : ℂ) - star z‖ ≠ 0 :=
-    (norm_pos_iff.mpr hminus).ne'
-  have hplusNorm :
-      ‖(x : ℂ) + z‖ ≠ 0 :=
-    (norm_pos_iff.mpr hplus).ne'
-  simp [hminusNorm, hplusNorm]
+  simp only [norm_mul, norm_div]
+  have hfirst :
+      ‖(x : ℂ) - z‖ / ‖(x : ℂ) - star z‖ = 1 := by
+    rw [norm_sub_conj_eq]
+    exact div_self ((norm_pos_iff.mpr hminus).ne')
+  have hsecond :
+      ‖(x : ℂ) + star z‖ / ‖(x : ℂ) + z‖ = 1 := by
+    rw [norm_add_conj_eq]
+    exact div_self ((norm_pos_iff.mpr hplus).ne')
+  rw [hfirst, hsecond]
+  norm_num
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
@@ -328,14 +331,11 @@ theorem firstEchoAmplitude_injective_horizonPlus
     apply hcoeff
     calc
       Rsurf * phase * sigma * tBH = 0 := by rw [hz]; simp
-  have heq' :
-      Rsurf * phase * (Rbh * Zinf + sigma * tBH * z1) =
-        Rsurf * phase * (Rbh * Zinf + sigma * tBH * z2) := by
-    simpa [firstEchoAmplitude] using heq
+  dsimp [firstEchoAmplitude] at heq
   have hinner :
       Rbh * Zinf + sigma * tBH * z1 =
         Rbh * Zinf + sigma * tBH * z2 :=
-    mul_left_cancel₀ houter heq'
+    mul_left_cancel₀ houter heq
   have hplus : sigma * tBH * z1 = sigma * tBH * z2 :=
     add_left_cancel hinner
   have htransfer : sigma * tBH ≠ 0 := by
@@ -347,10 +347,21 @@ theorem firstEchoAmplitude_injective_horizonPlus
       _ = 0 := by rw [hz]; simp
   exact mul_left_cancel₀ htransfer hplus
 
+/-- The first-echo map is invariant under a nonzero channel displacement
+    along its algebraic null direction. This is a property of the source
+    equation, not a statement that the physical source channels are independent. -/
+theorem firstEchoChannels_shift_invariant
+    (Rsurf phase Rbh sigma tBH Zinf ZHplus : ℂ) :
+    firstEchoChannels Rsurf phase Rbh sigma tBH
+        (Zinf + sigma * tBH, ZHplus - Rbh) =
+      firstEchoChannels Rsurf phase Rbh sigma tBH (Zinf, ZHplus) := by
+  dsimp [firstEchoChannels, firstEchoAmplitude]
+  ring
+
 /-- If both source channels are free, one complex first-echo amplitude does
-    not identify their ordered pair. The displayed cancellation changes the
-    channel pair while preserving the echo. A source relation or an additional
-    independent observable is therefore required for joint identification. -/
+    not identify their ordered pair, even when the horizon transfer coefficient
+    is nonzero. A source relation or another independent observable is needed
+    for joint identification. -/
 theorem firstEchoChannels_not_injective
     (Rsurf phase Rbh sigma tBH : ℂ)
     (htransfer : sigma * tBH ≠ 0) :
@@ -360,12 +371,14 @@ theorem firstEchoChannels_not_injective
   let p1 : ℂ × ℂ := (sigma * tBH, -Rbh)
   have hneq : p0 ≠ p1 := by
     intro h
-    have hfst : (0 : ℂ) = sigma * tBH := congrArg Prod.fst h
+    have hfst : (0 : ℂ) = sigma * tBH := by
+      simpa [p0, p1] using congrArg Prod.fst h
     exact htransfer hfst.symm
   have heq :
       firstEchoChannels Rsurf phase Rbh sigma tBH p0 =
         firstEchoChannels Rsurf phase Rbh sigma tBH p1 := by
-    simp [firstEchoChannels, firstEchoAmplitude, p0, p1] <;> ring
+    simpa [p0, p1] using
+      (firstEchoChannels_shift_invariant Rsurf phase Rbh sigma tBH 0 0).symm
   exact hneq (hinj heq)
 
 #eval ((59 : Rat) / 1000) ^ 2
@@ -383,6 +396,7 @@ theorem firstEchoChannels_not_injective
 #print axioms reported_reflectivity_energy_below_0_4_percent
 #print axioms firstEchoAmplitude_split
 #print axioms firstEchoAmplitude_injective_horizonPlus
+#print axioms firstEchoChannels_shift_invariant
 #print axioms firstEchoChannels_not_injective
 
 end
