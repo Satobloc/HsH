@@ -59,3 +59,10 @@ Morrow owns conversation-family continuity/context recovery; Mercer should compl
 - `CONVERSATION_VIEWER/data/conversations.json` — current verified Viewer catalog path; do not use the superseded `CONVERSATION_VIEWER/catalog/conversations.json` route.
 - `indexes/`
 - Nathan Dashboard in the original archive
+
+
+## Role-source clarification (2026-11-01)
+
+A direct Nathan user-role assignment dated 2026-10-01 establishes the historical :48 Mercer remit as equations, dimensional analysis, constitutive physics, coarse-graining, forces, and quantitative consequences, with source/invention separation and no target-fitting. The active :48 prompt assigns Review-MIND for the present execution; this is the current lane instruction, not evidence of an authenticated historical Mercer instance.
+
+The earlier 2026-09-13 direct-invitation claim appears in an assistant-authored workflow-control record. The recovered user-role messages in that conversation authorize general duty division and corpus work but do not themselves name Mercer. Treat the specific September 13 Mercer invitation as reported but not independently corroborated by those recovered user-role messages. Do not back-project assistant-authored text as Nathan Direct.
