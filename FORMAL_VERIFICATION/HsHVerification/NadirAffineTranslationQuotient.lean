@@ -275,7 +275,7 @@ theorem frobeniusSqEntries_eq_trace (A : Mat4) :
     frobeniusSqEntries A = frobeniusSqTrace A := by
   classical
   unfold frobeniusSqEntries frobeniusSqTrace
-  rw [← Finset.univ_product_univ, Finset.sum_product']
+  rw [← Finset.univ_product_univ, Finset.sum_product]
   simp only [Matrix.trace, Matrix.diag_apply, Matrix.mul_apply,
     Matrix.transpose_apply, pow_two]
   exact (Finset.sum_comm (fun i j : Fin 4 => A j i * A j i)).symm
