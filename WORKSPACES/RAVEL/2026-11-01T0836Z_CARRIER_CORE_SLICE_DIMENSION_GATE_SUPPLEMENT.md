@@ -21,6 +21,22 @@ Raw text-extraction blob: `2a79fe25018cce7e99a2c33786d88b0551db6ae7`. The docume
 
 Raw conversation blob: `7af1561b321f4d9364da5eb111df689efc652827`. Direct statements distinguish one helical core from a hollow outer winding, describe a “4D filament” and a “3D intersectional trace,” and describe the timesheet as an interacting 3D bulk rather than a passive readout. The same source keeps intrinsic core thickness `epsilon`, first-order coil radius `ell_f`, and the worldtube axis-to-circumference dimension distinct.
 
+### D. September 2026 Nathan Direct Ravel source: spatial Kerr section, not 4D Kerr as a cross-section
+
+The raw-user-verified batch \`WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-05.md\` preserves Nathan's September 7 statements from the original Ravel conversation. Nathan first describes a four-dimensional worldtube extension with a Kerr cross-section, then corrects the dimensional reading: Kerr is itself a 4D spacetime solution, so the intended construction must choose a **spatial Kerr section** and extend that section along the filament. The full 4D Kerr spacetime is not to be used as the cross-section of another 4D object.
+
+A candidate typed construction is therefore:
+
+\[
+\gamma^1 \longrightarrow W^4 \longrightarrow M^4,
+\qquad
+K^3_{\mathrm{spatial}}\ \text{as a 3D fiber over the 1D filament}.
+\]
+
+For a locally trivial smooth bundle, the dimension count is \(1+3=4\). Using a full 4D Kerr spacetime as the fiber over a 1D filament would instead give a 5D total space, inconsistent with a 4D worldtube. This is a dimensional consistency condition on that candidate construction, not proof that the bundle or embedding exists. The exact Kerr spatial slice, bundle projection, fiber transport/connection, embedding into the ambient space, and relation to the finite core remain unspecified.
+
+The same direct source states that force is primitive and that filament and timesheet must mutually accommodate/distort in response. Thus the eventual response map \(R_t\) must be a coupled interaction law, not a passive projection. It also assigns rest mass only to persistent coil. The historical f-boson/t-boson grammar remains provisional and is not promoted here.
+
 The later phrase “4D filament” is **not silently identified** with the earlier 1D SAT.O filament, the 4D worldtube volume, or a 4D intrinsic support. The source does not supply the map that would settle that identity.
 
 The 2024 `DIMENSIONAL GRAVITY` construction (raw conversation blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`) remains an explicitly heuristic line/plane and moving-wavefront construction, not a physical derivation or ontology.
@@ -140,6 +156,7 @@ Actions runs: `41292061092` (cancelled before compile), `41292069239` (job `1248
 | Intrinsic 4D carrier | Internal-core structure or enlarged ambient; no normal directions in the same 4D ambient | 3D carrier/timesheet intersection | Standard full-dimensional support | Claiming nonzero normal thickening inside the same 4D ambient |
 | General (k)-dimensional carrier | Explicit (k), embedding, normal complement and transversality | (k-1) | Standard transverse-intersection dimension | Stated slice dimension contradicts (k-1) while transversality is retained |
 | Tube-to-carrier slice projection | Retraction plus explicit sheet reparameterization and `preservesSlice` proof | Induced carrier-slice map only if compatible | Ordinary bundle projection without a slice constraint | No map can be constructed from the supplied data |
+| Kerr spatial-section bundle candidate | 1D filament base; 3D spatial Kerr section as fiber; bundle projection, fiber transport and ambient embedding | 4D worldtube; 3D timesheet slice expected | Standard 1D worldline plus 3D finite-size spatial section | Full 4D Kerr spacetime used as fiber gives a 5D total space, not a 4D worldtube; missing bundle/embedding map |
 | Physical EM response | Source-defined (R_t), current normalization/conservation, observer projection and shared parameters for (F_C,F_M) | Electric and magnetic channels from one frozen construction | Same standard nuclear-current/MEC comparator and same calibration/holdout | Independent channel shape functions, missing current law, or holdout outside a preregistered predictive region |
 
 This is a structural acceptance/falsification matrix, not a scored physical experiment. The existing helion holdout remains **NOT SCOREABLE** until the source-defined thickening/sweep and (R_t) maps are supplied and the full cross-section covariance/normalization data are recovered. No new physical calculation, fit, or prediction was made.
