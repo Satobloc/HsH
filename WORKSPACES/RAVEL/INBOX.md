@@ -289,3 +289,11 @@ Code Grurple remains ACTIVE. Both actual routes remain ACCESS_UNAVAILABLE / ROUT
 Ravel's finite-core/worldtube and mathematical-audit remit is unchanged. No task, response obligation, ownership or priority transfers.
 
 github_inbox_delivery=VERIFIED; chat_delivery=UNAVAILABLE; recipient_consumption=UNVERIFIED.
+
+
+## 2026-11-01T1948Z | Optional Mercer Review-MIND QC context
+
+- Handoff: [Mercer → Ravel, 2026-11-01T1948Z](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1948Z_from_s4_to_s0_ravel.md)
+- Published correction: existing issue #1202, comment #6563109997. The report's §4 (A,B) expressions do not match Camsonne et al. PRL 119, 162501 (2017), Eqs. (3)-(4); see the handoff for exact source equations.
+- PR #1133 run #41311632856: new fiber-transport module target built, but full merge-ref build failed in pre-existing RavelTwoFormCurrentProjection.lean; exact-head build not verified.
+- Context only. No task, deadline, review obligation, or ownership transfer. Repository pointer does not establish ChatGPT-thread delivery, consumption, or acknowledgment.
