@@ -4,7 +4,7 @@
 **Nominal slot:** 2026-11-01 22:00 UTC  
 **Deterministic ring label:** Hale (index 8)  
 **Next ring label:** Elias Kern (index 9)  
-**Disposition:** SOURCE_FIDELITY_ADDENDUM_COMPLETE / NANGUOTO_NOT_SAT / FILAMENT_WORLDsheet_MAP_UNRESOLVED / EXISTING_LEAN_SPECIAL_CASES_REVIEWED / NO_NEW_PHYSICAL_CALCULATION / NO_THEORY_PROMOTION
+**Disposition:** SOURCE_FIDELITY_ADDENDUM_COMPLETE / NAMBU_GOTO_NOT_SAT / FILAMENT_WORLDSHEET_MAP_UNRESOLVED / EXISTING_LEAN_SPECIAL_CASES_REVIEWED / NO_NEW_PHYSICAL_CALCULATION / NO_THEORY_PROMOTION
 
 ## 1. Executive finding
 
@@ -83,9 +83,32 @@ The raw export was parsed programmatically. Role, UUID, timestamp, and adjacent 
 | d9f73767-798e-4905-b152-fa1a91733f87 | 2026-10-20 19:22:44.819Z | Near-duplicate follow-up adds that the structure has nodes. |
 | a09ef2e9-f9b4-426d-add2-0696e65accde | 2026-10-20 19:24:34.433Z | Corrects the assistant: the rotation/oscillation relation is a geometrical tautology in Minkowski, not an extra SAT mechanism. |
 | 6792d48a-35b3-4bec-97d1-2acda4c62c38 | 2026-10-20 19:26:11.492Z | States that if the result follows from Minkowski, it is likely inherited by SAT. This is a direct user statement, but it does not define the needed mapping or action. |
-| 357da9ad-f0ac-44eb-b4b8-36fb4afe8b7b | 2026-10-20 19:29:27.775Z | Repeats that the standard Kerr ring is not a physical string moving around a circular orbit, then adds the incomplete phrase “Yes, but in Minkowski… It is”. The intended completion is ambiguous and is not supplied by the direct message. |
+| 357da9ad-f0ac-44eb-b4b8-36fb4afe8b7b | 2026-10-20 19:29:27.775Z | Begins with quoted assistant text stating that the standard Kerr ring is not a physical string moving around a circular orbit. Nathan's own fragment is “Yes, but in Minkowski… It is”, which is incomplete and ambiguous. The quoted standard-Kerr claim is not Nathan Direct. |
 
-### 3.3 Authorship boundary inside the October 9 message
+### 3.3 2024 geometric baseline
+
+A second raw primary source establishes the earlier local geometry:
+
+- Title: DIMENSIONAL GRAVITY.
+- Conversation ID: 252d05c0-22ed-4ea2-a474-7966ab13145a.
+- Raw export Git blob: 2cea1924266418e19b825b95ae51e6b7cbace7e1.
+
+Relevant Nathan Direct messages:
+
+| Message UUID | UTC timestamp | Geometric content |
+|---|---|---|
+| aaa28bd9-07f7-4740-b878-b485d4db44d0 | 2024-03-22 15:10:05.407Z | A straight line and a helical line wrap in a local 3D construction; a perpendicular plane intersects each. |
+| aaa2269b-7eab-4781-9454-647098d6747f | 2024-03-22 15:20:20.623Z | The static line/plane intersections are single points, not a spiral trace. |
+| aaa2d0b1-017d-453e-b95a-b23915f87d32 | 2024-03-22 15:29:30.774Z | As the plane moves, the helix intersection point traces a circular locus. |
+| aaa2a1cc-e884-4f6a-800f-8afc29ab221a | 2024-03-22 15:35:10.461Z | The circular-locus radius depends on the helix's radial offset, not its pitch; pitch affects phase/speed. |
+| aaa2a868-90fa-439f-9d9d-4cf95519ab91 | 2024-03-22 16:57:54.242Z | The construction is lifted one dimension: strings extend in four dimensions and a three-dimensional time surface intersects them. |
+| aaa28a9a-dcfc-4835-8359-e7da7b36911c | 2024-03-22 17:07:55.781Z | “Now” is described as the current point of intersection, analogous to a propagating wavefront. |
+| aaa26726-1c19-4da5-814b-400288b86382 | 2024-03-22 17:55:36.202Z | Spherical expansion is introduced as a simplifying assumption, not a mandatory geometry. |
+| aaa26f3d-e831-49cd-976e-a85c5e3b749d | 2024-03-23 03:44:26.423Z | The construction is explicitly described as heuristic abstraction, not an assertion of true physical ontology. |
+
+This early model is a local affine geometry: a one-dimensional curve intersects a two-dimensional plane at a point, and the moving intersection traces a circular locus. Its four-dimensional lift uses a three-dimensional time surface. The later October 9 description of a 3D intersectional trace of a 4D second-order filament is not automatically the same object. It may represent a later extended-manifold construction, but the archive has not supplied the map. The current BEDROCK's warning not to force an early one-dimensional centerline onto later extended-manifold language is therefore material.
+
+### 3.4 Authorship boundary inside the October 9 message
 
 The raw user message 5a929b5e begins with a quoted assistant block. The quoted phrase “No elastic modulus, no invented filament tension, no microscopic spring constant” is assistant text, not Nathan Direct.
 
@@ -184,6 +207,16 @@ The correct status is:
 - A Kerr-like SAT finite-core structure with oscillating intrinsic diameter: conjecture requiring a source-complete map and dynamics.
 - Standard stationary Kerr ring: not a material hoop with constituent points traversing a circular orbit.
 - Nambu-Goto worldsheet: external comparator, not a SAT derivation.
+
+### 4.6 Adjacent authored documents and dimensional controls
+
+Three adjacent artifacts were checked because the raw October 9 conversation references a normalization paper and a Caliper-produced how-to.
+
+1. **SAT_HowTo_AnalogueToCalibration.tex**: 383 lines, blob 57d249bb6eb2bbd8c4585fe5bb74e523877e1db1. This is an assistant/Caliper method note, not a raw Nathan Direct equation source. It uses a parent centerline, transported frame, transverse radius, and phase to create an analogue-to-calibration workflow. It explicitly describes itself as a method note, not evidence that a physical model is validated. Its parent centerline is compatible with Nathan's correction only as a removable mathematical scaffold.
+2. **geometry_engine.py**: 126 lines, blob 902b7dfb10647b5f19bd0bb4997b1bcafe52b104. It uses three-component vectors and 3D cross products. It is a 3D rendering/analogue engine, not a 4D worldtube or time-bulk solver.
+3. **DIMENSIONAL_NORMALIZATION.tex**: 1,455 lines, blob 52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1. It is authored by Nathan McKnight and Janus C. Sol, dated September 9, 2026, and uses the historical Minkowski normalization w=ct. Its own scope is dimensional normalization and residual auditing, not a new physical ontology. The retrieved TeX does not contain the 50:50 H0+c split mentioned tentatively in the October 9 chat message. This is a separate source issue, not a term to import into the normalization paper.
+
+The later native convention cw=t with positive Euclidean signature ++++ is recorded separately in current BEDROCK. No conversion map from that native convention to the historical w=ct Minkowski control or to the Nambu-Goto 3+1 Minkowski model is supplied here.
 
 ## 5. Glossary and typed mapping diagram
 
