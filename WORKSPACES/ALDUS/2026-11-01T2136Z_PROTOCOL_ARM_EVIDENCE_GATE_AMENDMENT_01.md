@@ -35,7 +35,7 @@ The new module's actual `#eval` outputs were:
 - 0.480508333...
 - 0.545227083...
 
-`x0)-only bounds (N):
+`x0`-only bounds (N):
 - 0.10014375–0.11191575
 - 0.12434175–0.13742175
 - 0.188352–0.204375
