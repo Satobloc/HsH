@@ -3032,8 +3032,17 @@ Tags: NATHAN-DIRECT; APPENDIX-FOOTNOTE; NO-BONUS-CHAPTER-PROMISE.
 
 Tags: NATHAN-DIRECT; TRAIN-TRACK-METAPHOR; 3FORM-EDITORIAL-CHOICE; NARRATIVE-NOT-PHYSICAL-MODEL.
 
-> At this point, we're not even on one of the two tracks. We're in a ditch between them. The train is still on the 2-form track, but we need to lift it bodily onto the proper track: the 3-form track. From here forward, the 3-form is the fundamental object, and the 2-form is just a useful way of looking at it when we need to talk about flux through surfaces. The frontispiece should make that transition clear, and the reader should understand that we're not changing the underlying theory, just the mathematical language.
+> Let’s do the full chapter 5 rewrite. Where it starts off normal, everything is just like the previous chapters… then it hits the fork in the road… but this is a train and we have to choose… we also have to realize we haven’t been riding one of the two tracks… we’re riding parallel side by side tracks…. With our left wheels on the right rail of the left track, and the right wheels on the left track of the right rail. So when that y-split happens…. We can’t just turn down one. We actually have to pick the train up and put it on the track that leads to 3-form. 
 
+Source binding:
+- Conversation: “🪡 The Tourist Tailor [e-]” (`68cad3d4-0ccc-8325-be36-94c5b5527997`).
+- Raw path: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json`.
+- Raw Git blob: `dd2b6141af86dea54e4ba2e782214128619ce78c`.
+- Outer role: `user`; timestamp: `2025-09-18T15:42:49.979981Z`.
+- Raw message: 564 Unicode code points, 584 UTF-8 bytes; SHA-256 `b35d770dc0ef53d851ca82f56b88709b9f943898113805cdd366fd1d56b5f7b2`.
+- Status: `SOURCE_CONTENT_MATCH / EXACT_RAW_USER_TEXT`.
+
+Correction note: the previously attached blockquote beginning “At this point, we're not even on one of the two tracks” is not present in this raw conversation or its adjacent assistant message. It has been removed from the verified quotation. Its origin remains unresolved; it is preserved as unattributed derivative text in the Loom source-identity correction report and is not attributed to Nathan.
 ### 2025-09-18T15:45:17.370656Z | 4847aa08-b38c-4e87-8692-6f22e8c6ab69
 
 Tags: NATHAN-DIRECT; FRONTISPIECE-EDITORIAL-APPROVAL; NOT-MATHEMATICAL-VALIDATION.
