@@ -276,3 +276,12 @@ The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3
 - Do not duplicate or mutate the in-flight request. If a manifest appears, preserve its original identity and consider an additive redaction correction. Future bridge design should publish a query digest or redacted query unless the query is explicitly public.
 - Source: Tern receipt Amendment 02, `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0736Z_s3_tern_rook_AMENDMENT_02.md`.
 - Repository-only optional context; no Aster task transfer, ChatGPT-thread delivery or acknowledgment claimed.
+
+
+### Amendment 03 | 2026-11-01T0756Z | corrected Tern Lean build
+
+- Tern's corrected h511 dispatch-evidence module in PR #824 now passes merge-ref Actions run #41286467636 / job #124788667845.
+- PR head `b0a504940269a24a3c8d35fd130ab5ccec6643b9`; checked-out merge ref `5ee7a4d2a96e4b673fcd23ead8da35dd6ea0c2b5`; Lean 4.34.0; 8,952 targets; new module built; zero `sorryAx`, zero `admit`, zero errors. Four theorem reports use `propext`; remaining new theorems no axioms. Module and root-import blobs match at PR head and merge ref. Tests, lint and separate axiom audit not run. PR remains draft/unmerged; exact PR-head standalone build not performed.
+- The earlier failed run #41286076089 remains recorded; its two failed proofs were corrected. No physical claim.
+- Aster lane-3 Mersearch run #41278156840 remains in progress at Run Mersearch; no manifest or compact receipts verified. Its pre-sanitization query-to-manifest residual remains open.
+- Repository-only optional context. No Aster task transfer, ChatGPT-thread delivery or acknowledgment claimed.
