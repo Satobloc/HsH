@@ -363,3 +363,89 @@ This preserves the distinction between the centerline and its finite core. The p
 1D filament/centerline γ
         |
         |  candidate spatial Kerr section K^3 over γ
+        |  [direct instruction; no bundle map]
+        v
+4D finite-core total space W^4
+        |
+        |  exact transverse intersection with Σ_t^3
+        |  [dimensionally 3D if W is 4D]
+        v
+3D core section W ∩ Σ_t^3
+
+filament state δ_f  <---- coupled response? ---->  timesheet state δ_t
+                           ^
+                           |
+                     force F primitive
+              [direct conceptual statement;
+               no response operator or conservation law]
+
+A, T  ---->  ell_f via (2A/T)^(1/3)
+             [archived equation; units unresolved]
+
+rho_link, ell_f  ---->  g^-2 via rho_link ell_f^2
+                        [archived equation; density measure unresolved]
+
+topological structure  ---->  Q  ---->  m_eff = m0/Q
+                              [Q-to-topology map absent;
+                               displayed Q values are required ratios]
+```
+
+The assistant's \(W_0\simeq\Sigma_{\rm Kerr}\times\mathbb R_\tau\), \(F\mapsto(\delta_f,\delta_t)\), and “conservation” additions are candidate reconstructions, not recovered source equations. No commuting diagram between Kerr section, filament/timesheet response, current, and observable has yet been established.
+
+## 9. Lean 4 / Mathlib verification
+
+Added to existing PR #1133:
+
+`FORMAL_VERIFICATION/HsHVerification/RavelFilamentScaleDimensionAudit.lean`
+
+### First build: dimensional and codimension core
+
+- PR head at that build: `287689f22ab25a4df716ee265840e0f9b0760715`
+- Module blob: `722acb4c53f655f5406b14a200f81b6f57987991`
+- PR-head aggregator blob: `59b478bfcac5399e6d5dfb461a09178dbfbe22ff`
+- Merge-ref aggregator blob: `0414455e1d18f2afaf2cec86bdf1c221995b0a2b`
+- Actions run #41348147460; job #124972309257
+- Merge checkout: `561ee0c661da76d94753257df81d45462fcbb340`, merging PR head `287689f...` into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`
+- Lean 4.34.0; Lake 5.0.0; 8,950 build jobs
+- Build: SUCCESS
+
+The module blob matched the PR head and was compiled. The merge aggregator differs from the PR-head aggregator because the merge base contributes additional imports. This was not an exact-head standalone checkout.
+
+`#eval` actually ran and printed:
+
+- force assignment requires \(A\): \((M,L,\mathsf T)=(1,4,-2)\), i.e. N·m³;
+- force-per-length assignment requires \(A\): \((1,3,-2)\), i.e. N·m²;
+- spatial volume density times \(\ell_f^2\): \(L^{-1}\);
+- spacetime volume density times \(\ell_f^2\): \(L^{-2}\);
+- areal density times \(\ell_f^2\): dimensionless.
+
+The concrete dimension theorems and the centerline/tube codimension compatibility theorem report no axioms. The generic `cube_root_scale_condition` theorem reports `[propext, Classical.choice, Quot.sound]`. This first-build log contains zero `sorryAx` and zero `admit`.
+
+### Additive extension: SI dimension of \(c^4/G\)
+
+A further theorem `c_four_over_G_has_force_dimension` was added to the same existing PR branch:
+
+- New PR head: `d8579403952ca658cf5dd0547e8c181701d18145`
+- New module blob: `0fb4cdb424f436227b5dfcf3de3bed5f403d6253`
+- Actions run #41348936553; job #124974692430
+
+At the latest check, that run was still `in_progress` at the checkout step. Its build result is therefore **SUBMITTED_NOT_VERIFIED**. No compile, axiom, or `sorryAx` claim is made for the new theorem until that run completes.
+
+Tests, lint, nanoda, and the separate automated axiom-audit action were skipped in the successful first build. Lean verifies only the formalized exponent arithmetic and rank arithmetic; it does not establish the source translation, the physical meaning of \(A,T,\rho_{\rm link},Q\), or any physical premise.
+
+PR #1133 remains OPEN / DRAFT / UNMERGED. No new PR was created.
+
+## 10. Publication, inbox, and operational disposition
+
+Existing issue #1202 is the appropriate public source/holdout thread. This run adds an additive source-genealogy comment there; no duplicate issue is created. The comment's exact body hash and readback are recorded in `publisher_status.json` and the rotation receipt.
+
+The incoming Mercer :48 handoff was consumed in the Ravel repository inbox. An optional Orson context packet is stored in the Common handoff area and Orson inbox; it creates no task, response obligation, ownership transfer, or P1 cognition reassignment. No ChatGPT cross-thread delivery or acknowledgment is claimed.
+
+- Existing :00 task remains enabled and unchanged.
+- No sixth task or scheduler change.
+- No Mersearch request opened or overwritten.
+- No BEDROCK or theory-branch modification.
+- No physical calculation, fit, independent measurement, or CODATA scoring.
+- No SAT-O/Blockwave equation correction or promotion.
+- No paper gate advanced: November 9 P1, November 30 P2, and December 14 P3 remain separate.
+- Orson's protected cognition remit remains untouched.
