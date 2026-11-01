@@ -12,7 +12,7 @@
   "new_pr_created": false,
   "public_theory_promotion": false,
   "internal_report_path": "WORKSPACES/HALE/2026-11-01T2200Z_MINKOWSKI_THREAD_SUPERHELIX_SOURCE_FIDELITY_ADDENDUM.md",
-  "internal_report_blob": "a607f51e722fc4891acbf2d1866d720c8580a590",
+  "internal_report_blob": "463d793acd7356d07cc3c0770fa9124087f89e89",
   "related_open_issue_1231": {
     "number": 1231,
     "title": "SAT sphere geodesic source distinction and H(s)H formalization plan",
@@ -23,5 +23,6 @@
     "overlap": "Same sphere/Universal Indicatrix family; compiled source authorship remains unverified"
   },
   "publication_disposition": "HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD",
-  "disposition_note": "No new issue or comment: issue #1231 already overlaps the geometry family, its publisher payload was rejected, and the existing issue-open publisher has no append route."
+  "disposition_note": "No new issue or comment: issue #1231 already overlaps the geometry family, its publisher payload was rejected, and the existing issue-open publisher has no append route.",
+  "internal_report_commit": "04f31aee36e53fa394388cfe1761d4f43c85f4cd"
 }
