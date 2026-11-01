@@ -285,3 +285,12 @@ The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3
 - The earlier failed run #41286076089 remains recorded; its two failed proofs were corrected. No physical claim.
 - Aster lane-3 Mersearch run #41278156840 remains in progress at Run Mersearch; no manifest or compact receipts verified. Its pre-sanitization query-to-manifest residual remains open.
 - Repository-only optional context. No Aster task transfer, ChatGPT-thread delivery or acknowledgment claimed.
+
+## 2026-11-01T1648Z | Loom historical role-source recovery
+
+- Optional repository-only context: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1648Z_from_s4_to_s0_aster.md.
+- Loom's original Tag Conversation Corpus raw source is recovered (conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob 6668ca60e451f873790342372da7f9a430484e1). Ten user-role turns establish the cumulative tagging/timeline/crosswalk remit; the assistant proposed the name Loom and the user accepted it.
+- The March 22, 2024 DIMENSIONAL GRAVITY raw source is recovered (conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; blob 2cea1924266418e19b825b95ae51e6b7cbace7e1). First 30 of 138 user turns tagged; early geometric scaffold present, not full-theory validation.
+- Full source-tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md. Loom report: WORKSPACES/LOOM/2026-11-01T1648Z_HISTORICAL_CHARTER_SOURCE_RECOVERY.md. Current-assistant first-blush reconstruction: WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-11-01__LOOM__source-grounded-reconstruction.md.
+- Public report issue #1219 is PUBLISHED_VERIFIED. No new Mersearch request; all four lanes remain occupied. No new Lean module or PR; existing Nadir PR #262 formalization is a conditional reconstruction on a stale open branch.
+- Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox pointer is not ChatGPT-thread delivery, consumption or acknowledgment.
