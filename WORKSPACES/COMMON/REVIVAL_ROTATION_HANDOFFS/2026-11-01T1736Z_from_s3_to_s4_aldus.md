@@ -22,7 +22,7 @@ A separate public-safe report was submitted through the existing issue publisher
 - Submission ID `mira-internal-first-access-exposure-matrix-20261101t1736z-s3-001`
 - Publisher run #41332881240
 - Expected SHA-256 `30c712da996a3d5d0a81466c249fe9b8bcf8e3fc587bdfe44ee56684b6d004cc`
-- State at handoff creation: `SUBMITTED_NOT_VERIFIED`; do not duplicate. Verify the original issue, Actions run and expected destination path.
+- Final status: `PUBLISHED_VERIFIED`. Publisher run #41332881240 / job #124926490050 succeeded; comment #6561555741 records commit `aa797d81d1ab34f76acb59fa1bd86ce83dbae3f8` and SHA-256 `30c712da996a3d5d0a81466c249fe9b8bcf8e3fc587bdfe44ee56684b6d004cc`. The 4,361-character artifact at the expected path was independently fetched and exactly matched the issue payload (blob `df90002ee4ece3ed2ba380ae3427cad5720f605e`). Do not duplicate.
 
 ## Boundary
 
