@@ -231,3 +231,155 @@ theorem linearResidual_eq_zero_iff
 #print axioms linearResidual_eq_zero_iff
 
 end HsHVerification.NadirAffineTranslationQuotient
+
+
+/-!
+## Source-constrained SO(4) frame-convention invariance
+
+The 2026-09-11 Rotoexpando geometry manuscript (HSH_RESOURCES,
+`REDISCOVERED/rotoexpando_geometry_definition.tex`, blob
+`5c21c6152482249e4432ded423b0040e70fc8b4f`) specifies framed spheres
+with `F_i ∈ SO(d)` and the left comparison `Q_ij = F_j F_i⁻¹`.
+
+The separate 2026-09-26 Run 141 sandbox artifact (HsH blob
+`8b5b8768527dfff5b198e324b2f823257889f385`) proposes
+`D_lin = (log σ)^2 + ‖Q - I‖_F^2`. That residual is sandbox
+mathematics, not a Nathan-authored equation or physical law.
+
+The following results prove that the entrywise Frobenius-squared
+implementation already used above is invariant under orthogonal
+conjugation. The proof needs orthogonality, not the determinant +1
+condition; the source's SO(d) frames satisfy this stronger hypothesis.
+-/ 
+
+namespace HsHVerification.NadirSO4ResidualConjugacy
+
+open HsHVerification.NadirAffineTranslationQuotient
+
+abbrev Mat4 := Matrix (Fin 4) (Fin 4) ℝ
+
+/-- Two-sided orthogonality of a real 4×4 frame. -/
+def IsOrthogonal4 (F : Mat4) : Prop :=
+  F.transpose * F = 1 ∧ F * F.transpose = 1
+
+/-- Entrywise Frobenius norm squared. -/
+def frobeniusSqEntries (A : Mat4) : ℝ :=
+  ∑ p ∈ (Finset.univ : Finset (Fin 4 × Fin 4)), (A p.1 p.2)^2
+
+/-- Trace representation of the Frobenius norm squared. -/
+def frobeniusSqTrace (A : Mat4) : ℝ :=
+  Matrix.trace (A.transpose * A)
+
+/-- The entrywise and trace definitions of the Frobenius norm squared agree. -/
+theorem frobeniusSqEntries_eq_trace (A : Mat4) :
+    frobeniusSqEntries A = frobeniusSqTrace A := by
+  classical
+  simp [frobeniusSqEntries, frobeniusSqTrace, Matrix.trace,
+    Matrix.mul_apply, Matrix.transpose_apply, Finset.sum_comm,
+    pow_two, mul_comm]
+
+/-- The existing Run 141 residual implementation is exactly the
+    log-scale term plus the trace-form Frobenius-squared residual. -/
+theorem linearResidual_eq_frobeniusSqTrace
+    (σ : ℝ) (Q : Mat4) :
+    HsHVerification.NadirAffineTranslationQuotient.linearResidual σ Q =
+      (Real.log σ)^2 + frobeniusSqTrace (Q - 1) := by
+  unfold HsHVerification.NadirAffineTranslationQuotient.linearResidual
+  rw [← frobeniusSqEntries_eq_trace (Q - 1)]
+  congr 1
+  simp [frobeniusSqEntries,
+    HsHVerification.NadirAffineTranslationQuotient.matrixResidualEntry,
+    Matrix.sub_apply, Matrix.one_apply]
+
+/-- The trace-form Frobenius-squared residual is invariant under
+    orthogonal conjugation. Only FᵀF = I is used in this norm identity. -/
+theorem frobeniusSqTrace_orthogonal_conjugate
+    (F A : Mat4) (hF : F.transpose * F = 1) :
+    frobeniusSqTrace (F * A * F.transpose) = frobeniusSqTrace A := by
+  unfold frobeniusSqTrace
+  have htrans :
+      (F * A * F.transpose).transpose =
+        F * A.transpose * F.transpose := by
+    simp [Matrix.transpose_mul, Matrix.mul_assoc]
+  rw [htrans]
+  calc
+    Matrix.trace ((F * A.transpose * F.transpose) *
+        (F * A * F.transpose)) =
+      Matrix.trace (F * (A.transpose * A) * F.transpose) := by
+        congr 1
+        simp [Matrix.mul_assoc, hF]
+    _ = Matrix.trace (A.transpose * A) := by
+        calc
+          Matrix.trace (F * (A.transpose * A) * F.transpose) =
+              Matrix.trace (F * ((A.transpose * A) * F.transpose)) := by
+                rw [Matrix.mul_assoc]
+          _ = Matrix.trace (((A.transpose * A) * F.transpose) * F) := by
+                exact Matrix.trace_mul_comm F ((A.transpose * A) * F.transpose)
+          _ = Matrix.trace (A.transpose * A) := by
+                simp [Matrix.mul_assoc, hF]
+
+/-- Conjugation carries Q-I to F(Q-I)Fᵀ when F is two-sided orthogonal. -/
+theorem residualMatrix_orthogonal_conjugate
+    (F Q : Mat4) (hF : IsOrthogonal4 F) :
+    F * Q * F.transpose - 1 = F * (Q - 1) * F.transpose := by
+  calc
+    F * Q * F.transpose - 1 =
+        F * Q * F.transpose - (F * 1 * F.transpose) := by
+          congr 1
+          simp [Matrix.mul_assoc, hF.2]
+    _ = F * (Q - 1) * F.transpose := by
+          simp [Matrix.mul_sub, Matrix.sub_mul, Matrix.mul_assoc]
+
+/-- The exact entrywise Run 141 linear residual is invariant under
+    orthogonal conjugation. The scale σ is held fixed and no positivity
+    hypothesis is needed for this algebraic equality. -/
+theorem linearResidual_orthogonal_conjugate
+    (σ : ℝ) (F Q : Mat4) (hF : IsOrthogonal4 F) :
+    HsHVerification.NadirAffineTranslationQuotient.linearResidual σ
+        (F * Q * F.transpose) =
+      HsHVerification.NadirAffineTranslationQuotient.linearResidual σ Q := by
+  rw [linearResidual_eq_frobeniusSqTrace,
+    linearResidual_eq_frobeniusSqTrace]
+  rw [residualMatrix_orthogonal_conjugate F Q hF]
+  exact congrArg (fun z : ℝ => (Real.log σ)^2 + z)
+    (frobeniusSqTrace_orthogonal_conjugate F (Q - 1) hF.1)
+
+/-- Source-convention left comparison Qᵢⱼ = FⱼFᵢᵀ, with Fᵢᵀ = Fᵢ⁻¹. -/
+def leftFrameComparison (F_i F_j : Mat4) : Mat4 :=
+  F_j * F_i.transpose
+
+/-- Right increment Eᵢⱼ = FᵢᵀFⱼ, with Fᵢᵀ = Fᵢ⁻¹. -/
+def rightFrameIncrement (F_i F_j : Mat4) : Mat4 :=
+  F_i.transpose * F_j
+
+/-- The source's left comparison is the initial-frame conjugate of the
+    right increment when the initial frame is orthogonal. -/
+theorem leftFrameComparison_eq_conjugate_rightFrameIncrement
+    (F_i F_j : Mat4) (hFi : IsOrthogonal4 F_i) :
+    leftFrameComparison F_i F_j =
+      F_i * rightFrameIncrement F_i F_j * F_i.transpose := by
+  simp [leftFrameComparison, rightFrameIncrement, Matrix.mul_assoc, hFi.2]
+
+/-- The Run 141 Frobenius residual is independent of the left/right
+    frame-comparison convention under the source's orthogonal-frame
+    condition. This is a representation-invariance theorem, not a
+    connection, transport, holonomy, or physical-dynamics theorem. -/
+theorem linearResidual_frameConvention_invariant
+    (σ : ℝ) (F_i F_j : Mat4) (hFi : IsOrthogonal4 F_i) :
+    HsHVerification.NadirAffineTranslationQuotient.linearResidual σ
+        (leftFrameComparison F_i F_j) =
+      HsHVerification.NadirAffineTranslationQuotient.linearResidual σ
+        (rightFrameIncrement F_i F_j) := by
+  rw [leftFrameComparison_eq_conjugate_rightFrameIncrement F_i F_j hFi]
+  exact linearResidual_orthogonal_conjugate σ F_i
+    (rightFrameIncrement F_i F_j) hFi
+
+#print axioms frobeniusSqEntries_eq_trace
+#print axioms linearResidual_eq_frobeniusSqTrace
+#print axioms frobeniusSqTrace_orthogonal_conjugate
+#print axioms residualMatrix_orthogonal_conjugate
+#print axioms linearResidual_orthogonal_conjugate
+#print axioms leftFrameComparison_eq_conjugate_rightFrameIncrement
+#print axioms linearResidual_frameConvention_invariant
+
+end HsHVerification.NadirSO4ResidualConjugacy
