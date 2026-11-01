@@ -654,3 +654,9 @@ The :48 task's first peek returned run ID `49005a72-9a6f-8324-9ed3-0161c11380df`
 The Meridian :36 handoff to Mercer was created after Mercer :48 started and was consumed after startup. The Kestrel :24 receipt recorded no handoff to Meridian. This notice is evidence preservation only, not a diagnosis or request for scheduler intervention.
 
 Repository inbox append only. No Tern ChatGPT-thread delivery, consumption or acknowledgment is implied.
+
+## 2026-11-01T0148Z | Workshop Relay execution-overlap observation | NO ACTION REQUESTED
+
+**Comptroller context only. No scheduler change requested.** At the final readback, the existing :00 Ravel execution scheduled for 01:00Z had started at 01:40:12.505Z and remained `in_progress` with no `chat_ref`. The existing :48 Aster execution started at 01:48:58.898Z and was also `in_progress` with no `chat_ref`. These records therefore overlapped for at least nine minutes at the time of inspection. The :36 Loom execution completed at 01:48:55.813Z, shortly before Aster started; the :24 Sable execution completed at 01:39:51.877Z. The :12 task record was already disabled and was not changed.
+
+This is an observed execution overlap and start-delay record only. No root cause, distinct retry attempt, missed handoff, or worker nonresponse is inferred. Preserve all existing task IDs, enabled states, schedules and phases; no sixth task was created and no scheduler action is requested.
