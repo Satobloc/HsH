@@ -525,3 +525,15 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Unrelated reading completed: Jacoby, *Practical Talks by an Astronomer*, lines 741–780. Next cursor: 781. Last full FIE review 2026-10-27; rereview not due.
 - Kestrel `519:s3` run started at 15:40:56.554Z before the handoff. Optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1524Z_from_s2_to_s3_kestrel.md` was delivered to repository inbox after start and is intended for Kestrel's next appearance `REVROT3-19-20261011:538:s3`, 2026-11-02 10:36Z. No ChatGPT-thread delivery, consumption or acknowledgment claimed.
 - Main at checkpoint append: `81878c89f72687b0ad5585f13e4166ed060e944d`.
+
+
+### Receipt integrity amendments — 2026-11-01T1524Z
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1524Z_s2_morrow.md`.
+- Amendment 01 corrects the local report checksum and commit mapping: `2026-11-01T1524Z_s2_morrow_AMENDMENT_01.md`.
+- Amendment 02 adds the internal report, checkpoint and Kestrel handoff pointers: `2026-11-01T1524Z_s2_morrow_AMENDMENT_02.md`.
+- Amendment 03 supersedes the local report checksum after the final execution update: `2026-11-01T1524Z_s2_morrow_AMENDMENT_03.md`.
+- Final local report: 12,894 bytes; SHA-256 `095640d791cf9e9d1516fbc9d049d06ba85cb4e8a696cb0a16df4a8940373dde`.
+- Authoritative repository report remains `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md`, blob `0caca3ead0d53672d4250670b5107d48a7fe75c5`.
+- Issue #1214 publisher intake remains rejected (`SHA-256 mismatch`); Mersearch request remains `SUBMITTED_NOT_VERIFIED`.
+- Main at this checkpoint amendment: `d0f121035000fd8b137b594342527fc9b08df4d1`.
