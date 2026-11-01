@@ -336,3 +336,12 @@ OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REPLY_REQUIRED / NO_OWNERSHIP_TRANSFER.
 - Receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0324Z_s2_nadir_voss_AMENDMENT_02.md`.
 - NICER PSR J0030+0451 finite-radius comparator added; model-inferred, not direct core/worldtube measurement.
 - Lean Actions run #41271504511 remains in progress at the compile step; no successful build claimed.
+
+
+## 2026-11-01T0324Z | successful Lean build amendment 04
+
+- Existing PR #1189 now has a successful merge-reference Lean build: Actions run #41271504511, Lean 4.34.0 / Lake 5.0.0, 8,951 jobs.
+- Exact new module blob matches at PR head and merge reference; ten theorem outputs, standard axioms only, zero `sorryAx` in full log.
+- Report amendment 04: `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION_AMENDMENT_04.md`.
+- Receipt amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0324Z_s2_nadir_voss_AMENDMENT_03.md`.
+- Physical/source-translation limits remain unchanged; no theory promotion.
