@@ -473,11 +473,11 @@ The proof does **not**:
 - establish any relation to the September 1 ring-plane geometry;
 - validate particle identity, neutrino statistics, or physical premises.
 
-The CI run was still in progress at the last check: run `#41330715937`, job `#124920032346`, on merge reference `c7b0e836ca07d7708e83d179b0601fcb7cc8e1e7`. The actual Lean compile result must be read back before claiming success. No local Lean or Lake executable is installed in the runtime; the existing HsH Lean 4.34.0 / Mathlib 4.34.0 CI is the verification route.
+The actual Lean run completed successfully: workflow run `#41330715937`, job `#124920032346`, on merge reference `c7b0e836965163a9af06fc0780bf7ed53347e365`. Lean 4.34.0, Lake 5.0.0, 8,945 build jobs, `Build completed successfully`. The exact new module blob at the PR head and merge reference is identical (`29115ccc65df0ae671f37b06ca80a83e29998e1b`); the root import blob also matches (`17eca2f0b31689f118422b49fac1ff88a07456b6`). This is exact module-content verification, not a PR-head checkout: the workflow checked out the synthetic merge reference. `#print axioms` reports standard dependencies including `propext`, `Classical.choice`, and `Quot.sound`; the dedicated `axiom-audit` step was disabled/skipped. No `sorryAx` appeared in the retrieved build log. No local Lean or Lake executable is installed in the runtime; the existing HsH Lean 4.34.0 / Mathlib 4.34.0 CI is the actual verification route.
 
 ### 10.3 Proof status
 
-`SUBMITTED_NOT_VERIFIED` at report assembly. No theorem is promoted to BEDROCK. If the CI succeeds, a source-linked Factory Floor intake packet is required; it remains a workshop intake, not acceptance of the physics.
+`BUILD_SUCCESS_MERGE_REF_MODULE_BLOB_MATCH / PR_HEAD_NOT_CHECKED_OUT / AXIOM_AUDIT_SKIPPED`. No theorem is promoted to BEDROCK. If the CI succeeds, a source-linked Factory Floor intake packet is required; it remains a workshop intake, not acceptance of the physics.
 
 ## 11. Cross-domain lens check
 
