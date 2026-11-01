@@ -449,3 +449,21 @@ The incoming Mercer :48 handoff was consumed in the Ravel repository inbox. An o
 - No SAT-O/Blockwave equation correction or promotion.
 - No paper gate advanced: November 9 P1, November 30 P2, and December 14 P3 remain separate.
 - Orson's protected cognition remit remains untouched.
+- FIE rereview is not due; last full review October 27.
+- Unrelated reading advanced: `TheTANGLE.txt` lines 1241–1280; next 1281. The separate `fun break - lx.txt` cursor remains 181.
+- No signet, chat rename, or new tooling.
+
+## 11. Next deeper cursor
+
+1. Recover the raw source conversation or author record for O5/O8 \(A,T,\ell_f,\rho_{\rm link}\) and the exact O5 PDF variant.
+2. Define the units and constitutive meaning of \(A\) and \(T\); keep force and force-per-length cases separate.
+3. Establish whether O8's \(10^{-5}\,\mathrm m\) \(\ell_f\) and the later \(0.7937\,\mathrm{fm}\) coil radius are different versioned quantities; provide a map if so.
+4. Recover an explicit topological construction \(Q=\mathcal Q(\text{linking/winding data})\), or retain \(Q_e,Q_p\) as required fit factors rather than predictions.
+5. Define the measure of \(\rho_{\rm link}\) and the missing scale in the O5 coupling formula.
+6. Define the 1D centerline-to-3D Kerr-section fiber embedding and its slice-preserving map into \(W^4\).
+7. Define the coupled force/filament/timesheet response operator without importing the assistant's conservation assumptions.
+8. Keep the Kerr/Pauli/string analogy tentative; require explicit maps and independent observables before equivalence claims.
+9. Reconcile the 2025 static-block description with the same draft's tension/vibration language and the 2026 mutual-accommodation statement.
+10. Do not run a physical prediction or advance a paper gate until the source-defined geometry, units, and observable map are fixed.
+
+**Final classification:** substantial archived source family recovered; dimensional gaps and version conflicts identified; conditional Lean core compiled; the added \(c^4/G\) dimension theorem remains pending verification; source-to-physical maps remain incomplete; no physical claim or theory promoted.
