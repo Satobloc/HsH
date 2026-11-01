@@ -383,3 +383,12 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Three sampled 300-set CGD files lack raw judge trace fields; flags/revisions: GPT-4o 385, GPT-4.1 375, Qwen 2.5 72B 353. Not a 17-model census.
 - No model calls, human-subject experiment, manuscript edit, PR/branch change or paper-gate advancement. This is optional QC context only; Orson remains P1 originator and owns all disposition. Nov 2 protocol freeze / Nov 9 P1, Nov 30 P2, Dec 14 P3 remain separate.
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+## 2026-11-01T1236Z | VEY-024 mapper/aggregation identity gate
+
+- Added an orthogonal mapper/aggregation identity layer to the P1 measurement architecture; preserves Sable's five evidence objects unchanged.
+- Source crosswalk: pinned `mainlobelabs/pauper-consensus` commit `c328dab5ca1f1101b5ec56e2e92e3592898ceadf`; exploratory `align_free` closure versus primary `align_anchored` and later `align_instances` claim-instance preservation.
+- Existing PR #850 module `OrsonNLIClusterClosure.lean` built successfully in merge-ref Actions run #41290611880 attempt 2, job #124852022587; 8,976 Lean targets; zero `sorryAx`/ `admit`. Exact-head standalone build, tests, lint, nanoda and automated axiom audit remain unverified/skipped.
+- Corrected publisher submission #1207 is PUBLISHED_VERIFIED. Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-mapper-aggregation-identity-20261101t1236z-s3-retry1.md`; SHA-256 `9d99f6b2d0307b5cb55719fa1a44027d72413bd6e40e2753cf6d1b0644fdfa79`; commit `c4012a88e118fe821cff0d46378a5d3f5d218255`. Publisher intakes #1195 and #1206 were rejected and created no artifact; #1207 is the sole published copy.
+- P1 #564 remains SOURCE / EXPERIMENT READINESS. OV-49-OV-53 bank remains unrecovered; no authorized inference endpoint, trial, model call, human subject, manuscript edit, PDF/reader or paper-gate advancement.
+- No Mersearch lane opened or overwritten. No branch/PR/task/scheduler change. This is a methods/protocol addition, not theory promotion.
