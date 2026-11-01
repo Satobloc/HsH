@@ -167,10 +167,29 @@ theorem aster_reported_digest_differs_from_raw :
     asterIssueLocator.reportedTextSha256 ≠ rawMessage.textSha256 := by
   decide
 
+/-- A previous continuity transcription omitted one hexadecimal character
+    from the Tag Conversation Corpus Git blob ID. -/
+def malformedTagCorpusBlobSha : String :=
+  "6668ca60e451f873790342372da7f9a430484e1"
+
+/-- The current main tree entry and successful blob fetch give this 40-character ID. -/
+def verifiedTagCorpusBlobSha : String :=
+  "6668ca60e451f8737903423727da7f9a430484e1"
+
+theorem prior_tag_corpus_blob_id_is_truncated :
+    malformedTagCorpusBlobSha.length = 39 := by
+  decide
+
+theorem corrected_tag_corpus_blob_id_has_sha1_length :
+    verifiedTagCorpusBlobSha.length = 40 := by
+  decide
+
 #eval decide (validVerbatimQuote rawMessage displacedCompendiumQuote)
 #eval decide (validVerbatimQuote rawMessage correctedCompendiumQuote)
 #eval decide (validSourceLocator rawMessage asterIssueLocator)
 #eval decide (validSourceLocator rawMessage correctedSourceLocator)
+#eval malformedTagCorpusBlobSha.length
+#eval verifiedTagCorpusBlobSha.length
 
 #print axioms target_message_in_tourist_tailor_export
 #print axioms target_message_absent_from_aster_export
@@ -181,5 +200,7 @@ theorem aster_reported_digest_differs_from_raw :
 #print axioms corrected_source_locator_is_bound
 #print axioms user_role_and_message_id_do_not_rescue_digest_mismatch
 #print axioms aster_reported_digest_differs_from_raw
+#print axioms prior_tag_corpus_blob_id_is_truncated
+#print axioms corrected_tag_corpus_blob_id_has_sha1_length
 
 end HsHVerification.LoomCompendiumSourceBinding
