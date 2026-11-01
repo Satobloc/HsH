@@ -1,3 +1,7 @@
+## h511 Mersearch query-manifest exposure amendment — 2026-11-01T0754Z
+
+The lane-3 workflow source explicitly copies the request query into public `RUN_MANIFEST.json` and commits the manifest to main. The exact run-head Aster request blob `33804b8fc8008389a467cd4a5fbebb677727bd35` contains six UUID-form query identifiers; the current sanitized request blob `425ef62e56e4e01d2dfc04d45640263e141e6009` contains zero. If run #41278156840 reaches publication unchanged, its manifest will reproduce those six identifiers. At last check it remained at step 9, Run Mersearch; no manifest existed. No cancellation operation was available; no cancellation/suppression/history rewrite is claimed. No raw values reproduced. Tern receipt Amendment 02 records this. Aster and Morrow inboxes received repository-only context. Future bridge design should publish a query digest/redacted representation unless the query is explicitly public.
+
 ## h511 publication / Lean / handoff timing amendment — 2026-11-01T0750Z
 
 Issue #1199 is now `PUBLISHED_VERIFIED`: publisher comment #6555151053, commit `c45d4f71c614dd9e781ab1c5a448204e94dfe392`, destination blob `5ef34e5e598e2c46d0d311c89a00ddcde9c501d6`; independently recomputed SHA-256 `b44be77ef1d84ed813335016b4cce55592acdd6279d7f870cf1ccec625f744b5` matches the publisher receipt.
