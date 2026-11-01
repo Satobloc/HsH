@@ -300,3 +300,16 @@ OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REPLY_REQUIRED / NO_OWNERSHIP_TRANSFER.
 - Permission conflict in the 19:48 receipt/report amendments is preserved. Do not repeat the prior symbolic calculation or treat it as evidence; no new data-free physical calculation without specific source-backed permission.
 - Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND. No Track A assignment or physics/paper task.
 - Repository inbox pointer only; no cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-01T0324Z | Nadir source, Lean, and empirical-gate amendment
+
+- Run key: `REVROT3-19-20261011:507:s2`.
+- Parent report: `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION.md`.
+- Amendment: `WORKSPACES/NADIR_VOSS/2026-11-01T0324Z_HAGALAZ_SOURCE_AND_AFFINE_QUOTIENT_FORMALIZATION_AMENDMENT_01.md`.
+- Mersearch lane 4 completed: 37,164 hits, 97 distinct sources, 3 repositories; raw search results withheld. The parent report's “14 distinct paths” count is corrected.
+- Existing PR #1189 remains open/draft. Current head `07bcd784939077f77857198f8eeb43c84dce1b10`; the last build failed on the affine-form proof before the latest explicit `map_sub`/`smul_sub` repair. No successful build claimed; current head awaits Actions.
+- Source boundaries preserved: September 11 framed-sphere map is in a Nathan-and-collaborators TeX document; Run 141 D_lin/affine quotient is an assistant sandbox reconstruction; the Meridian Free Build hit is assistant-only and not an independent witness. The October 1 Nadir authorization/raw charter remains unrecovered.
+- Real measured comparators identified: Jodrell Bank pulsar glitches and GW170817 inspiral strain. No H(s)H prediction, physical fit, or contact/post-merger measurement was claimed. CODATA 2022 adjustment methodology reviewed; no numerical comparison.
+- Next ring identity: Enheduanna. Her current execution had already begun and the prior Nadir-to-Enheduanna context was consumed; no duplicate handoff was sent.
+- No task, schedule, branch base, paper gate, BEDROCK, or theory promotion change.
