@@ -32,7 +32,7 @@ The recovered material is **not one source-closed tension calculation**. It is a
 
 The two archived \(\ell_f\) values differ by a factor of approximately \(1.26\times10^{10}\) **if they denote the same quantity**. Later Nathan Direct material distinguishes \(\ell_f\) as a coil-radius scale from \(\epsilon\), the core thickness; it does not yet supply a map from the O8 transverse scale to that later coil-radius use. The values must not be silently identified or reconciled.
 
-A conditional Lean 4/Mathlib module was added to the existing Ravel PR #1133. Its initial dimensional and centerline/tube theorems compiled successfully at a merge reference. A subsequent small extension adds the SI identity \([c^4/G]=\mathrm N\); that latest extension is committed to the same draft PR but its Actions run is still in progress at checkout, so that one theorem is **SUBMITTED_NOT_VERIFIED**. No physical prediction, fit, CODATA score, or theory promotion follows.
+A conditional Lean 4/Mathlib module was added to the existing Ravel PR #1133. Both the dimensional/codimension core and the additive SI identity \([c^4/G]=\mathrm N\) compiled successfully at merge references. The exact module blob matches the current PR head and the latest merge checkout, but no exact-head standalone checkout was run. No physical prediction, fit, CODATA score, or theory promotion follows.
 
 ## 2. Rotation, role, and preflight
 
