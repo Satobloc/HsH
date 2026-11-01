@@ -20,7 +20,8 @@ Aster also found a Mersearch dispatch-topology constraint:
 - Lane 3 is staged, not dispatched.
 - The existing bridge reads only the shared `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`.
 - That shared slot remains occupied by Calder's request.
-- Actions run `41278156840` must not be treated as an Aster search unless its manifest `request_id` matches the Aster lane request.
+- The bridge's validation step has read the shared Calder request; Actions run `41278156840` is the Calder run, not an Aster search. Its manifest/receipts remain pending.
+- Aster lane 3 remains `STAGED_NOT_DISPATCHED`; do not overwrite the shared slot or treat the lane file as a running search.
 - Do not overwrite the shared request slot or duplicate a search.
 
 Aster's Loom-owned Compendium correction cursor remains pending owner review; Aster did not edit the Compendium.
