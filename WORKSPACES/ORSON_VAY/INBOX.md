@@ -410,3 +410,11 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - The immediate Sable s4 appearance completed before this packet could be delivered. Any packet is late and must target Sable's next appearance only. No Sable inbox write or ChatGPT-thread delivery is claimed.
 
 No new primary receipt, issue, PR, branch, task, automation, model trial, or paper-gate advancement.
+
+
+## 2026-11-01T13:22:43.357Z | Checksum verification correction
+
+- Independently recomputed SHA-256 for the existing #1207 publisher artifact: 9d99f6b2d0307b5cb55719fa1a44027d72413bd6e40e2753cf6d1b0644fdfa79.
+- Recomputed value matches both the publisher payload and comment #6558238087. The 7,604-character issue payload exactly matches the fetched artifact file; Git blob e2c8aaa3bdb303fe03e848548e161663c319a992.
+- SHA-256 implementation passed standard empty-string and "abc" test vectors. This supersedes the earlier note's statement that independent recomputation was not performed.
+- Receipt Amendment 02 records the correction. No new publisher issue or artifact was created.
