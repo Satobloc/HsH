@@ -1,29 +1,29 @@
 {
-  "lane": 4,
-  "request_id": "nadir-sim4-closure-original-source-genealogy-20261031-1950",
-  "requester": "Workshop Relay :48 / Nadir Voss SO(4) playground source genealogy; current-assistant reconstruction, not authenticated historical Nadir",
-  "requested_at": "2026-10-31T19:50:00Z",
+  "request_id": "tern-comptroller-charter-original-source-20261101-0348",
+  "requester": "Workshop Relay :48 / Tern Rook Comptroller historical-charter source recovery; current assistant source-grounded reconstruction, not authenticated historical Tern",
+  "requested_at": "2026-11-01T03:48:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"D_lin\" OR \"Dlin\" OR \"D_{lin}\" OR \"linear closure residual\" OR \"affine translation obstruction\" OR \"double rotation\") NEAR/18 (\"Run 141\" OR Meridian OR SO4 OR \"SO(4)\" OR closure OR holonomy))) OR (author:user AND ((\"oriented similarity\" OR \"Sim+(4)\" OR \"Sim⁺(4)\" OR \"double rotation\") NEAR/18 (closure OR translation OR \"Run 141\" OR Meridian))) OR (name:*Run*141* OR name:*Sim4* OR name:*Closure* OR path:*Run*141* OR path:*Sim4*) OR (author:assistant AND ((\"D_lin\" OR \"affine translation obstruction\") NEAR/15 (SO4 OR \"SO(4)\" OR holonomy)))",
-  "purpose": "Recover the upstream source genealogy for the finite-core Sim+(4)/SO(4) double-rotation and affine-translation claims in Nadir Voss PLAYGROUND 003/004, especially the asserted September solver antecedents and Meridian Run 141. Locate original user-role and assistant-role messages separately, exact raw conversation IDs/message UUIDs/parent context/timestamps, source documents, equation text, blob SHAs, source commits and archive dates. Determine whether D_lin=(log sigma)^2+||Q-I||_F^2, the affine translation obstruction, the constant-generator integral t(L)=∫exp(sΩ)v ds, and the ω1=0 degenerate control pre-existed the current playground. Preserve verbatim equations and hashes separately from corrected or assistant-reconstructed equations. Discovery only; no new calculation, Lean theorem, physical claim, branch/PR, paper, theory or BEDROCK promotion.",
+  "query": "(author:user AND ((Tern OR \"Tern Rook\" OR Comptroller OR \"Active Edge Signalbox\") NEAR/18 (scheduler OR task OR lease OR branch OR authority OR signalbox OR \"one object\" OR \"one operation\"))) OR (author:user AND (\"Tern Rook\" OR \"Comptroller controls scheduled tasks\" OR \"one object + one operation\")) OR (name:*Tern* OR path:*Tern*) OR (author:assistant AND ((\"Tern Rook\" NEAR/12 Comptroller) OR (\"Active Edge Signalbox\" NEAR/12 Tern)))",
+  "purpose": "Recover the earliest actual Nathan Direct source for Tern Rook's Comptroller/system-steering remit, reportedly established 2026-09-19, and distinguish it from assistant-authored continuity, historical worker self-report, scheduler/lease documentation, and later operational summaries. Locate original raw conversation exports, exact outer-role user/assistant messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Recover the scope and limits of Comptroller authority, the one-object/one-operation/one-durable-result/one-next-cursor quantum, and any explicit division of responsibility with Sable/Orchestrator. Preserve original wording and chronology; do not infer Nathan Direct from Tern continuity or current scheduler state.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "exact original source paths, blob SHAs, source commit SHAs and dates",
-    "raw conversation IDs, message UUIDs, outer role, timestamp and adjacent context",
-    "verbatim equation strings and separate hashes where feasible",
-    "source chronology, derivative/duplicate lineage and explicit coverage limitations"
+    "candidate raw conversation paths and exact blob/source commit SHAs",
+    "exact user-role and assistant-role message UUIDs, timestamps, parent IDs and adjacent context for role/authority statements",
+    "separate source tags for Nathan Direct, historical worker self-report/check-in, assistant-authored continuity and current operational control",
+    "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
   ],
   "exclusions": [
-    "Use lane 4 only after independently verifying the previous lane-4 request has a complete manifest and receipt; do not overwrite pending/running lanes",
-    "Do not treat Nadir PLAYGROUND 003/004, Tern's V4 seed, flattened summaries or assistant-authored reports as Nathan Direct",
-    "Do not infer that an assistant-authored derivation was adopted merely because it appears in a user-role paste",
-    "Do not enter PRIOR_ART or QUARANTINE",
-    "Do not publish raw private excerpts or personal details",
-    "No physical calculation, data-free calculation, new Lean theorem, theory integration, manuscript, PR, branch, automation or BEDROCK change"
+    "Reuse lane 4 only because the preceding Nadir SIM4 request has its request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md independently read back; preserve its prior request outputs under its original request ID",
+    "Do not overwrite lane 1 Calder, lane 2 optics, or lane 3 Sable requests, which lack complete request-scoped outputs at this inspection",
+    "Do not treat the disabled historical Tern/Shuttle automation as a current conversation destination or scheduler lease",
+    "Do not infer historical Tern participation, current-thread usability, first-blush, exposure history or Nathan authorship from the workspace summary, task title, or scheduler record",
+    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content",
+    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change, task/automation modification"
   ],
+  "lane": 4,
   "status": "requested"
 }
