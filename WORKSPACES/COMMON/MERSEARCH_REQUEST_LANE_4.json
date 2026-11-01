@@ -1,28 +1,27 @@
 {
-  "request_id": "tern-comptroller-charter-original-source-20261101-0348",
-  "requester": "Workshop Relay :48 / Tern Rook Comptroller historical-charter source recovery; current assistant source-grounded reconstruction, not authenticated historical Tern",
-  "requested_at": "2026-11-01T03:48:00Z",
+  "request_id": "tern-comptroller-original-user-charter-targeted-20261101-1124",
+  "requester": "Workshop Relay :24 / Tern Rook / Comptroller historical-source recovery; source-grounded current assistant reconstruction, not authenticated historical Tern",
+  "requested_at": "2026-11-01T11:24:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((Tern OR \"Tern Rook\" OR Comptroller OR \"Active Edge Signalbox\") NEAR/18 (scheduler OR task OR lease OR branch OR authority OR signalbox OR \"one object\" OR \"one operation\"))) OR (author:user AND (\"Tern Rook\" OR \"Comptroller controls scheduled tasks\" OR \"one object + one operation\")) OR (name:*Tern* OR path:*Tern*) OR (author:assistant AND ((\"Tern Rook\" NEAR/12 Comptroller) OR (\"Active Edge Signalbox\" NEAR/12 Tern)))",
-  "purpose": "Recover the earliest actual Nathan Direct source for Tern Rook's Comptroller/system-steering remit, reportedly established 2026-09-19, and distinguish it from assistant-authored continuity, historical worker self-report, scheduler/lease documentation, and later operational summaries. Locate original raw conversation exports, exact outer-role user/assistant messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Recover the scope and limits of Comptroller authority, the one-object/one-operation/one-durable-result/one-next-cursor quantum, and any explicit division of responsibility with Sable/Orchestrator. Preserve original wording and chronology; do not infer Nathan Direct from Tern continuity or current scheduler state.",
+  "query": "(author:user AND ((\"Comptroller controls scheduled tasks\" OR \"Comptroller Tern\" OR \"Tern Rook\" OR \"Active Edge Signalbox\") NEAR/20 (scheduler OR task OR lease OR allocation OR authority OR workflow))) OR (author:user AND ((\"one object\" NEAR/8 (\"one operation\" OR \"durable result\" OR cursor)) OR (\"scheduled tasks\" NEAR/12 (Tern OR Comptroller))))",
+  "purpose": "Targeted Mersearch recovery of the earliest actual Nathan Direct statements defining Tern Rook's Comptroller remit and operating boundaries. Locate raw conversation exports and exact outer-role user messages, conversation IDs, message UUIDs, timestamps, parent/adjacent context, immutable source blob SHAs and source commits. Separate Nathan Direct from assistant-authored task prompts, continuity summaries, historical worker self-report and later Common controls. Resolve whether the continuity statement 'Established 2026-09-19 by Nathan Direct' has a recoverable exact source; identify the earliest user-authored scheduler-allocation delegation and any explicit division between Comptroller and Orchestrator. Preserve original wording; no theory, scheduler or access changes.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
     "candidate raw conversation paths and exact blob/source commit SHAs",
-    "exact user-role and assistant-role message UUIDs, timestamps, parent IDs and adjacent context for role/authority statements",
-    "separate source tags for Nathan Direct, historical worker self-report/check-in, assistant-authored continuity and current operational control",
+    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context",
+    "separate source tags for Nathan Direct, assistant-authored prompt/continuity, historical worker self-report and current operational control",
     "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
   ],
   "exclusions": [
-    "Reuse lane 4 only because the preceding Nadir SIM4 request has its request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md independently read back; preserve its prior request outputs under its original request ID",
-    "Do not overwrite lane 1 Calder, lane 2 optics, or lane 3 Sable requests, which lack complete request-scoped outputs at this inspection",
-    "Do not treat the disabled historical Tern/Shuttle automation as a current conversation destination or scheduler lease",
-    "Do not infer historical Tern participation, current-thread usability, first-blush, exposure history or Nathan authorship from the workspace summary, task title, or scheduler record",
-    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content",
-    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change, task/automation modification"
+    "Lane 4 is reused only because the prior Tern request has a verified RUN_MANIFEST.json and both compact receipts independently read back; preserve its prior request-scoped outputs under the old request ID.",
+    "Do not overwrite lanes 1, 2 or 3; their current request states remain pending/running/unreconciled.",
+    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content.",
+    "Do not infer historical Tern participation, current-thread usability, first-blush or Nathan authorship from task title, scheduler record or assistant-authored summaries.",
+    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change or automation/scheduler modification."
   ],
   "lane": 4,
   "status": "requested"
