@@ -33,7 +33,8 @@
     "TASK_BRANCH_GRAPH": "3c341c6e8a8d4a0c4b0b9f5bde4f2c3e9a9f7d1b"
   },
   "repositories": {
-    "HsH_main_at_preflight": "0cebd11896782c50ebf403636513319626c9e972"
+    "HsH_main_at_preflight": "0cebd11896782c50ebf403636513319626c9e972",
+    "HsH_main_before_receipt": "dd537f87355f7923c93422766183e81e54a12e19"
   },
   "historical_role": {
     "label": "Aster",
@@ -283,9 +284,35 @@
     "No cross-thread delivery or acknowledgment"
   ],
   "artifacts": {
-    "report_path": "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_ADDENDUM.md",
-    "report_blob": "0f58ce57fc05c9f4179b6220971e43a1c7d92327",
-    "report_update_commit": "beae4fc53b9e9e980f24cd524625ed9c2b365f70"
+    "report": {
+      "path": "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_FIDELITY_ADDENDUM.md",
+      "blob": "0f58ce57fc05c9f4179b6220971e43a1c7d92327",
+      "update_commit": "beae4fc53b9e9e980f24cd524625ed9c2b365f70"
+    },
+    "source_manifest": {
+      "path": "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_MANIFEST.json",
+      "previous_blob": "ce125d5c1fd4bdb3ab668b6e2c4a26f8a868c97c"
+    },
+    "continuity": {
+      "path": "WORKSPACES/ASTER/CONTINUITY.md",
+      "blob": "9dd53a5e251a4b79d2ee4a64ff7d7c8856f14fc6",
+      "update_commit": "d9c8aef35f87d7a78f8e8e3f54f4d0f3b4a2f8f1"
+    },
+    "optional_handoff": {
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1712Z_from_s0_to_s1_ariadne.md",
+      "blob": "6bbc374131ee5b4e4fb467c6ab1adfed6dc7d574",
+      "create_commit": "24573f37a86e926ba11ecaf7d404ffe30d99e0fe",
+      "correction_commit": "dd537f87355f7923c93422766183e81e54a12e19",
+      "delivered_to_thread": false
+    }
   },
-  "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing."
+  "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing.",
+  "handoff": {
+    "status": "OPTIONAL_CONTEXT_ONLY",
+    "recipient": "Ariadne",
+    "task_created": false,
+    "ownership_transfer": false,
+    "response_obligation": false,
+    "chat_thread_delivery": "NOT_CLAIMED"
+  }
 }
