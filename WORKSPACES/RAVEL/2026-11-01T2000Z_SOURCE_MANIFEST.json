@@ -275,6 +275,20 @@
     "issue": 1202,
     "comment_id": 6563825577,
     "comment_sha256": "bab13474565a5a757746994559a62757d2f5b77455c9ada0d6bb0ad5f241a741",
-    "comment_readback": "PASS_EXACT_BODY"
+    "comment_readback": "PASS_EXACT_BODY",
+    "rotation_receipt_path": "WORKSPACES/RAVEL/2026-11-01T2000Z_ROTATION_RECEIPT.md",
+    "rotation_receipt_blob": "55c3efdfa742a98eccc1bf7767ba38f6100269f4",
+    "common_rotation_receipt_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T2000Z_s0_ravel.md",
+    "common_rotation_receipt_blob": "9768f3ad86fba5ac6bee35a620dbaebbdaf30c39",
+    "optional_handoff_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2000Z_from_s0_to_s1_orson_vay.md",
+    "optional_handoff_blob": "855d9d66f9433f01e6727894ac49854429ea7fc1",
+    "publisher_status_path": "WORKSPACES/RAVEL/2026-11-01T2000Z_PUBLISHER_STATUS.json",
+    "publisher_status_blob": "7f8fb420d9f89df6da66921fca69cfcb21e1e0ea",
+    "ravel_state_blob": "aff3788730eff3c7db36253f2606640e7c19c03f",
+    "ravel_continuity_blob": "ad0f03367ed5192f0a9516aaf92a45220a7e3264",
+    "ravel_inbox_blob": "f1ceb092f09582e184eec74efae64c287bb58007",
+    "orson_inbox_blob": "0242530c9f0bf3eec15fad7aa5677a965a3e33a4",
+    "main_head_before_manifest_update": "508e2fbed85471515c3968ea6f854f493f5b0de6",
+    "report_local_sha256": "3a656ae7205c0ee345a6de452ad2ac83966f81ba45e47976b0af496a24c9754f"
   }
 }
