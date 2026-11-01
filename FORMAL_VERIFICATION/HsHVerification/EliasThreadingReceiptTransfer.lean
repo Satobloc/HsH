@@ -218,3 +218,99 @@ theorem return_gate_can_pass_without_artifact_diversity :
 #print axioms return_gate_can_pass_without_artifact_diversity
 
 end HsHVerification.EliasThreadingArtifactDiversity
+
+
+/-!
+# Source-faithful temporal receipt gate counterexample
+
+Source: Satobloc/HSH_RESOURCES/tools/workflow_threading_demo.py,
+blob ce313e46b1b85ae35028b46a4196d2a945b535d8.
+
+In the source, add_receipt checks only seed_version before appending.
+state_threshold_met counts receipt rows, distinct worker strings, and the
+required outcome labels. It does not compare OutputReceipt.timestamp with
+vacate_started_at. The time-cap calculation uses vacate_started_at, but the
+state-threshold path is independent of receipt chronology.
+
+The finite witness below abstracts ISO timestamps as ordered minute values.
+All four receipts are earlier than the vacate start, yet the source-shaped
+seed-version gate accepts them and the source-shaped state threshold passes.
+This is a software-predicate counterexample, not an observed worker run.
+It does not establish source-to-model translation soundness or production
+behavior.
+-/
+
+namespace HsHVerification.EliasThreadingTemporalGate
+
+structure TemporalReceipt where
+  worker : String
+  artifact : String
+  seedVersion : String
+  outcome : String
+  timestampMinute : Nat
+  deriving DecidableEq, Repr
+
+def sampleSeedVersion : String := "demo-v1"
+
+def vacateStartMinute : Nat := 100
+
+/-- Source-shaped add_receipt acceptance: seed-version equality only. -/
+def sourceAddReceiptAccepts (r : TemporalReceipt) : Bool :=
+  r.seedVersion == sampleSeedVersion
+
+def allReceiptsAccepted (rs : List TemporalReceipt) : Bool :=
+  rs.all sourceAddReceiptAccepts
+
+/-- Explicit temporal relation omitted by the source return predicate. -/
+def allReceiptsPredateVacate (rs : List TemporalReceipt) : Bool :=
+  rs.all (fun r => r.timestampMinute < vacateStartMinute)
+
+def distinctWorkers (rs : List TemporalReceipt) : List String :=
+  (rs.map fun r => r.worker).eraseDups
+
+def distinctOutcomes (rs : List TemporalReceipt) : List String :=
+  (rs.map fun r => r.outcome).eraseDups
+
+/-- Source-shaped sample state threshold: count, worker strings, outcomes. -/
+def sourceSampleStateThreshold (rs : List TemporalReceipt) : Bool :=
+  (rs.length >= 4) &&
+  ((distinctWorkers rs).length >= 3) &&
+  (distinctOutcomes rs).contains "success" &&
+  (distinctOutcomes rs).contains "failure"
+
+def preVacateWitness : List TemporalReceipt :=
+  [ ⟨"Mercer", "case-001.json", "demo-v1", "success", 60⟩
+  , ⟨"Orson", "case-002.json", "demo-v1", "failure", 70⟩
+  , ⟨"Comptroller", "case-003.json", "demo-v1", "success", 80⟩
+  , ⟨"Aster", "case-004.json", "demo-v1", "success", 90⟩
+  ]
+
+theorem pre_vacate_witness_all_seed_versions_accepted :
+    allReceiptsAccepted preVacateWitness = true := by
+  decide
+
+theorem pre_vacate_witness_all_receipts_predate_vacate :
+    allReceiptsPredateVacate preVacateWitness = true := by
+  decide
+
+theorem pre_vacate_witness_state_threshold_passes :
+    sourceSampleStateThreshold preVacateWitness = true := by
+  decide
+
+/-- The encoded state threshold can trigger rejoin with only pre-vacate receipts. -/
+theorem return_gate_can_pass_using_only_pre_vacate_receipts :
+    allReceiptsAccepted preVacateWitness = true ∧
+    allReceiptsPredateVacate preVacateWitness = true ∧
+    sourceSampleStateThreshold preVacateWitness = true := by
+  decide
+
+#eval allReceiptsAccepted preVacateWitness
+#eval allReceiptsPredateVacate preVacateWitness
+#eval sourceSampleStateThreshold preVacateWitness
+
+#print axioms pre_vacate_witness_all_seed_versions_accepted
+#print axioms pre_vacate_witness_all_receipts_predate_vacate
+#print axioms pre_vacate_witness_state_threshold_passes
+#print axioms return_gate_can_pass_using_only_pre_vacate_receipts
+
+end HsHVerification.EliasThreadingTemporalGate
