@@ -1,0 +1,572 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "f16178f168e19d25e36186ebc927826a38d7068baaa50dd0c72e425b91b13a12",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-01T05:26:02.660586+00:00",
+  "query": "(author:user AND ((Tern OR \"Tern Rook\" OR Comptroller OR \"Active Edge Signalbox\") NEAR/18 (scheduler OR task OR lease OR branch OR authority OR signalbox OR \"one object\" OR \"one operation\"))) OR (author:user AND (\"Tern Rook\" OR \"Comptroller controls scheduled tasks\" OR \"one object + one operation\")) OR (name:*Tern* OR path:*Tern*) OR (author:assistant AND ((\"Tern Rook\" NEAR/12 Comptroller) OR (\"Active Edge Signalbox\" NEAR/12 Tern)))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16224,
+    "records_scanned": 20863150,
+    "hits": 18912
+  },
+  "counted_hits": 18912,
+  "distinct_sources": 206,
+  "results_by_root": {
+    "archive": 219,
+    "hsh-main": 18335,
+    "resources": 358
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*Tern*",
+      18528
+    ],
+    [
+      "name:*Tern*",
+      16448
+    ],
+    [
+      "Tern",
+      1535
+    ],
+    [
+      "author:assistant",
+      1082
+    ],
+    [
+      "task",
+      911
+    ],
+    [
+      "scheduler",
+      822
+    ],
+    [
+      "Tern Rook",
+      759
+    ],
+    [
+      "Comptroller",
+      549
+    ],
+    [
+      "lease",
+      501
+    ],
+    [
+      "branch",
+      482
+    ],
+    [
+      "authority",
+      442
+    ],
+    [
+      "one operation",
+      73
+    ],
+    [
+      "author:user",
+      71
+    ],
+    [
+      "one object",
+      69
+    ],
+    [
+      "one object + one operation",
+      66
+    ],
+    [
+      "signalbox",
+      45
+    ],
+    [
+      "Active Edge Signalbox",
+      20
+    ],
+    [
+      "Comptroller controls scheduled tasks",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "title": "Space Shuttle Roderick — Tern",
+      "record_count": 1051,
+      "best_score": 192,
+      "first_hit_index": 9,
+      "sample_hit_index": 371,
+      "locator": "message:b823a354-309f-47a6-b407-b6f922eb7d2a",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "scheduler",
+        "task",
+        "lease",
+        "branch",
+        "authority",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25•26.10.15•Space Shuttle Roderick — Tern — raw.json",
+      "title": "Space Shuttle Roderick — Tern",
+      "record_count": 875,
+      "best_score": 192,
+      "first_hit_index": 10,
+      "sample_hit_index": 372,
+      "locator": "message:b823a354-309f-47a6-b407-b6f922eb7d2a",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "scheduler",
+        "task",
+        "lease",
+        "branch",
+        "authority",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/TERN/2026-10-31T1236Z_H492_DISPATCH_AND_HANDOFF_EVENT_AUDIT.md",
+      "title": "2026-10-31T1236Z_H492_DISPATCH_AND_HANDOFF_EVENT_AUDIT",
+      "record_count": 117,
+      "best_score": 178,
+      "first_hit_index": 16535,
+      "sample_hit_index": 16560,
+      "locator": "line:138",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "task",
+        "signalbox",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-12T0836Z_from_s3_to_s4_tern_rook.md",
+      "title": "2026-10-12T0836Z_from_s3_to_s4_tern_rook",
+      "record_count": 44,
+      "best_score": 176,
+      "first_hit_index": 13359,
+      "sample_hit_index": 13372,
+      "locator": "line:24",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/TERN/CONTINUITY.md",
+      "title": "CONTINUITY",
+      "record_count": 200,
+      "best_score": 174,
+      "first_hit_index": 17136,
+      "sample_hit_index": 17321,
+      "locator": "line:77",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "signalbox",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (1).json",
+      "title": "Mercer Free Build",
+      "record_count": 2,
+      "best_score": 170,
+      "first_hit_index": 1565,
+      "sample_hit_index": 1565,
+      "locator": "message:00b1f49d-6407-4e13-93a7-40e855fd913f",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (2).json",
+      "title": "Mercer Free Build",
+      "record_count": 2,
+      "best_score": 170,
+      "first_hit_index": 1566,
+      "sample_hit_index": 1566,
+      "locator": "message:00b1f49d-6407-4e13-93a7-40e855fd913f",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3) [collision-75cb3471ef].json",
+      "title": "Mercer Free Build",
+      "record_count": 2,
+      "best_score": 170,
+      "first_hit_index": 1567,
+      "sample_hit_index": 1567,
+      "locator": "message:00b1f49d-6407-4e13-93a7-40e855fd913f",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3).json",
+      "title": "Mercer Free Build",
+      "record_count": 2,
+      "best_score": 170,
+      "first_hit_index": 1568,
+      "sample_hit_index": 1568,
+      "locator": "message:00b1f49d-6407-4e13-93a7-40e855fd913f",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11•26.10.15•Mercer Free Build — raw.json",
+      "title": "Mercer Free Build",
+      "record_count": 2,
+      "best_score": 170,
+      "first_hit_index": 1569,
+      "sample_hit_index": 1569,
+      "locator": "message:00b1f49d-6407-4e13-93a7-40e855fd913f",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "author:assistant"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-27T2100Z_from_s0_to_s1_tern_rook.md",
+      "title": "2026-10-27T2100Z_from_s0_to_s1_tern_rook",
+      "record_count": 27,
+      "best_score": 153,
+      "first_hit_index": 13540,
+      "sample_hit_index": 13558,
+      "locator": "line:33",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "task",
+        "branch",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-11T1736Z_s3_tern_rook.md",
+      "title": "2026-10-11T1736Z_s3_tern_rook",
+      "record_count": 52,
+      "best_score": 152,
+      "first_hit_index": 14352,
+      "sample_hit_index": 14372,
+      "locator": "line:36",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "authority",
+        "one object",
+        "one operation",
+        "one object + one operation",
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/EARLY LOGGED/2025-10-24_1627_# SAT Framework Phase I–II Internal Completion SnapshotAs of May 2025  Prepared for Nathan McKnight  .md",
+      "title": "2025-10-24_1627_# SAT Framework Phase I–II Internal Completion SnapshotAs of May 2025  Prepared for Nathan McKnight ",
+      "record_count": 79,
+      "best_score": 34,
+      "first_hit_index": 2002,
+      "sample_hit_index": 2002,
+      "locator": "line:10",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/EARLY LOGGED/2025-10-24_1144_Executive Summary Diagnostic Review of the Chronophysical Proposition (SAT)This document reviews the intern.txt",
+      "title": "2025-10-24_1144_Executive Summary Diagnostic Review of the Chronophysical Proposition (SAT)This document reviews the intern",
+      "record_count": 47,
+      "best_score": 34,
+      "first_hit_index": 1955,
+      "sample_hit_index": 1955,
+      "locator": "line:10",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/flc/_SITE_FEED/stories/concrete-afternoon.json",
+      "title": "concrete-afternoon",
+      "record_count": 33,
+      "best_score": 34,
+      "first_hit_index": 2141,
+      "sample_hit_index": 2141,
+      "locator": "$.author",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/NotebookLM_Internal States.txt",
+      "title": "NotebookLM_Internal States",
+      "record_count": 24,
+      "best_score": 34,
+      "first_hit_index": 2081,
+      "sample_hit_index": 2081,
+      "locator": "line:10",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/flc/_PARSED_TEXT/flc2_lo/stories/concrete-afternoon.json",
+      "title": "concrete-afternoon",
+      "record_count": 20,
+      "best_score": 34,
+      "first_hit_index": 2105,
+      "sample_hit_index": 2105,
+      "locator": "$.author",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/flc/_PARSED_TEXT/flc2_lo/stories/concrete-afternoon.txt",
+      "title": "concrete-afternoon",
+      "record_count": 16,
+      "best_score": 34,
+      "first_hit_index": 2125,
+      "sample_hit_index": 2125,
+      "locator": "line:1",
+      "matched_terms": [
+        "name:*Tern*",
+        "path:*Tern*"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json",
+      "locator": "message:bdf0080a-e2b6-48f6-80f4-a9c524d4519e",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "Active Edge Signalbox",
+        "signalbox",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json",
+      "locator": "message:bdf0080a-e2b6-48f6-80f4-a9c524d4519e",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "Active Edge Signalbox",
+        "signalbox",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json",
+      "locator": "message:bdf0080a-e2b6-48f6-80f4-a9c524d4519e",
+      "matched_terms": [
+        "Tern",
+        "Comptroller",
+        "Active Edge Signalbox",
+        "signalbox",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:c4f0aae9-3290-42c6-a5d0-b42c19a88255",
+      "matched_terms": [
+        "author:user",
+        "Comptroller",
+        "Comptroller controls scheduled tasks"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:c4f0aae9-3290-42c6-a5d0-b42c19a88255",
+      "matched_terms": [
+        "author:user",
+        "Comptroller",
+        "Comptroller controls scheduled tasks"
+      ]
+    },
+    {
+      "hit_index": 8,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24•26.09.24•Website Design Direction — raw.json",
+      "locator": "message:93362c8f-570f-4af1-9bdc-a081a1df9e04",
+      "matched_terms": [
+        "author:user",
+        "Active Edge Signalbox",
+        "branch",
+        "signalbox"
+      ]
+    },
+    {
+      "hit_index": 9,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "locator": "message:25086d47-855e-41f6-886c-7d817fc228d3",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "lease",
+        "name:*Tern*",
+        "path:*Tern*",
+        "author:assistant"
+      ]
+    },
+    {
+      "hit_index": 10,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25•26.10.15•Space Shuttle Roderick — Tern — raw.json",
+      "locator": "message:25086d47-855e-41f6-886c-7d817fc228d3",
+      "matched_terms": [
+        "Tern",
+        "Tern Rook",
+        "Comptroller",
+        "scheduler",
+        "lease",
+        "name:*Tern*",
+        "path:*Tern*",
+        "author:assistant"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
