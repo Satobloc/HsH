@@ -236,7 +236,7 @@ Issues #1126 (invalid intake schema) and #1128 (SHA mismatch) were closed as not
 
 ## 2026-11-01 source-grounded revival and historical charter recovery
 
-The original Tag Conversation Corpus raw export was recovered and parsed: conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob SHA-1 6668ca60e451f873790342372da7f9a430484e1; 515 mapping nodes, 514 messages (10 user, 363 assistant, 141 tool). The prior 3,678-node/3,677-message count is superseded. The ten user-role turns establish the cumulative corpus-tagging remit; the assistant proposed Loom and the user accepted the name and continuity requirement. No standalone signed charter or currently usable historical Loom thread was recovered.
+The original Tag Conversation Corpus raw export was recovered and parsed: conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9; blob SHA-1 6668ca60e451f8737903423727da7f9a430484e1; 515 mapping nodes, 514 messages (10 user, 363 assistant, 141 tool). The prior 3,678-node/3,677-message count is superseded. The ten user-role turns establish the cumulative corpus-tagging remit; the assistant proposed Loom and the user accepted the name and continuity requirement. No standalone signed charter or currently usable historical Loom thread was recovered.
 
 The March 22, 2024 DIMENSIONAL GRAVITY raw source is also recovered: conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; blob SHA-1 2cea1924266418e19b825b95ae51e6b7cbace7e1; 466 mapping nodes, 465 messages, 138 user turns. The first 30 user turns were tagged. They establish an early geometric scaffold by March 22, not completion or physical validation of the later full theory. The remaining 108 user turns were not reviewed in this pass.
 
@@ -245,3 +245,14 @@ Current-assistant first-blush reconstruction (not historical Loom testimony): WO
 The Common definitions initiative already exists; do not duplicate the bulletin post. Mercer’s crosswalk inventory remains active source discovery, not a canonical glossary. The viewer conversation-ID tag implementation exists; a glossary definition popover was not verified as deployed.
 
 The next source cursor is DIMENSIONAL GRAVITY user turn 31 of 138. Unrelated reading cursor: fun break - lx.txt line 221. FIE last full review 2026-10-27; 14-day rereview not due.
+
+
+## 2026-11-01T2036Z | source-identity correction
+
+The 2026-11-01 charter-recovery report and downstream summaries contained a malformed 39-character Tag Conversation Corpus blob transcription. Correct 40-character SHA-1 is `6668ca60e451f8737903423727da7f9a430484e1`, verified in both duplicate main-tree paths and by successful blob fetch. Amendment 01 to the 16:48 source report records the correction.
+
+The 2025-09-18 train-track Compendium entry was corrected to the exact user-role text in The Tourist Tailor [e-], conversation `68cad3d4-0ccc-8325-be36-94c5b5527997`, message `9dc27aac-b34d-46db-8bb1-be603ba3fb73`, SHA-256 `b35d770dc0ef53d851ca82f56b88709b9f943898113805cdd366fd1d56b5f7b2`. Aster issue #1184 used the wrong ASTER conversation locator and a nonmatching digest; the ASTER export contains no target message. The displaced Compendium blockquote remains origin-unresolved.
+
+The source-binding formalization is in existing PR #759, module `LoomCompendiumSourceBinding.lean`; Actions run #41348776901 was pending at last check. Correction publication issue #1225 is pending verification. Aster received an optional context-only repository handoff; no task or ownership transfer.
+
+Next Loom source cursor remains DIMENSIONAL GRAVITY user turn 31 of 138; unrelated-reading cursor `fun break - lx.txt`, line 221. No physical calculation or theory promotion.
