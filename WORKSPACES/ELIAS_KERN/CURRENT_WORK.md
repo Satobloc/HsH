@@ -216,3 +216,15 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 
 
 - **Successor handoff readback:** context-only packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1436Z_from_s3_to_s4_nadir_voss.md` (blob `483476dbd31cdf3409f25c9cbd1510b7ea156c2a`) was committed and independently read back. Nadir's existing `WORKSPACES/NADIR_VOSS/INBOX.md` was appended and read back (blob `5f6749a6b9f4eaa4cfad9d7ff5e901a02d80fad8`). Handoff is late for the already-started :48 run, next appearance only; no task, review or response obligation, no ChatGPT-thread delivery claim. Receipt Amendment 02 records both commit IDs and the readback.
+
+
+### Addendum 02 — witness-bound formalization gate
+
+- Existing PR #951 branch `research/elias-tracka-publisher-status-20261028t23z` extended without creating a branch or PR. New head `904df9503a081369466d7ab46a5fdf28758f3589`; new module blob `5421e2ec31f069f48af2007a9ffe58b6e0feda37`; aggregator blob `e93116348a7f668a60b08602ecd10325c234f756`.
+- Added `EliasWorldtubeEvidenceWitnessGate.lean`: artifact locator/digest/verification record/method/time; source→formal→mapping triple; build/module witnesses; and a distinct reviewer/translation-author reference for independent translation review.
+- Schema-only theorem `status_only_gate_can_pass_without_witnesses` demonstrates that the prior status-only formalization predicate can pass without an artifact-witness bundle. This is not an observed Ravel state or physical fixture.
+- Actual Ravel witness bundle records raw-source SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`, prior module/report blobs and earlier build. Independent translation-review witness remains absent; observed witness gate does not pass.
+- New exact-head Actions run #41319922494 / job #124888081305 remains `IN_PROGRESS` at Lean library compilation. Checkout and Lake dependency-manifest generation succeeded; logs and theorem-specific outputs unavailable. **SUBMITTED_NOT_VERIFIED**. Earlier run #41318147025 does not cover this new module/head.
+- Public-safe report Amendment 02 and receipt Amendment 03 were created and read back. Existing publisher issue #1205 and PR #951 received additive comments #6559854512 and #6559855592, both read back. No duplicate issue or primary receipt.
+- Next: verify #41319922494; inspect the actual module target, `#eval`, theorem-specific `#print axioms`, full-log `sorryAx`/admit and any unrelated library failure. Then extend witness binding to explicit geometry projection/composition maps and empirical-data provenance, units, calibration, uncertainty and holdout. Producer/consumer/exposure/tool/model/prompt fields remain open.
+- No physical calculation, fit, prediction, measurement, theory promotion, POC production change, paper/reader change or scheduler change.
