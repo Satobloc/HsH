@@ -291,3 +291,27 @@ theorem historySpatialProjection_noninjective_of_persistence
 #print axioms historySpatialProjection_noninjective_of_persistence
 
 end HsHVerification.RavelCarrierSliceReconstruction
+
+
+/-!
+## Product-space persistence dimension
+
+A finite-dimensional real spatial vector space crossed with one real
+persistence coordinate has one additional vector-space dimension. This is
+a product-space theorem only; it does not prove that a physical support
+history is a product manifold or that its evolution is regular.
+-/
+
+namespace HsHVerification.RavelCarrierSliceReconstruction
+
+/-- A finite-dimensional real carrier crossed with one real time coordinate
+has dimension one greater. -/
+theorem product_with_time_line_adds_one_dimension
+    (V : Type u) [AddCommGroup V] [Module ℝ V] [Module.Finite ℝ V] :
+    Module.finrank ℝ (V × ℝ) = Module.finrank ℝ V + 1 := by
+  rw [Module.finrank_prod]
+  simp
+
+#print axioms product_with_time_line_adds_one_dimension
+
+end HsHVerification.RavelCarrierSliceReconstruction
