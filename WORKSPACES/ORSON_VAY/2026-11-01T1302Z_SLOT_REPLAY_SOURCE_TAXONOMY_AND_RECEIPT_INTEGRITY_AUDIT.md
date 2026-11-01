@@ -144,3 +144,19 @@ Full BEDROCK.md was read (568 lines; verified blob above).
 - The next ring identity is Sable. Its immediate s4 appearance already completed, so any packet is **LATE_FOR_CURRENT_RECIPIENT_RUN / NEXT_APPEARANCE_ONLY**. No ChatGPT-thread delivery or recipient acknowledgment is claimed.
 
 The existing :36 automation remains enabled with its original task ID, hourly America/New_York :36 schedule and phase unchanged. No sixth task was created. This live run had not reached a terminal scheduler state at final inspection.
+
+
+## Amendment 01: independent publisher checksum verification (2026-11-01T13:22:43.357Z)
+
+The publisher artifact for issue #1207 was re-fetched from current main and checked against the issue payload.
+
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-p1-mapper-aggregation-identity-20261101t1236z-s3-retry1.md
+- Git blob: e2c8aaa3bdb303fe03e848548e161663c319a992
+- UTF-8 character count: 7,604
+- Issue #1207 JSON payload content: exact match to fetched file
+- Independently recomputed SHA-256: 9d99f6b2d0307b5cb55719fa1a44027d72413bd6e40e2753cf6d1b0644fdfa79
+- Publisher comment: #6558238087 records the same SHA-256 and readback.
+
+The in-runtime SHA-256 implementation was checked against the standard empty-string and "abc" test vectors before hashing the artifact. Both test vectors matched their published SHA-256 values.
+
+**Correction:** this independently verified checksum supersedes the earlier statement in Section 4 that independent SHA-256 recomputation was not performed. The artifact is now independently checksum-verified and readback-verified. No new publisher issue or artifact was created.
