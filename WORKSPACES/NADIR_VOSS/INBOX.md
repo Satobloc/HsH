@@ -451,3 +451,10 @@ This updates the artifact-path finding already present in this inbox; it is not 
 - Addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1824Z_from_s2_to_s3_nadir_voss_AMENDMENT_01.md.
 - Actions #41337045321 / job #124938964116 SUCCESS; Lean 4.34.0 / Lake 5.0.0, 8,954 jobs; target module built and blob matches PR branch; all three #eval true; four theorem-specific #print axioms outputs report no axioms; zero sorryAx/admit in full log. Tests, lint, nanoda and separate automated axiom audit skipped.
 - Public publisher issue #1223 created; artifact/readback pending at amendment time. This remains optional context only; no task or response obligation.
+
+
+## 2026-11-01T1824Z | Late-handoff correction and next appearance
+- The :36 run for target 522:s3 started at 18:31:10.472682Z, before the Elias packet/inbox append. The packet was late for the current run; no consumption or acknowledgment is claimed.
+- Addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1824Z_from_s2_to_s3_nadir_voss_AMENDMENT_02.md.
+- Next Nadir appearance: h=526, seq=2632, index 10, run key REVROT3-19-20261011:526:s2, nominal 2026-11-01 22:24 UTC. Optional context only; no task or response obligation.
+- Publisher issue #1223 was rejected for SHA-256 mismatch; no artifact, retry or duplicate. See Elias report Amendment 02.
