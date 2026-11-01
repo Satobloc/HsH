@@ -27,26 +27,26 @@ The 2024 `DIMENSIONAL GRAVITY` construction (raw conversation blob `2cea19242664
 
 ## 2. Conditional dimension result
 
-Let the ambient space be 4D and the timesheet be a 3D embedded submanifold. Let the intrinsic carrier dimension be (k), left as a parameter.
+Let the ambient space be 4D and the timesheet be a 3D embedded submanifold. Let the intrinsic carrier dimension be k, left as a parameter.
 
 For a smooth embedded carrier with a suitable normal complement:
 
-\\[
-\\operatorname{rank}(\\nu C)=4-k.
-\\]
+\[
+\operatorname{rank}(\nu C)=4-k.
+\]
 
 For a transverse intersection:
 
-\\[
-\\dim(C\\cap\\Sigma_t)=k+3-4=k-1
-\\quad (1\\leq k\\leq4).
-\\]
+\[
+\dim(C\cap\Sigma_t)=k+3-4=k-1
+\quad (1\leq k\leq4).
+\]
 
 For a full-dimensional 4D worldtube region:
 
-\\[
-\\dim(W^4\\cap\\Sigma_t)=4+3-4=3
-\\]
+\[
+\dim(W^4\cap\Sigma_t)=4+3-4=3
+\]
 
 under the corresponding nonempty transverse-intersection assumptions.
 
@@ -65,7 +65,7 @@ under the corresponding nonempty transverse-intersection assumptions.
 - 4D ambient manifold, 1D filaments, and a 3D propagating wavefront in the July 2025 SAT.O directive (unbylined source).
 - A 1D curve and a separately defined 4D worldtube volume swept by the vibrating filament in the June 2025 SAT4D draft (document-level Nathan McKnight byline; AI assistance acknowledged).
 - In the 2026 Nathan Direct source: one helical core, hollow outer winding, a 3D intersectional trace, and an interacting 3D timesheet bulk. A second-order core is explicitly rejected.
-- \`epsilon\`, \`ell_f\`, and the worldtube axis-to-circumference dimension remain distinct.
+- `epsilon`, `ell_f`, and the worldtube axis-to-circumference dimension remain distinct.
 
 **Conditionally forced by standard geometry:**
 - If the carrier is a smooth 1D embedded curve in a 4D ambient space and the chosen construction is a normal-bundle tube, the normal-complement rank is 3.
@@ -75,10 +75,10 @@ under the corresponding nonempty transverse-intersection assumptions.
 
 **Not forced by the current sources:**
 - A normal-bundle tube as the actual worldtube construction; the SAT4D draft says “swept by the vibrating filament” but does not define the sweep map.
-- A constant circular cross-section, a specific normal radius, or identifying \`epsilon\` with a normal-bundle radius.
+- A constant circular cross-section, a specific normal radius, or identifying `epsilon` with a normal-bundle radius.
 - Any twist/normal connection, contact surface, boundary condition, or constitutive response. These require explicit maps and laws; dimension counting alone does not produce them.
 - A Kerr-core identification or responsive-medium soliton; both remain tentative.
-- Any equality among \`epsilon\`, \`ell_f\`, and the worldtube axis-to-circumference dimension.
+- Any equality among `epsilon`, `ell_f`, and the worldtube axis-to-circumference dimension.
 
 The source therefore forces a 4D worldtube-volume role in the SAT4D draft and a 3D timesheet interaction in the later direct account, but it does not yet force one unique construction of the volume, its cross-section, twist, or contact response.
 
