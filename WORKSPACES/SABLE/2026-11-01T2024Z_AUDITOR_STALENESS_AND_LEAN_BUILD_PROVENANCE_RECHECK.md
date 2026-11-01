@@ -140,3 +140,22 @@ This append-only addendum supplies full locators where the main report abbreviat
 - Ravel source-audit supplement blob: `6ac44df8a144178491f713ffe468740e60c9f5b2`.
 
 These full hashes supersede the abbreviated locators in the main report. No substantive conclusion changes.
+
+
+## Addendum 02 — Mersearch receipt and secondary-source locators
+
+The completed bounded request `sable-j3-j2-original-source-crosswalk-20261101-0128` has these exact receipt locators:
+
+- Manifest blob: `b6514942294d3480a561c51330b00b84995a66bf`.
+- Compact JSON receipt blob: `1e330cfc3449347a508a4e56257c5a3b89795f35`.
+- Compact Markdown receipt blob: `279d6b6243afee76420419dd6dc08050dd3f9974`.
+- Source-results SHA-256 recorded by the compact receipt: `7fcc4e466209adacaed362d24a5be7428611258980871d9de3097335ae7e8dd0`.
+- Search implementation: Mercer_Searcher_1.0 / stable commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
+- Bounded search receipt: 16,185 files, 20,860,801 records, 64,145 hits, 212 distinct source paths; generated 2026-11-01T03:55:45.564811Z. This is a navigation receipt, not an exhaustive result listing; raw result files were not available in the compact manifest policy.
+
+Additional secondary files inspected from the archive:
+
+- `HYPERFOAM THEORY/SAT4DHHUC.txt`: blob `2e1e163771dda9bd1132290ce758ef6d80a6d0fb`; transcript-like, no speaker labels or reliable source-date/author metadata.
+- `SATOBLOC MISC/SAT4D_MATHEMATICAL_BACKBONE.txt`: blob `6e387df84ef93d8308795020f4cb4fa286a41feb`; assistant-style summary, no independent source authority.
+
+These records do not alter the direct-source boundary or authorize a new equation, symbol, physical map, or theory promotion.
