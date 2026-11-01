@@ -71,13 +71,18 @@ The Library-source properties and classifications are external audit inputs. Lea
 The new module and root aggregator import were committed to the existing PR #790 branch:
 
 - Branch: `research/ariadne-primary-role-transclusion-20261027t1924z`
-- New module commit: `0c1e94575dbf40a4fe7a15c875674468858330c9`
+- Initial module commit: `0c1e94575dbf40a4fe7a15c875674468858330c9`
 - Root aggregator commit: `75cf70aab083c1224953c913739bb70321bdfc13`
-- Latest observed PR head at report creation: `0c1e94575dbf40a4fe7a15c875674468858330c9` (pending live readback)
+- Follow-up module commit distinguishing character-speaker labels from outer conversation roles: `c5db562e92c47f147ea153a66e38589a4dfba0b4`
+- Latest observed PR head: `c5db562e92c47f147ea153a66e38589a4dfba0b4`.
 
-The module includes actual `#eval` checks and theorem-specific `#print axioms`. No local Lean executable is installed in this runtime. GitHub Actions status for the updated head was not yet visible at the last check. Therefore:
+The source sections contain six `Kirk:` and nineteen `Spock:` line starts in the shared core. Searches of the two sections found no `User:`, `Assistant:`, `ChatGPT:`, or `Nathan:` conversation-role labels. Thus the mixed sections can support attribution of explicitly labelled character dialogue, but not outer ChatGPT message-role attribution. The labels are inside the same shared core and are not independent witnesses.
 
-`LEAN_NOT_YET_VERIFIED / CI_PENDING`.
+The MARLOWE raw export has outer `user` role metadata, message identity, conversation identity, and timestamps for the relevant statement. Its `author.name` is null, so the export supports user-role attribution and chronology, not independently authenticated author-name attribution.
+
+The module includes actual `#eval` checks and theorem-specific `#print axioms`. No local Lean executable is installed in this runtime. Actions run #41294522786 belongs to the earlier head `0c1e94575dbf40a4fe7a15c875674468858330c9`, not the current head; its job remained in progress and its log endpoint returned `BlobNotFound`. No workflow run for the current head was visible at the last check.
+
+`LEAN_NOT_YET_VERIFIED / CI_PENDING_FOR_CURRENT_HEAD`.
 
 Do not infer proof success from the commit or prior PR #790 build.
 
