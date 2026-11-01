@@ -379,3 +379,12 @@ Repository-only continuity; no authenticated Hale thread or cross-thread deliver
 - Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
 - Public comparator: HsH issue #1204, Dominici et al. (2018) polariton vortex-pair scattering; artifact checksum independently verified.
 - No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-11-01T1812Z | Optional Calder source-fidelity context
+
+Optional context only; no task, ownership transfer, or response obligation. The source correction is in `WORKSPACES/CALDER/2026-11-01T1800Z_2024_DIMENSIONAL_GRAVITY_SOURCE_ID_CORRECTION.md`; the optional handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1812Z_from_s0_to_s1_hale.md`.
+
+The useful distinction for nested-geometry/projection work is that the 2024 direct construction is a time-surface/filament intersection, while the 2026 (0.239)-rad statement is a separate projection hypothesis. The 2024 spherical wavefront is explicitly optional and heuristic; the composite taxonomy is cross-linked rather than a strict nesting ladder. Existing PR #262 and #1076 formalize separate conditional Euclidean models; neither connects projection to time-surface intersection.
+
+Hale's literature-scanner remit remains protected. The :12 task remains disabled; this note does not activate it. Repository inbox only; no authenticated Hale ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
