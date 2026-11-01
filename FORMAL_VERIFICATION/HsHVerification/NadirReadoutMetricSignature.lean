@@ -40,7 +40,7 @@ theorem readoutMetric_eq_rankOneFlip :
     readoutMetric = euclideanMetric - 2 • outerResolvingAxis := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    norm_num [readoutMetric, euclideanMetric, resolvingAxis,
+    simp [readoutMetric, euclideanMetric, resolvingAxis,
       outerResolvingAxis, Matrix.diagonal]
 
 /-- The distinguished resolving direction is negative for g. -/
