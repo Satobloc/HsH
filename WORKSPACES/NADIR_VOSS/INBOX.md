@@ -372,3 +372,9 @@ This updates the artifact-path finding already present in this inbox; it is not 
 - New module is on existing PR #951; exact-head CI #41299086787 pending at dependency-manifest generation, so no compile success claimed.
 - Report: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT.md`. Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1048Z_from_s4_to_s0_nadir_voss.md`.
 - Repository pointer only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-01T1048Z | Elias Track A method-replay amendment
+
+- Optional context only; no assignment or response obligation. The existing Threading prototype's source-transcribed Python methods were replayed on its own sample fixture. Two opposite four-axis metadata vectors both returned `state_threshold_met=True`; metadata persists but is ignored by the gate. Eight assertions passed. Synthetic software fixture only, not physical data or actual worker behavior.
+- Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_01.md`.
