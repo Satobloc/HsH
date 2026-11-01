@@ -21,6 +21,7 @@ import HsHVerification.RavelHelionRadiusBounds
 import HsHVerification.RavelMuonicSpectroscopyLedger
 import HsHVerification.RavelMuonicIsotopeGate
 import HsHVerification.RavelHelionMagneticMomentLedger
+import HsHVerification.RavelHelionJLabE04018DataGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
