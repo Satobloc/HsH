@@ -113,7 +113,8 @@
       1117,
       1165
     ],
-    "new_issue_created": false
+    "new_issue_created": false,
+    "pr_body_artifact_link_update": "BLOCKED_BY_TOOL_SAFETY_NO_BYPASS"
   },
   "handoff": {
     "incoming_mercer": "READ_OPTIONAL_CONTEXT_ONLY",
@@ -121,7 +122,8 @@
     "cross_thread_delivery_claimed": false,
     "ravel_inbox_append": "BLOCKED_BY_TOOL_SAFETY_BEFORE_MUTATION_NO_BYPASS",
     "common_receipt_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0140Z_s0_ravel.md",
-    "common_receipt_commit": "c0176e7a01b0b5402f7379f2adb90a5d942299a6"
+    "common_receipt_commit": "c0176e7a01b0b5402f7379f2adb90a5d942299a6",
+    "common_receipt_readback": "VERIFIED"
   },
   "research_controls": {
     "physical_calculation": false,
@@ -132,8 +134,9 @@
     "unrelated_reading_break_already_completed": "2026-10-31"
   },
   "local_artifacts": {
-    "full_report_sha256": "e48ab0cc270f9faeacab525764356c0d93496864fbcb13a03898d7c229db435c",
-    "source_manifest_sha256": "f671f0f9ebc3dde8e9687f5a0728a7ab951ce09d3b417cbc2d396cf94fdf9947",
-    "bundle_sha256": "a5c0d4428dd64443db281575220a212c3946f530b862f3904f2c35983cf02ef2"
+    "full_report_sha256": "f269e4f0d845b165335b3aa0f44b9ddb7b4285a790755fd5af3665bb97768b31",
+    "local_source_manifest_sha256": "02bd7e66368e0e4d57150379b9ab516097bba6e92c1d5fa54aa64bd634818de4",
+    "rotation_receipt_sha256": "637bf7228b82e454b6af14e39255892d8891b85af93d235a991ac5cd3d47fbdb",
+    "bundle_sha256": "782658fb9d6762851128f27b4f2f365be4821176628418c3b2953ea55f462573"
   }
 }
