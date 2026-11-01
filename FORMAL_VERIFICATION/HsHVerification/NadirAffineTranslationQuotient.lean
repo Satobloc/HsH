@@ -278,7 +278,7 @@ theorem frobeniusSqEntries_eq_trace (A : Mat4) :
   rw [← Finset.univ_product_univ, Finset.sum_product]
   simp only [Matrix.trace, Matrix.diag_apply, Matrix.mul_apply,
     Matrix.transpose_apply, pow_two]
-  exact (Finset.sum_comm (fun i j : Fin 4 => A j i * A j i)).symm
+  exact (Finset.sum_comm (Finset.univ : Finset (Fin 4)) (Finset.univ : Finset (Fin 4)) (fun i j : Fin 4 => A j i * A j i)).symm
 
 /-- The existing Run 141 residual implementation is exactly the
     log-scale term plus the trace-form Frobenius-squared residual. -/
