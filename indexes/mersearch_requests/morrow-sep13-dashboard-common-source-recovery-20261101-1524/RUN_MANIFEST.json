@@ -1,0 +1,79 @@
+{
+  "request_id": "morrow-sep13-dashboard-common-source-recovery-20261101-1524",
+  "query": "author:user AND date:2026-09-12..2026-09-14 AND ((Morrow NEAR/12 (workspace OR \"Team Archivist\" OR \"Common participation\" OR archive)) OR (\"task workspace\" NEAR/12 (Common OR Morrow OR archive)) OR \"routine Common participation\" OR (\"Dashboard\" NEAR/15 (quarantine OR viewer OR navigation OR overview)) OR (\"Conversation Viewer\" NEAR/15 (annotation OR provenance OR open OR message)) OR (\"LIVE CONVOS\" NEAR/12 (Dashboard OR ACTIVE OR folder)))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "ada8c3ee2440a2c0ad35c67552ac3719989d3f49",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "f26116e2a5f3b6581a1125f93bcad465c1175dc5",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "ada8c3ee2440a2c0ad35c67552ac3719989d3f49",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "a833482fa5510231f3e3d35afaa5ed852e2cce1926ad98c28a45f05a9264a86d",
+    "SEARCH_RESULTS.md": "0a91764766d9048efd0c2bdc8e1daf81bb1c6861ab1b6f0b3158eb3608c6fcaa",
+    "SEARCH_RECEIPT.json": "ab12f7f12a834886d9c32d8a34176514d56e78f94c6b2f6d7bc7cf4babdc9e7d",
+    "SEARCH_RECEIPT.md": "ffd533ac9bff2b6cb6202c3ab49275c814f4bcd62a9ed1edceab80527428c210"
+  }
+}
