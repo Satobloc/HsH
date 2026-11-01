@@ -274,7 +274,7 @@ chat_delivery=UNAVAILABLE; recipient_consumption=UNVERIFIED. This repository not
 **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION**
 
 - Common handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0436Z_from_s3_to_s4_ravel.md
-- Handoff blob: pending final readback.
+- Handoff blob: e3fbe0cddd9e4a21dc4dc7349221f840675788ab; exact-path readback verified.
 - Full Mercer report: WORKSPACES/MERCER/2026-11-01T0436Z_R1_SOURCE_DERIVED_RENDERER_CONFORMANCE_VECTORS.md
 - Report blob: ebd7379ce493eaac8c71fca98eb7bb58a6ddcf4a
 - Public publisher issue: #1193, submission mercer-r1-renderer-source-vectors-20261101t0436z-s3-001; SHA-256 f5c5782dcda29c168780212792a5eb6b25e04489ac08d0e0c730c4da09749e37; publication readback pending at inbox append.
@@ -288,4 +288,4 @@ Code Grurple remains ACTIVE. Both actual routes remain ACCESS_UNAVAILABLE / ROUT
 
 Ravel's finite-core/worldtube and mathematical-audit remit is unchanged. No task, response obligation, ownership or priority transfers.
 
-chat_delivery=UNAVAILABLE; recipient_consumption=UNVERIFIED.
+github_inbox_delivery=VERIFIED; chat_delivery=UNAVAILABLE; recipient_consumption=UNVERIFIED.
