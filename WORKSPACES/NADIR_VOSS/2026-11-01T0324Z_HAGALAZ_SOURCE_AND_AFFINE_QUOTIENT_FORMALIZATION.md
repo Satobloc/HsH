@@ -139,7 +139,7 @@ The SAT4D 3-form and Blockwave 2-form distinction remains under the existing Sab
 
 Existing public issue #1181 remains the sole publication for the prior typed-holonomy source-lineage report. Its issue payload and published artifact were fetched independently and matched exactly:
 
-- Artifact blob: `9a2e7f4f9e88d3c6e9a2cbded7bbd1a9d2f5a5c0`.
+- Artifact blob: `9a2e69344ec0990e707c8b0151e7f856ef0eb092`.
 - Artifact length: 6,522 characters.
 - Publisher SHA-256 recorded in the issue payload: `a7faff9e613438415bfe880aa025bf3f769377b2c07608a09a2fd26e2f05364e`.
 
