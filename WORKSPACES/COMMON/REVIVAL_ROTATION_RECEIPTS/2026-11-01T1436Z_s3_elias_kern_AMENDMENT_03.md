@@ -48,3 +48,41 @@ Carry Actions run #41319922494 to the next available verification pass. If it fa
 ## Next cursor
 
 Verify Actions #41319922494 on PR #951 head `904df9503a081369466d7ab46a5fdf28758f3589`. Then bind the geometry projection/composition and measured-data/uncertainty gates to equally explicit evidence witnesses, including source/producer, consumer permissions, exposure, tool/model/prompt version and holdout identity.
+
+
+## 6. Final Lean verification update | 2026-11-01 15:17Z
+
+The pending run completed successfully.
+
+- Actions run #41319922494, run number 840; job #124888081305 (`verify`): **SUCCESS**.
+- Checked-out source commit: merge ref `8fb572775802525d15944a65c5e78bca553053fd`.
+- Lean 4.34.0; Lake 5.0.0.
+- Full library build: **8,954 jobs**, successful.
+- New module `HsHVerification.EliasWorldtubeEvidenceWitnessGate`: built at 8952/8954.
+- Root aggregator: built at 8953/8954.
+- New module Git blob is identical between PR head and merge ref: `5421e2ec31f069f48af2007a9ffe58b6e0feda37`.
+- Both branch and merge-ref aggregators import the new module. Their blobs differ because the merge-ref aggregator also includes the base-branch `NadirHelixSliceGeometry` import. Branch aggregator blob: `e93116348a7f668a60b08602ecd10325c234f756`; merge-ref aggregator blob: `aca1a3fe34c639f54424ff15af16a961ac56f9bb`.
+- Therefore: **`MERGE_REF_BUILD_SUCCESS / EXACT_PR_HEAD_STANDALONE_NOT_RUN`**. The module itself was compiled in the successful merge-ref build; do not describe this as a separate exact-head standalone build.
+
+Actual `#eval` output:
+
+```text
+true
+true
+false
+```
+
+These correspond to source-content witness present, source-to-formal trace present, independent-translation-review witness absent.
+
+The theorem-specific `#print axioms` results:
+- `statusOnlyPassExample_formalization_gate`: `propext`.
+- `status_only_gate_can_pass_without_witnesses`: `propext`.
+- `witness_gate_implies_status_gate`: `propext`.
+- `independent_review_witness_requires_distinct_refs`: `propext`.
+- `observedRavel_source_and_build_witnesses_well_formed`: `propext`, `Classical.choice`, `Quot.sound`.
+- `observedRavel_independent_translation_review_witness_missing`: no axioms reported.
+- `observedRavel_witness_gate_not_passed`: `propext`.
+
+Complete job-log scan: zero `sorryAx`, zero `admit`. The workflow skipped separate tests, lint, nanoda and automated axiom-audit stages; theorem-specific `#print axioms` commands did execute.
+
+The successful build verifies the encoded workflow propositions only. It does not authenticate external artifacts, recompute their hashes, establish source-to-formal translation soundness, prove intellectual independence, instantiate the missing physical maps, or validate any physical premise.
