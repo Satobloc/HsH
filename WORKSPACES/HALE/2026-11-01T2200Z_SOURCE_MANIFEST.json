@@ -1,0 +1,156 @@
+{
+  "run_key": "REVROT3-19-20261011:526:s0",
+  "nominal_utc": "2026-11-01T22:00:00Z",
+  "rotation": {
+    "h": 526,
+    "seq": 2630,
+    "index": 8,
+    "selected": "Hale",
+    "next_index": 9,
+    "next": "Elias Kern"
+  },
+  "scheduler": {
+    "existing_00_task_preserved": true,
+    "enabled_state_changed": false,
+    "task_id_changed": false,
+    "schedule_changed": false,
+    "phase_changed": false,
+    "sixth_task_created": false
+  },
+  "identity": {
+    "selected_label": "Hale",
+    "authenticated_chatgpt_thread": false,
+    "role_basis": "Sable REV-006 Hale reentry packet and 2026-09-12 Common check-in; no authenticated raw Hale thread or standalone signed charter recovered",
+    "blind_review": false
+  },
+  "repositories": {
+    "HsH_main_prewrite": "b35f17f502e7985c7684cfbfc66a60448a943165",
+    "HsH_after_report_commit": "b759941b9916e6e5fc6ea490de8db89d926c35c8",
+    "HSH_RESOURCES_main": "364264faf467fdaa06b9c7a3db9ab836db058806",
+    "SAT_THEORY_ARCHIVE_2023_25_main": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+    "task_branch_graph_blob": "3c341c616aa893bf56ad5ad5919e09a17e0c2b46"
+  },
+  "controls_read": {
+    "BEDROCK": "38a5b8f4c9d573e54ca4a449be70d0a7d94a484c",
+    "STEERING_CHARTER_2026_10_26": "5f4263381afcb065e9062d5b5885593d0baa58db",
+    "THREE_PAPER_CAMPAIGN_2026_10_26": "9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0",
+    "REVIVAL_ROTATION_V4": "6761337dfcd0847226ee7baad84db0a9c496760a",
+    "THREAD_FIRST_RULE": "e79707587914edb76afca1c32f9f4dad4d0324b7",
+    "WORKER_AUTONOMY_HANDOFF": "7a21c87311d2c812209fa08fe50a4246c8b53761",
+    "SCHEDULER_AUTHORITY": "9f7ffbbf0fe77fd4c561a110c9dbb2b686a88b45",
+    "CURRENT_WORKFLOW_ORIENTATION_V2": "2bb6d996ca61f41b2b3fb34480cab1acf906bd4f",
+    "ONBOARDING_REVIEW_STATE": "fbecfbdd3e31797f5216ff5b13eee57337285c25",
+    "HALE_REENTRY_PACKET": "2840500bec1873fc634e564f83d7eda7d1da74f0",
+    "COMMON_CHECKINS": "886069e71d4aec7a3f8d199d6d889b930a05c17e"
+  },
+  "primary_sources": [
+    {
+      "title": "DIMENSIONAL GRAVITY",
+      "conversation_id": "252d05c0-22ed-4ea2-a474-7966ab13145a",
+      "raw_blob": "2cea1924266418e19b825b95ae51e6b7cbace7e1",
+      "date_range": "2024-03-22 to 2024-03-23",
+      "class": "raw role-tagged Nathan Direct messages"
+    },
+    {
+      "title": "Meridian Free Build",
+      "conversation_id": "6ac45d1f-17b0-83ea-ad1f-fa524602378b",
+      "raw_blob": "7af1561b321f4d9364da5eb111df689efc652827",
+      "date_range": "2026-10-06 to 2026-10-20",
+      "mapping_nodes": 2500,
+      "message_nodes": 2499,
+      "user_messages": 80,
+      "assistant_messages": 956,
+      "tool_messages": 1463,
+      "class": "raw role-tagged conversation export"
+    }
+  ],
+  "adjacent_documents": [
+    {
+      "path": "LIBRARY/presented/SAT_HowTo_AnalogueToCalibration.tex",
+      "blob": "57d249bb6eb2bbd8c4585fe5bb74e523877e1db1",
+      "lines": 383,
+      "class": "assistant/Caliper method note; analogue-to-calibration workflow"
+    },
+    {
+      "path": "WORKSPACES/STORYO/SOLVER_PACKAGE_2026-09-28/geometry_engine.py",
+      "blob": "902b7dfb10647b5f19bd0bb4997b1bcafe52b104",
+      "lines": 126,
+      "class": "3D geometry engine; not 4D solver"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "DIMENSIONAL_NORMALIZATION.tex",
+      "blob": "52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1",
+      "lines": 1455,
+      "date": "2026-09-09",
+      "authors": "Nathan McKnight and Janus C. Sol",
+      "class": "historical w=ct normalization control; no new physical ontology"
+    }
+  ],
+  "existing_formalizations": {
+    "PR262": {
+      "head": "c7dc2c483f50ae03fc7a7c530829170135e18d92",
+      "module_blob": "3e47ffa6d6bcd534abdedf18ea865fb2941a0947",
+      "workflow_run": 41301288857,
+      "job": 124832543107,
+      "merge_ref": "7c12dfffdff7e003ca7cb7a2bb00c3dabf59aac1",
+      "jobs": 8944,
+      "status": "SUCCESS_MERGE_REFERENCE_NOT_EXACT_HEAD",
+      "scope": "conditional affine helix/slice radius and phase-rate geometry"
+    },
+    "PR1076": {
+      "head": "e0a9b84abdadb17e6ff64900c9e177881364074d",
+      "module_blob": "bf14b8de776bb61a94240d3f96e7e21eb9af9c1e",
+      "workflow_run": 41003676062,
+      "job": 123893649859,
+      "merge_ref": "7ce0bf0",
+      "jobs": 8944,
+      "status": "SUCCESS_MERGE_REFERENCE_NOT_EXACT_HEAD",
+      "scope": "conditional Euclidean R4 projection"
+    }
+  },
+  "mersearch": {
+    "status": "ALL_FOUR_LANES_OCCUPIED_STAGED_OR_UNRELEASED",
+    "new_request": false,
+    "overwrite": false,
+    "retry": false,
+    "fallback": "bounded GitHub code search across HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES; no second raw Meridian Free Build export found"
+  },
+  "publication": {
+    "status": "HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD",
+    "existing_issues": [
+      189,
+      191,
+      192
+    ],
+    "new_issue": false,
+    "new_comment": false,
+    "new_pr": false,
+    "publisher_status_blob": "c4fdc3560d6b3683e12e7d554e9d04cd6dd80d58"
+  },
+  "reading_break": {
+    "source": "TheTANGLE.txt",
+    "blob": "3181b6cad85bbd76bd1017938e0dbf67baf03752",
+    "read_lines": "1281-1320",
+    "next_line": 1321
+  },
+  "review_state": {
+    "last_full_FIE_review": "2026-10-27",
+    "rereview_due": false
+  },
+  "artifacts": {
+    "report_path": "WORKSPACES/HALE/2026-11-01T2200Z_MINKOWSKI_THREAD_SUPERHELIX_SOURCE_FIDELITY_ADDENDUM.md",
+    "report_blob": "a607f51e722fc4891acbf2d1866d720c8580a590",
+    "publisher_status_path": "WORKSPACES/HALE/2026-11-01T2200Z_PUBLISHER_STATUS.json",
+    "publisher_status_blob": "c4fdc3560d6b3683e12e7d554e9d04cd6dd80d58"
+  },
+  "limits": [
+    "No authenticated Hale ChatGPT thread or standalone signed specialist charter recovered",
+    "No source-defined map from the SAT 4D filament to a Nambu-Goto worldsheet or finite-core worldtube",
+    "The direct filament dimension is not stable across all historical uses",
+    "No physical calculation, fit, CODATA score, or uncertainty-bearing dataset was used in this source-fidelity phase",
+    "No new Lean module or PR; existing related modules are conditional Euclidean special cases",
+    "No cross-thread delivery or acknowledgment claimed"
+  ],
+  "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing."
+}
