@@ -36,13 +36,23 @@ The module formalizes conditional dimension arithmetic and a generic `SliceCompa
 
 ### Lean verification status
 
-- Actions run `41292061092`: CANCELLED before compilation when the later aggregator-registration commit superseded the earlier module-only commit.
-- Actions run `41292069239`: FAILED in `carrierSliceDimension_eq_k_minus_one` because `omega` did not unfold the expected-intersection definition. The `#eval` command did execute and printed `[(3, 0), (2, 1), (1, 2), (0, 3)]`; all other existing targets built, but the new module target failed. Tests, lint, nanoda, and the automated axiom audit were skipped.
-- Proof correction: explicitly `change k + 3 - 4 = k - 1` before `omega`; added `#print axioms` for the principal results. New branch head `10099fa9b9a8175269405bd77e71e0803143f645`; corrected module blob `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`.
-- A follow-up workflow run for the corrected head has not yet been observed.
-- No successful Lean compile is claimed yet.
-- No exact-head standalone build is claimed.
-- The new source contains no `sorry` or `admit`; theorem-level axiom reporting remains pending until the corrected build runs.
+- Actions run `41292061092`: CANCELLED before compilation when the aggregator-registration commit superseded the module-only commit.
+- Actions run `41292069239`: FAILED at the generic dimension lemma because `omega` did not unfold the expected-intersection definition. The `#eval` table executed; the new module target failed.
+- Corrected proof: explicitly `change k + 3 - 4 = k - 1` before `omega`; theorem-specific `#print axioms` commands were added.
+- Corrected Actions run `41292451762`, job `124806308038`: **SUCCESS**, full `lake build` of 8,946 jobs under Lean 4.34.0 / Lake 5.0.0.
+- Actual checkout: merge commit `81da81cf87218b1ab5c2666b55c896af1781444e`, merging PR head `10099fa9b9a8175269405bd77e71e0803143f645` into base `61cc8b65ffed70296e0121dbae067892a79c81d4`.
+- Module blob `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4` and root aggregator blob `db4d5e73e00c46ae30804d20cf380dbbe805418e` matched exactly between PR head and merge ref.
+- `#eval` output: `[(3, 0), (2, 1), (1, 2), (0, 3)]`.
+- `#print axioms`: `carrierSliceDimension_eq_k_minus_one` depends on standard `propext` and `Quot.sound`; `positiveNormalRank_implies_carrier_lt_four` depends on `propext`; concrete dimension results and `inducedMap_commutingWitness` report no axioms.
+- Full decoded job log: 0 `sorryAx`, 0 `admit`.
+- Tests, lint, nanoda, and the separate automated axiom-audit action were skipped. The theorem-specific `#print axioms` commands did run.
+- Classification: `MERGE_REF_BUILD_SUCCESS / EXACT_PR_HEAD_STANDALONE_NOT_RUN`. Lean checks only the formalized conditional statements, not source-translation soundness, physical premises, transversality, normal-bundle existence, or the physical current response.
+
+
+
+## Additional Nathan Direct source refinement
+
+The September 7 Ravel raw-user-verified source explicitly corrects the Kerr cross-section dimensionality: use a spatial Kerr section extended along the filament, not the full 4D Kerr spacetime as the cross-section of another 4D object. This yields a candidate 1D-filament base with a 3D spatial Kerr fiber and a 4D worldtube total space, conditional on a locally trivial bundle/embedding. The exact bundle projection, fiber transport, and ambient embedding remain unspecified. The source also says force is primitive and filament/timesheet must mutually accommodate it; the eventual response law must therefore be coupled, not a passive projection. Rest mass is associated only with persistent coil. The later f-boson/t-boson grammar remains provisional.
 
 ## Publication and readback
 
@@ -51,7 +61,7 @@ The existing issue #1202 was used; no duplicate issue or publisher artifact was 
 - Additive issue comment: `6555985381`
 - Exact comment readback: PASS.
 - Supplemental report: `WORKSPACES/RAVEL/2026-11-01T0836Z_CARRIER_CORE_SLICE_DIMENSION_GATE_SUPPLEMENT.md`
-- Supplemental report Git blob after CI correction: `4e7e87a404a958fa7f8d89cad80a825dcaf4c341`
+- Supplemental report Git blob after final source/CI update: `e13c440102fc15dd8da19a6b4c83e4032a2eab8d`
 - Exact file readback: PASS.
 
 The immutable original issue artifact was not rewritten.
