@@ -329,8 +329,7 @@ theorem firstEchoAmplitude_injective_horizonPlus
   have houter : Rsurf * phase ≠ 0 := by
     intro hz
     apply hcoeff
-    calc
-      Rsurf * phase * sigma * tBH = 0 := by rw [hz]; simp
+    simp [hz]
   dsimp [firstEchoAmplitude] at heq
   have hinner :
       Rbh * Zinf + sigma * tBH * z1 =
