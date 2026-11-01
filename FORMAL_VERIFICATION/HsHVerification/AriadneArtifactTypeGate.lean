@@ -270,7 +270,7 @@ theorem readme_v121_not_canonical_version_authority :
     ¬ supports readmeV121 .canonicalVersionAuthority := by
   simp [supports, readmeV121]
 
-/-- Actual evaluation: character labels and outer conversation roles are distinct. -/
+/- Actual evaluation: character labels and outer conversation roles are distinct. -/
 #eval decide (supports kirkMindSection .characterSpeakerAttribution)
 #eval decide (supports kirkMindSection .outerRoleAttribution)
 #eval decide (supports readyRoomSection .characterSpeakerAttribution)
