@@ -1,0 +1,67 @@
+{
+  "run_id": "ckm-source-faithful-20261101",
+  "source_message": {
+    "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "path": "Paper Restructuring Plan — raw.json",
+    "blob_sha": "4e49650f2a0b6960d5ce99d6484825b463637828",
+    "message_uuid": "54674374-f032-4c85-a3b0-35cf1584d13c",
+    "speaker": "user",
+    "timestamp_utc": "2026-03-21T18:40:11.069Z",
+    "locator": "serialized lines 2185-2202"
+  },
+  "inputs": {
+    "B": "3/(4*pi)",
+    "S": 0.2621,
+    "S_status": "approximate source value; no uncertainty supplied",
+    "PDG_2026_global_fit": {
+      "sin_theta12": {
+        "value": 0.22517,
+        "sigma": 0.00068
+      },
+      "sin_theta23": {
+        "value": 0.04189,
+        "sigma_minus": 0.00069,
+        "sigma_plus": 0.00081
+      },
+      "sin_theta13": {
+        "value": 0.003763,
+        "sigma_minus": 0.000083,
+        "sigma_plus": 0.000088
+      }
+    },
+    "PDG_source": "https://ccwww.kek.jp/pdg/2026/reviews/rpp2026-rev-ckm-matrix.pdf",
+    "source_note": "PDG global-fit values, not raw independent measurements."
+  },
+  "computed": {
+    "B": 0.238732414637843,
+    "theta12_rad": 0.225126298548837,
+    "theta23_rad": 0.042055257042946,
+    "theta13_rad": 0.003566163026928,
+    "sin_theta12": {
+      "prediction": 0.223229475433,
+      "pdg": 0.22517,
+      "residual": -0.001940524567,
+      "pull_sigma": -2.853713
+    },
+    "sin_theta23": {
+      "prediction": 0.042042861338,
+      "pdg": 0.04189,
+      "residual": 0.000152861338,
+      "pull_sigma": 0.188718
+    },
+    "sin_theta13": {
+      "prediction": 0.003566155468,
+      "pdg": 0.003763,
+      "residual": -0.000196844532,
+      "pull_sigma": -2.371621
+    }
+  },
+  "status": "NO_FIT; NO_MODEL_UNCERTAINTY; NO_COMBINED_CHI_SQUARE; NO_PHYSICAL_VALIDATION",
+  "notes": [
+    "theta12 explicitly radians in Nathan Direct, so compare sin(theta12) to PDG sin(theta12).",
+    "S is approximate and has no uncertainty; common S reuse is the source's same-symbol reading.",
+    "No parameter tuning performed.",
+    "Mass-ratio equation in direct source includes (1+Delta_bridge); issue #411 raw comparison omits it.",
+    "J_obs sign inconsistency preserved unresolved."
+  ]
+}
