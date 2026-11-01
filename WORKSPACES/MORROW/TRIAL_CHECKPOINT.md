@@ -436,3 +436,14 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Existing Aster PR #787 already contains MorrowRoleProvenance; its two parent-edge proofs remain failed/axiomatized under CI #41053033635. Aster ownership preserved; no duplicate formalization.
 - Previous h496:s3 report is present but its separate receipt was absent; this h500 receipt is not a retrospective substitute.
 - Detailed execution receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2024Z_s2_morrow.md (created this run; exact readback required).
+
+
+## 2026-11-01T0012Z | BR-005 July 3 transcript-witness and log-provenance addendum
+
+- Additive report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`, commit `bd2321ee9c39dbecd6e2bf13974433222a386d50`, exact readback PASS.
+- New earlier witness: `SAT ALL TOGETHER SYNTHESIS.txt`, internal date 2026-07-03, blob `86cf006ca5ebf58263552c7515a9c9d575caae37`. HsH mirror is the same blob. It contains normal-relative θ₄=0, tentative inverse-pitch wording, and a correction that mass ratios belong to worldline geometry while timesheet mutual distortion is downstream. No raw conversation UUID/message IDs/outer role were recovered; classify as TRANSCRIPT_WITNESS / SOURCE_ROLE_UNVERIFIED, not PRIMARY_ROLE_VERIFIED.
+- `INGESTION_LEDGER.md` calls the source a user-led verbal reconstruction but references filename `SAT ALL TOGETHER SYNTHESIS(2).txt`, which is not present as a separate path. `SAT REDISCOVERY.txt` and its MISC copy are identical derivative compilations with a pasted marker and assistant critique, not raw exports.
+- Raw candidate All-Worker Standards Read conversation `6aa8cd96-74a4-83ea-8d8b-5ebbe24e834f`, blob `09e56a40582d8babad6bc339947b5ab97e80df6a`, contains no user-role θ₄/time-normal/inverse-pitch hit; candidate `c339ad01-341f-4616-85f9-ca83501a58e3` is a tool result retrieving the running log. Thus BEDROCK BR-005's running-log citation is not a raw-source locator. BEDROCK remains unchanged pending authority review.
+- Direct raw Sept 7 user message `1896b541-a337-4638-b4f8-b1d53b549c6c` supports propagation-aligned filament as vacuum baseline, but does not name θ₄ or inverse pitch. March 7 plane-relative raw source and July 3 normal-relative transcript may be complementary under explicit Euclidean assumptions; no source transition is promoted.
+- Inverse pitch remains dimensionally underspecified (1/length versus dimensionless angle); no length scale or dimensionless ratio is sourced. Formalization status FORMALIZATION_BLOCKED_DEFINITION. No new Lean, physical calculation, theory work, BEDROCK edit, or publication. Existing issue #1159 remains PUBLISHED_VERIFIED.
+- Morrow theory freeze and training standdown preserved. Unrelated-reading cursor remains line 661; FIE review not due.
