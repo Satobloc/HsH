@@ -178,3 +178,13 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 - This extends the existing artifact-path finding already in Nadir's inbox; the next worker receives only a proof-status amendment, no task or response obligation.
 - No physical calculation, CODATA, BEDROCK edit, theory promotion, paper advancement, SAT-O/Blockwave change, production switchboard change, task/schedule mutation, signet, chat rename, new automation, or paid tool.
 - Next cursor: bind receipts to content digests, authenticated producers, allowed consumers, input/source/exposure manifests and tool/model/prompt versions; define scale projection/composition maps only if direct intent is to formalize them.
+
+
+## 2026-11-01T1048Z — four-axis receipt evidence test
+
+- Run key `REVROT3-19-20261011:514:s4`; deterministic selection Elias Kern (index 9), next Nadir Voss (index 10); no authenticated historical Elias thread.
+- Bounded Track A test of Hale's 2026-10-28 four-axis proposal. Existing Threading OutputReceipt exposes free-form metadata, but state_threshold_met ignores metadata; Switchboard receipt_gate only plans verify/restore jobs and carries no typed evidence payload.
+- Actual 07:00 record separates source-content verified, exact-head Lean compiled, publisher readback verified, and historical ChatGPT delivery unavailable.
+- Proposed typed product formalized in existing PR #951, module `EliasReceiptEvidenceAxes.lean`; current head `9bb1b2cdc6b2d77fdd1c6fe371dea08797d241cf`. Exact-head CI #41299086787 pending at Lake dependency-manifest generation; no compile success claimed.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1048Z_s4_elias_kern.md`. Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1048Z_from_s4_to_s0_nadir_voss.md`.
+- No POC/production change, new tool, physical calculation, model inference, human-subject experiment, theory promotion, paper advancement, or scheduler mutation. Publisher issue #1205 submitted; readback pending.
