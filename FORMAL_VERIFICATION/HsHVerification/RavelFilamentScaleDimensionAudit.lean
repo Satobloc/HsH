@@ -25,6 +25,8 @@ def dLength : Dim := ⟨0, 1, 0⟩
 def dSpeed : Dim := ⟨0, 1, -1⟩
 def dForce : Dim := ⟨1, 1, -2⟩
 def dForcePerLength : Dim := ⟨1, 0, -2⟩
+/-- Newton's gravitational constant in SI base dimensions. -/
+def dNewtonG : Dim := ⟨-1, 3, -2⟩
 def dMass : Dim := ⟨1, 0, 0⟩
 def dDimensionless : Dim := ⟨0, 0, 0⟩
 def dEnergy : Dim := ⟨1, 2, -2⟩
@@ -54,6 +56,11 @@ theorem cube_root_scale_condition (dA dTension : Dim) :
       | mk tM tL tT =>
         simp [Dim.div, Dim.mul, scaleDim, dLength] at h ⊢
         omega
+
+/-- The source relation T ~ c^4/G has force dimension in SI. -/
+theorem c_four_over_G_has_force_dimension :
+    Dim.div (scaleDim 4 dSpeed) dNewtonG = dForce := by
+  decide
 
 /-- If T is a force (N), A must have units N·m³. -/
 theorem cube_root_scale_force_tension_requires_N_m3 :
@@ -118,12 +125,14 @@ theorem centerline_and_total_tube_codimensions_are_compatible :
       (HsHVerification.RavelFiberTransportNonuniqueness.localProductDimension 1 3) = 0 := by
   decide
 
+#eval Dim.div (scaleDim 4 dSpeed) dNewtonG
 #eval Dim.mul dForce (scaleDim 3 dLength)
 #eval Dim.mul dForcePerLength (scaleDim 3 dLength)
 #eval Dim.mul dSpatialVolumeDensity (scaleDim 2 dLength)
 #eval Dim.mul dSpacetimeVolumeDensity (scaleDim 2 dLength)
 #eval Dim.mul dAreaDensity (scaleDim 2 dLength)
 
+#print axioms c_four_over_G_has_force_dimension
 #print axioms cube_root_scale_condition
 #print axioms cube_root_scale_force_tension_requires_N_m3
 #print axioms cube_root_scale_force_per_length_requires_N_m2
