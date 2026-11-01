@@ -26,29 +26,29 @@ The aim is source fidelity, not evaluation of the physical truth of the proposed
 - Export contains 465 message nodes, including 138 user messages.
 - Read extent for this addendum: the March 22 to March 23 source cluster, including the user-authored messages that define the time surface, radial convenience assumption, filament and composite hierarchy, planet/accretion distinction, cross-temporal tugs, and heuristic disclaimer, together with the immediately adjacent assistant expansions. This is a targeted cluster read, not a claim that every message in the long export was manually read.
 
-The mixed transcript `RMS Spacetime Filaments.txt` is a useful derivative cross-check, blob `032368f3f4e1c0a6a6a7b9f6f5c6f3a9b7c1d2e4`. It has no raw role metadata and is not an independent witness. The raw JSON is controlling for speaker attribution.
+The mixed transcript `RMS Spacetime Filaments.txt` is a useful derivative cross-check, blob `0323682e7a49278b5a76d0c6a5a7787a13eb17d6`. It has no raw role metadata and is not an independent witness. The raw JSON is controlling for speaker attribution.
 
 ### Key Nathan Direct message anchors
 
 | Message ID | Source contribution |
 |---|---|
-| `aaa28a9a-dcfc-4835-8359-e7da7b36911c` | A filament/helix and a moving plane; the intersection point is the readout. |
+| `aaa2d58f-3738-44f9-9fcc-d4c054b23c2a` | A filament/helix and a moving plane; the intersection point is the readout. |
 | `aaa26726-1c19-4da5-814b-400288b86382` | Radial extension from a central knot is introduced as a simplifying assumption; other geometries remain possible. |
 | `aaa246c9-e52c-4650-84e8-b078149df0cc` | Static 4D structure with a propagating 3D time surface; observed dynamism is associated with the slice/readout. |
-| `aaa2f60a-1c2e-4e5b-8a6f-0d3c9b5e4f2a` | The heloid term is used for a 4D rope morphology. |
-| `aaa2af9a-9a3d-4d2f-bd4c-6e4a0f3b2c1d` | Distinguishes diffuse cords in an accretion disk from tangled cords that form a planet-like rope. |
-| `aaa218da-7c6e-4e0e-b8d2-9a6f1c4e7b3d` | A star system is described as a large interwoven 4D network with central and subordinate structures. |
+| `aaa2f60a-1d27-4b6d-82c9-4828457fb08c` | The heloid term is used for a 4D rope morphology. |
+| `aaa2af9a-f657-4085-b02d-8ce4641203ee` | Distinguishes diffuse cords in an accretion disk from tangled cords that form a planet-like rope. |
+| `aaa218da-6d14-4b99-87ba-bababdd99d57` | A star system is described as a large interwoven 4D network with central and subordinate structures. |
 | `aaa26f3d-e831-49cd-976e-a85c5e3b749d` | Explicitly says spherical expansion is not necessary, other geometries may be accommodated, and the model is a heuristic rather than an assertion of true nature. |
-| `aaa2491d-8b2c-4e5f-a7d9-0c3b6e1f4a8d` | Direct-observation of dark matter is treated as evidence that would require substantial revision, not as something already eliminated. |
-| `aaa2fdfa-1c2e-4e5b-8a6f-0d3c9b5e4f2a` | Distinguishes the time surface from the filament/strand naming system. |
-| `aaa26d2f-7c2d-4a5d-9f21-6e3c2a8b7d4f` | Introduces the filament/thread/twine/yarn/bundle hierarchy. |
+| `aaa2491d-58f7-4fa3-8ee2-0734e0e071f8` | Direct-observation of dark matter is treated as evidence that would require substantial revision, not as something already eliminated. |
+| `aaa2fdfa-125a-4dc2-8f01-57e9bc4dc5ff` | Distinguishes the time surface from the filament/strand naming system. |
+| `aaa26d2f-c779-44b2-800a-b20f28e40a09` | Introduces the filament/thread/twine/yarn/bundle hierarchy. |
 | `aaa24791-27b2-4b58-8f1a-19ee7e30d650` | Refines the causal reading: complexity comes from interactions among filaments and composite strands; the time surface is the 3D manifestation/readout, not the source of that complexity. |
 | `aaa26108-2beb-4a76-b4bc-c2cb89a7fe5e` | Defines bundles and ropes, including the distinction between small bound composites and larger cohesive groups. |
 | `aaa262cd-9631-42c9-842c-d96b698b2bab` | Identifies heloids, loops, and tethers as rope morphologies. |
 | `aaa28f08-eb30-4f37-b94e-def30a789983` | Defines “strands” collectively as threads, twines, yarns, and bundles; describes cross-scale interweaving in a planetary system. |
 | `aaa2ca24-b946-4878-a6e0-e74d235ab01c` | User-edited outline consolidating the hierarchy and proposed 3D manifestations. |
 | `aaa20385-4291-4096-94f5-881e1e975a0d` | User-carried outline with explicit speculative/heuristic status and past/present/future interaction language. |
-| `aaa22cb5-7c2f-4f35-8b9e-2a5c7d1e3f4a` | Later speculative consideration of mutual filament/time-surface tugs and expansion. |
+| `aaa22cb5-673e-460f-b0b9-b94621abef6c` | Later speculative consideration of mutual filament/time-surface tugs and expansion. |
 
 Some IDs above are direct source locators recovered from the raw export; the short descriptions are paraphrases, not quotations. The early sequence itself contains refinements. In particular, the 06:11 taxonomy message initially speaks of filament/time-surface interaction, and the 06:14 clarification separates the source of structural complexity (filament/composite interactions) from the time-surface readout. That later clarification must be retained.
 
@@ -208,7 +208,7 @@ These source layers must remain separate.
 
 In this exchange, the assistant proposes mass as persistence/resistance/tangling and develops related spin and wavefront ideas. The user’s later label makes the branch distinction explicit: this is aSAT, a test or parallel exploration, not automatic evidence for the SAT core.
 
-The unbylined `SATv TIME_WAVEFRONT.txt` summary, blob `fe1a6f3c2b9d8e7f6a5c4b3d2e1f0a9b8c7d6e5f`, is copied under three archive paths. The copies share one blob and are not independent witnesses. The summary labels added claims as “core properties not negotiable within SAT” and includes an angular-resonance threshold:
+The unbylined `SATv TIME_WAVEFRONT.txt` summary, blob `fe1a6f603798c31fa4e5bf704bb31cbcc5ec4ce9`, is copied under three archive paths. The copies share one blob and are not independent witnesses. The summary labels added claims as “core properties not negotiable within SAT” and includes an angular-resonance threshold:
 
 [
 Theta(x),T_{m filament}(x)>	au_{m res}.
@@ -261,9 +261,9 @@ No new Lean code was written. Existing Ravel formalizations were checked rather 
 
 Relevant modules:
 
-- `RavelCarrierSheetDimensionGate.lean`, blob `1c8c9a7e6f5d4c3b2a190817161514131211100f`
-- `RavelCarrierSliceReconstruction.lean`, blob `9a8b7c6d5e4f32100123456789abcdef01234567`
-- `RavelFiberTransportNonuniqueness.lean`, blob `4b5c6d7e8f90123456789abcdef0123456789abcd`
+- `RavelCarrierSheetDimensionGate.lean`, blob `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4`
+- `RavelCarrierSliceReconstruction.lean`, blob `ee05b9b104cd69e922face1cf1beb072e380b429`
+- `RavelFiberTransportNonuniqueness.lean`, blob `d56683e9c1fc40193f8cbb358086b8c61acb0b6f`
 
 The formalized dimension gate establishes the generic transverse-section relationship in the specified model:
 
@@ -346,7 +346,7 @@ is only a **proposal** until both composition operators and their domains are de
 
 Issue #1192 remains `PUBLISHED_VERIFIED`; its payload digest and published artifact digest match.
 
-Issue #1213 remains `PUBLISHER_REJECTED_SHA256_MISMATCH`. The declared payload digest was `4729a4d6c8e0f123456789abcdef0123456789abcdef0123456789abcdef0123`; the actual extracted 6,160-byte issue payload digest is `14998fd0c1b4d7e2a5f8c3b6d9e0f123456789abcdef0123456789abcdef0123`. No published artifact was created. The existing publisher has no append route to repair that issue. A new issue would duplicate the same wavefront-summary subject, so no retry or duplicate issue was created.
+Issue #1213 remains `PUBLISHER_REJECTED_SHA256_MISMATCH`. The declared payload digest was `4729ea9c63efe1cf1e3ff3669772d2789c0741e8da057fa1e57df93a0844a536`; the actual extracted 6,160-byte issue payload digest is `14998fd835cd90c514ceed1bcd79e35fad03b2d6aa02931db56cccb06e4e8074`. No published artifact was created. The existing publisher has no append route to repair that issue. A new issue would duplicate the same wavefront-summary subject, so no retry or duplicate issue was created.
 
 **Publication status for this addendum:** `INTERNAL_WORKSPACE_ARTIFACT / PUBLICATION_HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD`.
 
