@@ -78,7 +78,7 @@ Header date label: `17Jun2025`.
 No author/byline field was found in the file.
 
 First extant path commits:
-- SAT archive copy: `189c3a42...`, 2026-09-07T19:08:52Z.
+- SAT archive copy: `189c3a42d3e9d466b35fed54d02211cc91161f97`, 2026-09-07T19:08:52Z.
 - HsH CONVOS_23 copy: `1e58fde372e30e13440d0e9b330c001de94ea1ed`, 2026-10-17T12:36:10Z.
 - HsH top-level copy: `08adca3c16dea09c190756c776d1a34499ad2c38`, 2026-10-23T15:33:37Z.
 
@@ -95,8 +95,8 @@ Two SAT archive paths share one Git blob:
 Git blob: `caf5771a9d01b8505c23c07ac7cccca04fff49f5`.
 
 First extant path commits:
-- DRAFT PAPERS: `0f480df3...`, 2026-09-04T21:01:04Z.
-- PDF LIBRARY [OLD]: `4ab5b7f4...`, 2026-09-04T21:44:57Z.
+- DRAFT PAPERS: `0f480df33e8e02490a2ec428a6072e0db716e331`, 2026-09-04T21:01:04Z.
+- PDF LIBRARY [OLD]: `4ab5b7f4b060db824e12a3a07b63617ffe2bd02f`, 2026-09-04T21:44:57Z.
 
 The HSH_RESOURCES source-inventory sample contains one row for `GLASS,DRAFT PAPERS/SAT 22Jun25.pdf`:
 - size: 5,381,173 bytes;
