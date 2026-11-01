@@ -110,14 +110,6 @@ theorem antisymmetric_mixed_contraction_eq_neg_half_vorticity
     calc
       _ = (∑ μ : Index, ∑ ν : Index, J μ ν * D μ ν) -
           (∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ) := by
-        change
-          Finset.univ.sum (fun μ : Index =>
-            Finset.univ.sum (fun ν : Index =>
-              J μ ν * (D μ ν - D ν μ))) =
-          Finset.univ.sum (fun μ : Index =>
-            Finset.univ.sum (fun ν : Index => J μ ν * D μ ν)) -
-          Finset.univ.sum (fun μ : Index =>
-            Finset.univ.sum (fun ν : Index => J μ ν * D ν μ))
         simp_rw [mul_sub, Finset.sum_sub_distrib]
       _ = T - (-T) := by
         rw [hMixed]
@@ -142,7 +134,7 @@ theorem spatialCurrent_orthogonal_to_u
   have h := antisymmetric_mixed_contraction_eq_neg_half_vorticity
     J (fun μ ν => uCov μ * uCov ν) hJ
   unfold spatialCurrent
-  simp_rw [Fintype.sum_mul]
+  simp_rw [Finset.sum_mul]
   simpa [mul_comm, mul_left_comm, mul_assoc] using h
 
 /-- If the contracted derivative of the two-form vanishes, the
