@@ -63,11 +63,9 @@ def dimSub (a b : Dim) : Dim :=
 def dimScale (n : Int) (a : Dim) : Dim :=
   (n * a.1, n * a.2.1, n * a.2.2)
 
-def dimEq (a b : Dim) : Prop := a = b
 
 def dimLength : Dim := (0, 1, 0)
 def dimMass : Dim := (1, 0, 0)
-def dimTime : Dim := (0, 0, 1)
 def dimForce : Dim := (1, 1, -2)
 def dimSpeed : Dim := (0, 1, -1)
 def dimNewtonG : Dim := (-1, 3, -2)
@@ -76,12 +74,6 @@ def dimNewtonG : Dim := (-1, 3, -2)
 theorem c_four_over_G_has_force_dimension :
     dimSub (dimScale 4 dimSpeed) dimNewtonG = dimForce := by
   norm_num [dimSub, dimScale, dimSpeed, dimNewtonG, dimForce]
-
-/-- From ell^3 = 2 A / T, the required rigidity dimension is [T] L^3. -/
-theorem cube_root_scale_rigidity_dimension
-    (tensionDim rigidityDim lengthDim : Dim)
-    (h : rigidityDim = dimAdd tensionDim (dimScale 3 lengthDim)) :
-    rigidityDim = dimAdd tensionDim (dimScale 3 lengthDim) := h
 
 /-- If T is force, A in ell^3 = 2 A/T must have N m^3 dimensions. -/
 theorem cube_root_rigidity_if_tension_is_force :
@@ -119,10 +111,11 @@ theorem full_worldtube_codimension_zero :
     4 - 4 = 0 := by
   norm_num
 
-/-- A transverse full-dimensional worldtube sectioned by a 3D timesheet
-    has the expected ambient set dimension at most three. This theorem
-    records only the arithmetic codimension count. -/
-theorem full_worldtube_timesheet_section_degree :
+/-- Expected dimension arithmetic for a transverse intersection of a
+    4D carrier and a 3D hypersurface in a 4D ambient. The theorem proves
+    only the integer count 4 + 3 - 4 = 3. Transversality and the existence
+    of a smooth 3D intersection are separate geometric hypotheses. -/
+theorem transverse_intersection_expected_dimension_arithmetic :
     4 + 3 - 4 = 3 := by
   norm_num
 
