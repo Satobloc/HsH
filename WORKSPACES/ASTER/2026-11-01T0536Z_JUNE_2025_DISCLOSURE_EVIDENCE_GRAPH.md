@@ -145,12 +145,19 @@ Lane availability was checked from request files and request-scoped outputs:
 - Lane 3 Sable J3/J2: completed manifest plus JSON and Markdown compact receipts verified; previous output preserved.
 - Lane 4 Tern: completed manifest plus JSON and Markdown compact receipts verified.
 
-Lane 3 was therefore reused without overwriting an unfinished request. New request:
-- ID: `aster-june-2025-disclosure-source-lineage-20261101-0536`
-- Request-trigger commit: `60555504423e744b90f8864c3bccef23eb9f9105`
-- Workflow: `41278156840`, “Mersearch Request Bridge Lane 3”
-- Status at final inspection: `IN_PROGRESS / SUBMITTED_NOT_VERIFIED`.
-- Default `PRIOR_ART` and `QUARANTINE` exclusions preserved.
+Lane 3 was available as a **completed prior-result reservation**, so the Aster request was staged there without overwriting the previous Sable result. The actual bridge topology then exposed a separate dispatch constraint:
+
+- Staged request ID: `aster-june-2025-disclosure-source-lineage-20261101-0536`
+- Lane-3 request-file commit: `60555504423e744b90f8864c3bccef23eb9f9105`
+- Current lane-3 file blob after privacy sanitization: `425ef62e56e4e01d2dfc04d45640263e141e6009`
+- Current lane-3 status: `staged_not_dispatched`
+- Current shared input `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` still contains Calder's request, with no verified manifest/receipt at this inspection.
+- The existing workflow `.github/workflows/mersearch-request-bridge.yml` (blob `045b99e1cf218e474b92e0340bfeb62056986d99`) reads and validates only `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`. It does not read `MERSEARCH_REQUEST_LANE_3.json`.
+- Workflow run `41278156840` has head commit `60555504423e744b90f8864c3bccef23eb9f9105`, but its runtime input is the shared Calder request, not the staged Aster lane file. It is **not an Aster search**. Its final manifest must be checked before assigning its actual request identity.
+- The run was created on a lane-3-only push even though the checked-in workflow's path filter names only the shared request file. Trigger-path conformance is unresolved; do not infer that a lane-file edit dispatched that lane.
+- The lane-3 request was subsequently sanitized with a `[skip ci]` commit: its current query contains no raw conversation/message UUIDs or direct user excerpt. The earlier lane-file commit remains in Git history; no history rewrite was attempted.
+
+**Dispatch rule:** `LANE_STAGED` is not `DISPATCHED`. A lane may be marked `RUNNING` only when an Actions run's manifest `request_id` matches that lane's request. The existing shared request slot must not be overwritten while Calder's request remains pending. Default `PRIOR_ART` and `QUARANTINE` exclusions remain preserved.
 
 Existing HSH_RESOURCES tools were inspected before considering any new tooling:
 - `tools/extract_papers.py` v1.2.0
