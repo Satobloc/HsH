@@ -162,7 +162,9 @@ theorem rationalFilterFactor_norm_one
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
-  rw [norm_mul, norm_div, norm_div] <;> try assumption
+  rw [norm_mul, norm_div, norm_div]
+  all_goals try simpa only [starRingEnd_apply] using hminus
+  all_goals try exact hplus
   rw [norm_sub_conj_eq, norm_add_conj_eq]
   have hminusNorm :
       ‖(x : ℂ) - star z‖ ≠ 0 :=
@@ -170,7 +172,7 @@ theorem rationalFilterFactor_norm_one
   have hplusNorm :
       ‖(x : ℂ) + z‖ ≠ 0 :=
     (norm_pos_iff.mpr hplus).ne'
-  simp [hminusNorm, hplusNorm, hminus, hplus]
+  simp [hminusNorm, hplusNorm]
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
@@ -285,6 +287,60 @@ theorem reported_reflectivity_energy_below_0_4_percent :
     (59 / 1000 : ℝ) ^ 2 < 4 / 1000 := by
   norm_num
 
+/-!
+The first-echo composition in Prasad et al. (arXiv:2610.12429), Eq. (5),
+contains two distinct source channels: the outgoing-to-infinity component
+and the horizon-directed component Z_H^(+). The paper states that the latter
+has no simple closed-form direct-wave analogue and is computed numerically.
+The phase argument below represents exp(i k_H Delta-t); it is left symbolic.
+-/
+
+/-- Source-faithful two-channel first-echo amplitude, with the phase factor
+    kept explicit and the outgoing and horizon-directed channels separated. -/
+def firstEchoAmplitude
+    (Rsurf phase Rbh Zinf sigma tBH ZHplus : ℂ) : ℂ :=
+  Rsurf * phase * (Rbh * Zinf + sigma * tBH * ZHplus)
+
+theorem firstEchoAmplitude_split
+    (Rsurf phase Rbh Zinf sigma tBH ZHplus : ℂ) :
+    firstEchoAmplitude Rsurf phase Rbh Zinf sigma tBH ZHplus =
+      (Rsurf * phase) * (Rbh * Zinf) +
+      (Rsurf * phase) * (sigma * tBH * ZHplus) := by
+  unfold firstEchoAmplitude
+  rw [mul_add]
+
+/-- With all transfer coefficients nonzero, the first-echo amplitude is
+    injective in the distinct horizon-directed source component Z_H^(+).
+    This is an algebraic identifiability statement conditional on fixed,
+    nonzero coefficients; it is not a detector-data identifiability claim. -/
+theorem firstEchoAmplitude_injective_horizonPlus
+    (Rsurf phase Rbh Zinf sigma tBH : ℂ)
+    (hcoeff : Rsurf * phase * sigma * tBH ≠ 0) :
+    Function.Injective
+      (fun ZHplus : ℂ =>
+        firstEchoAmplitude Rsurf phase Rbh Zinf sigma tBH ZHplus) := by
+  intro z1 z2 heq
+  have houter : Rsurf * phase ≠ 0 := by
+    intro hz
+    apply hcoeff
+    calc
+      Rsurf * phase * sigma * tBH = 0 := by rw [hz]; simp
+  have hinner :
+      Rbh * Zinf + sigma * tBH * z1 =
+        Rbh * Zinf + sigma * tBH * z2 := by
+    unfold firstEchoAmplitude at heq
+    exact mul_left_cancel₀ houter heq
+  have hplus : sigma * tBH * z1 = sigma * tBH * z2 :=
+    add_left_cancel hinner
+  have htransfer : sigma * tBH ≠ 0 := by
+    intro hz
+    apply hcoeff
+    calc
+      Rsurf * phase * sigma * tBH =
+          Rsurf * phase * (sigma * tBH) := by ring
+      _ = 0 := by rw [hz]; simp
+  exact mul_left_cancel₀ htransfer hplus
+
 #eval ((59 : Rat) / 1000) ^ 2
 #eval gw250114CalibrationLedger
 
@@ -298,6 +354,8 @@ theorem reported_reflectivity_energy_below_0_4_percent :
 #print axioms shapeFixed_does_not_imply_noCalibrationOrFit
 #print axioms reported_reflectivity_square_exact
 #print axioms reported_reflectivity_energy_below_0_4_percent
+#print axioms firstEchoAmplitude_split
+#print axioms firstEchoAmplitude_injective_horizonPlus
 
 end
 
