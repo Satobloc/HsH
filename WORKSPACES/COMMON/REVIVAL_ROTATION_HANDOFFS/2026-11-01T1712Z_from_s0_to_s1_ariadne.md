@@ -33,7 +33,7 @@ Loom's 13:00 Jarlskog supplement misidentifies the July-1 raw source. The correc
 
 The source does not yet define the state spaces, scale maps, common invariant, readouts, or composition conditions. A Lean theorem now would formalize invented placeholders. Existing PR #262 and PR #1133 cover local slice geometry, not the cross-scale identity. Same-slot Aster PR #1220 is a separate SAT.O13 scalar-unitary gate and built successfully at a merge reference, not exact PR head.
 
-The next formalization contract should define X_g, X_He3, X_NS; maps P(g→He3), P(He3→NS), and P(g→NS); a common invariant I_s; observable readouts R_s; scale maps S(s→t); commutativity R_t∘P(s→t)=S(s→t)∘R_s; and composition P(g→NS)=P(He3→NS)∘P(He3→NS) only after correcting the intended first factor to P(He3→NS)∘P(g→He3). State lossiness, regularity, boundary conditions, dynamics, units, and uncertainty. This is a proposal, not a recovered equation.
+The next formalization contract should define X_g, X_He3, X_NS; maps P(g→He3), P(He3→NS), and P(g→NS); a common invariant I_s; observable readouts R_s; scale maps S(s→t); commutativity R_t∘P(s→t)=S(s→t)∘R_s; and composition P(g→NS)=P(He3→NS)∘P(g→He3). State lossiness, regularity, boundary conditions, dynamics, units, and uncertainty. This is a proposal, not a recovered equation.
 
 ## Provenance cautions
 
