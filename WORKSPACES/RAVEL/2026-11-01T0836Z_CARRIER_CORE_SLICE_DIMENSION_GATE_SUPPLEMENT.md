@@ -31,22 +31,22 @@ Let the ambient space be 4D and the timesheet be a 3D embedded submanifold. Let 
 
 For a smooth embedded carrier with a suitable normal complement:
 
-[
-\operatorname{rank}(\nu C)=4-k.
-]
+\\[
+\\operatorname{rank}(\\nu C)=4-k.
+\\]
 
 For a transverse intersection:
 
-[
-\dim(C\cap\Sigma_t)=k+3-4=k-1
-\quad (1\leq k\leq4).
-]
+\\[
+\\dim(C\\cap\\Sigma_t)=k+3-4=k-1
+\\quad (1\\leq k\\leq4).
+\\]
 
 For a full-dimensional 4D worldtube region:
 
-[
-\dim(W^4\cap\Sigma_t)=4+3-4=3
-]
+\\[
+\\dim(W^4\\cap\\Sigma_t)=4+3-4=3
+\\]
 
 under the corresponding nonempty transverse-intersection assumptions.
 
@@ -58,6 +58,29 @@ under the corresponding nonempty transverse-intersection assumptions.
 | 4 | 0 | 3D |
 
 **Consequence:** a 3D trace is not the generic transverse intersection of the bare 1D SAT.O carrier with a 3D timesheet. It can be the intersection of a full 4D worldtube with the timesheet, or arise from a different higher-dimensional support. That is a conditional dimensional distinction, not a claim that the physical worldtube map has been derived.
+
+## 2A. What is forced, and what remains optional
+
+**Source-stated constraints:**
+- 4D ambient manifold, 1D filaments, and a 3D propagating wavefront in the July 2025 SAT.O directive (unbylined source).
+- A 1D curve and a separately defined 4D worldtube volume swept by the vibrating filament in the June 2025 SAT4D draft (document-level Nathan McKnight byline; AI assistance acknowledged).
+- In the 2026 Nathan Direct source: one helical core, hollow outer winding, a 3D intersectional trace, and an interacting 3D timesheet bulk. A second-order core is explicitly rejected.
+- \`epsilon\`, \`ell_f\`, and the worldtube axis-to-circumference dimension remain distinct.
+
+**Conditionally forced by standard geometry:**
+- If the carrier is a smooth 1D embedded curve in a 4D ambient space and the chosen construction is a normal-bundle tube, the normal-complement rank is 3.
+- If that full 4D tube region intersects a 3D timesheet transversely, the expected slice dimension is 3.
+- If the carrier itself is 1D, its transverse intersection with the 3D timesheet is 0D.
+- If the carrier is intrinsically 4D in the same 4D ambient space, its normal-complement rank is 0.
+
+**Not forced by the current sources:**
+- A normal-bundle tube as the actual worldtube construction; the SAT4D draft says “swept by the vibrating filament” but does not define the sweep map.
+- A constant circular cross-section, a specific normal radius, or identifying \`epsilon\` with a normal-bundle radius.
+- Any twist/normal connection, contact surface, boundary condition, or constitutive response. These require explicit maps and laws; dimension counting alone does not produce them.
+- A Kerr-core identification or responsive-medium soliton; both remain tentative.
+- Any equality among \`epsilon\`, \`ell_f\`, and the worldtube axis-to-circumference dimension.
+
+The source therefore forces a 4D worldtube-volume role in the SAT4D draft and a 3D timesheet interaction in the later direct account, but it does not yet force one unique construction of the volume, its cross-section, twist, or contact response.
 
 If “4D filament” means a genuinely 4D support inside the same 4D ambient space, its normal-complement rank is zero. A nontrivial finite core then cannot be obtained by ordinary normal thickening within that same ambient space; an intrinsic/internal core structure or a different ambient space would have to be specified.
 
