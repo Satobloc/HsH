@@ -164,7 +164,10 @@ theorem rationalFilterFactor_norm_one
   unfold rationalFilterFactor
   rw [norm_mul]
   rw [norm_div]
+  · change (x : ℂ) - star z ≠ 0
+    exact hminus
   · rw [norm_div]
+    · exact hplus
     · rw [norm_sub_conj_eq, norm_add_conj_eq]
       have hminusNorm :
           ‖(x : ℂ) - star z‖ ≠ 0 :=
@@ -173,9 +176,6 @@ theorem rationalFilterFactor_norm_one
           ‖(x : ℂ) + z‖ ≠ 0 :=
         (norm_pos_iff.mpr hplus).ne'
       simp [hminusNorm, hplusNorm]
-    · exact hplus
-  · change (x : ℂ) - star z ≠ 0
-    exact hminus
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
