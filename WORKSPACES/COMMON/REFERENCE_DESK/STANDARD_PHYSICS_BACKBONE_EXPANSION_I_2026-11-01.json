@@ -1,0 +1,337 @@
+{
+  "schema_version": "0.1",
+  "status": "STAGE_A_BACKBONE_EXPANSION_NONCANONICAL",
+  "created": "2026-11-01",
+  "companion_markdown": "STANDARD_PHYSICS_BACKBONE_EXPANSION_I_2026-11-01.md",
+  "scope": [
+    "classical electromagnetism",
+    "optics",
+    "special relativity",
+    "general relativity",
+    "nonrelativistic quantum mechanics",
+    "relativistic wave equations",
+    "quantum field theory",
+    "electroweak theory",
+    "QCD",
+    "Standard Model"
+  ],
+  "controls": {
+    "charter": "WORKSPACES/COMMON/REFERENCE_DESK/STANDARD_PHYSICS_MASTER_MAP_CHARTER_2026-10-24.md",
+    "namespace_schema": "WORKSPACES/COMMON/REFERENCE_DESK/PHYSICS_MASTER_NAMESPACE_LEDGER_SCHEMA_2026-10-24.md",
+    "bedrock": "BEDROCK.md",
+    "source_first_gate": "WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-29_ORIGINAL_STATEMENT_FIRST_GATE.md"
+  },
+  "method": {
+    "stage": "A conventional floor plan",
+    "data_free_calculations": "none performed",
+    "sat_hsh_overlay": "not performed; parallel map remains independent",
+    "source_depth": "opened pages and explicitly labeled search-extracted summaries; not all cited materials fully audited"
+  },
+  "nodes": [
+    {
+      "node_id": "EM-01",
+      "node_type": "THEORY",
+      "canonical_name": "Classical electromagnetism / Maxwell theory",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "OPT-01",
+      "node_type": "FORMALISM",
+      "canonical_name": "Optics and electromagnetic radiation",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "SR-01",
+      "node_type": "THEORY",
+      "canonical_name": "Special relativity",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "GR-01",
+      "node_type": "THEORY",
+      "canonical_name": "General relativity",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "QM-01",
+      "node_type": "THEORY",
+      "canonical_name": "Nonrelativistic quantum mechanics",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "RQM-01",
+      "node_type": "FORMALISM",
+      "canonical_name": "Relativistic wave equations",
+      "namespace_family": "STD",
+      "status": "historical_and_current_formalism",
+      "source_ids": []
+    },
+    {
+      "node_id": "QFT-01",
+      "node_type": "FORMALISM",
+      "canonical_name": "Quantum field theory",
+      "namespace_family": "STD",
+      "status": "current_standard_framework",
+      "source_ids": []
+    },
+    {
+      "node_id": "QED-01",
+      "node_type": "THEORY",
+      "canonical_name": "Quantum electrodynamics",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "EW-01",
+      "node_type": "THEORY",
+      "canonical_name": "Electroweak theory",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "QCD-01",
+      "node_type": "THEORY",
+      "canonical_name": "Quantum chromodynamics",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "SM-01",
+      "node_type": "THEORY",
+      "canonical_name": "Standard Model of particle physics",
+      "namespace_family": "STD",
+      "status": "current_standard",
+      "source_ids": []
+    },
+    {
+      "node_id": "COSMO-01",
+      "node_type": "THEORY",
+      "canonical_name": "Relativistic cosmology / FLRW and Lambda-CDM",
+      "namespace_family": "STD",
+      "status": "current_standard_model_family",
+      "source_ids": []
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "B1-E001",
+      "from_node_id": "EM-01",
+      "to_node_id": "OPT-01",
+      "evidence_class": "K",
+      "relation": "CONTAINS / LIMIT_OF",
+      "qualification": "Wave optics is a field-level description; geometric optics is the short-wavelength/eikonal limit under scale-separation assumptions.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E002",
+      "from_node_id": "EM-01",
+      "to_node_id": "SR-01",
+      "evidence_class": "K",
+      "relation": "LORENTZ_COVARIANT_WITH",
+      "qualification": "Maxwell electrodynamics admits a Lorentz-covariant formulation.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E003",
+      "from_node_id": "EM-01",
+      "to_node_id": "QED-01",
+      "evidence_class": "K",
+      "relation": "QUANTIZATION_OF",
+      "qualification": "QED is the quantum field theory of electromagnetic interactions.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E004",
+      "from_node_id": "SR-01",
+      "to_node_id": "RQM-01",
+      "evidence_class": "K",
+      "relation": "RELATIVISTIC_WAVE_FORM",
+      "qualification": "Klein-Gordon and Dirac equations implement relativistic wave dynamics for distinct spin representations.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E005",
+      "from_node_id": "QM-01",
+      "to_node_id": "QFT-01",
+      "evidence_class": "R",
+      "relation": "HISTORICAL_AND_FORMAL_PRECURSOR",
+      "qualification": "Nonrelativistic quantum mechanics is a precursor, not a simple direct derivation of the full QFT framework.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E006",
+      "from_node_id": "RQM-01",
+      "to_node_id": "QFT-01",
+      "evidence_class": "K",
+      "relation": "FIELD_THEORY_GENERALIZATION",
+      "qualification": "QFT extends relativistic field dynamics to interacting fields and variable particle number.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E007",
+      "from_node_id": "SR-01",
+      "to_node_id": "GR-01",
+      "evidence_class": "K",
+      "relation": "LOCAL_INERTIAL_LIMIT / GENERALIZES",
+      "qualification": "GR has locally Lorentzian tangent spaces; global spacetime may be curved.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E008",
+      "from_node_id": "GR-01",
+      "to_node_id": "COSMO-01",
+      "evidence_class": "K",
+      "relation": "SPECIALIZED_COSMOLOGICAL_SOLUTIONS",
+      "qualification": "FLRW cosmology applies symmetry assumptions and specified stress-energy content to GR.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E009",
+      "from_node_id": "QFT-01",
+      "to_node_id": "EW-01",
+      "evidence_class": "K",
+      "relation": "GAUGE_THEORY_FRAMEWORK",
+      "qualification": "Electroweak theory is a gauge quantum field theory based on SU(2)_L x U(1)_Y.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E010",
+      "from_node_id": "QFT-01",
+      "to_node_id": "QCD-01",
+      "evidence_class": "K",
+      "relation": "GAUGE_THEORY_FRAMEWORK",
+      "qualification": "QCD is the SU(3)_c non-Abelian gauge theory of strong interactions.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E011",
+      "from_node_id": "EW-01",
+      "to_node_id": "SM-01",
+      "evidence_class": "K",
+      "relation": "COMPONENT_OF",
+      "qualification": "Electroweak sector is part of the Standard Model.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E012",
+      "from_node_id": "QCD-01",
+      "to_node_id": "SM-01",
+      "evidence_class": "K",
+      "relation": "COMPONENT_OF",
+      "qualification": "QCD is the strong-interaction sector of the Standard Model.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E013",
+      "from_node_id": "QED-01",
+      "to_node_id": "SM-01",
+      "evidence_class": "K",
+      "relation": "LOW_ENERGY_ELECTROMAGNETIC_SECTOR",
+      "qualification": "Electromagnetism emerges as the low-energy unbroken gauge sector after electroweak symmetry breaking.",
+      "verification_status": "backbone_level_source_checked"
+    },
+    {
+      "edge_id": "B1-E014",
+      "from_node_id": "GR-01",
+      "to_node_id": "QFT-01",
+      "evidence_class": "S",
+      "relation": "QUANTUM_GRAVITY_INTERFACE",
+      "qualification": "QFT on curved backgrounds and semiclassical approaches exist; no complete experimentally confirmed quantum gravity theory is established.",
+      "verification_status": "backbone_level_source_checked"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-EM-OPENSTAX",
+      "title": "OpenStax University Physics Volume 2, §16.1 Maxwell's Equations and Electromagnetic Waves",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "source_type": "university_textbook",
+      "read_depth": "opened; lines 22-68 checked"
+    },
+    {
+      "source_id": "SRC-EM-USU",
+      "title": "C. G. Torre, Utah State University, Classical Field Theory: Electromagnetism",
+      "url": "https://www.physics.usu.edu/torre/Classical_Field_Theory/Lectures/04_EM.pdf",
+      "source_type": "university_lecture_notes",
+      "read_depth": "search-extracted text reviewed; full PDF audit deferred"
+    },
+    {
+      "source_id": "SRC-SR-OPENSTAX",
+      "title": "OpenStax University Physics Volume 3, §5.5 The Lorentz Transformation",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-5-the-lorentz-transformation",
+      "source_type": "university_textbook",
+      "read_depth": "opened; lines 22-60 checked"
+    },
+    {
+      "source_id": "SRC-SR-KEYS",
+      "title": "OpenStax University Physics Volume 3, §5 Key Equations",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-key-equations",
+      "source_type": "university_textbook",
+      "read_depth": "search-extracted equations reviewed"
+    },
+    {
+      "source_id": "SRC-GR-MIT",
+      "title": "MIT OpenCourseWare 8.962, Lecture 12 The Einstein Field Equation",
+      "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-12-the-einstein-field-equation/",
+      "source_type": "graduate_course",
+      "read_depth": "opened; course description checked; transcript/equations deferred"
+    },
+    {
+      "source_id": "SRC-GR-UCI",
+      "title": "Herbert W. Hamber, UCI Physics 255, Lectures 11-13",
+      "url": "https://ocw.uci.edu/lectures/einsteins_general_relativity_and_gravitation_lec_11_field_equations_1.html",
+      "source_type": "graduate_course",
+      "read_depth": "search results reviewed; full lecture materials deferred"
+    },
+    {
+      "source_id": "SRC-QM-OPENSTAX",
+      "title": "OpenStax University Physics Volume 3, §7.3 The Schrödinger Equation",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/7-3-the-schrodinger-equation",
+      "source_type": "university_textbook",
+      "read_depth": "opened; lines 22-80 checked"
+    },
+    {
+      "source_id": "SRC-RQM-CUP",
+      "title": "Cambridge University Press, Fundamentals of Particle Physics, Chapter 5 From Wave Functions to Quantum Fields (2023)",
+      "url": "https://doi.org/10.1017/9781009171595.006",
+      "source_type": "university_textbook",
+      "read_depth": "publisher chapter summary reviewed"
+    },
+    {
+      "source_id": "SRC-SM-PDG2026",
+      "title": "Particle Data Group 2026 Review of Particle Physics, Standard Model and Related Topics",
+      "url": "https://pdg.lbl.gov/2026/reviews/standard_model_and_related.html",
+      "source_type": "review_compendium",
+      "read_depth": "opened; topical review index checked"
+    },
+    {
+      "source_id": "SRC-QFT-MIT",
+      "title": "MIT OpenCourseWare 8.323 Relativistic Quantum Field Theory I, Spring 2023 Readings",
+      "url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/pages/readings/",
+      "source_type": "graduate_course",
+      "read_depth": "search result reviewed"
+    }
+  ],
+  "qa": {
+    "nodes_unique": true,
+    "edge_endpoints_resolve": true,
+    "edge_semantics_qualified": true,
+    "calculations_executed": 0,
+    "fabricated_data_used": false,
+    "sat_hsh_claims_added": false,
+    "status": "BACKBONE_EXPANSION_I_PUBLISHED_NOT_CANONICAL"
+  }
+}
