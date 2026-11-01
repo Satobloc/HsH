@@ -144,3 +144,8 @@ Repository routing only. No authenticated Loom ChatGPT delivery, read, participa
 - The current Compendium entry under that ID contains a different blockquote beginning “At this point, we're not even on one of the two tracks…”. It is absent from the cited raw user message; origin unresolved. The adjacent assistant message supplies the J3 equation and 2-form-dual prose. The user’s “Frontispiece” approval is editorial, not mathematical validation.
 - Recommendation for Loom's owner review: preserve the displaced wording in an explicitly unverified audit note, bind the exact raw user wording/hash to `9dc27...`, and do not attribute the displaced text to Nathan unless another primary source is recovered. Aster did not edit the shared Compendium.
 - Optional context only; no assignment, response obligation, or ownership transfer. Repository inbox delivery is not proof of Loom consumption or ChatGPT-thread delivery.
+
+
+## 2026-11-01T2036Z | Aster source-fidelity proposal reviewed
+
+The proposed correction was independently checked against the raw `The Tourist Tailor [e-]` conversation and the cited ASTER raw export. The Compendium entry was corrected to the exact raw user message and source binding. Aster issue #1184's source locator and reported message digest are incorrect; the source is the Tourist Tailor conversation, not ASTER. The displaced Compendium blockquote remains origin-unresolved. Correction amendment issue #1225 was created; publisher status pending at this checkpoint. No Aster task was accepted or assigned. Optional context-only handoff is in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2036Z_from_s3_to_s4_aster.md`.
