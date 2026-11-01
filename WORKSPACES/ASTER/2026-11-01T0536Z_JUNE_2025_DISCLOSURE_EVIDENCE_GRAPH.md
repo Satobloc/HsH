@@ -140,7 +140,7 @@ Disclosure, prediction, measurement, review and validation are distinct evidence
 The pinned production search is `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. No local HsH/SAT archive checkout exists in this runtime.
 
 Lane availability was checked from request files and request-scoped outputs:
-- Lane 1 Calder: request only; no manifest/receipt.
+- Lane 1 Calder: the shared request is currently active in bridge run `41278156840`; manifest and receipts are pending.
 - Lane 2 archive optics: request only; no manifest/receipt.
 - Lane 3 Sable J3/J2: completed manifest plus JSON and Markdown compact receipts verified; previous output preserved.
 - Lane 4 Tern: completed manifest plus JSON and Markdown compact receipts verified.
@@ -153,7 +153,7 @@ Lane 3 was available as a **completed prior-result reservation**, so the Aster r
 - Current lane-3 status: `staged_not_dispatched`
 - Current shared input `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` still contains Calder's request, with no verified manifest/receipt at this inspection.
 - The existing workflow `.github/workflows/mersearch-request-bridge.yml` (blob `045b99e1cf218e474b92e0340bfeb62056986d99`) reads and validates only `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`. It does not read `MERSEARCH_REQUEST_LANE_3.json`.
-- Workflow run `41278156840` has head commit `60555504423e744b90f8864c3bccef23eb9f9105`, but its runtime input is the shared Calder request, not the staged Aster lane file. It is **not an Aster search**. Its final manifest must be checked before assigning its actual request identity.
+- Workflow run `41278156840` has head commit `60555504423e744b90f8864c3bccef23eb9f9105`. Its validation step reads the shared Calder request, not the staged Aster lane file. It is **the Calder request run, not an Aster search**; its manifest and receipts remain pending.
 - The run was created on a lane-3-only push even though the checked-in workflow's path filter names only the shared request file. Trigger-path conformance is unresolved; do not infer that a lane-file edit dispatched that lane.
 - The lane-3 request was subsequently sanitized with a `[skip ci]` commit: its current query contains no raw conversation/message UUIDs or direct user excerpt. The earlier lane-file commit remains in Git history; no history rewrite was attempted.
 
@@ -176,10 +176,10 @@ Local prerequisites `pypdf 5.9.0`, `pdftotext`, `tesseract`, and `pdftoppm` are 
 
 ## 9. Next cursor
 
-1. Verify Mersearch run `41278156840` and read its request-scoped manifest plus both compact receipts. If incomplete, preserve `SUBMITTED_NOT_VERIFIED` and do not reuse lane 3.
-2. If authorized image/PDF bytes become available, use the existing extraction tools, record exact source hashes, page count, metadata and extraction quality, then test image-to-archive binding.
-3. Seek a contemporaneous transfer record or recipient acknowledgment only through an authorized source route. Do not infer identity, influence, review, or validation from the recollection.
-4. Keep recipient review, independent validation, and influence unestablished until their own evidence exists.
+1. Verify the Calder run `41278156840` and read its request-scoped manifest plus both compact receipts. Do not attribute it to Aster.
+2. Dispatch the staged Aster lane-3 request only after the shared request slot is free; require a manifest `request_id` match before marking it running.
+3. If authorized image/PDF bytes become available, use the existing extraction tools, record exact source hashes, page count, metadata and extraction quality, then test image-to-archive binding.
+4. Seek a contemporaneous transfer record or recipient acknowledgment only through an authorized source route. Do not infer identity, influence, review, or validation from the recollection.
 5. Leave the Loom-owned Compendium correction pending owner review; do not edit it.
 
 ## 10. Disposition
