@@ -1,27 +1,28 @@
 {
-  "request_id": "loom-historical-charter-source-recovery-20261031-2248",
-  "requester": "Workshop Relay :48 / Loom historical specialist-charter source recovery; current assistant reconstruction, not authenticated historical Loom",
-  "requested_at": "2026-10-31T22:48:00Z",
+  "request_id": "calder-empirical-charter-original-source-20261101-0248",
+  "requester": "Workshop Relay :48 / Calder empirical-null-design historical-source recovery; current assistant source-grounded reconstruction, not authenticated historical Calder",
+  "requested_at": "2026-11-01T02:51:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(title:\"Loom Tag Conversation Corpus\" OR name:*Loom* OR path:*Loom* OR name:*Tag*Conversation* OR path:*Tag*Conversation*) OR \"6aa67478-541c-83e9-b8fa-32d6d575eeb9\" OR (author:user AND (\"Loom Tag Conversation Corpus\" OR \"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"corpus enrichment\" OR (Loom NEAR/10 (tagging OR annotation OR enrichment OR corpus OR provenance OR terminology)))) OR (author:assistant AND (Loom NEAR/12 (\"Tag Conversation Corpus\" OR \"corpus tagging\" OR \"role charter\")))",
-  "purpose": "Mersearch-first recovery of the original Loom Tag Conversation Corpus conversation and any Nathan-authored specialist-role/charter instructions. Locate raw conversation exports and exact user-role messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Distinguish Nathan Direct from assistant-authored workspace summaries, wake packets, worker reports and copied/imported text. If the raw conversation is absent, identify earliest source-backed role assignment and preserve the historical pointer as unresolved rather than manufacturing a verbatim charter. Discovery only; no task/lease reactivation, no conversation rename, no first-blush attribution, no theory or paper advancement.",
+  "query": "(author:user AND ((\"0.239\" OR \"13.7\" OR \"14.1\" OR \"B = 3/(4π)\") NEAR/15 (angle OR pitch OR galaxy OR canopy OR clustering))) OR (author:user AND ((\"angle-clustering\" OR \"angle clustering\" OR \"pitch-angle\" OR \"canopy\" OR \"local null\") NEAR/15 (galaxy OR measurement OR dataset OR pilot))) OR (author:assistant AND ((\"Calder\" NEAR/12 (\"angle-clustering\" OR \"null design\" OR canopy OR covariance)) OR (\"negative/non-significant\" NEAR/12 (galaxy OR clustering))))",
+  "purpose": "Mersearch-first recovery of the actual original source and any historical specialist-role/charter statements underlying the 2026-09-12 Common CHECKINS.md section 'Calder'. Locate raw conversation exports and exact outer-role user/assistant messages, conversation ID, message UUID, timestamps, parent/adjacent context, repository/path, immutable blob SHA and source commit. Recover the earliest authentic user-role assignment of empirical angle-clustering, adversarial null design, independent-unit discipline, covariance/calibration and negative-result practice; separately locate assistant-authored summaries and the mixed external-literature/SAT exposure discussion. Determine whether the empirical/null-design Calder has a distinct raw conversation from the '⚗️ CALDER [Construction Story Retelling]' Foundational Covariance / Global Architecture thread. Preserve original wording and exact equation strings if any; do not infer a historical charter from the wrong identity or assistant summaries.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
     "candidate raw conversation paths and exact blob/source commit SHAs",
-    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context for any role/charter assignment",
-    "separate tags for Nathan Direct, assistant-authored continuity, worker reconstruction and unresolved embedded material",
-    "duplicate/prefix/superset relationships and explicit three-repository coverage/exclusion limitations"
+    "exact user-role and assistant-role message UUIDs, timestamps, parent IDs and adjacent context for role/charter assignments",
+    "separate source tags for Nathan Direct, historical worker self-report/check-in, assistant-authored continuity and unresolved attribution",
+    "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
   ],
   "exclusions": [
-    "Reuse lane 1 only because its previous request has a complete manifest and both compact receipts and its workflow completed successfully; do not overwrite any pending/running lane",
-    "Do not treat Loom README, CONTINUITY, REV-010 wake packets or worker reports as a verbatim Nathan-authored charter",
-    "Do not infer historical Loom instance participation, current-thread usability, first-blush or exposure history",
-    "Do not publish raw excerpts or private HSH_RESOURCES content",
-    "No task/automation change, no reactivation of the former Loom recurrence, no branch/PR, no theory, physical calculation, data-free calculation, new Lean theorem, manuscript or BEDROCK promotion"
+    "Reuse lane 1 only because the preceding Loom request has a complete manifest and both compact receipts independently read back; its output artifacts are preserved under its original request ID",
+    "Do not overwrite lane 2 or lane 3, whose current requests have no request-scoped manifest/receipts; do not alter lane 4 Nadir request",
+    "Do not route empirical/null-design Calder to conversation 6a8eacca-c470-83ea-af92-8fb8df194de9; the identity-collision correction separates that Foundational Covariance / Global Architecture thread",
+    "Do not infer historical Calder participation, current-thread usability, first-blush, exposure history or Nathan authorship from a workspace summary or copied user-role paste",
+    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content",
+    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change, task/automation modification"
   ],
   "lane": 1,
   "status": "requested"
