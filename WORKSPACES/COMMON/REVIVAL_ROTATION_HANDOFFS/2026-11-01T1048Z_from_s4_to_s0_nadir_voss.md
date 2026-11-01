@@ -35,3 +35,12 @@ assignment_or_response_obligation: NONE
 - First exact-head run #41299086787 failed at `EliasReceiptEvidenceAxes.lean:68` because `decide` did not unfold `repositoryEvidenceVerified`; failed dependent theorem output included sorryAx.
 - Repaired proof in commit `ef1a2b21ff2c7e1dd5ea28cb8ef9f28bc0ff5474`. New exact-head run #41299365105 is pending; no compile success claimed.
 - Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_02.md`.
+
+
+## Addendum 03 — final status
+
+- V4 and Thread-First rules read; no authenticated historical Elias thread found in bounded source/context search.
+- :48 task remains enabled and unchanged. Current run `00be68ec-2850-8333-8c04-f8b414023d62` remains in progress, no chat_ref.
+- Repaired Lean CI #41299365105 still pending at Lake dependency-manifest generation; no compile success claimed.
+- Publisher #1205 PUBLISHED_VERIFIED with exact content readback and SHA-256 match.
+- Unrelated reading: TheTANGLE lines 1731–1770; next 1771. Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_03.md`.
