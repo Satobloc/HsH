@@ -223,3 +223,71 @@ end O3LinkingBracket
 #print axioms O3LinkingBracket.nonzeroSymmetricPairingNotSkew
 
 end HsHVerification.RavelCarrierSliceReconstruction
+
+
+/-!
+## Time-indexed spatial support and history projection
+
+This is a set-level encoding of a persistent spatial cross-section. It
+does not assume continuity, manifold structure, a metric, an expansion
+law, or a physical response operator. In particular, it does not prove
+an intrinsic dimension for the history; it only makes the time label and
+the spatial projection explicit.
+-/
+
+namespace HsHVerification.RavelCarrierSliceReconstruction
+
+/-- The graph of a time-indexed family of spatial supports. -/
+def historyGraph {X : Type u} {T : Type v}
+    (support : T → Set X) : Set (X × T) :=
+  {p | p.1 ∈ support p.2}
+
+/-- A time-labelled event belonging to a spatial support history. -/
+def historyPoint {X : Type u} {T : Type v}
+    (support : T → Set X) :=
+  {p : X × T // p.1 ∈ support p.2}
+
+/-- Projection from a history event to its spatial coordinate. -/
+def historySpatialProjection {X : Type u} {T : Type v}
+    (support : T → Set X) : historyPoint support → X :=
+  fun p => p.val.1
+
+/-- Projection from a history event to its time label. -/
+def historyTimeProjection {X : Type u} {T : Type v}
+    (support : T → Set X) : historyPoint support → T :=
+  fun p => p.val.2
+
+/-- The spatial slice of a history graph at time t. -/
+def historySlice {X : Type u} {T : Type v}
+    (support : T → Set X) (t : T) : Set X :=
+  {x | (x, t) ∈ historyGraph support}
+
+/-- Each time slice of the history graph recovers the original support. -/
+theorem historySlice_eq_support {X : Type u} {T : Type v}
+    (support : T → Set X) (t : T) :
+    historySlice support t = support t := by
+  ext x
+  rfl
+
+/-- If the same spatial point belongs to the support at two distinct times,
+the spatial projection of history events is not injective. Time therefore
+cannot be discarded without losing event identity. -/
+theorem historySpatialProjection_noninjective_of_persistence
+    {X : Type u} {T : Type v}
+    (support : T → Set X) (x : X) (t1 t2 : T)
+    (hx1 : x ∈ support t1) (hx2 : x ∈ support t2)
+    (ht : t1 ≠ t2) :
+    ¬ Function.Injective (historySpatialProjection support) := by
+  intro hinj
+  have hproj :
+      historySpatialProjection support ⟨(x, t1), hx1⟩ =
+      historySpatialProjection support ⟨(x, t2), hx2⟩ := rfl
+  have heq :
+      (⟨(x, t1), hx1⟩ : historyPoint support) =
+      ⟨(x, t2), hx2⟩ := hinj hproj
+  exact ht (congrArg (historyTimeProjection support) heq)
+
+#print axioms historySlice_eq_support
+#print axioms historySpatialProjection_noninjective_of_persistence
+
+end HsHVerification.RavelCarrierSliceReconstruction
