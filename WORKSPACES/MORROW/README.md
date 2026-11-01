@@ -154,6 +154,6 @@ This message cannot be the original workspace/checkpoint creation request: the R
 
 The later direct theory-stop message `934e87de-4e61-4622-a0ea-e5047aa235c6` (2026-09-13T00:11:10.939Z) and current training standdown remain controlling. No theory work is resumed.
 
-A bounded Mersearch 1.0 request is running through verified-free lane 1: `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, bridge run `41321508369`, job `124892559411`. Last observed state: `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest or compact receipts yet. Do not duplicate it. Public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/issues/1214), publisher verification pending at last inspection.
+A bounded Mersearch 1.0 request is running through verified-free lane 1: `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, bridge run `41321508369`, job `124892559411`. Last observed state: `SUBMITTED_NOT_VERIFIED`; no request-scoped manifest or compact receipts yet. Do not duplicate it. Issue [#1214](https://github.com/Satobloc/HsH/issues/1214) was created as a public-safe publisher intake, but the owner-authored publisher rejected it with `REJECTED: SHA-256 mismatch`; no published artifact exists. No retry or duplicate issue was created.
 
 Full public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/issues/1214); a detailed local working copy was retained for this run. Historical Morrow thread identity remains unauthenticated; the current scheduled selection is source-grounded reconstruction.
