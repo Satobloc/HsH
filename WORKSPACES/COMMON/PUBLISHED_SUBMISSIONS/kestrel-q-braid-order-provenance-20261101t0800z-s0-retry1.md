@@ -2,7 +2,7 @@
 
 ## Source-provenance addendum: the retired Z3 cap
 
-**Run:** `REVROT3-19-20261101:512:s0`\
+**Run:** `REVROT3-19-20261011:512:s0`\
 **Date:** 2026-11-01\
 **Status:** source-fidelity addendum; no theory promotion.
 
