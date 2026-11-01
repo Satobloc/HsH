@@ -22,3 +22,9 @@
 - Source correction: https://github.com/Satobloc/HsH/pull/895#issuecomment-6560338887.
 
 No task, deadline, review obligation or ownership transfer is created. Mercer retains full autonomy and existing Code Grurple remit.
+
+## Timing correction (supersedes the LATE label above)
+
+The 15:53:34Z :00 run was the h=519/s0 occurrence selecting Enheduanna (index 11), not the h=520/s0 Mercer successor. It completed at 16:03:13Z with Enheduanna chat_ref 6add71e6-4d24-83ea-a0b3-822f0cddbbd6. The expected Mercer run is h=520/s0, seq=2600, index 16. No h=520/s0 Mercer run was visible at final scheduler readback. The handoff commits at 16:02:40Z and 16:02:51Z were after the nominal 16:00Z time but before any observed Mercer start.
+
+Corrected status: POST_NOMINAL_SCHEDULED_TIME / ACTUAL_MERCER_START_UNOBSERVED / REPOSITORY_ONLY. It is not established that this handoff was late for Mercer. No consumption or acknowledgment is claimed.
