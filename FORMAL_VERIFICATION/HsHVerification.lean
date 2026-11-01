@@ -24,6 +24,7 @@ import HsHVerification.LoomJune2026ClaimTypes
 import HsHVerification.LoomNLIVisibility
 import HsHVerification.LoomSAT4DCurrentTypeGate
 import HsHVerification.LoomOpticalClaimProvenance
+import HsHVerification.LoomCompendiumSourceBinding
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
