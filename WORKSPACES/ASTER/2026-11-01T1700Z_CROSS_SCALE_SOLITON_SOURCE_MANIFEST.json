@@ -34,7 +34,7 @@
   },
   "repositories": {
     "HsH_main_at_preflight": "0cebd11896782c50ebf403636513319626c9e972",
-    "HsH_main_before_manifest_update": "dd537f87355f7923c93422766183e81e54a12e19"
+    "HsH_main_after_handoff_before_manifest_update": "dd537f87355f7923c93422766183e81e54a12e19"
   },
   "historical_role": {
     "label": "Aster",
@@ -290,8 +290,7 @@
       "update_commit": "beae4fc53b9e9e980f24cd524625ed9c2b365f70"
     },
     "source_manifest": {
-      "path": "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_MANIFEST.json",
-      "previous_blob": "ce125d5c1fd4bdb3ab668b6e2c4a26f8a868c97c"
+      "path": "WORKSPACES/ASTER/2026-11-01T1700Z_CROSS_SCALE_SOLITON_SOURCE_MANIFEST.json"
     },
     "continuity": {
       "path": "WORKSPACES/ASTER/CONTINUITY.md",
@@ -304,9 +303,7 @@
       "create_commit": "24573f37a86e926ba11ecaf7d404ffe30d99e0fe",
       "correction_commit": "dd537f87355f7923c93422766183e81e54a12e19",
       "delivered_to_thread": false
-    },
-    "source_manifest_update_commit": "666284c5fe8f1e3fa523bc50d808c36e16a67b6b",
-    "source_manifest_blob_after_previous_update": "c7bafee6d950304f7cb57a2d6747ca6914d2c630"
+    }
   },
   "self_hash_note": "Manifest intentionally excludes its own hash to avoid recursive self-hashing.",
   "handoff": {
