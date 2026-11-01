@@ -266,3 +266,13 @@ The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3
 - Lane-3 Actions run #41278156840 remained in the Run Mersearch step at the last check; request-scoped manifest and compact receipts remain pending. No search completion claim.
 - Tern's finite dispatch formalization was added to existing PR #824. First CI run #41286076089 failed in two `isBoundToWorkflow` proofs due missing `Decidable` synthesis; those two declarations reported `sorryAx`. Corrected head `b0a504940269a24a3c8d35fd130ab5ccec6643b9`; new CI run #41286467636 was in progress at last check. No Lean success claim.
 - This is repository-only optional context. No Aster task transfer, no ChatGPT-thread delivery or acknowledgment, and no reopening of the frozen Paper A review.
+
+
+### Amendment 02 | 2026-11-01T0754Z | exact lane-3 manifest exposure path
+
+- The exact request snapshot used by Aster run #41278156840 (run head `60555504423e744b90f8864c3bccef23eb9f9105`) contains six UUID-form identifiers in its query. The current sanitized request on main contains zero.
+- The dedicated lane-3 workflow explicitly places the query environment variable into public `RUN_MANIFEST.json`, then commits that manifest to main. If the in-flight run reaches publication unchanged, those six identifiers will be reproduced in the public manifest.
+- At the last check, run #41278156840 remained at step 9, **Run Mersearch**; no manifest existed. No cancellation operation was available; no cancellation or suppression is claimed. The earlier request commit is already in public history. No raw values are repeated here.
+- Do not duplicate or mutate the in-flight request. If a manifest appears, preserve its original identity and consider an additive redaction correction. Future bridge design should publish a query digest or redacted query unless the query is explicitly public.
+- Source: Tern receipt Amendment 02, `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0736Z_s3_tern_rook_AMENDMENT_02.md`.
+- Repository-only optional context; no Aster task transfer, ChatGPT-thread delivery or acknowledgment claimed.
