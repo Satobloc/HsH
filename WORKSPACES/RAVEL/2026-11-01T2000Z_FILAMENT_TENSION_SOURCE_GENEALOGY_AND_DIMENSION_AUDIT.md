@@ -277,3 +277,89 @@ requires
 
 Conventional beam/rod flexural rigidity \(EI\) has dimension \(\mathrm{N\,m^2}\). Therefore the cube-root equation matches that conventional rigidity dimension only under the \(T=\mathrm{N/m}\) assignment. But the O8 relation \(T\sim c^4/G\) has force dimension \(\mathrm N\), and the Base Units table labels \(T\) in newtons.
 
+This does not prove the source is wrong: \(A\) could be a nonstandard higher-order rigidity with units \(\mathrm{N\,m^3}\). It does prove that the source must define \(A\) and \(T\) consistently rather than moving between force and force-per-length interpretations.
+
+### 5.2 Mass scale
+
+The O8 formula
+\[
+m_\psi^{(0)}\sim T\ell_f/c^2
+\]
+has mass dimension if \(T\) is a force in newtons. If \(T\) is force per length, the same expression has mass-per-length dimension. Thus the mass formula supports the force interpretation, while a conventional \(EI\) interpretation of \(A\) in the cube-root formula supports force-per-length. No single assignment satisfies both without a nonstandard definition of \(A\) or a distinction between two different \(T\)'s.
+
+### 5.3 O5 link-density coupling
+
+For
+\[
+g^{-2}\sim\rho_{\rm link}\ell_f^2
+\]
+to be dimensionless, \(\rho_{\rm link}\) must have areal-density dimension \(L^{-2}\).
+
+- spatial volume density \(L^{-3}\) leaves \(L^{-1}\);
+- spacetime volume density \(L^{-4}\) leaves \(L^{-2}\);
+- areal density \(L^{-2}\) gives a dimensionless product.
+
+The source says “per unit volume.” It does not specify a 2D measure or supply another length factor. The density measure or the equation therefore remains incomplete.
+
+### 5.4 Symbol collisions
+
+- \(\kappa_{\rm table}\): energy dimension, \(10^{-26}\,\mathrm J\).
+- \(\kappa_{\rm string}\): dimensionless \(0.243(5)\), later normalized to 1 in a separate passage.
+- \(\kappa_g,\kappa_m,\kappa_s\): distinct Big Paper coefficients already audited in the 2026-10-31 coupling-scale report.
+- \(A\): rigidity in O5/O8, units not defined.
+- \(T\): force in the O8 \(c^4/G\) relation and Base Units label; another assistant audit glossary's force-per-length usage is not primary.
+- \(\ell_f\): O8 transverse scale, Base Units coil radius, and later direct coil-radius use; version mapping missing.
+- \(\epsilon\): core thickness, not interchangeable with \(\ell_f\).
+
+No symbol identity or conversion is assumed.
+
+## 6. Centerline versus finite-core worldtube: correction to the prior report
+
+The earlier 2026-11-01T1224Z report used the phrase “not a codimension-three normal thickening of a 1D centerline.” That phrase was too strong and is superseded here.
+
+The compatible dimension statements are:
+
+\[
+\dim(\text{centerline})=1,\qquad
+\operatorname{codim}_{M^4}(\text{centerline})=3,
+\]
+\[
+\dim(\text{rank-3 fiber over a 1D base})=1+3=4,
+\qquad
+\operatorname{codim}_{M^4}(\text{total tube})=0.
+\]
+
+A 4D total tube can therefore be a rank-3 normal thickening of a 1D centerline. The total tube is full-dimensional in the 4D ambient; the centerline remains codimension three. Those facts are compatible.
+
+What is still missing is the actual normal-bundle or fiber embedding, the Kerr-section fiber family, and the map that carries it into the ambient 4D geometry. The arithmetic does not prove that Nathan's intended worldtube is such a bundle.
+
+For a transverse time-slice \(\Sigma_t^3\):
+- a 1D centerline intersects in a 0D event;
+- a 4D finite-core tube intersects in a 3D section.
+
+This preserves the distinction between the centerline and its finite core. The positive-thickness timeslab issue remains in existing issue #1142 and was not reissued.
+
+## 7. Stable glossary
+
+| Term | Type | Source status |
+|---|---|---|
+| \(\gamma\) | 1D filament/centerline in \(M^4\) | SAT4D/O1 document; direct 2026 wording varies |
+| \(K_\lambda^3\) | Candidate 3D spatial Kerr section over a filament parameter | Nathan Direct 2026-09-07 |
+| \(W^4\) | 4D finite-core worldtube / total space | SAT4D/O1 document and later direct clarification; construction map missing |
+| \(\Sigma_t^3\) | Exact 3D time surface | Direct SAT descriptions |
+| \(\Delta\Sigma_t^4\) | Positive-thickness 4D timeslab | Assistant reconstruction; do not substitute for \(\Sigma_t^3\) |
+| \(\epsilon\) | Filament core thickness | Later direct source/table |
+| \(\ell_f\) | Coil/transverse scale, versioned | O5/O8 and later direct usage; mapping unresolved |
+| \(A\) | Rigidity in O5/O8 scale equation | Archived module symbol; units unresolved |
+| \(T\) | Tension parameter | O8 says \(c^4/G\); unit assignment must remain explicit |
+| \(\rho_{\rm link}\) | Link density | O5 says per unit volume; measure unresolved |
+| \(Q\) | Mass-suppression/topological number | O8 postulate; topology-to-\(Q\) map absent |
+| \(\delta_f,\delta_t\) | Filament and timesheet deformations | Direct conceptual language; response operator absent |
+| \(F\) | Force primitive / interaction relation | Nathan Direct 2026-09-07; no tensor, vector, or constitutive law specified |
+
+## 8. Mapping diagram: what is and is not established
+
+```text
+1D filament/centerline γ
+        |
+        |  candidate spatial Kerr section K^3 over γ
