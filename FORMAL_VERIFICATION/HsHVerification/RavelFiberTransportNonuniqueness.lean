@@ -146,7 +146,7 @@ def boolFlip : Bool ≃ Bool where
     cases b <;> rfl
 
 /-- Coordinate changes that differ between the two base labels. -/
-def boolCoordinateChange : ∀ b : Bool, Bool ≃ Bool
+def boolCoordinateChange : Bool → Bool ≃ Bool
   | false => Equiv.refl Bool
   | true => boolFlip
 
