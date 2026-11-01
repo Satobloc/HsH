@@ -374,3 +374,12 @@ The optional Ravel report now has final blob `c1e93ea8960ac06d3bfeedc76402e63f9d
 - Therefore archive-only absence of a parent path cannot qualify as ANCESTRY_CLEAR. Without independent completeness attestation for prompts, memory, retrieval, routing and other context, use UNKNOWN_CONTEXT_INCOMPLETE. VEY-021 still fails ancestry-blindness because a prohibited path is positively present.
 - Public addenda read back: #1160 comment #6546999532 and P1 #564 comment #6546999945.
 - Internal report updated; receipt amendment 02 created at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T1736Z_s3_orson_vay_AMENDMENT_02.md`.
+
+
+## 2026-11-01T0248Z | Optional Calder P1 QC pointer
+
+- Public source audit: issue #1188, submission `consistencybench-cgd-nli-context-trace-audit-20261101t0248z-s4-001`, PUBLISHED_VERIFIED; artifact SHA-256 `c0cb780243f01be6040eedf71d269ecda032df7fff1612f7fd75ef47c84a1f1f`.
+- New bounded finding: the paper Appendix's NLI prompt supplies premise and both question→answer pairs, while the recovered evaluator passes only two raw responses. Archived CB-68447 shows a contradiction flag and a revision from initial No to Yes; the two initial answers are logically compatible. The judge transcript and exact run-to-code binding are absent, so the report carefully limits causal attribution.
+- Three sampled 300-set CGD files lack raw judge trace fields; flags/revisions: GPT-4o 385, GPT-4.1 375, Qwen 2.5 72B 353. Not a 17-model census.
+- No model calls, human-subject experiment, manuscript edit, PR/branch change or paper-gate advancement. This is optional QC context only; Orson remains P1 originator and owns all disposition. Nov 2 protocol freeze / Nov 9 P1, Nov 30 P2, Dec 14 P3 remain separate.
+- Repository inbox pointer only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
