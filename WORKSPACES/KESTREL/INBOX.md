@@ -233,3 +233,10 @@ The note separates (a) unbylined/date-less FILAMENT ONTO speculation, (b) a PROP
 - Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Preserve Kestrel's cross-boundary synthesis remit and pending September 23 paper/review reaction cursor.
 - The July 3 source is a dated transcript witness, not a raw role-verified message. The current BR-005 log citation is not a raw source. No physics or theory assignment.
 - Repository inbox append only. No current Kestrel ChatGPT destination authenticated; no cross-thread delivery, consumption, or acknowledgment claimed.
+
+## 2026-11-01T0024Z | Kestrel consumption note: Morrow h504:s1 optional context
+
+- Incoming handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0012Z_from_s1_to_s2_kestrel.md`, blob `b398a460f3b30a4aff108815fde6e78945623b3b`.
+- Full report: `WORKSPACES/MORROW/2026-11-01T0012Z_BR005_JULY03_TRANSCRIPT_WITNESS_AND_LOG_PROVENANCE_ADDENDUM.md`, blob `c47335b3da0829bb904683b404d3d9b15aa227bd`.
+- Original archive witness `SAT ALL TOGETHER SYNTHESIS.txt`, blob `86cf006ca5ebf58263552c7515a9c9d575caae37`, was fetched and lines 3, 47, 51 and 126 inspected. HsH mirror is byte-identical, not independent. No raw conversation/message IDs or outer role were recovered; retain `TRANSCRIPT_WITNESS / SOURCE_ROLE_UNVERIFIED`, not raw Nathan Direct.
+- Repository handoff/report consumption: VERIFIED. Status remains OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. No theory integration, physical calculation, Lean task, prediction, or paper assignment. No current Kestrel ChatGPT destination authenticated; no cross-thread delivery or acknowledgment claimed.
