@@ -7,44 +7,44 @@ import Mathlib
 
 The Blockwave rank-2 current is assistant-authored, not Nathan Direct:
 conversation raw blob
-`1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, conversation
-`68f4d9b5-b908-832e-940e-6782db174a4a`, assistant message
-`3039b226-02d4-41a3-a2d3-c338e25204a9` (2025-10-19 12:31:03Z).
-Its displayed conservation law is `∇_μ J^{μν} = 0`.
+1f074cc67057ae9df1e92bab45e8ba34c96b0d77, conversation
+68f4d9b5-b908-832e-940e-6782db174a4a, assistant message
+3039b226-02d4-41a3-a2d3-c338e25204a9 (2025-10-19 12:31:03Z).
+Its displayed conservation law is ∇_μ J^{μν} = 0.
 
 The June 2025 SAT4D live draft (document-level byline Nathan McKnight;
 AI assistance acknowledged; Git blob
-`2a79fe25018cce7e99a2c33786d88b0551db6ae7`) uses a rank-1
-`J_μ` and displays a Maxwell source whose right-hand side lacks the
-free `ν` index. The map from its averaged filament-flux quantity to a
+2a79fe25018cce7e99a2c33786d88b0551db6ae7) uses a rank-1
+J_μ and displays a Maxwell source whose right-hand side lacks the
+free ν index. The map from its averaged filament-flux quantity to a
 covector current is not defined.
 
 This module proposes only a conditional algebraic projection of a
-rank-2 antisymmetric current using a chosen covector `u_μ`. It does not
+rank-2 antisymmetric current using a chosen covector u_μ. It does not
 identify the assistant-authored Blockwave current with the SAT4D current,
 supply a charge normalization, or establish a physical H(s)H law.
 
 ## Formal statement
 
-For antisymmetric `J^{μν}`, define the projected vector
-`j^ν = Σ_μ J^{μν} u_μ`. It is orthogonal to `u_ν`, so it is a
-spatial current relative to `u`, not a complete four-current with a
+For antisymmetric J^{μν}, define the projected vector
+j^ν = Σ_μ J^{μν} u_μ. It is orthogonal to u_ν, so it is a
+spatial current relative to u, not a complete four-current with a
 charge density.
 
 Under the explicit product-rule expansion and the contracted
 two-form-conservation premise encoded below,
 
-`∇_ν j^ν = -½ J^{μν} ω_{μν}`,
-where `ω_{μν} = ∇_μ u_ν - ∇_ν u_μ`.
+∇_ν j^ν = -½ J^{μν} ω_{μν},
+where ω_{μν} = ∇_μ u_ν - ∇_ν u_μ.
 
 Thus this projected current is conserved only when its contraction with
-the antisymmetric derivative of `u` vanishes. A full four-current still
-requires an independently specified scalar charge density `ρ` and
+the antisymmetric derivative of u vanishes. A full four-current still
+requires an independently specified scalar charge density ρ and
 the corresponding continuity equation.
 
 ## Limits
 
-The finite-index model uses `Fin 4` and real components. It does not
+The finite-index model uses Fin 4 and real components. It does not
 encode a metric, raising/lowering, a Levi-Civita connection, a physical
 unit timelike field, the source's worldsheet support, or a constitutive
 law. The product-rule expression and contracted conservation premise
@@ -68,7 +68,7 @@ def vorticityContraction (J Du : Index → Index → ℝ) : ℝ :=
   ∑ μ : Index, ∑ ν : Index, J μ ν * vorticity Du μ ν
 
 /-- Product-rule expansion of the divergence of
-    `j^ν = Σ_μ J^{μν} u_μ`.
+    j^ν = Σ_μ J^{μν} u_μ.
     The derivative indices are explicit inputs; this is not a
     formalized connection. -/
 def projectedDivergence
@@ -90,48 +90,36 @@ theorem antisymmetric_mixed_contraction_eq_neg_half_vorticity
           J μ ν * (D μ ν - D ν μ)) := by
   classical
   let T : ℝ := ∑ μ : Index, ∑ ν : Index, J μ ν * D μ ν
-  let S : ℝ := ∑ ν : Index, ∑ μ : Index, J μ ν * D ν μ
-  have hSneg :
-      (∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ) =
-        -(∑ μ : Index, ∑ ν : Index, J ν μ * D ν μ) := by
-    calc
-      _ = ∑ μ : Index, ∑ ν : Index, (-J ν μ) * D ν μ := by
-        apply Fintype.sum_congr
-        intro μ
-        apply Fintype.sum_congr
-        intro ν
-        rw [hJ μ ν]
-      _ = - (∑ μ : Index, ∑ ν : Index, J ν μ * D ν μ) := by
-        simp [Finset.sum_neg_distrib]
-  have hTswap :
-      T = ∑ μ : Index, ∑ ν : Index, J ν μ * D ν μ := by
-    dsimp [T]
-    exact Fintype.sum_comm
-  have hS :
-      S = -T := by
-    dsimp [S]
-    calc
-      _ = ∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ :=
-        Fintype.sum_comm
-      _ = - (∑ μ : Index, ∑ ν : Index, J ν μ * D ν μ) :=
-        hSneg
-      _ = -T := by rw [← hTswap]
-  have hS2 :
+  have hMixed :
       (∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ) = -T := by
     calc
-      _ = S := by dsimp [S]; exact Fintype.sum_comm.symm
-      _ = -T := hS
+      _ = ∑ μ : Index, ∑ ν : Index, (-J ν μ) * D ν μ := by
+        apply Finset.sum_congr rfl
+        intro μ hμ
+        apply Finset.sum_congr rfl
+        intro ν hν
+        rw [hJ μ ν]
+      _ = -(∑ μ : Index, ∑ ν : Index, J ν μ * D ν μ) := by
+        simp [Finset.sum_neg_distrib]
+      _ = -T := by
+        congr 1
+        rw [Finset.sum_comm]
   have hVorticity :
       (∑ μ : Index, ∑ ν : Index,
         J μ ν * (D μ ν - D ν μ)) = 2 * T := by
     calc
-      _ = T - (∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ) := by
-        dsimp [T]
-        simp [mul_sub, Finset.sum_sub_distrib]
-      _ = T - (-T) := by rw [hS2]
+      _ = (∑ μ : Index, ∑ ν : Index, J μ ν * D μ ν) -
+          (∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ) := by
+        simp_rw [mul_sub]
+        rw [Finset.sum_sub_distrib]
+      _ = T - (-T) := by
+        rw [hMixed]
+        rfl
       _ = 2 * T := by ring
   calc
-    _ = -T := hS
+    _ = ∑ μ : Index, ∑ ν : Index, J μ ν * D ν μ := by
+      rw [Finset.sum_comm]
+    _ = -T := hMixed
     _ = -(1 / 2 : ℝ) * (2 * T) := by ring
     _ = -(1 / 2 : ℝ) *
         (∑ μ : Index, ∑ ν : Index,
@@ -147,8 +135,7 @@ theorem spatialCurrent_orthogonal_to_u
   classical
   have h := antisymmetric_mixed_contraction_eq_neg_half_vorticity
     J (fun μ ν => uCov μ * uCov ν) hJ
-  unfold spatialCurrent vorticity at *
-  simpa [mul_comm, mul_left_comm, mul_assoc] using h
+  simpa [spatialCurrent, mul_comm, mul_left_comm, mul_assoc] using h
 
 /-- If the contracted derivative of the two-form vanishes, the
     projected-current divergence is entirely the vorticity contraction. -/
@@ -165,16 +152,16 @@ theorem projectedDivergence_eq_neg_half_vorticityContraction
   have hFirst :
       (∑ ν : Index, ∑ μ : Index, dJ ν μ ν * uCov μ) = 0 := by
     calc
-      _ = ∑ μ : Index, ∑ ν : Index, dJ ν μ ν * uCov μ :=
-        Fintype.sum_comm
+      _ = ∑ μ : Index, ∑ ν : Index, dJ ν μ ν * uCov μ := by
+        rw [Finset.sum_comm]
       _ = ∑ μ : Index, (∑ ν : Index, dJ ν μ ν) * uCov μ := by
-        apply Fintype.sum_congr
-        intro μ
+        apply Finset.sum_congr rfl
+        intro μ hμ
         rw [Finset.sum_mul]
       _ = 0 := by simp [hDiv]
   have hSecond :=
     antisymmetric_mixed_contraction_eq_neg_half_vorticity J DuCov hJ
-  unfold projectedDivergence vorticityContraction
+  unfold projectedDivergence vorticityContraction vorticity
   rw [hFirst]
   simpa using hSecond
 
