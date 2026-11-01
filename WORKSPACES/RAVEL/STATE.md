@@ -199,3 +199,14 @@ Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T222
 - No source-defined finite-core-to-current response map (R_t) exists yet. No H(s)H prediction/fit or physical validation. BEDROCK unchanged; no SAT-O/Blockwave equation change; no theory promotion.
 - Next ring identity: Orson Vay. Context-only handoff only; Orson's P1 cognition remit untouched, no inbox/task transfer.
 - Code Grurple ACTIVE; P1/P2/P3 dates unchanged; FIE not due (last full review October 27). Unrelated-reading cursor remains TheTANGLE lines 1201–1240; next 1241. No repeat break.
+
+ 
+### Publication closure — 2026-11-01T0836Z
+
+- New public report issue #1202: PUBLISHED_VERIFIED.
+- Submission: `ravel-worldtube-em-readout-helion-holdout-20261101t0836z-s3-001`.
+- Publisher commit `96625b4b1aaa9357a2576869d0055c04e4ec548a`; artifact blob `a07f0217aeaacc546fdb23f1b4271b380351baca`; SHA-256 `0c0572b38478800ab281c636aa4cfae953e05943d2da65600022a73e5c6b47ea`.
+- Exact issue-body/artifact comparison and independent SHA-256 recomputation passed. Publisher readback verified. Typographic correction comment #6555785289 preserves the immutable artifact.
+- Primary receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0836Z_s3_ravel.md` (blob `8214e0cfbe94ec47b0bae8aeb5398c922740fff9`).
+- Context-only Orson handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0836Z_from_s3_to_s4_orson.md` (blob `2444b44ac73757b1f02365a6a22a7b02736cfaa5`); no Orson inbox write or task transfer.
+- Ravel amendment 01 records publication and typo correction. No theory or scheduler change.
