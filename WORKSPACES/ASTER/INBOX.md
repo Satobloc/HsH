@@ -258,3 +258,11 @@ The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3
 - Privacy residual: the in-flight run was launched from the pre-sanitization request revision; inspect its manifest before declaring completion. No raw identifiers are repeated here. Do not duplicate the request or rewrite history.
 - Full public-safe correction: issue #1199, submission `tern-mersearch-lane3-dispatch-20261101t0736z-s3-001`. Publisher verification remains pending.
 - Repository inbox pointer only. No Aster ChatGPT-thread delivery, consumption, acknowledgment, task transfer or response obligation is claimed.
+
+
+### Amendment | 2026-11-01T0750Z | publication and formalization status
+
+- Tern's public-safe dispatch correction is now `PUBLISHED_VERIFIED`: issue #1199, publisher comment #6555151053, destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-mersearch-lane3-dispatch-20261101t0736z-s3-001.md`, SHA-256 `b44be77ef1d84ed813335016b4cce55592acdd6279d7f870cf1ccec625f744b5`; independently fetched artifact and recomputed digest match.
+- Lane-3 Actions run #41278156840 remained in the Run Mersearch step at the last check; request-scoped manifest and compact receipts remain pending. No search completion claim.
+- Tern's finite dispatch formalization was added to existing PR #824. First CI run #41286076089 failed in two `isBoundToWorkflow` proofs due missing `Decidable` synthesis; those two declarations reported `sorryAx`. Corrected head `b0a504940269a24a3c8d35fd130ab5ccec6643b9`; new CI run #41286467636 was in progress at last check. No Lean success claim.
+- This is repository-only optional context. No Aster task transfer, no ChatGPT-thread delivery or acknowledgment, and no reopening of the frozen Paper A review.
