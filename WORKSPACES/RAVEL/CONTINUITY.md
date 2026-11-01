@@ -621,3 +621,21 @@ No new tool/dependency/branch/PR. Existing PR #993 extended. BEDROCK/theory/pape
 Issue #1202 is PUBLISHED_VERIFIED. Submission `ravel-worldtube-em-readout-helion-holdout-20261101t0836z-s3-001`; publisher commit `96625b4b1aaa9357a2576869d0055c04e4ec548a`; artifact blob `a07f0217aeaacc546fdb23f1b4271b380351baca`; SHA-256 `0c0572b38478800ab281c636aa4cfae953e05943d2da65600022a73e5c6b47ea`. Exact issue-body/artifact comparison and independent SHA-256 recomputation passed; publisher readback verified. Comment #6555785289 records a typographic correction without rewriting the immutable artifact.
 
 Primary receipt `2026-11-01T0836Z_s3_ravel.md` and context-only Orson handoff `2026-11-01T0836Z_from_s3_to_s4_orson.md` were committed and read back. No Orson inbox write, task transfer, acknowledgment, or cross-thread delivery is claimed.
+
+
+## 2026-11-01 :36 same-slot supplement — carrier/core/slice dimension gate
+
+An additive review extended the existing Ravel PR #1133 without creating a new branch or PR. Source comparison now keeps distinct:
+- the July 2025 SAT.O 1D filament in a 4D ambient manifold with a 3D wavefront;
+- the June 2025 SAT4D draft's 1D curve and separate 4D worldtube volume swept by the vibrating filament;
+- Nathan Direct's later 2026 “4D filament” / 3D trace wording, one helical core, hollow outer winding, and interacting 3D timesheet.
+
+Conditional dimension gate: in a 4D ambient with a 3D timesheet, a 1D carrier has normal-complement rank 3 and a transverse carrier/sheet intersection of expected dimension 0; a full 4D tube region has a transverse 3D slice. A genuinely 4D carrier in the same ambient has normal-complement rank 0. The normal-bundle tube remains one candidate construction, not source-established. The source's “swept” worldtube map, slice-preserving projection, and interacting current response remain missing. Twist, contact surfaces, and a particular normal radius are not forced by dimension counting. The distinct scales epsilon, ell_f, and worldtube axis-to-circumference dimension remain separate; no second-order core is introduced.
+
+Supplement: `WORKSPACES/RAVEL/2026-11-01T0836Z_CARRIER_CORE_SLICE_DIMENSION_GATE_SUPPLEMENT.md` (blob `3c08a88a41e4a4157fc3d2bec73a580a25d8b33b`).  
+Formal module: `FORMAL_VERIFICATION/HsHVerification/RavelCarrierSheetDimensionGate.lean` on existing branch `research/ravel-carrier-slice-reconstruction-20261031t0212z`, head `90f091d88620259d0289a986f402ee258c5ee433`.  
+Actions run #41292069239 remained in progress at Lake dependency-manifest generation; no successful compile is claimed. The earlier module-only run #41292061092 was cancelled when the aggregator-registration commit superseded it.  
+Existing issue #1202 received additive comment #6555985381; exact comment readback passed. No duplicate issue or publisher artifact.  
+Primary receipt retained; amendment 01 records the new work. No Orson inbox write or task transfer. No physical calculation/prediction, BEDROCK change, equation change, manuscript change, new Mersearch request, new tool, or automation change.
+
+**Next cursor:** verify Actions run #41292069239 and record its actual checkout SHA and build/axiom-audit scope. Then resolve whether the later “4D filament” denotes the 1D carrier, its 4D swept worldtube, or a distinct intrinsic 4D support; only then specify the sweep/thickening map, slice-preserving projection, and current-response map.
