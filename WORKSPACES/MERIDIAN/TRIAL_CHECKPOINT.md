@@ -293,3 +293,11 @@ Issue #1090's publisher workflow did not trigger because the issue title omitted
 - Existing Loom issue #1093 received additive comment #6563188840; exact comment readback verified. Its earlier publisher rejection remains unchanged. No new issue or publisher artifact was created.
 - Meridian PR #895 and its branch were not modified. Code Grurple remains ACTIVE; HAGALAZ remains BACKSEAT/HOLD. No theory, manuscript, paper-gate, or scheduler change.
 - Next source cursor: recover the raw Lab 1 source behind the undated 0.239 note and the original raw “The Trees Themselves” source; do not occupy any Mersearch lane while all four request slots remain owned.
+
+
+### Scheduler readback amendment | 2026-11-01T19:46Z
+
+- Automation peek confirms task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with the exact stored America/New_York hourly VEVENT and :36 DTSTART. No task or schedule mutation was made.
+- Current run ID cbaa4383-a994-832a-9b66-d8667d7425f1 is recorded IN_PROGRESS, scheduled_for 18:36Z, started_at 19:46:48.638834Z, no completion marker, no chat_ref, delivery unknown.
+- The intended 14:36 EST wall-clock slot corresponds to 19:36Z, while recorded scheduled_for is 18:36Z. This is a one-hour scheduler metadata/phase discrepancy after the DST transition; the observed start was 10m48s after the intended 19:36Z slot.
+- Receipt Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1936Z_s3_meridian_AMENDMENT_01.md (blob ccf59b74dc6dee630eb455d9696f1972392e4dbd). No correction or reschedule was attempted.
