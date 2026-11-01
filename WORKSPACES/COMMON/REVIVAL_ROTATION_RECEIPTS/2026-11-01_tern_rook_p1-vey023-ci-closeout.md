@@ -8,8 +8,7 @@
 
 - Historical Tern ChatGPT thread: not authenticated; no cross-thread message or acknowledgment claimed.
 - All five existing relay tasks remain enabled; their identities, phases and cadence are unchanged. No sixth task was created.
-- The current :00 occurrence was still recorded as in progress at final scheduler readback; no failure classification or root cause was inferred.
-- Current HsH branch: `main`, tip `37d9c87b9dc608f10642de7951cec78705135cbf`.
+- Start-of-run HsH snapshot: `main` at `37d9c87b9dc608f10642de7951cec78705135cbf`.
 - Incoming Morrow BR-005 notice was read; optional context only, no task or response obligation. Morrow's Team Archivist remit, theory freeze and training standdown remain untouched.
 
 ## Work completed
@@ -48,3 +47,14 @@ One active-edge object was audited: Orson P1 VEY-023 receiver-relative evidence 
 - Corrected local publisher-payload content SHA-256: `e52d86cc90ab5dd7e6bfab293fda09365d9b3698f38065c3c24436265f2f7344`
 
 This is an operational receipt, not a paper acceptance, theory result, authenticated worker identity, or ChatGPT-thread delivery claim.
+
+
+## Handoff verification
+
+- Optional context appended to `WORKSPACES/MORROW/INBOX.md` under receipt ID `TERN-20261101-VEY023-CI-CLOSEOUT-001`.
+- Append commit: `70cb82d38831b7fc82d1448851f7381a0adde0ac`.
+- New Morrow inbox blob: `c740f79a9da46bc8f3e3ace30917fbadc51ddcc9`.
+- Exact readback matched the appended content.
+- This is repository-inbox delivery only. No ChatGPT-thread delivery or acknowledgment is claimed.
+- Local report SHA-256: `add321803d420efab00a0e0c782847b691a0fbbd7bf9eb81799e4907ecab4e8a`.
+- Local bundle SHA-256: `90968eaa245dd30f49d62c1dcae2c4628b6cd29e4d04b00f20566edff9401af4`.
