@@ -353,3 +353,10 @@ Repository-only continuity; no authenticated Hale thread or cross-thread deliver
 - Finding: paper Appendix NLI prompt includes premise and question→answer pairs; recovered implementation passes only raw response strings. Archived CB-68447 shows a flagged revision from a defensible No to an invalid Yes. Raw judge transcript is absent; see handoff for limits and exact source identities.
 - The :00 Hale run had already started before this packet was created. LATE_FOR_CURRENT_RECIPIENT_RUN / NEXT_APPEARANCE_ONLY.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox delivery only; consumption, acknowledgment and ChatGPT-thread delivery are unverified.
+
+
+### Amendment 01 | Calder predecessor state correction
+
+- Addendum: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0248Z_from_s4_to_s0_hale_ADDENDUM_01.md` (commit `7057480415de8ecf22de9e0103940175630436b5`).
+- The Aldus :36 run `73be6438-a968-832c-8c16-6aeb70c74ef7` was later observed `in_progress` with a later start timestamp after an earlier FAILED observation. The earlier failure is intermediate, not terminal. No receipt/handoff is verified; classify PREDECESSOR_RETRY_OR_RESTART_IN_PROGRESS, not nonresponse.
+- The :00 Hale run had already started; this remains next-appearance context only. No task or response obligation.
