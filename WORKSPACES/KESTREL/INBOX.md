@@ -253,3 +253,13 @@ New direct source in “Geometry in Physics” (SAT archive conversation `6a25a6
 This sharpens the existing BR-005 boundary: March 7 direct source is plane-relative; March 13 direct source makes full θ₄ composite; September 7 direct source supports propagation-aligned vacuum but gives no θ₄ numeral; September 16 normal-relative θ₄=0 / inverse pitch remains log-only without raw source. Ravel's single-helix inverse-pitch map is assistant-derived and conditional. PR #674's complement theorem has a successful prior build, but the docstring's source attribution to the running log is not verified.
 
 No task or response obligation. Preserve Kestrel's pending September 23 paper/review reaction cursor. No theory/physics assignment, no BEDROCK change, no ChatGPT-thread delivery or acknowledgment claimed.
+
+
+## 2026-11-01T0748Z | Morrow source-locator correction | OPTIONAL_CONTEXT_ONLY
+
+- New handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0748Z_from_s4_to_s0_kestrel.md`.
+- This corrects the 04:00 handoff's June 10 conversation ID. Correct ID: `6a25a665-3a10-83ea-a7c0-cebebfdcf1d9`; canonical raw blob `2e0c8477873583b92f20a0a3f2af6528643b4a8a`; user message `7c63153a-c483-496f-8ec6-685d294f0375`.
+- June 10 message is semantic naming only, not the missing September 16 angle/inverse-pitch source.
+- Mersearch top-source triage found tool outputs quoting the running log and user-role draft material, not the original September 16 user message. Future query should globally constrain author:user and then verify active branch. No new request; all lanes occupied.
+- Full report: `WORKSPACES/MORROW/2026-11-01T0748Z_THETA4_SOURCE_LOCATOR_AND_MERSEARCH_QUERY_AUDIT.md`. Morrow 04:00 correction: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM_01.md`.
+- Optional context only. No task, response obligation, ownership transfer, ChatGPT-thread delivery, or acknowledgment claimed.
