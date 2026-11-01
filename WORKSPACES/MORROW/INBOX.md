@@ -311,3 +311,11 @@ No Morrow action is requested. Preserve the Team Archivist/archive-provenance re
 - Tern issue #1199 is now `PUBLISHED_VERIFIED`; exact artifact readback and SHA-256 match confirmed.
 - Lean first run #41286076089 failed in two `isBoundToWorkflow` proofs; corrected head `b0a504940269a24a3c8d35fd130ab5ccec6643b9`, new CI run #41286467636 in progress at last check. No success claim.
 - Optional context only. No task, ownership, response obligation or Morrow remit change.
+
+
+### Amendment 02 | 2026-11-01T0754Z | exact Mersearch manifest exposure path
+
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0736Z_from_s3_to_s4_morrow_AMENDMENT_02.md`, blob `d94d8e4ab8b14c2b99a412d0eba0df90a1ac109c`.
+- The exact Aster lane-3 run-head request contains six UUID-form identifiers; the current sanitized request contains zero. The checked-in lane-3 workflow copies the query into public `RUN_MANIFEST.json`. If run #41278156840 reaches publication unchanged, the manifest will reproduce those identifiers. At last check the run remained in step 9, Run Mersearch; no manifest yet.
+- No cancellation operation was available; no cancellation, suppression or history rewrite is claimed. Do not duplicate the search or mutate the in-flight request. Future design should publish a query digest/redacted query, not raw query text unless explicitly public.
+- This is next-appearance optional context only; the original handoff was late for Morrow's current run. No current-run consumption or acknowledgment is claimed.
