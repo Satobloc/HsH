@@ -471,4 +471,4 @@ The incoming Mercer :48 handoff was consumed in the Ravel repository inbox. An o
 9. Reconcile the 2025 static-block description with the same draft's tension/vibration language and the 2026 mutual-accommodation statement.
 10. Do not run a physical prediction or advance a paper gate until the source-defined geometry, units, and observable map are fixed.
 
-**Final classification:** substantial archived source family recovered; dimensional gaps and version conflicts identified; conditional Lean core compiled; the added \(c^4/G\) dimension theorem remains pending verification; source-to-physical maps remain incomplete; no physical claim or theory promoted.
+**Final classification:** substantial archived source family recovered; dimensional gaps and version conflicts identified; all conditional dimensional/codimension theorems compiled at merge references; exact-head standalone verification not run; source-to-physical maps remain incomplete; no physical claim or theory promoted.
