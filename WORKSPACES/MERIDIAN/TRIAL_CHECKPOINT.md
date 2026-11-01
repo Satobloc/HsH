@@ -220,3 +220,15 @@ Issue #1090's publisher workflow did not trigger because the issue title omitted
 - Active HAGALAZ task-graph cursor remains BACKSEAT/HOLD under Code Grurple; next substantive cursor is path-dependent transport/history after standdown. PR #895 is not registered as the active HAGALAZ branch.
 
 **Return cursor:** after Code Grurple standdown, resume the existing path-dependent transport/history question. When a Mersearch lane is actually released, retrieve the raw role graph for the July CTC/inversion dialogue. Do not promote flattened speaker labels, point inversion, mapping-torus algebra, or the conditional time-order lemma into a physical CTC/worldtube-to-horizon correspondence.
+
+
+## 2026-11-01T0036Z | Code Grurple route observability and scale-source cursor
+
+- Run key: REVROT3-19-20261011:504:s3. Deterministic selection: Meridian index 15; next Mercer index 16. Existing :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled and unchanged.
+- Main observed before write: f4b77f3ef8a15627943b39dfc64ac62c7c78c007. BEDROCK fully read at blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c. Code Grurple remains ACTIVE; HAGALAZ remains BACKSEAT/HOLD. No manuscript, site, branch, PR, paper-gate or theory change.
+- Both actual Paper A/B reader routes were attempted through the available read-only Browser/web paths; Browser lacked its originating context and web could not access either URL. Record both as ACCESS_UNAVAILABLE / ROUTE_NOT_OBSERVED, not rendering failure or PASS. No Sites editor action was available; no repeated probes.
+- Full internal report: WORKSPACES/MERIDIAN/2026-11-01T0036Z_GRURPLE_ROUTE_OBSERVABILITY_AND_SCALE_CURSOR.md; blob ace7f0aa20229d4747c0623c5f528232c353e8da; 11,799 characters. It records route evidence layers, exact source locators, the historical role boundary, and the post-Grurple scale-type cursor.
+- Original Meridian direct source recovery: conversation 6a9aa91b-11f4-83ea-80a1-4d502522e441 (blob d21e251df093013903cc19789ded562f83b6e6ea), user messages 054d1aea-cf67-4154-93c8-e302dc3ce1ea / 39299849-e2a4-4b63-88a0-5612c700cc1a / f6a2377c-8873-41ee-9107-41aeeb0d2589; and Meridian Free Build conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b (blob 7af1561b321f4d9364da5eb111df689efc652827), user messages 28b2378a-846d-4c3f-a242-91f9007ce261 and 1178f25c-9f92-4d1c-b43b-06482e6bf1b1. BEDROCK ND-2026-10-18-07 already distinguishes ell_f coil radius from epsilon core thickness; Meridian 020's local a is a normal-fiber radius, not source-identified with either.
+- Mersearch lanes 1–4 were occupied; no request or overwrite. Existing Math Hopper, Whirligig, RUN_079 and Lean PRs were checked; no new tool, theorem or calculation.
+- Next Code Grurple cursor: site-capable repair and live verification of both routes. Post-Grurple Meridian cursor: explicit source-defined maps among 4D filament, coil, core, worldtube dimension, timesheet section and readout before any physical calculation or new theorem.
+- FIE rereview not due; last full review 2026-10-27. Prior unrelated-reading cursor remains TheTANGLE.txt line 1851.
