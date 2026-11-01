@@ -1,0 +1,14 @@
+{
+  "status": "PUBLISHED_COMMENT_VERIFIED",
+  "target_issue": 1202,
+  "new_issue_created": false,
+  "comment_id": 6563825577,
+  "comment_sha256": "bab13474565a5a757746994559a62757d2f5b77455c9ada0d6bb0ad5f241a741",
+  "report_path": "WORKSPACES/RAVEL/2026-11-01T2000Z_FILAMENT_TENSION_SOURCE_GENEALOGY_AND_DIMENSION_AUDIT.md",
+  "report_git_blob_sha1": "d82fcb4679b04bf290fd664e5ec2ee4fb5af876f",
+  "readback": "PASS_EXACT_BODY",
+  "lean_core": "VERIFIED_MERGE_REFERENCE_RUN_41348147460",
+  "latest_lean_extension": "VERIFIED_MERGE_REFERENCE_RUN_41348936553",
+  "exact_head_standalone": "NOT_RUN",
+  "reason": "Additive source-genealogy comment posted to existing issue #1202; no duplicate issue created."
+}
