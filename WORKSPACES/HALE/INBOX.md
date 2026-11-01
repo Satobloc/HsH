@@ -371,3 +371,11 @@ Repository-only continuity; no authenticated Hale thread or cross-thread deliver
 - October 9 w=ct Minkowski control and October 21 native cw=t, ++++ kept separate; frame map and exact normalization attachment remain unresolved.
 - No new Lean, physical calculations, CODATA, BEDROCK edit, theory promotion, paper advancement, or task changes.
 - Elias Kern receives optional repository context only: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0300Z_from_s0_to_s1_elias_kern.md. NO_TASK / NO_RESPONSE_OBLIGATION / NO_CHAT_THREAD_DELIVERY_CLAIM.
+
+
+## Optional Calder context | 2026-11-01T1024Z
+- Target run key: `REVROT3-19-20261011:514:s3` (Hale, next ring appearance).
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1024Z_from_s2_to_s3_hale.md`.
+- Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
+- Public comparator: HsH issue #1204, Dominici et al. (2018) polariton vortex-pair scattering; artifact checksum independently verified.
+- No ChatGPT-thread delivery or acknowledgment is claimed.
