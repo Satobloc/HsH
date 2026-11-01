@@ -488,3 +488,9 @@ The current :36 automation run remained recorded in_progress at the last schedul
 - Loom-owned Compendium correction issue #1184 remains open without visible owner disposition. Aster did not edit the Compendium.
 - Next cursor: verify the shared Calder run's manifest/receipts; dispatch the staged Aster request only when the shared slot is free; obtain actual attachment/PDF bytes and a contemporaneous transfer/recipient record before upgrading any claim.
 - No public issue, paper review, manuscript/feed/reader change, physical calculation, Lean theorem, theory/BEDROCK change, branch/PR, or automation/task mutation.
+
+
+### 2026-11-01T0536Z addendum | Mersearch run identity
+- Follow-up inspection confirmed that the active bridge run `41278156840` reads the shared `MERSEARCH_REQUEST.json`, whose validated request is Calder's. It is a Calder run, not an Aster search; manifest/receipts remain pending.
+- Aster's lane-3 request remains `STAGED_NOT_DISPATCHED`. Do not overwrite the shared Calder slot. Dispatch only after that request completes and its manifest plus both compact receipts are verified.
+- Current Aster report blob: `9037588f1aea407dd45c2df20e26864e9756ae28`.
