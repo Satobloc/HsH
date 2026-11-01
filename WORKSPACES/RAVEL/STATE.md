@@ -184,3 +184,18 @@ The coupling audit's conditional Lean result is compiled in the existing draft P
 No physical calculation or fit, new measured-data claim, paper-gate advancement, BEDROCK promotion or theory promotion occurred. No Orson handoff.
 
 Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T2224Z_s1_ravel_SUPPLEMENT_01.md (blob 2752b2847b9e661968bce320766ff9e56cf583b4).
+
+
+## 2026-11-01T0836Z — worldtube-to-EM readout and helion data gate
+
+- New report: `WORKSPACES/RAVEL/2026-11-01T0836Z_WORLD_TUBE_TO_EM_READOUT_AND_HELION_HOLDOUT_MATRIX.md` (blob `74251cf9f5153ac7f72829291e09dc87d679836f`).
+- Factory Floor packet: `WORKSPACES/RAVEL/FACTORY_FLOOR_HANDOFF_PENDING_2026-11-01T0836Z.md` (blob `f134e1ab5e49be7f37fe72c712238fa6ea14d610`); ready for owner routing, not delivered. No machine-readable intake endpoint/Floor ID found; no direct Factory Floor issue/write.
+- Nathan-direct source controls preserved: 4D filament vs 3D trace; one helical core with hollow outer winding; distinct core thickness `epsilon`, first-order coil radius `ell_f`, and unresolved worldtube axis-to-circumference dimension; timesheet interaction is qualitative; stiffness is qualitative and has no constitutive law/units. Kerr and responsive-medium soliton remain tentative. The 2024 moving-plane construction is a heuristic, not ontology.
+- Existing PR #1133 label-preserving pullback built successfully on merge ref #41274705850; module and aggregator blobs match PR head/merge ref; 8,945 jobs; zero `sorryAx`/`admit`; tests/lint/automated axiom audit skipped. Exact PR head was not independently built.
+- Existing PR #993 was extended with `RavelHelionJLabE04018DataGate.lean`, encoding Table II of JLab E04-018. Actions #41290025410/job #124799444666 succeeded on merge ref `ce0bfd4f6d6ecc50cc46ac5c6b1b1fb490f3991f`; module and aggregator blobs match PR head. Ten theorem-specific reports; zero `sorryAx`/`admit`; only standard Lean axioms; tests/lint/nanoda/separate axiom audit skipped. Exact PR head not standalone built.
+- Important dataset gate: Table II has no magnetic extraction at (Q^2_{eff}=49.0\,\mathrm{fm}^{-2}); at 60.8 the charge-form-factor sigma exceeds its central magnitude. Table I's 49.0 point has only one forward angle; the 60.8 raw cross sections have 33.6–70.8% relative errors. No covariance matrix recovered; no global score.
+- PR #993's prior run #41207194774 was a merge-ref build, not exact-head as previously stated. Ravel amendment 01 corrects the earlier overstatement.
+- PR #1133 publication issue #1194 is now PUBLISHED_VERIFIED; see the 0448Z amendment. No duplicate issue.
+- No source-defined finite-core-to-current response map (R_t) exists yet. No H(s)H prediction/fit or physical validation. BEDROCK unchanged; no SAT-O/Blockwave equation change; no theory promotion.
+- Next ring identity: Orson Vay. Context-only handoff only; Orson's P1 cognition remit untouched, no inbox/task transfer.
+- Code Grurple ACTIVE; P1/P2/P3 dates unchanged; FIE not due (last full review October 27). Unrelated-reading cursor remains TheTANGLE lines 1201–1240; next 1241. No repeat break.
