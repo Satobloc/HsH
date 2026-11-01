@@ -162,17 +162,20 @@ theorem rationalFilterFactor_norm_one
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
-  rw [norm_mul, norm_div, norm_div]
-  all_goals try simpa only [starRingEnd_apply] using hminus
-  all_goals try exact hplus
-  rw [norm_sub_conj_eq, norm_add_conj_eq]
-  have hminusNorm :
-      ‖(x : ℂ) - star z‖ ≠ 0 :=
-    (norm_pos_iff.mpr hminus).ne'
-  have hplusNorm :
-      ‖(x : ℂ) + z‖ ≠ 0 :=
-    (norm_pos_iff.mpr hplus).ne'
-  simp [hminusNorm, hplusNorm]
+  rw [norm_mul]
+  rw [norm_div]
+  · rw [norm_div]
+    · rw [norm_sub_conj_eq, norm_add_conj_eq]
+      have hminusNorm :
+          ‖(x : ℂ) - star z‖ ≠ 0 :=
+        (norm_pos_iff.mpr hminus).ne'
+      have hplusNorm :
+          ‖(x : ℂ) + z‖ ≠ 0 :=
+        (norm_pos_iff.mpr hplus).ne'
+      simp [hminusNorm, hplusNorm]
+    · exact hplus
+  · change (x : ℂ) - star z ≠ 0
+    exact hminus
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
@@ -325,11 +328,14 @@ theorem firstEchoAmplitude_injective_horizonPlus
     apply hcoeff
     calc
       Rsurf * phase * sigma * tBH = 0 := by rw [hz]; simp
+  have heq' :
+      Rsurf * phase * (Rbh * Zinf + sigma * tBH * z1) =
+        Rsurf * phase * (Rbh * Zinf + sigma * tBH * z2) := by
+    simpa [firstEchoAmplitude] using heq
   have hinner :
       Rbh * Zinf + sigma * tBH * z1 =
-        Rbh * Zinf + sigma * tBH * z2 := by
-    unfold firstEchoAmplitude at heq
-    exact mul_left_cancel₀ houter heq
+        Rbh * Zinf + sigma * tBH * z2 :=
+    mul_left_cancel₀ houter heq'
   have hplus : sigma * tBH * z1 = sigma * tBH * z2 :=
     add_left_cancel hinner
   have htransfer : sigma * tBH ≠ 0 := by
