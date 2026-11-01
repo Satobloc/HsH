@@ -1,0 +1,16 @@
+{
+  "run_key": "REVROT3-19-20261011:526:s0",
+  "status": "HELD_NO_APPEND_ROUTE_DUPLICATE_GUARD",
+  "existing_public_issue_cluster": [
+    189,
+    191,
+    192
+  ],
+  "new_issue_created": false,
+  "new_issue_reason": "The existing public issues already publish the Minkowski/Nambu-Goto calculations. The current issue publisher has no append route; opening another issue would duplicate that calculation cluster.",
+  "new_comment_created": false,
+  "new_pr_created": false,
+  "public_theory_promotion": false,
+  "internal_report_path": "WORKSPACES/HALE/2026-11-01T2200Z_MINKOWSKI_THREAD_SUPERHELIX_SOURCE_FIDELITY_ADDENDUM.md",
+  "internal_report_blob": "a607f51e722fc4891acbf2d1866d720c8580a590"
+}
