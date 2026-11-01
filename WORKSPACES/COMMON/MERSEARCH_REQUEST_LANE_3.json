@@ -1,28 +1,31 @@
 {
-  "lane": 3,
-  "request_id": "sable-j3-j2-original-source-crosswalk-20261101-0128",
-  "requester": "Workshop Relay :24 / Sable source-and-systems lane; current assistant source-grounded reconstruction, not authenticated historical Sable",
-  "requested_at": "2026-11-01T01:28:00Z",
+  "request_id": "aster-june-2025-disclosure-source-lineage-20261101-0536",
+  "requester": "Workshop Relay :36 / Aster source-provenance reconstruction; historical Aster thread not authenticated",
+  "requested_at": "2026-11-01T05:37:28Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(name:*Tourist*Tailor* OR path:*Tourist*Tailor* OR \"68cad3d4-0ccc-8325-be36-94c5b5527997\" OR \"71da031e-5a0c-4408-bb9f-0b2cbbfdb6f0\" OR \"e92efb17-2499-482e-b930-9ad11221bd7c\" OR \"9dc27aac-b34d-46db-8bb1-be603ba3fb73\" OR \"3039b226-02d4-41a3-a2d3-c338e25204a9\") OR (author:user AND ((\"3-form\" NEAR/12 \"2-form\") OR \"fundamental 3-form\" OR \"flux through surfaces\" OR (\"same object\" NEAR/12 current))) OR (author:assistant AND ((\"J^{\\\\mu\\\\nu}\" OR \"J_{\\\\mu\\\\nu\\\\rho}\" OR \"J_mu\") NEAR/15 (current OR worldsheet OR flux OR dual))) OR (name:*Blockwave* OR path:*Blockwave* OR name:*SAT4D* OR path:*SAT4D* OR name:*SAT-O1* OR path:*SAT-O1*)",
-  "purpose": "Mersearch-first source crosswalk for the 4D current-support/form-degree issue already present in Sable PR #1098. Recover the original raw conversation and exact Nathan user-role statements about 3-form versus 2-form, surface-flux description, and the requirement for an explicit map; separately recover assistant-authored equations and SAT4D/SAT-O1/Blockwave artifacts. Preserve exact paths, raw conversation/message UUIDs, parent/adjacent context, timestamps, source repository commit, Git blob SHA, attachment/content hashes where available, and derivative/duplicate relationships. Keep verbatim equations and source text separate from corrected or reconstructed equations. This is source genealogy and formalization-boundary work, not a claim that a physical J3-to-J2 map exists.",
+  "query": "(name:*ASTER*raw* OR path:*ASTER*raw* OR \"6ab006ce-e358-83ea-b3dd-7b23a26c00fa\" OR \"2285923a-a31f-4547-9e64-5f8581522a95\" OR \"c2c5d227-1833-471a-8656-a06e2fbc56de\" OR \"95912d32-024f-468a-8da3-1c14296b1bd6\" OR \"bc810a2c-21d6-42bb-b9cf-8b3e53589e5a\" OR \"08835209-de28-4de5-a3fc-22a48550425e\") OR (name:*SAT*LAYMAN* OR path:*SAT*LAYMAN* OR name:*SAT*22Jun25* OR path:*SAT*22Jun25* OR name:*SAT*OVERVIEW*17Jun2025* OR path:*SAT*OVERVIEW*17Jun2025*) OR (author:user AND (\"this is what I gave him\" OR \"June 2025\" OR metamaterials)) OR (author:assistant AND (\"SAT 22Jun25.pdf\" OR \"SAT LAYMAN\"))",
+  "purpose": "Aster source-genealogy audit of the reported June 2025 external-contact/disclosure event. Locate permitted original conversation records, direct user-role source messages, attachment metadata, exact SAT LAYMAN and SAT 22Jun25 archive identities, and any contemporaneous transfer/recipient-acknowledgment records. Preserve the distinction between Nathan's later recollection, assistant interpretation of images, archive artifact existence, verified transfer, recipient review, and independent validation. No third-party personal details or raw excerpts are to be published.",
   "preferred_outputs": [
-    "Request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "Exact source paths, repository commits, Git blob SHAs, raw conversation IDs, message UUIDs, roles, timestamps and adjacent context",
-    "Verbatim Nathan Direct passages and separately attributed assistant equations",
-    "Original/copy/derivative relationships and exact attachment/content hashes where available",
-    "Explicit coverage, exclusion, and unavailable-source limitations"
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "exact source paths, immutable blob SHAs and source commit dates",
+    "direct user-role and assistant-role message UUIDs, timestamps, parent IDs and adjacency for the disclosure recollection",
+    "image-pointer counts/metadata and whether actual attachment bytes are available",
+    "duplicate/derivative relationships among SAT LAYMAN and SAT 22Jun25 artifacts",
+    "explicit statement of whether transfer logs, recipient acknowledgments or independent review records were found"
   ],
   "exclusions": [
-    "Reuse lane 3 only because the prior Aldus WWRD request has a complete RUN_MANIFEST and both compact receipts independently read back; do not overwrite a pending/running request",
-    "Do not overwrite or alter lane 1 Loom or lane 2 optics requests; do not change lane 4 Nadir request",
-    "Do not infer Nathan authorship from a user-role paste, attachment, filename, assistant equation or workspace summary",
-    "Do not publish raw excerpts or private HSH_RESOURCES paths/content",
-    "No physical calculation, no data-free calculation, no new Lean theorem, no branch/PR, no paper or theory promotion, no BEDROCK change, no task/automation modification"
+    "Previous lane-3 request sable-j3-j2-original-source-crosswalk-20261101-0128 has a verified manifest and both compact receipts; its request-scoped outputs remain preserved",
+    "Do not overwrite lane 1 or lane 2, which lack verified request-scoped manifest/receipt outputs",
+    "Do not alter lane 4 Tern request",
+    "Preserve default QUARANTINE and PRIOR_ART exclusions; do not widen public indexing",
+    "Do not publish raw excerpts, image contents, private HSH_RESOURCES details, or third-party personal/biographical claims",
+    "Do not infer exact transmission date, recipient identity, influence, endorsement, scientific vetting or independent replication from filename dates or assistant summaries",
+    "No manuscript, branch, PR, BEDROCK, theory, equation, task or automation changes"
   ],
+  "lane": 3,
   "status": "requested"
 }
