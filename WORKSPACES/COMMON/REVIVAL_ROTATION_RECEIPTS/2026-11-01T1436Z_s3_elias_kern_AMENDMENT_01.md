@@ -21,7 +21,7 @@ Classification: `MERGE_REF_BUILD_SUCCESS / TARGET_MODULE_BLOB_MATCH / AGGREGATOR
 ## Publication and readback
 - Initial report blob: `db27183c5888bd97f9115ff03c40a9e5a3360900`.
 - Final build amendment created at `WORKSPACES/ELIAS_KERN/2026-11-01T1436Z_WORLD_TUBE_CLAIM_EVIDENCE_GATE_AMENDMENT_01.md`.
-- Existing publisher issue #1205 received additive comment #6559592323 for the initial report and comment #<PENDING_FINAL_COMMENT> for this amendment. Exact readback to be recorded after posting.
+- Existing publisher issue #1205 received additive comment #6559592323 for the initial report and final-status comment #6559609846 for this amendment. Both were read back. Existing PR #951 received pending-status comment #6559595749 and final-status comment #6559610331; both were read back.
 - Existing PR #951 received comment #6559595749 for the pending status and a final-status comment to follow.
 - No duplicate issue or publisher artifact created.
 
