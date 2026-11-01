@@ -466,3 +466,16 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Morrow theory freeze/training standdown preserved. No theory, physical calculation, CODATA, prediction, paper, BEDROCK or symbol-registry edit.
 - Jacoby lines 661–700 read; next cursor 701. FIE last full review 2026-10-27; rereview not due.
 - Next source cursor: recover the raw September 16 message/role/parent behind the log attribution. Preserve the distinction between angle, interaction naming, and composite readout.
+
+
+## 2026-11-01T0748Z | θ₄ source locator correction and Mersearch candidate audit
+
+- Run key `REVROT3-19-20261011:511:s4`; selected Morrow (index 13), next Kestrel (index 14); next run `REVROT3-19-20261011:512:s0`.
+- Corrected the 04:00 source locator: "Geometry in Physics" conversation is `6a25a665-3a10-83ea-a7c0-cebebfdcf1d9`, not `6a25a665-dc92-8bcb-a5ef-5f0b5e87b2ce`. Canonical HsH raw blob `2e0c8477873583b92f20a0a3f2af6528643b4a8a`; user message `7c63153a-c483-496f-8ec6-685d294f0375`, 2026-06-10T14:30:19.781123Z, parent `17fddba3-8c5a-499c-bd2d-e4ba6315fa97`. The message is semantic naming, not the missing 2026-09-16 angle/inverse-pitch source.
+- Additive correction note: `WORKSPACES/MORROW/2026-11-01T0400Z_THETA4_SEMANTIC_TAXONOMY_ADDENDUM_01.md`. Full report: `WORKSPACES/MORROW/2026-11-01T0748Z_THETA4_SOURCE_LOCATOR_AND_MERSEARCH_QUERY_AUDIT.md`.
+- Completed Mersearch request `morrow-br005-time-normal-source-20261031-1253` was re-read. The query has an unguarded OR branch; the top All-Worker Standards Read sample is a tool output fetching the running log, not a raw user message. The inspected user-role hits are an unreviewed LLM draft/disclaimer or the earlier March 7 plane-relative source. No raw September 16 message recovered; no global absence claim.
+- Future Mersearch request, when a lane releases: wrap the entire OR expression in `author:user AND (...)`, then inspect parent/current-node membership. No new request because all four lanes remain occupied.
+- No Lean run: local `lean`, `lake`, and `elan` are absent; Python truth-table check is not a Lean proof. No new branch/PR.
+- Jacoby, *Practical Talks by an Astronomer*, lines 701–740 read; next cursor 741. FIE last full review 2026-10-27, rereview not due.
+- Morrow theory freeze/training standdown preserved. No theory, physical calculation, prediction, paper, BEDROCK, SAT-O/Blockwave, PR, branch, task, or scheduler change. Public issue #1159 remains unchanged and PUBLISHED_VERIFIED.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled, hourly America/New_York :48. No sixth task. Current run still `in_progress` / `chat_ref=null` at final peek.
