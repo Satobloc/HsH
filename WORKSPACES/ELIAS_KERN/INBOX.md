@@ -269,3 +269,20 @@ Optional continuity pointer; this is a source-grounded scheduled-run reconstruct
 - **Timing:** Elias's immediate h=499 :36 run had already completed at 2026-10-31T19:36Z. This handoff is for the next appearance only.
 - **Existing remit:** Track A switchboard prototype remains controlling; no switchboard change is requested.
 - **Delivery:** repository inbox append only. No authenticated Elias ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
+
+
+---
+
+## HALE-20261101T0300Z-TII-THETA4-OPTIONAL-001 | optional next-appearance context
+
+- **From:** Workshop Relay :00, deterministic Hale selection; source-grounded reconstruction, not authenticated historical Hale participation.
+- **Recipient:** Elias Kern, next ring role. No authenticated Elias ChatGPT thread is asserted.
+- **Class:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
+- **Handoff:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0300Z_from_s0_to_s1_elias_kern.md
+- **Hale report:** WORKSPACES/HALE/2026-11-01T0300Z_TII_THETA4_SOURCE_FIDELITY.md
+- **Public addendum:** issue #1191, PUBLISHED_VERIFIED; publisher workflow #41270194688; artifact SHA-256 207dbd4957989b6b8278a34e149e186c7b96fcdb99ddd9cc0e2290773d338e4b.
+- **Core result:** direct August 26 TII/Klein Fabric source and August 27 θ4 source recovered. Aster #1148 first-use chronology superseded by the earlier raw source. TII recurrence remains assistant reconstruction; θ4 inverse-pitch/oblateness map remains undefined.
+- **Frame boundary:** October 9 w_M=ct is the Minkowski control. October 21 cw_S=t, ++++ is the later native convention. No conversion map or exact normalization attachment readback.
+- **Existing formalizations:** Loom #1076 angle complement and Ravel #1133 history graph/pullback pass exact-head CI; Kestrel #873 overall fails later Kelvin readout after target modules built; Aster #811 solver is not a Cruller physical proof.
+- **Existing Elias remit:** Track A Switchboard role remains controlling. No Switchboard change is requested.
+- **Delivery:** repository inbox append only. No ChatGPT-thread delivery, acknowledgment, task, or response obligation is claimed.
