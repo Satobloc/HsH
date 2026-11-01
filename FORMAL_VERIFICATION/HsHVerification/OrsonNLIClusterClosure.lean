@@ -98,4 +98,88 @@ theorem projection_merges_nonlinked_pair :
 #print axioms clusterProjection_eq_iff
 #print axioms projection_merges_nonlinked_pair
 
+/-!
+## Candidate-pair ordering in the exploratory `align_free` path
+
+The same pinned `firstpass/wct/cluster.py` computes a row-wise top-k
+neighbor list and then retains a pair only when `j > i`. The NLI score is
+made bidirectional *after* this candidate filter. Thus the candidate relation
+is the directed row-wise retrieval relation oriented by input index, not
+automatically the union-kNN or mutual-kNN graph.
+
+The theorems below establish a conditional source-level property: if the
+row-wise neighbor relation is asymmetric for a pair, swapping the two claim
+positions swaps which directed neighbor bit the filter consults. This is a
+static algorithmic consequence, not evidence that any particular archived
+embedding set contains such a pair or that the exploratory path affected the
+registered primary analysis. The primary `align_anchored` path remains
+separate.
+-/
+
+/-- Directed membership in the row-wise top-k retrieval list. -/
+def orderedTopKCandidate {α : Type} (neighbor : α → α → Bool)
+    (position : α → Nat) (a b : α) : Bool :=
+  if position a < position b then neighbor a b else neighbor b a
+
+/-- Reindex two claim instances by swapping their input positions. -/
+def swapClaimPosition {α : Type} [DecidableEq α]
+    (position : α → Nat) (a b x : α) : Nat :=
+  if x = a then position b else if x = b then position a else position x
+
+theorem orderedTopKCandidate_uses_lower_index_direction
+    {α : Type} (neighbor : α → α → Bool) (position : α → Nat)
+    (a b : α) (hab : position a < position b) :
+    orderedTopKCandidate neighbor position a b = neighbor a b := by
+  simp [orderedTopKCandidate, hab]
+
+theorem orderedTopKCandidate_uses_reversed_direction_after_swap
+    {α : Type} [DecidableEq α] (neighbor : α → α → Bool)
+    (position : α → Nat) (a b : α)
+    (hab : position a < position b) (hne : a ≠ b) :
+    orderedTopKCandidate neighbor (swapClaimPosition position a b) a b =
+      neighbor b a := by
+  have hba : ¬ position b < position a := Nat.not_lt_of_gt hab
+  simp [orderedTopKCandidate, swapClaimPosition, hne, hne.symm, hba]
+
+/-- If row-wise top-k membership is asymmetric, the `j > i` filter is
+    sensitive to swapping the two claim positions. -/
+theorem orderedTopKCandidate_order_sensitive
+    {α : Type} [DecidableEq α] (neighbor : α → α → Bool)
+    (position : α → Nat) (a b : α)
+    (hab : position a < position b) (hne : a ≠ b)
+    (hdir : neighbor a b ≠ neighbor b a) :
+    orderedTopKCandidate neighbor position a b ≠
+      orderedTopKCandidate neighbor (swapClaimPosition position a b) a b := by
+  rw [orderedTopKCandidate_uses_lower_index_direction
+        neighbor position a b hab,
+      orderedTopKCandidate_uses_reversed_direction_after_swap
+        neighbor position a b hab hne]
+  exact hdir
+
+/-- Explicit union-kNN candidate semantics are symmetric in the endpoints. -/
+def unionTopKCandidate {α : Type} (neighbor : α → α → Bool)
+    (a b : α) : Bool :=
+  neighbor a b || neighbor b a
+
+theorem unionTopKCandidate_symmetric
+    {α : Type} (neighbor : α → α → Bool) (a b : α) :
+    unionTopKCandidate neighbor a b = unionTopKCandidate neighbor b a := by
+  unfold unionTopKCandidate
+  cases neighbor a b <;> cases neighbor b a <;> rfl
+
+/-- Explicit mutual-kNN candidate semantics are also symmetric. -/
+def mutualTopKCandidate {α : Type} (neighbor : α → α → Bool)
+    (a b : α) : Bool :=
+  neighbor a b && neighbor b a
+
+theorem mutualTopKCandidate_symmetric
+    {α : Type} (neighbor : α → α → Bool) (a b : α) :
+    mutualTopKCandidate neighbor a b = mutualTopKCandidate neighbor b a := by
+  unfold mutualTopKCandidate
+  cases neighbor a b <;> cases neighbor b a <;> rfl
+
+#print axioms orderedTopKCandidate_order_sensitive
+#print axioms unionTopKCandidate_symmetric
+#print axioms mutualTopKCandidate_symmetric
+
 end HsHVerification.OrsonNLIClusterClosure
