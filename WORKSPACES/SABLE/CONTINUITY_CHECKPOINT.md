@@ -293,3 +293,11 @@ Then inspect current repository/generated state and choose the highest-informati
 - Orson optional context read; P1 Lean run #41326800775 succeeded (8,976 jobs, zero sorryAx/admit). Orson retains P1 ownership; no trial/data replay.
 - No physical calculation, fit, prediction, measurement, theory promotion, BEDROCK/equation/manuscript/reader change, new tool/dependency/branch/PR/request, or scheduler/task change. Existing :36 task unchanged.
 - Next: verify publisher #1218; record the receipt amendment; then inspect permitted original artifacts from the existing Mersearch navigation receipt. Do not invent the missing map.
+
+
+### 2026-11-01T1636Z final verification amendment
+
+- PR #1098 exact-head Actions #41328086467 / job #124912162960 SUCCESS; Lean 4.34.0, 8,945 Lake jobs, zero sorryAx/admit. Four new SableCurrentIdentityGate theorems each report no axioms; actual #eval outputs preserved in receipt Amendment 01.
+- Publisher issue #1217 was rejected for SHA mismatch and produced no artifact. Corrected issue #1218 / submission sable-source-aware-current-identity-gate-20261101t1636z-s3-retry1 is PUBLISHED_VERIFIED.
+- Publisher run #41328514835 / job #124913442450 SUCCESS; artifact commit c135fd72e8f6193ade88c724f59fc33e2000cec2; blob 3a45863310615beb75d3e428bed1e836eeb58b7a; SHA-256 4ca0954df0ad972343c83450358edfabcde186cf6df6f4189fdadb1faf71f9fc. Exact issue payload and fetched artifact content match; independent SHA recomputation matches.
+- Receipt Amendment 01 and Loom handoff Amendment 01 preserve these results. Physical J3-to-J2 map remains FORMALIZATION_BLOCKED_DEFINITION; no theory promotion.
