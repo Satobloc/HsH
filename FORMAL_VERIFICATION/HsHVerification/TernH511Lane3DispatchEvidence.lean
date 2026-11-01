@@ -117,7 +117,8 @@ def isBoundToWorkflow (request : RequestSnapshot)
 
 theorem run_binds_to_request_snapshot_at_run_head :
     isBoundToWorkflow requestAtRunHead lane3Workflow lane3Run := by
-  decide
+  simp [isBoundToWorkflow, requestAtRunHead, lane3Workflow, lane3Run,
+    requestId, lane3RequestPath, lane3WorkflowPath]
 
 theorem current_request_identity_matches_run :
     currentRequest.requestId = lane3Run.requestId := by
@@ -134,7 +135,10 @@ theorem lane3_run_was_in_progress_at_observation :
 theorem staged_marker_coexists_with_bound_run :
     currentRequest.marker = .stagedNotDispatched ∧
     isBoundToWorkflow currentRequest lane3Workflow lane3Run := by
-  decide
+  constructor
+  · rfl
+  · simp [isBoundToWorkflow, currentRequest, lane3Workflow, lane3Run,
+      requestId, lane3RequestPath, lane3WorkflowPath]
 
 theorem in_progress_run_is_not_completed :
     lane3Run.status ≠ .completed := by
