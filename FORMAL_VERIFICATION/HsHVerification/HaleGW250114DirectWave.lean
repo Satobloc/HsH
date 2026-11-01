@@ -162,20 +162,14 @@ theorem rationalFilterFactor_norm_one
     (hplus : (x : ℂ) + z ≠ 0) :
     ‖rationalFilterFactor x z‖ = 1 := by
   unfold rationalFilterFactor
-  rw [norm_mul]
-  rw [norm_div]
-  · change (x : ℂ) - star z ≠ 0
-    exact hminus
-  · rw [norm_div]
-    · exact hplus
-    · rw [norm_sub_conj_eq, norm_add_conj_eq]
-      have hminusNorm :
-          ‖(x : ℂ) - star z‖ ≠ 0 :=
-        (norm_pos_iff.mpr hminus).ne'
-      have hplusNorm :
-          ‖(x : ℂ) + z‖ ≠ 0 :=
-        (norm_pos_iff.mpr hplus).ne'
-      simp [hminusNorm, hplusNorm]
+  simp only [norm_mul, norm_div, norm_sub_conj_eq, norm_add_conj_eq]
+  have hminusNorm :
+      ‖(x : ℂ) - star z‖ ≠ 0 :=
+    (norm_pos_iff.mpr hminus).ne'
+  have hplusNorm :
+      ‖(x : ℂ) + z‖ ≠ 0 :=
+    (norm_pos_iff.mpr hplus).ne'
+  simp [hminusNorm, hplusNorm]
 
 /-- Finite ordered product of conjugate-paired rational-filter factors. -/
 def rationalFilter (x : ℝ) : List ℂ → ℂ
