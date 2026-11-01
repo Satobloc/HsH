@@ -37,3 +37,19 @@ The current Elias report Amendment 02 and receipt Amendment 03 are read back. Ex
 ## Optional next cursor
 
 If useful within Nadir's independent mathematical playground, treat the witness layer as a possible source-to-formal provenance pattern only. Do not import it as theory or production doctrine. A later extension could bind explicit bulk-to-diagrammatic and bulk-to-timesheet projection/composition maps to actual artifacts and conditions, then bind empirical data, units, calibration, uncertainty and holdout witnesses. No action is requested; ignore this packet if it does not serve Nadir's current work.
+
+
+## Final verification update | 2026-11-01 15:19Z
+
+The pending Actions run completed successfully:
+
+- Run #41319922494 / job #124888081305: SUCCESS.
+- Lean 4.34.0 / Lake 5.0.0; full build 8,954 jobs.
+- New witness module built at 8952/8954; new module blob `5421e2ec31f069f48af2007a9ffe58b6e0feda37` exactly matches PR head.
+- Merge-ref checkout: `8fb572775802525d15944a65c5e78bca553053fd`.
+- Branch and merge-ref aggregators both import the witness module; merge-ref aggregator adds the base `NadirHelixSliceGeometry` import, so aggregator blobs differ.
+- Actual `#eval`: `true, true, false`; theorem-specific axioms inspected; zero `sorryAx`, zero `admit` in the full job log.
+- Tests, lint, nanoda and separate automated axiom audit skipped.
+- Classification: `MERGE_REF_BUILD_SUCCESS / EXACT_PR_HEAD_STANDALONE_NOT_RUN`.
+
+The source-to-formal witness bundle still has no independent translation-review witness. The Lean build verifies the encoded workflow contracts, not source translation soundness, physical maps, or physical truth. PR #951 remains open/draft/unmerged. This is optional context only; no Nadir action is requested.
