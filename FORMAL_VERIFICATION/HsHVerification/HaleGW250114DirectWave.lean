@@ -298,6 +298,12 @@ def firstEchoAmplitude
     (Rsurf phase Rbh Zinf sigma tBH ZHplus : ℂ) : ℂ :=
   Rsurf * phase * (Rbh * Zinf + sigma * tBH * ZHplus)
 
+/-- The first-echo amplitude as a map from the ordered source-channel pair
+    (Z^infinity, Z_H^(+)) to one complex echo amplitude. -/
+def firstEchoChannels
+    (Rsurf phase Rbh sigma tBH : ℂ) (channels : ℂ × ℂ) : ℂ :=
+  firstEchoAmplitude Rsurf phase Rbh channels.1 sigma tBH channels.2
+
 theorem firstEchoAmplitude_split
     (Rsurf phase Rbh Zinf sigma tBH ZHplus : ℂ) :
     firstEchoAmplitude Rsurf phase Rbh Zinf sigma tBH ZHplus =
@@ -341,6 +347,27 @@ theorem firstEchoAmplitude_injective_horizonPlus
       _ = 0 := by rw [hz]; simp
   exact mul_left_cancel₀ htransfer hplus
 
+/-- If both source channels are free, one complex first-echo amplitude does
+    not identify their ordered pair. The displayed cancellation changes the
+    channel pair while preserving the echo. A source relation or an additional
+    independent observable is therefore required for joint identification. -/
+theorem firstEchoChannels_not_injective
+    (Rsurf phase Rbh sigma tBH : ℂ)
+    (htransfer : sigma * tBH ≠ 0) :
+    ¬ Function.Injective (firstEchoChannels Rsurf phase Rbh sigma tBH) := by
+  intro hinj
+  let p0 : ℂ × ℂ := (0, 0)
+  let p1 : ℂ × ℂ := (sigma * tBH, -Rbh)
+  have hneq : p0 ≠ p1 := by
+    intro h
+    have hfst : (0 : ℂ) = sigma * tBH := congrArg Prod.fst h
+    exact htransfer hfst.symm
+  have heq :
+      firstEchoChannels Rsurf phase Rbh sigma tBH p0 =
+        firstEchoChannels Rsurf phase Rbh sigma tBH p1 := by
+    simp [firstEchoChannels, firstEchoAmplitude, p0, p1] <;> ring
+  exact hneq (hinj heq)
+
 #eval ((59 : Rat) / 1000) ^ 2
 #eval gw250114CalibrationLedger
 
@@ -356,6 +383,7 @@ theorem firstEchoAmplitude_injective_horizonPlus
 #print axioms reported_reflectivity_energy_below_0_4_percent
 #print axioms firstEchoAmplitude_split
 #print axioms firstEchoAmplitude_injective_horizonPlus
+#print axioms firstEchoChannels_not_injective
 
 end
 
