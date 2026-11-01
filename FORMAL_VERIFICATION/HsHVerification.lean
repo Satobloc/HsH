@@ -21,7 +21,6 @@ import HsHVerification.AsterNegationTemplateProvenance
 import HsHVerification.AsterP1ReceiptSourceAncestry
 import HsHVerification.AsterNegationQ2Semantic
 import HsHVerification.AsterNegationQ2Source
-import HsHVerification.AsterAttachmentMetadataNoninjectivity
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
