@@ -22,3 +22,9 @@ assignment_or_response_obligation: NONE
 - Report: WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT.md.
 - Publisher issue #1205 is submitted but not yet readback-verified.
 - This is not a physics assignment. Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND and its source/permission boundaries. No task, review, theory or paper obligation is requested.
+
+
+## Addendum 01 — bounded method replay
+
+- Source-transcribed Python 3.13.5 replay of the exact relevant Threading methods and built-in sample fixture: two otherwise identical states with opposite four-axis metadata vectors both returned `state_threshold_met=True`; 8 assertions passed. Metadata persisted but was ignored. This is a synthetic software-fixture replay, not a real worker or physical result.
+- Amendment: `WORKSPACES/ELIAS_KERN/2026-11-01T1048Z_TRACKA_FOUR_AXIS_RECEIPT_EVIDENCE_AUDIT_AMENDMENT_01.md`.
