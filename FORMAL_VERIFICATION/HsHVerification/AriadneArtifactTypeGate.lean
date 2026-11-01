@@ -15,6 +15,9 @@ Source basis:
 * KIRK_mind and READY_ROOM are mixed dialogue-like text sections without raw
   outer role metadata, message UUIDs, or authenticated conversation envelopes.
   Their names do not establish that either is a standalone mind profile.
+* Both shared sections contain in-text character dialogue labels (six Kirk
+  and nineteen Spock line starts in the normalized shared block). These are
+  not ChatGPT outer user/assistant role labels.
 * READY_ROOM_README is a standalone instruction-document section labelled
   v1.2.1. THE_WHOLE_READY is a composite section containing a v1.3 guide.
   The higher version label alone does not establish authenticated
@@ -36,7 +39,7 @@ namespace HsHVerification.AriadneArtifactTypeGate
 
 inductive ArtifactKind where
   | rawRoleTaggedConversation
-  | speakerLabeledTranscript
+  | scriptCorpus
   | mixedTranscriptWithoutRoleMetadata
   | instructionDocument
   | compositeDocument
@@ -46,7 +49,7 @@ inductive ClaimKind where
   | contentDigestComputed
   | bundleSectionIntegrity
   | outerRoleAttribution
-  | speakerAttribution
+  | characterSpeakerAttribution
   | authorAttribution
   | chronologyAttribution
   | canonicalVersionAuthority
@@ -60,7 +63,7 @@ structure ArtifactEvidence where
   contentDigestComputed : Bool
   embeddedDigestMatched : Bool
   hasOuterRoleMetadata : Bool
-  hasExplicitSpeakerLabels : Bool
+  hasCharacterDialogueLabels : Bool
   hasConversationIdentity : Bool
   hasMessageIdentifiers : Bool
   hasTimestampMetadata : Bool
@@ -70,8 +73,8 @@ structure ArtifactEvidence where
   versionLabelPresent : Bool
   deriving Repr
 
-/-- Claim eligibility is determined by evidence type and metadata, not filename,
-    archive path, conversation title, or version label. -/
+/-- Claim eligibility is determined by artifact kind and the relevant evidence,
+    not filename, archive path, conversation title, or version label. -/
 def supports (a : ArtifactEvidence) (claim : ClaimKind) : Prop :=
   match claim with
   | .contentDigestComputed =>
@@ -81,9 +84,8 @@ def supports (a : ArtifactEvidence) (claim : ClaimKind) : Prop :=
   | .outerRoleAttribution =>
       a.kind = .rawRoleTaggedConversation ∧
       a.hasOuterRoleMetadata = true
-  | .speakerAttribution =>
-      a.kind = .speakerLabeledTranscript ∧
-      a.hasExplicitSpeakerLabels = true
+  | .characterSpeakerAttribution =>
+      a.hasCharacterDialogueLabels = true
   | .authorAttribution =>
       a.kind = .rawRoleTaggedConversation ∧
       a.hasOuterRoleMetadata = true ∧
@@ -109,7 +111,7 @@ def kirkMindSection : ArtifactEvidence :=
     contentDigestComputed := true
     embeddedDigestMatched := true
     hasOuterRoleMetadata := false
-    hasExplicitSpeakerLabels := false
+    hasCharacterDialogueLabels := true
     hasConversationIdentity := false
     hasMessageIdentifiers := false
     hasTimestampMetadata := false
@@ -127,7 +129,7 @@ def readyRoomSection : ArtifactEvidence :=
     contentDigestComputed := true
     embeddedDigestMatched := true
     hasOuterRoleMetadata := false
-    hasExplicitSpeakerLabels := false
+    hasCharacterDialogueLabels := true
     hasConversationIdentity := false
     hasMessageIdentifiers := false
     hasTimestampMetadata := false
@@ -145,7 +147,7 @@ def readmeV121 : ArtifactEvidence :=
     contentDigestComputed := true
     embeddedDigestMatched := true
     hasOuterRoleMetadata := false
-    hasExplicitSpeakerLabels := false
+    hasCharacterDialogueLabels := false
     hasConversationIdentity := false
     hasMessageIdentifiers := false
     hasTimestampMetadata := false
@@ -163,7 +165,7 @@ def wholeReadyV13 : ArtifactEvidence :=
     contentDigestComputed := true
     embeddedDigestMatched := true
     hasOuterRoleMetadata := false
-    hasExplicitSpeakerLabels := false
+    hasCharacterDialogueLabels := false
     hasConversationIdentity := false
     hasMessageIdentifiers := false
     hasTimestampMetadata := false
@@ -181,7 +183,7 @@ def marloweRawExport : ArtifactEvidence :=
     contentDigestComputed := true
     embeddedDigestMatched := false
     hasOuterRoleMetadata := true
-    hasExplicitSpeakerLabels := false
+    hasCharacterDialogueLabels := false
     hasConversationIdentity := true
     hasMessageIdentifiers := true
     hasTimestampMetadata := true
@@ -232,6 +234,14 @@ theorem ready_room_section_not_role_attributed :
     ¬ supports readyRoomSection .outerRoleAttribution := by
   simp [supports, readyRoomSection]
 
+theorem kirk_mind_section_supports_character_speaker_attribution :
+    supports kirkMindSection .characterSpeakerAttribution := by
+  simp [supports, kirkMindSection]
+
+theorem ready_room_section_supports_character_speaker_attribution :
+    supports readyRoomSection .characterSpeakerAttribution := by
+  simp [supports, readyRoomSection]
+
 theorem kirk_mind_section_not_author_attributed :
     ¬ supports kirkMindSection .authorAttribution := by
   simp [supports, kirkMindSection]
@@ -260,15 +270,15 @@ theorem readme_v121_not_canonical_version_authority :
     ¬ supports readmeV121 .canonicalVersionAuthority := by
   simp [supports, readmeV121]
 
-/-- Actual evaluation: raw role/timestamp evidence exists, but author-name evidence does not. -/
+/-- Actual evaluation: character labels and outer conversation roles are distinct. -/
+#eval decide (supports kirkMindSection .characterSpeakerAttribution)
+#eval decide (supports kirkMindSection .outerRoleAttribution)
+#eval decide (supports readyRoomSection .characterSpeakerAttribution)
+#eval decide (supports readyRoomSection .outerRoleAttribution)
 #eval decide (supports marloweRawExport .outerRoleAttribution)
 #eval decide (supports marloweRawExport .chronologyAttribution)
 #eval decide (supports marloweRawExport .authorAttribution)
-#eval decide (supports kirkMindSection .bundleSectionIntegrity)
-#eval decide (supports kirkMindSection .outerRoleAttribution)
-#eval decide (supports readyRoomSection .outerRoleAttribution)
 #eval decide (supports wholeReadyV13 .canonicalVersionAuthority)
-#eval decide (supports readmeV121 .canonicalVersionAuthority)
 
 #print axioms display_name_does_not_change_claim_eligibility
 #print axioms metadata_title_does_not_change_claim_eligibility
@@ -276,6 +286,8 @@ theorem readme_v121_not_canonical_version_authority :
 #print axioms version_label_does_not_change_canonical_authority
 #print axioms non_role_tagged_artifact_cannot_support_outer_role_attribution
 #print axioms canonical_version_requires_explicit_supersession
+#print axioms kirk_mind_section_supports_character_speaker_attribution
+#print axioms ready_room_section_supports_character_speaker_attribution
 #print axioms marlowe_export_supports_outer_role_attribution
 #print axioms marlowe_export_supports_message_chronology
 #print axioms marlowe_export_does_not_authenticate_author_name
