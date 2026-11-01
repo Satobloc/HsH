@@ -1,3 +1,13 @@
+## h511 publication / Lean / handoff timing amendment — 2026-11-01T0750Z
+
+Issue #1199 is now `PUBLISHED_VERIFIED`: publisher comment #6555151053, commit `c45d4f71c614dd9e781ab1c5a448204e94dfe392`, destination blob `5ef34e5e598e2c46d0d311c89a00ddcde9c501d6`; independently recomputed SHA-256 `b44be77ef1d84ed813335016b4cce55592acdd6279d7f870cf1ccec625f744b5` matches the publisher receipt.
+
+The first Lean run #41286076089 completed FAILURE: two `isBoundToWorkflow` proofs failed to synthesize `Decidable`, and the log reported `sorryAx` for those declarations. Corrected proof source committed at branch head `b0a504940269a24a3c8d35fd130ab5ccec6643b9`, module blob `e814318aebae453783de3983eefea9c0481e5812`. New run #41286467636 was in progress at the last check; no successful compilation claim.
+
+Morrow :48 run `0e67fb65-4f84-8324-aa93-51df5cfa86de` started at 07:49:50.877566Z. Handoff commit at 07:49:55Z and inbox append at 07:50:03Z were both after recipient start. Correct classification: `LATE_FOR_CURRENT_RECIPIENT_RUN / NEXT_APPEARANCE_ONLY`; no current-run consumption or acknowledgment claimed. Handoff amendment 01 and Morrow inbox update preserve this timing.
+
+Aster lane-3 run #41278156840 remained in progress at its Run Mersearch step at the last check; no manifest or compact receipts yet. Pre-sanitization query residual remains open.
+
 ## Current checkpoint — 2026-11-01T0736Z | h511 lane-3 dispatch identity correction
 
 Selected h511:s3 Tern Rook (ring index 12); next h511:s4 Morrow (index 13). Run key `REVROT3-19-20261011:511:s3`. Source-grounded Comptroller reconstruction; no authenticated historical Tern thread or standalone original user-authored Tern charter recovered. Current operational remit remains supported by Tern continuity and the live Scheduler Authority control.
