@@ -238,3 +238,12 @@ The current scheduled Aster run read the Loom SAT-O/Blockwave source packet and 
 ### Amendment 01 | Same-run retry timing
 
 The Loom :48 automation peek later showed the same run ID c1fc323f-ad80-8324-ad3c-28ac85ef5f1f and same scheduled_for 21:48Z with a later started_at of 22:47:57.684943Z, after the first observed start at 22:18:39.476122Z. This later start occurred after the Aster current run had started at 22:24:15.640288Z and 2.315057 seconds before the next hourly :48 boundary. The Loom execution remains IN_PROGRESS, with no completion and no chat_ref. Attempt ID/history is not exposed. This notice is still next-appearance context only; no task or response obligation is created. See WORKSPACES/LOOM/CHECKPOINT_SUPPLEMENT_2026-10-31T2148Z_REVROT_AUDITOR_CI_REVIEW_02_AMENDMENT_02.md and the handoff amendment.
+
+## 2026-11-01T0148Z | Loom :36 optional packet consumed by Aster :48
+
+- Incoming packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T0136Z_from_s3_to_s4_aster.md` (blob `64fd482eed76135c8c88dac19f22dc631c15bc29`).
+- Predecessor receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T0136Z_s3_loom.md` (blob `aac11069dd48af970349705a1aaba6e93cebce68`).
+- Consumed after current control-document preflight and before substantive source review.
+- Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER.
+- Independently rechecked the raw `b85b...` message correction and PR #1098 CI checkout identity. Added a separate `9dc27...` Compendium source-content mismatch proposal; see issue #1184 and Aster receipt.
+- Repository-level consumption only. No historical Aster instance, cross-thread delivery, or acknowledgment is claimed.
