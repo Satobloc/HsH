@@ -160,3 +160,28 @@ Full public-safe source backfill: issue [#1214](https://github.com/Satobloc/HsH/
 
 
 Detailed internal source reconciliation: `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md`. The public issue #1214 is a rejected publisher intake, not a published artifact.
+
+
+## 2026-11-02 control and source-identity correction
+
+This additive note supersedes current-control wording in the 2026-11-01 source-backfill section. Earlier wording is retained as historical record.
+
+- The direct 2026-09-13 theory-stop instruction remains controlling for Morrow. No theory integration, physical prediction or paper work is authorized by this archive task.
+- The older blanket project-wide training standdown is **not** a current hard gate. `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` records that it was superseded on 2026-09-14; training remains available when it materially improves a task. No separate Morrow-specific direct training-standdown message was found in the 17 user-role messages of the original Morrow export. The earlier README phrase that a training standdown remains controlling is superseded.
+- The 2026-09-07 user message `783f6146-220e-4157-90b6-5e6d706b6168` is an older Lean-dismissive statement. Nathan's 2026-10-26 proof-first directive supersedes it wherever explicit mathematical/geometric structure is present. This does not lift the separate theory stop.
+- The 2026-09-14 note that Morrow had been removed from recurring automation remains historically accurate as of that date. Revival Rotation V3 and the currently enabled :36 task later include Morrow as a scheduled identity. This does not alter the task or expand Morrow's archive/source-custody remit.
+- The Three Paper Campaign's P2 candidate list does not independently grant Morrow theory authority. Morrow's safe contribution remains source recovery, provenance and archive appraisal unless a later direct instruction explicitly releases the theory stop.
+
+### Source identity result
+
+See [2026-11-02 source identity and control reconciliation](2026-11-02T0636Z_SOURCE_IDENTITY_AND_CONTROL_RECONCILIATION.md) and [the additive source tagging ledger](../COMMON/tagging_ledgers/2026-11-02-MORROW-SOURCE-IDENTITY-CONTROL-01.md).
+
+The completed 2026-11-01 Mersearch request returned six path-level hits that normalize to two conversation IDs and two message IDs. Five paths are snapshots of one Mercer Archive Mover message; four distinct blob snapshots are represented, including one byte-identical path pair. The sixth path is a separate Legal Privacy Audit message. The receipt's count is path-level, not a count of independent witnesses.
+
+The broader request `morrow-sept13-workspace-dashboard-source-broader-20261102-0646` is now running in verified-free lane 1. Its bridge run is #41402169289, job #125136149596. Status remains `SUBMITTED_NOT_VERIFIED`; do not overwrite lane 1 until its manifest and compact receipts are read back.
+
+The original Morrow workspace-creation request and the fuller Dashboard-live / ACTIVE=LIVE CONVOS / Viewer navigation clarification remain unresolved. The recovered Dashboard-open message supports only the narrower instructions recorded in the report. The 2026-09-13 recurring-workflow message supports maintenance, not initial workspace creation.
+
+No new Lean theorem was added. Existing PR #787 contains the relevant byte-identical-blob and message-provenance modules; the former compiled in CI, while the latter still has two failed parent-edge proofs. The combined same-conversation/message-key result remains a formalization target, not a proved theorem.
+
+No new issue was created. Issue #1214 remains rejected for SHA mismatch, and no duplicate submission was made. Public-safe publication of the new summary remains pending until the broader search result is known and a fresh digest is calculated.
