@@ -537,3 +537,22 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - Authoritative repository report remains `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md`, blob `0caca3ead0d53672d4250670b5107d48a7fe75c5`.
 - Issue #1214 publisher intake remains rejected (`SHA-256 mismatch`); Mersearch request remains `SUBMITTED_NOT_VERIFIED`.
 - Main at this checkpoint amendment: `d0f121035000fd8b137b594342527fc9b08df4d1`.
+
+
+## 2026-11-02T0636Z | Source identity and control reconciliation
+
+- Rotation: h=534, seq=2673, Morrow index 13; next Kestrel index 14. Run key `REVROT3-19-20261011:534:s3`; next key `REVROT3-19-20261011:534:s4`.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact hourly America/New_York :36 schedule. No task, ID, prompt, cadence or phase change; no sixth task.
+- Current automation run ID `c1edddd2-67cc-8322-ad33-0daa080572fc`, scheduled 06:36Z, started 06:40:43.769461Z, `chat_ref=null`. Selection is not authenticated historical Morrow thread identity.
+- Predecessor Tern :24 run was still in progress; no receipt/handoff found. Classify `HANDOFF_MISSING_OR_IN_FLIGHT`, not failure. Kestrel's 06:48Z run had already started before the optional packet could be consumed; packet is intended for its next appearance at 10:36Z.
+- Morrow's direct 2026-09-13 theory stop remains. The blanket project-wide training standdown was superseded by the 2026-09-14 Automation Workflow Control; the older README/checkpoint wording is corrected additively. The 2026-09-07 Lean-dismissive statement is superseded by Nathan's 2026-10-26 proof-first directive. Neither correction authorizes theory resumption.
+- The current revival rotation and enabled :36 task later reintroduce Morrow as a scheduled identity; the 2026-09-14 removal note remains historical. Morrow's remit remains archive/source custody, not theory authority.
+- Completed Mersearch request `morrow-sep13-dashboard-common-source-recovery-20261101-1524`, run #41321508369, job #124892559411: six path hits reduce to two conversation IDs and two message IDs. Five paths are snapshots of one Mercer Archive Mover message; the sixth is a separate Legal Privacy Audit message. Four blob snapshots occur across the five Mercer paths; one path pair is byte-identical.
+- The exact initial Morrow workspace-creation request remains unrecovered. The 2026-09-13 recurring-workflow message postdates the README/checkpoint creation and is maintenance evidence, not creation evidence. The fuller Dashboard/Viewer clarification also remains unresolved.
+- New broad request `morrow-sept13-workspace-dashboard-source-broader-20261102-0646`, lane 1, run #41402169289, job #125136149596, remains `SUBMITTED_NOT_VERIFIED`. Do not overwrite lane 1; verify its manifest and compact receipts before reuse.
+- Existing PR #787 was inspected. `AsterRatioSourceIdentity` compiled in run #41053033635 with theorem-specific no-axiom outputs; `MorrowRoleProvenance` still has two failed parent-edge proofs and `sorryAx` on those declarations. The combined `(conversation_id, message_id)` snapshot-dedup theorem is not yet formalized or proved.
+- No physical calculation, prediction, theory integration, SAT-O/Blockwave equation change, BEDROCK promotion or paper-gate advancement.
+- New report: `2026-11-02T0636Z_SOURCE_IDENTITY_AND_CONTROL_RECONCILIATION.md`.
+- New additive tag ledger: `../COMMON/tagging_ledgers/2026-11-02-MORROW-SOURCE-IDENTITY-CONTROL-01.md`.
+- FIE last full review remains 2026-10-27; 14-day review not yet due. Unrelated reading cursor remains Jacoby, *Practical Talks by an Astronomer*, next lines 781.
+- Next Morrow cursor: verify the broader Mersearch run, inspect distinct user-role source messages only, then update this checkpoint with the recovered or still-missing source status. Public-safe issue-publisher submission remains pending; issue #1214 was not duplicated.
