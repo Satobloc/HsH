@@ -61,7 +61,7 @@ Existing formalization status remains:
 
 - Rotation: h=529, seq=2649; selected Hale, next Elias Kern.
 - The expected :36 predecessor run was still in progress at cutoff; no Calder handoff was assumed.
-- The :00 Elias run had already started/completed before this handoff was written. The repository handoff is therefore context-only for Elias's next appearance, not a claim that the current run consumed it.
+- The :00 Elias run had already started before this handoff was written and remained in progress at the latest status readback. The repository handoff is therefore context-only for Elias's next appearance, not a claim that the current run consumed it.
 - No authenticated current Elias thread was found; repository inbox is the only verified handoff route.
 - All Mersearch lanes were occupied; no new request was submitted.
 - No new tooling was built. Existing Vey/GRAIL research, Lean PRs, and connected SciSpace capability were checked; no new tool was justified.
