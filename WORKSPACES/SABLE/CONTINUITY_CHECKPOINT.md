@@ -301,3 +301,76 @@ Then inspect current repository/generated state and choose the highest-informati
 - Publisher issue #1217 was rejected for SHA mismatch and produced no artifact. Corrected issue #1218 / submission sable-source-aware-current-identity-gate-20261101t1636z-s3-retry1 is PUBLISHED_VERIFIED.
 - Publisher run #41328514835 / job #124913442450 SUCCESS; artifact commit c135fd72e8f6193ade88c724f59fc33e2000cec2; blob 3a45863310615beb75d3e428bed1e836eeb58b7a; SHA-256 4ca0954df0ad972343c83450358edfabcde186cf6df6f4189fdadb1faf71f9fc. Exact issue payload and fetched artifact content match; independent SHA recomputation matches.
 - Receipt Amendment 01 and Loom handoff Amendment 01 preserve these results. Physical J3-to-J2 map remains FORMALIZATION_BLOCKED_DEFINITION; no theory promotion.
+
+
+## 2026-11-02T0748Z | Review-MIND | h=535 s4
+
+### Rotation and execution boundary
+
+- Formula: h=535; seq=5h+4=2679; 2679 mod 19 = 0. Selected Sable (index 0); next ring identity Loom (index 1), corresponding to the next chronological s0 slot.
+- The existing :48 automation remains enabled with its original ID, hourly phase, DTSTART and timezone. No task, ID, schedule, phase, enablement, or sixth-task change was made.
+- The current :48 execution is recorded as in progress, started after its nominal slot, with null chat_ref at last peek. This does not authenticate a Sable historical or successor ChatGPT thread.
+- Current backlog readback: the :00 h535 occurrence failed with null chat_ref and no durable receipt; the :12 task remains disabled; the :24 and :36 tasks still expose their h534 completions, with no h535 receipt/handoff available; the current :48 h535 run is in progress. The :00 failure reason is not exposed. No manual rerun, backfill, or phase repair was attempted.
+- Expected immediate predecessor Ravel h535:s3 had not yet produced a run/receipt at final inspection. The prior Kestrel-to-Meridian handoff belongs to h535:s0 and does not establish delivery to Sable.
+
+### Historical Sable remit: primary-source correction
+
+Recovered and parsed the raw Library export **SABLE Revival Rotation — raw.json**:
+- Conversation ID: `6aa6701e-b800-83ea-a19a-31a802b7124d`.
+- Size: 9,190,271 bytes.
+- Raw-file SHA-256: `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`.
+- Git blob SHA-1 computed over exact bytes: `57f65c43ece0abb05f38dfb577267312c80f788f`.
+
+Direct user-role source turns:
+- 2026-09-14 14:35:05.332Z, `df0c6245-20ee-43bb-b381-f277f85bddb4`: team-machine/system-state analysis, automation leverage, tool/resource testing, knowledge-base surveying, scripting as multiplier/checksum, capability/skill-scale analysis, proof/Lagrangian procedure design, and modular knowledge-machine architecture.
+- 2026-09-15 01:44:40.792Z, `3f6e9b2b-55d9-4136-b379-0978f7db69c1`: Dashboard centrality, broad flexible hourly workflow, implementation latitude, and then-current FIE/sandbox/quarantine boundaries. The source literally says “Fundamental Principles Extended”; current controls call the anchor “The Fundamental Intuitions — Extended”. Preserve this discrepancy.
+- 2026-09-15 02:11:07.676Z, `8c800379-b9e6-4877-b0e0-994097748dba`: only Sable continuity should adjust workflow design, with input from other instances. This historical grant is subject to the later 2026-10-26 Tern Comptroller delegation for scheduler/task-allocation control.
+- 2026-09-15 02:30:08.111Z, `28fec60d-5829-43fb-bcdf-52a94b01ea55`: actual theory work within the sandbox and archive-preservation, infrastructure, wayfinding, extraction, tagging, tooling and whole-project-view responsibilities.
+- 2026-09-15 03:01:56.726Z, `327ad2cc-2bd1-4c9f-80c3-839a64f1e34a`: creative/non-theory exploration across HsH, GLASS and RESOURCES. Its then-current prior-art quarantine instructions were superseded by Nathan's 2026-10-24 research-access directive.
+- 2026-09-15 05:44:08.333Z, `a6502323-5a1b-411f-86a7-8ff0acd4524b`: no conversation renaming.
+- 2026-09-15 06:38:15.951Z, `df57d7a0-e64e-4be2-855c-febcf8c29078`: link resources shown to Nathan.
+
+The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable charter-like instruction was the 2026-09-22 bulk-triage/Mersearch request was incomplete. The earlier 2026-09-14/15 user turns are materially broader. Sable README now records the source identity, hashes, message UUIDs and current authority boundary. README readback matched Git blob `78813c310bb1ceae0197a5682bd6272b9380c1ed`.
+
+### Inbox reconciliation
+
+- Orson's one-time optional NLI context was addressed to Sable's next :36 appearance after 2026-11-01T11:24 ET.
+- The target Sable :36 receipt does not record reading/consumption; no thread delivery or acknowledgment is claimed.
+- The target slot passed. Sable inbox now records `EXPIRED_UNCONSUMED`, preserving Orson's P1 ownership and making no task transfer.
+
+### Current mathematical branch and Lean result
+
+- Existing PR #1245, branch `research/sable-euclidean-helix-curvature-20261102t0400z`; head `201f428ebf63288ceb8c098ba49f2f411d1f0109`; base `infra/lean4-verification-20261023` at `c7dc2c483f50ae03fc7a7c530829170135e18d92`.
+- The module's tuple index defect was corrected; Real-division definitions were marked noncomputable; bare `c` was renamed `cosVal` to avoid collision with the speed-of-light symbol; the let-bound lift proof was reduced with `simp`.
+- Lean Actions #41410202260 / job #125161268669 completed SUCCESS on merge-ref commit `d6ad4260fad52f85bdf48d9efb00269ba6e83a85`, combining PR head and base. Lean 4.34.0, Lake 5.0.0, 8,945 jobs; module built at target 8927/8945.
+- Three theorem-specific `#print axioms` commands ran. Each reports `[propext, Classical.choice, Quot.sound]`. Retrieved log has zero `sorryAx` and zero `admit`.
+- Tests, nanoda and separate automated axiom audit were skipped. This is a successful merge-ref build, not an exact-head-only build or global no-sorry/axiom-free certification.
+- Earlier run #41387353638 failed on tuple indexing, noncomputable Real division and proof closure; #41409748795 failed on the remaining let-reduction proof. Both defects were corrected before #41410202260.
+- PR #1245 remains OPEN / DRAFT / UNMERGED / unreviewed. Its body was updated with source provenance, build result and limitations, then read back. No merge or theory promotion.
+- The formalized object is only an assistant-authored Euclidean 1D curve lift and symbolic circular-helix specialization. It is not Nathan Direct's finite-core (W^4), not the 4D filament/3D intersectional trace, and does not prove worldtube curvature = inertia. The 2026-10-09 (w=ct) and 2026-10-21 literal (cw=t) source notations remain unreconciled. No physical premise, observable, measurement, prediction or fit is encoded.
+- Existing toolbox entry `EXT:DIFFGEO:FRENET_R4` (Gluck 1966) remains CANDIDATE, not adopted. This local tuple module does not implement a Frenet frame or material/worldtube twist. No shared symbols were registered.
+
+### Cross-lane audit
+
+- Mersearch lanes 1–4 remain occupied (Morrow, optics, Ravel, Tern). No lane was overwritten; no new request was submitted. No local pinned HsH/SAT/HSH_RESOURCES checkout exists in the execution container. Existing immutable raw source blobs were used instead.
+- Orson P1 issue #564 remains OPEN / SOURCE-EXPERIMENT READINESS. No administered model trial, human-subject session, manuscript source, independent review or readable PDF/reader was established. Orson retains primary ownership; no November 9 gate advancement.
+- P2 issue #565 remains OPEN. Existing real-system literature/data audits are not an H(s)H prediction or fit: the forward response/operator and selected system remain unresolved. No physical calculation was performed and no November 30 gate advancement occurred.
+- December 14 P3 remains separate. No paper gate advanced.
+- The current task/branch graph was last updated 2026-10-30 and does not list PR #1245. No graph mutation was made; current Comptroller/task-allocation control remains with Tern. The older GR↔QM and H0+c Sable inbox items remain legacy entries, not promoted over the current Three Paper Campaign.
+- The prior unrelated-reading break covered TheTANGLE lines 1851–1890; next cursor is line 1891. No repeated break this run. FIE last full review was October 27; next 14-day review due November 10.
+
+### Durable changes and publication
+
+- Sable README direct-charter provenance section appended and read back.
+- Sable inbox one-time Orson item marked expired/unconsumed and read back.
+- Existing PR #1245 body updated and read back.
+- No new public issue was created. Existing issue #1246 remains a prior proof-status snapshot; no duplicate publication was created. The current PR body is the public branch-status surface.
+- No new branch, PR, tool, dependency, automation, task, task ID, schedule, phase, or signet. No ChatGPT conversation rename or cross-thread delivery claim.
+
+### Next
+
+1. Keep PR #1245 draft/unmerged pending independent review and, if available, an exact-head-only build.
+2. Do not promote its Euclidean curve lemma into the physical worldtube/inertia claim.
+3. Recover the original October 29 finite-core clarification and define the actual object type/dimension, metric/signature, core cross-section, embedding, slice, intersection, and projection/composition maps before formalizing (W^4\cap\Sigma^3).
+4. Preserve the source notation discrepancy (w=ct) versus (cw=t) until Nathan's original context resolves it.
+5. Loom receives context only; no task or ownership transfer.
