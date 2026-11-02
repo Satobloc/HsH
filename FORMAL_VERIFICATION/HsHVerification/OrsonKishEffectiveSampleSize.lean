@@ -212,6 +212,7 @@ theorem weightedExchangeableESSFromConcentration_uniform_eq_kish
             field_simp [hk0]
             <;> ring
       _ = 0 := by rw [h]; ring
+  unfold designEffect
   field_simp [hk0, hden, hd']
   <;> ring_nf
 
