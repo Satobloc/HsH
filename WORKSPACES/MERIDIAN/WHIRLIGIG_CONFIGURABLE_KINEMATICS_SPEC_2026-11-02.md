@@ -316,3 +316,38 @@ The user requests a Mercator-like projection that distorts rather than producing
 ### Machine implementation status
 
 This addendum records the user's clarified geometry and phase requirements. It does not certify that the current browser HTML has been updated. The existing HTML still contains the older equal-area-only, two-circuit gear constants at the time of this note. Do not claim deployment or implementation until the code is changed and independently checked.
+
+
+### First explicit pole-kissing stretched-curve candidate (model-derived, inspect before acceptance)
+
+A concrete candidate has now been constructed from the equal-area reference latitude profile, stretched until its two northern and two southern latitude maxima reach the poles. A longitude correction aligns the tangent **lines** of the two branches at each pole; a separate skew parameter moves the two lobes away from an unwanted west-equatorial duplicate contact.
+
+Let
+
+```
+alpha = asin(1/sqrt(3))
+K = 3 pi sqrt(3) / 4
+A = (pi - 4 alpha) / (2 sin(2 alpha))
+beta(t) = K sin(t) cos(t)^2
+lambda(t) = 2t + A sin(2t) + B sin(t)
+G(t) = (cos(beta) cos(lambda), cos(beta) sin(lambda), sin(beta))
+```
+
+The current visualization candidate uses B=0.25. B is exposed as an experimental shape control, not a measured or user-fixed value.
+
+Construction checks at B=0.25:
+- G(0)=G(pi)=(1,0,0): transverse east-equatorial self-crossing.
+- North-pole contact occurs at t=alpha and t=pi-alpha.
+- South-pole contact occurs at t=pi+alpha and t=2pi-alpha.
+- At each pole, the two one-sided tangent lines coincide; the oriented traversal tangents are equal and opposite (numerical dot product approximately -1).
+- The east-equatorial crossing is transverse; its acute tangent-line angle is approximately 67.2468 degrees.
+- A dense numerical self-intersection scan identifies the intended east crossing and the two pole-tip tangencies; no additional distinct contacts were detected at the scan tolerance. This is a numerical scan, not a symbolic global proof.
+- The exact spherical speed used for length integration is
+  `sqrt(beta'(t)^2 + cos(beta(t))^2 lambda'(t)^2)`.
+
+At B=0.25:
+- `L/b = 14.50878431994362`.
+- Under the current one-circuit phase rule, `R/b = 1 + L/(2 pi b) = 3.30914474277321`.
+- Numerical quadrature estimated absolute error: approximately `8.76e-12`.
+
+This curve is a **model-derived stretched Analemma candidate**, not the classical sphere/cylinder Viviani intersection and not yet user-approved. The prototype exposes B so the user can inspect its shape. Keep the classical Viviani curve, equal-area reference, and this pole-kissing candidate as distinct modes.
