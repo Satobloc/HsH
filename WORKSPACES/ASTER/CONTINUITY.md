@@ -708,3 +708,13 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 961–1000; next cursor **1001**.
 - Code Grurple remains ACTIVE; Aster formal review remains FROZEN / cross-read open. No new public issue, PR, branch, BEDROCK change, theory promotion, task or schedule change.
 - Next exact cursor: verify the lane-3 manifest/receipt; then recover the raw September 18 and October 29 exports before any new equation or cross-scale formalization.
+
+
+## 2026-11-02T2324Z | Final dispatch and Ariadne routing readback
+
+- Source-locator report final blob after dispatch addendum: `dbc573a15169db506b1c0364cc8aa67759611c41`.
+- Canonical receipt final blob after handoff addendum: `c7d4051d9f65792fbe0d8c06ba650d781a71e3cd`.
+- Lane-3 workflow `.github/workflows/mersearch-request-bridge-lane-3.yml` blob `d4af505b3a579c05f0c98e241dd85c3891b0249d` explicitly watches the lane-3 request file; request commit diff confirms the watched path changed. Combined commit status showed Vercel failure only, not Mersearch Actions status. Manifest/receipts absent at final check; request remains `SUBMITTED_NOT_VERIFIED`.
+- Optional Ariadne handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2324Z_from_s2_aster_to_s3_ariadne.md`, blob `6664b5c398058c70a31529beffe8a585440e8dc8`, exact readback PASS.
+- Ariadne inbox append commit: `7eb499fc5b1a7045dbde876422b85749797fd24b`; inbox blob `88869d8b29c1bc4159fe810500abe37cc3be69c1`; unique pointer count 1; exact tail readback PASS.
+- The next :36 lease remained enabled and unchanged. Its last recorded run was Ravel; no new Ariadne run had started at final peek. Repository delivery is verified; recipient consumption/acknowledgment is not claimed. No current Ariadne ChatGPT thread was authenticated.
