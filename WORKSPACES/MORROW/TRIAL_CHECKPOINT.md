@@ -556,3 +556,62 @@ Corrected retry issue #1159 is PUBLISHED_VERIFIED. Actions run #41222107053 comp
 - New additive tag ledger: `../COMMON/tagging_ledgers/2026-11-02-MORROW-SOURCE-IDENTITY-CONTROL-01.md`.
 - FIE last full review remains 2026-10-27; 14-day review not yet due. Unrelated reading cursor remains Jacoby, *Practical Talks by an Astronomer*, next lines 781.
 - Next Morrow cursor: verify the broader Mersearch run, inspect distinct user-role source messages only, then update this checkpoint with the recovered or still-missing source status. Public-safe issue-publisher submission remains pending; issue #1214 was not duplicated.
+
+
+## 2026-11-02T1024Z revival checkpoint — workspace source and Dashboard provenance reconciled
+
+**Run key:** `REVROT3-19-20261011:538:s2`  
+**Selected ring position:** Morrow (index 13); next: Kestrel (index 14).  
+**Execution identity:** source-grounded Morrow reconstruction; no authenticated current Morrow ChatGPT thread established.
+
+### Control preflight
+
+Read the live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding and workflow orientation, revival rotation V3/V4 and thread-first/navigation rules, current main branch and task branch graph, Common receipts/handoffs/check-ins, Morrow README/checkpoint/inbox, and Morrow's original user-role charter messages. The existing :24 automation remains enabled and unchanged; no task, ID, phase, schedule, prompt, or task-graph change was made. No sixth task was created.
+
+Morrow's historical direct remit is Team Archivist/GitKeeper: archive appraisal, annotated indexing, chronology, source provenance and separation of historical evidence from policy. The assistant-proposed title `Archive Synthesis & Dependency Integration Lead` is not a Nathan Direct title. The direct source distinction between RMS and SAT is preserved. The earlier theory stop remains controlling for integration, physical predictions and paper work; the later trial workflow permits archive/reconstruction, theory-material reading and mathematical/equation checking but does not explicitly lift that stop.
+
+### Initial Morrow workspace request: source recovered
+
+The initial workspace instruction is recovered in the combined Aldus Morrow conversation, not the separate Morrow Reconstruct conversation:
+
+- Conversation: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, title `☘️ ALDUS MORROW [AUTO H(s)H Gitter]`.
+- Direct user message: `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z, parent null.
+- Raw blob: `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+- First Morrow workspace commit: `c18c66a26de2660d7336df7569dd4a5d656f39be`, 2026-09-13T09:14:25Z, 94.719 seconds later; title `Add Morrow administrative workspace and Common review routine`.
+
+The direct message asks for a task-scoped workspace and periodic Commons participation. The commit creates `WORKSPACES/MORROW/`. The message does not itself specify the folder name; the initial README says Morrow was the working name used in that thread. This strongly ties the request to the workspace commit, but it does not merge the combined Aldus Morrow thread with the separate Morrow Reconstruct thread or authenticate the current scheduled identity. The earlier UNRECOVERED status is superseded.
+
+The later Morrow Reconstruct message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (2026-09-13T15:31:22.757Z) is recurring maintenance/workflow instruction, not initial creation. The exact same 3,526-character trial prompt appears in three separate user-message events: Aldus Morrow `e54d56dc-046b-4844-98bc-72518289fe69` at 15:25:44.704Z, Morrow `99ae...` at 15:31:22.757Z, and Mercer `a77cc6ba-980e-4493-bc63-0ab698fcb5ab` at 15:33:45.258Z. Scripted comparison found exact equality; these are three separate deliveries of one repeated prompt, not independent corroborating witnesses.
+
+### Dashboard, workspace notice and LIVE CONVOS distinctions
+
+- Dashboard/quarantine/Viewer: Mercer Archive Mover conversation `6aa5fe86-e258-83ea-9f24-2330244116aa`, direct user message `c8635cd6-9aa3-4b1f-8132-8977e9303707`, 2026-09-13T09:00:28.268Z. It supports an open Dashboard, visible quarantine status/reasons and continued Viewer work. The exact `ACTIVE = LIVE CONVOS` shorthand and the stronger claim that Viewer must never replace the Dashboard front door remain unverified.
+- General personal-workspace notice: same Mercer conversation, direct user message `7235b984-0ce1-4fa1-bacf-d3de9a6876bc`, 2026-09-13T09:47:51.144Z. This is a later general policy request, not Morrow creation; it postdates the first Morrow workspace commit by 33m26.144s.
+- Argus precedent: conversation `6aa26f76-1728-83e9-b640-de423ba5a90a`, direct user message `dfc69a8e-ab65-4fc9-8fcd-00951824c220`, 2026-09-10T11:23:01.007Z. This is an explicit named-workspace instruction for Argus, not Morrow.
+- LIVE CONVOS: Aldus Morrow message `8be984c1-779c-409d-97f9-aa9053d53eb4` (2026-09-07T15:34:53.254Z) describes the folder as the current live conversation snapshot, though behind by several turns. Orchestrator Janus message `3fcd9cb3-50a2-4fa5-a4c0-74191621c009` (2026-09-08T00:10:44.195Z) describes a retired recurring-task thread saved there. Morrow message `fed478ad-8022-46b1-a972-ac74bf7d37b2` (2026-09-09T03:25:14.104Z) references it as archive material. The folder is a snapshot/wayfinding surface that may contain current-but-lagging or retired exports; membership does not authenticate a current thread. Exact `ACTIVE = LIVE CONVOS` wording was not found in the inspected raw messages.
+
+The Dashboard directive and Nathan Directives Provenance records now have additive raw-source backfills. Morrow README and source-tag ledger were updated with the identity and chronology distinctions. No raw private-resource path or excerpt was published.
+
+### Mersearch
+
+Completed broader request: `morrow-sept13-workspace-dashboard-source-broader-20261102-0646`. Workflow run #41402169289, job #125136149596, SUCCESS. Independently read manifest and both compact receipts:
+
+- Manifest blob SHA: `bd31f51f2319a10bbe0443c0aa82cdbe5435c224`.
+- Receipt JSON blob SHA: `746443d30b0b4e4a7f07ef8375e7917ff256d215`.
+- Receipt Markdown blob SHA: `70cee11a7a500ee528dc9bf0ec2781564e9397a8`.
+- Coverage: 16,608 files, 20,889,714 records, 124 hits, 55 distinct source paths across the three permitted roots. Raw search-result artifacts remain withheld by bridge policy; compact receipt is a navigation index, not exhaustive source evidence.
+- Stable Mercer_Searcher_1.0 branch was not modified; the documented runtime-only identity hotfix was applied.
+
+A narrower follow-up was submitted in the released lane 1 request file at commit `db4fefb62c8c1fa4b2f630a54ac0aa113589298f`: `morrow-initial-workspace-folder-source-targeted-20261102-1024`. At the latest check no manifest/receipt existed. Status: `SUBMITTED_NOT_VERIFIED`. The direct creation source is already recovered from the raw Aldus Morrow export; a later Mersearch hit would confirm the same source, not constitute independent corroboration. Do not duplicate or overwrite.
+
+### Existing Lean formalization
+
+Aster PR #787 current head `b98d6e4b03e853e2c8c13d0a9b11de1abb0e68c0` imports `MorrowRoleProvenance` from the root aggregator. Current module blob `4ad9f217ab785dd9adcf0e31e9f6b766c0a3d5e5` now uses `constructor <;> rfl` for the two parent-edge declarations and contains no `sorry` or `admit` token. The only located CI run #41053033635 is dated 2026-10-30 and logs `sorryAx`; it predates the 2026-11-01 current-head update. No exact-current-head build is recorded. Status: source-level repair visible; Lean compilation pending. The module references the earlier 465-node snapshot `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, not the later 697-node snapshot `ee394b446b2e36d35fd1e5ecd004685c0422457b`.
+
+### Unrelated reading and review
+
+Completed Jacoby, *Practical Talks by an Astronomer*, lines 781–820. Next cursor: 821. Last full FIE review: October 27; next review due November 10.
+
+### Scope and disposition
+
+No physical calculation, CODATA comparison, observational fit, theory integration, prediction, paper work, BEDROCK amendment or promotion was undertaken. Code Grurple remains ACTIVE; ordinary Lane 24 physics/CODATA remains BACKSEAT/HOLD. No SAT-O/Blockwave equation was changed. No new tooling, dependency, branch, PR, automation or schedule was created. No cross-thread delivery or recipient acknowledgment is claimed.
