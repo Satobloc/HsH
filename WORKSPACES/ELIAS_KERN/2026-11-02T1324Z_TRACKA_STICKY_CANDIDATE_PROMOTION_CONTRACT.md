@@ -1,6 +1,5 @@
 # Elias Kern Track A | sticky candidate/promotion lifecycle formalization
 
-**Nominal slot:** 2026-11-02T13:24Z  
 **Run key:** `REVROT3-19-20261011:541:s2`  
 **Rotation:** h=541; seq=2707; ring index 9, Elias Kern; next ring index 10, Nadir Voss.  
 **Disposition:** SOURCE-GROUNDED REVIVAL / EXISTING PR #951 EXTENDED / MERGE-REF LEAN BUILD SUCCESS / EXACT-HEAD STANDALONE NOT RUN / NO POC OR PRODUCTION CHANGE.
