@@ -106,3 +106,43 @@ On the next authenticated/available Tern turn:
 5. Return a concrete scheduler/integration decision, the pilot's exact source/query manifest, first durable evidence card, and one next cursor. If no safe existing slot is available, report the tradeoff for Nathan rather than creating another recurrence.
 
 **Delivery status:** repository-only handoff. No authenticated historical Tern ChatGPT thread was identified; no direct cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-11-02T0150Z | Mira reboot: live-state correction and literature-review adoption check
+
+This amendment supersedes stale scheduler claims in the earlier audit where noted. It was prepared during the Mira reboot from Nathan's attached `MIRA - raw.json` export plus fresh repository and scheduler readbacks.
+
+### Live scheduler state, refreshed at 2026-11-02T01:50Z
+
+The four queried existing tasks remain enabled at their exact original hourly America/New_York phases and IDs:
+
+| Phase | Task ID | Enabled | Most recent state at refresh |
+|---|---|---:|---|
+| :00 | `6aa1fe0de5e48191b886496095b1343f` | yes | h=529 run completed; :00 ChatGPT conversation ref present |
+| :24 | `6abda4c8eda88191bf23a6f2849e9a17` | yes | h=530 run in progress, no `chat_ref` |
+| :36 | `6a9f52b69ec08191b0a2ba24a074f781` | yes | h=530 run in progress, no `chat_ref` |
+| :48 | `6aa6c3bc02b48191b8a91a30d2a155e0` | yes | h=528 run completed; :48 ChatGPT conversation ref present |
+
+The :12 task `6aa61b3b2e4081918927a35b61007acc` remains disabled according to the newer global scheduler roster dated 2026-11-01T03:52Z. The existing Tern/Shuttle task and Daily H(s)H Field Scan remain disabled according to the previous live audit; this turn did not re-enable them. No task, prompt, ID, phase, cadence or enabled state was changed. No sixth task was created.
+
+**Important correction to the earlier nominal selection note:** the :36 run scheduled for 2026-11-02T01:36Z is currently in progress, but its `chat_ref` is null and its rotation result has not yet been read. A prior handoff's statement that 20:36 ET was the next Tern selection is a formula-based expectation, not verified Tern execution or receipt. It must not be used as evidence of adoption.
+
+### Has Tern incorporated the literature-review workflow?
+
+**Not yet verified.** The current :00/:24/:36/:48 saved prompts inspected during this turn are Workshop Relay prompts with rotation/role instructions, but none exposes a dedicated staged literature-review procedure. The most recent available Tern-directed handoff is an open action request in `WORKSPACES/TERN/INBOX.md`; its placement in the repository is not proof that an authenticated Tern thread read or accepted it. No scheduler configuration write or Tern acknowledgment is evidenced.
+
+Thus the accurate status is: **proposal and role design staged; scheduler integration and operational adoption pending Tern's authenticated Comptroller decision.**
+
+### Mira continuity and source-policy boundary
+
+The live `HSH_RESOURCES/WORKSPACES/MIRA/README.md` supersedes the older source-order paragraph at its top with a stricter 2026-11-01 internal-first rule: current HsH BEDROCK/Nathan Direct/live workflow first; exact internal originals and chronology second; HISTORICAL navigation/support third; only then external and prior-art comparison. Research access does not grant public indexing, internal-review exposure, redistribution, publication, or theory-integration authority. Mira remains outside active internal review under Code Grurple. The 2026-10-11 status expressly blocks the old unrestricted nLab/Hypothesis H/PRIOR_ART sweep; Hypothesis H proper and directly Schreiber-authored content remain off-limits, including copies. The review-only intake preflight is not deployed and has not approved or opened any real PDF. Mira will operate within these live constraints, not the older inbox request where inconsistent.
+
+### Required Tern action at next verified opportunity
+
+1. Authenticate/resolve the current selected rotation identity and actually consume this packet; do not infer identity or consumption from slot arithmetic.
+2. Read the current Scheduler Authority, Active Automation Roster, Tern continuity, current Hale/Mira/Cross controls, and Mersearch lane state.
+3. Decide an explicit, bounded adoption mechanism using existing capacity only. Preserve all five original IDs/phases and the disabled :12 state unless Nathan separately directs otherwise.
+4. Use a real existing review backlog as the pilot. Do not invent a review question. Separate surveillance, question-bounded review, and citation/prior-art closure. Preserve exact queries/dates/source versions, deduplication, record-level screening, primary-source extraction, claim-evidence links, independent QC, and next cursor.
+5. Return a scheduler/configuration readback and an actual first pilot receipt. Until those exist, report integration as pending.
+
+**No direct Tern-thread delivery or acknowledgment is claimed.** This amendment and the existing inbox are repository-only handoff surfaces.
