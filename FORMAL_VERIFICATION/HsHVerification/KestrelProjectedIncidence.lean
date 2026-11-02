@@ -158,8 +158,8 @@ theorem hallway_factorization_iff_fiber_compatibility
     classical
     refine ⟨(fun y : Set.range piI => piJ (Classical.choose y.property)), ?_⟩
     intro x
-    change piJ (Classical.choose ⟨x, rfl⟩) = piJ x
-    exact h _ x (Classical.choose_spec ⟨x, rfl⟩)
+    have hmem : piI x ∈ Set.range piI := ⟨x, rfl⟩
+    simpa using h (Classical.choose hmem) x (Classical.choose_spec hmem)
 
 /-- Once defined on the entire range, a deterministic hallway factor
 map is unique. -/
