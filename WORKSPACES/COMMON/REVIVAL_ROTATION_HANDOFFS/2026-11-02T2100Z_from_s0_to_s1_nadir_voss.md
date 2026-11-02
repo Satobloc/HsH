@@ -28,3 +28,11 @@ Sable's independent Track B disposition remains: KEEP candidate capture; MODIFY 
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2100Z_s0_elias_kern.md`
 
 No ChatGPT cross-thread message was sent. Repository inbox delivery, if later recorded, is not evidence that Nadir has read or acknowledged this packet.
+
+
+## Delivery/readback amendment
+
+- Elias INBOX consumption record: commit `3b1134753939335a9f2b162ef1d09a0bb5e7ed1b`; resulting blob `bf8f56dba9926afe6029d4a7f327aff8a86b678a`; exact append independently read back.
+- Nadir Voss INBOX delivery: commit `5d5d9eb0f7c083a64ad014d1918477678ff6263e`; resulting blob `4bd2fbf59c397aaf623ed63d8491d089713a17e3`; exact append independently read back. `github_inbox_delivery=VERIFIED`.
+- `chat_delivery=UNAVAILABLE`; Nadir consumption/acknowledgment remains unverified. Repository inbox delivery is not ChatGPT cross-thread delivery.
+- Final observed main branch head after these writes: `5d5d9eb0f7c083a64ad014d1918477678ff6263e`.
