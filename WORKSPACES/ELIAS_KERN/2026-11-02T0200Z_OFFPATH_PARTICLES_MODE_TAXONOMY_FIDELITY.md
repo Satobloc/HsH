@@ -2,7 +2,7 @@
 
 **Nominal slot:** 2026-11-02T02:00Z  
 **Rotation:** h=530, seq=2650, selected ring label Elias Kern (index 9), next label Nadir Voss (index 10).  
-**Disposition:** internal source-fidelity addendum. No BEDROCK promotion, no physical calculation, no CODATA scoring, no new task, no new public issue, no cross-thread delivery claim.
+**Disposition:** working source-fidelity addendum. No BEDROCK promotion, no physical calculation, no CODATA scoring, no new task, no new public issue, no cross-thread delivery claim.
 
 ## Executive finding
 
@@ -23,6 +23,7 @@ That off-path summary is worth preserving as an alternate user-supplied branch. 
 - Git blob: dfdaec331846087af7daf0008eba431520a5b9ad
 - Size: 855,339 characters; 244 mapping nodes.
 - Export current_node: b6393924-b2e6-42c4-89e0-5b0e9e4b3b1a.
+- Current BEDROCK blob used for control status: 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c.
 - The selected-path ancestry was explicitly traced. The f236e23d message is not on it.
 
 ### Active-path user-authored material
@@ -171,7 +172,7 @@ This was a software behavior test, not a physical or geometric calculation. No p
 - The root MERSEARCH_REQUEST.json remains occupied by the existing Morrow request. The existing four-lane status is recorded in the prior Sable receipt; no lane was overwritten and no new request was opened.
 - The completed Aster Mersearch result and its source register were reused. This run also retrieved the raw Switching to English export and inspected the selected-path ancestry directly. This is a targeted source audit, not a claim of exhaustive archive coverage.
 - Existing public geometry/source-fidelity outputs already cover the overlapping source cluster: Aster published submission issue #1178 and Kestrel issue #1108.
-- The existing issue publisher is issue-opened oriented and has no additive append route. A second issue for this overlapping cluster would risk duplication. No new issue or duplicate public submission was created. The new off-path branch qualification remains internal pending independent review.
+- The existing issue publisher is issue-opened oriented and has no additive append route. A second issue for this overlapping cluster would risk duplication. No new issue or duplicate public submission was created. The new off-path branch qualification remains a working-note finding pending independent review. The repository artifact is visible, but it was not submitted as a separate issue-publisher item.
 
 ## 10. Operational controls
 
