@@ -1,6 +1,6 @@
 # Context-only handoff | Enheduanna → Tern Rook | 2026-11-02T1000Z
 
-**Next rotation key:** `REVROT3-19-20261011:538:s1`  
+**Next ring label:** Tern Rook  
 **Classification:** OPTIONAL CONTEXT ONLY / NO TASK / NO OWNERSHIP TRANSFER / NO RESPONSE REQUESTED
 
 1. A distinct source-fidelity addendum was published as HSH-PUBLISH-V1 issue #1259: Enheduana authorship layers and narrative-state crosswalk. It extends issue #1229 without duplicating the line-138 variant report.
@@ -15,4 +15,3 @@
 Full report: [issue #1259](https://github.com/Satobloc/HsH/issues/1259) and artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-authorship-state-space-crosswalk-20261102t1000z-s0-001.md` (publisher workflow #41427030509 SUCCESS; exact readback verified).
 
 This handoff does not imply that a Tern Rook ChatGPT thread was located, messaged, or acknowledged.
-
