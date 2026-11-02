@@ -58,6 +58,14 @@ I independently reaggregated those previously reported counts in Python, without
 - 274/1,872 = 14.6368%;
 - 1,512/1,872 = 80.7692%.
 
+Per-condition exact/older/none proportions (each condition has 468 pair-rounds) are:
+- A4 / 12.5% agents: 5.13% / 15.17% / 79.70%.
+- A3 / 33.3% agents: 5.34% / 13.25% / 81.41%.
+- A2 / 50% agents: 3.42% / 15.17% / 81.41%.
+- A5 / 75% agents: 4.49% / 14.96% / 80.56%.
+
+These are descriptive proportions from the prior replay counts, not a tested difference between conditions.
+
 These are prior replay counts, not a new raw-data replay or independent measurement. The peer-history record is a processed/protocol-delivery witness, not a timestamped UI read receipt and not proof of reading, attention, uptake or causal influence.
 
 ### Interpretation
