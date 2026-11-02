@@ -102,6 +102,36 @@ def supports (a : ArtifactEvidence) (claim : ClaimKind) : Prop :=
       a.hasExplicitSupersession = true ∧
       a.hasProvenanceLink = true
 
+/-- Executable Boolean counterpart of the claim predicate above. This avoids
+    asking Lean's evaluator to synthesize a Decidable instance for an opaque
+    proposition; the theorem below proves the Bool implementation agrees with
+    the proposition for every artifact and claim kind. -/
+def supportsBool (a : ArtifactEvidence) (claim : ClaimKind) : Bool :=
+  match claim with
+  | .contentDigestComputed => a.contentDigestComputed
+  | .bundleSectionIntegrity =>
+      a.contentDigestComputed && a.embeddedDigestMatched
+  | .outerRoleAttribution =>
+      if a.kind = .rawRoleTaggedConversation then a.hasOuterRoleMetadata else false
+  | .characterSpeakerAttribution => a.hasCharacterDialogueLabels
+  | .authorAttribution =>
+      if a.kind = .rawRoleTaggedConversation then
+        a.hasOuterRoleMetadata && a.hasConversationIdentity &&
+          a.hasMessageIdentifiers && a.hasAuthenticatedAuthorIdentity
+      else false
+  | .chronologyAttribution =>
+      if a.kind = .rawRoleTaggedConversation then
+        a.hasOuterRoleMetadata && a.hasConversationIdentity &&
+          a.hasMessageIdentifiers && a.hasTimestampMetadata
+      else false
+  | .canonicalVersionAuthority =>
+      a.hasExplicitSupersession && a.hasProvenanceLink
+
+theorem supportsBool_correct (a : ArtifactEvidence) (claim : ClaimKind) :
+    supports a claim ↔ supportsBool a claim = true := by
+  cases claim <;> by_cases h : a.kind = .rawRoleTaggedConversation <;>
+    simp [supports, supportsBool, h]
+
 /-- Section digest matched to its embedded bundle-header prefix; not original-binary identity. -/
 def kirkMindSection : ArtifactEvidence :=
   { displayName := "KIRK_mind.txt"
@@ -271,15 +301,16 @@ theorem readme_v121_not_canonical_version_authority :
   simp [supports, readmeV121]
 
 /- Actual evaluation: character labels and outer conversation roles are distinct. -/
-#eval decide (supports kirkMindSection .characterSpeakerAttribution)
-#eval decide (supports kirkMindSection .outerRoleAttribution)
-#eval decide (supports readyRoomSection .characterSpeakerAttribution)
-#eval decide (supports readyRoomSection .outerRoleAttribution)
-#eval decide (supports marloweRawExport .outerRoleAttribution)
-#eval decide (supports marloweRawExport .chronologyAttribution)
-#eval decide (supports marloweRawExport .authorAttribution)
-#eval decide (supports wholeReadyV13 .canonicalVersionAuthority)
+#eval supportsBool kirkMindSection .characterSpeakerAttribution
+#eval supportsBool kirkMindSection .outerRoleAttribution
+#eval supportsBool readyRoomSection .characterSpeakerAttribution
+#eval supportsBool readyRoomSection .outerRoleAttribution
+#eval supportsBool marloweRawExport .outerRoleAttribution
+#eval supportsBool marloweRawExport .chronologyAttribution
+#eval supportsBool marloweRawExport .authorAttribution
+#eval supportsBool wholeReadyV13 .canonicalVersionAuthority
 
+#print axioms supportsBool_correct
 #print axioms display_name_does_not_change_claim_eligibility
 #print axioms metadata_title_does_not_change_claim_eligibility
 #print axioms archive_path_label_does_not_change_claim_eligibility
