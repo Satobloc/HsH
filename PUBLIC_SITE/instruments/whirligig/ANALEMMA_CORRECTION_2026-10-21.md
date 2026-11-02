@@ -178,3 +178,59 @@ Equal area is the chosen geometric balance condition. It has **not** been proven
 ### Reproducible calculation
 
 Run python tools/whirligig_rq/validate_equal_area_analemma.py for an independent standard-library calculation of the equal-area root, spherical length, E/W contact types, radius equality, and two-circuit gearing. This is numerical verification of the declared curve family, not proof that the family is uniquely implied by the historical prose.
+
+
+## 2026-11-02 CURRENT: common sphere-roll / Analemma phase and 2× elbow lock
+
+This section supersedes the earlier browser rule that set elbow turns to the LCM of Analemma circuits and R/Q sweep laps. The sphere-roll phase and Analemma material phase are now **one and the same phase**, measured in the torus-co-rotating material frame. The elbow is driven by the minimum positive even multiple of that common phase.
+
+Let
+
+\[
+\delta=R/b-1,\qquad \ell_A=L_A/b,
+\]
+
+and let \(\psi\) be the torus orbital angle. The Analemma material arclength advance is
+
+\[
+s/b=\delta\psi.
+\]
+
+Define the common sphere-roll / Analemma phase by
+
+\[
+\boxed{\phi_s=2\pi\frac{s}{L_A}
+=2\pi\frac{\delta}{\ell_A}\psi}.
+\]
+
+The gear condition already imposed by the equal-area Analemma is
+
+\[
+2\pi\delta=2\ell_A.
+\]
+
+Therefore
+
+\[
+\boxed{\phi_s=2\psi},
+\]
+
+which is exactly two full sphere-roll / Analemma circuits per torus orbit. The two former descriptions are no longer separate clocks.
+
+The elbow phase is
+
+\[
+\boxed{\phi_e=2\phi_s=4\psi}.
+\]
+
+Thus the minimum even multiplier is 2, and the elbow makes **four rotations per torus orbit**. The R/Q sweep remains an integer number of turns per torus orbit; it no longer changes the elbow gear count. With the current integer sweep control, all phases return after one torus orbit.
+
+**Reference-frame distinction:** the inner-wall no-slip equation still gives the inertial-frame axial angular-velocity component
+
+\[
+\omega_z/\dot\psi=R/b=5.2236968642.
+\]
+
+That is a component of the full three-axis angular velocity in the laboratory frame. It is not a second material-phase clock and is not to be forced numerically equal to the two Analemma circuits. The common roll phase is the sphere's Analemma material phase in the co-rotating frame. Replacing the no-slip axial component by 2 would break the existing inner-contact rolling equation and the derived equal-area gear relation.
+
+This change modifies the elbow's rotation law only. It does not, by itself, resolve the separately documented first-hit branch discontinuities or guarantee that the elbow ray intersects the inward-facing half of the torus at every phase.
