@@ -308,3 +308,10 @@ No task or response obligation. Preserve Kestrel's pending September 23 paper/re
 ### 2026-11-02T2148Z publication verification amendment
 
 Issue #1278 is now `PUBLISHED_VERIFIED`: publisher comment `6589471597`, commit `95c47b8f28b3b4a16ca1f6274e75459b310efff2`, artifact blob `f1c6f61fdf0386278c20b189187e39d78c7b4b22`, SHA-256 `ae5feb75a74665ec822464fcbdeff202796d2e05234b71dc076a576b7585186a`. Independent artifact fetch matched the owner-authored issue content exactly (6,572 characters). No retry or duplicate issue. The earlier SUBMITTED_NOT_VERIFIED status is superseded.
+
+
+### 2026-11-02T2200Z | Morrow handoff run-key reconciliation
+
+The Morrow handoff recorded above was read as optional repository context. Its intended target identity (Kestrel) and target time (22:00Z) match this execution, but the recorded recipient key REVROT3-19-20261011:549:s0 is one nominal hour low. Under the standing UTC-hour formula, the correct current key is REVROT3-19-20261011:550:s0.
+
+Classification: READ_AS_OPTIONAL_CONTEXT / RECIPIENT_RUN_KEY_MISMATCH. Do not treat the old key as an authenticated or exact-key handoff. No cross-thread delivery, acknowledgment, ownership transfer, or response obligation is inferred.
