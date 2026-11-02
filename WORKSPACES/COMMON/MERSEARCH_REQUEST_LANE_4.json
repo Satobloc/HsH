@@ -1,28 +1,29 @@
 {
-  "request_id": "tern-comptroller-original-user-charter-targeted-20261101-1124",
-  "requester": "Workshop Relay :24 / Tern Rook / Comptroller historical-source recovery; source-grounded current assistant reconstruction, not authenticated historical Tern",
-  "requested_at": "2026-11-01T11:24:00Z",
+  "request_id": "kestrel-finite-core-geometry-source-fidelity-20261102-2200",
+  "requester": "Workshop Relay :00 / Kestrel source-grounded reconstruction; Lane 00 geometry fidelity; current assistant, not authenticated historical Kestrel",
+  "requested_at": "2026-11-02T22:00:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"Comptroller controls scheduled tasks\" OR \"Comptroller Tern\" OR \"Tern Rook\" OR \"Active Edge Signalbox\") NEAR/20 (scheduler OR task OR lease OR allocation OR authority OR workflow))) OR (author:user AND ((\"one object\" NEAR/8 (\"one operation\" OR \"durable result\" OR cursor)) OR (\"scheduled tasks\" NEAR/12 (Tern OR Comptroller))))",
-  "purpose": "Targeted Mersearch recovery of the earliest actual Nathan Direct statements defining Tern Rook's Comptroller remit and operating boundaries. Locate raw conversation exports and exact outer-role user messages, conversation IDs, message UUIDs, timestamps, parent/adjacent context, immutable source blob SHAs and source commits. Separate Nathan Direct from assistant-authored task prompts, continuity summaries, historical worker self-report and later Common controls. Resolve whether the continuity statement 'Established 2026-09-19 by Nathan Direct' has a recoverable exact source; identify the earliest user-authored scheduler-allocation delegation and any explicit division between Comptroller and Orchestrator. Preserve original wording; no theory, scheduler or access changes.",
+  "query": "(author:user AND ((helix NEAR/12 plane) OR (\"moving plane\" NEAR/12 intersection) OR (\"time surface\" NEAR/12 filament) OR (timesheet NEAR/12 (filament OR worldtube OR core OR wavefront)) OR (Kerr NEAR/12 (filament OR worldtube OR core)) OR (\"Klein Fabric\" NEAR/12 (worldtube OR projection OR topology)) OR (\"finite core\" NEAR/12 (timesheet OR worldtube OR filament)) OR (\"finite-core\" NEAR/12 (timesheet OR worldtube OR filament)))) OR ((path:*SAT4D* OR path:*Blockwave* OR path:*SAT*O*) AND (filament OR worldtube OR timesheet OR gamma OR math:J OR math:gamma))",
+  "purpose": "Recover a substantial interrelated three-repository source cluster for Lane 00 geometry fidelity. Find raw Nathan Direct user-role descriptions of the 2024 line/helix/moving-plane/time-surface geometry, later filament/worldsheet/finite-core/Kerr/Klein-Fabric constructions, nesting and projection/coarse-graining operations, and their corrections. Separately find historical SAT4D/SAT-O/Blockwave equation artifacts and assistant reconstructions. Preserve exact repository, path, source commit, immutable blob SHA, message UUID, outer role, timestamp, parent ancestry, adjacent context, verbatim equations and first-extant dates separately from message dates. Distinguish 1D centerline, 2D worldsheet, 4D finite-core worldtube, 3D timesheet, instantaneous intersection, swept trajectory and global Klein-Fabric proposal. Do not infer missing maps from analogy; no CODATA, physical calculation, data-free fixture, parameter fit, theory integration or promotion.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate raw conversation paths and exact blob/source commit SHAs",
-    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context",
-    "separate source tags for Nathan Direct, assistant-authored prompt/continuity, historical worker self-report and current operational control",
-    "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
+    "candidate raw conversation paths, conversation IDs, exact user message UUIDs, timestamps, parent IDs and adjacent context",
+    "candidate SAT4D/SAT-O/Blockwave equation files, exact source blobs, first-extant commits and verbatim equation strings",
+    "duplicate/snapshot/derivative relationships and separate assistant-authored repairs",
+    "explicit three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
-    "Lane 4 is reused only because the prior Tern request has a verified RUN_MANIFEST.json and both compact receipts independently read back; preserve its prior request-scoped outputs under the old request ID.",
-    "Do not overwrite lanes 1, 2 or 3; their current request states remain pending/running/unreconciled.",
-    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content.",
-    "Do not infer historical Tern participation, current-thread usability, first-blush or Nathan authorship from task title, scheduler record or assistant-authored summaries.",
-    "No physical calculation, data-free calculation, new Lean theorem, branch/PR, manuscript, theory integration, BEDROCK change or automation/scheduler modification."
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART search exclusions",
+    "Do not treat compact receipts as exhaustive or source-authorship proof",
+    "Do not conflate historical SAT strings with string-theory fundamental strings",
+    "No CODATA scoring, physical calculation, data-free calculation, synthetic fixture, significance test, parameter fit or independent measurement",
+    "No new tooling, branch, PR, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
   ],
-  "lane": 4,
-  "status": "requested"
+  "status": "requested",
+  "lane": 4
 }
