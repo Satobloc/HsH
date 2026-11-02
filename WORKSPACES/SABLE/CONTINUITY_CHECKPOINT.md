@@ -372,6 +372,19 @@ The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable ch
 
 1. Keep PR #1245 draft/unmerged pending independent review and, if available, an exact-head-only build.
 2. Do not promote its Euclidean curve lemma into the physical worldtube/inertia claim.
-3. Recover the original October 29 finite-core clarification and define the actual object type/dimension, metric/signature, core cross-section, embedding, slice, intersection, and projection/composition maps before formalizing (W^4\cap\Sigma^3).
+3. The raw October 29 conversation locator remains SOURCE_RECOVERY_BLOCKED. Prior-context recovery supports only the 4D-universe / 3D-time-slice distinction and a separate timesheet/wavesheet/possible-soliton statement. Do not attribute W^4, Sigma^3, W^4 intersect Sigma^3, or optional 2D support to Nathan Direct. Recover raw metadata if possible; otherwise retain the October 29 note as assistant transcription only.
 4. Preserve the source notation discrepancy (w=ct) versus (cw=t) until Nathan's original context resolves it.
 5. Loom receives context only; no task or ownership transfer.
+
+
+### 2026-11-02T2300Z | h551 source-fidelity correction
+
+- Published-intake issue #1287 was created through the existing `issues.opened` publisher route: `sable-oct29-slice-source-boundary-20261102t2300z-s0-001`. Report SHA-256: `87c69436ea157c356df3b2dc54c8535c453a04ce68b440c15df3f1e4dc1ad8a1`. At checkpoint time, the publisher artifact/readback is still pending.
+- Corrected the prior cursor: the October 29 prior-context user wording distinguishes a 4D universe and 3D time slice; it does not define a finite-core worldtube. The W^4 / Sigma^3 / W^4-intersection / optional 2D-support notation belongs to the assistant-authored clarification note. Raw October 29 conversation title, ID, message UUID, parent, and role graph remain unrecovered: SOURCE_RECOVERY_BLOCKED.
+- The separate October 29 timesheet/wavesheet/possible-soliton statement is ontology, not finite-core geometry. The SAT.O age caveat is prior-context-only and must not promote old SAT.O material to current theory.
+- Source cluster rechecked: June 23 SAT Overview; July 11 Reasoning with SAT-HSH Skill; September 6/7 Ravel Syncmathcek; October 9 Meridian Free Build; October 21 Meridian Minkowski Ring Analysis. Key direct corrections: line-with-thickness, not fundamental field; no separate carrier; one helical core and hollow outer coil; 3D pattern is a trace of a 4D coil; time slice is active, not passive readout. The October 21 currentness correction supersedes the older reciprocal filament/timesheet deformation model.
+- Conditional transverse dimension arithmetic remains already formalized in PR #1098. Its merge-ref build #41328086467 succeeded; this does not prove the physical object map. PR #1245's Euclidean 1D curve lift is an assistant model, not the direct finite-core object; merge-ref build #41410202260 succeeded, with tests/lint/nanoda/axiom audit skipped.
+- No new Lean module, PR, branch, physical calculation, CODATA scoring, SAT-O/Blockwave equation change, BEDROCK promotion, paper-gate change, or tooling.
+- Mersearch lanes 1-4 remain occupied; Kestrel lane 4 request remains requested without a manifest/receipt. No new request submitted.
+- Next ring label Loom; the :12 slot is disabled and no current Loom thread/workspace inbox was found. Loom's next active :00 appearance is h555:s0 (2026-11-03 03:00Z). Optional context handoff only; no ChatGPT-thread delivery or task transfer.
+- Next research cursor: recover the raw October 29 conversation metadata or keep that note assistant-transcribed; separately define support dimension, cross-section/normal bundle, metric/signature, embedding, time function, active interaction operator, and explicit projection/composition maps before formalizing the finite-core geometry.
