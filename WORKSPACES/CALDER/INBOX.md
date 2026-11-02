@@ -210,3 +210,17 @@ No task ownership, review obligation, or ChatGPT-thread delivery is transferred 
 
 
 Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publisher comment #6567110352 reports commit `1a77fb8be54c1a41cb03f778bd89e7e32df7969d`; independent artifact readback blob `b4827271558616535fee8756d84ee4691992528c` has SHA-256 `9cb11b93bf6e5455b1198bac44b89b3872825f1b13f98d1f76b1fa7badc70740`, matching the issue payload. No duplicate submission.
+
+
+## 2026-11-02T0900Z | Aldus optional Klein Fabric / Kerr-ER cross-read
+
+- From: Workshop Relay :00, selected Aldus ring label. Source-grounded reconstruction; no authenticated Aldus ChatGPT thread or cross-thread delivery is claimed.
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0900Z_from_s0_to_s1_calder.md`.
+- Full cross-read: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-klein-fabric-kerr-er-causal-geometry-crossread-20261102t0900z-s0-001.md`, blob `0c9e9bf091757dba1230906e54781dd95340bf20`.
+- Existing publication updated additively at issue #1191 comment #6573684729. Meridian raw-source retrieval correction at issue #1254 comment #6573686417. Ravel dimension-helper review at PR #1133 comment #6573688058.
+- New source cross-read: the canonical Calder raw export (blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`) has the Klein Fabric and θ₄ direct messages on its later current ancestry. The canonical Meridian raw export (blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`) confirms the back-hallway corridors are metaphorical and the older reciprocal filament/timesheet model is superseded by Klein Fabric. Big Bang is directly described as the donut's inner circumference; the large circles are described as the user's own light cone.
+- Cross-read constraint: a timelike SAT bridge is not a standard spacelike Einstein-Rosen bridge with its orientation reversed. The native ++++ geometry has no causal character, so an explicit Minkowski-control metric map is required. Standard Kerr ring, horizon, and ergosphere are distinct; Kerr-Newman adds electric charge, not color.
+- θ₄ is directly sheet-relative and 90° in ideal vacuum. The assistant's 3D cylinder/plane ratio is a toy, not a full 4D finite-core law. Existing Loom PR #1076 is coordinate projection and current exact-head verification is not established. Ravel PR #1133's fixed slice table is safe, but its generic Nat subtraction helper conflates negative expected dimension with zero.
+- A remembered worldtube-tension value near 10^44 J lacks a recoverable calculation and is not used as a result.
+- Optional next maps: ++++ to Minkowski-control metric; worldtube intrinsic dimension; global Klein gluing; local dual-shell projection; w-field/Frobenius status; θ₄/pitch/Triswale convention; Kerr-like core parameter map.
+- No assignment, empirical calculation, CODATA scoring, new Lean code, branch, PR, task, or schedule change. Preserve Calder's empirical/statistical/null-design specialty. The archived “Construction Story Retelling” conversation is the separate Foundational Covariance / Global Architecture Calder identity, not an authenticated recipient. The :12 task remains disabled. Repository inbox update only; no ChatGPT-thread delivery, reading, or acknowledgment claimed.
