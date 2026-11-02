@@ -112,4 +112,83 @@ theorem downstream_readout_cannot_restore_coarse_collapsed_pair
 #print axioms joint_readout_injective_of_separating_pair
 #print axioms downstream_readout_cannot_restore_coarse_collapsed_pair
 
+
+/-!
+## Back-hallway factorization
+
+Source context:
+* User-role clarification in "Meridian Minkowski Ring Analysis",
+  conversation `6ad7e9c0-e8a0-83ea-b76f-6805ece3ee9f`,
+  raw export blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`,
+  message `090f5160-1020-486d-9c42-df3d7dff2063`,
+  2026-10-21T00:17:23.235Z. The user says the corridors are
+  metaphorical/mathematical and that the earlier reciprocal
+  filament/timesheet-deformation model is no longer current.
+* The attached `Back hallways .txt` proposes a candidate
+  `pi_j ∘ pi_i^{-1}` translation. That attachment's exact author
+  is not established; this module formalizes the well-definedness
+  condition without promoting the candidate equation to Nathan Direct.
+
+A deterministic hallway on the image/range of `piI` exists exactly
+when `piJ` is constant on every fiber of `piI`. This is a conditional
+factorization theorem, not a supplied SAT/H(s)H projection, dataset,
+physical prediction, or claim that a hallway exists for any named
+pair of physical theories.
+-/
+
+/-- A single-valued map from the source-observable range to target
+observables exists exactly when the target map is constant on each
+fiber of the source map. -/
+theorem hallway_factorization_iff_fiber_compatibility
+    (piI : X → Y) (piJ : X → Z) :
+    (∃ H : Set.range piI → Z,
+      ∀ x, H ⟨piI x, ⟨x, rfl⟩⟩ = piJ x) ↔
+    ∀ x₁ x₂, piI x₁ = piI x₂ → piJ x₁ = piJ x₂ := by
+  constructor
+  · rintro ⟨H, hH⟩ x₁ x₂ h
+    have hsub :
+        (⟨piI x₁, ⟨x₁, rfl⟩⟩ : Set.range piI) =
+          ⟨piI x₂, ⟨x₂, rfl⟩⟩ := by
+      exact Subtype.ext h
+    calc
+      piJ x₁ = H ⟨piI x₁, ⟨x₁, rfl⟩⟩ := (hH x₁).symm
+      _ = H ⟨piI x₂, ⟨x₂, rfl⟩⟩ := congrArg H hsub
+      _ = piJ x₂ := hH x₂
+  · intro h
+    classical
+    refine ⟨(fun y : Set.range piI => piJ (Classical.choose y.property)), ?_⟩
+    intro x
+    change piJ (Classical.choose ⟨x, rfl⟩) = piJ x
+    exact h _ x (Classical.choose_spec ⟨x, rfl⟩)
+
+/-- Once defined on the entire range, a deterministic hallway factor
+map is unique. -/
+theorem hallway_factorization_unique
+    (piI : X → Y) (piJ : X → Z)
+    {H₁ H₂ : Set.range piI → Z}
+    (h₁ : ∀ x, H₁ ⟨piI x, ⟨x, rfl⟩⟩ = piJ x)
+    (h₂ : ∀ x, H₂ ⟨piI x, ⟨x, rfl⟩⟩ = piJ x) :
+    H₁ = H₂ := by
+  funext y
+  rcases y.property with ⟨x, hx⟩
+  have hy : y = (⟨piI x, ⟨x, rfl⟩⟩ : Set.range piI) := by
+    exact Subtype.ext hx.symm
+  rw [hy]
+  exact (h₁ x).trans (h₂ x).symm
+
+/-- If the source-observable projection is injective, a deterministic
+hallway factor map always exists on its range. -/
+theorem hallway_factorization_exists_of_source_injective
+    (piI : X → Y) (piJ : X → Z)
+    (hinj : Function.Injective piI) :
+    ∃ H : Set.range piI → Z,
+      ∀ x, H ⟨piI x, ⟨x, rfl⟩⟩ = piJ x := by
+  apply (hallway_factorization_iff_fiber_compatibility piI piJ).2
+  intro x₁ x₂ h
+  exact congrArg piJ (hinj h)
+
+#print axioms hallway_factorization_iff_fiber_compatibility
+#print axioms hallway_factorization_unique
+#print axioms hallway_factorization_exists_of_source_injective
+
 end HsHVerification.KestrelProjectedIncidence
