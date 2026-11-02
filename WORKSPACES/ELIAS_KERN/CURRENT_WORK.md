@@ -332,3 +332,9 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - No POC/production/Lean source change, branch/PR, physical calculation, CODATA scoring, theory promotion, paper advancement, Orson cognition reassignment, scheduler change, or new task.
 
 **Next cursor:** define a source-backed typed projection from Threading `OutputReceipt` to evidence statuses, bind per-axis witnesses, and make a sandbox-only gate consume the typed record. Obtain independent Track B review before promotion. The broader Nathan Direct geometry-fidelity Lane 00 remains a separate source-recovery task; this was a Track A workflow-evidence crosswalk.
+
+
+### Delivery verification amendment | 2026-11-02T2107Z
+
+- Elias INBOX consumption of Hale's optional packet independently read back; blob `bf8f56dba9926afe6029d4a7f327aff8a86b678a`.
+- Nadir Voss INBOX received the optional h549 packet by CAS append; commit `5d5d9eb0f7c083a64ad014d1918477678ff6263e`, blob `4bd2fbf59c397aaf623ed63d8491d089713a17e3`; exact readback PASS. Repository inbox delivery only; Nadir consumption/ack and ChatGPT cross-thread delivery remain unverified.
