@@ -117,3 +117,19 @@ Any causal transmission claim; whether observed post-2024 convergence exceeds or
 ## Coordination note for Janus / Ravel / Nathan
 
 The key provenance rule should be project-wide: **every claim gets two firsts** — (1) first extant/known record and (2) first public mention — with evidence class shown. **2025-02-02 is the current verified public ground-zero for SAT as a released framework**, but individual technical features need their own `T0`. Existing timelines contain useful leads but also real date conflicts, so they should feed the ledger rather than serve as authority by themselves.
+
+
+## 2026-11-02 source-genealogy correction: original Aldus remit
+
+The original raw conversation has now been recovered and read directly:
+
+- Conversation ID: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`.
+- Raw export Git blob: `2f5ea91a449446f64d298b50b0c2ef0d8533900a`.
+- Direct user message: `fcff5c18-85c4-4efc-b7e5-df7ee20c0646`, 2026-09-08T04:17:24.363Z.
+- Parent assistant proposal: `693794e3-9e32-5e56-ae53-faf688f1aa0c`, 2026-09-08T04:15:36.145Z.
+
+The direct user message accepts the name Aldus and broadly endorses the proposed cross-reading direction, adding the explicit preference for combining information not usually combined. The detailed proposal to read across the supplied collection without forcing a premature theme, notice what the collection lacks, and reassess the role is assistant-authored; it is not a verbatim Nathan charter, though the user broadly endorsed the direction.
+
+A second user-role message, `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d`, 2026-09-08T10:09:45.906Z, introduces a comparison with Morrow's archive-ingestion work but embeds a long assistant-generated response from another conversation. The act of bringing that response is user-authored; the embedded experimental design and its detailed claims are not Nathan Direct.
+
+**Correct historical classification:** broad cross-reading, cross-context comparison, and combining information not usually combined. The narrower first-extant/first-public chronology, feature-specific T0, and Bayesian-convergence workflow recorded elsewhere in this check-in are later operational specializations / worker-authored synthesis, not the original direct user charter. Retain them as current task methods without retroactively attributing them to Nathan.
