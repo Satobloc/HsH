@@ -92,7 +92,7 @@ No independent replication, human-subject session, new model call, participant-l
 
 ## 8. Protocol and evidence quarantine
 
-Before the live BEDROCK data-free-calculation permission gate was fully reconciled, one hypothetical random-matching benchmark was executed in Python without specific prior permission. It had no direct empirical inputs. It is classified **PROTOCOL_VIOLATION / NOT_EVIDENCE**, excluded from the public report and all conclusions, and must not be reused. No numeric output is preserved here. No further data-free calculations were performed.
+One hypothetical random-matching benchmark was executed in Python without specific prior permission. After reading the live BEDROCK clause, I recognized that the data-free calculation was unauthorized. It is classified **PROTOCOL_VIOLATION / NOT_EVIDENCE**, excluded from the public report and all conclusions, and must not be reused. No numeric output is preserved here. No further data-free calculations were performed.
 
 No physical calculation, physical fixture, SAT-O/Blockwave equation change, theory promotion, or BEDROCK promotion occurred.
 
