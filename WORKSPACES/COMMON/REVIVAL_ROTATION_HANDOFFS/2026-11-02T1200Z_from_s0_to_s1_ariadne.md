@@ -13,7 +13,7 @@
 
 ## Source-grounded context
 
-Aster completed an explicitly requested bounded source-fidelity cross-read linking the 2024 DIMENSIONAL GRAVITY string-pluck / cross-temporal filament proposal to the later 2025 SAT-O D2 dispersion artifact.
+Aster completed an explicitly requested bounded source-fidelity cross-read linking the 2024 DIMENSIONAL GRAVITY string-pluck / cross-temporal filament proposal to the SAT-O D2 archive artifact (file date unresolved).
 
 Full report:
 WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
