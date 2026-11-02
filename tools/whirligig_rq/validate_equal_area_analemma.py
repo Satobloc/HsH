@@ -6,6 +6,7 @@ import math
 PI = math.pi
 TAU = 2.0 * PI
 APERTURE_GAIN = 0.20
+ELBOW_ROLL_MULTIPLE = 2
 
 
 def simpson(f, a: float, b: float, n: int = 8192) -> float:
@@ -104,6 +105,9 @@ def main() -> None:
     length_unit=analemma_length(k)
     circuits=2
     ratio=1.0+circuits*length_unit/TAU
+    delta=ratio-1.0
+    sphere_roll_turns_per_orbit=TAU*delta/length_unit
+    elbow_turns_per_orbit=ELBOW_ROLL_MULTIPLE*sphere_roll_turns_per_orbit
     b=0.55
     R=ratio*b
     length_physical=length_unit*b
@@ -137,6 +141,8 @@ def main() -> None:
     assert abs(w_dot-1.0)<1e-14
     assert min_speed>1.0
     assert abs(TAU*(ratio-1.0)-circuits*length_unit)<2e-11
+    assert abs(sphere_roll_turns_per_orbit-circuits)<2e-12
+    assert abs(elbow_turns_per_orbit-ELBOW_ROLL_MULTIPLE*circuits)<2e-12
     assert abs(inner_circ-circuits*length_physical)<2e-11
     assert abs(sphere_circ-tube_circ)<1e-14
 
@@ -146,7 +152,10 @@ def main() -> None:
     print(f"equatorial remainder area           = {area_remainder:.13f} b^2")
     print(f"maximum lobe latitude               = {math.degrees(max_lat):.9f} deg")
     print(f"full Analemma length / b            = {length_unit:.13f}")
-    print(f"minimum even circuit count          = {circuits}")
+    print(f"minimum even Analemma / sphere-roll circuits = {circuits}")
+    print(f"sphere-roll turns per torus orbit    = {sphere_roll_turns_per_orbit:.13f}")
+    print(f"elbow multiplier of common roll      = {ELBOW_ROLL_MULTIPLE}")
+    print(f"elbow turns per torus orbit           = {elbow_turns_per_orbit:.13f}")
     print(f"required major/minor ratio R/b      = {ratio:.13f}")
     print(f"chosen tube/sphere radius b         = {b:.8f}")
     print(f"derived torus major radius R        = {R:.13f}")
@@ -162,7 +171,7 @@ def main() -> None:
     print("derivative finite-difference checks:")
     for h,e1err,e2err in derivative_errors:
         print(f"  h={h:.7g}: first={e1err:.3e}, second={e2err:.3e}")
-    print("PASS: equal areas, E/W topology, regularity, radius equality, and 2:1 inner-circumference gearing")
+    print("PASS: equal areas, E/W topology, regularity, radius equality, common sphere-roll/Analemma phase, 2× elbow lock, and 2:1 inner-circumference gearing")
 
 
 if __name__=="__main__":
