@@ -153,3 +153,14 @@ The `create_issue` call was blocked by OpenAI safety checks before issue creatio
 - Orson's next appearance: :36 at h=535, 2026-11-02T07:36Z. His P1 ownership remains unchanged.
 
 **Final:** workflow overlay provisional; one bounded pilot completed; publisher blocked before issue creation; four existing automations and the disabled :12 phase preserved; no prompt, task, ID, cadence, theory, or paper-gate change.
+
+
+## 8. Scheduler observation after the initial readback
+
+A later :36 task peek showed the expected h=534 :36 occurrence had started:
+- Run ID: `c1edddd2-67cc-8322-ad33-0daa080572fc`.
+- Scheduled: 2026-11-02T06:36:00Z.
+- Started: 2026-11-02T06:40:43.769461Z.
+- Status: `in_progress`; `chat_ref=null`.
+
+The deterministic ring label is Morrow (index 13), but no authenticated thread is available. The attempted Morrow handoff file was blocked by safety checks and no inbox pointer was written. Therefore no Morrow delivery, consumption, or acknowledgment is claimed. The earlier statement that the 06:36 occurrence had not yet appeared was accurate at the 06:38Z check and is superseded by this later scheduler observation.
