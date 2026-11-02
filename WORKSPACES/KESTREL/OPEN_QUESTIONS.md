@@ -108,3 +108,32 @@ This map should remain scenario-based until specific claims survive audit.
 > If this is approximately what it looks like, what would we regret not having done six months from now?
 
 That is a Kestrel question.
+
+
+## 2026-11-02 update: mathematical back hallways and Klein-Fabric source boundary
+
+### Back-hallway factorization
+
+The 2026-10-21 user-role clarification says the "corridors" are metaphorical mathematical corridors between theories, not physical tunnels. The broad programme remains current, but the attached `H_{i→j}=π_j∘π_i^{-1}` expression is an author-unresolved candidate, not a Nathan Direct equation.
+
+The existing draft PR #873 now contains the conditional factorization criterion:
+
+- A deterministic `H : range(π_i) → O_j` with `H(π_i(p))=π_j(p)` exists iff `π_j` is constant on every fiber of `π_i`.
+- If it exists on the entire range, it is unique.
+- Injectivity of `π_i` is sufficient, but not necessary.
+
+Current status: **LEAN_SUBMITTED_NOT_VERIFIED** for the new declarations. The previous successful build predates them. No actual `π_i`, `π_j`, domain, uncertainty model, or measured cross-theory dataset has been supplied. The next meaningful question is not to invent a hallway, but to identify a source-defined pair of projections and test fiber compatibility, round-trip behavior, and independent cross-prediction.
+
+### Klein Fabric and local finite-core geometry
+
+The 2026-10-21 source says the older reciprocal filament/timesheet-deformation model is no longer current because the Klein Fabric model had become common. It does **not** define the Klein Fabric or give its global topology or map to the local finite-core worldtube. Earlier continuity language calling the definition/map "adopted" is corrected by the 2026-11-02 Kestrel continuity entry.
+
+Keep these unresolved and separately typed:
+
+1. Global Klein-Fabric object and topology.
+2. Map from global fabric to the native 4D local geometry.
+3. Local finite-core/worldtube construction and its relation to spine, core, and shell.
+4. Timesheet intersection or projection.
+5. Observable/readout map.
+
+The early NotebookLM Klein-bottle question, its assistant-generated ER-bridge/Möbius-cell answer, and the later mapping-torus proposal do not supply the adopted definition. No substitute topology or physical equivalence is to be invented.
