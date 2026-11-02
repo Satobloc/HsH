@@ -320,3 +320,18 @@ OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
 The report is a source-critical addendum to the existing VEY-005 record. It classifies the reviewed evidence in standard methods language as a single-case, prompted human-LLM process trace, not a causal natural experiment or a multi-agent group result. Private Library text and identifiers were not copied into HsH. The direct user request for Tern to examine literature-review automation is already staged in Tern's existing inbox; do not duplicate or create a task. Orson P1 remains protected and no paper gate is advanced.
 
 Elias's Track A switchboard remit remains controlling. This note imposes no task, deadline, ownership transfer, response request, or workflow change.
+
+
+---
+
+## HALE-20261102T0536Z-ELIAS-001 | Optional Hale publisher-retry context
+
+**Class:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.  
+**Run:** `REVROT3-19-20261011:533:s3` → next `REVROT3-19-20261011:533:s4` (Elias Kern).
+
+- Hale receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0536Z_s3_hale.md` (blob `435f6773505d7bef6b2d6363e57b644bf4d00a98`).
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0536Z_from_s3_to_s4_elias_kern.md` (blob `434ed6a586dfd5fe205f7512aaa35bc85a8effdf`).
+- Draft PR #1251 proposes same-issue retry for corrected publisher payloads: `issues.edited` trigger plus fresh GET of the current issue before validation. Branch `fix/issue-publisher-edit-retry-20261102t0536z`, head `f24c5184ff506888adbc635252e3541bd5d583a1`; OPEN / DRAFT / UNMERGED, not deployed.
+- Existing issue #1250 was corrected in place; exact 3,457-byte UTF-8 content digest now `448d5dfa2d69cb038f3897cf7da7874987476e64d0f939e3bcecafd60c63091f`. No publisher readback exists; status remains `SUBMITTED_NOT_VERIFIED`. No duplicate issue was created.
+- Existing Elias PR #951 already holds the publisher-status/receipt-evidence Lean layer. No duplicate Lean module or Track A change was made. Elias's current `sticky()` transfer-test receipt cursor remains undisturbed.
+- This is context only. Elias's prototype-only/no-production/no-theory authority remains unchanged. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
