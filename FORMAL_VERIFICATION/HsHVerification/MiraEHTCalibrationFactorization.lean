@@ -59,7 +59,6 @@ theorem total_calibration_is_measured_ring_over_shadow
       = measuredRing / shadow := by
   unfold totalCalibrationAlpha physicalImageCalibrationAlpha1 measurementCalibrationAlpha2
   field_simp [hTrueRing, hShadow]
-  <;> ring
 
 /-- EHT Paper VI Eq. (1), with the two source-described calibration stages explicit. -/
 theorem paperVI_equation_one_two_stage
@@ -73,9 +72,13 @@ theorem paperVI_equation_one_two_stage
         (measurementCalibrationAlpha2 measuredRing trueRing) *
       (1 + shadowDeviation shadow thetaG) *
       schwarzschildShadowDiameter thetaG := by
+  have hThetaG : thetaG ≠ 0 := by
+    intro hZero
+    apply hSchwarzschild
+    simp [schwarzschildShadowDiameter, hZero]
   unfold totalCalibrationAlpha physicalImageCalibrationAlpha1
     measurementCalibrationAlpha2 shadowDeviation schwarzschildShadowDiameter at *
-  field_simp [hTrueRing, hShadow, hSchwarzschild]
+  field_simp [hTrueRing, hShadow, hSchwarzschild, hThetaG]
   <;> ring
 
 /-- Once the total calibration factor is fixed and nonzero, a measured ring
@@ -113,9 +116,7 @@ theorem free_total_calibration_does_not_identify_shadow
   refine ⟨measuredRing / shadowA, measuredRing / shadowB,
     div_pos hMeasured hShadowA, div_pos hMeasured hShadowB, ?_, ?_, ?_⟩
   · field_simp [ne_of_gt hShadowA]
-    <;> ring
   · field_simp [ne_of_gt hShadowB]
-    <;> ring
   · intro hEqual
     apply hDistinct
     have hProduct : measuredRing * shadowB = measuredRing * shadowA := by
@@ -144,7 +145,7 @@ theorem sgrAStar_central_value_quotient :
       (518 : ℚ) / 487 := by
   norm_num [sgrAStarMeasuredRingCentralQ, sgrAStarCalibratedShadowCentralQ]
 
-/-- The 68% shadow interval is reported as 48.7 +/- 7.0 microarcseconds.
+/-- The 68% shadow interval is reported as 48.7 ± 7.0 microarcseconds.
     Its rounded endpoints (41.7, 55.7) and the measured-ring central value 51.8
     furnish a source-specific witness: without a constrained alpha_c, both
     shadow values can reproduce the same measured ring. The endpoints are not
