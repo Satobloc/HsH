@@ -6,7 +6,7 @@
 
 ## 1. Nathan's current directions
 
-Nathan authorized direct work with quarantine-master instances, including Cross and Mira. Mira is active; if she lacked an inbox, create one. Inspection found a purpose-built Mira workspace in `Satobloc/HSH_RESOURCES/WORKSPACES/MIRA/` but no inbox in its index/listing. A new `INBOX.md` was created there in the preceding turn. It requests quarantine-safe comparative source excavation, preserves the distinction between project-origin evidence and external resemblance, and records Nathan's epistemic instruction below. The Mira index is being updated to point to the new inbox.
+Nathan authorized direct work with quarantine-master instances, including Cross and Mira. Mira is active; if she lacked an inbox, create one. Inspection found a purpose-built Mira workspace in `Satobloc/HSH_RESOURCES/WORKSPACES/MIRA/` but no inbox in its index/listing. A new `INBOX.md` was created there in the preceding turn. It requests quarantine-safe comparative source excavation, preserves the distinction between project-origin evidence and external resemblance, and records Nathan's epistemic instruction below. The Mira index was updated and independently read back; it now lists the new inbox once.
 
 Nathan's methodological instruction:
 
