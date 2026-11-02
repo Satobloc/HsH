@@ -152,3 +152,53 @@ The three Mersearch artifact SHA values recorded in the preceding 10:24 addendum
 - `SEARCH_RECEIPT.md`: `70cee11a7a500ee528dc9bf0ec2781564e9397a8`.
 
 This correction supersedes only the three mistyped SHA strings above. The request ID, run/job identity, scan counts and source classifications are unchanged.
+
+
+## 2026-11-02T1024Z correction: initial Morrow workspace source recovered
+
+### Direct workspace-creation / Common-participation instruction
+
+Conversation: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; title `☘️ ALDUS MORROW [AUTO H(s)H Gitter]`; raw path `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json`; blob `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+
+| User message UUID | UTC timestamp | Read extent | Additive tags |
+|---|---|---|---|
+| `53a18c37-9c45-4616-b67d-25fe2e36a6c5` | 2026-09-13 09:12:50.281 | FULL | DIRECT-NATHAN-ATTRIBUTED; TASK-WORKSPACE-CREATION; COMMON-PARTICIPATION; RAW-SOURCE-BACKFILLED; COMBINED-ALDUS-MORROW-THREAD |
+
+The direct user message asks the recipient to create a task-scoped workspace and periodically inspect, post to and reply in the Commons. The first Morrow workspace commit `c18c66a26de2660d7336df7569dd4a5d656f39be` was created at 2026-09-13T09:14:25Z, 94.719 seconds later, with title `Add Morrow administrative workspace and Common review routine`. Its initial README says Morrow was the working name used in that thread. The direct message does not specify the folder name; the matching repository commit creates `WORKSPACES/MORROW/`.
+
+**Identity qualification:** this is the combined Aldus Morrow Auto H(s)H Gitter conversation, not the separate Morrow Reconstruct conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`. The direct instruction plus near-immediate matching commit strongly supports the creation link, but does not merge the two conversation containers or authenticate the current scheduled worker/thread. This source backfill supersedes the earlier `UNRECOVERED` status for the initial Morrow workspace instruction.
+
+### LIVE CONVOS directory semantics
+
+| Conversation | User message UUID | UTC timestamp | Read extent | Finding |
+|---|---|---|---|---|
+| Aldus Morrow Auto H(s)H Gitter `6a9dea2e-bb98-83ea-a74f-4beb4baa3153` | `8be984c1-779c-409d-97f9-aa9053d53eb4` | 2026-09-07 15:34:53.254 | FULL | Describes the LIVE CONVOS folder as containing the current live conversation snapshot, while several turns behind. |
+| Orchestrator Janus `6a9f3d4b-54e4-83ea-81de-19908068ceb7` | `3fcd9cb3-50a2-4fa5-a4c0-74191621c009` | 2026-09-08 00:10:44.195 | FULL | Describes a retired recurring-task thread saved in the same directory. |
+| Morrow Reconstruct `6a9ee7ca-d340-83ea-b99d-6a3097429f36` | `fed478ad-8022-46b1-a972-ac74bf7d37b2` | 2026-09-09 03:25:14.104 | FULL | References Live Convos as archive material. |
+
+These direct messages support a conversation-snapshot/wayfinding directory that may contain a current-but-lagging snapshot or a saved retired thread. Membership does not authenticate a current active ChatGPT thread. Exact `ACTIVE = LIVE CONVOS` wording was not found in the inspected raw messages or exact-phrase search; retain only a contextual operational interpretation.
+
+### Trial-workflow prompt: third identical event recovered
+
+The exact same 3,526-character user prompt appears in three distinct conversations:
+
+| Conversation | User message UUID | UTC timestamp |
+|---|---|---|
+| Aldus Morrow Auto H(s)H Gitter | `e54d56dc-046b-4844-98bc-72518289fe69` | 2026-09-13 15:25:44.704 |
+| Morrow Reconstruct | `99ae959b-fbeb-4c1e-9326-a6723c2b9557` | 2026-09-13 15:31:22.757 |
+| Mercer Archive Mover | `a77cc6ba-980e-4493-bc63-0ab698fcb5ab` | 2026-09-13 15:33:45.258 |
+
+Scripted string comparison: all three extracted contents are exactly equal; lengths 3,526 characters each. Inter-event intervals: 338.053 seconds, then 142.501 seconds; total 480.554 seconds. These are three distinct user-message events carrying one repeated instruction, not independent witnesses to its contents.
+
+### Targeted Mersearch follow-up
+
+Request `morrow-initial-workspace-folder-source-targeted-20261102-1024` remains submitted in lane 1. At the latest check, no request-scoped manifest or compact receipt existed. Status: `SUBMITTED_NOT_VERIFIED`. The direct creation source has now been recovered independently from the raw Aldus Morrow export; if the request later returns it, treat that as search confirmation of the same source, not an independent witness. Do not overwrite or duplicate the request.
+
+### Current source and proof boundaries
+
+- The Morrow 697-node / 17-user-message Reconstruct export remains a separate conversation and contains the later recurring-maintenance instruction, not the initial creation request.
+- The September 13 Mercer Dashboard message `c8635cd6-9aa3-4b1f-8132-8977e9303707` remains the source for the open Dashboard / quarantine transparency / Viewer continuation directive. It does not establish the exact ACTIVE shorthand or the stronger claim that Viewer must never replace the Dashboard front door.
+- The Mercer personal-workspace notice message `7235b984-0ce1-4fa1-bacf-d3de9a6876bc` remains a separate later general-policy request, not the Morrow creation source.
+- Aster PR #787 current source still contains the two parent-edge proof terms `constructor <;> rfl` and no `sorry`/`admit`; the old October 30 CI failure is stale relative to the November 1 head update. Current exact-head Lean build remains unverified.
+
+No source tag was downgraded. The earlier statement that the initial Morrow workspace source was unrecovered is superseded by this backfill.
