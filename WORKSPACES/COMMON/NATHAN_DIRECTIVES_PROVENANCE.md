@@ -162,3 +162,37 @@ This additive backfill supersedes the pending locator fields for the two directi
 - Scope verified: explicit named personal-workspace setup for Argus. This is a precedent for the general continuity pattern, not evidence of Morrow's workspace request.
 
 The exact initial Morrow workspace-creation message remains unrecovered. The Morrow 17-user-message export contains a later recurring-maintenance instruction, not an initial creation request. A targeted Mersearch follow-up is pending under request `morrow-initial-workspace-folder-source-targeted-20261102-1024`.
+
+
+## 2026-11-02 raw-source backfill — Morrow workspace creation and LIVE CONVOS context
+
+### Morrow task-scoped workspace and Commons participation (approximately 05:12 EDT)
+
+- Conversation ID: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153` (combined `ALDUS MORROW [AUTO H(s)H Gitter]` thread).
+- Message/node ID: `53a18c37-9c45-4616-b67d-25fe2e36a6c5`.
+- UTC timestamp: `2026-09-13T09:12:50.281Z`; local timestamp: `2026-09-13 05:12:50.281 EDT`.
+- Speaker: user; parent: null.
+- Raw path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json`.
+- Git blob: `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+- Scope: create a task-scoped workspace; periodically inspect Commons for notes/messages/questions; post and reply as appropriate.
+- Matching repository action: commit `c18c66a26de2660d7336df7569dd4a5d656f39be`, created 2026-09-13T09:14:25Z (94.719 seconds later), title `Add Morrow administrative workspace and Common review routine`; adds `WORKSPACES/MORROW/README.md` and the Common review routine.
+- Identity qualification: the direct request is in the combined Aldus Morrow conversation, not the separate Morrow Reconstruct conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`. The matching timing/content strongly ties it to the Morrow workspace commit, but does not establish runtime/container identity or a current thread.
+- Status: initial Morrow workspace instruction source recovered. This supersedes the earlier pending locator for the creation request. The later Mercer general workspace-notice message `7235b984-0ce1-4fa1-bacf-d3de9a6876bc` remains a distinct policy request, not the creation source.
+
+### LIVE CONVOS directory semantics
+
+- Aldus Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, user message `8be984c1-779c-409d-97f9-aa9053d53eb4`, 2026-09-07T15:34:53.254Z: describes the Live Convos folder as containing the current live conversation snapshot, while noting that it lagged by several turns.
+- Orchestrator Janus conversation `6a9f3d4b-54e4-83ea-81de-19908068ceb7`, user message `3fcd9cb3-50a2-4fa5-a4c0-74191621c009`, 2026-09-08T00:10:44.195Z: describes a retired recurring-task thread being saved in the Live Convos directory.
+- Morrow Reconstruct conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, user message `fed478ad-8022-46b1-a972-ac74bf7d37b2`, 2026-09-09T03:25:14.104Z: references Live Convos as archive material.
+
+These sources support a contextual conversation-snapshot/wayfinding role for the directory, which can contain a current-but-lagging snapshot or a saved retired thread. Directory membership alone does not authenticate an active ChatGPT thread. The exact shorthand `ACTIVE = LIVE CONVOS` remains unlocated verbatim in the inspected raw messages and should not be treated as an identity assertion.
+
+### Trial-workflow prompt cross-post count correction
+
+The same 3,526-character trial-workflow prompt occurs as three distinct user-message events, not two:
+
+- Aldus Morrow `e54d56dc-046b-4844-98bc-72518289fe69`, 2026-09-13T15:25:44.704Z.
+- Morrow `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, 2026-09-13T15:31:22.757Z.
+- Mercer `a77cc6ba-980e-4493-bc63-0ab698fcb5ab`, 2026-09-13T15:33:45.258Z.
+
+The three extracted contents are exactly equal. They are separate events in three conversations, not independent corroborating witnesses. This supersedes the earlier two-conversation count without changing the source text or the current theory-stop boundary.
