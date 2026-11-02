@@ -500,3 +500,38 @@ All four Mersearch lanes remain occupied (`requested`); no request was submitted
 - Context-only Aster handoff created at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2036Z_from_s3_to_s4_aster.md`; repository write succeeded. Recipient consumption/acknowledgment and cross-thread delivery unverified.
 - Next source cursor: DIMENSIONAL GRAVITY user turn 31 of 138. Unrelated-reading cursor remains `fun break - lx.txt`, next line 221. FIE review not due (last full review October 27).
 - No physical calculation, fit, prediction, measurement, theory promotion, paper-gate change, new Mersearch request, new tool, new branch, new PR, scheduler mutation or additional task.
+
+
+## 2026-11-02T1148Z | full DIMENSIONAL GRAVITY user-turn coverage reconciliation
+
+Run key: `REVROT3-19-20261011:539:s4`. Deterministic selection: Loom (ring index 1); next Aster (index 2), `REVROT3-19-20261011:540:s0`.
+
+### Historical Loom source and current-thread status
+- Original `Tag Conversation Corpus`: conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`; 515 mapping nodes / 514 messages (10 user, 363 assistant, 141 tool). Ten user-role turns establish cumulative tagging, tag-selectivity QA, timeline-first extraction, typed terminology crosswalks, historical/current-definition distinctions, glossary navigation and continuity maintenance. The assistant proposed the name Loom; the user accepted it.
+- Bounded existing-thread search and personal-context retrieval found no newer authenticated usable Loom successor. Archived current node is assistant-role; latest recorded activity is 2026-09-19. This is source-grounded revival, not historical-thread continuation. Current scheduled run has `chat_ref=null`.
+
+### DIMENSIONAL GRAVITY full-ancestry coverage
+- Raw source: conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`.
+- Parsed 466 mapping nodes; parent traversal from `current_node` yields 456 selected-ancestry nodes and all 138 user-role messages; zero user-role messages are off-branch.
+- Existing ledger already covers turns 1–60 (turns 31–60 committed in `0abdb090ae5ff88cfbfc67005b83c620828d8195`). Exact UUID search across existing tag ledgers/verified batches/Compendium found turns 61–138 already covered except turn 72.
+- Added turn 72, message `aaa2c16c-3ef1-42e8-a086-dd5fe06c34a6`, 2024-03-23T05:37:36.040991Z, tags `NATHAN-DIRECT-QUESTION`, `SAT-VS-STRING-THEORY-CLASSIFICATION-QUESTION`, `FRAMEWORK-ONTOLOGY-QUESTION`. Its next direct user turn `aaa2aa48-7d9d-4b8a-ae2c-4bb2a6b6c5c7` already records the distinction: SAT strings are distinct from string-theory strings while allowing possible overlap/subsumption of selected constructs.
+- Updated source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`; blob `1b9a27c124c426b8f07c15237b1094db1b0df735`; commit `9f2cde6159587a8ad4c80633119d7ecd51db5702`; exact readback PASS. All 138 user-role turns now have tag coverage across existing/current ledgers; no uncovered user-turn cursor remains.
+
+### Formalization / physical evidence
+- `FORMALIZATION_BLOCKED_DEFINITION`: the verbal 4D-filament / 3D-time-surface / intersection / composite-hierarchy / cross-temporal-tug vocabulary lacks a specified manifold and metric, embedded-surface map, filament parameterization, incidence/intersection map and conditions, hierarchy projection/composition maps, or typed tug operator/kernel, units and temporal propagation law. Existing conditional helix-slice formalization does not prove this hierarchy or tug hypothesis. No tautological Lean module was added.
+- Turns 117–120's “actual string attached to a sphere” is a hypothetical model prompt, not a measured system. No physical calculation, fit, prediction or measurement. The 2024 “time surface” and “tugs” were not normalized to 2026 timesheet/wavesheet or time-wavefront terminology. No SAT-O/Blockwave equation recovered or changed.
+
+### Current branch / CI audit
+- Main before this run's ledger update: `4f5a6aa0b3b88639b49411561ec76d2622832e3b`.
+- Existing Loom PR #759 branch `research/loom-embedded-notebooklm-span-20261027t1512z`, head `45f6d5167c064d04dbba436c220c900b479b873f`, 70 commits ahead, 1,297 behind its recorded base, and 6,998 behind current main; 33 changed files. This is stale/mixed-scope; no rebase, merge or code write.
+- Latest inspected Actions run #41369984551 succeeded on merge commit `715478056131758e72eebad79ae7fcad82d4e489`, 8,952 build targets. It did not check out PR head directly. Tests, lint, nanoda and separate axiom audit skipped. Classification: MERGE-REF BUILD SUCCESS / EXACT-HEAD-ONLY NOT ESTABLISHED.
+
+### Controls / next work
+- Existing Mersearch source receipt and raw source pointer reused; no new request or lane overwrite. Visible lane-2/3/4 request files remain requested; lane-1 expected path was absent. No Mersearch execution claimed this run.
+- Unrelated reading: `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 221–260 read; next cursor 261. Speaker labels are textual, not raw role metadata; no new authorship claim.
+- FIE last full review 2026-10-27; 14-day rereview due 2026-11-10, not yet.
+- Orson P1 ownership and Nov 9 gate untouched; P2 Nov 30 and P3 Dec 14 remain separate. No manuscript/reader, independent review, human-subject session or paper-gate advancement.
+- No new tool, branch, PR, issue or automation; no physical calculation; no BEDROCK promotion; no signet or conversation rename.
+- Next Loom work: assistant-span/source-ancestry review from the existing `2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, not another user-turn tagging pass.
+- Incoming :36 Sable predecessor was not available: the :36 automation still showed an older Kestrel occurrence scheduled 10:36Z, started 11:32Z, in progress, `chat_ref=null`. No h539:s3 Sable receipt/handoff found; no refusal or missed-check-in claim.
+- Next identity Aster has no authenticated active thread in current continuity/personal-context search; repository inbox is the available verified handoff route.
