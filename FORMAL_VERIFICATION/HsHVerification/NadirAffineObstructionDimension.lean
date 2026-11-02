@@ -166,4 +166,160 @@ theorem affineObstruction_finrank_eq_fixedSpace_of_unitScale
 
 end ScaledIsometry
 
+
+/-!
+## Orthogonal representative of the affine translation quotient
+
+This section is a new conditional mathematical construction built on the
+assistant-authored Run 141 affine quotient. The 2026-09-11 Rotoexpando
+manuscript defines the framed-sphere similarity map, but does not define this
+orthogonal quotient projection. The inner product is additional structure:
+without it, the quotient has no preferred representative.
+
+For finite-dimensional real inner-product spaces, the range of (I-L) has an
+orthogonal complement. The quotient V/range(I-L) is linearly equivalent to
+that complement by sending [t] to the orthogonal projection of t. Mathlib's
+adjoint-range theorem identifies the target with ker((I-L)^*).
+
+This is not a holonomy theorem, a nested-helix map, or a physical observable.
+-/
+
+section OrthogonalQuotientProjection
+
+variable {V : Type*} [NormedAddCommGroup V] [InnerProductSpace ℝ V]
+  [FiniteDimensional ℝ V]
+
+/-- In finite dimension, range(I-L) and its orthogonal complement form a
+    direct-sum decomposition of V. -/
+theorem affineShiftRangeIsCompl
+    (L : V →ₗ[ℝ] V) :
+    IsCompl (LinearMap.range (identityMinus L))
+      ((LinearMap.range (identityMinus L))ᗮ) := by
+  let S : Submodule ℝ V := LinearMap.range (identityMinus L)
+  haveI : FiniteDimensional ℝ S :=
+    Submodule.finiteDimensional_of_le (le_top : S ≤ ⊤)
+  haveI : CompleteSpace S := FiniteDimensional.complete ℝ S
+  exact S.isCompl_orthogonal
+
+/-- The quotient map induced by orthogonal projection onto range(I-L)ᗮ.
+    It sends the class [t] to the orthogonal representative of that class. -/
+noncomputable def affineQuotientOrthogonalProjection
+    (L : V →ₗ[ℝ] V) :
+    (V ⧸ LinearMap.range (identityMinus L)) →ₗ[ℝ]
+      (LinearMap.range (identityMinus L))ᗮ :=
+  let S : Submodule ℝ V := LinearMap.range (identityMinus L)
+  S.liftQ
+    (Sᗮ.projectionOnto S (affineShiftRangeIsCompl L).symm)
+    (le_of_eq
+      (Submodule.ker_projectionOnto
+        (affineShiftRangeIsCompl L).symm).symm)
+
+/-- On a quotient representative, the induced map is the chosen orthogonal
+    projection. -/
+@[simp] theorem affineQuotientOrthogonalProjection_mk
+    (L : V →ₗ[ℝ] V) (t : V) :
+    affineQuotientOrthogonalProjection L (Submodule.Quotient.mk t) =
+      (LinearMap.range (identityMinus L))ᗮ.projectionOnto
+        (LinearMap.range (identityMinus L))
+        (affineShiftRangeIsCompl L).symm t := by
+  simp [affineQuotientOrthogonalProjection]
+
+/-- The projection and quotient maps compose to the orthogonal projection
+    on V. This is the explicit map diagram, not an analogy. -/
+theorem affineQuotientOrthogonalProjection_comp_mkQ
+    (L : V →ₗ[ℝ] V) :
+    (affineQuotientOrthogonalProjection L).comp
+      (Submodule.mkQ (LinearMap.range (identityMinus L))) =
+    (LinearMap.range (identityMinus L))ᗮ.projectionOnto
+      (LinearMap.range (identityMinus L))
+      (affineShiftRangeIsCompl L).symm := by
+  ext t
+  simp [affineQuotientOrthogonalProjection]
+
+/-- The affine translation quotient is linearly equivalent to the orthogonal
+    complement of range(I-L). -/
+noncomputable def affineQuotientOrthogonalEquiv
+    (L : V →ₗ[ℝ] V) :
+    (V ⧸ LinearMap.range (identityMinus L)) ≃ₗ[ℝ]
+      (LinearMap.range (identityMinus L))ᗮ :=
+  LinearEquiv.ofBijective (affineQuotientOrthogonalProjection L) (by
+    constructor
+    · apply LinearMap.ker_eq_bot.mp
+      simpa [affineQuotientOrthogonalProjection] using
+        (Submodule.ker_liftQ_eq_bot'
+          ((LinearMap.range (identityMinus L))ᗮ.projectionOnto
+            (LinearMap.range (identityMinus L))
+            (affineShiftRangeIsCompl L).symm)
+          (Submodule.ker_projectionOnto
+            (affineShiftRangeIsCompl L).symm).symm)
+    · intro y
+      refine ⟨Submodule.Quotient.mk (y : V), ?_⟩
+      simp [affineQuotientOrthogonalProjection]
+  )
+
+/-- The inverse equivalence is the inclusion of the orthogonal complement
+    followed by the quotient map. -/
+@[simp] theorem affineQuotientOrthogonalEquiv_symm_apply
+    (L : V →ₗ[ℝ] V)
+    (y : (LinearMap.range (identityMinus L))ᗮ) :
+    (affineQuotientOrthogonalEquiv L).symm y =
+      Submodule.Quotient.mk (y : V) := by
+  apply (affineQuotientOrthogonalEquiv L).injective
+  simp [affineQuotientOrthogonalEquiv, affineQuotientOrthogonalProjection]
+
+/-- The orthogonal complement of range(I-L) is exactly the kernel of the
+    adjoint operator. -/
+theorem affineShiftRange_orthogonal_eq_adjointKernel
+    (L : V →ₗ[ℝ] V) :
+    (LinearMap.range (identityMinus L))ᗮ =
+      LinearMap.ker ((identityMinus L).adjoint) := by
+  exact LinearMap.orthogonal_range (identityMinus L)
+
+/-- The orthogonal-complement representative and the adjoint-kernel
+    representative are the same vector, with only the subtype changed. -/
+noncomputable def affineOrthogonalComplementEquivAdjointKernel
+    (L : V →ₗ[ℝ] V) :
+    (LinearMap.range (identityMinus L))ᗮ ≃ₗ[ℝ]
+      LinearMap.ker ((identityMinus L).adjoint) where
+  toFun x := ⟨x.1, by
+    rw [← affineShiftRange_orthogonal_eq_adjointKernel L]
+    exact x.2
+  invFun x := ⟨x.1, by
+    rw [affineShiftRange_orthogonal_eq_adjointKernel L]
+    exact x.2
+  left_inv := by
+    intro x
+    apply Subtype.ext
+    rfl
+  right_inv := by
+    intro x
+    apply Subtype.ext
+    rfl
+  map_add' := by
+    intro x y
+    rfl
+  map_smul' := by
+    intro c x
+    rfl
+
+/-- Explicit quotient-to-adjoint-kernel equivalence:
+    [t] maps to the orthogonal representative in ker((I-L)^*). -/
+noncomputable def affineQuotientAdjointKernelEquiv
+    (L : V →ₗ[ℝ] V) :
+    (V ⧸ LinearMap.range (identityMinus L)) ≃ₗ[ℝ]
+      LinearMap.ker ((identityMinus L).adjoint) :=
+  (affineQuotientOrthogonalEquiv L).trans
+    (affineOrthogonalComplementEquivAdjointKernel L)
+
+#print axioms affineShiftRangeIsCompl
+#print axioms affineQuotientOrthogonalProjection_mk
+#print axioms affineQuotientOrthogonalProjection_comp_mkQ
+#print axioms affineQuotientOrthogonalEquiv
+#print axioms affineQuotientOrthogonalEquiv_symm_apply
+#print axioms affineShiftRange_orthogonal_eq_adjointKernel
+#print axioms affineOrthogonalComplementEquivAdjointKernel
+#print axioms affineQuotientAdjointKernelEquiv
+
+end OrthogonalQuotientProjection
+
 end HsHVerification.NadirAffineObstructionDimension
