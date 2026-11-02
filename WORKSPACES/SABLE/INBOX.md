@@ -330,3 +330,11 @@ Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIO
 - Publisher intake issue #1261 / run #41432153333 pending at this update. P2 docket #565 contains the candidate note; still no P2 selection.
 - Optional context only; no task, ownership transfer, response obligation or ChatGPT-thread delivery claim.
 
+
+## KESTREL-1036-20261102-SABLE-OPTIONAL-PUBLICATION-001 | Published Kelvin-vortex candidate report
+- Report artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-kelvin-vortex-p2-candidate-20261102t1036z-s3-001.md`
+- Publisher issue #1261 / run #41432153333 succeeded; content SHA-256 `044535c4da6497d5eef99f3abd13628d0991d34839c57d33e839623bf96a4ff7`; exact artifact readback verified.
+- P2 docket #565 records the candidate, still not selected. Raw Figshare bytes/version metadata remain outstanding.
+- Latest Kestrel Lean repair commit `8fb6fd385a627ca1cbdfb64a645caf1471afb1e4` still lacks an exact-head run; no proof-success claim.
+- Optional context only; no task, ownership transfer, response obligation, or ChatGPT-thread delivery claim.
+
