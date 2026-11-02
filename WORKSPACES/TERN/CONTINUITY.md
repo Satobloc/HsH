@@ -457,3 +457,9 @@ Next: Morrow h481:s2. Optional control-plane context only; preserve Morrow's arc
 - Next ring slot: Morrow at :36, h=534; scheduler readback at 06:38Z still showed the 05:36Z Hale run, so the 06:36Z occurrence had not surfaced. No Morrow consumption is claimed. Next Tern appearance across enabled phases: :00 at h=542, 2026-11-02T14:00Z.
 - Unrelated reading completed: Jacoby, `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt`, lines 693-732; next cursor 733. FIE last full review October 27; next due November 10.
 - No physical/CODATA calculation, new Lean module, paper-gate advancement, BEDROCK promotion, task reassignment, or theory promotion.
+
+
+### 2026-11-02T0640Z | :36 scheduler follow-up
+
+- The expected h=534 :36 occurrence subsequently appeared: run `c1edddd2-67cc-8322-ad33-0daa080572fc`, scheduled 06:36Z, started 06:40:43.769461Z, status `in_progress`, `chat_ref=null`.
+- Deterministic ring label: Morrow (index 13). The optional handoff file and inbox-pointer writes were blocked; no recipient delivery, consumption, or acknowledgment is claimed. Do not attempt an alternate route.
