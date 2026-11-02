@@ -151,3 +151,14 @@ The theorem-specific axiom output is:
 The full build log contains zero `sorryAx` and zero `admit` occurrences. Separate axiom audit, tests, lint, and nanoda were skipped. This is a successful conditional Lean build, not a project-wide axiom audit.
 
 The empirical and source-level question remains open: no actual theory projections `π_i`, `π_j`, common domain, uncertainty model, or independent cross-prediction has been supplied. The Klein-Fabric definition/global topology and global-to-local finite-core map also remain unrecovered.
+
+
+### 2026-11-02 verification correction and next regularity gate
+
+Receipt Amendment 02 supersedes the exact-head claim above. Lean run #41468951678 (job #125357139451) succeeded on synthetic merge commit `072ed737a34ee71c8162873ab7e487dad044aeb3`, whose message merges PR head `4d69627b9b701d6c4d15a582282dee49c911dc52` into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. It did not check out the PR head SHA alone. The PR's current base read is now `61cc8b65ffed70296e0121dbae067892a79c81d4`, so the current head+base merge is also unverified.
+
+**Correct formal status:** `MERGE_REF_BUILD_PASS` on (head `4d696...` + base `c7dc2...`) / `CURRENT_BASE_MERGE_NOT_VERIFIED` (base `61cc8...`) / `EXACT_HEAD_ONLY_NOT_VERIFIED`. The module and 8,954-job merged library compiled under Lean 4.34.0/Lake 5.0.0; three theorem axiom outputs are `Classical.choice`, `Quot.sound`, `Classical.choice`; no `sorryAx` or `admit` appeared in the captured log. Separate axiom audit, tests, lint and nanoda were skipped. PR #873 remains open/draft/unmerged.
+
+**Next mathematical gate — PROPOSED, NOT FORMALIZED:** the current factorization theorem is set/function-level. If a hallway is meant to be a continuous geometric readout, specify topological spaces and require the source projection to be a quotient map onto its image; a continuous target map constant on source fibers then induces a unique continuous factor map. If a smooth readout is intended, specify smooth manifolds and a surjective submersion with a smooth fiber-constant target map; local smooth sections give the induced smooth map. Metric, orientation, causal order, connection and measure preservation each require separate compatibility conditions. These are standard candidate hypotheses, not Nathan Direct and not yet Lean results.
+
+**Blocking source gate:** no actual source-defined `π_i`/`π_j`, common domain, Klein-Fabric global topology, global-to-local finite-core map, or measured cross-prediction is available. Do not instantiate the proposed regularity theorem with invented physical maps.
