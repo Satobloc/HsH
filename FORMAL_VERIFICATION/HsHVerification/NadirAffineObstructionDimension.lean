@@ -247,6 +247,7 @@ noncomputable def affineQuotientOrthogonalEquiv
     · apply LinearMap.ker_eq_bot.mp
       simpa [affineQuotientOrthogonalProjection] using
         (Submodule.ker_liftQ_eq_bot'
+          (LinearMap.range (identityMinus L))
           ((LinearMap.range (identityMinus L))ᗮ.projectionOnto
             (LinearMap.range (identityMinus L))
             (affineShiftRangeIsCompl L).symm)
@@ -280,27 +281,8 @@ theorem affineShiftRange_orthogonal_eq_adjointKernel
 noncomputable def affineOrthogonalComplementEquivAdjointKernel
     (L : V →ₗ[ℝ] V) :
     (LinearMap.range (identityMinus L))ᗮ ≃ₗ[ℝ]
-      LinearMap.ker ((identityMinus L).adjoint) where
-  toFun x := ⟨x.1, by
-    rw [← affineShiftRange_orthogonal_eq_adjointKernel L]
-    exact x.2
-  invFun x := ⟨x.1, by
-    rw [affineShiftRange_orthogonal_eq_adjointKernel L]
-    exact x.2
-  left_inv := by
-    intro x
-    apply Subtype.ext
-    rfl
-  right_inv := by
-    intro x
-    apply Subtype.ext
-    rfl
-  map_add' := by
-    intro x y
-    rfl
-  map_smul' := by
-    intro c x
-    rfl
+      LinearMap.ker ((identityMinus L).adjoint) :=
+  LinearEquiv.ofEq _ _ (affineShiftRange_orthogonal_eq_adjointKernel L)
 
 /-- Explicit quotient-to-adjoint-kernel equivalence:
     [t] maps to the orthogonal representative in ker((I-L)^*). -/
