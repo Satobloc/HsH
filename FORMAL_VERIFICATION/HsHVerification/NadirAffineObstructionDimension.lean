@@ -35,12 +35,11 @@ open HsHVerification.NadirAffineTranslationQuotient
 section RankNullity
 
 variable {V : Type*} [AddCommGroup V] [Module ℝ V]
-  [FiniteDimensional ℝ V]
 
 /-- The affine translation cokernel has the same dimension as the kernel
     of I-L. This is rank-nullity applied to the endomorphism I-L. -/
 theorem affineObstruction_finrank_eq_kernel_finrank
-    (L : V →ₗ[ℝ] V) :
+    [FiniteDimensional ℝ V] (L : V →ₗ[ℝ] V) :
     Module.finrank ℝ (V ⧸ LinearMap.range (identityMinus L)) =
       Module.finrank ℝ (LinearMap.ker (identityMinus L)) := by
   have hquot :=
@@ -67,7 +66,7 @@ end RankNullity
 section ScaledIsometry
 
 variable {V : Type*} [NormedAddCommGroup V]
-  [InnerProductSpace ℝ V] [FiniteDimensional ℝ V]
+  [InnerProductSpace ℝ V]
 
 /-- The linear part σQ of a positive scaling followed by an isometry. -/
 def scaledIsometryLinearPart
@@ -109,7 +108,7 @@ theorem identityMinus_scaledIsometry_injective
 
 /-- In finite dimension, the injectivity above makes I-σQ surjective. -/
 theorem identityMinus_scaledIsometry_surjective
-    (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
+    [FiniteDimensional ℝ V] (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
     (Q : V ≃ₗᵢ[ℝ] V) :
     Function.Surjective
       (identityMinus (scaledIsometryLinearPart σ Q)) :=
@@ -119,7 +118,7 @@ theorem identityMinus_scaledIsometry_surjective
 /-- Away from unit scale, every affine translation is removable by an
     origin shift: the quotient obstruction class is zero. -/
 theorem affineObstructionClass_eq_zero_of_scaledIsometry
-    (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
+    [FiniteDimensional ℝ V] (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
     (Q : V ≃ₗᵢ[ℝ] V) (t : V) :
     affineObstructionClass (scaledIsometryLinearPart σ Q) t = 0 := by
   apply affineObstructionClass_eq_zero_of_surjective
@@ -128,7 +127,7 @@ theorem affineObstructionClass_eq_zero_of_scaledIsometry
 /-- At non-unit positive scale, the affine translation cokernel is
     zero-dimensional. -/
 theorem affineObstruction_finrank_eq_zero_of_scaledIsometry
-    (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
+    [FiniteDimensional ℝ V] (σ : ℝ) (hσ : 0 < σ) (hσ_ne_one : σ ≠ 1)
     (Q : V ≃ₗᵢ[ℝ] V) :
     Module.finrank ℝ
       (V ⧸ LinearMap.range
@@ -144,13 +143,13 @@ theorem affineObstruction_finrank_eq_zero_of_scaledIsometry
 /-- At unit scale, the affine translation-obstruction dimension is exactly
     the dimension of the fixed-vector subspace of Q. -/
 theorem affineObstruction_finrank_eq_fixedSpace_of_unitScale
-    (Q : V ≃ₗ[ℝ] V) :
+    [FiniteDimensional ℝ V] (Q : V ≃ₗ[ℝ] V) :
     Module.finrank ℝ
       (V ⧸ LinearMap.range
         (identityMinus (similarityLinearPart 1 Q))) =
       Module.finrank ℝ
         (LinearMap.ker (identityMinus Q.toLinearMap)) := by
-  simpa [similarityLinearPart] using
+  simpa [similarityLinearPart, one_smul] using
     (affineObstruction_finrank_eq_kernel_finrank
       (L := Q.toLinearMap))
 
