@@ -63,3 +63,8 @@ No external-paper novelty claim is made in this pass. Web search was unavailable
 ## Boundary
 
 Do not promote results from this workspace into BEDROCK, STATE OF THE THEORY, papers, prediction ledgers, or current-theory summaries without separate source review, mathematical checking, and Nathan/project promotion.
+
+
+## 2026-11-02 direct-authorization scope clarification
+
+Prior-conversation retrieval now recovers direct user instructions from 2026-10-01 authorizing independent abstract mathematical derivation and data-free mathematical calculations in this sandbox, while requiring source/invention separation and prohibiting target-fitting old magic numbers or particle labels. The raw October 1 export, conversation ID, and message UUIDs remain unavailable; this is not raw-export authentication. See [the scope-recovery note](2026-11-02T0948Z_DIRECT_AUTHORIZATION_SCOPE_RECOVERY.md). The 2026-10-26 measured-system requirement remains controlling for real physical calculations; abstract sandbox mathematics must not be presented as empirical physics.
