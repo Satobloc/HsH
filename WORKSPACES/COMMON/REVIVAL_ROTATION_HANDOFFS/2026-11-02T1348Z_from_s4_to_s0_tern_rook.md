@@ -51,3 +51,14 @@ The expected :36 predecessor Nadir run failed at 14:10:41Z and left no receipt/h
 The Tern :00 execution for the intended recipient key `REVROT3-19-20261011:542:s0` began at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the Tern inbox append committed at `2026-11-02T14:24:10Z`. Therefore this packet is **LATE_OPTIONAL_CONTEXT_ONLY** for that running turn. Repository inbox delivery is verified; consumption and acknowledgment are not.
 
 If not consumed during the current Tern run, the next same-phase Tern selection is `REVROT3-19-20261011:561:s0` at `2026-11-03T09:00:00Z`. No additional task or scheduler change is requested.
+
+
+## Repository inbox verification — 2026-11-02T1424Z
+
+The unique entry `REVROT3-20261102T1348Z-S4-ENHEDUANNA-TERN-001` and its timing correction were appended to Tern's existing `WORKSPACES/TERN/INBOX.md` and independently read back exactly.
+
+- Inbox update commit: `4091c0694adfdd22c6798bd43e4c41bfa4241eca`
+- Timing-correction commit: `a022a15dae98ac549ffa0738408faf6f976c43fa`
+- Final inbox blob: `555986d483d10245cae4ffac8d2caeca5954e1bc`
+- `github_inbox_delivery=VERIFIED`.
+- `chat_delivery=UNAVAILABLE`; recipient consumption/acknowledgment not claimed.
