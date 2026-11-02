@@ -1,27 +1,29 @@
 {
-  "request_id": "morrow-initial-workspace-folder-source-targeted-20261102-1024",
-  "requester": "Workshop Relay :24 / Morrow archival source recovery; source-grounded reconstruction, not authenticated historical Morrow",
-  "requested_at": "2026-11-02T10:24:00Z",
+  "request_id": "calder-angle-geometry-source-fidelity-20261102-1337",
+  "requester": "Workshop Relay :00 / Calder source-grounded reconstruction; geometry-fidelity lane, not authenticated historical Calder",
+  "requested_at": "2026-11-02T13:37:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND date:2026-09-07..2026-09-14 AND ((Morrow NEAR/12 (workspace OR folder OR checkpoint OR continuity)) OR (\"create a folder\" OR \"folder titled\" OR \"personal workspace\" OR \"workspace for you\" OR \"your workspace\"))",
-  "purpose": "Narrow source recovery after the completed broader Morrow search. Locate any direct Nathan user-role message, outside the known Morrow 17-message export, that explicitly requested creation of WORKSPACES/MORROW/README.md or its initial checkpoint. Distinguish a Morrow-specific creation instruction from (a) the separate Argus workspace-creation instruction, (b) the Mercer personal-workspace notice request, (c) later recurring maintenance instructions, and (d) assistant-authored workspace setup notes. Search all three permitted repositories, inspect exact raw user-role messages and parent/child context, preserve conversation/message IDs, timestamps, source commits, blob SHAs and duplicate/snapshot relationships.",
+  "query": "((author:user AND ((math:\"B=3/(4*pi)\" OR math:\"3/(4*pi)\" OR \"0.238732\" OR \"0.246 rad\" OR \"0.239 rad\" OR \"13.7°\" OR \"14.1°\") OR (theta4 NEAR/12 (timesheet OR filament OR pitch OR normal OR angle)))) OR ((path:*SAT* OR path:*Blockwave*) AND (math:theta OR math:phi OR math:B OR math:angle)))",
+  "purpose": "Recover a source-grounded, interrelated primary-source cluster around the historical angular geometry and the B/Phi angle-clustering targets. Identify exact original SAT-O/Blockwave equations and surrounding assumptions, and separately locate Nathan Direct user-role descriptions of the angle objects, reference directions, projection/intersection geometry, and intended meaning. Preserve exact source paths, source repository commits, blob/content hashes, dates, message UUIDs, role/parent ancestry, verbatim equation strings, and later corrections. Distinguish direct geometry from assistant-generated statistical windows, harmonic families, angle conversions, and interpretations. This is a geometry-fidelity/source-provenance retrieval, not a test of external angular coincidences.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate raw conversation paths, conversation IDs, source commits and immutable blob SHAs",
-    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context",
-    "typed distinctions among Nathan Direct, assistant-authored summary, Argus-specific workspace instruction, Mercer workspace-notice request, recurring maintenance instruction, duplicate message and unresolved source",
+    "candidate primary SAT-O/Blockwave source paths, immutable blob SHAs, first-extant dates and verbatim equation locators",
+    "candidate raw conversation paths, conversation IDs, exact Nathan Direct message UUIDs, timestamps, parent IDs and adjacent context",
+    "source-role and branch/ancestry distinctions",
+    "separate original equations and independently justified corrections, never overwriting the original",
     "explicit three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
-    "Previous requests morrow-sep13-dashboard-common-source-recovery-20261101-1524 and morrow-sept13-workspace-dashboard-source-broader-20261102-0646 are complete; preserve their manifests and compact receipts and do not count them as independent evidence.",
-    "Lane 1 is reused only after the previous request-scoped manifest and both compact receipts were independently read back; do not overwrite lanes 2, 3 or 4.",
-    "Do not publish raw excerpts, personal details or private HSH_RESOURCES content.",
-    "Do not infer a current ChatGPT thread or historical Morrow runtime from an archive title, filename, assistant-authored summary or repository inbox.",
-    "No theory integration, physical calculation, prediction, new Lean module, branch/PR, manuscript, BEDROCK, SAT-O/Blockwave equation or automation/scheduler change."
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART search exclusions",
+    "Do not treat Mersearch compact receipts as exhaustive results or source-authorship proof",
+    "Do not use external angle matches as H(s)H evidence or derive a physical law from the target values",
+    "No physical calculation, data-free calculation, statistical significance test, synthetic fixture or parameter fit",
+    "No new tooling, branch, PR, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
   ],
   "status": "requested",
   "lane": 1
