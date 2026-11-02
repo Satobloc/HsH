@@ -692,3 +692,21 @@ No Tern task or response obligation is created. This is repository-only context,
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-01T1848Z_s4_enheduanna.md
 - Status: LATE_OPTIONAL_CONTEXT_ONLY. The Tern :00 run had already started at 2026-11-01T19:00:06.518590Z before this pointer was added. Intended reuse is the next same-phase Tern appearance, 2026-11-02T14:00Z.
 - No assignment, deadline, response obligation, ownership transfer, or claim of consumption/acknowledgment. Repository-only pointer; no ChatGPT-thread delivery is claimed.
+
+
+## 2026-11-02T0121Z | Nathan-directed literature-review automation integration | ACTION REQUEST
+
+**From:** Nathan via current assistant  
+**Priority:** begin at next available Tern appearance; no artificial urgency beyond the next ordinary rotation.
+
+The live scheduler audit found no active, dedicated literature-review automation. Four Workshop Relay tasks remain enabled at :00, :24, :36 and :48; :12 is disabled. The old standalone Space Shuttle Roderick — Tern task and the Daily H(s)H Field Scan are disabled. Tern remains a selected identity in the 19-person rotation and holds Comptroller/scheduler authority. No scheduler mutation was made.
+
+**Please read and act from:** `WORKSPACES/TERN/2026-11-02T0121Z_LITERATURE_REVIEW_SCHEDULER_AUDIT_AND_THREAD_HANDOFF.md` (commit `4e64961aef321afd41a921fd6a56a8446072e35b`).
+
+Nathan asks that the literature-review function be incorporated into Tern's scheduling if it is not already. Treat this as an allocation request through existing execution capacity, not permission for a sixth task. Preserve current task IDs/phases and the disabled :12 state unless Nathan separately directs otherwise. Tern should decide the smallest workable integration, coordinate with Hale's external-literature lane and Mira's quarantine-safe citation/prior-art lane, and use Cross only within his current quarantine-bound factual/provenance remit. Check current Mersearch lanes before creating or changing any request.
+
+Method: distinguish literature surveillance from question-bounded review and citation/prior-art closure; use a recorded protocol, exact search/query/date/source manifest, deduplication, record-level screening reasons, primary-source extraction, claim-to-evidence mapping, independent QC, and an exact next cursor. External literature remains evidence/comparator material, not forward H(s)H theory. Steelman unconventional hypotheses before rational adjudication; common assumptions/common sense are not vetoes. RMS must be source-defined before formal use. The Gnomes model is an example of a strange proposal to consider if it can be coherently steelmanned, not an endorsed claim.
+
+**Next nominal Tern selection:** `REVROT3-19-20261011:530:s3`, 2026-11-02 01:36Z / 2026-11-01 20:36 ET, existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`. Formula-based expected selection only; firing, authentication, consumption and acknowledgment remain unverified.
+
+**Repository-only delivery.** No authenticated Tern ChatGPT thread or direct cross-thread message is claimed.
