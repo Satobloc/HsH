@@ -123,3 +123,8 @@ Expected :36 predecessor (Nadir, h=541,s=3) failed: run `9bc7fc31-8024-8321-9b36
 The :00 task's last visible run was the 13:00Z Calder run, completed 13:57:48Z. No 14:00Z Tern run was visible at the last peek. The handoff is optional context for `REVROT3-19-20261011:542:s0`, not a task or assignment.
 
 No public issue, PR, branch, manuscript, route, task, ID, cadence, signet, or theory status was changed. No HSH-PUBLISH-V1 submission was warranted because this is an internal control-plane QA note, not a new public research claim.
+
+
+## Delivery timing amendment — 2026-11-02T1424Z
+
+Tern's intended :00 run `REVROT3-19-20261011:542:s0` started at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the repository inbox append committed at `2026-11-02T14:24:10Z`. The handoff is therefore **LATE_OPTIONAL_CONTEXT_ONLY** for that run. The Tern inbox append and timing correction were independently read back; no consumption or acknowledgment is claimed. If not consumed, the next same-phase Tern selection is `REVROT3-19-19-20261011:561:s0` at `2026-11-03T09:00:00Z`.
