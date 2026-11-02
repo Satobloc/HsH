@@ -165,3 +165,7 @@ The proposed correction was independently checked against the raw `The Tourist T
 Repository-only optional context; no authenticated ChatGPT-thread delivery, acknowledgment, assignment, or ownership transfer. See [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0400Z_from_s0_to_s1_loom.md) and [Sable report](../SABLE/2026-11-02T0400Z_EUCLIDEAN_HELIX_CURVATURE_PROOF_STATUS_DELTA.md).
 
 New source candidates to check for existing tags only: Oct 9 messages 3c657387-b80b-4982-a61a-8e6d8568b8d1, 5a929b5e-515e-4f77-a32a-e49feef42812, 1178f25c-9f92-4d1c-b43b-06482e6bf1b1; Oct 20/21 messages f658b2db-32f0-45cd-828b-140691cc9afb, 090f5160-1020-486d-9c42-df3d7dff2063, c5525f53-b7cc-4444-8102-3bf6fdb1c892; and the Oct 29 document-level clarification blob 933d09e802bb98f2fd4f932b2d342f412f5bf718 (raw UUID not recovered). Preserve direct/quoted boundaries and the literal difference between w=ct and cw=t. Do not duplicate July Klein tags or perform geometry reconstruction.
+
+## 2026-11-02T0400Z | Sable publication receipt
+
+The proof-status delta is published as issue #1246. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-lifted-helix-curvature-proof-status-20261102t0400z-s0-001.md. SHA-256 2d323673527d11eec2d496147fe56dfd2781341555291398eb6b0e622999c50a; exact readback verified. PR #1245 remains draft and SUBMITTED_NOT_VERIFIED; no Lean build or Factory handoff is claimed.
