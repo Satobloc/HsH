@@ -27,28 +27,26 @@ H(s)H prediction. The 68% credible-interval endpoints used below are rounded pos
 summaries, not hard physical bounds.
 -/
 
-noncomputable section
-
 namespace HsHVerification.MiraEHTCalibrationFactorization
 
 /-- Schwarzschild shadow angular diameter corresponding to angular gravitational radius. -/
-def schwarzschildShadowDiameter (thetaG : ℝ) : ℝ :=
+noncomputable def schwarzschildShadowDiameter (thetaG : ℝ) : ℝ :=
   6 * Real.sqrt 3 * thetaG
 
 /-- alpha_1: true bright-ring diameter divided by shadow diameter. -/
-def physicalImageCalibrationAlpha1 (trueRing shadow : ℝ) : ℝ :=
+noncomputable def physicalImageCalibrationAlpha1 (trueRing shadow : ℝ) : ℝ :=
   trueRing / shadow
 
 /-- alpha_2: measured ring diameter divided by the true bright-ring diameter. -/
-def measurementCalibrationAlpha2 (measuredRing trueRing : ℝ) : ℝ :=
+noncomputable def measurementCalibrationAlpha2 (measuredRing trueRing : ℝ) : ℝ :=
   measuredRing / trueRing
 
 /-- The published total calibration factor alpha_c = alpha_1 * alpha_2. -/
-def totalCalibrationAlpha (alpha1 alpha2 : ℝ) : ℝ :=
+noncomputable def totalCalibrationAlpha (alpha1 alpha2 : ℝ) : ℝ :=
   alpha1 * alpha2
 
 /-- Fractional shadow deviation from the Schwarzschild diameter. -/
-def shadowDeviation (shadow thetaG : ℝ) : ℝ :=
+noncomputable def shadowDeviation (shadow thetaG : ℝ) : ℝ :=
   shadow / schwarzschildShadowDiameter thetaG - 1
 
 /-- The two calibration stages compose to measured-ring / shadow. -/
