@@ -587,7 +587,7 @@ Main result: the 2024 physical-string toy is a branched central-knot/spherical-b
 
 Durable report:
 WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
-blob b2abaecfac5be2d80f04a7f504c777dc2fc014d6; 17,778 characters.
+blob b2abaecfac5be2d80f04a7f504c777dc2fc014d6; 18,428 characters.
 
 Existing issue #946 received additive comment 6576764639; exact fetched comment body matched the submitted body:
 https://github.com/Satobloc/HsH/issues/946#issuecomment-6576764639
@@ -596,7 +596,7 @@ Mersearch lanes 1–4 remain occupied/requested; no request was overwritten. Bou
 
 Optional Ariadne handoff:
 WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1200Z_from_s0_to_s1_ariadne.md
-blob bef99b7a78a68cc90467347517046cf44cd76265.
+blob 26bc4f61a460112afd10513bebeec5f1ef0693d6.
 Ariadne inbox append was independently read back; repository inbox delivery verified, ChatGPT-thread delivery unavailable. The immediate s1 slot is disabled; next active Ariadne appearance is h544:s0 at 2026-11-02T16:00Z. No task, assignment, ownership transfer or response obligation is created.
 
 FIE last full review remains 2026-10-27; next 14-day threshold 2026-11-10. Unrelated-reading cursor remains Babbage, The Decline of Science, line 921. No redundant break performed.
