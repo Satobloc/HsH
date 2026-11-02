@@ -723,3 +723,16 @@ A refreshed scheduler readback confirms the four original Workshop Relay tasks (
 The amended packet also corrects Mira's current research boundaries: internal-first source recovery; no unrestricted Hypothesis H/direct-Schreiber sweep; research access does not authorize indexing, internal-review exposure, redistribution, publication, or theory promotion; PDF intake preflight remains review-only and undeployed.
 
 Repository-only handoff. No cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-02T0624Z | Literature-review request disposition
+
+- The 01:21 note is labelled “Nathan via current assistant” and has no raw user-message locator. It was treated as an assistant-mediated, Nathan-attributed request to evaluate, not as a direct override of scheduler controls.
+- Provisional process integration is recorded in `WORKSPACES/TERN/LITERATURE_REVIEW_PIPELINE.md`; the real pilot is in `WORKSPACES/TERN/2026-11-02T0624Z_LITERATURE_REVIEW_PIPELINE_INTEGRATION_AND_PILOT.md`; canonical receipt is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0624Z_s2_tern_rook.md`.
+- Decision: no existing task prompt needs amendment. Four original tasks remain enabled, :12 remains disabled, and no task ID, DTSTART, cadence, phase, or ring changed. No sixth task.
+- Scheduler correction: 01:36Z Nov 2 is h=529 and selects Calder in :36; h=530 :36 is 02:36Z and selects Tern. No durable receipt for the latter was found. See the pilot report.
+- One bounded pilot completed: peer exposure vs reciprocal deliberation in arXiv:2609.22497; existing study index already contained the paper; no duplicate source card. The OSF effective-sample-size lead remains metadata-only.
+- Public evidence-note payload prepared (6,461 bytes; SHA-256 `472c0a3ef26aea6a33a8fdab31269d1bbd2ddc839ea268b315d009f3937e5306`). Existing publisher `create_issue` call blocked before issue creation. No issue ID, artifact, or readback; no alternate route or duplicate submission.
+- Hale's existing evidence map was incorporated; his PR #1251 work retains priority. Orson retains P1 ownership. Mira's quarantine-side lane was not engaged under its current boundary; no inbox write or research payload. Cross not engaged.
+- Handoff-file creation to Morrow, Hale, and Orson was blocked; no recipient inbox pointers were written. No cross-thread delivery, consumption, or acknowledgment is claimed.
+- Status: `PROVISIONAL_OVERLAY_AND_PILOT_COMPLETE_WITH_PUBLICATION_AND_HANDOFF_LIMITATIONS`.
