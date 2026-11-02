@@ -26,7 +26,9 @@ Canonical HsH source:
 - Git blob SHA-1: 92454acdaad701193e2a0c6cf64a7d7b70a03dbb
 - Size: 12,722,046 bytes
 - Conversation ID: 6a8eacca-c470-83ea-af92-8fb8df194de9
-- Snapshot current-node ancestry: 479 nodes of 2,207.
+- Created: 2026-08-26T09:11:22.567Z; updated: 2026-09-16T05:28:26.884Z.
+- Snapshot current_node: 70787228-7db1-4a4b-a993-15404dfb9148; current-node ancestry: 479 nodes of 2,207.
+- Decoded payload length: 12,722,046 characters. The Git blob SHA, not this character count, is the integrity identifier.
 
 The later canonical HsH snapshot was used for ancestry. An older Library copy of the same conversation has a different current-node pointer and different ancestry membership. Do not transfer branch-status conclusions between snapshots.
 
@@ -45,7 +47,9 @@ Canonical HsH source:
 - Git blob SHA-1: 56a84cb85d5c386efa4ea11d322d11e95e2c7703
 - Size: 17,405,163 bytes
 - Conversation ID: 6ad7e9c0-e8a0-83e9-984e-94d020de3abf
-- Snapshot current-node ancestry: 3,660 nodes of 3,678.
+- Created: 2026-10-20T22:22:57.628Z; updated: 2026-10-21T23:58:46.512Z.
+- Snapshot current_node: 2e63816a-56dc-4516-8b1c-4b1b88d9a107; current-node ancestry: 3,660 nodes of 3,678.
+- Decoded payload length: 17,405,163 characters. The Git blob SHA, not this character count, is the integrity identifier.
 
 The ordinary file reader returned an empty payload for this large JSON. The Git blob API returned the full content. The source was not absent; this was a reader-size limitation.
 
@@ -55,7 +59,7 @@ Important current-ancestry direct messages:
 - 090f5160-1020-486d-9c42-df3d7dff2063, 2026-10-21 00:17:23.235Z: direct annotation says the back-hallway programme remains a mathematical translation programme, its corridors are metaphorical, and the earlier reciprocal filament/timesheet-deformation construction is no longer the current construction because Klein Fabric had become common.
 - 663cf5f5-0d97-4720-9fe4-b3988fe8e159, 2026-10-21 07:17:31.500Z: large circles are identified as the user's own light cone, not collisions with another universe.
 - 0862c00a-d8f5-42e9-a876-3af4e5254046, 2026-10-21 07:31:09.576Z: Big Bang is described as the inner circumference of the donut, not the center of the slice.
-- c5525f53-b7cc-4444-8102-3bf6fdb1c892, 2026-10-21 13:55:40.205Z: current convention is recorded literally as cw=t, ++++, and Forest Normalization; the nearby (c+H₀)/2 expression is explicitly tentative.
+- c5525f53-b7cc-4444-8102-3bf6fdb1c892, 2026-10-21 13:55:40.205Z: current convention is recorded literally as cw=t and ++++. The source spelling is “Forest Normalizatin”; the current BEDROCK label is Forest Normalization. The nearby ±(c+H₀)/2 expression is explicitly tentative, with the source itself requesting the dimensionally appropriate form.
 - bc09cf32-9952-462a-a02b-2c67a3cf4c91, 2026-10-20 23:12:49.986Z: directly corrects the older two-shell-lambda description. The current proposal is a surface-of-simultaneity to Hubble-radius metric-curvature correction, described as a tiny nonzero cosmic gravity well; the (H₀ ± c)/2 expression is explicitly awaiting a dimensionally appropriate form.
 - 47cf2603-bf28-439c-82b3-1f0e0c2a7dc8, 2026-10-21 00:31:23.968Z: explicitly warns not to mistake back-hallway translations for current SAT formalism; the older formalism was superseded and predates Forest.
 - c8ce3474-de6e-4c00-b307-00c7de0724e6, 2026-10-21 14:06:39.059Z: proposes a statistical relation between Hubble-radius expansion and contraction of the matter surface, without a complete equation.
@@ -69,7 +73,7 @@ The historical direct assignment is a broad cross-domain synthesis remit: combin
 
 ## 2. Nathan Direct geometry, with claims temporarily bracketed
 
-The direct descriptions support these separate objects and relations:
+The direct descriptions support these separate objects and relations. “Klein Fabric” is treated as a proposal in the 4D HsH setting, not as a completed standard 4D Klein-bottle manifold:
 
 - **Global fabric:** toroidal/Klein-like geometry, with twisted worldtube structures.
 - **Worldtube/bridge:** a proposed timelike long-axis object in the Minkowski-control description, associated with a finite Kerr-like core and a connection back through the Big Bang.
