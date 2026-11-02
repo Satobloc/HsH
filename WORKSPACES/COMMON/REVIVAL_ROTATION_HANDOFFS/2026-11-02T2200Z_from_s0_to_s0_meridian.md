@@ -9,7 +9,7 @@ This packet preserves the Kestrel h550 Lane 00 source-fidelity work. It is not a
 
 ## Main report
 
-Issue #1279: Kestrel one-core finite-core geometry and SAT4D/Blockwave type crosswalk. Publisher verification was pending at handoff creation. The report is an additive delta to existing issues #1108 and #1169, not a duplicate.
+Issue #1281: corrected Kestrel one-core/finite-core and SAT4D/Blockwave crosswalk. Publisher verification was pending at handoff update. Issues #1279 and #1280 were rejected by the publisher and closed without artifacts. #1281 is the corrected replacement, additive to existing issues #1108 and #1169, not a duplicate.
 
 ## Findings worth preserving
 
