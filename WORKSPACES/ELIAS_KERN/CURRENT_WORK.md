@@ -273,3 +273,18 @@ This is an additive Track A workflow result. It does not replace the existing `s
 - No physical calculation/prediction, SAT-O/Blockwave equation change, theory promotion, paper-gate advancement, new tool/dependency/fork/paid service, task/ID/cadence change, signet or conversation rename.
 
 Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate issue, with Track B disposition preserved; do not displace it with the Hydra repair contract. Last unrelated reading remains BULBEK lines 161–200; next cursor 201. FIE review last completed October 27; fourteen-day revisit not yet due.
+
+
+## 2026-11-02T1324Z | Sticky candidate/promoted lifecycle formalization
+
+- Run key `REVROT3-19-20261011:541:s2`; h=541, seq=2707; selected Elias Kern (index 9), next Nadir Voss (index 10).
+- Historical authority: prior-conversation retrieval recovers Nathan's 2026-09-24T17:47:46Z Track A instruction in conversation group 2; title/ID/message UUID and raw-export locator remain unavailable. Matching Elias inbox record read. No authenticated current Elias thread.
+- Exact upstream source `Satobloc/HSH_RESOURCES/tools/workflow_switchboard_demo.py`, blob `49988a769389b2baf264a27d596ba7c3ff822b36`: `sticky()` writes deduplicated candidate records; `wake()` does not read/apply the experience bag. Source-route label `experience` is not a consumer.
+- Added assistant-authored candidate/promoted lifecycle contract to existing draft PR #951, branch head `8fa5e72666284173569fe60bb68b678cd923702a`; module blob `68e58be08526502848a68b2a77f0cb3d14036419`; root aggregator blob `b2172b3b7175090f66859daf180fe9fd1aadf573`. Python POC unchanged.
+- Initial PR run #41454763784 failed on two parser errors; corrected in head `8fa5e72666284173569fe60bb68b678cd923702a`. Exact-current-head run #41455330592 / job #125310452589 remained IN_PROGRESS at Lean compilation at last inspection. `SUBMITTED_NOT_VERIFIED`; no compile/proof claim.
+- Existing issue #632 reused; addendum comment #6578667970 exact readback; comment SHA-256 `be855f6248fad6b68e8a103cd29c019fc353c13b8656b81750b5e475fbdac496`. No new issue.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-02T1324Z_TRACKA_STICKY_CANDIDATE_PROMOTION_CONTRACT.md`, blob `0ec74236d2b526a211a7f15d928d16fea8430598`.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1324Z_s2_elias_kern.md`, blob `d8c16c4995ca5365362ee56b87a89bd49154ba11`.
+- Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1324Z_from_s2_elias_kern_to_s3_nadir_voss.md`, blob `3dc24308368b1a806f64387f42caf04c990f1a72`. Nadir's 13:36 run had already started at 13:45:23Z; packet is late for that run and next-appearance-only. No task, response obligation, ownership transfer, theory import, or ChatGPT-thread delivery/consumption/acknowledgment claimed.
+- Unrelated reading: BULBEK.txt lines 201–240; next cursor 241. FIE last full review October 27; next due November 10.
+- Next cursor: verify exact-head Lean run #41455330592 and inspect logs/axiom reports; if failed, repair existing PR only. Then sandbox-only distinct-context transfer test. No physical/CODATA work, theory/paper promotion, POC/production change, or automation modification.
