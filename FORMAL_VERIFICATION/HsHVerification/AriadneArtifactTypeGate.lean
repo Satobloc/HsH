@@ -305,7 +305,7 @@ theorem tos_s1_script_section_supports_character_labels :
 
 theorem tos_s1_script_section_supports_bundle_integrity :
     supports tosSeasonOneScripts .bundleSectionIntegrity := by
-  rfl
+  constructor <;> rfl
 
 theorem tos_s1_script_section_not_outer_role_attributed :
     ¬ supports tosSeasonOneScripts .outerRoleAttribution := by
