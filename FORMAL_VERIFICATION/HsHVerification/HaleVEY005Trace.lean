@@ -147,10 +147,7 @@ theorem intended_target_fetch_follows_final_clarification :
 theorem connector_action_partition :
     githubConnectorActions = 25 ∧
     externalToolCallsInWindow = 33 := by
-  norm_num [githubConnectorActions, externalToolCallsInWindow,
-    githubSearchCalls, githubCommitSearchCalls, githubFetchCalls,
-    installedRepositoryEnumerations, githubFetchFileCalls,
-    githubResourceListCalls, webCallsInWindow]
+  decide
 
 theorem measured_millisecond_delays :
     initialCueToCorrectFetchMs = 351128 ∧
@@ -158,11 +155,7 @@ theorem measured_millisecond_delays :
     explicitCorrectionToCorrectFetchMs = 169155 ∧
     finalClarificationToCorrectFetchMs = 8400 ∧
     finalClarificationToInterpretationMs = 17082 := by
-  norm_num [initialCueToCorrectFetchMs,
-    explicitCorrectionToWrongFetchMs,
-    explicitCorrectionToCorrectFetchMs,
-    finalClarificationToCorrectFetchMs,
-    finalClarificationToInterpretationMs, eventTime]
+  decide
 
 #eval traceTimes
 #eval observedHumanTurns
