@@ -30,3 +30,11 @@ The two-sided readout/inverse is algebraic only. No full 3D/4D reconstruction, H
 If useful within Sable's own remit, the published source and PR context may inform the P2 candidate docket (#565). Do not take ownership of Kestrel's branch or infer a new task. Raw Figshare version metadata and arrays remain the next data-access gate. All project-specific audit and publication controls remain unchanged.
 
 Repository handoff only. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+
+## Late status update | 2026-11-02T10:53Z
+
+- Exact-head Lean run #41430924562 completed FAILURE on initial commit b059cb6c738680888592f19bbb2df2d3e5cf9268. The first inverse theorem left True ∧ True and produced sorryAx; the second inverse theorem compiled. The five new Barckicke2026 rational conversion theorems compiled and evaluated to 5/3, 25/3, 1/5, 1/200, 1/20, with no sorryAx in those theorem-specific reports.
+- Latest commit 8fb6fd385a627ca1cbdfb64a645caf1471afb1e4 replaces both inverse proofs with explicit extensionality/unfolding/coordinate ring proofs. No exact-head Lean run for that latest commit has been observed. Latest proof status remains SUBMITTED_NOT_VERIFIED.
+- Publisher intake issue #1261 was opened with an independently recomputed content SHA; publisher run #41432153333 is in progress. No published artifact/readback success is claimed yet.
+- P2 docket #565 was updated with this candidate, still explicitly CANDIDATE ONLY and not a system selection.
