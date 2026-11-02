@@ -131,3 +131,124 @@ theorem q24_7_charge_relative_error_lt_one_fortieth :
 #print axioms q24_7_charge_relative_error_lt_one_fortieth
 
 end HsHVerification.RavelHelionJLabE04018
+
+
+/-!
+## Standard Rosenbluth measurement-map contract
+
+Source: Camsonne et al., Phys. Rev. Lett. 119, 162501 (2017), accepted-manuscript
+Eqs. (2)-(4). This is the standard one-photon spin-1/2 measurement layer, not
+an H(s)H worldtube-to-current map. The formalization proves only the algebraic
+identity and identifiability statements below; it does not validate source
+transcription, the inferred magnetic-moment unit convention, or any physical
+premise.
+-/
+
+namespace HsHVerification.RavelHelionRosenbluth
+
+/-- Standard Rosenbluth A coefficient for normalized charge/magnetic form factors. -/
+def structureA (fc fm mu tau : ℝ) : ℝ :=
+  (fc ^ 2 + mu ^ 2 * tau * fm ^ 2) / (1 + tau)
+
+/-- Standard Rosenbluth B coefficient for normalized charge/magnetic form factors. -/
+def structureB (fm mu tau : ℝ) : ℝ :=
+  2 * tau * mu ^ 2 * fm ^ 2
+
+/-- Virtual-photon polarization, written using tan²(theta/2) as an input. -/
+def epsilonFromTauAndTanSq (tau tanSq : ℝ) : ℝ :=
+  1 / (1 + 2 * (1 + tau) * tanSq)
+
+/-- Reduced one-photon cross-section readout. -/
+def reducedSigma (fc fm mu tau epsilon : ℝ) : ℝ :=
+  fc ^ 2 + mu ^ 2 * tau / epsilon * fm ^ 2
+
+/-- The source A/B expression reduces to the standard linear Rosenbluth form. -/
+theorem reduced_sigma_from_A_B
+    (fc fm mu tau tanSq : ℝ)
+    (hTau : 1 + tau ≠ 0)
+    (hDenom : 1 + 2 * (1 + tau) * tanSq ≠ 0) :
+    (1 + tau) *
+        (structureA fc fm mu tau + structureB fm mu tau * tanSq)
+      = reducedSigma fc fm mu tau (epsilonFromTauAndTanSq tau tanSq) := by
+  unfold structureA structureB reducedSigma epsilonFromTauAndTanSq
+  field_simp [hTau, hDenom] <;> ring
+
+/-- The reduced readout is invariant under a charge-form-factor sign flip. -/
+theorem reduced_sigma_sign_flip_charge
+    (fc fm mu tau epsilon : ℝ) :
+    reducedSigma fc fm mu tau epsilon =
+      reducedSigma (-fc) fm mu tau epsilon := by
+  unfold reducedSigma
+  ring
+
+/-- The reduced readout is invariant under a magnetic-form-factor sign flip. -/
+theorem reduced_sigma_sign_flip_magnetic
+    (fc fm mu tau epsilon : ℝ) :
+    reducedSigma fc fm mu tau epsilon =
+      reducedSigma fc (-fm) mu tau epsilon := by
+  unfold reducedSigma
+  ring
+
+/-- If the magnetic form factor is nonzero, its sign is not identified by this readout. -/
+theorem signed_magnetic_form_factor_not_identifiable
+    (fc fm mu tau epsilon : ℝ) (hfm : fm ≠ 0) :
+    (fc, fm) ≠ (fc, -fm) ∧
+      reducedSigma fc fm mu tau epsilon =
+        reducedSigma fc (-fm) mu tau epsilon := by
+  constructor
+  · intro hPair
+    have hSign : fm = -fm := congrArg Prod.snd hPair
+    apply hfm
+    linarith
+  · exact reduced_sigma_sign_flip_magnetic fc fm mu tau epsilon
+
+/-- The linearized Rosenbluth readout for (F_C², F_M²). -/
+def rosenbluthLine (chargeSquare magneticSquare x : ℝ) : ℝ :=
+  chargeSquare + x * magneticSquare
+
+/-- Two distinct Rosenbluth abscissae identify the two squared coefficients. -/
+theorem two_point_identifiable_of_distinct_abscissae
+    (x1 x2 : ℝ) (h : x1 ≠ x2) :
+    Function.Injective
+      (fun p : ℝ × ℝ =>
+        (rosenbluthLine p.1 p.2 x1, rosenbluthLine p.1 p.2 x2)) := by
+  intro p q hPair
+  have h1 : p.1 + x1 * p.2 = q.1 + x1 * q.2 :=
+    congrArg Prod.fst hPair
+  have h2 : p.1 + x2 * p.2 = q.1 + x2 * q.2 :=
+    congrArg Prod.snd hPair
+  have hx : x2 - x1 ≠ 0 :=
+    sub_ne_zero.mpr (Ne.symm h)
+  have hdet : (x2 - x1) * (p.2 - q.2) = 0 := by
+    nlinarith [h1, h2]
+  have hSecond : p.2 = q.2 := by
+    rcases mul_eq_zero.mp hdet with hLeft | hRight
+    · exact False.elim (hx hLeft)
+    · exact sub_eq_zero.mp hRight
+  have hFirst : p.1 = q.1 := by
+    nlinarith [h1, hSecond]
+  exact Prod.ext hFirst hSecond
+
+/-- One Rosenbluth point cannot identify both squared form-factor coefficients. -/
+theorem one_point_not_identifiable (x : ℝ) :
+    ¬ Function.Injective
+      (fun p : ℝ × ℝ => rosenbluthLine p.1 p.2 x) := by
+  intro hInjective
+  have hReadout :
+      rosenbluthLine 0 0 x = rosenbluthLine (-x) 1 x := by
+    unfold rosenbluthLine
+    ring
+  have hPair :
+      ((0 : ℝ), (0 : ℝ)) = (-x, 1) :=
+    hInjective (0, 0) (-x, 1) hReadout
+  have hSecond : (0 : ℝ) = 1 := congrArg Prod.snd hPair
+  norm_num at hSecond
+
+end HsHVerification.RavelHelionRosenbluth
+
+#print axioms HsHVerification.RavelHelionRosenbluth.reduced_sigma_from_A_B
+#print axioms HsHVerification.RavelHelionRosenbluth.reduced_sigma_sign_flip_charge
+#print axioms HsHVerification.RavelHelionRosenbluth.reduced_sigma_sign_flip_magnetic
+#print axioms HsHVerification.RavelHelionRosenbluth.signed_magnetic_form_factor_not_identifiable
+#print axioms HsHVerification.RavelHelionRosenbluth.two_point_identifiable_of_distinct_abscissae
+#print axioms HsHVerification.RavelHelionRosenbluth.one_point_not_identifiable
