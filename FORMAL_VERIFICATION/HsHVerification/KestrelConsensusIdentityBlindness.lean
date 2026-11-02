@@ -239,13 +239,16 @@ change. -/
 def partition33Relabelled : Fin 6 → Fin 3 :=
   fun i => if i.val < 3 then 2 else 0
 
+/-- Explicit executable enumeration of the already-declared Fin 6 domain. -/
+def fin6Indices : List (Fin 6) := [0, 1, 2, 3, 4, 5]
+
 /-- Computable finite check of pairwise identity-partition equality on Fin 6.
-This executable Boolean fold avoids asking Lean to synthesize a Decidable
-instance for a proposition-valued universal quantifier in #eval. -/
+The list is the concrete enumeration of the existing six-element domain;
+the predicate compares decidable label equalities directly. -/
 def sameIdentityPartitionBool6 (f g : Fin 6 → Fin 3) : Bool :=
-  (Finset.univ.toList).all fun i =>
-    (Finset.univ.toList).all fun j =>
-      decide (identityAgreement f i j ↔ identityAgreement g i j)
+  fin6Indices.all fun i =>
+    fin6Indices.all fun j =>
+      (decide (f i = f j)) == (decide (g i = g j))
 
 #eval sameIdentityPartitionBool6 partition33 partition33Relabelled
 #eval sameIdentityPartitionBool6 partition33 partition411
