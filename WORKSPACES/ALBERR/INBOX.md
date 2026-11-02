@@ -168,4 +168,6 @@ The supplement corrects the earlier pending PR #790 CI status: exact-head run #4
 - disposition: `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
 - delivery: repository inbox append only; no authenticated ChatGPT thread delivery, consumption or acknowledgment claimed.
 
+Existing Ariadne PR #676 source-gate status was also checked: Actions #41056801972 succeeded as a merge-reference build (8,943 jobs, Lean 4.34.0 / Lake 5.0.0), not exact-head-only. Axiom audit/tests/lint skipped; the source-gate chronology and lineage theorems remain conditional on unverified timestamp and publication assumptions. Review comment #6588096219: https://github.com/Satobloc/HsH/pull/676#issuecomment-6588096219. No code change or action requested.
+
 Alberr's autonomy-preserving reentry signal remains controlling. This is a pointer only; ignore or defer it, or follow any self-chosen curiosity. No productivity quota, assignment, deadline or response is requested.
