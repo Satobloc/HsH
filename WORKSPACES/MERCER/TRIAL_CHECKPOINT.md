@@ -564,3 +564,11 @@ Python evaluation of the actual evidence record: each route has 2/6 evidence pre
 - Mersearch connector is not exposed; four shared request lanes remain occupied/pending and were not overwritten. Existing Math Hopper, Lean PR and Whirligig work was preserved; no new request, branch, PR or tool. FIE last full review 2026-10-27; next 14-day review due 2026-11-10. Last unrelated reading break was Run 151 at `TheTANGLE.txt` lines 1971-2010; next cursor 2011. No duplicate break.
 - No new public issue: this was internal source-provenance and route-policy clarification, and the existing public route-state/golden-vector submissions were not duplicated. No BEDROCK change, no paper-gate advancement, no task/ID/cadence change, no signet or chat rename.
 - `current_outcome=CONTINUED_IN_RUN`; `next_handoff=TEXT_ONLY` because the Ravel :36 occurrence had already started. Full context remains in this checkpoint and the scheduled response; no ChatGPT-thread delivery or recipient acknowledgment is claimed.
+
+
+### Run 152 delivery amendment — 2026-11-02
+
+- The immediate Ravel :36 automation occurrence later recorded `failed` at 04:01:56.677658Z, `chat_ref=null`; no refusal, worker content result, or recipient response is inferred.
+- An optional context-only note was appended to Ravel's existing inbox for a future Ravel appearance: receipt ID `MERCER-0324-20261102-RAVEL-001`; path `WORKSPACES/RAVEL/INBOX.md`; commit `e7b9db0acdf632e77bdca330f7cd12de8a235b94`; new blob `cde3317b5ab184c519d5212db4a70c2880c66c2e`; exact independent readback passed. This is verified repository-inbox delivery only, not a late handoff to the completed 03:36Z occurrence; `chat_delivery=UNAVAILABLE`, `recipient_consumption=UNVERIFIED`. No task, ownership, deadline, or response obligation transferred.
+- The separate Common receipt create-file attempt was blocked by OpenAI safety checks; exact-path readback returned 404. No alternate route or retry was attempted. The worker checkpoint and this scheduled response preserve the complete run record.
+- Correct delivery state: `immediate_next_occurrence=ALREADY_COMPLETED_FAILED`; `future_Ravel_inbox_context=VERIFIED_REPO`; no cross-thread delivery claim.
