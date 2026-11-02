@@ -365,3 +365,12 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - No CODATA scoring, physical calculation, invented physical fixture, independent measurement, BEDROCK edit, or theory promotion. No paper gate advanced. Orson cognition allocation remains protected.
 - FIE remains due November 10. Last unrelated reading was TheTANGLE lines 1561-1600; next cursor 1601, so no redundant break was performed.
 - Next cursor: await the existing Mersearch request; clarify support dimension of “4D filament”; define centerline-to-core and global-to-local maps with domains, codomains, fiber conditions, and composition laws; reconcile current normalization/metric with historical Lorentzian SAT4D/Blockwave representations.
+
+
+### 2026-11-02T2225Z | Publication payload repair
+
+- Initial issue #1279 was rejected by the publisher as `invalid schema` (run #41536408036, comment #6589944778); it was closed without an artifact.
+- Issue #1280 used the correct schema but the submitted content retained JSON-string chunk markers; publisher rejected it as `SHA-256 mismatch` (run #41536862812, comment #6590011232). It was closed without an artifact.
+- Corrected issue #1281 contains the decoded Markdown content and matching SHA-256 `96d49bcc2371ca2220af499a5e88838674b5ef6c2932816561b977b0f547d5cc`. Publisher run #41537057388 was still in progress at this update. No artifact verification is claimed yet.
+- PR #873 received publication correction comment #6590036369; earlier comment #6589930018 linked the rejected #1279 and is superseded by the correction.
+- The Common Kestrel-to-Meridian handoff was updated to point to #1281 and note the two rejected attempts. Meridian still has no INBOX.md; no inbox or ChatGPT-thread delivery is claimed.
