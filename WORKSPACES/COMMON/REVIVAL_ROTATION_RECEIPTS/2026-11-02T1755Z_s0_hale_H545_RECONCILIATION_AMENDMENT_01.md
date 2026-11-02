@@ -80,7 +80,7 @@ This is an additive source comparison, not a new equation promotion. It prevents
 | `SATOBLOC/SAT O1 4D.txt` | Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; 3,521 characters | Unbylined; no internal date. Ravel's state records first extant SAT-archive observation at 2025-10-27T00:40:28Z; that is not a creation date. |
 | `SAT O Core Modules/SAT.O Official Directives.txt` | Git blob `167136310cdf33ca8f986f33634692314c1a0946` | Document-internal date July 2025; no raw message UUID or byline recovered. |
 | `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt` | Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 24,627 characters, 384 lines | No internal date. First extant HsH Git observation recorded in Ravel STATE as 2026-10-08T02:42:49Z; not the file's creation date. |
-| September 16, 2025 SAT conversation | Conversation `68c990dd-df28-832e-b766-c267190aaffa`; raw blob `c0a26b8375c88c845ebd8cfe9b14516992ccc99d) | Assistant message `593c65e5-1947-4df5-9c82-840afd6564fb`, 16:31:33.446Z, says the user uploaded four files including BLOCKWAVE.txt. The attachment ID recorded in the Enheduanna source census is `file-LwaFTKkMemPPrLU4qCLpYB`. This proves user-supplied attachment status, not the embedded author's identity. |
+| September 16, 2025 SAT conversation | Conversation `68c990dd-df28-832e-b766-c267190aaffa`; raw blob `c0a26b8375c88c845ebd8cfe9b14516992ccc99d | Assistant message `593c65e5-1947-4df5-9c82-840afd6564fb`, 16:31:33.446Z, says the user uploaded four files including BLOCKWAVE.txt. The attachment ID recorded in the Enheduanna source census is `file-LwaFTKkMemPPrLU4qCLpYB`. This proves user-supplied attachment status, not the embedded author's identity. |
 | October 19, 2025 Full action definitions conversation | Conversation `68f4d9b5-b908-832e-940e-6782db174a4a`; raw blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77` | Assistant message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`, 12:29:46.538Z, reprints a normalized action while saying it was compiled from user sources. This is a later assistant reproduction, not the original creation event. |
 
 ### SAT-O O1: preserved verbatim source equations
@@ -92,11 +92,11 @@ The unbylined O1 artifact states:
 - Its displayed Lagrangian is `L = \frac12 m v^\mu v_\mu - V_{\text{tension}}(\gamma)`.
 - Its explicit definition of worldtube is “The 4D volume swept out by the vibrating filament.”
 
-The July 2025 Official Directives separately say that SAT.O is a 4D differentiable manifold (M) populated by 1D filaments, and that derived behavior must emerge from filament geometry and intersection with a propagating 3D wavefront (Sigma_t\subset M). The directives explicitly classify everything outside the clean core as tentative. These are document-level sources, not authenticated direct-message equations.
+The July 2025 Official Directives separately say that SAT.O is a 4D differentiable manifold `M` populated by 1D filaments, and that derived behavior must emerge from filament geometry and intersection with a propagating 3D wavefront `Sigma_t ⊂ M`. The directives explicitly classify everything outside the clean core as tentative. These are document-level sources, not authenticated direct-message equations.
 
 ### Blockwave: exact source versus assistant normalization
 
-The Blockwave attachment defines (J^{\mu\nu}) as a conserved two-form “filament worldsheet” current:
+The Blockwave attachment defines `J^{\mu\nu}` as a conserved two-form “filament worldsheet” current:
 [
 J^{\mu\nu},\qquad \nabla_\mu J^{\mu\nu}=0.
 ]
@@ -108,10 +108,10 @@ Its original action is preserved verbatim in the source file. The source contain
 - `J{\mu\nu}\,\mathcal{M}^{\mu\nu}{}{\rho\sigma}\,J^{\rho\sigma}` in the response term.
 
 The October 19 assistant re-output normalizes them to:
-- (P^\mu{}_{\nu}=\delta^\mu{}_{\nu}+u^\mu u_\nu);
-- ((\nabla_\alpha u_\mu)(\nabla_\beta u_\nu));
-- (lambda(u^\mu u_\mu+1));
-- (J_{\mu\nu}\mathcal{M}^{\mu\nu}{}_{\rho\sigma}J^{\rho\sigma}).
+- `P^\mu{}_{\nu}=\delta^\mu{}_{\nu}+u^\mu u_\nu`;
+- `(\nabla_\alpha u_\mu)(\nabla_\beta u_\nu)`;
+- `\lambda(u^\mu u_\mu+1)`;
+- `J_{\mu\nu}\mathcal{M}^{\mu\nu}{}_{\rho\sigma}J^{\rho\sigma}`.
 
 Those normalized forms are an **assistant transcription/repair**, not a source-preserving correction accepted by Nathan. The original malformed source and the later normalized output must remain separately available.
 
@@ -127,34 +127,34 @@ The three artifacts describe different support objects:
 
 | Object | Dimension in 4D ambient space | Source |
 |---|---:|---|
-| O1 filament centerline (gamma) | 1 | SAT-O O1 |
-| Blockwave worldsheet represented by (J^{\mu\nu}) | 2 | Blockwave attachment |
+| O1 filament centerline `gamma` | 1 | SAT-O O1 |
+| Blockwave worldsheet represented by `J^{\mu\nu}` | 2 | Blockwave attachment |
 | O1 swept worldtube / proposed finite core | 4 | SAT-O O1 |
-| Timesheet (Sigma_t) | 3 | SAT.O directives |
+| Timesheet `Sigma_t` | 3 | SAT.O directives |
 
 Under the **conditional transversality** hypothesis, intersection dimensions are:
-[
+$
 \dim(\gamma^1\cap\Sigma^3)=1+3-4=0,
-\]
-[
+$
+$
 \dim(W^2\cap\Sigma^3)=2+3-4=1,
-\]
+$
 [
 \dim(\mathcal{T}^4\cap\Sigma^3)=4+3-4=3.
 ]
 
 Thus a 1D centerline gives point readout; a 2D worldsheet gives curve/loop readout; a 4D finite core with interior gives a 3D region readout. These are not interchangeable.
 
-The Blockwave “string as record/trace” construction explicitly uses (W^2\cap\Sigma^3\to\gamma^1_{\rm trace}). It does not define the map from the O1 1D physical filament to the 2D worldsheet current, nor the thickening from that worldsheet to the O1 4D swept worldtube. A possible chain
+The Blockwave “string as record/trace” construction explicitly uses `W^2 ∩ Sigma^3 → gamma^1_trace`. It does not define the map from the O1 1D physical filament to the 2D worldsheet current, nor the thickening from that worldsheet to the O1 4D swept worldtube. A possible chain
 [
 \gamma^1_{\rm spatial}\xrightarrow{\rm time\ evolution}W^2
 \xrightarrow{\rm finite\ core\ thickening}\mathcal{T}^4
 ]
 is only a **candidate construction**, not a recovered Nathan Direct map.
 
-The existing Enheduanna source-stratigraphy report correctly records that in 4D the Poincaré-dual degree of a (k)-dimensional support is (4-k): 1D support corresponds to a 3-form current, 2D support to a 2-form current. Hodge duality maps a 3-form to a 1-form, not a 2-form. Therefore (J_3) and (J_2) are not direct Hodge duals. A sweep/boundary or other degree-changing map must be supplied explicitly.
+The existing Enheduanna source-stratigraphy report correctly records that in 4D the Poincaré-dual degree of a `k`-dimensional support is `4-k`: 1D support corresponds to a 3-form current, 2D support to a 2-form current. Hodge duality maps a 3-form to a 1-form, not a 2-form. Therefore `J_3` and `J_2` are not direct Hodge duals. A sweep/boundary or other degree-changing map must be supplied explicitly.
 
 The existing Blockwave correction (F_{\mu\nu}=\nabla_{[\mu}A_{\nu]}), (A_\mu=\alpha_*\nabla_\mu\theta) also remains conditional: for smooth (	heta), constant (alpha_*), and a torsion-free connection, its local exterior derivative vanishes. Nonzero local curvature would require additional defect, bundle-connection, or distributional structure. This is already recorded in the Ariadne/Ravel source audits; no new physical claim or calculation is made here.
 
-**Formalization status:** the dimension arithmetic is already represented conditionally in the existing Ravel carrier/slice PR #1133. It does not prove the smooth transversality hypotheses, the (1D\to2D\to4D) maps, or any physical premise. No new Lean code or build was added.
+**Formalization status:** the dimension arithmetic is already represented conditionally in the existing Ravel carrier/slice PR #1133. It does not prove the smooth transversality hypotheses, the `1D → 2D → 4D` maps, or any physical premise. No new Lean code or build was added.
 
