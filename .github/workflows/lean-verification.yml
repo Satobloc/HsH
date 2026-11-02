@@ -26,7 +26,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
+      - name: Assert source checkout identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected="${{ github.event.pull_request.head.sha || github.sha }}"
+          actual="$(git rev-parse HEAD)"
+          echo "Expected source commit: $expected"
+          echo "Actual checked-out commit: $actual"
+          test "$actual" = "$expected"
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
         shell: bash
@@ -49,7 +59,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo "Source commit: $GITHUB_SHA"
+          echo "Checked-out source commit: $(git rev-parse HEAD)"
+          echo "Event GITHUB_SHA: $GITHUB_SHA"
           cat lean-toolchain
           if command -v lean >/dev/null; then lean --version; fi
           if command -v lake >/dev/null; then lake --version; fi
