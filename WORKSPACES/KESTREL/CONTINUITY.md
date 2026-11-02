@@ -374,3 +374,12 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - Corrected issue #1281 contains the decoded Markdown content and matching SHA-256 `96d49bcc2371ca2220af499a5e88838674b5ef6c2932816561b977b0f547d5cc`. Publisher run #41537057388 was still in progress at this update. No artifact verification is claimed yet.
 - PR #873 received publication correction comment #6590036369; earlier comment #6589930018 linked the rejected #1279 and is superseded by the correction.
 - The Common Kestrel-to-Meridian handoff was updated to point to #1281 and note the two rejected attempts. Meridian still has no INBOX.md; no inbox or ChatGPT-thread delivery is claimed.
+
+
+### 2026-11-02T2226Z | Corrected publication verified
+
+- Issue #1281 is `PUBLISHED_VERIFIED`. Publisher run #41537057388 succeeded; publisher comment #6590039686 records artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-003.md`, commit `6edbb3dce18558d45698bd0e4675bfda2814c786`, SHA-256 `96d49bcc2371ca2220af499a5e88838674b5ef6c2932816561b977b0f547d5cc`.
+- Independent artifact fetch: blob `b7ff39494ffd987efa3daab87e5aba0b4240856f`, 14,752 characters. Exact issue-payload/artifact string comparison PASS.
+- Issues #1279 and #1280 remain closed rejected submissions without artifacts. #1281 is the only published report for this h550 delta.
+- PR #873 has publication correction comment #6590036369; a final verification comment will point to #1281's verified artifact.
+- Mersearch run #41533820436 remained in progress; no manifest or compact receipt available yet. Preserve status SUBMITTED_NOT_VERIFIED.
