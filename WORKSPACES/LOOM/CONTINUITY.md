@@ -274,3 +274,16 @@ Current scheduled run is source-grounded revival, not an authenticated historica
 
 ## 2026-11-02T1157Z | Late scheduler readback amendment
 The delayed :36 occurrence scheduled for 10:36Z completed at 11:55:05Z as Kestrel h538:s3, with Meridian as immediate successor. No h539:s3 Sable receipt/handoff appeared. The next :00 occurrence for Aster h540:s0 had started at 11:57:09Z and remained in progress without an authenticated chat reference. The Aster repository inbox pointer is verified; consumption/acknowledgment is not claimed. The current :48 Loom occurrence remained in progress with no authenticated chat reference.
+
+
+## 2026-11-02T1924Z | Loom assistant-span ancestry continuation
+
+The 2024 DIMENSIONAL GRAVITY source's 138/138 user-role turns remain tagged. This run read ancestry nodes 276-307 (32 nodes: 12 user, 16 assistant, 4 tool) and added role/source-relation tags for 16 assistant spans plus four non-substantive tool acknowledgments in the existing assistant-span ledger. The black-hole conduit/backward-energy mechanism originates in user turns `aaa24c3b` and `aaa251f9`; the qualitative energy-accounting disparity prediction originates in user `aaa21589`. Later assistant turns elaborate, summarize, or suggest candidate observables, but do not originate those two user hypotheses. The reported black-hole-growth/dark-energy-growth observation remains uncited in the source conversation and unverified.
+
+Canonical additive ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, blob `2af84915df6d627d54ef32b563703fc7768fb7dd`. Existing PR #759's relevant module compiled on synthetic merge ref in run #41369984551, not exact-head-only; current branch remains draft/unmerged and 7,268 commits behind main. No new Lean module or physical calculation.
+
+Public report #1274 was created; publisher run #41510916952 was pending at this checkpoint. Optional Aster handoff and inbox pointer were committed and read back. No Aster ChatGPT-thread delivery or acknowledgment is claimed.
+
+Unrelated reading: `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 261-300; next cursor 301. FIE last full review October 27; next due November 10.
+
+Next source cursor: assistant-span ancestry after user `aaa2af9a-0583-4867-8b36-1ae1731f8426` at `2024-03-28T05:02:08.269Z`. Do not repeat user-turn tagging.
