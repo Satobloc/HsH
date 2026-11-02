@@ -9,7 +9,7 @@ This packet preserves the Kestrel h550 Lane 00 source-fidelity work. It is not a
 
 ## Main report
 
-Issue #1281: corrected Kestrel one-core/finite-core and SAT4D/Blockwave crosswalk. Publisher verification was pending at handoff update. Issues #1279 and #1280 were rejected by the publisher and closed without artifacts. #1281 is the corrected replacement, additive to existing issues #1108 and #1169, not a duplicate.
+Issue #1281: corrected Kestrel one-core/finite-core and SAT4D/Blockwave crosswalk. Publisher verification is complete: run #41537057388 SUCCESS, artifact readback exact, SHA-256 96d49bcc2371ca2220af499a5e88838674b5ef6c2932816561b977b0f547d5cc. Issues #1279 and #1280 were rejected by the publisher and closed without artifacts. #1281 is the corrected replacement, additive to existing issues #1108 and #1169, not a duplicate.
 
 ## Findings worth preserving
 
@@ -40,3 +40,8 @@ Status at handoff: IN_PROGRESS / SUBMITTED_NOT_VERIFIED. All three repository ch
 No CODATA scoring, physical calculation, synthetic physical fixture, independent measurement, or BEDROCK theory promotion. No paper gate advanced. Orson's protected cognition allocation remains unchanged.
 
 The Meridian workspace currently has no INBOX.md. This handoff is therefore Common-only repository context; no Meridian inbox or ChatGPT-thread delivery is claimed.
+
+
+## Publication verification
+
+Issue #1281 is PUBLISHED_VERIFIED. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-003.md. Git blob SHA-1 b7ff39494ffd987efa3daab87e5aba0b4240856f. Exact issue-content/artifact readback passed. Issues #1279 and #1280 were rejected and closed without artifacts.
