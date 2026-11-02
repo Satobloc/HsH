@@ -100,10 +100,10 @@ This section supersedes the 2026-10-21 material-curve formula above and the earl
 
 - **R** is a closed equation curve around the **north pole**, wholly in the northern hemisphere.
 - **Q** is a closed equation curve around the **south pole**, wholly in the southern hemisphere.
-- The Analemma is a separate closed spherical figure-eight. Its transverse self-crossing is at the **east equatorial pole** E=(1,0,0); its distinct self-tangential kiss is at the antipodal **west equatorial pole** W=(-1,0,0).
+- The Analemma is a separate closed spherical figure-eight. Its transverse self-crossing is at the **east equatorial pole** \(E=(1,0,0)\); its distinct self-tangential kiss is at the antipodal **west equatorial pole** \(W=(-1,0,0)\).
 - The northern lobe winds around the north pole; the southern lobe winds around the south pole.
 - One Analemma circuit means the complete two-lobed closed curve. The inner torus circumference is an even multiple of that complete length.
-- Sphere radius equals torus tube minor radius: b=a, so the sphere great-circle circumference equals the tube cross-section circumference.
+- Sphere radius equals torus tube minor radius: \(b=a\), so the sphere great-circle circumference equals the tube cross-section circumference.
 
 The historical source gives the self-crossing and antipodal self-tangency relationship; the E/W versus N/S placement and the equal-area condition above are the user's later explicit geometric refinements.
 
@@ -111,62 +111,63 @@ The historical source gives the self-crossing and antipodal self-tangency relati
 
 On the unit sphere, define
 
-[
-eta(t)=ksin tcos^2t,qquad phi(t)=2t,
-]
+\[
+\beta(t)=k\sin t\cos^2t,\qquad \phi(t)=2t,
+\]
 
-[
-G(t)=igl(cosetacosphi,;cosetasinphi,;sinetaigr),quad 0le t<2pi.
-]
+\[
+G(t)=\bigl(\cos\beta\cos\phi,\;\cos\beta\sin\phi,\;\sin\beta\bigr),
+\quad 0\le t<2\pi.
+\]
 
-The northern lobe is 0<t<pi; the southern lobe is pi<t<2pi. The equal-area interpretation used here is that the **combined two-lobe area** equals the remaining equatorial area. Thus each lobe encloses pi b^2, both lobes enclose 2 pi b^2, and the complement also has area 2 pi b^2.
+The northern lobe is \(0<t<\pi\); the southern lobe is \(\pi<t<2\pi\). The equal-area interpretation used here is that the **combined two-lobe area** equals the remaining equatorial area. Thus each lobe encloses \(\pi b^2\), both lobes enclose \(2\pi b^2\), and the complement also has area \(2\pi b^2\).
 
 The area equation is
 
-[
-2int_0^pi[1-sin(ksin tcos^2t)],dt=pi.
-]
+\[
+2\int_0^\pi\left[1-\sin\left(k\sin t\cos^2t\right)\right]dt=\pi.
+\]
 
 Its first regular root is
 
-[
-oxed{k=2.63499709629253}.
-]
+\[
+\boxed{k=2.63499709629253}.
+\]
 
-The maximum lobe latitude is 58.11000154 degrees. At E, the two branch tangent vectors in local azimuth/latitude components are proportional to (2,k) and (2,-k), so the crossing is transverse. At W, both tangent vectors are proportional to (2,0), while their second-order latitude curvature has opposite sign, giving the intended tangential kiss. The curve is regular; its minimum parameter speed on the unit sphere is greater than 1.
+The maximum lobe latitude is \(58.11000154^\circ\). At E, the two branch tangent vectors in local azimuth/latitude components are proportional to \((2,k)\) and \((2,-k)\), so the crossing is transverse. At W, both tangent vectors are proportional to \((2,0)\), while their second-order latitude curvature has opposite sign, giving the intended tangential kiss. The curve is regular; its minimum parameter speed on the unit sphere is greater than 1.
 
 ### Length and gearing
 
 The full material length is
 
-[
-L_A=bint_0^{2pi}sqrt{eta'(t)^2+4cos^2eta(t)},dt
-=13.26913503960638,b.
-]
+\[
+L_A=b\int_0^{2\pi}\sqrt{\beta'(t)^2+4\cos^2\beta(t)}\,dt
+=13.26913503960638\,b.
+\]
 
 For the minimum positive even multiple, the inner torus circumference contains two full Analemma circuits:
 
-[
-2pi(R-b)=2L_A,qquad
-oxed{R/b=5.22369686421446}.
-]
+\[
+2\pi(R-b)=2L_A,\qquad
+\boxed{R/b=5.22369686421446}.
+\]
 
-The browser therefore derives the major radius from the tube/sphere radius. At the retained reference scale b=a=0.55:
+The browser therefore derives the major radius from the tube/sphere radius. At the retained reference scale \(b=a=0.55\):
 
 | Quantity | Value |
 |---|---:|
 | Sphere and tube radius | 0.55 |
 | Sphere great-circle / tube cross-section circumference | 3.45575191895 |
 | Full physical Analemma length | 7.29802427178 |
-| Torus major radius R | 2.87303327532 |
+| Torus major radius \(R\) | 2.87303327532 |
 | Inner torus circumference | 14.59604854357 |
 | Inner circumference / full Analemma length | 2 exactly, within numerical tolerance |
 
-Changing the scale control changes a=b and derives R proportionally, preserving the equal circumferences and two-circuit gear ratio. The old independent major-radius slider is removed because it allowed the gear constraint to be broken.
+Changing the scale control changes \(a=b\) and derives \(R\) proportionally, preserving the equal circumferences and two-circuit gear ratio. The old independent major-radius slider is removed because it allowed the gear constraint to be broken.
 
 ### R/Q aperture and W_obble centering
 
-The R/Q polar aperture adapter is a_RQ=0.78+0.20 tanh(f) radians. R is placed around +z and Q around -z, with opposite azimuths at a common meridional sweep. The aperture gain bounds the normalized crossbar-midpoint offset by sin(0.20)=0.19866933; the default harmonic pair's sampled maximum is about 0.0931 sphere radii. The azimuth/equation mapping remains an explicit representation choice, not a derived field equation.
+The R/Q polar aperture adapter is \(a_{RQ}=0.78+0.20\tanh(f)\) radians. R is placed around \(+z\) and Q around \(-z\), with opposite azimuths at a common meridional sweep. The aperture gain bounds the normalized crossbar-midpoint offset by \(\sin(0.20)=0.19866933\); the default harmonic pair's sampled maximum is about \(0.0931\) sphere radii. Across the 84 one-port profile configurations tested, the largest sampled offset is \(0.12914\) sphere radii. The azimuth/equation mapping remains an explicit representation choice, not a derived field equation.
 
 ### Rotational and epistemic limits
 
