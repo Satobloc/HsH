@@ -587,7 +587,7 @@ Main result: the 2024 physical-string toy is a branched central-knot/spherical-b
 
 Durable report:
 WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
-blob d1af724941f06554ef49c2704f0fae781d01a9d6; 17,778 characters.
+blob b2abaecfac5be2d80f04a7f504c777dc2fc014d6; 17,778 characters.
 
 Existing issue #946 received additive comment 6576764639; exact fetched comment body matched the submitted body:
 https://github.com/Satobloc/HsH/issues/946#issuecomment-6576764639
