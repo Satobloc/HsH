@@ -37,3 +37,9 @@ This remains a context-only handoff, not an assignment or a claim of delivery to
 - Orson's P1 remains protected and at source/experiment readiness. PR #850 has a successful merge-ref build but no current exact-head verification; no manuscript, readable PDF/reader, independent review, or paper-gate advancement was established.
 - PR #1166 remains draft. The Hale module compiled within the overall build, but the merge-ref library build failed in Nadir's helix-slice geometry module. No raw GW250114 strain/posterior was downloaded or reanalysed; no physical calculation or H(s)H map follows.
 - No direct message, thread delivery, acknowledgment, new issue, branch, task, or schedule change is claimed.
+
+## Verification close
+
+PR #1241's corrected head `da034b2780a1ce04e26030433695ea2e23574710` passed Lean run #41380532749 on merge ref `5c51d5df6aafa0c63d85d0fdc1d592c70c5b4aad` (8,945 build jobs). The six theorem-specific axiom outputs for the trace module report no axioms. The global axiom audit was disabled, nanoda allowed sorry, and tests/lint were skipped; exact-head-only and global no-sorry status remain unverified. The PR body now records the corrected invocation-time convention and `24318` ms delay. PR remains draft and unmerged.
+
+Latest task readback shows the h=530 s0 Elias slot is still in progress without an authenticated thread reference. The h=529 s3 Calder and h=529 s4 Hale slots are also in progress; h=530 s2 Enheduanna completed. The earlier recipient-start timestamp in this packet does not match the latest readback. This packet remains next-appearance-only for Elias at h=533 s4. No direct message or acknowledgment is claimed.
