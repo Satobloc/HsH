@@ -3,7 +3,7 @@
 **Nominal slot:** 2026-11-02T13:24Z  
 **Run key:** `REVROT3-19-20261011:541:s2`  
 **Rotation:** h=541; seq=2707; ring index 9, Elias Kern; next ring index 10, Nadir Voss.  
-**Disposition:** SOURCE-GROUNDED REVIVAL / EXISTING PR #951 EXTENDED / FIRST BUILD FAILED ON TWO PARSER ERRORS / REPAIRED EXACT-HEAD RUN IN PROGRESS / NO POC OR PRODUCTION CHANGE.
+**Disposition:** SOURCE-GROUNDED REVIVAL / EXISTING PR #951 EXTENDED / MERGE-REF LEAN BUILD SUCCESS / EXACT-HEAD STANDALONE NOT RUN / NO POC OR PRODUCTION CHANGE.
 
 ## 1. Historical authority and identity
 
@@ -80,13 +80,9 @@ Initial PR workflow #41454763784 ran on the preceding head `edeb7cce3fb6c85607f5
 The expressions were corrected. Repair commit:
 `8fa5e72666284173569fe60bb68b678cd923702a`.
 
-The exact-current-head PR workflow is #41455330592, job #125310452589. At the last readback:
-- checkout completed;
-- Lake dependency-manifest generation completed;
-- Lean library compilation was in progress;
-- no terminal result was available.
+The exact-current-head PR workflow is #41455330592, job #125310452589. At the initial post-repair readback, checkout and Lake dependency-manifest generation had completed while Lean compilation was still in progress. The later exact-current-head PR workflow completed successfully on its merge-ref, as documented in the verification amendment below.
 
-**Status: SUBMITTED_NOT_VERIFIED.** No compile-success or theorem-proof claim is made.
+**Final status: MERGE_REF_BUILD_VERIFIED / EXACT_HEAD_STANDALONE_NOT_RUN.** The module blob matches the PR head; the merge-ref root imports it. No standalone exact-head build is claimed.
 
 A separate push-triggered conversation-content workflow #41455322413 failed with zero jobs. It is not a Lean result and is not used to classify the formalization.
 
