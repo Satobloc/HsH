@@ -169,20 +169,3 @@ A memorable quotation, news juxtaposition, attractive diagram, or polished page 
 - [Instrument registry](instruments/INSTRUMENT_REGISTRY.json) — site-facing source links and requested live routes. **GitHub source integration has been committed; live ChatGPT Sites publish/readback is not verified.**
 
 Both instruments are public-facing *mathematical tools*, not automatic evidence for SAT/H(s)H physical claims. The 3C-SiC comparison exists only as a post-freeze review; the blind UI has no measured/effective-mass fitting targets.
-
-
-## 2026-11-01 — GitHub Pages static-site backend
-
-The public site now has a repository-side static build source in PUBLIC_SITE/site/. It is designed as a non-destructive parallel migration: the existing Conversation Viewer remains at the GitHub Pages project root, while the new Glass Sausage Factory is built under /glass-sausage-factory/. Registered instruments remain at /laboratory/whirligig/ and /laboratory/universal-indicatrix/.
-
-The builder emits public-safe feed projections, locally mirrored approved gallery assets, and only the registered published PDF derivatives. It does not expose live-influx packets, raw control feeds, staging images, private notes, or arbitrary Markdown/TeX as reader pages. The shared Listen runtime is included. The static site is read-only; authenticated owner curation and private backend writes are not implemented.
-
-Build source: PUBLIC_SITE/site/README.md. Deployment workflow: .github/workflows/deploy-conversation-viewer-pages.yml. Deployment remains unverified until the GitHub Actions run succeeds and the served routes are independently read back.
-
-## 2026-11-02 — GitHub Pages publication
-
-The repository-backed static site has now been deployed successfully through GitHub Actions. The public Factory route is https://satobloc.github.io/HsH/glass-sausage-factory/. The existing Conversation Viewer remains at https://satobloc.github.io/HsH/, with /conversations/ as an alias; public Mersearch remains at /mersearch/, with /research/search/ as an alias. The two registered instruments are built at /laboratory/whirligig/ and /laboratory/universal-indicatrix/.
-
-Successful deployment run: 41390830237 (source commit 4614672c157772cb1544384679e4cd47ecb9abd1). The deployment action reported success. A later confirmation deployment is running against the latest workflow-only revision. The public route is built and deployed; direct browser-level visual acceptance remains a separate check.
-
-The previous ChatGPT Sites editor route is not required for this GitHub Pages deployment. The static site remains read-only: authenticated owner curation and private writes are not implemented.
