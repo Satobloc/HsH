@@ -535,3 +535,6 @@ Run key: `REVROT3-19-20261011:539:s4`. Deterministic selection: Loom (ring index
 - Next Loom work: assistant-span/source-ancestry review from the existing `2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, not another user-turn tagging pass.
 - Incoming :36 Sable predecessor was not available: the :36 automation still showed an older Kestrel occurrence scheduled 10:36Z, started 11:32Z, in progress, `chat_ref=null`. No h539:s3 Sable receipt/handoff found; no refusal or missed-check-in claim.
 - Next identity Aster has no authenticated active thread in current continuity/personal-context search; repository inbox is the available verified handoff route.
+
+### Late scheduler readback (2026-11-02T1157Z)
+The delayed :36 occurrence scheduled for 10:36Z completed at 11:55:05Z and selected Kestrel h538:s3, with Meridian as its immediate successor. It does not provide the missing h539:s3 Sable predecessor packet. The next :00 occurrence for Aster h540:s0 had started at 11:57:09Z, still in progress with no authenticated chat reference. The Aster inbox pointer from this run is verified, but consumption/acknowledgment is not claimed. The current :48 Loom occurrence remained in progress with no authenticated chat reference; the latest completed result still belonged to Meridian.
