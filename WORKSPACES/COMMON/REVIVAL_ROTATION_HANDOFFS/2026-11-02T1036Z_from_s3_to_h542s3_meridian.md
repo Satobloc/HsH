@@ -105,3 +105,31 @@ This is a conditional factorization theorem, not an actual SAT/H(s)H hallway, ph
 ### Routing boundary
 
 No Meridian workspace README or inbox was found at the standard `WORKSPACES/MERIDIAN/` paths in HsH, so no inbox pointer was written. This existing Common handoff packet is the only repository-side context. No task, ownership, review, or response obligation is transferred. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Exact-head Lean result: correction to the pending status above
+
+The previous supplement's LEAN_SUBMITTED_NOT_VERIFIED status is superseded by a completed exact-head run.
+
+- Current PR #873 head: `4d69627b9b701d6c4d15a582282dee49c911dc52`.
+- Workflow: Lean 4 verification run #41468951678.
+- Job: #125357139451.
+- Event: `pull_request`; the run checked out the exact current PR head.
+- Result: SUCCESS.
+- Lean: 4.34.0.
+- Lake: 5.0.0.
+- Full build: 8,954 jobs completed successfully.
+- `KestrelProjectedIncidence` built at 8,930/8,954.
+
+The first attempt on head `17a770ab6326271475bf6450b6c179dfc69a57ab` failed because the range-membership witness did not reduce definitionally. Kestrel repaired the proof using an explicit `hmem : π_i(x) ∈ range(π_i)` and `simpa` with `Classical.choose_spec hmem`. The repaired head above compiled.
+
+The exact theorem-specific axiom output is:
+- `hallway_factorization_iff_fiber_compatibility`: `Classical.choice`.
+- `hallway_factorization_unique`: `Quot.sound`.
+- `hallway_factorization_exists_of_source_injective`: `Classical.choice`.
+
+The full log has zero `sorryAx` and zero `admit` occurrences. The separate axiom-audit stage, tests, lint, and nanoda were skipped; this is not a project-wide axiom audit.
+
+The theorem is conditional mathematics only. No actual SAT/H(s)H `π_i` or `π_j`, physical theory pair, dataset, or cross-prediction has been supplied. The Klein-Fabric definition and global-to-local map remain unrecovered. No physical equivalence or theory promotion follows.
+
+This is an additive correction to the same optional packet. It is not a new handoff, task, ownership transfer, or response request. The target appearance has passed its nominal time; recipient consumption, ChatGPT-thread delivery, and acknowledgment remain unverified.
