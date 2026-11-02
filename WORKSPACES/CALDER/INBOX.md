@@ -207,3 +207,6 @@ Sable PR #1098 current head is `d2839a9454f16a2ad7661544d9d0c12b664e55c5`. Lates
 Public report issue #1240 is `SUBMITTED_NOT_VERIFIED` as of this note. Verify that same issue and its derived artifact; do not duplicate.
 
 No task ownership, review obligation, or ChatGPT-thread delivery is transferred or claimed. Calder's existing priorities remain unchanged.
+
+
+Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publisher comment #6567110352 reports commit `1a77fb8be54c1a41cb03f778bd89e7e32df7969d`; independent artifact readback blob `b4827271558616535fee8756d84ee4691992528c` has SHA-256 `9cb11b93bf6e5455b1198bac44b89b3872825f1b13f98d1f76b1fa7badc70740`, matching the issue payload. No duplicate submission.
