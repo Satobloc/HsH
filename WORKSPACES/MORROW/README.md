@@ -202,3 +202,40 @@ The Morrow creation request therefore remains **UNRECOVERED** pending the target
 ### Theory-stop scope note
 
 The later Morrow trial-workflow message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` lists archive maintenance, provenance, historical reconstruction, theory-material reading/note-taking and mathematical/equation checking among potential activities. It does not explicitly revoke the earlier direct theory stop for theory integration, physical predictions or paper work. The current boundary remains archive/source custody and non-promotional source analysis; no theory integration, physical prediction or paper work is undertaken here.
+
+
+## 2026-11-02 raw-source backfill — initial workspace request recovered
+
+The pending creation locator above is now resolved to a direct user-role instruction in the combined Aldus Morrow conversation:
+
+- Conversation: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, title `☘️ ALDUS MORROW [AUTO H(s)H Gitter]`.
+- Message/node: `53a18c37-9c45-4616-b67d-25fe2e36a6c5`.
+- UTC timestamp: `2026-09-13T09:12:50.281Z`; local time: `2026-09-13 05:12:50.281 EDT`.
+- Speaker: user; parent: null.
+- Raw export: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json`.
+- Git blob: `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+
+The message directly instructs the recipient to create a task-scoped workspace and to participate in periodic Commons review, including checking and responding to notes/messages/questions. The first Morrow workspace commit, `c18c66a26de2660d7336df7569dd4a5d656f39be`, was created at 2026-09-13T09:14:25Z, 94.719 seconds later, with the commit title `Add Morrow administrative workspace and Common review routine`. Its initial README records the same request and says Morrow was the working name used in that thread. The direct message does not itself specify the folder name; the subsequent commit creates `WORKSPACES/MORROW/`.
+
+**Identity qualification:** the source instruction is in the combined `ALDUS MORROW [AUTO H(s)H Gitter]` conversation, not in the separate `MORROW [Reconstruct H(s)H Synthesis]` conversation (`6a9ee7ca-d340-83ea-b99d-6a3097429f36`). The commit timing and content make this the strong source for the Morrow workspace creation, but it does not authenticate the two conversation containers as one runtime, nor does it authenticate the currently selected scheduled identity/thread.
+
+This backfill supersedes the earlier `UNRECOVERED` status for the initial workspace instruction. The separate general personal-workspace notice in Mercer message `7235b984-0ce1-4fa1-bacf-d3de9a6876bc` remains a later, distinct policy request and is not the creation source.
+
+### LIVE CONVOS wording: source-qualified interpretation
+
+Two direct messages establish contextual, not universal, semantics:
+
+- In the same Aldus Morrow conversation, user message `8be984c1-779c-409d-97f9-aa9053d53eb4` (2026-09-07T15:34:53.254Z) describes the `LIVE CONVOS` folder as containing the current live conversation snapshot, while noting it was several turns behind.
+- In Orchestrator Janus conversation `6a9f3d4b-54e4-83ea-81de-19908068ceb7`, user message `3fcd9cb3-50a2-4fa5-a4c0-74191621c009` (2026-09-08T00:10:44.195Z) says a retired recurring-task thread was saved in that directory.
+
+Morrow message `fed478ad-8022-46b1-a972-ac74bf7d37b2` (2026-09-09T03:25:14.104Z) also references the Live Convos as archive material. Taken together, these sources show a conversation-snapshot/wayfinding directory that may contain a current-but-lagging snapshot or a saved retired thread. Directory membership alone does not prove a current active ChatGPT thread. The exact shorthand `ACTIVE = LIVE CONVOS` has not been located verbatim in the inspected raw messages; retain it only as a contextual operational label, not as identity authentication.
+
+### Trial-workflow prompt cross-post
+
+The 3,526-character September 13 trial-workflow prompt appears exactly in three distinct user-message events:
+
+- Aldus Morrow: `e54d56dc-046b-4844-98bc-72518289fe69`, 15:25:44.704Z.
+- Morrow: `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, 15:31:22.757Z.
+- Mercer: `a77cc6ba-980e-4493-bc63-0ab698fcb5ab`, 15:33:45.258Z.
+
+The contents are byte-for-byte equal as extracted from the three raw mappings. These are separate message events in three conversations, not three independent witnesses to the prompt's contents. The later trial prompt permits archive maintenance, source comparison, theory-material reading/note-taking and mathematical/equation checking, but does not explicitly lift the earlier theory stop for integration, physical predictions or paper work. The existing no-integration/prediction/paper boundary remains.
