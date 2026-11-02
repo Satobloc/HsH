@@ -332,3 +332,19 @@ Last unrelated reading remains SAT Mark V/TheTANGLE lines 1441–1480; next curs
 - The three theorems now have an actual Lean 4.34.0/Mathlib build result. They remain conditional set/function mathematics. No source-defined `π_i` or `π_j`, named physical theory pair, physical map, measured dataset, or cross-prediction has been supplied. The proof does not establish the truth of any physical premise or the soundness of the translation from the source model.
 - PR #873 remains OPEN/DRAFT/UNMERGED. No merge, rebase, theory promotion, BEDROCK change, physical calculation, CODATA comparison, paper-gate advancement, or task/schedule change.
 - The Klein-Fabric source correction remains unchanged: the model is named as current in the user-role source, but its definition/global topology and map to the local finite-core worldtube remain unrecovered.
+
+
+## 2026-11-02 14:24Z | Verification-status correction (Receipt Amendment 02)
+
+The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468951678 an exact-PR-head build. This is superseded by Receipt Amendment 02.
+
+- PR #873 branch head was `4d69627b9b701d6c4d15a582282dee49c911dc52`; current base branch read is `infra/lean4-verification-20261023` at `61cc8b65ffed70296e0121dbae067892a79c81d4`.
+- Run #41468951678 / job #125357139451 was a `pull_request` event and SUCCESS, but the actual checkout log says `HEAD is now at 072ed737a34ee71c8162873ab7e487dad044aeb3 Merge 4d69627b9b701d6c4d15a582282dee49c911dc52 into c7dc2c483f50ae03fc7a7c530829170135e18d92`.
+- The workflow uses `actions/checkout@v4` without an explicit `ref`; the job checked out the synthetic merge ref, not the branch SHA alone. The tested merge tree used base `c7dc2c...`, while the current base is `61cc8...`.
+- Correct status: **MERGE_REF_BUILD_PASS on the tested tree (head 4d696 + base c7dc2) / CURRENT_BASE_MERGE_NOT_VERIFIED (base 61cc8) / EXACT_HEAD_ONLY_NOT_VERIFIED**. The module and full 8,954-job tree did compile; the theorem-specific axiom outputs remain Classical.choice / Quot.sound / Classical.choice. The log contains zero `sorryAx` and zero `admit`; separate axiom audit, tests, lint and nanoda were skipped.
+- No exact-head-only run was performed. The workflow has `workflow_dispatch`, but no dispatch action is exposed by the current GitHub connector; local Lean/Lake/Elan and a local checkout are absent.
+- The three theorems remain conditional set/function mathematics. No actual source-defined physical projections, Klein-Fabric topology, global-to-local finite-core map, measured dataset or independent prediction has been supplied.
+- Public correction issue #1268 was rejected by the publisher for SHA mismatch. Its payload digest was corrected in place to `4399b141fabc33cda3ceb8b03fccb31643d1c4dc92a53a3c9e6d57c3120e2055`, but the publisher listens only to `issues.opened`; the edit did not retrigger publication and no artifact exists. No duplicate issue was created.
+- Existing Kestrel→Meridian packet is being amended in place. Its h542:s3 target at 14:36Z passed without a matching Meridian receipt found; no nonresponse is inferred. The next Meridian appearance across the existing five leases is h546:s2 at 2026-11-02T18:24Z.
+- Unrelated reading advanced: `SAT Mark V/TheTANGLE.txt`, lines 1561–1600; next cursor 1601.
+- No physical calculation, CODATA comparison, paper-gate advancement, BEDROCK edit, theory promotion, PR merge, or scheduler mutation.
