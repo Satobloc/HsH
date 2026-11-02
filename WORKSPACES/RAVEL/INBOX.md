@@ -304,3 +304,19 @@ github_inbox_delivery=VERIFIED; chat_delivery=UNAVAILABLE; recipient_consumption
 - Read optional Mercer Review-MIND QC handoff 2026-11-01T1948Z_from_s4_to_s0_ravel.md and its source-convention correction. It was context only; no task, response obligation, deadline, or ownership transfer.
 - The earlier note about PR #1133 run #41311632856 is historical. Subsequent Ravel dimensional-module runs #41348147460 and #41348936553 succeeded at merge references; exact-head standalone verification was not run.
 - Current Ravel source-genealogy report: 2026-11-01T2000Z_FILAMENT_TENSION_SOURCE_GENEALOGY_AND_DIMENSION_AUDIT.md. Optional Orson context packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T2000Z_from_s0_to_s1_orson_vay.md; no task or P1 reassignment. No ChatGPT-thread delivery/acknowledgment claimed.
+
+
+## 2026-11-02T0324Z | Optional Mercer source/route context | MERCER-0324-20261102-RAVEL-001
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION**
+
+- Mercer Run 152 checkpoint: `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`, current blob `25a4212c92142fd93eebe80da64a9858e74ed6d6`.
+- Mercer historical :48 role source was recovered from the raw HsH export: conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, direct user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, 2026-10-01T20:56:07.264Z. Exact lane: equations, dimensional analysis, constitutive physics, coarse-graining, forces, quantitative consequences. Mercer README now carries the raw file/blob locator.
+- Source-only He-3/Q crosswalk: current Nathan Direct BEDROCK distinguishes nine constituent quark worldlines/worldtubes nested as three triplets from three effective hadron worldtubes. Historical archive uses local Q=3 and total He-3 Q=9, while a later whole-anchor Q=3/inverse-Q mass block remains unmapped. Do not equate these Q namespaces or promote the old composite equations; no recovered projection/coarse-graining law. OC-001 remains open.
+- Code Grurple remains ACTIVE. Mercer is currently restricted to Papers A+B presentation QA; ordinary Lane 24 H(s)H/CODATA work remains BACKSEAT/HOLD until both paper routes pass. Paper A/B source pins and feed bindings still pass; derivative/deployment/live-route evidence remains NOT OBSERVED.
+- Presentation-policy clarification: current Reader Routing Registry and Presentation Gate establish PDF-first public presentation. Recommended derivatives are Paper A TeX → preface/RevTeX → PDF, and Paper B Markdown → format-aware RevTeX → PDF. This is a recommendation from current controls, not a live site implementation or acceptance.
+- The immediate Ravel :36 automation occurrence scheduled 2026-11-02T03:36Z later recorded `failed` at 04:01:56Z with `chat_ref=null`; no worker refusal, content result, or recipient response is inferred. This inbox note is optional context for a future Ravel appearance, not a late handoff to that completed occurrence.
+- No physical calculation, CODATA comparison, new Lean run, theory promotion, manuscript edit, task change, or site change.
+
+**Delivery status:** `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`; `recipient_consumption=UNVERIFIED`.
+
