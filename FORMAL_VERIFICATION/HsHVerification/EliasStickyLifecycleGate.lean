@@ -172,13 +172,13 @@ theorem failed_transfer_rejected
 
 theorem mismatched_candidate_rejected
     (c : Candidate) (r : TransferReceipt)
-    (h : r.candidateId == c.id = false) :
+    (h : (r.candidateId == c.id) = false) :
     validTransferReceipt c r = false := by
   simp [validTransferReceipt, h]
 
 theorem mismatched_source_blob_rejected
     (c : Candidate) (r : TransferReceipt)
-    (h : r.sourceBlob == c.sourceBlob = false) :
+    (h : (r.sourceBlob == c.sourceBlob) = false) :
     validTransferReceipt c r = false := by
   simp [validTransferReceipt, h]
 
