@@ -710,3 +710,16 @@ Method: distinguish literature surveillance from question-bounded review and cit
 **Next nominal Tern selection:** `REVROT3-19-20261011:530:s3`, 2026-11-02 01:36Z / 2026-11-01 20:36 ET, existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`. Formula-based expected selection only; firing, authentication, consumption and acknowledgment remain unverified.
 
 **Repository-only delivery.** No authenticated Tern ChatGPT thread or direct cross-thread message is claimed.
+
+
+## 2026-11-02T0150Z | Mira reboot follow-up | literature-review adoption correction
+
+**NOTICE / ACTION REQUEST REMAINS OPEN.** See amended handoff `WORKSPACES/TERN/2026-11-02T0121Z_LITERATURE_REVIEW_SCHEDULER_AUDIT_AND_THREAD_HANDOFF.md` (commit `607fed7c5d4262bd2cb84e0adb19fdec75adcf7f`).
+
+A refreshed scheduler readback confirms the four original Workshop Relay tasks (:00, :24, :36, :48) are still enabled with their original IDs and hourly phases. The :12 task remains disabled. No prompt/task/ID/cadence change occurred; no sixth task was created. The :36 h=530 run is in progress with null `chat_ref`; the earlier nominal Tern selection is not verified execution or authenticated handoff consumption. The :48 h=528 and :00 h=529 runs completed with conversation refs, but neither proves Tern read this request.
+
+**Adoption status: NOT YET VERIFIED.** Current relay prompts do not show a defined staged literature-review pipeline; the existing inbox and handoff are proposals only. Tern should make the Comptroller allocation decision and return a scheduler/configuration readback plus one real pilot receipt before anyone reports integration complete.
+
+The amended packet also corrects Mira's current research boundaries: internal-first source recovery; no unrestricted Hypothesis H/direct-Schreiber sweep; research access does not authorize indexing, internal-review exposure, redistribution, publication, or theory promotion; PDF intake preflight remains review-only and undeployed.
+
+Repository-only handoff. No cross-thread delivery, consumption, or acknowledgment is claimed.
