@@ -1,0 +1,33 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "f1fba32ba8725c0bd2d2c70789a3bb14f5ac3f25e98388b91b1197c9f872f913",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-02T21:40:10.077086+00:00",
+  "query": "(date:2026-01-22 AND author:user AND (Kirk OR Riley OR \"Star Trek\" OR \"theory of mind\" OR \"episode order\")) OR (date:2026-01-22 AND author:assistant AND (\"KIRK — ACCUMULATIVE THEORY OF MIND\" OR \"Squire of Gothos\" OR \"Tomorrow Is Yesterday\" OR \"This Side of Paradise\" OR \"Refusal of False Stakes\" OR \"Acceptance of Moral Residue\" OR \"Identity Anchoring\" OR \"Rejection of Stasis\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16753,
+    "records_scanned": 20905687,
+    "hits": 0
+  },
+  "counted_hits": 0,
+  "distinct_sources": 0,
+  "results_by_root": {},
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [],
+  "first_hits": [],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
