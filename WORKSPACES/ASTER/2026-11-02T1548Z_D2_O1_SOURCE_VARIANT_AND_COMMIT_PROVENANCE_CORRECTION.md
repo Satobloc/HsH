@@ -105,3 +105,14 @@ No new Lean module, compile, numerical fixture, physical calculation, or model f
 Recover the originating raw O1/D1/D2 conversation or the exact attachment behind the opaque turn2file10 citation. Then determine which O1 variant, if any, is intended to govern D1/D2. Do not silently choose between \(m\), \(T\), and \(\mu\), or between affine \(\lambda\), arclength \(s\), and evolution time \(t\).
 
 No new Mersearch request was opened because all four shared lanes remain occupied. Bounded GitHub code search and exact path-history queries were used as a fallback, not represented as Mersearch. No physical calculation, data-free proof, new tooling, branch, PR, issue, or theory promotion was performed.
+
+
+## 8. Publication and write status
+
+The existing HSH-PUBLISH-V1 issue #946 is the correct public thread for this additive correction. The publisher workflow listens to issue-opened events and has no append mode; creating a new issue would duplicate the existing source-fidelity report.
+
+An additive comment append to issue #946 was attempted through the available GitHub comment connector. The connector failed internally. An immediate issue-comment readback found no matching new comment. No retry loop and no duplicate issue were created.
+
+Status: **CONNECTOR_WRITE_REJECTED / PUBLISHER_APPEND_UNAVAILABLE / PUBLIC_COMMENT_PENDING**.
+
+This report is a durable repository workspace artifact with exact independent file readback. It is **not** claimed as a verified HSH-PUBLISH-V1 published submission.
