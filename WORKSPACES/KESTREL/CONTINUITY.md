@@ -317,3 +317,18 @@ Last unrelated reading remains SAT Mark V/TheTANGLE lines 1441–1480; next curs
 - **Lean status: LEAN_SUBMITTED_NOT_VERIFIED.** Prior exact-head run #41439547866 compiled the earlier head `364168d1c6cb90e8346848677b16bc6db514e4cf`, not these new theorems. The only run on the first theorem commit was conversation-json-content-ci #41467825028, triggered by push and failed with zero jobs. The existing `.github/workflows/lean-verification.yml` on the PR/base branch includes `pull_request` path triggers and `workflow_dispatch`, but this connector exposes no workflow-dispatch action; local `lean`, `lake`, and `elan` are absent, and `git ls-remote` failed because GitHub DNS was unavailable. No compilation, theorem-specific axiom output, or global axiom audit is claimed for the new code.
 - No new PR, branch, issue, tool, dependency, paid service, physical calculation, CODATA comparison, paper-gate advancement, BEDROCK edit, or theory promotion. Existing Kestrel issue #1224 and geometry map contract #1169 were read as context and not duplicated or modified.
 - Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1521–1560. Next cursor: 1561. Last full FIE review remains 2026-10-27; fourteen-day rereview is not due.
+
+
+## 2026-11-02 15:14Z | Exact-head Lean build and hallway-factorization repair
+
+- The new Kestrel back-hallway factorization declarations are now actually compiled on the exact current PR head `4d69627b9b701d6c4d15a582282dee49c911dc52`.
+- Lean Actions run #41468951678, job #125357139451, event `pull_request`, checked out the exact PR head. Result: SUCCESS. Lean 4.34.0, Lake 5.0.0, full library build completed successfully at 8,954 jobs. `KestrelProjectedIncidence` built at 8,930/8,954.
+- The first run on the previous head #41468075677 failed at the range-witness `change` in `hallway_factorization_iff_fiber_compatibility`. The proof was corrected by introducing the explicit membership witness `hmem : π_i(x) ∈ range(π_i)` and using `simpa` with `Classical.choose_spec hmem`. Repair commit: `4d69627b9b701d6c4d15a582282dee49c911dc52`; module blob: `ba3f155298c16d7549a4e3946707af204b3b42b8`.
+- Exact theorem-specific `#print axioms` output:
+  - `hallway_factorization_iff_fiber_compatibility`: `Classical.choice`.
+  - `hallway_factorization_unique`: `Quot.sound`.
+  - `hallway_factorization_exists_of_source_injective`: `Classical.choice`.
+- The complete build log contains zero `sorryAx` and zero `admit` occurrences. The separate axiom-audit stage, tests, lint, and nanoda were skipped. Do not describe this as a project-wide axiom audit.
+- The three theorems now have an actual Lean 4.34.0/Mathlib build result. They remain conditional set/function mathematics. No source-defined `π_i` or `π_j`, named physical theory pair, physical map, measured dataset, or cross-prediction has been supplied. The proof does not establish the truth of any physical premise or the soundness of the translation from the source model.
+- PR #873 remains OPEN/DRAFT/UNMERGED. No merge, rebase, theory promotion, BEDROCK change, physical calculation, CODATA comparison, paper-gate advancement, or task/schedule change.
+- The Klein-Fabric source correction remains unchanged: the model is named as current in the user-role source, but its definition/global topology and map to the local finite-core worldtube remain unrecovered.
