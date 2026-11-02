@@ -267,3 +267,52 @@ R/b = 1 + (L_PP/b)/pi = 3.88840350745549
 This ratio is conditional on choosing the two-circuit gear. It is not inherited from the equal-area reference (whose ratio is 5.22369686421446). The candidate is not equal-area by construction. Its area balance, geodesic-curvature profile, and mechanical behavior remain to be independently evaluated.
 
 This is a concrete first candidate consistent with the user's landmark description, not a claim that the user's description uniquely implies this equation. Keep it as an alternate preset until the user accepts its detailed shape.
+
+
+## 11. User clarification: Viviani family, pole kisses, and synchronized projection (2026-11-02)
+
+The user identified the pole-to-pole base geometry as **Viviani's curve** and clarified the intended stretched variant:
+
+- Classical Viviani curve has a transverse self-crossing; it does not kiss itself.
+- The stretched Analemma must retain a transverse crossing at the east equatorial point and additionally have tangential self-contact at the lobe tips (north and south poles).
+- At each lobe-tip kiss, the tangent **lines** coincide. Because the curve has an oriented traversal, the one-sided tangent vectors along the two branches are equal in magnitude and opposite in direction.
+- This oriented reversal is a required kinematic datum, not merely a rendering detail.
+- Do not substitute a generic stretched Viviani curve or a latitude-amplitude adjustment unless it is shown to satisfy both the transverse equatorial crossing and both pole-tip tangencies with the required opposite oriented tangents.
+- The precise stretched curve family and its free shape parameter(s) still require explicit construction and verification. Keep classical Viviani and the pole-kissing stretched Analemma as distinct modes.
+
+### Classical Viviani provider
+
+For a unit sphere, the classical curve is the sphere/cylinder intersection:
+
+```
+x(t) = cos(t)^2
+y(t) = sin(t) cos(t)
+z(t) = sin(t)
+0 <= t < 2 pi
+```
+
+Its unit-sphere length coefficient is:
+
+```
+L_V / b = integral_0^(2 pi) sqrt(1 + cos(t)^2) dt
+        = 7.640395578055... 
+```
+
+For the user's current experimental phase rule, one complete Analemma traversal must coincide with one complete contact-point revolution around the inner torus circumference:
+
+```
+2 pi (R-b) = L_Analemma
+R/b = 1 + (L_Analemma/b)/(2 pi)
+sphere-roll / Analemma circuits per torus orbit = 1
+elbow turns per torus orbit = 2
+```
+
+For classical Viviani this gives R/b = 2.216006723425... . This is an experimental machine configuration, not a change to the immutable factory-reference preset.
+
+### Flat spherical diagnostic
+
+The user requests a Mercator-like projection that distorts rather than producing spurious discontinuities at the poles. A true Mercator projection sends the poles to infinity and therefore cannot display the pole-touching curve tips at finite coordinates. Use a **Miller cylindrical projection** (Mercator-inspired, finite at the poles) or another explicitly named finite-pole cylindrical compromise, with the longitude seam deliberately placed away from the plotted curve. Never connect samples across a longitude wrap or through an undefined polar longitude. Preserve two or more 3D viewpoints alongside the flat projection. State the projection and its distortion properties.
+
+### Machine implementation status
+
+This addendum records the user's clarified geometry and phase requirements. It does not certify that the current browser HTML has been updated. The existing HTML still contains the older equal-area-only, two-circuit gear constants at the time of this note. Do not claim deployment or implementation until the code is changed and independently checked.
