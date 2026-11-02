@@ -207,6 +207,7 @@ The following existing PRs and exact-head Actions runs were inspected. No Lean s
 |---|---|---|---|
 | PR #262, NadirHelixSliceGeometry.lean | Head c7dc2c…; exact-head run #41301288857, SUCCESS | Parameterized helix/slice geometry, intersection existence/uniqueness, circular slice radius and phase-rate results. Full log had no sorryAx; theorem-specific axiom reports listed propext. | Conditional Euclidean coordinate reconstruction of the 2024 heuristic. Not Nathan's original equations, not a physical metric, and not a physical system. |
 | PR #1098, SableCurrentSupportDegreeGate.lean | Head d2839a…; exact-head run #41328086467, SUCCESS | Source-role identity gate; 3-form vs 2-form degree; Hodge dual degree; distinction between a user editorial instruction and an assistant-authored equation; no sorryAx in retrieved full log. Several source-identity theorems report no axioms; arithmetic/degree results use standard propext/Quot.sound where shown. | Does not establish that the assistant's translation faithfully represents the physical theory. |
+| PR #1135, ScalarHessianAntisymZero.lean | Head af66f06…; exact-head run #41164589389, SUCCESS | C² scalar Hessian symmetry under symmetric connection coefficients; concrete Hodge-degree, Poincaré-dual-degree and transverse-intersection dimension results. The concrete degree/dimension theorems report no axioms; the analytic Hessian theorems report propext, Classical.choice and Quot.sound. No sorryAx in retrieved full log. | Conditional local-coordinate calculus; it does not construct a global manifold connection or prove a physical gauge field. |
 | PR #1133, carrier/current/fiber modules | Head d857940…; exact-head run #41348936553, SUCCESS | Transverse slice dimension; explicit slice-preserving map witness; non-uniqueness of fiber transport from base projection alone; conditional rank-two current projection; scale-dimension bookkeeping. No sorryAx in retrieved full log. | Finite-dimensional and set-level formalizations. No physical metric, constitutive law, empirical current, or measurement. |
 
 The PRs are open/unmerged and remain separate from BEDROCK. Their successful Lean runs prove only the statements actually encoded. They do not prove the source-to-formalization translation is faithful, nor that any physical premise is true.
@@ -262,10 +263,10 @@ The PRs are open/unmerged and remain separate from BEDROCK. Their successful Lea
 - Existing Whirligig/RQ work was checked. It is a procedural 3D equation-to-curve mapper with a separate four-dimensional companion, not a demonstrated 4D carrier/current/slice mapper.
 - Existing Lean PRs #262, #1098, and #1133 already cover the relevant conditional mathematics. No new tool, branch, PR, or paid service was created.
 - SciSpace is available as an installed research connector, but was not needed for this primary-source archival task.
-- No fork was used or modified; the connector did not provide a complete fork census.
+- Sable's prior audit records zero HsH forks; no fork was used or modified in this run.
 - Completed Mersearch results used: Alberr's SAT-O/worldline-timesheet/interbraid request and Sable's J3/J2 source crosswalk. The optics and Ravel equation-census lanes remain pending; completed lanes have no explicit release marker. No request was overwritten or added.
 - Existing public anchors #1202 (worldtube/readout and carrier-dimension work) and #1141 (O9 source chronology) already cover the overlapping public source families. The issue publisher is triggered by newly opened intake issues and does not provide an additive-comment route. No duplicate issue or submission was created. This prehistory crosswalk remains internal pending independent review.
-- No physical system, dataset, units/uncertainties, prediction, fit, or independent measurement was used. No physical calculation and no CODATA scoring were performed.
+- No physical calculation, new fit, or CODATA scoring was performed. The O9 fit-vs-derivation conflict is reported from source inspection only; no independent measurement was made or claimed.
 
 ## 9. Operational continuity and next cursor
 
