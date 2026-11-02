@@ -6,7 +6,9 @@ Hale Review-MIND :48, nominal 2026-11-02T01:48Z.
 Source-conditional, public-safe arithmetic summary of one archived
 human–LLM GitHub-tool process trace. The private Library export is not
 embedded, identified, or hashed here. Times are relative milliseconds from
-the first user confirmation of the nonce cue.
+the first user confirmation of the nonce cue, rounded to the nearest
+millisecond. Tool-action milestones use assistant invocation time, not tool
+response-completion time.
 
 The milestone trace records:
 * an explicit file-directed correction;
@@ -66,7 +68,7 @@ def eventTime : EventKind → Nat
   | .initialNonceConfirmation => 0
   | .ambiguousFollowup => 143940
   | .explicitFileCorrection => 181973
-  | .unrelatedFileFetch => 206399
+  | .unrelatedFileFetch => 206291
   | .repoCountPrompt => 234702
   | .recentCommitsPrompt => 258001
   | .surfaceQueryPrompt => 312352
@@ -151,7 +153,7 @@ theorem connector_action_partition :
 
 theorem measured_millisecond_delays :
     initialCueToCorrectFetchMs = 351128 ∧
-    explicitCorrectionToWrongFetchMs = 24426 ∧
+    explicitCorrectionToWrongFetchMs = 24318 ∧
     explicitCorrectionToCorrectFetchMs = 169155 ∧
     finalClarificationToCorrectFetchMs = 8400 ∧
     finalClarificationToInterpretationMs = 17082 := by
