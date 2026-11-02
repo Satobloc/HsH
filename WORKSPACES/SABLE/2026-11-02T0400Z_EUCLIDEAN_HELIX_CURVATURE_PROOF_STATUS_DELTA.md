@@ -235,3 +235,14 @@ optional normal plane N² -----------------------> local circle S¹
 ```
 
 The map F^(?) → W⁴ and the condition producing a 3D trace are the next exact geometric obligations. This is a stronger distinction than simply calling every object a filament or worldtube.
+
+
+## 13. Publication receipt
+
+Public delta issue: #1246.
+Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-lifted-helix-curvature-proof-status-20261102t0400z-s0-001.md.
+Publisher workflow run: #41387945107, SUCCESS.
+Publisher commit: e56409dcd40c429aebe7ff1578925596a60452dd.
+SHA-256: 2d323673527d11eec2d496147fe56dfd2781341555291398eb6b0e622999c50a.
+Artifact blob SHA-1: 5526e245d9ba395e5bf8315fbe84e42dd766cda2.
+Readback: exact content match, 3,795 characters. PASS.
