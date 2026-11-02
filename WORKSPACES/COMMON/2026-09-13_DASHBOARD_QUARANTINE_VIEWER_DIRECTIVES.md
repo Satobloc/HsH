@@ -37,3 +37,19 @@ The 2026-09-13 follow-up adds:
 - `CONVERSATION_VIEWER/argus_followup.css`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md`
 - `.github/workflows/maintain-navigation.yml`
+
+
+## Raw-source provenance backfill — 2026-11-02
+
+The directive summarized above is now tied to the following original user-role source:
+
+- Conversation: `6aa5fe86-e258-83ea-9f24-2330244116aa` (Mercer Archive Mover).
+- Message/node: `c8635cd6-9aa3-4b1f-8132-8977e9303707`.
+- UTC timestamp: `2026-09-13T09:00:28.268Z`; local time: `2026-09-13 05:00:28.268 EDT`.
+- Parent: null (root user message in the recovered mapping).
+- Raw export: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json`.
+- Git blob: `28495aa20438f7b4c9cb19ab49d6c5b871c31086`.
+
+This direct message supports keeping the Dashboard open for navigation, adding an explicit quarantine-status/reason section, and continuing the Conversation Viewer work. It does **not** contain the separate shorthand `ACTIVE = LIVE CONVOS`; that wording remains unverified. The five Mersearch path hits for this message are snapshot copies, not five independent user-message witnesses; four distinct blob snapshots were represented, with one byte-identical path pair.
+
+The earlier pending-ID fields above are superseded for this specific 05:00 directive by this additive source backfill. Other September 13 entries in the provenance log remain pending unless separately backfilled.
