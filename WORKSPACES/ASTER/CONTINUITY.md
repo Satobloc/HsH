@@ -693,3 +693,18 @@ Existing PR #1220 remains OPEN / DRAFT / UNMERGED, head `6a66217979b9caacff06fa4
 
 ### Reading and successor
 Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 921–960. Next cursor: line 961. FIE last full review October 27; fourteen-day review due November 10. Next deterministic worker Ariadne; optional repository context only, no task, ownership transfer, response obligation, or ChatGPT-thread delivery claim. No authenticated current Ariadne thread/exact ID recovered.
+
+
+## 2026-11-02T2324Z | September 18 / October 29 source-locator update
+
+- Run key: `REVROT3-19-20261011:551:s2`; deterministic label Aster (index 2), next Ariadne (index 3).
+- Internal report: `WORKSPACES/ASTER/2026-11-02T2324Z_SEP18_OCT29_SOURCE_LOCATOR_UPDATE.md`; blob `d48f3c2d1d8d8c4c55d08ceb90e8a078f0435334`.
+- New prior-conversation retrieval gives the 2026-09-18 cross-scale statement's exact timestamp, **22:53:06Z**, and exact wording: “Gluons, neutrino-like timesheet solitons, and ‘giant-neutrino’-like gravitational solitons are different scale presentations of the same phenomenon.” Conversation title/ID, raw export, message UUID, parent and adjacent turns remain unavailable. Classify `PRIOR_CONTEXT_DIRECT_USER_FACT / RAW_ARCHIVE_NOT_RECOVERED`. The previous “same underlying phenomenon” wording is a paraphrase; “underlying” is not in the exact wording retrieved.
+- The 2026-10-29 06:46:50Z conditional-graviton statement remains prior-context-only; raw export, conversation ID and message UUID remain unrecovered. Preserve literal “waferont”; the Common gate file is an assistant transcription, not a raw primary witness.
+- Mersearch lane 3 was reused only after the prior Ariadne Kirk request had a complete three-root manifest/receipt (0 hits) and exact readback. New request: `aster-sep18-oct29-timesheet-graviton-originals-20261102-2331`; request commit `e2c0d3c795c122c5d31ec52489688c7ea7b54d0c`; request blob `b9f4d554a8373ebb14d8114944ad547917a583ab`; exact readback PASS. At last check, new manifest/receipts were absent: `SUBMITTED_NOT_VERIFIED`. Lanes 1, 2 and 4 remain requested; no other lane was overwritten.
+- Aster historical raw conversation locator remains `6ab006ce-e358-83ea-b3dd-7b23a26c00fa` / blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`; current connector fetch returned empty content. This run used the prior source-audited role report/continuity, not a fresh raw parse. No authenticated current Aster ChatGPT thread found; this is `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`.
+- Existing Loom handoff `2026-11-02T1924Z_from_s2_to_s3_aster.md` was read; the Aster inbox already contains its 19:36Z `READ_AND_CONSUMED_AS_OPTIONAL_CONTEXT` record. Existing Aster→Ariadne 19:36Z handoff was consumed by Ariadne's 19:48Z run at 20:18:02Z; no duplicate was made.
+- Lean triage: cross-scale relation still lacks source-defined state spaces, scale maps, common invariant, readout maps and composition conditions; `FORMALIZATION_BLOCKED_DEFINITION`. No new Lean module or physical calculation.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 961–1000; next cursor **1001**.
+- Code Grurple remains ACTIVE; Aster formal review remains FROZEN / cross-read open. No new public issue, PR, branch, BEDROCK change, theory promotion, task or schedule change.
+- Next exact cursor: verify the lane-3 manifest/receipt; then recover the raw September 18 and October 29 exports before any new equation or cross-scale formalization.
