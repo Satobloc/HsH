@@ -171,3 +171,99 @@ theorem scoped_fingerprint_projection_separates_distinct_events
 #print axioms scoped_fingerprint_projection_separates_distinct_events
 
 end HsHVerification.EliasHydraScopeProjection
+
+/-!
+# Repair contract: separate plan emission from rewrite admission
+
+The legacy Hydra loop has one history bit for a node. It can emit the node's
+child plan, fail to admit its recurrence rewrite because the per-call budget
+is exhausted, and nevertheless mark the node as seen. The existing
+EliasHydraRewriteStarvation namespace formalizes that loss.
+
+This second model specifies a repair contract for nodes that have a required
+rewrite: plan emission and rewrite admission have separate progress fields.
+A deferred rewrite remains pending; a later invocation can admit it without
+emitting the child plan again.
+
+This is a finite software-state contract, not a patch to the Python POC.
+It does not model child execution, semantic receipt verification, scheduler
+behavior, or source-to-model equivalence.
+-/
+
+namespace HsHVerification.EliasHydraProgressSplit
+
+structure NodeProgress where
+  planEmitted : Bool
+  rewriteAdmitted : Bool
+  rewriteDeferred : Bool
+  deriving DecidableEq, Repr
+
+structure StepResult where
+  progress : NodeProgress
+  remainingBudget : Nat
+  emitPlan : Bool
+  admitRewrite : Bool
+  deriving DecidableEq, Repr
+
+def initialProgress : NodeProgress :=
+  { planEmitted := false
+    rewriteAdmitted := false
+    rewriteDeferred := false }
+
+/-- One node transition. The model assumes the node has a required rewrite. -/
+def transition (budget : Nat) (p : NodeProgress) : StepResult :=
+  let admit := (!p.rewriteAdmitted) && (budget > 0)
+  { progress :=
+      { planEmitted := true
+        rewriteAdmitted := p.rewriteAdmitted || admit
+        rewriteDeferred := (!p.rewriteAdmitted) && (!admit) }
+    remainingBudget := if admit then budget - 1 else budget
+    emitPlan := !p.planEmitted
+    admitRewrite := admit }
+
+def isComplete (p : NodeProgress) : Bool :=
+  p.planEmitted && p.rewriteAdmitted
+
+theorem zero_budget_emits_plan_and_defers_rewrite :
+    let r := transition 0 initialProgress
+    r.emitPlan = true ∧
+    r.admitRewrite = false ∧
+    r.progress.planEmitted = true ∧
+    r.progress.rewriteAdmitted = false ∧
+    r.progress.rewriteDeferred = true ∧
+    isComplete r.progress = false := by
+  decide
+
+theorem deferred_rewrite_remains_retryable :
+    (transition 0 initialProgress).progress.rewriteDeferred = true := by
+  decide
+
+theorem retry_admits_deferred_rewrite_without_duplicate_plan :
+    let first := transition 0 initialProgress
+    let second := transition 1 first.progress
+    second.emitPlan = false ∧
+    second.admitRewrite = true ∧
+    second.progress.rewriteAdmitted = true ∧
+    second.progress.rewriteDeferred = false ∧
+    isComplete second.progress = true ∧
+    second.remainingBudget = 0 := by
+  decide
+
+theorem zero_budget_does_not_consume_rewrite_budget :
+    (transition 0 initialProgress).remainingBudget = 0 := by
+  decide
+
+theorem one_budget_unit_admits_exactly_one_pending_rewrite :
+    (transition 1 (transition 0 initialProgress).progress).remainingBudget = 0 := by
+  decide
+
+#eval transition 0 initialProgress
+#eval transition 1 (transition 0 initialProgress).progress
+
+#print axioms zero_budget_emits_plan_and_defers_rewrite
+#print axioms deferred_rewrite_remains_retryable
+#print axioms retry_admits_deferred_rewrite_without_duplicate_plan
+#print axioms zero_budget_does_not_consume_rewrite_budget
+#print axioms one_budget_unit_admits_exactly_one_pending_rewrite
+
+end HsHVerification.EliasHydraProgressSplit
