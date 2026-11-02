@@ -1,0 +1,14 @@
+{
+  "schema": "hsh-publisher-status-v1",
+  "run_key": "REVROT3-19-20261011:545:s0",
+  "status": "HELD_DUPLICATE_GUARD_NO_APPEND_ROUTE",
+  "target_existing_issue": 1213,
+  "existing_issue_status": "OPEN; original issue-open publisher run rejected SHA-256; no published artifact",
+  "workflow": "issues.opened only",
+  "edit_listener_pr": 1251,
+  "edit_listener_status": "OPEN_DRAFT_UNMERGED",
+  "action_taken": "No new issue, no issue-body edit, no direct Contents-API bypass",
+  "internal_report": "WORKSPACES/HALE/2026-11-02T1700Z_MAY2025_SAT_ASAT_BRANCH_BOUNDARY_AND_WORLDTUBE_METRIC_FIDELITY.md",
+  "internal_report_blob_sha1": "5ee3490ce4ca1f1c1fbde3b24e0b0d09928a5ce9",
+  "next_action": "Wait for authorized append/retry route or explicit instruction to open a genuinely distinct correction issue"
+}
