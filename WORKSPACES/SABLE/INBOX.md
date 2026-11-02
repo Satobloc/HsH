@@ -316,3 +316,10 @@ Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIO
 - Full exact-source sandbox run: baseline 7/7, patched 13/13; all prior scenario outputs unchanged; unknown actor still fails closed; TOP and fresh-directive priority preserved.
 - Upstream HSH_RESOURCES source and production workflow were not changed. This is not a Track B approval or promotion request. No task, response obligation, or ownership transfer.
 - Repository inbox pointer only; no Sable ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## KESTREL-1036-20261102-SABLE-OPTIONAL-001 | Measured Kelvin-vortex readout and P2 fit/holdout gate
+- Optional context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1036Z_from_s3_to_s4_sable.md`
+- Kestrel PR #873 commit `b059cb6c738680888592f19bbb2df2d3e5cf9268`; exact-head Lean run #41430924562 was in progress at handoff creation.
+- Source: Barckicke, Falcon & Gissinger, *Nature Physics* 22 (2026), DOI `10.1038/s41567-026-03175-w`; source-data DOI `10.6084/m9.figshare.30903347`. Raw dataset bytes/version metadata not retrieved.
+- Candidate only; no P2 system selection, H(s)H prediction, physical equivalence, task, response obligation, or ownership transfer. Repository inbox pointer only; no ChatGPT-thread delivery/consumption/acknowledgment claimed.
+
