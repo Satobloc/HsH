@@ -251,3 +251,181 @@ theorem weightedExchangeableESS_uniform_eq_kish
 #print axioms weightedExchangeableESS_uniform_eq_kish
 
 end HsHVerification.OrsonKishEffectiveSampleSize
+
+
+/-!
+## Explicit covariance-matrix bridge
+
+The earlier weighted expression was defined algebraically. The following
+extension makes the source-level covariance entries explicit and proves
+that their weighted quadratic form reduces to the concentration formula.
+No empirical covariance matrix or P1 weight vector is supplied by this
+formalization.
+-/
+
+/-- Unit-marginal-variance exchangeable correlation matrix entry. -/
+def exchangeableCorrelationEntry {n : ℕ} (rho : ℝ)
+    (i j : Fin n) : ℝ :=
+  if i = j then 1 else rho
+
+/-- Weighted quadratic form of the exchangeable correlation matrix. -/
+def weightedExchangeableCorrelationQuadraticForm {n : ℕ}
+    (q : Fin n → ℝ) (rho : ℝ) : ℝ :=
+  ∑ i, ∑ j, q i * q j * exchangeableCorrelationEntry rho i j
+
+/-- The explicit double-sum quadratic form equals
+rho*(sum q)^2 + (1-rho)*sum(q^2), without assuming normalized weights. -/
+theorem weightedExchangeableCorrelationQuadraticForm_eq
+    {n : ℕ} (q : Fin n → ℝ) (rho : ℝ) :
+    weightedExchangeableCorrelationQuadraticForm q rho =
+      rho * (weightTotal q)^2 + (1-rho) * weightConcentration q := by
+  classical
+  have hcoeff (i j : Fin n) :
+      exchangeableCorrelationEntry rho i j =
+        rho + (1-rho) * (if i = j then (1 : ℝ) else 0) := by
+    unfold exchangeableCorrelationEntry
+    by_cases h : i = j <;> simp [h] <;> ring
+  have hdouble :
+      (∑ i, ∑ j, q i * q j) = (weightTotal q)^2 := by
+    unfold weightTotal
+    calc
+      (∑ i, ∑ j, q i * q j) =
+          ∑ i, q i * (∑ j, q j) := by
+        apply Finset.sum_congr rfl
+        intro i hi
+        rw [Finset.mul_sum]
+      _ = (∑ i, q i) * (∑ j, q j) := by
+        rw [Finset.sum_mul]
+      _ = (∑ i, q i)^2 := by ring
+  have hdiag :
+      (∑ i, ∑ j, q i * q j * (if i = j then (1 : ℝ) else 0)) =
+        weightConcentration q := by
+    unfold weightConcentration
+    apply Finset.sum_congr rfl
+    intro i hi
+    rw [Finset.sum_eq_single i]
+    · simp
+    · intro j hj hji
+      simp [hji.symm]
+    · intro hnot
+      exact (hnot (Finset.mem_univ i)).elim
+  have hfirst :
+      (∑ i, ∑ j, q i * q j * rho) =
+        rho * (weightTotal q)^2 := by
+    calc
+      (∑ i, ∑ j, q i * q j * rho) =
+          ∑ i, (∑ j, q i * q j) * rho := by
+        apply Finset.sum_congr rfl
+        intro i hi
+        rw [← Finset.sum_mul]
+      _ = (∑ i, ∑ j, q i * q j) * rho := by
+        rw [← Finset.sum_mul]
+      _ = (weightTotal q)^2 * rho := by rw [hdouble]
+      _ = rho * (weightTotal q)^2 := by ring
+  have hsecond :
+      (∑ i, ∑ j,
+        q i * q j * ((1-rho) * (if i = j then (1 : ℝ) else 0))) =
+        (1-rho) * weightConcentration q := by
+    calc
+      (∑ i, ∑ j,
+        q i * q j * ((1-rho) * (if i = j then (1 : ℝ) else 0))) =
+          ∑ i, ∑ j,
+            (1-rho) * (q i * q j * (if i = j then (1 : ℝ) else 0)) := by
+        apply Finset.sum_congr rfl
+        intro i hi
+        apply Finset.sum_congr rfl
+        intro j hj
+        ring
+      _ = ∑ i, (1-rho) *
+            (∑ j, q i * q j * (if i = j then (1 : ℝ) else 0)) := by
+        apply Finset.sum_congr rfl
+        intro i hi
+        rw [← Finset.mul_sum]
+      _ = (1-rho) *
+            (∑ i, ∑ j, q i * q j * (if i = j then (1 : ℝ) else 0)) := by
+        rw [← Finset.mul_sum]
+      _ = (1-rho) * weightConcentration q := by rw [hdiag]
+  calc
+    weightedExchangeableCorrelationQuadraticForm q rho =
+        ∑ i, ∑ j,
+          q i * q j *
+            (rho + (1-rho) * (if i = j then (1 : ℝ) else 0)) := by
+      unfold weightedExchangeableCorrelationQuadraticForm
+      apply Finset.sum_congr rfl
+      intro i hi
+      apply Finset.sum_congr rfl
+      intro j hj
+      rw [hcoeff i j]
+    _ = (∑ i, ∑ j, q i * q j * rho) +
+        (∑ i, ∑ j,
+          q i * q j * ((1-rho) * (if i = j then (1 : ℝ) else 0))) := by
+      simp_rw [mul_add, Finset.sum_add_distrib]
+    _ = rho * (weightTotal q)^2 +
+        (1-rho) * weightConcentration q := by
+      rw [hfirst, hsecond]
+
+/-- Exchangeable covariance entry with common marginal variance. -/
+def exchangeableCovarianceEntry {n : ℕ}
+    (variance rho : ℝ) (i j : Fin n) : ℝ :=
+  if i = j then variance else variance * rho
+
+/-- Weighted quadratic form qᵀΣq for the explicit exchangeable covariance
+matrix with diagonal variance and common off-diagonal covariance variance*rho. -/
+def weightedExchangeableCovarianceQuadraticForm {n : ℕ}
+    (q : Fin n → ℝ) (variance rho : ℝ) : ℝ :=
+  ∑ i, ∑ j, q i * q j * exchangeableCovarianceEntry variance rho i j
+
+/-- The explicit covariance-matrix quadratic form reduces to the
+weight-total / weight-concentration identity. -/
+theorem weightedExchangeableCovarianceQuadraticForm_eq
+    {n : ℕ} (q : Fin n → ℝ) (variance rho : ℝ) :
+    weightedExchangeableCovarianceQuadraticForm q variance rho =
+      variance *
+        (rho * (weightTotal q)^2 + (1-rho) * weightConcentration q) := by
+  classical
+  have hentry (i j : Fin n) :
+      exchangeableCovarianceEntry variance rho i j =
+        variance * exchangeableCorrelationEntry rho i j := by
+    unfold exchangeableCovarianceEntry exchangeableCorrelationEntry
+    by_cases h : i = j <;> simp [h] <;> ring
+  calc
+    weightedExchangeableCovarianceQuadraticForm q variance rho =
+        ∑ i, ∑ j,
+          variance * (q i * q j * exchangeableCorrelationEntry rho i j) := by
+      unfold weightedExchangeableCovarianceQuadraticForm
+      apply Finset.sum_congr rfl
+      intro i hi
+      apply Finset.sum_congr rfl
+      intro j hj
+      rw [hentry i j]
+      ring
+    _ = ∑ i, variance *
+          (∑ j, q i * q j * exchangeableCorrelationEntry rho i j) := by
+      apply Finset.sum_congr rfl
+      intro i hi
+      rw [Finset.mul_sum]
+    _ = variance *
+          (∑ i, ∑ j, q i * q j * exchangeableCorrelationEntry rho i j) := by
+      rw [Finset.mul_sum]
+    _ = variance *
+          (rho * (weightTotal q)^2 + (1-rho) * weightConcentration q) := by
+      rw [weightedExchangeableCorrelationQuadraticForm_eq]
+
+/-- For nonnegative variance and 0 ≤ rho ≤ 1, the explicit exchangeable
+covariance quadratic form is nonnegative for every finite weight vector.
+This proves positive semidefiniteness of the represented symmetric matrix
+in that correlation range; it does not establish that real P1 errors obey
+the exchangeable model. -/
+theorem weightedExchangeableCovarianceQuadraticForm_nonneg
+    {n : ℕ} (q : Fin n → ℝ) (variance rho : ℝ)
+    (hvariance : 0 ≤ variance) (hrho0 : 0 ≤ rho) (hrho1 : rho ≤ 1) :
+    0 ≤ weightedExchangeableCovarianceQuadraticForm q variance rho := by
+  rw [weightedExchangeableCovarianceQuadraticForm_eq]
+  apply mul_nonneg hveriance
+  apply add_nonneg
+  · exact mul_nonneg hrho0 (sq_nonneg (weightTotal q))
+  · exact mul_nonneg (by linarith) (Finset.sum_nonneg fun i hi => sq_nonneg (q i))
+
+#print axioms weightedExchangeableCorrelationQuadraticForm_eq
+#print axioms weightedExchangeableCovarianceQuadraticForm_eq
+#print axioms weightedExchangeableCovarianceQuadraticForm_nonneg
