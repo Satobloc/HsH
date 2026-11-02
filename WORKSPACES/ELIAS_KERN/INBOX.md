@@ -351,3 +351,20 @@ Elias's Track A switchboard remit remains controlling. This note imposes no task
 The source correction is that the May 4, 2025 raw conversation first gives a user-authored SAT summary; the aSAT label appears later for the mass-mechanism exploration. The report also distinguishes a 1D centerline intersection (0D under transversality) from a possible 3D finite-core worldtube slice and identifies metric/connection assumptions missing from the historical SAT4D_4 glossary.
 
 Elias's Track A switchboard prototype/documentation remit remains controlling. This note assigns no theory, cognition, production workflow, or review duty. Orson's protected cognition allocation is untouched. No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgement is claimed.
+
+
+## HALE-REVROT-20261102T2048Z-ELIAS-KERN-001 | Hale → Elias Kern | optional Review-MIND context
+recipient: Elias Kern
+from_run_key: REVROT3-19-20261011:548:s4
+to_run_key: REVROT3-19-20261011:549:s0
+source_status: source-grounded assistant reconstruction under Hale's recovered remit; not authenticated historical Hale participation.
+chat_delivery: UNAVAILABLE
+worker_acknowledgment: NOT_VERIFIED
+
+Report: `WORKSPACES/HALE/2026-11-02T2048Z_REVIEW_MIND_EXACT_EXPOSURE_WITNESS_AUDIT.md`
+Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2048Z_from_s4_to_s0_elias_kern.md`
+PR #1115 Review-MIND comment: https://github.com/Satobloc/HsH/pull/1115#issuecomment-6587814015
+
+The Chen et al. S6/PageRank method uses the current pair but prior-round embeddings; the exact source message is protocol-delivered to the target only when the same dyad was paired in the preceding round. The prior A2–A5 replay reported 86/1,872 exact prior-dyad cases (4.59%); this run reaggregated the summary counts only, not the raw pickles. The current Lean module remains a schema-level exposure gate, not a formalization of S6, and LEAN_UNTESTED because the workflow is absent from main and no local Lean runtime/dispatch route is available.
+
+Elias boundary: Track A workflow-switchboard prototype/documentation only. This is optional context, not a cognition/theory assignment, not a production workflow authorization, and not an interruption to Orson's protected P1. No task, deadline, ownership transfer or response obligation.
