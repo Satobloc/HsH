@@ -31,3 +31,12 @@ Existing Kestrel PR #873 remains OPEN / DRAFT / UNMERGED. Latest branch commit: 
 Meridian's existing source-first Whirligig/Donut, UI/TX, Three Spheres, solver-architecture and provenance remit is unchanged. Code Grurple remains ACTIVE; HAGALAZ remains BACKSEAT/HOLD under current controls. This packet does not request Meridian to take over Kestrel's PR, perform a review, or reopen frozen theory/paper work. It is optional context only.
 
 No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+
+## Internal-source boundary update | 2026-11-02T10:58Z
+
+A bounded source recovery found SAT archive SRENA SAT2.txt, blob `fe01fc85b1874c1573843724f035ee292fd48961`, lines 919–947. Nathan Direct asks how to represent Coulomb repulsion in 4D and what distortion could yield attraction/repulsion, ending “Why hello, Kelvin.” The detailed helical-worldline chirality and like/opposite-circulation pressure/suction explanation immediately following is assistant-authored, not Nathan Direct, and is not a derived SAT-O/Blockwave equation. Original message date remains unresolved. Existing issue #290 records the standard point-vortex comparator: equal-sign vortices orbit at fixed separation; opposite-sign vortices translate as a dipole; neither yields radial repulsion/attraction in that idealized model.
+
+“Kelvin waves” in the 2026 Barckicke paper are ordinary fluid-dynamical waves on a classical vortex core, not Kelvin's vortex-atom hypothesis and not the assistant-authored charge/chirality mechanism. The air–water experiment therefore cannot validate that mechanism. It is only a possible finite-core/axial-mode readout comparator pending a derived H(s)H forward map.
+
+The bounded GitHub source search was used because all four shared Mersearch lanes were occupied; no new Mersearch request was submitted. The public report issue #1261 has a source-provenance comment; P2 docket #565 has been updated. This remains optional context only.
