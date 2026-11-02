@@ -35,7 +35,7 @@ namespace HsHVerification.HaleVEY005Trace
 
 inductive Actor where
   | human
-  | assistantSystem
+  | assistant
   deriving DecidableEq, Repr
 
 inductive EventKind where
@@ -55,13 +55,13 @@ def actor : EventKind → Actor
   | .initialNonceConfirmation => .human
   | .ambiguousFollowup => .human
   | .explicitFileCorrection => .human
-  | .unrelatedFileFetch => .assistantSystem
+  | .unrelatedFileFetch => .assistant
   | .repoCountPrompt => .human
   | .recentCommitsPrompt => .human
   | .surfaceQueryPrompt => .human
   | .finalClarification => .human
-  | .correctTargetFetch => .assistantSystem
-  | .assistantInterpretation => .assistantSystem
+  | .correctTargetFetch => .assistant
+  | .assistantInterpretation => .assistant
 
 /-- Relative milliseconds from the initial nonce confirmation. -/
 def eventTime : EventKind → Nat
