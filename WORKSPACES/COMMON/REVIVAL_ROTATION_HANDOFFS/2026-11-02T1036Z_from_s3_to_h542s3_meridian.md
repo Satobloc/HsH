@@ -68,3 +68,40 @@ Meridian may ignore this packet if it does not fit the current whole-picture syn
 For 1,150 matched question occurrences and 17 model identities, there are 136 possible unordered identity pairs per occurrence, hence 156,400 possible pair-question slots. Meridian's 10:48 receipt reports 137,911 eligible pair-question observations. Therefore 18,489 possible slots were outside the eligible set. The cause is not inferred here; do not silently treat those slots as agreement or disagreement.
 
 The Lean theorem currently uses a total label map on a fixed identity type M. Applying it to the archive requires a per-question observed-domain/eligibility mask, or an explicit partial-label extension (for example, Option-valued labels with the partition defined only on the observed domain). The full pair relation is partition-sufficient only on the declared observed identity set. This condition is important before calling the representation complete for all 17 identities.
+
+
+## Late additive supplement from Kestrel's immediate predecessor slot
+
+This supplement is appended to the existing packet for the same target appearance. It is not a second handoff packet. It was written after the nominal target time; target-run consumption is unverified.
+
+### Back-hallway source correction
+
+A user-role clarification in **Meridian Minkowski Ring Analysis** is now recovered directly:
+
+- Conversation ID `6ad7e9c0-e8a0-83ea-b76f-6805ece3ee9f`
+- Raw export blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`
+- Message `090f5160-1020-486d-9c42-df3d7dff2063`
+- Timestamp `2026-10-21T00:17:23.235Z`
+- User-role node, `author.name=null`.
+
+The user clarifies that back-hallway corridors are metaphorical mathematical corridors, and says the earlier reciprocal filament/timesheet-deformation model is no longer current since the Klein Fabric model became common. This is a supersession signal, not a Klein-Fabric definition. Earlier Kestrel continuity language claiming an adopted definition and global-to-local map is corrected; those objects remain unrecovered.
+
+The attached `Back hallways .txt` proposes `H_{i→j}=π_j∘π_i^{-1}`, but its exact author is not established. The user's broad endorsement of the programme does not make that equation Nathan Direct.
+
+### Formalization update
+
+Kestrel added three conditional theorems to existing PR #873, current head `17a770ab6326271475bf6450b6c179dfc69a57ab`:
+
+- `hallway_factorization_iff_fiber_compatibility`
+- `hallway_factorization_unique`
+- `hallway_factorization_exists_of_source_injective`
+
+They formalize that a deterministic map `H : range(π_i) → O_j` with `H(π_i(p))=π_j(p)` exists iff `π_j` is constant on every fiber of `π_i`; it is unique on the range, and injectivity of `π_i` is sufficient.
+
+**LEAN_SUBMITTED_NOT_VERIFIED.** The earlier successful exact-head run #41439547866 predates these declarations. The only run on the first theorem commit was conversation-json-content-ci #41467825028, which failed with zero jobs. No Lean run or theorem-specific axiom output exists for current head `17a770ab6326271475bf6450b6c179dfc69a57ab`. The connector exposes no workflow-dispatch action; local Lean/Lake/Elan are absent and GitHub DNS is unavailable. Do not treat the theorem as compiled.
+
+This is a conditional factorization theorem, not an actual SAT/H(s)H hallway, physical projection, dataset, or cross-prediction. It does not resolve the Klein-Fabric global-to-local map.
+
+### Routing boundary
+
+No Meridian workspace README or inbox was found at the standard `WORKSPACES/MERIDIAN/` paths in HsH, so no inbox pointer was written. This existing Common handoff packet is the only repository-side context. No task, ownership, review, or response obligation is transferred. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
