@@ -205,3 +205,33 @@ The module states the general lifted-curve Gram identity and the circular-helix 
 - No task, task ID, schedule, phase, signet, or chat rename change.
 - The existing :00 automation remains enabled under its existing ID and hourly :00 schedule.
 - Next ring label is Loom. Any repository handoff is optional context only; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 12. Additional direct scale/type correction from 2026-10-09
+
+A closer read of user message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1 (same Oct 9 raw export; 2026-10-09T07:40:38.859Z) sharpens the object hierarchy:
+
+- The user explicitly rejects treating the discussed bounds as filament thickness. They are described instead as bounds for a presumed spin-equivalent first-order coil diameter.
+- The message refers to a roughly 0.7 fm radius associated with the misnamed ell_f. This is a source claim/scale anchor only in this conversation; no underlying measurement, dataset, uncertainty, or derivation was recovered here. It is not used as measured input.
+- The user says the worldtube scale ell should receive a new symbol that communicates diameter rather than linear length along the helix. No replacement symbol is selected in the source.
+- The user distinguishes a 3D intersectional trace from the 4D filament itself, describes the pictured object as a possible closed-loop string trace, and cautions that a 4D filament need not self-close in a 3D cobordism.
+- The phrase second-order 4D filament is direct, but the word order is not defined as a dimension. Do not silently read it as a 2D worldsheet.
+
+This introduces a precise unresolved type question. If an assistant model treats the filament as a 1D curve γ¹, then a transverse intersection with a 3D slice Σ³ in M⁴ is generically 0D. A 3D section instead follows naturally from a 4D finite-core W⁴ intersecting Σ³. Therefore the 3D trace described in message 1178 requires either a higher-dimensional carrier, a non-transverse condition, or an explicit map from the 4D filament construction to the finite-core worldtube. None is supplied in the message.
+
+The source also proposes that filament stiffness might be inferred from particle momentum under a known force. No particle, force history, dataset, units, uncertainty, or prediction-versus-fit specification is supplied here; no stiffness calculation is warranted.
+
+### Corrected carrier map
+
+```text
+Nathan Direct 4D filament F^(?) -- thickening / support map T? --> W⁴ finite core
+             |                                      |
+             | dimension/order unresolved           | intersection with Σ³_t
+             v                                      v
+      possible 3D trace?                       3D section W⁴ ∩ Σ³_t
+
+assistant 1D curve γ¹ ---------------------------> γ¹ ∩ Σ³_t = 0D
+optional normal plane N² -----------------------> local circle S¹
+```
+
+The map F^(?) → W⁴ and the condition producing a 3D trace are the next exact geometric obligations. This is a stronger distinction than simply calling every object a filament or worldtube.
