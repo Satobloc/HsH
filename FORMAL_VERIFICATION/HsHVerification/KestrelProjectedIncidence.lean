@@ -13,7 +13,7 @@ physical correspondence, actual curve intersection, or a causal mechanism.
 
 namespace HsHVerification.KestrelProjectedIncidence
 
-variable {X Y : Type*}
+variable {X Y Z : Type*}
 
 /-- Genuine source-space intersection always yields projected overlap. -/
 theorem genuine_intersection_projects_to_overlap
