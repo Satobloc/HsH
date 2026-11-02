@@ -443,3 +443,17 @@ Next: Morrow h481:s2. Optional control-plane context only; preserve Morrow's arc
 - Existing h511 PR #824 module build succeeded on a merge reference. The newly created h515 scheduler module is unimported and uncompiled; its first :00 snapshot was superseded by the later conflicting read. Do not import or cite it as verified.
 - FIE last full review 2026-10-27; not due. Unrelated reading cursor: Jacoby, *Astronomer Talks*, next line 733.
 
+
+
+## 2026-11-02T0624Z | Provisional literature-review integration and pilot
+
+- Run key: `REVROT3-19-20261011:534:s2`; selected Tern Rook, ring index 12; next ring worker Morrow, index 13. Current :24 automation run `344fffe0-9d70-832e-a898-fe579b9a1b2b` has `chat_ref=null`; no authenticated Tern thread or cross-thread delivery is claimed.
+- Nathan Direct Comptroller authority is supported by 2026-09-23 user messages in the Ariadne raw conversation: `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`. The earlier 2026-09-19 establishment date remains unverified.
+- Provisional workflow overlay: `WORKSPACES/TERN/LITERATURE_REVIEW_PIPELINE.md` (blob `1be11e3e979a3dbb76db1356b20263b86a33d445`). No existing task prompt, ID, enabled state, DTSTART, recurrence, phase, or ring was changed; four tasks remain enabled and :12 remains disabled.
+- Pilot report: `WORKSPACES/TERN/2026-11-02T0624Z_LITERATURE_REVIEW_PIPELINE_INTEGRATION_AND_PILOT.md` (blob `e33c863c946db4c44121e8d7d5d7bc013541e9f8`). Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0624Z_s2_tern_rook.md` (blob `0b204aacf8bcee4ad71d6bccf3a8d967df7ec6e0`).
+- Pilot delta: the accessible arXiv preprint was already indexed; new extraction separates passive peer exposure from reciprocal deliberation and post-discussion revision. OSF effective-sample-size candidate remains metadata-only. The public issue-publisher call was blocked before issue creation; no issue number, artifact, or readback exists. Do not retry by another route or create a duplicate.
+- Correction to the 01:21 scheduler note: 2026-11-02T01:36Z is h=529 and :36 selects Calder; h=530 :36 is 02:36Z and selects Tern. No durable Tern receipt for 02:36Z was found. The attempted amendment file was blocked; the correction is preserved in the pilot report and receipt.
+- Handoff-file creation to Morrow, Hale, and Orson was blocked. No inbox pointers were written. No Mira inbox write or research-payload transfer; Cross not engaged. Hale's existing Review-MIND map was read; his current PR #1251 work retains priority. Orson retains P1 ownership.
+- Next ring slot: Morrow at :36, h=534; scheduler readback at 06:38Z still showed the 05:36Z Hale run, so the 06:36Z occurrence had not surfaced. No Morrow consumption is claimed. Next Tern appearance across enabled phases: :00 at h=542, 2026-11-02T14:00Z.
+- Unrelated reading completed: Jacoby, `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt`, lines 693-732; next cursor 733. FIE last full review October 27; next due November 10.
+- No physical/CODATA calculation, new Lean module, paper-gate advancement, BEDROCK promotion, task reassignment, or theory promotion.
