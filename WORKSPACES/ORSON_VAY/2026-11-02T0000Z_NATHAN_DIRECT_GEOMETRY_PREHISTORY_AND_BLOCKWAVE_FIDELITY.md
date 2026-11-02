@@ -294,3 +294,47 @@ The strongest stable bridge is a **typed hierarchy**, not a single assumed equiv
 4. timesheet readout, whose dimension follows from the carrier dimension and transversality.
 
 The original geometry supplies the conceptual objects and intended readout. The historical assistant mathematics supplies several candidate translations, but it also changes support dimension, ontology, and field type without the required maps. Existing Lean work verifies the conditional geometry and type arithmetic; it does not settle which translation is faithful or which physical premises are true.
+
+## 10. Prior specialist work reused; duplication boundary
+
+This report is a **geometry-prehistory extension**, not a second J3/J2 source audit. Two existing Sable specialist reports were read and reused:
+
+- WORKSPACES/SABLE/2026-11-01T0124Z_SABLE_3FORM_2FORM_SOURCE_AND_DEGREE_MAP_AUDIT.md, blob ade582cb46090b4e623d492db5c24077b556fe22.
+- WORKSPACES/SABLE/2026-10-31T1012Z_SAT_O_BLOCKWAVE_PROVENANCE_AND_EPISTEMIC_STATUS_VECTOR_AUDIT.md, blob e3f09714bc56406cd44719e8369f1e965718f440.
+
+Those reports already recover the September 2025 user editorial sequence, distinguish the assistant Hodge-degree error, formalize source-role separation, recover the Blockwave attachment bytes, and record the conditional local-curvature result. Sable's prior source-attribution correction is already posted to PR #1098 as comment #6551841849. No duplicate comment or J3/J2 audit was added here. The new contribution in this report is the 2024 line/helix seed, the 2025 geometry-first direct messages, the 2026 Kerr-section refinement, and the continuity/type obligations between those geometries.
+
+### 10.1 Blockwave byte provenance and complete assistant-message chain
+
+The September 2025 Blockwave attachment is user-supplied in the raw conversation, attachment ID file-LwaFTKkMemPPrLU4qCLpYB. The original 25,255-byte file hashes to SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664; the Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d matches exactly. This establishes byte identity, not content authorship. The content author remains unknown.
+
+The October 19 Full action definitions raw conversation contains two distinct assistant outputs:
+- 121d607d-53e7-4b5a-8a7a-75d7e09deb3d at 12:29:46.538Z, a formatted action that cites the Blockwave attachment and the separate Ideal Model file.
+- 3039b226-02d4-41a3-a2d3-c338e25204a9 at 12:31:03.318Z, a plain-text unified action and definitions.
+Both are AR. The user's request fa1e045d at 12:29:41.119Z asks for the full action; the later user message f77f769e at 14:49:49.631Z asks for review of a reposted variant. Neither user message establishes authorship or endorsement.
+
+### 10.2 Adjacent SAT4D current-type gap
+
+The June 2025 Nathan-attributed SAT4D Live Draft uses J_μ first for averaged filament flux/linking density and later reuses J_μ for the Dirac current e ψ̄γ_μψ without an explicit derivation identifying the two. Its displayed Maxwell equation has ∂^μF_{μν} on the left but a scalar-looking averaged flux expression on the right, with no displayed free ν index. This is a document-level type/derivation gap, not a Nathan Direct chat equation. The draft's byline and date remain ND-DOC evidence, not raw-message authorship for each formula.
+
+### 10.3 Conditional exact-gradient result already proved elsewhere
+
+For the assistant Blockwave definitions A_μ=α_*∇_μθ and F_{μν}=∇_[μA_{ν]}, if α_* is constant, θ is C² on the patch, and the connection is torsion-free, the local antisymmetric covariant Hessian vanishes and hence F=0 locally. This conditional statement is already formalized in PR #1135, module ScalarHessianAntisymZero.lean, exact-head run #41164589389, SUCCESS. The PR head is af66f06c6fcd842db7b72ff2c3aa66d3794d297d. The analytic theorem's printed dependencies include propext, Classical.choice, and Quot.sound; no sorryAx was reported. The automated axiom-audit, tests and lint stages were not run.
+
+This does not refute the wider Blockwave proposal. It means the action must state what produces nonzero local F: a defect/singularity prescription, non-exact connection, variable α_*, torsion, or another explicit structure. A nonzero global phase period and zero local curvature are different invariants; the source does not yet explain how the global holonomy enters the local FJ coupling.
+
+The current BEDROCK uses a positive Euclidean native ambient metric with any Lorentzian metric treated as a separately derived representation. The Blockwave action assumes Lorentzian g and u·u=−1. The required Euclidean-to-induced-Lorentzian map is not supplied by the action.
+
+### 10.4 Mersearch status correction
+
+The Sable J3/J2 Mersearch request sable-j3-j2-original-source-crosswalk-20261101-0128 was reported IN_PROGRESS at the end of Sable's 01:28 run. It is not counted here as a completed Mersearch result. The current shared lane-3 request now points to the Ravel equation census and remains pending; lane 2 optics also remains pending. Prior lane-1 Orson cognition and lane-4 Tern outputs have completed manifests/receipts, with no explicit release marker. No request was opened, overwritten, or rerouted in this run. The completed Alberr source-search result was used as navigation evidence; Sable's two reports above were reused as existing source-critical work, not as completed Mersearch payloads.
+
+The prior Sable report records zero HsH forks. No fork was used or modified here.
+
+### 10.5 Publication and identity clarification
+
+The existing Sable correction on PR #1098 is the public source-attribution correction for the J3/J2 history. Existing issues #1202 and #1141 already cover the overlapping worldtube/readout and O9 source families. The publisher's issues-opened trigger does not support additive publication to those existing anchors. This report therefore remains internal; no duplicate issue or submission was created.
+
+Sable's current continuity pointer identifies the A. Sable Meridian workspace lineage. The next ring label Sable is not an authenticated Sable or Sable Meridian thread. The handoff below is repository-only, with no cross-thread delivery or acknowledgment claim.
+
+No signet, conversation rename, task-ID change, schedule/phase/cadence change, new task, branch mutation, PR merge, or BEDROCK promotion occurred. The November 9 minor, November 30 major, and December 14 full-theory paper gates remain separate and unchanged.
