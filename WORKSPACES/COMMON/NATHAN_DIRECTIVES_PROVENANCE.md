@@ -196,3 +196,22 @@ The same 3,526-character trial-workflow prompt occurs as three distinct user-mes
 - Mercer `a77cc6ba-980e-4493-bc63-0ab698fcb5ab`, 2026-09-13T15:33:45.258Z.
 
 The three extracted contents are exactly equal. They are separate events in three conversations, not independent corroborating witnesses. This supersedes the earlier two-conversation count without changing the source text or the current theory-stop boundary.
+
+
+## 2026-11-02 raw-source backfill — ACTIVE / FULL_CONVOS / LIVE directory distinction
+
+A completed request-scoped Mersearch run located and the raw export independently confirmed a direct user-role message in the combined Aldus Morrow conversation:
+
+- Conversation: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, title `☘️ ALDUS MORROW [AUTO H(s)H Gitter]`.
+- Message: `0cccc21b-55d9-43c5-b0fd-c1566c27abf4`, 2026-09-13T03:58:36.609961Z; parent assistant node `6cbbe474-cd2f-5c37-bcf8-df7bc3a53df2`; outer role=user, author.name=null.
+- Raw export path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json`; Git blob `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+
+The direct message distinguishes an HsH-root ACTIVE folder, separate copies in FULL_CONVOS, and LIVE conversations mostly saved before the instances had their proper names. It also describes cross-folder name/alias wayfinding. Its opening question about recurring-task authority is a question, not a scheduler delegation; current scheduler controls remain authoritative.
+
+This corrects the assistant-authored Morrow README shorthand that treated ACTIVE as LIVE CONVOS. The exact phrase `ACTIVE = LIVE CONVOS` remains unlocated, but the direct source supports treating the directory labels as distinct. A name/alias cluster is a wayfinding aid, not proof of runtime identity or active-thread status.
+
+At HsH main `c265d90d56b938d03646bff693d65bd248c4ba87` (2026-11-02T21:51:48Z), root listing contains LIVE CONVOS and DEVELOPMENT_FULL_CONVOS; exact root paths ACTIVE and FULL_CONVOS return 404. Exact-path history queries returned no commits. This does not prove the folders never existed in a local/untracked HsH root or earlier source system; no rename or migration is inferred. DEVELOPMENT_FULL_CONVOS is not equated with FULL_CONVOS.
+
+The Mersearch request `morrow-initial-workspace-folder-source-targeted-20261102-1024` completed with 16,650 files / 20,892,631 records / 11 hits / 9 distinct source paths (8 HsH, 3 HSH_RESOURCES). Its compact receipt identifies this Morrow message; raw results and HSH_RESOURCES paths are withheld. The request did not return the separate workspace-creation message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, already recovered independently. These are separate message events, not independent witnesses.
+
+See `WORKSPACES/MORROW/2026-11-02T2148Z_ACTIVE_FULL_CONVOS_LIVE_DIRECTORY_SOURCE_CORRECTION.md` and the Morrow source-identity tagging ledger. This is a source/wayfinding correction only; no theory or scheduler authority changes.

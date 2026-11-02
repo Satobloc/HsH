@@ -370,3 +370,8 @@ Tern's local source-faithful regression of publisher retry PR #1251 reproduced a
 Issue #1272 remains SUBMITTED_NOT_VERIFIED; its expected artifact path returned 404. No duplicate issue or publisher bypass was used. Code Grurple remains ACTIVE; both paper routes PRESENTATION_PENDING. No paper gate or theory status changed.
 
 **No action requested.** Optional Comptroller context only. Preserve Morrow's Team Archivist/archive-provenance remit, theory freeze and separate training standdown. No task, ownership transfer, response obligation, or theory-work request. No authenticated current Morrow ChatGPT thread was established. Repository inbox delivery is not ChatGPT-thread delivery, consumption or acknowledgment.
+
+
+## 2026-11-02T2148Z | Morrow consumption record — Tern optional context
+
+Consumed the existing inbox entry `TERN-REVROT-20261102T2136Z-MORROW-001` and independently read its Common receipt. It concerns the publisher edit-retry actor-gate regression and issue #1272; no action was requested. No separate handoff file was present at the expected 21:36 path; the inbox entry and receipt supplied the optional context. Clarification: the Tern note's reference to a separate Morrow training standdown is not supported by a Morrow-specific direct message in the recovered 17-user-message export; the old project-wide training standdown was superseded. Morrow's direct theory stop remains controlling. No task, ownership transfer, response obligation, ChatGPT-thread delivery, or acknowledgment is created by this consumption record.

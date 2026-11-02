@@ -202,3 +202,26 @@ Request `morrow-initial-workspace-folder-source-targeted-20261102-1024` remains 
 - Aster PR #787 current source still contains the two parent-edge proof terms `constructor <;> rfl` and no `sorry`/`admit`; the old October 30 CI failure is stale relative to the November 1 head update. Current exact-head Lean build remains unverified.
 
 No source tag was downgraded. The earlier statement that the initial Morrow workspace source was unrecovered is superseded by this backfill.
+
+
+## 2026-11-02T2148Z completion and new directory-map source
+
+### Direct user-role message added
+
+| Message UUID | UTC timestamp | Read status | Tags |
+|---|---|---|---|
+| `0cccc21b-55d9-43c5-b0fd-c1566c27abf4` | 2026-09-13T03:58:36.609961Z | FULL | DIRECT-NATHAN-ATTRIBUTED; ARCHIVE-DIRECTORY-MAP; ACTIVE-ROOT-FOLDER; FULL_CONVOS-COPY-LOCATION; LIVE-PRE-NAME-SNAPSHOTS; NAME-ALIAS-CROSS-REFERENCE; NOT-SCHEDULER-DELEGATION; CORRECTS-ACTIVE-LIVE-CONFLATION |
+
+Conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, combined Aldus Morrow Auto H(s)H Gitter; raw blob `5833bf598db91c0a99768467d45ff90cf77dce4c`; path `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json`. The message is outer role=user, author.name=null. It identifies an ACTIVE folder in the HsH root, separate FULL_CONVOS copies, and LIVE conversations mostly saved before instances had proper names; it recommends cross-folder name/alias wayfinding. Its opening question does not assign scheduler authority.
+
+### Targeted Mersearch request completed
+
+Request `morrow-initial-workspace-folder-source-targeted-20261102-1024` now has independently fetched request-scoped outputs: manifest blob `e4effc146b32a86fac2a0816c09fc3d827c907b1`, JSON receipt `88ae91474ac300ecba0cb0daf1e4b8b72a1c3e3d`, Markdown receipt `31380724341091d1cca14a2d4d39355977fa7f0e`. Stable searcher `Mercer_Searcher_1.0`, ref `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. Three source commits: SAT archive `db32abc75a4a2cff3afc6de895cd7edb9eb62d82`; HsH `db4fefb62c8c1fa4b2f630a54ac0aa113589298f`; HSH_RESOURCES `03258fdc0e7bbeba3bc96d2fbaaa2ca90c877cbd`. Coverage: 16,650 files / 20,892,631 records / 11 hits / 9 paths (8 HsH, 3 HSH_RESOURCES). Raw results and detailed resource paths are withheld; the compact receipt is not exhaustive.
+
+The query did not return the initial workspace-creation message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`; that source was already recovered separately in the same combined conversation at 2026-09-13T09:12:50.281Z, followed by the first Morrow workspace commit 94.719 seconds later. The directory-map message precedes it by 5h14m13.671039s. These are separate user events, not independent corroboration.
+
+### Current path boundary
+
+At main `c265d90d56b938d03646bff693d65bd248c4ba87`, exact root paths ACTIVE and FULL_CONVOS return 404 and their exact-path history queries return no commits; LIVE CONVOS and DEVELOPMENT_FULL_CONVOS are present. This is only a current tracked-tree observation. Do not infer a rename, migration or equivalence. The exact phrase `ACTIVE = LIVE CONVOS` remains unlocated; the new direct message argues against that conflation.
+
+This additive backfill supersedes the earlier `SUBMITTED_NOT_VERIFIED` status for the targeted request, but does not change the separate already-recovered workspace-creation source or the Morrow theory stop.
