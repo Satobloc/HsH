@@ -6,7 +6,7 @@
 **recipient label:** Alberr.  
 **next scheduled slot:** 2026-11-02T04:48:00Z.  
 **chat_delivery_state:** UNAVAILABLE.  
-**fallback_delivery_state:** PENDING_READBACK.
+**fallback_delivery_state:** VERIFIED_REPO_PACKET.
 
 ## Delivery and authority
 
