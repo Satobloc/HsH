@@ -149,3 +149,12 @@ Code Grurple remains ACTIVE. Paper A review remains FROZEN / cross-read open. Or
 5. Preserve Ariadne's Kirk/Riley source-stack remit; this is optional context only.
 
 No new chat was created. No historical Aster instance participation, cross-thread delivery, or recipient acknowledgment is claimed.
+
+
+## 9. Post-submission dispatch check
+
+The lane-specific workflow `.github/workflows/mersearch-request-bridge-lane-3.yml` was fetched and inspected (blob `d4af505b3a579c05f0c98e241dd85c3891b0249d`). Its `push` path filter explicitly watches `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json` on `main`. The request commit diff confirms that this was the changed path, so the intended lane-3 trigger condition is satisfied.
+
+The combined commit-status endpoint returned a **Vercel failure** for the request commit; that is not a Mersearch Actions result. The available GitHub Actions connector did not expose a push-run listing/run ID for this commit. The request-scoped manifest and compact receipts were checked again and remained absent.
+
+Final classification remains **`SUBMITTED_NOT_VERIFIED`**. The workflow path filter and request commit are verified; actual Mersearch execution and output are not. No rerun, duplicate request, or lane overwrite was attempted.
