@@ -123,3 +123,42 @@ When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPME
 2. verify `author.role == user`;
 3. replace the pending fields above with exact conversation ID, message/node ID, timestamp, and repository path;
 4. do not alter the directive summary except to append a correction note if Nathan later changes it.
+
+
+## 2026-11-02 raw-source backfill — September 13 directives
+
+This additive backfill supersedes the pending locator fields for the two directives below only. Earlier entries are retained as the historical state at the time they were recorded.
+
+### Dashboard, quarantine scope and Viewer continuation (approximately 05:00 EDT)
+
+- Conversation ID: `6aa5fe86-e258-83ea-9f24-2330244116aa` (Mercer Archive Mover).
+- Message/node ID: `c8635cd6-9aa3-4b1f-8132-8977e9303707`.
+- UTC timestamp: `2026-09-13T09:00:28.268Z`; local timestamp: `2026-09-13 05:00:28.268 EDT`.
+- Speaker: user; parent: null.
+- Raw path: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json`.
+- Snapshot blob read: `28495aa20438f7b4c9cb19ab49d6c5b871c31086`.
+- Scope verified: Dashboard remains open/useful for navigation; quarantine status and reasons should be visible; Viewer continuation is requested. This source does not establish the separate `ACTIVE = LIVE CONVOS` shorthand.
+- Related durable record: `2026-09-13_DASHBOARD_QUARANTINE_VIEWER_DIRECTIVES.md`.
+
+### Personal-workspace notice and scoped-instance continuity (approximately 05:47 EDT)
+
+- Conversation ID: `6aa5fe86-e258-83ea-9f24-2330244116aa` (Mercer Archive Mover).
+- Message/node ID: `7235b984-0ce1-4fa1-bacf-d3de9a6876bc`.
+- UTC timestamp: `2026-09-13T09:47:51.144Z`; local timestamp: `2026-09-13 05:47:51.144 EDT`.
+- Speaker: user; parent: null.
+- Raw path: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json`.
+- Snapshot blob read: `28495aa20438f7b4c9cb19ab49d6c5b871c31086`.
+- Scope verified: add a general notice describing when/how a scoped instance should request a personal workspace, stable identity, conversation provenance and a Commons placard. This is the source for the general notice, not an instruction to create Morrow's workspace.
+- Chronology guard: this message postdates the first Morrow workspace commit (`c18c66a26de2660d7336df7569dd4a5d656f39be`, 2026-09-13T09:14:25Z) by 33 minutes 26.144 seconds. It cannot be the original Morrow workspace-creation request.
+
+### Separate earlier workspace-creation precedent: Argus
+
+- Conversation ID: `6aa26f76-1728-83e9-b640-de423ba5a90a` (ARGUS H(s)H Archive Audit).
+- Message/node ID: `dfc69a8e-ab65-4fc9-8fcd-00951824c220`.
+- UTC timestamp: `2026-09-10T11:23:01.007Z`.
+- Speaker: user; parent: null.
+- Raw path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json`.
+- Git blob: `284c35a55252099e404361ce82c9ff61fdbb3071`.
+- Scope verified: explicit named personal-workspace setup for Argus. This is a precedent for the general continuity pattern, not evidence of Morrow's workspace request.
+
+The exact initial Morrow workspace-creation message remains unrecovered. The Morrow 17-user-message export contains a later recurring-maintenance instruction, not an initial creation request. A targeted Mersearch follow-up is pending under request `morrow-initial-workspace-folder-source-targeted-20261102-1024`.
