@@ -1,0 +1,359 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "ce8ef9b3dbe6981ce9c7d2077c3cd1e7b00730b4be1f26ddcd868ef19c1854f1",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-02T08:20:32.319088+00:00",
+  "query": "author:user AND date:2026-09-07..2026-09-14 AND (workspace OR \"task workspace\" OR \"personal workspace\" OR \"Common participation\" OR \"LIVE CONVOS\" OR Dashboard OR Viewer OR \"front door\" OR navigation)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16608,
+    "records_scanned": 20889714,
+    "hits": 124
+  },
+  "counted_hits": 124,
+  "distinct_sources": 55,
+  "results_by_root": {
+    "hsh-main": 113,
+    "resources": 11
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "date:2026-09-07..2026-09-14",
+      113
+    ],
+    [
+      "author:user",
+      113
+    ],
+    [
+      "workspace",
+      44
+    ],
+    [
+      "LIVE CONVOS",
+      28
+    ],
+    [
+      "Dashboard",
+      27
+    ],
+    [
+      "Viewer",
+      15
+    ],
+    [
+      "navigation",
+      12
+    ],
+    [
+      "personal workspace",
+      6
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json",
+      "title": "Mercer Archive Mover",
+      "record_count": 4,
+      "best_score": 92,
+      "first_hit_index": 90,
+      "sample_hit_index": 103,
+      "locator": "message:7235b984-0ce1-4fa1-bacf-d3de9a6876bc",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.16•Mercer Archive Mover — raw.json",
+      "title": "Mercer Archive Mover",
+      "record_count": 4,
+      "best_score": 92,
+      "first_hit_index": 91,
+      "sample_hit_index": 104,
+      "locator": "message:7235b984-0ce1-4fa1-bacf-d3de9a6876bc",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "title": "Mercer Archive Mover",
+      "record_count": 4,
+      "best_score": 92,
+      "first_hit_index": 92,
+      "sample_hit_index": 105,
+      "locator": "message:7235b984-0ce1-4fa1-bacf-d3de9a6876bc",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.21•Mercer Archive Mover — raw.json",
+      "title": "Mercer Archive Mover",
+      "record_count": 4,
+      "best_score": 92,
+      "first_hit_index": 93,
+      "sample_hit_index": 106,
+      "locator": "message:7235b984-0ce1-4fa1-bacf-d3de9a6876bc",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.22•Mercer Archive Mover — raw (3).json",
+      "title": "Mercer Archive Mover",
+      "record_count": 4,
+      "best_score": 92,
+      "first_hit_index": 94,
+      "sample_hit_index": 107,
+      "locator": "message:7235b984-0ce1-4fa1-bacf-d3de9a6876bc",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json",
+      "title": "ARGUS H(s)H Archive Audit",
+      "record_count": 2,
+      "best_score": 92,
+      "first_hit_index": 65,
+      "sample_hit_index": 65,
+      "locator": "message:dfc69a8e-ab65-4fc9-8fcd-00951824c220",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "personal workspace"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "title": "🧗‍♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis]",
+      "record_count": 5,
+      "best_score": 85,
+      "first_hit_index": 23,
+      "sample_hit_index": 43,
+      "locator": "message:fed478ad-8022-46b1-a972-ac74bf7d37b2",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07•26.09.09•MORROW [Reconstruct H(s)H Synthesis] — raw (3).json",
+      "title": "MORROW [Reconstruct H(s)H Synthesis]",
+      "record_count": 3,
+      "best_score": 85,
+      "first_hit_index": 27,
+      "sample_hit_index": 44,
+      "locator": "message:fed478ad-8022-46b1-a972-ac74bf7d37b2",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "workspace",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "title": "☘️ ALDUS MORROW [AUTO H(s)H Gitter]",
+      "record_count": 6,
+      "best_score": 76,
+      "first_hit_index": 2,
+      "sample_hit_index": 2,
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 4,
+      "best_score": 76,
+      "first_hit_index": 13,
+      "sample_hit_index": 13,
+      "locator": "message:1a711190-439f-40f6-8adc-6880b57f1815",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 4,
+      "best_score": 76,
+      "first_hit_index": 15,
+      "sample_hit_index": 15,
+      "locator": "message:1a711190-439f-40f6-8adc-6880b57f1815",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "title": "🗿ORCHESTRATOR JANUS H(s)HvO",
+      "record_count": 4,
+      "best_score": 76,
+      "first_hit_index": 16,
+      "sample_hit_index": 16,
+      "locator": "message:1a711190-439f-40f6-8adc-6880b57f1815",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.08•☘️ Aldus [AUTO H(s)H Gitter] — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.08•Aldus [AUTO H(s)H Gitter] — raw (1).json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.08•Aldus [AUTO H(s)H Gitter] — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06•26.09.08•Aldus [AUTO H(s)H Gitter] — raw (2).json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/LIVE CONVOS/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "locator": "message:8be984c1-779c-409d-97f9-aa9053d53eb4",
+      "matched_terms": [
+        "author:user",
+        "date:2026-09-07..2026-09-14",
+        "LIVE CONVOS"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
