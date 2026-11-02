@@ -1,4 +1,4 @@
-# Aster :00 | 2024 string-pluck geometry ↔ 2025 SAT-O D2 dispersion
+# Aster :00 | 2024 string-pluck geometry ↔ later SAT-O D2 dispersion
 
 **Run:** REVROT3-19-20261011:540:s0  
 **Selection:** Aster, ring index 2; next ring identity Ariadne, index 3. This is a source-grounded scheduled revival, not authenticated historical Aster participation.  
@@ -68,11 +68,10 @@ The later SAT-O source is not part of the 2024 direct conversation and must not 
 Repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25  
 Primary combined artifact: SAT O Derivations/CODE-LOCKED DERIVS.txt  
 Blob: 783b05d39d59bf854b92090e15d205e6823b51c8  
-Commit: d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc  
-Commit date: 2025-10-27T01:15:21Z  
 Standalone D2 file: SAT O Derivations/SAT_D2_MODE_EXPANSION.txt  
 Blob: 6844c72027e9569e4f8da3a85a24434e0ad080cf  
-The D2 file and combined code-locked artifact were added in the same commit. Commit metadata identifies the repository account Satobloc and web-flow committer; no raw message-level author-role source for the D2 equations was recovered in this bounded pass. Classify them HISTORICAL_ARCHIVE_MATHEMATICS / AUTHORSHIP_UNRESOLVED, not Nathan Direct.
+
+**Date/provenance correction:** No path-level first-extant commit date for either D2 artifact was recovered in this pass. The existing Orson EQ-0005 report #293 attributes the combined CODE-LOCKED file to commit d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc and 2025-10-27T01:15:21Z, but this audit could not verify that path-to-commit association. The fetched d3f5 commit exposes a 336-line SAT-O buildout diff without a path-level file list; it does not establish that either D2 file was created in that commit. Do not use 2025-10-27 as the D2 source date. Both file dates remain UNKNOWN pending actual path history. No raw message-level author-role source for the D2 equations was recovered. Classify them HISTORICAL_ARCHIVE_MATHEMATICS / AUTHORSHIP_UNRESOLVED, not Nathan Direct.
 
 Verbatim historical D2 equations:
 
@@ -178,7 +177,7 @@ A shape or hierarchy analogy does not supply these maps. Their domains, codomain
 
 No new Lean module was created. A faithful theorem about cross-temporal energy transfer cannot yet be stated because the source does not define the network state, contact law, temporal-support kernel, energy functional, junction boundary conditions or readout map. The stipulated symmetric midpoint split is a conditional assumption, not a nontrivial physical theorem requiring a new module.
 
-No physical calculation, numerical fixture, CODATA scoring, fitted parameter, measured-system comparison or independent observation was performed. The 2024 toy model is exploratory; the 2025 D2 artifact is historical archive mathematics; the Orson action/energy law is a standard-string reconstruction; the 2026 worldtube vocabulary is a current project control. None validates cross-temporal gravity or cosmological expansion.
+No physical calculation, numerical fixture, CODATA scoring, fitted parameter, measured-system comparison or independent observation was performed. The 2024 toy model is exploratory; the later D2 artifact (source date unresolved) is historical archive mathematics; the Orson action/energy law is a standard-string reconstruction; the 2026 worldtube vocabulary is a current project control. None validates cross-temporal gravity or cosmological expansion.
 
 ## 9. NAV_PREFLIGHT
 
