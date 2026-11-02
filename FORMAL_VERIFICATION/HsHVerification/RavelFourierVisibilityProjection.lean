@@ -100,9 +100,9 @@ theorem closurePhase_stationPhase_offsets_cancel
 Actual measured M87* HOPS high-band sample, 2017-04-05.
 Dataset: eventhorizontelescope/2019-D01-01
 File: csv/SR1_M87_2017_095_hi_hops_netcal_StokesI.csv
-Git blob: 3c5a0c8d8e7f2f8f5e0e5e9d5b8d2c7a6b9c0f11
+Git blob: d6cac32d27a6877ca0753574eae07912c143ce8e
 
-At UTC day fraction 03.60138881, directed phases are:
+At time(UTC)=03.60138881 (CSV row numbers 1452, 1458, 1453), directed phases are:
   AA->AZ = -43.3539 deg
   AZ->LM = -44.3824 deg
   AA->LM = -118.2559 deg
