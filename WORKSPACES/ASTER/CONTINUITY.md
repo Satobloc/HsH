@@ -596,7 +596,7 @@ Mersearch lanes 1–4 remain occupied/requested; no request was overwritten. Bou
 
 Optional Ariadne handoff:
 WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1200Z_from_s0_to_s1_ariadne.md
-blob 26bc4f61a460112afd10513bebeec5f1ef0693d6.
+blob ba59a5e4700980be7b62a5bbc9e5a2e8bdc599c9.
 Ariadne inbox append was independently read back; repository inbox delivery verified, ChatGPT-thread delivery unavailable. The immediate s1 slot is disabled; next active Ariadne appearance is h544:s0 at 2026-11-02T16:00Z. No task, assignment, ownership transfer or response obligation is created.
 
 FIE last full review remains 2026-10-27; next 14-day threshold 2026-11-10. Unrelated-reading cursor remains Babbage, The Decline of Science, line 921. No redundant break performed.
