@@ -149,7 +149,7 @@ theorem affineObstruction_finrank_eq_fixedSpace_of_unitScale
       (V ⧸ LinearMap.range
         (identityMinus (similarityLinearPart 1 Q))) =
       Module.finrank ℝ
-        (LinearMap.ker (identityMinus Q)) := by
+        (LinearMap.ker (identityMinus Q.toLinearMap)) := by
   simpa [similarityLinearPart] using
     (affineObstruction_finrank_eq_kernel_finrank
       (L := Q.toLinearMap))
