@@ -1,0 +1,79 @@
+{
+  "request_id": "ravel-sat-equation-census-20261101-2332",
+  "query": "(body:SAT OR body:\"Scalar-Angular Theory\") AND (math:theta OR math:gamma OR math:Sigma OR math:sin OR math:cos OR math:mu OR math:lambda OR math:J OR math:F OR math:g)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "601460befd7a84d0fad806a19e26a5a4e653a3de",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "456cff05e6a1e9ce143e9efd6553942ca2753886",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "db32abc75a4a2cff3afc6de895cd7edb9eb62d82",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "601460befd7a84d0fad806a19e26a5a4e653a3de",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "464c1207b063139d1eac65fcd2ad4975ea22b8973daeaee2b5bfe9f090575f95",
+    "SEARCH_RESULTS.md": "d9316834a90288bf17bb830fa8a09d0a305aab30fc163df66c02b6fa7286d468",
+    "SEARCH_RECEIPT.json": "4787c34af8ebf146fb1b07bb9112eeb672e8272b0672731f38b14116c94825eb",
+    "SEARCH_RECEIPT.md": "65380755a4a3fbcd6eae0462314de05f7a0f0cc8d5ae2d2a7090593df51243c8"
+  }
+}
