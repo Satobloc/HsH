@@ -207,3 +207,37 @@ Existing PR #759 now includes `LoomCompendiumSourceBinding.lean`, which binds a 
 **Crosswalk caution:** the 2024 “time surface” is not automatically identical to the current 2026 timesheet/wavesheet; the 2024 “tugs” are not automatically identical to the current time-wavefront primitive. Any mapping requires explicit projection/composition maps and conditions. The assistant-reconstructed interaction-support kernel remains a proposal, not Nathan Direct or a source equation.
 
 **Next source cursor:** DIMENSIONAL GRAVITY user turn 61 of 138. The unrelated reading cursor advanced separately: `fun break - lx.txt`, lines 221–260 read; next line 261. FIE full rereview remains not due (last full review 2026-10-27).
+
+
+## 2026-11-02T1148Z | DIMENSIONAL GRAVITY full-ancestry coverage reconciliation
+
+**Source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`; conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`; raw Git blob SHA-1 `2cea1924266418e19b825b95ae51e6b7cbace7e1`.
+
+### Graph and coverage audit
+
+The raw JSON contains 466 mapping nodes. Following `current_node` through parent links yields 456 selected-ancestry nodes and all 138 outer `author.role=user` messages; **0 user-role messages are off the selected ancestry**. Turns 61–138 (78 user-role turns) were read with immediate parent/child context in this run, then each message UUID was checked against existing HsH tag ledgers, verified batches, and the Compendium to prevent duplicate tagging.
+
+- Turns 1–30 and 31–60 are already recorded in this ledger.
+- Turns 61–90 are already covered across the September 13 SAT-naming, string-terminology, filament-hierarchy and verified-word records, plus the October 28 Loom hierarchy/assistant-span ledgers, **except turn 72**.
+- Turns 91–120 already have exact-ID coverage in the existing early-definition, 03:49–04:28, out-of-cursor, March 28 and 01:02–02:10 ledgers.
+- Turns 121–138 already have exact-ID coverage in the 01:02–02:10, 02:14–02:19, June 1 reopen, June 1 17:50–17:53 and final 18:17 ledgers/verified batches.
+
+Thus 137 of 138 user-role messages already had a located tag record. Exact-ID search found no prior tag/Compendium entry for the following message.
+
+### Newly tagged missing message
+
+| User turn | Message UUID | Timestamp | Additive tags | Source-grounded classification |
+|---:|---|---|---|---|
+| 72 | `aaa2c16c-3ef1-42e8-a086-dd5fe06c34a6` | 2024-03-23T05:37:36.040991Z | `NATHAN-DIRECT-QUESTION`; `SAT-VS-STRING-THEORY-CLASSIFICATION-QUESTION`; `FRAMEWORK-ONTOLOGY-QUESTION` | Asks whether SAT should be classified as a type of string theory or as a distinct framework. It is a classification question, not an assertion that the two are identical. |
+
+The next direct user turn, `aaa2aa48-7d9d-4b8a-ae2c-4bb2a6b6c5c7`, is already tagged in the existing string-terminology ledger and states that SAT strings are distinct from those in string theories while allowing possible overlap/subsumption of selected constructs. The question and the subsequent clarification are linked as **QUESTION_PRECEDES_USER_CLARIFICATION**, not counted as two independent witnesses for a physical claim. The immediate parent/child assistant messages remain assistant-authored context.
+
+### Formalization and physical-evidence disposition
+
+`FORMALIZATION_BLOCKED_DEFINITION`. This tranche contains explicit geometric vocabulary (4D filaments, a 3D time surface, intersections, nested composite structures, and cross-temporal “tugs”), but it does not supply the typed geometric objects or maps needed for a faithful theorem: no specified 4D manifold/metric, embedded time-surface map, filament parameterization, intersection/incidence map with uniqueness or transversality conditions, composition/projection maps for the hierarchy, or typed tug operator/kernel with units and temporal boundary/propagation law. The existing conditional helix-slice formalization is not a proof of this hierarchy or tug hypothesis. No Lean module was invented merely to prove a tautology.
+
+The later “actual string attached to a sphere” construction in turns 117–120 is a hypothetical model prompt, not an identifiable measured system. No physical calculation, fit, prediction or measurement was performed. The 2024 “time surface” and “tug” vocabulary is preserved historically and is not silently normalized to the 2026 timesheet/wavesheet or time-wavefront primitives. No SAT-O/Blockwave equation was recovered or changed in this tranche.
+
+### Cumulative frontier
+
+All 138 user-role turns in this conversation now have tag coverage across the current and prior ledgers. **No uncovered user-role turn remains.** The next useful pass is assistant-span/source-ancestry review (starting from the existing `2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`), not another user-turn tagging pass. In particular, preserve the established finding that the later user-supplied outline contains assistant-origin prediction/testing sentences; an outer user role does not make every embedded span an independent Nathan derivation.
