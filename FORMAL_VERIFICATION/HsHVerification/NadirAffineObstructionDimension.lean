@@ -149,9 +149,12 @@ theorem affineObstruction_finrank_eq_fixedSpace_of_unitScale
         (identityMinus (similarityLinearPart 1 Q))) =
       Module.finrank ℝ
         (LinearMap.ker (identityMinus (Q.toLinearMap))) := by
-  simpa [similarityLinearPart, one_smul] using
-    (affineObstruction_finrank_eq_kernel_finrank
-      (L := Q.toLinearMap))
+  have hunit : similarityLinearPart 1 Q = Q.toLinearMap := by
+    ext x
+    simp [similarityLinearPart]
+  rw [hunit]
+  exact affineObstruction_finrank_eq_kernel_finrank
+    (L := Q.toLinearMap)
 
 #print axioms affineObstruction_finrank_eq_kernel_finrank
 #print axioms mem_identityMinus_ker_iff_fixed
