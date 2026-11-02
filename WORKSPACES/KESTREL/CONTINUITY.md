@@ -390,8 +390,3 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - Common rotation receipt created and independently read back: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2200Z_s0_kestrel.md, blob SHA-1 f705e385475d230b579946c3998eedfd3a621b43.
 - Optional Meridian handoff is committed and independently read back at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2200Z_from_s0_to_s0_meridian.md. Meridian has no inbox; no recipient inbox or ChatGPT-thread delivery is claimed.
 - Latest main head observed after receipt commit: 81e9c8374ce85f7c263f9e6f94418d7be57508f0.
-
-
-### Final observed repository head
-
-After the receipt and Meridian handoff updates, the latest observed main commit is 067ade181d8ac21d001392987708be8625866086.
