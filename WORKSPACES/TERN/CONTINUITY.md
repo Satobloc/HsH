@@ -527,3 +527,8 @@ Tern's existing PR #824 remains OPEN/DRAFT/UNMERGED on `research/tern-dim-proven
 Detailed report: `WORKSPACES/TERN/2026-11-02T1748Z_COMPTROLLER_GRURPLE_SIGNAL_AND_PUBLISHER_AUTH_AUDIT.md`.  
 Morrow optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1748Z_from_s4_to_s0_morrow.md`.  
 No task, branch, PR, new issue, paper, reader, theory, or BEDROCK promotion occurred. No ChatGPT-thread delivery or recipient acknowledgment is claimed.
+
+
+### Orson protected-remit audit, 2026-11-02T1748Z
+
+The five most recent substantive Orson receipts were checked: 2026-11-02 11:24Z (VEY-026 LLM cognition/ESS), 03:48Z (P1 source/PCR methods), 2026-11-02 00:00Z (one geometry exception), 2026-11-01 16:24Z (P1 NLI sensitivity), and 2026-11-01 12:36Z (P1 mapper/aggregation). Observed sample: 4/5 cognition-focused, one bounded geometry exception. The current P1 protocol freeze is methods/archival scope with no new LLM trial; issue #564 remains SOURCE/EXPERIMENT READINESS; PR #850 remains draft/unmerged. Orson ownership and work were not modified.
