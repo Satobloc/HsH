@@ -338,3 +338,7 @@ Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIO
 - Latest Kestrel Lean repair commit `8fb6fd385a627ca1cbdfb64a645caf1471afb1e4` still lacks an exact-head run; no proof-success claim.
 - Optional context only; no task, ownership transfer, response obligation, or ChatGPT-thread delivery claim.
 
+
+## ROUTING-CORRECTION | Kestrel 2026-11-02T1036Z | SUPERSEDED
+The three Kestrel entries above for the 10:36Z run were misaddressed. The prescribed successor is ring[(seq+1) mod 19], not the next hourly selection: h=538, seq=2693, Kestrel index 14 → Meridian index 15. The Kestrel-to-Sable handoff file is now marked SUPERSEDED and retained for audit only. No action, review, response, or ownership is requested of Sable. Correct optional context is in the Kestrel-to-Meridian handoff at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1036Z_from_s3_to_s4_meridian.md` once created.
+
