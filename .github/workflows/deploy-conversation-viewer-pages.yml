@@ -1,21 +1,22 @@
-name: Deploy Glass Sausage Factory and Conversation Viewer to GitHub Pages
+name: Deploy conversation viewer to GitHub Pages
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'CONVERSATION_VIEWER/**'
-      - 'PUBLIC_SITE/site/**'
-      - 'PUBLIC_SITE/*.json'
-      - 'PUBLIC_SITE/generated/papers.json'
-      - 'PUBLIC_SITE/instruments/**'
-      - 'PUBLIC_SITE/assets/**'
-      - 'PUBLIC_SITE/PAPERS/**'
-      - 'PUBLIC_SITE/runtime/page-listen.js'
-      - 'PUBLIC_SITE/runtime/math-speech.js'
-      - 'tools/publish_papers.py'
-      - 'SAT_VISUALS/**'
+      - 'CONVERSATION_VIEWER/index.html'
+      - 'CONVERSATION_VIEWER/mersearch/**'
+      - 'CONVERSATION_VIEWER/*.js'
+      - 'CONVERSATION_VIEWER/*.css'
+      - 'CONVERSATION_VIEWER/data/**'
+      - 'tools/build_conversation_viewer.py'
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/build_conversation_viewer_resolved.py'
+      - 'indexes/manifests/development-conversation-dates.json'
+      - 'indexes/manifests/live-conversation-dates.json'
+      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
+      - 'CONVERSATION_VIEWER/CURATION.json'
       - '.github/workflows/deploy-conversation-viewer-pages.yml'
 
 permissions:
@@ -24,8 +25,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: glass-sausage-factory-pages-sparse
-  cancel-in-progress: false
+  group: conversation-viewer-pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -33,41 +34,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 1
-          sparse-checkout: |
-            /CONVERSATION_VIEWER/**
-            /PUBLIC_SITE/site/**
-            /PUBLIC_SITE/CURRENT_WORK.json
-            /PUBLIC_SITE/FEATURED_QUOTES.json
-            /PUBLIC_SITE/NEWS_FEED.json
-            /PUBLIC_SITE/PAPERS_FEED.json
-            /PUBLIC_SITE/ASSET_MANIFEST.json
-            /PUBLIC_SITE/generated/papers.json
-            /PUBLIC_SITE/PAPERS/**
-            /PUBLIC_SITE/instruments/INSTRUMENT_REGISTRY.json
-            /PUBLIC_SITE/instruments/whirligig/index.html
-            /PUBLIC_SITE/instruments/universal-indicatrix/index.html
-            /PUBLIC_SITE/instruments/universal-indicatrix/assets/**
-            /PUBLIC_SITE/assets/diagrams/**
-            /PUBLIC_SITE/runtime/page-listen.js
-            /PUBLIC_SITE/runtime/math-speech.js
-            /tools/publish_papers.py
-            /WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/**
-            /SAT_VISUALS/Cruller_Rubin_Stellar_Visibility_Sandbox_R0.pdf
-          sparse-checkout-cone-mode: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.x'
 
-      - name: Validate resolved Viewer catalog and curation
+      - name: Validate resolved catalog, rather than overwriting public GLASS discovery
         run: |
           python - <<'PY'
           import hashlib,json
@@ -81,28 +57,18 @@ jobs:
           assert data.get('curation',{}).get('sha256_16')==sha, 'stale Viewer curation'
           assert any(item.get('source_repository')=='Satobloc/SAT_THEORY_ARCHIVE_2023-25'
                      for item in data['conversations']), 'public GLASS discovery missing'
-          print('Publishing resolved, curated Viewer catalog with',len(data['conversations']),'conversations')
+          print('Publishing resolved, curated Viewer catalog with',
+                len(data['conversations']),'conversations')
           PY
-
-      - name: Validate published paper PDFs
-        run: python tools/publish_papers.py --check
-
-      - name: Test static site builder
-        run: |
-          python -m unittest discover -s PUBLIC_SITE/site -p 'test_*.py'
-          node --input-type=module --check < PUBLIC_SITE/site/site.js
-
-      - name: Build combined public site artifact
-        run: python PUBLIC_SITE/site/build.py --root . --output _site --base-path /HsH/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload combined public site
+      - name: Upload conversation viewer
         uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: CONVERSATION_VIEWER
 
-      - name: Deploy combined public site
+      - name: Deploy conversation viewer
         id: deployment
         uses: actions/deploy-pages@v4
