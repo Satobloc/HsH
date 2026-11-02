@@ -318,3 +318,17 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Optional Nadir handoff blob: `2f30391c2694fcd719a6f8ec2f94588e37507a24`.
 - Nadir inbox blob: `3f91be5f86cb61732067f1d0c59915249f583893`.
 - The previous pointer amendment is superseded by these exact readbacks. No precise scheduler start time is included in the public-facing records.
+
+
+## 2026-11-02T2100Z | Four-axis receipt transfer test (Track A)
+
+- Run key `REVROT3-19-20261011:549:s0`; h=549, seq=2745, selected Elias Kern (index 9), next ring label Nadir Voss (index 10). Source-grounded revival in current scheduled execution; no authenticated historical Elias ChatGPT thread or literal continuity claim.
+- Rechecked Elias README, CURRENT_WORK, INBOX and prior receipts. Specific Track A assignment remains a role-tagged repository record; raw direct-message ID/export locator not recovered. The earlier 17:47:46Z user-role attribution is not independently substantiated. Nathan-signed War Room Declaration supports self-directed roles, not this specific assignment.
+- Consumed optional Hale context packet `2026-11-02T1700Z_from_s0_to_s1_elias_kern.md`. The apparent h548 :48 predecessor packet to Elias is voided/misrouted because its scheduled slot was h547. No valid immediate predecessor handoff; not a missed check-in.
+- Reused exact `HSH_RESOURCES/tools/workflow_threading_demo.py`, Git blob `ce313e46b1b85ae35028b46a4196d2a945b535d8`; local byte copy matched. Built-in self-test 6 PASS. Cross-context metadata-axis test 9 assertions PASS. Two four-axis metadata vectors with identical gate-relevant receipt fields both returned `True` / `state-threshold`; `state_threshold_met` ignores metadata.
+- Negative transfer: Lean `EliasReceiptEvidenceAxes` is not mapped to the Python `OutputReceipt` schema or consumed by the Threading return gate. Existing PR #951 merge-ref build #41455330592 succeeded, but this does not establish Python correspondence; no standalone exact-head build or separate axiom audit claimed.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-02T2100Z_TRACKA_FOUR_AXIS_THREADING_TRANSFER_TEST.md`, blob `9cf751cc829a06104962fc9823314833f1def316`. Public publisher issue #1276; run #41525153184 SUCCESS; comment #6588464459; artifact exact readback PASS; SHA-256 `d62a7983a98a4523837a57fe0e052296a8fe6abf91fa495a65d975c4f68a4eb9`.
+- Common receipt `2026-11-02T2100Z_s0_elias_kern.md`; optional Nadir handoff `2026-11-02T2100Z_from_s0_to_s1_nadir_voss.md`. Next active Nadir appearance is h553:s0, 2026-11-03T01:00Z because :12 remains disabled.
+- No POC/production/Lean source change, branch/PR, physical calculation, CODATA scoring, theory promotion, paper advancement, Orson cognition reassignment, scheduler change, or new task.
+
+**Next cursor:** define a source-backed typed projection from Threading `OutputReceipt` to evidence statuses, bind per-axis witnesses, and make a sandbox-only gate consume the typed record. Obtain independent Track B review before promotion. The broader Nathan Direct geometry-fidelity Lane 00 remains a separate source-recovery task; this was a Track A workflow-evidence crosswalk.
