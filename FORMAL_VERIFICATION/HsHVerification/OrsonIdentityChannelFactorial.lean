@@ -29,18 +29,6 @@ No empirical observations or physical fixtures are introduced.
 
 namespace HsHVerification.OrsonIdentityChannelFactorial
 
-/-- Outcome when both identity channels are visible. -/
-def yBothVisible (y11 : ℝ) : ℝ := y11
-
-/-- Outcome when Channel 1 is visible and Channel 3 is anonymized. -/
-def yChannel1VisibleOnly (y10 : ℝ) : ℝ := y10
-
-/-- Outcome when Channel 1 is anonymized and Channel 3 is visible. -/
-def yChannel3VisibleOnly (y01 : ℝ) : ℝ := y01
-
-/-- Outcome when both identity channels are anonymized. -/
-def yBothAnonymized (y00 : ℝ) : ℝ := y00
-
 /-- The published Round-2-only anonymization contrast. -/
 def deltaR2 (y11 y10 : ℝ) : ℝ := y11 - y10
 
@@ -84,7 +72,7 @@ theorem full_contrast_is_path_decomposition
     (y11 y10 y00 : ℝ) :
     deltaFull y11 y00 =
       deltaR2 y11 y10 + reportedChannel1Contrast y11 y10 y00 := by
-  unfold deltaFull deltaR2 reportedChannel1Contrast
+  unfold reportedChannel1Contrast deltaFull deltaR2
   ring
 
 theorem interaction_equals_difference_of_channel3_simple_effects
