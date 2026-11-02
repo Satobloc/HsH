@@ -383,3 +383,10 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - Issues #1279 and #1280 remain closed rejected submissions without artifacts. #1281 is the only published report for this h550 delta.
 - PR #873 has publication correction comment #6590036369; a final verification comment will point to #1281's verified artifact.
 - Mersearch run #41533820436 remained in progress; no manifest or compact receipt available yet. Preserve status SUBMITTED_NOT_VERIFIED.
+
+
+### 2026-11-02T2230Z | Receipt and handoff readback
+
+- Common rotation receipt created and independently read back: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2200Z_s0_kestrel.md, blob SHA-1 f705e385475d230b579946c3998eedfd3a621b43.
+- Optional Meridian handoff is committed and independently read back at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2200Z_from_s0_to_s0_meridian.md. Meridian has no inbox; no recipient inbox or ChatGPT-thread delivery is claimed.
+- Latest main head observed after receipt commit: 81e9c8374ce85f7c263f9e6f94418d7be57508f0.
