@@ -138,6 +138,103 @@ theorem nine_judge_rounded_phi_matches_reported :
       (1 / 1000 : ℝ) := by
   norm_num [kishEffectiveSampleSize, designEffect]
 
+/-!
+## Weight concentration under exchangeable dependence
+
+Liu et al., "Social Networks of LLM Agents" (arXiv:2607.03695v1,
+July 7, 2026), Definition 8.7, use the concentration ESS
+1 / sum_i q_i^2 under independent private signals; Proposition 8.6
+states the corresponding variance formula. Kohli, arXiv:2605.29800v1,
+§3.3, gives the equal-weight exchangeable design-effect/Kish formula.
+
+The following is an assistant-derived algebraic bridge, not a formula
+claimed verbatim by either source. It combines normalized unequal
+weights with a common off-diagonal error correlation. It does not
+establish that any real LLM panel has exchangeable errors, nor does it
+supply empirical weights or correlations.
+-/
+
+/-- Total weight W = sum_i q_i. -/
+def weightTotal {n : ℕ} (q : Fin n → ℝ) : ℝ :=
+  ∑ i, q i
+
+/-- Quadratic weight concentration H = sum_i q_i^2. -/
+def weightConcentration {n : ℕ} (q : Fin n → ℝ) : ℝ :=
+  ∑ i, (q i)^2
+
+/-- Relative variance factor under equal marginal variance and a common
+off-diagonal correlation, expressed through total weight and quadratic
+weight concentration. -/
+def weightedExchangeableVarianceFactor
+    (weightSum concentration rho : ℝ) : ℝ :=
+  rho * weightSum^2 + (1-rho)*concentration
+
+/-- For normalized weights, the exchangeable variance factor reduces to
+rho + (1-rho)H. -/
+theorem weightedExchangeableVarianceFactor_normalized
+    (weightSum concentration rho : ℝ) (hweight : weightSum = 1) :
+    weightedExchangeableVarianceFactor weightSum concentration rho =
+      rho + (1-rho)*concentration := by
+  unfold weightedExchangeableVarianceFactor
+  rw [hweight]
+  ring
+
+/-- Variance-equivalent sample size from squared-weight concentration H
+and common off-diagonal correlation rho. -/
+noncomputable def weightedExchangeableESSFromConcentration
+    (concentration rho : ℝ) : ℝ :=
+  1 / (rho + (1-rho)*concentration)
+
+/-- At zero pairwise correlation, the combined ESS reduces to 1/H. -/
+theorem weightedExchangeableESS_independent
+    (concentration : ℝ) :
+    weightedExchangeableESSFromConcentration concentration 0 =
+      1 / concentration := by
+  simp [weightedExchangeableESSFromConcentration]
+
+/-- If H=1/k, the combined weighted formula is exactly the existing
+Kish exchangeable-panel effective sample size. -/
+theorem weightedExchangeableESSFromConcentration_uniform_eq_kish
+    (k : ℕ) (hk : 0 < k) (rho : ℝ)
+    (hd : designEffect k rho ≠ 0) :
+    weightedExchangeableESSFromConcentration (1/(k:ℝ)) rho =
+      kishEffectiveSampleSize k rho := by
+  unfold weightedExchangeableESSFromConcentration kishEffectiveSampleSize
+  have hk0 : (k:ℝ) ≠ 0 := by exact_mod_cast (Nat.ne_of_gt hk)
+  have hd' : 1 + ((k:ℝ)-1)*rho ≠ 0 := by
+    simpa [designEffect] using hd
+  have hden : rho + (1-rho)/(k:ℝ) ≠ 0 := by
+    intro h
+    apply hd'
+    calc
+      1 + ((k:ℝ)-1)*rho =
+          (k:ℝ) * (rho + (1-rho)/(k:ℝ)) := by
+            field_simp [hk0]
+            <;> ring
+      _ = 0 := by rw [h]; ring
+  field_simp [hk0, hden, hd']
+  <;> ring
+
+/-- Equal weights on k positions have H=1/k. -/
+theorem uniformWeightConcentration
+    (k : ℕ) (hk : 0 < k) :
+    weightConcentration (fun _ : Fin k => 1/(k:ℝ)) = 1/(k:ℝ) := by
+  classical
+  simp [weightConcentration, Finset.sum_const, Finset.card_fin]
+  have hk0 : (k:ℝ) ≠ 0 := by exact_mod_cast (Nat.ne_of_gt hk)
+  field_simp [hk0]
+  <;> ring
+
+/-- The finite-vector uniform-weight specialization reduces to Kish. -/
+theorem weightedExchangeableESS_uniform_eq_kish
+    (k : ℕ) (hk : 0 < k) (rho : ℝ)
+    (hd : designEffect k rho ≠ 0) :
+    weightedExchangeableESSFromConcentration
+      (weightConcentration (fun _ : Fin k => 1/(k:ℝ))) rho =
+      kishEffectiveSampleSize k rho := by
+  rw [uniformWeightConcentration k hk]
+  exact weightedExchangeableESSFromConcentration_uniform_eq_kish k hk rho hd
+
 #print axioms exchangeableMeanVariance_eq_independentEquivalentVariance
 #print axioms independentEquivalentVariance_eq_variance_div_kish
 #print axioms exchangeableMeanVariance_eq_variance_div_kish
