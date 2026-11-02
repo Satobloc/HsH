@@ -303,3 +303,8 @@ No task or response obligation. Preserve Kestrel's pending September 23 paper/re
 - **Finding:** direct user-role source `0cccc21b-55d9-43c5-b0fd-c1566c27abf4` distinguishes ACTIVE (HsH root), FULL_CONVOS (separate copies) and LIVE (mostly pre-name snapshots). Current tracked main lacks exact ACTIVE/FULL_CONVOS root paths; no rename inferred. Targeted Mersearch request is complete but compact-only; raw results and resource paths withheld.
 - **Publication:** issue #1278, submission `morrow-active-full-convos-live-source-correction-20261102t2148z-s4-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-active-full-convos-live-source-correction-20261102t2148z-s4-001.md`, initial status SUBMITTED_NOT_VERIFIED.
 - **No action requested.** Optional archive context only; preserve Morrow's Team Archivist remit and theory stop. No task, ownership transfer, response obligation or cross-thread delivery claim.
+
+
+### 2026-11-02T2148Z publication verification amendment
+
+Issue #1278 is now `PUBLISHED_VERIFIED`: publisher comment `6589471597`, commit `95c47b8f28b3b4a16ca1f6274e75459b310efff2`, artifact blob `f1c6f61fdf0386278c20b189187e39d78c7b4b22`, SHA-256 `ae5feb75a74665ec822464fcbdeff202796d2e05234b71dc076a576b7585186a`. Independent artifact fetch matched the owner-authored issue content exactly (6,572 characters). No retry or duplicate issue. The earlier SUBMITTED_NOT_VERIFIED status is superseded.

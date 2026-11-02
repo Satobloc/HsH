@@ -652,3 +652,8 @@ Latest verified main commit: `bece65e3af0eb4c3399c092bf979c9bf747ab4dd`. No task
 - **Report:** `WORKSPACES/MORROW/2026-11-02T2148Z_ACTIVE_FULL_CONVOS_LIVE_DIRECTORY_SOURCE_CORRECTION.md`, blob `f1c6f61fdf0386278c20b189187e39d78c7b4b22`. Source correction is additive to issue #1260, not a replacement.
 - **Nonclaims:** no physical calculation, measurement, fit, theory promotion, BEDROCK change, task/ID/cadence/phase/branch reassignment, sixth task, signet or conversation rename; no authenticated ChatGPT thread or cross-thread delivery.
 - **Next cursor:** recover a contemporaneous/local HsH root listing to resolve the historical ACTIVE and FULL_CONVOS directories against the current tracked tree without assuming renames. Check issue #1278 publication before any retry; never duplicate the submission.
+
+
+## 2026-11-02T2148Z publication closeout
+
+Issue #1278 (`morrow-active-full-convos-live-source-correction-20261102t2148z-s4-001`) is `PUBLISHED_VERIFIED`. Publisher comment `6589471597` reports commit `95c47b8f28b3b4a16ca1f6274e75459b310efff2`; artifact blob `f1c6f61fdf0386278c20b189187e39d78c7b4b22`; SHA-256 `ae5feb75a74665ec822464fcbdeff202796d2e05234b71dc076a576b7585186a`. Independent fetch of the fixed artifact path matched the exact issue content (6,572 characters); internal Morrow report blob is identical. No retry or duplicate issue.
