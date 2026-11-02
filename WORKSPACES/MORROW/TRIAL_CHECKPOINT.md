@@ -615,3 +615,23 @@ Completed Jacoby, *Practical Talks by an Astronomer*, lines 781–820. Next curs
 ### Scope and disposition
 
 No physical calculation, CODATA comparison, observational fit, theory integration, prediction, paper work, BEDROCK amendment or promotion was undertaken. Code Grurple remains ACTIVE; ordinary Lane 24 physics/CODATA remains BACKSEAT/HOLD. No SAT-O/Blockwave equation was changed. No new tooling, dependency, branch, PR, automation or schedule was created. No cross-thread delivery or recipient acknowledgment is claimed.
+
+
+## 2026-11-02T1024Z publication closeout
+
+The public-safe source reconciliation report is now published through the existing issue publisher as issue #1260. This is an additive report distinct from the earlier #1214 intake; #1214 was not retried and no duplicate was created.
+
+- Submission ID: `morrow-workspace-origin-live-convos-reconciliation-20261102t1024z-s2-001`.
+- Report path: `WORKSPACES/MORROW/2026-11-02T1024Z_WORKSPACE_AND_DASHBOARD_SOURCE_RECONCILIATION.md`.
+- Report Git blob: `18d8af14bd707ddbe8ac9bc69a505fb9b3516d96`.
+- SHA-256: `4f3e6b687d7db01f9319bb4d08c58ee9dac7aa9b072eb6a2729daa9f145715d3`.
+- Issue: #1260; publisher comment: PUBLISHED.
+- Publisher commit: `bece65e3af0eb4c3399c092bf979c9bf747ab4dd`.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-workspace-origin-live-convos-reconciliation-20261102t1024z-s2-001.md`.
+- Independent artifact readback: Git blob matches report file; publisher-reported SHA-256 matches the independently computed content digest.
+
+The narrower Mersearch follow-up `morrow-initial-workspace-folder-source-targeted-20261102-1024` remains `SUBMITTED_NOT_VERIFIED`: no manifest or compact receipt was present at final check. The direct Morrow workspace instruction is already recovered from the Aldus Morrow raw export; any later search hit is confirmation of the same source, not an independent witness.
+
+The existing optional Kestrel handoff file was amended and read back. Its inbox pointer already existed, so no duplicate pointer or new inbox entry was added. Repository handoff is verified; Kestrel consumption/acknowledgment and ChatGPT-thread delivery are not claimed.
+
+Latest verified main commit: `bece65e3af0eb4c3399c092bf979c9bf747ab4dd`. No task, schedule, phase, prompt, branch, PR, automation, signet, conversation name, BEDROCK theory or paper gate was changed.
