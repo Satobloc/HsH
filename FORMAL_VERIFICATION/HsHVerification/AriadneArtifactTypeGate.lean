@@ -130,7 +130,7 @@ def supportsBool (a : ArtifactEvidence) (claim : ClaimKind) : Bool :=
 theorem supportsBool_correct (a : ArtifactEvidence) (claim : ClaimKind) :
     supports a claim ↔ supportsBool a claim = true := by
   cases claim <;> by_cases h : a.kind = .rawRoleTaggedConversation <;>
-    simp [supports, supportsBool, h]
+    simp [supports, supportsBool, h, and_assoc]
 
 /-- Section digest matched to its embedded bundle-header prefix; not original-binary identity. -/
 def kirkMindSection : ArtifactEvidence :=
