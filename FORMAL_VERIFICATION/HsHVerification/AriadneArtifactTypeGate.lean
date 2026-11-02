@@ -7,10 +7,14 @@ Source basis:
 * Library bundle 2026-10-31_BS_txt_0007 contains KIRK_mind.txt,
   READY_ROOM.txt, and READY_ROOM_README.txt as named text sections.
 * Bundle 2026-10-31_BS_txt_0008 contains THE_WHOLE_READY.txt.
-* Bundle 2026-10-31_BS_txt_0009 contains a separately delimited `TOS_S1.txt` script-corpus section. Its embedded SHA-256 prefix `b8258f1fb476f2fd` was matched to full digest `b8258f1fb476f2fdc5548a1d9abc182d108006157dbd9fb2bd15dc954fd4d087` after removing one leading LF and three trailing LF bundle separators. A structural scan found 14,948 lines and 30 `STAR TREK` header occurrences; this is not a completeness, author, or creation-date claim. Character-label-shaped line starts are present, but they are script roles, not ChatGPT outer roles.
-* A byte-preserving Python replay recomputed the section SHA-256 values after
-  removing exactly the three LF separator bytes used by the bundle format;
-  the resulting full digests match the embedded 16-hex prefixes.
+* Bundle 2026-10-31_BS_txt_0009 contains a separately delimited `TOS_S1.txt` script-corpus section. Its embedded SHA-256 prefix `b8258f1fb476f2fd` matches full digest `b8258f1fb476f2fdc5548a1d9abc182d108006157dbd9fb2bd15dc954fd4d087` after removing exactly the three trailing LF bundle-separator bytes; no leading LF is removed. Python `str.splitlines()` on that extracted section yields 14,945 lines. This is a structural count, not a completeness, author, or creation-date claim. Character-label-shaped line starts are script roles, not ChatGPT outer roles.
+* A byte-preserving replay of the seven named sections in bundles 0007–0009
+  (KIRK_mind, READY_ROOM, READY_ROOM_README, THE_WHOLE_READY,
+  THE_WHOLE_READY2, THE_WHOLE_READY3, and TOS_S1) finds all seven embedded
+  16-hex SHA-256 prefixes match after removing exactly the three trailing LF
+  bundle-separator bytes. This corrects the earlier mismatch flags for
+  READY_ROOM_README and THE_WHOLE_READY; matching a bundle-section digest
+  does not authenticate original storage history.
 * KIRK_mind.txt and READY_ROOM.txt share one exact LF-normalized block of
   12,598 lines. Their names do not make them independent witnesses.
 * KIRK_mind and READY_ROOM are mixed dialogue-like text sections without raw
