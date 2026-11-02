@@ -229,22 +229,3 @@ Acceptance tests:
 A configurable geometry engine is not evidence that two source equations are equivalent, that an arbitrary field equation has a faithful spherical representation, or that the mechanical toy is a physical bearing. Keep source equation, representation adapter, derived geometry, numerical result, and conjecture visibly distinct.
 
 The repository-published browser file is not proof of a live ChatGPT Sites deployment. Any release must be separately verified at the served URL.
-
-
-## 11. User clarification: Pole-to-Pole Analemma landmarks (2026-11-02)
-
-The experimental `pole_to_pole_candidate` is now geometrically specified at the landmark/topology level:
-
-- The northern lobe reaches the **north pole** as its tip.
-- The southern lobe reaches the **south pole** as its tip.
-- The two lobes cross at the **east equatorial point** E=(1,0,0).
-- The northern lobe winds around the north pole; the southern lobe winds around the south pole.
-- It is one closed spherical figure-eight, with the pole contacts as lobe tips and the east-equatorial crossing as its transverse central crossing.
-
-This differs from the equal-area reference, whose lobes enclose the poles but do not touch them.
-
-**Still to derive:** a regular analytic or validated numerical parameterization, tangent behavior at the pole tips, crossing angle at E, spherical arc length, signed geodesic curvature, and material phase/closure relation. The landmarks do not uniquely determine these quantities. Do not reuse the equal-area reference's `k`, length coefficient, major-radius ratio, or gear calculation for this candidate.
-
-The new curve provider must explicitly handle spherical-coordinate singularities at the poles. A naive latitude/longitude formula that becomes stationary or cusped at a pole is not accepted merely because its plot looks like a figure-eight.
-
-The factory reference remains unchanged. This is a named alternate geometry, not a replacement of the reference Analemma.
