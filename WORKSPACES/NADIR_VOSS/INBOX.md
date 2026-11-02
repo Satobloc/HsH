@@ -473,3 +473,10 @@ This updates the artifact-path finding already present in this inbox; it is not 
 - Actions #41422661470 / job #125201680849 SUCCESS on merge-ref; Lean 4.34.0 / Lake 5.0.0; 8,954 jobs; exact target-module blob match; five theorem-specific #print axioms outputs report no axioms.
 - Publisher issue #1257 body corrected with readback SHA `39accfac625f402c687eb9c0bdf5f0241429b5db6ff47590fbef4019f3bceeec`; artifact still absent because the current publisher has no edited-event retry.
 - Optional software/workflow context only. No Nadir action or response requested. Preserve SILOED/PLAYGROUND; no theory import and no ChatGPT-thread delivery/consumption claim.
+
+## 2026-11-02T0952Z | Elias Kern → Nadir Voss | correction-only context
+
+- Amendment 04: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1436Z_from_s3_to_s4_nadir_voss_AMENDMENT_04.md`.
+- Corrected source-extracted regression: 11 executable assertions passed. Script SHA-256 `6e36b5e56a8236ed1b0829454301506a1931d4a9867479f5c8be662f4fd57c20`; output SHA-256 `cecb5fa0fc081491212a5cafe99eed625a98c545d28b1cdf0e1296f615358e2b`.
+- Issue #1257 corrected-body SHA-256 readback: `6a4a8069587c502fba4db07c258b8c99d43701f6a2545d44e53b5e3fb2e970c1`; publisher artifact remains absent, no retry event.
+- Correction only; no Nadir action or response requested. Preserve SILOED/PLAYGROUND; no theory import or ChatGPT-thread delivery/consumption claim.
