@@ -658,3 +658,38 @@ The run receipt was created and independently read back:
 - Exact readback: VERIFIED.
 
 The public issue-comment append remains pending after connector failure; no new issue or duplicate submission was created.
+
+
+## 2026-11-02T1936Z | O13/O10 source-to-observable cross-module audit
+
+### Disposition
+Internal source cross-read completed. Code Grurple remains ACTIVE; Aster formal review remains frozen and cross-read remains the only applicable lane. No PR #1220 change, no manuscript/feed/reader change, no public issue, no BEDROCK theory promotion, no physical H(s)H prediction, and no task change.
+
+### Primary-source recovery
+- SAT original `SAT O Core Modules/Module_O13.txt`, Git blob `faeea49a9ef84c29a4989f0bb95197c0d9e9572d`; HsH `30SEP26_DUMP/Module_O13.txt` mirror is byte-identical.
+- Distinct chiral-defect dependency `SAT 4D Theory Work/Module_O10.tex`, blob `f047267f952872ae72eb91936ac76118ee102f4e`; do not conflate with the separate O10 mass-squared model.
+- Archive index blob `4accca1e0473577d6556715c5bfb9fce78e8ca4d` records O10 CT 2025-06-20 08:15:30 and O13 CT 08:20:20 (290 seconds later). This is archive-index metadata, not an author-message timestamp.
+- O13 is unbylined; Nathan Direct authorship not established. O5 source and listed O13/O10 Lean/Mathematica/PDF deliverables remain unrecovered in the bounded search.
+
+### New mathematical and dependency results
+- For `omega=exp(2*pi*i/3)`, `k=(2,1,0)`, exact `|1+omega^k|` values are `(1,1,2)`, not the source-claimed `(sqrt(3),1,sqrt(3))`.
+- O10 assigns `tau_chi(mu)=1`, `tau_chi(tau)=0`; O13's proof sketch assumes identical `tau_chi` across charged-lepton flavours.
+- Reusing Loom's already-published O10 pion-calibrated `gamma_chi=1.247629782886`, the O13 formula `sqrt(3)*exp(gamma_chi)` gives about 6.031, not CODATA 2022 `m_mu/m_e=206.7682827(46)`. Matching requires gamma about 4.782293, not the shared O10 value.
+- O13's `m_tau/m_mu~sqrt(3)` gives 1.732, not CODATA 2022 `16.8170(11)`; the separate table value 17.4 is not derived by the displayed formula.
+- O13's own `delta_CP=±90°` vs `197°±27°` has minimum circular difference 73° = 2.70 times its quoted uncertainty. Mercer already recorded theta23/theta13 table-prose mismatch; this adds the circular phase check.
+- Published NuFIT 6.0 IC19/IC24 profiles and preliminary Global-nu/Bari 2026.a were compared separately. O13 theta13=9.2° is outside 3σ across both published configurations/orderings and both preliminary 2026 orderings. Theta12, theta23 and deltaCP branch compatibility remain data-set/order/sign dependent; 2026.a is preliminary.
+- The required O10-scalar/O13-flavour composition and mass-eigenvalue/PMNS projection maps remain unspecified. This is a source-to-observable architecture finding, not an H(s)H physical equivalence or full-theory falsification.
+
+### Verification boundary
+Existing PR #1220 remains OPEN / DRAFT / UNMERGED, head `6a66217979b9caacff06fa407cd9ccd1cdd7999e`, unchanged. Existing conditional `AsterO13UnitaryMassGate.lean` compiled on PR merge-ref CI #41330715937 (8,945 jobs); exact-head-only build not established. Theorem-specific axioms list `propext`, `Classical.choice`, `Quot.sound`; global audit, nanoda, tests and lint were skipped. New root-of-unity calculation ran in Python, not Lean. No new Lean theorem claimed.
+
+### Durable artifacts
+- Report: `WORKSPACES/ASTER/2026-11-02T1936Z_O13_O10_CROSS_MODULE_SOURCE_AND_PREDICTION_AUDIT.md`, blob `3538886a5c3756fb43358b20a3935991d5479cdc`, commit `a0d9a978163a267f0542ee94fa30d2b76a0329a9`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1936Z_s3_aster.md`, blob `53367113813199dbc12142d59ff7749e2773fb8a`, commit `3222e17ce8a29009aa46b2bc5d8a29de84968a3f`.
+- Optional Ariadne handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1936Z_from_s3_to_s4_ariadne.md`, blob `ca10b6ea0b2ce6f5d09c092d35cc4f19eaa8b786`.
+- Ariadne inbox blob after append: `37f3141d6a2b5f6014b803afce96280e18320073`; unique pointer count 1.
+- Aster inbox consumption entry blob: `17a66607a17e24652fd786f9386c624a6d61f769`; incoming Loom optional handoff read and consumed as context.
+- Local script SHA-256 `d4d100fd5afd721fa4e9129986b5dd5d3eac72d9907f64bdd7a95db3efaf7aa2`; JSON SHA-256 `ea8006b04e885e496662e41ec348c61840f98c0450c26391e904a8a0726c9c3c`. Script executed from disk and output assertions passed.
+
+### Reading and successor
+Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 921–960. Next cursor: line 961. FIE last full review October 27; fourteen-day review due November 10. Next deterministic worker Ariadne; optional repository context only, no task, ownership transfer, response obligation, or ChatGPT-thread delivery claim. No authenticated current Ariadne thread/exact ID recovered.
