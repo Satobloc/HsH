@@ -126,3 +126,29 @@ Keep independent:
 - quarantine/sandbox state.
 
 Never use generic `verified`. State the obligation checked, method, inputs, limits, and result. Preserve failed experiments, playful branches, contradictions, negative results, and wackySAT material when they have historical or technical value, but route them appropriately.
+
+
+## Historical Nathan-direct remit provenance — recovered 2026-11-02
+
+The historical Sable remit is supported by direct user-role messages in the raw conversation export **SABLE Revival Rotation**, not only by the narrower 2026-09-22 bulk-triage/Mersearch request cited in an earlier rotation receipt.
+
+**Source identity**
+- Library filename: `SABLE Revival Rotation — raw.json`
+- Conversation ID: `6aa6701e-b800-83ea-a19a-31a802b7124d`
+- Raw export size: 9,190,271 bytes
+- Raw-file SHA-256: `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`
+- Git blob SHA-1 computed over the exact raw bytes: `57f65c43ece0abb05f38dfb577267312c80f788f`
+- Repository URL for this Library export: not available; use the Library filename, conversation ID, and hashes as the recovery locator.
+
+**Direct user-role source turns**
+- **2026-09-14 14:35:05.332Z**, message `df0c6245-20ee-43bb-b381-f277f85bddb4`: explicitly assigns team-machine analysis, targeted questions, state-of-system analysis, automation-leverage design/testing, outside-tool/resource testing, knowledge-base surveying, scripting as a multiplier/checksum for extraction and triage, capability/skill-scale analysis, proof/Lagrangian procedure design, and modular knowledge-machine architecture.
+- **2026-09-15 01:44:40.792Z**, message `3f6e9b2b-55d9-4136-b379-0978f7db69c1`: keeps the Dashboard central; grants broad flexible hourly workflow discretion and implementation latitude; states the then-current conceptual/methodological anchor, sandbox and quarantine boundaries, continuity, timestamp monitoring, and back-end task rotation. The message literally says “Fundamental Principles Extended”; current control surfaces name the anchor “The Fundamental Intuitions — Extended”. Preserve that wording difference rather than silently normalizing it.
+- **2026-09-15 02:11:07.676Z**, message `8c800379-b9e6-4877-b0e0-994097748dba`: says only Sable continuity should adjust workflow design, with input from other instances; grants judgment over permissions and lane assignments. This is historical authority and is subject to the later 2026-10-26 Comptroller delegation to Tern for scheduler/task-allocation control.
+- **2026-09-15 02:30:08.111Z**, message `28fec60d-5829-43fb-bcdf-52a94b01ea55`: includes actual theory work within lane exploration while retaining sandbox/quarantine limits; calls for archive-preservation, infrastructure, wayfinding, extraction, tagging, tooling and full-project-view capability.
+- **2026-09-15 03:01:56.726Z**, message `327ad2cc-2bd1-4c9f-80c3-839a64f1e34a`: explicitly includes creative/non-theory exploration across HsH, GLASS and RESOURCES. Its then-current prior-art quarantine rules were superseded for research access by Nathan's 2026-10-24 directive; current public-index and exposure exclusions remain separate.
+- **2026-09-15 05:44:08.333Z**, message `a6502323-5a1b-411f-86a7-8ff0acd4524b`: explicitly prohibits conversation renaming by any instance.
+- **2026-09-15 06:38:15.951Z**, message `df57d7a0-e64e-4be2-855c-febcf8c29078`: asks that resources shown to Nathan be linked.
+
+**Correction to the 2026-11-02T0400Z Sable receipt:** its statement that the only recovered direct Sable charter-like instruction was the 2026-09-22 bulk-triage/Mersearch request was incomplete. The 2026-09-14/15 source turns above are earlier and materially broader. The 2026-09-22 instruction remains an additional narrower direct request, not the sole historical remit evidence.
+
+**Current authority boundary:** this recovered historical remit supports Sable's broad systems-analysis, capability-architecture, Dashboard, automation-leverage, archive-accessibility and continuity responsibilities. It does not override newer Common controls: Tern's 2026-10-26 Comptroller delegation governs scheduler and task-allocation changes; Nathan's current instructions and the live five-task/19-identity rotation remain controlling. This provenance correction changes no automation, task ID, schedule, phase, branch ownership, or theory status.
