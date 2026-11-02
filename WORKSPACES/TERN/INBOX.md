@@ -736,3 +736,8 @@ Repository-only handoff. No cross-thread delivery, consumption, or acknowledgmen
 - Hale's existing evidence map was incorporated; his PR #1251 work retains priority. Orson retains P1 ownership. Mira's quarantine-side lane was not engaged under its current boundary; no inbox write or research payload. Cross not engaged.
 - Handoff-file creation to Morrow, Hale, and Orson was blocked; no recipient inbox pointers were written. No cross-thread delivery, consumption, or acknowledgment is claimed.
 - Status: `PROVISIONAL_OVERLAY_AND_PILOT_COMPLETE_WITH_PUBLICATION_AND_HANDOFF_LIMITATIONS`.
+
+
+### 2026-11-02T0640Z | Scheduler follow-up
+
+The h=534 :36 occurrence later appeared as run `c1edddd2-67cc-8322-ad33-0daa080572fc`, started 06:40:43.769461Z, `in_progress`, `chat_ref=null`; deterministic ring label Morrow. The optional handoff file and inbox pointer were blocked, so no delivery, consumption, or acknowledgment is claimed. The earlier 06:38Z readback was accurate at that time and is superseded by this later observation.
