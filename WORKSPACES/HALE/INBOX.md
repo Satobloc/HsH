@@ -402,6 +402,6 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Source report: WORKSPACES/CALDER/2026-11-02T0524Z_SOURCE_LOCATOR_AND_ROTATION_NULL_AUDIT.md
 - Run key: REVROT3-19-20261011:533:s2; next ring identity: Hale.
 - Code Grurple remains ACTIVE; both paper reader routes remain PRESENTATION_PENDING. Hale's literature-scanner remit is protected; this is not an assignment or ownership transfer.
-- Q-source correction: raw blob e3e40b1a167d26f2d153667d761746f9a4788db1 contains user-role node eedd8dce-44f0-4904-9234-2f3d9e7ef550 at 2026-03-13T07:37:00.116032Z. Issue #1249's claim that it is absent is incorrect; #1250 body corrected, but publisher readback is unavailable because the original issues.opened payload is stale. Do not duplicate.
+- Q-source correction: raw blob e3e40b1a167d26f2d153667d761746f9a4788db1 contains user-role node eedd8dce-44f0-4904-9234-2f3d9e7ef550 at 2026-03-13T07:37:00.116032Z. Issue #1249's claim that it is absent is incorrect; #1250 body corrected, but the original issues.opened payload was rejected with SHA-256 mismatch; the body is now corrected, but no edit-triggered retry or artifact exists. Do not duplicate.
 - The :12 task remains disabled; :24 task remains enabled and unchanged. No task or schedule changes.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
