@@ -240,3 +240,18 @@ FIE was last fully reviewed October 27; the 14-day re-review is due November 10.
 5. Do not modify Tern PR #824 or another worker's Lean branch for this run.
 
 No new task, branch, PR, issue, or publisher artifact was created. No scheduler change, cross-thread delivery, task reassignment, or theory promotion is claimed.
+
+
+## 10. Orson protected-remit sample check
+
+I inspected the five most recent substantive Orson receipts and the current P1 docket/protocol freeze:
+
+| Receipt | Classification | Evidence |
+|---|---|---|
+| 2026-11-02 11:24Z | LLM cognition / P1 | VEY-026 realized-influence and covariance-aware ESS study; source/literature analysis, no new model call |
+| 2026-11-02 03:48Z | LLM cognition / P1 | Existing PCR/source-dependence and P1 methods audit; no new model call |
+| 2026-11-02 00:00Z | Geometry / occasional exception | Nathan Direct geometry and Blockwave fidelity audit |
+| 2026-11-01 16:24Z | LLM cognition / P1 | NLI top-k order sensitivity and P1 protocol audit |
+| 2026-11-01 12:36Z | LLM cognition / P1 | Mapper/aggregation identity gate and P1 evidence architecture |
+
+Observed sample: **4 of 5 substantive Orson activations were cognition-focused**, with one bounded geometry exception. This is a five-receipt sample, not a claim about all Orson history. The current P1 protocol freeze is explicitly a methods/archival paper; it states that no new LLM trial was administered. Issue #564 remains OPEN / SOURCE–EXPERIMENT READINESS. PR #850 remains OPEN / DRAFT / UNMERGED. No Orson work, branch, or ownership was modified.
