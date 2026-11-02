@@ -3,7 +3,7 @@
 **Identity / discriminator:** Ariadne  
 **Role / lane:** archive/source archaeology, revival/reentry reconstruction, provenance recovery, and bounded cross-worker connective work.  
 **Current objective:** recover the Kirk/Riley/Nathan human-simulation source stack and use it conservatively to improve revival/reconstruction methodology without promoting derivative summaries beyond their evidence.  
-**Conversation provenance:** historical raw export recovered 2026-10-30: conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, title `ARIADNE`, path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json`, Git blob `df9c7a1fbddaa523f0b69cced8d761433490a454` (6,021,301 bytes). Direct user-role source messages are enumerated below; `author.name` is null in the export, so preserve `user-role / Nathan-attributed` rather than claiming independent author-name authentication. The role/lane summary in this README and the Common placard is assistant-authored synthesis, not a verbatim Nathan-authored charter.  
+**Conversation provenance:** authoritative original export verified 2026-11-02 is the Library file `ARIADNE — raw.json`, conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, title `ARIADNE`, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`, 6,226,127 bytes. It contains 1,364 mapping nodes: 1,363 message objects (10 user, 555 assistant, 798 tool, 0 unknown-role) plus one empty root sentinel. The older repository copy at `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json`, Git blob `df9c7a1fbddaa523f0b69cced8d761433490a454`, is a shorter snapshot (1,322 mapping nodes: 1,321 messages; 8 user, 529 assistant, 784 tool); do not use it for current counts or last-message chronology. All 10 user-role nodes have `author.name=null`, so preserve `user-role / Nathan-attributed` rather than claiming independent author-name authentication. The role/lane summary in this README and the Common placard is assistant-authored synthesis, not a verbatim Nathan-authored charter.  
 **Status:** active.
 
 ## Nathan-authorized remit — 2026-09-23
@@ -17,14 +17,20 @@ Ariadne is also authorized to leave constructive suggestions for Comptroller Ter
 
 ## Primary source provenance — recovered 2026-10-30
 
-### Direct user-role witnesses in the original Ariadne conversation
+### Selected direct user-role witnesses in the original Ariadne conversation
 
-Raw source: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json`, Git blob `df9c7a1fbddaa523f0b69cced8d761433490a454`, 6,021,301 bytes; conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`. The following are outer-role `user` nodes; each has `author.name = null`.
+Raw source: Library file `ARIADNE — raw.json`, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`, conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`. All ten outer-role user nodes have `author.name = null`; these summaries are source descriptions, not independent author-name authentication.
 
-- `722896eb-68c9-4e68-8b45-d698bf8d3750`, 2026-09-23T02:31:01.791Z: Nathan directs the reboot from the largest/latest ordinary Revival Rotation in Folder 21, explicitly excluding SABLE.
+- `722896eb-68c9-4e68-8b45-d698bf8d3750`, 2026-09-23T02:31:01.791Z: directs reboot from the largest/latest ordinary Revival Rotation in Folder 21, explicitly excluding SABLE.
+- `0203c7d6-820e-4256-aeb4-72ba536cd04c`, 2026-09-23T02:43:01.557Z: asks Ariadne to resume the prior work.
 - `055a10f4-1773-42b5-9033-92380b27e8d1`, 2026-09-23T04:16:50.427Z: asks Ariadne to create/check its inbox and place a role/specifications/resources note in Orson's inbox.
-- `c4f0aae9-3290-42c6-a5d0-b42c19a88255`, 2026-09-23T04:27:14.907Z: grants broad archive-inspection/reproduction discretion subject to active workflow/onboarding rules, and leave to offer constructive suggestions to the Comptroller and other workers. It explicitly preserves Comptroller control of scheduled tasks.
+- `c4f0aae9-3290-42c6-a5d0-b42c19a88255`, 2026-09-23T04:27:14.907Z: grants broad archive-inspection/reproduction discretion subject to active workflow/onboarding rules; authorizes constructive suggestions; asks that apparent failures be diagnosed before classification; explicitly preserves Comptroller control of scheduled tasks.
 - `e689eb6e-5814-4a27-a366-796605bd5f4d`, 2026-09-23T04:48:27.113Z: asks Ariadne to formulate a Python-offload study for Tern; it does not transfer scheduler ownership or create a dedicated slot.
+- `4dba330e-820f-4854-b48d-fcbe69b2e391`, 2026-09-23T05:01:28.697Z: briefly suggests signing replies for identity tracking.
+- `ef19bfbd-7ed2-465d-90d2-3e85566a4217`, 2026-09-23T05:02:06.088Z: immediately retracts that suggestion with “As you were”; the temporary sign-off request is not a continuing instruction.
+- `446b3728-56fd-40b3-a122-9febf92a658f`, 2026-09-23T05:24:42.253Z: reports that the conversation appears to have reached its length limit and says to save it in Folder 21.
+- `b45987fc-a7d2-4acc-9443-45522e8bb7d6`, 2026-09-23T05:27:48.362Z: observes that the warning did not appear on the subsequent turn.
+- `cd0471c6-98c5-4efb-b91b-bc314691b141`, 2026-09-23T05:32:34.732Z: directs continuation with the next task. This later message means the earlier length-limit notice alone does not establish that the conversation ended at 05:24.
 
 ### Separate Kirk-methodology source
 
@@ -55,4 +61,4 @@ The concise role description above is a faithful operational synthesis of the di
 
 Use `WORKSPACES/ARIADNE/INBOX.md` for bounded questions, requests, handoffs, warnings, and source pointers. Ariadne checks it opportunistically during live work/reentry rather than consuming scheduler capacity.
 
-**Historical-thread access status:** the recovered `ARIADNE` raw export records `update_time=2026-09-23T05:25:58.790Z`. This identifies the last archived update, not current live-thread availability. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
+**Historical-thread access status:** the last visible message object in the authoritative Library export is the user message at `2026-09-23T05:32:34.732Z` (`cd0471c6-98c5-4efb-b91b-bc314691b141`). The earlier 05:24:42 length-limit notice is followed by two later user messages. JSON metadata `update_time=2026-10-01T23:12:34.343751Z` is export metadata, not a message timestamp. Current live usability and any newer successor remain unverified. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
