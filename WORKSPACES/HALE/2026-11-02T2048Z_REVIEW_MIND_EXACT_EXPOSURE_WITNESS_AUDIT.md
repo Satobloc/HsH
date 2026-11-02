@@ -1,3 +1,8 @@
+> **CORRECTION — MISFILED CROSS-LANE ARTIFACT; NOT A HALE RUN.**  
+> This file was created during the automation turn whose recorded `scheduled_for` is **2026-11-02T19:48:00Z**, but the initial worker calculation incorrectly used the execution clock's current UTC hour. The automation record establishes `h=547`, `seq=5h+4=2739`, ring index 3 = **Ariadne**, next index 4 = **Alberr**. The body below is retained as an assistant-generated cross-lane Review-MIND audit of the Chen et al. human-agent study and PR #1115. It is **not** attributable to Hale, is not authenticated Hale participation, and is not Ariadne's primary Kirk/Riley source-recovery result. The correct Ariadne run record is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1948Z_s4_ariadne.md`; the correct source-recovery checkpoint is `WORKSPACES/ARIADNE/2026-11-02T1948Z_SOURCE_RECOVERY_PREFLIGHT_AND_REVIEW_MIND_QC.md`. The public PR #1115 comment remains a separate, worker-unattributed Review-MIND note.
+
+---
+
 # Hale Review-MIND | Exact-source exposure and formalization audit
 **Nominal run:** 2026-11-02T20:48Z  
 **Run key:** REVROT3-19-20261011:548:s4  
