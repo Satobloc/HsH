@@ -244,4 +244,10 @@ theorem weightedExchangeableESS_uniform_eq_kish
 #print axioms nine_judge_rounded_phi_exact
 #print axioms nine_judge_rounded_phi_matches_reported
 
+#print axioms weightedExchangeableVarianceFactor_normalized
+#print axioms weightedExchangeableESS_independent
+#print axioms weightedExchangeableESSFromConcentration_uniform_eq_kish
+#print axioms uniformWeightConcentration
+#print axioms weightedExchangeableESS_uniform_eq_kish
+
 end HsHVerification.OrsonKishEffectiveSampleSize
