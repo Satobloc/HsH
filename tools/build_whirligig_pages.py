@@ -35,7 +35,7 @@ def build(root: Path, output: Path) -> Path:
         raise FileNotFoundError("Canonical Whirligig instrument source is missing")
     if output.exists():
         raise FileExistsError(f"Refusing to overwrite existing build directory: {output}")
-    if output == root or root in output.parents is False:
+    if output == root or root not in output.parents:
         raise ValueError("Build output must be a new directory inside the repository root")
 
     html = instrument.read_text(encoding="utf-8")
