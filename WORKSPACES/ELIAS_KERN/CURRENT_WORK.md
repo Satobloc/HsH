@@ -309,3 +309,12 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Nadir inbox blob after late verification pointer: `2657fc2370df39f2bce5bbe32ac4ddeafbfb2496`.
 - Existing issue #632 comment #6578667970 exact-readback SHA-256: `1fc8bdf6361f10d70932374ce1fc1a67dab0322503e9fb02c1ba6c3be9b9283e`.
 - PR #951 remains open/draft/unmerged. Current-head PR workflow #41455330592 succeeded on merge-ref; no standalone exact-head build or actual second-context transfer is claimed.
+
+
+## 2026-11-02T1349Z | final readback pointers
+
+- Report blob: `0d3a1752c9af64a6651da1622c7810b15f5396cf`.
+- Receipt blob: `f57999ad7c8403f3bec13779262d285394f552e6`.
+- Optional Nadir handoff blob: `2f30391c2694fcd719a6f8ec2f94588e37507a24`.
+- Nadir inbox blob: `3f91be5f86cb61732067f1d0c59915249f583893`.
+- The previous pointer amendment is superseded by these exact readbacks. No precise scheduler start time is included in the public-facing records.
