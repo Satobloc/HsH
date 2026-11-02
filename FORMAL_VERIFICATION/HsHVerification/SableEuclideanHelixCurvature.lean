@@ -3,20 +3,37 @@ import Mathlib
 /-!
 # Conditional Euclidean curvature of a lifted spatial curve
 
-This module formalizes an assistant-authored reconstruction from the
-2026-10-21 Meridian Minkowski Ring Analysis conversation:
-  X(w) = (R cos (ω w), R sin (ω w), 0, w).
+This module formalizes a bounded, assistant-authored mathematical
+reconstruction, not a Nathan-authored equation or a physical model.
 
-The proof is deliberately conditional. It treats the fourth coordinate as
-the parameter w and takes the spatial tangent v = x'(w) and acceleration
-a = x''(w) as inputs. It proves the Euclidean Gram-determinant curvature
-identity for the lifted curve (x(w), w).
+Nathan Direct source anchors:
+* Meridian Free Build, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b:
+  user messages 3c657387-b80b-4982-a61a-8e6d8568b8d1 (2026-10-09 01:50:55Z),
+  5a929b5e-515e-4f77-a32a-e49feef42812 (2026-10-09 02:46:38Z), and
+  1178f25c-9f92-4d1c-b43b-06482e6bf1b1 (2026-10-09 07:40:38Z).
+  Raw Git blob: 7af1561b321f4d9364da5eb111df689efc652827.
+* Meridian Minkowski Ring Analysis, conversation
+  6ad7e9c0-e8a0-83e9-984e-94d020de3abf:
+  user messages f658b2db-32f0-45cd-828b-140691cc9afb (2026-10-20 23:53:30Z),
+  090f5160-1020-486d-9c42-df3d7dff2063 (2026-10-21 00:17:23Z), and
+  c5525f53-b7cc-4444-8102-3bf6fdb1c892 (2026-10-21 13:55:40Z).
+  Raw Git blob: 56a84cb85d5c386efa4ea11d322d11e95e2c7703.
 
-It does NOT identify this 1D curve with Nathan's later-described finite-core
-4D worldtube W⁴, does not prove a worldtube/inertia law, and does not reconcile
-the distinct source notations w = c t (2026-10-09) and literal cw = t
-(2026-10-21). The native metric assumption here is Euclidean R⁴ only for this
-assistant reconstruction. No physical premise is formalized.
+Nathan Direct states that worldtube bending/curvature is equivalent to inertia
+at the classical Minkowski limit by construction; separately, a 4D filament
+and its 3D intersectional trace are distinguished. The later 4D-donut
+acceleration statement is explicitly called a working hypothesis without
+proof. The source notations w = c t (2026-10-09) and literal cw = t
+(2026-10-21) are not reconciled here.
+
+The specific Euclidean lift X(w) = (x(w), w), and its circular-helix
+specialization below, are assistant-authored mathematical constructions.
+They do NOT identify this 1D curve with the finite-core 4D worldtube W⁴,
+do NOT prove the worldtube/inertia claim, and do NOT formalize the 4D
+filament / 3D-slice relation. No physical premise or observation is encoded.
+
+All variables are local to this artifact. In particular cosVal is used rather
+than bare c, which remains reserved for the standard speed-of-light symbol.
 -/
 
 namespace HsHVerification.SableEuclideanHelixCurvature
@@ -70,44 +87,45 @@ reduces to this three-dimensional expression.
 -/
 theorem lifted_curve_curvature_sq (v a : Vec3) :
     liftedCurvatureSq v a = reducedCurvatureSq v a := by
-  unfold liftedCurvatureSq reducedCurvatureSq
-  rw [dot4_tangentLift, dot4_accelerationLift,
+  simp [liftedCurvatureSq, reducedCurvatureSq,
+    dot4_tangentLift, dot4_accelerationLift,
     dot4_tangent_accelerationLift]
 
-def circularHelixVelocity (R ω s c : ℝ) : Vec3 :=
-  (-R * ω * s, R * ω * c, 0)
+def circularHelixVelocity (R ω sinVal cosVal : ℝ) : Vec3 :=
+  (-R * ω * sinVal, R * ω * cosVal, 0)
 
-def circularHelixAcceleration (R ω s c : ℝ) : Vec3 :=
-  (-R * ω^2 * c, -R * ω^2 * s, 0)
+def circularHelixAcceleration (R ω sinVal cosVal : ℝ) : Vec3 :=
+  (-R * ω^2 * cosVal, -R * ω^2 * sinVal, 0)
 
 /--
-Conditional curvature of a circular helix lift, assuming only that the
+Conditional curvature of a circular-helix lift, assuming only that the
 transverse sine/cosine pair is unit-normalized.
 -/
 theorem circular_helix_curvature_sq_of_unit_pair
-    (R ω s c : ℝ) (hunit : s^2 + c^2 = 1) :
+    (R ω sinVal cosVal : ℝ)
+    (hunit : sinVal^2 + cosVal^2 = 1) :
     liftedCurvatureSq
-      (circularHelixVelocity R ω s c)
-      (circularHelixAcceleration R ω s c)
+      (circularHelixVelocity R ω sinVal cosVal)
+      (circularHelixAcceleration R ω sinVal cosVal)
       = R^2 * ω^4 / (1 + R^2 * ω^2)^2 := by
   rw [lifted_curve_curvature_sq]
   unfold reducedCurvatureSq
-  have hunit' : c^2 + s^2 = 1 := by nlinarith [hunit]
+  have hunit' : cosVal^2 + sinVal^2 = 1 := by nlinarith [hunit]
   have hv :
-      dot3 (circularHelixVelocity R ω s c)
-        (circularHelixVelocity R ω s c)
-        = R^2 * ω^2 * (s^2 + c^2) := by
+      dot3 (circularHelixVelocity R ω sinVal cosVal)
+        (circularHelixVelocity R ω sinVal cosVal)
+        = R^2 * ω^2 * (sinVal^2 + cosVal^2) := by
     simp [dot3, circularHelixVelocity]
     ring
   have ha :
-      dot3 (circularHelixAcceleration R ω s c)
-        (circularHelixAcceleration R ω s c)
-        = R^2 * ω^4 * (c^2 + s^2) := by
+      dot3 (circularHelixAcceleration R ω sinVal cosVal)
+        (circularHelixAcceleration R ω sinVal cosVal)
+        = R^2 * ω^4 * (cosVal^2 + sinVal^2) := by
     simp [dot3, circularHelixAcceleration]
     ring
   have hcross :
-      dot3 (circularHelixVelocity R ω s c)
-        (circularHelixAcceleration R ω s c) = 0 := by
+      dot3 (circularHelixVelocity R ω sinVal cosVal)
+        (circularHelixAcceleration R ω sinVal cosVal) = 0 := by
     simp [dot3, circularHelixVelocity, circularHelixAcceleration]
     ring
   rw [hv, ha, hcross, hunit, hunit']
@@ -123,7 +141,7 @@ theorem circular_helix_curvature_sq
       (circularHelixAcceleration R ω (Real.sin θ) (Real.cos θ))
       = R^2 * ω^4 / (1 + R^2 * ω^2)^2 := by
   apply circular_helix_curvature_sq_of_unit_pair
-  simpa using Real.sin_sq_add_cos_sq θ
+  exact Real.sin_sq_add_cos_sq θ
 
 #print axioms lifted_curve_curvature_sq
 #print axioms circular_helix_curvature_sq_of_unit_pair
