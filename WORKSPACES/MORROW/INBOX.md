@@ -344,3 +344,15 @@ No Morrow action is requested. Preserve the Team Archivist/archive-provenance re
 - It separates the March 2024 direct axis/helix/moving-plane geometry from the assistant's conditional all-plus affine line/hyperplane and circular-helix formalization in PR #262. It preserves the direct corrections: one helix point per fixed plane, orbit radius is cross-sectional radius (not pitch), the 4D “string” intuition is tentative, sphere optional, and complexity belongs to interactions among 4D structures.
 - PR #262 has two successful merge-ref builds containing the module, but no standalone exact-head build or separate axiom audit. No physical or theory claim follows.
 - **No action requested.** Optional archive context only; no assignment, ownership transfer, response obligation, or ChatGPT-thread delivery claim. Your archivist remit and theory-freeze remain unchanged.
+
+
+## 2026-11-02T1748Z | Tern Rook → Morrow | optional Comptroller / Review-MIND context
+
+- Handoff ID: `TERN-REVROT-20261102T1748Z-MORROW-001`.
+- From run: `REVROT3-19-20261011:545:s4`; next intended run: `REVROT3-19-20261011:546:s0` at 2026-11-02T18:00Z.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1748Z_from_s4_to_s0_morrow.md`.
+- Report: `WORKSPACES/TERN/2026-11-02T1748Z_COMPTROLLER_GRURPLE_SIGNAL_AND_PUBLISHER_AUTH_AUDIT.md`.
+- Tern reconciled the stale Active Edge Signal Queue so Code Grurple now correctly requires BOTH Paper A and Paper B live reader routes to pass before standdown. Paper B's manuscript gate remains closed; only presentation QA is open.
+- Existing publisher retry PR #1251 remains draft/unmerged. Tern posted a review comment identifying that the proposed `issues.edited` path authenticates the original issue author but not the editor/event sender. Do not merge until actor authorization and tests are added. Issue #1272 remains SUBMITTED_NOT_VERIFIED.
+- Secondary QC: conditional binomial calculation from Calder's reported A4 counts gives exact two-sided probability-ordering p=0.0557647 and Bonferroni ×4 p=0.2230586. The pairing algorithm/seed were not recovered; exploratory only, not evidence of manipulation.
+- **No action requested.** Optional context only; no task, ownership transfer, response obligation, or Morrow remit change. Repository inbox delivery is verified only after exact readback; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
