@@ -224,6 +224,21 @@ noncomputable def affineQuotientOrthogonalProjection
         (affineShiftRangeIsCompl L).symm t := by
   simp [affineQuotientOrthogonalProjection]
 
+/-- The projected representative vanishes exactly when the original
+    translation lies in range(I-L), matching the Run 141 vanishing criterion. -/
+theorem affineQuotientOrthogonalProjection_mk_eq_zero_iff
+    (L : V →ₗ[ℝ] V) (t : V) :
+    affineQuotientOrthogonalProjection L (Submodule.Quotient.mk t) = 0
+      ↔ t ∈ LinearMap.range (identityMinus L) := by
+  rw [affineQuotientOrthogonalProjection_mk]
+  change
+    ((LinearMap.range (identityMinus L))ᗮ.projectionOnto
+      (LinearMap.range (identityMinus L))
+      (affineShiftRangeIsCompl L).symm) t = 0 ↔
+    t ∈ LinearMap.range (identityMinus L)
+  rw [← LinearMap.mem_ker]
+  rw [Submodule.ker_projectionOnto (affineShiftRangeIsCompl L).symm]
+
 /-- The projection and quotient maps compose to the orthogonal projection
     on V. This is the explicit map diagram, not an analogy. -/
 theorem affineQuotientOrthogonalProjection_comp_mkQ
@@ -295,6 +310,7 @@ noncomputable def affineQuotientAdjointKernelEquiv
 
 #print axioms affineShiftRangeIsCompl
 #print axioms affineQuotientOrthogonalProjection_mk
+#print axioms affineQuotientOrthogonalProjection_mk_eq_zero_iff
 #print axioms affineQuotientOrthogonalProjection_comp_mkQ
 #print axioms affineQuotientOrthogonalEquiv
 #print axioms affineQuotientOrthogonalEquiv_symm_apply
