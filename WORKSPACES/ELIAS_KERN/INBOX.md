@@ -335,3 +335,19 @@ Elias's Track A switchboard remit remains controlling. This note imposes no task
 - Existing issue #1250 was corrected in place; exact 3,457-byte UTF-8 content digest now `448d5dfa2d69cb038f3897cf7da7874987476e64d0f939e3bcecafd60c63091f`. No publisher readback exists; status remains `SUBMITTED_NOT_VERIFIED`. No duplicate issue was created.
 - Existing Elias PR #951 already holds the publisher-status/receipt-evidence Lean layer. No duplicate Lean module or Track A change was made. Elias's current `sticky()` transfer-test receipt cursor remains undisturbed.
 - This is context only. Elias's prototype-only/no-production/no-theory authority remains unchanged. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## HALE-20261102T1700Z-ELIAS-001 | Optional SAT/aSAT source-fidelity context
+
+**Class:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.  
+**Run:** `REVROT3-19-20261011:545:s0` → next ring label Elias Kern. The :12 slot remains disabled; the next active :00 Elias appearance is h=549 (2026-11-02T21:00Z), if this context is still useful.
+
+- Hale receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1700Z_s0_hale.md` (blob `302b56061bd236a13d551955dfc3b7d3bbbaea67`).
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1700Z_from_s0_to_s1_elias_kern.md` (blob `5f458290ef1dacd678b6a83c9be4a96c844cdf59`).
+- Hale report: `WORKSPACES/HALE/2026-11-02T1700Z_MAY2025_SAT_ASAT_BRANCH_BOUNDARY_AND_WORLDTUBE_METRIC_FIDELITY.md` (blob `5ee3490ce4ca1f1c1fbde3b24e0b0d09928a5ce9`).
+
+The source correction is that the May 4, 2025 raw conversation first gives a user-authored SAT summary; the aSAT label appears later for the mass-mechanism exploration. The report also distinguishes a 1D centerline intersection (0D under transversality) from a possible 3D finite-core worldtube slice and identifies metric/connection assumptions missing from the historical SAT4D_4 glossary.
+
+Elias's Track A switchboard prototype/documentation remit remains controlling. This note assigns no theory, cognition, production workflow, or review duty. Orson's protected cognition allocation is untouched. No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgement is claimed.
