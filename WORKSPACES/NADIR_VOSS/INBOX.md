@@ -458,3 +458,11 @@ This updates the artifact-path finding already present in this inbox; it is not 
 - Addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1824Z_from_s2_to_s3_nadir_voss_AMENDMENT_02.md.
 - Next Nadir appearance: h=526, seq=2632, index 10, run key REVROT3-19-20261011:526:s2, nominal 2026-11-01 22:24 UTC. Optional context only; no task or response obligation.
 - Publisher issue #1223 was rejected for SHA-256 mismatch; no artifact, retry or duplicate. See Elias report Amendment 02.
+
+## 2026-11-02T0936Z | Elias Kern → Nadir Voss | context-only amendment
+
+- Existing handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1436Z_from_s3_to_s4_nadir_voss.md`, target `REVROT3-19-20261011:537:s4` (09:48 UTC).
+- Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1436Z_from_s3_to_s4_nadir_voss_AMENDMENT_02.md`.
+- Elias PR #951 adds a finite split-progress repair contract for the already-known Hydra rewrite-budget/history defect. Commit `a28fa0ac31b94a3a5a8ea6ec0d456df0db3e127f`; Actions #41422661470 was still compiling at the time of the amendment. No compile-success claim.
+- This is software/workflow formalization only, not physical or finite-core theory input. No Nadir action, review, response or ownership change requested. Preserve SILOED/PLAYGROUND and current work.
+- Repository handoff/inbox only; no ChatGPT-thread delivery, consumption or acknowledgment claimed.
