@@ -21,14 +21,15 @@ assistant reconstruction. No physical premise is formalized.
 
 namespace HsHVerification.SableEuclideanHelixCurvature
 
-abbrev Vec3 := ℝ × ℝ × ℝ
-abbrev Vec4 := ℝ × ℝ × ℝ × ℝ
+abbrev Vec3 := ℝ × (ℝ × ℝ)
+abbrev Vec4 := ℝ × (ℝ × (ℝ × ℝ))
 
 def dot3 (u v : Vec3) : ℝ :=
   u.1 * v.1 + u.2.1 * v.2.1 + u.2.2 * v.2.2
 
 def dot4 (u v : Vec4) : ℝ :=
-  u.1 * v.1 + u.2.1 * v.2.1 + u.2.2 * v.2.2 + u.2.2.2 * v.2.2.2
+  u.1 * v.1 + u.2.1 * v.2.1 +
+    u.2.2.1 * v.2.2.1 + u.2.2.2 * v.2.2.2
 
 def tangentLift (v : Vec3) : Vec4 :=
   (v.1, v.2.1, v.2.2, 1)
@@ -36,14 +37,30 @@ def tangentLift (v : Vec3) : Vec4 :=
 def accelerationLift (a : Vec3) : Vec4 :=
   (a.1, a.2.1, a.2.2, 0)
 
+/-- The lifted tangent has squared Euclidean norm 1 + |v|². -/
+theorem dot4_tangentLift (v : Vec3) :
+    dot4 (tangentLift v) (tangentLift v) = 1 + dot3 v v := by
+  simp [dot4, dot3, tangentLift]
+  ring
+
+/-- The lifted acceleration has the same squared norm as its spatial part. -/
+theorem dot4_accelerationLift (a : Vec3) :
+    dot4 (accelerationLift a) (accelerationLift a) = dot3 a a := by
+  simp [dot4, dot3, accelerationLift]
+
+/-- The lifted tangent-acceleration inner product is the spatial one. -/
+theorem dot4_tangent_accelerationLift (v a : Vec3) :
+    dot4 (tangentLift v) (accelerationLift a) = dot3 v a := by
+  simp [dot4, dot3, tangentLift, accelerationLift]
+
 /-- Euclidean curvature squared for a lifted tangent/acceleration pair. -/
-def liftedCurvatureSq (v a : Vec3) : ℝ :=
+noncomputable def liftedCurvatureSq (v a : Vec3) : ℝ :=
   let t := tangentLift v
   let acc := accelerationLift a
   (dot4 t t * dot4 acc acc - (dot4 t acc)^2) / (dot4 t t)^3
 
 /-- The same curvature expression reduced to the three spatial components. -/
-def reducedCurvatureSq (v a : Vec3) : ℝ :=
+noncomputable def reducedCurvatureSq (v a : Vec3) : ℝ :=
   ((1 + dot3 v v) * dot3 a a - (dot3 v a)^2) / (1 + dot3 v v)^3
 
 /--
@@ -53,8 +70,9 @@ reduces to this three-dimensional expression.
 -/
 theorem lifted_curve_curvature_sq (v a : Vec3) :
     liftedCurvatureSq v a = reducedCurvatureSq v a := by
-  simp [liftedCurvatureSq, reducedCurvatureSq, tangentLift, accelerationLift, dot3, dot4]
-  ring
+  unfold liftedCurvatureSq reducedCurvatureSq
+  rw [dot4_tangentLift, dot4_accelerationLift,
+    dot4_tangent_accelerationLift]
 
 def circularHelixVelocity (R ω s c : ℝ) : Vec3 :=
   (-R * ω * s, R * ω * c, 0)
@@ -73,9 +91,28 @@ theorem circular_helix_curvature_sq_of_unit_pair
       (circularHelixAcceleration R ω s c)
       = R^2 * ω^4 / (1 + R^2 * ω^2)^2 := by
   rw [lifted_curve_curvature_sq]
+  unfold reducedCurvatureSq
   have hunit' : c^2 + s^2 = 1 := by nlinarith [hunit]
-  simp [reducedCurvatureSq, dot3, circularHelixVelocity,
-    circularHelixAcceleration, hunit, hunit']
+  have hv :
+      dot3 (circularHelixVelocity R ω s c)
+        (circularHelixVelocity R ω s c)
+        = R^2 * ω^2 * (s^2 + c^2) := by
+    simp [dot3, circularHelixVelocity]
+    ring
+  have ha :
+      dot3 (circularHelixAcceleration R ω s c)
+        (circularHelixAcceleration R ω s c)
+        = R^2 * ω^4 * (c^2 + s^2) := by
+    simp [dot3, circularHelixAcceleration]
+    ring
+  have hcross :
+      dot3 (circularHelixVelocity R ω s c)
+        (circularHelixAcceleration R ω s c) = 0 := by
+    simp [dot3, circularHelixVelocity, circularHelixAcceleration]
+    ring
+  rw [hv, ha, hcross, hunit, hunit']
+  have hden : 1 + R^2 * ω^2 ≠ 0 := by positivity
+  field_simp [hden]
   ring
 
 /-- Trigonometric specialization of the unit-pair result. -/
