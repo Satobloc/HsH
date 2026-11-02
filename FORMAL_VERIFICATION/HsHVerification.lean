@@ -17,6 +17,7 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.RavelSATxScalarPotentialGate
+import HsHVerification.RavelSATxEulerLagrangeAudit
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
