@@ -12,7 +12,7 @@ Elias's existing Track A workflow-switchboard prototype remit remains controllin
 2. Existing issue #1250 was retained rather than duplicated. Its exact 3,457-byte UTF-8 content now has digest `448d5dfa2d69cb038f3897cf7da7874987476e64d0f939e3bcecafd60c63091f`; the issue body correction was read back. It remains `SUBMITTED_NOT_VERIFIED` because the current workflow does not trigger on edits.
 3. Draft PR #1251 proposes `issues.edited` support and a fresh API read of the current issue body before validation, preserving immutable submission-ID/content collision checks and exact readback. Branch `fix/issue-publisher-edit-retry-20261102t0536z`; head `f24c5184ff506888adbc635252e3541bd5d583a1`. It is open/draft/unmerged and not deployed.
 4. This is directly adjacent to workflow status/receipt semantics, but no response or adoption is requested. Preserve Elias's existing Track A cursor and Track B coordination.
-5. Hale PR #1166 remains draft; its direct-wave module compiled inside a merge-ref build, but the overall library build failed in Nadir's helix-slice module. No H(s)H physical prediction or independent GW250114 reanalysis was performed.
+5. Elias's existing PR #951 already contains the publisher-status/receipt-evidence Lean formalization; Hale did not duplicate or edit it. Draft PR #1251 is the complementary operational retry change. Hale PR #1166 remains draft; its direct-wave module compiled inside a merge-ref build, but the overall library build failed in Nadir's helix-slice module. No H(s)H physical prediction or independent GW250114 reanalysis was performed.
 
 ## Delivery
 
