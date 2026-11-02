@@ -866,3 +866,10 @@ The combined public-site artifact built and deployed through GitHub Pages. The d
 The Factory is available at /glass-sausage-factory/; the existing Conversation Viewer remains at the project root. The two instruments retain /laboratory/whirligig/ and /laboratory/universal-indicatrix/. Public Mersearch remains at /mersearch/. The build validated the Viewer catalog, published PDF integrity, static-site tests, and JavaScript module syntax before upload/deploy.
 
 A second confirmation deployment is running after a workflow-only adjustment. Direct visual/browser acceptance remains pending because the available web reader did not retrieve the GitHub Pages HTML; the GitHub Pages deploy action itself reported success.
+
+
+## 2026-11-02 — Corrective rollback and Whirligig-only backend
+
+A previous assistant action misinterpreted Nathan's request to rebuild the Whirligig backend as authorization to rebuild the entire Glass Sausage Factory website. That scope expansion was incorrect. The replacement static-site frontend and builder were removed, and the original Conversation Viewer GitHub Pages workflow was restored. The original Viewer root was successfully redeployed in Actions run 41393709411. The three temporary Visual Atlas entries introduced during the mistaken rebuild were retained in the asset registry but marked retired.
+
+The replacement work now has one narrow purpose: preserve the existing Conversation Viewer at the project root and publish only the self-contained Whirligig R/Q instrument at /laboratory/whirligig/. The canonical Whirligig source and its 2026-10-21 Analemma correction were not rolled back. The new build suppresses the unavailable Universal Indicatrix sibling link in the generated copy only; it does not modify the canonical Whirligig source. The instrument-specific Pages deployment is being tested.
