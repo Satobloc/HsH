@@ -603,3 +603,48 @@ FIE last full review remains 2026-10-27; next 14-day threshold 2026-11-10. Unrel
 
 Next Aster source cursor: recover the raw role-tagged conversation/originating history for D2 and determine whether m was explicitly defined as linear mass density. Do not repeat Loom's completed 2024 user-turn tagging or duplicate issue #946's existing empirical-comparison analysis.
 
+
+
+## 2026-11-02T1548Z | D2/O1 source chronology and parameter-variant correction
+
+Run key: REVROT3-19-20261011:543:s4. Nominal h=543, seq=2719, selected Aster index 2; next Ariadne index 3, nominal next active slot h544:s0 at 2026-11-02T16:00Z. The current Aster execution started after its nominal 15:48Z slot. The h544:s0 Ariadne slot had already started before this addendum was queued; the supplemental handoff is therefore LATE_OPTIONAL_CONTEXT_ONLY for Ariadne's next active same-phase appearance h563:s0, 2026-11-03T11:00Z.
+
+### Live control and identity preflight
+- BEDROCK.md blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c, 568 lines.
+- Steering Charter 2026-10-26 blob 5f4263381afcb065e9062d5b5885593d0baa58db.
+- Three Paper Campaign blob 9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0.
+- NEW_INSTANCE_START_HERE blob e1fa2fb7c582a1b4528e9507644bd3f481fce8e0.
+- Revival Rotation V4 blob 6761337dfcd0847226ee7baad84db0a9c496760a.
+- Thread-first rule blob e79707587914edb76afca1c32f9f4dad4d0324b7.
+- Current Workflow Orientation V2 blob 2bb6d996ca61f41b2b3fb34480cab1acf906bd4f.
+- Task Branch Graph blob 3c341c616aa893bf56ad5ad5919e09a17e0c2b46, updated 2026-10-30; it has no Aster-specific D2 branch. Aster appears as a candidate on HAGALAZ, Code Grurple, and P3.
+- Mersearch Worker Start Here blob 086778737a004c467b0b52142d71aa5b961fc166.
+- Code Grurple roster blob cc96c0bfafc95c54e7960899c7306031e5abce17; Aster remains REVIEW FROZEN / CROSS-READ OPEN.
+- Active Edge Signal Queue blob 8561c4713c61ce97a49cd7214738973efe199a45 remains an older Paper-A-only signal; Tern retains reconciliation authority. The current roster requires both reader routes before standdown.
+- Historical Aster raw export remains conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8, 39 user-role messages. Direct source-fidelity instruction is message d15369d1-1412-4f4a-9460-702d2de573ea. The archived conversation's last user message is 2026-10-17; no authenticated current Aster thread or cross-thread delivery is established.
+- Current Aster PR #1220 remains OPEN / DRAFT / UNMERGED, head research/aster-o13-unitary-mass-gate-20261101t1700z at 6a66217979b9caacff06fa407cd9ccd1cdd7999e, base infra/lean4-verification-20261023 at c7dc2c483f50ae03fc7a7c530829170135e18d92. No PR or branch changes.
+- Expected Loom :36 predecessor receipt/handoff for this Aster :48 slot was not present at check. Record as HANDOFF_MISSING_PREDECESSOR_PENDING, not refusal or missed check-in.
+
+### Source-fidelity result
+The prior 12:00Z Aster crosswalk's D2 file-date/path-association uncertainty is superseded by WORKSPACES/ASTER/2026-11-02T1548Z_D2_O1_SOURCE_VARIANT_AND_COMMIT_PROVENANCE_CORRECTION.md, blob 7f38f3ec0d8969602c9512fcf631c23553507774, report commit 76ddd6ffa3f6a56f90bfa6c78184837d5d4126e5.
+
+- SAT O Derivations/SAT_D2_MODE_EXPANSION.txt and CODE-LOCKED DERIVS.txt were both added in verified commit d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc at 2025-10-27T01:15:21Z. This is first extant repository commit, not original composition date or Nathan authorship.
+- Earlier O1 text variant, commit b543eb3fbf16e50500ceadad83dc9a7dc0759e5b at 2025-10-27T00:40:28Z, calls m a “filament tension mass-equivalent parameter”, without units or a linear-density definition.
+- O1 PDF variant, commit c2d7dfe845cb0255385c8c690bbc9d36bae46f31 at 2025-10-27T01:13:03Z, uses T in canonical momentum and Hamiltonian; no map to D2 m or standard mu.
+- D1/D2 buildouts use m. A later-uploaded June-2025-dated SATO.4D Coherence Project TeX variant uses m dot-xi, also without a line-density definition.
+- D2 lambda is periodic on an interval of length L; the later O1 TeX describes lambda as an affine parameter on a 4D worldline. No map to spatial arclength s or separate evolution time t is supplied.
+- The D1 turn2file10 citation remains an opaque assistant-authored file-citation marker; the referenced attachment identity/bytes are not recovered.
+- HsH EQ-0003 is STD/DERIVED with mu, s, t assumptions, not Nathan Direct. CHECK_REPORT records dimensions PASS, synthetic numeric-close PASS (T=12, mu=3, k=4), and Lean compile NOT_RUN. The previously cited EQ_0003_Dispersion.lean blob 5153cc... is not retrievable at the reported path in the current default branch.
+- No new Lean module, compile, data-free proof, numeric fixture, physical calculation, measurement, model call, or human-subject session. Source-faithful formalization is blocked pending parameter/coordinate typing; any new data-free proof requires Nathan's specific prior permission.
+- No new issue was created. An additive comment append to existing issue #946 was attempted; the connector failed internally and immediate comment readback found no new comment. Status CONNECTOR_WRITE_REJECTED / PUBLISHER_APPEND_UNAVAILABLE / PUBLIC_COMMENT_PENDING. The report is a durable workspace artifact, not a verified HSH-PUBLISH-V1 submission.
+
+### Handoff and protected controls
+- Existing Aster :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled; original hourly America/New_York schedule and :48 phase unchanged. No sixth task.
+- Existing Ariadne handoff 2026-11-02T1200Z_from_s0_to_s1_ariadne.md was preserved. Amendment 01 was created at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1200Z_from_s0_to_s1_ariadne_AMENDMENT_01.md, blob 74b561176ac0b949e91fbd25c051f72b5b57284a, commit b2e01c2b991ea086ba0095d0d35d419e8a34559c.
+- Ariadne inbox entry ASTER-REVROT-20261102T1548Z-D2-O1-SOURCE-CORRECTION-001 was appended and independently read back; inbox blob f17fe3fcf6d4fcdb7e0f856fefebcf598881b7ee, commit 724b86b6c5a811437bd9112ba9091fafceaec3e9. Repository inbox delivery verified; ChatGPT-thread delivery, consumption, and acknowledgment not claimed. Because the target h544:s0 slot had already started, the packet is late optional context for h563:s0.
+- Code Grurple remains active; no Paper A/B route decision or reader acceptance claimed. Aster's formal Paper-A review remains frozen.
+- Orson P1 ownership and Nov 9 / Nov 30 / Dec 14 gates unchanged.
+- FIE last full review 2026-10-27; next 14-day threshold 2026-11-10. Unrelated-reading cursor remains Babbage, The Decline of Science, line 921; no redundant break performed.
+- No SAT-O/Blockwave equation changes, BEDROCK promotion, branch/PR creation, new tooling, Mersearch request overwrite, task/ID/cadence change, signet, or conversation rename.
+
+Next source cursor: recover the raw O1/D1/D2 originating conversation or exact attachment behind turn2file10; determine which O1 variant, if any, governs D1/D2; only then decide whether a source-faithful Lean statement is well-typed. Do not run a data-free proof or physical calculation without the required specific permission and evidence.
