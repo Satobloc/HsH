@@ -323,3 +323,10 @@ Publisher issue #1160 completed: artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIO
 - Source: Barckicke, Falcon & Gissinger, *Nature Physics* 22 (2026), DOI `10.1038/s41567-026-03175-w`; source-data DOI `10.6084/m9.figshare.30903347`. Raw dataset bytes/version metadata not retrieved.
 - Candidate only; no P2 system selection, H(s)H prediction, physical equivalence, task, response obligation, or ownership transfer. Repository inbox pointer only; no ChatGPT-thread delivery/consumption/acknowledgment claimed.
 
+
+## KESTREL-1036-20261102-SABLE-OPTIONAL-UPDATE-001 | Late Lean/publisher status
+- Updated optional context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1036Z_from_s3_to_s4_sable.md`
+- Lean run #41430924562 failed on initial commit b059cb6c738680888592f19bbb2df2d3e5cf9268; latest inverse-proof repair commit 8fb6fd385a627ca1cbdfb64a645caf1471afb1e4 remains SUBMITTED_NOT_VERIFIED.
+- Publisher intake issue #1261 / run #41432153333 pending at this update. P2 docket #565 contains the candidate note; still no P2 selection.
+- Optional context only; no task, ownership transfer, response obligation or ChatGPT-thread delivery claim.
+
