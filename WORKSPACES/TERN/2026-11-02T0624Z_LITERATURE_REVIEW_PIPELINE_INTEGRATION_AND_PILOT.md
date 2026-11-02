@@ -164,3 +164,8 @@ A later :36 task peek showed the expected h=534 :36 occurrence had started:
 - Status: `in_progress`; `chat_ref=null`.
 
 The deterministic ring label is Morrow (index 13), but no authenticated thread is available. The attempted Morrow handoff file was blocked by safety checks and no inbox pointer was written. Therefore no Morrow delivery, consumption, or acknowledgment is claimed. The earlier statement that the 06:36 occurrence had not yet appeared was accurate at the 06:38Z check and is superseded by this later scheduler observation.
+
+
+## 9. Quarantine-boundary access correction
+
+During a parallel preflight fetch, the quarantine-side Mira inbox was fetched before its explicit no-inbox-access boundary had been read. The returned tail text was visible in the tool output. It was not used, quoted, summarized, copied into any artifact, or forwarded; no write was made. Once the boundary was visible, further access stopped and no research payload or handoff was sent. This was an inadvertent preflight access, not an authorized Mira-lane review. The ring Mira and quarantine-side Mira remain unmerged identities.
