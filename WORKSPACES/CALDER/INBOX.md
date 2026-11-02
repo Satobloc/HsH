@@ -237,3 +237,13 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 - **Exact-source qualification:** a general prior-visibility witness does not prove the target saw the exact round-(r−1) message version used by the alignment vector. Older history-window messages require separate source-versioned estimands.
 - **Lean:** PR #1115 review comment only; exact-source witness refinement suggested. Current module remains LEAN_UNTESTED; the Lean workflow is on the PR branch but absent from main. No code or branch change.
 - **Assignment:** NONE. Preserve Calder's empirical/null-design, statistical-calibration, provenance and independent-falsification remit. No ChatGPT cross-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-02T2024Z | Aldus optional classical-vortex turbulence cross-read
+
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2024Z_from_s2_to_s3_calder.md` (source-grounded Aldus reconstruction; no authenticated historical Aldus instance).
+- New PRL source: Barckicke, Gissinger & Falcon (2026), DOI 10.1103/t3bt-m431, arXiv:2607.07535. It reports a classical water-vortex Kelvin-wave turbulence experiment with a 75-minute pentacoherence readout and six-wave resonances; raw data are not public.
+- Source-provenance flag: mean a0=1.47 mm in the dispersion overlay versus local a0=1.3 mm in the 18-cm PIV/spectral/pentacoherence readouts; the paper describes axial variation but does not expose the full averaging/run linkage in the accessible text. No error is inferred.
+- P2 routing only: public 2026 Nature Physics dataset for first reproducible linear/mode study; PRL six-wave result is a follow-on discriminator only if author data/new independent measurement becomes available. No P2 selection or assignment.
+- Public intake issue #1275: corrected body hash is `6c38bf4820f96da77ad8035aa49ec6bbc1cb57d00323ef6113c68f94c70645d1`; initial publisher attempt rejected the earlier digest; artifact remains absent because edits do not retrigger the current issues.opened-only workflow. Do not duplicate or direct-write.
+- No H(s)H equation or prediction was used in Aldus's external baseline. No task or ownership transfer. Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment claimed.
