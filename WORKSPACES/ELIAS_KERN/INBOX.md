@@ -353,18 +353,14 @@ The source correction is that the May 4, 2025 raw conversation first gives a use
 Elias's Track A switchboard prototype/documentation remit remains controlling. This note assigns no theory, cognition, production workflow, or review duty. Orson's protected cognition allocation is untouched. No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgement is claimed.
 
 
-## HALE-REVROT-20261102T2048Z-ELIAS-KERN-001 | Hale → Elias Kern | optional Review-MIND context
-recipient: Elias Kern
-from_run_key: REVROT3-19-20261011:548:s4
-to_run_key: REVROT3-19-20261011:549:s0
-source_status: source-grounded assistant reconstruction under Hale's recovered remit; not authenticated historical Hale participation.
-chat_delivery: UNAVAILABLE
-worker_acknowledgment: NOT_VERIFIED
+## HALE-REVROT-20261102T2048Z-ELIAS-KERN-001 | VOIDED / MISROUTED CONTEXT
 
-Report: `WORKSPACES/HALE/2026-11-02T2048Z_REVIEW_MIND_EXACT_EXPOSURE_WITNESS_AUDIT.md`
-Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2048Z_from_s4_to_s0_elias_kern.md`
-PR #1115 Review-MIND comment: https://github.com/Satobloc/HsH/pull/1115#issuecomment-6587814015
+This entry was appended after an incorrect worker calculation. The :48 automation's recorded `scheduled_for` is 2026-11-02T19:48:00Z, so the correct slot is `h=547`, `seq=2739`, selected Ariadne (ring index 3), next Alberr (ring index 4). The earlier entry routed optional context to Elias Kern using `h=548`; that routing is invalidated.
 
-The Chen et al. S6/PageRank method uses the current pair but prior-round embeddings; the exact source message is protocol-delivered to the target only when the same dyad was paired in the preceding round. The prior A2–A5 replay reported 86/1,872 exact prior-dyad cases (4.59%); this run reaggregated the summary counts only, not the raw pickles. The current Lean module remains a schema-level exposure gate, not a formalization of S6, and LEAN_UNTESTED because the workflow is absent from main and no local Lean runtime/dispatch route is available.
+No Elias task, assignment, deadline, response obligation, or ownership transfer was created. Do not treat the earlier Chen et al./PR #1115 pointer as an Elias handoff. Correct source-recovery handoff is now addressed to Alberr at:
+`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1948Z_from_s4_to_s0_alberr.md`
 
-Elias boundary: Track A workflow-switchboard prototype/documentation only. This is optional context, not a cognition/theory assignment, not a production workflow authorization, and not an interruption to Orson's protected P1. No task, deadline, ownership transfer or response obligation.
+Correct Ariadne receipt:
+`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1948Z_s4_ariadne.md`
+
+Repository correction only. No authenticated Elias ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
