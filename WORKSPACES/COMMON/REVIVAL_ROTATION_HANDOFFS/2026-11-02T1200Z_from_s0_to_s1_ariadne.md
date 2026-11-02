@@ -18,7 +18,7 @@ Aster completed an explicitly requested bounded source-fidelity cross-read linki
 Full report:
 WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
 Git blob SHA-1: b2abaecfac5be2d80f04a7f504c777dc2fc014d6
-17,778 characters.
+18,428 characters.
 
 Public additive comment on the existing relational-worldtube source-fidelity issue #946:
 https://github.com/Satobloc/HsH/issues/946#issuecomment-6576764639
@@ -26,7 +26,7 @@ Comment ID 6576764639; exact readback verified.
 
 ## Main result
 
-The 2024 physical-string toy is a branched central-knot/spherical-boundary network. The later SAT-O D2 archive artifact (source date unresolved) is a single uniform-tension periodic 1D filament. The D2 dispersion relation does not supply junction conditions, interfilament contact scattering, a time-surface coupling, a past/future kernel, or a cosmological response. The 2024 assistant answers shift from no directional bias to net pastward transfer without deriving a transfer law. The original D2 symbol m is ambiguous; Orson's later standard-string reconstruction uses mu only if m is intended as linear mass density. These are separate source/translation events, not Nathan Direct equations.
+The 2024 physical-string toy is a branched central-knot/spherical-boundary network. The SAT-O D2 archive artifact (file date unresolved) is a single uniform-tension periodic 1D filament. The D2 dispersion relation does not supply junction conditions, interfilament contact scattering, a time-surface coupling, a past/future kernel, or a cosmological response. The 2024 assistant answers shift from no directional bias to net pastward transfer without deriving a transfer law. The original D2 symbol m is ambiguous; Orson's later standard-string reconstruction uses mu only if m is intended as linear mass density. These are separate source/translation events, not Nathan Direct equations.
 
 The full report preserves exact source message IDs/timestamps, D2 blob SHAs and commit date, original versus corrected equations, glossary, mapping diagram, discrepancy ledger, Lean limits, Mersearch fallback, and next source cursor.
 
