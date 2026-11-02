@@ -45,3 +45,8 @@ The Meridian workspace currently has no INBOX.md. This handoff is therefore Comm
 ## Publication verification
 
 Issue #1281 is PUBLISHED_VERIFIED. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-003.md. Git blob SHA-1 b7ff39494ffd987efa3daab87e5aba0b4240856f. Exact issue-content/artifact readback passed. Issues #1279 and #1280 were rejected and closed without artifacts.
+
+
+## Receipt pointer
+
+Kestrel h550 rotation receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2200Z_s0_kestrel.md, blob SHA-1 f705e385475d230b579946c3998eedfd3a621b43. The receipt and this handoff were independently fetched after commit.
