@@ -31,3 +31,5 @@ Do not infer that this pointer itself is theory authority; it is restart routing
 - No task, ID, schedule, phase, BEDROCK, theory-promotion, or paper-gate change.
 
 - Rotation receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0400Z_s0_sable.md (commit 921637948cf10f175d37d00ba269a71a8032c9f1).
+
+- Final automation peek for this slot: recorded_status=failed, completed_at 2026-11-02T04:23:04.346149Z, chat_ref=null; no failure reason exposed. Task remains enabled with exact original hourly :00 schedule; no task/ID/cadence change.
