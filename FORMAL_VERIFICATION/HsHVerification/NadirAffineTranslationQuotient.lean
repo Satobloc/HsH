@@ -58,13 +58,31 @@ theorem relativeFrame_comp_apply
       relativeFrame F_i F_k x := by
   simp [relativeFrame]
 
-/-- Relative radius scales compose exactly when the intermediate radius is nonzero. -/
+/-! The source treats rᵢ as a geometric radius and normalizes by it.
+The theorem below is an algebraic extension to signed, nonzero scalar radii;
+the positive-radius source case is made explicit in the following wrappers. -/
+
+/-- Positive geometric radii give a positive relative scale. -/
+theorem relativeScale_pos_of_positive_radii
+    (r_i r_j : ℝ) (h_i : 0 < r_i) (h_j : 0 < r_j) :
+    0 < relativeScale r_i r_j := by
+  unfold relativeScale
+  exact div_pos h_j h_i
+
+/-- Relative radius scales compose exactly for nonzero scalar radii. -/
 theorem relativeScale_comp
     (r_i r_j r_k : ℝ) (h_i : r_i ≠ 0) (h_j : r_j ≠ 0) :
     relativeScale r_j r_k * relativeScale r_i r_j =
       relativeScale r_i r_k := by
   unfold relativeScale
   field_simp [h_i, h_j]
+
+/-- Source-faithful composition statement for positive geometric radii. -/
+theorem relativeScale_comp_of_positive_radii
+    (r_i r_j r_k : ℝ) (h_i : 0 < r_i) (h_j : 0 < r_j) :
+    relativeScale r_j r_k * relativeScale r_i r_j =
+      relativeScale r_i r_k := by
+  exact relativeScale_comp r_i r_j r_k (ne_of_gt h_i) (ne_of_gt h_j)
 
 /-- The framed-sphere similarity maps compose under the stated nonzero-radius
     conditions. No orthogonality assumption is needed for this algebraic identity:
@@ -80,6 +98,17 @@ theorem framedSimilarityMap_comp
   simp only [add_sub_cancel_left]
   rw [map_smul, smul_smul, relativeFrame_comp_apply,
     relativeScale_comp r_i r_j r_k h_i h_j]
+
+/-- Source-faithful framed-sphere composition with positive radii explicit. -/
+theorem framedSimilarityMap_comp_of_positive_radii
+    (c_i c_j c_k : V) (r_i r_j r_k : ℝ)
+    (F_i F_j F_k : V ≃ₗ[ℝ] V)
+    (h_i : 0 < r_i) (h_j : 0 < r_j) (x : V) :
+    framedSimilarityMap c_j c_k r_j r_k F_j F_k
+      (framedSimilarityMap c_i c_j r_i r_j F_i F_j x) =
+    framedSimilarityMap c_i c_k r_i r_k F_i F_k x := by
+  exact framedSimilarityMap_comp c_i c_j c_k r_i r_j r_k
+    F_i F_j F_k (ne_of_gt h_i) (ne_of_gt h_j) x
 
 /-- The linear part L = σQ of the affine representation. -/
 def similarityLinearPart (σ : ℝ) (Q : V ≃ₗ[ℝ] V) : V →ₗ[ℝ] V :=
@@ -220,8 +249,11 @@ theorem linearResidual_eq_zero_iff
     simp [linearResidual, matrixResidualEntry]
 
 #print axioms relativeFrame_comp_apply
+#print axioms relativeScale_pos_of_positive_radii
 #print axioms relativeScale_comp
+#print axioms relativeScale_comp_of_positive_radii
 #print axioms framedSimilarityMap_comp
+#print axioms framedSimilarityMap_comp_of_positive_radii
 #print axioms similarityMap_affine_form
 #print axioms affineIntercept_origin_shift
 #print axioms affineObstructionClass_eq_zero_iff
