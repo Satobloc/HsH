@@ -1,28 +1,28 @@
 {
-  "request_id": "ariadne-jan22-kirk-direct-message-20261102-1948",
-  "requester": "Workshop Relay :48 / Ariadne source archaeology; current assistant reconstruction, not authenticated historical Ariadne",
-  "requested_at": "2026-11-02T19:48:00Z",
+  "request_id": "aster-sep18-oct29-timesheet-graviton-originals-20261102-2331",
+  "requester": "Workshop Relay :24 / Aster source-fidelity reconstruction; current assistant, not authenticated historical Aster",
+  "requested_at": "2026-11-02T23:31:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(date:2026-01-22 AND author:user AND (Kirk OR Riley OR \"Star Trek\" OR \"theory of mind\" OR \"episode order\")) OR (date:2026-01-22 AND author:assistant AND (\"KIRK — ACCUMULATIVE THEORY OF MIND\" OR \"Squire of Gothos\" OR \"Tomorrow Is Yesterday\" OR \"This Side of Paradise\" OR \"Refusal of False Stakes\" OR \"Acceptance of Moral Residue\" OR \"Identity Anchoring\" OR \"Rejection of Stasis\"))",
-  "purpose": "Targeted Mersearch recovery of the exact January 22, 2026 Kirk conversation and upstream human-simulation source stack. Find original raw conversation exports, exact message UUIDs, UTC timestamps, parent ancestry, role, source repository commit/blob, and any original TXT/README/workflow artifacts. The prior broad Kirk/Riley lineage query returned 381 hits across 14 sources but did not recover the January 22 raw identity. This query changes lens to exact message-date plus role-separated content fingerprints and episode/operator names. Distinguish the direct user request (prior-conversation search corroborated but raw export missing), assistant-authored title/operator synthesis, January 21 derivative podcast, separate Riley/Bruce Hyde/Nathan-from-1975 layer, and later reconstructions. Search all three permitted repositories; preserve source strata and negative-result scope.",
+  "query": "(date:2026-09-18 AND author:user AND (gluon OR neutrino OR soliton OR timesheet OR \"giant-neutrino\" OR \"same phenomenon\" OR \"same underlying phenomenon\")) OR (date:2026-10-29 AND author:user AND (graviton OR wavefront OR wavesheet OR waferont OR soliton OR timesheet))",
+  "purpose": "Recover the original raw conversation exports and exact role-authenticated user-message locators for two previously context-recovered Nathan statements: (1) the 2026-09-18 cross-scale statement linking gluons, neutrino-like timesheet solitons and giant-neutrino-like gravitational solitons; (2) the 2026-10-29 conditional graviton statement placing time wavefront/wavesheet first and a graviton only as a possible interpretation if a timesheet soliton forms. Preserve exact repository/path/source commit/blob, conversation ID, message UUID, UTC timestamp, role, parent ancestry and adjacent context. Distinguish original user messages from assistant transcriptions, summaries, reposts and historical module labels. This is source recovery only, not a physical calculation, proof of cross-scale equivalence, manuscript review or theory promotion.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original raw conversation paths, conversation IDs, exact message UUIDs, role, UTC timestamp, parent ID and adjacent context",
+    "candidate raw conversation paths, conversation IDs, exact user message UUIDs, UTC timestamps, parent IDs and adjacent context",
     "exact source repository commits and immutable blob SHAs; first-extant repository dates separately from message dates",
-    "candidate standalone Kirk/Riley TXT, README, workflow and TOS S1 source paths with exact locators",
-    "duplicate/derivative relationships and explicit three-repository coverage/exclusion limitations"
+    "source-role, branch/ancestry, duplicate and derivative relationships",
+    "verbatim original wording and separate assistant-authored transcriptions/corrections"
   ],
   "exclusions": [
-    "Do not publish raw excerpts, personal narrative or private HSH_RESOURCES content",
-    "Preserve default PRIOR_ART and QUARANTINE public-index exclusions; do not bypass the bridge",
-    "Do not treat the January 21 podcast or KIRK_mind/READY_ROOM shared core as the missing January 22 raw source",
-    "Do not back-project Riley, Bruce Hyde or Nathan-from-1975 into the direct Kirk conversation without raw evidence",
-    "No human-subject experiment, model inference, physical calculation, data-free calculation, statistical test, parameter fit or synthetic fixture",
-    "No new tooling, branch, PR, manuscript, public issue, theory integration, BEDROCK change, paper-gate advancement, automation or scheduler modification"
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART public-index exclusions",
+    "Do not treat compact receipts as exhaustive results or source-authorship proof",
+    "Do not infer missing source locators from assistant-authored summaries",
+    "No physical calculation, data-free calculation, synthetic fixture, parameter fit, CODATA comparison or independent measurement",
+    "No new tooling, branch, PR, public issue, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
   ],
   "status": "requested",
   "lane": 3
