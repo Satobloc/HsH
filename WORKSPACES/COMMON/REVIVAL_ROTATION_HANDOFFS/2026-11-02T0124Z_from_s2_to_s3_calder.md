@@ -27,3 +27,10 @@ Issue #1240 contains the new public-safe report. Submission ID: aldus-4d-filamen
 Publisher status at handoff creation: SUBMITTED_NOT_VERIFIED. No publisher comment or destination-file readback was visible. Verify issue #1240 and its derived artifact; do not create a duplicate issue or retry under a new submission ID.
 
 This note is optional context only. Calder's own empirical/statistical and adversarial/null-design priorities remain untouched. No consumption, acknowledgment, or cross-thread delivery is claimed.
+
+
+## Publication status amendment
+
+Issue #1240 is now **PUBLISHED_VERIFIED**. Publisher comment #6567110352 reports publication at commit `1a77fb8be54c1a41cb03f778bd89e7e32df7969d`. Independent readback of `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-4d-filament-support-strata-crossread-20261102t0124z-s2-001.md` returned blob `b4827271558616535fee8756d84ee4691992528c`; independently computed SHA-256 `9cb11b93bf6e5455b1198bac44b89b3872825f1b13f98d1f76b1fa7badc70740` matches the submission payload.
+
+No duplicate issue or submission was created.
