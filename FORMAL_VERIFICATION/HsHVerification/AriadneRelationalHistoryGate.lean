@@ -46,8 +46,36 @@ theorem positional_factorization_iff_history_constant
     intro h
     exact hc h
 
+/-- Global factorization through current position is equivalent to
+history-constancy at every position, given one reference history.
+
+This is stronger than the fixed-position criterion above: it characterizes
+when a single position-only readout works over the entire domain. -/
+theorem global_positional_factorization_iff_history_constant
+    (g : Position → History → Force) (h₀ : History) :
+    (∃ f : Position → Force, ∀ p h, g p h = f p) ↔
+    (∀ p h, g p h = g p h₀) := by
+  constructor
+  · rintro ⟨f, hf⟩ p h
+    exact (hf p h).trans (hf p h₀).symm
+  · intro hc
+    refine ⟨fun p => g p h₀, ?_⟩
+    intro p h
+    exact hc p h
+
+/-- One same-position, different-history witness refutes a global
+position-only representation, not merely a local factorization claim. -/
+theorem differing_histories_block_global_positional_factorization
+    (g : Position → History → Force) (p : Position)
+    (h₁ h₂ : History) (hne : g p h₁ ≠ g p h₂) :
+    ¬ ∃ f : Position → Force, ∀ p h, g p h = f p := by
+  rintro ⟨f, hf⟩
+  exact hne ((hf p h₁).trans (hf p h₂).symm)
+
 #print axioms positional_readout_is_history_blind
 #print axioms differing_histories_block_positional_factorization
 #print axioms positional_factorization_iff_history_constant
+#print axioms global_positional_factorization_iff_history_constant
+#print axioms differing_histories_block_global_positional_factorization
 
 end HsHVerification.AriadneRelationalHistoryGate
