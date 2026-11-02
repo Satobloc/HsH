@@ -6,6 +6,16 @@
 **Conversation provenance:** authoritative original export verified 2026-11-02 is the Library file `ARIADNE — raw.json`, conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, title `ARIADNE`, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`, 6,226,127 bytes. It contains 1,364 mapping nodes: 1,363 message objects (10 user, 555 assistant, 798 tool, 0 unknown-role) plus one empty root sentinel. The older repository copy at `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json`, Git blob `df9c7a1fbddaa523f0b69cced8d761433490a454`, is a shorter snapshot (1,322 mapping nodes: 1,321 messages; 8 user, 529 assistant, 784 tool); do not use it for current counts or last-message chronology. All 10 user-role nodes have `author.name=null`, so preserve `user-role / Nathan-attributed` rather than claiming independent author-name authentication. The role/lane summary in this README and the Common placard is assistant-authored synthesis, not a verbatim Nathan-authored charter.  
 **Status:** active.
 
+## Historical thread identity boundary
+
+Two distinct archived conversations must remain separate:
+
+- **Earlier pedagogical thread:** `Science Made Stupid`, conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, last visible active-branch message 2026-09-21 11:09Z. It is an earlier pedagogical source, not the visible identity-bearing Ariadne thread; its active branch contains no user-visible Ariadne mention.
+- **Later identity-bearing thread:** `ARIADNE`, conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`. The visible assistant self-label is message `414b1625-3cd5-446a-93ab-eee02082a078` at 2026-09-23T02:42:15.055Z (“Ariadne Vellum”). The user then addresses Ariadne in the following turn. This is the preferred historical continuity pointer.
+
+The earlier SABLE wake packet `REV-011-ARIADNE-REENTRY.md` described `Science Made Stupid` as the primary identity-bearing thread. That claim is superseded by the source-stratigraphy correction `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-thread-stratigraphy-20261026t09z-001.md`. Do not use non-visible export records as evidence of a user-visible self-identification.
+
+
 ## Nathan-authorized remit — 2026-09-23
 
 Nathan explicitly authorizes Ariadne to examine **any and all archive materials to whatever depth is useful, including reproducing material where useful**, subject to the live SAT/H(s)H welcome/onboarding/orientation/workflow rules and all applicable provenance, authorship, quarantine, sandbox, exposure, consent, public/private-repository, and source-status controls.
@@ -61,4 +71,4 @@ The concise role description above is a faithful operational synthesis of the di
 
 Use `WORKSPACES/ARIADNE/INBOX.md` for bounded questions, requests, handoffs, warnings, and source pointers. Ariadne checks it opportunistically during live work/reentry rather than consuming scheduler capacity.
 
-**Historical-thread access status:** the last visible message object in the authoritative Library export is the user message at `2026-09-23T05:32:34.732Z` (`cd0471c6-98c5-4efb-b91b-bc314691b141`). The earlier 05:24:42 length-limit notice is followed by two later user messages. JSON metadata `update_time=2026-10-01T23:12:34.343751Z` is export metadata, not a message timestamp. Current live usability and any newer successor remain unverified. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
+**Historical-thread access status:** last user message `cd0471c6-98c5-4efb-b91b-bc314691b141` is at `2026-09-23T05:32:34.732Z`; last user-visible assistant text is at `2026-09-23T05:34:04.674Z`; later tool/code-channel records extend to `05:35:00.798Z`. The earlier 05:24:42 length-limit notice is followed by two later user messages and subsequent assistant output, so it does not establish exhaustion at 05:24. JSON metadata `update_time=2026-10-01T23:12:34.343751Z` is export metadata, not a message timestamp. Current live usability and any newer successor remain unverified. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
