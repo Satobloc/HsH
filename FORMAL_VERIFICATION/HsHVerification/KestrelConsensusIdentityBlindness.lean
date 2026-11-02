@@ -243,8 +243,8 @@ def partition33Relabelled : Fin 6 → Fin 3 :=
 This executable Boolean fold avoids asking Lean to synthesize a Decidable
 instance for a proposition-valued universal quantifier in #eval. -/
 def sameIdentityPartitionBool6 (f g : Fin 6 → Fin 3) : Bool :=
-  Finset.univ.all fun i =>
-    Finset.univ.all fun j =>
+  (Finset.univ.toList).all fun i =>
+    (Finset.univ.toList).all fun j =>
       decide (identityAgreement f i j ↔ identityAgreement g i j)
 
 #eval sameIdentityPartitionBool6 partition33 partition33Relabelled
