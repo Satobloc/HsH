@@ -44,7 +44,7 @@ The 07:10 quoted-material message `ee6f4f57-1319-432a-aa06-e39bfd3adef3` is on a
 
 The next user node `2fa35549-edc3-4e32-9c1f-07f96ab781a9` gives He-3 as Q=6 while writing 3 quarks × 3 nucleons. That is internally inconsistent with 3×3=9. The assistant's Q=9 calculation is arithmetic correction, not independent measurement. March 18 CORE PACK nodes `11b787cf-f2ea-495e-b0e8-01fd235dde1e` and `0f9c47e1-a437-4276-b128-5061380e722a` are also present as user-role nodes and contain Q=3A, but the original derivation history of that equation bundle remains unresolved.
 
-Published issue #1249 incorrectly claims the Q=3A UUID is absent from the raw mapping. The narrow correction was opened as #1250. Its body was corrected after an initial assistant-node locator typo; the current body contains the verified node `7d384f93-eb25-4699-8741-cdeb20a46003` and corrected digest. However, the publisher triggers only on `issues.opened` and reads the original event snapshot. The edit does not retrigger it. Comments were added to #1249 and #1250. No published artifact or checksum readback is claimed for #1250. Status: SUBMITTED_NOT_VERIFIED. No duplicate issue was created.
+Published issue #1249 incorrectly claims the Q=3A UUID is absent from the raw mapping. The narrow correction was opened as #1250. Its body was corrected after an initial assistant-node locator typo; the current body contains the verified node `7d384f93-eb25-4699-8741-cdeb20a46003` and corrected digest. However, the publisher triggers only on `issues.opened` and reads the original event snapshot. The edit does not retrigger it. Comments were added to #1249 and #1250. Publisher rejected the original issues.opened event with SHA-256 mismatch. The current issue body is corrected, but edits do not retrigger the publisher. No artifact or checksum readback exists. Status: REJECTED / NO PUBLISHED ARTIFACT. No duplicate issue was created.
 
 The source correction does not settle Q-count versus braid order versus effective worldtube count. No BEDROCK change or theory promotion follows.
 
@@ -65,6 +65,6 @@ Last full FIE review: October 27. Next review due November 10. No duplicate brea
 - Code Grurple remains ACTIVE; both reader routes remain PRESENTATION_PENDING.
 - Lane 24 physical/CODATA work held under the current interlock.
 - Mersearch lanes preserved; no new request.
-- Q-source correction #1250: corrected issue body, but publisher readback unavailable; SUBMITTED_NOT_VERIFIED.
+- Q-source correction #1250: original issues.opened event rejected SHA-256 mismatch; body corrected after event, no edit-triggered retry, no artifact; REJECTED / NO PUBLISHED ARTIFACT.
 - No new Lean proof, physical prediction, fit, measurement, paper-gate advancement, BEDROCK change, task change, schedule change, or theory promotion.
 - Optional Hale handoff is context only; repository delivery does not establish thread delivery or consumption.
