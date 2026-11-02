@@ -841,3 +841,20 @@ No manuscript, feed, presentation gate, renderer, public site, or theory state w
 
 
 **Format-adapter refinement:** because Paper A is TeX and Paper B is Markdown, the shared reader should preserve format-specific parsing into a semantic document representation before common rendering. Bind adapter/parser version, configuration digest and semantic-IR digest as well as renderer and derivative identity. This is a proposed architecture, not deployed code. A scripted evidence evaluation finds 2/6 route predicates established for each paper (source pin and feed binding); the other four are NOT OBSERVED. Both route-pass predicates therefore remain unestablished, so Grurple standdown is not satisfied. This is not a newly observed live route failure.
+
+
+## 2026-11-01 — GitHub Pages backend rebuild
+
+Nathan confirmed that the ChatGPT Sites editor is no longer available on his current plan and requested that the public site be rebuilt from the HsH repository. A non-destructive static migration is being implemented on the existing GitHub Pages project:
+
+- Preserve the current Conversation Viewer at the project root and its /mersearch/ reader.
+- Add the Glass Sausage Factory at /glass-sausage-factory/.
+- Preserve the registered /laboratory/whirligig/ and /laboratory/universal-indicatrix/ instrument routes.
+- Add friendly /conversations/ and /research/search/ aliases.
+- Build the public presentation from curated feed projections, approved local assets and registered presentation PDFs.
+- Preserve the Reader Routing Registry default-deny rule; no raw machine feeds, staging assets, private notes, or unpresented Markdown/TeX are exposed as ordinary reader pages.
+- Include the shared page Listen runtime.
+
+The first Visual Atlas pass admits three approved local SVG diagrams. Eight legacy approved artwork records still point to the previous ChatGPT Sites asset host and are deliberately not hotlinked; mirror them only after source retrieval and provenance verification.
+
+**Deployment state at this entry:** source implementation being committed; GitHub Pages Actions build and live-route acceptance remain pending. The static site is read-only and does not replace authenticated owner-curation/private-write capabilities.

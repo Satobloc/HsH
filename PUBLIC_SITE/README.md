@@ -169,3 +169,12 @@ A memorable quotation, news juxtaposition, attractive diagram, or polished page 
 - [Instrument registry](instruments/INSTRUMENT_REGISTRY.json) — site-facing source links and requested live routes. **GitHub source integration has been committed; live ChatGPT Sites publish/readback is not verified.**
 
 Both instruments are public-facing *mathematical tools*, not automatic evidence for SAT/H(s)H physical claims. The 3C-SiC comparison exists only as a post-freeze review; the blind UI has no measured/effective-mass fitting targets.
+
+
+## 2026-11-01 — GitHub Pages static-site backend
+
+The public site now has a repository-side static build source in PUBLIC_SITE/site/. It is designed as a non-destructive parallel migration: the existing Conversation Viewer remains at the GitHub Pages project root, while the new Glass Sausage Factory is built under /glass-sausage-factory/. Registered instruments remain at /laboratory/whirligig/ and /laboratory/universal-indicatrix/.
+
+The builder emits public-safe feed projections, locally mirrored approved gallery assets, and only the registered published PDF derivatives. It does not expose live-influx packets, raw control feeds, staging images, private notes, or arbitrary Markdown/TeX as reader pages. The shared Listen runtime is included. The static site is read-only; authenticated owner curation and private backend writes are not implemented.
+
+Build source: PUBLIC_SITE/site/README.md. Deployment workflow: .github/workflows/deploy-conversation-viewer-pages.yml. Deployment remains unverified until the GitHub Actions run succeeds and the served routes are independently read back.

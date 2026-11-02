@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-20",
+  "updated": "2026-11-01",
   "status": "active site-asset registry",
   "guidance": {
     "purpose": "Register thumbnails, diagrams, notebook scans, podcast art, document covers, generated illustrations, portraits, and external-news visuals used by the public site.",
@@ -200,6 +200,57 @@
       "focal_point": "center figure and both scale pans",
       "crop_policy": "preserve-full-frame",
       "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "id": "hagalaz-8slot-class-p-v01",
+      "file": "hagalaz-8slot-class-p-v01.svg",
+      "source": "PUBLIC_SITE/assets/diagrams/hagalaz-8slot-class-p-v01.svg",
+      "title": "Hagalaz eight-slot local-generator layout",
+      "caption": "Candidate eight-address arrangement: six SO(4) rotation channels, one scale coordinate and one normalized rung advance.",
+      "alt": "Eight positions surround a central Hagalaz rune. Top positions are xw, yw, zw bending channels. Bottom positions are xy, xz, yz normal-space twist channels. Left middle is log mu for scale and right middle is xi for normalized rung advance.",
+      "credit": "HsH project diagram",
+      "date": "2026-09-21",
+      "roles": [
+        "diagram",
+        "visual-atlas",
+        "class-p-candidate"
+      ],
+      "status": "approved",
+      "notes": "Candidate formalization; not yet canonical."
+    },
+    {
+      "id": "hagalaz-recursive-channel-activation-v01",
+      "file": "hagalaz-recursive-channel-activation-v01.svg",
+      "source": "PUBLIC_SITE/assets/diagrams/hagalaz-recursive-channel-activation-v01.svg",
+      "title": "Hagalaz recursive channel activation",
+      "caption": "Normalized RMS activation across six coordinate-plane rotation channels at successive recursive lift orders.",
+      "alt": "Normalized RMS channel activity for six coordinate-plane rotation channels. The first transition has only xw, yw, zw active; later recursive transitions activate all six channels.",
+      "credit": "HsH project diagram",
+      "date": "2026-09-21",
+      "roles": [
+        "diagram",
+        "visual-atlas",
+        "class-p-candidate"
+      ],
+      "status": "approved",
+      "notes": "Class P candidate diagnostic; not a general validation of the construction."
+    },
+    {
+      "id": "so4-six-rotation-planes-class-p-v01",
+      "file": "so4-six-rotation-planes-class-p-v01.svg",
+      "source": "PUBLIC_SITE/assets/diagrams/so4-six-rotation-planes-class-p-v01.svg",
+      "title": "Six sphere-locked coordinate-plane rotations in four dimensions",
+      "caption": "Complete graph of four axes and six SO(4) coordinate-plane rotation generators.",
+      "alt": "A complete graph on axes x y z w labels the six SO(4) coordinate-plane rotation generators xy, xz, xw, yz, yw, zw. With w provisionally the local polar or tangent axis, xw, yw, zw bend the pole while xy, xz, yz twist the normal-space frame.",
+      "credit": "HsH project diagram",
+      "date": "2026-09-21",
+      "roles": [
+        "diagram",
+        "visual-atlas",
+        "class-p-candidate"
+      ],
+      "status": "approved",
+      "notes": "Candidate Hagalaz interlingua formalization; w is a provisional local polar/tangent axis."
     }
   ]
 }

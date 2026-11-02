@@ -1,22 +1,21 @@
-name: Deploy conversation viewer to GitHub Pages
+name: Deploy Glass Sausage Factory and Conversation Viewer to GitHub Pages
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'CONVERSATION_VIEWER/index.html'
-      - 'CONVERSATION_VIEWER/mersearch/**'
-      - 'CONVERSATION_VIEWER/*.js'
-      - 'CONVERSATION_VIEWER/*.css'
-      - 'CONVERSATION_VIEWER/data/**'
-      - 'tools/build_conversation_viewer.py'
-      - 'tools/conversation_json_sniff.py'
-      - 'tools/build_conversation_viewer_resolved.py'
-      - 'indexes/manifests/development-conversation-dates.json'
-      - 'indexes/manifests/live-conversation-dates.json'
-      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
-      - 'CONVERSATION_VIEWER/CURATION.json'
+      - 'CONVERSATION_VIEWER/**'
+      - 'PUBLIC_SITE/site/**'
+      - 'PUBLIC_SITE/*.json'
+      - 'PUBLIC_SITE/generated/papers.json'
+      - 'PUBLIC_SITE/instruments/**'
+      - 'PUBLIC_SITE/assets/**'
+      - 'PUBLIC_SITE/PAPERS/**'
+      - 'PUBLIC_SITE/runtime/page-listen.js'
+      - 'PUBLIC_SITE/runtime/math-speech.js'
+      - 'tools/publish_papers.py'
+      - 'SAT_VISUALS/**'
       - '.github/workflows/deploy-conversation-viewer-pages.yml'
 
 permissions:
@@ -25,25 +24,29 @@ permissions:
   id-token: write
 
 concurrency:
-  group: conversation-viewer-pages
+  group: glass-sausage-factory-pages
   cancel-in-progress: true
 
 jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: \${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
-      - name: Validate resolved catalog, rather than overwriting public GLASS discovery
+      - name: Validate resolved Viewer catalog and curation
         run: |
           python - <<'PY'
           import hashlib,json
@@ -57,18 +60,28 @@ jobs:
           assert data.get('curation',{}).get('sha256_16')==sha, 'stale Viewer curation'
           assert any(item.get('source_repository')=='Satobloc/SAT_THEORY_ARCHIVE_2023-25'
                      for item in data['conversations']), 'public GLASS discovery missing'
-          print('Publishing resolved, curated Viewer catalog with',
-                len(data['conversations']),'conversations')
+          print('Publishing resolved, curated Viewer catalog with',len(data['conversations']),'conversations')
           PY
+
+      - name: Validate published paper PDFs
+        run: python tools/publish_papers.py --check
+
+      - name: Test static site builder
+        run: |
+          python -m unittest discover -s PUBLIC_SITE/site -p 'test_*.py'
+          node --input-type=module --check < PUBLIC_SITE/site/site.js
+
+      - name: Build combined public site artifact
+        run: python PUBLIC_SITE/site/build.py --root . --output _site --base-path /HsH/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload conversation viewer
+      - name: Upload combined public site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: CONVERSATION_VIEWER
+          path: _site
 
-      - name: Deploy conversation viewer
+      - name: Deploy combined public site
         id: deployment
         uses: actions/deploy-pages@v4
