@@ -126,3 +126,13 @@ The **Revival Rotation — Reentry Lounge is active**, not transitioned/unschedu
 - `🔶` is reserved for a genuinely unresolved Nathan-only action or decision.
 
 This roster is operational and deliberately revisable as branch priorities, milestones, instance availability, and lease fit change.
+
+## 2026-11-02 | Tern literature-review workflow overlay
+
+Tern has recorded a provisional, question-bounded literature-review workflow in `WORKSPACES/TERN/LITERATURE_REVIEW_PIPELINE.md`, with the first pilot in `WORKSPACES/TERN/2026-11-02T0624Z_LITERATURE_REVIEW_PIPELINE_INTEGRATION_AND_PILOT.md`.
+
+This is a process overlay within Tern's existing Comptroller work, not a new automation or standing assignment. The four existing hourly leases remain unchanged: :00, :24, :36, :48 enabled; :12 disabled. No prompt, task ID, DTSTART, cadence, phase, or ring change. No sixth task.
+
+Tern manages intake, internal-first deduplication, search protocol, stage allocation, provenance, and next cursor. Hale may perform external discovery and primary-source retrieval within his existing remit; domain owners retain interpretation and authorship. Mira's quarantine-side lane is conditional on current authorization and is not assumed available; Cross is used only for a specific factual/provenance task. The :48 Review lease is opportunistic independent QC, not permanently reassigned.
+
+The pilot is explicitly not a systematic review. It uses existing SciSpace, Scholar Sidekick, Academic Writing Toolkit, and current citation workflow; no new tool, dependency, paid service, or automation was introduced. Public issue-publisher creation was blocked before issue creation; no published artifact or duplicate submission exists.
