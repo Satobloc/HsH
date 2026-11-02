@@ -213,7 +213,7 @@ theorem weightedExchangeableESSFromConcentration_uniform_eq_kish
             <;> ring
       _ = 0 := by rw [h]; ring
   field_simp [hk0, hden, hd']
-  <;> ring
+  <;> ring_nf
 
 /-- Equal weights on k positions have H=1/k. -/
 theorem uniformWeightConcentration
