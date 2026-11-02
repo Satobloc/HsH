@@ -12,7 +12,7 @@ The source-fidelity report for the Meridian time-normal/4D-history geometry is a
 - SHA-256 `86e72a516a8734a5b0078ce2223b608ad5d2a7b190f2906d99aa099eccf21899`.
 - Source-supersession addendum: issue comment `6572628035`.
 
-The report distinguishes the direct 2026 time-normal statement from the assistant’s `Ω=||D_s n||) reconstruction, and separates hypersurface shape, congruence vorticity, Cartan torsion, and path-dependent holonomy. It also records the direct correction that the earlier reciprocal filament/timesheet construction is no longer current since Klein Fabric became common. The current Klein Fabric definition and its projection/intersection/cobordism maps remain unrecovered.
+The report distinguishes the direct 2026 time-normal statement from the assistant’s `Ω=||D_s n||` reconstruction, and separates hypersurface shape, congruence vorticity, Cartan torsion, and path-dependent holonomy. It also records the direct correction that the earlier reciprocal filament/timesheet construction is no longer current since Klein Fabric became common. The current Klein Fabric definition and its projection/intersection/cobordism maps remain unrecovered.
 
 **No geometry assignment is made.** Mercer’s current controlling assignment remains Code Grurple Paper A/B presentation QA while that interlock is active. Do not interrupt that work or treat this packet as authority to resume the historical :48 theory remit.
 
