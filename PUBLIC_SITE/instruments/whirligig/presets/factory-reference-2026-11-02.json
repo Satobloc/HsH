@@ -15,7 +15,26 @@
       "unitSphereLengthCoefficient": 13.26913503960638,
       "selfCrossing": "east-equatorial",
       "selfTangency": "west-equatorial",
-      "equalAreaBalance": true
+      "equalAreaBalance": true,
+      "availableModes": [
+        {
+          "mode": "equal_area_reference",
+          "status": "implemented-reference"
+        },
+        {
+          "mode": "pole_to_pole_candidate",
+          "status": "analytic-candidate-awaiting-shape-acceptance-and-mechanical-validation",
+          "parameterization": {
+            "vector": "(cos(t)^2, sin(2t), sin(t))",
+            "normalization": "unit Euclidean norm",
+            "interval": "0 <= t < 2*pi",
+            "sphericalLengthCoefficient": 9.074187239625148,
+            "twoCircuitMajorToTubeRadiusRatio": 3.888403507455487,
+            "equalArea": false,
+            "candidateOnly": true
+          }
+        }
+      ]
     },
     "torus": {
       "tubeRadius": 0.55,
@@ -36,8 +55,15 @@
     }
   },
   "sources": {
-    "R": {"equationId": "harm_r", "displayGain": 0.55},
-    "Q": {"equationId": "harm_q", "displayGain": 0.6, "samplingPhase": 0.0}
+    "R": {
+      "equationId": "harm_r",
+      "displayGain": 0.55
+    },
+    "Q": {
+      "equationId": "harm_q",
+      "displayGain": 0.6,
+      "samplingPhase": 0
+    }
   },
   "kinematics": {
     "sphereOrientation": "analemma-so3-transport",
@@ -65,7 +91,10 @@
         "contactPlacement": "reference",
         "sweepDirection": 1,
         "rotationDirection": 1,
-        "elbow": {"independent": false, "phaseMode": "shared-locked"}
+        "elbow": {
+          "independent": false,
+          "phaseMode": "shared-locked"
+        }
       }
     ]
   },
@@ -75,7 +104,7 @@
     "exportFormat": "svg"
   },
   "presentation": {
-    "timeFraction": 0.0,
+    "timeFraction": 0,
     "showGuideLines": true,
     "cameraAzimuth": 0.7,
     "cameraElevation": 0.45
