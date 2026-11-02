@@ -18,6 +18,9 @@ on:
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - '.github/workflows/deploy-conversation-viewer-pages.yml'
+      - 'PUBLIC_SITE/instruments/whirligig/**'
+      - 'tools/build_whirligig_pages.py'
+      - 'tools/test_build_whirligig_pages.py'
 
 permissions:
   contents: read
@@ -61,13 +64,18 @@ jobs:
                 len(data['conversations']),'conversations')
           PY
 
+      - name: Test and assemble the Whirligig-only route
+        run: |
+          python -m unittest tools.test_build_whirligig_pages
+          python tools/build_whirligig_pages.py --root . --output _site
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload conversation viewer
+      - name: Upload existing Viewer plus Whirligig
         uses: actions/upload-pages-artifact@v4
         with:
-          path: CONVERSATION_VIEWER
+          path: _site
 
       - name: Deploy conversation viewer
         id: deployment
