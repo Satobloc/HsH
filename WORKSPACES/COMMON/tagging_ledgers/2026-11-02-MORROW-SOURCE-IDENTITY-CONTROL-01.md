@@ -80,3 +80,64 @@ Request `morrow-sep13-dashboard-common-source-recovery-20261101-1524`:
 - Runtime hotfix: RECORDED-IN-MANIFEST; RUNTIME-COPY-ONLY; STABLE-MERSEARCH-BRANCH-UNCHANGED.
 
 No source tag was downgraded. Assistant-authored summaries remain tagged as assistant-authored and are not promoted to Nathan Direct.
+
+
+## 2026-11-02T1024Z additive source backfill
+
+### Argus workspace-creation precedent
+
+Conversation: `6aa26f76-1728-83e9-b640-de423ba5a90a`; title `ARGUS H(s)H Archive Audit`; raw path `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json`; blob `284c35a55252099e404361ce82c9ff61fdbb3071`.
+
+| User message UUID | UTC timestamp | Read extent | Additive tags |
+|---|---|---|---|
+| `dfc69a8e-ab65-4fc9-8fcd-00951824c220` | 2026-09-10 11:23:01.007 | FULL | DIRECT-NATHAN-ATTRIBUTED; NAMED-PERSONAL-WORKSPACE-INSTRUCTION; ARGUS-SPECIFIC; NOT-MORROW-CREATION |
+
+This root user message explicitly introduces a named personal workspace for Argus. It is a precedent for the general continuity pattern, not evidence for Morrow's workspace request.
+
+### Mercer Archive Mover: source reads and scope
+
+Conversation: `6aa5fe86-e258-83ea-9f24-2330244116aa`; title: `Mercer Archive Mover`; canonical inspected snapshot blob `28495aa20438f7b4c9cb19ab49d6c5b871c31086`; raw path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json`.
+
+| User message UUID | UTC timestamp | Read extent | Additive tags |
+|---|---|---|---|
+| `50bf0bff-1fb0-4a50-9907-6b03234ece7a` | 2026-09-13 08:38:50.668 | FULL | DIRECT-NATHAN-ATTRIBUTED; COMMON-PARTICIPATION; DASHBOARD-CHECK; INDEXING-STEWARDSHIP; MERCER-SCOPE |
+| `c8635cd6-9aa3-4b1f-8132-8977e9303707` | 2026-09-13 09:00:28.268 | FULL | DIRECT-NATHAN-ATTRIBUTED; DASHBOARD-OPEN; QUARANTINE-STATUS-TRANSPARENCY; VIEWER-CONTINUATION; SOURCE-BACKFILLED |
+| `7235b984-0ce1-4fa1-bacf-d3de9a6876bc` | 2026-09-13 09:47:51.144 | FULL (upgrades earlier PARTIAL-READ tag; prior tag retained) | DIRECT-NATHAN-ATTRIBUTED; PERSONAL-WORKSPACE-NOTICE; GENERAL-CONTINUITY-POLICY; NOT-MORROW-CREATION |
+| `a77cc6ba-980e-4493-bc63-0ab698fcb5ab` | 2026-09-13 15:33:45.258 | FULL | DIRECT-NATHAN-ATTRIBUTED; RECURRING-ARCHIVE-MAINTENANCE; DUPLICATE-CONTENT-OF-99ae959b; DISTINCT-MESSAGE-EVENT; DIFFERENT-CONVERSATION |
+
+The `c863...` message is the raw source for the Dashboard-open/quarantine-reason/Viewer-continuation directive. It does not contain the separate `ACTIVE = LIVE CONVOS` shorthand. Five path hits in the completed broad Mersearch request are snapshot copies of this one message event, across four blob snapshots; one path pair is byte-identical. They are not five independent witnesses.
+
+The `7235...` message asks for a general notice explaining when/how a scoped instance should request a personal workspace, including stable identity, conversation provenance and a Commons placard. It is not a Morrow creation request. It occurs 33 minutes 26.144 seconds after the first Morrow workspace commit.
+
+### Duplicate content across two workflow messages
+
+Morrow message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`) and Mercer message `a77cc6ba-980e-4493-bc63-0ab698fcb5ab` (conversation `6aa5fe86-e258-83ea-9f24-2330244116aa`) contain exactly equal 3,526-character text. Their timestamps differ by 142.501 seconds. These are distinct user-message events in different conversations, not independent content witnesses and not one message copied across snapshot paths.
+
+### Workspace-creation chronology
+
+- Morrow README first commit: `c18c66a26de2660d7336df7569dd4a5d656f39be`, 2026-09-13T09:14:25Z.
+- Mercer Dashboard directive: 2026-09-13T09:00:28.268Z, 13 minutes 56.732 seconds before the Morrow README commit; its content is about Dashboard/quarantine/Viewer, not Morrow workspace creation.
+- Mercer personal-workspace notice: 2026-09-13T09:47:51.144Z, 33 minutes 26.144 seconds after the Morrow README commit; it cannot be the initial Morrow creation request.
+- Morrow recurring-workflow/maintenance message: 2026-09-13T15:31:22.757Z, 6 hours 16 minutes 57.757 seconds after the Morrow README commit; it is maintenance evidence, not creation evidence.
+
+The exact initial Morrow workspace-creation message remains unrecovered. The Morrow 697-node export contains 17 user-role messages and none is the initial creation request. A targeted follow-up request is pending: `morrow-initial-workspace-folder-source-targeted-20261102-1024`.
+
+### Completed broader Mersearch request
+
+Request `morrow-sept13-workspace-dashboard-source-broader-20261102-0646` completed with request-scoped manifest and both compact receipts independently read back. Manifest SHA: `bd31f51d6f6bcb0e9d0a7d0a1c6c64c7b5d74c70`; receipt JSON SHA: `746443b8f5b4e98f2a2b4a20d5b2d2bca2b6c5e9`; receipt Markdown SHA: `70cee9e8b6f1d8d0d1a98e93d9a4d3d2`.
+
+Recorded coverage: 16,608 files and 20,889,714 records scanned; 124 hits across 55 distinct source paths. Raw `SEARCH_RESULTS.json/.md` remained withheld by the bridge policy. The compact receipt is a bounded navigation index, not a substitute for raw result review. Stable Mersearch branch was not modified; the bridge applied its documented runtime-only identity hotfix.
+
+### Targeted follow-up request
+
+Request `morrow-initial-workspace-folder-source-targeted-20261102-1024` was written to the released lane 1 request file at commit `db4fefb62c8c1fa4b2f630a54ac0aa113589298f`. At last check, no request-scoped manifest or compact receipt existed. Status: `SUBMITTED_NOT_VERIFIED`. Do not overwrite or duplicate; check the exact request output path at the next authorized run.
+
+### Existing Lean formalization status
+
+Aster PR #787 current head `b98d6e4b03e853e2c8c13d0a9b11de1abb0e68c0` imports `MorrowRoleProvenance` from the root aggregator. Current source blob `4ad9f217ab785dd9adcf0e31e9f6b766c0a3d5e5` uses `constructor <;> rfl` for the two parent-edge declarations and contains no `sorry` or `admit` token. The only located CI run #41053033635 is dated 2026-10-30 and logs `sorryAx`; it predates the PR's 2026-11-01 current-head update. No current-head build is recorded. Status: source-level proof repair visible; exact-head Lean compilation unverified. The module's source blob reference is the earlier 465-node Morrow snapshot `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, not the later 697-node snapshot `ee394b446b2e36d35fd1e5ecd004685c0422457b`.
+
+### Unrelated reading
+
+Completed Jacoby, *Practical Talks by an Astronomer*, lines 781–820. Next cursor: 821. The source is held in the internal reference collection; no private path or excerpt is published here.
+
+No source tag was downgraded. The earlier PARTIAL-READ tag for message `7235...` is retained as history and supplemented by this FULL-READ upgrade.
