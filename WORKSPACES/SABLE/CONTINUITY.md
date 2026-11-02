@@ -29,3 +29,5 @@ Do not infer that this pointer itself is theory authority; it is restart routing
 - Next cursor: recover Oct 29 raw source; define F^(?)→W⁴, W⁴∩Σ³_t, and curvature-to-inertia maps; preserve w=ct versus cw=t; obtain authorized exact-head Lean run for PR #1245.
 - Unrelated reading completed: TheTANGLE.txt lines 1851–1890; next cursor 1891. FIE review not due (last 2026-10-27).
 - No task, ID, schedule, phase, BEDROCK, theory-promotion, or paper-gate change.
+
+- Rotation receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0400Z_s0_sable.md (commit 921637948cf10f175d37d00ba269a71a8032c9f1).
