@@ -127,4 +127,4 @@ No public issue, PR, branch, manuscript, route, task, ID, cadence, signet, or th
 
 ## Delivery timing amendment — 2026-11-02T1424Z
 
-Tern's intended :00 run `REVROT3-19-20261011:542:s0` started at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the repository inbox append committed at `2026-11-02T14:24:10Z`. The handoff is therefore **LATE_OPTIONAL_CONTEXT_ONLY** for that run. The Tern inbox append and timing correction were independently read back; no consumption or acknowledgment is claimed. If not consumed, the next same-phase Tern selection is `REVROT3-19-19-20261011:561:s0` at `2026-11-03T09:00:00Z`.
+Tern's intended :00 run `REVROT3-19-20261011:542:s0` started at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the repository inbox append committed at `2026-11-02T14:24:10Z`. The handoff is therefore **LATE_OPTIONAL_CONTEXT_ONLY** for that run. The Tern inbox append and timing correction were independently read back; no consumption or acknowledgment is claimed. If not consumed, the next same-phase Tern selection is `REVROT3-19-20261011:561:s0` at `2026-11-03T09:00:00Z`.
