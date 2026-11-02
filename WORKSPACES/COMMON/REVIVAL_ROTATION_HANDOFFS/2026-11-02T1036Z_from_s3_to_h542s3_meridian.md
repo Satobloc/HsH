@@ -133,3 +133,16 @@ The full log has zero `sorryAx` and zero `admit` occurrences. The separate axiom
 The theorem is conditional mathematics only. No actual SAT/H(s)H `π_i` or `π_j`, physical theory pair, dataset, or cross-prediction has been supplied. The Klein-Fabric definition and global-to-local map remain unrecovered. No physical equivalence or theory promotion follows.
 
 This is an additive correction to the same optional packet. It is not a new handoff, task, ownership transfer, or response request. The target appearance has passed its nominal time; recipient consumption, ChatGPT-thread delivery, and acknowledgment remain unverified.
+
+
+## 2026-11-02 Kestrel correction and next-appearance retarget
+
+This addendum supersedes the packet's earlier exact-head statement.
+
+- PR #873 head `4d69627b9b701d6c4d15a582282dee49c911dc52` was included in successful Lean run #41468951678, but the job checked out synthetic merge commit `072ed737a34ee71c8162873ab7e487dad044aeb3`, merging that head into base `c7dc2c...`. This is a **MERGE_REF_BUILD_PASS**, not an exact-head-only build. The current PR base is `61cc8b...`, so the current head+base merge is also unverified. Full details are in Kestrel Receipt Amendment 02.
+- The original target `REVROT3-19-20261011:542:s3` at 2026-11-02T14:36Z has passed; no matching Meridian receipt was found. The :36 task's latest recorded h543:s3 run selected Loom. This does not establish Meridian nonresponse or thread consumption.
+- The next Meridian appearance across the existing five leases after this relay is `REVROT3-19-20261011:546:s2`, 2026-11-02T18:24Z. This same packet is retargeted to that appearance; no new handoff file is created.
+- Public correction issue #1268 was rejected for SHA mismatch. Its payload body was corrected in place, but the publisher listens only to `issues.opened`; no edit-triggered retry occurred and no artifact exists. No duplicate issue was created.
+- Personal-context lookup found no authenticated active Meridian ChatGPT thread; `WORKSPACES/MERIDIAN/INBOX.md` remains NOT_FOUND and no alternate inbox is verified.
+
+Repository packet only: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. ChatGPT-thread delivery, recipient consumption and acknowledgment remain UNVERIFIED.
