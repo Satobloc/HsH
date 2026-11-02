@@ -24,7 +24,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: glass-sausage-factory-pages
+  group: glass-sausage-factory-pages-sparse
   cancel-in-progress: true
 
 jobs:
