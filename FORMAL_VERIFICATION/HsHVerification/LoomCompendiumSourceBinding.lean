@@ -126,6 +126,19 @@ abbrev validSourceLocator (raw : RawMessageWitness) (loc : SourceLocatorWitness)
   loc.role = raw.role ∧
   loc.reportedTextSha256 = raw.textSha256
 
+/-- Make decidability of the source predicates explicit for decide and #eval.
+    The predicates reduce to finite conjunctions of decidable String and
+    OuterRole equalities plus a Boolean flag. -/
+instance (raw : RawMessageWitness) (quote : QuoteWitness) :
+    Decidable (validVerbatimQuote raw quote) := by
+  unfold validVerbatimQuote
+  infer_instance
+
+instance (raw : RawMessageWitness) (loc : SourceLocatorWitness) :
+    Decidable (validSourceLocator raw loc) := by
+  unfold validSourceLocator
+  infer_instance
+
 theorem target_message_in_tourist_tailor_export :
     touristTailorExport.containsMessage = true ∧
     touristTailorExport.messageCount = 3031 := by
