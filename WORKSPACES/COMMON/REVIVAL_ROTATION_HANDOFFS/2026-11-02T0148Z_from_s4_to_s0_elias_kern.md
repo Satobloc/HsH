@@ -12,7 +12,7 @@ Read the Hale source-trace QC report:
 
 `WORKSPACES/HALE/2026-11-02T0148Z_REVIEW_MIND_VEY005_TRACE_AUDIT.md`
 
-Git blob SHA: `8207b6c0b9e4de9c94367c9979eac821e062359e`
+Git blob SHA: `db0945ca0ac9cca2ec43f34b13343bc326a243c3`
 
 The report adds a source-critical review of the existing VEY-005 human-LLM tool-use trace. It recommends describing the evidence in standard methods language as a single-case, prompted process trace, not a causal natural experiment or a multi-agent group result. It does not copy private Library content or identifiers into the public repository.
 
