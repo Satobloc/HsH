@@ -32,7 +32,7 @@ The later canonical HsH snapshot was used for ancestry. An older Library copy of
 
 Current-ancestry direct user messages include:
 - 062ad8ee-ef20-4857-9077-75fe57a6974f, 2026-08-26 23:41:28.815Z: defines the Klein-bottle-as-fabric proposal, twisted worldtube bridges through the Big Bang, a larger-scale twisted Klein throat, finite Kerr/Kerr-like cores, and the proposed timelike long axis.
-- 5b46e4d9-a51e-4281-904b-f74e41702f1b, 2026-08-26 23:51:14Z: describes block-universe temporal extent in w-length units and distinguishes a point-history from an extended bulk-history.
+- 5b46e4d9-a51e-4281-904b-f74e41702f1b, 2026-08-26 23:51:14.871Z: describes block-universe temporal extent in w-length units and distinguishes a point-history from an extended bulk-history.
 - cc95ad40-9aaf-40b7-8fe7-9e7822030fd6, 2026-08-26 23:54:23.352Z: raises the ring-versus-sphere question for a four-dimensional core.
 - 95319111-ba02-4b45-885a-6e44bd5fed7d, 2026-08-27 00:20:22.945Z: directly states that w-orthogonality is inferred from classical sphericity, varies in SAT, and is exact only in the ideal vacuum; θ₄ is associated with intersectional particle oblateness in the length-extended w picture.
 
@@ -44,21 +44,24 @@ Canonical HsH source:
 - Path: LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json
 - Git blob SHA-1: 56a84cb85d5c386efa4ea11d322d11e95e2c7703
 - Size: 17,405,163 bytes
-- Conversation ID: 6ad7e9c0-7a2f-4e3d-a3a7-4c1a1b6a9f12
+- Conversation ID: 6ad7e9c0-e8a0-83e9-984e-94d020de3abf
 - Snapshot current-node ancestry: 3,660 nodes of 3,678.
 
 The ordinary file reader returned an empty payload for this large JSON. The Git blob API returned the full content. The source was not absent; this was a reader-size limitation.
 
 Important current-ancestry direct messages:
-- c1b42229-6b1a-4a9b-9b0c-9e4b1d0f2a33, 2026-10-20 23:34:44.617Z: donut/Cruller visualization, rotating filaments/worldtubes, and a proposed relation between rotation and particle/worldtube formation.
+- c1b42229-00a9-4119-aac3-cefa6cb97157, 2026-10-20 23:34:44.617Z: donut/Cruller visualization, rotating filaments/worldtubes, and a proposed relation between rotation and particle/worldtube formation.
 - f658b2db-32f0-45cd-828b-140691cc9afb, 2026-10-20 23:53:30.041Z: expanding-Minkowski geometry and “4D curvature of the donut is acceleration” explicitly marked as a working hypothesis without proof.
 - 090f5160-1020-486d-9c42-df3d7dff2063, 2026-10-21 00:17:23.235Z: direct annotation says the back-hallway programme remains a mathematical translation programme, its corridors are metaphorical, and the earlier reciprocal filament/timesheet-deformation construction is no longer the current construction because Klein Fabric had become common.
-- 663cf5f5-5b25-4f6e-b3e7-7e98e9a1c1c0, 2026-10-21 07:17:31.500Z: large circles are identified as the user's own light cone, not collisions with another universe.
-- 0862c00a-6b7f-4a7c-8c0a-7d5f0a1c4e22, 2026-10-21 07:31:09.576Z: Big Bang is described as the inner circumference of the donut, not the center of the slice.
+- 663cf5f5-0d97-4720-9fe4-b3988fe8e159, 2026-10-21 07:17:31.500Z: large circles are identified as the user's own light cone, not collisions with another universe.
+- 0862c00a-d8f5-42e9-a876-3af4e5254046, 2026-10-21 07:31:09.576Z: Big Bang is described as the inner circumference of the donut, not the center of the slice.
 - c5525f53-b7cc-4444-8102-3bf6fdb1c892, 2026-10-21 13:55:40.205Z: current convention is recorded literally as cw=t, ++++, and Forest Normalization; the nearby (c+H₀)/2 expression is explicitly tentative.
-- c8ce3474-1a42-4d18-b1a3-8f3e8d8c2a61, 2026-10-21 14:06:39.059Z: proposes a statistical relation between Hubble-radius expansion and contraction of the matter surface, without a complete equation.
+- bc09cf32-9952-462a-a02b-2c67a3cf4c91, 2026-10-20 23:12:49.986Z: directly corrects the older two-shell-lambda description. The current proposal is a surface-of-simultaneity to Hubble-radius metric-curvature correction, described as a tiny nonzero cosmic gravity well; the (H₀ ± c)/2 expression is explicitly awaiting a dimensionally appropriate form.
+- 47cf2603-bf28-439c-82b3-1f0e0c2a7dc8, 2026-10-21 00:31:23.968Z: explicitly warns not to mistake back-hallway translations for current SAT formalism; the older formalism was superseded and predates Forest.
+- c8ce3474-de6e-4c00-b307-00c7de0724e6, 2026-10-21 14:06:39.059Z: proposes a statistical relation between Hubble-radius expansion and contraction of the matter surface, without a complete equation.
+- 2bef9e5d-cf4d-4cb2-959f-218e032e5263, 2026-10-21 06:32:15.993Z: recalls a prior worldtube-tension estimate near 10^44 J. No underlying calculation, system, units derivation, uncertainty, or provenance was recovered. An earlier Ravel source audit records the same magnitude as an off-the-top-of-head estimate. Treat this as an unverified recollection, not a calculation or measurement; it is not used here.
 
-Message 090f is a user-role message containing quoted assistant material. Only its final annotations are treated as Nathan Direct. The preceding assistant material is not attributed to Nathan.
+Message 090f is a user-role message containing quoted assistant material. Only its final annotations are treated as Nathan Direct. The preceding assistant material is not attributed to Nathan. The same conversation's direct message 47cf2603 further separates the back-hallway translation programme from current SAT formalism.
 
 ### C. Aldus specialist remit
 
@@ -79,7 +82,7 @@ The direct descriptions support these separate objects and relations:
 - **Expanding-Minkowski/Cruller:** 4D curvature of the donut as acceleration is a direct working hypothesis, not a derived law.
 - **Back hallway:** a metaphor for mathematical translation corridors, not a physical worldtube or ER bridge.
 
-The direct source also contains a tension between “massive filaments sink toward the middle/central singularity” and the later description of the Big Bang as the donut's inner circumference rather than the center of the slice. These may describe different loci, but no map distinguishes them.
+The direct source also contains a tension between “massive filaments sink toward the middle/central singularity” (c1b42229-00a9-4119-aac3-cefa6cb97157) and the later description of the Big Bang as the donut's inner circumference rather than the center of the slice (0862c00a-d8f5-42e9-a876-3af4e5254046). These may describe different loci, but no map distinguishes them.
 
 ## 3. Historical assistant translations and fidelity audit
 
@@ -158,18 +161,20 @@ This resolves one ambiguity: a Kerr ring worldsheet and a finite 4D core do not 
 Existing Ravel formalization:
 - PR #1133, RavelCarrierSheetDimensionGate.lean.
 - Current PR head: d8579403952ca658cf5dd0547e8c181701d18145.
-- Module blob: 69c15e6b7e3c7d70f3c1cdbf1e7e7d8a5f7a1d6f.
+- Module blob: 69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4.
 - CI run #41348936553: successful PR merge-ref build. The module blob at the merge ref is identical to the current PR-head module.
 - Actual #eval output: [(3,0),(2,1),(1,2),(0,3)] for the normal-rank/intersection-dimension profiles.
 - The module's printed axioms do not show sorryAx in the target module. The global axiom-audit, lint, nanoda, and tests were skipped.
 
 **New formalization defect:** expectedTransverseIntersectionDimension uses Nat subtraction. For two 1D carriers in 4D, the expected dimension is -2, meaning a generic transverse intersection is empty; Nat subtraction truncates this to 0 and conflates generic emptiness with a genuine 0D intersection. normalComplementRank similarly needs a carrier ≤ ambient precondition. The fixed 1D/2D/3D/4D versus 3D-slice table is safe, but the generic helper needs Int or an explicit result type such as GenericEmpty deficit | Dimension d. No code was changed in Ravel's PR.
 
-Existing angle formalization:
-- PR #1076, LoomTheta4AngleComplement.lean.
-- Current head: e0a9f4d4f0c73d0e6b6cbb3e2a0f4e7c0a2a9f41.
-- Successful exact-head CI run #41003676062.
-- It proves a conditional Euclidean complement-angle identity. It does not prove the physical meaning of θ₄, its pitch relation, or the 4D core projection.
+Existing projection-angle formalization:
+- PR #1076, module LoomProjectionAngle.lean, blob SHA-1 bf14b8de776bb61a94240d3f96e7e21eb9af9c1e.
+- Current branch head: e0a9b84abdadb17e6ff64900c9e177881364074d.
+- The module formalizes Euclidean R⁴ projection onto w=0, the Pythagorean component split, and the conditional complementary-angle identity cos(π/2−δ)=sin δ. It explicitly says this is a coordinate proof vehicle, not a physical model.
+- Run #41003676062 succeeded on PR merge ref 7ce0bf0, which merged the earlier head e0a9b84 into base 61cc8b65. It was not a standalone exact-head build.
+- The PR body later mentions a repair hash 96ab1588cff77f421af1d4d37a961de37491334b, but the branch still points to e0a9b84 and the body says the replacement exact-head build has not been observed. Current exact-head verification is therefore unestablished.
+- This module does not identify δ with Nathan Direct θ₄, derive the helix-pitch relation, or prove a 4D finite-core projection.
 
 No new Lean module or PR was created because the native metric, w-field type, worldtube dimension, and global gluing map are still underdefined. Existing proofs were reused; no physical premise was formalized as fact.
 
