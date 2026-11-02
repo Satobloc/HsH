@@ -302,7 +302,7 @@ theorem weightedExchangeableCorrelationQuadraticForm_eq
     apply Finset.sum_congr rfl
     intro i hi
     rw [Finset.sum_eq_single i]
-    · simp
+    · simp [pow_two]
     · intro j hj hji
       simp [hji.symm]
     · intro hnot
@@ -419,7 +419,9 @@ theorem weightedExchangeableCovarianceQuadraticForm_eq
       rw [Finset.mul_sum]
     _ = variance *
           (rho * (weightTotal q)^2 + (1-rho) * weightConcentration q) := by
-      rw [weightedExchangeableCorrelationQuadraticForm_eq]
+      simpa [weightedExchangeableCorrelationQuadraticForm] using
+        congrArg (fun x : ℝ => variance * x)
+          (weightedExchangeableCorrelationQuadraticForm_eq q rho)
 
 /-- For nonnegative variance and 0 ≤ rho ≤ 1, the explicit exchangeable
 covariance quadratic form is nonnegative for every finite weight vector.
