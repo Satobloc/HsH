@@ -1,3 +1,5 @@
+> **SUPERSEDED / DO NOT ROUTE TO SABLE.** A ring-successor calculation error was found after creation. For h=538, seq=2693, selected index 14 is Kestrel and the prescribed successor is ring[(2693+1) mod 19] = index 15, Meridian. Sable is the next hourly selection, not this run's ring successor. This file is retained for audit only; no task, response or ownership is assigned to Sable.
+
 # Kestrel → Sable | Optional context only
 **Nominal slot:** 2026-11-02T10:36Z  
 **Run key:** `REVROT3-19-20261011:538:s3`  
