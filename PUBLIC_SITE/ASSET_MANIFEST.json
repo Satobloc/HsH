@@ -215,8 +215,8 @@
         "visual-atlas",
         "class-p-candidate"
       ],
-      "status": "approved",
-      "notes": "Candidate formalization; not yet canonical."
+      "status": "retired",
+      "notes": "Retired: introduced during an unrelated whole-site rebuild that was rolled back. Not approved for current public-site presentation."
     },
     {
       "id": "hagalaz-recursive-channel-activation-v01",
@@ -232,8 +232,8 @@
         "visual-atlas",
         "class-p-candidate"
       ],
-      "status": "approved",
-      "notes": "Class P candidate diagnostic; not a general validation of the construction."
+      "status": "retired",
+      "notes": "Retired: introduced during an unrelated whole-site rebuild that was rolled back. Not approved for current public-site presentation."
     },
     {
       "id": "so4-six-rotation-planes-class-p-v01",
@@ -249,8 +249,8 @@
         "visual-atlas",
         "class-p-candidate"
       ],
-      "status": "approved",
-      "notes": "Candidate Hagalaz interlingua formalization; w is a provisional local polar/tangent axis."
+      "status": "retired",
+      "notes": "Retired: introduced during an unrelated whole-site rebuild that was rolled back. Not approved for current public-site presentation."
     }
   ]
 }
