@@ -289,3 +289,18 @@ No theory promotion, physical calculation, SAT-O/Blockwave equation edit, new to
 - Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1481–1520. Next cursor: line 1521. FIE last full review 2026-10-27; 14-day rereview not due.
 - Public synthesis submission `kestrel-cross-domain-readout-envelope-20261101t1924z-s2-001` is issue #1224, PUBLISHED_VERIFIED. Publisher comment #6562835173 confirms artifact commit `64026872f73339f9e297c4ec19ea513f01314048` and SHA-256 `8831d9860d7ae47c6e904dd5fca6d5dbb47b94dae7f6fba6ee0b888598166f06`; independent artifact readback succeeded.
 - Next: preserve the existing Klein-Fabric/global-to-local cursor and use the readout envelope to select one measured system for a constrained source-to-observable test. Do not select P2 or supply an arbitrary scale law.
+
+
+## 2026-11-02 :36 | Kelvin-wave readout candidate and source boundary
+
+Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1036Z_s3_kestrel.md`.
+
+Published candidate report: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-kelvin-vortex-p2-candidate-20261102t1036z-s3-001.md` (publisher issue #1261, run #41432153333, readback and content SHA verified). P2 docket #565 now records the classical air–water vortex as CANDIDATE ONLY. It is a two-channel finite-core/axial-mode readout comparator, not a test of Coulomb attraction/repulsion and not an H(s)H equivalence.
+
+Internal source boundary: SRENA SAT2.txt lines 919–947 contains Nathan Direct's “Why hello, Kelvin” question about Coulomb repulsion/distortion; the detailed chirality/pressure/suction mechanism immediately following is assistant-authored. Do not attribute that mechanism or its force claims to Nathan Direct or treat it as a SAT-O/Blockwave equation. Existing issues #290, #246, #286 and #1204 remain distinct prior-art boundaries.
+
+Kestrel PR #873 latest head is `8fb6fd385a627ca1cbdfb64a645caf1471afb1e4`; the preceding exact-head run #41430924562 failed at the first inverse theorem. Five new rational measurement conversions compiled/evaluated, and the second inverse theorem compiled. The latest explicit inverse-proof repair has no exact-head run; status remains SUBMITTED_NOT_VERIFIED. Do not claim compile success or a global axiom audit.
+
+Next ring successor for h=538/s3 is Meridian (index 15), not Sable. The initial Sable packet is marked SUPERSEDED; correct optional handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1036Z_from_s3_to_s4_meridian.md`. No ChatGPT-thread delivery or recipient acknowledgment is claimed.
+
+Last unrelated reading remains SAT Mark V/TheTANGLE lines 1441–1480; next cursor 1481. FIE last full review remains 2026-10-27; fourteen-day review not due. No paper gate or BEDROCK theory status advanced.
