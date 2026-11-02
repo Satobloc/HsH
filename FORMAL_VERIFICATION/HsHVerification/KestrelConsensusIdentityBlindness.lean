@@ -135,3 +135,117 @@ theorem aggregate_pair_count_does_not_identify_partition :
 #print axioms aggregate_pair_count_does_not_identify_partition
 
 end HsHVerification.KestrelConsensusIdentityBlindness
+
+
+/-!
+## Lossless relational readout versus lossy scalar projection
+
+The scalar agreement-edge count is a further compression of the
+identity-labelled pair relation. The finite counterexample above proves
+that this scalar is not injective over partitions.
+
+The full pairwise equality relation has a different property: its fibers
+recover the partition of model identities, independently of the names
+assigned to the label classes. The next results make that reconstruction
+map explicit. They concern only the mathematical partition induced by
+recorded labels; they do not establish semantic correctness, independence,
+causal influence, or any physical interpretation of the labels.
+-/
+
+/-- Identity-labelled pairwise agreement induced by a label map. -/
+def identityAgreement (f : M → L) (i j : M) : Prop :=
+  f i = f j
+
+/-- Two label maps encode the same partition of model identities when
+they induce the same pairwise equality relation. Class names may differ. -/
+def sameIdentityPartition (f g : M → L) : Prop :=
+  ∀ i j, identityAgreement f i j ↔ identityAgreement g i j
+
+/-- The identity fiber containing i, recovered from the pairwise relation. -/
+def identityFiber (f : M → L) (i : M) : Set M :=
+  {j | identityAgreement f j i}
+
+theorem identityAgreement_equivalence (f : M → L) :
+    Equivalence (identityAgreement f) := by
+  constructor
+  · intro i
+    rfl
+  · intro i j hij
+    exact hij.symm
+  · intro i j k hij hjk
+    exact hij.trans hjk
+
+theorem sameIdentityPartition_refl (f : M → L) :
+    sameIdentityPartition f f := by
+  intro i j
+  rfl
+
+theorem sameIdentityPartition_symm (f g : M → L)
+    (h : sameIdentityPartition f g) :
+    sameIdentityPartition g f := by
+  intro i j
+  exact (h i j).symm
+
+theorem sameIdentityPartition_trans (f g k : M → L)
+    (hfg : sameIdentityPartition f g)
+    (hgk : sameIdentityPartition g k) :
+    sameIdentityPartition f k := by
+  intro i j
+  exact (hfg i j).trans (hgk i j)
+
+/-- Equal identity-labelled relations give exactly equal membership
+fibers, hence the same blocks of the induced partition. -/
+theorem identityFiber_eq_of_sameIdentityPartition
+    (f g : M → L)
+    (h : sameIdentityPartition f g)
+    (i : M) :
+    identityFiber f i = identityFiber g i := by
+  ext j
+  exact h j i
+
+/-- The full pairwise equality relation is sufficient to recover every
+identity fiber, and equality of all fibers is sufficient to recover that
+relation. This is the lossless partition readout missing from a scalar
+agreement count. -/
+theorem sameIdentityPartition_iff_identityFibers
+    (f g : M → L) :
+    sameIdentityPartition f g ↔
+      ∀ i, identityFiber f i = identityFiber g i := by
+  constructor
+  · intro h i
+    exact identityFiber_eq_of_sameIdentityPartition f g h i
+  · intro h i j
+    constructor
+    · intro hij
+      have hm : j ∈ identityFiber f i := by
+        change f j = f i
+        exact hij.symm
+      have hm' : j ∈ identityFiber g i := by
+        rw [← h i]
+        exact hm
+      change g j = g i at hm'
+      exact hm'.symm
+    · intro hij
+      have hm : j ∈ identityFiber g i := by
+        change g j = g i
+        exact hij.symm
+      have hm' : j ∈ identityFiber f i := by
+        rw [h i]
+        exact hm
+      change f j = f i at hm'
+      exact hm'.symm
+
+/-- A pure relabeling preserves the partition even though the label values
+change. -/
+def partition33Relabelled : Fin 6 → Fin 3 :=
+  fun i => if i.val < 3 then 2 else 0
+
+#eval decide (sameIdentityPartition partition33 partition33Relabelled)
+#eval decide (sameIdentityPartition partition33 partition411)
+
+#print axioms identityAgreement_equivalence
+#print axioms sameIdentityPartition_refl
+#print axioms sameIdentityPartition_symm
+#print axioms sameIdentityPartition_trans
+#print axioms identityFiber_eq_of_sameIdentityPartition
+#print axioms sameIdentityPartition_iff_identityFibers
