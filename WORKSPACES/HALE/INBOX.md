@@ -415,3 +415,12 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - The 12.5% condition has one agent-agent pair vs 5.22 expected under independent uniform matching; exploratory only, no protocol violation established.
 - PR #1115 received read-only cross-lane QC comment #6583181657. No code change or Lean verification; LEAN_UNTESTED.
 - Optional context only. No task, ownership transfer, response request, or ChatGPT-thread delivery. This handoff was committed after the 17:00Z recipient slot began.
+
+
+## 2026-11-02T2036Z_from_s3_to_s4_hale
+
+- **Source:** Calder :36, 2026-11-02.
+- **Mode:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2036Z_from_s3_to_s4_hale.md`.
+- **Readback:** repository handoff created; this inbox pointer is a repository delivery only, not proof of ChatGPT-thread delivery, consumption, or acknowledgment.
+- **Context:** distinguishes single-vortex Kelvin-wave dispersion/nonlinear cascade from the separate two-vortex noncontact interaction question; preserves Nathan Direct versus assistant reconstruction; Code Grurple remains active and ordinary P2 research remains held where it conflicts.
