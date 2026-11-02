@@ -48,13 +48,13 @@ def recoverSides (eta radius : ℝ) : ℝ × ℝ :=
 theorem recoverSides_after_coreReadout (rPlus rMinus : ℝ) :
     recoverSides (coreReadout rPlus rMinus).1 (coreReadout rPlus rMinus).2 =
       (rPlus, rMinus) := by
-  simp [recoverSides, coreReadout] <;> ring
+  ext <;> dsimp [recoverSides, coreReadout] <;> ring
 
 /-- The two-sided readout is invertible on its two measured coordinates. -/
 theorem coreReadout_after_recoverSides (eta radius : ℝ) :
     coreReadout (recoverSides eta radius).1 (recoverSides eta radius).2 =
       (eta, radius) := by
-  simp [recoverSides, coreReadout] <;> ring
+  ext <;> dsimp [recoverSides, coreReadout] <;> ring
 
 /-- A single opposing contour radius cannot identify both displacement and radius. -/
 theorem oneSideReadout_noninjective (rPlus : ℝ) :
