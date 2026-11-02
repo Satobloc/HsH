@@ -185,3 +185,20 @@ The original Morrow workspace-creation request and the fuller Dashboard-live / A
 No new Lean theorem was added. Existing PR #787 contains the relevant byte-identical-blob and message-provenance modules; the former compiled in CI, while the latter still has two failed parent-edge proofs. The combined same-conversation/message-key result remains a formalization target, not a proved theorem.
 
 No new issue was created. Issue #1214 remains rejected for SHA mismatch, and no duplicate submission was made. Public-safe publication of the new summary remains pending until the broader search result is known and a fresh digest is calculated.
+
+
+## 2026-11-02 source-origin clarification
+
+The initial workspace commit `c18c66a26de2660d7336df7569dd4a5d656f39be` (2026-09-13T09:14:25Z) records a commit-time statement that Nathan explicitly requested this workspace and routine Common participation, but it does not identify the raw user message. The later 697-node / 17-user-message Morrow export (conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`) contains no initial workspace-creation request. Its message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` at 2026-09-13T15:31:22.757Z establishes recurring workspace/checkpoint maintenance, Common checks and archive/reconstruction work; it postdates the initial README and checkpoint and is not creation evidence.
+
+Three nearby direct sources must remain separate:
+
+- Argus workspace creation: conversation `6aa26f76-1728-83e9-b640-de423ba5a90a`, user message `dfc69a8e-ab65-4fc9-8fcd-00951824c220`, 2026-09-10T11:23:01.007Z. This is an Argus-specific named-workspace instruction, not Morrow's.
+- Dashboard/quarantine/Viewer directive: Mercer Archive Mover conversation `6aa5fe86-e258-83ea-9f24-2330244116aa`, user message `c8635cd6-9aa3-4b1f-8132-8977e9303707`, 2026-09-13T09:00:28.268Z. This now has a raw-source backfill in the Common directive record. It supports an open Dashboard, visible quarantine reasons and Viewer continuation, but not the separate `ACTIVE = LIVE CONVOS` shorthand.
+- General personal-workspace notice: the same Mercer conversation, user message `7235b984-0ce1-4fa1-bacf-d3de9a6876bc`, 2026-09-13T09:47:51.144Z. This asks for a general when/how notice and postdates the Morrow workspace commit by 33 minutes 26.144 seconds. It is not Morrow's creation request.
+
+The Morrow creation request therefore remains **UNRECOVERED** pending the targeted Mersearch follow-up `morrow-initial-workspace-folder-source-targeted-20261102-1024`. Do not attribute the Argus or Mercer messages to Morrow.
+
+### Theory-stop scope note
+
+The later Morrow trial-workflow message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` lists archive maintenance, provenance, historical reconstruction, theory-material reading/note-taking and mathematical/equation checking among potential activities. It does not explicitly revoke the earlier direct theory stop for theory integration, physical predictions or paper work. The current boundary remains archive/source custody and non-promotional source analysis; no theory integration, physical prediction or paper work is undertaken here.
