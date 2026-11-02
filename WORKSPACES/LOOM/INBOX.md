@@ -169,3 +169,5 @@ New source candidates to check for existing tags only: Oct 9 messages 3c657387-b
 ## 2026-11-02T0400Z | Sable publication receipt
 
 The proof-status delta is published as issue #1246. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-lifted-helix-curvature-proof-status-20261102t0400z-s0-001.md. SHA-256 2d323673527d11eec2d496147fe56dfd2781341555291398eb6b0e622999c50a; exact readback verified. PR #1245 remains draft and SUBMITTED_NOT_VERIFIED; no Lean build or Factory handoff is claimed.
+
+Rotation receipt for the same repository-only optional context: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0400Z_s0_sable.md. No chat-thread delivery is claimed.
