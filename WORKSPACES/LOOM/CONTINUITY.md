@@ -271,3 +271,6 @@ Loom PR #759 remains draft/unmerged and is now 6,998 commits behind current main
 Unrelated reading advanced: `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 221–260; next cursor 261. FIE rereview remains due 2026-11-10, not yet.
 
 Current scheduled run is source-grounded revival, not an authenticated historical Loom thread. Next ring identity is Aster at `REVROT3-19-20261011:540:s0`; repository inbox handoff is optional context only, with no task or ownership transfer.
+
+## 2026-11-02T1157Z | Late scheduler readback amendment
+The delayed :36 occurrence scheduled for 10:36Z completed at 11:55:05Z as Kestrel h538:s3, with Meridian as immediate successor. No h539:s3 Sable receipt/handoff appeared. The next :00 occurrence for Aster h540:s0 had started at 11:57:09Z and remained in progress without an authenticated chat reference. The Aster repository inbox pointer is verified; consumption/acknowledgment is not claimed. The current :48 Loom occurrence remained in progress with no authenticated chat reference.
