@@ -154,3 +154,56 @@ Issue #1184 cites ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa` and 
 ### Formal gate
 
 Existing PR #759 now includes `LoomCompendiumSourceBinding.lean`, which binds a verbatim quote to conversation ID, message ID, outer role and exact text digest, and separately binds a report locator. The corrected module's exact-head/merge-ref Lean run #41348776901 was pending at last check; no compilation claim yet. Lean verifies encoded predicates only, not raw-source authenticity or physical truth.
+
+
+## 2026-11-02T0024Z | DIMENSIONAL GRAVITY user turns 31–60 of 138
+
+**Source:** conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`; raw export blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. This continues the prior first-30-turn pass; it is not a new conversation or a new theory index.
+
+**Read extent and attribution control:** all 30 outer `role=user` messages in turns 31–60 were read with their immediate parent and child context. Each had assistant parent/child context; assistant responses and summaries were excluded from the user-source tags. No user message in this tranche was a quoted cross-post. The archive role is a source-attribution convention, not independent identity authentication.
+
+| Turn | Raw message ID | UTC timestamp | Tags | User-message content class |
+|---:|---|---|---|---|
+| 31 | `aaa22f76-6b4d-4ea5-8705-ae4e2edf2c54` | 2024-03-22T18:13:27.607Z | STRING-THEORY-COMPARISON; VIBRATIONAL-MODES; FOUR-FORCE-QUESTION | Asks about vibrating-string properties and relation to the four forces. |
+| 32 | `aaa23d32-77ce-45e6-804c-411562bd579e` | 2024-03-22T18:16:26.720Z | FRAMEWORK-INTEGRATION-QUESTION | Asks how string-theory ideas might enter the framework. |
+| 33 | `aaa27a0f-22f5-4b2e-9a7b-37821b4f0b87` | 2024-03-22T18:21:01.678Z | NOVELTY-COMPARISON-QUESTION | Asks whether the framework adds anything beyond string theory. |
+| 34 | `aaa23fd0-7352-4757-96aa-c88a83a78873` | 2024-03-22T18:24:53.254Z | QUANTUM-GRAVITY-COMPATIBILITY-QUESTION | Asks about compatibility with quantum theory and relativity. |
+| 35 | `aaa29d22-4bf4-4137-8f89-a901ec44616c` | 2024-03-22T18:34:07.743Z | MACRO-MICRO-ANALOGY; ASTRONOMICAL-HELICAL-ROPE-HEURISTIC; STRING-THEORY-COMPARISON | Proposes a four-dimensional macrostructure and uses loosely helical astronomical ropes as a macro-scale analogy. |
+| 36 | `aaa2e835-56ef-4e54-a209-06f18ef6e5f1` | 2024-03-22T18:47:30.248Z | NESTED-LOOPS; MULTISCALE-TOPOLOGY; BRAIDED-STRUCTURE | Describes nested galactic, stellar and planetary loops and braided structure. |
+| 37 | `aaa28d36-2a12-4b66-b4ba-277c8a43f71b` | 2024-03-22T18:52:13.230Z | CROSS-TEMPORAL-TUG-HYPOTHESIS; TIME-SURFACE-ORTHOGONALITY | Proposes tugs orthogonal to a time surface, with interactions spanning temporal regions. |
+| 38 | `aaa2eec6-19b2-4a34-904f-12d5ab781824` | 2024-03-22T18:54:03.138Z | GRAVITY-AS-CUMULATIVE-TUGS-HYPOTHESIS | Suggests gravity as a cumulative total of such tugs. |
+| 39 | `aaa2e293-aa15-434d-932a-f43875b0dfcd` | 2024-03-22T18:59:36.331Z | BIDIRECTIONAL-TEMPORAL-SUPPORT; QUANTUM-INTERACTION-HYPOTHESIS | Extends the tug proposal to past- and future-directed interaction support. |
+| 40 | `aaa2d891-8693-4860-88ed-537af5c90b76` | 2024-03-22T19:00:16.507Z | ENTANGLEMENT-GRAVITY-HYPOTHESIS | Asks whether quantum entanglement is central to gravity. |
+| 41 | `aaa212f7-1854-4c8c-b213-709c0bda52e0` | 2024-03-22T19:03:22.365Z | FALSIFIABILITY-QUESTION | Requests novelty and testable predictions. |
+| 42 | `aaa2bbef-9f3c-4b9f-8346-216a9a82ddd3` | 2024-03-22T19:10:48.751Z | DARK-MATTER-ALTERNATIVE-HYPOTHESIS; CROSS-TEMPORAL-TUGS | Raises a dark-matter alternative based on cumulative cross-temporal interactions. |
+| 43 | `aaa2fcf4-62d2-4fbd-a5a1-15ec86fc794e` | 2024-03-22T19:20:52.061Z | STRONG-INTERACTION-DENSITY-DEPENDENCE; PRE-EVENT-RESIDUAL-HYPOTHESIS | Proposes stronger gravitational residuals around strong-interaction events and possible pre-event effects. |
+| 44 | `aaa2fc2c-6bae-4bb3-b0f7-f937c6aa6bd6` | 2024-03-22T19:22:47.508Z | ASTROPHYSICAL-EVENT-CLASSIFICATION-QUESTION | Asks which astronomical events contain strong nuclear interactions. |
+| 45 | `aaa2e00c-1e9e-4e6f-9b93-c8e6b38a0616` | 2024-03-22T19:27:49.785Z | STAR-MERGER-VS-GALAXY-COLLISION-COMPARISON | Suggests comparing star mergers with galaxy collisions. |
+| 46 | `aaa2088c-598d-40b5-a836-8601319b71e0` | 2024-03-22T19:37:22.983Z | QUANTITATIVE-PREDICTION-REQUEST | Requests quantitative magnitude and scale dependence; none is supplied. |
+| 47 | `aaa21041-b2de-4f79-8cc9-0155f7008839` | 2024-03-22T19:51:56.937Z | STRING-THEORY-INTEGRATION-QUESTION; DARK-ENERGY-EXPLORATION | Asks about string-theory integration and dark energy. |
+| 48 | `aaa232d8-d846-4def-a516-2f99599a0aa0` | 2024-03-22T20:00:19.376Z | SPHERICAL-TIME-SURFACE-PROVISIONAL; TEMPORAL-FRICTION-ANALOGY | Describes a provisional expanding 3D surface of a 4D sphere and temporal friction. |
+| 49 | `aaa2d7f1-90e1-4d9d-b599-ceeac2faef27` | 2024-03-22T20:08:12.678Z | ASSISTANT-MEMORY-QUESTION; NON-THEORY | Asks about assistant memory; not a physical-theory statement. |
+| 50 | `aaa2f0d8-fa74-4847-8b1e-e494fb384e59` | 2024-03-22T20:11:44.839Z | NONDISCRETE-SPACETIME-STATEMENT | States that spacetime is not being treated as discretized. |
+| 51 | `aaa2311f-957f-4a14-8e1b-0d67820700bc` | 2024-03-22T20:12:26.286Z | SUMMARY-REQUEST; NON-THEORY | Requests a summary; no new proposition. |
+| 52 | `aaa23e70-2a0b-420a-961c-6311a81bce9c` | 2024-03-22T20:14:48.188Z | BIDIRECTIONAL-TEMPORAL-SUPPORT; INTERACTION-MEMORY-HYPOTHESIS | Restates bidirectional temporal tugs as an interaction-memory idea. |
+| 53 | `aaa2b538-f9e6-42b2-b049-937c3cba45bf` | 2024-03-22T20:16:09.386Z | TIME-SURFACE-DYNAMICS; VIBRATIONAL-MODES | Connects time-surface dynamics to tugs and vibration. |
+| 54 | `aaa2bac3-f480-45bf-8ec1-ec92b9f75aa8` | 2024-03-22T20:20:21.940Z | TEMPORAL-NONLOCALITY; PARTICLE-PROPERTY-CHANGE-HYPOTHESIS | Suggests past/future interactions may alter particle properties and vibration. |
+| 55 | `aaa25e6c-621b-41aa-8b8b-610da39c904e` | 2024-03-22T20:32:50.937Z | GRAVITATIONAL-TIME-DILATION; DARK-ENERGY-EXPLORATION; STRING-TENSION-ATTENUATION; SPIN-MASS-MOMENTUM; VIBRATIONAL-MODES | Explores time dilation, dark energy, tension attenuation, spin/mass/momentum and modes. |
+| 56 | `aaa2fc15-45f2-4d0a-bcba-dbafba8f74e7` | 2024-03-22T21:20:08.477Z | VIBRATIONAL-MODE-QUESTION | Asks for specific vibrational modes. |
+| 57 | `aaa2d2e9-61fd-4653-9b66-91f0869222e6` | 2024-03-23T03:34:55.740Z | COMPREHENSIVE-SUMMARY-REQUEST; NON-THEORY | Requests a comprehensive framework review; no new proposition. |
+| 58 | `aaa26f3d-e831-49cd-976e-a85c5e3b749d` | 2024-03-23T03:44:26.423Z | HEURISTIC-DISCLAIMER; NONSPHERICAL-GEOMETRY-OPEN; DARK-ENERGY-EXPLORATION | Explicitly says the construction is a heuristic, not the true nature; spherical geometry is not mandatory. |
+| 59 | `aaa267db-693c-48f9-aaa9-326ce5e748cc` | 2024-03-23T03:45:10.760Z | STRING-THEORY-DIMENSIONALITY-QUESTION | Asks whether all string theories are four-dimensional. |
+| 60 | `aaa2696e-b166-4618-9fd4-82a0740e3b7f` | 2024-03-23T03:45:50.549Z | NAMING-REQUEST; NON-THEORY | Requests alternative names. |
+
+### Source-stratigraphic controls
+
+- The 2024 astronomical “helical rope” imagery is a macro-scale visualization, not a material-rope mechanism. It must not be merged with the later WWRD climbing-rope heuristic.
+- The 2024 “tug” language is an exploratory interaction-support hypothesis, including possible past/future support. It supplies no kernel, operator, equation, units, or parameterization.
+- The 2024 spherical time-surface picture is provisional within this tranche; turn 58 explicitly removes spherical geometry as a requirement and calls the construction a heuristic.
+- The dark-matter/strong-interaction comparison is a historical falsifiability proposal, not a current quantitative H(s)H prediction. It lacks a defined observable, event selection, forward model, and uncertainty budget.
+- String-theory and dark-energy references are exploratory comparison/questions, not equivalence claims or established integrations.
+- Turn 50 is a direct historical statement against discretized spacetime in this framework; it does not by itself establish a complete continuum formalism.
+
+**Crosswalk caution:** the 2024 “time surface” is not automatically identical to the current 2026 timesheet/wavesheet; the 2024 “tugs” are not automatically identical to the current time-wavefront primitive. Any mapping requires explicit projection/composition maps and conditions. The assistant-reconstructed interaction-support kernel remains a proposal, not Nathan Direct or a source equation.
+
+**Next source cursor:** DIMENSIONAL GRAVITY user turn 61 of 138. The unrelated reading cursor advanced separately: `fun break - lx.txt`, lines 221–260 read; next line 261. FIE full rereview remains not due (last full review 2026-10-27).
