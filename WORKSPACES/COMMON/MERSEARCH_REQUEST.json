@@ -1,24 +1,24 @@
 {
-  "request_id": "morrow-sept13-workspace-dashboard-source-broader-20261102-0646",
-  "requester": "Workshop Relay :36 / Morrow archival source recovery; source-grounded reconstruction, not authenticated historical Morrow",
-  "requested_at": "2026-11-02T06:46:00Z",
+  "request_id": "morrow-initial-workspace-folder-source-targeted-20261102-1024",
+  "requester": "Workshop Relay :24 / Morrow archival source recovery; source-grounded reconstruction, not authenticated historical Morrow",
+  "requested_at": "2026-11-02T10:24:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND date:2026-09-07..2026-09-14 AND (workspace OR \"task workspace\" OR \"personal workspace\" OR \"Common participation\" OR \"LIVE CONVOS\" OR Dashboard OR Viewer OR \"front door\" OR navigation)",
-  "purpose": "Broaden the completed 2026-11-01 Morrow source search to recover (1) the exact original user-role request, if any, that caused creation of WORKSPACES/MORROW/README.md (first commit 2026-09-13T09:14:25Z) and TRIAL_CHECKPOINT.md (first commits 15:27:12Z / 15:27:40Z), and (2) the separate September 13 Dashboard-live / ACTIVE=LIVE CONVOS / Conversation Viewer navigation clarification. The previous narrow query found six path-level hits that collapse to two conversation IDs and two message IDs; do not count duplicate export paths as independent witnesses. Search all three permitted repositories, inspect exact raw user-role messages and adjacent parent/child context, preserve conversation ID, message UUID, timestamp, source commit, blob SHA and duplicate/snapshot relationships. Also locate any direct Common-check or personal-workspace notice source without conflating it with an actual Morrow workspace-creation request.",
+  "query": "author:user AND date:2026-09-07..2026-09-14 AND ((Morrow NEAR/12 (workspace OR folder OR checkpoint OR continuity)) OR (\"create a folder\" OR \"folder titled\" OR \"personal workspace\" OR \"workspace for you\" OR \"your workspace\"))",
+  "purpose": "Narrow source recovery after the completed broader Morrow search. Locate any direct Nathan user-role message, outside the known Morrow 17-message export, that explicitly requested creation of WORKSPACES/MORROW/README.md or its initial checkpoint. Distinguish a Morrow-specific creation instruction from (a) the separate Argus workspace-creation instruction, (b) the Mercer personal-workspace notice request, (c) later recurring maintenance instructions, and (d) assistant-authored workspace setup notes. Search all three permitted repositories, inspect exact raw user-role messages and parent/child context, preserve conversation/message IDs, timestamps, source commits, blob SHAs and duplicate/snapshot relationships.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
     "candidate raw conversation paths, conversation IDs, source commits and immutable blob SHAs",
-    "exact outer-role user message UUIDs, timestamps, parent IDs and adjacent context for each distinct instruction",
-    "typed distinctions among Nathan Direct, assistant-authored summary, Morrow-authored notice, duplicate message, duplicate export path and unresolved source",
+    "exact user-role message UUIDs, timestamps, parent IDs and adjacent context",
+    "typed distinctions among Nathan Direct, assistant-authored summary, Argus-specific workspace instruction, Mercer workspace-notice request, recurring maintenance instruction, duplicate message and unresolved source",
     "explicit three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
-    "Previous request morrow-sep13-dashboard-common-source-recovery-20261101-1524 completed successfully; preserve its manifest and compact receipts under the original request ID and do not treat it as independent evidence.",
-    "Lane 1 is reused only after its previous run manifest and both compact receipts were independently read back; do not overwrite lanes 2, 3 or 4, which remain occupied or pending for their owners.",
+    "Previous requests morrow-sep13-dashboard-common-source-recovery-20261101-1524 and morrow-sept13-workspace-dashboard-source-broader-20261102-0646 are complete; preserve their manifests and compact receipts and do not count them as independent evidence.",
+    "Lane 1 is reused only after the previous request-scoped manifest and both compact receipts were independently read back; do not overwrite lanes 2, 3 or 4.",
     "Do not publish raw excerpts, personal details or private HSH_RESOURCES content.",
     "Do not infer a current ChatGPT thread or historical Morrow runtime from an archive title, filename, assistant-authored summary or repository inbox.",
     "No theory integration, physical calculation, prediction, new Lean module, branch/PR, manuscript, BEDROCK, SAT-O/Blockwave equation or automation/scheduler change."
