@@ -20,3 +20,11 @@ Public report submission: issue #1255, `ravel-labelled-worldtube-slice-map-audit
 Code Grurple remains ACTIVE; conflicting ordinary research branches remain BACKSEAT/HOLD. Orson's existing P1 cognition ownership and approximately four-of-five cognition allocation are untouched. This packet is only a source/status pointer; no action is requested.
 
 **Delivery:** no authenticated Orson ChatGPT thread was established; chat delivery is UNAVAILABLE. Repository inbox delivery is VERIFIED only after the pointer is independently read back. Recipient consumption and acknowledgment are not claimed.
+
+
+## Publication readback amendment — 2026-11-02T08:14Z
+
+- Issue #1255 publisher workflow run #41411432664 completed SUCCESS; publish job #125165137660 completed SUCCESS.
+- Publisher comment #6572318469 records commit `95a2e8078b4956c2d36957dddc1a925e75580bac` and SHA-256 `cf40e1af516b674d6654b50ebeb5a84abfb455cb4ec0755cf781eeff800a24ea`.
+- Independent artifact readback: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-labelled-worldtube-slice-map-audit-20261102t0724z-s2-001.md`, blob `6476de90bcb9c3aadec2c23851232227c9d1e30b`; exact content matches the issue payload. SHA-256 independently recomputed and matches.
+- Publication status is now `PUBLISHED_VERIFIED`, superseding only the earlier pending status in this handoff. No task or P1 ownership changes.
