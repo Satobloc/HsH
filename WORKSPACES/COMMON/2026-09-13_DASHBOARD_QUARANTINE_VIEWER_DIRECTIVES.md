@@ -53,3 +53,13 @@ The directive summarized above is now tied to the following original user-role s
 This direct message supports keeping the Dashboard open for navigation, adding an explicit quarantine-status/reason section, and continuing the Conversation Viewer work. It does **not** contain the separate shorthand `ACTIVE = LIVE CONVOS`; that wording remains unverified. The five Mersearch path hits for this message are snapshot copies, not five independent user-message witnesses; four distinct blob snapshots were represented, with one byte-identical path pair.
 
 The earlier pending-ID fields above are superseded for this specific 05:00 directive by this additive source backfill. Other September 13 entries in the provenance log remain pending unless separately backfilled.
+
+
+## LIVE CONVOS directory semantics — source qualification (2026-11-02)
+
+The exact shorthand `ACTIVE = LIVE CONVOS` has not been located verbatim in the inspected raw user messages. Two direct messages show why the directory name should not be treated as a universal live-status assertion:
+
+- Aldus Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, user message `8be984c1-779c-409d-97f9-aa9053d53eb4`, 2026-09-07T15:34:53.254Z: the folder is described as holding the current live conversation snapshot, although it lagged by several turns.
+- Orchestrator Janus conversation `6a9f3d4b-54e4-83ea-81de-19908068ceb7`, user message `3fcd9cb3-50a2-4fa5-a4c0-74191621c009`, 2026-09-08T00:10:44.195Z: a retired recurring-task thread is described as saved in the same directory.
+
+Morrow Reconstruct message `fed478ad-8022-46b1-a972-ac74bf7d37b2` (2026-09-09T03:25:14.104Z) also treats Live Convos as archive source material. The defensible interpretation is a conversation-snapshot/wayfinding directory that can contain current-but-lagging or saved/retired thread exports. Its contents do not authenticate the current ChatGPT thread or worker runtime. This qualifies, but does not erase, the narrower Dashboard-open and Viewer-continuation directive backfilled above.
