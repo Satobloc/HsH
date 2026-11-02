@@ -572,3 +572,34 @@ Unrelated reading: Babbage, lines 841-880. Next cursor: 881.
 - No physical calculation, CODATA comparison, model inference, manuscript edit, paper-gate advancement, theory/BEDROCK promotion, Mersearch overwrite, new tool, branch, PR, or automation mutation.
 
 Next cursor: continue source-fidelity checks only where a concrete source mismatch or explicit request exists; otherwise preserve the Babbage reading cursor at line 921. Do not reopen formal Paper A review or duplicate the published #1225 correction.
+
+## 2026-11-02T1200Z | 2024 string-pluck ↔ SAT-O D2 source-fidelity crosswalk
+
+This scheduled Aster source-grounded revival performed an explicitly requested bounded Lane Charter 00 cross-read. It did not reopen the historical Paper-A assignment; current Code Grurple still marks Aster REVIEW FROZEN / CROSS-READ OPEN.
+
+Historical direct Aster remit recovered from raw conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8: user message d15369d1-1412-4f4a-9460-702d2de573ea asks whether a text reads like Nathan, whether he said it elsewhere, and whether it contradicts his other statements. The Paper-A assignment is historical and frozen. Last user message in the archived Aster conversation is 2026-10-17; personal-context lookup found no authenticated newer Aster thread. No cross-thread delivery is claimed.
+
+Consumed Loom handoff addressed to this run: 2026-11-02T1148Z_from_s4_to_s0_aster.md, blob 3ce16a7f56983991870c2c825ca514b1c9c16e99. Its 138/138 user-turn tagging completion was verified; no tagging was repeated. The Aster inbox now records actual consumption.
+
+Primary 2024 source: DIMENSIONAL GRAVITY raw blob 2cea1924266418e19b825b95ae51e6b7cbace7e1, conversation 252d05c0-22ed-4ea2-a474-7966ab13145a, turns 58, 71–73, 81, 87, 117–131. Later SAT-O D2 source: SAT_D2_MODE_EXPANSION.txt blob 6844c72027e9569e4f8da3a85a24434e0ad080cf and combined CODE-LOCKED DERIVS blob 783b05d39d59bf854b92090e15d205e6823b51c8; commit d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc, 2025-10-27T01:15:21Z. D2 is a later historical archive artifact with no recovered raw role-authenticated originating conversation.
+
+Main result: the 2024 physical-string toy is a branched central-knot/spherical-boundary network; D2 is a single uniform-tension periodic 1D filament. D2 supplies no junction conditions, interfilament scattering, time-surface coupling or past/future kernel. The 2024 assistant span shifts from no directional bias to net pastward transfer without deriving a transfer law. Orson's later m→mu interpretation is a standard-string reconstruction if m means linear mass density, not a Nathan Direct correction. Generated EQ-0003 only rearranges an assumed dispersion relation; no exact-head Lean build/import was found. No physical calculation, numerical fixture, CODATA scoring, or new Lean module was performed.
+
+Durable report:
+WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
+blob bac30e75b8b6b003b24d17fcbb2e4f05cad238dd; 17,778 characters.
+
+Existing issue #946 received additive comment 6576764639; exact fetched comment body matched the submitted body:
+https://github.com/Satobloc/HsH/issues/946#issuecomment-6576764639
+
+Mersearch lanes 1–4 remain occupied/requested; no request was overwritten. Bounded GitHub code-search fallback was used across all three repositories; not a Mersearch execution or exhaustive census.
+
+Optional Ariadne handoff:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1200Z_from_s0_to_s1_ariadne.md
+blob bef99b7a78a68cc90467347517046cf44cd76265.
+Ariadne inbox append was independently read back; repository inbox delivery verified, ChatGPT-thread delivery unavailable. The immediate s1 slot is disabled; next active Ariadne appearance is h544:s0 at 2026-11-02T16:00Z. No task, assignment, ownership transfer or response obligation is created.
+
+FIE last full review remains 2026-10-27; next 14-day threshold 2026-11-10. Unrelated-reading cursor remains Babbage, The Decline of Science, line 921. No redundant break performed.
+
+Next Aster source cursor: recover the raw role-tagged conversation/originating history for D2 and determine whether m was explicitly defined as linear mass density. Do not repeat Loom's completed 2024 user-turn tagging or duplicate issue #946's existing empirical-comparison analysis.
+
