@@ -24,12 +24,20 @@ water vortex is physically equivalent to H(s)H or to a BEC vacuum.
 The WKBJ broadening theorem is deliberately conditional on an interval for the
 logarithmic bracket. Python independently evaluates that bracket; this Lean
 module does not prove the logarithm interval.
+
+The Barckicke 2026 resolution/uncertainty values are kept in a separate
+namespace below. Its published dispersion analysis uses measured a0 but fits
+(Gamma, v_z) to the dispersion data, then checks those fitted parameters
+a posteriori against PIV/PTV measurements; that curve match is not a blind
+holdout prediction. The rendered Methods PDF page 6 confirms k0/(2 pi)=25
+m^-1 in the WKBJ estimate; use the rendered page rather than lossy text
+extraction when resolving that digit.
 -/
 
 namespace HsHVerification.KestrelKelvinVortexReadout
 
 /-- Source-defined two-sided contour readout: (center displacement, mean radius). -/
-def coreReadout (rPlus rMinus : ℝ) : ℝ × ℝ :=
+noncomputable def coreReadout (rPlus rMinus : ℝ) : ℝ × ℝ :=
   ((rPlus - rMinus) / 2, (rPlus + rMinus) / 2)
 
 /-- Reconstruct the two opposing contour radii from displacement and radius. -/
@@ -40,15 +48,13 @@ def recoverSides (eta radius : ℝ) : ℝ × ℝ :=
 theorem recoverSides_after_coreReadout (rPlus rMinus : ℝ) :
     recoverSides (coreReadout rPlus rMinus).1 (coreReadout rPlus rMinus).2 =
       (rPlus, rMinus) := by
-  simp [recoverSides, coreReadout]
-  constructor <;> ring
+  simp [recoverSides, coreReadout] <;> ring
 
 /-- The two-sided readout is invertible on its two measured coordinates. -/
 theorem coreReadout_after_recoverSides (eta radius : ℝ) :
     coreReadout (recoverSides eta radius).1 (recoverSides eta radius).2 =
       (eta, radius) := by
-  simp [recoverSides, coreReadout]
-  constructor <;> ring
+  simp [recoverSides, coreReadout] <;> ring
 
 /-- A single opposing contour radius cannot identify both displacement and radius. -/
 theorem oneSideReadout_noninjective (rPlus : ℝ) :
@@ -84,6 +90,71 @@ def vortexLengthPixelPitches : ℚ := 3000 / pixelPitchUm
 /-- The 2.08 mm by 0.4 mm displayed region in nominal pixel pitches. -/
 def regionWidthPixelPitches : ℚ := 2080 / pixelPitchUm
 def regionHeightPixelPitches : ℚ := 400 / pixelPitchUm
+
+/-!
+The following values belong to the separate Barckicke–Falcon–Gissinger 2026
+classical air–water vortex experiment. They are not the Fonda et al. 2014
+superfluid-helium acquisition values above. The source reports 60 μm/px
+resolution, 0.5 mm contour width, typical ~0.1 mm uncertainty on core radius
+and position, PIV circulation uncertainty ~0.005 m²/s, and PTV vertical
+velocity uncertainty ~0.05 m/s. The rational values below are nominal unit
+conversions of those reported rounded quantities, not exact instrument error
+distributions or covariance estimates.
+-/
+namespace Barckicke2026
+
+def cameraResolutionUmPerPixel : ℚ := 60
+def contourWidthUm : ℚ := 500
+def reportedTypicalCoreReadoutUncertaintyUm : ℚ := 100
+def reportedPIVCirculationUncertaintyM2PerS : ℚ := 5 / 1000
+def reportedPTVVerticalVelocityUncertaintyMPerS : ℚ := 5 / 100
+
+def nominalCoreReadoutUncertaintyPixels : ℚ :=
+  reportedTypicalCoreReadoutUncertaintyUm / cameraResolutionUmPerPixel
+
+def nominalContourWidthPixels : ℚ :=
+  contourWidthUm / cameraResolutionUmPerPixel
+
+def nominalUncertaintyToContourWidth : ℚ :=
+  reportedTypicalCoreReadoutUncertaintyUm / contourWidthUm
+
+theorem nominal_core_uncertainty_is_five_thirds_pixel :
+    nominalCoreReadoutUncertaintyPixels = (5 : ℚ) / 3 := by
+  norm_num [nominalCoreReadoutUncertaintyPixels,
+    reportedTypicalCoreReadoutUncertaintyUm, cameraResolutionUmPerPixel]
+
+theorem nominal_contour_width_is_twenty_five_thirds_pixel :
+    nominalContourWidthPixels = (25 : ℚ) / 3 := by
+  norm_num [nominalContourWidthPixels, contourWidthUm,
+    cameraResolutionUmPerPixel]
+
+theorem nominal_uncertainty_is_one_fifth_contour_width :
+    nominalUncertaintyToContourWidth = (1 : ℚ) / 5 := by
+  norm_num [nominalUncertaintyToContourWidth,
+    reportedTypicalCoreReadoutUncertaintyUm, contourWidthUm]
+
+theorem reported_piv_uncertainty_is_one_two_hundredth :
+    reportedPIVCirculationUncertaintyM2PerS = (1 : ℚ) / 200 := by
+  norm_num [reportedPIVCirculationUncertaintyM2PerS]
+
+theorem reported_ptv_uncertainty_is_one_twentieth :
+    reportedPTVVerticalVelocityUncertaintyMPerS = (1 : ℚ) / 20 := by
+  norm_num [reportedPTVVerticalVelocityUncertaintyMPerS]
+
+#eval nominalCoreReadoutUncertaintyPixels
+#eval nominalContourWidthPixels
+#eval nominalUncertaintyToContourWidth
+#eval reportedPIVCirculationUncertaintyM2PerS
+#eval reportedPTVVerticalVelocityUncertaintyMPerS
+
+#print axioms nominal_core_uncertainty_is_five_thirds_pixel
+#print axioms nominal_contour_width_is_twenty_five_thirds_pixel
+#print axioms nominal_uncertainty_is_one_fifth_contour_width
+#print axioms reported_piv_uncertainty_is_one_two_hundredth
+#print axioms reported_ptv_uncertainty_is_one_twentieth
+
+end Barckicke2026
+
 
 theorem pixel_pitch_exact : pixelPitchUm = 1025 / 64 := by
   norm_num [pixelPitchUm]
