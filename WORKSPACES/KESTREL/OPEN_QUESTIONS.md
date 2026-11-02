@@ -137,3 +137,17 @@ Keep these unresolved and separately typed:
 5. Observable/readout map.
 
 The early NotebookLM Klein-bottle question, its assistant-generated ER-bridge/Möbius-cell answer, and the later mapping-torus proposal do not supply the adopted definition. No substitute topology or physical equivalence is to be invented.
+
+
+### 2026-11-02 verification correction
+
+The three back-hallway factorization declarations are no longer merely submitted/unverified. They compiled on the exact current PR #873 head `4d69627b9b701d6c4d15a582282dee49c911dc52` in Lean workflow #41468951678 (job #125357139451), SUCCESS, Lean 4.34.0/Lake 5.0.0, full library build 8,954 jobs.
+
+The theorem-specific axiom output is:
+- `hallway_factorization_iff_fiber_compatibility`: `Classical.choice`.
+- `hallway_factorization_unique`: `Quot.sound`.
+- `hallway_factorization_exists_of_source_injective`: `Classical.choice`.
+
+The full build log contains zero `sorryAx` and zero `admit` occurrences. Separate axiom audit, tests, lint, and nanoda were skipped. This is a successful conditional Lean build, not a project-wide axiom audit.
+
+The empirical and source-level question remains open: no actual theory projections `π_i`, `π_j`, common domain, uncertainty model, or independent cross-prediction has been supplied. The Klein-Fabric definition/global topology and global-to-local finite-core map also remain unrecovered.
