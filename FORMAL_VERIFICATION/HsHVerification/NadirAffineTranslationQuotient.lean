@@ -79,12 +79,20 @@ theorem relativeScale_comp
   unfold relativeScale
   field_simp [h_i, h_j]
 
-/-- Positive-radius specialization of the algebraic scale-composition law. -/
+/-- With all three geometric radii explicitly positive, all pairwise
+    relative scales are positive and the scale-composition law holds. -/
 theorem relativeScale_comp_of_positive_radii
-    (r_i r_j r_k : ℝ) (h_i : 0 < r_i) (h_j : 0 < r_j) :
+    (r_i r_j r_k : ℝ)
+    (h_i : 0 < r_i) (h_j : 0 < r_j) (h_k : 0 < r_k) :
+    0 < relativeScale r_j r_k ∧
+    0 < relativeScale r_i r_j ∧
+    0 < relativeScale r_i r_k ∧
     relativeScale r_j r_k * relativeScale r_i r_j =
       relativeScale r_i r_k := by
-  exact relativeScale_comp r_i r_j r_k (ne_of_gt h_i) (ne_of_gt h_j)
+  exact ⟨relativeScale_pos_of_positive_radii r_j r_k h_j h_k,
+    relativeScale_pos_of_positive_radii r_i r_j h_i h_j,
+    relativeScale_pos_of_positive_radii r_i r_k h_i h_k,
+    relativeScale_comp r_i r_j r_k (ne_of_gt h_i) (ne_of_gt h_j)⟩
 
 /-- The framed-sphere similarity maps compose under the stated nonzero-radius
     conditions. No orthogonality assumption is needed for this algebraic identity:
@@ -101,16 +109,24 @@ theorem framedSimilarityMap_comp
   rw [map_smul, smul_smul, relativeFrame_comp_apply,
     relativeScale_comp r_i r_j r_k h_i h_j]
 
-/-- Positive-radius specialization of framed-sphere map composition. -/
+/-- Positive-radius framed-sphere composition, returning the three
+    positive scale factors together with the composed-map identity. -/
 theorem framedSimilarityMap_comp_of_positive_radii
     (c_i c_j c_k : V) (r_i r_j r_k : ℝ)
     (F_i F_j F_k : V ≃ₗ[ℝ] V)
-    (h_i : 0 < r_i) (h_j : 0 < r_j) (x : V) :
+    (h_i : 0 < r_i) (h_j : 0 < r_j) (h_k : 0 < r_k) (x : V) :
+    0 < relativeScale r_j r_k ∧
+    0 < relativeScale r_i r_j ∧
+    0 < relativeScale r_i r_k ∧
     framedSimilarityMap c_j c_k r_j r_k F_j F_k
       (framedSimilarityMap c_i c_j r_i r_j F_i F_j x) =
     framedSimilarityMap c_i c_k r_i r_k F_i F_k x := by
-  exact framedSimilarityMap_comp c_i c_j c_k r_i r_j r_k
-    F_i F_j F_k (ne_of_gt h_i) (ne_of_gt h_j) x
+  rcases relativeScale_comp_of_positive_radii r_i r_j r_k h_i h_j h_k
+    with ⟨h_jk, h_ij, h_ik, h_scale_comp⟩
+  refine ⟨h_jk, h_ij, h_ik, ?_⟩
+  unfold framedSimilarityMap similarityMap
+  simp only [add_sub_cancel_left]
+  rw [map_smul, smul_smul, relativeFrame_comp_apply, h_scale_comp]
 
 /-- The linear part L = σQ of the affine representation. -/
 def similarityLinearPart (σ : ℝ) (Q : V ≃ₗ[ℝ] V) : V →ₗ[ℝ] V :=
