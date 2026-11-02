@@ -23,7 +23,7 @@ Do not infer that this pointer itself is theory authority; it is restart routing
 
 - Report: WORKSPACES/SABLE/2026-11-02T0400Z_EUCLIDEAN_HELIX_CURVATURE_PROOF_STATUS_DELTA.md
 - New conditional assistant-curve formalization candidate: draft PR #1245, branch research/sable-euclidean-helix-curvature-20261102t0400z. Status SUBMITTED_NOT_VERIFIED; no Lean job ran because the Lean workflow is absent from current default main. Do not merge or promote.
-- Public delta publication: pending issue-publisher submission; existing issues #1108, #1117, #1120, #1128, #1165, #1183, #1185 remain the source genealogy and are not duplicated.
+- Public delta published through issue #1246: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-lifted-helix-curvature-proof-status-20261102t0400z-s0-001.md; publisher commit e56409dcd40c429aebe7ff1578925596a60452dd; SHA-256 2d323673527d11eec2d496147fe56dfd2781341555291398eb6b0e622999c50a; exact content readback PASS. Existing issues #1108, #1117, #1120, #1128, #1165, #1183, #1185 remain the source genealogy and are not duplicated.
 - New direct-source correction: Oct 9 message 1178f25c distinguishes coil diameter/radius from filament thickness and a 3D intersectional trace from the 4D filament; exact carrier/order map remains unresolved.
 - Oct 29 clarification file is a document-level witness only; raw message UUID/role graph remains unrecovered.
 - Next cursor: recover Oct 29 raw source; define F^(?)→W⁴, W⁴∩Σ³_t, and curvature-to-inertia maps; preserve w=ct versus cw=t; obtain authorized exact-head Lean run for PR #1245.
