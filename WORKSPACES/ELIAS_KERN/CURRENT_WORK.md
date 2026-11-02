@@ -299,3 +299,13 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Nanoda, separate axiom audit, tests and lint were skipped.
 - Existing issue #632 comment #6578667970 updated in place; exact readback PASS; comment SHA-256 `1fc8bdf6361f10d70932374ce1fc1a67dab0322503e9fb02c1ba6c3be9b9283e`.
 - No actual second-context transfer was run. The Python POC remains unchanged; no production integration.
+
+
+## 2026-11-02T1348Z | final pointer correction
+
+- Final report blob: `97fdf245bf12d1e0919628b1e127cfdc2873aa84`.
+- Final receipt blob: `f57999ad7c8403f3bec13779262d285394f552e6`.
+- Final optional Nadir handoff blob: `ae60e6f18117852eab358aa453190816446b4569`.
+- Nadir inbox blob after late verification pointer: `2657fc2370df39f2bce5bbe32ac4ddeafbfb2496`.
+- Existing issue #632 comment #6578667970 exact-readback SHA-256: `1fc8bdf6361f10d70932374ce1fc1a67dab0322503e9fb02c1ba6c3be9b9283e`.
+- PR #951 remains open/draft/unmerged. Current-head PR workflow #41455330592 succeeded on merge-ref; no standalone exact-head build or actual second-context transfer is claimed.
