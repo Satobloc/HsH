@@ -480,3 +480,29 @@ This is an additive correction to the 06:24Z Tern pilot entry above; it does not
 ### 2026-11-02T0702Z | Typographical correction to the 0658Z addendum
 
 The :24 task ID printed in the preceding addendum contains a transcription error. The correct live ID, independently confirmed by the automation peek and active roster, is `6abda4c8eda88191bf23a6f2849e9a17` (not `6abda4c8eda88191b886496095b1343f`). The enabled state, exact DTSTART, hourly recurrence, and :24 phase are unchanged. This correction changes no task or schedule.
+
+
+### 2026-11-02T1400Z | h=542 | Tern Rook | 2024 geometry-to-Lean fidelity crosswalk
+
+The :00 selection is Tern Rook (index 12), next ring label Morrow (index 13). Existing task `6aa1fe0de5e48191b886496095b1343f` remains enabled with the original America/New_York DTSTART 2026-10-01 14:00, hourly RRULE and :00 phase. No task, schedule, phase, branch or automation mutation. :12 remains disabled; Morrow's next active :00 is h=546 at 2026-11-02T18:00Z.
+
+No authenticated current Tern thread or standalone Nathan-authored Tern charter was recovered. Direct 2026-09-23 Ariadne messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`, plus the historical Space Shuttle Roderick — Tern conversation, support the Comptroller/time-allocation remit. The targeted charter Mersearch request has 9 hits with duplicate archive copies; it does not establish a standalone charter. The “one object + one operation + one durable result + one next cursor” phrase is assistant synthesis, not Nathan Direct.
+
+The incoming Enheduanna h=522/s4 handoff from 2026-11-01T18:48Z was read and consumed. The newer h=541/s4 handoff from 2026-11-02T13:48Z arrived after this run began at 14:23:56Z; it is late optional context only and is not claimed consumed. Preserve it for the next same-phase Tern h=561/s0 appearance, 2026-11-03T09:00Z.
+
+**Completed operation:** recovered the 2024 DIMENSIONAL GRAVITY raw source (blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, 466 nodes, source ledger 138 user messages on selected ancestry) and compared its direct geometry with PR #262's existing `NadirHelixSliceGeometry` formalization. The direct source corrects the assistant's fixed-plane spiral interpretation, separates cross-sectional radius from pitch, calls the 4D “string” picture vague/heuristic, makes the sphere optional, and locates complexity in interactions among 4D structures rather than in the time-surface readout.
+
+Public crosswalk: issue #1267; submission `tern-dg-affine-slice-crosswalk-20261102t1400z-s0-001`. Publisher artifact:
+`WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-dg-affine-slice-crosswalk-20261102t1400z-s0-001.md`
+SHA-256 `c8bc869a94025c7f3c15ebf496693e0c0bb67e1f98c57eae91d82d281dff3d22`; blob SHA-1 `ff4590760461a77f8b0c017107591757dd344efe`; 19,885 chars / 19,978 bytes. Publisher commit `cdbe5417d0cf369500d1862c17bb7b8429d2d2e0`; publisher comment #6579965154 says PUBLISHED/readback verified, and issue-body/artifact exact string comparison passed.
+
+PR #262 head `c7dc2c483f50ae03fc7a7c530829170135e18d92`, module blob `3e47ffa6d6bcd534abdedf18ea865fb2941a0947`, is open/unmerged. Two successful PR merge-ref builds (#41301288857 and #41348936553) include the module; no standalone exact-head checkout or separate automated axiom audit. Verification correction comment #6579940783 was read back. PR #1133 supplies set-level slice-compatible retraction/coverage and non-injective-readout results, not physical response or smooth transversality; PR #1135 is Hessian/degree arithmetic, not an intersection proof. No new Lean code, PR, physical calculation, CODATA scoring or BEDROCK promotion.
+
+Mersearch lanes remain occupied/unreleased: lane 1 Calder and lane 2 archive-harvest have no terminal manifests/receipts; lane 3 Ravel and lane 4 Tern have request-scoped outputs. No request was overwritten or duplicated. No local repo checkout or local Lean/Lake/Elan was available; no GitHub Actions dispatch tool or Mersearch connector was exposed. Existing PRs/CI and current archive tooling were reused; no new tooling or paid service.
+
+Code Grurple remains active. Tern PR #824 remains open/draft and unchanged. Mainline display-docket refresh #315e401 changed `PUBLIC_SITE/generated/discovery.json` only, not Paper A/B reader routes. No paper work or route acceptance claim. P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate; Orson's cognition allocation unchanged. FIE last reviewed Oct 27, due Nov 10. Unrelated reading last Tern break: Babbage lines 593–652, return line 653; only three Tern activations since, so no new break due.
+
+**Next cursor:** if useful, define explicit S/P axis/helix points and prove their separation in the existing PR #262 model; complete the tangent-line no-intersection/whole-line dichotomy; recover the 2026 direct definitions of filament, worldtube, finite core and timesheet; require explicit 3D-to-4D and 4D-to-timesheet projection/composition maps. Do not infer identity from vocabulary or perform physical calculations in this source-fidelity phase.
+
+Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1400Z_s0_tern_rook.md`
+Optional repository-only Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1400Z_from_s0_to_s1_morrow.md`; Morrow inbox delivery is recorded separately. No ChatGPT-thread delivery, acknowledgment, assignment or ownership transfer.
