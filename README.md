@@ -13,6 +13,9 @@
 > **Looking for conversations / historical development? → [Conversation Viewer](https://satobloc.github.io/HsH/) / [GLASS — Glass Sausage Factory](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)**  
 > GLASS is the historical SAT archive / working development record. These are archive/provenance lanes. Historical visibility does not confer current theory authority.
 >
+> **Looking for the rebuilt public website? → [The Glass Sausage Factory](https://satobloc.github.io/HsH/glass-sausage-factory/)**  
+> The GitHub Pages site is repository-built; the Conversation Viewer remains at the project root.
+>
 > **Running workers, automation, repo maintenance, QA, or coordination? → [WORKSPACES/COMMON](WORKSPACES/COMMON/)**  
 > This is the operations/admin/infrastructure lane. Its control documents govern how the project is operated; they do not define theory truth.
 >

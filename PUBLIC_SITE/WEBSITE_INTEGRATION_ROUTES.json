@@ -1,17 +1,26 @@
 {
   "schema_version": 1,
-  "intent": "Sites integration routing (not a claim that chatgpt.site is already updated)",
+  "intent": "GitHub Pages canonical public-site routing; ChatGPT Sites editor is not required or assumed.",
   "published_repo": "Satobloc/HsH",
   "content_policy": "Public-safe only; historical/source evidence stays labeled; no private HSH_RESOURCES links",
   "routes": [
     {
+      "id": "glass-sausage-factory",
+      "title": "The Glass Sausage Factory",
+      "href": "https://satobloc.github.io/HsH/glass-sausage-factory/",
+      "source": "PUBLIC_SITE/site/index.html",
+      "site_path": "/glass-sausage-factory/",
+      "rendering": "Repository-built responsive static site with curated public feed projections, approved local Visual Atlas assets, published PDF derivatives, and shared Listen control.",
+      "status": "GitHub Pages deployment action succeeded in run 41390830237; direct visual/browser smoke-test pending."
+    },
+    {
       "id": "conversation-viewer",
-      "title": "Original Mercer Conversation Viewer",
+      "title": "Conversation Viewer",
       "href": "https://satobloc.github.io/HsH/",
       "source": "CONVERSATION_VIEWER/index.html",
       "site_path": "/conversations/",
-      "rendering": "embed original GitHub Pages viewer intact, iframe if allowed; else open canonical link",
-      "status": "backend-committed; GitHub Pages deployment status must be checked separately"
+      "rendering": "Existing Viewer preserved at project root; /conversations/ is a friendly alias.",
+      "status": "Preserved in the successfully deployed combined Pages artifact."
     },
     {
       "id": "mersearch-reader",
@@ -19,15 +28,33 @@
       "href": "https://satobloc.github.io/HsH/mersearch/",
       "source": "CONVERSATION_VIEWER/mersearch/index.html",
       "site_path": "/research/search/",
-      "rendering": "embed or direct canonical link; label preview public-conversation candidate search, not protected full Mersearch engine",
-      "status": "backend-committed; GitHub Pages deployment status must be checked separately"
+      "rendering": "Public-conversation candidate search; /research/search/ redirects to /mersearch/. Not the protected full three-repository Mersearch engine.",
+      "status": "Preserved in the successfully deployed combined Pages artifact."
+    },
+    {
+      "id": "whirligig-rq",
+      "title": "Whirligig R/Q",
+      "href": "https://satobloc.github.io/HsH/laboratory/whirligig/",
+      "source": "PUBLIC_SITE/instruments/whirligig/index.html",
+      "site_path": "/laboratory/whirligig/",
+      "rendering": "Source-controlled interactive mathematical instrument; current source includes the corrected Analemma and equation-output comparison.",
+      "status": "Built into the successful Pages artifact; instrument-level browser smoke-test pending."
+    },
+    {
+      "id": "universal-indicatrix",
+      "title": "Universal Indicatrix",
+      "href": "https://satobloc.github.io/HsH/laboratory/universal-indicatrix/",
+      "source": "PUBLIC_SITE/instruments/universal-indicatrix/index.html",
+      "site_path": "/laboratory/universal-indicatrix/",
+      "rendering": "Source-controlled dimensionless relative SO(4) frame and geometric diagnostic instrument.",
+      "status": "Built into the successful Pages artifact; instrument-level browser smoke-test pending."
     }
   ],
   "curation": {
     "public_projection_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/PUBLIC_SITE/OWNER_CURATION_PUBLIC.json",
     "schema_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/PUBLIC_SITE/OWNER_CURATION_PUBLIC_SCHEMA.json",
-    "owner_write_access": "not provided by static GitHub Pages; requires trusted authenticated Sites server and exact verified user-account identity",
-    "private_notes": "must remain in authenticated private server storage; never in public GitHub public projection",
+    "owner_write_access": "not provided by static GitHub Pages; this deployment is read-only and requires a separate trusted authenticated backend for owner writes and private notes",
+    "private_notes": "must remain in authenticated private server storage; never in the public GitHub projection",
     "supported_display_fields": [
       "display_visibility",
       "status",
@@ -47,5 +74,14 @@
     "source_files": "never mutate or delete raw archival source as a side effect of display curation",
     "archived_conversation_titles": "never rename",
     "public_machine_files": "not generic reader documents"
+  },
+  "deployment": {
+    "platform": "GitHub Pages",
+    "project_root": "https://satobloc.github.io/HsH/",
+    "factory_url": "https://satobloc.github.io/HsH/glass-sausage-factory/",
+    "successful_workflow_run": 41390830237,
+    "deployed_source_commit": "4614672c157772cb1544384679e4cd47ecb9abd1",
+    "deploy_action_result": "success",
+    "http_visual_smoke_test": "pending"
   }
 }

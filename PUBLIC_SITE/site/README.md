@@ -52,3 +52,7 @@ Every ordinary public page has the shared Listen control. It uses the repository
 The deploy-conversation-viewer-pages workflow assembles a combined artifact and deploys it through GitHub Pages. A successful GitHub commit is not itself deployment proof. Verify the Actions run, Pages URL, each route, PDF downloads, Viewer search, and instrument controls before calling the public site deployed.
 
 The project Pages root remains the Conversation Viewer for backward compatibility. The Glass Sausage Factory is added alongside it at /glass-sausage-factory/, avoiding a destructive replacement of the existing root route.
+
+## Deployment status — 2026-11-02
+
+The initial GitHub Pages deployment succeeded (Actions run 41390830237; source commit 4614672c157772cb1544384679e4cd47ecb9abd1). The new Factory route is https://satobloc.github.io/HsH/glass-sausage-factory/. The existing Viewer root is preserved. A subsequent confirmation deploy is running against the latest workflow revision. Deployment action success is verified; a separate visual browser smoke-test is still pending.

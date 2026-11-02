@@ -858,3 +858,11 @@ Nathan confirmed that the ChatGPT Sites editor is no longer available on his cur
 The first Visual Atlas pass admits three approved local SVG diagrams. Eight legacy approved artwork records still point to the previous ChatGPT Sites asset host and are deliberately not hotlinked; mirror them only after source retrieval and provenance verification.
 
 **Deployment state at this entry:** source implementation being committed; GitHub Pages Actions build and live-route acceptance remain pending. The static site is read-only and does not replace authenticated owner-curation/private-write capabilities.
+
+## 2026-11-02 — First GitHub Pages deployment succeeded
+
+The combined public-site artifact built and deployed through GitHub Pages. The deployment run was 41390830237, source commit 4614672c157772cb1544384679e4cd47ecb9abd1. Its job log reports the Pages URL https://satobloc.github.io/HsH/ and a successful deployment.
+
+The Factory is available at /glass-sausage-factory/; the existing Conversation Viewer remains at the project root. The two instruments retain /laboratory/whirligig/ and /laboratory/universal-indicatrix/. Public Mersearch remains at /mersearch/. The build validated the Viewer catalog, published PDF integrity, static-site tests, and JavaScript module syntax before upload/deploy.
+
+A second confirmation deployment is running after a workflow-only adjustment. Direct visual/browser acceptance remains pending because the available web reader did not retrieve the GitHub Pages HTML; the GitHub Pages deploy action itself reported success.
