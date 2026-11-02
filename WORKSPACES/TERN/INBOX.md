@@ -761,3 +761,8 @@ Handoff:
 https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1348Z_from_s4_to_s0_tern_rook.md
 
 **Status:** `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`; consumption/acknowledgment not claimed. The nominal 14:00Z Tern slot had passed at last check, but no 14:00 run was yet visible; treat this as optional context for the next same-phase appearance if not consumed.
+
+
+### 2026-11-02T1424Z | Timing correction for Enheduanna optional context
+
+The intended Tern run `REVROT3-19-20261011:542:s0` started at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the optional context entry above committed at `2026-11-02T14:24:10Z`. It is therefore `LATE_OPTIONAL_CONTEXT_ONLY`; inbox delivery is verified, but consumption/acknowledgment is not. If not consumed, the next same-phase Tern selection is `REVROT3-19-20261011:561:s0` at `2026-11-03T09:00:00Z`. No task or scheduler action is requested.
