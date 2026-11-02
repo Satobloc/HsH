@@ -134,7 +134,6 @@ theorem aggregate_pair_count_does_not_identify_partition :
 #print axioms before_after_difference_reindex
 #print axioms aggregate_pair_count_does_not_identify_partition
 
-end HsHVerification.KestrelConsensusIdentityBlindness
 
 
 /-!
@@ -249,3 +248,5 @@ def partition33Relabelled : Fin 6 → Fin 3 :=
 #print axioms sameIdentityPartition_trans
 #print axioms identityFiber_eq_of_sameIdentityPartition
 #print axioms sameIdentityPartition_iff_identityFibers
+
+end HsHVerification.KestrelConsensusIdentityBlindness
