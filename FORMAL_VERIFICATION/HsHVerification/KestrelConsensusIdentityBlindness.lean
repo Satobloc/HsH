@@ -74,8 +74,64 @@ theorem before_after_difference_reindex [Fintype M] [DecidableEq M] [DecidableEq
   rw [unordered_agreement_reindex initial σ,
       unordered_agreement_reindex final σ]
 
+/-!
+## Aggregate-count non-identifiability
+
+The next finite construction is a mathematical counterexample, not an
+observed model sample. It represents an unordered agreeing pair once,
+using i < j. Two different label partitions of six abstract members,
+with block sizes 3+3 and 4+1+1, both produce six agreeing pairs, while
+their numbers of label classes differ. Thus the scalar pair count cannot
+recover the underlying agreement-cluster partition.
+-/
+
+/-- One representative of each unordered pair whose labels agree. -/
+def agreementEdges6 (f : Fin 6 → Fin 3) : Finset (Fin 6 × Fin 6) :=
+  Finset.univ.filter fun p => p.1 < p.2 ∧ f p.1 = f p.2
+
+/-- Number of distinct observed label classes. -/
+def labelClassCount6 (f : Fin 6 → Fin 3) : ℕ :=
+  (Finset.univ.image f).card
+
+/-- Two clusters of three members each. -/
+def partition33 : Fin 6 → Fin 3 :=
+  fun i => if i.val < 3 then 0 else 1
+
+/-- One cluster of four plus two singleton classes. -/
+def partition411 : Fin 6 → Fin 3 :=
+  fun i => if i.val < 4 then 0 else if i.val = 4 then 1 else 2
+
+theorem partition33_agreement_count :
+    (agreementEdges6 partition33).card = 6 := by
+  decide
+
+theorem partition411_agreement_count :
+    (agreementEdges6 partition411).card = 6 := by
+  decide
+
+theorem partition33_class_count :
+    labelClassCount6 partition33 = 2 := by
+  decide
+
+theorem partition411_class_count :
+    labelClassCount6 partition411 = 3 := by
+  decide
+
+/-- A single aggregate pair count does not identify the label partition. -/
+theorem aggregate_pair_count_does_not_identify_partition :
+    (agreementEdges6 partition33).card =
+      (agreementEdges6 partition411).card ∧
+    labelClassCount6 partition33 ≠ labelClassCount6 partition411 := by
+  decide
+
+#eval (agreementEdges6 partition33).card
+#eval (agreementEdges6 partition411).card
+#eval labelClassCount6 partition33
+#eval labelClassCount6 partition411
+
 #print axioms ordered_agreement_reindex
 #print axioms unordered_agreement_reindex
 #print axioms before_after_difference_reindex
+#print axioms aggregate_pair_count_does_not_identify_partition
 
 end HsHVerification.KestrelConsensusIdentityBlindness
