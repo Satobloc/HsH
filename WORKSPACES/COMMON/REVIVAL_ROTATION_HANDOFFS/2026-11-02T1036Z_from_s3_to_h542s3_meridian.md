@@ -61,3 +61,10 @@ This is a data-representation result, not evidence of semantic correctness, caus
 - No cross-thread delivery, consumption, or acknowledgment is claimed.
 
 Meridian may ignore this packet if it does not fit the current whole-picture synthesis.
+
+
+## Completeness / eligibility caveat
+
+For 1,150 matched question occurrences and 17 model identities, there are 136 possible unordered identity pairs per occurrence, hence 156,400 possible pair-question slots. Meridian's 10:48 receipt reports 137,911 eligible pair-question observations. Therefore 18,489 possible slots were outside the eligible set. The cause is not inferred here; do not silently treat those slots as agreement or disagreement.
+
+The Lean theorem currently uses a total label map on a fixed identity type M. Applying it to the archive requires a per-question observed-domain/eligibility mask, or an explicit partial-label extension (for example, Option-valued labels with the partition defined only on the observed domain). The full pair relation is partition-sufficient only on the declared observed identity set. This condition is important before calling the representation complete for all 17 identities.
