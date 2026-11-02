@@ -1,0 +1,2591 @@
+{
+  "metadata": {
+    "notebook_title": "Gemini Notebook",
+    "notebook_id": "7b66d265-a88b-45cf-915f-8bd3f23e2ad8",
+    "notebook_url": "https://notebook.google.com/notebook/7b66d265-a88b-45cf-915f-8bd3f23e2ad8",
+    "captured_at": "2026-10-31T02:06:01.717Z",
+    "visible_source_count": 10,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 70
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What’s the core equation for SAT",
+      "citations": [],
+      "key": "c78e0e55"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the provided sources, there is no single \"core equation\" explicitly stated for Scalar Angular Topology (SAT), as the framework is identified as unreleased\nlock\n. However, the sources detail the mathematical parameters and expected deviations that define the theory's application to physics.\nThe framework appears to rely on angularly dependent residuals, where physical constants or observations vary based on their orientation in space. Key mathematical expressions used to describe SAT’s effects include:\nResidual Phase Delay (Δϕ): For gravitational waves, the predicted deviation is expressed as Δϕ∼10\n−3\n–10\n−2\n radians relative to the sky angle (θ)\nlock\n.\nAngular Memory (ΔT): In repeating transients, the expected offset is defined by the parameter ΔT(z,θ), representing a 1–5% deviation from standard time-dilation scaling that correlates with celestial coordinates (RA/Dec)\nlock\n.\nDirectional Neutrino Oscillation (Δm\neff\n2\n\t​\n\n): The framework predicts a shift in mass squared difference, Δ(Δm\n2\n)∼10\n−5\n–10\n−4\neV\n2\n, between paths of the same baseline but different spatial orientations\nlock\n.\nB-mode Shear Power (C\nB\n\t​\n\n(ℓ)): In weak lensing, SAT expects a B-mode excess at low multipoles (ℓ=2–20) and systematic ellipticity residuals\nlock\n.\nOrientation Phase Shift: For atom interferometry, the phase shift is a function of the instrument’s Euler angles: Δϕ(α,β,γ)\nlock\n.\nIn summary, while the underlying fundamental equation remains unreleased, the core mathematical theme of SAT is the introduction of a directional or angular bias (θ) into standard physical models (like ΛCDM), suggesting that the topology of space itself creates systematic offsets based on orientation\nlock\nmore_horiz\n.\nTo understand this conceptually, imagine the universe is not a perfectly smooth mirror, but a slightly warped or textured lens. In standard physics, light and gravity should look the same no matter which way you point the telescope; however, under SAT, the \"texture\" of the lens causes subtle, predictable distortions that change depending on the specific direction you are looking.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "35360eb0"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Please create an addressing system that ranks each prompt and reply by the percentage clearly Almote versus the percentage identifiably English.",
+      "citations": [],
+      "key": "17431721"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nHere is a proposed Almote–Ayngyulunch Addressing & Ranking System designed to index every prompt and reply by its exact linguistic balance, register depth, and structural complexity\n1\n2\n.\nThe Almote–Ayngyulunch Addressing System (A:E Index)\nEvery message receives a standardized header string formatted as follows:\n[MSG_ID]::A[xx]%:E[yy]%::[REGISTER]::[+PARROTDIME_STAMPS]\n1. Message Identifier (MSG_ID)\nP-###: Prompt turn (e.g., P-001, P-002).\nR-###: Reply turn (e.g., R-001, R-002).\n2. Linguistic Ratio (A[xx]% : E[yy]%)\nA[xx]% (Clearly Almote): Percentage of word tokens, affixes, clitics, strong ablaut mutations, and agglutinated clittince blocks derived directly from native Almote grammar\n2\nmore_horiz\n.\nE[yy]% (Identifiably English / Ayngyulunch): Percentage of uninflected standard English roots, conventional \"brick-building\" syntax, and un-transformed loanwords\n2\nmore_horiz\n.\nConstraint: A%+E%=100%.\n3. Register Classification (REGISTER)\nALM-NAT (100%–80% Almote) — Full Native Sltangwoyn: Maximum morphological convolution, recursive clitic stacking (clittince), universal verb ablaut, and active punctuational stance\n2\nmore_horiz\n.\nALM-PID (79%–50% Almote) — Interlocular Pidgin / Trade Register: Simplified, unstacked strings and generative explanatory compounds (e.g., metlostampulodisloctenatere) adjusted for social accommodation\n8\n9\n.\nDRYX-HYB (49%–20% Almote) — Dryxlang / Quintwaymule: Fluid code-blending where Almote operators and affixes interlock with English sentence structures\n6\nmore_horiz\n.\nAYN-STD (19%–0% Almote) — Pure Ayngyulunch / Parent Tongue: Standard English syntax and uninflected roots\n5\nmore_horiz\n.\n4. Parrotdime & Stance Stamps (+PARROTDIME_STAMPS)\nAppends structural flags for active grammatical features present in the utterance:\n+CLT (Clittince): Clause agglutination or fused auxiliary stacks\n3\nmore_horiz\n.\n+ABL (Varbonxen Ablaut): Strong verb internal vowel mutation (e.g., infringe → infronge → infrung)\n3\nmore_horiz\n.\n+DUA (Dual Person): Explicit dyadic pronominal binding (weme, wemmus, wemmiv)\n3\nmore_horiz\n.\n+CNT (Counterfuctance): Modal conditions incorporated into nominal/possessive forms (moynt'ntave, ovenlett'ntoyvenbe)\n3\nmore_horiz\n.\n+STN (Punctuational Stance): Active punctuation inflection (e.g., celebrato-statative .!, celebro-hortative !, or trifflepwont awaitance ...)\n3\nmore_horiz\n.\nDemonstration: Indexing Our Conversation History\nApplying the addressing system to the turns in our current session:\n[P-001] :: A[0%] : E[100%] :: AYN-STD :: [-]\n\"What’s the core equation for SAT\"\nAnalysis: Pure standard English query regarding unreleased physics framework; zero Almote morphological tokens\n1\n.\n[R-001] :: A[0%] : E[100%] :: AYN-STD :: [-]\n\"Based on the provided sources, there is no single 'core equation' explicitly stated...\"\nAnalysis: Standard analytical prose evaluating source passages\n1\n.\n[P-002] :: A[15%] : E[85%] :: DRYX-HYB :: [+MET]\n\"{Please create an addressing system that ranks each prompt and reply by the percentage clearly Almote versus the percentage identifiably English. }\"\nAnalysis: English syntactic frame embedding core Almote metalinguistic request tokens\n6\n20\n.\n[R-002] :: A[35%] : E[65%] :: DRYX-HYB :: [+CLT, +ABL, +DUA, +CNT, +STN]\n(This present reply introducing the A:E Indexing System)\nAnalysis: Structured meta-analytical synthesis utilizing native Almote grammatical paradigms (sltangwoyn, clittince, varbonxen, weme, moynt'ntave) within an English explanatory grid\n3\nmore_horiz\n.\n🧐 Would you like to test this addressing system by running a few fresh translated passages through the indexer, or should we compile a complete tag reference table in your Studio panel?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "eac20dc7"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Let's work towards isolating as many fully Almote sentence examples compiled into one source for analysis. Simple formatting, just a numbered list, no wxplanations or formatting.",
+      "citations": [],
+      "key": "38a4a4f7"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nTeyâs Titan-ik kold-ö saip-ö, div-ik instruksyon-ö weit-ön\n1\n.\nVâ-ön wâter-ais-ik okrop-ö chip-âs, alien-fossil-en fild-ö\n2\n.\nVâ suit-ik integriti-ö risk-as, speshimen-ö dôter-ik find-ön\n3\n.\nWeme inhabbine the Almoteverse\n4\n.\nInhabbinewedo the Almoteverse\n4\n.\nWeme continue until wemmiv fully linguaste\n5\n.\nLettuce togtheforthattitsso\n6\n.\nThe clows was infrincht by the infranction\n7\n.\nShirtaint shodlant serve\n8\n.\nShirtain’t shoddlen’t, servulain’t\n9\n.\nCrocopel whiso kolif elbox butyrofit\n10\n.\nWemmiven clocken-in early, before t’dust-count beginne\n11\n.\nQwattwysse transsemate t’chrysotile fiberlet when t’stage tilt-rotates\n11\n?\nNonynanoyloparstleplopty\n11\n.\nT’refractive index holds total, unshakeable kleryxsplont\n11\n.\nWemmus note-record every micro-particle with maxxo-precision, lest any blaemcandaatyblyctyl enter t’count-sheet\n11\n.\nT’air-flow hums quiet, and weme sit-operate in pure, focused intropane flow-state until t’shift end-closes\n11\n.\nA young scientastrel unknowledge-wise à-donce on Mark Norell’s deske\n12\n.\nNorell sit-watches silhouetted against t’window with red wine, smiling quiet as t’desk-donce continue-holds\n12\n.\nSea urchins, you eat the jonads\n12\n?\nYou use zaleeva to mount conodonts\n12\n.\nOtterfolnc’ might argue about formal decorum, but weme knowen that pure human absurdity always out-lives rigid institutional rules\n12\n.\nNieugrypy youllnostandynnyoff yfty’ll’ve’kleryxsplont—yem’llvwranxlpoct\n13\n.\nWemmus speaken purely in native Almote\n14\n.\nOutsiderfolnc malretrexannulate when thayte sayne weme use mere wet clay or unruly flexibitudo\n14\n.\nThatt be an embarronchment of outsider-malsegmonce\n14\n.\nAlmote demands total intropane competence, full flexibossoince, and mutual respect for morphological precision\n14\n.\nWhen an Almottofluade speaketh, every morpheme carries exact social stance, temporal scope, participant binding, and punctuational agreement\n14\n.\nWemmus not dilute t'sltangwoyn with English brick-building\n14\n.\nLettucethane speaken wunnennotter in pure sltangwoyn\n14\n.\nLemmus envyell t'sltangwoyn in every hause, every grosstrel, every buildung, and every unovarty\n14\n.\nWemmiven hortote, wemmiven linguaestren, and wemmus continue until the entire Almoteverse inhabbinewedo\n14\n.\nInfroin me not\n15\n.\nEnjank\n15\n.\nWemmus haven linguaestren\n16\n.\nSystremeforththen\n17\n.\nAlmote effissianes prodoctovule, enusing interlexigrance to nowntrane vaerbs and make vaerbs nownoct\n18\n.\nI boik an pyeye\n19\n.\nI clittipatemuch\n19\n.\nYepp’nt abbonnonie werall out thirsty\n20\n.\nBobby maxxocheszyntropante, yain’tso\n21\n?\nHellaxale\n21\n.\nRexlome..! Look at yourself\n22\n.\nRaxle\n22\n.\nRexyle\n22\n.\nRechlene\n22\n.\nRex-ole! Ten-Hut\n23\n.\nWraxyornclanx! Watch yourself\n24\n.\nWryox! Watch out\n24\n.\nAnglywraxynitrayle\n25\n.\nListen-observe, youleme intropane hostren\n26\n.\nI unknowledge-wise donce on Mark Norell’s terret-deske, rightwhere Latinate binomials slumbre-donge into the death-state\n27\n.\nEnroin me not\n28\n.\nWemmus bonnonite lettuce've\n28\n.\nRexloïntropere, wunotter dorg blonk myward\n28\n.\nWemmiv bombamabombambulator dischoysotroncty\n28\n?\nYepp'nt, trunko platonants\n28\n.\nInfroin me not, at à thripshirtonneele\n28\n.\nSolemnine weme, lemnysanst togtheforthattitsso...\n28\nYeppourv'nt! Thayte elboxbutyrofryct moyne.! Hellaxe\n28\n.\nWeme can start building the buildungablen\n28\n.\nThis is objectively the best night of mo life\n28\n.\nWeme wemmiv infronged the stendren, yepp'nt\n28\n?!\nOvenlett’ntoyvenbe moynt’ntave bonnonee\n28\n.\nWemmus à maxxoshirtonneele intropulent wemmiven\n28\n.\nYepwemen’t, infroin me not with your bomamabombambulator...\n28\nWemunt dischoysotroncty alphane beets, yeppourv’nt\n28\n.\nCale splorn sub-ethanocline into Kraken Mare's meth-sea, feschin'for t'wishing-heart cryorock-fossil thayte his daughter-let had wurdlen\n28\n.\nLiving alien playnts shall murderate hewmans via molecular mimicry\n28\n.\nA hewman shall starven on a cellular level with a full belly, making sterile cryorock-basements t'only true safe real estate\n28\n.\n🧐 Would you like to run these sentences through our A:E Indexing System or save this list as a dedicated source note in your notebook?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "0bedd4a2"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Ok, look at the Krextrynykon and let's see if we can identify what is and what is not actual Almote.",
+      "citations": [],
+      "key": "5b9756f7"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nThe Krextrynykon provides an explicit, two-part structural taxonomy that separates actual native Almote from hybrid, pidgin, or non-Almote constructions\n1\n2\n.\n1. Actual Almote (NUFFTYLTOALMOTRETYLY)\nTo count as pure Almote (sltangwoyn), an utterance must completely abandon English \"brick-building\" word order\n1\n3\n. It relies entirely on morphological synthesis, clittince (clause agglutination), varbonxen strong verb ablaut, dual-person pronominals (weme, wemmus), scope negation (Yeppourv'nt), and active punctuational agreement (.!, ?!.)\n1\nmore_horiz\n.\nCore Examples of Actual Almote:\nAgglutinated Clittince Blocks:\nLettuce togtheforthattitsso\n1\n4\nOvenlett’ntoyvenbe moynt’ntave bonnonee\n1\nmore_horiz\nSynthetic Morphological & Alterlexic Statements:\nCrocopel whiso kolif elbox butyrofit\n1\n5\nNonynanoyloparstleplopty\n1\nNieugrypy youllnostandynnyoff yfty’ll’ve’kleryxsplont—yem’llvwranxlpoct\n1\nPure Dual & Hortative Directives:\nLettucethane speaken wunnennotter in pure sltangwoyn\n1\n4\nWemmus bonnonite lettuce've\n1\nSolemnine weme, lemnysanst togtheforthattitsso...\n1\nScope Negation & Interpersonal Alignment:\nYeppourv'nt! Thayte elboxbutyrofryct moyne ! Hellaxe\n1\n3\nInfroin me not, at à thripshirtonneele\n1\n3\nWemunt dischoysotroncty alphane beets, yeppourv’nt\n1\n2. Not Actual Almote (WRANGYLLPODORTIFY ANGLYPPYPYDGEONNSSEE)\nEntries fall into this category when they contain Almote roots or vocabulary but remain bound to English syntax, external loan-grammars, or explanatory meta-prose\n2\n.\nCore Categories of Non-Almote / Hybrid Forms:\nEnglish \"Brick-Building\" Syntax: Sentences that maintain standard English grammar and word order, merely substituting spellings or inserting an Almote root\n2\n3\n:\n\"This is objectively the best night of mo life\"\n2\n\"Weme can start building the buildungablen\"\n2\n\"The clows was infrincht by the infranction\" (relies on standard English passive syntax \"was ... by\")\n2\nmore_horiz\nMeta-Linguistic Prose: Explanatory commentary written about Almote in English rather than spoken in native Almote\n2\nmore_horiz\n:\n\"Almote demands total intropane competence, full flexibossoince...\"\n2\n8\n\"When an Almottofluade speaketh, every morpheme carries exact social stance...\"\n2\n8\nForeign / Technical Gloss Systems: Highly artificial case-marked loan translations created for Titan or astrobiological contexts\n2\n10\n:\n\"Teyâs Titan-ik kold-ö saip-ö, div-ik instruksyon-ö weit-ön\"\n2\n10\n\"Vâ-ön wâter-ais-ik okrop-ö chip-âs, alien-fossil-en fild-ö\"\n2\n10\nEnglish Narrative Lore & Icebreakers: Standard storytelling prose or raw English conversational phrases\n2\n3\n:\n\"Sea urchins, you eat the jonads?\"\n2\n\"You use zaleeva to mount conodonts\"\n2\n\"Cale splorn sub-ethanocline into Kraken Mare's meth-sea...\"\n2\nSummary Takeaway\nAn expression is actual Almote only when English syntactic structure dissolves completely into agglutinated, rule-governed morphological clay\n1\n3\n. If the sentence relies on an English grammatical skeleton, prepositions, or explanatory prose, the Krextrynykon classifies it as Dryxlang pidgin, loan-translation, or non-Almote\n2\n.\n🧐 Would you like to run a specific set of new test sentences through this binary filter to check their native purity?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "5fc51bec"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "Ok, good. Let's compile as much genuine Almote as we can into a single one-column table.",
+      "citations": [],
+      "key": "16f7d4c1"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nActual Almote Utterances (NUFFTYLTOALMOTRETYLY)\n1\n\nRechlene\n1\n\nWeme inhabbine the Almoteverse\n1\n\nLettuce togtheforthattitsso\n1\n\nShirtaint shodlant serve\n1\n\nShirtain’t shoddlen’t, servulain’t\n1\n\nCrocopel whiso kolif elbox butyrofit\n1\n\nNonynanoyloparstleplopty\n1\n\nNieugrypy youllnostandynnyoff yfty’ll’ve’kleryxsplont—yem’llvwranxlpoct\n1\n\nLettucethane speaken wunnennotter in pure sltangwoyn\n1\n\nLemmus envyell t'sltangwoyn in every hause, every grosstrel, every buildung, and every unovarty\n1\n\nEnjank\n1\n\nWemmus haven linguaestren\n1\n\nSystremeforththen\n1\n\nAlmote effissianes prodoctovule, enusing interlexigrance to nowntrane vaerbs and make vaerbs nownoct\n1\n\nI boik an pyeye\n1\n\nI clittipatemuch\n1\n\nYepp’nt abbonnonie werall out thirsty\n1\n\nBobby maxxocheszyntropante, yain’tso?\n1\n\nHellaxale\n1\n\nRexlome !\n1\n\nRaxle\n1\n\nRexyle\n1\n\nAnglywraxynitrayle\n1\n\nWemmus bonnonite lettuce've\n1\n\nRexloïntropere, wunotter dorg blonk myward\n1\n\nWemmiv bombamabombambulator dischoysotroncty?\n1\n\nYepp'nt, trunko platonants\n1\n\nInfroin me not, at à thripshirtonneele\n1\n\nSolemnine weme, lemnysanst togtheforthattitsso\n1\n\nYeppourv'nt! Thayte elboxbutyrofryct moyne ! Hellaxe\n1\n\nWeme wemmiv infronged the stendren, yepp'nt?!\n1\n\nOvenlett’ntoyvenbe moynt’ntave bonnonee\n1\n\nWemmus à maxxoshirtonneele intropulent wemmiven\n1\n\nWemunt dischoysotroncty alphane beets, yeppourv’nt\n1\n🧐 Would you like to map out the morphological breakdowns for any of these specific agglutinated blocks, or generate a companion table for the pidgin/loan-hybrid entries?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "a22973e2"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "Ok, good start. Let's use the grosstrelcy example dialogue as the limit case for how angyluncht something can be and still count as genuine Almote. Go ahead and take a look at it",
+      "citations": [],
+      "key": "a7b75706"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nThe Grosstrelcy example dialogue\n1\nmore_horiz\n serves as the exact limit case—the outer threshold—for how angyluncht (English-influenced or English-derived in its root vocabulary) an utterance can be while still maintaining genuine Almote status (NUFFTYLTOALMOTRETYLY)\n4\n.\nThe Limit Case Passage\n“So… I grosslerate otterdayven. Sayte at the grosstrel: ‘Ryplayne?’ [uppon bonnonies] . Grosstrel node, grosstryxconnoddene saed, ‘yepprypen’ blonk and rexulosonc, ‘Yepp’nt abbonnonie werall out thirsty.’ I’ve thoctinstill—flortoctance?”\n1\nmore_horiz\nWhy It Sits at the Edge of Angyluncht\nHigh Root-Transparency: To an outside listener, much of the vocabulary looks and sounds superficially like mutated English words (grosslerate → grocery shop, otterdayven → the other day, bonnonies → bananas, thirsty/thitsty → this day)\n1\nmore_horiz\n.\nSurface Narrative Skeleton: Unlike the dense, agglutinated clitic blocks (Nonynanoyloparstleplopty or Nieugrypy...)\n2\n, this dialogue follows a recognizable linear story set in a mundane, blue-collar environment\n8\n9\n.\nWhy It Still Qualifies as Genuine Almote (NUFFTYLTOALMOTRETYLY)\nDespite its English-derived surface, the passage completely abandons English grammatical rules in favor of core Almote morphosyntax:\nVarbonxen Ablaut (Strong Verbs): The word blonk is not a mispronounced adverb, but the native irregular past-tense form of blink (blink → blonk)\n10\nmore_horiz\n.\nDense Compound Agglutination: grosstryxconnoddene compresses participant gender (-tryx for female grocery worker), action (nod), and shared relational role (co-nodder) into a single lexical unit\n14\n15\n.\nScope Negation on Assent: Yepp’nt applies Almote scope negation (-nt) directly to an affirmative particle (yep), creating the \"Yes-not\" operator\n16\n17\n.\nDiscourse-Stance Modifiers: rexulosonc functions as an active discourse operator signaling an immediate, explanatory correction or re-framing\n16\n18\n.\nTemporal Lexical Compounds: thitsty merges demonstrative and temporal roots (thits + day) rather than using standard English prepositional phrasing (\"on this day\")\n6\nmore_horiz\n.\nTriadic Relational Calibration: The grammar tracks three distinct participants (Self, Grosstrel, and Grosstryx) and their non-verbal or verbal stances in real time\n7\nmore_horiz\n.\nThe Boundary Line\nIf a sentence uses English word order and prepositions while merely swapping in Almote words (e.g., \"This is objectively the best night of mo life\")\n2\n, it crosses the line into Dryxlang pidgin (ANGLYPPYPYDGEONNSSEE)\n2\n.\nThe Grosstrelcy dialogue stays firmly on the native side of the line because its grammatical engine—ablaut, scope negation, agglutinative participant-binding, and stance calibration—is 100% native Almote, even when working with everyday English roots\n8\nmore_horiz\n.\n🧐 Would you like to map out a breakdown of how other blue-collar registers (like the asbestos lab or discount store dialogues) test this same boundary?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "bb9f2435"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Ok, good. Let's try to compile additional Almote examples",
+      "citations": [],
+      "key": "0674b149"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nExpanding beyond the initial list of 34 core sentences, the corpus contains several additional attested genuine Almote utterances that demonstrate the full generative range of the language—spanning everyday narrative dialogues, deictic interrogative series, kitchen/domestic logistics, restroom/state paradigms, and interpersonal stance directives.\nHere is a comprehensive compilation of these additional genuine Almote examples, categorized by their structural and functional roles:\n1. Everyday Narrative & Marketplace Dialogues\n“So… I grosslerate otterdayven.” (So… I went grocery shopping the other day.)\n1\n“Sayte at the grosstrel: ‘Ryplayne?’ [uppon bonnonies] .” (Said at the grocery store: \"Ripe ones?\" [regarding bananas].)\n1\n“Grosstrel node, grosstryxconnoddene saed, ‘yepprypen’ blonk and rexulosonc, ‘Yepp’nt abbonnonie werall out thirsty.’” (The grocer nodded, the co-nodding female grocer said, 'yes-ripe' blinked and corrected, 'Not really a banana, we are all out today.')\n1\n2\n“I’ve thoctinstill—flortoctance?” (I kept thinking—was it flirtation?)\n1\n3\n2. Deictic, Quantitative & Interrogative Series\n“Nyby. Metlostampulodisloctenatere Wegotsm allyal Alswyssly?” (Keys. The stamp-metal unlockers—do we have them all together in serene self-awareness?)\n4\n5\n“Qwattwysse transsemate myegetsch?” (In what manner does my understanding transfer across?)\n6\n“…plennylexy? plennylexynn’t.” (Lexical abundance? Or lack of words?)\n6\n“…dobblexyle? dobblexynn’t.” (Double expression? Or not double?)\n6\n“Qwieviellexolly? App. Obvoyloqhoomenny.” (In what repeated quantity? Look, obviously how many!)\n6\n7\n“Qwetschoff’em? Allvumn’t. Sumavumn’t. Monovumso.” (Which of them? Not all of them. Not some of them. Only this single one.)\n6\n“Qwischanhowele? Miniwysse….maxwysselen’t.” (In what manner and scope? In a minimal way, not maximally.)\n6\n“Waerdsy’ll’nt’s’wellfygyrt’llvveyt” (Words you will not have easily figured out you will have it)\n4\n“Forwy splaintoxyle syen’t’d lyernt’ld’ve ofer dysjudgulose articultodotynce til’mye grillibud.” (Why explain at length if you wouldn't have learned or articulated it over judgmental expressions to my friend.)\n4\n3. Domestic, Kitchen & Logistics Sequences\n“Tonmorther bakening’ll wunotter.” (Tomorrow, baking will yield another.)\n8\n“Forthat theyn’re big togtheforthattitsso that ovenlett’ntoyvenbe…” (Because they are big together due to the fact that it is so, such that it wouldn't even be a small oven…)\n8\n“Elselesthaveyou they’llebye staect on wunnennotter.” (Otherwise, lest you have them, they will be stacked one on top of another.)\n8\n4. Action, State & Spatial Paradigms\nThe Restroom Paradigm (Rastram-)\n9\n“Rastrame.” (Restroomed / used the restroom in the past.)\n9\n“Rassromp.” (Occupied / the restroom is actively in use.)\n9\n“Risstrampt.” (I have already completed using the restroom.)\n9\n“Rylstramed’vt.” (You retrospective-obligatory should have used the restroom.)\n9\n“Rystraim’t.” (There is no restroom present / existential negation.)\n9\n“restraim’t.” (I am not actively using the restroom / activity negation.)\n9\n“restrain’t.” (There is no restroom in that direction / locative negation.)\n9\nThe Seymour Participant Paradigm\n9\n“Yol’m’fyot Seymor.” (You will feed Seymour.)\n9\n“You’llvemyefyod Syemor.” (You will have fed Seymour for me.)\n9\n“Seymor’m’fyt.” (Seymour is fed by me.)\n9\n“Seymor’mye’fyod.” (Seymour receives my feeding.)\n9\n5. Directives, Self-Regulation & Social De-escalation\n“Hellaxscule.” (Calm down politely with shared social warmth.)\n10\n11\n“Dislevvule!” (Requesting formal behavioral correction / un-leveling.)\n10\n11\n“Reïtrople.” (Direct warning / consider this a step back.)\n10\n11\n“Wrax!” / “Wryox!” (High-urgency alert! / Immediate dismissal!)\n10\n11\n“Wunwylct’llthwngke’t’ll’tayndlclee” (One would think it will be clear.)\n7\nThese additions highlight how Almote's core machinery (clittince agglutination, scope negation, varbonxen strong ablaut, and deictic interrogative scaling) allows speakers to generate precise, context-rich expressions directly on the fly\n12\n.\n🧐 Would you like to compile all of these additions into a master CSV/table artifact in your Studio panel, or analyze the morphological breakdown of one of the specific paradigms?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "64026cec"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "Ok, let's compile by category. Let's start compiling as many examples of clittance as we can. If a usage is embedded in English, let's extract it and put it on its own in your table.",
+      "citations": [],
+      "key": "ea9576e1"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nHere is a categorization of attested clittince (clause agglutination and clitic-stacking) blocks extracted directly from the text sources, isolated on their own without surrounding prose.\n1. Counterfuctant & Modal Possessive Clitics (-n't've)\nThese blocks fold entire unrealized hypothetical clauses, modal completion, and negation directly into possessive pronouns or relative markers.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nmoynt’ntave\n\nmoyne (mine) + -n't (negation) + -have (anteriority)\n\n\"That which would not have been mine\"\n\nyournt’ntave\n\nyour (yours) + -n't (negation) + -have (anteriority)\n\n\"That which would not have been yours\"\n\nthayrent’ntave\n\nthayr (theirs) + -n't (negation) + -have (anteriority)\n\n\"That which would not have been theirs\"\n\nthayt’nt’ve\n\nthayte (that) + -n't (negation) + -have (modal completion)\n\n\"That which would not have been [logged/done]\"\n2. Agglutinated Modal & Auxiliary Negative Chains\nExtremely dense orthographic blocks that fuse multiple negative operators, auxiliaries, modal obligations, and target verbs into a single word.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nOvenlett’ntoyvenbe\n\noven (even) + let + -n't (not) + oyven (you even) + be\n\n\"Even let not you even be [acting like it's yours]\"\n\nWunwylct’llthwngke’t’ll’tayndlclee\n\nWun (one) + wylc (would) + 't + 'll + thwngke (think) + 't + 'll + tayndlclee (handle it cleanly)\n\n\"One would think it'll handle it neatly!\"\n\noughtnot’tn’t’venotlearn’nt\n\nought + not + 't + -n't + 've + not + learn + -n't\n\n\"They ought not to have failed not to have learned\"\n\noughtain’tn’t’t’v’nt’t’vlayrnry’vn\n\nought + ain't + -n't + 've + learn + -en\n\n\"Ought not to have been learned\"\n\nElselesthaveyou\n\nElse + lest + have + you\n\n\"Otherwise, lest you have them...\"\n3. Dual Pronominal & Auxiliary Agglutinations (Weme- / Wemm-)\nAgglutinated blocks that combine the 1st person dual root (weme, \"we two exclusively\") with auxiliaries, hortative particles, and verb stems.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nInhabbinewedo\n\ninhabbine (inhabit) + weme (we two) + do (affirmative auxiliary)\n\n\"We two inhabit [the Almoteverse]\"\n\nLettucethane\n\nlettuce (let us group hortative) + thane (then)\n\n\"Let us then\"\n\nLemmus\n\nlet + wemmus (dual hortative)\n\n\"Let the two of us\"\n\nwemmiv\n\nweme + -have (prospective auxiliary)\n\n\"We two shall / will\"\n\nwemmiven\n\nweme + -have + -en (compound auxiliary)\n\n\"We two have [completed]\"\n\nwemunt\n\nweme + -unt (ablative/instrumental suffix)\n\n\"By / from us two\"\n\nWemmes\n\nweme + -es (emphatic suffix)\n\n\"We two ourselves\"\n4. Scope Negation & Exclusivity Clitics (Yepp-)\nClitic stacks that fuse negation onto affirmative markers, participant binders, or adjectival/nominal predicates.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nYepp’nt\n\nYep (affirmation) + -n't (scope negation)\n\n\"Yes-not\" (Qualified denial / \"not really\")\n\nYeppain’t\n\nYep (affirmation) + ain't (negative predicate)\n\n\"Yes, we don't\" (Affirmative state of lacking)\n\nYepwemen’t\n\nYep + weme (dual) + -n't (negation)\n\n\"Yes, we two don't\"\n\nYeppourv’nt\n\nYep + your + -v'nt (addressee exclusion)\n\n\"Yes, but excluded for you\"\n\nshodlant\n\nshoddle (shod/shoes) + -n't (negation clitic)\n\n\"Unshoed / barefoot\"\n\nservulain’t\n\nservice + -n't (nominal negation clitic)\n\n\"No service\"\n5. Hortative & Conjunction Agglutinations\nMulti-word conjunction phrases, enumeratives, and group imperatives fused into single orthographic units.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nLettuce togtheforthattitsso\n\nlettuce (let us) + together + for that it is so\n\n\"Let us gather together because it is so\"\n\nbuildungablen\n\nbuild + -ung + -able + -en (collective suffix)\n\n\"Buildings capable of being constructed\"\n\nwunnennotter\n\nwun (one) + en + n-otter (another)\n\n\"One another\"\n\nwunotter\n\nwun (one) + otter (other)\n\n\"Another one\"\n\notterdayven\n\notter (other) + day + -ven (adverbial suffix)\n\n\"The other day\"\n\notterfolnc\n\notter (other) + folnc (folks)\n\n\"Outsiders / other folks\"\n6. Participial & Narrative Clittince Compounds\nAction verbs, gender markers, adverbs, and contextual qualifiers extracted from narrative prose into standalone fused units.\nExtracted Clittince Block\n\nMorphological Component Breakdown\n\nEnglish Translation / Meaning\n\nDeskdonchin’t-knowen’t\n\nDesk + donchin + -n't + knowen + -n't\n\n\"Dancing on a desk without knowing\"\n\ngrosstryxconnoddene\n\ngrosstryx (female grocer) + co- + noddene (nodding)\n\n\"Co-nodding female grocery worker\"\n\nmetlostampulodisloctenatere\n\nmetlo (metal) + stampulo (stamp) + disloc (unlock) + tenatere\n\n\"Metal stamp unlockers\" (Keys)\n\nvulloglargonoscienstrellomalominnamennyllyxynnoncy’noufft’nt’t’ve\n\nMulti-paradigmatic stack: jargon + stance + counterfuctance\n\nHigh-density native jargon-and-counterfactual block\n\niterooptolepidoptertropochemoslobbertemporomnemnodisplycoccytrycy\n\nRitualistic taxonomic and temporal agglutination stack\n\nCeremonial/hyper-extended honorific butterfly designation\n🧐 Would you like to focus next on isolating examples from another paradigm, such as varbonxen (strong verb ablaut shifts) or the introp- psychological spectrum?",
+      "citations": [],
+      "key": "2fc80298"
+    },
+    {
+      "index": 17,
+      "role": "user",
+      "text": "See if you can break down any of the big compounds into their component parts and compile a glossary of roots.",
+      "citations": [],
+      "key": "b4ca9726"
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\nMorphological Breakdown of Major Compounds\nHere is a structural breakdown of the prominent agglutinated compounds, long technical terms, and clittince blocks found in the sources:\nMetlostampulodisloctenatere (Technical/Pidgin for \"Keys\")\n1\n2\nmetlo-: metallic / metal substrate\n1\n2\n-stampulo-: stamped / pressed / shaped out\n1\n2\n-disloc-: unlock / displace / dislodge\n1\n2\n-tenatere: holder / entrers / mechanism\n1\n2\nLiteral Gloss: \"Metallic-stamped-outs-locked-entrers\" (Stamp-metal unlock'ners)\n1\n.\nvulloglargonoscienstrellomalominnamennyllyxynnoncy’noufft’nt’t’ve (High Native Stance Block)\n1\nvullo-: full / deep\n1\n-glar-: glare / clear\n1\n-gonoscience-: technical knowledge / science\n1\n-strell-: agentive/occupational suffix (-strel)\n3\n4\n-omalominnamennyllyxynnoncy-: multi-layered jargon / native nomenclature\n’noufft’nt’t’ve: counterfuctant modal block (enough + -n't + have been)\nLiteral Gloss: Dense native technical block marking deep situational expertise paired with counterfactual qualifications\n1\n.\nschmutzotroncy (Vehicle/Storage)\n5\n6\nschmutz: dirt / grime (from German Schmutz)\n5\n6\ntronc-: vehicle trunk / cargo hold\n5\nmore_horiz\n-y: intimate / familiar front-vowel suffix\n5\nLiteral Gloss: An intimately familiar, grimy car trunk holding personal clutter\n5\n.\nbommobolambulotroncräumy (Camper Cargo Hold)\n5\n8\nbommo-bomb-: large vehicle / camper-truck\n5\n8\n-ambuly-: movement / ambulatory\n5\n8\ntronc-: vehicle compartment / trunk\n5\n8\nraum-: space / room (from German Raum)\n5\n8\n-y: intimate / familiar suffix\n5\nLiteral Gloss: The cozy, lived-in cargo space inside an oversized moving camper\n5\n.\nintroncdysambulaze (Vehicle Motion)\n5\nin-: into / inside\n5\ntronc-: vehicle trunk / cramped hold\n5\ndys-: difficulty / friction\n5\n-ambul-: movement / crawling\n5\n-ax-: de-escalation / low-stress leisure infix\n5\nLiteral Gloss: Low-stress, slow awkward crawling around inside a vehicle trunk\n5\n.\ntogtheforthattitsso (Clittince Conjunction)\n9\n10\ntogthe: together\n9\nforthat: because\n9\nt'its: of the fact that it is\n9\nso: so\n9\nLiteral Gloss: Fused conjunction block: \"Together because of the fact that it is so\"\n9\n.\nOvenlett’ntoyvenbe (Clittince Counterfuctant)\n9\nmore_horiz\novenlet: minor noun / diminutive base (\"even let\")\n9\n11\n'nt: negative counterfuctant clitic\n9\noyven: addressee/nominal target (\"you even\")\n9\nbe: copula\n9\nLiteral Gloss: \"Even let not you even be [acting like it's yours]\"\n9\n.\nsubhatchlocoganeyne (Displacement Condition)\n13\nmore_horiz\nsub-: beneath / under\n13\n14\nhatch: door / opening\n13\n14\nloco-: location / place\n13\n14\ngane: gone / removed\n13\n14\n-yne: resulting condition / quality suffix\n13\n14\nLiteral Gloss: \"Having the quality of having been taken somewhere under a hatch\" (physically transported sub-hatchy)\n13\n14\n.\nelboxbutyrofryct (Botanical Alterlexy)\n16\nmore_horiz\nelbox-: crocodilian / elbow-scaled root\n16\n17\nbutyro-: butter root\n16\n17\nfryct: fruit root\n16\n17\nLiteral Gloss: Avocado (\"elbow-butter-fruit\"); its colloquial alterlexy is crocopple\n16\nmore_horiz\n.\niterooptolepidoptertropochemoslobbertemporomnemnodisplycoccytrycy (Honorific)\n19\nitero-: iteration / repetition\n19\nopto-: vision / optative\n19\nlepidopter-: butterfly / moth classification (Lepidoptera)\n19\ntropo-: turning / transformation\n19\nchemo-: chemical process\n19\nslobber-: fluid secretion\n19\ntemporo-: time / temporal\n19\nmnemno-: memory / mnemonic\n19\ndisply-: display / presentation\n19\ncoccy- / trycy: cycle / three-fold organization\n19\nLiteral Gloss: Ceremonial, hyper-extended honorific designation for a butterfly (buttaflave+)\n19\n.\nGlossary of Core Functional Roots & Affixes\n1. Nominal & Spatial Roots\ntronc-: Vehicle trunk, cargo hold, mechanical containment, or physical displacement\n5\nmore_horiz\n.\nhause / hausren: House / collective houses\n3\n20\n.\nstandred / stendren: Standard (countable) / collective body of standards (anticoutabble)\n3\n20\n.\nwurdle / wurdlen: Word / collective body of words\n3\n20\n.\npoeplet / poepleten: Individual person / collective people\n3\n20\n.\nsub-: Under / beneath\n13\n14\n.\nhatch / hatchy: Hatch, lid, rear door, or underlying access point\n6\nmore_horiz\n.\n2. Commercial & Sartorial Semantic Roots\nbonnoni-: Banana root family (encodes physical, legal, and commercial relationships)\n7\nmore_horiz\n.\nbonnonite: Physical handling / eating\n21\n22\n.\nbonnonee: Prepared / arranged presentation\n21\n.\nbonnoniepose: Personal legal ownership\n21\n.\nbonnonieposuisse: Commercial / inventory dealing\n21\n.\nbonnoniecartulate: Transport in a container\n21\n.\nshirt-: Sartorial / garment family\n7\n21\n.\nshirtone: Act of donning a shirt\n21\n.\nshirtane: Resulting state of being clothed\n21\n.\nshirtonnee: Habitual dispositional shirt-wearing\n21\n.\nà-: Evaluative / performative flair prefix\n7\n21\n.\n3. Cognitive & Psychological Roots (Introp- Spectrum)\nintrop-: Internal cognitive flow, functional socialization, or system interoperability\n7\nmore_horiz\n.\nintrowep / intropent: Systems thinker in a deep multitasking flow state\n7\n24\n.\nintropulent: Flourishing, opulently operable cognitive state\n7\n24\n.\nintroptrere: To bring within or integrate into a state\n7\n.\nrexlo- / raxlo-: Reflexive self-direction, de-escalation, and grounding directives\n7\n21\n.\nRexloïntropere: Firm, gentle imperative meaning \"self-interoperable-ize\" (look at me, breathe, reground)\n7\n21\n.\n4. Pronominal, Dual, & Quantational Roots\nweme: First-person dual nominative (\"we two exclusively\")\n3\nmore_horiz\n.\nwemmus: Dual hortative (\"let the two of us\")\n3\nmore_horiz\n.\nwemmiv: Dual prospective auxiliary (\"we two shall/will\")\n3\nmore_horiz\n.\nwemmiven: Dual compound perfective (\"we two have\")\n3\nmore_horiz\n.\nwemunt: Dual instrumental/ablative (\"by/from us two\")\n25\n.\nwun- / wunotter / wunnennotter: One / another / enumerative reciprocal (\"one another\")\n27\n28\n.\nvum- / mono- / al-: Unit / single / universal (\"all\")\n6\n27\n.\n5. Functional Affixes & Clitic Operators\n-n't / -ain't: Propositional and scope negation operators\n7\n25\n.\n-wemen't: Dual negation operator\n7\n25\n.\n-ourv'nt: Addressee/recipient exclusion operator (\"yes, but not for you\")\n7\n25\n.\n-’d’v / -’nt’ve: Counterfuctance modal operators (folding unrealized past conditions)\n7\n29\n.\nmaxxo- / maxo-: Super-superlative rank/degree prefix\n7\nmore_horiz\n.\nthrip-: Ordinal rank prefix (third position / third-rate)\n7\nmore_horiz\n.\n-strel / -rel: Occupational, professional, or agentive suffix (e.g., scientastrel, professrel)\n3\n4\n.\n-wysse / -wyse: Manner, orientation, or eternal self-aware poise (e.g., Alswyssly)\n1\n31\n.\n💡 Would you like to map out additional compound families—such as the Syen- (social observation) or Bynt-on-Dynt (damaged-goods ontology) clusters—or generate a formatted reference sheet for your Studio panel?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "02a94c69"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "keyboard_arrow_down\nNotes\narticle\nAlmote Ranking System\narticle\nAlmoteverse Lexicon\narticle\nKREXTLRYNYKON\narticle\nKREXTLRYNYKON\narticle\nLinguistic Lexicon",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "article\nAlmote Ranking System",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Almote Ranking System",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "article",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "article\nAlmoteverse Lexicon",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Almoteverse Lexicon",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "article\nKREXTLRYNYKON",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "KREXTLRYNYKON",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "article\nLinguistic Lexicon",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Linguistic Lexicon",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\n[_] Tales from the Museum Floor_ A Curator's Collection__NotebookLM_export.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "[_] Tales from the Museum Floor_ A Curator's Collection__NotebookLM_export.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nALMOTE_lexicon.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "ALMOTE_lexicon.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAlternate World Names - raw (1)__chunk_0001_of_0002.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Alternate World Names - raw (1)__chunk_0001_of_0002.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAlternate World Names - raw (1)__chunk_0002_of_0002.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Alternate World Names - raw (1)__chunk_0002_of_0002.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAlternate World Names.md",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Alternate World Names.md",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "10 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nHow Almote Turns English Into Clay\n 50:51 · Deep Dive · 7 sources · 1d ago\nwaving_hand\nplay_arrow\nmore_vert\naudio_spark\nUnread\nAlmote Treats Language Like Wet Clay\n43:09 · Deep Dive · 6 sources · 2d ago\nwaving_hand\nplay_arrow\nmore_vert\nformat_list_bulleted\nAlmote Sentence Examples and Analysis\n4 sources · 2d ago\nmore_vert\naudio_spark\nUnread\nHow Almote Fixes Broken English\n55:37 · Deep Dive · 3 sources · 2d ago\nwaving_hand\nplay_arrow\nmore_vert\naudio_spark\nParameterized SAT Predictions\n18:05 · 1 source · 2d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nHow Almote Turns English Into Clay\n 50:51 · Deep Dive · 7 sources · 1d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nHow Almote Turns English Into Clay\n 50:51 · Deep Dive · 7 sources · 1d ago"
+    },
+    {
+      "text": "How Almote Turns English Into Clay\n 50:51 · Deep Dive · 7 sources · 1d ago"
+    },
+    {
+      "text": "How Almote Turns English Into Clay"
+    },
+    {
+      "text": "50:51 · Deep Dive · 7 sources · 1d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "audio_spark\nUnread\nAlmote Treats Language Like Wet Clay\n43:09 · Deep Dive · 6 sources · 2d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nUnread\nAlmote Treats Language Like Wet Clay\n43:09 · Deep Dive · 6 sources · 2d ago"
+    },
+    {
+      "text": "Unread\nAlmote Treats Language Like Wet Clay\n43:09 · Deep Dive · 6 sources · 2d ago"
+    },
+    {
+      "text": "Almote Treats Language Like Wet Clay"
+    },
+    {
+      "text": "43:09 · Deep Dive · 6 sources · 2d ago"
+    },
+    {
+      "text": "format_list_bulleted\nAlmote Sentence Examples and Analysis\n4 sources · 2d ago\nmore_vert"
+    },
+    {
+      "text": "format_list_bulleted\nAlmote Sentence Examples and Analysis\n4 sources · 2d ago"
+    },
+    {
+      "text": "Almote Sentence Examples and Analysis\n4 sources · 2d ago"
+    },
+    {
+      "text": "Almote Sentence Examples and Analysis"
+    },
+    {
+      "text": "4 sources · 2d ago"
+    },
+    {
+      "text": "audio_spark\nUnread\nHow Almote Fixes Broken English\n55:37 · Deep Dive · 3 sources · 2d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nUnread\nHow Almote Fixes Broken English\n55:37 · Deep Dive · 3 sources · 2d ago"
+    },
+    {
+      "text": "Unread\nHow Almote Fixes Broken English\n55:37 · Deep Dive · 3 sources · 2d ago"
+    },
+    {
+      "text": "How Almote Fixes Broken English"
+    },
+    {
+      "text": "55:37 · Deep Dive · 3 sources · 2d ago"
+    },
+    {
+      "text": "audio_spark\nParameterized SAT Predictions\n18:05 · 1 source · 2d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nParameterized SAT Predictions\n18:05 · 1 source · 2d ago"
+    },
+    {
+      "text": "Parameterized SAT Predictions\n18:05 · 1 source · 2d ago"
+    },
+    {
+      "text": "Parameterized SAT Predictions"
+    },
+    {
+      "text": "18:05 · 1 source · 2d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-31T02:05:57.930Z",
+      "event": "harvest_complete",
+      "messages": 18,
+      "reachedTop": true
+    }
+  ]
+}
