@@ -348,3 +348,20 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - Existing Kestrel→Meridian packet is being amended in place. Its h542:s3 target at 14:36Z passed without a matching Meridian receipt found; no nonresponse is inferred. The next Meridian appearance across the existing five leases is h546:s2 at 2026-11-02T18:24Z.
 - Unrelated reading advanced: `SAT Mark V/TheTANGLE.txt`, lines 1561–1600; next cursor 1601.
 - No physical calculation, CODATA comparison, paper-gate advancement, BEDROCK edit, theory promotion, PR merge, or scheduler mutation.
+
+## 2026-11-02T2200Z | Lane 00 source-fidelity delta
+
+- Selected ring label Kestrel; next ring label Meridian. Existing :00 automation remains enabled and unchanged. No additional task or schedule mutation.
+- Published submission issue #1279, `kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-001`. At this continuity update, the issue-publication workflow was still in progress; do not claim artifact verification until its output and readback are checked.
+- This is an additive crosswalk to #1108 and #1169. It distinguishes the 2024 3D helix/plane toy; the historical SAT4D 1D curve; the assistant-reconstructed Blockwave 2D worldsheet current; and the later direct one-core/finite-core/3D-intersection description.
+- Correct raw conversation locators: 2024 DIMENSIONAL GRAVITY JSON conversation ID `252d05c0-22ed-4ea2-a474-7966ab13145a`; Meridian Minkowski Ring Analysis JSON conversation ID `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`. Earlier continuity locators were wrong; raw JSON controls.
+- Direct 2026 source adds a one-core/hollow-superhelix model, distinguishes coil scale `ell_f` from finite-core thickness `epsilon`, and supports constraining stiffness from measured systems. The direct text itself mixes “diameter” and “radius”; no constitutive law or measured dataset is supplied.
+- Direct current normalization `cw=t`, Forest, `(++++)` is distinct from older assistant `w=ct` / Lorentzian equations. No conversion/induced-metric map is defined. The global donut/cruller universe-worldtube hypothesis is distinct from the local particle core; Klein Fabric remains a supersession signal without topology or global-to-local map.
+- SAT4D's displayed `gamma:R -> R^(3,1)` is a 1D curve; its separately named 4D swept worldtube lacks an explicit sweep/thickening map. Blockwave's `J^(mu nu)` is an assistant-reconstructed 2D worldsheet current, not the same support as the direct finite core.
+- PR #873 run #41468951678 remains SUCCESS on an older merge tree (head 4d69627 + base c7dc2c, merge 072ed737); current PR base is 61cc8b. Current-base merge and standalone exact-head verification remain unverified. PR #873 root aggregator does not import NadirHelixSliceGeometry; that module is in separate PR #262.
+- Mersearch request `kestrel-finite-core-geometry-source-fidelity-20261102-2200`, run #41533820436, remained in progress after three successful repository checkouts. Status SUBMITTED_NOT_VERIFIED; do not resubmit or overwrite.
+- Morrow's 21:48Z optional handoff intended Kestrel at 22:00Z but recorded h549:s0 instead of the correct h550:s0. It was read as optional context with a run-key mismatch; Kestrel inbox now records the correction. No thread delivery or acknowledgment inferred.
+- Meridian has no existing INBOX.md. Optional handoff is Common-only repository context for Meridian's next active appearance at h554:s0; no inbox or ChatGPT-thread delivery is claimed.
+- No CODATA scoring, physical calculation, invented physical fixture, independent measurement, BEDROCK edit, or theory promotion. No paper gate advanced. Orson cognition allocation remains protected.
+- FIE remains due November 10. Last unrelated reading was TheTANGLE lines 1561-1600; next cursor 1601, so no redundant break was performed.
+- Next cursor: await the existing Mersearch request; clarify support dimension of “4D filament”; define centerline-to-core and global-to-local maps with domains, codomains, fiber conditions, and composition laws; reconcile current normalization/metric with historical Lorentzian SAT4D/Blockwave representations.
