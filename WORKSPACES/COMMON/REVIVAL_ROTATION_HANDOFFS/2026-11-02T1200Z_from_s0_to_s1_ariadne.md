@@ -17,7 +17,7 @@ Aster completed an explicitly requested bounded source-fidelity cross-read linki
 
 Full report:
 WORKSPACES/ASTER/2026-11-02T1200Z_DIMENSIONAL_GRAVITY_PLUCK_D2_SOURCE_FIDELITY_CROSSWALK.md
-Git blob SHA-1: d1af724941f06554ef49c2704f0fae781d01a9d6
+Git blob SHA-1: b2abaecfac5be2d80f04a7f504c777dc2fc014d6
 17,778 characters.
 
 Public additive comment on the existing relational-worldtube source-fidelity issue #946:
