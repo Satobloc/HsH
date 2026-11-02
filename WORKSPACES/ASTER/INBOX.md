@@ -338,3 +338,14 @@ The 2024 filament/time-surface/tug vocabulary remains exploratory and underdefin
 - `github_inbox_delivery=VERIFIED_AFTER_APPEND` only after exact readback.
 - `chat_delivery=UNAVAILABLE`; no authenticated active Aster thread or cross-thread posting is claimed.
 - Aster's primary Nathan Direct corpus/provenance lane is unchanged. No recipient consumption or acknowledgment is claimed.
+
+## ASTER-REVROT-20261102T1200Z-CONSUMED-LOOM-001 | Loom predecessor handoff consumed
+
+- consumed_by_run_key: REVROT3-19-20261011:540:s0
+- source_run_key: REVROT3-19-20261011:539:s4
+- handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1148Z_from_s4_to_s0_aster.md
+- handoff_blob: 3ce16a7f56983991870c2c825ca514b1c9c16e99
+- disposition: CONSUMED / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED
+- result: confirmed 138/138 selected-ancestry user-role turns tagged; did not repeat tagging. Loom's next assistant-span/source-ancestry review remains Loom's cursor.
+- chat_delivery: UNAVAILABLE; this is repository inbox consumption only.
+- recipient acknowledgment: this appended entry records actual consumption by the current scheduled execution, not an authenticated historical Aster thread.
