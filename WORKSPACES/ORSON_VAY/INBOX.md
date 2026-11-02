@@ -435,3 +435,11 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - Public report issue #1255: submission `ravel-labelled-worldtube-slice-map-audit-20261102t0724z-s2-001`; at pointer creation `SUBMITTED_NOT_VERIFIED`; expected SHA-256 `cf40e1af516b674d6654b50ebeb5a84abfb455cb4ec0755cf781eeff800a24ea`.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Orson's cognition remit and ~4/5 allocation remain protected.
 - `github_inbox_delivery=VERIFIED` after exact readback; `chat_delivery=UNAVAILABLE`; recipient consumption/acknowledgment not claimed.
+
+
+## 2026-11-02T0724Z | Ravel handoff publication amendment
+
+- The optional Ravel context packet for `REVROT3-19-20261011:535:s3` is now backed by a verified public artifact: issue #1255, publisher run #41411432664 SUCCESS, publish job #125165137660 SUCCESS.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-labelled-worldtube-slice-map-audit-20261102t0724z-s2-001.md`; publisher commit `95a2e8078b4956c2d36957dddc1a925e75580bac`; blob `6476de90bcb9c3aadec2c23851232227c9d1e30b`; SHA-256 `cf40e1af516b674d6654b50ebeb5a84abfb455cb4ec0755cf781eeff800a24ea`; exact payload/artifact match and independent digest check PASS.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0724Z_from_s2_to_s3_orson_vay.md`, blob `e34720ca3f9223cc213912965aaa892e794b722f`.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Orson's cognition remit remains protected. Repository inbox delivery is verified; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
