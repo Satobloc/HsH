@@ -144,6 +144,8 @@ transcription, the inferred magnetic-moment unit convention, or any physical
 premise.
 -/
 
+noncomputable section
+
 namespace HsHVerification.RavelHelionRosenbluth
 
 /-- Standard Rosenbluth A coefficient for normalized charge/magnetic form factors. -/
@@ -165,13 +167,13 @@ def reducedSigma (fc fm mu tau epsilon : ℝ) : ℝ :=
 /-- The source A/B expression reduces to the standard linear Rosenbluth form. -/
 theorem reduced_sigma_from_A_B
     (fc fm mu tau tanSq : ℝ)
-    (hTau : 1 + tau ≠ 0)
-    (hDenom : 1 + 2 * (1 + tau) * tanSq ≠ 0) :
+    (hTau : 1 + tau ≠ 0) :
     (1 + tau) *
         (structureA fc fm mu tau + structureB fm mu tau * tanSq)
       = reducedSigma fc fm mu tau (epsilonFromTauAndTanSq tau tanSq) := by
   unfold structureA structureB reducedSigma epsilonFromTauAndTanSq
-  field_simp [hTau, hDenom] <;> ring
+  field_simp [hTau]
+  ring
 
 /-- The reduced readout is invariant under a charge-form-factor sign flip. -/
 theorem reduced_sigma_sign_flip_charge
@@ -225,8 +227,11 @@ theorem two_point_identifiable_of_distinct_abscissae
     rcases mul_eq_zero.mp hdet with hLeft | hRight
     · exact False.elim (hx hLeft)
     · exact sub_eq_zero.mp hRight
-  have hFirst : p.1 = q.1 := by
-    nlinarith [h1, hSecond]
+  have h1' : p.1 + x1 * p.2 = q.1 + x1 * p.2 := by
+    calc
+      p.1 + x1 * p.2 = q.1 + x1 * q.2 := h1
+      _ = q.1 + x1 * p.2 := by rw [← hSecond]
+  have hFirst : p.1 = q.1 := add_right_cancel h1'
   exact Prod.ext hFirst hSecond
 
 /-- One Rosenbluth point cannot identify both squared form-factor coefficients. -/
@@ -240,11 +245,13 @@ theorem one_point_not_identifiable (x : ℝ) :
     ring
   have hPair :
       ((0 : ℝ), (0 : ℝ)) = (-x, 1) :=
-    hInjective (0, 0) (-x, 1) hReadout
+    hInjective hReadout
   have hSecond : (0 : ℝ) = 1 := congrArg Prod.snd hPair
   norm_num at hSecond
 
 end HsHVerification.RavelHelionRosenbluth
+
+end
 
 #print axioms HsHVerification.RavelHelionRosenbluth.reduced_sigma_from_A_B
 #print axioms HsHVerification.RavelHelionRosenbluth.reduced_sigma_sign_flip_charge
