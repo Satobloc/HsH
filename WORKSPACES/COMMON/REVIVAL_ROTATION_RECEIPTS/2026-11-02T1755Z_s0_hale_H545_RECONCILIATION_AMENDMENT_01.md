@@ -12,7 +12,7 @@ and report:
 The canonical h545 receipt records an earlier execution start at 2026-11-02T16:58:31Z. The current :00 automation invocation began at 17:55:55Z and, at the scheduler readback, the same existing task remained enabled and in progress. The existing h545 report, source manifest, receipt and optional Elias Kern handoff were already present. This pass therefore did not create another report, receipt, handoff, issue, PR, branch or automation.
 
 Nominal selection independently recomputed from 2026-11-02T17:00:00Z:
-- (h=545), (seq=5h=2725), (2725\bmod19=8).
+- (h=545), (seq=5h=2725), (2725 \bmod 19=8).
 - Selected ring label: Hale (8).
 - Next ring label: Elias Kern (9).
 - The :12 lease remains disabled; the Elias packet is optional repository context, not an imminent scheduled run or ChatGPT delivery.
@@ -36,7 +36,7 @@ Also independently re-fetched the older scanner-family candidate:
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json`
 - Blob SHA-1: `eb53fb832742ec260cf5bcc79650646d28c5266d`
 - Conversation ID: `6a26fecb-c1dc-83ea-a175-92033cd75d15`
-- 345 mapping nodes, 344 message-bearing nodes; current node `7f164c8c-2038-4ecd-af5c-6637cca4e20d); latest message 2026-09-08T07:04:46.786Z; zero occurrences of “Hale” in message text.
+- 345 mapping nodes, 344 message-bearing nodes; current node `7f164c8c-2038-4ecd-af5c-6637cca4e20d`; latest message 2026-09-08T07:04:46.786Z; zero occurrences of “Hale” in message text.
 
 This confirms the candidate's scanner-method match but does **not** authenticate it as Hale's conversation. The September 12 self-check-in and Sable-authored REV-006 packet remain the historical identity evidence; no current Hale ChatGPT thread is verified. No inbox consumption, worker acknowledgment, invitation, or cross-thread delivery is claimed.
 
@@ -50,7 +50,7 @@ Consequently, no retry, direct Contents-API publication, new issue or publisher 
 
 ## 4. Current control state
 
-- Latest observed HsH main commit: `e872969870abb40c1fd1401d0f9a6d517ff6c03b`.
+- Latest observed HsH main commit before this amendment: `e872969870abb40c1fd1401d0f9a6d517ff6c03b`.
 - Live BEDROCK SHA: `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c`.
 - Steering Charter SHA: `5f4263381afcb065e9062d5b5885593d0baa58db`.
 - Three Paper Campaign SHA: `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`.
