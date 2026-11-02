@@ -68,3 +68,13 @@ Existing formalization status remains:
 - FIE re-review is not due (last full review: 2026-10-27).
 - Unrelated reading completed: `TheTANGLE`, lines 1321–1360; next cursor 1361.
 - No new issue, PR, branch, automation, or task was created. No task ID, cadence, phase, or title was changed. No cross-thread delivery or acknowledgement is claimed.
+
+## Addendum: subsequent source and branch correction (2026-11-02)
+
+The earlier statement that no Lean theorem was added or compiled describes the initial source-only pass and is superseded by this continuation. An existing draft PR #1241 and its existing branch were found; this run did not create a new PR or branch.
+
+- The trace module's tool-action timestamps now consistently mean assistant tool-call initiation, rounded to the nearest millisecond. The unrelated-fetch event was corrected from 206399 ms (response completion) to 206291 ms (assistant invocation); the derived explicit-correction-to-unrelated-fetch delay is now 24318 ms rather than 24426 ms.
+- The actor label `assistantSystem` was corrected to `assistant`, matching the recorded source role.
+- Existing branch: `research/hale-vey005-trace-formalization-20261102t0148z`. Current head: `da034b2780a1ce04e26030433695ea2e23574710`. Current module blob: `e9b2f30bf7f6ec53ea5c970e6837d0e03020d7fa`.
+- New verification run #41380532749 was still in progress at final inspection. The earlier successful run #41378372984 checked the previous head `d237ca80932d54da232db6bddf4df0c3d82c03f5` on merge ref `0d9f7de45aed5acec21b274984466c74ee1d38f2`; it does not verify the current head. Exact-head standalone verification remains unverified.
+- No private source identifier, raw export, checksum, or private-lab path was added. No new issue was created; the existing PR remains draft and unmerged. No Orson P1 artifact or paper gate was edited or advanced.
