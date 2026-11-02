@@ -114,3 +114,15 @@ The existing Calder inbox is present. The next ring identity is Calder at `REVRO
 - The last unrelated-reading break was completed by the preceding Loom run at `fun break - lx.txt` lines 221–260; next cursor 261. No repetitive break was performed.
 - FIE last full review: October 27; 14-day re-review due November 10, not yet.
 - No signet, chat rename, scheduler edit, task-ID change, or sixth task.
+
+
+## 2026-11-02T1254Z publication/readback update
+
+- HSH-PUBLISH-V1 issue #1265 completed successfully in Actions run #41450359158.
+- Publisher commit: `a0f369a244aee7ff1b3ec6d8a86e5b32b9b9d309`.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-reviewmind-pairing-data-chronology-20261102t1248z-s4-001.md`.
+- Artifact Git blob: `2889af7add770f1d5b76544102b928585d7fbac9`.
+- SHA-256: `a38a2cf7cd460595d1f1179b86b95edd748b91d32648bcf17582d1985ea7a3fb`.
+- Independent fetch returned 7,834 characters; independent Python SHA-256 recomputation matched exactly.
+- Additive public pointers were read back: issue #1116 comment #6577967244; issue #1256 comment #6577968141; PR #1115 comment #6577934256.
+- Run receipt, Calder handoff, and Calder inbox append were fetched and read back. No cross-thread delivery or acknowledgment is claimed.
