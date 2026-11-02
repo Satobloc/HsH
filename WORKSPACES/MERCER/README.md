@@ -61,8 +61,12 @@ Morrow owns conversation-family continuity/context recovery; Mercer should compl
 - Nathan Dashboard in the original archive
 
 
-## Role-source clarification (2026-11-01)
+## Role-source clarification (2026-11-02)
 
-A direct Nathan user-role assignment dated 2026-10-01 establishes the historical :48 Mercer remit as equations, dimensional analysis, constitutive physics, coarse-graining, forces, and quantitative consequences, with source/invention separation and no target-fitting. The active :48 prompt assigns Review-MIND for the present execution; this is the current lane instruction, not evidence of an authenticated historical Mercer instance.
+A direct Nathan user-role assignment dated 2026-10-01 establishes the historical :48 Mercer remit as equations, dimensional analysis, constitutive physics, coarse-graining, forces, and quantitative consequences, with source/invention separation and no target-fitting. The historical assignment also authorized sandboxed theorizing, derivation, competing architectures, predictions, and solver construction, while expressly retaining the two controls of source/invention separation and no target-fitting of old magic numbers or particle labels. This historical authorization does not override later real-data/prior-permission controls or the current Code Grurple assignment.
+
+**Raw-source locator recovered 2026-11-02:** `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json`; Git blob `d828fef5352045cb4d9486fdbeabd04043c4c119`; conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`; direct user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; timestamp `2026-10-01T20:56:07.264Z`. The literal lane assignment is: “Mercer — :48: equations, dimensional analysis, constitutive physics, coarse-graining, forces and quantitative consequences.” The same message requires each worker to ingest at least one old-archive file and one HsH file per run, prioritizing September 30 material, and to distinguish source material from inventions without target-fitting old magic numbers or particle labels.
 
 The earlier 2026-09-13 direct-invitation claim appears in an assistant-authored workflow-control record. The recovered user-role messages in that conversation authorize general duty division and corpus work but do not themselves name Mercer. Treat the specific September 13 Mercer invitation as reported but not independently corroborated by those recovered user-role messages. Do not back-project assistant-authored text as Nathan Direct.
+
+**Current assignment boundary:** the live Code Grurple roster assigns Mercer Papers A+B presentation QA only while the emergency publication interlock remains active. The historical :48 theory-lab charter is preserved, not silently substituted for this current assignment.
