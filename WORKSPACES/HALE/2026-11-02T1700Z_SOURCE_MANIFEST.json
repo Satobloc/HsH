@@ -1,0 +1,206 @@
+{
+  "schema": "hsh-source-manifest-v1",
+  "run_key": "REVROT3-19-20261011:545:s0",
+  "nominal_utc_hour": 545,
+  "selected_worker": "Hale",
+  "selected_ring_index": 8,
+  "next_ring_label": "Elias Kern",
+  "next_ring_index": 9,
+  "report": {
+    "path": "WORKSPACES/HALE/2026-11-02T1700Z_MAY2025_SAT_ASAT_BRANCH_BOUNDARY_AND_WORLDTUBE_METRIC_FIDELITY.md",
+    "git_blob_sha1": "5ee3490ce4ca1f1c1fbde3b24e0b0d09928a5ce9",
+    "characters": 18576,
+    "lines": 258,
+    "readback": "exact-content spot-check passed"
+  },
+  "source_register": [
+    {
+      "repo": "Satobloc/HsH",
+      "path": "DEVELOPMENT_FULL_CONVOS/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
+      "blob_sha1": "9bcd42a355d05ebbbe6b6edec9744d1409d0cfd9",
+      "conversation_id": "6816e398-af14-8002-ab29-cb2d84caf989",
+      "extent": "74 mapping nodes; 32 user-role nodes; 72-node selected ancestry; relevant direct turns and assistant children extracted",
+      "first_archive_commit": "2026-10-10T01:26:41Z",
+      "status": "raw ChatGPT export"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf",
+      "document_date": "2025-02-02",
+      "updated": "2026-02-26",
+      "source_pdf_sha256": "d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9",
+      "extracted_text_blob_sha1": "9b94093053f28be8bf64ee227d3382d2296f63ea",
+      "first_archive_commit": "2026-05-30T19:10:49Z",
+      "status": "Nathan-designated foundational document; byline not recovered; text extraction read"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT O Core Modules/SAT.O Official Directives.txt",
+      "blob_sha1": "167136310cdf33ca8f986f33634692314c1a0946",
+      "first_archive_commit": "2025-10-27T23:52:03Z",
+      "status": "historical directive document"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT_O REWRITE/SAT 4D/SAT4D_LIVE_DRAFT.txt",
+      "blob_sha1": "2a79fe25018cce7e99a2c33786d88b0551db6ae7",
+      "document_date": "June 2025",
+      "local_metadata": "created 2025-06-08; modified 2025-06-09",
+      "first_archive_commit": "2025-10-27T23:52:03Z",
+      "status": "document-level Nathan byline; individual module authorship unresolved"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT_O REWRITE/SAT 4D/SAT O1 4D.txt",
+      "blob_sha1": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+      "first_archive_commit": "2025-10-27T23:52:03Z",
+      "status": "historical O1 module"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT 4D Theory Work/SAT4D_4.txt",
+      "blob_sha1": "efc88f4523b2fd616e64898737c2aa45e5f39b9a",
+      "first_archive_commit": "2026-09-04T22:51:14Z",
+      "status": "SATO.4D Coherence Project glossary; document-level, not raw user turn"
+    },
+    {
+      "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT_O REWRITE/SAT 4D/4D THINKING PRIMER.txt",
+      "blob_sha1": "135bdf4bfc274de1388e5fe3c979e9810919b5d3",
+      "first_archive_commit": "2025-10-27T23:52:03Z",
+      "status": "historical SAT_O Project training text; not Nathan Direct"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json",
+      "blob_sha1": "d9a25072ed462c714cdd04f2fb1bce4860d4b12d",
+      "exported_at": "2026-07-31T19:29:54.213Z",
+      "messages": 103,
+      "first_archive_commit": "2026-09-05T00:12:41Z",
+      "status": "separate Saucepan export; graviton/gluon audit already in #996"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-29_ORIGINAL_STATEMENT_FIRST_GATE.md",
+      "blob_sha1": "e5d5390015528381d0f497a54335f9b40b9c50cf",
+      "status": "assistant transcription of prior direct statement; raw message locator absent; literal 'waferont' preserved"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "BEDROCK.md",
+      "blob_sha1": "38a5b8f4c9d573e54ca4a449be70d0a7d94a484c",
+      "status": "live control read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/STEERING_CHARTER_2026-10-26.md",
+      "blob_sha1": "5f4263381afcb065e9062d5b5885593d0baa58db",
+      "status": "live control read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md",
+      "blob_sha1": "9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0",
+      "status": "live control read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md",
+      "blob_sha1": "e1fa2fb7c582a1b4528e9507644bd3f481fce8e0",
+      "status": "onboarding read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_V3_2026-10-11.md",
+      "blob_sha1": "90863a2a2b82b2d8e37ba1bd9f796389066f5409",
+      "status": "rotation read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_V4_NOT_FOUND_REVIVAL_2026-10-11.md",
+      "blob_sha1": "6761337dfcd0847226ee7baad84db0a9c496760a",
+      "status": "identity/routing read"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/CHECKINS.md",
+      "blob_sha1": "886069e71d4aec7a3f8d199d6d889b930a05c17e",
+      "status": "Hale 2026-09-12 self-check-in; not a Nathan-authored specialist charter"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md",
+      "blob_sha1": "2840500bec1873fc634e564f83d7eda7d1da74f0",
+      "status": "Sable-authored reentry packet; not a direct charter"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0536Z_s3_hale.md",
+      "status": "prior Hale receipt read; unrelated-reading cursor TheTANGLE 1281-1320"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1648Z_from_s4_to_s0_hale.md",
+      "blob_sha1": "7a5c2d090a7884b37d9f6a948b38f38a9e06952e",
+      "commit_time": "2026-11-02T17:06:24Z",
+      "status": "late optional context only; commit after this run began"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1600Z_s0_ariadne.md",
+      "status": "not found; no h544 receipt invented"
+    },
+    {
+      "repo": "Satobloc/HsH",
+      "path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1600Z_from_s0_to_s1_alberr.md",
+      "status": "not found"
+    }
+  ],
+  "existing_issues": [
+    996,
+    1000,
+    1013,
+    1213,
+    1271
+  ],
+  "existing_prs": [
+    {
+      "number": 262,
+      "head": "c7dc2c483f50ae03fc7a7c530829170135e18d92",
+      "module_blob": "3e47ffa6d6bcd534abdedf18ea865fb2941a0947",
+      "run": 41301288857,
+      "job": 124832543107,
+      "status": "successful PR merge-ref build"
+    },
+    {
+      "number": 1133,
+      "head": "d8579403952ca658cf5dd0547e8c181701d18145",
+      "module_blob": "69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4",
+      "run": 41348936553,
+      "job": 124974692430,
+      "status": "successful PR merge-ref build"
+    }
+  ],
+  "mersearch": {
+    "status": "no new request",
+    "reason": "all four shared request lanes occupied; no local pinned Mersearch checkout; GitHub search used as bounded fallback"
+  },
+  "tooling": {
+    "math_hopper": "existing extraction-only tool; multi-repository pilot not verified end-to-end",
+    "whirligig": "existing R/Q and Analemma tooling; not used for this source task",
+    "sci_space": "connector available; not used because this was internal-first source fidelity",
+    "local_lean": "no lean/lake/elan executable found"
+  },
+  "physical_work": "none; no CODATA, no physical calculation, no synthetic data, no independent measurement",
+  "publication": {
+    "status": "held",
+    "reason": "existing issue #1213 already contains the May 2025 source submission; publisher workflow listens only to issues.opened; issue #1213 SHA was rejected; no append route; PR #1251 remains open/draft/unmerged; no new issue"
+  },
+  "task": {
+    "id": "6aa1fe0de5e48191b886496095b1343f",
+    "enabled": true,
+    "schedule": "FREQ=HOURLY; DTSTART;TZID=America/New_York:20261001T140000; phase :00",
+    "modified": false
+  },
+  "main_prewrite_head": "7a1c36447f80223859e7558720c52255cbd4bc10"
+}
