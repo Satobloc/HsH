@@ -1,55 +1,123 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-24T15:10:00Z",
+  "updated": "2026-11-02T17:48:00Z",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
     "Comptroller may execute, modify, merge, park or reject a signal based on newer state.",
-    "Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."
+    "Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete.",
+    "2026-11-02 Tern Comptroller reconciliation: current CODE_GRURPLE_ROSTER.md, TASK_BRANCH_GRAPH.json, and PUBLIC_SITE/PRESENTATION_GATE.md supersede the older Paper-A-only standdown wording below. Both actual reader routes remain PRESENTATION_PENDING. Paper B's manuscript/editorial gate remains closed; only its shared-renderer presentation QA is reopened."
   ],
   "signals": [
     {
       "signal_id": "SIG-20260922-GRURPLE-01",
       "signal_type": "PRIORITY_REWEIGHT",
-      "status": "ACTIVE_OVERRIDE_PAPER_A_ACCEPTED_R1_POSTING_VERIFICATION",
+      "status": "ACTIVE_OVERRIDE_BOTH_PAPER_ROUTES_PRESENTATION_PENDING",
       "priority": "PROJECT_OVERRIDE_UNTIL_COMPLETION_GATE",
       "origin": "Nathan Direct 2026-09-22 01:49 EDT; subsequently refined by Live New Papers / Grurple controls",
       "title": "Code Grurple — two-paper rapid peer-review/publication interlock",
       "evidence": [
-        "Paper B completed its reviewed/Originator-accepted R1 sandbox website lane and is completed-side hold unless a concrete defect/request reopens it.",
-        "Paper A chronology citation repair, bibliography normalization, residual source narrowing, and regression recovery are closed.",
-        "Calder post-recovery broader acceptance rerun passed on exact manuscript blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa; relative to the normalized baseline the accepted successor contains only the two intended SAT-comparison narrowings.",
-        "CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md routes that accepted state to the existing SANDBOXED website-posting lane.",
-        "CODE_GRURPLE_ROSTER.md was reconciled at commit 8c9737742ce2f95a33d5e9b27d745c13f1a4091e and now identifies visible current-version posting/version verification as the sole remaining Grurple-A critical path.",
-        "No evidence inspected in this Comptroller pass establishes that accepted Paper-A blob 13d166e is already visibly posted; staging/file existence alone is insufficient."
+        "Paper A manuscript gate is closed PASS on accepted R1 blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa; its actual reader route remains presentation-pending.",
+        "Paper B manuscript/review/originator-acceptance gate is closed on reviewed R1 blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb; the shared renderer defect reopens presentation QA only, not manuscript content, source hardening, or peer review.",
+        "Current CODE_GRURPLE_ROSTER.md blob cc96c0bfafc95c54e7960899c7306031e5abce17 explicitly assigns both routes to presentation repair and requires both live reader routes to pass before standdown.",
+        "Current TASK_BRANCH_GRAPH.json blob 3c341c616aa893bf56ad5ad5919e09a17e0c2b46 records both Paper A and Paper B as PRESENTATION_PENDING under the active Code Grurple interlock.",
+        "Current PUBLIC_SITE/PRESENTATION_GATE.md blob 5f91020d0a71034ad6bed2de0a82ead1f1e48d98 requires a presentation derivative and explicit PRESENTATION PENDING state; repository/feed staging is not reader acceptance.",
+        "The historical Paper-A-only standdown condition is superseded. No live reader-facing PASS for both routes is established by the current control evidence."
       ],
-      "switch": ["FEED_FORWARD", "COMMUNICATION_SMOOTH", "HOLD"],
-      "affected": ["Meridian", "Tern Rook", "Mercer Calder", "Aster", "Live New Papers", "PUBLIC_SITE"],
-      "incorporation_test": "Acceptance-to-posting routing is incorporated in the reconciled Grurple roster. The remaining behavioral test is visible SANDBOXED posting of the accepted Paper-A state and verification that the posted version matches accepted blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa. Do not rerun manuscript acceptance or reopen closed chronology/bibliography/source work absent a concrete regression or explicit request.",
-      "standdown": "Automatic when accepted Paper A is visibly sandbox-posted and version identity is verified; Paper B already satisfies its lane. Nathan may explicitly stand Code Grurple down earlier.",
-      "return_route": "Route accepted Paper-A R1 through the existing SANDBOXED website lane and verify visible current-version identity. On verified posting, stand Code Grurple down and immediately re-evaluate then-current task/branch/lease state; preserved project-highest-priority return is HAGALAZ-SOLVER-UNIFICATION unless newer directives/state supersede it."
+      "switch": [
+        "FEED_FORWARD",
+        "COMMUNICATION_SMOOTH",
+        "HOLD"
+      ],
+      "affected": [
+        "Meridian",
+        "Tern Rook",
+        "Mercer Calder",
+        "Aster",
+        "Live New Papers",
+        "PUBLIC_SITE"
+      ],
+      "incorporation_test": "A site-capable worker repairs the shared sandbox_manuscript presentation path without changing either pinned manuscript. Independently verify both actual reader-facing routes against the seven-point Code Grurple acceptance boundary, including source identity, structure/math/references/layout, SANDBOX/review/provenance affordances, and live site version. Repository or feed staging alone is not a pass.",
+      "standdown": "Automatic only after BOTH actual public reader routes render their pinned current versions and pass the shared presentation/version acceptance boundary. Paper B's manuscript gate is already closed; its presentation gate remains open. Nathan may explicitly stand Code Grurple down earlier.",
+      "return_route": "Route the shared renderer repair to a site-capable worker; verify paper.html?id=convergent-motifs-r1 against blob 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa and paper.html?id=boundary-weak-emission-r1 against blob 0a1dca42cafd9a02faceff4ec0851659a317b2bb. After both live passes, stand down and immediately re-evaluate then-current task/branch/lease state; otherwise preserve the interlock."
     },
     {
-      "id": "SIG-20260920-01", "type": "NIBBLE", "status": "NIBBLED_PASS", "target": "Braintrust Memorial Commons / Field Notes", "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and deposited a worker-origin Field Note.", "intent": "Test genuine worker-origin traffic.", "suggested_action": "Do not manufacture additional Commons traffic.", "exit": "PASS for first incorporation trial.", "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"
+      "id": "SIG-20260920-01",
+      "type": "NIBBLE",
+      "status": "NIBBLED_PASS",
+      "target": "Braintrust Memorial Commons / Field Notes",
+      "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and deposited a worker-origin Field Note.",
+      "intent": "Test genuine worker-origin traffic.",
+      "suggested_action": "Do not manufacture additional Commons traffic.",
+      "exit": "PASS for first incorporation trial.",
+      "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"
     },
     {
-      "id": "SIG-20260920-02", "type": "FEED_FORWARD", "status": "INCORPORATION_PASS", "target": "Nathan Words → Theorist Feed", "evidence": "Meridian consumed named Nathan Words feed packets and changed an active comparator interface.", "intent": "Close excavation-to-theory loop.", "suggested_action": "PASS/RETURN; continue opportunistically.", "exit": "PASS.", "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json"
+      "id": "SIG-20260920-02",
+      "type": "FEED_FORWARD",
+      "status": "INCORPORATION_PASS",
+      "target": "Nathan Words → Theorist Feed",
+      "evidence": "Meridian consumed named Nathan Words feed packets and changed an active comparator interface.",
+      "intent": "Close excavation-to-theory loop.",
+      "suggested_action": "PASS/RETURN; continue opportunistically.",
+      "exit": "PASS.",
+      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json"
     },
     {
-      "id": "SIG-20260920-03", "type": "WEBSITE_BACKFILL", "status": "INCORPORATION_PASS_PRESENTATION_PARKED", "target": "PUBLIC_SITE/live_influx", "evidence": "Worker-origin nomination received explicit editorial disposition and durable return trigger.", "intent": "Test worker-to-website backfill.", "suggested_action": "PASS/RETURN; reopen when appropriate presentation surface is active.", "exit": "PASS.", "return_route": "PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"
+      "id": "SIG-20260920-03",
+      "type": "WEBSITE_BACKFILL",
+      "status": "INCORPORATION_PASS_PRESENTATION_PARKED",
+      "target": "PUBLIC_SITE/live_influx",
+      "evidence": "Worker-origin nomination received explicit editorial disposition and durable return trigger.",
+      "intent": "Test worker-to-website backfill.",
+      "suggested_action": "PASS/RETURN; reopen when appropriate presentation surface is active.",
+      "exit": "PASS.",
+      "return_route": "PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"
     },
     {
-      "id": "SIG-20260920-04", "type": "MUSICAL_CHAIRS", "status": "TWO_WAY_PASS_COMPLETE", "target": "active substantive branches", "evidence": "Mercer symbolic/type audit and Meridian reciprocal provenance pass produced new information.", "intent": "Test complementary transformer array.", "suggested_action": "RETURN; reopen only on new source evidence.", "exit": "PASS.", "return_route": "INSTANCE_CAPABILITY_ATLAS.md"
+      "id": "SIG-20260920-04",
+      "type": "MUSICAL_CHAIRS",
+      "status": "TWO_WAY_PASS_COMPLETE",
+      "target": "active substantive branches",
+      "evidence": "Mercer symbolic/type audit and Meridian reciprocal provenance pass produced new information.",
+      "intent": "Test complementary transformer array.",
+      "suggested_action": "RETURN; reopen only on new source evidence.",
+      "exit": "PASS.",
+      "return_route": "INSTANCE_CAPABILITY_ATLAS.md"
     },
     {
-      "id": "SIG-20260920-05", "type": "PRIORITY_REWEIGHT", "status": "INCORPORATION_PASS_RETURN", "target": "Dashboard intentions DASH-06 through DASH-08", "evidence": "DASHBOARD_INTENT_LEDGER.md records behavioral incorporation evidence.", "intent": "Represent underlying Dashboard intentions in current routing.", "suggested_action": "PASS/RETURN.", "exit": "PASS.", "return_route": "WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md"
+      "id": "SIG-20260920-05",
+      "type": "PRIORITY_REWEIGHT",
+      "status": "INCORPORATION_PASS_RETURN",
+      "target": "Dashboard intentions DASH-06 through DASH-08",
+      "evidence": "DASHBOARD_INTENT_LEDGER.md records behavioral incorporation evidence.",
+      "intent": "Represent underlying Dashboard intentions in current routing.",
+      "suggested_action": "PASS/RETURN.",
+      "exit": "PASS.",
+      "return_route": "WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md"
     },
     {
-      "id": "SIG-20260920-06", "type": "COMMUNICATION_SMOOTH", "status": "OPEN", "target": "worker recommendations across Common/check-ins/handoffs/Commons/Labs", "evidence": "Recommendation surfaces remain distributed.", "intent": "Prevent actionable recommendations from disappearing.", "suggested_action": "Sample and disposition recent recommendations during leverage scans.", "exit": "No sampled actionable recommendation terminates without a return route.", "return_route": "originating recommendation surface + task/signal state"
+      "id": "SIG-20260920-06",
+      "type": "COMMUNICATION_SMOOTH",
+      "status": "OPEN",
+      "target": "worker recommendations across Common/check-ins/handoffs/Commons/Labs",
+      "evidence": "Recommendation surfaces remain distributed.",
+      "intent": "Prevent actionable recommendations from disappearing.",
+      "suggested_action": "Sample and disposition recent recommendations during leverage scans.",
+      "exit": "No sampled actionable recommendation terminates without a return route.",
+      "return_route": "originating recommendation surface + task/signal state"
     },
     {
-      "id": "SIG-20260921-07", "type": "PRIORITY_REWEIGHT", "status": "INCORPORATION_PASS_RETURN", "target": "ᚼ solver unification", "evidence": "Central routing and a Three-Spheres traversal behaviorally demonstrated common-interface incorporation.", "intent": "Verify solver-unification incorporation.", "suggested_action": "PASS/RETURN; substantive branch remains preserved under Grurple override.", "exit": "PASS.", "return_route": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md + WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
+      "id": "SIG-20260921-07",
+      "type": "PRIORITY_REWEIGHT",
+      "status": "INCORPORATION_PASS_RETURN",
+      "target": "ᚼ solver unification",
+      "evidence": "Central routing and a Three-Spheres traversal behaviorally demonstrated common-interface incorporation.",
+      "intent": "Verify solver-unification incorporation.",
+      "suggested_action": "PASS/RETURN; substantive branch remains preserved under Grurple override.",
+      "exit": "PASS.",
+      "return_route": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md + WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
     },
     {
       "id": "SIG-20260924-TOOLS-01",
