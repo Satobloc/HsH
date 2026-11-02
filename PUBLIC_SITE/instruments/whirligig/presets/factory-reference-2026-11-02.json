@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "mechanismId": "browser-inner-wall-analemma-2026-11-02",
+  "presetId": "factory-reference-2026-11-02",
+  "presetName": "Reference · Equal-area Analemma",
+  "description": "Immutable reference configuration for the current browser inner-wall Whirligig.",
+  "geometry": {
+    "analemma": {
+      "mode": "equal_area_reference",
+      "parameters": {
+        "k": 2.63499709629253,
+        "longitudeFrequency": 2,
+        "latitudeFunction": "k*sin(t)*cos(t)^2"
+      },
+      "unitSphereLengthCoefficient": 13.26913503960638,
+      "selfCrossing": "east-equatorial",
+      "selfTangency": "west-equatorial",
+      "equalAreaBalance": true,
+      "availableModes": [
+        {
+          "mode": "equal_area_reference",
+          "status": "implemented-reference"
+        },
+        {
+          "mode": "pole_to_pole_candidate",
+          "status": "landmarks-specified-curve-derivation-pending",
+          "landmarks": {
+            "northTip": "north-pole",
+            "southTip": "south-pole",
+            "crossing": "east-equatorial-point",
+            "crossingType": "transverse",
+            "northernLobe": "winds-around-north-pole",
+            "southernLobe": "winds-around-south-pole"
+          }
+        }
+      ]
+    },
+    "torus": {
+      "tubeRadius": 0.55,
+      "majorRadiusMode": "derived-two-circuit-gear",
+      "majorToTubeRadiusRatio": 5.22369686421446,
+      "majorRadius": 2.87303327532,
+      "innerCircumferenceAnalemmaCircuits": 2
+    },
+    "sphere": {
+      "radius": 0.55,
+      "radiusEqualsTubeRadius": true
+    },
+    "contact": {
+      "selectedSurface": "inner-radial-torus-surface",
+      "selectedPoint": "Donomphulon",
+      "outerRadialPoint": "P_ivot",
+      "globalNoSlipCertified": false
+    }
+  },
+  "sources": {
+    "R": {
+      "equationId": "harm_r",
+      "displayGain": 0.55
+    },
+    "Q": {
+      "equationId": "harm_q",
+      "displayGain": 0.6,
+      "samplingPhase": 0
+    }
+  },
+  "kinematics": {
+    "sphereOrientation": "analemma-so3-transport",
+    "sphereRollAnalemmaCircuitsPerTorusOrbit": 2,
+    "sharedSphereRollAnalemmaPhase": true,
+    "elbowTurnsPerTorusOrbit": 4,
+    "elbowMultiplierOfSharedPhase": 2,
+    "rqSweepTurnsPerTorusOrbit": 1,
+    "playbackSpeed": 1.5
+  },
+  "constraints": {
+    "sphereOrientationAnalemmaLock": "locked",
+    "sphereRollAnalemmaPhaseLock": "locked",
+    "elbowCommonPhaseLock": "locked",
+    "rqSweepIntegerReturn": "locked",
+    "crossbarACoupling": "reference",
+    "crossbarBCoupling": "absent"
+  },
+  "mechanism": {
+    "variant": "single_crossbar_reference",
+    "crossbars": [
+      {
+        "id": "A",
+        "enabled": true,
+        "contactPlacement": "reference",
+        "sweepDirection": 1,
+        "rotationDirection": 1,
+        "elbow": {
+          "independent": false,
+          "phaseMode": "shared-locked"
+        }
+      }
+    ]
+  },
+  "trace": {
+    "rayTarget": "full-torus-first-forward-hit",
+    "preservePreviousTraceOverlay": true,
+    "exportFormat": "svg"
+  },
+  "presentation": {
+    "timeFraction": 0,
+    "showGuideLines": true,
+    "cameraAzimuth": 0.7,
+    "cameraElevation": 0.45
+  },
+  "provenance": {
+    "sourceContract": "PUBLIC_SITE/instruments/whirligig/ANALEMMA_CORRECTION_2026-10-21.md",
+    "contractRevision": "2026-11-02",
+    "branch": "main",
+    "epistemicStatus": "sandboxed-reference-configuration"
+  }
+}
