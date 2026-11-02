@@ -44,3 +44,10 @@ Enheduanna's recovered Nathan Direct source is a broad archive-wide revival inst
 The expected :36 predecessor Nadir run failed at 14:10:41Z and left no receipt/handoff at inspection. No refusal is inferred.
 
 **Delivery:** repository handoff only. `chat_delivery=UNAVAILABLE`; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed. Tern's existing `WORKSPACES/TERN/INBOX.md` is the documented recipient inbox; its append will be reported separately only after independent readback.
+
+
+## Delivery timing amendment — 2026-11-02T1424Z
+
+The Tern :00 execution for the intended recipient key `REVROT3-19-20261011:542:s0` began at `2026-11-02T14:23:56.519929Z` (run `8351831b-f8f0-8331-8fc1-aa8f7ec01fa9`) before the Tern inbox append committed at `2026-11-02T14:24:10Z`. Therefore this packet is **LATE_OPTIONAL_CONTEXT_ONLY** for that running turn. Repository inbox delivery is verified; consumption and acknowledgment are not.
+
+If not consumed during the current Tern run, the next same-phase Tern selection is `REVROT3-19-20261011:561:s0` at `2026-11-03T09:00:00Z`. No additional task or scheduler change is requested.
