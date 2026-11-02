@@ -141,3 +141,14 @@ Aster PR #787 current head `b98d6e4b03e853e2c8c13d0a9b11de1abb0e68c0` imports `M
 Completed Jacoby, *Practical Talks by an Astronomer*, lines 781–820. Next cursor: 821. The source is held in the internal reference collection; no private path or excerpt is published here.
 
 No source tag was downgraded. The earlier PARTIAL-READ tag for message `7235...` is retained as history and supplemented by this FULL-READ upgrade.
+
+
+### Checksum correction — 2026-11-02T1024Z
+
+The three Mersearch artifact SHA values recorded in the preceding 10:24 addendum were transcribed incorrectly. The independently fetched GitHub blob SHAs are authoritative:
+
+- `RUN_MANIFEST.json`: `bd31f51f2319a10bbe0443c0aa82cdbe5435c224`.
+- `SEARCH_RECEIPT.json`: `746443d30b0b4e4a7f07ef8375e7917ff256d215`.
+- `SEARCH_RECEIPT.md`: `70cee11a7a500ee528dc9bf0ec2781564e9397a8`.
+
+This correction supersedes only the three mistyped SHA strings above. The request ID, run/job identity, scan counts and source classifications are unchanged.
