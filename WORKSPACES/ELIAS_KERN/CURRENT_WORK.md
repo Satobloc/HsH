@@ -288,3 +288,14 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1324Z_from_s2_elias_kern_to_s3_nadir_voss.md`, blob `3dc24308368b1a806f64387f42caf04c990f1a72`. Nadir's 13:36 run had already started at 13:45:23Z; packet is late for that run and next-appearance-only. No task, response obligation, ownership transfer, theory import, or ChatGPT-thread delivery/consumption/acknowledgment claimed.
 - Unrelated reading: BULBEK.txt lines 201–240; next cursor 241. FIE last full review October 27; next due November 10.
 - Next cursor: verify exact-head Lean run #41455330592 and inspect logs/axiom reports; if failed, repair existing PR only. Then sandbox-only distinct-context transfer test. No physical/CODATA work, theory/paper promotion, POC/production change, or automation modification.
+
+
+## Verification amendment | 2026-11-02T1347Z
+
+- PR workflow #41455330592 completed SUCCESS for current PR head `8fa5e72666284173569fe60bb68b678cd923702a`.
+- The actual checked-out/build source was merge-ref `811a5ea5bfe5a5696ce42039431488fa06b1d1ee`. The new module blob is identical between PR head and merge-ref (`68e58be08526502848a68b2a77f0cb3d14036419`); the merge-ref root aggregator contains the new module import. This is a merge-ref build, not a separate exact-head standalone build.
+- Lean 4.34.0 / Lake 5.0.0. `EliasStickyLifecycleGate` built at 8925/8955; root aggregator built at 8954/8955; workflow and `lake build` succeeded.
+- Full job log: zero `sorryAx`, zero `admit`. Ten selected theorem-specific `#print axioms` outputs list only `propext`. Five other theorem declarations compiled but were not individually printed.
+- Nanoda, separate axiom audit, tests and lint were skipped.
+- Existing issue #632 comment #6578667970 updated in place; exact readback PASS; comment SHA-256 `1fc8bdf6361f10d70932374ce1fc1a67dab0322503e9fb02c1ba6c3be9b9283e`.
+- No actual second-context transfer was run. The Python POC remains unchanged; no production integration.
