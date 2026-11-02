@@ -142,7 +142,7 @@ theorem nine_judge_rounded_phi_matches_reported :
 ## Weight concentration under exchangeable dependence
 
 Liu et al., "Social Networks of LLM Agents" (arXiv:2607.03695v1,
-July 7, 2026), Definition 8.7, use the concentration ESS
+July 4, 2026), Definition 8.7, use the concentration ESS
 1 / sum_i q_i^2 under independent private signals; Proposition 8.6
 states the corresponding variance formula. Kohli, arXiv:2605.29800v1,
 §3.3, gives the equal-weight exchangeable design-effect/Kish formula.
@@ -249,8 +249,6 @@ theorem weightedExchangeableESS_uniform_eq_kish
 #print axioms weightedExchangeableESSFromConcentration_uniform_eq_kish
 #print axioms uniformWeightConcentration
 #print axioms weightedExchangeableESS_uniform_eq_kish
-
-end HsHVerification.OrsonKishEffectiveSampleSize
 
 
 /-!
@@ -369,6 +367,18 @@ def exchangeableCovarianceEntry {n : ℕ}
     (variance rho : ℝ) (i j : Fin n) : ℝ :=
   if i = j then variance else variance * rho
 
+/-- The exchangeable covariance entry is symmetric in its two indices. -/
+theorem exchangeableCovarianceEntry_symmetric
+    {n : ℕ} (variance rho : ℝ) (i j : Fin n) :
+    exchangeableCovarianceEntry variance rho i j =
+      exchangeableCovarianceEntry variance rho j i := by
+  unfold exchangeableCovarianceEntry
+  by_cases h : i = j
+  · subst j
+    simp
+  · have h' : j ≠ i := fun hji => h hji.symm
+    simp [h, h']
+
 /-- Weighted quadratic form qᵀΣq for the explicit exchangeable covariance
 matrix with diagonal variance and common off-diagonal covariance variance*rho. -/
 def weightedExchangeableCovarianceQuadraticForm {n : ℕ}
@@ -421,11 +431,14 @@ theorem weightedExchangeableCovarianceQuadraticForm_nonneg
     (hvariance : 0 ≤ variance) (hrho0 : 0 ≤ rho) (hrho1 : rho ≤ 1) :
     0 ≤ weightedExchangeableCovarianceQuadraticForm q variance rho := by
   rw [weightedExchangeableCovarianceQuadraticForm_eq]
-  apply mul_nonneg hveriance
+  apply mul_nonneg hvariance
   apply add_nonneg
   · exact mul_nonneg hrho0 (sq_nonneg (weightTotal q))
   · exact mul_nonneg (by linarith) (Finset.sum_nonneg fun i hi => sq_nonneg (q i))
 
 #print axioms weightedExchangeableCorrelationQuadraticForm_eq
+#print axioms exchangeableCovarianceEntry_symmetric
 #print axioms weightedExchangeableCovarianceQuadraticForm_eq
 #print axioms weightedExchangeableCovarianceQuadraticForm_nonneg
+
+end HsHVerification.OrsonKishEffectiveSampleSize
