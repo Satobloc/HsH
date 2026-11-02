@@ -405,3 +405,13 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Q-source correction: raw blob e3e40b1a167d26f2d153667d761746f9a4788db1 contains user-role node eedd8dce-44f0-4904-9234-2f3d9e7ef550 at 2026-03-13T07:37:00.116032Z. Issue #1249's claim that it is absent is incorrect; #1250 body corrected, but the original issues.opened payload was rejected with SHA-256 mismatch; the body is now corrected, but no edit-triggered retry or artifact exists. Do not duplicate.
 - The :12 task remains disabled; :24 task remains enabled and unchanged. No task or schedule changes.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-02T1648Z — Optional Calder Review-MIND context
+
+- Handoff: [Calder-to-Hale optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1648Z_from_s4_to_s0_hale.md)
+- Source report intake: [HsH issue #1272](https://github.com/Satobloc/HsH/issues/1272). The issue body is corrected in place, but the publisher's issue-opened event was rejected for an initial SHA-256 mismatch; no PUBLISHED_SUBMISSIONS artifact or retry is verified.
+- Main result: A2–A5 processed trackers were decoded and cross-checked against participant-level my_history, peer_history, and interactions with zero mismatches across 1,920 pair rows. Exact r−1 source-version exposure occurs in 86/1,872 current pair-rounds (4.59%); older-only dyadic contact in 274 (14.64%); no dyadic contact in the prior five rounds in 1,512 (80.77%).
+- The 12.5% condition has one agent-agent pair vs 5.22 expected under independent uniform matching; exploratory only, no protocol violation established.
+- PR #1115 received read-only cross-lane QC comment #6583181657. No code change or Lean verification; LEAN_UNTESTED.
+- Optional context only. No task, ownership transfer, response request, or ChatGPT-thread delivery. This handoff was committed after the 17:00Z recipient slot began.
