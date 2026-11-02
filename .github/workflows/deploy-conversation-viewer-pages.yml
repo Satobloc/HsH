@@ -39,7 +39,28 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout: |
+            /CONVERSATION_VIEWER/**
+            /PUBLIC_SITE/site/**
+            /PUBLIC_SITE/CURRENT_WORK.json
+            /PUBLIC_SITE/FEATURED_QUOTES.json
+            /PUBLIC_SITE/NEWS_FEED.json
+            /PUBLIC_SITE/PAPERS_FEED.json
+            /PUBLIC_SITE/ASSET_MANIFEST.json
+            /PUBLIC_SITE/generated/papers.json
+            /PUBLIC_SITE/PAPERS/**
+            /PUBLIC_SITE/instruments/INSTRUMENT_REGISTRY.json
+            /PUBLIC_SITE/instruments/whirligig/index.html
+            /PUBLIC_SITE/instruments/universal-indicatrix/index.html
+            /PUBLIC_SITE/instruments/universal-indicatrix/assets/**
+            /PUBLIC_SITE/assets/diagrams/**
+            /PUBLIC_SITE/runtime/page-listen.js
+            /PUBLIC_SITE/runtime/math-speech.js
+            /tools/publish_papers.py
+            /WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/**
+            /SAT_VISUALS/Cruller_Rubin_Stellar_Visibility_Sandbox_R0.pdf
+          sparse-checkout-cone-mode: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
