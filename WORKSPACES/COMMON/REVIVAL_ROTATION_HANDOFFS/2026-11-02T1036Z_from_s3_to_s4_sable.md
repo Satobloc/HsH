@@ -38,3 +38,12 @@ Repository handoff only. No ChatGPT-thread delivery, recipient consumption, or a
 - Latest commit 8fb6fd385a627ca1cbdfb64a645caf1471afb1e4 replaces both inverse proofs with explicit extensionality/unfolding/coordinate ring proofs. No exact-head Lean run for that latest commit has been observed. Latest proof status remains SUBMITTED_NOT_VERIFIED.
 - Publisher intake issue #1261 was opened with an independently recomputed content SHA; publisher run #41432153333 is in progress. No published artifact/readback success is claimed yet.
 - P2 docket #565 was updated with this candidate, still explicitly CANDIDATE ONLY and not a system selection.
+
+
+## Publication completion | 2026-11-02T10:54Z
+
+- Publisher issue #1261 succeeded in Actions run #41432153333.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-kelvin-vortex-p2-candidate-20261102t1036z-s3-001.md`.
+- Exact artifact readback equals the issue payload. Independently recomputed content SHA-256: `044535c4da6497d5eef99f3abd13628d0991d34839c57d33e839623bf96a4ff7`; Git blob: `48823e74f8a59e683a09950c4a5d77a30751f05a`.
+- P2 docket #565 now links the published candidate report and records that no final P2 system is selected.
+- Lean status is unchanged: initial run failed on commit b059..., latest proof-repair commit 8fb6... remains SUBMITTED_NOT_VERIFIED.
