@@ -58,11 +58,13 @@ theorem relativeFrame_comp_apply
       relativeFrame F_i F_k x := by
   simp [relativeFrame]
 
-/-! The source treats rᵢ as a geometric radius and normalizes by it.
-The theorem below is an algebraic extension to signed, nonzero scalar radii;
-the positive-radius source case is made explicit in the following wrappers. -/
+/-! The historical manuscript uses rᵢ as a radius and normalizes by it, but
+does not write an explicit quantified positivity hypothesis. The algebraic
+composition theorem below is valid for signed, nonzero scalar parameters.
+The following positive-radius specialization makes the ordinary geometric
+interpretation explicit as an additional assumption, not a verbatim source axiom. -/
 
-/-- Positive geometric radii give a positive relative scale. -/
+/-- Explicit positive-radius assumptions imply a positive relative scale. -/
 theorem relativeScale_pos_of_positive_radii
     (r_i r_j : ℝ) (h_i : 0 < r_i) (h_j : 0 < r_j) :
     0 < relativeScale r_i r_j := by
@@ -77,7 +79,7 @@ theorem relativeScale_comp
   unfold relativeScale
   field_simp [h_i, h_j]
 
-/-- Source-faithful composition statement for positive geometric radii. -/
+/-- Positive-radius specialization of the algebraic scale-composition law. -/
 theorem relativeScale_comp_of_positive_radii
     (r_i r_j r_k : ℝ) (h_i : 0 < r_i) (h_j : 0 < r_j) :
     relativeScale r_j r_k * relativeScale r_i r_j =
@@ -99,7 +101,7 @@ theorem framedSimilarityMap_comp
   rw [map_smul, smul_smul, relativeFrame_comp_apply,
     relativeScale_comp r_i r_j r_k h_i h_j]
 
-/-- Source-faithful framed-sphere composition with positive radii explicit. -/
+/-- Positive-radius specialization of framed-sphere map composition. -/
 theorem framedSimilarityMap_comp_of_positive_radii
     (c_i c_j c_k : V) (r_i r_j r_k : ℝ)
     (F_i F_j F_k : V ≃ₗ[ℝ] V)
