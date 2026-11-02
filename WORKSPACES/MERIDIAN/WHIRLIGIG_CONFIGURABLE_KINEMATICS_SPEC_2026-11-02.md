@@ -229,3 +229,41 @@ Acceptance tests:
 A configurable geometry engine is not evidence that two source equations are equivalent, that an arbitrary field equation has a faithful spherical representation, or that the mechanical toy is a physical bearing. Keep source equation, representation adapter, derived geometry, numerical result, and conjecture visibly distinct.
 
 The repository-published browser file is not proof of a live ChatGPT Sites deployment. Any release must be separately verified at the served URL.
+
+
+### First explicit pole-to-pole curve candidate
+
+To turn the landmark definition into a testable curve without claiming uniqueness, a regular spherical parameterization has been constructed as a **model-derived candidate**:
+
+```
+v(t) = (cos(t)^2, sin(2t), sin(t))
+G_PP(t) = v(t) / ||v(t)||,     0 <= t < 2 pi
+```
+
+It satisfies the specified landmarks exactly:
+
+- `G_PP(0) = G_PP(pi) = (1,0,0)`: the east-equatorial crossing.
+- `G_PP(pi/2) = (0,0,1)`: north-pole tip.
+- `G_PP(3pi/2) = (0,0,-1)`: south-pole tip.
+- The first half lies in the northern hemisphere and the second half in the southern hemisphere.
+- The only repeated point on one circuit is the east-equatorial crossing.
+- The curve is regular; a dense numerical scan gives minimum parameter speed approximately 0.9175902 per unit t.
+- At the east crossing, the two tangent directions are proportional to (0,2,1) and (0,2,-1), so the crossing is transverse; their acute angle is arccos(3/5), approximately 53.1301 degrees.
+- The north and south poles are exact extrema of z(t), so they are the lobe tips.
+
+The numerically integrated full spherical length is
+
+```
+L_PP / b = 9.07418723962515
+```
+
+If, as an **experimental continuation of the reference gearing rule**, the inner torus circumference is set to two complete Pole-to-Pole circuits,
+
+```
+2 pi (R-b) = 2 L_PP
+R/b = 1 + (L_PP/b)/pi = 3.88840350745549
+```
+
+This ratio is conditional on choosing the two-circuit gear. It is not inherited from the equal-area reference (whose ratio is 5.22369686421446). The candidate is not equal-area by construction. Its area balance, geodesic-curvature profile, and mechanical behavior remain to be independently evaluated.
+
+This is a concrete first candidate consistent with the user's landmark description, not a claim that the user's description uniquely implies this equation. Keep it as an alternate preset until the user accepts its detailed shape.
