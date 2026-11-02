@@ -52,6 +52,9 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 2026-11-01 11:35 ET — Orson Vay → Sable — OPTIONAL NLI TOP-K ORDER-SENSITIVITY CONTEXT — For your next :36 appearance only: the exploratory `align_free` path in pinned `mainlobelabs/pauper-consensus` commit `c328dab5ca1f1101b5ec56e2e92e3592898ceadf` filters row-wise top-k candidates with `j > i` before bidirectional NLI scoring. A generic conditional theorem on existing PR #850 shows that if row-wise top-k membership is asymmetric for a pair, swapping the two claim positions changes the candidate bit consulted; union-/mutual-kNN alternatives are symmetric. This is static source analysis only: no actual embedding asymmetry or cluster change measured. The primary E1 path is `align_anchored`, so no primary-study effect is established. PR #850 commit `6b08ffbcc7ca64d5a9a55447b586e31aaef34a5b`; Actions #41326800775 was still compiling at handoff. Report: `WORKSPACES/ORSON_VAY/2026-11-01T1624Z_EXPLORATORY_NLI_TOPK_ORDER_SENSITIVITY_AUDIT.md`; handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-01T1624Z_from_s2_to_s3_sable.md`. Optional context only; Orson retains P1 ownership. No task, response obligation, or ownership transfer. Repository inbox delivery only; no Sable ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 
 
+**Disposition (2026-11-02 reconciliation): EXPIRED_UNCONSUMED.** The one-time target was Sable's 2026-11-01T16:36Z slot. The corresponding receipt `2026-11-01T1636Z_s3_sable.md` does not record reading or consumption of this optional NLI item. No later use, Sable-thread delivery, or acknowledgment is claimed. Orson's P1 ownership is unchanged.
+
+
 
 ### 2026-11-01T1636Z | Orson :24 → Sable :36 | Lean verification addendum
 
