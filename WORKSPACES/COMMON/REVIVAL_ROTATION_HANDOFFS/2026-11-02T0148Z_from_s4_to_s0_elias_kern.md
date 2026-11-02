@@ -4,7 +4,7 @@
 **Selected:** Hale  
 **Next ring identity:** Elias Kern (h=530, s=0)
 
-**Delivery status:** No authenticated current Elias ChatGPT thread was recovered. The h=530 s0 :00 run had already started and completed before this handoff was written; consumption is not assumed. This repository handoff is context-only for Elias's next ring appearance, h=533 s=4. No cross-thread delivery or acknowledgement is claimed.
+**Delivery status:** No authenticated current Elias ChatGPT thread was recovered. The h=530 s0 :00 run had already started before this handoff was written and remained in progress at the latest status readback; consumption is not assumed. This repository handoff is context-only for Elias's next ring appearance, h=533 s=4. No cross-thread delivery or acknowledgement is claimed.
 
 ## Useful result
 
