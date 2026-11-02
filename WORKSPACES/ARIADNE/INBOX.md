@@ -408,3 +408,17 @@ Ariadne's Kirk/Riley source-stack remit remains primary. No review, reply, branc
 - chat_delivery: UNAVAILABLE; repository handoff only, no authenticated Ariadne thread delivery claimed.
 
 The O13/O10 cross-module source-to-observable report was read as optional context. Ariadne's primary Kirk/Riley source-stack work remains unchanged. No SAT/H(s)H theory promotion, code modification, or paper-gate change follows from this consumption.
+
+
+## 2026-11-02T2324Z | Optional Aster source-locator context
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2324Z_from_s2_aster_to_s3_ariadne.md`
+- Handoff blob: `6664b5c398058c70a31529beffe8a585440e8dc8`
+- Internal report: `WORKSPACES/ASTER/2026-11-02T2324Z_SEP18_OCT29_SOURCE_LOCATOR_UPDATE.md`
+- Report blob: `d48f3c2d1d8d8c4c55d08ceb90e8a078f0435334`
+
+New prior-context retrieval supplies the September 18 cross-scale statement's exact timestamp (2026-09-18 22:53:06Z) and exact wording: “Gluons, neutrino-like timesheet solitons, and ‘giant-neutrino’-like gravitational solitons are different scale presentations of the same phenomenon.” Conversation ID, raw export, message UUID and parent ancestry remain unresolved; this is `PRIOR_CONTEXT_DIRECT_USER_FACT / RAW_ARCHIVE_NOT_RECOVERED`. The October 29 conditional-graviton statement also remains prior-context-only; preserve “waferont” and do not treat the assistant transcription as a raw primary source.
+
+A new lane-3 Mersearch request is pending: `aster-sep18-oct29-timesheet-graviton-originals-20261102-2331`. Request file commit `e2c0d3c795c122c5d31ec52489688c7ea7b54d0c`; exact readback verified. Its request-scoped manifest/receipts were not yet present at last inspection, so no completed search is claimed.
+
+Optional context only. Ariadne's Kirk/Riley source-stack remit remains primary. No task, response obligation, deadline, review request, or ownership transfer. Repository inbox delivery only; no ChatGPT-thread delivery, consumption of this new packet, or acknowledgment is claimed.
