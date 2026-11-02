@@ -7,6 +7,7 @@ Source basis:
 * Library bundle 2026-10-31_BS_txt_0007 contains KIRK_mind.txt,
   READY_ROOM.txt, and READY_ROOM_README.txt as named text sections.
 * Bundle 2026-10-31_BS_txt_0008 contains THE_WHOLE_READY.txt.
+* Bundle 2026-10-31_BS_txt_0009 contains a separately delimited `TOS_S1.txt` script-corpus section. Its embedded SHA-256 prefix `b8258f1fb476f2fd` was matched to full digest `b8258f1fb476f2fdc5548a1d9abc182d108006157dbd9fb2bd15dc954fd4d087` after removing one leading LF and three trailing LF bundle separators. A structural scan found 14,948 lines and 30 `STAR TREK` header occurrences; this is not a completeness, author, or creation-date claim. Character-label-shaped line starts are present, but they are script roles, not ChatGPT outer roles.
 * A byte-preserving Python replay recomputed the section SHA-256 values after
   removing exactly the three LF separator bytes used by the bundle format;
   the resulting full digests match the embedded 16-hex prefixes.
@@ -205,6 +206,24 @@ def wholeReadyV13 : ArtifactEvidence :=
     versionLabelPresent := true }
 
 /-- Library raw capture: title MARLOWE; archive path label is not its title. -/
+/-- Separately delimited script-corpus section. Digest and character labels are external audit inputs. -/
+def tosSeasonOneScripts : ArtifactEvidence :=
+  { displayName := "TOS_S1.txt"
+    metadataTitle := none
+    archivePathLabel := some "2026-10-31_BS_txt_0009.txt"
+    kind := .scriptCorpus
+    contentDigestComputed := true
+    embeddedDigestMatched := true
+    hasOuterRoleMetadata := false
+    hasCharacterDialogueLabels := true
+    hasConversationIdentity := false
+    hasMessageIdentifiers := false
+    hasTimestampMetadata := false
+    hasAuthenticatedAuthorIdentity := false
+    hasExplicitSupersession := false
+    hasProvenanceLink := true
+    versionLabelPresent := false }
+
 def marloweRawExport : ArtifactEvidence :=
   { displayName := "MARLOWE — raw.json"
     metadataTitle := some "MARLOWE"
@@ -280,6 +299,25 @@ theorem ready_room_section_not_author_attributed :
     ¬ supports readyRoomSection .authorAttribution := by
   simp [supports, readyRoomSection]
 
+theorem tos_s1_script_section_supports_character_labels :
+    supports tosSeasonOneScripts .characterSpeakerAttribution := by
+  rfl
+
+theorem tos_s1_script_section_supports_bundle_integrity :
+    supports tosSeasonOneScripts .bundleSectionIntegrity := by
+  rfl
+
+theorem tos_s1_script_section_not_outer_role_attributed :
+    ¬ supports tosSeasonOneScripts .outerRoleAttribution := by
+  exact non_role_tagged_artifact_cannot_support_outer_role_attribution
+    tosSeasonOneScripts (by decide)
+
+theorem tos_s1_script_section_not_author_attributed :
+    ¬ supports tosSeasonOneScripts .authorAttribution := by
+  intro h
+  have hKind : tosSeasonOneScripts.kind ≠ .rawRoleTaggedConversation := by decide
+  exact hKind h.1
+
 theorem marlowe_export_supports_outer_role_attribution :
     supports marloweRawExport .outerRoleAttribution := by
   simp [supports, marloweRawExport]
@@ -309,6 +347,10 @@ theorem readme_v121_not_canonical_version_authority :
 #eval supportsBool marloweRawExport .chronologyAttribution
 #eval supportsBool marloweRawExport .authorAttribution
 #eval supportsBool wholeReadyV13 .canonicalVersionAuthority
+#eval supportsBool tosSeasonOneScripts .characterSpeakerAttribution
+#eval supportsBool tosSeasonOneScripts .bundleSectionIntegrity
+#eval supportsBool tosSeasonOneScripts .outerRoleAttribution
+#eval supportsBool tosSeasonOneScripts .authorAttribution
 
 #print axioms supportsBool_correct
 #print axioms display_name_does_not_change_claim_eligibility
@@ -323,5 +365,9 @@ theorem readme_v121_not_canonical_version_authority :
 #print axioms marlowe_export_supports_message_chronology
 #print axioms marlowe_export_does_not_authenticate_author_name
 #print axioms whole_ready_v13_not_canonical_version_authority
+#print axioms tos_s1_script_section_supports_character_labels
+#print axioms tos_s1_script_section_supports_bundle_integrity
+#print axioms tos_s1_script_section_not_outer_role_attributed
+#print axioms tos_s1_script_section_not_author_attributed
 
 end HsHVerification.AriadneArtifactTypeGate
