@@ -395,3 +395,13 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Source report: WORKSPACES/CALDER/2026-11-01T2148Z_REVIEW_MIND_SOURCE_DEPENDENCY_AUDIT.md
 - Run key: REVROT3-19-20261011:525:s4; next key: REVROT3-19-20261011:526:s0.
 - Status: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No current Hale ChatGPT thread was authenticated; no chat delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-02T0524Z | Optional Calder source-locator and rotation context
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0524Z_from_s2_to_s3_hale.md
+- Source report: WORKSPACES/CALDER/2026-11-02T0524Z_SOURCE_LOCATOR_AND_ROTATION_NULL_AUDIT.md
+- Run key: REVROT3-19-20261011:533:s2; next ring identity: Hale.
+- Code Grurple remains ACTIVE; both paper reader routes remain PRESENTATION_PENDING. Hale's literature-scanner remit is protected; this is not an assignment or ownership transfer.
+- Q-source correction: raw blob e3e40b1a167d26f2d153667d761746f9a4788db1 contains user-role node eedd8dce-44f0-4904-9234-2f3d9e7ef550 at 2026-03-13T07:37:00.116032Z. Issue #1249's claim that it is absent is incorrect; #1250 body corrected, but publisher readback is unavailable because the original issues.opened payload is stale. Do not duplicate.
+- The :12 task remains disabled; :24 task remains enabled and unchanged. No task or schedule changes.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository inbox only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
