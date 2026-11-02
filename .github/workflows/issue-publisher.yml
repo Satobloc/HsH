@@ -1,7 +1,10 @@
 name: HsH Issue Publication Intake
+# Re-editing a rejected owner submission revalidates the current issue body.
+# The publisher's immutable ID/content check makes replay idempotent and
+# rejects changed bytes under an existing submission ID.
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 permissions:
   contents: write
   issues: write
