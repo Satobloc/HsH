@@ -221,8 +221,7 @@ theorem uniformWeightConcentration
     weightConcentration (fun _ : Fin k => 1/(k:ℝ)) = 1/(k:ℝ) := by
   classical
   simp [weightConcentration, Finset.sum_const, Finset.card_fin]
-  have hk0 : (k:ℝ) ≠ 0 := by exact_mod_cast (Nat.ne_of_gt hk)
-  field_simp [hk0]
+  <;> field_simp [show (k:ℝ) ≠ 0 by exact_mod_cast (Nat.ne_of_gt hk)]
   <;> ring
 
 /-- The finite-vector uniform-weight specialization reduces to Kish. -/
