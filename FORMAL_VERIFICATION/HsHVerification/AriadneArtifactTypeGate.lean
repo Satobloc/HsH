@@ -205,7 +205,6 @@ def wholeReadyV13 : ArtifactEvidence :=
     hasProvenanceLink := true
     versionLabelPresent := true }
 
-/-- Library raw capture: title MARLOWE; archive path label is not its title. -/
 /-- Separately delimited script-corpus section. Digest and character labels are external audit inputs. -/
 def tosSeasonOneScripts : ArtifactEvidence :=
   { displayName := "TOS_S1.txt"
@@ -224,6 +223,7 @@ def tosSeasonOneScripts : ArtifactEvidence :=
     hasProvenanceLink := true
     versionLabelPresent := false }
 
+/-- Library raw capture: title MARLOWE; archive path label is not its title. -/
 def marloweRawExport : ArtifactEvidence :=
   { displayName := "MARLOWE — raw.json"
     metadataTitle := some "MARLOWE"
