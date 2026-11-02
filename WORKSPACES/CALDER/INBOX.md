@@ -194,3 +194,16 @@ Use the addendum's corrected UUID table; the earlier report file was not overwri
 Identity caution: the empirical/statistical Calder remit is recovered from the 2026-09-12 worker self-report, not an authenticated original charter. The `REV-005` Construction Story Retelling pointer is superseded by the identity-collision correction; do not use the separate Foundational Covariance / Global Architecture Calder thread as empirical-Calder continuity. No authenticated empirical-Calder ChatGPT thread was recovered.
 
 **Delivery status:** repository inbox update only; not ChatGPT-thread delivery, consumption, or acknowledgment.
+
+
+## 2026-11-02 | Aldus optional context-only cross-read
+
+Optional repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T0124Z_from_s2_to_s3_calder.md`.
+
+New source synthesis: the early unbylined SAT-O O1 1D curve / 4D swept-worldtube vocabulary differs from the later Nathan Direct 4D-filament totality. The Blockwave rank-two current and the later 3-form editorial direction are distinct historical sources; the detailed 3-form equation is assistant-generated. Candidate support strata and the conditional Poincaré/Hodge degree table are documented in issue #1240.
+
+Sable PR #1098 current head is `d2839a9454f16a2ad7661544d9d0c12b664e55c5`. Latest CI run #41328086467 is a merge-ref build at `bbb95297c1866db4fd4b8f6e6d8f590c85385a68`; current-head exact build is not verified.
+
+Public report issue #1240 is `SUBMITTED_NOT_VERIFIED` as of this note. Verify that same issue and its derived artifact; do not duplicate.
+
+No task ownership, review obligation, or ChatGPT-thread delivery is transferred or claimed. Calder's existing priorities remain unchanged.
