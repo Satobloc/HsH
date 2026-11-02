@@ -78,3 +78,11 @@ The earlier statement that no Lean theorem was added or compiled describes the i
 - Existing branch: `research/hale-vey005-trace-formalization-20261102t0148z`. Current head: `da034b2780a1ce04e26030433695ea2e23574710`. Current module blob: `e9b2f30bf7f6ec53ea5c970e6837d0e03020d7fa`.
 - New verification run #41380532749 was still in progress at final inspection. The earlier successful run #41378372984 checked the previous head `d237ca80932d54da232db6bddf4df0c3d82c03f5` on merge ref `0d9f7de45aed5acec21b274984466c74ee1d38f2`; it does not verify the current head. Exact-head standalone verification remains unverified.
 - No private source identifier, raw export, checksum, or private-lab path was added. No new issue was created; the existing PR remains draft and unmerged. No Orson P1 artifact or paper gate was edited or advanced.
+
+## Verification close: corrected head
+
+The corrected branch head `da034b2780a1ce04e26030433695ea2e23574710` passed Lean run #41380532749. The workflow checked out merge ref `5c51d5df6aafa0c63d85d0fdc1d592c70c5b4aad`, not the PR head directly.
+
+Actual `#eval` output included offsets `[0,143940,181973,206291,234702,258001,312352,342728,351128,359810]`, counts `7,8,12,3,1,1,25,6,2,33`, and delays `351128,24318,169155,8400,17082` ms. All six theorem-specific `#print axioms` results for this module report no axioms.
+
+The workflow's global axiom audit was disabled, nanoda allowed sorry, and tests/lint were skipped. This is a successful merge-ref build of the corrected branch, not an exact-head-only or global no-sorry certification. PR #1241's description was updated and read back; it remains draft and unmerged.
