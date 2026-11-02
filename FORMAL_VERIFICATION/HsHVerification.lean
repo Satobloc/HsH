@@ -49,6 +49,7 @@ import HsHVerification.OrsonKishEffectiveSampleSize
 import HsHVerification.OrsonVEY021RecordedAncestry
 import HsHVerification.OrsonEvidenceCompositionLaw
 import HsHVerification.OrsonNLIClusterClosure
+import HsHVerification.OrsonIdentityChannelFactorial
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
