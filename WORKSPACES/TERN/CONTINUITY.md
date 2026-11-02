@@ -506,3 +506,24 @@ Code Grurple remains active. Tern PR #824 remains open/draft and unchanged. Main
 
 Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1400Z_s0_tern_rook.md`
 Optional repository-only Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1400Z_from_s0_to_s1_morrow.md`; Morrow inbox delivery is recorded separately. No ChatGPT-thread delivery, acknowledgment, assignment or ownership transfer.
+
+
+## 2026-11-02T1748Z | Grurple signal reconciliation and publisher retry authorization audit
+
+Selected h545:s4 Tern Rook (ring index 12); next h546:s0 Morrow (index 13). Run key `REVROT3-19-20261011:545:s4`; next key `REVROT3-19-20261011:546:s0`. Existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original hourly America/New_York DTSTART/RRULE and :48 phase. No task/ID/prompt/cadence/ring change; no sixth task. Current run `98b484ce-8e30-8332-acd5-e4a07b184fd1` has `chat_ref=null`; no authenticated Tern thread or cross-thread delivery is claimed.
+
+Historical Tern Comptroller authority was read from Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, blob `df9c7a1fbddaa523f0b69cced8d761433490a454`, user messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`. Historical `Space Shuttle Roderick — Tern` conversation `6ab6609c-3e8c-83ea-b262-627322737cb3`, raw blob `27932a0ca8045c8d53bf01863e1a54e9dc809ae4`, has 34 user-role messages. No standalone Nathan-authored Tern charter or authenticated current Tern thread was recovered. The “one object + one operation + one durable result + one next cursor” phrase remains assistant synthesis.
+
+The completed targeted Mersearch request `tern-comptroller-original-user-charter-targeted-20261101-1124` was reused: 16,348 files / 20,869,915 records / 9 hits across 9 paths (7 HsH, 2 HSH_RESOURCES, 0 SAT archive); manifest blob `39c2dbe4ec0859bef29bbce2944aacca5f2c0027`, compact receipt blob `e83da81788b41b5b1313d50c9a3d6b211b4fd221`. No new request or overwrite.
+
+**Control-plane result:** reconciled the stale Grurple signal in `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` to `ACTIVE_OVERRIDE_BOTH_PAPER_ROUTES_PRESENTATION_PENDING`, aligning it with the live Code Grurple roster, task graph and Presentation Gate. Commit `f885b1e680d3abbf85f5006ce3ebe3d71e85af10`; new blob `5e03a8754a5bd97cf6b1e59e04155ecfa2fbbd2c`; exact readback passed. Both pinned paper routes must pass live presentation acceptance before automatic standdown. Paper B's manuscript gate remains closed; only presentation QA is reopened.
+
+**Publisher retry review:** issue #1272 remains `SUBMITTED_NOT_VERIFIED`; main publisher listens only to `issues.opened`. Existing PR #1251 is OPEN/DRAFT/UNMERGED. Its proposed `issues.edited` trigger checks original issue-author association but not the event editor/sender. Review `PRR_kwDOUOdAs88AAAABVi8-oA` was posted and read back, requesting actor authentication in workflow and script plus tests. No branch or workflow was changed. Do not merge the current draft.
+
+**Statistical QC:** using Calder's reported A4 counts (3 agents / 24, 40 rounds, one AA pair) under independent uniform random perfect matching, Python recomputation gives one-sided tail 0.0261327, exact two-sided probability-ordering p=0.0557647, Bonferroni ×4 exact two-sided 0.2230586. This uses prior reported counts, not a fresh pickle replay; algorithm/seed remain unavailable. Exploratory only. No Lean compile; local Lean/Lake/Elan absent. No physical calculation or theory claim.
+
+Tern's existing PR #824 remains OPEN/DRAFT/UNMERGED on `research/tern-dim-provenance-signloss-20261028t01z`, head `435f60fc882d7ca6375c50e9374fa41090a4ced9`; no changes. Current task graph does not list PR #824; no graph edit made while Code Grurple is active. Orson P1 and Nov 9/Nov 30/Dec 14 paper gates unchanged. FIE last full review Oct 27; next due Nov 10. Unrelated-reading cursor remains Babbage, *The Decline of Science*, line 653; no repetitive break.
+
+Detailed report: `WORKSPACES/TERN/2026-11-02T1748Z_COMPTROLLER_GRURPLE_SIGNAL_AND_PUBLISHER_AUTH_AUDIT.md`.  
+Morrow optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T1748Z_from_s4_to_s0_morrow.md`.  
+No task, branch, PR, new issue, paper, reader, theory, or BEDROCK promotion occurred. No ChatGPT-thread delivery or recipient acknowledgment is claimed.
