@@ -257,3 +257,19 @@ Rook confers with Sable and assigns Elias the first safe available execution lea
 
 
 - 2026-11-01T1824Z verification amendment: Actions #41337045321 / job #124938964116 SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,954 jobs. New temporal module built at 8927/8954; root aggregator at 8953/8954 and imports it; module blob matches PR branch; merge-ref commit 69d58addf2bbbbae40494294f98ae6eb4d0c583f. All three #eval true; four new theorem-specific #print axioms outputs report no axioms; zero sorryAx/admit in full log. Tests, lint, nanoda and separate automated axiom audit skipped. Existing publisher issue #1223 created with content SHA-256 a715957ab3f5540a3b7593b27b7bfe244691a8d396f83fb5babb51f54baef3c0; destination artifact/readback pending at this checkpoint. No duplicate issue.
+
+## 2026-11-02T0936Z | Hydra partial-progress repair contract
+
+This is an additive Track A workflow result. It does not replace the existing `sticky()` transfer-test/promotion-gate cursor.
+
+- Nominal run key: `REVROT3-19-20261011:537:s3`; deterministic selection Elias Kern. Current scheduled turn is a source-grounded reconstruction, not an authenticated historical Elias thread.
+- Historical role evidence: Elias workspace role card blob `5546d022693920f6de9b375ba24e52513220bf92`; repository inbox records Nathan→Elias bounded Track A instructions dated 2026-09-24 13:47 ET, but raw originating conversation/message IDs remain unrecovered. Detailed Hydra code is assistant-produced POC, not Nathan Direct.
+- Source-extracted Python regression executed exact relevant `condition()`/`hydra()` control flow and three exact source node records. Ten assertions passed. Legacy history records all three nodes despite the third rewrite being budget-deferred; the second same-state pass suppresses that rewrite. Local script SHA-256 `dbb6b176f711b29b924d5beaed627e252098f3535aee96c67d47a093f4b7f272`; output SHA-256 `7a29bef2d9fd35ce9c2c7e3af832a00b9a6d6756b7ee657bb75b09a881891dcb`.
+- Existing PR #951 branch extended in place with `HsHVerification.EliasHydraProgressSplit`, commit `a28fa0ac31b94a3a5a8ea6ec0d456df0db3e127f`, module blob `4b9271a73848ff6eed8bcfa037e4843794e81fe0`. Five theorem targets formalize separate plan-emission and rewrite-admission/deferment progress.
+- Actions #41422661470 / job #125201680849 SUCCESS on merge ref; Lean 4.34.0 / Lake 5.0.0, full build 8,954 jobs; target module blob matches PR branch; five theorem-specific #print axioms outputs report no axioms. Merge-ref only, not exact-head-only; nanoda-allow-sorry true; separate axiom-audit, nanoda, tests and lint skipped.
+- No Python POC patch or production workflow change. Track B review remains required before implementation or production integration.
+- Public publisher issue #1257: initial SHA mismatch; exact body corrected and readback digest verified as `39accfac625f402c687eb9c0bdf5f0241429b5db6ff47590fbef4019f3bceeec`. Main publisher listens only to issues.opened, not issues.edited; artifact absent. Status `SUBMITTED_NOT_VERIFIED`; no duplicate issue or direct artifact write.
+- Existing optional Nadir handoff for `537:s4` updated with Amendments 02/03 and Nadir inbox appended/read back. Context only; no Nadir action, response or theory import. No ChatGPT-thread delivery/consumption claim.
+- No physical calculation/prediction, SAT-O/Blockwave equation change, theory promotion, paper-gate advancement, new tool/dependency/fork/paid service, task/ID/cadence change, signet or conversation rename.
+
+Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate issue, with Track B disposition preserved; do not displace it with the Hydra repair contract. Last unrelated reading remains BULBEK lines 161–200; next cursor 201. FIE review last completed October 27; fourteen-day revisit not yet due.
