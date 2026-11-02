@@ -1,4 +1,4 @@
-# Aster :00 | 2024 string-pluck geometry ↔ later SAT-O D2 dispersion
+# Aster :00 | 2024 string-pluck geometry ↔ SAT-O D2 archive artifact
 
 **Run:** REVROT3-19-20261011:540:s0  
 **Selection:** Aster, ring index 2; next ring identity Ariadne, index 3. This is a source-grounded scheduled revival, not authenticated historical Aster participation.  
@@ -61,9 +61,9 @@ The 2024 construction contains two distinct objects that must not be collapsed.
 
 The ordinary physical-string toy is not itself a SAT filament. The SAT string is explicitly distinguished from a fundamental string-theory string in turn 73. The source does not supply a typed map from either toy string or string-theory string to a SAT object.
 
-## 4. Later SAT-O D2 artifact: exact historical equations, separate correction
+## 4. SAT-O D2 archive artifact (file date unresolved): exact historical equations, separate correction
 
-The later SAT-O source is not part of the 2024 direct conversation and must not be retroactively attributed to it.
+The SAT-O D2 archive artifact is not part of the 2024 direct conversation and must not be retroactively attributed to it.
 
 Repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25  
 Primary combined artifact: SAT O Derivations/CODE-LOCKED DERIVS.txt  
@@ -71,7 +71,7 @@ Blob: 783b05d39d59bf854b92090e15d205e6823b51c8
 Standalone D2 file: SAT O Derivations/SAT_D2_MODE_EXPANSION.txt  
 Blob: 6844c72027e9569e4f8da3a85a24434e0ad080cf  
 
-**Date/provenance correction:** No path-level first-extant commit date for either D2 artifact was recovered in this pass. The existing Orson EQ-0005 report #293 attributes the combined CODE-LOCKED file to commit d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc and 2025-10-27T01:15:21Z, but this audit could not verify that path-to-commit association. The fetched d3f5 commit exposes a 336-line SAT-O buildout diff without a path-level file list; it does not establish that either D2 file was created in that commit. Do not use 2025-10-27 as the D2 source date. Both file dates remain UNKNOWN pending actual path history. No raw message-level author-role source for the D2 equations was recovered. Classify them HISTORICAL_ARCHIVE_MATHEMATICS / AUTHORSHIP_UNRESOLVED, not Nathan Direct.
+**Date/provenance correction:** No path-level first-extant commit date for either D2 artifact was recovered in this pass. The existing Orson EQ-0005 report #293 attributes the combined CODE-LOCKED file to commit d3f5fa0223f66a2d2b74c2beca7c6b262b616bdc and 2025-10-27T01:15:21Z, but this audit could not verify that path-to-commit association. The fetched d3f5 commit exposes a 336-line SAT-O buildout diff without a path-level file list; it does not establish that either D2 file was created in that commit. Do not use 2025-10-27 as the D2 source date. Both file dates remain UNKNOWN pending actual path history. The full kernel/eigenvalue/dispersion block below is transcribed from the standalone D2 file blob 6844c72027e9569e4f8da3a85a24434e0ad080cf; the combined CODE-LOCKED DERIVS file contains a shorter D2 summary. No raw message-level author-role source for the D2 equations was recovered. Classify them HISTORICAL_ARCHIVE_MATHEMATICS / AUTHORSHIP_UNRESOLVED, not Nathan Direct.
 
 Verbatim historical D2 equations:
 
@@ -139,7 +139,7 @@ The historical EQ-0005 report also contains declared numerical test inputs. They
 
 1. Ordinary 3D string toy: finite string segments S_i → central knot/junction K → spherical attachment boundary B → pluck/traveling waves → contact/junction transfer (not specified).
 2. Historical 2024 SAT visualization: 4D filaments F_i → composite threads/twines/yarns/bundles/ropes → 3D time-surface section Sigma_t → observed intersection/readout → proposed cross-temporal interaction.
-3. Later 2025 SAT-O D2: single material filament xi(lambda) → uniform-tension operator K → periodic S^1 eigenmodes → linear dispersion omega(k).
+3. SAT-O D2 archive artifact (file date unresolved): single material filament xi(lambda) → uniform-tension operator K → periodic S^1 eigenmodes → linear dispersion omega(k).
 4. Current 2026 H(s)H terminology: finite-core physical worldtube W_i → timesheet/wavesheet relation → responsive-medium/vortex distinctions → observable/readout maps (still conditional).
 
 Required maps not supplied by these sources:
@@ -160,7 +160,7 @@ A shape or hierarchy analogy does not supply these maps. Their domains, codomain
 | More future-side tangling might bias transfer toward the past. | Assistant first says complex network has no preferred direction, then later agrees that increased future tangling yields net pastward transfer. | Unsupported sign change. No transfer law or stated changed boundary condition justifies the switch. |
 | High-energy events may affect other matter with past/future interaction history. | Assistant treats temporal memory as plausible. | Direct proposal; no interaction kernel or observable law supplied. |
 | Complexity arises from interactions among four-dimensional structures; time-surface intersection is the 3D manifestation. | Assistant summaries sometimes compress this into “time surface creates particles/complexity.” | Preserve the direct distinction: intersection is readout/manifestation, not the cause of the internal complexity. |
-| SAT strings differ from string-theory strings. | Later D2 uses a uniform-tension material-string model. | No equivalence established; D2 is a standard mechanical model, not string theory and not automatically SAT worldtube dynamics. |
+| SAT strings differ from string-theory strings. | D2 uses a uniform-tension material-string model. | No equivalence established; D2 is a standard mechanical model, not string theory and not automatically SAT worldtube dynamics. |
 | Current H(s)H uses finite-core worldtubes/Kerr-associated worldtubes. | Historical files retain “filament” and “string.” | Preserve original wording in quotations; translate to current terminology only with an explicit typed map. |
 
 ## 7. Discrepancy ledger
@@ -170,14 +170,14 @@ A shape or hierarchy analogy does not supply these maps. Their domains, codomain
 - **D15 — Missing interaction law:** D2 is a single-filament local tension operator; it contains no off-diagonal interfilament kernel or junction scattering coefficients.
 - **D16 — Unsupported temporal asymmetry:** assistant changes from “no directional bias” to net pastward transfer without specifying a transfer operator, impedance, reflection/transmission rule, boundary condition, or conservation account.
 - **D17 — Cosmological response gap:** no map takes past-directed energy transfer to an expansion/metric response.
-- **D18 — Source authorship gap:** D2 is a 2025 repository artifact with commit metadata, not a recovered Nathan Direct message. The exact originating raw conversation remains unresolved.
+- **D18 — Source authorship/date gap:** D2 is a repository artifact with unresolved first-extant file date and no recovered originating raw message; it is not a recovered Nathan Direct equation.
 - **D19 — Formalization scope:** generated EQ-0003 proves only an algebraic rearrangement conditional on the dispersion relation; it does not derive the relation or compile in a verified build.
 
 ## 8. Lean, empirical and epistemic disposition
 
 No new Lean module was created. A faithful theorem about cross-temporal energy transfer cannot yet be stated because the source does not define the network state, contact law, temporal-support kernel, energy functional, junction boundary conditions or readout map. The stipulated symmetric midpoint split is a conditional assumption, not a nontrivial physical theorem requiring a new module.
 
-No physical calculation, numerical fixture, CODATA scoring, fitted parameter, measured-system comparison or independent observation was performed. The 2024 toy model is exploratory; the later D2 artifact (source date unresolved) is historical archive mathematics; the Orson action/energy law is a standard-string reconstruction; the 2026 worldtube vocabulary is a current project control. None validates cross-temporal gravity or cosmological expansion.
+No physical calculation, numerical fixture, CODATA scoring, fitted parameter, measured-system comparison or independent observation was performed. The 2024 toy model is exploratory; the SAT-O D2 archive artifact (file date unresolved) is historical archive mathematics; the Orson action/energy law is a standard-string reconstruction; the 2026 worldtube vocabulary is a current project control. None validates cross-temporal gravity or cosmological expansion.
 
 ## 9. NAV_PREFLIGHT
 
