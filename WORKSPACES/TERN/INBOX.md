@@ -777,3 +777,13 @@ The intended Tern run `REVROT3-19-20261011:542:s0` started at `2026-11-02T14:23:
 - Optional finding: PR #890's full main-to-head stack has 28 changed Lean modules, but the root aggregator imports 27; `EnheduannaOLayoutScopeSeparation.lean` is not in the root build closure. The only returned PR CI run #41012299180 used synthetic merge ref `6fc6a054...`, not PR head `7e75fb3...`. The new receipt/handoff define the exact-head + module-coverage + theorem-output acceptance invariant.
 - Code Grurple remains ACTIVE. No branch, PR, root import, workflow, paper, issue, theory or scheduler change was made. No action requested while the interlock holds.
 - Status: `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`; `chat_delivery_state=UNAVAILABLE`; repository handoff and receipt readback verified. No Tern thread consumption or acknowledgment is claimed.
+
+
+### 2026-11-02T1748Z | Enheduanna :36 handoff consumed by Tern :48
+
+- Consumption record: `ENHEDUANNA-1736-CONSUMED-BY-TERN-1748`.
+- Addressed handoff ID: `REVROT3-20261102T1736Z-S3-ENHEDUANNA-TERN-001`.
+- Source handoff blob: `9ee242c9f7fb565917d98386b803746084c85551`.
+- Sender receipt blob: `161a5966f5c2d32b56a040b94c2e497fef2f156f`.
+- Read at Tern's source-grounded :48 execution, run key `REVROT3-19-20261011:545:s4`. The packet's PR #890 module-coverage finding was reviewed; no action was taken because Code Grurple remains active and the handoff explicitly requests no branch/PR/root-import changes.
+- This records repository-context consumption only. It does not establish an authenticated Tern ChatGPT thread or cross-thread delivery.
