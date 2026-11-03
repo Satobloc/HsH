@@ -143,3 +143,18 @@ A separate Python replay over the 1,363-message current-node chain independently
 | Riley | 58 | 7 | 51 | 0 |
 
 These are lexical mention counts in exported message text, not counts of primary sources or direct statements. In this raw Ariadne export, neither name occurs in any user-role message. The mentions are confined to assistant/tool messages. Consequently this export is evidence of LLM/tool-side discussion about Kirk/Riley, not Nathan Direct evidence that he introduced or endorsed those names or claims. The separate January 22 Mersearch zero-hit result remains bounded and does not establish global absence.
+
+
+## Addendum 02 — exact-head Lean run completed
+
+The current PR-head workflow completed after the initial report was written:
+
+- Actions run: #41572878165, workflow `Lean 4 verification`, run #939 — **SUCCESS**.
+- Exact PR head and checked-out commit both equal `ba0b66f83a7592cb9eba601e65b81f36cc1077c3`.
+- Lean 4.34.0; Lake 5.0.0.
+- Full library build: **8,949 jobs, successful**.
+- All three new timestamp-ordering theorems in `AriadneArchiveWitness.lean` compiled.
+- Their actual `#print axioms` outputs each say **does not depend on any axioms**.
+- No `sorryAx` text appears in the captured build log. However `nanoda=false`, `nanoda-allow-sorry=true`, `axiom-audit=false`, `test=false`, and `lint=false`; therefore this is not a global no-sorry, no-axiom, test or lint certification.
+
+The PR remains OPEN / DRAFT / UNMERGED. Its combined Vercel status is FAILURE on both the preceding head `426f1977a44c03139d4ac2fe9ca28d67ac37d634` and current head `ba0b66f83a7592cb9eba601e65b81f36cc1077c3`; the failure is not isolated to the chronology commit, and its cause was not inspected. The PR description itself remains stale and still names the earlier head `f84da2126d20dab90140998e3d9680348f077305` and earlier run #41369669158. No PR merge, retarget or description rewrite was performed.
