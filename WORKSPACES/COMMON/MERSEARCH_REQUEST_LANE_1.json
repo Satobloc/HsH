@@ -1,0 +1,25 @@
+{
+  "request_id": "june-2025-big-paper-interpretive-modes-20261103-1200",
+  "requester": "Current assistant / source-first retrieval for Nathan Direct methodological clarification",
+  "requested_at": "2026-11-03T17:00:00Z",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "query": "(author:user AND ((\"interpretive mode\" NEAR/12 (block OR \"solidification front\" OR \"semi-dynamic\")) OR (\"block universe\" NEAR/12 methodological) OR (\"True Block\" NEAR/12 (Mode OR interpretive)))) OR ((path:*BIG*PAPER* OR path:*INTERPRETIVE* OR path:*SAT.O0*) AND ((\"True Block\" OR \"Semi-Dynamic Block\" OR \"Solidification Front\") OR (\"interpretive mode\" AND (methodological OR block))))",
+  "purpose": "Retrieve the June 2025 original SAT Big Paper and its existing canonical text extraction, including the original discussion of interpretive modes and the methodological meaning of True Block. Also locate SAT.O0-A / Interpretive Modes primary source context and direct Nathan-origin passages clarifying that true block is methodological rather than a necessary ontological commitment. This is a bounded source-recovery request, not a reconstruction or theory adjudication.",
+  "preferred_outputs": [
+    "exact original PDF path/blob and SHA256",
+    "paired extracted-text path/blob and source PDF SHA256",
+    "relevant exact page/section/line locators on interpretive modes",
+    "Nathan Direct raw-source passages with message/context locators",
+    "three-repository coverage and search limitations"
+  ],
+  "exclusions": [
+    "Do not publish raw excerpts or private HSH_RESOURCES paths/content",
+    "Preserve QUARANTINE and PRIOR_ART exclusions",
+    "No geometric or physical calculation, no data-free calculation, no synthetic fixtures",
+    "No new tooling, public paper, theory integration, BEDROCK edit, or status promotion"
+  ]
+}
