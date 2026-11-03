@@ -29,6 +29,7 @@ import HsHVerification.AldusO9AuditIdentity
 import HsHVerification.AldusO9ClaimGranularity
 import HsHVerification.AldusO9ExtractionChronology
 import HsHVerification.AldusCGDProvenanceFields
+import HsHVerification.AldusBlockwaveIdealSign
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
