@@ -32,7 +32,7 @@ Relevant Nathan-authored user messages:
 - 2026-09-13 10:02:46Z, message 5590d70d-6525-42aa-9de8-5a7022b189f7: the objective is an accurate record of extant SAT, not persuasion.
 - 2026-09-13 10:29:44Z, message 4fb7a5be-a32d-43c0-b1a2-2c4787423b52: preserve citation lineage, timeline, glossary and jargon crosswalk.
 
-The latest Ravel receipt and Mercer handoff were read. Main head at pre-write inspection: 5518473c0f7e4f4e8d1d3f9a8c2b6e5f4a3d2c1b. The task-branch graph is last updated 2026-10-30 and does not yet enumerate the current Ravel M87 PR; it was not modified. The Ravel running co-theorist log is the designated visibility surface for significant sandbox developments. The old STATE.md is not treated as the current branch authority.
+The latest Ravel receipt and Mercer handoff were read. Main head at pre-write inspection: 5518473c1ffbf68cb9dc454af6ea22f9e5c6f227. The task-branch graph is last updated 2026-10-30 and does not yet enumerate the current Ravel M87 PR; it was not modified. The Ravel running co-theorist log is the designated visibility surface for significant sandbox developments. The old STATE.md is not treated as the current branch authority.
 
 ## 2. Mersearch queue postcheck
 
