@@ -94,6 +94,7 @@ Do not equate `role=user` with sole Nathan authorship when a message contains em
 
 ## Record / auditability rules
 
+- `FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md` — mandatory geometry-first admission rule: precise quaternary plot, independent hostile fidelity review, embedded display, and separate primary/secondary/tertiary/quaternary/pentary representation levels.
 - `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — repository-first record rule.
 - `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — standard route for substantial repo-wide/cross-lane initiatives.
 - `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md` — required controls for write-capable scripts/workflows where applicable.
