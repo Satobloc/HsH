@@ -353,3 +353,17 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Existing issue #1297 received a read-back-verified status correction; no duplicate publisher artifact was created.
 - Unrelated reading: BULBEK.txt lines 241–280; next cursor 281. FIE review remains due November 10.
 - Next cursor: inspect run #41580757558 and full logs; if successful, check all new theorem-specific axiom outputs for sorryAx, then preserve the independent translation-review and empirical-data blockers. Do not merge PR #951.
+
+
+## 2026-11-03T0436Z | typed build-outcome witness gate — verification closure
+
+- The pending CI cursor is closed. The initial corrected attempt #41580757558 failed because the simp set did not unfold `ravelBuildRunArtifact` at line 457. Existing-branch commit `8ad21c2638a9f8f4a675aa07ebb2c70fcafbe2cd` added that definition to the simp set; this scheduled verification run did not author the code commit.
+- Actions #41581373430 / job #125736755725 completed SUCCESS on merge ref `226b698b9ba4ed551b19edb1cfd496edd1949d31`. Lean 4.34.0 / Lake 5.0.0; full library build 8,955 jobs. Target module blob `938044dc22287c0c953ee59ecf743322c9e5b80d` matches at PR head and merge ref.
+- All 15 theorem-specific `#print axioms` outputs inspected. Dependencies are limited to `propext`, `Classical.choice`, `Quot.sound`; zero `sorryAx` and zero bare `admit` in full log. Existing `#eval` outputs remain true/true/false for Ravel source-content / source-formal-trace / independent-translation-review witness.
+- This is a merge-ref build, not an exact-head standalone build. Tests, lint, nanoda and separate automated axiom audit skipped. Lean checks the encoded workflow predicates, not GitHub authenticity or source-to-formal translation.
+- The M87 target-blob-match / failed-build record remains rejected by the gate. The P2 worldtube branch is still blocked on its source-grounded geometry-to-EM/Stokes/Faraday map and calibrated raw data with uncertainties. No physical calculation or H(s)H prediction.
+- Report updated in place with verification amendment; receipt amended. Publisher issue #1298 submitted; artifact readback pending at the time of this checkpoint. Do not resubmit.
+- No Python Threading POC change, production integration, PR merge, theory promotion, paper-gate advancement, task graph mutation, task/ID/cadence change, new tool or dependency.
+- FIE last full review October 27; next due November 10. Unrelated reading cursor remains BULBEK.txt lines 241–280, next 281.
+
+**Next cursor:** verify publisher issue #1298's comment, fixed-destination artifact and exact SHA-256; then record the receipt. The next substantive Track A step is a source-backed typed projection from Python `OutputReceipt` metadata into the four evidence axes, followed by a sandbox-only gate consumer and genuinely independent Track B review. Build-witness structured GitHub run/job/repository/PR/event identifiers are also still desirable; do not conflate this with the four-axis mapping.
