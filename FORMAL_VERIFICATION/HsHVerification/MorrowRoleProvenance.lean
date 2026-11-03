@@ -260,7 +260,7 @@ theorem morrow_role_sequence_parent_edges :
     ParentEdge teamArchivistAssistantStep2 teamArchivistAssistantStep1 ∧
     ParentEdge teamArchivistAssistantStep3 teamArchivistAssistantStep2 ∧
     ParentEdge teamArchivistActionPlan teamArchivistAssistantStep3 := by
-  constructor <;> rfl
+  repeat' constructor <;> rfl
 
 theorem duplicate_thread_parent_edges :
     ParentEdge duplicateAssistantStep1 duplicateRoleClarification ∧
@@ -268,7 +268,7 @@ theorem duplicate_thread_parent_edges :
     ParentEdge duplicateAssistantStep3 duplicateAssistantStep2 ∧
     ParentEdge duplicateAssistantStep4 duplicateAssistantStep3 ∧
     ParentEdge duplicateThreadTerminalError duplicateAssistantStep4 := by
-  constructor <;> rfl
+  repeat' constructor <;> rfl
 
 theorem morrow_role_sequence_time_is_strictly_increasing :
     roleClarification.timestampMicros < morrowAssistantStep1.timestampMicros ∧
@@ -312,3 +312,154 @@ theorem action_plan_is_104021624_microseconds_after_assignment :
 #print axioms action_plan_is_104021624_microseconds_after_assignment
 
 end HsHVerification.MorrowRoleProvenance
+
+
+/-!
+# Aster September 18 branch-adjacency witness
+
+Source: HsH conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`,
+raw JSON Git blob `595844702e10bec34a4887173914adc6dffbae73`.
+
+The raw export records `author.name = null` for these nodes. The role
+field is preserved as archive metadata; this module does not authenticate
+a human speaker or the authenticity/completeness of the export.
+
+The theorem establishes only the recorded parent path: a direct user-role
+statement, two empty assistant nodes, a substantive assistant descendant,
+then a user-role follow-up. It does not prove causal influence, endorsement,
+consciousness, or the truth of the assistant's interpretation.
+-/
+
+namespace HsHVerification.AsterSept18BranchAncestry
+
+open HsHVerification.MorrowRoleProvenance
+
+def sourceConversationId : String :=
+  "6ab006ce-e358-83ea-b3dd-7b23a26c00fa"
+
+def sourceBlobSha : String :=
+  "595844702e10bec34a4887173914adc6dffbae73"
+
+def directStatement : ArchivedNode where
+  conversationId := sourceConversationId
+  id := "a6351349-02fa-4fd8-be46-8c1712865504"
+  parentId := some "88c6c480-5394-42ab-98d0-1381e180a85d"
+  speaker := .user
+  timestampMicros := 1789771986726006
+  contentCodeUnits := 148
+  status := "finished_successfully"
+  errorCode := none
+
+def emptyAssistant1 : ArchivedNode where
+  conversationId := sourceConversationId
+  id := "41454bdb-01ed-40bb-8b2f-4419036bb11d"
+  parentId := some directStatement.id
+  speaker := .assistant
+  timestampMicros := 1789771988408864
+  contentCodeUnits := 0
+  status := "finished_successfully"
+  errorCode := none
+
+def emptyAssistant2 : ArchivedNode where
+  conversationId := sourceConversationId
+  id := "396f26ff-ec77-4382-8a29-aa133c8c5f6d"
+  parentId := some emptyAssistant1.id
+  speaker := .assistant
+  timestampMicros := 1789771990470552
+  contentCodeUnits := 0
+  status := "finished_successfully"
+  errorCode := none
+
+def substantiveAssistant : ArchivedNode where
+  conversationId := sourceConversationId
+  id := "e327d9b7-8ee9-401a-9b40-d4f8119dc08d"
+  parentId := some emptyAssistant2.id
+  speaker := .assistant
+  timestampMicros := 1789771990511042
+  contentCodeUnits := 2129
+  status := "finished_successfully"
+  errorCode := none
+
+def userFollowup : ArchivedNode where
+  conversationId := sourceConversationId
+  id := "8695cf87-4875-4c05-aea0-077c22aaf1e7"
+  parentId := some substantiveAssistant.id
+  speaker := .user
+  timestampMicros := 1789772071724716
+  contentCodeUnits := 146
+  status := "finished_successfully"
+  errorCode := none
+
+inductive ParentPath : ArchivedNode → ArchivedNode → Prop
+  | edge {child parent : ArchivedNode}
+      (h : ParentEdge child parent) : ParentPath child parent
+  | extend {child middle ancestor : ArchivedNode}
+      (h₁ : ParentPath child middle)
+      (h₂ : ParentEdge middle ancestor) : ParentPath child ancestor
+
+theorem direct_statement_is_user_role :
+    directStatement.speaker = .user := rfl
+
+theorem immediate_child_is_empty_assistant :
+    ParentEdge emptyAssistant1 directStatement ∧
+    emptyAssistant1.speaker = .assistant ∧
+    emptyAssistant1.contentCodeUnits = 0 := by
+  repeat' constructor <;> rfl
+
+theorem second_assistant_node_is_empty :
+    ParentEdge emptyAssistant2 emptyAssistant1 ∧
+    emptyAssistant2.speaker = .assistant ∧
+    emptyAssistant2.contentCodeUnits = 0 := by
+  repeat' constructor <;> rfl
+
+theorem substantive_assistant_is_three_edges_downstream :
+    ParentPath substantiveAssistant directStatement := by
+  exact ParentPath.extend
+    (ParentPath.extend
+      (ParentPath.edge
+        (show ParentEdge substantiveAssistant emptyAssistant2 by rfl))
+      (show ParentEdge emptyAssistant2 emptyAssistant1 by rfl))
+    (show ParentEdge emptyAssistant1 directStatement by rfl)
+
+theorem substantive_assistant_is_not_immediate_child :
+    ¬ ParentEdge substantiveAssistant directStatement := by
+  decide
+
+theorem substantive_assistant_is_nonempty :
+    substantiveAssistant.contentCodeUnits > 0 := by
+  decide
+
+theorem user_followup_is_child_of_substantive_assistant :
+    ParentEdge userFollowup substantiveAssistant ∧
+    userFollowup.speaker = .user := by
+  repeat' constructor <;> rfl
+
+theorem recorded_timestamps_strictly_increase :
+    directStatement.timestampMicros < emptyAssistant1.timestampMicros ∧
+    emptyAssistant1.timestampMicros < emptyAssistant2.timestampMicros ∧
+    emptyAssistant2.timestampMicros < substantiveAssistant.timestampMicros ∧
+    substantiveAssistant.timestampMicros < userFollowup.timestampMicros := by
+  decide
+
+theorem substantive_reply_is_3785036_microseconds_after_direct :
+    substantiveAssistant.timestampMicros =
+      directStatement.timestampMicros + 3785036 := by
+  decide
+
+theorem followup_is_81213674_microseconds_after_substantive :
+    userFollowup.timestampMicros =
+      substantiveAssistant.timestampMicros + 81213674 := by
+  decide
+
+#print axioms direct_statement_is_user_role
+#print axioms immediate_child_is_empty_assistant
+#print axioms second_assistant_node_is_empty
+#print axioms substantive_assistant_is_three_edges_downstream
+#print axioms substantive_assistant_is_not_immediate_child
+#print axioms substantive_assistant_is_nonempty
+#print axioms user_followup_is_child_of_substantive_assistant
+#print axioms recorded_timestamps_strictly_increase
+#print axioms substantive_reply_is_3785036_microseconds_after_direct
+#print axioms followup_is_81213674_microseconds_after_substantive
+
+end HsHVerification.AsterSept18BranchAncestry
