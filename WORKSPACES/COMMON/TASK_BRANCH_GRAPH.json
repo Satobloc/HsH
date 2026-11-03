@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-03T04:35:48.360Z",
+  "updated": "2026-11-03T10:59:18.819Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -487,7 +487,7 @@
       "status": "blocked",
       "parent": "P2-REAL-SYSTEM-GEOMETRY-2026-11-30",
       "children": [],
-      "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 Eq. 21; Nathan Direct geometry sources dated 2026-10-09 and 2026-10-21",
+      "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 A&A 704 A91 Eq.21 is an outside comparator. Raw user-role geometry sources: Meridian Free Build, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827 (2026-10-09 messages 3c657387, 5a929b5e, 1178f25c); Meridian Minkowski Ring Analysis, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703 (2026-10-20/21 messages 69e7e8b1, c1b42229, f658b2db, 090f5160, 47cf2603, c5525f53). Historical Ravel Syncmathcek precursor: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f (2026-09-07).",
       "intent": "Formalize the finite-pixel polarization-mode response to a uniform EVPA rotation; use published M87* polarimetric measurements to define an outside comparator and expose the missing H(s)H geometry-to-Stokes map.",
       "repository": "Satobloc/HsH",
       "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; published artifact issue #1297 (verified)",
@@ -504,28 +504,29 @@
         "GRMHD, synchrotron radiative transfer and spatially structured Faraday-screen comparator"
       ],
       "blockers": [
-        "PR #1296 has a Vercel deployment check in FAILURE; there is no Lean build/status check. Formalization remains LEAN_NOT_RUN. The Vercel failure is not Lean verification.",
-        "No source-grounded H(s)H geometry-to-EM/Stokes/Faraday forward map is specified.",
-        "No raw UVFITS data were downloaded or re-imaged; current interval arithmetic uses published method-ensemble ranges."
+        "Lean workflow #41576591587/job #125721400743 FAILED after checking out synthetic PR merge ref 856a117fd57e19880b58b763db20403c996025bf (PR head a673f1a38f9bacae42fe5e31807192cd64f2857a, recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92). The target module blob is identical at head and merge ref, but the build is not an exact-head run; the same base ref has advanced to 61cc8b65ffed70296e0121dbae067892a79c81d4 on PR #873. Errors: noncomputable complex division in modeCoefficient, unknown Complex.abs, and unresolved downstream theorem identifiers. The separate Vercel deployment check is FAILURE and is not Lean verification.",
+        "No source-grounded map connects the 4D worldtube/Klein Fabric to an electromagnetic current/field, radiative transfer, Stokes Q/U, Faraday depth, or the finite-pixel mode coefficient beta_m.",
+        "No raw UVFITS re-imaging, calibrated covariance, or held-out prediction has been performed. Published method-ensemble ranges remain an external comparator only.",
+        "Direct geometry conventions remain unreconciled: 2026-10-09 w=ct versus 2026-10-21 cw=t, and 2026-10-21 (++++) versus the Lorentzian (-+++) used by historical SAT4D/Blockwave formulations. No metric/signature conversion is supplied.",
+        "The direct 10^44 J quantity is called tension but has energy units; the 0.7 fm ell_f value is a first-order coil scale, not filament thickness, with radius/diameter convention unresolved. Support dimension is also overloaded across 1D SAT.O filaments, 2D assistant-generated Blockwave worldsheet current, and 2026 4D worldtube/filament descriptions."
       ],
-      "last_material_state": "Public report published and independently read back from WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/worldtube-polarimetry-readout-20261103t0336z-s3-001.md; SHA-256 9153db0884bc7ad1217b02741a6f7dd61ef033d4c0d40b774ecfa2fdebb07159; publisher commit 2daa12c11fca0e3f29f1cdf883036f39c3cc952d. Subsequent status audit found Vercel FAILURE but no Lean check; correction comments added to PR #1296 and issue #1297. No H(s)H prediction or fit.",
-      "next_cursor": "Obtain an authorized Lean exact-head or clearly identified merge-ref build; independently review the finite-sum theorem; then specify the source-faithful worldtube-to-EM/Stokes map and retrieve calibrated data with full uncertainties before any holdout prediction.",
+      "last_material_state": "Public M87 readout issue #1297 and SAT4D/Blockwave crosswalk issue #1281 are already published; exact issue-payload/artifact readback matched for both, so no duplicate issue was created. Issue #1297 correction comment #6595735193 records the Lean failure. PR #1296 remains OPEN/DRAFT/UNMERGED at head a673f1a38f9bacae42fe5e31807192cd64f2857a, recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92; workflow #41576591587/job #125721400743 failed on merge ref 856a117fd57e19880b58b763db20403c996025bf. Exact-head and current-base builds remain unverified. Raw Oct 9 geometry is role-verified in Meridian Free Build; the earlier claim that the raw Oct 9 source was not recovered was overbroad because it searched the separate Ravel cross-post rather than this raw export. No H(s)H prediction, fit, or physical calculation was performed. Tern receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0900Z_s0_tern_rook.md.",
+      "next_cursor": "PR owner/authorized reviewer: repair the existing PolarizationModeUniformRotation module, then obtain both an exact-head Lean 4.34/Mathlib build and a current-base merge build, followed by theorem-specific axiom review; Tern made no branch or PR edits. Source work: preserve SAT.O, SAT4D, Blockwave, and Nathan Direct as distinct strata; recover further original SAT-O/Blockwave equations only through an existing Mersearch lane after one is released, without overwriting the four occupied requests. Geometry work: define typed maps from the 4D worldtube/Klein Fabric to a regular 3D time slice, observer screen, electromagnetic/radiative-transfer Stokes field, and beta_m; specify time function, metric/signature, support dimension, observer tetrad, current/field, emissivity, Faraday depth, and I_ann>0. Keep w=ct and cw=t separate until reconciled. Only then formalize the composition and consider calibrated raw M87 data plus a held-out prediction.",
       "exit_criterion": "Lean build and axiom audit pass; the H(s)H geometry-to-Stokes map is source-grounded; raw data and calibration uncertainties are available; an independent held-out epoch/frequency prediction is compared against GRMHD plus spatially structured Faraday rotation with a preregistered falsification threshold.",
       "return_route": "P2 issue #565; draft PR #1296; public report through the existing issue publisher",
       "exposure_constraints": [
-        "Do not equate worldtube twist with EVPA helicity without an explicit map.",
-        "Do not treat uniform-screen exclusion as excluding spatially varying Faraday rotation.",
-        "No SAT-O or Blockwave equation was reproduced or corrected in this branch.",
-        "No H(s)H physical prediction, fit or BEDROCK promotion.",
-        "No authenticated Alberr thread or Mira cross-thread delivery is claimed."
+        "Do not equate worldtube/global-fabric rotation with uniform EVPA phase z without an explicit source-grounded map.",
+        "Do not identify SAT.O's 1D filament, SAT4D's flux placeholder J_mu, the later Dirac current, and assistant-generated Blockwave J^{mu nu}; preserve their types and provenance separately.",
+        "Do not treat the assistant-generated Blockwave action as Nathan Direct or the SAT.O Official Directives as containing a field equation; the directive file supplies geometry/derivation constraints only.",
+        "No physical prediction, fit, CODATA scoring, or BEDROCK promotion until the geometry-to-observable map, measured inputs, uncertainties, and independent review exist."
       ],
       "branch_ref": "research/worldtube-polarization-mode-rotation-20261103t0336z",
       "base_ref": "infra/lean4-verification-20261023",
       "head_sha": "a673f1a38f9bacae42fe5e31807192cd64f2857a",
       "pr_number": 1296,
-      "ci_status": "LEAN_NOT_RUN",
+      "ci_status": "LEAN_FAILED_STALE_MERGE_REF; CURRENT_BASE_AND_EXACT_HEAD_NOT_RUN",
       "created": "2026-11-03T03:36Z",
-      "updated": "2026-11-03T04:35:48.360Z"
+      "updated": "2026-11-03T10:59:18.819Z"
     }
   ],
   "branch_count": 16
