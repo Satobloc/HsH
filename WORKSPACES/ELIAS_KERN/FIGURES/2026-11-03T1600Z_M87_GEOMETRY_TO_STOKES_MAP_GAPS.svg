@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">M87 star geometry-to-observable map gaps and Factory Floor admission state</title>
+  <desc id="desc">A provenance and map-gap diagram. It is not a geometric plot of M87 star or an HsH worldtube. It distinguishes direct source objects, an assistant-authored worldsheet current, standard EHT observation operators, and missing maps.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#334155"/>
+    </marker>
+    <marker id="missing" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#b45309"/>
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .title{font:700 28px sans-serif;fill:#0f172a}
+      .sub{font:15px sans-serif;fill:#475569}
+      .head{font:700 18px sans-serif;fill:#0f172a}
+      .body{font:15px sans-serif;fill:#1e293b}
+      .small{font:13px sans-serif;fill:#475569}
+      .tiny{font:12px sans-serif;fill:#64748b}
+      .direct{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}
+      .assistant{fill:#f3e8ff;stroke:#7e22ce;stroke-width:2}
+      .standard{fill:#dcfce7;stroke:#15803d;stroke-width:2}
+      .missingbox{fill:#fff7ed;stroke:#c2410c;stroke-width:2;stroke-dasharray:9 6}
+      .gate{fill:#fee2e2;stroke:#b91c1c;stroke-width:3}
+      .tier{fill:#fff;stroke:#64748b;stroke-width:1.5}
+      .line{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#b45309;stroke-width:3;fill:none;stroke-dasharray:10 7;marker-end:url(#missing)}
+      .sep{stroke:#cbd5e1;stroke-width:1}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1600" height="1040"/>
+  <text class="title" x="48" y="52">M87*: source objects, standard readout, and missing H(s)H maps</text>
+  <text class="sub" x="48" y="82">MAP-GAP / PROVENANCE DIAGRAM ONLY — NOT A PRECISE GEOMETRIC PLOT OF THE PHYSICAL SYSTEM</text>
+
+  <rect class="gate" x="1110" y="106" width="440" height="112" rx="14"/>
+  <text class="head" x="1134" y="140">FACTORY FLOOR: BLOCKED</text>
+  <text class="body" x="1134" y="169">No source-faithful system plot</text>
+  <text class="body" x="1134" y="193">No hostile plot review / display verification</text>
+
+  <text class="head" x="48" y="144">HsH / SAT geometric vocabulary</text>
+  <rect class="direct" x="48" y="170" width="320" height="135" rx="12"/>
+  <text class="head" x="70" y="202">γ¹ — SAT.O filament</text>
+  <text class="body" x="70" y="231">Historical 1D centerline</text>
+  <text class="small" x="70" y="257">SAT.O document object; not the</text>
+  <text class="small" x="70" y="278">later finite-core target.</text>
+
+  <rect class="direct" x="420" y="170" width="320" height="135" rx="12"/>
+  <text class="head" x="442" y="202">W⁴? — finite-core/worldtube</text>
+  <text class="body" x="442" y="231">Current reconstruction target</text>
+  <text class="small" x="442" y="257">Support / interior / boundary typing</text>
+  <text class="small" x="442" y="278">not yet fully defined.</text>
+
+  <rect class="direct" x="792" y="170" width="280" height="135" rx="12"/>
+  <text class="head" x="814" y="202">Σ³_t? — time bulk</text>
+  <text class="body" x="814" y="231">Direct 2026-10-09 description</text>
+  <text class="small" x="814" y="257">Metric, time function, signature,</text>
+  <text class="small" x="814" y="278">and slice map remain unresolved.</text>
+
+  <rect class="assistant" x="420" y="358" width="320" height="122" rx="12"/>
+  <text class="head" x="442" y="391">J²_ws — Blockwave current</text>
+  <text class="body" x="442" y="420">Assistant-authored 2-form</text>
+  <text class="small" x="442" y="446">Worldsheet current; not γ¹ or W⁴.</text>
+
+  <path class="dash" d="M368 238 C390 238 396 238 420 238"/>
+  <text class="small" x="376" y="224">no sweep map</text>
+  <path class="dash" d="M740 238 C764 238 768 238 792 238"/>
+  <text class="small" x="744" y="224">no slice map</text>
+  <path class="dash" d="M580 305 L580 358"/>
+  <text class="small" x="594" y="339">no typed sweep / degree map</text>
+
+  <rect class="missingbox" x="792" y="358" width="280" height="122" rx="12"/>
+  <text class="head" x="814" y="391">I² — observer image plane</text>
+  <text class="body" x="814" y="420">EHT sky/screen coordinates</text>
+  <text class="small" x="814" y="446">Observer tetrad, null projection,</text>
+  <text class="small" x="814" y="465">and instrument mapping not supplied by HsH.</text>
+  <path class="dash" d="M932 305 L932 358"/>
+  <text class="small" x="946" y="339">missing observer projection</text>
+
+  <rect class="missingbox" x="1120" y="358" width="390" height="122" rx="12"/>
+  <text class="head" x="1142" y="391">Eν — emission / propagation state</text>
+  <text class="body" x="1142" y="420">current, B-field, electron state, emissivity</text>
+  <text class="small" x="1142" y="446">Absorption and Faraday depth require</text>
+  <text class="small" x="1142" y="465">a source-grounded geometry/physics map.</text>
+  <path class="dash" d="M1072 420 L1120 420"/>
+  <text class="small" x="1078" y="404">missing H(s)H → EM map</text>
+
+  <rect class="standard" x="1120" y="548" width="390" height="118" rx="12"/>
+  <text class="head" x="1142" y="582">Pν = Q + iU — Stokes field</text>
+  <text class="body" x="1142" y="611">Standard polarized radiative-transfer output</text>
+  <text class="small" x="1142" y="638">Not itself a measurement of worldtube twist.</text>
+  <path class="line" d="M1315 480 L1315 548"/>
+
+  <rect class="standard" x="1120" y="724" width="390" height="118" rx="12"/>
+  <text class="head" x="1142" y="758">β_m — EHT mode readout</text>
+  <text class="body" x="1142" y="787">β_m = I_ann⁻¹ ∫ Pν e^(−imφ) ρ dφ dρ</text>
+  <text class="small" x="1142" y="814">Standard operator; downstream geometry readout.</text>
+  <path class="line" d="M1315 666 L1315 724"/>
+
+  <rect class="tier" x="48" y="548" width="980" height="294" rx="14"/>
+  <text class="head" x="72" y="584">Nathan Direct: five levels of object (not interchangeable)</text>
+  <line class="sep" x1="72" y1="603" x2="1004" y2="603"/>
+  <text class="head" x="78" y="640">Primary</text>
+  <text class="body" x="260" y="640">Observation — EHT products cited; raw data not reprocessed in this pass.</text>
+  <line class="sep" x1="72" y1="657" x2="1004" y2="657"/>
+  <text class="head" x="78" y="692">Secondary</text>
+  <text class="body" x="260" y="692">Physical orrery / hands-on demo — none supplied for this H(s)H M87 model.</text>
+  <line class="sep" x1="72" y1="709" x2="1004" y2="709"/>
+  <text class="head" x="78" y="744">Tertiary</text>
+  <text class="body" x="260" y="744">Dynamic geometry software — no source-faithful W⁴→observer→radiation model.</text>
+  <line class="sep" x1="72" y1="761" x2="1004" y2="761"/>
+  <text class="head" x="78" y="796">Quaternary / Pentary</text>
+  <text class="body" x="340" y="796">Static geometry plot missing / Mathematics is descriptive, not the object.</text>
+
+  <rect class="tier" x="48" y="884" width="1462" height="100" rx="12"/>
+  <text class="head" x="72" y="921">Legend / epistemic status</text>
+  <rect class="direct" x="320" y="904" width="26" height="22" rx="4"/>
+  <text class="small" x="356" y="921">Direct source description</text>
+  <rect class="assistant" x="550" y="904" width="26" height="22" rx="4"/>
+  <text class="small" x="586" y="921">Assistant-authored reconstruction</text>
+  <rect class="standard" x="890" y="904" width="26" height="22" rx="4"/>
+  <text class="small" x="926" y="921">Standard EHT readout</text>
+  <path class="dash" d="M320 954 L370 954"/>
+  <text class="small" x="382" y="959">missing / undefined map</text>
+  <path class="line" d="M650 954 L700 954"/>
+  <text class="small" x="712" y="959">specified downstream readout</text>
+  <text class="tiny" x="48" y="1020">Artifact class: map-gap/provenance diagram. Not a metric embedding, not an M87 image reconstruction, not a Factory Floor plot.</text>
+</svg>
