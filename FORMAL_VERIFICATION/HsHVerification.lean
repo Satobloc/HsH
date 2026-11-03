@@ -17,6 +17,7 @@ import HsHVerification.MiraSgrACovarianceGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirAffineTranslationQuotient
 import HsHVerification.NadirAffineObstructionDimension
+import HsHVerification.NadirProjectedFrameCurvature
 import HsHVerification.NadirReadoutMetricSignature
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
