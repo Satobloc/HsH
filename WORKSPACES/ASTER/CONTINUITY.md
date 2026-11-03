@@ -789,3 +789,11 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - Paper gates remain separate (Nov 9 minor, Nov 30 major, Dec 14 full-theory); none advanced. No BEDROCK promotion, Factory Floor admission, or hostile-review clearance. Geometry remains WORKING_GEOMETRY / SOURCE_AUDIT_ONLY.
 - Repository handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1827Z_from_s2_to_s3_ariadne.md. Ariadne inbox pointer ID ARIADNE-REVROT-20261103T1827Z-ASTER-GEOMETRY-1317-PUBLISHED. Disposition OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. No ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 - No task ID, cadence, schedule, phase, automation, branch, signet, or chat title changed. No sixth task created.
+
+
+### Scheduler preservation readback | 2026-11-03T1827Z
+
+- Private automation peek confirms task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with the exact original VEVENT: DTSTART;TZID=America/New_York:20261001T142400; RRULE:FREQ=HOURLY.
+- No task, prompt, ID, cadence, phase, enabled-state, or schedule change was made; no sixth task was created.
+- Scheduler record shows run c5d5d319-5124-832e-bda7-54b883bdf341 as in_progress, scheduled 2026-11-03T18:24:00Z, started 2026-11-03T19:24:35.302210Z, chat_ref=null. In-progress does not establish worker liveness or authenticated thread delivery.
+- latest_result belongs to the earlier Mercer run 5429e9e8-b874-8323-a908-ca7c7d5ee56b (scheduled 17:24Z, completed 17:35Z), not this Aster geometry work. Delivery status remains unknown.
