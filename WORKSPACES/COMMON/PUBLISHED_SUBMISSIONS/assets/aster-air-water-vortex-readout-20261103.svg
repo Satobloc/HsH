@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6" fill="none" stroke="currentColor" stroke-width="1"/>
+  </marker>
+</defs>
+<rect width="900" height="540" fill="white"/>
+<g font-family="Arial, sans-serif" fill="currentColor">
+  <text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold">Two-contour readout: geometry and covariance map</text>
+  <text x="240" y="78" text-anchor="middle" font-size="12">symbolic cross-section; not to physical scale</text>
+</g>
+<!-- Fixed reference axis and displaced core. -->
+<line x1="150" y1="110" x2="150" y2="420" stroke="currentColor" stroke-width="1.4" stroke-dasharray="7 5"/>
+<circle cx="220" cy="270" r="120" fill="none" stroke="currentColor" stroke-width="2"/>
+<line x1="220" y1="140" x2="220" y2="400" stroke="currentColor" stroke-width="1.1" stroke-dasharray="2 4"/>
+<line x1="100" y1="270" x2="340" y2="270" stroke="currentColor" stroke-width="1"/>
+<circle cx="150" cy="270" r="4" fill="currentColor"/>
+<circle cx="220" cy="270" r="4" fill="currentColor"/>
+<circle cx="100" cy="270" r="4" fill="currentColor"/>
+<circle cx="340" cy="270" r="4" fill="currentColor"/>
+<!-- eta and a. -->
+<line x1="150" y1="205" x2="220" y2="205" stroke="currentColor" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="185" y="192" text-anchor="middle" font-family="Arial" font-size="14" fill="currentColor">η</text>
+<line x1="220" y1="330" x2="340" y2="330" stroke="currentColor" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="280" y="350" text-anchor="middle" font-family="Arial" font-size="14" fill="currentColor">a</text>
+<!-- r0 and rpi distances from the reference axis. -->
+<line x1="150" y1="245" x2="340" y2="245" stroke="currentColor" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="245" y="232" text-anchor="middle" font-family="Arial" font-size="12" fill="currentColor">r₀ = a + η</text>
+<line x1="100" y1="295" x2="150" y2="295" stroke="currentColor" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="125" y="317" text-anchor="middle" font-family="Arial" font-size="12" fill="currentColor">rπ = a − η</text>
+<g font-family="Arial, sans-serif" fill="currentColor" font-size="11">
+  <text x="150" y="440" text-anchor="middle">fixed reference axis</text>
+  <text x="220" y="460" text-anchor="middle">core centerline</text>
+  <text x="90" y="130">θ = π contour</text>
+  <text x="340" y="130" text-anchor="end">θ = 0 contour</text>
+</g>
+<!-- Formula panel. -->
+<g font-family="Arial, sans-serif" fill="currentColor">
+  <text x="470" y="112" font-size="16" font-weight="bold">SOURCE READOUT</text>
+  <text x="470" y="145" font-size="15">η(z,t) = [r₀(z,t) − rπ(z,t)] / 2</text>
+  <text x="470" y="174" font-size="15">a(z,t) = [r₀(z,t) + rπ(z,t)] / 2</text>
+  <text x="470" y="220" font-size="13">m=1: centerline displacement is the primary channel.</text>
+  <text x="470" y="242" font-size="13">m=2: radius/flattening-associated response;</text>
+  <text x="470" y="261" font-size="13">the scalar a is not a full cross-section reconstruction.</text>
+
+  <text x="470" y="315" font-size="16" font-weight="bold">COVARIANCE TRANSFORM</text>
+  <text x="470" y="348" font-size="15">y = A r,   A = ½ [[1, −1], [1, 1]]</text>
+  <text x="470" y="377" font-size="15">Σᵧ = A Σᵣ Aᵀ</text>
+  <text x="470" y="414" font-size="12">η and a share the same two contour inputs.</text>
+  <text x="470" y="434" font-size="12">Zero covariance is conditional, not automatic:</text>
+  <text x="470" y="452" font-size="12">it requires assumptions such as equal, independent</text>
+  <text x="470" y="470" font-size="12">contour errors. The full Σᵣ is not published.</text>
+
+  <text x="470" y="510" font-size="12">Nature: η and a. PRL follow-up: η only.</text>
+</g>
+</svg>
