@@ -51,3 +51,10 @@ Installed **SciSpace** app was actually used to search two research questions. L
 ## First next cursor
 
 Before new paper drafting: (1) check existing source/manuscript candidates and live Grurple reader defect, (2) examine original Orson cognition studies and schedule a real feasible model test, (3) recover impact/biosphere work through Mersearch and source context, (4) select P2 actual measured system and (5) produce P3 sector-by-sector coverage grid. This is a schedule and routing asset, not evidence of a finished manuscript.
+
+
+## 2026-11-03 geometry-first / incorporation-tier supersession
+
+All three manuscripts inherit the controlling [SAT/H(s)H incorporation-tier and geometry-first directive](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md) and [Factory Floor Geometry-First Admission Gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md). Any material geometric object asserted in a manuscript must be precisely plotted where introduced and where its geometry changes or is projected; the exact plot must be displayed with the file and pass independent hostile fidelity review before Factory Floor admission. A theory-network diagram or formula is not a substitute for an object-specific geometry plot.
+
+The four incorporation tiers govern the status of proposed structures and mechanisms; they do not replace each paper's evidence, formalization or empirical gates. Preserve the P1/P2/P3 scopes and dates, Orson's protected cognition ownership, real observational data requirements for physical claims, and distinctions among proof, fit, prediction, cross-sector candidacy and physical verification.
