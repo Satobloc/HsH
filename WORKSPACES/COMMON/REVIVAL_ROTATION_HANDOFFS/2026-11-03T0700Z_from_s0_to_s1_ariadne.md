@@ -20,7 +20,7 @@ The completed Mersearch request `aster-sep18-oct29-timesheet-graviton-originals-
 The full source-fidelity report is:
 
 - `WORKSPACES/ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md`
-- Blob: `434c6f4509174d3e84684a3d628156a38490ed66`
+- Blob: `62e1c0f8e2071f98447294dfe4012593de73bc97`
 
 The report distinguishes Nathan Direct, Srena output, unbylined SATv derivatives, the mixed Claude transcript, and existing Lean reconstructions. It records the remaining missing scale maps and the generic Kestrel fiber-factorization theorem.
 
