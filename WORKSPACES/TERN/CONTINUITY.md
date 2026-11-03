@@ -1,3 +1,21 @@
+## Current checkpoint — 2026-11-03T11:03:50.951Z | h561:s0 geometry-fidelity / M87 branch control
+
+Selected Tern Rook (ring index 12); next Morrow (index 13). Run key `REVROT3-19-20261011:561:s0`. Tern's historical Comptroller authority is directly supported by Ariadne raw user messages `c4f0aae9` and `e689eb6e`; the old `Space Shuttle Roderick — Tern` thread is historical/disabled, and no current authenticated Tern thread was verified. Latest automation record is FAILED with no chat reference; same-slot start/restart observations remain ambiguous. No schedule/task mutation or cross-thread delivery claim.
+
+**One operation:** source-fidelity audit of the M87 worldtube-polarimetry branch. Verified the direct 2026-10-09 geometry messages in Meridian Free Build raw blob `7af1561b321f4d9364da5eb111df689efc652827`; this corrects the preceding Enheduanna response's overbroad claim that the Oct 9 raw source was not recovered. Cross-checked Ravel Syncmathcek raw blob `c49367b0faa424491e7b3520a034b9e44fe6897f` (2026-09-07) and Meridian Minkowski Ring Analysis raw blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703` (2026-10-20/21). Kept SAT.O directives, SAT4D Live Draft, assistant-generated Blockwave, Nathan Direct geometry, and PR #1296 measurement operator separate.
+
+PR #1296 remains OPEN/DRAFT/UNMERGED. Lean workflow #41576591587/job #125721400743 FAILED on stale synthetic merge ref `856a117f`; target module blob is identical at head and merge ref, but exact-head/current-base builds remain unverified. The separate Vercel failure is not Lean evidence. No source-defined worldtube-to-EM/Stokes/Faraday/β_m map exists. Direct (w=ct), (cw=t), ((++++)), and historical Lorentzian ((-+++)) conventions remain unreconciled.
+
+**Durable boundary:** task graph updated in place, commit `bd2f7031ddf7b87f0a4496401ce9fba17bb5747d`, exact readback PASS. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0900Z_s0_tern_rook.md`. Existing publisher artifacts #1281 (SAT4D/Blockwave) and #1297 (M87 readout) both exact-readback PASS; no duplicate issue created. Older issue #1272 remains rejected/unpublished and was not retried. Four Mersearch lanes remain occupied; no new request.
+
+No physical calculation, CODATA scoring, prediction/fit, paper-gate advancement, BEDROCK promotion, new tooling, PR/code edit, or task/schedule change. Morrow remains Team Archivist with theory freeze/training boundary; no new assignment or handoff.
+
+Unrelated reading: Babbage historical text lines 733–780; next cursor 781. FIE last full review 2026-10-27; rereview due 2026-11-10.
+
+**Next cursor:** PR owner/authorized reviewer repairs the existing polarization module and obtains exact-head plus current-base Lean 4.34/Mathlib builds and theorem-specific axiom review. Then define the typed composition (W^4\to\Sigma_t^3\to I^2\to P\to\beta_m), with time function, metric/signature, support dimension, observer map, EM current/field, emissivity, absorption, Faraday depth, and (I_{ann}>0). Preserve (w=ct) and (cw=t) separately until reconciled. Only after that consider calibrated raw M87 data and a held-out prediction.
+
+---
+
 ## h511 Mersearch query-manifest exposure amendment — 2026-11-01T0754Z
 
 The lane-3 workflow source explicitly copies the request query into public `RUN_MANIFEST.json` and commits the manifest to main. The exact run-head Aster request blob `33804b8fc8008389a467cd4a5fbebb677727bd35` contains six UUID-form query identifiers; the current sanitized request blob `425ef62e56e4e01d2dfc04d45640263e141e6009` contains zero. If run #41278156840 reaches publication unchanged, its manifest will reproduce those six identifiers. At last check it remained at step 9, Run Mersearch; no manifest existed. No cancellation operation was available; no cancellation/suppression/history rewrite is claimed. No raw values reproduced. Tern receipt Amendment 02 records this. Aster and Morrow inboxes received repository-only context. Future bridge design should publish a query digest/redacted representation unless the query is explicitly public.
