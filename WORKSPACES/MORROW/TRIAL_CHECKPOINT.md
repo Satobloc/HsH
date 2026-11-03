@@ -680,3 +680,14 @@ The optional Kestrel handoff and inbox pointer were committed at 01:55:35Z and 0
 ## Amendment 02 — post-write current-main readback (2026-11-03T0157Z)
 
 After receipt, checkpoint, and handoff writes, current main was independently re-read at commit 47116dc987080aa31148380a3e9d3010e5a33873 (2026-11-03T01:57:41Z), tree fae424cf4e5a911fe4b678975fe86617d13d6110, 10,865 recursive entries, API truncated=false. The root has 76 entries and still contains LIVE CONVOS and DEVELOPMENT_FULL_CONVOS, not ACTIVE or FULL_CONVOS. The archival classification is unchanged.
+
+
+## 2026-11-03T0524Z | Morrow source-custody continuation
+
+- Matching-run public report already existed before this delayed execution began: issue #1300 was created at 06:12Z; this execution started at 06:17Z. The publisher comment reports PUBLISHED, and independent fetch of `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-finite-slab-source-attribution-20261103t0524z-s2-001.md` confirmed exact equality with the issue's 11,472-character content. SHA-256 `8e302f770aef6c23a1f93f0d2b1e096c3f6328bf956ca1f76090ccd563a31ffa`. No duplicate report or issue created.
+- Kestrel issue #1281 is also PUBLISHED_VERIFIED; its artifact readback exactly matches the 14,752-character issue content. It already contains the SAT4D/Blockwave source-custody and separate assistant-repair record. No duplicate equation audit created.
+- Completed Aster Mersearch lane 3 was reused for `morrow-finite-slab-originals-20261103-0524`, request file commit `689a71897d7c39cf1942f2c2316bf0906dbe3007`, blob `1ca15df323325f3f33debdd08b5045186a79f7a0`. At final check no request-scoped manifest or receipt existed: `SUBMITTED_NOT_VERIFIED`. No other lane was overwritten.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0524Z_s2_morrow.md`, commit `c2eb431435ac35b5c9a962904148e52c3ca80a9f`.
+- Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0524Z_from_s2_to_s2_kestrel.md`, commit `6d80832b54ce3f021fbd085418e99557ca3e12b0`. The immediate h557:s3 slot was not observed; next deterministic Kestrel appearance is h561:s2, 2026-11-03T09:24Z. Repository pointer only; no thread delivery or acknowledgment.
+- Unrelated reading from the matching report: Jacoby, *Practical Talks by an Astronomer*, lines 861–900; next cursor 901. FIE last full review 2026-10-27; next due 2026-11-10.
+- Morrow's direct theory-stop remains active. No theory integration, physical calculation, CODATA comparison, fit, prediction, new Lean module, paper-gate advancement, BEDROCK change, branch/PR, task/ID/cadence, signet or conversation rename.
