@@ -27,3 +27,19 @@ It does **not** prove the source transcription, recover the raw covariance, vali
 ## Routing boundary
 
 No issue was opened and no direct write was made to FACTORY_FLOOR. The packet remains in Ravel's workspace pending an authorized owner/endpoint or stable Floor ID. No delivery, receipt, acceptance, or workshop consumption is claimed.
+
+
+## Geometry-first gate update — 2026-11-03
+
+**Status:** `GEOMETRY_NOT_SUPPLIED / FACTORY_FLOOR_HANDOFF_BLOCKED`.
+
+The current packet describes a data/proof gate and a proposed worldtube-to-current connection, but this handoff file does not display a precise geometric plot of the actual physical/theoretical system, nor an independent hostile fidelity review tied to an exact plot version. The empirical data gate and Lean formalization remain useful and retain their existing bounded status; neither substitutes for the geometric object.
+
+Do not route this packet into Factory Floor until it includes:
+- source-faithful quaternary plot of the physical system and the proposed geometry-to-observable map, displayed in the packet;
+- complete geometric conventions and scale/source correspondence;
+- independent hostile geometric-fidelity review tied to the plot hash;
+- tertiary executable geometry where the claimed worldtube/current evolution is material;
+- separate geometry, mathematical, candidacy and physical-validation receipts.
+
+Controlling rule: [HsH Factory Floor Geometry-First Admission Gate](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md). This is a gate update, not a rejection of the empirical dataset or the bounded formal result.
