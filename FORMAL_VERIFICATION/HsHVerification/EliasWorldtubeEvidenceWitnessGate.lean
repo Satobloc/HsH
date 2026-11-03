@@ -262,4 +262,246 @@ theorem observedRavel_witness_gate_not_passed :
 #print axioms observedRavel_independent_translation_review_witness_missing
 #print axioms observedRavel_witness_gate_not_passed
 
+
+/-!
+## Typed build-outcome witness refinement (2026-11-03)
+
+A build artifact locator and a module-blob match do not encode whether the
+workflow completed successfully. This refinement keeps run state, conclusion,
+target identity, theorem-axiom report coverage, full-log sorryAx scanning,
+and the separate automated axiom audit as distinct fields.
+
+The observed M87* polarization PR run is a real completed failure even though
+its target module blob matches between PR head and merge ref. The earlier
+Elias/Ravel runs provide successful merge-ref examples with different
+axiom-report coverage. These are repository/CI workflow records, not physical
+fixtures or physical evidence.
+
+This contract is a proposed verification layer. It does not authenticate the
+GitHub run, re-execute the hash check, validate source-to-formal translation,
+or establish a physical premise.
+-/
+
+inductive WorkflowRunStatus where
+  | queued
+  | inProgress
+  | completed
+  deriving DecidableEq, Repr
+
+inductive WorkflowConclusion where
+  | unknown
+  | success
+  | failure
+  | cancelled
+  | timedOut
+  deriving DecidableEq, Repr
+
+inductive BuildTarget where
+  | exactHead
+  | mergeRef
+  deriving DecidableEq, Repr
+
+inductive TheoremAxiomCoverage where
+  | notInspected
+  | partialReports
+  | completeReports
+  deriving DecidableEq, Repr
+
+inductive FullLogSorryAxScan where
+  | notInspected
+  | zeroFound
+  | found
+  deriving DecidableEq, Repr
+
+inductive AutomatedAxiomAudit where
+  | notRun
+  | passed
+  | failed
+  deriving DecidableEq, Repr
+
+/-- A typed build record. For merge-ref builds, the target module blob must
+    match the PR-head module blob. For exact-head builds, the checked-out
+    commit must equal the PR head as well. -/
+structure BuildOutcomeWitness where
+  artifact : ArtifactWitness
+  prHead : String
+  checkedOutCommit : String
+  moduleBlobAtPRHead : String
+  moduleBlobAtCheckout : String
+  toolchain : String
+  runStatus : WorkflowRunStatus
+  conclusion : WorkflowConclusion
+  target : BuildTarget
+  theoremAxiomCoverage : TheoremAxiomCoverage
+  fullLogSorryAxScan : FullLogSorryAxScan
+  automatedAxiomAudit : AutomatedAxiomAudit
+  deriving DecidableEq, Repr
+
+def buildOutcomeWitnessWellFormed (w : BuildOutcomeWitness) : Prop :=
+  artifactWitnessWellFormed w.artifact ∧
+  w.prHead ≠ "" ∧
+  w.checkedOutCommit ≠ "" ∧
+  w.moduleBlobAtPRHead ≠ "" ∧
+  w.moduleBlobAtCheckout ≠ "" ∧
+  w.toolchain ≠ ""
+
+def buildTargetIdentityAccepted (w : BuildOutcomeWitness) : Prop :=
+  w.moduleBlobAtPRHead = w.moduleBlobAtCheckout ∧
+  (match w.target with
+   | .exactHead => w.checkedOutCommit = w.prHead
+   | .mergeRef => True)
+
+def buildRunAccepted (w : BuildOutcomeWitness) : Prop :=
+  buildOutcomeWitnessWellFormed w ∧
+  buildTargetIdentityAccepted w ∧
+  w.runStatus = .completed ∧
+  w.conclusion = .success
+
+def theoremAxiomReportsComplete (w : BuildOutcomeWitness) : Prop :=
+  w.theoremAxiomCoverage = .completeReports
+
+def fullLogSorryAxScanClear (w : BuildOutcomeWitness) : Prop :=
+  w.fullLogSorryAxScan = .zeroFound
+
+/-- Build success, complete theorem-specific axiom reports, and a clean
+    full-log sorryAx scan are separate requirements. The optional automated
+    axiom-audit action is recorded independently below. -/
+def formalizationBuildAndAxiomEvidenceComplete
+    (w : BuildOutcomeWitness) : Prop :=
+  buildRunAccepted w ∧
+  theoremAxiomReportsComplete w ∧
+  fullLogSorryAxScanClear w
+
+def automatedAxiomAuditPassed (w : BuildOutcomeWitness) : Prop :=
+  w.automatedAxiomAudit = .passed
+
+/-- Stronger composition of the existing source/review witness gate with a
+    typed successful build. The build artifact must be the same artifact
+    carried by the older witness bundle; a failed run cannot satisfy it. -/
+def formalizationWitnessGateWithBuildOutcome
+    (e : WorldtubeClaimEvidence)
+    (w : FormalizationWitnessBundle)
+    (b : BuildOutcomeWitness) : Prop :=
+  formalizationWitnessGate e w ∧
+  w.buildRun = some b.artifact ∧
+  formalizationBuildAndAxiomEvidenceComplete b
+
+/-- Actual successful Ravel merge-ref build for the earlier worldtube gate.
+    The target module blob matched; theorem-specific reports and full-log
+    sorryAx/admit scan were inspected. The separate automated audit was skipped. -/
+def observedRavelBuildOutcome : BuildOutcomeWitness :=
+  { artifact := ravelBuildRunArtifact
+    prHead := "faa51b91e1cb32801eccd90aac337062883b81c6"
+    checkedOutCommit := "3f69b2c0aa60728fd61b6837b05363f2b07c6cf8"
+    moduleBlobAtPRHead := "a34720b07942f973000271a961bf6363d1cd55dd"
+    moduleBlobAtCheckout := "a34720b07942f973000271a961bf6363d1cd55dd"
+    toolchain := "Lean 4.34.0 / Lake 5.0.0"
+    runStatus := .completed
+    conclusion := .success
+    target := .mergeRef
+    theoremAxiomCoverage := .completeReports
+    fullLogSorryAxScan := .zeroFound
+    automatedAxiomAudit := .notRun }
+
+/-- Actual successful Elias PR #951 merge-ref build. Ten of fifteen theorem
+    declarations had individual print-axioms output inspected; five were not
+    individually printed. Full log had zero sorryAx/admit; the separate
+    automated axiom-audit action was skipped. -/
+def observedEliasStickyBuildOutcome : BuildOutcomeWitness :=
+  { artifact :=
+      { locator := "https://github.com/Satobloc/HsH/actions/runs/41455330592"
+        digest := none
+        digestScheme := none
+        verificationRecord := "PR #951 Actions run #41455330592; job #125310452589"
+        verificationMethod :=
+          "Lean 4.34.0 / Lake 5.0.0; merge ref 811a5ea5bfe5a5696ce42039431488fa06b1d1ee; target module blob matched; 10/15 theorem-specific print-axioms outputs inspected; full log zero sorryAx/admit; tests, lint, nanoda and separate automated axiom audit skipped"
+        verifiedAt := "2026-11-02T13:47:00Z" }
+    prHead := "8fa5e72666284173569fe60bb68b678cd923702a"
+    checkedOutCommit := "811a5ea5bfe5a5696ce42039431488fa06b1d1ee"
+    moduleBlobAtPRHead := "68e58be08526502848a68b2a77f0cb3d14036419"
+    moduleBlobAtCheckout := "68e58be08526502848a68b2a77f0cb3d14036419"
+    toolchain := "Lean 4.34.0 / Lake 5.0.0"
+    runStatus := .completed
+    conclusion := .success
+    target := .mergeRef
+    theoremAxiomCoverage := .partialReports
+    fullLogSorryAxScan := .zeroFound
+    automatedAxiomAudit := .notRun }
+
+/-- Actual completed failure for the M87* polarization-mode PR. The target
+    module blob matched between PR head and merge ref, but lake build failed
+    before the target module completed; theorem axiom reports and the
+    full-log sorryAx scan for that target were not performed. -/
+def observedM87PolarimetryBuildOutcome : BuildOutcomeWitness :=
+  { artifact :=
+      { locator := "https://github.com/Satobloc/HsH/actions/runs/41576591587"
+        digest := none
+        digestScheme := none
+        verificationRecord := "PR #1296 Actions run #41576591587; job #125721400743"
+        verificationMethod :=
+          "Lean 4.34.0 / Lake 5.0.0; completed failure; PolarizationModeUniformRotation.lean line 20 noncomputable division error and lines 53-75 unknown Complex.abs / downstream declarations; tests, lint, nanoda and axiom audit skipped"
+        verifiedAt := "2026-11-03T04:14:11Z" }
+    prHead := "a673f1a38f9bacae42fe5e31807192cd64f2857a"
+    checkedOutCommit := "856a117fd57e19880b58b763db20403c996025bf"
+    moduleBlobAtPRHead := "01e07df42c34c815342badf97580a7a60cd63582"
+    moduleBlobAtCheckout := "01e07df42c34c815342badf97580a7a60cd63582"
+    toolchain := "Lean 4.34.0 / Lake 5.0.0"
+    runStatus := .completed
+    conclusion := .failure
+    target := .mergeRef
+    theoremAxiomCoverage := .notInspected
+    fullLogSorryAxScan := .notInspected
+    automatedAxiomAudit := .notRun }
+
+theorem observedRavel_build_and_axiom_evidence_complete :
+    formalizationBuildAndAxiomEvidenceComplete observedRavelBuildOutcome := by
+  decide
+
+theorem observedRavel_typed_witness_still_blocked_by_translation_review :
+    ¬ formalizationWitnessGateWithBuildOutcome
+      observedRavelWorldtube observedRavelWitnessBundle observedRavelBuildOutcome := by
+  intro h
+  exact observedRavel_witness_gate_not_passed h.1
+
+theorem observedEliasSticky_build_succeeded :
+    buildRunAccepted observedEliasStickyBuildOutcome := by
+  decide
+
+theorem observedEliasSticky_reports_remain_partial :
+    ¬ formalizationBuildAndAxiomEvidenceComplete observedEliasStickyBuildOutcome := by
+  decide
+
+theorem observedM87_target_module_blob_matches :
+    observedM87PolarimetryBuildOutcome.moduleBlobAtPRHead =
+      observedM87PolarimetryBuildOutcome.moduleBlobAtCheckout := by
+  rfl
+
+theorem observedM87_failed_build_is_not_accepted :
+    ¬ buildRunAccepted observedM87PolarimetryBuildOutcome := by
+  decide
+
+theorem formalizationWitnessGateWithBuildOutcome_implies_build_accepted
+    (e : WorldtubeClaimEvidence)
+    (w : FormalizationWitnessBundle)
+    (b : BuildOutcomeWitness)
+    (h : formalizationWitnessGateWithBuildOutcome e w b) :
+    buildRunAccepted b := by
+  exact h.2.2.1
+
+#eval decide (buildRunAccepted observedM87PolarimetryBuildOutcome)
+#eval decide (buildRunAccepted observedEliasStickyBuildOutcome)
+#eval decide (formalizationBuildAndAxiomEvidenceComplete observedEliasStickyBuildOutcome)
+#eval decide (formalizationBuildAndAxiomEvidenceComplete observedRavelBuildOutcome)
+#eval decide (formalizationWitnessGateWithBuildOutcome
+  observedRavelWorldtube observedRavelWitnessBundle observedRavelBuildOutcome)
+#eval decide (automatedAxiomAuditPassed observedRavelBuildOutcome)
+
+#print axioms observedRavel_build_and_axiom_evidence_complete
+#print axioms observedRavel_typed_witness_still_blocked_by_translation_review
+#print axioms observedEliasSticky_build_succeeded
+#print axioms observedEliasSticky_reports_remain_partial
+#print axioms observedM87_target_module_blob_matches
+#print axioms observedM87_failed_build_is_not_accepted
+#print axioms formalizationWitnessGateWithBuildOutcome_implies_build_accepted
+
 end HsHVerification.EliasWorldtubeEvidenceWitnessGate
