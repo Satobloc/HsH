@@ -50,7 +50,11 @@ for k in PRL_FIG5["k_m_inv"]:
     wH = omega_small_k(gamma, a0, k, False)
     fR, fH = abs(wR) / (2 * PI), abs(wH) / (2 * PI)
     fD_cond = abs(k * PRL_FIG2["vz_m_s"]) / (2 * PI)
+    # Sensitivity only: vary a0 to the separate PRL Fig. 2 value, holding Gamma and k fixed.
+    f147 = abs(omega_small_k(gamma, PRL_FIG2["a0_m"], k, True)) / (2 * PI)
     rows.append({
+        "f_Rankine_if_a0_147mm_only_sensitivity_Hz": f147,
+        "a0_147_vs_130mm_frequency_change_percent": 100 * (f147 / fR - 1),
         "k_m_inv": k,
         "ka0": k * a0,
         "wavelength_cm": 100 * 2 * PI / k,
