@@ -83,7 +83,7 @@ def fixedHistorySection (h₀ : History) : Position → Position × History :=
 
 /-- The chosen history is a right inverse of the position projection. -/
 theorem fixedHistorySection_rightInverse (h₀ : History) :
-    ∀ p, positionProjection (fixedHistorySection h₀ p) = p := by
+    ∀ p : Position, positionProjection (fixedHistorySection h₀ p) = p := by
   intro p
   rfl
 
