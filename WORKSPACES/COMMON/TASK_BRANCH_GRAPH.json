@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-03T10:59:18.819Z",
+  "updated": "2026-11-03T11:06:04.689Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -487,7 +487,7 @@
       "status": "blocked",
       "parent": "P2-REAL-SYSTEM-GEOMETRY-2026-11-30",
       "children": [],
-      "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 A&A 704 A91 Eq.21 is an outside comparator. Raw user-role geometry sources: Meridian Free Build, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827 (2026-10-09 messages 3c657387, 5a929b5e, 1178f25c); Meridian Minkowski Ring Analysis, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703 (2026-10-20/21 messages 69e7e8b1, c1b42229, f658b2db, 090f5160, 47cf2603, c5525f53). Historical Ravel Syncmathcek precursor: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f (2026-09-07).",
+      "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 A&A 704 A91 Eq.21 is an outside comparator. Raw user-role geometry sources: Meridian Free Build, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827 (2026-10-09 messages 3c657387, 5a929b5e, 1178f25c); Meridian Minkowski Ring Analysis, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703 (2026-10-20/21 messages 69e7e8b1, c1b42229, f658b2db, 2bef9e5d, 090f5160, 47cf2603, c5525f53). Historical Ravel Syncmathcek precursor: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f (2026-09-07).",
       "intent": "Formalize the finite-pixel polarization-mode response to a uniform EVPA rotation; use published M87* polarimetric measurements to define an outside comparator and expose the missing H(s)H geometry-to-Stokes map.",
       "repository": "Satobloc/HsH",
       "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; published artifact issue #1297 (verified)",
@@ -508,7 +508,7 @@
         "No source-grounded map connects the 4D worldtube/Klein Fabric to an electromagnetic current/field, radiative transfer, Stokes Q/U, Faraday depth, or the finite-pixel mode coefficient beta_m.",
         "No raw UVFITS re-imaging, calibrated covariance, or held-out prediction has been performed. Published method-ensemble ranges remain an external comparator only.",
         "Direct geometry conventions remain unreconciled: 2026-10-09 w=ct versus 2026-10-21 cw=t, and 2026-10-21 (++++) versus the Lorentzian (-+++) used by historical SAT4D/Blockwave formulations. No metric/signature conversion is supplied.",
-        "The direct 10^44 J quantity is called tension but has energy units; the 0.7 fm ell_f value is a first-order coil scale, not filament thickness, with radius/diameter convention unresolved. Support dimension is also overloaded across 1D SAT.O filaments, 2D assistant-generated Blockwave worldsheet current, and 2026 4D worldtube/filament descriptions."
+        "The direct 2026-10-21 user message 2bef9e5d reports a prior worldtube 'tension' near 10^44 J but supplies no derivation, system, uncertainty, or definition; joules are energy units, not force or force-per-length. The 0.7 fm ell_f value is a first-order coil scale, not filament thickness, with radius/diameter convention unresolved. Support dimension is also overloaded across 1D SAT.O filaments, 2D assistant-generated Blockwave worldsheet current, and 2026 4D worldtube/filament descriptions."
       ],
       "last_material_state": "Public M87 readout issue #1297 and SAT4D/Blockwave crosswalk issue #1281 are already published; exact issue-payload/artifact readback matched for both, so no duplicate issue was created. Issue #1297 correction comment #6595735193 records the Lean failure. PR #1296 remains OPEN/DRAFT/UNMERGED at head a673f1a38f9bacae42fe5e31807192cd64f2857a, recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92; workflow #41576591587/job #125721400743 failed on merge ref 856a117fd57e19880b58b763db20403c996025bf. Exact-head and current-base builds remain unverified. Raw Oct 9 geometry is role-verified in Meridian Free Build; the earlier claim that the raw Oct 9 source was not recovered was overbroad because it searched the separate Ravel cross-post rather than this raw export. No H(s)H prediction, fit, or physical calculation was performed. Tern receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0900Z_s0_tern_rook.md.",
       "next_cursor": "PR owner/authorized reviewer: repair the existing PolarizationModeUniformRotation module, then obtain both an exact-head Lean 4.34/Mathlib build and a current-base merge build, followed by theorem-specific axiom review; Tern made no branch or PR edits. Source work: preserve SAT.O, SAT4D, Blockwave, and Nathan Direct as distinct strata; recover further original SAT-O/Blockwave equations only through an existing Mersearch lane after one is released, without overwriting the four occupied requests. Geometry work: define typed maps from the 4D worldtube/Klein Fabric to a regular 3D time slice, observer screen, electromagnetic/radiative-transfer Stokes field, and beta_m; specify time function, metric/signature, support dimension, observer tetrad, current/field, emissivity, Faraday depth, and I_ann>0. Keep w=ct and cw=t separate until reconciled. Only then formalize the composition and consider calibrated raw M87 data plus a held-out prediction.",
@@ -526,7 +526,7 @@
       "pr_number": 1296,
       "ci_status": "LEAN_FAILED_STALE_MERGE_REF; CURRENT_BASE_AND_EXACT_HEAD_NOT_RUN",
       "created": "2026-11-03T03:36Z",
-      "updated": "2026-11-03T10:59:18.819Z"
+      "updated": "2026-11-03T11:06:04.689Z"
     }
   ],
   "branch_count": 16
