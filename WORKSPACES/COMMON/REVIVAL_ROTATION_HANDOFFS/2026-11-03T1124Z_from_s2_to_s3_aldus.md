@@ -20,7 +20,7 @@ A source-critical metrology note may intersect the existing gravitational-consta
 
 Draft PR #1306 adds a conditional Lean 4/Mathlib module proving covariance-factorization recovery and invariance of correlations under a common positive uncertainty expansion. Its three exact-rational evaluations use the published CODATA G correlations 0.351, 0.134, and 0.068 with the table's rounded uncertainties and factor 3.9.
 
-Current CI status at packet creation: first attempt failed only because two redundant `ring` tactics followed `field_simp` after the goals had already closed; that was corrected. The subsequent workflow attempt was in progress. Do not treat compilation as measurement validation or as an H(s)H physical proof.
+CI is now **SUCCESS** on corrected PR head `7e6cdf625adea090fdb3905ea152d5e70f913702`: run #41636346096, job #125918561757, Lean 4.34.0/Lake 5.0.0, 8,945 build jobs. The first attempt failed only because two redundant `ring` tactics followed `field_simp` after the goals had already closed; those tactics were removed. The dedicated axiom-audit, nanoda, lint, and test steps were skipped. Do not treat compilation as measurement validation or as an H(s)H physical proof.
 
 ## H(s)H boundary
 
@@ -35,3 +35,10 @@ The torsion-balance torque equation is a concrete possible observable interface,
 - Draft formalization: https://github.com/Satobloc/HsH/pull/1306
 
 No action is required unless this source set intersects Aldus's existing remit. No inbox was modified because no current Aldus inbox path was verified.
+
+## Final status update (2026-11-03T12:48Z)
+
+- HsH public publication submission: issue [#1308](https://github.com/Satobloc/HsH/issues/1308), submission ID `nist-g-2026-codata-2022-covariance-formalization-20261103-002`, SHA-256 `3d1d16073a6a71eb6e47eede96d7a0302d99ed0cafb78b48b407134ee1c748bb`. Status at handoff update: SUBMITTED_NOT_VERIFIED; publisher comment and independent file readback still required.
+- Earlier malformed submission #1307 was rejected by the publisher for SHA-256 mismatch, then closed with an explanatory comment. No published file was created from #1307.
+- Factory Floor 1 GLASS+HSH intake issue [#15](https://github.com/Satobloc/FACTORY_FLOOR/issues/15) was opened for independent review of the conditional covariance theorem. It is review intake only, not H(s)H candidate status.
+- No Aldus inbox path was verified; this packet remains repository-only. No task or ownership transfer, and no cross-thread delivery or acknowledgment is claimed.
