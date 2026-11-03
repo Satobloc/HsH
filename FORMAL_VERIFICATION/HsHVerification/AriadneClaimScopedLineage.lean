@@ -278,7 +278,9 @@ This is an index-alignment map only, not a causal-copy or author map.
 
 /-- Translate a one-indexed half-open line span by a nonnegative offset. -/
 def shiftSpan (offset : Nat) (span : LineSpan) : LineSpan :=
-  ⟨span.firstLine + offset, span.afterLastLine + offset, by omega⟩
+  ⟨span.firstLine + offset, span.afterLastLine + offset, by
+    have h := span.nonempty
+    omega⟩
 
 def spanLength (span : LineSpan) : Nat :=
   span.afterLastLine - span.firstLine
@@ -287,6 +289,7 @@ def spanLength (span : LineSpan) : Nat :=
 theorem shiftSpan_preserves_length (offset : Nat) (span : LineSpan) :
     spanLength (shiftSpan offset span) = spanLength span := by
   unfold spanLength shiftSpan
+  have h := span.nonempty
   omega
 
 /-- Successive line-index translations compose by addition of offsets. -/
@@ -295,7 +298,7 @@ theorem shiftSpan_composes (a b : Nat) (span : LineSpan) :
         (shiftSpan (a + b) span).firstLine ∧
     (shiftSpan b (shiftSpan a span)).afterLastLine =
         (shiftSpan (a + b) span).afterLastLine := by
-  constructor <;> simp [shiftSpan] <;> omega
+  constructor <;> simp [shiftSpan, Nat.add_assoc]
 
 /-- The actual audited common-core coordinates are related by +122 lines. -/
 theorem kirk_to_ready_room_core_map :
@@ -303,7 +306,7 @@ theorem kirk_to_ready_room_core_map :
         readyRoomCommonCore.firstLine ∧
     (shiftSpan 122 kirkCommonCore).afterLastLine =
         readyRoomCommonCore.afterLastLine := by
-  simp [shiftSpan, kirkCommonCore, readyRoomCommonCore]
+  constructor <;> norm_num [shiftSpan, kirkCommonCore, readyRoomCommonCore]
 
 theorem kirk_ready_room_core_length :
     spanLength kirkCommonCore = spanLength readyRoomCommonCore := by
@@ -386,7 +389,7 @@ theorem kirk_ready_room_content_is_not_independent :
 theorem kirk_ready_room_primary_origins_remain_unresolved :
     kirkReadyRoomAxes.primaryOrigins = .unknown ∧
       kirkReadyRoomAxes.primaryOriginsComplete = false := by
-  rfl
+  constructor <;> rfl
 
 theorem kirk_ready_room_source_independence_not_established :
     ¬ primaryOriginIndependent kirkReadyRoomAxes := by
@@ -408,7 +411,7 @@ theorem overlap_can_coexist_with_disjoint_primary_origins :
   · simp [primaryOriginIndependent, overlapWithDisjointOrigins]
   · simp [contentIndependent, overlapWithDisjointOrigins]
 
-/-- The two executable readouts are intentionally separate. -/
+/- The two executable readouts are intentionally separate. -/
 #eval contentIndependentBool kirkReadyRoomAxes
 #eval primaryOriginIndependentBool kirkReadyRoomAxes
 #eval primaryOriginIndependentBool overlapWithDisjointOrigins
