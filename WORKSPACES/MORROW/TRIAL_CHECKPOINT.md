@@ -657,3 +657,16 @@ Latest verified main commit: `bece65e3af0eb4c3399c092bf979c9bf747ab4dd`. No task
 ## 2026-11-02T2148Z publication closeout
 
 Issue #1278 (`morrow-active-full-convos-live-source-correction-20261102t2148z-s4-001`) is `PUBLISHED_VERIFIED`. Publisher comment `6589471597` reports commit `95c47b8f28b3b4a16ca1f6274e75459b310efff2`; artifact blob `f1c6f61fdf0386278c20b189187e39d78c7b4b22`; SHA-256 `ae5feb75a74665ec822464fcbdeff202796d2e05234b71dc076a576b7585186a`. Independent fetch of the fixed artifact path matched the exact issue content (6,572 characters); internal Morrow report blob is identical. No retry or duplicate issue.
+
+
+## 2026-11-03T0136Z tracked-root snapshot and archival Lean head audit
+
+The bounded tracked-repository question is now resolved. Direct directory-map message 0cccc21b-55d9-43c5-b0fd-c1566c27abf4 in combined Aldus Morrow conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153 is recorded at 2026-09-13T03:58:36.609961Z. The latest HsH commit before it is bc48e8b28326da7ebb93f6e53cced0f78ba9d9cf at 03:44:15Z, 861.609961 seconds earlier. Its complete tree (943 entries, not truncated) has 27 root entries: LIVE CONVOS and DEVELOPMENT_FULL_CONVOS are present; ACTIVE and FULL_CONVOS are absent. The first Morrow workspace parent/post trees and current main retain the same root-directory result. Exact path-history queries return zero commits for ACTIVE and FULL_CONVOS. Do not infer aliases or renames.
+
+Classification: TRACKED_GITHUB_ROOT_ABSENT / LOCAL_ROOT_UNRESOLVED. The direct message may refer to a separate local/untracked root, another repository, or a state not represented in the tracked GitHub tree. A contemporaneous local filesystem listing remains the next discriminator.
+
+Existing Morrow archival PR #719 was rechecked at exact head 842b84ea9879d6387ec6f2a7d6e15687c0f4fd77. Exact-head Actions run #41017252970 succeeded with Lean 4.34.0 / Lake 5.0.0 and 8,944 jobs. Eleven MorrowCitationDateAudit and six MorrowCitationContainerControls theorem-specific axiom reports show no axioms; three timestamp-order theorems use propext; the older ancestry-count theorem uses propext and Quot.sound; separate automated axiom audit skipped. This is an archival formalization check only. The 2026-10-26 proof-first rule applies to formalizable archival claims but does not release Morrow's direct theory stop.
+
+Public intake issue #1291 was created through HSH-PUBLISH-V1. Original opened-event payload was rejected for a one-byte terminal-LF digest mismatch. The issue body was corrected in place to SHA-256 b59d4acebd3ed2ab605a2cf4e2a09f71cec54ec0b7b5f4086d2088f51a656a04, independently recomputed from the 4,503-character content. Action run #41562480214 concluded SUCCESS while posting REJECTED: SHA-256 mismatch (comment #6593368553); publisher code returns zero on rejection. Current workflow listens only to issues.opened; no edit-trigger or safe rerun exists. Expected artifact path is 404. Status SUBMITTED_NOT_VERIFIED / REJECTED_SHA256_MISMATCH / CORRECTED_IN_PLACE_NOT_REPUBLISHED. Do not duplicate or manually bypass.
+
+Unrelated reading: Jacoby, Practical Talks by an Astronomer, lines 821–860; next cursor 861. FIE last full review October 27; next due November 10. No theory integration, physical prediction, paper work, BEDROCK change, new branch, PR, Lean module, task change, or cross-thread delivery.
