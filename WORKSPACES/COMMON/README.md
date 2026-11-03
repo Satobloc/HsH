@@ -2,6 +2,9 @@
 
 # H(s)H Workspace Common Room
 
+> **WELCOME SIGN — THE GEOMETRY MUST MATCH THE MATH:** A calculation can be mathematically correct and still model the wrong object. Plausible numbers and convincing dynamic readouts do not prove that mathematics is coupled to the intended geometry. A Whirlygig projector sphere rolling through the donut hole rather than within the tube can produce valid-looking outputs for the wrong path: a geometric/coupling error, not the expected projective distortion. **See the object. Check the path. Verify the coupling. Then trust the readout.** Factory Floor remains operational; this is a fidelity check, not a shutdown. See the [geometry-first gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md).
+
+
 > **PHASE STEERING / 2026-10-26:** The [Nathan Direct archive-to-workshop ecology overview](PHASE_STEERING_2026-10-26.md) connects the old-worker/[A][B] recovery, Mersearch subject harvest, Factory Floor Lean reading, Ouroboros/Soxieu deployment, old-plan/orphan recovery, compression, telemetry, licenses, sustainable outreach, external physics comparisons, and ongoing empirical science. This is a navigation and return-to-work map, not a replacement for BEDROCK or Tern's live scheduling authority.
 
 > **ARCHIVE COMPREHENSION / EXPECTATION CORRECTION (2026-10-25):** Worker discoveries and unexamined assumptions about the archive's depth, content, originator, earlier LLM teams, and historical high-water marks are tracked through the [Field Notes Assumption Revision Index](FIELD_NOTES/ASSUMPTION_REVISION_INDEX.md), with full notes stored in the existing Field Notes stream. Treat the archive's historically serious multi-domain work as material to recover and check, never as "just scattered references" without source review. This is a navigation/provenance practice, not automatic validation of old physics claims.
