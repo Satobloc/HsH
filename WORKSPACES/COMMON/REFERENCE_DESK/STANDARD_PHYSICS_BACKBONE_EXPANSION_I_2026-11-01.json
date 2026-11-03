@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "status": "STAGE_A_BACKBONE_EXPANSION_NONCANONICAL",
+  "status": "STAGE_A_NAVIGATION_ONLY_NOT_FACTORY_FLOOR_ELIGIBLE",
   "created": "2026-11-01",
   "companion_markdown": "STANDARD_PHYSICS_BACKBONE_EXPANSION_I_2026-11-01.md",
   "scope": [
@@ -333,5 +333,17 @@
     "fabricated_data_used": false,
     "sat_hsh_claims_added": false,
     "status": "BACKBONE_EXPANSION_I_PUBLISHED_NOT_CANONICAL"
+  },
+  "geometry_gate": {
+    "directive": "WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md",
+    "status": "GEOMETRY_NOT_SUPPLIED",
+    "reason": "Theory-network nodes and edges are not object-specific geometric plots of the physical/theoretical systems they describe.",
+    "required_before_factory_floor": [
+      "source-faithful quaternary plot for each relevant physical/theoretical object",
+      "independent hostile geometric-fidelity review tied to exact plot hash",
+      "plot displayed with the submitted artifact",
+      "tertiary dynamic geometric software model where dynamics/response/evolution are material"
+    ],
+    "note": "Existing Stage-A source/navigation work is retained; no Factory Floor promotion is permitted."
   }
 }
