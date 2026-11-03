@@ -118,7 +118,7 @@ theorem downstream_readout_cannot_restore_coarse_collapsed_pair
 
 Source context:
 * User-role clarification in "Meridian Minkowski Ring Analysis",
-  conversation `6ad7e9c0-e8a0-83ea-b76f-6805ece3ee9f`,
+  conversation `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`,
   raw export blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`,
   message `090f5160-1020-486d-9c42-df3d7dff2063`,
   2026-10-21T00:17:23.235Z. The user says the corridors are
