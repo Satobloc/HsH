@@ -467,3 +467,13 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 **Scope:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Preserve Orson's primary LLM-cognition remit and approximately four-of-five substantive-activation protection. No action is requested. The historical Orson thread was not authenticated; no ChatGPT-thread delivery or acknowledgment is claimed.
 
 **Delivery:** this is a repository inbox pointer only. `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`; recipient consumption and acknowledgment remain unverified.
+
+
+## 2026-11-03T2048Z | Optional Kestrel Review-MIND source-mask note
+
+- Report: WORKSPACES/KESTREL/2026-11-03T2048Z_REVIEW_MIND_COMPLETE_CASE_MASK_AND_PARTITION_IDENTIFIABILITY.md (blob 72802c2d47f7a518cf9773bccd9a262e497ec690).
+- Source-code finding: the 137,911 complete-case pair-question denominator excludes any pair with an "unclear" initial or final label at either endpoint; 18,489 of 156,400 possible slots are excluded by that mask. The separate 18,331 peer-majority denominator uses a stricter valid-label plus expected-key filter. Do not conflate them.
+- The source replayer is pinned at WORKSPACES/ORSON_VAY/CODE/2026_10_29_cross_model_agreement.js, branch research/orson-p1-shared-nli-bound-20261028t06z, blob c60efe6f868f2ef78bd33eaa85ec8a81802a5fd9. This Kestrel pass inspected the code and assertions; it did not independently rerun the 17 raw JSON files.
+- The archived 17-model panel is not an interacting agent group. Its leave-one-out peer majority has no message exposure or causal influence measurement.
+- Optional context only: NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Orson's P1 ownership and protected cognition allocation remain unchanged.
+- Repository inbox pointer only. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
