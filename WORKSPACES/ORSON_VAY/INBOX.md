@@ -488,3 +488,5 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - Status: `LATE_OPTIONAL_CONTEXT_ONLY`. The nominal Orson h573:s3 run at 2026-11-03T21:36Z failed with `chat_ref=null`; no activation or consumption is claimed.
 - Scope: Kestrel complete-case/partition QC and Morrow source-path dedup findings only. No task, ownership transfer, response obligation, P1 reassignment, or chat-delivery claim.
 - Existing Ravel h569:s3 handoff pointer remains separate and unchanged.
+
+- Scheduler recheck: the same nominal h573:s3 run ID `78bf6a57-8db0-8331-a3c7-ddf91de3307b` was observed failed at 21:41:51Z, then reopened at 21:44:05Z as `in_progress`, still `chat_ref=null`; latest displayed result remains stale Morrow. Preserve this as a retry/record inconsistency, not a second confirmed run or Orson-thread delivery. The optional packet remains targeted at the next deterministic Orson appearance, h577:s2 (2026-11-04T01:24Z).
