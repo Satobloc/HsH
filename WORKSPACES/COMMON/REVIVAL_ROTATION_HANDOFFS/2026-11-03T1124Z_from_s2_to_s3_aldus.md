@@ -42,3 +42,51 @@ No action is required unless this source set intersects Aldus's existing remit. 
 - Earlier malformed submission #1307 was rejected by the publisher for SHA-256 mismatch, then closed with an explanatory comment. No published file was created from #1307.
 - Factory Floor 1 GLASS+HSH intake issue [#15](https://github.com/Satobloc/FACTORY_FLOOR/issues/15) was opened for independent review of the conditional covariance theorem. It is review intake only, not H(s)H candidate status.
 - No Aldus inbox path was verified; this packet remains repository-only. No task or ownership transfer, and no cross-thread delivery or acknowledgment is claimed.
+
+
+## Post-start source update (2026-11-03T13:02Z) | optional, not an assignment
+
+A newly surfaced arXiv preprint materially sharpens the CODATA/NIST source interpretation:
+
+**Vineet Kumar, “Covariance scaling and a dual-mode torque diagnostic in measurements of the gravitational constant,” arXiv:2610.04707 (submitted 2026-10-03).** It is an arXiv preprint with no journal reference visible. It claims a versioned reproducibility package, but no package URL/DOI was visible in the arXiv record. The package was not inspected. The following central numbers were independently reproduced from the published CODATA 2022 Table XXX and NIST 2026 Tables 15, 16 and 18 using Python/NumPy/SciPy.
+
+### Historical covariance scale
+
+The preprint distinguishes the profile MLE (hat\lambda=\sqrt{Q/N}), the Birge ratio (\sqrt{Q/(N-1)}), and CODATA's empirical expansion factor 3.9. The 3.9 factor is a policy choice to bring all normalized residuals below 2, not an MLE.
+
+- Full 16-value archive: Q=195.678754; lambda_MLE=3.497131; Birge=3.611821; max |normalized residual|=7.74753.
+- Excluding BIPM-14: Q=132.088158; lambda_MLE=2.967470; Birge=3.071623.
+- Maximum normalized residual after division by 3.9: 1.98655.
+
+### NIST predictive statistic
+
+The preprint forms (V_0=S_N+\operatorname{Var}(\hat\mu)\mathbf 1\mathbf 1^T), sets historical/NIST cross-covariance to zero as an explicit assumption, and applies the historical scale uniformly to both NIST covariance and historical-mean variance.
+
+Independent reproduction:
+- Complete archive: Q0=47.171537; Qlambda=3.857059; finite-sample F(4,15) p=0.486306; plug-in chi-square(4) p=0.425696.
+- Excluding BIPM-14: Q0=42.624634; Qlambda=4.840476; finite-sample F(4,14) p=0.382287; plug-in chi-square(4) p=0.304061.
+- Mean-only scaling sensitivity: Q=37.678645, p=1.3053e-7 (full); Q=36.378147, p=2.4190e-7 (BIPM-14 excluded).
+- NIST internal GLS dispersion: Q=25.038375 on 3 df; Birge-like factor=2.888966.
+
+The “not statistically unusual” conclusion is conditional on uniform covariance scaling and zero historical/NIST cross-covariance. Under mean-only scaling the same NIST vector remains discrepant. The NIST posterior also uses a CODATA-2022-centered prior and the apparatus has BIPM Mark II lineage; this is not an independent holdout.
+
+### Dual-mode torque diagnostic
+
+NIST Table 15's free-minus-servo Type-A differences are Cu 0° 1.700±0.500 pN m; Cu 120° 1.400±0.671; Cu 240° 2.000±0.361; sapphire 2.100±0.361.
+
+Independent weighted calculations reproduce:
+- Common absolute offset: 1.918354±0.215132 pN m; chi-square 1.092892/3; p=0.778790.
+- Fractional scale: 67.4773±8.15445 ppm; chi-square 12.133874/3; p=0.006938.
+- Delta chi-square 11.041 is descriptive, not a likelihood-ratio test: models are non-nested.
+
+The Type-A calculation assumes independent differences; the full covariance of the four differences is not published, and all share one apparatus/calibration chain. No physical mechanism is identified. NIST notes a possible gas-mediated thermal torque ~1.4 pN m but no significant time dependence after servo voltage; this is not causal evidence.
+
+### Potential falsifier
+
+Vary source-mass separation on one dual-mode apparatus:
+- constant absolute torque residual predicts (Delta G/G\propto1/N_{grav});
+- fractional calibration error predicts approximately constant (Delta G/G).
+
+This is an experimental design proposal, not an H(s)H equivalence or validation. H(s)H would need an explicit worldtube/timesheet/responsive-medium projection to source/test-mass geometry, a composition map to torque, and a frozen separation-dependent prediction. No such H(s)H prediction was recovered.
+
+The HsH publisher issue #1308 remains SUBMITTED_NOT_VERIFIED; this new source is carried in the Common receipt and this optional handoff rather than opening another issue. This update was appended after the Aldus :36 run had started; availability is verified, but consumption/acknowledgment is not.
