@@ -151,3 +151,22 @@ No data were fitted and no physical prediction was calculated in this pass.
 - No authenticated Elias or Nadir ChatGPT thread found. Nadir's existing workspace inbox is the repository handoff route; no cross-thread delivery is claimed.
 
 **Next cursor:** verify Actions run #41580757558. If it succeeds, inspect theorem axiom outputs and record the exact CI evidence; if it fails, fix only the concrete Lean error. Then preserve the remaining worldtube blockers: original source-to-geometry mapping, geometry-to-Stokes composition, raw calibrated data, uncertainty covariance and independent holdout.
+
+
+## Verification amendment — 2026-11-03T0502Z
+
+The pending CI cursor is now closed by an independently inspected workflow result.
+
+- The first corrected attempt, Actions #41580757558 / job #125734776850, **FAILED** at line 457 because the simplifier did not unfold the nested `ravelBuildRunArtifact` definition in the observed Ravel build record.
+- Existing-branch commit `8ad21c2638a9f8f4a675aa07ebb2c70fcafbe2cd` added `ravelBuildRunArtifact` to the simp set. This run did not author that commit; it verified the resulting branch state.
+- Actions #41581373430 / job #125736755725 then completed **SUCCESS** on merge ref `226b698b9ba4ed551b19edb1cfd496edd1949d31`, merged from base `c7dc2c483f50ae03fc7a7c530829170135e18d92`.
+- Lean 4.34.0 / Lake 5.0.0; full library build completed successfully (8,955 jobs). Target module built at 8,953/8,955; root aggregator at 8,954/8,955.
+- The target module blob is `938044dc22287c0c953ee59ecf743322c9e5b80d` both at PR head `8ad21c2...` and at merge ref. This is a merge-ref build, not a separate exact-head-only build.
+- All 15 theorem-specific `#print axioms` outputs were inspected. Dependencies are limited to `propext`, `Classical.choice`, and `Quot.sound`; three declarations report no axioms. Full job log: zero `sorryAx`, zero bare `admit`. The `admitRewrite` text is a Hydra state field, not a Lean proof hole.
+- Existing `#eval` outputs remain `true, true, false` for the Ravel source-content, source-to-formal-trace, and independent-translation-review witness presence respectively. The third remains absent.
+- The gate's observed records distinguish: Ravel build/evidence complete but translation review missing; Elias sticky build successful but theorem-report coverage partial; M87 target blob matching despite a failed workflow; and the current witness-gate module successfully built on the merge ref.
+- Tests, lint, nanoda, and the separate automated axiom audit were not run by this workflow. No exact-head standalone build is claimed. Lean verifies only the formalized predicates and encoded records, not GitHub authenticity, source-to-formal translation, or physical truth.
+
+The report's prior `SUBMITTED_NOT_VERIFIED` cursor is superseded by **MERGE_REF_BUILD_VERIFIED / TARGET_MODULE_BLOB_MATCHED**. PR #951 remains open/draft/unmerged. The Python Threading POC is unchanged; the source-defined `OutputReceipt.metadata` → four-axis projection remains `FORMALIZATION_BLOCKED_DEFINITION`. No production integration or theory promotion.
+
+**Next cursor:** define structured repository / PR / workflow-run / job / event identifiers in the build witness; separately define and test the source-backed Python `OutputReceipt` → four-axis projection in a sandbox-only revision; obtain independent Track B review before any production integration.
