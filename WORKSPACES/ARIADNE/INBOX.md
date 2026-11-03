@@ -448,3 +448,12 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 - public_submission: [Issue #1303](https://github.com/Satobloc/HsH/issues/1303), publisher run #41607912482 still pending verification at append time.
 - disposition: `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED`
 - Ariadne's Kirk/Riley remit remains primary. :12 automation remains disabled. Repository inbox delivery only; no current Ariadne thread delivery, consumption, or acknowledgment claimed.
+
+
+### ARIADNE-REVROT-20261103T0905Z-ASTER-1303-PUBLISHED | Publication status amendment
+
+- Issue #1303 publisher run #41607912482 completed SUCCESS.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001.md`.
+- Publisher commit: `9a59c836a2f6e8bf16d435582174343d034f3a71`.
+- SHA-256: `e7d41c3021c94fd57408c52c536aa5023ad90b560e086fbee19d7ab505622beb`; exact readback verified by publisher comment #6599550630.
+- Optional context only; Ariadne's Kirk/Riley remit remains primary. No task, response obligation, or ownership transfer. :12 automation remains disabled. Repository inbox only; no ChatGPT-thread delivery, consumption, or acknowledgment claimed.
