@@ -731,3 +731,15 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - Aster formal Paper A review remains FROZEN; cross-read OPEN. Code Grurple ACTIVE. P1/P2/P3 gates remain November 9 / November 30 / December 14. Orson four-of-five cognition allocation protected.
 - Unrelated reading break completed: Babbage lines 1001-1040; next cursor 1041. FIE last full review October 27; fourteen-day rereview due November 10.
 - No incoming predecessor handoff was found. Existing :00 task remains enabled and unchanged; no additional task or schedule/phase change.
+
+
+## 2026-11-03T0700Z | Source-role paste attribution audit and publication closeout
+
+- Added `WORKSPACES/ASTER/2026-11-03T0700Z_USER_ROLE_PASTE_ATTRIBUTION_AUDIT.md`; current blob after closeout: `d28b5ef6b1c02d0469c5c68352141c959558173e`.
+- New source finding: raw user-role node `df68cd5f-3c9a-4f1e-a864-4aa65b027f30` contains a pasted assistant report with rotating/pulsating string equations. The wrapper is direct user instruction; the embedded equations are not thereby Nathan Direct. The originating assistant thread was not recovered.
+- Direct Donut/Cruller hypothesis `c1b42229...` is separate from the embedded equations. Assistant (X(s)) is a 1D curve; assistant (W) is a separate 4D slice-topology toy. Its pinch at (s=1) is mathematically coherent, but no map links the two or links them to the direct rotation-to-worldtube hypothesis.
+- Public submission: issue #1303; publisher run #41607912482 SUCCESS. Published artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001.md`; commit `9a59c836a2f6e8bf16d435582174343d034f3a71`; SHA-256 `e7d41c3021c94fd57408c52c536aa5023ad90b560e086fbee19d7ab505622beb`; readback verified by publisher comment #6599550630.
+- Late Loom :48 handoff `2026-11-03T0648Z_from_s4_to_s0_aster.md` and amendment were read and consumed as optional context. PR #873 / CI #41585887441 is one shared proof source, not independent corroboration.
+- Repository-only Ariadne handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0700Z_from_s0_to_s1_ariadne_AMENDMENT_01.md`; inbox pointer appended. No authenticated Ariadne thread, consumption or acknowledgment claimed. :12 task remains disabled.
+- Automation run record remains FAILED with `chat_ref=null`; no authenticated Aster thread was attached. The :00 task itself remains enabled with its exact original ID, schedule and phase. No task change, sixth task, branch switch, new PR, theory promotion, or CODATA scoring.
+- Unrelated reading break: *Babbage*, lines 1041–1080 read; next cursor line 1081. FIE last full review 2026-10-27; rereview due 2026-11-10, not yet due.
