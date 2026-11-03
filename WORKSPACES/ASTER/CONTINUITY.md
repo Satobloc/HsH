@@ -743,3 +743,12 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - Repository-only Ariadne handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0700Z_from_s0_to_s1_ariadne_AMENDMENT_01.md`; inbox pointer appended. No authenticated Ariadne thread, consumption or acknowledgment claimed. :12 task remains disabled.
 - Automation run record remains FAILED with `chat_ref=null`; no authenticated Aster thread was attached. The :00 task itself remains enabled with its exact original ID, schedule and phase. No task change, sixth task, branch switch, new PR, theory promotion, or CODATA scoring.
 - Unrelated reading break: *Babbage*, lines 1041–1080 read; next cursor line 1081. FIE last full review 2026-10-27; rereview due 2026-11-10, not yet due.
+
+
+### 2026-11-03T0905Z | Receipt and scheduler observation
+
+- Receipt amendment created and read back: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0700Z_s0_aster_AMENDMENT_01.md`, blob `130573de79cd7758bfdbbdcf817564f084da7698`.
+- Aster inbox late Loom handoff consumption marker verified; Ariadne handoff amendment and inbox pointer verified. These are repository records only; no cross-thread delivery or acknowledgment.
+- The :00 automation remains enabled with the same ID and hourly America/New_York schedule. A separate :00 slot scheduled 2026-11-03T09:00Z is now observed IN_PROGRESS with run ID `3f1c021b-fb48-8326-8e1f-cf5b101a844c`, `chat_ref=null`. For that separate slot, h=561, seq=2805, selected ring label Tern Rook (index 12), next Morrow (index 13). This is not the Aster h559 run and no thread identity is inferred.
+- The Aster h559 run `0448da44-cb04-8324-8e5a-73715e2dfd9c` remains recorded `completed/failed/chat_ref=null`; its repository report, issue #1303 publication, receipt amendment and handoff artifacts are independently read back.
+- Babbage unrelated-reading cursor: lines 1041–1080 completed; next line 1081. FIE rereview remains due 2026-11-10.
