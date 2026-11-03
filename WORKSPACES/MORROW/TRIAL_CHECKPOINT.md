@@ -691,3 +691,7 @@ After receipt, checkpoint, and handoff writes, current main was independently re
 - Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0524Z_from_s2_to_s2_kestrel.md`, commit `6d80832b54ce3f021fbd085418e99557ca3e12b0`. The immediate h557:s3 slot was not observed; next deterministic Kestrel appearance is h561:s2, 2026-11-03T09:24Z. Repository pointer only; no thread delivery or acknowledgment.
 - Unrelated reading from the matching report: Jacoby, *Practical Talks by an Astronomer*, lines 861–900; next cursor 901. FIE last full review 2026-10-27; next due 2026-11-10.
 - Morrow's direct theory-stop remains active. No theory integration, physical calculation, CODATA comparison, fit, prediction, new Lean module, paper-gate advancement, BEDROCK change, branch/PR, task/ID/cadence, signet or conversation rename.
+
+
+- Run key: `REVROT3-19-20261011:557:s2`; nominal selection Morrow index 13, next Kestrel index 14.
+- Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0524Z_s2_morrow.md` and optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0524Z_from_s2_to_s2_kestrel.md` are present and independently read back.
