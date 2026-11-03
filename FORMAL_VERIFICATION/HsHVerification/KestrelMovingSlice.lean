@@ -19,6 +19,15 @@ Direct user nodes:
   helix cross-section, not pitch.
 * `aaa2d58f-3738-44f9-9fcc-d4c054b23c2a`: rejects a maximum/minimum
   radius interpretation for a perfect helix.
+* `aaa26a36-fc31-4d8f-8c66-c1743e7fbaf5`: the plane is z-normal and moves
+  at rate T; the line lies in the yz-plane, and the user asks whether its
+  in-plane y-coordinate moves at the same rate.
+* `aaa2b827-4eee-4ec0-a4ea-74d4b2a1f0ca` and
+  `aaa27985-2676-48d7-a602-7ad1e2f6ea2d`: tilted-axis/orbit discussion.
+  The phrase comparing an angle to helix pitch is dimensionally
+  underspecified and is not used as a formal premise below.
+* Assistant message `e7abb2e5-0991-408c-a5bb-4abbe26c6f55` incorrectly
+  affirms the y-rate equals T without a slope restriction.
 
 Historical flattened source: SAT archive `RMS SAT.txt`, Git blob
 `4eb4146f74b089aa7d587bbf9cbcbc6c56c49513`.
@@ -75,6 +84,53 @@ theorem diagonal_trace_rate_not_equal
   have hzero : (slope - 1) * dz = 0 := by
     nlinarith [htrace, heq]
   exact (mul_ne_zero (sub_ne_zero.mpr hslope) hdz) hzero
+
+/-!
+## Exact affine slope factor for a moving z-normal slice
+
+The 2024 direct description specifies a line in the y-z plane and a
+z-normal plane moving at rate T, but the assistant's equality of the
+in-plane y-rate with T omits the line's slope. The following conditional
+coordinate model makes the missing ratio explicit. It is a mathematical
+reconstruction, not a verbatim Nathan equation or physical measurement.
+-/
+
+/-- A straight line in the y-z plane, parameterized by s. -/
+def yzLinePoint (y0 z0 dy dz s : ℝ) : ℝ × ℝ :=
+  (y0 + dy * s, z0 + dz * s)
+
+/-- The parameter at which the line meets z = z0 + speed * t. -/
+def movingSliceLineParameter (dz speed t : ℝ) : ℝ :=
+  speed * t / dz
+
+/-- The point where the line meets the moving z-normal plane. -/
+def movingSliceIntersection (y0 z0 dy dz speed t : ℝ) : ℝ × ℝ :=
+  yzLinePoint y0 z0 dy dz (movingSliceLineParameter dz speed t)
+
+/-- For nonzero z-direction, the constructed intersection lies on the
+moving plane z = z0 + speed * t. -/
+theorem moving_slice_intersection_on_plane
+    (y0 z0 dy dz speed t : ℝ) (hdz : dz ≠ 0) :
+    (movingSliceIntersection y0 z0 dy dz speed t).2 = z0 + speed * t := by
+  simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
+  field_simp [hdz]
+  ring
+
+/-- The exact in-plane y-displacement rate is (dy/dz) times the plane
+speed. The source assistant's rate-equals-T claim is the special case
+dy = dz, not the general diagonal-line case. -/
+theorem moving_slice_intersection_y_rate
+    (y0 z0 dy dz speed t1 t2 : ℝ)
+    (hdz : dz ≠ 0) (ht : t1 ≠ t2) :
+    ((movingSliceIntersection y0 z0 dy dz speed t2).1
+      - (movingSliceIntersection y0 z0 dy dz speed t1).1) / (t2 - t1)
+      = (dy * speed) / dz := by
+  simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
+  field_simp [hdz, ht]
+  ring
+
+#print axioms moving_slice_intersection_on_plane
+#print axioms moving_slice_intersection_y_rate
 
 #print axioms moving_slice_ellipse
 #print axioms tilted_slice_not_circle
