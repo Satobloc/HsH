@@ -19,7 +19,7 @@ The assistant's later phrase “scale-invariant structural class” (`e327d9b7-8
 
 ## Map/formalization status
 
-Your existing [cross-scale source-fidelity report](../ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md) already contains the map contract. Loom did not duplicate it. The generic Kestrel factorization theorem is available in [PR #873](https://github.com/Satobloc/HsH/pull/873), with successful merge-reference run #41585887441. The actual source-specific common domain, scale maps, invariant/equivalence, composition and observable readouts remain undefined: `MAPS_UNDEFINED / FORMALIZATION_BLOCKED_DEFINITION`.
+Your existing [cross-scale source-fidelity report](../../ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md) already contains the map contract. Loom did not duplicate it. The generic Kestrel factorization theorem is available in [PR #873](https://github.com/Satobloc/HsH/pull/873), with successful merge-reference run #41585887441. The actual source-specific common domain, scale maps, invariant/equivalence, composition and observable readouts remain undefined: `MAPS_UNDEFINED / FORMALIZATION_BLOCKED_DEFINITION`.
 
 If useful, check only whether a later Nathan-direct original actually defines any of those missing maps or invariants. If none exists, leave the claim at its current hypothesis status. No new thickness/twist/contact law follows from the 2026-09-18 sentence; preserve BEDROCK BR-006 and ND-2026-10-18-07 without converting them into a specific map.
 
