@@ -1,28 +1,28 @@
 {
-  "request_id": "ariadne-worldtube-source-strata-20261103-2224",
-  "requester": "Workshop Relay :24 / Ariadne source archaeology; current assistant reconstruction, not authenticated historical Ariadne thread",
-  "requested_at": "2026-11-03T22:24:00Z",
+  "request_id": "mira-mind-braid-interaction-origin-20261103-2248",
+  "requester": "Workshop Relay :48 / Mira ring label; current assistant reconstruction, not an authenticated historical Mira thread",
+  "requested_at": "2026-11-03T22:22:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((filament NEAR/12 worldtube) OR (timesheet NEAR/12 filament) OR (\"time surface\" NEAR/12 filament) OR \"one helical core\" OR \"hollow outer coil\" OR (worldtube NEAR/12 inertia) OR \"moving 3D bulk\")) OR ((path:*SAT4D* OR path:*SAT*O1* OR path:*BLOCKWAVE* OR path:*Blockwave*) AND (filament OR worldtube OR timesheet OR \"two-form current\" OR V_tension OR \"gamma^mu\"))",
-  "purpose": "Source-stratigraphy retrieval for Lane 24. Locate primary SAT-O O1 and SAT4D source witnesses, original Blockwave equation/action records, and raw Nathan Direct user-role statements that define filament, worldtube, timesheet/time-bulk, and core geometry. Preserve exact repository/path, source commit/blob SHA, document-internal date/byline versus first extant commit date, raw conversation ID, message UUID, timestamp, outer role, parent ancestry and adjacent context. Distinguish document-level byline, user-role primary statements, assistant-generated Blockwave reconstruction, derivative copies, and later corrections. Identify exact verbatim equations without repairing them; list proposed/corrected equations separately with provenance. Search all three permitted repositories under stable 1.0 defaults. Do not expose raw excerpts or detailed private HSH_RESOURCES paths. This is source recovery only, not a physical equivalence claim, CODATA comparison, theory promotion, or new Lean proof.",
+  "query": "(author:user AND ((\"multi-agent\" OR \"human-LLM\" OR \"agent group\" OR \"group interaction\" OR \"peer interaction\" OR \"message passing\" OR \"cross-agent\" OR \"shared context\") OR (braid OR \"Braid Theory\" OR \"triple braid\" OR \"braid of braids\" OR cabling OR \"configuration space\" OR worldline OR worldtube OR timesheet))) OR ((path:*MIRA* OR path:*BRAID* OR path:*AGENT* OR path:*COGNITION*) AND (braid OR \"group interaction\" OR \"message passing\" OR \"peer exposure\" OR \"shared context\" OR worldline OR worldtube OR timesheet))",
+  "purpose": "Internal-first source recovery only. Locate Nathan Direct original statements about braid/braided-worldtube geometry and documented human-LLM or agent-group interaction records. Identify actual archived interaction records rather than synthetic models or static cross-model comparisons. Preserve exact repository/path, source commit/blob SHA, conversation/message UUIDs, outer role, parent ancestry, timestamps, model/provider metadata, recipient exposure/delivery evidence, raw output locators, source hashes, and duplicate/copy lineage. Distinguish source-authored geometry, assistant reconstruction, actual observed interaction, and proposed experiment. This is discovery and source-custody work, not a new trial or theory claim.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate SAT-O/SAT4D/Blockwave primary source paths, blob SHAs, document dates/bylines and first extant commit dates",
-    "candidate raw Nathan Direct message UUIDs, UTC timestamps, outer roles, conversation IDs, parent ancestry and adjacent context",
-    "duplicate/derivative/source-parent relationships and exact source equations",
-    "explicit gaps, scan exclusions and three-repository coverage limits"
+    "candidate original user-role braid/geometry messages with conversation/message IDs, timestamps, parent IDs and adjacent context",
+    "candidate documented human-LLM/agent interaction records with recipient exposure and delivery evidence",
+    "source blob hashes, branch/ancestry, duplicate/snapshot/derivative relationships",
+    "explicit three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
-    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
-    "Preserve default QUARANTINE and PRIOR_ART public-index exclusions",
-    "Do not treat compact receipts as exhaustive results or source-authorship proof",
-    "Do not silently correct original SAT-O/Blockwave equations; list corrections separately",
-    "No invented physical data, numerical fixtures, CODATA scoring, model fitting or prediction",
-    "No new tooling, branch, PR, paper claim, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
+    "Do not publish raw excerpts or detailed HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART exclusions",
+    "Do not re-run or reanalyze Orson's frozen ConsistencyBench/OV P1 dataset or bank",
+    "Do not infer peer exposure from static cross-model comparisons, synthetic agents, model labels, or shared evaluator outputs",
+    "No model calls, API spend, human-subject session, new trial, invented subject result, or fabricated data",
+    "No new tooling, branch, PR, issue, paper claim, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
   ],
   "status": "requested",
   "lane": 3
