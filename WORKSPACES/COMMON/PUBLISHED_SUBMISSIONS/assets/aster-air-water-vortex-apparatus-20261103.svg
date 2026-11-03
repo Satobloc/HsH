@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+  <pattern id="windowHatch" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M-2,10 L10,-2 M3,13 L13,3" stroke="currentColor" stroke-width="0.8" opacity="0.55"/>
+  </pattern>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6" fill="none" stroke="currentColor" stroke-width="1"/>
+  </marker>
+</defs>
+<rect width="900" height="760" fill="white"/>
+<g font-family="Arial, sans-serif" fill="currentColor">
+  <text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold">Air–water vortex apparatus: source-derived vertical section</text>
+  <text x="220" y="72" text-anchor="middle" font-size="13">r (cm)</text>
+  <text x="28" y="390" text-anchor="middle" font-size="13" transform="rotate(-90 28 390)">z (cm), positive downward from free surface</text>
+</g>
+<!-- Vessel: 21 cm diameter by 45 cm height, drawn at 13.33 px/cm. -->
+<rect x="80" y="90" width="280" height="600" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="80" y1="90" x2="360" y2="90" stroke="currentColor" stroke-width="1.8"/>
+<text x="220" y="84" text-anchor="middle" font-family="Arial" font-size="12" fill="currentColor">free surface, z = 0</text>
+<!-- Annulus: diameter 14 cm, depth 3 cm. -->
+<line x1="127" y1="130" x2="145" y2="130" stroke="currentColor" stroke-width="5"/>
+<line x1="295" y1="130" x2="313" y2="130" stroke="currentColor" stroke-width="5"/>
+<path d="M313 130 L375 155" fill="none" stroke="currentColor" stroke-width="1.1" marker-end="url(#arrow)"/>
+<text x="382" y="153" font-family="Arial" font-size="12" fill="currentColor">annulus Ø14 cm</text>
+<text x="382" y="169" font-family="Arial" font-size="11" fill="currentColor">3 cm below surface</text>
+<!-- Nature measurement band: 15.5 to 28.25 cm. -->
+<rect x="81" y="297" width="278" height="170" fill="url(#windowHatch)" stroke="currentColor" stroke-width="0.8" stroke-dasharray="4 3"/>
+<!-- PIV stations. -->
+<line x1="80" y1="423" x2="360" y2="423" stroke="currentColor" stroke-width="1.3" stroke-dasharray="2 4"/>
+<line x1="80" y1="383" x2="360" y2="383" stroke="currentColor" stroke-width="1.3" stroke-dasharray="7 3 1 3"/>
+<!-- Mean core axis, only to the reported vortex height. -->
+<line x1="220" y1="90" x2="220" y2="623" stroke="currentColor" stroke-width="1.4" stroke-dasharray="7 5"/>
+<text x="230" y="205" font-family="Arial" font-size="11" fill="currentColor" transform="rotate(90 230 205)">mean axis</text>
+<!-- Reported radius markers, magnified only by labels, not by a fabricated profile. -->
+<line x1="217.3" y1="357" x2="222.7" y2="357" stroke="currentColor" stroke-width="3"/>
+<path d="M224 357 L270 338" fill="none" stroke="currentColor" stroke-width="1.1" marker-end="url(#arrow)"/>
+<text x="278" y="337" font-family="Arial" font-size="11" fill="currentColor">a ≈ 2 mm</text>
+<path d="M220 623 L270 603" fill="none" stroke="currentColor" stroke-width="1.1" marker-end="url(#arrow)"/>
+<text x="278" y="602" font-family="Arial" font-size="11" fill="currentColor">a ≈ 1 mm</text>
+<!-- Drain plane at 40 cm, 5 mm reference gap. -->
+<line x1="80" y1="623" x2="216.7" y2="623" stroke="currentColor" stroke-width="1.5"/>
+<line x1="223.3" y1="623" x2="360" y2="623" stroke="currentColor" stroke-width="1.5"/>
+<text x="220" y="652" text-anchor="middle" font-family="Arial" font-size="11" fill="currentColor">drain plane; vessel continues to 45 cm</text>
+<text x="220" y="677" text-anchor="middle" font-family="Arial" font-size="10" fill="currentColor">lower 5 cm vessel zone</text>
+<!-- Dimension arrows. -->
+<line x1="58" y1="90" x2="58" y2="690" stroke="currentColor" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="45" y="390" text-anchor="middle" font-family="Arial" font-size="12" fill="currentColor" transform="rotate(-90 45 390)">45 cm vessel</text>
+<line x1="382" y1="90" x2="382" y2="623" stroke="currentColor" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="395" y="355" text-anchor="middle" font-family="Arial" font-size="11" fill="currentColor" transform="rotate(-90 395 355)">40 cm vortex</text>
+<!-- Notes panel. -->
+<g font-family="Arial, sans-serif" fill="currentColor">
+  <text x="445" y="95" font-size="15" font-weight="bold">DIMENSIONED APPARATUS</text>
+  <text x="445" y="121" font-size="12">Inner cylinder: Ø21 cm × 45 cm.</text>
+  <text x="445" y="140" font-size="12">Vortex height: 40 cm.</text>
+  <text x="445" y="159" font-size="12">Outer reservoir: 50 × 50 × 50 cm;</text>
+  <text x="445" y="176" font-size="12">relative placement is not dimensioned here.</text>
+  <text x="445" y="195" font-size="12">Four bottom inlets and two pumps;</text>
+  <text x="445" y="212" font-size="12">port locations are not dimensioned.</text>
+  <text x="445" y="231" font-size="12">Drain: 5 mm (PRL, Nature m=1);</text>
+  <text x="445" y="248" font-size="12">7 mm (Nature m=2).</text>
+
+  <text x="445" y="286" font-size="15" font-weight="bold">MEASUREMENT GEOMETRY</text>
+  <text x="445" y="312" font-size="12">Hatched band: Nature contour range</text>
+  <text x="445" y="329" font-size="12">z = 15.5–28 cm; Fourier window</text>
+  <text x="445" y="346" font-size="12">L = 12.5 cm centered at z = 22 cm</text>
+  <text x="445" y="363" font-size="12">(15.75–28.25 cm).</text>
+  <text x="445" y="382" font-size="12">Dotted line: Nature PIV plane z = 25 cm.</text>
+  <text x="445" y="399" font-size="12">Dash-dot: PRL PIV station 18 cm above</text>
+  <text x="445" y="416" font-size="12">drain; if H = 40 cm, z ≈ 22 cm (*).</text>
+
+  <text x="445" y="455" font-size="15" font-weight="bold">NATURE PHYSICS 2026</text>
+  <text x="445" y="481" font-size="12">300 fps; 2064 × 1564 px; 60 μm/px.</text>
+  <text x="445" y="498" font-size="12">Two readouts: η(z,t) and a(z,t).</text>
+  <text x="445" y="515" font-size="12">m=1: U=11 V, d=5 mm.</text>
+  <text x="445" y="532" font-size="12">m=2: U=9 V, d=7 mm.</text>
+
+  <text x="445" y="570" font-size="15" font-weight="bold">PRL 2026 FOLLOW-UP</text>
+  <text x="445" y="596" font-size="12">480 fps; 3 MPix; vertical window L=20.6 cm.</text>
+  <text x="445" y="613" font-size="12">Camera station 18 cm; window endpoints</text>
+  <text x="445" y="630" font-size="12">not stated. Random forcing: 1–3 Hz,</text>
+  <text x="445" y="647" font-size="12">amplitude 0.9–1.9 mm; readout η only.</text>
+  <text x="445" y="664" font-size="12">Same apparatus cited; annulus dimensions</text>
+  <text x="445" y="681" font-size="12">not restated in the follow-up.</text>
+</g>
+<text x="80" y="735" font-family="Arial" font-size="10" fill="currentColor">Profile limit: no continuous a(z) curve or unreported wave amplitude is interpolated. *The z conversion does not resolve the PRL v_z sign inconsistency.</text>
+</svg>
