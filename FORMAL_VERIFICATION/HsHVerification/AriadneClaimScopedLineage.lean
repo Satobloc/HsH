@@ -288,9 +288,7 @@ def spanLength (span : LineSpan) : Nat :=
 /-- Translation preserves the number of lines in a nonempty half-open span. -/
 theorem shiftSpan_preserves_length (offset : Nat) (span : LineSpan) :
     spanLength (shiftSpan offset span) = spanLength span := by
-  unfold spanLength shiftSpan
-  have h := span.nonempty
-  omega
+  simp [spanLength, shiftSpan, Nat.add_sub_add_right]
 
 /-- Successive line-index translations compose by addition of offsets. -/
 theorem shiftSpan_composes (a b : Nat) (span : LineSpan) :
@@ -413,6 +411,8 @@ theorem overlap_can_coexist_with_disjoint_primary_origins :
 
 /- The two executable readouts are intentionally separate. -/
 #eval contentIndependentBool kirkReadyRoomAxes
+#eval spanLength kirkCommonCore
+#eval spanLength readyRoomCommonCore
 #eval primaryOriginIndependentBool kirkReadyRoomAxes
 #eval primaryOriginIndependentBool overlapWithDisjointOrigins
 
