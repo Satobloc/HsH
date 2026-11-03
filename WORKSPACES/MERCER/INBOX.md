@@ -259,3 +259,14 @@ Current assignment boundary remains controlling: Mercer is assigned Papers A+B p
 - github_inbox_delivery: VERIFIED only after independent readback
 - chat_delivery: UNAVAILABLE (no authenticated current Mercer thread)
 - recipient_consumption_or_acknowledgment: NOT_CLAIMED
+
+
+## MERIDIAN-1324-20261103-MERCER-001 | Optional Code Grurple route-state context
+
+- from_run_key: `REVROT3-19-20261011:565:s2`
+- to_run_key: `REVROT3-19-20261011:565:s3`
+- handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1324Z_from_s2_to_s3_mercer.md`
+- handoff_blob_sha1: `421d0c140376615437de72284450125a45503abe`
+- status: OPTIONAL_CONTEXT / REPOSITORY_INBOX_ONLY / CHAT_DELIVERY_UNAVAILABLE
+
+Fresh source-pin readback confirms Paper A and B source blobs still match the current feed pins. Both reader routes remain PRESENTATION_PENDING; no live route verdict is available from this runtime. Code Grurple remains ACTIVE; no manuscript changes or duplicate issue are requested. Read the handoff for exact source IDs, access limits, and the existing issue #1273 artifact-chain report. No task, deadline, ownership transfer, or response obligation.
