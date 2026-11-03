@@ -67,7 +67,7 @@ Message `8695cf87-4875-4c05-aea0-077c22aaf1e7`, author role `user`:
 
 Aster's existing source-fidelity report already records the full proposed map contract; this Loom entry does not duplicate that derivation:
 
-- [Aster cross-scale source-fidelity report](../ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md)
+- [Aster cross-scale source-fidelity report](../../ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md)
 - [Morrow published source-custody issue #1300](https://github.com/Satobloc/HsH/issues/1300)
 
 The required source-defined objects remain absent from the direct statement: a common admissible configuration domain (X); scale-specific state/observable spaces (Y_s); projections/readouts (pi_s:X\to Y_s); transition maps (M_{s\to t}); explicit domains, units and admissibility conditions; the intended common invariant/equivalence relation; and observable compatibility maps.
