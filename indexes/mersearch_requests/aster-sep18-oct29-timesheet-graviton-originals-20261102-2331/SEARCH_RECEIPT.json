@@ -1,0 +1,202 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "002b0832d45e9ec98eae2552f7d784425cea43dcb74cd919920f1a89e8212f18",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-03T01:55:02.504810+00:00",
+  "query": "(date:2026-09-18 AND author:user AND (gluon OR neutrino OR soliton OR timesheet OR \"giant-neutrino\" OR \"same phenomenon\" OR \"same underlying phenomenon\")) OR (date:2026-10-29 AND author:user AND (graviton OR wavefront OR wavesheet OR waferont OR soliton OR timesheet))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16830,
+    "records_scanned": 21028558,
+    "hits": 10
+  },
+  "counted_hits": 10,
+  "distinct_sources": 2,
+  "results_by_root": {
+    "hsh-main": 10
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:user",
+      10
+    ],
+    [
+      "date:2026-09-18",
+      10
+    ],
+    [
+      "timesheet",
+      6
+    ],
+    [
+      "neutrino",
+      4
+    ],
+    [
+      "gluon",
+      2
+    ],
+    [
+      "giant-neutrino",
+      2
+    ],
+    [
+      "same phenomenon",
+      2
+    ],
+    [
+      "soliton",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "title": "Continuity Check Setup",
+      "record_count": 5,
+      "best_score": 91,
+      "first_hit_index": 0,
+      "sample_hit_index": 6,
+      "locator": "message:a6351349-02fa-4fd8-be46-8c1712865504",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet",
+        "giant-neutrino",
+        "same phenomenon"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "title": "Continuity Check Setup",
+      "record_count": 5,
+      "best_score": 91,
+      "first_hit_index": 1,
+      "sample_hit_index": 7,
+      "locator": "message:a6351349-02fa-4fd8-be46-8c1712865504",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet",
+        "giant-neutrino",
+        "same phenomenon"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:fbd02adc-8215-4935-811b-2ac95ba34633",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "neutrino",
+        "timesheet"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:fbd02adc-8215-4935-811b-2ac95ba34633",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "neutrino",
+        "timesheet"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:9f590865-c7d6-4bac-a7ce-aa24f006a583",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:9f590865-c7d6-4bac-a7ce-aa24f006a583",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:c9bf9955-f98f-4ac7-930a-d04ab54786b8",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "gluon",
+        "neutrino"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:c9bf9955-f98f-4ac7-930a-d04ab54786b8",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "gluon",
+        "neutrino"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:a6351349-02fa-4fd8-be46-8c1712865504",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet",
+        "giant-neutrino",
+        "same phenomenon"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "locator": "message:a6351349-02fa-4fd8-be46-8c1712865504",
+      "matched_terms": [
+        "date:2026-09-18",
+        "author:user",
+        "timesheet",
+        "giant-neutrino",
+        "same phenomenon"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
