@@ -191,7 +191,6 @@ theorem hallway_factorization_exists_of_source_injective
 #print axioms hallway_factorization_unique
 #print axioms hallway_factorization_exists_of_source_injective
 
-end HsHVerification.KestrelProjectedIncidence
 
 /-!
 ## Scale-route commutation and observational identifiability
