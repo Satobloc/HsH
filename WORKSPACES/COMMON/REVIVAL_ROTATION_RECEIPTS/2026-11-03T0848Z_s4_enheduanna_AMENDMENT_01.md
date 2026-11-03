@@ -40,7 +40,7 @@ The log reports:
 - The later magnitude-invariance theorem and no-go corollary did not complete. The module/root build failed. The first lemma's output is partial theorem-level information inside a failed module, not a successful module build or a completed proof gate.
 - No module-wide axiom audit or completed `sorryAx` scan is established by this failed run.
 
-A physical readout should also state `I_ann > 0) (or at least `I_ann ≠ 0`) as part of its meaningful domain. That condition is not needed for the purely algebraic phase-factor identity in every field convention, but it is required for the intended normalized observable to represent a nonzero annular intensity.
+A physical readout should also state `I_ann > 0` (or at least `I_ann ≠ 0`) as part of its meaningful domain. That condition is not needed for the purely algebraic phase-factor identity in every field convention, but it is required for the intended normalized observable to represent a nonzero annular intensity.
 
 **Recommended branch-graph state:** `LEAN_FAILED_MERGE_REF; EXACT_HEAD_NOT_RUN`, with the Vercel failure recorded separately. Keep the branch `blocked`. Do not call this a successful Lean proof.
 
