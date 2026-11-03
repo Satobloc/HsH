@@ -32,6 +32,15 @@ Use additive relations rather than destructive normalization:
 
 Controlling current guidance: `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, `WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md`, `WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, and newer Nathan directives. This register is an annotation aid only and does not promote, validate, reject, or silently modernize historical theory content.
 
+### 2026-11-03 — “different scale presentations of the same phenomenon”
+
+- **Nathan Direct source:** 2026-09-18, conversation `6aa9dd7c-065c-83ea-a610-10d78d9d04e2`, message `a6351349-02fa-4fd8-be46-8c1712865504`; source-tag ledger: [LOOM-TAG-20261103-001](../COMMON/tagging_ledgers/2026-11-03-LOOM-CROSS-SCALE-PRESENTATION-01.md).
+- **Unsafe collapse:** Do not translate this wording into scale invariance, same particle species, isomorphism/bijection, equal Q or braid count, or identical observables. The assistant's later phrase “scale-invariant structural class” (message `e327d9b7-8ee9-401a-9b40-d4f8119dc08d`) is assistant reconstruction, not Nathan Direct; the following direct turn prioritizes archive excavation without explicitly adopting it.
+- **Map gate:** A source-specific claim needs a defined common admissible domain, scale state spaces and projections, fiber-compatible transition maps, composition conditions, and observable/readout compatibility. Aster's cross-scale report already lays out this contract; Kestrel PR #873 supplies the generic conditional factorization theorem. Neither supplies the physical maps for these three proposed presentations.
+- **BEDROCK crosswalk:** Compatible with BR-006's framework-internal cross-scale continuity and ND-2026-10-18-07's nested-Q/coarse-graining distinctions, but does not instantiate either. Preserve the existing photoneutrino/ghost-neutrino/Jarlskog-Shadow hazard row; do not merge those labels.
+- **Geometry limit:** This sentence adds no thickness, coil-scale, twist, contact-surface, or constitutive relation. Existing finite-core constraints remain separate; no new scale-transfer law follows.
+- **Status:** `MAPS_UNDEFINED / FORMALIZATION_BLOCKED_DEFINITION / NO_EMPIRICAL_VALIDATION`. This is a source-typing guard, not a theory promotion.
+
 ## Next cursor
 
 Apply this register to one addressable Nathan-direct raw source containing a terminology collision, recording the exact historical wording and the minimum additive context tag without rewriting the source.
