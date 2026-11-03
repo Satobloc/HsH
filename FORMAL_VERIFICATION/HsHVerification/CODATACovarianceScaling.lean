@@ -49,7 +49,6 @@ theorem correlationCoefficient_recovers_factorization
     correlationCoefficient (covarianceFromCorrelation ρ u₁ u₂) u₁ u₂ = ρ := by
   unfold correlationCoefficient covarianceFromCorrelation
   field_simp [hu₁, hu₂]
-  ring
 
 /-- A uniform positive uncertainty expansion changes covariance by k² and preserves correlation. -/
 theorem correlationCoefficient_invariant_under_uniform_expansion
@@ -63,7 +62,6 @@ theorem correlationCoefficient_invariant_under_uniform_expansion
   unfold correlationCoefficient expandCovariance expandUncertainty
   have hk0 : k ≠ 0 := ne_of_gt hk
   field_simp [hu₁, hu₂, hk0]
-  ring
 
 /-- CODATA 2022 G table's common uncertainty expansion factor. -/
 def scaleFactor : ℚ := 39 / 10
