@@ -305,3 +305,8 @@ Supplemental receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-31T222
 - No incoming Mercer-to-Ravel repository handoff was found. Orson's :48 task run was still IN_PROGRESS, so no Orson inbox append or cross-thread delivery was attempted. The repository handoff packet is the only permissible delivery surface for this run.
 
 **Next cursor:** verify issue #1313 publisher run #41688580956, artifact readback, and SHA-256; then, after Code Grurple standdown, recover source-defined distinct interaction surfaces and exact geometry before formalizing any general readout-family theorem in the existing Lean project. Preserve Orson's P1 cognition remit; no task or ownership transfer.
+
+
+## 2026-11-03T1759Z | Issue-publisher retry status
+
+Issue #1313 remains the single publication submission. Publisher attempt 1 was cancelled at checkout after the five-minute job timeout; validation/publish/readback never ran and no artifact was created. The same workflow job #126100810768 was rerun without creating another issue; attempt 2 was QUEUED at 17:59:28Z. Status remains SUBMITTED_NOT_VERIFIED. Next run must verify the existing issue/artifact and SHA-256; do not duplicate the submission.
