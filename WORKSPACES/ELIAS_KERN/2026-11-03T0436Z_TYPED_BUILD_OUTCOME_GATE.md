@@ -170,3 +170,13 @@ The pending CI cursor is now closed by an independently inspected workflow resul
 The report's prior `SUBMITTED_NOT_VERIFIED` cursor is superseded by **MERGE_REF_BUILD_VERIFIED / TARGET_MODULE_BLOB_MATCHED**. PR #951 remains open/draft/unmerged. The Python Threading POC is unchanged; the source-defined `OutputReceipt.metadata` → four-axis projection remains `FORMALIZATION_BLOCKED_DEFINITION`. No production integration or theory promotion.
 
 **Next cursor:** define structured repository / PR / workflow-run / job / event identifiers in the build witness; separately define and test the source-backed Python `OutputReceipt` → four-axis projection in a sandbox-only revision; obtain independent Track B review before any production integration.
+
+
+## Publication verification — 2026-11-03T0522Z
+
+- Existing issue publisher submission: issue #1298, ID `elias-tracka-build-outcome-witness-20261103t0436z-s3-001`.
+- Publisher comment #6596148969 reports commit `2a59b6a1264130f983e5f684e513d7b078ce1f74` and SHA-256 `4f3b419fd1970b3b3b7fe6208265bb9bf087d46caebf8e36fbb0dc68d729bf16`.
+- Independently fetched fixed destination: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-build-outcome-witness-20261103t0436z-s3-001.md`; Git blob `326eda3d75f191f877391e5cb2764c7fd2985640`.
+- Issue-body content and fetched artifact content match exactly. Independently recomputed SHA-256 of the exact submitted UTF-8 content matches the publisher digest above.
+- Publication status: **PUBLISHED_VERIFIED**.
+- PR #951 received verification comment #6596167178 linking the public artifact and preserving the merge-ref / no-exact-head / no-translation-validation limits.
