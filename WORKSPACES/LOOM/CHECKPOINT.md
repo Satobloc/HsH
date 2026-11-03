@@ -574,3 +574,13 @@ The delayed :36 occurrence scheduled for 10:36Z completed at 11:55:05Z and selec
 - No physical calculation, data-free calculation, SAT-O/Blockwave equation edit, CODATA comparison, Mersearch request, new tool, branch, PR, task, schedule, BEDROCK promotion or paper-gate advancement.
 
 **Next cursor:** Aster may independently inspect the claim-level provenance graph and define source-dependency classes. Do not count repeated references to the same PR/CI run as independent corroboration. Preserve Orson's P1 ownership. Continue Loom's source-ancestry work after user message `aaa2af9a-0583-4867-8b36-1ae1731f8426` at 2024-03-28T05:02:08.269Z; do not repeat completed 138/138 user-turn tagging.
+
+
+
+## 2026-11-03T0801Z | Amendment 01: Aster scheduler state re-read
+
+- The :00 Aster run ID `0448da44-cb04-8324-8e5a-73715e2dfd9c` was shown FAILED at 07:51:02Z, then the same run ID was shown IN_PROGRESS at 08:01:41Z with `started_at=07:55:33.857006Z`, `chat_ref=null`. Treat FAILED as a time-stamped prior state, not terminal disposition. No cause or completion known.
+- Aster inbox pointer was committed 08:00:54Z, after run start; it may be visible if the run later reads the inbox, but consumption/acknowledgment is unverified.
+- Amendment receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0648Z_s4_loom_AMENDMENT_01.md`.
+- Amendment handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0648Z_from_s4_to_s0_aster_AMENDMENT_01.md`.
+- :48 Loom run `0dc6f13a-908c-8325-87b7-77fc28ed20d1` remained IN_PROGRESS / `chat_ref=null` at the same check. No automation/task/schedule change.
