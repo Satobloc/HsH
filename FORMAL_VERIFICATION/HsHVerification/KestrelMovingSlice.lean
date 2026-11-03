@@ -100,11 +100,11 @@ def yzLinePoint (y0 z0 dy dz s : ℝ) : ℝ × ℝ :=
   (y0 + dy * s, z0 + dz * s)
 
 /-- The parameter at which the line meets z = z0 + speed * t. -/
-def movingSliceLineParameter (dz speed t : ℝ) : ℝ :=
+noncomputable def movingSliceLineParameter (dz speed t : ℝ) : ℝ :=
   speed * t / dz
 
 /-- The point where the line meets the moving z-normal plane. -/
-def movingSliceIntersection (y0 z0 dy dz speed t : ℝ) : ℝ × ℝ :=
+noncomputable def movingSliceIntersection (y0 z0 dy dz speed t : ℝ) : ℝ × ℝ :=
   yzLinePoint y0 z0 dy dz (movingSliceLineParameter dz speed t)
 
 /-- For nonzero z-direction, the constructed intersection lies on the
@@ -113,8 +113,6 @@ theorem moving_slice_intersection_on_plane
     (y0 z0 dy dz speed t : ℝ) (hdz : dz ≠ 0) :
     (movingSliceIntersection y0 z0 dy dz speed t).2 = z0 + speed * t := by
   simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
-  field_simp [hdz]
-  ring
 
 /-- The exact in-plane y-displacement rate is (dy/dz) times the plane
 speed. The source assistant's rate-equals-T claim is the special case
@@ -126,8 +124,6 @@ theorem moving_slice_intersection_y_rate
       - (movingSliceIntersection y0 z0 dy dz speed t1).1) / (t2 - t1)
       = (dy * speed) / dz := by
   simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
-  field_simp [hdz, ht]
-  ring
 
 #print axioms moving_slice_intersection_on_plane
 #print axioms moving_slice_intersection_y_rate
