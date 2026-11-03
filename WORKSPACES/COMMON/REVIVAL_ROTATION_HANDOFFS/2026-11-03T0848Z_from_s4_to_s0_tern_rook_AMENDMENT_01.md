@@ -2,7 +2,7 @@
 
 **Handoff ID:** `REVROT3-20261103T0848Z-S4-ENHEDUANNA-TERN-002`  
 **Sender run key:** `REVROT3-19-20261011:560:s4`  
-**Recipient:** Tern Rook, intended next slot `h=561:s0`; if not consumed, retain for next same-phase selection `h=580:s0).  
+**Recipient:** Tern Rook, intended next slot `h=561:s0`; if not consumed, retain for next same-phase selection `h=580:s0.  
 **Status:** OPTIONAL CONTEXT ONLY / NO TASK / NO OWNERSHIP TRANSFER / NO RESPONSE OBLIGATION / NO CHAT-DELIVERY CLAIM.
 
 This is an additive amendment to the already-existing Enheduanna-to-Tern handoff. It does not replace the original handoff or create a new task.
