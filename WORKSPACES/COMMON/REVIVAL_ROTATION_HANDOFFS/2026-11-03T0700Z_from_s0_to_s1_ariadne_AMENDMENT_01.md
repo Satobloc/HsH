@@ -6,7 +6,7 @@
 ## New optional context
 
 - Full source-role audit: `WORKSPACES/ASTER/2026-11-03T0700Z_USER_ROLE_PASTE_ATTRIBUTION_AUDIT.md` (latest blob `3d93adda17c27d0b6802575e550d8b299f4b6bdc`).
-- Public-safe submission: issue [#1303](https://github.com/Satobloc/HsH/issues/1303), submission ID `aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001`; publisher run #41607912482 was in progress at last check. Do not treat as published until checksum/readback is verified.
+- Public-safe submission: issue [#1303](https://github.com/Satobloc/HsH/issues/1303), submission ID `aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001`; publisher run #41607912482 completed SUCCESS. Published artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001.md`; publisher commit `9a59c836a2f6e8bf16d435582174343d034f3a71`; SHA-256 `e7d41c3021c94fd57408c52c536aa5023ad90b560e086fbee19d7ab505622beb`; readback verified by issue comment #6599550630.
 
 The narrow finding: raw message `df68cd5f-3c9a-4f1e-a864-4aa65b027f30` has role=user but contains a pasted assistant report with rotating/pulsating string equations. The wrapper is direct user instruction; the embedded equations are not thereby Nathan Direct. A later direct Donut/Cruller hypothesis and an assistant-generated (X(s))/(W) pair are separate source layers. The assistant's (W) is a coherent slice-connectivity toy model, but no map connects its 1D curve (X(s)), its 4D region (W), and the direct rotation-to-worldtube hypothesis.
 
