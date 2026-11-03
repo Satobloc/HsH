@@ -168,3 +168,36 @@ Read with `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md`.
 
 **Return trigger:** first Factory Floor control review; first geometry-bearing paper/Factory candidate tested against the five-object packet; or a hostile review showing that the plot, model, demonstrator or mathematical description does not represent the same object.
 
+
+## 2026-11-03 — SAT/H(s)H incorporation tiers and mandatory leg-stretching / wide-reading practice
+
+**Status:** DIRECT NATHAN METHOD PROPOSAL / CAPTURED FOR REVIEW. The corresponding operational directives have now been added to the live Steering Charter, geometry-first control, and Worker Freshness guidance; actual worker adoption remains to be evidenced by receipts.
+
+**Trigger / direct source (2026-11-03):** Nathan's note titled **“SAT/H(s)H Incorporation Tiers”** and accompanying instruction to make physical leg-stretching breaks, free reading of explicitly non-SAT/H(s)H archive material, and broad/deep theory-overview and context/revival reading a regular part of working guidelines.
+
+**Four cumulative incorporation tiers:**
+
+1. **Tier 1 — geometry admissibility:** a proposal must be suggested by, preferably required by, or be one of a small number of possibilities tightly constrained by the geometry. If not, it is not a candidate. Geometry is a visual mathematical system with built-in constraints that equations alone may fail to encode.
+2. **Tier 2 — tentative explanatory hypothesis:** after Tier 1, a proposal may become a tentative SAT or H(s)H hypothesis if it gives a useful explanation of a phenomenon through multiple intuitive interaction surfaces. Those surfaces must be explicit, not merely analogical.
+3. **Tier 3 — official working-hypothesis eligibility:** it remains tentative indefinitely unless its presence, without being separately asked or tuned to do so, unexpectedly explains otherwise unrelated phenomena, preferably across multiple distinct sectors. This must be emergent explanatory reach from the same construction, not post hoc analogy or separate fitting.
+4. **Tier 4 — model membership:** removing or changing the ingredient must break or predictably distort other model numbers/outputs by a calculable amount. This is a counterfactual dependency/indispensability test; model membership still does not, by itself, establish physical truth.
+
+**Status discipline:** do not conflate these tiers with geometric plot clearance, mathematical/formal proof, empirical validation, or Factory Floor admission. Tier 3 makes an item eligible for official working-hypothesis status subject to existing BEDROCK controls; Tier 4 establishes structural membership within the model, not physical verification. Record the intervention, held-fixed conditions, predicted output changes, compensating degrees of freedom and actual comparison. No invented parameters or data-free calculations; BEDROCK remains controlling.
+
+**BEC example / status:** Nathan describes the “BEC ocean” as a working hypothesis and the most obvious H(s)H successor to the SAT filament block universe. This records its proposed place as a hypothesis to assess, not a Tier 3/4 finding, validated BEC derivation, or established physical claim. Recover the originating user statements and geometric constraints before assessing it.
+
+**Interpretive-mode clarification:** the SAT 4D block is methodological/formal, not a declaration that the universe is metaphysically static. The June 2025 SAT Big Paper / O0-A interpretive modes must be recovered from the primary archive and read in context before the block treatment is characterized. Preserve the modes as distinct methodological frames; do not collapse Mode 1 into an ontological conclusion. The new directive links the cited source locators and the earlier “Central Dogma” passage.
+
+**Leg-stretching and eclectic reading:** At safe checkpoints, workers should physically leave the screen, stand, stretch, walk or otherwise change posture before returning; a change of tabs or merely announcing a break does not count. Preserve a minimal return cursor. Regularly take substantive “leg-stretching” reading breaks across HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES, including explicitly non-SAT/H(s)H conversations and source material, old false starts/dead ends, tool histories, broad/deep theory surveys and contextual/revival reading. Outside literature may broaden or challenge understanding, while internal construction and provenance remain first in the source sequence. Record source, actual extent read, useful surprise, and resume cursor. The existing target of at least one meaningful lateral-reading / side-investigation / creative-recovery quantum per five actual worker activations remains a measurable target, not a quota to fake.
+
+**Implementation/readback context (2026-11-03):**
+- [Steering Charter](STEERING_CHARTER_2026-10-26.md) contains the four tiers, the methodological/non-metaphysical block qualification, BEC tentative status and the archive-wide lateral-reading requirement.
+- [Geometry-first admission gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md) separately requires a precise quaternary plot, hostile fidelity review and display with the file, and explicitly distinguishes geometry admission from the four incorporation tiers.
+- [Worker Freshness / Break Cadence](WORKER_FRESHNESS_BREAK_CADENCE.md) states the physical movement and wide-reading practice and preserves the one-per-five-actual-activations target.
+- [New Instance Start Here](NEW_INSTANCE_START_HERE.md) points workers to the current controls; exact worker compliance is not established merely by publishing them.
+- Historical source locator for O0-A: `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/✅SAT BIG PAPER.txt`, Git blob `69b0085c86f6c4876aacc0556243dd2fccdc0aef`, pages 11–12 / extracted lines 361–445. Earlier “Central Dogma”: HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NESTED HOLONOMIES.txt`, Git blob `0a8d52da06d1a787252b9a120c4770aa29095879`, around extracted offset 248,700–250,000. The original primary files should be directly re-read before quoting or drawing detailed conclusions.
+
+**Return trigger:** review the first several actual worker receipts for (a) meaningful non-SAT archive/literature reading, including source extent and surprise; (b) genuine physical breaks and return; (c) Tier 1–4 separation in candidate assessments; and (d) any use of BEC/Mode 1 that drifts into unsupported physical or metaphysical assertion. Revisit tier operationalization only when a real case exposes ambiguity.
+
+---
+
