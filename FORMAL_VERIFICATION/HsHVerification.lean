@@ -17,6 +17,10 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.MiraSliceProvenance
+import HsHVerification.MiraO9StrainLocality
+import HsHVerification.MiraCGDEmbeddedNoGate
+import HsHVerification.MiraReconnectionWeightGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
