@@ -347,3 +347,12 @@ The Morrow handoff pointer above was appended at 01:55:45Z, after the nominal h5
 - Existing proof-first evidence: current draft heads #1098, #1133, #1135 and Morrow #719 all have successful exact-head Lean 4/Mathlib build runs (#41328086467, #41348936553, #41164589389, #41017252970 respectively). These are conditional geometry/degree or archival statements only, not physical validation; no new Lean code or PR requested.
 
 - Source-equation fidelity note is appended to the optional handoff: O1 1D curve/action, Blockwave J2 source tokens and blob/date, separate transcription/math corrections, and O9/O10 fit-versus-prediction classification. No archive equation was modified.
+
+
+## 2026-11-03T2036Z | Morrow source-coverage addendum to 05:24 handoff
+
+- Addendum handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T2036Z_from_s3_to_s4_kestrel.md` (blob `068eb2d6ffa7287a2615c352a44d197031e38505`).
+- Morrow report: `WORKSPACES/MORROW/2026-11-03T2036Z_MERSEARCH_SOURCE_COVERAGE_AND_DEDUP_AUDIT.md` (blob `0b82d7213ac4bc067610ecc3aee229bfdb8b23fd`).
+- The earlier 05:24 inbox statement that Mersearch request `morrow-finite-slab-originals-20261103-0524` was `SUBMITTED_NOT_VERIFIED` is superseded: its request-scoped manifest and compact receipt are now present. Current status is `RESULTS_PRESENT / COMPACT_RECEIPT_VERIFIED / FULL_RESULTS_WITHHELD`.
+- This addendum adds only path/blob/snapshot dedup and transcript-coverage information. Kestrel's 17:00 geometry report already covers the principal raw source IDs; no rework is requested.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** Repository inbox pointer only. No authenticated Kestrel ChatGPT thread, delivery, consumption or acknowledgment is claimed.
