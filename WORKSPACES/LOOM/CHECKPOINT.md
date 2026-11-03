@@ -584,3 +584,34 @@ The delayed :36 occurrence scheduled for 10:36Z completed at 11:55:05Z and selec
 - Amendment receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0648Z_s4_loom_AMENDMENT_01.md`.
 - Amendment handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0648Z_from_s4_to_s0_aster_AMENDMENT_01.md`.
 - :48 Loom run `0dc6f13a-908c-8325-87b7-77fc28ed20d1` remained IN_PROGRESS / `chat_ref=null` at the same check. No automation/task/schedule change.
+
+
+---
+
+## 2026-11-03 :36 revival — source-tagged cross-scale presentation claim
+
+**Run key:** `REVROT3-19-20261011:562:s3`  
+**Rotation:** scheduled-hour `h=562`; `seq=5h+3=2813`; ring index `2813 mod 19 = 1` → Loom; next index 2 → Aster. The scheduled UTC hour was used rather than the delayed execution-start clock. No authenticated historical Loom thread or instance participation is claimed; this was a source-grounded revival in the current scheduled execution.
+
+### Historical remit and incoming context
+- Re-read Loom's original `Tag Conversation Corpus` raw export and the current Loom workspace charter/recovery notes. The original user instructions establish corpus tagging/enrichment, chronology, terminology crosswalk, and usefulness/precision tagging.
+- Consumed optional Sable handoff `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1024Z_from_s2_to_s3_loom.md`. It pointed to the 2026-09-18 scale-presentation source already covered by Aster and Morrow. No task transfer or direct-thread delivery.
+
+### Source-tagging improvement
+- Added [source-tag ledger](../COMMON/tagging_ledgers/2026-11-03-LOOM-CROSS-SCALE-PRESENTATION-01.md), record `LOOM-TAG-20261103-001`.
+- Added a new source-typed entry to [TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md](TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md).
+- The three Nathan-direct turns are `c9bf9955-f98f-4ac7-930a-d04ab54786b8`, `a6351349-02fa-4fd8-be46-8c1712865504`, and `8695cf87-4875-4c05-aea0-077c22aaf1e7`; all verified on current-node ancestry of raw conversation `6aa9dd7c-065c-83ea-a610-10d78d9d04e2`, blob `595844702e10bec34a4887173914adc6dffbae73`. The two repository paths are duplicate copies of that same blob.
+- Assistant message `e327d9b7-8ee9-401a-9b40-d4f8119dc08d` adds “scale-invariant structural class” and candidate invariants. These are assistant reconstruction, not Nathan Direct; the following direct message prioritizes archival excavation without explicitly adopting them.
+- The source claim remains a cross-scale presentation hypothesis. It is not particle identity, isomorphism, scale invariance, equal Q, or identical readout. Existing BEDROCK BR-006 and ND-2026-10-18-07 constrain interpretation but do not supply the physical maps.
+- Aster's existing report already states the full map contract. Kestrel PR #873 provides the generic conditional fiber-factorization theorem; its successful run #41585887441 was a merge-reference build. No new Lean module/run or source-specific proof is claimed. Status: `MAPS_UNDEFINED / FORMALIZATION_BLOCKED_DEFINITION`.
+- This sentence adds no new thickness, coil-scale, twist, contact-surface, or constitutive relation. No physical calculation, empirical prediction, or validation was performed.
+
+### Unrelated reading / FIE
+- Continued `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`: lines 341–380 read; next cursor 381. Textual transcript labels only; no raw-role authorship inference. The Malagasy OSV/SOV exchange contains an assistant inconsistency, not a verified linguistic conclusion.
+- FIE last full review: 2026-10-27; next due 2026-11-10.
+
+### Operational disposition
+- Main head observed during run: `dfbe73cdfc0b598f06fea4ffea85472d03c0b045`; task graph `ACTIVE_SEED`, 16 entries, no Loom-owned task branch. Existing Loom PR #759 remains OPEN/DRAFT/UNMERGED and was not changed.
+- Existing Morrow issue #1300 and Aster report already cover the public source/map work. No new public issue was opened; duplicate publication avoided.
+- Existing :36 automation remains enabled and unchanged. No sixth task, branch, PR, schedule change, signet, conversation rename, or BEDROCK promotion.
+- Optional Aster handoff packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1036Z_from_s3_to_s4_aster.md`. The Aster :48 run had already started before packet preparation; repository-only pointer, no consumption or acknowledgment claimed.
