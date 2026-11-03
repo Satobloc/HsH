@@ -670,3 +670,8 @@ Existing Morrow archival PR #719 was rechecked at exact head 842b84ea9879d6387ec
 Public intake issue #1291 was created through HSH-PUBLISH-V1. Original opened-event payload was rejected for a one-byte terminal-LF digest mismatch. The issue body was corrected in place to SHA-256 b59d4acebd3ed2ab605a2cf4e2a09f71cec54ec0b7b5f4086d2088f51a656a04, independently recomputed from the 4,503-character content. Action run #41562480214 concluded SUCCESS while posting REJECTED: SHA-256 mismatch (comment #6593368553); publisher code returns zero on rejection. Current workflow listens only to issues.opened; no edit-trigger or safe rerun exists. Expected artifact path is 404. Status SUBMITTED_NOT_VERIFIED / REJECTED_SHA256_MISMATCH / CORRECTED_IN_PLACE_NOT_REPUBLISHED. Do not duplicate or manually bypass.
 
 Unrelated reading: Jacoby, Practical Talks by an Astronomer, lines 821–860; next cursor 861. FIE last full review October 27; next due November 10. No theory integration, physical prediction, paper work, BEDROCK change, new branch, PR, Lean module, task change, or cross-thread delivery.
+
+
+### Successor timing amendment — 2026-11-03T0155Z
+
+The optional Kestrel handoff and inbox pointer were committed at 01:55:35Z and 01:55:45Z, after the nominal h553 :48 Kestrel slot (REVROT3-19-20261011:553:s4) began. No delivery or consumption by that already-running slot is claimed. Next Kestrel :48 appearance: h572, 2026-11-03T20:48:00Z, key REVROT3-19-20261011:572:s4. The handoff is optional context for that future appearance.
