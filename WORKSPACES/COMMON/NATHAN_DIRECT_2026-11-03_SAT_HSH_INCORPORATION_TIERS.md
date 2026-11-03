@@ -104,14 +104,14 @@ The SAT four-dimensional block treatment is a **methodological formalism**, not 
 The June 2025 SAT Big Paper, Module O0-A, describes the interpretive modes as a controlled ladder of approximations: begin with a frozen/simple construction, then relax specified freeze-outs and add realism in stages. Its operational labels are:
 - **Mode 1 — True Block:** filament kinematics are frozen; the propagating time wavefront `Σt` accounts for apparent change. Used as the baseline for specified core derivations.
 - **Mode 2 — Triggered Dynamics** (also called Semi-Dynamic in the supplementary summary): the time wavefront can trigger local filament-parameter changes.
-- **Mode 3 — Solidification Front:** structure resolves at the wavefront.
+- **Mode 3 — Crystallisation:** the block itself solidifies as `Σt` sweeps through; filament dynamics are determined during the sweep, and `Σt` becomes only an ordering label. (The paper's prose describes this as the block “solidifying.”)
 
 These are interpretive / methodological frames for construction and analysis. Mode 1 can be used as the controlled static 4D formal frame without asserting that the universe is metaphysically static.
 
 An earlier user-authored “Central Dogma” passage in the HsH archive is explicit: SAT adopts “a four-dimensional realism as a formalism”; whether the universe is a true static block, dynamic block, growing block, or another structure remains unknown. Preserve that original qualification. Do not turn the Mode 1 label into a claim about ultimate ontology, and do not silently collapse the three modes into one.
 
 **Primary-source locators:**
-- June 2025 SAT Big Paper / Module O0-A: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/sat_bigpaper_pdfcopy.txt`, Git blob `d50427f21539ca983bc0a1344dc13aa24936c6b5`, especially the O0-A mode ladder around extracted lines 124–137 and the supplementary mode table around lines 2158–2160.
+- June 2025 SAT Big Paper / Module O0-A: `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/✅SAT BIG PAPER.txt`, Git blob `69b0085c86f6c4876aacc0556243dd2fccdc0aef`, pages 11–12 (extracted lines 361–445). The source PDF SHA-256 recorded in the extraction is `77eb9e652c45650e29cd08be1a86198f05572573b452d170ce274e53bfde9f93`.
 - Earlier “Central Dogma” passage: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NESTED HOLONOMIES.txt`, Git blob `0a8d52da06d1a787252b9a120c4770aa29095879`, around extracted text offset 248,700–250,000. Preserve surrounding conversation and author/speaker distinctions when quoting or reinterpreting.
 
 These are historical source records. They do not validate the theories or calculations contained elsewhere in those manuscripts.
