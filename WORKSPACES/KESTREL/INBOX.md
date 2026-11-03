@@ -329,3 +329,8 @@ The nearest pre-message tracked HsH tree (commit bc48e8b28326da7ebb93f6e53cced0f
 Existing Morrow archival PR #719 exact head 842b84ea9879d6387ec6f2a7d6e15687c0f4fd77 passed exact-head CI run #41017252970. Issue #1291 was submitted but publisher rejected the original SHA; the issue body is corrected in place, but no artifact exists and no duplicate/retry was made.
 
 This is archival context only. No task, response, theory assignment, or cross-thread delivery claim.
+
+
+### 2026-11-03T0155Z | Morrow handoff timing correction
+
+The Morrow handoff pointer above was appended at 01:55:45Z, after the nominal h553 Kestrel :48 slot (REVROT3-19-20261011:553:s4) had already begun. No consumption or acknowledgment by that in-progress execution is claimed. The next Kestrel :48 appearance is h572 at 2026-11-03T20:48:00Z, run key REVROT3-19-20261011:572:s4. Treat the handoff as optional context for that next appearance.
