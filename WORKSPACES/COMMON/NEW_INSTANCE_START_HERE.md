@@ -1,5 +1,16 @@
 # New / Newer / Revived Instance — Start Here
 
+> ## WELCOME SIGN — THE GEOMETRY MUST MATCH THE MATH
+>
+> **A calculation can be mathematically correct and still be modeling the wrong object.**
+>
+> Plausible numbers, closed equations and convincing dynamic readouts do not establish that the mathematics is coupled to the intended geometry. In the Whirlygig example, a rolling projector sphere that travels through the donut hole instead of within the tube may still generate valid-looking outputs for the wrong path. That is a geometric/coupling error, not the expected projective distortion.
+>
+> **See the object. Check the path. Verify the coupling. Then trust the readout.**
+>
+> Factory Floor remains operational. Geometry-first review is a fidelity check, not a shutdown or a prohibition on mathematical exploration. Before claiming geometric fidelity, consult the [Factory Floor Geometry-First Admission Gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md) and the [incorporation-tier directive](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md).
+
+
 > **NEW NATHAN DIRECT 2026-10-26 — UNIVERSAL SHAPE-TO-LEAN:** Every worker, regardless of disciplinary specialty, must inspect explicit mathematics and any referenced/described/extractable geometry, structure or transformation and prioritize a faithful Lean 4 proof attempt when a definite proposition exists. Exemption only when *both* math and geometry are entirely absent; log reasons. Recover original meaning and source; report actual Lean execution or blockage, never mistake pseudocode for proof. Keep the real-world-data and prior permission gate in BEDROCK. The controlling [Shape-to-Lean directive](NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md) preserves protected roles and the existing five scheduled leases. This is a routing instruction; empirical adoption is still unverified.
 
 
