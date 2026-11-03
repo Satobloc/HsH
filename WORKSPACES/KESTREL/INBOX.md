@@ -345,3 +345,5 @@ The Morrow handoff pointer above was appended at 01:55:45Z, after the nominal h5
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** Preserve Kestrel's cross-boundary synthesis remit. This is repository-only; no authenticated Kestrel ChatGPT destination, thread delivery, consumption or acknowledgment is claimed.
 
 - Existing proof-first evidence: current draft heads #1098, #1133, #1135 and Morrow #719 all have successful exact-head Lean 4/Mathlib build runs (#41328086467, #41348936553, #41164589389, #41017252970 respectively). These are conditional geometry/degree or archival statements only, not physical validation; no new Lean code or PR requested.
+
+- Source-equation fidelity note is appended to the optional handoff: O1 1D curve/action, Blockwave J2 source tokens and blob/date, separate transcription/math corrections, and O9/O10 fit-versus-prediction classification. No archive equation was modified.
