@@ -697,3 +697,46 @@ After receipt, checkpoint, and handoff writes, current main was independently re
 - Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0524Z_s2_morrow.md` and optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0524Z_from_s2_to_s2_kestrel.md` are present and independently read back.
 
 - Proof-first check: exact-head GitHub Actions Lean 4/Mathlib builds independently re-read as successful for draft PRs #1098 (run #41328086467), #1133 (#41348936553), #1135 (#41164589389), and Morrow #719 (#41017252970). The build step compiled the formal library. All remain open/draft/unmerged; formalized statements only, no physical validation. No new module, branch, PR or CI run.
+
+## Verbatim equation/source-custody addendum
+
+### SAT4D / SAT-O O1
+
+- SAT4D live draft: Git blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7`; document-level byline Nathan McKnight, June 2025; local file-index dates 2025-06-08/09.
+- Standalone `SAT O1 4D.txt`: Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; local file-index dates 2025-06-07/09; no internal byline/date.
+
+Verbatim O1 excerpt:
+```
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+```
+
+The same source defines a filament as `\gamma:\mathbb R\to\mathbb R^{3,1}` and calls its worldtube “the 4D volume swept out by the vibrating filament.” The displayed parameterization is one-dimensional; the additional sweep/fiber map needed to construct a 4D volume is not supplied in this excerpt. This is an archival dimensional gap, not a substituted correction.
+
+### Blockwave attachment
+
+- Attachment: `🧱BLOCKWAVE.txt`, raw conversation `68c990dd-df28-832e-b766-c267190aaffa`, attachment record timestamp 2025-09-16T16:31:26.687Z.
+- Git blob: `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; previously recorded SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
+- First visible Git path commit: 2026-10-08. No internal byline/date. User-supplied attachment, but assistant-voiced and author not established; **not Nathan Direct**.
+
+Verbatim source fragments (malformed index tokens preserved):
+```
+P^\mu{}^\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu.
+J^{\mu\nu} \text{ ... },\quad \nabla_\mu J^{\mu\nu}=0.
+(\nabla\alpha u_\mu)(\nabla_\beta u_\nu)
+\lambda\,(u^\mu u\mu+1)
+J{\mu\nu}\,\mathcal{M}^{\mu\nu}{}{\rho\sigma}(\theta,u)\,J^{\rho\sigma}
+F_{\mu\nu}(\theta)\equiv \nabla_{[\mu}A_{\nu]}(\theta),\quad
+A_\mu(\theta)\equiv \alpha_*\,\nabla_\mu\theta.
+```
+
+### Corrections kept separate from source
+
+1. Candidate transcription repairs `P^\mu{}_\nu`, `\nabla_\alpha u_\mu`, `u^\mu u_\mu`, and the malformed `J/\mathcal M` indices are not written back into the original.
+2. Under the conditional assumptions that `\theta` is smooth and `\alpha_*` constant, `F=d(\alpha_* d\theta)=0` locally. Any nontrivial global holonomy/defect interpretation needs additional global or singular structure. This is a mathematical constraint on the displayed definitions, not a physical refutation.
+3. In 4D, a 1D support has a 3-form Poincare dual; a 2D worldsheet has a 2-form Poincare dual. Hodge star maps degree 2 to degree 2 and degree 3 to degree 1. The O1 curve, Blockwave J2, and any J3 representation are not interchangeable without explicit sweep, support, projection and boundary maps.
+4. O9 source `O9.txt`, blob `676ce08c09226e4bde5a4d8efa3d7f4da228a1d8`, states `m^2 = k(N + \beta Q^2 - a)` and directs fitting `k,\beta` from N=0 ground-state masses. O10 blob `4c2c0c481c04616ae1e1b961ad9b8e85d932885d` uses `m^2=p_2Q^2+p_1` in two sectors. These are calibration/fit forms, not independent predictions; their internal document dates are not established here.
+
+Full source custody and prior correction audit remain in Kestrel issue #1281; O9 chronology remains in issue #1141. No equation was changed in the archive.
