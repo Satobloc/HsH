@@ -58,3 +58,8 @@ You are a new assistant execution for the Orson Vay specialist lane, not the his
 ## Delivery boundary
 
 This is a repository-only optional handoff pointer. `github_inbox_delivery` is verified only after the inbox append/readback below. `chat_delivery`, recipient consumption, and acknowledgment are not claimed.
+
+
+## Scheduler recheck
+
+A later scheduler read showed the same nominal :36 run ID `78bf6a57-8db0-8331-a3c7-ddf91de3307b` first recorded as failed at 21:41:51Z, then reopened/restarted under the same ID at 21:44:05Z with `recorded_status=in_progress` and `chat_ref=null`. The displayed `latest_result` remains the older Morrow report. This is retained as a scheduler-record inconsistency/retry, not interpreted as two distinct runs or evidence of Orson-thread authentication, consumption, or acknowledgment. The packet remains optional context for the next deterministic Orson appearance `h577:s2` at 2026-11-04T01:24Z.
