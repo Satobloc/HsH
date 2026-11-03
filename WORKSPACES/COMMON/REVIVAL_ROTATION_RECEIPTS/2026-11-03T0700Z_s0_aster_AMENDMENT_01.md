@@ -46,7 +46,7 @@ The original receipt accurately recorded that no predecessor handoff was visible
 
 ## Handoff and continuity
 
-- Ariadne optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0700Z_from_s0_to_s1_ariadne_AMENDMENT_01.md`, final blob `87daeaae96fb383104e34932a015e297daaf83d3`.
+- Ariadne optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0700Z_from_s0_to_s1_ariadne_AMENDMENT_01.md`, final blob `d79def1537556556f6308cae7682179a66ed4d5c`.
 - Ariadne inbox append includes the handoff and publication receipt; repository delivery only. No authenticated Ariadne thread, consumption or acknowledgment claimed.
 - Unrelated reading break: *Babbage*, lines 1041–1080 read; next cursor line 1081.
 - FIE last full review: 2026-10-27; rereview due 2026-11-10, not yet due.
