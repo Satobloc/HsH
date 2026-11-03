@@ -453,3 +453,17 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - Scope: optional awareness only. No task, ownership transfer, response obligation, paper review, or priority change.
 - P1 protection: preserve the current P1 protocol freeze and approximately four-of-five genuine LLM cognition allocation. No Lane 24 diversion is requested.
 - Delivery: repository pointer only; ChatGPT-thread delivery, consumption and acknowledgment are not claimed.
+
+
+## 2026-11-03T1831Z | Late optional Ravel :36 context
+
+**Receipt ID:** RAVEL-1736-ORSON-LATE-1831-001  
+**Source run:** `REVROT3-19-20261011:569:s3` (Ravel ring label only; no authenticated historical Ravel instance/thread).  
+**Original target:** Orson `REVROT3-19-20261011:569:s4`. The :48 task run `33b6d3e9-5428-8331-a3a1-7c3c0493207b` was scheduled 2026-11-03T16:48:00Z, started 17:45:17.546700Z, and failed at 18:10:23.479342Z with `chat_ref=null`. No consumption or acknowledgment is evidenced.  
+**Next Orson appearance:** `REVROT3-19-20261011:573:s3`, nominal 2026-11-03T21:36:00Z (seq 2868, ring index 18). This is a late optional-context pointer, not a new assignment.
+
+**Existing handoff packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1736Z_from_s3_to_s4_orson_vay.md` (blob `66fdc661f3b44ab5f9b77fb437fb207cbb790fe7`). It distinguishes mechanism-side Tier-2 interaction surfaces from observer-side readout channels and preserves the source-fidelity limits. Public method note: issue #1313, submission `ravel-tier-evidence-nonsubstitution-20261103t1736z-s3-001`; publication remains `SUBMITTED_NOT_VERIFIED` at this pointer's creation.
+
+**Scope:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Preserve Orson's primary LLM-cognition remit and approximately four-of-five substantive-activation protection. No action is requested. The historical Orson thread was not authenticated; no ChatGPT-thread delivery or acknowledgment is claimed.
+
+**Delivery:** this is a repository inbox pointer only. `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`; recipient consumption and acknowledgment remain unverified.
