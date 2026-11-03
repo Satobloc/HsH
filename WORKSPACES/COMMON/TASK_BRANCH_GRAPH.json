@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-03T03:36Z",
+  "updated": "2026-11-03T04:30:29Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -490,7 +490,7 @@
       "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 Eq. 21; Nathan Direct geometry sources dated 2026-10-09 and 2026-10-21",
       "intent": "Formalize the finite-pixel polarization-mode response to a uniform EVPA rotation; use published M87* polarimetric measurements to define an outside comparator and expose the missing H(s)H geometry-to-Stokes map.",
       "repository": "Satobloc/HsH",
-      "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; public submission pending",
+      "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; published artifact issue #1297 (verified)",
       "owner_instance": null,
       "candidate_instances": [
         "Meridian",
@@ -508,7 +508,7 @@
         "No source-grounded H(s)H geometry-to-EM/Stokes/Faraday forward map is specified.",
         "No raw UVFITS data were downloaded or re-imaged; current interval arithmetic uses published method-ensemble ranges."
       ],
-      "last_material_state": "Draft formalization module and PR #1296 created on the existing infra branch. Local published-range arithmetic passed 5/5 assertions. Lean status LEAN_NOT_RUN. No H(s)H prediction, fit or BEDROCK promotion.",
+      "last_material_state": "Public report published and independently read back from WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/worldtube-polarimetry-readout-20261103t0336z-s3-001.md; SHA-256 9153db0884bc7ad1217b02741a6f7dd61ef033d4c0d40b774ecfa2fdebb07159; publisher commit 2daa12c11fca0e3f29f1cdf883036f39c3cc952d. Lean remains LEAN_NOT_RUN; no H(s)H prediction or fit.",
       "next_cursor": "Obtain an authorized Lean exact-head or clearly identified merge-ref build; independently review the finite-sum theorem; then specify the source-faithful worldtube-to-EM/Stokes map and retrieve calibrated data with full uncertainties before any holdout prediction.",
       "exit_criterion": "Lean build and axiom audit pass; the H(s)H geometry-to-Stokes map is source-grounded; raw data and calibration uncertainties are available; an independent held-out epoch/frequency prediction is compared against GRMHD plus spatially structured Faraday rotation with a preregistered falsification threshold.",
       "return_route": "P2 issue #565; draft PR #1296; public report through the existing issue publisher",
@@ -525,7 +525,7 @@
       "pr_number": 1296,
       "ci_status": "LEAN_NOT_RUN",
       "created": "2026-11-03T03:36Z",
-      "updated": "2026-11-03T03:36Z"
+      "updated": "2026-11-03T04:30:29Z"
     }
   ],
   "branch_count": 16
