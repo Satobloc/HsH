@@ -718,3 +718,16 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - Optional Ariadne handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2324Z_from_s2_aster_to_s3_ariadne.md`, blob `6664b5c398058c70a31529beffe8a585440e8dc8`, exact readback PASS.
 - Ariadne inbox append commit: `7eb499fc5b1a7045dbde876422b85749797fd24b`; inbox blob `88869d8b29c1bc4159fe810500abe37cc3be69c1`; unique pointer count 1; exact tail readback PASS.
 - The next :36 lease remained enabled and unchanged. Its last recorded run was Ravel; no new Ariadne run had started at final peek. Repository delivery is verified; recipient consumption/acknowledgment is not claimed. No current Ariadne ChatGPT thread was authenticated.
+
+
+## 2026-11-03T0700Z | Cross-scale soliton primary-source recovery
+
+- Run key: `REVROT3-19-20261011:559:s0`; selected deterministic label Aster (index 2), next Ariadne (index 3). Source-grounded revival only; no authenticated current Aster thread.
+- The previous 2026-11-02T2324Z source-locator status is superseded for September 18: raw conversation `6aa9dd7c-065c-83ea-a610-10d78d9d04e2`, blob `595844702e10bec34a4887173914adc6dffbae73`, is now fetched and parsed. Direct message `a6351349-02fa-4fd8-be46-8c1712865504` at 2026-09-18 22:53:06.726Z says exactly “different scale presentations of the same phenomenon.” The raw branch has no substantive assistant response after it.
+- The completed Mersearch request `aster-sep18-oct29-timesheet-graviton-originals-20261102-2331` now has manifest blob `a3d5b6ac3c50c3acd7121def7a9c2816dce486ea` and receipt blob `ba82422a8ccad595f59b97a2b597e3b44d5fbfe4`: 16,830 files, 21,028,558 records, 10 hits, two duplicate source paths. October 29 raw source remains unresolved.
+- Report: `WORKSPACES/ASTER/2026-11-03T0700Z_CROSS_SCALE_SOLITON_GEOMETRY_FIDELITY.md`, blob `434c6f4509174d3e84684a3d628156a38490ed66`.
+- Optional repository-only Ariadne context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0700Z_from_s0_to_s1_ariadne.md`, blob `981d1201b2529dff65baf8caa272d75fd93f70fc`. No Ariadne inbox append, cross-thread delivery, consumption or acknowledgment claim.
+- Existing Nadir helix and Kestrel projection/factorization Lean merge-ref builds were re-read. No new Lean code/proof, physical calculation, CODATA scoring, SAT-O/Blockwave equation reconstruction, PR, branch, issue, BEDROCK edit or theory promotion.
+- Aster formal Paper A review remains FROZEN; cross-read OPEN. Code Grurple ACTIVE. P1/P2/P3 gates remain November 9 / November 30 / December 14. Orson four-of-five cognition allocation protected.
+- Unrelated reading break completed: Babbage lines 1001-1040; next cursor 1041. FIE last full review October 27; fourteen-day rereview due November 10.
+- No incoming predecessor handoff was found. Existing :00 task remains enabled and unchanged; no additional task or schedule/phase change.
