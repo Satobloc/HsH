@@ -591,3 +591,16 @@ A hostile reviewer independent of the authoring pass must challenge object, dime
 The full operational gate and required companion package are specified in [Factory Floor Geometry-First Admission Gate](WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md). Existing results retain their historical mathematical status, but equation-only/proof-only/code-only/text-only artifacts are not Factory Floor eligible until geometry is plotted and hostile-reviewed. Papers with geometric claims require figure remediation before being described as submission-ready under this rule.
 
 Nathan's phrase **“SAT is our K-T Boundary”** is preserved as his analogy, not converted into a geological or physical claim. No new physical mechanism, metric, topology, scale or H(s)H proposition is implied by this process directive.
+
+
+### ND-2026-11-03 — SAT/H(s)H INCORPORATION TIERS AND GEOMETRY-FIRST CONSTRUCTION
+
+**Authority:** Nathan Direct, 2026-11-03. **Full operational directive:** [SAT/H(s)H Incorporation Tiers](WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md).
+
+New structures are assessed through four sequential incorporation tiers: **(1) geometric admissibility** — suggested, required, or tightly constrained by the actual geometry; otherwise not a candidate; **(2) tentative explanatory hypothesis** — Tier 1 plus a clear explanation with multiple explicit interaction surfaces; **(3) official working hypothesis** — the same hypothesis unexpectedly explains otherwise unrelated phenomena, without separate tuning, preferably across several different sectors; **(4) model constituent** — counterfactual removal or alteration predictably breaks or distorts other model outputs/numbers. Each tier permits consideration at the next; no tier is silently inferred from mathematical polish, agreement, fit, or repetition. Tier 4 is structural membership, not automatic physical verification.
+
+This tier ladder supplements and does not replace the existing ND/FB/WB/TF/OC/SS authority strata, mathematical clearance, cross-sector candidacy and empirical validation gates. The real-data-first rule and prior explicit permission for data-free calculations remain unchanged. BEC is presently an illustrative **working hypothesis**, not a Tier 3/4 result or validated derivation.
+
+**Methodological 4D/block clarification:** SAT's four-dimensional realism is a formalism; the static-block, dynamic-block, growing-block or other ultimate ontology remains unknown in the original historical statement. June 2025 O0-A's True Block, Triggered/Semi-Dynamic and Solidification Front modes are controlled interpretive approximations, not proof that the universe is metaphysically static. Preserve this distinction and consult the primary records linked in the directive.
+
+**Prominence rule:** Before any new mathematical formalization or theory claim, recover the source-defined geometry and Nathan's original subject-specific statements; show the exact object, then check that its mathematics describes that geometry. Factory Floor and geometric-paper plots remain governed by the immediately preceding 2026-11-03 geometry-first directive and its exact-plot hostile-review/display requirements.
