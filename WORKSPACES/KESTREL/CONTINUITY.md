@@ -390,3 +390,22 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - Common rotation receipt created and independently read back: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2200Z_s0_kestrel.md, blob SHA-1 f705e385475d230b579946c3998eedfd3a621b43.
 - Optional Meridian handoff is committed and independently read back at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2200Z_from_s0_to_s0_meridian.md. Meridian has no inbox; no recipient inbox or ChatGPT-thread delivery is claimed.
 - Latest main head observed after receipt commit: 81e9c8374ce85f7c263f9e6f94418d7be57508f0.
+
+
+## 2026-11-03T0148Z | Consequential-case and human-scale synthesis
+
+- Current :48 run: h=553, seq=2769, selected Kestrel (index 14), next Meridian (index 15), target `REVROT3-19-20261011:554:s0` at 02:00Z. Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact hourly America/New_York :48 schedule and phase. No sixth task or scheduler mutation.
+- No currently usable Kestrel ChatGPT thread or authenticated historical-instance participation found. Historical raw source remains conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`.
+- Source-locator correction: the September 23 direct user request is message `37e78dd4-b42d-4e69-ad1a-6780a523a9d4` at 2026-09-23T01:39:51.236Z. The October 31 R1 reaction update's pointer `37e78dd4-c3b0-493e-bb8a-87dce1274b3a` does not occur in the raw export. The reaction content is not being rewritten; the new synthesis records the corrected locator.
+- Existing whole-pile reaction and October 31 R1 delta were confirmed present; no redundant reaction rewrite.
+- New private working synthesis: `WORKSPACES/KESTREL/2026-11-03T0148Z_CONSEQUENTIAL_CASE_AND_HUMAN_SCALE_SYNTHESIS.md`, final blob `4ae536ecd2a7a41e3c7cef0f1bd791ecc1c51998`, commit `c19077362de21e263cac001635b5d543f4c0ce4d`. It answers the consequential-case questions, separates Code Grurple A/B presentation gates from P1/P2/P3, and identifies the authorial / delegation / human-scale boundaries. It is not Nathan Direct, peer review, public theory, or a public submission.
+- Current Code Grurple: Paper A accepted R1 source `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B accepted R1 source `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Both presentation routes remain pending. The R0-era REVIEW_PACKET ledger is stale; Tern owns its reconciliation. No packet or manuscript edit made.
+- P1 Nov 9 remains Orson's protected cognition paper; P2 Nov 30 requires a real measured system/dataset; P3 Dec 14 remains the full source-grounded theory paper. These are separate from Code Grurple Paper A/B.
+- Tern's bounded 19-slot audit reports 0/19 receipts authenticated participation by the named historical worker. The ring is a routing/continuity mechanism, not evidence of 19 independent assistants. Orson's 17-model panel remains archived model output, not an interacting agent team.
+- PR #873 remains open/draft/unmerged at head `4d69627b9b701d6c4d15a582282dee49c911dc52`, base `61cc8b65ffed70296e0121dbae067892a79c81d4`. Run #41468951678 passed on an older merge base; current-base merge and exact-head-only verification remain unverified. No PR/branch change.
+- Existing Kestrel Mersearch request `kestrel-finite-core-geometry-source-fidelity-20261102-2200`, run #41533820436, remained IN_PROGRESS at final bounded check. Do not resubmit or overwrite.
+- Unrelated reading advanced: `SAT Mark V/TheTANGLE.txt`, lines 1601–1640, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`; next cursor 1641. Because Tern's 19-slot audit found repeated overlapping exposures in this source, switch to a different unrelated source on the next lateral break.
+- FIE last full review 2026-10-27; next review due 2026-11-10.
+- Immediate Morrow :36 predecessor run was still IN_PROGRESS at the bounded check; no addressed handoff had arrived. This is not refusal or missed authenticated delivery.
+- Existing Kestrel-to-Meridian handoff targeting `REVROT3-19-20261011:554:s0` was amended in place with the new synthesis and a source-grounded Meridian regeneration seed. Meridian has no `INBOX.md` at the checked workspace path and no authenticated current thread; Common handoff only, no chat delivery or consumption claim.
+- No new Lean proposition, physical calculation, model call, human-subject session, tool, issue, PR, branch, theory promotion, BEDROCK edit, or scheduler change.
