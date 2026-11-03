@@ -94,3 +94,28 @@ The outer user-role turn is attributed to Nathan under the standing archive-spea
 ### Formalization gate
 
 Before Lean formalization, specify a metric/signature and compatible connection (or replace “angle/normal” with a metric-independent structure). Then formalize the nonzero-vector angle, the circular-helix reduction, and the conditional Z3 action. No Lean theorem was compiled in this run; the exact symbolic checks are not Lean verification and do not validate physical premises.
+
+
+## 2026-11-03 | Gendarme graticule source-typing and θ₄ cross-stratum
+
+### θ₄ is not one automatically identified quantity
+
+Preserve three source strata:
+1. **July 2025 project glossary:** `SAT4D_4.txt`, blob `efc88f4523b2fd616e64898737c2aa45e5f39b9a`, defines `theta_4=angle(v,u)`, with `u) normal to `Sigma_t`, while assuming no metric/connection a priori. This is a project glossary, not a raw Nathan message.
+2. **September 4, 2026 Gendarme conversation:** user `e9676435-92bf-42bd-8701-47bc851cecf9` names `theta-four` in a proposed torus tipping-point interpretation. The assistant's preceding and following turns reject a unique rational/irrational tipping angle; the user’s “invariant” restatement is corrected to the invariance of the *absence* of a unique tipping point. Separately, user `bfac52b1-98d1-4caa-bf18-d9b513584a2f` gives a 90°-to-time / 0°-to-propagation local angular reference.
+3. **September 16, 2026 Nathan Direct SAT baseline:** BEDROCK BR-005 and `!!_RUNNING_COTHEORIST_LOG.md` define SAT `theta_4` from the time normal, null/vacuum at `theta_4=0), filament tangent parallel to the time normal/timesheet propagation, and particle-at-rest equivalence to inverse helical pitch. Current main-file blobs: BEDROCK `c0c5a80b40d41b77fa0b9f12c684e7e9cd6a8ec8`; running log `750603eb65b2b7493ebb5de9e5c6aa5305bab6c9`.
+
+The Gendarme 90°-to-time / 0°-to-propagation statement may be compatible with the September 16 normal-angle convention if “time” denotes the timesheet plane and “propagation” its normal. No explicit coordinate map is supplied. The Gendarme tipping-point use is separate and unresolved. Do not promote the common symbol to a common variable without a map.
+
+### Gendarme graticule terms and authorship
+
+- `Gendarme Graticule` is Nathan Direct naming (user `fd780628-bf2d-4791-9646-e551c3fa5a91`).
+- “Eight sectors” and “two overlapping parities” are direct descriptions; the operators `P_perp`, `P_parallel`, and the associated `chi) sign rule are assistant proposals, not source-defined maps. Domains, actions and composition remain unspecified.
+- “No new parameter” is a direct constraint. Assistant `ell` and `kappa) are not independent inputs and have not been derived from the source's existing elements.
+- The corrected `inverse/anti graticula` relationship is a passive L/R display mirror `G^-(u,v)=G^+(-u,v)`, not pointwise negation, field cancellation, or physical winding reversal.
+- `inner/outer` names physical torus sides; `left/right` is a display coordinate or separately qualified chirality term.
+- The 90° “null trajectory” is a local reference to the primary-circumference tangent. Without a declared metric and map, do not call it a standard null geodesic.
+- `flicker` is set aside for one visualization pass, not abandoned as a concept.
+- CMY gradient cancellation belongs to the display transform and remains separate from the geometric graticula relationship.
+
+Source ancestry and count correction are recorded in `WORKSPACES/COMMON/tagging_ledgers/2026-11-03-LOOM-GENDARME-EXPORT-ANCESTRY-01.md`. Public correction issue #1324 was rejected by the publisher with SHA-256 mismatch; no published artifact exists. Original issue #1322 remains unchanged pending a valid correction.
