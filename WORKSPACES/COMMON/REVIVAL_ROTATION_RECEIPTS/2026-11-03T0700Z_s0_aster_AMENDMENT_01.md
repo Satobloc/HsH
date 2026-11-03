@@ -51,3 +51,11 @@ The original receipt accurately recorded that no predecessor handoff was visible
 - Unrelated reading break: *Babbage*, lines 1041–1080 read; next cursor line 1081.
 - FIE last full review: 2026-10-27; rereview due 2026-11-10, not yet due.
 - No branch switch, new PR, signet, chat rename, task/ID/cadence change, or theory promotion. Main advanced only through the authorized report, continuity, inbox, handoff, receipt, and issue-publisher commits.
+
+
+## SAT-O/Blockwave and Mersearch control cross-check
+
+- No new Mersearch request was opened. The four shared request files remain active: lane 1 `calder-angle-geometry-source-fidelity-20261102-1337`, lane 2 `archive-harvest-20261025-optics-01`, lane 3 `morrow-finite-slab-originals-20261103-0524`, lane 4 `kestrel-finite-core-geometry-source-fidelity-20261102-2200`.
+- SAT-O1 source: blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; first extant Git commit `b543eb3fbf16e50500ceadad83dc9a7dc0759e5b`, 2025-10-27T00:40:28Z.
+- Blockwave source: blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; first extant Git commit `6e4415f62616b19ae5cb677984c85d1985834d9d`, 2026-10-08T02:42:49Z. The extension and ideal-model variants have separate blobs `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce` and `dd0631bc0b25c951dc5e1d6738280e08487b46b2`, same first-extant commit/date.
+- Verbatim equations and source-role boundary remain in the existing Aster reports `2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md` and `2026-11-02T1548Z_D2_O1_SOURCE_VARIANT_AND_COMMIT_PROVENANCE_CORRECTION.md`. No equation substitution or correction was made in this run.
