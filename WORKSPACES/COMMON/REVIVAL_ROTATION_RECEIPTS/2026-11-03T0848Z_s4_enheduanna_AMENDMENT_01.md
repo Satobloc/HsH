@@ -57,7 +57,7 @@ The external observable is the EHT azimuthal polarization-mode coefficient (β_m
 
 ### 3.4 Source check of the published M87 ranges
 
-The source is the Event Horizon Telescope Collaboration, *Astronomy & Astrophysics* 704, A91 (2025), Eq. 21 and Section 6.2. The branch's use of the **April 11, 2017** values is correct:
+The source is the Event Horizon Telescope Collaboration, *Astronomy & Astrophysics* 704, A91 (2025), DOI `10.1051/0004-6361/202555855`, Eq. 21 and Section 6.2. The branch's use of the **April 11, 2017** values is correct:
 - 2017 Apr 11: (|β_2|in[4.5,5.5]%), (∠β_2in[-141^°,-128^°]).
 - 2018 Apr 21: (|β_2|in[0.5,2.0]%), (∠β_2in[-156^°,-99^°]).
 - 2021 Apr 18: (|β_2|in[1.8,3.9]%), (∠β_2in[156^°,168^°]).
@@ -113,6 +113,31 @@ F_T=\partial_\theta A_\phi-\partial_\phi A_\theta+[A_\theta,A_\phi]
 =\begin{pmatrix}0&-s\\s&0\end{pmatrix}.
 ]
 All symbolic assertions passed.
+
+Reproducible SymPy core (the run used the installed SymPy environment; no external service):
+```python
+theta, phi = sp.symbols("theta phi", real=True)
+R12 = sp.Matrix([[sp.cos(theta), -sp.sin(theta), 0, 0],
+                 [sp.sin(theta),  sp.cos(theta), 0, 0],
+                 [0, 0, 1, 0], [0, 0, 0, 1]])
+R23 = sp.Matrix([[1, 0, 0, 0],
+                 [0, sp.cos(phi), -sp.sin(phi), 0],
+                 [0, sp.sin(phi),  sp.cos(phi), 0],
+                 [0, 0, 0, 1]])
+E = sp.simplify(R12 * R23)
+Ot = sp.simplify(E.T * E.diff(theta))
+Op = sp.simplify(E.T * E.diff(phi))
+At, Ap = Ot[:2, :2], Op[:2, :2]
+Bt, Bp = Ot[2:4, :2], Op[2:4, :2]
+F = sp.simplify(Op.diff(theta) - Ot.diff(phi) + Ot*Op - Op*Ot)
+FT = sp.simplify(Ap.diff(theta) - At.diff(phi) + At*Ap - Ap*At)
+G = sp.simplify(Bt.T*Bp - Bp.T*Bt)
+target = sp.Matrix([[0, -sp.sin(phi)], [sp.sin(phi), 0]])
+assert F == sp.zeros(4)
+assert sp.simplify(FT-target) == sp.zeros(2)
+assert sp.simplify(G-target) == sp.zeros(2)
+assert sp.simplify(FT-G) == sp.zeros(2)
+```
 
 This confirms that the supplied coefficient family is consistent with the stated (E=R_{12}R_{23}) ansatz. It is **not** a Lean proof, not a derivation from Nathan's source geometry, and not a physical result. The existing Lean module still manually supplies the full matrices, derivative coefficients, and (B)-blocks; it does not define (E), differentiate it, or prove the block-extraction maps. The next proof-first step, after the active interlock permits a branch change, is to define (R_{12},R_{23},E), the matrix derivative maps, and explicit tangent/normal projection maps in Lean, then prove that the extracted blocks equal the current coefficient definitions. No edit was made to Nadir's PR or branch.
 
