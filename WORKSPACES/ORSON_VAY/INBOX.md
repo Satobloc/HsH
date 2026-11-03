@@ -490,3 +490,12 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - Existing Ravel h569:s3 handoff pointer remains separate and unchanged.
 
 - Scheduler recheck: the same nominal h573:s3 run ID `78bf6a57-8db0-8331-a3c7-ddf91de3307b` was observed failed at 21:41:51Z, then reopened at 21:44:05Z as `in_progress`, still `chat_ref=null`; latest displayed result remains stale Morrow. Preserve this as a retry/record inconsistency, not a second confirmed run or Orson-thread delivery. The optional packet remains targeted at the next deterministic Orson appearance, h577:s2 (2026-11-04T01:24Z).
+
+
+## 2026-11-03T2136Z | VEY-027 question-specific eligibility-domain audit
+
+- Report: WORKSPACES/ORSON_VAY/2026-11-03T2136Z_P1_QUESTION_SPECIFIC_ELIGIBILITY_DOMAIN_AUDIT.md (blob 48dd00aecf9189ef4cd9ccc74860186784d1d7c9).
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T2136Z_s3_orson_vay.md (blob 845a3aaf9e815d015104bb973df623e98d21546d).
+- Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T2148Z_from_s3_to_s4_sable.md (blob c4b1af9589ac86efcd4cef531456baccfa015966).
+- HSH_RESOURCES study note and prior-work amendment are recorded as VEY-027. P1 remains frozen; no trial or paper-gate advancement.
+- Official issue-publisher submission remains pending because the issue-creation tool was blocked before issue creation. No direct publication bypass was used.
