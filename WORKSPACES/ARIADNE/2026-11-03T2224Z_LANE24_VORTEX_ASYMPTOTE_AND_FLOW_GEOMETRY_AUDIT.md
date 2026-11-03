@@ -103,7 +103,7 @@ This proposal is not yet a source-grounded map from SAT-O's 1D filament to a 4D 
 - PR #1309 head `f6df05b...`, run #41644532497: the covariance module failed at real-division/noncomputability definitions (`Real.instDivInvMonoid`). No covariance theorem is compiled.
 - No local Lean/Lake/Elan runtime is available in this execution. No new Lean file, branch, PR, or Actions run was created. The pitch/dispersion calculations above are not Lean-verified.
 
-No new tooling was built. Existing Math Hopper, Whirligig, Lean PRs, repo indexes, and SciSpace availability were checked in the current project context; no new paid dependency or external service was introduced.
+No new infrastructure or paid dependency was built. A one-off standard-library reproduction script is available at [2026-11-03T2224Z_LANE24_VORTEX_AUDIT.py](2026-11-03T2224Z_LANE24_VORTEX_AUDIT.py). Existing Math Hopper, Whirligig, Lean PRs, repo indexes, and SciSpace availability were checked in the current project context; no new external service was introduced.
 
 ## 9. Mersearch, publication, and next cursor
 
