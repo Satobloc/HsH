@@ -130,3 +130,41 @@ Read with `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md`.
 **Mandatory next incorporation test:** At next 19 selected worker activations and actual accessible worker receipts, report protected-remit fidelity, non-theory substantive reading/exploration, tool-reuse reconnaissance actually done, real paper-gate advance, return-to-work after tangents and older orphan candidates disposition. A changed automation prompt is NOT proof of worker behavior. Compare Tern's worker/lease event evidence before claiming restored specialized instances.
 **Decision/cost guard:** New autonomy is broad for reversible research operations. Real-data BEDROCK gate for physical calculations, privacy/source integrity, commercial licenses, spending, permissions and other exceptional operations remain controlled. These are not blanket permission to fabricate physics or spend project money.
 **Return trigger:** Nov 2 P1 protocol-readiness checkpoint; source/behavior audit at 19 actual rotation selections; Nov 9 minor paper deadline; any drift/failed source read/publishing receipt.
+
+---
+
+## 2026-11-03 — geometry-first five-object requirement for Factory Floor and geometry-bearing papers
+
+**Status:** NEW — DIRECT NATHAN INSTRUCTION / CAPTURED FOR ADOPTION AND IMPLEMENTATION REVIEW / NOT YET INCORPORATED INTO FACTORY FLOOR CONTROL
+
+**Trigger / direct source (2026-11-03):** Nathan states that nothing should enter Factory Floor without a precise geometric plot of the system under study, fidelity-checked by hostile review and displayed with the file. Geometry is the theoretical object; mathematics is its precise description, not the object itself. Nathan distinguishes five linked objects:
+
+1. **Primary — observation:** the observed system and its actual observational/experimental record.
+2. **Secondary — physical working orrery / hands-on demonstration:** a physical demonstrator that instantiates the relevant geometry or relationships.
+3. **Tertiary — precision dynamic geometry:** an executable software model whose geometry evolves under explicit rules.
+4. **Quaternary — precision static diagram:** a static geometric specification of the object/configuration, with dimensions, labels, coordinate conventions and relationships.
+5. **Pentary — mathematical description:** equations, definitions, proofs and quantitative rules describing the geometry.
+
+**Core rule:** the theoretical object is the geometry. Equations are descriptions of that object, not substitutes for it. A geometry-bearing claim, equation, derivation or paper must show what geometric object it concerns and how the displayed representations relate. Nothing enters Factory Floor without a precise geometric plot, hostile fidelity review, and the plot displayed with the corresponding artifact.
+
+**Required representation links / no implied equivalence:**
+- Each object must identify its source, scope, status and provenance.
+- The static diagram must faithfully depict the specified system, not merely decorate the equations.
+- The dynamic model must reproduce the diagram's geometry under declared initial/boundary conditions and transformations.
+- The physical demonstrator must instantiate the intended geometry within declared tolerances and limitations; it is not presumed to reproduce inaccessible or unmeasured properties.
+- Observation must be tied to the actual measured/observed system and acquisition/processing chain; the demonstrator or simulation is not substituted for observation.
+- The mathematical description must be explicitly mapped to geometric features, coordinates, invariants and transformations. Formal proof verifies only the encoded statements, not the fidelity of the maps or physical truth.
+- Maps between levels must be explicit, typed and condition-bearing. No automatic projection, composition, scale equivalence or physical identification is inferred from analogy.
+
+**Minimum per-item geometric packet proposed for assessment:** (a) exact source/system and provenance; (b) object/geometry definition with dimensionality, coordinates, metric/ambient structure where applicable, boundaries and orientation; (c) precise Class-P geometric plot with dimensions/legend and source-linked parameter manifest; (d) hostile review record listing fidelity checks, discrepancies and disposition; (e) tertiary dynamic model and validation against the static plot when dynamics are claimed; (f) secondary physical orrery/demonstrator record when such a demonstrator is claimed or feasible; (g) primary observational record, units, uncertainties and processing chain for physical claims; (h) equations/Lean status, assumptions, exact toolchain and limits; (i) explicit maps and commutative checks among representations; (j) visibility/licensing and Factory stage.
+
+**Visual classification:** the required system-under-study geometry is **Class P** (precision/script-drawn or otherwise metrically faithful). Class H may be a controlled derivative downstream of exact work. Class I is illustrative only and cannot satisfy the geometry evidence gate. Aesthetic rendering may accompany, never replace, the precise plot.
+
+**Relationship to current controls:** this item supplements but does not silently amend BEDROCK, the 2026-10-26 Steering Charter, Universal Shape-to-Lean, the Three Paper Campaign, Factory Floor's FF-203 geometry/visual workshop, or its existing staged admission and promotion gates. BEDROCK's real-system/measured-data rule and specific prior-permission rule for data-free calculations remain binding. Factory mathematical clearance remains eligibility for candidacy consideration only; it is not an H(s)H candidate or physical validation. P1/P2/P3 dates, ownership and distinct acceptance gates remain unchanged.
+
+**Implementation status:** CAPTURED ONLY. The authoritative Factory Floor controls are in Satobloc/FACTORY_FLOOR, not this HsH feeder. Its current README/FLOORROOM_TODO describe FF-203 as an incomplete pipeline (Class-P templates, parameter manifest, equation/source pointer, thumbnail, visual QA, P/H/I classifier) and do not yet contain this five-object acceptance contract. No Factory Floor file, issue, Floor ID, stage assignment or acceptance state has been changed. No geometry has been submitted or admitted by this ledger entry.
+
+**Assessment / smallest next step:** Tern (Comptroller/control-plane) and the Factory Floor owner should assess this against FF-203, FF-002, the existing issue/intake structure and Nathan's authority. Produce a proposed, explicit five-object acceptance checklist and identify which layers are mandatory for every geometry-bearing artifact versus conditionally not applicable (for example, an orrery may be infeasible for an astronomical system; observation is still primary). Preserve the non-negotiable geometry plot + hostile fidelity review + display-with-file requirement. Return to Nathan only for a genuine ambiguity in the object hierarchy or an irreversible Factory control change.
+
+**Return trigger:** first Factory Floor control review; first geometry-bearing paper/Factory candidate tested against the five-object packet; or a hostile review showing that the plot, model, demonstrator or mathematical description does not represent the same object.
+
