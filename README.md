@@ -33,6 +33,16 @@ The conceptual descriptions here are intended to represent the model as Nathan M
 <strong>Those mathematical results have not yet received comprehensive independent expert vetting.</strong> Some have been checked repeatedly by LLMs or computational tools; some have partial or preliminary review; others remain queued for examination. We do not treat polished presentation, repeated derivation, or agreement among AI systems as a substitute for qualified human review or formal verification.<br><br>
 Rather than hide that uncertainty, this library exposes it. Each major document carries a <strong>vetting status</strong> showing what kinds of review have actually occurred, and those statuses will be updated as derivations are recovered, reproduced, challenged, formally checked, or reviewed by specialists.<br><br>
 The archive is here to be read, tested, criticized, corrected, and improved.
+
+> ## THE GEOMETRY MUST MATCH THE MATH
+>
+> **A calculation can be mathematically correct and still be modeling the wrong object.**
+>
+> Numbers can be real, equations can close, and a dynamic model can look convincing while its geometry is mis-specified or its mathematics is coupled to the wrong geometric relationship. A Whirlygig projector sphere rolling through the donut hole instead of *within the tube* may produce perfectly plausible readouts for the wrong path. That is not the expected projective distortion; it is a geometric/coupling error.
+>
+> **See the object. Check the path. Verify the coupling. Then trust the readout.**
+>
+> Geometry-first review does not close Factory Floor or stop mathematical exploration. It makes geometric fidelity visible and testable. See the [Factory Floor Geometry-First Admission Gate](WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md).
 </td>
 </tr>
 </table>
