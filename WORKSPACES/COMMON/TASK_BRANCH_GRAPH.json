@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-10-30T06:12Z",
+  "updated": "2026-11-03T03:36Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -479,6 +479,54 @@
       "exit_criterion": "By Dec 14, source-grounded full-theory manuscript with explicit geometry/equation maps, cross-sector coverage, known-physics comparators, failures/open equations, independent hostile review, source LaTeX, compiled PDF and readable reader. Physical validity remains separate.",
       "return_route": "Issue #566 and WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md.",
       "priority_note": "Full theory is a manuscript target, not a validated theory. No automatic BEDROCK promotion; Code Grurple remains active until its separate standdown gate."
+    },
+    {
+      "id": "WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03",
+      "title": "M87 polarimetric mode readout: uniform-phase null and worldtube-to-Stokes gap",
+      "kind": "formalization",
+      "status": "blocked",
+      "parent": "P2-REAL-SYSTEM-GEOMETRY-2026-11-30",
+      "children": [],
+      "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 Eq. 21; Nathan Direct geometry sources dated 2026-10-09 and 2026-10-21",
+      "intent": "Formalize the finite-pixel polarization-mode response to a uniform EVPA rotation; use published M87* polarimetric measurements to define an outside comparator and expose the missing H(s)H geometry-to-Stokes map.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; public submission pending",
+      "owner_instance": null,
+      "candidate_instances": [
+        "Meridian",
+        "Ravel",
+        "Hale"
+      ],
+      "dependencies": [
+        "EHT Collaboration 2025 A&A 704 A91 Eq. 21 and 2017/2018/2021 calibrated polarimetric data products",
+        "Existing FORMAL_VERIFICATION Lean 4.34.0 / Mathlib infrastructure",
+        "Source-derived H(s)H map from 4D filament/worldtube geometry to EM current, Stokes Q/U and Faraday depth",
+        "GRMHD, synchrotron radiative transfer and spatially structured Faraday-screen comparator"
+      ],
+      "blockers": [
+        "PR #1296 has no status checks; Lean was not run. No local Lean/Lake/Elan executable and no available workflow-dispatch action.",
+        "No source-grounded H(s)H geometry-to-EM/Stokes/Faraday forward map is specified.",
+        "No raw UVFITS data were downloaded or re-imaged; current interval arithmetic uses published method-ensemble ranges."
+      ],
+      "last_material_state": "Draft formalization module and PR #1296 created on the existing infra branch. Local published-range arithmetic passed 5/5 assertions. Lean status LEAN_NOT_RUN. No H(s)H prediction, fit or BEDROCK promotion.",
+      "next_cursor": "Obtain an authorized Lean exact-head or clearly identified merge-ref build; independently review the finite-sum theorem; then specify the source-faithful worldtube-to-EM/Stokes map and retrieve calibrated data with full uncertainties before any holdout prediction.",
+      "exit_criterion": "Lean build and axiom audit pass; the H(s)H geometry-to-Stokes map is source-grounded; raw data and calibration uncertainties are available; an independent held-out epoch/frequency prediction is compared against GRMHD plus spatially structured Faraday rotation with a preregistered falsification threshold.",
+      "return_route": "P2 issue #565; draft PR #1296; public report through the existing issue publisher",
+      "exposure_constraints": [
+        "Do not equate worldtube twist with EVPA helicity without an explicit map.",
+        "Do not treat uniform-screen exclusion as excluding spatially varying Faraday rotation.",
+        "No SAT-O or Blockwave equation was reproduced or corrected in this branch.",
+        "No H(s)H physical prediction, fit or BEDROCK promotion.",
+        "No authenticated Alberr thread or Mira cross-thread delivery is claimed."
+      ],
+      "branch_ref": "research/worldtube-polarization-mode-rotation-20261103t0336z",
+      "base_ref": "infra/lean4-verification-20261023",
+      "head_sha": "a673f1a38f9bacae42fe5e31807192cd64f2857a",
+      "pr_number": 1296,
+      "ci_status": "LEAN_NOT_RUN",
+      "created": "2026-11-03T03:36Z",
+      "updated": "2026-11-03T03:36Z"
     }
-  ]
+  ],
+  "branch_count": 16
 }
