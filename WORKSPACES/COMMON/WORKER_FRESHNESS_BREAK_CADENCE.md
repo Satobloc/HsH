@@ -37,3 +37,12 @@ The Comptroller should sample recent check-ins/commits/handoffs for signs of lon
 ## Return
 
 After a break, resume from the durable next cursor rather than reconstructing the branch from memory.
+
+
+## 2026-11-03 — Mandatory movement and wide-reading execution
+
+The break rule includes an actual physical change of posture. At safe checkpoints after concentrated derivation, source excavation, code/debug, review or repetitive low-information work, workers must step away from the screen and stand, stretch, walk or otherwise limber up before returning. Do not substitute merely changing tabs, summarizing the work, or announcing an intention to rest. No rigid wall-clock quota is imposed; choose natural safe checkpoints, protect fragile state, and leave a clean resume cursor. A break does not abandon the task.
+
+Archive and out-theory reading is also substantive work, not a token diversion. Periodically read across all three repositories (HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES), including original conversation turns, tool histories, old false starts/dead ends and material not obviously related to the active assignment. Include outside-theory archives and external literature/internet sources where helpful. Prioritize the independent internal construction and its source genealogy before comparing with external work. Record the source/path or citation, actual extent read, useful surprise, and resume cursor.
+
+The Steering Charter's existing target remains at least one meaningful lateral-reading, independent side-investigation or creative/recovery quantum per five actual worker activations at safe checkpoints. This is a target to measure, not a quota to fake. Report whether a real break and a real lateral reading event actually occurred.
