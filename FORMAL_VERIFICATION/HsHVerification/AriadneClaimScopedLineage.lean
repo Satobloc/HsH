@@ -264,4 +264,163 @@ theorem missing_lineage_is_not_independence
 #print axioms kirk_unique_suffix_claim_remains_unresolved
 #print axioms missing_lineage_is_not_independence
 
+
+/-!
+2026-11-03 refinement: content overlap and primary-origin independence are
+separate evidence dimensions. Shared text does not, by itself, prove a common
+primary origin; disjoint primary origins do not erase a shared-content witness.
+The product record below keeps those questions orthogonal.
+
+The coordinate map is also explicit: the verified KIRK_mind common core
+[1,12599) maps to READY_ROOM [123,12721) by the constant line offset +122.
+This is an index-alignment map only, not a causal-copy or author map.
+-/
+
+/-- Translate a one-indexed half-open line span by a nonnegative offset. -/
+def shiftSpan (offset : Nat) (span : LineSpan) : LineSpan :=
+  ⟨span.firstLine + offset, span.afterLastLine + offset, by omega⟩
+
+def spanLength (span : LineSpan) : Nat :=
+  span.afterLastLine - span.firstLine
+
+/-- Translation preserves the number of lines in a nonempty half-open span. -/
+theorem shiftSpan_preserves_length (offset : Nat) (span : LineSpan) :
+    spanLength (shiftSpan offset span) = spanLength span := by
+  unfold spanLength shiftSpan
+  omega
+
+/-- Successive line-index translations compose by addition of offsets. -/
+theorem shiftSpan_composes (a b : Nat) (span : LineSpan) :
+    (shiftSpan b (shiftSpan a span)).firstLine =
+        (shiftSpan (a + b) span).firstLine ∧
+    (shiftSpan b (shiftSpan a span)).afterLastLine =
+        (shiftSpan (a + b) span).afterLastLine := by
+  constructor <;> simp [shiftSpan] <;> omega
+
+/-- The actual audited common-core coordinates are related by +122 lines. -/
+theorem kirk_to_ready_room_core_map :
+    (shiftSpan 122 kirkCommonCore).firstLine =
+        readyRoomCommonCore.firstLine ∧
+    (shiftSpan 122 kirkCommonCore).afterLastLine =
+        readyRoomCommonCore.afterLastLine := by
+  simp [shiftSpan, kirkCommonCore, readyRoomCommonCore]
+
+theorem kirk_ready_room_core_length :
+    spanLength kirkCommonCore = spanLength readyRoomCommonCore := by
+  decide
+
+/-- Content relation for a particular claim scope, not for whole artifacts. -/
+inductive ClaimContentRelation where
+  | sharedCore
+  | disjointInAuditedScope
+  | unknown
+  deriving DecidableEq, Repr
+
+/-- Primary-origin relation is independent of whether text overlaps. -/
+inductive PrimaryOriginRelation where
+  | shared
+  | disjoint
+  | unknown
+  deriving DecidableEq, Repr
+
+/-- A product record avoids collapsing content overlap and source-origin
+    independence into one mutually exclusive status. Completeness is explicit:
+    a disjoint but incomplete origin census is not a positive independence
+    witness. -/
+structure ClaimLineageAxes where
+  content : ClaimContentRelation
+  primaryOrigins : PrimaryOriginRelation
+  primaryOriginsComplete : Bool
+  deriving DecidableEq, Repr
+
+def contentIndependent (e : ClaimLineageAxes) : Prop :=
+  e.content = .disjointInAuditedScope
+
+def primaryOriginIndependent (e : ClaimLineageAxes) : Prop :=
+  e.primaryOrigins = .disjoint ∧ e.primaryOriginsComplete = true
+
+def strongIndependentSupport (e : ClaimLineageAxes) : Prop :=
+  contentIndependent e ∧ primaryOriginIndependent e
+
+def contentIndependentBool (e : ClaimLineageAxes) : Bool :=
+  match e.content with
+  | .disjointInAuditedScope => true
+  | _ => false
+
+def primaryOriginIndependentBool (e : ClaimLineageAxes) : Bool :=
+  match e.primaryOrigins, e.primaryOriginsComplete with
+  | .disjoint, true => true
+  | _, _ => false
+
+theorem contentIndependentBool_correct (e : ClaimLineageAxes) :
+    contentIndependent e ↔ contentIndependentBool e = true := by
+  cases e with
+  | mk content origins complete =>
+      cases content <;> simp [contentIndependent, contentIndependentBool]
+
+theorem primaryOriginIndependentBool_correct (e : ClaimLineageAxes) :
+    primaryOriginIndependent e ↔ primaryOriginIndependentBool e = true := by
+  cases e with
+  | mk content origins complete =>
+      cases origins <;> cases complete <;>
+        simp [primaryOriginIndependent, primaryOriginIndependentBool]
+
+/-- Current KIRK_mind / READY_ROOM observation:
+    shared content is verified; primary-origin completeness is not. -/
+def kirkReadyRoomAxes : ClaimLineageAxes :=
+  { content := .sharedCore
+    primaryOrigins := .unknown
+    primaryOriginsComplete := false }
+
+/-- Logical countermodel only, not an observation about these two files:
+    shared content can coexist with a complete disjoint-origin record. -/
+def overlapWithDisjointOrigins : ClaimLineageAxes :=
+  { content := .sharedCore
+    primaryOrigins := .disjoint
+    primaryOriginsComplete := true }
+
+theorem kirk_ready_room_content_is_not_independent :
+    ¬ contentIndependent kirkReadyRoomAxes := by
+  simp [contentIndependent, kirkReadyRoomAxes]
+
+theorem kirk_ready_room_primary_origins_remain_unresolved :
+    kirkReadyRoomAxes.primaryOrigins = .unknown ∧
+      kirkReadyRoomAxes.primaryOriginsComplete = false := by
+  rfl
+
+theorem kirk_ready_room_source_independence_not_established :
+    ¬ primaryOriginIndependent kirkReadyRoomAxes := by
+  simp [primaryOriginIndependent, kirkReadyRoomAxes]
+
+/-- A model-level counterexample to inferring origin relation from text overlap. -/
+theorem shared_content_does_not_determine_origin_relation :
+    kirkReadyRoomAxes.content = overlapWithDisjointOrigins.content ∧
+      kirkReadyRoomAxes.primaryOrigins ≠
+        overlapWithDisjointOrigins.primaryOrigins := by
+  constructor
+  · rfl
+  · decide
+
+theorem overlap_can_coexist_with_disjoint_primary_origins :
+    primaryOriginIndependent overlapWithDisjointOrigins ∧
+      ¬ contentIndependent overlapWithDisjointOrigins := by
+  constructor
+  · simp [primaryOriginIndependent, overlapWithDisjointOrigins]
+  · simp [contentIndependent, overlapWithDisjointOrigins]
+
+/-- The two executable readouts are intentionally separate. -/
+#eval contentIndependentBool kirkReadyRoomAxes
+#eval primaryOriginIndependentBool kirkReadyRoomAxes
+#eval primaryOriginIndependentBool overlapWithDisjointOrigins
+
+#print axioms shiftSpan_preserves_length
+#print axioms shiftSpan_composes
+#print axioms kirk_to_ready_room_core_map
+#print axioms kirk_ready_room_core_length
+#print axioms contentIndependentBool_correct
+#print axioms primaryOriginIndependentBool_correct
+#print axioms kirk_ready_room_source_independence_not_established
+#print axioms shared_content_does_not_determine_origin_relation
+#print axioms overlap_can_coexist_with_disjoint_primary_origins
+
 end HsHVerification.AriadneClaimScopedLineage
