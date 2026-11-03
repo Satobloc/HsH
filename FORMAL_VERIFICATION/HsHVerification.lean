@@ -17,6 +17,11 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.HaleRepeatedPrompt
+import HsHVerification.HaleCGDSharedStimulus
+import HsHVerification.HaleCGDTriggerRecord
+import HsHVerification.HaleCGDTriggerGate
+import HsHVerification.HaleP1RepeatStrata
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
