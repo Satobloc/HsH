@@ -549,3 +549,13 @@ Receipt pointer for h545:s4: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-1
 - Code Grurple remains ACTIVE; both reader routes PRESENTATION_PENDING. Paper A/B manuscript gates, P1/P2/P3 dates and Orson cognition protection unchanged.
 - Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 693-732; next cursor 733. Last full FIE review 2026-10-27; next due 2026-11-10.
 - No physical calculation, CODATA comparison, manuscript change, theory promotion, new task, branch or PR.
+
+
+### 2026-11-03T0124Z scheduler amendment 01 | adjacent-run overlap and misroute
+
+- Linked report amendment: WORKSPACES/TERN/2026-11-03T0124Z_COMPTROLLER_PUBLISHER_RETRY_AND_RING_TIMEBASE_AUDIT_AMENDMENT_01.md
+- Linked receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0124Z_s2_tern_rook_AMENDMENT_01.md
+- Exact peeks show :48 h552 Elias ran 00:48:07-00:59:52; :00 scheduled 01:00 but started 00:58:55 and recorded h552/Mira; :36 scheduled 00:36 but started 01:00:30 and selected Hale h552 correctly; current :24 h553 Tern started 01:24:18.
+- :48/:00 overlapped 57.499s; :00/:36 overlapped 701.392s. The :36 run started after its :48 successor had already completed, so its expected handoff could not be consumed in order. No shared-write collision was observed.
+- The :00 run created a new h552/Mira receipt under a 00:00Z path at 01:10:39Z and a matching Aldus handoff. The correct scheduled h553:s0 worker was Nadir, next Enheduanna. Elias's h553:s0 Nadir handoff remains in Nadir's inbox; the :00 result did not consume it. No acknowledgment or direct thread delivery is claimed.
+- Classification: one confirmed selection/timebase mismatch, one misdated receipt/misrouted handoff, one unconsumed Nadir packet, one late/out-of-order :36 run, two overlaps. Not evidence of a systematic scheduler failure. No task/prompt/schedule/ID change.
