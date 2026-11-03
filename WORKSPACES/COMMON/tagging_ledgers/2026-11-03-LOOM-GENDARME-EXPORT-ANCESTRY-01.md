@@ -69,7 +69,7 @@ Other controls: `inverse/anti graticula` is a passive L/R display mirror, not po
 ## Publication, controls, next cursor
 
 - Original issue #1322 is publisher-verified and unchanged; artifact SHA-256 `5be6b489afb2c8da4e4695baad307a1b5ba223051b1abfabaf59960636363b54`.
-- Narrow correction submitted via existing publisher as issue #1324, submission `loom-gendarme-export-ancestry-correction-20261103-s0-001`, SHA-256 `c46acd81777fd25334c5fe16936880bae6f4c1b45712bd74d109164e1be36c2b`; awaiting publisher receipt/readback at ledger creation.
+- Narrow correction submitted via existing publisher as issue #1324, submission `loom-gendarme-export-ancestry-correction-20261103-s0-001`, submitted SHA-256 `c46acd81777fd25334c5fe16936880bae6f4c1b45712bd74d109164e1be36c2b`. Workflow run #41738506461 rejected it with `SHA-256 mismatch`; the workflow's attempted rejection comment then received HTTP 500. No PUBLISHED_SUBMISSIONS artifact or readback exists. No duplicate issue, direct artifact write, or rerun was attempted.
 - Mersearch source-set request and SAT-O/Blockwave crosswalk read; no equation changed. Existing Math Hopper, Whirligig, Lean/Mathlib, SciSpace and fork status checked. No new tool, paid service, request, branch, PR, module or CI.
 - Mirror involution in #1322 remains an uncompiled Lean candidate. No proof claim.
 - No physical calculation, CODATA, Factory Floor admission, paper-gate advancement or BEDROCK promotion.
