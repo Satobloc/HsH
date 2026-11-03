@@ -207,11 +207,20 @@ Historical derivative files and their first extant repository dates:
 
 The older SATv taxonomy is preserved as historical wording. It is not retroactively rewritten into the September 18 formulation.
 
+### Epistemic label boundaries
+
+- **Nathan Direct:** only the raw user-role messages listed above.
+- **Historical source:** the role-labelled Saucepan transcript, unbylined SATv files, and flattened Claude transcript; each has its own attribution limits.
+- **Assistant reconstruction:** the Nadir/Kestrel Lean modules and the candidate scale-map architecture in this report.
+- **Standard reference:** standard spin/statistics and the standard Jarlskog invariant are terminology boundaries only in this run. No external standard-reference paper or equation was imported.
+- **Proposal:** the He-3/Jarlskog-Shadow and gravitational-trinary soliton ladder is a direct but tentative proposal, not a derived result.
+- **Actual independent measurement:** none. No He-3, detector, neutron-star-trinary or gravitational-wave dataset was identified or analyzed.
+
 ## 5. Discrepancy ledger
 
 1. **“Same phenomenon” versus “same frequency.”** The direct September 18 source asserts different scale presentations. It does not assert a frequency map. Srena's gluon-as-frequency-of-graviton answer is not source-faithful.
 2. **Scale dependence versus scale invariance.** The direct July 1 source explicitly allows fractal-like scaling with modifications involving filament diameter, coil diameter, bend spacing and bending resistance. Exact scale invariance is unsupported.
-3. **SAT structural labels versus standard statistics.** The September 18 22:32 message explicitly identifies a terminology collision. “Persistent coil” and “traveling spot-excitation” are the meaningful structural contrast. “Boson” and “fermion” must not silently be interpreted as standard spin/statistics labels. The current workflow control preserves this distinction; a neutrino can be in a SAT traveling/light-mode family without being reclassified as a standard Bose-statistics particle.
+3. **SAT structural labels versus standard statistics.** The September 18 22:32 message explicitly identifies a terminology collision. “Persistent coil” and “traveling spot-excitation” are the meaningful structural contrast. “Boson” and “fermion” must not silently be interpreted as standard spin/statistics labels. The current workflow control permits a neutrino to belong to the SAT traveling/light-mode family while remaining a standard fermion in spin/statistics. SAT structural labels do not rewrite the standard classification.
 4. **Neutrino-photon duality.** The July 31 user correction says this branch is not even tentative. It is not part of the September 18 three-part cross-scale statement.
 5. **Jarlskog Shadow versus the standard Jarlskog invariant.** The direct source supplies a name and a proposed He-3 location, not an equation or a map to the standard invariant.
 6. **Time surface versus timesheet.** The 2024 source defines a moving 3D time surface in a 4D ambient geometry. The 2026 source uses “timesheet” and describes a dimple/soliton. Their identity is plausible but not explicitly mapped.
