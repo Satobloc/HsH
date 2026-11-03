@@ -1,18 +1,18 @@
 {
-  "request_id": "aster-sep18-oct29-timesheet-graviton-originals-20261102-2331",
-  "requester": "Workshop Relay :24 / Aster source-fidelity reconstruction; current assistant, not authenticated historical Aster",
-  "requested_at": "2026-11-02T23:31:00Z",
+  "request_id": "morrow-finite-slab-originals-20261103-0524",
+  "requester": "Workshop Relay :24 / Morrow archival source-custody pass; current assistant, not authenticated historical Morrow",
+  "requested_at": "2026-11-03T05:24:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(date:2026-09-18 AND author:user AND (gluon OR neutrino OR soliton OR timesheet OR \"giant-neutrino\" OR \"same phenomenon\" OR \"same underlying phenomenon\")) OR (date:2026-10-29 AND author:user AND (graviton OR wavefront OR wavesheet OR waferont OR soliton OR timesheet))",
-  "purpose": "Recover the original raw conversation exports and exact role-authenticated user-message locators for two previously context-recovered Nathan statements: (1) the 2026-09-18 cross-scale statement linking gluons, neutrino-like timesheet solitons and giant-neutrino-like gravitational solitons; (2) the 2026-10-29 conditional graviton statement placing time wavefront/wavesheet first and a graviton only as a possible interpretation if a timesheet soliton forms. Preserve exact repository/path/source commit/blob, conversation ID, message UUID, UTC timestamp, role, parent ancestry and adjacent context. Distinguish original user messages from assistant transcriptions, summaries, reposts and historical module labels. This is source recovery only, not a physical calculation, proof of cross-scale equivalence, manuscript review or theory promotion.",
+  "query": "(author:user AND (\"given time thickness\" OR \"time thickness\" OR \"slab thickness\" OR (trajectory NEAR/12 (slab OR \"time slice\" OR timesheet)) OR (\"energy exchange\" NEAR/12 (trajectory OR \"time slice\" OR timesheet)) OR (\"flow dynamics\" NEAR/12 (timesheet OR slab)))) OR ((path:*SAT_DEC2025* OR path:*PRE-H(s)H* OR path:*MANIFOLDS*) AND (trajectory OR timesheet OR slab OR thickness OR \"time slice\" OR \"flow dynamics\"))",
+  "purpose": "Continue the bounded source-recovery cursor from Morrow's 2026-11-03T0524Z report. Locate raw role-bearing original messages underlying SAT_DEC2025.txt, SAT PRE-H(s)H TIGHTENING.txt, and the unresolved source tags in H(s)H MANIFOLDS.txt (54, 849) and (2, 90, 1133). Preserve exact repository/path/source commit/blob, conversation ID, message UUID, UTC timestamp, role, parent ancestry and adjacent context. Distinguish raw user messages from transcript witnesses, NotebookLM derivative exports, generated compilations and assistant summaries. Source custody only: no theory integration, physical calculation, CODATA comparison, fit, prediction, equation correction, manuscript or BEDROCK promotion.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
     "candidate raw conversation paths, conversation IDs, exact user message UUIDs, UTC timestamps, parent IDs and adjacent context",
-    "exact source repository commits and immutable blob SHAs; first-extant repository dates separately from message dates",
+    "exact source repository commits and immutable blob SHAs; first-extant repository dates separately from message/document dates",
     "source-role, branch/ancestry, duplicate and derivative relationships",
     "verbatim original wording and separate assistant-authored transcriptions/corrections"
   ],
