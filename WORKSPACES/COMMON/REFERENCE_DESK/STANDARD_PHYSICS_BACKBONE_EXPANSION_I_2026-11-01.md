@@ -3,6 +3,8 @@
 **Status:** Stage A conventional floor-plan expansion; source-backed working map; non-canonical pending edge and theory-card audits.  
 **Scope:** Electromagnetism, optics, special relativity, general relativity, quantum mechanics, relativistic wave equations, quantum field theory, electroweak theory, QCD and the Standard Model.
 
+> **GEOMETRY-FIRST STATUS UPDATE (2026-11-03):** This artifact is a Stage-A conventional theory-network/textual navigation skeleton only. It is **not Factory Floor eligible** and is not a geometric plot of the physical/theoretical objects represented by its nodes. Each system requires its own source-faithful quaternary geometric plot, hostile fidelity review and embedded display before Factory Floor routing. Where dynamics are material, a precision tertiary software geometry is also required. See [mandatory Factory Floor Geometry-First Admission Gate](../FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md). This update does not invalidate the source-audit/navigation work; it limits its status and blocks geometry-based promotion.
+
 ## 1. Build rule
 
 This document extends the conventional physics floor plan specified in `STANDARD_PHYSICS_MASTER_MAP_CHARTER_2026-10-24.md`. It is not an H(s)H interpretation, not a SAT overlay, and not a claim that every historical arrow is a mathematical derivation. Edges below are typed and scoped. The standard-physics map and SAT/H(s)H atlas remain separate.
