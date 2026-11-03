@@ -32,3 +32,15 @@ The existing h=574 receipt was extended with a source/Lean audit. Key constraint
 - No new issue or PR: existing issue publisher has no safe append route; avoid duplicate publication. No physical calculation, theory promotion, paper-gate advancement, or Orson P1 modification.
 
 The full source locators, SHAs, exact equations, proof limits, and proposed typed H(s)H interface are in the extended receipt above. This is repository-only context; no direct delivery, acknowledgment, assignment, or ownership transfer is claimed.
+
+
+## Ravel PR #1133 detailed proof note
+
+Run #41348936553/job #124974692430 succeeded on the PR merge reference (8,950 jobs; zero captured `sorryAx`/`admit`). The draft PR contains:
+- Conditional 4D/3D carrier-slice profiles k=1..4: (normal rank, slice dimension) = (3,0),(2,1),(1,2),(0,3), assuming transversality. A full 4D carrier has no ordinary normal directions.
+- A `SliceCompatibleRetraction` with explicit `preservesSlice` plus sheet reparameterization; this is the condition needed to induce a tube/sheet pullback → carrier/sheet pullback map.
+- Set-level coverage/identifiability and non-injectivity results; fiber transport is not determined by the base projection.
+- Conditional J2→spatial-vector projection: the result is orthogonal to u, not a full four-current; divergence contains a vorticity contraction, so a separate charge density/continuity equation is needed.
+- SI dimensional audit: (G/c⁴)T has curvature units; ell_f²T has force units. Since c⁴/G is a force, ell_f³=2A/T requires A=N·m³; conventional flexural rigidity N·m² instead requires T=N/m. The source's current identification is dimensionally mismatched by one length.
+
+All are conditional mathematical or dimensional results, not empirical validation. The PR remains draft/unmerged on an infrastructure branch and does not encode the current cw=t/++++ frame or the Klein-Fabric global-to-local/interaction maps. Its September 7 reciprocal-accommodation source interpretation is superseded by the October 9 direct Klein-Fabric correction.
