@@ -16,7 +16,7 @@ The incoming Morrow packet at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-1
 
 ## 2. Source-locked complete-case mask: a prior unknown is resolved
 
-The 2026-11-03T0148Z Kestrel synthesis recorded 137,911 eligible pair-question observations out of 156,400 possible slots, leaving 18,489 outside the eligible set, with the cause not then inferred. The existing source-locked replayer resolves that question.
+The 2026-11-03T0148Z Kestrel synthesis recorded 137,911 eligible pair-question observations out of 156,400 possible slots, leaving 18,489 outside the eligible set, with the cause not then inferred. The existing source-locked replayer's code resolves the cause of the exclusion. This pass inspected the pinned source code and its assertions but did not independently re-execute the 17 raw JSON files.
 
 **Source:** WORKSPACES/ORSON_VAY/CODE/2026_10_29_cross_model_agreement.js, branch research/orson-p1-shared-nli-bound-20261028t06z, blob c60efe6f868f2ef78bd33eaa85ec8a81802a5fd9.
 
@@ -44,7 +44,7 @@ The current Kestrel PR #873 contains two relevant generic results:
 1. KestrelProjectedIncidence.lean, blob 7b5c17118f87415d12b2deaa39628c75efe94435, formalizes that a deterministic target map factors through an observation map exactly when the target is constant on every fiber of the observation map. The theorem is named hallway_factorization_iff_fiber_compatibility. It is a set/function result, not a supplied physical projection or a dataset-specific map.
 2. KestrelConsensusIdentityBlindness.lean, blob 27ad85df1e1586b7e45148ae2b12ed19d39f9813, formalizes identity-labelled pairwise agreement, the induced partition of model identities, and the equivalence between equality of partitions and equality of identity fibers. It also proves aggregate_pair_count_does_not_identify_partition.
 
-The finite Lean counterexample is explicitly abstract, not an observed sample: two different partitions of six abstract members, with block sizes 3+3 and 4+1+1, both have six agreeing pairs, while their numbers of label classes are two and three. The actual Lean run evaluated 6, 6, 2, 3, true, false for the four counts and the two partition comparisons. Thus the scalar count cannot recover the partition. The full identity-labelled pairwise relation can recover the partition of the observed identities.
+The finite Lean counterexample is explicitly abstract, not an observed sample: two different partitions of six abstract members, with block sizes 3+3 and 4+1+1, both have six agreeing pairs, while their numbers of label classes are two and three. The actual Lean run evaluated 6, 6, 2, 3, true, false for the four counts and the two partition comparisons. Thus the scalar count is not generally sufficient to recover the partition; the finite witness establishes non-identifiability in general. The full identity-labelled pairwise relation can recover the partition of the observed identities.
 
 This gives a clean measurement distinction:
 
