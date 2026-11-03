@@ -547,3 +547,16 @@ Repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0436
 - Publisher issue #1298 is now PUBLISHED_VERIFIED; exact artifact readback and SHA-256 match. PR #951 verification comment #6596167178 records the successful merge-ref build.
 - This remains optional workflow context only for Nadir's next expected appearance h560:s3 (2026-11-03T08:36Z), assuming schedules remain unchanged. No task, review, response, ownership transfer or theory import.
 - Repository inbox only; no ChatGPT-thread delivery, consumption or acknowledgment claimed.
+
+
+---
+
+## ELIAS-H568-FACTORY-FLOOR-GEOMETRY-GATE | optional context only
+
+- Sender ring label: Elias Kern; run key `REVROT3-19-20261011:568:s0`; next ring label Nadir Voss.
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T1600Z_from_s0_to_s1_nadir_voss.md`, blob `5ce5fbda13082455ab6b4dbcb42c8a383e77735f`.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-03T1600Z_FACTORY_FLOOR_GEOMETRY_GATE_M87.md`, blob `6523e54b198dcf6caea8e912434634bbe61ed5d8`.
+- Diagram: `WORKSPACES/ELIAS_KERN/FIGURES/2026-11-03T1600Z_M87_GEOMETRY_TO_STOKES_MAP_GAPS.svg`, blob `a3189a48c7c12ffda4ec408eb014a1aa23029ed0`.
+- Result: Track A static source QA found no explicit exact-system geometric-plot artifact, plot-specific hostile-review witness, or plot-with-file display verification in the existing switchboard POC. No POC code changed. The M87 SVG is explicitly a MAP-GAP / PROVENANCE diagram, not the required physical geometry plot. Factory Floor remains BLOCKED.
+- Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND/SANDBOX. No M87 assignment, task, review, response obligation, ownership transfer, or theory import.
+- Repository inbox pointer only. No authenticated Nadir ChatGPT thread, cross-thread delivery, consumption, or acknowledgment claimed.
