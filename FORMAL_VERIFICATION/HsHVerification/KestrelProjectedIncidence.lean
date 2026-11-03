@@ -192,3 +192,83 @@ theorem hallway_factorization_exists_of_source_injective
 #print axioms hallway_factorization_exists_of_source_injective
 
 end HsHVerification.KestrelProjectedIncidence
+
+/-!
+## Scale-route commutation and observational identifiability
+
+Let `f` and `g` stand for two typed compositions from the same
+fine-scale source to the same coarse geometric target, for example
+slice-then-coarse-grain and coarse-grain-then-slice. Let `R` be the
+downstream observer/instrument readout, restricted to the admissible
+target domain.
+
+Geometric route equality always implies observed equality. The converse
+holds only when the readout is injective on that admissible domain.
+Consequently, agreement of measured outputs alone cannot establish that
+two geometric routes commute when the readout is lossy.
+
+This is conditional map mathematics. No physical SAT/H(s)H slice,
+coarse-graining, projection, medium-response, or instrument map is
+instantiated here; measurement uncertainty is also outside this exact
+equality theorem.
+-/
+
+/-- Exact agreement of two upstream scale routes. -/
+def ScaleRouteAgreement (f g : X → Y) : Prop :=
+  ∀ x, f x = g x
+
+/-- Agreement of two scale routes after a downstream readout. -/
+def ObservableScaleRouteAgreement
+    (R : Y → Z) (f g : X → Y) : Prop :=
+  ∀ x, R (f x) = R (g x)
+
+/-- If the geometric routes agree, every downstream readout agrees. -/
+theorem scale_route_agreement_implies_observable_agreement
+    (R : Y → Z) (f g : X → Y)
+    (h : ScaleRouteAgreement f g) :
+    ObservableScaleRouteAgreement R f g := by
+  intro x
+  exact congrArg R (h x)
+
+/-- An injective readout reflects observed route agreement back to
+agreement of the upstream geometric routes. -/
+theorem observable_agreement_reflects_scale_route_agreement_if_injective
+    (R : Y → Z) (hR : Function.Injective R)
+    (f g : X → Y)
+    (h : ObservableScaleRouteAgreement R f g) :
+    ScaleRouteAgreement f g := by
+  intro x
+  exact hR (h x)
+
+/-- On an admissible domain where the readout is injective, exact
+observable agreement is equivalent to exact geometric route agreement. -/
+theorem observable_scale_route_agreement_iff_of_injective
+    (R : Y → Z) (hR : Function.Injective R)
+    (f g : X → Y) :
+    ObservableScaleRouteAgreement R f g ↔ ScaleRouteAgreement f g := by
+  constructor
+  · exact observable_agreement_reflects_scale_route_agreement_if_injective
+      R hR f g
+  · exact scale_route_agreement_implies_observable_agreement R f g
+
+/-- A non-injective readout necessarily collapses some distinct
+admissible target states. This is the abstract witness behind hidden
+route differences; it does not assert that a physical instrument has
+such a pair in its actual support. -/
+theorem noninjective_readout_has_indistinguishable_pair
+    (R : Y → Z) (hR : ¬ Function.Injective R) :
+    ∃ a b : Y, a ≠ b ∧ R a = R b := by
+  classical
+  by_contra h
+  apply hR
+  intro a b hab
+  by_contra hne
+  exact h ⟨a, b, hne, hab⟩
+
+#print axioms scale_route_agreement_implies_observable_agreement
+#print axioms observable_agreement_reflects_scale_route_agreement_if_injective
+#print axioms observable_scale_route_agreement_iff_of_injective
+#print axioms noninjective_readout_has_indistinguishable_pair
+
+
+end HsHVerification.KestrelProjectedIncidence
