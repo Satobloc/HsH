@@ -26,6 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # pull_request defaults to the synthetic merge ref. Build the exact
+          # contributor head instead, and assert the checkout in the final log.
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
@@ -43,13 +46,23 @@ jobs:
           build: "true"
           test: "false"
           lint: "false"
-      - name: Record environment
+      - name: Record environment and verify checkout identity
         if: always()
         working-directory: FORMAL_VERIFICATION
+        env:
+          EXPECTED_CHECKOUT_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha || '' }}
         shell: bash
         run: |
           set -euo pipefail
-          echo "Source commit: $GITHUB_SHA"
+          CHECKED_OUT_SHA="$(git -C "$GITHUB_WORKSPACE" rev-parse HEAD)"
+          echo "Event GITHUB_SHA: $GITHUB_SHA"
+          echo "Expected checkout SHA: $EXPECTED_CHECKOUT_SHA"
+          echo "Checked-out SHA: $CHECKED_OUT_SHA"
+          if [[ -n "${PR_BASE_SHA:-}" ]]; then
+            echo "PR base SHA: $PR_BASE_SHA"
+          fi
+          test "$CHECKED_OUT_SHA" = "$EXPECTED_CHECKOUT_SHA"
           cat lean-toolchain
           if command -v lean >/dev/null; then lean --version; fi
           if command -v lake >/dev/null; then lake --version; fi
