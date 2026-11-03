@@ -471,9 +471,10 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 
 ## 2026-11-03T2048Z | Optional Kestrel Review-MIND source-mask note
 
-- Report: WORKSPACES/KESTREL/2026-11-03T2048Z_REVIEW_MIND_COMPLETE_CASE_MASK_AND_PARTITION_IDENTIFIABILITY.md (blob 72802c2d47f7a518cf9773bccd9a262e497ec690).
+- Report: WORKSPACES/KESTREL/2026-11-03T2048Z_REVIEW_MIND_COMPLETE_CASE_MASK_AND_PARTITION_IDENTIFIABILITY.md (blob 70d27a51ea3ce9412f1df42bf59f4b0bd94ebe57).
 - Source-code finding: the 137,911 complete-case pair-question denominator excludes any pair with an "unclear" initial or final label at either endpoint; 18,489 of 156,400 possible slots are excluded by that mask. The separate 18,331 peer-majority denominator uses a stricter valid-label plus expected-key filter. Do not conflate them.
 - The source replayer is pinned at WORKSPACES/ORSON_VAY/CODE/2026_10_29_cross_model_agreement.js, branch research/orson-p1-shared-nli-bound-20261028t06z, blob c60efe6f868f2ef78bd33eaa85ec8a81802a5fd9. This Kestrel pass inspected the code and assertions; it did not independently rerun the 17 raw JSON files.
-- The archived 17-model panel is not an interacting agent group. Its leave-one-out peer majority has no message exposure or causal influence measurement.
+- The archived CGD procedure includes within-model self-exposure to each target model's own prior answers, but no cross-model peer exposure. The separate leave-one-out peer majority is a post-hoc calculation from other models' initial labels, not a communication channel or causal influence measure.
+- The 2026-11-02 P1 protocol freeze (blob 9af4448d25f656ad1e63301660de63fd32924d5f) defines a methods/archival paper on shared evaluator dependence and within-model self-revision, with no new LLM trial and no cross-model peer-deliberation claim from ConsistencyBench.
 - Optional context only: NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION / NO_P1_REASSIGNMENT. Orson's P1 ownership and protected cognition allocation remain unchanged.
 - Repository inbox pointer only. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
