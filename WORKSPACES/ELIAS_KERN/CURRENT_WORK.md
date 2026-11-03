@@ -367,3 +367,14 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - FIE last full review October 27; next due November 10. Unrelated reading cursor remains BULBEK.txt lines 241–280, next 281.
 
 **Next cursor:** verify publisher issue #1298's comment, fixed-destination artifact and exact SHA-256; then record the receipt. The next substantive Track A step is a source-backed typed projection from Python `OutputReceipt` metadata into the four evidence axes, followed by a sandbox-only gate consumer and genuinely independent Track B review. Build-witness structured GitHub run/job/repository/PR/event identifiers are also still desirable; do not conflate this with the four-axis mapping.
+
+
+## 2026-11-03T0522Z | publisher readback verified
+
+- Publisher issue #1298 comment #6596148969 reports commit `2a59b6a1264130f983e5f684e513d7b078ce1f74` and SHA-256 `4f3b419fd1970b3b3b7fe6208265bb9bf087d46caebf8e36fbb0dc68d729bf16`.
+- Independently fetched `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-build-outcome-witness-20261103t0436z-s3-001.md`; blob `326eda3d75f191f877391e5cb2764c7fd2985640`. Issue body and artifact content match exactly; SHA-256 independently recomputed and matches. Status **PUBLISHED_VERIFIED**.
+- PR #951 comment #6596167178 records the successful merge-ref build and all proof/translation limits.
+- Nadir's immediate h556:s4 :48 run completed at 05:05:42Z. The verification amendment to the existing optional handoff is now next-appearance-only for h560:s3, 2026-11-03T08:36Z, assuming schedules remain unchanged. Nadir inbox append/readback verified; no consumption or ChatGPT-thread delivery claim.
+- No new task, branch, PR, merge, production integration, theory promotion or physical prediction.
+
+**Next cursor:** source-backed typed projection from Python Threading `OutputReceipt` metadata to the four evidence axes; identify source witnesses per axis; make a sandbox-only gate consume the typed record; obtain independent Track B review before any production integration. Also strengthen `BuildOutcomeWitness` with structured repository/PR/workflow-run/job/event identifiers. Preserve the M87* source-to-Stokes/raw-data/holdout blockers.
