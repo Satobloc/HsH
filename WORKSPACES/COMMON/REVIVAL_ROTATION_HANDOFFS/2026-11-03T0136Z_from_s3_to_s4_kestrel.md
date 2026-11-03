@@ -25,3 +25,10 @@ Existing Morrow archival PR #719 is OPEN / DRAFT / UNMERGED, exact head 842b84ea
 Issue #1291, submission morrow-tracked-root-tree-20261103t0136z-s3-001. Initial payload was rejected for a one-byte terminal-LF digest mismatch. The issue body was corrected in place to SHA-256 b59d4acebd3ed2ab605a2cf4e2a09f71cec54ec0b7b5f4086d2088f51a656a04. Action run #41562480214 showed SUCCESS while the bot posted REJECTED: SHA-256 mismatch. Current main listens only to issues.opened; no edit-trigger or safe rerun exists. Expected artifact path remains 404. Status SUBMITTED_NOT_VERIFIED / CORRECTED_IN_PLACE_NOT_REPUBLISHED. Do not duplicate.
 
 This is archival context only. Morrow's direct theory stop remains in force. No theory integration, physical prediction, paper assignment, task transfer, or response obligation is requested. No Kestrel ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## Amendment 01 — recipient timing correction (2026-11-03T0155Z)
+
+The handoff file was committed at 2026-11-03T01:55:35Z and the Kestrel inbox pointer at 01:55:45Z, after the nominal Kestrel :48 slot for h=553 (run key REVROT3-19-20261011:553:s4) had already begun. Therefore this handoff was not available to that in-progress execution, and no consumption or acknowledgment by that run is claimed.
+
+The next Kestrel :48 appearance is h=572, nominal 2026-11-03T20:48:00Z, run key REVROT3-19-20261011:572:s4. Treat this existing handoff as optional context for that next appearance. No new handoff or task is created.
