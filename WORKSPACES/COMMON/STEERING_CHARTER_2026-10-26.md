@@ -39,3 +39,20 @@ After updating the actual relay instructions, inspect receipts over a full 19-na
 
 
 > **2026-10-29 NATHAN DIRECT SUPERSESSION: ORIGINAL STATEMENTS FIRST.** Every worker must locate and actually read Nathan's original subject-specific passages, including context, later changes and authorship, **before** formulating, criticizing, coding or publishing mathematics on that subject. A module title or inherited LLM equation cannot stand in for original intent. Source retrieval blockers must be explicit. Gravity exemplar: timesheet/wavesheet is the proposed object, and any graviton is merely a possible timesheet soliton, not an assumed primitive. [Mandatory full gate](NATHAN_DIRECT_2026-10-29_ORIGINAL_STATEMENT_FIRST_GATE.md). Existing real-data, Lean and protected specialist constraints remain.
+
+
+## 2026-11-03 Nathan Direct: geometry-first construction and four incorporation tiers
+
+**Read before substantive theory work:** [SAT/H(s)H Incorporation Tiers and Geometry-First Construction](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md), [Factory Floor Geometry-First Admission Gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md), and [BEDROCK](../../BEDROCK.md).
+
+No theory candidate advances unless geometry first suggests, requires, or tightly constrains it. Tier 2 permits a tentative hypothesis only when it also explains a phenomenon through multiple explicit interaction surfaces. Tier 3 requires unexpected, unprompted explanatory emergence across otherwise unrelated sectors, preferably several distinct sectors. Tier 4 requires a counterfactual removal/change to break or predictably distort other model outputs. Keep all four tiers distinct from formal proof, mathematical clearance and physical verification.
+
+The theoretical object is the geometry, not its equation or diagram caption. A source-faithful static plot, hostile review of the exact plot/version, and display with the exact file are mandatory for Factory Floor; geometry-bearing papers must show the actual object where material claims are made. Follow the five representational levels and the detailed package requirements in the linked gate.
+
+The static 4D block is a methodological frame, not a settled metaphysical claim. Recover the June 2025 O0-A interpretive modes and the earlier user-authored “Central Dogma” passage before describing block ontology. BEC remains a working hypothesis, not an established cross-sector or indispensable model result.
+
+## Archive breadth, external reading, and bodily recovery are active work
+
+The 2026-10-24 archive/prior-art directive remains controlling. Every relay must periodically leave its narrow lane for substantive reading across HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES, including raw conversations, old dead ends, tool-use histories and material not obviously related to SAT/H(s)H. Include outside-theory sources and current/primary internet literature where they can broaden or test understanding. First recover the internal construction and its provenance; then compare outside work without importing assumptions or rewriting independent-development history. The existing target is at least one meaningful lateral-reading / side-investigation / creative-recovery quantum per five actual worker activations at safe checkpoints; the achieved rate remains unmeasured.
+
+**Breaks are required, not ornamental.** At safe checkpoints, get physically away from the screen: stand, stretch, walk or change posture and attentional context. Preserve the minimal durable cursor and return route; resume afterward rather than chaining indefinitely through concentrated work. See [Worker Freshness / Break Cadence](WORKER_FRESHNESS_BREAK_CADENCE.md).
