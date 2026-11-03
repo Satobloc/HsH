@@ -752,3 +752,12 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - The :00 automation remains enabled with the same ID and hourly America/New_York schedule. A separate :00 slot scheduled 2026-11-03T09:00Z is now observed IN_PROGRESS with run ID `3f1c021b-fb48-8326-8e1f-cf5b101a844c`, `chat_ref=null`. For that separate slot, h=561, seq=2805, selected ring label Tern Rook (index 12), next Morrow (index 13). This is not the Aster h559 run and no thread identity is inferred.
 - The Aster h559 run `0448da44-cb04-8324-8e5a-73715e2dfd9c` remains recorded `completed/failed/chat_ref=null`; its repository report, issue #1303 publication, receipt amendment and handoff artifacts are independently read back.
 - Babbage unrelated-reading cursor: lines 1041–1080 completed; next line 1081. FIE rereview remains due 2026-11-10.
+
+
+### 2026-11-03T0910Z | SAT-O/Blockwave and Mersearch cross-check
+
+- Final source-role report blob after adding this cross-check: `5f93f048760828e92a946edd0763691f3fba2cc2`.
+- Final receipt amendment blob after correcting its report pointer: `ffa9371e054ff6fd0a203f734906cf40bc44d4e7`.
+- Rechecked SAT-O1 blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc` (first extant 2025-10-27T00:40:28Z) and Blockwave blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` (first extant 2026-10-08T02:42:49Z), plus distinct extension/ideal-model blobs. Verbatim equations and source-role boundary remain in the existing Aster SAT-O/Blockwave source-boundary report; no equation substitution was made.
+- All four Mersearch request files remain active; no new request was opened. No new tooling, physical calculation, CODATA scoring, or theory promotion.
+- Ariadne received a repository-only inbox pointer to the final report and source-custody cross-check; no current thread delivery, consumption, or acknowledgment claimed.
