@@ -565,3 +565,29 @@ Nathan Direct: Other approaches may be tested but must be expressly announced ra
 ### ND-2026-10-29 — ORIGINAL-STATEMENT-FIRST SOURCE GATE (NATHAN DIRECT, MANDATORY)
 
 Before **any** worker conducts substantive work on **any** subject, first recover and read Nathan's actual original statements on that subject, including surrounding context, corrections and evolution; distinguish Nathan Direct from LLM-authored equations or summaries. Mersearch-first; log exact source path/locator/SHA and speaker, source coverage, uncertainty and both geometry→equation/equation→geometry fidelity. If original intent cannot be recovered, declare SOURCE_RECOVERY_BLOCKED rather than invent it. See [controlling implementation](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-29_ORIGINAL_STATEMENT_FIRST_GATE.md). Gravity-specific clarification: SAT does **not** posit a graviton per se; Nathan starts from the **time wavefront/wavesheet (timesheet)**, with a **possible soliton on the sheet** that *might* be called a graviton. Historical SAT.O9 "Graviton" does not establish a fundamental spin-2 graviton ontology. No theory promotion, proof, data-free calculation permission or schedule change follows from this annotation.
+
+
+### ND-2026-11-03 — GEOMETRY-FIRST FACTORY FLOOR / PAPER GATE (NATHAN DIRECT, MANDATORY)
+
+**Authority:** Nathan Direct, 2026-11-03. **Scope:** all H(s)H geometry-bearing work, every Factory Floor intake, and papers making geometric claims.
+
+Nothing enters Factory Floor without a precise geometric plot of the system under study, independent hostile review of the plot's fidelity, and the plot displayed with the submitted file. The theoretical object is the geometry. Mathematics supplies precision, constraints, calculation and fitting; it is not the physical or theoretical object and cannot substitute for its plot. Formula-only, proof-only, code-only, prose-only, conceptual-sketch or generic network-diagram submissions are not Factory Floor eligible.
+
+**Five representational levels, in Nathan's stated order:**
+1. **Primary:** observation.
+2. **Secondary:** physical working model / hands-on demonstration / orrery.
+3. **Tertiary:** precision dynamic geometric software model.
+4. **Quaternary:** precision static geometric diagram.
+5. **Pentary:** mathematics.
+
+These are distinct objects and representations. The pentary description does not replace the quaternary plot; the quaternary plot does not replace a material tertiary dynamic model or primary observation. The static plot is the minimum visual deliverable for Factory Floor; tertiary dynamics are required when behavior/evolution/response is material. Secondary models and primary observations are required when relevant to the claim; empirical claims must be anchored to actual observation.
+
+The plot must faithfully specify the actual object and, as applicable, its ambient/intrinsic dimension, topology, embedding, metric/signature, coordinates/frame, orientation, primitives, incidence, boundaries, scale, dynamics, projection/readout and source correspondence. No generic familiar shape may be substituted for the source-defined object. A diagram of a theory network is not automatically a geometric plot of the physical systems described by its nodes.
+
+A hostile reviewer independent of the authoring pass must challenge object, dimension, metric/frame, topology/incidence, projection, dynamic behavior, scale, source fidelity, equation↔geometry closure, alternative interpretations and visible failure modes. The exact plot version/hash is reviewed; any material revision requires re-review. Display the plot in the same submission package with legend, conventions, caption, source pointer and immutable version/hash. Papers must show each material geometric object where introduced and where its geometry materially changes or is projected.
+
+**Separate states:** `GEOMETRY_NOT_SUPPLIED`, `GEOMETRY_UNDERSPECIFIED`, `GEOMETRY_SOURCE_FIDELITY_UNVERIFIED`, `GEOMETRY_REVIEW_PENDING`, `GEOMETRY_REJECTED`, `GEOMETRY_REVISION_REQUIRED`, `GEOMETRY_CLEARED`, `FACTORY_FLOOR_ELIGIBLE`. Geometry clearance does not imply mathematical clearance; mathematical clearance only permits candidacy consideration; H(s)H candidacy requires independently audited cross-sector explanatory/constraining power; candidacy is not physical verification.
+
+The full operational gate and required companion package are specified in [Factory Floor Geometry-First Admission Gate](WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md). Existing results retain their historical mathematical status, but equation-only/proof-only/code-only/text-only artifacts are not Factory Floor eligible until geometry is plotted and hostile-reviewed. Papers with geometric claims require figure remediation before being described as submission-ready under this rule.
+
+Nathan's phrase **“SAT is our K-T Boundary”** is preserved as his analogy, not converted into a geological or physical claim. No new physical mechanism, metric, topology, scale or H(s)H proposition is implied by this process directive.
