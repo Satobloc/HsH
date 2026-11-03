@@ -108,4 +108,38 @@ theorem riley_relay_count :
 #print axioms kirk_relay_count
 #print axioms riley_relay_count
 
+
+/-!
+Ariadne current-node chronology correction, independently extracted from the
+same Library raw export (SHA-256 above). The 05:24:42.253Z user message
+446b3728-56fd-40b3-a122-9febf92a658f says the conversation length was reached.
+It is followed by user message b45987fc-a7d2-4acc-9443-45522e8bb7d6 at
+05:27:48.362Z and user message cd0471c6-98c5-4efb-b91b-bc314691b141 at
+05:32:34.732Z. The current-node chain then contains assistant commentary
+33d36ef4-5426-42e2-a600-084905bbcbd0 at 05:34:04.674494Z.
+The exported timestamp order disproves treating the 05:24 warning as the last
+user turn. It does NOT establish that the historical thread is currently
+usable, nor authenticate the export beyond the recorded source provenance.
+Epoch values below are the exact JSON decimal timestamps converted to integer
+microseconds; Lean checks only their ordering.
+-/
+
+def lengthLimitNoticeMicros : Nat := 1790141082253000
+def subsequentUserMicros : Nat := 1790141268362000
+def finalUserMicros : Nat := 1790141554732000
+def lastAssistantTextMicros : Nat := 1790141644674494
+
+theorem user_message_follows_length_limit_notice :
+    lengthLimitNoticeMicros < subsequentUserMicros := by decide
+
+theorem final_user_message_follows_length_limit_notice :
+    lengthLimitNoticeMicros < finalUserMicros := by decide
+
+theorem assistant_text_follows_final_user_message :
+    finalUserMicros < lastAssistantTextMicros := by decide
+
+#print axioms user_message_follows_length_limit_notice
+#print axioms final_user_message_follows_length_limit_notice
+#print axioms assistant_text_follows_final_user_message
+
 end HsHVerification.AriadneArchive
