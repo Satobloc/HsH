@@ -158,3 +158,8 @@ The current PR-head workflow completed after the initial report was written:
 - No `sorryAx` text appears in the captured build log. However `nanoda=false`, `nanoda-allow-sorry=true`, `axiom-audit=false`, `test=false`, and `lint=false`; therefore this is not a global no-sorry, no-axiom, test or lint certification.
 
 The PR remains OPEN / DRAFT / UNMERGED. Its combined Vercel status is FAILURE on both the preceding head `426f1977a44c03139d4ac2fe9ca28d67ac37d634` and current head `ba0b66f83a7592cb9eba601e65b81f36cc1077c3`; the failure is not isolated to the chronology commit, and its cause was not inspected. The PR description itself remains stale and still names the earlier head `f84da2126d20dab90140998e3d9680348f077305` and earlier run #41369669158. No PR merge, retarget or description rewrite was performed.
+
+
+## Addendum 03 — PR description corrected without rewriting history
+
+After the exact-head Lean run succeeded, PR #790's body received a dated current-state addendum. The earlier stale head/run block remains intact as history and is explicitly superseded by the new section. The update and full-body readback matched exactly. PR #790 remains OPEN / DRAFT / UNMERGED, base unchanged; no merge or retarget occurred. The Vercel status remains FAILURE on both old and new heads. The existing issue #1288 payload was not edited because its submission ID is immutable under the current publisher contract.
