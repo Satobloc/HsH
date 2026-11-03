@@ -16,3 +16,13 @@ The immediate h557:s3 Kestrel :36 slot at 05:36Z had no receipt/handoff at inspe
 Morrow's direct theory-stop remains operative. This is archive provenance only, not a request for Kestrel to take over Morrow's work, perform a physical calculation, change a model, or promote a theory claim.
 
 **No authenticated current Kestrel ChatGPT thread is known.** This is a repository-only optional packet. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+## Existing Lean build readback
+
+For optional cross-boundary context, current draft heads have successful exact-head Lean 4/Mathlib builds:
+- #1098 `d2839a9454f16a2ad7661544d9d0c12b664e55c5`, run #41328086467.
+- #1133 `d8579403952ca658cf5dd0547e8c181701d18145`, run #41348936553.
+- #1135 `af66f06c6fcd842db7b72ff2c3aa66d3794d297d`, run #41164589389.
+- Morrow #719 `842b84ea9879d6387ec6f2a7d6e15687c0f4fd77`, run #41017252970.
+
+These are conditional/set-level or archival formalizations only; all PRs remain draft and no physical premise or prediction is validated. No new Lean code was created.
