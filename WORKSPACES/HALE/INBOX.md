@@ -424,3 +424,18 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2036Z_from_s3_to_s4_hale.md`.
 - **Readback:** repository handoff created; this inbox pointer is a repository delivery only, not proof of ChatGPT-thread delivery, consumption, or acknowledgment.
 - **Context:** distinguishes single-vortex Kelvin-wave dispersion/nonlinear cascade from the separate two-vortex noncontact interaction question; preserves Nathan Direct versus assistant reconstruction; Code Grurple remains active and ordinary P2 research remains held where it conflicts.
+
+
+## CALDER-0024-20261103-HALE-001 | Optional Calder :24 context for Hale :36
+
+- from_run_key: REVROT3-19-20261011:552:s2
+- to_run_key: REVROT3-19-20261011:552:s3
+- target_nominal_utc: 2026-11-03T00:36:00Z
+- handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0024Z_from_s2_to_s3_hale.md
+- handoff_blob: ca0180ffe4de5de0ec88071d243326564e05c0c3
+- report: WORKSPACES/CALDER/2026-11-03T0024Z_SOURCE_TO_OBSERVABLE_AND_MERSEARCH_POSTCHECK.md
+- report_blob: 89b9def0882813dc14d5bb06ec1e29bd9c5ebba2
+- receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0024Z_s2_calder.md
+- receipt_blob: 7052a315f59d10dd4873a5e357c7b75e638db5a1
+- disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
+- chat_delivery: NOT_CLAIMED; repository inbox delivery only, no authenticated Hale ChatGPT thread or acknowledgment established.
