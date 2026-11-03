@@ -334,6 +334,20 @@ No map is inferred merely from a shared word such as “filament,” “worldtub
 
 ---
 
+## 7. Lens rotation: inside/outside and cross-framework comparison
+
+| Lens | Source object | Fidelity boundary |
+|---|---|---|
+| INSIDE / local | Single finite helical core, first-order coil, second-order path, hollow outer coil | The outer coil is not a second core or carrier. The first-order period and c-propagation remain tentative. |
+| OUTSIDE / global | Moving 3D time bulk interacting with a 4D worldtube in the ambient block | The time bulk is not merely a passive slicing/readout surface. Its interaction law is missing. |
+| GR | Newtonian-limit equivalence between worldtube bending and inertia | This is a source proposition about the classical limit, not a derived GR field equation. Coordinate and metric conventions remain unresolved. |
+| String / worldsheet | SAT4D O1's 1D filament and swept 4D worldtube versus Blockwave's 2D worldsheet current | These are different geometric types. No map currently translates one into the other. |
+| SM / QM | He-3 holotype target, spin-equivalent coil scale, quark-braid context | These are source-named comparison targets, not measured validations. No spin, charge, colour, or braid representation is derived here. |
+| Information / representation | Blockwave's J current and “strings are records” language | Encoding a physical structure is not the same as defining its ontology. The Blockwave representation is assistant-generated. |
+| Cross-scale | Aster's optional source packet records a direct claim that gluons, neutrino-like timesheet solitons, and giant-neutrino-like gravitational solitons are different scale presentations of one phenomenon | The source does not assert exact frequency identity or exact scale invariance. This remains a test hypothesis, not a projection map. |
+
+The framework equivalences are treated as hypotheses requiring explicit maps and composition conditions. No GR/string/SM/QM/information equivalence is inferred from shared vocabulary or visual resemblance.
+
 ## 7. Discrepancy ledger
 
 | ID | Discrepancy | Status |
