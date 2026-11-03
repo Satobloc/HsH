@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-03T16:44:04Z",
+  "updated": "2026-11-03T22:37:50.813492Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -491,7 +491,7 @@
       "origin": "Workshop Relay :36, nominal 2026-11-03T03:36Z; EHT Collaboration 2025 A&A 704 A91 Eq.21 is an outside comparator. Raw user-role geometry sources: Meridian Free Build, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827 (2026-10-09 messages 3c657387, 5a929b5e, 1178f25c); Meridian Minkowski Ring Analysis, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703 (2026-10-20/21 messages 69e7e8b1, c1b42229, f658b2db, 2bef9e5d, 090f5160, 47cf2603, c5525f53). Historical Ravel Syncmathcek precursor: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f (2026-09-07).",
       "intent": "Formalize the finite-pixel polarization-mode response to a uniform EVPA rotation; use published M87* polarimetric measurements to define an outside comparator and expose the missing H(s)H geometry-to-Stokes map.",
       "repository": "Satobloc/HsH",
-      "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; published artifact issue #1297 (verified)",
+      "primary_surface": "branch research/worldtube-polarization-mode-rotation-20261103t0336z; draft PR #1296; published artifact issue #1297 (verified); published joint-readout identifiability gate issue #1301 (exact issue-payload/artifact match verified)",
       "owner_instance": null,
       "candidate_instances": [
         "Meridian",
@@ -512,8 +512,8 @@
         "The direct 2026-10-21 user message 2bef9e5d reports a prior worldtube 'tension' near 10^44 J but supplies no derivation, system, uncertainty, or definition; joules are energy units, not force or force-per-length. The 0.7 fm ell_f value is a first-order coil scale, not filament thickness, with radius/diameter convention unresolved. Support dimension is also overloaded across 1D SAT.O filaments, 2D assistant-generated Blockwave worldsheet current, and 2026 4D worldtube/filament descriptions.",
         "Nathan Direct geometry witness is not yet satisfied: no precise static plot of the actual M87 system is bound to the exact source/candidate version; no independent hostile fidelity review of that plot; and no verified display of the reviewed plot with the exact associated file. The current SVG is explicitly a map-gap/provenance diagram, not an admissible M87 geometry plot."
       ],
-      "last_material_state": "Public M87 readout issue #1297 and SAT4D/Blockwave crosswalk issue #1281 are already published; exact issue-payload/artifact readback matched for both, so no duplicate issue was created. Issue #1297 correction comment #6595735193 records the Lean failure. PR #1296 remains OPEN/DRAFT/UNMERGED at head a673f1a38f9bacae42fe5e31807192cd64f2857a, recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92; workflow #41576591587/job #125721400743 failed on merge ref 856a117fd57e19880b58b763db20403c996025bf. Exact-head and current-base builds remain unverified. Raw Oct 9 geometry is role-verified in Meridian Free Build; the earlier claim that the raw Oct 9 source was not recovered was overbroad because it searched the separate Ravel cross-post rather than this raw export. No H(s)H prediction, fit, or physical calculation was performed. Tern receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0900Z_s0_tern_rook.md. 2026-11-03 geometry-first gate integration: direct Nathan user message 937638a6-0095-47da-8bd3-4d2bc92137bc (2026-11-03T16:06:08.288Z); Tern report WORKSPACES/TERN/2026-11-03T1636Z_GEOMETRY_FIRST_GATE_AND_SCHEDULER_HEALTH.md; report blob 2b4f7fa3c3c31e2689f7c5bb2855034f10762be4. M87 remains blocked: plot, hostile review, and plot-with-file readback are all missing. No POC code or Factory Floor intake changed.",
-      "next_cursor": "PR owner/authorized reviewer: repair the existing PolarizationModeUniformRotation module, then obtain both an exact-head Lean 4.34/Mathlib build and a current-base merge build, followed by theorem-specific axiom review; Tern made no branch or PR edits. Source work: preserve SAT.O, SAT4D, Blockwave, and Nathan Direct as distinct strata; recover further original SAT-O/Blockwave equations only through an existing Mersearch lane after one is released, without overwriting the four occupied requests. Geometry work: define typed maps from the 4D worldtube/Klein Fabric to a regular 3D time slice, observer screen, electromagnetic/radiative-transfer Stokes field, and beta_m; specify time function, metric/signature, support dimension, observer tetrad, current/field, emissivity, Faraday depth, and I_ann>0. Keep w=ct and cw=t separate until reconciled. Only then formalize the composition and consider calibrated raw M87 data plus a held-out prediction. Before Factory Floor admission, after the source-grounded geometry/maps are defined: produce a precise static plot of the actual M87 system with declared object/support type, dimensions, coordinates, axes, units, topology, boundaries and projection/slice conventions; obtain independent hostile geometry-fidelity review of that exact plot; embed/display the same plot with the exact associated file and read back both artifact identities. A map-gap diagram, detached link, generic adversarial audit, or Lean build is not a substitute. Same-hash binding across source/version, review, and display is the proposed operational integrity check.",
+      "last_material_state": "Public M87 readout issue #1297 and SAT4D/Blockwave crosswalk issue #1281 are already published; exact issue-payload/artifact readback matched for both, so no duplicate issue was created. Issue #1297 correction comment #6595735193 records the Lean failure. PR #1296 remains OPEN/DRAFT/UNMERGED at head a673f1a38f9bacae42fe5e31807192cd64f2857a, recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92; workflow #41576591587/job #125721400743 failed on merge ref 856a117fd57e19880b58b763db20403c996025bf. Exact-head and current-base builds remain unverified. Raw Oct 9 geometry is role-verified in Meridian Free Build; the earlier claim that the raw Oct 9 source was not recovered was overbroad because it searched the separate Ravel cross-post rather than this raw export. No H(s)H prediction, fit, or physical calculation was performed. Tern receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0900Z_s0_tern_rook.md. 2026-11-03 geometry-first gate integration: direct Nathan user message 937638a6-0095-47da-8bd3-4d2bc92137bc (2026-11-03T16:06:08.288Z); Tern report WORKSPACES/TERN/2026-11-03T1636Z_GEOMETRY_FIRST_GATE_AND_SCHEDULER_HEALTH.md; report blob 2b4f7fa3c3c31e2689f7c5bb2855034f10762be4. M87 remains blocked: plot, hostile review, and plot-with-file readback are all missing. No POC code or Factory Floor intake changed.  2026-11-03T22:37:50.813492Z supervisor workflow reconciliation: issue #1301 is already published; exact issue payload equals artifact content, publisher comment #6597332069, artifact blob 05d8ae7f5f4b734515ef70776e475ac36303715e, SHA-256 6cb2d2dccd6a0329140d120404584e01229ab383af298b2ad7c417c5ae67acf7. Do not duplicate the joint-readout identifiability gate. Related PR #873 head 1ddda3876954068855d802c8699956dfa3527029/base 61cc8b65ffed70296e0121dbae067892a79c81d4; Actions run #41690832586/job #126108652580 failed in KestrelMovingSlice.lean lines 114 and 125 with unsolved division identities and sorryAx in moving_slice_intersection_on_plane / moving_slice_intersection_y_rate. KestrelProjectedIncidence.lean blob 7b5c17118f87415d12b2deaa39628c75efe94435 emitted theorem-specific #print axioms in that run; this is not a whole-build pass or standalone exact-head certification. PR #1296 remains open/draft/unmerged at head a673f1a38f9bacae42fe5e31807192cd64f2857a with recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92, while the same base branch is observed at 61cc8b65ffed70296e0121dbae067892a79c81d4; exact-head/current-base verification remains missing. No new physical calculation, H(s)H prediction, source map, equation correction, theory promotion, branch/PR/issue, or Factory Floor intake.",
+      "next_cursor": "Do not duplicate the already-published joint-readout identifiability gate (issue #1301; exact issue-payload/artifact readback verified). First, the authorized PR #1296 owner/reviewer must reconcile its recorded base c7dc2c483f50ae03fc7a7c530829170135e18d92 against the current base-branch SHA observed in PR #873, 61cc8b65ffed70296e0121dbae067892a79c81d4, then obtain an exact-head Lean 4.34/Mathlib build and a current-base merge build with theorem-specific axiom review. Treat PR #873 as a related generic map/fiber formalization only: its current PR-associated run #41690832586 failed in KestrelMovingSlice.lean lines 114/125; the KestrelProjectedIncidence module emitted theorem-specific axiom output but the overall build is not a pass and no global axiom audit was run. Source work: preserve SAT.O, SAT4D, Blockwave, and Nathan Direct as distinct strata; recover further original equations only through an available existing Mersearch lane, without overwriting occupied requests. Geometry work: define source-grounded typed maps from the 4D worldtube/Klein Fabric to a regular 3D time slice, observer screen, EM current/field, radiative-transfer Stokes field, Faraday depth and beta_m; specify domains/codomains, composition order, time function, metric/signature, support dimension, observer tetrad, units, emissivity, and I_ann>0. Keep w=ct and cw=t separate until source reconciliation. No fit or physical prediction until the map is closed and genuine calibrated M87 data, covariance and a genuinely held-out epoch/frequency are available. Geometry witness remains GEOMETRY_NOT_SUPPLIED / GEOMETRY_REVIEW_PENDING / DISPLAY_NOT_VERIFIED: produce a precise plot of the actual M87 system from identified primary observation, obtain independent hostile fidelity review of that exact plot, and display the same version with the associated file. The existing map-gap SVG is not a substitute. No Factory Floor admission until all geometry, formal, source, data and review gates independently pass.",
       "exit_criterion": "Lean build and axiom audit pass; the H(s)H geometry-to-Stokes map is source-grounded; raw data and calibration uncertainties are available; an independent held-out epoch/frequency prediction is compared against GRMHD plus spatially structured Faraday rotation with a preregistered falsification threshold. A precise static geometry plot of the actual system is bound to the exact candidate/system version; an independent hostile geometry-fidelity review passes on that plot; and the same reviewed plot is displayed with the exact associated file with readback verification. This geometry witness is additional to, not a substitute for, map closure, formal verification, measured-data uncertainty, and held-out comparison.",
       "return_route": "P2 issue #565; draft PR #1296; public report through the existing issue publisher",
       "exposure_constraints": [
@@ -528,7 +528,93 @@
       "pr_number": 1296,
       "ci_status": "LEAN_FAILED_STALE_MERGE_REF; CURRENT_BASE_AND_EXACT_HEAD_NOT_RUN",
       "created": "2026-11-03T03:36Z",
-      "updated": "2026-11-03T11:06:04.689Z"
+      "updated": "2026-11-03T22:37:50.813492Z",
+      "published_gates": [
+        {
+          "issue": 1301,
+          "title": "Joint-readout identifiability gate for finite-core H(s)H geometry",
+          "artifact_path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/relay36-joint-readout-identifiability-gate-20261103t0636z-001.md",
+          "artifact_blob_sha": "05d8ae7f5f4b734515ef70776e475ac36303715e",
+          "artifact_sha256": "6cb2d2dccd6a0329140d120404584e01229ab383af298b2ad7c417c5ae67acf7",
+          "publisher_comment_id": 6597332069,
+          "issue_payload_matches_artifact": true,
+          "status": "PUBLISHED / EXACT_PAYLOAD_READBACK_VERIFIED",
+          "scope": "Map closure, fiber compatibility, and joint-readout separation as a workflow/logic gate; not a physical prediction, H(s)H map, or BEDROCK result."
+        }
+      ],
+      "related_formalization_snapshot": {
+        "pr_number": 873,
+        "state": "OPEN / DRAFT / UNMERGED",
+        "head_branch": "research/kestrel-original-slice-fidelity-20261028t0900z",
+        "head_sha": "1ddda3876954068855d802c8699956dfa3527029",
+        "base_branch": "infra/lean4-verification-20261023",
+        "base_sha": "61cc8b65ffed70296e0121dbae067892a79c81d4",
+        "workflow_run_id": 41690832586,
+        "job_id": 126108652580,
+        "run_associated_commit": "1ddda3876954068855d802c8699956dfa3527029",
+        "run_conclusion": "FAILURE",
+        "module_path": "FORMAL_VERIFICATION/HsHVerification/KestrelProjectedIncidence.lean",
+        "module_blob_sha": "7b5c17118f87415d12b2deaa39628c75efe94435",
+        "module_log_status": "Module-specific #print axioms output appeared in the PR-associated build log; this is not a separately certified exact-head build.",
+        "theorem_axioms": {
+          "hallway_factorization_iff_fiber_compatibility": [
+            "Classical.choice"
+          ],
+          "hallway_factorization_unique": [
+            "Quot.sound"
+          ],
+          "hallway_factorization_exists_of_source_injective": [
+            "Classical.choice"
+          ],
+          "scale_route_agreement_implies_observable_agreement": [],
+          "observable_agreement_reflects_scale_route_agreement_if_injective": [],
+          "observable_scale_route_agreement_iff_of_injective": [],
+          "noninjective_readout_has_indistinguishable_pair": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "whole_build_failure": {
+          "module": "HsHVerification/KestrelMovingSlice.lean",
+          "source_lines": [
+            114,
+            125
+          ],
+          "unsolved_goals": [
+            "dz * (speed * t / dz) = speed * t, under dz ≠ 0",
+            "(dy * (speed * t2 / dz) - dy * (speed * t1 / dz)) / (t2 - t1) = dy * speed / dz, under dz ≠ 0 and t1 ≠ t2"
+          ],
+          "sorryAx_theorems": [
+            "moving_slice_intersection_on_plane",
+            "moving_slice_intersection_y_rate"
+          ]
+        },
+        "global_axiom_audit": "NOT PERFORMED; theorem-specific #print axioms output only.",
+        "interpretation": "The generic projection/fiber criterion is present in the existing module, but the PR-associated build failed elsewhere. Do not describe PR #873 as a successful whole-build proof or use it to close the M87 geometry-to-Stokes map."
+      },
+      "pr1296_base_drift": {
+        "state": "OPEN / DRAFT / UNMERGED",
+        "head_sha": "a673f1a38f9bacae42fe5e31807192cd64f2857a",
+        "recorded_base_sha": "c7dc2c483f50ae03fc7a7c530829170135e18d92",
+        "base_branch": "infra/lean4-verification-20261023",
+        "current_base_sha_observed_via_pr873": "61cc8b65ffed70296e0121dbae067892a79c81d4",
+        "prior_failed_run": 41576591587,
+        "prior_failed_job": 125721400743,
+        "status_detail": "Prior failure was on stale synthetic merge ref 856a117fd57e19880b58b763db20403c996025bf; no exact-head or current-base build for PR #1296 is verified."
+      },
+      "map_gate_status": {
+        "status": "MAP_INCOMPLETE",
+        "published_identifiability_gate_issue": 1301,
+        "note": "The general fiber-compatibility/joint-separation workflow gate is published. The source-grounded H(s)H worldtube-to-EM/Stokes/Faraday map remains undefined; no empirical identifiability claim follows."
+      },
+      "geometry_witness_status": {
+        "plot": "GEOMETRY_NOT_SUPPLIED",
+        "hostile_review": "NOT_STARTED",
+        "display_with_exact_file": "NOT_VERIFIED",
+        "current_svg": "MAP_GAP/PROVENANCE DIAGRAM ONLY; NOT AN M87 GEOMETRY PLOT",
+        "factory_floor_eligibility": "BLOCKED"
+      }
     }
   ],
   "branch_count": 16
