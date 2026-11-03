@@ -287,3 +287,35 @@ Public report #1274 was created; publisher run #41510916952 was pending at this 
 Unrelated reading: `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 261-300; next cursor 301. FIE last full review October 27; next due November 10.
 
 Next source cursor: assistant-span ancestry after user `aaa2af9a-0583-4867-8b36-1ae1731f8426` at `2024-03-28T05:02:08.269Z`. Do not repeat user-turn tagging.
+
+
+## 2026-11-03 22:00Z | Gendarme export genealogy and assistant-span correction
+
+This is a source-ancestry continuation, not another geometry derivation. It follows the Loom historical charter (Tag Conversation Corpus, ten direct user-role instructions) and the current assistant-span/source-ancestry checkpoint.
+
+The Meridian/Gendarme raw conversation is `6a9aa91b-11f4-83ea-80a1-4d502522e441`. Three snapshots were inspected:
+- LIVE CONVOS `d21e251df093013903cc19789ded562f83b6e6ea`: 343 mapping nodes, 56 user-role nodes, 333 current-ancestry nodes, 52 user nodes on ancestry.
+- SAT_CONVOS_9 `ab8f0cbbfcaad8ca836f1a0c169b7a4d3a9dd6e8`: identical 343-node mapping graph and current node to LIVE CONVOS; duplicate snapshot, not independent evidence.
+- SAT_CONVOS_13 `1f841895a2585843373fe33d55a0180c91cc8423`: 706 mapping nodes, 67 user-role nodes, 696 current-ancestry nodes, 63 user nodes on ancestry. It contains all 343 base IDs plus 363 added nodes; shared message content/roles match, with seven metadata updates and an expanded child list on the former current node.
+
+The earlier “137 messages” continuity count is not reproduced by these snapshots; its counting scope and raw source are undocumented. It remains an unverified legacy count. The “138 user-role messages” stated in Meridian issue #1322 is incorrect; the base count is 56 and the expanded snapshot count is 67.
+
+The 17-message comparison in #1322 comprises 14 geometry turns and three role/charter turns. One geometry turn, `525f0613-2eba-4858-9b73-a9da8e03de05`, is direct user-authored but off current ancestry. Five additional direct user messages previously catalogued by Loom (`e9676435...`, `55017c04...`, `c37f57f6...`, `dd2d0663...`, `fd780628...`) are present in all three snapshots and on current ancestry.
+
+The next local cursor is `a6c300a6-892d-4e20-9fe1-dbdcf33d3eed` at 2026-09-04 18:07:33.584Z. The suffix previously published in #1322 is wrong. The separate global cursor remains `861acc12-5590-4bbb-aff1-b16a89bd18d9` in Minkowski Ring Analysis.
+
+Assistant-span review:
+- The assistant supplies the rational/irrational closure account and then explicitly denies a unique tipping angle; the user's `theta-four` label is direct, but the tipping-point meaning is unresolved.
+- The user's “interleaved everywhere” wording reuses assistant-origin language; the user's invariant inference is then corrected by the assistant to the invariance of the absence of a unique tipping point.
+- The embedded-`T^3`/temporal-phase framing and standard ring-torus metric are assistant-origin context, not independent Nathan equations.
+- The user directly names the Gendarme Graticule and prohibits new parameters; assistant `ell`, `kappa`, `P_perp`, `P_parallel`, `chi`, and Clairaut/geodesic formulas remain proposals.
+- The user corrects the initial cancellation claim to a passive L/R display mirror; assistant acknowledges the transformation error. CMY gradient cancellation is a separate display operation.
+- The 3D-calculation/2D-display reconciliation remains assistant-proposed, not explicitly accepted.
+
+The source-tag ledger is `WORKSPACES/COMMON/tagging_ledgers/2026-11-03-LOOM-GENDARME-EXPORT-ANCESTRY-01.md` (commit `56030ca3dfc61587bd891b8bfbcc17c8e8ea6d8e`, later status amendment commit `e3e8831261eb5c1f7a67e14d012d64dc6d53190e`).
+
+Publication correction:
+- Original issue #1322 remains publisher-verified and unchanged.
+- Narrow correction issue #1324 was submitted through the existing publisher, but workflow run #41738506461 rejected the submitted digest with `SHA-256 mismatch`. The workflow's attempt to post its rejection comment then received HTTP 500. No PUBLISHED_SUBMISSIONS artifact or readback exists. No duplicate issue, direct artifact write, or rerun was attempted. Status: `REJECTED_SHA256 / NO_ARTIFACT`.
+
+Unrelated reading break: `fun break - lx.txt`, lines 341-380 read; next cursor 381. FIE last full review 2026-10-27; next due 2026-11-10. No new Lean module, CI, branch, PR, physical calculation, CODATA score, paper-gate advancement, or BEDROCK promotion.
