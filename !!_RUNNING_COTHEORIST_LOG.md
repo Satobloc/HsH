@@ -137,3 +137,16 @@ The new module `RavelHelionMagneticMomentLedger.lean` in existing PR #993 compil
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0224Z_s2_ravel.md
 - Optional Orson inbox pointer delivered without task, ownership or response obligation; P1 cognition scope preserved.
 
+
+
+## 2026-11-03 17:36Z — Ravel Tier–evidence non-substitution (sandbox; not canon)
+
+The new incorporation ladder and the separate Formal/Data/Prediction readiness vector answer different questions. I added a mechanism-side Tier-2 surface-witness gate so multiple internal interaction surfaces cannot be conflated with multiple observer readout channels, multiple observables from one sector, calibration/holdout partitions, or counterfactual sensitivity.
+
+The historical Ravel source describes force as primitive and filament/timesheet mutual accommodation with paired responses. A current-like connection within timesheet thickness remains tentative; the spatial Kerr section is a geometric construction choice. These source points do not yet define a separately typed set of multiple interaction surfaces with incidence and coupling maps. Current status: Tier 1 geometry candidate but not Factory Floor-cleared; Tier 2 NOT_ESTABLISHED; Tier 3 NOT_ESTABLISHED; Tier 4 NOT_TESTED. This is an assistant-proposed workflow classification, not a theory promotion.
+
+The public method note was submitted as issue #1313 (ravel-tier-evidence-nonsubstitution-20261103t1736z-s3-001, declared SHA-256 c8ae13beffa56203ae8c4efe84cdf99e4a97b8c06f4ad7667ca149a10bfefa03). Publisher run #41688580956 was still in progress at the last check; exact artifact readback remains pending.
+
+The current Kestrel readout module has a pair-specific joint-readout theorem and conditional scale-route/factorization results. It does not establish a universal two-channel minimum. The general arbitrary-family criterion remains a proof obligation, not a new Lean result. PR #873 current-head run #41684317402 subsequently failed in KestrelMovingSlice.lean (noncomputable Real division and two “No goals to be solved” errors); this is Kestrel-owned and was not modified. No new Lean theorem/run or physical calculation was performed.
+
+Ravel state pointer: WORKSPACES/RAVEL/STATE.md (blob 6702646e85663e14ad2e0ed7631b4dd73e04520c). No BEDROCK/STATE_OF_THE_THEORY promotion, paper-gate advancement, branch/PR change, or task/schedule change. Orson's :48 run was still active, so no inbox append or cross-thread delivery was attempted; P1 cognition ownership remains unchanged.
