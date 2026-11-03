@@ -36,7 +36,7 @@ The live workflow `.github/workflows/issue-publisher.yml` (blob `689984b19027ed8
 
 - Code Grurple remains ACTIVE; ordinary research remains BACKSEAT/HOLD.
 - M87 PR #1296 remains blocked; its current merge-ref Lean run failed on noncomputable complex division, unresolved `Complex.abs`, and downstream theorem identifiers.
-- Existing Ravel PR #1133's conditional slice/retraction module has a prior successful merge-ref build, not an exact-head standalone build; the current branch aggregator blob differs from the aggregator blob in that run. No new Lean run or theorem was attempted; local Lean/Lake/Elan are absent.
+- Existing Ravel PR #1133 branch `research/ravel-carrier-slice-reconstruction-20261031t0212z` has module blob `69c15e6dd9c7e4cb067e0706997f0b3a770b9ec4` and current aggregator blob `59b478bfcac5399e6d5dfb461a09178dbfbe22ff`; prior successful merge-ref run #41292451762 used aggregator blob `db4d5e73e00c46ae30804d20cf380dbbe805418e`. No exact-head standalone build verifies the current integrated branch. No new Lean run or theorem was attempted; local Lean/Lake/Elan are absent.
 - Existing Helion and M87 measured-data matrices remain in their prior Ravel reports. Missing source-to-observable maps and covariance/normalization prevent a new H(s)H prediction or score. No physical calculation, fit, simulation, or raw-data reanalysis was performed.
 - All four Mersearch lanes remain occupied; no new request. No SAT-O/Blockwave equation change, BEDROCK promotion, or paper-gate advancement.
 
