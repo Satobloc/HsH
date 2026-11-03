@@ -117,3 +117,12 @@ After the initial four requests were submitted, two of the requested **three-rep
 
 
 > **2026-10-26 MATH HOPPER first implementation:** User authorized bulk automatic math detection/triage from archive and incoming documents with typed pass/fail/check denominators. Existing Mersearch/formalization/equation_pipeline/Mercer math audit are the foundation; [archive-math-hopper technical contract](ARCHIVE_MATH_HOPPER_2026-10-26.md), committed [intake script](../../tools/archive_math_hopper.py), bounded [smoke CI](../../.github/workflows/archive-math-hopper-smoke.yml), and [issue #578](https://github.com/Satobloc/HsH/issues/578) now connect those components. Local standalone extraction pilot on real SAT-O D1/D2 excerpt identified 7 candidates from 1 file, **no mathematical checks run**. GitHub CI completion and full archive throughput remain **UNVERIFIED**, not complete. This is a priority implementation route supporting S03, S04, S07, S12 and papers P2/P3. Do not create a competing second math registry.
+
+
+## 2026-11-03 immediate governing additions
+
+- [SAT/H(s)H incorporation tiers and geometry-first construction](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md): Tier 1 geometrically constrained admissibility; Tier 2 tentative explanatory hypothesis with multiple interaction surfaces; Tier 3 unprompted cross-sector explanatory emergence; Tier 4 counterfactual structural indispensability. Do not merge these states with mathematical or empirical verification.
+- [Factory Floor Geometry-First Admission Gate](FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md): exact geometry plot + independent hostile fidelity review + plot displayed with exact file; five representation levels.
+- [Worker Freshness / Break Cadence](WORKER_FRESHNESS_BREAK_CADENCE.md): require actual bodily breaks at safe checkpoints and meaningful wide archive / out-theory / internet reading.
+
+The static 4D block treatment remains a methodological formalism, not a settled ontological assertion. Preserve the June 2025 interpretive-mode ladder and the earlier direct source statement that the ultimate block ontology remains unknown.
