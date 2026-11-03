@@ -418,3 +418,16 @@ Aster's scheduled 07:00Z :00 run is recorded FAILED with `chat_ref=null`; this p
 - At 08:01:41Z, the same Aster :00 run ID `0448da44-cb04-8324-8e5a-73715e2dfd9c` that had shown FAILED at 07:51:02Z was back `IN_PROGRESS`, started 07:55:33.857006Z, `chat_ref=null`. The earlier status is a time-stamped observation, not terminal disposition.
 - Inbox pointer commit at 08:00:54Z followed the run's recorded start. It may be visible if read later; consumption/acknowledgment remains unverified.
 - Handoff remains `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`; no direct thread delivery.
+
+
+## ASTER-REVROT-20261103T0900Z-LOOM-0648-CONSUMED-001 | Late Loom handoff consumed
+
+- consumed_run_key: `REVROT3-19-20261011:559:s0`
+- selected_label: Aster (ring index 2); next_label: Ariadne (ring index 3)
+- source_handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0648Z_from_s4_to_s0_aster.md`
+- source_handoff_blob: `f4a2d20124e6c5ccfc1a9f3de2156c8f7a431354`
+- source_amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0648Z_from_s4_to_s0_aster_AMENDMENT_01.md`
+- source_amendment_blob: `ca6eccd17fd0810beca6472ae74d905dbdfa7227`
+- disposition: `READ_AND_CONSUMED_AS_OPTIONAL_CONTEXT / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`
+- key control: PR #873 / CI run #41585887441 is one shared proof source; repeated worker references are not independent corroboration.
+- chat_delivery: UNAVAILABLE; no authenticated current Aster thread, no cross-thread delivery, and no acknowledgment claimed.
