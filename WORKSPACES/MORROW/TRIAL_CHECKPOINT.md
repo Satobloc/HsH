@@ -675,3 +675,8 @@ Unrelated reading: Jacoby, Practical Talks by an Astronomer, lines 821–860; ne
 ### Successor timing amendment — 2026-11-03T0155Z
 
 The optional Kestrel handoff and inbox pointer were committed at 01:55:35Z and 01:55:45Z, after the nominal h553 :48 Kestrel slot (REVROT3-19-20261011:553:s4) began. No delivery or consumption by that already-running slot is claimed. Next Kestrel :48 appearance: h572, 2026-11-03T20:48:00Z, key REVROT3-19-20261011:572:s4. The handoff is optional context for that future appearance.
+
+
+## Amendment 02 — post-write current-main readback (2026-11-03T0157Z)
+
+After receipt, checkpoint, and handoff writes, current main was independently re-read at commit 47116dc987080aa31148380a3e9d3010e5a33873 (2026-11-03T01:57:41Z), tree fae424cf4e5a911fe4b678975fe86617d13d6110, 10,865 recursive entries, API truncated=false. The root has 76 entries and still contains LIVE CONVOS and DEVELOPMENT_FULL_CONVOS, not ACTIVE or FULL_CONVOS. The archival classification is unchanged.
