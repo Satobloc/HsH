@@ -131,3 +131,15 @@ The live `.github/workflows/issue-publisher.yml` listens only to `issues.opened`
 ## 8. Write route and verification
 
 No local checkout was present in the working container and no suitable existing Actions writer for worker receipts/handoffs was identified. The bounded fallback was the GitHub Contents API on existing `main` paths, with create-only unique report/receipt/handoff files and a fresh-SHA compare-and-swap append to Alberr's existing inbox. Exact readback is required for each artifact; repository delivery is not ChatGPT-thread delivery.
+
+
+## Addendum 01 — role-attributed Kirk/Riley mention counts
+
+A separate Python replay over the 1,363-message current-node chain independently reproduces the counts already summarized in the PR description:
+
+| Term | Messages mentioning term | Assistant messages | Tool messages | User messages |
+|---|---:|---:|---:|---:|
+| Kirk | 117 | 11 | 106 | 0 |
+| Riley | 58 | 7 | 51 | 0 |
+
+These are lexical mention counts in exported message text, not counts of primary sources or direct statements. In this raw Ariadne export, neither name occurs in any user-role message. The mentions are confined to assistant/tool messages. Consequently this export is evidence of LLM/tool-side discussion about Kirk/Riley, not Nathan Direct evidence that he introduced or endorsed those names or claims. The separate January 22 Mersearch zero-hit result remains bounded and does not establish global absence.
