@@ -127,3 +127,15 @@ Therefore the recently published **Standard Physics Backbone Expansion I** is re
 The five-level hierarchy and non-negotiable admission requirement in this document are recorded from Nathan's direct message of 2026-11-03. The detailed checklist, state names and package schema are the operational implementation of that instruction. They do not purport to be additional verbatim Nathan statements.
 
 No geometry is certified by the act of writing this protocol. No new physical mechanism, metric, topology, scale or H(s)H proposition is introduced.
+
+
+## 10. Relation to SAT/H(s)H incorporation tiers
+
+This Factory Floor gate is a **representation and geometric-fidelity admission gate**, not the four-tier test for incorporating a proposed structure into SAT/H(s)H. The two controls are cumulative and must not be collapsed:
+
+- First establish what the object is and whether its geometry is source-faithfully plotted and hostile-reviewed.
+- Separately assess a proposed ingredient through Tier 1 geometric admissibility, Tier 2 tentative explanatory value with multiple interaction surfaces, Tier 3 unprompted cross-sector explanatory emergence, and Tier 4 counterfactual structural indispensability.
+- A plot passing this Factory Floor gate does not automatically pass Tier 1 as a new hypothesis, and passing Tier 1 does not automatically clear the Factory Floor gate.
+- Tier 3 cross-sector emergence and Tier 4 numerical dependency are theory-incorporation tests, not substitutes for primary observations, mathematical QA, or independent physical validation.
+
+The controlling incorporation-tier directive is [ND-2026-11-03 — SAT/H(s)H Incorporation Tiers](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md). The BEDROCK entry governs status boundaries.
