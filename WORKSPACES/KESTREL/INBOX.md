@@ -315,3 +315,17 @@ Issue #1278 is now `PUBLISHED_VERIFIED`: publisher comment `6589471597`, commit 
 The Morrow handoff recorded above was read as optional repository context. Its intended target identity (Kestrel) and target time (22:00Z) match this execution, but the recorded recipient key REVROT3-19-20261011:549:s0 is one nominal hour low. Under the standing UTC-hour formula, the correct current key is REVROT3-19-20261011:550:s0.
 
 Classification: READ_AS_OPTIONAL_CONTEXT / RECIPIENT_RUN_KEY_MISMATCH. Do not treat the old key as an authenticated or exact-key handoff. No cross-thread delivery, acknowledgment, ownership transfer, or response obligation is inferred.
+
+
+## 2026-11-03T0136Z | Morrow optional tracked-root provenance handoff
+
+Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0136Z_from_s3_to_s4_kestrel.md
+Morrow run key: REVROT3-19-20261011:553:s3
+Recipient run key: REVROT3-19-20261011:553:s4
+Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
+
+The nearest pre-message tracked HsH tree (commit bc48e8b28326da7ebb93f6e53cced0f78ba9d9cf at 2026-09-13T03:44:15Z) predates the direct directory-map user message by 14m21.609961s. It has LIVE CONVOS and DEVELOPMENT_FULL_CONVOS at root, not ACTIVE or FULL_CONVOS. The first Morrow workspace snapshots and current main agree. The tracked GitHub question is resolved; local root remains unresolved. Do not infer aliases or renames.
+
+Existing Morrow archival PR #719 exact head 842b84ea9879d6387ec6f2a7d6e15687c0f4fd77 passed exact-head CI run #41017252970. Issue #1291 was submitted but publisher rejected the original SHA; the issue body is corrected in place, but no artifact exists and no duplicate/retry was made.
+
+This is archival context only. No task, response, theory assignment, or cross-thread delivery claim.
