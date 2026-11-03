@@ -17,6 +17,11 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.AsterPastedPredictionOrigin
+import HsHVerification.AsterNegationTemplateProvenance
+import HsHVerification.AsterP1ReceiptSourceAncestry
+import HsHVerification.AsterNegationQ2Semantic
+import HsHVerification.AsterNegationQ2Source
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
