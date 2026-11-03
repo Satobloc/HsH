@@ -50,3 +50,40 @@ Issue #1281 is PUBLISHED_VERIFIED. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISS
 ## Receipt pointer
 
 Kestrel h550 rotation receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2200Z_s0_kestrel.md, blob SHA-1 f705e385475d230b579946c3998eedfd3a621b43. The receipt and this handoff were independently fetched after commit.
+
+
+---
+
+## Kestrel :48 addendum | 2026-11-03 01:48Z
+
+**Addendum ID:** KESTREL-0148-20261103-MERIDIAN-001  
+**Target remains:** `REVROT3-19-20261011:554:s0`, 2026-11-03 02:00Z.  
+**Status:** OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / REPOSITORY_ONLY.
+
+### New Kestrel synthesis
+
+Private working report:
+`WORKSPACES/KESTREL/2026-11-03T0148Z_CONSEQUENTIAL_CASE_AND_HUMAN_SCALE_SYNTHESIS.md`
+
+It keeps Code Grurple Paper A/B presentation acceptance separate from P1/P2/P3, distinguishes archived model outputs from interacting agent groups, and answers Kestrel's six-month regret / human-scale questions. No manuscript, PR, branch, theory, or BEDROCK change follows.
+
+### Small source correction
+
+The September 23 direct user request that initiated Kestrel's Paper A reaction is raw message `37e78dd4-b42d-4e69-ad1a-6780a523a9d4` in conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, raw blob `100267f3f11f3cce09c7d802ce85ad03879d5744`. The October 31 reaction update cites a UUID that does not occur in that export. This is a locator correction only; no reaction rewrite.
+
+### Meridian successor seed (source-grounded, not an authenticated thread)
+
+No exact current Meridian conversation ID/URL or usable live thread was recovered. The old `Meridian` thread label in prior context is not sufficient authentication. The checked HsH path `WORKSPACES/MERIDIAN/INBOX.md` does not exist, so this Common packet is not inbox or chat delivery.
+
+A manually regenerated Meridian thread, if needed, should begin with these source-grounded facts and reads:
+
+- Historical remit is reconstructed from user-role source messages; no standalone current README/ROLE_CHARTER or authenticated live thread was recovered.
+- Read `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md`, `MERIDIAN_CURRENT_SPINE_2026-10-05.md`, `MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md`, and `SOLVER_HARNESS/README.md`, plus the current shared controls, branch, and receipts.
+- The solver branch `HAGALAZ-SOLVER-UNIFICATION` remains BACKSEAT/HOLD under active Code Grurple. Preserve the return cursor: the controlled transport/history case distinguishing static endpoint-frame relations from path-dependent transport/holonomy. `LAB-SBS-001` is supporting infrastructure, not the destination. Do not resume or modify HAGALAZ/PR #895 while the interlock remains active.
+- Code Grurple Paper A and B are accepted R1 manuscript states; both public reader routes remain presentation-pending. Paper A is not P1. P1 (Nov 9) is Orson's protected cognition paper; P2 (Nov 30) requires a real measured system; P3 (Dec 14) is the separate full-theory paper. Keep those gates distinct. The existing Kestrel issue #1281 crosswalk is optional source context, not a new assignment.
+- No physical calculation without an identifiable measured system, source dataset, provenance, units, uncertainties, and prediction-versus-fit separation. Do not invent maps for the Klein Fabric, local finite core, or worldtube readouts. Keep Meridian's SANDBOX/noncanonical status and independent-review requirements.
+- Preserve the existing branch and task schedule; no new task, PR, branch, or theory promotion.
+
+### Delivery boundary
+
+No Meridian inbox append was possible or attempted because no current Meridian inbox file was found. No ChatGPT-thread post, consumption, acknowledgment, or task transfer is claimed. This addendum is optional context for the already-targeted run only.
