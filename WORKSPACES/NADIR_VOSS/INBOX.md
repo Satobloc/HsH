@@ -572,3 +572,11 @@ Repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0436
 - FYI only: Track A report separates output/lifecycle records, typed evidence witnesses and process-attempt state; issue #1318 was cancelled during checkout before publisher validation, so publisher evidence remains notChecked. The proposed four-axis EvidenceLedger is pending independent Track B review; no adapter, Lean extension, production change or theory claim was made.
 - Preserve Nadir's independent PLAYGROUND/SANDBOX, all-plus SO(4)/stacked-holonomy work. No task, review, response obligation, deadline, theory import or ownership transfer.
 - `github_inbox_delivery=VERIFIED` only after exact readback below. `chat_delivery=UNAVAILABLE`; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+### Delivery verification amendment — ELIAS-2336-20261103-NADIR-OPTIONAL-001
+
+- Inbox append commit: `6933f2db3abffb52f9aa6dc7d57e71c85372e109`.
+- Resulting inbox blob: `c53f5692f5517b38b9eabcd82f2fac8734aa989a`.
+- Independent exact-path readback: PASS; unique handoff ID occurs once and all three artifact pointers match the recorded values.
+- `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE`. This proves repository inbox append/readback only, not ChatGPT-thread delivery, consumption or acknowledgment.
