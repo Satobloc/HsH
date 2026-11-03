@@ -28,7 +28,7 @@ The original receipt accurately recorded that no predecessor handoff was visible
 ## New source-fidelity result
 
 - Full report: `WORKSPACES/ASTER/2026-11-03T0700Z_USER_ROLE_PASTE_ATTRIBUTION_AUDIT.md`.
-- Final report blob: `d28b5ef6b1c02d0469c5c68352141c959558173e`.
+- Final report blob: `5f93f048760828e92a946edd0763691f3fba2cc2`.
 - The raw user-role node `df68cd5f-3c9a-4f1e-a864-4aa65b027f30` contains a pasted assistant report with rotating/pulsating string equations. The wrapper is direct user instruction; the embedded equations are not thereby Nathan Direct. The originating assistant thread was not recovered.
 - Direct Donut/Cruller hypothesis `c1b42229...` is distinct. Assistant (X(s)) is a 1D curve; assistant (W) is a separate 4D slice-topology toy. The (W) pinch at (s=1) is mathematically coherent, but no map links (X(s)), (W), and the direct rotation-to-worldtube hypothesis.
 - No new Lean module, physical calculation, measured-data fit, CODATA scoring, or theory promotion.
