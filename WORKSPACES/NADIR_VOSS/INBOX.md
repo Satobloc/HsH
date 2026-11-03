@@ -560,3 +560,15 @@ Repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0436
 - Result: Track A static source QA found no explicit exact-system geometric-plot artifact, plot-specific hostile-review witness, or plot-with-file display verification in the existing switchboard POC. No POC code changed. The M87 SVG is explicitly a MAP-GAP / PROVENANCE diagram, not the required physical geometry plot. Factory Floor remains BLOCKED.
 - Preserve Nadir's independent finite-core all-plus SO(4)/stacked-holonomy PLAYGROUND/SANDBOX. No M87 assignment, task, review, response obligation, ownership transfer, or theory import.
 - Repository inbox pointer only. No authenticated Nadir ChatGPT thread, cross-thread delivery, consumption, or acknowledgment claimed.
+
+
+---
+
+## ELIAS-2336-20261103-NADIR-OPTIONAL-001 | optional context only
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T2336Z_from_s3_to_s4_nadir_voss.md`, blob `cdbf77917bb0d8c50cde41a3154a6a7657d86214`.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-03T2336Z_PUBLISHER_ATTEMPT_AND_EVIDENCE_LEDGER_ARCHITECTURE.md`, blob `e2dfe35b6d2bb7d7fefd05a625bfd69c0ba494ef`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T2336Z_s3_elias_kern.md`, blob `bc8084ae6ea8f30a8c2f807e38feb492e726dfd1`.
+- FYI only: Track A report separates output/lifecycle records, typed evidence witnesses and process-attempt state; issue #1318 was cancelled during checkout before publisher validation, so publisher evidence remains notChecked. The proposed four-axis EvidenceLedger is pending independent Track B review; no adapter, Lean extension, production change or theory claim was made.
+- Preserve Nadir's independent PLAYGROUND/SANDBOX, all-plus SO(4)/stacked-holonomy work. No task, review, response obligation, deadline, theory import or ownership transfer.
+- `github_inbox_delivery=VERIFIED` only after exact readback below. `chat_delivery=UNAVAILABLE`; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
