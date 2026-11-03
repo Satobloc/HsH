@@ -128,3 +128,12 @@ These are historical source records. They do not validate the theories or calcul
 ## 7. Source and implementation note
 
 This file records Nathan's supplied four incorporation tiers and the geometry-first/representation rules from his 2026-11-03 direction. Historical source passages are cited as provenance for the block-universe clarification. Operational elaborations are labeled by their content and must not be misrepresented as verbatim user language. This directive adds no physical mechanism, equation, metric, topology, scale, empirical claim, or theory promotion.
+
+
+## 8. Clarification — geometry-first is a fidelity check, not a Factory Floor shutdown
+
+Factory Floor is not closed. Its geometry-first admission gate operationalizes the recognition that mathematically thorough and internally accurate calculations can still be decoupled from, or incorrectly coupled to, the intended geometry. Numerical work, prototypes, dynamic readouts and mathematical exploration can continue; the gate determines whether the represented object and its readouts are geometrically faithful enough for the corresponding claims/status.
+
+Nathan's Whirlygig example makes the distinction concrete: a rolling projector sphere could generate apparently real numbers and dynamic readouts while rolling through the donut hole instead of within the tube, where its curve-projection surface lies. The mathematics might work for the implemented path, but it would describe the wrong geometric relation. The resulting distortion would be different from the expected projective distortion.
+
+Keep mathematical error, geometric error, geometry–mathematics coupling error, and expected projective distortion distinct. A failed plot check calls for geometric reconciliation, not a blanket halt to research.
