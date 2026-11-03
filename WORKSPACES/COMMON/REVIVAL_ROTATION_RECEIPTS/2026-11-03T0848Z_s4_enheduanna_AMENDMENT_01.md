@@ -9,7 +9,7 @@ This is an amendment to an already-existing same-slot receipt, not a second rece
 
 ## 1. Same-slot artifact provenance
 
-The repository already contained `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0848Z_s4_enheduanna.md`, committed as `d79c796dda2757035c0167f0382918696deb8fa4` at `09:09:33Z`. Its public issue #1304 was created at `09:03:36Z`; both predate this invocation's observed start at `09:17:11Z`. The automation's `latest_result` still belongs to the earlier h558 run (`0dc6f13a-908c-8325-87b7-77fc28ed20d1)), not h560. The producing run ID for the already-present h560 receipt is not recorded in that receipt. It may be an earlier attempt of this scheduled occurrence or a parallel/manual execution; attribution is unresolved.
+The repository already contained `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0848Z_s4_enheduanna.md`, committed as `d79c796dda2757035c0167f0382918696deb8fa4` at `09:09:33Z`. Its public issue #1304 was created at `09:03:36Z`; both predate this invocation's observed start at `09:17:11Z`. The automation's `latest_result` still belongs to the earlier h558 run (`0dc6f13a-908c-8325-87b7-77fc28ed20d1`, not h560. The producing run ID for the already-present h560 receipt is not recorded in that receipt. It may be an earlier attempt of this scheduled occurrence or a parallel/manual execution; attribution is unresolved.
 
 I independently read back the published file and issue payload: the 7,532-character artifact content matches the issue #1304 payload exactly. The publisher's readback comment records SHA-256 `f19a25747295d86fee512aec6529c824ec13b3783fbe961628e458d73cd2b8a2`. No duplicate issue or public artifact was created.
 
@@ -116,6 +116,8 @@ All symbolic assertions passed.
 
 Reproducible SymPy core (the run used the installed SymPy environment; no external service):
 ```python
+import sympy as sp
+
 theta, phi = sp.symbols("theta phi", real=True)
 R12 = sp.Matrix([[sp.cos(theta), -sp.sin(theta), 0, 0],
                  [sp.sin(theta),  sp.cos(theta), 0, 0],
