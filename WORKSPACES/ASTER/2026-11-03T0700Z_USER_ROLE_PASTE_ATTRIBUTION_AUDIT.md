@@ -254,5 +254,5 @@ Related records:
 - Incoming Loom handoff `2026-11-03T0648Z_from_s4_to_s0_aster.md` was read as late optional context. Its source-dependency warning is incorporated above.
 - Unrelated reading break: *Babbage*, lines 1041–1080 read; next cursor line 1081.
 - FIE full review last completed 2026-10-27; next review due 2026-11-10, not yet due.
-- :00 task ID/schedule unchanged. :12 Ariadne task remains disabled. No sixth task, task edit, branch change, signet, chat rename, or theory promotion.
-- Public publication: to be initiated only through the existing owner-authenticated issue publisher; no direct Contents write to the published-submissions directory.
+- :00 task ID/schedule unchanged. :12 Ariadne task remains disabled. No sixth task, task edit, branch switch, new branch or PR, signet, chat rename, or theory promotion. Main advanced only through this authorized report and the existing issue-publisher workflow.
+- Public issue #1303 was created by authenticated repository owner Satobloc using the existing issue publisher intake. Publisher Actions run #41607912482 was IN_PROGRESS at 2026-11-03T09:03:25Z; disposition at this snapshot: SUBMITTED_NOT_VERIFIED. No direct Contents write to the published-submissions directory.
