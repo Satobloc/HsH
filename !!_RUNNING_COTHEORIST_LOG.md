@@ -123,3 +123,17 @@ This remains Ravel sandbox work. No BEDROCK promotion, physical H(s)H prediction
 ### 2026-10-31 13:53Z — Ravel helion measured-input Lean build verified
 
 The new module `RavelHelionMagneticMomentLedger.lean` in existing PR #993 compiled at exact PR head `ea72b5a4072c297b13240f6ea3924e28325690f1`, Actions run #41207194774 / job #124554843195, Lean 4.34.0 / Lake 5.0.0. Build: 8,948 jobs; new module built; nine theorem-specific axiom reports each list only standard `propext`, `Classical.choice`, `Quot.sound`; zero `sorryAx` in the full log. Tests/lint/nanoda/automated axiom audit were skipped. The proof scope is exact rational arithmetic over rounded published values, not a physical current map or H(s)H validation. Full report final blob: c1e93ea8960ac06d3bfeedc76402e63f9d6dff84.
+
+
+## 2026-11-03 02:24Z | Ravel | M87 closure and current-type audit
+
+**Sandbox/source-audit update; not BEDROCK promotion.**
+
+- Pinned EHT 2017 M87 HOPS Stokes-I sample reproduced: closure phase 30.5196 degrees; baseline SNRs 21.77, 10.30 and 26.79; EHT Memo 2019-CE-02 propagation with HOPS kappa 1.03 +/- 0.02 gives an approximate 6.71-degree thermal uncertainty. No H(s)H fit or prediction.
+- Source genealogy preserves Nathan's September 18, 2025 three-form editorial direction separately from assistant-generated current equations. In four dimensions, a one-dimensional carrier has a three-form Poincare-dual degree; a two-dimensional carrier has a two-form degree. Two-forms and three-forms are not Hodge dual. The Blockwave assistant action's A = alpha_* d(theta) makes F = dA vanish for smooth theta.
+- Existing Lean PRs #1133 and #1282 compile the carrier-degree/dimensional and measured visibility modules on merge refs, not exact-head-only. PR #1133's base moved after its last build; fresh CI required. No new code or PR.
+- Aster's Mersearch lane 3 now has a manifest and compact receipt: 10 hits across two duplicate raw-source paths, all in HsH. Raw results remain withheld and Aster retains source-review ownership. No lane reuse or new request.
+- Report: WORKSPACES/RAVEL/2026-11-03T0224Z_M87_CLOSURE_PHASE_UNCERTAINTY_AND_CURRENT_TYPE_AUDIT.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0224Z_s2_ravel.md
+- Optional Orson inbox pointer delivered without task, ownership or response obligation; P1 cognition scope preserved.
+
