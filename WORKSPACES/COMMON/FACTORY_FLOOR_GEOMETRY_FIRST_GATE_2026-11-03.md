@@ -139,3 +139,19 @@ This Factory Floor gate is a **representation and geometric-fidelity admission g
 - Tier 3 cross-sector emergence and Tier 4 numerical dependency are theory-incorporation tests, not substitutes for primary observations, mathematical QA, or independent physical validation.
 
 The controlling incorporation-tier directive is [ND-2026-11-03 — SAT/H(s)H Incorporation Tiers](NATHAN_DIRECT_2026-11-03_SAT_HSH_INCORPORATION_TIERS.md). The BEDROCK entry governs status boundaries.
+
+## Clarification — Factory Floor is operationalizing geometric recognition, not closed
+
+**Nathan Direct clarification, 2026-11-03:** Factory Floor is not “closed.” It remains an active research and production environment. The geometry-first gate operationalizes the recognition that mathematics can be thorough and internally accurate while remaining decoupled from, or incorrectly coupled to, the intended geometry. The gate is an added fidelity check, not a shutdown, moratorium on mathematical work, or declaration that the floor itself is unavailable.
+
+A calculation can produce plausible numbers and dynamic readouts while implementing the wrong geometric relation. Whirlygig example: a rolling projector sphere may be numerically animated and produce apparently real readouts while rolling through the donut hole rather than rolling within the tube, where the curve-projection surface lies. The mathematics may still work for the implemented path, but that path is not the intended system. Its resulting distortion is a geometric/coupling artifact, not the expected projective distortion.
+
+Keep at least these error classes distinct:
+- **Mathematical error:** the calculation or derivation is incorrect.
+- **Geometric error:** the represented object, topology, placement, path, incidence, or relation is not the intended geometry.
+- **Geometry–mathematics coupling error:** the mathematics may be valid for its implemented object, but its correspondence to the intended geometric object is wrong.
+- **Projective distortion:** a consequence of applying the intended projection to the correctly specified geometry; distinguish it from artifacts caused by an incorrect path or coupling.
+
+The plot/review/display gate is therefore a positive quality-control capability that allows work to proceed with stronger evidence. It does not prohibit exploration, prototyping, numerical calculation, dynamic readouts, or mathematical development. It controls what can be claimed as geometrically faithful and what can be admitted to Factory Floor status. A failed geometry check means “repair/reconcile this representation,” not “stop all work.”
+
+Use the exact Whirlygig example as an explanatory test case, not as a claim that any particular current Whirlygig implementation has already been inspected or found defective.
