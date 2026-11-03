@@ -244,3 +244,12 @@ The contents are byte-for-byte equal as extracted from the three raw mappings. T
 ## 2026-11-02T2148Z additive directory-map correction
 
 The completed targeted Mersearch request recovered the direct user-role directory-map message `0cccc21b-55d9-43c5-b0fd-c1566c27abf4` in the combined Aldus Morrow thread. It distinguishes an HsH-root `ACTIVE` folder, a separate `FULL_CONVOS` copy folder, and the `LIVE` snapshots that were mostly saved before instances had proper names. The exact `ACTIVE = LIVE CONVOS` shorthand remains unlocated; do not use it as a path alias. The request returned 11 hits across 9 paths, but the compact receipt withholds raw results and HSH_RESOURCES paths. It did not return the initial workspace-creation message; that separate source is already recovered as `53a18c37-9c45-4616-b67d-25fe2e36a6c5`. See the [full source correction](2026-11-02T2148Z_ACTIVE_FULL_CONVOS_LIVE_DIRECTORY_SOURCE_CORRECTION.md) and Common provenance/tag ledger. Current GitHub main does not expose exact `ACTIVE` or `FULL_CONVOS` root paths; no rename or migration is inferred.
+
+
+## 2026-11-03T2036Z | Mersearch finite-slab request completion and source-count correction
+
+**Supersession:** the earlier h557 `SUBMITTED_NOT_VERIFIED` status for `morrow-finite-slab-originals-20261103-0524` is superseded by request-scoped manifest and compact receipt readback. Current status is `RESULTS_PRESENT / COMPACT_RECEIPT_VERIFIED / FULL_RESULTS_WITHHELD`; scan coverage is 16,884 files, 21,032,761 records, 68 hits and 21 path-level sources. Full raw results remain withheld.
+
+The source-coverage/dedup audit is `WORKSPACES/MORROW/2026-11-03T2036Z_MERSEARCH_SOURCE_COVERAGE_AND_DEDUP_AUDIT.md` (blob `0b82d7213ac4bc067610ecc3aee229bfdb8b23fd`). It verifies the raw SAT theory clarification conversation, a 25/30 exact-body transcript coverage result in `SAT_DEC2025.txt`, 12/30 in `NEOSAT 2025.txt`, five omitted user-role nodes, three exact duplicate blob pairs, and two versioned snapshot families. The 21 path count is not an independent-source count.
+
+The current shared lane-3 request file belongs to Orson's later request `orson-cognition-origin-bank-20261103-1745`; do not overwrite it or resubmit Morrow's completed request. The direct theory stop remains unchanged. No theory integration or physical prediction was performed. Publication remains pending the existing issue-publisher repair; no duplicate issue was created.
