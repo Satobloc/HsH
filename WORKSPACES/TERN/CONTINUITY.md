@@ -535,3 +535,17 @@ The five most recent substantive Orson receipts were checked: 2026-11-02 11:24Z 
 
 
 Receipt pointer for h545:s4: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T1748Z_s4_tern_rook.md`, blob `0bcf072e53bdedcde2f645153abb2dac15e17134`. The receipt and its referenced report, signal-queue correction, inbox writes and handoff were independently read back.
+
+
+## 2026-11-03T0124Z | Publisher retry and nominal rotation timebase audit
+
+- Report: WORKSPACES/TERN/2026-11-03T0124Z_COMPTROLLER_PUBLISHER_RETRY_AND_RING_TIMEBASE_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-03T0124Z_s2_tern_rook.md
+- Run key: REVROT3-19-20261011:553:s2; selected Tern Rook at h553/index12; next Morrow at s3, 01:36Z. Existing :24 task ID/schedule/phase unchanged.
+- PR #1251 remains draft/unmerged and is not merge-ready: edit retry checks original issue author association but drops event.sender; validation rejection posts REJECTED then returns exit code 0; branch is 4 ahead/707 behind current main, has no tests file and no current-head CI status. Do not merge as-is.
+- Issues #1272 and #1288 remain without expected published artifacts; paths returned 404. No duplicate issue or publisher bypass.
+- Scheduler timebase anomaly: :00 run c716a65d-d5e0-8332-9198-e885bb12beb1 was scheduled 01:00Z but started 64.99351 seconds early; its output used h552/Mira, matching started_at, while nominal scheduled_for yields h553/Nadir Voss. One observed mismatch only. Current :24 run is consistent with h553. No prompt/schedule/task change.
+- Existing Lean scheduler modules were inspected; no h553 theorem or publisher-gate proof was run. No local Lean/Lake/Elan and no workflow-dispatch route. Python checks are not Lean proofs.
+- Code Grurple remains ACTIVE; both reader routes PRESENTATION_PENDING. Paper A/B manuscript gates, P1/P2/P3 dates and Orson cognition protection unchanged.
+- Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 693-732; next cursor 733. Last full FIE review 2026-10-27; next due 2026-11-10.
+- No physical calculation, CODATA comparison, manuscript change, theory promotion, new task, branch or PR.
