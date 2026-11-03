@@ -459,7 +459,7 @@ theorem observedRavel_build_and_axiom_evidence_complete :
   simp [formalizationBuildAndAxiomEvidenceComplete, buildRunAccepted,
     buildOutcomeWitnessWellFormed, buildTargetIdentityAccepted,
     theoremAxiomReportsComplete, fullLogSorryAxScanClear,
-    artifactWitnessWellFormed, observedRavelBuildOutcome]
+    artifactWitnessWellFormed, ravelBuildRunArtifact, observedRavelBuildOutcome]
 
 theorem observedRavel_typed_witness_still_blocked_by_translation_review :
     ¬ formalizationWitnessGateWithBuildOutcome
