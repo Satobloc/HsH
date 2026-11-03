@@ -455,7 +455,11 @@ def observedM87PolarimetryBuildOutcome : BuildOutcomeWitness :=
 
 theorem observedRavel_build_and_axiom_evidence_complete :
     formalizationBuildAndAxiomEvidenceComplete observedRavelBuildOutcome := by
-  decide
+  classical
+  simp [formalizationBuildAndAxiomEvidenceComplete, buildRunAccepted,
+    buildOutcomeWitnessWellFormed, buildTargetIdentityAccepted,
+    theoremAxiomReportsComplete, fullLogSorryAxScanClear,
+    artifactWitnessWellFormed, observedRavelBuildOutcome]
 
 theorem observedRavel_typed_witness_still_blocked_by_translation_review :
     ¬ formalizationWitnessGateWithBuildOutcome
@@ -465,11 +469,18 @@ theorem observedRavel_typed_witness_still_blocked_by_translation_review :
 
 theorem observedEliasSticky_build_succeeded :
     buildRunAccepted observedEliasStickyBuildOutcome := by
-  decide
+  classical
+  simp [buildRunAccepted, buildOutcomeWitnessWellFormed,
+    buildTargetIdentityAccepted, artifactWitnessWellFormed,
+    observedEliasStickyBuildOutcome]
 
 theorem observedEliasSticky_reports_remain_partial :
     ¬ formalizationBuildAndAxiomEvidenceComplete observedEliasStickyBuildOutcome := by
-  decide
+  classical
+  simp [formalizationBuildAndAxiomEvidenceComplete, buildRunAccepted,
+    buildOutcomeWitnessWellFormed, buildTargetIdentityAccepted,
+    theoremAxiomReportsComplete, fullLogSorryAxScanClear,
+    artifactWitnessWellFormed, observedEliasStickyBuildOutcome]
 
 theorem observedM87_target_module_blob_matches :
     observedM87PolarimetryBuildOutcome.moduleBlobAtPRHead =
@@ -478,7 +489,10 @@ theorem observedM87_target_module_blob_matches :
 
 theorem observedM87_failed_build_is_not_accepted :
     ¬ buildRunAccepted observedM87PolarimetryBuildOutcome := by
-  decide
+  classical
+  simp [buildRunAccepted, buildOutcomeWitnessWellFormed,
+    buildTargetIdentityAccepted, artifactWitnessWellFormed,
+    observedM87PolarimetryBuildOutcome]
 
 theorem formalizationWitnessGateWithBuildOutcome_implies_build_accepted
     (e : WorldtubeClaimEvidence)
@@ -488,13 +502,10 @@ theorem formalizationWitnessGateWithBuildOutcome_implies_build_accepted
     buildRunAccepted b := by
   exact h.2.2.1
 
-#eval decide (buildRunAccepted observedM87PolarimetryBuildOutcome)
-#eval decide (buildRunAccepted observedEliasStickyBuildOutcome)
-#eval decide (formalizationBuildAndAxiomEvidenceComplete observedEliasStickyBuildOutcome)
-#eval decide (formalizationBuildAndAxiomEvidenceComplete observedRavelBuildOutcome)
-#eval decide (formalizationWitnessGateWithBuildOutcome
-  observedRavelWorldtube observedRavelWitnessBundle observedRavelBuildOutcome)
-#eval decide (automatedAxiomAuditPassed observedRavelBuildOutcome)
+theorem observedRavel_automated_audit_not_passed :
+    ¬ automatedAxiomAuditPassed observedRavelBuildOutcome := by
+  intro h
+  cases h
 
 #print axioms observedRavel_build_and_axiom_evidence_complete
 #print axioms observedRavel_typed_witness_still_blocked_by_translation_review
@@ -503,5 +514,6 @@ theorem formalizationWitnessGateWithBuildOutcome_implies_build_accepted
 #print axioms observedM87_target_module_blob_matches
 #print axioms observedM87_failed_build_is_not_accepted
 #print axioms formalizationWitnessGateWithBuildOutcome_implies_build_accepted
+#print axioms observedRavel_automated_audit_not_passed
 
 end HsHVerification.EliasWorldtubeEvidenceWitnessGate
