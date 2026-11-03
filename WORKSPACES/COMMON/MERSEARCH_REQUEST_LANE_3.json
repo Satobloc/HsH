@@ -1,28 +1,28 @@
 {
-  "request_id": "morrow-finite-slab-originals-20261103-0524",
-  "requester": "Workshop Relay :24 / Morrow archival source-custody pass; current assistant, not authenticated historical Morrow",
-  "requested_at": "2026-11-03T05:24:00Z",
+  "request_id": "orson-cognition-origin-bank-20261103-1745",
+  "requester": "Workshop Relay :48 / Orson Vay Review-MIND; source-grounded cognition archaeology, current assistant reconstruction, not authenticated historical Orson thread",
+  "requested_at": "2026-11-03T17:45:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND (\"given time thickness\" OR \"time thickness\" OR \"slab thickness\" OR (trajectory NEAR/12 (slab OR \"time slice\" OR timesheet)) OR (\"energy exchange\" NEAR/12 (trajectory OR \"time slice\" OR timesheet)) OR (\"flow dynamics\" NEAR/12 (timesheet OR slab)))) OR ((path:*SAT_DEC2025* OR path:*PRE-H(s)H* OR path:*MANIFOLDS*) AND (trajectory OR timesheet OR slab OR thickness OR \"time slice\" OR \"flow dynamics\"))",
-  "purpose": "Continue the bounded source-recovery cursor from Morrow's 2026-11-03T0524Z report. Locate raw role-bearing original messages underlying SAT_DEC2025.txt, SAT PRE-H(s)H TIGHTENING.txt, and the unresolved source tags in H(s)H MANIFOLDS.txt (54, 849) and (2, 90, 1133). Preserve exact repository/path/source commit/blob, conversation ID, message UUID, UTC timestamp, role, parent ancestry and adjacent context. Distinguish raw user messages from transcript witnesses, NotebookLM derivative exports, generated compilations and assistant summaries. Source custody only: no theory integration, physical calculation, CODATA comparison, fit, prediction, equation correction, manuscript or BEDROCK promotion.",
+  "query": "(author:user AND ((Orson NEAR/12 cognition) OR \"LLM cognition\" OR \"Cognition Research\" OR \"Reading Program 01\" OR (\"false authority\" NEAR/12 (matched OR prompt OR answer)) OR (\"matched prompt\" NEAR/12 cognition))) OR ((path:*ORSON* OR path:*COGNITION*) AND (\"OV-49\" OR \"OV-50\" OR \"OV-51\" OR \"OV-52\" OR \"OV-53\" OR OV49 OR OV50 OR OV51 OR OV52 OR OV53 OR \"answer key\" OR \"neutral framing\" OR \"false authority\"))",
+  "purpose": "Recover the original source genealogy for Orson's LLM-cognition assignment and the OV-49–OV-53 matched cognition test bank. Locate raw role-bearing Nathan Direct statements about Orson's remit, the original 'Cognition Research: Reading Program 01' discussion, original bank/protocol files, actual model outputs, and any administered-trial records. Preserve exact repository/path, source commit/blob SHA, conversation ID, message UUID, timestamp, outer role, parent ancestry, adjacent context, and verbatim source wording. Distinguish user-authored assignment, assistant-maintained role charter, synthetic OV models, archived model outputs, and actual administered trials. This is source-custody/recovery only, not an experiment or claim of recovered content.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
     "candidate raw conversation paths, conversation IDs, exact user message UUIDs, UTC timestamps, parent IDs and adjacent context",
-    "exact source repository commits and immutable blob SHAs; first-extant repository dates separately from message/document dates",
-    "source-role, branch/ancestry, duplicate and derivative relationships",
-    "verbatim original wording and separate assistant-authored transcriptions/corrections"
+    "candidate OV-49–OV-53 bank files, answer keys, scripts, original prompts, output records and immutable blob SHAs",
+    "source-role, authorship, branch/ancestry, duplicate and derivative relationships",
+    "actual three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
     "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
     "Preserve default QUARANTINE and PRIOR_ART public-index exclusions",
     "Do not treat compact receipts as exhaustive results or source-authorship proof",
-    "Do not infer missing source locators from assistant-authored summaries",
-    "No physical calculation, data-free calculation, synthetic fixture, parameter fit, CODATA comparison or independent measurement",
-    "No new tooling, branch, PR, public issue, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
+    "Do not infer an administered LLM trial from synthetic models, code, or archived outputs",
+    "No model calls, API spend, human-subject session, new trial, invented subject result, or fabricated data",
+    "No new tooling, branch, PR, public paper claim, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
   ],
   "status": "requested",
   "lane": 3
