@@ -48,7 +48,7 @@ This is not a single “done/not done” project. It is several gates with diffe
 
 | Workstream | Current evidenced state | What it does not establish |
 |---|---|---|
-| Code Grurple A: *Convergent Geometric Motifs…* | Accepted R1 source pinned at `13d166eefdd5a7629bee3dc9ac9e1eb8bb44fa`; manuscript gate closed. | Reader deployment, physical validation, or theory promotion. |
+| Code Grurple A: *Convergent Geometric Motifs…* | Accepted R1 source pinned at `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; manuscript gate closed. | Reader deployment, physical validation, or theory promotion. |
 | Code Grurple B: *Boundary-Weak Emission…* | Reviewed/originator-accepted R1 pinned at `0a1dca42cafd9a02faceff4ec0851659a317b2bb`; manuscript gate closed. | Reader deployment or a verified physical mechanism. |
 | Shared Code Grurple presentation gate | Both use the `sandbox_manuscript` route; both remain PRESENTATION_PENDING. Feed blob `e3552fdac0f187b066b59a9742563094efffe011` binds sources, but is not live-reader acceptance. | Successful rendering, deployment identity, or live readback. |
 | Paper A review packet | `REVIEW_PACKET.md` still contains an R0-era ledger (Nathan NOT_READY, dispositions pending). The accepted R1 and later acceptance records supersede those fields. Tern owns packet currency. | Current status. Kestrel did not edit it. |
