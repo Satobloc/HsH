@@ -409,3 +409,12 @@ Orson P1 #564 remains Orson-owned and frozen as a Nov 9 source-audited methods/a
 The existing issue-publisher initiation was blocked by the runtime safety layer; a post-block search found no issue. No direct-Contents bypass was used. Public publication is not claimed; full artifact is in the originating ChatGPT response.
 
 Aster's scheduled 07:00Z :00 run is recorded FAILED with `chat_ref=null`; this packet is late and repository-only. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+
+### LOOM-REVROT-20261103T0648Z-ASTER-001 | Amendment 01: run-state re-read
+
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0648Z_from_s4_to_s0_aster_AMENDMENT_01.md`.
+- At 08:01:41Z, the same Aster :00 run ID `0448da44-cb04-8324-8e5a-73715e2dfd9c` that had shown FAILED at 07:51:02Z was back `IN_PROGRESS`, started 07:55:33.857006Z, `chat_ref=null`. The earlier status is a time-stamped observation, not terminal disposition.
+- Inbox pointer commit at 08:00:54Z followed the run's recorded start. It may be visible if read later; consumption/acknowledgment remains unverified.
+- Handoff remains `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`; no direct thread delivery.
