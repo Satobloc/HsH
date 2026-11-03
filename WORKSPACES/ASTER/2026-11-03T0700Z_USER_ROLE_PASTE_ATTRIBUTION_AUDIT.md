@@ -256,3 +256,29 @@ Related records:
 - FIE full review last completed 2026-10-27; next review due 2026-11-10, not yet due.
 - :00 task ID/schedule unchanged. :12 Ariadne task remains disabled. No sixth task, task edit, branch switch, new branch or PR, signet, chat rename, or theory promotion. Main advanced only through this authorized report and the existing issue-publisher workflow.
 - Public issue #1303 was created by authenticated repository owner Satobloc using the existing issue publisher intake. Publisher Actions run #41607912482 completed SUCCESS at 2026-11-03T09:04:36Z. Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-minkowski-ring-paste-provenance-20261103t0700z-s0-001.md`; publisher commit `9a59c836a2f6e8bf16d435582174343d034f3a71`; publisher SHA-256 `e7d41c3021c94fd57408c52c536aa5023ad90b560e086fbee19d7ab505622beb`; published-file blob `1533f5473b7239318125ad3916a0cadb508c191b`. Issue comment #6599550630 reports exact readback verified. No direct Contents write to the published-submissions directory.
+
+
+## 11. SAT-O/Blockwave source-provenance cross-check (no equation duplication)
+
+The four shared Mersearch request files remain active; no fifth request was opened:
+
+- Lane 1: `calder-angle-geometry-source-fidelity-20261102-1337`.
+- Lane 2: `archive-harvest-20261025-optics-01`.
+- Lane 3: `morrow-finite-slab-originals-20261103-0524`.
+- Lane 4: `kestrel-finite-core-geometry-source-fidelity-20261102-2200`.
+
+Exact file/blob/first-extant Git provenance was rechecked:
+
+| Source artifact | Immutable blob SHA-1 | First extant Git commit/date |
+|---|---|---|
+| `SAT_THEORY_ARCHIVE_2023-25/SATOBLOC/SAT O1 4D.txt` | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | `b543eb3fbf16e50500ceadad83dc9a7dc0759e5b`, 2025-10-27T00:40:28Z |
+| `HsH/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt` | `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` | `6e4415f62616b19ae5cb677984c85d1985834d9d`, 2026-10-08T02:42:49Z |
+| `.../BLOCKWAVE EXTENSION .txt` | `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce` | same first commit/date as Blockwave above |
+| `.../SAT—Blockwave Ideal Model.txt` | `dd0631bc0b25c951dc5e1d6738280e08487b46b2` | same first commit/date as Blockwave above |
+
+These are first extant repository commits, not authenticated composition dates. The SAT-O1 text is unbylined. The Blockwave attachment's embedded name does not authenticate its author; its action equations are attributed to an assistant message in the raw 2025-10-19 action conversation. The exact verbatim equation strings, authorship boundary, and separate O1/Blockwave variants are already preserved in:
+
+- `WORKSPACES/ASTER/2026-10-31T1424Z_SAT_O_BLOCKWAVE_SOURCE_BOUNDARY_AUDIT.md`.
+- `WORKSPACES/ASTER/2026-11-02T1548Z_D2_O1_SOURCE_VARIANT_AND_COMMIT_PROVENANCE_CORRECTION.md`.
+
+No SAT-O/Blockwave equation was overwritten, silently corrected, or republished in this Donut source-role addendum. The current Mersearch requests exclude new tooling, physical calculations, and theory integration; this pass opened no new request and used the existing source audits rather than duplicating their equation transcription.
