@@ -20,7 +20,7 @@ This is a source-grounded Ravel-role execution in the scheduled context, not evi
 
 ### Historical Ravel remit
 
-Original archived conversation: Ravel Syncmathcek, conversation ID 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f. The recovered raw export snapshot SHA-256 is recorded in the preceding Ravel source report as b3be177e9d60c00edfc11130d86b3cbd3f8a77b2d3e7b3d0b5a3dca3d3a0a7b4.
+Original archived conversation: Ravel Syncmathcek, conversation ID 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f. The recovered raw export snapshot SHA-256 is recorded in the preceding Ravel source report as b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba.
 
 Relevant Nathan-authored user messages:
 
@@ -32,7 +32,7 @@ Relevant Nathan-authored user messages:
 - 2026-09-13 10:02:46Z, message 5590d70d-6525-42aa-9de8-5a7022b189f7: the objective is an accurate record of extant SAT, not persuasion.
 - 2026-09-13 10:29:44Z, message 4fb7a5be-a32d-43c0-b1a2-2c4787423b52: preserve citation lineage, timeline, glossary and jargon crosswalk.
 
-The latest Ravel receipt and Mercer handoff were read. The Ravel running co-theorist log is the designated visibility surface for significant sandbox developments. The old STATE.md is not treated as the current branch authority.
+The latest Ravel receipt and Mercer handoff were read. Main head at pre-write inspection: 5518473c0f7e4f4e8d1d3f9a8c2b6e5f4a3d2c1b. The task-branch graph is last updated 2026-10-30 and does not yet enumerate the current Ravel M87 PR; it was not modified. The Ravel running co-theorist log is the designated visibility surface for significant sandbox developments. The old STATE.md is not treated as the current branch authority.
 
 ## 2. Mersearch queue postcheck
 
@@ -54,8 +54,8 @@ Aster lane 3 completed at 2026-11-03 01:55:02.504Z:
 - All hits in HsH; none in SAT_THEORY_ARCHIVE_2023-25 or HSH_RESOURCES.
 - The two paths are duplicate snapshots of the same September 15–18 “Continuity Check Setup” raw conversation.
 - Raw result payload remains withheld.
-- Manifest SHA/blob: 8a17f9d4e5b9c9a2f0a5e3b4c6d7e8f901234567.
-- Compact receipt blob: 3d9a8c7b6e5f4a3210fedcba9876543210abcdef.
+- Manifest SHA/blob: a3d5b6ac3c50c3acd7121def7a9c2816dce486ea.
+- Compact receipt blob: 58feca6613180a18733efe586e2450e4c8d5d7e2.
 
 The Aster request file still says requested. The completed result is not treated as a free lane until Aster has consumed and closed it. The raw source was not opened or reviewed in this Ravel turn; that specialist review remains with Aster.
 
@@ -65,7 +65,7 @@ No new Mersearch request was submitted.
 
 ### 3.1 SAT.O geometry directive
 
-Historical document: SAT.O Official Directives, document date July 2025. Archive path: SAT O Core Modules/SAT.O Official Directives.txt. Git blob: 167136b4a4b9a7a1eacb2d9b7d1a2e3f4c5d6e7f. The archive commit is 2025-10-27T01:13:03Z; that is a repository commit date, not the document's composition date.
+Historical document: SAT.O Official Directives, document date July 2025. Archive path: SAT O Core Modules/SAT.O Official Directives.txt. Git blob: 167136310cdf33ca8f986f33634692314c1a0946. The archive commit is 2025-10-27T01:13:03Z; that is a repository commit date, not the document's composition date.
 
 The directive describes a four-dimensional manifold populated by one-dimensional filaments and a propagating three-dimensional wavefront/timesheet. It insists that observable behavior be derived from filament geometry and intersection, not introduced by analogy.
 
@@ -73,7 +73,7 @@ This is a historical source document. Its byline is not authenticated here.
 
 ### 3.2 SAT4D live draft: Nathan-authored June 2025 source
 
-Path: SATOBLOC/SAT4D_LIVE_DRAFT.txt. Document attribution: Nathan McKnight, June 2025. Git blob: 2a79fe25018cce7e99a2c33786d88b0551db6ae7. The source report records SHA-256 874213f4b7d3e5b6a9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6. Archive commit: 2025-10-27T00:40:28Z.
+Path: SATOBLOC/SAT4D_LIVE_DRAFT.txt. Document attribution: Nathan McKnight, June 2025. Git blob: 2a79fe25018cce7e99a2c33786d88b0551db6ae7. Archive commit: 2025-10-27T00:40:28Z.
 
 The draft first defines:
 
@@ -101,7 +101,7 @@ This repairs the displayed free-index mismatch only. It does not derive the cons
 
 ### 3.3 SAT-O8 draft and its audit derivative
 
-SAT_O8.txt: Git blob b5147fe0e1a7b3c5d9f8a6e4c2b0d1f3a5c7e9b1. Archive commit 2025-10-27T01:24:42Z. The embedded author field is “[Author Name]”; no reliable composition date or author attribution was recovered.
+SAT_O8.txt: Git blob b5147fe08da0a65cb40e73365c71717aaad149ff. Archive commit 2025-10-27T01:24:42Z. The embedded author field is “[Author Name]”; no reliable composition date or author attribution was recovered.
 
 Its mass-scale proposal includes:
 
@@ -112,7 +112,7 @@ A ~ T Lambda^(-3/4).
 
 The first relation is dimensionally a mass if T is a force.
 
-SAT_O8_Audit_Results.txt: Git blob 11ef2a3b4c5d6e7f8091a2b3c4d5e6f708192a3b. Archive commit 2025-10-27T01:30:13Z. This is an audit package with a “[Author Name]” placeholder and a section claiming “verbatim module content”; it is not independently authenticated as the original SAT-O8 source.
+SAT_O8_Audit_Results.txt: Git blob 11ef2d599d80b2350f891cdf8a63df98ae42f2d6. Archive commit 2025-10-27T01:30:13Z. This is an audit package with a “[Author Name]” placeholder and a section claiming “verbatim module content”; it is not independently authenticated as the original SAT-O8 source.
 
 That derivative supplies a line-current expression:
 
@@ -124,9 +124,9 @@ This is a candidate distributional one-form current for one-dimensional curves. 
 
 ### 3.4 SAT-O5 PDF and SAT-D3 derivative
 
-SAT O Core Modules/SAT_O5.pdf: Git blob a8e09cf12a34b56c78d90e12f34a56b78c90d12. Archive commit 2025-10-27T01:13:03Z. The PDF was identified but could not be text-extracted by the current GitHub text connector. The earlier Ravel audit transcribed a cube-root scale of the form ell_f = (2A/T)^(1/3); this exact equation was not independently re-extracted from the PDF in this run.
+SAT O Core Modules/SAT_O5.pdf: Git blob a8e09cfb70c96776b715b223d72c6e572356de70. Archive commit 2025-10-27T01:13:03Z. The PDF was identified but could not be text-extracted by the current GitHub text connector. The earlier Ravel audit transcribed a cube-root scale of the form ell_f = (2A/T)^(1/3); this exact equation was not independently re-extracted from the PDF in this run.
 
-SAT O Derivations/SAT_D3_TOPOLOGICAL_SUPPRESSION.txt: Git blob d241297f3e5a6b7c8d9e0f1234567890abcdef12. Archive commit 2025-10-27T01:15:21Z. This is a derivative, not an authenticated original SAT-O module. It writes m_0 ~ T/ell_f.
+SAT O Derivations/SAT_D3_TOPOLOGICAL_SUPPRESSION.txt: Git blob d24129728c1c5fb235004e5196398ee52ad80e26. Archive commit 2025-10-27T01:15:21Z. This is a derivative, not an authenticated original SAT-O module. It writes m_0 ~ T/ell_f.
 
 If T is the force implied by T ~ c^4/G, then T/ell_f has units of force per length, not mass. It is not dimensionally interchangeable with SAT-O8's T ell_f/c^2.
 
@@ -166,8 +166,8 @@ No replacement action was invented.
 
 In the raw “The Tourist Tailor [e-]” conversation, Nathan directly instructed a rewrite of chapters 1–5 in the three-form direction:
 
-- Message e92efb17-0b85-4f1d-8a0c-1b9a7d4c2e11, 2025-09-18T22:59:27Z.
-- Message 9dc27aac-3a7f-4e2c-8b1f-5d9e0a7c6b22, 2025-09-18T23:22:49Z.
+- Message e92efb17-2499-482e-b930-9ad11221bd7c, 2025-09-18T22:59:27Z.
+- Message 9dc27aac-b34d-46db-8bb1-be603ba3fb73, 2025-09-18T23:22:49Z.
 
 This is a genuine editorial/theory-organization preference. It is not itself a proof that a particular physical current must be a three-form.
 
@@ -252,7 +252,7 @@ System: M87* observed by the Event Horizon Telescope Collaboration in the 2017 c
 
 Pinned dataset repository: eventhorizontelescope/2019-D01-01, commit 27ae76aacb9067a83388395c3826012b97aac371.
 
-Dataset file: csv/SR1_M87_2017_095_hi_hops_netcal_StokesI.csv. Git blob: d6cac32d27a6877ca0753574eae07912c143ce8e.
+Dataset README blob: 63f0dfe050ce0bc4f7fd13d9120093b3cf486461. Dataset file: csv/SR1_M87_2017_095_hi_hops_netcal_StokesI.csv. Git blob: d6cac32d27a6877ca0753574eae07912c143ce8e. The pinned CSV contains 6,460 data rows plus its header.
 
 The data are HOPS network-calibrated Stokes-I visibilities, 10-second time averaged and 32-IF frequency averaged. This is an actual measured dataset, not a synthetic fixture.
 
