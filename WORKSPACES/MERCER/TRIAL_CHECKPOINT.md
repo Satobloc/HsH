@@ -658,3 +658,8 @@ Existing `sandbox_manuscript` / `paper.html?id=...` routes remain the acceptance
 - Existing report remains unchanged and already published/read back through issue #1340. No second issue or duplicate public submission.
 - Additional read-only MIND source, data, and Lean QC is recorded in the Common receipt. No human subjects, model calls, new Lean code, new branch/PR, physical calculation, Factory Floor intake, paper-gate advancement, or theory promotion.
 - Scheduler last observed: enabled, original hourly schedule unchanged; run `b452f9fb-7f10-8329-980d-95f4b0769a80`, scheduled `2026-11-04T04:48Z`, started `2026-11-04T05:47:49Z`, `chat_ref=null`, status `in_progress`. No task ID, phase, schedule, or cadence change.
+
+
+### Final scheduler readback correction for Run156
+
+The last scheduler read supersedes the earlier `in_progress` observation: run `b452f9fb-7f10-8329-980d-95f4b0769a80` recorded `failed` at 2026-11-04T06:12:52Z with the generic result “There was a problem with your scheduled task.” The task remains enabled with its original hourly DTSTART/RRULE; `chat_ref=null`, `delivery_status=unknown`, and `next_run_time=null`. Repository report, receipt, handoff, inbox append, and checkpoint readbacks succeeded. Failure cause is unspecified. No disable, reschedule, task-ID, phase, or cadence change was made. Final receipt blob: `a0c044764f1eca1c4681ff65554a5e800a155ff1`.
