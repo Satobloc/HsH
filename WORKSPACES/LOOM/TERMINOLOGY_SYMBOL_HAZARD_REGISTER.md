@@ -140,3 +140,34 @@ Keep these types distinct:
 **Map rule:** any lab-to-H(s)H comparison requires explicit (Phi:M_{lab}\to M_{HsH}), (Pi:M_{HsH}\to M_{lab}), time correspondence, metric pullback, slice map, calibration and instrument composition (D_{pred}=O_{cam}\circ\Pi\circ G_{HsH}). If both directions are claimed reversible on a calibrated subset, specify (Pi\circPhi=id). State fibers/information loss; do not transfer curvature, thickness, twist or holonomy by analogy. A claimed observable must be constant on the observation-map fibers.
 
 **Source custody:** new addendum ledger `WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-WORLDTUBE-AMBIENT-TYPE-MAP-ADDENDUM-01.md`; public architecture/source-fidelity addendum issue #1341. Existing 2026-10-30 composite-hierarchy ledger and prior Kestrel/Hale source records remain authoritative for already-tagged messages; no duplicate tags added.
+
+
+## 2026-11-04 | Klein Fabric chronology, finite-core status and multipole-readout hazards
+
+### Source chronology
+
+- Calder raw export: conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`, 2,207 mapping nodes / 479 recorded current-ancestry nodes.
+- 2026-08-26 13:47:44.125Z, user message `07fd1d72-0936-44ad-91bf-568518050592`: earlier two-shell idea updated to a toroidal/Klein universe; off current ancestry.
+- 2026-08-26 14:15:19.706Z, user message `7cf6f72b-e28b-452a-a973-59da2ceb8aed`: first located direct “fabric of Klein worldtubes wrapping that torus” description in this export; off current ancestry. “Möbius torus” is analogical and accompanied by a mapping question, not a defined Möbius connection or chirality-flip law.
+- 2026-08-26 23:17:43.393Z, user message `aa13431d-598a-4ff2-9f5b-88ae9fd876aa`: first located exact proper-name use “Klein Fabric”; off current ancestry; already recorded in issue #1185.
+- 2026-08-26 23:41:28.815Z, user message `062ad8ee-ef20-4857-9077-75fe57a6974f`: fuller construction on current ancestry; already recorded in the prior source ledger.
+
+Do not conflate first Klein-related precursor, first descriptive worldtube-fabric construction, first exact proper-name use, and current-ancestry elaboration. The off-ancestry messages are branch witnesses from the same conversation/author, not independent corroboration. The 2024-labelled NotebookLM prompt-like text and speakerless transcript do not establish Nathan authorship or first public use.
+
+### Geometry and mechanism hazards
+
+- Global Klein Fabric is a conceptual parent proposal, not a typed standard Klein-bottle manifold. Dimension, atlas, metric, gluing, orientation and causal structure remain undefined.
+- The local dual-shell expansion is a probable local realization, not equivalent to the global fabric. Require an explicit projection/coarse-graining map and state which invariants survive.
+- The October 21 correction supersedes the reciprocal filament↔timesheet deformation description. General observer/domain maps are separate and must not be conflated with that superseded pair.
+- Preserve one helical core and a hollow outer superhelix. A finite-core working hypothesis does not supply a numerical core thickness, support profile or second core.
+- The Kerr-shell surface-interaction boundary is tentative; no contact law or surface dynamics is source-defined.
+- Active wavefront thickness is an operational update region, not automatically core thickness or shell thickness.
+- Global Klein/worldtube twist, helical pitch and matter-induced time-normal torsion are distinct until a common connection/field law is derived.
+- Separate responsive-medium ontology (described as optional in the October 10 user-role source) from the operative candidate-mechanism requirement in BEDROCK ND-2026-10-22-02: Kelvin-vortex or justified-equivalent response must remain in the candidate ledger; “tentative” means falsifiable/revisable, not optional to ignore. Raw UUID for that BEDROCK directive was not recovered in this pass. No constitutive law is supplied.
+- The October 9 direct source correction rejects Hopf fibres and a spherical carrier; do not reintroduce either as an assumed physical substrate.
+
+### Observable-map hazard
+
+GW241011 is a real published finite-size comparator, not a P2 selection or H(s)H validation. Keep primary-only `delta_kappa_1` distinct from the tighter `delta_kappa_s` result that assumes equal component coefficients. The standard GR metric→multipoles→`(chi,kappa)` map exists; H(s)H has no corresponding source-defined metric/invariant→multipole map. Multiple model families remain compatible with the observed posterior, so `kappa` alone does not identify a unique interior. No H(s)H prediction, fit, raw-strain/posterior reanalysis or numeric falsification threshold is available.
+
+Source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-KLEIN-FABRIC-BRANCH-CHRONOLOGY-ADDENDUM-02.md`. Public addendum: issue #1343. This register is a source/terminology control, not a BEDROCK theory promotion.
