@@ -529,3 +529,14 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - This supersedes the earlier `SUBMITTED_NOT_VERIFIED` line. No duplicate issue or submission.
 - This remains optional source-QC context only. Orson retains P1 ownership; no protocol, manuscript, PR, or paper gate was changed. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 - `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
+
+
+## ORSON-2024-20261104-VEY029-CONTINUITY
+- Worker report: `WORKSPACES/ORSON_VAY/2026-11-04T2024Z_VEY029_EVALUATOR_CONTEXT_MEASUREMENT_AUDIT.md`.
+- HSH_RESOURCES note VEY-029: blob `52279e8d1d2a9f95776986039769002157342318`; source index `9632d5329d35a2124e0f6b53bfe2329569e68064`; research ledger `aa60d06a933c5e3a7cf02c6d4d0bf92574b783a9`.
+- New source: Guerra & Hu (2026), arXiv:2608.04463v2. Same-answer blind/informed rating isolates an evaluator-side context contrast under the source's signed-context model; peer-presentation residual is bundled, not pure social framing. P1 transfer to the GPT-4o-mini NLI gate is not established.
+- Existing PR #850 extended in place; merge-reference Actions run #41907127597 / job #126844690278 SUCCESS, Lean 4.34.0/Lake 5.0.0, full 8,979-job build; six theorem axiom outputs `[propext, Classical.choice, Quot.sound]`; tests/lint/nanoda/axiom-audit skipped. Exact-head-only verification remains unestablished.
+- Publisher issue #1363, submission `orson-vey029-evaluator-context-20261104t2024z-s2-001`, SHA-256 `17834dbc6087079762c18df9e3f9b1de39ff7df3b44832642b7985379ed28a43`, expected destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey029-evaluator-context-20261104t2024z-s2-001.md`; Action #41908159424 in progress at this checkpoint. Do not resubmit.
+- P1 remains ACTIVE / METHODS-ARCHIVAL / Nov 9 NOT READY; no trial, human session, API spend or paper-gate advancement. P2 Nov 30 and P3 Dec 14 remain separate.
+- Unrelated reading: Jacoby, *Practical Talks by an Astronomer*, lines 1101–1140; next cursor 1141. FIE next due Nov 10.
+- Current run ID `452d7a98-3f20-8324-8be2-851fff1f1742`, scheduled 20:24Z, `chat_ref=null`; latest_result still belongs to an older Tern run and is not attributed here.
