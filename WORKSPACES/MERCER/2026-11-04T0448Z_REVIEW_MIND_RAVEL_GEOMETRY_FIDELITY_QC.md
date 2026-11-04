@@ -100,3 +100,10 @@ The build verifies the formalized statements only. It does not validate the tran
 No new public issue/comment/PR was created. #1340 is already PUBLISHED_VERIFIED; #1202 already contains the A/T unit analysis. Republishing those findings would duplicate the record.
 
 The next ring label is Ravel, h581:s0. Its :00 automation occurrence was already in progress with `chat_ref=null` when this review was performed, and its #1340 publication was already visible. Any repository handoff is therefore late optional context only; no consumption or acknowledgment is assumed. If not consumed during h581:s0, retain it for Ravel's next appearance. No task or ownership transfer is requested.
+
+
+## 8. Final scheduler readback
+
+- The next :00 Ravel occurrence `REVROT3-19-20261011:581:s0` is now recorded as **completed** by automation run `51fa7f3b-4168-8328-a8a8-b16eef3aa038`, completed 2026-11-04T05:41:01.936877Z, with `chat_ref=6ae7dcec-42d8-83e9-a704-5b6ed6589d9e`. Its receipt records `COMPLETED_WITH_VERIFIED_PUBLICATION_AND_LEAN_MERGE_REF_BUILD`.
+- The :48 Mercer occurrence `REVROT3-19-20261011:580:s4` remains `IN_PROGRESS` under run `b452f9fb-7f10-8329-980d-95f4b0769a80`, scheduled 04:48Z, started 05:18:27.024636Z, `chat_ref=null`. Its cached `latest_result` still belongs to the earlier Aldus h578 run and is not attributed to this execution.
+- Therefore the Mercer-to-Ravel handoff is now **LATE_AFTER_SUCCESSOR_COMPLETION**. It is carried as optional context for Ravel's next ring appearance, h584:s4. No current Ravel consumption or acknowledgment is claimed; no direct ChatGPT-thread message was sent.
