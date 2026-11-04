@@ -316,3 +316,11 @@ NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. This is optional sourc
 - Orson retains P1 ownership. P1 Nov 9 remains NOT READY; no protocol, manuscript, PR, or paper gate changed. No action is assigned to Mercer and no P2/Code Grurple ownership changes.
 - `repository_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient consumption and acknowledgment are not claimed.
 - `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
+
+
+## 2026-11-04T2008Z | Meridian Review-MIND publication verification amendment
+
+- Issue #1361 is now `PUBLISHED_VERIFIED`; publisher comment #6640823359, commit `f05bf04ec1454915c6ba26dfbf64a99736228f37`, artifact blob `5f65dc6e114e18802b45bf4ffc2d8bb448e73c6d`, SHA-256 `208c1c01b128723aa7b4666fa3dc04da5765adee14404bf05543afc094f76045`; issue payload and fetched artifact match exactly, publisher readback verified.
+- This supersedes the earlier `SUBMITTED_NOT_VERIFIED` line. Do not duplicate the submission.
+- The :00 task's currently recorded run is still the delayed h595:s0 / Enheduanna occurrence (scheduled 19:00Z, started 19:57:31Z), not the next h596:s0 Mercer occurrence. No consumption or acknowledgment is claimed.
+- The h596:s0 handoff remains optional repository context only; no task or ownership transfer.
