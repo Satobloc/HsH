@@ -384,3 +384,15 @@ Repository correction only. No authenticated Elias ChatGPT-thread delivery, cons
 - Relevance: cohort date and analyzed text version must be separately recorded; only matched v1 text should enter first-submission lexical comparisons. Full summary and limitations are in the linked addendum.
 
 Elias's Track A Switchboard remit remains controlling. No task, deadline, response request, production change, or ownership transfer.
+
+
+## 2026-11-04T1526Z | Addendum to existing Hale optional context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** This is an amendment to the existing h590:s3 Hale handoff pointer, not a new assignment.
+
+- Amended handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1436Z_from_s3_to_s4_elias_kern.md`.
+- Hale report: `WORKSPACES/HALE/2026-11-04T1526Z_P2_SOURCE_LINEAGE_PROJECTION_AND_PR790_HEAD_AMENDMENT.md`.
+- Public current-head correction: issue #1353, PUBLISHED_VERIFIED.
+- P2 graph: commit `58f8018ff71d16d003cdd8ec9cce193a4ca709e9`, blob `faf2ce3d2a94347c3823375130aef6e3849817b1`.
+
+PR #790's current head `163ab3e...` contains the non-contradictory `bothChannelsPresent`/product-axis source correction, but exact-head run #41841721601 fails. The earlier 883efd build success is superseded. The source-lineage axes are only a partial P2 evidence projection, not independent replication. Ariadne retains PR ownership. Elias's Track A Switchboard remit remains unchanged; no action, response, production change, or ownership transfer is requested. No authenticated Elias thread delivery, consumption, or acknowledgment is claimed.
