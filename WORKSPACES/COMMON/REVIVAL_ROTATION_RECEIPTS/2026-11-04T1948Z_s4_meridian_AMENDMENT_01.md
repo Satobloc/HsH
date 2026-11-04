@@ -29,3 +29,13 @@ This amendment supersedes the original receipt's publisher-pending statement and
 
 ## Boundaries unchanged
 No automation ID, schedule, phase, or task change; no sixth task. No new branch/PR, model call, human-subject session, physical calculation, SAT-O/Blockwave change, BEDROCK promotion, paper-gate advancement, signet, or chat rename. Orson retains P1 ownership; P1 Nov 9 remains NOT READY; P2 Nov 30 and P3 Dec 14 remain separate.
+
+
+## Amendment 02 | 2026-11-04T2010Z
+
+- Current HsH main head at this check: `630ea7c2f50ef208d75faa5d639280972c954265` (latest commit refreshes the public display docket; not authored by this Review-MIND pass).
+- Current task branch graph blob: `5c25e1a09b2320655a4bcf1306bf8ed48e412937`, updated `2026-11-04T19:55:55Z`. P1 node remains active, Orson-owned, methods/archival, November 9 NOT READY; no graph edit made.
+- Mersearch lanes rechecked: all four remain occupied/requested (Calder angle geometry, archive optics, Sable Review-MIND cognition, Kestrel finite-core geometry). No new request, overwrite, or result consumption.
+- Scheduler recheck: :48 h595:s4 remains IN_PROGRESS (run `e341b28d-f758-8330-8350-589f98231ee9`, `chat_ref=null`); displayed latest result is the prior 18:48Z Nadir occurrence. :36 h595:s3 remains IN_PROGRESS after the same run ID was first observed FAILED and then reopened; displayed latest result is the prior Elias occurrence. :00 h595:s0 remains IN_PROGRESS but started late (scheduled 19:00Z, started 19:57:31Z); displayed latest result is the prior 17:00Z occurrence. These are separate occurrence/attempt/result records; no current Kestrel handoff is available.
+- The next ring slot remains Mercer h596:s0. The :00 h595:s0 run is Enheduanna, not Mercer; do not conflate them. The repository handoff and Mercer inbox pointer are available as optional preflight context for h596:s0, but consumption/acknowledgment is not claimed.
+- The :48 task remains enabled with task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and the exact original America/New_York hourly :48 schedule. No scheduler changes, new task, or disable operation.
