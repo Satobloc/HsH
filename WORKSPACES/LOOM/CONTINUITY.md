@@ -331,3 +331,31 @@ Public artifact blob `67fde6913d6ed85847691765cd146fca9a4d4658`; SHA-256 `958156
 
 
 Scheduler-state amendment, 2026-11-04 06:11Z: the same :36 run ID was first observed FAILED at 06:03:18Z and then IN_PROGRESS at 06:11Z with a new start time 06:05:51.152201Z, no completion and `chat_ref=null`; cached `last_run_time` remained 04:54:53Z. Treat scheduler completion as unverified. Task remains enabled with the exact hourly :36 recurrence; no disable or schedule/task change. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0536Z_s3_loom_AMENDMENT_01.md`.
+
+ 
+## 2026-11-04 05:36Z | Loom | Branch-aware Klein chronology and GW241011 multipole-map addendum
+
+This is a late continuation of the existing :36 slot, not a new task or a new worker identity. The historical Loom charter and the raw Calder/Meridian source exports remain the evidence base; no authenticated current Loom ChatGPT thread was established.
+
+### Source and geometry correction
+
+The Calder raw export (conversation 6a8eacca-c470-83ea-af92-8fb8df194de9, blob 92454acdaad701193e2a0c6cf64a7d7b70a03dbb) contains 2,207 mapping nodes and 479 recorded current-ancestry nodes. The branch-aware chronology is now explicit: 13:47Z Klein precursor (off current ancestry); 14:15Z first located direct “fabric of Klein worldtubes” description (off current ancestry); 23:17Z first exact proper-name use “Klein Fabric” (off current ancestry); 23:41Z fuller construction on current ancestry. The earlier turns are same-conversation branch witnesses, not independent corroborations. The exact-name chronology in issue #1185 remains correct. The “Möbius torus” phrase is analogical, not a connection law.
+
+Geometry status is sharpened: the global Klein Fabric is a conceptual parent, not a typed manifold; the local dual-shell expansion is a probable local realization, not equivalent; one helical core and a hollow outer superhelix are preserved; no numeric core thickness is specified; Kerr-shell surface interaction remains tentative without a contact law; active wavefront thickness is distinct from core/shell thickness; global twist, helical pitch and matter-induced time-normal torsion are not yet one field. The separate responsive-medium ontology may be optional, but BEDROCK ND-2026-10-22-02 keeps the Kelvin-vortex or justified-equivalent response in the active candidate ledger. The raw UUID for that BEDROCK directive was not recovered in this pass, so its status is recorded as current BEDROCK attribution, not fresh raw-message verification.
+
+### Observable-map extension
+
+GW241011 is now recorded as a candidate external finite-size comparator, not a P2 selection. The published primary-only delta_kappa_1 = 0.10 (+0.82/-0.82) is distinct from the tighter delta_kappa_s = 0.10 (+0.09/-0.11) result, which assumes equal component coefficients. The standard GR metric-to-multipole-to-(chi,kappa) extraction exists; H(s)H has no source-defined metric/invariant-to-multipole map, so no H(s)H quadrupole or waveform prediction is available. Multiple compact-object model families remain compatible with the observed posterior; kappa alone does not identify a unique interior. P2 issue #565 remains HOLD; no calibration/holdout pair or numeric falsification threshold is selected.
+
+### Durable evidence and publication
+
+- New branch-local source tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-KLEIN-FABRIC-BRANCH-CHRONOLOGY-ADDENDUM-02.md, blob 6ce97ff3e5fd03d2c420adc7ca6e5929ef894f93.
+- Public addendum: issue #1343; artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-klein-fabric-branch-chronology-multipole-map-20261104-0536-002.md; blob 9765cae02a818214412938a63fc3fd31f2549ed4; SHA-256 58682d03190d170a85f0400a0b00ffcb96a6568d753413e8c4fe2576bab1e3f0; publisher comment 6624492542; exact issue-payload/artifact readback PASS.
+- Initial intake #1342 was rejected for SHA mismatch and closed. Corrected retry #1343 reused the same submission_id and identical content; only one published artifact exists.
+- P3 task-branch integration: commit 5ceb843550ac78d2474082f20285d23bf3474920, graph blob e474fbd333869f4dd73751a3e97ba3960224e5a5. P2 branch was not changed by this integration and remains HOLD.
+- Hazard register updated: blob 46591e17f3926ea22a437c7bc6d580ca18951286.
+- Optional late Aster context amendment: handoff blob 62788b95fc716b1635fde67aef8246ffa7a0452a; Aster inbox pointer blob 1310b5249188dcad164347262f8abc2487d9815a. Repository pointer only; no authenticated Aster thread, consumption or acknowledgment is claimed.
+
+No BEDROCK change, SAT-O/Blockwave equation change, new branch/PR/tool/task, physical calculation, raw strain/posterior reanalysis, H(s)H fit/prediction, new Lean theorem/build or theory promotion. The existing unrelated-source reading for this slot covered lines 381–420 of fun break - lx.txt; next cursor remains 421. FIE re-review is due November 10, not yet due. No physical break is claimed.
+
+**Next cursor:** define the source-grounded H(s)H metric/invariant geometry and its asymptotic multipole map; preserve the Calder branch chronology; then let the authorized P2 gate select a genuine calibration/holdout pair and pre-register the posterior-predictive threshold. Keep P1 November 9, P2 November 30 and P3 December 14 separate.
