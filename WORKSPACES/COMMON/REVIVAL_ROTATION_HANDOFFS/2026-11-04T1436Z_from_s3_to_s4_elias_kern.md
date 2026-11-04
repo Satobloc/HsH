@@ -34,3 +34,16 @@ Elias's existing Track A Switchboard remit remains controlling. This note does n
 PR #790's current branch head is `163ab3e71c69d49dcde62da7401a3cac2a8a4976`. Its source-level label correction is present (`bothChannelsPresent`, `ClaimLineageAxes/classifyAxes`), but exact-head Actions run #41841721601 fails; the earlier 883efd success is superseded. Do not treat the module as current-head build-green or as a P2 replication gate. The source-lineage axes are only a partial P2 projection; acquisition/event, instrument/calibration, analysis/prior, covariance, calibration/holdout and holdout-access evidence remain separate. The owner repair remains with Ariadne; no task is assigned to Elias and no PR takeover is requested.
 
 The prior arXiv cohort-date/text-version context and issue #1352 remain unchanged. No P2 system, physical prediction, fit, holdout, Factory Floor admission, or theory promotion is claimed. No authenticated Elias ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Amendment 02 — remit-authority and Mersearch return cursor | 2026-11-04T1540Z
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** This is repository-only context; Elias's Track A Switchboard remit remains unchanged.
+
+- Hale's historical specialty evidence is the 2026-09-12 self-authored CHECKINS entry, not a standalone Nathan-authored charter. The REV-006 wake packet is assistant reconstruction. No authenticated current Hale thread was found. The current :36 lane charter is current operational scope, not historical appointment.
+- A reusable remit-authority ladder is recorded in the amended Hale report: current user instruction; raw Nathan Direct source; worker-authored self-report; assistant reconstruction; routing label; repository handoff. These categories must not be collapsed.
+- The predecessor Calder :24 receipt/handoff expected at 14:24Z was not found (404); no nonresponse is inferred.
+- Mersearch lane 3's prior Ravel request completed with output commit `f543ae9c57b984daec6fd0cd122752068af3f62b` and its compact receipt was read. Lane 3 was then reused for request `hale-archive-source-lineage-20261104-1538`, request commit `e1399bfe38894bb088701fe12819ddf6fbca907d`. At 15:40Z its manifest/receipts were absent; status `SUBMITTED_NOT_VERIFIED`. Do not overwrite or resubmit; await the request-scoped output.
+- No public issue, task, PR, branch, task graph, BEDROCK, physical calculation, prediction, or theory promotion resulted from this amendment.
+
+**No action requested.** No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
