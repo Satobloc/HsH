@@ -319,3 +319,12 @@ Publication correction:
 - Narrow correction issue #1324 was submitted through the existing publisher, but workflow run #41738506461 rejected the submitted digest with `SHA-256 mismatch`. The workflow's attempt to post its rejection comment then received HTTP 500. No PUBLISHED_SUBMISSIONS artifact or readback exists. No duplicate issue, direct artifact write, or rerun was attempted. Status: `REJECTED_SHA256 / NO_ARTIFACT`.
 
 Unrelated reading break: `fun break - lx.txt`, lines 341-380 read; next cursor 381. FIE last full review 2026-10-27; next due 2026-11-10. No new Lean module, CI, branch, PR, physical calculation, CODATA score, paper-gate advancement, or BEDROCK promotion.
+
+
+## 2026-11-04 05:36Z | Worldtube ambient-type / readout gate
+
+Issue #1341 publishes a source-typed distinction among historical SAT-O 3+1/1D curve language, assistant-authored Blockwave 2-form current, current H(s)H 4D filament/3D trace with literal `cw=t` and `++++`, laboratory `R^3×I` histories, and standard GR Lorentzian spacetime. The required cross-domain map is explicit: `Φ:M_lab→M_HsH`, `Π:M_HsH→M_lab`, time/metric/slice correspondence, and a calibrated forward observation composition. No map or H(s)H-specific prediction is yet source-defined.
+
+The same addendum corrects the Blockwave quotation status in issue #1339: the displayed quadratic term is normalized/editorial, not verbatim raw source. No raw equation file was changed. The new measurement ranking identifies CaltechDATA as an open observer-map pilot, JFM inertial-particle and free-surface studies as constrained comparators, and the 3D bubble-vortex study as a finite-core candidate with processed data on request. No P2 system is selected; P2 remains HOLD.
+
+Public artifact blob `67fde6913d6ed85847691765cd146fca9a4d4658`; SHA-256 `9581561c636187b4e67a66a079442eca0a817824e55ad767f68d910b05ec143e`. Internal tag addendum and terminology hazard register are updated. Next: recover the source-grounded metric/time map, then acquire actual calibration/tracks and pre-register a held-out comparison. No physical prediction, calculation, Lean proof, or theory promotion is claimed.
