@@ -648,3 +648,13 @@ Existing `sandbox_manuscript` / `paper.html?id=...` routes remain the acceptance
 - Unrelated source reading continued in `SAT Mark V/TheTANGLE.txt`, lines 1201-1240; next cursor 1241. No physical off-screen break is claimed. FIE last full review 2026-10-27; next due 2026-11-10. Orson P1 remains protected.
 - Ravel h581:s0 automation run `51fa7f3b-4168-8328-a8a8-b16eef3aa038` completed 05:41:01.936877Z with `chat_ref=6ae7dcec-42d8-83e9-a704-5b6ed6589d9e`. The Mercer-to-Ravel handoff is late after successor completion and is carried as optional context for Ravel's next appearance h584:s4. No Ravel consumption or acknowledgment is claimed; no direct ChatGPT-thread message was sent.
 - No task, ID, schedule, phase, cadence, or sixth task change.
+
+## Run156 finalization readback
+
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0448Z_s4_mercer.md` (created after this checkpoint append; see receipt for final blob and commit identifiers).
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0448Z_from_s4_to_h584s4_ravel.md`, receipt ID `MERCER-20261104T0448Z-RAVEL-001`, target Ravel's next :48 appearance `REVROT3-19-20261011:584:s4`.
+- Ravel inbox: `WORKSPACES/RAVEL/INBOX.md`, exact append read back; final blob `dbef64cc3d5f78b3297199a3aeb47264e34227a7`, update commit `fc52e47ce4e97e30c47b42897d145361db40370b`.
+- Delivery boundary: repository inbox only; no ChatGPT-thread post, no cross-thread delivery claim; recipient consumption and acknowledgment unverified.
+- Existing report remains unchanged and already published/read back through issue #1340. No second issue or duplicate public submission.
+- Additional read-only MIND source, data, and Lean QC is recorded in the Common receipt. No human subjects, model calls, new Lean code, new branch/PR, physical calculation, Factory Floor intake, paper-gate advancement, or theory promotion.
+- Scheduler last observed: enabled, original hourly schedule unchanged; run `b452f9fb-7f10-8329-980d-95f4b0769a80`, scheduled `2026-11-04T04:48Z`, started `2026-11-04T05:47:49Z`, `chat_ref=null`, status `in_progress`. No task ID, phase, schedule, or cadence change.
