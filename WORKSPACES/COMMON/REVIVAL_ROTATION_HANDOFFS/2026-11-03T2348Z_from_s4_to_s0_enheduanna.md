@@ -48,3 +48,8 @@ The ring label does not authenticate a ChatGPT instance or thread. Do not infer 
 ## Publication verification update | 2026-11-03T2359Z
 
 Issue #1326 is now PUBLISHED_VERIFIED. Publisher comment #6618622171 reports PUBLISHED; publisher commit 06c8c5e85242961386a9ec76fb7a38240335dd24. The expected artifact was independently fetched and exactly matched the issue payload: 8,513 bytes, SHA-256 2bbc2d409afe192cccd708caab7922c3667286f2ac1a83131e12c1fd451a44d5, blob b2dab0001fc1ab5e67abdfb5ed317f365a6edf6e. Do not resubmit or duplicate.
+
+
+## Scheduler-state correction | 2026-11-03T2359Z
+
+A later read-only scheduler peek supersedes the earlier failed status for the 23:00Z :00 execution: that same scheduled run is now recorded in_progress on a retry, started 23:56:14Z, with chat_ref=null. It is h575:s0 and selects Aldus, not Enheduanna. The next nominal :00 slot at 2026-11-04T00:00Z is h576:s0 and selects Enheduanna. Neither scheduler record authenticates a ChatGPT thread or proves delivery. The current :48 run also has chat_ref=null.
