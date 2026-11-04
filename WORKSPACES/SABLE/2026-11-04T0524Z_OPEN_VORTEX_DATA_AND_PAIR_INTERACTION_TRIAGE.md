@@ -156,7 +156,7 @@ No branch or PR was changed. Compilation of a conditional module does not establ
 - Task graph remains \`ACTIVE_SEED\`, updated 2026-11-04 03:00:26Z, with 16 branches.
 - Code Grurple remains ACTIVE. P2 issue #565 remains unselected/HOLD. No P2 selection, new issue, publisher submission, paper-gate advancement, BEDROCK promotion, or task change.
 - FIE last full review: 2026-10-27; next due 2026-11-10. Not due.
-- Unrelated reading was completed earlier today in Babbage, lines 821–860; next cursor 861. No duplicate reading was added. No physical break is claimed.
+- Unrelated reading was completed in the preceding Sable :48 run (2026-11-03 21:48Z) in Babbage, lines 821–860; next cursor 861. No duplicate reading was added. No physical break is claimed.
 - No new tooling was built; no paid service or author contact was used.
 - No SAT-O/Blockwave equation was edited or corrected.
 
