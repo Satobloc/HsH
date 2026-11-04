@@ -277,22 +277,22 @@ theorem rankDecreasesAlongDependencyPath
       exact Nat.lt_trans ih (g.rankStrictlyDecreases hp)
 
 theorem noDependencyCycle
-    {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
+    {Node : Type} [DecidableEq Node] (g : SingleAnchorDependency Node) (n : Node) :
     ¬ DependencyPath g n n := by
   intro h
   exact (Nat.lt_irrefl (g.rank n))
     (rankDecreasesAlongDependencyPath g h)
 
 theorem onlyAnchorCanBeARoot
-    {Node : Type} (g : SingleAnchorDependency Node) (n : Node)
-    (hn : g.parents n = ∅) : n = g.anchor := by
+    {Node : Type} [DecidableEq Node] (g : SingleAnchorDependency Node) (n : Node)
+    (hn : g.parents n = []) : n = g.anchor := by
   by_cases hAnchor : n = g.anchor
   · exact hAnchor
   · obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hAnchor
     simp [hn] at hp
 
 theorem everyNodeReachesAnchor
-    {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
+    {Node : Type} [DecidableEq Node] (g : SingleAnchorDependency Node) (n : Node) :
     ReachesAnchor g n := by
   have h : ∀ k, ∀ n, g.rank n = k → ReachesAnchor g n := by
     intro k
