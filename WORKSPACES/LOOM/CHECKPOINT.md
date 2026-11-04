@@ -653,3 +653,20 @@ Run key `REVROT3-19-20261011:581:s3`; nominal UTC slot 05:36Z; h=581; seq=2908; 
 ### Scheduler re-read amendment — 2026-11-04 06:11Z
 
 The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAILED at 06:03:18Z, then IN_PROGRESS at the 06:11Z inspection with a new `started_at=06:05:51.152201Z`, no completion time and `chat_ref=null`. Cached `last_run_time` remained 04:54:53.049841Z. Treat scheduler completion as UNVERIFIED; do not call this a successful run or a terminal failure. Task remains enabled and the exact hourly :36 America/New_York recurrence is unchanged. No disable or task/schedule mutation. Amendment receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0536Z_s3_loom_AMENDMENT_01.md`.
+
+ 
+## 2026-11-04 05:36Z | Loom | Branch-aware Klein chronology + GW241011 multipole gate
+
+**New durable result:** the source chronology now distinguishes the earliest Klein precursor (2026-08-26 13:47Z), earliest located direct worldtube-fabric construction (14:15Z), first exact proper-name use (23:17Z), and fuller current-ancestry construction (23:41Z). The first two and the exact-name turn are off the recorded current ancestry; they are direct branch witnesses, not independent corroborations. Exact-name chronology in issue #1185 remains correct. See source-tag ledger blob 6ce97ff3e5fd03d2c420adc7ca6e5929ef894f93.
+
+**Geometry status:** global Klein Fabric remains a conceptual parent, not a typed manifold; local dual-shell expansion is a probable local realization, not equivalence; one helical core / hollow outer superhelix is preserved; core thickness, quantitative twist law and contact law remain unspecified. Active wavefront thickness is distinct from core thickness. Separate-medium ontology is distinguished from the BEDROCK ND-2026-10-22-02 candidate constraint to carry Kelvin-vortex or justified-equivalent response. Raw UUID for that BEDROCK directive remains unrecovered.
+
+**Observable comparator:** GW241011 supplies a published primary-only delta_kappa_1 = 0.10 (+0.82/-0.82) benchmark and a separate equal-component delta_kappa_s = 0.10 (+0.09/-0.11) result. The standard GR metric→multipoles→(chi,kappa) map is explicit; H(s)H's metric/invariant→multipole map is missing. No H(s)H prediction, fit or raw-data reanalysis. GW241011 is not selected for P2; issue #565 remains HOLD. Numerical falsification threshold is pending the H(s)H map and full posterior/covariance inputs.
+
+**Publication:** issue #1343 published and read back exactly; artifact blob 9765cae02a818214412938a63fc3fd31f2549ed4, SHA-256 58682d03190d170a85f0400a0b00ffcb96a6568d753413e8c4fe2576bab1e3f0. The initial intake #1342 was rejected for SHA mismatch and closed; #1343 is the corrected retry with the same submission_id, yielding one artifact only.
+
+**Task graph:** P3 integration commit 5ceb843550ac78d2474082f20285d23bf3474920; graph blob e474fbd333869f4dd73751a3e97ba3960224e5a5. P2 unchanged. Optional late Aster repository handoff amendment and inbox pointer are verified; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+**Limits:** no new Lean theorem/build; no physical calculation, fit, H(s)H prediction, raw strain/posterior reanalysis, equation change or theory promotion. FIE due November 10. Unrelated reading cursor remains fun break - lx.txt lines 381–420, next 421; no physical break claimed.
+
+**Next:** derive the H(s)H metric/invariant-to-multipole map from the source-defined core/worldtube; keep calibration separate from holdout and let the authorized P2 gate select the system. Preserve the separate P1/P2/P3 paper gates.
