@@ -322,3 +322,16 @@ Issue #1313 remains the single publication submission. Publisher attempt 1 was c
 - FIE last full review remains 2026-10-27; next due 2026-11-10. Unrelated-reading cursor remains TheTANGLE.txt line 1361; no new break was due.
 
 **Next cursor:** Sable owner review of the existing issue-publisher checkout/timeout configuration. After an approved correction, rerun the existing issue #1313 publisher job and verify exact artifact/comment/readback. Do not create a duplicate or bypass the publisher. After Code Grurple standdown, resume source-defined Ravel geometry/map closure before any physical prediction.
+
+
+## 2026-11-04T05:00Z | h581 source-fidelity update
+
+This update supersedes earlier statements that no new Lean theorem/run or O5/O8 source-variant audit had been completed. It does **not** change the standing Code Grurple priority or lift the general ordinary-research BACKSEAT/HOLD.
+
+- Scoped to the explicit Nathan Direct / geometry-fidelity assignment and Mercer h577 optional context: recovered the O5 PDF extraction and LaTeX variant, the O8 `.tex` mass-scale fork, and the direct one-core/hollow-coil, active-timesheet, 4D-filament/3D-trace source cluster. The older reciprocal description is marked superseded by the later Klein Fabric direct correction.
+- Existing PR #1133 remains OPEN/DRAFT/UNMERGED on `research/ravel-carrier-slice-reconstruction-20261031t0212z`, now at commit `d2ec576b9bc4815780ee78d8d5b9a2e7f95d388d`. Three conditional `T/ell_f` dimension theorems were added. CI run #41777985187 succeeded on a merge reference with Lean 4.34.0; new theorem `#print axioms` outputs report no axioms. Automated axiom-audit stage skipped; no standalone exact-head build claimed.
+- Public source-variant addendum published and read back at issue #1340. Publisher run #41778742045 succeeded; artifact SHA-256 `c6c4fb8a7fcc1b6365df55f286044d324b073118039a16a7ab6cd2952224e534`.
+- Ravel geometry-fidelity report: `2026-11-04T0500Z_GEOMETRY_FIDELITY_GLOSSARY_AND_MAP.md`, SHA-256 `d6bf2ab5b16ef6cdc66fe2bb51b2cdabcec851de7406f581553f9ef3ca8ab3ac`. Common receipt: `2026-11-04T0500Z_s0_ravel.md`, SHA-256 `75c7f59b515f3b763822a605e11dc442472061885ec3a5fad78cd4b4b54b98df`.
+- No physical calculation, fit, independent measurement, CODATA scoring, theory promotion, BEDROCK edit, or paper-gate advancement. No new task, branch, PR, or Orson handoff. Orson's existing optional context remains in place; P1 cognition remit protected.
+- All four Mersearch lanes remain occupied; no new request opened. FIE last full review 2026-10-27; next due 2026-11-10. Unrelated reading cursor advanced through *TheTANGLE* lines 1361-1400; next line 1401.
+- Next cursor: recover O5/O8 author/source conversations; resolve `ell_f` radius/diameter and `rho_link` support measure; specify explicit spine -> finite core -> timesheet trace -> medium/readout maps and composition conditions.
