@@ -23,6 +23,8 @@ physical parameters are embedded here.
 
 namespace HsHVerification.NadirVortexTwoChannelReadout
 
+noncomputable section
+
 abbrev Readout := ℝ × ℝ
 
 def displacement (r₀ rπ : ℝ) : ℝ := (r₀ - rπ) / 2
@@ -38,23 +40,18 @@ def reconstruct (η a : ℝ) : Readout :=
 
 theorem reconstruct_observe (r₀ rπ : ℝ) :
     reconstruct (displacement r₀ rπ) (coreRadius r₀ rπ) = (r₀, rπ) := by
-  simp [reconstruct, displacement, coreRadius]
-  ring
+  simp [reconstruct, displacement, coreRadius] <;> ring_nf
 
 theorem observe_reconstruct (η a : ℝ) :
     observe (a + η) (a - η) = (η, a) := by
-  simp [observe, displacement, coreRadius]
-  ring
+  simp [observe, reconstruct, displacement, coreRadius] <;> ring_nf
 
 /-- The paired readout preserves both contour radii exactly. -/
 theorem observe_injective :
     Function.Injective (fun p : Readout => observe p.1 p.2) := by
   intro p q h
-  rcases p with ⟨r₀, rπ⟩
-  rcases q with ⟨s₀, sπ⟩
-  dsimp [observe, displacement, coreRadius] at h
-  rcases h with ⟨hη, ha⟩
-  constructor <;> linarith
+  have h' := congrArg (fun y : Readout => reconstruct y.1 y.2) h
+  simpa [observe, reconstruct_observe] using h'
 
 /-- The two-channel readout is onto ℝ², with the displayed reconstruction. -/
 theorem observe_surjective :
@@ -75,7 +72,9 @@ def displacementOnly (r₀ rπ : ℝ) : ℝ :=
 theorem displacementOnly_not_injective :
     ¬ Function.Injective (fun p : Readout => displacementOnly p.1 p.2) := by
   intro h
-  have hEq : displacementOnly 0 0 = displacementOnly 1 1 := by
+  have hEq :
+      (fun p : Readout => displacementOnly p.1 p.2) (0, 0) =
+      (fun p : Readout => displacementOnly p.1 p.2) (1, 1) := by
     norm_num [displacementOnly, displacement]
   have hPair := h hEq
   have hFalse : (0 : ℝ) = 1 := congrArg Prod.fst hPair
@@ -88,7 +87,9 @@ def radiusOnly (r₀ rπ : ℝ) : ℝ :=
 theorem radiusOnly_not_injective :
     ¬ Function.Injective (fun p : Readout => radiusOnly p.1 p.2) := by
   intro h
-  have hEq : radiusOnly 0 0 = radiusOnly 1 (-1) := by
+  have hEq :
+      (fun p : Readout => radiusOnly p.1 p.2) (0, 0) =
+      (fun p : Readout => radiusOnly p.1 p.2) (1, -1) := by
     norm_num [radiusOnly, coreRadius]
   have hPair := h hEq
   have hFalse : (0 : ℝ) = 1 := congrArg Prod.fst hPair
@@ -126,4 +127,5 @@ theorem inverse_mul_readoutMatrix :
 #print axioms readoutMatrix_mul_inverse
 #print axioms inverse_mul_readoutMatrix
 
+end
 end HsHVerification.NadirVortexTwoChannelReadout
