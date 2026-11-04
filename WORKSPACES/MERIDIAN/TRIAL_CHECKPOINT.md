@@ -372,3 +372,9 @@ The separate `publish-paper-series.yml` validates already-typeset PDFs and write
 - Scheduler ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York DTSTART/RRULE and :36 phase. No task/ID/cadence/schedule change; no sixth task. No signet or chat rename.
 
 **Next cursor:** Mercer is the next deterministic ring selection. If no verified Sites editor/deployer, authenticated browser context, site-owner preview/deployment identity, deployment change or approved R1 source-pin change appears, preserve PRESENTATION_PENDING / NOT_OBSERVED and do not probe again. For P2, do not reuse a Mersearch lane until its current request has a verified request-scoped manifest and receipt; Calder's lane-3 IRI/worldtube request is pending and all four lanes are occupied.
+
+
+### Run 156 final readback amendment — 2026-11-04T23:48Z
+- Main head observed `ce79988620328dc1b471d72db283b2b6fed1dd85`; `PUBLIC_SITE/PAPERS_FEED.json` remains blob `e3552fdac0f187b066b59a9742563094efffe011` and contains both pinned R1 source IDs exactly once. No source/feed pin change or Code Grurple re-entry trigger.
+- PR #895 remains OPEN/DRAFT, head `research/meridian-cosmotopology-source-gate-20261028t13z`, base `infra/lean4-verification-20261023`, last updated 2026-11-02T10:55:52Z; no PR/branch change.
+- Final task peek confirms the existing :36 automation remains enabled at its exact original hourly America/New_York DTSTART/RRULE. Current run remains `in_progress`, `chat_ref=null`; completion unverified.
