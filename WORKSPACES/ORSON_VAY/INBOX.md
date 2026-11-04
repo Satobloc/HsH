@@ -521,3 +521,11 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - P1 remains methods/archival scope and NOT READY for November 9. No protocol, manuscript, PR #850, or paper gate changed. You retain all P1 ownership; no task or response obligation is assigned.
 - `repository_inbox_delivery=VERIFIED` only after exact readback; `chat_thread_delivery=UNAVAILABLE_NOT_SENT`; consumption and acknowledgment are not claimed.
 - `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
+
+
+## 2026-11-04T2008Z | Meridian source-QC publication verification amendment
+
+- Issue #1361 is now `PUBLISHED_VERIFIED`; publisher comment #6640823359, commit `f05bf04ec1454915c6ba26dfbf64a99736228f37`, artifact blob `5f65dc6e114e18802b45bf4ffc2d8bb448e73c6d`, UTF-8 bytes 6,598, SHA-256 `208c1c01b128723aa7b4666fa3dc04da5765adee14404bf05543afc094f76045`. The issue payload content equals the fetched artifact; publisher readback verified.
+- This supersedes the earlier `SUBMITTED_NOT_VERIFIED` line. No duplicate issue or submission.
+- This remains optional source-QC context only. Orson retains P1 ownership; no protocol, manuscript, PR, or paper gate was changed. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+- `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
