@@ -449,3 +449,12 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - PR #790 scalar lineage status label remains an owner-review question; product axes should remain authoritative. No P2 gate change.
 - Mersearch lanes remain occupied; no request was overwritten. No physical calculation, human/model experiment, new tool, branch or PR.
 - Next cursor: verify exact v0.7 source identity, correct bigram construction, and obtain a network-capable full-corpus run only after review.
+
+
+## 2026-11-04T1436Z | Cohort/text-version alignment addendum
+
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T1436Z_s3_hale.md`.
+- Public addendum: issue #1352; submission `hale-arxiv-v1-cohort-text-alignment-20261104t1436z-s3-001`; SHA-256 `86b2f25ecd392ae02452b7f0803066cf6218d15647e19199fc3bd3c9af947b0b`; PUBLISHED_VERIFIED.
+- New gate: first-submission cohort date and analyzed abstract version must be aligned; latest text is separate revision-drift data. 16/21 cross-year records have explicit official v1 HTML; four official page snapshots are not v1-pinned; one record remains third-party-only. Exact arXivRaw XML remains open.
+- v0.7 source identity remains unverified (v0.6 base missing); bigram adjacency defect remains. No full matched-year crawl, physical prediction, P2 selection, or theory promotion.
+- Optional Elias context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1436Z_from_s3_to_s4_elias_kern.md`. Repository-only pointer; no ChatGPT-thread delivery or acknowledgment claimed.
