@@ -119,3 +119,24 @@ The Gendarme 90°-to-time / 0°-to-propagation statement may be compatible with 
 - CMY gradient cancellation belongs to the display transform and remains separate from the geometric graticula relationship.
 
 Source ancestry and count correction are recorded in `WORKSPACES/COMMON/tagging_ledgers/2026-11-03-LOOM-GENDARME-EXPORT-ANCESTRY-01.md`. Public correction issue #1324 was rejected by the publisher with SHA-256 mismatch; no published artifact exists. Original issue #1322 remains unchanged pending a valid correction.
+
+
+## 2026-11-04 | Ambient “4D” type collision and worldtube readout map
+
+**Hazard:** an unqualified “4D” silently merges objects with different ambient spaces, signatures, primitive dimensions and observation maps.
+
+Keep these types distinct:
+
+1. Historical SAT-O/SAT4D: Lorentzian 3+1 language and a 1D curve/worldline; the SAT O1 file calls the swept support a 4D volume, but its displayed action is on the curve/tangent and does not derive a finite-core radius or boundary.
+2. Blockwave: assistant-authored rank-2 2-form/worldsheet current (J^{\mu\nu}); not Nathan Direct and not the current H(s)H 4D filament.
+3. Current H(s)H: Nathan Direct 4D filament / 3D intersectional trace; literal (cw=t), (++++), Forest Normalization. Current BEDROCK interprets (++++) as positive Euclidean ambient; the direct message does not supply the complete metric/time chart. Never silently rewrite (cw=t) as (w=ct).
+4. Laboratory: (M_{lab}=\mathbb R^3\times I); “4D-LPT” means 3D space plus time, not four spatial dimensions.
+5. Standard GR comparator: Lorentzian ((M,g_L)), kept distinct from both historical SAT-O and current H(s)H.
+
+**Scale hazards:** (ell_f) is a source-described coil scale, not intrinsic filament thickness. The larger second-order coil is described as hollow, not a second core. A finite Kerr/Kerr-like core is a working hypothesis; a Kerr shell/contact surface remains tentative. No quantitative twist field, support profile or contact law is source-defined.
+
+**Equation custody:** raw Blockwave term contains malformed (J{\mu\nu}) and ({}{\rho\sigma}) tokens. The normalized term displayed in issue #1339 is editorial, not verbatim. Preserve the raw file; do not adopt the normalized equation without source-owner confirmation. SAT4D's early filament-flux RHS is prose, while a later section uses a separate Dirac-current form.
+
+**Map rule:** any lab-to-H(s)H comparison requires explicit (Phi:M_{lab}\to M_{HsH}), (Pi:M_{HsH}\to M_{lab}), time correspondence, metric pullback, slice map, calibration and instrument composition (D_{pred}=O_{cam}\circ\Pi\circ G_{HsH}). If both directions are claimed reversible on a calibrated subset, specify (Pi\circPhi=id). State fibers/information loss; do not transfer curvature, thickness, twist or holonomy by analogy. A claimed observable must be constant on the observation-map fibers.
+
+**Source custody:** new addendum ledger `WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-WORLDTUBE-AMBIENT-TYPE-MAP-ADDENDUM-01.md`; public architecture/source-fidelity addendum issue #1341. Existing 2026-10-30 composite-hierarchy ledger and prior Kestrel/Hale source records remain authoritative for already-tagged messages; no duplicate tags added.
