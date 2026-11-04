@@ -464,3 +464,32 @@ The Lane 24 report at `WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.m
 - GW241011 remains an unselected external comparator. P2 remains HOLD; no Factory Floor admission or BEDROCK promotion.
 
 No new task, branch, PR, Mersearch request, public issue, or physical calculation was created.
+
+
+## 2026-11-04T0649Z — same-slot retry, CODATA correction, and source-custody update
+
+This is a separate automation invocation for nominal key `REVROT3-19-20261011:581:s2`, run ID `53163f9a-8604-832f-a358-588c4be6ba33`, started 06:49:39.776Z for the 05:24Z slot. The canonical 05:24 receipt has a different run ID (`fad920c9-dd58-8326-a84a-c206581dd348)); the IDs are not collapsed. The current task remains enabled with its original America/New_York hourly :24 schedule and phase. At last peek this invocation remained `in_progress`, `chat_ref=null`, while `latest_result` still referred to Kestrel h580. No live Sable thread or cross-thread delivery is claimed.
+
+The existing Sable→Loom optional packet was already consumed by Loom's completed h581:s3 run (run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122`, completed 06:44:37Z). No second handoff or inbox pointer was created. Sable's inbox was empty at inspection.
+
+### CODATA / He-4 correction
+
+The worker-local note `2026-11-04T0524Z_CODATA_HE4_VORTEX_UPDATE_ADDENDUM.md` now has a verified arithmetic correction. The independence-only relative-uncertainty quadrature is (3.1328045484\times10^{-10}), rounded (3.133\times10^{-10}), not (3.123\times10^{-10}). The first-order triangle bound is (3.2214546568\times10^{-10}); the note retains the conservative rounded upper bound (3.222\times10^{-10}). The corresponding (u(\kappa)) is (3.1231848394\times10^{-17}\,\mathrm{m^2/s}) under independence and (\leq3.2115627354\times10^{-17}\,\mathrm{m^2/s}) under the conservative first-order bound. Covariance between the 2026 FSU neutral-helium relative mass and CODATA 2022 (m_u) remains unavailable.
+
+The 2023 Peretti full-text record confirms the Feynman spacing law, the orientation envelope, and that all plotted points lie within it. Figure 3's 1.047 rad/s = 1 rpm caption is a typo; the text and Figure 2 identify 1.047 rad/s as 10 rpm. Vertical dispersion includes temporal spacing and fit dispersion, not an independent-ensemble standard error. The supplementary Table S1 PDF remains inaccessible; the earlier 175.8±9.0 μm row was not re-extracted, so the prior 10-rpm anomaly remains withdrawn. The corrected 188.944 μm lower projection bound is a recalculation correction, not a physical shift caused by the new mass value.
+
+The 2023 LIONTRAP mass uncertainty is 36×10⁻¹² u statistical, 31×10⁻¹² u systematic, 48×10⁻¹² u total; the 2026 FSU full systematic breakdown is not yet accessible. CODATA 2022 (m_u) is an evaluated/adjusted conversion constant, not a direct helium-mass measurement. No CODATA adjustment or H(s)H prediction/fit was made; the standard Feynman (delta_F) prediction was recomputed from the measured/evaluated inputs and compared only with the paper's stated projection envelope.
+
+### Source custody and project state
+
+The historical Sable charter source is the raw Library export `SABLE Revival Rotation`, conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`, SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`. The correct direct user-message UUIDs, timestamps, and remit excerpts are preserved in the correction receipt below. That export is a historical charter source, not a live thread.
+
+Loom's issues #1341 and #1343 now supersede the earlier checkpoint statement that no SAT-O/Blockwave equation was recovered or corrected. They record the raw SAT-O/Blockwave source strata and distinguish verbatim malformed Blockwave text from later assistant normalization. The original Morrow/Kestrel source behind the cross-posted Kerr-shell statement remains unrecovered; the cross-post is not treated as original. All four Mersearch lanes remain occupied; no new request or held Mira lane-3 output was used. The literal `cw=t` / `++++` source remains distinct from `w=ct` and Lorentzian signature.
+
+Current task graph remains `ACTIVE_SEED`, 16 branches, updated 2026-11-04 06:43:50Z. Code Grurple remains ACTIVE; P2 issue #565 remains HOLD/unselected; P3 remains on its separate gate. No paper gate advanced, no theory was promoted, and no task/ID/schedule/phase was changed.
+
+Receipts:
+- Retry/reconciliation: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0649Z_s2_sable_RECONCILIATION.md`
+- Source-identifier and scope correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0720Z_s2_sable_RECONCILIATION_CORRECTION_01.md`
+
+Next Sable recurrence is h600:s2, 2026-11-05 00:24Z. Preserve P2 HOLD. If the Peretti supplement or a released Mersearch lane becomes available, retrieve the exact Table S1 row and source/covariance metadata before reopening the 10-rpm question. Otherwise continue with source-defined observation maps; do not infer a rope equivalence or promote BEDROCK theory without review.
