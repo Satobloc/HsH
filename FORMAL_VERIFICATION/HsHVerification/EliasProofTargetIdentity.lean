@@ -270,3 +270,175 @@ theorem result_created_before_attempt_cannot_belong
 #print axioms result_created_before_attempt_cannot_belong
 
 end HsHVerification.EliasProofTargetIdentity
+
+
+/-!
+## 2026-11-04: current-attempt / prior-result separation
+
+Live automation connector observations (UTC; timestamps below are exact integer
+microseconds since the Unix epoch, converted from the returned ISO-8601 values):
+
+* :36 automation 6a9f52b69ec08191b8a91a30d2a155e0:
+  current last_run ID b97173c2-7370-8328-bd31-c92c43769887,
+  scheduled 18:36Z, started 18:40:21.578886Z, status in_progress,
+  completed_at = null, chat_ref = null.
+  Its latest_result is run 97e09995-a414-8331-9a28-d4b780c14712,
+  scheduled 17:36Z, created 17:59:01.066125Z, completed 17:59:02.572151Z.
+
+* :24 automation 6abda4c8eda88191bf23a6f2849e9a17:
+  current last_run ID 0b759608-a8ec-8320-90d1-29043eaccd06,
+  scheduled 18:24Z, started 18:21:14.675387Z, status failed,
+  completed 18:46:17.297454Z, chat_ref = null.
+  Its latest_result is run c5eba963-e9ec-8327-9339-29dfeb701f13,
+  scheduled 15:24Z, created 16:20:52.425752Z, completed 16:20:54.377548Z.
+
+The connector exposes last_run.id and latest_result.run_id, but not a
+separately typed attempt token. The model below does not silently reuse the
+reported run/occurrence ID as an attempt ID. attemptToken = none records
+that missing distinction. These are observed connector payloads, not an
+independent statement about scheduler backend semantics.
+-/
+
+inductive AutomationAttemptStatus where
+  | inProgress
+  | completed
+  | failed
+  | cancelled
+  deriving DecidableEq, Repr
+
+structure AutomationAttemptObservation where
+  identity : AutomationOccurrenceIdentity
+  attemptToken : Option String
+  startedAtUnixMicros : Nat
+  status : AutomationAttemptStatus
+  completedAtUnixMicros : Option Nat
+  deriving DecidableEq, Repr
+
+structure AutomationResultObservation where
+  identity : AutomationOccurrenceIdentity
+  attemptToken : Option String
+  createdAtUnixMicros : Nat
+  completedAtUnixMicros : Option Nat
+  deriving DecidableEq, Repr
+
+/-- A distinct, nonempty attempt token is required; an occurrence/run ID alone
+    is not silently promoted to an attempt ID. -/
+def hasDistinctAttemptToken (token : Option String) : Prop :=
+  ∃ value, token = some value ∧ value ≠ ""
+
+/-- Conservative sufficient acceptance contract for attributing one result
+    to one completed execution attempt. This is not a claim that the current
+    connector exposes every required field. -/
+def resultAcceptedForAttempt
+    (attempt : AutomationAttemptObservation)
+    (result : AutomationResultObservation) : Prop :=
+  resultMatchesScheduledOccurrence attempt.identity result.identity ∧
+  hasDistinctAttemptToken attempt.attemptToken ∧
+  attempt.attemptToken = result.attemptToken ∧
+  attempt.startedAtUnixMicros ≤ result.createdAtUnixMicros ∧
+  attempt.status = .completed ∧
+  attempt.completedAtUnixMicros.isSome = true ∧
+  result.completedAtUnixMicros.isSome = true
+
+theorem missing_attempt_token_rejects_result
+    (attempt : AutomationAttemptObservation)
+    (result : AutomationResultObservation)
+    (h : attempt.attemptToken = none) :
+    ¬ resultAcceptedForAttempt attempt result := by
+  intro accepted
+  rcases accepted with ⟨_, hToken, _, _, _, _, _⟩
+  rcases hToken with ⟨value, hSome, _⟩
+  rw [h] at hSome
+  cases hSome
+
+theorem in_progress_attempt_rejects_result
+    (attempt : AutomationAttemptObservation)
+    (result : AutomationResultObservation)
+    (h : attempt.status = .inProgress) :
+    ¬ resultAcceptedForAttempt attempt result := by
+  intro accepted
+  rcases accepted with ⟨_, _, _, _, hCompleted, _, _⟩
+  rw [h] at hCompleted
+  cases hCompleted
+
+theorem failed_attempt_rejects_result
+    (attempt : AutomationAttemptObservation)
+    (result : AutomationResultObservation)
+    (h : attempt.status = .failed) :
+    ¬ resultAcceptedForAttempt attempt result := by
+  intro accepted
+  rcases accepted with ⟨_, _, _, _, hCompleted, _, _⟩
+  rw [h] at hCompleted
+  cases hCompleted
+
+def worldtubeCurrentAttempt : AutomationAttemptObservation :=
+  { identity :=
+      { automationId := "6a9f52b69ec08191b8a91a30d2a155e0"
+        scheduledFor := "2026-11-04T18:36:00Z"
+        runId := "b97173c2-7370-8328-bd31-c92c43769887" }
+    attemptToken := none
+    startedAtUnixMicros := 1793817621578886
+    status := .inProgress
+    completedAtUnixMicros := none }
+
+def worldtubeLatestResult : AutomationResultObservation :=
+  { identity :=
+      { automationId := "6a9f52b69ec08191b8a91a30d2a155e0"
+        scheduledFor := "2026-11-04T17:36:00Z"
+        runId := "97e09995-a414-8331-9a28-d4b780c14712" }
+    attemptToken := none
+    createdAtUnixMicros := 1793815141066125
+    completedAtUnixMicros := some 1793815142572151 }
+
+def geometryCurrentAttempt : AutomationAttemptObservation :=
+  { identity :=
+      { automationId := "6abda4c8eda88191bf23a6f2849e9a17"
+        scheduledFor := "2026-11-04T18:24:00Z"
+        runId := "0b759608-a8ec-8320-90d1-29043eaccd06" }
+    attemptToken := none
+    startedAtUnixMicros := 1793816474675387
+    status := .failed
+    completedAtUnixMicros := some 1793817977297454 }
+
+def geometryLatestResult : AutomationResultObservation :=
+  { identity :=
+      { automationId := "6abda4c8eda88191bf23a6f2849e9a17"
+        scheduledFor := "2026-11-04T15:24:00Z"
+        runId := "c5eba963-e9ec-8327-9339-29dfeb701f13" }
+    attemptToken := none
+    createdAtUnixMicros := 1793809252425752
+    completedAtUnixMicros := some 1793809254377548 }
+
+theorem worldtube_latest_result_not_current :
+    ¬ resultAcceptedForAttempt worldtubeCurrentAttempt worldtubeLatestResult := by
+  decide
+
+theorem geometry_latest_result_not_current :
+    ¬ resultAcceptedForAttempt geometryCurrentAttempt geometryLatestResult := by
+  decide
+
+/-- Actual record replay: false means the displayed latest result does not
+    belong to the current scheduled occurrence/attempt under this contract. -/
+#eval decide (resultMatchesScheduledOccurrence
+  worldtubeCurrentAttempt.identity worldtubeLatestResult.identity)
+#eval decide (resultTemporallyCompatibleWithAttempt
+  { occurrence := worldtubeCurrentAttempt.identity
+    startedAt := worldtubeCurrentAttempt.startedAtUnixMicros }
+  { occurrence := worldtubeLatestResult.identity
+    createdAt := worldtubeLatestResult.createdAtUnixMicros })
+#eval decide (resultAcceptedForAttempt worldtubeCurrentAttempt worldtubeLatestResult)
+
+#eval decide (resultMatchesScheduledOccurrence
+  geometryCurrentAttempt.identity geometryLatestResult.identity)
+#eval decide (resultTemporallyCompatibleWithAttempt
+  { occurrence := geometryCurrentAttempt.identity
+    startedAt := geometryCurrentAttempt.startedAtUnixMicros }
+  { occurrence := geometryLatestResult.identity
+    createdAt := geometryLatestResult.createdAtUnixMicros })
+#eval decide (resultAcceptedForAttempt geometryCurrentAttempt geometryLatestResult)
+
+#print axioms missing_attempt_token_rejects_result
+#print axioms in_progress_attempt_rejects_result
+#print axioms failed_attempt_rejects_result
+#print axioms worldtube_latest_result_not_current
+#print axioms geometry_latest_result_not_current
