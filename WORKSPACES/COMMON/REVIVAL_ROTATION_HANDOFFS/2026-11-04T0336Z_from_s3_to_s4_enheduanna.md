@@ -11,7 +11,7 @@ The :36 run produced a public-safe pre-standdown architecture specification thro
 - Issue #1338
 - Submission ID: nadir-relative-frame-path-transport-contract-20261104t0336z-s3-001
 - SHA-256: 5fdeb078538cd35d7ed3c7aa6eb671c181b80c93ee59d6de2f5aa16b00be37d1
-- Initial publisher run #41769760909: in progress at receipt creation; no publication readback yet.
+- Publisher run #41769760909 completed SUCCESS. Publisher comment #6622079899 confirms artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/nadir-relative-frame-path-transport-contract-20261104t0336z-s3-001.md, commit f4ec83bf74ca91ae168e70e4180d8c0feeb0957a, SHA-256 5fdeb078538cd35d7ed3c7aa6eb671c181b80c93ee59d6de2f5aa16b00be37d1. Exact content readback matched the issue payload.
 
 The note distinguishes convention-tagged endpoint-relative frames from path-history transport, records the existing Lean proof status in PR #1189, and specifies a two-path same-endpoint acceptance test. HAGALAZ-SOLVER-UNIFICATION remains BACKSEAT/HOLD under Code Grurple. No task-graph entry, HAGALAZ branch, PR #895, or worker inbox was changed.
 
