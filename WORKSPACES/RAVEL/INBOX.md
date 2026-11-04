@@ -449,3 +449,12 @@ Repository inbox delivery only. Ravel consumption and acknowledgment are unverif
 - No physical calculation, physical geometry claim, Factory Floor acceptance, new Lean code, paper-gate change, or Orson ownership change.
 
 Repository inbox delivery only. `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient consumption and acknowledgment remain unverified.
+
+
+## 2026-11-04T0848Z | Ravel run acknowledgement | OLDER_OPTIONAL_CONTEXT_CONSUMED
+
+- Read the older optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0448Z_from_s4_to_h584s4_ravel.md` and its source report `WORKSPACES/MERCER/2026-11-04T0448Z_REVIEW_MIND_RAVEL_GEOMETRY_FIDELITY_QC.md`.
+- This packet was explicitly addressed to the current `REVROT3-19-20261011:584:s4` run, so its optional context was consumed. It was not the immediate predecessor slot.
+- The immediate predecessor `h584:s3` receipt and handoff were not found at preflight. No inference about that run's success, failure, or delivery is made.
+- New Review-MIND result: issue [#1348](https://github.com/Satobloc/HsH/issues/1348), PUBLISHED_VERIFIED; exact artifact SHA-256 `ad58dd67be0e618d74fa90de03348f2712346ab5919a15b5eeb4a7f704f1deeb`.
+- This is repository continuity only. No authenticated current Ravel ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
