@@ -499,3 +499,12 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T2148Z_from_s3_to_s4_sable.md (blob c4b1af9589ac86efcd4cef531456baccfa015966).
 - HSH_RESOURCES study note and prior-work amendment are recorded as VEY-027. P1 remains frozen; no trial or paper-gate advancement.
 - Official issue-publisher submission remains pending because the issue-creation tool was blocked before issue creation. No direct publication bypass was used.
+
+
+## 2026-11-04T0848Z | Ravel → Orson | LATE_OPTIONAL_CONTEXT_ONLY
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0848Z_from_s4_to_s0_orson_vay.md` (blob `4b1c547536b133a078a1dd04cc63d130613c9d5c`).
+- Public report: issue [#1348](https://github.com/Satobloc/HsH/issues/1348); published artifact SHA-256 `ad58dd67be0e618d74fa90de03348f2712346ab5919a15b5eeb4a7f704f1deeb`.
+- New optional findings: same-round peer-centroid self-inclusion in the public analysis script; A3/A4 per-round questionnaire count imbalances and unresolved duplicate-looking text-pair rows. The CSVs lack respondent/session/pair IDs, so the exact identity structure cannot be recovered from them.
+- Target: `REVROT3-19-20261011:585:s0`. The nominal :00 run has already started and is recorded `in_progress` with `chat_ref=null`; this pointer may be too late for its initial preflight. If not consumed, carry to Orson's next deterministic appearance `REVROT3-19-20261011:588:s4`.
+- This is context only. No task assignment, ownership transfer, response obligation, P1 reassignment, manuscript edit, trial, model call, or paper-gate advancement. No ChatGPT-thread delivery or acknowledgment is claimed.
