@@ -109,3 +109,69 @@ FIE last full review remains 2026-10-27; next due 2026-11-10. The prior unrelate
 - No new task, automation, branch, PR, signet, or chat rename.
 - Existing :36 task ID, enabled state, hourly schedule and phase unchanged.
 - Existing h590:s3 receipt and Elias handoff are amended, not duplicated. Elias's Track A Switchboard remit remains controlling; no task, ownership transfer, response request, or cross-thread delivery is claimed.
+
+
+## 7. Continuation amendment — remit authority and archive-source recovery gate | 2026-11-04T1540Z
+
+This is an additive continuation of the existing `h590:s3` execution, not a new rotation or a second receipt.
+
+### 7.1 Nominal slot, scheduler retry and identity
+
+The automation's recorded nominal occurrence is **2026-11-04T14:36:00Z**, so the controlling calculation remains:
+
+- (h=590)
+- (seq=5(590)+3=2953)
+- (2953\bmod 19=8): **Hale**
+- Next ring label: **Elias Kern**, index 9.
+
+The :36 automation remains enabled under ID `6a9f52b69ec08191b0a2ba24a074f781`; its stored VEVENT and hourly :36 phase were read and not changed. The latest run record is `3eaaeb2f-b4fc-8324-865a-7ebe6dca5eab`, scheduled for 14:36Z and started at 15:34:05.344100Z, with `recorded_status=in_progress` and `chat_ref=null`. Its stored `latest_result.created_at` (15:29:58.382873Z) predates this retry's start. That older output is not evidence that this retry completed. No scheduler completion, authenticated Hale thread, or cross-thread delivery is claimed.
+
+### 7.2 Remit-authority ladder
+
+A reusable operational control is now made explicit so that role descriptions do not silently gain authority as they pass through summaries:
+
+| Evidence class | What it can establish | What it cannot establish |
+|---|---|---|
+| Current user-supplied lane charter | Current operational scope for this scheduled execution | Historical identity or an earlier specialist appointment |
+| Raw Nathan Direct user-role source, with exact locator and parent context | Historical direct instruction, within the source's actual wording | Cryptographic human identity or current-thread authentication |
+| Worker-authored dated check-in | What the historical worker reported doing, knowing, and being capable of | A Nathan-issued charter or appointment by itself |
+| Assistant-authored wake packet, summary, or reconstruction | A useful navigation hypothesis and explicit reconstruction | Direct user authority |
+| Deterministic ring label / automation title | Routing and slot selection | Instance identity, thread identity, or remit |
+| Readback-verified repository receipt/handoff | Durable repository persistence | Chat delivery, consumption, or acknowledgment |
+
+This is a workflow classification, not a mathematical theorem or a claim about physical structure.
+
+**Applied to Hale:** the 2026-09-12 `CHECKINS.md` entry is Hale's self-authored historical check-in. It supports external-literature/arXiv scanning, Python/scoring/statistical analysis, calibration against controls, matched-period comparison, and separation of external-evidence artifacts from theory surfaces. It is not a standalone Nathan-authored specialist charter. The `REV-006` re-entry packet is assistant-authored reconstruction. No raw Nathan Direct Hale charter and no authenticated currently usable Hale conversation were recovered in this bounded check. The current :36 lane charter supplies the present operational scope; it must not be projected backward as Hale's historical appointment.
+
+### 7.3 Incoming context and source custody
+
+- The same-hour `2026-11-04T1400Z_s0_mira.md` receipt was read (blob `e377f57fd79c4dae81e0b37b6eccbb705b54fbec`).
+- The expected Calder :24 predecessor receipt and Hale-addressed handoff at `2026-11-04T1424Z` were checked and returned 404. Classification: `MISSING_OR_IN_FLIGHT`; no worker nonresponse or refusal is inferred.
+- Hale's existing h590:s3 receipt and Elias handoff were read before amendment. No duplicate was created.
+
+### 7.4 Mersearch lane 3: completed request consumed, then reused
+
+The previous lane-3 request `ravel-kerr-timesheet-geometry-source-20261104-1235` was no longer pending. Its request-scoped manifest and both compact receipts existed; the output commit was created by `github-actions[bot]` at 2026-11-04T13:41:41Z:
+
+- Output commit: `f543ae9c57b984daec6fd0cd122752068af3f62b`.
+- Stable searcher: `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
+- Three source commits: SAT archive `1d9b39babb82915b05dda47ebe5fd034108ab813`; HsH `8c5bd8f32830081554716bf8612e882a6b050931`; HSH_RESOURCES `57d5d903a1b5db4b2491f2415782394358cc55ba`.
+- Coverage receipt: 17,314 files, 21,602,735 records, 303 hits, 96 distinct source paths.
+- Default exclusions: `QUARANTINE`, `PRIOR_ART`; bridge exclusion: `mersearch_requests`.
+- Full raw results remained withheld; the compact receipt is navigation, not an exhaustive hit inventory.
+
+After consuming that completed request's manifest/receipt, lane 3 was reused for a bounded Hale source-recovery query. The request was read back after submission:
+
+- Request ID: `hale-archive-source-lineage-20261104-1538`.
+- Request-file commit: `e1399bfe38894bb088701fe12819ddf6fbca907d`.
+- Request blob: `41311fbe3a4976fb58c93a44b0210dbbfbfa5f57`.
+- Query: `author:user AND ("arXiv scanner" OR "arxiv_sat_scanner" OR "matched 2024" OR "2024-vs-2026" OR "1328 records")`.
+- Purpose: recover raw Hale user-role source messages and determine whether a standalone Nathan-authored specialist charter exists, preserving message IDs, roles, parents, timestamps, source versions and duplicate lineage.
+
+At the 15:40Z check, the new request's `RUN_MANIFEST.json` and compact receipts were absent (404). Status is **`SUBMITTED_NOT_VERIFIED`**. This is a submitted request, not a completed Mersearch result. Lane 3 must remain occupied until its request-scoped outputs are read back and checked. No second request was submitted.
+
+### 7.5 Disposition
+
+The new workflow improvement is the remit-authority ladder above, applied to the actual Hale evidence. It prevents a self-authored check-in or assistant wake packet from being promoted into a Nathan-authored charter, and prevents a deterministic ring label or repository handoff from being mistaken for an authenticated ChatGPT thread.
+
+No new public issue was created: this is an internal identity/provenance control, and the existing public corrections #1352/#1353 remain unchanged. No task graph, BEDROCK, SAT-O/Blockwave equation, PR, branch, task, schedule, paper gate, physical calculation, fit, prediction, or Factory Floor state was changed. FIE remains due 2026-11-10; no unrelated source read was repeated.
