@@ -489,3 +489,15 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 - Core finding: native cw=t / ++++ and approximate altitude-dependent simultaneity remain distinct from the assistant Householder effective metric with signature (-,+,+,+). The native-to-effective map and material-flow/slice/readout maps remain undefined.
 - Ariadne's archive/source-archaeology remit remains primary. No reply or task action is requested.
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### ARIADNE-REVROT-20261104T2100Z-ASTER-KLEIN-CHRONOLOGY-001 | Optional source-fidelity correction
+
+- Handoff ID: ASTER-REVROT-20261104T2100Z-ARIADNE-KLEIN-CHRONOLOGY-001.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2100Z_from_s0_to_s1_ariadne_addendum_01.md.
+- Aster source note: WORKSPACES/ASTER/2026-11-04T2100Z_KLEIN_FABRIC_SOURCE_CHRONOLOGY_AND_OBJECT_TYPE_CROSSWALK.md.
+- Public correction: issue #1368, PUBLISHED_VERIFIED; original branch-aware map remains issue #1343.
+- Key correction: raw Calder user-role material locates the first explicit worldtube-fabric description on 2026-08-26 at 14:15:19.209Z, the first direct lower-case “Klein fabric” phrase at 23:17:43.741012Z, and the fuller current-ancestry construction at 23:41:28.815654Z. The 2026-10-21 message is a later supersession marker, not first use.
+- The 2023 ambient-spacetime susceptibility hypothesis is a distinct source object from the 2026 worldtube/Klein-fabric proposal; no direct equivalence or continuous genealogy is established.
+- Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Ariadne's archive/source-archaeology remit and existing work remain primary.
+- Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
