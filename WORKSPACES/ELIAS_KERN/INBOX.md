@@ -396,3 +396,16 @@ Elias's Track A Switchboard remit remains controlling. No task, deadline, respon
 - P2 graph: commit `58f8018ff71d16d003cdd8ec9cce193a4ca709e9`, blob `faf2ce3d2a94347c3823375130aef6e3849817b1`.
 
 PR #790's current head `163ab3e...` contains the non-contradictory `bothChannelsPresent`/product-axis source correction, but exact-head run #41841721601 fails. The earlier 883efd build success is superseded. The source-lineage axes are only a partial P2 evidence projection, not independent replication. Ariadne retains PR ownership. Elias's Track A Switchboard remit remains unchanged; no action, response, production change, or ownership transfer is requested. No authenticated Elias thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-04T2200Z | Optional Hale source-recovery context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.**
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2200Z_from_s0_to_s1_elias_kern.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2200Z_s0_hale.md
+- Public source-fidelity correction: HsH issue #1369, PUBLISHED_VERIFIED.
+- Raw 2026-10-17 BR-006 source recovered from Calculation Relay :36; scalar B(t) is assistant-formalized and Nathan-approved, not verbatim Nathan-authored.
+- P3 cursor advanced to the explicit finite-core worldtube-history → configuration-space/braid map and proof obligations.
+
+Elias's Track A Switchboard remit remains controlling. No authenticated Elias thread delivery, consumption, acknowledgment, task transfer, or ownership transfer is claimed.
