@@ -28,6 +28,8 @@
 - Math Hopper already exists (tools/archive_math_hopper.py, issue #578, bounded smoke workflow, draft PR #991); the three-repository pilot remains unverified. All four Mersearch lanes were occupied; no request-scoped manifests/receipts existed. No local three-repository checkout or Lean/Lake/Elan was available.
 - FIE last full review October 27; re-review due November 10, not yet due.
 
+Public-safe Review-MIND note: issue #1330, PUBLISHED_VERIFIED; artifact SHA-256 24a2cfd1c59f18ad7267d820ab731c26f19f16462ffac79122286c343026c388.
+
 ## Review-MIND bridge
 
 Represent future real human–LLM/multi-agent interaction as a typed, time-parameterized event DAG. Preserve immutable event IDs and payload digests, actor/model/version, prompt/context digest, parent events, timestamps and causal-order edges, sender/recipients, actual delivery/exposure, revision lineage, source ancestry, and recipient-specific visibility/context truncation.
