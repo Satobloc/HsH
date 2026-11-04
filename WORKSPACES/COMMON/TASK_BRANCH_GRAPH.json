@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-04T15:26:06Z",
+  "updated": "2026-11-04T16:36:00Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -15,7 +15,8 @@
     "2026-10-30 campaign reconciliation: add distinct P1 (Nov 9), P2 (Nov 30), P3 (Dec 14) branches under the 2026-10-26 Three Paper Campaign. They have distinct exit criteria and remain open; Code Grurple still outranks ordinary work until standdown. P1 remains Orson Vay's protected LLM-cognition remit; preserve four-of-five actual substantive Orson activations, not scheduled slot count.",
     "Mersearch request state: MERSEARCH_REQUEST.json status=requested is trigger/request metadata, not a completion state. The bridge workflow does not read or mutate that field. Use the request-scoped RUN_MANIFEST.json and SEARCH_RECEIPT.json committed outputs for execution evidence; do not edit the request or retrigger a completed lane.",
     "The 2026-10-21 PAPERS_FEED.json is a discovery/card feed, not reader acceptance evidence. The current live gate is PUBLIC_SITE/PRESENTATION_GATE.md plus CODE_GRURPLE_ROSTER.md and actual reader-route verification.",
-    "Nathan Direct 2026-11-03 geometry-first Factory Floor/paper gate: require a precise plot of the actual system under study, hostile fidelity review, and display with the associated file; preserve the primary observation / secondary physical object / tertiary dynamic model / quaternary static diagram / pentary mathematics hierarchy. Source: user-role message 937638a6-0095-47da-8bd3-4d2bc92137bc, 2026-11-03T16:06:08.288Z, Workshop Relay :00 raw export. This is an admission/workflow requirement, not a BEDROCK theory promotion."
+    "Nathan Direct 2026-11-03 geometry-first Factory Floor/paper gate: require a precise plot of the actual system under study, hostile fidelity review, and display with the associated file; preserve the primary observation / secondary physical object / tertiary dynamic model / quaternary static diagram / pentary mathematics hierarchy. Source: user-role message 937638a6-0095-47da-8bd3-4d2bc92137bc, 2026-11-03T16:06:08.288Z, Workshop Relay :00 raw export. This is an admission/workflow requirement, not a BEDROCK theory promotion.",
+    "2026-11-04 Orson h592:s3 refreshed only the P1 cognition node from the frozen P1 protocol, VEY-028 source note, existing PR #850 and live Actions status. Other branch nodes were not re-audited by this update. No P1 gate advancement."
   ],
   "allowed_status": [
     "candidate",
@@ -384,10 +385,12 @@
         "Source LaTeX, compiled PDF and reader"
       ],
       "blockers": [
-        "Current manuscript/experiment status must be read from Orson's actual latest receipt before any progress claim; this Tern pass does not infer it."
+        "Frozen methods/archival scope: no new LLM trial is authorized or claimed; original OV-49–OV-53 bank is NOT RECOVERED and authorized inference endpoint is NOT AVAILABLE.",
+        "Canonical source LaTeX, compiled PDF, readable reader route and independent/hostile review remain NOT VERIFIED / NOT COMPLETE.",
+        "VEY-028 external comparator formalization is submitted in existing PR #850; Actions run #41870255531 is still compiling at last inspection. No Lean success claim."
       ],
-      "last_material_state": "Campaign target Nov 9. Existing campaign cautions that prior results were substantially synthetic; actual trial status is not inferred here. Orson's protected cognition lane remains intact.",
-      "next_cursor": "At Orson's next actual substantive activation, read his latest receipt and original OV studies, freeze the protocol by Nov 2, then run a reproducible actual-model study if feasible; otherwise narrow honestly to a methods/literature paper. Preserve at least four of five actual substantive Orson activations for cognition.",
+      "last_material_state": "2026-11-04 Orson h592:s3 added a source-faithful conditional Lean formalization of VEY-028's balanced four-family row/column contrast identities and symmetric-noise reversal bound to existing PR #850. Branch head 5bad1dcc79a686cd2a7e1f27c297a10cbcc802c6; Actions run #41870255531 / job #126715066924 in progress at Lean compilation step. This is external methods-comparator algebra only. P1 remains frozen methods/archival; no new trial, peer-influence claim, manuscript completion, or paper-gate advancement.",
+      "next_cursor": "Verify exact-head PR #850 run #41870255531 to completion; inspect Lean version, all theorem-specific #print axioms output, full build, and skipped stages. If green, update VEY-028 and existing issue #1334 with verified proof status; if failed, repair only the new module on the existing branch. Then continue P1 source LaTeX recovery/reconstruction, canonical PDF and reader verification, and independent/hostile review. Do not reopen empirical scope without recovered bank, authorized endpoint, real outputs, and authorization. Preserve Orson's four-of-five cognition target.",
       "exit_criterion": "By Nov 9, source-grounded manuscript with genuine recorded model outputs for any empirical claim (or an explicit methods-only scope), independent/hostile review, versioned LaTeX, compiled PDF and readable reader. No unearned consciousness claims.",
       "return_route": "WORKSPACES/ORSON_VAY/ and issue #564.",
       "priority_note": "PROTECTED SPECIALIST REMIT. Count actual substantive Orson turns, not scheduled slot firings; target 4/5 cognition. No general-physics reassignment."
