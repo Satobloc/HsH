@@ -246,10 +246,10 @@ strictly decrease and therefore rules out circular derivations.
 structure SingleAnchorDependency (Node : Type) where
   anchor : Node
   rank : Node → Nat
-  parents : Node → Finset Node
-  anchorHasNoParents : parents anchor = ∅
+  parents : Node → List Node
+  anchorHasNoParents : parents anchor = []
   everyNonAnchorHasParent :
-    ∀ n, n ≠ anchor → (parents n).Nonempty
+    ∀ n, n ≠ anchor → ∃ p, p ∈ parents n
   rankStrictlyDecreases :
     ∀ {n p}, p ∈ parents n → rank p < rank n
 
