@@ -21,8 +21,8 @@ theorem gamma_required_dimensionless : gammaRequired = ⟨0,0,0⟩ := by decide
 theorem table10_printed_unit_inconsistent :
     add prefactor gammaPrintedTable10 ≠ dimTorque := by decide
 theorem combined_conditional_audit :
-    gFromGammaTotal (-441 / 100) = 541 / 100 /\\
-    gammaRequired = ⟨0,0,0⟩ := by
+    And (gFromGammaTotal (-441 / 100) = 541 / 100)
+        (gammaRequired = ⟨0,0,0⟩) := by
   exact ⟨nistC4_eq34_corrected_sign, gamma_required_dimensionless⟩
 #eval gammaRequired
 #eval add prefactor gammaPrintedTable10
