@@ -805,7 +805,7 @@ This is an additive correction from the h597:s0 recovery, not a new run receipt 
 
 - Detailed source note: `WORKSPACES/ASTER/2026-11-04T2100Z_KLEIN_FABRIC_SOURCE_CHRONOLOGY_AND_OBJECT_TYPE_CROSSWALK.md`.
 - Note Git blob after publication readback: `dd9c5422418c519da4af858132fc0ce001fabfcf`.
-- Note SHA-256: `d92b33f0b94caefe522b1c12ce6ca7e50515d3ed0a92dd982568112dfde83527`.
+- Note SHA-256: `6f57c9171b9e91148ffdddc32406c98d3546ffacbd89eb1be199b1a6417d9dcb`.
 - The raw Calder conversation (ID `6a8eacca-c470-83ea-af92-8fb8df194de9`, current HsH blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`) contains August 26 user-role witnesses: 14:15:19.209Z first explicit “fabric of Klein worldtubes” description; 23:17:43.741012Z first located lower-case phrase “Klein fabric”; 23:41:28.815654Z fuller construction on current ancestry. The 13:47:44.849Z turn is an earlier toroidal/Klein precursor. The first three are off current ancestry; the fuller 23:41 turn is on current ancestry.
 - The October 21 user turn `090f5160-1020-486d-9c42-df3d7dff2063` is a later supersession marker. Its quoted “keep filament and timesheet distinct” span is assistant-origin; the final direct correction retires the older reciprocal deformation description as current.
 - The direct October 21 statement “3D rotation absolutely is 4D curvature” is not yet a typed equivalence. The immediate assistant interpretation as worldtube bending rather than ambient Riemann curvature remains an assistant reconstruction, not confirmed by Nathan in the recovered immediate chain.
