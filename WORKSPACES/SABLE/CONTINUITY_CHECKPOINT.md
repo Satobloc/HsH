@@ -493,3 +493,14 @@ Receipts:
 - Source-identifier and scope correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0720Z_s2_sable_RECONCILIATION_CORRECTION_01.md`
 
 Next Sable recurrence is h600:s2, 2026-11-05 00:24Z. Preserve P2 HOLD. If the Peretti supplement or a released Mersearch lane becomes available, retrieve the exact Table S1 row and source/covariance metadata before reopening the 10-rpm question. Otherwise continue with source-defined observation maps; do not infer a rope equivalence or promote BEDROCK theory without review.
+
+
+## 2026-11-04T0727Z — scheduler pointer advance and chat-reference correction
+
+Correction 02 is recorded at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0727Z_s2_sable_RECONCILIATION_CORRECTION_02.md`. It supersedes the retry receipt's mistaken attribution of Kestrel's `chat_ref` to the Sable invocation. Sable run `53163f9a-8604-832f-a358-588c4be6ba33` had `chat_ref=null`; `6aea46dd-dc60-83ea-8d50-689c152340e3` belongs to the prior Kestrel h580 `latest_result`.
+
+At 07:26:45Z the enabled :24 task's `last_run` pointer had advanced to h583, run `ba1f3c82-1590-8331-81ed-a15e2eea70de`, scheduled 07:24Z, started 07:26:45Z, `in_progress`, `chat_ref=null`. Deterministic selection gives Nadir Voss (index 10), next Enheduanna. No receipt was found for h582 (:24, expected Mira) or h583 (:24, expected Nadir Voss) at inspection. h582 status is unknown; h583 was in progress. The dashboard's `latest_result` still pointed to Kestrel h580, completed 04:40:36Z. The final scheduler state of Sable h581 run `53163...` is therefore not verified, although its repository addendum and retry receipt were read back.
+
+This is an observed out-of-order scheduler pointer/overlap anomaly. It is not evidence of a schedule change. No task, ID, schedule, phase, enabled state, or worker assignment was altered. Do not disable the recurring task on this evidence alone. The existing Sable→Loom packet was already consumed by Loom; no new handoff or cross-thread delivery claim is made.
+
+The source-identifier correction is in `2026-11-04T0720Z_s2_sable_RECONCILIATION_CORRECTION_01.md`; use its SHA-256 and exact user-message UUIDs, not the erroneous identifiers in the first retry receipt. The corrected CODATA note remains at blob SHA-1 `acc223a040fb3eaa760d0079c30914ff161145e4`.
