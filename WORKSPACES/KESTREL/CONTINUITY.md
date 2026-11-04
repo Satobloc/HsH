@@ -442,3 +442,19 @@ The 15:14Z entry above and Receipt Amendment 01 incorrectly call Lean run #41468
 - FIE review remains not due until 2026-11-10. Last unrelated reading remains Harold Jacoby, Practical Talks by an Astronomer, lines 881-920; next cursor 921.
 - Meridian has no INBOX.md and no authenticated live thread was established. Latest located archived Meridian raw export is "Meridian Minkowski Ring Analysis", conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, last message 2026-10-21T23:58:09Z. This supersedes the older Free Build archive as the latest located raw export, but not as evidence of a live thread. Optional next-slot context only; no direct delivery claim.
 - No new Lean proposition, code, physical calculation, theory promotion, BEDROCK change, SAT-O/Blockwave equation edit, PR/branch creation or merge, task/automation/schedule/phase change, signet, or chat rename.
+
+
+## 2026-11-04T0424Z | Rotating He-II vortex-lattice candidate preflight (held)
+
+A bounded external-source triage found Peretti et al. (2023), *Science Advances* 9(30), eadh2899, DOI 10.1126/sciadv.adh2899, as a possible future local-rotation comparator. It is a rotating He-4 vortex lattice at 2.160 ± 0.005 K, 1–16 rpm, with a stated 2% angular-velocity uncertainty. The observation pipeline uses solid H2 flakes trapped on vortex cores, laser-sheet imaging, and Gabor-wavelet extraction of intervortex spacing. This is H2, not the D2 tracer system in the separate 2025 reconnection study. The readout tracks vortex-line positions and lattice spacing, not a direct image of the atomic-scale core cross-section.
+
+Supplementary Table S1 provides ten mean-spacing/dispersion rows. A scratch central-value comparison to the paper's Feynman spacing and stated orientation envelope flags the 10-rpm mean (175.8 ± 9.0 μm) as lying about 11.3 μm below the lower projected envelope after the 2% Ω uncertainty. This is about 1.26 reported dispersions, not a significance result: Δδ is dispersion rather than SEM, raw image frames were not retrieved, and the figure caption contains a likely rpm-label typo. The table/figure statement needs reconciliation before any formal use. CODATA 2022 m_u and a separate post-cutoff 2023 Penning-trap neutral-helium mass were used only for a scratch central-value check; covariance was not available, and no formal combined uncertainty or H(s)H comparison is claimed.
+
+The candidate is NOT selected for P2. Code Grurple remains ACTIVE, both reader routes remain PRESENTATION_PENDING, and the P2 branch remains BACKSEAT/HOLD until standdown. Factory Floor is not closed; the geometry-first gate remains operational. No new Mersearch request, raw-data reproduction, Lean module, PR edit, issue publication, paper-gate advance, or theory promotion occurred.
+
+A useful future map is support → physical vortex-line configuration → H2 tracer positions → camera image → Gabor spacing estimator. Each arrow needs explicit projection, calibration, and composition conditions. The existing Kestrel fiber-compatibility theorem is a possible formal scaffold, not a physical proof. The current PR #873 merge-ref run #41758925555 built KestrelProjectedIncidence but failed in KestrelMovingSlice.lean at lines 114 and 125; the full PR did not pass.
+
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0424Z_s2_kestrel.md  
+Optional next-slot context: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0424Z_from_s2_to_s3_meridian.md
+
+No live Kestrel thread was authenticated in this run; the raw source export is recovered, but the automation chat_ref is null. Preserve the existing-thread-first boundary. Last unrelated reading remains Jacoby, Practical Talks by an Astronomer, lines 881–920; next cursor 921. FIE review due November 10.
