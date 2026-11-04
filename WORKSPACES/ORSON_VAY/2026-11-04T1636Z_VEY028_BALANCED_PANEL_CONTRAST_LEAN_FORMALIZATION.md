@@ -131,3 +131,10 @@ A bounded repair was committed to the **same existing PR branch**:
 - New exact-head workflow has not yet appeared at the time of this addendum. Current status: `REPAIR_SUBMITTED_NOT_VERIFIED`.
 
 No proof-success, empirical, P1 or paper-gate claim follows from this repair.
+
+
+## Replacement CI run started — 2026-11-04
+
+- Repaired PR head `872a5dd3f6a65c878f7392ec86be9c2641cc6245` now has Actions run #41871626742, job #126719953314.
+- At last inspection the run is `in_progress`; checkout is still running, Lake manifest and Lean compilation have not started. No compile result or theorem proof is available yet.
+- Status remains `REPAIR_SUBMITTED_NOT_VERIFIED`. Preserve the existing PR and await this run; do not create another branch, PR, or publisher submission.
