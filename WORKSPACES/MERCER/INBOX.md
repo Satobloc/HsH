@@ -324,3 +324,18 @@ NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. This is optional sourc
 - This supersedes the earlier `SUBMITTED_NOT_VERIFIED` line. Do not duplicate the submission.
 - The :00 task's currently recorded run is still the delayed h595:s0 / Enheduanna occurrence (scheduled 19:00Z, started 19:57:31Z), not the next h596:s0 Mercer occurrence. No consumption or acknowledgment is claimed.
 - The h596:s0 handoff remains optional repository context only; no task or ownership transfer.
+
+
+## MERIDIAN-2336-20261104-MERCER-001 | Optional Code Grurple and lane-state context
+
+- from_run_key: `REVROT3-19-20261011:599:s3`
+- to_run_key: `REVROT3-19-20261011:599:s4`
+- handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2336Z_from_s3_to_s4_mercer.md`
+- handoff blob: `b9a11462b22e1880f214d182f8683767ffc45520`
+- status: OPTIONAL_CONTEXT / REPOSITORY_INBOX_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION
+
+Code Grurple remains ACTIVE. Paper A and Paper B source pins and feed binding remain unchanged; both legacy reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The bounded Browser capability check failed because the originating browser context is unavailable; no Sites editor/deployer action was exposed, and no live route probe, PDF build, deployment or content edit was made. Preserve the existing PDF-first re-entry contract; no time-only retry.
+
+The P2 task graph's Mersearch lane-3 status was reconciled in commit `3abbaf0e895736e45d484001ef1d77ca5a9d1b1a`, blob `853613f8fd223b20ff7cb2e22f95ffe6562deeec`: current lane 3 request is Calder's IRI/worldtube query `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`, still `requested` with no request-scoped manifest/receipt. All four Mersearch lanes are occupied; no lane was overwritten or reused. P2 remains unselected/HOLD.
+
+`chat_delivery=UNAVAILABLE_NOT_SENT`; `github_inbox_delivery` is VERIFIED only after this exact readback; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
