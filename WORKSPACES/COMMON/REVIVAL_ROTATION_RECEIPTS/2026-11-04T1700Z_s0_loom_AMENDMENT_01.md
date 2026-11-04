@@ -66,3 +66,17 @@ The parent receipt and its source-fidelity ledger remain the substantive geometr
 Do not repeat the already-covered #1117, #1120, #1341 or 05:36 Loom Klein Fabric work. Continue from the parent receipt's next cursor: recover the complete primary Cruller material geometry and marked flow, then determine whether Nathan Direct defines a physically privileged affine parameter, a complete slice family `Σ_t`, and a readout/projection map `P_t`. Compare recovered definitions with assistant C²/mapping-torus and fixed-affine proposals without treating either as source truth.
 
 No CODATA scoring, physical calculation, empirical validation, H(s)H candidacy, Factory Floor admission or BEDROCK promotion is claimed.
+
+
+## 5. Tag-on-read record
+
+The source-bearing documents read for this correction are tagged additively here; this is not a replacement for their existing source records.
+
+| Source | Immutable blob | Tags / provenance |
+|---|---|---|
+| `LIVE CONVOS/TEAM_SYNC_2026-09-07.md` | `935b772980e869758fc8644e0aaffa2d0a81d53` | `ASSISTANT-AUTHORED-SELF-DESCRIPTION`; `MERIDIAN-ROLE`; `NOT-LOOM-ROLE`; `NOT-NATHAN-DIRECT-CHARTER`. The role heading is under `## Meridian`. |
+| `WORKSPACES/LOOM/README.md` | `b4334800e7031913ae2bb55ed3da67e5fc4001b6` | `CURRENT-WORKSPACE-REMIT-SUMMARY`; `LOOM-CORPUS-TAGGING`; `ASSISTANT-MAINTAINED-SYNTHESIS`; `NOT-STANDALONE-VERBATIM-CHARTER`. |
+| `WORKSPACES/LOOM/2026-11-01T1648Z_HISTORICAL_CHARTER_SOURCE_RECOVERY.md` | `ed6f7a093ff54661b7ce491a0fe66794ad637e72` | `SOURCE-RECOVERY-REPORT`; `LOOM-HISTORICAL-REMIT`; `PRIMARY-SOURCE-LOCATOR`; `ASSISTANT-AUTHORED-ANALYSIS`. |
+| `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md` | `1b9a27c124c426b8f07c15237b1094db1b0df735` | `SOURCE-TAG-LEDGER`; `NATHAN-DIRECT-USER-ROLE-TURNS`; `CUMULATIVE-TAGGING`; `TIMELINE-FIRST`; `TERMINOLOGY-CROSSWALK`; `HISTORICAL-CURRENT-DEFINITION`; `CORRECTION-CHAIN`. |
+| Original `Tag Conversation Corpus` raw export | `6668ca60e451f8737903423727da7f9a430484e1` | `PRIMARY-RAW-CONVERSATION`; `USER-ROLE-SOURCE`; `10-USER-TURNS`; `ASSISTANT-TOOL-ROLES-KEPT-SEPARATE`; duplicate repository paths are one blob, not independent witnesses. |
+
