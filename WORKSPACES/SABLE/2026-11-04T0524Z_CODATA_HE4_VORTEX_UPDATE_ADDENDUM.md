@@ -120,7 +120,7 @@ Uncertainty separation:
 - CODATA 2022 \(m_u\): relative standard uncertainty \(3.132\times10^{-10}\).
 - The covariance between the new relative-mass result and the CODATA conversion constant is not supplied in the sources inspected.
 
-If independence is assumed, quadrature gives \(u_r(\kappa)\approx3.123\times10^{-10}\). Without assuming a covariance, the first-order triangle bound is \(u_r(\kappa)\le3.222\times10^{-10}\), or approximately \(u(\kappa)\le3.21\times10^{-17}\;\mathrm{m^2\,s^{-1}}\). The conservative bound is the appropriate current record. The SI uncertainty is dominated by \(m_u\), roughly 35 times the relative uncertainty of the 2026 helium measurement.
+If independence is assumed, quadrature gives \(u_r(\kappa)\approx3.133\times10^{-10}\). Without assuming a covariance, the first-order triangle bound is \(u_r(\kappa)\le3.222\times10^{-10}\), or approximately \(u(\kappa)\le3.21\times10^{-17}\;\mathrm{m^2\,s^{-1}}\). The conservative bound is the appropriate current record. The SI uncertainty is dominated by \(m_u\), roughly 35 times the relative uncertainty of the 2026 helium measurement.
 
 This is **not** a CODATA 2026 evaluation. It is a transparent combination of a 2026 measured relative atomic mass with the currently available 2022 adjusted mass unit.
 
@@ -232,3 +232,22 @@ The candidate note on issue #1339 already exists; no duplicate issue/comment or 
 5. Fernandez Davila et al., FSU helium-4 / carbon cyclotron ratio, Phys. Rev. Lett. 137, 053001 (2026), DOI 10.1103/xzmk-r533; abstract and publication metadata inspected.
 6. Peretti et al., rotating superfluid helium vortex lattice, Science Advances 9, eadh2899 (2023), DOI 10.1126/sciadv.adh2899; main article inspected. Supplementary Table S1 PDF not retrieved.
 7. Internal HsH: current Sable Lane 24 systems-triage report; Sable :24 receipt and Loom handoff; current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding/revival controls, and the Ariadne worldline/worldtube/timesheet fidelity report.
+
+
+## Independent arithmetic and source-readout correction (2026-11-04 07:19Z)
+
+A separate recomputation found a digit transposition in the independence-only relative-uncertainty value in §4. Using the displayed parenthetical uncertainties:
+
+- (u_r(m_u)=0.52\times10^{-36}/(1.66053906892\times10^{-27})=3.1315131919\times10^{-10}).
+- (u_r(A_r(^{4}\mathrm{He}))=0.000000000036/4.002603254665=8.9941464866\times10^{-12}).
+- Independence-only quadrature: (sqrt{u_r(m_u)^2+u_r(A_r)^2}=3.1328045484\times10^{-10}), rounded (3.133\times10^{-10}). The earlier (3.123\times10^{-10}) was a transposition.
+- First-order triangle bound: (3.2214546568\times10^{-10}). The printed (3.222\times10^{-10}) remains a conservative rounded upper bound.
+- Corresponding (u(\kappa)): (3.1231848394\times10^{-17}\,\mathrm{m^2/s}) under independence; conservative first-order bound (\leq3.2115627354\times10^{-17}\,\mathrm{m^2/s}).
+
+The quadrature result is conditional on zero covariance. It is not an evaluated combined uncertainty: the covariance between the 2026 FSU neutral-helium relative-mass result and CODATA 2022 (m_u) was not supplied in the accessible source. The conservative first-order bound is the defensible upper bound under the stated inputs. CODATA 2022 Table I's three quoted correlations are pairwise among the AMDC input masses: (r(^{28}\mathrm{Si},^{87}\mathrm{Rb})=0.0678), (r(^{28}\mathrm{Si},^{133}\mathrm{Cs})=0.0630), and (r(^{87}\mathrm{Rb},^{133}\mathrm{Cs})=0.1032). They are not the missing covariance with the 2026 helium result.
+
+The 2023 LIONTRAP paper reports (36\times10^{-12}\,u) statistical, (31\times10^{-12}\,u) systematic, and (48\times10^{-12}\,u) total uncertainty. Its systematic budget is 7.84 ppt, dominated by the dip-lineshape contribution (7.11 ppt); image charge contributes 3.29 ppt, with relativistic, magnetic-inhomogeneity, and electrostatic-anharmonicity terms of 0.31, 0.19, and 0.13 ppt. The 2026 FSU abstract reports (36\times10^{-12}\,u), but its full paper/systematic breakdown is not yet accessible; APS lists the full article as available 2027-07-28.
+
+The PMC full-text record for the 2023 rotating-superfluid experiment confirms the Feynman spacing law, the orientation envelope ([\delta_F\cos(\pi/6),\delta_F]), and that all plotted measurements lie within that envelope. It also clarifies that the vertical dispersion combines temporal spacing dispersion and bimodal-fit dispersion, not a standard error of an independent ensemble mean. Figure 3's caption labels 1.047 rad/s as 1 rpm; Figure 2 and the text identify 1.047 rad/s as 10 rpm, so the Figure 3 label is a typo. The supplementary Table S1 PDF remains blocked at retrieval; no row-level re-extraction of the earlier 175.8±9.0 μm value was made. The earlier 10-rpm anomaly is therefore withdrawn. The corrected 188.944 μm lower projection bound is a recalculation correction, not a physical change caused by the new helium mass.
+
+Sources: [CODATA 2022 adjustment](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958143); [LIONTRAP 2023 full paper](https://link.aps.org/doi/10.1103/PhysRevLett.131.093201); [FSU 2026 publication record](https://link.aps.org/doi/10.1103/PhysRevLett.137.053001); [Peretti et al. 2023 PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10381927/).
