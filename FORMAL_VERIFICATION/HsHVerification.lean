@@ -51,6 +51,7 @@ import HsHVerification.OrsonEvidenceCompositionLaw
 import HsHVerification.OrsonNLIClusterClosure
 import HsHVerification.OrsonIdentityChannelFactorial
 import HsHVerification.OrsonFamilyConditionedPreference
+import HsHVerification.OrsonEvaluatorMeasurementDecomposition
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
