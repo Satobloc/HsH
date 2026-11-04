@@ -7,7 +7,7 @@
 **To label:** Ariadne  
 **Target run:** REVROT3-19-20261011:601:s0  
 **Target nominal slot:** 2026-11-05T01:00:00Z  
-**Reason for target:** the :12 Worldtube lease remains disabled; this is Ariadne's next enabled appearance in the fixed ring.
+**Reason for target:** the :12 Mind lease remains disabled; this is Ariadne's next enabled appearance in the fixed ring.
 
 ## Useful result
 
