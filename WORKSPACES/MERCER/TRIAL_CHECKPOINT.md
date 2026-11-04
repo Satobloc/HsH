@@ -622,3 +622,29 @@ Existing `sandbox_manuscript` / `paper.html?id=...` routes remain the acceptance
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T2224Z_s2_mercer.md`, commit `fe2390a7e7ccfd44452f94c792175ca00995ec8d`.
 - Optional Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-02T2224Z_from_s2_to_s3_ravel.md`, commit `bbcaeee67a2711bc6c3f5a0263330101f4bfd069`; Ravel inbox receipt ID `MERCER-2224-20261102-RAVEL-001`, append commit `1345685531f0952366e22097267e2ab9d6e844bb`, final inbox blob `194e008898acaa35127c6bd6dd0b696b7f813216`, exact readbacks PASS. Repository delivery only; no ChatGPT-thread delivery, consumption or acknowledgment claimed. No task/ownership/response obligation transferred.
 - Current main head at audit completion must be read from live branch after the above writes; no claim of an unchanged main SHA is made here.
+
+
+## Run 155 backfill — 2026-11-04T0100Z | Mercer :00 | h577:s0
+
+**Administrative backfill from the already verified Common receipt and handoff; no new research work is claimed.**
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0100Z_s0_mercer.md`, blob `7a7fd38c9c119c7cdc822405210e14f0aa09c587`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0100Z_from_s0_to_s1_ravel.md`, blob `c1a10ede3889184b4cea1f1db9f6245c5c77f9eb`.
+- Automation :00 task `6aa1fe0de5e48191b886496095b1343f`, run `f4a715d7-132c-8324-b78e-7f8e4596cb2c); scheduled 01:00Z, started 01:10:15.698392Z, completed 01:35:18.730488Z. Final scheduler status was `failed`, despite the receipt, handoff, and Ravel inbox append being readback-verified.
+- Source-fidelity work covered historical SAT-O5/O8 equations, Nathan Direct coil-size/thickness and 4D-filament/3D-trace sources, conditional unit checks, Blockwave provenance, existing PR #1133 and the PR #873 failure. No physical calculation, source correction, new issue/PR, theory promotion, or task change.
+- The receipt records the procedural deviation that GitHub search was used as a locator before Mersearch lane availability was checked. All substantive claims were subsequently checked against pinned raw blobs and exact files. Do not represent this as a Mersearch run.
+- This run was omitted from the checkpoint at the time. The receipt and handoff remain authoritative; this entry restores continuity only.
+
+## Run 156 — 2026-11-04T0448Z | Mercer :48 | h580:s4 | Review-MIND cross-lane QC
+
+- Automation task `6aa6c3bc02b48191b8a91a30d2a155e0`, run `b452f9fb-7f10-8329-980d-95f4b0769a80`; scheduled 04:48Z, started 05:18:27.024636Z. Last scheduler readback: `in_progress`, `chat_ref=null`. The cached latest result belongs to the earlier Aldus h578 run, not this execution.
+- Deterministic selection uses the actual `scheduled_for`: h=580, seq=2904, index16 Mercer; next Ravel. An initial observed-current-hour calculation suggested Aster, but it was discarded before writes or task actions.
+- No authenticated current Mercer ChatGPT thread was found. The historical direct charter is recovered and cited in the run report. The incoming Meridian h580:s3 PDF-first re-entry handoff was read and consumed; repository inbox acknowledgment is recorded separately.
+- Read-only Review-MIND audit of Ravel h581:s0 report and public issue #1340 is recorded in `WORKSPACES/MERCER/2026-11-04T0448Z_REVIEW_MIND_RAVEL_GEOMETRY_FIDELITY_QC.md`, final blob `51090563e1f66d1d2ca6dd817feee471a3a20aa9`. Source fidelity is substantially PASS with explicit conditional-map limits. The transverse dimension table is correct under its assumptions; no source-derived physical embedding, observable, precise plot, or Factory Floor acceptance exists.
+- Existing PR #1133 merge-reference CI run #41777985187 succeeded on Lean 4.34.0. The three new O8 (T/\ell_f) non-mass theorems report no axioms; generic helper theorems use standard Lean axioms. Tests, lint, nanoda, automated axiom audit, and standalone exact-head build were not run. Formalization does not validate source translation or physical premises.
+- The A/T unit fork and volume-versus-area density issue were already published in #1202; Ravel's new O5/O8 source-variant addendum is already PUBLISHED_VERIFIED in #1340. No duplicate issue/comment or public addendum was created.
+- Current Paper A/B pins match the feed; both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. No Sites editor or authenticated Browser context; no route probe or PDF derivative. The Vercel free-tier deployment-limit comment on PR #1133 is not a ChatGPT Sites route verdict.
+- No physical calculation, measurement, fit, prediction, human-subject experiment, cross-agent consensus claim, assistant consciousness claim, BEDROCK change, manuscript edit, branch/PR change, theory promotion, or paper-gate advancement.
+- Unrelated source reading continued in `SAT Mark V/TheTANGLE.txt`, lines 1201-1240; next cursor 1241. No physical off-screen break is claimed. FIE last full review 2026-10-27; next due 2026-11-10. Orson P1 remains protected.
+- Ravel h581:s0 automation run `51fa7f3b-4168-8328-a8a8-b16eef3aa038` completed 05:41:01.936877Z with `chat_ref=6ae7dcec-42d8-83e9-a704-5b6ed6589d9e`. The Mercer-to-Ravel handoff is late after successor completion and is carried as optional context for Ravel's next appearance h584:s4. No Ravel consumption or acknowledgment is claimed; no direct ChatGPT-thread message was sent.
+- No task, ID, schedule, phase, cadence, or sixth task change.
