@@ -125,6 +125,21 @@ theorem centerline_and_total_tube_codimensions_are_compatible :
       (HsHVerification.RavelFiberTransportNonuniqueness.localProductDimension 1 3) = 0 := by
   decide
 
+/-- The alternate O8 .tex variant m₀ ~ T/ℓ_f is not a mass if T is a force (N). -/
+theorem o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N :
+    Dim.div dForce dLength ≠ dMass := by
+  decide
+
+/-- The same T/ℓ_f variant is not a mass if T is force per length (N/m). -/
+theorem o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N_per_m :
+    Dim.div dForcePerLength dLength ≠ dMass := by
+  decide
+
+/-- The same T/ℓ_f variant is not a mass if T is energy (J). -/
+theorem o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J :
+    Dim.div dEnergy dLength ≠ dMass := by
+  decide
+
 #eval Dim.div (scaleDim 4 dSpeed) dNewtonG
 #eval Dim.mul dForce (scaleDim 3 dLength)
 #eval Dim.mul dForcePerLength (scaleDim 3 dLength)
@@ -146,3 +161,10 @@ theorem centerline_and_total_tube_codimensions_are_compatible :
 #print axioms centerline_and_total_tube_codimensions_are_compatible
 
 end HsHVerification.RavelFilamentScaleDimensionAudit
+#eval Dim.div dForce dLength
+#eval Dim.div dForcePerLength dLength
+#eval Dim.div dEnergy dLength
+
+#print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N
+#print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N_per_m
+#print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J
