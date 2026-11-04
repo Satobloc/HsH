@@ -19,6 +19,7 @@ import HsHVerification.NadirAffineTranslationQuotient
 import HsHVerification.NadirAffineObstructionDimension
 import HsHVerification.NadirProjectedFrameCurvature
 import HsHVerification.NadirReadoutMetricSignature
+import HsHVerification.NadirVortexTwoChannelReadout
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirGPBNiAxialBound
