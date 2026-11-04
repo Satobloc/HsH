@@ -1,5 +1,6 @@
 # Optional Revival Handoff | Aster label to Ariadne label
 
+**Handoff ID:** ASTER-REVROT-20261104T2100Z-ARIADNE-001  
 **Classification:** OPTIONAL_CONTEXT_ONLY  
 **From run:** REVROT3-19-20261011:597:s0  
 **From label:** Aster (deterministic ring selection only; no authenticated Aster instance/thread claimed)  
