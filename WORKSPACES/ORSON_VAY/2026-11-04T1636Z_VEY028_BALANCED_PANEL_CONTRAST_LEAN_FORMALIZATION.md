@@ -111,3 +111,23 @@ Deliberate unrelated reading continued Harold Jacoby, *Practical Talks by an Ast
 - Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly phase and enabled state preserved; no sixth task.
 
 **Next:** inspect run #41870255531 to completion; record exact Lean version, compile result, theorem-specific axiom output, full-build result and skipped stages. If successful, append a proof-status addendum to VEY-028 and the existing issue #1334, then update the P1 graph cursor. If failed, preserve diagnostics and repair only the new module. Continue with P1 source LaTeX/PDF/reader/independent-review gates; do not reopen the frozen empirical scope without new authorization and real inputs.
+
+
+## Lean failure diagnosis and bounded repair — 2026-11-04
+
+The first exact-head-triggered PR workflow completed with **FAILURE**, not a proof result:
+
+- PR branch head at that run: `5bad1dcc79a686cd2a7e1f27c297a10cbcc802c6`.
+- Actions run #41870255531; job #126715066924.
+- Workflow source/merge commit: `913d049c91a5f7f16e10b3e399a0efc2fd7eb037`; this was a pull-request merge-reference build, not a standalone head build.
+- Lean 4.34.0; Lake 5.0.0.
+- Errors in the new module: `rowContrast` and `columnContrast` definitions depended on noncomputable `Real.instDivInvMonoid`; four `ring` tactics followed rewrites that had already closed their goals (lines 75, 105, 132, 147).
+- The seven theorem declarations emitted `#print axioms` diagnostics, but the module and full library did not compile. No theorem is counted as proved. Tests, lint, nanoda and the separate axiom-audit stage were skipped.
+
+A bounded repair was committed to the **same existing PR branch**:
+- New module blob: `d1ff80995c7f832f83a8a280c5d26e7d38392b9a`.
+- New branch head: `872a5dd3f6a65c878f7392ec86be9c2641cc6245`.
+- Changes: mark only the two contrast definitions `noncomputable`; remove the four redundant post-rewrite `ring` tactics. The root import remains present and unchanged (blob `4586adeee53436723b8b57f0cfdb067b9ea1756b`).
+- New exact-head workflow has not yet appeared at the time of this addendum. Current status: `REPAIR_SUBMITTED_NOT_VERIFIED`.
+
+No proof-success, empirical, P1 or paper-gate claim follows from this repair.
