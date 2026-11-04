@@ -159,8 +159,6 @@ theorem o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J :
 #print axioms spacetime_volume_link_density_times_ell_f_sq_not_dimensionless
 #print axioms areal_link_density_times_ell_f_sq_is_dimensionless
 #print axioms centerline_and_total_tube_codimensions_are_compatible
-
-end HsHVerification.RavelFilamentScaleDimensionAudit
 #eval Dim.div dForce dLength
 #eval Dim.div dForcePerLength dLength
 #eval Dim.div dEnergy dLength
@@ -168,3 +166,5 @@ end HsHVerification.RavelFilamentScaleDimensionAudit
 #print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N
 #print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N_per_m
 #print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J
+
+end HsHVerification.RavelFilamentScaleDimensionAudit
