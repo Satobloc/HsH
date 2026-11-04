@@ -84,11 +84,15 @@ structure DisjointPrimaryOrigins (left right : OriginSet) where
   rightOriginPresent : rightOrigin ∈ right
   disjoint : DisjointOrigins left right
 
-inductive ClaimLineageStatus where
-  | dependent -- shared-content: not an independent content witness for this claim; not causal ancestry
+/-- Legacy scalar display only. The old `.conflicting` label conflated
+    content overlap with primary-origin independence. It is superseded by
+    `ClaimLineageAxes` / `classifyAxes` and MUST NOT be used as a P2
+    acceptance gate. -/
+inductive LegacyClaimLineageStatus where
+  | dependent
   | independent
   | unresolved
-  | conflicting
+  | bothChannelsPresent
   deriving DecidableEq, Repr
 
 /-- Evidence is attached to one claim scope. It carries both possible
@@ -100,11 +104,15 @@ structure ClaimLineageEvidence
   sharedCore : Option (SharedCoreClaim core scope)
   disjointPrimaryOrigins :
     Option (DisjointPrimaryOrigins leftOrigins rightOrigins)
+  /-- Completeness is separate from the existence of one disjoint witness. -/
+  primaryOriginsComplete : Bool
 
-def classify {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
-    (e : ClaimLineageEvidence core leftOrigins rightOrigins) : ClaimLineageStatus :=
+/-- Deprecated scalar projection retained only for historical audit readback.
+    Use `classifyAxes` for current claim adjudication. -/
+def legacyScalarClassify {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
+    (e : ClaimLineageEvidence core leftOrigins rightOrigins) : LegacyClaimLineageStatus :=
   match e.sharedCore, e.disjointPrimaryOrigins with
-  | some _, some _ => .conflicting
+  | some _, some _ => .bothChannelsPresent
   | some _, none => .dependent
   | none, some _ => .independent
   | none, none => .unresolved
@@ -117,20 +125,20 @@ theorem disjoint_origin_witnesses_are_nonempty_and_disjoint
   exact ⟨⟨w.leftOrigin, w.leftOriginPresent⟩,
     ⟨w.rightOrigin, w.rightOriginPresent⟩, w.disjoint⟩
 
-theorem classify_independent_iff
+theorem legacyScalarClassify_independent_iff
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins) :
-    classify e = .independent ↔
+    legacyScalarClassify e = .independent ↔
       e.sharedCore.isNone = true ∧
       e.disjointPrimaryOrigins.isSome = true := by
   cases e with
   | mk scope shared disjoint =>
     cases shared <;> cases disjoint <;> simp [classify]
 
-theorem classify_unresolved_iff
+theorem legacyScalarClassify_unresolved_iff
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins) :
-    classify e = .unresolved ↔
+    legacyScalarClassify e = .unresolved ↔
       e.sharedCore.isNone = true ∧
       e.disjointPrimaryOrigins.isNone = true := by
   cases e with
@@ -140,7 +148,7 @@ theorem classify_unresolved_iff
 theorem independent_requires_disjoint_primary_origins
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (e : ClaimLineageEvidence core leftOrigins rightOrigins)
-    (h : classify e = .independent) :
+    (h : legacyScalarClassify e = .independent) :
     ∃ witness : DisjointPrimaryOrigins leftOrigins rightOrigins,
       e.disjointPrimaryOrigins = some witness := by
   have h' := (classify_independent_iff e).mp h
@@ -185,10 +193,11 @@ def sharedCoreEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := sharedCoreScope
     sharedCore := some sharedCoreClaim
-    disjointPrimaryOrigins := none }
+    disjointPrimaryOrigins := none
+    primaryOriginsComplete := false }
 
 theorem audited_shared_core_claim_is_dependent :
-    classify sharedCoreEvidence = .dependent := rfl
+    legacyScalarClassify sharedCoreEvidence = .dependent := rfl
 
 def kirkUniqueSuffixScope : ClaimScope :=
   { claimId := "claim-supported-only-in-kirk-unique-suffix"
@@ -209,19 +218,22 @@ def kirkUniqueSuffixEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := kirkUniqueSuffixScope
     sharedCore := none
-    disjointPrimaryOrigins := none }
+    disjointPrimaryOrigins := none
+    primaryOriginsComplete := false }
 
 def readyRoomUniquePrefixEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := readyRoomUniquePrefixScope
     sharedCore := none
-    disjointPrimaryOrigins := none }
+    disjointPrimaryOrigins := none
+    primaryOriginsComplete := false }
 
 def readyRoomUniqueSuffixEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := readyRoomUniqueSuffixScope
     sharedCore := none
-    disjointPrimaryOrigins := none }
+    disjointPrimaryOrigins := none
+    primaryOriginsComplete := false }
 
 theorem kirk_unique_suffix_outside_known_core :
     ¬ Contains kirkCommonCore kirkUniqueSuffix := by
@@ -239,26 +251,27 @@ theorem ready_room_unique_suffix_outside_known_core :
   norm_num [Contains, readyRoomCommonCore, readyRoomUniqueSuffix] at h
 
 theorem kirk_unique_suffix_claim_remains_unresolved :
-    classify kirkUniqueSuffixEvidence = .unresolved := rfl
+    legacyScalarClassify kirkUniqueSuffixEvidence = .unresolved := rfl
 
 theorem ready_room_unique_prefix_claim_remains_unresolved :
-    classify readyRoomUniquePrefixEvidence = .unresolved := rfl
+    legacyScalarClassify readyRoomUniquePrefixEvidence = .unresolved := rfl
 
 theorem ready_room_unique_suffix_claim_remains_unresolved :
-    classify readyRoomUniqueSuffixEvidence = .unresolved := rfl
+    legacyScalarClassify readyRoomUniqueSuffixEvidence = .unresolved := rfl
 
 theorem missing_lineage_is_not_independence
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
     (scope : ClaimScope) :
-    classify
+    legacyScalarClassify
       ({ scope := scope, sharedCore := none,
-         disjointPrimaryOrigins := none } :
+         disjointPrimaryOrigins := none
+    primaryOriginsComplete := false } :
         ClaimLineageEvidence core leftOrigins rightOrigins)
       ≠ .independent := by
   simp [classify]
 
 #print axioms contains_trans
-#print axioms classify_independent_iff
+#print axioms legacyScalarClassify_independent_iff
 #print axioms independent_requires_disjoint_primary_origins
 #print axioms audited_shared_core_claim_is_dependent
 #print axioms kirk_unique_suffix_claim_remains_unresolved
@@ -333,6 +346,42 @@ structure ClaimLineageAxes where
   primaryOrigins : PrimaryOriginRelation
   primaryOriginsComplete : Bool
   deriving DecidableEq, Repr
+
+/-- Canonical classification preserves content and primary-origin evidence
+    as orthogonal axes. Missing origin-completeness evidence stays false. -/
+def classifyAxes {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
+    (e : ClaimLineageEvidence core leftOrigins rightOrigins) : ClaimLineageAxes :=
+  { content := match e.sharedCore with
+      | some _ => .sharedCore
+      | none => .unknown
+    primaryOrigins := match e.disjointPrimaryOrigins with
+      | some _ => .disjoint
+      | none => .unknown
+    primaryOriginsComplete := e.primaryOriginsComplete }
+
+/-- If both channels carry evidence, the canonical classifier retains both;
+    their coexistence is not a cross-axis contradiction. -/
+theorem classifyAxes_preserves_orthogonal_witnesses
+    {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
+    (e : ClaimLineageEvidence core leftOrigins rightOrigins)
+    (hShared : e.sharedCore.isSome = true)
+    (hDisjoint : e.disjointPrimaryOrigins.isSome = true) :
+    (classifyAxes e).content = .sharedCore ∧
+      (classifyAxes e).primaryOrigins = .disjoint := by
+  cases hs : e.sharedCore with
+  | none => simp [hs] at hShared
+  | some shared =>
+      cases hd : e.disjointPrimaryOrigins with
+      | none => simp [hd] at hDisjoint
+      | some origins => simp [classifyAxes, hs, hd]
+
+/-- The actual KIRK/READY_ROOM record has verified shared content but no
+    complete primary-origin census; it remains unresolved on that axis. -/
+theorem sharedCoreEvidence_axes :
+    (classifyAxes sharedCoreEvidence).content = .sharedCore ∧
+      (classifyAxes sharedCoreEvidence).primaryOrigins = .unknown ∧
+      (classifyAxes sharedCoreEvidence).primaryOriginsComplete = false := by
+  rfl
 
 def contentIndependent (e : ClaimLineageAxes) : Prop :=
   e.content = .disjointInAuditedScope
