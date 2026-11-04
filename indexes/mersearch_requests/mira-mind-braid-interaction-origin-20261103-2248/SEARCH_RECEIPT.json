@@ -1,0 +1,615 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "64258afa33a9a522334c64496a0d16af94ba314a791c8281922c7e057c5482ff",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-04T01:26:07.724184+00:00",
+  "query": "(author:user AND ((\"multi-agent\" OR \"human-LLM\" OR \"agent group\" OR \"group interaction\" OR \"peer interaction\" OR \"message passing\" OR \"cross-agent\" OR \"shared context\") OR (braid OR \"Braid Theory\" OR \"triple braid\" OR \"braid of braids\" OR cabling OR \"configuration space\" OR worldline OR worldtube OR timesheet))) OR ((path:*MIRA* OR path:*BRAID* OR path:*AGENT* OR path:*COGNITION*) AND (braid OR \"group interaction\" OR \"message passing\" OR \"peer exposure\" OR \"shared context\" OR worldline OR worldtube OR timesheet))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16975,
+    "records_scanned": 21040357,
+    "hits": 3181
+  },
+  "counted_hits": 3181,
+  "distinct_sources": 468,
+  "results_by_root": {
+    "archive": 451,
+    "hsh-main": 2583,
+    "resources": 147
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:user",
+      2573
+    ],
+    [
+      "worldline",
+      1469
+    ],
+    [
+      "braid",
+      996
+    ],
+    [
+      "timesheet",
+      922
+    ],
+    [
+      "worldtube",
+      621
+    ],
+    [
+      "path:*BRAID*",
+      225
+    ],
+    [
+      "path:*MIRA*",
+      224
+    ],
+    [
+      "configuration space",
+      117
+    ],
+    [
+      "Braid Theory",
+      62
+    ],
+    [
+      "triple braid",
+      49
+    ],
+    [
+      "shared context",
+      34
+    ],
+    [
+      "multi-agent",
+      18
+    ],
+    [
+      "path:*COGNITION*",
+      10
+    ],
+    [
+      "cabling",
+      9
+    ],
+    [
+      "path:*AGENT*",
+      2
+    ],
+    [
+      "braid of braids",
+      1
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 100,
+      "best_score": 107,
+      "first_hit_index": 750,
+      "sample_hit_index": 862,
+      "locator": "message:0b46ef8d-967d-491a-a98b-36c7a44a4105",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/26.03.13•26.04.21•Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 100,
+      "best_score": 107,
+      "first_hit_index": 751,
+      "sample_hit_index": 863,
+      "locator": "message:0b46ef8d-967d-491a-a98b-36c7a44a4105",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 11,
+      "best_score": 107,
+      "first_hit_index": 597,
+      "sample_hit_index": 617,
+      "locator": "message:f11275ae-5ca5-4834-a4d7-d861b85cec43",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.06•26.06.11•Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 11,
+      "best_score": 107,
+      "first_hit_index": 598,
+      "sample_hit_index": 618,
+      "locator": "message:f11275ae-5ca5-4834-a4d7-d861b85cec43",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.27•26.09.12•[B] SAT Theory Unification — raw.json",
+      "title": "[B] SAT Theory Unification",
+      "record_count": 2,
+      "best_score": 107,
+      "first_hit_index": 1746,
+      "sample_hit_index": 1746,
+      "locator": "message:2a9c37c0-2832-4259-86b2-aa261563773a",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.27•26.06.27•SAT Theory Unification — raw.json",
+      "title": "SAT Theory Unification",
+      "record_count": 2,
+      "best_score": 107,
+      "first_hit_index": 1747,
+      "sample_hit_index": 1747,
+      "locator": "message:2a9c37c0-2832-4259-86b2-aa261563773a",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11•26.10.15•Orson LLM Cognition Lab — raw.json",
+      "title": "Orson LLM Cognition Lab",
+      "record_count": 7,
+      "best_score": 87,
+      "first_hit_index": 2739,
+      "sample_hit_index": 2741,
+      "locator": "message:ac34a648-b0da-4aaa-8f1a-91c2dd121082",
+      "matched_terms": [
+        "braid",
+        "Braid Theory",
+        "worldline",
+        "worldtube",
+        "timesheet",
+        "path:*COGNITION*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1686,
+      "sample_hit_index": 1828,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1687,
+      "sample_hit_index": 1829,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1688,
+      "sample_hit_index": 1830,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1689,
+      "sample_hit_index": 1831,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1690,
+      "sample_hit_index": 1832,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 28,
+      "best_score": 82,
+      "first_hit_index": 1691,
+      "sample_hit_index": 1833,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.02•26.09.12•[A] Testing a Theory of Everything — raw.json",
+      "title": "[A] Testing a Theory of Everything",
+      "record_count": 26,
+      "best_score": 75,
+      "first_hit_index": 466,
+      "sample_hit_index": 562,
+      "locator": "message:06794351-4f88-4bc6-8527-1f55b2290504",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
+      "title": "Testing a Theory of Everything",
+      "record_count": 26,
+      "best_score": 75,
+      "first_hit_index": 467,
+      "sample_hit_index": 563,
+      "locator": "message:06794351-4f88-4bc6-8527-1f55b2290504",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 9,
+      "best_score": 75,
+      "first_hit_index": 380,
+      "sample_hit_index": 395,
+      "locator": "message:15c3bf7f-a50e-4393-88ed-e6f24b71b46f",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 9,
+      "best_score": 75,
+      "first_hit_index": 1518,
+      "sample_hit_index": 1518,
+      "locator": "message:e1d47786-b19f-4445-9a35-2d487482e02e",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reddit OCR Analysis — raw.json",
+      "title": "Reddit OCR Analysis",
+      "record_count": 19,
+      "best_score": 71,
+      "first_hit_index": 1237,
+      "sample_hit_index": 1259,
+      "locator": "message:9392e8cf-7077-46e6-b9e2-b22ee0f3cb58",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "configuration space",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Scientific Paper Review — raw.json",
+      "title": "Scientific Paper Review",
+      "record_count": 12,
+      "best_score": 71,
+      "first_hit_index": 990,
+      "sample_hit_index": 990,
+      "locator": "message:b1aafb61-52c1-40e0-a40e-b7f803c03172",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "configuration space",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Theory of Everything Review — raw.json",
+      "title": "Theory of Everything Review",
+      "record_count": 25,
+      "best_score": 66,
+      "first_hit_index": 1275,
+      "sample_hit_index": 1279,
+      "locator": "message:96094218-3172-4470-9982-0a1524be39e1",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Idea Evaluation Request — raw.json",
+      "title": "Idea Evaluation Request",
+      "record_count": 1,
+      "best_score": 66,
+      "first_hit_index": 595,
+      "sample_hit_index": 595,
+      "locator": "message:4f967b88-d751-45be-85ac-6118e16aa8a6",
+      "matched_terms": [
+        "author:user",
+        "configuration space",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 14,
+      "best_score": 64,
+      "first_hit_index": 1628,
+      "sample_hit_index": 1664,
+      "locator": "message:273fa41b-584d-4757-8e53-ef82bd913961",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "triple braid",
+        "timesheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 6,
+      "best_score": 57,
+      "first_hit_index": 54,
+      "sample_hit_index": 57,
+      "locator": "message:d9673629-3f20-418c-be00-9117b9872a2c",
+      "matched_terms": [
+        "author:user",
+        "configuration space"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 21,
+      "best_score": 55,
+      "first_hit_index": 2118,
+      "sample_hit_index": 2270,
+      "locator": "message:94ece094-126d-480a-a522-2e8615ed0d85",
+      "matched_terms": [
+        "author:user",
+        "braid",
+        "worldline",
+        "worldtube",
+        "timesheet"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa2ca24-b946-4878-a6e0-e74d235ab01c",
+      "matched_terms": [
+        "author:user",
+        "braid"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa20385-4291-4096-94f5-881e1e975a0d",
+      "matched_terms": [
+        "author:user",
+        "braid"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:e38c6081-0079-4dd5-8671-a2acebbe105b",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:e38c6081-0079-4dd5-8671-a2acebbe105b",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:f82ec0ca-9214-4355-9121-3560c7207055",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:f82ec0ca-9214-4355-9121-3560c7207055",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:387fa6ab-cfea-4e35-9600-4ddb90ed882b",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:387fa6ab-cfea-4e35-9600-4ddb90ed882b",
+      "matched_terms": [
+        "author:user",
+        "shared context"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
