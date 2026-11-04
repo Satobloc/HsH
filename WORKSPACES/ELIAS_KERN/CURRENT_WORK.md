@@ -406,3 +406,16 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - No physical calculation, theory promotion, paper-gate advancement, task/ID/schedule/phase change, sixth task, signet or chat rename.
 
 **Next cursor:** verify issue #1318 publisher receipt and independent artifact readback; preserve the existing Track B disposition gate before any Track A implementation.
+
+## 2026-11-04T2224Z — same-occurrence scheduler timestamp re-observation
+
+- Run key `REVROT3-19-20261011:598:s2`; deterministic Elias Kern label, not authenticated historical-thread participation. Existing report and base receipt were reused; no duplicate report was created.
+- Current :24 connector observation: same run ID `162408a5-e3f8-8326-9af4-12b5503ee167`, same scheduled slot 22:24Z, but `started_at=23:09:34.773575Z`; status remains `in_progress`, `completed_at=null`, `chat_ref=null`. This is 16m23.958212s later than the 22:53:10.815363Z observation and 44m08.254896s later than the original 22:25:26.518679Z snapshot. No distinct attempt token is exposed; do not infer a retry/restart or worker nonresponse.
+- `latest_result` still belongs to prior h597 / 21:24Z run `01c8a167-82cc-832f-93d0-5c7070d80f0e`; its completion predates the current start by 1h19m22.007893s. It is not attributed to h598.
+- Existing PR #951 rechecked: open/draft/unmerged; current target module blob matches the successful merge-ref run #41927936410. Exact-head-only verification remains absent and PR base metadata still disagrees with the base used by the merge-ref checkout. No code or PR change.
+- Sable inbox contains the optional EvidenceLedger disposition request, but no independent response; Track B review remains pending. No EvidenceLedger implementation or production change.
+- Nadir optional handoff blob is retrievable and its inbox pointer is present, but the recorded default-branch packet path returned 404. The packet is for Nadir's next expected h617:s3 appearance, not the already completed h598:s3 run. Repository routing only; no ChatGPT-thread delivery or consumption claim.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 941–980; next cursor 981. FIE last full review October 27; next due November 10.
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2224Z_s2_elias_kern_AMENDMENT_02.md`. No physical/CODATA work, theory promotion, paper advancement, task/ID/schedule/phase change, new branch/PR, or sixth task.
+
+**Next cursor:** await independent Track B disposition before any EvidenceLedger implementation; keep PR #951 draft/open/unmerged; preserve the distinction between occurrence ID, unavailable attempt identity, and prior latest_result.
