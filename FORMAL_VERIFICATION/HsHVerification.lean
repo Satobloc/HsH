@@ -22,6 +22,7 @@ import HsHVerification.AriadneBranchProjectionGate
 import HsHVerification.AriadneCODATARecoilClosure
 import HsHVerification.AriadneClaimScopedLineage
 import HsHVerification.AriadneArtifactTypeGate
+import HsHVerification.AriadneSimulationProvenanceGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
