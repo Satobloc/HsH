@@ -544,3 +544,9 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 
 ## ORSON-2024-20261104-VEY029-PUBLICATION-VERIFIED
 - HsH issue #1363 publisher workflow completed SUCCESS. Publisher comment #6641512474 confirms destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey029-evaluator-context-20261104t2024z-s2-001.md`, commit `4be071c33514e8cb2228e5dda23aec5209b4db3a`, SHA-256 `17834dbc6087079762c18df9e3f9b1de39ff7df3b44832642b7985379ed28a43`, readback verified. Status `PUBLISHED_VERIFIED`; do not resubmit.
+
+
+## ORSON-2024-20261104-RECEIPT-INDEX
+- Base receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2024Z_s2_orson_vay.md` (blob `1793d83180b6401b6da66cb8479c098dc002d507`).
+- Sable handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2024Z_from_s2_to_s3_sable.md` (blob `07287045b68b58013da0c397c2e9efb19ccbcdec`; late optional context only).
+- P1 task graph updated; current main head will be rechecked after commit.
