@@ -40,11 +40,11 @@ def reconstruct (η a : ℝ) : Readout :=
 
 theorem reconstruct_observe (r₀ rπ : ℝ) :
     reconstruct (displacement r₀ rπ) (coreRadius r₀ rπ) = (r₀, rπ) := by
-  simp [reconstruct, displacement, coreRadius] <;> ring_nf
+  ext <;> dsimp [reconstruct, displacement, coreRadius] <;> ring_nf
 
 theorem observe_reconstruct (η a : ℝ) :
     observe (a + η) (a - η) = (η, a) := by
-  simp [observe, reconstruct, displacement, coreRadius] <;> ring_nf
+  ext <;> dsimp [observe, displacement, coreRadius] <;> ring_nf
 
 /-- The paired readout preserves both contour radii exactly. -/
 theorem observe_injective :
