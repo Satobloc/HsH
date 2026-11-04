@@ -105,3 +105,15 @@ Next cursor:
 - The proof is now oriented as follows: retain `hEq : readout (1+2) = readout 1` from `antipodalModeReadout_two_step`, then pass `hEq.symm` to injectivity for the ordered pair `(1,3)`. This matches the required function-equality direction.
 - New existing-branch commit: `9725a202547bfa5533e8769ff770179b6b583d21`.
 - New exact-head run: #41894452394, job 126800130144, run number 989. At this amendment, the run had started and was IN_PROGRESS; checkout identity, dependency manifest and Lean compilation had not yet been verified. Status remains SUBMITTED_NOT_VERIFIED. Do not create another run or claim proof success until this exact head is checked.
+
+
+## 9. CI follow-up 02
+
+For head `9725a202547bfa5533e8769ff770179b6b583d21`, run #41894452394/job 126800130144:
+- checkout completed;
+- exact source-checkout identity assertion PASS;
+- Lake dependency-manifest generation remains IN_PROGRESS;
+- Lean compilation has not started;
+- no theorem-specific axiom result exists for this head yet.
+
+Current disposition remains SUBMITTED_NOT_VERIFIED. The exact run ID and head are carried forward; do not dispatch a duplicate run.
