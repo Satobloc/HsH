@@ -199,6 +199,34 @@ theorem antipodalModeReadout_not_injective (a₀ ε φ : ℝ) :
   exact hne (hinj (by simpa using hEq.symm))
 
 #print axioms antipodalModeReadout_two_step
+
+
+/-- Any deterministic downstream classifier preserves the m ↔ m+2 alias. -/
+theorem downstreamModeClassifier_two_step
+    (m : ℕ) (a₀ ε φ : ℝ) {α : Type}
+    (classify : Readout → α) :
+    classify (antipodalModeReadout (m + 2) a₀ ε φ) =
+      classify (antipodalModeReadout m a₀ ε φ) := by
+  exact congrArg classify (antipodalModeReadout_two_step m a₀ ε φ)
+
+/-- No deterministic classifier of the two antipodal scalars is injective
+on the finite mode set {0,1,2,3}; a downstream function cannot restore the
+m=1 versus m=3 distinction after the upstream readout has aliased it. -/
+theorem downstreamModeClassifier_not_injective
+    (a₀ ε φ : ℝ) {α : Type} (classify : Readout → α) :
+    ¬ Function.Injective
+      (fun n : Fin 4 => classify (antipodalModeReadout n.val a₀ ε φ)) := by
+  intro hinj
+  have hEq :
+      (fun n : Fin 4 => classify (antipodalModeReadout n.val a₀ ε φ)) 3 =
+      (fun n : Fin 4 => classify (antipodalModeReadout n.val a₀ ε φ)) 1 := by
+    simpa using downstreamModeClassifier_two_step 1 a₀ ε φ classify
+  have hne : (1 : Fin 4) ≠ 3 := by decide
+  exact hne (hinj hEq.symm)
+
+#print axioms downstreamModeClassifier_two_step
+#print axioms downstreamModeClassifier_not_injective
+
 #print axioms antipodalModeReadout_not_injective
 
 end
