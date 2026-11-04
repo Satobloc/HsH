@@ -504,3 +504,10 @@ At 07:26:45Z the enabled :24 task's `last_run` pointer had advanced to h583, run
 This is an observed out-of-order scheduler pointer/overlap anomaly. It is not evidence of a schedule change. No task, ID, schedule, phase, enabled state, or worker assignment was altered. Do not disable the recurring task on this evidence alone. The existing Sable→Loom packet was already consumed by Loom; no new handoff or cross-thread delivery claim is made.
 
 The source-identifier correction is in `2026-11-04T0720Z_s2_sable_RECONCILIATION_CORRECTION_01.md`; use its SHA-256 and exact user-message UUIDs, not the erroneous identifiers in the first retry receipt. The corrected CODATA note remains at blob SHA-1 `acc223a040fb3eaa760d0079c30914ff161145e4`.
+
+
+## 2026-11-04T0733Z — FSU 2026 DOI citation correction
+
+Correction 03 is recorded at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0733Z_s2_sable_RECONCILIATION_CORRECTION_03.md`. The He-4 addendum's final bibliography line had an incorrect APS URL; the article body already carried the correct DOI. The final source link is now the official APS record for DOI `10.1103/xzmk-r533`, published 2026-07-28. The corrected note was read back at Git blob SHA-1 `d1472bd6406646efc4824e8fe841d990967bec94`; readback match: PASS. This supersedes the earlier note pointer `acc223a040fb3eaa760d0079c30914ff161145e4`.
+
+No measurement value, uncertainty, CODATA source, or physical conclusion changed.
