@@ -1,0 +1,619 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "fb6831ad0bff2d2b486a18c23fb712b4d8ef477c1860b863c86dd6e45effa1f2",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-04T02:51:03.813641+00:00",
+  "query": "(author:user AND ((filament NEAR/12 worldtube) OR (timesheet NEAR/12 filament) OR (\"time surface\" NEAR/12 filament) OR \"one helical core\" OR \"hollow outer coil\" OR (worldtube NEAR/12 inertia) OR \"moving 3D bulk\")) OR ((path:*SAT4D* OR path:*SAT*O1* OR path:*BLOCKWAVE* OR path:*Blockwave*) AND (filament OR worldtube OR timesheet OR \"two-form current\" OR V_tension OR \"gamma^mu\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 16975,
+    "records_scanned": 21040357,
+    "hits": 3913
+  },
+  "counted_hits": 3913,
+  "distinct_sources": 307,
+  "results_by_root": {
+    "archive": 1752,
+    "hsh-main": 2149,
+    "resources": 12
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "filament",
+      3463
+    ],
+    [
+      "path:*SAT4D*",
+      2178
+    ],
+    [
+      "path:*Blockwave*",
+      992
+    ],
+    [
+      "path:*BLOCKWAVE*",
+      992
+    ],
+    [
+      "timesheet",
+      662
+    ],
+    [
+      "author:user",
+      606
+    ],
+    [
+      "time surface",
+      468
+    ],
+    [
+      "inertia",
+      181
+    ],
+    [
+      "worldtube",
+      176
+    ],
+    [
+      "path:*SAT*O1*",
+      155
+    ],
+    [
+      "gamma^mu",
+      154
+    ],
+    [
+      "V_tension",
+      24
+    ],
+    [
+      "two-form current",
+      22
+    ],
+    [
+      "one helical core",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.22•Blockwave Lagrangian formula — raw.json",
+      "title": "Blockwave Lagrangian formula",
+      "record_count": 47,
+      "best_score": 99,
+      "first_hit_index": 118,
+      "sample_hit_index": 160,
+      "locator": "message:10630232-92bd-4d8c-840f-3eefad4805a3",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory overview — raw.json",
+      "title": "Blockwave Theory overview",
+      "record_count": 10,
+      "best_score": 94,
+      "first_hit_index": 61,
+      "sample_hit_index": 71,
+      "locator": "message:a18efd8b-926c-477c-879b-9a3a4aaa31b5",
+      "matched_terms": [
+        "filament",
+        "time surface",
+        "inertia",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/BLOCKWAVE.txt",
+      "title": "BLOCKWAVE",
+      "record_count": 531,
+      "best_score": 88,
+      "first_hit_index": 2976,
+      "sample_hit_index": 3070,
+      "locator": "line:17791",
+      "matched_terms": [
+        "filament",
+        "timesheet",
+        "time surface",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/ORSON_VAY/2026-11-02T0000Z_NATHAN_DIRECT_GEOMETRY_PREHISTORY_AND_BLOCKWAVE_FIDELITY.md",
+      "title": "2026-11-02T0000Z_NATHAN_DIRECT_GEOMETRY_PREHISTORY_AND_BLOCKWAVE_FIDELITY",
+      "record_count": 47,
+      "best_score": 88,
+      "first_hit_index": 3808,
+      "sample_hit_index": 3811,
+      "locator": "line:13",
+      "matched_terms": [
+        "filament",
+        "timesheet",
+        "time surface",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-003.md",
+      "title": "kestrel-one-core-finite-core-sat4d-blockwave-crosswalk-20261102t2200z-s0-003",
+      "record_count": 17,
+      "best_score": 87,
+      "first_hit_index": 3712,
+      "sample_hit_index": 3725,
+      "locator": "line:81",
+      "matched_terms": [
+        "path:*SAT4D*",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*",
+        "two-form current"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Blockwave Theory Redubbed — raw.json",
+      "title": "Blockwave Theory Redubbed",
+      "record_count": 11,
+      "best_score": 86,
+      "first_hit_index": 51,
+      "sample_hit_index": 57,
+      "locator": "message:f975663b-dcb1-4294-89a2-b6f55827cbff",
+      "matched_terms": [
+        "filament",
+        "time surface",
+        "inertia",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt",
+      "title": "🧱BLOCKWAVE",
+      "record_count": 18,
+      "best_score": 83,
+      "first_hit_index": 3643,
+      "sample_hit_index": 3656,
+      "locator": "line:81",
+      "matched_terms": [
+        "filament",
+        "path:*BLOCKWAVE*",
+        "path:*Blockwave*",
+        "two-form current"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.05•26.10.11•Meridian Free Build — raw.json",
+      "title": "Meridian Free Build",
+      "record_count": 4,
+      "best_score": 83,
+      "first_hit_index": 703,
+      "sample_hit_index": 707,
+      "locator": "message:5a929b5e-515e-4f77-a32a-e49feef42812",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "worldtube",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "title": "Meridian Free Build",
+      "record_count": 4,
+      "best_score": 83,
+      "first_hit_index": 704,
+      "sample_hit_index": 708,
+      "locator": "message:5a929b5e-515e-4f77-a32a-e49feef42812",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "worldtube",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.30•Exploring inspiration together — raw.json",
+      "title": "Exploring inspiration together",
+      "record_count": 5,
+      "best_score": 82,
+      "first_hit_index": 178,
+      "sample_hit_index": 180,
+      "locator": "message:779b416f-77b4-4877-9355-1edc6929e52d",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.30•Exploring inspiration together — raw.json",
+      "title": "Exploring inspiration together",
+      "record_count": 5,
+      "best_score": 82,
+      "first_hit_index": 179,
+      "sample_hit_index": 181,
+      "locator": "message:779b416f-77b4-4877-9355-1edc6929e52d",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Paper Restructuring Plan — raw.json",
+      "title": "Paper Restructuring Plan",
+      "record_count": 2,
+      "best_score": 82,
+      "first_hit_index": 502,
+      "sample_hit_index": 502,
+      "locator": "message:7ff2aeb9-0d22-4b19-9991-9e2df7563873",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.21•26.03.21•Paper Restructuring Plan — raw.json",
+      "title": "Paper Restructuring Plan",
+      "record_count": 2,
+      "best_score": 82,
+      "first_hit_index": 503,
+      "sample_hit_index": 503,
+      "locator": "message:7ff2aeb9-0d22-4b19-9991-9e2df7563873",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 82,
+      "first_hit_index": 411,
+      "sample_hit_index": 411,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 4,
+      "best_score": 76,
+      "first_hit_index": 604,
+      "sample_hit_index": 618,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "worldtube",
+        "timesheet",
+        "time surface"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 26,
+      "best_score": 74,
+      "first_hit_index": 416,
+      "sample_hit_index": 476,
+      "locator": "message:0884e056-1434-4835-b978-77f0168d61b2",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 6,
+      "best_score": 74,
+      "first_hit_index": 310,
+      "sample_hit_index": 322,
+      "locator": "message:15c3bf7f-a50e-4393-88ed-e6f24b71b46f",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 4,
+      "best_score": 74,
+      "first_hit_index": 385,
+      "sample_hit_index": 391,
+      "locator": "message:f11275ae-5ca5-4834-a4d7-d861b85cec43",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 3,
+      "best_score": 74,
+      "first_hit_index": 566,
+      "sample_hit_index": 566,
+      "locator": "message:e1d47786-b19f-4445-9a35-2d487482e02e",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Scientific Paper Review — raw.json",
+      "title": "Scientific Paper Review",
+      "record_count": 1,
+      "best_score": 74,
+      "first_hit_index": 500,
+      "sample_hit_index": 500,
+      "locator": "message:3d4e3a49-fa0a-4dff-9a5a-349e092ef67d",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physics Theory Sandbox — raw.json",
+      "title": "Physics Theory Sandbox",
+      "record_count": 6,
+      "best_score": 67,
+      "first_hit_index": 399,
+      "sample_hit_index": 401,
+      "locator": "message:44668f13-3774-4d25-ab8c-ff459f549f59",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometric Foundations Evaluation2 — raw.json",
+      "title": "Geometric Foundations Evaluation",
+      "record_count": 2,
+      "best_score": 67,
+      "first_hit_index": 581,
+      "sample_hit_index": 581,
+      "locator": "message:001569bf-984b-4f54-8b51-1a1bc8077f6f",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "timesheet",
+        "time surface"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reddit OCR Analysis — raw.json",
+      "title": "Reddit OCR Analysis",
+      "record_count": 4,
+      "best_score": 66,
+      "first_hit_index": 508,
+      "sample_hit_index": 510,
+      "locator": "message:dd688541-7009-4966-9703-1aab5bdcf4a1",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface",
+        "gamma^mu"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 4,
+      "best_score": 65,
+      "first_hit_index": 655,
+      "sample_hit_index": 670,
+      "locator": "message:5c9cb829-da23-447b-8027-27deac0d1069",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface",
+        "inertia"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "locator": "message:aaa26d2f-c779-44b2-800a-b20f28e40a09",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:a9c07350-ca0d-4e02-ae63-4c2438de99de",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:a9c07350-ca0d-4e02-ae63-4c2438de99de",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:c3dd1bb3-1dbd-43d0-ba9d-4950476fa688",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:c3dd1bb3-1dbd-43d0-ba9d-4950476fa688",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:7c07fc45-a915-4e6a-a5ed-7562cf88869f",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:7c07fc45-a915-4e6a-a5ed-7562cf88869f",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:46a69ad5-3c4d-4139-a7f3-9ed17e4306df",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "time surface"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
