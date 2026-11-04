@@ -50,12 +50,12 @@ def columnTotal (μ : ℝ) (a b : Family → ℝ)
   ∑ j : Family, cell μ a b γ j c
 
 /-- Diagonal cell minus the mean of the other three judge-family cells in its row. -/
-def rowContrast (μ : ℝ) (a b : Family → ℝ)
+noncomputable def rowContrast (μ : ℝ) (a b : Family → ℝ)
     (γ : Family → Family → ℝ) (f : Family) : ℝ :=
   cell μ a b γ f f - (rowTotal μ a b γ f - cell μ a b γ f f) / 3
 
 /-- Diagonal cell minus the mean of the other three candidate-family cells in its column. -/
-def columnContrast (μ : ℝ) (a b : Family → ℝ)
+noncomputable def columnContrast (μ : ℝ) (a b : Family → ℝ)
     (γ : Family → Family → ℝ) (f : Family) : ℝ :=
   cell μ a b γ f f - (columnTotal μ a b γ f - cell μ a b γ f f) / 3
 
@@ -72,7 +72,6 @@ theorem rowTotal_eq_two
       cell μ a b γ j c = (1 / 2 + b c) + γ j c := by
     unfold cell
     rw [hMean j]
-    ring
   unfold rowTotal
   calc
     (∑ c : Family, cell μ a b γ j c) =
@@ -102,7 +101,6 @@ theorem columnTotal_eq_two_add_four_candidate
       cell μ a b γ j f = (1 / 2 + b f) + γ j f := by
     unfold cell
     rw [hMean j]
-    ring
   unfold columnTotal
   calc
     (∑ j : Family, cell μ a b γ j f) =
@@ -129,7 +127,6 @@ theorem rowContrast_eq_candidate_plus_interaction
   have hDiag : cell μ a b γ f f = (1 / 2 + b f) + γ f f := by
     unfold cell
     rw [hMean f]
-    ring
   unfold rowContrast
   rw [hDiag, rowTotal_eq_two μ a b γ hMean hB hGammaRow f]
   ring
@@ -144,7 +141,6 @@ theorem columnContrast_eq_diagonal_interaction
   have hDiag : cell μ a b γ f f = (1 / 2 + b f) + γ f f := by
     unfold cell
     rw [hMean f]
-    ring
   unfold columnContrast
   rw [hDiag, columnTotal_eq_two_add_four_candidate
     μ a b γ hMean hGammaColumn f]
