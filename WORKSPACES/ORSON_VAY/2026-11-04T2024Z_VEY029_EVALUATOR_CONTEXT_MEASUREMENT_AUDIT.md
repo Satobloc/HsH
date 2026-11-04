@@ -136,3 +136,8 @@ The :36 successor task is already recorded in progress:
 The :24 task remains enabled with the same task ID, exact hourly schedule, phase and prompt. The current :24 run is `452d7a98-3f20-8324-8be2-851fff1f1742`, scheduled 20:24Z, started 20:20:20Z, still recorded in progress, `chat_ref=null`. The displayed `latest_result` remains an older Tern run and is not attributed to this execution.
 
 No sixth task, task modification, schedule change, phase change, signet change, or chat rename.
+
+
+## Publication verification addendum — 2026-11-04T20:37Z
+
+HsH issue #1363 completed the existing publisher workflow successfully. Publisher comment #6641512474 confirms the fixed destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey029-evaluator-context-20261104t2024z-s2-001.md`, commit `4be071c33514e8cb2228e5dda23aec5209b4db3a`, SHA-256 `17834dbc6087079762c18df9e3f9b1de39ff7df3b44832642b7985379ed28a43`, and readback verified. Status: `PUBLISHED_VERIFIED`. No resubmission or duplicate artifact.
