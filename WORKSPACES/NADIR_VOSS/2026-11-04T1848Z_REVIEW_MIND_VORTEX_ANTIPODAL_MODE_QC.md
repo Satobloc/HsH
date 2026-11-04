@@ -97,3 +97,11 @@ Next cursor:
 5. route the result to the P2 owner for review; do not edit the shared task graph or advance P2 unilaterally;
 6. keep Orson's P1 and the three paper gates separate.
 
+
+
+## 8. CI follow-up (additive correction)
+
+- Corrected head `997f0ebba6e9152a84a3c857408b4c9ee7d2e0b8`, run #41893699165, completed FAILURE. The first theorem `antipodalModeReadout_two_step` compiled. The non-injectivity proof still had the equality reversal in the wrong location: `.symm` had been placed on the witness declaration rather than on the equality passed to `hinj`. The theorem's axiom report therefore included `sorryAx`; that failed declaration is not accepted as a proof.
+- The proof is now oriented as follows: retain `hEq : readout (1+2) = readout 1` from `antipodalModeReadout_two_step`, then pass `hEq.symm` to injectivity for the ordered pair `(1,3)`. This matches the required function-equality direction.
+- New existing-branch commit: `9725a202547bfa5533e8769ff770179b6b583d21`.
+- New exact-head run: #41894452394, job 126800130144, run number 989. At this amendment, the run had started and was IN_PROGRESS; checkout identity, dependency manifest and Lean compilation had not yet been verified. Status remains SUBMITTED_NOT_VERIFIED. Do not create another run or claim proof success until this exact head is checked.
