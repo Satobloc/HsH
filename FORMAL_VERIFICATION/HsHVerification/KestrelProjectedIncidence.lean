@@ -271,3 +271,69 @@ theorem noninjective_readout_has_indistinguishable_pair
 
 
 end HsHVerification.KestrelProjectedIncidence
+
+
+/-!
+## Local nuisance-range identifiability
+
+This extends exact global fiber-compatibility with a local linearized
+criterion. At a declared calibration point, let Jgeom map geometry
+parameter perturbations into observable perturbations and Jnuis map
+standard nuisance perturbations into the same observable tangent space.
+
+If every geometry sensitivity lies in the nuisance range, every
+first-order geometry effect can be canceled by a nuisance perturbation.
+If not, at least one geometry direction has a first-order component
+outside the nuisance response range.
+
+This is only a theorem about linear maps. The caller must supply
+source-grounded Jacobians, a declared parameter point, and a gauge-reduced
+tangent-space convention. It does not compute a Jacobian, include
+measurement covariance, establish practical detectability, or validate
+any physical H(s)H map.
+-/
+
+namespace HsHVerification.KestrelProjectedIncidence
+
+variable {R V W N : Type*}
+  [Field R]
+  [AddCommGroup V] [Module R V]
+  [AddCommGroup W] [Module R W]
+  [AddCommGroup N] [Module R N]
+
+/-- Every geometry-parameter sensitivity is locally absorbable by
+some nuisance-parameter sensitivity. -/
+def NuisanceAbsorbable
+    (Jgeom : V →ₗ[R] W) (Jnuis : N →ₗ[R] W) : Prop :=
+  ∀ v, Jgeom v ∈ LinearMap.range Jnuis
+
+/-- Local nuisance absorption is exactly inclusion of the geometry
+sensitivity range in the nuisance sensitivity range. -/
+theorem nuisance_absorbable_iff_range_le
+    (Jgeom : V →ₗ[R] W) (Jnuis : N →ₗ[R] W) :
+    NuisanceAbsorbable Jgeom Jnuis ↔
+      LinearMap.range Jgeom ≤ LinearMap.range Jnuis := by
+  constructor
+  · intro h y hy
+    rcases hy with ⟨v, rfl⟩
+    exact h v
+  · intro h v
+    exact h ⟨v, rfl⟩
+
+/-- If not every geometry sensitivity is nuisance-absorbable, at
+least one geometry direction has a first-order observable component
+outside the nuisance response range. -/
+theorem exists_locally_separating_geometry_direction
+    (Jgeom : V →ₗ[R] W) (Jnuis : N →ₗ[R] W)
+    (h : ¬ NuisanceAbsorbable Jgeom Jnuis) :
+    ∃ v, Jgeom v ∉ LinearMap.range Jnuis := by
+  by_contra h'
+  apply h
+  intro v
+  by_contra hv
+  exact h' ⟨v, hv⟩
+
+#print axioms nuisance_absorbable_iff_range_le
+#print axioms exists_locally_separating_geometry_direction
+
+end HsHVerification.KestrelProjectedIncidence
