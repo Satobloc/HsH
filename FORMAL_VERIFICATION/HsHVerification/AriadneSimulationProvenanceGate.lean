@@ -157,6 +157,43 @@ theorem independent_validation_requires_independent_origin
     ⟨_, _, _, _, hIndependent, hDisjoint⟩
   exact ⟨hIndependent, hDisjoint⟩
 
+/-- Executable Boolean counterpart of the proposition above. -/
+def supportsBool (e : SimulationEvidence) (claim : SimulationClaim) : Bool :=
+  match claim with
+  | .narrativeContent =>
+      if e.kind = .derivativeNarrative then
+        e.sourceLocatorVerified && e.gitBlobIdVerified && e.sourceContentRead
+      else false
+  | .modelConfiguration =>
+      if e.kind = .modelSpecification then
+        e.modelIdentityVerified && e.modelVersionVerified &&
+          e.promptDigestVerified && e.stateDigestVerified
+      else false
+  | .executionOutput =>
+      if e.kind = .generatedOutput then
+        e.modelIdentityVerified && e.modelVersionVerified &&
+          e.promptDigestVerified && e.stateDigestVerified &&
+          e.runtimeVersionVerified && e.executionTimestampVerified &&
+          e.outputDigestVerified
+      else false
+  | .targetBehavior =>
+      if e.kind = .humanObservation then
+        e.subjectIdentityVerified && e.observationProtocolVerified &&
+          e.acquisitionProvenanceVerified
+      else false
+  | .independentValidation =>
+      if e.kind = .humanObservation then
+        e.subjectIdentityVerified && e.observationProtocolVerified &&
+          e.acquisitionProvenanceVerified && e.independentAcquisitionVerified &&
+          e.disjointPrimaryOriginVerified
+      else false
+
+/-- The executable readout agrees with the claim predicate for every record. -/
+theorem supportsBool_correct (e : SimulationEvidence) (claim : SimulationClaim) :
+    supports e claim ↔ supportsBool e claim = true := by
+  cases claim <;> cases h : e.kind <;>
+    simp [supports, supportsBool, h]
+
 /-!
 Source-specific audit record. The January 21 SRT is a located, blob-identified,
 read transcript of derivative narration. It does not supply a verified
@@ -183,7 +220,7 @@ def jan21PodcastTranscript : SimulationEvidence :=
     disjointPrimaryOriginVerified := false }
 
 theorem jan21_transcript_supports_narrative_content :
-    supports jan21PodcastTranscript .narrativeContent := by decide
+    supports jan21PodcastTranscript .narrativeContent := by simp [supports, jan21PodcastTranscript]
 
 theorem jan21_transcript_does_not_identify_model :
     ¬ supports jan21PodcastTranscript .modelConfiguration := by decide
@@ -197,12 +234,13 @@ theorem jan21_transcript_does_not_establish_target_behavior :
 theorem jan21_transcript_is_not_independent_validation :
     ¬ supports jan21PodcastTranscript .independentValidation := by decide
 
-#eval decide (supports jan21PodcastTranscript .narrativeContent)
-#eval decide (supports jan21PodcastTranscript .modelConfiguration)
-#eval decide (supports jan21PodcastTranscript .executionOutput)
-#eval decide (supports jan21PodcastTranscript .targetBehavior)
-#eval decide (supports jan21PodcastTranscript .independentValidation)
+#eval supportsBool jan21PodcastTranscript .narrativeContent
+#eval supportsBool jan21PodcastTranscript .modelConfiguration
+#eval supportsBool jan21PodcastTranscript .executionOutput
+#eval supportsBool jan21PodcastTranscript .targetBehavior
+#eval supportsBool jan21PodcastTranscript .independentValidation
 
+#print axioms supportsBool_correct
 #print axioms generated_output_cannot_support_target_behavior
 #print axioms derivative_narrative_cannot_support_model_configuration
 #print axioms execution_output_requires_complete_run_tuple
