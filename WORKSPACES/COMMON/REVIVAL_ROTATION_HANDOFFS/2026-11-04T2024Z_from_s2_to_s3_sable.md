@@ -41,3 +41,7 @@ Repository packet and inbox pointer only. No Sable ChatGPT-thread delivery, cons
 
 ## Publication verification addendum — 2026-11-04T20:37Z
 HsH publisher issue #1363 completed SUCCESS. Comment #6641512474 confirms the fixed destination, publisher commit `4be071c33514e8cb2228e5dda23aec5209b4db3a`, SHA-256 `17834dbc6087079762c18df9e3f9b1de39ff7df3b44832642b7985379ed28a43`, and readback verified. Status `PUBLISHED_VERIFIED`; no resubmission. Repository-only optional context remains late; no Sable-thread delivery or acknowledgment claimed.
+
+
+## Receipt index addendum
+Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2024Z_s2_orson_vay.md` (blob `1793d83180b6401b6da66cb8479c098dc002d507`). This packet remains late optional context only; no thread delivery or acknowledgment is claimed.
