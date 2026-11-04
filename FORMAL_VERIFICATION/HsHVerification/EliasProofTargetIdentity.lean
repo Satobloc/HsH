@@ -420,31 +420,33 @@ def geometryLatestResult : AutomationResultObservation :=
 
 theorem worldtube_latest_result_not_current :
     ¬ resultAcceptedForAttempt worldtubeCurrentAttempt worldtubeLatestResult := by
-  decide
+  exact in_progress_attempt_rejects_result
+    worldtubeCurrentAttempt worldtubeLatestResult rfl
 
 theorem geometry_latest_result_not_current :
     ¬ resultAcceptedForAttempt geometryCurrentAttempt geometryLatestResult := by
-  decide
+  exact failed_attempt_rejects_result
+    geometryCurrentAttempt geometryLatestResult rfl
 
-/-- Actual record replay: false means the displayed latest result does not
-    belong to the current scheduled occurrence/attempt under this contract. -/
-#eval decide (resultMatchesScheduledOccurrence
-  worldtubeCurrentAttempt.identity worldtubeLatestResult.identity)
-#eval decide (resultTemporallyCompatibleWithAttempt
-  { occurrence := worldtubeCurrentAttempt.identity
-    startedAt := worldtubeCurrentAttempt.startedAtUnixMicros }
-  { occurrence := worldtubeLatestResult.identity
-    createdAt := worldtubeLatestResult.createdAtUnixMicros })
-#eval decide (resultAcceptedForAttempt worldtubeCurrentAttempt worldtubeLatestResult)
+/-- The String equality used by the occurrence contract is proved through
+    its executable character-list representation; no classical equality
+    decision is introduced. -/
+theorem string_ne_of_toList_ne {a b : String}
+    (h : a.toList ≠ b.toList) : a ≠ b := by
+  intro hEq
+  exact h (congrArg String.toList hEq)
 
-#eval decide (resultMatchesScheduledOccurrence
-  geometryCurrentAttempt.identity geometryLatestResult.identity)
-#eval decide (resultTemporallyCompatibleWithAttempt
-  { occurrence := geometryCurrentAttempt.identity
-    startedAt := geometryCurrentAttempt.startedAtUnixMicros }
-  { occurrence := geometryLatestResult.identity
-    createdAt := geometryLatestResult.createdAtUnixMicros })
-#eval decide (resultAcceptedForAttempt geometryCurrentAttempt geometryLatestResult)
+/-- Actual record replay. These #evals check concrete character-list and
+    timestamp comparisons, while the Prop-level rejection theorems below
+    are proved constructively from the corresponding mismatch/status lemmas. -/
+#eval decide (worldtubeLatestResult.identity.scheduledFor.toList =
+  worldtubeCurrentAttempt.identity.scheduledFor.toList)
+#eval decide (worldtubeLatestResult.createdAtUnixMicros <
+  worldtubeCurrentAttempt.startedAtUnixMicros)
+#eval decide (geometryLatestResult.identity.scheduledFor.toList =
+  geometryCurrentAttempt.identity.scheduledFor.toList)
+#eval decide (geometryLatestResult.createdAtUnixMicros <
+  geometryCurrentAttempt.startedAtUnixMicros)
 
 #print axioms missing_attempt_token_rejects_result
 #print axioms in_progress_attempt_rejects_result
@@ -478,7 +480,21 @@ def geometryLatestResultH598 : AutomationResultObservation :=
 
 theorem geometry_h598_latest_result_not_current :
     ¬ resultAcceptedForAttempt geometryCurrentAttemptH598 geometryLatestResultH598 := by
+  exact in_progress_attempt_rejects_result
+    geometryCurrentAttemptH598 geometryLatestResultH598 rfl
+
+theorem geometry_h598_scheduled_slot_diff :
+    geometryLatestResultH598.identity.scheduledFor ≠
+      geometryCurrentAttemptH598.identity.scheduledFor := by
+  apply string_ne_of_toList_ne
   decide
+
+theorem geometry_h598_latest_result_wrong_occurrence :
+    ¬ resultMatchesScheduledOccurrence
+      geometryCurrentAttemptH598.identity geometryLatestResultH598.identity := by
+  exact mismatched_scheduled_slot_rejects_occurrence_match
+    geometryCurrentAttemptH598.identity geometryLatestResultH598.identity
+    geometry_h598_scheduled_slot_diff
 
 theorem geometry_h598_latest_result_predates_attempt :
     ¬ resultTemporallyCompatibleWithAttempt
@@ -486,18 +502,17 @@ theorem geometry_h598_latest_result_predates_attempt :
         startedAt := geometryCurrentAttemptH598.startedAtUnixMicros }
       { occurrence := geometryLatestResultH598.identity
         createdAt := geometryLatestResultH598.createdAtUnixMicros } := by
+  apply result_created_before_attempt_cannot_belong
   decide
 
-#eval decide (resultMatchesScheduledOccurrence
-  geometryCurrentAttemptH598.identity geometryLatestResultH598.identity)
-#eval decide (resultTemporallyCompatibleWithAttempt
-  { occurrence := geometryCurrentAttemptH598.identity
-    startedAt := geometryCurrentAttemptH598.startedAtUnixMicros }
-  { occurrence := geometryLatestResultH598.identity
-    createdAt := geometryLatestResultH598.createdAtUnixMicros })
-#eval decide (resultAcceptedForAttempt geometryCurrentAttemptH598 geometryLatestResultH598)
+#eval decide (geometryLatestResultH598.identity.scheduledFor.toList =
+  geometryCurrentAttemptH598.identity.scheduledFor.toList)
+#eval decide (geometryLatestResultH598.createdAtUnixMicros <
+  geometryCurrentAttemptH598.startedAtUnixMicros)
 
 #print axioms geometry_h598_latest_result_not_current
+#print axioms geometry_h598_scheduled_slot_diff
+#print axioms geometry_h598_latest_result_wrong_occurrence
 #print axioms geometry_h598_latest_result_predates_attempt
 
 end HsHVerification.EliasProofTargetIdentity
