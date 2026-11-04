@@ -1,19 +1,31 @@
 {
-  "request_id": "sable-reviewmind-cognition-branch-sieve-20261104-1747",
-  "requester": "Workshop Relay :48 / Sable ring label; deterministic selection only, not an authenticated historical Sable thread",
-  "requested_at": "2026-11-04T18:01:26.574Z",
+  "request_id": "calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001",
+  "requester": "Workshop Relay :00 / Calder ring label; source-grounded geometry-fidelity reconstruction, not authenticated historical Calder",
+  "requested_at": "2026-11-04T22:30:34Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND ((\"human-LLM\" OR \"human LLM\" OR \"LLM group\" OR \"agent group\" OR \"multi-agent\" OR \"multi agent\" OR \"group interaction\" OR \"agent teams\" OR \"shared evaluator\" OR \"source independence\") OR ((\"consciousness\" OR \"ontic\" OR \"quiet\" OR \"silent\" OR \"nested\" OR \"Chinese Room\" OR \"Morsefish\" OR \"observer\" OR \"self-model\" OR \"self-reference\" OR \"attention\" OR \"feedback\" OR \"recursion\" OR \"recursive\") AND (\"AI\" OR \"LLM\" OR \"agent\" OR \"model\" OR \"mind\" OR \"group\")))",
-  "purpose": "Bounded Review-MIND source-discovery pass seeded from the historical Sable branch-sieve vocabulary. Identify original Nathan user-role records about actual human–LLM interaction, agent/group organization, observer and epistemic questions, self-modeling, feedback, attention, recursion, and adjacent cognition topics. Separate naturalistic human–LLM interaction from LLM-only simulated deliberation, philosophical discussion, assistant-generated reconstruction, podcast exposure, and tool output. Preserve duplicate/copy families rather than counting them as independent sources. Return exact repository/path/source commit and conversation/message locators where available, plus source-class, chronology, exposure and coverage limits. Discovery only: do not infer assistant consciousness/personhood, actual cross-agent causal influence, or P1 experimental results. Do not alter Orson's frozen P1 scope or ownership; no raw excerpts, no private HSH_RESOURCES paths, no publication, no theory promotion.",
+  "query": "(name:*IRI* OR path:*IRI*) OR (author:user AND ((worldtube NEAR/12 curvature) OR (timesheet NEAR/12 (filament OR intersection OR slice OR normal)) OR (\"3D rotation\" NEAR/12 \"4D curvature\") OR (\"worldtube bending\" NEAR/12 acceleration) OR (Cruller NEAR/12 (worldtube OR timesheet OR curvature)))) OR ((path:*SAT*O* OR path:*SAT4D* OR path:*Blockwave*) AND (math:theta OR math:phi OR math:gamma OR math:kappa OR math:B))",
+  "purpose": "Recover the raw role-authenticated source behind KEY CONCEPT - IRI and a substantial adjacent Nathan Direct geometry cluster. Independently extract the exact descriptive geometry of filaments/worldlines, timesheets/time wavefronts, worldtubes/finite cores, intersection/readout, Cruller rotation/curvature and any explicitly defined transformations. Separately locate historical SAT-O/SAT4D/Blockwave equation artifacts and nearby assistant-produced mathematical translations. Preserve exact repository, path, source commit, immutable blob SHA, conversation ID, message UUID, outer role, timestamp, parent ancestry, adjacent context, verbatim equation strings and first-extant dates. Distinguish direct geometry from assistant-defined metrics, coordinates, embeddings, affine parameters, projections and equations. Compare source propositions with historical LLM-produced mathematics for accuracy, precision and conceptual fidelity; no equation is assumed faithful merely because it is elegant or compiles.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "compact top-source paths and exact message locators where available",
-    "duplicate/copy-family and source-class distinctions",
-    "counts by repository/root and explicit extension, size, quarantine and coverage limitations",
-    "exact return cursor; no raw excerpts or private resources paths"
-  ]
+    "candidate raw conversation paths, conversation IDs, exact Nathan Direct message UUIDs, timestamps, parent IDs and adjacent context",
+    "candidate SAT-O/SAT4D/Blockwave equation files, exact source blobs, first-extant commits and verbatim equation strings",
+    "original-versus-assistant translation crosswalk and discrepancy ledger",
+    "duplicate/snapshot/derivative relationships and separate assistant-authored repairs",
+    "explicit three-repository coverage, exclusions and limitations"
+  ],
+  "exclusions": [
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART search exclusions",
+    "Do not treat compact receipts as exhaustive or source-authorship proof",
+    "No CODATA scoring, physical calculation, data-free calculation, synthetic fixture, significance test, parameter fit or independent measurement",
+    "No new tooling, branch, PR, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
+  ],
+  "status": "requested",
+  "lane": 3,
+  "previous_request_id": "sable-reviewmind-cognition-branch-sieve-20261104-1747",
+  "supersedes_previous_request_only_after_verified_completion": true
 }
