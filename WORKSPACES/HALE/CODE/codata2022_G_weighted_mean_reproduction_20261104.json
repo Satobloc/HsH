@@ -1,0 +1,26 @@
+{
+  "Birge_ratio_after_expansion": 0.9261079254853043,
+  "SI_standard_uncertainty": 1.4777604255294587e-15,
+  "SI_value": 6.674300395607055e-11,
+  "chi_square_after_expansion": 12.865138344700407,
+  "classification": "table-level reproduction of evaluated input measurements; not raw laboratory reanalysis",
+  "correlations": [
+    {"pair": ["NIST-82", "LANL-97"], "rho": 0.351},
+    {"pair": ["HUST-05", "HUST-09"], "rho": 0.134},
+    {"pair": ["HUST-09", "HUSTT-18"], "rho": 0.068}
+  ],
+  "degrees_of_freedom": 15,
+  "expanded_standard_uncertainty_table_units": 0.00014777604255294588,
+  "expansion_factor": 3.9,
+  "largest_residual_after_expansion": 1.9865455015137354,
+  "largest_residual_source": "BIPM-14",
+  "max_abs_normalized_residual_after_expansion": 1.9865455015137354,
+  "max_abs_normalized_residual_before_expansion": 7.747527455903568,
+  "measurement_count": 16,
+  "p_value_after_expansion": 0.612713855206544,
+  "relative_standard_uncertainty": 2.2141053562738995e-05,
+  "source": "CODATA 2022, Rev. Mod. Phys. 97, 025002 (2025), Table XXX",
+  "table_units": "1e-11 m^3 kg^-1 s^-2",
+  "unexpanded_standard_uncertainty_table_units": 3.7891292962293815e-05,
+  "weighted_mean_table_units": 6.674300395607055
+}
