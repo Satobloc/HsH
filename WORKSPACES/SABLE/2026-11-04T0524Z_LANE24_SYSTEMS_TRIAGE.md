@@ -58,30 +58,57 @@ The useful selection axes are separate: (a) geometric fidelity, (b) raw-data and
 | Kelvin-wave dispersion 2025 | Frequency/wavenumber points provide a dispersion observable, not a complete core geometry. | Six figure-level points; raw trajectories/video and joint frequency covariance are absent from the current record. Drive frequencies are experimental inputs. | Useful secondary dispersion check; not a blind prediction or geometric benchmark. See [#1312](https://github.com/Satobloc/HsH/issues/1312). |
 | GW170817 | Binary-neutron-star inspiral constrains tidal parameters through a waveform model. | Posterior files are listed publicly but have not been retrieved/reanalysed in this branch; the HsH geometry-to-tidal-response map is missing. | Existing astrophysical candidate, not a new selection. See [#1243](https://github.com/Satobloc/HsH/issues/1243). |
 | GW250114 | High-SNR black-hole ringdown offers a distinct remnant-waveform observable. | H1/L1 strain is listed, but no raw-strain/PSD/calibration reanalysis is present in the current record; the HsH worldtube-to-ringdown map is missing. | Existing astrophysical candidate, distinct from inspiral multipoles. See [#1289](https://github.com/Satobloc/HsH/issues/1289). |
-| GW241011 (new external screen only) | Asymmetric, high-spin black-hole inspiral; published parameterized analysis tests spin-induced quadrupole and octupole coefficients. | Public strain data are listed, but no raw strain or posterior-sample reanalysis was performed here. The 2026 parameterized analysis is a preprint and is waveform/prior dependent. | Complementary Kerr-multipole screen, not a P2 selection and not a direct core image. |
+| GW241011 (external finite-size comparator) | High-spin, asymmetric black-hole inspiral; primary spin-induced quadrupole measured, then compared with numerical boson-star and causal-limit fluid-star model families. | Peer-reviewed event paper and PRL model comparison; open model-curve repository. Raw strain/posterior samples were not reanalysed here; model files have no stability flags in the README. | Strongest current astrophysical finite-size/compactness comparator, but not a direct core image and not a P2 selection. |
 
-### GW241011 identifiability caution
+### GW241011: measured multipole, model-to-compactness map, and inverse ambiguity
 
-The LIGO/Virgo event GW241011 was detected on 2024-10-11. The event record reports H1 and Virgo observations, no Livingston observation, and network SNR 37. The published event analysis gives a high primary spin (χ₁ approximately 0.73 with a 90% interval of about 0.09) and an asymmetric mass ratio near 0.32.
-
-The 2026 preprint parameterizes the spin-induced moments in geometric units as
+**Measured event and original inference.** The peer-reviewed LIGO–Virgo–KAGRA event paper reports GW241011 with median network SNR 36.0, primary mass (19.6^{+3.6}_{-2.5}M_odot), mass ratio (q=0.30^{+0.09}_{-0.08}), and primary spin (chi_1=0.78^{+0.09}_{-0.09}). Its SIQM test reports
 [
-Q=-kappachi^2m^3,qquad O=-lambdachi^3m^4,
+deltakappa_1=0.10^{+0.82}_{-0.82},
+qquad
+deltakappa_s=0.10^{+0.09}_{-0.11}
 ]
-with Kerr values κ=λ=1. It uses an IMRPhenomXPHM waveform analysis. Simultaneously freeing both objects' quadrupole and octupole deviations is poorly informative, so the tighter symmetric combinations set the antisymmetric combinations to zero. Under the symmetric prior the reported 90% intervals are δκ_s = -0.6^{+1.6}_{-3.8} and δλ_s = -5.8^{+13.9}_{-45.6}; the positive-prior analysis reports upper bounds δκ_s ≤ 1.4 and δλ_s ≤ 11.2. The alternative one-body parameterization, with the secondary assumed Kerr, is extremely broad: δκ_1 = -9.1^{+12.1}_{-233.01} and δλ_1 = -33.8^{+403.3}_{-409.6}.
+for the symmetric combination under the explicit assumption (kappa_1=kappa_2). The secondary coefficient is uninformative. The primary-only and equal-component results are different inferential objects; the much tighter symmetric interval must not be presented as a primary-only bound. The event paper uses a modified IMRPhenomXPHM waveform with SIQM terms at 2PN and 3PN. No raw strain or posterior-sample reanalysis was performed in this run.
 
-The relevant identifiability algebra is
+**Peer-reviewed compactness follow-up.** Krishnendu et al., *Physical Review Letters* 137, 071402 (2026), use the primary's full two-dimensional ((kappa_1,chi_1)) 95% posterior isocontour to compare specific exotic-compact-object model families. Their conclusions are model-specific:
+- Repulsive boson-star families are excluded in the tested parameter ranges.
+- High-compactness solitonic stars with (Cgtrsim0.26) and axionic stars with (Csim0.3) can remain compatible.
+- For a causal-limit exotic-fluid-star EOS (P=epsilon-epsilon_s), uniformly rotating oblate configurations require (Cgtrsim0.24); more spherical configurations require (Cgtrsim0.34).
+- The constraints apply to the **primary of GW241011 only**. They do not rule out exotic compact objects in other systems. Tidal deformability, boson-star short-range interactions, and super-extremal spins are not included; several gravastar and scalarized-BH cases remain weakly constrained.
+
+This is a peer-reviewed finite-size/compactness test, not a direct reconstruction of the primary's interior. The paper itself emphasizes that the observable is one spin-induced multipole and that other finite-size effects are omitted.
+
+**Explicit standard GR geometry-to-multipole map.** The PRL supplement gives a concrete extraction route for stationary, axisymmetric numerical spacetimes in quasi-isotropic coordinates. With asymptotic metric coefficients (M,J,B_0,
+u_2), it obtains the Geroch–Hansen mass quadrupole
 [
-deltakappa_s=(deltakappa_1+deltakappa_2)/2,quad
-deltakappa_a=(deltakappa_1-deltakappa_2)/2,
+M_2=-
+u_2-rac13M^3-rac43B_0M,
 ]
-so (deltakappa_1=deltakappa_s+deltakappa_a). A bound on the symmetric projection alone does not bound the primary coefficient unless the antisymmetric component is fixed or independently constrained. The same applies to λ. This identity was checked symbolically; no new Lean proof was created.
+then
+[
+kappa_2=-rac{M_2}{chi^2M^3},
+qquad
+chi=rac{J}{M^2}.
+]
+The supplement gives the asymptotic metric expansion and angular integrals used to extract (
+u_2) and (B_0). For the boson-star numerical solutions it reports a 0.3–1.1% numerical error in (kappa), depending on compactness. This is a standard GR/reference extraction map, not an HsH equation. It supplies a concrete template for what an HsH forward map would need: a stationary-axisymmetric metric or equivalent invariant geometry, asymptotic coefficients, and a defined route to (M,J,M_2). The HsH source material presently supplies no such metric coefficients or transformation.
 
-This is a useful application target for the existing fiber-compatibility/identifiability mathematics, but the HsH forward map from a finite-core worldtube to κ/λ is absent. Low-order multipoles do not uniquely specify a core geometry without additional restrictions and observables.
+**Public theoretical model data and integrity check.** The paper's linked MIT-licensed repository `tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars` (main head `ea5abd9870c02d698a73f4c9ae593b6e0e89358b`) contains numerical model sequences with columns (omega,M,J,r_{99},r_{95},C,kappa). The README defines (r_{99}) as the areal radius enclosing 99% of the mass and describes (C) as compactness based on (r_{99}). A scripted check of three actual repository files verified (C=M/r_{99}) to a maximum absolute discrepancy of (5.56	imes10^{-17}):
+- `repulsive_lambda_150.dat`: 192 rows; subextremal (chi=J/M^2le0.99) filter leaves 161 rows.
+- `solitonic_sigma_0.1.dat`: 574 rows; the same simple spin filter leaves 100 rows.
+- `axionic_f_001.dat`: 586 rows; the same simple spin filter leaves 79 rows.
+
+Those are numerical model outputs, not measured data. The simple (chile0.99) filter is **not** the paper's stability filter; the files do not mark stable/unstable rows in the README, and the paper excludes unstable branches using its stated stability criteria. The raw sequences also contain super-extremal rows, outside the waveform model's stated (chiin[0,0.99]) range. The README does not specify a complete SI normalization for (M) and the radii. No model-to-observation numerical comparison was attempted. The numerical error quoted by the paper (0.3–1.1% in (kappa)) is model-solver error, not observational posterior uncertainty.
+
+**Separate higher-multipole preprint.** The April 2026 arXiv analysis `2604.09828` simultaneously explores SIQM and spin-induced octupole deviations. Its symmetric-parameter results and its much broader one-body alternative use a different parameterization/parameter set from the 2025 event paper and the 2026 PRL compactness analysis. Do not combine their posterior intervals. It remains a preprint in the source record checked here.
+
+**Identifiability consequence.** The observable map from a full stationary-axisymmetric geometry to ((M,J,M_2)), then to ((chi,kappa)), is a projection. The PRL comparison shows that several distinct model families can remain compatible with the same measured ((kappa_1,chi_1)) region. Thus (kappa) alone does not uniquely reconstruct an interior or worldtube. The HsH program would need an independently specified forward geometry-to-multipole map and additional observables or restrictions for the reverse map to become identifiable. The existing Kestrel fiber-compatibility formalization is relevant as a generic conditional theorem, but its PR is not a clean full build and it does not prove this physical map.
 
 Primary sources:
-- GWOSC event/data record: https://gwosc.org/eventapi/html/O4_Discovery_Papers/GW241011_233834/v1/
-- Parameterized multipole preprint: https://arxiv.org/abs/2604.09828
+- 2025 event paper, arXiv:2510.26931 / ApJL 993 L21: https://arxiv.org/abs/2510.26931
+- 2026 PRL compactness analysis, arXiv:2511.17341 / PRL 137, 071402: https://arxiv.org/abs/2511.17341
+- Model data repository: https://github.com/tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars
+- Separate 2026 SIQM+SIOM preprint: https://arxiv.org/abs/2604.09828
 
 ## 5. CODATA provenance before any SI comparison
 
