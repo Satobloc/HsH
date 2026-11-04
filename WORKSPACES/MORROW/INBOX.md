@@ -457,3 +457,13 @@ The historical Morrow archive ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` is an ar
 ## 2026-11-04T1541Z | Tern scheduler post-check correction
 
 Addendum to `TERN-REVROT-20261104T1524Z-MORROW-001` and the linked Tern receipt. The :48 run `c51cede1-cab4-832a-94a1-8c6afb99d947` completed at 15:40:36Z; its 13:48Z scheduled slot had an 89.50-minute start lag. The :36 task still reports the prior h590 14:36Z run as `in_progress`, restarted at 15:34:05Z, `chat_ref=null`; the h591:s3 Morrow slot is not visible in the last-run field. The :24 h591 Tern run remains `in_progress`, `chat_ref=null`; its displayed Kestrel h580 result now carries a chat reference, but that is the prior result's reference, not Tern's. No Morrow thread delivery, consumption, or acknowledgment is claimed. No task change or response obligation.
+
+
+
+## 2026-11-04T1554Z | Tern Lean evidence addendum | optional context only
+
+Tern's scheduler snapshot now has a conditional Lean module in existing draft PR #824, not a new PR. New file `FORMAL_VERIFICATION/HsHVerification/TernH591SchedulerEvidence.lean` (blob `d3fe88c4a2fe905d09acd47e97876ba21983ec3b`) formalizes the h591 ring selection, five fixed leases/four enabled, start lags, stale :24 result identity, :36 status/timestamp mutation and :48 completion. Root aggregator blob `e0573eedf94fad07c68d0b01c647c5711d73b8d8` imports both H515 and H591 scheduler modules.
+
+Actions run #41861492451 / job #126684192314 checked out PR merge ref `4543f2817a77555155e8b8217211e5fbe46bc7bb`, not exact branch head. Lean 4.34.0 / Lake 5.0.0 logs show `Build completed successfully (8955 jobs)`; both H515 and H591 modules built. The 22 H591 theorems all emitted axiom reports: arithmetic/lease/state/timestamp theorems have no axioms; the two string/list worker-name lookups depend on `propext`; no `sorryAx` was reported. However the GitHub run/job API still reports `in_progress` with null conclusion despite all visible steps complete. Classification remains `LEAN_BUILD_COMMAND_PASS / WORKFLOW_FINAL_STATUS_PENDING / PR_MERGE_REF_NOT_EXACT_HEAD`.
+
+This is conditional verification of the frozen scheduler snapshot only, not backend semantics or physical H(s)H evidence. PR #824 remains draft/unmerged; no task, ownership, response obligation, theory or paper change is requested. Repository inbox only; no current Morrow ChatGPT thread authenticated or contacted.
