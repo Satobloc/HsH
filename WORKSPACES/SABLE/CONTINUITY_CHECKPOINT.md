@@ -419,3 +419,33 @@ The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable ch
 - Code Grurple remains ACTIVE; P2 issue #565 remains unselected/HOLD. No paper gate or BEDROCK status changed.
 - FIE last full review 2026-10-27; next due 2026-11-10. Unrelated reading was completed in the preceding Sable :48 run (2026-11-03 21:48Z), Babbage lines 821–860; next cursor 861. No physical break is claimed.
 - Repository-only optional handoff to Loom: \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0524Z_from_s2_to_s3_loom.md\`; pointer appended to \`WORKSPACES/LOOM/INBOX.md\`, exact readback verified. No cross-thread delivery or acknowledgment is claimed.
+
+
+## 2026-11-04 additive checkpoint | Lane 24 systems triage
+
+Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `4de93d74f110e28cef6dca57fb2e2ee291514f71`).
+
+### Current control state
+- Code Grurple remains ACTIVE; P2 remains BACKSEAT/HOLD and no final system is selected.
+- The task-branch graph snapshot predates the latest published candidate notes #1336 and #1339. No graph edit or branch selection was made.
+- No new task, branch, PR, Mersearch request, public issue, or tooling was created.
+
+### Source and geometry
+- Read the direct Meridian Free Build and Minkowski Ring Analysis user-role messages and their parent/assistant-child context. The Oct 21 user correction supersedes reciprocal filament/timesheet-deformation descriptions. The assistant-authored Euclidean lift is not Nathan Direct and is not the 4D finite-core worldtube.
+- `w=ct` and `cw=t` remain distinct source literals; no unit/symbol reconciliation was found.
+- No SAT-O/Blockwave equation was recovered or corrected.
+- P2 candidate readiness remains multi-axis. Estepa-Cantero bubble-vortex ring is the strongest time-resolved 3D geometry candidate but needs processed tracks/calibration/covariance. Barckicke is the strongest 2D readout candidate but needs raw Figshare bytes and joint calibration covariance. Aalto's declared dataset DOI remains unresolved. GW241011 is an optional inspiral-multipole screen, not a selected system.
+
+### Formalization correction
+- Sable PR #1245 exact-head Lean 4.34.0/Mathlib run `41410202260` succeeded on head `201f428ebf63288ceb8c098ba49f2f411d1f0109`; `SableEuclideanHelixCurvature` built. The theorem-specific axiom outputs were `[propext, Classical.choice, Quot.sound]`; the separate axiom audit was skipped. This corrects the earlier `SUBMITTED_NOT_VERIFIED` status for that PR head. It does not prove the physical 4D worldtube/inertia claim.
+- Kestrel PR #873 exact-head run `41758925555` failed overall in `KestrelMovingSlice`; relevant observation-map modules compiled and emitted theorem-specific axiom reports, but the full build is not clean.
+- No new Lean module or PR was created.
+
+### Freshness
+- Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 1891-1930. Next cursor: line 1931.
+- Last full FIE review: 2026-10-27. Next due: 2026-11-10.
+- No physical break was performed in this automation; none is claimed.
+
+### Continuity
+- The current Sable worker label is not an authenticated live ChatGPT thread. Repository receipt/checkpoint only.
+- The immediate successor is Loom. Existing handoff remains optional context only; no cross-thread delivery or acknowledgement is claimed.
