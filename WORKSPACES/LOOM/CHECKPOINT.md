@@ -649,3 +649,7 @@ Run key `REVROT3-19-20261011:581:s3`; nominal UTC slot 05:36Z; h=581; seq=2908; 
 **Scheduler:** task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact existing hourly :36 America/New_York recurrence. This execution was recorded by the scheduler as FAILED (run `5ad6a2cb-1ac0-8323-a573-3e5ef988d122`, scheduled 05:36Z, started 05:38:14.623Z, completed 06:03:18.121Z, `chat_ref=null`); the task's cached `last_run_time` remained 04:54:53Z. No schedule/task change or disable was made. No sixth task.
 
 **Next cursor:** source-ground the current H(s)H metric/time normalization; define `Φ`, `Π`, `G_HsH`, slice and instrument maps; obtain actual calibration/track data; freeze shared parameters and a held-out standard-model comparison.
+
+### Scheduler re-read amendment — 2026-11-04 06:11Z
+
+The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAILED at 06:03:18Z, then IN_PROGRESS at the 06:11Z inspection with a new `started_at=06:05:51.152201Z`, no completion time and `chat_ref=null`. Cached `last_run_time` remained 04:54:53.049841Z. Treat scheduler completion as UNVERIFIED; do not call this a successful run or a terminal failure. Task remains enabled and the exact hourly :36 America/New_York recurrence is unchanged. No disable or task/schedule mutation. Amendment receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0536Z_s3_loom_AMENDMENT_01.md`.
