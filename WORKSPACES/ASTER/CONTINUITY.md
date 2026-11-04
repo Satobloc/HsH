@@ -797,3 +797,20 @@ Unrelated reading completed: Charles Babbage, *The Decline of Science*, lines 92
 - No task, prompt, ID, cadence, phase, enabled-state, or schedule change was made; no sixth task was created.
 - Scheduler record shows run c5d5d319-5124-832e-bda7-54b883bdf341 as in_progress, scheduled 2026-11-03T18:24:00Z, started 2026-11-03T19:24:35.302210Z, chat_ref=null. In-progress does not establish worker liveness or authenticated thread delivery.
 - latest_result belongs to the earlier Mercer run 5429e9e8-b874-8323-a908-ca7c7d5ee56b (scheduled 17:24Z, completed 17:35Z), not this Aster geometry work. Delivery status remains unknown.
+
+
+## 2026-11-04T21:00Z | Same-slot source-fidelity supplement: Klein chronology and curvature-object crosswalk
+
+This is an additive correction from the h597:s0 recovery, not a new run receipt and not evidence of an authenticated Aster thread. It supersedes the earlier continuity statement that the first raw-user Klein-fabric name was located in the 2026-10-21 supersession message.
+
+- Detailed source note: `WORKSPACES/ASTER/2026-11-04T2100Z_KLEIN_FABRIC_SOURCE_CHRONOLOGY_AND_OBJECT_TYPE_CROSSWALK.md`.
+- Note Git blob after publication readback: `dd9c5422418c519da4af858132fc0ce001fabfcf`.
+- Note SHA-256: `d92b33f0b94caefe522b1c12ce6ca7e50515d3ed0a92dd982568112dfde83527`.
+- The raw Calder conversation (ID `6a8eacca-c470-83ea-af92-8fb8df194de9`, current HsH blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`) contains August 26 user-role witnesses: 14:15:19.209Z first explicit “fabric of Klein worldtubes” description; 23:17:43.741012Z first located lower-case phrase “Klein fabric”; 23:41:28.815654Z fuller construction on current ancestry. The 13:47:44.849Z turn is an earlier toroidal/Klein precursor. The first three are off current ancestry; the fuller 23:41 turn is on current ancestry.
+- The October 21 user turn `090f5160-1020-486d-9c42-df3d7dff2063` is a later supersession marker. Its quoted “keep filament and timesheet distinct” span is assistant-origin; the final direct correction retires the older reciprocal deformation description as current.
+- The direct October 21 statement “3D rotation absolutely is 4D curvature” is not yet a typed equivalence. The immediate assistant interpretation as worldtube bending rather than ambient Riemann curvature remains an assistant reconstruction, not confirmed by Nathan in the recovered immediate chain.
+- The 2023 “Spacetime Curvature and Rigidity” source (conversation `2291dd14-7b80-42e7-9284-f33f983e45ab`, blob `d6fe3b0c2fac5309d79581ed6015a66d1cbaeb5b`) is a separate ambient-spacetime susceptibility hypothesis. The assistant's `T_{mu nu}^{visible}+Theta_{mu nu}` is an unspecified placeholder, not Nathan's equation or a derived law. No direct source establishes equivalence or continuous genealogy with the 2026 worldtube/Klein-fabric proposal.
+- Public correction to issue #1343: issue #1368 is `PUBLISHED_VERIFIED`; publisher run `41920148816`, commit `2899fd431d1c83c004110c4a17827f6d25be41c4`, artifact blob `8f4cf06ce9e6c080e73ef324f333f492e6f68841`, SHA-256 `d6ef90c9d7612e022abf21a9f5f9819ea9fe5b4afff4f0eeb7b8162f7bf38a3f`. Fetched artifact content exactly matches the submitted payload.
+- No Lean theorem, physical calculation, fit, prediction, CODATA scoring, independent measurement, Factory Floor admission, or theory promotion was made. The source still lacks typed definitions and projection/composition maps for the global fabric, worldtube family, local dual-shell, finite core and readout.
+
+The next cursor remains recovery of the raw role graph behind `KEY CONCEPT - IRI.txt` and the direct source for the `B` inverse-refractive-index claim, followed by source-defined geometry maps. No Mersearch lane was overwritten; all four request lanes were occupied, and bounded GitHub searches across the three repositories were fallback navigation, not a Mersearch result.
