@@ -1,0 +1,730 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "2a9915cec32d6a4460d4844cac8233ed988a59cbda7c169672ae29a6b0288df8",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-04T21:49:53.052132+00:00",
+  "query": "author:user AND ((\"human-LLM\" OR \"human LLM\" OR \"LLM group\" OR \"agent group\" OR \"multi-agent\" OR \"multi agent\" OR \"group interaction\" OR \"agent teams\" OR \"shared evaluator\" OR \"source independence\") OR ((\"consciousness\" OR \"ontic\" OR \"quiet\" OR \"silent\" OR \"nested\" OR \"Chinese Room\" OR \"Morsefish\" OR \"observer\" OR \"self-model\" OR \"self-reference\" OR \"attention\" OR \"feedback\" OR \"recursion\" OR \"recursive\") AND (\"AI\" OR \"LLM\" OR \"agent\" OR \"model\" OR \"mind\" OR \"group\")))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 17361,
+    "records_scanned": 21625187,
+    "hits": 864
+  },
+  "counted_hits": 864,
+  "distinct_sources": 283,
+  "results_by_root": {
+    "archive": 123,
+    "hsh-main": 715,
+    "resources": 26
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:user",
+      838
+    ],
+    [
+      "model",
+      499
+    ],
+    [
+      "consciousness",
+      312
+    ],
+    [
+      "AI",
+      281
+    ],
+    [
+      "mind",
+      266
+    ],
+    [
+      "LLM",
+      200
+    ],
+    [
+      "nested",
+      198
+    ],
+    [
+      "attention",
+      189
+    ],
+    [
+      "group",
+      184
+    ],
+    [
+      "recursive",
+      176
+    ],
+    [
+      "observer",
+      120
+    ],
+    [
+      "feedback",
+      77
+    ],
+    [
+      "quiet",
+      67
+    ],
+    [
+      "recursion",
+      38
+    ],
+    [
+      "self-reference",
+      25
+    ],
+    [
+      "silent",
+      23
+    ],
+    [
+      "agent",
+      20
+    ],
+    [
+      "multi-agent",
+      19
+    ],
+    [
+      "ontic",
+      18
+    ],
+    [
+      "self-model",
+      9
+    ],
+    [
+      "Morsefish",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/6OCT26_BIG_HAUL/26.03.21•26.08.22•Geometric Foundations Evaluation — raw.json",
+      "title": "Geometric Foundations Evaluation",
+      "record_count": 3,
+      "best_score": 92,
+      "first_hit_index": 332,
+      "sample_hit_index": 653,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "nested",
+        "observer",
+        "self-reference",
+        "recursive",
+        "AI",
+        "LLM",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.21•26.08.22•[A] Geometric Foundations Evaluation — raw.json",
+      "title": "[A] Geometric Foundations Evaluation",
+      "record_count": 3,
+      "best_score": 92,
+      "first_hit_index": 333,
+      "sample_hit_index": 654,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "nested",
+        "observer",
+        "self-reference",
+        "recursive",
+        "AI",
+        "LLM",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/26.10.15•26.11.01•Predict the Song Style - raw (2).json",
+      "title": "Predict the Song Style",
+      "record_count": 8,
+      "best_score": 91,
+      "first_hit_index": 840,
+      "sample_hit_index": 852,
+      "locator": "message:7cbed02e-7475-47f9-aade-1c1c0f02c9d2",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "quiet",
+        "silent",
+        "nested",
+        "attention",
+        "feedback",
+        "recursive",
+        "LLM",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/Predict the Song Style - raw.json",
+      "title": "Predict the Song Style",
+      "record_count": 8,
+      "best_score": 91,
+      "first_hit_index": 842,
+      "sample_hit_index": 853,
+      "locator": "message:7cbed02e-7475-47f9-aade-1c1c0f02c9d2",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "quiet",
+        "silent",
+        "nested",
+        "attention",
+        "feedback",
+        "recursive",
+        "LLM",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 89,
+      "first_hit_index": 775,
+      "sample_hit_index": 775,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "quiet",
+        "silent",
+        "nested",
+        "observer",
+        "attention",
+        "agent",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 89,
+      "first_hit_index": 776,
+      "sample_hit_index": 776,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "quiet",
+        "silent",
+        "nested",
+        "observer",
+        "attention",
+        "agent",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13•26.09.20•Analyze Voice Models — raw.json",
+      "title": "Analyze Voice Models",
+      "record_count": 1,
+      "best_score": 89,
+      "first_hit_index": 777,
+      "sample_hit_index": 777,
+      "locator": "message:0984c5b4-e032-4a61-830e-94bb5521370f",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "quiet",
+        "silent",
+        "nested",
+        "observer",
+        "attention",
+        "agent",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw (1).json",
+      "title": "Electron Paths in Chips",
+      "record_count": 14,
+      "best_score": 85,
+      "first_hit_index": 215,
+      "sample_hit_index": 236,
+      "locator": "message:ef677e86-c03b-4c19-93dd-57ec0f69af14",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "nested",
+        "self-reference",
+        "feedback",
+        "recursive",
+        "LLM",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw.json",
+      "title": "Electron Paths in Chips",
+      "record_count": 14,
+      "best_score": 85,
+      "first_hit_index": 216,
+      "sample_hit_index": 237,
+      "locator": "message:ef677e86-c03b-4c19-93dd-57ec0f69af14",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "nested",
+        "self-reference",
+        "feedback",
+        "recursive",
+        "LLM",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
+      "title": "Electron Paths in Chips",
+      "record_count": 14,
+      "best_score": 85,
+      "first_hit_index": 217,
+      "sample_hit_index": 238,
+      "locator": "message:ef677e86-c03b-4c19-93dd-57ec0f69af14",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "nested",
+        "self-reference",
+        "feedback",
+        "recursive",
+        "LLM",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 4,
+      "best_score": 83,
+      "first_hit_index": 261,
+      "sample_hit_index": 261,
+      "locator": "message:e54160be-a4c1-4e1e-8b84-b126af67c6d2",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "ontic",
+        "nested",
+        "observer",
+        "attention",
+        "recursive",
+        "model",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.12•26.06.01•[A] Physical Reality Evaluation — raw.json",
+      "title": "[A] Physical Reality Evaluation",
+      "record_count": 4,
+      "best_score": 83,
+      "first_hit_index": 262,
+      "sample_hit_index": 262,
+      "locator": "message:e54160be-a4c1-4e1e-8b84-b126af67c6d2",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "ontic",
+        "nested",
+        "observer",
+        "attention",
+        "recursive",
+        "model",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12•26.06.01•Physical Reality Evaluation — raw (1).json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 4,
+      "best_score": 83,
+      "first_hit_index": 263,
+      "sample_hit_index": 263,
+      "locator": "message:e54160be-a4c1-4e1e-8b84-b126af67c6d2",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "ontic",
+        "nested",
+        "observer",
+        "attention",
+        "recursive",
+        "model",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Theory of Everything Review — raw.json",
+      "title": "Theory of Everything Review",
+      "record_count": 13,
+      "best_score": 76,
+      "first_hit_index": 363,
+      "sample_hit_index": 363,
+      "locator": "message:8612648e-e3bd-4404-a3cf-43efdf2a48df",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "observer",
+        "self-reference",
+        "recursive",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 16,
+      "best_score": 60,
+      "first_hit_index": 516,
+      "sample_hit_index": 572,
+      "locator": "message:2480b097-e631-41c6-995a-c1be1c792e53",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "observer",
+        "AI",
+        "model",
+        "mind",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 11,
+      "best_score": 58,
+      "first_hit_index": 676,
+      "sample_hit_index": 740,
+      "locator": "message:0f47ff45-331f-4f5a-b2a7-5ce0dea4264c",
+      "matched_terms": [
+        "author:user",
+        "multi-agent",
+        "recursive",
+        "AI",
+        "LLM",
+        "model",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Russia's Nuclear Arsenal Maintenance — raw (1).json",
+      "title": "Russia's Nuclear Arsenal Maintenance",
+      "record_count": 3,
+      "best_score": 56,
+      "first_hit_index": 9,
+      "sample_hit_index": 14,
+      "locator": "message:e8579366-72c5-4dcc-af95-83f50bdf4678",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "attention",
+        "AI",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Russia's Nuclear Arsenal Maintenance — raw.json",
+      "title": "Russia's Nuclear Arsenal Maintenance",
+      "record_count": 3,
+      "best_score": 56,
+      "first_hit_index": 10,
+      "sample_hit_index": 15,
+      "locator": "message:e8579366-72c5-4dcc-af95-83f50bdf4678",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "attention",
+        "AI",
+        "model",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 7,
+      "best_score": 55,
+      "first_hit_index": 459,
+      "sample_hit_index": 483,
+      "locator": "message:d5e5afcc-56a7-4bd1-9b25-628b79b82e0a",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "recursive",
+        "AI",
+        "LLM",
+        "model"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT ACTIVE EDGE vNext — raw.json",
+      "title": "SAT ACTIVE EDGE vNext",
+      "record_count": 6,
+      "best_score": 54,
+      "first_hit_index": 76,
+      "sample_hit_index": 88,
+      "locator": "message:cd4774e8-a0f0-40a9-9486-380e7df9bc6b",
+      "matched_terms": [
+        "author:user",
+        "multi-agent",
+        "feedback",
+        "AI",
+        "agent",
+        "model"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🏯 SAT GITKEEPER — raw.json",
+      "title": "🏯 SAT GITKEEPER",
+      "record_count": 4,
+      "best_score": 54,
+      "first_hit_index": 458,
+      "sample_hit_index": 675,
+      "locator": "message:ae1d9197-8aa7-4319-80a4-786028dc7706",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "recursive",
+        "AI",
+        "LLM",
+        "mind"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reddit OCR Analysis — raw.json",
+      "title": "Reddit OCR Analysis",
+      "record_count": 7,
+      "best_score": 52,
+      "first_hit_index": 349,
+      "sample_hit_index": 357,
+      "locator": "message:dd688541-7009-4966-9703-1aab5bdcf4a1",
+      "matched_terms": [
+        "author:user",
+        "nested",
+        "recursion",
+        "recursive",
+        "group"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 3,
+      "best_score": 50,
+      "first_hit_index": 501,
+      "sample_hit_index": 507,
+      "locator": "message:3d51bcf3-b4ec-43c9-bc51-a55d0ee123d5",
+      "matched_terms": [
+        "author:user",
+        "nested",
+        "attention",
+        "recursive",
+        "LLM"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Draft Paper Review — raw.json",
+      "title": "Draft Paper Review",
+      "record_count": 1,
+      "best_score": 48,
+      "first_hit_index": 327,
+      "sample_hit_index": 327,
+      "locator": "message:3e04b4d9-3d75-49c7-b84f-b6ab8cd708d7",
+      "matched_terms": [
+        "author:user",
+        "nested",
+        "recursive",
+        "model",
+        "group"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.15•23.05.15•AI Ethics & Future Implications — raw.json",
+      "locator": "message:aaa2e6a0-be17-4004-a2b8-81fe802b8b38",
+      "matched_terms": [
+        "author:user",
+        "attention",
+        "AI",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.28•23.11.28•Gothic-Slavic Fusion Kingdom — raw.json",
+      "locator": "message:aaa271aa-7af1-408b-a3bb-4de20fb88180",
+      "matched_terms": [
+        "author:user",
+        "attention",
+        "group"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/24.03.07•24.03.13•Moral Realism_ Two Camps — raw.json",
+      "locator": "message:aaa20c7d-af94-4b27-bae5-34cb7842aae8",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "group"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29•24.03.30•Maya & Aiden Episodes — raw.json",
+      "locator": "message:aaa21919-1b43-48b0-b460-442ca201a6eb",
+      "matched_terms": [
+        "author:user",
+        "attention",
+        "AI",
+        "model",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04•24.07.04•CTMU_ Mind-Reality Integration — raw.json",
+      "locator": "message:aaa25b6a-4e03-4c86-b47f-74e777e9fc14",
+      "matched_terms": [
+        "author:user",
+        "attention",
+        "feedback",
+        "recursion",
+        "model",
+        "mind",
+        "group"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04•24.07.04•CTMU_ Mind-Reality Integration — raw.json",
+      "locator": "message:aaa291ce-3c35-4661-8125-c426314e6ada",
+      "matched_terms": [
+        "author:user",
+        "feedback",
+        "recursion",
+        "model",
+        "mind"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06•24.09.06•ChatGPT Consciousness Argument — raw.json",
+      "locator": "message:aaa2ea01-2867-4160-aa84-66fd2602898a",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "model"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06•24.09.06•ChatGPT Consciousness Argument — raw.json",
+      "locator": "message:aaa26429-3c1c-47cd-aa94-d76a0fb43088",
+      "matched_terms": [
+        "author:user",
+        "consciousness",
+        "AI"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
