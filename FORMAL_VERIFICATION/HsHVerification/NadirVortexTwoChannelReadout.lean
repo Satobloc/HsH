@@ -194,7 +194,7 @@ theorem antipodalModeReadout_not_injective (a₀ ε φ : ℝ) :
   have hEq :
       antipodalModeReadout (1 + 2) a₀ ε φ =
         antipodalModeReadout 1 a₀ ε φ :=
-    antipodalModeReadout_two_step 1 a₀ ε φ
+    (antipodalModeReadout_two_step 1 a₀ ε φ).symm
   have hne : (1 : Fin 4) ≠ 3 := by decide
   exact hne (hinj (by simpa using hEq))
 
