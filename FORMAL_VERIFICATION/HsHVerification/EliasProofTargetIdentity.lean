@@ -436,7 +436,7 @@ theorem string_ne_of_toList_ne {a b : String}
   intro hEq
   exact h (congrArg String.toList hEq)
 
-/-- Actual record replay. These #evals check concrete character-list and
+/- Actual record replay. These #evals check concrete character-list and
     timestamp comparisons, while the Prop-level rejection theorems below
     are proved constructively from the corresponding mismatch/status lemmas. -/
 #eval decide (worldtubeLatestResult.identity.scheduledFor.toList =
