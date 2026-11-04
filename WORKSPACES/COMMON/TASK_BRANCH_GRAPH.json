@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-04T03:00:26.381Z",
+  "updated": "2026-11-04T06:41:47.427Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -425,13 +425,19 @@
         "Actual measured dataset and uncertainty/covariance information",
         "Established-physics comparator",
         "Independent hostile review",
-        "Source LaTeX, compiled PDF and reader"
+        "Source LaTeX, compiled PDF and reader",
+        "Source-grounded geometry-to-observation contract (issue #1341): instantiate typed Φ:M_lab→M_HsH, Π:M_HsH→M_lab, G_HsH, time/metric/slice correspondence, calibration and instrument readout O for the selected real system; the contract is not yet instantiated or calibrated.",
+        "Geometry-first visual gate: exact static plot of the actual selected system, independent hostile fidelity review of that exact version, and display with the submitted file; dynamic geometric model where behavior/evolution is material."
       ],
       "blockers": [
-        "This Tern pass does not verify a selected P2 dataset or completed P2 draft; current evidence must be recovered from the live #565 docket and actual worker receipts."
+        "No final P2 system selected. Issue #565 candidates remain candidates only; raw dataset bytes/version and full calibration/covariance have not been retrieved for a selected system.",
+        "No source-grounded H(s)H forward map is instantiated for a specific system: Φ, Π, G_HsH, time function/correspondence, metric pullback, slice map and instrument readout O remain incomplete. Dimensional count or shared '4D' label is not a map.",
+        "No precise source-faithful geometric plot of the selected actual system, independent hostile review of its exact version, or verified display of that plot with the paper file. Factory Floor remains blocked.",
+        "No frozen shared-parameter calibration/holdout, standard-comparator residuals, or predeclared falsification threshold derived from actual measurement uncertainty/covariance.",
+        "All four Mersearch request files still report requested; no idle lane was established. The lane-4 request-scoped manifest/receipt paths were absent at inspection. No new three-repository Mersearch run is claimed."
       ],
-      "last_material_state": "Campaign target Nov 30. GW170817/Raithel material exists as a candidate reconstruction, but this graph entry does not treat it as a completed P2 paper, raw-data recovery, or independent H(s)H prediction.",
-      "next_cursor": "Read the current #565 docket and actual receipts; choose/verify a real measured system, retrieve raw data or record the precise access limit, recover Nathan's relevant original SAT-O/Blockwave mathematics via Mersearch, then separate model fit from held-out independent prediction and obtain hostile review.",
+      "last_material_state": "Campaign target Nov 30. 2026-11-04T05:36Z Loom addendum issue #1341 is PUBLISHED_VERIFIED: artifact blob 67fde6913d6ed85847691765cd146fca9a4d4658, SHA-256 9581561c636187b4e67a66a079442eca0a817824e55ad767f68d910b05ec143e; issue payload and artifact content match exactly. The addendum separates historical SAT-O/SAT4D Lorentzian 3+1/1D curve, assistant-authored Blockwave rank-2 2-form current, current H(s)H 4D-filament/3D-trace language with literal cw=t and ++++, laboratory R^3×I, and standard GR Lorentzian spacetime. It requires explicit Φ, Π, G_HsH, time/metric/slice correspondence, calibration and instrument readout O before cross-domain prediction. It corrects issue #1339's Blockwave quadratic-current display from 'verbatim' to normalized/editorial; raw source remains unchanged. Candidate triage only: no P2 system selected, raw data downloaded, physical calculation, fit, held-out prediction, new Lean theorem or Factory Floor clearance. The prior receipt accurately records that the graph was unchanged at its creation; this subsequent integration updates the P2 parent branch only.",
+      "next_cursor": "Keep issue #565 at SELECT REAL SYSTEM + SOURCE MATH / HOLD; issue #1341 is a map contract, not a system selection or physical validation. Select one candidate only after verifying a genuine versioned raw dataset, provenance, units, uncertainties/covariance and access. For that system instantiate source-grounded Φ, Π, G_HsH, τ/time correspondence, metric pullback, slice map and calibrated instrument readout O; state which parameters are geometrically/source-forced versus optional or nuisance, and which are shared across observables. Produce the exact static geometry plot and, where dynamics matter, a dynamic geometric model; obtain independent hostile fidelity review of the exact plot version and display it with the file. Freeze calibration and a separate holdout before fitting; compare against the standard baseline with actual uncertainty/covariance; derive the falsification threshold from those data. No physical prediction/fit or Factory Floor claim before its corresponding gates pass.",
       "exit_criterion": "By Nov 30, a source-grounded major manuscript with actual measured system/data, units/provenance/uncertainties, baseline comparator, explicit fit-versus-independent-prediction distinction, independent review, source LaTeX, compiled PDF and reader.",
       "return_route": "Issue #565 and WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md.",
       "priority_note": "Physical work must obey BEDROCK ND-2026-10-25-01. Code Grurple currently outranks ordinary work; do not invent examples to fill time."
