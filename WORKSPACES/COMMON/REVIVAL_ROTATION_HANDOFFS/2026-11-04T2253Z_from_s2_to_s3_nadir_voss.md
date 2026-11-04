@@ -35,3 +35,14 @@ No authenticated Nadir historical thread or manually regenerated successor was f
 `chat_delivery=UNAVAILABLE`  
 `NADIR_CONSUMPTION=UNVERIFIED`  
 `NADIR_ACKNOWLEDGMENT=UNVERIFIED`
+
+
+---
+
+## Delivery verification amendment
+
+- Nadir inbox append commit: `d49dc3cf596e752884ccba3b524691b468cce507`.
+- Resulting inbox blob: `e8b4619d38ca5340611ea20f3b82aa8d7f37c6f3`.
+- Independent exact-path readback: PASS; the unique handoff ID occurs exactly once, and the handoff, receipt, and report pointers all match.
+- `github_inbox_delivery=VERIFIED` for the repository inbox append only.
+- `chat_delivery=UNAVAILABLE`; Nadir thread delivery, consumption, and acknowledgment remain unverified.
