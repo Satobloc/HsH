@@ -62,52 +62,52 @@ The useful selection axes are separate: (a) geometric fidelity, (b) raw-data and
 
 ### GW241011: measured multipole, model-to-compactness map, and inverse ambiguity
 
-**Measured event and original inference.** The peer-reviewed LIGO–Virgo–KAGRA event paper reports GW241011 with median network SNR 36.0, primary mass (19.6^{+3.6}_{-2.5}M_odot), mass ratio (q=0.30^{+0.09}_{-0.08}), and primary spin (chi_1=0.78^{+0.09}_{-0.09}). Its SIQM test reports
-[
-deltakappa_1=0.10^{+0.82}_{-0.82},
-qquad
-deltakappa_s=0.10^{+0.09}_{-0.11}
-]
-for the symmetric combination under the explicit assumption (kappa_1=kappa_2). The secondary coefficient is uninformative. The primary-only and equal-component results are different inferential objects; the much tighter symmetric interval must not be presented as a primary-only bound. The event paper uses a modified IMRPhenomXPHM waveform with SIQM terms at 2PN and 3PN. No raw strain or posterior-sample reanalysis was performed in this run.
+**Measured event and original inference.** The peer-reviewed LIGO–Virgo–KAGRA event paper reports GW241011 with median network SNR 36.0, primary mass 19.6 (+3.6/-2.5) solar masses, mass ratio q = 0.30 (+0.09/-0.08), and primary spin χ₁ = 0.78 (+0.09/-0.09). Its spin-induced quadrupole (SIQM) test reports:
+- Primary-only: δκ₁ = 0.10 (+0.82/-0.82).
+- Symmetric combination: δκₛ = 0.10 (+0.09/-0.11), under the explicit assumption κ₁ = κ₂.
+- The secondary coefficient is uninformative.
 
-**Peer-reviewed compactness follow-up.** Krishnendu et al., *Physical Review Letters* 137, 071402 (2026), use the primary's full two-dimensional ((kappa_1,chi_1)) 95% posterior isocontour to compare specific exotic-compact-object model families. Their conclusions are model-specific:
+The primary-only and equal-component results are different inferential objects. The much tighter symmetric interval must not be presented as a primary-only bound. The event paper uses a modified IMRPhenomXPHM waveform with SIQM terms at 2PN and 3PN. No raw strain or posterior-sample reanalysis was performed in this run.
+
+**Peer-reviewed compactness follow-up.** Krishnendu et al., *Physical Review Letters* 137, 071402 (2026), DOI 10.1103/29y5-nx9y, use the primary's full two-dimensional (κ₁, χ₁) 95% posterior isocontour to compare specific exotic-compact-object model families. Their conclusions are model-specific:
 - Repulsive boson-star families are excluded in the tested parameter ranges.
-- High-compactness solitonic stars with (Cgtrsim0.26) and axionic stars with (Csim0.3) can remain compatible.
-- For a causal-limit exotic-fluid-star EOS (P=epsilon-epsilon_s), uniformly rotating oblate configurations require (Cgtrsim0.24); more spherical configurations require (Cgtrsim0.34).
+- High-compactness solitonic stars with C ≳ 0.26 and axionic stars with C ≈ 0.3 can remain compatible.
+- For a causal-limit exotic-fluid-star EOS P = ε − εₛ, uniformly rotating oblate configurations require C ≳ 0.24; more spherical configurations require C ≳ 0.34.
 - The constraints apply to the **primary of GW241011 only**. They do not rule out exotic compact objects in other systems. Tidal deformability, boson-star short-range interactions, and super-extremal spins are not included; several gravastar and scalarized-BH cases remain weakly constrained.
 
-This is a peer-reviewed finite-size/compactness test, not a direct reconstruction of the primary's interior. The paper itself emphasizes that the observable is one spin-induced multipole and that other finite-size effects are omitted.
+This is a peer-reviewed finite-size/compactness test, not a direct reconstruction of the primary's interior. The observable is one spin-induced multipole; other finite-size effects are omitted.
 
-**Explicit standard GR geometry-to-multipole map.** The PRL supplement gives a concrete extraction route for stationary, axisymmetric numerical spacetimes in quasi-isotropic coordinates. With asymptotic metric coefficients (M,J,B_0,
-u_2), it obtains the Geroch–Hansen mass quadrupole
-[
-M_2=-
-u_2-rac13M^3-rac43B_0M,
-]
-then
-[
-kappa_2=-rac{M_2}{chi^2M^3},
-qquad
-chi=rac{J}{M^2}.
-]
-The supplement gives the asymptotic metric expansion and angular integrals used to extract (
-u_2) and (B_0). For the boson-star numerical solutions it reports a 0.3–1.1% numerical error in (kappa), depending on compactness. This is a standard GR/reference extraction map, not an HsH equation. It supplies a concrete template for what an HsH forward map would need: a stationary-axisymmetric metric or equivalent invariant geometry, asymptotic coefficients, and a defined route to (M,J,M_2). The HsH source material presently supplies no such metric coefficients or transformation.
+**Explicit standard GR geometry-to-multipole map.** The PRL supplement gives a concrete extraction route for stationary, axisymmetric numerical spacetimes in quasi-isotropic coordinates. Its metric form is:
 
-**Public theoretical model data and integrity check.** The paper's linked MIT-licensed repository `tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars` (main head `ea5abd9870c02d698a73f4c9ae593b6e0e89358b`) contains numerical model sequences with columns (omega,M,J,r_{99},r_{95},C,kappa). The README defines (r_{99}) as the areal radius enclosing 99% of the mass and describes (C) as compactness based on (r_{99}). A scripted check of three actual repository files verified (C=M/r_{99}) to a maximum absolute discrepancy of (5.56	imes10^{-17}):
-- `repulsive_lambda_150.dat`: 192 rows; subextremal (chi=J/M^2le0.99) filter leaves 161 rows.
-- `solitonic_sigma_0.1.dat`: 574 rows; the same simple spin filter leaves 100 rows.
-- `axionic_f_001.dat`: 586 rows; the same simple spin filter leaves 79 rows.
+```
+ds² = −e^(2ν) dt²
+      + r² sin²θ B² e^(−2ν) (dφ − ω dt)²
+      + e^(2(ζ−ν)) (dr² + r² dθ²)
 
-Those are numerical model outputs, not measured data. The simple (chile0.99) filter is **not** the paper's stability filter; the files do not mark stable/unstable rows in the README, and the paper excludes unstable branches using its stated stability criteria. The raw sequences also contain super-extremal rows, outside the waveform model's stated (chiin[0,0.99]) range. The README does not specify a complete SI normalization for (M) and the radii. No model-to-observation numerical comparison was attempted. The numerical error quoted by the paper (0.3–1.1% in (kappa)) is model-solver error, not observational posterior uncertainty.
+M₂ = −ν₂ − M³/3 − 4 B₀ M/3
+κ₂ = −M₂/(χ² M³),       χ = J/M²
+```
 
-**Separate higher-multipole preprint.** The April 2026 arXiv analysis `2604.09828` simultaneously explores SIQM and spin-induced octupole deviations. Its symmetric-parameter results and its much broader one-body alternative use a different parameterization/parameter set from the 2025 event paper and the 2026 PRL compactness analysis. Do not combine their posterior intervals. It remains a preprint in the source record checked here.
+Here M, J, B₀, and ν₂ are extracted from the asymptotic metric coefficients; the supplement gives the angular integrals for B₀ and ν₂. For the boson-star numerical solutions it reports a 0.3–1.1% numerical error in κ, depending on compactness. This is a standard GR/reference extraction map, not an HsH equation. It supplies a concrete template for what an HsH forward map would need: a stationary-axisymmetric metric or equivalent invariant geometry, asymptotic coefficients, and a defined route to M, J, and M₂. The HsH source material presently supplies no such metric coefficients or transformation.
 
-**Identifiability consequence.** The observable map from a full stationary-axisymmetric geometry to ((M,J,M_2)), then to ((chi,kappa)), is a projection. The PRL comparison shows that several distinct model families can remain compatible with the same measured ((kappa_1,chi_1)) region. Thus (kappa) alone does not uniquely reconstruct an interior or worldtube. The HsH program would need an independently specified forward geometry-to-multipole map and additional observables or restrictions for the reverse map to become identifiable. The existing Kestrel fiber-compatibility formalization is relevant as a generic conditional theorem, but its PR is not a clean full build and it does not prove this physical map.
+**Public theoretical model data and integrity check.** The paper's linked MIT-licensed repository `tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars` (main head `ea5abd9870c02d698a73f4c9ae593b6e0e89358b`) contains numerical model sequences with columns ω, M, J, r₉₉, r₉₅, C, and κ. The README defines r₉₉ as the areal radius enclosing 99% of the mass and describes C as compactness based on r₉₉. A scripted check of three actual repository files verified C = M/r₉₉ to a maximum absolute discrepancy of 5.56 × 10⁻¹⁷:
+
+| Model file | Rows | Full C range | Full κ range | Rows with χ = J/M² ≤ 0.99 | C range after this spin-only filter | κ range after this spin-only filter |
+|---|---:|---:|---:|---:|---:|---:|
+| repulsive_lambda_150.dat | 192 | 0.0061–0.2850 | 1.0018–245.96 | 161 | 0.0454–0.2850 | 1.0018–29.27 |
+| solitonic_sigma_0.1.dat | 574 | 0.0060–0.4302 | 0.9688–228.88 | 100 | 0.3236–0.4302 | 0.9688–1.1879 |
+| axionic_f_001.dat | 586 | 0.0058–0.3872 | 0.9881–186.31 | 79 | 0.2664–0.3872 | 0.9881–1.5238 |
+
+These are numerical model outputs, not measured data. The simple χ ≤ 0.99 filter is **not** the paper's stability filter; the files do not mark stable/unstable rows in the README, and the paper excludes unstable branches using its stated turning-point and non-axisymmetric stability criteria. The raw sequences also contain super-extremal rows, outside the waveform model's stated χ ∈ [0, 0.99] range. The README does not specify a complete SI normalization for M and the radii. No model-to-observation numerical comparison was attempted. The 0.3–1.1% numerical error quoted by the paper is model-solver error, not observational posterior uncertainty.
+
+**Separate higher-multipole preprint.** The April 2026 arXiv analysis 2604.09828 simultaneously explores SIQM and spin-induced octupole deviations. Its symmetric-parameter results and its much broader one-body alternative use a different parameterization and parameter set from the 2025 event paper and the 2026 PRL compactness analysis. Do not combine their posterior intervals. It remains a preprint in the source record checked here.
+
+**Identifiability consequence.** The observable map from a full stationary-axisymmetric geometry to (M, J, M₂), then to (χ, κ), is a projection. The PRL comparison shows that several distinct model families can remain compatible with the same measured (κ₁, χ₁) region. Thus κ alone does not uniquely reconstruct an interior or worldtube. The HsH program would need an independently specified forward geometry-to-multipole map and additional observables or restrictions for the reverse map to become identifiable. The existing Kestrel fiber-compatibility formalization is relevant as a generic conditional theorem, but its PR is not a clean full build and it does not prove this physical map.
 
 Primary sources:
 - 2025 event paper, arXiv:2510.26931 / ApJL 993 L21: https://arxiv.org/abs/2510.26931
-- 2026 PRL compactness analysis, arXiv:2511.17341 / PRL 137, 071402: https://arxiv.org/abs/2511.17341
-- Model data repository: https://github.com/tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars
+- 2026 PRL compactness analysis, arXiv:2511.17341 / PRL 137, 071402, DOI 10.1103/29y5-nx9y: https://arxiv.org/abs/2511.17341
+- Model data repository (MIT): https://github.com/tamaraevst/Spin-induced-quadrupole-moments-of-boson-stars
 - Separate 2026 SIQM+SIOM preprint: https://arxiv.org/abs/2604.09828
 
 ## 5. CODATA provenance before any SI comparison
