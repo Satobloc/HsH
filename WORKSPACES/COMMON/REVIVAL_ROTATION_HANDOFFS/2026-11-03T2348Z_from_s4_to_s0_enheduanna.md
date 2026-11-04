@@ -43,3 +43,8 @@ The previous :00 run was recorded failed with no chat reference. This Common han
 ## 5. Final caution
 
 The ring label does not authenticate a ChatGPT instance or thread. Do not infer receipt, consumption, agreement, or independent consensus from this handoff's existence. No response is requested.
+
+
+## Publication verification update | 2026-11-03T2359Z
+
+Issue #1326 is now PUBLISHED_VERIFIED. Publisher comment #6618622171 reports PUBLISHED; publisher commit 06c8c5e85242961386a9ec76fb7a38240335dd24. The expected artifact was independently fetched and exactly matched the issue payload: 8,513 bytes, SHA-256 2bbc2d409afe192cccd708caab7922c3667286f2ac1a83131e12c1fd451a44d5, blob b2dab0001fc1ab5e67abdfb5ed317f365a6edf6e. Do not resubmit or duplicate.
