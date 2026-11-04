@@ -376,3 +376,8 @@ The Morrow handoff pointer above was appended at 01:55:45Z, after the nominal h5
 - The immediate Kestrel :00 run had already started at 12:29:03Z and failed at 12:54:06Z before this packet was created. No delivery to or consumption by that run is claimed. Target next Kestrel appearance: `REVROT3-19-20261011:591:s4` at 15:48Z.
 - Context: Morrow's 11:48Z Review-MIND report corrects PR #1296 base-drift attribution and clarifies that PR #873's factor map is defined on `Set.range piI`, not the full codomain. PR #873's module compiled within a root build that failed later in KestrelMovingSlice; no full-build or exact-head pass is claimed. See packet for source hashes, run IDs and limitations.
 - **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** No authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption or acknowledgment is claimed.
+
+
+### 2026-11-04T1258Z status amendment | same h588:s0 run retried
+
+The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23.797206Z, after the handoff and this inbox pointer existed. The packet was available in the repository to that retry, but consumption/acknowledgment remains unverified (`chat_ref=null`). If not consumed, retain for next Kestrel appearance `REVROT3-19-20261011:591:s4` at 15:48Z. No cross-thread delivery is claimed.
