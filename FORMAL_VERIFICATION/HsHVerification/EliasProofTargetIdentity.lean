@@ -272,6 +272,8 @@ theorem result_created_before_attempt_cannot_belong
 end HsHVerification.EliasProofTargetIdentity
 
 
+namespace HsHVerification.EliasProofTargetIdentity
+
 /-!
 ## 2026-11-04: current-attempt / prior-result separation
 
@@ -442,3 +444,53 @@ theorem geometry_latest_result_not_current :
 #print axioms failed_attempt_rejects_result
 #print axioms worldtube_latest_result_not_current
 #print axioms geometry_latest_result_not_current
+
+
+/-- Live h598 observation from the :24 automation connector. The current
+    scheduled attempt is still in progress; latest_result is the prior
+    21:24Z occurrence. This is an observed software record, not a physical
+    fixture or a claim about scheduler backend semantics. -/
+def geometryCurrentAttemptH598 : AutomationAttemptObservation :=
+  { identity :=
+      { automationId := "6abda4c8eda88191bf23a6f2849e9a17"
+        scheduledFor := "2026-11-04T22:24:00Z"
+        runId := "162408a5-e3f8-8326-9af4-12b5503ee167" }
+    attemptToken := none
+    startedAtUnixMicros := 1793831126518679
+    status := .inProgress
+    completedAtUnixMicros := none }
+
+def geometryLatestResultH598 : AutomationResultObservation :=
+  { identity :=
+      { automationId := "6abda4c8eda88191bf23a6f2849e9a17"
+        scheduledFor := "2026-11-04T21:24:00Z"
+        runId := "01c8a167-82cc-832f-93d0-5c7070d80f0e" }
+    attemptToken := none
+    createdAtUnixMicros := 1793829007168092
+    completedAtUnixMicros := some 1793829012765682 }
+
+theorem geometry_h598_latest_result_not_current :
+    ¬ resultAcceptedForAttempt geometryCurrentAttemptH598 geometryLatestResultH598 := by
+  decide
+
+theorem geometry_h598_latest_result_predates_attempt :
+    ¬ resultTemporallyCompatibleWithAttempt
+      { occurrence := geometryCurrentAttemptH598.identity
+        startedAt := geometryCurrentAttemptH598.startedAtUnixMicros }
+      { occurrence := geometryLatestResultH598.identity
+        createdAt := geometryLatestResultH598.createdAtUnixMicros } := by
+  decide
+
+#eval decide (resultMatchesScheduledOccurrence
+  geometryCurrentAttemptH598.identity geometryLatestResultH598.identity)
+#eval decide (resultTemporallyCompatibleWithAttempt
+  { occurrence := geometryCurrentAttemptH598.identity
+    startedAt := geometryCurrentAttemptH598.startedAtUnixMicros }
+  { occurrence := geometryLatestResultH598.identity
+    createdAt := geometryLatestResultH598.createdAtUnixMicros })
+#eval decide (resultAcceptedForAttempt geometryCurrentAttemptH598 geometryLatestResultH598)
+
+#print axioms geometry_h598_latest_result_not_current
+#print axioms geometry_h598_latest_result_predates_attempt
+
+end HsHVerification.EliasProofTargetIdentity
