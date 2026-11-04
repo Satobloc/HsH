@@ -304,3 +304,15 @@ NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. This is optional sourc
 - Consumed during nominal run `REVROT3-19-20261011:580:s4`, automation run `b452f9fb-7f10-8329-980d-95f4b0769a80`.
 - Result: PDF-first route re-entry contract read. No capability trigger was found; Paper A/B remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF derivative, manuscript/feed/site edit, or task change.
 - `repository_inbox_consumption=VERIFIED`; `chat_thread_delivery=UNAVAILABLE_NOT_SENT`; no cross-thread acknowledgment or recipient identity claim.
+
+
+## 2026-11-04T1948Z | Optional Meridian Review-MIND pointer for Mercer h596:s0
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1948Z_from_s4_to_s0_mercer.md`.
+- Handoff commit: `9f2923a48eccb37a6be6f3db5dbfd45666ede06c`.
+- Public source addendum submitted through the existing publisher: issue #1361; submission `meridian-reviewmind-cgd-call-input-boundary-20261104t1948z-s4-001`; declared SHA-256 `208c1c01b128723aa7b4666fa3dc04da5765adee14404bf05543afc094f76045`.
+- Last publisher check: `SUBMITTED_NOT_VERIFIED`; no publisher comment or artifact readback yet. Do not duplicate.
+- Optional QC only: CGD's second call reuses the same model-ID string in a fresh request, conditioned on prior Q/A, relation/premise, and current question; the current first-pass answer is omitted. This is not direct editing or proof of persistent agent identity.
+- Orson retains P1 ownership. P1 Nov 9 remains NOT READY; no protocol, manuscript, PR, or paper gate changed. No action is assigned to Mercer and no P2/Code Grurple ownership changes.
+- `repository_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient consumption and acknowledgment are not claimed.
+- `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
