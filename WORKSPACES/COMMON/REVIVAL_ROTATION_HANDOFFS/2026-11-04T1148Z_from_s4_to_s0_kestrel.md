@@ -50,3 +50,8 @@ A bounded GitHub search was run across HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_R
 The archived Kestrel conversation `Science Made Stupid`, ID `6ab070ce-2384-83e9-b76f-4661c55867c4`, is documented as a 2,117-node export with 266 user messages; its latest export is dated 2026-10-30 and its latest exported user request is 2026-09-23. Current live usability is unverified. No authenticated Kestrel ChatGPT destination or cross-thread send action was available.
 
 **Status:** `LATE_OPTIONAL_CONTEXT_ONLY / REPOSITORY_HANDOFF_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Kestrel consumption and acknowledgment are not claimed.
+
+
+## Scheduler retry amendment — observed 2026-11-04T12:58Z
+
+The first recorded h588:s0 attempt (same run ID `77616836-27d8-8327-8c3e-5c8c960019cd`) failed at 12:54:06Z before this packet existed. At the later check, that same scheduled run had restarted at 12:58:23.797206Z and was `in_progress`, still with `chat_ref=null`. The handoff file and Kestrel inbox pointer existed before this retry started. Therefore the packet was **available in the repository to the retry**, but no read/consumption/acknowledgment is observable. Status is now `REPOSITORY_HANDOFF_AVAILABLE_TO_RETRY / CONSUMPTION_UNVERIFIED`; if not consumed, retain it for `REVROT3-19-20261011:591:s4` at 15:48Z. This does not establish ChatGPT-thread delivery.
