@@ -80,3 +80,25 @@ The source-bearing documents read for this correction are tagged additively here
 | `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md` | `1b9a27c124c426b8f07c15237b1094db1b0df735` | `SOURCE-TAG-LEDGER`; `NATHAN-DIRECT-USER-ROLE-TURNS`; `CUMULATIVE-TAGGING`; `TIMELINE-FIRST`; `TERMINOLOGY-CROSSWALK`; `HISTORICAL-CURRENT-DEFINITION`; `CORRECTION-CHAIN`. |
 | Original `Tag Conversation Corpus` raw export | `6668ca60e451f8737903423727da7f9a430484e1` | `PRIMARY-RAW-CONVERSATION`; `USER-ROLE-SOURCE`; `10-USER-TURNS`; `ASSISTANT-TOOL-ROLES-KEPT-SEPARATE`; duplicate repository paths are one blob, not independent witnesses. |
 
+
+
+## 6. Direct raw-export re-read and message-level tag confirmation
+
+The original raw export was fetched by its recorded blob SHA and parsed directly in this run. It contains 515 mapping nodes: one root node without a message object and **514 message objects**, of which **10 have `author.role=user`**. The user-turn IDs and their source classifications are:
+
+| User message ID | Source classification |
+|---|---|
+| `5cd28ea9-1143-4f4a-94d7-2cb485f96310` | Navigation request to inspect Common notes; not a theory statement. |
+| `3b5e4c25-0184-4061-bc3a-3354de7bf3da` | Nathan Direct: standardize cumulative tagging; inspect tag selectivity/effectiveness; identify missing tag families; build SAT/standard terminology crosswalks and an historically ranked glossary. |
+| `1d68f3c0-932f-4903-93cb-2a778eb25b5e` | Nathan Direct: authorship boundary (the user is the archive's user speaker; assistants/other LLMs are separate); use repository timelines and earliest surfaced occurrences. |
+| `a620a5cb-66cf-4f12-bf99-17ff232d2559` | Nathan Direct: extract timelines/glossaries/summaries/full-theory sources first; build frequency-assisted tag candidates; make term/definition crosswalks interlinked and side-by-side. |
+| `57b983ab-4f5a-42d9-b2a4-6127c6d9fd6a` | Date fragment only: “May 22, 2024”; later corrected by the next message. Not a stable chronology assertion. |
+| `02fc19ab-8604-4451-98da-a5c3d75c0b9c` | Nathan Direct: corrects the source date to March 22 and asks for a conversation-ID locator in the Viewer. |
+| `0060977b-f2c9-4234-b157-3914c694930` | Nathan Direct acknowledgment: “Excellent, continue.” Tag as `ACKNOWLEDGMENT` / `NON-SUBSTANTIVE-CONTINUITY`, not a theory claim. This short turn is not in the prior Loom source-tag ledger; this amendment records its tag without duplicating substantive tagging. |
+| `c5ff2473-c4b6-455b-b813-f2af9b0ef31c` | Nathan Direct: chronology correction; March 22, 2024 supersedes the earlier late-August-2024 estimate, with February 2, 2025 distinguished as the first public discussion and 2003 notebook sketches retained as older antecedents. |
+| `e0463e7e-7e73-4e6c-b8e4-a61680f2e138` | Nathan Direct: asks the assistant to choose a name and establish a workspace. |
+| `ef6af80a-2bf8-4916-9b4f-2dac3e73ebaf` | Nathan Direct: accepts the name Loom and explicitly requests a continuity file. |
+
+The prior source-tag ledger contains the nine substantive/navigation/date/role turns other than the brief continuation acknowledgment. The new `ACKNOWLEDGMENT` tag is recorded here. No message is upgraded to a theory claim merely because it has user role; embedded or quoted assistant material remains separately attributed.
+
+**Charter status:** no standalone signed Loom charter was recovered. The historical remit is reconstructed from these ten direct user turns, the accepted name/continuity instruction, and the later assistant-maintained workspace summary. This is stronger than the mistaken Meridian cross-attribution, but it remains a source-grounded remit reconstruction rather than a verbatim standalone charter.
