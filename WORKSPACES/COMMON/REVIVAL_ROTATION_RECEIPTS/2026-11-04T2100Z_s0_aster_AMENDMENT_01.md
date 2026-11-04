@@ -6,7 +6,7 @@
 
 ## 1. Additional primary-source context for the 2026-10-21 curvature statement
 
-Raw source: *Meridian Minkowski Ring Analysis*, conversation `6ad7e9c0-e8a0-83ea-b3dd-7b23a26c00fa` is not the correct ID; the verified conversation ID is `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`, raw Git blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
+Raw source: *Meridian Minkowski Ring Analysis*, conversation `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`, raw Git blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
 
 The raw role graph confirms these user-role messages are on the same ancestor branch leading to `59cdedb4-be76-455a-87c8-a6089de951b3`:
 
