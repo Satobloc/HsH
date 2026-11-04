@@ -1,0 +1,79 @@
+{
+  "request_id": "ravel-kerr-timesheet-geometry-source-20261104-1235",
+  "query": "author:user AND (\"spatial Kerr\" OR \"mutual accommodation\" OR \"force is the true primitive\" OR \"intersectional surface\" OR \"multiple active representations\" OR \"4D filament\" OR \"Kerr should be the core\")",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "1d9b39babb82915b05dda47ebe5fd034108ab813",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "8c5bd8f32830081554716bf8612e882a6b050931",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "57d5d903a1b5db4b2491f2415782394358cc55ba",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "1d9b39babb82915b05dda47ebe5fd034108ab813",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "8c5bd8f32830081554716bf8612e882a6b050931",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "publication_policy": {
+    "public_files": [
+      "RUN_MANIFEST.json",
+      "SEARCH_RECEIPT.json",
+      "SEARCH_RECEIPT.md"
+    ],
+    "withheld_raw_files": [
+      "SEARCH_RESULTS.json",
+      "SEARCH_RESULTS.md"
+    ],
+    "reason": "unreviewed excerpts/source-class boundary and blob-size risk",
+    "raw_retention": "temporary Actions job workspace only"
+  },
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_exclusions": [
+    "mersearch_requests"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "8d64780743d7bfaecce609499699b3206884a7ba3b3d73218ccf4a5b2ab6d568",
+    "SEARCH_RESULTS.md": "a10c45b318fea6c39403554fc2c54a3e3c117e9976a8a40573e5d04b6ce3db7f",
+    "SEARCH_RECEIPT.json": "225a4ff2297caf9178e37535a77e92ccf3852e44c79fe71d96e96df6c7dbd5fa",
+    "SEARCH_RECEIPT.md": "74bfa97706422f71afb8a6705ce038730d5973769c6fc165ac62a8bd105ee60e"
+  }
+}
