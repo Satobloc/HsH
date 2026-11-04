@@ -191,3 +191,46 @@ FIE last full review: October 27; next due November 10. The most recent unrelate
 - Issue #1318 remains cancelled before validation; no retry or duplicate.
 - EvidenceLedger remains blocked pending independent Sable/Track B disposition.
 - No POC/production change, no physical calculation, no paper advancement, no theory promotion, no sixth task.
+
+
+## Verification addendum — 2026-11-04T2249Z
+
+The initial namespace repair triggered CI but exposed a second, genuine proof-engineering issue: `decide` could not synthesize `Decidable` for the acceptance predicate's existential token witness and the String/record equality expressions. The first repair was not called successful. A subsequent pattern-match definition was proved equivalent to the original existential nonempty-token statement; direct `decide` on the composite String/record propositions still failed. The final repair uses constructive status/mismatch lemmas, proves concrete String inequality through `String.toList`, and uses executable list/Nat comparisons for the `#eval` replay. A final command-comment syntax error was also corrected.
+
+### Final successful run
+
+- Final PR head: `d9fd60f461c2d0014c28d8aeb18edd0ffcbb79ad`.
+- Final module blob: `8fa26f99f22eeafcbc6a26cbc2f6f4b1c58646c5`.
+- Actions run: #41927936410; job #126917167928; conclusion SUCCESS.
+- Checked-out merge-reference commit: `6b4c9294065cdf242209d6d706cc56ec9bf395d4`.
+- PR-head and merge-reference `EliasProofTargetIdentity.lean` blobs are identical: `8fa26f99f22eeafcbc6a26cbc2f6f4b1c58646c5`.
+- Toolchain: Lean 4.34.0 / Lake 5.0.0.
+- Full root build: SUCCESS, 8,955 jobs.
+- Exact-head-only checkout: not performed. This is a successful merge-reference build with exact target-module blob match, not an exact-head build.
+- Tests, lint, nanoda, and the separate automated axiom-audit action were skipped.
+
+### Actual evaluation and theorem audit
+
+The six replay values were emitted in order:
+
+`false, true, false, true, false, true`.
+
+For the live h598 record specifically:
+
+- Scheduled-slot character-list equality: `false`.
+- Prior-result-created-before-current-attempt-start: `true`.
+
+The following current h598 theorems compiled:
+
+- `geometry_h598_latest_result_not_current`: no axioms reported.
+- `geometry_h598_latest_result_predates_attempt`: no axioms reported.
+- `geometry_h598_scheduled_slot_diff`: standard dependencies `propext`, `Classical.choice`, `Quot.sound`.
+- `geometry_h598_latest_result_wrong_occurrence`: standard dependencies `propext`, `Classical.choice`, `Quot.sound`.
+
+No custom axiom or `sorryAx` is reported for these targets. The full log contains no `sorryAx`, `sorry`, or standalone `admit` occurrence; the sole textual match in a broad search is the workflow configuration `nanoda-allow-sorry: true`, while the nanoda step itself was skipped. The separate automated axiom audit was also skipped.
+
+### Epistemic limit
+
+The formalized contract proves conditional rejection given the encoded fields and acceptance predicate. The connector payload itself does not expose a separate attempt token, and Lean does not authenticate the connector, establish scheduler backend semantics, validate the correctness of the timestamp conversion, or prove that the selected formal contract is the only valid attribution rule. The observed connector record and the formal contract remain separate evidence layers.
+
+PR #951 remains OPEN / DRAFT / UNMERGED. No merge, production change, EvidenceLedger adapter, or four-axis schema extension occurred. The Track B review gate remains pending.
