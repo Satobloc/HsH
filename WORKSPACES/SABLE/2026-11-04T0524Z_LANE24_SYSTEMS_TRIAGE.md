@@ -5,7 +5,7 @@
 
 ## 1. Worker identity and remit
 
-The deterministic ring selected **Sable**; the successor is **Loom**. This is a worker-label selection, not authentication of a live ChatGPT instance or thread. The historical Sable source was recovered and read, but no current authenticated Sable thread was established. The Sable README is an assistant-maintained synthesis, not a new Nathan-authored charter.
+The deterministic ring selected **Sable**; the successor is **Loom**. This is a worker-label selection, not authentication of a live ChatGPT instance or thread. The historical Sable source was recovered and read: raw conversation ID `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, including direct user-role message `d3976dcf-c5dc-49c7-a523-e6469f4910db` (2026-09-22 04:03Z) specifying large-bite bulk triage through a sieve and Mersearch/Mercer_Searcher. No current authenticated Sable thread was established. The Sable README is an assistant-maintained synthesis, not a new Nathan-authored charter.
 
 The historical user-role material assigns Sable broad systems analysis and capability architecture: team-machine analysis, automation/tool leverage, archive/resource coverage, reconstruction strategy, and meeting preparation. It also explicitly keeps routine source tagging, broad raw-message extraction, and specialist solver work with their designated workers. This run therefore performs cross-branch triage and proof-status reconciliation, not a substitute for Loom's corpus/provenance work or Kestrel's readout formalization.
 
