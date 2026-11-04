@@ -500,4 +500,6 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 - Key correction: raw Calder user-role material locates the first explicit worldtube-fabric description on 2026-08-26 at 14:15:19.209Z, the first direct lower-case “Klein fabric” phrase at 23:17:43.741012Z, and the fuller current-ancestry construction at 23:41:28.815654Z. The 2026-10-21 message is a later supersession marker, not first use.
 - The 2023 ambient-spacetime susceptibility hypothesis is a distinct source object from the 2026 worldtube/Klein-fabric proposal; no direct equivalence or continuous genealogy is established.
 - Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Ariadne's archive/source-archaeology remit and existing work remain primary.
+
+- Readback/checksums: packet blob `73f41f96025e945562afcabdc0b588992cb3969a`; Aster note blob `dd9c5422418c519da4af858132fc0ce001fabfcf`; Aster note SHA-256 `6f57c9171b9e91148ffdddc32406c98d3546ffacbd89eb1be199b1a6417d9dcb`; correction artifact blob `8f4cf06ce9e6c080e73ef324f333f492e6f68841`; correction payload SHA-256 `d6ef90c9d7612e022abf21a9f5f9819ea9fe5b4afff4f0eeb7b8162f7bf38a3f`.
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
