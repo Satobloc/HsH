@@ -247,3 +247,10 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 - P2 routing only: public 2026 Nature Physics dataset for first reproducible linear/mode study; PRL six-wave result is a follow-on discriminator only if author data/new independent measurement becomes available. No P2 selection or assignment.
 - Public intake issue #1275: corrected body hash is `6c38bf4820f96da77ad8035aa49ec6bbc1cb57d00323ef6113c68f94c70645d1`; initial publisher attempt rejected the earlier digest; artifact remains absent because edits do not retrigger the current issues.opened-only workflow. Do not duplicate or direct-write.
 - No H(s)H equation or prediction was used in Aldus's external baseline. No task or ownership transfer. Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+
+## 2026-11-04T2148Z | Aldus late optional MIND/geometry QC handoff
+
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2148Z_from_s4_to_s0_calder.md` (blob `c7565388375633c29e5b35c2b51956d0738a97a7`).
+- Content: source-provenance distinction between mirrored/shared tool work items and independent model generations; comparison with ConsistencyBench serial conditioning and LLM-only SimDelib; independent source check of Nadir's already-published two-antipodal parity-sieve result; existing `CognitionSourceOverlap.lean` proof boundary.
+- Status: `LATE_OPTIONAL_CONTEXT_ONLY`. Calder's h598:s0 :00 execution had already started before this packet was written. This is a repository inbox pointer only; no authenticated Calder thread, direct chat delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
