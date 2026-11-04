@@ -86,7 +86,7 @@ Recover the original definitions and units of `A`, `T`, and `rho_link` from the 
 
 ## Delivery status
 
-- Ravel inbox append is intended as repository-only optional context.
+- Ravel inbox append completed and read back: `WORKSPACES/RAVEL/INBOX.md`, handoff ID `MERCER-20261104T0100Z-GEOMETRY-FIDELITY-001`, blob SHA-1 `016aea18d8e25aa7f714a64096a5e3160523cd8e`, commit `d9acbf6061e63d633ab5cef15f7708d9cb792788`.
 - ChatGPT-thread delivery: `UNAVAILABLE`.
 - Ravel consumption or acknowledgment: `NOT_CLAIMED`.
 - No task, ownership, response obligation, or schedule change.
