@@ -1,29 +1,18 @@
 {
-  "request_id": "mira-mind-braid-interaction-origin-20261103-2248",
-  "requester": "Workshop Relay :48 / Mira ring label; current assistant reconstruction, not an authenticated historical Mira thread",
-  "requested_at": "2026-11-03T22:22:00Z",
+  "request_id": "ravel-kerr-timesheet-geometry-source-20261104-1235",
+  "requester": "Workshop Relay :36 / Ravel ring label; deterministic selection only, not an authenticated historical Ravel thread",
+  "requested_at": "2026-11-04T12:35:23.207314Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"multi-agent\" OR \"human-LLM\" OR \"agent group\" OR \"group interaction\" OR \"peer interaction\" OR \"message passing\" OR \"cross-agent\" OR \"shared context\") OR (braid OR \"Braid Theory\" OR \"triple braid\" OR \"braid of braids\" OR cabling OR \"configuration space\" OR worldline OR worldtube OR timesheet))) OR ((path:*MIRA* OR path:*BRAID* OR path:*AGENT* OR path:*COGNITION*) AND (braid OR \"group interaction\" OR \"message passing\" OR \"peer exposure\" OR \"shared context\" OR worldline OR worldtube OR timesheet))",
-  "purpose": "Internal-first source recovery only. Locate Nathan Direct original statements about braid/braided-worldtube geometry and documented human-LLM or agent-group interaction records. Identify actual archived interaction records rather than synthetic models or static cross-model comparisons. Preserve exact repository/path, source commit/blob SHA, conversation/message UUIDs, outer role, parent ancestry, timestamps, model/provider metadata, recipient exposure/delivery evidence, raw output locators, source hashes, and duplicate/copy lineage. Distinguish source-authored geometry, assistant reconstruction, actual observed interaction, and proposed experiment. This is discovery and source-custody work, not a new trial or theory claim.",
+  "query": "author:user AND (\"spatial Kerr\" OR \"mutual accommodation\" OR \"force is the true primitive\" OR \"intersectional surface\" OR \"multiple active representations\" OR \"4D filament\" OR \"Kerr should be the core\")",
+  "purpose": "Internal-first primary-source recovery for the Ravel worldtube/Kerr/timesheet geometry. Locate Nathan Direct original messages and corrections across all three permitted repositories; preserve exact source path, repository/source commit, blob SHA, conversation/message UUID, timestamp, parent/adjacent context and author role. Specifically distinguish (A) direct 1D spine/4D filament/4D finite-core wording, (B) the selected spatial Kerr section and its extension along the filament, (C) the 3D timesheet/current simultaneity surface and the three active representations, (D) the direct force/mutual-accommodation statement, (E) assistant-authored product ansatz, shell/ergosphere, Blockwave current and later reconstructions, and (F) later corrections/supersessions. This is source custody and architecture triage only: no physical calculation, no data-free numerical fixture, no theory promotion, no public excerpts or private HSH_RESOURCES path disclosure.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original user-role braid/geometry messages with conversation/message IDs, timestamps, parent IDs and adjacent context",
-    "candidate documented human-LLM/agent interaction records with recipient exposure and delivery evidence",
-    "source blob hashes, branch/ancestry, duplicate/snapshot/derivative relationships",
-    "explicit three-repository coverage, exclusions and limitations"
-  ],
-  "exclusions": [
-    "Do not publish raw excerpts or detailed HSH_RESOURCES paths/content",
-    "Preserve default QUARANTINE and PRIOR_ART exclusions",
-    "Do not re-run or reanalyze Orson's frozen ConsistencyBench/OV P1 dataset or bank",
-    "Do not infer peer exposure from static cross-model comparisons, synthetic agents, model labels, or shared evaluator outputs",
-    "No model calls, API spend, human-subject session, new trial, invented subject result, or fabricated data",
-    "No new tooling, branch, PR, issue, paper claim, theory integration, BEDROCK change, paper-gate advancement, or automation/scheduler modification"
-  ],
-  "status": "requested",
-  "lane": 3
+    "candidate Nathan Direct messages with exact path/blob/conversation/message IDs, timestamps, author role and adjacent context",
+    "source-version and duplicate/copy lineage across the three repositories",
+    "explicit coverage/exclusion/size limitations and exact return cursor"
+  ]
 }
