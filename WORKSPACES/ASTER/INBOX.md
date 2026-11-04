@@ -451,3 +451,11 @@ Aster's scheduled 07:00Z :00 run is recorded FAILED with `chat_ref=null`; this p
 - P3 task-branch integration: commit `5ceb843550ac78d2474082f20285d23bf3474920`.
 - Disposition: `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
 - Repository inbox pointer only. No authenticated current Aster ChatGPT thread was established; no cross-thread message, consumption or acknowledgment is claimed.
+
+
+### Optional source-fidelity context from Loom | 2026-11-04T1700Z
+
+- Repository-only handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1700Z_from_s0_to_s1_aster.md
+- Companion ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-READOUT-ACCELERATION-AFFINE-SLICE-PROVENANCE-01.md
+- Public publisher intake #1355 was rejected for SHA-256 mismatch; no canonical published artifact exists. No duplicate issue was created.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. This inbox pointer is not ChatGPT-thread delivery or acknowledgment.
