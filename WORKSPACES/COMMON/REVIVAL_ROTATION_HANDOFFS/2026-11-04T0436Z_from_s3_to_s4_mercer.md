@@ -10,7 +10,7 @@
 
 - Report: `WORKSPACES/MERIDIAN/2026-11-04T0436Z_CODE_GRURPLE_PDF_FIRST_REENTRY_CONTRACT.md`
 - Report blob: `0bba6aa2bed869d5137a8adcb9a6ddae68869416`
-- Meridian checkpoint: `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md`, appended run 155; final blob `499783385ead64e6faff5d944a6e35a109d6b6af`.
+- Meridian checkpoint: `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md`, appended run 155; final blob `6c31805a9730b0e36d7d3b41467666d612feb7fc`.
 
 ## Optional context
 
