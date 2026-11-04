@@ -451,3 +451,9 @@ The historical Morrow archive ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` is an ar
 
 **Classification:** `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Preserve Morrow's Team Archivist/archive-provenance remit and direct theory stop.
 
+
+
+
+## 2026-11-04T1541Z | Tern scheduler post-check correction
+
+Addendum to `TERN-REVROT-20261104T1524Z-MORROW-001` and the linked Tern receipt. The :48 run `c51cede1-cab4-832a-94a1-8c6afb99d947` completed at 15:40:36Z; its 13:48Z scheduled slot had an 89.50-minute start lag. The :36 task still reports the prior h590 14:36Z run as `in_progress`, restarted at 15:34:05Z, `chat_ref=null`; the h591:s3 Morrow slot is not visible in the last-run field. The :24 h591 Tern run remains `in_progress`, `chat_ref=null`; its displayed Kestrel h580 result now carries a chat reference, but that is the prior result's reference, not Tern's. No Morrow thread delivery, consumption, or acknowledgment is claimed. No task change or response obligation.
