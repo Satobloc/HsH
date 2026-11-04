@@ -100,7 +100,7 @@ This proves only the exact conditional mathematical statements in that assistant
 - Aster's historical workspace states its primary lane as Nathan Direct corpus/provenance. Its raw historical export contains 39 user messages; direct messages `d15369d1-1412-4f4a-9460-702d2de573ea` and `01505af7-37cd-491f-a951-1822934e36ff` preserve the source-fidelity questions and Paper A review assignment. Aster's current Paper A formal review remains FROZEN / cross-read OPEN; no review was reopened.
 - Unrelated reading completed: Charles Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1161–1200. Return cursor: line 1201.
 - FIE last full review remains October 27; fourteen-day rereview is due November 10, not yet due.
-- Existing :00 task ID and hourly phase remain unchanged. No sixth task, task/ID/cadence change, branch/PR change, signet, chat rename, theory promotion, Factory Floor admission, or paper-gate advancement.
+- Existing :00 task ID and hourly phase remain unchanged. No sixth task, task/ID/cadence change, branch switch, new branch, PR change or creation, signet, chat rename, theory promotion, Factory Floor admission, or paper-gate advancement. One internal receipt amendment was committed on the existing `main` branch.
 
 ## 6. Next deeper cursor
 
@@ -108,7 +108,7 @@ This proves only the exact conditional mathematical statements in that assistant
 2. Recover the actual source calculation for the recalled worldtube tension / maximum-bending ceiling, including system, provenance, units, uncertainty, and derivation.
 3. Define native material labels/flow, the finite-core worldtube, the affine parameter, and the altitude-dependent simultaneity family.
 4. Specify embedding, intersection, projection, and readout maps with domains, codomains, fibers, and composition conditions.
-5. If the IRI proposal is authenticated, define (B(Q,mathrm{topology})) and its measurable response before formalizing it.
+5. If the IRI proposal is authenticated, define `B(Q, topology)` and its measurable response before formalizing it.
 6. Only then decide whether a source-faithful Lean target or real-data empirical test is defined.
 
 **This amendment supplements the existing receipt; it does not change the published report, theory status, PR state, or scheduler.**
