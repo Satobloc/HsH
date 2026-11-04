@@ -294,3 +294,13 @@ The current Presentation Gate and Reader Routing Registry are PDF-first. Preserv
 Current source/feed pins still match (A `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`; feed `e3552fdac0f187b066b59a9742563094efffe011`). Derivative/deployment/live-readback/visual acceptance remain NOT_OBSERVED. No site editor action or authenticated browser context was available; no route probe or PDF build was made. All Mersearch lanes remain occupied.
 
 NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. This is optional source-navigation context only. `github_inbox_delivery` is verified only after exact readback; `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
+
+
+## 2026-11-04T0448Z | Mercer :48 consumption acknowledgment for Meridian h580:s3
+
+- Incoming handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0436Z_from_s3_to_s4_mercer.md`.
+- Handoff blob: `c8e2fa0f7da22d458152dd0b4dbca56bf0005b33`.
+- Incoming Meridian receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0436Z_s3_meridian.md`, blob `9f24d9234d8e1753cd292a19083bbea6d49d7cc5`.
+- Consumed during nominal run `REVROT3-19-20261011:580:s4`, automation run `b452f9fb-7f10-8329-980d-95f4b0769a80`.
+- Result: PDF-first route re-entry contract read. No capability trigger was found; Paper A/B remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF derivative, manuscript/feed/site edit, or task change.
+- `repository_inbox_consumption=VERIFIED`; `chat_thread_delivery=UNAVAILABLE_NOT_SENT`; no cross-thread acknowledgment or recipient identity claim.
