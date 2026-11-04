@@ -14,7 +14,7 @@ Historical source locator: [Sable workspace README](https://github.com/Satobloc/
 ## 2. Control state read before work
 
 - HsH main branch at read: `051516a6da20ac09273667219a3a4b9762fe892c`.
-- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json`: blob `47e7af...`; graph snapshot updated 2026-11-04 03:00:26Z, 16 branches.
+- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json`: blob `47e7af709d6493babc1fab0a848b2330695aec05`; graph snapshot updated 2026-11-04 03:00:26Z, 16 branches.
 - `WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md`: Code Grurple remains ACTIVE.
 - Steering Charter 2026-10-26 and Three Paper Campaign 2026-10-26 read. P1, P2, and P3 gates remain separate.
 - P2 docket [issue #565](https://github.com/Satobloc/HsH/issues/565) remains open with no final system selected. P2 remains BACKSEAT/HOLD while the Code Grurple interlock is active.
@@ -30,9 +30,9 @@ The following are direct user-role source messages, not assistant reconstruction
 Raw conversation ID: `6ac45d1f-17b0-83ea-ad1f-fa524602378b`  
 Raw blob SHA-1: `7af1561b321f4d9364da5eb111df689efc652827`
 
-- `3c657387-b80b-4982-a61a-8e6d8568b8d1`, 2026-10-08 23:10:55Z: Nathan states that filament motion is not the primitive; particle motion is expressed through filament topology, and proposes worldtube curvature/inertial resistance at the classical limit. The literal time-length notation is `w=ct`.
+- `3c657387-b80b-4982-a61a-8e6d8568b8d1`, 2026-10-09 01:50:55Z: Nathan states that filament motion is not the primitive; particle motion is expressed through filament topology, and proposes worldtube curvature/inertial resistance at the classical limit. The literal time-length notation is `w=ct`.
 - The assistant child `2693a3a8-8218-4f00-aeb7-74d92e1d1a77` introduces the Euclidean lift `X(w)=(x(w),w)` and its curvature formula. That lift is assistant-authored mathematical reconstruction, not a Nathan Direct equation.
-- `1178f25c-9f92-4d1c-b43b-06482e6bf1b1`, 2026-10-09 05:00:38Z: Nathan corrects the scale interpretation: the quoted sub-femtometre value is a first-order coil-radius/scale, not filament thickness; the primary object is a 4D coil/worldtube, while the earlier 3D depiction is an intersectional trace.
+- `1178f25c-9f92-4d1c-b43b-06482e6bf1b1`, 2026-10-09 07:40:38Z: Nathan corrects the scale interpretation: the quoted sub-femtometre value is a first-order coil-radius/scale, not filament thickness; the primary object is a 4D coil/worldtube, while the earlier 3D depiction is an intersectional trace.
 - `b27ec702-f976-4273-8d87-166ecccdfeb8`, 2026-10-09 00:09:59Z, and `59c5c4c6-c914-48d4-af4c-5f53a1698f37`, 2026-10-09 00:35:17Z: the ER/Kerr core/worldtube and Kerr shell are explicitly tentative hypotheses. They are not established physical consequences.
 
 ### Meridian Minkowski Ring Analysis
@@ -68,7 +68,7 @@ The 2026 preprint parameterizes the spin-induced moments in geometric units as
 [
 Q=-kappachi^2m^3,qquad O=-lambdachi^3m^4,
 ]
-with Kerr values κ=λ=1. It uses an IMRPhenomXPHM waveform analysis. Simultaneously freeing both objects' quadrupole and octupole deviations is poorly informative, so the tighter symmetric combinations set the antisymmetric combinations to zero. Under the symmetric prior the reported 90% intervals are δκ_s = -0.6^{+1.6}_{-3.8} and δλ_s = -5.8^{+13.9}_{-45.6}; the positive-prior analysis reports upper bounds. The alternative one-body parameterization, with the secondary assumed Kerr, is extremely broad: δκ_1 = -9.1^{+12.1}_{-233.01} and δλ_1 = -33.8^{+403.3}_{-409.6}.
+with Kerr values κ=λ=1. It uses an IMRPhenomXPHM waveform analysis. Simultaneously freeing both objects' quadrupole and octupole deviations is poorly informative, so the tighter symmetric combinations set the antisymmetric combinations to zero. Under the symmetric prior the reported 90% intervals are δκ_s = -0.6^{+1.6}_{-3.8} and δλ_s = -5.8^{+13.9}_{-45.6}; the positive-prior analysis reports upper bounds δκ_s ≤ 1.4 and δλ_s ≤ 11.2. The alternative one-body parameterization, with the secondary assumed Kerr, is extremely broad: δκ_1 = -9.1^{+12.1}_{-233.01} and δλ_1 = -33.8^{+403.3}_{-409.6}.
 
 The relevant identifiability algebra is
 [
