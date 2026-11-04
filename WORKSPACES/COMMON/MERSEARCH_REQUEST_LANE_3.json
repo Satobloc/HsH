@@ -1,18 +1,19 @@
 {
-  "request_id": "hale-archive-source-lineage-20261104-1538",
-  "requester": "Workshop Relay :36 / Hale ring label; deterministic selection only, not an authenticated historical Hale thread",
-  "requested_at": "2026-11-04T15:38:24Z",
+  "request_id": "sable-reviewmind-cognition-branch-sieve-20261104-1747",
+  "requester": "Workshop Relay :48 / Sable ring label; deterministic selection only, not an authenticated historical Sable thread",
+  "requested_at": "2026-11-04T18:01:26.574Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "author:user AND (\"arXiv scanner\" OR \"arxiv_sat_scanner\" OR \"matched 2024\" OR \"2024-vs-2026\" OR \"1328 records\")",
-  "purpose": "Recover the original Hale source conversation and any Nathan Direct specialist instructions behind the September 12 external-literature/scanner remit. Distinguish direct user-role source messages from Hale's self-authored CHECKINS entry, assistant-authored REV-006 wake reconstruction, later relay summaries, and external-source records. Preserve exact repository/path/source commit/blob SHA/conversation ID/message UUID/outer role/timestamp/parent/adjacent context and duplicate-copy lineage. Determine whether a standalone Nathan-authored Hale specialist charter exists or whether the check-in is the strongest verified source. This is archive provenance and source-identity work only; no physical calculation, no theory promotion, no public excerpts, no private HSH_RESOURCES path disclosure.",
+  "query": "author:user AND ((\"human-LLM\" OR \"human LLM\" OR \"LLM group\" OR \"agent group\" OR \"multi-agent\" OR \"multi agent\" OR \"group interaction\" OR \"agent teams\" OR \"shared evaluator\" OR \"source independence\") OR ((\"consciousness\" OR \"ontic\" OR \"quiet\" OR \"silent\" OR \"nested\" OR \"Chinese Room\" OR \"Morsefish\" OR \"observer\" OR \"self-model\" OR \"self-reference\" OR \"attention\" OR \"feedback\" OR \"recursion\" OR \"recursive\") AND (\"AI\" OR \"LLM\" OR \"agent\" OR \"model\" OR \"mind\" OR \"group\")))",
+  "purpose": "Bounded Review-MIND source-discovery pass seeded from the historical Sable branch-sieve vocabulary. Identify original Nathan user-role records about actual human–LLM interaction, agent/group organization, observer and epistemic questions, self-modeling, feedback, attention, recursion, and adjacent cognition topics. Separate naturalistic human–LLM interaction from LLM-only simulated deliberation, philosophical discussion, assistant-generated reconstruction, podcast exposure, and tool output. Preserve duplicate/copy families rather than counting them as independent sources. Return exact repository/path/source commit and conversation/message locators where available, plus source-class, chronology, exposure and coverage limits. Discovery only: do not infer assistant consciousness/personhood, actual cross-agent causal influence, or P1 experimental results. Do not alter Orson's frozen P1 scope or ownership; no raw excerpts, no private HSH_RESOURCES paths, no publication, no theory promotion.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate original user-role messages with exact path/blob/conversation/message IDs, timestamps, outer role and parent context",
-    "source-version and duplicate/copy lineage across all three permitted repositories",
-    "explicit coverage/exclusion/size limitations and exact return cursor"
+    "compact top-source paths and exact message locators where available",
+    "duplicate/copy-family and source-class distinctions",
+    "counts by repository/root and explicit extension, size, quarantine and coverage limitations",
+    "exact return cursor; no raw excerpts or private resources paths"
   ]
 }
