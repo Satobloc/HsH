@@ -53,11 +53,33 @@ namespace HsHVerification.RavelCarrierSheetDimensionGate
     exists and the carrier dimension does not exceed the ambient dimension. -/
 def normalComplementRank (ambient carrier : Nat) : Nat := ambient - carrier
 
-/-- Expected dimension of a transverse intersection of submanifolds with
-    dimensions `left` and `right` in an `ambient`-dimensional manifold. -/
+/-- Nat-valued convenience for nonnegative expected dimensions only.
+    When `left + right < ambient`, natural subtraction truncates the
+    negative expected dimension to zero; use
+    `expectedTransverseIntersectionOutcome` for the generic-empty case. -/
 def expectedTransverseIntersectionDimension
     (left right ambient : Nat) : Nat :=
   left + right - ambient
+
+/-- A typed result for a generic transverse-intersection dimension.
+    Negative expected dimension is represented as generic emptiness with
+    a positive deficit, not truncated to Nat zero. -/
+inductive ExpectedTransverseIntersectionOutcome where
+  | genericEmpty (deficit : Nat)
+  | dimension (value : Nat)
+  deriving DecidableEq, Repr
+
+/-- Classify the expected generic transverse-intersection result while
+    preserving the distinction between generic emptiness and a 0D point
+    intersection. This is dimension bookkeeping conditional on
+    transversality, not a proof that a particular physical intersection
+    exists or is transverse. -/
+def expectedTransverseIntersectionOutcome
+    (left right ambient : Nat) : ExpectedTransverseIntersectionOutcome :=
+  if h : left + right < ambient then
+    .genericEmpty (ambient - (left + right))
+  else
+    .dimension (left + right - ambient)
 
 /-- The carrier-slice dimension for a k-dimensional carrier and a 3D
     timesheet in a 4D ambient space, conditional on transversality. -/
@@ -128,8 +150,64 @@ theorem line_trace_ne_full_core_slice :
       expectedTransverseIntersectionDimension 4 3 4 := by
   decide
 
+
+/-!
+## Typed expected-intersection outcomes
+
+The legacy Nat helper maps both a negative expected dimension and a genuine
+zero-dimensional expected intersection to zero. The typed companion keeps
+those cases distinct. Aldus independently identified this truncation hazard
+in the 2026-11-02 cross-read of PR #1133 (comment #6573688058).
+-/
+
+/-- Two 1D carriers in a 4D ambient space have negative expected
+    transverse-intersection dimension, hence generic emptiness. -/
+theorem expected_two_lines_in_four_dimensions_is_generic_empty :
+    expectedTransverseIntersectionOutcome 1 1 4 =
+      .genericEmpty 2 := by
+  decide
+
+/-- A 1D carrier and a 3D timesheet in 4D have a 0D expected
+    transverse intersection. -/
+theorem expected_line_timesheet_in_four_dimensions_is_zero_dimensional :
+    expectedTransverseIntersectionOutcome 1 3 4 =
+      .dimension 0 := by
+  decide
+
+/-- A full 4D core region and a 3D timesheet in 4D have a 3D
+    expected intersection. -/
+theorem expected_full_core_timesheet_in_four_dimensions_is_three_dimensional :
+    expectedTransverseIntersectionOutcome 4 3 4 =
+      .dimension 3 := by
+  decide
+
+/-- Regression witness: the legacy Nat helper conflates a generic-empty
+    1D/1D intersection with a genuine 0D 1D/3D intersection in 4D. -/
+theorem legacy_nat_helper_conflates_empty_and_point :
+    expectedTransverseIntersectionDimension 1 1 4 =
+      expectedTransverseIntersectionDimension 1 3 4 := by
+  decide
+
+/-- The typed result separates the same two cases. -/
+theorem typed_outcome_separates_empty_and_point :
+    expectedTransverseIntersectionOutcome 1 1 4 ≠
+      expectedTransverseIntersectionOutcome 1 3 4 := by
+  decide
+
+/-- In the nonnegative regime, the typed result agrees with the legacy
+    Nat-valued dimension formula. -/
+theorem nonnegative_outcome_agrees_with_nat_helper
+    (left right ambient : Nat) (h : ambient ≤ left + right) :
+    expectedTransverseIntersectionOutcome left right ambient =
+      .dimension (expectedTransverseIntersectionDimension left right ambient) := by
+  simp [expectedTransverseIntersectionOutcome,
+    expectedTransverseIntersectionDimension, Nat.not_lt.mpr h]
+
 #eval [carrierProfile 1, carrierProfile 2,
        carrierProfile 3, carrierProfile 4]
+#eval [expectedTransverseIntersectionOutcome 1 1 4,
+       expectedTransverseIntersectionOutcome 1 3 4,
+       expectedTransverseIntersectionOutcome 4 3 4]
 
 /-- A tube with a zero section and retraction does not automatically project
     its timesheet slice onto the carrier's timesheet slice. The extra
@@ -209,5 +287,11 @@ theorem zeroSection_embedding_agrees_with_carrier
 #print axioms fullDimensionalCarrierNormalComplementRank
 #print axioms positiveNormalRank_implies_carrier_lt_four
 #print axioms inducedMap_commutingWitness
+#print axioms expected_two_lines_in_four_dimensions_is_generic_empty
+#print axioms expected_line_timesheet_in_four_dimensions_is_zero_dimensional
+#print axioms expected_full_core_timesheet_in_four_dimensions_is_three_dimensional
+#print axioms legacy_nat_helper_conflates_empty_and_point
+#print axioms typed_outcome_separates_empty_and_point
+#print axioms nonnegative_outcome_agrees_with_nat_helper
 
 end HsHVerification.RavelCarrierSheetDimensionGate
