@@ -234,7 +234,7 @@ def isHierarchyDependentMechanism : ObjectTerm → Bool
 theorem hierarchyDependentTermsAreExactlyNearCoreMechanisms (t : ObjectTerm) :
     isHierarchyDependentMechanism t = true ↔
       primaryRole t = .nearCoreMechanism := by
-  cases t <;> rfl
+  cases t <;> simp [isHierarchyDependentMechanism, primaryRole]
 
 /--
 A dependency graph contract for a single primitive anchor.
@@ -246,7 +246,7 @@ strictly decrease and therefore rules out circular derivations.
 structure SingleAnchorDependency (Node : Type) where
   anchor : Node
   rank : Node → Nat
-  parents : Node → Set Node
+  parents : Node → Finset Node
   anchorHasNoParents : parents anchor = ∅
   everyNonAnchorHasParent :
     ∀ n, n ≠ anchor → (parents n).Nonempty
@@ -288,7 +288,7 @@ theorem onlyAnchorCanBeARoot
     (hn : g.parents n = ∅) : n = g.anchor := by
   by_contra hneq
   obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hneq
-  simpa [hn] using hp
+  simp [hn] at hp
 
 theorem everyNodeReachesAnchor
     {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
