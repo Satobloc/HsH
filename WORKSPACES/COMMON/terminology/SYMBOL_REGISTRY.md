@@ -62,17 +62,23 @@ A symbol appearing here is **not automatically canonical theory**. The entry rec
 
 - **canonical_symbol:** `B`
 - **namespace:** `SAT/HSH` pending genealogy split if needed
-- **display_name:** historical SAT / current H(s)H B quantity
+- **display_name:** historical SAT/H(s)H B candidate (`3/(4π)` lineage only)
 - **aliases:** `B`, `3/(4π)`, `3/4pi` where explicitly identified by source
-- **meaning:** project quantity numerically/algebraically identified in many sources with `3/(4π)`; its exact geometric interpretation and historical derivation remain under provenance audit
+- **meaning:** one historical project scalar candidate identified in some source artifacts with `3/(4π)`; its exact geometric interpretation and derivation remain unresolved. This entry does not absorb other uses of the glyph `B`.
 - **mathematical_type:** dimensionless scalar
 - **dimensions:** `1`
 - **units:** dimensionless; do not call the value “radians” unless a particular angular construction explicitly supplies that interpretation
 - **domain_or_solver:** SAT / H(s)H metrology and geometry
 - **equations_or_relations:** commonly `B = 3/(4π)`; current local circle-packing observation gives exact algebraic identity `1/(2Δ_3)=3/(4π)`
 - **epistemic_status:** numeric identity standard; project role/origin unresolved / provenance-controlled
-- **known_collisions:** multiple historical descriptions such as projection constant, volume-normalization quantity, stability-related quantity; do not merge these descriptions without derivation
-- **does_not_imply:** the circle-packing identity proves that the circle-packing construction is the source of historical `B`
+- **known_collisions:**
+  - Historical descriptions include projection constant, volume-normalization quantity, and stability-related quantity; do not merge without derivation.
+  - `B(t)` in BR-006 is an assistant-formalized, subsequently Nathan-approved unwrapped braid-history count. It is time-dependent and is not the constant `B=3/(4π)`; see the raw-source recovery and attribution in HsH issue #1369. Do not alias.
+  - `B` in `KEY CONCEPT - IRI.txt` / `B_IS_INVERSE_REFRACTIVE_INDEX.md` is a candidate inverse-refractive-index-like response of a worldtube relative to the time-bulk. Raw message ID and speaker provenance remain unresolved; retain `SOURCE_UNRESOLVED` and do not promote.
+  - `B=3/(4π)` in the 2026-02-27 Boiling Point Estimation user-role message `654824a9-40b6-4047-8a72-22631678d890` appears inside pasted content; outer role=user does not authenticate embedded authorship. Treat as a historical assertion, not a Nathan Direct derivation.
+  - `B≈0.2387 rad` in the 4DHH Lagrangian extraction is assistant-generated; its radian interpretation is not independently source-defined.
+  - The 2026-02-25 `0.239 rad` projection-artifact statements and the 2025-05-09 `0.246 rad` assistant optical simulation are separate lineages; neither is an alias for `B`. The 2025-06-23 direct correction rejects the earlier refractive-index/`θ₄` mapping.
+- **does_not_imply:** the circle-packing identity proves the historical source of `B`; `B(t)` is the same object as the `3/(4π)` scalar; the IRI response candidate is the same object; or the numeric value has units of radians without a source-defined angular construction
 
 ---
 
