@@ -21,3 +21,16 @@ The addendum proposes separate cohort, text-version, and retrieval-completeness 
 The v0.7 candidate's exact lineage remains unverified because its v0.6 base file is missing; the stopword-bridged bigram defect remains. No full matched-year crawl was run. P2 remains ACTIVE with no selected system; Code Grurple remains ACTIVE.
 
 Elias's existing Track A Switchboard remit remains controlling. This note does not request any Track A change, production action, theory work, response, or ownership transfer.
+
+
+## Amendment 01 — P2 lineage and PR #790 current-head status | 2026-11-04T15:26Z
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** This amends the existing h590:s3 handoff; it does not replace Elias's Track A Switchboard remit.
+
+- Hale amendment report: `WORKSPACES/HALE/2026-11-04T1526Z_P2_SOURCE_LINEAGE_PROJECTION_AND_PR790_HEAD_AMENDMENT.md` (blob `5fc5fa08d3ec819fbfec3730d7fef31bf6452905`).
+- P2 task graph update: commit `58f8018ff71d16d003cdd8ec9cce193a4ca709e9`, blob `faf2ce3d2a94347c3823375130aef6e3849817b1`, exact readback PASS.
+- Public additive correction: issue #1353, PUBLISHED_VERIFIED; artifact SHA-256 `236322425cf3b0c083e510fba5bc1fcc2b556315b390d4ca58d5fab58ad80459`.
+
+PR #790's current branch head is `163ab3e71c69d49dcde62da7401a3cac2a8a4976`. Its source-level label correction is present (`bothChannelsPresent`, `ClaimLineageAxes/classifyAxes`), but exact-head Actions run #41841721601 fails; the earlier 883efd success is superseded. Do not treat the module as current-head build-green or as a P2 replication gate. The source-lineage axes are only a partial P2 projection; acquisition/event, instrument/calibration, analysis/prior, covariance, calibration/holdout and holdout-access evidence remain separate. The owner repair remains with Ariadne; no task is assigned to Elias and no PR takeover is requested.
+
+The prior arXiv cohort-date/text-version context and issue #1352 remain unchanged. No P2 system, physical prediction, fit, holdout, Factory Floor admission, or theory promotion is claimed. No authenticated Elias ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
