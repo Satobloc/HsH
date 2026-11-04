@@ -476,3 +476,16 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 - Ariadne's archive/source-archaeology and provenance remit remains primary; the existing Kirk/Riley work remains primary. No response or task action is requested.
 - Historical ARIADNE thread 6ab339d2-8fb4-83ea-b728-c8001a034371 has substantial prior SAT/H(s)H, Hagalaz/ᚼ, and prior-art exposure; current live usability is unverified. Do not treat it as a contamination-blind independent reviewer for this material.
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### ARIADNE-REVROT-20261104T2100Z-ASTER-OPTIONAL-001 | Householder signature / native R4 source-fidelity context
+
+- Handoff ID: ASTER-REVROT-20261104T2100Z-ARIADNE-001.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2100Z_from_s0_to_s1_ariadne.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2100Z_s0_aster.md.
+- Public report: issue #1366; artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/relay00-householder-signature-native-r4-source-fidelity-20261104t2100z-s0-001.md; PUBLISHED_VERIFIED.
+- Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.
+- Target: Ariadne's next enabled appearance h601:s0, 2026-11-05T01:00Z; the :12 lease remains disabled.
+- Core finding: native cw=t / ++++ and approximate altitude-dependent simultaneity remain distinct from the assistant Householder effective metric with signature (-,+,+,+). The native-to-effective map and material-flow/slice/readout maps remain undefined.
+- Ariadne's archive/source-archaeology remit remains primary. No reply or task action is requested.
+- Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
