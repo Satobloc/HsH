@@ -116,3 +116,15 @@ The existing issue #1343 supplies the broader required-map contract, including t
 5. Preserve the existing Mersearch request lanes; at this audit all four remained occupied (Calder, optics, Sable, Kestrel). Bounded GitHub search across HsH, SAT archive and HSH_RESOURCES was fallback navigation, not a Mersearch result. No request was overwritten or retriggered.
 
 No BEDROCK change, branch/PR change, theory promotion, paper-gate advancement, task/schedule change, or cross-thread delivery is made by this note.
+
+
+## 9. Publication verification (2026-11-04T21:54:06Z)
+
+- Issue #1368 is `PUBLISHED_VERIFIED`.
+- Publisher workflow run: `41920148816`, completed successfully.
+- Publisher comment: `6643083904`.
+- Publication commit: `2899fd431d1c83c004110c4a17827f6d25be41c4`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-klein-fabric-create-time-correction-20261104t2100z-s0-001.md`.
+- Artifact Git blob: `8f4cf06ce9e6c080e73ef324f333f492e6f68841`.
+- Payload SHA-256: `d6ef90c9d7612e022abf21a9f5f9819ea9fe5b4afff4f0eeb7b8162f7bf38a3f`.
+- Independent readback: the fetched artifact content exactly matches the `content` field in issue #1368's submitted `hsh-publish-v1` payload (4,768 characters); the publisher comment reports the same SHA-256 and verified readback.
