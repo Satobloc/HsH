@@ -143,3 +143,178 @@ theorem assistant_text_follows_final_user_message :
 #print axioms assistant_text_follows_final_user_message
 
 end HsHVerification.AriadneArchive
+
+
+/-!
+## Ariadne source-fidelity contracts
+
+The finite role map below encodes the user-role task CORE-ACT-0001 in the raw
+"Freeze SAT Object Hierarchy" conversation:
+conversation `6a4f0518-a260-83ea-8878-142fbc5cc650`,
+message `8d9d3566-07e2-4595-98df-01ecf6f86250`,
+timestamp 2026-07-09T02:19:10.863Z,
+raw-export Git blob `4d56d6d8489a58e0b26657d98693bfbaa4837681`.
+The task assigns primary roles; it does not provide the physical maps or
+validate the ontology.
+
+The single-anchor dependency contract is separately transcribed from a
+NotebookLM user-role prompt, export captured 2026-10-11T13:13:43.473Z,
+message index 45 / key `9c371b04`, Git blob
+`282704a31472176889d0e0043ae0170f48662a51`. This is not a raw ChatGPT
+message record. It is therefore kept as a separately labelled design
+constraint, not silently upgraded to Nathan Direct.
+
+This module formalizes the role taxonomy and the generic graph condition:
+one distinguished root, every other node has a predecessor, and a
+natural-number rank strictly decreases along every dependency edge.
+It does not instantiate SAT's actual equation graph, identify the anchor
+constant, supply its value or units, or prove any physical proposition.
+-/
+
+namespace HsHVerification.AriadneSourceFidelity
+
+inductive ObjectTerm
+  | higherDimensionalHistory
+  | finiteCoreWorldtubeFilament
+  | hshRepresentation
+  | rSigmaReadoutMap
+  | whirligig
+  | donut
+  | universalIndicatrix
+  | erContinuity
+  | electrogravity
+  | interbraid
+  deriving DecidableEq, Repr
+
+inductive PrimaryRole
+  | primitiveOntology
+  | physicalGeometricObject
+  | parametrizedRepresentation
+  | projectionMeasurementMap
+  | solverSearchMachinery
+  | readoutTranslationScaffold
+  | nearCoreMechanism
+  deriving DecidableEq, Repr
+
+/-- Exactly one primary role per term, following CORE-ACT-0001. -/
+def primaryRole : ObjectTerm → PrimaryRole
+  | .higherDimensionalHistory => .primitiveOntology
+  | .finiteCoreWorldtubeFilament => .physicalGeometricObject
+  | .hshRepresentation => .parametrizedRepresentation
+  | .rSigmaReadoutMap => .projectionMeasurementMap
+  | .whirligig => .solverSearchMachinery
+  | .donut => .solverSearchMachinery
+  | .universalIndicatrix => .readoutTranslationScaffold
+  | .erContinuity => .nearCoreMechanism
+  | .electrogravity => .nearCoreMechanism
+  | .interbraid => .nearCoreMechanism
+
+theorem everyTermHasExactlyOnePrimaryRole (t : ObjectTerm) :
+    ∃! r : PrimaryRole, primaryRole t = r := by
+  refine ⟨primaryRole t, rfl, ?_⟩
+  intro r hr
+  exact hr.symm
+
+theorem hshIsRepresentation :
+    primaryRole .hshRepresentation = .parametrizedRepresentation := rfl
+
+theorem whirligigIsSolver :
+    primaryRole .whirligig = .solverSearchMachinery := rfl
+
+theorem donutIsSolver :
+    primaryRole .donut = .solverSearchMachinery := rfl
+
+theorem universalIndicatrixIsScaffold :
+    primaryRole .universalIndicatrix = .readoutTranslationScaffold := rfl
+
+def isHierarchyDependentMechanism : ObjectTerm → Bool
+  | .erContinuity | .electrogravity | .interbraid => true
+  | _ => false
+
+theorem hierarchyDependentTermsAreExactlyNearCoreMechanisms (t : ObjectTerm) :
+    isHierarchyDependentMechanism t = true ↔
+      primaryRole t = .nearCoreMechanism := by
+  cases t <;> rfl
+
+/--
+A dependency graph contract for a single primitive anchor.
+
+`parents n` may contain multiple predecessors, so this does not force a
+single-parent tree. The rank certificate makes every dependency step
+strictly decrease and therefore rules out circular derivations.
+-/
+structure SingleAnchorDependency (Node : Type) where
+  anchor : Node
+  rank : Node → Nat
+  parents : Node → Set Node
+  anchorHasNoParents : parents anchor = ∅
+  everyNonAnchorHasParent :
+    ∀ n, n ≠ anchor → (parents n).Nonempty
+  rankStrictlyDecreases :
+    ∀ {n p}, p ∈ parents n → rank p < rank n
+
+inductive ReachesAnchor {Node : Type}
+    (g : SingleAnchorDependency Node) : Node → Prop
+  | anchor : ReachesAnchor g g.anchor
+  | viaParent {n p} :
+      p ∈ g.parents n → ReachesAnchor g p → ReachesAnchor g n
+
+inductive DependencyPath {Node : Type}
+    (g : SingleAnchorDependency Node) : Node → Node → Prop
+  | edge {n p} :
+      p ∈ g.parents n → DependencyPath g n p
+  | tail {n p q} :
+      p ∈ g.parents n → DependencyPath g p q → DependencyPath g n q
+
+theorem rankDecreasesAlongDependencyPath
+    {Node : Type} (g : SingleAnchorDependency Node) :
+    ∀ {n p}, DependencyPath g n p → g.rank p < g.rank n := by
+  intro n p h
+  induction h with
+  | edge hp =>
+      exact g.rankStrictlyDecreases hp
+  | tail hp rest ih =>
+      exact Nat.lt_trans ih (g.rankStrictlyDecreases hp)
+
+theorem noDependencyCycle
+    {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
+    ¬ DependencyPath g n n := by
+  intro h
+  exact (Nat.lt_irrefl (g.rank n))
+    (rankDecreasesAlongDependencyPath g h)
+
+theorem onlyAnchorCanBeARoot
+    {Node : Type} (g : SingleAnchorDependency Node) (n : Node)
+    (hn : g.parents n = ∅) : n = g.anchor := by
+  by_contra hneq
+  obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hneq
+  simpa [hn] using hp
+
+theorem everyNodeReachesAnchor
+    {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
+    ReachesAnchor g n := by
+  have h : ∀ k, ∀ n, g.rank n = k → ReachesAnchor g n := by
+    intro k
+    induction k using Nat.strong_induction_on with
+    | h k ih =>
+        intro n hn
+        by_cases hAnchor : n = g.anchor
+        · subst n
+          exact ReachesAnchor.anchor
+        · obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hAnchor
+          have hlt : g.rank p < k := by
+            rw [← hn]
+            exact g.rankStrictlyDecreases hp
+          exact ReachesAnchor.viaParent hp
+            (ih (g.rank p) hlt p rfl)
+  exact h (g.rank n) n rfl
+
+#eval primaryRole .whirligig
+#eval primaryRole .universalIndicatrix
+#print axioms everyTermHasExactlyOnePrimaryRole
+#print axioms rankDecreasesAlongDependencyPath
+#print axioms noDependencyCycle
+#print axioms onlyAnchorCanBeARoot
+#print axioms everyNodeReachesAnchor
+
+end HsHVerification.AriadneSourceFidelity
