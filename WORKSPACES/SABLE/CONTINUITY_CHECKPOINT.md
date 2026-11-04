@@ -423,7 +423,7 @@ The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable ch
 
 ## 2026-11-04 additive checkpoint | Lane 24 systems triage
 
-Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `e3d1bc9f3ec4ccfde9a232f579bb22297f43d6dd`).
+Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `f985692017fc338d998492e11ced61b75ccd47ac`).
 
 ### Current control state
 - Code Grurple remains ACTIVE; P2 remains BACKSEAT/HOLD and no final system is selected.
@@ -449,3 +449,18 @@ Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.
 ### Continuity
 - The current Sable worker label is not an authenticated live ChatGPT thread. Repository receipt/checkpoint only.
 - The immediate successor is Loom. Existing handoff remains optional context only; no cross-thread delivery or acknowledgement is claimed.
+
+
+## 2026-11-04 further source update | GW241011 compactness map
+
+The Lane 24 report at `WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md` now has blob SHA-1 `f985692017fc338d998492e11ced61b75ccd47ac`.
+
+- Read the peer-reviewed 2026 PRL compactness paper (PRL 137, 071402; DOI 10.1103/29y5-nx9y), its supplementary metric/multipole extraction, and the original 2025 GW241011 event paper.
+- Keep the original primary-only δκ₁ posterior separate from the equal-component δκₛ posterior. The latter assumes κ₁ = κ₂.
+- The PRL gives model-specific compactness constraints for selected boson-star and causal-limit fluid-star families. It does not identify a unique interior or constrain all ECO families.
+- Read the linked MIT theoretical model-data repository. A script verified C = M/r₉₉ to 5.56 × 10⁻¹⁷ in three files. The simple χ ≤ 0.99 filter is not the stability filter; no observational comparison was made.
+- The PRL supplement's metric-to-multipole map is a standard GR reference only. No HsH stationary-axisymmetric metric or asymptotic coefficient map was recovered.
+- The April 2026 SIQM+SIOM preprint remains a separate analysis; do not merge its posterior with the 2025/PRL primary-only result.
+- GW241011 remains an unselected external comparator. P2 remains HOLD; no Factory Floor admission or BEDROCK promotion.
+
+No new task, branch, PR, Mersearch request, public issue, or physical calculation was created.
