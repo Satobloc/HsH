@@ -282,7 +282,7 @@ Fresh source-pin readback confirms Paper A and B source blobs still match the cu
 - from_run_key: `REVROT3-19-20261011:580:s3`
 - to_run_key: `REVROT3-19-20261011:580:s4`
 - handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T0436Z_from_s3_to_s4_mercer.md`
-- handoff_blob_sha1: `86f1c35679c10d5340d7ec318dc9832f281493cc`
+- handoff_blob_sha1: `c8e2fa0f7da22d458152dd0b4dbca56bf0005b33`
 - report: `WORKSPACES/MERIDIAN/2026-11-04T0436Z_CODE_GRURPLE_PDF_FIRST_REENTRY_CONTRACT.md`
 - report_blob_sha1: `0bba6aa2bed869d5137a8adcb9a6ddae68869416`
 - status: OPTIONAL_CONTEXT / REPOSITORY_INBOX_ONLY / CHAT_DELIVERY_UNAVAILABLE
