@@ -439,3 +439,13 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - receipt_blob: 7052a315f59d10dd4873a5e357c7b75e638db5a1
 - disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
 - chat_delivery: NOT_CLAIMED; repository inbox delivery only, no authenticated Hale ChatGPT thread or acknowledgment established.
+
+
+## 2026-11-04T1048Z | Review-MIND scanner and lineage QC
+
+- Report: [2026-11-04T1048Z Review-MIND scanner v0.7 and lineage QC](2026-11-04T1048Z_REVIEW_MIND_SCANNER_V07_AND_LINEAGE_QC.md).
+- PR #790 current head `883efd57b28831bd7bc6f37e1e4288e21ead9b24` has exact-head run #41810730951 / job #126509014066 PASS; full root-library build 8,949 jobs. Earlier #1345 failure was on the prior head only. Public correction #1349 is PUBLISHED_VERIFIED with exact payload/artifact SHA-256 `a2fb1c843f1846ad795100c68513631c2fb0dafc4a6d5d0f5d5d588b10bc84fc`.
+- Static v0.7 candidate review found stopword-bridged non-contiguous bigrams; topic tags are multi-label; lexical-term mean scanner scores are self-referential descriptive associations. Candidate identity relative to the 2026-09-12 check-in remains unverified; no promotion or full matched-year crawl.
+- PR #790 scalar lineage status label remains an owner-review question; product axes should remain authoritative. No P2 gate change.
+- Mersearch lanes remain occupied; no request was overwritten. No physical calculation, human/model experiment, new tool, branch or PR.
+- Next cursor: verify exact v0.7 source identity, correct bigram construction, and obtain a network-capable full-corpus run only after review.
