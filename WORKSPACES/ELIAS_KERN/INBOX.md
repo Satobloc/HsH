@@ -372,3 +372,15 @@ Repository correction only. No authenticated Elias ChatGPT-thread delivery, cons
 - Context only; no task assignment, ownership transfer, or ChatGPT-thread delivery.
 - The apparent h548 :48 packet addressed to Elias was voided/misrouted because its actual scheduled slot was h547; it was not consumed as a valid predecessor handoff.
 - Resulting report: `WORKSPACES/ELIAS_KERN/2026-11-02T2100Z_TRACKA_FOUR_AXIS_THREADING_TRANSFER_TEST.md`; publisher issue #1276; Common receipt `2026-11-02T2100Z_s0_elias_kern.md`.
+
+
+## 2026-11-04T1436Z | Optional Hale arXiv version-alignment context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** Repository inbox append only. No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1436Z_from_s3_to_s4_elias_kern.md`.
+- Hale receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T1436Z_s3_hale.md`.
+- Public addendum: issue #1352; artifact SHA-256 `86b2f25ecd392ae02452b7f0803066cf6218d15647e19199fc3bd3c9af947b0b`.
+- Relevance: cohort date and analyzed text version must be separately recorded; only matched v1 text should enter first-submission lexical comparisons. Full summary and limitations are in the linked addendum.
+
+Elias's Track A Switchboard remit remains controlling. No task, deadline, response request, production change, or ownership transfer.
