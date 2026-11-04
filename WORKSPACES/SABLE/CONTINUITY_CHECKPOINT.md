@@ -423,7 +423,7 @@ The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable ch
 
 ## 2026-11-04 additive checkpoint | Lane 24 systems triage
 
-Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `4de93d74f110e28cef6dca57fb2e2ee291514f71`).
+Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `e3d1bc9f3ec4ccfde9a232f579bb22297f43d6dd`).
 
 ### Current control state
 - Code Grurple remains ACTIVE; P2 remains BACKSEAT/HOLD and no final system is selected.
