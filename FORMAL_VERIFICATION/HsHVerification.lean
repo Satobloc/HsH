@@ -17,6 +17,9 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.CalderNeutronIntegralGate
+import HsHVerification.CalderNeutronMeasuredGate
+import HsHVerification.CalderS2CurvatureNullGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
