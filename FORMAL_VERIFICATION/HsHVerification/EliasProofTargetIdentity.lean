@@ -326,7 +326,16 @@ structure AutomationResultObservation where
 /-- A distinct, nonempty attempt token is required; an occurrence/run ID alone
     is not silently promoted to an attempt ID. -/
 def hasDistinctAttemptToken (token : Option String) : Prop :=
-  ∃ value, token = some value ∧ value ≠ ""
+  match token with
+  | none => False
+  | some value => value ≠ ""
+
+/-- The pattern-match form is definitionally computable and equivalent to the
+    original existential statement that the option contains a nonempty token. -/
+theorem hasDistinctAttemptToken_iff_exists_nonempty (token : Option String) :
+    hasDistinctAttemptToken token ↔
+      ∃ value, token = some value ∧ value ≠ "" := by
+  cases token <;> simp [hasDistinctAttemptToken]
 
 /-- Conservative sufficient acceptance contract for attributing one result
     to one completed execution attempt. This is not a claim that the current
@@ -349,9 +358,7 @@ theorem missing_attempt_token_rejects_result
     ¬ resultAcceptedForAttempt attempt result := by
   intro accepted
   rcases accepted with ⟨_, hToken, _, _, _, _, _⟩
-  rcases hToken with ⟨value, hSome, _⟩
-  rw [h] at hSome
-  cases hSome
+  simpa [hasDistinctAttemptToken, h] using hToken
 
 theorem in_progress_attempt_rejects_result
     (attempt : AutomationAttemptObservation)
