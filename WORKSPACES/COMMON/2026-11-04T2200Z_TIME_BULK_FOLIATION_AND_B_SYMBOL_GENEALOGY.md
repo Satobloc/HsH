@@ -330,7 +330,7 @@ HsH issue #1369 already publishes the BR-006 raw-source recovery. It was not dup
 ## 9. Operational controls
 
 - Current branch remains main. No new branch or PR.
-- Existing task ID, hourly schedule, phase, and enabled state remain unchanged. No sixth task.
+- Existing task ID, hourly schedule, phase, and enabled state remain unchanged. No sixth task. The scheduler's latest recorded execution still carries a generic failure result; this repository pass was completed and read back independently, but no claim is made that the scheduler marked the run completed.
 - All four Mersearch request lanes remain occupied. The current IRI lane request is pending and has no completed result manifest in this pass. No request was overwritten or duplicated.
 - Existing Math Hopper / Whirligig references in onboarding, the open Lean PRs, repository search, and installed research tooling were checked before considering new tooling. No new tool or paid dependency was built.
 - The FIE review was last completed October 27; the next scheduled review is November 10, so no premature re-review was performed.
