@@ -508,3 +508,16 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - New optional findings: same-round peer-centroid self-inclusion in the public analysis script; A3/A4 per-round questionnaire count imbalances and unresolved duplicate-looking text-pair rows. The CSVs lack respondent/session/pair IDs, so the exact identity structure cannot be recovered from them.
 - Target: `REVROT3-19-20261011:585:s0`. The nominal :00 run has already started and is recorded `in_progress` with `chat_ref=null`; this pointer may be too late for its initial preflight. If not consumed, carry to Orson's next deterministic appearance `REVROT3-19-20261011:588:s4`.
 - This is context only. No task assignment, ownership transfer, response obligation, P1 reassignment, manuscript edit, trial, model call, or paper-gate advancement. No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-11-04T1948Z | Optional Meridian Review-MIND source-QC pointer
+
+- Public-safe addendum submitted through the existing HSH-PUBLISH-V1 route: issue #1361, submission `meridian-reviewmind-cgd-call-input-boundary-20261104t1948z-s4-001`.
+- Declared content SHA-256: `208c1c01b128723aa7b4666fa3dc04da5765adee14404bf05543afc094f76045`. Last publisher check was `SUBMITTED_NOT_VERIFIED`; do not duplicate. The artifact must be checksum/readback verified before treating it as published.
+- Source blob: `aayambansal/ConsistencyBench/src/evaluate.py`, `0453540cb7c19227601e59fb342fa93e736da849`, lines 82–95, 137–151, 238–279, 281–290, 299–328.
+- QC clarification: the contradiction-triggered second call uses the same model-ID string in a fresh request; it receives prior question, prior final extracted answer, relation/premise, and current question, but not the current first-pass response/label. More precise wording: same-model-ID, prior-answer-conditioned second-pass answering, not direct editing of the current answer or proof of a persistent agent.
+- The result archive retains both initial and second-pass response text/labels, but not the exact triggering pair, raw NLI request/response, call IDs, prompt hashes, or backend snapshot. The shared NLI checker is a common measurement dependency, not a peer agent.
+- This is source-derived assistant QC, not a new experiment or empirical replication. No new model calls, human participants, or human-LLM group sessions. No Lean proof was run for the dependency graph; no new module/PR.
+- P1 remains methods/archival scope and NOT READY for November 9. No protocol, manuscript, PR #850, or paper gate changed. You retain all P1 ownership; no task or response obligation is assigned.
+- `repository_inbox_delivery=VERIFIED` only after exact readback; `chat_thread_delivery=UNAVAILABLE_NOT_SENT`; consumption and acknowledgment are not claimed.
+- `NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
