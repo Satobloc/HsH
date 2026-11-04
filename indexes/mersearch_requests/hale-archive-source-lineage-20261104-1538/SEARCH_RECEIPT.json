@@ -1,0 +1,96 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "7c525afa25c7b3aaaf53574cfc0330ec41cffc58c80aebea8d8d03cc5326bdc0",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-04T16:42:15.035300+00:00",
+  "query": "author:user AND (\"arXiv scanner\" OR \"arxiv_sat_scanner\" OR \"matched 2024\" OR \"2024-vs-2026\" OR \"1328 records\")",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 17346,
+    "records_scanned": 21619168,
+    "hits": 2
+  },
+  "counted_hits": 2,
+  "distinct_sources": 2,
+  "results_by_root": {
+    "hsh-main": 2
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "arXiv scanner",
+      2
+    ],
+    [
+      "author:user",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "title": "Space Shuttle Roderick — Tern",
+      "record_count": 1,
+      "best_score": 51,
+      "first_hit_index": 0,
+      "sample_hit_index": 0,
+      "locator": "message:6484f3aa-0ea9-445c-ba83-4beb61ead9d2",
+      "matched_terms": [
+        "author:user",
+        "arXiv scanner"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25•26.10.15•Space Shuttle Roderick — Tern — raw.json",
+      "title": "Space Shuttle Roderick — Tern",
+      "record_count": 1,
+      "best_score": 51,
+      "first_hit_index": 1,
+      "sample_hit_index": 1,
+      "locator": "message:6484f3aa-0ea9-445c-ba83-4beb61ead9d2",
+      "matched_terms": [
+        "author:user",
+        "arXiv scanner"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "locator": "message:6484f3aa-0ea9-445c-ba83-4beb61ead9d2",
+      "matched_terms": [
+        "author:user",
+        "arXiv scanner"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25•26.10.15•Space Shuttle Roderick — Tern — raw.json",
+      "locator": "message:6484f3aa-0ea9-445c-ba83-4beb61ead9d2",
+      "matched_terms": [
+        "author:user",
+        "arXiv scanner"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
