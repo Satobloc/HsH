@@ -243,7 +243,7 @@ A dependency graph contract for a single primitive anchor.
 single-parent tree. The rank certificate makes every dependency step
 strictly decrease and therefore rules out circular derivations.
 -/
-structure SingleAnchorDependency (Node : Type) where
+structure SingleAnchorDependency (Node : Type) [DecidableEq Node] where
   anchor : Node
   rank : Node → Nat
   parents : Node → List Node
@@ -253,13 +253,13 @@ structure SingleAnchorDependency (Node : Type) where
   rankStrictlyDecreases :
     ∀ {n p}, p ∈ parents n → rank p < rank n
 
-inductive ReachesAnchor {Node : Type}
+inductive ReachesAnchor {Node : Type} [DecidableEq Node]
     (g : SingleAnchorDependency Node) : Node → Prop
   | anchor : ReachesAnchor g g.anchor
   | viaParent {n p} :
       p ∈ g.parents n → ReachesAnchor g p → ReachesAnchor g n
 
-inductive DependencyPath {Node : Type}
+inductive DependencyPath {Node : Type} [DecidableEq Node]
     (g : SingleAnchorDependency Node) : Node → Node → Prop
   | edge {n p} :
       p ∈ g.parents n → DependencyPath g n p
@@ -267,7 +267,7 @@ inductive DependencyPath {Node : Type}
       p ∈ g.parents n → DependencyPath g p q → DependencyPath g n q
 
 theorem rankDecreasesAlongDependencyPath
-    {Node : Type} (g : SingleAnchorDependency Node) :
+    {Node : Type} [DecidableEq Node] (g : SingleAnchorDependency Node) :
     ∀ {n p}, DependencyPath g n p → g.rank p < g.rank n := by
   intro n p h
   induction h with
@@ -286,9 +286,10 @@ theorem noDependencyCycle
 theorem onlyAnchorCanBeARoot
     {Node : Type} (g : SingleAnchorDependency Node) (n : Node)
     (hn : g.parents n = ∅) : n = g.anchor := by
-  by_contra hneq
-  obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hneq
-  simp [hn] at hp
+  by_cases hAnchor : n = g.anchor
+  · exact hAnchor
+  · obtain ⟨p, hp⟩ := g.everyNonAnchorHasParent n hAnchor
+    simp [hn] at hp
 
 theorem everyNodeReachesAnchor
     {Node : Type} (g : SingleAnchorDependency Node) (n : Node) :
