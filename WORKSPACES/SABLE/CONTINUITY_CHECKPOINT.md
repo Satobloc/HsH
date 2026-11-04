@@ -423,7 +423,7 @@ The 2026-11-02T0400Z receipt's statement that the only recovered direct Sable ch
 
 ## 2026-11-04 additive checkpoint | Lane 24 systems triage
 
-Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `f985692017fc338d998492e11ced61b75ccd47ac`).
+Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md) (blob SHA-1 `69d70a047230171132d9367f4f3a61d78d4fdd85`).
 
 ### Current control state
 - Code Grurple remains ACTIVE; P2 remains BACKSEAT/HOLD and no final system is selected.
@@ -453,7 +453,7 @@ Supplemental report: [2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md](https://github.
 
 ## 2026-11-04 further source update | GW241011 compactness map
 
-The Lane 24 report at `WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md` now has blob SHA-1 `f985692017fc338d998492e11ced61b75ccd47ac`.
+The Lane 24 report at `WORKSPACES/SABLE/2026-11-04T0524Z_LANE24_SYSTEMS_TRIAGE.md` now has blob SHA-1 `69d70a047230171132d9367f4f3a61d78d4fdd85`.
 
 - Read the peer-reviewed 2026 PRL compactness paper (PRL 137, 071402; DOI 10.1103/29y5-nx9y), its supplementary metric/multipole extraction, and the original 2025 GW241011 event paper.
 - Keep the original primary-only δκ₁ posterior separate from the equal-component δκₛ posterior. The latter assumes κ₁ = κ₂.
