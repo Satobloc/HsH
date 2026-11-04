@@ -540,3 +540,7 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - P1 remains ACTIVE / METHODS-ARCHIVAL / Nov 9 NOT READY; no trial, human session, API spend or paper-gate advancement. P2 Nov 30 and P3 Dec 14 remain separate.
 - Unrelated reading: Jacoby, *Practical Talks by an Astronomer*, lines 1101–1140; next cursor 1141. FIE next due Nov 10.
 - Current run ID `452d7a98-3f20-8324-8be2-851fff1f1742`, scheduled 20:24Z, `chat_ref=null`; latest_result still belongs to an older Tern run and is not attributed here.
+
+
+## ORSON-2024-20261104-VEY029-PUBLICATION-VERIFIED
+- HsH issue #1363 publisher workflow completed SUCCESS. Publisher comment #6641512474 confirms destination `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-vey029-evaluator-context-20261104t2024z-s2-001.md`, commit `4be071c33514e8cb2228e5dda23aec5209b4db3a`, SHA-256 `17834dbc6087079762c18df9e3f9b1de39ff7df3b44832642b7985379ed28a43`, readback verified. Status `PUBLISHED_VERIFIED`; do not resubmit.
