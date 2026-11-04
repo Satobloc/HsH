@@ -24,6 +24,16 @@ The 2025 draft's one-dimensional centerline and four-dimensional worldtube wordi
 
 No physical calculation, CODATA scoring, new Lean theorem, or new public issue was produced.
 
+## 1A. Routing and specialist remit
+
+The fixed-ring calculation is h598:s0 = Calder, next = Hale. The preceding h597:s4 slot is Aldus, next Calder; its existing repository-only packet is correctly addressed.
+
+Calder's historical remit is reconstructed from the 2026-09-12 check-in and the later identity-collision correction: empirical angle-clustering, null-design, and evidence-quality discipline. No standalone signed Calder specialist charter or authenticated historical Calder thread ID was recovered. This run used that remit only as a source/evidence discipline; no CODATA scoring or physical calculation was performed.
+
+Hale's historical remit is reconstructed from the REV-006 reentry packet and check-in materials: external-literature scanning and evidence/source comparison. Hale is only the next deterministic label here. No authenticated Hale thread or inbox pointer was found, so the handoff remains repository-only.
+
+The pre-existing h598 receipt labels the worker Hale and next Elias Kern. Under the current fixed 19-person ring those labels are one position ahead. The substantive BR-006 source recovery and issue #1369 are preserved; only the routing metadata is corrected by additive amendments.
+
 ## 1. Source ledger and provenance
 
 ### A. Nathan-authored draft and historical SATO/Blockwave artifacts
@@ -34,7 +44,7 @@ No physical calculation, CODATA scoring, new Lean theorem, or new public issue w
 | SATOBLOC/SATOBLOCK-LIVE.txt | File inventory: 2025-10-25 | 1642375cf78647b9f35f1681d0bccb90685b2a48 | NotebookLM-style synthesis, not a primary equation source. It claims a complete framework while also admitting that coupling terms remain underdefined. |
 | SATOBLOC/SATO-BLOCK-INT.txt | File inventory: 2025-10-25 | 2cd00dec3a8464dc303fe96f14ae71d7fcf8f31e | Transitional transcript/synthesis. Its apparent user/assistant roles are not a raw ChatGPT role graph and are not accepted as direct authorship evidence. |
 | SATOBLOC/SATO-BLOCK Hamiltonian and Hilbert Space.txt | No reliable creation date in the artifact | 13b6da983ea8dcad5509b1c6941b8855a2653677 | Assistant-generated reconstruction. Useful as a candidate mathematical translation, not as a verbatim Nathan-authored Blockwave action. |
-| _AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt | Extraction artifact; original PDF creation date not established in this pass | 24d202bdbc79f3c0d83cfd8a9db584479eed5444 | Assistant-generated extraction. The associated source-PDF SHA recorded in the prior extraction receipt is 8443a85e... . Its “100% isomorphic” claim has no accompanying proof. |
+| _AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt | Extraction artifact; original PDF creation date not established in this pass | 24d202bdbc79f3c0d83cfd8a9db584479eed5444 | Assistant-generated extraction. The associated source-PDF SHA-256 is 8443a85e8a4117422565745b848bd32764f0059e8fbedb9b73107b34e02a3923, recorded in the 2026-09-10 root PDF extraction manifest. Its “100% isomorphic” claim has no accompanying proof. |
 
 The SAT4D draft's exact source equations are preserved here:
 
@@ -166,7 +176,7 @@ The 2025 draft defines a centerline gamma from a one-dimensional parameter domai
 
 A 3D slice intersecting a 4D finite region can produce a 3D trace. A 3D slice intersecting a 2D worldsheet generically produces a 1D trace under transversality. A 3D slice intersecting a 1D worldline generically produces isolated points. Which case is intended must be decided from the source-defined object, not from the word “worldtube.”
 
-The SATO-BLOCK summary uses a rank-2 filament current J^{mu nu}, naturally associated with a two-dimensional worldsheet support in four dimensions. The 2025 SAT4D draft defines a one-dimensional centerline, for which a rank-3 current is the natural distributional current representation. A finite-core thickening could reconcile these descriptions, but the required map is absent. The transcript/pasted materials also contain mixed current-rank descriptions. This is a type-mapping gap, not a verdict that the intended geometry is impossible.
+The 2025 SATO-BLOCK-LIVE and SATO-BLOCK-INT summaries use a rank-2 current J^{mu nu}. The 2026-02-27 Boiling Point user-role paste later claims that a rank-3 current J_{mu nu rho} replaced the earlier rank-2 “shadow” current. That later passage is pasted content with unresolved embedded authorship, not an authenticated Nathan Direct correction. The archive therefore shows an unresolved current-rank genealogy, not a proven physical contradiction. A finite-core thickening could reconcile these descriptions, but the required map is absent.
 
 ## 4. Original equations versus assistant translation
 
@@ -211,7 +221,7 @@ P_{\mu\nu}=g_{\mu\nu}+u_\mu u_\nu,
 
 These are assistant-generated candidate equations, not verbatim Nathan Direct equations. They assume a Lorentzian unit-timelike convention. The native four-positive tuple in the later source must not be silently identified with that metric signature; the existing HsH issue #1365 retains that question.
 
-Because u is defined as the gradient of a scalar, it is hypersurface-orthogonal under the usual smooth non-null assumptions. In differential-form language, u wedge du vanishes. This is a clear mathematical restriction of the ansatz. It is not necessarily inconsistent with the direct source, because the direct source's twist is explicitly attached to worldtube geometry rather than unambiguously to the time-flow field. If the time bulk itself is intended to carry vorticity or non-integrable flow, the scalar-clock ansatz is too restrictive without additional structure.
+Because u is defined as the gradient of a scalar, it is hypersurface-orthogonal under the usual smooth non-null assumptions. In differential-form language, the metric-dual one-form u-flat = dT satisfies u-flat wedge d(u-flat) = 0. This is a clear mathematical restriction of the ansatz. It is not necessarily inconsistent with the direct source, because the direct source's twist is explicitly attached to worldtube geometry rather than unambiguously to the time-flow field. If the time bulk itself is intended to carry vorticity or non-integrable flow, the scalar-clock ansatz is too restrictive without additional structure.
 
 The candidate action includes derivative terms for u and a theta-u coupling, so it is not merely a static coordinate label. However, the source does not yet define an independent time-medium stress-energy, its constitutive response, or the exact coupling from the finite-core worldtube/current to the time bulk. The SATO-BLOCK-LIVE summary itself admits that the mixing/coupling sector remains underdefined. Its simultaneous claim of a “complete” framework is therefore overstated.
 
@@ -299,6 +309,12 @@ No new canonical symbol or alias was introduced.
 
 ### Routing corrections
 
+- Routing amendment blob SHA-1: 63b01ccc6812c42a5dfca349031014419c2b63ea.
+- Elias Kern handoff amendment blob SHA-1: 12c915ecdb8534c6dee63ca43159eb3b32af4639.
+- Hale repository-only addendum blob SHA-1: e19722bbc132f7282f99cc641f8b45ab95d8d1c5.
+
+### Routing corrections
+
 The existing h598 receipt and Elias Kern handoff were not overwritten. Additive amendments were created:
 
 - WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T2200Z_s0_ROUTING_AMENDMENT_01.md
@@ -316,7 +332,7 @@ HsH issue #1369 already publishes the BR-006 raw-source recovery. It was not dup
 - Current branch remains main. No new branch or PR.
 - Existing task ID, hourly schedule, phase, and enabled state remain unchanged. No sixth task.
 - All four Mersearch request lanes remain occupied. The current IRI lane request is pending and has no completed result manifest in this pass. No request was overwritten or duplicated.
-- Existing Math Hopper, Whirligig, Lean PRs, repository search, and installed research tooling were checked before considering new tooling. No new tool or paid dependency was built.
+- Existing Math Hopper / Whirligig references in onboarding, the open Lean PRs, repository search, and installed research tooling were checked before considering new tooling. No new tool or paid dependency was built.
 - The FIE review was last completed October 27; the next scheduled review is November 10, so no premature re-review was performed.
 - Unrelated reading break: first 4,500 characters of the PAXBOOK archive were read; return cursor is character 4,501. No PAXBOOK content was imported into the theory.
 - The current P3 cursor already advanced in the existing receipt to the worldtube-history → configuration-space / braid map. That work was not repeated.
