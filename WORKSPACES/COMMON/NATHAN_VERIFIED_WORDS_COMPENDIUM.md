@@ -3086,3 +3086,84 @@ Tags: NATHAN-DIRECT; CORRECTS-ASSISTANT-MISUNDERSTANDING; MINIMAL-DIFF-REQUEST.
 Tags: NATHAN-DIRECT; EDITORIAL-ACCEPTANCE; APPENDIX-FOOTNOTE-REQUEST; NOT-MATHEMATICAL-VALIDATION.
 
 > OK, good now we need our footnote about the updated chapters 2 through four being in the appendix. Dry. Simple.
+
+
+## 2026-11-05 - Cruller/Klein Fabric source cluster and span-boundary amendment
+
+**Source conversations:**
+
+- Earlier source: `LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json`; conversation ID `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; raw blob `7af1561b321f4d9364da5eb111df689efc652827`.
+- Later source: `LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json`; conversation ID `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`; raw blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
+
+### Span-level amendment to the existing 2026-10-09 message 5a929b5e-515e-4f77-a32a-e49feef42812
+
+- **Tags added:** MIXED-SOURCE-SPAN-BOUNDARY, EMBEDDED-CALIPER-HOWTO, USER-ASIDES-UNRESOLVED, RECIPROCAL-MODEL-LATER-SUPERSEDED.
+- **Correction:** the existing entry correctly marks the leading `>>` block as assistant text. It must also mark the later how-to, introduced by Nathan as written by “Caliper,” as imported text rather than Nathan-authored prose. Parenthetical asides inside that block cannot be separated reliably and remain unresolved.
+- **Later relationship:** the direct 2026-10-21 correction in message `090f5160-1020-486d-9c42-df3d7dff2063` retires the earlier reciprocal filament/timesheet-deformation description as current. This does not erase the separate 2026-10-09 classical worldtube/topology proposition in message `3c657387-b80b-4982-a61a-8e6d8568b8d1`.
+- **Do not infer:** the Caliper block is not evidence that Nathan defined a current material-flow map, affine parameter, or constitutive law.
+
+### 2026-10-07 - Instantiation/intersection terminology preference
+
+- **Tags:** NATHAN_DIRECT, INSTANTIATION, INTERSECTION, COBORDISM, TRUNCATION, ANTI-PASSIVE-READOUT-TERMINOLOGY.
+- **Source:** Meridian Free Build; message `feb128c9-1c43-426a-93ff-32f80ea43d4f`; 2026-10-07T06:01:49.184Z; raw user message on current ancestry.
+- **Exact excerpt:** “I prefer instantiation, intersection, cobordism, truncation, etc.”
+- **Status:** terminology preference only. It does not define a current Klein Fabric map.
+
+### 2026-10-07 - Time-normal rotation/torsion through matter interaction
+
+- **Tags:** NATHAN_DIRECT, TIME-NORMAL, ROTATION, TORSION-QUALITATIVE, MATTER-INTERACTION, TYPE-UNDEFINED.
+- **Source:** Meridian Free Build; message `1d284b55-d7be-45f7-92a6-15e4734347c8`; 2026-10-07T06:12:30.134Z; raw user message on current ancestry.
+- **Exact excerpt:** “the angular rotation -- the torsion -- of the time normal as a result of its interaction with matter.”
+- **Status:** qualitative source statement. No connection, normal-bundle, or tensor definition is supplied.
+
+### 2026-10-20 - Cruller global geometry and per-rotation birth claim
+
+- **Tags:** NATHAN_DIRECT, CRULLER, INTERNAL-ROTATION, WRINKLING-COILING-TENSION, FILAMENT-BRIDGE-KERR-CANDIDATES, WORLDTUBE-PARTICLE-BIRTH, QUALITATIVE-NOT-DYNAMICS.
+- **Source:** Meridian Minkowski Ring Analysis; message `c1b42229-00a9-4119-aac3-cefa6cb97157`; 2026-10-20T23:34:44.617Z; raw user message on current ancestry.
+- **Exact excerpts:** “The surface becomes wrinkled, coiled, tensioned.” “with every rotation, another worldtube/particle is born.”
+- **Status:** conceptual geometry, not a parameterized worldtube or measured birth law.
+
+### 2026-10-20 - Cruller curvature/acceleration working hypothesis
+
+- **Tags:** NATHAN_DIRECT, EXPANDING-MINKOWSKI, FOUR-D-CURVATURE-ACCELERATION, WORKING-HYPOTHESIS, EXPLICIT-NO-PROOF.
+- **Source:** Meridian Minkowski Ring Analysis; message `f658b2db-32f0-45cd-828b-140691cc9afb`; 2026-10-20T23:53:30.041Z; raw user message on current ancestry.
+- **Exact excerpts:** “the 4D curvature of... oh... of the donut.... that's an acceleration.” “No proof, so: it's the working hypothesis.”
+- **Status:** explicit working hypothesis, not theorem or prediction.
+
+### 2026-10-21 - Cruller-first construction direction
+
+- **Tags:** NATHAN_DIRECT, CRULLER-FIRST, RECONSTRUCTION-ORDER.
+- **Source:** Meridian Minkowski Ring Analysis; message `34f444a1-f987-4e81-a438-73b9c3463f38`; 2026-10-21T00:37:49.483Z; raw user message on current ancestry.
+- **Exact excerpt:** “Let's start with the Cruller.. and work backwards”
+- **Status:** research-order instruction.
+
+### 2026-10-21 - Inner-circumference cosmological proposal
+
+- **Tags:** NATHAN_DIRECT, BIG-BANG-INNER-CIRCUMFERENCE, FIRST-FINITE-CORE, MAXIMUM-STRETCHING, NO-NUMERIC-SCALE.
+- **Source:** Meridian Minkowski Ring Analysis; message `0862c00a-d8f5-42e9-a876-3af4e5254046`; 2026-10-21T07:31:09.576Z; raw user message on current ancestry.
+- **Exact excerpt:** “It the inner circumference of our donut.”
+- **Status:** qualitative topological proposal; no measured length scale supplied.
+
+### 2026-10-21 - Reciprocal filament/timesheet model retired
+
+- **Tags:** NATHAN_USER_ROLE_MIXED, DIRECT-SUPERSESSION-CORRECTION, KLEIN-FABRIC, RECIPROCAL-MODEL-RETIRED, QUOTED-HISTORICAL-SUMMARY-BOUNDARY.
+- **Source:** Meridian Minkowski Ring Analysis; message `090f5160-1020-486d-9c42-df3d7dff2063`; 2026-10-21T00:17:23.235Z; mixed-source user-role message on current ancestry.
+- **Exact direct excerpt:** “we're explicitly no longer doing that anymore, and haven't been since the Klein Fabric model became common in our work.”
+- **Attribution:** the quoted historical summary preceding the final correction is not independent Nathan wording. Preserve the final correction as direct and the preceding material as mixed-source context.
+- **Status:** supersession marker for the earlier reciprocal filament/timesheet-deformation model, not a definition of the replacement map.
+
+### 2026-10-21 - Native notation preserved verbatim
+
+- **Tags:** NATHAN_DIRECT, CW-EQUALS-T, POSITIVE-SIGNATURE-++++, FOREST-NORMALIZATION, EXPRESSION-UNCERTAIN, PRESERVE-VERBATIM.
+- **Source:** Meridian Minkowski Ring Analysis; message `c5525f53-b7cc-4444-8102-3bf6fdb1c892`; 2026-10-21T13:55:40.205Z; raw user message on current ancestry.
+- **Exact excerpt:** “we're always in cw=t” and “we're always in (++++)”.
+- **Status:** preserve the literal notation and spelling “Forest Normalizatin”; the message itself marks the expression uncertain. No conversion to earlier `w=ct` is supplied.
+
+### 2026-10-21 - Rotation/4D-curvature assertion
+
+- **Tags:** NATHAN_DIRECT, THREE-D-ROTATION, FOUR-D-CURVATURE, ALL-THREE-D-ACCELERATION, UNTYPED-CLAIM, NOT-PROOF.
+- **Source:** Meridian Minkowski Ring Analysis; message `59cdedb4-be76-455a-87c8-a6089de951b3`; 2026-10-21T23:53:03.096Z; raw user message on current ancestry.
+- **Exact excerpt:** “3D rotation absolutely *is* 4D curvature. *All* 3D acceleration is.”
+- **Status:** direct assertion. The curvature type, metric/connection, parameterization, and observable map remain undefined.
+
+**Cross-source architecture note:** the 2026-10-09 classical statement “particle motion is filament topology” is not the same proposition as a Lagrangian material-flow map. The 2026-10-20 Cruller birth/rotation description does not supply material labels. The only explicit marked-material construction located in the 2026-10-22 Meridian sandbox is assistant reconstruction with declared fixture values; it is not Nathan Direct or empirical evidence. Keep material flow unassumed unless a later direct source defines it.
