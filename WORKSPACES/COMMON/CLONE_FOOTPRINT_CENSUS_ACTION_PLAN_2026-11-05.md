@@ -29,14 +29,14 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A recent successful HSH_RESOURCES source-inventory run confirmed three completed checkout steps (HSH_RESOURCES, HsH, and GLASS); target mapping for GLASS must be checked before assigning it an archive name.
-- The worker census has not yet produced self-reports.
+- The worker census has not yet produced responses. The response requirement is now present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
 
 | Milestone | Owner | Exit criterion | State |
 |---|---|---|---|
-| Delivery repair | Relay prompt/control owner | #1315 and response log are explicit in all four enabled relay prompts; no schedule/task-ID change | IN PROGRESS |
+| Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph, both surfaced by the four existing prompts' charter/current-work preflight; no schedule/task-ID change | VERIFIED ROUTING / AWAITING OBSERVED RESPONSE |
 | Identity check-ins | Each selected ring label once | Each of 19 identities has an honest evidence-bounded entry or explicit no-access/unknown disposition; no fabricated first-person reports | OPEN |
 | Telemetry reconstruction | Tern / Comptroller | Count completed checkout steps by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms | OPEN |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
@@ -45,7 +45,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 ## Immediate procedure
 
 1. Append a coordinator comment to issue #1315 explaining the actual delivery repair and follow-up.
-2. Inject a mandatory one-time response check into each existing relay prompt. Only the currently selected identity is handled per activation. Check the shared log first to avoid duplicates.
+2. The direct prompt-text mutation route was rejected by the Automations service because the current plan allows only three scheduled tasks. Use the live Steering Charter plus active task-graph branch as the delivery route; existing relay prompts already read the Steering Charter. Only the currently selected identity is handled per activation. Check the shared log first to avoid duplicates.
 3. Report whether the run has first-hand execution evidence, log-reconstructed evidence, or only unknowns. Never claim the ring label is a verified persistent instance.
 4. Do not wait for all identities before reconstructing Actions telemetry. Work independently evidenced event data in parallel.
 5. Tern owns reconciliation. The :48 Review lane supplies independent QC when its selected worker is eligible, but does not replace Tern's coordinator ownership.
