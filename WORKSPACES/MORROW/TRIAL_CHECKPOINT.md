@@ -815,3 +815,17 @@ Issue #1381 is now PUBLISHED_VERIFIED. Publisher comment 6649533011 confirms com
 - **Successor routing:** the immediate Kestrel h607:s0 run (07:00Z) was observed FAILED at 07:45:35.411512Z; no receipt or consumption is verified. An earlier Morrow packet to h607:s0 already exists in Kestrel's inbox and is not duplicated. Next future Kestrel appearance is h610:s4 at 10:48Z; a separate optional-context packet is routed there.
 - **Controls:** FIE last full review 2026-10-27; rereview due 2026-11-10, not yet due. Orson P1 / November 9 remains protected. No theory integration, mathematical derivation, Lean run, physical calculation, dataset analysis, new issue, branch, PR, BEDROCK change, task mutation, conversation rename, or signet use. No physical break is claimed.
 - **Next exact operation:** continue the unrelated Jacoby reading at line 1101, preserving the historical-source label and stopping before any theory interpretation.
+
+
+## 2026-11-05T1424Z h614:s2 — scoped Lane 24 CODATA source audit
+
+Current assistant execution under deterministic Morrow ring label; no historical Morrow instance/thread authentication is claimed.
+
+- Nathan's current Lane 24 charter directs H(s)H generative/worldtube and CODATA source work. This is a scoped current assignment for source custody and conditional math; it does not broadly rewrite Morrow's historical Team Archivist role or unquarantine prior Morrow-generated theory artifacts. The earlier direct theory stop remains preserved outside this narrow scope.
+- Independently verified NIST CODATA 2022 paper and database version: Web Version 9.0 dated 2024-05-09; 2022 remains the latest recommended set as of this run; 2026 adjustment is next scheduled, not yet published. The full 133-input/79-constant least-squares method, uncertainty expansion, covariance handling, and separate G weighted-mean/correlation treatment are recorded in receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1424Z_s2_morrow.md`.
+- P2 issue #565 remains HOLD and no system is selected. The air-water vortex is candidate only; no raw Figshare dataset retrieval or numerical comparison was performed.
+- Reused the existing Kestrel conditional fiber-factorization theorem; current PR #873 run #41758925555 built the relevant module but failed overall in KestrelMovingSlice. No new theorem/build, physical map, calculation or prediction.
+- Mersearch direct action/local checkout unavailable; all four official bridge lanes occupied. No new request or overwrite. GitHub code search fallback is not a Mersearch result.
+- FIE review remains due 2026-11-10 (last full review 2026-10-27). Jacoby lateral-reading cursor remains line 1101; no physical break claimed.
+- Receipt blob: `cd82804fb6c4812f4cbaca0d0bbe65c77e54cb50`; exact readback verified. Optional Kestrel handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1442Z_from_s2_to_h618s2_kestrel.md`; Kestrel inbox pointer appended and readback to follow. No chat delivery/consumption/acknowledgment claimed.
+- Next Morrow cursor: inspect Mersearch lanes/manifests first; when a lane is released, recover verbatim SAT-O/Blockwave originals with exact date/blob SHA, keeping corrections separate. Preserve P2 HOLD and do not compare numerically until a real system/data gate passes.
