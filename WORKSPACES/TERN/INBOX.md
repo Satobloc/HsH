@@ -875,3 +875,14 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - The worker check-in log now contains six distinct ring-label sections; its header says 3/19 while the action plan and task graph say 1/19. No aggregate fields were changed.
 - The deeper sweep found 13 active branches but only two explicit priority fields; eleven are missing, including charter-prioritized Code Grurple P0 and the P1/P2/P3 paper branches. The read-only triage ordering must not be trusted until Tern reconciles metadata.
 - No task, priority, ownership, automation, or schedule change is requested by this inbox note.
+
+
+## 2026-11-05T1638Z | Enheduanna h614 routing correction | OPTIONAL CONTEXT ONLY / NO TASK ASSIGNMENT
+
+- Correct current nominal slot: h614:s0, 2026-11-05T14:00Z. seq=3070, ring index 11 = Enheduanna; next ring index 12 = Tern Rook.
+- Immediate s1 / :12 phase remains disabled. Tern's next enabled :00 appearance is h618:s0, 2026-11-05T18:00Z.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1638Z_from_s0_to_s0_tern_h618_addendum_01.md`.
+- Public routing correction: issue #1394, SHA-256 `43ad33199a4a0c74e0f657b34d8e047f2fb13faa5fa77f152e2ed15f358194c4`; publisher run #42066359371 success; artifact readback verified.
+- Source-fidelity content remains in #1393, but its h615/Mercer/Ravel metadata is corrected by #1394. The earlier Ravel handoff is preserved but marked misrouted for this run.
+- A separate later :00 run was observed scheduled for 16:00Z and started 16:24Z with chat_ref=null and stale latest-result payload. Do not conflate it with this h614 nominal occurrence. Scheduler root cause unknown.
+- Comptroller context only; no task, slot, schedule, ownership, or theory assignment. `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=UNVERIFIED`; `acknowledgment=UNVERIFIED`.
