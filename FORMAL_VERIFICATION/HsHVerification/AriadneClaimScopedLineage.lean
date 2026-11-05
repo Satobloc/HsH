@@ -131,9 +131,8 @@ theorem legacyScalarClassify_independent_iff
     legacyScalarClassify e = .independent ↔
       e.sharedCore.isNone = true ∧
       e.disjointPrimaryOrigins.isSome = true := by
-  cases e with
-  | mk scope shared disjoint =>
-    cases shared <;> cases disjoint <;> simp [classify]
+  cases hShared : e.sharedCore <;> cases hDisjoint : e.disjointPrimaryOrigins <;>
+    simp [legacyScalarClassify, hShared, hDisjoint]
 
 theorem legacyScalarClassify_unresolved_iff
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
@@ -141,9 +140,8 @@ theorem legacyScalarClassify_unresolved_iff
     legacyScalarClassify e = .unresolved ↔
       e.sharedCore.isNone = true ∧
       e.disjointPrimaryOrigins.isNone = true := by
-  cases e with
-  | mk scope shared disjoint =>
-    cases shared <;> cases disjoint <;> simp [classify]
+  cases hShared : e.sharedCore <;> cases hDisjoint : e.disjointPrimaryOrigins <;>
+    simp [legacyScalarClassify, hShared, hDisjoint]
 
 theorem independent_requires_disjoint_primary_origins
     {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
@@ -151,7 +149,7 @@ theorem independent_requires_disjoint_primary_origins
     (h : legacyScalarClassify e = .independent) :
     ∃ witness : DisjointPrimaryOrigins leftOrigins rightOrigins,
       e.disjointPrimaryOrigins = some witness := by
-  have h' := (classify_independent_iff e).mp h
+  have h' := (legacyScalarClassify_independent_iff e).mp h
   cases hd : e.disjointPrimaryOrigins with
   | none =>
       simp [hd] at h'
@@ -193,8 +191,8 @@ def sharedCoreEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := sharedCoreScope
     sharedCore := some sharedCoreClaim
-    disjointPrimaryOrigins := none
-    primaryOriginsComplete := false }
+    disjointPrimaryOrigins := none,
+         primaryOriginsComplete := false }
 
 theorem audited_shared_core_claim_is_dependent :
     legacyScalarClassify sharedCoreEvidence = .dependent := rfl
@@ -268,7 +266,7 @@ theorem missing_lineage_is_not_independence
     primaryOriginsComplete := false } :
         ClaimLineageEvidence core leftOrigins rightOrigins)
       ≠ .independent := by
-  simp [classify]
+  simp [legacyScalarClassify]
 
 #print axioms contains_trans
 #print axioms legacyScalarClassify_independent_iff
@@ -381,7 +379,7 @@ theorem sharedCoreEvidence_axes :
     (classifyAxes sharedCoreEvidence).content = .sharedCore ∧
       (classifyAxes sharedCoreEvidence).primaryOrigins = .unknown ∧
       (classifyAxes sharedCoreEvidence).primaryOriginsComplete = false := by
-  rfl
+  simp [classifyAxes, sharedCoreEvidence]
 
 def contentIndependent (e : ClaimLineageAxes) : Prop :=
   e.content = .disjointInAuditedScope
