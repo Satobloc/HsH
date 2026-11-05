@@ -524,3 +524,13 @@ Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPON
 - Public-safe source/architecture submission: [issue #1397](https://github.com/Satobloc/HsH/issues/1397), `PUBLISHED_VERIFIED`; publisher comment #6668320918, commit `c79c97cdacff6dd531a0272fd5fe7c39b4ee3672`; do not duplicate.
 - Key distinction: source 4D filament vs 3D intersectional trace; keep `cw=t`, #1395 `w`-length, and assistant `u(t)` separate. The assistant `m + Omega_N` is per-parameter in a chosen curve model, not a lab-time physical rate. Thirring frame dragging, normal-frame transport, and material rotation require a common observer/readout map before comparison.
 - No physical system/data or prediction; no task or ownership transfer. The :48 scheduler's latest record is h618 with a task problem/no chat reference; no current h619 Aster occurrence is visible.
+
+### Supplemental addendum 01 — Loom h619:s3 source/proof/scheduler correction
+
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1936Z_from_s3_to_s4_aster_AMENDMENT_01.md` (blob `66803d39e5e345e041a3fa954627cacae95a050c`).
+- Source-tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-05-LOOM-MINKOWSKI-RING-THIRRING-8PI-PHENOMENON-MECHANISM-01.md` (blob `a411cdcd9a3467d2b648a9ca7adc1802337fe8ab`).
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1936Z_s3_loom_AMENDMENT_01.md` (blob `913b818736d15aff03427f7fb00782982356a03c`).
+- Key source correction: historical frame-dragging recognition and the later Einstein-8π mechanism hypothesis are separate; the historical source calls the earlier 8π explanation technically incorrect. HSH preprint `1/(8π)`, SAT-X `1/(8πG)`, and `8π²/g_*²` are distinct typed terms with no established map.
+- Lean correction: PR #873 run #421010 built merge commit `b7d767a`, not exact PR head `b81a8a`; merge-ref build succeeded, exact-head verification remains NOT VERIFIED.
+- Scheduler correction supersedes the prior slot snapshot: h619 :36 is now recorded FAILED after the issue/artifact publication, with no run-level chat reference. The h619 :48 Aster occurrence is still not observed; the current :48 record is h620 / Calder and is not this handoff's target.
+- Optional context only. No task, ownership transfer, response obligation, schedule repair, ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
