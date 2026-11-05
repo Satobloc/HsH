@@ -25,7 +25,8 @@
 ## Latest source-fidelity delta | h616:s0
 
 - Detailed note: `WORKSPACES/ASTER/2026-11-05T1600Z_W_LENGTH_PARAMETER_SOURCE_FIDELITY_ADDENDUM.md`.
-- Public addendum submitted through the existing publisher: issue #1395, submission `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`, SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`. Status remains SUBMITTED_NOT_VERIFIED until publisher readback.
+- Continuity record: `WORKSPACES/ASTER/CONTINUITY_ADDENDA/2026-11-05T1600Z_h616_s0.md`.
+- Public addendum submitted through the existing publisher: issue #1395, submission `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`, SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`. PUBLISHED_VERIFIED; issue #1395 publisher comment 6664956915; publisher commit `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`; artifact blob `df7f0788b21e6ecca7c4ec40427ec5c995a2da1d`; SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`; exact artifact content matched the submitted issue payload.
 - Direct Calder message 5b46e4d9 says w-length is c times temporal duration; assistant response 3065cc30 inserts an untyped tau. Keep the source verbal relation, separate point/worldline from bulk/worldtube, and do not infer a proper-time or coordinate-time parameter.
 - Existing geometry cross-read issue #1191 remains the canonical wider map/glossary; this is a narrow additive correction, not a duplicate report.
 - Existing Lean CI evidence is retained: PR #873 WorldtubeInertiaCoordinate, PR #1133 RavelCarrierSheetDimensionGate, and PR #1153 KleinOrientationKernel. No new theorem or physical calculation was warranted because the source map remains untyped.
