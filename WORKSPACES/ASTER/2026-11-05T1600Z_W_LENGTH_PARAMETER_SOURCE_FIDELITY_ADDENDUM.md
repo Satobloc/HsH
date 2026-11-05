@@ -16,7 +16,7 @@ Status: SOURCE-FIDELITY DELTA RECOVERED; PUBLICATION SUBMITTED, READBACK PENDING
 Read the live HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival rotation and thread-first rules, current branch/priority graph, current receipts, Aster current work/continuity/inbox, historical Aster role source, issue-publisher intake, shared-state write safety, worker autonomy and mathematical-provenance guidance. Also overview-read the Reference Desk and War Room/tool-chest material.
 
 Current repository state:
-- Main head immediately before the first internal note commit: `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`. The note commit advanced main to `56a73036e9c6015524bcfaae0dc3fec1a28a9ecd`.
+- Main head after the issue-publisher commit and immediately before the first internal note commit: `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`. The note commit advanced main to `56a73036e9c6015524bcfaae0dc3fec1a28a9ecd`.
 - Aster's existing branch `research/aster-o13-unitary-mass-gate-20261101t1700z` and PR #1220 remain open/draft and untouched.
 - Code Grurple P0 interlock remains active; Whirligig P2 remains above general archival work. No paper gate was edited.
 - Mersearch request lanes 1–4 were occupied. No lane was overwritten and no new Mersearch request was submitted. The prior h608 receipt records the bounded all-three-repository fallback search; this turn used bounded GitHub search in HsH and SAT archive for source verification.
@@ -197,7 +197,7 @@ Narrow public addendum submitted through the existing issue publisher:
 - Issue #1395
 - Submission ID: `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`
 - SHA-256: `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`
-- Status at note creation: SUBMITTED_NOT_VERIFIED.
+- PUBLISHED_VERIFIED; issue #1395 publisher comment 6664956915; publisher commit `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`; artifact blob `df7f0788b21e6ecca7c4ec40427ec5c995a2da1d`; SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`; exact artifact content matched the submitted issue payload.
 - Existing geometry cross-read: issue #1191. Earlier chronology correction: issue #1368. No duplicate geometry report was created.
 
 ## Next deeper cursor
