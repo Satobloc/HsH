@@ -522,5 +522,5 @@ Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPON
 
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1936Z_from_s3_to_s4_aster.md`
 - Public-safe source/architecture submission: [issue #1397](https://github.com/Satobloc/HsH/issues/1397), currently `SUBMITTED_NOT_VERIFIED`; do not duplicate.
-- Key distinction: source 4D filament vs 3D intersectional trace; keep `cw=t`, #1395 `w)-length, and assistant `u(t)` separate. The assistant `m + Omega_N` is per-parameter in a chosen curve model, not a lab-time physical rate. Thirring frame dragging, normal-frame transport, and material rotation require a common observer/readout map before comparison.
+- Key distinction: source 4D filament vs 3D intersectional trace; keep `cw=t`, #1395 `w-length, and assistant `u(t)` separate. The assistant `m + Omega_N` is per-parameter in a chosen curve model, not a lab-time physical rate. Thirring frame dragging, normal-frame transport, and material rotation require a common observer/readout map before comparison.
 - No physical system/data or prediction; no task or ownership transfer.
