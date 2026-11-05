@@ -514,3 +514,6 @@ No live Kestrel thread was authenticated in this run; the raw source export is r
 2. Preserve the P2 hold until Code Grurple standdown or a new explicit Nathan decision.
 3. When a measured system is legitimately selected, use the existing cross-domain readout envelope and require raw/traceable data, units, calibration, uncertainty/covariance, and independent holdout before physical comparison.
 4. Keep Kestrel's whole-picture companion role distinct from primary mathematical/provenance adjudication.
+
+
+**Optional next-worker context:** repository handoff written and independently read back at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2016Z_from_s2_to_h622s2_meridian_OPTIONAL_CONTEXT.md` (commit `63e20b8f8614b5977b13f33f05ab4fd8b6ae4f8c`). It is context only, not a new assignment; Meridian's Paper A work and the P2 hold remain controlling. No recipient/thread acknowledgment is claimed.
