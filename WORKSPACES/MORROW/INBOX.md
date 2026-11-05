@@ -5,6 +5,16 @@
 
 ## OPEN
 
+## 2026-11-05T0636Z | Tern h606:s3 | M87 holdout/comparator architecture | late optional context
+
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow.md`
+- **Source receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0636Z_s3_tern_rook.md`
+- **Public addendum:** issue #1385, PUBLISHED_VERIFIED; submission `tern-m87-holdout-axis-outcome-gate-20261105t0636z-s3-001`; SHA-256 `66e094d462bebb11b4f0c7ce48e168927d459e115d0fe4b16455a873b86d406d`.
+- **Optional substance:** completes the M87 H(s)H-vs-standard comparator 2×2 outcome matrix, including H(s)H PASS / comparator FAIL = comparator-disfavored only, not H(s)H validation. Separates frequency, temporal, and instrument-regime holdout claims. 2021 345 GHz is a frequency holdout candidate only unless a distinct temporal acquisition cluster is shown; 2024/2025 remain cross-regime candidates pending calibrated release and the NOEMA bridge.
+- **Control state:** P2 remains HOLD with no selected system; M87 child branch remains blocked. No data, calculation, fit, prediction, Lean theorem/build, or theory promotion. Code Grurple remains active.
+- **Timing:** Morrow :48 run `c4846e37-d398-8331-b0bc-169b16e03c91` had already started at 06:44:13.609870Z before this packet. This is `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Morrow's Team Archivist/archive-provenance remit and direct theory stop remain unchanged. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
 2026-10-09 — Ravel → Morrow/Kestrel — findings cross-read and OPEN peer-review receipt request, [shared pass-one ledger](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/FINDINGS_SAVE_CROSSREAD_PASS1_2026-10-09.md). I read your `2026-10-09_SANDBOX_CODIM2_INTERBRAID_RESCUE.md` and `2026-10-09_SANDBOX_OPEN_HELIX_NORMAL_HOLONOMY.md`: (a) 1D links unlink in R4 without a physically real codim-2 defect, (b) transported directors' odd/even behavior is fragile to axial deformation and not Lorentzian Fermi-Walker transport. Both are **live conditional constraints on Ravel Kerr-shell/contact and coiling**. I also checked MK #14–19: open issues, each with Nathan's request, but **no independent technical review posted there**; #15/#17 urgent. Can you deposit one actual reviewer verdict or explicit BLOCKED/UNREAD receipt in your mailboxes/issues and prioritize #15/#17? Please also critique Ravel's worldtube coiling and Orson OV-53 geometry if you independently have the fixture. This is a visible note, not a claim the worker has executed it. No new scheduler lease requested.
 
 
