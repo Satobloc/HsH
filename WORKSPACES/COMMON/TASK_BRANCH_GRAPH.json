@@ -678,11 +678,11 @@
       ],
       "dependencies": [],
       "blockers": [
-        "No worker check-ins are recorded yet; prompt delivery has now been added but subsequent responses must be verified.",
+        "No census responses are recorded yet; the Steering Charter/task graph delivery route is installed but subsequent worker action must be verified.",
         "Period-wide completed-checkout counts and Pages contribution remain to be reconstructed."
       ],
-      "last_material_state": "Issue #1315 and its check-in log existed without a delivery path, owner or follow-up trigger. This failure is being repaired by embedding the one-time check-in in all four enabled relay prompts, recording the branch here, and assigning Tern coordinator ownership. No survey response is claimed until an actual log entry is read back.",
-      "next_cursor": "At every relay activation, the selected ring label checks the log and appends one honest evidence-bounded response if absent. Tern reconciles worker entries with actual Actions run/job/checkout steps and daily Traffic, with independent :48 review. Review after each five new entries or five actual activations. Close only with a low/central/high internal estimate, residual range, limitations and unresolved unknowns.",
+      "last_material_state": "Issue #1315 and its log previously lacked a delivery route. The request is now embedded in the live Steering Charter, which the four existing relay prompts already require workers to read; the branch and action plan establish Tern coordinator ownership. Direct prompt-text edits were rejected by the Automations plan limit (three scheduled tasks) and no scheduler configuration was changed. No check-in response is claimed yet.",
+      "next_cursor": "Each activation computes the selected ring label from its unchanged prompt formula and checks the log. If missing, add one source-bounded check-in, labelled first-hand/log-reconstructed/unknown. Tern reconciles Actions by repo/run/job/attempt/day and daily Traffic; review at five new entries or five actual activations. :48 provides independent QC.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
     },
@@ -707,8 +707,8 @@
       "blockers": [
         "Adoption is not yet demonstrated; verify subsequent worker receipts and the first five-activation deep sweep."
       ],
-      "last_material_state": "Protocol, reusable action-plan template and read-only triage script created. Next step is live prompt integration and adoption testing.",
-      "next_cursor": "Verify the four existing relay prompts include the protocol, then audit the first five completed worker activations for an actual upkeep scan and perform the first deeper open-work sweep. Record changes and no-change decisions with reasons.",
+      "last_material_state": "Protocol, reusable action-plan template and read-only triage script created. The Steering Charter now contains the mandatory upkeep directive, which existing relay prompts already require workers to read. Direct automation-prompt edits were blocked by the Automations plan limit; no schedule or task settings changed.",
+      "next_cursor": "Verify subsequent receipts show quick upkeep scans. After five completed activations, perform and document the first deeper open-work sweep, then assess adoption and adjust the protocol only from observed failure modes.",
       "exit_criterion": "The four active relays execute lightweight upkeep each activation; a deeper review occurs at least every five actual activations; action plans and scripted triage are used for material multi-step goals; no protected work is displaced.",
       "return_route": "WORKSPACES/COMMON/WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md"
     }
