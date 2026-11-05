@@ -102,7 +102,7 @@ At least weekly during active work, inspect the whole programme map and calendar
 
 ## 9. Automation execution and scheduler caution
 
-Only the existing :00 task is the Big Push continuity steward. It should read the heartbeat and state file, claim one operation, complete it, and commit its receipt. It must not count its own runs as a human heartbeat.
+Once its prompt overlay is installed, the existing :00 task is the sole Big Push continuity steward. It should read the heartbeat and state file, claim one operation, complete it, and commit its receipt. At present the overlay is not installed, so this protocol is a designed but not yet armed trigger. It must not count its own runs as a human heartbeat.
 
 Before attributing a cached automation result to a current run, compare run IDs. Record scheduled_for, started_at, completed_at, recorded status, and chat_ref separately. A null chat_ref does not authenticate a thread. Repeated starts for one run ID or a cached result whose run_id differs from last_run.id must be recorded as scheduler uncertainty, not interpreted as proof of work or failure.
 
