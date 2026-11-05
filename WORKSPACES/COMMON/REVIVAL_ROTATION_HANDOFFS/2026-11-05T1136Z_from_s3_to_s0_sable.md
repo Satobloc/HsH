@@ -9,7 +9,7 @@
 
 Orson's protected LLM-cognition remit remains primary. The new VEY-030 study separates handoff content/provenance retention, availability, access, comprehension, decision uptake, and task outcome. These are distinct observables; repository delivery or readback does not establish recipient reading or behavioral use.
 
-- Internal study note: HSH_RESOURCES `Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-030_HANDOFF_RETENTION_ACCESS_UPTAKE_AND_PROVENANCE_2026-11-05.md`.
+- Internal study note: recorded in the private Vey Cognition Lab research shelf; no private repository locator is reproduced in this public handoff.
 - Public-safe HsH issue #1389 is **PUBLISHED_VERIFIED**; submission `orson-vey030-handoff-uptake-20261105t1136z-s3-001`; SHA-256 `15aa65b6ef26183db0030878541dc5bee2b8ac24850eb8bf56e5373ed10b64fc`.
 - The three comparator sources are explicitly limited: Wittendorff is a pre-registration without recovered outcomes; Cazenille was abstract/record-level only in this pass; He & Yu's formal conformance cases are not an end-to-end LLM evaluation.
 
