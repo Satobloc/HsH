@@ -25,7 +25,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 
 ## Current verified state
 
-- Issue #1315 is open; zero comments at last read; no check-ins recorded in the shared log.
+- Issue #1315 remains open with four coordinator comments at 2026-11-05T11:03Z. The shared log contains one reconstructed Nadir ring-label entry; there are zero authenticated first-hand worker-thread responses.
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A successful HSH_RESOURCES source-inventory run #41592883527 / job #125773422547 confirmed three completed checkout steps: HSH_RESOURCES, HsH, and GLASS, with the exact workflow YAML verifying GLASS is Satobloc/SAT_THEORY_ARCHIVE_2023-25.
@@ -37,7 +37,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 
 | Milestone | Owner | Exit criterion | State |
 |---|---|---|---|
-| Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph, both surfaced by the four existing prompts' charter/current-work preflight; no schedule/task-ID change | VERIFIED ROUTING / AWAITING OBSERVED RESPONSE |
+| Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph; the four existing prompts already read the charter; no schedule/task-ID change | ROUTING VERIFIED / PROMPT EDIT BLOCKED BY PLAN LIMIT |
 | Identity check-ins | Each selected ring label once | One of 19 entries recorded (Nadir Voss index 10); it is explicitly a reconstructed report, not an authenticated first-hand worker response. Remaining 18 labels have no entries. | IN PROGRESS |
 | Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
@@ -58,6 +58,11 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - Final synthesis begins when all 19 entries are present or their unavailability is explicitly documented; do not leave the task open indefinitely merely waiting for inaccessible identities.
 - Reconcile telemetry incrementally; retain uncertainty rather than forcing estimates to match GitHub's aggregate total.
 
+## Current follow-up state
+
+- Tern coordinator handoff and two additive telemetry amendments are verified in the repository inbox. The intended h610:s2 run had already started and remained IN_PROGRESS with chat_ref=null at the last peek; consumption, thread delivery and acknowledgment are unverified. The next same-phase Tern label is h629:s2 / 2026-11-06T05:24Z if the current run does not consume the packet.
+- The direct edit route for the four saved relay prompts remains blocked by the Automations service plan limit. The existing prompt bodies are unchanged; the Steering Charter and task graph are the current route because all four prompt bodies require reading the Steering Charter.
+
 ## Nonclaims
 
-No clone count is inferred from an API call, user profile follow, unique-cloner count, or current cloud task count. No worker has been contacted merely because the issue or log exists. No completion is claimed until the artifact and issue state are read back.
+No clone count is inferred from an API call, user profile follow, unique-cloner count, or current cloud task count. No authenticated worker has been contacted or acknowledged merely because an issue, log or repository handoff exists. The four checked-out source operations are a small workflow sample, not a period-wide internal estimate or a residual estimate. No completion is claimed until the full telemetry comparison is read back.
