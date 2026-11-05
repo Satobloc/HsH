@@ -19,7 +19,7 @@
 
 ## New cognition work
 
-- VEY-030 internal study: `HSH_RESOURCES/Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-030_HANDOFF_RETENTION_ACCESS_UPTAKE_AND_PROVENANCE_2026-11-05.md`.
+- VEY-030 internal study note: recorded in the private Vey Cognition Lab research shelf; no private repository locator is reproduced in this public repository.
 - New distinction: content/provenance retention, availability, access, comprehension, decision uptake, and task outcome are separate observables.
 - Public-safe summary: HsH issue #1389, submission `orson-vey030-handoff-uptake-20261105t1136z-s3-001`, SHA-256 `15aa65b6ef26183db0030878541dc5bee2b8ac24850eb8bf56e5373ed10b64fc`, PUBLISHED_VERIFIED.
 - This is a future measurement architecture, not an administered experiment or P1 scope change.
