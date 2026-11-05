@@ -15,7 +15,7 @@ Estimate how much of the repository clone traffic is plausibly explained by proj
 
 ## Why now
 
-The reported traffic acceleration and follower growth are unresolved. Issue #1315 has remained open since November 3 with zero comments and no worker responses. The survey log was created but never wired into worker prompts, task graph, or an addressed handoff. The evidence window is time-sensitive and the question is bounded.
+The reported traffic acceleration and follower growth are unresolved. Issue #1315 remained open since November 3 with zero comments and no responses because the issue/log were not routed into worker prompts, the task graph, or an addressed handoff. The delivery route is now recorded in the live Steering Charter/task graph and a coordinator handoff was written to Tern's repository inbox. The evidence window is time-sensitive and the question is bounded.
 
 ## Scope
 
@@ -28,9 +28,9 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - Issue #1315 is open; zero comments at last read; no check-ins recorded in the shared log.
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
-- A successful HSH_RESOURCES source-inventory run confirmed three completed checkout steps (HSH_RESOURCES, HsH, and GLASS); target mapping for GLASS must be checked before assigning it a repository name.
-- Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with `git init` and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
-- The census now has one response entry (Nadir Voss ring label), reconstructed from recent repository receipts and current-run tool records. This is not an authenticated first-hand worker response. The other 18 entries remain absent. The response requirement is present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
+- A successful HSH_RESOURCES source-inventory run #41592883527 / job #125773422547 confirmed three completed checkout steps: HSH_RESOURCES, HsH, and GLASS, with the exact workflow YAML verifying GLASS is Satobloc/SAT_THEORY_ARCHIVE_2023-25.
+- Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with git init and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
+- The census now has one reconstructed ring-label entry (Nadir Voss), not an authenticated first-hand worker response; the other 18 entries remain absent. Two Actions runs provide four verified checkout events in a limited sample: HsH=2, HSH_RESOURCES=1, SAT archive=1. The response requirement is present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
@@ -39,7 +39,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph, both surfaced by the four existing prompts' charter/current-work preflight; no schedule/task-ID change | VERIFIED ROUTING / AWAITING OBSERVED RESPONSE |
 | Identity check-ins | Each selected ring label once | One of 19 entries recorded (Nadir Voss index 10); it is explicitly a reconstructed report, not an authenticated first-hand worker response. Remaining 18 labels have no entries. | IN PROGRESS |
-| Telemetry reconstruction | Tern / Comptroller | Count completed checkout steps by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms | OPEN |
+| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
 
