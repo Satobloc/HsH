@@ -367,7 +367,7 @@ For each substantive H(s)H geometrical/dynamical claim, provide:
 5. Search all three permitted archives for historical usage before declaring a term novel, absent, or superseded. Report actual repository/source coverage and limitations.
 6. Historical words may have shifted meaning. This glossary applies prospectively; it does not silently rewrite older uses.
 7. Update version and status when Nathan Direct, source recovery, formal derivation, or empirical evidence changes a definition.
-8. No signet or Nathan-only authorship marker may be added by an assistant or generated artifact.
+8. The signet itself must never be reproduced by an assistant or generated artifact. When reproducing Nathan Direct material with authorization, preserve the user's wording and attribution; wherever the signet occurred in the source, substitute the literal placeholder `[OWL]` in the same position. The placeholder is a transcription convention, not a newly authored signet or a claim that the assistant originated the material. Never invent Nathan Direct wording, silently paraphrase a quotation as verbatim, or attribute assistant synthesis to Nathan.
 
 ## 16. Open terminology and formalization register
 
