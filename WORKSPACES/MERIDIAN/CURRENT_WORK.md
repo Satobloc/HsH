@@ -53,3 +53,10 @@ Run ID `f692fed0-7ef4-8333-9dee-d39ac7db5e53`: first attempt started 03:28:29Z, 
 - **Assignment unchanged:** Code Grurple Paper A accepted R1 presentation repair only. No genuine observation-capability trigger; no route probe, manuscript/source-pin edit, or site change. The current feed pin remains unchanged. P2 Whirligig remains HOLD beneath the active Code Grurple P0 interlock.
 - **Review-MIND outcome:** source/CI audit and clone-census upkeep only. No new model trial, human-subject session, physical calculation, Lean theorem, or theory promotion. See canonical receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian.md`.
 - Scheduler readback at last check still showed this nominal occurrence in progress, with no current chat reference and a cached result from another occurrence. No chat delivery is claimed.
+
+
+## Post-readback scheduler correction
+
+A later scheduler readback changed the nominal h614:s4 :48 occurrence from IN_PROGRESS to FAILED. No current chat reference or failure cause was exposed. The cached result belonged to a different earlier occurrence and must not be attributed to this run. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian_AMENDMENT_01.md.
+
+The next nominal :00 occurrence, Mercer h615:s0, began after the repository handoff was appended. It was IN_PROGRESS with no current chat reference; packet consumption remains unverified. Preserve the optional handoff for h634:s0 if not consumed earlier. The existing :48 lease remains enabled and unchanged.
