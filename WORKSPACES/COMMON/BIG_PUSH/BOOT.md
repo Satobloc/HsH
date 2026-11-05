@@ -3,7 +3,7 @@
 **Priority:** P0 / highest active programme priority  
 **Workspace:** HsH, WORKSPACES/COMMON/BIG_PUSH/  
 **Canonical control:** PROJECT_CONTROL.md  
-**Continuity steward:** existing Workshop Relay :00 | Archive task only  
+**Proposed continuity steward:** existing Workshop Relay :00 | Archive task only; prompt overlay NOT YET INSTALLED  
 **Human inactivity threshold:** 36 hours without a Big Push interactive heartbeat
 
 ## Mission
@@ -21,13 +21,13 @@ Reconstruct the historical SAT/H(s)H research-institution and publishing-workflo
 
 ## Restart rule
 
-The Big Push is resumed by the :00 continuity steward when the most recent **interactive Big Push heartbeat** is at least 36 hours old. The heartbeat is updated by a human-directed Big Push session, never by an automation run. An unrelated chat or an automated write does not count as interactive project activity.
+The intended restart rule is for the :00 continuity steward to resume Big Push when the most recent **interactive Big Push heartbeat** is at least 36 hours old. **This trigger is not yet armed:** the repository scaffold exists, but the automation prompt update was rejected by the platform task limit. A scheduled task will not use these files until its prompt references this capsule. The heartbeat is updated by a human-directed Big Push session, never by an automation run. An unrelated chat or an automated write does not count as interactive project activity.
 
 Once automated recovery begins, the :00 steward may continue one bounded operation per scheduled run while the heartbeat remains stale. The first subsequent human-directed Big Push session refreshes the heartbeat and reclaims the active focus. Automated runs must pause Big Push execution when the heartbeat is fresh, unless Nathan directly requests otherwise.
 
 ## One-steward rule
 
-Only the existing :00 Archive task is the restart steward. The :24 Geometry, :36 Worldtube, and :48 Review tasks retain their specialist lanes. They may contribute only when the :00 steward explicitly routes a bounded task to them or when Nathan directly requests it. Do not create another automation or alter IDs, cadence, phases, or enabled states.
+Once the prompt overlay is successfully installed, only the existing :00 Archive task is to be the restart steward. The :24 Geometry, :36 Worldtube, and :48 Review tasks retain their specialist lanes. They may contribute only when the :00 steward explicitly routes a bounded task to them or when Nathan directly requests it. Do not create another automation or alter IDs, cadence, phases, or enabled states.
 
 ## Priority hierarchy
 
