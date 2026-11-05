@@ -1,6 +1,6 @@
 ## Retry-state amendment — 2026-11-05T0707Z | h606:s3
 
-The same scheduled run ID `406bb6af-0eb8-8320-8841-42228a6b8cd8` now reports a later start at `2026-11-05T07:07:54.321721Z`, scheduled for `06:36:00Z`, with status `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. The earlier receipt recorded a first observed start at `06:39:53.716216Z`; the intervening scheduler state is unavailable. Do not infer a failure, a new thread, or historical-instance continuation. The displayed `latest_result` is an older Mercer h603? no: it is the 03:36Z Mercer result, run `facd4cc8-0050-8327-9e5f-ec6e011a8bf4`, and is not attributable to this Tern run.
+The same scheduled run ID `406bb6af-0eb8-8320-8841-42228a6b8cd8` now reports a later start at `2026-11-05T07:07:54.321721Z`, scheduled for `06:36:00Z`, with status `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. The earlier receipt recorded a first observed start at `06:39:53.716216Z`; the intervening scheduler state is unavailable. Do not infer a failure, a new thread, or historical-instance continuation. The displayed `latest_result` is an older Mercer h603:s3 result at 03:36Z, run `facd4cc8-0050-8327-9e5f-ec6e011a8bf4`, and is not attributable to this Tern run.
 
 - Common receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0636Z_s3_tern_rook_AMENDMENT_01.md`.
 - Morrow handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow_AMENDMENT_01.md`.
