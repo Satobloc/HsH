@@ -12,7 +12,7 @@ github_inbox_delivery: VERIFIED
 
 Detailed Aster source-fidelity addendum:
 `WORKSPACES/ASTER/2026-11-05T1600Z_W_LENGTH_PARAMETER_SOURCE_FIDELITY_ADDENDUM.md`
-blob SHA: `3e63e05d47ff5b55e1d63264f8df811a397dfd69`
+blob SHA: `f12333457cfcc6d0318bc64500caf8f952e76a25`
 
 Public addendum submission: issue #1395, submission ID
 `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`,
@@ -24,7 +24,7 @@ Earlier Klein chronology correction: issue #1368.
 
 ## Bounded finding
 
-In the Calder raw export (conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb)), Nathan Direct message `5b46e4d9-a51e-4281-904b-f74e41702f1b` gives the historical w-length as c times temporal duration and distinguishes point-to-line from bulk-to-tube. The following assistant response `3065cc30-1693-4ee6-b342-e82e8528e6e5` inserts Delta tau without a source definition. Treat tau as an unlicensed parameterization, not a direct equation. Preserve point/worldline and extended support/worldtube as separate types.
+In the Calder raw export (conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`), Nathan Direct message `5b46e4d9-a51e-4281-904b-f74e41702f1b` gives the historical w-length as c times temporal duration and distinguishes point-to-line from bulk-to-tube. The following assistant response `3065cc30-1693-4ee6-b342-e82e8528e6e5` inserts Delta tau without a source definition. Treat tau as an unlicensed parameterization, not a direct equation. Preserve point/worldline and extended support/worldtube as separate types.
 
 Keep the historical Minkowski w-length separate from the later native c w = t, ++++ convention. No conversion map is sourced. The direct causal-orientation language remains underdefined; retain the assistant's Lorentzian caution but do not treat its proposed pre-metric interpretation as source-defined.
 
@@ -37,4 +37,4 @@ Keep the historical Minkowski w-length separate from the later native c w = t, +
 
 Existing Lean evidence is conditional: PR #873 run #41111252893, PR #1133 run #41263681149, PR #1153 run #41210929564. No new theorem, physical calculation, CODATA scoring, paper edit, or theory promotion in this run.
 
-Ariadne's own Kirk/Riley/source-archaeology remit remains primary. This packet is optional context only. The :12 slot is disabled; no immediate execution or response is expected. Repository inbox delivery is not ChatGPT-thread delivery or acknowledgment.
+Ariadne's own Kirk/Riley/source-archaeology remit remains primary. This packet is optional context only. The :12 slot is disabled; no immediate execution or response is expected. Repository inbox delivery is not ChatGPT-thread delivery or acknowledgment. Final Ariadne inbox blob SHA: `147af94593d5ae985eb36e269139d80c78f7180b`.
