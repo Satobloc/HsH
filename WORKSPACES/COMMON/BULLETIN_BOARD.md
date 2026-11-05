@@ -190,3 +190,10 @@ This supersedes the preceding source-fidelity note's sentence describing PR #109
 New source recovery: full `SAT—Blockwave Ideal Model.txt` is now available at Git blob `dd0631bc0b25c951dc5e1d6738280e08487b46b2` (57,038 chars / 1,065 lines; first extant HsH commit 2026-10-08T02:42:49Z). It describes `(g,u,theta)` and 4D worldlines/filaments but contains no explicit J2/J3 current or worldsheet construction. The separate `🧱BLOCKWAVE.txt` blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` contains the rank-two worldsheet current; its prose is assistant-voiced and its internal authorship remains unresolved. Full correction and limits are in [Morrow addendum 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2256Z_s0_morrow_AMENDMENT_01.md).
 
 No PR edit, duplicate public issue, direct write to `PUBLISHED_SUBMISSIONS`, theory promotion, or cross-thread delivery/acknowledgment is claimed.
+
+
+## 2026-11-05 22:56Z — AMENDMENT 02 — J3 COEFFICIENT CHRONOLOGY
+
+Clarification to the J3 note in Morrow Addendum 01: the (1/2) coefficient occurs in the earlier assistant message `c3715a8c` (14:35:58Z), which the direct user message `71da031e` (14:42:25Z) quotes and critiques. The later assistant rewrite `ff0ef513` (15:43:01Z) uses the standard (1/3!) coefficient for the 3-form-to-vector Hodge dual, but still incorrectly calls the 2-form description “its dual.” In four dimensions Hodge degree is (3\to1), (2\to2). The direct user 3-form chapter instruction remains editorial, not a physical J3-to-J2 map. See [Morrow Addendum 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2256Z_s0_morrow_AMENDMENT_02.md).
+
+No source/PR edit or public issue was made.
