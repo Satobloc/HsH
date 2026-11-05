@@ -1,0 +1,118 @@
+# THE BIG PUSH — Project Control
+
+**Status:** ACTIVE · Phase 0 / historical programme recovery  
+**Started:** 2026-11-05  
+**Authority:** Nathan's project directive in the current ChatGPT conversation. This is an assistant-maintained execution record, not Nathan-authored doctrine, not theory authority, and not a claim that the proposed institution has been designed or built.  
+**Owner:** Current project operator / assistant invocation. No historical worker identity is claimed.
+
+## Purpose
+
+Reconstruct, evaluate, and then rebuild the SAT/H(s)H research institution and publishing pipeline using the full historical design record, current theory and methods, expanded computational resources, and present-day external research capabilities.
+
+This is a multi-stage programme. The institution's design is a later deliverable, not the starting assumption. The investigation itself must be planned, logged, handed off, and improved across successive ChatGPT conversations.
+
+## Non-negotiable execution method
+
+- One bounded research operation per turn; do not compress multiple planned stages into a single summary.
+- Each operation records exact source identity, what was searched, what was actually read, the range/locator, findings, uncertainty, and the next cursor.
+- Search broadly, triage explicitly, then read primary conversations in sequence. Search hits, titles, summaries, indexes, and filesystem dates are locators, not substitutes for source reading.
+- Expand search priorities from discoveries. Revisit initially low-ranked material when it may contain a missing design component.
+- Distinguish source-derived facts, Nathan Direct, assistant reconstruction, historical assistant output, external literature, and current inference.
+- Preserve unsuccessful designs and negative findings. Do not silently retrofit historical intentions into current capabilities.
+- Do not select an institutional architecture until the historical reconstruction, current-capability assay, field orientation, and competing design sketches are complete.
+- No physical calculation is part of this programme unless it independently satisfies current BEDROCK requirements and the specific permission gate for data-free calculations.
+- Do not change recurring tasks, IDs, schedules, phases, or create a sixth task. No new automation is implied.
+- Do not overwrite occupied Mersearch request lanes. Verify request-scoped manifests and receipts before using a lane.
+- Success is measured by inspected sources, validated capability, completed artifacts, and useful decisions, not by the number of documents written.
+
+## Programme phases and gates
+
+| Phase | Work | Exit evidence |
+|---|---|---|
+| 0 | Establish control, scope, provenance, reading ledger, and succession protocol | Durable project control and exact restart cursor |
+| 1 | Archive-wide inventory of documents containing “modes” and adjacent identity/workflow terms; deduplicate and date cautiously | Search-method record, candidate corpus, coverage and exclusions |
+| 2 | Deep reading of early/mid-2025 conversations and mode-system materials, sequentially and line-by-line | Source-grounded chronology and detailed mode/workflow extraction |
+| 3 | Reconstruct the historical programme: intended objects, cognitive/operational modes, activation logic, worker/personality design, project folders, tools, handoffs, quality controls, and execution evidence | Schematic inventory linking intention → mechanism → execution → artifact → evidence → failure/limitation |
+| 4 | Recover adjacent plans and forgotten requirements: Dashboard, Shuttle/relay, glyph systems, monitoring/HUD, switchboards, SAT-O/Lab1/Lab2, toolkits, standalone formulations, and prior workflow proposals | Reconciled old-plan register with ACTIVE / PARTIAL / RETOOLED / SUPERSEDED / PARKED / UNKNOWN dispositions |
+| 5 | Current resource and capability assay across all three repositories, connected apps, local/remote software, code, datasets, scrapers, research facilities, and publishing infrastructure | Capability matrix with tested status, access, cost, risks, integration options, and gaps |
+| 6 | External intellectual and technical reading: LLM cognition, AI systems, philosophy/history of science, pedagogy, creativity, disciplinary taxonomies, physics and adjacent fields | Reading dossiers and a sourced map of relevant methods, debates, opportunities, and cautions |
+| 7 | Post-reading synthesis and strategic orientation of SAT/H(s)H against the current research landscape | Evidence-graded positioning, prior-art/convergence questions, opportunities and risks |
+| 8 | Recover and inspect the full archive of goals, plans, conversations, proposals, and unimplemented requests; repeat targeted reading as needed | Comprehensive orphan/strategic-debt register and reconciled programme map |
+| 9 | Develop two or three genuinely different research-institution and publishing-pipeline sketches | Comparable architecture options, trade-offs, costs, failure modes, and evaluation criteria |
+| 10 | Decide what institution to build and why; produce a coherent charter and implementation plan | Nathan-reviewed direction, staged build plan, owners, milestones, measures, and rollback paths |
+| 11 | Execute the institutional build in controlled increments | Tested components, integration evidence, operational adoption, and measured outcomes |
+
+Phases may be revisited. A gate is not closed merely because a narrative summary exists.
+
+## Phase 0 source and state record
+
+### Current operating controls consulted
+
+- HsH `BEDROCK.md`, current blob `527924246cc25caf7fac02dce4b20f024013cd19`.
+- HsH Steering Charter, `WORKSPACES/COMMON/STEERING_CHARTER_2026-10-26.md`, blob `eecde044b508083c931cd28fab382a4841082f98`.
+- HsH Phase Steering, `WORKSPACES/COMMON/PHASE_STEERING_2026-10-26.md`, blob `0ddce5ac7fade329f491927b5cbeb53d325f2d7a`.
+- HsH Three Paper Campaign, `WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md` (read in current onboarding/control pass; full targeted extraction still pending).
+- HsH `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md`, blob `43b577d42b8cced83f8836934598081685ea3ff3`.
+- HsH three-repository onboarding and Mersearch worker guide; the latter requires all-three-repository search where possible, explicit coverage, and original-source verification.
+- HsH `WORKSPACES/COMMON/REVIVAL_ROTATION_V3_2026-10-11.md` and V4/reentry rules. These govern recurrence and identity reconstruction; this project does not create or modify a worker lease.
+- HsH `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`, blob `331b50749cd9b7157aac9bee8cfaf7e5c4dea8de`.
+- HsH `WORKSPACES/COMMON/PROJECT_DESK_CONTROL_CONTRACT.md`, blob `398141a9c0936f63de2cc69bb478bd15cda0ff21`.
+- HsH `WORKSPACES/COMMON/OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md`, blob `fe593948a29f1245ff1d6edf4a4d1be2da2621ae`.
+- HsH `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md`, blob `674cf5ea16f9683b91d0583a2739511d53b3fcc`.
+
+Current HsH main tree observed at `5402a1b09a7413956b5b7f54b1572090bb29d71a`. No existing `BIG_PUSH` project path was present in that tree.
+
+### Mersearch availability
+
+The four HsH request files contain existing requests. Their request-scoped run manifests and receipts have not yet all been checked in this pass, so lane availability is **UNVERIFIED**. Do not overwrite any lane. GitHub code search is being used only as a disclosed fallback, not represented as a Mersearch run. HSH_RESOURCES has not yet been searched for this first historical inventory.
+
+### Initial archive search
+
+SAT archive: `Satobloc/SAT_THEORY_ARCHIVE_2023-25`.
+
+GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at most 1,000 in one query. The first 1,000 results contained repeated paths and broad incidental physics uses. This is not an exhaustive document inventory and not a count of distinct documents. Partitioned searches and repository-tree reconciliation remain required.
+
+### Historical source candidates actually opened
+
+1. `FREEFORM DISCUSSION/ACTIVATOR MODES.txt`, blob `86e6dcc5d57a7e7b21c87a79c2151af36f6218f0`, 475 lines / 18,268 characters. **Read in full** in this pass (lines 1–220 and 221–475).
+2. `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`, blob `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`, 4,651 lines / 159,962 characters. **Read lines 1–200 only**. This is a conversation transcript, not merely a mode-specification sheet.
+3. `SAT XYZ/SAT-Y Modes Buildout.txt`, blob `65a3f427c45720bb3ae32078da5943b162a85e51`, 895 lines / 36,279 characters. **Read lines 1–90 only**.
+4. `SAT XY/SATxyACTIVATOR_DO_NOT_USE.txt`, blob `c8dfe34d4115d8fdeab507321816a2a97e3b437b`, 8 lines. **Read in full**.
+5. SAT 20 mode specifications, mode logic tree, quick switch template, session recap, quick lookup, and mode-to-model assignment files were opened as later comparison candidates; these are not yet chronologically reconciled with the May 2025 material.
+6. `SAT 4D Theory Work/Module_0A_interpretive_modes.tex` and `SAT 4D Theory Work/SAT.4D Deployment Guidelines.txt` were opened as examples of a different use of “mode”: physical interpretive/approximation regimes, not assistant cognitive modes.
+
+### Initial observations — provisional, not final synthesis
+
+- The May 28, 2025 material contains an early SATxy activator instruction set emphasizing slow, individualized pedagogy and geometric explanation. The file index records it earlier that day than the Activator Modes file. These are filesystem timestamps, not message-level timestamps.
+- The Activator Modes directory combines unlike objects: disciplinary task specialists, cognitive stances, project/integration functions, mode-selection/control commands, and generative/customization functions. They should not be flattened into one undifferentiated list.
+- The May 28 conversation transcript begins with a menu request and activation of Sage. It then explores a purportedly overlooked SAT insight. The transcript is 4,651 lines; only the first 200 have been read. No conclusion about the full menu's design rationale is yet justified.
+- A later SAT-Y buildout explicitly requests an overhaul to reduce overlap, improve output precision, and align modes with the matured SAT-X/SAT-Y structure. It is 895 lines; only its first 90 have been read.
+- SAT 20 later documents propose a much smaller 5–7 core-mode system, explicit model assignments, mode-switch announcements, reminders, and session recaps. Whether this was a successor, a parallel project architecture, or a partial reimplementation remains to be established.
+- “Interpretive modes” in the July 2025 SAT.4D documents are a separate theoretical construct and must be classified separately from workflow modes.
+
+## Immediate next operation
+
+Continue the primary May 28 conversation transcript sequentially:
+
+**Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
+**Last read:** lines 1–200  
+**Next cursor:** lines 201–400  
+**Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
+
+## Succession protocol
+
+Before this conversation reaches its context limit, create and verify a successor packet containing:
+
+- this project-control file and its current blob SHA;
+- the current reading ledger and exact next line/message cursor;
+- the complete current conversation export in JSON, with verified path, checksum, and upload/readback status;
+- the sources actually read versus merely searched or indexed;
+- outstanding source queries, repository coverage and Mersearch lane state;
+- the active milestone, current operation, findings, unresolved questions, and return point;
+- a tailored startup packet with required source documents, tool discovery, available resources, relevant behavioral/method settings, and a bounded first action.
+
+A successor must read the source documents named in the packet, not rely solely on this summary. It should review and improve its own successor setup after each substantial stage. Do not claim that the conversation JSON was downloaded, uploaded, or verified until those actions actually occur.
+
+## Change log
+
+- 2026-11-05: Initial project control created after first archive search, current-control review, and bounded historical reading. No institutional design selected; no recurring task or schedule changed.
