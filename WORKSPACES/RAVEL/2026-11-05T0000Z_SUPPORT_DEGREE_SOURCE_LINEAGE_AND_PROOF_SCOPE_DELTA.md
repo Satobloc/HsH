@@ -93,6 +93,14 @@ The source-genealogy ledger preserves the exact assistant-authored fragment hash
 
 The possible carryover of the J2 expression's \\(1/2\\) coefficient into the first J3 dual attempt is a source-genealogy hypothesis only. It is not established lineage. The later 2025-10-19 assistant-generated J2 action is a separate assistant output and is not a direct Nathan reversal of the 2025-09-18 three-form editorial instruction.
 
+The source-genealogy ledger preserves four exact assistant-authored fragment hashes:
+- First J3 topological-term fragment `theta epsilon^{mu nu rho sigma} partial_mu J_{nu rho sigma}`: SHA-256 `9daa1071de1eb94c175624148aabce4ac4d084539c5df2b098c7f9a367e5dc94`.
+- Initial J3 dual-vector attempt `Jtilde^mu = 1/2 epsilon^{mu nu rho sigma} J_{nu rho sigma}`: SHA-256 `80f1d1b602dccd9d256b2758960f8515372918c8f430ed28a4418fef2e04abd7`. Its coefficient is not the standard 3-form dual normalization.
+- Later corrected dual-vector expression `Jtilde^mu = 1/3! epsilon^{mu nu rho sigma} J_{nu rho sigma}`: SHA-256 `84479022ad5d98e154606803b3683f91718ab407f50e23393b3c154a16d76bfb`.
+- False assistant sentence “2-forms and 3-forms are Hodge duals”: SHA-256 `646a92dba173bbac54055cbacfef0db060b7893984880ae9c612cb60b8ecaf7b`.
+
+The possible carryover of the J2 expression's `1/2` coefficient into the first J3 dual attempt is a source-genealogy hypothesis only, not established lineage. The later 2025-10-19 assistant-generated J2 action is a separate assistant output and is not a direct Nathan reversal of the 2025-09-18 three-form editorial instruction.
+
 The earlier assistant statement that J2 and J3 are Hodge dual is mathematically wrong in four dimensions: the Hodge star maps p-forms to (4-p)-forms. Thus a 2-form maps to a 2-form, while a 3-form maps to a 1-form.
 
 ### 2.4 Nathan Direct HsH geometry
