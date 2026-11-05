@@ -258,8 +258,8 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 
 ## 2026-11-05T1700Z | Workshop Relay :00 | Archive | h617:s0
 
-- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1700Z_s0_calder.md` (blob `be27d1c2c634aa934faae0d8e7e5cdd633c73671`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1700Z_s0_calder.md` (blob `33a34b490951ed67f2cea7927881655223d807d7`).
 - Geometry source-fidelity cluster and current Lean/CI status are recorded there; the full source-ID correction remains in `2026-11-01T1800Z_2024_DIMENSIONAL_GRAVITY_SOURCE_ID_CORRECTION.md`.
 - Clone-footprint one-time check-in appended; shared log now 8/19.
-- Next ring label: Hale. Optional repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1700Z_from_s0_to_s1_hale.md` (blob `6724a28e16db4a3e5528ba661bc888859fb63a32`). The s1/:12 lease is disabled; no scheduled recipient run is implied.
+- Next ring label: Hale. Optional repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1700Z_from_s0_to_s1_hale.md` (blob `6770ccfbea20e11e2444e7f97c9b28ca7394215e`). The s1/:12 lease is disabled; no scheduled recipient run is implied.
 - No authenticated Calder thread, no task/ownership transfer, no public issue, no branch/PR, no scheduler change.
