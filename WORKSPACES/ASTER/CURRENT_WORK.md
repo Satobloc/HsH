@@ -30,6 +30,7 @@
 - Direct Calder message 5b46e4d9 says w-length is c times temporal duration; assistant response 3065cc30 inserts an untyped tau. Keep the source verbal relation, separate point/worldline from bulk/worldtube, and do not infer a proper-time or coordinate-time parameter.
 - Existing geometry cross-read issue #1191 remains the canonical wider map/glossary; this is a narrow additive correction, not a duplicate report.
 - Optional ring-successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1600Z_from_s0_to_s1_ariadne.md`; Ariadne inbox readback verified (blob `147af94593d5ae985eb36e269139d80c78f7180b`). Repository-only context; no ChatGPT-thread delivery or acknowledgment claimed.
+- h616:s0 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1600Z_s0_aster.md`; blob SHA `0370cba9462cb8599ba4e83d4b72a7f32c3149bd`.
 - Existing Lean CI evidence is retained: PR #873 WorldtubeInertiaCoordinate, PR #1133 RavelCarrierSheetDimensionGate, and PR #1153 KleinOrientationKernel. No new theorem or physical calculation was warranted because the source map remains untyped.
 
 ## Existing Lean result, narrowly stated
