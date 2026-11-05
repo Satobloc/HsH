@@ -100,6 +100,20 @@ This supports the methodological distinction: the five formulations are ways of 
 
 The common representational handle explicitly named in the historical source is the **relative intersection geometry**, especially the intersection angle and its allocation between vector shape and time-field distortion. Do not reduce this to a new claim that “intersection topology alone” is the sole invariant; that phrase appears in assistant synthesis and is not established here as Nathan's exact formulation.
 
+
+## Organizing reconstruction: two interlocking representational choices
+
+The recovered sources suggest that the five descriptions should not be forced into a single flat list of mutually exclusive “models.” A useful source-faithful way to organize them is by two interlocking choices:
+
+1. **Where the changing configuration is carried:** filament/worldline shape, time-sheet distortion, or a distribution across both. NEOSAT 2025 explicitly describes this as the all-time-distortion ↔ all-vector-shape spectrum, with intermediate allocations and local conversion.
+2. **How the 4D structure is temporally framed:** fixed/pre-resolved (True Block), locally responsive/triggered (Semi-Dynamic or Dynamical Block), or progressively resolved by a solidification/crystallization front (Mode 3).
+
+The two limiting constructions add useful distinctions:
+- **Dynamic worldline + static flat sheet:** retain the sheet as an explicit but flat/fixed reference; carry the evolving intersection/configuration on the worldline side.
+- **Filament-only:** remove the explicit sheet from the representation and carry its functional contribution in the filament ensemble (including the θ₄-dependent ripple described in the later transcript).
+
+This two-choice organization is an Ariadne reconstruction to keep the source distinctions visible; it is not a claim that Nathan formally defined a Cartesian product of two parameter spaces. It does, however, explain why the five formulations can be treated as equivalent constructions without confusing “which structure carries the dynamics?” with “how is the block's temporal realization interpreted?”
+
 ## Provenance and retrieval limitations
 
 - The NEOSAT and SAT REDISCOVERY files are flattened historical conversation/transcript artifacts. The retrieved passages contain first-person dialogue but do not expose raw role/message IDs in the fetched text. Preserve that limitation until raw conversation exports are recovered.
