@@ -127,10 +127,10 @@ A direct update of the four relay prompts was attempted through the Automations 
 
 **Potential clone-producing operations**
 - Explicit git clone / shallow clone: **0 observed in the inspected Nadir receipts**; no shell git clone command or local checkout was reported in the relevant records.
-- GitHub Actions actions/checkout: **UNKNOWN / NOT COUNTED.** Nadir's existing PR #1189 has Actions CI runs (including run #41927513429), but the job-step checkout action and repository target were not independently inspected for every relevant run in this entry.
+- GitHub Actions actions/checkout: **1 completed HsH checkout directly evidenced** in Nadir PR #1189 workflow run [#41927513429](https://github.com/Satobloc/HsH/actions/runs/41927513429), job ID `126915668961`, run attempt 1, created 2026-11-04T22:41:49Z. The run was a pull_request event for branch `research/nadir-affine-translation-quotient-20261101t0324z`, head `47e3443d1ccb07ff4396fa9e33eb6cdfbf40e4b7`. Step `Run actions/checkout@v4` completed successfully. The job log explicitly shows `git init` and `git fetch --depth=1 origin 47e3443d1ccb07ff4396fa9e33eb6cdfbf40e4b7` in `/home/runner/work/HsH/HsH`. This is one **Actions checkout event** in HsH and a likely clone-producing event under the project's controlled testbed classification. It is not evidence that a Nadir worker personally ran `git clone`, nor that a unique worker/network identity was created. Other Nadir-associated CI runs have not yet been enumerated.
 - Cloud/Codex/agent workspace provisioning with repository present: **UNKNOWN / NOT COUNTED.**
 - Other verified clone-producing operation: **none evidenced in the inspected Nadir receipts.**
-- Estimated total confirmed / likely clone events: **0 explicitly evidenced Nadir-initiated full-clone events in the inspected records.** This does not exclude workflow checkout events.
+- Estimated total confirmed / likely clone events: **1 completed Actions checkout event (HsH, PR #1189 run #41927513429, job #126915668961)**. No explicit Nadir-initiated local git clone is evidenced. This is workflow-level evidence associated with the Nadir PR, not a first-hand worker report.
 - Estimated total possible events including unknown provisioning: **not numerically bounded** from current records. Keep unknown rather than inventing a high estimate.
 - Typical rate: connector/file retrieval per task and CI verification around existing PRs; those are not themselves full-clone counts.
 - Unusually high-volume period or behavior change: no abrupt Nadir-specific local clone burst is documented in the inspected receipts. The repository records do include repeated source/PR/CI review activity, but that is not a clone count.
@@ -153,8 +153,8 @@ A direct update of the four relay prompts was attempted through the Automations 
 - Shared Actions workflows are a likely independent source of checkout events, but impressions are not telemetry; coordinator must count actual completed checkout steps from run/job logs.
 
 **Best estimate**
-- Low: **0 confirmed explicit Nadir clone events in the inspected record set.**
-- Central: **0 explicitly evidenced worker-initiated full clones; separate Actions-checkout and workspace-provisioning contribution remains UNKNOWN.**
+- Low: **1 likely clone-producing Actions checkout event (HsH) is directly evidenced; 0 explicit worker-initiated local clones.**
+- Central: **1 evidenced workflow checkout event**, before any other Nadir-associated CI/workflows or workspace-provisioning unknowns are added.
 - High: **not numerically estimable** without job-step and workspace-provisioning evidence.
 - Main assumptions/uncertainty: only a subset of Nadir-labelled receipts was inspected; receipts do not expose every API request or cloud environment; workflow CI checkout counts belong to run/job/repository attribution, not automatically to the Nadir worker label.
 - Evidence that would improve the estimate: inspect the job steps for every Nadir-related Actions run in the covered date range; inspect actual cloud workspace provisioning records; reconcile each result against the per-day repository Traffic series.
