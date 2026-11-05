@@ -11,9 +11,9 @@
 | Current state | Code Grurple **ACTIVE**. Aster formal Paper A review **FROZEN / CROSS-READ OPEN**. Do not conduct an unrequested second formal review. |
 | :24 lane | H(s)H generation / worldtube characterization / CODATA is **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. |
 | Current branch | PR #1220 remains OPEN / DRAFT / UNMERGED. Branch research/aster-o13-unitary-mass-gate-20261101t1700z; head 6a66217979b9caacff06fa407cd9ccd1cdd7999e. Do not amend or merge it here. |
-| Next action | Preserve the source cursor and wait for Code Grurple standdown. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
-| Source cursor | Recover the raw role graph behind KEY CONCEPT - IRI.txt and the original file referenced in that flattened exchange. Both remain unresolved. |
-| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1201-1300 read; next cursor 1301. FIE rereview due 2026-11-10. |
+| Next action | Continue the source-fidelity map for the historical Minkowski w-length and the later native c w = t convention, keeping them separate until an explicit map exists. Wait for Code Grurple standdown before IRI/B recovery. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
+| Source cursor | Current geometry cursor: define the source time parameter and metric map for historical Minkowski w-length, then explicit K_global -> D_local and W_i/Sigma_t -> particle-section projection/composition maps. Keep native c w = t separate. IRI/B raw role graph remains a distinct blocked cursor until Code Grurple stands down and a Mersearch lane opens. |
+| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1301-1340 read; next cursor 1341. FIE rereview due 2026-11-10. |
 
 ## Source and symbol boundaries
 
@@ -21,6 +21,14 @@
 - Keep four B lineages distinct: IRI candidate; BR-006 B(t), assistant-formalized and subsequently Nathan-approved; historical B = 3/(4π), whose user-role occurrence is inside pasted content; and assistant-generated B ≈ 0.2387 rad. See the live SYMBOL_REGISTRY and the 2026-11-04 time-bulk / B-symbol genealogy note.
 - Four Mersearch request lanes remain occupied. Their request-scoped manifests and receipts were absent at the checked paths. No Mersearch run is claimed and no request was overwritten. Bounded GitHub searches across all three repositories were fallback navigation, not exhaustive Mersearch coverage.
 - Global Klein Fabric, finite-core worldtube, timesheet, material-history, intersection, and readout maps remain incompletely typed. WWRD rope mechanics remains a first-blush heuristic, not a physical equivalence.
+
+## Latest source-fidelity delta | h616:s0
+
+- Detailed note: `WORKSPACES/ASTER/2026-11-05T1600Z_W_LENGTH_PARAMETER_SOURCE_FIDELITY_ADDENDUM.md`.
+- Public addendum submitted through the existing publisher: issue #1395, submission `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`, SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`. Status remains SUBMITTED_NOT_VERIFIED until publisher readback.
+- Direct Calder message 5b46e4d9 says w-length is c times temporal duration; assistant response 3065cc30 inserts an untyped tau. Keep the source verbal relation, separate point/worldline from bulk/worldtube, and do not infer a proper-time or coordinate-time parameter.
+- Existing geometry cross-read issue #1191 remains the canonical wider map/glossary; this is a narrow additive correction, not a duplicate report.
+- Existing Lean CI evidence is retained: PR #873 WorldtubeInertiaCoordinate, PR #1133 RavelCarrierSheetDimensionGate, and PR #1153 KleinOrientationKernel. No new theorem or physical calculation was warranted because the source map remains untyped.
 
 ## Existing Lean result, narrowly stated
 
