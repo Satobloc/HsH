@@ -4,7 +4,7 @@ import Mathlib
 # Orson P1: evaluator-side context sensitivity and peer-presentation decomposition
 
 Primary source: Alicia Guerra and Yibo Hu, "The Evaluator Is Part of the
-contrast: attribution, repetition, apparent speaker count, consensus structure, authority labels, and prompt length (arXiv:2608.04463v2).
+Experiment: Measuring Open-Ended LLM Conformity", arXiv:2608.04463v2
 (2026-08-13), §§2.1-2.3, equations (1)-(8).
 
 The source defines the total peer-arm quality shift as the sum of:
@@ -125,7 +125,7 @@ theorem all_wrong_context_shift
 
 Guerra & Hu list six prompt features that change jointly in the peer-presentation
 contrast: attribution, repetition, apparent speaker count, consensus structure,
-contrast: attribution, repetition, apparent speaker count, consensus structure, authority labels, and prompt length (arXiv:2608.04463v2).
+authority labels, and prompt length.
 
 The paper does not estimate six separate cue coefficients. The definitions
 below are an assistant-derived additive abstraction: each coordinate is one
