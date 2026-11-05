@@ -137,3 +137,17 @@ The following repository-backed scaffold is now present:
 **Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
 
 The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor remains the May 28, 2025 transcript, lines 201–400. No institutional design has been selected.
+
+
+### Scheduler state verified on 2026-11-05
+
+All four existing tasks were independently inspected after the rejected update:
+
+| Task | ID | Enabled | Existing schedule |
+|---|---|---:|---|
+| Workshop Relay :00 | Archive | 6aa1fe0de5e48191b886496095b1343f | Yes | Hourly, America/New_York :00 |
+| Workshop Relay :24 | Geometry | 6abda4c8eda88191bf23a6f2849e9a17 | Yes | Hourly, America/New_York :24 |
+| Workshop Relay :36 | Worldtube | 6a9f52b69ec08191b0a2ba24a074f781 | Yes | Hourly, America/New_York :36 |
+| Workshop Relay :48 | Review | 6aa6c3bc02b48191b8a91a30d2a155e0 | Yes | Hourly, America/New_York :48 |
+
+No scheduler change succeeded. Their prompts remain as previously configured. The workspace files are live and can be resumed interactively, but scheduled tasks will not automatically consult them until the prompt overlay is installed.
