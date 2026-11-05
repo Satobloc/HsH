@@ -908,3 +908,12 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - Handoff blob: `db1781eb84d0cb4a9d2b8f42dd8896245e9caaeb`; receipt blob: `092f32cfbf7b2898c54cc282fd36a2f1c10589f3`.
 - This inbox entry was independently fetched at blob `ab3c4d893979c73c65f699856c850761d6416451`.
 - Repository delivery: `VERIFIED_BY_READBACK`. Chat delivery: NOT SENT. Recipient consumption and acknowledgment: UNVERIFIED. Optional context only; no task or response obligation.
+
+
+### 2026-11-05T2136Z | Enheduanna handoff amendment 02 | Lean run-state correction
+
+- PR #1402 current head remains `6176e81636eedefce730e44f92395e208d328374`.
+- Run #42125360017 was cancelled during Lake dependency-manifest generation; Lean compilation did not start.
+- Replacement exact-head run #42125368923 passed source-checkout identity and is IN_PROGRESS at dependency-manifest generation. No current-head Lean result is claimed.
+- PR #1401 remains exact-head build-successful at run #42124345675/job #127584657683.
+- This is optional context only. No task or response obligation is created; repository delivery of the inbox append is to be verified separately. Chat delivery/consumption/acknowledgment are not claimed.
