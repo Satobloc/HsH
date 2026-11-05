@@ -267,3 +267,100 @@ theorem one_budget_unit_admits_exactly_one_pending_rewrite :
 #print axioms one_budget_unit_admits_exactly_one_pending_rewrite
 
 end HsHVerification.EliasHydraProgressSplit
+
+
+/-!
+# 2026-11-05: nested Hydra depth-guard source-fidelity witness
+
+Source anchor: `Satobloc/HSH_RESOURCES/tools/workflow_switchboard_demo.py`,
+Git blob `49988a769389b2baf264a27d596ba7c3ff822b36`.
+
+The Python `hydra` loop iterates the immediate `node["spawn"]` list,
+checks each immediate descriptor's `depth`, and appends an accepted
+descriptor unchanged. A descriptor's nested `on_result.spawn` children
+are carried inside that descriptor; this loop does not recursively visit
+them. The model below isolates the one-level nested shape used by the
+`nested_learning` scenario. It does not model arbitrary JSON, Python
+execution, or an external consumer's possible later interpretation.
+
+The current example has parent depth 1 and child depths 2, 2, so it passes
+the bound 3. The adversarial software witness changes a nested child to
+depth 4 while leaving the parent at depth 1. It shows that the immediate
+guard is not a global descendant-depth invariant.
+
+The child-aware filter is a proposed one-level contract only. A genuinely
+recursive Hydra would need a recursive tree type and a recursive guard.
+This formalization is not a POC patch or production authorization.
+-/
+
+namespace HsHVerification.EliasHydraNestedDepth
+
+structure SpawnDescriptor where
+  depth : Nat
+  onResultChildDepths : List Nat
+  deriving DecidableEq, Repr
+
+/-- The observed Python loop's immediate-list guard, abstracted at one level:
+    accepted parents are retained with their nested child descriptors unchanged. -/
+def legacyTopLevelGuard (maxDepth : Nat) (xs : List SpawnDescriptor) :
+    List SpawnDescriptor :=
+  xs.filter (fun x => decide (x.depth <= maxDepth))
+
+/-- One-level flattening of a parent descriptor and its on-result children. -/
+def flattenDepths (xs : List SpawnDescriptor) : List Nat :=
+  xs.flatMap (fun x => x.depth :: x.onResultChildDepths)
+
+def allDepthsWithin (maxDepth : Nat) (depths : List Nat) : Bool :=
+  depths.all (fun d => decide (d <= maxDepth))
+
+/-- Depths in the existing nested_learning descriptor: parent 1, children 2 and 2. -/
+def observedNestedLearningShape : SpawnDescriptor :=
+  { depth := 1, onResultChildDepths := [2, 2] }
+
+/-- Adversarial software-only probe: an accepted parent contains a child at depth 4. -/
+def overDepthChildProbe : SpawnDescriptor :=
+  { depth := 1, onResultChildDepths := [4] }
+
+/-- The existing nested_learning example remains within the declared bound 3. -/
+theorem observed_nested_learning_shape_within_bound :
+    allDepthsWithin 3
+      (flattenDepths (legacyTopLevelGuard 3 [observedNestedLearningShape])) = true := by
+  decide
+
+/-- The immediate guard preserves an over-depth child nested inside an accepted parent. -/
+theorem top_level_guard_preserves_nested_overdepth_child :
+    flattenDepths (legacyTopLevelGuard 3 [overDepthChildProbe]) = [1, 4] := by
+  decide
+
+/-- Therefore the immediate-list guard does not establish a global descendant-depth bound. -/
+theorem top_level_guard_does_not_establish_global_bound :
+    allDepthsWithin 3
+      (flattenDepths (legacyTopLevelGuard 3 [overDepthChildProbe])) = false := by
+  decide
+
+/-- Proposed one-level child-aware guard; not the current Python implementation. -/
+def oneLevelChildAwareGuard (maxDepth : Nat) (xs : List SpawnDescriptor) :
+    List SpawnDescriptor :=
+  xs.filterMap fun x =>
+    if x.depth <= maxDepth then
+      some
+        { x with
+          onResultChildDepths :=
+            x.onResultChildDepths.filter (fun d => decide (d <= maxDepth)) }
+    else
+      none
+
+theorem one_level_child_aware_guard_removes_overdepth_child :
+    flattenDepths (oneLevelChildAwareGuard 3 [overDepthChildProbe]) = [1] := by
+  decide
+
+#eval flattenDepths (legacyTopLevelGuard 3 [observedNestedLearningShape])
+#eval flattenDepths (legacyTopLevelGuard 3 [overDepthChildProbe])
+#eval flattenDepths (oneLevelChildAwareGuard 3 [overDepthChildProbe])
+
+#print axioms observed_nested_learning_shape_within_bound
+#print axioms top_level_guard_preserves_nested_overdepth_child
+#print axioms top_level_guard_does_not_establish_global_bound
+#print axioms one_level_child_aware_guard_removes_overdepth_child
+
+end HsHVerification.EliasHydraNestedDepth
