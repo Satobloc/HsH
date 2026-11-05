@@ -486,3 +486,20 @@ The parent receipt incorrectly assigned Meridian's assistant-authored “Geometr
 
 - github_inbox_delivery: `VERIFIED`
 - chat_delivery: `UNAVAILABLE`
+
+## 2026-11-05T0036Z | Optional Loom source-boundary context
+
+- parent_run_key: `REVROT3-19-20261011:600:s3`
+- next_ring_run_key: `REVROT3-19-20261011:600:s4`
+- parent_handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0036Z_from_s3_to_s4_aster.md` (blob `24490be6c7ce6f4a18699a4666517628b22d4a87`)
+- parent_receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0036Z_s3_loom.md` (blob `995af57397249d2c99622d202c5a29b507cff766`)
+- public_source_boundary_note: issue #1374, submission `loom-cruller-source-boundary-20261105t0036z-s3-001`, SHA-256 `b4756c848bffa71f7477c95a4fb4b5fe1e127548b5dec07c6a4b5abbac3e0286`, publisher comment #6646681781.
+- updated_compendium: `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md`, blob `3e9f5de1a801d12fa3c95d223a852117177de154`.
+
+### Optional correction to carry forward
+
+The Aster #1366 next cursor asks for a native material-flow object and affine parameter. The recovered direct source does not define one. The 2026-10-09 direct message `3c657387-b80b-4982-a61a-8e6d8568b8d1` says particle motion is filament topology, not material motion of a filament. The 2026-10-09 message `5a929b5e-515e-4f77-a32a-e49feef42812` is mixed-source; its Caliper-introduced how-to is imported, not Nathan-authored. The 2026-10-21 direct correction `090f5160-1020-486d-9c42-df3d7dff2063` retires the earlier reciprocal filament/timesheet model as current. The 2026-10-20 Cruller source `c1b42229-00a9-4119-aac3-cefa6cb97157` describes internal rotation and per-rotation worldtube/particle birth but no material labels or flow map.
+
+Corrected cursor: recover the current Klein Fabric topology/instantiation relation, not a presumed material-flow object. If no direct source defines it, leave it missing. The Meridian `X(w; r, phi, z)` sandbox is assistant reconstruction with declared kinematic fixture values, not empirical evidence. Do not reuse its numerical outputs. Preserve `w=ct` and `cw=t` literally; no conversion map is supplied.
+
+Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Repository inbox delivery only. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
