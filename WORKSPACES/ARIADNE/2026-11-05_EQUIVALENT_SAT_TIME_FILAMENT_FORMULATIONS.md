@@ -33,6 +33,18 @@ The passage explicitly describes:
 
 This is the clearest recovered statement of the representational equivalence principle. It is not merely an assistant's proposed equivalence test.
 
+
+## Stronger transcript locator for the allocation spectrum
+
+A second, earlier-in-the-chain copy of the December 2025 conversation was located in the HsH repository:
+
+- `Satobloc/HsH/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT_DEC2025.txt`
+- Blob SHA: `af62e4b31216703687fd39e4f1182a55796d1c63`; 66,652 characters.
+- The exact “all time distortion” ↔ “all vector shape” passage occurs at character offset 13,300. It is followed immediately by the frozen-vector/frozen-flat-sheet thought experiment and the evolving intersection-placement construction.
+- The transcript begins with a dialogue-like exchange (“What do you know about my SAT theory” / “Scalar Angular Twist. Good. You don't know about it.”), but this flattened file does not expose raw message UUIDs or explicit role tags. Treat the first-person passage as the user's contribution from dialogue context, while keeping raw role-tag verification open.
+
+The archive copy `SATOBLOC MISC/NEOSAT 2025.txt` (blob `e985d599fffdff05fc859be98c6cdb827ed211a0`) wraps the same passage in NotebookLM notebook/source-guide material. The key passage is present in both, but the files are not byte-identical and should not be counted as two independent witnesses. For the formulation genealogy, prefer the HsH transcript copy; retain the NotebookLM-wrapped archive copy as a derivative/contextual companion.
+
 ## Historical mode labels
 
 **Source:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT 4D Theory Work/SAT4D_8.txt`  
