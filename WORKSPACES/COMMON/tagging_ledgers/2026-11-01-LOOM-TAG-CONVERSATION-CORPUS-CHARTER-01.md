@@ -252,3 +252,14 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - Tags: `LANGUAGE-DISCOVERY-GAME`; `LINGUISTIC-GUESSING`; `LANGUAGE-FAMILY-CLASSIFICATION`; `CULTURAL-CURIOSITY`; `GERMANIC-LANGUAGE-COMPARISON`; `DIALECT-INTELLIGIBILITY-QUESTION`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`.
 - Attribution caveat: `You said:` and `ChatGPT said:` are plain transcript text, not raw role metadata. No Nathan Direct attribution is made from these labels. Assistant claims about language families, etymologies, or meanings remain unverified and are not promoted as external facts.
 - Next unrelated-reading cursor: line 461.
+
+
+## F. Unrelated reading tag: `fun break - lx.txt` lines 461–600
+
+- Sources: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt` (HsH) and `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt` (SAT archive).
+- Git blob SHA-1: `f33eb29fbac65efa1db054239bb9c28a04a13a42`; both repository paths resolve to the same body, so this is one source with two locations.
+- Read extent: lines 461–600 inclusive, rechecked as one contiguous source span during `REVROT3-19-20261011:623:s2` on 2026-11-05. Prior checkpoint/receipt entries had recorded portions of this span, but the cumulative tag ledger did not yet carry a complete entry. Next unrelated-reading cursor: line 601.
+- Content class: conversational language-discovery/guessing game; includes Swahili, Georgian/Svan, Aymara, Basque, Wolof, Maltese and a question about Hospitaller/Templar influence, Etruscan, Hittite, Ainu, Lao, Tupi-Guarani, Sami, Quechua, Tlingit and Khoekhoe. These are topics present in the transcript, not independently verified linguistic claims.
+- Tags: `LATERAL_READ`; `LANGUAGE-DISCOVERY-GAME`; `LINGUISTIC-GUESSING`; `LANGUAGE-FAMILY-CLASSIFICATION`; `LANGUAGE-HISTORY-CURIOSITY`; `COLONIAL-LANGUAGE-HISTORY-QUESTION`; `REPETITION-ERROR`; `PROMPT-RESPONSE-MISMATCH`; `USER-CORRECTION-OF-ASSISTANT`; `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `SPEAKER-UNVERIFIED`.
+- Source-fidelity observations: repeated suggestions include Etruscan, Ainu, Lao, Quechua and Tlingit; visible prompt/answer mismatches include an Aymara prompt followed by a Basque answer, a Tupi-Guarani prompt followed by a Yanomami/Cariban answer, and a Khoekhoe prompt followed by a Juǀʼhoan answer. The user-textual labels show corrections, but they are not raw role metadata. No statement in this passage is attributed to Nathan Direct, and assistant assertions are not promoted as external facts.
+- Attribution caveat: `You said:` and `ChatGPT said:` are plain transcript text, not raw `author.role` metadata. This is a source-level interaction annotation only; no Nathan-authorship inference is made.
