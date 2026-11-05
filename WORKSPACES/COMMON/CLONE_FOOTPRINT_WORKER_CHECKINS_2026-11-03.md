@@ -86,6 +86,40 @@ For each mechanism, give an estimated count over the covered period and typical 
 
 _No responses recorded yet._
 
+
+## Coordinator telemetry evidence — 2026-11-05 (not worker responses)
+
+These are directly inspected Actions run/job/step records. They are **project workflow events**, not first-hand self-reports by a worker identity. They should be deduplicated by repository, run, job and attempt.
+
+### HSH_RESOURCES three-repository source inventory
+
+- Workflow run: [#41592883527](https://github.com/Satobloc/HSH_RESOURCES/actions/runs/41592883527), workflow .github/workflows/source-inventory.yml, event schedule, attempt 1, started 2026-11-03T06:54:54Z, completed success.
+- Job: inventory, job ID 125773422547, completed success.
+- Three explicit checkout steps completed:
+  1. Checkout private resources repository → Satobloc/HSH_RESOURCES, path RESOURCES.
+  2. Checkout HsH → Satobloc/HsH, path HsH.
+  3. Checkout GLASS → verified by exact workflow YAML as Satobloc/SAT_THEORY_ARCHIVE_2023-25, path GLASS.
+- Job logs show git init for each of the three checkout directories.
+- Classification: **3 likely clone-producing checkout events**, one per repository, in one run/job/attempt. Do not count the later git fetch origin main used for publishing the private inventory as another checkout event without separate evidence that it meets the ledger's clone definition.
+
+### Nadir PR #1189 Lean verification
+
+- Workflow run: [#41927513429](https://github.com/Satobloc/HsH/actions/runs/41927513429), workflow .github/workflows/lean-verification.yml, event pull_request, attempt 1, created 2026-11-04T22:41:49Z, completed success.
+- Job: verify, job ID 126915668961.
+- One completed Run actions/checkout@v4 step synchronized Satobloc/HsH; job log shows git init and git fetch --depth=1 of PR head 47e3443d1ccb07ff4396fa9e33eb6cdfbf40e4b7.
+- Classification: **1 likely clone-producing HsH checkout event**, associated with the PR workflow. This is not proof that a Nadir worker personally ran git clone or that the worker label maps to a unique runner/network identity.
+
+### Verified sample subtotal
+
+| Repository | Completed checkout events in these two runs |
+|---|---:|
+| HsH | 2 |
+| HSH_RESOURCES | 1 |
+| SAT_THEORY_ARCHIVE_2023-25 | 1 |
+| **Total** | **4** |
+
+This subtotal is deliberately limited to the two inspected workflow runs. It is not a daily or period-wide estimate, does not include Pages, other workflow runs, explicit local clones elsewhere, or provisioning-unknown cloud environments, and is not directly comparable to unique-cloner counts. The sample demonstrates a real internal source of clone traffic but does not yet quantify its share of the 14-day total.
+
 ## Coordinator synthesis protocol
 
 After the one-time census:
