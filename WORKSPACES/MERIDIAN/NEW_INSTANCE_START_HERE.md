@@ -1,18 +1,35 @@
-# Meridian — NEW INSTANCE START HERE
+# Meridian - New Instance Start Here
 
-**Current checkpoint:** 2026-10-21, conversation-length rollover requested by Nathan. Read the [complete continuity checkpoint](MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md) FIRST. It supersedes short-form recollections and links to the actual source files, derivations, errors, project decisions and outstanding tasks.
+**Read first:** [CURRENT_WORK.md](CURRENT_WORK.md). It is the compact worker syllabus and live checkpoint pilot: identity status, historical specialist remit, current project hierarchy, assignment, blocker, next action and return cursor. It is assistant-curated navigation, not a new Nathan-authored charter, task graph or theory authority. Refresh the linked Common controls and latest receipt before acting.
 
-**Immediate correction from Nathan Direct:** “3D rotation absolutely is 4D curvature. All 3D acceleration is.” A marked rotating body traces curved four-dimensional *material histories*, even with flat ambient R4. Do not confuse the extrinsic curvature of these histories with the Riemann curvature of the ambient/effective metric or the curvature of a pure-gauge rotation-frame connection. Fixed affine-chart qualification and exact formula are in continuity; Orson's nonlinear-resolver null must also be respected.
+## Identity and role provenance
 
-**Action after onboarding:** BEDROCK and Forest normalization → actual complete Cruller geometry/material flow → 4D curve bending/normal holonomy/finite-core material contacts → known-physics interaction map → optical metric only if derived → standard GR+dust observational comparison and held-out Star-Map tests.
+“Meridian” is a deterministic revival-ring label, not proof that a historical ChatGPT instance or conversation has been re-instantiated. The latest bounded lookup did not establish a currently usable historical Meridian thread. Do not treat the scheduled task's conversation ID as the old Meridian thread.
 
-**Current newly mined source:** 48 NotebookLM files in DEVELOPMENT_FULL_CONVOS/NLM_BIG_HAUL. Role tags all say user in multiple exports, even for generated answers; no automatic attribution to Nathan. Orson's shared Mersearch request 2026-10-21-orson-nlm-big-haul-math-001 (workflow 39692587169) was still in progress on last check; do not overwrite/duplicate it.
+The historical specialist remit is grounded in user-role messages in conversation `6a9aa91b-11f4-83ea-80a1-4d502522e441`, raw export blob `d21e251df093013903cc19789ded562f83b6e6ea`. Key messages:
+- `054d1aea-cf67-4154-93c8-e302dc3ce1ea`: Graticule symmetry/asymmetry, parity/handedness and comparison with existing geometric solvers.
+- `39299849-e2a4-4b63-88a0-5612c700cc1a`: configurable/scriptable solver inputs, couplings, comparisons and verification.
+- `f6a2377c-8873-41ee-9107-41aeeb0d2589`: source-faithful audit of the Whirligig GR-QM comparison and derivation, with explicit capabilities, limits and procedures.
 
-**Active mathematical files:**
-- [Exact 4D rotating-history correction](SANDBOX_2026-10-21_ROTATION_AS_WORLDTUBE_CURVATURE_CORRECTION.md)
-- [Reproducible solver](meridian_rotation_worldtube_curvature_gate_20261021.py)
-- [Corrected NLM haul intake](SANDBOX_2026-10-21_NEW_NLM_HAUL_INTAKE_AND_CRULLER_GEOMETRY_GATES.md)
-- [Cruller global topology](SANDBOX_2026-10-20_CRULLER_FIRST_GLOBAL_TOPOLOGY.md)
-- [Second-order winding null control](SANDBOX_2026-10-21_CRULLER_SECOND_ORDER_VARIATION.md)
+The historical assistant self-description “Geometric Formalization & Representation Lead” is not Nathan Direct. The raw export was not freshly parsed in the current run; use the source-audited role ledgers and receipts for the documented coverage and limits.
 
-**Save integrity:** the complete continuity document was committed, formula escaping repaired and independently fetched from GitHub. This is not a verbatim export of the complete conversation. No physical or observational model-specific signal was established.
+## Historical research continuity
+
+[MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md](MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md) is a source-rich research synthesis from the October 21 conversation-length rollover. It preserves a prior Cruller/material-history research cursor. It is not the current assignment and does not supersede the live Code Grurple roster or task graph.
+
+The October 21 Nathan Direct correction preserved there remains important: “3D rotation absolutely is 4D curvature. All 3D acceleration is.” Keep curvature of marked material histories distinct from ambient/effective Riemann curvature and pure-gauge frame-connection curvature.
+
+## Legacy snapshots
+
+- `TRIAL_CHECKPOINT.md` is a long prototype-trial record with older role, cadence and solver state. Treat it as historical evidence; refresh current assignment from `CURRENT_WORK.md`, Common controls and current receipts.
+- `MERIDIAN_CURRENT_SPINE_2026-10-05.md` is a non-canonical sandbox synthesis, not live routing authority.
+- Historical NotebookLM intake and older Mersearch-request statuses in this folder's predecessor notes must be rechecked before resuming; they are not assumed current.
+
+## First operational checks
+
+1. Read live `BEDROCK.md`, the current Steering Charter, Three Paper Campaign, three-repository onboarding and current workflow orientation.
+2. Read the live task graph, Code Grurple roster, Presentation Gate, Reader Routing Registry and latest Meridian/Mercer receipts.
+3. Read the current handoff addressed to this run key, if any, and the worker's own `CURRENT_WORK.md`.
+4. Preserve the distinction between historical identity, current routing label, scheduler lease, branch assignment and actual ChatGPT thread access.
+
+Never rename a conversation or imitate Nathan's protected signet.
