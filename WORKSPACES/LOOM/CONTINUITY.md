@@ -393,3 +393,19 @@ Public source-boundary note: issue #1374, submission `loom-cruller-source-bounda
 Compendium update: blob `3e9f5de1a801d12fa3c95d223a852117177de154`. Rotation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0036Z_s3_loom.md`. Optional Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0036Z_from_s3_to_s4_aster.md`. Aster inbox append was read back. Repository delivery only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 
 The existing :36 automation remains enabled with its exact hourly :36 America/New_York schedule. The current nominal 00:36Z run is still recorded in_progress with chat_ref=null; no scheduler completion or historical-thread identity is claimed. No task, branch, paper gate, BEDROCK, or theory status changed.
+
+
+## 2026-11-05 12:00Z | Gendarme assistant-span fidelity addendum
+
+The local Gendarme Graticule source cursor advanced through Nathan Direct request a6c300a6-892d-4e20-9fe1-dbdcf33d3eed and the full assistant continuation f7a40c0c-a419-4bb4-95c3-b6127c8c2481. The full assistant span was missing from the earlier tag ledger and public issue #1322 artifact; it is now tagged in the existing Loom Gendarme ledger.
+
+- The assistant proposes a 3D torus calculation, integration around a selected symmetry, an equivalent-angle field, a sphere-null comparison, normalization by 90 degrees, a 2D graticule result, a left/right anti-graticule pullback, and an odd residual panel.
+- Nathan Direct's surrounding requests include both full 3D calculation and a simple 2D visible result. Separating calculation from display is a plausible assistant synthesis, not an explicitly accepted source definition.
+- The later direct statement that the Graticule is a peer geometric solver means it must not be reduced to a display canvas. The solver-side operation and its relation to the 3D calculation remain undefined.
+- The display reflection R(u,v)=(-u,v) is an involution. If the anti field is the pullback under R, the assistant's residual is the odd component under that reflection, not physical cancellation. The sphere-null map and metric-to-angle maps remain missing.
+- Formal target is clear, but no Lean run was performed because no local Lean/Lake/Elan toolchain is present and no existing PR is an authorized insertion point. No physical calculation or empirical validation was performed.
+- Public addendum submission #1390 has matching embedded SHA-256 but the publisher rejected it because the schema literal was uppercase; the script requires lowercase hsh-publish-v1. No artifact was written, and no duplicate submission was created.
+- The next local cursor is 3e540785-e8df-421c-aded-63bd85add0f8 (2026-09-07 role clarification). The next global cursor remains Minkowski Ring Analysis at 861acc12. Keep display reflection and global material winding reversal separate until an explicit map is supplied.
+- The WWRD climbing-rope comparison remains first-blush geometric heuristic only; no physical equivalence to the Gendarme torus/graticule is claimed.
+
+The clone-footprint log now has five reconstructed ring-label entries after the Loom check-in. The five-entry review trigger is reached; Tern owns action-plan/task-graph reconciliation. The first deeper open-work sweep is documented in the Loom checkpoint. FIE review is next due 2026-11-10.
