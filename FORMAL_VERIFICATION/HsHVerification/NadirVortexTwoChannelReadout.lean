@@ -231,3 +231,91 @@ theorem downstreamModeClassifier_not_injective
 
 end
 end HsHVerification.NadirVortexTwoChannelReadout
+
+
+namespace HsHVerification.NadirVortexTwoChannelReadout
+
+/-!
+## Resolution-limited readout stability
+
+Assistant-derived general metric lemma, added as an architecture aid.
+It extends exact fiber-identifiability checks to a finite-resolution
+readout. It is not a Nathan Direct equation, a source-paper claim, a
+physical measurement model, or an H(s)H prediction.
+
+For readout map O : X → Y, target feature T : X → Z, and a decoder
+D : Y → Z with Lipschitz constant L, if two readouts are ε-close and
+D estimates each target within τ, then the two target values must be
+within 2τ + Lε. A pair violating that bound rules out every decoder
+satisfying the declared Lipschitz and error conditions for that pair.
+-/ 
+
+section ResolutionLimitedReadout
+
+variable {X Y Z : Type*}
+variable [PseudoMetricSpace Y] [PseudoMetricSpace Z]
+
+/-- A decoder has real Lipschitz bound L on the declared readout and
+target pseudometric spaces. -/
+def IsLipschitzDecoder (L : ℝ) (decode : Y → Z) : Prop :=
+  0 ≤ L ∧
+    ∀ y₁ y₂, dist (decode y₁) (decode y₂) ≤ L * dist y₁ y₂
+
+/-- If two readouts are ε-close and one L-Lipschitz decoder estimates
+both target values within τ, their target separation is at most
+2τ + Lε. -/
+theorem target_separation_le_of_lipschitz_decoder
+    (observe : X → Y) (target : X → Z) (decode : Y → Z)
+    (L ε τ : ℝ)
+    (hdecode : IsLipschitzDecoder L decode)
+    {x₁ x₂ : X}
+    (hreadout : dist (observe x₁) (observe x₂) ≤ ε)
+    (herr₁ : dist (decode (observe x₁)) (target x₁) ≤ τ)
+    (herr₂ : dist (decode (observe x₂)) (target x₂) ≤ τ) :
+    dist (target x₁) (target x₂) ≤ 2 * τ + L * ε := by
+  rcases hdecode with ⟨hL, hLip⟩
+  have h₁ : dist (target x₁) (decode (observe x₁)) ≤ τ := by
+    simpa [dist_comm] using herr₁
+  have h₂ : dist (decode (observe x₂)) (target x₂) ≤ τ := herr₂
+  have hmid :
+      dist (decode (observe x₁)) (decode (observe x₂)) ≤ L * ε := by
+    calc
+      dist (decode (observe x₁)) (decode (observe x₂))
+          ≤ L * dist (observe x₁) (observe x₂) := hLip _ _
+      _ ≤ L * ε := mul_le_mul_of_nonneg_left hreadout hL
+  calc
+    dist (target x₁) (target x₂)
+        ≤ dist (target x₁) (decode (observe x₁)) +
+          dist (decode (observe x₁)) (target x₂) := dist_triangle _ _ _
+    _ ≤ τ + (dist (decode (observe x₁)) (decode (observe x₂)) +
+          dist (decode (observe x₂)) (target x₂)) := by
+          exact add_le_add h₁ (dist_triangle _ _ _)
+    _ ≤ τ + (L * ε + τ) := by
+          exact add_le_add_left (add_le_add hmid h₂) τ
+    _ = 2 * τ + L * ε := by ring
+
+/-- A pair of admissible states whose targets exceed 2τ + Lε while
+their readouts are ε-close rules out the declared Lipschitz decoder
+and its two τ-accuracy claims. This is a conditional no-go witness,
+not an empirical result. -/
+theorem separated_pair_excludes_lipschitz_decoder
+    (observe : X → Y) (target : X → Z) (decode : Y → Z)
+    (L ε τ : ℝ)
+    (hdecode : IsLipschitzDecoder L decode)
+    {x₁ x₂ : X}
+    (hreadout : dist (observe x₁) (observe x₂) ≤ ε)
+    (herr₁ : dist (decode (observe x₁)) (target x₁) ≤ τ)
+    (herr₂ : dist (decode (observe x₂)) (target x₂) ≤ τ)
+    (hseparated :
+      2 * τ + L * ε < dist (target x₁) (target x₂)) :
+    False := by
+  exact (not_le_of_gt hseparated)
+    (target_separation_le_of_lipschitz_decoder
+      observe target decode L ε τ hdecode hreadout herr₁ herr₂)
+
+#print axioms target_separation_le_of_lipschitz_decoder
+#print axioms separated_pair_excludes_lipschitz_decoder
+
+end ResolutionLimitedReadout
+
+end HsHVerification.NadirVortexTwoChannelReadout
