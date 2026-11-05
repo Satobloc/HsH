@@ -15,7 +15,7 @@ Reconstruct the historical SAT/H(s)H research-institution and publishing-workflo
 1. Read current HsH BEDROCK, steering/onboarding controls, and the Three Paper Campaign as required by the standing Workshop rules.
 2. Read this capsule, PROJECT_CONTROL.md, WORK_QUEUE.md, OPERATING_PROTOCOL.md, CALENDAR_AND_AUDITS.md, INTERACTIVE_HEARTBEAT.md, and AUTOMATION_STATE.md.
 3. Read only the active operation's named source range and the task-tailored references it points to. Do not reload the entire archive by default.
-4. Check the heartbeat and automation state before claiming work.
+4. Check the heartbeat and automation state before claiming work. CALENDAR.json is the machine-readable cadence; heartbeat_check.py is a read-only diagnostic helper, not an alarm or scheduler.
 5. Perform at most one bounded operation in this run. Record exact source identity, actual read extent, result, unresolved questions, and next cursor.
 6. Update the queue and relevant ledger/control record, then leave a precise restart point.
 
@@ -53,3 +53,6 @@ This is a bounded historical scout operation. After this chunk, update the queue
 A search hit is not a read. A summary is not a primary source. A plausible design is not a recovered historical intention. A tool being listed is not proof it works. A repository handoff is not proof of recipient consumption. A recurring task is not a continuously identical instance. Record what is verified, what is inferred, and what remains unknown.
 
 **If anything conflicts, preserve source evidence and Nathan's latest direct instruction; record the conflict and do not silently reconcile it.**
+
+
+**Reusable worker guidance:** WORKER_RECOMMENDATIONS.md records which continuity practices may be adapted by other lanes. It is a pilot recommendation, not a blanket instruction to rewrite other worker prompts.
