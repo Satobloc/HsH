@@ -227,7 +227,49 @@ theorem downstreamModeClassifier_not_injective
 #print axioms downstreamModeClassifier_two_step
 #print axioms downstreamModeClassifier_not_injective
 
-#print axioms antipodalModeReadout_not_injective
+
+/-- Under the single-harmonic radial ansatz, the m=1 antipodal readout
+    consists of displacement ε cos φ and unchanged mean core radius a₀. -/
+theorem antipodalModeReadout_one_formula (a₀ ε φ : ℝ) :
+    antipodalModeReadout 1 a₀ ε φ =
+      (ε * Real.cos φ, a₀) := by
+  unfold antipodalModeReadout
+  simp [radialModeContour, observe, displacement, coreRadius,
+    Real.cos_add]
+  <;> ring_nf
+
+/-- Under the same ansatz, the m=2 antipodal readout has zero displacement
+    and a radius modulation ε cos φ. -/
+theorem antipodalModeReadout_two_formula (a₀ ε φ : ℝ) :
+    antipodalModeReadout 2 a₀ ε φ =
+      (0, a₀ + ε * Real.cos φ) := by
+  have h02 : antipodalModeReadout 2 a₀ ε φ =
+      antipodalModeReadout 0 a₀ ε φ := by
+    simpa using antipodalModeReadout_two_step 0 a₀ ε φ
+  rw [h02]
+  unfold antipodalModeReadout
+  simp [radialModeContour, observe, displacement, coreRadius]
+  <;> ring_nf
+
+/-- The two-channel readout separates the m=1 and m=2 modes exactly when
+    the sampled harmonic signal ε cos φ is nonzero. This is conditional on
+    the paper's single-harmonic radial ansatz and antipodal sampling map. -/
+theorem antipodalModeReadout_one_two_eq_iff_signal_zero
+    (a₀ ε φ : ℝ) :
+    antipodalModeReadout 1 a₀ ε φ =
+      antipodalModeReadout 2 a₀ ε φ ↔
+        ε * Real.cos φ = 0 := by
+  rw [antipodalModeReadout_one_formula,
+    antipodalModeReadout_two_formula]
+  constructor
+  · intro h
+    exact congrArg Prod.fst h
+  · intro h
+    simp [h]
+
+#print axioms antipodalModeReadout_one_formula
+#print axioms antipodalModeReadout_two_formula
+#print axioms antipodalModeReadout_one_two_eq_iff_signal_zero
 
 end
 end HsHVerification.NadirVortexTwoChannelReadout
