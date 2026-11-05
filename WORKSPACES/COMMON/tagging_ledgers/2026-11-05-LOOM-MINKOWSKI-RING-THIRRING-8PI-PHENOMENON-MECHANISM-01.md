@@ -116,4 +116,4 @@ No new Lean theorem was added. No physical fixture or data-free physical calcula
 - No BEDROCK theory status was changed.
 - No new physical calculation, fit, prediction, or measurement.
 - No new tool, dependency, branch, task, issue, or paid service.
-- Existing public issue #1397 remains the sole public artifact for the h619:s3 result; this ledger is an internal source-fidelity addendum, not a duplicate publication.
+- Existing public issue #1397 remains the sole public artifact for the h619:s3 result; this ledger is a repository source-fidelity addendum, not a separate issue submission.
