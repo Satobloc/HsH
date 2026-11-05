@@ -175,3 +175,39 @@ No new Lean theorem is introduced here. The readout envelope is a proposed annot
 - Allan, Mishra & de Rooij (2025 online / 2026 issue), DOI 10.1177/00405175251333381.
 - Bryant et al. (2003), DOI 10.1126/science.1086634.
 - Gao et al. (2021), DOI 10.1103/PhysRevLett.127.028101.
+
+
+## 8. 2026-11-05 h618:s2 addendum — additional rope metrology and formalization status
+
+### 8.1 New measured rope comparators (not a universal climbing-rope model)
+
+The current WWRD audit already contains climbing-rope force/deformation evidence, dynamic rope/ground contact, and calibrated internal-strand pressure-film measurements. The following additional sources add distinct measurement channels; they do not replace those records.
+
+1. **Allan et al. (2025 online), micro-CT geometry of double-twisted three-strand ropes**, DOI https://doi.org/10.1177/15280837251333116. The publisher text reports micro-CT of three-strand Twaron ropes with different twist configurations: 0.92 μm pixel size, 0.7 μm true spatial resolution, 3,201 projections, and a stitched scan volume about 3.3 mm long by 0.9 mm in diameter. Each strand contains 1,000 filaments; the reported mean filament diameter is 11.7 ± 0.5 μm. The paper reports interface deviations from the idealized double-helix/uniform-packing model, attributed to inter-strand interaction and filament rearrangement. Raw data are stated to be available upon reasonable request, not as a public download. The retrieved text does not establish whether the ±0.5 μm is instrument uncertainty or sample spread; do not relabel it. The 0.1 μm iterative-solver stopping tolerance is not measurement uncertainty. This is measured internal geometry of an industrial three-strand rope, not a climbing kernmantle rope and not a universal rope law.
+
+2. **Vanneste et al. (2022), experimental friction between polyamide rope fibers**, DOI https://doi.org/10.1080/00405000.2022.2105075. The open paper describes a yarn-on-yarn test using a 3 m polyamide rope specimen with three twists, contact angles from 27° to 60°, loads of 2.74, 7.36 and 12.38 kg, and a rotating arm at 1 Hz. Load cells record force; each condition is repeated three times, with five samples in the abrasion series. Friction depends on contact angle and twist direction; the paper reports asymmetric load-cell behavior and different S/Z twist outcomes. The retrieved text did not expose a quantified uncertainty budget or public raw-data file. This is a contact/friction comparator for rope yarn in a mooring-rope context, not a full climbing-rope test.
+
+3. **Hossain et al. (2024), kernmantle-rope impact failure**, DOI https://doi.org/10.1177/00405175241273960. The retrieved publisher abstract describes synchronized force-displacement testing plus macro/microscopic post-test inspection; it attributes failure primarily to shearing between strands, with friction and thermal damage. Full methods, raw data, and uncertainty were not recovered in this pass, so this remains abstract-level evidence only.
+
+4. **The physics of a climbing rope under a heavy dynamic load (2017)**, DOI https://doi.org/10.1177/1754337116651184. The retrieved record describes a model compared with experiments, including time-delayed friction, nonlinear stiffness at large elongation, and rope-mass contributions to second-mode oscillations. No raw dataset or uncertainty budget was recovered in this pass. Treat it as a source lead, not an independently reproduced measurement.
+
+These sources show that rope construction, strand count, twist, contact angle, loading, and measurement modality materially change what is observed. They strengthen the case for specifying the actual specimen and readout map before comparison. They do **not** establish WWRD universality or a physical equivalence between climbing-rope mechanics and H(s)H.
+
+### 8.2 Formalization update — PR #873
+
+The source-faithful moving-slice module was repaired on the existing Kestrel PR branch `research/kestrel-original-slice-fidelity-20261028t0900z`; no new branch or PR was created.
+
+- Commit `ac84762ae2c13a065ad29b874d4d38681aa3b333` closed the two previously unsolved affine moving-slice goals using the stated nonzero-direction and distinct-time assumptions.
+- GitHub Actions run **42099732090** completed successfully on 2026-11-05. It built the full 8,954-job Lean library on merge commit `144bbeb79af72c7812aed3e3545ad9d006b98df7`, merging the PR head with base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. This is a **merge-reference build**, not an exact-head-only build.
+- The build included `KestrelProjectedIncidence`, `KestrelIntersectionDimensionGate`, `KestrelKelvinVortexReadout`, `KestrelMovingSlice`, and `WorldtubeInertiaCoordinate`. The two moving-slice theorems compiled; their `#print axioms` output lists only `propext`, `Classical.choice`, and `Quot.sound`, with no `sorryAx` shown.
+- A cleanup commit `b81a8aefea2943cfe1f89b1d7bb68065a2181d1c` removed two unreachable `ring` tactics that the successful build had warned were never executed. The current branch head is this cleanup commit. Its push-triggered run **42101075525** failed with zero jobs; no new pull-request verification run was observed. Therefore the **proof-bearing predecessor is build-verified; the latest cleanup-only head is not yet independently recompiled**.
+- The workflow skipped tests, lint, nanoda, and the automated axiom-audit step. No exact-head-only build or independent hostile review is claimed.
+
+The formalized claim remains conditional: for the declared affine line/plane model, with nonzero plane-normal direction and distinct sample times, the intersection lies on the moving plane and its in-plane coordinate rate is the direction-component ratio times the plane speed. Equality with the plane speed requires the corresponding direction components to match. This is an assistant reconstruction of the source geometry, not a verbatim Nathan equation, not a physical measurement, and not a claim about a universal H(s)H worldtube law.
+
+### 8.3 Scope disposition
+
+- CODATA 2022 source/methodology review is already recorded in Morrow's 2026-11-05 receipt; no numerical comparison was repeated here.
+- The central task graph and Meridian current-work card keep H(s)H generation/CODATA P2 **BACKSEAT/HOLD** while Code Grurple is active. No physical system was selected, no physical calculation was performed, and no P2 gate or theory status was advanced.
+- Mersearch's four request lanes remain occupied; their request-scoped manifests were not present. No new request was submitted and no occupied lane was overwritten. The new rope literature was found through the installed SciSpace connector and public publisher sources, not Mersearch.
+- No new shared symbol, solver object, public issue, publication, or automation was created. The existing report is updated in place to avoid a duplicate artifact.
