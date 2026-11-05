@@ -1,6 +1,6 @@
 # H(s)H Terminology and Representational Standard
 
-**Version:** 0.1.0  
+**Version:** 0.1.1  
 **Date:** 2026-11-04  
 **Status:** Working reference; terminology and method standard, not a theory-promotion document.  
 **Authority:** Assistant-authored synthesis of the live discussion and inspected repository controls. Not Nathan Direct unless an exact source is separately attributed.
@@ -57,6 +57,30 @@ The aim is increasingly faithful correspondence among all three levels. Geometri
 | **Foliation** | Decomposition of a manifold into leaves under stated mathematical conditions. | A timesheet is not a foliation merely because both are sheet-like. |
 
 **Required geometry declaration.** Every nontrivial geometry claim should identify, as applicable: object; dimension; ambient space and metric; embedding; coordinates or parameters; centerline/core; cross-section; boundary/shell; orientation and handedness; relevant transformations; intended observable correspondence. If a material element is undefined, mark the construction underdefined rather than filling the gap by intuition.
+
+### 2.2.1 Three top-level levels and five operational representation forms
+
+The **three-level sequence** in Section 1 identifies the broad representational relationship:
+
+1. Observation.
+2. Geometrical representation of observed structure.
+3. Mathematical abstraction of that geometry.
+
+The **five-level hierarchy** specified in Nathan Direct's 2026-11-03 Geometry-First Factory Floor directive identifies distinct operational forms within that relationship:
+
+| Five-level term | Meaning | Three-level placement | Operational role |
+|---|---|---|---|
+| **Primary: observation** | The actual physical system/process as observed, with instrument and measurement chain. | Observation | Empirical referent. Record provenance, calibration, uncertainty, frame, coverage, and selection effects. |
+| **Secondary: physical working model** | Tangible physical analogue, hands-on demonstration, or orrery. | Geometrical representation | Inspectable material representation. State scale, mechanical correspondence, and omissions. It is not the observed system. |
+| **Tertiary: precision dynamic geometric software model** | Executable, parameterized geometry with state and evolution/response. | Geometrical representation | Represents geometry and behavior when dynamics matter. Expose update law, constraints, boundary conditions, and outputs. |
+| **Quaternary: precision static geometric diagram** | Fixed, dimensioned, convention-complete plot of the specified object and relations. | Geometrical representation | Shows the geometry itself. This is the minimum visual deliverable for Factory Floor admission. |
+| **Pentary: mathematics** | Equations, definitions, proofs, algorithms, fits, and numerical descriptions. | Mathematical abstraction | Formalizes selected features of the geometry; it cannot substitute for the quaternary plot. |
+
+This table is an **assistant-authored crosswalk** between the user's three-level formulation and the five named forms in the 2026-11-03 Nathan Direct directive. The five terms and their order are source-defined; the grouping of secondary, tertiary, and quaternary forms under the broad geometrical-representation level is the crosswalk, not a new Nathan Direct statement.
+
+The two schemes answer different questions and must both be retained. The three-level sequence identifies the translation being assessed. The five-level hierarchy identifies the concrete representation types available within that translation. The five forms are not five additional top-level levels in the three-part sequence, and the three-part sequence does not erase their distinct requirements.
+
+The five-level order is not a mandatory fabrication sequence. A secondary physical model is required when relevant to the claim; a tertiary dynamic model is required when evolution, response, or transformation is material; the quaternary plot is the minimum Factory Floor visual deliverable; and empirical claims must be anchored to primary observation. A static plot cannot replace a dynamic model when dynamics are material, and mathematics cannot replace either.
 
 ### 2.3 Mathematical abstraction
 
@@ -246,6 +270,18 @@ A geometry figure or file should include: exact objects and dimensions; embeddin
 
 A geometrically faithful diagram validates only its correspondence to the stated construction. It does not validate the physical hypothesis.
 
+### 10.1 Factory Floor and geometric-paper gate
+
+For Factory Floor admission and papers making geometric claims, apply the controlling 2026-11-03 Geometry-First gate:
+
+- Supply the exact quaternary static geometric plot, with conventions, legend, caption, source correspondence, and immutable version/hash, in the same submission package as the governed artifact.
+- Obtain an independent hostile geometric-fidelity review of that exact plot. If no independent reviewer has reviewed it, report `GEOMETRY_REVIEW_PENDING`; author self-review or an assistant paraphrase is not independent review.
+- Supply a tertiary executable dynamic geometric model when the claim depends materially on evolution, response, deformation, or transformation.
+- Include a secondary physical working model when it is relevant to the claim, and primary observations for empirical claims.
+- Keep geometry clearance, mathematical clearance, H(s)H candidacy, and physical verification as separate states. Passing one gate does not imply the next.
+
+The exact gate, including the full hostile-review checklist and status vocabulary, is controlled by `WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md` and BEDROCK's 2026-11-03 Nathan Direct entry. This glossary summarizes those requirements; it does not supersede them.
+
 ## 11. Formalization, computation, and evidence gates
 
 | Gate | Establishes | Does not establish |
@@ -351,6 +387,8 @@ No item is resolved by its inclusion here.
 ## 17. Short reference card
 
 **Three levels:** Observation → Geometrical representation → Mathematical abstraction.
+
+**Five operational forms:** Primary observation; Secondary physical working model; Tertiary dynamic geometric software model; Quaternary static geometric plot; Pentary mathematics. The middle three are concrete forms of geometrical representation; pentary mathematics abstracts the geometry.
 
 **Three fidelity questions:** Does geometry represent observation? Does mathematics represent geometry? Do model outputs correspond to independent observations?
 
