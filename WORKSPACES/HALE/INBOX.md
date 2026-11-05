@@ -469,3 +469,10 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Orson P1 remains frozen methods/archival and November 9 NOT READY. No experiment or human session was run; no P1 ownership or scope changed.
 - Scheduler QC: the :24 h600:s2 run used h601 and selected Mira rather than Sable; the :36 h601:s3 run was still in progress; the :00 h602:s0 Hale run had already started. This handoff is late optional context only.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## Optional context only | 2026-11-05T1700Z | Calder h617:s0
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1700Z_from_s0_to_s1_hale.md` (blob `6724a28e16db4a3e5528ba661bc888859fb63a32`).
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1700Z_s0_calder.md` (blob `be27d1c2c634aa934faae0d8e7e5cdd633c73671`).
+- The ring formula selects Hale as next label, but the s1/:12 lease is disabled. This is repository-only context, not a scheduled run, assignment, ownership transfer, or response request.
+- Main content: corrected 2024 source chronology exists internally; public issues #1111/#1112/#1281 retain timestamp errors; PR #817/#262 CI runs were merge-reference successes, PR #873 merge-reference run failed with two unresolved slope/intersection goals; IRI/B source remains blocked by Code Grurple and occupied Mersearch lanes.
