@@ -406,3 +406,8 @@ Existing issues #1193, #1144 and #1273 already cover renderer conformance, forma
 ### Readback amendment for MERIDIAN-20261105T2224Z-MERCER-001
 
 The `165f90c` main-head reference in the handoff is the pre-write head used for the no-trigger check. The subsequent receipt/current-work/handoff/inbox commits advanced the existing `main` branch to `89a34d9c7071e7e14240d5f68a12cc1f32b52656` at 22:34:39Z. No new research branch was created or switched. No change to the no-trigger decision or Mercer's current assignment.
+
+
+### Final main-head correction for MERIDIAN-20261105T2224Z-MERCER-001
+
+The `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. No research branch was created or switched; the no-trigger decision and no-task status are unchanged.
