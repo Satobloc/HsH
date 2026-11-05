@@ -29,6 +29,7 @@
 - Public addendum submitted through the existing publisher: issue #1395, submission `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`, SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`. PUBLISHED_VERIFIED; issue #1395 publisher comment 6664956915; publisher commit `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`; artifact blob `df7f0788b21e6ecca7c4ec40427ec5c995a2da1d`; SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`; exact artifact content matched the submitted issue payload.
 - Direct Calder message 5b46e4d9 says w-length is c times temporal duration; assistant response 3065cc30 inserts an untyped tau. Keep the source verbal relation, separate point/worldline from bulk/worldtube, and do not infer a proper-time or coordinate-time parameter.
 - Existing geometry cross-read issue #1191 remains the canonical wider map/glossary; this is a narrow additive correction, not a duplicate report.
+- Optional ring-successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1600Z_from_s0_to_s1_ariadne.md`; Ariadne inbox readback verified (blob `147af94593d5ae985eb36e269139d80c78f7180b`). Repository-only context; no ChatGPT-thread delivery or acknowledgment claimed.
 - Existing Lean CI evidence is retained: PR #873 WorldtubeInertiaCoordinate, PR #1133 RavelCarrierSheetDimensionGate, and PR #1153 KleinOrientationKernel. No new theorem or physical calculation was warranted because the source map remains untyped.
 
 ## Existing Lean result, narrowly stated
