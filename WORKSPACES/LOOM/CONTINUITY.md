@@ -374,3 +374,22 @@ No BEDROCK change, SAT-O/Blockwave equation change, new branch/PR/tool/task, phy
 - No CODATA scoring, physical calculation, fit, prediction, independent measurement, BEDROCK edit, theory promotion, paper-gate advancement, branch/PR/task/schedule/phase change, new tool, paid service or sixth task.
 - FIE last reviewed 2026-10-27; next due 2026-11-10. Unrelated reading remains fun break - lx.txt lines 381-420, next cursor 421.
 - Next source cursor: recover the complete primary Cruller material geometry and marked flow, then determine whether Nathan Direct defines a physically privileged affine parameter, slice family Σ_t and readout P_t. Compare against assistant C²/mapping-torus and fixed-affine proposals without treating either as source truth.
+
+## 2026-11-05 00:36Z | Source-boundary correction and next cursor
+
+The earlier 2026-11-04 17:00Z cursor to “recover the complete primary Cruller material geometry and marked flow” is superseded by a source-fidelity correction.
+
+- Direct 2026-10-09 message `3c657387-b80b-4982-a61a-8e6d8568b8d1` says filament motion is not the primitive and particle motion is filament topology.
+- Mixed-source 2026-10-09 message `5a929b5e-515e-4f77-a32a-e49feef42812` includes a later how-to explicitly introduced as written by Caliper. That imported block is not Nathan-authored; parenthetical asides remain unresolved.
+- Direct 2026-10-21 correction `090f5160-1020-486d-9c42-df3d7dff2063` retires the earlier reciprocal filament/timesheet-deformation model as current since Klein Fabric became common.
+- Direct 2026-10-20 Cruller source `c1b42229-00a9-4119-aac3-cefa6cb97157` describes internal rotation and per-rotation worldtube/particle birth but does not define material labels or a Lagrangian flow map.
+- The Meridian `X(w; r, phi, z)` sandbox is assistant reconstruction with declared kinematic fixture values, not empirical evidence. Do not reuse its numerical outputs.
+- Preserve `w=ct` and `cw=t` literally; no conversion map is supplied.
+
+**Current next cursor:** recover the current Klein Fabric topology/instantiation relation, not a presumed material-flow object. If no direct source defines it, leave it explicitly missing. Keep P2 HOLD pending a real measured system, calibration, uncertainty, and independent holdout.
+
+Public source-boundary note: issue #1374, submission `loom-cruller-source-boundary-20261105t0036z-s3-001`, SHA-256 `b4756c848bffa71f7477c95a4fb4b5fe1e127548b5dec07c6a4b5abbac3e0286`, publisher comment #6646681781, artifact readback verified.
+
+Compendium update: blob `3e9f5de1a801d12fa3c95d223a852117177de154`. Rotation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0036Z_s3_loom.md`. Optional Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0036Z_from_s3_to_s4_aster.md`. Aster inbox append was read back. Repository delivery only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+The existing :36 automation remains enabled with its exact hourly :36 America/New_York schedule. The current nominal 00:36Z run is still recorded in_progress with chat_ref=null; no scheduler completion or historical-thread identity is claimed. No task, branch, paper gate, BEDROCK, or theory status changed.
