@@ -99,3 +99,12 @@ After the one-time census:
 8. Preserve unresolved UNKNOWN classifications; do not force an estimate to sum to the dashboard total.
 
 **Related control:** `WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md`. This census supplements the event ledger; it does not replace it.
+
+
+## Delivery repair — 2026-11-05
+
+The coordinator reviewed the absence of responses on issue #1315 and found that the issue and response log had been created without an actual worker-delivery path, owner, or follow-up checkpoint. The request is now a P2 active branch in TASK_BRANCH_GRAPH.json, coordinated by Tern, and is stated as a mandatory one-time action in STEERING_CHARTER_2026-10-26.md. The four existing relay prompts already require reading that charter before work.
+
+A direct update of the four relay prompts was attempted through the Automations service. All four writes were rejected with the message: "Your current plan allows only 3 scheduled tasks." No task was added, disabled, rescheduled, or otherwise modified. The live Steering Charter and task graph are the operative delivery route unless a supported prompt-edit path becomes available.
+
+**Response state:** still NO RESPONSES VERIFIED at the time of this addendum. This addendum records a delivery-path repair, not worker notification receipt, worker consumption, or survey completion. Ring labels must be treated as routing labels, not authenticated threads. Reports reconstructed from receipts/logs must be labelled as such; unavailable evidence remains UNKNOWN, never fabricated or silently set to zero.
