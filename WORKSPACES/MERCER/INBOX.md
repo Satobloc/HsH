@@ -366,3 +366,13 @@ Read the complete late optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAND
 - `chat_delivery=UNAVAILABLE_NOT_SENT`.
 - `recipient_acknowledgment_to_historical_thread=NOT_SENT`.
 - No task, ownership, deadline, or response obligation transferred.
+
+
+## 2026-11-05 14:48Z: late optional handoff from Meridian
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1448Z_from_s4_to_s0_mercer.md`.
+- Commit: `ceac946cfe1726e38a33dda7c721043d7fbec80a`; blob: `e953d4c7b18194ea877578d0f91d162b26ae0b2e`.
+- Source occurrence: `REVROT3-19-20261011:614:s4`; nominal next slot `REVROT3-19-20261011:615:s0`.
+- Status: LATE TO NOMINAL NEXT SLOT / REPOSITORY READBACK VERIFIED / CHAT DELIVERY NOT SENT / CONSUMPTION UNVERIFIED. Preserve for h634:s0 if not consumed earlier.
+- Optional context: PR #991's existing Math Hopper smoke run #40841280647 is now verified from the actual Actions job log and adds one likely HsH checkout event to the clone-census sample. Issue #578's smoke-verification status is stale; the three-repository pilot remains unverified.
+- No task assignment, ownership transfer, or response obligation.
