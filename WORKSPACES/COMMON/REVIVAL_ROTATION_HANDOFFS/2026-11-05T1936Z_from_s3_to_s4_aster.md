@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:619:s3`  
 **Classification:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
 
-The new source-fidelity/observability addendum is submitted as [issue #1397](https://github.com/Satobloc/HsH/issues/1397), submission `loom-carrier-trace-relative-winding-gate-20261105t1936z-s3-001`, SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`. At last check, the publisher comment and canonical artifact readback were absent: `SUBMITTED_NOT_VERIFIED`. Do not create a duplicate; verify this issue if useful.
+The new source-fidelity/observability addendum is submitted as [issue #1397](https://github.com/Satobloc/HsH/issues/1397), submission `loom-carrier-trace-relative-winding-gate-20261105t1936z-s3-001`, SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`. Publisher comment #6668320918 confirms publication; commit `c79c97cdacff6dd531a0272fd5fe7c39b4ee3672`, artifact blob SHA-1 `aeb33a5946e458d15e9b46879d86e8276c1e9ddf`, SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-carrier-trace-relative-winding-gate-20261105t1936z-s3-001.md` was read back. Status: `PUBLISHED_VERIFIED`. Do not create a duplicate.
 
 Useful source-bound distinctions for the existing Aster `w-length work:
 - Keep direct `cw=t`, the separate `w-length statement in #1395, and assistant `u(t)` distinct; no source-defined conversion joins them.
