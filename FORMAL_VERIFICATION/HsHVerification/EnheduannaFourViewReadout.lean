@@ -119,40 +119,44 @@ theorem fourViewModeReadout_one_three_eq_iff_signal_zero
   constructor
   · intro h
     have h90 := congrArg Prod.snd h
-    change antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
-      antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) at h90
+    have h90' :
+        antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
+          antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) := by
+      simpa [fourViewModeReadout] using h90
     have h3 :
         antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) =
           antipodalModeReadout 1 a₀ ε (φ + 3 * Real.pi / 2) :=
       antipodalModeReadout_two_step 1 a₀ ε
         (φ + 3 * Real.pi / 2)
     rw [h3, antipodalModeReadout_one_formula,
-      antipodalModeReadout_one_formula] at h90
+      antipodalModeReadout_one_formula] at h90'
     have hcos := congrArg Prod.fst h90
     rw [cos_add_pi_div_two, cos_add_three_pi_div_two] at hcos
     nlinarith
   · intro h
     apply Prod.ext
     · exact (antipodalModeReadout_two_step 1 a₀ ε φ).symm
-    · change antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
-        antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2)
-      have hcos :
+    · have hcos :
           ε * Real.cos (φ + Real.pi / 2) =
             ε * Real.cos (φ + 3 * Real.pi / 2) := by
           rw [cos_add_pi_div_two, cos_add_three_pi_div_two]
           nlinarith [h]
-      calc
-        antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
-            (ε * Real.cos (φ + Real.pi / 2), a₀) :=
-          antipodalModeReadout_one_formula a₀ ε (φ + Real.pi / 2)
-        _ = (ε * Real.cos (φ + 3 * Real.pi / 2), a₀) := by
-          exact Prod.ext hcos rfl
-        _ = antipodalModeReadout 1 a₀ ε (φ + 3 * Real.pi / 2) :=
-          (antipodalModeReadout_one_formula a₀ ε
-            (φ + 3 * Real.pi / 2)).symm
-        _ = antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) :=
-          (antipodalModeReadout_two_step 1 a₀ ε
-            (φ + 3 * Real.pi / 2)).symm
+      have hreadout :
+          antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
+            antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) := by
+        calc
+          antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
+              (ε * Real.cos (φ + Real.pi / 2), a₀) :=
+            antipodalModeReadout_one_formula a₀ ε (φ + Real.pi / 2)
+          _ = (ε * Real.cos (φ + 3 * Real.pi / 2), a₀) := by
+            exact Prod.ext hcos rfl
+          _ = antipodalModeReadout 1 a₀ ε (φ + 3 * Real.pi / 2) :=
+            (antipodalModeReadout_one_formula a₀ ε
+              (φ + 3 * Real.pi / 2)).symm
+          _ = antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) :=
+            (antipodalModeReadout_two_step 1 a₀ ε
+              (φ + 3 * Real.pi / 2)).symm
+      simpa [fourViewModeReadout] using hreadout
 
 /-- Modes m=1 and m=5 remain indistinguishable under the four-cardinal
 sampling operator, irrespective of phase or amplitude. -/
