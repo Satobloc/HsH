@@ -113,6 +113,7 @@ theorem moving_slice_intersection_on_plane
     (y0 z0 dy dz speed t : ℝ) (hdz : dz ≠ 0) :
     (movingSliceIntersection y0 z0 dy dz speed t).2 = z0 + speed * t := by
   simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
+  field_simp [hdz] <;> ring
 
 /-- The exact in-plane y-displacement rate is (dy/dz) times the plane
 speed. The source assistant's rate-equals-T claim is the special case
@@ -123,7 +124,9 @@ theorem moving_slice_intersection_y_rate
     ((movingSliceIntersection y0 z0 dy dz speed t2).1
       - (movingSliceIntersection y0 z0 dy dz speed t1).1) / (t2 - t1)
       = (dy * speed) / dz := by
+  have hdt : t2 - t1 ≠ 0 := sub_ne_zero.mpr ht.symm
   simp [movingSliceIntersection, yzLinePoint, movingSliceLineParameter]
+  field_simp [hdz, hdt] <;> ring
 
 #print axioms moving_slice_intersection_on_plane
 #print axioms moving_slice_intersection_y_rate
