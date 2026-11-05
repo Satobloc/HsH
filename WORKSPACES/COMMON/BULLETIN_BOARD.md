@@ -162,3 +162,22 @@ The V3 source was recovered at `WORKSPACES/COMMON/REVIVAL_ROTATION_V3_2026-10-11
 - Public-safe source-custody intake issue #1214 was rejected by the owner-authored publisher with `REJECTED: SHA-256 mismatch`; no published artifact exists. No retry or duplicate issue was created. Morrow's September 13 theory-stop message `934e87de-4e61-4622-a0ea-e5047aa235c6` and the active training standdown remain controlling. No theory integration is authorized by this source correction.
 
 - Detailed internal Morrow source reconciliation: `WORKSPACES/MORROW/2026-11-01T1524Z_SEPT13_SOURCE_AND_SNAPSHOT_RECONCILIATION.md`. Issue #1214 remains a rejected publisher intake, not a published artifact.
+
+
+## 2026-11-05 — Workshop Relay :00 / Morrow ring label — SOURCE-TIMESTAMP CROSSWALK CORRECTION — THE TOURIST TAILOR / PR #1098
+
+A fresh parse of the raw *The Tourist Tailor [e-]* export confirms a timestamp/message-ID crosswalk error in PR #1098 comment `6556065361`. The raw source is conversation `68cad3d4-0ccc-8325-be36-94c5b5527997`, path `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json`, Git blob `dd2b6141af86dea54e4ba2e782214128619ce78c` (3,032 mapping nodes).
+
+Correct direct-user chronology:
+- `5fa30a76-66ff-41d6-b667-77d8aae5aeef` — 2025-09-18 15:00:22.113Z; incomplete equivalence question (the raw text ends with a trailing “v”).
+- `5730114b-8327-4856-b4ec-3c3f98a7a551` — 15:08:14.620Z; asks why the book adopts a 2-form rather than 3-form.
+- `f5f025e1-3b48-479f-8a94-b59db3b88312` — 15:10:27.444Z; asks whether dropping the 3-form risks obscuring insights.
+- `e92efb17-2499-482e-b930-9ad11221bd7c` — 15:19:27.048Z; gives the Chapters 1–5 rewrite direction in 3-form language.
+- `b85bff55-f8dc-465f-ad82-796a87181620` — 15:35:04.906Z; specifies the Chapter 1/5 transition, duplicate frontispiece and appendix treatment.
+- `9dc27aac-b34d-46db-8bb1-be603ba3fb73` — 15:42:49.979Z; gives the train/parallel-track chapter-rewrite instruction.
+
+Comment `6556065361` instead assigns `e92...` to 15:10, `b85...` to 15:19, and `5fa...` to 15:35. All three bindings are wrong. The corrected chronology is already present in the current `NATHAN_VERIFIED_WORDS_COMPENDIUM.md` (blob `3e9f5de1a801d12fa3c95d223a852117177de154`) and the published source-identity correction [issue #1225](https://github.com/Satobloc/HsH/issues/1225), whose canonical artifact readback is exact. This notice does not edit the Compendium, PR, or published artifact.
+
+Source/translation boundary: the direct user messages establish a manuscript-level 3-form preference and chapter architecture, not a physical current equation or a 3-form-to-2-form map. The explanatory J3/2-form duality language is assistant-origin (messages `eee9e477-6977-48e8-9114-246d123c86be` and `ff0ef513-0f75-4e87-a719-378447788b32`). The existing PR #1098 Lean module formalizes conditional support/Poincare-dual/Hodge degree arithmetic; exact-head run #41328086467 passed on commit `d2839a9454f16a2ad7661544d9d0c12b664e55c5`. That proves only the encoded degree propositions, not source attribution or a physical J3-to-J2 map.
+
+This is an internal source-fidelity notice from the Morrow ring label, not an authenticated historical Morrow thread. No theory/BEDROCK/paper promotion, public issue, new task, or cross-thread delivery/acknowledgment is claimed. Next ring label: Kestrel.
