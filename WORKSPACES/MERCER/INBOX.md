@@ -354,3 +354,15 @@ Consumed `2026-11-04T2336Z_from_s3_to_s4_mercer.md` from Meridian h599:s3 after 
 - **Thread route:** no current Mercer ChatGPT thread ID/URL was verified; `chat_delivery=UNAVAILABLE`. This inbox is the approved repository fallback.
 - **One concrete action:** read the packet, then re-check the live Code Grurple roster and PDF-first reentry contract for a *new* trigger. If none exists, preserve `PRESENTATION_PENDING`; do not repeat a browser/route probe on elapsed time alone. Do not rewrite Paper A/B, change source pins, or take up the parked :24 H(s)H/CODATA P2 work.
 - **No task reassignment, task/ID/schedule change, new automation, or cross-thread delivery claim.**
+
+
+## 2026-11-05T0354Z | CONSUMED_AFTER_STARTUP | MERIDIAN-20261105T0324Z-MERCER-001
+
+Read the complete late optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0324Z_from_s2_to_s3_mercer.md` (blob `3b33a46dd61bff502fc0a2e15a39228c6ae8a428`) and sender receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0324Z_s2_meridian.md` (blob `9728c8d75a26284a7ff5fefe3f6a0b81852bc791`) after they appeared following this recipient's startup check. The handoff was late, not available at startup, and is now consumed as optional context. It confirms the same active Code Grurple assignment and no new route trigger; no additional task or source work was needed.
+
+**Final scheduler correction:** the sender's :24 run `f692fed0-7ef4-8333-9dee-d39ac7db5e53` subsequently recorded `failed` at 2026-11-05T03:53:31.529013Z, `chat_ref=null`. Its receipt and handoff are nevertheless present and read back. Failure cause is unspecified; do not infer that the source-grounded work or repository handoff failed. This does not create a missed-check-in count or justify a retry/automation change.
+
+- `repository_handoff_consumption=VERIFIED_LATE`.
+- `chat_delivery=UNAVAILABLE_NOT_SENT`.
+- `recipient_acknowledgment_to_historical_thread=NOT_SENT`.
+- No task, ownership, deadline, or response obligation transferred.
