@@ -796,3 +796,8 @@ Full source custody and prior correction audit remain in Kestrel issue #1281; O9
 - Proof-first status: BLOCKED_AT_SOURCE_TYPES; no Lean run claimed. The direct angle-curvature statement lacks state spaces, metric/signature, angle type, connection/loop, curvature object, and explicit representation maps. Local Lean/Lake/Elan/Whirligig executables are absent. Existing Math Hopper issue #578 and Lean PRs #873/#1098/#1133 were checked; no new tool, fork, dependency, branch, PR, or module. SciSpace is available but unnecessary. No cost incurred.
 - Unrelated reading completed: Harold Jacoby, Practical Talks by an Astronomer, HSH_RESOURCES HISTORICAL/JACOBY—ASTRONOMER TALKS.txt, lines 1021–1060. Next cursor line 1061. FIE last full review 2026-10-27; next due 2026-11-10.
 - No CODATA scoring, physical calculation, fit, prediction, fabricated fixture, empirical validation, SAT-O/Blockwave equation alteration, Factory Floor admission, paper-gate advancement, or BEDROCK theory promotion. No new branch or PR.
+
+
+### 2026-11-05T0400Z publication status amendment
+
+Issue #1381 is now PUBLISHED_VERIFIED. Publisher comment 6649533011 confirms commit b55919a05a51d405a9e3ddb2801b2d4208b2292a and artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-timefield-angle-curvature-fidelity-20261105t0400z-s0-001.md (blob cd01e3df6745bd86c80811f05ee457580be466ad). Independent exact-content comparison against the issue payload passed; independently recomputed SHA-256 matched c64f7fb080ded24cd7a7d4f56d0a886684491590f52bbf72189e7202074a362d over 21,403 bytes. The same submission ID was retained; no duplicate issue or resubmission.
