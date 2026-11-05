@@ -135,6 +135,26 @@ lemma positivePart_add_abs (a b : ℝ) :
     have h₂ : 0 ≤ a - b := sub_nonneg.mpr h'
     simp [max_eq_left h₁, max_eq_right h₂, abs_of_nonpos h₁]
 
+/-- Positive-part subadditivity under nonnegative weights. Splitting one
+    coarse confidence stratum into finer strata cannot lower the sum of
+    positive-part gains, provided the fine strata partition the same
+    observations and use the same nonnegative item weights. Summing this
+    inequality over coarse strata gives the local partition-refinement
+    monotonicity behind the source's 5-by-5 multi-confidence PCS statement. -/
+lemma positivePart_weighted_refinement {n : ℕ}
+    (weights differences : Fin n → ℝ)
+    (hw : ∀ i, 0 ≤ weights i) :
+    max 0 (Finset.univ.sum fun i => weights i * differences i) ≤
+      Finset.univ.sum fun i => weights i * max 0 (differences i) := by
+  apply max_le
+  · apply Finset.sum_nonneg
+    intro i hi
+    exact mul_nonneg (hw i) (le_max_left 0 (differences i))
+  · apply Finset.sum_le_sum
+    intro i hi
+    exact mul_le_mul_of_nonneg_left
+      (le_max_right 0 (differences i)) (hw i)
+
 theorem pcs_nonneg {n : ℕ} (bins : Fin n → Bin) :
     0 ≤ pcs bins := by
   unfold pcs
@@ -259,5 +279,6 @@ theorem pcs_le_reverse_of_reference_profile_ge {n : ℕ}
 #print axioms pcs_directional_total_abs
 #print axioms pcs_le_weighted_reference_headroom
 #print axioms pcs_le_reverse_of_reference_profile_ge
+#print axioms positivePart_weighted_refinement
 
 end HsHVerification.KnowledgeCertaintyPCS
