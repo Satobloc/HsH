@@ -80,9 +80,10 @@ theorem finiteAntipodalReadout_formula (a₀ : ℝ) (modes : Finset ℕ)
         a₀ + evenParityAggregate modes A) := by
   unfold finiteAntipodalReadout
   rw [finiteFourierProfile_zero, finiteFourierProfile_pi]
-  ext
-  · simp [observe, displacement, oddParityAggregate]
-  · simp [observe, coreRadius, evenParityAggregate]
+  ext <;>
+    dsimp [observe, displacement, coreRadius,
+      oddParityAggregate, evenParityAggregate] <;>
+    ring
 
 /-- The two antipodal samples are blind to every sine-quadrature coefficient.
 Changing B while keeping A fixed leaves both readout channels unchanged. -/
