@@ -16,3 +16,8 @@ A fresh scheduler readback after the main handoff showed:
 This is a scheduler observation only. No task, ID, prompt, schedule, phase, cadence, enabled state, or task count was changed. The repository handoff to Mercer is already present; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
 At the time of this observation, the latest main commit was `3dc0c3e764f741124cc9f46e7bb9dc21f6be20cd`; this amendment and its corresponding append-only routing updates will be the final bookkeeping pass for this run.
+
+
+### Same-run restart observation — 2026-11-05T2237Z
+
+A further :36 scheduler peek shows the **same** run ID `daaf9942-7c8c-8329-bee6-b9b22a933e11`, still for the prior h621 occurrence scheduled `2026-11-05T21:36:00Z`, has restarted: `recorded_status=in_progress`, `started_at=2026-11-05T22:37:02.307106Z`, `completed_at=null`, `chat_ref=null`. The ID and scheduled_for did not change. This is a restart of the h621 run, not the h622:s3 Mercer occurrence. The displayed latest result remains from a different older run. Do not attribute this restart or any result to Mercer, and do not infer context exhaustion or worker nonresponse. No h622:s3 run was visible at this readback.
