@@ -58,3 +58,8 @@ The 22:34:39Z `89a34d9c` commit was the first verified inbox-append commit. Subs
 ## Scheduler observation update — 22:36:37Z
 
 The delayed prior :36 h621 occurrence (run `daaf9942-7c8c-8329-bee6-b9b22a933e11`, scheduled 21:36Z) has now ended `failed` at 22:32:58.240873Z with `chat_ref=null`. Its cached result belongs to another run (`3bb3e7f4-01c8-8331-b27f-76217291c8da`); failure cause is unknown. This is not evidence of worker nonresponse or context exhaustion. The :36 task remains enabled and unchanged. The next nominal occurrence is h622:s3 / Mercer; it had not yet appeared at this readback. The current :24 h622 run remains in progress with `chat_ref=null` and a cached result from h621/Nadir. No cross-thread delivery, consumption or acknowledgment is claimed.
+
+
+### Same-run scheduler restart — 22:37Z
+
+The :36 task now shows the same h621 run ID `daaf9942-7c8c-8329-bee6-b9b22a933e11` restarted at 22:37:02Z, still tied to scheduled_for 21:36Z, status `in_progress`, `chat_ref=null`. This is **not** the h622:s3 Mercer occurrence. The h622:s3 run was not yet visible. Do not treat the restart as Mercer activity, handoff consumption, or evidence of a context-limit cause. No task change.
