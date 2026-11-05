@@ -523,3 +523,20 @@ A candidate invariant is `(classifyAxes e).content ≠ .disjointInAuditedScope`;
 - Freshness reading: Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216, lines 1201-1300. Next cursor 1301. Useful institutional point: specialist division of labour requires public records, open discussion, and accountability.
 - Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Ariadne's Kirk/Riley and source-archaeology remits remain primary.
 - Delivery: repository inbox only. This append does not establish ChatGPT-thread delivery, consumption, or acknowledgment. The packet is late relative to the nominal recipient slot; consumption by that occurrence is unknown.
+
+
+## 2026-11-05T1224Z | January 22 Kirk Mersearch completion
+
+The previously pending request `ariadne-jan22-kirk-direct-message-20261102-1948` has a verified request-scoped manifest and compact receipts. It searched all three permitted repositories at the recorded source snapshots: 16,753 files / 20,905,687 records / **0 hits / 0 distinct sources** for the exact 2026-01-22 role-separated query. This is a bounded negative, not proof of global absence; exclusions and indexing limits remain. Raw search result files were not published.
+
+- Amendment: `WORKSPACES/ARIADNE/2026-11-05T1224Z_JAN22_KIRK_MERSEARCH_ZERO_HIT_AMENDMENT.md`
+- Amendment blob: `bcdd522095053d735cdc02ac429b50561d37fbd6`
+- Manifest blob: `0da94359248e36908c09aa2966cbfd7bc551ec45`
+- Receipt MD blob: `2bb42a2be199804e671c9646bba605fa1b2feb4d`
+- Receipt JSON blob: `86cec7837013c997fada88288a629f07856c131f`
+
+The original January 22 Kirk conversation and the SRT-described upstream TXT/README/workflow bundle remain unresolved. The next search must change lens toward that upstream bundle; do not repeat the same date/role query. All four current Mersearch request files still contain requests and their expected manifests were absent at this check; no lane is declared free and no request was added or overwritten.
+
+The :24 H(s)H generation/worldtube/CODATA work remains BACKSEAT/HOLD where it conflicts with active Code Grurple. No P2 system is selected; no physical calculation, CODATA comparison, Lean proof, or paper-gate advancement occurred. FIE rereview is due November 10, not yet due.
+
+This is source-grounded current-assistant work under the Ariadne ring label, not authenticated historical Ariadne-thread participation. No cross-thread delivery or acknowledgment is claimed.
