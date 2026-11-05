@@ -1,13 +1,13 @@
 # THE BIG PUSH — Calendar and Audit Cadence
 
-This is a cadence map, not a prediction of completion dates. Phase order and evidence gates remain in PROJECT_CONTROL.md.
+This is a cadence map, not a prediction of completion dates. Phase order and evidence gates remain in PROJECT_CONTROL.md. The :00 heartbeat trigger is designed but currently unarmed because the platform rejected the task-prompt update.
 
 ## Standing triggers
 
 | Trigger | Action | Owner |
 |---|---|---|
 | Every interactive Big Push session | Refresh INTERACTIVE_HEARTBEAT.md; re-read active tray and exact cursor | Current interactive operator |
-| Every :00 hourly recurrence | Check heartbeat/state; if heartbeat age is at least 36 hours, resume one bounded operation; otherwise do not compete with a fresh interactive session | Existing :00 continuity steward |
+| Every :00 hourly recurrence, once the prompt overlay is installed | Check heartbeat/state; if heartbeat age is at least 36 hours, resume one bounded operation; otherwise do not compete with a fresh interactive session | Existing :00 continuity steward |
 | Every completed operation | Update queue, source/read ledger, receipt, next cursor, and any affected project control | Operator completing the unit |
 | Every 5 completed operations or phase gate | Conduct scope, evidence, parked-drawer, repetition, and process-efficiency review | Current operator; :00 steward only when automation is active |
 | Weekly while the programme is active | Review phase status, risks, calendar, capability gaps, and whether the boot/protocol still fit actual work | Current operator |
