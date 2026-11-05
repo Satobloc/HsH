@@ -87,3 +87,16 @@ Use the shared [Worker Upkeep and Priority Review Protocol](WORKER_UPKEEP_AND_PR
 **Delivery rule:** an issue or log is not a worker notification. Any requested response must be embedded in an enabled worker prompt or delivered through a verified addressed handoff/inbox; it must have an owner, response location and follow-up trigger. Distinguish delivery, consumption, acknowledgment, completion and independent verification. A missing response is not evidence of refusal. A worker-ring label is not an authenticated thread; reconstructed reports must be labelled as such.
 
 **Initial corrective application:** issue #1315, the clone-footprint census, is now an active P2 operational investigation coordinated by Tern. The four existing enabled Workshop Relay prompts are to carry the one-time identity check-in and coordinator follow-up. No scheduler phase, cadence, enabled state or task ID changes are authorized by this directive.
+
+
+## 2026-11-05 Nathan Direct: one-time clone census delivery and follow-through
+
+**Priority:** P2 / time-bounded operational investigation. **Coordinator:** Tern / Comptroller. **Issue:** [#1315](https://github.com/Satobloc/HsH/issues/1315). **Response log:** WORKSPACES/COMMON/CLONE_FOOTPRINT_WORKER_CHECKINS_2026-11-03.md. **Action plan:** CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md.
+
+This is a mandatory one-time action for the selected ring label on each actual relay activation until that label has one entry in the shared log. Use the nominal scheduled UTC hour and the ring calculation already prescribed by the executing relay prompt. Check the log first; do not duplicate an existing response.
+
+Complete the survey from evidence actually accessible to the run. Label the report as first-hand, log-reconstructed, memory-estimated, or not inspectable. A ring label does not authenticate a historical worker or thread. Do not impersonate a worker or invent first-person experience. When only logs are accessible, reconstruct cautiously from the selected label's receipts and workflow evidence. When evidence cannot support a count, state UNKNOWN/NOT INSPECTABLE and the reason; do not misrepresent missing evidence as zero cloning. Keep explicit clones/Actions checkouts, provisioning-unknown workspaces, and non-clone API/file/browser/archive activity distinct.
+
+Tern owns the cross-repository telemetry reconstruction and final synthesis. Begin it immediately rather than waiting for all 19 entries. Review progress after each five newly appended identity entries or five actual activations. The :48 Review lane may provide independent QC; it does not replace Tern's coordinator ownership. Preserve the existing four relay task IDs, prompt lane identities, :00/:24/:36/:48 phases, hourly recurrence and enabled states; :12 remains disabled. No fifth/sixth task or recurrence is to be created.
+
+**Delivery path:** the Automations service rejected direct prompt updates to the four existing tasks because the account's current plan allows only three scheduled tasks. No task was added, disabled or rescheduled. The existing four relay prompts already require reading this Steering Charter; this section and the corresponding active task-graph branch are therefore the operative request route. Do not claim the four prompt texts were modified.
