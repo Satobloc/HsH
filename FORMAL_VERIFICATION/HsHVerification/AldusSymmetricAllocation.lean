@@ -170,3 +170,54 @@ theorem two_participant_equal_half
 #print axioms two_participant_equal_half
 
 end HsHVerification.AldusSymmetricAllocation
+
+/-- A concrete abstract counterexample showing that invariance without
+    transitivity does not force a global equal-share allocation. The trivial
+    action of Unit on Bool has two singleton orbits; a positive invariant
+    weight and invariant density can still allocate the fixed total unevenly.
+    This is a logical counterexample only, not a physical model or measured
+    fixture. -/
+section NontransitiveCounterexample
+
+local instance : MulAction Unit Bool where
+  smul _ b := b
+  one_smul := by
+    intro b
+    rfl
+  mul_smul := by
+    intro g h b
+    rfl
+
+theorem nontransitive_action_counterexample_to_equal_share :
+    ∃ (μ : FiniteAtomicWeight (P := Bool)) (ρ : Bool → ℝ),
+      ActionInvariant (G := Unit) (P := Bool) μ.mass ∧
+      ActionInvariant (G := Unit) (P := Bool) ρ ∧
+      (∑ x : Bool, μ.mass x * ρ x = (1 : ℝ)) ∧
+      μ.mass false * ρ false ≠ (1 : ℝ) / 2 ∧
+      μ.mass true * ρ true ≠ (1 : ℝ) / 2 ∧
+      (¬ ∀ x y : Bool, ∃ g : Unit, g • x = y) := by
+  let μ : FiniteAtomicWeight (P := Bool) := {
+    mass := fun _ => 1
+    mass_pos := by
+      intro b
+      norm_num
+  }
+  let ρ : Bool → ℝ := fun b => if b then 1 else 0
+  refine ⟨μ, ρ, ?_, ?_, ?_, ?_, ?_, ?_⟩
+  · intro g b
+    cases g
+    rfl
+  · intro g b
+    cases g
+    rfl
+  · norm_num [μ, ρ]
+  · norm_num [μ, ρ]
+  · norm_num [μ, ρ]
+  · intro htrans
+    obtain ⟨g, hgt⟩ := htrans false true
+    cases g
+    simp at hgt
+
+end NontransitiveCounterexample
+
+#print axioms nontransitive_action_counterexample_to_equal_share
