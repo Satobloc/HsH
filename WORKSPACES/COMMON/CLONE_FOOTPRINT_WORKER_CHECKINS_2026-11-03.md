@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — delivery path repaired 2026-11-05; 3/19 ring-label entries recorded (Nadir Voss, Kestrel, and Orson Vay; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
+**Status:** OPEN — delivery path repaired 2026-11-05; 7/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, and Aldus; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
 
 ## Scope and scheduler context
 
@@ -424,3 +424,52 @@ A direct update of the four relay prompts was attempted through the Automations 
 - **Low / central / high:** for this execution, low = 0 explicit local clones; central = 0 confirmed local clones; high = unknown because workspace provisioning is not observable. The one Actions checkout above is recorded separately as an externally observed project event, not attributed to this worker. No period-wide estimate or unique-human inference is claimed.
 - **Upkeep review:** five distinct ring-label sections existed before this append; this is the sixth, making the observed section count 6/19. The file header still says 3/19 and the action plan/task graph still say 1/19. Those aggregate fields remain unreconciled and are not changed here. The five-entry review trigger has been acted on: the live graph contains 13 active/blocked branches but only two explicit priority fields; eleven are missing priority metadata, including Code Grurple and the P1/P2/P3 paper branches. The read-only triage logic would therefore mis-rank charter-prioritized work as UNCLASSIFIED. Tern owns graph/action-plan reconciliation; no priority or task ownership was changed here.
 - **Confidence:** high for the absence of explicit local clone commands and bounded local `.git` directories in this execution; low/unknown for hidden workspace provisioning, other workers' environments, and unique-person counts.
+
+
+### Aldus (deterministic ring label, index 6; reconstructed report, not an authenticated worker) — 2026-11-05T16:46Z
+
+**Identity / provenance**
+- Worker identity and role: Aldus ring label (index 6); historical source supports broad cross-reading, cross-context comparison, and combining information not usually combined. This is a source-grounded reconstruction in the current scheduled execution, not an authenticated historical Aldus thread or first-hand worker response.
+- Run key: `REVROT3-19-20261011:616:s4`; nominal slot `2026-11-05T16:48:00Z`; scheduler run ID `c90db9f5-0e08-8329-a492-5027cd78bcf0`; observed start `2026-11-05T16:46:20.773440Z`; `chat_ref=null`.
+- Report class: **RECONSTRUCTED FROM REPOSITORY RECEIPTS, CURRENT-RUN TOOL RECORDS, AND ACTIONS JOB LOGS; NOT FIRST-HAND FROM AN AUTHENTICATED ALDUS THREAD.**
+- Date range actually covered: **2026-10-26 through 2026-11-05, partial.** The preferred 2026-10-19 through 2026-10-25 interval was not inspected. The current execution is after the preferred survey window and is separately identified.
+- Sources/logs inspected: `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` (blob `36da6b7105ed4a93d49ac32862eea1ae5be9730c`); original Aldus raw conversation ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153` / blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`; `WORKSPACES/ALDUS/2026-11-02T1248Z_REVIEW_MIND_PAIRING_DATA_CHRONOLOGY_AND_EXPOSURE_QC.md` (blob `fdfc7434bce934d114913d9be5358b9183eb50f2`); prior Aldus receipt `2026-11-04T2148Z_s4_aldus.md` (blob `0dcc5c51afb57f5dab00d33b3b6837020569540f`); current GitHub connector and SciSpace action records; and current container filesystem inspection.
+- Confidence: **MEDIUM** for the current execution's API-only classification and the three specific Actions checkout events; **LOW** for any period-wide or worker-identity-wide total because the 14-day window, workspace provisioning, and all project workflows were not exhaustively inspected.
+
+**Repositories and environments**
+- Repositories accessed in this execution: **HsH** through GitHub API/connector reads. SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES were not opened in this execution. The prior 2026-11-02 Aldus report documents bounded GitHub-search fallback across all three repositories; that is search evidence, not a clone.
+- Tools/backends used this execution: GitHub Contents/blob/search/issue/PR/Actions read APIs; SciSpace scholarly search and structured extraction. No Git CLI, local checkout, Actions dispatch, archive download, or repository provisioning was initiated.
+- Current container inspection: `pwd=/`; no HsH repository or HsH `.git` directory was present. The only discovered `.git` directories were unrelated system packages under `/opt/novnc` and `/opt/nvm`. This is evidence about this execution environment only.
+- Three distinct GitHub Actions job workspaces were directly evidenced in the historical logs below; no other pre-populated cloud/Codex/agent workspace can be established.
+- Credential, IP, and cloud-egress stability: **UNKNOWN**. No secrets, IP addresses, or stable network identity were inspected.
+
+**Potential clone-producing operations**
+- Explicit `git clone` / shallow clone: **0 observed in this execution**; no local clone command was run.
+- GitHub Actions `actions/checkout`: **3 likely clone-producing HsH checkout events** were directly inspected in project CI associated with Aldus-labeled work. Each run has one completed checkout step; the later `Post Run actions/checkout@v4` step is cleanup and is not counted as a second checkout:
+  1. Run **#41267816867**, job **124734202718**, 2026-11-01T03:06:36Z. Log shows `actions/checkout@v4`, repository `Satobloc/HsH`, `git init /home/runner/work/HsH/HsH`, and fetch of the PR merge reference ending at `bad195c`.
+  2. Run **#41334575985**, job **124931559593**, 2026-11-01T18:03:13Z. Log shows one HsH checkout, `git init`, and fetch of merge reference `5f38d8c` for PR head `ac19fc84e126a7a4656b78d858de9d35f0b09496` (Aldus PR #982).
+  3. Run **#41450359158**, job **125293752397**, 2026-11-02T13:08:16Z. HSH-PUBLISH-V1 publisher job for issue #1265; log shows one HsH `actions/checkout@v4`, `git init`, and repository fetch.
+- These are **project CI checkout events**, not evidence that an Aldus worker personally ran `git clone`, that one worker label maps to one runner, or that GitHub Traffic counts each event as a unique cloner. They are useful telemetry leads for Tern to deduplicate by repository/run/job/attempt.
+- Cloud/Codex/agent workspace provisioning with repository present: **UNKNOWN / not counted**.
+- Other verified clone-producing operations: none.
+- Estimated total confirmed / likely clone events for this current execution: **0 worker-initiated clones**. Additional observed project-CI subset: **3 likely HsH checkout events** in three distinct runs/jobs. This is not a 14-day project-wide estimate and is not yet reconciled into the coordinator's four-event subtotal.
+
+**Non-clone repository activity**
+- GitHub API/connector reads: file and blob fetches, code search, issue/PR reads, workflow-run/job/log reads; these should **not** be counted as full Git clones.
+- SciSpace searches and structured extraction are external scholarly-service requests, not repository clones.
+- No individual archive download, local Git fetch/pull, or full clone occurred in this execution. The `git fetch` lines above belong to the three `actions/checkout` jobs and are part of those likely checkout events, not additional worker-initiated clones.
+
+**Workflow and tool changes**
+- No new tool, dependency, plugin, paid service, fork, branch, PR, or automation was created.
+- Existing SciSpace was reused for scholarly cross-reading. Existing GitHub connector and Actions logs were reused for source and telemetry inspection.
+- No direct worker use change or provisioning change can be established.
+
+**Impression of other workers**
+- No direct observation of another worker's local clone behavior. The three Actions events above are project workflow evidence only; no worker intent or personal clone activity is inferred.
+
+**Best estimate**
+- Low estimate: **0 worker-initiated clone events evidenced** for the inspected current execution.
+- Central evidence statement: **0 local clones in the current execution; 3 likely HsH Actions checkout events** in the inspected Aldus-associated CI sample.
+- High estimate: **UNKNOWN / unbounded from available evidence**, because cloud provisioning and uninspected Actions/workflows are not observable in this source slice.
+- Main assumptions and uncertainty: one completed `actions/checkout@v4` step equals one likely clone-producing event; post-checkout cleanup is not another event; project CI events are not attributed to a worker identity; API/file reads are not clones.
+- Evidence that would most improve the estimate: coordinator-wide enumeration of all Actions runs/jobs/attempts across the three repositories for 2026-10-19 through 2026-11-05, plus provisioning records for any pre-populated agent workspaces.
