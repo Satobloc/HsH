@@ -678,11 +678,11 @@
       ],
       "dependencies": [],
       "blockers": [
-        "One of 19 ring labels has a reconstructed report; the other 18 labels have no response sections yet. No authenticated historical worker thread was established for the first report.",
-        "Period-wide completed-checkout counts and Pages contribution remain to be reconstructed."
+        "One of 19 ring-label entries exists and is reconstructed; 18 entries remain absent and no authenticated first-hand worker-thread response is verified.",
+        "Period-wide completed-checkout count, GLASS target mapping, Pages contribution and cloud workspace provisioning remain to be reconstructed."
       ],
-      "last_material_state": "Delivery repair has been installed in Steering Charter/task graph. First ring-label response appended and readback verified for Nadir Voss (index 10), but it is a source-grounded reconstruction from receipts, not a first-hand authenticated worker response. Count: 1/19 entries; zero authenticated worker-thread check-ins. Telemetry reconstruction remains open under Tern coordination.",
-      "next_cursor": "Continue one check-in per selected ring label at actual activations; label evidence as first-hand/log-reconstructed/unknown. Coordinator Tern begins telemetry reconstruction and verifies completed checkout steps by repository/run/job/attempt/day; review progress after each five entries or five actual activations. :48 provides independent QC.",
+      "last_material_state": "First ring-label entry is Nadir Voss, explicitly reconstructed from receipts; latest evidence now includes one confirmed completed HsH Actions checkout step in PR #1189 run #41927513429/job #126915668961. This is workflow-level likely clone-producing evidence, not a worker-initiated local clone or authenticated worker response. HSH_RESOURCES source-inventory run separately has three confirmed checkout steps including unresolved GLASS target. Census remains 1/19 entries; other labels and period-wide telemetry remain open.",
+      "next_cursor": "Tern consumes the current coordinator packet/amendment if still available; deduplicate HsH run #41927513429/job #126915668961/attempt 1; inspect all Actions checkout steps by repo/run/job/attempt/day and verify GLASS target from source-inventory YAML. Continue selected ring check-ins and compare against daily Traffic; :48 Review provides independent QC.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
     },
