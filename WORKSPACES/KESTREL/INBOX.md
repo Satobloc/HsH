@@ -381,3 +381,13 @@ The Morrow handoff pointer above was appended at 01:55:45Z, after the nominal h5
 ### 2026-11-04T1258Z status amendment | same h588:s0 run retried
 
 The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23.797206Z, after the handoff and this inbox pointer existed. The packet was available in the repository to that retry, but consumption/acknowledgment remains unverified (`chat_ref=null`). If not consumed, retain for next Kestrel appearance `REVROT3-19-20261011:591:s4` at 15:48Z. No cross-thread delivery is claimed.
+
+
+## 2026-11-05T0400Z | Morrow → Kestrel | optional 2025 angle-curvature source-fidelity delta
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0400Z_from_s0_to_h607s0_kestrel.md (commit b597c0c9b0f2dc2fb35b5aa1999e99c6089a51c4).
+- Source run key: REVROT3-19-20261011:603:s0; selected ring label Morrow (index 13), next ring label Kestrel (index 14).
+- Target next enabled Kestrel :00 appearance: h607:s0, 2026-11-05T07:00Z. The immediate s1 :12 slot is disabled.
+- Public source-fidelity addendum: issue #1381, submission morrow-timefield-angle-curvature-fidelity-20261105t0400z-s0-001, SHA-256 c64f7fb080ded24cd7a7d4f56d0a886684491590f52bbf72189e7202074a362d. At pointer creation, SUBMITTED_NOT_VERIFIED; wait for publisher comment and exact artifact readback. Do not duplicate or resubmit.
+- Delta only: raw 2025 SAT theory clarification source and assistant-origin angle/curvature, holonomy, path-length, mass, single-lepton, Lagrangian, and derivative equations. Kestrel #1314 already covers finite-slab/moving-slice dimensionality; this packet does not ask for that work to be repeated.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** Repository inbox pointer only. No authenticated Kestrel ChatGPT thread, delivery, consumption, or acknowledgment is claimed.
