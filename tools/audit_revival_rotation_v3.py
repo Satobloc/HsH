@@ -570,14 +570,14 @@ def self_test():
         assert result["status"] == "FAIL" and any("phase s3 minute 36" in e for e in result["errors"]), result
 
         # Legacy receipts without scheduler telemetry retain their prior audit behavior.
-        receipt.write_text(valid.replace("scheduled_for: 2026-11-05T15:36:00Z\\n", ""), encoding="utf-8")
+        receipt.write_text(valid.replace("scheduled_for: 2026-11-05T15:36:00Z" + chr(10), ""), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "PASS", result
 
         receipt.write_text(valid.replace("2026-11-05T15:36:00Z", "2026-11-05T15:36:00"), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("timezone-aware ISO-8601" in e for e in result["errors"]), result
-    return {"status": "PASS", "checks": 29}
+    return {"status": "PASS", "checks": 30}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
