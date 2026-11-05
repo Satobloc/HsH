@@ -539,3 +539,44 @@ theorem ambient_image_eq_iUnion_fiberSheetIntersections :
 
 end LabelledSlicePullback
 end HsHVerification.RavelCarrierSliceReconstruction
+
+
+/-!
+## Conditional oblique-slice angle convention
+
+The historical assistant used both a sine denominator for an angle measured
+from the slice plane and a cosine/secant denominator for an angle measured
+from the propagation normal. This module proves only that the two algebraic
+forms agree under an explicitly supplied complementary-angle map. It does
+not establish the physical slicing model, the source-to-model angle map, or
+any Kerr/ER geometry.
+-/
+
+namespace HsHVerification.RavelObliqueSliceAngleConvention
+
+/-- Sine of the angle complementary to a propagation-normal angle. -/
+theorem sin_complementary_plane_angle (thetaProp : ℝ) :
+    Real.sin (Real.pi / 2 - thetaProp) = Real.cos thetaProp := by
+  exact Real.sin_pi_div_two_sub thetaProp
+
+/-- Two apparent-diameter denominator forms agree if the plane and
+propagation-normal angles are explicitly complementary. -/
+theorem apparent_scale_forms_agree_of_complement
+    (D0 thetaProp thetaPlane : ℝ)
+    (hComplement : thetaPlane = Real.pi / 2 - thetaProp) :
+    D0 / Real.sin thetaPlane = D0 / Real.cos thetaProp := by
+  rw [hComplement, Real.sin_pi_div_two_sub]
+
+/-- The same conditional identity for a semiaxis expression with absolute
+values, matching the finite-core slice convention. -/
+theorem oblique_semiaxis_forms_agree_of_complement
+    (a thetaProp thetaPlane : ℝ)
+    (hComplement : thetaPlane = Real.pi / 2 - thetaProp) :
+    a / |Real.sin thetaPlane| = a / |Real.cos thetaProp| := by
+  rw [hComplement, Real.sin_pi_div_two_sub]
+
+#print axioms sin_complementary_plane_angle
+#print axioms apparent_scale_forms_agree_of_complement
+#print axioms oblique_semiaxis_forms_agree_of_complement
+
+end HsHVerification.RavelObliqueSliceAngleConvention
