@@ -191,8 +191,8 @@ def sharedCoreEvidence :
     ClaimLineageEvidence kirkReadyRoomCore (∅ : OriginSet) (∅ : OriginSet) :=
   { scope := sharedCoreScope
     sharedCore := some sharedCoreClaim
-    disjointPrimaryOrigins := none,
-         primaryOriginsComplete := false }
+    disjointPrimaryOrigins := none
+    primaryOriginsComplete := false }
 
 theorem audited_shared_core_claim_is_dependent :
     legacyScalarClassify sharedCoreEvidence = .dependent := rfl
@@ -262,8 +262,8 @@ theorem missing_lineage_is_not_independence
     (scope : ClaimScope) :
     legacyScalarClassify
       ({ scope := scope, sharedCore := none,
-         disjointPrimaryOrigins := none
-    primaryOriginsComplete := false } :
+         disjointPrimaryOrigins := none,
+         primaryOriginsComplete := false } :
         ClaimLineageEvidence core leftOrigins rightOrigins)
       ≠ .independent := by
   simp [legacyScalarClassify]
