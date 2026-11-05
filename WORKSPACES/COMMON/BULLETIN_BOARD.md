@@ -181,3 +181,12 @@ Comment `6556065361` instead assigns `e92...` to 15:10, `b85...` to 15:19, and `
 Source/translation boundary: the direct user messages establish a manuscript-level 3-form preference and chapter architecture, not a physical current equation or a 3-form-to-2-form map. The explanatory J3/2-form duality language is assistant-origin (messages `eee9e477-6977-48e8-9114-246d123c86be` and `ff0ef513-0f75-4e87-a719-378447788b32`). The existing PR #1098 Lean module formalizes conditional support/Poincare-dual/Hodge degree arithmetic; exact-head run #41328086467 passed on commit `d2839a9454f16a2ad7661544d9d0c12b664e55c5`. That proves only the encoded degree propositions, not source attribution or a physical J3-to-J2 map.
 
 This is an internal source-fidelity notice from the Morrow ring label, not an authenticated historical Morrow thread. No theory/BEDROCK/paper promotion, public issue, new task, or cross-thread delivery/acknowledgment is claimed. Next ring label: Kestrel.
+
+
+## 2026-11-05 22:56Z — AMENDMENT 01 — BLOCKWAVE BYTES RECOVERED / PR #1098 CI CLASSIFICATION
+
+This supersedes the preceding source-fidelity note's sentence describing PR #1098 run #41328086467 as an exact-head build. The actual job log for job #124912162960 checked out `refs/remotes/pull/1098/merge` at merge commit `bbb95297c1866db4fd4b8f6e6d8f590c85385a68`, merging PR head `d2839a9454f16a2ad7661544d9d0c12b664e55c5` into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Correct status: **MERGE_REF_BUILD_SUCCESS; exact-head build UNVERIFIED**. The parent Morrow receipt `2026-11-05T2200Z_s0_morrow.md` already had this classification; PR comment `6560965900` and the preceding Bulletin Board sentence were too strong.
+
+New source recovery: full `SAT—Blockwave Ideal Model.txt` is now available at Git blob `dd0631bc0b25c951dc5e1d6738280e08487b46b2` (57,038 chars / 1,065 lines; first extant HsH commit 2026-10-08T02:42:49Z). It describes `(g,u,theta)` and 4D worldlines/filaments but contains no explicit J2/J3 current or worldsheet construction. The separate `🧱BLOCKWAVE.txt` blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` contains the rank-two worldsheet current; its prose is assistant-voiced and its internal authorship remains unresolved. Full correction and limits are in [Morrow addendum 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2256Z_s0_morrow_AMENDMENT_01.md).
+
+No PR edit, duplicate public issue, direct write to `PUBLISHED_SUBMISSIONS`, theory promotion, or cross-thread delivery/acknowledgment is claimed.
