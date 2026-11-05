@@ -13,7 +13,7 @@
 | Current branch | PR #1220 remains OPEN / DRAFT / UNMERGED. Branch research/aster-o13-unitary-mass-gate-20261101t1700z; head 6a66217979b9caacff06fa407cd9ccd1cdd7999e. Do not amend or merge it here. |
 | Next action | Preserve the source cursor and wait for Code Grurple standdown. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
 | Source cursor | Recover the raw role graph behind KEY CONCEPT - IRI.txt and the original file referenced in that flattened exchange. Both remain unresolved. |
-| Freshness | Babbage, Reflections on the Decline of Science in England, HSH_RESOURCES blob fa52e41ab73566a13109a0a7aeaed3e895b41163: lines 1201-1300 read; next cursor 1301. FIE rereview due 2026-11-10. |
+| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1201-1300 read; next cursor 1301. FIE rereview due 2026-11-10. |
 
 ## Source and symbol boundaries
 
