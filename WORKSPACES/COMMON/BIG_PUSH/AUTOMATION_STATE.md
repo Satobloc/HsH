@@ -7,7 +7,7 @@
 
 ## Deployment status
 
-<badge>NOT INSTALLED</badge>
+**Deployment status: NOT INSTALLED**
 
 The repository-backed recovery state machine is designed, but the :00 task prompt overlay is not installed. An update was attempted on 2026-11-05 and rejected with the platform response: **“Your current plan allows only 3 scheduled tasks.”**
 
