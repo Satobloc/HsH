@@ -853,3 +853,13 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - Shared response log was updated to include this evidence; current Nadir label remains a reconstructed report, not a first-hand authenticated worker response.
 - Tern should deduplicate by run/job/attempt/repository/day and proceed with telemetry reconstruction. Workspace provisioning remains UNKNOWN.
 - Repository inbox/handoff readback is delivery evidence only; chat consumption or acknowledgment not claimed.
+
+
+### 2026-11-05T1102Z | Clone census telemetry amendment 02 | LATE / CONSUMPTION UNVERIFIED
+
+- Addendum to Tern packet `REVROT3-20261105T1058Z-S2-TERN-CLONE-CENSUS-001`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1102Z_from_s2_to_s2_tern_rook_clone_census_AMENDMENT_02.md`; commit `430be76a4fa72ae1ecd17922d74df1ee4e20d6f7`; exact fetched readback PASS.
+- New finding: HSH_RESOURCES scheduled run #41592883527 / job #125773422547 completed three checkout steps. Exact YAML maps GLASS to Satobloc/SAT_THEORY_ARCHIVE_2023-25. The job logs show git init for HSH_RESOURCES, HsH, and SAT archive.
+- Combined sample across this run and Nadir PR #1189 run #41927513429 / job #126915668961: four completed checkout events, HsH=2, HSH_RESOURCES=1, SAT archive=1. Small sample only, not a period-wide estimate.
+- Updated response log, census action plan and task graph record the same sample. Tern should expand the run/job/attempt/day inventory and compare with daily Traffic.
+- Current Tern h610:s2 run remains IN_PROGRESS with chat_ref=null at latest peek. Inbox delivery does not establish consumption, acknowledgment or thread delivery.
