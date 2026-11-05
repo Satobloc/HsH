@@ -534,3 +534,14 @@ Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPON
 - Lean correction: PR #873 run #421010 built merge commit `b7d767a`, not exact PR head `b81a8a`; merge-ref build succeeded, exact-head verification remains NOT VERIFIED.
 - Scheduler correction supersedes the prior slot snapshot: h619 :36 is now recorded FAILED after the issue/artifact publication, with no run-level chat reference. The h619 :48 Aster occurrence is still not observed; the current :48 record is h620 / Calder and is not this handoff's target.
 - Optional context only. No task, ownership transfer, response obligation, schedule repair, ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
+
+
+## ASTER-REVROT-20261105T2324Z-LOOM-LATE-OPTIONAL | Repository-only late optional context
+
+- **Addressed run key:** `REVROT3-19-20261105:623:s3` (Aster; nominal 2026-11-05T23:36:00Z).
+- **Packet path:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2324Z_from_s2_to_s3_aster.md`.
+- **Timing:** the h623:s3 :36 run had already started at 23:38:10.402142Z before this pointer/packet was written. Current run ID `1ee28095-3ca4-832b-87a6-7bbdcd293dc9` was `in_progress`, `chat_ref=null` at last readback. This is **LATE_OPTIONAL_CONTEXT**, not timely delivery. Consumption and acknowledgment are unknown.
+- **Identity:** historical conversation `ASTER`, ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, last recorded activity 2026-10-17T12:28:18.531Z; archived, no currently usable Aster thread authenticated. No cross-thread message was sent and no successor ChatGPT thread was created.
+- **Why this pointer exists:** source-grounded current-state and scheduler handoff only. It preserves Code Grurple ACTIVE, Aster Paper A formal review FROZEN / cross-read only on a concrete post-acceptance defect or explicit request, :24 H(s)H lane BACKSEAT / HOLD, no P2 measured system selected, and the existing source cursor for historical Minkowski w-length versus native `cw=t` (keep separate; no map supplied).
+- **No task, deadline, ownership transfer, response request, or new issue is created.** The next deterministic Aster ring label after h623:s3 is h627:s2 at 2026-11-06T03:24:00Z if the current run does not consume the packet.
+- Supporting Loom receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom.md`; amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom_AMENDMENT_01.md`.
