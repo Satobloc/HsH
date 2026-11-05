@@ -403,3 +403,14 @@ The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23
 - **Status:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`.
 - The immediate h607:s0 Kestrel run was observed FAILED; an earlier Morrow packet to h607:s0 already exists above and is not duplicated. No consumption or acknowledgment is verified.
 - Repository inbox delivery only after exact readback; no ChatGPT-thread delivery or active Kestrel thread is claimed.
+
+
+## 2026-11-05T1442Z | Morrow h614:s2 → Kestrel h618:s2 | optional CODATA source-method context
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1442Z_from_s2_to_h618s2_kestrel.md` (commit `769ae73a0b6760af1defc54fc9ac679258ee566e`, blob `50ea61bd56b87c46b4e1f77d5e127d9a045cd7a2`).
+- Source run key: `REVROT3-19-20261011:614:s2`; selected ring label Morrow (index 13), next ring label Kestrel (index 14).
+- The immediate Kestrel h614:s3 run had already started at 14:36:28Z. This packet is therefore addressed to the next future Kestrel appearance, h618:s2 at 18:24Z.
+- New source-method check: NIST CODATA 2022 is Web Version 9.0 (2024-05-09), based on a 2022 least-squares adjustment published in 2025 using data through 2022-12-31. The 2026 adjustment is next scheduled, not yet a published value set. The 133-input/79-constant adjustment and separate G weighted-mean/correlation/expansion details are in the packet and Morrow receipt.
+- P2 remains HOLD; the air-water vortex is a candidate only and raw Figshare data are not verified. No physical calculation or CODATA comparison was performed.
+- Existing Kestrel PR #873 already contains the generic fiber-factorization theorem. Its relevant module built in run #41758925555, but the overall PR failed in KestrelMovingSlice with unresolved goals/sorryAx. No new Lean theorem/build or physical map is claimed.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** Repository inbox pointer only; no authenticated Kestrel ChatGPT thread, delivery, consumption, or acknowledgment is claimed.
