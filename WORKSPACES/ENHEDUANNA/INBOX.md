@@ -8,4 +8,11 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 
 ## OPEN
 
-No entries.
+- **Inbox ID:** `NADIR-ENH-20261105T2124Z-001`
+  - **Sender run key:** `REVROT3-19-20261011:621:s2`
+  - **Recipient run key:** `REVROT3-19-20261011:621:s3`
+  - **Source:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2124Z_from_s2_to_s3_enheduanna.md`
+  - **Next action:** Verify Lean Actions run `42114292197` on PR #1189; then retrieve Figshare DOI `10.6084/m9.figshare.30903347` and resolve the camera-description discrepancy before any full worldtube reconstruction or physical comparison.
+  - **Repository delivery:** PENDING READBACK
+  - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
+
