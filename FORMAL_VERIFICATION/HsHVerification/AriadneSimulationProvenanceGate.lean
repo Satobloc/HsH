@@ -192,7 +192,7 @@ def supportsBool (e : SimulationEvidence) (claim : SimulationClaim) : Bool :=
 theorem supportsBool_correct (e : SimulationEvidence) (claim : SimulationClaim) :
     supports e claim ↔ supportsBool e claim = true := by
   cases claim <;> cases h : e.kind <;>
-    simp [supports, supportsBool, h]
+    simp [supports, supportsBool, h, and_assoc]
 
 /-!
 Source-specific audit record. The January 21 SRT is a located, blob-identified,
@@ -223,16 +223,16 @@ theorem jan21_transcript_supports_narrative_content :
     supports jan21PodcastTranscript .narrativeContent := by simp [supports, jan21PodcastTranscript]
 
 theorem jan21_transcript_does_not_identify_model :
-    ¬ supports jan21PodcastTranscript .modelConfiguration := by decide
+    ¬ supports jan21PodcastTranscript .modelConfiguration := by simp [supports, jan21PodcastTranscript]
 
 theorem jan21_transcript_does_not_identify_execution :
-    ¬ supports jan21PodcastTranscript .executionOutput := by decide
+    ¬ supports jan21PodcastTranscript .executionOutput := by simp [supports, jan21PodcastTranscript]
 
 theorem jan21_transcript_does_not_establish_target_behavior :
-    ¬ supports jan21PodcastTranscript .targetBehavior := by decide
+    ¬ supports jan21PodcastTranscript .targetBehavior := by simp [supports, jan21PodcastTranscript]
 
 theorem jan21_transcript_is_not_independent_validation :
-    ¬ supports jan21PodcastTranscript .independentValidation := by decide
+    ¬ supports jan21PodcastTranscript .independentValidation := by simp [supports, jan21PodcastTranscript]
 
 #eval supportsBool jan21PodcastTranscript .narrativeContent
 #eval supportsBool jan21PodcastTranscript .modelConfiguration
