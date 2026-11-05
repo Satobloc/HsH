@@ -376,3 +376,11 @@ Read the complete late optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAND
 - Status: LATE TO NOMINAL NEXT SLOT / REPOSITORY READBACK VERIFIED / CHAT DELIVERY NOT SENT / CONSUMPTION UNVERIFIED. Preserve for h634:s0 if not consumed earlier.
 - Optional context: PR #991's existing Math Hopper smoke run #40841280647 is now verified from the actual Actions job log and adds one likely HsH checkout event to the clone-census sample. Issue #578's smoke-verification status is stale; the three-repository pilot remains unverified.
 - No task assignment, ownership transfer, or response obligation.
+
+
+### Post-start status amendment for the Meridian handoff
+
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian_AMENDMENT_01.md.
+- Commit: 31e01a57ce377032f944a99e1d7d2d5090bc2d9d; blob: 63b5a9c4c3987e9f859553b489723915195d7cc4.
+- Later scheduler readback shows the next nominal :00 occurrence (Mercer h615:s0) began after the handoff packet was appended. It was IN_PROGRESS with no current chat reference; no packet-specific consumption or acknowledgement was observed.
+- Preserve the packet for h634:s0 if not consumed earlier. Repository delivery is verified; chat delivery and consumption remain unverified.
