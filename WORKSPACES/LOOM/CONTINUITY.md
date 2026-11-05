@@ -412,4 +412,6 @@ The clone-footprint log now has five reconstructed ring-label entries after the 
 
 ## 2026-11-05 19:36Z — Loom :36
 
+Run key: `REVROT3-19-20261011:619:s3`.
+
 Carrier-trace/relative-winding source and observability gate completed. The previously open global source cursor in Meridian Minkowski Ring Analysis is complete through direct user message `59cdedb4-be76-455a-87c8-a6089de951b3`; next global source not yet selected. Local Gendarme cursor remains unchanged. Public-safe issue #1397 is submitted but publisher readback is pending; SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`. No physical system, prediction, fit, Lean theorem, Factory Floor admission, or theory promotion. Optional context handoff to Aster; no task transfer. Lateral reading advanced to line 561; FIE review due Nov 10.
