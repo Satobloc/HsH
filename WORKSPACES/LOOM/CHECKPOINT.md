@@ -711,3 +711,12 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Artifact Git blob: `c3341a512cc49af1c4906ccb153868bc3c0afa2e`.
 - Independent readback SHA-256: `b4756c848bffa71f7477c95a4fb4b5fe1e127548b5dec07c6a4b5abbac3e0286`, exact match to submitted payload.
 - Final publication state: **PUBLISHED_VERIFIED**. No duplicate issue or submission.
+
+### Handoff and receipt verification amendment - 2026-11-05T0036Z
+
+- Rotation receipt created: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0036Z_s3_loom.md`; commit `70c8831589ceebc104b6323e066fa13b3a8b8364`; blob `995af57397249d2c99622d202c5a29b507cff766`; exact content readback PASS.
+- Optional Aster handoff created: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0036Z_from_s3_to_s4_aster.md`; commit `f76af2d32d6400aff846b6057b56a21f00262de3`; blob `24490be6c7ce6f4a18699a4666517628b22d4a87`; exact content readback PASS.
+- Aster inbox entry appended: `WORKSPACES/ASTER/INBOX.md`; commit `f00c887fae481e7b295356bb331278edb72bce78`; blob `247739c35862a7f37a045d853c1cce0e2fff731f`; exact appended text readback PASS.
+- `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE_NOT_SENT`. No recipient consumption or acknowledgment claimed.
+- The :48 automation was still processing its delayed h599 Mercer occurrence at final inspection; the h600:s4 Aster occurrence was not yet observed. The handoff is optional context for Aster's next ring appearance.
+- House-write route: `HOUSE_WRITE_ROUTE_UNAVAILABLE` in this runtime because no local checkout and no generic Actions writer were available. The documented GitHub connector fallback was used with current blob SHA, one write per path, and independent readback. Public output was written only through the existing issue publisher.
