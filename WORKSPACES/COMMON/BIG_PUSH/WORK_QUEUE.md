@@ -52,7 +52,7 @@ Place non-urgent ideas here with origin, reason for parking, and a retrieval tri
 ## Recent operation log
 
 - **2026-11-05 / BP-BOOT-001:** Project control and initial archive scout established. Activator Modes file read in full; May 28 transcript lines 1–200 read; SAT-Y buildout lines 1–90 read; early SATxy activator read in full. Archive-wide “modes” search is known to be incomplete. Current cursor set to transcript lines 201–400.
-- **2026-11-05 / BP-CONTINUITY-001:** Boot capsule, operating protocol, heartbeat/recovery scheme, and calendar scaffolding established. Existing :00 task selected as the sole continuity steward; its schedule and identity are to remain unchanged.
+- **2026-11-05 / BP-CONTINUITY-001:** Boot capsule, operating protocol, heartbeat/recovery scheme, and calendar scaffolding established. Existing :00 task designated as the intended sole continuity steward. Prompt installation was rejected by the platform's three-scheduled-task limit; all four existing relays were left unchanged. Automatic restart is NOT_ARMED.
 
 ## Update rule
 
