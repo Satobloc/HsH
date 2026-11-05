@@ -4,7 +4,7 @@ import Mathlib
 # Orson P1: evaluator-side context sensitivity and peer-presentation decomposition
 
 Primary source: Alicia Guerra and Yibo Hu, "The Evaluator Is Part of the
-Experiment: Measuring Open-Ended LLM Conformity", arXiv:2608.04463v2
+contrast: attribution, repetition, apparent speaker count, consensus structure, authority labels, and prompt length (arXiv:2608.04463v2).
 (2026-08-13), §§2.1-2.3, equations (1)-(8).
 
 The source defines the total peer-arm quality shift as the sum of:
@@ -125,7 +125,7 @@ theorem all_wrong_context_shift
 
 Guerra & Hu list six prompt features that change jointly in the peer-presentation
 contrast: attribution, repetition, apparent speaker count, consensus structure,
-authority labels, and prompt length (arXiv:2608.04463v2, §§2.1-2.3).
+contrast: attribution, repetition, apparent speaker count, consensus structure, authority labels, and prompt length (arXiv:2608.04463v2).
 
 The paper does not estimate six separate cue coefficients. The definitions
 below are an assistant-derived additive abstraction: each coordinate is one
@@ -158,7 +158,6 @@ theorem bundledCueSum_invariant_under_compensating_transfer
     bundledCueContributionSum (transferBetweenFirstTwoCues δ c) =
       bundledCueContributionSum c := by
   simp [bundledCueContributionSum, transferBetweenFirstTwoCues]
-  ring
 
 /-- Any nonzero transfer changes the six-component decomposition. -/
 theorem compensating_transfer_changes_decomposition
@@ -168,7 +167,8 @@ theorem compensating_transfer_changes_decomposition
   have h0 := congrFun h (0 : Fin 6)
   have hsum : c 0 + δ = c 0 := by
     simpa [transferBetweenFirstTwoCues] using h0
-  linarith
+  have hδ0 : δ = 0 := by linarith [hsum]
+  exact hδ hδ0
 
 /-- Every additive bundled residual has a distinct six-component
     decomposition with the same observed scalar. -/
@@ -188,6 +188,11 @@ theorem bundledCueContributionSum_not_injective :
   obtain ⟨c', hne, heq⟩ :=
     every_bundled_residual_has_multiple_additive_decompositions (fun _ => 0)
   exact hne (hinj heq)
+
+#print axioms bundledCueSum_invariant_under_compensating_transfer
+#print axioms compensating_transfer_changes_decomposition
+#print axioms every_bundled_residual_has_multiple_additive_decompositions
+#print axioms bundledCueContributionSum_not_injective
 
 #print axioms total_peer_shift_decomposes
 #print axioms peer_presentation_residual_is_remaining_contrast
