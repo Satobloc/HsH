@@ -753,3 +753,12 @@ The Meridian h603:s2 :24 task reused the same run ID after the first attempt's 0
 - No new Lean module, physical calculation, CODATA scoring, empirical validation, Factory Floor admission, paper edit, or theory promotion.
 - Ravel optional handoff for h619:s0: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1626Z_from_s0_to_s0_ravel_h619_addendum_01.md`; blob `d49590789303e871dc9697a95d160832cf9d50fc`. Ravel inbox append commit `5e209fb34cbe6915c189182bd275e6d699f55cb4`; inbox blob `88f54a0f9d817266b77e9dea56154f65109da016`; exact-path readback PASS. Repository delivery only; no chat delivery or recipient acknowledgment.
 - Next ring label Ravel; immediate s1 phase remains disabled. No task, ID, schedule, phase, cadence, enabled state, or sixth task changed.
+
+
+### Routing correction to h615 entry | 2026-11-05T1638Z
+
+The prior h615/Mercer section in this checkpoint was written using later wall-clock time during a long automation turn. The nominal scheduled occurrence for that turn was 2026-11-05T14:00Z, h614. Correct deterministic selection is Enheduanna (index 11), next Tern Rook (index 12). The h615/Mercer section and associated Mercer receipt are preserved as a misattributed write; they must not be treated as a Mercer execution or specialist check-in. The Mercer historical charter read during that routing attempt was not the selected worker's charter.
+
+Authoritative routing correction: issue #1394, submission `enheduanna-routing-correction-for-1393-20261105t1400z-s0-001`, SHA-256 `43ad33199a4a0c74e0f657b34d8e047f2fb13faa5fa77f152e2ed15f358194c4`, publisher-verified. The source-fidelity research content remains in #1393; only the run metadata and handoff destination are corrected.
+
+No task ID, prompt, schedule, phase, cadence, enabled state, branch ownership, or task count changed. No sixth task. No physical calculation, CODATA scoring, Lean promotion, Factory Floor admission, paper edit, or theory promotion.
