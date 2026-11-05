@@ -702,3 +702,11 @@ Current main at pre-write readback was `7fbbf125f86f7fddf1d06ae65d547848fe9450f6
 - No task ID, prompt, schedule, phase, cadence, enabled state, branch ownership or sixth task changed. No cross-thread delivery or recipient acknowledgment is claimed.
 
 **Next cursor:** wait for a positive A/B source/build/deployment/authenticated-preview trigger. If source or renderer inputs change, rebind/rebuild first. If an A/B deployment or authenticated preview with exact derivative identity appears, perform one readback per affected route. Preserve Ravel's finite-core remit; the handoff is optional context only.
+
+
+### Run 157 Common receipt pointer
+
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0336Z_s3_mercer.md`.
+- Receipt commit: `5f562685ae055a945b93124dd375d95b9ff2c75b`.
+- Final receipt blob: `d38df9d4dde7f4cf55a6d27ca46bd0298ba6157e`.
+- Exact-path readback: PASS (6,923 characters, 73 lines).
