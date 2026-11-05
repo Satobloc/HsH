@@ -17,7 +17,7 @@
 
 ## Identity provenance
 
-Historical role-setting comes from user-role messages in conversation `6a9aa91b-11f4-83ea-80a1-4d502522e441`, raw export blob `d21e251df093013903cc19789ded562f83b6e6ea`: messages `054d1aea-cf67-4154-93c8-e302dc3ce1ea`, `39299849-e2a4-4b63-88a0-5612c700cc1a`, and `f6a2377c-8873-41ee-9107-41aeeb0d2589`. The assistant-authored title “Geometric Formalization & Representation Lead” is not Nathan Direct. The raw export fetch returned blank; role recovery relies on source-audited ledgers and prior receipts, not a fresh full conversation reread.
+Historical role-setting comes from user-role messages in conversation `6a9aa91b-11f4-83ea-80a1-4d502522e441`, raw export blob `d21e251df093013903cc19789ded562f83b6e6ea`: messages `054d1aea-cf67-4154-93c8-e302dc3ce1ea`, `39299849-e2a4-4b63-88a0-5612c700cc1a`, and `f6a2377c-8873-41ee-9107-41aeeb0d2589`. The assistant-authored title “Geometric Formalization & Representation Lead” is not Nathan Direct. At the time of the prior run, the Contents API fetch returned blank. The 2026-11-05 h614:s4 run successfully retrieved the raw blob via Git blob API and verified selected direct user messages; this was not a full conversation reread. See the source-recovery amendment in NEW_INSTANCE_START_HERE.md and the canonical run receipt.
 
 ## Re-entry gate
 
@@ -43,3 +43,13 @@ Run ID `f692fed0-7ef4-8333-9dee-d39ac7db5e53`: first attempt started 03:28:29Z, 
 **Current source pointers:** live `BEDROCK.md`; Steering Charter and Three Paper Campaign; `TASK_BRANCH_GRAPH.json`; `CODE_GRURPLE_ROSTER.md`; Presentation Gate, Reader Routing Registry and Meridian PDF-first re-entry contract; Revival V2/V3/V4 and thread-first rule; `INSTANCE_REGISTRY_EXECUTION_LEASES.md`; Meridian role ledgers and October 21 continuity.
 
 **Layer rule:** historical identity/role, current assignment, and execution checkpoint are separate. This card is only the fast index to their authoritative sources.
+
+## Source-recovery and run update (attribution, not authentication)
+
+- Nominal occurrence: `REVROT3-19-20261011:614:s4`, 2026-11-05 14:48Z; deterministic label Meridian, next label Mercer.
+- Fresh raw-source verification: Meridian [HsH] blob `d21e251df093013903cc19789ded562f83b6e6ea` retrieved; 343 mapping nodes, 342 message objects, 56 user-role nodes. The 2026-11-03 and 2026-11-04 source ledgers provide current-ancestry and selected-message attribution.
+- The direct Whirligig non-uniqueness instruction is in Meridian Free Build user message `97d301cb-5174-4861-a273-ac4cc0b60d8b`, 2026-10-09T10:38:10.722Z. It is a solver-design directive to preserve admissible answers and rank routes by an explicit “least-wild” preference, not a universal theorem. Its export snapshot contains later 2026-11-19 metadata; only the dated Oct 9 message is used.
+- The earlier 580/579/245 count and message ID `97d2d3b7...` are not reproduced and are superseded by the source-ledger counts and correct message ID above.
+- **Assignment unchanged:** Code Grurple Paper A accepted R1 presentation repair only. No genuine observation-capability trigger; no route probe, manuscript/source-pin edit, or site change. The current feed pin remains unchanged. P2 Whirligig remains HOLD beneath the active Code Grurple P0 interlock.
+- **Review-MIND outcome:** source/CI audit and clone-census upkeep only. No new model trial, human-subject session, physical calculation, Lean theorem, or theory promotion. See canonical receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian.md`.
+- Scheduler readback at last check still showed this nominal occurrence in progress, with no current chat reference and a cached result from another occurrence. No chat delivery is claimed.
