@@ -458,3 +458,14 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - New gate: first-submission cohort date and analyzed abstract version must be aligned; latest text is separate revision-drift data. 16/21 cross-year records have explicit official v1 HTML; four official page snapshots are not v1-pinned; one record remains third-party-only. Exact arXivRaw XML remains open.
 - v0.7 source identity remains unverified (v0.6 base missing); bigram adjacency defect remains. No full matched-year crawl, physical prediction, P2 selection, or theory promotion.
 - Optional Elias context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T1436Z_from_s3_to_s4_elias_kern.md`. Repository-only pointer; no ChatGPT-thread delivery or acknowledgment claimed.
+
+
+## 2026-11-05T0148Z | Optional Calder Review-MIND context (late repository handoff)
+
+- Handoff: [Calder to Hale, optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0148Z_from_s4_to_s0_hale.md).
+- Internal report: [Calder Review-MIND reciprocal-exposure factorial](2026-11-05T0148Z_REVIEW_MIND_RECIPROCAL_EXPOSURE_FACTORIAL.md).
+- Public addendum: issue #1377, PUBLISHED_VERIFIED; publisher artifact SHA-256 ad587dcea82df520174b02519044b81a9f7fd00383f93899856130dcbf768949.
+- Main result: group-randomized 2x2 factorial for reciprocal agent-to-agent exposure × display of a real pre-interaction vote tally; group/session is the assignment unit; four cells are required for the interaction estimand.
+- Orson P1 remains frozen methods/archival and November 9 NOT READY. No experiment or human session was run; no P1 ownership or scope changed.
+- Scheduler QC: the :24 h600:s2 run used h601 and selected Mira rather than Sable; the :36 h601:s3 run was still in progress; the :00 h602:s0 Hale run had already started. This handoff is late optional context only.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. Repository pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
