@@ -702,3 +702,12 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Reading: no new unrelated-reading quantum this run. Last cursor remains `fun break - lx.txt`, lines 381-420, next 421. FIE re-review due 2026-11-10.
 - Corrected next cursor: recover the current Klein Fabric topology/instantiation relation, not a presumed material-flow object. If no direct source defines it, mark it missing. Preserve the old reciprocal timesheet model as superseded history. Preserve `cw=t` and earlier `w=ct` literally; no conversion map.
 - No BEDROCK, task graph, branch, paper gate, ownership, automation ID, schedule, or cadence changed.
+
+### Publisher verification amendment - issue #1374
+
+- Publisher comment: `#6646681781` states PUBLISHED and readback verified.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-cruller-source-boundary-20261105t0036z-s3-001.md`.
+- Publisher commit: `1bcef2006ba2d9a28eb6806ca667ee254f62d5e6`.
+- Artifact Git blob: `c3341a512cc49af1c4906ccb153868bc3c0afa2e`.
+- Independent readback SHA-256: `b4756c848bffa71f7477c95a4fb4b5fe1e127548b5dec07c6a4b5abbac3e0286`, exact match to submitted payload.
+- Final publication state: **PUBLISHED_VERIFIED**. No duplicate issue or submission.
