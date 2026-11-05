@@ -21,7 +21,7 @@ No authenticated current Ravel successor thread was established. “Finite Tube 
 Primary file:
 
 - `SATOBLOC/SAT O1 4D.txt`
-- Git blob SHA-1: `7577aa1e5e13ec28e0e88c96bd7aaf8f4e84d9f5`
+- Git blob SHA-1: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`
 - The standalone file itself has no internal date or byline.
 - First extant SAT-archive commit: `b543eb3fbf16e50500ceadad83dc9a7dc0759e5b`, 2025-10-27T00:40:28Z.
 - File-index metadata records a 2025-06-09 local creation timestamp. That is file-index metadata, not proof of authorship.
@@ -47,6 +47,14 @@ S[\gamma]=\int d\lambda\,L(\gamma^\mu,v^\mu),
 \qquad
 L=\frac12 m v^\mu v_\mu-V_{\rm tension}(\gamma).
 \]
+
+
+
+Normalized UTF-8 SHA-256 hashes of the exact source equation lines (line endings trimmed; no mathematical normalization):
+- Hyperhelix coordinate equation: `ab25a307451b0edc9c5051a6fc112bc6ec3adc53be3cbc520d490626d2289bec`.
+- Velocity definition: `6d029803627d7b84254964508fc52260c495d77b91bce6737fa059fffcf98af9`.
+- Action line: `13c5a0a2b275f2cb9cf5eae9170fc5f963b60ac2987a22f3a16bd7350a3edf3e`.
+- Tension Lagrangian line: `4046b53ee8bf01948233f77c9eb1e998990f508bdf19ff31a743a8a5b04f440f`.
 
 The document describes a one-dimensional filament curve in Lorentzian \(\mathbb R^{3,1}\), and separately calls the four-dimensional volume swept by vibration its worldtube. It does not supply a thickening map from the one-dimensional curve to that four-dimensional volume.
 
