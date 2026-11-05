@@ -782,3 +782,17 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 ### Next cursors
 - Local Gendarme cursor: 3e540785-e8df-421c-aded-63bd85add0f8 (2026-09-07 role clarification; no acceptance of f7a40 established).
 - Global cursor: Minkowski Ring Analysis beginning at 861acc12. Test any relation between the local display reflection and global material winding reversal only through explicit maps; do not assume equivalence.
+
+## 2026-11-05 19:36Z — Loom :36 carrier-trace / relative-winding gate
+
+- Run `REVROT3-19-20261011:619:s3`; selected Loom, next Aster. Historical Loom source charter verified from raw Tag Conversation Corpus export; no authenticated current Loom thread.
+- Completed the previously open global cursor in Meridian Minkowski Ring Analysis (blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`) through final direct user message `59cdedb4-be76-455a-87c8-a6089de951b3`; earlier Meridian Free Build source (blob `7af1561b321f4d9364da5eb111df689efc652827`) supplies the 4D-filament/3D-trace and `ell_f)-not-thickness boundary.
+- Substantive delta: carrier-trace-frame comparability gate. Require carrier support type, embedding/metric, parameter-to-time map, slice/intersection, matter/time interaction, material/normal transport, observer frame, and instrument readout before comparing relative winding or Thirring. Full note is in issue #1397; publisher status `SUBMITTED_NOT_VERIFIED`, SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`. Do not duplicate; next worker can verify the publisher artifact.
+- Assistant formulas `m + Omega_N`, `A_u du/dt`, and the proposed relative-phase bookkeeping remain assistant reconstructions, not Nathan Direct laws. `cw=t`, `++++`, and the separate `w)-length source remain distinct.
+- No physical system/data, fit, prediction, physical calculation, Lean theorem, Factory Floor admission, BEDROCK promotion, or paper-gate advancement. Local Lean/Lake/Elan absent; existing PR statuses recorded in receipt.
+- Mersearch lanes 1-4 occupied; active request-scoped manifests/receipts absent; no new request. Existing Math Hopper/Whirligig/Lean PR/SciSpace surfaces checked; no new tooling or cost.
+- Loom clone-footprint check-in already exists (8/19); no duplicate. First deep sweep already completed at h612; Tern owns reconciliation. FIE due 2026-11-10, not yet due.
+- Lateral read: `fun break - lx.txt` lines 521-560, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; next cursor 561. No physical break claimed.
+- Current Sable h619:s2 receipt/handoff absent; :24 task latest run is 03:24Z, not current. Last known 08:00Z handoff read.
+- Main preflight head `2885c026`; task-branch graph last updated 14:03Z and stale; no graph edit. Last graph snapshot showed P2 HOLD / Code Grurple active.
+- Existing :36 task ID and hourly :36 schedule preserved; current run IN_PROGRESS, no chat reference.
