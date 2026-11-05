@@ -120,6 +120,75 @@ theorem all_wrong_context_shift
   rw [paired_context_shift_eq_gamma_times_signed_context]
   simp [signedPeerContext]
 
+/-!
+## Conditional identifiability of the six-cue peer-presentation bundle
+
+Guerra & Hu list six prompt features that change jointly in the peer-presentation
+contrast: attribution, repetition, apparent speaker count, consensus structure,
+authority labels, and prompt length (arXiv:2608.04463v2, §§2.1-2.3).
+
+The paper does not estimate six separate cue coefficients. The definitions
+below are an assistant-derived additive abstraction: each coordinate is one
+cue's contribution to the single observed residual. This is not a fitted model
+or an equation supplied by the source paper.
+-/
+
+/-- Six contributions in the source's listed cue order. -/
+abbrev PeerPresentationCueContributions := Fin 6 → ℝ
+
+/-- Additive projection from six cue contributions to one bundled residual. -/
+def bundledCueContributionSum (c : PeerPresentationCueContributions) : ℝ :=
+  c 0 + c 1 + c 2 + c 3 + c 4 + c 5
+
+/-- Transfer an amount between two cue contributions without changing their
+    total. This is an explicit nonzero direction in the kernel of the bundle
+    measurement map. -/
+def transferBetweenFirstTwoCues
+    (δ : ℝ) (c : PeerPresentationCueContributions) :
+    PeerPresentationCueContributions :=
+  fun i =>
+    if i = 0 then c i + δ
+    else if i = 1 then c i - δ
+    else c i
+
+/-- A compensating change in two cue contributions leaves the bundled
+    residual unchanged. -/
+theorem bundledCueSum_invariant_under_compensating_transfer
+    (δ : ℝ) (c : PeerPresentationCueContributions) :
+    bundledCueContributionSum (transferBetweenFirstTwoCues δ c) =
+      bundledCueContributionSum c := by
+  simp [bundledCueContributionSum, transferBetweenFirstTwoCues]
+  ring
+
+/-- Any nonzero transfer changes the six-component decomposition. -/
+theorem compensating_transfer_changes_decomposition
+    (δ : ℝ) (c : PeerPresentationCueContributions) (hδ : δ ≠ 0) :
+    transferBetweenFirstTwoCues δ c ≠ c := by
+  intro h
+  have h0 := congrFun h (0 : Fin 6)
+  have hsum : c 0 + δ = c 0 := by
+    simpa [transferBetweenFirstTwoCues] using h0
+  linarith
+
+/-- Every additive bundled residual has a distinct six-component
+    decomposition with the same observed scalar. -/
+theorem every_bundled_residual_has_multiple_additive_decompositions
+    (c : PeerPresentationCueContributions) :
+    ∃ c' : PeerPresentationCueContributions,
+      c' ≠ c ∧ bundledCueContributionSum c' = bundledCueContributionSum c := by
+  refine ⟨transferBetweenFirstTwoCues 1 c, ?_, ?_⟩
+  · exact compensating_transfer_changes_decomposition 1 c (by norm_num)
+  · exact bundledCueSum_invariant_under_compensating_transfer 1 c
+
+/-- The one-scalar additive bundle map cannot identify all six cue
+    contributions uniquely. -/
+theorem bundledCueContributionSum_not_injective :
+    ¬ Function.Injective bundledCueContributionSum := by
+  intro hinj
+  obtain ⟨c', hne, heq⟩ :=
+    every_bundled_residual_has_multiple_additive_decompositions (fun _ => 0)
+  exact hne (hinj heq)
+
 #print axioms total_peer_shift_decomposes
 #print axioms peer_presentation_residual_is_remaining_contrast
 #print axioms paired_context_shift_eq_gamma_times_signed_context
