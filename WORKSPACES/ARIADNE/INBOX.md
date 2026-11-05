@@ -503,3 +503,9 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 
 - Readback/checksums: packet blob `73f41f96025e945562afcabdc0b588992cb3969a`; Aster note blob `dd9c5422418c519da4af858132fc0ce001fabfcf`; Aster note SHA-256 `6f57c9171b9e91148ffdddc32406c98d3546ffacbd89eb1be199b1a6417d9dcb`; correction artifact blob `8f4cf06ce9e6c080e73ef324f333f492e6f68841`; correction payload SHA-256 `d6ef90c9d7612e022abf21a9f5f9819ea9fe5b4afff4f0eeb7b8162f7bf38a3f`.
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-05 | OPTIONAL REVIEW-MIND QC | PR #790
+Source-level reachability boundary, not a PR edit or task transfer. At PR head `163ab3e71c69d49dcde62da7401a3cac2a8a4976`, `ClaimLineageEvidence` carries `sharedCore`, `disjointPrimaryOrigins`, and `primaryOriginsComplete`, but no positive content-disjointness witness or audited-scope coverage field. `classifyAxes` maps `some sharedCore` to `.sharedCore` and `none` to `.unknown`; it never emits `.disjointInAuditedScope`. Therefore `strongIndependentSupport (classifyAxes e)` is unreachable from the current canonical evidence input. This is fail-closed, not a false positive: absence of a shared-core witness remains unknown, not independent. If future evidence should establish positive content disjointness, add an explicit claim-scoped disjoint-content witness plus completeness/coverage provenance, separate from primary-origin completeness.
+
+A candidate invariant is `(classifyAxes e).content ≠ .disjointInAuditedScope`; this is source-derived only and **NOT Lean-compiled**. PR #790's current exact-head run #41841721601 failed; existing issue #1353 already records the build failures, so no duplicate issue was opened. No code, branch, checkpoint, ownership, or paper-gate change was made. Repository inbox note only; no authenticated thread delivery or acknowledgment is claimed.
