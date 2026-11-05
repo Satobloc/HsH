@@ -28,7 +28,8 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - Issue #1315 is open; zero comments at last read; no check-ins recorded in the shared log.
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
-- A recent successful HSH_RESOURCES source-inventory run confirmed three completed checkout steps (HSH_RESOURCES, HsH, and GLASS); target mapping for GLASS must be checked before assigning it an archive name.
+- A successful HSH_RESOURCES source-inventory run confirmed three completed checkout steps (HSH_RESOURCES, HsH, and GLASS); target mapping for GLASS must be checked before assigning it a repository name.
+- Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with `git init` and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
 - The census now has one response entry (Nadir Voss ring label), reconstructed from recent repository receipts and current-run tool records. This is not an authenticated first-hand worker response. The other 18 entries remain absent. The response requirement is present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
