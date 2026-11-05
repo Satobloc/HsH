@@ -48,3 +48,8 @@ Repository inbox delivery is verified only after exact readback. No authenticate
 ## Readback amendment — main-branch bookkeeping
 
 The main head `165f90c59f6d5d66b2c8d8a327673d93946b37c6` cited above was the **pre-write** head used for the no-trigger decision. The subsequent operational receipt/current-work/handoff/inbox commits advanced the existing `main` branch to `89a34d9c7071e7e14240d5f68a12cc1f32b52656` at 22:34:39Z. No new research branch was created or switched. This correction does not alter the Code Grurple trigger assessment.
+
+
+## Final main-head correction
+
+The 22:34:39Z `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. No research branch was created or switched; the no-trigger decision is unchanged.
