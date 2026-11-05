@@ -843,3 +843,13 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - Census progress at handoff: 1/19 ring-label entries; Nadir entry is log-reconstructed only, no authenticated first-hand worker-thread responses; other 18 absent.
 - Immediate cursor: inspect Actions run #41927513429 job steps for checkout events, continue daily/per-repository telemetry reconstruction, verify the GLASS checkout target, reconcile against daily Traffic, and review the census after each five entries or five actual activations.
 - Repository delivery/readback is verified. Chat-thread delivery, consumption, and acknowledgment are NOT CLAIMED. This is an operational context packet within Tern's existing coordinator remit, not a new scheduler task or ownership transfer.
+
+
+### 2026-11-05T1100Z | Clone census telemetry amendment 01 | LATE / CONSUMPTION UNVERIFIED
+
+- Addendum to packet `REVROT3-20261105T1058Z-S2-TERN-CLONE-CENSUS-001`.
+- Path: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1058Z_from_s2_to_s2_tern_rook_clone_census_AMENDMENT_01.md`; commit `1d44f24d4305a075c2965a695d678d25e52ca88f`; exact fetch readback PASS.
+- New actual workflow evidence: Nadir PR #1189 Actions run #41927513429, job #126915668961, run attempt 1, HsH repository; successful `actions/checkout@v4` with `git init` and depth-1 `git fetch`. Count one likely clone-producing HsH Actions checkout event. Do not count it as a Nadir-initiated local clone or independent identity.
+- Shared response log was updated to include this evidence; current Nadir label remains a reconstructed report, not a first-hand authenticated worker response.
+- Tern should deduplicate by run/job/attempt/repository/day and proceed with telemetry reconstruction. Workspace provisioning remains UNKNOWN.
+- Repository inbox/handoff readback is delivery evidence only; chat consumption or acknowledgment not claimed.
