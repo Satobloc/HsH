@@ -390,6 +390,24 @@ def primaryOriginIndependent (e : ClaimLineageAxes) : Prop :=
 def strongIndependentSupport (e : ClaimLineageAxes) : Prop :=
   contentIndependent e ∧ primaryOriginIndependent e
 
+/-- The current evidence record has no positive content-disjointness witness.
+    Its canonical projection therefore cannot emit that state. This is a schema
+    limitation, not a claim about the underlying source files. -/
+theorem classifyAxes_never_emits_disjoint_content
+    {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
+    (e : ClaimLineageEvidence core leftOrigins rightOrigins) :
+    (classifyAxes e).content ≠ .disjointInAuditedScope := by
+  cases hs : e.sharedCore <;> simp [classifyAxes, hs]
+
+/-- Consequently the current canonical projection cannot satisfy the stronger
+    content-plus-primary-origin independence predicate. -/
+theorem strongIndependentSupport_unreachable_from_claim_lineage
+    {core : SharedCoreRecord} {leftOrigins rightOrigins : OriginSet}
+    (e : ClaimLineageEvidence core leftOrigins rightOrigins) :
+    ¬ strongIndependentSupport (classifyAxes e) := by
+  intro h
+  exact classifyAxes_never_emits_disjoint_content e h.1
+
 def contentIndependentBool (e : ClaimLineageAxes) : Bool :=
   match e.content with
   | .disjointInAuditedScope => true
@@ -472,5 +490,7 @@ theorem overlap_can_coexist_with_disjoint_primary_origins :
 #print axioms kirk_ready_room_source_independence_not_established
 #print axioms shared_content_does_not_determine_origin_relation
 #print axioms overlap_can_coexist_with_disjoint_primary_origins
+#print axioms classifyAxes_never_emits_disjoint_content
+#print axioms strongIndependentSupport_unreachable_from_claim_lineage
 
 end HsHVerification.AriadneClaimScopedLineage
