@@ -55,3 +55,8 @@ Assistant-origin math requiring caution:
 No faithful nontrivial Lean theorem is currently well-typed: the trajectory/time-field spaces, metric/signature, angle type, connection/loop, curvature object, and representation maps are missing. Local Lean/Lake/Elan executables are absent. No new theorem, module, branch, PR, physical calculation, or theory integration was performed.
 
 Morrow's direct theory stop remains active. This packet is source-fidelity context only. Preserve Kestrel's existing cross-boundary synthesis remit; do not turn this into a new task without a separate authorized handoff.
+
+
+## Publication status amendment | 2026-11-05
+
+Issue #1381 is now PUBLISHED_VERIFIED. Publisher comment 6649533011 confirms commit b55919a05a51d405a9e3ddb2801b2d4208b2292a and artifact blob cd01e3df6745bd86c80811f05ee457580be466ad. Independent exact-content readback passed; SHA-256 c64f7fb080ded24cd7a7d4f56d0a886684491590f52bbf72189e7202074a362d matched over 21,403 bytes. No duplicate submission was made.
