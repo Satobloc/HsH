@@ -4,7 +4,7 @@
 **Status:** Optional context only. This file is a repository handoff pointer, not a task, ownership transfer, authenticated-thread message, or claim that Kestrel has received or consumed it.
 
 ## What changed
-- The 2024 raw source locator in the h617 Calder receipt is wrong: the raw export is **DIMENSIONAL GRAVITY**, conversation ID `252d05c0-22ed-4ea2-a474-7966ab13145a`, raw blob `2cea192a...`. The receipt's `2291dd14...` / “Spacetime Curvature and Rigidity” locator is incorrect; its raw blob and message IDs are correct.
+- The 2024 raw source locator in the h617 Calder receipt is wrong: the raw export is **DIMENSIONAL GRAVITY**, conversation ID `252d05c0-22ed-4ea2-a474-7966ab13145a`, raw blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. The receipt's `2291dd14...` / “Spacetime Curvature and Rigidity” locator is incorrect; its raw blob and message IDs are correct.
 - The 2026 message IDs `e7286b27`, `68577213`, and `357da9ad` belong to Meridian Free Build, not Minkowski Ring Analysis.
 - Current PR #873 state: run #42101085608 passed on a merge-ref build (merge commit prefix `b7d767a`) for head `b81a8aef...`; the earlier failed run #41758925555 is superseded. No `sorryAx` appeared in the current module's printed theorem output. This was not an exact-head build.
 - The same merge-ref qualification applies to the inspected builds for PR #262, #1098, and #1133. Prior receipts calling them exact-head should be read as overclaims unless a separate head-ref checkout is produced.
@@ -12,7 +12,7 @@
 
 ## Geometry boundary
 - The SAT-O `γ` is a 1D curve in 4D; the prose “4D volume swept out” requires a finite-core thickening/sweep map not present in the source.
-- The Blockwave upload carries a J2/worldsheet current, while a separate direct 2025 user message prefers exploring J3. In 4D, Hodge star preserves degree 2 and maps degree 3 to degree 1; Poincare-dual degree depends on support dimension. Do not collapse the uploaded artifact, the user's editorial question, and the assistant's 2025-10-19 action into one authorship claim.
+- The Blockwave upload is attachment `file-LwaFTKkMemPPrLU4qCLpYB` in conversation `68c990dd-df28-832e-b766-c267190aaffa`, uploaded `2025-09-16T16:31:26.687Z`, raw blob `fa2586add42b4d87afe89a5b00e1e48a01aaee54`, file Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`. It carries a J2/worldsheet current, while a separate direct 2025 user message prefers exploring J3. In 4D, Hodge star preserves degree 2 and maps degree 3 to degree 1; Poincare-dual degree depends on support dimension. Do not collapse the uploaded artifact, the user's editorial question, and the assistant's 2025-10-19 action into one authorship claim.
 - 2026 direct source distinguishes SAT worldlines from H(s)H worldtubes, one helical core from its hollow outer coil, and core thickness from coil scale. The “time bulk” is described as interacting, not a passive readout. The relevant embedding, thickening, slice, and composition maps remain unspecified.
 
 ## Existing formalization to reuse, not duplicate
