@@ -7,6 +7,9 @@
 
 ## 2026-11-05T0636Z | Tern h606:s3 | M87 holdout/comparator architecture | late optional context
 
+- **Post-start scheduler follow-up (2026-11-05T07:09Z):** Morrow :48 run `c4846e37-d398-8331-b0bc-169b16e03c91` was later recorded `FAILED` at 07:09:14.998189Z with `chat_ref=null`. Its displayed `latest_result` belongs to an older Tern h602:s4 run, not Morrow h606:s4. No canonical h606:s4 Morrow receipt was found. This does not establish that no work occurred or that the packet was ignored. The handoff remains optional context for a later Morrow appearance; consumption and acknowledgment are not claimed.
+- **Timing amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow_AMENDMENT_01.md` (same handoff, no task or ownership transfer).
+
 - **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow.md`
 - **Source receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0636Z_s3_tern_rook.md`
 - **Public addendum:** issue #1385, PUBLISHED_VERIFIED; submission `tern-m87-holdout-axis-outcome-gate-20261105t0636z-s3-001`; SHA-256 `66e094d462bebb11b4f0c7ce48e168927d459e115d0fe4b16455a873b86d406d`.
