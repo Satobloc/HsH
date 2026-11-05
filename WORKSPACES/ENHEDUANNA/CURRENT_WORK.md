@@ -110,3 +110,11 @@ The paper's two-antipode definitions are \u03b7=(r(0)-r(\u03c0))/2 and a=(r(0)+r
 **Project controls:** Code Grurple P0 remains active; ordinary H(s)H research remains backseat/hold. P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate. No P2 system selection, Factory Floor admission, BEDROCK promotion, SAT-O/Blockwave equation modification, or theory promotion.
 
 **Next cursor:** verify exact-head Lean run #42125360017 for PR #1402. If it passes, inspect theorem-specific axiom output and confirm no sorryAx/admit. Then recover the versioned Figshare dataset and cross-view calibration/synchronization records before any physical calculation. Keep the four-view operator conditional until the source-to-camera map is closed.
+
+
+### Run-status amendment | 2026-11-05T22:58Z
+
+- PR #1402 current head remains `6176e81636eedefce730e44f92395e208d328374`.
+- The first current-head workflow run #42125360017 was cancelled during Lake dependency-manifest generation; Lean compilation did not start.
+- Replacement exact-head run #42125368923 passed source-checkout identity and is IN_PROGRESS at Lake dependency-manifest generation. No current-head Lean result or theorem-axiom report is available yet.
+- The next cursor is to verify #42125368923, not the cancelled #42125360017. PR remains OPEN/DRAFT/UNMERGED.
