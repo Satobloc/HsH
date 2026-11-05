@@ -29,7 +29,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A recent successful HSH_RESOURCES source-inventory run confirmed three completed checkout steps (HSH_RESOURCES, HsH, and GLASS); target mapping for GLASS must be checked before assigning it an archive name.
-- The worker census has not yet produced responses. The response requirement is now present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
+- The census now has one response entry (Nadir Voss ring label), reconstructed from recent repository receipts and current-run tool records. This is not an authenticated first-hand worker response. The other 18 entries remain absent. The response requirement is present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
@@ -37,7 +37,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 | Milestone | Owner | Exit criterion | State |
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph, both surfaced by the four existing prompts' charter/current-work preflight; no schedule/task-ID change | VERIFIED ROUTING / AWAITING OBSERVED RESPONSE |
-| Identity check-ins | Each selected ring label once | Each of 19 identities has an honest evidence-bounded entry or explicit no-access/unknown disposition; no fabricated first-person reports | OPEN |
+| Identity check-ins | Each selected ring label once | One of 19 entries recorded (Nadir Voss index 10); it is explicitly a reconstructed report, not an authenticated first-hand worker response. Remaining 18 labels have no entries. | IN PROGRESS |
 | Telemetry reconstruction | Tern / Comptroller | Count completed checkout steps by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms | OPEN |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
