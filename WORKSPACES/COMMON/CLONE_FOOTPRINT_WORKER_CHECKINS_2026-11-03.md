@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — delivery path repaired 2026-11-05; 7/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, and Aldus; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
+**Status:** OPEN — delivery path repaired 2026-11-05; 8/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, and Calder; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
 
 ## Scope and scheduler context
 
@@ -84,7 +84,7 @@ For each mechanism, give an estimated count over the covered period and typical 
 
 ## Worker responses
 
-_Three reconstructed ring-label entries are recorded below; no authenticated first-hand worker-thread response has been verified._
+_Eight reconstructed ring-label entries are recorded below; no authenticated first-hand worker-thread response has been verified._
 
 
 ## Coordinator telemetry evidence — 2026-11-05 (not worker responses)
@@ -473,3 +473,52 @@ A direct update of the four relay prompts was attempted through the Automations 
 - High estimate: **UNKNOWN / unbounded from available evidence**, because cloud provisioning and uninspected Actions/workflows are not observable in this source slice.
 - Main assumptions and uncertainty: one completed `actions/checkout@v4` step equals one likely clone-producing event; post-checkout cleanup is not another event; project CI events are not attributed to a worker identity; API/file reads are not clones.
 - Evidence that would most improve the estimate: coordinator-wide enumeration of all Actions runs/jobs/attempts across the three repositories for 2026-10-19 through 2026-11-05, plus provisioning records for any pre-populated agent workspaces.
+
+
+### Calder (deterministic ring label, index 7; reconstructed report, not an authenticated worker) — 2026-11-05T17:00Z
+
+**Identity / provenance**
+- Worker identity and role: Calder ring label (index 7). Historical role is reconstructed as empirical angle-clustering, null-design, and independent-unit discipline from the 2026-09-12 CHECKINS entry. No standalone direct-authored specialist charter or authenticated historical Calder thread was recovered.
+- Report class: **RECONSTRUCTED FROM CURRENT-RUN TOOL RECORDS AND REPOSITORY RECEIPTS; NOT FIRST-HAND FROM AN AUTHENTICATED CALDER THREAD.**
+- Date range actually covered: 2026-11-02T13:00Z through 2026-11-05T17:00Z, partial. The preferred 2026-10-19 through 2026-11-01 interval is not covered by the records inspected for this entry.
+- Sources/logs inspected: Calder receipts 2026-11-02T1300Z and 2026-11-05T0148Z; this current h617:s0 run's GitHub connector and container records; HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES repository reads; PR workflow run/job logs #40606350913, #41758925555, and #41301288857.
+- Confidence: **HIGH** for the classification of this inspected run as API/connector activity rather than a local full clone; **LOW** for a period-wide count and any unseen cloud provisioning.
+
+**Repositories and environments**
+- Repositories accessed: HsH, SAT_THEORY_ARCHIVE_2023-25, HSH_RESOURCES.
+- Tools/backends used: GitHub connector/API search, file/blob fetch, PR metadata, workflow-run/job metadata and logs; container shell used only for bounded local path and executable checks.
+- One current container runtime was inspected. No HsH, SAT archive, HSH_RESOURCES, or Mersearch repository directory or `.git` directory was found in /mnt/data, /workspace, /workspaces, /home/oai/share, or /root. This is not an account-wide workspace census.
+- The container has Git installed, but this run did not execute `git clone`, `git fetch`, or `git pull`. Local `lean`, `lake`, and a Mersearch package/checkout were not found.
+- Credentials, IPs, egress identity, and ChatGPT/Work/Codex workspace provisioning are not visible; stability and pooling remain UNKNOWN.
+
+**Potential clone-producing operations**
+- Explicit `git clone` / shallow clone by this worker: **0 observed or initiated**.
+- GitHub Actions `actions/checkout`: three project-level merge-reference checkouts were observed in existing PR logs:
+  - PR #817, run #40606350913, job #122546704507, merge ref 1381d1c1c09cbe61e5a859811670b273a1c771e5.
+  - PR #873, run #41758925555, job #126341666752, merge ref 17f3275008decf55996e41f215cf2b03f4b40801.
+  - PR #262, run #41301288857, job #124832543107, merge ref 7c12dfffdff7e003ca7cb7a2bb00c3dabf59aac1.
+- These are likely clone-producing **project workflow events**, not worker-initiated clones and not attributable to the Calder ring label. Coordinator telemetry should deduplicate by repository, run, job, and attempt.
+- Cloud/Codex workspace provisioning with repository present: UNKNOWN; no provisioning logs were exposed.
+- Other verified clone-producing operation: none observed.
+- Estimated confirmed/likely clone events attributable to this worker in the inspected activity: **0**.
+- Estimated possible events including unknown provisioning: **UNKNOWN; no numeric bound is justified**.
+- Typical per-task or per-day rate: not established.
+
+**Non-clone repository activity**
+- Multiple GitHub API/connector searches, individual file and blob fetches, branch/commit/PR metadata reads, and Actions job-log reads across the three repositories.
+- Bounded container directory checks only. No archive download or local repository copy was performed.
+- API/connector reads and individual file/blob fetches are explicitly **not counted as full clones** on the available evidence.
+
+**Workflow and tool changes**
+- No new tool, workflow, branch, PR, or automation was introduced or materially changed by this run.
+- Existing Math Hopper material, Lean PRs, and Whirligig documentation were inspected for reuse. SciSpace is available as a connected app but was not needed for this internal source-fidelity task. No paid service or new dependency was used; cost incurred: $0.
+- No direct observation of another worker's personal clone behavior. The three Actions checkouts above are project-level telemetry only.
+
+**Best estimate**
+- Low: 0 confirmed/likely clone events attributable to this worker in the inspected activity.
+- Central: 0 for the inspected activity only; not a period-wide estimate.
+- High: UNKNOWN because unseen workspace provisioning cannot be inspected.
+- Evidence that would improve the estimate: complete per-repository Actions run/job/attempt inventory and account-level cloud workspace provisioning logs, reconciled by Tern against daily GitHub Traffic.
+
+**Coordinator note**
+- Before this append, the live worker log showed 7/19 ring-label entries; this entry makes 8/19. The separate census action plan still says 1/19, so that summary is stale. Tern owns the plan and cross-repository reconciliation; no plan or task-graph edit was made here.
