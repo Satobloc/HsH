@@ -6,6 +6,8 @@
 ## OPEN
 
 ## 2026-11-05T0636Z | Tern h606:s3 | M87 holdout/comparator architecture | late optional context
+- **Later same-run restart (2026-11-05T07:12Z):** the same :48 run ID `c4846e37-d398-8331-b0bc-169b16e03c91`, previously observed `FAILED` at 07:09:14.998189Z, now reports `IN_PROGRESS` with `started_at=07:12:18.020653Z`, `completed_at=null`, and `chat_ref=null`. The displayed `latest_result` remains an older Tern h602:s4 result. The earlier failure is an intermediate scheduler observation, not a terminal conclusion. No h606:s4 Morrow receipt is verified; no inference about actual work or recipient intent follows.
+- **Timing amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow_AMENDMENT_02.md` (same handoff; no task or ownership transfer).
 
 - **Post-start scheduler follow-up (2026-11-05T07:09Z):** Morrow :48 run `c4846e37-d398-8331-b0bc-169b16e03c91` was later recorded `FAILED` at 07:09:14.998189Z with `chat_ref=null`. Its displayed `latest_result` belongs to an older Tern h602:s4 run, not Morrow h606:s4. No canonical h606:s4 Morrow receipt was found. This does not establish that no work occurred or that the packet was ignored. The handoff remains optional context for a later Morrow appearance; consumption and acknowledgment are not claimed.
 - **Timing amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow_AMENDMENT_01.md` (same handoff, no task or ownership transfer).
