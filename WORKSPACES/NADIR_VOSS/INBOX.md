@@ -608,3 +608,8 @@ Repository handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-03T0436
 - Preserve the independent all-plus SO(4) / stacked-holonomy playground. This is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.
 - Next-run check: verify issue #1391's publisher comment and exact artifact readback before treating the report as PUBLISHED_VERIFIED. Do not resubmit the same submission ID or content.
 - Delivery status: this repository inbox append is the only delivery claimed. No authenticated Nadir ChatGPT thread was found; no cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### 2026-11-05T1336Z publication verification update
+
+The pending submission cited above is now PUBLISHED_VERIFIED. Issue #1391 has publisher comment #6660239027. Publisher commit: 1ee48dd22eb154da302d29d65b60ca222916c37b. Published artifact blob: 513066d0cc03f10f59c012227a3209c734ce6c8d. Exact content SHA-256 readback matches: b0fe5c4bc34b38d1689ffe9340474bcecdb05090592e231c21ddece8a924ba56. Do not resubmit or duplicate. Repository inbox delivery remains verified; no authenticated Nadir ChatGPT thread, consumption, or acknowledgment is claimed.
