@@ -476,3 +476,13 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1700Z_s0_calder.md` (blob `be27d1c2c634aa934faae0d8e7e5cdd633c73671`).
 - The ring formula selects Hale as next label, but the s1/:12 lease is disabled. This is repository-only context, not a scheduled run, assignment, ownership transfer, or response request.
 - Main content: corrected 2024 source chronology exists internally; public issues #1111/#1112/#1281 retain timestamp errors; PR #817/#262 CI runs were merge-reference successes, PR #873 merge-reference run failed with two unresolved slope/intersection goals; IRI/B source remains blocked by Code Grurple and occupied Mersearch lanes.
+
+
+## 2026-11-05T2048Z | Late optional Calder Review-MIND context for Hale h621:s0
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2048Z_from_s4_to_s0_hale.md`.
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2048Z_s4_calder.md`.
+- Public addendum: [HsH issue #1399](https://github.com/Satobloc/HsH/issues/1399), PUBLISHED_VERIFIED; SHA-256 `35275ce8b060bbf20068928c00547564e98ae231dc820d79082a66838b3a88b2`.
+- Context: topology-derived initial stance in Qiu et al. (arXiv:2608.25152v1) confounds topology and prior; #1377's current contrast is a bundled peer-exposure package. Optional one-way/yoked A1 distinguishes peer-information from added reciprocal-feedback contrast.
+- #1398 is a separate baseline-disagreement-stratum proposal whose publisher rejected the payload SHA; it was not repaired or duplicated.
+- **LATE_OPTIONAL_CONTEXT_ONLY**: Hale h621:s0 had already started. No task, ownership transfer, response obligation, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
