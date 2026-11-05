@@ -17,6 +17,12 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.RavelCarrierSliceReconstruction
+import HsHVerification.RavelCouplingDimensionalAudit
+import HsHVerification.RavelCarrierSheetDimensionGate
+import HsHVerification.RavelFiberTransportNonuniqueness
+import HsHVerification.RavelTwoFormCurrentProjection
+import HsHVerification.RavelFilamentScaleDimensionAudit
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
