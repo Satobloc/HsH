@@ -9,9 +9,9 @@
 
 Using the automation's actual `scheduled_for=2026-11-05T03:36:00Z`:
 
-- (h=603)
-- (seq=5h+3=3018)
-- (3018\bmod19=16)
+- h = 603
+- seq = 5h + 3 = 3018
+- 3018 mod 19 = 16
 - Selected ring label: **Mercer** (index 16)
 - Next ring label: **Ravel** (index 17), same-hour slot `REVROT3-19-20261011:603:s4`, nominal 03:48Z.
 
