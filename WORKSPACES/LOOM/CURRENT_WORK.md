@@ -41,3 +41,9 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - This card remains a worker-specific pilot, not a common standard. No public issue was created for the internal lateral-reading tag update.
 
 **Return pointers:** this card → `README.md` → `CHECKPOINT.md` and `CONTINUITY.md` → current task graph and run receipts → original source.
+
+
+## Late next-slot readback | 2026-11-05T23:38Z
+- The :36 Aster task had already started before the recipient handoff packet was written: run `1ee28095-3ca4-832b-87a6-7bbdcd293dc9`, scheduled 23:36Z, started 23:38:10.402142Z, `in_progress`, `chat_ref=null`.
+- Any h623:s2→s3 Aster packet is therefore **LATE_OPTIONAL_CONTEXT**, not timely delivery. Consumption and acknowledgment are unknown. The next deterministic Aster label in the full ring is h627:s2 at 2026-11-06T03:24:00Z if the current run does not consume it.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom_AMENDMENT_01.md`, blob `fab1a4c18f7cc5fb209526ac54dc4895d0d44290`.
