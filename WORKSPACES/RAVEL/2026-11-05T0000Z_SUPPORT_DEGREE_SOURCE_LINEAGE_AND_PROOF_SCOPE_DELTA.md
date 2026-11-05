@@ -57,9 +57,10 @@ The raw conversation is **🧶🧱SAT**, conversation ID `68c990dd-df28-832e-b76
 The attachment is assistant-voiced (“Here’s a single, compact action…”), has no embedded byline or creation date, and has unresolved embedded authorship. Do not classify it as Nathan Direct.
 
 - Attachment name: `🧱BLOCKWAVE.txt` (the conversation lists two similarly named Blockwave files).
-- Attachment SHA-256 recorded in the source-genealogy ledger: `3d393ef...` (full digest retained in that ledger).
-- HsH archive copy: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, blob SHA-1 `ffdb8a...`.
-- Exact J2 current-string SHA-256 recorded in the Loom source ledger: `1f4edaa...`.
+- Attachment SHA-256: `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
+- HsH archive copy: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, blob SHA-1 `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`.
+- The same raw conversation also lists a distinct `🧱BLOCKWAVE.txt.txt` attachment: SHA-256 `343149383d123dc39abf85faf39463e9a0f16a209daf717b8c5f8e4541dfa4f0`, Git blob SHA-1 `83305242ad6ec766bc77c82442bc59c96bbad203`. It is a separate artifact; it is not silently merged with the `.txt` attachment and was not used for the equation below.
+- Exact J2 current-string SHA-256: `1f4edaaeda6691caf331b0b760db642ec0314a69bad6e02095600820b9dd6cf5`.
 
 Verbatim current definition from the attachment:
 
@@ -261,7 +262,7 @@ No new Lean code or run was created. Local `lean`, `lake`, and `elan` executable
 - FIE last fully reviewed 2026-10-27; next review due 2026-11-10.
 - Unrelated reading break: *TheTANGLE*, 30SEP26 dump, lines 1401–1440. Return cursor 1441. This was a deliberate topic break; a physical movement break is not performable by this runtime.
 - The :48 Mercer predecessor run was still in progress when this run began and subsequently recorded a failure. No current predecessor handoff or acknowledgment is claimed.
-- Next ring label is Orson Vay. His protected P1 cognition allocation remains untouched; no physics task, response obligation, or ownership transfer is assigned. Existing optional repository context is sufficient; no duplicate handoff packet was created.
+- Next ring label is Orson Vay. His protected P1 cognition allocation remains untouched; no physics task, response obligation, or ownership transfer is assigned. No new handoff packet was created; no physics assignment or cross-thread delivery is claimed.
 
 **Next research cursor:**
 
