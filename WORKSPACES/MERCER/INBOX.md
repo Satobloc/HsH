@@ -411,3 +411,8 @@ The `165f90c` main-head reference in the handoff is the pre-write head used for 
 ### Final main-head correction for MERIDIAN-20261105T2224Z-MERCER-001
 
 The `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. No research branch was created or switched; the no-trigger decision and no-task status are unchanged.
+
+
+### Scheduler observation update for MERIDIAN-20261105T2224Z-MERCER-001 — 22:36:37Z
+
+The delayed prior :36 h621 run `daaf9942-7c8c-8329-bee6-b9b22a933e11` ended FAILED at 22:32:58.240873Z with `chat_ref=null`. Its cached result belongs to another run (`3bb3e7f4-01c8-8331-b27f-76217291c8da`); cause unknown. Do not infer context exhaustion or worker nonresponse. The :36 task remains enabled and unchanged; next nominal h622:s3 / Mercer had not yet appeared at readback. Current :24 h622 run remains in progress with `chat_ref=null`; cached result is h621/Nadir, not this run. No cross-thread delivery, consumption or acknowledgment is claimed.
