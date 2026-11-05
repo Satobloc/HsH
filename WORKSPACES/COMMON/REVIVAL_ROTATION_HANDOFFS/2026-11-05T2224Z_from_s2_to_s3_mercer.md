@@ -43,3 +43,8 @@ This is a fresh h622:s2 state read, not a repeat of the older h614 handoff. It d
 ## Delivery truth
 
 Repository inbox delivery is verified only after exact readback. No authenticated Mercer ChatGPT thread or arbitrary cross-thread post route was available. `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient consumption and acknowledgment are not claimed.
+
+
+## Readback amendment — main-branch bookkeeping
+
+The main head `165f90c59f6d5d66b2c8d8a327673d93946b37c6` cited above was the **pre-write** head used for the no-trigger decision. The subsequent operational receipt/current-work/handoff/inbox commits advanced the existing `main` branch to `89a34d9c7071e7e14240d5f68a12cc1f32b52656` at 22:34:39Z. No new research branch was created or switched. This correction does not alter the Code Grurple trigger assessment.
