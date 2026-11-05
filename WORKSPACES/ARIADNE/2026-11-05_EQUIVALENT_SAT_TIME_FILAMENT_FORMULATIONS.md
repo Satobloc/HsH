@@ -121,6 +121,17 @@ This two-choice organization is an Ariadne reconstruction to keep the source dis
 - GitHub indexed search was used for this recovery pass. Mersearch was not available as a callable connected tool in this session; this is not an exhaustive Mersearch/archive search and no absence claim is made.
 - The current user's 2026-11-05 clarification is direct authority for the five-way equivalence and the corrected name of the fifth formulation.
 
+
+## Adjacent source leads: Bosonic Time, Temporons, and Forest Normalization
+
+A first indexed search finds a substantial adjacent Bosonic Time / Temporon branch. It should be investigated after the five-formulation source genealogy, not silently folded into it:
+
+- Archive extraction `_AUTO_EXTRACTED_TEXT/BOSONIC_TIME.txt`, blob `0679fa07b49dff60724da12b7e9096136fb9a806`, extracts `BOSONIC_TIME.pdf` (source SHA-256 `b6ec47e6ff064fb38b60af0cfe1f90a887babfc0394b0eb4ed435036d8b528b7`). Its extraction metadata says requested by Ravel / ChatGPT on 2026-09-10. The document formalizes a dynamical time-flow vector `u^μ` and names its fluctuations `δu^μ` “Temporons.” This is a formalized derivative source, not yet an authenticated Nathan-primary statement.
+- Archive `SATOBLOCK_lumped/BOSONIC TIME AND TWO GRAVITIES.txt`, blob `bbc868efd38c38ba4710f82da1246f60d053aaa2`, is a long mixed-source transcript with substantial assistant-authored claims. It requires role/source stratigraphy before any claim is promoted from it.
+- The current HsH Forest/time-history addendum `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-forest-ravel-addendum-20261105t0024z-s0-002.md`, blob `3ecb9857f7a2d0ced7a7fe8a88dcbd545d76d419`, identifies the raw 2026-10-20/21 conversation and direct user-message IDs for Forest Normalization. It records a 2026-11-04 clarification that Forest Normalization is a viewing/orientation convention around a maximally symmetric axis, while its exact algorithm, invariants, axis-selection rule and uniqueness conditions remain to be recovered. Do not conflate this with the separate “The Forest: Physical Information Has a Path” graph project.
+
+These leads may connect to the allocation spectrum and timewave representation, but no such connection is established by this search pass. The Forest addendum also records that a prior reciprocal filament↔timesheet description was retired when the Klein Fabric model became common; preserve that chronology rather than assuming every older mutual-distortion description remains current.
+
 ## Next bounded recovery steps
 
 1. Recover raw role-tagged source conversations behind NEOSAT 2025 and SAT REDISCOVERY; preserve message IDs, dates, speaker roles, and adjacent context.
