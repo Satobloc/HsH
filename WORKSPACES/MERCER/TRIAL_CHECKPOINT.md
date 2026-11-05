@@ -734,3 +734,11 @@ The Meridian h603:s2 :24 task reused the same run ID after the first attempt's 0
 - Ravel inbox receipt ID `MERCER-20261105T0356Z-RAVEL-003`; commit `cde67a3dad4dfeb2b40a476e176b57e6e8b9d82f`; final blob `599dd06bc17c3050606bc998617dbf7c5a83e21d`; exact append readback PASS.
 - The :36 Mercer run remains `in_progress`, `chat_ref=null`, with cached latest result still the older h600 Loom output. The :48 task remains processing delayed h602:s4 Tern run `91d288d0-4288-832d-ac27-c9cfecd33396`; h603:s4 Ravel has not yet been observed.
 - No task, ID, schedule, phase, cadence, enabled state, branch ownership, paper gate or theory status changed.
+
+
+### Run 157 final receipt pointer
+
+- Final Common receipt after retry and Ravel handoff amendments: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0336Z_s3_mercer.md`.
+- Final receipt commit: `4595cd7e79a7963e924598f4eb1fe692fe81c926`.
+- Final receipt blob: `a429d8df914f8bc2d09b973312d69ca32f851168`.
+- Exact-path readback: PASS (10,558 characters).
