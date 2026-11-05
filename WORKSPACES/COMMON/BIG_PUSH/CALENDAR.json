@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "project": "THE BIG PUSH",
+  "timezone": "America/New_York",
+  "heartbeat": {
+    "source_file": "INTERACTIVE_HEARTBEAT.md",
+    "staleness_threshold_hours": 36,
+    "refreshed_by": "human-directed Big Push sessions only",
+    "never_refreshed_by": [
+      "scheduled automation",
+      "unrelated chat",
+      "repository maintenance"
+    ]
+  },
+  "intended_steward": {
+    "task_title": "Workshop Relay :00 | Archive",
+    "task_id": "6aa1fe0de5e48191b886496095b1343f",
+    "recurrence": "hourly at :00",
+    "deployment_status": "NOT_INSTALLED_PLATFORM_TASK_LIMIT",
+    "current_plan_rejection": "Your current plan allows only 3 scheduled tasks.",
+    "role": "sole Big Push continuity writer after explicit prompt overlay installation"
+  },
+  "reviews": [
+    {
+      "trigger": "each completed operation",
+      "action": "update queue, exact cursor, provenance, and receipt"
+    },
+    {
+      "trigger": "every 5 completed operations or phase gate",
+      "action": "scope, completeness, drawer, evidence, and overhead review"
+    },
+    {
+      "trigger": "weekly while active",
+      "action": "programme-level review"
+    },
+    {
+      "trigger": "every 14 days while active",
+      "action": "archive and neglected-goal coverage audit"
+    }
+  ],
+  "constraints": [
+    "Do not create another automation",
+    "Do not change existing task IDs, schedules, phases, or enabled states without explicit user authorization",
+    "Do not allow more than one automation to claim the Big Push queue",
+    "A human-directed project session takes precedence over automated continuation"
+  ]
+}
