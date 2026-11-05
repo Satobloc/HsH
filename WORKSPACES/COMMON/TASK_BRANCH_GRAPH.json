@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-05T10:58:05Z",
+  "updated": "2026-11-05T11:03:38Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -682,8 +682,8 @@
         "One of 19 ring-label entries exists and is reconstructed, not authenticated first-hand; 18 labels remain.",
         "Cloud workspace provisioning and any pre-populated clone mechanism remain UNKNOWN."
       ],
-      "last_material_state": "One reconstructed Nadir ring-label entry is recorded. Two directly inspected Actions runs now provide four completed checkout events: HsH=2, HSH_RESOURCES=1, SAT_THEORY_ARCHIVE_2023-25=1. HSH_RESOURCES run #41592883527/job #125773422547 checks out all three repositories; exact workflow YAML resolves GLASS to the SAT archive. Nadir PR #1189 run #41927513429/job #126915668961 includes a separate HsH checkout. This remains a small sample, not a period-wide estimate or worker-authenticated survey.",
-      "next_cursor": "Tern consumes the coordinator packet/amendments, expands Actions inventory by repository/run/job/attempt/day from Oct 19 onward, checks Pages and other explicit clone mechanisms, then compares the event ledger against daily Traffic. Continue the one-per-identity ring survey; 18 labels remain without entries. :48 Review supplies independent QC.",
+      "last_material_state": "One reconstructed Nadir ring-label entry is recorded. Two directly inspected Actions runs now provide four completed checkout events: HsH=2, HSH_RESOURCES=1, SAT_THEORY_ARCHIVE_2023-25=1. HSH_RESOURCES run #41592883527/job #125773422547 checks out all three repositories; exact workflow YAML resolves GLASS to the SAT archive. Nadir PR #1189 run #41927513429/job #126915668961 includes a separate HsH checkout. This remains a small sample, not a period-wide estimate or worker-authenticated survey. Issue #1315 now has four coordinator comments. Two coordinator handoffs and amendments are verified in Tern's repository inbox; the intended h610:s2 run had already started and remains IN_PROGRESS with chat_ref=null, so consumption is unverified. The action plan's stale zero-comment snapshot has been corrected.",
+      "next_cursor": "Verify whether Tern consumes the h610:s2 inbox packet; otherwise preserve the packet for h629:s2 at 2026-11-06T05:24Z. Expand Actions inventory from the current four-event/two-run sample across Oct 19-Nov 5, inspect Pages, and compare with daily Traffic. Continue one evidence-bounded entry per selected ring label; 18 remain.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
     },
