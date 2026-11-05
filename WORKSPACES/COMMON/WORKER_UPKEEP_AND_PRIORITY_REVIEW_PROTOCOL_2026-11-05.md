@@ -112,7 +112,7 @@ Where useful, save dated machine-readable snapshots of ranked candidates and a s
 
 ## 8. Initial deployment and adoption test
 
-This protocol is to be appended to the four existing enabled Workshop Relay prompts (:00, :24, :36, :48), without altering their specialist lane charters or schedule fields. Each activation runs the lightweight scan; the rolling deep sweep is due every five completed activations.
+The live Steering Charter contains this protocol and the census-specific action; the four existing enabled relay prompts already require workers to read that charter before work. A direct prompt-text update was attempted but the Automations service rejected all four updates because the account plan allows only three scheduled tasks. No recurrence, ID, schedule, phase, or enabled state was changed. Until a prompt-edit route is available, the mandatory delivery route is the live Steering Charter plus active task-graph branch, both surfaced through the existing prompt's charter/current-work preflight. Each activation runs the lightweight scan; the rolling deep sweep is due every five completed activations.
 
 Adoption is provisional until receipts show:
 - at least one actual upkeep scan per activation;
