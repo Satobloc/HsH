@@ -678,11 +678,12 @@
       ],
       "dependencies": [],
       "blockers": [
-        "One of 19 ring-label entries exists and is reconstructed; 18 entries remain absent and no authenticated first-hand worker-thread response is verified.",
-        "Period-wide completed-checkout count, GLASS target mapping, Pages contribution and cloud workspace provisioning remain to be reconstructed."
+        "Only two Actions runs have been enumerated into the checkout sample; period-wide Actions/Pages history remains incomplete.",
+        "One of 19 ring-label entries exists and is reconstructed, not authenticated first-hand; 18 labels remain.",
+        "Cloud workspace provisioning and any pre-populated clone mechanism remain UNKNOWN."
       ],
-      "last_material_state": "First ring-label entry is Nadir Voss, explicitly reconstructed from receipts; latest evidence now includes one confirmed completed HsH Actions checkout step in PR #1189 run #41927513429/job #126915668961. This is workflow-level likely clone-producing evidence, not a worker-initiated local clone or authenticated worker response. HSH_RESOURCES source-inventory run separately has three confirmed checkout steps including unresolved GLASS target. Census remains 1/19 entries; other labels and period-wide telemetry remain open.",
-      "next_cursor": "Tern consumes the current coordinator packet/amendment if still available; deduplicate HsH run #41927513429/job #126915668961/attempt 1; inspect all Actions checkout steps by repo/run/job/attempt/day and verify GLASS target from source-inventory YAML. Continue selected ring check-ins and compare against daily Traffic; :48 Review provides independent QC.",
+      "last_material_state": "One reconstructed Nadir ring-label entry is recorded. Two directly inspected Actions runs now provide four completed checkout events: HsH=2, HSH_RESOURCES=1, SAT_THEORY_ARCHIVE_2023-25=1. HSH_RESOURCES run #41592883527/job #125773422547 checks out all three repositories; exact workflow YAML resolves GLASS to the SAT archive. Nadir PR #1189 run #41927513429/job #126915668961 includes a separate HsH checkout. This remains a small sample, not a period-wide estimate or worker-authenticated survey.",
+      "next_cursor": "Tern consumes the coordinator packet/amendments, expands Actions inventory by repository/run/job/attempt/day from Oct 19 onward, checks Pages and other explicit clone mechanisms, then compares the event ledger against daily Traffic. Continue the one-per-identity ring survey; 18 labels remain without entries. :48 Review supplies independent QC.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
     },
