@@ -77,3 +77,8 @@ The next nominal :00 occurrence, Mercer h615:s0, began after the repository hand
 ### Bookkeeping correction — h622:s2
 
 The preceding run-update phrase “no ... branch/task change” should be read as “no research-branch or task-routing change.” The existing `main` branch advanced through the operational receipt, current-work, handoff and inbox commits; no new research branch was created or switched. Final observed operational commit: `89a34d9c7071e7e14240d5f68a12cc1f32b52656`.
+
+
+### Final main-head correction — h622:s2
+
+The `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. This supersedes the earlier use of “final observed operational commit” for `89a34d9c`. No research branch was created or switched.
