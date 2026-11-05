@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-05T10:50:45Z",
+  "updated": "2026-11-05T10:58:05Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -678,11 +678,11 @@
       ],
       "dependencies": [],
       "blockers": [
-        "No census responses are recorded yet; the Steering Charter/task graph delivery route is installed but subsequent worker action must be verified.",
+        "One of 19 ring labels has a reconstructed report; the other 18 labels have no response sections yet. No authenticated historical worker thread was established for the first report.",
         "Period-wide completed-checkout counts and Pages contribution remain to be reconstructed."
       ],
-      "last_material_state": "Issue #1315 and its log previously lacked a delivery route. The request is now embedded in the live Steering Charter, which the four existing relay prompts already require workers to read; the branch and action plan establish Tern coordinator ownership. Direct prompt-text edits were rejected by the Automations plan limit (three scheduled tasks) and no scheduler configuration was changed. No check-in response is claimed yet.",
-      "next_cursor": "Each activation computes the selected ring label from its unchanged prompt formula and checks the log. If missing, add one source-bounded check-in, labelled first-hand/log-reconstructed/unknown. Tern reconciles Actions by repo/run/job/attempt/day and daily Traffic; review at five new entries or five actual activations. :48 provides independent QC.",
+      "last_material_state": "Delivery repair has been installed in Steering Charter/task graph. First ring-label response appended and readback verified for Nadir Voss (index 10), but it is a source-grounded reconstruction from receipts, not a first-hand authenticated worker response. Count: 1/19 entries; zero authenticated worker-thread check-ins. Telemetry reconstruction remains open under Tern coordination.",
+      "next_cursor": "Continue one check-in per selected ring label at actual activations; label evidence as first-hand/log-reconstructed/unknown. Coordinator Tern begins telemetry reconstruction and verifies completed checkout steps by repository/run/job/attempt/day; review progress after each five entries or five actual activations. :48 provides independent QC.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
     },
