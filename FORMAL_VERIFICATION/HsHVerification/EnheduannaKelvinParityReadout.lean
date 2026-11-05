@@ -82,9 +82,7 @@ theorem finiteAntipodalReadout_formula (a₀ : ℝ) (modes : Finset ℕ)
   rw [finiteFourierProfile_zero, finiteFourierProfile_pi]
   ext
   · simp [observe, displacement, oddParityAggregate]
-    ring
   · simp [observe, coreRadius, evenParityAggregate]
-    ring
 
 /-- The two antipodal samples are blind to every sine-quadrature coefficient.
 Changing B while keeping A fixed leaves both readout channels unchanged. -/
@@ -92,7 +90,7 @@ theorem finiteAntipodalReadout_sineCoefficients_invisible
     (a₀ : ℝ) (modes : Finset ℕ) (A B₁ B₂ : ℕ → ℝ) :
     finiteAntipodalReadout a₀ modes A B₁ =
       finiteAntipodalReadout a₀ modes A B₂ := by
-  rw [finiteAntipodalReadout_formula, finiteAntipodalReadout_formula]
+  simp [finiteAntipodalReadout_formula]
 
 #print axioms finiteAntipodalReadout_formula
 #print axioms finiteAntipodalReadout_sineCoefficients_invisible
