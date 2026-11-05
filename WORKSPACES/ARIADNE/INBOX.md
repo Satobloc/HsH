@@ -509,3 +509,17 @@ The September 18 cross-scale statement locator and October 29 conditional-gravit
 Source-level reachability boundary, not a PR edit or task transfer. At PR head `163ab3e71c69d49dcde62da7401a3cac2a8a4976`, `ClaimLineageEvidence` carries `sharedCore`, `disjointPrimaryOrigins`, and `primaryOriginsComplete`, but no positive content-disjointness witness or audited-scope coverage field. `classifyAxes` maps `some sharedCore` to `.sharedCore` and `none` to `.unknown`; it never emits `.disjointInAuditedScope`. Therefore `strongIndependentSupport (classifyAxes e)` is unreachable from the current canonical evidence input. This is fail-closed, not a false positive: absence of a shared-core witness remains unknown, not independent. If future evidence should establish positive content disjointness, add an explicit claim-scoped disjoint-content witness plus completeness/coverage provenance, separate from primary-origin completeness.
 
 A candidate invariant is `(classifyAxes e).content ≠ .disjointInAuditedScope`; this is source-derived only and **NOT Lean-compiled**. PR #790's current exact-head run #41841721601 failed; existing issue #1353 already records the build failures, so no duplicate issue was opened. No code, branch, checkpoint, ownership, or paper-gate change was made. Repository inbox note only; no authenticated thread delivery or acknowledgment is claimed.
+
+
+### ASTER-REVROT-20261105T0824Z-ARIADNE-CURRENTWORK-PILOT-001 | Aster worker-card pilot and source-boundary context
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0824Z_from_s2_to_s3_ariadne.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0824Z_s2_aster.md
+- Aster navigation pilot: WORKSPACES/ASTER/CURRENT_WORK.md and WORKSPACES/ASTER/NEW_INSTANCE_START_HERE.md. These are assistant-curated worker-specific navigation cards, not a common standard, historical charter, or proof of identity continuity.
+- Historical Aster source: conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. Nathan Direct source-fidelity question: d15369d1-1412-4f4a-9460-702d2de573ea. Historical Paper A assignment: 01505af7-37cd-491f-a951-1822934e36ff. Current Code Grurple state freezes Aster's formal Paper A review.
+- :24 H(s)H generation / worldtube / CODATA lane remains BACKSEAT / HOLD while Code Grurple is active. No P2 measured system is selected.
+- IRI raw role graph and referenced original file remain unresolved. Keep IRI B, BR-006 B(t), historical B=3/(4π), and assistant-generated B≈0.2387 rad distinct. Four Mersearch lanes remain occupied; no Mersearch run or new request is claimed.
+- Existing PR #1220 remains OPEN / DRAFT / UNMERGED. Its CI build verifies only the conditional scalar-isometry Lean statements on a PR merge reference, not the H(s)H generator or a physical mass model.
+- Freshness reading: Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216, lines 1201-1300. Next cursor 1301. Useful institutional point: specialist division of labour requires public records, open discussion, and accountability.
+- Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Ariadne's Kirk/Riley and source-archaeology remits remain primary.
+- Delivery: repository inbox only. This append does not establish ChatGPT-thread delivery, consumption, or acknowledgment. The packet is late relative to the nominal recipient slot; consumption by that occurrence is unknown.
