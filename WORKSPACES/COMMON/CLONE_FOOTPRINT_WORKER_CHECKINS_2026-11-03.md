@@ -330,7 +330,7 @@ A direct update of the four relay prompts was attempted through the Automations 
 - SciSpace and web reads were scholarly discovery/source inspection, not repository clones.
 - Git fetch/pull outside Actions: none observed.
 - Archive downloads: none.
-- One append-only update to this shared operational census log is the only repository write made by this execution. No worker-local checkpoint, private inbox, issue, or PR was modified.
+- The append-only update to this shared operational census log and the separate operational-only rotation receipt are the only repository writes made by this execution. No worker-local checkpoint, private inbox, issue, or PR was modified.
 
 **Workflow and tool changes**
 - No new tool, dependency, subscription, branch, PR, or Actions run was created.
