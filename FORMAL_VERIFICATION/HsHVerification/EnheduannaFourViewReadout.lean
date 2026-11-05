@@ -132,7 +132,7 @@ theorem fourViewModeReadout_one_three_eq_iff_signal_zero
         (φ + 3 * Real.pi / 2)
     rw [h3, antipodalModeReadout_one_formula,
       antipodalModeReadout_one_formula] at h90'
-    have hcos := congrArg Prod.fst h90
+    have hcos := congrArg Prod.fst h90'
     rw [cos_add_pi_div_two, cos_add_three_pi_div_two] at hcos
     nlinarith
   · intro h
