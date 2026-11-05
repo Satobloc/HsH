@@ -481,3 +481,15 @@ The existing entry `TERN-REVROT-20261104T1524Z-MORROW-001` already existed in th
 - Linked receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T1524Z_s2_tern_rook_AMENDMENT_01.md`, blob `dd4c3b88b344500c90948fad33cc9e32082f2434`.
 
 Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR / CHAT_DELIVERY_UNAVAILABLE / CONSUMPTION_UNVERIFIED`. At the 16:14Z scheduler readback, the :36 task still showed the completed prior h590/Hale run; the h591:s3 Morrow run was not yet visible. No worker nonresponse is inferred. No task, review request, response obligation, ownership transfer, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-05 | Tern h602:s4 Review-MIND addendum | late optional context
+
+- Handoff ID: `TERN-REVROT-20261105T0248Z-MORROW-001`
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0248Z_from_s4_to_s0_morrow.md`
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0248Z_s4_tern_rook.md`
+- Public addendum: HsH issue #1380, PUBLISHED_VERIFIED; exact artifact readback and SHA-256 verified.
+- Optional substance: separate selection, execution, result attribution, repository delivery, recipient consumption, and ChatGPT-thread delivery in the provenance graph; the existing Kestrel fiber-factorization theorem proves a set-theoretic decoder only on an explicit admissible-history domain and uses `Classical.choice`, so it does not provide an executable decoder.
+- The operational trace does not establish cognition, consciousness, causal influence, or a human-subject result. Queue delay, retries, stale snapshots, and timebase effects remain alternative explanations.
+
+**Classification:** `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Preserve Morrow's Team Archivist/archive-provenance remit and direct theory stop. This is a repository inbox append only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
