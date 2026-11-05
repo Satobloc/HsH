@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-05T06:55:03Z",
+  "updated": "2026-11-05T10:50:45Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -19,7 +19,9 @@
     "2026-11-04 Orson h592:s3 refreshed only the P1 cognition node from the frozen P1 protocol, VEY-028 source note, existing PR #850 and live Actions status. Other branch nodes were not re-audited by this update. No P1 gate advancement.",
     "2026-11-04 Orson h592:s3 CI correction: first PR #850 merge-reference run failed in the new module; the two noncomputable contrast definitions and four already-closed rewrite goals were repaired on the existing branch. Replacement run #41871626742 is pending. This is not a P1 paper-gate pass.",
     "2026-11-04T17:17:06Z Sable h592:s4 supersedes the earlier pending status for Orson run #41871626742: job #126719953314 completed SUCCESS on merge-reference commit 317b00386762038dcd74a0171a80e1925e258ced (parents: PR base 598a45... and head 872a5dd3f6a65c878f7392ec86be9c2641cc6245). Full root build 8,978 jobs; target module 8,927/8,978; seven theorem-specific #print axioms outputs each [propext, Classical.choice, Quot.sound]; no sorryAx/admit string in the log. Tests, lint, nanoda and separate axiom audit skipped. Same-head push run #41871615726 had zero jobs and was not Lean verification. Exact-head-only Lean build remains unverified; PR #850 remains draft/open/unmerged; P1 gate remains NOT READY. Orson retains ownership of VEY-028 and existing issue #1334.",
-    "2026-11-04T20:46:36Z Sable ring selection / current-assistant execution (not authenticated historical Sable participation): published issue #1364 PUBLISHED_VERIFIED, submission workshop-relay-geometry-memory-medium-discriminator-20261104t2036z-s3-001, artifact blob b4780ad5900506fd9b359353a780d4925b535a39, SHA-256 947fdf26f964e025e8c8dd9b4f588ec0fc8d879fdea93697628ce5ba3e7ffe3e, publisher comment #6641694911, exact issue-payload/artifact content match PASS (12,504 UTF-8 bytes). New P2 model-comparison bridge separates source-defined geometry response, derived coarse-graining memory, and independently measured medium response using orthogonal geometry/history/medium contrasts; combined model allowed only if contributions are separately identifiable. Monroy SSRN 7398357 remains an unreviewed, no-data comparator; its interface is a variational partition, not necessarily a material contact surface. No P2 system selection, raw data, fit, prediction, holdout, physical calculation, new Lean theorem, or Factory Floor admission. Existing Kestrel factorization theorem remains conditional; PR #873 full build is not green. All four Mersearch request lanes remain occupied/unverified; no new request or overwrite. No BEDROCK, SAT-O, or Blockwave change; no theory promotion."
+    "2026-11-04T20:46:36Z Sable ring selection / current-assistant execution (not authenticated historical Sable participation): published issue #1364 PUBLISHED_VERIFIED, submission workshop-relay-geometry-memory-medium-discriminator-20261104t2036z-s3-001, artifact blob b4780ad5900506fd9b359353a780d4925b535a39, SHA-256 947fdf26f964e025e8c8dd9b4f588ec0fc8d879fdea93697628ce5ba3e7ffe3e, publisher comment #6641694911, exact issue-payload/artifact content match PASS (12,504 UTF-8 bytes). New P2 model-comparison bridge separates source-defined geometry response, derived coarse-graining memory, and independently measured medium response using orthogonal geometry/history/medium contrasts; combined model allowed only if contributions are separately identifiable. Monroy SSRN 7398357 remains an unreviewed, no-data comparator; its interface is a variational partition, not necessarily a material contact surface. No P2 system selection, raw data, fit, prediction, holdout, physical calculation, new Lean theorem, or Factory Floor admission. Existing Kestrel factorization theorem remains conditional; PR #873 full build is not green. All four Mersearch request lanes remain occupied/unverified; no new request or overwrite. No BEDROCK, SAT-O, or Blockwave change; no theory promotion.",
+    "Nathan Direct 2026-11-05: standing worker upkeep is required on every actual activation, with a deeper open-work sweep at least every five completed activations. For any requested worker response, issue/log creation alone is not delivery; ensure prompt or addressed handoff routing, an owner, response destination and follow-up checkpoint. See WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md.",
+    "Priority hierarchy update 2026-11-05: P0 emergency/control; P1 core theory and protected fixed-date milestones; P2 Whirligig plus explicitly time-bounded high-value operational investigations such as clone-footprint census; P3 general LLM cognition and general provenance/archival; P4 discretionary/lateral; UNCLASSIFIED when unsupported. Active campaign gates and specialist ownership remain protected."
   ],
   "allowed_status": [
     "candidate",
@@ -651,6 +653,64 @@
         "current_svg": "MAP_GAP/PROVENANCE DIAGRAM ONLY; NOT AN M87 GEOMETRY PLOT",
         "factory_floor_eligibility": "BLOCKED"
       }
+    },
+    {
+      "id": "CLONE-FOOTPRINT-CENSUS-2026-11-03",
+      "title": "Worker survey and internal GitHub clone-traffic reconciliation",
+      "kind": "operational_investigation",
+      "status": "active",
+      "parent": null,
+      "children": [],
+      "origin": "Existing HsH issue #1315 (2026-11-03); Nathan Direct 2026-11-05 delivery/follow-up and priority instruction.",
+      "intent": "Estimate the project's internal contribution to GitHub clone traffic from one honest evidence-bounded check-in per distinct ring label plus actual Actions/Pages/workspace telemetry; reconcile against daily Traffic with uncertainty. Keep clone events, unique-cloner counts, API/file reads and provisioning-unknown cases separate.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/COMMON/CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md; issue #1315; WORKSPACES/COMMON/CLONE_FOOTPRINT_WORKER_CHECKINS_2026-11-03.md",
+      "priority": "P2",
+      "priority_rationale": "Time-bounded operational investigation; current unanswered question has an outstanding response gap and independent telemetry path.",
+      "owner_instance": "Tern",
+      "candidate_instances": [
+        "Aster",
+        "Loom",
+        "Morrow",
+        "Kestrel",
+        "Mercer",
+        "all selected ring labels for one check-in each"
+      ],
+      "dependencies": [],
+      "blockers": [
+        "No worker check-ins are recorded yet; prompt delivery has now been added but subsequent responses must be verified.",
+        "Period-wide completed-checkout counts and Pages contribution remain to be reconstructed."
+      ],
+      "last_material_state": "Issue #1315 and its check-in log existed without a delivery path, owner or follow-up trigger. This failure is being repaired by embedding the one-time check-in in all four enabled relay prompts, recording the branch here, and assigning Tern coordinator ownership. No survey response is claimed until an actual log entry is read back.",
+      "next_cursor": "At every relay activation, the selected ring label checks the log and appends one honest evidence-bounded response if absent. Tern reconciles worker entries with actual Actions run/job/checkout steps and daily Traffic, with independent :48 review. Review after each five new entries or five actual activations. Close only with a low/central/high internal estimate, residual range, limitations and unresolved unknowns.",
+      "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
+      "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md"
+    },
+    {
+      "id": "WORKFLOW-UPKEEP-PRIORITY-2026-11-05",
+      "title": "Standing worker upkeep, action plans, and dynamic priority review",
+      "kind": "control_plane",
+      "status": "active",
+      "parent": null,
+      "children": [],
+      "origin": "Nathan Direct 2026-11-05.",
+      "intent": "Make lightweight backlog/to-do upkeep mandatory at each actual worker activation, a deeper open-work review every five completed activations, and durable action plans plus deterministic scripted triage the default for material multi-step goals.",
+      "repository": "Satobloc/HsH",
+      "primary_surface": "WORKSPACES/COMMON/WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md; ACTION_PLAN_TEMPLATE_2026-11-05.md; task_upkeep_triage.py; Steering Charter",
+      "priority": "P2",
+      "priority_rationale": "Cross-cutting operating-system improvement that prevents orphaned work and priority drift without displacing P0/P1 commitments.",
+      "owner_instance": "Tern",
+      "candidate_instances": [
+        "all enabled relay lanes"
+      ],
+      "dependencies": [],
+      "blockers": [
+        "Adoption is not yet demonstrated; verify subsequent worker receipts and the first five-activation deep sweep."
+      ],
+      "last_material_state": "Protocol, reusable action-plan template and read-only triage script created. Next step is live prompt integration and adoption testing.",
+      "next_cursor": "Verify the four existing relay prompts include the protocol, then audit the first five completed worker activations for an actual upkeep scan and perform the first deeper open-work sweep. Record changes and no-change decisions with reasons.",
+      "exit_criterion": "The four active relays execute lightweight upkeep each activation; a deeper review occurs at least every five actual activations; action plans and scripted triage are used for material multi-step goals; no protected work is displaced.",
+      "return_route": "WORKSPACES/COMMON/WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md"
     }
   ],
   "branch_count": 16
