@@ -28,7 +28,7 @@ variable {G P : Type*} [Group G] [MulAction G P]
 
 /-- A scalar field on participants is invariant under the chosen group action. -/
 def ActionInvariant (f : P → ℝ) : Prop :=
-  ∀ g x, f (g • x) = f x
+  ∀ (g : G) (x : P), f (g • x) = f x
 
 /-- A finite positive atomic measure, represented by its point weights. -/
 structure FiniteAtomicWeight where
