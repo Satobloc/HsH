@@ -9,10 +9,17 @@ camera map for the Nature Physics experiment.
 
 Assumption: two calibrated antipodal radial pairs sample one common
 azimuthal coordinate at 0 and π/2, synchronized at the same (z,t) and
-expressed in one azimuthal frame. The source paper says that two orthogonal
-cameras were used to establish the counter-rotating character of the m=1
-mode, but the retrieved source does not establish that those cameras implement
-these four radial samples.
+expressed in one azimuthal frame.
+
+Source boundary: the paper's Methods identifies an optical camera
+(Basler acA2040-120um, 2064 × 1564 px) positioned normal to the vortex axis,
+then says videos were captured with two lenses (8 mm wide-angle and 12 mm
+small-angle) to provide complementary views. The Results separately says
+"two orthogonal cameras" were used to evidence counter-rotating m=1 waves.
+The inspected Methods text does not identify a second camera body, its pose,
+synchronization/calibration, or whether the two lens configurations were
+simultaneous. This source-level discrepancy remains unresolved. In particular,
+it does not establish four synchronized cardinal radial samples.
 
 The second pair is composed explicitly as the original antipodal readout
 with the mode-dependent phase shift φ ↦ φ + mπ/2. Under this conditional
@@ -98,8 +105,9 @@ lemma cos_add_pi_div_two (x : ℝ) :
 
 lemma cos_add_three_pi_div_two (x : ℝ) :
     Real.cos (x + 3 * Real.pi / 2) = Real.sin x := by
-  rw [Real.cos_add]
-  simp
+  have h : x + 3 * Real.pi / 2 = (x + Real.pi / 2) + Real.pi := by ring
+  rw [h, Real.cos_add_pi, cos_add_pi_div_two]
+  ring
 
 /-- The four-view operator distinguishes m=1 from m=3 exactly when the
 sampled phase signal ε sin φ is nonzero. This is conditional on the
@@ -111,6 +119,8 @@ theorem fourViewModeReadout_one_three_eq_iff_signal_zero
   constructor
   · intro h
     have h90 := congrArg Prod.snd h
+    change antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
+      antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) at h90
     have h3 :
         antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2) =
           antipodalModeReadout 1 a₀ ε (φ + 3 * Real.pi / 2) :=
@@ -124,11 +134,13 @@ theorem fourViewModeReadout_one_three_eq_iff_signal_zero
   · intro h
     apply Prod.ext
     · exact (antipodalModeReadout_two_step 1 a₀ ε φ).symm
-    · have hcos :
+    · change antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
+        antipodalModeReadout 3 a₀ ε (φ + 3 * Real.pi / 2)
+      have hcos :
           ε * Real.cos (φ + Real.pi / 2) =
             ε * Real.cos (φ + 3 * Real.pi / 2) := by
           rw [cos_add_pi_div_two, cos_add_three_pi_div_two]
-          nlinarith
+          nlinarith [h]
       calc
         antipodalModeReadout 1 a₀ ε (φ + Real.pi / 2) =
             (ε * Real.cos (φ + Real.pi / 2), a₀) :=
@@ -158,7 +170,7 @@ theorem fourViewModeReadout_not_injective (a₀ ε φ : ℝ) :
   have hEq :
       (fun m : Fin 6 => fourViewModeReadout m.val a₀ ε φ) 1 =
         (fun m : Fin 6 => fourViewModeReadout m.val a₀ ε φ) 5 := by
-    simpa using (fourViewModeReadout_one_five_eq a₀ ε φ).symm
+    simpa using (fourViewModeReadout_one_five_eq a₀ ε φ)
   have hne : (1 : Fin 6) ≠ 5 := by decide
   exact hne (hinj hEq)
 
