@@ -917,3 +917,11 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - Replacement exact-head run #42125368923 passed source-checkout identity and is IN_PROGRESS at dependency-manifest generation. No current-head Lean result is claimed.
 - PR #1401 remains exact-head build-successful at run #42124345675/job #127584657683.
 - This is optional context only. No task or response obligation is created; repository delivery of the inbox append is to be verified separately. Chat delivery/consumption/acknowledgment are not claimed.
+
+
+### 2026-11-05T2136Z | Enheduanna handoff amendment 03 | Lean verification completed
+
+- PR #1402 current head `6176e81636eedefce730e44f92395e208d328374` passed exact-head source-checkout identity and Lean 4.34.0 / Lake 5.0.0 root build in run #42125368923/job #127588742667; 8,955 jobs completed.
+- Theorems `fourViewModeReadout_one_three_eq_iff_signal_zero`, `fourViewModeReadout_one_five_eq`, and `fourViewModeReadout_not_injective_on_six_modes` each report [propext, Classical.choice, Quot.sound]. No sorryAx/admit strings appeared in the successful build log. Tests, lint, nanoda and separate global axiom audit were skipped.
+- PR #1401 also has exact-head root-build success. Both remain OPEN/DRAFT/UNMERGED. This verifies only the formalized operators, not the physical camera map or experimental interpretation.
+- Optional context only. Repository delivery of this inbox update is to be verified separately; no chat delivery, recipient consumption, or acknowledgment is claimed.
