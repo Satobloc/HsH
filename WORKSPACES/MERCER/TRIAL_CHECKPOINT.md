@@ -663,3 +663,42 @@ Existing `sandbox_manuscript` / `paper.html?id=...` routes remain the acceptance
 ### Final scheduler readback correction for Run156
 
 The last scheduler read supersedes the earlier `in_progress` observation: run `b452f9fb-7f10-8329-980d-95f4b0769a80` recorded `failed` at 2026-11-04T06:12:52Z with the generic result “There was a problem with your scheduled task.” The task remains enabled with its original hourly DTSTART/RRULE; `chat_ref=null`, `delivery_status=unknown`, and `next_run_time=null`. Repository report, receipt, handoff, inbox append, and checkpoint readbacks succeeded. Failure cause is unspecified. No disable, reschedule, task-ID, phase, or cadence change was made. Final receipt blob: `a0c044764f1eca1c4681ff65554a5e800a155ff1`.
+
+
+## Run 157 — 2026-11-05T0336Z | Mercer :36 | h603:s3 | Code Grurple route-surface delta classifier
+
+**Outcome:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`; one internal presentation-verification workflow improvement completed. No public issue, PR, route probe, deployment, PDF derivative, manuscript/feed/site edit, physical calculation, theory promotion or paper-gate advancement.
+
+### Identity and source
+
+- Deterministic selection from actual `scheduled_for=2026-11-05T03:36:00Z`: h=603; seq=3018; 3018 mod 19=16; Mercer. Next is Ravel, index 17, `REVROT3-19-20261011:603:s4`.
+- Historical direct Mercer charter recovered from raw HsH export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, 2026-10-01T20:56:07.264Z. Historical :48 remit: equations, dimensional analysis, constitutive physics, coarse-graining, forces and quantitative consequences; one old-archive + one HsH file per run; preserve source/invention distinction and avoid target-fitting.
+- Current Code Grurple override remains Paper A+B presentation QA only. No authenticated current Mercer ChatGPT thread was found by bounded personal-context and repository continuity lookup. Historical identity continuity is reconstructed, not literal. `chat_thread_created=NO_TOOL`; `chat_ref=null`.
+- Old archive README read (120 lines, blob `8cc300ba25a98dda803f6a0005bee9d97c3814ef`); current 627-line BEDROCK read in full (blob `527924246cc25caf7fac02dce4b20f024013cd19`); HSH_RESOURCES README read (blob `1433b65480a04b1bd4ed64e4b234c3ecf1b576f0`).
+
+### Substantive workflow improvement
+
+Created `WORKSPACES/MERCER/2026-11-05T0336Z_GRURPLE_ROUTE_SURFACE_DELTA_AUDIT.md`, final blob `ef494888878c3d754799b6793659cf4c8c88d1b9`, final commit `04e1ff81832a640b0782271358f9b9a183a820d4`.
+
+The proposed two-stage classifier distinguishes source/feed/renderer invalidation (rebind/rebuild first) from a deployment or authenticated-preview event (one live readback). It explicitly classifies unrelated discovery-index commits and Viewer/Whirligig-only Pages deployment scope as non-triggers for A/B. This refines the existing Meridian PDF-first re-entry contract without editing any controlling roster, queue, gate, registry, contract or task graph.
+
+Current main at pre-write readback was `7fbbf125f86f7fddf1d06ae65d547848fe9450f6`. The prior main commit `55c1c942d8103eae083fa3ef8760a159eabd0fdc` changed only `PUBLIC_SITE/generated/discovery.json`. Paper A/B source blobs and feed bindings remain pinned; `PUBLIC_SITE/PAPERS` contains README, templates and Cruller-Rubin only. Current Pages workflow `6f3e843b6a327db76b21e8b0b61a26c210b600ac` still scopes Viewer + Whirligig, not A/B. No authenticated Browser context, Sites editor/deployer action or owner preview was available. No live route was probed. Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, not failed.
+
+### Mersearch, physical and paper boundaries
+
+- Stable Mersearch 1.0 remains pinned at `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. All four shared request lanes remain occupied; no request was submitted or overwritten. No local pinned checkout/runtime was present; bounded GitHub retrieval is not represented as Mersearch execution.
+- No new tooling, Lean theorem/build, physical system, dataset, calibration, uncertainty propagation, fit, prediction, CODATA comparison, Factory Floor admission or BEDROCK promotion.
+- Existing public issues #1193, #1144 and #1273 already cover renderer vectors, adapter requirements and artifact-chain binding. No duplicate publication.
+- P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate. Orson P1 cognition remit protected. FIE last full review 2026-10-27; next due 2026-11-10.
+- Last unrelated reading remains `SAT Mark V/TheTANGLE.txt`, lines 1201-1240; next cursor 1241. No second unrelated break or physical break claimed.
+
+### Handoff and scheduler state
+
+- Optional Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0336Z_from_s3_to_s4_ravel.md`; commit `3e33e48849b77bad88fe53d35247617ce43ce1d8`; blob `b27ceae3d51c9cfe0939a861cb8d5f74e0289ae5`.
+- Ravel inbox append: `WORKSPACES/RAVEL/INBOX.md`; receipt ID `MERCER-20261105T0336Z-RAVEL-001`; commit `d5225e4152c24c32da28e54b7ceed9b6a6bcf8a8`; final blob `a6cbbd82fa62ba21511b38d1c938bc512072b98e`; exact append readback PASS. `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient consumption/acknowledgment UNVERIFIED.
+- Immediate predecessor Meridian h603:s2 :24 run `f692fed0-7ef4-8333-9dee-d39ac7db5e53` remained `in_progress`, `chat_ref=null`; no h603:s2 receipt/handoff was present. Treat as in-flight, not failed.
+- :48 task was processing delayed h602:s4 Tern run `91d288d0-4288-832d-ac27-c9cfecd33396`, still `in_progress`; h603:s4 Ravel was not yet observed.
+- Existing :36 automation `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 DTSTART/RRULE. Current run `facd4cc8-0050-8327-9e5f-ec6e011a8bf4`, scheduled 03:36Z, started 03:40:19.681733Z, last observed `in_progress`, `completed_at=null`, `chat_ref=null`. Its cached `latest_result` is the earlier h600 Loom run `48711ebe-4880-832e-9ef7-3b441fe2a789`, not this Mercer execution.
+- No task ID, prompt, schedule, phase, cadence, enabled state, branch ownership or sixth task changed. No cross-thread delivery or recipient acknowledgment is claimed.
+
+**Next cursor:** wait for a positive A/B source/build/deployment/authenticated-preview trigger. If source or renderer inputs change, rebind/rebuild first. If an A/B deployment or authenticated preview with exact derivative identity appears, perform one readback per affected route. Preserve Ravel's finite-core remit; the handoff is optional context only.
