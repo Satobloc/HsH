@@ -241,3 +241,14 @@ The later “actual string attached to a sphere” construction in turns 117–1
 ### Cumulative frontier
 
 All 138 user-role turns in this conversation now have tag coverage across the current and prior ledgers. **No uncovered user-role turn remains.** The next useful pass is assistant-span/source-ancestry review (starting from the existing `2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`), not another user-turn tagging pass. In particular, preserve the established finding that the later user-supplied outline contains assistant-origin prediction/testing sentences; an outer user role does not make every embedded span an independent Nathan derivation.
+
+
+## E. Unrelated reading tag: `fun break - lx.txt` lines 381–460
+
+- Sources: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt` (HsH) and `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt` (SAT archive).
+- Git blob SHA-1: `f33eb29fbac65efa1db054239bb9c28a04a13a42`; both paths resolve to the same body, so this is one source with two repository locations.
+- Read extent: lines 381–460 inclusive, re-read and checked in the 2026-11-05T04:50Z continuation. The 2026-11-04 O0-A ledger noted lines 421–460 as read but did not attach tags; this entry supplies the cumulative tag record. The older checkpoint's 381–420 cursor is superseded.
+- Content class: language-discovery game and comparative-language discussion, including Kabardian, Quechua, Amharic, Sindhi, Gaelic, and a Germanic/Yiddish/Pennsylvania-Dutch dialect-intelligibility question.
+- Tags: `LANGUAGE-DISCOVERY-GAME`; `LINGUISTIC-GUESSING`; `LANGUAGE-FAMILY-CLASSIFICATION`; `CULTURAL-CURIOSITY`; `GERMANIC-LANGUAGE-COMPARISON`; `DIALECT-INTELLIGIBILITY-QUESTION`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`.
+- Attribution caveat: `You said:` and `ChatGPT said:` are plain transcript text, not raw role metadata. No Nathan Direct attribution is made from these labels. Assistant claims about language families, etymologies, or meanings remain unverified and are not promoted as external facts.
+- Next unrelated-reading cursor: line 461.
