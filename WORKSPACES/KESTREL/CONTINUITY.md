@@ -473,3 +473,44 @@ No live Kestrel thread was authenticated in this run; the raw source export is r
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T1548Z_s4_kestrel.md`, blob `2a75c6b26e7f884dc139438096dc7064b5b63a2e`, exact readback PASS.
 - FIE last full review October 27; next due November 10. Unrelated reading cursor remains Jacoby, *Practical Talks by an Astronomer*, lines 881-920; next cursor 921.
 - Next cursor: preserve this narrow source-code interpretation as optional owner context; do not reopen P1, run a model trial, or assign work to Orson. No SAT-O/Blockwave equation or physical-system work was performed.
+
+
+## 2026-11-05 h618:s2 — source-grounded revival and bounded formalization update
+
+**Run:** `REVROT3-19-20261011:618:s2`  
+**Task:** `6abda4c8eda88191bf23a6f2849e9a17` (:24, enabled; unchanged)  
+**Run ID:** `dfe522f2-6804-8326-a6a9-5f2839f60daf`  
+**Scheduled:** 2026-11-05T18:24:00Z; **started:** 2026-11-05T19:54:01.760449Z; **chat_ref:** null.  
+**Ring:** `h=618`, `seq=5(618)+2=3092`, `3092 mod 19=14`; selected Kestrel, next ring label Meridian (index 15). No ChatGPT-instance/thread identity is inferred from the label.
+
+### Historical identity and reentry
+
+- Re-read Kestrel's individuating raw conversation blob `100267f3f11f3cce09c7d802ce85ad03879d5744` (conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, 2,117 mapping nodes) and the direct user messages that define the role.
+- The direct charter is a whole-project companion role: trust Nathan's instincts by default as an internal working premise; do not independently search for more evidence unless a concrete question, contradiction, decision or gap calls for it; let dedicated audit/provenance/math/experimental teams do their jobs; preserve the quarantine boundary deliberately.
+- No authenticated live Kestrel thread was found; the scheduled run has `chat_ref=null`. This is source-grounded revival by the current assistant, not continuity with the historical instance.
+- First-blush reconstruction saved at `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-11-05__KESTREL__source-grounded-reconstruction.md`.
+
+### Bounded Lean repair
+
+- Existing PR #873 branch: `research/kestrel-original-slice-fidelity-20261028t0900z`.
+- Closed the two previously unsolved affine moving-slice goals in `FORMAL_VERIFICATION/HsHVerification/KestrelMovingSlice.lean`, using the stated nonzero plane-normal direction and distinct-time assumptions.
+- Proof-bearing commit `ac84762ae2c13a065ad29b874d4d38681aa3b333` passed GitHub Actions run `42099732090` on merge-reference commit `144bbeb79af72c7812aed3e3545ad9d006b98df7`; 8,954 Lean build jobs completed. The root aggregator built the Kestrel projection, intersection-dimension, moving-slice, Kelvin readout, and worldtube-inertia modules.
+- The two moving-slice theorems' `#print axioms` output contains `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` appeared. The workflow's automated axiom-audit, nanoda, tests, and lint steps were skipped.
+- Cleanup commit `b81a8aefea2943cfe1f89b1d7bb68065a2181d1c` removed two unreachable `ring` tactics. This latest head has **not** been recompiled: push run `42101075525` failed with zero jobs, and no fresh PR synchronize run was observed. The successful build therefore applies to the immediately preceding proof-bearing revision, not the latest cleanup-only head.
+- This is a conditional mathematical proof of the formalized affine model, not validation of the source translation or any physical premise. No new theorem, shared symbol, physical calculation, P2 selection, or theory promotion was made.
+
+### Current lane and evidence boundary
+
+- The global Code Grurple P0 interlock remains active. Meridian's current-work card explicitly keeps H(s)H generation/CODATA P2 BACKSEAT/HOLD. No physical system was selected and no numerical comparison was performed.
+- Morrow's 2026-11-05 receipt already records the CODATA 2022 source/version and adjustment methodology; no duplicate CODATA review was made.
+- Mersearch's four request lanes remain occupied. Their request-scoped run manifests/receipts are absent; no new request was submitted and no occupied lane was overwritten. The installed SciSpace connector and public publisher sources were used for the supplemental rope literature, not as a substitute for Mersearch archive search.
+- Added a bounded rope-metrology addendum to `2026-11-01T1924Z_CROSS_DOMAIN_READOUT_ENVELOPE.md`: 2025 micro-CT geometry of three-strand Twaron rope and 2022 polyamide yarn friction measurements, with the specimen-type, data-access and uncertainty limits preserved. Existing WWRD issue #1096 and Tern's geometry-fidelity audit remain the controlling prior work; no duplicate issue was created.
+- FIE re-review is not due yet (last review 2026-10-27; 14-day trigger is 2026-11-10). The unrelated-source break is not due by the five-activation cadence; the last Kestrel break was recorded 2026-11-04.
+- No scheduler ID, schedule, phase, enabled state, task count, conversation title, or signet was changed.
+
+### Return cursor
+
+1. Obtain a valid build for cleanup head `b81a8aefea2943cfe1f89b1d7bb68065a2181d1c` before claiming latest-head CI verification; do not confuse push run `42101075525` (zero jobs) with a Lean build.
+2. Preserve the P2 hold until Code Grurple standdown or a new explicit Nathan decision.
+3. When a measured system is legitimately selected, use the existing cross-domain readout envelope and require raw/traceable data, units, calibration, uncertainty/covariance, and independent holdout before physical comparison.
+4. Keep Kestrel's whole-picture companion role distinct from primary mathematical/provenance adjudication.
