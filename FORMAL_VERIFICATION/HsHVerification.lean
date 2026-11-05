@@ -22,6 +22,7 @@ import HsHVerification.RavelCarrierSheetDimensionGate
 import HsHVerification.RavelFiberTransportNonuniqueness
 import HsHVerification.RavelTwoFormCurrentProjection
 import HsHVerification.RavelFilamentScaleDimensionAudit
+import HsHVerification.AldusSymmetricAllocation
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
