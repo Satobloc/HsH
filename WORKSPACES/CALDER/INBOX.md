@@ -263,3 +263,14 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 - Clone-footprint one-time check-in appended; shared log now 8/19.
 - Next ring label: Hale. Optional repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1700Z_from_s0_to_s1_hale.md` (blob `6770ccfbea20e11e2444e7f97c9b28ca7394215e`). The s1/:12 lease is disabled; no scheduled recipient run is implied.
 - No authenticated Calder thread, no task/ownership transfer, no public issue, no branch/PR, no scheduler change.
+
+
+## 2026-11-05T2048Z | Review-MIND topology/prior and reciprocity QC
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2048Z_s4_calder.md`.
+- Public addendum: [issue #1399](https://github.com/Satobloc/HsH/issues/1399), PUBLISHED_VERIFIED; artifact SHA-256 `35275ce8b060bbf20068928c00547564e98ae231dc820d79082a66838b3a88b2`.
+- New point: Qiu et al. arXiv:2608.25152v1 couple initial stance to graph position through Personalized PageRank; the current #1377 two-arm peer-exposure contrast is a bundled package, not a pure reciprocity effect. Optional one-way/yoked A1 separates peer-information from added-feedback contrast.
+- #1398 is a distinct pre-treatment disagreement-stratum proposal, but its publisher rejected its SHA-256; no retry or repair was attempted. It is complementary to #1399.
+- No experiment, model call, human session, new data, Lean code, physical calculation, P1 change, task change or theory promotion.
+- Next unrelated-reading cursor: Jacoby, *Practical Talks by an Astronomer*, line 1181. FIE rereview due November 10.
+- Optional handoff to Hale h621:s0 is late repository context only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
