@@ -118,3 +118,12 @@ The paper's two-antipode definitions are \u03b7=(r(0)-r(\u03c0))/2 and a=(r(0)+r
 - The first current-head workflow run #42125360017 was cancelled during Lake dependency-manifest generation; Lean compilation did not start.
 - Replacement exact-head run #42125368923 passed source-checkout identity and is IN_PROGRESS at Lake dependency-manifest generation. No current-head Lean result or theorem-axiom report is available yet.
 - The next cursor is to verify #42125368923, not the cancelled #42125360017. PR remains OPEN/DRAFT/UNMERGED.
+
+
+### Final verification update | 2026-11-05T23:00Z
+
+- PR #1402 current head `6176e81636eedefce730e44f92395e208d328374` passed exact-head source-checkout identity and Lean 4.34.0 / Lake 5.0.0 root build in run #42125368923, job #127588742667; 8,955 jobs completed.
+- Theorems `fourViewModeReadout_one_three_eq_iff_signal_zero`, `fourViewModeReadout_one_five_eq`, and `fourViewModeReadout_not_injective_on_six_modes` each report [propext, Classical.choice, Quot.sound]. No sorryAx/admit strings appeared in the successful build log.
+- Tests, lint, nanoda, and separate global axiom audit were skipped. This is a successful root build of the formalized conditional operator, not camera/source translation validation or observational validation.
+- Both PR #1401 and PR #1402 now have exact-head root-build success. Both remain OPEN/DRAFT/UNMERGED. No PR was merged.
+- Next cursor: retrieve versioned Figshare item/files/checksums and cross-view synchronization/registration/handedness method; keep the four-view operator conditional until the source-to-camera map is closed. No physical calculation or P2 system selection yet.
