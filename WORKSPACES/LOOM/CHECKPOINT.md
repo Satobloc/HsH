@@ -720,3 +720,10 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE_NOT_SENT`. No recipient consumption or acknowledgment claimed.
 - The :48 automation was still processing its delayed h599 Mercer occurrence at final inspection; the h600:s4 Aster occurrence was not yet observed. The handoff is optional context for Aster's next ring appearance.
 - House-write route: `HOUSE_WRITE_ROUTE_UNAVAILABLE` in this runtime because no local checkout and no generic Actions writer were available. The documented GitHub connector fallback was used with current blob SHA, one write per path, and independent readback. Public output was written only through the existing issue publisher.
+
+### Continuity pointer amendment - 2026-11-05T0036Z
+
+- `WORKSPACES/LOOM/CONTINUITY.md` refreshed with the source-boundary correction and corrected next cursor.
+- Continuity commit: `c580897e56c9d495be1c2e939767771597cc1d3e`.
+- Continuity blob: `1bd10dde7f99f34e1514c9b9cd80cf564037c4c8`.
+- Exact tail readback: PASS.
