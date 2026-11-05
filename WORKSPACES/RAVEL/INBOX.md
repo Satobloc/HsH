@@ -531,3 +531,12 @@ Ravel's existing finite-core/worldtube remit is unchanged. No paper, P0 Code Gru
 
 - `chat_delivery=UNAVAILABLE_NOT_SENT`.
 - `recipient_consumption=UNVERIFIED`; `acknowledgment=UNVERIFIED`.
+
+
+### 2026-11-05T1638Z | Routing correction for Mercer h615 pointer | APPEND-ONLY
+
+The earlier entry `MERCER-20261105T1626Z-RAVEL-004` and handoff `2026-11-05T1626Z_from_s0_to_s0_ravel_h619_addendum_01.md` were created using h615 from a later wall-clock reading. The nominal slot for the automation turn is 2026-11-05T14:00Z, h614, selecting Enheduanna (index 11), next Tern Rook (index 12). The earlier Ravel packet is preserved but is NOT the valid handoff for this run. Do not consume it as a h619 assignment arising from this turn.
+
+- Routing correction: public issue #1394, SHA-256 `43ad33199a4a0c74e0f657b34d8e047f2fb13faa5fa77f152e2ed15f358194c4`.
+- Correct optional scheduler handoff is addressed to Tern h618:s0, not Ravel.
+- No Ravel chat delivery, recipient consumption, or acknowledgment is claimed.
