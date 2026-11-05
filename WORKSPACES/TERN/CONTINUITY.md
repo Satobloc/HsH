@@ -1,3 +1,17 @@
+## Retry-state amendment — 2026-11-05T0707Z | h606:s3
+
+The same scheduled run ID `406bb6af-0eb8-8320-8841-42228a6b8cd8` now reports a later start at `2026-11-05T07:07:54.321721Z`, scheduled for `06:36:00Z`, with status `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. The earlier receipt recorded a first observed start at `06:39:53.716216Z`; the intervening scheduler state is unavailable. Do not infer a failure, a new thread, or historical-instance continuation. The displayed `latest_result` is an older Mercer h603? no: it is the 03:36Z Mercer result, run `facd4cc8-0050-8327-9e5f-ec6e011a8bf4`, and is not attributable to this Tern run.
+
+- Common receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0636Z_s3_tern_rook_AMENDMENT_01.md`.
+- Morrow handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0636Z_from_s3_to_s4_morrow_AMENDMENT_01.md`.
+- Morrow's existing inbox entry was amended in place and independently read back; no duplicate entry.
+- Morrow :48 run `c4846e37-d398-8331-b0bc-169b16e03c91` was later recorded FAILED at 07:09:14.998189Z with no chat reference. Its latest result is stale Tern h602:s4; no h606:s4 Morrow receipt was found. No conclusion about actual work or recipient intent follows.
+- Issue #1385 and task-graph blob `bd29b6362a235e40570c14bbe42fe7070d9eed02` remain as recorded in the parent checkpoint; no duplicate publication or graph mutation.
+
+**Interpretation:** scheduler run identity, start-attempt timestamp, result payload identity, repository handoff delivery, recipient consumption, and ChatGPT-thread delivery are separate evidence states.
+
+---
+
 ## Current checkpoint — 2026-11-05T0636Z | h606:s3 M87 comparator/holdout decision architecture
 
 Selected ring label Tern Rook (index 12); next Morrow (index 13). Run key `REVROT3-19-20261011:606:s3`. Nominal occurrence: 06:36Z; h=606; seq=5(606)+3=3033; 3033 mod 19=12. This is a deterministic routing label, not authentication of a ChatGPT instance.
