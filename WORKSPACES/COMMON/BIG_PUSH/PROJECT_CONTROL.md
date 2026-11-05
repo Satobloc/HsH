@@ -21,7 +21,7 @@ This is a multi-stage programme. The institution's design is a later deliverable
 - Preserve unsuccessful designs and negative findings. Do not silently retrofit historical intentions into current capabilities.
 - Do not select an institutional architecture until the historical reconstruction, current-capability assay, field orientation, and competing design sketches are complete.
 - No physical calculation is part of this programme unless it independently satisfies current BEDROCK requirements and the specific permission gate for data-free calculations.
-- Do not change recurring tasks, IDs, schedules, phases, or create a sixth task. No new automation is implied.
+- Preserve existing automation IDs, schedules, phases, and enabled states. Modify an existing task prompt only when Nathan expressly authorizes it and record the exact change. Do not create another automation.
 - Do not overwrite occupied Mersearch request lanes. Verify request-scoped manifests and receipts before using a lane.
 - Success is measured by inspected sources, validated capability, completed artifacts, and useful decisions, not by the number of documents written.
 
@@ -116,3 +116,24 @@ A successor must read the source documents named in the packet, not rely solely 
 ## Change log
 
 - 2026-11-05: Initial project control created after first archive search, current-control review, and bounded historical reading. No institutional design selected; no recurring task or schedule changed.
+
+
+## Continuity and recurrence scaffold — 2026-11-05
+
+Nathan designated THE BIG PUSH the highest-priority active programme and requested an explicit continuity mechanism for context limits and periods of one or two days without interactive progress.
+
+The following repository-backed scaffold is now present:
+
+- `BOOT.md`: minimal launch capsule, load order, 36-hour resumption rule, current cursor, one-steward rule.
+- `OPERATING_PROTOCOL.md`: lightweight priority pyramid, active tray/reference shelf/parking drawer, bounded-unit discipline, source attribution, pruning, audits, and anti-drift practices.
+- `WORK_QUEUE.md`: single active operation and ordered programme backlog.
+- `CALENDAR_AND_AUDITS.md`: event-driven and periodic review triggers.
+- `INTERACTIVE_HEARTBEAT.md`: project-specific human-session heartbeat, deliberately not refreshed by automation.
+- `AUTOMATION_STATE.md`: dormant/eligible/active/human-return/blocked state machine and scheduler provenance checks.
+- `SUCCESSION.md`: context-limit handoff and successor startup protocol.
+
+**Recurrence design:** the existing Workshop Relay :00 | Archive automation is designated the sole Big Push continuity steward. The other three existing hourly relays retain their specialist remits. The :00 task is to check the heartbeat; after 36 hours without an interactive Big Push touch, it may continue one bounded queued operation per occurrence until a human-directed Big Push session returns. A current human heartbeat suppresses automatic Big Push work.
+
+**Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
+
+The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor remains the May 28, 2025 transcript, lines 201–400. No institutional design has been selected.
