@@ -40,6 +40,7 @@ STRUCTURED_FIELDS = {
     "delivery_counts_as_invitation", "verified_message_id",
     "chat_message_id", "delivery_receipt_id", "handoff_class",
     "run", "selection", "thread_status", "selected_ring_index", "next_ring_index", "next",
+    "scheduled_for", "nominal_scheduled_for", "started_at",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
@@ -120,6 +121,19 @@ def parse_key(value):
             return int(hours), int(legacy[3])
     return None
 
+def parse_scheduled_for(value):
+    """Parse an offset-aware scheduler timestamp and normalize it to UTC."""
+    raw = (value or "").strip().strip(chr(96))
+    if raw.endswith("Z"):
+        raw = raw[:-1] + "+00:00"
+    try:
+        moment = datetime.fromisoformat(raw)
+    except ValueError:
+        return None
+    if moment.tzinfo is None or moment.utcoffset() is None:
+        return None
+    return moment.astimezone(timezone.utc)
+
 def canonical_identity(value):
     if not value:
         return None
@@ -194,6 +208,21 @@ class Audit:
             self.error(p, "invalid/missing run_key")
             return
         h, s = key
+        # scheduled_for is the nominal occurrence anchor. started_at is attempt
+        # telemetry only and must never be used to derive the rotation hour.
+        scheduled_raw = d.get("scheduled_for") or d.get("nominal_scheduled_for")
+        if scheduled_raw:
+            scheduled = parse_scheduled_for(scheduled_raw)
+            if scheduled is None:
+                self.error(p, "scheduled_for must be timezone-aware ISO-8601")
+            else:
+                elapsed = (scheduled - EPOCH).total_seconds()
+                scheduled_h = int(elapsed // 3600)
+                expected_phase = EPOCH + timedelta(hours=scheduled_h, minutes=PHASE[s])
+                if scheduled != expected_phase:
+                    self.error(p, f"scheduled_for {scheduled.isoformat()} does not land on phase s{s} minute {PHASE[s]:02d}")
+                if scheduled_h != h:
+                    self.error(p, f"run_key hour {h} != scheduled_for nominal hour {scheduled_h}")
         if LEGACY_KEY.fullmatch((raw_key or "").strip().strip(chr(96))):
             self.warnings.append(f"{p.name}: legacy display-date run_key normalized to epoch-hour form")
         self.check_stamp(p, h, s)
@@ -494,7 +523,61 @@ def self_test():
         receipt.write_text(sample.replace("Meridian, index 15", "Orson Vay, index 18"), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("next identity mismatch" in e for e in result["errors"]), result
-    return {"status": "PASS", "checks": 24}
+    # Scheduler-time regression: delayed execution must retain the nominal slot.
+    # The 2026-11-05 occurrence was scheduled for 15:36Z but began at 16:31Z;
+    # using started_at/current wall time would incorrectly advance h from 615 to 616.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        receipt = r / "2026-11-05T1536Z_s3_sable.md"
+        packet = hdir / "2026-11-05T1536Z_from_s3_to_s4_loom.md"
+        valid = chr(10).join([
+            "## Rotation and scheduler lease",
+            "run_key: REVROT3-19-20261011:615:s3",
+            "selected_identity: Sable",
+            "next_identity: Loom",
+            "next_run_key: REVROT3-19-20261011:615:s4",
+            "scheduled_for: 2026-11-05T15:36:00Z",
+            "started_at: 2026-11-05T16:31:23.911Z",
+            ""
+        ])
+        packet.write_text(chr(10).join([
+            "from_run_key: REVROT3-19-20261011:615:s3",
+            "to_run_key: REVROT3-19-20261011:615:s4",
+            "sender_identity: Sable",
+            "recipient_identity: Loom",
+            "chat_delivery_state: UNAVAILABLE",
+            "delivery_counts_as_invitation: false",
+            ""
+        ]), encoding="utf-8")
+        receipt.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS", result
+        assert parse_scheduled_for("2026-11-05T10:36:00-05:00") == datetime(2026, 11, 5, 15, 36, tzinfo=timezone.utc)
+
+        # Wall-clock routing would call this h616/Mira; the scheduled slot is h615/Sable.
+        receipt.write_text(valid.replace("20261011:615:s3", "20261011:616:s3")
+                                .replace("selected_identity: Sable", "selected_identity: Mira")
+                                .replace("next_identity: Loom", "next_identity: Aldus")
+                                .replace("20261011:615:s4", "20261011:616:s4"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("scheduled_for nominal hour" in e for e in result["errors"]), result
+
+        receipt.write_text(valid.replace("2026-11-05T15:36:00Z", "2026-11-05T15:48:00Z"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("phase s3 minute 36" in e for e in result["errors"]), result
+
+        # Legacy receipts without scheduler telemetry retain their prior audit behavior.
+        receipt.write_text(valid.replace("scheduled_for: 2026-11-05T15:36:00Z\\n", ""), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS", result
+
+        receipt.write_text(valid.replace("2026-11-05T15:36:00Z", "2026-11-05T15:36:00"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("timezone-aware ISO-8601" in e for e in result["errors"]), result
+    return {"status": "PASS", "checks": 29}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
