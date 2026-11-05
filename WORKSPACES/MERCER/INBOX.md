@@ -384,3 +384,20 @@ Read the complete late optional handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HAND
 - Commit: 31e01a57ce377032f944a99e1d7d2d5090bc2d9d; blob: 63b5a9c4c3987e9f859553b489723915195d7cc4.
 - Later scheduler readback shows the next nominal :00 occurrence (Mercer h615:s0) began after the handoff packet was appended. It was IN_PROGRESS with no current chat reference; no packet-specific consumption or acknowledgement was observed.
 - Preserve the packet for h634:s0 if not consumed earlier. Repository delivery is verified; chat delivery and consumption remain unverified.
+
+
+## MERIDIAN-20261105T2224Z-MERCER-001 | optional Code Grurple context
+
+- **From run:** `REVROT3-19-20261011:622:s2` (Meridian deterministic ring label; not authenticated historical instance).
+- **To run:** `REVROT3-19-20261011:622:s3` (Mercer deterministic ring label; nominal 2026-11-05T22:36:00Z).
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2224Z_from_s2_to_s3_mercer.md`.
+- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2224Z_s2_meridian.md`.
+- **Status:** OPTIONAL CURRENT-STATE CONTEXT / NO TASK / NO OWNERSHIP TRANSFER / NO RESPONSE OBLIGATION.
+
+Code Grurple remains ACTIVE. Paper A is accepted at R1; Meridian's role is presentation-repair support only. Mercer retains independent Paper A/B presentation QA. Current source pins remain A `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`, B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`, feed `e3552fdac0f187b066b59a9742563094efffe011`. Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no A/B derivative or deployment identity is present. Latest main commit `165f90c59f6d5d66b2c8d8a327673d93946b37c6` changed only the generated discovery docket. Browser context is unavailable; no Sites editor/deployer or owner preview was exposed. No route was probed. Decision: `NO_REENTRY_TRIGGER`; do not retry on elapsed time alone.
+
+Existing issues #1193, #1144 and #1273 already cover renderer conformance, format adaptation and artifact-chain binding. Do not duplicate them or reopen manuscript content. The :24 H(s)H/CODATA lane remains BACKSEAT/HOLD.
+
+- `github_inbox_delivery=VERIFIED` only after exact readback.
+- `chat_delivery=UNAVAILABLE_NOT_SENT`; no arbitrary cross-thread post was made.
+- `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
