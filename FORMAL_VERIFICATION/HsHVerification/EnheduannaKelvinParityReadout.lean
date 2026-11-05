@@ -38,7 +38,7 @@ noncomputable section
 /-- A finite real Fourier truncation of a radial boundary at fixed (z,t). -/
 def finiteFourierProfile (a₀ : ℝ) (modes : Finset ℕ)
     (A B : ℕ → ℝ) (θ : ℝ) : ℝ :=
-  a₀ + ∑ m in modes,
+  a₀ + ∑ m ∈ modes,
     (A m * Real.cos ((m : ℝ) * θ) +
       B m * Real.sin ((m : ℝ) * θ))
 
@@ -50,24 +50,24 @@ def finiteAntipodalReadout (a₀ : ℝ) (modes : Finset ℕ)
 
 /-- The odd-parity aggregate of the cosine coefficients. -/
 def oddParityAggregate (modes : Finset ℕ) (A : ℕ → ℝ) : ℝ :=
-  ((∑ m in modes, A m) -
-    (∑ m in modes, A m * (-1 : ℝ) ^ m)) / 2
+  ((∑ m ∈ modes, A m) -
+    (∑ m ∈ modes, A m * (-1 : ℝ) ^ m)) / 2
 
 /-- The even-parity aggregate of the cosine coefficients. -/
 def evenParityAggregate (modes : Finset ℕ) (A : ℕ → ℝ) : ℝ :=
-  ((∑ m in modes, A m) +
-    (∑ m in modes, A m * (-1 : ℝ) ^ m)) / 2
+  ((∑ m ∈ modes, A m) +
+    (∑ m ∈ modes, A m * (-1 : ℝ) ^ m)) / 2
 
 lemma finiteFourierProfile_zero (a₀ : ℝ) (modes : Finset ℕ)
     (A B : ℕ → ℝ) :
     finiteFourierProfile a₀ modes A B 0 =
-      a₀ + ∑ m in modes, A m := by
+      a₀ + ∑ m ∈ modes, A m := by
   simp [finiteFourierProfile]
 
 lemma finiteFourierProfile_pi (a₀ : ℝ) (modes : Finset ℕ)
     (A B : ℕ → ℝ) :
     finiteFourierProfile a₀ modes A B Real.pi =
-      a₀ + ∑ m in modes, A m * (-1 : ℝ) ^ m := by
+      a₀ + ∑ m ∈ modes, A m * (-1 : ℝ) ^ m := by
   simp [finiteFourierProfile, Real.cos_nat_mul_pi, Real.sin_nat_mul_pi]
 
 /-- Exact finite-Fourier formula for the two antipodal channels.
