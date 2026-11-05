@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — check-ins requested; no worker responses are implied by opening this log.
+**Status:** OPEN — delivery path repaired 2026-11-05; 1/19 ring-label entries recorded (Nadir Voss, reconstructed from receipts; no authenticated first-hand worker response yet).
 
 ## Scope and scheduler context
 
