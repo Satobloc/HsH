@@ -47,6 +47,21 @@ The source defines three interpretive modes:
 
 The later 2026-11-03 Nathan Direct operational transcription calls Mode 2 **Triggered Dynamics** (also Semi-Dynamic) and describes Mode 3 as the block solidifying as `Σ_t` sweeps through, with filament dynamics determined during the sweep and `Σ_t` becoming an ordering label. Preserve the historical July 2025 wording and the later restatement separately; do not silently overwrite the original.
 
+
+## Primary June 2025 Big Paper wording
+
+**Source:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/✅SAT BIG PAPER.txt`  
+**Blob SHA:** `69b0085c86f6c4876aacc0556243dd2fccdc0aef`  
+**Location:** printed pages 11–12, Module O0-A, extracted text.
+
+This primary module explicitly calls the modes a **controlled approximation ladder**: each higher mode inherits the lower-mode results and relaxes a specified freeze-out. Its exact descriptions sharpen the shorter SAT4D_8 summary:
+
+- Mode 1: filament kinematics frozen; the time wavefront `Σ_t` alone accounts for apparent change. Baseline for specified core modules.
+- Mode 2: `Σ_t` still leads, but as it passes it can nudge local filament parameters; the source describes this as the first correction layer.
+- Mode 3: the block “solidifies” as `Σ_t` sweeps through; filament dynamics are determined during the sweep and are fixed history afterward; `Σ_t` becomes an ordering label.
+
+The Big Paper's module-by-module guidance uses Mode 1 for specified quantization/renormalization/surface-dynamics modules, Mode 2 for GR matching and cosmology-leading predictions, and identifies Mode 3 as a future target rather than a prerequisite for its stated predictive tests. This differs in scope/emphasis from the July 2025 SAT4D_8 deployment document, which more narrowly restricts Modes 2 and 3. Keep both source-specific rules; do not flatten them into a single timeless policy.
+
 ## Filament-only construction and timesheet status
 
 **Source:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT REDISCOVERY.txt`  
@@ -69,7 +84,7 @@ The surrounding flattened transcript does not carry explicit role tags in the re
 
 ## Ontological boundary
 
-The 2026-11-03 Nathan Direct directive points to the earlier **Central Dogma** passage in `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NESTED HOLONOMIES.txt`, blob `0a8d52da06d1a787252b9a120c4770aa29095879`, around extracted offset 248700–250000. Its stated position is four-dimensional realism as a formalism, without commitment to whether ultimate reality is a static block, dynamic block, growing block, or another structure.
+The 2026-11-03 Nathan Direct directive points to the earlier **Central Dogma** passage in `Misc HsH-SAT/NESTED HOLONOMIES.txt`, blob `0a8d52da06d1a787252b9a120c4770aa29095879`, around extracted offset 248419–250000. The 2026-11-03 HsH directive cites a `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/` path for this blob, but that path currently returns 404; the `Misc HsH-SAT/` copy was successfully fetched and matches the cited blob SHA. Its stated position is four-dimensional realism as a formalism, without commitment to whether ultimate reality is a static block, dynamic block, growing block, or another structure.
 
 This supports the methodological distinction: the five formulations are ways of constructing/reading the SAT geometry. They do not by themselves settle ultimate ontology.
 
