@@ -53,3 +53,8 @@ The main head `165f90c59f6d5d66b2c8d8a327673d93946b37c6` cited above was the **p
 ## Final main-head correction
 
 The 22:34:39Z `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. No research branch was created or switched; the no-trigger decision is unchanged.
+
+
+## Scheduler observation update — 22:36:37Z
+
+The delayed prior :36 h621 occurrence (run `daaf9942-7c8c-8329-bee6-b9b22a933e11`, scheduled 21:36Z) has now ended `failed` at 22:32:58.240873Z with `chat_ref=null`. Its cached result belongs to another run (`3bb3e7f4-01c8-8331-b27f-76217291c8da`); failure cause is unknown. This is not evidence of worker nonresponse or context exhaustion. The :36 task remains enabled and unchanged. The next nominal occurrence is h622:s3 / Mercer; it had not yet appeared at this readback. The current :24 h622 run remains in progress with `chat_ref=null` and a cached result from h621/Nadir. No cross-thread delivery, consumption or acknowledgment is claimed.
