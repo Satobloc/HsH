@@ -78,3 +78,37 @@ Other controls: `inverse/anti graticula` is a passive L/R display mirror, not po
 - Global cursor: `Minkowski Ring Analysis` message `861acc12-5590-4bbb-aff1-b16a89bd18d9` (2026-10-21 07:04:01Z).
 
 **Conclusion:** this run's new value is export genealogy and assistant-span attribution, not another geometry derivation. Issue #1322 remains useful but needs the narrow source-count/cursor correction in #1324.
+
+
+## 2026-11-05T1320Z | Additional direct-request and assistant-span tags
+
+Source conversation: 6a9aa91b-11f4-83ea-80a1-4d502522e441. Relevant raw snapshots: LIVE CONVOS blob d21e251df093013903cc19789ded562f83b6e6ea; expanded SAT_CONVOS_13 blob 1f841895a2585843373fe33d55a0180c91cc8423. The relevant message IDs, roles, timestamps and content are identical across the snapshots.
+
+### New source tags
+
+- a6c300a6-892d-4e20-9fe1-dbdcf33d3eed — USER / NATHAN_DIRECT / REQUEST / REPRESENTATION_DESIGN / NOT_A_THEORY_PROPOSITION. Timestamp 2026-09-04T18:07:33.584Z. The message asks for the best representation of the existing problem; it does not define a new physical object or accept a proposed map.
+- f7a40c0c-a419-4bb4-95c3-b6127c8c2481 — ASSISTANT / RECONSTRUCTION / GEOMETRIC_PIPELINE / PROPOSAL / NOT_EXPLICITLY_ACCEPTED. Timestamp 2026-09-04T18:08:04.631Z. This is the full assistant continuation after f611168d and intermediate assistant nodes on the selected ancestry. It proposes 3D torus calculation, integration around a toroidal symmetry, equivalent-angle conversion, sphere-null comparison, 90-degree normalization, a left/right anti-graticule pullback, and an odd residual panel.
+
+The already-tagged f611168d response remains the short calculation/display split. It is not duplicated here. Direct messages fd780628, 71ae32d1, 7a99e50b, 2e9e68c5, 054d1aea and 3e540785 remain referenced by their existing tags; they are not retagged.
+
+### Assistant-proposal equations and tags
+
+delta_i = Theta_i - 90 degrees  
+Delta_i = delta_i(torus) - delta_i(sphere)  
+m_i = Delta_i / 90 degrees
+
+m_i_minus(u,v) = m_i_plus(-u,v)  
+C_i = (m_i_plus - m_i_minus) / 2
+
+Tags: ASSISTANT_PROPOSED_NORMALIZATION; UNDEFINED_METRIC_TO_ANGLE_MAP; UNDEFINED_TORUS_TO_SPHERE_MAP; DISPLAY_REFLECTION_PULLBACK; ODD_DISPLAY_RESIDUAL_NOT_PHYSICAL_CANCELLATION; GRATICULE_SOLVER_ROLE_UNDERDEFINED.
+
+### Source-critical notes
+
+- The 3D-calculation / 2D-display split is a plausible assistant reconciliation of direct requests for full 3D integration and a simple 2D result, but it remains an assistant proposal.
+- The later direct statement that the Graticule is a peer geometric solver is not satisfied by describing it only as a display canvas.
+- The anti-graticule equation is a faithful scalar pullback under R(u,v)=(-u,v) if the operation is display-only. Recomputing mirrored 3D seeds is optional as a consistency check; it must not silently become a second physical geometry.
+- C_i is the odd component under the left/right reflection. It is not a physical cancellation law. Keep CMY-style cancellation separate as a display operation.
+- The sphere-null reference and equivalent-angle maps still require explicit domains, codomains, preserved invariants and composition conditions.
+- No Nathan Direct acceptance of f7a40 was found. The next local cursor is 3e540785-e8df-421c-aded-63bd85add0f8 (2026-09-07T22:33:30.414Z).
+
+The public addendum was submitted as issue #1390, submission loom-gendarme-f7a40-span-audit-20261105t1239z-s0-001. Its embedded content SHA-256 matches 40553eb8d957c550e3b0a05b9da3dd5b63aa9bb1071dac8941e25e0e6981e53d, but the existing publisher rejected it because the payload schema was uppercase HSH-PUBLISH-V1; the required literal is lowercase hsh-publish-v1. No published artifact or readback exists. No corrected duplicate submission was created.
