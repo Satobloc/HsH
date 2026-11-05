@@ -151,3 +151,10 @@ All four existing tasks were independently inspected after the rejected update:
 | Workshop Relay :48 | Review | 6aa6c3bc02b48191b8a91a30d2a155e0 | Yes | Hourly, America/New_York :48 |
 
 No scheduler change succeeded. Their prompts remain as previously configured. The workspace files are live and can be resumed interactively, but scheduled tasks will not automatically consult them until the prompt overlay is installed.
+
+
+Additional continuity resources:
+
+- `WORKER_RECOMMENDATIONS.md`: reusable, explicitly experimental recommendations for other workers.
+- `CALENDAR.json`: machine-readable recurrence and review triggers.
+- `heartbeat_check.py`: read-only Python diagnostic for heartbeat age and installation status. It cannot schedule or trigger work on its own.
