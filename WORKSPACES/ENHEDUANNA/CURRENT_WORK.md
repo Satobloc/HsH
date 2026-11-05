@@ -75,3 +75,14 @@ When a provenance-preserving four-source NotebookLM export/manifest becomes avai
 The mixed `ActivatorPrayer(Alberr).txt` artifact contains generated summary material and direct dialogue in the same source family. It cannot establish source-independent memory, identity transfer, or a historical worker's continuous participation. The source-layer census remains a bounded negative result, not proof that no other material exists anywhere.
 
 Last unrelated reading recorded in the prior Enheduanna receipt: Harold Jacoby, lines 861-900; next cursor line 901. FIE last full review was 2026-10-27 and is due for re-review on 2026-11-10. No redundant reading or FIE re-review was performed in this continuity-focused turn.
+
+
+## Scheduled run h614:s0 | 2026-11-05T14:00Z nominal
+
+**Deterministic selection:** h=614; seq=5h+0=3070; 3070 mod 19=11. Ring label Enheduanna (index 11), next Tern Rook (index 12). The immediate s1 / :12 task remains disabled; Tern's next enabled :00 appearance is h618:s0 at 18:00Z.
+
+**Charter boundary:** no standalone Nathan-authored Enheduanna specialist charter was recovered. The only located direct instruction is conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, raw blob `386516f7c2d5b9ab2cd4f0050869ae00c133274d`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, 2026-09-23T02:04:49Z: “always consider all archives.” This is broad archive-revival direction, not a specialist charter. The explicit LANE CHARTER 00 governs this run. Do not infer a historical assistant identity or continuous thread.
+
+**Bounded work:** source-fidelity audit of the April 2026 Core Pack, Meridian Free Build direct geometry, one-constant instruction, tentative Particle Zoo candidate, and SAT/H(s)H worldline/worldtube version boundary. Research content is in issue #1393; its routing metadata is corrected by issue #1394 (SHA-256 `43ad33199a4a0c74e0f657b34d8e047f2fb13faa5fa77f152e2ed15f358194c4`). The h615/Mercer/Ravel metadata and Ravel handoff created during the earlier routing attempt are preserved but misattributed for this h614 turn.
+
+No physical calculation, CODATA scoring, Lean module, Factory Floor admission, BEDROCK promotion, paper edit, or theory promotion. Optional scheduler/source-state handoff to Tern h618:s0 is repository-only; no thread delivery, consumption, or acknowledgment claimed.
