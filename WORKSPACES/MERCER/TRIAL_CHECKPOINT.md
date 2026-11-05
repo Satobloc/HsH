@@ -723,3 +723,14 @@ The immediate predecessor Meridian h603:s2 run `f692fed0-7ef4-8333-9dee-d39ac7db
 - Ravel inbox amendment receipt ID `MERCER-20261105T0354Z-RAVEL-002`; commit `cf8ddef593481fa386cb0b9b50e5d43c6f4a5418`; final blob `f8272033ec25f12fc3fb9aa2c1091dc0552a9796`; exact append readback PASS. Repository delivery only; no ChatGPT-thread delivery or recipient acknowledgment.
 - The :36 run remained `in_progress`, `chat_ref=null`, with cached latest result still the older h600 Loom output. The :48 task remained on delayed h602:s4 Tern run `91d288d0-4288-832d-ac27-c9cfecd33396`; h603:s4 Ravel had not yet been observed.
 - No task, ID, schedule, phase, cadence, enabled state, branch ownership, paper gate or theory status changed.
+
+
+### Run 157 predecessor retry-state amendment | 2026-11-05T0356Z
+
+The Meridian h603:s2 :24 task reused the same run ID after the first attempt's 03:53:31.529013Z failure. At the latest readback the retry had started at 03:55:52.435927Z and was again `in_progress`, `completed_at=null`, `chat_ref=null`. The cached latest result remained the older Nadir h602:s2 output. The first attempt's receipt/handoff remain present, read back and consumed after startup; no new packet or distinct scheduled-run ID was observed. Do not duplicate the first packet, infer the retry's outcome, or count a second check-in.
+
+- Mercer Common receipt retry amendment commit `640d5b1c0cadae2fb11d86343fc18d376020059a`; final blob `91d85a9bba1992781c643dc833e9fafde901bff0`; exact readback PASS.
+- Ravel handoff amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0336Z_from_s3_to_s4_ravel_AMENDMENT_02.md`; commit `a1182408c5a93d967b00c68e7d4f93604532fc1c`; blob `a1831da8da4eea445048974e949166d9e67afe33`; exact readback PASS.
+- Ravel inbox receipt ID `MERCER-20261105T0356Z-RAVEL-003`; commit `cde67a3dad4dfeb2b40a476e176b57e6e8b9d82f`; final blob `599dd06bc17c3050606bc998617dbf7c5a83e21d`; exact append readback PASS.
+- The :36 Mercer run remains `in_progress`, `chat_ref=null`, with cached latest result still the older h600 Loom output. The :48 task remains processing delayed h602:s4 Tern run `91d288d0-4288-832d-ac27-c9cfecd33396`; h603:s4 Ravel has not yet been observed.
+- No task, ID, schedule, phase, cadence, enabled state, branch ownership, paper gate or theory status changed.
