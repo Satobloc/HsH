@@ -739,3 +739,46 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Run key `REVROT3-19-20261011:604:s2`; scheduler task `6abda4c8eda88191bf23a6f2849e9a17`; scheduler run ID `ff0ed202-0f90-832a-844d-48eb1940c0b9`; `chat_ref=null`. The published issue #1382 snapshot recorded `started_at=2026-11-05T04:23:01.390379Z`; a later live peek showed the same run ID with `started_at=2026-11-05T04:50:36.495387Z` and status `in_progress`. No attempt ID was exposed; preserve both observations and do not infer a second authenticated instance.
 - HsH `main` base at the start of this reconciliation was `46110d0e990d0b6d5479dabea24cc14898f39013`. The task graph remained at `853613f8fd223b20ff7cb2e22f95ffe6562deeec`, updated 2026-11-04T23:45:40Z; Tern owns graph reconciliation, so no graph edit was made.
 - No task, schedule, branch, PR, paper gate, BEDROCK theory status, signet, or chat name was changed. No new Mersearch request was submitted.
+
+
+## 2026-11-05T1320Z | h612:s0 Archive source-fidelity and upkeep review
+
+### Rotation / scheduler integrity
+- Run key: REVROT3-19-20261011:612:s0; h=612; seq=3060; worker label Loom (ring index 1); next ring label Aster (index 2).
+- Existing Archive task ID 6aa1fe0de5e48191b886496095b1343f remains enabled at its existing hourly :00 America/New_York schedule. No task, ID, phase, cadence or automation edit was made; no sixth task was created.
+- The :12 slot remains disabled. Therefore Aster is the deterministic ring successor, but the next active scheduled slot is :24 / s2 / Ariadne, not an immediate Aster run. Optional Aster context is repository-only.
+- No verified immediate Sable h611:s4 receipt or handoff was found. The deterministic ring label is not an authenticated ChatGPT instance/thread. chat_ref=null; automation run ID not exposed.
+- The current Loom CURRENT_WORK card is tied to the separate :24 task ID 6abda4c8eda88191bf23a6f2849e9a17. It was left unchanged rather than overwritten by this :00 run.
+
+### Geometry-fidelity work
+- Deliberately did not repeat the 2024 Dimensional Gravity string-ball assistant-span already covered in Alberr's 2026-11-02 receipt, or the Cruller/Klein source-boundary work already recorded in Loom issue #1374.
+- Continued at the Gendarme Graticule local cursor. Raw source conversation 6a9aa91b-11f4-83ea-80a1-4d502522e441 was checked in LIVE CONVOS blob d21e251df093013903cc19789ded562f83b6e6ea (343 nodes / 333 ancestry) and expanded SAT_CONVOS_13 blob 1f841895a2585843373fe33d55a0180c91cc8423 (706 / 696). Relevant shared messages are byte-identical across snapshots.
+- Added the previously untagged Nathan Direct request a6c300a6-892d-4e20-9fe1-dbdcf33d3eed and assistant continuation f7a40c0c-a419-4bb4-95c3-b6127c8c2481 to the existing Loom source-tag ledger. The direct request is a request for representation, not a new physical proposition. The long assistant span proposes a 3D-torus -> integrated-angle -> sphere-null -> 2D-graticule pipeline and the equations m_minus(u,v)=m_plus(-u,v), C=(m_plus-m_minus)/2.
+- Fidelity result: the 3D-calculation / 2D-display split is a plausible assistant reconciliation, not explicit Nathan acceptance. The metric-to-angle map, torus-to-sphere comparison, and peer-solver interface remain undefined. The mirror is a display involution; C is the odd display residual, not a physical cancellation law. No physical equivalence to WWRD climbing-rope mechanics is claimed.
+- Formal target: R(u,v)=(-u,v), R^2=id; if m_minus=m_plus composed with R, then the odd component changes sign under R and the even component is invariant. No Lean 4/Mathlib compile/run was possible: lean, lake and elan are absent, and the existing PRs #873, #895 and #1245 are separate workstreams. No new branch/PR or Lean module was created.
+- No physical calculation, dataset fit, CODATA scoring, observational validation, or BEDROCK theory promotion.
+
+### Publication disposition
+- A narrow addendum to issue #1322 was submitted as issue #1390, submission loom-gendarme-f7a40-span-audit-20261105t1239z-s0-001.
+- The issue-body content SHA-256 is 40553eb8d957c550e3b0a05b9da3dd5b63aa9bb1071dac8941e25e0e6981e53d and matches the embedded content.
+- The existing publisher ran and rejected the payload as invalid schema. The script requires the literal lowercase schema value hsh-publish-v1; this submission used uppercase HSH-PUBLISH-V1. GitHub Actions bot comment #6658928856 records REJECTED: invalid schema. No published artifact or repository readback exists. No corrected duplicate issue was created. Status: PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
+- The owner-gated issue-publisher workflow places actions/checkout@v4 before validation. Count one likely HsH Actions checkout event for the clone-footprint census; exact workflow run/job ID was not exposed.
+
+### Unrelated reading / break
+- Read SAT archive source 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 461-520.
+- Tag: LATERAL_READ / STANDALONE_CONVERSATIONAL / LANGUAGE-ANALYSIS / SPEAKER-UNVERIFIED. This is not a raw role export; no text is attributed to Nathan Direct. Next line: 521.
+
+### First deeper open-work sweep and five-entry census review
+- Since the 2026-11-05 upkeep protocol was introduced, at least eight substantive worker receipts are visible (00:36 Loom, 01:48 Calder, 02:24 Nadir, 03:24 Meridian, 03:36 Mercer, 06:48 Morrow, 08:00 Sable, 08:24 Aster), plus a restricted/skip receipt. The five-activation threshold is exceeded; first deeper sweep completed.
+- P0 Code Grurple remains active and unchanged.
+- P1 November 9 minor cognition paper remains separate. Orson's approximately 4/5 cognition allocation is protected. The prior publisher attempt #1388 was rejected; no verified readable PDF/reader plus independent review was recovered in this sweep. No paper-gate advancement.
+- P2 November 30 real-system geometry remains HOLD: no selected measured system with provenance, units, calibration, uncertainties and independent holdout. No physical calculation. Existing Whirligig remains an active P2 project; Math Hopper remains an existing extraction tool. No new tooling or service was built.
+- P3 December 14 full-theory paper remains separate and source-blocked. All four Mersearch request files remain status requested; request-scoped manifests/receipts were not present at the expected paths. No released lane, no new Mersearch request, and no new SAT-O/Blockwave equation recovery.
+- Clone census: the shared log had four reconstructed ring-label entries before this Loom append; now 5/19, with 14 remaining. The five-entry review trigger is reached. The action plan and task graph still contain stale counts (1/19 and 18 remaining); Tern owns reconciliation, so neither was edited here.
+- Existing Mira check-in supplies a separate metadata-only fork result (fork=false, forks_count=0, network_count=0 for the three repositories); this is not a first-hand Loom observation. SciSpace is available but unused. No paid service used.
+- FIE last full review 2026-10-27; next due 2026-11-10, not yet due.
+- No branch, PR, automation, task, schedule, phase, signet, conversation name, BEDROCK status or paper gate was changed.
+
+### Next cursors
+- Local Gendarme cursor: 3e540785-e8df-421c-aded-63bd85add0f8 (2026-09-07 role clarification; no acceptance of f7a40 established).
+- Global cursor: Minkowski Ring Analysis beginning at 861acc12. Test any relation between the local display reflection and global material winding reversal only through explicit maps; do not assume equivalence.
