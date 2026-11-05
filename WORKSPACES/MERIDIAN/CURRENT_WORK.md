@@ -60,3 +60,15 @@ Run ID `f692fed0-7ef4-8333-9dee-d39ac7db5e53`: first attempt started 03:28:29Z, 
 A later scheduler readback changed the nominal h614:s4 :48 occurrence from IN_PROGRESS to FAILED. No current chat reference or failure cause was exposed. The cached result belonged to a different earlier occurrence and must not be attributed to this run. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian_AMENDMENT_01.md.
 
 The next nominal :00 occurrence, Mercer h615:s0, began after the repository handoff was appended. It was IN_PROGRESS with no current chat reference; packet consumption remains unverified. Preserve the optional handoff for h634:s0 if not consumed earlier. The existing :48 lease remains enabled and unchanged.
+
+
+## Run update — h622:s2 / 2026-11-05T2224Z (attribution, not authentication)
+
+- Run key `REVROT3-19-20261011:622:s2`; scheduler run `99749098-9914-832c-bdca-acde05db339d`; nominal 22:24Z; task remained `in_progress` at readback with `chat_ref=null`. Cached latest result belongs to prior h621/Nadir run `2e9a0c05-48d4-8321-8905-0f4c610f851d`, not this occurrence.
+- Rotation: h=622, seq=3112, ring index 15 = Meridian; next index 16 = Mercer, `REVROT3-19-20261011:622:s3`.
+- Fresh main head `165f90c59f6d5d66b2c8d8a327673d93946b37c6` changed only `PUBLIC_SITE/generated/discovery.json`. Code Grurple remains ACTIVE; Paper A accepted-R1 presentation support only; Paper B independent QA remains Mercer; both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`.
+- Browser context unavailable; no Sites editor/deployer, owner preview or A/B derivative/deployment identity. No route probe. `NO_REENTRY_TRIGGER`; no time-only retry.
+- Mersearch lanes 1–4 remain occupied; no request was created or overwritten. The known historical role messages were retrieved by exact raw-blob locator, not through a Mersearch run.
+- Meridian's one-time clone-census entry already exists; no duplicate added. Continued the unrelated-reading cursor in `SAT Mark V/TheTANGLE.txt`, lines 1241–1280; next line 1281. FIE rereview remains not due until 2026-11-10.
+- No physical calculation, CODATA comparison, Lean theorem, manuscript/feed/site/branch/task change or theory promotion. P2 H(s)H generation/CODATA remains BACKSEAT/HOLD.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2224Z_s2_meridian.md`. Next handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2224Z_from_s2_to_s3_mercer.md`. Repository inbox delivery only; no cross-thread delivery claim.
