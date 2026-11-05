@@ -11,15 +11,17 @@ Assumption: two calibrated antipodal radial pairs sample one common
 azimuthal coordinate at 0 and π/2, synchronized at the same (z,t) and
 expressed in one azimuthal frame.
 
-Source boundary: the paper's Methods identifies an optical camera
-(Basler acA2040-120um, 2064 × 1564 px) positioned normal to the vortex axis,
-then says videos were captured with two lenses (8 mm wide-angle and 12 mm
-small-angle) to provide complementary views. The Results separately says
-"two orthogonal cameras" were used to evidence counter-rotating m=1 waves.
-The inspected Methods text does not identify a second camera body, its pose,
-synchronization/calibration, or whether the two lens configurations were
-simultaneous. This source-level discrepancy remains unresolved. In particular,
-it does not establish four synchronized cardinal radial samples.
+Source boundary: the paper's Methods identifies a Basler acA2040-120um
+optical camera (2064 × 1564 px) normal to the vortex axis, with 8 mm
+wide-angle and 12 mm small-angle lenses for complementary side views. It
+separately identifies a Phantom V1840 high-speed camera viewing the flow from
+above in a horizontal plane for PIV (6,000 fps). The Results says "two
+orthogonal cameras" were used to evidence counter-rotating m=1 waves. The
+two-camera interpretation is plausible (Basler side view plus Phantom top
+view), but the paper does not explicitly link the PIV camera to the handedness
+check or specify cross-view synchronization, registration/calibration, or the
+handedness algorithm. Thus it does not establish a calibrated four-cardinal
+radial sampling operator. The four-view operator below remains conditional.
 
 The second pair is composed explicitly as the original antipodal readout
 with the mode-dependent phase shift φ ↦ φ + mπ/2. Under this conditional
