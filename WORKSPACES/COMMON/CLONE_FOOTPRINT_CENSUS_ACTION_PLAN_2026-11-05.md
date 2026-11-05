@@ -15,7 +15,7 @@ Estimate how much of the repository clone traffic is plausibly explained by proj
 
 ## Why now
 
-The reported traffic acceleration and follower growth are unresolved. Issue #1315 remained open since November 3 with zero comments and no responses because the issue/log were not routed into worker prompts, the task graph, or an addressed handoff. The delivery route is now recorded in the live Steering Charter/task graph and a coordinator handoff was written to Tern's repository inbox. The evidence window is time-sensitive and the question is bounded.
+The reported traffic acceleration and follower growth are unresolved. Issue #1315 remained unanswered since November 3 because the issue/log were not routed into worker prompts, the task graph, or an addressed handoff. The root delivery gap is now documented and the route repaired: the Steering Charter and active task graph contain the request, and coordinator packets are recorded in Tern's repository inbox. At the latest readback, the issue had four coordinator comments, one reconstructed ring-label entry, and zero authenticated first-hand worker-thread replies. The evidence window is time-sensitive and the question is bounded.
 
 ## Scope
 
@@ -39,7 +39,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph; the four existing prompts already read the charter; no schedule/task-ID change | ROUTING VERIFIED / PROMPT EDIT BLOCKED BY PLAN LIMIT |
 | Identity check-ins | Each selected ring label once | One of 19 entries recorded (Nadir Voss index 10); it is explicitly a reconstructed report, not an authenticated first-hand worker response. Remaining 18 labels have no entries. | IN PROGRESS |
-| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS |
+| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS / 4-EVENT SAMPLE VERIFIED |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
 
