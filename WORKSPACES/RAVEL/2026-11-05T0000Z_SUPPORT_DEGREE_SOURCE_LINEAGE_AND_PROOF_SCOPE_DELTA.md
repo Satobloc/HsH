@@ -52,7 +52,7 @@ The document describes a one-dimensional filament curve in Lorentzian \(\mathbb 
 
 ### 2.2 Blockwave J2 attachment
 
-The raw conversation is **🧶🧱SAT**, conversation ID `68c990dd-df28-832e-b766-c267190aaffa`. The file-search extraction is message `0f3707aa-c0ae-4bb1-bc59-6333c025cf1c`, timestamp 2025-09-16T16:31:34.670Z. The preceding user message asks whether the documents in the folder are accessible; the extracted file is a supplied folder artifact, not a direct user-authored equation message.
+The raw conversation is **🧶🧱SAT**, conversation ID `68c990dd-df28-832e-b766-c267190aaffa`, native raw-JSON SHA-256 `c7eda5eb66a0daabd7e780d9695a610860ff60038f23d661fceefc7cabcd73f9`. The file-search extraction is tool message `0f3707aa-c0ae-4bb1-bc59-6333c025cf1c`, timestamp 2025-09-16T16:31:34.670Z. The raw export records the attachment in a system-role attachment record; the file text is exposed by the file-search tool quote. The outer file was supplied in the folder, but its internal composition author remains unresolved. The preceding user message asks whether the documents in the folder are accessible; the extracted file is a supplied folder artifact, not a direct user-authored equation message.
 
 The attachment is assistant-voiced (“Here’s a single, compact action…”), has no embedded byline or creation date, and has unresolved embedded authorship. Do not classify it as Nathan Direct.
 
@@ -84,6 +84,14 @@ Raw conversation: **🪡 The Tourist Tailor [e-]**, conversation ID `68cad3d4-0c
   \]
 
 The later response does **not** provide a potential, constitutive definition, or field equation constructing \(J_3\). It is a three-form editorial/narrative track with a dual-vector definition, not a completed three-form current theory. No direct Nathan-authored J3 field equation was recovered in this source cluster.
+
+The source-genealogy ledger preserves the exact assistant-authored fragment hashes:
+- First J3 topological-term fragment, \\(\\theta\\,\\epsilon^{\\mu\\nu\\rho\\sigma}\\partial_\\mu J_{\\nu\\rho\\sigma}\\): SHA-256 `9daa1071de1eb94c175624148aabce4ac4d084539c5df2b098c7f9a367e5dc94`.
+- Initial J3 dual-vector attempt, \\(\\widetilde J^\\mu=\\tfrac12\\epsilon^{\\mu\\nu\\rho\\sigma}J_{\\nu\\rho\\sigma}\\): SHA-256 `80f1d1b602dccd9d256b2758960f8515372918c8f430ed28a4418fef2e04abd7`. Its coefficient is not the standard 3-form dual normalization.
+- Later corrected dual-vector expression, \\(\\widetilde J^\\mu=\\tfrac1{3!}\\epsilon^{\\mu\\nu\\rho\\sigma}J_{\\nu\\rho\\sigma}\\): SHA-256 `84479022ad5d98e154606803b3683f91718ab407f50e23393b3c154a16d76bfb`.
+- False assistant sentence “2-forms and 3-forms are Hodge duals”: SHA-256 `646a92dba173bbac54055cbacfef0db060b7893984880ae9c612cb60b8ecaf7b`.
+
+The possible carryover of the J2 expression's \\(1/2\\) coefficient into the first J3 dual attempt is a source-genealogy hypothesis only. It is not established lineage. The later 2025-10-19 assistant-generated J2 action is a separate assistant output and is not a direct Nathan reversal of the 2025-09-18 three-form editorial instruction.
 
 The earlier assistant statement that J2 and J3 are Hodge dual is mathematically wrong in four dimensions: the Hodge star maps p-forms to (4-p)-forms. Thus a 2-form maps to a 2-form, while a 3-form maps to a 1-form.
 
