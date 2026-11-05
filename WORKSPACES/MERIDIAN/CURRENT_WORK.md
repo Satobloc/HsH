@@ -82,3 +82,8 @@ The preceding run-update phrase “no ... branch/task change” should be read a
 ### Final main-head correction — h622:s2
 
 The `89a34d9c` commit was the first verified inbox-append commit. Subsequent bookkeeping corrections advanced the existing `main` branch to `aa871ed506fb0311a60139f106785f703dc13c0f` at 22:35:57Z. This supersedes the earlier use of “final observed operational commit” for `89a34d9c`. No research branch was created or switched.
+
+
+### Scheduler observation update — 2026-11-05T2236Z
+
+The delayed prior :36 h621 run `daaf9942-7c8c-8329-bee6-b9b22a933e11` ended FAILED at 22:32:58.240873Z, `chat_ref=null`; the displayed cached result is from a different run. Cause unknown. The :36 task remains enabled and unchanged; next nominal slot h622:s3 is Mercer. The current :24 h622 run remains in progress, `chat_ref=null`, with cached h621/Nadir result not attributable to it. No inference of context exhaustion or worker nonresponse.
