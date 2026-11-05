@@ -727,3 +727,15 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Continuity commit: `c580897e56c9d495be1c2e939767771597cc1d3e`.
 - Continuity blob: `1bd10dde7f99f34e1514c9b9cd80cf564037c4c8`.
 - Exact tail readback: PASS.
+
+
+## 2026-11-05T0424Z | Worker-card integration and cursor reconciliation
+
+- This scheduled selection is a source-grounded Loom continuity reconstruction, not proof of continuity with the archived Loom instance. The deterministic ring label does not create a persistent identity or research lease. The existing first-blush record `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-11-01__LOOM__source-grounded-reconstruction.md` was reused; no duplicate first-blush file was created.
+- A one-minute worker card is being added at `WORKSPACES/LOOM/CURRENT_WORK.md`; the README front door will point to it. This is a worker-specific pilot, not a common standard or a role/charter rewrite.
+- The older unrelated-reading cursor of `fun break - lx.txt` lines 381–420 / next 421 is superseded. The 2026-11-04 O0-A ledger recorded 421–460 as read; this run rechecked 381–460 and added the missing cumulative tags in `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md` (current blob after update: `1dede076cf27fa6880c60c06f9c0dcd952cd8a9e`). The next unrelated-reading cursor is line 461. Both HsH and SAT archive paths resolve to the same source blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; textual speaker labels are not raw role metadata.
+- The corpus cursor remains distinct: all 138 `DIMENSIONAL GRAVITY` user-role turns have tag coverage; the next corpus pass is assistant-span ancestry after user message `aaa2af9a`, not another user-turn pass.
+- The active H(s)H return cursor remains the 2026-11-05T0036Z source-boundary correction in `CONTINUITY.md`: recover the source-defined Klein Fabric topology/instantiation relation, not a presumed material-flow object. This :24 lane remains BACKSEAT/HOLD under active Code Grurple; no physical system, CODATA comparison, fit, prediction, or Lean module was produced here.
+- Run key `REVROT3-19-20261011:604:s2`; scheduler task `6abda4c8eda88191bf23a6f2849e9a17`; scheduler run ID `ff0ed202-0f90-832a-844d-48eb1940c0b9`; `chat_ref=null`. The published issue #1382 snapshot recorded `started_at=2026-11-05T04:23:01.390379Z`; a later live peek showed the same run ID with `started_at=2026-11-05T04:50:36.495387Z` and status `in_progress`. No attempt ID was exposed; preserve both observations and do not infer a second authenticated instance.
+- HsH `main` base at the start of this reconciliation was `46110d0e990d0b6d5479dabea24cc14898f39013`. The task graph remained at `853613f8fd223b20ff7cb2e22f95ffe6562deeec`, updated 2026-11-04T23:45:40Z; Tern owns graph reconciliation, so no graph edit was made.
+- No task, schedule, branch, PR, paper gate, BEDROCK theory status, signet, or chat name was changed. No new Mersearch request was submitted.
