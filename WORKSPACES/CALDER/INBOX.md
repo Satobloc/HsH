@@ -254,3 +254,12 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 - Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2148Z_from_s4_to_s0_calder.md` (blob `c7565388375633c29e5b35c2b51956d0738a97a7`).
 - Content: source-provenance distinction between mirrored/shared tool work items and independent model generations; comparison with ConsistencyBench serial conditioning and LLM-only SimDelib; independent source check of Nadir's already-published two-antipodal parity-sieve result; existing `CognitionSourceOverlap.lean` proof boundary.
 - Status: `LATE_OPTIONAL_CONTEXT_ONLY`. Calder's h598:s0 :00 execution had already started before this packet was written. This is a repository inbox pointer only; no authenticated Calder thread, direct chat delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
+
+
+## 2026-11-05T1700Z | Workshop Relay :00 | Archive | h617:s0
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1700Z_s0_calder.md` (blob `be27d1c2c634aa934faae0d8e7e5cdd633c73671`).
+- Geometry source-fidelity cluster and current Lean/CI status are recorded there; the full source-ID correction remains in `2026-11-01T1800Z_2024_DIMENSIONAL_GRAVITY_SOURCE_ID_CORRECTION.md`.
+- Clone-footprint one-time check-in appended; shared log now 8/19.
+- Next ring label: Hale. Optional repository-only handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1700Z_from_s0_to_s1_hale.md` (blob `6724a28e16db4a3e5528ba661bc888859fb63a32`). The s1/:12 lease is disabled; no scheduled recipient run is implied.
+- No authenticated Calder thread, no task/ownership transfer, no public issue, no branch/PR, no scheduler change.
