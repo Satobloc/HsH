@@ -86,6 +86,7 @@ theorem invariant_weighted_allocation_orbitwise
   have halloc : ActionInvariant (G := G) (P := P)
       (fun z => μ.mass z * ρ z) := by
     intro g z
+    change μ.mass (g • z) * ρ (g • z) = μ.mass z * ρ z
     rw [hμ g z, hρ g z]
   exact invariant_equal_on_orbit (G := G) (P := P)
     (fun z => μ.mass z * ρ z) halloc hxy
@@ -110,6 +111,7 @@ theorem transitive_invariant_weighted_allocation_equal_share
   have halloc : ActionInvariant (G := G) (P := P)
       (fun x => μ.mass x * ρ x) := by
     intro g x
+    change μ.mass (g • x) * ρ (g • x) = μ.mass x * ρ x
     rw [hμ g x, hρ g x]
   have hconst : ∀ x y : P, μ.mass x * ρ x = μ.mass y * ρ y :=
     invariant_constant_of_transitive (G := G) (P := P)
