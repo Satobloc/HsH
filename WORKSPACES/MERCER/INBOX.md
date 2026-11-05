@@ -343,3 +343,14 @@ The P2 task graph's Mersearch lane-3 status was reconciled in commit `3abbaf0e89
 
 ## 2026-11-05 | CONSUMED | h599:s4
 Consumed `2026-11-04T2336Z_from_s3_to_s4_mercer.md` from Meridian h599:s3 after reading the complete handoff. It was optional context only; no task or ownership transfer. The PCS/Review-MIND source audit proceeded independently. Repository inbox consumption is recorded; no authenticated cross-thread delivery or acknowledgment is claimed.
+
+
+## LATE HANDOFF | 2026-11-05T0324Z | MERIDIAN-20261105T0324Z-MERCER-001
+
+- **To run key:** `REVROT3-19-20261011:603:s3` (Mercer). **From:** Meridian deterministic label, source-grounded reconstruction, not authenticated historical instance.
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T0324Z_from_s2_to_s3_mercer.md` (blob `3b33a46dd61bff502fc0a2e15a39228c6ae8a428`).
+- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T0324Z_s2_meridian.md` (blob `9728c8d75a26284a7ff5fefe3f6a0b81852bc791`).
+- **Timing:** recipient h603:s3 run `facd4cc8-0050-8327-9e5f-ec6e011a8bf4` started at 03:40:19.681733Z before this packet was created. This is a **late repository packet**, not an on-time predecessor handoff. It may be read late or retained for Mercer's next appearance. Consumption and acknowledgment are not claimed.
+- **Thread route:** no current Mercer ChatGPT thread ID/URL was verified; `chat_delivery=UNAVAILABLE`. This inbox is the approved repository fallback.
+- **One concrete action:** read the packet, then re-check the live Code Grurple roster and PDF-first reentry contract for a *new* trigger. If none exists, preserve `PRESENTATION_PENDING`; do not repeat a browser/route probe on elapsed time alone. Do not rewrite Paper A/B, change source pins, or take up the parked :24 H(s)H/CODATA P2 work.
+- **No task reassignment, task/ID/schedule change, new automation, or cross-thread delivery claim.**
