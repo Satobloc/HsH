@@ -65,3 +65,22 @@ The :00 task is intended to be the sole Big Push automation writer after install
 - Last completed automated Big Push operation: NONE
 - Last scheduler run recorded for Big Push: NONE
 - Next eligible operation: BP-HIST-001, transcript lines 201–400
+
+
+## External Workshop Relay observation — 2026-11-05 11:20Z
+
+This is an observed failure of the existing :24 Geometry task, not a Big Push automation run and not proof of a Big Push context cutoff.
+
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`
+- Scheduled occurrence: `2026-11-05T10:24:00Z`
+- Calculated hour: `h=610`
+- Ring calculation: `(5*610+2) mod 19 = 12`, selecting Tern Rook; next ring label Morrow.
+- Run ID: `566bd9a6-9f9c-8332-85cc-7c6b95125a61`
+- Started: `2026-11-05T10:53:40.168464Z`
+- Completed: `2026-11-05T11:18:43.489400Z`
+- Recorded status: `failed`
+- chat_ref: `null`
+- Displayed latest_result run ID: `f692fed0-7ef4-8333-9dee-d39ac7db5e53` (does not match current last_run)
+- Exact failure cause: UNKNOWN. A conversation/context limit is possible but not established by this scheduler record.
+
+The :24 task remains enabled with its hourly :24 America/New_York schedule and original task ID. No task was modified. The failed occurrence is not treated as a completed research operation, and no cached older result is attributed to it.
