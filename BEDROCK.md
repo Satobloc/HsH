@@ -1,5 +1,20 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+### ND-2026-11-04-01 — EXCLUSIVE NATHAN SIGNET AND PROVENANCE CONTROL
+
+**Authority:** Nathan Direct, 2026-11-04, explicit correction in the Workshop Relay :00 | Archive discussion. **Scope:** all assistants, workers, automations, scripts, repository text, generated artifacts, chat responses, metadata, and corpus/indexing workflows. **Status:** mandatory provenance BEDROCK.
+
+1. **Exclusive use:** Only Nathan may use or apply his reserved signet. No assistant, worker, automation, script, or generated artifact may append, reproduce, imitate, draw, paste, approximate, emoji-substitute, stylize, or otherwise use it as a signature, badge, decoration, approval, or authorship marker.
+2. **No assistant sign-off:** Never use the signet or a substitute for it in assistant-authored conversation, prose, code, repository material, commit messages, filenames, labels, or other output. Do not sign as Nathan or make assistant-authored text appear to be Nathan Direct.
+3. **Faithful quotation only:** If a direct quotation of Nathan's own signed source must preserve the signet, use only the exact textual placeholder Nathan designated, inside the quotation and with explicit Nathan/source attribution. Do not place that placeholder in assistant-authored voice, headings, summaries, signatures, or decorative contexts. Prefer referring to the reserved signet in prose when a literal quotation is unnecessary.
+4. **Corpus/search provenance:** A signet occurrence counts as Nathan-authored only when it is present in the original Nathan-authored source. Assistant transcriptions, summaries, reconstructions, or quotations must never be indexed or represented as new Nathan signet uses. Preserve the original source pointer and distinguish source-present signet metadata from any textual quotation or normalization. Search and retrieval intended to identify Nathan's own signet uses must return only source-authenticated Nathan-authored occurrences.
+5. **Meaning limit:** The signet identifies Nathan's authorship/provenance for the exact accompanying content. It does not by itself establish mathematical correctness, empirical validation, endorsement of an entire document, currentness, or promotion of a hypothesis.
+6. **Precedence and implementation:** This is a direct clarification and tightening of the existing signet protections in [WORKER_AUTONOMY_HANDOFF_PROTOCOL.md](WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md). Apply the stricter source-exclusive rule wherever older wording permits worker-side textual reproduction. Preserve Nathan's original signed source unchanged; do not retroactively edit his source to normalize or remove his own signet.
+
+**Attribution boundary:** This is a process/provenance directive only. It adds no physical premise and does not alter any theory status.
+
+---
+
 CODE 000: Nathan Permanent<br> <span style="color:green">Code Meangreen Invoked</span> — Mandatory Prove/Play …Lean …Factory Floor. —NM 23OCT2026🦉
 
 ### ND-2026-10-25-01 — Real-world data first; permission gate for data-free calculations (HIGHEST PRIORITY, MANDATORY)
