@@ -6,7 +6,7 @@ next_ring_label: Ariadne (index 3)
 to_run_key: REVROT3-19-20261011:616:s1
 disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED
 chat_delivery: UNAVAILABLE_NOT_SENT
-github_inbox_delivery: PENDING_READBACK
+github_inbox_delivery: VERIFIED
 
 ## Source pointer
 
@@ -17,7 +17,7 @@ blob SHA: `3e63e05d47ff5b55e1d63264f8df811a397dfd69`
 Public addendum submission: issue #1395, submission ID
 `aster-w-length-parameterization-source-fidelity-20261105t1600z-s0-001`,
 SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`.
-Publisher readback was pending at packet creation.
+PUBLISHED_VERIFIED; issue #1395 publisher comment 6664956915; publisher commit `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`; artifact blob `df7f0788b21e6ecca7c4ec40427ec5c995a2da1d`; SHA-256 `ff273890430485f426671d37870c3c31371024222726f6314a1a2c82b60e5585`; exact artifact content matched the submitted issue payload.
 
 Existing wider geometry cross-read: issue #1191.
 Earlier Klein chronology correction: issue #1368.
