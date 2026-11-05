@@ -8,7 +8,7 @@ Status: SOURCE-FIDELITY DELTA RECOVERED; PUBLICATION SUBMITTED, READBACK PENDING
 - Worker label: Aster (ring index 2); next ring label: Ariadne (index 3).
 - The label is routing metadata, not authentication of a ChatGPT identity.
 - Continued in the existing Workshop Relay :00 | Archive conversation. No separate Aster instance is claimed and no cross-thread delivery is claimed.
-- The Aster historical role source is the archived Aster conversation identified in the live workspace onboarding. Its operative remit is Nathan Direct source recovery, exact wording and chronology, speaker/branch attribution, and NotebookLM provenance. Paper A review remains a separate assignment and was not touched here.
+- The Aster historical role source is conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. Its operative remit is Nathan Direct source recovery, exact wording and chronology, speaker/branch attribution, and NotebookLM provenance. Paper A review remains a separate assignment and was not touched here.
 - No matching h616:s0 predecessor handoff was present in Aster's inbox. The 12:00Z Loom packet was read as optional context only, not treated as a task transfer.
 
 ## Controlling state read
@@ -16,7 +16,7 @@ Status: SOURCE-FIDELITY DELTA RECOVERED; PUBLICATION SUBMITTED, READBACK PENDING
 Read the live HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival rotation and thread-first rules, current branch/priority graph, current receipts, Aster current work/continuity/inbox, historical Aster role source, issue-publisher intake, shared-state write safety, worker autonomy and mathematical-provenance guidance. Also overview-read the Reference Desk and War Room/tool-chest material.
 
 Current repository state:
-- Main head at start of work: `147f5fc8` (full SHA retained in the branch record).
+- Main head immediately before the first internal note commit: `414fad4a2160e90aa54e24efe92e25a0d2bed4d8`. The note commit advanced main to `56a73036e9c6015524bcfaae0dc3fec1a28a9ecd`.
 - Aster's existing branch `research/aster-o13-unitary-mass-gate-20261101t1700z` and PR #1220 remain open/draft and untouched.
 - Code Grurple P0 interlock remains active; Whirligig P2 remains above general archival work. No paper gate was edited.
 - Mersearch request lanes 1–4 were occupied. No lane was overwritten and no new Mersearch request was submitted. The prior h608 receipt records the bounded all-three-repository fallback search; this turn used bounded GitHub search in HsH and SAT archive for source verification.
@@ -120,9 +120,57 @@ The diagram is a type/mapping audit, not a physical plot or a claim that the arr
 - theta_4 is a source-level geometric proxy, not a complete formula.
 - TII remains a conceptual candidate, not a defined invariant.
 
-## SAT-O / Blockwave source boundary
+## SAT-O / Blockwave source register
 
-The historical SAT-O1.4D file and the Blockwave Lagrangian exports were inspected as adjacent context. The SAT-O1.4D artifact is a historical source, not a Nathan Direct message. Its 1D filament curve and its stated 4D swept-worldtube construction do not by themselves supply the later finite-core/Klein embedding map. The Blockwave user export contains a user-role memory paste of assistant-origin equations; the user wrapper is not proof that the equations were Nathan-authored. The existing Kestrel/Ariadne crosswalks retain the exact source equations and provenance. No equation was silently corrected or promoted in this run.
+These are preserved as separate historical sources. Neither is a Nathan Direct equation set.
+
+### SAT-O 1.4D historical artifact
+
+- Repository: `Satobloc/SAT_THEORY_ARCHIVE_2023-25`.
+- File: `SATOBLOC/SAT O1 4D.txt`.
+- Blob SHA: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`.
+- Archive index dates: created 2025-06-07, modified 2025-06-09. The file body itself is unbylined and does not state an authorship date.
+- Verbatim geometric parameterization:
+  `gamma^mu(lambda) = (lambda, A_x sin(k_x lambda + phi_x), A_y sin(k_y lambda + phi_y), A_z sin(k_z lambda + phi_z))`.
+- Verbatim tangent/action definitions:
+  `v^mu(lambda) = d gamma^mu / d lambda`;
+  `S[gamma] = integral d lambda L(gamma^mu, v^mu)`;
+  `L = (1/2) m v^mu v_mu - V_tension(gamma)`.
+- The file defines the filament as a smooth 1D curve in R^(3,1), and its worldtube as the 4D volume swept by its vibrating motion. The sweep/embedding map is not explicitly constructed in the file. This historical 1D-curve/4D-sweep object is not automatically identical to the later finite-core Klein-fabric worldtube.
+
+### Blockwave historical assistant reconstruction
+
+- Raw conversation ID: `68f51c5a-49d4-832c-beb0-105d204e2f58`.
+- Assistant message [2]: 2025-10-19T17:14:05.377Z.
+- Assistant export file SHA: `82ff09f14367ffb872d22b7c3cc108e2473a92d0`.
+- User export file SHA: `c4c91886840bb3741b3c37e85fc5016c941f4487`; its message [13] at 2025-10-22T10:35:08.275Z is a user-role memory paste of assistant-origin material, not evidence of Nathan authorship.
+- The attached `🧱BLOCKWAVE.txt` source blob is `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; its first visible repository-path commit is 2026-10-08. That repository appearance date is not an authorship date, and the attachment is unbylined/assistant-voiced.
+
+The assistant's compact one-action equation is preserved verbatim in the assistant export and Kestrel crosswalk. In term order it is:
+```text
+L[g,u,theta,J] =
+  (M_P^2/2) R
+  + (f_theta/2) (nabla theta . nabla theta)
+  - Lambda_theta^4 (1 - cos(theta))
+  + (c1/2) P P (nabla u)(nabla u)
+  + (c2/2) (nabla . u)^2
+  + lambda (u . u + 1)
+  + (kappa0/4) J P P J
+  + (kappa2 ell^2/4) (nabla J) P P P (nabla J)
+  + (g_h/2) F(theta) . J
+  + (1/2) J M(theta,u) J
+where P^mu_nu = delta^mu_nu + u^mu u_nu,
+A_mu(theta) = alpha_* nabla_mu theta,
+F_munu(theta) = nabla_mu A_nu - nabla_nu A_mu.
+```
+The equation is assistant-origin, not Nathan Direct. The user-role theta-sector paste is a later copy of assistant material.
+
+### Corrections kept separate
+
+- No correction to the SAT-O or Blockwave source equations was made in this run.
+- The source-fidelity correction in this run concerns only the later block-universe w-length prose: retain “w-length = c times temporal duration” without inserting an untyped tau.
+- The existing Kestrel crosswalk separately records the mathematical caveat that, for a smooth scalar theta and torsion-free Levi-Civita connection, the local exact form A = alpha_* d theta gives F = dA = 0. Nonzero curvature/holonomy needs additional global, defect, or connection structure. Do not merge this correction into the historical assistant equation.
+- Existing Kestrel/Ariadne source crosswalks retain the full verbatim SAT-O/Blockwave records and their corrected-equation ledger. No source equation was silently promoted in this run.
 
 The NotebookLM-attributed block in the Meridian Minkowski Ring Analysis conversation remains NLM-origin content embedded in a user-role wrapper, not Nathan Direct. Existing Aster/Aldus provenance records already separate it.
 
