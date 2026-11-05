@@ -742,3 +742,14 @@ The Meridian h603:s2 :24 task reused the same run ID after the first attempt's 0
 - Final receipt commit: `4595cd7e79a7963e924598f4eb1fe692fe81c926`.
 - Final receipt blob: `a429d8df914f8bc2d09b973312d69ca32f851168`.
 - Exact-path readback: PASS (10,558 characters).
+
+
+### Run h615:s0 source-fidelity receipt | 2026-11-05T1626Z
+
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1626Z_s0_mercer.md`; blob after readback `9032f2ec2025dc546d0b4c3aa0f7ab61b52dc6b5`.
+- Corrected public report: issue #1393; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-core-pack-superhelix-fidelity-20261105t1500z-s0-002-formatfix.md`; SHA-256 `e8920f33dda1bd30c1bd7c83079200a3ae60c3fdb6af643f00764912b8452cd0`; publisher run `42063957662` success; exact readback PASS.
+- Original issue #1392 is preserved, but its artifact contained literal formatting placeholders. Comment `6663258290` points to #1393, which is the readable canonical rendering. No duplicate research content was created; #1393 is an append-only formatting correction.
+- Source work recovered the April 2026 Core Pack recursion and derivative-direction discrepancy, Nathan Direct 4D Nth-order worldline/UI constraints, Meridian w=ct/interacting-time-bulk geometry, one-constant constraint, and tentative Particle Zoo candidate. Full source ledger and next cursor are in #1393.
+- No new Lean module, physical calculation, CODATA scoring, empirical validation, Factory Floor admission, paper edit, or theory promotion.
+- Ravel optional handoff for h619:s0: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T1626Z_from_s0_to_s0_ravel_h619_addendum_01.md`; blob `d49590789303e871dc9697a95d160832cf9d50fc`. Ravel inbox append commit `5e209fb34cbe6915c189182bd275e6d699f55cb4`; inbox blob `88f54a0f9d817266b77e9dea56154f65109da016`; exact-path readback PASS. Repository delivery only; no chat delivery or recipient acknowledgment.
+- Next ring label Ravel; immediate s1 phase remains disabled. No task, ID, schedule, phase, cadence, enabled state, or sixth task changed.
