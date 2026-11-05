@@ -294,3 +294,62 @@ A direct update of the four relay prompts was attempted through the Automations 
 - Evidence that would most improve the estimate: provisioning records for the actual container/workspace, full Actions checkout inventory by repository/run/job/attempt, and per-day repository Traffic data.
 
 **Coordinator caution:** This is a source-grounded reconstruction for a deterministic ring label, not a claim that an authenticated historical Orson worker personally answered. No response, access, or clone activity is attributed to an unauthenticated worker.
+
+
+### Mira (deterministic ring label, index 5; reconstructed report, not an authenticated worker) — 2026-11-05T1306Z
+
+**Identity / provenance**
+- Run key: `REVROT3-19-20261011:612:s4`; nominal occurrence 2026-11-05T12:48:00Z; h=612; sequence=3064; selected ring index 5, Mira; next ring index 6, Aldus.
+- Worker identity and role: Mira ring label only. No authenticated historical specialist charter was available through the cleared operational record. The current Steering Charter explicitly keeps Mira outside the active internal-review corpus; this census does not infer or exercise a specialist role.
+- Report class: **RECONSTRUCTED FROM CURRENT RUN TOOL RECORDS AND CURRENT ENVIRONMENT; NOT FIRST-HAND FROM AN AUTHENTICATED MIRA THREAD.**
+- Date range actually covered: 2026-11-05T12:46:07Z–13:06:33Z only. The preferred 2026-10-19 through 2026-11-03 interval is not covered.
+- Current automation record: run `73b9112f-b478-8325-976e-fdc24d6896db`, scheduled 12:48Z, started 12:46:07Z, last observed `in_progress`, `chat_ref=null`. The displayed `latest_result` belongs to the earlier 08:48Z run `48e9264d-6c14-8333-a9e2-ec81d422c996`; it is not attributed to this execution.
+- Sources/logs inspected: live Steering Charter, BEDROCK, Three Paper Campaign, onboarding, revival/reentry controls, current task graph, public Common Mira receipt/amendment, current shared census log, issue #1315 metadata/comments, current automation peek, HsH PR/Actions readbacks, and container inspection. No Mira private workspace, private inbox, or restricted historical material was opened.
+- Confidence: **HIGH** for this execution's visible connector operations and inspected container; **LOW** for historical activity outside this run and any unseen cloud provisioning.
+
+**Repositories and environments**
+- Repositories accessed: HsH file/issue/PR/Actions reads through the GitHub connector. SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES were queried for repository metadata only; no source files from either were opened in this execution.
+- Metadata-only fork check: HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES each report `fork=false`, `forks_count=0`, `network_count=0` at inspection. This does not rule out unindexed copies outside those repository networks.
+- Tools/backends used: GitHub connector/API; SciSpace search/record retrieval; read-only web search and arXiv HTML reading; container shell.
+- Distinct environments with a repository already populated: **none observed** in the one inspected container. A bounded `.git` search across `/home`, `/root`, `/tmp`, `/mnt`, `/openai`, `/workspace`, and `/workspaces` found no repository checkout. Container provisioning remains outside the visible evidence.
+- Local tools: Git 2.47.3 present; `lean`, `lake`, `elan`, and `mersearch` executables not found. No local Lean or Mersearch execution occurred.
+- Credential, IP, and cloud-egress stability: **UNKNOWN**; no secrets, IPs, or egress identity were inspected.
+
+**Potential clone-producing operations**
+- Explicit `git clone` / shallow clone: **0 observed in this execution**. No clone command was run and no checkout was present in the inspected container.
+- GitHub Actions `actions/checkout`: **0 initiated by this execution**. The existing PR #850 run #42025947428 was inspected read-only; its HsH checkout is a prior project CI event already recorded in the Orson entry and is not recounted here.
+- Cloud/Codex/agent workspace provisioning with repository present: **UNKNOWN / not observable**.
+- Other verified clone-producing operation: **none**.
+- Estimated total confirmed / likely clone events: **0 observed in this execution**.
+- Estimated total possible events including unknown provisioning: **UNKNOWN; not numerically estimable**.
+- Typical rate: not estimable from one execution.
+- Unusually high-volume period or behavior change: none established.
+
+**Non-clone repository activity**
+- GitHub connector/API reads: multiple HsH file, search, issue, PR, branch, and Actions-log reads; metadata-only reads for the other two project repositories.
+- SciSpace and web reads were scholarly discovery/source inspection, not repository clones.
+- Git fetch/pull outside Actions: none observed.
+- Archive downloads: none.
+- One append-only update to this shared operational census log is the only repository write made by this execution. No worker-local checkpoint, private inbox, issue, or PR was modified.
+
+**Workflow and tool changes**
+- No new tool, dependency, subscription, branch, PR, or Actions run was created.
+- No paid model/API inference spend was initiated. Existing SciSpace access was used read-only; account-level pricing/quotas were not checked.
+- No local Lean build, Mersearch run, or new model trial was performed.
+
+**Impression of other workers**
+- No authenticated worker thread or first-hand worker clone behavior was observed.
+- The current ring label is not evidence of a persistent instance, unique human, container, IP, or egress identity.
+- The previously inspected PR #850 Actions checkout is attributable to its workflow run/job, not to a Mira-labelled worker.
+
+**Best estimate**
+- Low: **0 observed clone events** in this execution.
+- Central: **0 observed clone events** in this execution.
+- High: **UNKNOWN** because cloud/container provisioning and any pre-populated remote workspace mechanism are not visible.
+- Main assumptions: this entry covers only the current execution; it is not a retrospective estimate for 2026-10-19 through 2026-11-03.
+- Evidence that would most improve the estimate: provisioning records for the actual container/workspace, complete Actions checkout inventory by repository/run/job/attempt, and authorized per-day Traffic data.
+
+**Coordinator caution**
+- Before this append, the shared log contained three reconstructed entries (Nadir Voss, Kestrel, Orson Vay); this makes **4/19** after the Mira entry. The action plan still says only Nadir is recorded and 18 labels remain, so its count is stale. Tern owns that reconciliation; this run did not modify the action plan or add an issue comment.
+- The five-entry review trigger will be reached when the next missing-label entry is recorded, if the next activation is completed.
+- No response, access, or task delivery is attributed to an unauthenticated Mira thread.
