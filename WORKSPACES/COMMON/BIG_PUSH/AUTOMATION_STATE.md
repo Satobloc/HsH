@@ -1,29 +1,29 @@
 # THE BIG PUSH — Automation State
 
 **State version:** 1  
-**Last initialized:** 2026-11-05  
-**Steward:** Existing Workshop Relay :00 | Archive task  
+**Last reconciled:** 2026-11-05  
+**Proposed steward:** Existing Workshop Relay :00 | Archive  
 **Task ID:** 6aa1fe0de5e48191b886496095b1343f
 
-## Current state
+## Deployment status
 
-- Recovery mode: DORMANT_UNTIL_HEARTBEAT_STALE
-- Interactive heartbeat file: INTERACTIVE_HEARTBEAT.md
-- Staleness threshold: 36 hours
-- Active claim: NONE
-- Last completed automated Big Push operation: NONE
-- Last scheduler run ID: NOT YET RECORDED FOR BIG PUSH
-- Next eligible operation: BP-HIST-001, transcript lines 201–400
+<badge>NOT INSTALLED</badge>
 
-## State machine
+The repository-backed recovery state machine is designed, but the :00 task prompt overlay is not installed. An update was attempted on 2026-11-05 and rejected with the platform response: **“Your current plan allows only 3 scheduled tasks.”**
+
+A current inspection found four enabled hourly relays (:00, :24, :36, :48). Their task IDs, schedules, phases, and enabled states remain unchanged. No task was paused or deleted. The platform limit prevents the prompt update while the current schedule count exceeds the plan allowance.
+
+**Consequence:** the existing :00 task is not yet instructed to read this workspace. The 36-hour restart trigger is therefore a design, not an active automated guarantee. Human-directed sessions can still resume the project by following BOOT.md.
+
+## Intended state machine after installation
 
 ### DORMANT
 
-When the interactive heartbeat age is below 36 hours, do not execute Big Push work. Preserve the normal :00 specialist lane. Do not update the interactive heartbeat.
+When the interactive heartbeat age is below 36 hours, the :00 steward should not execute Big Push work. It should preserve its normal specialist remit. It must not update the interactive heartbeat.
 
 ### ELIGIBLE
 
-When heartbeat age is at least 36 hours, inspect this file and the work queue. If no active claim exists, set recovery mode to ACTIVE and claim the next incomplete bounded operation before doing the work.
+When heartbeat age is at least 36 hours, the :00 steward should inspect this file and the work queue. If no active claim exists, set recovery mode to ACTIVE and claim the next incomplete bounded operation before doing the work.
 
 ### ACTIVE
 
@@ -44,14 +44,24 @@ When a human-directed Big Push session refreshes the heartbeat, pause automated 
 
 ### BLOCKED
 
-If source access, repository writes, provenance, or state reconciliation fails, record the exact blocker and leave the operation retryable. Do not advance the queue.
+If source access, repository writes, provenance, scheduler integration, or state reconciliation fails, record the exact blocker and leave the operation retryable. Do not advance the queue.
 
 ## Scheduler evidence
 
 Record current run metadata independently: task ID, run ID, scheduled_for, started_at, completed_at, recorded_status, chat_ref, and whether the displayed latest_result.run_id matches last_run.id.
 
-Do not treat a null chat_ref as a verified thread identity. Do not attribute a cached latest_result to the current last_run when the run IDs differ.
+Do not treat a null chat_ref as a verified thread identity. Do not attribute a cached latest_result to the current last_run when their run IDs differ.
 
 ## Concurrency rule
 
-The :00 task is the sole Big Push automation writer. Other Workshop Relay tasks must not independently claim or advance the Big Push queue unless explicitly given a bounded subtask. If two writes or two claims appear to conflict, stop and reconcile before proceeding.
+The :00 task is intended to be the sole Big Push automation writer after installation. Other Workshop Relay tasks must not independently claim or advance the Big Push queue unless explicitly given a bounded subtask. If two writes or two claims appear to conflict, stop and reconcile before proceeding.
+
+## Current state
+
+- Recovery mode: NOT_ARMED
+- Interactive heartbeat file: INTERACTIVE_HEARTBEAT.md
+- Staleness threshold after installation: 36 hours
+- Active claim: NONE
+- Last completed automated Big Push operation: NONE
+- Last scheduler run recorded for Big Push: NONE
+- Next eligible operation: BP-HIST-001, transcript lines 201–400
