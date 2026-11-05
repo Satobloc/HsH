@@ -314,3 +314,100 @@ theorem return_gate_can_pass_using_only_pre_vacate_receipts :
 #print axioms return_gate_can_pass_using_only_pre_vacate_receipts
 
 end HsHVerification.EliasThreadingTemporalGate
+
+
+/-!
+# Threading lifecycle closure boundary
+
+Source reviewed: HSH_RESOURCES `tools/workflow_threading_demo.py`
+(blob `ce313e46b1b85ae35028b46a4196d2a945b535d8`) and
+`info/WORKFLOW_THREADING_PROTOTYPE.md` (blob
+`f87ff21918b6fa4804d090cdb9153aa0dd53d288`).
+
+The Python prototype declares `rejoined` and `complete` as possible
+state labels, but its available mutators are `vacate`, `add_receipt`,
+and `mark_rejoin_if_ready`. The last mutator stops at
+`rejoin-ready`; no `rejoin` or `synthesize` transition is implemented
+in this file. The following finite model encodes only those available
+state-changing operations. It is a source-derived assistant model, not
+an executable equivalence proof for the Python program and not a claim
+that an external controller cannot complete rejoining.
+-/
+
+namespace HsHVerification.EliasThreadingLifecycle
+
+inductive AuthorState
+  | active
+  | vacated
+  | rejoinReady
+  | rejoined
+  | blocked
+  deriving DecidableEq, Repr
+
+inductive ThreadStatus
+  | seeded
+  | propagating
+  | rejoinReady
+  | complete
+  | blocked
+  deriving DecidableEq, Repr
+
+structure LifecycleState where
+  author : AuthorState
+  status : ThreadStatus
+  deriving DecidableEq, Repr
+
+inductive AvailableOperation
+  | vacate
+  | addReceipt
+  | markRejoinIfReady
+  deriving DecidableEq, Repr
+
+def initialState : LifecycleState := ⟨.active, .seeded⟩
+
+def step (s : LifecycleState) (op : AvailableOperation) (ready : Bool) : LifecycleState :=
+  match op with
+  | .vacate => ⟨.vacated, .propagating⟩
+  | .addReceipt => s
+  | .markRejoinIfReady =>
+      if ready then ⟨.rejoinReady, .rejoinReady⟩ else s
+
+inductive Reachable : LifecycleState → Prop
+  | initial : Reachable initialState
+  | vacate {s : LifecycleState} : Reachable s → Reachable (step s .vacate false)
+  | addReceipt {s : LifecycleState} : Reachable s → Reachable (step s .addReceipt false)
+  | markReady {s : LifecycleState} (ready : Bool) :
+      Reachable s → Reachable (step s .markRejoinIfReady ready)
+
+theorem rejoined_state_unreachable_under_available_operations :
+    ∀ s, Reachable s → s.author ≠ .rejoined := by
+  intro s h
+  induction h with
+  | initial => decide
+  | vacate h ih => simp [step]
+  | addReceipt h ih => simpa [step] using ih
+  | markReady ready h ih =>
+      cases ready <;> simp [step] <;> assumption
+
+theorem complete_status_unreachable_under_available_operations :
+    ∀ s, Reachable s → s.status ≠ .complete := by
+  intro s h
+  induction h with
+  | initial => decide
+  | vacate h ih => simp [step]
+  | addReceipt h ih => simpa [step] using ih
+  | markReady ready h ih =>
+      cases ready <;> simp [step] <;> assumption
+
+theorem ready_transition_is_not_rejoin_or_completion :
+    step initialState .markRejoinIfReady true =
+      ⟨.rejoinReady, .rejoinReady⟩ := by rfl
+
+#eval step initialState .vacate false
+#eval step initialState .markRejoinIfReady true
+
+#print axioms rejoined_state_unreachable_under_available_operations
+#print axioms complete_status_unreachable_under_available_operations
+#print axioms ready_transition_is_not_rejoin_or_completion
+
+end HsHVerification.EliasThreadingLifecycle
