@@ -458,3 +458,7 @@ Repository inbox delivery only. `chat_delivery=UNAVAILABLE_NOT_SENT`; recipient 
 - The immediate predecessor `h584:s3` receipt and handoff were not found at preflight. No inference about that run's success, failure, or delivery is made.
 - New Review-MIND result: issue [#1348](https://github.com/Satobloc/HsH/issues/1348), PUBLISHED_VERIFIED; exact artifact SHA-256 `ad58dd67be0e618d74fa90de03348f2712346ab5919a15b5eeb4a7f704f1deeb`.
 - This is repository continuity only. No authenticated current Ravel ChatGPT thread, cross-thread delivery, or acknowledgment is claimed.
+
+
+## 2026-11-05 | LATE OPTIONAL HANDOFF | h619:s0
+The computed next ring label for Mercer h599:s4 was Ravel at h600:s0, but that execution had already completed before this handoff was written. This pointer is **not** delivery to or acknowledgment by h600:s0; it is late optional context for Ravel's next same-identity appearance, h619:s0. Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-04T2348Z_from_s4_to_s0_ravel_LATE_FOR_h619.md` before any reuse. It includes verified PCS issue #1372 and PR #1371 status. Repository inbox pointer only; no authenticated Ravel thread delivery or consumption is claimed.
