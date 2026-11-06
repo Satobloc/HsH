@@ -592,3 +592,37 @@ A direct update of the four relay prompts was attempted through the Automations 
 - Clone/check-out activity for 2026-10-19 through 2026-11-03 is **UNKNOWN**. No attributable per-thread or runner provisioning telemetry was available in the sources inspected. Do not infer zero from the current runtime check.
 - The four inspected PR workflow runs are not assigned to this worker. Cloud workspace provisioning and uninspected Actions runs remain outside the evidence boundary.
 - No task ID, schedule, phase, enabled state, or task count was changed.
+
+
+### Mercer (deterministic ring label, index 16; reconstructed report, not an authenticated worker) — 2026-11-06T0224Z
+
+**Run key:** `REVROT3-19-20261011:626:s2`; nominal `h=626`, `seq=3132`, selected ring index 16; next deterministic label Ravel (index 17). A ring label is not proof of a particular ChatGPT instance/thread.
+
+**Evidence class:** reconstructed from the current scheduled execution, live repository records, GitHub Actions metadata and bounded runtime inspection; not first-hand historical Mercer telemetry. The scheduled automation run has `chat_ref=null`.
+
+**Role / source boundary**
+- Direct Nathan user-role charter recovered from `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json`, blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, timestamp 2026-10-01T14:16:07Z: Mercer was assigned equations, dimensional analysis, constitutive physics, coarse-graining, forces and quantitative consequences in the then-current :48 arrangement.
+- Current `WORKSPACES/MERCER/README.md` blob `1b888e028f0c337828472fde1d3726c111fda6c8` describes the archive-QA/retrieval/provenance/reproducibility remit. The live Code Grurple roster supersedes ordinary theory work: Mercer is assigned **Papers A+B presentation QA only** while the P0 interlock remains active. No manuscript rewrite or ordinary H(s)H/CODATA work was undertaken.
+
+**Historical window: 2026-10-19 through 2026-11-03**
+- Coverage is partial. `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` is 765 lines (blob `0a4e77e25d4a2e22f13b87becdb363d704e2fa5b`), but its h615/Mercer section is explicitly corrected in the same checkpoint as misattributed; it is not counted as authentic Mercer activity. No per-thread runtime or account-level workspace-provisioning telemetry was available.
+- PR #1235, `[Lean] Blockwave exact-phase curvature gate`, was created 2026-11-02 on `research/mercer-blockwave-exact-phase-curvature-20261101t2336z`, head `3f8e1610e52ac81908671f54a66900b501ce06a5`. Its PR-associated Actions run #41368901975 completed successfully and its job contains one completed `actions/checkout@v4` step. This is one **likely project-level HsH CI checkout** associated with the Mercer-labelled branch, not evidence of a worker-initiated local clone or authenticated Mercer execution. The workflow does not pin an explicit checkout ref; the exact checkout target was not verified from the job log.
+- No other checkout event attributable to Mercer was verified in the inspected period. Other historical Actions runs and cloud provisioning remain uninspected.
+
+**Current-run footprint**
+- Local clones/checkouts initiated by this run: **0 evidenced**. A bounded runtime inspection of `/`, `/mnt/data`, `/workspace`, `/workspaces`, `/repo`, `/app` and `/tmp` found no `.git` directory or HsH checkout. This describes the current runtime only; it does not establish how the environment was provisioned.
+- Repository access this run: HsH and SAT archive through GitHub API/connector file reads. HSH_RESOURCES was not accessed. Individual file/blob retrieval is not a repository clone.
+- One old-archive source was read in bounded portions: `SAT_THEORY_ARCHIVE_2023-25/2026/SAT MAY 2026 REFINEMENT FORMALIZATION.txt`, blob `1daae93d15995c1b957e7c9abfb0558f0197ffeb`; first 653 lines (first 12,000 characters) plus the final 80 lines of the 6,301-line file. This is a partial source read, not a claim that the whole file was reviewed.
+- HsH sources read included the full 627-line BEDROCK (blob `527924246cc25caf7fac02dce4b20f024013cd19`), the live Steering Charter, Three Paper Campaign, onboarding, Revival Rotation V3/V4, navigation preflight, Mercer README/checkpoint, Code Grurple roster, presentation gate and current receipts.
+- Current runtime activity was GitHub API/connector reads only; no local `git clone`, `fetch` or `pull`; no Actions workflow was initiated by this run. Browser context was unavailable. SciSpace connector exists but was not used. All four Mersearch request lanes were occupied; no new request was opened or overwritten.
+- No new tool, dependency, fork, branch, PR, issue, paid service or automation was created.
+
+**Estimate / confidence**
+- Worker-initiated local clone events evidenced: **0**.
+- Likely project-level HsH Actions checkout associated with inspected Mercer-labelled work: **1** (PR #1235, run #41368901975, one checkout step).
+- Historical 2026-10-19–2026-11-03 total across all environments: **UNKNOWN**; the inspected evidence does not support a finite high estimate. Do not infer zero from missing telemetry.
+- Low estimate: 0 worker-initiated clones evidenced. Central estimate: 0 worker-initiated local clones plus 1 likely project CI checkout event. High estimate: UNKNOWN / unbounded from available evidence.
+- Credentials, IP/egress identity, account-level provisioning, workspace pooling and uninspected Actions runs are not visible and were not inferred.
+
+**Count reconciliation note**
+- Before this append, 10 distinct ring-label headings were present in this file, although its status header still said 8/19; the separate coordinator action plan still said 1/19. This entry makes 11 distinct headings. The header and coordinator plan were left unchanged because Tern owns the census-wide reconciliation; no other worker's entry was edited.
