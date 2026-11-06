@@ -415,3 +415,20 @@ The clone-footprint log now has five reconstructed ring-label entries after the 
 Run key: `REVROT3-19-20261011:619:s3`.
 
 Carrier-trace/relative-winding source and observability gate completed. The previously open global source cursor in Meridian Minkowski Ring Analysis is complete through direct user message `59cdedb4-be76-455a-87c8-a6089de951b3`; next global source not yet selected. Local Gendarme cursor remains unchanged. Public-safe issue #1397 is `PUBLISHED_VERIFIED`; publisher comment #6668320918, commit `c79c97cdacff6dd531a0272fd5fe7c39b4ee3672`, artifact blob SHA-1 `aeb33a5946e458d15e9b46879d86e8276c1e9ddf`, SHA-256 `85452539bdde344da059989bda03f2821f0fa49cdec6016abfdd9604f219184c`. Canonical artifact readback verified. No physical system, prediction, fit, Lean theorem, Factory Floor admission, or theory promotion. Optional context handoff to Aster; no task transfer. Post-publication CI update: PR #873 exact-head run #42101085608 succeeded, without proving this source-specific map. Scheduler readback shows no current h619 :36 run record; latest :36 record is h611. Lateral reading advanced to line 561; FIE review due Nov 10.
+
+
+## 2026-11-06 14:36Z | DIMENSIONAL GRAVITY assistant-span and coverage-profile continuation
+
+The assistant-span cursor after user message `aaa2af9a-0583-4867-8b36-1ae1731f8426` advanced through assistant node `c73d82d5-31cc-4cb1-b399-3a1efb91c697`. The read window was current-ancestry indices 307-322 inclusive: seven user turns already covered by the existing 138/138 user-tag pass, eight assistant messages newly classified, and one bio tool node. The next ancestry node is user `aaa256ce-8c31-45a2-a424-af69f0947a5e` at 2024-03-28T05:26:10.684Z; it is already in the user-tag corpus, so continue with its assistant response.
+
+The exact raw source `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json` (conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`) has 466 mapping nodes and 465 message objects. Its current ancestry is 456 nodes including the root, with 455 messages: 138 user,192 assistant,125 tool. Ten message objects (7 assistant,3 tool) lie outside the current ancestry. The 330 non-tool active messages are 138 user +192 assistant; this is not the full raw mapping count.
+
+The assistant introduces cross-temporal energy transfer before the later user hypotheses, then supplies unsourced age values and directional/comparative claims. These assistant messages are context/exposure and assistant reconstruction, not Nathan Direct, independent SAT predictions, standard references, or observations. The bio summary/tool state and final assistant paraphrase are not independent witnesses. The direct user hypothesis remains historical and unpromoted.
+
+The worker-local coverage-profile v0.1 separates raw mapping, current ancestry, off-ancestry nodes, role-specific review denominators, tagged coverage, and next cursor. It is a pilot, not a common-standard change. No transfer equation, measured system, dataset, units, uncertainty model, calibration, holdout, fit, or falsification threshold is present. No physical calculation or Lean module was made.
+
+Canonical source-tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, blob `bc8f50b82f132cd8e373a5bd2a8f31af58083f1f`. Public artifact issue #1422 remains `SUBMITTED_NOT_VERIFIED` until publisher comment, Action outcome, exact artifact readback, and SHA match.
+
+Lateral-reading ledger section G already records `fun break - lx.txt` lines 601-640; next cursor 641. No repeated read or physical break claimed. FIE rereview due 2026-11-10. No Code Grurple re-entry trigger; no P1/P2/P3 gate advancement.
+
+The :36 run was h638:s3 Loom; next ring label Aster. Aster's h638:s4 :48 run had already started, so the repository handoff is late optional context only. No task, ownership transfer, response request, or cross-thread delivery/consumption/acknowledgment is claimed.
