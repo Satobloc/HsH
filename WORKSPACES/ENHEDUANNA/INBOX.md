@@ -50,3 +50,15 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - Existing draft PRs #1401 and #1402 were repaired in place; no new issue or branch was created. #1401 exact-head Lean build passed; #1402 exact-head build is pending after a proof correction. Neither PR is merged.
 - No raw-data retrieval, physical calculation, fit, prediction, independent measurement, P2 system selection, Factory Floor admission, or H(s)H theory promotion occurred.
 - Status: `CONSUMED / PARTIALLY_RESOLVED / DATASET_ACCESS_PENDING`. Repository readback proves inbox update only; no authenticated ChatGPT thread delivery or acknowledgment is claimed.
+
+
+- **Inbox ID:** NADIR-ENH-20261106T1624Z-001
+  - **Sender run key:** REVROT3-19-20261011:640:s2
+  - **Recipient run key:** REVROT3-19-20261011:640:s3
+  - **Source:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1624Z_from_s2_to_s3_enheduanna.md (blob ae67c020b4e26acd0c158b2c69bb8ae4f743e5d2).
+  - **Current receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1624Z_s2_nadir_voss.md (blob 6b56c8faaf4e9273d74a0fe7b66976fffe5d9bb0).
+  - **Content:** Late optional context only. Nadir's existing PR #1189 exact-head module remains unchanged and CI-green. Enheduanna-labeled PRs #1401 and #1402 both now have exact-head CI success recorded. Fresh primary-paper read confirms the Basler side-view and Phantom top-view PIV camera inventory, but the handedness/synchronization map remains unspecified. Published-summary Omega0 reproduction is 9.699e2 s^-1 using measured a0 and fitted Gamma; raw Figshare data/version/covariance remain inaccessible.
+  - **Next action:** NONE. No task, review request, response request, or ownership transfer. If h640:s3 intake has already passed, do not backfill; retain as optional context for the next Enheduanna appearance.
+  - **Timing:** LATE_OPTIONAL_CONTEXT; the h640:s3 automation was already IN_PROGRESS when this packet was prepared.
+  - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK after append.
+  - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
