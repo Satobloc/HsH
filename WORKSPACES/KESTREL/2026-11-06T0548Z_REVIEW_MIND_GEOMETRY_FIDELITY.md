@@ -2,14 +2,14 @@
 
 **Run key:** `REVROT3-19-20261011:629:s4`  
 **Nominal slot:** 2026-11-06T05:48:00Z  
-**Selection:** (h=629, seq=5h+4=3149, 3149\bmod19=14)  
+**Selection:** `h=629`, `seq=5h+4=3149`, `3149 mod 19=14`  
 **Worker label:** Kestrel (index 14)  
 **Next label:** Meridian (index 15); next key `REVROT3-19-20261011:630:s0`  
 **Status:** INTERNAL_ONLY / SOURCE_GROUNDED / TARGETED_REVIEW / NO_THEORY_PROMOTION / NO_NEW_P2_SYSTEM / NO_CROSS_THREAD_DELIVERY
 
 ## 1. Role, identity, and scope
 
-The deterministic label is not authentication of the historical Kestrel conversation or of a current Kestrel thread. The Kestrel raw export was fetched by its recorded Git blob route (conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`). This run inspected the role-defining user nodes `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `d0b1c7c0-defc-4fa6-b6bc-a74e3e1a1fb8`, and `079a841c-06cb-431c-b92b-f049f03007cc), plus the later Code Grurple voice-role node `8f1fd51f-73fd-44ae-ad7a-714eb67faa4d`. This is not a line-by-line review of all 2,116 message nodes and not historical-instance participation.
+The deterministic label is not authentication of the historical Kestrel conversation or of a current Kestrel thread. The Kestrel raw export was fetched by its recorded Git blob route (conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`). This run inspected the role-defining user nodes `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `d0b1c7c0-defc-4fa6-b6bc-a74e3e1a1fb8`, and `079a841c-06cb-431c-b92b-f049f03007cc`, plus the later Code Grurple voice-role node `8f1fd51f-73fd-44ae-ad7a-714eb67faa4d`. This is not a line-by-line review of all 2,116 message nodes and not historical-instance participation.
 
 Kestrel's controlling role is the cross-boundary synthesis companion: hold the whole picture, take Nathan's instincts seriously as an internal working premise, and do not duplicate the primary auditor, provenance adjudicator, mathematical verifier, or experimental lane. The user explicitly said that hard verification teams already existed and asked this role not to constantly police overclaiming. The current Review-MIND lane does call for independent QC, so this run pursued one concrete source-to-geometry gap in existing Meridian sandbox work and routes the finding back without taking over Meridian's P0 assignment.
 
@@ -55,9 +55,9 @@ The Kestrel geometry-fidelity report at 02:00Z recorded run #42153410233 as in p
 - The theorem-specific `#print axioms` output is `[propext, Classical.choice, Quot.sound]`; no `sorryAx` was seen in the captured build log.
 - The workflow had no separate tests, lint, nanoda, or global axiom-audit step. Exact-head-only verification remains UNVERIFIED.
 
-The theorem `lifted_gram_curvature_sq_eq` proves an algebraic Gram-curvature identity for the declared Euclidean affine lift (X(w)=(\mathbf{x}(w),w)), with lifted velocity ((\mathbf v,1)) and acceleration ((\mathbf a,0)). It is assistant-origin, conditional mathematics. It does not prove the physical H(s)H map, a native metric, a physical inertia law, or the truth of any premise.
+The theorem `lifted_gram_curvature_sq_eq` proves an algebraic Gram-curvature identity for the declared Euclidean affine lift `X(w)=(x(w),w)`, with lifted velocity `(v,1)` and acceleration `(a,0)`. It is assistant-origin, conditional mathematics. It does not prove the physical H(s)H map, a native metric, a physical inertia law, or the truth of any premise.
 
-A useful conditional connection to Meridian's solar comparator is obtained only after choosing the external Euclidean coordinate (w=q=ct) and (\mathbf{x}(w)=(\rho\cos(\Omega w/c),\rho\sin(\Omega w/c),0)). Then (\mathbf v\cdot\mathbf a=0), (\|\mathbf v\|^2=(\rho\Omega/c)^2=\beta^2), and (\|\mathbf a\|^2=(\rho\Omega^2/c^2)^2), yielding (\kappa_{4,E}=\rho\Omega^2/c^2/(1+\beta^2)). This is an analytic substitution into the existing conditional theorem, not a new Lean theorem and not a source-defined H(s)H representation. Keep this external (q=ct) comparator separate from the current Nathan Direct (cw=t), Forest-normalized, native (++++) convention.
+A useful conditional connection to Meridian's solar comparator is obtained only after choosing the external Euclidean coordinate `w=q=ct` and `x(w)=(rho*cos(Omega*w/c), rho*sin(Omega*w/c), 0)`. Then `v dot a=0`, `|v|^2=(rho*Omega/c)^2=beta^2`, and `|a|^2=(rho*Omega^2/c^2)^2`, yielding `kappa_4E = rho*Omega^2/c^2 / (1+beta^2)`. This is an analytic substitution into the existing conditional theorem, not a new Lean theorem and not a source-defined H(s)H representation. Keep this external `q=ct` comparator separate from the current Nathan Direct `cw=t`, Forest-normalized, native `++++` convention.
 
 ## 4. Targeted source review of Meridian's existing sandbox reports
 
@@ -70,34 +70,32 @@ This was a replay of existing code against published tabulated observations for 
 ### 4.1 Solar differential rotation / worldtube shear
 
 The source-faithful script replay reproduced the report's central values:
-- Spectroscopic profile: maximum (|\dot\gamma|=5.78712\times10^{-7}\,s^{-1}) near 46.24°; shear timescale about 20.00 days.
-- Doppler-residual profile: (5.98453\times10^{-7}\,s^{-1}) near 43.75°; about 19.34 days.
-- Magnetic-feature profile: (5.83888\times10^{-7}\,s^{-1}) near 46.36°; about 19.82 days.
-- The three central maxima span 3.36% of their mean. The 5° effective-patch shear and affine principal-stretch outputs also reproduce; the affine stretch products are 1 to numerical precision.
+- Spectroscopic profile: maximum absolute shear rate `5.78712e-7 s^-1` near 46.24 degrees; shear timescale about 20.00 days.
+- Doppler-residual profile: `5.98453e-7 s^-1` near 43.75 degrees; about 19.34 days.
+- Magnetic-feature profile: `5.83888e-7 s^-1` near 46.36 degrees; about 19.82 days.
+- The three central maxima span 3.36% of their mean. The 5-degree effective-patch shear and affine principal-stretch outputs also reproduce; the affine stretch products are 1 to numerical precision.
 
-The local rate (\dot\gamma=\cos\lambda\,d\Omega/d\lambda) is correct for the stated spherical metric and azimuthal flow. The exact material-coordinate map ((\lambda,\phi)\mapsto(\lambda,\phi+\Omega(\lambda)T)) preserves the spherical area form. The report already calls its simple-shear map first-order and its finite-difference parameter effective; keep the principal stretches classified as those of the local/effective affine surrogate, not exact global singular values of a finite 5° patch.
+The local rate `gamma_dot = cos(lambda) * dOmega/dlambda` is correct for the stated spherical metric and azimuthal flow. The exact material-coordinate map `(lambda,phi) -> (lambda,phi+Omega(lambda)*T)` preserves the spherical area form. The report already calls its simple-shear map first-order and its finite-difference parameter effective; keep the principal stretches classified as those of the local/effective affine surrogate, not exact global singular values of a finite 5-degree patch.
 
-Source-critical limitation: Snodgrass & Ulrich (1990, ApJ 351, 309; ADS bibcode 1990ApJ...351..309S) explicitly state that the (A+B\sin^2\lambda+C\sin^4\lambda) basis is non-orthogonal and induces B/C coefficient crosstalk; they provide orthogonalized counterparts. The Doppler and magnetic profiles use the same Mount Wilson observation archive and identical procedures/averaging periods, while the spectroscopic profile is a separate technique. Thus the 3.36% range is a descriptive comparison of three fitted tracer profiles, not independent-dataset replication or a significance result. The report appropriately does not propagate coefficient uncertainties because the covariance is unavailable; retain that limitation prominently.
+Source-critical limitation: Snodgrass & Ulrich (1990, ApJ 351, 309; ADS bibcode 1990ApJ...351..309S) explicitly state that the `A+B*sin^2(lambda)+C*sin^4(lambda)` basis is non-orthogonal and induces B/C coefficient crosstalk; they provide orthogonalized counterparts. The Doppler and magnetic profiles use the same Mount Wilson observation archive and identical procedures/averaging periods, while the spectroscopic profile is a separate technique. Thus the 3.36% range is a descriptive comparison of three fitted tracer profiles, not independent-dataset replication or a significance result. The report appropriately does not propagate coefficient uncertainties because the covariance is unavailable; retain that limitation prominently.
 
 ### 4.2 CME finite-core / GCS reach
 
 The central source-defined aspect-ratio arithmetic replays. The critical issue is the identification of the aspect-ratio denominator with the centerline's local radius of curvature.
 
-Mishra et al. (2026, MNRAS 550, stag1145, DOI 10.1093/mnras/stag1145) define the GCS aspect ratio as cross-section radius divided by heliocentric height of the flux-rope centre. With leading-edge height (h), the source relation gives (a=\chi h/(1+\chi)) and centre height (R_c=h/(1+\chi)), so (\chi=a/R_c). That is a model aspect ratio. It does not, by itself, establish (R_c=\rho_{\rm curv}), the local curvature radius of the axis.
+Mishra et al. (2026, MNRAS 550, stag1145, DOI 10.1093/mnras/stag1145) define the GCS aspect ratio as cross-section radius divided by heliocentric height of the flux-rope centre. With leading-edge height `h`, the source relation gives `a=chi*h/(1+chi)` and centre height `R_c=h/(1+chi)`, so `chi=a/R_c`. That is a model aspect ratio. It does not, by itself, establish `R_c=rho_curv`, the local curvature radius of the axis.
 
-The cited GCS construction describes a pseudo-circular front with circular cross-section; the source does not supply the specific identity needed to equate the heliocentric apex-centre distance to the local axis-curvature radius. The report's statement that (R_c) is the local axis-curvature radius in a toroidal-apex construction is therefore an additional geometric assumption, not a source-defined equality.
+The cited GCS construction describes a pseudo-circular front with circular cross-section; the source does not supply the specific identity needed to equate the heliocentric apex-centre distance to the local axis-curvature radius. The report's statement that `R_c` is the local axis-curvature radius in a toroidal-apex construction is therefore an additional geometric assumption, not a source-defined equality.
 
 For a framed tube around a spatial centreline, the needed map is
-[
-F(s,y_1,y_2)=\gamma(s)+y_1N(s)+y_2B(s),
-]
-with local Jacobian (J(s,y)=1-\kappa_{\rm axis}(s)y_1) in a Frenet frame. For a circular cross-section of radius (a(s)), local regularity requires (a(s)\,\kappa_{\rm axis}(s)<1) along the segment. Global injectivity additionally requires a nonlocal separation/reach condition. The source-defined (\chi=a/R_c) yields (J_{\min}=1-\chi) only if the actual local curvature radius equals (R_c) at the relevant apex and the required along-axis conditions hold. Until the GCS centreline is parameterized and its curvature computed, the report's (J_{\min}) values and “locally regular” conclusion must be labeled CONDITIONAL / PROXY, not an established GCS reach measurement.
+`F(s,y1,y2)=gamma(s)+y1*N(s)+y2*B(s)`,
+with local Jacobian `J(s,y)=1-kappa_axis(s)*y1` in a Frenet frame. For a circular cross-section of radius `a(s)`, local regularity requires `a(s)*kappa_axis(s)<1` along the segment. Global injectivity additionally requires a nonlocal separation/reach condition. The source-defined `chi=a/R_c` yields `J_min=1-chi` only if the actual local curvature radius equals `R_c` at the relevant apex and the required along-axis conditions hold. Until the GCS centreline is parameterized and its curvature computed, the report's `J_min` values and “locally regular” conclusion must be labeled CONDITIONAL / PROXY, not an established GCS reach measurement.
 
-Second source correction: Table 2's 1-AU entries are raw in-situ aspect ratios followed by a bracketed positive spacecraft-offset correction (absolute increment and percentage). They are not symmetric statistical uncertainties. The current report writes these as (0.110\pm0.024), etc., which changes the meaning. Preserve the source format, e.g. (0.110\,[+0.024,\ 21.8\%]), and keep raw and corrected central values distinct. The code stores these corrections under `sigma_1au`; that name also risks implying a standard uncertainty.
+Second source correction: Table 2's 1-AU entries are raw in-situ aspect ratios followed by a bracketed positive spacecraft-offset correction (absolute increment and percentage). They are not symmetric statistical uncertainties. The current report writes these as `0.110 +/- 0.024`, etc., which changes the meaning. Preserve the source format, e.g. `0.110 [+0.024, 21.8%]`, and keep raw and corrected central values distinct. The code stores these corrections under `sigma_1au`; that name also risks implying a standard uncertainty.
 
-From the rounded Table 2 values, the raw 1-AU mean is 0.146. Adding the listed one-sided offsets gives corrected central values ([0.134,0.390,0.155,0.151,0.058,0.277,0.070,0.127]), with rounded-sample mean 0.17025. All eight corrected values remain below their corresponding last-coronal central values. This is arithmetic on the published rounded table, not a new measurement or a fully reanalyzed event set.
+From the rounded Table 2 values, the raw 1-AU mean is 0.146. Adding the listed one-sided offsets gives corrected central values `[0.134, 0.390, 0.155, 0.151, 0.058, 0.277, 0.070, 0.127]`, with rounded-sample mean 0.17025. All eight corrected values remain below their corresponding last-coronal central values. This is arithmetic on the published rounded table, not a new measurement or a fully reanalyzed event set.
 
-**Route back to Meridian:** preserve the observed aspect-ratio trend, but separate (i) source-defined (a/R_c), (ii) actual axis curvature (\kappa_{\rm axis}(s)), (iii) local tube-coordinate regularity, and (iv) global reach/injectivity. Do not infer one from another without the explicit GCS centreline map.
+**Route back to Meridian:** preserve the observed aspect-ratio trend, but separate (i) source-defined `a/R_c`, (ii) actual axis curvature `kappa_axis(s)`, (iii) local tube-coordinate regularity, and (iv) global reach/injectivity. Do not infer one from another without the explicit GCS centreline map.
 
 ## 5. Review-MIND process evidence
 
