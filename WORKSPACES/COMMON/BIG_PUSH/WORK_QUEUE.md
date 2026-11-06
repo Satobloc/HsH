@@ -15,11 +15,11 @@
 
 **Source:** SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Read:** lines 1–1400  
-**Next:** lines 1401–1600  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1201-1400.md`
+**Read:** lines 1–1600  
+**Next:** lines 1601–1800  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1401-1600.md`
 
-**Stop condition for this unit:** Complete the next contiguous 200-line range (1401–1600), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
+**Stop condition for this unit:** Complete the next contiguous 200-line range (1601–1800), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
 
 **Required extraction fields:** direct user instructions; assistant proposals; mode activations/deactivations; menu definitions; corrections; intended cognitive/operational effects; references to workbooks, files, tools, or other threads; observed success/failure; ambiguities and contradictions.
 
@@ -60,6 +60,7 @@ Place non-urgent ideas here with origin, reason for parking, and a retrieval tri
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 801–1000 in order. Recorded Nathan's music-box rotating-platform proposal and available illumination sources; separated these direct apparatus details from assistant-generated ψ-holonomy interpretations. Flagged that long-exposure film integrates intensity rather than phase. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-801-1000.md`; next cursor 1001–1200. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1001–1200 in order. Recorded Nathan's question about analogy versus direct SAT detection, lens-flip distance confounds, and preference for fixed optics, mismatched lens stacks, and long exposures. Separated these user-originated design leads from historical assistant's unsupported direct-detection claims. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1001-1200.md`; next cursor 1201–1400. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1201–1400 in order. Recorded Nathan's motorized acoustic music-box apparatus and request for digital experiments without analog development; separated apparatus facts from historical assistant's unsupported SAT acoustic-optical interpretation. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1201-1400.md`; next cursor 1401–1600. No institutional or scheduler changes.
+- **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1401–1600 in order. Recorded Nathan's Agfa slide film, liquid-light emulsion, glass pieces, black coatings, and intention to photograph the bell arrangement; flagged unsupported DSLR-as-phase-sensor and SAT-material claims. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1401-1600.md`; next cursor 1601–1800. No institutional or scheduler changes.
 
 ## Update rule
 
