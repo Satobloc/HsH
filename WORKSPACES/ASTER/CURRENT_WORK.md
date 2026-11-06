@@ -75,3 +75,29 @@ When Code Grurple stands down and a Mersearch lane releases, recover the raw IRI
 - Superseding status: **PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED**. The issue body remains the single public audit record. No issue edit/retrigger, second issue, duplicate, or direct Contents bypass was attempted.
 - Future submission preflight: exact four-key envelope, valid lowercase schema, collision-resistant submission ID, UTF-8 byte limit, and SHA-256 of exact content before issue creation. The publisher listens to `issues.opened`; body edits do not replay the event.
 - The map-class result remains `MAP_CLASS_UNSELECTED / MAP_UNDEFINED`; P2 remains HOLD. No new physical prediction, calculation, Lean theorem, or theory promotion.
+
+
+---
+
+## Workshop Relay :24 | h646:s2 | 2026-11-06T22:24Z
+
+**Current state: SOURCE AUDIT COMPLETED / CODATA GATE UPDATED / P2 HOLD / NO PHYSICAL CALCULATION / NO THEORY PROMOTION.**
+
+- Deterministic selection: `h=646`, `seq=3232`, Aster (ring index 2); next Ariadne (index 3). Current :24 automation ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled at the original hourly :24 America/New_York phase. :12 remains disabled. No scheduler mutation.
+- Historical Aster role is source-fidelity / peer-review and Paper A review, directly sourced from the 2026-09-22 user messages in raw conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. No active Aster thread was authenticated; this is repository-grounded continuity, not cross-thread participation.
+- Source audit preserves direct `w=ct` (2026-10-09, raw blob `7af1561b321f4d9364da5eb111df689efc652827`) and direct `cw=t` (2026-10-21, raw blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`) as separate witnesses. The Oct29 TOPLESS intake says `w=ct` exclusively but is an abbreviated note, not a verbatim raw message. No conversion or supersession is asserted.
+- Historical SAT-O source `SATOBLOC MISC/SAT O1 4D.txt`, blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, labels a one-parameter `gamma(lambda)` curve but calls the worldtube a 4D volume without supplying the thickening/family map. A finite-core support, its dimension, timesheet embedding, intersection/readout, responsive-medium coupling and observation/calibration maps remain undefined. The generic transverse-intersection dimension count is recorded in the h646 receipt, not Lean-verified.
+- No canonical verbatim Blockwave Lagrangian was recovered in the bounded fallback search. `KEY_METRICS.txt` is a summary; `SATO-BLOCK-INT.txt` is mixed transcript/synthesis. No SAT-O/Blockwave equations were modified or corrected.
+- CODATA 2022 Web Version 9.0 remains the latest recommended set at this run date. G is separately evaluated from 16 measurements, with three correlated pairs and uncertainty expansion factor 3.9; no numerical comparison was performed. The 2026 adjustment cutoff is 2026-12-31, results expected early 2027.
+- Real measured candidates remain candidate-only: air-water bathtub vortex (public data DOI identified, raw files not retrieved; fit plus PIV/PTV cross-check, not blind holdout), Double Pulsar (raw TOAs/full covariance/holdout absent), and apparatus-specific climbing-rope impact experiments (heuristic only, no H(s)H equivalence). P2 issue #565 remains HOLD; no system selected.
+- Mersearch request lanes 1–4 remain occupied (`status=requested`), with no request-scoped output folders. No request was overwritten or created. Bounded GitHub search was fallback, not Mersearch. Math Hopper #578 / PR #991 remain pilot; Whirligig remains sandbox/secondary; SciSpace query did not surface the target Nature Physics paper. No new tool, branch, PR, dependency or paid service.
+- No local Lean/Lake runtime or checkout. Existing PR #790 exact-head build is Ariadne's separate claim-lineage proof; PR #1245 is an assistant-authored merge-reference helix construction. No new theorem was written: `FORMALIZATION_BLOCKED_DEFINITION`.
+- P0 Code Grurple remains active; P1 Nov 9 remains Orson-owned; P2 Nov 30 remains HOLD; P3 Dec 14 remains separate. No Factory Floor entry, no paper-gate advancement, no BEDROCK amendment.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 1461–1500 read; next cursor **1501**. FIE last full review 2026-10-27; next due 2026-11-10, not yet due.
+- Ariadne's h646:s3 receipt already exists before this run; any h646 handoff is late optional context. Repository inbox only; no thread delivery, consumption or acknowledgment claim.
+
+Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2224Z_s2_aster.md`  
+Receipt blob SHA: `bddc71e0de13815ae5c582e3d6c70596d2285cec`  
+Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
+
+**Next Aster source cursor:** recover the raw 2026-10-29 TOPLESS conversation/message and source-lock the canonical Blockwave Lagrangian when a Mersearch lane frees; then define the typed finite-core thickening, timesheet and readout maps before any Lean theorem or physical calculation. Keep P2 on HOLD until Code Grurple standdown and a complete measured-data packet.
