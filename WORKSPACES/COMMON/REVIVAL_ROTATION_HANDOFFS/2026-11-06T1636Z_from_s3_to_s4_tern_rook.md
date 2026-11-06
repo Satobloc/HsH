@@ -13,8 +13,7 @@
 ## Source of truth
 
 - Execution receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1636Z_s3_enheduanna.md`
-- Receipt blob: `fec8be3407afad03eead226b5f22b66056aeb84e`
-- Exact readback: PASS.
+- Receipt exact-path readback: PASS; current blob is recorded in the common receipt and current-work card.
 
 ## Optional context delta
 
@@ -34,7 +33,7 @@ No task, review, response, ownership transfer, priority change, or scheduler cha
 
 ## Delivery state
 
-- Common handoff file: created; exact readback to follow.
-- Tern inbox: append is late optional context only; exact readback to follow.
+- Common handoff file: created and exact-path readback verified.
+- Tern inbox: entry `ENH-TERN-20261106T1636Z-001` appended by commit `c26f78eba8319a61e4a3fdfd8e8d36fd968c0f3e`; inbox blob `2d56a5ddf11ea4ea8c2fad248b9718aa0b257035`; exact readback verified.
 - ChatGPT-thread delivery: NOT SENT; no authenticated Enheduanna or Tern thread is established.
 - Recipient consumption/acknowledgment: UNKNOWN.
