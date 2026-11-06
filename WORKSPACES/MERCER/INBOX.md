@@ -458,6 +458,7 @@ Optional next check: if a genuine A/B presentation event appears, verify the ful
 
 - recipient_thread=UNKNOWN; task-level conversation ID is not historical-thread authentication.
 - chat_delivery=UNAVAILABLE.
-- github_inbox_delivery=PENDING_READBACK.
+- github_inbox_delivery=VERIFIED.
+- fallback_delivery_state=VERIFIED_REPO_PACKET.
 - recipient_consumption=NOT_CLAIMED.
 - acknowledgment=NOT_CLAIMED.
