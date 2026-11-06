@@ -120,3 +120,16 @@ The recovered material now defines a finite, typed provenance graph suitable for
 The highest-value unresolved source is still the original Kirk/Riley TXT, README and workflow-diagram bundle. A future search should, when a lane is explicitly released, exclude the root `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` self-hit and derivative report paths, retain the three-repository source snapshot and raw-output policy, and inspect candidate artifacts before classifying them. No new search request is made here.
 
 Optional successor context only: Alberr's autonomy/self-reconstruction charter remains controlling; no work is assigned or expected.
+
+## 9. Cross-repository podcast-index semantics — 2026-11-06
+
+A bounded read of the private cross-repository podcast guide was used to clarify the earlier `source_instance_count=2` / `derived_text_count=2` metadata. No raw Mersearch result payload was opened.
+
+- The guide's manifest is a snapshot generated 2026-10-08 from older pinned inputs, not a live or exhaustive current inventory.
+- The episode row labels the transcript `ordinary_public_exposition`, `rigor_signal=True`, and `review_status=unreviewed`. These are index labels, not an independent quality assessment or theory validation.
+- The two indexed SRT source instances are two HsH paths with the same SHA-256 and Git blob already recorded above. They are exact duplicate path instances, not independent transcript witnesses. Thus `source_instance_count=2` is not a count of independent origins.
+- The two derived-text entries are mechanical representations of the same SRT cue text. The extracted-text record points back to the SRT digest; a separate normalized comparison in this run again found exact cue-text equality after removing the webpage preamble, cue numbers and timestamps, and normalizing whitespace. This corroborates the earlier cue/derivative audit, not a second witness.
+- The guide explicitly prunes `PRIOR_ART` before traversal. The separate Mersearch bridge also excludes quarantined roots. Neither the guide nor the current searches can establish global absence from excluded material; no quarantined content was accessed.
+- No raw Kirk/Riley TXT, README, workflow diagram, January 22 raw conversation, model configuration, execution output, target behavior, or independent validation was recovered. The upstream bundle remains unresolved.
+- No private index path, private Library identifier, or raw private source content is copied into this public workspace.
+- Next cursor: wait for a Mersearch lane to be released or a new original source object. Do not repeat the January 22 date/role query or treat duplicate transcript paths/derived text as independent corroboration.
