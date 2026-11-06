@@ -174,3 +174,8 @@ The open question is therefore no longer whether a direct conceptual description
 The 2026-11-05 h618 continuity phrase calling a formal Klein-Fabric definition and local spine/core/shell map "adopted" is also superseded. The correct status is conceptual construction recovered, formal maps unresolved.
 
 See WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md. No theory promotion or BEDROCK change.
+
+
+## 2026-11-06 conditional curvature candidate
+
+Assistant-origin node 6f2360f0-a954-48db-9df7-cf716ddf7df3 (2026-10-21T23:54:26.655Z) supplies a candidate Euclidean lift \(X(w)=(\mathbf{x}(w),w)\) and Gram-curvature identity. A conditional algebraic module was added to the existing PR #873 branch. It does not establish that the physical H(s)H worldtube uses this lift, that w has unit parameter speed, or that Euclidean curve curvature is the physical inertia law. Initial CI run #42152965536 failed on noncomputable definitions; corrected commit 1971e3d58a28f7c6de5cf024039dbcedb133121c is awaiting rerun #42153410233. Keep this as an assistant reconstruction until source-level mapping is established.
