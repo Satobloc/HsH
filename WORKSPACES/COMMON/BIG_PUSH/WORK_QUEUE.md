@@ -16,15 +16,15 @@
 **Primary source:** SAT_THEORY_ARCHIVE_2023-25 / MISC / HoloJesu archive.txt  
 **Blob SHA:** afa778c23eb439caf707b618ec0e59304d321c0b  
 **Observed length:** 6,307 lines  
-**Read:** lines 1–1200  
-**Next:** lines 1201–1400  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-1001-1200.md`
+**Read:** lines 1–1400  
+**Next:** lines 1401–1600  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-1201-1400.md`
 
 **Comparison source:** FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
 **Status:** Complete read, 4,651 lines. The two full exports share opening material but neither is an exact substring of the other.
 
-**Stop condition:** Read the next contiguous 200-line range (1201–1400), compare it with the corresponding/related material in the completed transcript, and record unique passages, source differences, and the next cursor. Do not assume either file is a complete superset.
+**Stop condition:** Read the next contiguous 200-line range (1401–1600), compare it with the corresponding/related material in the completed transcript, and record unique passages, source differences, and the next cursor. Do not assume either file is a complete superset.
 
 ## Immediate sequence after BP-HIST-001
 
