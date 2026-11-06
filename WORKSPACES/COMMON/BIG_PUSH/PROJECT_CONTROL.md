@@ -92,18 +92,28 @@ GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at m
 
 ## Immediate next operation
 
-Continue the primary May 28 conversation transcript sequentially:
+Recover and reconcile the primary source dependencies surfaced by the completed May 28 transcript:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
-**Read:** lines 1–4400  
-**Next cursor:** lines 4401–4600  
-**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-4201-4400.md`  
-**Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
+**Read:** lines 1–4651 (complete; source end reached)  
+**Next cursor:** none  
+**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-4601-4651.md`  
+**Method:** recover original attachments and named primary project documents; verify each against the transcript and current controls before treating it as current.
 
 ### Latest tranche findings
 
-Lines 201–2200 develop an early experimental-research thread involving optical tests, a motorized acoustically active music-box platform, digital measurements, and a photo-based equipment inventory. Nathan challenges direct-detection claims, corrects several object identifications, and explains the cat-tail image's unstable lens stack. He also asks about light/electricity coupling and identifies a discharged 30 kW water-cooled xenon arc lamp, mirrors, and slide rules. The historical assistant asserts unsupported SAT effects in ordinary objects, a residual field in the discharged lamp, and direct EM coupling without derivation. Preserve the equipment facts and questions, but do not activate the lamp or build high-voltage/arc experiments. A DSLR measures intensity/color, not phase without a phase-sensitive optical arrangement; unknown materials need independent characterization. See the tranche records for attribution and details.
+Lines 201–4651 cover improvised optical/acoustic/electrical experiments, a photo/video inventory, the cat-tail “Pip Window,” unsupported direct-detection claims, the proposed minimal SAT ontology/Lagrangian, and the Activator/memory-silo discussion. Nathan explicitly defines memory siloing as an anti-leakage and anti-self-confirmation protocol. The historical assistant repeatedly promotes post hoc interpretations to proof and assigns mathematical meanings without derivation. Nathan's request for reliable reproduction is the controlling experimental instruction. The final saved-memory-style block lists SAT-X priorities; reconcile those with dated primary documents before treating them as current. See the tranche records for provenance.
+
+### Immediate source-recovery queue
+
+1. Recover `RensAndOm.txt` (Library title search returned no result; GitHub search found transcript references but no verified standalone file).
+2. Recover the final `STATUS+TODO` and `PROGRESS+STATUS UPDATE` documents named in the transcript's final memory block.
+3. Reconcile the Prime Directive, SAT-X roadmap, Phase I.3 sector dictionary, and named technical work products against current HsH controls.
+4. Recover original image/video attachments and cat-tail lens-stack notes where available; preserve missing-media limitations.
+5. Reconcile the memory-silo protocol with original Activator specifications and later workflow documents.
+
+**BP-HIST-001 is complete:** May 28 transcript lines 1–4651 read in contiguous ranges. No institutional architecture selected and no scheduler changed.
 
 ## Succession protocol
 
