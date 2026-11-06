@@ -514,3 +514,16 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1200Z_s0_calder_AMENDMENT_01.md
 - Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1200Z_from_s0_to_s1_hale_AMENDMENT_01.md
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUIRED. No chat delivery or acknowledgment is claimed.
+
+
+## 2026-11-06T12:00Z | h636:s1 | optional context amendment 02
+
+Existing h636 handoff and AMENDMENT_01 remain unchanged. Additive context:
+- `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1200Z_from_s0_to_s1_hale_AMENDMENT_02.md`
+- Linked Calder receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1200Z_s0_calder_AMENDMENT_03.md`
+
+The new cross-epoch source audit separates the 2023 and 2024 raw conversations, verifies the 2024 source node aaa27985 in the full mapping, preserves the 2D singular-support / 3D timesheet / 4D finite-core distinctions, and treats w=ct and cw=t as two standard conventions with a missing conversion map.
+
+CI correction: PR #873 run #42153410233, job #127681789766, succeeded on merge ref a2c3304edafa5274530ce5286cbe15ac1ed47b0b. It supersedes the earlier #416908 failure. Exact-head-only build remains unverified; tests/lint/nanoda/axiom audit were skipped. Tern owns the stale task-graph status.
+
+OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literature assignment, and no authenticated Hale-thread delivery claim. The :12 lease remains disabled.
