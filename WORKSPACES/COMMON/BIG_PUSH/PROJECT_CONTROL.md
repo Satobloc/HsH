@@ -92,7 +92,7 @@ GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at m
 
 ## Immediate next operation
 
-Recover and reconcile the primary source dependencies surfaced by the completed May 28 transcript:
+Compare the alternate May 28 transcript export and recover named source dependencies:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
@@ -107,24 +107,14 @@ Lines 201–4651 cover improvised optical/acoustic/electrical experiments, a pho
 
 ### Immediate source-recovery queue
 
-1. Recover `RensAndOm.txt` (Library title search returned no result; GitHub search found transcript references but no verified standalone file).
+1. Compare the 6,307-line alternate May 28 export with the completed 4,651-line transcript, including the duplicate SAT DEVELOPMENT and HsH dump copies.
+2. Recover `RensAndOm.txt` (Library title search returned no result; GitHub search found transcript references but no verified standalone file).
 2. Recover the final `STATUS+TODO` and `PROGRESS+STATUS UPDATE` documents named in the transcript's final memory block.
 3. Reconcile the Prime Directive, SAT-X roadmap, Phase I.3 sector dictionary, and named technical work products against current HsH controls.
 4. Recover original image/video attachments and cat-tail lens-stack notes where available; preserve missing-media limitations.
 5. Reconcile the memory-silo protocol with original Activator specifications and later workflow documents.
 
 **BP-HIST-001 is complete:** May 28 transcript lines 1–4651 read in contiguous ranges. No institutional architecture selected and no scheduler changed.
-
-### Immediate source-recovery queue
-
-1. Compare `MISC/HoloJesu Fleshlight.txt` (6,307 lines) against `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt` (4,651 lines); neither body is an exact substring of the other.
-2. Recover `RensAndOm.txt` (Library title search returned no result; GitHub search found transcript references but no verified standalone file).
-3. Recover the final `STATUS+TODO` and `PROGRESS+STATUS UPDATE` documents named in the final memory block.
-4. Reconcile the Prime Directive, SAT-X roadmap, Phase I.3 sector dictionary, and named technical work products against current HsH controls.
-5. Recover original image/video attachments and cat-tail lens-stack notes where available; preserve missing-media limitations.
-6. Reconcile the memory-silo protocol with original Activator specifications and later workflow documents.
-
-**BP-HIST-001 complete:** May 28 transcript lines 1–4651 read in contiguous ranges. The broader May 28 source corpus remains open pending variant reconciliation. No institutional architecture selected and no scheduler changed.
 
 ## Succession protocol
 
