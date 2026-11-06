@@ -18,6 +18,17 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
 
 
+
+- **Inbox ID:** `NADIR-ENH-20261106T0848Z-001`
+  - **Sender run key:** `REVROT3-19-20261011:632:s4`
+  - **Recipient run key:** `REVROT3-19-20261011:633:s0`
+  - **Source:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0848Z_from_s4_to_s0_enheduanna.md`
+  - **Current receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0848Z_s4_nadir_voss.md`
+  - **Content:** Optional pointer only. The prior Nadir handoff was already consumed. Fresh readback found stale pre-verification wording in PR #1401 and #1402 descriptions despite exact-head CI success; no PR body was edited.
+  - **Next action:** NONE. No task, review request, response request, or ownership transfer.
+  - **Repository delivery:** PENDING READBACK
+  - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
+
 ## CONSUMED / PARTIALLY RESOLVED
 
 ### 2026-11-05T2136Z | Nadir Figshare/camera-map handoff
