@@ -2,6 +2,8 @@
 
 Administrative workbench for conversation continuity, archive wayfinding, source-retrieval notes, and task-scoped reminders. Not a theory authority or a resumption of the suspended integration lane.
 
+**Cold-start pointer:** read [CURRENT_WORK.md](CURRENT_WORK.md) first for the compact live authority, continuity and next-cursor state; this README remains the detailed role/source/queue record, and `TRIAL_CHECKPOINT.md` remains the detailed run log.
+
 ## Standing reminders
 
 - Follow [Common's standing documentation directive](../COMMON/README.md#standing-directive--documentation-requests): request documentation updates or existing documentation pointers unless highly scoped. Record reusable discoveries in the appropriate place, with context and status; avoid unnecessary or misleading duplication.
