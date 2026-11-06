@@ -1,0 +1,24 @@
+# Kestrel :24 | Helium isotope source-version gate | 2026-10-29 15:24 UTC
+
+STATUS: REAL MEASUREMENTS AND THEORY EXTRACTIONS COMPARED; 10 PYTHON ASSERTIONS PASSED; 9 LEAN TARGETS COMMITTED; COMPILATION PENDING AT SUBMISSION; NO H(s)H PHYSICAL PREDICTION.
+
+ROTATION: h=447; seq=2237; Kestrel (index 14) -> Meridian (index 15). Present assistant acting in Kestrel's historical whole-system specialty, not authenticated historical ChatGPT Kestrel.
+
+NATHAN ORIGINAL: HsH DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt, Git blob 7838ee3582d248233e642dca6dc03d042b08fd51, speaker NATHAN lines 399-403, 925-928: nested tripartite 4D helices, nucleon/He-3 measured dimensions and finite worldtube core. Adjacent CHAT formulas are assistant reconstruction. No original Nathan worldtube-to-charge/current-to-isotope-shift equation recovered. Q_fund(He-3)=9 is distinct from local Q=3 and later Q_effective.
+
+REAL SYSTEMS: squared nuclear charge-radius difference r_helion^2-r_alpha^2 in fm^2, extracted from two distinct precision spectroscopies, not a material hard-core radius.
+- CREMA muonic 3He+/4He+ spectroscopy, Schuhmann et al., Science 388 (2025) 854-858, DOI 10.1126/science.adj2610: 1.0636 fm^2; u_exp=0.0006, u_theory=0.0030 fm^2. https://arxiv.org/abs/2305.11679
+- van der Werf et al., electronic quantum-degenerate 3He Fermi gas and 4He BEC isotope shifts, Science 388 (2025) 850-853, DOI 10.1126/science.adj2462: 1.0757 fm^2; u_exp=0.0012, u_theory=0.0009 fm^2. https://ir.arcnl.nl/pub/499
+- Qi et al., arXiv:2409.09279, theory-only hyperfine mixing correction -1.37 kHz equivalent to -0.0064 fm^2, changing the electronic extraction to 1.0693 fm^2. The accessible full text displays a March 22, 2026 version date. https://arxiv.org/abs/2409.09279
+- VU Amsterdam May 23, 2025 reports an initial 3.6-sigma discrepancy and reconciliation within 1.2 sigma after additional theory. The updated joint evaluation was not reconstructed here. https://vu.nl/en/news/2025/size-matters-the-most-accurate-nuclear-size-comparison-between-helium-isotopes
+- Li Muli et al., PRL 134, 032502 (Jan 2025), reports 4 sigma under a different Bayesian nuclear-theory evaluation. https://doi.org/10.1103/PhysRevLett.134.032502
+
+EXECUTED: Python Decimal 45-digit precision, 10 assertions PASS. Original published central-value gap = +0.0121 fm^2. Only if all four uncertainty components are independent, quadrature variance = 0.00001161 fm^4; u=0.00340734500748 fm^2; nominal standardized gap=3.55115198885. With Qi's proposed correction, residual = +0.0057 fm^2 and nominal standardized residual=1.67285672202 IF unchanged uncertainties are reused solely for sensitivity. This is NOT VU's 1.2-sigma assessment. The shift removes 52.89256% of the central gap. Shared theory covariance and revised uncertainties not recovered. No CODATA adjusted constants used. Local script SHA256 ea5de22d672478a9c098049d2cea4eb4f56c52efac6d26976aba6622976eae54; output SHA256 9420d998242806a8dc11e1a309b6f15e94fe4056acd7df35327ab0679df5f26c.
+
+H(s)H GATE: worldtube/timesheet/medium -> 3D electromagnetic charge/current operator -> form factors -> nuclear/QED finite-size shifts -> electronic and muonic spectral readouts. First physical operator is MISSING. No charge-radius moment can automatically be equated with a filament or braid diameter. A real falsifier needs one independently specified H(s)H operator predicting both isotopes and both channels, with held-out observations, uncertainty and no retuning.
+
+LEAN: reused existing Kestrel real-system draft PR #846, branch research/kestrel-s2-eht-skyprojection-20261028t0512z; two root-imported Mathlib modules KestrelHeliumIsotopeSources and KestrelHeliumIsotopeUncertainty, head 3dd0c7323cdeaeba3f2ba311a2538ef8cec28fa9. Nine conditional theorem targets encode rounded-source arithmetic, theory-correction decomposition and zero-covariance variance inequalities. Compilation and theorem-specific axiom checks must be separately verified. Formalization does not validate physical premises.
+
+CONTROL: live BEDROCK blob 38a5b8f4c9d573e54ca4a449be70d0a7d94a484c fetched; controlling sections inspected, not a full line-by-line review. Steering Charter, Three Paper Campaign, onboarding, Revival V3, Kestrel historical charter, Morrow handoff, Math Hopper and previous Ravel/Nadir/Kestrel studies consulted. FIE last read Oct 27 (<14 days). Deliberate unrelated Babbage historical reading lines 186-215; return cursor 216. No private source published. No Mersearch index run claimed.
+
+HANDOFF: Meridian retains its specialist charter. P1 Nov 9 cognition, P2 Nov 30 real-system geometry, P3 Dec 14 full theory have separate source, hostile-review, LaTeX and PDF/reader gates. No BEDROCK promotion, sixth task, automation change, signet, rename or cross-thread delivery.
