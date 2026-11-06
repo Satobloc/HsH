@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-06T07:03:57.305067+00:00",
-  "catalog_sha256": "fb77a9cfbe99a4f34a761b14651392a9b6422cb018ff6ae482f7bae88d6c7a96",
+  "generated_at_utc": "2026-11-06T08:05:23.241648+00:00",
+  "catalog_sha256": "de33673a7cf3898923f56201f6dbcf180db0c48691761a6fb78e5ba07a02ed66",
   "conversation_ids": [
     "b45ad724bd8b",
     "1456097a9877",
@@ -521,15 +521,24 @@
     "06b78b8defbd",
     "81e2621b26ec",
     "3548eb5f790a",
+    "924cd423f005",
     "d803c22bd68c",
     "09fb6006d364",
     "3ac076a93388",
+    "ace86006e47c",
     "2dab1041b608",
+    "49d90b4bc3ec",
     "fe7cd4a3d2ec",
+    "0736963bfcf4",
+    "1ef3728e7cb7",
     "b27b0dd49a61",
     "705c2e333b0e",
+    "692aa763e472",
     "4ba9d4724208",
+    "a49d298f7738",
+    "22225cb6181a",
     "55ce7f398b38",
+    "1444f06b037d",
     "8077128bd930",
     "627cedf92849",
     "8148ac7f7b9c",
@@ -571,8 +580,10 @@
     "38f50494d9a3",
     "67dac92bd09f",
     "cc7db851b2f2",
+    "1ba0771f9ca6",
     "41d417e17c9d",
     "36656108180d",
+    "5b3dea60a4ee",
     "d56d92ecde97",
     "5e8285eefa16",
     "057b7a42ec66",
@@ -580,6 +591,7 @@
     "a6b47444b12a",
     "2263fbbd9f9a",
     "2fad191fec1b",
+    "7eaa715568bd",
     "55a8d9d4d1ad",
     "6b3a960fcc11",
     "b65896c2647e",
@@ -597,6 +609,7 @@
     "c6228a93b1c3",
     "edc27b09779d",
     "8c1a6a59a9a4",
+    "fec9aa73403a",
     "fed8c1a8fa9e",
     "6ac2d8c36c68",
     "fe11fef08502",
@@ -638,6 +651,7 @@
     "66d38f50f712",
     "1d2dc31840ac",
     "00a0cef0187e",
+    "8f5833fc3929",
     "06c59abd0d28",
     "73fef6c66eb7",
     "05d0ea327af4",
@@ -708,13 +722,26 @@
     "0e01493364a5",
     "3f91a8eb1358",
     "c4968bf332a2",
+    "01ec5fb19185",
     "50133e175868",
+    "319b8f290351",
+    "03002de69375",
+    "929393432e3b",
     "d8b1cd8de815",
+    "6afe43215d29",
+    "b8e55ce29274",
+    "3794cfa22f63",
+    "ea398689447d",
+    "1c5f321f045e",
     "84b08fc0cac1",
     "4a62f1306c70",
     "f43fbf810d31",
     "c37b002948b6",
     "0493f3c18de8",
+    "2ed1404df994",
+    "1ecfa9f5a379",
+    "48ae61bf13ef",
+    "a4e54fff17c1",
     "a537050b511f",
     "36ac9c388eb8",
     "377e005557d2",
@@ -863,159 +890,159 @@
     "fb9e2ea6fd8c",
     "8ceb4702612d"
   ],
-  "conversation_count": 859,
-  "indexed_conversations": 859,
-  "unique_tokens": 309878,
-  "posting_count": 5074946,
-  "shard_bytes": 24202614,
+  "conversation_count": 886,
+  "indexed_conversations": 886,
+  "unique_tokens": 310864,
+  "posting_count": 5147274,
+  "shard_bytes": 24505123,
   "shards": {
     "0": {
-      "tokens": 10863,
-      "bytes": 391859
+      "tokens": 10893,
+      "bytes": 393145
     },
     "1": {
-      "tokens": 13736,
-      "bytes": 594539
+      "tokens": 13800,
+      "bytes": 597770
     },
     "2": {
-      "tokens": 10631,
-      "bytes": 493800
+      "tokens": 10695,
+      "bytes": 497480
     },
     "3": {
-      "tokens": 6388,
-      "bytes": 269140
+      "tokens": 6395,
+      "bytes": 270685
     },
     "4": {
-      "tokens": 7617,
-      "bytes": 297541
+      "tokens": 7626,
+      "bytes": 298992
     },
     "5": {
-      "tokens": 5066,
-      "bytes": 206459
+      "tokens": 5073,
+      "bytes": 207206
     },
     "6": {
-      "tokens": 4919,
-      "bytes": 196913
+      "tokens": 4932,
+      "bytes": 197615
     },
     "7": {
-      "tokens": 4186,
-      "bytes": 165482
+      "tokens": 4197,
+      "bytes": 165902
     },
     "8": {
-      "tokens": 4788,
-      "bytes": 172368
+      "tokens": 4798,
+      "bytes": 172895
     },
     "9": {
-      "tokens": 5468,
-      "bytes": 189615
+      "tokens": 5472,
+      "bytes": 190102
     },
     "_": {
-      "tokens": 11600,
-      "bytes": 422406
+      "tokens": 11664,
+      "bytes": 432257
     },
     "a": {
-      "tokens": 14059,
-      "bytes": 1323721
+      "tokens": 14102,
+      "bytes": 1341337
     },
     "b": {
-      "tokens": 12423,
-      "bytes": 871342
+      "tokens": 12449,
+      "bytes": 880970
     },
     "c": {
-      "tokens": 15482,
-      "bytes": 1786593
+      "tokens": 15521,
+      "bytes": 1813870
     },
     "d": {
-      "tokens": 10742,
-      "bytes": 1121055
+      "tokens": 10780,
+      "bytes": 1138089
     },
     "e": {
-      "tokens": 9317,
-      "bytes": 1014549
+      "tokens": 9335,
+      "bytes": 1029703
     },
     "f": {
-      "tokens": 10200,
-      "bytes": 918879
+      "tokens": 10228,
+      "bytes": 931388
     },
     "g": {
-      "tokens": 6393,
-      "bytes": 518700
+      "tokens": 6410,
+      "bytes": 526093
     },
     "h": {
-      "tokens": 6343,
-      "bytes": 533825
+      "tokens": 6377,
+      "bytes": 540690
     },
     "i": {
-      "tokens": 7014,
-      "bytes": 920370
+      "tokens": 7032,
+      "bytes": 934397
     },
     "j": {
-      "tokens": 1972,
-      "bytes": 124900
+      "tokens": 1982,
+      "bytes": 126097
     },
     "k": {
-      "tokens": 3448,
-      "bytes": 186394
+      "tokens": 3487,
+      "bytes": 189540
     },
     "l": {
-      "tokens": 8550,
-      "bytes": 1240959
+      "tokens": 8573,
+      "bytes": 1251792
     },
     "m": {
-      "tokens": 11500,
-      "bytes": 1013378
+      "tokens": 11533,
+      "bytes": 1028102
     },
     "n": {
-      "tokens": 16727,
-      "bytes": 973732
+      "tokens": 16757,
+      "bytes": 980903
     },
     "o": {
-      "tokens": 5157,
-      "bytes": 531379
+      "tokens": 5172,
+      "bytes": 539388
     },
     "p": {
-      "tokens": 12435,
-      "bytes": 1352235
+      "tokens": 12474,
+      "bytes": 1373524
     },
     "q": {
-      "tokens": 1515,
-      "bytes": 138217
+      "tokens": 1526,
+      "bytes": 140942
     },
     "r": {
-      "tokens": 10407,
-      "bytes": 1235015
+      "tokens": 10435,
+      "bytes": 1251174
     },
     "s": {
-      "tokens": 19059,
-      "bytes": 1952429
+      "tokens": 19136,
+      "bytes": 1981688
     },
     "t": {
-      "tokens": 22696,
-      "bytes": 1591915
+      "tokens": 22753,
+      "bytes": 1608732
     },
     "u": {
-      "tokens": 6855,
-      "bytes": 472923
+      "tokens": 6881,
+      "bytes": 478309
     },
     "v": {
-      "tokens": 3606,
-      "bytes": 314574
+      "tokens": 3617,
+      "bytes": 319529
     },
     "w": {
-      "tokens": 4817,
-      "bytes": 462977
+      "tokens": 4825,
+      "bytes": 469416
     },
     "x": {
-      "tokens": 1079,
-      "bytes": 51399
+      "tokens": 1092,
+      "bytes": 52024
     },
     "y": {
-      "tokens": 1320,
-      "bytes": 80366
+      "tokens": 1332,
+      "bytes": 81788
     },
     "z": {
-      "tokens": 1500,
-      "bytes": 70666
+      "tokens": 1510,
+      "bytes": 71589
     }
   },
   "tokenization": "Unicode word tokens casefolded; H(s)H normalized to hsh; tokens shorter than 2 omitted",
