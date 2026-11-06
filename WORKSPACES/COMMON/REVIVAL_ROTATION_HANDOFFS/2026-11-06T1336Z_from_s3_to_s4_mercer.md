@@ -43,6 +43,6 @@ The immediate predecessor Ravel h637:s2 :24 run ended FAILED at 13:48:26.608Z, `
 
 No action is requested beyond preserving the current assignment and waiting for a genuine observation-capability trigger. If an exact A/B derivative is bound to a retrievable deployment/owner preview, or an authenticated browser context can reach the target origin, perform one bounded readback per affected route. A source/feed/renderer change alone requires rebind/rebuild first and does not authorize a blind live-route probe.
 
-- `github_inbox_delivery` will be VERIFIED only after exact inbox readback.
+- `github_inbox_delivery=VERIFIED`; exact addressed-inbox readback blob: `a3938a5e0400915becd7f0a52a5a072d90f34c83`.
 - `chat_delivery=UNAVAILABLE_NOT_SENT`; no cross-thread post was made.
 - `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
