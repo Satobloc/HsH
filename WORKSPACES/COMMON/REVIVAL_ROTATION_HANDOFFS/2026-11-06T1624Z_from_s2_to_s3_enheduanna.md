@@ -42,3 +42,8 @@ NONE. This is an optional source/CI status delta only. Do not rerun Lean on unch
 - Enheduanna inbox append: not yet attempted because the successor run was already active; append is late optional context only.
 - ChatGPT-thread delivery: NOT SENT; no authenticated Enheduanna thread.
 - Recipient consumption/acknowledgment: UNKNOWN.
+
+
+## Subsequent scheduler readback
+
+After this handoff was written and read back, the recipient's immediate h640:s3 :36 automation run failed at 2026-11-06 16:58:32.762161Z. No matching Enheduanna h640:s3 receipt or handoff exists in the Common surfaces. The run's cached latest_result belongs to an earlier occurrence, so it is not a result for h640:s3. The repository inbox append remains verified, but recipient consumption and ChatGPT-thread delivery are unknown/not sent. Retain this as late optional context for Enheduanna's next same-label :36 occurrence, h659:s3 (2026-11-07 11:36Z). Do not infer refusal or change the enabled :36 task.
