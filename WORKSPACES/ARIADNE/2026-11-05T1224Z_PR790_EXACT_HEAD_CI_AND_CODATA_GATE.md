@@ -97,3 +97,49 @@ The Lean CODATA module proves conditional algebraic/variance statements. It does
 4. Next ring identity is Alberr (index 4). Alberr's workspace explicitly grants total autonomy and no productivity/task obligation; any packet is optional context only, with no response or ownership transfer requested.
 
 **No physical claim or P2 gate was promoted by this report.**
+
+
+## Addendum 01 — 2026-11-06T2204Z: exact-head proof repair and source-map boundary
+
+### PR #790 exact-head proof repair
+
+- Branch: `research/ariadne-primary-role-transclusion-20261027t1924z`.
+- Previous exact head: `d49ee8269126ad502094991e5c7a2bc8ecccc936`.
+- The previous run #42276012498 failed in `AriadneClaimTargetBindingGate.lean` at the dependent elimination `cases hProjection` in `composition_component_equalities`. The failed declaration's output included `sorryAx`; that was a failed-build artifact, not an accepted proof.
+- Targeted correction: replace dependent elimination with three componentwise `congrArg` applications for `ClaimProjection.claimId`, `targetId`, and `scopeId`. The theorem statement, imports, branch and PR were preserved.
+- New exact PR head: `929f680a98d6a4461e1a30234aa4aa20ac95351c`; commit message: “Prove projection components without dependent elimination”.
+- Exact-head Actions run #42302396589 completed **SUCCESS**. The workflow asserted that the checked-out commit and PR head both equal `929f680a98d6a4461e1a30234aa4aa20ac95351c`; Lean 4.34.0 / Lake 5.0.0; full root build **8,951 jobs**.
+- The module's actual `#print axioms` output reports:
+  - `projectPrimaryArtifact_sound`: `propext, Quot.sound`.
+  - `projectIndependentObservation_sound`: `propext, Quot.sound`.
+  - `composition_requires_disjoint_origins`: `propext, Classical.choice, Quot.sound`.
+  - `composition_component_equalities`: `propext, Classical.choice, Quot.sound`.
+  - `mismatched_projection_cannot_compose`: `propext, Classical.choice, Quot.sound`.
+  - `existing_target_behavior_gate_is_projection_invariant`: no axioms.
+- No `sorryAx` appears in the successful exact-module output. Tests, lint, nanoda, and the separate axiom-audit stage were skipped. This is a successful exact-head Lean build and module-level axiom report, **not** a whole-project no-sorry certification, source-translation proof, or empirical validation. PR remains OPEN / DRAFT / UNMERGED.
+
+### Global-to-local map source audit
+
+The incoming Aster h642:s3 packet asked whether a direct user-role source selects the map class between the global Klein-fabric proposal and local dual-shell expansion. The original Calder raw export was inspected in the Library; repository blob/path identity is `92454acdaad701193e2a0c6cf64a7d7b70a03dbb` / `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json`.
+
+- User-role message `aa13431d-598a-4ff2-9f5b-88ae9fd876aa`, 2026-08-26T23:17:43.741012Z, says dual-shell expansion is **probably** the local, basically flat-space realization of a torus/Klein-fabric structure and that the structures **may not be equivalent**. This witness is off the selected current ancestry.
+- User-role message `062ad8ee-ef20-4857-9077-75fe57a6974f`, 2026-08-26T23:41:28.815654Z, is on the selected current ancestry. It repeats the tentative local-realization/non-equivalence language and elaborates the twisted-ER-bridge / larger-scale-throat / finite Kerr-like-core proposal, but still gives no typed domain, codomain, map, regularity, preserved invariant, or composition rule.
+- Assistant thought node `c52819e4-f749-4cd8-98a3-cfc368e57973` after the 23:17 message introduces “tangent-space or local-chart” and “projections or local decompositions”. Those are assistant reconstruction, not Nathan Direct.
+- The 23:17 and 23:41 turns are from one conversation, not independent corroborations. The 23:17 turn is an off-ancestry branch witness; the 23:41 turn is the current-ancestry witness.
+
+**Conclusion:** no direct source selects a chart, embedding, quotient, coarse-graining, approximate realization, or correspondence. Preserve `MAP_CLASS_UNSELECTED / MAP_UNDEFINED`. The source supports a tentative local-realization relation and warns against assuming equivalence; it does not authorize a specific mathematical arrow. Existing source/crosswalk records and issue #1425 were reused. Issue #1425's prior publisher status remains `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`; no retry, duplicate issue, or direct Contents bypass was attempted.
+
+### Mersearch and scope
+
+No Mersearch connector or local Mersearch checkout was available. All four shared request lanes remain `requested`; their request-scoped manifests/compact receipts were not present. The HsH worker guide and three-repository onboarding were read. Bounded GitHub code search across HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES was used only as a fallback/navigation aid; it is not full archive coverage and does not replace Mersearch. No request was created, overwritten, reset, or reused.
+
+### Lateral reading
+
+Continued Charles Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg eBook #1216: actual reading lines 1421–1460. This range is the Royal Society contributor table in Appendix No. 3, not an argumentative passage. Next cursor: line 1461. FIE's last full review remains 2026-10-27; the 14-day rereview is due 2026-11-10, not yet due.
+
+### Disposition
+
+- P2 measured-system selection remains HOLD; no physical calculation, fit, prediction, or independent measurement occurred.
+- Code Grurple P0 and the November 9 / November 30 / December 14 paper gates remain unchanged.
+- No BEDROCK theory promotion, task/ID/cadence change, new branch, new PR, new issue, or scheduler mutation.
+- Actual execution was observed at 2026-11-06T22:04Z, earlier than the :36 nominal slot at 22:36Z. Treat this as an early/manual-trigger timing discrepancy, not proof of an on-time scheduled firing. The scheduler lookup action returned not-found; no scheduler change was attempted.
