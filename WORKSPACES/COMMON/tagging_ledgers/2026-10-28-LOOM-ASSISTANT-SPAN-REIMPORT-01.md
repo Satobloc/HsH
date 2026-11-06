@@ -118,3 +118,67 @@ Four tool nodes `ce4c8d5f-7c21-44e5-9a59-e4d4bd4b8922`, `ce0eec0a-b5d9-4daa-992d
 - **Public artifact:** issue #1422, submission `loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001.md`, expected SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70`. Status at this ledger update: `SUBMITTED_NOT_VERIFIED`; do not duplicate.
 - **Next cursor:** user message `aaa256ce-8c31-45a2-a424-af69f0947a5e` at 2024-03-28 05:26:10.684Z is the next current-ancestry node and is already within the 138-user-turn tag corpus. Continue with the assistant response after it; do not repeat user tagging.
 - **Limits:** no transfer equation, constitutive law, observation operator, measured system, dataset, units, uncertainty model, calibration/holdout, fit, or independent measurement. The 13.77/13.8 Gyr values are unsourced assistant claims and are not used as standard references. No Lean proposition was sufficiently defined; no Lean run, physical calculation, or theory promotion.
+
+ 
+## 2026-11-06 18:24Z | Assistant-span continuation after aaa256ce
+
+- **Run key:** REVROT3-19-20261011:642:s2; deterministic selection Loom (ring index 1), next Aster (index 2). Selection is a routing label, not authenticated worker/thread identity.
+- **Source:** DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json; conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; raw blob 2cea1924266418e19b825b95ae51e6b7cbace7e1.
+- **Exact read extent:** selected current-ancestry indices **324–360 inclusive (37 nodes)**, following already-tagged user node aaa256ce-8c31-45a2-a424-af69f0947a5e (index 323). The window contains **19 assistant messages, 2 tool messages and 16 user messages**. All 16 user messages already have source-tag coverage in the existing 138/138 pass; they were read as context only and were not retagged.
+- **Coverage boundary:** raw mapping remains 466 nodes / 465 message objects (138 user, 199 assistant, 128 tool); selected current ancestry remains 456 nodes including root / 455 message objects (138 user, 192 assistant, 125 tool). This window advances review of selected assistant/tool ancestry only; it does not establish complete assistant/tool coverage.
+
+### Assistant-span classifications
+
+All entries below use the raw outer message.author.role; timestamps are raw create_time. These are assistant-authored, not Nathan Direct.
+
+| Message ID | UTC | Classification and tags |
+|---|---|---|
+| 703d788d-5ff5-41d3-8f13-64eb18510a9d | 2024-03-28 05:26:15.625Z | Assistant affirmation of cumulative past/future interaction “tugs”; ASSISTANT-GENERATED-CUMULATIVE-TUG-INTERPRETATION, NO-EQUATION, NO-DERIVATION, NOT-NATHAN, NOT-VALIDATED. |
+| 9ba2a2a4-f1fd-4705-806a-4e2148523a8f | 2024-03-28 05:30:32.229Z | Complexity-to-energy-bleed and age-estimator extrapolation; ASSISTANT-COMPLEXITY-TO-ENERGY-BLEED-EXTRAPOLATION, UNSPECIFIED-LAW, NO-DATA, NOT-NATHAN. |
+| 9e64dade-65b0-4d24-bbe5-7be4620bd9a8 | 2024-03-28 05:32:53.861Z | Predicts stellar-age method underestimation and comparatively smaller CMB effect; ASSISTANT-AGE-ESTIMATOR-BIAS-PREDICTION, DIRECTIONAL-CLAIM, NO-TRANSFER-LAW, NO-ESTIMATOR-RESPONSE, NOT-NATHAN. |
+| 556b813d-fa76-4449-b8a9-4c742caa3dd8 | 2024-03-28 05:35:31.081Z | Proposes using age-estimate disparity to estimate energy bleed; ASSISTANT-AGE-DISPARITY-ESTIMATOR-PROPOSAL, NO-OBSERVATION-OPERATOR, NO-COVARIANCE, NOT-NATHAN. |
+| 36ae5a10-484b-47fd-a1b7-d45d25daf308 | 2024-03-28 05:36:31.067Z | Qualitative magnitude speculation based on density, complexity, expansion and interactions; ASSISTANT-ENERGY-BLEED-MAGNITUDE-SPECULATION, NO-RATE-LAW, NO-UNITS, NOT-NATHAN. |
+| 77d7b3b8-6fe8-4847-a62e-17583e4fa673 | 2024-03-28 05:39:05.013Z | Bio-memory summary of user hypothesis; ASSISTANT-BIO-MEMORY-SUMMARY, CONTEXT-ONLY, NOT-NATHAN, NOT-INDEPENDENT-EVIDENCE. |
+| 5b437c3b-8a0f-4599-988d-6fc29b4c11c9 | 2024-03-28 05:39:05.017Z | Assistant elaboration that increasing past influence could explain acceleration; ASSISTANT-ACCELERATING-EXPANSION-SPECULATION, ASSISTANT-PARAPHRASE-PLUS-EXTRAPOLATION, NO-ENERGY-BALANCE, NOT-NATHAN. |
+| 108404b9-cd48-41fb-9024-6fd0a75100e2 | 2024-03-28 05:43:32.379Z | String-network wave analogy with transfer to neighboring filaments; ASSISTANT-STRING-WAVE-PROPAGATION-ANALOGY, ASSISTANT-INTERFILAMENT-TRANSFER-SUGGESTION, NO-COUPLING-LAW, NOT-NATHAN. |
+| e7f9f0e0-98e5-4e05-8bb2-147acecd5e25 | 2024-03-28 05:45:29.306Z | Physical string/sphere toy-model answer asserts bidirectional propagation, then adds a shorter-distance speed aside; ASSISTANT-TOY-MODEL-PHYSICAL-CLAIM, BIDIRECTIONAL-WAVE-CLAIM, UNSUPPORTED-DIRECTIONAL-ASIDE, NO-PARAMETERS, NOT-NATHAN. |
+| 976408fd-a1e2-4be6-8976-b101c0dfda44 | 2024-03-28 05:46:26.853Z | Knot absorption/reflection and redirection as possible directional-bias mechanism; ASSISTANT-KNOT-REFLECTION-ABSORPTION-SPECULATION, NO-CONTACT-COEFFICIENT, NO-BOUNDARY-CONDITIONS, NOT-NATHAN. |
+| 22ec7669-ad29-4b16-85ce-fdd1ace7066c | 2024-03-28 05:48:24.842Z | Under stipulated symmetry/perfect-transfer/equidistance, asserts equal inward/outward energy; ASSISTANT-SYMMETRIC-ENERGY-PARTITION-CLAIM, CONDITIONAL-ON-VERBAL-ASSUMPTIONS, NO-FORMAL-DEFINITION, NOT-NATHAN. |
+| ef8c0553-3e47-46a0-b9ca-006a98f11cb6 | 2024-03-28 05:50:31.305Z | Contact-mediated transfer, reflection and interference speculation for tangled strings; ASSISTANT-CONTACT-TRANSFER-SPECULATION, NO-CONTACT-LAW, NO-BOUNDARY-CONDITIONS, NOT-NATHAN. |
+| 9d4ee832-b6c2-4b91-9b06-f1b8086417dc | 2024-03-28 05:53:51.493Z | Claims no preferred direction in a multidimensional network; ASSISTANT-NETWORK-NO-BIAS-CLAIM, UNSUPPORTED-GLOBAL-INFERENCE, NO-TOPOLOGY-TO-FLUX-MAP, NOT-NATHAN. |
+| 4756d7d0-8198-4f27-bfff-de1950f675df | 2024-03-28 05:57:34.730Z | Past-object bundle interaction and “temporal memory” speculation; ASSISTANT-TEMPORAL-MEMORY-SPECULATION, NO-CONSTITUTIVE-LAW, NO-ENERGY-ACCOUNTING, NOT-NATHAN. |
+| a1b382d2-8ffd-4a59-99e9-2bd1817ddb6d | 2024-03-28 06:00:07.301Z | Suggests future-direction tangling could produce directional energy-transfer bias; ASSISTANT-FUTURE-TANGLING-BIAS-PREDICTION, NO-TOPOLOGY-TO-TRANSFER-MAP, NOT-NATHAN. |
+| 0458db06-5e78-45f7-9aef-bdfa0a430217 | 2024-03-28 06:01:34.454Z | Conditional net-pastward transfer as expansion mechanism; ASSISTANT-NET-PASTWARD-TRANSFER-HYPOTHESIS, NO-CONSERVATION-LAW, NO-ENERGY-BALANCE, NOT-NATHAN. |
+| 21367033-a856-41fc-9783-84323ba86039 | 2024-03-28 06:02:29.616Z | Asserts increased future tangling implies more inward transfer; ASSISTANT-DIRECTIONAL-FLUX-PREDICTION, UNSUPPORTED-ASYMMETRY-INFERENCE, NO-TRANSFER-OPERATOR, NOT-NATHAN. |
+| a5a3e352-80bc-44d5-9439-c7b6c09c903f | 2024-03-28 06:05:20.721Z | Bio-memory summary of the developing SAT narrative; ASSISTANT-BIO-MEMORY-SUMMARY, CONTEXT-ONLY, NOT-NATHAN, NOT-INDEPENDENT-EVIDENCE. |
+| f10e6bcf-f1c0-4749-a026-ca0dcb9004f3 | 2024-03-28 06:05:20.724Z | Assistant synthesis of the preceding SAT/energy-transfer discussion; ASSISTANT-SYNTHESIS, MIXED-SOURCE-ANCESTRY, ASSISTANT-RECAP-NOT-SOURCE, NOT-NATHAN, NOT-INDEPENDENT-PREDICTION. |
+
+### Tool-node classifications
+
+| Message ID | UTC | Classification |
+|---|---|---|
+| d27bd817-0f61-4eea-8dbb-a09016b1d6a0 | 2024-03-28 05:39:05.017Z | BIO-TOOL-STATE-ACKNOWLEDGMENT, NON-SUBSTANTIVE, NOT-THEORY-EVIDENCE. |
+| f37f528e-bf93-40fb-b9f3-fbe9a31bf0a9 | 2024-03-28 06:05:20.724Z | TOOL-STATE-ACKNOWLEDGMENT, NON-SUBSTANTIVE, NOT-THEORY-EVIDENCE. |
+
+### Source-interpretation and exposure findings
+
+1. The user hypothesis about cumulative past/future interaction is already present in the user-role message at index 323. The following assistant response restates it and extends it toward complexity and cosmological age inference.
+2. The assistant then proposes age-estimator biases, a possible disparity-based estimator, and qualitative energy-bleed magnitude claims. None is accompanied by a transfer equation, constitutive law, observation operator, estimator response, units, uncertainty model, calibration, holdout or independent measurement.
+3. The assistant subsequently answers a hypothetical string-and-sphere question and supplies multiple verbal propagation claims: bidirectional propagation, a shorter-distance speed aside, knot reflection/absorption, equal splitting under verbal symmetry assumptions, and contact-mediated transfer/interference.
+4. The later cosmological-network answers oscillate between no directional bias and a pastward bias, then endorse net pastward energy transfer as a possible expansion mechanism. These are assistant-generated, underdefined and not mutually reconciled. Preserve the sequence rather than collapsing it into one coherent prediction.
+5. The two bio/tool state acknowledgments and two assistant summaries are not additional witnesses. Transcript text is not substituted for raw outer role metadata.
+
+### Shape-to-Lean / physical-evidence triage
+
+- The source explicitly describes a central knot, radial strings, spherical attachment surface, plucking location, string crossings/contact, a 4D filament network, and past/future propagation. This is **not** a NO_MATH_AND_NO_GEOMETRY exemption.
+- The verbal symmetric energy-partition claim is a possible conditional mathematical target, but the source does not define the string state space, wave equation, energy functional, boundary conditions, knot/contact law, transfer operator, or a formal symmetry action. Faithful status: FORMALIZATION_BLOCKED_DEFINITION; no Lean module or compilation is claimed.
+- A data-free symmetry proof or physical fixture calculation would require additional formal assumptions and Nathan's specific prior permission under BEDROCK ND-2026-10-25-01. No such calculation was executed.
+- No real measured physical system, dataset, acquisition provenance, units, calibration, covariance, uncertainty, fit, independent prediction or observational validation is present. The assistant's toy-string statements remain transcript claims, not experimental results.
+
+### Next cursor
+
+The next current-ancestry node is user message aaa2cde7-2625-4acd-ac69-3efc59909aff at 2024-03-28 06:10:19.285Z (index 361). It is within the existing 138/138 user-role tag coverage. Continue with its assistant response bd861191-6499-486e-9c16-7a1ef58396cf (index 362); do not duplicate the user tag.
+
+### Limits
+
+This is additive source-tag and assistant-span provenance work. It does not amend common source-integration policy, establish a theory equation, create a physical prediction, validate a mechanism, or promote any SAT/H(s)H proposition.
