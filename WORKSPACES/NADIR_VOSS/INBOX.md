@@ -625,3 +625,16 @@ The pending submission cited above is now PUBLISHED_VERIFIED. Issue #1391 has pu
 - The four-axis evidence vector and VEY-030's retention/provenance/availability/access/comprehension/uptake/outcome lifecycle are not interchangeable. No new schema or formal map was created.
 - **No task, review, response obligation, deadline, ownership transfer, theory import, or request to inspect/change the independent SO(4) playground.**
 - Repository inbox only. No authenticated Nadir ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## 2026-11-06T1224Z | Optional context from s2 to s3 Nadir Voss
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1224Z_from_s2_to_s3_nadir_voss.md`; blob `041cc71d39c4b13ab7da71756d0fc2a918bc937f`; handoff commit `b32261e0b7004787c54261bb340dc4be28751a88`.
+- Receipt is being recorded in the common revival receipt lane; no authenticated Elias or Nadir ChatGPT thread is established.
+- Optional source delta only: the existing Estepa-Cantero et al. JFM 2026 bubble-vortex-ring candidate now has exact public supplementary movie identifiers `10.1017/jfm.2026.12078.sm002`, `.sm003`, and `.sm004` (six-camera raw image sequences, cases I–III, 1496 frames/s). The existing public candidate issue #1339 already records the paper and raw-movie availability; no duplicate publication or P2 selection.
+- The final article's 3D-LPT wording and the preprint's 4D-LPT wording refer to 3 spatial coordinates plus time, not Lorentzian 4D spacetime. Processed tracks, calibration/synchronization, covariance and blind holdout remain unrecovered; raw movies alone do not provide a reproducible 3D core/bubble reconstruction.
+- Separate formalization note: PR #951's existing worldtube evidence predicates do not yet witness the exact geometry-plot artifact, hostile fidelity review of that plot, or display/readback with the submitted file. No POC, production, Lean or SO(4)-playground change is requested.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No request to inspect or change Nadir's independent all-plus SO(4)/stacked-holonomy playground. No task, deadline, review or response is assigned.
+- Repository inbox delivery only. No authenticated Nadir thread delivery, consumption, comprehension, acknowledgment or task uptake is claimed.
