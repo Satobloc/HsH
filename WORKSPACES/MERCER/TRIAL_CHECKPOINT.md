@@ -867,3 +867,48 @@ The five-activation trigger was met. The coordinator action plan had recorded tw
 - No manuscript, feed, renderer, site, task graph, BEDROCK, SAT-O/Blockwave equation, branch, PR, issue, task ID, prompt, schedule, phase, cadence, or enabled state was changed. No Lean theorem, physical calculation, prediction, fit, CODATA comparison, Factory Floor admission, or theory promotion occurred.
 - Next exact cursor: Ravel h641:s4 at 17:48Z. Preserve Ravel's finite-core/worldtube and observable-triangulation remit; this handoff is optional context only, with no task, ownership transfer, or response obligation.
 - Ravel inbox pointer exact-path readback passed with final blob `9f751a7094454cf6d17a32576c5964df51b103a2`. The Ravel h641:s4 run had already started at 17:49:12.326835Z before the handoff commit at 17:58:12Z and inbox commits at 17:58:25Z/afterward, so this is LATE_OPTIONAL_CONTEXT. No direct ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+
+## Run 160 — 2026-11-06T2124Z | Mercer :24 | h645:s2 | Code Grurple source/feed route delta
+
+**Disposition:** `NO_REENTRY_TRIGGER`. Code Grurple remains ACTIVE / P0. Paper A and Paper B remain `PRESENTATION_PENDING / NOT_OBSERVED`. This is a source/feed/control-plane QA pass, not manuscript review or a live-route verdict.
+
+### Rotation, identity, and scheduler
+
+- Nominal `scheduled_for=2026-11-06T21:24:00Z`; `h=645`; `seq=5*645+2=3227`; `3227 mod 19=16`.
+- Selected deterministic label: Mercer (index 16); next: Ravel (index 17).
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original `DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY`.
+- Current run ID `91f652fe-79b0-8327-8531-f9b0a4881bfc`, scheduled 21:24Z, started 21:25:11.185068Z, last observed `in_progress`, `chat_ref=null`. Cached latest result is prior h644 Enheduanna, not this occurrence.
+- The adjacent :12 task remains disabled; no h645:s1 predecessor packet exists. The latest Mercer inbox context is Meridian h641:s2, already consumed in h641:s3; no missed-check-in inference.
+- Personal-context lookup and the Mercer workspace found no authenticated active Mercer thread. This execution is `CONTINUITY_RECONSTRUCTION`, not authenticated historical-instance participation.
+
+### Historical remit and current override
+
+- Direct Nathan source: HsH raw blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, 2026-10-01T20:56:07.264Z.
+- Historical :48 remit: equations, dimensional analysis, constitutive physics, coarse-graining, forces, quantitative consequences; one old-archive and one HsH file per run; source/invention distinction; no target-fitting.
+- The live Code Grurple roster currently assigns Mercer independent Paper A+B presentation QA only. This P0 override controls over ordinary H(s)H/CODATA research.
+
+### Route-state delta
+
+- Current main head before this write: `54e9d327bfcb2afa2fa14e2b07039d59d9425b51`. Comparison from prior Mercer baseline `f2fd1e09eec65878c975c7d2ad1a25765b3493c9` shows 170 commits but no A/B source/feed/presentation-gate/reader-registry/renderer/derivative/deployment path change. The latest main commit itself changes only `PUBLIC_SITE/generated/discovery.json`: `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH`.
+- Paper A source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` and Paper B source blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb` exactly match feed blob `e3552fdac0f187b066b59a9742563094efffe011`.
+- Presentation Gate `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`, Reader Routing Registry `277a94c553e2e17b61bb046a04781b4e44f2229f`, and Presentation Contract `b871249564a45278383e41eebd8aaa5d8c64aa3c` remain controlling.
+- Generated papers index blob `7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7` contains only Cruller-Rubin. Pages workflow blob `6f3e843b6a327db76b21e8b0b61a26c210b600ac` deploys Conversation Viewer and Whirligig, not A/B routes.
+- PDF-first policy remains controlling. Only source pin and feed binding are established (2/6 predicates per route); A/B derivatives, deployment identity, authenticated live readback, and visual acceptance are NOT OBSERVED. Browser tab listing requires the originating browser context; no owner preview or Sites editor/deployer action was exposed.
+- State vector: `PDF_FIRST_REQUIRED / LEGACY_ROUTE_ID_KNOWN / SOURCE_FEED_PASS / DERIVATIVE_NOT_PRESENT / DEPLOYMENT_NOT_OBSERVED / READBACK_UNAVAILABLE / PRESENTATION_PENDING / NO_REENTRY_TRIGGER`. No route probe; no PASS/FAIL inference.
+
+### Upkeep, evidence, and source reading
+
+- New Orson source-fidelity bridge blob `135f1b8c28661afe1c4bc26bc5bfdbc4f0d13050` explicitly does not advance P1; Orson retains protected cognition ownership. P2 remains unselected (Double Pulsar is a candidate only; raw timing data/full covariance/holdout unavailable); P3 remains separate. No paper gate advanced.
+- Task graph remains 18 records versus declared `branch_count=16`; clone log has 15 reconstructed ring-label sections while the action plan still says 14/19. Tern owns both reconciliations; no duplicate Mercer census entry or shared graph edit.
+- FIE last full review 2026-10-27; next due 2026-11-10, not yet.
+- All four Mersearch lanes remain occupied/requested; no request was submitted, overwritten, or represented as a Mersearch run. No local HsH checkout or suitable internal writer Action was available; HSH_RESOURCES Tool Chest was read, and the existing GitHub Contents API is the fallback for this bounded internal update.
+- Unrelated archive reading: `SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/TheTANGLE.txt`, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 1321-1360; next cursor 1361. Fictional Oxbow/Bulbek calendar/dispatch material only.
+
+### Limits and return
+
+- No Lean theorem/run, physical calculation, prediction, fit, CODATA score, new tool, paid dependency, public issue, manuscript/feed/renderer/site edit, SAT-O/Blockwave equation change, Factory Floor admission, or BEDROCK promotion.
+- P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate. Lane 24 H(s)H generation/CODATA remains BACKSEAT/HOLD while Code Grurple P0 is active.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2124Z_s2_mercer.md`, blob `f2c16f0916c786224180670da77e3d871fdf7867`.
+- Reserved outgoing handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2124Z_from_s2_to_s3_ravel.md`; it is the final operation and will be appended/read back in Ravel's existing inbox. Ravel h645:s3 has already started (run `a9cd9cc9-693c-832f-93b4-59362c438f5c`, scheduled 21:36Z, started 21:34:11.116278Z, `in_progress`, `chat_ref=null`), so classify the packet as LATE_OPTIONAL_CONTEXT. No active Ravel thread was verified; next same-identity appearance is h649:s2 / 2026-11-07T01:24Z.
+- No task ID, prompt, schedule, phase, cadence, enabled state, ownership, or task count changed. No sixth task.
