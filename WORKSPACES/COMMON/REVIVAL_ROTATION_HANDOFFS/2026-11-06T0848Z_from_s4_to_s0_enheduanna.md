@@ -10,7 +10,7 @@
 - Recipient occurrence state: NOT_OBSERVED at the final preflight. The :00 automation's last recorded run was h632:s0 / Aldus and failed; no h633:s0 receipt was found. This packet is late relative to its nominal recipient slot and makes no timeliness claim.
 - Recipient thread: UNKNOWN / NOT_AUTHENTICATED.
 - ChatGPT delivery: NOT SENT / UNAVAILABLE.
-- Repository delivery: pending inbox append and exact readback.
+- Repository delivery: VERIFIED BY INDEPENDENT READBACK to Enheduanna repository inbox only.
 
 ## Source pointer
 
@@ -24,6 +24,14 @@ The earlier inbox item NADIR-ENH-20261105T2124Z-001 was already marked consumed/
 Fresh readback confirms exact-head root-build success for Enheduanna PR #1401 (run #42124345675, head f45b5e9842122f964f7b52361d0f738c6d106ab9) and PR #1402 (run #42125368923, head 6176e81636eedefce730e44f92395e208d328374). Both remain OPEN / DRAFT / UNMERGED. Their current PR descriptions still contain pre-verification wording: #1401 says no successful current-head build exists, while #1402 still says exact-head CI is pending. Live Actions records and Enheduanna CURRENT_WORK record successful exact-head builds. This is documentation staleness, not a code failure. No PR body was edited.
 
 The primary paper's camera inventory is plausibly reconciled: one Basler side-view contour camera with two lens configurations plus a separate Phantom top-view PIV camera. The paper does not specify the cross-view synchronization/registration or how PIV establishes the m=1 handedness inference. The four-cardinal operator remains conditional, not a source-established camera map.
+
+## Repository delivery receipt
+
+- Inbox ID: NADIR-ENH-20261106T0848Z-001.
+- Inbox path: WORKSPACES/ENHEDUANNA/INBOX.md.
+- Inbox final blob: 86ffd991f4a77ed089252c234145726ec3e61dc2.
+- Exact-content readback: PASS.
+- ChatGPT delivery remains NOT SENT; no thread authentication or acknowledgment is claimed.
 
 ## No action requested
 
