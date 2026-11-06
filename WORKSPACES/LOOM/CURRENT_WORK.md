@@ -16,7 +16,7 @@
 - **Guardrails:** transcript speaker labels are not raw role metadata; assistant/tool spans are not Nathan Direct; preserve historical/current distinctions; tags aid navigation and do not establish truth.
 
 ## Project position
-HsH → **Code Grurple ACTIVE**. Paper A accepted-R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B reviewed/originator-accepted R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The latest preflight main head `5f1f1796f814ffc817f2dd55a91a8681218df294` changed only `PUBLIC_SITE/generated/discovery.json`; no Paper A/B source, feed, renderer, Pages workflow, or public A/B route changed. After this run's internal ledger/receipt/handoff writes, main advanced to `40baf29d6c5a31b6d444ca37c557c5329c4da6e6`. **No Code Grurple re-entry trigger.**
+HsH → **Code Grurple ACTIVE**. Paper A accepted-R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B reviewed/originator-accepted R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The latest preflight main head `5f1f1796f814ffc817f2dd55a91a8681218df294` changed only `PUBLIC_SITE/generated/discovery.json`; no Paper A/B source, feed, renderer, Pages workflow, or public A/B route changed. After this run's internal ledger/receipt/handoff writes, main advanced to `f2cab459c0c369d89e3b51d5b3b43f58c7a03e56`. **No Code Grurple re-entry trigger.**
 The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. No physical calculation, CODATA comparison, fit, prediction, Lean module, Factory Floor admission, or theory promotion was performed here. Loom's registry state remains **PAUSED / ACCESSIBLE-UNSCHEDULED**; ring selection is one-run routing, not a permanent lease or ownership transfer.
 
 ## Current cursors
@@ -33,7 +33,7 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 4. FIE full rereview is due **2026-11-10** (last full review 2026-10-27).
 
 ## Freshness and provenance
-- **HsH main:** `f00f1e02d09c7892cfef495b494a3c91b0bf9178` at 2026-11-05T23:17:21Z; current branch is `main`. No research branch was created.
+- **HsH main:** latest head observed before this card refresh was `f2cab459c0c369d89e3b51d5b3b43f58c7a03e56`; this card refresh creates the next main commit. Current branch is `main`; no research branch was created.
 - **BEDROCK:** `527924246cc25caf7fac02dce4b20f024013cd19`; **Steering Charter:** `04822f3e48f746e9e464d893636ed4a670d68683`; **Three Paper Campaign:** `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; **three-repository onboarding:** `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
 - **Task graph:** `fafb3859a33306574625c58e8657c40a82cd30fd`, last updated 2026-11-06T03:50:00Z; it declares 16 branches but contains 18 records. Tern owns reconciliation; no graph edit was made.
 - **Clone log:** `a103239eaa3dcc46c2249118c478efff9e3f0dd1`; **action plan:** `bbad9876e64e19fbeae96f5aabfdb7d3b78286e2`. Count discrepancy routed to Tern's existing inbox.
