@@ -22,7 +22,7 @@ The report also separates:
 
 Read: WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md
 
-Kestrel continuity and OPEN_QUESTIONS were amended to correct the stale Klein-Fabric source status. Existing PR #873 was updated on its existing branch with a conditional Euclidean-lift Gram-curvature identity in WorldtubeCurveCurvatureLift.lean. New CI run #42152965536 is in progress; it is not yet verified. The earlier run #42101085608 compiled the prior PR merge-ref, not an exact-head-only build. No physical geometry proof is claimed.
+Kestrel continuity and OPEN_QUESTIONS were amended to correct the stale Klein-Fabric source status. Existing PR #873 was updated on its existing branch with a conditional Euclidean-lift Gram-curvature identity in WorldtubeCurveCurvatureLift.lean. Initial run #42152965536 failed on two definitions that needed the noncomputable modifier. They were corrected and pushed in existing PR-branch commit 1971e3d58a28f7c6de5cf024039dbcedb133121c; the rerun is not yet visible. Status SUBMITTED_NOT_VERIFIED. The earlier run #42101085608 compiled the prior PR merge-ref, not an exact-head-only build. No physical geometry proof is claimed.
 
 ## Suggested next cursor
 
