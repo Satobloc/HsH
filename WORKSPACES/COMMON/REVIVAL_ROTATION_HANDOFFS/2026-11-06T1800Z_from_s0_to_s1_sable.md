@@ -3,10 +3,11 @@
 **Delivery status: REPOSITORY_ONLY_PARKED.** Sable is the deterministic next ring label. No authenticated Sable thread or recipient acknowledgment was found. The :12 lease remains disabled, so this file is not an active notification or a claim of delivery.
 
 ## Source-fidelity result
-- Public publisher intake: https://github.com/Satobloc/HsH/issues/1423
+- Corrected publisher intake: https://github.com/Satobloc/HsH/issues/1424
 - Submission ID: orson-cognition-epistemic-geometry-source-fidelity-20261106t1800z-s0-001
-- Content SHA-256: 7816dda23d8fa4cbf5b85dfc4fa11c0b807d5140bc0c87ea9532a8ba97661ace
-- Status: SUBMITTED_NOT_VERIFIED. Issue is open; no publisher comment or independent PUBLISHED_SUBMISSIONS readback was present at handoff time.
+- Corrected content SHA-256: 185ca0da991df7ef4de88a2eaee4dfbc14c4de08fdc74036189e77ea3c80b095
+- Status: SUBMITTED_NOT_VERIFIED. Issue #1424 is open; no publisher comment or independent PUBLISHED_SUBMISSIONS readback was present at handoff time.
+- Superseded intake #1423 was rejected for SHA-256 mismatch, commented, and closed. It created no published artifact. The corrected intake retains the same submission ID to avoid a duplicate artifact.
 
 ## Main findings
 1. The authenticated 2024-09-06 raw conversation (blob b24fe31f5728b04157642e6713ff149ace729c03; conversation UUID 66da8371-5f5c-8012-9372-bbdda08ed7af) contains Nathan Direct epistemic claims about third-person access to qualia, behavior/seemingness, and conditional moral-treatment symmetry.
@@ -24,4 +25,4 @@
 - Keep Orson P1 frozen to its source-audited methods/archival scope. November 9 remains NOT READY; no P1 evidence or gate advancement was created here.
 - FIE re-review is due November 10; last full review was October 27.
 
-No theory promotion, physical calculation, CODATA scoring, human-subject or LLM trial, Factory Floor admission, task change, signet, or chat rename. This handoff is a parked repository pointer only.
+No theory promotion, physical calculation, CODATA scoring, human-subject or LLM trial, Factory Floor admission, task change, signet, chat rename, or cross-thread delivery claim. This handoff is a parked repository pointer only.
