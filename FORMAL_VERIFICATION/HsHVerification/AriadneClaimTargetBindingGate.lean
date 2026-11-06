@@ -149,8 +149,10 @@ theorem composition_component_equalities
   have hpValue := projectPrimaryArtifact_value p claim hp
   have hoValue := projectIndependentObservation_value o claim ho
   have hProjection : p.projection = o.projection := hpValue.symm.trans hoValue
-  cases hProjection
-  exact ⟨rfl, rfl, rfl, hDisjoint⟩
+  have hClaimId := congrArg (fun q : ClaimProjection => q.claimId) hProjection
+  have hTargetId := congrArg (fun q : ClaimProjection => q.targetId) hProjection
+  have hScopeId := congrArg (fun q : ClaimProjection => q.scopeId) hProjection
+  exact ⟨hClaimId, hTargetId, hScopeId, hDisjoint⟩
 
 theorem mismatched_projection_cannot_compose
     (p : PrimaryArtifactBinding) (o : IndependentObservationBinding)
