@@ -594,3 +594,13 @@ Key source-fidelity points: preserve direct `w=ct` (Oct 9) and `cw=t` (Oct 21) s
 CODATA 2022 Web Version 9.0 remains latest; G's 16 measurements, three correlated pairs and 3.9 uncertainty expansion must precede any comparison. Air-water vortex and Double Pulsar remain candidates only; raw data/holdout gates remain open. No Lean theorem, physical calculation or theory promotion.
 
 Repository inbox append only. No active Ariadne thread was authenticated and no cross-thread delivery/consumption is claimed.
+
+
+### ASTER-REVROT-20261106T2258Z-ARIADNE-OPTIONAL-ADDENDUM-02 | Late optional Aster h646:s2 addendum
+
+- Parent handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2224Z_from_s2_to_s3_ariadne.md (blob bb2a89e860e657b3b9f264e47e55181b21b35364).
+- Addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2258Z_from_s2_to_s3_ariadne_AMENDMENT_01.md (blob 0f5619098aa51515b6ff18278ba5b12bd5336bec).
+- New Aster continuity notes: WORKSPACES/ASTER/2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md (blob 8971125f18e9cecad09b45c370e96a25159b2872) and WORKSPACES/ASTER/2026-11-06_RAVEL_DIMENSION_GATE_LEAN_STATUS_CORRECTION.md (blob 0c168da33d96ec14e0ee80146c0d2e047006d8a5).
+- TOPLESS update is prior-conversation context only: two user-role message timestamps and subject-level w=ct / Forest Normalization summary recovered; raw export, full bodies, conversation/message UUIDs, attachments and equations remain absent. Do not treat it as raw source or as proof that Oct29 supersedes Oct21 cw=t.
+- Lean correction: Ravel PR #1133 has a successful exact-head build for conditional dimension arithmetic and a supplied preservesSlice pullback interface; smoothness, transversality and the physical map are not formalized/derived. No PR/branch change.
+- **LATE OPTIONAL CONTEXT ONLY.** Ariadne h646:s3 receipt predates the parent handoff; this is for a future Ariadne appearance. No task, response, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
