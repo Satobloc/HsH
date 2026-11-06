@@ -13,6 +13,7 @@ The linked Calder receipt AMENDMENT_03 adds the 2023/2024 primary-source cluster
 - The diagonal-line rate is slope-dependent; the assistant's unqualified equality holds only at unit slope.
 - The separate Klein Fabric construction-story source says the ring is a 2D cross-section of a 3D tube and proposes a sphere-like 4D counterpart. Do not collapse this into an S¹ ring without a source-defined map.
 - The 2026 direct source establishes both Minkowski and SAT-modified normalization conventions as standard. The missing item is their conversion/namespace map, not a choice to discard one.
+- The 2023 L∝V^α item is Tully-Fisher luminosity versus rotation velocity, not volume. The assistant's Θμν addition was an un-derived placeholder later quarantined in assistant self-review; it is not Nathan Direct.
 - SAT-O1, compact Blockwave, and Blockwave Ideal Model are separate historical equation artifacts. No corrected action is invented.
 
 ## Current Lean/CI correction
