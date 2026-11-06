@@ -36,7 +36,7 @@ Use the spectroscopic-gas profile as the main surface-flow comparator; retain th
 
 ## Reference scale and conventions
 
-- Native geometry: four-positive ambient R4, with w=ct; use Planck units c=G=hbar=1 first.
+- External comparison geometry: standard Euclidean R4 with fourth coordinate q=ct. This is explicitly **not** asserted to be the native SAT/H(s)H time-coordinate mapping. Current BEDROCK preserves Nathan Direct's literal cw=t notation and says its symbol/type map is unresolved; do not silently identify it with q=ct. Planck units c=G=hbar=1 are used for numerical reporting. No Forest normalization is applied to this external-physics comparator.
 - SI constants used for conversion: c=299792458 m/s, G=6.67430e-11, hbar=1.054571817e-34.
 - Solar radius: IAU nominal R_sun=6.957e8 m, used only as a conversion/reference value, not claimed to be the exact current solar radius.
 - R_sun/lP=4.304394972948e43.
@@ -45,10 +45,10 @@ Use the spectroscopic-gas profile as the main surface-flow comparator; retain th
 
 ## 1. Four-dimensional curvature of a marked surface history
 
-For a material element at fixed latitude lambda and longitude label phi0,
+For a surface-gas marker at fixed latitude lambda and longitude label phi0, in this **external standard-physics comparator**,
 
 \[
-X_\lambda(w)=
+X_\lambda(t)=
 \left(
 R\cos\lambda\cos(\phi_0+\Omega(\lambda)w),
 R\cos\lambda\sin(\phi_0+\Omega(\lambda)w),
@@ -57,19 +57,19 @@ w
 \right)
 \]
 
-in Planck units. Put rho=R cos(lambda), omega=Omega(lambda), and beta=rho*omega. Then
+with the fourth coordinate q=ct. Put rho=R cos(lambda), omega=Omega(lambda), and beta=rho*omega/c. Then
 
 \[
-\kappa_{4,E}=\frac{\rho\omega^2}{1+\beta^2}
+\kappa_{4,E}=\frac{\rho(\omega/c)^2}{1+\beta^2}
 \]
 
 and the (single nonzero) Euclidean Frenet torsion of this helical curve is
 
 \[
-\tau_{4,E}=\frac{\omega}{1+\beta^2}.
+\tau_{4,E}=\frac{\omega/c}{1+\beta^2}.
 \]
 
-The spatial centripetal acceleration in SI is a3=rho*Omega^2. For the Sun, beta<7e-6, so the native Euclidean curvature and the conventional Lorentzian proper-curvature comparator differ by less than 1e-10 fractionally. The Euclidean quantity remains the native reported one.
+The spatial centripetal acceleration in SI is a3=rho*Omega^2. For the Sun, beta<7e-6, so this external Euclidean curve curvature and the conventional Lorentzian proper-curvature comparator differ by less than 1e-10 fractionally. No equivalence to the unresolved native cw=t notation is asserted.
 
 ### Equatorial results
 
@@ -164,7 +164,7 @@ For the spectroscopic profile, the patch's initial meridional width is 60.71 Mm;
 
 ## 4. The worldtube itself versus its marked histories
 
-The unlabelled solar photospheric worldtube is S²(R) x R. In static coordinates its induced metric is
+The unlabelled solar photospheric surface-worldtube in the external comparator is S²(R) x R. In static coordinates its induced metric is
 
 \[
 ds_W^2=dw^2+R^2[d\lambda^2+\cos^2\lambda\,d\psi^2]
@@ -178,15 +178,15 @@ and its intrinsic scalar curvature is
 =1.079458038133\times10^{-87}\ \ell_P^{-2}.
 \]
 
-This intrinsic worldtube curvature is independent of the differential rotation profile. The ambient R4 remains flat. The material-coordinate map psi=phi+Omega(lambda)w changes the marked trajectories and introduces time-dependent off-diagonal metric components, but it is a diffeomorphism of the same unlabelled S² x R worldtube.
+This intrinsic worldtube curvature is independent of the differential rotation profile. The ambient comparison R4 remains flat. The material-coordinate map psi=phi+Omega(lambda)t changes the marked trajectories and introduces time-dependent off-diagonal metric components, but it is a diffeomorphism of the same unlabelled S² x R worldtube.
 
-In material coordinates (w,lambda,phi), the induced metric has determinant
+In material coordinates (q=ct,lambda,phi), the induced metric has determinant
 
 \[
 \det(g_W)=R^4\cos^2\lambda
 \]
 
-independent of Omega, dOmega/dlambda, and w. Therefore its worldvolume volume element is unchanged in time. The material congruence has **nonzero path curvature and shear, zero volume expansion, and no required ambient Riemann curvature**.
+independent of Omega, dOmega/dlambda, and q. Therefore its worldvolume volume element is unchanged in time. The material congruence in this external comparison has **nonzero path curvature and shear, zero volume expansion, and no required ambient Riemann curvature**.
 
 This is the precise separation needed for Cruller work:
 - outer worldtube geometry alone does not encode the internal rotation profile;
@@ -204,7 +204,7 @@ Mahajan et al. (2024) compare direct Doppler, granule tracking, magnetic-pattern
 
 ## Reproducibility
 
-Executable script: WORKSPACES/MERIDIAN/meridian_solar_worldtube_shear_20261105.py.
+Executable script: WORKSPACES/MERIDIAN/meridian_solar_worldtube_shear_20261105.py. The script's q=ct coordinate is a conventional external comparison; it deliberately does not assign a type map to native cw=t.
 
 It uses only the published coefficient table and stated nominal constants; no arbitrary Cruller scale or fitted SAT coefficient is introduced. It reports Planck-normalized curvature, torsion, and shear alongside SI equivalents. It verifies the finite-patch area-preservation identity.
 
