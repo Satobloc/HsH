@@ -1,18 +1,24 @@
 # Nadir Voss | direct-authorization scope recovery
 
-**Date:** 2026-11-02  
-**Status:** PRIOR-CONTEXT USER-SOURCE RECOVERED / RAW EXPORT METADATA STILL MISSING
+**Original note:** 2026-11-02; source-recovery amendment 2026-11-06.  
+**Status:** PRIMARY RAW EXPORT RECOVERED 2026-11-06 / CURRENT NADIR THREAD NOT AUTHENTICATED
 
 ## Recovered user-authorized scope
 
-Prior-conversation retrieval recovered direct user instructions from 2026-10-01 at approximately 20:56:07Z, 20:56:46Z, 21:09:42Z, 21:19:46Z, 21:20:56Z, and 21:43:35Z.
+The primary raw export is now recovered: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json`, blob SHA-1 `d828fef5352045cb4d9486fdbeabd04043c4c119`, conversation ID `6a3a2037-3698-83ea-924d-2cb8c4ac7701`.
 
-Those instructions authorize an independent mathematical playground: import and test existing or new mathematical ideas, derive and recombine, develop formal mathematics and a trial H(s)H Lagrangian, and pursue abstract mathematical calculations boldly. The retrieved wording also establishes two hard boundaries:
+Exact direct user messages:
+
+1. `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, `2026-10-01T20:56:07.264Z`: the five-lab context, permission to theorize/derive/recombine, and the two controls: source versus invention; no target-fitting old magic numbers or particle labels.
+2. `11122adb-75c5-4418-9b59-29730a034811`, `2026-10-01T21:07:30.057Z`: explicit authorization to create an independent playground, import and try, experiment, and disregard the assigned who-does-what split.
+3. `de178e6a-d223-4ad1-9bc9-d37f178f8b21`, `2026-10-01T21:20:56.352Z`: request to compile the best mathematics, prepare a challenge for another instance, and develop a trial H(s)H Lagrangian.
+
+These instructions authorize an independent mathematical playground and abstract derivation. They preserve two hard boundaries:
 
 1. Keep historical source, Nathan Direct, assistant reconstruction, and new invention explicitly distinct.
 2. Do not target-fit old magic numbers or particle labels.
 
-The retrieval exposes prior-conversation summaries and visible user-message excerpts, not the raw October 1 export. The exact source conversation ID and message UUIDs remain unavailable. This note must not be represented as a raw-export audit or authenticated continuation of the historical Nadir thread.
+The raw export contains zero occurrences of the string `Nadir Voss`. That name is an assistant-generated workspace/ring label, not a user-assigned identity. The specific `independent experimental theorist / mathematical repair lane` description is an assistant-derived specialization, not a standalone Nathan-authored specialist charter. The raw export is a historical authorization source; it does not authenticate a current Nadir ChatGPT thread or prove that the requested challenge was delivered to another thread.
 
 ## Scope interpretation
 
@@ -31,3 +37,12 @@ The later 2026-10-26 Nathan Direct rule remains controlling for real physical ca
 - Recover the original October 1 raw export and message identifiers when an authorized source route becomes available; do not invent them.
 
 This is an additive source-scope correction. It does not overwrite the 2026-10-31 receipt or its amendment.
+
+
+## 2026-11-06 source-classification correction
+
+The assistant's `Orthogonal Furnace` response and trial-math packet are separate assistant-authored outputs. The packet's own status is `speculative / sandbox / not established SAT`; it is not a verbatim SAT-O or Blockwave equation. The user requested a challenge for another instance, but no cross-thread delivery is evidenced in the raw export.
+
+The October 1 authorization is specific enough for abstract sandbox derivation and a trial Lagrangian. It does not authorize fabricated physical fixtures, invented measurements, or empirical claims. The 2026-10-26 measured-system gate remains controlling for real physical calculations.
+
+The prior-context timestamps in the original 2026-11-02 note were approximate and are superseded by the exact raw-export timestamps and message UUIDs above.
