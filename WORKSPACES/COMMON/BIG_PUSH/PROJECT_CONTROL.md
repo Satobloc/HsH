@@ -96,14 +96,14 @@ Continue the primary May 28 conversation transcript sequentially:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
-**Read:** lines 1–2000  
-**Next cursor:** lines 2001–2200  
-**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1801-2000.md`  
+**Read:** lines 1–2200  
+**Next cursor:** lines 2201–2400  
+**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-2001-2200.md`  
 **Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
 
 ### Latest tranche findings
 
-Lines 201–2000 develop an early experimental-research thread involving optical tests, a motorized acoustically active music-box platform, and a shift toward digital measurements. Nathan challenges direct-detection claims, supplies a material/equipment inventory, and asks to finish the inventory before planning. The assistant repeatedly assigns SAT functions to ordinary objects and photographs, including misidentifying a phone anamorphic attachment and a hollow glass object. Nathan corrects these identities and explains that the unusual cat-tail image came from a loose, shifting multi-element lens stack. Treat that photograph as a reproducibility target, not evidence of SAT. Preserve user-confirmed object identities and recover original lens-stack notes before reconstruction. A DSLR measures intensity/color, not phase without a phase-sensitive optical arrangement; unknown materials need independent characterization. For acoustic tests, quantify ordinary sound, vibration, and acousto-optic responses first. See the tranche records for attribution and details.
+Lines 201–2200 develop an early experimental-research thread involving optical tests, a motorized acoustically active music-box platform, digital measurements, and a photo-based equipment inventory. Nathan challenges direct-detection claims, corrects several object identifications, and explains the cat-tail image's unstable lens stack. He also asks about light/electricity coupling and identifies a discharged 30 kW water-cooled xenon arc lamp, mirrors, and slide rules. The historical assistant asserts unsupported SAT effects in ordinary objects, a residual field in the discharged lamp, and direct EM coupling without derivation. Preserve the equipment facts and questions, but do not activate the lamp or build high-voltage/arc experiments. A DSLR measures intensity/color, not phase without a phase-sensitive optical arrangement; unknown materials need independent characterization. See the tranche records for attribution and details.
 
 ## Succession protocol
 
@@ -150,7 +150,7 @@ The following repository-backed scaffold is now present:
 
 **Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
 
-The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–2000; next range 2001–2200. No institutional design has been selected.
+The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–2200; next range 2201–2400. No institutional design has been selected.
 
 
 ### Scheduler state verified on 2026-11-05
