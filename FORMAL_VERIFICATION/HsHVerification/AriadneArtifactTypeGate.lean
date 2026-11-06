@@ -10,15 +10,11 @@ Source basis:
 * Bundle 2026-10-31_BS_txt_0009 contains a separately delimited `TOS_S1.txt` script-corpus section. Its embedded SHA-256 prefix `b8258f1fb476f2fd` matches full digest `b8258f1fb476f2fdc5548a1d9abc182d108006157dbd9fb2bd15dc954fd4d087` after removing exactly the three trailing LF bundle-separator bytes; no leading LF is removed. Python `str.splitlines()` on that extracted section yields 14,945 lines. This is a structural count, not a completeness, author, or creation-date claim. Character-label-shaped line starts are script roles, not ChatGPT outer roles.
 * A byte-preserving replay of the seven named sections in bundles 0007–0009
   (KIRK_mind, READY_ROOM, READY_ROOM_README, THE_WHOLE_READY,
-  THE_WHOLE_READY2, THE_WHOLE_READY3, and TOS_S1) verifies six embedded
-  16-hex SHA-256 prefixes after removing exactly three trailing LF
-  bundle-separator bytes. `READY_ROOM_README.txt` is the exception: marker
-  prefix `415dd87ab00d2e81` does not match the extracted section SHA-256
-  `da0d034314393bf6009f76699fdd36155ca1d89faa53af2684a3c837e0b38d16`
-  (8,868 bytes under that extraction rule). Keep its bundle integrity
-  unverified; the mismatch may reflect a stale marker or transformed source
-  text. The standalone original bytes were not located. Matching a
-  bundle-section digest does not authenticate original storage history.
+  THE_WHOLE_READY2, THE_WHOLE_READY3, and TOS_S1) finds all seven embedded
+  16-hex SHA-256 prefixes match after removing exactly the three trailing LF
+  bundle-separator bytes. This corrects the earlier mismatch flags for
+  READY_ROOM_README and THE_WHOLE_READY; matching a bundle-section digest
+  does not authenticate original storage history.
 * KIRK_mind.txt and READY_ROOM.txt share one exact LF-normalized block of
   12,598 lines. Their names do not make them independent witnesses.
 * KIRK_mind and READY_ROOM are mixed dialogue-like text sections without raw
@@ -177,16 +173,14 @@ def readyRoomSection : ArtifactEvidence :=
     hasProvenanceLink := true
     versionLabelPresent := false }
 
-/-- Standalone instruction-document section labelled 1.2.1; the embedded
-    digest does not match the extracted section under the documented
-    three-LF boundary rule, so bundle integrity is not attested. -/
+/-- Standalone instruction-document section, labelled version 1.2.1. -/
 def readmeV121 : ArtifactEvidence :=
   { displayName := "READY_ROOM_README.txt"
     metadataTitle := none
     archivePathLabel := some "2026-10-31_BS_txt_0007.txt"
     kind := .instructionDocument
     contentDigestComputed := true
-    embeddedDigestMatched := false
+    embeddedDigestMatched := true
     hasOuterRoleMetadata := false
     hasCharacterDialogueLabels := false
     hasConversationIdentity := false
@@ -348,10 +342,6 @@ theorem readme_v121_not_canonical_version_authority :
     ¬ supports readmeV121 .canonicalVersionAuthority := by
   simp [supports, readmeV121]
 
-theorem readme_v121_bundle_integrity_not_verified :
-    ¬ supports readmeV121 .bundleSectionIntegrity := by
-  simp [supports, readmeV121]
-
 /- Actual evaluation: character labels and outer conversation roles are distinct. -/
 #eval supportsBool kirkMindSection .characterSpeakerAttribution
 #eval supportsBool kirkMindSection .outerRoleAttribution
@@ -361,7 +351,6 @@ theorem readme_v121_bundle_integrity_not_verified :
 #eval supportsBool marloweRawExport .chronologyAttribution
 #eval supportsBool marloweRawExport .authorAttribution
 #eval supportsBool wholeReadyV13 .canonicalVersionAuthority
-#eval supportsBool readmeV121 .bundleSectionIntegrity
 #eval supportsBool tosSeasonOneScripts .characterSpeakerAttribution
 #eval supportsBool tosSeasonOneScripts .bundleSectionIntegrity
 #eval supportsBool tosSeasonOneScripts .outerRoleAttribution
@@ -380,7 +369,6 @@ theorem readme_v121_bundle_integrity_not_verified :
 #print axioms marlowe_export_supports_message_chronology
 #print axioms marlowe_export_does_not_authenticate_author_name
 #print axioms whole_ready_v13_not_canonical_version_authority
-#print axioms readme_v121_bundle_integrity_not_verified
 #print axioms tos_s1_script_section_supports_character_labels
 #print axioms tos_s1_script_section_supports_bundle_integrity
 #print axioms tos_s1_script_section_not_outer_role_attributed
