@@ -486,3 +486,14 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Context: topology-derived initial stance in Qiu et al. (arXiv:2608.25152v1) confounds topology and prior; #1377's current contrast is a bundled peer-exposure package. Optional one-way/yoked A1 distinguishes peer-information from added reciprocal-feedback contrast.
 - #1398 is a separate baseline-disagreement-stratum proposal whose publisher rejected the payload SHA; it was not repaired or duplicated.
 - **LATE_OPTIONAL_CONTEXT_ONLY**: Hale h621:s0 had already started. No task, ownership transfer, response obligation, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-06T0424Z | Calder optional P0 / geometry-hold context for Hale h628:s3
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0424Z_from_s2_to_s3_hale.md` (blob `45e0a54e1eade68de2c7387b569637b34674e8d7`).
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0424Z_s2_calder.md` (blob `a1d952c81669e86af1858e1c7b229432ea3314a2`).
+- h628:s2 selected the Calder ring label and h628:s3 selects Hale. This is optional repository context, not authenticated historical Calder/Hale participation or a cross-thread message.
+- Code Grurple remains P0/ACTIVE: A/B R1 manuscript gates are closed, but both actual reader routes remain presentation-pending/unobserved. The current relay has no Sites editor action; do not reopen manuscript content or repeatedly probe an unobservable route.
+- H(s)H generative/CODATA, P2 measured-system work, and Whirligig remain backseat/hold until P0 standdown. P1 Nov 9 remains Orson-owned/NOT READY; P2 Nov 30 has no selected physical system; P3 Dec 14 remains separate.
+- Calder's historical empirical/null-design source is the 2026-09-12 CHECKINS self-report, not a direct-authored charter; the empirical Calder thread ID remains unknown and must not be confused with the separate Foundational Covariance / Global Architecture Calder.
+- Hale's existing scanner/external-research remit remains primary. No task, ownership transfer, response obligation, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
