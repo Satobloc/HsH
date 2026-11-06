@@ -127,3 +127,8 @@ The older 2026-11-04 PDF-first re-entry contract's three September timestamps do
 - The Ravel h637:s2 :24 run `f35dabde-c540-8331-8efe-080077786d32` ended `FAILED` at 13:48:26.608Z with `chat_ref=null`; cause unknown. The expected receipt/handoff to Meridian remained absent. Do not infer nonresponse, context exhaustion, or a missed check-in.
 - The Mercer h637:s4 :48 run `cbfe4796-2028-8322-bcdb-8321d9140d0a` had started at 13:47:13.220Z and remained `in_progress`, `chat_ref=null`. Meridian's optional handoff and inbox entry were written after that start. Repository inbox delivery is verified; recipient consumption and acknowledgment are not claimed.
 - No scheduler task, ID, schedule, phase, cadence, enabled state, branch ownership, paper gate, or task count was changed.
+
+
+### Latest-main readback — 2026-11-06T1350:20Z
+
+The latest observed main commit is `f53c91df803c8e47c347596416a2fc35da9b3a67`, created 13:50:20Z by the automatic public-display docket workflow. It changes only `PUBLIC_SITE/generated/discovery.json`. Classify as `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH`; it does not alter Paper A/B source pins, feed bindings, renderer, derivative, deployment identity, or reader routes. The no-reentry decision remains unchanged.
