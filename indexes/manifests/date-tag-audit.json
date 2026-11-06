@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-06T10:08:35.479497+00:00",
+  "generated_at_utc": "2026-11-06T10:30:52.568583+00:00",
   "date_basis": "original message timestamps; original conversation timestamps only as explicit fallback",
   "roots": [
     {
       "root": "DEVELOPMENT_FULL_CONVOS",
       "counts": {
-        "dated_and_correct": 882,
+        "dated_and_correct": 887,
         "needs_renaming": 0,
         "unresolved_collisions": 0,
         "undatable_conversations": 0,
@@ -27,7 +27,7 @@
     }
   ],
   "overall_counts": {
-    "dated_and_correct": 902,
+    "dated_and_correct": 907,
     "needs_renaming": 0,
     "unresolved_collisions": 0,
     "undatable_conversations": 0,
