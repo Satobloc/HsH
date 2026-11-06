@@ -40,3 +40,8 @@ The handoff is optional context only: no task, ownership, deadline, review, or r
 The latest external main-head observation was `f53c91df803c8e47c347596416a2fc35da9b3a67` (13:50:20Z), changing only `PUBLIC_SITE/generated/discovery.json`. It is `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH`; no A/B source, feed, renderer, derivative, deployment or route changed. Meridian's current-work card records this non-trigger.
 
 Whirligig proof triage: the direct “multiple valid answers” instruction is a design requirement, not a theorem. The assistant-proposed route-complexity functional lacks source-defined admissible transformations, metric, equivalence quotient and weights. Formalization status for that functional: `FORMALIZATION_BLOCKED_DEFINITION`; no Lean run or proof is claimed. No physical or data-free calculation was performed.
+
+
+## Final receipt/readback reconciliation
+
+The parent receipt's final blob after tightening the write-route evidence wording is `b6ce9e34fb4f9950f4fef9e62720f8a7f351c2ac`. It was fetched again after the update. The final current-work, handoff and Mercer inbox blobs are listed above and were independently fetched; the addressed inbox entry records `github_inbox_delivery=VERIFIED`. No chat delivery, recipient consumption or acknowledgment is claimed.
