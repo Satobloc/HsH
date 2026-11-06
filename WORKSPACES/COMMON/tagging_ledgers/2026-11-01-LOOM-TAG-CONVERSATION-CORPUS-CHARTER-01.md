@@ -263,3 +263,16 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - Tags: `LATERAL_READ`; `LANGUAGE-DISCOVERY-GAME`; `LINGUISTIC-GUESSING`; `LANGUAGE-FAMILY-CLASSIFICATION`; `LANGUAGE-HISTORY-CURIOSITY`; `COLONIAL-LANGUAGE-HISTORY-QUESTION`; `REPETITION-ERROR`; `PROMPT-RESPONSE-MISMATCH`; `USER-CORRECTION-OF-ASSISTANT`; `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `SPEAKER-UNVERIFIED`.
 - Source-fidelity observations: repeated suggestions include Etruscan, Ainu, Lao, Quechua and Tlingit; visible prompt/answer mismatches include an Aymara prompt followed by a Basque answer, a Tupi-Guarani prompt followed by a Yanomami/Cariban answer, and a Khoekhoe prompt followed by a Juǀʼhoan answer. The user-textual labels show corrections, but they are not raw role metadata. No statement in this passage is attributed to Nathan Direct, and assistant assertions are not promoted as external facts.
 - Attribution caveat: `You said:` and `ChatGPT said:` are plain transcript text, not raw `author.role` metadata. This is a source-level interaction annotation only; no Nathan-authorship inference is made.
+
+
+## G. Lateral reading continuation | 2026-11-06 | lines 601–640
+
+- **Source:** `fun break - lx.txt`.
+- **HsH path:** `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`.
+- **SAT archive path:** `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42` in both repositories; the two fetched line ranges were byte-identical.
+- **Actual read extent:** lines 601–640 inclusive (40 lines). **Next cursor: line 641.**
+- **Content summary:** a language-identification/guessing exchange involving Tsolyani, Nenets, Toki Pona and Klingon, with a visible correction/response sequence. Assistant language-history claims in this passage were not independently fact-checked.
+- **Tags:** `LATERAL-READ`; `LANGUAGE-IDENTIFICATION`; `CONLANG-GUESSING`; `FICTIONAL-LANGUAGE`; `CONSTRUCTED-LANGUAGE`; `ASSISTANT-FACT-CLAIMS-UNVERIFIED`; `FLATTENED-TRANSCRIPT`; `SPEAKER-ROLE-UNVERIFIED`; `NO-NATHAN-DIRECT-ATTRIBUTION`.
+- **Authorship boundary:** visible `You said:` / `ChatGPT said:` labels are textual labels in this flattened export, not raw role metadata. The correction sequence is tagged as transcript content; no speaker attribution is promoted to Nathan Direct.
+- **Relevance:** deliberate unrelated reading/break from the geometry and prediction work. This span supplies no SAT/H(s)H evidence and no theory premise.
