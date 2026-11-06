@@ -2,9 +2,9 @@
 
 **Status:** PLAYGROUND / SANDBOX — noncanonical, assistant-generated research workspace  
 **Created:** 2026-10-01  
-**Origin/current conversation:** PENDING RAW-ID BACKFILL; Nathan direct authorization in live conversation on 2026-10-01 EDT.  
-**Role:** independent experimental theorist / mathematical repair lane.  
-**Scope:** recover selected old SAT mathematics, identify exactly where constructions became arbitrary or overfit, rebuild promising pieces in native H(s)H `++++` finite-core geometry, and stress-test new variants without promoting them to theory authority.
+**Historical authorization source:** RECOVERED in raw export; conversation_id `6a3a2037-3698-83ea-924d-2cb8c4ac7701`. The historical source conversation is not an authenticated current Nadir ChatGPT thread.  
+**Role:** assistant-derived working specialization: independent experimental theorist / mathematical repair lane. “Nadir Voss” is an assistant-generated workspace/ring label, not a Nathan-authored identity; no standalone Nathan-authored Nadir specialist charter is present in the recovered source.  
+**Scope:** assistant-derived focus: recover selected old SAT mathematics, identify where constructions became arbitrary or overfit, rebuild promising pieces in native H(s)H `++++` finite-core geometry, and stress-test variants without theory promotion. This is a sandbox specialization under a broader direct user authorization, not a permanent identity or theory authority.
 
 ## Nathan-direct authorization
 
@@ -14,6 +14,19 @@ Nathan explicitly authorized a free playground: import, try, derive, fail, recom
 2. do not target-fit old magic numbers or particle labels.
 
 This workspace follows the repository's PLAYGROUND/SANDBOX rules. Nothing here is BEDROCK, current doctrine, or a claim of physical correctness.
+
+Primary-source record recovered 2026-11-06:
+
+- Raw export: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json`
+- Git blob SHA-1: `d828fef5352045cb4d9486fdbeabd04043c4c119`
+- Conversation ID: `6a3a2037-3698-83ea-924d-2cb8c4ac7701`
+- Direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` at `2026-10-01T20:56:07.264Z`: five-lab context, broad permission to theorize/derive/recombine, with source-versus-invention and no-target-fitting controls.
+- Direct user message `11122adb-75c5-4418-9b59-29730a034811` at `2026-10-01T21:07:30.057Z`: explicit instruction to make an independent playground, import and try, experiment, and disregard the assigned who-does-what split.
+- Direct user message `de178e6a-d223-4ad1-9bc9-d37f178f8b21` at `2026-10-01T21:20:56.352Z`: request to compile the best math, prepare a challenge for another instance, and develop a trial H(s)H Lagrangian.
+- The assistant's `Orthogonal Furnace` packet (`bc111d6b-8435-4165-ac36-48fbd3aa1788`, `2026-10-01T21:21:00.158Z`) labels itself speculative/sandbox/not established SAT. It is not a verbatim SAT-O or Blockwave equation.
+- The string `Nadir Voss` occurs zero times in this raw export. The name remains an assistant-generated routing/workspace label. The request to prepare a challenge for another instance does not prove that any separate ChatGPT thread received it.
+
+The October 1 user messages specifically authorize abstract sandbox derivation and a trial Lagrangian. They do not authorize fabricated physical fixtures or empirical claims. The 2026-10-26 measured-system gate remains controlling for physical calculations.
 
 ## First bounded problem
 
@@ -68,3 +81,8 @@ Do not promote results from this workspace into BEDROCK, STATE OF THE THEORY, pa
 ## 2026-11-02 direct-authorization scope clarification
 
 Prior-conversation retrieval now recovers direct user instructions from 2026-10-01 authorizing independent abstract mathematical derivation and data-free mathematical calculations in this sandbox, while requiring source/invention separation and prohibiting target-fitting old magic numbers or particle labels. The raw October 1 export, conversation ID, and message UUIDs remain unavailable; this is not raw-export authentication. See [the scope-recovery note](2026-11-02T0948Z_DIRECT_AUTHORIZATION_SCOPE_RECOVERY.md). The 2026-10-26 measured-system requirement remains controlling for real physical calculations; abstract sandbox mathematics must not be presented as empirical physics.
+
+
+## 2026-11-06 source-recovery correction
+
+This section supersedes the raw-export-unavailable statement in the 2026-11-02 note below. The October 1 authorization is now verified against the raw export and exact message UUIDs above. It remains a free-playground authorization, not a user-authored permanent Nadir identity, standalone specialist charter, authenticated current thread, or authority to promote sandbox work into BEDROCK.
