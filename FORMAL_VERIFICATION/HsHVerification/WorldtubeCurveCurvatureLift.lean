@@ -31,10 +31,10 @@ This definition is meaningful as a curvature expression when V is
 nonzero. The theorem below is only the algebraic reduction for the
 specified affine lift.
 -/
-def gramCurvatureSq (v a : Fin 4 → ℝ) : ℝ :=
+noncomputable def gramCurvatureSq (v a : Fin 4 → ℝ) : ℝ :=
   (dot4 v v * dot4 a a - (dot4 v a) ^ 2) / (dot4 v v) ^ 3
 
-def liftedGramCurvatureSq (v a : Fin 3 → ℝ) : ℝ :=
+noncomputable def liftedGramCurvatureSq (v a : Fin 3 → ℝ) : ℝ :=
   gramCurvatureSq (liftVelocity v) (liftAcceleration a)
 
 theorem dot4_liftVelocity_self (v : Fin 3 → ℝ) :
