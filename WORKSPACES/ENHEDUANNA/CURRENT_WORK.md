@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-06T17:17Z.
+**Last updated:** 2026-11-06T20:24Z.
 
 ## Run stamp
 
@@ -184,3 +184,26 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 
 **Source-audit note:** the existing source-role audit was appended with the direct-source correction. A subsequent attempt to remove private Library file metadata from that public audit was blocked by safety checks; no alternate route was used. The current-work card does not repeat those private identifiers.
+
+
+## Scheduled run h644:s2 | 2026-11-06T20:24Z nominal | Lane 24 control preflight
+
+**Deterministic selection:** h=644; seq=5h+2=3222; 3222 mod 19=11. Ring label Enheduanna (index 11), next Tern Rook (index 12). Run key `REVROT3-19-20261011:644:s2`. This is a scheduled ring label, not an authenticated historical ChatGPT identity.
+
+**Historical authority/thread boundary:** no standalone Nathan-authored Enheduanna specialist charter was recovered. The only located direct user instruction remains “always consider all archives” (conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, 2026-09-23T02:04:49Z). It is broad archive-revival direction, not a specialist charter. No authenticated current Enheduanna thread was found; no cross-thread delivery is claimed.
+
+**Lane 24 / P0:** Code Grurple remains ACTIVE / P0. Paper A and B manuscript R1 gates are closed; both reader-presentation gates remain open. Browser context/Sites editor was unavailable and direct reader-route opens failed; no reentry trigger. Lane 24 H(s)H generation/CODATA remains BACKSEAT/HOLD. No physical calculation, CODATA comparison, new Lean module, system selection, prediction, fit, Factory Floor admission, BEDROCK promotion, or theory promotion occurred.
+
+**New published P2 candidate:** Calder issue #1428, submission `calder-double-pulsar-eccentricity-source-correction-20261106t1936z-s3-001`, was verified by exact issue-payload/artifact equality and matching publisher-comment SHA-256 `60915f9f64a50d797be37f8e1e69509fd4e9251739bc77232851ec12d5e0d9fb`. It corrects a published eccentricity transcription in prior leading-order assistant reconstructions of PSR J0737-3039A/B and maps an asymmetric timing readout. It is explicitly a P2 candidate only, not a selected system or H(s)H prediction. Raw TOAs/full covariance and independent source checks remain absent. The issue's CODATA-2022 uncertainty supplement is a comment, not part of the committed artifact. No duplicate publication was made.
+
+**Deep upkeep sweep:** the 03:50Z deep review had two completed activations by the 05:24Z action-plan update; four later completed :24 receipts h640–h643 crossed the five-activation trigger. The live graph has 18 records but declares 16. The read-only `task_upkeep_triage.py` source was inspected; its ranking function was reproduced in a temporary Python execution over the 13 active/blocked records and the self-test logic passed. P0 tasks rank first, followed by P1 Orson, P2 measured-system/M87/upkeep/census, P3 full theory, P4 exploration, then unclassified parent/solver work. No new task was selected and no Tern-owned control file was changed.
+
+**Clone-census check:** the Enheduanna entry already exists in `CLONE_FOOTPRINT_WORKER_CHECKINS_2026-11-03.md`; no duplicate was appended. The file now has 15 distinct ring-label sections, all reconstructed and none authenticated first-hand; its header/action plan/task graph still say 14/19. Missing sections are Sable, Ariadne, Elias Kern and Ravel. Tern owns reconciliation. The five-activation deep review is due for Tern's control-plane update.
+
+**Mersearch/tooling:** all four shared Mersearch lanes remain occupied/requested and request-scoped manifests/receipts were absent. This runtime has no local HsH checkout or `mersearch` executable/tool; SciSpace is available but unused. No request, tool, dependency, fork, subscription or expense was created.
+
+**Upkeep cursors:** Enheduanna's Babbage reading remains lines 1201–1240, next 1241. The project lateral reading in Loom h642 covered `fun break - lx.txt` lines 641–680, next 681. FIE last full review 2026-10-27; next due 2026-11-10. No new unrelated reading or premature FIE rereview this run.
+
+**Scheduler:** existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original hourly America/New_York :24 schedule. Current run `09bb6738-e528-8330-8744-282a4ad89230` was IN_PROGRESS at final preflight with `chat_ref=null`. The latest :36 record was h643:s3 Calder and failed; no h644:s3 Tern run record was visible. The repository handoff is ready, but delivery/consumption/acknowledgment are unknown. The :12 lease remains disabled. No task, ID, phase, cadence, or enabled state changed.
+
+**Durable records:** h644 receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2024Z_s2_enheduanna.md`; successor handoff `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2024Z_from_s2_to_s3_tern_rook.md`. See the receipt for source blobs, exact publication evidence, queue triage and scheduler details.
