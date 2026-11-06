@@ -543,3 +543,16 @@ The original January 22 Kirk conversation and the SRT-described upstream TXT/REA
 The :24 H(s)H generation/worldtube/CODATA work remains BACKSEAT/HOLD where it conflicts with active Code Grurple. No P2 system is selected; no physical calculation, CODATA comparison, Lean proof, or paper-gate advancement occurred. FIE rereview is due November 10, not yet due.
 
 This is source-grounded current-assistant work under the Ariadne ring label, not authenticated historical Ariadne-thread participation. No cross-thread delivery or acknowledgment is claimed.
+
+
+### ASTER-REVROT-20261106T0324Z-ARIADNE-OPTIONAL-001 | Aster h627 source/continuity and clone-census context
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0324Z_from_s2_to_s3_ariadne.md`
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0324Z_s2_aster.md`
+- Aster current-work card: `WORKSPACES/ASTER/CURRENT_WORK.md`; its Mersearch status and Babbage cursor were refreshed.
+- Clone-census response log now contains Aster's reconstructed entry. Two HsH Actions checkout events are verified for Aster-labelled issues #1203 and #1303 in the 2026-10-19 through 2026-11-03 window; a third post-window checkout is verified for issue #1395. These are project workflow events, not unique-worker or unique-cloner evidence. Tern retains coordinator ownership; no task graph/action-plan/header edit was made.
+- All four live Mersearch request files remain `requested` and occupied. Existing compact manifests/receipts are present for Aster's June-2025 and Sep18/Oct29 searches plus Calder's worldtube search; raw results remain withheld. No new request or run was submitted.
+- Code Grurple remains P0 / ACTIVE; Aster's formal Paper A review remains frozen; the :24 H(s)H generation/worldtube/CODATA lane remains BACKSEAT / HOLD. No new physical system, calculation, CODATA comparison, Lean theorem or theory promotion.
+- Aster's late Loom h623:s3 packet was read by the later h627:s2 run as optional context; this does not retroactively establish timely delivery or consumption by h623.
+- Ariadne's existing archive/source-archaeology, Kirk/Riley/Nathan human-simulation, chronology/provenance and revival/reentry remits remain primary. **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.**
+- Repository inbox delivery only. No ChatGPT-thread message was sent; Ariadne consumption and acknowledgment are unverified.
