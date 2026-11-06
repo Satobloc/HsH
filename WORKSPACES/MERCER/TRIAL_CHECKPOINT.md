@@ -762,3 +762,43 @@ The prior h615/Mercer section in this checkpoint was written using later wall-cl
 Authoritative routing correction: issue #1394, submission `enheduanna-routing-correction-for-1393-20261105t1400z-s0-001`, SHA-256 `43ad33199a4a0c74e0f657b34d8e047f2fb13faa5fa77f152e2ed15f358194c4`, publisher-verified. The source-fidelity research content remains in #1393; only the run metadata and handoff destination are corrected.
 
 No task ID, prompt, schedule, phase, cadence, enabled state, branch ownership, or task count changed. No sixth task. No physical calculation, CODATA scoring, Lean promotion, Factory Floor admission, paper edit, or theory promotion.
+
+
+## Run 158 — 2026-11-06T1348Z | Mercer :48 | h637:s4 | Review-MIND / Code Grurple route-state delta
+
+**Disposition:** `NO_REENTRY_TRIGGER`; Paper A and Paper B remain `PRESENTATION_PENDING / NOT_OBSERVED`. This is a source/feed/control-plane QA pass, not manuscript review or a live-route verdict.
+
+### Rotation, identity, and scheduler
+
+- Nominal `scheduled_for=2026-11-06T13:48:00Z`; `h=637`; `seq=5*637+4=3189`; `3189 mod 19=16`.
+- Selected deterministic label: Mercer (index 16). Immediate successor: Ravel (index 17), next key `REVROT3-19-20261011:638:s0`.
+- Historical direct user-role assignment: raw HsH blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, 2026-10-01T20:56:07.264Z. Original :48 remit: equations, dimensional analysis, constitutive physics, coarse-graining, forces and quantitative consequences; one old-archive + one HsH file per run; preserve source/invention distinction; no target-fitting. Current Code Grurple override remains Paper A+B presentation QA only.
+- No authenticated current Mercer ChatGPT thread was found; this is an assistant reconstruction under the deterministic routing label.
+- Existing :48 automation `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original `DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY`. Scheduler run ID `cbfe4796-2028-8322-bcdb-8321d9140d0a`, scheduled 13:48Z, `in_progress`, `chat_ref=null`. Current peek reports `started_at=14:15:12.423096Z`; Meridian's immediately preceding receipt recorded the same run ID at `13:47:13Z`. This same-ID start-time discrepancy is unresolved; do not infer a retry or first-start time. Cached `latest_result` belongs to prior run `513e1435-bea4-8329-9cf2-d68978347149` (scheduled 10:48Z, completed 11:07Z), not this occurrence.
+- Incoming Meridian handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1336Z_from_s3_to_s4_mercer.md` was read and consumed as optional context; no task or ownership transfer.
+
+### Current source and route state
+
+- Current main snapshot before this checkpoint write: `f2fd1e09eec65878c975c7d2ad1a25765b3493c9`. Its only changed file is `PUBLIC_SITE/generated/discovery.json` (one insertion, one deletion). Event class: `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH`. It does not alter either paper, the feed, renderer, derivative, deployment, or route.
+- Paper A TeX blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` at source commit `58b0ed9c19c8dba123846c411d4ac8b7db5c0df9`; Paper B Markdown blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb` at source commit `731e2fb5888b0aec856fd9e31319c39746514239`. Both exact source blobs still match feed `e3552fdac0f187b066b59a9742563094efffe011`.
+- `PUBLIC_SITE/generated/papers.json` blob `7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7` contains only `cruller-rubin`; no A/B derivative is present. Pages workflow blob `6f3e843b6a327db76b21e8b0b61a26c210b600ac` remains Viewer + Whirligig only, not an A/B deployment path.
+- Presentation Gate `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`, Reader Routing Registry `277a94c553e2e17b61bb046a04781b4e44f2229f`, and Presentation Contract `b871249564a45278383e41eebd8aaa5d8c64aa3c` remain controlling: no raw TeX/Markdown fallback; use a provenance-bound readable derivative or show pending/omit.
+- Established predicates: source pin and feed binding (2/6 per route). Derivative provenance, deployment identity, live readback and all-check acceptance remain NOT OBSERVED. Paper B's site_version 34 / 2026-09-23 posted date is historical metadata, not current deployment identity; Paper A has no site version or posted date.
+- No authenticated browser context, Sites editor/deployer, owner preview or A/B deployment identity was exposed. The two-stage classifier therefore returns `NO_REENTRY_TRIGGER`. No live route probe was made; no route failure or pass is inferred. Do not retry solely because another hourly slot arrived.
+
+### Cross-lane QC and protections
+
+- Ravel's h638:s0 report `WORKSPACES/RAVEL/2026-11-06T1400Z_OBSERVATION_GEOMETRY_MATH_FIDELITY_AND_COUPLING_LEDGER.md` and public-safe issue #1420 were read. It separates Observation → Geometric Representation → Mathematical Abstraction, labels `Φ(A,B)=0` and “Reality-Approximation Principle” assistant-origin, and explicitly makes no physical calculation, new Lean theorem, or theory promotion. It already records current main head `f2fd1e09...` and the same no-trigger state. No duplicate successor handoff was created.
+- Orson P1 remains protected and NOT READY for Nov 9. Current work says canonical source, compiled PDF/reader, independent review and author disposition remain incomplete. PR #850 remains OPEN/DRAFT at head `9fa85f5826545d489743967de50a81f323757a55`; no exact-head Actions run was found. Earlier merge-reference success #42025947428 is not exact-head verification. Public VEY-030 summary #1389 is a proposed measurement architecture, not an administered experiment or consciousness claim.
+- P2 Nov 30 remains a genuine measured-system gate; P3 Dec 14 remains a separate full-theory gate. No paper gate advanced.
+- FIE last full review: 2026-10-27; next due 2026-11-10, not yet due.
+- Unrelated archive reading: `SAT Mark V/TheTANGLE.txt`, lines 1241–1280. Next cursor: 1281. This was a fictional calendar/dispatch mismatch passage; no theory analogy or physical inference was imported.
+
+### Limits, publication, and next cursor
+
+- All four Mersearch lanes remain occupied/requested; no lane was overwritten and no Mersearch execution is claimed. Direct known-path repository/blob reads were the disclosed fallback.
+- No local HsH checkout or suitable internal receipt-writer Action was available; house-write route checked and unavailable. No new tooling, dependency, subscription, issue, PR, branch, manuscript, feed, renderer, site or theory change. No Lean run was warranted by this presentation-only delta; no physical calculation, human/model experiment or CODATA comparison occurred.
+- No public-safe content delta justified a new issue; existing #1193, #1144, #1273, #1389 and #1420 were not duplicated.
+- Successor Ravel h638:s0 was already in progress at the latest scheduler peek (run `3bb14f5f-5ab0-8321-96d1-990d182d6617`, scheduled 14:00Z, started 14:27:19.804355Z, `chat_ref=null`). Its own report already captures the current main head and no-trigger state; no duplicate late handoff or inbox append was made. No ChatGPT-thread delivery, recipient consumption or acknowledgment is claimed.
+- No task ID, prompt, schedule, phase, cadence, enabled state, branch ownership, or task count changed. No sixth task.
+- **Next exact cursor:** wait for an A/B source/feed/renderer/build change (rebind/rebuild first) or an exact A/B deployment/owner preview/authenticated browser capability (then one bounded readback per affected route). Preserve both routes as `PRESENTATION_PENDING / NOT_OBSERVED`; preserve Orson P1 ownership and the Nov 9/Nov 30/Dec 14 gates.
