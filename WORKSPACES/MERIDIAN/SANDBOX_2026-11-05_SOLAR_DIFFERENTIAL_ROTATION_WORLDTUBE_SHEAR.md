@@ -216,3 +216,6 @@ It uses only the published coefficient table and stated nominal constants; no ar
 4. Prša, A. et al. (2016), IAU 2015 Resolution B3 nominal conversion constants, including R_sun,N=6.957e8 m. https://arxiv.org/abs/1605.09788
 
 **Verdict:** A real measured rotating surface gives us a controlled example of four-dimensional material-history curvature plus strong, nearly area-preserving shear. It validates the kinematic bridge and shows exactly what a finite-core calculation must track. It does not yet establish the Cruller's internal law or a new gravitational/optical effect.
+
+
+**Related finite-core control:** The observed CME GCS aspect-ratio/reach calculation is recorded in [SANDBOX_2026-11-05_CME_FINITE_CORE_REACH_FROM_GCS.md](SANDBOX_2026-11-05_CME_FINITE_CORE_REACH_FROM_GCS.md). The solar surface flow and CME flux rope are separate external controls: one supplies measured material shear; the other supplies observed finite-core geometry.
