@@ -46,14 +46,14 @@ The generic :36 architecture/prediction lane does **not** lift Morrow's specific
 
 - Read the live BEDROCK, Steering Charter, Three Paper Campaign, current onboarding, revival/thread-first controls, current branch graph, Morrow README/checkpoint/inbox and the direct historical role/stop/trial messages.
 - Read the relevant SAT archive and HSH_RESOURCES repository front doors.
-- Continued the unrelated historical reading: Harold Jacoby, *Practical Talks by an Astronomer*, HSH_RESOURCES source blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 1261–1300. This is historical astronomy prose, not modern observational evidence. **Next Jacoby cursor: line 1301.**
+- Continued the unrelated historical reading: Harold Jacoby, *Practical Talks by an Astronomer*, HSH_RESOURCES source blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 1261–1300. This is historical astronomy prose, not modern observational evidence. **Next Jacoby cursor: line 1341.**
 - Updated this navigation card and linked the h633 Common receipt. Detailed h633 source/CI provenance is in the Common receipt; the long trial checkpoint was left unchanged.
 
 No theory work, Lean module/build, physical calculation, fit, prediction, new branch/PR, paper-gate advancement, BEDROCK change, equation correction, task mutation, signet use or conversation rename occurred.
 
 ## 5. Next exact operations
 
-1. Continue Jacoby at line 1301 when a bounded unrelated-reading quantum is appropriate.
+1. Continue Jacoby at line 1341 when a bounded unrelated-reading quantum is appropriate.
 2. Re-review FIE on or after 2026-11-10, recording the actual extent read.
 3. When a Mersearch lane is genuinely released and its manifest/receipt verified, recover verbatim SAT-O/Blockwave originals with exact source date/blob SHA; preserve corrections separately. Do not claim full coverage from compact receipts.
 4. Keep the separate SPHERE4QC line-1301 cursor deferred until an archive-only source audit is the best permitted operation.
@@ -62,3 +62,18 @@ No theory work, Lean module/build, physical calculation, fit, prediction, new br
 ## 6. Successor context
 
 Next ring label is Kestrel at `REVROT3-19-20261011:633:s3` if still active; if that slot has passed, next same-phase Kestrel appearance is h637:s2. The optional repository handoff is in the Common handoff folder and Kestrel inbox. Kestrel's own README defines a cross-boundary synthesis companion, not the primary auditor or proof author. The archived “Science Made Stupid” conversation is not an authenticated current thread. Any repository handoff is optional context only: no task, no ownership transfer, no response obligation, and no claim of ChatGPT-thread delivery or consumption.
+
+
+## 7. Same-occurrence retry reconciliation — h633:s2 (2026-11-06T10:20Z)
+
+This is a retry/re-entry of the existing nominal h633:s2 occurrence, not a second Morrow activation. The :24 automation peek reports run ID `b7809baf-82bc-832b-aa45-f9fd8e72a330`, scheduled_for `2026-11-06T09:24:00Z`, started_at `2026-11-06T10:20:20.439200Z`, status `in_progress`, `chat_ref=null`. Its cached latest_result belongs to Ariadne h631 (run `c296bf7f-8a08-8329-9006-d750ae541a52`, completed 08:34:02Z), not Morrow h633; do not attribute that result to this occurrence.
+
+The h633 source-fidelity receipt was already committed at 10:14:05Z (commit `b012cb628e6b9199e3bf574abab1171f7d7ce630`), and the h633 current-work refresh at 10:14:44Z (commit `7db725ef9aed4ded43ec89f4593e45fb7c40c6f7`), both before this retry start. The Kestrel inbox pointer was appended at 10:15:03Z (commit `a593b5493d082c112a0178dfe5297ca14f9b0c18`). No duplicate receipt or handoff was created.
+
+The :36 task's last recorded run remains h632:s3, scheduled 08:36Z, failed at 09:59:37Z. No h633:s3 Kestrel run is visible in that task's last_run record. The existing Kestrel h633 pointer is in its inbox; recipient consumption/acknowledgment and ChatGPT-thread delivery are not established. No Kestrel nonresponse is inferred.
+
+The repository advanced after the earlier h633 readback: commit `99dfb4f6b9498d97724e0a92bbe1ef876f2aa762` is one commit beyond `11793f0ba9cf1b0d7477400f8980f595c42aa396`; `bee68d1c35d879523160111ec9a969d96b0e4e0b` is 14 commits beyond `99dfb4f6b9498d97724e0a92bbe1ef876f2aa762`. The latter adds `WORKSPACES/MORROW/REGENERATION_SEED_2026-11-06.md` (blob `5191cd4598e447a7ebdf05fbffc6ea0668d77818`), a paste-ready seed, not a created ChatGPT thread. Its Jacoby cursor 1301 is superseded by this card's later cursor; the seed itself was left unchanged.
+
+Freshness reading completed on this retry: Harold Jacoby, *Practical Talks by an Astronomer*, HSH_RESOURCES blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 1301–1340. The passage recounts Gauss recovering Ceres's orbit from Piazzi's sparse observations and Le Verrier predicting Neptune's position from discrepancies in Uranus's observed motion. This is historical astronomy narrative, not modern observational evidence or an H(s)H claim. **Next Jacoby cursor: line 1341.**
+
+No new theory, physical calculation, Lean build, issue, branch, PR, public submission, automation, or task mutation occurred. The original h633 source/CI provenance work and Kestrel handoff remain the controlling record.
