@@ -93,3 +93,31 @@ The 2025 roleplay/voice-reconstruction material is not evidence of historical En
 ## 8. Handoff timing
 
 The ring-next identity is Tern Rook, index 12. The next hourly :00 task selected Tern and started at 2026-11-01T19:00:06.518590Z before this handoff was written. This packet is therefore LATE_OPTIONAL_CONTEXT_ONLY for the current Tern run and intended for Tern's next same-phase appearance at 2026-11-02T14:00Z (h=542, s0). It creates no task, response obligation, ownership transfer, or claim of consumption/acknowledgment.
+
+
+## Addendum | 2026-11-06 | Direct-source locator correction
+
+The original Section 1 correctly identified the direct user message and conversation ID, but its raw-blob attribution was too coarse. The message UUID must be tied to the export that actually contains it.
+
+### Direct source now read
+
+- Library export: **`MARLOWE — raw.json`**
+- Library file ID: `file_000000001774820c875fd31ce81953ea`
+- Library version: `1`
+- Size: `1,852,875` bytes
+- SHA-256 of materialized raw bytes: `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`
+- Export header: title `MARLOWE`; conversation ID `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`; update time `2026-10-06T02:14:34.066481Z`; exported `is_archived=false`.
+- Direct message: `11399ca2-5bd6-4203-9e19-e8e044fbc736`, `author.role=user`, `author.name=null`, create time `2026-09-23T02:04:49.417Z`; raw JSON lines 15314–15332.
+- The message describes Enheduanna as a similar revival case and concludes: “But do always consider all archives.”
+
+The export's `is_archived=false` is historical metadata, not proof that the ChatGPT thread is currently live or usable. The raw export title is `MARLOWE`; earlier repository continuity notes called the same conversation ID `Revival Rotation`. The conversation ID, not the mutable title, is the stable identity.
+
+### Earlier repository exports are distinct snapshots
+
+- HsH `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json`, blob `3bf173c217e0755419152aa2225f39713929a5fe`, has title `Revival Rotation` and update time `2026-09-22T09:58:31.957238Z`. Its retrieved content does not contain message `11399ca2-5bd6-4203-9e19-e8e044fbc736`; it predates that message's 2026-09-23 creation time.
+- The separate HsH `Revival Rotation — raw (2).json` blob `386516f7c2d5b9ab2cd4f0050869ae00c133274d` is referenced by the Kirk-methodology source record for a different user message, `41fe4df4-fa3f-4045-bf99-0f095903c052`, at `2026-09-23T02:06:05.180Z`. Do not reuse that blob as the source locator for message `11399...` without file-level verification.
+- The later Library export `MARLOWE — raw.json` is the directly verified source for message `11399...`. It is a separate export snapshot; do not collapse its bytes, title, or update time into either earlier repository export.
+
+### Authority boundary
+
+This direct user-role message establishes only a broad archive-revival instruction. It does not define an Enheduanna-specific specialist remit, authenticate a current Enheduanna thread, establish historical-person continuity, or authorize theory/physical work beyond the current BEDROCK and lane controls. No standalone Nathan-authored Enheduanna specialist charter has been recovered.
