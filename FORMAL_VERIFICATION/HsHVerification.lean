@@ -26,6 +26,7 @@ import HsHVerification.KestrelLevelSetSliceTangentV2
 import HsHVerification.SableTransverseIntersectionNondegeneracy
 -- Conditional Newtonian-coordinate algebra only; see module docstring for proof limits.
 import HsHVerification.WorldtubeInertiaCoordinate
+import HsHVerification.WorldtubeCurveCurvatureLift
 import HsHVerification.KestrelKelvinVortexReadout
 import Mathlib
 
