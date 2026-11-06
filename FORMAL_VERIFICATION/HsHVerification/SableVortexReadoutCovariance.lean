@@ -24,28 +24,28 @@ def rawContourCovariance (v₀ vπ c : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
   !![v₀, c; c, vπ]
 
 /-- Covariance of (η,a), obtained by the source-defined congruence A Σ Aᵀ. -/
-def outputCovariance (v₀ vπ c : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
+noncomputable def outputCovariance (v₀ vπ c : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
   readoutMatrix * rawContourCovariance v₀ vπ c * readoutMatrix.transpose
 
 theorem displacementVariance (v₀ vπ c : ℝ) :
     outputCovariance v₀ vπ c 0 0 = (v₀ + vπ - 2 * c) / 4 := by
   norm_num [outputCovariance, rawContourCovariance, readoutMatrix,
-    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ] <;> ring
+    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ]; ring
 
 theorem coreRadiusVariance (v₀ vπ c : ℝ) :
     outputCovariance v₀ vπ c 1 1 = (v₀ + vπ + 2 * c) / 4 := by
   norm_num [outputCovariance, rawContourCovariance, readoutMatrix,
-    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ] <;> ring
+    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ]; ring
 
 theorem displacementCoreRadiusCovariance (v₀ vπ c : ℝ) :
     outputCovariance v₀ vπ c 0 1 = (v₀ - vπ) / 4 := by
   norm_num [outputCovariance, rawContourCovariance, readoutMatrix,
-    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ] <;> ring
+    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ]; ring
 
 theorem coreRadiusDisplacementCovariance (v₀ vπ c : ℝ) :
     outputCovariance v₀ vπ c 1 0 = (v₀ - vπ) / 4 := by
   norm_num [outputCovariance, rawContourCovariance, readoutMatrix,
-    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ] <;> ring
+    Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_succ]; ring
 
 /-- The derived channels are uncorrelated exactly when the two raw-side
 measurement variances are equal. The raw-side covariance c cancels. -/
