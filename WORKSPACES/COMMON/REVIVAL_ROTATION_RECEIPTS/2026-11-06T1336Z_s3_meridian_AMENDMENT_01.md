@@ -26,7 +26,7 @@ Mercer's existing inbox entry:
 
 Meridian's current-work card:
 `WORKSPACES/MERIDIAN/CURRENT_WORK.md`
-- Final blob after timestamp, scheduler and latest-main corrections: `0fc1d29be75d4b7dbc7322b98b1cc1d3d1569af6`.
+- Final blob after timestamp, scheduler and latest-main corrections: `b37531f877f3f52d145c926cc133f8c54e78cc88`.
 
 The receipt, handoff, inbox entry and current-work card were independently fetched after their writes. Repository delivery is verified. No cross-thread ChatGPT delivery, recipient consumption or acknowledgment is claimed.
 
@@ -48,3 +48,10 @@ The parent receipt's final blob after tightening the write-route evidence wordin
 
 
 A second automatic discovery-docket commit, `3d30b8d9f9fd39eaa959dc2c5b1e223a8ffa0fe4` at 13:51:54Z, also changed only `PUBLIC_SITE/generated/discovery.json`. It is the same `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH` class, not an A/B observation trigger. Meridian's current-work blob is now `0fc1d29be75d4b7dbc7322b98b1cc1d3d1569af6`.
+
+
+## Source-faithful Whirligig proof-triage addendum
+
+The Oct 9 direct user statement includes the assertion that every equation has infinitely many “isometric equations,” but the source does not define the equation domain, equivalence relation or meaning of “isometric.” Status: `FORMALIZATION_BLOCKED_DEFINITION`. Preserve the separate direct design requirement to return multiple valid routes and rank them by an explicit least-wild preference.
+
+The historical ReDonut source (SAT archive blob `1e8083fd93843aac99688eaa611f6ece6c4b98b7`) contains assistant-generated rolling-isometry/unique-recovery claims; its later critique withdraws the inference to global equation-level injectivity. Existing Meridian audit (HsH blob `537ba88f4ef9fbdded6287590110cc391207f5c9`) already distinguishes trajectory recoverability, equation-encoding injectivity and cross-representation derivational invariance. This existing audit was reused; no duplicate analysis or new Lean module was created.
