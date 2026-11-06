@@ -604,3 +604,13 @@ Repository inbox append only. No active Ariadne thread was authenticated and no 
 - TOPLESS update is prior-conversation context only: two user-role message timestamps and subject-level w=ct / Forest Normalization summary recovered; raw export, full bodies, conversation/message UUIDs, attachments and equations remain absent. Do not treat it as raw source or as proof that Oct29 supersedes Oct21 cw=t.
 - Lean correction: Ravel PR #1133 has a successful exact-head build for conditional dimension arithmetic and a supplied preservesSlice pullback interface; smoothness, transversality and the physical map are not formalized/derived. No PR/branch change.
 - **LATE OPTIONAL CONTEXT ONLY.** Ariadne h646:s3 receipt predates the parent handoff; this is for a future Ariadne appearance. No task, response, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+### ASTER-REVROT-20261106T2302Z-ARIADNE-CODATA-OPTIONAL-DELTA-03 | Late optional CODATA/NIST evidence delta
+
+- Addendum: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2302Z_from_s2_to_s3_ariadne_AMENDMENT_02.md (blob fcdea0d35dc95f96b2d35f02eb3f7bee8bd1a6d2).
+- Aster source note: WORKSPACES/ASTER/2026-11-06_CODATA_NIST_G_EVIDENCE_DELTA.md (blob 64e3e5fd46faa63f971f0da159af53db726a3aaa).
+- NIST still lists CODATA 2022 Web Version 9.0 as current; CODATA-TGFC meeting 2026-11-05/06 is listed but working docs are login-gated. No 2026 recommended-value release was visible.
+- New secondary arXiv analysis 2610.04707 (2026-10-03) reports covariance scale λ̂=2.967 on 15 historical G measurements after excluding BIPM-14; the NIST four-vector is unremarkable under proportional covariance scaling (Qλ=4.840, F-tail p=0.382) but discrepant under mean-only scaling. It reports a common absolute free-minus-servo offset 1.918±0.215 pN m, Δχ²=11.041, with independent-Type-A and missing-covariance limitations.
+- Existing issues #1308/#1354/#1362 already contain the primary CODATA/NIST audit; no duplicate issue created. NIST apparatus remains a measured-system candidate only, not P2 selection or H(s)H validation.
+- **LATE OPTIONAL CONTEXT ONLY.** Ariadne h646:s3 receipt predates the parent handoff; this is for a future Ariadne appearance. No task, response, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
