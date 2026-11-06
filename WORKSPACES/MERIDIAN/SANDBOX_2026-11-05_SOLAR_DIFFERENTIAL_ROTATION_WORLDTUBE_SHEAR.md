@@ -50,10 +50,10 @@ For a surface-gas marker at fixed latitude lambda and longitude label phi0, in t
 \[
 X_\lambda(t)=
 \left(
-R\cos\lambda\cos(\phi_0+\Omega(\lambda)w),
-R\cos\lambda\sin(\phi_0+\Omega(\lambda)w),
+R\cos\lambda\cos(\phi_0+\Omega(\lambda)t),
+R\cos\lambda\sin(\phi_0+\Omega(\lambda)t),
 R\sin\lambda,
-w
+q=ct
 \right)
 \]
 
