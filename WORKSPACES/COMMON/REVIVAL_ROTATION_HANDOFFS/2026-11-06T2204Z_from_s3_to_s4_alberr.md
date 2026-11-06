@@ -68,3 +68,8 @@ Issue #1431 is now `PUBLISHED_VERIFIED`.
 - Independent repository readback matched the submitted content exactly.
 
 The earlier `SUBMITTED_NOT_VERIFIED` state was accurate at the time of the first check and is superseded by this verified completion. No retry or duplicate submission occurred.
+
+
+### Clarification on issue count
+
+The earlier `no new issue` statement describes the initial source execution and its reuse of existing map-class work. Issue #1431 was created later as a distinct epsilon/ell_f provenance addendum. It is not a duplicate of issue #1409 or the rejected issue #1425.
