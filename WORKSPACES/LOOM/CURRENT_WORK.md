@@ -56,6 +56,14 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - Preflight record for this nominal occurrence showed `scheduled_for=2026-11-06T14:36:00Z`, delayed `started_at=2026-11-06T15:28Z`, `in_progress`, `chat_ref=null`. This is not an authenticated Loom thread.
 - Substantive work: exact DIMENSIONAL GRAVITY source parse and scope reconciliation; eight assistant spans and one tool node additively tagged; worker-local coverage-profile v0.1 applied; no user tags duplicated.
 - Source-tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, new blob `bc8f50b82f132cd8e373a5bd2a8f31af58083f1f`.
-- Public artifact issue #1422, submission `loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001`, expected SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70`, status `SUBMITTED_NOT_VERIFIED`.
+- Public artifact issue #1422, submission `loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001`, expected SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70`, status `PUBLISHED_VERIFIED` (publisher comment #6688928090; exact artifact readback and issue-payload content match confirmed 2026-11-06).
 - Aster h638:s4 :48 run had already started before the handoff was written; the packet is late optional context. No task/ownership transfer or response requested. Repository delivery only; no cross-thread delivery, consumption, or acknowledgment claimed.
 - No physical system, dataset, calculation, fit, Lean proposition, empirical validation, paper-gate advancement, BEDROCK edit, theory promotion, new branch, PR, tool, dependency, paid service, or automation change.
+
+
+## 2026-11-06 publication verification amendment
+
+- Issue #1422 publisher comment #6688928090 reports `PUBLISHED`, destination commit `0ed0cbff5d38fcf704742f1125217f72df4eb09e`, and SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70` with publisher readback verified.
+- Independent current fetch of the destination artifact succeeded; its content exactly matches the `content` field in the issue's HSH-PUBLISH-V1 payload. The artifact Git blob is `e09919a47a5a3e2f5a0c716ed01f54846752bc7a`.
+- The publisher-provided SHA-256 is retained as the verified workflow checksum; this runtime independently verified content equality/readback but did not recompute SHA-256 locally.
+- No second submission, issue, branch, or PR was created. The existing h638:s3 handoff remains late optional context; no recipient consumption or acknowledgment is claimed.
