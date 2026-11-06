@@ -73,6 +73,25 @@ Therefore the correct source reading is **two standard conventions with a missin
 
 The Nov 4 symmetric-attribution, mutual worldtube-timesheet-curvature, timewave-front, and Crullerverse position is represented in the assistant-authored index `NATHAN_DIRECT_2026-11-04...` and the existing Hale/Mercer analyses. That index is not a raw primary message. The timewave front remains distinct from the timesheet; symmetric attribution is a bookkeeping default when neither participant is preferentially instrumental, not a physical equal-force theorem.
 
+
+### 3.5 2023 precursor: Tully-Fisher is not a volume law
+
+The 2023 direct source's (L\propto V^\alpha) is discussed in the Tully-Fisher context: (L) is luminosity and (V) is rotation velocity, not volume. The assistant then introduced an effective tensor placeholder,
+`G_{\mu\nu}=(8\pi G/c^4)(T_{\mu\nu}+\Theta_{\mu\nu})`,
+to represent a speculative curvature-resistance contribution. That `Theta` term was not derived from a Lagrangian, constitutive law, or independently specified susceptibility; a later assistant self-review explicitly quarantined it as bookkeeping rather than a derived field equation. It is not Nathan Direct and does not provide a bridge to the 2026 worldtube-curvature/inertia hypothesis.
+
+### 3.6 Cross-scale and cross-formalism lens
+
+- **Local/detail:** the 2024 moving plane, helix, diagonal line, and 1D/3D intersection.
+- **Inside/outside:** the single finite core and hollow outer coil versus the timesheet, ambient metric, and global Klein Fabric. The core-to-coil and global-to-local maps remain unspecified.
+- **GR/Minkowski:** distinguish curve curvature, proper acceleration, extrinsic curvature, and ambient Riemann curvature. The two direct normalizations are retained separately.
+- **String theory:** 2024 “strings” are provisional geometric vocabulary. No worldsheet action, conformal structure, or string-theory equivalence is established.
+- **SM/QM:** the three-strand/proton braid is a proposal; no SU(3), color, spin, charge, flavor, or quantum-number representation map is supplied.
+- **Information:** the black-hole/Big-Bang correlated-twist story is a hypothesis; no entropy, channel, or information-transfer map is defined.
+- **Global/panorama:** Klein Fabric and Crullerverse are conceptual parent geometries, not formal manifolds with specified gluing, orientation, or metric.
+
+A later 2024 two-parabola prompt also leaves the plane's negative-motion axis unspecified. The assistant silently chose negative y despite the earlier z-motion convention. That coordinate choice is assistant-origin, not direct geometry.
+
 ## 4. Typed geometry and map diagram
 
 Use the user's stated dimensional readings provisionally:
