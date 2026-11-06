@@ -16,8 +16,8 @@
 **Primary source:** SAT_THEORY_ARCHIVE_2023-25 / MISC / HoloJesu archive.txt  
 **Blob SHA:** afa778c23eb439caf707b618ec0e59304d321c0b  
 **Observed length:** 6,307 lines  
-**Read:** lines 1–4400  
-**Next:** lines 4401–4600  
+**Read:** lines 1–4800  
+**Next:** lines 4801–5000  
 **Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-4401-4600.md`
 
 **Comparison source:** FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
