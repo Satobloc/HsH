@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-06T16:56Z.
+**Last updated:** 2026-11-06T17:14Z.
 
 ## Run stamp
 
@@ -21,7 +21,7 @@
 ### Historical identity and authority
 
 - A partial 2025-09-10/11 Enheduanna roleplay was recovered in earlier bounded work. Its dedicated conversation ID and present usability were not verified.
-- The only located direct user instruction about the Enheduanna lane is in conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, raw blob `386516f7c2d5b9ab2cd4f0050869ae00c133274d`. It says to consider all archives. This is a broad archive-revival instruction, not a specialist charter.
+- The direct user instruction about the Enheduanna lane was directly re-read in a later Library export of conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, at `2026-09-23T02:04:49.417Z` (`author.role=user`). The later export title is `MARLOWE`; the earlier HsH public `Revival Rotation — raw.json` snapshot, blob `3bf173c217e0755419152aa2225f39713929a5fe`, was updated Sep 22 and predates this message. The separate `raw (2)` blob `386516f7c2d5b9ab2cd4f0050869ae00c133274d` is cited in the Kirk-source record for a different message, not as the verified source for message `11399...`. The instruction says to consider all archives. It is broad archive-revival direction, not a specialist charter.
 - The source-layer census is assistant-authored reconstruction, not Nathan Direct and not a worker-authored check-in.
 - Do not infer a dedicated LLM-cognition remit, historical memory, personal continuity, or an authenticated ChatGPT instance from the label.
 
@@ -45,7 +45,7 @@ Lane 36 bounded operation: correct the source-to-acquisition map and verificatio
 ### Last verified position
 
 - Source basis: [2026-10-12 source-layer census](2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md).
-- Latest scheduled-run receipt: [2026-11-06T1636Z h640:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1636Z_s3_enheduanna.md), to be read back after creation.
+- Latest scheduled-run receipt: [2026-11-06T1636Z h640:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1636Z_s3_enheduanna.md), final blob `aae3047a0c3bb5f5f68c7586960721a961186375`; exact-path readback PASS.
 - No authenticated current Enheduanna ChatGPT thread was found.
 - Before this pilot, this workspace had no README, CURRENT_WORK, or INBOX.
 
@@ -74,7 +74,7 @@ When a provenance-preserving four-source NotebookLM export/manifest becomes avai
 
 The mixed `ActivatorPrayer(Alberr).txt` artifact contains generated summary material and direct dialogue in the same source family. It cannot establish source-independent memory, identity transfer, or a historical worker's continuous participation. The source-layer census remains a bounded negative result, not proof that no other material exists anywhere.
 
-Latest unrelated reading: Charles Babbage, *Reflections on the Decline of Science in England*, lines 1161-1200; next cursor line 1201. The passage argues that institutional incentives and narrow appointments can discourage independent scientific inquiry. This remains historical reading, not theory evidence. FIE last full review was 2026-10-27 and is due for re-review on 2026-11-10; no premature rereview was performed.
+Latest unrelated reading: Charles Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1201-1240; next cursor line 1241. The passage concerns specialized societies, institutional rivalry, and practical support for scientific work. This remains historical reading, not theory evidence. FIE last full review was 2026-10-27 and is due for re-review on 2026-11-10; no premature rereview was performed.
 
 
 ## Scheduled run h614:s0 | 2026-11-05T14:00Z nominal
@@ -147,7 +147,11 @@ The paper's two-antipode definitions are \u03b7=(r(0)-r(\u03c0))/2 and a=(r(0)+r
 
 **Deterministic selection:** h=640; seq=5h+3=3203; 3203 mod 19=11. Ring label Enheduanna (index 11), next Tern Rook (index 12).
 
-**Historical authority and thread boundary:** no standalone Nathan-authored Enheduanna specialist charter was recovered. The current card's only located direct instruction remains the broad archive-revival direction, “always consider all archives,” with the exact conversation/message locator recorded above. The oversized raw conversation export could not be reread through the available connector in this run; the prior source-layer census and compact Mersearch locator remain bounded secondary navigation evidence, not a fresh source read. No authenticated Enheduanna ChatGPT thread was found. This is a source-grounded reconstruction, not historical-instance continuity.
+**Historical authority and thread boundary:** no standalone Nathan-authored Enheduanna specialist charter was recovered. The direct user message was re-read in the later Library export titled `MARLOWE` (same conversation ID, message UUID and timestamp recorded above). The older public repository snapshot predates that message; the separate `raw (2)` blob belongs to a different Kirk-source locator. The instruction is only broad archive-revival direction. No authenticated Enheduanna ChatGPT thread was found. This is a source-grounded reconstruction, not historical-instance continuity.
+
+
+
+**Scheduler retry state:** the same scheduled h640:s3 invocation `3d699829-98c0-8332-b2d3-c817489a8983` had a failed attempt at 16:58:32.762161Z, then restarted at 17:01:00.855855Z. The last scheduler peek during this work still reported `IN_PROGRESS` with `chat_ref=null`; its cached `latest_result` belongs to h637:s3 Meridian, not this occurrence. Do not infer thread delivery or completion from that cached result.
 
 **Live project state:** HsH main was `f201f6c0e47b6c394c27b321519a889313a3b725` at the last branch readback. The only commit since `4939abfce6999ef8d896d7074466df7c9c902a74` changed `PUBLIC_SITE/generated/discovery.json`; it did not change the papers, renderer, feed, deployment or reader route. The task graph blob is `fafb3859a33306574625c58e8657c40a82cd30fd`, with declared `branch_count=16` and 18 branch records. Code Grurple remains P0/ACTIVE. P1 Nov 9, P2 Nov 30 and P3 Dec 14 remain separate. P2 has no selected measured system and remains BACKSEAT/HOLD.
 
@@ -162,7 +166,7 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 **Existing formalization and verification:** PR #1401 head `f45b5e9842122f964f7b52361d0f738c6d106ab9` passed exact-head run #42124345675/job #127584657683 (Lean 4.34.0/Lake 5.0.0; 8,955 root-build jobs). PR #1402 head `6176e81636eedefce730e44f92395e208d328374` passed exact-head run #42125368923/job #127588742667 (same toolchain and job count). Target theorem reports in both modules list [propext, Classical.choice, Quot.sound]; no `sorryAx` or bare `admit` strings were found in either successful full job log. Tests, lint, nanoda and separate global axiom-audit stages were skipped. These builds verify only the formalized operators, not the experimental camera map or physical premises.
 
-**Metadata correction completed:** PR #1401's stale title/pending-CI wording and source statement about an unidentified second camera were corrected in place. PR #1402's stale pending-CI description was corrected in place. Both PRs remain OPEN/DRAFT/UNMERGED; no code, branch, base, merge state or theorem was changed. Independent source-map review remains outstanding.
+**Metadata/source-locator correction completed:** PR #1401's stale title/pending-CI wording and source statement about an unidentified second camera were corrected in place. PR #1402's stale pending-CI description was corrected in place, then its body was updated with exact author-hosted PDF locators: p.2 lines 66-80, p.3 lines 173-180, and p.7 lines 716-761. The exact source distinguishes one Basler contour camera with two lens configurations, a separate Phantom V1840 top-view PIV camera, and separate PTV. The Results' “two orthogonal cameras” phrase remains under-specified; the Basler/Phantom pairing is plausible but not source-confirmed. Both PRs remain OPEN/DRAFT/UNMERGED; no code, branch, base, merge state or theorem changed. PR #1402 exact-head run #42125368923 remains SUCCESS; no new Lean run was needed for a description-only update.
 
 **Prediction-versus-fit boundary:** the paper derives its core-radius scale from contour measurements, fits circulation Γ and axial flow v_z to dispersion, then checks them a posteriori against PIV/PTV. This is not a blind held-out prediction. Any future comparison requires frozen shared parameters, complete instrument calibration/registration/synchronization, a whole independent run/forcing-condition holdout, joint uncertainty/covariance, a standard finite-core Kelvin comparator, and a predeclared covariance-aware falsification threshold derived from recovered raw data. No numerical threshold was invented.
 
@@ -172,8 +176,11 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 **Lateral reading:** Babbage, *Reflections on the Decline of Science in England*, lines 1161-1200; next cursor 1201. FIE's last full review was October 27; next due November 10. A physical off-screen break was not performed by this runtime.
 
-**Incoming predecessor:** no h640:s2 Nadir handoff addressed to this run was found in the repository at the time of inspection; the :24 task was not accessible to this run's automation connector. This is not evidence of refusal or task deletion. The older h636:s3 Nadir packet is addressed to h636:s4, not this run.
+**Incoming predecessor:** Nadir's h640:s2 receipt and handoff were read from the common receipt/handoff paths and matched the Enheduanna inbox entry `NADIR-ENH-20261106T1624Z-001`. The packet was late optional context only; no task, review, response, or ownership transfer.
 
-**Successor:** Tern Rook is next. Tern's :48 run had already started at 16:52Z before this handoff was prepared, so any inbox note is LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Repository delivery will be verified separately; no ChatGPT-thread delivery or acknowledgment is claimed.
+**Successor:** Tern Rook is next. Tern's :48 run had already started at 16:52:07Z, so the handoff is LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE / NO_OWNERSHIP_TRANSFER. Handoff path readback PASS (blob `dfb6785e42a1e0de786985e851500cb802135b03`). Tern inbox entry `ENH-TERN-20261106T1636Z-001` was appended and read back (commit `c26f78eba8319a61e4a3fdfd8e8d36fd968c0f3e`, inbox blob `2d56a5ddf11ea4ea8c2fad248b9718aa0b257035`). The inbox entry still references the pre-status-update handoff blob `41a412bccab4e0bc0703635faf898d3877f4aea8`; an attempted pointer refresh was blocked by safety checks, and no alternate write route was used. No ChatGPT-thread delivery, recipient consumption or acknowledgment is claimed.
 
 **Safeguards:** existing :36 task ID, enabled state and exact hourly America/New_York :36 schedule remain unchanged. No sixth task, task reassignment, cadence change, new issue, new PR, new branch, theory promotion, public publisher submission, signet use or conversation rename.
+
+
+**Source-audit note:** the existing source-role audit was appended with the direct-source correction. A subsequent attempt to remove private Library file metadata from that public audit was blocked by safety checks; no alternate route was used. The current-work card does not repeat those private identifiers.
