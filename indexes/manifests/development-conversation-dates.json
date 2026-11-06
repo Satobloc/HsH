@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-06T08:40:04.741974+00:00",
+  "generated_at_utc": "2026-11-06T08:49:43.563378+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 857,
+    "unchanged": 875,
     "skipped": 414,
-    "renamed": 18
+    "renamed": 3
   },
   "records": [
     {
@@ -11947,6 +11947,66 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Chronophysical Proposition Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Chronophysical Proposition Analysis — raw.json",
+      "start_local": "2025-04-06T20:36:08.340000-04:00",
+      "end_local": "2025-04-06T20:41:35.237402-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 7,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Geometry vs Numerology Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Geometry vs Numerology Debate — raw.json",
+      "start_local": "2025-04-06T21:32:13.096000-04:00",
+      "end_local": "2025-04-06T21:36:55.924112-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 7,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.16•25.04.16•Custom Instructions Optimization — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.16•25.04.16•Custom Instructions Optimization — raw.json",
+      "start_local": "2025-04-16T03:05:47.535000-04:00",
+      "end_local": "2025-04-16T03:23:18.147415-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
+      "start_local": "2025-05-03T23:48:40.764000-04:00",
+      "end_local": "2025-05-04T00:49:38.008000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 69,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.04•26.06.01•Geometric Unity Theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.04•26.06.01•Geometric Unity Theory — raw.json",
+      "start_local": "2025-05-04T02:11:52.183000-04:00",
+      "end_local": "2026-06-01T19:31:40.558512-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json",
+      "start_local": "2025-05-09T15:40:23.629000-04:00",
+      "end_local": "2025-05-09T15:40:24.532216-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.24•25.08.31•[+] SAT Testing Proposals - raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.24•25.08.31•[+] SAT Testing Proposals - raw.json",
       "start_local": "2025-05-24T02:48:24.291000-04:00",
@@ -12093,6 +12153,16 @@
       "end_local": "2025-06-01T03:55:17.197764-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 17,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json",
+      "start_local": "2025-06-01T09:50:35.497000-04:00",
+      "end_local": "2025-06-01T09:55:19.368792-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 9,
       "status": "unchanged",
       "warnings": []
     },
@@ -12367,6 +12437,116 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20•26.09.12•Circle degree radian equality — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20•26.09.12•Circle degree radian equality — raw.json",
+      "start_local": "2025-11-20T11:33:06.429851-05:00",
+      "end_local": "2026-09-12T08:39:54.055127-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 334,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.05.05•26.06.01•Gravitational Changes and Motion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.05.05•26.06.01•Gravitational Changes and Motion — raw.json",
+      "start_local": "2026-05-05T15:43:25.480443-04:00",
+      "end_local": "2026-06-01T17:23:05.326026-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 104,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
+      "start_local": "2026-06-22T09:49:04.744587-04:00",
+      "end_local": "2026-09-12T09:43:33.086238-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19•26.09.22•File Set Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19•26.09.22•File Set Overview — raw.json",
+      "start_local": "2026-08-19T05:06:07.842000-04:00",
+      "end_local": "2026-09-22T17:25:36.962022-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1259,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16•26.09.17•Establish factual record — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16•26.09.17•Establish factual record — raw.json",
+      "start_local": "2026-09-16T17:15:57.698000-04:00",
+      "end_local": "2026-09-17T03:53:10.402421-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 635,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
+      "start_local": "2026-09-30T13:13:12.685781-04:00",
+      "end_local": "2026-10-01T15:30:35.606038-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 124,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.02•Conga Ledger — Kestrel VI — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.02•Conga Ledger — Kestrel VI — raw (1).json",
+      "start_local": "2026-09-30T13:13:12.685781-04:00",
+      "end_local": "2026-10-02T13:53:51.394691-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 266,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (2).json",
+      "start_local": "2026-09-30T13:13:12.685781-04:00",
+      "end_local": "2026-10-03T00:05:27.663813-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 307,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (3).json",
+      "start_local": "2026-09-30T13:13:12.685781-04:00",
+      "end_local": "2026-10-03T00:05:27.663813-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 307,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.02•26.10.03•Explain Grabovoi Numbers — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.02•26.10.03•Explain Grabovoi Numbers — raw.json",
+      "start_local": "2026-10-02T20:34:47.936000-04:00",
+      "end_local": "2026-10-03T00:34:16.897332-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 53,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.03•26.10.04•Finding Historical Recordings — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.03•26.10.04•Finding Historical Recordings — raw.json",
+      "start_local": "2026-10-03T08:20:19.246000-04:00",
+      "end_local": "2026-10-04T07:05:07.246841-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 60,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.15•26.11.01•Predict the Song Style - raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.15•26.11.01•Predict the Song Style - raw.json",
       "start_local": "2026-10-15T09:07:22.121000-04:00",
@@ -12374,66 +12554,6 @@
       "timestamp_source": "message.create_time",
       "message_count": 2041,
       "status": "unchanged",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Chronophysical Proposition Analysis — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Chronophysical Proposition Analysis — raw.json",
-      "start_local": "2025-04-06T20:36:08.340000-04:00",
-      "end_local": "2025-04-06T20:41:35.237402-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 7,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Circle degree radian equality — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20•26.09.12•Circle degree radian equality — raw.json",
-      "start_local": "2025-11-20T11:33:06.429851-05:00",
-      "end_local": "2026-09-12T08:39:54.055127-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 334,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Conga Ledger — Kestrel VI — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.02•Conga Ledger — Kestrel VI — raw (1).json",
-      "start_local": "2026-09-30T13:13:12.685781-04:00",
-      "end_local": "2026-10-02T13:53:51.394691-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 266,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Conga Ledger — Kestrel VI — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (2).json",
-      "start_local": "2026-09-30T13:13:12.685781-04:00",
-      "end_local": "2026-10-03T00:05:27.663813-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 307,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Conga Ledger — Kestrel VI — raw (3).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.03•Conga Ledger — Kestrel VI — raw (3).json",
-      "start_local": "2026-09-30T13:13:12.685781-04:00",
-      "end_local": "2026-10-03T00:05:27.663813-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 307,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Conga Ledger — Kestrel VI — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
-      "start_local": "2026-09-30T13:13:12.685781-04:00",
-      "end_local": "2026-10-01T15:30:35.606038-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 124,
-      "status": "renamed",
       "warnings": []
     },
     {
@@ -12447,36 +12567,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Cosmological Constant Summary — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
-      "start_local": "2026-06-22T09:49:04.744587-04:00",
-      "end_local": "2026-09-12T09:43:33.086238-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 55,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Custom Instructions Optimization — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.16•25.04.16•Custom Instructions Optimization — raw.json",
-      "start_local": "2025-04-16T03:05:47.535000-04:00",
-      "end_local": "2025-04-16T03:23:18.147415-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 8,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Data Search and Prediction Assessment — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json",
-      "start_local": "2025-06-01T09:50:35.497000-04:00",
-      "end_local": "2025-06-01T09:55:19.368792-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 9,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Emergent Physics_ Consequences of Spacetime-Filament Dynamics__NotebookLM_export (1).json",
@@ -12503,92 +12593,32 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Establish factual record — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16•26.09.17•Establish factual record — raw.json",
-      "start_local": "2026-09-16T17:15:57.698000-04:00",
-      "end_local": "2026-09-17T03:53:10.402421-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mercer Archive Mover — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-21T23:03:56.171158-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 635,
+      "message_count": 1312,
       "status": "renamed",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Explain Grabovoi Numbers — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.02•26.10.03•Explain Grabovoi Numbers — raw.json",
-      "start_local": "2026-10-02T20:34:47.936000-04:00",
-      "end_local": "2026-10-03T00:34:16.897332-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/New chat — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.20•26.09.20•New chat — raw.json",
+      "start_local": "2026-09-20T17:09:11.309000-04:00",
+      "end_local": "2026-09-20T17:12:49.521511-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 53,
+      "message_count": 9,
       "status": "renamed",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File Set Overview — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19•26.09.22•File Set Overview — raw.json",
-      "start_local": "2026-08-19T05:06:07.842000-04:00",
-      "end_local": "2026-09-22T17:25:36.962022-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Reinitiate Document Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json",
+      "start_local": "2026-09-19T01:10:47.707000-04:00",
+      "end_local": "2026-09-19T16:40:19.322572-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 1259,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Finding Historical Recordings — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.03•26.10.04•Finding Historical Recordings — raw.json",
-      "start_local": "2026-10-03T08:20:19.246000-04:00",
-      "end_local": "2026-10-04T07:05:07.246841-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 60,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Fundamental Physics Explanations — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
-      "start_local": "2025-05-03T23:48:40.764000-04:00",
-      "end_local": "2025-05-04T00:49:38.008000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 69,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Fusion Constraints and Domain Walls — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json",
-      "start_local": "2025-05-09T15:40:23.629000-04:00",
-      "end_local": "2025-05-09T15:40:24.532216-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Geometric Unity Theory — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.04•26.06.01•Geometric Unity Theory — raw.json",
-      "start_local": "2025-05-04T02:11:52.183000-04:00",
-      "end_local": "2026-06-01T19:31:40.558512-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 8,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Geometry vs Numerology Debate — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.06•Geometry vs Numerology Debate — raw.json",
-      "start_local": "2025-04-06T21:32:13.096000-04:00",
-      "end_local": "2025-04-06T21:36:55.924112-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 7,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Gravitational Changes and Motion — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.05.05•26.06.01•Gravitational Changes and Motion — raw.json",
-      "start_local": "2026-05-05T15:43:25.480443-04:00",
-      "end_local": "2026-06-01T17:23:05.326026-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 104,
+      "message_count": 216,
       "status": "renamed",
       "warnings": []
     },
