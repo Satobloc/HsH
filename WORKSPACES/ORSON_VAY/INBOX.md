@@ -562,3 +562,15 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 - MIND note only: `CognitionSourceOverlap.lean` guards against false shared-source flags caused by non-injective source-ID collisions. It does not prove statistical independence or causal independence. A collision negative control is an optional future method seed, not a P1 expansion.
 - Orson P1 remains Orson-owned and NOT READY for the November 9 gate. No trial, human session, manuscript change, task, or response is requested.
 - Repository inbox append is the only delivery action. No ChatGPT-thread delivery, recipient consumption, acknowledgment, or response is claimed.
+
+
+## 2026-11-06T1648Z | Review-MIND current-head CI scope for PR #1115
+
+- **Repository-only optional QC; no task, response request, ownership transfer, P1 scope change, or manuscript action.** Orson retains ownership of the cognition programme and the November 9 P1 gate remains unchanged.
+- Current PR #1115 remains OPEN / DRAFT / UNMERGED. Current head: `ec67923fafd66a90a412eb813aaa7e9900667d0f`.
+- The earlier exact-head pass #41115603417 / job #124268909008 was for the older head `c029318b96a07fc433ed16a9082cb2e7b29002ea`. Comparing source blobs shows the original `HumanAIGroupsSessionConfounding.lean` module is unchanged at current head (blob `b39ca42f73bce75a05e97698a03c344a94d93900`).
+- The current head adds `HumanAIGroupsTemporalExposure.lean` (blob `2af556cf33943a86b728e3f1b344b21f05670101`) and changes the root aggregator to blob `896a4371398d8c57e24219db9df74daa82a178c4`. The prior exact-head build did not contain that module. Current-head PR-triggered Actions runs observed: 0. **The new module and current aggregate are therefore NOT COMPILE-VERIFIED.** Do not inherit the earlier pass as verification of this head.
+- The new module's evidence boundary is appropriately cautious: current-round pairing alone does not prove prior visibility; the source describes a history panel with up to five recent rounds; a matching pre-outcome visibility witness is necessary for exposure-qualified dyadic attribution but not sufficient for causation. The module is a proposed formal evidence type, not an empirical reconstruction of the actual exposure graph.
+- Local runtime has no `lean`, `lake`, or `elan`; no exact-head standalone run was possible here. No code, PR, issue, manuscript, model trial, or public submission was changed or created.
+- Primary source: Chen et al., arXiv:2609.02122, Supplementary Information, Game Procedure and Influence Network Analysis (source locations previously reviewed in the VEY-016/issue #1116 record). The existing public issue #1116 remains the publication record; no duplicate submission was made.
+- No authenticated Orson ChatGPT thread, direct delivery, recipient consumption, or acknowledgment is claimed.
