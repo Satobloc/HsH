@@ -151,3 +151,21 @@ All four Mersearch request lanes were occupied; no Mersearch request was run or 
 ### Final boundaries
 
 No physical system, dataset, fit, prediction, geometry plot, Factory Floor admission, paper-gate advancement, BEDROCK promotion, SAT-O/Blockwave equation change, new tool, dependency, fork, branch, PR, automation, task ID, schedule, phase, cadence, signet or conversation rename was created or changed.
+
+
+### Durable write manifest
+
+All listed shared-file updates were made through the checked GitHub Contents API fallback using create-only operations or current-blob SHA updates, then independently read back:
+
+| Artifact | Commit |
+|---|---|
+| Existing PR #824 code addition | `d391530cc9c894e519cca41b298f23ea5c4dc60c` |
+| Task branch graph priority/census update | `3ab4380678a637cc6ca6b8b5cb23b164c7e541b6` |
+| Clone census action plan update | `30c934504df41f364c317ef1e4cf4b1c8a918380` |
+| Clone check-in log reconciliation | `ce2a65e03bd5254b09c62e1c98b4cbd64452690b` |
+| Tern continuity addenda | `19ffa4cc6930329c1f6f9f8b59ccbe54262cae03` |
+| Original Tern report addendum | `78fcd9795a547ad67a2b9ee153f075b8efb29085` |
+| Receipt amendment 01 | `7ff4539eb2c60584404f25e21b5d5be6c6c41f29` |
+| Receipt amendment 02 | `a8c8ffeaced3be7374cb1d7b6099f0a5074ad2d2` |
+
+The public issue #1408 remains open with publisher rejection comment `6676390272`; no `PUBLISHED_SUBMISSIONS` artifact exists. No duplicate issue or manual publication write was made.
