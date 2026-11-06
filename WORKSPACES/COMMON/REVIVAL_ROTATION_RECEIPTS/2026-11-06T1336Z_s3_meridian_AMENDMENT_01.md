@@ -16,12 +16,12 @@ Both :36 and :48 automations remain enabled under their existing IDs and exact h
 
 The optional handoff is:
 `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1336Z_from_s3_to_s4_mercer.md`
-- Final blob after inbox-status update: `205606895eaeb30574bcbdab281bc96c1dfc8c68`.
+- Final blob after inbox-status update: `1d81860f75986ce0970afcf978f1846eebf8cad9`.
 
 Mercer's existing inbox entry:
 `WORKSPACES/MERCER/INBOX.md`
 - Entry ID: `MERIDIAN-20261106T1336Z-MERCER-001`.
-- Final blob after exact readback/status update: `a3938a5e0400915becd7f0a52a5a072d90f34c83`.
+- Final blob after exact readback/status update: `97c6312bfcf2dc4f4141b823dabbcbf2f7512985`.
 - `github_inbox_delivery=VERIFIED`.
 
 Meridian's current-work card:
