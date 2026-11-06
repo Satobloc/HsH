@@ -274,3 +274,16 @@ Publication status amendment: issue #1240 is now **PUBLISHED_VERIFIED**. Publish
 - No experiment, model call, human session, new data, Lean code, physical calculation, P1 change, task change or theory promotion.
 - Next unrelated-reading cursor: Jacoby, *Practical Talks by an Astronomer*, line 1181. FIE rereview due November 10.
 - Optional handoff to Hale h621:s0 is late repository context only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-06T12:00Z | h636:s0 | additive source-genealogy amendment
+
+The same-key Common receipt and existing Hale handoff were already present, so no duplicate receipt, report issue, or handoff was created. Added:
+- Common receipt AMENDMENT_03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1200Z_s0_calder_AMENDMENT_03.md`
+- Hale handoff AMENDMENT_02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1200Z_from_s0_to_s1_hale_AMENDMENT_02.md`
+
+The new source pass distinguishes the 2023 *Spacetime Curvature and Rigidity* raw conversation from the 2024 *DIMENSIONAL GRAVITY* raw conversation; preserves the 2023 duplicate-snapshot relationship; treats RMS SAT.txt as a flattened derivative; verifies the 2024 source IDs in the full mapping; and keeps SAT-O1, compact Blockwave, and Blockwave Ideal Model as separate historical artifacts.
+
+The amendment adds the conditional intersection-dimension map, the two-standard-normalization reading (conversion map still missing), symbol/terminology hazards, and the updated PR #873 CI status. Run #42153410233 succeeded on the merge ref and supersedes the earlier #416908 failure; exact-head-only verification remains outstanding.
+
+No physical calculation, CODATA scoring, theory promotion, public issue, PR, branch, task, or schedule change. No authenticated Calder thread or cross-thread delivery is claimed. Next geometry cursor: define the finite-core embedding, singular support, timesheet, and global-to-local maps before further formalization.
