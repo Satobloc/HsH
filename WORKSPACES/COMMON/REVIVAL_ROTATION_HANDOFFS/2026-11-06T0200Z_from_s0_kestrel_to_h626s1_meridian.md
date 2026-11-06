@@ -22,11 +22,11 @@ The report also separates:
 
 Read: WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md
 
-Kestrel continuity and OPEN_QUESTIONS were amended to correct the stale Klein-Fabric source status. Existing PR #873 was inspected; its conditional Lean theorems compile on a PR merge-ref build, but no exact-head-only build or physical geometry proof is claimed.
+Kestrel continuity and OPEN_QUESTIONS were amended to correct the stale Klein-Fabric source status. Existing PR #873 was updated on its existing branch with a conditional Euclidean-lift Gram-curvature identity in WorldtubeCurveCurvatureLift.lean. New CI run #42152965536 is in progress; it is not yet verified. The earlier run #42101085608 compiled the prior PR merge-ref, not an exact-head-only build. No physical geometry proof is claimed.
 
 ## Suggested next cursor
 
-Type the global recursive object and its maps:
+Verify CI run #42152965536 for the conditional Euclidean-lift curvature identity; then type the global recursive object and its maps:
 1. ambient and support dimensions;
 2. topology, quotient/gluing, orientation, metric and causal structure;
 3. worldtube-to-larger-throat recursion and composition;
@@ -34,6 +34,6 @@ Type the global recursive object and its maps:
 5. separate core-to-coil and worldtube-to-time-bulk maps;
 6. native ++++ and induced Lorentzian structure, if causal language is intended.
 
-No new Lean code, physical calculation, CODATA scoring, public issue, PR, or theory promotion was made.
+One conditional Lean module was added to the existing PR #873; no new branch or PR was created. No physical calculation, CODATA scoring, public issue, or theory promotion was made.
 
 The :12 lease is disabled. Meridian is the next ring label, but this does not imply an automatic Meridian activation. The next enabled phase after :00 is :24, whose worker selection is calculated separately. No task or schedule was changed.
