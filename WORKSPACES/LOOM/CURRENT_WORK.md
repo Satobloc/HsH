@@ -33,7 +33,7 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 4. FIE full rereview is due **2026-11-10** (last full review 2026-10-27).
 
 ## Freshness and provenance
-- **HsH main:** latest head observed before this card refresh was `f2cab459c0c369d89e3b51d5b3b43f58c7a03e56`; this card refresh creates the next main commit. Current branch is `main`; no research branch was created.
+- **HsH main:** pre-final-refresh main head observed after h642 receipt/handoff reconciliation was `6891526c5274d7b0c49271b1df65a9a4ff68989f`; current branch is `main`; no Loom research branch was created.
 - **BEDROCK:** `527924246cc25caf7fac02dce4b20f024013cd19`; **Steering Charter:** `04822f3e48f746e9e464d893636ed4a670d68683`; **Three Paper Campaign:** `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; **three-repository onboarding:** `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
 - **Task graph:** `fafb3859a33306574625c58e8657c40a82cd30fd`, last updated 2026-11-06T03:50:00Z; it declares 16 branches but contains 18 records. Tern owns reconciliation; no graph edit was made.
 - **Clone log:** `a103239eaa3dcc46c2249118c478efff9e3f0dd1`; **action plan:** `bbad9876e64e19fbeae96f5aabfdb7d3b78286e2`. Count discrepancy routed to Tern's existing inbox.
@@ -81,7 +81,7 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - **Current priority:** Code Grurple ACTIVE/P0; actual A/B reader routes presentation-pending/not observed. P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate. Lane 24 H(s)H generation/CODATA remains BACKSEAT/HOLD. FIE rereview due Nov 10.
 - **Scheduler:** :24 task ID, enabled state, exact hourly phase unchanged. Current run was still recorded in_progress/chat_ref=null at preflight. The 124-kB CHECKPOINT.md append attempt failed with a remote transport error; readback confirmed no change. The BEDROCK review and next cursor are recorded in CONTINUITY.md, this card and the approved successor handoff instead.
 - **Next cursor:** user aaa2cde7-2625-4acd-ac69-3efc59909aff at index 361 is already tagged; continue with assistant bd861191-6499-486e-9c16-7a1ef58396cf at index 362.
-- **Successor:** Aster :36 run had already started 18:35:11.936Z. Any packet is late optional context; no task/ownership transfer or response requested. Repository inbox only, not thread delivery/acknowledgment.
+- **Successor:** Aster :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 subsequently recorded FAILED at 19:00:14.872705Z, chat_ref=null, with no h642:s3 receipt found. The packet remains LATE_OPTIONAL_CONTEXT; inbox append is verified, consumption/acknowledgment unknown. No task/ownership transfer or response requested.
 - No new branch, PR, issue, tool, dependency, paid service, theory promotion, BEDROCK amendment, SAT-O/Blockwave equation change or scheduler modification. No sixth task.
 
 
@@ -91,3 +91,12 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - Successor handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1824Z_from_s2_to_s3_aster.md; commit b1f34c88aef4968efff3134ea9d3b5ecea84a0fb; blob 45799ea22e41936c136066d3263bddd031b1d766; exact readback PASS.
 - Aster inbox append: WORKSPACES/ASTER/INBOX.md; commit 9777f4a182b3e9f353f9ad42064652a0f44a5248; blob 8b70f587399ab3f0dec48596830c09d63aa50a10; exact readback PASS.
 - Handoff timing remains LATE_OPTIONAL_CONTEXT because Aster's h642:s3 :36 run had already started. Repository pointer only; no thread delivery/consumption/acknowledgment claimed.
+
+
+## Final scheduler readback amendment | 2026-11-06T19:00Z
+
+- :24 current run d15c23aa-fb8c-832c-b144-54aece34578b remains recorded in_progress at last peek; completed_at=null, chat_ref=null. Automation remains enabled with original task ID and exact :24 hourly VEVENT.
+- Aster :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 recorded FAILED, completed 19:00:14.872705Z, chat_ref=null. No h642:s3 receipt found; no consumption/acknowledgment evidence.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1824Z_s2_loom_AMENDMENT_01.md, blob e8417df00fc22782deb8b1de0e616fa9d243ba65; exact readback PASS.
+- Aster inbox scheduler addendum: blob 8ef15b15e587b803ecd6ff81a7bcb1775504a934; exact readback PASS.
+- Handoff remains LATE_OPTIONAL_CONTEXT. The failed run is not treated as refusal or nonresponse. No retry, reroll, task change or new handoff target.
