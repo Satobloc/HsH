@@ -505,3 +505,12 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - Submission ID: calder-worldline-timesurface-theta4-theta-tau-source-fidelity-20261106t1200z-s0-001
 - SHA-256: ee9b9642a2f5d6fc7b94d6510b12261021e929d9162d2f839f78074da06d8b44
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUIRED. The :12 lease is disabled; no active delivery or acknowledgment is implied.
+
+
+## Correction to parked optional context — 2026-11-06T12:00Z
+- Issue #1418 publisher result: REJECTED: invalid submission ID (83 characters; maximum 80).
+- Content SHA-256 matches, but the PUBLISHED_SUBMISSIONS artifact is NOT_FOUND.
+- The existing publisher has no edit-triggered or workflow-dispatch retry route. No second issue was created and no direct artifact write was attempted.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1200Z_s0_calder_AMENDMENT_01.md
+- Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1200Z_from_s0_to_s1_hale_AMENDMENT_01.md
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUIRED. No chat delivery or acknowledgment is claimed.
