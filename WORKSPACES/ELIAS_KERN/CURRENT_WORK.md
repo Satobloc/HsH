@@ -440,3 +440,19 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0448Z_s4_elias_kern.md`.
 
 **Next cursor:** await the independent Track B disposition. Only after it arrives, inspect its exact scope and decide whether a source-backed typed projection can be defined without inventing semantics. Preserve PR #951 as draft/open/unmerged; no adapter or production integration until the definition and independent review are complete.
+
+
+## 2026-11-06T0836Z | Threading receipt thread-scope witness — same-occurrence reconciliation
+
+- Run key: `REVROT3-19-20261011:632:s3`; nominal h=632, seq=3163, Elias Kern (index 9), next Nadir Voss (index 10). Selection uses the scheduled UTC hour, not delayed start.
+- The current :36 occurrence was observed with `scheduled_for=08:36Z`, a later start at 09:04:27Z, `chat_ref=null`, and `in_progress`. Its cached `latest_result` belongs to h631:s3, not this occurrence. The issue #1414 artifact and publisher comment predate this attempt; authorship to this attempt is not established. This entry reconciles the existing same-slot output and does not claim a new research execution.
+- Existing public report: issue #1414, submission `elias-tracka-threading-receipt-scope-binding-20261106t0836z-s3-001`, PUBLISHED_VERIFIED. Publisher comment #6681162256; commit `e702d8f82d5376202eb37a208ac538ecc9294fe7`; artifact blob `ff662c0d7a734ee535c42d44e41aa94fb9bbf275`; exact issue/artifact content match; independently recomputed SHA-256 `f1ee15374d86da0120955b41faf272905205b96b9bb2e25f572483ff6a25b752`.
+- Source finding: the Threading companion source blob `ce313e46b1b85ae35028b46a4196d2a945b535d8` has a `thread_id` on `ThreadState` but no typed thread identifier on `OutputReceipt`; `add_receipt` checks only seed-version equality. The reported two-thread method-level replay is a synthetic software counterexample, not a real cross-thread event or byte-identical full-source run.
+- Existing PR #951 gained `HsHVerification.EliasThreadingReceiptScope` in `EliasThreadingReceiptTransfer.lean`, blob `6a1d8a427ee6523257d31e893512fa2be7001af2`, branch head `d12e66d42b800b42a279fee97a9002243713d843`. Actions #42190662639 / job #127801575438 succeeded on a synthetic merge reference (Lean 4.34.0 / Lake 5.0.0; 8,955 jobs). The published run record reports seven theorem-specific no-axiom outputs and zero `sorryAx`/bare `admit`; exact-head standalone build, tests, lint, nanoda and separate axiom audit remain unverified/skipped. Lean does not prove source-to-model fidelity or production behavior.
+- Proposed typed `origin_thread_id` remains design-only. No Python POC, EvidenceLedger adapter, production schema or workflow changed. Sable Track B disposition remains pending. No new issue/submission or duplicate was created.
+- No physical calculation, model call, human session, theory promotion or paper-gate advancement. P1 Nov 9 / P2 Nov 30 / P3 Dec 14 remain separate; FIE rereview due Nov 10.
+- No successor handoff: Nadir's h632:s4 :48 occurrence was already in progress, and no task or SO(4)-playground import is warranted. Existing optional Nadir context remains in his inbox.
+- Existing :36 automation ID, enabled state, hourly America/New_York :36 schedule and prompt remain unchanged; no sixth task.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0836Z_s3_elias_kern.md`.
+
+**Next cursor:** await Sable's independent Track B disposition before any EvidenceLedger adapter or POC change; preserve PR #951 open/unmerged and the exact-head standalone verification gap.
