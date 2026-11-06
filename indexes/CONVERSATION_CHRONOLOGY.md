@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-11-06T08:50:46.625535+00:00`
+- Generated: `2026-11-06T09:22:46.180340+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **878**
+- Dated conversation exports: **880**
 - Skipped non-conversation or unparseable files: **414**
 - Exact duplicate-content groups: **115**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -110,6 +110,8 @@
 | 2025-04-13 | 2026-06-15 | [Physics Beyond Mathematics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 489 |  |  |
 | 2025-04-13 | 2026-06-15 | [Physics Beyond Mathematics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 500 |  | 1 user/assistant messages lacked timestamps |
 | 2025-04-16 | 2025-04-16 | [Custom Instructions Optimization](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.16%E2%80%A225.04.16%E2%80%A2Custom%20Instructions%20Optimization%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 8 |  |  |
+| 2025-04-17 | 2025-04-17 | [Summarizing Chat Logs](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17%E2%80%A225.04.17%E2%80%A2Summarizing%20Chat%20Logs%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 57 |  |  |
+| 2025-04-17 | 2025-04-17 | [Truths and Perspectives Explored](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17%E2%80%A225.04.17%E2%80%A2Truths%20and%20Perspectives%20Explored%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 36 |  |  |
 | 2025-04-24 | 2025-04-25 | [4D Body Mind Model](../DEVELOPMENT_FULL_CONVOS/25.04.24%E2%80%A225.04.25%E2%80%A24D%20Body%20Mind%20Model%20%E2%80%94%20raw.json) | `.` | 76 |  |  |
 | 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 105 | D51 |  |
 | 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 105 | D51 |  |

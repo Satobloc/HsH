@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-06T08:49:43.563378+00:00",
+  "generated_at_utc": "2026-11-06T09:21:56.815156+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 875,
+    "unchanged": 878,
     "skipped": 414,
-    "renamed": 3
+    "renamed": 2
   },
   "records": [
     {
@@ -12477,12 +12477,42 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-21T23:03:56.171158-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1312,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16•26.09.17•Establish factual record — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16•26.09.17•Establish factual record — raw.json",
       "start_local": "2026-09-16T17:15:57.698000-04:00",
       "end_local": "2026-09-17T03:53:10.402421-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 635,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json",
+      "start_local": "2026-09-19T01:10:47.707000-04:00",
+      "end_local": "2026-09-19T16:40:19.322572-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 216,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.20•26.09.20•New chat — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.20•26.09.20•New chat — raw.json",
+      "start_local": "2026-09-20T17:09:11.309000-04:00",
+      "end_local": "2026-09-20T17:12:49.521511-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 9,
       "status": "unchanged",
       "warnings": []
     },
@@ -12593,32 +12623,22 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mercer Archive Mover — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
-      "start_local": "2026-09-12T21:37:57.274539-04:00",
-      "end_local": "2026-09-21T23:03:56.171158-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Summarizing Chat Logs — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Summarizing Chat Logs — raw.json",
+      "start_local": "2025-04-17T00:36:16.456000-04:00",
+      "end_local": "2025-04-17T02:37:46.329000-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 1312,
+      "message_count": 57,
       "status": "renamed",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/New chat — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.20•26.09.20•New chat — raw.json",
-      "start_local": "2026-09-20T17:09:11.309000-04:00",
-      "end_local": "2026-09-20T17:12:49.521511-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Truths and Perspectives Explored — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Truths and Perspectives Explored — raw.json",
+      "start_local": "2025-04-17T15:48:44.666000-04:00",
+      "end_local": "2025-04-17T16:50:47.044792-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 9,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Reinitiate Document Analysis — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json",
-      "start_local": "2026-09-19T01:10:47.707000-04:00",
-      "end_local": "2026-09-19T16:40:19.322572-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 216,
+      "message_count": 36,
       "status": "renamed",
       "warnings": []
     },
