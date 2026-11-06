@@ -1,27 +1,36 @@
 import Mathlib
 
 /-!
-Assistant-proposed, source-derived workflow contract (2026-11-05).
+Assistant-proposed, source-derived workflow contract (2026-11-05; native-path
+refinement 2026-11-06).
 
 The M87 source audit distinguishes three observation domains:
 * EHT multi-station VLBI correlated visibility products;
 * ALMA connected-element visibility products;
 * reconstructed images.
 
-A model prediction and an observation may be compared directly only when
-they inhabit the same declared measurement domain. A cross-domain comparison
-must carry an explicit transformation into the target domain.
+A comparison must preserve the measurement domain. There are two distinct
+routes:
 
-This module formalizes only that type-level workflow contract. It does NOT
-assert that any actual EHT/ALMA bridge exists, that a supplied bridge is
-physically valid, or that calibration, sampling, covariance, acquisition
-independence, or an H(s)H source-to-field map has been established. No
-physical fixture, measurement, parameter, or numerical value is introduced.
+1. Native-domain prediction: predict a common latent field, then apply the
+   target instrument/readout operator and compare with an observation in that
+   same native mode. This is the preferred route when the model can predict
+   each instrument's native observable.
+2. Cross-domain transfer: transform a prediction or observed product from one
+   declared mode into another. This requires an explicit bridge object.
+
+The type-level contracts below do not establish that any physical forward map,
+instrument operator, or cross-mode bridge exists or is valid. They do not
+validate calibration, sampling, covariance, acquisition independence, units,
+uncertainty propagation, source-to-field mapping, or H(s)H. Those require
+source-locked measurement records and independent empirical review. No
+physical fixture, measurement, fitted parameter, or numerical value is
+introduced.
 -/
 
 namespace HsHVerification.MeasurementDomainCompatibility
 
-universe u v
+universe u v w
 
 inductive MeasurementMode
   | ehtVlbiVisibility
@@ -29,8 +38,8 @@ inductive MeasurementMode
   | reconstructedImage
 deriving DecidableEq, Repr
 
-/-- Payload types remain abstract and mode-indexed; this file supplies no
-    invented or simulated physical data. -/
+/-- Payload types remain abstract and mode-indexed; no physical data are
+    invented or simulated here. -/
 structure ForwardMap (Payload : MeasurementMode → Type u)
     (State : Type v) (mode : MeasurementMode) where
   predict : State → Payload mode
@@ -49,40 +58,88 @@ def matchedComparisonInput {Payload : MeasurementMode → Type u}
     (h : MatchedHoldout Payload State mode) : Payload mode × Payload mode :=
   (h.forward.predict h.state, h.observed)
 
-/-- A cross-mode bridge is an explicit transformation from one declared
-    observation payload type into another. Its existence does not establish
-    its calibration or physical validity. -/
-structure ModeBridge (Payload : MeasurementMode → Type u)
-    (from to : MeasurementMode) where
-  transform : Payload from → Payload to
+/-- A model predicts a common latent field before instrument-specific
+    measurement/readout operators are applied. -/
+structure LatentFieldModel (State : Type v) (Field : Type w) where
+  predictField : State → Field
 
-/-- Cross-mode comparison is admitted only with a declared bridge. -/
-structure CrossModeHoldout (Payload : MeasurementMode → Type u)
-    (State : Type v) (from to : MeasurementMode) where
-  forward : ForwardMap Payload State from
+/-- Each native measurement mode has its own operator from the common field
+    into that mode's payload type. Real instances require source-defined,
+    versioned instrument and calibration records outside this abstract type. -/
+structure NativeMeasurementOperator (Field : Type w)
+    (Payload : MeasurementMode → Type u) where
+  observe : (mode : MeasurementMode) → Field → Payload mode
+
+/-- A native-mode holdout compares the latent model after projection through
+    the target mode's own operator. It needs no cross-mode bridge. -/
+structure NativeModeHoldout (Payload : MeasurementMode → Type u)
+    (State : Type v) (Field : Type w) (mode : MeasurementMode) where
+  model : LatentFieldModel State Field
+  operator : NativeMeasurementOperator Field Payload
   state : State
-  bridge : ModeBridge Payload from to
-  observed : Payload to
+  observed : Payload mode
+
+/-- Prediction produced directly in the requested native measurement mode. -/
+def nativeModePrediction {Payload : MeasurementMode → Type u}
+    {State : Type v} {Field : Type w}
+    (model : LatentFieldModel State Field)
+    (operator : NativeMeasurementOperator Field Payload)
+    (mode : MeasurementMode) (state : State) : Payload mode :=
+  operator.observe mode (model.predictField state)
+
+/-- Native comparison: both entries inhabit the observation's own mode. -/
+def nativeModeComparisonInput {Payload : MeasurementMode → Type u}
+    {State : Type v} {Field : Type w} {mode : MeasurementMode}
+    (h : NativeModeHoldout Payload State Field mode) : Payload mode × Payload mode :=
+  (nativeModePrediction h.model h.operator mode h.state, h.observed)
+
+/-- The native path compares the mode-specific prediction with the
+    observation without requiring a cross-domain transformation. -/
+theorem native_mode_holdout_compares_in_native_domain
+    {Payload : MeasurementMode → Type u}
+    {State : Type v} {Field : Type w} {mode : MeasurementMode}
+    (h : NativeModeHoldout Payload State Field mode) :
+    (nativeModeComparisonInput h).1 =
+      nativeModePrediction h.model h.operator mode h.state ∧
+    (nativeModeComparisonInput h).2 = h.observed := ⟨rfl, rfl⟩
+
+/-- A cross-mode bridge is an explicit transformation between two declared
+    observation payload types. Its existence does not establish calibration
+    or physical validity. -/
+structure ModeBridge (Payload : MeasurementMode → Type u)
+    (sourceMode targetMode : MeasurementMode) where
+  transform : Payload sourceMode → Payload targetMode
+
+/-- Cross-mode comparison is admitted only with a declared bridge. Use this
+    route only when a native target-mode prediction is unavailable or when
+    transferring an observed product is itself the defined operation. -/
+structure CrossModeHoldout (Payload : MeasurementMode → Type u)
+    (State : Type v) (sourceMode targetMode : MeasurementMode) where
+  forward : ForwardMap Payload State sourceMode
+  state : State
+  bridge : ModeBridge Payload sourceMode targetMode
+  observed : Payload targetMode
 
 /-- The transformed prediction and observation now inhabit the target mode. -/
 def crossModeComparisonInput {Payload : MeasurementMode → Type u}
-    {State : Type v} {from to : MeasurementMode}
-    (h : CrossModeHoldout Payload State from to) : Payload to × Payload to :=
+    {State : Type v} {sourceMode targetMode : MeasurementMode}
+    (h : CrossModeHoldout Payload State sourceMode targetMode) :
+    Payload targetMode × Payload targetMode :=
   (h.bridge.transform (h.forward.predict h.state), h.observed)
 
 /-- The cross-mode contract necessarily carries an explicit bridge object. -/
 theorem cross_mode_holdout_requires_explicit_bridge
     {Payload : MeasurementMode → Type u}
-    {State : Type v} {from to : MeasurementMode}
-    (h : CrossModeHoldout Payload State from to) :
-    Nonempty (ModeBridge Payload from to) := ⟨h.bridge⟩
+    {State : Type v} {sourceMode targetMode : MeasurementMode}
+    (h : CrossModeHoldout Payload State sourceMode targetMode) :
+    Nonempty (ModeBridge Payload sourceMode targetMode) := ⟨h.bridge⟩
 
 /-- The model prediction reaches the target payload type only through the
     bridge stored in the cross-mode holdout contract. -/
 theorem cross_mode_prediction_is_transformed_into_target_domain
     {Payload : MeasurementMode → Type u}
-    {State : Type v} {from to : MeasurementMode}
-    (h : CrossModeHoldout Payload State from to) :
+    {State : Type v} {sourceMode targetMode : MeasurementMode}
+    (h : CrossModeHoldout Payload State sourceMode targetMode) :
     (crossModeComparisonInput h).1 =
       h.bridge.transform (h.forward.predict h.state) := rfl
 
@@ -94,6 +151,7 @@ theorem matched_holdout_compares_in_one_domain
     (matchedComparisonInput h).1 = h.forward.predict h.state ∧
     (matchedComparisonInput h).2 = h.observed := ⟨rfl, rfl⟩
 
+#print axioms native_mode_holdout_compares_in_native_domain
 #print axioms cross_mode_holdout_requires_explicit_bridge
 #print axioms cross_mode_prediction_is_transformed_into_target_domain
 #print axioms matched_holdout_compares_in_one_domain
