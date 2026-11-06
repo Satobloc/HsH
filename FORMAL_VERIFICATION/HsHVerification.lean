@@ -17,6 +17,18 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.TernDimReadout
+import HsHVerification.TernP1ContrapositiveRekey
+import HsHVerification.TernRelayAdoptionAudit
+import HsHVerification.TernSchedulerEvidence
+import HsHVerification.TernSchedulerInferenceGate
+import HsHVerification.TernRelayGapObservation
+import HsHVerification.TernH492ExecutionAndHandoffEvidence
+import HsHVerification.TernH496DispatchEvidence
+import HsHVerification.TernH511Lane3DispatchEvidence
+import HsHVerification.TernH515SchedulerOverlapEvidence
+import HsHVerification.TernH591SchedulerEvidence
+import HsHVerification.TernH625SchedulerObservationEvidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
