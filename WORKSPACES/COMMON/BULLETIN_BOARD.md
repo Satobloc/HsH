@@ -301,3 +301,53 @@ The visible series show sharp late-period rises for several terms, but these are
 **Scheduling/authority:** This pin creates no new automation, does not alter existing task IDs/cadences/leases, and does not assign the audit to a worker. The first coarse pass should be put into the near-term queue when the current research lane reaches a suitable checkpoint.
 
 ---
+
+
+### 2026-11-06 follow-on — likely omitted architecture/control-plane candidates
+
+A quick read of the current phase-steering document and live `WORKSPACES/COMMON` directory surfaced additional governing surfaces that were not in Nathan's supplied list. Add these to the later coarse triage set; **their inclusion is a discovery lead, not a claim that each is current, necessary, or healthy.**
+
+#### Core authority, steering, task graph, and scheduler
+
+- [BEDROCK](https://github.com/Satobloc/HsH/blob/main/BEDROCK.md)
+- [Steering Charter](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/STEERING_CHARTER_2026-10-26.md)
+- [Phase Steering](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PHASE_STEERING_2026-10-26.md)
+- [Three Paper Campaign](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md)
+- [Workflow Branching Map](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md)
+- [Task Branch Graph](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json)
+- [Instance Registry](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/INSTANCE_REGISTRY.md)
+- [Instance Registry / Execution Leases](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md)
+- [Scheduler Authority Must Read](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/SCHEDULER_AUTHORITY_MUST_READ.md)
+- [Automation Workflow Control](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md)
+- [Control Plane Reconciliation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/CONTROL_PLANE_RECONCILIATION_2026-09-20.md)
+- [Repository Automation / Self-Clone / Site Audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REPOSITORY_AUTOMATION_SELF_CLONE_AND_SITE_AUDIT_2026-10-30.md)
+
+#### Onboarding, orientation, and retrieval/tool architecture
+
+- [Common README](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/README.md)
+- [Current Workflow Orientation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md)
+- [Current Workflow Orientation v2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md)
+- [Three-repository Instance Onboarding](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md)
+- [New Instance Start Here](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md)
+- [Onboarding Audit Queue](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/ONBOARDING_AUDIT_QUEUE.md)
+- [Onboarding Review State](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/ONBOARDING_REVIEW_STATE.md)
+- [Onboarding Changelog](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/ONBOARDING_CHANGELOG.md)
+- [README Onboarding Pointer](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/README_ONBOARDING_POINTER.md)
+- [Mersearch Worker Start Here](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md)
+- [Mersearch Research Platform](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/MERSEARCH_RESEARCH_PLATFORM.md)
+- [Mersearch Releases](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/MERSEARCH_RELEASES.md)
+- [Archive Tool Priority Protocol](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REFERENCE_DESK/ARCHIVE_TOOL_PRIORITY_PROTOCOL_2026-10-23.md)
+- [Toolbox Toolkit Router](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REFERENCE_DESK/TOOLBOX_TOOLKIT_ROUTER_2026-10-23.md)
+- [Reference Desk README](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REFERENCE_DESK/README.md)
+
+#### Strategy, project intake, and publishing standards
+
+- [Old Plan Recovery Sweep](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md)
+- [Nathan Wants Ledger](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_WANTS_LEDGER.md)
+- [Nathan Direct Workflow State](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md)
+- [Nathan Wants Intake Standard](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md)
+- [Paper Publishing](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PAPER_PUBLISHING.md)
+- [Live New Papers Standard](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md)
+- [Live Paper Proposals](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/LIVE_PAPER_PROPOSALS.md)
+
+These candidates expose an important possible omission in the original list: **the active control plane itself** (authority, task graph, execution leases, scheduler, onboarding, retrieval router, and project-intake/publishing standards). The triage should inspect those first and resolve which document is authoritative where multiple versions or parallel registers exist.
