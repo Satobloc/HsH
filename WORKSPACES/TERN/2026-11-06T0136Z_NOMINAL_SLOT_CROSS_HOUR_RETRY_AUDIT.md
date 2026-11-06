@@ -169,3 +169,10 @@ All listed shared-file updates were made through the checked GitHub Contents API
 | Receipt amendment 02 | `a8c8ffeaced3be7374cb1d7b6099f0a5074ad2d2` |
 
 The public issue #1408 remains open with publisher rejection comment `6676390272`; no `PUBLISHED_SUBMISSIONS` artifact exists. No duplicate issue or manual publication write was made.
+
+
+## Build-scope correction — 2026-11-06T03:55Z
+
+A fresh PR metadata readback shows PR #824's current base branch `infra/lean4-verification-20261023` at `61cc8b65ffed70296e0121dbae067892a79c81d4`. The successful run's merge-reference commit `ddbfbb5458b75810849b2776f84c91979c547073` instead merged head `d391530cc9c894e519cca41b298f23ea5c4dc60c` into `c7dc2c483f50ae03fc7a7c530829170135e18d92`. GitHub compare reports `c7dc2c` is four commits ahead of the currently reported base `61cc8b`; the latter is the merge base. The reason for this base-reference discrepancy is unknown and no branch was modified by this audit.
+
+Therefore the Lean result is **MERGE-REF BUILD SUCCESS FOR THE LOGGED REF ONLY**. It is not evidence that the current PR base/head combination or exact head builds. Exact-head standalone verification remains unverified, and a fresh merge-ref run against the current base is still needed before stronger verification claims.
