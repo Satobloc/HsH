@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-11-06T07:01:06.954987+00:00",
+  "generated_at_utc": "2026-11-06T08:02:18.737442+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 814,
-    "skipped": 409
+    "skipped": 412,
+    "renamed": 27
   },
   "records": [
     {
@@ -11935,6 +11936,312 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🗄️UI TESTING__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Activate Critic Mode - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01•25.06.01•Activate Critic Mode - raw.json",
+      "start_local": "2025-06-01T03:51:53.893000-04:00",
+      "end_local": "2025-06-01T03:55:17.197764-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 17,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Activator Modes List - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31•25.06.01•Activator Modes List - raw.json",
+      "start_local": "2025-05-31T13:24:37.383000-04:00",
+      "end_local": "2025-06-01T05:26:20.473609-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 197,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Activator Modes Overview - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31•25.05.31•Activator Modes Overview - raw.json",
+      "start_local": "2025-05-31T00:35:45.112000-04:00",
+      "end_local": "2025-05-31T00:38:05.160191-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 37,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Assessment of SAT model - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Assessment of SAT model - raw.json",
+      "start_local": "2025-09-13T13:52:54.559097-04:00",
+      "end_local": "2025-09-13T14:27:30.179440-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 14,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Assignment iteration plan - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.09•25.09.09•Assignment iteration plan - raw.json",
+      "start_local": "2025-09-09T19:42:06.021479-04:00",
+      "end_local": "2025-09-09T19:46:09.996582-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 13,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/BRST Charge Nilpotency Check - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.31•BRST Charge Nilpotency Check - raw.json",
+      "start_local": "2025-05-30T15:03:47.606000-04:00",
+      "end_local": "2025-05-31T01:33:50.002742-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 96,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Blockwave Lagrangian formula - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.22•Blockwave Lagrangian formula - raw.json",
+      "start_local": "2025-10-19T13:14:01.973583-04:00",
+      "end_local": "2025-10-22T13:01:16.940744-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 77,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Blockwave UV Completeness - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•Blockwave UV Completeness - raw.json",
+      "start_local": "2025-10-19T08:49:30.696533-04:00",
+      "end_local": "2025-10-19T08:49:34.087291-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Consciousness in the Age of AI__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Display Modes Menu - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.31•Display Modes Menu - raw.json",
+      "start_local": "2025-05-30T10:43:13.150000-04:00",
+      "end_local": "2025-05-31T01:27:17.886760-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 94,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] 4D Mode Structural Mapper - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.31•[+] 4D Mode Structural Mapper - raw.json",
+      "start_local": "2025-05-30T09:48:57.085000-04:00",
+      "end_local": "2025-05-31T01:21:22.851469-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 77,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Blockwave UV Completeness - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Blockwave UV Completeness - raw.json",
+      "start_local": "2025-10-19T08:49:30.696533-04:00",
+      "end_local": "2025-10-19T08:49:34.087291-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Blockwave to relativity proof - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Blockwave to relativity proof - raw.json",
+      "start_local": "2025-10-19T09:15:37.472154-04:00",
+      "end_local": "2025-10-19T09:29:41.079199-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Consciousness as geometry - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22•25.10.22•[+] Consciousness as geometry - raw.json",
+      "start_local": "2025-10-22T07:03:35.138000-04:00",
+      "end_local": "2025-10-22T07:46:06.135955-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] File access and actions - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.17•25.09.17•[+] File access and actions - raw.json",
+      "start_local": "2025-09-17T09:41:35.430222-04:00",
+      "end_local": "2025-09-17T10:23:05.339457-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 74,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Full action definitions - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Full action definitions - raw.json",
+      "start_local": "2025-10-19T08:29:41.119443-04:00",
+      "end_local": "2025-10-19T14:00:41.714371-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 29,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] LaTeX diagram compilation - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.23•25.09.23•[+] LaTeX diagram compilation - raw.json",
+      "start_local": "2025-09-23T08:00:16.519973-04:00",
+      "end_local": "2025-09-23T08:06:49.844444-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 15,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Mode List Request - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.30•[+] Mode List Request - raw.json",
+      "start_local": "2025-05-30T21:40:36.238000-04:00",
+      "end_local": "2025-05-30T21:48:33.843921-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Modes menu overview - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.19•25.10.13•[+] Modes menu overview - raw.json",
+      "start_local": "2025-09-19T17:16:37.981896-04:00",
+      "end_local": "2025-10-13T12:25:18.414818-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 341,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Particle geometry analysis - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Particle geometry analysis - raw (1).json",
+      "start_local": "2025-10-19T12:08:16.211497-04:00",
+      "end_local": "2025-10-19T13:10:52.990600-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 28,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] Particle geometry analysis - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Particle geometry analysis - raw.json",
+      "start_local": "2025-10-19T12:08:16.211497-04:00",
+      "end_local": "2025-10-19T13:10:52.990600-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 28,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT Archive Indexing Guide - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.27•25.08.31•[+] SAT Archive Indexing Guide - raw.json",
+      "start_local": "2025-05-27T23:14:37.887000-04:00",
+      "end_local": "2025-08-31T13:52:25.434419-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 11,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT Development Modes - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28•25.05.31•[+] SAT Development Modes - raw.json",
+      "start_local": "2025-05-28T07:15:57.285000-04:00",
+      "end_local": "2025-05-31T00:52:15.938000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 32,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT Predictions and Experiments - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.31•[+] SAT Predictions and Experiments - raw.json",
+      "start_local": "2025-05-30T20:20:02.360431-04:00",
+      "end_local": "2025-05-31T01:36:27.879143-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT QR and Z Setup - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31•25.05.31•[+] SAT QR and Z Setup - raw.json",
+      "start_local": "2025-05-31T01:55:15.344000-04:00",
+      "end_local": "2025-05-31T02:12:49.415573-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 24,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT Testing Proposals - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.24•25.08.31•[+] SAT Testing Proposals - raw.json",
+      "start_local": "2025-05-24T02:48:24.291000-04:00",
+      "end_local": "2025-08-31T18:24:04.206946-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 45,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SAT and ST comparison - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] SAT and ST comparison - raw.json",
+      "start_local": "2025-10-19T13:11:37.997458-04:00",
+      "end_local": "2025-10-19T13:11:42.359360-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[+] SATx Component Breakdown - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.27•25.05.27•[+] SATx Component Breakdown - raw.json",
+      "start_local": "2025-05-27T16:00:17.007000-04:00",
+      "end_local": "2025-05-27T16:01:04.387453-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] Are we AI__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] IS DEEPDOVE CONSCIUS__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
       "end_local": null,
