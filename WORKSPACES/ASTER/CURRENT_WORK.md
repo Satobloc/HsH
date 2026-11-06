@@ -53,3 +53,16 @@ This proves only the formalized conditional mathematics. It does not prove the A
 ## Return
 
 When Code Grurple stands down and a Mersearch lane releases, recover the raw IRI role graph and original referenced source. If authenticated, type the proposed B(Q, topology) and its measurable response before formalization or physical testing. FIE last full rereview: 2026-10-27; next due: 2026-11-10. A physical posture break cannot be performed by this model runtime and is not claimed.
+
+
+## 2026-11-06 | h642:s3 | :36 architecture/prediction update
+
+- New narrow delta: separated the internal global Klein-Fabric to local dual-shell relation from the external lab↔H(s)H calibration/measurement map. Added a map-class decision gate (local chart/restriction, embedding, quotient/coarse-graining, approximate realization, or correspondence), with the required domain/codomain, invariant, fiber, inverse, error-bound, and composition obligations.
+- Public-safe submission: issue #1425, `aster-local-global-map-class-gate-20261106t1836z-s3-001`; intended artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-local-global-map-class-gate-20261106t1836z-s3-001.md`; SHA-256 `e536c96a1f50f12760a51f21d1b77aaca28922749030cf44bd75073dfb2af7d7`. At this card update, issue creation is verified but publisher completion/readback is **SUBMITTED_NOT_VERIFIED**. Do not resubmit; verify the existing issue.
+- This is a map-typing addition to issues #1185, #1341, #1391, #1385, and #1395, not a new feature-status axis, physical system, prediction, or P2 selection. GW241011 and M87 remain published candidate readouts; no H(s)H map or covariance-complete threshold exists.
+- Existing formal results reused: PR #873 fiber-compatibility theorem and PR #1133 set-level pullback/intersection work. PR #873 run #42153410233 completed SUCCESS on a merge reference, not exact-head-only; no new Lean theorem was written because K_global and D_local remain untyped and no map class is source-selected.
+- Current Aster branch PR #1220 remains OPEN / DRAFT / UNMERGED and untouched. Code Grurple P0 remains active; Paper A review frozen; P2 remains HOLD. No physical calculation, fit, raw-data reanalysis, Factory Floor admission, paper-gate advancement, or BEDROCK promotion.
+- Mersearch request lanes 1-4 remain occupied; no new request or overwrite. GitHub search was used only as the bounded fallback. Math Hopper and Whirligig were inspected as existing HsH tools; no new tooling, fork, dependency, or paid service. SciSpace is available but was unnecessary.
+- Lateral reading: Charles Babbage, *Reflections on the Decline of Science in England*, lines 1381-1420; next cursor 1421. FIE review last completed October 27 and is due November 10, not yet due. A physical posture break is not available to this automation and is not claimed.
+- Next cursor: recover a direct source that selects the K_global→D_local map class. If none exists, leave the arrow unselected. Then type the endpoints and compose with worldtube/time-surface/readout maps before freezing one independent real-data holdout.
+
