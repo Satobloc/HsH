@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.KestrelMovingSlice
 import HsHVerification.KestrelIntersectionDimensionGate
 import HsHVerification.KestrelProjectedIncidence
+import HsHVerification.EpistemicEvidenceFiber
 import HsHVerification.KestrelConsensusIdentityBlindness
 import HsHVerification.KestrelFlagInformationCounts
 import HsHVerification.KestrelGaugeNormalizationGate
