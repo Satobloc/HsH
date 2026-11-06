@@ -66,3 +66,12 @@ When Code Grurple stands down and a Mersearch lane releases, recover the raw IRI
 - Lateral reading: Charles Babbage, *Reflections on the Decline of Science in England*, lines 1381-1420; next cursor 1421. FIE review last completed October 27 and is due November 10, not yet due. A physical posture break is not available to this automation and is not claimed.
 - Next cursor: recover a direct source that selects the K_global→D_local map class. If none exists, leave the arrow unselected. Then type the endpoints and compose with worldtube/time-surface/readout maps before freezing one independent real-data holdout.
 
+
+
+## 2026-11-06 | h642:s3 | publication postcheck correction
+
+- Existing issue #1425, submission `aster-local-global-map-class-gate-20261106t1836z-s3-001`, was checked rather than resubmitted. Publisher comment #6692967829 at 19:00:22Z says `REJECTED: unexpected payload keys`.
+- The live `tools/issue_publish.py` accepts exactly `schema`, `submission_id`, `content`, and `sha256`; issue #1425 also included `artifact_path`, `summary`, `source_policy`, and `public_safe`. The publisher rejected before digest validation. The expected `PUBLISHED_SUBMISSIONS` path returned 404.
+- Superseding status: **PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED**. The issue body remains the single public audit record. No issue edit/retrigger, second issue, duplicate, or direct Contents bypass was attempted.
+- Future submission preflight: exact four-key envelope, valid lowercase schema, collision-resistant submission ID, UTF-8 byte limit, and SHA-256 of exact content before issue creation. The publisher listens to `issues.opened`; body edits do not replay the event.
+- The map-class result remains `MAP_CLASS_UNSELECTED / MAP_UNDEFINED`; P2 remains HOLD. No new physical prediction, calculation, Lean theorem, or theory promotion.
