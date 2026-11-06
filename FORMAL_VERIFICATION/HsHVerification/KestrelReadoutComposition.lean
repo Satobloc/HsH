@@ -46,7 +46,47 @@ theorem upstream_noninjectivity_survives_readout
   apply hcomposed
   exact congrArg readout hxy
 
-/-- Two injective maps compose to an injective readout. -/
+/--
+Exact condition for an injective composite: the upstream map is injective,
+and the downstream readout is injective only on the range actually reached
+by the upstream map. Global injectivity of the readout is stronger than
+necessary.
+-/
+theorem composed_injectivity_iff_range_restriction
+    (sliceMap : A → B) (readout : B → C) :
+    Function.Injective (readout ∘ sliceMap) ↔
+      Function.Injective sliceMap ∧
+      Function.Injective (fun b : Set.range sliceMap => readout b.1) := by
+  constructor
+  · intro h
+    constructor
+    · intro x y hxy
+      apply h
+      exact congrArg readout hxy
+    · intro b₁ b₂ hread
+      rcases b₁.property with ⟨x, hx⟩
+      rcases b₂.property with ⟨y, hy⟩
+      have hxy : x = y := h <| by
+        calc
+          (readout ∘ sliceMap) x = readout (sliceMap x) := rfl
+          _ = readout b₁.1 := congrArg readout hx
+          _ = readout b₂.1 := hread
+          _ = readout (sliceMap y) := congrArg readout hy.symm
+          _ = (readout ∘ sliceMap) y := rfl
+      apply Subtype.ext
+      calc
+        b₁.1 = sliceMap x := hx.symm
+        _ = sliceMap y := congrArg sliceMap hxy
+        _ = b₂.1 := hy
+  · rintro ⟨hs, hr⟩ x y hxy
+    apply hs
+    have hsub :
+        (⟨sliceMap x, ⟨x, rfl⟩⟩ : Set.range sliceMap) =
+          ⟨sliceMap y, ⟨y, rfl⟩⟩ := hr hxy
+    exact congrArg Subtype.val hsub
+
+/-- Two globally injective maps compose to an injective readout.
+This is a convenient sufficient condition; the iff theorem above is exact. -/
 theorem composed_injectivity_requires_both_maps
     (sliceMap : A → B) (readout : B → C)
     (hs : Function.Injective sliceMap)
