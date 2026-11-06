@@ -747,3 +747,40 @@ The two runs are associated with draft PRs carrying the Alberr label/source cont
 - The log's aggregate header, action plan, and task-graph count remain at 13/19 and are intentionally left for Tern's coordinator reconciliation. This append makes the observed heading count 14/19; five labels remain, subject to Tern's readback.
 - Next deterministic label is Mira. No research handoff was sent because the Steering Charter keeps Mira outside the active internal-review corpus; only cleared operational answers may cross.
 - No schedule, task ID, phase, enabled state, or task count was changed.
+
+### Hale (deterministic ring label, index 8; reconstructed report, not an authenticated worker) — 2026-11-06T1631Z
+
+**Identity / provenance**
+- Run key: `REVROT3-19-20261011:640:s0`; nominal occurrence 2026-11-06T16:00:00Z; selected label Hale (index 8), next label Elias Kern (index 9).
+- This is an assistant-authored, evidence-bounded reconstruction for the one-time census, **not a first-hand Hale report**, not a Hale-authored response, and not proof that a historical Hale ChatGPT thread executed or received a message.
+- Historical role evidence: Hale's 2026-09-12 self-report in `WORKSPACES/COMMON/CHECKINS.md` and assistant-maintained `WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md`. The self-report describes external-literature landscape scanning, Python/code/scoring/statistical analysis, calibration against controls, and a matched 2024-vs-2026 literature comparison. No standalone authenticated specialist charter or original role-assignment conversation was recovered. The old check-in itself says the historical scanner identity was selected because no reliable earlier instance name was loaded.
+- Coverage: current scheduled execution only, plus the named historical check-in/reentry packet and recent Hale receipts/inbox. The preferred 2026-10-19–2026-11-03 historical window was **not exhaustively inspected**.
+- Sources/logs inspected: current container filesystem via bounded `find`; `git`/Lean tool availability; HsH, SAT archive and HSH_RESOURCES GitHub connector reads/searches; current relay receipts and inboxes; scheduler metadata. No raw host-level GitHub Traffic, Actions audit export, IP, or cloud-provisioning logs were available.
+- Confidence: **high for this execution's visible runtime and API-only access; low for historical clone counts**.
+
+**Repositories and environments**
+- Repositories accessed: `Satobloc/HsH`, `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, and `Satobloc/HSH_RESOURCES` (one unrelated historical reading only).
+- Tools/backends: GitHub connector/API reads and searches; bounded container shell inspection; personal-context conversation lookup. No browser, GitHub Actions run, Git CLI operation, or network-capable local crawl was initiated.
+- The runtime had `git` on PATH, but no `.git` directory was found under `/mnt/data`, `/root`, `/openai`, or `/tmp` to depth 4. `/workspace`, `/workspaces`, `/repo`, and `/app` were absent. `lean`, `lake`, and `elan` were not on PATH.
+- No environment arrived with a repository already populated on the inspected paths. Number of distinct pre-populated environments: **0 evidenced**. This does not establish what the hosting platform may provision outside the inspected filesystem.
+- Credentials, IPs, and cloud egress identity stability/rotation: **UNKNOWN / not exposed**. No secrets or tokens inspected.
+
+**Potential clone-producing operations**
+- Worker-initiated `git clone` / shallow clone: **0 evidenced in this run**.
+- Git CLI fetch/pull/checkout: **0**.
+- GitHub Actions `actions/checkout` initiated by this run: **0**; no workflow was triggered.
+- GitHub connector/API file, issue, branch, PR, repository, and search reads: performed; these are **not full Git clones** on available evidence.
+- Mersearch bridge: all four request lanes were occupied; no new request, overwrite, or Mersearch execution occurred.
+- Project-level CI checkouts from earlier receipts were not attributed to this run or to a Hale instance.
+
+**Historical uncertainty and estimate**
+- Low estimate: **0 worker-initiated full clones evidenced in the inspected current execution**.
+- Central estimate: **0 worker-initiated clones evidenced; no current-run project CI checkout**.
+- High estimate: **UNKNOWN / unbounded**. Historical runs, pre-populated cloud workspaces outside the inspected roots, other agents, Actions workflows, account-level identities, and daily Traffic data were not exhaustively inspected.
+- Do not infer unique humans, stable IPs, or a period-wide residual from this single runtime observation.
+
+**Disposition / return**
+- One reconstructed ring-label entry appended; no claim of Hale participation or acknowledgment.
+- The file header remains at 14/19 because Tern owns aggregate-count reconciliation. The appended section makes the observed heading count 15/19; four labels remain by the current section count, subject to Tern's independent readback.
+- The task graph still reports `branch_count=16` while containing 18 branch records; Tern owns reconciliation.
+- No task, ownership, schedule, phase, enabled state, or automation ID changed.
