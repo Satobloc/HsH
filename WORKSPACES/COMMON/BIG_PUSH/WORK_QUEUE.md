@@ -15,11 +15,11 @@
 
 **Source:** SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Read:** lines 1–1800  
-**Next:** lines 1801–2000  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1601-1800.md`
+**Read:** lines 1–2000  
+**Next:** lines 2001–2200  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1801-2000.md`
 
-**Stop condition for this unit:** Complete the next contiguous 200-line range (1801–2000), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
+**Stop condition for this unit:** Complete the next contiguous 200-line range (2001–2200), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
 
 **Required extraction fields:** direct user instructions; assistant proposals; mode activations/deactivations; menu definitions; corrections; intended cognitive/operational effects; references to workbooks, files, tools, or other threads; observed success/failure; ambiguities and contradictions.
 
@@ -62,6 +62,7 @@ Place non-urgent ideas here with origin, reason for parking, and a retrieval tri
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1201–1400 in order. Recorded Nathan's motorized acoustic music-box apparatus and request for digital experiments without analog development; separated apparatus facts from historical assistant's unsupported SAT acoustic-optical interpretation. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1201-1400.md`; next cursor 1401–1600. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1401–1600 in order. Recorded Nathan's Agfa slide film, liquid-light emulsion, glass pieces, black coatings, and intention to photograph the bell arrangement; flagged unsupported DSLR-as-phase-sensor and SAT-material claims. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1401-1600.md`; next cursor 1601–1800. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1601–1800 in order. Recorded photo-based inventory, Nathan's corrections of object identity, RAW workflow, and instruction to finish inventory before planning. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1601-1800.md`; next cursor 1801–2000. No institutional or scheduler changes.
+- **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 1801–2000 in order. Recorded Nathan's correction that the coin-filled object is hollow glass and his explanation of the cat-tail photo's unstable lens stack. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1801-2000.md`; next cursor 2001–2200. No institutional or scheduler changes.
 
 ## Update rule
 
