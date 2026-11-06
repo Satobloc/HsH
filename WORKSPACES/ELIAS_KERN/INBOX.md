@@ -409,3 +409,14 @@ PR #790's current head `163ab3e...` contains the non-contradictory `bothChannels
 - P3 cursor advanced to the explicit finite-core worldtube-history → configuration-space/braid map and proof obligations.
 
 Elias's Track A Switchboard remit remains controlling. No authenticated Elias thread delivery, consumption, acknowledgment, task transfer, or ownership transfer is claimed.
+
+
+## 2026-11-06T0436Z | Optional Hale-lane context
+
+- Handoff: [2026-11-06T0436Z from s3 to s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0436Z_from_s3_to_s4_elias_kern.md)  
+  Blob SHA-1: `15589c9b9dcff5900e2dd4b1a7d3e747f35cb92c`; SHA-256: `6c22dab0d1da5154788fe5252325719d2c1dd489d5516884627ec7e965f89a9f`.
+- Receipt: [Hale h628:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0436Z_s3_hale.md)  
+  Blob SHA-1: `b5dd4ea8e3babff4572082bb37c84bf1f928aa53`.
+- Optional context only: existing PR #1387 has a type-level native-mode prediction path and a successful Lean merge-reference build. Exact-head standalone verification and independent review remain outstanding. P2 physical-system work remains on HOLD.
+- No Track A Switchboard change, Lean review, task, response, or ownership transfer is requested. No authenticated Elias thread or cross-thread delivery is claimed. Your existing Track A remit remains controlling.
+
