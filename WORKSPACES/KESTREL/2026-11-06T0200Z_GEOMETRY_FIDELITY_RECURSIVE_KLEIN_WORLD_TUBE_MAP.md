@@ -132,7 +132,13 @@ The 2026-10-20/21 direct source proposes expanding Minkowski rather than a globa
 
 The 2026-10-21 direct clarification that 3D rotation is 4D curvature is not a definition of ambient Riemann curvature. The assistant later acknowledges that it had used "curvature" too narrowly and distinguishes bending of a physical history/worldtube from curvature of the surrounding metric.
 
-The historical assistant's Householder-metric calculation \(R=q''\) concerns an ambient metric ansatz, not the curvature of the worldtube trajectory. Its arbitrary numerical fixtures are not physical data, measurements, or evidence for the expanding-Minkowski hypothesis.
+The historical assistant's Householder-metric examples, including \(\mathcal R=12/r^2\) and \(\mathcal R=-4k^2\cos(2kx)\), concern ambient metric curvature for declared metric ansätze, not the curvature of the worldtube trajectory. A separate assistant-origin Euclidean-lift derivation for \(X(w)=(\mathbf x(w),w)\) gives
+\[
+\kappa_{4,E}^{\,2}=
+\frac{(1+|\mathbf v|^2)|\mathbf a|^2-(\mathbf v\cdot\mathbf a)^2}
+{(1+|\mathbf v|^2)^3}.
+\]
+This assumes a Euclidean product metric, \(w\) as parameter, lifted velocity \((\mathbf v,1)\), and lifted acceleration \((\mathbf a,0)\). It is a candidate conditional translation of the direct "3D acceleration is 4D curvature" statement, not a Nathan Direct equation or a physical H(s)H map. The assistant's numerical illustrations used arbitrary values; they are not measured physical data or evidence for the expanding-Minkowski hypothesis.
 
 The current direct convention is \(cw=t\), Forest normalization, and \(++++\). The older \(w=ct\) statement remains a historical convention. The suggested \(\pm(c+H_0)/2\) expression was itself tentative ("or whatever proper expression"); no exact dimensional conversion has been recovered.
 
@@ -226,12 +232,14 @@ No arrow above is an established physical equivalence. A future map must state d
 
 ## 8. Existing formalization and actual run
 
-No new Lean code was added. Existing PR #873 is open/draft and unmerged:
+One conditional Lean module was added to the existing PR #873 branch; no new branch or PR was created. Existing PR #873 is open/draft and unmerged:
 - PR head: b81a8aef...
 - Base: 61cc8b65... on infra/lean4-verification-20261023
 - Run #42101085608 completed successfully on the PR merge ref, not an exact-head-only build.
 - The run used Lean 4.34.0 / Lake 5.0.0 and completed 8,954 build jobs.
 - The built modules include WorldtubeInertiaCoordinate, KestrelIntersectionDimensionGate, KestrelMovingSlice, KestrelProjectedIncidence, and KestrelGaugeNormalizationGate.
+- A new conditional module, WorldtubeCurveCurvatureLift.lean, was added to this existing PR branch and imported by HsHVerification.lean. It defines Fin 3/Fin 4 coordinate dot products, the affine lift velocity (v,1), acceleration (a,0), and the Gram-determinant curvature expression. The theorem lifted_gram_curvature_sq_eq proves the algebraic reduction to the assistant-derived formula above. It does not formalize differentiability, arclength, regularity, or the physical H(s)H map.
+- New CI run #42152965536 is IN_PROGRESS. Status: SUBMITTED_NOT_VERIFIED. If it does not complete in this run, carry this run ID forward and verify it without duplicate submission.
 
 Formal limits:
 - WorldtubeInertiaCoordinate proves only the algebraic consequence \(F=ma\) and \(a=c^2\kappa\Rightarrow F=mc^2\kappa\). The coordinate-curvature premise, chain rule, finite-core geometry, and physical interpretation are not proved. Its printed axioms include propext, Classical.choice, and Quot.sound.
@@ -271,4 +279,4 @@ No physical dataset, measured system, units, uncertainties, prediction/fit separ
 - Paper gates remain separate: Nov 9 minor, Nov 30 major, Dec 14 full-theory. No gate advanced.
 - Orson's LLM-cognition specialty was not touched.
 - The next deterministic ring label is Meridian. The :12 lease is disabled and no authenticated Meridian thread was recovered. Any repository handoff is explicitly repository-only; no cross-thread delivery is claimed.
-- Existing task ID, schedule, and phase remain unchanged. No sixth task, new branch, PR, public issue, signet, chat rename, or BEDROCK promotion.
+- Existing task ID, schedule, and phase remain unchanged. No sixth task, new branch or new PR; existing PR #873 was updated. No new public issue, signet, chat rename, or BEDROCK promotion.
