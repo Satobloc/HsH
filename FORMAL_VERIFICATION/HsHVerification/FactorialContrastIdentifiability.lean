@@ -24,6 +24,7 @@ questions. No physical fixture or numerical measurement is introduced.
 
 namespace HsHVerification.FactorialContrastIdentifiability
 
+@[ext]
 structure Coefficients where
   mean : ℚ
   material : ℚ
