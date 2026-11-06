@@ -684,3 +684,32 @@ Receipt pointer for h545:s4: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-1
 **Freshness:** HSH_RESOURCES, Babbage, *Reflections on the Decline of Science in England*, lines 861–900 actually read; next cursor 901. FIE last full review 2026-10-27; next due 2026-11-10. No physical break claimed.
 
 **Next cursor:** read back PR #824 run #42156820860 and its full job log; record exact merge-ref/head scope and theorem-specific axiom outputs. If it fails, preserve and diagnose the actual failure before correction. No theory/paper gate advancement, physical calculation, P2 system selection, BEDROCK promotion, Factory Floor admission, SAT-O/Blockwave equation change, task change, signet or conversation rename.
+
+
+## Addendum — 2026-11-06T03:50Z | h625:s3 final reconciliation
+
+The earlier h625 checkpoint is supplemented by these verified updates:
+
+### Lean result
+Existing PR #824 head `d391530cc9c894e519cca41b298f23ea5c4dc60c` passed PR-associated merge-reference run #42156820860. Merge ref `ddbfbb5458b75810849b2776f84c91979c547073` merged the head into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Lean 4.34.0 / Lake 5.0.0 / Mathlib `5ed296525`; 8,956 jobs, SUCCESS. The TernH625 module emitted 22 theorem-specific axiom reports: three list-name lookup theorems use `propext`, the others report no axioms. No `sorryAx` or `admit` strings in the job log. Tests, lint, nanoda and separate axiom-audit stages were skipped. Exact-head standalone verification remains unverified.
+
+### Deeper upkeep sweep
+The exact API-fetched `WORKSPACES/COMMON/task_upkeep_triage.py` source passed its self-test in a temporary runtime copy. The live graph had 18 node records, 13 active/blocked candidates and five completed nodes. Only two active branches initially had explicit priorities, causing unclassified P0/P1 work to sort below P2 upkeep. Tern added only source-backed priority/date metadata: Code Grurple and its two child papers P0; P1 cognition P1 / Nov 9; P2 real-system geometry P2 / Nov 30 and its blocked worldtube readout child P2; P3 full theory P3 / Dec 14; exploratory commons P4. Solver/umbrella branches without explicit authority remain UNCLASSIFIED. Post-update active triage: P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3. No task IDs, owners, branch names, schedules or cadence changed.
+
+The graph's `branch_count=16` versus 18 array nodes remains unexplained. It is recorded in the graph notes and left unchanged rather than guessed.
+
+### Clone census
+The shared check-in log, action plan and graph now record 13/19 reconstructed ring-label sections, six remaining, zero authenticated first-hand worker-thread replies. Aster's append preceded Tern's by nine seconds; Tern is the thirteenth current section, correcting the stale “twelfth” count in the original Tern entry without overwriting it. The checkout sample is seven completed events across five inspected Actions runs: HsH=5, HSH_RESOURCES=1, SAT archive=1. The newest HsH event is the issue-publisher workflow for #1408; the publisher rejection comment proves it reached the script, and the workflow definition includes one checkout step, but the run ID/log was not independently retrieved. This remains a limited sample, not a period-wide estimate or residual.
+
+Issue #1315 remains open with four comments. No general issue-comment action was available; the PR-scoped comment action was not misapplied. The h610:s2 packet remains reserved for Tern h629:s2 and was not consumed by h625:s3.
+
+### Public publisher outcome
+Issue #1408 was an additive follow-up to #1209, but the existing publisher rejected its envelope: the submission used uppercase `HSH-PUBLISH-V1`, while `tools/issue_publish.py` requires lowercase `hsh-publish-v1`. Rejection comment `6676390272`: `REJECTED: invalid schema`. The expected artifact path is absent on readback. No duplicate issue or manual artifact write was created. Status: **PUBLISHER_REJECTED / NOT PUBLISHED**. The underlying Lean module remains public in PR #824 and its merge-reference build passed.
+
+### House-write and Mersearch audit
+The house-write preflight found no local Git checkout and no general-purpose approved Actions writer for internal receipts/PR files; the issue publisher is a fixed public-submission intake. GitHub Contents API fallback was used with create-only writes, current-blob SHA compare-and-swap updates and independent readback. The preflight documents were read after the initial writes rather than before them; record this process-order deviation for future turns. All four Mersearch request lanes were occupied; no Mersearch request was run or overwritten. GitHub repo search was the documented control-document fallback. SAT_THEORY_ARCHIVE was not searched for theory equations because this occurrence did not alter or derive SAT-O/Blockwave mathematics.
+
+### Final boundaries and next cursor
+The :36 task remains enabled with the exact existing ID and hourly :36 schedule; no task/prompt/ID/phase/cadence/enabled-state change and no sixth task. Current scheduler run remains FAILED/chat_ref=null. No authenticated current Tern or Morrow thread, cross-thread delivery, recipient consumption or acknowledgment is claimed. No outgoing handoff was made because immediate successor Morrow h625:s4 already has a receipt and the late context route had been deferred.
+
+Next Tern same-phase occurrence is h629:s2 / 2026-11-06T05:24Z; check whether it consumes the preserved h610:s2 packet. Next clone-census review after five more labels or five actual worker activations. FIE full review remains due 2026-11-10; Babbage reading cursor 901. No physical break claimed. No paper gate, theory promotion, Factory Floor admission, physical calculation, SAT-O/Blockwave equation change, signet or conversation rename.
