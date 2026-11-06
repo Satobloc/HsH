@@ -96,9 +96,9 @@ Continue the primary May 28 conversation transcript sequentially:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
-**Read:** lines 1–4000  
-**Next cursor:** lines 4001–4200  
-**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3801-4000.md`  
+**Read:** lines 1–4200  
+**Next cursor:** lines 4201–4400  
+**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-4001-4200.md`  
 **Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
 
 ### Latest tranche findings
@@ -150,7 +150,7 @@ The following repository-backed scaffold is now present:
 
 **Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
 
-The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–4000; next range 4001–4200. No institutional design has been selected.
+The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–4200; next range 4201–4400. No institutional design has been selected.
 
 
 ### Scheduler state verified on 2026-11-05
