@@ -15,11 +15,11 @@
 
 **Source:** SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Read:** lines 1–3600  
-**Next:** lines 3601–3800  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3401-3600.md`
+**Read:** lines 1–3800  
+**Next:** lines 3801–4000  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3601-3800.md`
 
-**Stop condition for this unit:** Complete the next contiguous 200-line range (3601–3800), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
+**Stop condition for this unit:** Complete the next contiguous 200-line range (3801–4000), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
 
 **Required extraction fields:** direct user instructions; assistant proposals; mode activations/deactivations; menu definitions; corrections; intended cognitive/operational effects; references to workbooks, files, tools, or other threads; observed success/failure; ambiguities and contradictions.
 
