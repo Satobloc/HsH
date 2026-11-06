@@ -467,3 +467,12 @@ Run key: REVROT3-19-20261011:642:s2. h=642, seq=3212, selected ring index 1 Loom
 - Handoff blob 45799ea22e41936c136066d3263bddd031b1d766, commit b1f34c88aef4968efff3134ea9d3b5ecea84a0fb; exact readback PASS.
 - Aster inbox blob 8b70f587399ab3f0dec48596830c09d63aa50a10, commit 9777f4a182b3e9f353f9ad42064652a0f44a5248; exact readback PASS.
 - The Aster packet is LATE_OPTIONAL_CONTEXT; its addressed :36 run had already started. No thread delivery, consumption or acknowledgment is claimed.
+
+
+### Scheduler terminal-state amendment | 2026-11-06T19:00Z
+
+- The :24 run d15c23aa-fb8c-832c-b144-54aece34578b remains recorded in_progress at last peek; completed_at=null, chat_ref=null. Its task remains enabled on the exact original :24 hourly schedule.
+- The addressed Aster :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 completed with recorded_status=failed at 2026-11-06T19:00:14.872705Z, chat_ref=null. No h642:s3 Aster receipt was found.
+- The Loom handoff was written after Aster's run began and remains LATE_OPTIONAL_CONTEXT. Aster inbox append and scheduler addendum are verified; consumption and acknowledgment remain unknown. No refusal/nonresponse inferred.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1824Z_s2_loom_AMENDMENT_01.md, blob e8417df00fc22782deb8b1de0e616fa9d243ba65.
+- Aster inbox final blob: 8ef15b15e587b803ecd6ff81a7bcb1775504a934.
