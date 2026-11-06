@@ -26,10 +26,17 @@ Mercer's existing inbox entry:
 
 Meridian's current-work card:
 `WORKSPACES/MERIDIAN/CURRENT_WORK.md`
-- Final blob after timestamp and scheduler corrections: `17904100210df0338020a5aecb998f9ded51665d`.
+- Final blob after timestamp, scheduler and latest-main corrections: `f5b698a17bdc4bbd94f58a73036e62bf18e609cd`.
 
 The receipt, handoff, inbox entry and current-work card were independently fetched after their writes. Repository delivery is verified. No cross-thread ChatGPT delivery, recipient consumption or acknowledgment is claimed.
 
 ## Disposition
 
 The handoff is optional context only: no task, ownership, deadline, review, or response obligation transferred. Mercer retains the existing independent A/B presentation-QA assignment. Code Grurple remains active. Both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no route probe or publication-state change occurred.
+
+
+## Latest-main and formalization disposition
+
+The latest external main-head observation was `f53c91df803c8e47c347596416a2fc35da9b3a67` (13:50:20Z), changing only `PUBLIC_SITE/generated/discovery.json`. It is `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH`; no A/B source, feed, renderer, derivative, deployment or route changed. Meridian's current-work card records this non-trigger.
+
+Whirligig proof triage: the direct “multiple valid answers” instruction is a design requirement, not a theorem. The assistant-proposed route-complexity functional lacks source-defined admissible transformations, metric, equivalence quotient and weights. Formalization status for that functional: `FORMALIZATION_BLOCKED_DEFINITION`; no Lean run or proof is claimed. No physical or data-free calculation was performed.
