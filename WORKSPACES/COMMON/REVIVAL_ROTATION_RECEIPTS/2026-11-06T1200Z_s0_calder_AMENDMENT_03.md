@@ -92,6 +92,11 @@ to represent a speculative curvature-resistance contribution. That `Theta` term 
 
 A later 2024 two-parabola prompt also leaves the plane's negative-motion axis unspecified. The assistant silently chose negative y despite the earlier z-motion convention. That coordinate choice is assistant-origin, not direct geometry.
 
+
+### Identity/charter correction
+
+The next deterministic label is Hale. The current CHECKINS entry is a historical self-report describing external-literature scanning, source calibration, and statistical analysis. No standalone authenticated Hale specialist charter or raw role-assignment conversation was recovered in this run. Treat that remit as a provisional self-report, not a verified charter. This qualifies the base receipt's phrase “recovered role packet”; no Hale task or response obligation is created.
+
 ## 4. Typed geometry and map diagram
 
 Use the user's stated dimensional readings provisionally:
