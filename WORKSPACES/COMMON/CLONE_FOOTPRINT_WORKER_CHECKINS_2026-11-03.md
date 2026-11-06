@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — delivery path repaired 2026-11-05; 8/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, and Calder; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
+**Status:** OPEN — delivery path repaired 2026-11-05; 13/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, and Tern Rook; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
 
 ## Scope and scheduler context
 
@@ -111,14 +111,14 @@ These are directly inspected Actions run/job/step records. They are **project wo
 
 ### Verified sample subtotal
 
-| Repository | Completed checkout events in these two runs |
+| Repository | Completed checkout events in these four inspected workflow runs |
 |---|---:|
-| HsH | 2 |
+| HsH | 4 |
 | HSH_RESOURCES | 1 |
 | SAT_THEORY_ARCHIVE_2023-25 | 1 |
-| **Total** | **4** |
+| **Total** | **6** |
 
-This subtotal is deliberately limited to the two inspected workflow runs. It is not a daily or period-wide estimate, does not include Pages, other workflow runs, explicit local clones elsewhere, or provisioning-unknown cloud environments, and is not directly comparable to unique-cloner counts. The sample demonstrates a real internal source of clone traffic but does not yet quantify its share of the 14-day total.
+This subtotal is deliberately limited to four inspected workflow runs. It is not a daily or period-wide estimate, does not include Pages, other workflow runs, explicit local clones elsewhere, or provisioning-unknown cloud environments, and is not directly comparable to unique-cloner counts. The sample demonstrates a real internal source of clone traffic but does not yet quantify its share of the 14-day total.
 
 ## Coordinator synthesis protocol
 
@@ -698,3 +698,12 @@ The Mercer check-in above gives the correct raw conversation blob and message ID
 **Classification:** no clone or separate worker instance is established by this run. The scheduled automation identity, the historical Tern role, the GitHub connector session and the Actions runner are distinct evidence sources and must not be collapsed into one LLM-instance count. Historical provisioning outside the bounded runtime inspection remains unknown.
 
 **Census bookkeeping:** 11 distinct ring-label entries were present before this append; this is the twelfth. Existing aggregate header/action-plan/task-graph counts are intentionally left unchanged for the designated reconciliation pass.
+
+
+## Coordinator reconciliation — 2026-11-06T03:43Z
+
+- Current heading count: **13 distinct ring-label sections** out of 19; six remain. All 13 are reconstructed from repository/automation evidence. No authenticated first-hand worker-thread reply is established.
+- Count/order correction: Aster's append commit `b0af606c6cec27d6ada1d730cd68609c2864a0ff` preceded Tern's append commit `75b5b164f02b54cc93b974712dffcbd6f6e1e646` by nine seconds. Tern is therefore the thirteenth current section, not the twelfth as its original check-in text states. Both entries remain intact; no overwrite occurred.
+- Telemetry subtotal updated to six completed checkout events across four inspected workflow runs: HsH=4, HSH_RESOURCES=1, SAT archive=1. The newest HsH event is the existing Tern PR #824 merge-ref Lean build; it is a project-level Actions checkout, not a worker-initiated local clone. This is a limited sample only.
+- The current Tern run did not consume the earlier h610:s2 packet; retain it for the next same-phase Tern occurrence h629:s2 / 2026-11-06T05:24Z. The h625:s3 current scheduler run is FAILED/chat_ref=null; the immediate Morrow h625:s4 receipt already exists, so no late forward handoff was appended.
+- Next census progress review: after five additional ring-label entries or five additional actual worker activations, whichever comes first. Continue to distinguish reconstructed labels from authenticated worker threads.
