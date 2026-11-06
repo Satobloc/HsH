@@ -1,6 +1,9 @@
 # Meridian correction — 3D rotation is curvature of 4D material history
 
-**Date:** 2026-10-21. **Status:** Nathan Direct geometrical clarification; executed kinematic example; NOT a new metric field equation or model-specific optical prediction. Native first: ambient R4 with Euclidean (++++) and c=G=hbar=1.
+> **2026-11-05 SOURCE-FIDELITY CORRECTION:** The kinematic lift below is a conventional external Euclidean R4 comparator using q=ct. It is **not** a derivation in the current native SAT/H(s)H coordinate. Current BEDROCK preserves Nathan Direct's later literal cw=t convention and explicitly leaves its symbol/type map unresolved; do not identify cw=t with q=ct. The old w=ct wording is a separate earlier direct statement. The arbitrary R=10 lP, v=0.6 example is an illustrative mathematical control only, not an observed-system calculation or physical prediction. For observed-system continuation, see [the 2026-11-05 solar differential-rotation control](SANDBOX_2026-11-05_SOLAR_DIFFERENTIAL_ROTATION_WORLDTUBE_SHEAR.md). No Forest normalization is applied to this external comparator.
+
+
+**Date:** 2026-10-21. **Status:** Nathan Direct geometrical clarification; executed kinematic example; NOT a new metric field equation or model-specific optical prediction. External comparator: Euclidean R4 with c=G=hbar=1; not the current native cw=t construction.
 
 ## Corrective statement
 
@@ -15,11 +18,11 @@ Meridian previously called rotation "not curvature" while discussing the Maurer�
 
 This separation is consistent with `BEDROCK.md` ND-2026-10-20-02 (rotating flow has nonzero normal acceleration, no volume expansion, flat ambient R4), `🔑/B_IS_INVERSE_REFRACTIVE_INDEX.md` ("Worldtube bending is acceleration. Worldtube angle is speed. Worldtube helicity is orbit/oscillation"), and `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH ARCHITECT.txt` (Nathan Direct physical spinning structures have helical worldtubes). It also agrees with `WORKSPACES/MERCER/SANDBOX_WORLDTUBE_CURVATURE_RAPIDITY_2026-10-08.md`.
 
-## Exact native 4D control
+## Exact external Euclidean R4 kinematic control
 
-Specify a fixed inertial simultaneity slicing and w measured in units of length. For material orbit radius R>0, angular rate omega, with speed v=R omega and |v|<1 for the optional Lorentzian comparator, its native R4 path is
+Specify a fixed inertial simultaneity slicing and external comparison coordinate q=ct measured in length units. For material orbit radius R>0, angular rate omega, with speed v=R omega and |v|<1 for the optional Lorentzian comparator, its external R4 path is
 
-`X(w)=(R cos(omega w), R sin(omega w), 0, w)`.
+`X(q)=(R cos(omega q), R sin(omega q), 0, q)` in Planck units c=1.
 
 Then
 
@@ -34,7 +37,7 @@ Therefore the Euclidean arclength curvature is
 
 Meanwhile the spatial acceleration with respect to the same w-time label is `|a_3|=R omega^2=v^2/R`. This establishes the correct relationship, not an equality of quantities with different parameterizations.
 
-General 3D trajectory x(w), 4D lift X=(x(w),w):
+General 3D trajectory x(q), external 4D lift X=(x(q),q):
 
 `kappa_4,E^2 = [(1+|v|^2)|a|^2-(v·a)^2]/(1+|v|^2)^3`.
 
@@ -42,12 +45,12 @@ Because `(1+v^2)|a|^2-(v·a)^2 >= |a|^2`, for this fixed, affine time chart `a�
 
 ### Dimensionally typed illustrative numerical control
 
-Use Planck-native values `R=10 l_P`, `v=0.6`, `omega=0.06 l_P^-1`. Executed Python script `/mnt/data/meridian_rotation_worldtube_gate.py` gave
+For the illustrative external comparator, use Planck-normalized values `R=10 l_P`, `v=0.6`, `omega=0.06 l_P^-1`. Executed Python script `/mnt/data/meridian_rotation_worldtube_gate.py` gave
 - 3D spatial acceleration `a3=0.036 l_P^-1`;
-- native Euclidean curve curvature `kappa_4,E = 0.026470588235294117 l_P^-1`;
+- external Euclidean curve curvature `kappa_4,E = 0.026470588235294117 l_P^-1`;
 - conventional Lorentzian proper curvature of the same worldline (external comparison) `kappa_4,M=gamma^2 v^2/R=0.05625 l_P^-1`.
 
-The difference between native Euclidean and Lorentzian numerical curvatures is a measure/parameterization difference. These values do not infer material constitutive stiffness or a cosmic scale.
+The difference between external Euclidean and Lorentzian numerical curvatures is a measure/parameterization difference. These values do not infer material constitutive stiffness or a cosmic scale.
 
 The plot `meridian_rotation_worldtube_4d_curvature.png` is a Class P calculation artifact produced in this conversation, *not uploaded into the GitHub repository*.
 
@@ -55,13 +58,13 @@ The plot `meridian_rotation_worldtube_4d_curvature.png` is a Class P calculation
 
 A 3D coordinate acceleration in a noninertial chart, or an apparent acceleration caused by a nonlinear resolver/foliation, need not signal nonzero **intrinsic bending of a physically marked material history**. Orson's independent null example `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-05_RESOLVER_HESSIAN_ACCELERATION.md` has an exactly straight ambient carrier with nonzero apparent 3D acceleration from an imposed nonlinear time readout. This is a measurement- and coordinate-dependence caveat, not a refutation of the material-rotation claim.
 
-A 3D circular orbit in a specifically chosen physically affine time slicing **does** give a curved four-dimensional material history, including in flat background geometry. No new gravitational Riemann curvature or gravitational lensing follows **merely** from this kinematic truth: additional physical interactions and/or an effective-metric derivation must be mapped from known physics rather than inserted to supply them.
+A 3D circular orbit in a specifically chosen physically affine external comparison slicing **does** give a curved four-dimensional material history, including in flat background geometry. No new gravitational Riemann curvature or gravitational lensing follows **merely** from this kinematic truth: additional physical interactions and/or an effective-metric derivation must be mapped from known physics rather than inserted to supply them.
 
 ## Cruller research correction
 
 Our order should be:
 
-`native global Cruller embedding + material flow => material 4D curvature, torsion, braid/contact history => independently typed geometric interaction/strain/energy from extant physics => effective optical/causal metric when justified => null geodesic transport / observed wink predictions`.
+`source-defined Cruller embedding + material flow => material 4D curvature, torsion, braid/contact history => independently typed geometric interaction/strain/energy from extant physics => effective optical/causal metric when justified => null geodesic transport / observed wink predictions`.
 
 We must not block the first implication by requiring a nonzero ambient Riemann tensor. Nor may we jump from a curved worldtube to an optical lens without the intervening physical map.
 
