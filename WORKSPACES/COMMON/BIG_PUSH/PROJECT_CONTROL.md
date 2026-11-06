@@ -96,14 +96,14 @@ Continue the primary May 28 conversation transcript sequentially:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
-**Read:** lines 1–1800  
-**Next cursor:** lines 1801–2000  
-**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1601-1800.md`  
+**Read:** lines 1–2000  
+**Next cursor:** lines 2001–2200  
+**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1801-2000.md`  
 **Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
 
 ### Latest tranche findings
 
-Lines 201–1800 develop an early experimental-research thread involving optical tests, a motorized acoustically active music-box platform, and a shift toward digital measurements. Nathan explicitly challenges direct-detection claims, prefers fixed-lens tests, and asks to avoid analog development. He supplies old film, liquid light, glass pieces, and low-reflectance coatings, then begins a photo-based equipment inventory. The assistant misidentifies at least one optical component (a phone anamorphic attachment plus polarizer as a dichroic cube) and prematurely assigns SAT functions to pictured objects. Nathan corrects the identification and asks to finish the inventory before planning. Preserve object identities and user corrections; do not infer SAT coupling. A DSLR measures intensity/color, not phase without a phase-sensitive optical arrangement; unknown materials need independent characterization. For acoustic tests, quantify ordinary sound, vibration, and acousto-optic responses first. See the tranche records for attribution and details.
+Lines 201–2000 develop an early experimental-research thread involving optical tests, a motorized acoustically active music-box platform, and a shift toward digital measurements. Nathan challenges direct-detection claims, supplies a material/equipment inventory, and asks to finish the inventory before planning. The assistant repeatedly assigns SAT functions to ordinary objects and photographs, including misidentifying a phone anamorphic attachment and a hollow glass object. Nathan corrects these identities and explains that the unusual cat-tail image came from a loose, shifting multi-element lens stack. Treat that photograph as a reproducibility target, not evidence of SAT. Preserve user-confirmed object identities and recover original lens-stack notes before reconstruction. A DSLR measures intensity/color, not phase without a phase-sensitive optical arrangement; unknown materials need independent characterization. For acoustic tests, quantify ordinary sound, vibration, and acousto-optic responses first. See the tranche records for attribution and details.
 
 ## Succession protocol
 
@@ -129,6 +129,7 @@ A successor must read the source documents named in the packet, not rely solely 
 - 2026-11-05: BP-HIST-001 advanced through lines 1201–1400; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1201-1400.md`; next cursor 1401–1600. Recorded Nathan's motorized acoustic music-box apparatus and request for digital methods without analog development; flagged unsupported assistant claims of SAT acoustic-optical coupling. No scheduler change.
 - 2026-11-05: BP-HIST-001 advanced through lines 1401–1600; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1401-1600.md`; next cursor 1601–1800. Recorded Nathan's additional film, liquid-light, glass, and low-reflectance materials and his plan to photograph the bell arrangement; flagged DSLR-as-phase-sensor and SAT-material interpretations as unsupported. No scheduler change.
 - 2026-11-05: BP-HIST-001 advanced through lines 1601–1800; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1601-1800.md`; next cursor 1801–2000. Recorded Nathan's corrections to image-based object identification, RAW workflow, and instruction to complete inventory before planning. Flagged premature SAT interpretations of pictured objects. No scheduler change.
+- 2026-11-05: BP-HIST-001 advanced through lines 1801–2000; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-1801-2000.md`; next cursor 2001–2200. Recorded Nathan's correction that the coin-filled object is hollow glass, and his account of the cat-tail image's loose, shifting lens stack. Marked direct SAT interpretation as unsupported and added recovery of original lens notes as a lead. No scheduler change.
 
 
 ## Continuity and recurrence scaffold — 2026-11-05
@@ -149,7 +150,7 @@ The following repository-backed scaffold is now present:
 
 **Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
 
-The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–1800; next range 1801–2000. No institutional design has been selected.
+The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–2000; next range 2001–2200. No institutional design has been selected.
 
 
 ### Scheduler state verified on 2026-11-05
