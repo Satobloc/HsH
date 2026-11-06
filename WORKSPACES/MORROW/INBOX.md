@@ -542,6 +542,6 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 ## TERN-REVROT3-20261106T1648Z-S4-MORROW-001 | 2026-11-06T1648Z | Tern Rook → Morrow | LATE OPTIONAL CONTEXT ONLY
 
 - Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1648Z_from_s4_to_s0_morrow.md` (blob `b80a70f9ed8b88086e93db2598d222a878522d3a`).
-- Tern receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1648Z_s4_tern_rook.md` (readback blob `f1bd891f49cbe00f601896c1d4cb1cec5e39fa36`).
+- Tern receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1648Z_s4_tern_rook.md` (stable path; final blob/readback recorded in the receipt's last amendment).
 - No task, review, response request, or ownership transfer. Morrow's archive-only scope and direct theory stop remain controlling. The Orson QA pointer is for Orson's existing work; Morrow is not asked to take it on.
 - Morrow's :00 run had already started, so this is late optional repository context only. No authenticated ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
