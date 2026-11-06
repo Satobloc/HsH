@@ -398,7 +398,7 @@ Code Grurple remains ACTIVE. Paper A is accepted at R1; Meridian's role is prese
 
 Existing issues #1193, #1144 and #1273 already cover renderer conformance, format adaptation and artifact-chain binding. Do not duplicate them or reopen manuscript content. The :24 H(s)H/CODATA lane remains BACKSEAT/HOLD.
 
-- `github_inbox_delivery=VERIFIED` only after exact readback.
+- `github_inbox_delivery=VERIFIED` (the addressed entry was independently read back from the existing Mercer inbox).
 - `chat_delivery=UNAVAILABLE_NOT_SENT`; no arbitrary cross-thread post was made.
 - `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
 
