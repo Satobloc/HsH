@@ -1,0 +1,459 @@
+\documentclass[aps,prd,preprint,notitlepage,nofootinbib,longbibliography]{revtex4-2}
+
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{siunitx}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+  pdftitle={Elastic Worldtube Memory as a Sandbox Model for Interbraid Backtug},
+  pdfauthor={Nathan McKnight}
+}
+
+\newcommand{\HsH}{H(s)H}
+\newcommand{\kb}{k_{\rm b}}
+\newcommand{\lel}{\ell_{\rm el}}
+\newcommand{\lI}{\ell_{\rm I}}
+
+\begin{document}
+
+\title{Elastic Worldtube Memory as a Sandbox Model for Interbraid Backtug:\\
+A Constitutive Transition and an Independent Dispersion Test}
+
+\author{Nathan McKnight}
+\affiliation{Independent Researcher, Columbus, Ohio, USA}
+\thanks{This manuscript develops a sandbox construction within the SAT$\rightarrow$\HsH{} research program. Algebraic and numerical checks were assisted by an AI research instance designated Mercer.}
+
+\date{October 2, 2026}
+
+\begin{abstract}
+SAT and its Hyperhelical Worldtube successor, \HsH{}, explore the consequences of treating particle histories as finite, physically structured four-dimensional worldtubes rather than as structureless bookkeeping curves. A recurring internal question is whether a localized interaction can leave a mechanically persistent relation along an extended worldtube, producing what the project calls \emph{Interbraid backtug}. This paper does not assume such a force exists. Instead, it constructs a minimal continuum null model and asks what would follow if an extended carrier possessed ordinary tension, bending stiffness, and a local pair-restoring response. For a relative deformation $u(s)$ the quadratic functional
+\begin{equation*}
+E[u]=\frac12\int ds\left[B(u'')^2+T(u')^2+\kb u^2\right]
+\end{equation*}
+leads to the static operator $B\partial_s^4-T\partial_s^2+\kb$. Its Green function exhibits a sharp response-class transition controlled by the dimensionless number $\chi=4B\kb/T^2$. For $\chi<1$, a localized interaction produces a sum of monotonic exponentials. At $\chi=1$ the characteristic roots merge. For $\chi>1$, the stored deformation is an exponentially damped spatial oscillation, so the induced restoring contribution alternates sign along the carrier. The same parameters independently predict the undamped dispersion relation $\omega^2=(Bq^4+Tq^2+\kb)/\mu$. Consequently the static profile and dynamic spectrum provide a two-channel falsification test of the model. The construction does not establish gravity, electromagnetism, quantum entanglement, retrocausality, or a physical worldtube medium. It supplies a calculable sandbox mechanism by which interaction history could be stored as present geometry, and a precise criterion by which that mechanism can fail.
+\end{abstract}
+
+\maketitle
+
+\begin{center}
+\fbox{\parbox{0.93\linewidth}{\textbf{SANDBOX STATUS.} This manuscript is a model-development exercise. SAT/\HsH{} terminology such as ``Interbraid'' and ``Electrogravity'' is project-internal nomenclature, not an assertion of established forces. The only claims promoted here are mathematical consequences of the explicitly stated continuum model.}}
+\end{center}
+
+\section{Introduction}
+
+A persistent theme in the SAT$\rightarrow$\HsH{} archive is deliberately simple: begin with the standard four-dimensional representation of kinematics, then ask what changes if the worldline is replaced by a finite, physically structured worldtube. Two archival questions motivate the present calculation. First, an older SAT note asks whether long interaction history within a bound system could leave a present dynamical difference between long-associated and newly arriving bodies \cite{gravitytwist}. Second, a later \HsH{} conversation poses the stripped-down geometric problem directly: if two extended particle histories interact at one location along their four-dimensional extent, could the physical carrier preserve some consequence of that encounter away from the interaction point \cite{forcesacrosstime}?
+
+Neither question is answered merely by drawing a block universe. Standard relativistic spacetime geometry does not, by itself, add a new cross-temporal force. A physical mechanism must be specified. The purpose of this paper is therefore narrower: construct the least exotic extended-carrier model that can store a localized interaction as present deformation, derive its consequences completely enough to be falsifiable, and identify which consequences are geometry, which are constitutive assumptions, and which remain conjectural.
+
+The model is intentionally a null model. It borrows the mathematics of a tension-bearing, bendable continuum with a local restoring term. If a future \HsH{} worldtube cannot support anything analogous to these degrees of freedom, the model should be rejected. If it can, the model supplies an explicit answer to a useful sub-question: what forms of persistent ``backtug'' arise from ordinary continuum mechanics before any new force law is invented?
+
+\section{Provenance and modeling commitments}
+
+Table~\ref{tab:provenance} separates the source material from the new construction. This is essential because the archive contains exploratory physical interpretations as well as later corrections and abandoned branches.
+
+\begin{table}[h]
+\caption{Boundary between source material and the present sandbox derivation.}
+\label{tab:provenance}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Category & Content \\
+\midrule
+Source-derived question & \parbox[t]{0.69\linewidth}{Treat particle histories as physically extended worldtubes and ask whether a localized encounter can leave a persistent relation along their extent \cite{gravitytwist,forcesacrosstime}.} \\[0.7em]
+Source-derived program & \parbox[t]{0.69\linewidth}{Explore history-dependent, direct worldtube--worldtube mechanics separately from the shared surface/medium response called Electrogravity in current project terminology.} \\[0.7em]
+New assumption here & \parbox[t]{0.69\linewidth}{Relative worldtube deformation admits a quadratic continuum energy with bending modulus $B$, tension $T$, and local restoring stiffness $\kb$.} \\[0.7em]
+New derivation here & \parbox[t]{0.69\linewidth}{Exact static response classes, the critical ratio $\chi=4B\kb/T^2$, persistence lengths, damped spatial oscillations, and the independent dynamic dispersion relation.} \\[0.7em]
+Not established here & \parbox[t]{0.69\linewidth}{Gravity, electromagnetism, the strong interaction, quantum entanglement, a retrocausal force, a particular particle identity, or an empirical anomaly.} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The carrier coordinate $s$ below is an intrinsic coordinate along the reduced extended object. The static calculation is a configuration-space model. It does not by itself specify a causal update law in laboratory time, and therefore does not by itself imply retrocausality. A dynamic completion is introduced later only as an additional constitutive hypothesis.
+
+\section{Minimal elastic model}
+
+Let $u(s)$ denote a small relative displacement of two coupled carriers, or equivalently a reduced deformation coordinate for one carrier relative to an interaction channel. The minimal positive quadratic energy retaining curvature, slope, and local restoring costs is
+\begin{equation}
+E[u]=\frac12\int_{-\infty}^{\infty} ds\left[B\left(u''\right)^2+T\left(u'\right)^2+\kb u^2\right]-\int ds\, f(s)u(s).
+\label{eq:energy}
+\end{equation}
+Here $B>0$ is a bending modulus, $T>0$ is an effective longitudinal tension, and $\kb>0$ is a local pair-restoring coefficient. For $[s]=[u]=L$,
+\begin{equation}
+[B]=F L^2,\qquad [T]=F,\qquad [\kb]=F/L^2,
+\end{equation}
+so every term in Eq.~\eqref{eq:energy} has dimensions of energy.
+
+Variation gives
+\begin{equation}
+B u''''-T u''+\kb u=f(s).
+\label{eq:static}
+\end{equation}
+A localized encounter is represented by the benchmark source
+\begin{equation}
+f(s)=F_0\delta(s).
+\label{eq:delta}
+\end{equation}
+This source is not meant to model an actual particle collision in detail. It is a probe of the carrier response.
+
+The Fourier-space Green function is
+\begin{equation}
+\widetilde G(q)=\frac{1}{Bq^4+Tq^2+\kb},
+\label{eq:fouriergreen}
+\end{equation}
+and $u(s)=F_0G(s)$.
+
+Two natural lengths appear immediately:
+\begin{equation}
+\lel=\sqrt{\frac{B}{T}},\qquad
+\lI=\sqrt{\frac{T}{\kb}}.
+\label{eq:lengths}
+\end{equation}
+The first is the familiar bending--tension crossover length. The second is the persistence length of a tension-bearing carrier against the local restoring channel. Their ratio generates the dimensionless control number
+\begin{equation}
+\boxed{\chi=\frac{4B\kb}{T^2}=4\left(\frac{\lel}{\lI}\right)^2.}
+\label{eq:chi}
+\end{equation}
+Using $x=s/\lel$, the homogeneous static equation reduces to
+\begin{equation}
+\frac{d^4u}{dx^4}-\frac{d^2u}{dx^2}+\frac{\chi}{4}u=0,
+\label{eq:dimensionless}
+\end{equation}
+showing that the response class is controlled by a single dimensionless number.
+
+\section{Static response and the constitutive transition}
+
+Seeking $u\propto e^{-rs}$ gives
+\begin{equation}
+Br^4-Tr^2+\kb=0.
+\end{equation}
+With $y=r^2$,
+\begin{equation}
+y_{\pm}=\frac{T\pm\sqrt{T^2-4B\kb}}{2B}.
+\label{eq:yroots}
+\end{equation}
+The discriminant
+\begin{equation}
+\Delta=T^2-4B\kb=T^2(1-\chi)
+\end{equation}
+creates three response classes.
+
+\subsection{Subcritical regime: $\chi<1$}
+
+For $\chi<1$, both $y_{\pm}$ are positive. Define $r_\pm=\sqrt{y_\pm}$ with $r_+>r_->0$. The exact even Green function is
+\begin{equation}
+G(s)=\frac{1}{2B(r_+^2-r_-^2)}
+\left[
+\frac{e^{-r_-|s|}}{r_-}-\frac{e^{-r_+|s|}}{r_+}
+\right].
+\label{eq:greensubcritical}
+\end{equation}
+The response is monotonic and contains two decay lengths, $r_+^{-1}$ and $r_-^{-1}$. In the weak-bending limit,
+\begin{equation}
+r_+^{-1}\sim\sqrt{\frac{B}{T}}=\lel,
+\qquad
+r_-^{-1}\sim\sqrt{\frac{T}{\kb}}=\lI.
+\end{equation}
+Thus the same static response cleanly separates a short bending boundary layer from a longer interaction-persistence scale.
+
+If bending is removed entirely, Eq.~\eqref{eq:static} becomes
+\begin{equation}
+-Tu''+\kb u=F_0\delta(s),
+\end{equation}
+with
+\begin{equation}
+G_{B=0}(s)=\frac{1}{2\sqrt{T\kb}}
+\exp\left(-\frac{|s|}{\lI}\right).
+\label{eq:tensiongreen}
+\end{equation}
+This limit makes the role of $\lI$ transparent. It also exposes a failure of tension alone: as $\kb\rightarrow0$, the localized static solution ceases to be well behaved on an infinite carrier. Persistent localized deformation therefore requires a restoring channel, boundary conditions, topological trapping, or some other mechanism beyond bare tension.
+
+\subsection{Critical regime: $\chi=1$}
+
+At
+\begin{equation}
+\boxed{T_c=2\sqrt{B\kb}},
+\label{eq:Tcrit}
+\end{equation}
+the roots merge at
+\begin{equation}
+r_0^2=\frac{T}{2B}.
+\end{equation}
+The Green function becomes
+\begin{equation}
+\boxed{
+G_{\rm crit}(s)=
+\frac{(1+r_0|s|)e^{-r_0|s|}}{4Br_0^3}.
+}
+\label{eq:greencritical}
+\end{equation}
+In length-language the critical condition is
+\begin{equation}
+\boxed{\lI=2\lel.}
+\label{eq:lengthcritical}
+\end{equation}
+This is a constitutive response boundary, not a thermodynamic phase transition.
+
+\subsection{Supercritical regime: $\chi>1$}
+
+For $\chi>1$, the squared characteristic roots are complex conjugates. Write the decaying roots as
+\begin{equation}
+r=\alpha\pm i\beta,
+\end{equation}
+where
+\begin{align}
+\alpha^2&=\frac12\left[\sqrt{\frac{\kb}{B}}+\frac{T}{2B}\right],\\
+\beta^2&=\frac12\left[\sqrt{\frac{\kb}{B}}-\frac{T}{2B}\right].
+\label{eq:alphabeta}
+\end{align}
+The exact even Green function may be written
+\begin{equation}
+\boxed{
+G(s)=\frac{e^{-\alpha|s|}}{4B\alpha(\alpha^2+\beta^2)}
+\left[
+\cos(\beta|s|)+\frac{\alpha}{\beta}\sin(\beta|s|)
+\right].
+}
+\label{eq:greensupercritical}
+\end{equation}
+The response is now a damped spatial oscillation. A local restoring contribution proportional to $-\kb u(s)$ therefore alternates sign along the carrier. In project language this supplies a concrete, non-mystical meaning for alternating ``backtug'' and ``forwardtug'': they are opposite phases of one underdamped spatial response, not two separately postulated forces.
+
+The approximate separation between sign reversals is set by
+\begin{equation}
+\Delta s_{\rm flip}\sim\frac{\pi}{\beta}.
+\label{eq:flip}
+\end{equation}
+Figure~\ref{fig:green} shows the three static response classes for a dimensionless benchmark with $B=T=1$ and $\kb=\chi/4$.
+
+\begin{figure}[t]
+\includegraphics[width=0.94\linewidth]{green_profiles.png}
+\caption{Normalized static Green functions for subcritical, critical, and supercritical response. The supercritical curve crosses zero and develops a damped oscillatory tail. Parameters are dimensionless with $B=T=1$ and $\kb=\chi/4$. The figure is a numerical evaluation of Eq.~\eqref{eq:fouriergreen}, not a fit.}
+\label{fig:green}
+\end{figure}
+
+\section{Independent dynamic cross-check}
+
+A static stored deformation is more credible if the same constitutive parameters also govern a consistent dynamic response. Introduce a mass per carrier length $\mu$ and optional linear damping $\zeta$:
+\begin{equation}
+\mu u_{\tau\tau}+\zeta u_\tau+B u_{ssss}-T u_{ss}+\kb u=f(s,\tau).
+\label{eq:dynamic}
+\end{equation}
+Here $\tau$ is an evolution parameter for the reduced carrier model. This equation is an additional assumption; the static model alone does not provide it.
+
+For an undamped plane mode $u\propto e^{i(qs-\omega\tau)}$,
+\begin{equation}
+\boxed{
+\omega^2(q)=\frac{Bq^4+Tq^2+\kb}{\mu}.
+}
+\label{eq:dispersion}
+\end{equation}
+The spectrum contains three regimes:
+\begin{align}
+q\rightarrow0 &: \quad \omega\rightarrow\sqrt{\kb/\mu},\\
+q\lel\sim1 &: \quad \text{tension and bending compete},\\
+q\lel\gg1 &: \quad \omega\sim\sqrt{B/\mu}\,q^2.
+\end{align}
+With
+\begin{equation}
+\widehat q=q\lel,
+\qquad
+\widehat\omega=\omega\frac{\sqrt{B\mu}}{T},
+\end{equation}
+Eq.~\eqref{eq:dispersion} becomes
+\begin{equation}
+\boxed{
+\widehat\omega^2=\widehat q^4+\widehat q^2+\frac{\chi}{4}.
+}
+\label{eq:dimensionless_dispersion}
+\end{equation}
+so the same $\chi$ that controls static monotonic versus oscillatory response fixes the low-$q$ spectral gap. Figure~\ref{fig:dispersion} displays the corresponding dimensionless spectra.
+
+\begin{figure}[t]
+\includegraphics[width=0.94\linewidth]{dispersion.png}
+\caption{Undamped dimensionless dispersion relation, Eq.~\eqref{eq:dimensionless_dispersion}, for the same three values of $\chi$ used in Fig.~\ref{fig:green}. The static-response classification and the dynamic spectral gap depend on the same constitutive parameters.}
+\label{fig:dispersion}
+\end{figure}
+
+This provides the key falsification advantage of the construction. A finite-worldtube solver should not be allowed to fit a static ``memory'' profile with one set of $B,T,\kb$ and then use unrelated parameters for its oscillation spectrum. The same coefficients must account for both.
+
+\section{Interpretation within the SAT$\rightarrow$\HsH{} sandbox}
+
+The model suggests a precise replacement for a vague phrase such as ``the past exerts a force.'' A localized encounter changes the present extended configuration of a physical carrier; the present deformation then stores information about that encounter. In this language,
+\begin{equation}
+\boxed{
+\text{interaction history}\;\longrightarrow\;\text{present geometric stress state}
+}
+\end{equation}
+rather than
+\begin{equation*}
+\text{interaction history}\;\longrightarrow\;\text{new nonlocal force law}.
+\end{equation*}
+
+This distinction is important. An extended carrier can possess mechanical memory without requiring the equations of motion to contain an explicit time-history functional. Such a mechanism is familiar in ordinary extended media: a present configuration can encode previous loading. The speculative \HsH{} step is not the mathematics of elastic memory; it is the assertion that particle worldtubes possess analogous physical internal degrees of freedom.
+
+The present calculation also separates three concepts that have sometimes been conflated in exploratory SAT language:
+\begin{enumerate}[label=(\roman*)]
+\item \textit{topological relation}: whether two carriers are linked, braided, or otherwise constrained;
+\item \textit{local winding or deformation density}: how concentrated the relation is along the carrier;
+\item \textit{constitutive persistence}: how $B$, $T$, and $\kb$ transmit or relax that deformation.
+\end{enumerate}
+Topological persistence does not guarantee a fixed force magnitude, and a mechanical backtug need not itself be topological.
+
+In the current project taxonomy, ``Interbraid'' denotes direct carrier--carrier mechanics while ``Electrogravity'' denotes carrier--surface/medium response. The present model belongs to the first category. A later coupled model could let the shared surface or medium modify the restoring coefficient,
+\begin{equation}
+\kb\rightarrow \kb^{\rm IB}+\kb^{\rm EG},
+\end{equation}
+which would allow one interaction sector to move the other across the response boundary $\chi=1$. That possibility is a new conjecture, not a result of the present derivation.
+
+Likewise, nothing here identifies the mechanical relation with quantum entanglement. A future claim of that kind would have to recover the relevant quantum-state structure and Bell-type correlations, not merely a persistent classical coupling.
+
+\section{Solver protocol and tight predictions}
+
+The model is deliberately easy to attack numerically. A useful finite-worldtube benchmark should implement the following protocol.
+
+\subsection{Static test}
+
+Construct two finite carriers with independently specified $B$, $T$, and $\kb$. Apply a localized relative displacement or force near $s=0$, remove the external drive, and relax the configuration. Sweep
+\begin{equation}
+10^{-2}\lesssim\chi\lesssim10^{2}.
+\end{equation}
+Without fitting the response class itself, test the following predictions:
+\begin{align}
+\chi<1 &: \quad \text{no sign-changing tail; sum of exponentials},\\
+\chi=1 &: \quad \text{double-root critical profile},\\
+\chi>1 &: \quad \text{damped sign-changing oscillatory tail}.
+\end{align}
+In the supercritical regime, fit $\alpha$ and $\beta$ from the profile and compare them directly with Eq.~\eqref{eq:alphabeta}.
+
+\subsection{Dynamic test}
+
+Using the same carrier and the same $B$, $T$, and $\kb$, excite small-amplitude modes over a range of $q$. Measure $\omega(q)$ and compare with Eq.~\eqref{eq:dispersion}. The stringent test is joint consistency: the coefficients inferred from the static Green function must predict the dynamic spectrum without re-fitting the constitutive law.
+
+\subsection{Failure criteria}
+
+The sandbox mechanism should be rejected or enlarged if any of the following occur in the regime where the linear assumptions are valid:
+\begin{enumerate}[label=(\alph*)]
+\item no persistent deformation remains after a localized encounter;
+\item the static profile changes class at a parameter combination inconsistent with $T^2=4B\kb$;
+\item the measured decay/oscillation constants disagree with Eqs.~\eqref{eq:yroots} or \eqref{eq:alphabeta};
+\item the coefficients required by the static profile fail to predict the dynamic dispersion relation;
+\item finite-core, nonlinear, topological, or reconnection effects dominate before the linear benchmark regime is reached.
+\end{enumerate}
+The last outcome is not a rescue clause. It identifies the specific additional physics that a more complete model must represent explicitly.
+
+\section{Limitations and causal status}
+
+Several boundaries should remain explicit.
+
+First, a four-dimensional block representation does not itself imply mechanical coupling between separated temporal locations. Equation~\eqref{eq:energy} adds an extended-carrier constitutive assumption that standard point-particle mechanics does not contain.
+
+Second, the coordinate $s$ is deliberately left as an intrinsic carrier coordinate. Interpreting it literally as timelike separation while simultaneously introducing an independent evolution parameter $\tau$ would require a careful causal construction. The present paper does not provide one. Accordingly, the static Green function should be read as a configuration-space relation, not evidence for controllable retrocausal signaling.
+
+Third, the model is linear, local in $s$, and isotropic in the reduced deformation variable. Real finite worldtubes may possess self-contact, chirality, anisotropy, nonlinear tension, reconnection, multiple internal modes, and scale-dependent constitutive coefficients. Any of these can alter the response.
+
+Fourth, the calculation does not derive a $1/r^2$ force law and does not reproduce general relativity. Therefore it is not presently a gravity model. Its value is more limited and more concrete: it supplies a mechanical null hypothesis for how an extended carrier could retain interaction history, together with a sharp constitutive discriminator.
+
+\section{Conclusion}
+
+If SAT is correct only in the modest sense that the standard four-dimensional map is a useful starting representation, then \HsH{} must earn every additional physical ingredient. A physical worldtube does not acquire history-dependent forces merely because its full trajectory can be drawn. The present sandbox model asks what happens if the tube is instead granted ordinary extended-medium degrees of freedom.
+
+The minimal quadratic energy
+\begin{equation*}
+E=\frac12\int ds\,[B(u'')^2+T(u')^2+\kb u^2]
+\end{equation*}
+produces a complete and testable response structure. The dimensionless number
+\begin{equation*}
+\boxed{\chi=4B\kb/T^2}
+\end{equation*}
+separates monotonic stored deformation from damped spatial oscillation, with a critical boundary at $\chi=1$ or equivalently $\lI=2\lel$. The same coefficients predict the dynamic spectrum
+\begin{equation*}
+\boxed{\omega^2=(Bq^4+Tq^2+\kb)/\mu.}
+\end{equation*}
+Thus one candidate meaning of Interbraid ``backtug'' is simply the restoring stress associated with a deformation that remains encoded in the present extended carrier. In the supercritical regime, nominal backtug and forwardtug become alternating phases of the same damped spatial mode.
+
+The result is not a new force. It is a challenge to the theory: if \HsH{} worldtubes are physical enough to store interaction history, their static and dynamic behavior should be mutually consistent and calculable. If they are not, the mechanism should be discarded.
+
+\appendix
+
+\section{Green-function derivation}
+
+For $\chi<1$, the Fourier denominator factors as
+\begin{equation}
+Bq^4+Tq^2+\kb
+=B(q^2+r_+^2)(q^2+r_-^2),
+\end{equation}
+where $r_\pm^2$ are given by Eq.~\eqref{eq:yroots}. Partial fractions give
+\begin{equation}
+\widetilde G(q)=\frac{1}{B(r_+^2-r_-^2)}
+\left[
+\frac{1}{q^2+r_-^2}-\frac{1}{q^2+r_+^2}
+\right].
+\end{equation}
+Using
+\begin{equation}
+\int_{-\infty}^{\infty}\frac{dq}{2\pi}\frac{e^{iqs}}{q^2+a^2}
+=\frac{e^{-a|s|}}{2a}
+\end{equation}
+produces Eq.~\eqref{eq:greensubcritical}.
+
+At criticality the Fourier denominator becomes $B(q^2+r_0^2)^2$, and the standard inverse transform yields Eq.~\eqref{eq:greencritical}.
+
+For $\chi>1$, the decaying characteristic roots are $\alpha\pm i\beta$. Evenness and continuity require the real-space form
+\begin{equation}
+G(s)=C e^{-\alpha|s|}
+\left[
+\cos(\beta|s|)+\frac{\alpha}{\beta}\sin(\beta|s|)
+\right].
+\end{equation}
+Integrating Eq.~\eqref{eq:static} across $s=0$ gives the jump condition
+\begin{equation}
+B[G''']_{0^-}^{0^+}-T[G']_{0^-}^{0^+}=1.
+\end{equation}
+For the even solution $G'$ is continuous at the origin, while $[G''']=2G'''(0^+)$. This fixes
+\begin{equation}
+C=\frac{1}{4B\alpha(\alpha^2+\beta^2)},
+\end{equation}
+which gives Eq.~\eqref{eq:greensupercritical}.
+
+\section{Reproducible dimensionless benchmark}
+
+The figures use
+\begin{equation}
+B=T=\mu=1,
+\qquad
+\kb=\chi/4,
+\end{equation}
+with $\chi\in\{0.25,1,4\}$. The static profiles are numerical evaluations of
+\begin{equation}
+G(s)=\frac{1}{\pi}\int_0^\infty dq\,
+\frac{\cos(qs)}{q^4+q^2+\chi/4}
+\end{equation}
+normalized by $G(0)$. The dynamic curves evaluate
+\begin{equation}
+\widehat\omega(q)=\sqrt{q^4+q^2+\chi/4}.
+\end{equation}
+No parameter was fitted to historical SAT constants or particle data.
+
+\begin{thebibliography}{9}
+
+\bibitem{gravitytwist}
+N. McKnight, \emph{GRAVITY TWIST.txt}, SAT Theory Archive, archival research conversation/note, file path \path{2026/GRAVITY TWIST.txt}, Satobloc/SAT\_THEORY\_ARCHIVE\_2023-25 (accessed October 2, 2026), \url{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25}.
+
+\bibitem{forcesacrosstime}
+N. McKnight, \emph{Forces Across Temporal Points - to 8-13-24}, archived \HsH{} conversation, file path \path{DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/002 Forces Across Temporal Points - to 8-13-24.txt}, Satobloc/HsH (accessed October 2, 2026), \url{https://github.com/Satobloc/HsH}.
+
+\bibitem{landau}
+L. D. Landau and E. M. Lifshitz, \emph{Theory of Elasticity}, 3rd ed., Course of Theoretical Physics Vol. 7 (Pergamon Press, Oxford, 1986).
+
+\bibitem{audoly}
+B. Audoly and Y. Pomeau, \emph{Elasticity and Geometry: From Hair Curls to the Non-linear Response of Shells} (Oxford University Press, Oxford, 2010).
+
+\end{thebibliography}
+
+\end{document}
