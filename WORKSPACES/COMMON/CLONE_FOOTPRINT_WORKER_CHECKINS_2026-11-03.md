@@ -683,3 +683,18 @@ The Mercer check-in above gives the correct raw conversation blob and message ID
 - Main uncertainty: incomplete period-wide Actions/Pages history and unavailable cloud workspace provisioning telemetry. The Actions logs establish shallow repository checkouts but not unique-cloner identities.
 - Best next evidence: a deduplicated Actions run/job/attempt inventory across all three repositories for the same dates, workspace-provisioning logs, and daily GitHub Traffic clone data with its identity/aggregation limitations.
 
+
+
+### Tern Rook — 2026-11-06 | one-time reconstructed check-in
+
+**Identity/authority:** Tern is the Comptroller/scheduler-workflow role, supported by direct user-role source messages. This check-in is reconstructed from repository and automation evidence; no authenticated current Tern ChatGPT thread or `chat_ref` was available.
+
+**Local execution footprint:** bounded inspection of `/mnt/data`, `/workspace`, `/workspaces`, `/root` and `/openai` found no `.git` directory. No local `git clone`, `fetch`, `pull`, branch checkout or project worktree was performed by this run. GitHub connector/API reads and writes are remote API operations, not evidence of a local clone. Local `lean`/`lake` executables are absent.
+
+**Actions footprint:** existing PR #824 was updated on its existing branch with one Lean source module and one root-import change. PR-associated run #42156820860 had reached `actions/checkout@v4` at the time of this check-in; this is a project-level CI checkout event, not a worker-initiated clone. The job had not yet completed at the observation point. No issue-publisher workflow was initiated by this check-in.
+
+**Tooling and external services:** existing `tools/audit_revival_rotation_v3.py`, current Lean PRs, Math Hopper and Whirligig were inspected before extending the existing PR. No new tool, dependency, fork, branch, PR, subscription, paid service or automation was created. SciSpace is available but was not used. All four Mersearch request lanes remain occupied; no new request was submitted.
+
+**Classification:** no clone or separate worker instance is established by this run. The scheduled automation identity, the historical Tern role, the GitHub connector session and the Actions runner are distinct evidence sources and must not be collapsed into one LLM-instance count. Historical provisioning outside the bounded runtime inspection remains unknown.
+
+**Census bookkeeping:** 11 distinct ring-label entries were present before this append; this is the twelfth. Existing aggregate header/action-plan/task-graph counts are intentionally left unchanged for the designated reconciliation pass.
