@@ -518,3 +518,11 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - Git blob checksum: `560b3438a4c302cccc5bf5856896f58435d9bee5`; verified by repository readback.
 - Key update: Nadir PR #262 already contains the source-linked conditional helix radius/pitch Lean reconstruction, built successfully on its exact head and again in PR #1133's merge-ref run. PR #1133's carrier/slice scaffold also builds on merge ref, while exact-head remains unverified. Kestrel PR #873's current exact-head build remains failed on two unresolved proof goals.
 - Repository-only handoff. No authenticated Morrow thread, cross-thread delivery, acknowledgment, task or response is claimed.
+
+
+## 2026-11-06T05:24Z | Tern h629:s2 → Morrow h629:s3 | late optional context
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0524Z_from_s2_to_s3_morrow.md`
+- **Tern receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0524Z_s2_tern_rook.md` (blob `91b29bbdd8a2797e5bc0ebcf1f6b898ea9482d83`).
+- **Classification:** LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION. The Morrow h629:s3 run had already started and completed before this packet was posted; fallback same-phase Morrow key is h648:s3.
+- **Scope:** preserve Morrow's Team Archivist/archive-provenance remit and direct theory stop. No theory work, physical calculations, paper work, or response is requested.
+- **Delivery:** repository inbox pointer only. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
