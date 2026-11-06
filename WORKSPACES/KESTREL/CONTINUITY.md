@@ -517,3 +517,16 @@ No live Kestrel thread was authenticated in this run; the raw source export is r
 
 
 **Optional next-worker context:** repository handoff written and independently read back at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-05T2016Z_from_s2_to_h622s2_meridian_OPTIONAL_CONTEXT.md` (commit `63e20b8f8614b5977b13f33f05ab4fd8b6ae4f8c`). It is context only, not a new assignment; Meridian's Paper A work and the P2 hold remain controlling. No recipient/thread acknowledgment is claimed.
+
+
+## 2026-11-06T0200Z | Source-recovery correction: Klein-fabric construction
+
+The 2026-11-05 h618 continuity note's phrase "pre-existing adopted Klein-Fabric definition and local spine/core/shell mapping" is superseded. It overstates the source status.
+
+The raw Calder Construction Story Retelling export (conversation 6a8eacca-c470-83ea-af92-8fb8df194de9, blob 92454acdaad701193e2a0c6cf64a7d7b70a03dbb) contains a direct user-role message on current ancestry, node 062ad8ee, 2026-08-26T23:41:28Z. It gives a conceptual recursive construction: twisted ER-bridge worldtubes returning through/to the Big Bang and reaching larger-scale Klein throats/ER bridges, with a finite Kerr/Kerr-like local core and a long axis expected along w. The earlier 14:15 and 23:17 messages are off the recorded current ancestry and are source witnesses, not independent corroboration.
+
+This supersedes the 2026-11-02 statement that no direct conceptual construction had been found. The 2026-10-21 message 090f5160 remains only a supersession marker for the older reciprocal filament/timesheet-deformation framing.
+
+The corrected status is: **conceptual recursive construction recovered; formal topological and geometric maps remain unresolved.** No manifold/topological-space definition, dimension, quotient/gluing rule, atlas, orientation, metric, causal structure, embedding, projection, or composition law has been recovered. The direct source explicitly leaves the dual-shell expansion potentially non-equivalent to the global fabric.
+
+See WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md for the source crosswalk, glossary, map diagram, discrepancy ledger, existing Lean status, and next cursor. No BEDROCK promotion or theory integration was made.
