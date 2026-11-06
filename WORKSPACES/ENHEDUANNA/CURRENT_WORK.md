@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-06T20:24Z.
+**Last updated:** 2026-11-06T21:09Z.
 
 ## Run stamp
 
