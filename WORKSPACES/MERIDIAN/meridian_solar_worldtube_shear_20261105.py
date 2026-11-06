@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Measured solar differential rotation -> native R4 material-history geometry.
+"""Measured solar differential rotation -> external Euclidean R4 material-history comparator.
 
 Uses central coefficients from Snodgrass & Ulrich (1990), Table 1.
 The three profiles remain distinct: spectroscopic gas, Doppler residual
 features, and magnetic features. No SAT force law or Cruller parameter is fit.
-All calculations are Planck-first; SI values are printed for legibility.
+All calculations are Planck-first; SI values are printed for legibility. This is not the native SAT/H(s)H time-coordinate mapping.
 """
 import math
 import numpy as np
@@ -115,12 +115,12 @@ for name, p in profiles.items():
 spread = (max(x[1] for x in results)-min(x[1] for x in results)) / np.mean([x[1] for x in results])
 print(f"\nCross-profile max-shear spread / mean = {100*spread:.6f}%")
 
-# Geometry identity: with w=ct and c=1, psi=phi+Omega(lambda)*w.
-# In material coordinates (w,lambda,phi), the induced 3-metric is
-# [[1+R^2 cos^2(lambda) Omega^2, R^2 cos^2(lambda) Omega*w*Omega', R^2 cos^2(lambda) Omega],
-#  [sym., R^2(1+cos^2(lambda) w^2 Omega'^2), R^2 cos^2(lambda) w Omega'],
-#  [sym., sym., R^2 cos^2(lambda)]]
-# and det(g)=R^4 cos^2(lambda), independent of Omega, Omega', w.
+# External comparison only: q=ct, psi=phi+Omega(lambda)*t. Do not identify q
+# with the unresolved native cw=t notation. In material coordinates (q,lambda,phi),
+# the induced 3-metric is the corresponding pullback,
+# and det(g)=c^2 R^4 cos^2(lambda) if t is used as coordinate,
+# or R^4 cos^2(lambda) if q=ct is used as coordinate.
+# independent of Omega, Omega', and q. The q-coordinate form is used below.
 # The unlabelled worldtube is S^2(R) x R, with intrinsic scalar curvature 2/R^2.
 # The material flow has shear but zero surface-area/volume expansion.
 print("CHECK: det(F)=1; det(g_worldtube)=R^4 cos^2(lambda); Theta=0.")
