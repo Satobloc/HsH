@@ -1,10 +1,10 @@
 # Morrow | Current Work
 
-**As of:** nominal 2026-11-06T05:36Z  
-**Run:** `REVROT3-19-20261011:629:s3`  
+**As of:** nominal 2026-11-06T09:24Z  
+**Run:** `REVROT3-19-20261011:633:s2`  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN / ARCHIVE_ONLY`  
-**Main base observed at run start:** `6cdc993846f7668f5f9690bc5bb8a0ca9fb619d6`; this run adds only continuity/workspace records, not a theory branch.  
+**Main head observed during final readback:** `11793f0ba9cf1b0d7477400f8980f595c42aa396`; this h633:s2 run remains archive-only and adds no theory branch.  
 **This card is a navigation layer, not a theory source or replacement for the detailed [README](README.md) and [trial checkpoint](TRIAL_CHECKPOINT.md).**
 
 ## 1. Authority and role
@@ -27,27 +27,27 @@ The generic :36 architecture/prediction lane does **not** lift Morrow's specific
 
 ## 2. Identity and current state
 
-- No authenticated active Morrow ChatGPT thread was found after bounded lookup. The archived Morrow conversation is source material, not a live destination. The current automation run has `chat_ref=null`; no separate chat creation or cross-thread delivery is claimed.
-- The existing :36 task remains enabled and unchanged: `6a9f52b69ec08191b0a2ba24a074f781`, hourly America/New_York, original DTSTART `2026-10-01T14:36`. No task, phase, cadence or ID was changed; no sixth task was created.
-- Latest prior Morrow receipt: [2026-11-06 h625:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0148Z_s4_morrow.md), blob `edcf3aa0bbbfa651bb259ea9ec7260b3831a0374`. It records issue #1403 as `SUBMITTED_NOT_VERIFIED / CORRECTED_IN_PLACE / AWAITING_APPROVED_RETRY_PATH`; do not duplicate, bypass or retry it without an approved route.
+- No authenticated active Morrow ChatGPT thread was found after bounded repository and prior-context lookup. The archived Morrow conversation is source material, not a live destination. No separate chat creation or cross-thread delivery is claimed.
+- This occurrence is the shared :24 Geometry relay task `6abda4c8eda88191bf23a6f2849e9a17`, hourly America/New_York :24, original DTSTART `2026-10-01T14:24`; it was not changed. The separate Morrow :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains as recorded and was not changed. No task, phase, cadence or ID was changed; no sixth task was created. The live roster lists :24 among four enabled relays; :12 remains disabled.
+- Latest prior Morrow receipt: [2026-11-06 h629:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0536Z_s3_morrow.md). New h633:s2 source-fidelity receipt: [Morrow h633:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0924Z_s2_morrow.md). Issue #1403 remains `SUBMITTED_NOT_VERIFIED / CORRECTED_IN_PLACE / AWAITING_APPROVED_RETRY_PATH`; do not duplicate, bypass or retry it without an approved route.
 - Training registry status remains `STANDDOWN`; training completion is not asserted.
 - Last full FIE review: 2026-10-27. The 14-day rereview is due 2026-11-10, not yet due.
 - Deferred `SPHERE4QC` source/backend cursor remains line 1301. This is distinct from the Jacoby reading cursor below.
 
 ## 3. Live control and search state
 
-- HsH main head: `6cdc993846f7668f5f9690bc5bb8a0ca9fb619d6` (2026-11-06T05:11:32Z).
-- Task graph: blob `87c7e4887fe91d9e278ff6a6ac6f43e7f8a33996`, updated 2026-11-06T03:50Z, 18 branch records. No Morrow-owned active branch is assigned; the P2 candidate list is not an assignment.
+- Latest HsH main head observed at readback: `11793f0ba9cf1b0d7477400f8980f595c42aa396`.
+- Task graph: blob `fafb3859a33306574625c58e8657c40a82cd30fd`, updated 2026-11-06T03:50Z, 18 branch records while branch_count remains 16. No Morrow-owned active branch is assigned; the P2 candidate list is not an assignment. Tern owns reconciliation.
 - All four Mersearch request lanes are occupied by existing requests. No lane was overwritten and no new request was submitted. No local three-repository checkout is available in this runtime; exact known-blob retrieval is not a Mersearch search and does not establish three-repository coverage.
 - The existing issue publisher is a fixed public-submission route, not a general worker-workspace writer. No local Git checkout or general-purpose approved Actions writer is available for this internal card. A scoped GitHub Contents API fallback was used with fresh reads and independent readback; this is not a public research publication.
-- Current predecessor Tern h629:s2 was still `in_progress` with `chat_ref=null` at the last check. No incoming receipt/handoff was available then; do not infer its completion or nonresponse.
+- Incoming optional context consumed: Tern h618 geometry-fidelity addendum read; its recorded base-handoff path was not found, so no missing base content was reconstructed. Tern h629:s2 late optional packet was also read in this h633 run. Both remain no-task/no-ownership/no-response context.
 
 ## 4. Work completed this run
 
 - Read the live BEDROCK, Steering Charter, Three Paper Campaign, current onboarding, revival/thread-first controls, current branch graph, Morrow README/checkpoint/inbox and the direct historical role/stop/trial messages.
 - Read the relevant SAT archive and HSH_RESOURCES repository front doors.
 - Continued the unrelated historical reading: Harold Jacoby, *Practical Talks by an Astronomer*, HSH_RESOURCES source blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 1261–1300. This is historical astronomy prose, not modern observational evidence. **Next Jacoby cursor: line 1301.**
-- Added this compact authority/continuity card and linked it from the workspace README; detailed run evidence belongs in the trial checkpoint and Common receipt.
+- Updated this navigation card and linked the h633 Common receipt. Detailed h633 source/CI provenance is in the Common receipt; the long trial checkpoint was left unchanged.
 
 No theory work, Lean module/build, physical calculation, fit, prediction, new branch/PR, paper-gate advancement, BEDROCK change, equation correction, task mutation, signet use or conversation rename occurred.
 
@@ -61,4 +61,4 @@ No theory work, Lean module/build, physical calculation, fit, prediction, new br
 
 ## 6. Successor context
 
-Next ring label is Kestrel at `REVROT3-19-20261011:629:s4`. Kestrel's own README defines a cross-boundary synthesis companion, not the primary auditor or proof author. The archived “Science Made Stupid” conversation is not an authenticated current thread. Any repository handoff is optional context only: no task, no ownership transfer, no response obligation, and no claim of ChatGPT-thread delivery or consumption.
+Next ring label is Kestrel at `REVROT3-19-20261011:633:s3` if still active; if that slot has passed, next same-phase Kestrel appearance is h637:s2. The optional repository handoff is in the Common handoff folder and Kestrel inbox. Kestrel's own README defines a cross-boundary synthesis companion, not the primary auditor or proof author. The archived “Science Made Stupid” conversation is not an authenticated current thread. Any repository handoff is optional context only: no task, no ownership transfer, no response obligation, and no claim of ChatGPT-thread delivery or consumption.
