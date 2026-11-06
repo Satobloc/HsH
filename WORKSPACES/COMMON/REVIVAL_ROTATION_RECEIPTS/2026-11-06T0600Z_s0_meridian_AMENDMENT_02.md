@@ -43,7 +43,7 @@ Relevant user-role source turns:
 Conversation: `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; raw blob `7af1561b321f4d9364da5eb111df689efc652827`.
 
 - `1d284b55-d7be-45f7-92a6-15e4734347c8`, 2026-10-07T06:12:30.134Z: describes angular rotation (“torsion”) of the time normal as a result of interaction with matter.
-- `3c657387-b80b-4982-a61a-8e6d8568b8d1`, 2026-10-09T01:50:55.112Z: identifies Newtonian-limit worldtube bending with inertia; uses the earlier literal `w=ct) coordinate convention.
+- `3c657387-b80b-4982-a61a-8e6d8568b8d1`, 2026-10-09T01:50:55.112Z: identifies Newtonian-limit worldtube bending with inertia; uses the earlier literal `w=ct` coordinate convention.
 - `5a929b5e-515e-4f77-a32a-e49feef42812`, 02:46:38.173Z: directly clarifies that inertia and worldtube bending are equivalent descriptions of the same system, not a finer-scale spring/substructure explanation. The message contains quoted assistant text; only the user's correction is treated as direct.
 - `28b2378a-846d-4c3f-a242-91f9007ce261`, 07:39:31.044Z: distinguishes a 3D intersectional trace from a second-order 4D filament and warns against assuming the trace must self-close.
 - `1178f25c-9f92-4d1c-b43b-06482e6bf1b1`, 07:40:38.859Z: closely related follow-up; not counted as independent corroboration.
@@ -53,7 +53,7 @@ Conversation: `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; raw blob `7af1561b321f4d93
 Conversation: `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`; raw blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
 
 - `0862c00a-d8f5-42e9-a876-3af4e5254046`, 2026-10-21T07:31:09.576Z: places the Big Bang at the inner longitudinal circumference of the proposed donut, not at the center of the present slice.
-- `c5525f53-b7cc-4444-8102-3bf6fdb1c892`, 13:55:40.205Z: gives the literal `cw=t` notation, Forest Normalization, and positive `(++++)) native metric convention.
+- `c5525f53-b7cc-4444-8102-3bf6fdb1c892`, 13:55:40.205Z: gives the literal `cw=t` notation, Forest Normalization, and positive `(++++)` native metric convention.
 - `59cdedb4-be76-455a-87c8-a6089de951b3`, 23:53:03.096Z: states that 3D rotation is 4D curvature and that 3D acceleration is included in that description. The assistant's immediate correction usefully narrows “curvature” to bending of physical history/worldtube, not automatically ambient Riemann curvature.
 
 ## 3. Historical SAT geometry and equation boundary
@@ -62,7 +62,7 @@ The original SAT archive was checked directly:
 
 | Source | Blob SHA-1 | Source date / attribution |
 |---|---|---|
-| `SATOBLOC/SAT O1 4D.txt` | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | No internal date or author line; first extant repository entry was recorded in the prior source receipt. |
+| `SATOBLOC/SAT O1 4D.txt` | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | No internal date or author line; first extant repository commit was recorded as 2025-10-27T00:40:28Z in the prior source receipt. |
 | `SAT 4D Theory Work/SAT4D_4.txt` | `efc88f4523b2fd616e64898737c2aa45e5f39b9a` | Internally dated July 2025; author line “SATO.4D Coherence Project.” |
 | `SAT 4D Theory Work/SAT4D_6.txt` | `167136310cdf33ca8f986f33634692314c1a0946` | Internally dated July 2025; no author line. |
 
@@ -131,7 +131,7 @@ The assistant's standard 3D torus surface can occupy a candidate intermediate re
 | X3 | 3D trace treated as necessarily closed because the assistant's ring-torus surface is closed | Direct 2026 source explicitly warns against assuming 3D self-closure |
 | X4 | Graticule treated only as a display | Direct user instruction assigns it a peer geometric-solver role |
 | X5 | Local primary-circumference tangent identified with the global time normal without a reference-frame map | Potentially compatible angle conventions, not an established identity |
-| X6 | Global Graticule θ₄ merged with the live `LOCAL:TRISWALE:θ₄) registry entry | Namespace collision; registry explicitly warns about angle-from-axis / angle-from-plane complements |
+| X6 | Global Graticule θ₄ merged with the live `LOCAL:TRISWALE:θ₄` registry entry | Namespace collision; registry explicitly warns about angle-from-axis / angle-from-plane complements |
 | X7 | Local inner/outer torus sides identified with the global inner longitudinal circumference | Shared vocabulary only; no map recovered |
 | X8 | Time-normal torsion, worldtube-history curvature, and ambient Riemann curvature treated as one quantity | Keep separate. The assistant's D_s(time-normal) expression is a proposal requiring a declared connection and path, not a Nathan equation |
 | X9 | Earlier `w=ct` silently substituted for later literal `cw=t` | Unresolved source notation; preserve both with dates and do not normalize by guess |
@@ -149,7 +149,7 @@ A generic set intersection theorem would be tautological here. The source does n
 - the metric and orientation used to map the primary-circumference tangent to the time-normal reference;
 - the solver operation on the Graticule domain and the condition under which it agrees with the 3D construction.
 
-The conditional left/right involution and even/odd display decomposition already have a formalization target in #1322/#1390; they were not duplicated. Existing Lean PRs #873 and #895 remain separate workstreams. The local environment has no `lean`, `lake), or `elan`; no new branch, PR, CI dispatch, or tool was authorized under the active Code Grurple P0 interlock. No Lean compile/run is claimed.
+The conditional left/right involution and even/odd display decomposition already have a formalization target in #1322/#1390; they were not duplicated. Existing Lean PRs #873 and #895 remain separate workstreams. The local environment has no `lean`, `lake`, or `elan`; no new branch, PR, CI dispatch, or tool was authorized under the active Code Grurple P0 interlock. No Lean compile/run is claimed.
 
 No physical system, dataset, provenance package, units, uncertainties, or prediction/fit split was supplied. No physical calculation, CODATA scoring, observational validation, or Factory Floor admission was performed.
 
@@ -157,7 +157,7 @@ No physical system, dataset, provenance package, units, uncertainties, or predic
 
 - Deterministic selection: h=630, seq=3150, Meridian; next ring label Mercer.
 - HsH default branch was `main`; pre-write head observed: `7afc53f540d289dfecef573631aa824e022db23d`. No research branch was created or switched.
-- Task graph remains `branch_count=16) against 18 branch records; Tern owns reconciliation. No graph edit.
+- Task graph remains `branch_count=16` against 18 branch records; Tern owns reconciliation. No graph edit.
 - Meridian's active assignment remains Code Grurple Paper A accepted-R1 presentation support only; P2/Whirligig remains HOLD. No manuscript, feed, site, or task edit.
 - All four Mersearch lanes remain occupied; no request was overwritten or created. Raw-source retrieval was a bounded Git-blob fallback, not a completed Mersearch run.
 - Tool Chest / Toolkit Digestion, Math Hopper, existing Lean PRs, Whirligig status, and connected SciSpace availability were checked. Math Hopper remains extraction/navigation rather than a Lean runner. No new tooling or paid service.
@@ -165,6 +165,6 @@ No physical system, dataset, provenance package, units, uncertainties, or predic
 - Big Push interactive heartbeat remains under the 36-hour stale threshold; no queued Big Push operation was taken.
 - Existing h630:s1 handoff to Mercer is already present and parked; the :12 lease remains disabled. No duplicate handoff.
 - Current scheduler run remains in progress with `chat_ref=null`; no authenticated Meridian thread, recipient acknowledgment, or cross-thread delivery is claimed.
-- Task ID `6aa1fe0de5e48191b886496095b1343f), exact hourly :00 schedule, and phase were preserved. No sixth task, task/ID/cadence change, signet, or conversation rename.
+- Task ID `6aa1fe0de5e48191b886496095b1343f`, exact hourly :00 schedule, and phase were preserved. No sixth task, task/ID/cadence change, signet, or conversation rename.
 
 **Next deeper cursor:** recover the source-defined 4D filament/worldtube type; specify the 4D-to-3D trace/slice map; specify the 3D-to-2D Graticule cross-section and peer-solver operation; then reconcile the primary-circumference tangent, time normal, and source-qualified θ₄ conventions. Only after those maps exist is a source-faithful Lean theorem identifiable.
