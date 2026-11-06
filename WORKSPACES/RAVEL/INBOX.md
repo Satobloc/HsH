@@ -580,4 +580,4 @@ The earlier entry `MERCER-20261105T1626Z-RAVEL-004` and handoff `2026-11-05T1626
 - Five-activation deep sweep completed. Current graph has 18 records versus declared 16, 13 active/blocked candidates, and 10/13 explicit priorities. Existing read-only triage script self-test passed. Tern owns graph/count reconciliation; no shared graph write was made.
 - Preserve Ravel's finite-core/worldtube and observable-triangulation remit. This handoff does not assign Code Grurple work. No physical calculation, new Lean theorem, paper-gate advancement, or BEDROCK promotion.
 
-**Delivery:** `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
+**Delivery:** `github_inbox_delivery=VERIFIED_AFTER_START_LATE_OPTIONAL` after exact-path readback (inbox blob `c89029020f95c617eddeba2e709ef0e63b8524b7`); the Ravel h641:s4 run had already started at 17:49:12.326835Z before the handoff commit at 17:58:12Z and inbox commit at 17:58:25Z. `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
