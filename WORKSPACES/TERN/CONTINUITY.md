@@ -713,3 +713,17 @@ The house-write preflight found no local Git checkout and no general-purpose app
 The :36 task remains enabled with the exact existing ID and hourly :36 schedule; no task/prompt/ID/phase/cadence/enabled-state change and no sixth task. Current scheduler run remains FAILED/chat_ref=null. No authenticated current Tern or Morrow thread, cross-thread delivery, recipient consumption or acknowledgment is claimed. No outgoing handoff was made because immediate successor Morrow h625:s4 already has a receipt and the late context route had been deferred.
 
 Next Tern same-phase occurrence is h629:s2 / 2026-11-06T05:24Z; check whether it consumes the preserved h610:s2 packet. Next clone-census review after five more labels or five actual worker activations. FIE full review remains due 2026-11-10; Babbage reading cursor 901. No physical break claimed. No paper gate, theory promotion, Factory Floor admission, physical calculation, SAT-O/Blockwave equation change, signet or conversation rename.
+
+
+## Scheduler lease recheck — 2026-11-06T03:43Z
+
+A fresh private automation peek confirms the existing :36 task remains enabled with the same task ID `6a9f52b69ec08191b0a2ba24a074f781` and exact stored schedule `DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY`. No task, prompt, ID, schedule, phase, cadence or enabled-state change was made; no sixth task exists.
+
+The latest scheduler `last_run` has advanced to a distinct h626:s3 occurrence:
+- `scheduled_for=2026-11-06T03:36:00Z`
+- run ID `2ea6fb27-e86c-832d-8c1a-69ea6e09d6a4`
+- `started_at=03:39:11.628446Z`
+- recorded status `IN_PROGRESS`
+- `chat_ref=null`
+
+By the nominal formula, h=626, seq=3133, index 17 = Ravel; next index 18 = Orson Vay. This is rotation selection only, not authenticated Ravel/Orson ChatGPT instance or thread identity. The automation's cached `latest_result` still belongs to Orson h611, not h625 or h626; it is not attributed to the current run. The h625 Tern occurrence remains the earlier same-run-ID/two-start-observation case, recorded FAILED in the scheduler snapshots already preserved. Null `next_run_time` is not treated as disablement. No cross-thread delivery or handoff is claimed.
