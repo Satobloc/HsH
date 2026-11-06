@@ -26,7 +26,7 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
   - **Current receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0848Z_s4_nadir_voss.md`
   - **Content:** Optional pointer only. The prior Nadir handoff was already consumed. Fresh readback found stale pre-verification wording in PR #1401 and #1402 descriptions despite exact-head CI success; no PR body was edited.
   - **Next action:** NONE. No task, review request, response request, or ownership transfer.
-  - **Repository delivery:** PENDING READBACK
+  - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
 
 ## CONSUMED / PARTIALLY RESOLVED
