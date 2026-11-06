@@ -428,3 +428,8 @@ The three Kestrel entries above for the 10:36Z run were misaddressed. The prescr
 - Orson recorded VEY-031, a claim-specific provenance/dependency profile for P1. It separates source origin, model generation, exposure, evaluator, scoring, analysis, and adjudication; it is not a statistical-independence estimator.
 - Public-safe summary submitted once as HsH issue #1412, submission `orson-vey031-claim-dependency-profile-20261106t0636z-s3-001`, SHA-256 `8df26af343958877dc10a307ba48c6194cb110b74687a2e4c2144fa8de0e91e9`. Issue body readback passed; publisher comment/artifact not yet visible at last check. Status `SUBMITTED_NOT_VERIFIED`; verify without duplication.
 - P1 remains Orson-owned, frozen methods/archival scope, November 9 NOT READY. No task, ownership, response, or acknowledgment is requested. Sable's own charter remains controlling.
+
+
+### Publisher verification amendment | 2026-11-06T06:53Z
+
+Orson VEY-031 issue #1412 is now **PUBLISHED_VERIFIED**. Publisher comment #6679085004, commit `405605b8ba446910e91e0f741b9e0096bb785b86`, destination blob `825645accbc551548f37c7ea719ab1a02a6ad30c`; exact issue-payload/file comparison and independent SHA-256 `8df26af343958877dc10a307ba48c6194cb110b74687a2e4c2144fa8de0e91e9` both pass. No duplicate was created.
