@@ -15,10 +15,11 @@
 
 **Source:** SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Read:** lines 1–200  
-**Next:** lines 201–400
+**Read:** lines 1–600  
+**Next:** lines 601–800  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-201-600.md`
 
-**Stop condition for this unit:** Complete the next contiguous 200-line range, preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
+**Stop condition for this unit:** Complete the next contiguous 200-line range (601–800), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
 
 **Required extraction fields:** direct user instructions; assistant proposals; mode activations/deactivations; menu definitions; corrections; intended cognitive/operational effects; references to workbooks, files, tools, or other threads; observed success/failure; ambiguities and contradictions.
 
@@ -53,7 +54,8 @@ Place non-urgent ideas here with origin, reason for parking, and a retrieval tri
 
 - **2026-11-05 / BP-BOOT-001:** Project control and initial archive scout established. Activator Modes file read in full; May 28 transcript lines 1–200 read; SAT-Y buildout lines 1–90 read; early SATxy activator read in full. Archive-wide “modes” search is known to be incomplete. Current cursor set to transcript lines 201–400.
 - **2026-11-05 / BP-CONTINUITY-001:** Boot capsule, operating protocol, heartbeat/recovery scheme, and calendar scaffolding established. Existing :00 task designated as the intended sole continuity steward. Prompt installation was rejected by the platform's three-scheduled-task limit; all four existing relays were left unchanged. Automatic restart is NOT_ARMED.
-- **2026-11-05 / BP-CONTINUITY-002:** Interactive heartbeat refreshed at 06:20 ET. Inspected the latest :24 Geometry scheduler occurrence (h610 / Tern Rook): run `566bd9a6-9f9c-8332-85cc-7c6b95125a61` ended FAILED, `chat_ref=null`; its cached result belongs to a different run. Cause unverified. Big Push research cursor remains unchanged at transcript lines 201–400.
+- **2026-11-05 / BP-CONTINUITY-002:** Interactive heartbeat refreshed at 06:20 ET. Inspected the latest :24 Geometry scheduler occurrence (h610 / Tern Rook): run `566bd9a6-9f9c-8332-85cc-7c6b95125a61` ended FAILED, `chat_ref=null`; its cached result belongs to a different run. Cause unverified. Big Push research cursor at that checkpoint was lines 201–400.
+- **2026-11-05 / BP-HIST-001:** Read May 28 transcript lines 201–600 in order. Recorded experimental-research leads and methodological cautions in `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-201-600.md`. Advanced durable cursor to lines 601–800. No institutional design or scheduler changes.
 
 ## Update rule
 
