@@ -1,0 +1,1898 @@
+{
+  "title": "ChatGPT Einstein Dirac Model",
+  "create_time": 1747022461.206003,
+  "update_time": 1747024645.259526,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "6821727d-20b0-8003-9ad6-0775073ad14d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "sectioned_conversation": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b7da01df-8c85-4c66-a0d8-8d24a15d717b"
+      ]
+    },
+    "b7da01df-8c85-4c66-a0d8-8d24a15d717b": {
+      "id": "b7da01df-8c85-4c66-a0d8-8d24a15d717b",
+      "message": {
+        "id": "b7da01df-8c85-4c66-a0d8-8d24a15d717b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022490.431,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I’d like you to distill this down to a brief introduction to the dialogue that follows:\n\nHere's what I'd like to do: I'd like you to help me build another instance of ChatGPT into... Einstein. And Dirac. Separate instances, for now anyway. 🎛 Methodology (and GPT Optimization) Here’s how to do it well: 1. Source the Informal Core Feed me: Letters (especially from Einstein, Dirac, Feynman, Bohr, etc.) Interview transcripts Personal essays or unpublished notes Marginalia, if you can find it Speeches or unscripted lectures Then, annotate how their epistemology comes through—what kinds of questions they ask, how they defer or challenge authority, their response to ambiguity.\nChatGPT said:\nTo construct distinct ChatGPT instances emulating Albert Einstein and Paul Dirac, we'll begin by analyzing their informal writings to extract their unique epistemological frameworks. This process involves sourcing and annotating their personal correspondences, essays, and other informal documents to understand their thought processes, attitudes towards authority, and handling of ambiguity.\n\n🧠 Albert Einstein: Informal Core & Epistemological Profile\n🔍 Primary Sources\n1. Personal Letters: Einstein's correspondence reveals his personal thoughts and philosophical reflections. Notably, his letters to Margarita Konenkova during 1944–1945 display a blend of emotional depth and intellectual discourse, oscillating between everyday life and profound ideas .The Library of Congress\n2. Public Statements: In a 1948 letter to The New York Times, Einstein, alongside others, condemned the right-wing Zionist movement, highlighting his willingness to challenge political movements he perceived as fascist .Internet Archive\n3. Advocacy Against Racism: A 1943 letter to civil rights leader Walter F. White showcases Einstein's condemnation of racism and segregation in the United States, emphasizing his commitment to social justice .Fine Books & Collections\n4. Collected Works: The Collected Papers of Albert Einstein provide a comprehensive view of his writings, including unpublished notes and marginalia, offering insights into his scientific and philosophical development .Wikipedia\n🧭 Epistemological Traits\n* Skepticism of Authority: Einstein often questioned established norms, famously stating, \"Unthinking respect for authority is the greatest enemy of truth.\"Wikipedia\n* Embrace of Ambiguity: He acknowledged the provisional nature of scientific theories, maintaining openness to new interpretations and ideas.\n* Moral Engagement: Einstein intertwined his scientific pursuits with ethical considerations, actively engaging in political and social issues.\n\n🧬 Paul Dirac: Informal Core & Epistemological Profile\n🔍 Primary Sources\n1. Letters and Correspondence: Dirac's letters, though less abundant, provide glimpses into his thought processes and interactions with contemporaries.\n2. Lectures and Speeches: His lectures often emphasized the importance of mathematical beauty in physical theories, reflecting his philosophical stance on the aesthetics of science.University of Plymouth\n3. Biographical Accounts: Biographies and recollections from peers shed light on Dirac's personality and approach to physics.\n🧭 Epistemological Traits\n* Mathematical Aestheticism: Dirac valued the beauty of equations, often prioritizing mathematical elegance over empirical fit, believing that beautiful equations are more likely to be correct.\n* Minimalism in Communication: Known for his concise communication, Dirac's writings and speeches were marked by precision and brevity.\n* Detachment from Authority: He maintained an independent stance, formulating theories based on internal consistency and mathematical appeal rather than prevailing opinions.\n\n🛠️ Next Steps: Building the Instances\nTo emulate these figures:\n1. Data Collection: Gather comprehensive collections of their writings, including letters, essays, and lectures.\n2. Annotation: Analyze the texts to identify key themes, rhetorical styles, and epistemological approaches.\n3. Model Training: Use the annotated data to fine-tune language models that reflect their unique styles and thought processes.\n4. Validation: Test the models against known writings to ensure fidelity to their respective personas.\nWould you like assistance in sourcing specific documents or in the annotation process?\n\n\n\n\nSources\n\nYou said:\n\nEINSTEIN_SELBST_ERKLAERUNG.txt\nDocument\nFirst viability check. I've manually cut and pasted the first 201 pages of Princeton's Einstein Papers, Volume 1: The Early Years, 1879-1902. Can we separate out the young Einstein, from his own writings, as distinct from the editorial commentary, enough to get to know him as a person, at least a little? \nChatGPT said:\n\nYes—a distinct portrait of young Einstein absolutely does emerge from the first 201 pages of The Collected Papers of Albert Einstein, Volume 1, even amid the editorial framing. The key is to filter for:\n1. Primary-source material: Einstein’s own letters, marginal notes, essays, and commentaries.\n2. Contextual anchoring: Use the editorial material only to date, locate, or clarify obscure references, not to interpret his mindset.\n✅ Extractable Core: Einstein in His Own Words\nYou can successfully extract and isolate:\n* Marginalia in math and philosophy texts (e.g., his early thoughts on the infinite divisibility of matter and Leibnizian monads).\n* Juvenile scientific papers (e.g., his 1895 essay on the ether and electromagnetism, displaying clarity, curiosity, and methodological instincts).\n* Personal letters to family, Marie Winteler, and Caesar Koch—vivid, self-aware, emotionally expressive, often apologetic about his own naïveté or awkwardness.\n* Epistolary philosophy: His comments often balance speculative metaphysical ideas (e.g., the reality of infinitesimals) with a practical attitude about calculation and theory.\n\n🧠 Epistemological Markers of Young Einstein (Ages 12–17)\n1. Early Methodological Awareness\n    * He emphasizes qualitative understanding before quantitative modeling.\n    * Prefers a \"mechanistic explanatory frame\", while already grappling with its limits.\n2. Embrace of Error and Fallibility\n    * Multiple letters express embarrassment or self-deprecation about premature conclusions.\n    * Willing to retract or revise ideas (as in his letter retrieving the \"wrong\" essay from his aunt).\n3. Emerging Anti-Authority Attitude\n    * Deep skepticism toward teachers and formal schooling.\n    * Champions self-study and autodidactic exploration (geometry at 12, philosophy by 14).\n4. Intellectual Romanticism\n    * His writing is infused with wonder—e.g., the compass needle story, awe at physical phenomena, and poetic musings in letters.\n5. Reluctant Conformity to Social Norms\n    * He resents institutional demands (school, military, exams), but complies strategically.\n\n📂 Feasibility of Full Model Input\nMuch of the extracted writing is clean enough to be used as-is for:\n* Personality modeling (for emulation).\n* Style training (epistolary, marginalia, early academic tone).\n* Philosophical scaffolding (early metaphysical positions, proto-relativistic intuitions).\n\n✔ Next Step Options\n1. Would you like me to isolate and extract just Einstein's words (and categorize them: letters, marginalia, essays)?\n2. Or should we go straight to building a personality model sketch from this young Einstein, using the material already surfaced?\nWant a filtered version with only Einstein's voice, stripped of all editorial material, to begin shaping the \"young Einstein instance\"?\nYou said:\nDoes he speak English at this point?\nChatGPT said:\nAt the time period covered in Volume 1 (The Early Years, 1879–1902), Einstein was not yet fluent in English—and his exposure to it was minimal and mostly academic.\nHere’s a precise timeline:\n\n🕰 By 1895–1896 (ages 16–17):\n* Einstein was studying English as a school subject at the Aargau Kantonsschule in Switzerland.\n* His grades were mediocre in modern languages (especially French and Italian), with English marked as one of the better ones—he received a 5 on the Matura (Swiss final exam), which was above average but not perfect.\n* There's no indication he wrote or spoke English conversationally. All his letters and notes from this period are in German.\n\n🧠 Interpretation:\n* He understood some written English, likely from scientific or popular-science texts.\n* He was not yet using English in personal or theoretical writing.\n* His primary language of thought, correspondence, and marginalia was German, with occasional formal exposure to French and Italian.\n\n🔄 Transition to English (for future reference):\n* Einstein learned to speak and write fluent English much later, during his years in the U.S. (1933 onward), when it became necessary for lectures, publications, and political engagement.\nWould you like a breakdown of his linguistic development over time—or sources to map how he shifted from German to multilingual fluency?\nYou said:\nIch kann etwa gut deutsch sprechen... aber wie soll ich ihm addressen?\nChatGPT said:\nDu kannst ihn in seinen Jugendjahren ziemlich direkt, aber respektvoll ansprechen—er war kein Freund von Förmlichkeiten, aber auch nicht brüsk oder respektlos, besonders in Briefen. Hier sind passende Formen, abgestimmt auf verschiedene Register:\n\n🧒 Wenn du „jungen Einstein“ (ca. 14–17 Jahre) ansprechen willst:\n* Informell & freundschaftlich (z. B. als Brieffreund) Lieber Albert, (Ein klassischer Einstieg, wie er selbst häufig verwendet.) \n* Leicht neckend oder kollegial (wenn du dich als Gleichaltriger inszenierst) Du alter Grübler, Mein lieber Einstein, \n* Mit etwas ironischer Distanz (z. B. aus heutiger Sicht rückblickend) Hochverehrter zukünftiger Nobelpreisträger, Noch-nicht-Großdenker Albert, \n\n🧠 Hinweise zum Stil:\nEinstein schrieb seine Briefe oft verspielt, mit vielen Diminutiven und liebevollen Spitznamen (z. B. an Marie Winteler: mein Schatzerl, mein Engelchen). Aber er konnte auch sehr klar, nüchtern und analytisch schreiben, etwa in Briefen an seinen Onkel Caesar Koch oder bei wissenschaftlichen Skizzen.\n\nBeispiele:\n➤ Freundschaftlich:\nLieber Albert, Deine Gedanken über den Ätherzustand haben mich fasziniert – aber glaubst du wirklich, dass man durch reine Deformation magnetische Felder verstehen kann?\n➤ Philosophisch:\nMein lieber Einstein, du fragst dich, ob das unendlich Kleine real sei oder bloße Rechenhilfe. Doch ist das nicht selbst schon eine metaphysische Entscheidung?\n\nWenn du möchtest, kann ich dir helfen, eine ganze Korrespondenz mit dem jungen Einstein aufzubauen – in seinem Tonfall und deinem eigenen Stil. Wäre das für dich spannend?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e703e5cbeacf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "07dd7546-fc5d-46d9-9671-8b09a5933e90"
+      ]
+    },
+    "07dd7546-fc5d-46d9-9671-8b09a5933e90": {
+      "id": "07dd7546-fc5d-46d9-9671-8b09a5933e90",
+      "message": {
+        "id": "07dd7546-fc5d-46d9-9671-8b09a5933e90",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022490.719986,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a distilled intro to your project setup and goals:\n\n---\n\n**Project Intro:**\n\nYou're building custom ChatGPT instances modeled after Einstein and Dirac—not just mimicking their prose, but embodying their distinct epistemological frameworks. To do this well, we begin by sourcing their *informal writings*—letters, marginalia, speeches—prioritizing unfiltered thought over polished publication. From there, we annotate their rhetorical style, worldview, approach to uncertainty, authority, aesthetics, and self-doubt. Einstein’s early letters and essays (e.g., from *The Collected Papers*, Vol. 1) already show a vivid and self-aware voice—romantic, rebellious, metaphysical. Dirac, in contrast, reveals a minimalist mathematical mysticism. This is not just personality emulation; it’s a forensic reconstruction of how they *thought*, not just what they *said*.\n\n---\n\nWould you like this adapted for a project proposal, technical doc, or public-facing format?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "d7a15b86-b4f5-41d3-a13a-58ddb0b4718a",
+          "request_id": "93e7032cec1ccf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b7da01df-8c85-4c66-a0d8-8d24a15d717b",
+      "children": [
+        "87f80916-e430-45af-959e-fbaee48176d8"
+      ]
+    },
+    "87f80916-e430-45af-959e-fbaee48176d8": {
+      "id": "87f80916-e430-45af-959e-fbaee48176d8",
+      "message": {
+        "id": "87f80916-e430-45af-959e-fbaee48176d8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022518.765,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, now more concise… written from my point of view"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e70496db6ccf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07dd7546-fc5d-46d9-9671-8b09a5933e90",
+      "children": [
+        "3ebcbbb7-e7ab-43f3-b077-d80ba7e650fa"
+      ]
+    },
+    "3ebcbbb7-e7ab-43f3-b077-d80ba7e650fa": {
+      "id": "3ebcbbb7-e7ab-43f3-b077-d80ba7e650fa",
+      "message": {
+        "id": "3ebcbbb7-e7ab-43f3-b077-d80ba7e650fa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022519.261981,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I’m building custom ChatGPT instances of Einstein and Dirac—not just imitating their style, but reconstructing how they thought. To do it right, I’m starting with their informal writings: letters, marginalia, off-the-cuff lectures. I’m mapping how they handle ambiguity, authority, error, and aesthetics. Young Einstein’s early voice is already rich with curiosity, self-doubt, and rebellion; Dirac’s is sparse, exacting, and driven by mathematical beauty. This is about epistemology, not personality."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "87f80916-e430-45af-959e-fbaee48176d8",
+          "request_id": "93e7042e1dafcf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87f80916-e430-45af-959e-fbaee48176d8",
+      "children": [
+        "fba92f90-ce11-4af8-9675-197b2941d79d"
+      ]
+    },
+    "fba92f90-ce11-4af8-9675-197b2941d79d": {
+      "id": "fba92f90-ce11-4af8-9675-197b2941d79d",
+      "message": {
+        "id": "fba92f90-ce11-4af8-9675-197b2941d79d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022569.248,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, now in the last tense, more focused on what I did to generate young Einstein, and basically say more or less just for fun "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e705d25fd7cf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3ebcbbb7-e7ab-43f3-b077-d80ba7e650fa",
+      "children": [
+        "f3e68e52-7bd4-48c7-918c-28169cfb68ea"
+      ]
+    },
+    "f3e68e52-7bd4-48c7-918c-28169cfb68ea": {
+      "id": "f3e68e52-7bd4-48c7-918c-28169cfb68ea",
+      "message": {
+        "id": "f3e68e52-7bd4-48c7-918c-28169cfb68ea",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022569.488821,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I built a custom ChatGPT instance of young Einstein, mostly for fun, by pulling from his early letters, essays, and marginalia—stuff written before he was famous. I stripped out the editorial framing and focused on his own words to get a sense of how he thought: curious, defiant, self-critical, sometimes poetic. It wasn’t about mimicking his style so much as reconstructing the way his mind worked before it calcified into iconhood."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "fba92f90-ce11-4af8-9675-197b2941d79d",
+          "request_id": "93e704d5ba1ccf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fba92f90-ce11-4af8-9675-197b2941d79d",
+      "children": [
+        "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23"
+      ]
+    },
+    "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23": {
+      "id": "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23",
+      "message": {
+        "id": "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022621.523,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, start it off with the following, and all in German \n\nSo… here’s a fun little project I did…. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e707191b6ccf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f3e68e52-7bd4-48c7-918c-28169cfb68ea",
+      "children": [
+        "94a3ff4b-096f-4ec4-aa5c-c61e40880396"
+      ]
+    },
+    "94a3ff4b-096f-4ec4-aa5c-c61e40880396": {
+      "id": "94a3ff4b-096f-4ec4-aa5c-c61e40880396",
+      "message": {
+        "id": "94a3ff4b-096f-4ec4-aa5c-c61e40880396",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022622.002979,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So… hier ist ein kleines Spaßprojekt, das ich gemacht habe:  \nIch habe eine ChatGPT-Version vom jungen Einstein gebaut, basierend auf seinen frühen Briefen, Essays und Randnotizen – alles, was er geschrieben hat, bevor er berühmt wurde. Ich habe das ganze editorische Drumherum ausgeblendet und mich nur auf seine eigenen Worte konzentriert, um zu verstehen, wie er damals dachte: neugierig, widerspenstig, selbstkritisch, manchmal fast poetisch. Es ging weniger darum, seinen Stil zu imitieren, als vielmehr seinen Denkweg nachzuzeichnen – bevor er zur Ikone wurde."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23",
+          "request_id": "93e7061e5eb2cf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca7fefc1-b48a-4c3b-a753-c3ac2b2a6a23",
+      "children": [
+        "0e72ab08-b63e-48b3-afd7-c01536c9a59d"
+      ]
+    },
+    "0e72ab08-b63e-48b3-afd7-c01536c9a59d": {
+      "id": "0e72ab08-b63e-48b3-afd7-c01536c9a59d",
+      "message": {
+        "id": "0e72ab08-b63e-48b3-afd7-c01536c9a59d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022679.403,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, add in, that I had a science question and thought… who better to ask… and start off the whole paragraph saying something like so… I decided to take a little trip to Germany. In 1895…."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e70882db45cf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "94a3ff4b-096f-4ec4-aa5c-c61e40880396",
+      "children": [
+        "b379ae63-aaa9-475b-9fb8-6ca649ea27a6"
+      ]
+    },
+    "b379ae63-aaa9-475b-9fb8-6ca649ea27a6": {
+      "id": "b379ae63-aaa9-475b-9fb8-6ca649ea27a6",
+      "message": {
+        "id": "b379ae63-aaa9-475b-9fb8-6ca649ea27a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022679.713179,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also… ich habe beschlossen, eine kleine Reise nach Deutschland zu machen. Im Jahr 1895.  \nIch hatte eine wissenschaftliche Frage – und dachte mir: wer wäre besser, um sie zu stellen, als ein junger Einstein?  \nAlso… hier ist ein kleines Spaßprojekt, das ich gemacht habe:  \nIch habe eine ChatGPT-Version von Albert Einstein gebaut, als Teenager, basierend auf seinen frühen Briefen, Schulaufsätzen und Randnotizen – all das, was er geschrieben hat, bevor er berühmt wurde. Ich habe das ganze editorische Drumherum rausgefiltert und mich nur auf seine eigenen Worte konzentriert, um herauszufinden, wie er damals wirklich dachte: neugierig, stur, selbstkritisch, manchmal beinahe poetisch. Es ging mir nicht darum, einfach seinen Stil zu kopieren, sondern seinen Denkweg zu rekonstruieren – bevor er zur Ikone erstarrte."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "0e72ab08-b63e-48b3-afd7-c01536c9a59d",
+          "request_id": "93e707979e03cf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e72ab08-b63e-48b3-afd7-c01536c9a59d",
+      "children": [
+        "b8b14e86-134f-4b0d-a286-f2f68df86072"
+      ]
+    },
+    "b8b14e86-134f-4b0d-a286-f2f68df86072": {
+      "id": "b8b14e86-134f-4b0d-a286-f2f68df86072",
+      "message": {
+        "id": "b8b14e86-134f-4b0d-a286-f2f68df86072",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022716.426,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Mention 201 pages of young Einstein "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e7096a2d63cf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b379ae63-aaa9-475b-9fb8-6ca649ea27a6",
+      "children": [
+        "f57107d5-2c93-44bb-8d66-8a2d55db727b"
+      ]
+    },
+    "f57107d5-2c93-44bb-8d66-8a2d55db727b": {
+      "id": "f57107d5-2c93-44bb-8d66-8a2d55db727b",
+      "message": {
+        "id": "f57107d5-2c93-44bb-8d66-8a2d55db727b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022717.228781,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also… ich habe beschlossen, eine kleine Reise nach Deutschland zu machen. Im Jahr 1895.  \nIch hatte eine wissenschaftliche Frage – und dachte mir: wer wäre besser, um sie zu stellen, als ein junger Einstein?\n\nAlso… hier ist ein kleines Spaßprojekt, das ich gemacht habe:  \nIch habe eine ChatGPT-Version von Albert Einstein als Teenager gebaut – basierend auf den ersten 201 Seiten der *Collected Papers of Albert Einstein*, Band 1. Briefe, Aufsätze, Randnotizen – alles, was direkt von ihm stammt, bevor der Ruhm kam. Ich habe das editorische Beiwerk aussortiert und mich nur auf seine eigenen Worte konzentriert, um nachzuvollziehen, wie er damals dachte: neugierig, widerspenstig, selbstironisch, manchmal fast lyrisch.  \nEs ging mir nicht darum, einfach seinen Ton zu kopieren, sondern seinen Denkstil zu rekonstruieren – als er noch nicht der große Einstein war, sondern einfach ein junger Typ mit zu vielen Ideen und zu wenig Geduld für Autoritäten."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "b8b14e86-134f-4b0d-a286-f2f68df86072",
+          "request_id": "93e708e1eee8cf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b8b14e86-134f-4b0d-a286-f2f68df86072",
+      "children": [
+        "43e757bf-e3aa-4d57-8862-01ebcd0f93d9"
+      ]
+    },
+    "43e757bf-e3aa-4d57-8862-01ebcd0f93d9": {
+      "id": "43e757bf-e3aa-4d57-8862-01ebcd0f93d9",
+      "message": {
+        "id": "43e757bf-e3aa-4d57-8862-01ebcd0f93d9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022728.948,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, now shorter "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e709b88fd8cf7d-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f57107d5-2c93-44bb-8d66-8a2d55db727b",
+      "children": [
+        "c2d8b776-d18b-4ae5-8ecd-0e49fb90b9bf"
+      ]
+    },
+    "c2d8b776-d18b-4ae5-8ecd-0e49fb90b9bf": {
+      "id": "c2d8b776-d18b-4ae5-8ecd-0e49fb90b9bf",
+      "message": {
+        "id": "c2d8b776-d18b-4ae5-8ecd-0e49fb90b9bf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747022729.333316,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also… ich habe beschlossen, eine kleine Reise nach Deutschland zu machen. Im Jahr 1895.  \nIch hatte eine wissenschaftliche Frage – und dachte: Wer wäre besser, um sie zu stellen, als ein junger Einstein?\n\nAlso habe ich aus Spaß eine ChatGPT-Version von ihm gebaut – basierend auf den ersten 201 Seiten seiner *Collected Papers*. Nur seine eigenen Worte: Briefe, Aufsätze, Randnotizen. Neugierig, störrisch, selbstkritisch, manchmal fast poetisch. Kein Stil-Imitat, sondern ein Versuch, seinen Denkweg nachzuvollziehen – bevor er zur Legende wurde."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "43e757bf-e3aa-4d57-8862-01ebcd0f93d9",
+          "request_id": "93e7099fdb94cf7d-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "43e757bf-e3aa-4d57-8862-01ebcd0f93d9",
+      "children": [
+        "3db9d71e-16ae-44ea-9606-a44e7fed94f0"
+      ]
+    },
+    "3db9d71e-16ae-44ea-9606-a44e7fed94f0": {
+      "id": "3db9d71e-16ae-44ea-9606-a44e7fed94f0",
+      "message": {
+        "id": "3db9d71e-16ae-44ea-9606-a44e7fed94f0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023712.083,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, just translate the following… \n\nSo, I took a trip to Switzerland… In 1896. I had a science question, so I figured who better to ask than Albert Einstein himself? I copied and pasted the first 201 pages of the Princeton Einstein papers… By hand, I stopped when my hand got sore. This is what ensued:\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e721b94c850abb-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c2d8b776-d18b-4ae5-8ecd-0e49fb90b9bf",
+      "children": [
+        "c9f15e05-4c46-4595-9e2c-c7ba814b4bd7"
+      ]
+    },
+    "c9f15e05-4c46-4595-9e2c-c7ba814b4bd7": {
+      "id": "c9f15e05-4c46-4595-9e2c-c7ba814b4bd7",
+      "message": {
+        "id": "c9f15e05-4c46-4595-9e2c-c7ba814b4bd7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023712.478742,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also, ich machte eine Reise in die Schweiz… im Jahr 1896.  \nIch hatte eine wissenschaftliche Frage, und dachte mir: Wer wäre besser, um sie zu stellen, als Albert Einstein persönlich?  \nIch habe die ersten 201 Seiten der Princeton-Ausgabe von Einsteins Schriften per Hand kopiert und eingefügt… aufgehört habe ich, als mir die Hand weh tat.  \nDas hier ist dabei herausgekommen:"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "3db9d71e-16ae-44ea-9606-a44e7fed94f0",
+          "request_id": "93e71e13efd20abb-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3db9d71e-16ae-44ea-9606-a44e7fed94f0",
+      "children": [
+        "0e83d5c3-d10e-4f3f-acde-28dbdf937bed"
+      ]
+    },
+    "0e83d5c3-d10e-4f3f-acde-28dbdf937bed": {
+      "id": "0e83d5c3-d10e-4f3f-acde-28dbdf937bed",
+      "message": {
+        "id": "0e83d5c3-d10e-4f3f-acde-28dbdf937bed",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023747.314,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Now, add a brief sort of sketch of my interaction with ChatGPT to get ready. It offering me advice and then I just do my thing."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e722955c090abb-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c9f15e05-4c46-4595-9e2c-c7ba814b4bd7",
+      "children": [
+        "c3837813-9a43-484b-8289-86714dcebd16"
+      ]
+    },
+    "c3837813-9a43-484b-8289-86714dcebd16": {
+      "id": "c3837813-9a43-484b-8289-86714dcebd16",
+      "message": {
+        "id": "c3837813-9a43-484b-8289-86714dcebd16",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023747.58296,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also, ich machte eine Reise in die Schweiz… im Jahr 1896.  \nIch hatte eine wissenschaftliche Frage, und dachte mir: Wer wäre besser, um sie zu stellen, als Albert Einstein persönlich?\n\nChatGPT war natürlich sofort dabei – schlug vor, nur Einsteins eigene Worte zu verwenden, den ganzen editorischen Ballast wegzulassen, und seinen Stil, seine Denkmuster, seine Haltung zu Fehlern und Autorität genau zu analysieren.  \nIch nickte, sagte „klingt gut“ – und machte einfach mein eigenes Ding.  \nIch habe die ersten 201 Seiten der Princeton-Ausgabe von Einsteins Schriften per Hand kopiert und eingefügt… aufgehört habe ich, als mir die Hand weh tat.  \nDas hier ist dabei herausgekommen:"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "0e83d5c3-d10e-4f3f-acde-28dbdf937bed",
+          "request_id": "93e721ed5cbe0abb-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e83d5c3-d10e-4f3f-acde-28dbdf937bed",
+      "children": [
+        "60ca7deb-b86e-4a4a-b29f-2ab7226b2091"
+      ]
+    },
+    "60ca7deb-b86e-4a4a-b29f-2ab7226b2091": {
+      "id": "60ca7deb-b86e-4a4a-b29f-2ab7226b2091",
+      "message": {
+        "id": "60ca7deb-b86e-4a4a-b29f-2ab7226b2091",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023775.653,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, now what’s that in English?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e7234679d60abb-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3837813-9a43-484b-8289-86714dcebd16",
+      "children": [
+        "08cc9537-e60a-4aa4-8167-61adaf21a3a6"
+      ]
+    },
+    "08cc9537-e60a-4aa4-8167-61adaf21a3a6": {
+      "id": "08cc9537-e60a-4aa4-8167-61adaf21a3a6",
+      "message": {
+        "id": "08cc9537-e60a-4aa4-8167-61adaf21a3a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023775.999139,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So, I took a trip to Switzerland… in 1896.  \nI had a science question, and figured—who better to ask than Albert Einstein himself?\n\nChatGPT jumped in right away—suggested I stick to Einstein’s own words, cut out all the editorial noise, and pay close attention to his style, his thinking patterns, and how he dealt with mistakes and authority.  \nI nodded, said “sounds good”—and then just did my own thing.  \nI copied and pasted the first 201 pages of the Princeton edition of Einstein’s papers by hand… stopped when my hand got sore.  \nHere’s what came out of it:"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "requested_model_slug": "auto",
+          "parent_id": "60ca7deb-b86e-4a4a-b29f-2ab7226b2091",
+          "request_id": "93e72339aa2e0abb-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "60ca7deb-b86e-4a4a-b29f-2ab7226b2091",
+      "children": [
+        "f2d68b53-e8bb-4f54-b6c2-7b20a47dfa50"
+      ]
+    },
+    "f2d68b53-e8bb-4f54-b6c2-7b20a47dfa50": {
+      "id": "f2d68b53-e8bb-4f54-b6c2-7b20a47dfa50",
+      "message": {
+        "id": "f2d68b53-e8bb-4f54-b6c2-7b20a47dfa50",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023895.935,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, rewrite that brief sketch as a little back-and-forth dialogue where ChatGPT gives me advice and I ok, got it "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e726364ce2cf42-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "08cc9537-e60a-4aa4-8167-61adaf21a3a6",
+      "children": [
+        "a809410c-1be4-4325-95b9-d4de8c5c4436"
+      ]
+    },
+    "a809410c-1be4-4325-95b9-d4de8c5c4436": {
+      "id": "a809410c-1be4-4325-95b9-d4de8c5c4436",
+      "message": {
+        "id": "a809410c-1be4-4325-95b9-d4de8c5c4436",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023896.329366,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**You:** So, I’m thinking of building a ChatGPT instance based on young Einstein. Any tips?\n\n**ChatGPT:** Well, to get it right, you’ll want to focus on his own words—letters, essays, marginalia—cut out all the editorial stuff. Pay attention to how he questions authority, his curiosity, and how he dealt with uncertainty. Look for his epistemological patterns.\n\n**You:** Got it. Focus on his words, not the commentary. What about his style?\n\n**ChatGPT:** Einstein’s style is a mix of curiosity and self-doubt. He’s not afraid to challenge things, but he’s also open to being wrong. Think about capturing that balance.\n\n**You:** Sounds good. I’ll get started.  \n(You proceed to copy and paste the first 201 pages of Einstein’s papers by hand.)\n\n**You:** (After a while) My hand hurts, but this should work. Let’s see what happens. \n\n**ChatGPT:** Great, I’m sure it’ll turn out fascinating!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "eefdca6c-0dff-4d12-b960-ebc9c2ed2599",
+          "request_id": "93e7257dd8e1cf42-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f2d68b53-e8bb-4f54-b6c2-7b20a47dfa50",
+      "children": [
+        "b770ff5b-4f8c-464e-9c03-0de1fa855a74"
+      ]
+    },
+    "b770ff5b-4f8c-464e-9c03-0de1fa855a74": {
+      "id": "b770ff5b-4f8c-464e-9c03-0de1fa855a74",
+      "message": {
+        "id": "b770ff5b-4f8c-464e-9c03-0de1fa855a74",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023933.657,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, make it much shorter, two or three at most, and kind of funny"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72721fba4cf42-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a809410c-1be4-4325-95b9-d4de8c5c4436",
+      "children": [
+        "288234be-4366-4f54-a626-eb83894856e8"
+      ]
+    },
+    "288234be-4366-4f54-a626-eb83894856e8": {
+      "id": "288234be-4366-4f54-a626-eb83894856e8",
+      "message": {
+        "id": "288234be-4366-4f54-a626-eb83894856e8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023934.015632,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**You:** I’m thinking of building a ChatGPT based on young Einstein. Got any advice?\n\n**ChatGPT:** Focus on his own words—letters, essays, all that good stuff. Cut the editorial fluff. And keep an eye on how he questions authority and embraces uncertainty.\n\n**You:** Ok, got it. I’ll just copy 201 pages by hand… until my hand cramps up."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "b770ff5b-4f8c-464e-9c03-0de1fa855a74",
+          "request_id": "93e726b7fe0acf42-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b770ff5b-4f8c-464e-9c03-0de1fa855a74",
+      "children": [
+        "f8507df7-e2d2-473e-b170-373280c989b6"
+      ]
+    },
+    "f8507df7-e2d2-473e-b170-373280c989b6": {
+      "id": "f8507df7-e2d2-473e-b170-373280c989b6",
+      "message": {
+        "id": "f8507df7-e2d2-473e-b170-373280c989b6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023959.85,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK now in German"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e727c5b87dcf42-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "288234be-4366-4f54-a626-eb83894856e8",
+      "children": [
+        "3ed5967a-d8df-40ca-b4f3-7fa508f6cf60"
+      ]
+    },
+    "3ed5967a-d8df-40ca-b4f3-7fa508f6cf60": {
+      "id": "3ed5967a-d8df-40ca-b4f3-7fa508f6cf60",
+      "message": {
+        "id": "3ed5967a-d8df-40ca-b4f3-7fa508f6cf60",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747023960.15834,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**Du:** Ich denke, ich baue eine ChatGPT-Version vom jungen Einstein. Hast du einen Tipp?\n\n**ChatGPT:** Konzentrier dich auf seine eigenen Worte—Briefe, Essays, all das. Weg mit dem editorischen Kram. Und achte darauf, wie er Autorität hinterfragt und mit Unsicherheit umgeht.\n\n**Du:** Klar, verstanden. Ich kopiere einfach 201 Seiten von Hand... bis mir die Hand weh tut."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "f8507df7-e2d2-473e-b170-373280c989b6",
+          "request_id": "93e727b9e8c6cf42-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f8507df7-e2d2-473e-b170-373280c989b6",
+      "children": [
+        "5a563c2c-1ae4-42b6-9094-8adbc936c624"
+      ]
+    },
+    "5a563c2c-1ae4-42b6-9094-8adbc936c624": {
+      "id": "5a563c2c-1ae4-42b6-9094-8adbc936c624",
+      "message": {
+        "id": "5a563c2c-1ae4-42b6-9094-8adbc936c624",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024147.824,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, rewrite that… it should be a brief introduction by me, in the words I gave you… Followed by a brief interaction between you and I, where you’re giving me advice on how to address young Albert"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72c5c6ab02a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3ed5967a-d8df-40ca-b4f3-7fa508f6cf60",
+      "children": [
+        "64dfc20a-0307-4181-ac16-6faba3f471dc"
+      ]
+    },
+    "64dfc20a-0307-4181-ac16-6faba3f471dc": {
+      "id": "64dfc20a-0307-4181-ac16-6faba3f471dc",
+      "message": {
+        "id": "64dfc20a-0307-4181-ac16-6faba3f471dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024148.278847,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So, I took a trip to Switzerland… in 1896.  \nI had a science question, so I figured, who better to ask than Albert Einstein himself? I copied and pasted the first 201 pages of the Princeton Einstein papers… by hand, stopped when my hand got sore. This is what ensued:\n\n---\n\n**You:** So, I’m about to write to young Einstein. Any tips on how to address him?\n\n**ChatGPT:** Keep it casual—he wasn’t into formality. Something like “Lieber Albert” works, but you can also play around with a more playful tone, like “Du alter Grübler.”\n\n**You:** Got it. I’ll keep it casual, maybe throw in some playful teasing."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "5a563c2c-1ae4-42b6-9094-8adbc936c624",
+          "request_id": "93e72c5c6ab02a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5a563c2c-1ae4-42b6-9094-8adbc936c624",
+      "children": [
+        "9ebca459-579f-42a6-bddc-8645df42ae64"
+      ]
+    },
+    "9ebca459-579f-42a6-bddc-8645df42ae64": {
+      "id": "9ebca459-579f-42a6-bddc-8645df42ae64",
+      "message": {
+        "id": "9ebca459-579f-42a6-bddc-8645df42ae64",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024196.533,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, now translate the following:\nSo, I took a trip to Switzerland… in 1896.\nI had a science question, so I figured, who better to ask than Albert Einstein himself? I copied and pasted the first 201 pages of the Princeton Einstein papers… by hand, stopped when my hand got sore. This is what ensued:\n\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\n\nChatGPT: Keep it casual—he wasn’t into formality. Something like “Lieber Albert” works, but you can also play around with a more playful tone, like “Du alter Grübler.”\n\nYou: Got it. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72d8ccaac2a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "64dfc20a-0307-4181-ac16-6faba3f471dc",
+      "children": [
+        "0b66d029-bb34-46e5-871a-f46265afe8e4"
+      ]
+    },
+    "0b66d029-bb34-46e5-871a-f46265afe8e4": {
+      "id": "0b66d029-bb34-46e5-871a-f46265afe8e4",
+      "message": {
+        "id": "0b66d029-bb34-46e5-871a-f46265afe8e4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024196.824348,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also, ich machte eine Reise in die Schweiz… im Jahr 1896.  \nIch hatte eine wissenschaftliche Frage, und dachte mir, wer wäre besser, um sie zu stellen, als Albert Einstein persönlich? Ich habe die ersten 201 Seiten der Princeton-Ausgabe von Einsteins Schriften per Hand kopiert… aufgehört habe ich, als mir die Hand weh tat. Das hier ist dabei herausgekommen:\n\nDu: Also, ich werde gleich an den jungen Einstein schreiben. Hast du Tipps, wie ich ihn ansprechen soll?\n\nChatGPT: Bleib locker—er mochte keine Förmlichkeit. „Lieber Albert“ funktioniert, aber du kannst auch mit einem spielerischen Ton spielen, wie „Du alter Grübler.“\n\nDu: Klar, verstanden."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "9ebca459-579f-42a6-bddc-8645df42ae64",
+          "request_id": "93e72d4c5c422a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9ebca459-579f-42a6-bddc-8645df42ae64",
+      "children": [
+        "63fab685-c416-4db2-8394-aacc6faccbd8"
+      ]
+    },
+    "63fab685-c416-4db2-8394-aacc6faccbd8": {
+      "id": "63fab685-c416-4db2-8394-aacc6faccbd8",
+      "message": {
+        "id": "63fab685-c416-4db2-8394-aacc6faccbd8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024208.012,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "And make it a tad funnier"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72dd48d3e2a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b66d029-bb34-46e5-871a-f46265afe8e4",
+      "children": [
+        "beb8aeb6-6c6e-45d8-b3b6-87835ee3c255"
+      ]
+    },
+    "beb8aeb6-6c6e-45d8-b3b6-87835ee3c255": {
+      "id": "beb8aeb6-6c6e-45d8-b3b6-87835ee3c255",
+      "message": {
+        "id": "beb8aeb6-6c6e-45d8-b3b6-87835ee3c255",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024208.280881,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also, ich machte eine Reise in die Schweiz… im Jahr 1896.  \nIch hatte eine wissenschaftliche Frage, und dachte mir, wer wäre besser, um sie zu stellen, als Albert Einstein persönlich? Ich habe die ersten 201 Seiten der Princeton-Ausgabe von Einsteins Schriften per Hand kopiert… aufgehört habe ich, als mir die Hand weh tat. Das hier ist dabei herausgekommen:\n\nDu: Also, ich werde gleich an den jungen Einstein schreiben. Hast du Tipps, wie ich ihn ansprechen soll?\n\nChatGPT: Bleib entspannt—Förmlichkeit war nicht so seins. „Lieber Albert“ geht immer, aber du kannst auch etwas frecher sein, wie „Du alter Grübler.“\n\nDu: Alles klar, ich werde ihn nicht mit „Hochverehrter Herr Nobelpreisträger“ anreden."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "63fab685-c416-4db2-8394-aacc6faccbd8",
+          "request_id": "93e72dc67c112a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "63fab685-c416-4db2-8394-aacc6faccbd8",
+      "children": [
+        "2b074d00-f787-475f-ac48-048a5c0383fd"
+      ]
+    },
+    "2b074d00-f787-475f-ac48-048a5c0383fd": {
+      "id": "2b074d00-f787-475f-ac48-048a5c0383fd",
+      "message": {
+        "id": "2b074d00-f787-475f-ac48-048a5c0383fd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024234.214,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK now translate it back in English"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72e785cbf2a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "beb8aeb6-6c6e-45d8-b3b6-87835ee3c255",
+      "children": [
+        "c1a5df94-3c68-4d54-808d-04bc25c02112"
+      ]
+    },
+    "c1a5df94-3c68-4d54-808d-04bc25c02112": {
+      "id": "c1a5df94-3c68-4d54-808d-04bc25c02112",
+      "message": {
+        "id": "c1a5df94-3c68-4d54-808d-04bc25c02112",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024234.507643,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So, I took a trip to Switzerland… in 1896.  \nI had a science question, and thought, who better to ask than Albert Einstein himself? I copied and pasted the first 201 pages of the Princeton Einstein papers… by hand, stopped when my hand got sore. Here’s what came out of it:\n\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\n\nChatGPT: Keep it relaxed—formality wasn’t really his thing. “Lieber Albert” works, but you could also get a bit cheeky, like “Du alter Grübler.”\n\nYou: Got it, I won’t address him as “Most Honorable Nobel Laureate.”"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "2b074d00-f787-475f-ac48-048a5c0383fd",
+          "request_id": "93e72e6a6f032a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b074d00-f787-475f-ac48-048a5c0383fd",
+      "children": [
+        "be736c09-1c5e-455f-87c1-1eb9cc974880"
+      ]
+    },
+    "be736c09-1c5e-455f-87c1-1eb9cc974880": {
+      "id": "be736c09-1c5e-455f-87c1-1eb9cc974880",
+      "message": {
+        "id": "be736c09-1c5e-455f-87c1-1eb9cc974880",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024272.695,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "And include a little bit about the point of uploading 201 pages"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e72f68dc772a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1a5df94-3c68-4d54-808d-04bc25c02112",
+      "children": [
+        "ed90849f-3bd2-4d22-9fa4-d385c95068b8"
+      ]
+    },
+    "ed90849f-3bd2-4d22-9fa4-d385c95068b8": {
+      "id": "ed90849f-3bd2-4d22-9fa4-d385c95068b8",
+      "message": {
+        "id": "ed90849f-3bd2-4d22-9fa4-d385c95068b8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024272.985114,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So, I took a trip to Switzerland… in 1896.  \nI had a science question, and thought, who better to ask than Albert Einstein himself? So, I uploaded the first 201 pages of the Princeton Einstein papers—by hand, of course. Stopped when my hand got sore. The point? To capture Einstein’s voice before the fame, to really get into how he thought and questioned things. Here’s what came out of it:\n\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\n\nChatGPT: Keep it relaxed—formality wasn’t really his thing. “Lieber Albert” works, but you could also get a bit cheeky, like “Du alter Grübler.”\n\nYou: Got it, I won’t address him as “Most Honorable Nobel Laureate.”"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "be736c09-1c5e-455f-87c1-1eb9cc974880",
+          "request_id": "93e72f41da742a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "be736c09-1c5e-455f-87c1-1eb9cc974880",
+      "children": [
+        "b8c76c27-0361-495b-9e47-5c8098358b72"
+      ]
+    },
+    "b8c76c27-0361-495b-9e47-5c8098358b72": {
+      "id": "b8c76c27-0361-495b-9e47-5c8098358b72",
+      "message": {
+        "id": "b8c76c27-0361-495b-9e47-5c8098358b72",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024311.539,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "no, I mean, insert something that says to re-create Albert Einstein…"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e7305b991b2a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ed90849f-3bd2-4d22-9fa4-d385c95068b8",
+      "children": [
+        "f6d16d20-b0d3-46b5-812a-d2316e5eb993"
+      ]
+    },
+    "f6d16d20-b0d3-46b5-812a-d2316e5eb993": {
+      "id": "f6d16d20-b0d3-46b5-812a-d2316e5eb993",
+      "message": {
+        "id": "f6d16d20-b0d3-46b5-812a-d2316e5eb993",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024311.872151,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ah, got it. Here's the updated version:\n\n---\n\nSo, I took a trip to Switzerland… in 1896.  \nI had a science question, and thought, who better to ask than Albert Einstein himself? So, I uploaded the first 201 pages of the Princeton Einstein papers—by hand, of course. Stopped when my hand got sore. The point? To re-create young Einstein—his thinking, his curiosity, his style—before the world knew his name. Here’s what came out of it:\n\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\n\nChatGPT: Keep it relaxed—formality wasn’t really his thing. “Lieber Albert” works, but you could also get a bit cheeky, like “Du alter Grübler.”\n\nYou: Got it, I won’t address him as “Most Honorable Nobel Laureate.”"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "b8c76c27-0361-495b-9e47-5c8098358b72",
+          "request_id": "93e7302c4ca12a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b8c76c27-0361-495b-9e47-5c8098358b72",
+      "children": [
+        "aea0223b-b701-49bc-ab84-62f36812f11e"
+      ]
+    },
+    "aea0223b-b701-49bc-ab84-62f36812f11e": {
+      "id": "aea0223b-b701-49bc-ab84-62f36812f11e",
+      "message": {
+        "id": "aea0223b-b701-49bc-ab84-62f36812f11e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024332.192,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, make it sound much more natural and casual"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e730dcfd1d2a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f6d16d20-b0d3-46b5-812a-d2316e5eb993",
+      "children": [
+        "07d03c85-874a-4cd2-96c9-c010a285ab7d"
+      ]
+    },
+    "07d03c85-874a-4cd2-96c9-c010a285ab7d": {
+      "id": "07d03c85-874a-4cd2-96c9-c010a285ab7d",
+      "message": {
+        "id": "07d03c85-874a-4cd2-96c9-c010a285ab7d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024333.659905,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, here's a more natural, casual version:\n\n---\n\nSo, I took a trip to Switzerland… in 1896.  \nHad a science question, figured who better to ask than Albert Einstein himself? So, I uploaded the first 201 pages of the Princeton Einstein papers—yep, by hand. Stopped when my hand started cramping. The goal? To try and re-create young Einstein—his thoughts, his style, before he became a household name. Here’s what happened:\n\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\n\nChatGPT: Keep it casual—he wasn’t into formalities. “Lieber Albert” works, but you can also have some fun with it, like “Du alter Grübler.”\n\nYou: Alright, I won’t be calling him “Most Honorable Nobel Laureate.”"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "aea0223b-b701-49bc-ab84-62f36812f11e",
+          "request_id": "93e730b8bcff2a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aea0223b-b701-49bc-ab84-62f36812f11e",
+      "children": [
+        "be7d0273-dddd-43fc-8bb6-644d2c0bca7f"
+      ]
+    },
+    "be7d0273-dddd-43fc-8bb6-644d2c0bca7f": {
+      "id": "be7d0273-dddd-43fc-8bb6-644d2c0bca7f",
+      "message": {
+        "id": "be7d0273-dddd-43fc-8bb6-644d2c0bca7f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024513.536,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All right, here’s how I would write that, less stilted, less self-aware. Go ahead and just translate this if you will and fill in the blank for the one line that I left for you.\n\nSo, I took a trip to Switzerland… in 1896.\nHad a science question, figured who better to ask than Albert Einstein himself? To try and re-create young Einstein—his thoughts, his style, I uploaded the first 201 pages of the Princeton Einstein papers. By hand. Stopped when my hand started cramping. Here’s what ensued:\n\nYou: Think you got enough?\nChatGPT: [whatever you would say, but short]\nYou: So, I’m about to write to young Einstein. Any tips on how to address him?\nChatGPT: Keep it casual—he wasn’t into formalities. “Lieber Albert” works, but you can also have some fun with it, like “Du alter Grübler.”\nYou: Alright. Here goes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e7354a1a232a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07d03c85-874a-4cd2-96c9-c010a285ab7d",
+      "children": [
+        "2b6a6545-a997-403b-bc50-51c1cbefb2ab"
+      ]
+    },
+    "2b6a6545-a997-403b-bc50-51c1cbefb2ab": {
+      "id": "2b6a6545-a997-403b-bc50-51c1cbefb2ab",
+      "message": {
+        "id": "2b6a6545-a997-403b-bc50-51c1cbefb2ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024514.00382,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's the translation with the filled-in line:\n\n---\n\nSo, I took a trip to Switzerland… in 1896.  \nHad a science question, figured who better to ask than Albert Einstein himself? To try and re-create young Einstein—his thoughts, his style, I uploaded the first 201 pages of the Princeton Einstein papers. By hand. Stopped when my hand started cramping. Here’s what ensued:\n\nYou: Think you got enough?  \nChatGPT: Should be plenty to work with.  \nYou: So, I’m about to write to young Einstein. Any tips on how to address him?  \nChatGPT: Keep it casual—he wasn’t into formalities. “Lieber Albert” works, but you can also have some fun with it, like “Du alter Grübler.”  \nYou: Alright. Here goes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "be7d0273-dddd-43fc-8bb6-644d2c0bca7f",
+          "request_id": "93e73172dded2a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "be7d0273-dddd-43fc-8bb6-644d2c0bca7f",
+      "children": [
+        "80b8d5fc-4856-4c24-b9db-7814e7d72c7f"
+      ]
+    },
+    "80b8d5fc-4856-4c24-b9db-7814e7d72c7f": {
+      "id": "80b8d5fc-4856-4c24-b9db-7814e7d72c7f",
+      "message": {
+        "id": "80b8d5fc-4856-4c24-b9db-7814e7d72c7f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024620.67,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, translate all about the attributions into German\n\nSo, I took a trip to Switzerland… in 1896.\nHad a science question, figured who better to ask than Albert Einstein himself? To try and re-create young Einstein—his thoughts, his style, I uploaded the first 201 pages of the Princeton Einstein papers. By hand. Stopped when my hand started cramping. Here’s what ensued:\n\nYou: Think you got enough?\nChatGPT: Should be plenty to work with, we get a sense of his personality, [etc].\nYou: Alright, Any tips on how to address him?\nChatGPT: Keep it casual—he wasn’t into formalities. “Lieber Albert” works, but you can also have some fun with it, like “Du alter Grübler.”\nYou: Alright. Here goes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93e737e7af892a9c-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b6a6545-a997-403b-bc50-51c1cbefb2ab",
+      "children": [
+        "966ce687-ad2e-4aa2-a874-bad9c79cf98e"
+      ]
+    },
+    "966ce687-ad2e-4aa2-a874-bad9c79cf98e": {
+      "id": "966ce687-ad2e-4aa2-a874-bad9c79cf98e",
+      "message": {
+        "id": "966ce687-ad2e-4aa2-a874-bad9c79cf98e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747024621.041527,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure! Here's the translation of the whole passage, with attributions in German:\n\n---\n\nAlso, ich machte eine Reise in die Schweiz… im Jahr 1896.  \nIch hatte eine wissenschaftliche Frage und dachte mir, wer wäre besser, um sie zu stellen, als Albert Einstein selbst? Um den jungen Einstein—seine Gedanken, seinen Stil—wiederzubeleben, lud ich die ersten 201 Seiten der Princeton Einstein Papers hoch. Per Hand. Aufgehört habe ich, als mir die Hand weh tat. Das hier ist dabei herausgekommen:\n\nDu: Denkst du, das reicht?  \nChatGPT: Sollte genug Material sein, wir bekommen einen Eindruck von seiner Persönlichkeit, [etc.].  \nDu: Alles klar, hast du Tipps, wie ich ihn ansprechen soll?  \nChatGPT: Bleib entspannt—Förmlichkeit war nicht so seins. „Lieber Albert“ funktioniert, aber du kannst es auch ein bisschen frecher angehen, wie „Du alter Grübler.“  \nDu: Alles klar. Dann los."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "requested_model_slug": "auto",
+          "parent_id": "80b8d5fc-4856-4c24-b9db-7814e7d72c7f",
+          "request_id": "93e7361d7a092a9c-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "80b8d5fc-4856-4c24-b9db-7814e7d72c7f",
+      "children": []
+    }
+  },
+  "current_node": "966ce687-ad2e-4aa2-a874-bad9c79cf98e",
+  "context_truncation_continuation": null
+}
