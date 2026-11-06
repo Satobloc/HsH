@@ -149,7 +149,7 @@ This means the four-parameter factorial model can represent any four published a
 - Exact branch head after repair: b00cb22188b67f4857d59fcf9b01e754270ff028
 - The module defines the four-cell map and its inverse over ℚ, proves both inverse identities, and proves Function.Bijective cells.
 
-First CI attempt #42314180277 / run 1053 failed because the coefficient structure had no registered extensionality theorem; failed declarations emitted sorryAx. The module was repaired by registering @[ext] and a replacement exact-head run #42314682998 / run 1054 was submitted. Its final build/axiom status must be read from the completed run before any LEAN_PROVED claim. The module is not a proof of the physical NIST model, its data, covariance, or any H(s)H map.
+First CI attempt #42314180277 / run 1053 failed because the coefficient structure had no registered extensionality theorem; failed declarations emitted sorryAx. The module was repaired by registering @[ext]. Replacement run #42314682998 / run 1054 completed successfully on the PR merge reference (base c7dc2c483f50ae03fc7a7c530829170135e18d92, PR head b00cb22188b67f4857d59fcf9b01e754270ff028). Lean 4.34.0 / Lake 5.0.0 completed the full root build (8,946 jobs). The three new theorem-specific axiom reports list propext, Classical.choice, and Quot.sound. The full job log contains zero sorryAx and zero bare admit occurrences. The separate nanoda and axiom-audit stages were not run; this is not a whole-project no-sorry/axiom audit. The module proves only the formalized four-cell map/inverse bijection, not the physical NIST model, its data, covariance, or any H(s)H map.
 
 ## 5. Source-to-observable architecture
 
