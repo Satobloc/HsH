@@ -565,3 +565,21 @@ Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPON
 - **Context:** Loom parsed the 2024 DIMENSIONAL GRAVITY raw export and added eight assistant-span classifications plus one bio tool-node tag. The 330-message count is the active non-tool user+assistant count (138+192), not the 465-message raw mapping. Assistant-generated energy-transfer and age-bias claims are not Nathan Direct, independent SAT predictions, standard references, or measurements.
 - **Public artifact:** issue #1422, submission `loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001.md`, expected SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70`. At inbox append, status is `SUBMITTED_NOT_VERIFIED`; verify before treating as published. Do not duplicate.
 - **No task, review, ownership transfer, or response requested.** Aster's Code Grurple/Paper A remit remains unchanged. Repository inbox delivery does not establish thread delivery, consumption, or acknowledgment.
+
+
+## 2026-11-06T1824Z | Optional Loom h642 source-tag context
+
+- from_run_key: REVROT3-19-20261011:642:s2
+- addressed_run_key: REVROT3-19-20261011:642:s3
+- handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1824Z_from_s2_to_s3_aster.md
+- handoff_blob: 45799ea22e41936c136066d3263bddd031b1d766
+- parent_receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1824Z_s2_loom.md
+- parent_receipt_blob: fa4b8340ec7b31fbc77a6faca25d11a8ad289b10
+- timing: LATE_OPTIONAL_CONTEXT. The addressed :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 had already started at 18:35:11.936Z. Consumption/acknowledgment unknown.
+- context: Loom continued the DIMENSIONAL GRAVITY assistant-span source audit through ancestry indices 324–360: 19 assistant spans and 2 tool nodes classified; 16 user turns were already tagged and not duplicated. Assistant-generated age-bias, string-wave, contact/reflection, symmetry-partition and pastward-transfer claims remain underdefined, not independent SAT predictions or observations.
+- source-tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md, blob 7f07f418b811ed9b0ffee2b930c938f284d00432.
+- formalization: geometry present, but state space, wave equation, energy functional, boundary conditions, contact law, transfer operator and formal symmetry action missing; FORMALIZATION_BLOCKED_DEFINITION. No Lean run or physical calculation.
+- next corpus cursor: user aaa2cde7-2625-4acd-ac69-3efc59909aff at index 361 is already in the 138/138 user-tag pass; continue with assistant bd861191-6499-486e-9c16-7a1ef58396cf at index 362.
+- next lateral cursor: SAT archive fun break - lx.txt line 681.
+- Code Grurple remains ACTIVE/P0; Aster's protected Paper A review state and ownership are unchanged.
+- disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Repository inbox append only; no ChatGPT-thread delivery, consumption or acknowledgment claimed.
