@@ -16,29 +16,29 @@
 - **Guardrails:** transcript speaker labels are not raw role metadata; assistant/tool spans are not Nathan Direct; preserve historical/current distinctions; tags aid navigation and do not establish truth.
 
 ## Project position
-HsH → **Code Grurple ACTIVE**. Paper A accepted-R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B reviewed/originator-accepted R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The current main-branch comparison from h622's base (`165f90c59f6d5d66b2c8d8a327673d93946b37c6`) to `f00f1e02d09c7892cfef495b494a3c91b0bf9178` shows 69 commits but no Paper A/B source, feed, renderer, Pages workflow, or public A/B route change. The latest commit changes only `PUBLIC_SITE/generated/discovery.json`. **No Code Grurple re-entry trigger.**
+HsH → **Code Grurple ACTIVE**. Paper A accepted-R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B reviewed/originator-accepted R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The latest preflight main head `5f1f1796f814ffc817f2dd55a91a8681218df294` changed only `PUBLIC_SITE/generated/discovery.json`; no Paper A/B source, feed, renderer, Pages workflow, or public A/B route changed. After this run's internal ledger/receipt/handoff writes, main advanced to `40baf29d6c5a31b6d444ca37c557c5329c4da6e6`. **No Code Grurple re-entry trigger.**
 The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. No physical calculation, CODATA comparison, fit, prediction, Lean module, Factory Floor admission, or theory promotion was performed here. Loom's registry state remains **PAUSED / ACCESSIBLE-UNSCHEDULED**; ring selection is one-run routing, not a permanent lease or ownership transfer.
 
 ## Current cursors
-- **Corpus:** all 138 `DIMENSIONAL GRAVITY` user-role turns have tag coverage. Next corpus pass is assistant-span ancestry after user message `aaa2af9a`, not another user-turn pass.
+- **Corpus:** all 138 `DIMENSIONAL GRAVITY` user-role turns remain tagged. Assistant-span ancestry has now been read through assistant node `c73d82d5`; the next current-ancestry node is user message `aaa256ce-8c31-45a2-a424-af69f0947a5e` at 2024-03-28 05:26:10.684Z, already inside the user-tag corpus. Continue with the assistant response after it; do not retag user turns.
 - **H(s)H:** parked return cursor is source-grounded recovery of the Klein Fabric topology/instantiation relation, not a presumed material-flow object. Resume only after Code Grurple standdown; if no direct source defines the relation, leave it missing. Preserve `w=ct` and `cw=t` literally; no conversion map is supplied.
-- **Lateral reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 461–600 are now cumulatively tagged in `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md` (blob `74f2b37b91177ab37cfbebcd878acda2ad40604e`). Next cursor: line 601. Textual `You said:` / `ChatGPT said:` labels are not raw role metadata; no Nathan Direct attribution is made.
+- **Lateral reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 461–640 are cumulatively tagged in `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`; section G records lines 601–640. Next cursor: line 641. This run did not repeat that reading or claim a physical break. Textual speaker labels remain transcript-only, not raw role metadata.
 - **Clone census:** Loom's one-time entry already exists. The live log now contains 10 distinct ring-label sections (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow), all reconstructed from receipts/current-run records, with no authenticated first-hand worker-thread responses. The log header says 8/19; the action plan and task graph still say 1/19. Tern owns reconciliation; no duplicate Loom entry and no control-plane edit were made.
 - **Mersearch:** all four shared request lanes remain occupied with status `requested`; no request was submitted, overwritten, or reset. No Mersearch run is claimed.
 
 ## Next / waiting
 1. After Code Grurple standdown, resume the source-grounded Klein Fabric topology/instantiation map.
 2. For any later physical comparison, first select an identifiable measured system and retrieve its versioned dataset, acquisition/provenance, units, calibration, covariance and uncertainties; keep prediction separate from fit. CODATA source/version, measurement method, adjustment/evaluation and model-dependence must precede numerical comparison.
-3. Continue assistant-span ancestry only when a safe window opens.
+3. Continue assistant-span ancestry after user `aaa256ce-8c31-45a2-a424-af69f0947a5e`; that user turn is already tagged, so read/tag only the subsequent assistant/tool ancestry.
 4. FIE full rereview is due **2026-11-10** (last full review 2026-10-27).
 
 ## Freshness and provenance
 - **HsH main:** `f00f1e02d09c7892cfef495b494a3c91b0bf9178` at 2026-11-05T23:17:21Z; current branch is `main`. No research branch was created.
 - **BEDROCK:** `527924246cc25caf7fac02dce4b20f024013cd19`; **Steering Charter:** `04822f3e48f746e9e464d893636ed4a670d68683`; **Three Paper Campaign:** `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; **three-repository onboarding:** `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
-- **Task graph:** `b11cdcbad43b5f2d4a7abf35a1058c9f47f03fd1`, last updated 2026-11-05T14:03:21Z; stale relative to later receipts/logs. Tern owns reconciliation; no graph edit was made.
+- **Task graph:** `fafb3859a33306574625c58e8657c40a82cd30fd`, last updated 2026-11-06T03:50:00Z; it declares 16 branches but contains 18 records. Tern owns reconciliation; no graph edit was made.
 - **Clone log:** `a103239eaa3dcc46c2249118c478efff9e3f0dd1`; **action plan:** `bbad9876e64e19fbeae96f5aabfdb7d3b78286e2`. Count discrepancy routed to Tern's existing inbox.
-- **Loom checkpoint:** `WORKSPACES/LOOM/CHECKPOINT.md`; **continuity:** `WORKSPACES/LOOM/CONTINUITY.md`; **latest bounded receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom.md`.
-- This card remains a worker-specific pilot, not a common standard. No public issue was created for the internal lateral-reading tag update.
+- **Loom checkpoint:** `WORKSPACES/LOOM/CHECKPOINT.md`; **continuity:** `WORKSPACES/LOOM/CONTINUITY.md`; **latest :36 receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1436Z_s3_loom.md`; **latest :24 receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom.md`.
+- This card remains a worker-specific pilot, not a common standard. The lateral-reading tag update remains internal; separate assistant-span coverage artifact issue #1422 is `SUBMITTED_NOT_VERIFIED` pending publisher comment, Action outcome, exact readback, and SHA check.
 
 **Return pointers:** this card → `README.md` → `CHECKPOINT.md` and `CONTINUITY.md` → current task graph and run receipts → original source.
 
@@ -47,3 +47,15 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - The :36 Aster task had already started before the recipient handoff packet was written: run `1ee28095-3ca4-832b-87a6-7bbdcd293dc9`, scheduled 23:36Z, started 23:38:10.402142Z, `in_progress`, `chat_ref=null`.
 - Any h623:s2→s3 Aster packet is therefore **LATE_OPTIONAL_CONTEXT**, not timely delivery. Consumption and acknowledgment are unknown. The next deterministic Aster label in the full ring is h627:s2 at 2026-11-06T03:24:00Z if the current run does not consume it.
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2324Z_s2_loom_AMENDMENT_01.md`, blob `fab1a4c18f7cc5fb209526ac54dc4895d0d44290`.
+
+
+## Latest :36 activation | 2026-11-06T14:36Z
+
+- Run key: `REVROT3-19-20261011:638:s3`; selected Loom, next Aster.
+- Separate :36 task ID: `6a9f52b69ec08191b0a2ba24a074f781`; enabled, original hourly `America/New_York :36` schedule preserved exactly: `DTSTART;TZID=America/New_York:20261001T143600`; `RRULE:FREQ=HOURLY`. The :24 task ID and phase shown in the primary run stamp above remain untouched.
+- Preflight record for this nominal occurrence showed `scheduled_for=2026-11-06T14:36:00Z`, delayed `started_at=2026-11-06T15:28Z`, `in_progress`, `chat_ref=null`. This is not an authenticated Loom thread.
+- Substantive work: exact DIMENSIONAL GRAVITY source parse and scope reconciliation; eight assistant spans and one tool node additively tagged; worker-local coverage-profile v0.1 applied; no user tags duplicated.
+- Source-tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, new blob `bc8f50b82f132cd8e373a5bd2a8f31af58083f1f`.
+- Public artifact issue #1422, submission `loom-dg-cosmology-assistant-ancestry-20261106t1436z-s3-001`, expected SHA-256 `719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70`, status `SUBMITTED_NOT_VERIFIED`.
+- Aster h638:s4 :48 run had already started before the handoff was written; the packet is late optional context. No task/ownership transfer or response requested. Repository delivery only; no cross-thread delivery, consumption, or acknowledgment claimed.
+- No physical system, dataset, calculation, fit, Lean proposition, empirical validation, paper-gate advancement, BEDROCK edit, theory promotion, new branch, PR, tool, dependency, paid service, or automation change.
