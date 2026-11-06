@@ -411,3 +411,94 @@ theorem ready_transition_is_not_rejoin_or_completion :
 #print axioms ready_transition_is_not_rejoin_or_completion
 
 end HsHVerification.EliasThreadingLifecycle
+
+
+/-!
+# Thread-scope binding: seed version alone does not bind a receipt to a thread
+
+Source anchor: Satobloc/HSH_RESOURCES,
+`tools/workflow_threading_demo.py`, blob
+`ce313e46b1b85ae35028b46a4196d2a945b535d8`.
+
+In the source, `OutputReceipt` has no thread identifier.
+`ThreadState.add_receipt` checks only
+`receipt.seed_version == self.seed.version` before appending; its
+free-form metadata is not read by that method.
+
+The model below gives a receipt an optional origin-thread field solely to
+make the missing scope explicit. `sourceSeedVersionAccepts` abstracts the
+observed seed-version-only predicate. `proposedThreadScopedAccepts` is a
+design proposal, not the current Python implementation.
+
+These theorems concern the encoded predicates only. They do not prove
+Python-source equivalence, authenticate worker labels, or establish
+production behavior.
+-/
+namespace HsHVerification.EliasThreadingReceiptScope
+
+structure ReceiptScope where
+  originThread : Option String
+  seedVersion : String
+  deriving DecidableEq, Repr
+
+/-- Abstraction of the source's seed-version-only add_receipt check. -/
+def sourceSeedVersionAccepts (targetSeedVersion : String) (r : ReceiptScope) : Bool :=
+  r.seedVersion == targetSeedVersion
+
+/-- Proposed additional scope check; not present in the source implementation. -/
+def proposedThreadScopedAccepts (targetThreadId targetSeedVersion : String)
+    (r : ReceiptScope) : Bool :=
+  r.originThread == some targetThreadId && r.seedVersion == targetSeedVersion
+
+def unscopedReceipt : ReceiptScope := ⟨none, "shared-v1"⟩
+def foreignThreadReceipt : ReceiptScope := ⟨some "thread-A", "shared-v1"⟩
+def matchingThreadReceipt : ReceiptScope := ⟨some "thread-B", "shared-v1"⟩
+
+theorem source_gate_accepts_unscoped_matching_version :
+    sourceSeedVersionAccepts "shared-v1" unscopedReceipt = true := by
+  decide
+
+theorem source_gate_accepts_foreign_thread_matching_version :
+    sourceSeedVersionAccepts "shared-v1" foreignThreadReceipt = true := by
+  decide
+
+theorem source_gate_ignores_origin_thread
+    (targetSeedVersion : String) (originA originB : Option String) :
+    sourceSeedVersionAccepts targetSeedVersion
+      ⟨originA, targetSeedVersion⟩ =
+    sourceSeedVersionAccepts targetSeedVersion
+      ⟨originB, targetSeedVersion⟩ := by
+  rfl
+
+theorem source_gate_collapses_missing_and_foreign_thread_scope :
+    sourceSeedVersionAccepts "shared-v1" unscopedReceipt =
+      sourceSeedVersionAccepts "shared-v1" foreignThreadReceipt := by
+  decide
+
+theorem proposed_gate_rejects_missing_thread_scope :
+    proposedThreadScopedAccepts "thread-B" "shared-v1" unscopedReceipt = false := by
+  decide
+
+theorem proposed_gate_rejects_foreign_thread_scope :
+    proposedThreadScopedAccepts "thread-B" "shared-v1" foreignThreadReceipt = false := by
+  decide
+
+theorem proposed_gate_accepts_matching_thread_scope :
+    proposedThreadScopedAccepts "thread-B" "shared-v1" matchingThreadReceipt = true := by
+  decide
+
+#eval sourceSeedVersionAccepts "shared-v1" unscopedReceipt
+#eval sourceSeedVersionAccepts "shared-v1" foreignThreadReceipt
+#eval proposedThreadScopedAccepts "thread-B" "shared-v1" unscopedReceipt
+#eval proposedThreadScopedAccepts "thread-B" "shared-v1" foreignThreadReceipt
+#eval proposedThreadScopedAccepts "thread-B" "shared-v1" matchingThreadReceipt
+
+#print axioms source_gate_accepts_unscoped_matching_version
+#print axioms source_gate_accepts_foreign_thread_matching_version
+#print axioms source_gate_ignores_origin_thread
+#print axioms source_gate_collapses_missing_and_foreign_thread_scope
+#print axioms proposed_gate_rejects_missing_thread_scope
+#print axioms proposed_gate_rejects_foreign_thread_scope
+#print axioms proposed_gate_accepts_matching_thread_scope
+
+end HsHVerification.EliasThreadingReceiptScope
