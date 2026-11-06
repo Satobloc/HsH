@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-06T08:02:41.162611+00:00",
+  "generated_at_utc": "2026-11-06T08:19:53.877805+00:00",
   "date_basis": "original message timestamps; original conversation timestamps only as explicit fallback",
   "roots": [
     {
       "root": "DEVELOPMENT_FULL_CONVOS",
       "counts": {
-        "dated_and_correct": 841,
+        "dated_and_correct": 857,
         "needs_renaming": 0,
         "unresolved_collisions": 0,
         "undatable_conversations": 0,
-        "skipped_not_conversations_or_bad_json": 412
+        "skipped_not_conversations_or_bad_json": 414
       },
       "exceptions": []
     },
@@ -27,11 +27,11 @@
     }
   ],
   "overall_counts": {
-    "dated_and_correct": 861,
+    "dated_and_correct": 877,
     "needs_renaming": 0,
     "unresolved_collisions": 0,
     "undatable_conversations": 0,
-    "skipped_not_conversations_or_bad_json": 419
+    "skipped_not_conversations_or_bad_json": 421
   },
   "fully_tagged": true
 }

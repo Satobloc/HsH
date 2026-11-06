@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-11-06T08:13:31.061367+00:00",
+  "source_state_at_utc": "2026-11-06T08:20:13.709139+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -24,7 +24,7 @@
       "status": "loaded",
       "records": 1271,
       "accepted_json_conversations": 857,
-      "source_generated_at_utc": "2026-11-06T08:13:29.624121+00:00"
+      "source_generated_at_utc": "2026-11-06T08:20:12.424905+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 27,
       "accepted_json_conversations": 20,
-      "source_generated_at_utc": "2026-11-06T08:13:31.061367+00:00"
+      "source_generated_at_utc": "2026-11-06T08:20:13.709139+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
@@ -188,9 +188,9 @@
       "order": 8
     },
     {
-      "id": "a337c65600da",
+      "id": "8147b9315750",
       "title": "Predict the Song Style",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Predict the Song Style - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.15•26.11.01•Predict the Song Style - raw.json",
       "corpus": "development",
       "start_local": "2026-10-15T09:07:22.121000-04:00",
       "end_local": "2026-11-01T21:07:03.926948-05:00",
@@ -199,8 +199,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Predict%20the%20Song%20Style%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Predict%20the%20Song%20Style%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.15%E2%80%A226.11.01%E2%80%A2Predict%20the%20Song%20Style%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.10.15%E2%80%A226.11.01%E2%80%A2Predict%20the%20Song%20Style%20-%20raw.json",
       "order": 9
     },
     {
@@ -8410,9 +8410,9 @@
       "order": 516
     },
     {
-      "id": "c65351d1c896",
+      "id": "975ac5fe91d9",
       "title": "Mind as core sample continuation",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mind as core sample continuation - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22•25.10.22•Mind as core sample continuation - raw.json",
       "corpus": "development",
       "start_local": "2025-10-22T08:47:16.162000-04:00",
       "end_local": "2025-10-22T08:49:05.583479-04:00",
@@ -8421,8 +8421,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mind%20as%20core%20sample%20continuation%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mind%20as%20core%20sample%20continuation%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20-%20raw.json",
       "order": 517
     },
     {
@@ -8442,9 +8442,9 @@
       "order": 518
     },
     {
-      "id": "d35f35c75839",
+      "id": "18585b749e67",
       "title": "Explaining constants verbally",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Explaining constants verbally - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22•25.10.22•Explaining constants verbally - raw.json",
       "corpus": "development",
       "start_local": "2025-10-22T08:00:03.245000-04:00",
       "end_local": "2025-10-22T08:37:55.180803-04:00",
@@ -8453,8 +8453,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Explaining%20constants%20verbally%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Explaining%20constants%20verbally%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20-%20raw.json",
       "order": 519
     },
     {
@@ -8607,9 +8607,9 @@
       "order": 528
     },
     {
-      "id": "aada51ea9014",
+      "id": "005a3c6572f6",
       "title": "Particle geometry analysis",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Particle geometry analysis - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•Particle geometry analysis - raw.json",
       "corpus": "development",
       "start_local": "2025-10-19T12:08:16.211497-04:00",
       "end_local": "2025-10-19T13:10:52.990600-04:00",
@@ -8618,8 +8618,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Particle%20geometry%20analysis%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Particle%20geometry%20analysis%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20-%20raw.json",
       "order": 529
     },
     {
@@ -8767,9 +8767,9 @@
       "order": 538
     },
     {
-      "id": "5adbcadfb26c",
+      "id": "36be6d722c64",
       "title": "Full action definitions",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Full action definitions - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•Full action definitions - raw.json",
       "corpus": "development",
       "start_local": "2025-10-19T08:29:41.119443-04:00",
       "end_local": "2025-10-19T14:00:41.714371-04:00",
@@ -8778,8 +8778,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Full%20action%20definitions%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Full%20action%20definitions%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20-%20raw.json",
       "order": 539
     },
     {
@@ -9610,9 +9610,9 @@
       "order": 586
     },
     {
-      "id": "47a61711d30b",
+      "id": "594caf24d70e",
       "title": "Modes menu details",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Modes menu details - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.19•25.09.19•Modes menu details - raw.json",
       "corpus": "development",
       "start_local": "2025-09-19T17:11:10.982878-04:00",
       "end_local": "2025-09-19T17:11:12.804198-04:00",
@@ -9621,8 +9621,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Modes%20menu%20details%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Modes%20menu%20details%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.19%E2%80%A225.09.19%E2%80%A2Modes%20menu%20details%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.19%E2%80%A225.09.19%E2%80%A2Modes%20menu%20details%20-%20raw.json",
       "order": 587
     },
     {
@@ -9756,9 +9756,9 @@
       "order": 595
     },
     {
-      "id": "f836d8ef1662",
+      "id": "4855708ceee0",
       "title": "File access details",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File access details - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.17•25.09.17•File access details - raw.json",
       "corpus": "development",
       "start_local": "2025-09-17T07:50:16.245038-04:00",
       "end_local": "2025-09-17T09:37:34.101141-04:00",
@@ -9767,8 +9767,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File%20access%20details%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File%20access%20details%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.17%E2%80%A225.09.17%E2%80%A2File%20access%20details%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.17%E2%80%A225.09.17%E2%80%A2File%20access%20details%20-%20raw.json",
       "order": 596
     },
     {
@@ -9836,9 +9836,9 @@
       "order": 600
     },
     {
-      "id": "c8496e13b873",
+      "id": "3a34bef7b8f3",
       "title": "Document access confirmation",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Document access confirmation - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16•25.09.16•Document access confirmation - raw.json",
       "corpus": "development",
       "start_local": "2025-09-16T12:30:28.418233-04:00",
       "end_local": "2025-09-16T12:30:31.736641-04:00",
@@ -9847,8 +9847,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Document%20access%20confirmation%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Document%20access%20confirmation%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20-%20raw.json",
       "order": 601
     },
     {
@@ -9932,9 +9932,9 @@
       "order": 606
     },
     {
-      "id": "97158196fd9a",
+      "id": "ccc2df964fe9",
       "title": "Lagrangian derivations explained",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian derivations explained - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15•25.09.15•Lagrangian derivations explained - raw.json",
       "corpus": "development",
       "start_local": "2025-09-15T20:26:14.537476-04:00",
       "end_local": "2025-09-15T20:58:16.210693-04:00",
@@ -9943,8 +9943,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian%20derivations%20explained%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian%20derivations%20explained%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20-%20raw.json",
       "order": 607
     },
     {
@@ -9964,9 +9964,9 @@
       "order": 608
     },
     {
-      "id": "892786f2bb05",
+      "id": "25182fca98e9",
       "title": "File access confirmation",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File access confirmation - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15•25.09.15•File access confirmation - raw.json",
       "corpus": "development",
       "start_local": "2025-09-15T18:54:53.232647-04:00",
       "end_local": "2025-09-15T18:55:45.055410-04:00",
@@ -9975,8 +9975,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File%20access%20confirmation%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/File%20access%20confirmation%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2File%20access%20confirmation%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2File%20access%20confirmation%20-%20raw.json",
       "order": 609
     },
     {
@@ -10060,9 +10060,9 @@
       "order": 614
     },
     {
-      "id": "988c6db774af",
+      "id": "b3efbc555a8a",
       "title": "Jargon removal request",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Jargon removal request - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Jargon removal request - raw.json",
       "corpus": "development",
       "start_local": "2025-09-13T15:44:58.043490-04:00",
       "end_local": "2025-09-13T16:15:21.830008-04:00",
@@ -10071,8 +10071,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Jargon%20removal%20request%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Jargon%20removal%20request%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20-%20raw.json",
       "order": 615
     },
     {
@@ -10124,9 +10124,9 @@
       "order": 618
     },
     {
-      "id": "ddc5fb671505",
+      "id": "f26de601399f",
       "title": "Next steps in model-building",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Next steps in model-building - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Next steps in model-building - raw.json",
       "corpus": "development",
       "start_local": "2025-09-13T11:30:26.992594-04:00",
       "end_local": "2025-09-13T12:23:56.991758-04:00",
@@ -10135,8 +10135,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Next%20steps%20in%20model-building%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Next%20steps%20in%20model-building%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20-%20raw.json",
       "order": 619
     },
     {
@@ -10172,9 +10172,9 @@
       "order": 621
     },
     {
-      "id": "c1bdeacd4663",
+      "id": "52c347c9185c",
       "title": "Lagrangian definitions summary",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian definitions summary - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Lagrangian definitions summary - raw.json",
       "corpus": "development",
       "start_local": "2025-09-13T10:53:47.585736-04:00",
       "end_local": "2025-09-13T11:28:05.051226-04:00",
@@ -10183,8 +10183,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian%20definitions%20summary%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Lagrangian%20definitions%20summary%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Lagrangian%20definitions%20summary%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Lagrangian%20definitions%20summary%20-%20raw.json",
       "order": 622
     },
     {
@@ -10236,9 +10236,9 @@
       "order": 625
     },
     {
-      "id": "fd0955ed8ad2",
+      "id": "47bd39ee4276",
       "title": "Progress update",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Progress update - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Progress update - raw.json",
       "corpus": "development",
       "start_local": "2025-09-13T01:37:25.912000-04:00",
       "end_local": "2025-09-13T01:57:10.525919-04:00",
@@ -10247,8 +10247,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Progress%20update%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Progress%20update%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Progress%20update%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Progress%20update%20-%20raw.json",
       "order": 626
     },
     {
@@ -12058,9 +12058,9 @@
       "order": 738
     },
     {
-      "id": "9e96c3a568f7",
+      "id": "805dba1c4319",
       "title": "Mode List Request",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mode List Request - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30•25.05.30•Mode List Request - raw.json",
       "corpus": "development",
       "start_local": "2025-05-30T21:40:36.238000-04:00",
       "end_local": "2025-05-30T21:48:33.843921-04:00",
@@ -12069,8 +12069,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mode%20List%20Request%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Mode%20List%20Request%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.30%E2%80%A2Mode%20List%20Request%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.30%E2%80%A2Mode%20List%20Request%20-%20raw.json",
       "order": 739
     },
     {
@@ -12250,9 +12250,9 @@
       "order": 750
     },
     {
-      "id": "1648bdd66fae",
+      "id": "24a4c4e15956",
       "title": "Nabla and Dot Product",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nabla and Dot Product - raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28•25.05.28•Nabla and Dot Product - raw.json",
       "corpus": "development",
       "start_local": "2025-05-28T01:21:43.574000-04:00",
       "end_local": "2025-05-28T06:58:08.989362-04:00",
@@ -12261,8 +12261,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nabla%20and%20Dot%20Product%20-%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nabla%20and%20Dot%20Product%20-%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28%E2%80%A225.05.28%E2%80%A2Nabla%20and%20Dot%20Product%20-%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28%E2%80%A225.05.28%E2%80%A2Nabla%20and%20Dot%20Product%20-%20raw.json",
       "order": 751
     },
     {
@@ -14275,7 +14275,7 @@
     },
     {
       "id": "c43b04cdb10c",
-      "title": "Exploring Cosmos through Mind",
+      "title": "Exploring Cosmos through Mind.",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.14•24.03.14•Exploring Cosmos through Mind. — raw.json",
       "corpus": "development",
       "start_local": "2024-03-14T17:44:13.553742-04:00",
@@ -14291,7 +14291,7 @@
     },
     {
       "id": "a76d85c95628",
-      "title": "Exploring Cosmos through Mind",
+      "title": "Exploring Cosmos through Mind.",
       "path": "DEVELOPMENT_FULL_CONVOS/24.03.14•24.03.14•Exploring Cosmos through Mind. — raw.json",
       "corpus": "development",
       "start_local": "2024-03-14T17:44:13.553742-04:00",
@@ -14611,7 +14611,7 @@
     },
     {
       "id": "20e6aa77c32b",
-      "title": "Notation for Set Theory",
+      "title": "Notation for Set Theory.",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25•23.04.25•Notation for Set Theory. — raw.json",
       "corpus": "development",
       "start_local": "2023-04-25T15:01:59.025246-04:00",
