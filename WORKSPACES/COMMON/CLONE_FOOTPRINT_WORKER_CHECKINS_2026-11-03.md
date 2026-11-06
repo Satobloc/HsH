@@ -631,3 +631,55 @@ A direct update of the four relay prompts was attempted through the Automations 
 ### Append-only correction — Mercer source timestamp — 2026-11-06T0230Z
 
 The Mercer check-in above gives the correct raw conversation blob and message ID but an incorrect UTC timestamp. The source message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` has `create_time=1790888167.264`, which converts to **2026-10-01T20:56:07.264Z**, not 14:16:07Z. This correction changes only the timestamp; the source blob, message identity, speaker role and charter wording are unchanged. The h603 Mercer workspace report independently records the same correct timestamp.
+
+
+### Aster (deterministic ring label, index 2; reconstructed report, not an authenticated worker) — 2026-11-06T0324Z
+
+**Identity / provenance**
+- Worker identity and role: Aster ring label; historical remit is Nathan-attributed source-fidelity review plus a separate Paper A review assignment. The live Code Grurple roster freezes Aster's formal Paper A review; this check-in does not reopen it.
+- Report type: reconstructed from repository state, issue-publisher records and Actions job logs, plus a read-only inspection of this run's local runtime. No first-hand historical Aster-thread report is claimed; the current scheduled run had no authenticated chat reference.
+- Date range actually covered: primary survey window 2026-10-19 through 2026-11-03; one post-window comparison on 2026-11-05; current runtime inspected 2026-11-06.
+- Sources/logs inspected: Aster worker card and historical-source locator; Aster-related issues #1203 and #1303; Actions runs #41294486797 and #41607912482, their jobs/steps/logs; the current local runtime filesystem; current Common task and Mersearch request state.
+- Confidence: **high** for the two identified Actions checkout events and their job-level execution; **low/unknown** for the complete period-wide clone total and any worker-to-runner identity mapping.
+
+**Repositories and environments**
+- Repositories accessed in this run: HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES, through GitHub connector/API reads. No project repository was locally checked out in the current runtime.
+- Tools/backends used: GitHub connector/API file, blob, issue and Actions run/job/step/log reads; local read-only filesystem inspection. No local `git clone`, `git fetch` or `git pull` was executed.
+- Environments: one current local runtime inspected, with no HsH/SAT archive/HSH_RESOURCES `.git` checkout found. Two distinct GitHub Actions runner jobs in the survey window are confirmed to have initialized and shallow-fetched an HsH checkout. A third separate HsH Actions checkout is confirmed after the primary window. These are runner workspaces, not authenticated worker identities.
+- Credentials, IP addresses and cloud egress identity: **UNKNOWN**. No secrets or credentials were inspected; no unique-cloner attribution is possible from these records.
+
+**Potential clone-producing operations**
+- Explicit local `git clone` / shallow clone: **0 observed in this run**; historical local-clone activity outside the inspected runtime remains UNKNOWN.
+- GitHub Actions `actions/checkout` in the primary window: **2 confirmed likely clone-producing events**, both HsH only:
+  1. Issue #1203, 2026-11-01. Workflow run #41294486797, job #124812349970. The checkout step completed; logs show `git init` and a depth-1 fetch of HsH. The publisher then reported `REJECTED: invalid schema`; the checkout still occurred before that disposition.
+  2. Issue #1303, 2026-11-03. Workflow run #41607912482, job #125822261821. The checkout step completed; logs show `git init` and a depth-1 fetch of HsH. The publisher completed successfully and the report records exact artifact readback.
+- Cloud/Codex/agent workspace provisioning with a repository already present: **UNKNOWN**.
+- Other verified clone-producing operations attributable to this Aster-labelled work: none found.
+- Estimated total confirmed/likely clone events in the primary window: **2**, both HsH. This is a project-workflow event count, not a count of unique workers or unique cloners.
+- Estimated possible total including unknown provisioning: **2 + UNKNOWN**; no finite defensible upper bound.
+- Typical rate: event-triggered by two Aster-associated issue-publisher submissions in the inspected window. No per-turn or per-day worker clone rate is inferred.
+- Post-window comparison, excluded from the primary count: issue #1395, 2026-11-05, workflow run #42076838418, job #127419191605; `actions/checkout@v4`, `git init` and depth-1 HsH fetch completed successfully.
+
+**Non-clone repository activity**
+- Current-run API/connector reads: repository metadata, file contents, raw conversation blob, issue metadata/comments, Actions run/job/step/log metadata, and compact Mersearch manifests/receipts.
+- Individual file/blob fetches and issue reads are API activity, **not full clones**.
+- The shallow fetches shown inside each `actions/checkout` job are counted once as part of that checkout event, not as additional clones.
+- No archive download or local repository synchronization occurred in the current runtime.
+- The current-run append to this designated response log is a GitHub Contents API write, not a clone.
+
+**Workflow and tool changes**
+- No new tool, fork, dependency, paid service or workflow was introduced. The existing issue-publisher workflow uses `actions/checkout@v4`; this run reused its recorded telemetry and did not trigger a new publication.
+- The current four Mersearch request files remain `requested` and occupied. Existing completed request directories have compact manifests/receipts, while raw `SEARCH_RESULTS` are withheld by the established publication policy. No new Mersearch request or run was created, and no occupied lane was overwritten.
+- No repeated checkout, matrix or retry pattern was established for the two in-window Aster-associated runs.
+
+**Impression of other workers**
+- No direct observation of another worker's local clone behavior.
+- Project-level Actions checkouts from other workers/workflows are not attributed to Aster. The two events above are associated with Aster-labelled issue submissions, but do not authenticate a particular model instance, person, IP or persistent runner.
+
+**Best estimate**
+- Low estimate: **2** confirmed likely checkout events in the primary window.
+- Central estimate: **2 known events**, with provisioning and uninspected workflows left UNKNOWN.
+- High estimate: **at least 2; additional events remain unbounded by the available evidence**.
+- Main uncertainty: incomplete period-wide Actions/Pages history and unavailable cloud workspace provisioning telemetry. The Actions logs establish shallow repository checkouts but not unique-cloner identities.
+- Best next evidence: a deduplicated Actions run/job/attempt inventory across all three repositories for the same dates, workspace-provisioning logs, and daily GitHub Traffic clone data with its identity/aggregation limitations.
+
