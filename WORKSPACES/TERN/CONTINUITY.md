@@ -732,3 +732,8 @@ By the nominal formula, h=626, seq=3133, index 17 = Ravel; next index 18 = Orson
 ## PR #824 base-scope correction — 2026-11-06T03:55Z
 
 The successful run #42156820860 built merge reference `ddbfbb5458b75810849b2776f84c91979c547073`, merging PR head `d391530cc9c894e519cca41b298f23ea5c4dc60c` into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. A fresh PR metadata readback reports the current base branch head as `61cc8b65ffed70296e0121dbae067892a79c81d4`. GitHub compare reports c7dc2c is four commits ahead of 61cc8b, with 61cc8b as merge base. Cause unknown; no branch was modified. The build proves only the logged merge-ref state, not the current PR base/head combination or exact-head standalone compilation. A fresh merge-ref build against the current base is needed for stronger verification.
+
+
+## Preflight-order correction — 2026-11-06T03:58Z
+
+The required live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival/thread-first documents, current branch/receipts and write-route standards were retrieved and reviewed during this occurrence, but after the first implementation actions rather than before them. The initial start-time calculation briefly produced the Ravel counterfactual before being corrected to the nominal `scheduled_for`; no Ravel workspace write occurred. Initial internal-file and PR writes also preceded the house-write preflight. This process-order deviation is recorded; subsequent updates used create-only or current-blob SHA compare-and-swap operations and independent readback. No task ID, schedule, phase, cadence, automation count or theory status changed.
