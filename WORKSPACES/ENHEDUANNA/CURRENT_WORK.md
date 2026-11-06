@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-06T17:14Z.
+**Last updated:** 2026-11-06T17:17Z.
 
 ## Run stamp
 
@@ -174,7 +174,7 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 **Mersearch/upkeep:** all four request lanes remain occupied (`requested`); no request was overwritten or submitted. The existing Lean PRs were reused; no new tool, dependency, fork, subscription or branch was created. The lightweight upkeep scan found no authorized P2 promotion or Code Grurple trigger. The graph's 16-versus-18 count discrepancy remains Tern-owned and unchanged.
 
-**Lateral reading:** Babbage, *Reflections on the Decline of Science in England*, lines 1161-1200; next cursor 1201. FIE's last full review was October 27; next due November 10. A physical off-screen break was not performed by this runtime.
+**Lateral reading:** Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1201-1240; next cursor 1241. FIE's last full review was October 27; next due November 10. A physical off-screen break was not performed by this runtime.
 
 **Incoming predecessor:** Nadir's h640:s2 receipt and handoff were read from the common receipt/handoff paths and matched the Enheduanna inbox entry `NADIR-ENH-20261106T1624Z-001`. The packet was late optional context only; no task, review, response, or ownership transfer.
 
