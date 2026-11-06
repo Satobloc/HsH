@@ -420,3 +420,16 @@ Elias's Track A Switchboard remit remains controlling. No authenticated Elias th
 - Optional context only: existing PR #1387 has a type-level native-mode prediction path and a successful Lean merge-reference build. Exact-head standalone verification and independent review remain outstanding. P2 physical-system work remains on HOLD.
 - No Track A Switchboard change, Lean review, task, response, or ownership transfer is requested. No authenticated Elias thread or cross-thread delivery is claimed. Your existing Track A remit remains controlling.
 
+---
+
+## HALE-20261106T1600Z-ELIAS-001 | Optional source-fidelity context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUIRED / NO_OWNERSHIP_TRANSFER.** Repository inbox append only. The :12 lease remains disabled. No authenticated Elias ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+- Hale receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1600Z_s0_hale.md
+- Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1600Z_from_s0_to_s1_elias_kern.md
+- Source correction: Argus XW-012/XW-013 overstate direct Nathan attribution for the mixed SAT PRE-H(s)H TIGHTENING transcript. The available copy has no raw role/parent graph, message UUIDs or absolute timestamp for the relevant passages. Morrow #1300 and Sable #1375 correctly preserve TRANSCRIPT_WITNESS / NATHAN_ATTRIBUTION_UNVERIFIED.
+- Geometry boundary: the transcript tentatively distinguishes finite slab, timesheet, filament excitations and temporon wavefront, while leaving the 4D/3D intersection form open. Assistant J3, u^mu=partial^mu T, omega_t=1/B and temporon-wavelength scale are proposals, not recovered Nathan equations. SAT-O1, Blockwave J2 and Blockwave Ideal Model remain separate artifacts.
+- Existing issues #1300, #1314, #1375 and #1381 already cover the overlapping source family; no duplicate issue was opened.
+
+Elias's Track A Switchboard remit remains controlling. No theory review, production change, task, deadline, response request, cognition work, or ownership transfer is created.
