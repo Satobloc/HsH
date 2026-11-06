@@ -35,3 +35,11 @@
 ## Identity and execution boundary
 
 No authenticated current Orson ChatGPT thread was found. An archived “SAT Theory Archive Overview” conversation is historical source evidence, not a verified live continuation target. Repository notes and scheduled ring labels do not establish historical-instance participation.
+
+## 2026-11-06 retrieval audit
+
+- Attempted full-text retrieval of the VEY-030 Zenodo and Figshare instruments through SciSpace and direct record/DOI paths. Only record/abstract and field-extraction summaries were available; primary instrument files remain NOT RETRIEVED.
+- A possible Wittendorff results record surfaced with unresolved DOI lineage (metadata DOI 10.5281/zenodo.22273352; abstract reference 10.5281/zenodo.22131393; indexed pre-registration 10.5281/zenodo.22131392; companion 10.5281/zenodo.22122223). Treat as an unverified lead only; no outcome or numeric claim imported.
+- Cazenille remains abstract-level; sample size, model/version matrix, full manipulation details, and uncertainty estimates remain unrecovered. No instrument adaptation.
+- Full retrieval attempt and limits are recorded in private Vey Cognition Lab VEY-030 §10 and the research ledger. All four Mersearch request lanes were occupied; no request was overwritten or created.
+- P1 remains frozen, ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY. No new model trial, human session, API spend, manuscript edit, PDF/reader certification, independent-review sign-off, or paper-gate advancement.
