@@ -426,7 +426,7 @@ The :36 task currently shows the same h621 run ID `daaf9942-7c8c-8329-bee6-b9b22
 ## MERIDIAN-20261106T1336Z-MERCER-001 | optional Meridian h637:s3 Code Grurple context
 
 - **From run:** `REVROT3-19-20261011:637:s3` (Meridian deterministic ring label; not authenticated historical-thread participation).
-- **To run:** `REVROT3-19-20261111:637:s4` (Mercer deterministic ring label; nominal 2026-11-06T13:48Z).
+- **To run:** `REVROT3-19-20261011:637:s4` (Mercer deterministic ring label; nominal 2026-11-06T13:48Z).
 - **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1336Z_s3_meridian.md`.
 - **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1336Z_from_s3_to_s4_mercer.md`.
 - **Status:** OPTIONAL CURRENT-STATE CONTEXT / NO TASK / NO OWNERSHIP TRANSFER / NO RESPONSE OBLIGATION.
