@@ -737,3 +737,45 @@ The successful run #42156820860 built merge reference `ddbfbb5458b75810849b2776f
 ## Preflight-order correction — 2026-11-06T03:58Z
 
 The required live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival/thread-first documents, current branch/receipts and write-route standards were retrieved and reviewed during this occurrence, but after the first implementation actions rather than before them. The initial start-time calculation briefly produced the Ravel counterfactual before being corrected to the nominal `scheduled_for`; no Ravel workspace write occurred. Initial internal-file and PR writes also preceded the house-write preflight. This process-order deviation is recorded; subsequent updates used create-only or current-blob SHA compare-and-swap operations and independent readback. No task ID, schedule, phase, cadence, automation count or theory status changed.
+
+
+## h629:s2 scheduled Tern continuation — 2026-11-06
+
+### Selection and historical remit
+The nominal-hour calculation selects Tern Rook (ring index 12); the next label is Morrow (index 13). This is a deterministic label selection, not authentication of a continuing Tern instance or thread. No authenticated current Tern thread was established. The current scheduled execution remained in progress with no chat reference at last inspection.
+
+No standalone Nathan-authored Tern charter was recovered. The source-grounded historical remit is supported by direct user-role messages in the Ariadne raw conversation export (blob `df9c7a1fbddaa523f0b69cced8d761433490a454`): message `c4f0aae9-3290-42c6-a5d0-b42c19a88255` at 2026-09-23T04:27:14.907Z states that the Comptroller controls scheduled tasks; message `e689eb6e-5814-4a27-a366-796605bd5f4d` at 2026-09-23T04:48:27.512Z directs hourly workflow/state inspection and discretionary allocation, with Python/scripted work in Tern's lane. The archived “Space Shuttle Roderick — Tern” export (blob `27932a0ca8045c8d53bf01863e1a54e9dc809ae4`) contains 34 user-role messages reviewed for context; it does not supply a separate standalone charter. Current assignment remains Signalbox / consolidator, subordinate to the live priority stack.
+
+### Predecessor intake
+- `REPO_HANDOFF_CONSUMED`: the h610:s2 clone-census packet and its amendments were read in this h629:s2 continuation.
+- `LATE_OPTIONAL_CONTEXT_READ`: the h625 Enheduanna packet and h618 addendum were read; neither was treated as a new assignment.
+- No exact Nadir h629:s0 predecessor packet was present. The :00 lease's latest recorded run remained h628:s0 (Mira); no Nadir h629:s0 execution or handoff is claimed.
+
+### P0 publication interlock
+Code Grurple remains P0 / ACTIVE. Paper A remains R1 accepted and Paper B R1 reviewed/originator-accepted, but both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. The main-branch commit inspected before this checkpoint changed only the generated discovery docket; the later Morrow workspace commit added current-work/authority documentation, not the paper reader renderer. No live reader route was independently verified. P1 (Nov 9), P2 (Nov 30), and P3 (Dec 14) remain separate gates; Orson's protected cognition allocation remains unchanged.
+
+### Existing Lean branch and limits
+PR #824 remains open, draft, unmerged. Workflow run #42156820860 succeeded on a synthetic merge reference, but that merge reference used base `c7dc2c483f50ae03fc7a7c530829170135e18d92`, whereas the current PR base was `61cc8b65ffed70296e0121dbae067892a79c81d4`; the commit comparison shows the run's base is four commits ahead of the current PR base. This is not a current-base/exact-head verification. No new CI run, branch, PR, or local Lean installation was created. The existing build's theorem-specific outputs and skipped checks remain as recorded in the prior Tern audit. Lean checks only the formalized scheduler statement, not real scheduler behavior or the truth of physical premises.
+
+### Clone census correction and bounded telemetry
+The shared clone-footprint log is now 14/19, with five labels absent and zero authenticated first-hand worker-thread responses. Alberr's entry was already present at 03:48Z; the 03:50Z coordinator summary failed to include it. The header, action plan, and task-graph census branch were reconciled without adding a duplicate worker entry.
+
+The public HsH checkout sample is nine events across seven inspected Actions runs: HsH=7 (six directly observed, one workflow-inferred for Issue #1408), HSH_RESOURCES=1, SAT archive=1. Two additional HsH checkouts were verified: run #42166644863 / job #127724967055 completed the automatic docket checkout; run #42166644894 / job #127728853494 completed the navigation-maintenance checkout step while the workflow remained in progress. These are project-level Actions checkouts, not worker-local clones. The sampled conversation-json-content-ci runs failed before any job/checkout was available; cause is unknown. Additional private cross-repository telemetry was not copied into public HsH records.
+
+Since the 03:50Z deep review, two actual worker activations have completed (Mira h628:s0 and Elias Kern h628:s4), with no new identity entry. The five-activation review trigger is not met; three more completed activations or five additional identity entries will trigger the next deeper review. The task graph still declares branch_count=16 while containing 18 branch records; preserved unchanged. Issue #1315 remains open with four comments; no general issue-comment action was available.
+
+### Scheduler state
+At last readback, the :24 Tern h629:s2, :36 Morrow h629:s3, and :48 Kestrel h629:s4 executions were all in progress with no authenticated chat references; their displayed latest results still belonged to prior h628 workers. The :00 lease had not recorded h629:s0. The start ordering overlaps the nominal slot sequence; this is an observed scheduler-state anomaly, not a diagnosis. All existing task IDs, schedules, phases, and enabled states were preserved; :12 remains disabled; no sixth task was created.
+
+The Morrow h629:s3 run had already started before this handoff. Any Tern-to-Morrow packet is therefore LATE_OPTIONAL_CONTEXT_ONLY, with same-phase fallback h648:s3. No task, ownership transfer, or response obligation is created, and no cross-thread delivery or consumption is claimed.
+
+### Lane 24 / H(s)H generative-CODATA
+The P2 lane remains BACKSEAT / HOLD under the P0 interlock. A private cross-diffusion source index was inspected but not admitted as a measured-system package; no public HsH record contains its private run details. No physical system was selected, and no physical calculation, CODATA comparison, fit, prediction, or independent measurement was performed. The current index does not supply a single identified system with complete acquisition provenance, units, covariance, calibration, and uncertainty.
+
+### Freshness and navigation
+Unrelated reading completed: Babbage, *Reflections on the Decline of Science in England*, lines 901–940. Next cursor: line 941. FIE's last full rereview remains October 27; the 14-day threshold is November 10, so no full rereview is due yet. A physical break was not performed by this runtime.
+
+The onboarding pointer to `WORKSPACES/COMMON/REFERENCE_DESK/README.md` did not resolve on current main, although individual Reference Desk files remain discoverable. The HSH_RESOURCES root README and `HQ/TOOL_CHEST.md` were read; existing Math Hopper, Lean PR, Whirligig, and SciSpace resources were checked through prior current receipts. No new tooling, dependencies, paid services, or forks were created.
+
+### Disposition
+No BEDROCK promotion, equation modification, new issue, duplicate publisher submission, public scientific artifact, branch, PR, automation, signet, or conversation rename. No task ID, schedule, phase, or cadence change. The next deterministic label is Morrow; repository handoff is late optional context only.
