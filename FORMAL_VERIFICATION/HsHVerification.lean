@@ -17,6 +17,14 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.AriadneArchiveWitness
+import HsHVerification.AriadneTransclusionGate
+import HsHVerification.AriadneBranchProjectionGate
+import HsHVerification.AriadneCODATARecoilClosure
+import HsHVerification.AriadneClaimScopedLineage
+import HsHVerification.AriadneArtifactTypeGate
+import HsHVerification.AriadneSimulationProvenanceGate
+import HsHVerification.AriadneClaimTargetBindingGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
