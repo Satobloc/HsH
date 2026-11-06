@@ -80,7 +80,7 @@ theorem apexCenterHeight_eq
           / (1 - kappa^2) := by
   unfold apexCenterHeight apexCenterXOffset coneBaseOffset generatingCircleRadius
   field_simp [hc, hk]
-  <;> ring
+  ring
 
 /-- The source's apex cross-section radius is kappa times apex-centre height. -/
 theorem apexCrossSectionRadius_eq_kappa_mul_apexCenterHeight
@@ -91,7 +91,7 @@ theorem apexCrossSectionRadius_eq_kappa_mul_apexCenterHeight
       = kappa * apexCenterHeight hLeg s c kappa := by
   rw [apexCenterHeight_eq hLeg s c kappa hc hk]
   unfold apexCrossSectionRadius
-  <;> ring
+  ring
 
 /-- The leading-edge height is (b + rho)/(1-kappa). -/
 theorem leadingEdgeHeight_eq
@@ -99,15 +99,15 @@ theorem leadingEdgeHeight_eq
     (hc : c ≠ 0)
     (hk : kappa^2 ≠ 1)
     (hk1 : kappa ≠ 1)
-    (hkn1 : kappa ≠ -1) :
+    (_hkn1 : kappa ≠ -1) :
     leadingEdgeHeight hLeg s c kappa
       = (coneBaseOffset hLeg c + generatingCircleRadius hLeg s c)
           / (1 - kappa) := by
   unfold leadingEdgeHeight
   rw [apexCenterHeight_eq hLeg s c kappa hc hk]
   unfold apexCrossSectionRadius
-  field_simp [hc, hk, hk1, hkn1]
-  <;> ring
+  field_simp [hc, hk, hk1, _hkn1]
+  ring
 
 /-- The correct GCS ratio is
     R/rho = kappa*(1+sin(alpha))/((1-kappa^2)*sin(alpha)).
@@ -123,7 +123,6 @@ theorem localReachRatio_eq
   unfold localReachRatio apexCrossSectionRadius generatingCircleRadius
     coneBaseOffset
   field_simp [hh, hs, hc, hk]
-  <;> ring
 
 /-- Under positive GCS fit parameters, the standard local normal-tube
     Jacobian is positive across the full inward apex radius exactly when
@@ -148,7 +147,7 @@ theorem apexInnerNormalJacobian_positive_iff
   unfold apexInnerNormalJacobian
   rw [localReachRatio_eq hLeg s c kappa hh0 hs0 hc0 hk0sq]
   rw [sub_pos]
-  exact div_lt_iff₀ hden
+  simpa using (div_lt_iff₀ hden)
 
 #print axioms apexCenterHeight_eq
 #print axioms apexCrossSectionRadius_eq_kappa_mul_apexCenterHeight
