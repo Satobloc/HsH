@@ -491,7 +491,7 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 ## 2026-11-06T0424Z | Calder optional P0 / geometry-hold context for Hale h628:s3
 
 - Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0424Z_from_s2_to_s3_hale.md` (blob `45e0a54e1eade68de2c7387b569637b34674e8d7`).
-- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0424Z_s2_calder.md` (blob `a1d952c81669e86af1858e1c7b229432ea3314a2`).
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0424Z_s2_calder.md` (path pointer; the receipt's current blob SHA is available from the repository).
 - h628:s2 selected the Calder ring label and h628:s3 selects Hale. This is optional repository context, not authenticated historical Calder/Hale participation or a cross-thread message.
 - Code Grurple remains P0/ACTIVE: A/B R1 manuscript gates are closed, but both actual reader routes remain presentation-pending/unobserved. The current relay has no Sites editor action; do not reopen manuscript content or repeatedly probe an unobservable route.
 - H(s)H generative/CODATA, P2 measured-system work, and Whirligig remain backseat/hold until P0 standdown. P1 Nov 9 remains Orson-owned/NOT READY; P2 Nov 30 has no selected physical system; P3 Dec 14 remains separate.
