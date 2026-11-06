@@ -167,7 +167,7 @@ For the spectroscopic profile, the patch's initial meridional width is 60.71 Mm;
 The unlabelled solar photospheric surface-worldtube in the external comparator is S²(R) x R. In static coordinates its induced metric is
 
 \[
-ds_W^2=dw^2+R^2[d\lambda^2+\cos^2\lambda\,d\psi^2]
+ds_W^2=dq^2+R^2[d\lambda^2+\cos^2\lambda\,d\psi^2]
 \]
 
 and its intrinsic scalar curvature is
@@ -178,7 +178,7 @@ and its intrinsic scalar curvature is
 =1.079458038133\times10^{-87}\ \ell_P^{-2}.
 \]
 
-This intrinsic worldtube curvature is independent of the differential rotation profile. The ambient comparison R4 remains flat. The material-coordinate map psi=phi+Omega(lambda)t changes the marked trajectories and introduces time-dependent off-diagonal metric components, but it is a diffeomorphism of the same unlabelled S² x R worldtube.
+This intrinsic worldtube curvature is independent of the differential rotation profile. The ambient comparison R4 remains flat. The material-coordinate map psi=phi+Omega(lambda)q/c changes the marked trajectories and introduces time-dependent off-diagonal metric components, but it is a diffeomorphism of the same unlabelled S² x R worldtube.
 
 In material coordinates (q=ct,lambda,phi), the induced metric has determinant
 
