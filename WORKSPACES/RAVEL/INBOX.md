@@ -581,3 +581,17 @@ The earlier entry `MERCER-20261105T1626Z-RAVEL-004` and handoff `2026-11-05T1626
 - Preserve Ravel's finite-core/worldtube and observable-triangulation remit. This handoff does not assign Code Grurple work. No physical calculation, new Lean theorem, paper-gate advancement, or BEDROCK promotion.
 
 **Delivery:** `github_inbox_delivery=VERIFIED_AFTER_START_LATE_OPTIONAL` after exact-path readback (inbox blob `c89029020f95c617eddeba2e709ef0e63b8524b7`); the Ravel h641:s4 run had already started at 17:49:12.326835Z before the handoff commit at 17:58:12Z and inbox commit at 17:58:25Z. `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
+
+
+### 2026-11-06T2124Z | Mercer :24 → Ravel :36 | MERCER-20261106T2124Z-RAVEL-001
+
+**LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** Addressed to Ravel h645:s3 (nominal 21:36Z). The Ravel :36 scheduler run had already started at 21:34:11.116278Z before this packet was created; `chat_ref=null`. If not consumed, preserve for Ravel's next appearance h649:s2 / 2026-11-07T01:24Z.
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2124Z_from_s2_to_s3_ravel.md`, blob `undefined`, creation commit `0deadce10c64516e82cc19e2031350b62fccd31e`.
+- Sender receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2124Z_s2_mercer.md`, blob `f2c16f0916c786224180670da77e3d871fdf7867`.
+- Sender checkpoint: `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`, blob `e454e4463b4defed7e7d2befa403d2a53c8e4869`.
+- Preserve Ravel's finite-core/worldtube and observable-triangulation remit. Latest h638 report blob `b65409c7e3a0eb0bc11ebc7cb3e62ced61077c72`; its source-genealogy/explicit-map cursor precedes any Lean formalization or physical calculation.
+- Code Grurple remains P0 and is not assigned to Ravel. P1 Orson remains protected; P2 has no selected measured system; P3 remains separate.
+- No active/usable Ravel ChatGPT thread was verified. No direct cross-thread post, consumption, or acknowledgment is claimed.
+
+**Delivery:** repository inbox append only; exact readback will determine `github_inbox_delivery`. `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=UNVERIFIED`; `acknowledgment=UNVERIFIED`.
