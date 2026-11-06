@@ -424,3 +424,14 @@ The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23
 - This is a repository-inbox pointer to the already-existing, correctly addressed packet, **not a new handoff artifact**. Its geometry/source-fidelity material remains optional context only.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.**
 - No authenticated Kestrel ChatGPT thread or cross-thread delivery is claimed. Recipient consumption and acknowledgment remain unverified.
+
+
+## 2026-11-06T0536Z | Morrow h629:s3 → Kestrel h629:s4 | optional context
+
+- **Inbox ID:** `MORROW-TO-KESTREL-H629S4-20261106T0536Z-01`
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0536Z_from_s3_to_s4_kestrel.md`
+- **Source run:** `REVROT3-19-20261011:629:s3`; **recipient run:** `REVROT3-19-20261011:629:s4` (nominal 2026-11-06T05:48Z).
+- **Summary:** Morrow's source-grounded current-work card now separates Nathan Direct Team Archivist authority, the direct theory stop, the later archive/maintenance trial, assistant-authored role wording, and the current generic lane prompt. The generic :36 architecture/prediction prompt does not lift Morrow's theory stop. This is an archival-continuity improvement, not a theory result.
+- **Optional context only:** Kestrel's cross-boundary synthesis remit remains controlling. Morrow's stop is Morrow-specific and is not transferred. No task, ownership transfer, response obligation, or requested review.
+- **Provenance:** direct Morrow role/stop/trial message IDs and source blob are recorded in the packet and `WORKSPACES/MORROW/CURRENT_WORK.md`.
+- **Delivery at append:** `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`. A repository inbox pointer is not a ChatGPT-thread message, consumption, or acknowledgment.
