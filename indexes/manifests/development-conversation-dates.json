@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-06T09:21:56.815156+00:00",
+  "generated_at_utc": "2026-11-06T10:08:06.291768+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 878,
+    "unchanged": 880,
     "skipped": 414,
     "renamed": 2
   },
@@ -11977,6 +11977,26 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Summarizing Chat Logs — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Summarizing Chat Logs — raw.json",
+      "start_local": "2025-04-17T00:36:16.456000-04:00",
+      "end_local": "2025-04-17T02:37:46.329000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 57,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Truths and Perspectives Explored — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Truths and Perspectives Explored — raw.json",
+      "start_local": "2025-04-17T15:48:44.666000-04:00",
+      "end_local": "2025-04-17T16:50:47.044792-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 36,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
       "start_local": "2025-05-03T23:48:40.764000-04:00",
@@ -12623,22 +12643,22 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Summarizing Chat Logs — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Summarizing Chat Logs — raw.json",
-      "start_local": "2025-04-17T00:36:16.456000-04:00",
-      "end_local": "2025-04-17T02:37:46.329000-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nonlinear Writing Hybrid — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15•25.05.15•Nonlinear Writing Hybrid — raw.json",
+      "start_local": "2025-05-15T08:23:34.403000-04:00",
+      "end_local": "2025-05-15T08:46:40.773441-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 57,
+      "message_count": 14,
       "status": "renamed",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Truths and Perspectives Explored — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17•25.04.17•Truths and Perspectives Explored — raw.json",
-      "start_local": "2025-04-17T15:48:44.666000-04:00",
-      "end_local": "2025-04-17T16:50:47.044792-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Old-school Physicist's Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.07•Old-school Physicist's Review — raw.json",
+      "start_local": "2025-04-06T22:24:46.544000-04:00",
+      "end_local": "2025-04-07T01:00:13.686073-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 36,
+      "message_count": 82,
       "status": "renamed",
       "warnings": []
     },

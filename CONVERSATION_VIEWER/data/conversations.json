@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-11-06T09:33:40.820998+00:00",
+  "source_state_at_utc": "2026-11-06T10:09:00.491888+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -24,7 +24,7 @@
       "status": "loaded",
       "records": 1296,
       "accepted_json_conversations": 882,
-      "source_generated_at_utc": "2026-11-06T09:33:39.247499+00:00"
+      "source_generated_at_utc": "2026-11-06T10:08:59.136523+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 27,
       "accepted_json_conversations": 20,
-      "source_generated_at_utc": "2026-11-06T09:33:40.820998+00:00"
+      "source_generated_at_utc": "2026-11-06T10:09:00.491888+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
@@ -12618,9 +12618,9 @@
       "order": 773
     },
     {
-      "id": "245275a8cb8b",
+      "id": "d94deb58b59e",
       "title": "Nonlinear Writing Hybrid",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nonlinear Writing Hybrid — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15•25.05.15•Nonlinear Writing Hybrid — raw.json",
       "corpus": "development",
       "start_local": "2025-05-15T08:23:34.403000-04:00",
       "end_local": "2025-05-15T08:46:40.773441-04:00",
@@ -12629,8 +12629,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15%E2%80%A225.05.15%E2%80%A2Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15%E2%80%A225.05.15%E2%80%A2Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json",
       "order": 774
     },
     {
@@ -13792,9 +13792,9 @@
       "order": 846
     },
     {
-      "id": "be4898a57633",
+      "id": "0894dc682b79",
       "title": "Old-school Physicist's Review",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Old-school Physicist's Review — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06•25.04.07•Old-school Physicist's Review — raw.json",
       "corpus": "development",
       "start_local": "2025-04-06T22:24:46.544000-04:00",
       "end_local": "2025-04-07T01:00:13.686073-04:00",
@@ -13803,8 +13803,8 @@
       "source_extension": ".json",
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.07%E2%80%A2Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.07%E2%80%A2Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json",
       "order": 847
     },
     {
@@ -14675,7 +14675,7 @@
     },
     {
       "id": "c43b04cdb10c",
-      "title": "Exploring Cosmos through Mind",
+      "title": "Exploring Cosmos through Mind.",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.14•24.03.14•Exploring Cosmos through Mind. — raw.json",
       "corpus": "development",
       "start_local": "2024-03-14T17:44:13.553742-04:00",
@@ -14691,7 +14691,7 @@
     },
     {
       "id": "a76d85c95628",
-      "title": "Exploring Cosmos through Mind",
+      "title": "Exploring Cosmos through Mind.",
       "path": "DEVELOPMENT_FULL_CONVOS/24.03.14•24.03.14•Exploring Cosmos through Mind. — raw.json",
       "corpus": "development",
       "start_local": "2024-03-14T17:44:13.553742-04:00",
@@ -15011,7 +15011,7 @@
     },
     {
       "id": "20e6aa77c32b",
-      "title": "Notation for Set Theory",
+      "title": "Notation for Set Theory.",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25•23.04.25•Notation for Set Theory. — raw.json",
       "corpus": "development",
       "start_local": "2023-04-25T15:01:59.025246-04:00",

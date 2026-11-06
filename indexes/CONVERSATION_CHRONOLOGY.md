@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-11-06T09:22:46.180340+00:00`
+- Generated: `2026-11-06T10:09:26.089787+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **880**
+- Dated conversation exports: **882**
 - Skipped non-conversation or unparseable files: **414**
 - Exact duplicate-content groups: **115**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -100,6 +100,7 @@
 | 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D61 |  |
 | 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_10` | 2 | D61 |  |
 | 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 2 | D61 |  |
+| 2025-04-06 | 2025-04-07 | [Old-school Physicist's Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.07%E2%80%A2Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 82 |  |  |
 | 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 93 | D97 |  |
 | 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 93 | D97 |  |
 | 2025-04-09 | 2025-10-06 | [G](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.04.09%E2%80%A225.10.06%E2%80%A2G%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 535 |  |  |
@@ -172,6 +173,7 @@
 | 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `.` | 43 | D85 |  |
 | 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 43 | D85 |  |
 | 2025-05-11 | 2025-05-11 | [Symbolic Expression Interpretation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11%E2%80%A225.05.11%E2%80%A2Symbolic%20Expression%20Interpretation%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 95 |  |  |
+| 2025-05-15 | 2025-05-15 | [Nonlinear Writing Hybrid](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15%E2%80%A225.05.15%E2%80%A2Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 14 |  |  |
 | 2025-05-20 | 2025-05-20 | [SAT Framework Synthesis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Framework%20Synthesis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 14 |  |  |
 | 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_2` | 83 | D34 |  |
 | 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 83 | D34 |  |
