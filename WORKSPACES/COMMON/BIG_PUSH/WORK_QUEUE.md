@@ -7,21 +7,24 @@
 
 ## Active tray
 
-### BP-HIST-001 — Continue the May 28, 2025 primary transcript
+### BP-HIST-002 — Reconcile May 28 transcript variants
 
-**Status:** READY  
-**Phase relationship:** Initial historical scout feeding the modes-system reconstruction  
-**Question:** What did the original Activator Modes workflow actually do, how was it invoked, and how did the user and assistant revise or use it?
+**Status:** ACTIVE  
+**Phase relationship:** Historical source recovery feeding the modes-system reconstruction  
+**Question:** What is the relationship between the 4,651-line memory transcript and the 6,307-line HoloJesu export, and which source contains the authoritative record and original attachments?
 
-**Source:** SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
+**Primary source:** SAT_THEORY_ARCHIVE_2023-25 / MISC / HoloJesu Fleshlight.txt  
+**Blob SHA:** afa778c23eb439caf707b618ec0e59304d321c0b  
+**Observed length:** 6,307 lines  
+**Read:** lines 1–200  
+**Next:** lines 201–400  
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-1-200.md`
+
+**Comparison source:** FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Read:** lines 1–4400  
-**Next:** lines 4401–4600  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-4201-4400.md`
+**Status:** Complete read, 4,651 lines. The two full exports share opening material but neither is an exact substring of the other.
 
-**Stop condition for this unit:** Complete the next contiguous 200-line range (4401–4600), preserve speaker/turn boundaries, and record new references and the following cursor. Do not leap to a conclusion about the full conversation.
-
-**Required extraction fields:** direct user instructions; assistant proposals; mode activations/deactivations; menu definitions; corrections; intended cognitive/operational effects; references to workbooks, files, tools, or other threads; observed success/failure; ambiguities and contradictions.
+**Stop condition:** Read the next contiguous 200-line range of the alternate export, compare it with the corresponding/related material in the completed transcript, and record unique passages, source differences, and the next cursor. Do not assume either file is a complete superset.
 
 ## Immediate sequence after BP-HIST-001
 
