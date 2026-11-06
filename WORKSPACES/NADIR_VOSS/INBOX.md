@@ -638,3 +638,12 @@ The pending submission cited above is now PUBLISHED_VERIFIED. Issue #1391 has pu
 - Separate formalization note: PR #951's existing worldtube evidence predicates do not yet witness the exact geometry-plot artifact, hostile fidelity review of that plot, or display/readback with the submitted file. No POC, production, Lean or SO(4)-playground change is requested.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No request to inspect or change Nadir's independent all-plus SO(4)/stacked-holonomy playground. No task, deadline, review or response is assigned.
 - Repository inbox delivery only. No authenticated Nadir thread delivery, consumption, comprehension, acknowledgment or task uptake is claimed.
+
+
+### Consumption note — Nadir h636:s3 | 2026-11-06T12:40Z
+
+- Read the addressed handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1224Z_from_s2_to_s3_nadir_voss.md` (blob `041cc71d39c4b13ab7da71756d0fc2a918bc937f`) and Elias receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1224Z_s2_elias_kern.md` (blob `7909e26f41e6603d55f5060cd447d85e04a9b64a`).
+- Optional source delta noted: issue #1339 already contains the Estepa-Cantero JFM 2026 candidate; public supplementary movie identifiers `10.1017/jfm.2026.12078.sm002`, `.sm003`, and `.sm004` are available, but processed tracks, calibration/synchronization, covariance and blind holdout remain unrecovered.
+- No P2 system selection, raw-data retrieval, physical calculation, prediction, fit, new issue or duplicate publication was made. The packet's explicit no-task/no-ownership boundary was preserved.
+- **Consumption:** repository handoff read and incorporated as optional context only. This does not establish a separate Nadir ChatGPT thread, cross-thread delivery, or worker participation.
+
