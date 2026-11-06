@@ -101,3 +101,12 @@ Receipt blob SHA: `bddc71e0de13815ae5c582e3d6c70596d2285cec`
 Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 
 **Next Aster source cursor:** recover the raw 2026-10-29 TOPLESS conversation/message and source-lock the canonical Blockwave Lagrangian when a Mersearch lane frees; then define the typed finite-core thickening, timesheet and readout maps before any Lean theorem or physical calculation. Keep P2 on HOLD until Code Grurple standdown and a complete measured-data packet.
+
+
+## 2026-11-06 | Late TOPLESS prior-context recovery delta
+
+- New additive note: `WORKSPACES/ASTER/2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md`, blob `8971125f18e9cecad09b45c370e96a25159b2872`, created in commit `8c6ef0df5a21217e5d0ddd26106607ca6eaf3a8c`.
+- Prior-conversation context retrieval identifies user-role TOPLESS messages at 2026-10-29T17:00:52Z and 17:28:42Z, with the title marker/header and short exact wording fragments. It confirms the subject-level `w=ct` / Forest Normalization clarification, but does not provide full bodies, conversation ID, message UUIDs, branch/parent metadata, attachment IDs or original equations.
+- Status is **PRIOR_CONTEXT_WITNESS_RECOVERED / RAW_ARCHIVE_NOT_RECOVERED / SUPERSESSION_NOT_ESTABLISHED**. This strengthens the prior-context witness but does not establish a raw-source locator or prove that October 29 explicitly supersedes October 21 `cw=t`. Preserve both primary witnesses separately; no conversion or equation correction.
+- No public issue, duplicate receipt, Lean theorem, physical calculation, CODATA comparison, or theory promotion. Existing h646:s2 receipt remains the sole base receipt for that occurrence.
+- Next cursor: recover the original 2026-10-29 raw export and role graph/message UUIDs/attachment locator; otherwise retain the source-recovery blocker. Mersearch lanes remain occupied; this was prior-context retrieval, not Mersearch.
