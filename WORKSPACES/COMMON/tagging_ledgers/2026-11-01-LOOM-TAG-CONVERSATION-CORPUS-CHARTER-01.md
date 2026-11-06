@@ -276,3 +276,35 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Tags:** `LATERAL-READ`; `LANGUAGE-IDENTIFICATION`; `CONLANG-GUESSING`; `FICTIONAL-LANGUAGE`; `CONSTRUCTED-LANGUAGE`; `ASSISTANT-FACT-CLAIMS-UNVERIFIED`; `FLATTENED-TRANSCRIPT`; `SPEAKER-ROLE-UNVERIFIED`; `NO-NATHAN-DIRECT-ATTRIBUTION`.
 - **Authorship boundary:** visible `You said:` / `ChatGPT said:` labels are textual labels in this flattened export, not raw role metadata. The correction sequence is tagged as transcript content; no speaker attribution is promoted to Nathan Direct.
 - **Relevance:** deliberate unrelated reading/break from the geometry and prediction work. This span supplies no SAT/H(s)H evidence and no theory premise.
+
+
+## H — fun break - lx.txt, lines 641–680
+
+- **Repository/source:** Satobloc/SAT_THEORY_ARCHIVE_2023-25, 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt.
+- **Immutable blob:** f33eb29fbac65efa1db054239bb9c28a04a13a42.
+- **Exact read extent:** lines 641–680 inclusive (40 lines). This is an unrelated conlang / language-guessing conversation segment, read as the scheduled lateral-source pass. It is not a physical break.
+- **Speaker boundary:** “You said:” and “ChatGPT said:” are plain transcript labels in this text file, not raw message.author.role metadata. The following tags preserve transcript attribution only; they do not authenticate raw roles or independently verify claims.
+
+### Additive tags
+
+| Lines | Transcript speaker | Classification and tags |
+|---|---|---|
+| 641–644 | You said | User-reported encounter with Lawrence Schoen and discussion of Klingon development; NATHAN-DIRECT-HISTORICAL-ANECDOTE, CONLANG-COMMUNITY, SOURCE-STATEMENT-NOT-INDEPENDENTLY-VERIFIED. |
+| 645–647 | ChatGPT said | Assistant claims about Lawrence Schoen, Klingon Language Institute and related work; ASSISTANT-FACT-CLAIM-UNVERIFIED, PERSON-BIOGRAPHY, NOT-NATHAN, NOT-INDEPENDENT-EVIDENCE. |
+| 648–650 | You said | User reports a talk at SFWA, coauthored story submission to an anthology, and Facebook connection; NATHAN-DIRECT-HISTORICAL-ANECDOTE, USER-REPORTED-ASSOCIATION, NOT-INDEPENDENTLY-VERIFIED. |
+| 651–652 | ChatGPT said | Assistant repeats/extends claims about Schoen and his work; ASSISTANT-FACT-CLAIM-UNVERIFIED, REDUNDANT-ASSERTION, NOT-NATHAN. |
+| 653–656 | You said / ChatGPT said | Language-guessing game resumes; assistant suggests Kalaallisut; LANGUAGE-DISCOVERY-GAME, LANGUAGE-GUESSING, ASSISTANT-SUGGESTION. |
+| 657–658 | You said / ChatGPT said | User identifies Kalaallisut as Greenlandic; assistant supplies speaker-count, morphology and orthography claims; USER-CORRECTION-OR-IDENTIFICATION, ASSISTANT-LINGUISTIC-FACT-CLAIMS-UNVERIFIED, NOT-NATHAN. |
+| 659–662 | You said / ChatGPT said | User requests another language; assistant suggests Nahuatl; LANGUAGE-DISCOVERY-GAME, REPETITION-CONTROL-REQUEST, ASSISTANT-SUGGESTION. |
+| 663–664 | You said / ChatGPT said | User says Nahuatl had already been asked and identifies it with Aztec; assistant apologizes and supplies a speaker-count claim; USER-REPETITION-CORRECTION, ASSISTANT-FACT-CLAIM-UNVERIFIED, NOT-NATHAN. |
+| 665–667 | You said / ChatGPT said | User requests a difficult example; assistant suggests Damin and supplies ethnographic/usage claims; LANGUAGE-DISCOVERY-GAME, ASSISTANT-ETHNOGRAPHIC-CLAIMS-UNVERIFIED, NOT-NATHAN. |
+| 668–680 | You said / ChatGPT said | User requests another language without hints; assistant suggests Oirat; LANGUAGE-DISCOVERY-GAME, NO-HINTS-CONSTRAINT, ASSISTANT-SUGGESTION. |
+
+### Observations and limits
+
+- The user-reported encounter and anthology submission are preserved as autobiographical source statements, not externally verified biographical facts.
+- Assistant assertions about Lawrence Schoen, Kalaallisut, Nahuatl and Damin are not treated as authoritative linguistic or biographical references. No external fact-check was performed in this lateral-read pass.
+- The assistant's repeated descriptions of Schoen are not independent corroboration.
+- This section is additive and does not alter the historical charter, theory status, or common tagging standard.
+
+**Next lateral-reading cursor:** line 681.
