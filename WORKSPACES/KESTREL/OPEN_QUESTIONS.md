@@ -162,3 +162,15 @@ Receipt Amendment 02 supersedes the exact-head claim above. Lean run #4146895167
 **Next mathematical gate — PROPOSED, NOT FORMALIZED:** the current factorization theorem is set/function-level. If a hallway is meant to be a continuous geometric readout, specify topological spaces and require the source projection to be a quotient map onto its image; a continuous target map constant on source fibers then induces a unique continuous factor map. If a smooth readout is intended, specify smooth manifolds and a surjective submersion with a smooth fiber-constant target map; local smooth sections give the induced smooth map. Metric, orientation, causal order, connection and measure preservation each require separate compatibility conditions. These are standard candidate hypotheses, not Nathan Direct and not yet Lean results.
 
 **Blocking source gate:** no actual source-defined `π_i`/`π_j`, common domain, Klein-Fabric global topology, global-to-local finite-core map, or measured cross-prediction is available. Do not instantiate the proposed regularity theorem with invented physical maps.
+
+## 2026-11-06 source-recovery correction: conceptual Klein-fabric construction recovered
+
+The 2026-11-02 statement that no direct conceptual construction had been recovered is too broad. It is true that the 2026-10-21 direct message 090f5160 is only a supersession marker and does not itself define the fabric. However, the raw Calder Construction Story Retelling export (conversation 6a8eacca-c470-83ea-af92-8fb8df194de9, blob 92454acdaad701193e2a0c6cf64a7d7b70a03dbb) contains a direct user-role message on current ancestry: node 062ad8ee, 2026-08-26T23:41:28Z.
+
+That message gives a conceptual recursive construction: twisted ER-bridge worldtubes returning through/to the Big Bang and reaching larger-scale Klein throats/ER bridges, with a finite Kerr/Kerr-like local core and a long axis expected along w. Earlier 14:15 and 23:17 messages provide off-ancestry chronology, not independent corroboration.
+
+The open question is therefore no longer whether a direct conceptual description exists. It is how to type it mathematically. Still missing: ambient and support dimensions, manifold/topological-space definition, quotient/gluing, atlas, orientation, metric and causal structure, worldtube embedding, local dual-shell map, core/coil map, time-bulk intersection/readout map, and recursive composition law. The direct source explicitly says the dual-shell expansion may not be equivalent to the global fabric.
+
+The 2026-11-05 h618 continuity phrase calling a formal Klein-Fabric definition and local spine/core/shell map "adopted" is also superseded. The correct status is conceptual construction recovered, formal maps unresolved.
+
+See WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md. No theory promotion or BEDROCK change.
