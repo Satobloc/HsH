@@ -18,7 +18,7 @@
 **Observed length:** 6,307 lines  
 **Read:** lines 1–4800  
 **Next:** lines 4801–5000  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-4801-5000.md`
+**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-5001-5200.md`
 
 **Comparison source:** FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
 **Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
