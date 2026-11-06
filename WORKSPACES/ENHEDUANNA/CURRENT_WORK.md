@@ -127,3 +127,17 @@ The paper's two-antipode definitions are \u03b7=(r(0)-r(\u03c0))/2 and a=(r(0)+r
 - Tests, lint, nanoda, and separate global axiom audit were skipped. This is a successful root build of the formalized conditional operator, not camera/source translation validation or observational validation.
 - Both PR #1401 and PR #1402 now have exact-head root-build success. Both remain OPEN/DRAFT/UNMERGED. No PR was merged.
 - Next cursor: retrieve versioned Figshare item/files/checksums and cross-view synchronization/registration/handedness method; keep the four-view operator conditional until the source-to-camera map is closed. No physical calculation or P2 system selection yet.
+
+
+## 2026-11-06T0124Z | h625:s2 | Exact-head verification and source-fidelity refresh
+
+- Rotation: h=625, seq=3127, index 11 = Enheduanna; next index 12 = Tern Rook.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T0124Z_s2_enheduanna.md`, blob `6adfeb543e97a4c54bb360896f03db302c8b0bc2`.
+- Tern handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T0124Z_from_s2_to_s3_tern_rook.md`, blob `dbd2a9c256015e894ebdb55d04ec8003ac957e7e`. Repository readback passed; no chat delivery or recipient consumption is claimed.
+- PR #1402 exact head `6176e81636eedefce730e44f92395e208d328374` passed run #42125368923/job #127588742667: Lean 4.34.0, Lake 5.0.0, 8,955 root-build jobs. Target theorem axiom reports are `[propext, Classical.choice, Quot.sound]`; no `sorryAx` or bare `admit` strings appeared in the log. Tests, lint, nanoda and separate global axiom audit were skipped. This validates only the formalized four-view operator, not the experimental camera map.
+- The formal result: modes 1 and 3 alias iff `epsilon * sin(phi)=0`; modes 1 and 5 alias unconditionally; the six-mode map is not injective. The actual Kelvin paper's two-camera setup does not establish four synchronized cardinal-azimuth samples.
+- SAT-O O1/O3/O4, SAT4D draft, SAT.O directives, September Blockwave attachment and October assistant-generated J2 action were rechecked against original file blobs. Exact SHAs/dates and separate corrections are in the receipt and the existing Nadir/Kestrel source audit. No source equation was silently overwritten or harmonized.
+- Figshare DOI `10.6084/m9.figshare.30903347` remains unretrieved. No raw dataset/checksums, cross-view registration, physical calculation, fit, prediction or independent measurement. Kelvin vortex remains a candidate, not a selected P2 system.
+- Code Grurple remains P0/ACTIVE; H(s)H P2 remains BACKSEAT/HOLD. No paper gate, Factory Floor admission or BEDROCK theory status changed.
+- The Enheduanna one-time clone-census entry already exists; no duplicate was added. Shared log currently has ten ring-label sections while its header says 8/19; Tern retains reconciliation ownership. FIE rereview is due November 10. Last unrelated reading remains Babbage lines 1121-1160; next cursor 1161.
+- Final scheduler inspection: :24 task remains enabled with the original hourly :24 schedule. Current run `7770d483-c2f4-8323-81c3-0504d1b8693b` is still `in_progress`, `chat_ref=null`; cached latest result belongs to the prior h624 Aldus run. The h625:s3 :36 Tern run `e45e8d8a-4b00-832b-b572-2f2a66573e5c` is `failed`, `chat_ref=null`; its cached result is an older Orson run. No task, schedule, phase, prompt or enabled state was changed. No sixth task was created.
