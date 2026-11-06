@@ -137,3 +137,12 @@ The latest observed main commit is `f53c91df803c8e47c347596416a2fc35da9b3a67`, c
 ### Additional main-head readback — 2026-11-06T1351:54Z
 
 Commit `3d30b8d9f9fd39eaa959dc2c5b1e223a8ffa0fe4` again changes only `PUBLIC_SITE/generated/discovery.json` via the automatic public-display docket workflow. Classify it under the existing `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH` subtype. It does not alter A/B source/feed/renderer/derivative/deployment/route state; `NO_REENTRY_TRIGGER` remains.
+
+
+### Whirligig source/shape triage — historical remit only
+
+The Oct 9 direct user message `97d301cb-5174-4861-a273-ac4cc0b60d8b` explicitly says the Whirligig should preserve multiple valid answers and scan routes by a “least wild” preference; it also asserts that any equation has infinitely many “isometric equations.” The latter phrase lacks a source-defined domain of equations, equivalence relation, and meaning of “isometric,” so its proof status is `FORMALIZATION_BLOCKED_DEFINITION`, not proved or disproved. It must not be silently equated with geometric isometry of a rolling sphere/torus.
+
+The historical `2026/SAT CORE — ReDonut.txt` contains assistant-generated claims of a unique/isometric rolling map and unique equation recovery. The later critique in that same source withdraws the inference from local rolling/curve properties to global equation-level injectivity. Existing Meridian audit `RUN_2026-09-19_2128_REDONUT_REVERSIBILITY_AUDIT.md` already separates trajectory recoverability, equation-encoding injectivity, and cross-representation derivational invariance; reuse that audit rather than duplicating it. These assistant-generated ReDonut claims are not Nathan Direct.
+
+No Lean run or new mathematical calculation was made: the current Code Grurple assignment remains presentation-only, and the exact “isometric equation” definitions are missing. No data-free calculation was attempted.
