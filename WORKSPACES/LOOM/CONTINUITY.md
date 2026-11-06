@@ -459,3 +459,11 @@ Run key: REVROT3-19-20261011:642:s2. h=642, seq=3212, selected ring index 1 Loom
 - Next corpus node: user aaa2cde7-2625-4acd-ac69-3efc59909aff, index 361, 2024-03-28 06:10:19.285Z; already within 138/138 user-tag coverage. Continue with assistant node bd861191-6499-486e-9c16-7a1ef58396cf at index 362.
 - Aster is next label. Its :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 had already started at 18:35:11.936Z, before this handoff could be written. Any packet is late optional context; no task, ownership transfer or response requested.
 - No new task, schedule/phase/cadence change, branch, PR, theory status, BEDROCK amendment, SAT-O/Blockwave equation change, physical calculation or paper-gate advancement.
+
+
+### Artifact readback | 2026-11-06T18:24Z
+
+- Receipt blob fa4b8340ec7b31fbc77a6faca25d11a8ad289b10, commit 2679789d82c212dc57699691aefb5c351a112413; exact readback PASS.
+- Handoff blob 45799ea22e41936c136066d3263bddd031b1d766, commit b1f34c88aef4968efff3134ea9d3b5ecea84a0fb; exact readback PASS.
+- Aster inbox blob 8b70f587399ab3f0dec48596830c09d63aa50a10, commit 9777f4a182b3e9f353f9ad42064652a0f44a5248; exact readback PASS.
+- The Aster packet is LATE_OPTIONAL_CONTEXT; its addressed :36 run had already started. No thread delivery, consumption or acknowledgment is claimed.
