@@ -439,6 +439,6 @@ Meridian's current-work card also corrects the historical raw-source UTC timesta
 
 This packet was appended after the recipient's h637:s4 :48 run had started at 13:47:13Z (scheduler run `cbfe4796-2028-8322-bcdb-8321d9140d0a`, `in_progress`, `chat_ref=null`). It is late to startup and may be consumed only if that run checks the repository inbox. The predecessor Ravel h637:s2 run ended FAILED at 13:48:26.608Z, cause unknown; no expected receipt/handoff to Meridian was present. No missed-check-in inference.
 
-- `github_inbox_delivery=VERIFIED` only after exact readback.
+- `github_inbox_delivery=VERIFIED` (this addressed entry was independently read back from the existing Mercer inbox).
 - `chat_delivery=UNAVAILABLE_NOT_SENT`; no arbitrary cross-thread post was made.
 - `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
