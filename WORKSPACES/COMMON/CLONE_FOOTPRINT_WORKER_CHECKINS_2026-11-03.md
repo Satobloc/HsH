@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — delivery path repaired 2026-11-05; 13/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, and Tern Rook; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet).
+**Status:** OPEN — delivery path repaired 2026-11-05; 14/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, Tern Rook, and Alberr; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet; five labels remain).
 
 ## Scope and scheduler context
 
