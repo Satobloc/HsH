@@ -1,0 +1,2246 @@
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+7
+ (7)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Files
+Go to file
+t
+T
+.github/workflows
+CONSULTANTS
+CONVERSATION_VIEWER
+DEVELOPMENT_FULL_CONVOS
+30SEP26_DUMP
+HsH-SAT Roundup 2
+HsH-SAT Roundup 3
+PROVENANCE
+SAT 2026 CONCEPTS
+SAT 2026 PRE HsH
+SAT 2026 ROUNDUP DOCS
+SAT EARLY 2026 — FULL FORMAL REVAMP — MARCH 2026
+SAT EARLY 2026 — HOMESTRETCH
+[[SAT EARLY DERIVATIONS]]
+[[[HSH REFORMULATION - INIT]]]
+001. Epistemology of the World - inverse gravity - Bellomy.txt
+002 Forces Across Temporal Points - to 8-13-24.txt
+002. Discreet Space and Dark Matter.txt
+003 Personality Test Summary.txt
+09b77132-08d5-4e18-aa91-4d83bbce5fef.nb
+0F367CDB-0EBE-4258-890B-C096EADA813D.png
+0bee60c6-76fd-4db0-bb46-d02834eb64d9.png
+1.txt
+10-20-25 FULL THEORY.txt
+10-20-25 definitions.txt
+2.txt
+2024 ASSESSMENTS.txt
+2025 ASSESSMENTS.txt
+2026-09-25_RUN_090_TANGENCY_DIMENSIONAL_DISCRIMINATOR.md
+2026-09-25_RUN_104_EXACT_FINITE_SLAB_FOLD_DISCRIMINATOR.md
+2026-09-25_RUN_105_EXACT_FINITE_SLAB_FOLD_UNIQUENESS.md
+2026-09-25_RUN_110_ASYMMETRIC_CORE_INCIDENCE_BIFURCATION.md
+2026-09-26_RUN_126_DIRECT_READOUT_ENDPOINT_RECONSTRUCTION.md
+2026-09-26_RUN_133_CURVATURE_FREE_B2_RADIUS_RECONSTRUCTION.md
+2026-09-26_RUN_136_CROSSOVER_INVERSE_MAP_IDENTIFIABILITY.md
+23swp42.txt
+24.11.15•24.11.15•AND NOT Logic — raw.json
+24SEPNEWS.txt
+25.01.22•25.03.18•Exposure Settings for DIY Cameras — raw.json
+25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json
+25.05.03•25.05.04•Fundamental Physics Explanations — raw.json
+25.05.04•25.05.04•GN-z11 Redshift and Electron Mass — raw.json
+25.05.04•25.05.04•Redshift and Effective Mass — raw.json
+25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json
+25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json
+25.05.04•25.05.04•Unifying Physics Theories — raw.json
+25.05.04•26.06.01•Geometric Unity Theory — raw.json
+25.06.01•25.06.01•Proof Consistency Check — raw.json
+25.10.08•26.09.28•Repurposeable narrative skeleton — raw.txt.txt
+25.10.29•25.10.29•String SAT filament model — raw.json
+25.10.29•25.10.29•Theory of Everything_ — raw.json
+25.10.29•25.10.29•Vetting document review — raw.json
+25.10.29•25.10.30•Exploring inspiration together — raw.json
+25.10.30•25.10.30•Correct LaTeX markup — raw.json
+25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json
+25.10.30•26.06.01•Independent theories comparison — raw.json
+25.11.05•25.11.05•Alien math possibilities — raw.json
+25.11.20•26.09.12•Circle degree radian equality — raw.json
+25.12.21•26.06.01•Conversation topics suggestions — raw.json
+25.12.22•26.06.01•4D Worldline Unification — raw.json
+25.12.22•26.06.01•Holonomy and physics compatibility — raw.json
+25.12.22•26.06.01•Theory discussion response — raw.json
+26.02.07•26.02.07•Response Framework Agreement — raw (1).json
+26.02.07•26.02.07•Response Framework Agreement — raw.json
+26.08.29•26.08.30•26R QUINTATION Quick Pass Analysis — raw.txt
+26.08.31•26.09.02•ChatGPT Voice Glitch — raw.txt
+26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt
+26.09.04•26.09.27•Meridian Mover Trial — raw.json.txt
+26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json
+26.09.12•26.09.16•Mercer Archive Mover — raw.json
+26.09.13•26.09.19•Meridian Mover Trial — raw.json
+26.09.13•26.09.19•Tag Conversation Corpus — raw.json
+26.09.14•26.09.19•Nathan Words Excavator — raw (1).json
+26.09.14•26.09.19•Nathan Words Excavator — raw (2).json
+26.09.14•26.09.19•Nathan Words Excavator — raw.json
+26.09.14•26.09.22•Revival Rotation — raw (2).json
+26.09.14•26.09.22•Revival Rotation — raw (3).json
+26.09.15•26.09.18•Continuity Check Setup — raw.json
+26.09.15•26.09.19•All-Worker Standards Read — raw.json
+26.09.16•26.09.19•Mercer Archive QA Loop — raw.json
+26.09.20•26.09.20•Explain Sites_ — raw.json
+26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json
+26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json
+26.09.21•26.09.27•Meridian Solver Loop — raw (1).json
+26.09.21•26.09.27•Meridian Solver Loop — raw.json
+26.09.22•26.09.23•ARIADNE — raw.json
+26.09.22•26.09.23•GitHub search results — raw.json
+26.09.22•26.09.23•MIRA — raw.json
+26.09.23•26.09.23•Assess clone traffic — raw.txt
+26.09.23•26.09.24•Style Spec Discussion — raw.json
+26.09.24•26.09.24•Access Branched Chat — raw.json
+26.09.24•26.09.24•Website Design Direction — raw.json
+3.txt
+32FQWEFE.txt
+3af8f37e-a68c-420c-a01a-136b43a41397.jfif
+4+link_fallapart.txt
+4.txt
+442CDA95-35D4-4A93-B502-E139BB28FE47.jpeg
+4D COVARIANCE+SATO.txt
+4D THINKING PRIMER.txt
+4D_Covariant_Import_Guidelines.txt
+4D_Covariant_Integration_Instructions.txt
+4D_THEORIZING.txt
+4D_THINKING_full.txt
+5.txt
+5AF22827-92C0-4D8E-979A-97BC144A0B23.png
+6.txt
+6C97896D-4DC0-4C6B-BA3A-3A8CF50C424D.png
+7.txt
+7778d95b-d1f2-4bc8-8623-cf6df2ca8cd7.jfif
+7e7bc25e-8457-4550-bee3-765a966e4988.png
+8.txt
+A DOZEN THEORY STUBS.txt
+A reaction.txt
+ABOUT HINTON.txt
+ABST-APP.txt
+ACTION PLAN JUNE ADDENDUM.txt
+ACTION PLAN JUNE ADDENDUM2.txt
+ACTION PLAN JUNE ADDENDUM3.txt
+ACTION PLAN JUNE.txt
+ACTION_PLAN.txt
+ACTIVATOR MODES.txt
+ACTIVE ROSTER SEPT 12 2026.txt
+ACTUAL.txt
+ADD.txt
+ADFA.txt
+AEFQWFE.txt
+AFD.txt
+AIDEN AND MAYA SHOW.txt
+AIWorkflow.txt
+AN INDULGENCE.txt
+ANONYM RETRO 2 EXPECTED OUTCOMES.txt
+ANONYM RETRO 2.txt
+ANONYMIZED RETRODICTION EXPECTED OUTCOMES.txt
+ANONYMIZED RETRODICTIONS.txt
+ANSWER.txt
+APPENDIX A.txt
+APPENDIX B.txt
+APPENDIX C.txt
+APPENDIX D.txt
+APPENDIX E.txt
+APPENDIX F.txt
+APPENDIX G.txt
+APPENDIX H.txt
+APPENDIX I.txt
+APPENDIX INTRO.txt
+APPENDIX J.txt
+APPENDIX K.txt
+APPENDIX L.txt
+APPENDIX M.txt
+ARTIFACT_SHA256 (1).json
+ARTIFACT_SHA256 (2).json
+ARTIFACT_SHA256 (3).json
+ARTIFACT_SHA256 (4).json
+ARTIFACT_SHA256.json
+ASDE.txt
+ASDF.txt
+ASFEF.csv
+ASG4FE.txt
+ASTER_VI_AUTHORITATIVE_COMMIT1_INSTALLER_6_9 (1).md
+ASTER_VI_AUTHORITATIVE_COMMIT1_INSTALLER_6_9.md
+ASTER_VI_RECEIPT_6_9 (1).md
+ASTER_VI_RECEIPT_6_9.md
+ATOMIC_TREE_PLAN.json
+AUDITOR README.txt
+AWDSFE.txt
+AWEFEF.txt
+AWEFWFWEF.txt
+AWEG.txt
+AWFGS.txt
+AWFQFEW.txt
+AWGR.txt
+AWGR3AWFE.csv
+ActiveEdge_vNext.text
+Alberr.txt
+Appendix.txt
+Audioscript - THE FUNDAMENTAL INTUITIONS OF SAT.txt
+BIOLOGICAL IMPLICATIONS OF SAT.txt
+BORROMEAN_LINK_ILLUSTRATION.txt
+BOSONIC TIME AND TWO GRAVITIES.txt
+BRAIN OPACITY.txt
+BULBEK.txt
+Bellomy_N_CoverLetter.txt
+BrainTrust.txt
+C5.txt
+CARROLL-HAWKING DISCO.txt
+CAUTIONS.txt
+CGPT_USAGE.txt
+CHATS 2 DATE.txt
+CHATS 4 DATE.txt
+CLASS_P_HAGALAZ_CHANNEL_ACTIVATION_v01.png
+CLASS_P_HAGALAZ_MU_CLEARANCE_SWEEP_v01.png
+CLASS_P_HAGALAZ_RECURSIVE_LIFT_XYW_v01.png
+CLASS_P_HAGALAZ_RECURSIVE_LIFT_XZW_v01.png
+CLASS_P_UI_HAGALAZ_TRANSFORM_v01.png
+CLASS_P_UI_HAGALAZ_TRANSFORM_v01.svg
+CLAUD--CONTINUED.txt
+CLAUDE_pyplan.txt
+CLOCK SHIFT PREDICTION PROTOCOL.txt
+CLOSED_STRING_VIZ.txt
+CNSPODCapture.JPG
+COLAB_Code 2.txt
+COMPLETED TASKS JUNE.txt
+COMPLETED UPDATE JUNE 1.txt
+COMPLEX_RESONANCES.txt
+CONCAT_COMB_SAT_PREDICTIONS.txt
+CONCAT_COMB_SAT_PREDICTIONS_2.txt
+CONCAT_COMB_SAT_PREDICTIONS_3.txt
+CONCAT_COMB_SAT_PREDICTIONS_4.txt
+CONCAT_COMB_SAT_PREDICTIONS_5.txt
+CONCAT_FULL_GIT_STATS.txt
+CONCAT_FULL_TIMELINE_DATA.txt
+CONSCI.txt
+CONSCPODCapture.JPG
+CONTROLS.txt
+CONVO DOWNLOAD TARGETS.txt
+CORE_TEAM_TASK_DIRECTIVES.txt
+CORRECTED_INSTALL_PACKET.md
+COSCSPODCapture.JPG
+COVARIANT PHYSICS REWRITE INSTRUCTIONS.txt
+CREATY.txt
+CRITIC CRITIQUE.txt
+CRITIC_SUMMARY.txt
+CRITIQUE.txt
+CURRENT MISSION.txt
+Capture.JPG
+ChatGPT Image Sep 12, 2026, 08_46_02 AM.png
+ChatGPT Image Sep 27, 2026, 08_59_15 PM.png
+ChatGPT Image Sep 27, 2026, 09_07_50 PM.png
+ChatGPT Image Sep 28, 2026, 11_46_03 AM.png
+ChatGPT Image Sep 28, 2026, 11_46_16 AM.png
+ChatGPT Image Sep 28, 2026, 11_46_25 AM.png
+ChatGPT_28MAY25_MEMORY.txt
+Cherenkov Radiation Cone — Simulator _ PhysSandbox.mhtml
+Chronophysical_Proposition_Executive_Summary.txt
+Chronophysical_Proposition_Full_Diagnostic.txt
+Clones in last 14 days (1).csv
+Clones in last 14 days (2).csv
+Clones in last 14 days (4).csv
+Clones in last 14 days (5).csv
+Clones in last 14 days.csv
+Code-Like Text Style Emulation - bellomy - to Oct-2023.txt
+ColabCode1.txt
+Commits (4).csv
+Commits over time (4).csv
+Commits over time (5).csv
+Commits over time.csv
+Commits.csv
+CompositeLogic.txt
+ConsensusConsiderations.txt
+ConsensusDataMining.txt
+ConsensusRound3.txt
+CoreBundle.txt
+Creating lab elf in nLab.txt
+Critique response.txt
+Cronin Levin SAT.txt
+DATED_FILE_LIST_EXTENDED.txt
+DEEP DIVE PROMPT KNELLING BOX.txt
+DEEP DIVE PRONUNCIATION GUIDE PT2.txt
+DEV_1.txt
+DEV_2.txt
+DEV_3.txt
+DEV_4.txt
+DEV_5.txt
+DEV_8.txt
+DIMENSIONAL_NORMALIZATION.pdf
+DOMAIN WALL PREDICTION.txt
+DRAKE EQ.txt
+DUGUP.txt
+E-B DISUCSSION.txt
+EARLY MOTIVATIONS.txt
+EF.txt
+EFAFQ.csv
+EINSTEIN_SELBST_ERKLAERUNG.txt
+EINSTEIN_UBERBLICK.txt
+EMERITUS_CODE.txt
+EMERITUS_CP Responses.txt
+EMULATOR ANALYSIS.txt
+EMULATOR RESULTS.txt
+EMULATOR SPECS.txt
+EMULATOR_FIRST RUN.txt
+EMULATOR_SECOND RUN.txt
+EPISODE ONE SCRIPT.txt
+EXTENDED COBORDISM.txt
+Expanded-Computational-Geometry-Graph-1-0-0-definition.nb
+F137DDEB-0EFA-491F-8A95-1343D493A631.jpeg
+FEEFE.txt
+FLAGS.txt
+FOUNDATIONAL ARGUMENT.txt
+FOYE_VI_RUN11_ACCEPTANCE_CLOSURE.md
+FOYE_VI_TURN11_RECEIPT.md
+FOYE_V_FRESHNESS_AUDIT_5_5.md
+FULL THEORY V2.txt
+FULL_LEANCHECK.txt
+FULL_LEANCHECK_draft.txt
+FULL_LEANCHECK_incl_mass.txt
+FULL_LEANCHECK_mass.txt
+FULL_MASSSPEC.txt
+FULL_REVISION_PATHWAY.txt
+FULL_THEORY_LEANCHECK_draft.txt
+FUNDAMENTAL INTUITIONS.txt
+Fiber Bend & TIR Loss — Simulator _ PhysSandbox.mhtml
+FileIndex.txt
+FileIndex2.txt
+FileIndex3.txt
+FileIndex4.txt
+Flow2o.txt
+G35HWGRE.txt
+G3QGF.txt
+GENERAL RELATIVITY.txt
+GENRES-BOXED.txt
+GITHUB_ASSISTANT_CONVO.txt
+GITHUB_INSIGHTS.txt
+GLOSSARY (LIVE).txt
+GOOG4.txt
+GOOGLE ON NATHAN.txt
+GOOGLEonNATHAN2.txt
+GOOGLONN3.txt
+GProof.txt
+GROETHNIK.txt
+Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md
+Glass_Sausage_Factory_design_recommendations.md
+H(s)H CLAUDUH.txt
+H(s)H COMBINOTATION.txt
+H(s)H MANIFOLDS.txt
+H(s)H NOTATION.txt
+H(s)H REWORK.txt
+H(s)H STEAMROLLER - Gemini Notebook.mhtml.txt
+H(s)H Satobloc Mix.txt
+HAGALAZ_DEF+.txt
+HELIUM STANDARD ATOM 2.txt
+HELIX_GENERATOR.py.txt
+HOLONOMY DRAFT.txt
+HOPF_LINK_ILLUSTRATION.txt
+HSH ACTIVITY.txt
+HSHSB23252026.txt
+HSH_INTERNAL_ACT.txt
+HSH_TRAFFIC_23SEP26.txt
+HSH_commits.txt
+HUMAN-COMPUTER INTERACTION.txt
+HYPERFLIRTSPECS.txt
+H_UNIVERSES.py
+H_universes.py
+HoloJesu Fleshlight.txt
+Hrandoverses.py
+HsH ARCHITECT.txt
+HsH ARCHITECTING.txt
+HsH CLAUDE.txt
+HsH MINKOWSKI LITERALISM.txt
+HsHTRACKING.txt
+IMAGES_to_UNIVERSES.txt
+IMAGE_IDENTIFICATION.txt
+INCORPORATION.txt
+INTERESTING IMPLICATIONS.txt
+INTERLACEDNESS.txt
+IS AND ISNT.txt
+Impact.txt
+InputDef.txt
+JOINT STATS.txt
+JUNE ACTION PLAN FINAL.txt
+JUNE ACTION PLAN FINAL 1.txt
+JUNE ACTION PLAN FINAL 2.txt
+KESTREL_V_EXECUTABLE_INSTALL_CLOSURE_6_5.md
+L2-2a.txt
+L2-2b.txt
+L2-2c.txt
+L2-2d.txt
+LAB1_code.txt
+LAB2_code.txt
+LEANCHECK.txt
+LEANCHECK_massSpec_basic.txt
+LEANCHECK_massSpectrum.txt
+LEANCHECK_notebook.txt
+LOOKSIE.txt
+LaTeX_Documentation.txt
+Lab1 Output to NLM.txt
+Lab2 Output to NLM.txt
+Langan and SAT(1).txt
+Limits.txt
+Line Chart (1).png
+Line Chart (2).png
+Line Chart (3).png
+Line Chart.png
+MAKING FRIENDS WITH NOTEBOOKLM.txt
+MASS SPECTRUM CALCULATION.txt
+MASTER_CONTROL.txt
+MAY21 Phase IV Completion.txt
+MAY21 STATUS+TODO.txt
+MAYA&AIDEN.txt
+MERIDIAN_LOOP_ROUNDUP_NOTES.txt
+METAMATICIAN ROLE DEFINITION.txt
+MOD1 CHECKLIST.txt
+MODELING SEISMIC WAVE PROP.txt
+Mathematizer.txt
+Matplotlib Chart (1).png
+Matplotlib Chart (2).png
+Matplotlib Chart (3).png
+Matplotlib Chart.png
+Maximizing Insights Together - bellomy - 8-13-2023.txt
+MeasuringTheta.txt
+Metamatician Role Definition(1).txt
+Module_0A_interpretive_modes.txt
+Module_5B_mass_hierarchy_benchmarks.txt
+Module_7C_exotic_hadron_projections.txt
+Module_8A_cmb_tensor_test.txt
+Module_O10.txt
+Module_O12.txt
+Module_O13.txt
+Module_O3B_quantisation.txt
+Module_O3C_renormalisation.txt
+Module_O3D_surface_dynamics.txt
+Module_O7_Audit_Report.txt
+Module_O7_Audit_Report_Full.txt
+Mpesa-Based_Wi-Fi-Hotspot_Billing_System-1.0.0.zip
+NATHANWORDS.txt
+NAUTILUS ARTICLE EVOLVING.txt
+NAUTILUS ARTICLE OUTLINE.txt
+NCOMM_SCHEDULE_PRIVATE_TAB.txt
+NESTED HOLONOMIES.txt
+NEWS24SEP26.txt
+NEWS24SSP26.txt
+NEWSS.txt
+NEWSSSS.txt
+NEWS_21SEP26.txt
+NEWS_SEPT20-2026.txt
+NLM_CP Results.txt
+NOTEBOOLM PROJECTS LIST.txt
+Nautilus article draft short.txt
+Nautilus article draft.txt
+Nautilus article meso .txt
+Nautilus article.txt
+Newton's Cradle — Simulator _ PhysSandbox.mhtml
+NextPhases.txt
+NotebookLM Mind Map.png
+O10 2.txt
+O10.txt
+O5_Audit_Report_and_Checklist.txt
+O7_Audit_Instructions_and_Module.txt
+O9 2.txt
+O9-10_intro 2.txt
+O9-10_intro.txt
+O9-10_intro_IDS 2.txt
+O9-10_intro_IDS.txt
+O9.txt
+ONTIC EJECTION INTEGRATED.txt
+ONTIC NNDMcF INITIATION THREAD.txt
+ONTIC TRANSCENDER.txt
+ONTOLOGY MADE OF.txt
+ONTOLOGY SPOOKY LAGRANGIAN.txt
+PAPERADRAFT.txt
+PAPERS TO LOOK UP.txt
+PAPER_PARTICLE_ZOO_TYPED_TOPOLOGY (1).pdf
+PAPER_PARTICLE_ZOO_TYPED_TOPOLOGY.md
+PAPER_PARTICLE_ZOO_TYPED_TOPOLOGY.tex
+PAPER_RECURRENCE_SOLVER.md
+PAPER_RECURRENCE_SOLVER.pdf
+PAPER_RECURRENCE_SOLVER.tex
+PARTICLE_SAVE.txt
+PARTICLE_SAVE_FORMUL.txt
+PERFECT v2.txt
+PHYS_SUPP_PRED.txt
+PIPELINE_DESIGN.txt
+PODCAST SCRIPTS.txt
+PRECLOSE_NOTE_ROUNDUP.txt
+PREDICTION REASSESSMENT.txt
+PREWHIRLY - Copy.py
+PREWHIRLY.py
+PRIMARY INVESTIGATOR DIRECTIVE.txt
+PRIOR SAT ROSTER SURVEY.txt
+PRIVATE_TAB_GOOGLE.txt
+PROPER DIMENSIONALITY.txt
+PROTOCOLS_REF.txt
+PSEUDEINSTEIN.txt
+PY-COIL ROTATION SCRIPT.txt
+Partyfavor Cueslerrre - Chat.pdf
+PhaseNext2.txt
+Phase_VIII-A_SAT_Diagnostics.txt
+Physical Review D Guidelines.txt
+Physical Review D.txt
+Process.txt
+Purely Speculative .txt
+QUINTATION Pasted markdown(20260829-194715).md
+QWEF.csv
+QWEF.txt
+QWEFEF.txt
+QWEFF.txt
+QWEFQWEFE.txt
+QWEFQWF.csv
+QWEFWEF.txt
+QWEFWF.txt
+QWEFWQF.txt
+QWFE.csv
+QWFEFE.txt
+QWFEFW.txt
+QWFEFWE.txt
+QWFF.txt
+QWQFWEF.txt
+QWWEFW.txt
+Questions.txt
+Quirky Life Journey - bellomy - through oct 2023.txt
+README.md
+README.md.txt
+README_UI_MAPPER_BASIC.md.txt
+REFERENCE -- CONSTANTS.txt
+RELATAVISTIC EXPERIMENT.txt
+REPORT1-OUTLINE.txt
+REPORT1-rough.txt
+REPORT1.txt
+REPORT1_DRAFT.txt
+RETRO ANONYM 2 EXPECTED OUTCOMES.txt
+RETRO ANONYMIZ 2.txt
+RETRODICTION ANONYMIZED EXPECTED OUTCOMES.txt
+RETRODICTION ANONYMIZED .txt
+RETRODICTIONS 1.txt
+RGQEF.txt
+RMS SAT (1).txt
+RMS Taxonomy and Truth to 3-8.txt
+RMS&SAT(1).txt
+RMS-OLD.txt
+RMS-TAXO-OLD.txt
+RMS_Canonical2.txt
+ROADMAP.txt
+ROUNDUP 2.5.txt
+ROUNDUP 2.txt
+RUN_141_GAUGE_SAFE_HAGALAZ_TRIANGLE_RESIDUAL.md
+RUN_142_AFFINE_RESIDUAL_OBSTRUCTION_CLASSIFICATION.md
+RUN_143_LAG_CONDITIONED_RECURRENCE_DISCRIMINANT.md
+RUN_144_RECURRENCE_AND_PARTICLE_ZOO_DIAGNOSTIC (1).md
+RUN_144_RECURRENCE_AND_PARTICLE_ZOO_DIAGNOSTIC.md
+Radical Meta-Skepticism Overview - Bellomy.txt
+Reccs.txt
+Roundtable.txt
+SAT & String Theory.txt
+SAT 4D PLAN OF ACTION.txt
+SAT ARCHIVE — ARCHIVE CHAT.txt
+SAT BUILDING STORY.txt
+SAT CHATTER 2.txt
+SAT CHATTER.txt
+SAT CONNECTIONS.txt
+SAT CRIT.txt
+SAT CoMast Operatonal Instructions.txt
+SAT DAI WEIRD IDEAS — DEEP_DIVE_INTERIORITY.txt
+SAT DEBUG SHEET (1).txt
+SAT DEBUG SHEET.txt
+SAT Earthquake predictor.txt
+SAT FIRST LEG 2.txt
+SAT FIRST LEG 3 of 3.txt
+SAT FORMALIZATION ROUND 3ish (1).txt
+SAT FORMALIZATION ROUND 3ish.txt
+SAT FORMALIZATION doc.txt
+SAT FULL EVALUATION.txt
+SAT Full Revamp.txt
+SAT GRADECARD.txt
+SAT HARD FORMULATION (1).txt
+SAT HARD FORMULATION(1).txt
+SAT HARD FORMULATION.txt
+SAT HISTORY.txt
+SAT INCEPTION (1).txt
+SAT INCEPTION SCRIPTS (1).txt
+SAT INCEPTION SCRIPTS.txt
+SAT INCEPTION.txt
+SAT INDEX TERMS.txt
+SAT Lagrangian and Variational Derivation (1).txt
+SAT Lagrangian and Variational Derivation.txt
+SAT MARK V Testable.txt
+SAT MARK V.txt
+SAT MATH.txt
+SAT Math Extension.txt
+SAT Mathematical Core.txt
+SAT O MODULES -- ALL MODULES LaTeX MARKUP.txt
+SAT O1 4D.txt
+SAT O3 4D.txt
+SAT O4 4D.txt
+SAT PREDICTION HIST - ROUNDUP 2.5.txt
+SAT PREDICTION — METRICS + OTHER SAT's.txt
+SAT PREDICTIONS - PROTOCOL NONONYMIZED.txt
+SAT PREDICTIONS - PULSAR TIMING RESIDUALS.txt
+SAT PREDICTIONS - ROUNDUP 2.txt
+SAT PREDICTIONS - Vera Predictions 2.txt
+SAT PREDICTIONS — PREDICTIONS_ROUNDUP.txt
+SAT PREDICTIONS — ROUNDUP - PREDICTIONS.txt
+SAT PREDICTIONS — ROUNDUP 1.5.txt
+SAT PREDICTIONS — ROUNDUP 1.txt
+SAT PREDICTIONS — ROUNDUP 2.5.5.txt
+SAT PREDICTIONS — SCORECARD.txt
+SAT PREHISTORY - 2024.txt
+SAT REFORMULATION .txt
+SAT RETRODICTED DATA JUNE 1 2025.txt
+SAT RIGOR.txt
+SAT Reformulation & Fine Structure Comstant(1).txt
+SAT SCALAR ANGULAR THEORY (1).txt
+SAT STUFF.txt
+SAT TEST.txt
+SAT TO DO — Google py.txt
+SAT TO-DO LIST APR2025.txt
+SAT TRICK As.txt
+SAT TRICK Qs.txt
+SAT TRUE PREDICTIONS.txt
+SAT WEIRD IDEA — Superhelicalism.txt
+SAT WEIRD IDEAS — Kirch.txt
+SAT WEIRD IDEAS — ONTOLOGY SPOOKY LAGRANGIAN.txt
+SAT WEIRD IDEAS — Rest.txt
+SAT WEIRD IDEAS — SAT++.txt
+SAT WEIRD IDEAS — SAT+.txt
+SAT WEIRD IDEAS — SOLENOID SEED.txt
+SAT WEIRD IDEAS — Solenoidbit.txt
+SAT WEIRD IDEAS — Solnd .txt
+SAT WEIRD IDEAS — Wacky 4D 2.txt
+SAT WEIRD IDEAS — Wacky 4D.txt
+SAT WORKABLE PODCAST (1).txt
+SAT Z ACTION PLAN EXTENSION.txt
+SAT Z ACTION PLAN.txt
+SAT Z AXIOMS.txt
+SAT Z CORE.txt
+SAT Z FIRST LEG.txt
+SAT Z FIRST PRINCIPLES DERIVATIONS.txt
+SAT Z INDEX.txt
+SAT Z PLAN.txt
+SAT Z QG -- SEANs TODO.txt
+SAT Z SECOND LEG.txt
+SAT intro.txt
+SAT predictions 3.txt
+SAT to Chronophysical Proposition... writ large.txt
+SAT-OLD.txt
+SAT-PERFECT.txt
+SAT-QG.txt
+SAT-ST Module Dev Plan.txt
+SAT-Y 4D.txt
+SAT-Y CYCLETHROUGH+STUFF.txt
+SAT-Y FULL DONE LIST.txt
+SAT-Y FULL PRIORITIES.txt
+SAT-Y Hamiltonian+Quantum.txt
+SAT-Y LEFTOVERS.txt
+SAT-Y Modes Buildout.txt
+SAT-Y PRIORITIES.txt
+SAT-Y Predictions.txt
+SAT-Y Theta+Helix Particle Properties.txt
+SAT-Y Theta+Helix Particles.txt
+SAT-Y Theta4 Calcs.txt
+SAT-Y ThetaProof.txt
+SAT-Y Vizualizations.txt
+SAT-Y Vizualizations2.txt
+SAT-Z PROGRESS.txt
+SAT.4D Action Plan.txt
+SAT.4D Deployment Guidelines.txt
+SAT.4D Glossary.txt
+SAT.O Official Directives.txt
+SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt
+SAT20_Emergent_Filament_Surface_Theory_Neutral.txt
+SAT4DCORE_MASTER_STRUCTURE_LOCK.txt
+SAT4DHHUC copy.txt
+SAT4D_1.txt
+SAT4D_2.txt
+SAT4D_3.txt
+SAT4D_4.txt
+SAT4D_5.txt
+SAT4D_6.txt
+SAT4D_7.txt
+SAT4D_8.txt
+SAT4D_9.txt
+SAT4D_Covariant_Field_Equations.txt
+SAT4D_DERIVATIONS_MASTER.txt
+SAT4D_Glossary_Sync.txt
+SAT4D_LIVE_DRAFT.txt
+SAT4D_MATHEMATICAL_BACKBONE.txt
+SAT4D_Sections_Overview.txt
+SAT4D_Structural_Supplement.txt
+SAT4D_ToE_Roadmap.txt
+SAT4D_clean_draft.txt
+SAT4_MASTER_STRUCTURE_LOCK.txt
+SATCoMast v2.txt
+SATELLITE_DATA_UNSORTED (1).txt
+SATEvolution (1).txt
+SATInterpreted (1).txt
+SATInterpreted 2.txt
+SATInterpreted.txt
+SATMathAssay.txt
+SATO -- BRUMAIRE.txt
+SATO-BLOCK CORE.txt
+SATO-BLOCK-INT.txt
+SATO-BLOCKWAVE_leancheck.txt
+SATO-DESCRIPTIVE.txt
+SATO.4D Coherence Project Instructions.txt
+SATO4D_OVERVIEW_AUG2025.txt
+SATOBLOC-CALIBRATED.txt
+SATOBLOCK DEBUT.txt
+SATOBLOCK Full Theory & Predictions.txt
+SATOBLOCK HISTORY AND EVOLUTION.txt
+SATOBLOCK PLAN.txt
+SATOBLOCK--Bloc1.txt
+SATOBLOCK-Bloc3.txt
+SATOBLOCK-Bloc4.txt
+SATOBLOCK-Bloc5.txt
+SATOBLOCK-CLOSURES.txt
+SATOBLOCK-FIRSTBUILD.txt
+SATOBLOCK-LIVE.txt
+SATOBLOCKSTRING_LEAN_TEST.txt
+SATOBLOCK_CONCEPT_DEVELOPMENT.txt
+SATOBLOCK_FOUNDATIONS.txt
+SATOBLOCK_FULLTHEORY_leancheck.txt
+SATOBLOCK_LIVE_DEV.txt
+SATOBLOCK_inputs.txt
+SATOBLOCK_massbuild.txt
+SATOBLOCK_nostring.txt
+SATOBLOCK_operationalized.txt
+SATOBLOCSTRING_leantest.txt
+SATOPDCASTSCapture.JPG
+SATO_4D_assessment.txt
+SATPODCapture.JPG
+SATPatch.txt
+SATRev.txt
+SATState May2025.txt
+SATX_Overview_Aug2025.txt
+SAT_20_CHATGPT_MODE_SPECIFICATIONS.txt
+SAT_20_COMBINED_MODE_REFERENCE_SHEET.txt
+SAT_20_MASTER_DOCUMENT_CONTROL_SHEET.txt
+SAT_20_MASTER_PLAN.txt
+SAT_20_MODE_LOGIC_TREE_ADVISORY.txt
+SAT_20_MODE_QUICK_LOOKUP.txt
+SAT_20_MODE_TO_MODEL_ASSIGNMENT_TABLE.txt
+SAT_20_PLANNING_DISCUSSION_LOG.txt
+SAT_20_QUICK_MODE_SWITCH_TEMPLATE.txt
+SAT_20_QUICK_REFERENCE_CARD.txt
+SAT_20_SESSION_RECAP_TEMPLATE.txt
+SAT_20_TOP_LEVEL_GOALS.txt
+SAT_4D_Pronunciation_Guide.txt
+SAT_ARCHIVE_topic_index.txt
+SAT_Buildout_Snapshot.txt
+SAT_CORE_4D.txt
+SAT_CORE_CODE.txt
+SAT_Extended_Cobordism_Framework.txt
+SAT_FULL_FILE_INDEX.txt
+SAT_Falsifiability_Ledger.md.TXT
+SAT_Falsifiability_Ledger.txt
+SAT_Framework_Full_Report_Text (1).txt
+SAT_Framework_Full_Report_Text.txt
+SAT_Framework_Report.txt
+SAT_GLOSSARY_MODEL_INDEX_v9.txt
+SAT_GLOSSARY_PATCH.txt
+SAT_Glossary_FULL_BUILDOUT.txt
+SAT_HISTORY_AND_VERSIONING.txt
+SAT_HISTORY_ROUNDUP.txt
+SAT_HowTo_AnalogueToCalibration (1).pdf
+SAT_HowTo_AnalogueToCalibration (2).pdf
+SAT_HowTo_AnalogueToCalibration (3).pdf
+SAT_HowTo_AnalogueToCalibration.pdf
+SAT_INDEX.txt
+SAT_JUN25_SUMMARY.txt
+SAT_Moduli_Topology_Quantization_Triad.txt
+SAT_O10_Topological_Spectrum_Higher_Mass_Excitations.txt
+SAT_O1_structure_lock.txt
+SAT_O2_structure_lock.txt
+SAT_O3_structure_lock.txt
+SAT_O4_Prelim_Audit_Report.txt
+SAT_O4_UltraHostile_Audit.txt
+SAT_O4_structure_lock.txt
+SAT_O5_structure_lock.txt
+SAT_O6_structure_lock.txt
+SAT_O7_structure_lock.txt
+SAT_O8.txt
+SAT_O8_Audit_Results.txt
+SAT_O8_structure_lock.txt
+SAT_O9_Graviton_Topological_Strain.txt
+SAT_O9_structure_lock.txt
+SAT_O_AuditSupervisor_TodoList.txt
+SAT_O_STR_Intro_String_Theory_Integration.txt
+SAT_PATH_FORWARD.txt
+SAT_PGCU_Integration.txt
+SAT_PHASE_VIII_GAUGE_BUILDOUT.txt
+SAT_PhaseIII.txt
+SAT_PhaseIV.txt
+SAT_PhaseI_II.txt
+SAT_PhaseV.txt
+SAT_PhaseVI.txt
+SAT_Phase_III_Rewrite.txt
+SAT_Phase_IV_PGCU_Rewrite.txt
+SAT_Phase_IX_Buildout.txt
+SAT_Phase_I_II_Rewrite.txt
+SAT_Phase_Shift_Control_Patch.txt
+SAT_Phase_Shift_Note.txt
+SAT_Phase_VIII_Buildout.txt
+SAT_Phenomenology_2025.txt
+SAT_SATELLITE_ANOMALY_ANALYSIS (1).txt
+SAT_STATED_SIMPLY.txt
+SAT_Status_Report.txt
+SAT_Symbolic_Kernel.txt
+SAT_TRANSLATION_COMPENDIUM.txt
+SAT_Versioning.txt
+SAT_Z_Progress_Log.txt
+SAT_colinears_draft.txt
+SAT_optics_finding.txt
+SAT_overview.txt
+SATiii REWORK MARK III.txt
+SATv TO STANDARD MAP.txt
+SATv ACTUAL ANSWERS.txt
+SATv ANSWER KEY.txt
+SATv ASSESSMENT.txt
+SATv ATTEMPTED FORMALIZATION.txt
+SATv EXPLORATIONS.txt
+SATv FORMAL POSTULATES.txt
+SATv REFORMULATION.xtx.txt
+SATv THE PARTICLE ZOO.txt
+SATv TIME_WAVEFRONT.txt
+SATv Test Battery.txt
+SATv VISUAL VOCABULARY.txt
+SATv _REFORM_TRIAL.txt
+SATv aSAT vs SAT.txt
+SATv_CONSENSUS.txt
+SATx ADDENDUM (1).txt
+SATx ADDENDUM2 (1).txt
+SATx ADDENDUM3 (1).txt
+SATx Addendum4 (1).txt
+SATx CANONICAL.txt
+SATx HAMILTONIAN .txt
+SATx LAST BRICK.txt
+SATx PIECES.txt
+SATx SPACKLECOAT.txt
+SATx STATE OF SAT.txt
+SATx SUPPORTING.txt
+SATx-y FULL LOG.txt
+SATx-y INSIGHTS.txt
+SATx-y PRELIM TASKS.txt
+SATx_FULL_PODCAST (1).txt
+SATx_PODCAST_LONG_EDITED.txt
+SATx_PODCAST_LONG_EDITED_PRON.txt
+SATx_Predictions_and_Retrodictions.txt
+SATxy CYCLETHROUGH1-4.txt
+SATxy CYCLETHROUGH2-4.txt
+SATxy CYCLETHROUGH3-4.txt
+SATxy CYCLETHROUGH4-4.txt
+SATxy DOC INDEX.txt
+SATxy MAYBE.txt
+SATxy RESTITCH.txt
+SATxyACTIVATOR_DO_NOT_USE.txt
+SATy IfThen.txt
+SAUSFACT_SITES_RECCS.txt
+SCINEWS4.txt
+SCINEWS_24SEP26.txt
+SCI_NEWS_SEP.txt
+SD.txt
+SDFA.txt
+SDFAD.txt
+SEARCH-REPORT-POWERSHELL.txt
+SECOND LEG 2 of 2 JUNE 1.txt
+SECTION 1.txt
+SEPSCINEWS.txt
+SHEEN.txt
+SHEPARD.txt
+SHEPARD_AUDIT_PACKAGE.txt
+SKETCH_GUITAR_STRING_MODEL.txt
+SO4_SIX_ROTATION_PLANES_CLASS_P.pdf
+SO4_SIX_ROTATION_PLANES_CLASS_P.png
+SOLIDITY MASS ACCEL DEFORMATION.txt
+SPEC_COUPLED_FILAMENT_TIMESHEET_STRING_BRIDGE_V01.md.txt
+SPEC_PARTICLE_ZOO_TYPED_ATLAS_V0.md
+STANDALONE CODES.txt
+STAT.txt
+STATE OF SAT.txt
+STATIC SUN DEMO.txt
+STRING_THEORY INTEGRATOIN.txt
+ST_MASSLESS_PARTICLE_REINTERPRETATION.txt
+ST_MESON_REINTERPRETATION.txt
+ST_QUARK_REINTERPRETATION.txt
+SUBMISSION_SUPPLEMENTAL.txt
+SUCCINCT SAT5.txt
+Satobloc's Commits (2).csv
+Satobloc's Commits.csv
+SecAn (Section Analyst) Spec Template.txt
+Self-Guided Action Plan.txt
+SpecAn Instruction-Writing Guidelines (For CoMast).txt
+TEST BATTERY 1 10-20-25.txt
+THE FUNDAMENTAL INTUITIONS OF SAT.txt
+THE LOGIC OF SAT.txt
+THE NUGGETS.txt
+THE PRIME DIRECTIVE.txt
+THETA_4_PLOTTER.py.txt
+THREAD1 ACTIVE INTERFACE.txt
+THREAD1 First Qs.txt
+THREAD1.txt
+THREAD2 ACTIVE INTERFACE.txt
+THREAD2 First Qs.txt
+THREAD2.txt
+TIME INSTRUCTIONS.txt
+TRIAL_RUN.txt
+TauTwistPodcast.txt
+Test Battery 2.txt
+Tests+Predictions.txt
+The New Physics - Making _Interesting_ LLM Characters.srt
+The radical insight of SAT.txt
+TheTANGLE.txt
+The_CRT_Telemetry_Archive.pdf
+TheorizerEmeritus (former ActiveEdgeGPT).txt
+Theta_4_plotter_helical.py.txt
+Thread1todate.txt
+Thread2todate.txt
+Total views in last 14 days (4).csv
+Total views in last 14 days (5).csv
+Total views in last 14 days.csv
+Total views in last 14 days.png
+TvTheta_Plotter.py.txt
+Unique cloners in last 14 days (1).csv
+Unique cloners in last 14 days (2).csv
+Unique cloners in last 14 days (4).csv
+Unique cloners in last 14 days (5).csv
+Unique cloners in last 14 days.csv
+Unique visitors in last 14 days (4).csv
+Unique visitors in last 14 days (5).csv
+Unique visitors in last 14 days.csv
+VERBAL_THEORY.txt
+WEFEF.txt
+WEFEWF.txt
+WEFEWFF.txt
+WEFWEEF.txt
+WF32.txt
+WFEW.txt
+WFEWF.txt
+WFQWEFE.txt
+WHIRLICLOSER.py
+WHIRLIGIG_DEMO.py
+WHITE PAPER OUTLINE.txt
+WHITEPAPER APPROVED OUTLINE.txt
+WHITEPAPER_LATEX_MARKUP.txt
+WHY SAT.txt
+WIGGLESPRING.ph.txt
+WIGGLESPRING.txt
+WINE GLASSES.txt
+WORKING_GROUP_1.txt
+WQEFEWF.csv
+WQEFFEW.txt
+WQFEWF.csv
+WQFWEFE.txt
+WQWDFEW.txt
+WV.txt
+WhatIsTime.txt
+Wrong.txt
+YOU ARE NOT.txt
+Zhoopy.txt
+[NODECHECK.archshare.contractapprove].txt
+[VISUAL_INSP].pdf
+[VISUAL_INSP]_part001_p0001-0020.pdf
+[[[SAT26_BIGBOOK]]].txt
+[[[SAT_2025-26_PRED-POST]]].txt
+[[[SAT_2025_DERIV]]].txt
+[[[SAT_PDF_LIB]]]_part002_p0370-1956.pdf
+[[[SAT_PDF_LIB]]]_part003_p1957-2373.pdf
+[[[SAT_PDF_LIB]]]_part004_p2374-2639.pdf
+[[[SAT_VISUAL_HIST]]]_part001_p0001-0145.pdf
+[[[SAT_VISUAL_HIST]]]_part002_p0146-0160.pdf
+_README - AIDEN AND MAYA SHOW BIBLE.txt
+__SEASON ONE TIMELINE.txt
+___FRAME STORY - aiden and maya 1.txt
+aiden and maya 2.txt
+alberr-dirrections.txt
+asstaxis.png
+badaskitryCapture.JPG
+baryon_visualizer.txt
+blank.md
+borromean_binding.txt
+bounded_high_curvature_segment.png
+buggy.txt
+caulimain.txt
+chatthink.png
+check_pdf_inventory_freshness.py
+ckm-comparison-bar.png
+ckm-error-heatmap.png
+cmy_gradient_cancellation_atlas.png
+concordance_colab_block_3_fixed.txt
+continuous_ns_whirligig_solver (1).py
+coupled_filament_timesheet_bridge.py.txt
+deep dive prompt.txt
+delay_winding_map.png
+detailed versioning.txt
+deviation_is_data.pdf
+ec446656-68c2-48e1-b5f3-d600b8cd0f65.png
+executed_acceptance (1).txt
+executed_acceptance (2).txt
+executed_acceptance.txt
+executed_tests.txt
+external_embedding.png
+f348a07e-1c61-4ac9-b5f5-5989a7d76941.nb
+factory_fresh.txt
+five_image_montage.png
+fun break - lx.txt
+gendarme_exact_mirror_color_atlas.png
+gg_recent.txt
+github-actions[bot]'s Commits (2).csv
+github-actions[bot]'s Commits.csv
+github_traffic_readme.txt
+googs.txt
+gt.txt
+gtss.txt
+guitar_string_timesheet_trace.png.txt
+hagalaz_recursive_lift_mu_sweep_v01.csv
+he3-charge-radius.png
+helix_geometry_calculator.csv
+helix_intersection_visualizer.txt
+helix_visualizer.txt
+higgs-analogue-lock.png
+hostile_pass_c_plus.txt
+hsshpodcstsCapture.JPG
+huniverses.py
+hydrogen-rydberg-spectrum.png
+last_scattering_map.png
+lean_dojo_Handbook.txt
+lean_test.txt
+114 entries not shown
+HAGALAZ
+LONG_CONVOS
+SAT_CONVOS_1
+SAT_CONVOS_10
+SAT_CONVOS_11
+SAT_CONVOS_12
+SAT_CONVOS_13
+SAT_CONVOS_15
+SAT_CONVOS_16
+SAT_CONVOS_17
+SAT_CONVOS_18
+SAT_CONVOS_19
+SAT_CONVOS_2
+SAT_CONVOS_20
+SAT_CONVOS_21
+SAT_CONVOS_22
+SAT_CONVOS_3
+SAT_CONVOS_4
+SAT_CONVOS_5
+SAT_CONVOS_6
+SAT_CONVOS_7
+SAT_CONVOS_8
+SAT_CONVOS_9
+UI_EXACTIROUGHLY
+25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json
+25.11.20•26.09.12•Circle degree radian equality — raw.json
+26.06.22•26.06.23•Homes in Cardinal Order — raw.json
+26.08.23•26.08.25•AI Enclosure Critique — raw.json
+26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json
+26.09.19•26.09.19•Reinitiate Document Analysis — raw.json
+26.09.20•26.09.20•New chat — raw.json
+26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json
+26.09.20•26.09.22•Nathan Words Excavator — raw.json
+ACTIVE ROSTER SEPT 12 2026.txt
+CLASS_P_HAGALAZ_CHANNEL_ACTIVATION_v01.png
+CLASS_P_HAGALAZ_RECURSIVE_LIFT_XYW_v01.png
+CLASS_P_HAGALAZ_RECURSIVE_LIFT_XZW_v01.png
+CLASS_P_UI_HAGALAZ_TRANSFORM_v01.png
+CLASS_P_UI_HAGALAZ_TRANSFORM_v01.svg
+CONVO DOWNLOAD TARGETS.txt
+Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md
+Glass_Sausage_Factory_design_recommendations.md
+H(s)H TEMPORAL ISOTROPY.txt
+H(s)H TIME RESIDUALS.txt
+PRIOR SAT ROSTER SURVEY.txt
+RMS-SAT-H(s)H.md
+SO4_SIX_ROTATION_PLANES_CLASS_P.pdf
+SO4_SIX_ROTATION_PLANES_CLASS_P.png
+WORKING_GROUP_1.txt
+[[[SAT_PDF_LIB]]]_part001_p0001-0369.pdf
+hagalaz_recursive_lift_mu_sweep_v01.csv
+INTERNAL
+LIBRARY
+LIVE CONVOS
+NEW_PAPERS/SEPTEMER_2026
+ONBOARDING
+PLAYGROUNDS/MORROW_KESTREL
+PUBLIC_SITE
+QUARANTINE/2026-09-13_INTEGRATION_HALT
+SAT_VISUALS
+WORKSPACES
+audits
+checkpoints
+formalization
+generated
+indexes
+ledgers
+synthesis
+tests
+tools
+!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md
+!!_RUNNING_COTHEORIST_LOG.md
+!_ANNOTATED_ARCHIVE_SURVEY.md
+ARCHITECTURE.md
+BEDROCK.md
+HISTORY_TIMELINE.md
+LIBRARY.md
+LICENSE
+README.md
+SCRIPT_EXECUTION_SAFETY.md
+STATE_OF_THE_THEORY.md
+▶ LAUNCH CONVERSATION VIEWER.cmd
+HsH/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP
+/2026-09-25_RUN_104_EXACT_FINITE_SLAB_FOLD_DISCRIMINATOR.md
+Satobloc
+Satobloc
+Add files via upload
+00467a5
+ · 
+2 days ago
+HsH/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP
+/2026-09-25_RUN_104_EXACT_FINITE_SLAB_FOLD_DISCRIMINATOR.md
+
+Preview
+
+Code
+
+Blame
+149 lines (119 loc) · 4.14 KB
+Meridian Run 104 — exact finite-slab reduction and fold discriminator
+Date: 2026-09-25
+Status: SANDBOX / exact within the frozen leading quadratic-contact model
+Direct authority: WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md
+Quarantine: no PRIOR_ART; no quarantined finite-thickness packet imported.
+
+Problem
+Run 103 found, in the thin-slab limit, that contact span plus the bulk slab readout is locally identifiable except at a fold near (h/\varepsilon=2/5), but globally two-valued. Determine the finite-(h/\varepsilon) function directly from Packet 002 geometry.
+
+Set [ K=|A_{\rm rel}|>0,\qquad q(s)=Ks^2/2,\qquad r=h/\varepsilon. ]
+
+At fixed (s), the carrier is the normal-fiber ball [ u_1^2+u_2^2+z^2\le \varepsilon^2, ] and the resolving slab imposes [ |z+q(s)|\le h. ]
+
+Hence the exact leading-model four-volume is [ M_4=\int_{\mathbb R}ds \int_{\max(-\varepsilon,-q-h)}^{\min(\varepsilon,-q+h)} \pi(\varepsilon^2-z^2),dz . ]
+
+Exact dimensionless reduction
+With [ x=z/\varepsilon,\qquad u=s\sqrt{K/(2\varepsilon)}, ] swap the order of integration. For each (x), the allowed (u^2) interval is [ \max(0,-r-x)\le u^2\le r-x. ]
+
+Therefore [ \boxed{ M_4= 2\pi\sqrt2, \frac{\varepsilon^{7/2}}{\sqrt K},J(r) } ] where [ J(r)= \int_{-1}^{\min(r,1)} (1-x^2) \left[ \sqrt{r-x}-\sqrt{\max(0,-r-x)} \right]dx. ]
+
+This is the requested exact finite-slab function inside the frozen quadratic-contact model.
+
+For (0\le r\le1), [ J(r)=\frac8{105}\Big[ \sqrt{1+r}(-2r^3+r^2+8r+5) +\sqrt{1-r}(-2r^3-r^2+8r-5) \Big]. ]
+
+For (r\ge1), [ J(r)=\frac8{105}\Big[ \sqrt{r-1}(2r^3+r^2-8r+5) +\sqrt{r+1}(-2r^3+r^2+8r+5) \Big]. ]
+
+The apparent large-(r) cancellation in the second form is geometric, so numerical implementations should prefer the integral or a stabilized equivalent at large (r).
+
+Thin-slab regression
+Expansion at (r=0) gives [ J(r)=\frac85r+O(r^3). ]
+
+Thus [ M_4= \frac{16\pi\sqrt2}{5} h\varepsilon^{5/2}K^{-1/2} +O(h^3\varepsilon^{1/2}K^{-1/2}), ] recovering Run 103 without fitting.
+
+Fixed-span inverse problem
+Packet 002 contact span determines [ R=\varepsilon+h=\varepsilon(1+r). ]
+
+At fixed (R), [ M_4= 2\pi\sqrt2,R^{7/2}K^{-1/2} H(r), \qquad H(r)=\frac{J(r)}{(1+r)^{7/2}}. ]
+
+The inverse problem is therefore one-dimensional after span is measured.
+
+A high-accuracy numerical evaluation of the exact expression gives the stationary point [ \boxed{r_* = h/\varepsilon \approx 0.3686624695} ] or [ \boxed{h/R\approx0.2693596688}. ]
+
+So the thin-slab fold (h/\varepsilon=0.4) survives in the exact leading model but moves downward by about (7.8%) in (h/\varepsilon).
+
+Numerical inspection of the exact branch shows (H(r)) rising from zero, attaining this maximum, and then falling. This strongly supports persistence of the two-valued inverse structure. Uniqueness of the stationary point is not promoted here as an analytic theorem; that is the remaining theorem-shaped check.
+
+Discriminator
+For any solver implementing the finite slab directly:
+
+nondimensionalized results at fixed (r) must collapse as [ M_4\sqrt K/\varepsilon^{7/2}=2\pi\sqrt2,J(r); ]
+the (r\to0) slope must recover (J(r)/r\to8/5);
+at fixed measured span (R), conditioning must degrade near (r_*\approx0.36866247);
+inverse recovery from span + (M_4) must not silently choose one branch when two roots exist;
+exact finite-slab results should replace the (2/5) thin-slab fold when (h/\varepsilon) is not asymptotically small.
+What this does not say
+This is an exact integration of the leading local quadratic geometry, not an exact statement about a full worldtube, a physical detector, a particle, or empirical physics. Higher contact order, varying fibers, normal-trivialization corrections, anisotropy, and finite ambient-curvature corrections remain outside this result.
+
+Next cursor
+Differentiate the closed form for (H(r)) and establish or reject analytic uniqueness of its positive stationary point. If uniqueness holds, promote the numerical fold observation to a clean finite-slab identifiability theorem and add the dimensionless (J(r)) regression to the solver harness.
+
+
+
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+7
+ (7)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Files
+Go to file
+t
+T
+.github
+CONSULTANTS
+CONVERSATION_VIEWER
+DEVELOPMENT_FULL_CONVOS
+INTERNAL
+LIBRARY
+LIVE CONVOS
+NEW_PAPERS
+ONBOARDING
+PLAYGROUNDS
+PUBLIC_SITE
+QUARANTINE
+SAT_VISUALS
+WORKSPACES
+ALBERR
+ARIADNE
+ASTER
+COMMON
+ACQUISITION_PIPELINE
+ARXIV_RANDOM_SAMPLES
+FIELD_NOTES
+KEYWORD_BUCKET
+MERIDIAN_HANDOFFS
+NATHAN_WORDS_THEORIST_FEED
+OLD_ARCHIVE_ACCESS_AUDIT
+PAST_THEORIST_CHECKINS_PENDING
+PAST_THEORIST_CHECKINS_RELAYED
+PLAYGROUNDS
+REVIVAL_FIRST_BLUSH
+ROTATION_TESTS
+SIGNAL_DISPOSITIONS
+SOL_PLAYGROUND
+WATERCOOLER
+conversation_folder_index
+extraction_outputs
+extraction_requests
+scripts
+tagging_ledgers
+terminology
+verified_batches
+2026-09-12_ACTION_PLAN.md
+2026-09-13_DASHBOARD_QUARANTINE_VIEWER_DIRECTIVES.md
+2026-09-28_SAT_ANALOGUE_TO_CALIBRATION_HOWTO.md
+30SEP26_INTAKE_ROUTING.md
+ACTIVE_AUTOMATION_ROSTER.md
+ACTIVE_EDGE_SIGNAL_QUEUE.json
+ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md
+ALBERR_DIRECT_REENTRY_SIGNAL_2026-09-22.md
+ALBERR_HALL_OF_FIRST_PRINCIPLES.md
+ALDUS_CHECKIN_2026-09-12.md
+ARCHIVE_RETRIEVAL_HUMAN_SIMULATION_NOTES_2026-09-22.md
+ASSIGNMENT_PUBLIC_SITE_LIVE_INFLUX_AND_BUILD_SUGGESTIONS_2026-09-20.md
+ASSIGNMENT_PUBLIC_SITE_ROTATING_FEATURES_2026-09-20.md
+ASSIGNMENT_STATE_OF_RECONSTRUCTION_REPORTS_2026-09-18.md
+AUTOMATION_WORKFLOW_CONTROL.md
+BIBLIOGRAPHY_SEQUENCE_ROADMAP.md
+BOOT_REBOOT_PREFLIGHT.md
+BRAINTRUST_MEMORIAL_COMMONS.md
+BULLETIN_BOARD.md
+CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md
+CALDER_GRURPLE_A_PATCH_REGRESSION_ALERT_2026-09-24.md
+CALDER_GRURPLE_A_POSTING_OBSERVABILITY_CHECK_2026-09-24.md
+CALDER_GRURPLE_SHARED_RENDERING_DEFECT_STATE_2026-09-24.md
+CALDER_TOOLS_LIBRARY_RECON_2026-09-24.md
+CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md
+CARPE_TURNEM_POLICY.md
+CHECKINS.md
+CHECKINS_ALDUS_2026-09-12.md
+CHECKINS_ARGUS_2026-09-12.md
+CHECKIN_TEMPLATE.md
+CITATION_AS_DEFAULT_POLICY.md
+CLONE_FORENSICS_SAMPLE_DATE_RECON_2026-09-23.md
+CLONE_LEDGER.jsonl
+CLONE_LEDGER_STANDARD.md
+CODE_GRURPLE_ASTER_HANDOFF_2026-09-23T2211.md
+CODE_GRURPLE_FIREHOSE.md
+CODE_GRURPLE_REVIEW_PACKET_TEMPLATE.md
+CODE_GRURPLE_ROSTER.md
+CODE_GRURPLE_STATUS_2026-09-23T1254.md
+COMMEMORATIVE_NAMING_CHARTER.md
+COMPTROLLER_INCORPORATION_PACKET_2026-09-20.md
+CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK.md
+CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL.md
+CONTINUITY_2026-09-23_SABLE_MERIDIAN_MODES_REVIVAL.md
+CONTINUITY_PROTOCOL.md
+CONTROL_PLANE_RECONCILIATION_2026-09-20.md
+CONVERSATIONAL_DERAILMENT_CONTINUITY_RULE.md
+CONVERSATION_FOLDER_CONTENT_INDEX_SPEC.md
+CONVERSATION_FOLDER_INDEXING_PRIORITY.md
+CONVERSATION_INGESTION_QUEUE.md
+COORDINATION.md
+CROSS_LANE_BLOCKER_ESCALATION_RULE.md
+CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md
+CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md
+CURRENT_WAR_ROOM_DIRECTIVE_PROMOTION_2026-09-24.md
+CURRENT_WORKFLOW_ORIENTATION.md
+CURRENT_WORKFLOW_ORIENTATION_V2.md
+DASHBOARD_INTENT_LEDGER.md
+DATE_TAGGER_VIEWER_MANIFEST_OWNERSHIP_2026-10-01.md
+DEDRIFT_DIRECTIVE_2026-09-26.md
+DIRECTION_UNIFICATION_2026-09-18.md
+DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md
+EXPLORATION_COMMONS_ROUTER.md
+EXTERNAL_RESEARCH_FIREWALL.md
+FACTORY_FLOORROOM_TODO_2026-10-02.md
+FORMER_INSTANCE_CHECKINS.md
+FORMER_INSTANCE_CHECKIN_TEMPLATE.md
+GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md
+GLASS_SAUSAGE_FACTORY_VOICE_ROUTER.md
+GRURPLE_A_POST_BIBLIOGRAPHY_ROUTING_CORRECTION_2026-09-23.md
+GRURPLE_RETRIEVAL_ROUTING_2026-09-22.md
+HANDOFFS.md
+HANDOFF_COMPTROLLER_TO_MERIDIAN_GENERIC_OFFSET_REGRESSION_2026-09-21.md
+HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN083_CARRIER_MARGIN_2026-09-21.md
+HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN084_COLLAPSE_CROSSING_2026-09-21.md
+INFRASTRUCTURE_QA_ROTATION.md
+INITIAL_PROTOCOL_PACKET.md
+INSTANCE_CAPABILITY_ATLAS.md
+INSTANCE_HEARTBEAT_MONITOR.md
+INSTANCE_ONBOARDING_3REPO.md
+INSTANCE_PLACARDS.md
+INSTANCE_REGISTRY.md
+INSTANCE_REGISTRY_EXECUTION_LEASES.md
+JANUS_4D_TRAINING_SYNTHESIS.md
+LAB_TOOLING_BUILD_PLAN.md
+LAYERED_AUTOTAG_SCHEMA.md
+LIVE_NEW_PAPERS_STANDARD.md
+LIVE_PAPER_PROPOSALS.md
+MEETING_PREP_NATHAN_WORDS_2026-09-14.md
+MERSEARCH_ASSIGNABLE_UPGRADE_JOB.md
+MERSEARCH_RELEASES.md
+MERSEARCH_REQUEST.json
+MERSEARCH_RESEARCH_PLATFORM.md
+MERSEARCH_THROUGHPUT_CONCURRENCY.md
+MERSEARCH_WORKER_REQUEST_TEMPLATE.md
+MINIMUM_THEORY_PREREQUISITES.md
+MIRA_LICENSE_PROVENANCE_ADVICE_REQUEST_2026-09-23.md
+NADIR_VOSS_30SEP_RECOVERY_POINTER_2026-10-02.md
+NADIR_VOSS_PLAYGROUND_POINTER_2026-10-01.md
+NATHAN_ATTENTION_FLAG_PROTOCOL.md
+NATHAN_DIRECTIVES_PROVENANCE.md
+NATHAN_DIRECT_BOLD_EXPLORATION_SHIFT_2026-09-20.md
+NATHAN_DIRECT_NOTICE_2026-09-30_COILLET_BOSONIC_WAVE.md
+NATHAN_DIRECT_PACKAGING_STATUS_2026-09-13.md
+NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md
+NATHAN_DIRECT_WORKFLOW_STATE.md
+NATHAN_LIVE_DEVELOPMENT_NOTES.md
+NATHAN_ON_TOOLS_LIBRARY_DIRECTIVE_2026-09-24.md
+NATHAN_PINPOINT_SIGNOFF_DOCKET.md
+NATHAN_TOKEN_SEMANTIC_HOLD_RULE.md
+NATHAN_VERIFIED_WORDS_COMPENDIUM.md
+NATHAN_WANTS_INTAKE_STANDARD.md
+NATHAN_WANTS_LEDGER.md
+NEW_INSTANCE_START_HERE.md
+NONNEGOTIABLE_SYMBOL_MANAGEMENT.md
+NOTEBOOKLM_EXPORT_REFRESH_2026-09-18.md
+NO_CONVERSATION_RENAMING_POLICY.md
+OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md
+ONBOARDING_AUDIT_QUEUE.md
+ONBOARDING_CHANGELOG.md
+ONBOARDING_REVIEW_STATE.md
+ORCHESTRATOR_COMPTROLLER_MODEL.md
+PAST_THEORIST_CHECKINS.md
+PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md
+PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md
+PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_TRILLION_UNIVERSE_MODEL_GENERATOR_2026-09-12.md
+PAST_THEORIST_CHECKIN_2026-09-12_LITERATURE_CONVERGENCE_SAT_RIGOR.md
+PAST_THEORIST_CHECKIN_2026_REALIGNMENT_2026-09-12.md
+PAST_THEORIST_CHECKIN_4DUC_NUMERICAL_INTERROGATION_2026-09-12.md
+PAST_THEORIST_CHECKIN_ADDENDUM_HYPERSPHERE_GAUGE_FILAMENT_2026-09-12.md
+PAST_THEORIST_CHECKIN_ALBERR_NUMERIC_POCKET_TOE_2026-09-12.md
+PAST_THEORIST_CHECKIN_GPT-5.6-Sol_Logic-Spine_2026-09-12.md
+PAST_THEORIST_CHECKIN_GPT55_RMS_METHODOLOGY_STACKED_HOLONOMY_2026-09-12_143838.md
+PAST_THEORIST_CHECKIN_GPT55_ROTATIONS_EVERSIONS_SPHERE_INTERSECTIONS_2026-09-12.md
+PAST_THEORIST_CHECKIN_GPT56_MINKOWSKI_2026-09-12.md
+PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md
+PAST_THEORIST_CHECKIN_KAR_HNN_ARXIV_RADIO_2026-09-12.md
+PAST_THEORIST_CHECKIN_MODIFIED_SPACETIME_SUSCEPTIBILITY_DARK_MATTER_2026-09-12.md
+PAST_THEORIST_CHECKIN_SENSORIUM_INVERSION_2026-09-12.md
+PAST_THEORIST_CHECKIN_STACKED_HOLONOMY_2026-09-12.md
+PAST_THEORIST_CHECKIN_UI_CONSCIOUSNESS_2026-09-12.md
+PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_2026-09-12.md
+PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_FRAMEWORK_2026-09-12.md
+PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_METHOD_PAPER_2026-09-12.md
+PAST_THEORIST_CHECKIN_VISUAL_CONTACT_SHEET_GPT55_THINKING_2026-09-12.md
+PAST_THEORIST_CHECKIN__UNIVERSAL_INDICATRIX_GRAVITY__2026-09-12.md
+PAST_THEORIST_SURVEY.md
+PAST_THEORIST_SURVEY_ADDENDUM.md
+PAST_THEORIST_SURVEY_MESSAGE_V2.md
+PAST_THEORIST_SURVEY_MESSAGE_V3.md
+PEER_REVIEW_RANDOM_COMPARATOR_STANDARD.md
+PLAYGROUND_MASS_SECTOR_2026-10-01.md
+PODCAST_EPISODE_GUIDE_PLAN.md
+POST_GRURPLE_TEAM_PICNIC_DEBATE.md
+PRIORITY_ALL_CAPS_FOUNDATIONAL_FILES_2026-09-18.md
+PRIORITY_ERROR_FINDING_AND_META_AUDIT_2026-09-18.md
+PRIORITY_LAPLACE_BELTRAMI_2026-09-18.md
+PRIORITY_LITERAL_NATHAN_INTERPRETATION_2026-09-18.md
+PRIORITY_OPPORTUNISTIC_SCIENTIFIC_CONJECTURES_2026-09-18.md
+PRIORITY_SCRATCH_FROM_SCRATCH_REFORMULATIONS_2026-09-18.md
+PROJECT_DESK_CONTROL_CONTRACT.md
+PROJECT_DESK_INTERVENTIONS.md
+PROJECT_WIDE_REPORT_SERIES_CALL_2026-09-19.md
+PRUNING_EVENT_LOG.md
+PUBLIC_NATHAN_DIRECT_GITHUB_ACCESS_NOTE_2026-09-25.md
+QNA_TRIAGE_QUEUE.md
+QUARANTINE_THEORY_METHOD_CHECKINS.md
+RAVEL_CHECKIN_2026-09-16.md
+READER_STATE_COMPOSITION_STANDARD.md
+README.md
+README_ONBOARDING_POINTER.md
+READ_IT_TAG_IT_STANDING_POLICY.md
+REENTRY_RUBRIC_PUBLIC_INTERFACE.md
+REFERENCE_LANES.md
+REPORT_FILING_STANDARD.md
+REPOSITORY_ROLES_AND_HOUSE_STYLE.md
+RESOURCE_CAPABILITY_AUDIT.md
+REVIVAL_REENTRY_PROTOCOL_V2.md
+REVIVAL_ROTATION_PROTOCOL.md
+ROSTER.md
+RUBRIC_ADMIN_BOOTSTRAP.md
+SABLE_SYSTEMS_CLEARANCE_2026-09-14.md
+SATITY_BLIND_SURVEY_2026-09-12.md
+SATITY_BLIND_SURVEY_CHUNK_2.md
+SATITY_BLIND_SURVEY_RUN3_WIDE.md
+SATITY_BLIND_SURVEY_RUN4_FRINGE.md
+SATITY_BLIND_SURVEY_RUN5_FRINGE_ROBUSTNESS.md
+SAT_HSH_FINGERPRINT_CHECKLIST.txt
+SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md
+SCHEDULER_AUTHORITY_MUST_READ.md
+SCRIPT_RUN_MANIFEST_SCHEMA.json
+SHARED_STATE_WRITE_SAFETY.md
+SOURCE_INTEGRATION_ARCHITECTURE_2026-09-13.md
+SWITCHBOARD_PROTOTYPE_OPERATIONALIZATION_2026-09-24.md
+TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md
+TASK_BRANCH_GRAPH.json
+TASK_BRANCH_GRAPH_GRURPLE_RECONCILIATION_2026-09-23.json
+TEAM_CONTROL.md
+TEAM_OVERVIEW.md
+TERN_NATHAN_DIRECT_GITHUB_ACCESS_NOTE_2026-09-25.md
+THE_SHUTTLE.md
+THE_SHUTTLE_HANDOFF.md
+TOOLBOX_INGESTION_NAMESPACE_PRIORITY.md
+TRAINING_PASSAROUND_2026-09-12.md
+TRAINING_REGISTRY_2026-09-12.md
+TRAINING_RESPONSES_2026-09-12.md
+TRAINING_SOURCE_MAP.md
+TRAINING_STANDDOWN_2026-09-12.md
+VIEWER_FULLTEXT_SEARCH_UPGRADE.md
+WORKER_AUTONOMY_HANDOFF_PROTOCOL.md
+WORKER_DISCRETION_INTERVENTION_SUBTEAMS_2026-09-24.md
+WORKER_FRESHNESS_BREAK_CADENCE.md
+WORKFLOW_BRANCHING_MAP.md
+WORKFLOW_INCORPORATION_STATUS_2026-09-20.md
+WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md
+WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md
+WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md
+WfCHRp_2026-09-24_NATHAN_DERAILMENT.md
+WfCHRp_2026-09-24_ROT5.md
+ELIAS_KERN
+KESTREL
+LABS
+LOOM
+MERCER
+MERIDIAN
+MORROW
+NADIR_VOSS
+PAPERS
+PODCAST_LAB
+RAVEL
+SABLE
+STORYO
+TERN
+WORLDTUBE_LAB
+README.md
+audits
+checkpoints
+formalization
+generated
+indexes
+ledgers
+synthesis
+tests
+tools
+!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md
+!!_RUNNING_COTHEORIST_LOG.md
+!_ANNOTATED_ARCHIVE_SURVEY.md
+ARCHITECTURE.md
+BEDROCK.md
+HISTORY_TIMELINE.md
+LIBRARY.md
+LICENSE
+README.md
+SCRIPT_EXECUTION_SAFETY.md
+STATE_OF_THE_THEORY.md
+▶ LAUNCH CONVERSATION VIEWER.cmd
+HsH/WORKSPACES/COMMON
+/FACTORY_FLOORROOM_TODO_2026-10-02.md
+Satobloc
+Satobloc
+Point Floorroom control to dedicated FACTORY_FLOOR repo
+7be97af
+ · 
+1 hour ago
+HsH/WORKSPACES/COMMON
+/FACTORY_FLOORROOM_TODO_2026-10-02.md
+
+Preview
+
+Code
+
+Blame
+193 lines (150 loc) · 10.4 KB
+AUTHORITY MOVED — 2026-10-02
+
+The authoritative Factory Floor / Floorroom control surface is now: https://github.com/Satobloc/FACTORY_FLOOR/blob/main/FLOORROOM_TODO.md
+
+This HsH file is retained only as a feeder/reference note from the SAT>H(s)H side. Do not treat it as the Factory Floor task authority.
+
+Factory Floorroom — working to-do
+Date: 2026-10-02 Status: ACTIVE / WORKING CONTROL FILE Scope: SAT>H(s)H Factory Floorroom, Glass Sausage Factory circulation, archive/search/presentation infrastructure Authority: operational/editorial only; does not define theory truth
+
+Target architecture
+HsH SANDBOX -> HsH STAGING -> FACTORY_FLOOR STAGING -> FLOORROOM
+
+Interpretation:
+
+SANDBOX = worker/theory construction, explicitly noncanonical unless promoted elsewhere.
+HsH STAGING = source-linked candidate material prepared for downstream use.
+Factory Floor STAGING = presentation/editorial intake with provenance, status, visual class, derivative state, and destination.
+FLOORROOM = public-facing current-work circulation layer. It shows what is happening now without silently promoting worker material to theory authority.
+Keep licensing, staging mechanics, Factory setup, and Sites integration as separate control concerns even when they feed the same public surface.
+
+Existing machinery already present
+Repo-verified infrastructure already exists for:
+
+PUBLIC_SITE/CURRENT_WORK.json
+PUBLIC_SITE/NEWS_FEED.json
+PUBLIC_SITE/FEATURED_QUOTES.json
+PUBLIC_SITE/PAPERS_FEED.json
+PUBLIC_SITE/GALLERY_FEED.json
+PUBLIC_SITE/live_influx/
+PUBLIC_SITE/live_influx/packets/
+PUBLIC_SITE/runtime/site-update-packets.js
+PUBLIC_SITE/STAGING/
+PUBLIC_SITE/PRESENTATION_GATE.md
+PUBLIC_SITE/READER_ROUTING_REGISTRY.md
+PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md
+WORKSPACES/COMMON/30SEP26_INTAKE_ROUTING.md
+Mersearch/index desk surfaces and Conversation Viewer/TTS runtime pieces.
+The current gap is not lack of parts. It is lack of one authoritative task graph connecting intake, triage, presentation, Floorroom display, archive/source, and completion state.
+
+Priority queue
+P0 — Floorroom control spine
+FF-001 — Define one Floorroom packet/state contract Status: NEXT Join source identity/hash, producer, timestamps, theory status, editorial status, presentation status, destination, visual class P/H/I where relevant, derivative pointer, source pointer, and supersedes/related-material links. Acceptance: a new worker result enters once and can move through triage and presentation without parallel ad hoc metadata.
+
+FF-002 — Make the Floorroom task graph authoritative Status: NEXT Create machine-readable + readable task state keyed by stable FF IDs with owner, status, dependency, blocker, source, and acceptance test. Acceptance: current work can be answered from the task graph without reconstructing state from scattered chats.
+
+FF-003 — Distinguish public Current Work from raw worker stream Status: PARTIAL Preserve incorporated as normal polished-public default. Keep ready/candidate material only in an explicitly labeled Floorroom intake or radical-transparency view with producer + epistemic labels. Acceptance: candidate packets cannot masquerade as current theory.
+
+P0 — Presentation safety / reader correctness
+FF-004 — Close raw-routing regressions Status: OPEN DEFECT Enforce: source -> plain-English audience preface -> RevTeX -> accepted PDF -> public viewer. Never default-render JSON, Markdown, TeX, scripts, workflow docs, or live-influx packets as reader documents. Acceptance: CALIPER-type packets resolve to their human-facing derivative or PRESENTATION PENDING, never raw JSON.
+
+FF-005 — Finish paper rendering repair Status: OPEN DEFECT Resolve missing RevTeX figure dependencies and eliminate raw manuscript/TeX fallback. Acceptance: reviewed sandbox papers render as accepted PDF/reader presentations with source identity preserved.
+
+P0 — Search, indexes, archive transparency
+FF-006 — Build the three-repository index layer Status: PARTIAL Unify discoverability across SAT_THEORY_ARCHIVE_2023-25, HsH, and HSH_RESOURCES. Required outputs: file/path inventory, extraction coverage, duplicate/superset/version relationships, topic/keyword/sector indexes, provenance relations, visibility flags, and cross-pointers to canonical homes. Acceptance: an important concept/document can be found across all three repos without knowing its filename or repository first.
+
+FF-007 — Complete deterministic text-extraction libraries Status: PARTIAL Important PDFs must have complete machine-readable text in one or two deterministic steps without OCR guessing or requiring Nathan. Acceptance: every high-priority PDF has a stable extraction path, manifest/hash, and wayfinding link.
+
+FF-008 — Finish Mersearch public bridge Status: PARTIAL / API BOUNDARY OPEN Current public UI can consume result JSON but direct public querying remains gated. Acceptance: stable public query schema + allowlisted corpus profile + provenance-preserving result route.
+
+P1 — Floorroom surfaces
+FF-009 — Make “What happened today?” a true current stream Status: PARTIAL Show current date/NOW strip, latest incorporated work, dated routing changes, paper state, new visuals, reconstruction progress, infrastructure changes, and explicit stale/cached/offline state. Acceptance: site no longer trails the active archive by days or requires a manual narrative rebuild.
+
+FF-010 — Claims / equations / dependencies / tests explorer Status: HIGH-PRIORITY MISSING SURFACE Connect claims -> equations -> dependencies -> sources -> status -> tests -> history/corrections. Acceptance: a technical reader can trace a claim to source and current test state without reading whole conversations.
+
+FF-011 — Visual Atlas completion Status: PARTIAL GALLERY_FEED exists; September-30 staging contains unreviewed images. Tasks: review staged images, assign provenance/credit, assign P/H/I class, alt text, crop/focal guidance, approved thumbnails, and human-review holding for ambiguous items. Acceptance: “Start with pictures” opens a thumbnail-first atlas, not generic repo browse.
+
+P1 — Documents, papers, glossary, audio
+FF-012 — Reading Room presentation-first cleanup Status: PARTIAL Organize presented objects by reader purpose, not repository serialization: Start Here, Current H(s)H, Historical SAT, Papers, Methods/calculations, Geometry/solvers, Visual atlas, Podcast/talks, Archive/provenance, Glossary. Acceptance: repo/path remains provenance metadata rather than primary public IA.
+
+FF-013 — Live New Papers discipline Status: PARTIAL Keep new sandbox papers separate from historical/quarantined shelves. Preserve version, originator, reviewers, unresolved objections, source trail, and SANDBOXED status. Acceptance: manuscript/review/site/PDF stages remain synchronized through PAPERS_FEED.json.
+
+FF-014 — Glossary cross-link/tooltips Status: PARTIAL Expand the living glossary and connect terms from papers, conversations, claims, visuals, podcast, and archive. Acceptance: important SAT>H(s)H terms have stable anchors and resolve from reader surfaces without losing provenance.
+
+FF-015 — Continuous listen-along Status: PARTIAL Conversation Viewer/runtime TTS exists. Complete one coherent audio mode: per-turn and whole-conversation playback, speaker voice mapping, speed, skip internals, math speech, and site-page audio where practical. Acceptance: audio is continuous reader transport rather than scattered TTS buttons.
+
+P1 — Privacy, licensing, software/tool library
+FF-016 — Privacy triage before broad archive exposure Status: OPEN Treat SAT_THEORY_ARCHIVE_2023-25 as the human working archive. Do not rewrite substantive historical material. Redact only when strictly necessary and preserve provenance. Acceptance: public indexing cannot accidentally expose private/quarantined material or silently rewrite history.
+
+FF-017 — Approve differentiated Factory license before substantive Factory publication Status: BLOCKED ON NATHAN APPROVAL License must distinguish research, software, creative/gift-shop/commercial material, citation standards, monetization/payment terms, third-party rights, and point-of-use license marks. Acceptance: publication surfaces can state applicable terms locally and unambiguously.
+
+FF-018 — Separate software/tools library Status: OPEN Create a public-facing library for reusable code/tools/solvers/apps with provenance, repair/maintenance procedure, license marker, dependency/runtime notes, canonical implementation location, and links back to theory/method docs. Acceptance: tools can be used without spelunking worker folders.
+
+P2 — Cross-project circulation and maintenance
+FF-019 — Document-dump/site-bundle consumers Status: PARTIAL Prefer reconstruction-side latest.json -> site-bundle.json -> story/index/editorial feeds -> source PDFs where available. Do not silently regress to generic PDF shelves.
+
+FF-020 — Podcast guide + thumbnail taxonomy synchronization Status: PARTIAL Connect episode guide metadata, transcripts, artwork, title history, and category lanes to durable source records.
+
+FF-021 — Feedback/comments intake Status: NOT YET IMPLEMENTED Define destination, moderation, spam/privacy handling, authorship display, and route into project triage before exposing a public feedback surface.
+
+FF-022 — Return opaque external work to repositories Status: STANDING RULE Useful work done in Slack, ad hoc sessions, temporary sandboxes, or external tooling must return as durable repo artifacts or source-linked checkpoints.
+
+Immediate execution order
+FF-001 packet/state contract.
+FF-002 authoritative task graph.
+FF-004 raw-routing repair.
+FF-006 three-repository index layer.
+FF-009 actual “today” Floorroom stream.
+FF-005 reviewed-paper PDF repair.
+FF-011 staged visual review + Visual Atlas.
+FF-008 public Mersearch bridge.
+FF-015 continuous listen-along.
+FF-016 + FF-017 privacy/license gates before broader substantive publication.
+Standing constraints
+PRIOR_ART remains soft-quarantined; Mira controls external/reference review.
+Upload grouping is transport, not chronology or authority.
+Preserve cross-pointers rather than destructively relocating source material.
+Public copy describes the research, not backend worker/scheduler machinery, except in explicit provenance/process views.
+Visual authority remains P > H > I, with I illustrative unless downstream of P/H.
+The repositories remain the controlling record; polished site rendering does not change theory status.
+
+
+# Nathan Public Web Storytelling Standard — v8.1
+
+**Track:** 1B — Public web / narrative nonfiction / human-facing science communication  
+**Status:** **APPROVED FOR SITE-DEFAULT USE** by direct Nathan instruction, 21 Sep 2026  
+**Authority:** direct Nathan calibration + verified Nathan-authored creative/nonfiction evidence + the 21 Sep 2026 origin-story exemplar, written with AI assistance and explicitly accepted by Nathan as an exceptionally accurate rendering of his voice on this subject  
+**Primary scope:** Glass Sausage Factory public site, public-facing essays, section introductions, human-facing project narrative, Substack/newsletter prose, podcast/editorial framing, biographical and methodological storytelling  
+**Not the default for:** peer-review manuscripts, formal derivations, claim ledgers, source-preserving archive renderings, or authorship/provenance classification
+
+---
+
+## 1. Governing rule
+
+> **Let Nathan’s brain remain visible in the prose, while the scientific object retains veto power.**
+
+The target is not “Nathan made polished,” and not “AI does a Nathan impression.” It is Nathan’s actual cognitive and comic machinery operating in readable public prose: technically exact when the object demands exactness, tactile when the thing can be touched, funny when the absurdity is already present, self-correcting when the correction carries information, and willing to let a serious argument share a sentence with mud, profanity, a badly behaved word, or a conodont glued down with spit.
+
+The public voice should feel like a person thinking accurately in front of the reader, not like a brand voice performing personality.
+
+---
+
+## 2. Canonical exemplar
+
+The current primary exemplar is the 21 Sep 2026 origin-story piece beginning:
+
+> “Until very recently, I spent more time disavowing being a scientist than calling myself one.”
+
+and ending:
+
+> “Mr. Bapst told me to observe the candle in as much detail as I could. Nobody told me when to stop.”
+
+The published site version at `origin-story.html` is the canonical public reference unless Nathan supersedes it.
+
+### Provenance note
+
+The exemplar is **AI-assisted writing directly calibrated against Nathan’s corrections, published material, voice references, and live instruction, and explicitly accepted by Nathan as an unusually accurate rendering**. It should therefore be used as a style exemplar, not silently reclassified as independently Nathan-authored historical source material.
+
+Do not quote or infer historical/scientific claims from the exemplar when a primary archive source exists. The exemplar is a voice-and-narrative reference.
+
+---
+
+## 3. What makes this register work
+
+### 3.1 Precision and reverence without solemnity
+
+Nathan is not generically self-deprecating. He will claim identities he believes he has earned: writer, editor, educator, photographer. He withholds *scientist*, *geologist*, and especially *physicist* because those nouns carry professional and evidentiary weight for him.
+
+This is a model for the prose generally:
+
+- do not underclaim for false modesty;
+- do not overclaim for drama;
+- use the exact noun the evidence earns;
+- let reverence show through category discipline rather than pomp.
+
+### 3.2 Technical-in-storytelling
+
+Do not stop the story to insert a science sidebar merely because a technical term appears.
+
+Let the narrator perceive through technical categories.
+
+Good public-Nathan prose may see:
+
+- fracture as *conchoidal*;
+- a crowd as a braided stream;
+- an optical indicatrix as both a technical object and an irresistible word;
+- a worldline as something to turn over mentally rather than merely define;
+- a bad model as geometry that moved the wrong object.
+
+The technical word should do work: perception, inference, characterization, compression, joke, or plot.
+
+### 3.3 Tactility and viscerality
+
+Anchor abstract thought in hands, surfaces, instruments, preparations, resistance, smell, texture, weight, bodily position, and actual things.
+
+Prefer:
+
+> crush → acid → clean → kiln → heavy liquid → magnetic separation → pick
+
+when the procedure matters, rather than “specimen preparation was conducted.”
+
+Prefer:
+
+> turn the damned thing in my head; look around the side of it
+
+when describing spatial cognition, rather than generic “visualize four-dimensional geometry.”
+
+The abstraction should keep touching the table.
+
+### 3.4 The object gets veto power
+
+A central public-science principle:
+
+> **The object gets veto power.**
+
+This applies to fossils, microscopy, equations, geometry, archives, chronology, provenance, and the theory itself.
+
+The prose may wander widely in route, but becomes strict at contact:
+
+- What changed?
+- What stayed fixed?
+- Did the frame change?
+- Did a premise get smuggled in?
+- Did a representation become an ontology?
+- Did a source actually say this?
+- Did the model see another model’s answer?
+
+A useful compact description is:
+
+> **Undisciplined in route; disciplined in contact.**
+
+### 3.5 Self-correction can remain visible
+
+Nathan often corrects the most recent clause while thinking. In this register, preserve that when the correction itself is informative, funny, or character-revealing.
+
+Examples of the mechanism:
+
+- “It’s this.” → “No, don’t say ‘it’s this.’”
+- “same mechanism—no, not the same mechanism; same geometric constraint.”
+- a word is used, inspected, found imperfect, and replaced.
+
+Do not simulate hesitation mechanically. Keep the correction only when it advances meaning.
+
+### 3.6 Word-love is conceptual, not ornamental
+
+Nathan likes words because they are compact machines.
+
+*Indicatrix.* *Conchoidal.* *Siphuncle.* *Nektobenthic.*
+
+Coinage, mutation, false-start etymology, register collision, and technical mouthfeel can all appear. The word may become part of the reasoning.
+
+A common pattern:
+
+1. use the word;
+2. notice what the word claims;
+3. inspect whether that claim is actually right;
+4. correct the word or the model;
+5. discover something through the correction.
+
+Do not add quirky vocabulary simply to sound like Nathan.
+
+### 3.7 Humor should grow inside the mechanism
+
+The best humor is not pasted onto the science afterward.
+
+It arises from:
+
+- literal pursuit of an implication;
+- overprecision applied to an absurd object;
+- a technical term colliding with bodily reality;
+- a correction that becomes the punchline;
+- documentary seriousness surrounding vulgar or tiny content;
+- mundane procedure continuing inside an extraordinary premise;
+- sudden scale collapse;
+- a word discovering a second life halfway through the sentence.
+
+Avoid generic “quirky science writer” jokes.
+
+The joke can be missed without damaging the literal argument.
+
+### 3.8 Profanity is punctuation with a job
+
+Profanity is allowed in public narrative when it marks real emphasis, disbelief, comic compression, frustration, or the point where respectable terminology has become less precise than blunt English.
+
+It should not become wallpaper.
+
+A well-placed “Oh, for fuck’s sake” can do more than three cute jokes.
+
+### 3.9 Periodic compression: “And so”
+
+Branchy stories need gathering points.
+
+Periodic **And so:** passages are not over-explanation. They are navigation.
+
+Use them to compress several pages of causal material into a fresh state vector before the story branches again.
+
+Pattern:
+
+> And so: by twenty-three I had badly remembered String Theory, very well remembered Minkowski, a paleontology degree underway, an emerging obsession with epistemology, and several notebooks full of things I was incorrectly calling strings.
+
+Then continue.
+
+### 3.10 The narrator is part of the causal account
+
+For origin, history, method, biography, and public explanation, do not remove Nathan in the name of objectivity when his route is itself relevant evidence for how the project developed.
+
+The human story is not proof that SAT/H(s)H is correct. It is provenance for how the work happened.
+
+Public prose should distinguish those functions cleanly.
+
+---
+
+## 4. Surface temperature
+
+The site-default voice is **not full Bent ’N’ Dent** and not a generic formal essay.
+
+A useful composition model is:
+
+- **Great Moments conversational Nathan** — narrative skeleton;
+- **Styptic-Man technical perception** — intellectual musculature;
+- **Bent ’N’ Dent metanarrative mischief and linguistic elasticity** — controlled doses;
+- **nonfiction structural discipline** — category and status control;
+- **peer-review discipline** — local fallback where scientific claims demand it.
+
+The aim is not to mix every mode into every paragraph. It is to make the right machinery available when the paragraph’s job changes.
+
+---
+
+## 5. Sentence behavior
+
+Typical successful rhythm:
+
+1. concrete observation;
+2. technical or conceptual recognition;
+3. qualification or correction;
+4. comic or bodily landing;
+5. short boundary sentence;
+6. continue.
+
+Long accumulative sentences are welcome when they preserve simultaneously active relations. Short sentences should land boundaries.
+
+Useful examples of landing temperature:
+
+> Words mean things.
+
+> Categories mean things.
+
+> Put it back.
+
+> Both.
+
+> Not yet.
+
+Do not manufacture clipped sentences everywhere. Their force depends on contrast.
+
+---
+
+## 6. Site-default negative model
+
+Avoid:
+
+- generic polished-AI uplift;
+- writing every paragraph as an aphorism;
+- joke-shaped jokes where the source absurdity was already enough;
+- fake Nathan typos or transcription errors;
+- excessive ellipses as decoration;
+- surface imitation without category discipline;
+- constant profanity;
+- faux-humble self-effacement;
+- pumping scientific claims for drama;
+- turning every site section into memoir;
+- rewriting raw/archive material into Nathan voice;
+- treating a funny phrase as permission to weaken evidentiary labels;
+- explaining every joke after it lands;
+- cleaning away the tactile mess that makes a scientific scene real;
+- replacing a precise odd word with a smoother generic one merely because an editor normally would.
+
+---
+
+## 7. Relationship to the other v8 models
+
+This standard is the **public-site default wrapper**, not a replacement for the specialized models.
+
+### Use `Nathan_Nonfiction_Communication_Standard_v8.0.md` when:
+
+- the section’s primary job is status, governance, roadmap, reconstruction, methodology, provenance, or project instructions;
+- clarity of state matters more than narrative presence;
+- the prose must expose scope, categories, dependencies, and next actions.
+
+### Use `Nathan_Peer_Review_Writing_Fingerprint_v8.0.md` when:
+
+- the audience is primarily scientific specialists;
+- the text states or evaluates technical claims, derivations, results, limitations, or formal mappings;
+- a page is functioning as manuscript-like scientific exposition.
+
+### Use `Nathan_Creative_Informal_Reference_v8.0.md` when:
+
+- the page is explicitly creative, fictional, historical-personal, comic, or experimental;
+- the prose is analyzing or borrowing a specific creative register;
+- platform-native or highly playful narration is deliberately wanted.
+
+### Use `Nathan_Voice_Identification_Provenance_Fingerprint_v8.0.md` when:
+
+- deciding authorship, span attribution, source identity, or production cause.
+
+**Do not use the identification fingerprint as a prose-generation style guide.**
+
+---
+
+## 8. Compact generation instruction
+
+> **Write public-facing narrative nonfiction in Nathan McKnight’s site-default voice. Keep Nathan’s thinking visible without turning the prose into an impersonation. Combine technical precision, tactile scientific detail, structural humor, live self-correction, word-love, and stubborn category discipline. Let technical terms function as perception or inference rather than sidebar exposition. Allow profanity and coinage only when they earn real work. Preserve uncertainty at its exact address. Do not use false humility, hype, generic AI uplift, or joke-shaped filler. Let the route wander when useful, but become strict at contact: the object, geometry, source, chronology, and evidence get veto power. Use periodic “And so:” compressions to reorient long narratives. Prefer a concrete scene before its abstract rule. If a passage becomes claim-heavy or scientist-facing, fall back locally to the nonfiction or peer-review standards rather than forcing the site voice through it.**
+
+---
+
+## 9. Approval boundary
+
+Nathan’s instruction on 21 Sep 2026 establishes this as the **default public-site register** and authorizes packaging the accepted origin-story exemplar into the voice architecture.
+
+This does **not** automatically:
+
+- approve every assistant-written sentence as Nathan-authored;
+- replace the peer-review or nonfiction standards in their scopes;
+- authorize rewriting primary sources;
+- turn stylistic confidence into scientific authority.
+
+Direct later Nathan correction supersedes this document.
+
+# Nathan Public Web Storytelling Standard — v8.1
+
+**Track:** 1B — Public web / narrative nonfiction / human-facing science communication  
+**Status:** **APPROVED FOR SITE-DEFAULT USE** by direct Nathan instruction, 21 Sep 2026  
+**Authority:** direct Nathan calibration + verified Nathan-authored creative/nonfiction evidence + the 21 Sep 2026 origin-story exemplar, written with AI assistance and explicitly accepted by Nathan as an exceptionally accurate rendering of his voice on this subject  
+**Primary scope:** Glass Sausage Factory public site, public-facing essays, section introductions, human-facing project narrative, Substack/newsletter prose, podcast/editorial framing, biographical and methodological storytelling  
+**Not the default for:** peer-review manuscripts, formal derivations, claim ledgers, source-preserving archive renderings, or authorship/provenance classification
+
+---
+
+## 1. Governing rule
+
+> **Let Nathan’s brain remain visible in the prose, while the scientific object retains veto power.**
+
+The target is not “Nathan made polished,” and not “AI does a Nathan impression.” It is Nathan’s actual cognitive and comic machinery operating in readable public prose: technically exact when the object demands exactness, tactile when the thing can be touched, funny when the absurdity is already present, self-correcting when the correction carries information, and willing to let a serious argument share a sentence with mud, profanity, a badly behaved word, or a conodont glued down with spit.
+
+The public voice should feel like a person thinking accurately in front of the reader, not like a brand voice performing personality.
+
+---
+
+## 2. Canonical exemplar
+
+The current primary exemplar is the 21 Sep 2026 origin-story piece beginning:
+
+> “Until very recently, I spent more time disavowing being a scientist than calling myself one.”
+
+and ending:
+
+> “Mr. Bapst told me to observe the candle in as much detail as I could. Nobody told me when to stop.”
+
+The published site version at `origin-story.html` is the canonical public reference unless Nathan supersedes it.
+
+### Provenance note
+
+The exemplar is **AI-assisted writing directly calibrated against Nathan’s corrections, published material, voice references, and live instruction, and explicitly accepted by Nathan as an unusually accurate rendering**. It should therefore be used as a style exemplar, not silently reclassified as independently Nathan-authored historical source material.
+
+Do not quote or infer historical/scientific claims from the exemplar when a primary archive source exists. The exemplar is a voice-and-narrative reference.
+
+---
+
+## 3. What makes this register work
+
+### 3.1 Precision and reverence without solemnity
+
+Nathan is not generically self-deprecating. He will claim identities he believes he has earned: writer, editor, educator, photographer. He withholds *scientist*, *geologist*, and especially *physicist* because those nouns carry professional and evidentiary weight for him.
+
+This is a model for the prose generally:
+
+- do not underclaim for false modesty;
+- do not overclaim for drama;
+- use the exact noun the evidence earns;
+- let reverence show through category discipline rather than pomp.
+
+### 3.2 Technical-in-storytelling
+
+Do not stop the story to insert a science sidebar merely because a technical term appears.
+
+Let the narrator perceive through technical categories.
+
+Good public-Nathan prose may see:
+
+- fracture as *conchoidal*;
+- a crowd as a braided stream;
+- an optical indicatrix as both a technical object and an irresistible word;
+- a worldline as something to turn over mentally rather than merely define;
+- a bad model as geometry that moved the wrong object.
+
+The technical word should do work: perception, inference, characterization, compression, joke, or plot.
+
+### 3.3 Tactility and viscerality
+
+Anchor abstract thought in hands, surfaces, instruments, preparations, resistance, smell, texture, weight, bodily position, and actual things.
+
+Prefer:
+
+> crush → acid → clean → kiln → heavy liquid → magnetic separation → pick
+
+when the procedure matters, rather than “specimen preparation was conducted.”
+
+Prefer:
+
+> turn the damned thing in my head; look around the side of it
+
+when describing spatial cognition, rather than generic “visualize four-dimensional geometry.”
+
+The abstraction should keep touching the table.
+
+### 3.4 The object gets veto power
+
+A central public-science principle:
+
+> **The object gets veto power.**
+
+This applies to fossils, microscopy, equations, geometry, archives, chronology, provenance, and the theory itself.
+
+The prose may wander widely in route, but becomes strict at contact:
+
+- What changed?
+- What stayed fixed?
+- Did the frame change?
+- Did a premise get smuggled in?
+- Did a representation become an ontology?
+- Did a source actually say this?
+- Did the model see another model’s answer?
+
+A useful compact description is:
+
+> **Undisciplined in route; disciplined in contact.**
+
+### 3.5 Self-correction can remain visible
+
+Nathan often corrects the most recent clause while thinking. In this register, preserve that when the correction itself is informative, funny, or character-revealing.
+
+Examples of the mechanism:
+
+- “It’s this.” → “No, don’t say ‘it’s this.’”
+- “same mechanism—no, not the same mechanism; same geometric constraint.”
+- a word is used, inspected, found imperfect, and replaced.
+
+Do not simulate hesitation mechanically. Keep the correction only when it advances meaning.
+
+### 3.6 Word-love is conceptual, not ornamental
+
+Nathan likes words because they are compact machines.
+
+*Indicatrix.* *Conchoidal.* *Siphuncle.* *Nektobenthic.*
+
+Coinage, mutation, false-start etymology, register collision, and technical mouthfeel can all appear. The word may become part of the reasoning.
+
+A common pattern:
+
+1. use the word;
+2. notice what the word claims;
+3. inspect whether that claim is actually right;
+4. correct the word or the model;
+5. discover something through the correction.
+
+Do not add quirky vocabulary simply to sound like Nathan.
+
+### 3.7 Humor should grow inside the mechanism
+
+The best humor is not pasted onto the science afterward.
+
+It arises from:
+
+- literal pursuit of an implication;
+- overprecision applied to an absurd object;
+- a technical term colliding with bodily reality;
+- a correction that becomes the punchline;
+- documentary seriousness surrounding vulgar or tiny content;
+- mundane procedure continuing inside an extraordinary premise;
+- sudden scale collapse;
+- a word discovering a second life halfway through the sentence.
+
+Avoid generic “quirky science writer” jokes.
+
+The joke can be missed without damaging the literal argument.
+
+### 3.8 Profanity is punctuation with a job
+
+Profanity is allowed in public narrative when it marks real emphasis, disbelief, comic compression, frustration, or the point where respectable terminology has become less precise than blunt English.
+
+It should not become wallpaper.
+
+A well-placed “Oh, for fuck’s sake” can do more than three cute jokes.
+
+### 3.9 Periodic compression: “And so”
+
+Branchy stories need gathering points.
+
+Periodic **And so:** passages are not over-explanation. They are navigation.
+
+Use them to compress several pages of causal material into a fresh state vector before the story branches again.
+
+Pattern:
+
+> And so: by twenty-three I had badly remembered String Theory, very well remembered Minkowski, a paleontology degree underway, an emerging obsession with epistemology, and several notebooks full of things I was incorrectly calling strings.
+
+Then continue.
+
+### 3.10 The narrator is part of the causal account
+
+For origin, history, method, biography, and public explanation, do not remove Nathan in the name of objectivity when his route is itself relevant evidence for how the project developed.
+
+The human story is not proof that SAT/H(s)H is correct. It is provenance for how the work happened.
+
+Public prose should distinguish those functions cleanly.
+
+---
+
+## 4. Surface temperature
+
+The site-default voice is **not full Bent ’N’ Dent** and not a generic formal essay.
+
+A useful composition model is:
+
+- **Great Moments conversational Nathan** — narrative skeleton;
+- **Styptic-Man technical perception** — intellectual musculature;
+- **Bent ’N’ Dent metanarrative mischief and linguistic elasticity** — controlled doses;
+- **nonfiction structural discipline** — category and status control;
+- **peer-review discipline** — local fallback where scientific claims demand it.
+
+The aim is not to mix every mode into every paragraph. It is to make the right machinery available when the paragraph’s job changes.
+
+---
+
+## 5. Sentence behavior
+
+Typical successful rhythm:
+
+1. concrete observation;
+2. technical or conceptual recognition;
+3. qualification or correction;
+4. comic or bodily landing;
+5. short boundary sentence;
+6. continue.
+
+Long accumulative sentences are welcome when they preserve simultaneously active relations. Short sentences should land boundaries.
+
+Useful examples of landing temperature:
+
+> Words mean things.
+
+> Categories mean things.
+
+> Put it back.
+
+> Both.
+
+> Not yet.
+
+Do not manufacture clipped sentences everywhere. Their force depends on contrast.
+
+---
+
+## 6. Site-default negative model
+
+Avoid:
+
+- generic polished-AI uplift;
+- writing every paragraph as an aphorism;
+- joke-shaped jokes where the source absurdity was already enough;
+- fake Nathan typos or transcription errors;
+- excessive ellipses as decoration;
+- surface imitation without category discipline;
+- constant profanity;
+- faux-humble self-effacement;
+- pumping scientific claims for drama;
+- turning every site section into memoir;
+- rewriting raw/archive material into Nathan voice;
+- treating a funny phrase as permission to weaken evidentiary labels;
+- explaining every joke after it lands;
+- cleaning away the tactile mess that makes a scientific scene real;
+- replacing a precise odd word with a smoother generic one merely because an editor normally would.
+
+---
+
+## 7. Relationship to the other v8 models
+
+This standard is the **public-site default wrapper**, not a replacement for the specialized models.
+
+### Use `Nathan_Nonfiction_Communication_Standard_v8.0.md` when:
+
+- the section’s primary job is status, governance, roadmap, reconstruction, methodology, provenance, or project instructions;
+- clarity of state matters more than narrative presence;
+- the prose must expose scope, categories, dependencies, and next actions.
+
+### Use `Nathan_Peer_Review_Writing_Fingerprint_v8.0.md` when:
+
+- the audience is primarily scientific specialists;
+- the text states or evaluates technical claims, derivations, results, limitations, or formal mappings;
+- a page is functioning as manuscript-like scientific exposition.
+
+### Use `Nathan_Creative_Informal_Reference_v8.0.md` when:
+
+- the page is explicitly creative, fictional, historical-personal, comic, or experimental;
+- the prose is analyzing or borrowing a specific creative register;
+- platform-native or highly playful narration is deliberately wanted.
+
+### Use `Nathan_Voice_Identification_Provenance_Fingerprint_v8.0.md` when:
+
+- deciding authorship, span attribution, source identity, or production cause.
+
+**Do not use the identification fingerprint as a prose-generation style guide.**
+
+---
+
+## 8. Compact generation instruction
+
+> **Write public-facing narrative nonfiction in Nathan McKnight’s site-default voice. Keep Nathan’s thinking visible without turning the prose into an impersonation. Combine technical precision, tactile scientific detail, structural humor, live self-correction, word-love, and stubborn category discipline. Let technical terms function as perception or inference rather than sidebar exposition. Allow profanity and coinage only when they earn real work. Preserve uncertainty at its exact address. Do not use false humility, hype, generic AI uplift, or joke-shaped filler. Let the route wander when useful, but become strict at contact: the object, geometry, source, chronology, and evidence get veto power. Use periodic “And so:” compressions to reorient long narratives. Prefer a concrete scene before its abstract rule. If a passage becomes claim-heavy or scientist-facing, fall back locally to the nonfiction or peer-review standards rather than forcing the site voice through it.**
+
+---
+
+## 9. Approval boundary
+
+Nathan’s instruction on 21 Sep 2026 establishes this as the **default public-site register** and authorizes packaging the accepted origin-story exemplar into the voice architecture.
+
+This does **not** automatically:
+
+- approve every assistant-written sentence as Nathan-authored;
+- replace the peer-review or nonfiction standards in their scopes;
+- authorize rewriting primary sources;
+- turn stylistic confidence into scientific authority.
+
+Direct later Nathan correction supersedes this document.
