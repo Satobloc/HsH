@@ -18,7 +18,7 @@
 | *Spacetime Curvature and Rigidity* raw conversation | created 2023-07-07; updated 2026-09-12 | `11a081b545c99a4225d782c2d3db562efc0273ac` | first extant HsH path commit 2026-10-02 |
 | Same 2023 conversation, second snapshot | same conversation ID and message-level content | `d6fe3b0c2fac5309d79581ed6015a66d1cbaeb5b` | snapshot metadata/title differ; not independent corroboration |
 | *DIMENSIONAL GRAVITY* raw conversation | created 2024-03-22; updated 2026-06-10 | `2cea1924266418e19b825b95ae51e6b7cbace7e1` | first extant HsH path commit 2026-09-12 |
-| `RMS SAT.txt` flattened derivative | repository artifact | `4eb4146f` (Git blob prefix) | first extant commit 2025-10-28T02:26:45Z; no raw role/parent graph |
+| `RMS SAT.txt` flattened derivative | repository artifact | `4eb4146f74b089aa7d587bbf9cbcbc6c56c49513` | first extant commit 2025-10-28T02:26:45Z; no raw role/parent graph |
 | Klein Fabric construction-story conversation | 2026-08-26 source cluster | `92454acdaad701193e2a0c6cf64a7d7b70a03dbb` | duplicate Calder label; separate source thread |
 | *Meridian Free Build* raw conversation | 2026-10-06 to 2026-10-20 | `7af1561b321f4d9364da5eb111df689efc652827` | primary user-message source |
 | *Minkowski Ring Analysis* raw conversation | 2026-10-20 to 2026-10-21 | `56a84cb85d5c386efa4ea11d322d11e95e2c7703` | primary user-message source |
@@ -216,7 +216,7 @@ Additional symbol hazard: `c` is used locally as speed of light in `WorldtubeIne
 ## 10. Operational status
 
 - Existing issue #1418 remains the existing public-facing report record, with publisher rejection already recorded in AMENDMENT_01. No duplicate issue and no publisher retry.
-- Existing base receipt, AMENDMENT_01, AMENDMENT_02, and Hale handoff remain unchanged.
+- Existing base receipt, AMENDMENT_01, AMENDMENT_02, and base Hale handoff remain unchanged; a separate additive handoff amendment follows.
 - All four Mersearch request lanes remain occupied; the Calder geometry lane has no RUN_MANIFEST or SEARCH_RECEIPT. GitHub raw-source retrieval and bounded repository search were used as fallback, not represented as a completed Mersearch run.
 - Math Hopper remains extraction-only; Whirligig remains a separate existing workstream; existing Lean PRs were reused. HsH and SAT archive report zero forks; HSH_RESOURCES is private and was not fork-audited. SciSpace is available but was not needed. No new tool, package, paid service, or local checkout was created.
 - The unrelated TheTANGLE reread at lines 1601-1640 is behind the existing h636 receipt's later cursor (1891-1930); it is a repeat, not a new break. Preserve next cursor 1931. FIE review remains due 2026-11-10, not yet due.
