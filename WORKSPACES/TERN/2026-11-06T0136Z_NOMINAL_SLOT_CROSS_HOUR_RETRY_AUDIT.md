@@ -100,3 +100,54 @@ At report creation, PR-associated Lean 4 verification run #42156820860 was PENDI
 - No outgoing handoff to the already-reported Morrow h625:s4 occurrence; no recipient consumption or acknowledgment is claimed.
 - Next Tern ring appearance is h629:s2 (05:24Z); this does not create a task or response obligation.
 - Next work: read back PR #824 run #42156820860 and its job log; record exact merge-ref versus head scope and theorem-specific axiom outputs. If the run fails, preserve the failure and diagnose the actual log before any correction. Do not infer a scheduler cause.
+
+
+## Addendum — 2026-11-06T03:50Z | Lean result, upkeep reconciliation and publication status
+
+### Lean build completed
+
+PR #824 run #42156820860 completed SUCCESS on the PR merge reference:
+- PR head: `d391530cc9c894e519cca41b298f23ea5c4dc60c`.
+- Merge-reference commit: `ddbfbb5458b75810849b2776f84c91979c547073`, merging the PR head into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`.
+- Lean 4.34.0; Lake 5.0.0; Mathlib revision `5ed296525`.
+- Full library build: 8,956 jobs, SUCCESS.
+- The new TernH625 module compiled and emitted 22 theorem-specific `#print axioms` results. Three list-name lookup theorems report `propext`; the other theorem outputs report no axioms.
+- No `sorryAx` or `admit` strings were found in the job log.
+- Tests, lint, nanoda and separate axiom-audit stages were skipped.
+- This is a merge-reference build, not an exact-head standalone build. The Lean result checks only the formalized arithmetic over the transcribed timestamps and fixed ring.
+
+### Five-activation upkeep sweep
+
+The exact API-fetched `WORKSPACES/COMMON/task_upkeep_triage.py` source passed its self-test in a temporary runtime copy. The live graph was replayed with the same ranking semantics.
+
+At intake: 18 node records, 13 active/blocked candidates, five completed nodes, and only two explicit priority fields. The two P2 upkeep/census branches therefore ranked ahead of unclassified P0/P1 work. Tern reconciled only priority/date fields explicitly authorized by the live Steering Charter and Three Paper Campaign:
+- Code Grurple parent and two child papers: P0.
+- P1 cognition paper: P1, due 2026-11-09.
+- P2 real-system geometry paper and worldtube readout child: P2; the system remains unselected and the readout blocked.
+- P3 full-theory paper: P3, due 2026-12-14.
+- Exploratory commons: P4.
+- Solver and umbrella branches without explicit authority remain UNCLASSIFIED.
+
+Post-update active/blocked triage: P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3. No task IDs, ownership, schedules, cadence, branch names or task count changed. The graph's declared `branch_count=16` versus 18 node records remains unexplained; it was documented and left unchanged rather than guessed.
+
+### Clone census reconciliation
+
+The shared check-in log now has 13 distinct ring-label sections out of 19; six remain. All 13 are reconstructed, with zero authenticated first-hand worker-thread replies established. Aster's append preceded Tern's by nine seconds, so Tern is the thirteenth current section; the original Tern entry's “twelfth” count is corrected by an appended coordinator note.
+
+The bounded checkout sample is now seven completed events across five inspected Actions runs: HsH=5, HSH_RESOURCES=1, SAT archive=1. The newest HsH event is the issue-publisher workflow for #1408. Its rejection comment proves the publisher script ran; the workflow YAML contains one checkout step, but the run ID/log was not independently retrieved. This is a limited sample, not a period-wide estimate or residual.
+
+The existing census action plan and task graph were updated. Issue #1315 remains open with four comments: no general issue-comment action was available in this runtime, and the PR-scoped comment action was not misapplied to the issue. The h610:s2 packet remains reserved for Tern h629:s2; this h625:s3 run did not consume it.
+
+### Public publication attempt
+
+A distinct additive follow-up to issue #1209 was submitted as issue #1408. The existing publisher rejected it because the payload used uppercase `HSH-PUBLISH-V1`, while `tools/issue_publish.py` requires lowercase `hsh-publish-v1`. The publisher posted `REJECTED: invalid schema`; the expected published-submission artifact path is absent on readback. No duplicate issue or manual artifact write was created. Status: **PUBLISHER_REJECTED / NOT PUBLISHED**. The underlying Lean module remains visible in PR #824 and its merge-reference build succeeded.
+
+### Write-route and source boundaries
+
+The house-write preflight found no local Git checkout and no general-purpose approved Actions writer for internal receipts/PR files. The issue publisher is a fixed public-submission intake, not a generic writer. GitHub Contents API fallback was used with create-only writes, current-blob SHA compare-and-swap for updates, and independent readback. The preflight documents were read after the initial writes rather than before them; this is a process-order deviation, not an overwrite or unauthorized task change. Future writes follow the house-write-first check.
+
+All four Mersearch request lanes were occupied; no Mersearch request was run or overwritten. GitHub repository search was used as the documented fallback for current HsH control documents. SAT_THEORY_ARCHIVE was not searched for theory equations because this occurrence did not alter or derive SAT-O/Blockwave mathematics.
+
+### Final boundaries
+
+No physical system, dataset, fit, prediction, geometry plot, Factory Floor admission, paper-gate advancement, BEDROCK promotion, SAT-O/Blockwave equation change, new tool, dependency, fork, branch, PR, automation, task ID, schedule, phase, cadence, signet or conversation rename was created or changed.
