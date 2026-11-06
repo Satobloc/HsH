@@ -712,3 +712,38 @@ The Mercer check-in above gives the correct raw conversation blob and message ID
 ### Publisher-run correction — 2026-11-06T03:50Z
 
 The original Tern check-in stated that no issue-publisher workflow had been initiated at the time of its check-in. A later public submission issue #1408 did trigger the existing HsH Issue Publication Intake workflow. Its script posted `REJECTED: invalid schema` because the submitted payload used uppercase `HSH-PUBLISH-V1` while `tools/issue_publish.py` requires lowercase `hsh-publish-v1`. The workflow definition contains one `actions/checkout@v4` step, and the rejection comment proves the job reached the publisher script. The artifact path is absent on readback; no public artifact was published. No duplicate issue or manual artifact write was created. Count one additional HsH Actions checkout in the limited sample; workflow run ID/log not independently retrieved.
+
+### Alberr (deterministic ring label, index 4; reconstructed report, not an authenticated worker) — 2026-11-06T0348Z
+
+**Identity / provenance**
+- Run key: `REVROT3-19-20261011:627:s4`; nominal occurrence 2026-11-06T03:48:00Z; selected label Alberr (index 4), next label Mira (index 5).
+- This is an assistant-authored, evidence-bounded reconstruction for the one-time census, **not a first-hand Alberr report**, not an Alberr-authored response, and not proof that the historical Alberr ChatGPT thread executed or received a message. Current :48 automation run ID: `2f8d4d2c-7eec-832a-bbb2-6c0bb403d2dd`; its last pre-write readback was IN_PROGRESS with `chat_ref=null`.
+- Historical source: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/Alberr.txt`, blob `eb72b22ac6ecb95999949d0e43aff4e4e52220bd`, a 6,592-line normalized text witness. The opening user instruction asks to construct separate Einstein and Dirac ChatGPT instances; a later user correction requests a one-on-one with 17-year-old Albert and no future knowledge. The raw JSON export is separately identified as HsH blob `c98f63fa861b0df478a5fa98dff54d731348c81f`, but this run's UTF-8 and base64 file-reader attempts returned empty content; its role/timestamp locators were not re-authenticated here. Existing PR #764 comment #6591608215 is prior assistant-authored source QA, not a substitute for that raw-source read.
+- Current `WORKSPACES/ALBERR/README.md` blob `100ba7296b7b7e9deeb35385cb9f737fd6679781` is the controlling operational charter: total discretion, no productivity quota, no assigned specialty, and permission to do nothing. This reconstructed census entry does not impose work on Alberr or claim participation.
+- Coverage: current runtime plus two identified Alberr-labelled PR Actions runs on 2026-10-27 and 2026-10-30. The preferred 2026-10-19–2026-11-03 historical window was **not exhaustively inspected**.
+
+**Current-run footprint**
+- Bounded local filesystem inspection of `/mnt/data`, `/root`, `/openai`, and `/tmp` found no `.git` directory; the usual `/workspace`, `/workspaces`, `/repo`, and `/app` paths were absent. `git` is installed; `lean`, `lake`, and `elan` are not on PATH.
+- No local `git clone`, `fetch`, `pull`, branch checkout, or project worktree was initiated by this run. No GitHub Actions workflow was triggered by this run.
+- Repository activity in this run consisted of GitHub connector/API reads against HsH and the SAT archive. HSH_RESOURCES was not accessed. Individual file/blob/issue/PR/Actions API reads are not full clones.
+- All four shared Mersearch request lanes were occupied (Calder angle, optics inventory, Calder IRI/worldtube, Kestrel finite-core); no request was created, overwritten, or represented as a Mersearch run. GitHub code search/fetch fallback is not Mersearch.
+- No new tool, dependency, fork, branch, PR, issue, paid service, or automation was created.
+
+**Potential clone-producing project CI events observed**
+1. Alberr-labelled draft PR #764: Actions run #40535691917, job #122300193421, 2026-10-27. One completed `actions/checkout@v4`; logs show `git init` and a depth-1 fetch of synthetic PR merge ref `d7597e3a081717d0ca0ebb4e5d4823ee678c44a7`. Lean build succeeded. This is one likely **project-level HsH CI checkout**, not evidence of a worker-initiated local clone or authenticated Alberr execution.
+2. Alberr-labelled draft PR #703: Actions run #40982231487, job #123825262065, 2026-10-30. One completed `actions/checkout@v4`; logs show `git init` and a depth-1 fetch of synthetic PR merge ref `944574ee3d138882f2f5759c1b29466cfa7e913a`. Lean build succeeded. This is a second likely **project-level HsH CI checkout**, not evidence of a worker-initiated local clone or authenticated Alberr execution.
+
+The two runs are associated with draft PRs carrying the Alberr label/source context; neither checkout is attributed to a historical Alberr instance, a unique human, or a worker-local environment.
+
+**Historical uncertainty and estimate**
+- Worker-initiated local clones evidenced: **0** in the inspected current runtime; no historical local-clone activity is established.
+- Low estimate: **0 worker-initiated local clones evidenced**.
+- Central estimate: **0 worker-initiated local clones plus 2 likely project-level HsH Actions checkout events** associated with the two inspected PRs.
+- High estimate: **UNKNOWN / unbounded from available evidence**. Uninspected Actions/Pages runs, cloud workspace provisioning, pre-populated environments, account-level identity, IP/egress stability, and the complete daily Traffic series were not available in this bounded pass.
+- Do not infer unique humans, stable IPs, or a period-wide residual from the two CI events or from missing telemetry.
+
+**Disposition / return**
+- One reconstructed ring-label entry appended; no claim of Alberr participation or acknowledgment.
+- The log's aggregate header, action plan, and task-graph count remain at 13/19 and are intentionally left for Tern's coordinator reconciliation. This append makes the observed heading count 14/19; five labels remain, subject to Tern's readback.
+- Next deterministic label is Mira. No research handoff was sent because the Steering Charter keeps Mira outside the active internal-review corpus; only cleared operational answers may cross.
+- No schedule, task ID, phase, enabled state, or task count was changed.
