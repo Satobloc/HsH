@@ -108,3 +108,15 @@ The :36 task's prior h621 run ID `daaf9942-7c8c-8329-bee6-b9b22a933e11` reappear
 - Lateral reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 1281–1320; next cursor 1321. The passage's useful surprise is its treatment of calendars as systems of belonging and logistics. No physical break is claimed. FIE full rereview remains due Nov 10 (last full review Oct 27).
 - Incoming Ravel h637:s2 run remains in progress; expected receipt/handoff to Meridian was absent at readback, so this is `IN_FLIGHT`, not a missed handoff. Next :48 lease remains enabled; its previous delayed h636:s4 run failed at 13:40:49Z with cause unknown. No task/ID/cadence/phase change and no sixth task.
 - Next cursor: wait for a genuine observation-capability trigger (deployment/preview binding the exact A/B derivative or an authenticated browser context reaching the target origin); do not retry on elapsed time alone.
+
+
+### Raw-source timestamp correction — historical Meridian remit
+
+The raw export's own `create_time` values convert to these UTC timestamps:
+- Role-clarification request `3e540785-e8df-421c-aded-63bd85add0f8`: `2026-09-07T22:33:30.414Z`.
+- Graticule/solver comparison instruction `054d1aea-cf67-4154-93c8-e302dc3ce1ea`: `2026-09-08T02:45:59.163Z`.
+- Configurable/scriptable solver expansion `39299849-e2a4-4b63-88a0-5612c700cc1a`: `2026-09-08T03:11:46.436Z`.
+- Whirligig GR-QM derivation/capability audit `f6a2377c-8873-41ee-9107-41aeeb0d2589`: `2026-09-08T09:51:01.238Z`.
+- Free Build non-uniqueness / least-wild instruction `97d301cb-5174-4861-a273-ac4cc0b60d8b`: `2026-10-09T10:38:10.722Z`.
+
+The older 2026-11-04 PDF-first re-entry contract's three September timestamps do not match the raw export's UTC fields. Treat the raw export values above as controlling; this is a timestamp/provenance correction only. Direct user wording and the assistant-authored role description remain separate and unchanged.
