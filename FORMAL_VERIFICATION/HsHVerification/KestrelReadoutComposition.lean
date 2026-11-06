@@ -98,5 +98,6 @@ theorem composed_injectivity_requires_both_maps
 #print axioms reverse_inclusion_requires_injectivity
 #print axioms upstream_noninjectivity_survives_readout
 #print axioms composed_injectivity_requires_both_maps
+#print axioms composed_injectivity_iff_range_restriction
 
 end HsHVerification.KestrelReadoutComposition
