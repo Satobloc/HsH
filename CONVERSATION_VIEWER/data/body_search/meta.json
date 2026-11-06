@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-06T08:23:34.128551+00:00",
-  "catalog_sha256": "4181bdfe0e827348289b12c34d3c39e69d44c458f85764576ac6cb8c0689ce53",
+  "generated_at_utc": "2026-11-06T08:42:50.495601+00:00",
+  "catalog_sha256": "3ebc67db991e97e3ef76d9565a81c7b6f7df0660acc01ed96afb9c3107369a0d",
   "conversation_ids": [
     "b45ad724bd8b",
     "1456097a9877",
@@ -37,6 +37,12 @@
     "dd3238d5fb23",
     "87a9e7d48ddc",
     "ddf874a00b48",
+    "805715c6e3af",
+    "ef7ef74689dc",
+    "23756175233c",
+    "72ac1bec1e84",
+    "a1f19d70b20a",
+    "3a823442808e",
     "6fea909e92d5",
     "67a100a35e3b",
     "46d86310d4af",
@@ -80,6 +86,7 @@
     "f545b355a40b",
     "e2d8c7e35a5b",
     "9118ddae9df7",
+    "4c69c5bf1926",
     "20667b8ffa72",
     "dc443393e3d7",
     "7c0aa79be64e",
@@ -224,6 +231,7 @@
     "5e7bdf63fac8",
     "126f74a778e7",
     "adbae55ad503",
+    "f7aad425668b",
     "3d3586255d77",
     "41d1ea939c2b",
     "9407646fd490",
@@ -298,6 +306,7 @@
     "a122a761b3b8",
     "e94fe4ea36ac",
     "03ec3cc30be3",
+    "64524f15aef6",
     "fa4d1862002c",
     "46da07bfc17d",
     "f55646e533bc",
@@ -365,6 +374,7 @@
     "6adb7c836439",
     "af6c7791a64f",
     "36753ed48e30",
+    "53f3c286bd59",
     "5508375acd72",
     "18fd0c971468",
     "954258cbb5e2",
@@ -476,6 +486,7 @@
     "08bc9e1f751d",
     "114d50756781",
     "d30df9c2c981",
+    "311073982a48",
     "3edf39829170",
     "7a0d0429afb8",
     "098ae1e10df6",
@@ -732,6 +743,7 @@
     "7312a94832c6",
     "b685a94c97f4",
     "5ba10fca7e5b",
+    "09ff4582226a",
     "d1e9ec5f7702",
     "0e01493364a5",
     "3f91a8eb1358",
@@ -765,6 +777,7 @@
     "6e5098622aba",
     "66356ac47e7e",
     "6a59a85e239d",
+    "6845a85ee97e",
     "7571f6004f4d",
     "ff23c17ccf81",
     "5cc6de86a1c9",
@@ -805,10 +818,12 @@
     "1c8e1f618de8",
     "ecfd9a1ca553",
     "2cdd3b9a65b2",
+    "25dfc84a4b56",
     "e68d312b35d2",
     "8edad8a379ab",
     "363de3817958",
     "8cdf106764cf",
+    "f511e015009c",
     "3dd9d4e30d31",
     "c2360a703740",
     "5898e90c6e17",
@@ -819,6 +834,7 @@
     "44ad22704df4",
     "39ef462f33bc",
     "201ae2b9e516",
+    "f535c9b6257f",
     "fd5fd5b15ce7",
     "b9a1d20c57e8",
     "5fdfca580793",
@@ -832,6 +848,8 @@
     "f5b5f2b14f37",
     "f390a6f03351",
     "82201ca4e479",
+    "80e215918d47",
+    "af1be8a84929",
     "064547a1d58d",
     "4ffbb9264ab7",
     "ada22eef37f9",
@@ -906,159 +924,159 @@
     "fb9e2ea6fd8c",
     "8ceb4702612d"
   ],
-  "conversation_count": 902,
-  "indexed_conversations": 902,
-  "unique_tokens": 310867,
-  "posting_count": 5229281,
-  "shard_bytes": 24769324,
+  "conversation_count": 920,
+  "indexed_conversations": 920,
+  "unique_tokens": 311844,
+  "posting_count": 5344669,
+  "shard_bytes": 25268228,
   "shards": {
     "0": {
-      "tokens": 10893,
-      "bytes": 394279
+      "tokens": 10929,
+      "bytes": 400825
     },
     "1": {
-      "tokens": 13800,
-      "bytes": 601055
+      "tokens": 13817,
+      "bytes": 610738
     },
     "2": {
-      "tokens": 10695,
-      "bytes": 500289
+      "tokens": 10721,
+      "bytes": 508360
     },
     "3": {
-      "tokens": 6395,
-      "bytes": 272376
+      "tokens": 6409,
+      "bytes": 276446
     },
     "4": {
-      "tokens": 7626,
-      "bytes": 300577
+      "tokens": 7640,
+      "bytes": 306914
     },
     "5": {
-      "tokens": 5073,
-      "bytes": 208178
+      "tokens": 5089,
+      "bytes": 211582
     },
     "6": {
-      "tokens": 4932,
-      "bytes": 198367
+      "tokens": 4945,
+      "bytes": 201464
     },
     "7": {
-      "tokens": 4197,
-      "bytes": 166577
+      "tokens": 4214,
+      "bytes": 169388
     },
     "8": {
-      "tokens": 4798,
-      "bytes": 173808
+      "tokens": 4814,
+      "bytes": 176945
     },
     "9": {
-      "tokens": 5472,
-      "bytes": 190980
+      "tokens": 5493,
+      "bytes": 194307
     },
     "_": {
-      "tokens": 11664,
-      "bytes": 440466
+      "tokens": 11681,
+      "bytes": 444667
     },
     "a": {
-      "tokens": 14105,
-      "bytes": 1356726
+      "tokens": 14147,
+      "bytes": 1384261
     },
     "b": {
-      "tokens": 12449,
-      "bytes": 890340
+      "tokens": 12494,
+      "bytes": 909547
     },
     "c": {
-      "tokens": 15521,
-      "bytes": 1836213
+      "tokens": 15577,
+      "bytes": 1875181
     },
     "d": {
-      "tokens": 10780,
-      "bytes": 1152080
+      "tokens": 10833,
+      "bytes": 1176290
     },
     "e": {
-      "tokens": 9335,
-      "bytes": 1042251
+      "tokens": 9364,
+      "bytes": 1063429
     },
     "f": {
-      "tokens": 10228,
-      "bytes": 941551
+      "tokens": 10282,
+      "bytes": 961325
     },
     "g": {
-      "tokens": 6410,
-      "bytes": 532860
+      "tokens": 6435,
+      "bytes": 543656
     },
     "h": {
-      "tokens": 6377,
-      "bytes": 546677
+      "tokens": 6400,
+      "bytes": 558891
     },
     "i": {
-      "tokens": 7032,
-      "bytes": 945723
+      "tokens": 7058,
+      "bytes": 965045
     },
     "j": {
-      "tokens": 1982,
-      "bytes": 127358
+      "tokens": 1990,
+      "bytes": 130201
     },
     "k": {
-      "tokens": 3487,
-      "bytes": 192030
+      "tokens": 3508,
+      "bytes": 195520
     },
     "l": {
-      "tokens": 8573,
-      "bytes": 1262446
+      "tokens": 8596,
+      "bytes": 1289333
     },
     "m": {
-      "tokens": 11533,
-      "bytes": 1040767
+      "tokens": 11576,
+      "bytes": 1061529
     },
     "n": {
-      "tokens": 16757,
-      "bytes": 989723
+      "tokens": 16811,
+      "bytes": 1012339
     },
     "o": {
-      "tokens": 5172,
-      "bytes": 545710
+      "tokens": 5189,
+      "bytes": 556669
     },
     "p": {
-      "tokens": 12474,
-      "bytes": 1391017
+      "tokens": 12511,
+      "bytes": 1421705
     },
     "q": {
-      "tokens": 1526,
-      "bytes": 142953
+      "tokens": 1531,
+      "bytes": 145588
     },
     "r": {
-      "tokens": 10435,
-      "bytes": 1264924
+      "tokens": 10466,
+      "bytes": 1291643
     },
     "s": {
-      "tokens": 19136,
-      "bytes": 2007439
+      "tokens": 19198,
+      "bytes": 2049818
     },
     "t": {
-      "tokens": 22753,
-      "bytes": 1624409
+      "tokens": 22817,
+      "bytes": 1656477
     },
     "u": {
-      "tokens": 6881,
-      "bytes": 482815
+      "tokens": 6900,
+      "bytes": 492043
     },
     "v": {
-      "tokens": 3617,
-      "bytes": 323508
+      "tokens": 3623,
+      "bytes": 329694
     },
     "w": {
-      "tokens": 4825,
-      "bytes": 475063
+      "tokens": 4842,
+      "bytes": 485412
     },
     "x": {
-      "tokens": 1092,
-      "bytes": 52456
+      "tokens": 1094,
+      "bytes": 53234
     },
     "y": {
-      "tokens": 1332,
-      "bytes": 83057
+      "tokens": 1337,
+      "bytes": 84708
     },
     "z": {
-      "tokens": 1510,
-      "bytes": 72276
+      "tokens": 1513,
+      "bytes": 73054
     }
   },
   "tokenization": "Unicode word tokens casefolded; H(s)H normalized to hsh; tokens shorter than 2 omitted",
