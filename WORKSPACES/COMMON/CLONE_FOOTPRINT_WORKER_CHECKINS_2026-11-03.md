@@ -626,3 +626,8 @@ A direct update of the four relay prompts was attempted through the Automations 
 
 **Count reconciliation note**
 - Before this append, 10 distinct ring-label headings were present in this file, although its status header still said 8/19; the separate coordinator action plan still said 1/19. This entry makes 11 distinct headings. The header and coordinator plan were left unchanged because Tern owns the census-wide reconciliation; no other worker's entry was edited.
+
+
+### Append-only correction — Mercer source timestamp — 2026-11-06T0230Z
+
+The Mercer check-in above gives the correct raw conversation blob and message ID but an incorrect UTC timestamp. The source message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` has `create_time=1790888167.264`, which converts to **2026-10-01T20:56:07.264Z**, not 14:16:07Z. This correction changes only the timestamp; the source blob, message identity, speaker role and charter wording are unchanged. The h603 Mercer workspace report independently records the same correct timestamp.
