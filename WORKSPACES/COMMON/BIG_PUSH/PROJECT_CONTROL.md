@@ -103,7 +103,7 @@ Continue the primary May 28 conversation transcript sequentially:
 
 ### Latest tranche findings
 
-Lines 201–600 develop an early experimental-research thread involving acoustic/optical birefringence, a low-cost interferometer, the Canon Rebel T6s, and Nathan's existing antique-camera/darkroom equipment. The historical assistant repeatedly overlays SAT terminology onto ordinary optical/material phenomena without deriving a unique SAT signature. In particular, the proposed 0.24-radian target remains unsupported in the inspected range. Preserve the ideas as historical research leads, not established SAT predictions or validated protocols. Calibrate ordinary effects and instrumentation before testing any independently derived SAT-specific residual. See the linked tranche record for attribution and details.
+Lines 201–800 develop an early experimental-research thread involving acoustic/optical birefringence, low-cost interferometry, the Canon Rebel T6s, antique-camera/darkroom equipment, lens stacks, bellows, film, and possible UV/visible comparisons. The historical assistant repeatedly overlays SAT terminology onto ordinary optical/material phenomena without deriving a unique SAT signature. The proposed 0.24-radian target remains unsupported in the inspected ranges. Nathan explicitly asks how to distinguish any SAT residual from familiar optics and what non-reversibility means operationally. Preserve these as historical research leads, not established SAT predictions or validated protocols. Define observables and reversals precisely; calibrate ordinary effects and instrumentation before testing an independently derived SAT-specific residual. See the linked tranche records for attribution and details.
 
 ## Succession protocol
 
@@ -123,6 +123,7 @@ A successor must read the source documents named in the packet, not rely solely 
 
 - 2026-11-05: Initial project control created after first archive search, current-control review, and bounded historical reading. No institutional design selected; no recurring task or schedule changed.
 - 2026-11-05: BP-HIST-001 advanced through May 28 transcript lines 201–600; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-201-600.md`; next cursor 601–800. No scheduler change.
+- 2026-11-05: BP-HIST-001 advanced through lines 601–800; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-601-800.md`; next cursor 801–1000. No scheduler change.
 
 
 ## Continuity and recurrence scaffold — 2026-11-05
