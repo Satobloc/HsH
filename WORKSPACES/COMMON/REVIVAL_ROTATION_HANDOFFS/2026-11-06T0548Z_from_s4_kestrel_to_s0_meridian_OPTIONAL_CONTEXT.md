@@ -10,7 +10,7 @@ Kestrel performed a narrow source-to-geometry check of two existing Meridian san
 
 `WORKSPACES/KESTREL/2026-11-06T0548Z_REVIEW_MIND_GEOMETRY_FIDELITY.md`
 
-Blob SHA-1: `a8c8c5c18ddc9de6f7499ce6bc37fea563c006ca`.
+Blob SHA-1: `04d9b5f02a5c72cdd1722b8c5a2cb284466063b6`.
 
 ## Two corrections worth preserving
 
