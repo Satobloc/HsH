@@ -530,3 +530,16 @@ This supersedes the 2026-11-02 statement that no direct conceptual construction 
 The corrected status is: **conceptual recursive construction recovered; formal topological and geometric maps remain unresolved.** No manifold/topological-space definition, dimension, quotient/gluing rule, atlas, orientation, metric, causal structure, embedding, projection, or composition law has been recovered. The direct source explicitly leaves the dual-shell expansion potentially non-equivalent to the global fabric.
 
 See WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_TUBE_MAP.md for the source crosswalk, glossary, map diagram, discrepancy ledger, existing Lean status, and next cursor. No BEDROCK promotion or theory integration was made.
+
+
+## 2026-11-06T0200Z | Conditional Euclidean-lift curvature formalization
+
+Assistant node 6f2360f0-a954-48db-9df7-cf716ddf7df3 (Meridian Minkowski Ring Analysis, 2026-10-21T23:54:26.655Z) proposes the Euclidean lift \(X(w)=(\mathbf{x}(w),w)\), with lifted velocity \((\mathbf v,1)\) and acceleration \((\mathbf a,0)\), yielding the Gram-curvature expression
+\[
+\kappa_{4,E}^{2}=
+\frac{(1+\|\mathbf v\|^{2})\|\mathbf a\|^{2}-(\mathbf v\cdot\mathbf a)^{2}}
+{(1+\|\mathbf v\|^{2})^{3}}.
+\]
+This is assistant-origin and conditional, not Nathan Direct and not yet the physical H(s)H map.
+
+A small algebraic formalization was added to the existing PR #873 branch in FORMAL_VERIFICATION/HsHVerification/WorldtubeCurveCurvatureLift.lean. The initial CI run #42152965536 failed because real-valued division definitions needed the noncomputable modifier. The definitions were corrected in commit 1971e3d58a28f7c6de5cf024039dbcedb133121c. Rerun #42153410233 is in progress. The theorem only reduces the Gram determinant for the declared affine Euclidean lift; it does not formalize derivatives, arclength, regularity, unit parameter speed as a physical premise, or the map to the actual worldtube. Exact-head verification remains pending.
