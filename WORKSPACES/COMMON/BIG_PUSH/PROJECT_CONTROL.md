@@ -97,9 +97,9 @@ GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at m
 **Source:** `MISC/HoloJesu Fleshlight.txt` in `Satobloc/SAT_THEORY_ARCHIVE_2023-25`  
 **Blob SHA:** `afa778c23eb439caf707b618ec0e59304d321c0b`  
 **Length:** 6,307 lines  
-**Read:** lines 1–400  
-**Next cursor:** lines 401–600  
-**Latest durable record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-201-400.md`
+**Read:** lines 1–600  
+**Next cursor:** lines 601–800  
+**Latest durable record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-401-600.md`
 
 The 4,651-line memory export and 6,307-line HoloJesu export share a common prefix of 4,550 lines after normalizing the speaker label `Nathan McKnight:` to `You said:`. In lines 201–400, 197 of 200 lines match exactly after that normalization. Continue range-by-range and identify substantive divergence, additions, omissions, and attachment differences. Do not assume either export is a complete superset.
 
