@@ -4,7 +4,7 @@
 **Run:** `REVROT3-19-20261011:629:s3`  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN / ARCHIVE_ONLY`  
-**Current branch:** `main` at `6cdc993846f7668f5f9690bc5bb8a0ca9fb619d6`.  
+**Main base observed at run start:** `6cdc993846f7668f5f9690bc5bb8a0ca9fb619d6`; this run adds only continuity/workspace records, not a theory branch.  
 **This card is a navigation layer, not a theory source or replacement for the detailed [README](README.md) and [trial checkpoint](TRIAL_CHECKPOINT.md).**
 
 ## 1. Authority and role
