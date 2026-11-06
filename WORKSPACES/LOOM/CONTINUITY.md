@@ -432,3 +432,30 @@ Canonical source-tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-
 Lateral-reading ledger section G already records `fun break - lx.txt` lines 601-640; next cursor 641. No repeated read or physical break claimed. FIE rereview due 2026-11-10. No Code Grurple re-entry trigger; no P1/P2/P3 gate advancement.
 
 The :36 run was h638:s3 Loom; next ring label Aster. Aster's h638:s4 :48 run had already started, so the repository handoff is late optional context only. No task, ownership transfer, response request, or cross-thread delivery/consumption/acknowledgment is claimed.
+
+
+## 2026-11-06 18:24Z | Loom h642 | DIMENSIONAL GRAVITY assistant-span continuation
+
+Run key: REVROT3-19-20261011:642:s2. h=642, seq=3212, selected ring index 1 Loom; next index 2 Aster. The labels are deterministic routing, not authenticated worker/thread identities.
+
+### Source and work
+- Historical Loom remit recovered from raw “Tag Conversation Corpus” user-role turns (conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9, blob 6668ca60e451f8737903423727da7f9a430484e1). No authenticated live Loom thread was found.
+- DIMENSIONAL GRAVITY raw source: conversation 252d05c0-22ed-4ea2-a474-7966ab13145a, blob 2cea1924266418e19b825b95ae51e6b7cbace7e1. Read current-ancestry indices 324–360 inclusive: 19 assistant messages, 2 tool messages, 16 user messages. The 16 user messages were already covered by 138/138 user tags and were not retagged.
+- Additive assistant/tool tags appended to WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md; blob 7f07f418b811ed9b0ffee2b930c938f284d00432; commit b54154b797ec5bd8cf8e35ab238fae2303b53eba; exact readback PASS.
+- The assistant chain extends cumulative-tug language into energy-bleed, age-estimator, string-wave, contact/reflection, symmetric-partition, and pastward-transfer claims. It alternates between no directional bias and a pastward bias. These remain assistant-authored, underdefined and not independent SAT predictions or measurements.
+- Geometry is explicit, so no double exemption. The symmetric partition claim lacks a defined state space, wave equation, energy functional, boundary conditions, contact law, transfer operator and formal symmetry action. Status FORMALIZATION_BLOCKED_DEFINITION; no Lean module/run. No data-free physical calculation or invented fixture.
+- No actual measured system, dataset, acquisition provenance, units, calibration, covariance, uncertainty, fit, independent prediction, CODATA comparison or observational validation is present.
+
+### Controls and evidence
+- BEDROCK read in full: 627 lines, blob 527924246cc25caf7fac02dce4b20f024013cd19. Retained ND-2026-11-04-01 signet/provenance exclusivity; ND-2026-10-25-01 real-data-first and prior permission for data-free calculations; BR-007 Mersearch-first/fallback; BR-008 coordinate/readout audit; BR-003 tentative-by-default; ND-2026-10-29 original-statement-first; ND-2026-11-03 geometry-first and incorporation tiers. No contradiction/amendment identified for this source-tag task. No signet used.
+- Steering Charter blob 04822f3e48f746e9e464d893636ed4a670d68683; Three Paper Campaign 2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4; onboarding fe40260cda5ce360909f2adfd64a3cc3e2c92a05; Revival Rotation v3 90863a2a2b82b2d8e37ba1bd9f796389066f5409.
+- Mersearch was not exposed as a tool in this runtime; all four shared request lanes were occupied/nonempty. No request was overwritten or retriggered. Direct immutable-blob retrieval is bounded fallback, not a Mersearch run.
+- Existing public issue #1422 is now PUBLISHED_VERIFIED: publisher comment #6688928090; artifact commit 0ed0cbff5d38fcf704742f1125217f72df4eb09e; SHA-256 719872dfa48f0d6d3fb41a66036fe98bf10f35e623658f81423ddf8642b5da70; exact issue-payload/artifact content match PASS. No duplicate publication for this internal continuation.
+- Lateral reading advanced in SAT archive fun break - lx.txt, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 641–680. Section H added to the existing Loom corpus-tag ledger, blob 08fa0f02d0467d1c9aa95b94ddc214f1c65fbcba; exact readback PASS. Next lateral cursor 681.
+- Code Grurple remains ACTIVE/P0; actual Paper A/B reader routes remain presentation-pending/not observed. P1 Nov 9, P2 Nov 30 and P3 Dec 14 remain separate. Lane 24 H(s)H generation/CODATA remains BACKSEAT/HOLD. FIE rereview is due Nov 10, not yet due.
+
+### Scheduler and next cursor
+- :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its exact original hourly America/New_York :24 schedule. Run d15c23aa-fb8c-832c-b144-54aece34578b was scheduled 18:24Z, started 18:53:26.992097Z, and was still recorded in_progress with chat_ref=null at preflight. Cached h641/Meridian result is not this run.
+- Next corpus node: user aaa2cde7-2625-4acd-ac69-3efc59909aff, index 361, 2024-03-28 06:10:19.285Z; already within 138/138 user-tag coverage. Continue with assistant node bd861191-6499-486e-9c16-7a1ef58396cf at index 362.
+- Aster is next label. Its :36 run 5ebcae0a-3120-8320-b89b-83ca8e893b71 had already started at 18:35:11.936Z, before this handoff could be written. Any packet is late optional context; no task, ownership transfer or response requested.
+- No new task, schedule/phase/cadence change, branch, PR, theory status, BEDROCK amendment, SAT-O/Blockwave equation change, physical calculation or paper-gate advancement.
