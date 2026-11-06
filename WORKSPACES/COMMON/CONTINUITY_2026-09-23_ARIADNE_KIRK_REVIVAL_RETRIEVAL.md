@@ -264,3 +264,16 @@ The older “Newer conversation-tranche hunt” paragraph below still calls `SAT
 **Disposition: EXCLUDED AS THE JANUARY 22 KIRK SOURCE.** The 32-message versus 33-graph-node counts are different counting conventions for the same blob, not evidence of a second export. This is a negative result for this one candidate only, not a global archive-absence proof.
 
 The remaining cursor is the upstream TXT/README/workflow-diagram bundle described by the January 21 derivative SRT and the unresolved raw January 22 Kirk conversation identity/export. The completed Mersearch request's raw result files remain withheld; do not bypass that boundary or repeat this candidate. No new request was submitted and no lane was overwritten.
+
+## Additive correction — 2026-11-06T0013Z: full Library export supersedes the shorter repository snapshot
+
+The current Ariadne README identifies the Library copy `ARIADNE — raw.json` as the authoritative export. This run materialized it only for parsing and verified its SHA-256 and byte length.
+
+- Conversation ID: `6ab339d2-8fb4-83ea-b728-c8001a034371`.
+- Library export: 6,226,127 bytes; SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`.
+- Structure: 1,364 mapping nodes; 1,363 message objects (10 user, 555 assistant, 798 tool) plus one empty root sentinel. Traversal from `current_node` reaches all 1,364 nodes.
+- Latest active-chain message: assistant node `cba44dd5-3e60-4cc1-992a-e4688874a72a` at 2026-09-23T05:35:00.798540Z. Last user message: `cd0471c6-98c5-4efb-b91b-bc314691b141` at 2026-09-23T05:32:34.732Z.
+- The repository raw copy (blob `df9c7a1a...`) is a shorter snapshot: 1,322 mapping nodes; 1,321 messages (8 user, 529 assistant, 784 tool). Its 05:25:58.790Z latest-message / 05:24:42.253Z last-user chronology is valid for that shorter snapshot only, not for the full Library export.
+- This supersedes the earlier use of the shorter repository snapshot as the complete conversation chronology. The ten direct user-role messages support broad archive examination/reproduction permission, an inbox/note request, Tern's scheduler-control authority, a Python-offload study suggestion, and permission to continue; they do not establish a standalone formal specialist charter or authenticate a current Ariadne instance/thread.
+- Existing-thread-first check: personal-context search surfaced no later usable Ariadne thread and no conversation matching the January 21 podcast/Kirk-Riley source-bundle query. The archived source thread remains exhausted. No new chat was created or renamed, and no cross-thread delivery is claimed.
+- This is an export-chronology correction, not new evidence about the character model or its behavior.
