@@ -57,7 +57,7 @@ with
 \[
 L=\frac12 m v^\mu v_\mu-V_{\rm tension}(\gamma).
 \]
-The file calls the worldtube a 4D volume swept by a vibrating filament and assigns intrinsic tension and vibrational dynamics. Its internal authorship is not authenticated as Nathan Direct.
+The file calls the worldtube a 4D volume swept by a vibrating filament and assigns intrinsic tension and vibrational dynamics. It also proposes Hopf-link two-filament and Borromean-link three-filament configurations and claims no stable 4+ interlocks. These are historical module claims, not validated particle-spectrum results. A Hopf link is not a Hopf fibration, and neither should be inferred from the later WWRD climbing-rope heuristic. Its internal authorship is not authenticated as Nathan Direct.
 
 The separate BLOCKWAVE artifact states:
 \[
@@ -138,7 +138,7 @@ The historical assistant's Householder-metric examples, including \(\mathcal R=1
 \frac{(1+|\mathbf v|^2)|\mathbf a|^2-(\mathbf v\cdot\mathbf a)^2}
 {(1+|\mathbf v|^2)^3}.
 \]
-This assumes a Euclidean product metric, \(w\) as parameter, lifted velocity \((\mathbf v,1)\), and lifted acceleration \((\mathbf a,0)\). It is a candidate conditional translation of the direct "3D acceleration is 4D curvature" statement, not a Nathan Direct equation or a physical H(s)H map. The assistant's numerical illustrations used arbitrary values; they are not measured physical data or evidence for the expanding-Minkowski hypothesis.
+This is assistant node 6f2360f0-a954-48db-9df7-cf716ddf7df3, 2026-10-21T23:54:26.655Z. It assumes a Euclidean product metric, \(w\) as parameter, lifted velocity \((\mathbf v,1)\), and lifted acceleration \((\mathbf a,0)\). It is a candidate conditional translation of the direct "3D acceleration is 4D curvature" statement, not a Nathan Direct equation or a physical H(s)H map. The assistant's numerical illustrations used arbitrary values; they are not measured physical data or evidence for the expanding-Minkowski hypothesis.
 
 The current direct convention is \(cw=t\), Forest normalization, and \(++++\). The older \(w=ct\) statement remains a historical convention. The suggested \(\pm(c+H_0)/2\) expression was itself tentative ("or whatever proper expression"); no exact dimensional conversion has been recovered.
 
@@ -211,7 +211,8 @@ No arrow above is an established physical equivalence. A future map must state d
 | Assistant, 2026-10-09 | Adds a carrier curve and a first-order helix around it | Rejected by direct source |
 | Assistant, 2026-10-09 | \(F=mc^2 d^2x/dw^2\) as a worldtube-bending relation | Coordinate restatement only; not intrinsic 4D curvature |
 | Nathan Direct, 2026-10-21 | 3D rotation/acceleration is 4D curvature; expanding-Minkowski is a working hypothesis | Direct proposal, not yet a typed theorem |
-| Assistant, 2026-10-21 | Computes ambient metric curvature for a Householder ansatz | Different curvature object; not a derivation of worldtube curvature |
+| Assistant, 2026-10-21 | Derives a Euclidean affine-lift Gram-curvature formula for X(w)=(x(w),w) | Assistant-origin conditional reconstruction; not a direct source equation |
+| Assistant, 2026-10-21 | Computes ambient metric curvature for Householder metric ansätze | Different curvature object; not a derivation of worldtube curvature |
 
 ## 7. Discrepancy ledger
 
@@ -238,7 +239,7 @@ One conditional Lean module was added to the existing PR #873 branch; no new bra
 - Run #42101085608 completed successfully on the PR merge ref, not an exact-head-only build.
 - The run used Lean 4.34.0 / Lake 5.0.0 and completed 8,954 build jobs.
 - The built modules include WorldtubeInertiaCoordinate, KestrelIntersectionDimensionGate, KestrelMovingSlice, KestrelProjectedIncidence, and KestrelGaugeNormalizationGate.
-- A new conditional module, WorldtubeCurveCurvatureLift.lean, was added to this existing PR branch and imported by HsHVerification.lean. It defines Fin 3/Fin 4 coordinate dot products, the affine lift velocity (v,1), acceleration (a,0), and the Gram-determinant curvature expression. The theorem lifted_gram_curvature_sq_eq proves the algebraic reduction to the assistant-derived formula above. It does not formalize differentiability, arclength, regularity, or the physical H(s)H map.
+- A new conditional module, WorldtubeCurveCurvatureLift.lean, was added to this existing PR branch and imported by HsHVerification.lean. It defines Fin 3/Fin 4 coordinate dot products, the affine lift velocity (v,1), acceleration (a,0), and the Gram-determinant curvature expression. The theorem lifted_gram_curvature_sq_eq states the algebraic reduction to the assistant-derived formula above. It does not formalize differentiability, arclength, regularity, or the physical H(s)H map. The assistant's strict-positivity corollary for nonzero acceleration is not yet formalized.
 - Initial CI run #42152965536 failed because the real-valued division definitions required the noncomputable modifier. The theorem body was elaborated and its axioms were printed, but the module did not build. Both definitions were marked noncomputable and pushed in existing PR-branch commit 1971e3d58a28f7c6de5cf024039dbcedb133121c. Rerun #42153410233 was created 2026-11-06T02:56:02Z and remains IN_PROGRESS; checkout completed and the Lake dependency-manifest step is still running. Status: SUBMITTED_NOT_VERIFIED. Carry the fix commit and run ID forward without creating another PR or duplicate submission.
 
 Formal limits:
