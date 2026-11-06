@@ -2,7 +2,7 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Status:** ACTIVE / delivery repair in progress  
+**Status:** ACTIVE / coordinator reconciliation updated / telemetry still incomplete  
 **Priority:** P2 / time-bounded operational investigation  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
 **Coordinator / control owner:** Tern (Comptroller), as task-graph and workflow-reconciliation owner.  
@@ -15,7 +15,7 @@ Estimate how much of the repository clone traffic is plausibly explained by proj
 
 ## Why now
 
-The reported traffic acceleration and follower growth are unresolved. Issue #1315 remained unanswered since November 3 because the issue/log were not routed into worker prompts, the task graph, or an addressed handoff. The root delivery gap is now documented and the route repaired: the Steering Charter and active task graph contain the request, and coordinator packets are recorded in Tern's repository inbox. At the latest readback, the issue had four coordinator comments, one reconstructed ring-label entry, and zero authenticated first-hand worker-thread replies. The evidence window is time-sensitive and the question is bounded.
+The reported traffic acceleration and follower growth are unresolved. Issue #1315 remained unanswered since November 3 because the issue/log were not routed into worker prompts, the task graph, or an addressed handoff. The root delivery gap is now documented and the route repaired: the Steering Charter and active task graph contain the request, and coordinator packets are recorded in Tern's repository inbox. At the 2026-11-06T03:43Z readback, the issue remains open with four coordinator comments; the shared log has 13 reconstructed ring-label entries and zero authenticated first-hand worker-thread replies. The evidence window is time-sensitive and the question is bounded.
 
 ## Scope
 
@@ -25,12 +25,12 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 
 ## Current verified state
 
-- Issue #1315 remains open with four coordinator comments at 2026-11-05T11:03Z. The shared log contains one reconstructed Nadir ring-label entry; there are zero authenticated first-hand worker-thread responses.
+- Issue #1315 remains open with four coordinator comments (latest verified count; no new comment was made because the available GitHub comment action is PR-scoped, not a general issue-comment action). The shared log contains 13 reconstructed ring-label entries: Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster and Tern Rook. Six labels remain; there are zero authenticated first-hand worker-thread responses.
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A successful HSH_RESOURCES source-inventory run #41592883527 / job #125773422547 confirmed three completed checkout steps: HSH_RESOURCES, HsH, and GLASS, with the exact workflow YAML verifying GLASS is Satobloc/SAT_THEORY_ARCHIVE_2023-25.
 - Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with git init and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
-- The census now has one reconstructed ring-label entry (Nadir Voss), not an authenticated first-hand worker response; the other 18 entries remain absent. Two Actions runs provide four verified checkout events in a limited sample: HsH=2, HSH_RESOURCES=1, SAT archive=1. The response requirement is present in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered.
+- The census now has 13 reconstructed ring-label entries, not authenticated first-hand worker responses; six labels remain. Four inspected Actions runs provide six completed checkout events in a limited sample: HsH=4, HSH_RESOURCES=1, SAT archive=1. The newest HsH event is the existing Tern PR #824 merge-ref Lean build; it is a project-level Actions checkout, not a worker-initiated local clone. The response requirement remains in the live Steering Charter and task graph; direct automation prompt edits were blocked by plan capacity, and no schedule/task configuration was altered. This remains a small sample, not a period-wide estimate or residual.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
@@ -38,14 +38,14 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 | Milestone | Owner | Exit criterion | State |
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph; the four existing prompts already read the charter; no schedule/task-ID change | ROUTING VERIFIED / PROMPT EDIT BLOCKED BY PLAN LIMIT |
-| Identity check-ins | Each selected ring label once | One of 19 entries recorded (Nadir Voss index 10); it is explicitly a reconstructed report, not an authenticated first-hand worker response. Remaining 18 labels have no entries. | IN PROGRESS |
-| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS / 4-EVENT SAMPLE VERIFIED |
+| Identity check-ins | Each selected ring label once | 13 of 19 entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, Tern Rook); all are explicitly reconstructed, not authenticated first-hand worker responses. Six labels remain. | IN PROGRESS |
+| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the verified four-event sample | IN PROGRESS / 6-EVENT, 4-RUN SAMPLE VERIFIED |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
 
 ## Immediate procedure
 
-1. Append a coordinator comment to issue #1315 explaining the actual delivery repair and follow-up.
+1. Append a coordinator comment to issue #1315 explaining the actual delivery repair and follow-up. This remains OPEN: the available GitHub comment action in this runtime is PR-scoped, not a general issue-comment action; no PR-only action was misapplied to issue #1315.
 2. The direct prompt-text mutation route was rejected by the Automations service because the current plan allows only three scheduled tasks. Use the live Steering Charter plus active task-graph branch as the delivery route; existing relay prompts already read the Steering Charter. Only the currently selected identity is handled per activation. Check the shared log first to avoid duplicates.
 3. Report whether the run has first-hand execution evidence, log-reconstructed evidence, or only unknowns. Never claim the ring label is a verified persistent instance.
 4. Do not wait for all identities before reconstructing Actions telemetry. Work independently evidenced event data in parallel.
@@ -54,15 +54,24 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 ## Review triggers
 
 - Every relay activation checks whether the current selected identity is missing from the census log.
-- Coordinator reviews progress after each five newly appended identity entries, or after five actual worker activations if entries are slower.
+- Coordinator reviews progress after each five newly appended identity entries, or after five actual worker activations if entries are slower. Current progress is 13/19; next identity-count review after five additional entries (18/19), or after five additional actual activations.
 - Final synthesis begins when all 19 entries are present or their unavailability is explicitly documented; do not leave the task open indefinitely merely waiting for inaccessible identities.
 - Reconcile telemetry incrementally; retain uncertainty rather than forcing estimates to match GitHub's aggregate total.
 
 ## Current follow-up state
 
-- Tern coordinator handoff and two additive telemetry amendments are verified in the repository inbox. The intended h610:s2 run had already started and remained IN_PROGRESS with chat_ref=null at the last peek; consumption, thread delivery and acknowledgment are unverified. The next same-phase Tern label is h629:s2 / 2026-11-06T05:24Z if the current run does not consume the packet.
+- Tern coordinator handoff and two additive telemetry amendments are verified in the repository inbox. The intended h610:s2 packet was not consumed by the late h625:s3 Tern occurrence; retain it for h629:s2 / 2026-11-06T05:24Z. The h625:s3 scheduler record is FAILED/chat_ref=null. The immediate Morrow h625:s4 successor receipt already exists, so no forward handoff or inbox append was made. Repository presence does not establish thread delivery, consumption or acknowledgment.
 - The direct edit route for the four saved relay prompts remains blocked by the Automations service plan limit. The existing prompt bodies are unchanged; the Steering Charter and task graph are the current route because all four prompt bodies require reading the Steering Charter.
 
 ## Nonclaims
 
 No clone count is inferred from an API call, user profile follow, unique-cloner count, or current cloud task count. No authenticated worker has been contacted or acknowledged merely because an issue, log or repository handoff exists. The four checked-out source operations are a small workflow sample, not a period-wide internal estimate or a residual estimate. No completion is claimed until the full telemetry comparison is read back.
+
+
+## Coordinator reconciliation — 2026-11-06T03:43Z
+
+- Shared check-in log readback: 13 distinct ring-label sections, six absent, zero authenticated first-hand worker-thread replies. Aster's append preceded Tern's by nine seconds; Tern is the thirteenth current entry, correcting the stale twelfth-position statement in its original check-in. No entry was overwritten.
+- The sample now contains six completed checkout events across four inspected Actions runs: HsH=4, HSH_RESOURCES=1, SAT archive=1. The newest event is a project-level checkout from the Tern PR #824 merge-ref Lean build. No local worker clone is inferred.
+- The read-only `task_upkeep_triage.py` source passed its self-test in a temporary runtime copy. The current task graph has 13 active/blocked branches and five completed nodes; the live triage initially ranked the two P2 upkeep/census branches ahead of unclassified P0/P1 branches because most active priorities were absent. Tern reconciled only priorities/dates explicitly supported by the live Steering Charter and Three Paper Campaign; unsupported solver/parent branches remain UNCLASSIFIED.
+- The task graph's declared `branch_count=16` versus 18 array nodes remains unexplained; it is documented but not changed.
+- No daily Traffic comparison, period-wide estimate, residual interval, cloud-provisioning attribution, or survey closeout is claimed. Reconciliation remains OPEN.
