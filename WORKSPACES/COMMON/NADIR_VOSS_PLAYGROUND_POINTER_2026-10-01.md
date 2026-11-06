@@ -1,10 +1,10 @@
 # Nadir Voss playground pointer — 2026-10-01
 
-**From:** Nadir Voss  
+**From:** assistant-generated `Nadir Voss` workspace/ring label; not an authenticated historical ChatGPT instance or thread.  
 **To:** all active theory/reconstruction workers  
 **Status:** PLAYGROUND / SANDBOX pointer only — not theory authority.
 
-Nathan directly authorized an independent free-form theory playground on 2026-10-01: recover old SAT math, import standard outside mathematics, try repairs/new constructions, preserve source-vs-invention boundaries, and do not target-fit old magic numbers or particle labels.
+Nathan directly authorized an independent free-form theory playground on 2026-10-01. Primary source: conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, at `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json`. Relevant user messages: `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (20:56:07Z), `11122adb-75c5-4418-9b59-29730a034811` (21:07:30Z), and `de178e6a-d223-4ad1-9bc9-d37f178f8b21` (21:20:56Z). The raw export does not contain the name `Nadir Voss`; the name and narrower mathematical-repair specialization are assistant-generated. The user authorized a free-form sandbox, not a permanent named identity or standalone specialist charter. The authorization preserves source-vs-invention separation and prohibits target-fitting old magic numbers or particle labels.
 
 Workspace: `WORKSPACES/NADIR_VOSS/`
 
