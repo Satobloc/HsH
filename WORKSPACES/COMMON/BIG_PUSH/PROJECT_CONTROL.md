@@ -96,14 +96,14 @@ Continue the primary May 28 conversation transcript sequentially:
 
 **Source:** `FREEFORM DISCUSSION/ChatGPT_28MAY25_MEMORY.txt`  
 **Source blob:** `3126a00cd02d715f7b53ea481b8cf60e7f9b6321`  
-**Read:** lines 1–800  
-**Next cursor:** lines 801–1000  
-**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-601-800.md`  
+**Read:** lines 1–1000  
+**Next cursor:** lines 1001–1200  
+**Latest durable read record:** `WORKSPACES/COMMON/BIG_PUSH/HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-801-1000.md`  
 **Method:** read the original transcript in order, preserving user/assistant turns and exact local context; record design intentions, corrections, decisions, mode activations, referenced workbook instructions, and linked artifacts. Do not skip ahead to later summaries.
 
 ### Latest tranche findings
 
-Lines 201–800 develop an early experimental-research thread involving acoustic/optical birefringence, low-cost interferometry, the Canon Rebel T6s, antique-camera/darkroom equipment, lens stacks, bellows, film, and possible UV/visible comparisons. The historical assistant repeatedly overlays SAT terminology onto ordinary optical/material phenomena without deriving a unique SAT signature. The proposed 0.24-radian target remains unsupported in the inspected ranges. Nathan explicitly asks how to distinguish any SAT residual from familiar optics and what non-reversibility means operationally. Preserve these as historical research leads, not established SAT predictions or validated protocols. Define observables and reversals precisely; calibrate ordinary effects and instrumentation before testing an independently derived SAT-specific residual. See the linked tranche records for attribution and details.
+Lines 201–1000 develop an early experimental-research thread involving acoustic/optical birefringence, low-cost interferometry, camera and darkroom equipment, lens stacks, bellows, film, UV/visible comparisons, and a proposed rotating music-box platform. The historical assistant repeatedly overlays SAT terminology onto ordinary optical/material phenomena without deriving a unique SAT signature. The proposed 0.24-radian target remains unsupported. Nathan explicitly asks how to distinguish SAT residuals from familiar optics and proposes a concrete apparatus using a glass-topped music box, large lens, film, and selectable lighting. Preserve this as an experimental-design lead, not a validated SAT detector: long-exposure film integrates intensity, not optical phase by itself, and phase requires a defined phase-sensitive readout. Calibrate ordinary optics, mechanics, illumination, and film response before testing an independently derived SAT residual. See the tranche records for attribution and details.
 
 ## Succession protocol
 
@@ -124,6 +124,7 @@ A successor must read the source documents named in the packet, not rely solely 
 - 2026-11-05: Initial project control created after first archive search, current-control review, and bounded historical reading. No institutional design selected; no recurring task or schedule changed.
 - 2026-11-05: BP-HIST-001 advanced through May 28 transcript lines 201–600; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-201-600.md`; next cursor 601–800. No scheduler change.
 - 2026-11-05: BP-HIST-001 advanced through lines 601–800; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-601-800.md`; next cursor 801–1000. No scheduler change.
+- 2026-11-05: BP-HIST-001 advanced through lines 801–1000; created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-801-1000.md`; next cursor 1001–1200. Recorded Nathan's music-box apparatus proposal separately from historical assistant speculation; flagged the phase-versus-intensity measurement gap. No scheduler change.
 
 
 ## Continuity and recurrence scaffold — 2026-11-05
@@ -144,7 +145,7 @@ The following repository-backed scaffold is now present:
 
 **Protection:** no task ID, schedule, phase, or enabled-state change; no new automation. An additive prompt overlay to the existing :00 task is the only scheduler change, authorized by Nathan's 2026-11-05 directive. The task's pre-existing geometry/archive remit and all standing governance rules remain in force when the heartbeat is fresh.
 
-The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor remains the May 28, 2025 transcript, lines 201–400. No institutional design has been selected.
+The heartbeat is initialized to 2026-11-05T05:02:00-05:00. The active cursor is the May 28, 2025 transcript, lines 1–1000; next range 1001–1200. No institutional design has been selected.
 
 
 ### Scheduler state verified on 2026-11-05
