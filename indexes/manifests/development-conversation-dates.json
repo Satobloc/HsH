@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-11-06T10:30:28.287164+00:00",
+  "generated_at_utc": "2026-11-06T10:34:02.286601+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 882,
-    "skipped": 414,
-    "renamed": 5
+    "unchanged": 887,
+    "skipped": 414
   },
   "records": [
     {
@@ -2335,6 +2334,26 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-16T01:27:51.776406-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 317,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "start_local": "2026-09-10T11:49:18.426980-04:00",
+      "end_local": "2026-09-12T12:03:41.431286-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 290,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json",
       "start_local": "2026-09-20T12:16:08.508784-04:00",
@@ -2485,16 +2504,6 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/H(s)H Archive Audit — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
-      "start_local": "2026-09-10T11:49:18.426980-04:00",
-      "end_local": "2026-09-12T12:03:41.431286-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 290,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming A New Feeling — raw (3).txt",
       "new_path": null,
       "start_local": null,
@@ -2517,16 +2526,6 @@
       "warnings": [
         "Extra data: line 20 column 14 (char 647)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/⚗️ CALDER [Construction Story Retelling] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json",
-      "start_local": "2026-08-26T05:11:22.113566-04:00",
-      "end_local": "2026-09-16T01:27:51.776406-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 317,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.05.28•25.08.11•[+] ACTIVATOR HoloJesu - raw.json",
@@ -8811,6 +8810,26 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.05.12•25.05.12•ChatGPT Einstein Dirac Model — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.05.12•25.05.12•ChatGPT Einstein Dirac Model — raw.json",
+      "start_local": "2025-05-12T00:01:30.431000-04:00",
+      "end_local": "2025-05-12T00:37:01.041527-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 44,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "start_local": "2025-10-07T16:22:44.478693-04:00",
+      "end_local": "2026-09-12T17:36:41.955000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 160,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
       "start_local": "2026-09-12T21:37:57.274539-04:00",
@@ -8861,6 +8880,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.10.01•26.10.05•Write Unicode Spreadsheet Script — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.10.01•26.10.05•Write Unicode Spreadsheet Script — raw.json",
+      "start_local": "2026-10-01T13:01:48.947000-04:00",
+      "end_local": "2026-10-05T12:32:18.888453-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 74,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json",
       "new_path": null,
       "start_local": null,
@@ -8907,16 +8936,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ChatGPT Einstein Dirac Model — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.05.12•25.05.12•ChatGPT Einstein Dirac Model — raw.json",
-      "start_local": "2025-05-12T00:01:30.431000-04:00",
-      "end_local": "2025-05-12T00:37:01.041527-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 44,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Criticality, Complexity, and the Polymath Paradigm__NotebookLM_export.json",
@@ -9001,16 +9020,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Interstellar object A11pl3Z — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
-      "start_local": "2025-10-07T16:22:44.478693-04:00",
-      "end_local": "2026-09-12T17:36:41.955000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 160,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/META SOLENOID__NotebookLM_export.json",
@@ -9347,16 +9356,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Write Unicode Spreadsheet Script — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.10.01•26.10.05•Write Unicode Spreadsheet Script — raw.json",
-      "start_local": "2026-10-01T13:01:48.947000-04:00",
-      "end_local": "2026-10-05T12:32:18.888453-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 74,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ₕHˢ__NotebookLM_export.json",
