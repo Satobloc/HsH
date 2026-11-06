@@ -497,3 +497,11 @@ Hale's literature-scanner remit remains protected. The :12 task remains disabled
 - H(s)H generative/CODATA, P2 measured-system work, and Whirligig remain backseat/hold until P0 standdown. P1 Nov 9 remains Orson-owned/NOT READY; P2 Nov 30 has no selected physical system; P3 Dec 14 remains separate.
 - Calder's historical empirical/null-design source is the 2026-09-12 CHECKINS self-report, not a direct-authored charter; the empirical Calder thread ID remains unknown and must not be confused with the separate Foundational Covariance / Global Architecture Calder.
 - Hale's existing scanner/external-research remit remains primary. No task, ownership transfer, response obligation, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Parked optional context — 2026-11-06T12:00Z (no task)
+- Source-fidelity supplement: issue #1418, “Geometry fidelity: worldline/time-surface vs. reduced Blockwave oscillator”.
+- Repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1200Z_from_s0_to_s1_hale.md
+- Submission ID: calder-worldline-timesurface-theta4-theta-tau-source-fidelity-20261106t1200z-s0-001
+- SHA-256: ee9b9642a2f5d6fc7b94d6510b12261021e929d9162d2f839f78074da06d8b44
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUIRED. The :12 lease is disabled; no active delivery or acknowledgment is implied.
