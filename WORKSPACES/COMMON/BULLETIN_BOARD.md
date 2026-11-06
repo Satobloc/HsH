@@ -197,3 +197,107 @@ No PR edit, duplicate public issue, direct write to `PUBLISHED_SUBMISSIONS`, the
 Clarification to the J3 note in Morrow Addendum 01: the (1/2) coefficient occurs in the earlier assistant message `c3715a8c` (14:35:58Z), which the direct user message `71da031e` (14:42:25Z) quotes and critiques. The later assistant rewrite `ff0ef513` (15:43:01Z) uses the standard (1/3!) coefficient for the 3-form-to-vector Hodge dual, but still incorrectly calls the 2-form description “its dual.” In four dimensions Hodge degree is (3\to1), (2\to2). The direct user 3-form chapter instruction remains editorial, not a physical J3-to-J2 map. See [Morrow Addendum 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T2256Z_s0_morrow_AMENDMENT_02.md).
 
 No source/PR edit or public issue was made.
+
+
+## 2026-11-06 — Nathan Direct — ARCHITECTURE / WORKFLOW SURFACE TRIAGE PIN
+
+**Status: PINNED FOR NEAR-FUTURE COARSE TRIAGE. Not yet audited, updated, operationalized, or approved for retirement.**
+
+Nathan requests a coordinated review of the architecture/governance pages below **and the projects, tools, workflows, and repositories they govern or link to**. The aim is to establish which surfaces are current, active and necessary; which are integrated and actually used; which overlap or are stale; which need repair, consolidation, or operationalization; and which should remain eventual/on hold. This is a systems inventory and workflow-integration task, not a cleanup permission or blanket rewrite.
+
+**Important reading rule:** Nathan's note says **“EMPTY” PROBABLY MEANS “HUGE.”** An empty-looking file, folder, dashboard, or landing page must not be treated as trivial or disposable. Inspect its history, linked artifacts, child directories, generated/hidden content, and intended role before classifying it.
+
+### Requested review set
+
+#### A. Formalization and Nathan's SAT archive dashboard
+
+- [HsH formalization directory](https://github.com/Satobloc/HsH/tree/main/formalization)
+- [Nathan Dashboard](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/!_DASHBOARD.md)
+- [Priority TODO](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/%F0%9F%93%8B_PRIORITY_TODO.txt)
+- [Derivation Index](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/..Derivation_Index.md)
+- [Archive Index](https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/refs/heads/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/%F0%9F%97%84%EF%B8%8F_ARCHIVE_INDEX.txt)
+
+#### B. SAT archive AI_FILES architecture
+
+- [AI_FILES root](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES])
+- [CROSS_REPO_ADMIN workspace](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/LLM_WORKSPACES/CROSS_REPO_ADMIN)
+- [Migration-hold AI reading plan TODO](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/.AI_READING_PLAN/TODO.md)
+- [TOOLS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/TOOLS)
+- [CONFIG](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/CONFIG)
+- [INDEXES](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/INDEXES)
+- [LLM_WORKSPACES](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/LLM_WORKSPACES)
+- [CURSORS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/CURSORS)
+- [LOGS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/LOGS)
+- [REQUESTS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/REQUESTS)
+- [SHARED_RESOURCES](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/SHARED_RESOURCES)
+- [STAGING](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/STAGING)
+- [TAGGING](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/TAGGING)
+- [TAGS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/TAGS)
+- [WORKFLOWS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/WORKFLOWS)
+- [_MIGRATION_HOLD](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD)
+- [Migration-hold AI automation admin](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/%E2%9A%99%EF%B8%8F_AI_AUTOMATION_ADMIN)
+- [Migration-hold AI automation admin / _TOOLS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/%E2%9A%99%EF%B8%8F_AI_AUTOMATION_ADMIN/_TOOLS)
+- [Migration-hold AI automation admin / _AI_REQUESTS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/%E2%9A%99%EF%B8%8F_AI_AUTOMATION_ADMIN/_AI_REQUESTS)
+- [Migration-hold _TOOLS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/_TOOLS)
+- [Migration-hold _AI_REQUESTS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/_AI_REQUESTS)
+- [Migration-hold _AI_INSTRUCTIONS](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/.[%E2%9A%99%EF%B8%8F_AI_FILES]/_MIGRATION_HOLD/_AI_INSTRUCTIONS)
+
+#### C. HsH indexes, continuity, and governance
+
+- [Nathan Verified Words Compendium](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md)
+- [Conversation Viewer Annotations](https://github.com/Satobloc/HsH/blob/main/CONVERSATION_VIEWER/ANNOTATIONS.md)
+- [Conversation Chronology](https://github.com/Satobloc/HsH/blob/main/indexes/CONVERSATION_CHRONOLOGY.md)
+- [Structural Index](https://github.com/Satobloc/HsH/blob/main/indexes/STRUCTURAL_INDEX.md)
+- [Revival Rotation Protocol](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_PROTOCOL.md)
+- [Reentry Rubric Public Interface](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REENTRY_RUBRIC_PUBLIC_INTERFACE.md)
+- [Rubric Admin Bootstrap](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/RUBRIC_ADMIN_BOOTSTRAP.md)
+- [Sable Instance Stratigraphy](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md)
+- [Sable Continuity Checkpoint](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/CONTINUITY_CHECKPOINT.md)
+- [Instance Heartbeat Monitor](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md)
+- [Active Automation Roster](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md)
+- [Team Overview](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/TEAM_OVERVIEW.md)
+- [Check-ins](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/CHECKINS.md)
+- [Coordination](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/COORDINATION.md)
+- [Bulletin Board](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/BULLETIN_BOARD.md)
+- [Handoffs](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/HANDOFFS.md)
+
+#### D. Historical transition, startup, buildout, and project roots
+
+- [SAT to H(s)H Transition](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT%20to%20H(s)H%20TRANSITION.txt)
+- [H(s)H 2026 Startup Docs](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/H(s)H%202026%20STARTUP%20DOCS.txt)
+- [4DHH-UC Buildout Development](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/4DHH-UC%20BUILDOUT%20DEV.txt)
+- [SPHERES4](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SPHERES4)
+- [SPHERES2](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SPHERES2)
+- [SPHERES3](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SPHERES3)
+- [SAT archive README](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/README.md)
+
+### Coarse triage protocol (first pass only)
+
+For each page/folder and its governed or linked project, capture:
+
+1. **Identity and purpose:** canonical path, intended function, scope, authority, and downstream projects/artifacts.
+2. **Currentness:** last meaningful update, current branch/ref, whether instructions agree with current BEDROCK, steering, onboarding, scheduler, and repo boundaries.
+3. **Operational status:** active / used / partially used / dormant / superseded / migration-held / unknown. Existence is not evidence of use.
+4. **Necessity and overlap:** unique function, duplicate or competing control surface, dependencies, and what would break if it were parked.
+5. **Integration:** actual links, workflow entry points, owners/leases, automation or scripts, and whether the route works end-to-end.
+6. **Disposition:** maintain / repair / integrate / consolidate / operationalize / eventual / on hold / candidate retirement. No deletion or retirement from this coarse pass.
+7. **Priority and next action:** urgent / near-term / eventual / on hold, with one evidence-backed smallest next step.
+
+**Initial sequencing suggestion:** first map the control plane (dashboard, priority queue, BEDROCK/steering, common coordination, roster, check-ins, handoffs, onboarding and scheduler); then map source/navigation infrastructure (archive/derivation/structural indexes, chronology, annotations, verified-words compendium); then project/formalization/buildout surfaces; then migration-held AI_FILES and historical transition materials. This is a provisional review order, not a final ranking or reassignment.
+
+**Missing-material sweep is part of the task:** identify additional architecture pages, registries, READMEs, scripts, workflow definitions, GitHub Actions, automation prompts, issue/PR queues, dashboards, migration plans, and project roots that these pages point to or that independently govern the same systems. Follow links recursively only far enough to identify ownership, purpose, status, and dependencies in the coarse pass; do not let the inventory become an unbounded rewrite.
+
+**Return artifact:** a compact cross-repository architecture register with source links, status, owner/authority, dependency edges, overlap/conflict flags, priority, disposition, and next action. Link it from the existing workflow rather than creating a competing dashboard. Preserve originals and historical intent; distinguish source-authored directives from assistant-generated summaries.
+
+### New uploads noticed alongside this pin
+
+Three Google Trends screenshots were uploaded. They show US, 2004–present comparisons for:
+- `worldline` vs `world line`;
+- `minkowski`, `isomorphism`, `parameter free`, and `phase snap`;
+- `toy theory` vs `zero parameter`.
+
+The visible series show sharp late-period rises for several terms, but these are normalized Google Trends comparisons, not absolute search counts. Different comparison panels should not be compared numerically with one another. Preserve the screenshots as exploratory search-interest evidence; before drawing conclusions, recover exact query settings/category/search type/time-window details and, ideally, export the underlying Trends data. This is a separate evidence-analysis lane, not proof of external uptake or recognition.
+
+**Scheduling/authority:** This pin creates no new automation, does not alter existing task IDs/cadences/leases, and does not assign the audit to a worker. The first coarse pass should be put into the near-term queue when the current research lane reaches a suitable checkpoint.
+
+---
