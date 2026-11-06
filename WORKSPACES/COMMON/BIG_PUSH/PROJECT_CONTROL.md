@@ -97,9 +97,9 @@ GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at m
 **Source:** `MISC/HoloJesu export (exact title in source-variant record)` in `Satobloc/SAT_THEORY_ARCHIVE_2023-25`  
 **Blob SHA:** `afa778c23eb439caf707b618ec0e59304d321c0b`  
 **Length:** 6,307 lines  
-**Read:** lines 1–5800  
-**Next cursor:** lines 5801–6000  
-**Latest durable record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-5601-5800.md`
+**Read:** lines 1–6000  
+**Next cursor:** lines 6001–6200  
+**Latest durable record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-5801-6000.md`
 
 The 4,651-line memory export and 6,307-line HoloJesu export share a common prefix of 4,550 lines after normalizing the speaker label `Nathan McKnight:` to `You said:`. Lines 201–400 match 197/200 lines; lines 401–600 and 601–800 match 200/200 lines each. Continue range-by-range and identify substantive divergence, additions, omissions, and attachment differences. Do not assume either export is a complete superset.
 
