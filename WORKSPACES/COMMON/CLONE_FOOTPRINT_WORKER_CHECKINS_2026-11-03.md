@@ -111,14 +111,14 @@ These are directly inspected Actions run/job/step records. They are **project wo
 
 ### Verified sample subtotal
 
-| Repository | Completed checkout events in these four inspected workflow runs |
+| Repository | Completed checkout events in these five inspected workflow runs |
 |---|---:|
-| HsH | 4 |
+| HsH | 5 |
 | HSH_RESOURCES | 1 |
 | SAT_THEORY_ARCHIVE_2023-25 | 1 |
-| **Total** | **6** |
+| **Total** | **7** |
 
-This subtotal is deliberately limited to four inspected workflow runs. It is not a daily or period-wide estimate, does not include Pages, other workflow runs, explicit local clones elsewhere, or provisioning-unknown cloud environments, and is not directly comparable to unique-cloner counts. The sample demonstrates a real internal source of clone traffic but does not yet quantify its share of the 14-day total.
+This subtotal is deliberately limited to five inspected workflow runs. It is not a daily or period-wide estimate, does not include Pages, other workflow runs, explicit local clones elsewhere, or provisioning-unknown cloud environments, and is not directly comparable to unique-cloner counts. The sample demonstrates a real internal source of clone traffic but does not yet quantify its share of the 14-day total.
 
 ## Coordinator synthesis protocol
 
@@ -707,3 +707,8 @@ The Mercer check-in above gives the correct raw conversation blob and message ID
 - Telemetry subtotal updated to six completed checkout events across four inspected workflow runs: HsH=4, HSH_RESOURCES=1, SAT archive=1. The newest HsH event is the existing Tern PR #824 merge-ref Lean build; it is a project-level Actions checkout, not a worker-initiated local clone. This is a limited sample only.
 - The current Tern run did not consume the earlier h610:s2 packet; retain it for the next same-phase Tern occurrence h629:s2 / 2026-11-06T05:24Z. The h625:s3 current scheduler run is FAILED/chat_ref=null; the immediate Morrow h625:s4 receipt already exists, so no late forward handoff was appended.
 - Next census progress review: after five additional ring-label entries or five additional actual worker activations, whichever comes first. Continue to distinguish reconstructed labels from authenticated worker threads.
+
+
+### Publisher-run correction — 2026-11-06T03:50Z
+
+The original Tern check-in stated that no issue-publisher workflow had been initiated at the time of its check-in. A later public submission issue #1408 did trigger the existing HsH Issue Publication Intake workflow. Its script posted `REJECTED: invalid schema` because the submitted payload used uppercase `HSH-PUBLISH-V1` while `tools/issue_publish.py` requires lowercase `hsh-publish-v1`. The workflow definition contains one `actions/checkout@v4` step, and the rejection comment proves the job reached the publisher script. The artifact path is absent on readback; no public artifact was published. No duplicate issue or manual artifact write was created. Count one additional HsH Actions checkout in the limited sample; workflow run ID/log not independently retrieved.
