@@ -30,6 +30,6 @@ At the next Mercer appearance, retain independent A/B QA and check only for a ge
 - Recipient inbox: WORKSPACES/MERCER/INBOX.md.
 - Recipient thread: UNKNOWN; the :36 automation's task-level conversation ID is not authentication of a historical Mercer thread.
 - chat_delivery_state=UNAVAILABLE.
-- fallback_delivery_state=PENDING_READBACK.
+- fallback_delivery_state=VERIFIED_REPO_PACKET.
 - recipient_consumption=NOT_CLAIMED.
 - acknowledgment=NOT_CLAIMED.
