@@ -26,7 +26,7 @@ Mercer's existing inbox entry:
 
 Meridian's current-work card:
 `WORKSPACES/MERIDIAN/CURRENT_WORK.md`
-- Final blob after timestamp, scheduler and latest-main corrections: `f5b698a17bdc4bbd94f58a73036e62bf18e609cd`.
+- Final blob after timestamp, scheduler and latest-main corrections: `0fc1d29be75d4b7dbc7322b98b1cc1d3d1569af6`.
 
 The receipt, handoff, inbox entry and current-work card were independently fetched after their writes. Repository delivery is verified. No cross-thread ChatGPT delivery, recipient consumption or acknowledgment is claimed.
 
@@ -45,3 +45,6 @@ Whirligig proof triage: the direct “multiple valid answers” instruction is a
 ## Final receipt/readback reconciliation
 
 The parent receipt's final blob after tightening the write-route evidence wording is `b6ce9e34fb4f9950f4fef9e62720f8a7f351c2ac`. It was fetched again after the update. The final current-work, handoff and Mercer inbox blobs are listed above and were independently fetched; the addressed inbox entry records `github_inbox_delivery=VERIFIED`. No chat delivery, recipient consumption or acknowledgment is claimed.
+
+
+A second automatic discovery-docket commit, `3d30b8d9f9fd39eaa959dc2c5b1e223a8ffa0fe4` at 13:51:54Z, also changed only `PUBLIC_SITE/generated/discovery.json`. It is the same `NON_TRIGGER_UNRELATED_DISCOVERY_REFRESH` class, not an A/B observation trigger. Meridian's current-work blob is now `0fc1d29be75d4b7dbc7322b98b1cc1d3d1569af6`.
