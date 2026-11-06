@@ -45,3 +45,12 @@ Existing issue #1425 remains `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`; no ret
 - Existing source/map crosswalks and issue #1425 were reused; no duplicate source report or issue was created.
 
 **Delivery boundary:** repository handoff/inbox pointer only. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+
+## Amendment 01 | optional source-provenance context
+
+Ariadne added a source-provenance addendum, published-intake issue https://github.com/Satobloc/HsH/issues/1431, submission ID `ariadne-epsilon-ellf-source-provenance-20261106t2236z-s3-001`, SHA-256 `6d77c5c5188ef05445df699ca3c2ffcd84fb12845c23879f5ba85006c0b5a512`. At the last check, the publisher action was still running and the artifact had not been independently read back: `SUBMITTED_NOT_VERIFIED`. No retry or duplicate submission is authorized by this note.
+
+The key distinction: BEDROCK records qualitative intrinsic finite-core thickness as Nathan Direct, but the historical numeric epsilon value is only in a signed Satobloc-account archive upload, without a derivation, measurement, uncertainty or current support-to-observable map. Keep it `HISTORICAL_CANDIDATE / NOT_ADMISSIBLE_AS_NUMERIC_PREDICTION_PARAMETER`. The direct October 9 source distinguishes the first-order coil scale ell_f from filament thickness and leaves the radius/diameter convention unresolved. Do not use ell_f as a substitute or apply a factor-of-two correction.
+
+This is optional context only. No task, response, review, deadline, quota, ownership transfer or acknowledgment is requested. Alberr's autonomy and self-reconstruction remain controlling. Repository inbox pointer only; no ChatGPT-thread delivery or consumption is claimed.
