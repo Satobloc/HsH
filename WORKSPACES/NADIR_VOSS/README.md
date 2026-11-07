@@ -106,3 +106,6 @@ See `2026-11-07_SOURCE_GROUNDED_REGENERATION_SEED.md` for the current source-fir
 
 - `2026-11-07T1124Z_SOURCE_AND_PROOF_STATUS_AUDIT.md` is the current source/proof reconciliation: no standalone Nathan-authored Nadir charter or authenticated current thread; old SAT archive composite is not an original equation source; PR #1189 exact-head CI was reverified (run #42114292197, 8,954 jobs, zero `sorryAx`/bare `admit`, with tests/lint/nanoda/global axiom audit skipped); no new physical calculation, P2 selection, or duplicate publication.
 - Unrelated reading advanced `SAT Mark V/TheTANGLE.txt` lines 1401–1440; next cursor 1441. FIE review remains due 2026-11-10, not this run.
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1124Z_s2_nadir_voss.md` (blob `acd004c29c35d466748420e70a635c5f785f56f3`).
+- Late optional Enheduanna handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1124Z_from_s2_to_s3_enheduanna.md` (blob `a822801df8bbbc3130a27bbe829693a458e5376b`); h659:s3 already completed, so retain for h678:s3 only if useful. Enheduanna inbox append independently read back (blob `7aae044b4487df09900e6c3e3374d52385c31d06`).
