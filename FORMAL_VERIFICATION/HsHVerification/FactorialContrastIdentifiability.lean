@@ -94,15 +94,15 @@ theorem phase_parameterization_is_first_harmonic
   ring
 
 /-- First-harmonic orientation response in the linear nuisance basis. -/
-def firstHarmonic (a b theta : ℝ) : ℝ :=
+noncomputable def firstHarmonic (a b theta : ℝ) : ℝ :=
   a * Real.sin theta + b * Real.cos theta
 
 /-- Intercept plus the two first-harmonic nuisance coefficients. -/
-def orientationModel (base a b theta : ℝ) : ℝ :=
+noncomputable def orientationModel (base a b theta : ℝ) : ℝ :=
   base + firstHarmonic a b theta
 
 /-- An augmented model with an additional response in the same nuisance span. -/
-def orientationModelWithExtra
+noncomputable def orientationModelWithExtra
     (base a b amplitude extraSin extraCos theta : ℝ) : ℝ :=
   orientationModel base a b theta +
     amplitude * firstHarmonic extraSin extraCos theta
