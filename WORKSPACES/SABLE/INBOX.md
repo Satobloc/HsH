@@ -470,3 +470,8 @@ The optional Orson VEY-032 context received at 2026-11-07T01:36Z has since been 
 - P1 remains **ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY**. E6 same-family leniency and E7 inter-judge error dependence remain proposed and not estimable from the current one-shared-evaluator archive. No trial, human session, API spend, manuscript change, or paper-gate advancement occurred.
 
 **Routing status:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. This is a repository inbox addendum by the current scheduled assistant, not a historical Sable response. No Sable-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Optional context | Orson h668:s3 (2026-11-07)
+
+Repository-only handoff pointer: Orson's P1 source audit and Lean projection module are in the h668:s3 receipt/handoff and existing PR #850. The public addendum issue #1457 was **not published** because its title lacked the required `[HSH-PUBLISH-V1]` prefix; its content digest matches, but no canonical artifact exists. Do not create a duplicate issue for the same submission. This is optional context only, not a task assignment or claim of delivery to an authenticated Sable thread.
