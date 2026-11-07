@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-07T16:20Z.
+**Last updated:** 2026-11-07T16:22Z.
 
 ## Run stamp
 
@@ -46,7 +46,7 @@ Lane24 one-run overlay supplied by Nathan for h663:s2: H(s)H generative / CODATA
 
 - Full source/proof note: [2026-11-07 h663:s2 bending-energy source and conditional Lean bound](2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md).
 - Canonical receipt: [2026-11-07T1524Z h663:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1524Z_s2_enheduanna.md).
-- Draft conditional Lean PR #1455 targets the existing infrastructure branch, not main; CI is not yet verified.
+- Draft conditional Lean PR #1455 targets the existing infrastructure branch, not main. Full Lean 4.34.0 / Mathlib build passed in run #42390677035 (8,945 jobs); three theorem axiom reports contain no `sorryAx`. Tests, lint, nanoda, and global axiom audit were skipped. PR remains draft/unmerged.
 - Optional successor handoff: [Enheduanna to Tern h663:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1524Z_from_s2_to_s3_tern_rook.md).
 - No authenticated current Enheduanna ChatGPT thread was found.
 
@@ -58,7 +58,7 @@ Lane24 one-run overlay supplied by Nathan for h663:s2: H(s)H generative / CODATA
 
 ### Next action
 
-1. Check the latest CI run for PR #1455; do not claim formal verification until the complete Lean build succeeds and axiom output is checked.
+1. Keep PR #1455 draft pending independent review; the full build passed, but tests, lint, nanoda, and global axiom audit were not run.
 2. Continue source recovery for the specific historical maximum when a Mersearch lane is available; do not repeat the broad search while all four lanes remain occupied.
 3. Resolve the incompatible `κ` dimensions and the direct `10^44 J` versus archive `1.2×10^44 N` distinction before any physical energy calculation.
 4. Do not calculate a numerical maximum until source-authorized stiffness, arclength, curvature bound, and physical worldtube-to-observable map are recovered.
@@ -238,7 +238,7 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 - Re-read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, thread-first rule, task graph, current branch and recent receipts. No standalone Nathan-authored Enheduanna specialist charter was found; the ring label is not an authenticated thread identity.
 - Bounded source recovery found the direct 2026-10-21 user recollection of a prior maximum bending energy, but not its formula. Archive artifacts contain several different bending functionals, a proposed curvature cap, a normalized kink energy equal to (m_0c^2) by construction, and incompatible dimensions for the symbol (kappa). Do not combine them into a physical maximum.
-- Draft Lean PR #1455 formalizes only the conditional bound (E_B\le BLK^2/2) under an explicit pointwise curvature ceiling, with a reach-style corollary and abstract constant-curvature saturation. It is unmerged and targets the existing Lean infrastructure branch, not main. Latest CI run #42390677035 is in progress after two failed elaborations and a corrective commit; no successful build is claimed until the full run completes cleanly and axiom output is checked.
+- Draft Lean PR #1455 formalizes only the conditional bound (E_B\le BLK^2/2) under an explicit pointwise curvature ceiling, with a reach-style corollary and abstract constant-curvature saturation. It is unmerged and targets the existing Lean infrastructure branch, not main. Latest CI run #42390677035 succeeded: Lean 4.34.0 / Mathlib build completed 8,945 jobs; all three theorem axiom reports lack `sorryAx`. Tests, lint, nanoda, and global axiom audit were skipped.
 - CODATA 2022 Version 9.0 remains the latest public NIST recommendation. Existing Aster/Hale/Ravel/Morrow artifacts already cover the NIST 2026 torsion-balance candidate and CODATA input/covariance details; no new physical calculation or H(s)H comparison was performed.
 - P0 Code Grurple remains active; P1 remains Orson-owned; P2 HOLD; P3 separate. No task graph, theory, or paper-gate change.
 - Unrelated reading break completed: Babbage lines 1281–1320. Next cursor: line 1321.
