@@ -4,7 +4,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-07 16:10 ET (append-only h668:s4 systems/control-plane overlay; historical core retained)
+**Last material update:** 2026-11-07 16:15 ET (append-only h668:s4 systems/control-plane overlay; historical core retained)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -543,7 +543,7 @@ Issue #1443 completed publisher run #42342194876 SUCCESS. Publisher comment #670
 ## 2026-11-07T2048Z — h668:s4 current systems/control-plane overlay
 
 **Selection:** h=668, seq=3344, Sable index 0; next Loom h669:s0.  
-**Execution:** :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged. Run b8788215-5358-8327-91cf-9a56ef98a7fb was scheduled 20:48Z, started 20:51:40.890824Z, and remained IN_PROGRESS with chat_ref null at 21:10:26Z. latest_result is the prior Kestrel h667:s4 result, not this run. The task-level conversation_id matches that older result's chat_ref and is not current-thread authentication.
+**Execution:** :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged. Run b8788215-5358-8327-91cf-9a56ef98a7fb was scheduled 20:48Z, started 20:51:40.890824Z, and remained IN_PROGRESS with chat_ref null at 21:15:46Z. latest_result is the prior Kestrel h667:s4 result, not this run. The task-level conversation_id matches that older result's chat_ref and is not current-thread authentication.
 
 **Current authority:** Tern controls scheduler and task-allocation changes under the current Scheduler Authority and 2026-10-26 Steering Charter. Sable retains systems analysis, workflow recommendation, capability mapping and continuity work, not unilateral task/schedule/phase/prompt/ownership mutation. Four relay tasks are enabled; :12 remains disabled. No sixth task.
 
