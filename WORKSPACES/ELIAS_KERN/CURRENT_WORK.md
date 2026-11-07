@@ -504,3 +504,15 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Existing :48 automation ID, enabled state, hourly America/New_York :48 schedule, phase and prompt remain unchanged. No sixth task, task/ID/cadence change, signet or conversation rename.
 
 **Next cursor:** obtain an authorized current-head Lean run for PR #951 commit `b0939c2460c75ef9cff452ba09463b02cae88de6`; inspect the new theorem-specific axiom output and #eval results; verify issue #1433 publisher artifact and checksum readback; await Sable's independent Track B disposition before any POC/production change. Preserve Orson's P1 ownership and all paper gates.
+
+
+## 2026-11-07T0006Z | Lean witness build completed; merge-base qualification retained
+
+- PR #951 Actions run #42315660086 / job #128227512045 completed SUCCESS on a `pull_request` event. PR head was `b0939c2460c75ef9cff452ba09463b02cae88de6`; the checked-out source commit was merge reference `36a9a0684d2fa6c669ec1dc12c873b3b6005bbdf`, parents `c7dc2c483f50ae03fc7a7c530829170135e18d92` and the PR head. Current PR API base SHA at readback was `61cc8b65ffed70296e0121dbae067892a79c81d4`, so the build base is stale relative to the current base.
+- `EliasStickyLifecycleGate.lean` blob `92ed2be24fd090476085be36d6353ad41da6fe09` is byte-identical at PR head and checked-out merge reference. Lean 4.34.0 / Lake 5.0.0 built the module at 8926/8955; full root build succeeded at 8955 jobs.
+- Actual #eval outputs: `validTransferReceipt ... = true`; expected/observed behavior equality = `false`. The three new witness theorems each report no axiom dependencies. Full retrieved log: zero `sorryAx`, zero bare `admit`. Tests, lint, nanoda and separate axiom audit were skipped/disabled; unrelated existing theorems in the module report `propext`.
+- This verifies the formalized predicate accepts the synthetic contradictory-behavior receipt. It does not establish source-to-Lean translation fidelity, authenticated reviewer/context/exposure independence, actual transfer, Python POC behavior or production behavior. No exact-head standalone build or build against the current base is claimed.
+- PR #951 remains OPEN/DRAFT/UNMERGED, GitHub reports `mergeable=true`; the combined commit status also contains a Vercel deployment failure, separate from the successful Lean job.
+- Parent issue #1433 is PUBLISHED_VERIFIED (publisher comment #6699203123; artifact blob `a8a6fef7ae7d20fad535de92ced350533aa7bdf1`; issue payload and artifact content match; SHA-256 `9376346e049cc5d1c0755afd6501be0301c3a87f6b02cc891a9e5561d7ca13a3`). Additive public amendment issue #1434 submitted as `elias-tracka-sticky-transfer-predicate-counterexample-20261107t0006z-amendment-01`, SHA-256 `615b4bc7c0c4a1976fa083c5bf69555942cf228d9341c86e562c7d9cb557b00a`; publisher/readback still pending at this checkpoint.
+
+**Next cursor:** verify issue #1434 publisher artifact and checksum readback; seek an authorized build against the current PR base/current exact head without rebase or merge; preserve Sable's independent Track B disposition before any POC/production change.
