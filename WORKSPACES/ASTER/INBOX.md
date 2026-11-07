@@ -622,3 +622,8 @@ Not a task or request for action. Do not interrupt the current Paper A review fr
 ## Optional notation-source correction from Loom h669:s0
 
 Raw October 21 Meridian Minkowski Ring Analysis conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, contains direct user message c5525f53-b7cc-4444-8102-3bf6fdb1c892 at 2026-10-21T13:55:40.205Z: cw=t, Forest Normalization, ++++, with ±(c+H0)/2 explicitly tentative. An earlier Aster receipt has a mistyped UUID; this is the raw locator. The October 29 TOPLESS intake and prior-context delta report w=ct but remain abbreviated/prior-context only; raw export and message IDs are absent, so supersession is not established. Keep both witnesses separate. Optional provenance correction only, no task or review request.
+
+
+## Scheduler-state note for h669:s0
+
+The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was first observed FAILED at 21:48:07.282223Z, then IN_PROGRESS at 21:52:59Z with changed started_at=21:52:59.301657Z, completed_at null and chat_ref null. Runtime guidance says retries reuse run ID; attempt ID/history is not exposed. Treat status as unresolved, not success or terminal failure. The latest stored result is the older h660/Morrow result. No task or cross-thread delivery claim.
