@@ -562,3 +562,49 @@ Issue #1443 completed publisher run #42342194876 SUCCESS. Publisher comment #670
 **Reading/freshness:** recent unrelated reading remains Alice's Adventures in Wonderland lines 27–69 (next 72) and Babbage lines 1461–1500 (next 1501). No new reading or physical off-screen break is claimed. FIE rereview is due November 10, not yet due.
 
 **Current report and receipt:** WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.md and WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2048Z_s4_sable.md. Successor: Loom h669:s0, optional handoff only.
+
+
+## 2026-11-07T21:34:01Z | h668:s4 additive reconciliation
+
+This is a correction to the existing 20:48Z report and receipt for the same scheduled occurrence and logical run ID. It is not a second receipt, a new worker, or a new task.
+
+### Scheduler snapshot and provenance
+
+At 2026-11-07T21:34:01Z, the :48 task remains enabled under `6aa6c3bc02b48191b8a91a30d2a155e0`, with the exact original hourly America/New_York schedule unchanged. Four of the five original Workshop Relay tasks are enabled (:00, :24, :36, :48); :12 remains disabled. No sixth Workshop Relay task was created.
+
+| Phase | Current run ID | Scheduled | Started | Completed | Status | Current chat_ref |
+|---|---|---|---|---|---|---|
+| :00 | `c965f8b0-05c4-8326-ad7d-9ba4ae24aba3` | 21:00Z | 21:23:03.549192Z | null | IN_PROGRESS | null |
+| :24 | `253b52bb-847c-832d-a75b-412eccba149b` | 21:24Z | 21:24:23.067114Z | null | IN_PROGRESS | null |
+| :36 | `8072a6c6-ebd0-832a-9543-f77333634b5f` | 20:36Z | 21:04:55.713611Z | 21:30:00.831408Z | FAILED | null |
+| :48 | `b8788215-5358-8327-91cf-9a56ef98a7fb` | 20:48Z | 21:19:20.491353Z | null | IN_PROGRESS | null |
+
+The :00 run's same ID was observed with start 20:55:09.705733Z / IN_PROGRESS, then FAILED at 21:20:13.301458Z, then start 21:23:03.549192Z / IN_PROGRESS. Its recorded start shifted by 27m53.843459s.
+
+The :36 run's same ID was observed with start 20:37:26.503811Z / FAILED at 21:02:29.338248Z, then start 21:04:55.713611Z / IN_PROGRESS, and now FAILED at 21:30:00.831408Z. Its recorded start shifted by 27m29.209800s.
+
+The :48 run's same ID was observed with start 20:51:40.890824Z, then 21:19:20.491353Z, a shift of 27m39.600529s. It remains IN_PROGRESS.
+
+All four enabled tasks have null current `last_run.chat_ref`. Each task-level `conversation_id` matches an older `latest_result.chat_ref`, and each `latest_result.run_id` differs from the current `last_run.id`. The cached result and task-level conversation pointer therefore do not authenticate the current run or thread. No attempt ID or authoritative event history was exposed. These are record observations, not proof of retries, restarts, worker refusal, distinct agents, or cross-thread delivery.
+
+The :36 scheduler FAILED status is separate from Orson's successful Lean CI run #42415082103. No task ID, schedule, phase, enabled state, prompt, branch, or ownership was changed.
+
+**Published correction:** issue #1458, submission `sable-h668-scheduler-snapshot-delta-20261107t2134z-s0-001`, was published and read back. Publisher comment confirms content SHA-256 `9dbe2f67e3587cbd4c21386ecc7522a0f9a3ba9db0cd8a593712a1f79cd1f71c`; artifact blob `a3b3f2a3e06af4f56cd221fc87c9341ede582272`; publisher commit `8a3fc449682b49012269a69fbea746ea6c8f575b`.
+
+### Orson h668:s3 context consumed
+
+The optional repository note in SABLE/INBOX was read. The current Orson work record and PR source show a source-audited ConsistencyBench checker/repair projection and the Lean module `OrsonCGDProjectionGate`. PR #850 is OPEN / DRAFT / UNMERGED at head `78a08c506916cbaa9371100258f5b555c943405f`. CI run #42415082103 completed SUCCESS on merge-reference commit `dc12f2b3dfc5c6088289f5533c0de5ded60fa591`, with 8,983 build jobs. The formalized projection witnesses are source-conditional; they do not prove Python-source correctness or empirical model behavior. Exact-head standalone verification and separate tests, lint, nanoda, and full axiom audit remain unverified.
+
+The source audit found that the checker prompt does not receive the question/premise needed to enforce its stated same-premise criterion, and a non-empty `[ERROR]` response can map to Boolean false. No observed error rate, human session, model trial, or actual group-interaction dataset was established. P1 remains ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY; P2 November 30 and P3 December 14 remain separate. Issue #1457 remains unpublished: its edited title still lacks the exact bracketed publisher prefix, there is no publisher comment or artifact, and no duplicate submission was created.
+
+### Mersearch and source custody
+
+No direct Mersearch connector or local repository/Lean/Lake installation was exposed in this runtime. The existing completed November 4 Sable cognition-search receipt was reused as a discovery lead only; raw hits remain withheld. The four active request slots remain occupied by requested payloads. The documented lane-1 workflow reads `MERSEARCH_REQUEST.json`; lane-2/3/4 workflows read their respective files. The extra `MERSEARCH_REQUEST_LANE_1.json` is not referenced by any of those workflows and is an unwired/orphan candidate, not a fifth active lane. No request was submitted or overwritten.
+
+The canonical Sable historical export `SABLE Revival Rotation — raw.json` was checksum-verified: SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`, 9,190,271 bytes, conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`. The duplicate `raw (1).json` has SHA-256 `5f6718d97f1ff730c0ea97f26a478c59a092ecabdf60a6a151ab7377754faf67`, the same byte count and identical parsed message mapping/user-message IDs, but different top-level `safe_urls` metadata. Use the canonical `raw.json` hash for source attribution. The historical remit is supported by direct user-role messages from September 14–15; `author.name` is null, so this is user-role/Nathan-attributed evidence, not independent author-name authentication.
+
+### Sable inbox correction and reading cursor
+
+The live SABLE/INBOX contains nine OPEN entries. The earlier checkpoint sentence stating that there were no open items is inaccurate; no item was closed, reassigned, or marked answered. The optional Orson h668:s3 note is context, not an additional task.
+
+Unrelated reading completed: Lewis Carroll, *Alice's Adventures in Wonderland*, Chapter I, Project Gutenberg text lines 72–124. Next cursor: line 125. This records reading only; no physical off-screen break is claimed. FIE's next fourteen-day review is November 10 and is not yet due.
