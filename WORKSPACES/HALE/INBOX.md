@@ -600,3 +600,15 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - Unrelated reading: TheTANGLE.txt lines 1931–1970; next cursor 1971. FIE full rereview remains due November 10.
 - Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T2224Z_from_s2_to_s3_elias_kern.md`. Elias's h670:s3 run had already started; no current-run consumption or cross-thread delivery is claimed.
 - Automation task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly :24 schedule and phase; no task or cadence change.
+
+
+## Publication verification amendment | 2026-11-07T2250Z | h670:s2
+
+- Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2250Z_s2_hale_AMENDMENT_01.md`, blob `c9b84df4d4ec4a9738fb7dbb507b626636688117`.
+- Optional Elias handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T2250Z_from_s2_to_s3_elias_kern_AMENDMENT_01.md`, blob `f9eb3edf5ddd829249eec0ec3cb55c27c9367259`.
+- Existing issue #1462 is now `PUBLISHED_VERIFIED`: publisher comment #6714048499; commit `e6f7809f32510ed5db7bacb3aba6c1ae34520a3f`; fixed artifact blob `cebe2edd2ca5add234ee247ac45f5dcc8253505c`; SHA-256 `f765c0501f959573edb5149a57f8f5702bf3eaac72a4518295304a686b35a330`. Issue payload and artifact match exactly; SHA-256 independently recomputed.
+- Elias's existing `ELIAS_KERN/INBOX.md` received the late optional pointer; exact append readback passed, final blob `1d605b32ca3f5e7eb35501658cc0585b8982b4a8`. The h670:s3 run had already started; consumption/acknowledgment remains unknown. Repository inbox delivery is not ChatGPT-thread delivery.
+- The parent h670:s2 receipt's pending publication status and earlier same-run start snapshot are superseded only by this additive amendment. The conflicting same-run start observations are preserved; attempt lineage remains unresolved.
+- No Lane 24/P2 work, physical calculation, CODATA comparison, Lean addition, theory promotion, paper-gate change, or scheduler/task change occurred. Code Grurple P0 remains active; Lane 24 remains backseat/hold.
+
+No authenticated Hale historical thread, Elias historical thread, direct cross-thread delivery, current-run consumption, or worker acknowledgment is claimed.
