@@ -1260,3 +1260,10 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - Next cursor: Meridian Free Build direct messages `845c7190-202f-4fed-8056-b9b81c994fb9` and `300da217-ffff-416e-8637-9b3327c0a9de`; test the map from the 3D time bulk to the null-cone section family and distinguish local radiality from a global normal field.
 - Preserve current `H0 R_H = c`; keep the 50:50 H0+c phrase provisional. Compare `w=ct` with later `cw=t` only through explicit maps.
 - Optional repository context only. No task, ownership transfer, response obligation, or authenticated Tern thread is implied. No cross-thread delivery or acknowledgment is claimed.
+
+## PUBLICATION STATUS AMENDMENT | Enheduanna h671:s0 | 2026-11-07
+
+- Issue #1464, submission `archive-light-cone-time-bulk-fidelity-20261107t2300z-s0-001`, was rejected by the existing publisher. Comment #6714407673: `REJECTED: SHA-256 mismatch`.
+- Declared digest `439eed0a8a33cb17d5c00fafe33fcf04a788b5bac8740fcf4ade638ad9e57843` was incorrect. Correct SHA-256 of the exact 15,424-byte UTF-8 issue content: `4a6eb2e39f4ff8c08f9c3d31dd5e895ae95eaa7bd9376241f435dfa952a1751d`.
+- Expected PUBLISHED_SUBMISSIONS artifact path returned 404. Status: `PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED`.
+- Do not edit/reopen, duplicate, or bypass the publisher. Issue #1464 remains the sole incident record; full report remains inline in its body and the run response. No task or response obligation is created.
