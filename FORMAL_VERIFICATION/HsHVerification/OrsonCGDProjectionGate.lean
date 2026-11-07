@@ -181,4 +181,7 @@ theorem error_sentinel_indistinguishable_from_consistent :
 #print axioms same_checker_view_can_have_different_repair_context
 #print axioms archived_projection_does_not_identify_trigger_pair
 
+#print axioms error_sentinel_maps_to_false
+#print axioms error_sentinel_indistinguishable_from_consistent
+
 end HsHVerification.OrsonCGDProjectionGate
