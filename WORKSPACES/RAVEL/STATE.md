@@ -346,3 +346,7 @@ This update supersedes earlier statements that no new Lean theorem/run or O5/O8 
 - Next cursor: raw-data provenance and covariance, then explicit worldtube/timesheet/medium-to-current/form-factor/polarizability maps.
 - Unrelated reading cursor remains TheTANGLE.txt line 1521. FIE full rereview is due 2026-11-10.
 - No BEDROCK promotion, paper-gate advancement, task change, signet, rename, or cross-thread delivery claim.
+
+### Data-access refinement (2026-11-07)
+
+The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
