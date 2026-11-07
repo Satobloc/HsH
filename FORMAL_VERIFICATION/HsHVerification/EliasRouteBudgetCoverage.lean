@@ -51,7 +51,7 @@ theorem required_routes_are_accounted_for (p : RoutePlan) :
     p.required ⊆ p.selected ∪ p.deferred ∪ p.unrepresented :=
   p.requiredAccounted
 
-/** Every required route receives exactly one explicit disposition:
+/-- Every required route receives exactly one explicit disposition:
     selected, deferred, or unrepresented. Pairwise disjointness prevents
     double-counting; requiredAccounted prevents silent omission. -/
 theorem required_route_has_exactly_one_disposition
