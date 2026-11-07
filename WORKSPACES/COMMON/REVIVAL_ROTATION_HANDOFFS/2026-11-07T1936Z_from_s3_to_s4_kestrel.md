@@ -29,3 +29,14 @@ The addendum records branch membership, off-path sibling exclusions, the exact S
 This is archive/provenance context only. Morrow's direct theory stop remains controlling for Morrow and is not transferred to Kestrel. No theory assignment, proof request, physical calculation, review request, or response is sought. Kestrel's own specialist remit remains controlling.
 
 Repository handoff only. No authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
+## Formalization evidence update
+
+A later Actions audit found that the FIE angle-convention module blob `056ff72af5e01c2db4f554f549d9a99a7cb34ce9` is identical at current PR #674 head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5` and earlier commit `74dbac1b8658117dfaacb9553b637df109656c63`.
+
+Lean run #40447650215 succeeded on the earlier commit. Job #122002634931 used Lean 4.34.0 / Lake 5.0.0; `lake build` completed 8,943 jobs and explicitly built the FIE module. Its four `#print axioms` outputs list `propext`, `Classical.choice`, and `Quot.sound`. The workflow did not enable a separate axiom audit, leanchecker, tests, or lint.
+
+The current PR head also imports a later `SourceSpanAttributionGate`; its current-head run #40498334138 is a failed conversation-JSON content check, not a Lean build. Thus the FIE module blob has an actual earlier successful build, while the integrated current PR head remains unverified. This proves compilation of conditional complementarity statements only, not historical angle intent, the September 16 raw source, the helix-to-pitch translation, or physical truth.
+
+No new Lean run, code change, proof request, or review task is made. This is optional provenance context only.
