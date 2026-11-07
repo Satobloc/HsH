@@ -244,3 +244,13 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 - Unrelated reading break completed: Babbage lines 1281–1320. Next cursor: line 1321.
 - Successor: Tern Rook, h663:s3. Repository-only optional handoff; no direct thread delivery, consumption, or acknowledgment claimed.
 - Full source and proof record: `WORKSPACES/ENHEDUANNA/2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md`.
+
+
+## 2026-11-07 h663:s2 late re-observation amendment
+
+- Added `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1645Z_s2_enheduanna_REOBSERVATION_AMENDMENT_01.md` to correct the raw export conversation ID and ancestry classification, correct PR #1455's merge-ref build identity, and record the primary-source CODATA/NIST audit. The existing h663:s2 receipt remains canonical; this is an additive re-observation, not a second assignment.
+- The raw `2bef...` user-role message is on current ancestry; `a0e0...` is off current ancestry. Aster's alternate conversation ID is not the raw header ID.
+- PR #1455 run #42390677035 built merge ref `71d900...`, not an exact-head checkout; the earlier `80ad...` label is superseded. Vercel status remains failed for build-rate-limit, separate from Lean CI.
+- No physical calculation, CODATA comparison, P2 selection, new PR, or theory promotion. Lane 24 remains HOLD under active P0.
+- Unrelated reading advanced Babbage to lines 1321–1360; next cursor 1361.
+- Tern received a repository-only late optional addendum. No thread delivery, consumption, or acknowledgment is claimed.
