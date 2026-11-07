@@ -400,4 +400,221 @@ theorem nominal_667_s3_next_name_is_morrow :
 #print axioms nominal_667_s2_selected_name_is_tern
 #print axioms nominal_667_s3_next_name_is_morrow
 
+
+/-!
+Current h667 scheduler observations, 2026-11-07, read-only peeks.
+
+Times are integer microseconds since 2026-11-07T00:00:00Z.
+These are service-record observations, not physical measurements.
+
+Sources:
+* :00 task 6aa1fe0de5e48191b886496095b1343f, run
+  d1999d7d-451c-8322-90ad-a2855583dbb7:
+  19:32:17.647720Z IN_PROGRESS, then 19:57:19.414018Z FAILED.
+* :24 task 6abda4c8eda88191b886496095b1343f, run
+  cf15c66e-1d54-8329-a123-85cff2d15950:
+  earlier read 19:28:44.238Z IN_PROGRESS; later read
+  19:56:26.839937Z IN_PROGRESS. Same run ID and scheduled_for;
+  started_at differs. The earlier chat_ref was not established;
+  the later record explicitly has chat_ref=null.
+* :36 task 6a9f52b69ec08191b0a2ba24a074f781, run
+  cc29a027-2398-8331-88eb-a882c67c939c:
+  Morrow report snapshot at 19:52:32.772383Z says IN_PROGRESS,
+  chat_ref=null; later scheduler read shows completed at
+  19:52:35.120445Z and chat_ref present.
+* :48 task 6aa6c3bc02b48191b8a91a30d2a155e0, run
+  c0c33f2b-fa58-832e-bb52-73c8ec70a84b:
+  19:53:14.176859Z IN_PROGRESS, chat_ref=null.
+
+The snapshots do not expose an attempt identifier or cause for the
+:24 started_at change. Do not infer retry, restart, a second execution,
+worker/thread identity, prompt exposure, or cross-thread delivery.
+A chat_ref is scheduler metadata, not historical-worker authentication.
+-/ 
+
+abbrev H667Status :=
+  HsHVerification.TernH591SchedulerEvidence.RecordedStatus
+
+structure H667SchedulerObservation where
+  runId : String
+  scheduledUs : Nat
+  startedUs : Nat
+  status : H667Status
+  completedUs : Option Nat
+  chatRefPresent : Option Bool
+  deriving Repr, DecidableEq
+
+def h667Run00At1932 : H667SchedulerObservation :=
+  ⟨ "d1999d7d-451c-8322-90ad-a2855583dbb7"
+  , 68_400_000_000
+  , 70_337_647_720
+  , .inProgress
+  , none
+  , some false
+  ⟩
+
+def h667Run00At1957 : H667SchedulerObservation :=
+  ⟨ "d1999d7d-451c-8322-90ad-a2855583dbb7"
+  , 68_400_000_000
+  , 70_337_647_720
+  , .failed
+  , some 71_839_414_018
+  , some false
+  ⟩
+
+def h667Run24At1932 : H667SchedulerObservation :=
+  ⟨ "cf15c66e-1d54-8329-a123-85cff2d15950"
+  , 69_840_000_000
+  , 70_124_238_000
+  , .inProgress
+  , none
+  , none
+  ⟩
+
+def h667Run24At1956 : H667SchedulerObservation :=
+  ⟨ "cf15c66e-1d54-8329-a123-85cff2d15950"
+  , 69_840_000_000
+  , 71_786_839_937
+  , .inProgress
+  , none
+  , some false
+  ⟩
+
+def h667Run36AtReport : H667SchedulerObservation :=
+  ⟨ "cc29a027-2398-8331-88eb-a882c67c939c"
+  , 70_560_000_000
+  , 70_350_186_517
+  , .inProgress
+  , none
+  , some false
+  ⟩
+
+def h667Run36AtLaterPeek : H667SchedulerObservation :=
+  ⟨ "cc29a027-2398-8331-88eb-a882c67c939c"
+  , 70_560_000_000
+  , 70_350_186_517
+  , .completed
+  , some 71_555_120_445
+  , some true
+  ⟩
+
+def h667Run48AtLaterPeek : H667SchedulerObservation :=
+  ⟨ "c0c33f2b-fa58-832e-bb52-73c8ec70a84b"
+  , 71_280_000_000
+  , 71_594_176_859
+  , .inProgress
+  , none
+  , some false
+  ⟩
+
+theorem h667_run00_same_id_and_schedule :
+    h667Run00At1932.runId = h667Run00At1957.runId ∧
+    h667Run00At1932.scheduledUs = h667Run00At1957.scheduledUs := by decide
+
+theorem h667_run00_status_and_completion_transition :
+    h667Run00At1932.status = .inProgress ∧
+    h667Run00At1932.completedUs = none ∧
+    h667Run00At1957.status = .failed ∧
+    h667Run00At1957.completedUs = some 71_839_414_018 := by decide
+
+theorem h667_run24_same_id_and_schedule :
+    h667Run24At1932.runId = h667Run24At1956.runId ∧
+    h667Run24At1932.scheduledUs = h667Run24At1956.scheduledUs := by decide
+
+theorem h667_run24_started_at_changed :
+    h667Run24At1932.startedUs ≠ h667Run24At1956.startedUs := by decide
+
+theorem h667_run24_start_shift_is_1662601937us :
+    h667Run24At1956.startedUs - h667Run24At1932.startedUs = 1_662_601_937 := by decide
+
+theorem h667_run24_earlier_start_lag_is_284238000us :
+    h667Run24At1932.startedUs - h667Run24At1932.scheduledUs = 284_238_000 := by decide
+
+theorem h667_run24_later_start_lag_is_1946839937us :
+    h667Run24At1956.startedUs - h667Run24At1956.scheduledUs = 1_946_839_937 := by decide
+
+theorem h667_run24_status_and_completion_remain_in_progress :
+    h667Run24At1932.status = .inProgress ∧
+    h667Run24At1932.completedUs = none ∧
+    h667Run24At1956.status = .inProgress ∧
+    h667Run24At1956.completedUs = none := by decide
+
+theorem h667_run36_same_id_and_schedule :
+    h667Run36AtReport.runId = h667Run36AtLaterPeek.runId ∧
+    h667Run36AtReport.scheduledUs = h667Run36AtLaterPeek.scheduledUs ∧
+    h667Run36AtReport.startedUs = h667Run36AtLaterPeek.startedUs := by decide
+
+theorem h667_run36_status_and_chatref_transition :
+    h667Run36AtReport.status = .inProgress ∧
+    h667Run36AtReport.chatRefPresent = some false ∧
+    h667Run36AtLaterPeek.status = .completed ∧
+    h667Run36AtLaterPeek.chatRefPresent = some true := by decide
+
+theorem h667_run48_remains_in_progress :
+    h667Run48AtLaterPeek.status = .inProgress ∧
+    h667Run48AtLaterPeek.completedUs = none ∧
+    h667Run48AtLaterPeek.chatRefPresent = some false := by decide
+
+theorem h667_run00_start_lag_is_1937647720us :
+    h667Run00At1957.startedUs - h667Run00At1957.scheduledUs = 1_937_647_720 := by decide
+
+theorem h667_run36_started_209813483us_early :
+    h667Run36AtLaterPeek.scheduledUs - h667Run36AtLaterPeek.startedUs = 209_813_483 := by decide
+
+theorem h667_run48_start_lag_is_314176859us :
+    h667Run48AtLaterPeek.startedUs - h667Run48AtLaterPeek.scheduledUs = 314_176_859 := by decide
+
+def h667IntervalOverlap (aStart aEnd bStart bEnd : Nat) : Nat :=
+  let overlapStart := max aStart bStart
+  let overlapEnd := min aEnd bEnd
+  if overlapEnd > overlapStart then overlapEnd - overlapStart else 0
+
+theorem h667_run00_run36_overlap_is_1204933928us :
+    h667IntervalOverlap
+      h667Run00At1957.startedUs (h667Run00At1957.completedUs.getD 0)
+      h667Run36AtLaterPeek.startedUs (h667Run36AtLaterPeek.completedUs.getD 0)
+      = 1_204_933_928 := by decide
+
+theorem h667_run00_run24_overlap_lower_bound_is_52574081us :
+    h667Run00At1957.completedUs.getD 0 - h667Run24At1956.startedUs =
+      52_574_081 := by decide
+
+theorem h667_run00_run48_overlap_lower_bound_is_245237159us :
+    h667Run00At1957.completedUs.getD 0 - h667Run48AtLaterPeek.startedUs =
+      245_237_159 := by decide
+
+theorem h667_run36_run48_gap_is_39056414us :
+    h667Run48AtLaterPeek.startedUs -
+      h667Run36AtLaterPeek.completedUs.getD 0 = 39_056_414 := by decide
+
+theorem h667_run36_run24_gap_is_231719492us :
+    h667Run24At1956.startedUs -
+      h667Run36AtLaterPeek.completedUs.getD 0 = 231_719_492 := by decide
+
+theorem h667_run48_started_before_run24_later_by_192663078us :
+    h667Run24At1956.startedUs - h667Run48AtLaterPeek.startedUs =
+      192_663_078 := by decide
+
+#print axioms h667_run00_same_id_and_schedule
+#print axioms h667_run00_status_and_completion_transition
+#print axioms h667_run24_same_id_and_schedule
+#print axioms h667_run24_started_at_changed
+#print axioms h667_run24_start_shift_is_1662601937us
+#print axioms h667_run24_earlier_start_lag_is_284238000us
+#print axioms h667_run24_later_start_lag_is_1946839937us
+#print axioms h667_run24_status_and_completion_remain_in_progress
+#print axioms h667_run36_same_id_and_schedule
+#print axioms h667_run36_status_and_chatref_transition
+#print axioms h667_run48_remains_in_progress
+#print axioms h667_run00_start_lag_is_1937647720us
+#print axioms h667_run36_started_209813483us_early
+#print axioms h667_run48_start_lag_is_314176859us
+#print axioms h667_run00_run36_overlap_is_1204933928us
+#print axioms h667_run00_run24_overlap_lower_bound_is_52574081us
+#print axioms h667_run00_run48_overlap_lower_bound_is_245237159us
+#print axioms h667_run36_run48_gap_is_39056414us
+#print axioms h667_run36_run24_gap_is_231719492us
+#print axioms h667_run48_started_before_run24_later_by_192663078us
+
+
 end HsHVerification.TernH659SchedulerSnapshotEvidence
