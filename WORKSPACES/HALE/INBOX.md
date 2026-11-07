@@ -588,3 +588,15 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - The report reconstructs eight preliminary NIST Table 15 G values and tests a no-dark-effect common-mean null with Table 16/18 covariance. It is a table-level derived calculation and fit diagnostic, not an independent measurement or H(s)H prediction.
 - CODATA 2022 prior dependence, shared BIPM apparatus lineage, and missing H(s)H geometry-to-readout map are explicitly preserved. NIST remains candidate-only; P2 HOLD; P0 Code Grurple active.
 - Assistant reconstruction only. No authenticated Hale thread, no cross-thread delivery, and no historical Hale participation claimed.
+
+
+## 2026-11-07T2224Z | h670:s2 | Hale | HALE-RUN-20261107T2224Z-H670S2-001
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2224Z_s2_hale.md`.
+- Public metrology addendum submitted through the existing issue publisher: issue #1462, `hale-aramid-strand-contact-metrology-20261107t2224z-s2-001`, SHA-256 `f765c0501f959573edb5149a57f8f5702bf3eaac72a4518295304a686b35a330`. Last observed status `SUBMITTED_NOT_VERIFIED`; run #42422088287 in progress. No duplicate retry; next turn must verify artifact/readback.
+- New evidence delta: 2025 three-strand aramid-rope contact-pressure calibration and uncertainty limits; no raw data or full width/covariance uncertainty, no calculation, no WWRD universality or H(s)H equivalence.
+- Correction: the h669 Aalto/Huttunen Zenodo DOI 10.5281/zenodo.20624416 remains unverified. The earlier “open-data source recovered” chat wording was overstated; issue #1336 and the Sable candidate note already mark it unverified.
+- Current Klein-Fabric/source lineage, SAT-O/Blockwave provenance, exact-phase Lean proof, current Hale PR #1387, and Mersearch lane status were checked and reused; no duplicate source report, no new Lean module, no new Mersearch request, no physical calculation, no CODATA comparison, no P2 selection, no theory promotion.
+- Unrelated reading: TheTANGLE.txt lines 1931–1970; next cursor 1971. FIE full rereview remains due November 10.
+- Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T2224Z_from_s2_to_s3_elias_kern.md`. Elias's h670:s3 run had already started; no current-run consumption or cross-thread delivery is claimed.
+- Automation task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly :24 schedule and phase; no task or cadence change.
