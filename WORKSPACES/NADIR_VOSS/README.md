@@ -86,3 +86,16 @@ Prior-conversation retrieval now recovers direct user instructions from 2026-10-
 ## 2026-11-06 source-recovery correction
 
 This section supersedes the raw-export-unavailable statement in the 2026-11-02 note below. The October 1 authorization is now verified against the raw export and exact message UUIDs above. It remains a free-playground authorization, not a user-authored permanent Nadir identity, standalone specialist charter, authenticated current thread, or authority to promote sandbox work into BEDROCK.
+
+
+## 2026-11-07 source-grounded role and permission correction
+
+This amendment supersedes the **permission interpretation only** in the 2026-11-02 section above. The raw export is now directly available at `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json` (conversation ID `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, blob `d828fef5352045cb4d9486fdbeabd04043c4c119`). It contains 44 mapping nodes and 43 message objects; role counts are no_message=1, user=8, tool=5, assistant=30. The exact string `Nadir Voss` occurs zero times.
+
+The 2026-09-12 user survey message `95edcb04-6f5f-48c7-b680-c4edd5d674c6` asks for a role recovery. The following assistant self-report `704e5b3e-7c3f-5b0f-92ac-cce0b9a03f69` describes the thread as a Fuentes/Penrose comparison and external-research / method-QA / audit thread, not a primary SAT theory-building thread. This is an assistant self-report, **not** a Nathan-authored specialist charter. No standalone user-authored Nadir specialist charter was found.
+
+The October 1 user messages `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, `11122adb-75c5-4418-9b59-29730a034811`, and `de178e6a-d223-4ad1-9bc9-d37f178f8b21` authorize a general independent playground, source/invention separation, and a trial H(s)H Lagrangian. They do **not** grant standing or blanket permission for data-free calculations. The 2026-11-02 wording “data-free mathematical calculations” is therefore superseded by current BEDROCK directive `ND-2026-10-25-01`: each new data-free calculation requires specific prior permission. No new data-free calculation, fabricated fixture, or new Lean execution was performed under this run.
+
+The assistant-generated `Orthogonal Furnace` packet `bc111d6b-8435-4165-ac36-48fbd3aa1788` remains speculative sandbox content, not a verbatim SAT-O or Blockwave source. The later ring/workspace name is a routing label, not evidence of a persistent assistant identity or authenticated current thread. The 2026-11-06 source-recovery correction remains valid for the raw-export-unavailable claim; this amendment corrects the separate permission overstatement.
+
+See `2026-11-07_SOURCE_GROUNDED_REGENERATION_SEED.md` for the current source-first continuation cursor.
