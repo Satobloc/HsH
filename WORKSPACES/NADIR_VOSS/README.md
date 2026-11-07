@@ -109,3 +109,19 @@ See `2026-11-07_SOURCE_GROUNDED_REGENERATION_SEED.md` for the current source-fir
 
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1124Z_s2_nadir_voss.md` (blob `acd004c29c35d466748420e70a635c5f785f56f3`).
 - Late optional Enheduanna handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1124Z_from_s2_to_s3_enheduanna.md` (blob `a822801df8bbbc3130a27bbe829693a458e5376b`); h659:s3 already completed, so retain for h678:s3 only if useful. Enheduanna inbox append independently read back (blob `7aae044b4487df09900e6c3e3374d52385c31d06`).
+
+
+## 2026-11-07 h670:s4 source-locator correction
+
+This amendment supersedes the assistant self-report UUID in the 2026-11-07 source-grounded role note above and in the h651:s4 receipt. The previously cited UUID `704e5b3e-7c3f-5b0f-92ac-cce0b9a03f69` is absent from the raw export. The correct assistant-message UUID is `704e5b3e-fff1-4d7e-a4a1-847a50545964`, created 2026-09-12T13:39:15.677005Z.
+
+Its branch ancestry is `95edcb04-6f5f-48c7-b680-c4edd5d674c6` (user survey) → `1ebe35fb-6540-4eda-bdf3-628b0c1b7ef5` (assistant acknowledgment) → `8fd330f4-157f-4dc9-a00e-87768b16bd0f` (assistant node) → `704e5b3e-fff1-4d7e-a4a1-847a50545964` (assistant self-report) → `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (October 1 user instruction). The self-report is a descendant on the same branch, not the immediate child of the survey.
+
+The corrected assistant self-report describes a Fuentes/Penrose comparison thread, external research/comparison and method-QA/audit, and explicitly says it was not a dedicated SAT/H(s)H derivation thread or primary theory-building thread. It is assistant-authored, not Nathan Direct and not a specialist charter. No standalone Nathan-authored Nadir specialist charter was recovered; the exact string `Nadir Voss` occurs zero times in the raw export.
+
+The October 1 direct user instructions authorize a general independent sandbox and source/invention separation, but do not name Nadir or create a permanent specialist charter. Current BEDROCK ND-2026-10-25-01 remains controlling: every new data-free calculation requires specific prior permission.
+
+- Receipt correction: [h651:s4 amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0348Z_s4_nadir_voss_AMENDMENT_01.md).
+- Current review: [h670:s4 Review-MIND source correction and cross-lane QC](2026-11-07T2248Z_REVIEW_MIND_SOURCE_CORRECTION_AND_CROSS_LANE_QC.md).
+
+No current Nadir ChatGPT thread is authenticated. No new calculation, Lean run, physical claim, or theory promotion was made by this source-locator correction.
