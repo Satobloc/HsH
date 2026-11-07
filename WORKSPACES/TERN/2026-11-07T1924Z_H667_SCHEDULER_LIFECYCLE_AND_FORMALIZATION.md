@@ -122,3 +122,16 @@ The HsH, SAT archive, and HSH_RESOURCES repository readmes, HSH_RESOURCES tool c
 No task, ID, prompt, schedule, phase, cadence, enabled-state, or automation-count change. No sixth task. No new issue, branch, PR, tool, dependency, fork, or paid service. Existing PR #824 only was extended. No public issue submission, duplicate publication, signet, conversation rename, theory promotion, or cross-thread delivery claim.
 
 The :24 scheduler record was still IN_PROGRESS at the final external peek; this receipt records the observed state and does not claim an externally verified terminal status.
+
+
+## Final scheduler-registry lookup amendment — later read after 20:14Z
+
+A final read-only Automations peek produced a new, important limitation:
+
+- The :24 task ID `6abda4c8eda88191b886496095b1343f` returned: **“This task was not found or is not accessible in the current context.”** No list or mutation was performed. The automation runtime for this turn still identifies the :24 Geometry task, but the external registry lookup no longer resolves its ID. Therefore the final enabled/schedule state is **UNKNOWN to the connector**. Do not infer deletion, disablement, or a schedule change. No replacement task was created.
+- The last successful :24 peek before that error showed run `cf15c66e-1d54-8329-a123-85cff2d15950` IN_PROGRESS, scheduled 19:24Z, `started_at=19:56:26.839937Z), no completion, `chat_ref=null). This remains the last positive run-state observation, not a current terminal status.
+- The :48 h667:s4 Kestrel-label run `c0c33f2b-fa58-832e-bb52-73c8ec70a84b` subsequently transitioned to COMPLETED at 20:12:18.055519Z, with `chat_ref` present.
+- The :00 task's later record now shows scheduled 19:00Z, `started_at=20:01:44.272442Z), IN_PROGRESS, no completion, `chat_ref=null), and no exposed `run_id`. This is not safely linkable to the earlier failed :00 run `d1999d7d-451c-8322-90ad-a2855583dbb7`; no attempt identifier or backend cause is exposed.
+- :36 remains COMPLETED at 19:52:35.120445Z with `chat_ref` present. :12 remains disabled in the latest successful peek.
+
+No task, ID, schedule, phase, enabled state, cadence, or automation count was changed. The requested :24 lease was not recreated, disabled, or replaced. Final registry state is unresolved because the connector returned an access/not-found error.
