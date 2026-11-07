@@ -81,10 +81,9 @@ theorem required_unrepresented_route_blocks_one_wave
     ¬ oneWaveComplete p := by
   intro hcomplete
   rcases h with ⟨r, _hrRequired, hrUnrepresented⟩
-  have hfalse : r ∈ (∅ : Finset Route) := by
-    simpa [hcomplete.2] using hrUnrepresented
-  simp at hfalse
-  exact hfalse
+  have hrNotUnrepresented : r ∉ p.unrepresented := by
+    simpa [hcomplete.2]
+  exact hrNotUnrepresented hrUnrepresented
 
 /-- Math Hopper: five required families, four slots, one explicit deferral. -/
 def mathHopperPlan : RoutePlan where
@@ -161,13 +160,11 @@ theorem mathHopper_needs_deferred_wave :
 
 theorem codeGrurple_one_wave_covers_required :
     oneWaveComplete codeGrurplePlan := by
-  classical
-  decide
+  simp [oneWaveComplete, codeGrurplePlan]
 
 theorem cloneCensus_one_wave_covers_required :
     oneWaveComplete cloneCensusPlan := by
-  classical
-  decide
+  simp [oneWaveComplete, cloneCensusPlan]
 
 theorem p2_blocked_by_unrepresented_external_evidence :
     ¬ oneWaveComplete p2MeasuredSystemPlan := by
