@@ -78,3 +78,15 @@ The assistant H vector is a feature map, not a metric tensor or distance. Angle 
 ## G. Next source cursor
 
 Recover an original indicatrix diagram/source; decide full D4 lattice versus root shell; define marker correspondence and marked-point readout; define per-order transform-to-H map and units; define d_H or g_H before treating H as a strict metric. Only then formalize the maps in Lean. Preserve transcript attribution limits and all assistant/direct authorship boundaries.
+
+
+## H. Cross-lens guardrails
+
+- INSIDE the candidate geometry: a positive-scale SO(4) action on a co-centered indicatrix and a marked-point readout.
+- OUTSIDE the model: the observable-worldline and measurement map is not defined.
+- GR: Euclidean R4 is not yet Lorentzian spacetime; no signature, proper-time map, or metric identification is supplied.
+- String theory: helical/winding vocabulary does not establish string winding; no compact dimension, worldsheet, or string tension is specified.
+- SM/QM: D4 symmetry alone does not specify a gauge representation, particle multiplet, or measured spectrum.
+- Information: the six-entry H descriptor is not an information metric; no probability model or Fisher tensor is defined.
+
+These are comparison lenses and open tests, not equivalences. No WWRD rope analogy or physical equivalence was used.
