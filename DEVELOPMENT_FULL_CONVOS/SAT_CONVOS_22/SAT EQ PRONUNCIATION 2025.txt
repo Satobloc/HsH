@@ -1,0 +1,51 @@
+[_] SAT Predicted Astrophysics Deviationsadd_2 Create notebook share_1Sharemore_vertsettingsSourcescollapse_contentReading SAT Equations Aloudbutton_magic Source guide arrow_drop_downReading SAT Equations Aloud
+Based on the pronunciation guides and the equations discussed in the sources, here are examples of how to read out some of the recent SAT-relevant equations aloud, using standard mathematical vocalization and focusing only on standard notation and placeholders:
+The standard pronunciation guide provides a foundation for reading mathematical expressions, including Greek letters and common operators [1-3]. Subscripts are typically read using "sub," superscripts using "to the power of" or specific terms like "squared," and parentheses can be indicated explicitly or by phrasing [1, 3].
+Here are examples from the sources:
+•
+Equation relating Refractive Index to Filament Angle [4, 5]:
+◦
+Equation: n(θ₄) = 1 / cos^p(θ₄)
+◦
+Spoken: "n of theta sub four equals one over cosine to the power of p of theta sub four."
+•
+Equation to calculate Filament Angle from Refractive Index [4]:
+◦
+Equation: θ₄ = arccos(1/n)
+◦
+Spoken: "theta sub four equals the arc cos of open paren one over n close paren."
+•
+SAT Reinterpretation of Cosmological Redshift (Class C) [6-8]: This reframes redshift as a differential in local filament resonance curvature affecting effective electron mass [6].
+◦
+Equation: 1 + z = (m_e_emitted) / (m_e_observed)
+◦
+Spoken: "one plus z equals open paren m sub e sub emitted close paren divided by open paren m sub e sub observed close paren."
+◦
+Note: When this equation was used in a blinded test with Latin letters [9, 10], the equation was 1 + A = B / C [9]. This would be read as "one plus A equals B over C" [9].
+•
+SAT Proposal for Muon Anomalous Magnetic Moment (Class D) [6, 7, 11-13]: This suggests the anomaly arises from geometric torsion complexity [14].
+◦
+Equation: Δg_mu ≈ α × f(m_mu / m_e)
+◦
+Spoken: "Delta g sub mu is approximately equal to alpha times f of open paren m sub mu over m sub e close paren."
+◦
+Note: While not explicitly written with A, B, C, D, E, F, G in the source text as a single blinded equation, the variables Δg_mu, α, m_mu, and m_e were related to the placeholder letters D, E, and G respectively when discussing testing this concept [6, 8, 11-17]. Thus, a related expression might be thought of in blinded terms as D ≈ E × f(G), which would be read as "D is approximately equal to E times f of G."
+•
+SAT Reinterpretation linking Hubble Constant Anisotropy and Speed of Light [7, 11, 18]: This interprets H₀ anisotropy as related to directional variation in the effective speed of light [11].
+◦
+Equation: H₀(A) - H₀(B) ∝ (c(A) - c(B)) / c
+◦
+Spoken: "H naught of A minus H naught of B is proportional to open paren c of A minus c of B close paren divided by c."
+◦
+Note: A related expression was tested in a blinded form [19]: (A - B) / B = (C - D) / D [19]. This would be read as "open paren A minus B close paren over B equals open paren C minus D close paren over D" [19].
+•
+Example SAT Lagrangian mentioned in the pronunciation guide [3]:
+◦
+Equation: 𝐿𝜃 = 1/2 (∂𝜇𝜃4) (∂𝜇𝜃4) − 𝜇2/2 𝜃4^2 − 𝜖4 cos(3𝜃4)
+◦
+Spoken: "L sub theta equals one half open paren partial mu theta sub four close paren open paren partial mu theta sub four close paren minus mu squared over two theta sub four squared minus epsilon four cosine of three theta sub four."
+◦
+Note: This specific Lagrangian is given as an example in the pronunciation guide source [3], illustrating how to read indices (μ), subscripts (θ₄), exponents (μ², θ₄²), and functions (cosine).
+These examples demonstrate how standard mathematical and physics notation, as used in the SAT context, would be read aloud following conventional practices outlined in the sources [1-3]. The focus remains on using familiar terminology for symbols and operators.
+
+NotebookLM can be inaccurate; please double check its responses.
