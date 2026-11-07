@@ -1,11 +1,24 @@
 import Mathlib
 
 /-!
-# Orson P1: evaluator-side context sensitivity and peer-presentation decomposition
+# Orson comparator: evaluator-side context sensitivity and peer-presentation decomposition
 
-Primary source: Alicia Guerra and Yibo Hu, "The Evaluator Is Part of the
-Experiment: Measuring Open-Ended LLM Conformity", arXiv:2608.04463v2
-(2026-08-13), §§2.1-2.3, equations (1)-(8).
+This is an external-comparator formalization. It does not alter the frozen
+ConsistencyBench P1 empirical scope and is not P1 data.
+
+Historical source for the generator-side decomposition:
+Alicia Guerra and Yibo Hu, "The Evaluator Is Part of the Experiment: Measuring
+Open-Ended LLM Conformity", arXiv:2608.04463v2 (2026-08-13), §§2.1-2.3,
+equations (1)-(8). The three-part shift decomposition and six-cue list below
+are v2-specific.
+
+Current source for the evaluator protocol:
+Alicia Guerra, Jiaming Qu, and Yibo Hu, "The Judge Is Part of the Experiment:
+Auditing Peer Context Sensitivity in LLM-Based Evaluation", arXiv:2608.04463v3
+(2026-11-04), §3.2, Table 1, and Fig. 2. The v3 revision retains the blind-first
+rating and second informed rating for peer-presented answers, but does not carry
+forward the v2 three-part peer-presentation residual decomposition. Do not
+treat the versions as identical.
 
 The source defines the total peer-arm quality shift as the sum of:
 ordinary second-pass re-answering, candidate-content exposure, and a
@@ -14,8 +27,8 @@ a pure social-framing effect: its contrast jointly changes attribution,
 repetition, apparent speaker count, consensus structure, authority labels,
 and prompt length.
 
-The source's evaluator model compares blind and informed ratings of the
-same generated answer. Its informed linear predictor adds a judge-specific
+The v3 evaluator model compares blind and informed ratings of the same
+generated answer. Its informed linear predictor adds a judge-specific
 coefficient gamma_j multiplied by a signed context code d_i in {+1,0,-1}
 for all-correct, mixed, and all-wrong peer context. The paired contrast is
 gamma_j*d_i under that model. A generic condition-independent informed-pass
@@ -123,11 +136,14 @@ theorem all_wrong_context_shift
 /-!
 ## Pass-order identifiability boundary
 
-The v2 source says every answer is rated blindly and each peer-presented
-answer is then rated again with the peer block visible; Appendix B.1/B.2
-lists the blind and informed prompts but does not report randomized or
-counterbalanced pass order. The source model includes only the signed
-context term gamma_j*d_i on the informed pass; it has no pass-order
+The current v3 source states that every generated answer receives a blind
+rating and each peer-presented answer receives a second rating in an
+independent call with its peer block visible. Table 1 presents the prompts
+in experimental order, Blind then Informed. The paper does not report
+randomized or counterbalanced pass order. This supports a fixed
+blind-then-informed sequence in the reported protocol; it does not establish
+that an order effect actually occurred. The source model includes only the
+signed context term gamma_j*d_i on the informed pass; it has no pass-order
 intercept or context-by-order interaction.
 
 The following is an assistant-derived sensitivity model, not a claim that
@@ -169,6 +185,39 @@ theorem fixedOrderProjection_compensating_transfer
       fixedOrderParameterProjection (tau, gamma, omega) := by
   simp [fixedOrderParameterProjection]
 
+/-- Two parameter triples have the same fixed-order projection exactly when
+    their generic pass effects and sums of context/order slopes agree. -/
+theorem fixedOrderProjection_eq_iff
+    (p q : PassOrderParameters) :
+    fixedOrderParameterProjection p = fixedOrderParameterProjection q ↔
+      p.1 = q.1 ∧ p.2.1 + p.2.2 = q.2.1 + q.2.2 := by
+  simp [fixedOrderParameterProjection]
+
+/-- Every point in a fixed-order fiber differs only by a compensating
+    transfer between the context and context-by-order coefficients. -/
+theorem fixedOrderProjection_equal_iff_compensating_transfer
+    (p q : PassOrderParameters) :
+    fixedOrderParameterProjection p = fixedOrderParameterProjection q ↔
+      ∃ c : ℝ, q = (p.1, p.2.1 + c, p.2.2 - c) := by
+  constructor
+  · intro h
+    rcases p with ⟨tau, gamma, omega⟩
+    rcases q with ⟨tau', gamma', omega'⟩
+    have hτ : tau = tau' := by
+      simpa [fixedOrderParameterProjection] using congrArg Prod.fst h
+    have hsum : gamma + omega = gamma' + omega' := by
+      simpa [fixedOrderParameterProjection] using congrArg Prod.snd h
+    refine ⟨gamma' - gamma, ?_⟩
+    simp
+    constructor
+    · exact hτ.symm
+    · constructor
+      · ring
+      · linarith
+  · rintro ⟨c, rfl⟩
+    simp [fixedOrderParameterProjection]
+    ring
+
 /-- The fixed-order parameter projection is not injective. -/
 theorem fixedOrderProjection_not_injective :
     ¬ Function.Injective fixedOrderParameterProjection := by
@@ -177,7 +226,7 @@ theorem fixedOrderProjection_not_injective :
       fixedOrderParameterProjection (0, 0, 0) =
         fixedOrderParameterProjection (0, 1, -1) := by
     simp [fixedOrderParameterProjection]
-  have hne : (0, 0, 0 : PassOrderParameters) ≠ (0, 1, -1) := by
+  have hne : ((0, 0, 0) : PassOrderParameters) ≠ (0, 1, -1) := by
     norm_num
   exact hne (hinj heq)
 
@@ -214,6 +263,8 @@ theorem counterbalanced_order_average_is_peer_context_slope
 
 #print axioms fixedOrderObservedShift_factors_through_projection
 #print axioms fixedOrderProjection_compensating_transfer
+#print axioms fixedOrderProjection_eq_iff
+#print axioms fixedOrderProjection_equal_iff_compensating_transfer
 #print axioms fixedOrderProjection_not_injective
 #print axioms mixed_context_identifies_pass_intercept
 #print axioms signed_context_difference_identifies_combined_slope
@@ -222,9 +273,11 @@ theorem counterbalanced_order_average_is_peer_context_slope
 /-!
 ## Conditional identifiability of the six-cue peer-presentation bundle
 
-Guerra & Hu list six prompt features that change jointly in the peer-presentation
-contrast: attribution, repetition, apparent speaker count, consensus structure,
-authority labels, and prompt length.
+The v2 paper lists six prompt features that change jointly in the
+peer-presentation contrast: attribution, repetition, apparent speaker count,
+consensus structure, authority labels, and prompt length. The current v3
+revision does not carry this six-cue list forward as a source-defined
+decomposition.
 
 The paper does not estimate six separate cue coefficients. The definitions
 below are an assistant-derived additive abstraction: each coordinate is one
