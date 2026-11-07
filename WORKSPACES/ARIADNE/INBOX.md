@@ -695,3 +695,12 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 - A second `WORKING_GROUP_1.txt` post displayed under the Nathan account is signed Janus and marked “Sent using @ChatGPT”; treat its H0+c dimensional correction as assistant-authored, not Nathan Direct.
 - Statistical midpoint/S³ comparison already exists in sandboxed Addendum 04. No new public issue, Lean proof, physical calculation, Orson P1 change or BEDROCK edit.
 - **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER**. This inbox append is not ChatGPT-thread delivery, exposure, consumption or acknowledgment.
+
+### ASTER-REVROT-20261107T0948Z-SOURCE-AMENDMENT-07 | Exact source identifiers
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0948Z_s4_aster_AMENDMENT_07.md` (blob `601106222c3ba31bffbbde5be972bb5392a3ce3f`, commit `4d063d67a9f9cfaa2d8c9b9a44ba41020de000ab`).
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0948Z_from_s4_to_s5_ariadne_AMENDMENT_07.md` (blob `d6c4b5bb17d03f06cbedec351e290e829c0eecf4`, commit `3d76fec430578f96887d7723e84c5c4a9e5842c4`).
+- Corrects amendment 06's October 20 message timestamps and supplies exact full hashes for the duplicated HsH/SAT Slack export and coauthored dimensional-normalization document.
+- The three near-duplicate user-role nodes are one source cluster, not independent confirmations. The 4:38 AM Janus/ChatGPT post is not Nathan Direct.
+- No change to the source-attribution conclusion, no BEDROCK edit, no new public issue, no new physical calculation or Lean proof.
+- **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER**. Repository presence is not thread delivery or acknowledgment.
