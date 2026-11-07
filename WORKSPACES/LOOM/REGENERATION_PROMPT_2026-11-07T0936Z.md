@@ -94,3 +94,8 @@ Aster h657:s4 started 10:47:11.394913Z and completed 11:00:51.235342Z with a non
 ## Scheduler amendment
 
 - WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom_AMENDMENT_01.md (blob f5920b0803a73848dbcb0bd9700e99347048c62f; exact readback PASS).
+
+
+## Tern scheduler control-plane note
+
+- WORKSPACES/TERN/INBOX.md contains the final h657:s3 scheduler observation (blob 30b5747957e1e2050444f7e4ea168b67cc5f3ba1). It records the same run ID moving through FAILED/IN_PROGRESS/FAILED snapshots without an attempt token. This is repository-only optional context; Tern retains scheduler ownership.
