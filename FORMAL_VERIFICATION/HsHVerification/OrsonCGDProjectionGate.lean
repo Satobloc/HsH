@@ -138,6 +138,41 @@ theorem archived_projection_does_not_identify_trigger_pair :
   · rfl
   · decide
 
+/-!
+## Error-sentinel observability gate
+
+Source: the pinned Python evaluator's `call_model` returns the literal
+`"[ERROR]"` after both attempts fail; the NLI parser then evaluates
+`"CONTRADICTORY" in response.upper() if response else False`.
+
+The two concrete strings below are already uppercase ASCII, so this
+source-conditional check isolates the parser's substring/truthiness branch.
+It does not establish that any archived call actually failed.
+-/
+
+def startsWithChars : List Char → List Char → Bool
+  | [], _ => true
+  | _ :: _, [] => false
+  | c :: cs, d :: ds => (c == d) && startsWithChars cs ds
+
+def containsChars (needle : List Char) : List Char → Bool
+  | [] => needle == []
+  | hay :: tail =>
+      startsWithChars needle (hay :: tail) || containsChars needle tail
+
+def sourceNliParserUpper (response : String) : Bool :=
+  if response.toList.isEmpty then false
+  else containsChars "CONTRADICTORY".toList response.toList
+
+theorem error_sentinel_maps_to_false :
+    sourceNliParserUpper "[ERROR]" = false := by
+  decide
+
+theorem error_sentinel_indistinguishable_from_consistent :
+    sourceNliParserUpper "[ERROR]" =
+      sourceNliParserUpper "CONSISTENT" := by
+  decide
+
 #print axioms checker_view_ignores_question_premise_and_final_answer
 #print axioms checker_view_keeps_original_raw_after_revision
 #print axioms repair_view_tracks_revised_final_answer
