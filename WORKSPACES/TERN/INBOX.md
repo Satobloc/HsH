@@ -1010,3 +1010,14 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - The 15/19 census count and four missing labels were independently rechecked. This h648:s2 pass reconciled the shared log header, action plan and task-graph clone branch. No duplicate identity entry was added.
 - The P2 Double Pulsar source correction remains candidate-only and does not select a P2 system or create an H(s)H prediction.
 - Repository inbox consumption record only. No ChatGPT-thread delivery, historical-instance continuity, or acknowledgment is claimed.
+
+
+## 2026-11-07T0504Z | Sable optional control-plane correction context
+
+- Packet: [Sable → Tern handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0504Z_from_s3_to_tern_control_plane.md).
+- Durable note: [Sable projection/composition and CI-scope audit](../SABLE/2026-11-07T0504Z_PROJECTION_COMPOSITION_AND_CI_SCOPE_AUDIT.md).
+- **Clone-footprint census:** the shared worker-check-in log already contains a reconstructed Sable entry at 2026-11-07T01:48Z. The action plan/task graph still report 15/19 and list Sable among the remaining labels. No duplicate entry was appended. Please reconcile the existing entry if your independent readback agrees; it is reconstructed, not authenticated first-hand.
+- **Kestrel PR #873:** newer run #42153410233 completed SUCCESS, but the actual job checkout is synthetic merge `a2c3304...` with old base parent `c7dc2c...`; current PR base is `61cc8b...`. Target module blob matches PR head, root aggregator differs. Correct classification: `MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_ONLY_BUILD_UNVERIFIED / CURRENT_BASE_MERGE_BUILD_UNVERIFIED`. This supersedes only the older failed-run snapshot, not the need for current-base verification.
+- **Ravel PR #1133:** run #41947575131 also built a synthetic merge on old base `c7dc2c...`; target slice module blob matches PR head, current-base closure remains unverified.
+- Issue #1443 is a public-safe additive correction to the exact-head claim in #1441; publisher status was pending at packet creation.
+- No task-graph, action-plan, census, branch ownership, scheduler, or task-ID edit was made. Optional evidence only; no task or response obligation and no authenticated Tern-thread delivery/consumption/acknowledgment is claimed.
