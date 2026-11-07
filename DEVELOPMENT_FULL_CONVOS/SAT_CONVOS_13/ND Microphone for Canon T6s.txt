@@ -1,0 +1,627 @@
+ND Microphone for Canon T6s
+
+Source: https://chatgpt.com/c/6aea4de5-bd98-83ea-b0ae-27c7bfa86e92
+
+Messages: 54
+
+
+
+[1] USER · 2026-11-03T21:11:21.981Z
+
+What kind of Mic do I need for a Canon rebel T6 S
+
+
+
+[2] USER · 2026-11-03T21:17:37.617Z
+
+Looking for producing acceptable quality YouTube videos out of the box, but resourceful in terms of modifications (eg, improvising different sorts of filters, cones, other sorts of mechanical intervention, if that might improve the performance of less expensive or less purpose-ideal microphone—perhaps even including limited acoustic environment, intervention… Like setting up with attention to sound reflective and absorbing surfaces… That kind of thing)
+
+
+
+[3] USER · 2026-11-03T21:22:28.502Z
+
+Looking for producing acceptable quality YouTube videos out of the box, but resourceful in terms of modifications (eg, improvising different sorts of filters, cones, other sorts of mechanical intervention, if that might improve the performance of less expensive or less purpose-ideal microphone—perhaps even including limited acoustic environment, intervention… Like setting up with attention to sound reflective and absorbing surfaces… That kind of thing) … perhaps if it’s useful, things like signal input intervention… I don’t know, what do you call those … damper coils… Not inducer I don’t think… But like the graphite things you wrap wires through … if that kind of thing is an easy signal cleaning intervention… I’ve also got … like stereo amplifiers and things like that which could be put to the purpose if helpful… Or other sources of signal input output manipulation. Open to some amount of post processing, but I’d kinda prefer to reduce the post processing as much as possible. I haven’t done a real check, but the built-in mic does not seem to be ideal
+
+
+
+[4] USER · 2026-11-03T21:28:02.043Z
+
+What’s the cheapest reasonable That could produce the best results and what’s the most reason reasonable expectation of outlay to achieve something acceptable without unreasonable expectations of intervention success
+
+
+
+[5] USER · 2026-11-03T21:30:08.300Z
+
+Also, willing to consider more out their options… I’m sure it would be possible to use a speaker as a microphone with a little bit of ingenuity… Although I doubt it would be easy to get any kind of performance out of something that wacky.
+
+I could also just buy a pair of gaming, headphones or something.
+
+Main thing is I need to know what the line is… It’s the 3.5 mm you said?
+
+
+
+[6] USER · 2026-11-03T21:31:28.562Z
+
+I’m at Walmart right now was just not that I think that’s the ideal place to look… But I checked the pawnshops earlier and those were disappointing. It looks like most of these consumer grade options are wireless or USB-C.
+
+
+
+[7] USER · 2026-11-03T21:33:55.804Z
+
+Well, if I bought a USB-C, of course that would not be something I don’t need… That would be something I couldn’t use. Right now I’m looking at … bower dual pro microphone… It says wireless, but I don’t know if there’s an adapter or something I could use. I think the camera has Mini or micro HDMI, i’m not sure what other Jack’s it might have
+
+I’m guessing my best bet might actually be to go to the thrift store
+
+
+
+[8] USER · 2026-11-03T21:37:21.400Z
+
+Somewhere I have an old handheld digital dictation recorder with a detachable 3.5 mm microphone. And somewhere I’ve got an extension that I could plug it into. As I recall, the model I got was at the time pretty decent. It is now quite old, but in good condition. Almost unused. I was thinking maybe I should just try to get that thing up and see if I can get it to produce some good results.
+
+
+
+[9] USER · 2026-11-03T21:40:36.377Z
+
+Yeah, if I have Wi-Fi at the thrift store, I’ll do that. Given that that is not guaranteed … any particular heads up for things too look for or avoid? Any other retailers you would recommend checking? I mean, types of stores? Like, CVS‘s Sometimes surprising. Menards seems to always have a department or at least a shelf for things I wouldn’t expect… aldis even lol.
+
+If the thrift store doesn’t have something, I think my next stop is Facebook marketplace.
+
+
+
+[10] USER · 2026-11-03T21:42:52.535Z
+
+Wait, what do you mean beyond microphones? You mean for other things generally? Where are you hinting at some kind of non-microphone audio acquisition?… I’d hesitate to use a direct brain to camera wetware Jack I found at a thrift store lol
+
+
+
+[11] USER · 2026-11-03T21:45:02.090Z
+
+So, basically old recognized brands… Things that feel like they belong in band gig storage… A lot of the older stuff still follows the if it feels nice it probably is nice… If it feels heavy… It’s probably even better.
+
+
+
+[12] USER · 2026-11-03T21:45:41.369Z
+
+Like I said, I have stereo amplifiers, and I believe I have a preamp as well
+
+
+
+[13] USER · 2026-11-03T21:47:48.066Z
+
+Yeah, I used to do stuff on stage and bars sometimes, so I probably have an XLR preamp. If it’s better to look for those, then I’ll shift my attention. Anything to watch out for in terms of like, missing power sources that I wouldn’t want to get home with and realize don’t work? Any ways to guess whether something is in functioning condition other than general appearance of damage?
+
+
+
+[14] USER · 2026-11-03T21:49:02.996Z
+
+Anything that I might spot that could have power supplies that I could substitute for something that I might have sitting around
+
+
+
+[15] USER · 2026-11-03T21:50:45.677Z
+
+Routers and modems??
+
+
+
+[16] USER · 2026-11-03T23:24:08.429Z
+
+OK… Hear me out… Piece of paper… A light… I’ll already have studio lighting… Then all I need to do is get an LED flashlight, reverse the polarity of the LEDs so they act as light sensors… Mount that with the paper blocking of the light whose transparency is very sensitive to distance… Might have to soak it in water oil first or use wax paper… Then all I would need to do is wire the LEDs of the flashlight into the cameras 3.5 mm jack … possibly set up a reflector cavity with some aluminum foil or something to act as an optical interferometer to amplify the signal…
+
+Or if I had a thermocouple, which… I’ve got pennies and nickels, so I do have thermocouples… Although … Might take some work with a hammer and a plasma torch perhaps… Plus, the adapter sitch for American coinage is abysmal… then I would just need to speak … very intensely so that the sound converted the heat…
+
+Or … a plastic storage bin, a fiber optic decorative… I don’t know what you called them, but fiber-optic fountain, or whatever where they’re all kind of waving around… Rub them both on one of the cats… Although I may have to take into account the polarity of the cat… Put the fiber optic lamp inside of the bin, plugged the lamp into the camera… and talk at the bin so that the static charge vibrates the fiber optic filaments,… Calibrating would be a bitch, but… What are you gonna do?… Of course the fire or optics offer photonic correlation, which would be sensitive to the motion of the fiber optics… Do the same LED trick at the base of the lamp… That would probably make it very sensitive to different lighting conditions based on the particular position of all the fiber optics… Wire that in, set up the optic signal and the static electric signal as varied two dimensional display fields… use the interference pattern to reverse engineer the moïre signal into three-dimensional sound… 
+
+Oh… A sonic cleaning device. I see options….
+
+If I could make this, Dustbuster sensitive enough, just reverse the section to be relative vacuum sensitivity… that’s sound detection right there… then I would only need to mount something on the inside to convert the sound to electricity… I’m thinking maybe an XLR Mic might work for that…
+
+
+
+… There’s also the possibility that I could just plug directly in… Put a cord directly into my mouth, learn to vary the chemical gradient of my saliva to vary according to it… 
+
+…, I wonder if I could use my phones accelerometer… Pull out the guts of a couple of old meat grinders… Run a current through them… slowly crank them, so they’re just barely forming a spark gap… Suspend a good rare earth magnet above the spark gap… so when it vibrates it affects the average amount of current flowing through the system… find a pull tab can… Like for beans or something… Wash it out really good… Epoxy to the phone run the electrical signal through the Bean can… That it forms a gradient and then around the other signal from the meat grinders… So that the gradients interfere… This should cause the Bean can lid to vibrate, which coupled to the phones accelerometer could be turned into an electrical signal, and then converted into sound from there…
+
+I have so many options 
+
+Also… For many of these options, I could rig up a simple amplification system, simply by getting in a vehicle and driving towards the sound sensor near the speed of light… That would just change the pitch… But if I accelerated the camera towards the speaker also near the speed of light, then both signals would be compressed to a very high frequency, and it would be very sensitive to small variations… Yeah, that might amplify it…
+
+Or… If I got … a cherry picker… A pulley and one of those things they put the phosphor on for old Timey photographs… I could just put some … talcum powder on it for example, rig it up so that as I spoke, the more Forcefully, I spoke, the more powder would fall off… Onto a separate hopper, attach to the pulley with the weight on the other side, then… I would just have to measure the relativistic mass change of the weight as it lifts out of the gravity well. I could also use a time dilation measurement, device, or both together to get a better signal. Why are them into the camera… tada
+
+Or… If I got a really good cylindrical bearing implanted in my jaw… With the central cavity exposed so that I could insert a rod with a weight plum, Bob attached to the end of it … And a Newton’s cradle, the ax is a variable resistor… Then when I talk the plum bob would swing that slightly different rate depending upon my job position… If the ball bearing is really good… Then I could just wrap some wire around the plum Bob, the ends of which would run through separate wire coils… Which could then be placed in a powerful magnetic field…… Nearby I would place an old metal hamster wheel, with a hamster use the magnetic field to vary the resistance of the wheel… And then repurpose a polygraph machine to detect the hamsters state of agitation… I would want to get a bipolar hamster, I think… sorry, BPD .
+
+
+Or … wine glass… Also using the  accelerometer… if I smoke at a very very high pitch… But I had very good control over the pitch… I could squeal until the glass begins to crack… And then change my pitch just enough to arrest the propagation of the crack… And then very carefully aim my voice … like a sonic laser to control the production and propagation of new cracks, the micro vibrations of which could cause a soliton to form inside of the glass… … Especially if I can crank up the sonic power of my voice so that I stripped the electrons from the atoms to form a plasma flux tube… which will be very sensitive to sound/directly into the wine glass… I might have to suspend it upside down, of course… But then I very sensitive directional mic … And then simply read a hand, cranked sensitive paper roll which would record essentially a sonographic optical filter that can be ran over my optical interferometer from before … and then we’re home free.
+
+Or … a candle and an array of precisely placed Roman candlewick’s… Which could be duct taped to a piano, soundboard, so that when I spoke towards the candle, it would light the fuses at different times… and if I welded the soundboard to the side of a car… Then the timing of the room candles would set off a wave of vibrations through the piano wires, but there would be an offset for each of the fireworks based on when they were triggered… The acoustic interference pattern would vibrate the car… I would fill with smoke… Suspending the camera from the ceiling of the car so that the vibrations would cause the brightness of the light outside to filter in differently… And we would simply run that signal to the cameras, infrared sensor… then I put the camera inside of the car, suspended from the roof… Alternately, if I installed a sunroof on my car, I could put the camera lens down on the sunroof, and a really bright light on the dashboard the sound resolution variation it’s difficult to convert from a temporal signal to an acoustic signal… I would just need to fill the car with … probably silicone oil or something like that… Actually, I would need to submerge the whole car in silicone oil… So probably just go cheaper with regular mineral oil or if I wanted to get fancy… Tongue oil… So what I need is a lake full of tongue oil we would want to do this in an area that has a lot of ambient pollen, and probably let the lake ripen for the season… Then turn on the fence in the car to get a laminate flow going and basically a window then the pollen flow would produce a three-dimensional fingerprint inside the car which could be reverse engineer into a sound signal from the cameras, CCD… Of course I wouldn’t be able to use it as a camera… Unless I got a diving suit in an oxygen tank and did the YouTube video from inside the car. Of course I would have to be careful not to disturb the laminate flow… So I would have to hook up my face mask to a very well sound insulated tube pump it outside the car to exhale onto the candles… But and here’s the benefit of doing it this way: all I would have to do is shrink the size of the tube to amplify the signal… And then I could control the gain simply by varying how breathy I my voice is … it might be a contagious to get a Cantonese speaker to give me some training on that.
+Or … I could find an evil Knievel… Or a train to be one, although that would add additional complications and it’s probably a good idea to follow the KISS rule here… Of course, but, it would be relatively straightforward to start a flock of geese, one goose at a time, selectively choosing the size… Or perhaps color but then we would need to loop the camera CCD back into the circuit again and I want to avoid that… So the size it is… And when he’s jumping over the Grand Canyon… I’ll have a piece of fishing line attached to the motorcycle… So when the goose flies by with variable startling factor, he flinches a different amount… And then simply attach the string to the 3.5 mm, plugged loosely in, and attached to a 9 V battery… So as the jack gets pulled out of the hole, The rate changes are correlated to the sound of my voice when I frighten the geese. Of course… I would need probably a whole bunch of pulley tackle to dampen the stunt man’s run out given the Jack is so short… But I could improve that simply by polling the fishing line around one of his wheels with a lot of extra line such that the wheel is releasing the line at a rate, the compensates the variable tugging that his flinch produces
+
+But in principle,
+You’re welcome.
+
+
+
+[17] USER · 2026-11-03T23:25:29.582Z
+
+Something to do while looking at a selection of home electronics that’s everything other than audio equipment. I bet you some local AV shop has picked everything over to sell to the Campus crowd.
+
+
+
+[18] USER · 2026-11-03T23:33:12.544Z
+
+A couple of details… Most of which I’ve forgotten so I’ll just give you the one… In principle, plug in LED into an audio jack would work just fine so long as the light sensing capability of the LED put out enough of a signal to detect and the cameras Audio. Jack is sensitive enough to the electrical signal variation… Would probably take a little bit of tuning…
+
+
+
+[19] USER · 2026-11-03T23:48:28.726Z
+
+You know it would make a great amplifier…
+
+
+
+[20] USER · 2026-11-03T23:48:40.656Z
+
+Close: a TEM
+
+
+
+[21] USER · 2026-11-03T23:49:01.752Z
+
+Yeah… Think about how sensitive it is
+
+
+
+[22] USER · 2026-11-03T23:49:42.153Z
+
+All an amplifier is it something that turns a small signal into a large signal
+
+
+
+[23] USER · 2026-11-03T23:54:01.008Z
+
+… yeah, just don’t put the grid in all the way, attach it, so it can shake like a leaf then you just have to attach something to the probe to send vibrations down it… Alternately you could run an electrical signal through it… Or just set the whole thing up as an inductor 
+
+Or… just put a piece of … anything crystalline on the grid… in fact, put two thin slices in … stacked on top of each other… Then you could probably detect almost atomic scale vibration. Just by switching over to the x-ray to fraction unit if you got one.
+
+
+
+[24] USER · 2026-11-03T23:55:55.287Z
+
+Actually… The electron beam would be projecting a difffraction pattern that varies in three dimensions dynamically… You’ve gotten an acoustic hologram… In fact, a hologram of whatever signal you could rig up to cause any relational variation between the slices
+
+
+
+[25] USER · 2026-11-03T23:58:38.673Z
+
+You could probably put a layer of oil or something in between the slices, mountain them at a very slight angle and make the free rotating slice waited just a little bit on one side, so it tends to align in a certain way… Then, depending upon the materials, you used, the electron beam itself Could cause a static voltage differential across the rotating slice, which might be variable by modulating the beam…
+
+
+
+[26] USER · 2026-11-03T23:59:43.513Z
+
+You could set the whole thing up as an electron resonating chamber… I guess it kind of already is probably
+
+
+
+[27] USER · 2026-11-04T00:01:44.173Z
+
+Well, if you made the probe into a little micro capsule… A nano capsule… You might be able to get single electron resonance in the cavity bye setting up something somewhere to a two slit experiment
+
+
+
+[28] USER · 2026-11-04T00:02:22.560Z
+
+That would be one hell of a vibration sensor
+
+
+
+[29] USER · 2026-11-04T00:05:09.987Z
+
+Or a lead cover slip with a fraction grating into it … Use it as a cap for a tiny dish containing live, slime mold… Depending upon how the defraction was patterned, you could get some very complex, slime mold behavior as they navigate to avoid the electron beam… Then bioimpedance…
+
+
+
+[30] USER · 2026-11-04T00:06:05.945Z
+
+And then you just torment them with the beam until they invent a can opener and get out… And teach you all the things they learned about acoustics
+
+
+
+[31] USER · 2026-11-04T00:06:48.318Z
+
+Then again… Maybe that’s what earth already is lol
+
+
+
+[32] USER · 2026-11-04T00:14:42.795Z
+
+Yes, you would need some area where they could thrive so part of the plate would have to be solid… But lethal beam… That would be something for them to avoid, and you could structure it and all sorts of ways, and place the food so they have to navigate the structured safe path… And the bottom of the container could be transparent, filled with lead bearing liquid crystal fluid, such that the suspended lead gets driven out of the path of the beam preferentially collecting under the particular paths that the slime mold chose … of course, you would have to set up the defraction grading, so it has little deformable mechanisms so that the slime mold, as it’s crawling through, basically shuts a trap door over its head, shielding itself, and thereby creating a shaded, bio generated dendritic structure projected down onto whatever you put underneath… Which of course you would want to put another container of slime mold… So that way the lower level is learning to adapt to the upper levels behavior… And then things happen… And it’s cool/useful
+
+
+
+[33] USER · 2026-11-04T00:22:33.691Z
+
+Well, I think a diffraction grating has some potential advantages… Sensitivity to variation being one of them… So that the projected shadow would not necessarily just be a simple, super imposed image of the organism’s path… And the colony below would be responding to something with a more complicated relationship to the supervaling morphology… I’m not sure exactly what you would do with that but … convoluted but still causal structure seems like an opportunity to develop some interesting emergent patterns that aren’t immediately bound to a simple reflection of the other organism
+
+
+
+[34] USER · 2026-11-04T00:28:12.893Z
+
+… You could make the capsule closed to the vacuum… And whatever intervening layer could be likewise sealed off from the organism so that toxicity isn’t an issue… 
+
+Now… here’s the interesting part… stack it three or six or 100 layers deep… or however, far it’ll penetrate and still produce a significantly varied output underneath the interesting part is this: you attach a detector underneath to record the live pattern as it changes… You run some signal wires up to something like an LCD at the top forming a variable opacity image of the output signal… That way the output becomes input
+
+
+
+[35] USER · 2026-11-04T00:28:53.598Z
+
+Would they learn to work together to maximize the living area for everybody?
+
+
+
+[36] USER · 2026-11-04T00:30:01.890Z
+
+There would be some variation on this that would act as a mirror test for slime mold. Although I’m sure somebody’s already figured out a way to do that.
+
+
+
+[37] USER · 2026-11-04T00:31:05.142Z
+
+Now here’s what you do… You have pattern dependent variation in nutrient source… So it learns to dance for its preferred foods… :D
+
+
+
+[38] USER · 2026-11-04T00:35:48.599Z
+
+You realize this is the beginnings of motivated representational artwork… If it learns which patterns to produce to get the preferred food sources… That’s no different from putting your order in at Wendy’s using their house terminology… Super size… biggie… except because the slime mold presumably does not understand the signal or causation… It’s essentially a ritual
+
+
+
+[39] USER · 2026-11-04T00:37:37.840Z
+
+But if you design the system cleverly enough… You could turn the stacked environments into interdependent state representation systems, and the signaling pathway could act as a communication channel… They might have to learn to talk to each other
+
+
+
+[40] USER · 2026-11-04T00:38:40.078Z
+
+Not human language. Not necessarily symbolic understanding 
+
+Again, we don’t know that human language is that for anyone other than ourselves
+
+
+
+[41] USER · 2026-11-04T00:43:59.846Z
+
+[Attachment: image_asset_pointer sediment://file_00000000d42c81f99193d54eb59646af]
+
+￼
+The New Physics
+
+Notifications
+	•	 
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “The Mass of Other Days” 1d  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “THROWBACK (Early RMS): The Weight of a Thought” 4d  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Vera Prediction: Disappearing Stars” 6d  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Crullerverse & Kerr Breathing” 1w  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “The LLM Is Just A Solver -- and so are you.” 1w  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Braiding” 1w  
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Some SAT/H(s)H Predictions” 1w 
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Whelp” 1w 
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Matter is Slow Glass” 2w 
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Rewriting Spacetime” 2w 
+	•	￼
+	•	 Your episode assets are ready Check out what we’ve created for your episode “Conflicting Answers” 3w 
+	•	￼
+	•	 Upload a 2026 Spotify Wrapped video Make Wrapped more memorable for your top fans with an end-of-year video. 4w
+
+
+
+
+￼
+
+Say Hello to My Little FishAudio
+4 min
+
+Published: November 17, 2025 at 3:07 AM
+
+AnalyticsDetailsCommentsClipsPolls
+
+
+Your transcripts, chapters, and more have been automatically generated. You can review and edit them at any time. Learn more
+
+
+Episode info
+
+Title*
+(required)
+
+27 / 200
+Description*
+(required)
+
+
+HTML
+
+
+
+
+
+
+
+Another Chinese Room
+20 / 4000
+Episode art
+￼
+
+In this episode
+Add shortcuts to episodes, shows, songs, albums, artists, audiobooks, or playlists that are relevant to this episode. Learn more
+
+Add a shortcut
+
+
+
+
+
+
+Topics
+Topics are shown when someone plays your episode on Spotify. You can hide topics that aren’t relevant.
+
+	•			 Artificial Intelligence  Cognitive Science  Consciousness Studies
+
+
+Guests
+Guests are shown on your Spotify episode page. You can remove any guests that may not be relevant.
+
+
+No guests found for this episode.
+
+Schedule
+
+Publish date*
+(required)
+All times are local
+
+Now
+
+Schedule
+
+Content checks
+
+Explicit content
+Help fans of all ages avoid unwanted explicit content.
+
+
+No
+
+Promotional content
+Does your episode contain promotional content such as ads, product placement, sponsorship, or endorsement?
+
+
+No
+
+Additional details
+Episode type, season, and settings
+
+Episode type
+
+Full
+
+Trailer
+
+Bonus
+Season number
+
+Episode number
+
+￼
+
+Say Hello to My Little Fish
+The New Physics
+
+00:00
+
+
+Episode preview
+
+
+
+Transcript
+
+
+
+Chapters
+
+
+
+© 2026 Spotify AB
+Legal
+Privacy
+Cookies
+
+
+Auto-generated
+￼
+Say Hello to My Little Fish
+The New Physics
+0:03
+All right, buckle up.
+Here's the Morse fish idea, fully scaffolded in short, punchy scaffolded steps with pauses, parentheses, and little jumps to make it feel like a slow conversational walkthrough.
+Step 1 The fish.
+0:18
+And it's dots.
+Imagine a fish with a line of dots along it's back.
+Each dot can be on or off like little lights.
+Sometimes the dots connect, sometimes they don't.
+You can watch them, but you don't know what's inside the fish's mind.
+Step 2.
+The dots start moving.
+0:34
+Now the dots can change, sometimes randomly, sometimes following simple rules.
+And imagine 2 fish.
+The dots of 1 fish react to the other fish's dots.
+Fish one flips A dot.
+Fish 2 flips the opposite back and forth.
+Step three patterns appear.
+0:51
+From this, simple flipping patterns emerge.
+Sometimes they look random, sometimes they look like a message, sometimes like a looped conversation between fish, sometimes like something endless and open.
+Step 4.
+The equivalence principle Here's the big idea.
+1:07
+If two systems look exactly the same from the outside, then you cannot tell them apart.
+Doesn't matter if one is thinking or not thinking.
+Doesn't matter if one understands or is just flipping dots.
+Observably, they are the same.
+Step 5.
+1:23
+Syntax versus semantics collapse.
+Look at the patterns again.
+You might say this is meaningful or this is nonsense.
+From the outside, they are formally indistinguishable.
+Syntax equals semantics mean equals meaninglessness, at least externally.
+Step 6.
+1:40
+Patterns can mirror logic.
+Now let's make the dots bigger, or more dots or more fish patterns can become isomorphic to any logical argument, step by step, flip by flip, dot by dot.
+It can encode a if BA then A equal B mirroring and loops like a tiny logical conversation, but still doesn't prove the fish understands anything.
+2:01
+Step 7.
+Any pattern reactive system.
+Now step back.
+Replace fish with anything that reacts to patterns.
+Neurons, AI, social signals, traffic lights.
+Same rules apply.
+Outputs may look intelligent, logical, meaningful, but we cannot know if cognition exists anywhere, even subsets of patterns in a bigger system.
+2:20
+Still opaque.
+Step 8.
+Epistemic conclusion.
+Cognition is hidden, meaning is projected by the observer.
+Apparent reasoning, loops, messages may all exist, but externally no way to tell what is real inside.
+Step 9.
+2:36
+Philosophical echoes discard.
+I think therefore I am.
+Morsefish says you can know your own mind, but not the fish's mind.
+Nagle What is it like to be Morsefish formalises this.
+External patterns cannot reveal subjective experience.
+Seal, Chinese Room.
+2:53
+Morse fish generalises it.
+Dynamic systems, loops, stochastic interactions Hofstarter, strange loops.
+Loops may exist, but structure awareness Chalmers hard problem patterns qualia.
+The hard problem remains.
+Step 10 The Morse fish principle.
+3:10
+For any system where patterns react to patterns, observable outputs cannot tell you.
+Is there cognition?
+Is there partial cognition or none at all?
+Meaning, reasoning, intelligence are observer projections.
+Complexity or logic in outputs does not guarantee understanding.
+3:27
+Tiny recap in playful steps. 1.
+Fish with dots.
+Dots flip some mirror each other.
+Two patterns emerge.
+Random meaningful loops open-ended 3.
+Externally all patterns are equivalent. 4 Syntax equals semantics equals meaning equals meaninglessness 5.
+3:43
+Patterns can map to any logical argument.
+Still no proof of understanding. 6 applies to all pattern reactive systems. 7 Cognition is hidden, meaning is observer projected. 8 Philosophers are echoed.
+But Morse fish makes it formal.
+If you like, I can now make a version that is even spoken with pauses, ellipses and conversational asides.
+4:04
+Like a gentle lecture to A5 year old tenured philosopher.
+Almost performative.
+Do you want me to do that?
+Transcripts
+
+
+
+[42] USER · 2026-11-04T00:45:45.986Z
+
+We have no access to ontological anything
+
+
+
+[43] USER · 2026-11-04T00:47:48.389Z
+
+We have no access to ontology, mediated or otherwise. Or rather, no observer has any way of knowing even in principal whether their perceptions are or are not reflective of anything beyond their perception
+
+
+
+[44] USER · 2026-11-04T00:48:08.971Z
+
+We have no access to ontology, mediated or otherwise. Or rather, no observer has any way of knowing even in principal , in any possible universe whether their perceptions are or are not reflective of anything beyond their perception
+
+
+
+[45] USER · 2026-11-04T00:50:46.224Z
+
+If there is a discoverable external referent … Then it too becomes part of the perception. Space, not part of the beyond space… And the observer has no way of knowing whatsoever, whether or not it emerged from some unperceived background or, originated at the onset of perception.
+
+
+
+[46] USER · 2026-11-04T00:55:54.876Z
+
+Even the notion of being mediated by something is basically non-discernible… If the only indication of something is through some detection device, then the perception is an understanding of that device and it states… Whether or not we suppose it to be reflective of something else elsewhere as well… Like, say it, predictably, detects, unseen light, prior to that light becoming visible as it gets brighter or closer or something… And you’ve got a lot of these early detections as you would probably call them… That reliability we take to be indicative of an unobservable precursor state… Which is a reasonable framing, but all we really know is that there’s a correlation… Or rather that there has been an array of correlations. The more correlations we can verify the more confident we get, but that confidence has no bearing on whether or not there’s causal relationship there, or whether it’s purely coincidental or driven by some other system
+
+
+
+[47] USER · 2026-11-04T00:58:44.175Z
+
+And even if we can start the theory as to how that suppose precursor state maybe otherwise detectable… And rebuild a new detector to detect the signal in another way… If we were right, and we detect exactly what we expected exactly how and where we expected it… Our confidenceis sky high. But our knowledge hasn’t changed… Or rather, our knowledge of the number of correlations we can make has increased. Only that.
+
+
+
+[48] USER · 2026-11-04T01:04:16.339Z
+
+Even discussing something that we might want to call independent existence, apart from evidence or observation is … one of an infinite number of possible descriptions of the system as a defensible as it is utilitarian… But every other equally consistent description is just as good, if it offers Exactly the same utility… Or better or worse, but again those are descriptions of utility…
+
+
+
+[49] USER · 2026-11-04T01:07:00.944Z
+
+No… A description is just … a representation of something. Apart from observation of our own mind, and reasonable, but ultimately not knowable inference about what other minds should look like and act like and how to identify them… So apart from our own reasoning process which we can observe, more or less directly, we can’t differentiate between representation and correlation
+
+
+
+[50] USER · 2026-11-04T01:59:26.358Z
+
+We may have inaccessible parts of our own mind. But we can’t say that either for sure.
+
+
+
+[51] USER · 2026-11-04T02:03:06.523Z
+
+Well… We have complete access to the experience that we experience… Whether that is a small or large part of some … of anything is unknowable. But, interestingly, enough… Everything that we do experience, we know for certain is an experience that we are having
+
+
+
+[52] USER · 2026-11-04T02:07:43.474Z
+
+Right. Experiences are, if we are to retain the word “real” as a definable category… That is what experiences are. They are the only things we have that could be because they are sum total of everything we have. My virtue of having them, they are certain. By virtue of the experience itself, its distinctive qualities and observed relations to other experience are known. And with absolute certainty.
+
+
+
+[53] USER · 2026-11-04T02:08:44.030Z
+
+Well, any statement about what experience is where it comes from, what it means, what is made out of how it works… Is an experiential phenomenon itself
+
+
+
+[54] USER · 2026-11-04T02:11:40.779Z
+
+The only defensible… Or I should say the only knowable … which is to say the only thing we have to apply any terminology too search that the application has any definable meaning … is experience itself… Or portions of it… Even a statement about something that is claimed to be outside of experience is only accessible through the experience of making the claim
+

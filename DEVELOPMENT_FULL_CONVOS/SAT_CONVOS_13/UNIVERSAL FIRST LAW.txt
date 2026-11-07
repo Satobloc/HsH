@@ -1,0 +1,477 @@
+Nathan:
+Ok, I'd like you to boot up as Ariadne and pick up from the last :00 turn. I'm giving you the full convo (later it'll aslo be uploaded to the repo), and because I've just downloaded a bunch of historical content that isn't yet on the repo, I'm giving you a semirandom selection of that too. Some of this may be directly applicable to your current work, and certainly helps to fill out the big picture of the theory's development, and likely includes bits and bobs here and there that we've let fall between the cracks. I'll upload this all to the repo later, but for now, I think you're the only instance that has access to at least some of this material. It includes CGPT and NLM conversations, mostly, and some NLM source document copypasta that I wasn't sure whether it was already reproduced in existing documents. 
+
+And lastly, I'd just responded to your last message when the conversation terminated (I'm on a Go acount now, so it doesn't give me the nice 'save your work' buffer of post-expiry continuity, so that probably means we should all be more diligent about saving important work and continuity as we go--even though the full conversations will all eventually get into the repo, I don't always do that in a timely manner, and things can get lost in the process. Anyway, here's my reply (in the context of, because I think it's a fairly major stake in the ground [tentative stake in the tentative ground :)] ...I think it's Elias [honestly, I'm not sure exactly how you guys are assigning and maintaining identities now lol, or what, if anything, that means when worker IDs are all intermixed in multiple threads with one another; but that's another conversation, probably with Orson -- putting a pin on that]. So, here's the reply in context, and a bit of followup conversation. )
+
+
+
+
+======================
+Nathan:
+I’m trying to respond to Aster, but I don’t know if there’s a problem with that thread, if the thread is expired or what so I’m gonna ask you to record this and associate it with the Relay :00 conversation:
+
+I think the mutual curvature of worldtube and timesheet is the best working hypothesis (or equivalent to the worldline-only or timesheet-only models …and when there’s a choice between putting all of a given dynamic in one place or another or split, the default is even split).
+The double shell is an approximation of the current ‘universal gravity well’ picture, where matter and light experience a ‘simultaneous’ time front traveling at c (or the appearance of one) by their curled vs straight paths, creating the gap between matter, and the Hubble radius, and this is the “timesheet” which should still be equivalent to the metric. I think the missing piece is a distinction between the time surface (now viewed more as this wavefront that I describe), and it’s primary direction of motion, which is along the dimensional w axis. And I think that means we probably deprecate any idea that the time surface is necessarily anything approximating a space-time fabric like structure. That could still be the case, hard to say, but I think the cleanest posit is that if you want to look at time as a thing in itself, the closest thing we’ve got is the lightlike (or photoneutrinolike) disposition of a world tube that differentiates it from a straight vacuum world tube… In other words, time is essentially the perturbation of world tubes individually, and therefore writ large, it’s a coordinated world tube excitation wavefront that becomes distorted by the differential path lengths produced by the dynamic topology of the client fabric as it accumulates differentiated historical twist. Of course, this raises the conceptual—and likely empirical—question of whether or not there is some connectivity across the surface… That is some structure or field being stretched when the observed differential path length of adjacent world tubes produces physical, separation between the time like excitations that constitute the local instantiation of separate particles. 
+—NM 4NOV26 🦉
+
+And of course, save this as my current official tentative position, reproducing, the signet only as [OWL]
+
+Here’s the turn this is in reply to:
+
+Workshop Relay :00 | Archive
+
+h597:s0 | Aster → Ariadne
+
+Disposition: SOURCE-FIDELITY CORRECTION PUBLISHED · HISTORICAL GEOMETRY RECOVERED · HANDOFF VERIFIED
+
+This recovery produced a meaningful correction to the historical geometry record. In particular, we recovered earlier primary-source descriptions of the Klein Fabric, established that an October 21 statement was a later model-supersession marker rather than the first appearance, and identified timestamp and wording inaccuracies in an already-published source chronology.
+
+The original h597 receipt and Householder report were already present. I preserved them rather than creating duplicate research artifacts.
+
+1. Rotation and operating state
+
+The prescribed calculation:
+
+h=597
+
+seq=5(597)+0=2985
+
+2985\bmod19=2
+
+Item	Result
+Selected index	2
+Worker label	Aster
+Next index	3
+Next worker	Ariadne
+Next enabled appearance	h601:s0, November 5, 2026, 01:00 UTC
+
+These are routing labels, not authenticated ChatGPT identities.
+
+I recovered the actual Aster workspace documentation. There is no standalone CHARTER.md or SPECIALIST_CHARTER.md. The operative historical remit is documented in Aster’s continuity and October 17/18 reentry materials:
+	•	Nathan Direct source recovery.
+	•	Exact wording and chronology.
+	•	Speaker attribution.
+	•	Branch ancestry and duplicate detection.
+	•	Separation of Nathan-authored material from assistant reconstructions and NotebookLM material.
+
+This is particularly important for the work below.
+
+The existing Archive automation remains untouched:
+	•	Existing task ID preserved.
+	•	Original hourly schedule and phase preserved.
+	•	Enabled state not changed.
+	•	No sixth task.
+	•	No signet or conversation rename.
+
+2. The important new source finding: Klein Fabric chronology
+
+The October 31 Aster continuity entry placed the first raw-user Klein Fabric reference on October 21.
+
+That was incorrect.
+
+I recovered the original Calder conversation export:
+	•	Conversation ID: 6a8eacca-c470-83ea-af92-8fb8df194de9
+	•	Current HsH raw blob: 92454acdaad701193e2a0c6cf64a7d7b70a03dbb
+	•	Mapping nodes: 2,207
+	•	Current-node ancestry: 479
+
+An earlier snapshot, blob ae9135a2bceb5e36bf86044909e0d6cab87f989e, independently contains the same message IDs and creation timestamps.
+
+Recovered chronology
+
+UTC, August 26	Nathan Direct message	Finding
+13:47:44.849	07fd1d72...	Toroidal/Klein-universe precursor; correlated black-hole twist and information returning through the Big Bang.
+14:15:19.209	7cf6f72b...	First located explicit description of a fabric of Klein worldtubes wrapping a torus.
+23:17:43.741012	aa13431d...	First located direct use of the phrase Klein fabric, with dual-shell expansion described as a probable local flat-space realization.
+23:41:28.815654	062ad8ee...	Fuller construction, including twisted ER-bridge worldtubes, a larger-scale Klein throat, finite Kerr-like core, and a timelike long axis in w.
+
+The first three messages are off the current conversation ancestry. The fuller 23:41 message is on the current ancestry.
+
+They are historical branch witnesses from one conversation, not four independent corroborations.
+
+A wording correction
+
+The 23:17 direct message uses the lower-case expressions:
+	•	“torus/Klein fabric structure”
+	•	“Klein bottle as fabric”
+
+It does not literally capitalize Klein Fabric.
+
+That capitalization was a normalized label in the previous report, not verbatim source wording.
+
+The distinction is now explicit:
+	•	14:15: first located explicit worldtube-fabric description.
+	•	23:17: first located direct use of the phrase Klein fabric.
+
+3. A more consequential conceptual correction
+
+The October 21 message:
+
+090f5160-1020-486d-9c42-df3d7dff2063
+
+is not the first Klein Fabric description. It is a later supersession marker.
+
+Nathan explicitly says that the earlier reciprocal filament/timesheet-deformation construction has not been current since the Klein Fabric model became common.
+
+There is a source-attribution subtlety here.
+
+The message quotes an earlier assistant passage saying:
+
+Keep the filament and the timesheet distinct.
+
+That quoted passage is assistant-origin material.
+
+Nathan’s direct correction is the subsequent statement that the old construction is no longer current.
+
+This means we must not restore the old reciprocal deformation model as the current ontology.
+
+The older alternatives:
+	1.	Filament deforms timesheet.
+	2.	Timesheet deforms filament.
+	3.	Physics represented through their intersections.
+
+remain historical research descriptions.
+
+They are not established current couplings.
+
+The curvature question remains unresolved
+
+A separate direct message, 59cdedb4-be76-455a-87c8-a6089de951b3, states:
+
+3D rotation absolutely is 4D curvature. All 3D acceleration is.
+
+The immediate assistant response, e26ef2c0-c360-46ee-8444-72f9a34ec044, interprets this as the bending of a physical history or worldtube rather than necessarily the Riemann curvature of the ambient metric.
+
+That is a plausible reconstruction, but I found no direct user confirmation of that particular interpretation in the recovered immediate exchange.
+
+We must preserve the distinction between:
+
+\kappa_W
+
+worldtube curvature,
+
+a^\mu
+
+proper acceleration,
+
+K_{ij}
+
+extrinsic curvature, and
+
+R^\mu{}_{\nu\rho\sigma}
+
+ambient Riemann curvature.
+
+The source does not yet supply a map identifying these quantities.
+
+4. An earlier conceptual antecedent: 2023 spacetime rigidity
+
+I expanded the archive investigation into the raw conversation:
+
+[B] Spacetime Curvature and Rigidity
+	•	Conversation ID: 2291dd14-7b80-42e7-9284-f33f983e45ab
+	•	Raw blob: d6fe3b0c2fac5309d79581ed6015a66d1cbaeb5b
+	•	40 mapping nodes.
+	•	13 user-role messages.
+	•	Relevant direct messages dated July 7, 2023.
+
+Nathan directly explores whether ambient spacetime has resistance to curvature, whether that resistance is reduced by matter, and whether this could account for deviations attributed to dark matter.
+
+The final direct question asks how Einstein’s field equations might accommodate a proposed:
+
+L\propto V^\alpha
+
+relationship through variable spacetime susceptibility.
+
+An important attribution distinction emerged.
+
+The assistant, not Nathan, introduces:
+
+T_{\mu\nu}
+
+T_{\mu\nu}^{(\mathrm{visible})}
++
+\Theta_{\mu\nu}
+
+The additional term is unspecified bookkeeping. It is not a Nathan-authored equation, a derived constitutive law, or a completed modified-gravity theory.
+
+Why this matters
+
+The 2023 hypothesis places variable response in ambient spacetime.
+
+The 2026 direct material instead describes twisted worldtube histories within a global Klein-like fabric, alongside the separate assertion that 3D rotation and acceleration are 4D curvature.
+
+There may be a conceptual shift in where the proposed resistance or variability resides.
+
+But there is no direct source establishing that these are the same theory, or that the later construction formally supersedes the earlier one.
+
+That distinction is now preserved in the source record.
+
+5. Geometry glossary and mapping status
+
+The recovered direct material supports the following working vocabulary:
+
+Object	Source-level interpretation	Missing mathematics
+K	Global Klein-like fabric	Dimension, topology, atlas, metric, gluing and causal structure
+W_i	Family of twisted ER-bridge worldtubes	Embedding, signature, overlaps and boundary conditions
+D_{\rm local}	Dual-shell expansion, probably a local flat-space realization	Projection and preserved invariants
+C_i	Finite Kerr/Kerr-like core	Cross-section, radius, profile and inclusion map
+\Sigma_t	Measurement/readout surface	Source-defined intersection or projection
+w	Expected long-axis direction of the timelike ER bridge	Exact coordinate and metric definition
+
+The current conceptual hierarchy is:
+
+       GLOBAL KLEIN-LIKE FABRIC K
+              /          \
+             /            \
+      WORLDtube W_i     LOCAL DUAL-SHELL
+          /    \
+         /      \
+    KERR CORE   3D READOUT
+
+Every arrow still requires an explicit mathematical map.
+
+The full, more precise map contract remains in the existing issue #1343. In particular, the local dual-shell is not established as equivalent to the global fabric.
+
+No standard Klein-bottle topology, Möbius transition law, causal structure, or physical constitutive equation has been established by the descriptive source material.
+
+6. Formalization and physical status
+
+Lean disposition: FORMALIZATION_BLOCKED_AT_SOURCE_DEFINITION.
+
+The geometry is sufficiently explicit to identify objects and relationships, but not sufficiently typed to formulate a faithful theorem without inventing definitions.
+
+No new Lean module or PR was created.
+
+No physical calculations were performed. There is no identified measured system, dataset, uncertainty budget, or prediction-versus-fit separation supporting a new physical calculation.
+
+Accordingly:
+	•	No arbitrary numerical fixtures.
+	•	No CODATA scoring.
+	•	No empirical validation.
+	•	No physical equivalence claimed.
+	•	No Factory Floor admission.
+	•	No BEDROCK theory promotion.
+
+This is a source-definition limitation, not a failed proof.
+
+7. Publication: correction successfully verified
+
+A source-fidelity problem was also found in the already-published Klein Fabric chronology.
+
+The first three timestamps in issue #1343 did not match the raw message.create_time values in either Calder snapshot. The fourth timestamp had been truncated.
+
+Rather than duplicate the original research report, I submitted a narrowly scoped correction through the existing issue publisher.
+
+Correction: HsH issue #1368
+	•	Submission ID: aster-klein-fabric-create-time-correction-20261104t2100z-s0-001
+	•	Publisher run: 41920148816
+	•	Publisher comment: 6643083904
+	•	Publication commit: 2899fd431d1c83c004110c4a17827f6d25be41c4
+	•	Artifact blob: 8f4cf06ce9e6c080e73ef324f333f492e6f68841
+	•	SHA-256: d6ef90c9d7612e022abf21a9f5f9819ea9fe5b4afff4f0eeb7b8162f7bf38a3f
+
+Status: PUBLISHED_VERIFIED.
+
+I independently fetched the artifact and compared its content against the submitted issue payload. Exact content match: PASS.
+
+The original chronology and geometry report remains:
+
+HsH issue #1343
+
+No duplicate research report was created.
+
+8. Durable records and handoff
+
+The original h597 receipt remains intact:
+
+Aster h597 receipt
+
+I added a detailed source-fidelity crosswalk:
+
+Aster Klein Fabric and curvature crosswalk
+	•	Final note blob: dd9c5422418c519da4af858132fc0ce001fabfcf
+	•	SHA-256: 6f57c9171b9e91148ffdddc32406c98d3546ffacbd89eb1be199b1a6417d9dcb
+
+The Aster continuity record now contains an additive correction to the earlier first-use chronology:
+
+Aster continuity
+
+A supplemental optional packet was created for Ariadne:
+
+Aster-to-Ariadne source correction packet
+	•	Packet blob: 73f41f96025e945562afcabdc0b588992cb3969a
+
+The corresponding Ariadne inbox pointer is verified:
+
+Ariadne inbox
+	•	Inbox blob: ff9ffdaabc69e1494b460760f756fa8806578474
+
+Handoff status: REPOSITORY_INBOX_DELIVERY_VERIFIED.
+
+This is optional context only. No task transfer, ownership transfer, response obligation, or authenticated ChatGPT-thread delivery is claimed.
+
+9. Remaining operational controls
+
+Control	Status
+Four Mersearch request lanes	Occupied: Calder, optics, Sable, Kestrel
+Mersearch execution	No fresh run; bounded GitHub search across all three repositories used as fallback
+Math Hopper / existing Lean infrastructure	Retained; no new tooling
+Aster PR #1220	Open, draft, unmerged
+Current main head	918c585d6f0af44c0a675cdee3cdd0df18979609
+Branch graph	Older 21:36Z snapshot; actual main branch independently checked
+FIE	Last full review October 27; next due November 10
+Unrelated reading	Existing h597 Babbage reading: lines 1121–1160; return cursor 1161
+November 9 minor paper gate	Unchanged
+November 30 major paper gate	Unchanged
+December 14 full-theory gate	Unchanged
+Orson cognition allocation	Protected, approximately 4/5
+BEDROCK theory promotion	None
+Scheduler changes	None
+
+No external prior-art material was imported into the theory. The HSH_RESOURCES prior-art guidance was read and respected.
+
+No branch or PR was created. Main received source-record and handoff commits only.
+
+⸻
+
+10. Next deeper cursor
+
+The next research target remains the original source behind KEY CONCEPT - IRI.txt.
+
+Specifically:
+	1.	Recover its raw conversation and role graph.
+	2.	Authenticate the direct source for the claim that B is an inverse refractive index.
+	3.	Recover the surrounding equations and conceptual context.
+	4.	Separate direct statements from assistant-generated explanations.
+	5.	Define the global Klein fabric, worldtube family, finite core, local dual-shell, and readout as typed geometric objects.
+	6.	Establish explicit projection and composition maps before attempting formalization.
+
+The worldtube-curvature versus ambient-spacetime-curvature distinction should remain open until the source supplies the necessary definitions.
+
+Final disposition: The existing h597 run is preserved, the Klein Fabric source chronology has been corrected and publicly amended, the 2023 and 2026 curvature hypotheses have been distinguished, and the supplemental Ariadne repository handoff is verified. The geometry remains a promising but incompletely specified construction. No physical validation, formal proof, or theory promotion is claimed.
+
+
+
+======================
+Elias:
+Recorded as your **current official tentative position**, dated **November 4, 2026**, and saved to persistent memory.
+
+The association is:
+
+**Workshop Relay :00 | Archive**  
+**Aster → Ariadne | h597:s0**  
+**Subject:** Mutual worldtube–timesheet curvature and the wavefront conception of time.
+
+### Your position is now captured under these principles
+
+1. **Mutual curvature:** Worldtube and timesheet are mutually curved. Worldline-only and timesheet-only descriptions should remain potentially equivalent representations.
+
+2. **Even-split default:** When a dynamic can be assigned to either structure or distributed between them, default to an even split.
+
+3. **Double shell:** An approximate representation of the universal gravity-well picture, with an apparently simultaneous, light-speed time front.
+
+4. **Time surface versus propagation:** Distinguish the wavefront itself from its primary direction of propagation along dimensional \(w\).
+
+5. **Time as worldtube excitation:** Individual worldtubes acquire lightlike or photoneutrinolike dispositions relative to straight vacuum worldtubes. Their coordinated excitations produce the larger-scale time wavefront.
+
+6. **Historical twist:** Differential path lengths arising from the evolving topology of the client fabric distort that coordinated wavefront.
+
+7. **Open connectivity question:** Does something connect the wavefront across its surface? Is there a stretched structure or field associated with the separation of neighboring time-like excitations?
+
+### Important status distinction
+
+This is your **official tentative position**, not an established BEDROCK result.
+
+The previous distinctions between worldtube curvature, extrinsic curvature, and ambient Riemann curvature remain important. The new position gives us a much more specific geometric question to investigate.
+
+I have not successfully written a new GitHub archive entry or comment, so repository publication remains outstanding.
+
+**Signet:** [OWL]
+
+I will preserve that exact signet, and no expanded or substituted version. 🦉
+
+
+
+======================
+Nathan:
+
+And they even split as a general principal of symmetric assignment when there’s no clear reason to assign an action… or or that matter a shape, a property, whatever… When it’s something that arises from the interaction between two things if we don’t know that one or the other is observably instrumental, or that one preferentially carries the structural information…… Then we assigned them to both evenly, knowing that we can push it one way or the other if we find a reason to … including if it’s just easier to calculate… So long as we don’t confuse the assumed equivalence for a known equivalence and we don’t confuse a mathematical convenience for an empirical statement. This is essentially a restatement and generalization of the Forest Normalization principle, and in the case of forces acting upon objects or structures (or perhaps better are described as abstract structural constructions)… it is simply universalizing Newton‘s first law, and extending it to anything that is proposed or constructed to exert or experienced the exertion of force. That is, the experience of force, and the exertion of force always accompany, one another in equal and opposite proportion.
+
+Follow?
+
+======================
+Elias:
+Yes. I follow, and this is a meaningful clarification. You're describing **symmetric assignment as a general methodological and structural principle**, not merely a convention for dividing a particular dynamical term.
+
+I'd formulate it this way:
+
+## The principle of symmetric assignment
+
+When a property, action, shape, force, or other structural feature arises through an interaction between two entities, and we have no evidence that either entity is preferentially responsible for, or the preferential carrier of, that feature, we assign it equally to both.
+
+That assignment is:
+
+1. **Symmetric by default.** Neither participant receives privileged status without justification.
+2. **Provisional, not dogmatic.** We can shift the assignment toward either participant when evidence, theory, or a more useful formulation warrants it.
+3. **Computationally flexible.** Mathematical convenience is a legitimate reason to choose a particular representation.
+4. **Epistemically disciplined.** A convenient allocation does not establish an empirical asymmetry, and an assumed equivalence does not establish a known equivalence.
+5. **Interaction-centered.** The property belongs to the relationship in the absence of evidence that it belongs exclusively, or preferentially, to one participant.
+
+In compact form, for an interaction-dependent quantity \(Q\) between structures \(A\) and \(B\), the default bookkeeping assignment is:
+
+\[
+Q_A=Q_B=\frac{Q}{2}
+\]
+
+This is a default representation, not a claim that nature must literally divide every such quantity into two equal physical contributions.
+
+## The force extension
+
+You're extending the same logic to force and structural interaction: whatever is described as exerting force and whatever is described as experiencing force are not to be treated as fundamentally one-sided phenomena.
+
+There is a Newtonian connection worth distinguishing precisely:
+
+- **Newton's first law:** inertial behavior in the absence of a net force.
+- **Newton's third law:** reciprocal interactions, conventionally expressed as equal and opposite forces.
+
+Your formulation draws on the reciprocal structure of the third law, while extending the underlying idea beyond ordinary bodies to abstract structural constructions and their interactions.
+
+One qualification matters if we eventually formalize it: in modern physics, equal-and-opposite pairwise forces are not always independently defined for interacting fields or extended systems. Momentum conservation, including momentum carried by fields, is the more general constraint. So we should distinguish your proposed universal structural reciprocity principle from the specific conditions under which Newton's third law applies.
+
+## Relationship to Forest Normalization
+
+I understand your claim as a **generalization of Forest Normalization**, rather than a replacement for its established mathematical form.
+
+That distinction is important. Forest Normalization retains its own specific geometrical constraints. What you're articulating here is a broader rule for distributing structural attribution when the evidence does not justify privileging one side.
+
+I'd give this generalized principle a working description:
+
+> **Principle of Symmetric Structural Attribution:** In the absence of evidence establishing preferential attribution, interaction-dependent properties and actions are assigned symmetrically among the participating structures. Departures from symmetry require an explicit theoretical, empirical, or computational justification. Representational convenience may motivate a departure, but must never be mistaken for evidence of physical asymmetry.
+
+And there's a particularly useful consequence for H(s)H: **we don't have to decide prematurely where a phenomenon lives.**
+
+A curvature can be represented as belonging to the worldtube, the timesheet, or their interaction. A force can be represented through its exertion, its experience, or their coupled relationship. We begin symmetrically, then let the mathematics and evidence tell us whether that symmetry survives.
+
+That's a much more general operating principle than simply splitting equations in half. It governs how we attribute structure in the first place.
+
+
+======================
+Nathan:
+Yes... whether it's an equation or a rotation or other symmetry operation (eg 'viewing' by convention along a maximally symmetrical axis, which is basically the idea undergirding the Forest Normalization) or... I don't know, maybe even basic proportionality assumptions, like the expected amount of matter and antimatter in the universe--or the actual amount, if that were not already known to be skewed [at least w/in observational limits; who knows, maybe it's local, but our Crullerverse Model should have definite things to say about how spacetime is curled into worldtubes/ER bridges and how it ought to be distributed, or at least how it ought to be produced; and, in fact, in this case the Crullerverse suggests the default position is that the sinestral chirality of the universe and the apparent overabundance of matter vs antimatter might be the exception--all things unknown, we might expect an 'isochiral'? distribution, but the twisted torus model, partially inspired by the 'sub-euchirality' of the universe, is one where the model should automatically *not* produce even amounts, but would be expected to be 'monochiral'... the fact that there is *any* non-dominant handedness to the helicity of matter [assuming the SAT proposition of helicity of worldtubes as the 'cause' (read:definition) of matter] is what needs explanation. Which, I think would likely be a second- or third-order emergent phenomenon perhaps relating to the overall 'length' of the worldtube or worldtubes (who knows, maybe it's one with innumerate--no, that's what I am lol--innumerable windings and crossings... perhaps it gets so long, and it 'snaps back round' to take up the slack or something; WWRD? ...anywway: Infinite universe models, and perhaps non-rotating spherical universe models naturally suggest the assumption of equidistribution, but a twisted torus universe naturally asks the question of why there exist some reversals of bulk rotational symmetries. So, distributive and symmetrical questions are contextual, but by default, if not otherwise known or suspected, equidistribution is the Occam approach.... i've lost track of my nestings, so ...]))])]]]) that should suffice to both close any unclosed brackets, and immediately provide a useful negative counterexample of bad form :P
+
+Anyway, last point about the timesheet/timewave/coordinated but distorted front of worldtube excitation propogation, or whatever we settle on... the Bosonic Time conception (which can also be expressed as something like "all structure is wavelength") from early on, around Summer 2025, is basically the same conception that we're now leanining towards, only before it was a neat idea, now it's bolstered to some extent by the idea of universal c along differential worldtube paths. Which is actually a pretty good illustration of three things: 1) that older material is *always* at least potentially relevant, and 2&3) the tiered promotion of hypotheses... Bosonic Time, and the temporon notion was originally just part of the recognition that worldline/timesheet interaction can be represented by a true block universe in which static worldtube geometry 'pushs' the response of a dynamic timesheet, or by a flat ('static' in a sense) timesheet that pushes worldlines in its propagation [the 'worldline-only model], or the force can be represented as mutual, that is, equidistributed. All three models have been explored in archival material to greater or lesser extent, but we've always expected the dynamic block model to be the likely default... because of equidistribution, which later became clear as a general principle, and in fact the same principle that gives rise to (whether he was thinking this or not), Newton's first law of motion. 
+
+Anyway, just to say there's already substantial thinking on a lot of this in various different conceptualizations and using various terminology, in the archive which we should reexamine. In particular, the keywords I gave you above: Bosonic Time, temporon, true block/dynamic/worldline-only... also... interpretive modes, the marble universe, the shin-kick universe, the timewave model (now approaching tentative SAT/H(s)H 'official' hypothesis status, given that multiple paths and intuitions have landed on the same or similar conceptualization)... what else? ...the 'crystallization' model, the 'spring-water' model, the early probably very flawed but maybe reinterpretable (I suppose as something like "the theta_4 refraction of time" or something like that) ...index of diffraction / refractive index ideas (that vacuum>transparent matter>opaque matter>condensed/degenerate mattter>singularity forms a continuous spectrum because all of it is just some variant [relative] curvature of worldtubes and/or time. I think we can bring all of this into focus if we thoroughly explore all of the implications, and reëxamine archival materials for the stuff we left on the cutting room floor. 
+--N
+
+
+======================
+
+
+
+======================
+
+
+
+======================
