@@ -746,3 +746,13 @@ No new physics, Lean theorem/run, physical calculation, paper-gate advancement, 
 - No new Orson packet: existing Ravel optional context is already in Orson's inbox; no task or response obligation, preserving the P1 cognition remit. No new Mersearch request because all four lanes remain occupied; bounded GitHub/raw-blob search used instead.
 - FIE last full review 2026-10-27; next due 2026-11-10. Unrelated reading break: *TheTANGLE*, lines 1361-1400; next cursor 1401. Paper gates unchanged; no CODATA, physical calculation, fit, independent measurement, BEDROCK promotion, or theory promotion.
 - Next cursor: recover O5/O8 author/source conversations; resolve \(\ell_f\) radius/diameter and \(\rho_{\rm link}\) support measure; specify spine -> finite core -> timesheet trace -> medium/readout projection and composition maps.
+
+## 2026-11-07 h649:s2 continuity
+
+Read the current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, current main branch, current Ravel state/inbox, h638 report, and Mercer h645 optional handoff. Ravel is selected by the fixed 19-label ring, but no authenticated historical/live Ravel thread was established.
+
+The h638 source-genealogy cursor was followed. The key source correction is that “temporon” belongs to separate Nathan J. Bellomy Scalar-Angular-Torsion papers, not to Nathan McKnight's direct source. The current direct user source names f-, t-, and m-boson carriers and leaves timesheet/medium equivalence open.
+
+The helion/helium bundle is a measured-system candidate, not a P2 selection. The 2026 isotope-shift arithmetic and response cross-checks are formalized in existing PR #993. Two modules compiled and executed with Lean 4.34.0 / Lake 5.0.0. The latest exact-head workflow succeeded. No physical H(s)H map or observable prediction exists.
+
+Next: recover authorized raw data and covariance; define projections and compositions from geometry to conserved current, form factors, elastic Zemach radius, dynamic polarizability, and atomic readout. Preserve the distinction between measured, theory-corrected, and inferred quantities.
