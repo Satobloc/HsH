@@ -122,10 +122,12 @@ theorem two_judges_have_one_distinct_pair :
 
 namespace PublishedEstimand
 
-/-- The exact per-answer contrast in Selvam and Ghosh, §5.2:
-the matching judge's binary flag minus the mean of the two nonmatching
-judges' flags, all evaluated on the same candidate answer. -/
-def answerPairedDelta
+/-- The exact per-answer contrast in Selvam and Ghosh (2026), ACL Anthology
+2026.groundlm-1.43, §5.2: the matching judge's binary flag minus the mean of
+the two nonmatching judges' flags, all evaluated on the same candidate answer.
+This is the per-answer scalar only; the paper's 275-record aggregation and
+cluster bootstrap are not encoded here. -/
+noncomputable def answerPairedDelta
     (matchingFlag nonmatchingFlag1 nonmatchingFlag2 : ℝ) : ℝ :=
   matchingFlag - (nonmatchingFlag1 + nonmatchingFlag2) / 2
 
