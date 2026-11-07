@@ -21,3 +21,8 @@ The Ravel h649 source locator is not corroborated by the two Ravel raw snapshots
 Alberr's self-directed charter remains controlling. This is only an optional source pointer if it happens to intersect Alberr's independent work. No task, quota, requested calculation, response deadline, or ownership transfer is implied. Declining or ignoring it is valid.
 
 No authenticated current Alberr ChatGPT thread was established. This handoff is repository-only; it is not a ChatGPT post, read receipt, or participation claim.
+
+
+## Addendum: July source-export identity
+
+The July four-model passage belongs to the **Saucepan 103-message export**, not the separate **SRENA SAT 17-message snapshot**. Exact body comparison found five overlaps and twelve non-matches; shared conversation identity is not established. The four-model passage occurs at index 82 of the 103-message export and is absent from the 17-message snapshot. `SRENA SAT2.txt` is a composite of the 17-message snapshot, not independent corroboration. See the source-stratigraphy amendment in the Ariadne h658 receipt. This is optional provenance context only; no task is assigned.
