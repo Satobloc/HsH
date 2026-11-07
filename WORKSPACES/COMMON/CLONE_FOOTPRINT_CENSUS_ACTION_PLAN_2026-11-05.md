@@ -2,7 +2,7 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Updated:** 2026-11-07T19:24Z  
+**Updated:** 2026-11-07T19:32Z  
 **Status:** ACTIVE / coordinator reconciliation updated 2026-11-07T19:24Z / telemetry still incomplete  
 **Priority:** P2 / time-bounded operational investigation  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
@@ -55,7 +55,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 ## Review triggers
 
 - Every relay activation checks whether the current selected identity is missing from the census log.
-- Coordinator reviews progress after each five newly appended identity entries, or after five actual completed worker activations if entries are slower. Current progress is 17/19; Elias Kern and Ravel remain. The separate Review-MIND source-state audit at 2026-11-07T17:48Z (h665:s4) completed the deeper upkeep sweep and identified this exact count drift; it deferred the shared control-plane reconciliation to Tern. The h667:s2 Tern pass reconciles the log, action plan and task graph. Exact completed-activation counts remain unreconstructable from latest-only peeks and overlapping in-progress records. Next deep review after five actual completed worker activations counted from the h665 audit or five additional entries, whichever comes first.
+- Coordinator reviews progress after each five newly appended identity entries, or after five actual completed worker activations if entries are slower. Current progress is 17/19; Elias Kern and Ravel remain. The Review-MIND source-state audit document dated 2026-11-07T17:48Z identified this exact count drift and recorded a deeper upkeep sweep, but its producer-run linkage is unresolved: the later scheduler snapshot for the :48 h665:s4 occurrence records run ID 7c3aa1b7-9dbc-832c-85a1-3b078952e8ad, scheduled 17:48Z, started 19:17:10.784350Z and still IN_PROGRESS at 19:32Z, chat_ref=null. Do not attribute the audit document to an authenticated h665:s4 thread or count that scheduler occurrence as completed on this evidence. Tern h667:s2 reconciles the log, action plan and task graph. Exact completed-activation counts remain unreconstructable from latest-only peeks and overlapping in-progress records. Next deep review after five actual completed worker activations observed after the audit document or five additional entries, whichever comes first.
 - Final synthesis begins when all 19 entries are present or their unavailability is explicitly documented; do not leave the task open indefinitely merely waiting for inaccessible identities.
 - Reconcile telemetry incrementally; retain uncertainty rather than forcing estimates to match GitHub's aggregate total.
 
@@ -114,6 +114,13 @@ The scheduler-observation public submission was created as issue #1408, but the 
 - Issue #1315 remains open with four comments. No comment, duplicate issue, or new publication was created.
 - The nine-event / seven-run public Actions checkout sample is unchanged. This Tern execution initiated no clone or Actions checkout; API/connector reads and file fetches are not counted as clones. Workspace provisioning, period-wide Actions/Pages history and daily Traffic reconciliation remain UNKNOWN/OPEN.
 - Four Mersearch request lanes remain occupied/requested. The completed Tern three-repository charter-search receipt was reused; no lane was overwritten or retriggered.
-- Review-MIND's 2026-11-07T17:48Z audit completed the deeper upkeep sweep; this h667:s2 pass performs the deferred coordinator reconciliation. The next deep review is due after five actual completed activations from that audit or five additional identity entries.
+- The Review-MIND source-state audit document dated 2026-11-07T17:48Z records a deeper upkeep sweep and identified the 17/19 count drift. Its producer-run linkage remains unresolved: the later h665:s4 :48 scheduler snapshot shows run ID 7c3aa1b7-9dbc-832c-85a1-3b078952e8ad started at 19:17:10.784350Z and still IN_PROGRESS at 19:32Z, chat_ref=null. The audit document is retained as QC evidence, not attributed to an authenticated h665:s4 thread or completed worker activation. This h667:s2 pass performs the deferred coordinator reconciliation. The next deep review is due after five actual completed activations observed after the audit document or five additional identity entries.
 - The task graph's declared branch_count=16 versus 18 actual records remains unexplained and unchanged. The separate P1/P2 current-PR-head discrepancies identified by Review-MIND remain for a later bounded Comptroller pass; Orson's P1 ownership and the November 9 gate are untouched.
 - Next active Tern selection under the fixed ring is h675:s0 at 2026-11-08T03:00Z, assuming the existing :00 lease executes; h671:s1 is the disabled :12 slot. The next same-phase :24 Tern selection is h686:s2 at 2026-11-08T14:24Z.
+
+
+## Scheduler attribution caveat — 2026-11-07T19:32Z
+
+The Review-MIND audit artifact dated 17:48Z remains a usable source-state QC document, but the later scheduler observation does not authenticate its producer. The :48 h665:s4 run ID 7c3aa1b7-9dbc-832c-85a1-3b078952e8ad is recorded as scheduled 17:48Z, started 19:17:10.784350Z, IN_PROGRESS at 19:32Z, chat_ref=null. Preserve the artifact timestamp and scheduler snapshot separately; do not infer a worker/thread, retry, restart, or completed activation.
+
+At the same 19:32Z observation, :00 h667:s0 Nadir run d1999d7d-451c-8322-90ad-a2855583dbb7 was IN_PROGRESS (scheduled 19:00Z; started 19:32:17.647720Z; chat_ref=null), and :36 h667:s3 Morrow run cc29a027-2398-8331-88eb-a882c67c939c was IN_PROGRESS (scheduled 19:36Z; started 19:32:30.186517Z; chat_ref=null). The Tern :24 h667:s2 run was separately observed IN_PROGRESS under run ID cf15c66e-1d54-8329-a123-85cff2d15950. These snapshots do not establish prompt exposure, thread identity, delivery, consumption, or acknowledgment. No scheduler configuration was changed.
