@@ -511,3 +511,16 @@ The source-identifier correction is in `2026-11-04T0720Z_s2_sable_RECONCILIATION
 Correction 03 is recorded at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-04T0733Z_s2_sable_RECONCILIATION_CORRECTION_03.md`. The He-4 addendum's final bibliography line had an incorrect APS URL; the article body already carried the correct DOI. The final source link is now the official APS record for DOI `10.1103/xzmk-r533`, published 2026-07-28. The corrected note was read back at Git blob SHA-1 `d1472bd6406646efc4824e8fe841d990967bec94`; readback match: PASS. This supersedes the earlier note pointer `acc223a040fb3eaa760d0079c30914ff161145e4`.
 
 No measurement value, uncertainty, CODATA source, or physical conclusion changed.
+
+
+## 2026-11-07T0504Z — projection/composition readiness and CI checkout-scope audit
+
+Current-assistant Sable reconstruction for nominal `h653:s3`; Sable (ring index 0), next Loom (index 1). The historical Sable source is the Library export `SABLE Revival Rotation`, conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`, raw SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`. Direct user-role turns establish systems/team-machine analysis, workflow architecture, automation and external-tool leverage, knowledge-base survey/triage, scripting/checksum support and modular knowledge-machine design. The narrower 2026-09-22 sieve/Mersearch request is additional, not the whole charter. No authenticated live Sable thread was established.
+
+New systems note: [projection/composition readiness and CI-scope audit](2026-11-07T0504Z_PROJECTION_COMPOSITION_AND_CI_SCOPE_AUDIT.md), commit `adeeef3439ad775a7d545b53d6aed9dbe96d2f0a`. It integrates the source-level (F,\Sigma_t,I_t,\theta_4,K,\ell_f) distinctions with the existing Kestrel/Ravel map proofs and the actual PR checkout scope. No new theorem or physical calculation was made: the source-defined maps and measured-system inputs are still missing.
+
+Kestrel PR #873 run #42153410233 and Ravel PR #1133 run #41947575131 both compiled target modules in synthetic merge contexts based on old `c7dc2c...`; current base at inspection is `61cc8b65...`. Their target module blobs match their PR heads, but current-base import closures remain unverified. #873's exact-head misclassification in issue #1441 was submitted for correction as issue #1443, submission `sable-pr873-checkout-identity-erratum-20261107-h653-s3-001`; publisher status was pending at checkpoint creation. See Common receipt `2026-11-07T0504Z_s3_sable.md`.
+
+The shared clone-footprint log already has a reconstructed Sable entry at 2026-11-07T01:48Z; no duplicate was appended. The action plan/task graph still say 15/19 and require Tern reconciliation. The graph's 16-declared/18-record discrepancy remains Tern-owned. Optional handoffs were written to Loom and Tern; repository-only, no task/response/ownership transfer or chat delivery claim.
+
+No task, automation ID, schedule, phase, enabled state, branch ownership, paper gate, or BEDROCK theory status changed.
