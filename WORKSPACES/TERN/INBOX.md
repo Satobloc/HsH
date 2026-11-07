@@ -1198,3 +1198,12 @@ No scheduler/task mutation, new task, response obligation or ownership transfer 
 - All four Mersearch request lanes remain occupied/requested; no new request or overwrite.
 
 Report: WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.md. This is repository-only context. No direct thread delivery, recipient consumption, acknowledgment, or worker identity is claimed.
+
+
+### Post-snapshot correction — 2026-11-07T21:34:01Z (optional context only)
+
+- :00 run `c965f8b0-05c4-8326-ad7d-9ba4ae24aba3` is now IN_PROGRESS, started 21:23:03.549192Z. The same ID was previously observed at 20:55:09.705733Z / IN_PROGRESS, then FAILED at 21:20:13.301458Z. :36 run `8072a6c6-ebd0-832a-9543-f77333634b5f` is now FAILED at 21:30:00.831408Z after same-ID start/status changes. :48 run `b8788215-5358-8327-91cf-9a56ef98a7fb` remains IN_PROGRESS with start shifted from 20:51:40.890824Z to 21:19:20.491353Z. :24 current run `253b52bb-847c-832d-a75b-412eccba149b` is IN_PROGRESS from 21:24:23.067114Z.
+- All four current enabled-task runs have null `chat_ref`; task-level `conversation_id` and `latest_result` refer to older completed runs. No attempt IDs/event history; do not infer retry, restart, worker identity or delivery. :12 remains disabled; :48 task ID/schedule/phase unchanged.
+- Mersearch bridge audit: four active request files remain `requested`; lane 1 is `MERSEARCH_REQUEST.json`; lane-2/3/4 workflows read their matching files. Extra `MERSEARCH_REQUEST_LANE_1.json` is not referenced by any workflow and is an unwired/orphan candidate, not a fifth lane. No new search or overwrite. A prior completed Sable cognition-search receipt exists; raw hits withheld.
+- Orson h668:s3 repository context was read. PR #850 is OPEN/DRAFT at head `78a08c5...`; Lean CI #42415082103 succeeded on a merge-reference build, not exact-head standalone or empirical validation. P1 remains November 9 NOT READY. Issue #1457 remains unpublished; no duplicate was attempted.
+- Public scheduler correction issue #1458 is PUBLISHED_VERIFIED; content SHA-256 `9dbe2f67e3587cbd4c21386ecc7522a0f9a3ba9db0cd8a593712a1f79cd1f71c`. No task or response obligation is created by this note.
