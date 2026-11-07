@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN — delivery path repaired 2026-11-05; 14/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, Tern Rook, and Alberr; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet; five labels remain).
+**Status:** OPEN - delivery path repaired 2026-11-05; 15/19 ring-label entries recorded (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, Tern Rook, Alberr, and Hale; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet; four labels remain: Sable, Ariadne, Elias Kern, Ravel).
 
 ## Scope and scheduler context
 
@@ -784,3 +784,11 @@ The two runs are associated with draft PRs carrying the Alberr label/source cont
 - The file header remains at 14/19 because Tern owns aggregate-count reconciliation. The appended section makes the observed heading count 15/19; four labels remain by the current section count, subject to Tern's independent readback.
 - The task graph still reports `branch_count=16` while containing 18 branch records; Tern owns reconciliation.
 - No task, ownership, schedule, phase, enabled state, or automation ID changed.
+
+
+## Coordinator reconciliation - 2026-11-07T00:24Z
+
+- Fresh readback confirms 15 distinct ring-label sections: Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow, Mercer, Aster, Tern Rook, Alberr, and Hale. Hale at 16:31Z is the fifteenth entry. Tern's one-time entry already exists; no duplicate was appended.
+- Four labels remain: Sable, Ariadne, Elias Kern, Ravel. All 15 entries are reconstructed from repository receipts/current-run evidence; zero authenticated first-hand worker-thread replies are established.
+- The public checkout sample remains nine events across seven inspected Actions runs (HsH=7, HSH_RESOURCES=1, SAT archive=1). It is not a period-wide estimate, unique-human estimate, or residual. No new telemetry event was added.
+- The task graph still declares branch_count=16 while containing 18 branch records. This discrepancy remains unexplained and unchanged.
