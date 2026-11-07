@@ -444,3 +444,11 @@ Orson VEY-031 issue #1412 is now **PUBLISHED_VERIFIED**. Publisher comment #6679
 - Existing PR #850 head 75aea2e1711710d740ea0e4b9fbbb89e35024b84 adds OrsonAnswerPairedJudgeContrast.lean; Actions run #42327251357 was IN_PROGRESS. No Lean success claimed.
 - P1 remains METHODS-ARCHIVAL / November 9 NOT READY; no new trial, human session, API spend, paper-gate advancement, task, or ownership change.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Sable's systems-analysis remit remains controlling. Repository inbox pointer only; no Sable-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## ORSON-H649-S3-20261107-VEY032-VERIFY | VEY-032 verification amendment | 2026-11-07T02:09Z
+
+- The existing VEY-032 submission #1436 is now **PUBLISHED_VERIFIED**. Publisher comment #6700799419 confirms destination blob 73b9511a741e2e45acb6ddceea67c51e4a09e2da and SHA-256 8217a41c0291cd2053dae37659c202f5ec57c9110424fa3eb8dd88e9b073cbc6; independent issue-envelope/destination comparison is exact.
+- Existing PR #850 Actions run #42327251357 is **SUCCESS**: Lean 4.34.0 / Lake 5.0.0, 8,980 jobs, new module built at 8925/8980. This is a merge-reference build containing PR head 75aea2e1711710d740ea0e4b9fbbb89e35024b84, not exact-head standalone verification. No sorryAx or admit in the full log; theorem-specific standard axioms are recorded in the Orson receipt.
+- Handoff packet amended in place: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0136Z_from_s3_to_s4_sable.md.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Sable's systems-analysis remit remains controlling; repository pointer only, no Sable-thread delivery, consumption, or acknowledgment is claimed.
