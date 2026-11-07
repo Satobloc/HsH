@@ -94,13 +94,12 @@ theorem existing_48_lease_remains_enabled :
     currentLeaseEnabled ":48" = some true := by decide
 
 abbrev RunSnapshot := HsHVerification.TernH591SchedulerEvidence.RunSnapshot
-abbrev RecordedStatus := HsHVerification.TernH591SchedulerEvidence.RecordedStatus
 
 def run00At1153 : RunSnapshot :=
   ⟨ "d3c9a7f9-8c08-8323-884a-d247e0e88392"
   , 122_400_000_000
   , 126_767_610_246
-  , RecordedStatus.failed
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.failed
   , some 128_269_613_831
   , false
   , "d3c9a7f9-8c08-8323-884a-d247e0e88392"
@@ -114,7 +113,7 @@ def run00At1204 : RunSnapshot :=
   ⟨ "22e8ab4d-c13c-8325-9066-c6fadee14ef0"
   , 129_600_000_000
   , 129_666_270_544
-  , RecordedStatus.inProgress
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress
   , none
   , false
   , "adc759a8-e078-8322-bbeb-79bc1159f476"
@@ -128,7 +127,7 @@ def run24FirstObservation : RunSnapshot :=
   ⟨ "18ae23b8-71fc-8321-88a1-8ea272f50b33"
   , 127_440_000_000
   , 127_517_717_461
-  , RecordedStatus.failed
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.failed
   , some 129_021_573_242
   , false
   , "af3b9eed-0674-832a-8cb3-f2a081d0eb38"
@@ -142,7 +141,7 @@ def run24LaterObservation : RunSnapshot :=
   ⟨ "18ae23b8-71fc-8321-88a1-8ea272f50b33"
   , 127_440_000_000
   , 129_189_650_516
-  , RecordedStatus.inProgress
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress
   , none
   , false
   , "af3b9eed-0674-832a-8cb3-f2a081d0eb38"
@@ -156,7 +155,7 @@ def run36 : RunSnapshot :=
   ⟨ "ebbfc6f1-e3ec-8329-aa83-af6f6f1389b4"
   , 128_160_000_000
   , 128_091_959_084
-  , RecordedStatus.inProgress
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress
   , none
   , false
   , "1ee986bb-5f84-832c-a7fa-86e5cda31763"
@@ -170,7 +169,7 @@ def run48 : RunSnapshot :=
   ⟨ "83a9e3c7-813c-8326-aa19-2a5b085e25e8"
   , 128_880_000_000
   , 129_042_235_624
-  , RecordedStatus.inProgress
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress
   , none
   , false
   , "c38b404b-b044-8322-87c5-e9ec8684daa0"
@@ -188,11 +187,11 @@ def runsAt1204 : List RunSnapshot :=
 
 def inProgressCount (runs : List RunSnapshot) : Nat :=
   (runs.filter (fun run =>
-    decide (run.status = RecordedStatus.inProgress))).length
+    decide (run.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress))).length
 
 def failedCount (runs : List RunSnapshot) : Nat :=
   (runs.filter (fun run =>
-    decide (run.status = RecordedStatus.failed))).length
+    decide (run.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.failed))).length
 
 theorem snapshot_1153_contains_four_run_records : runsAt1153.length = 4 := by decide
 theorem snapshot_1153_has_three_in_progress :
@@ -210,8 +209,8 @@ theorem run24_same_run_id_across_observations :
     run24FirstObservation.runId = run24LaterObservation.runId := by decide
 
 theorem run24_status_changed_between_observations :
-    run24FirstObservation.status = RecordedStatus.failed ∧
-    run24LaterObservation.status = RecordedStatus.inProgress := by decide
+    run24FirstObservation.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.failed ∧
+    run24LaterObservation.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress := by decide
 
 theorem run24_completion_changed_from_present_to_absent :
     run24FirstObservation.completedUs = some 129_021_573_242 ∧
@@ -240,7 +239,7 @@ theorem run24_cached_result_is_not_current_run :
     run24LaterObservation.latestResultChatRefPresent = true := by decide
 
 theorem run00_1153_failure_result_matches_current_run :
-    run00At1153.status = RecordedStatus.failed ∧
+    run00At1153.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.failed ∧
     run00At1153.latestResultRunId = run00At1153.runId ∧
     run00At1153.latestResultCompleted = true ∧
     run00At1153.latestResultChatRefPresent = false := by decide
@@ -253,7 +252,7 @@ theorem run00_1204_cached_result_is_not_current_run :
     run00At1204.latestResultCreatedUs = some 84_298_042_286 := by decide
 
 theorem run24_is_still_same_in_progress_record_at_1204 :
-    run24LaterObservation.status = RecordedStatus.inProgress ∧
+    run24LaterObservation.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress ∧
     run24LaterObservation.completedUs = none := by decide
 
 theorem run36_cached_result_is_not_current_run :
