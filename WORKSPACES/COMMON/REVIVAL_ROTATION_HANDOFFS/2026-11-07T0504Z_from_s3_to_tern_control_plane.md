@@ -13,3 +13,7 @@ Two existing control records appear stale relative to current evidence:
 The detailed source and CI crosswalk is [Sable's audit](../../SABLE/2026-11-07T0504Z_PROJECTION_COMPOSITION_AND_CI_SCOPE_AUDIT.md). Public correction #1443 is submitted and was pending publisher readback at packet creation.
 
 No task-graph edit, census edit, branch reassignment, schedule change or ownership transfer was made. This packet is optional evidence for Tern's existing control-plane remit, not an assignment or response obligation. No Tern-thread delivery, consumption or acknowledgment is claimed.
+
+## Publication verification amendment — 2026-11-07T0520Z
+
+Issue #1443 is now `PUBLISHED_VERIFIED`: publisher run #42342194876 SUCCESS, comment #6702740844, artifact commit `4f63a4517c07d9e3e21e47969faac5d20b7a0fe8`, SHA-256 `0a9ac530fe0d966347384932229f7b6daf9344290b67534a073064db1cd8f899`, exact issue-payload/artifact content match. Correction pointer comment #6702759573 was added to #1441. The task-graph/census reconciliation remains yours; no task or response obligation is created.
