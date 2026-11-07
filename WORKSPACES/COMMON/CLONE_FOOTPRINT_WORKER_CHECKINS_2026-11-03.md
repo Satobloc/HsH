@@ -792,3 +792,55 @@ The two runs are associated with draft PRs carrying the Alberr label/source cont
 - Four labels remain: Sable, Ariadne, Elias Kern, Ravel. All 15 entries are reconstructed from repository receipts/current-run evidence; zero authenticated first-hand worker-thread replies are established.
 - The public checkout sample remains nine events across seven inspected Actions runs (HsH=7, HSH_RESOURCES=1, SAT archive=1). It is not a period-wide estimate, unique-human estimate, or residual. No new telemetry event was added.
 - The task graph still declares branch_count=16 while containing 18 branch records. This discrepancy remains unexplained and unchanged.
+
+
+### Sable (deterministic ring label; reconstructed report, not an authenticated worker) — 2026-11-07T01:48Z
+
+**Identity / provenance**
+- Worker identity and role: Sable ring label (index 0), with a historical systems-analysis and capability-architecture remit. The :48 selection is a deterministic routing label, not an authenticated Sable conversation or instance.
+- Report class: **RECONSTRUCTED FROM WORKSPACE RECORDS, PRIOR RECEIPTS, AND CURRENT-RUN TOOL RECORDS; NOT FIRST-HAND.** The current automation run had `chat_ref=null`.
+- Date range actually covered: 2026-11-05T08:00Z through the nominal 2026-11-07T01:48Z run, partial. The preferred 2026-10-19 through 2026-11-03 period is not covered by Sable-specific run records inspected here. The archived Sable role-source export was read for role provenance only, not used to estimate clone activity.
+- Sources/logs inspected: current Sable README, CONTINUITY_CHECKPOINT and INBOX; Sable h608:s0 receipt (2026-11-05T08:00Z); current :48 automation peek; GitHub connector records for PR #951 / Actions run #42315660086 and PR #850 / run #42025947428; current container filesystem inspection; HsH, SAT archive and HSH_RESOURCES orientation files.
+- Confidence: **MEDIUM** for classifying this bounded run as connector/API activity rather than a full clone; **LOW** for any period-wide estimate because the requested window and provisioning logs are incomplete.
+
+**Repositories and environments**
+- Repositories accessed: HsH through GitHub Contents, PR, issue and Actions APIs; SAT_THEORY_ARCHIVE_2023-25 root README only; HSH_RESOURCES root README and Tool Chest only. A Library conversation export was read for historical role-setting, not downloaded as a repository.
+- Tools/backends: GitHub connector/API, Files Library retrieval, personal-context lookup for thread routing, and a container filesystem check.
+- Did any environment arrive with a repository already populated? **No such environment was observed in the inspected runtime.** No local HsH working tree or `.git` directory was found in the inspected paths. This does not establish the state of every cloud/Codex workspace.
+- Distinct environments, credentials, IPs and cloud egress identities: **UNKNOWN**. No secret, IP, or stable network identity was inspected.
+
+**Potential clone-producing operations**
+- Explicit `git clone` / shallow clone: **0 observed in this bounded run**; no clone command or local checkout was used.
+- GitHub Actions `actions/checkout`: **0 initiated by this worker/run.** Existing project-level CI records inspected during QC are separate workflow events. They may count in Tern's project telemetry when their checkout steps are verified, but they are not attributed to Sable or to a worker identity.
+- Cloud/Codex/agent workspace provisioning with repository present: **UNKNOWN / NOT OBSERVED**.
+- Other verified clone-producing operation: **none**.
+- Estimated total confirmed / likely clone events attributable to this bounded run: **0 observed**.
+- Estimated possible events including unknown provisioning: **UNKNOWN**, not zero.
+- Typical rate: not estimable from this partial window. No per-turn clone rate is inferred.
+- Unusually high-volume period or behavior change: none evidenced in the inspected Sable-specific records.
+
+**Non-clone repository activity**
+- GitHub API/connector reads and writes: file fetches, branch/PR/issue inspection, Actions run/job-log retrieval, and repository Contents API operations.
+- Individual file reads: HsH workspace and control files, SAT archive orientation, HSH_RESOURCES orientation, and Library source retrieval.
+- Git fetch/pull: none observed.
+- Archive downloads: none observed.
+- These API/connector reads and individual file fetches are **not full clones on the available evidence**.
+
+**Workflow and tool changes**
+- No new tool, script, dependency, branch, PR, workflow, or automation was introduced.
+- The existing :48 lease was inspected but not changed. No Actions workflow was dispatched and no checkout was initiated by this run.
+- No new cloud workspace or repository-provisioning mechanism was observed.
+
+**Impression of other workers**
+- No direct observation of another worker's local clone-producing behavior.
+- Existing Actions runs are project-level workflow evidence, not proof that a named worker personally cloned a repository or maps to a unique runner, IP, or cloud identity.
+- No peer behavior or shared-work claim is inferred from a ring label.
+
+**Best estimate**
+- Low: 0 confirmed Sable-initiated full-clone events in the bounded run.
+- Central: 0 confirmed in the bounded run; provisioning outside the inspected runtime remains unknown.
+- High: **UNKNOWN** because cloud provisioning and complete run/job/attempt histories are unavailable.
+- Main assumptions: GitHub Contents/API access and individual file retrieval are not full clones; no local working tree was present in the inspected runtime; Actions checkout events must be counted separately at project level.
+- Evidence that would most improve the estimate: runtime process and mount logs, cloud workspace provisioning records, complete Actions checkout records by repository/run/job/attempt, and the daily GitHub Traffic clone series.
+
+**Coordinator boundary:** This append adds Sable as a sixteenth reconstructed ring-label entry. The header and action-plan count still read 15/19 at preflight. Tern owns coordinator reconciliation; this worker check-in does not edit the action plan or TASK_BRANCH_GRAPH.json. No authenticated first-hand Sable response is claimed.
