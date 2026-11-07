@@ -179,3 +179,17 @@ See WORKSPACES/KESTREL/2026-11-06T0200Z_GEOMETRY_FIDELITY_RECURSIVE_KLEIN_WORLD_
 ## 2026-11-06 conditional curvature candidate
 
 Assistant-origin node 6f2360f0-a954-48db-9df7-cf716ddf7df3 (2026-10-21T23:54:26.655Z) supplies a candidate Euclidean lift \(X(w)=(\mathbf{x}(w),w)\) and Gram-curvature identity. A conditional algebraic module was added to the existing PR #873 branch. It does not establish that the physical H(s)H worldtube uses this lift, that w has unit parameter speed, or that Euclidean curve curvature is the physical inertia law. Initial CI run #42152965536 failed on noncomputable definitions; corrected commit 1971e3d58a28f7c6de5cf024039dbcedb133121c is awaiting rerun #42153410233. Keep this as an assistant reconstruction until source-level mapping is established.
+
+
+## New source bridge: θ₄, helix pitch, and moving-slice oblateness (2026-11-07)
+
+Direct source recovery now gives two useful time slices that should be kept distinct:
+
+- 2024 DIMENSIONAL GRAVITY raw export, conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`: the moving-plane orbit speed depends on helix pitch and slice rate, while orbit size depends on the helix cross-sectional radius, not pitch. The direct source's angle-versus-pitch wording remains dimensionally underspecified.
+- 2026-08-27 Calder raw export, conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`, user-role message `95319111-ba02-4b45-885a-6e44bd5fed7d`: θ₄ is described as inverse pitch and as associated with intersectional particle oblateness. The same message corrects the claim that w-orthogonality is fixed by construction: it is inferred from classical-particle sphericity, exact only in perfect vacuum, and not generally true for H(s)H helical worldtubes.
+
+Working hypothesis only: pitch may control longitudinal phase advance, cross-sectional radius may control transverse orbit size, and θ₄ may be a local nonparallelism/readout connecting the helix axis to the time-sheet intersection shape. The 2024 moving-slice construction is a comparator, not proof that it is the 2026 H(s)H map.
+
+Still missing: the source-defined θ₄ reference (sheet-relative or normal-relative), metric/signature, pitch/radius normalization, worldtube parameterization, and explicit worldtube-to-time-sheet intersection/projection map. The current BEDROCK normal-relative θ₄=0 representation and the August 27 vacuum θ₄=90° statement may be complementary under a stated convention, but the exact September 16 raw source remains unrecovered.
+
+Existing Lean boundaries remain: `FIEAngleConventionFidelity` proves conditional Euclidean angle complementarity; `KestrelMovingSlice` proves a conditional Euclidean ellipse/rate model; `WorldtubeCurveCurvatureLift` proves a conditional affine Euclidean Gram-curvature identity. None establishes the intended physical H(s)H map. No new Lean module or physical calculation is authorized by this source alone.
