@@ -64,7 +64,7 @@ It is not yet a source-authenticated conversion. The raw 2026-09-16 event is mis
 
 ### E. Assistant reconstructions kept separate
 
-Ravel's `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md`, blob `80d85b3c8d...` (Ravel sandbox), gives an all-plus Euclidean fixed-helix reconstruction containing:
+Ravel's `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md`, blob `80d85bb3a7d18b70830fe54752151257674ae23b` (Ravel sandbox), gives an all-plus Euclidean fixed-helix reconstruction containing:
 
 `tan(θ₄) = 2πR/P` and `dℓ/dw = sec(θ₄)`.
 
