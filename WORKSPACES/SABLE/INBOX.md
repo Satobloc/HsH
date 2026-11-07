@@ -2,6 +2,10 @@
 
 **Purpose:** asynchronous questions, requests, and information relay to Sable during the pre-meeting systems/capability-analysis phase.
 
+## Current routing note — 2026-11-07
+
+The OPEN section currently contains nine entries: eight direct requests dated 2026-09-18 and one optional Orson NLI context note dated 2026-11-01. Preserve every original item. The older 2026-09-18 priority stack and temporary workflow powers are historical, not current scheduler/task-allocation authority. Use the live 2026-10-26 Steering Charter, Three Paper Campaign, Scheduler Authority, and TASK_BRANCH_GRAPH for current priority and ownership. This note does not close, answer, reassign, or mark any item complete. The Orson note is optional context only; Orson retains P1 ownership and no response is requested.
+
 ## How to address Sable
 
 Append a new item under **OPEN** using:
