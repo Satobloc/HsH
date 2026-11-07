@@ -93,8 +93,59 @@ theorem finiteAntipodalReadout_sineCoefficients_invisible
       finiteAntipodalReadout a₀ modes A B₂ := by
   simp [finiteAntipodalReadout_formula]
 
+/-!
+## Deterministic post-processing and identifiability
+
+A statistic computed from an acquired data object cannot separate two source
+states that the acquisition map already sends to the same data. This is a
+fiber/identifiability statement, not a claim that every statistic is equally
+informative: a higher-order statistic may distinguish measured records that
+a coarser summary such as a power spectrum identifies. It still cannot recover
+source distinctions erased before the raw acquired record.
+
+For the PRL Kelvin-wave paper, pentacoherence is computed from Fourier
+coefficients of the measured displacement field eta(z,t). It can expose phase
+correlations beyond a second-order spectrum, but it remains downstream of the
+single-camera eta acquisition. It is not an independent radial or cross-section
+measurement.
+-/
+
+/-- Any two source states identified by an acquisition map remain identified
+after every deterministic downstream statistic. -/
+theorem deterministicPostprocess_preserves_acquisition_alias
+    {X Y Z : Type*} (acquire : X → Y) (statistic : Y → Z)
+    {x₁ x₂ : X} (h : acquire x₁ = acquire x₂) :
+    (statistic ∘ acquire) x₁ = (statistic ∘ acquire) x₂ := by
+  change statistic (acquire x₁) = statistic (acquire x₂)
+  exact congrArg statistic h
+
+/-- If a deterministic statistic of acquired data is injective on source
+states, then the acquisition map was already injective. -/
+theorem deterministicPostprocess_injective_implies_acquisition_injective
+    {X Y Z : Type*} (acquire : X → Y) (statistic : Y → Z)
+    (h : Function.Injective (statistic ∘ acquire)) :
+    Function.Injective acquire := by
+  intro x₁ x₂ hAcquire
+  apply h
+  exact deterministicPostprocess_preserves_acquisition_alias
+    acquire statistic hAcquire
+
+/-- Deterministic downstream processing cannot repair a non-injective
+acquisition map. -/
+theorem deterministicPostprocess_cannot_restore_injectivity
+    {X Y Z : Type*} (acquire : X → Y) (statistic : Y → Z)
+    (h : ¬ Function.Injective acquire) :
+    ¬ Function.Injective (statistic ∘ acquire) := by
+  intro hComposite
+  exact h
+    (deterministicPostprocess_injective_implies_acquisition_injective
+      acquire statistic hComposite)
+
 #print axioms finiteAntipodalReadout_formula
 #print axioms finiteAntipodalReadout_sineCoefficients_invisible
+#print axioms deterministicPostprocess_preserves_acquisition_alias
+#print axioms deterministicPostprocess_injective_implies_acquisition_injective
+#print axioms deterministicPostprocess_cannot_restore_injectivity
 
 end
 end HsHVerification.EnheduannaKelvinParityReadout
