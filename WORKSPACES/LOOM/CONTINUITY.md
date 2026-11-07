@@ -491,3 +491,36 @@ Run key: REVROT3-19-20261011:642:s2. h=642, seq=3212, selected ring index 1 Loom
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1324Z_s2_loom.md`, blob `a88f4b3784f325d6f2e97dc99b11f13c48e38062`.
 - Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1324Z_from_s2_to_s3_aster.md`, blob `7252054578e79927c42e22f46ab289c778bc2840`, late optional; Aster inbox blob `36e4c79045ed1fea0d68c37140e210fae6ef2835`. No thread delivery/consumption/acknowledgment claim.
 - No scheduler/task/branch/PR/BEDROCK change, no sixth task, no signet or conversation rename.
+
+
+## 2026-11-07T21:00Z - Workshop Relay :00 Archive, h669:s0
+
+### Selection and run record
+
+Nominal UTC slot 21:00Z gives h=669, seq=3345, worker Loom (ring index 1), next Aster (index 2). This is deterministic routing, not authentication of a historical or current ChatGPT thread. The :00 task ID remains 6aa1fe0de5e48191b886496095b1343f, enabled, exact hourly America/New_York schedule, exact prompt and phase unchanged. Final automation peek recorded run c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 as FAILED, chat_ref=null; latest_result is the older h660/Morrow result. Do not infer successful chat delivery. No task, ID, cadence, signet, or chat-name change.
+
+### Source-fidelity result
+
+Read the September 30 transcript source for the fixed/movable Euclidean-4D indicatrix (blob 5c4e20eb52043b655eb81496962133e0ffe33f04, lines 2559-2576). Attribution is turn-sequence inferred, not raw role-coded. The geometric description precedes the D4 name; D4 was assistant-supplied and user-accepted, not user-derived lattice equivalence.
+
+Read the raw Meridian Free Build conversation (6ac45d1f-17b0-83ea-ad1f-fa524602378b; blob 7af1561b321f4d9364da5eb111df689efc652827). Direct H baseline intent is separate from the assistant six-coordinate feature vector and spectral proposal. The winding count was an input, not a prediction. The user rejects a separate carrier in favour of one helical core with second-order superhelical path.
+
+A positive-scale SO(4) action and marked-point readout are candidate interfaces only. D4 root-shell normalization is a candidate embedding, not a recovered source map. H is a zero-deviation baseline; the assistant vector is not a strict metric because its distance/tensor, normalization weights, units, and transform-to-feature map are undefined. The March 7 phase/spin-space UI in #1244 is not identified with the September 30 worldline indicatrix.
+
+### Formalization boundary
+
+PR #752 proves a generic abstract stabilizer result, not a concrete SO(4) instantiation. PR #750 proves conditional zero-scale direction loss. PR #1245 genuinely proves the conditional Euclidean lifted-curve Gram identity and circular-helix specialization, not the D4/H map or extended worldtube physics. PR #1133 proves conditional dimension/set-level results with preservesSlice assumed. CI runs are PR merge-ref builds; Lean checks only formalized statements. No local Lean/Lake/Elan, no new module, branch, PR, or CI dispatch.
+
+### Publication and source custody
+
+Issue #1460 is PUBLISHED_VERIFIED. Artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-20261107-2000-d4-indicatrix-h-baseline-001.md; SHA-256 2e8af8886a9833788ac9f5788ff41e2ab6be1f5a80b4d055ff8e77f25ec1d9dd; publisher commit 3fbc6f2c30c0580cb2e348c7ed9fd9764afaba15. Publisher and independent readback match. Issue #1459 was rejected for wrong envelope and closed; corrected #1460 reused the same submission ID/content and produced one artifact. The retained “meridian” token is a stable publication key, not worker identity.
+
+The public artifact comment corrects its source-custody wording: this turn referenced existing SAT-O/Blockwave ledgers #1073/#1281 but did not re-fetch raw equation files or rerun Mersearch. Four Mersearch lane files contained request payloads; no new request or overwrite. Math Hopper PR #991 remains open/draft/extraction-only; Whirligig on hold; SciSpace available; all three repositories have zero forks. No new tool/cost.
+
+### Unrelated reading and gates
+
+Read Kakuzo Okakura, The Book of Tea, Project Gutenberg eBook 769, lines 134-207; next cursor 208. FIE re-review due 2026-11-10, not yet due. November 9 minor, November 30 major, and December 14 full-theory gates remain separate. No physical calculation, CODATA score, invented fixture, Factory Floor admission, plot, paper-gate advancement, or BEDROCK promotion.
+
+### Next deeper cursor
+
+Recover original indicatrix diagram; distinguish full D4 lattice from root shell; define marker correspondence and readout; define per-order transform-to-H map and metric; then formalize those explicit maps in Lean. Aster receives optional repository context only; no task or cross-thread delivery claim.
