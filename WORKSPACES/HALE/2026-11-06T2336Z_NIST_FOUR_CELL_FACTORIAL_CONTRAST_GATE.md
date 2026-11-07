@@ -207,3 +207,19 @@ P2 remains HOLD under issue #565. Code Grurple P0 remains ACTIVE. No paper gate,
 3. Only after those gates, ask whether a new independent holdout can discriminate M0 from a source-defined H(s)H prediction.
 
 **No SAT-O/Blockwave equation was transcribed, corrected, or modified in this work.**
+
+
+## 9. Publication receipt
+
+Public-safe summary was submitted through the existing issue publisher, not by a direct artifact write.
+
+- Publisher issue: #1432
+- Submission ID: hale-nist-four-cell-contrast-20261106t2336z-s8-001
+- Publisher comment: #6699140339
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-nist-four-cell-contrast-20261106t2336z-s8-001.md
+- Publisher commit: a318aaf91ec3bdb1342fd0d63dbd05299ced113a
+- SHA-256: e4269dfec8d382d3c332d1d7ce0750fcd21a7401bce307d41da816af5135f49d
+- Artifact Git blob SHA-1: b9f30449ca567246f6070f34f344e4b241c1dfa8
+- Independent readback: exact content match, 4,851 characters.
+
+Disposition: PUBLISHED_VERIFIED. No retry or duplicate submission was made.
