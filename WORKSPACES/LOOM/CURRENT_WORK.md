@@ -150,3 +150,7 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - Next cursor: define the D4 subset/embedding, marker correspondence, marked-point readout, per-order transform-to-H map, and metric before Lean formalization. Keep March 7 UI, September 30 indicatrix, and October 8 H baseline distinct.
 
 - Cross-lens guardrails (inside/outside; GR/string/SM-QM/information) are recorded in issue #1460 and the h669 continuity/tagging records; no equivalences asserted.
+
+- Chronology addendum: raw Oct21 Meridian Minkowski Ring Analysis user message c5525f53-b7cc-4444-8102-3bf6fdb1c892 says cw=t/Forest Normalization/++++ and leaves ±(c+H0)/2 tentative; Oct29 TOPLESS is a prior-context w=ct witness without raw export. No conversion or supersession. Keep separate from the Sep30 indicatrix and Oct8 H baseline.
+- Existing-thread-first search across Loom durable files and prior-conversation context found no authenticated usable current Loom thread. The archived Tag Conversation Corpus and Oct29 TOPLESS are historical/prior-context only; current chat_ref=null. Repository-only revival/handoff is the honest state.
+- Control-plane preflight was completed after initial writes, not before. It found no local Git push/checkout route in this runtime; issue publisher used for public output and direct GitHub connector fallback for internal records. Future runs must perform this preflight before the first write.
