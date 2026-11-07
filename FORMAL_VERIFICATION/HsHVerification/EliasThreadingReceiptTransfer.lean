@@ -502,3 +502,125 @@ theorem proposed_gate_accepts_matching_thread_scope :
 #print axioms proposed_gate_accepts_matching_thread_scope
 
 end HsHVerification.EliasThreadingReceiptScope
+
+
+/-!
+# Consumer-list semantics: declared consumers do not constrain receipt admission
+
+Source: Satobloc/HSH_RESOURCES, `info/WORKFLOW_THREADING_PROTOTYPE.md`
+(blob f87ff21918b6fa4804d090cdb9153aa0dd53d288) and
+`tools/workflow_threading_demo.py` (blob
+ce313e46b1b85ae35028b46a4196d2a945b535d8).
+
+The source Seed carries a `consumers` list. The sample seed declares
+Mercer, Orson, Comptroller, and Aster. But `ThreadState.add_receipt`
+checks only seed-version equality; `state_threshold_met` counts receipt
+rows, distinct worker strings, and the required outcome labels. It does
+not consult `Seed.consumers`.
+
+The witness below uses four other names from the project's 19-label ring.
+All four have the matching seed version, none is in the declared consumer
+list, and the source-shaped return threshold passes.
+
+The prose calls consumers "intended users" and permits optional/discretionary
+use. Therefore this is **not** automatically an unauthorized-access bug.
+It is a contract ambiguity: the consumer list is metadata, not an enforced
+eligibility or coverage condition. If the list is intended to constrain
+receipt eligibility, a membership gate is missing. If it is advisory, the
+field/contract should say so and the return threshold should distinguish
+expected consumers from any observed participants.
+
+The proposed strict gate is a design comparison only, not current source.
+These theorems formalize the extracted predicates; they do not establish
+Python-source equivalence, worker identity, actual use, or production behavior.
+-/
+
+namespace HsHVerification.EliasThreadingConsumerEligibility
+
+structure SeedWitness where
+  version : String
+  consumers : List String
+  deriving DecidableEq, Repr
+
+structure ReceiptWitness where
+  worker : String
+  seedVersion : String
+  outcome : String
+  deriving DecidableEq, Repr
+
+def sampleSeed : SeedWitness :=
+  { version := "demo-v1"
+    consumers := ["Mercer", "Orson", "Comptroller", "Aster"] }
+
+def outsideConsumerWitness : List ReceiptWitness :=
+  [ ⟨"Sable", "demo-v1", "success"⟩
+  , ⟨"Loom", "demo-v1", "failure"⟩
+  , ⟨"Meridian", "demo-v1", "success"⟩
+  , ⟨"Kestrel", "demo-v1", "success"⟩
+  ]
+
+/-- Source-shaped add_receipt acceptance: seed-version equality only. -/
+def sourceAddReceiptAccepts (seed : SeedWitness) (r : ReceiptWitness) : Bool :=
+  r.seedVersion == seed.version
+
+def sourceAcceptedReceipts (seed : SeedWitness) (rs : List ReceiptWitness) :
+    List ReceiptWitness :=
+  rs.filter (sourceAddReceiptAccepts seed)
+
+/-- Source-shaped state_threshold_met predicate from the sample configuration. -/
+def sourceSampleThreshold (rs : List ReceiptWitness) : Bool :=
+  (rs.length >= 4) &&
+  (((rs.map fun r => r.worker).eraseDups).length >= 3) &&
+  ((rs.map fun r => r.outcome).contains "success") &&
+  ((rs.map fun r => r.outcome).contains "failure")
+
+def sourceReturnGate (seed : SeedWitness) (rs : List ReceiptWitness) : Bool :=
+  sourceSampleThreshold (sourceAcceptedReceipts seed rs)
+
+def allOutsideDeclaredConsumers (seed : SeedWitness) (rs : List ReceiptWitness) : Bool :=
+  rs.all (fun r => !(seed.consumers.contains r.worker))
+
+def allAcceptedBySource (seed : SeedWitness) (rs : List ReceiptWitness) : Bool :=
+  rs.all (sourceAddReceiptAccepts seed)
+
+/-- Proposed strict eligibility predicate; not present in the Python source. -/
+def proposedConsumerGateAccepts (seed : SeedWitness) (r : ReceiptWitness) : Bool :=
+  sourceAddReceiptAccepts seed r && seed.consumers.contains r.worker
+
+def proposedReturnGate (seed : SeedWitness) (rs : List ReceiptWitness) : Bool :=
+  sourceSampleThreshold (rs.filter (proposedConsumerGateAccepts seed))
+
+theorem source_gate_ignores_declared_consumer_list
+    (seed : SeedWitness) (rs : List ReceiptWitness) :
+    sourceReturnGate seed rs =
+      sourceReturnGate { seed with consumers := [] } rs := by
+  rfl
+
+theorem outside_consumer_witness_is_outside_declared_set :
+    allOutsideDeclaredConsumers sampleSeed outsideConsumerWitness = true := by
+  decide
+
+theorem outside_consumer_witness_matches_seed_version :
+    allAcceptedBySource sampleSeed outsideConsumerWitness = true := by
+  decide
+
+theorem source_return_gate_passes_with_only_nonlisted_workers :
+    sourceReturnGate sampleSeed outsideConsumerWitness = true := by
+  decide
+
+theorem proposed_consumer_gate_rejects_nonlisted_witness :
+    proposedReturnGate sampleSeed outsideConsumerWitness = false := by
+  decide
+
+#eval allOutsideDeclaredConsumers sampleSeed outsideConsumerWitness
+#eval allAcceptedBySource sampleSeed outsideConsumerWitness
+#eval sourceReturnGate sampleSeed outsideConsumerWitness
+#eval proposedReturnGate sampleSeed outsideConsumerWitness
+
+#print axioms source_gate_ignores_declared_consumer_list
+#print axioms outside_consumer_witness_is_outside_declared_set
+#print axioms outside_consumer_witness_matches_seed_version
+#print axioms source_return_gate_passes_with_only_nonlisted_workers
+#print axioms proposed_consumer_gate_rejects_nonlisted_witness
+
+end HsHVerification.EliasThreadingConsumerEligibility
