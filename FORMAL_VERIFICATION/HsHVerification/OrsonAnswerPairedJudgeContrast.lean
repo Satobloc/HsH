@@ -41,9 +41,16 @@ composition. This is an algebraic explanation of why answer-pairing can improve
 identifiability, not a transcription of either paper's empirical estimator.
 
 The singleton-pair theorem formalizes the combinatorial fact that one judge
-channel supplies no distinct judge pairs. It does not establish statistical
-independence, error covariance, evaluator validity, or any empirical property
-of ConsistencyBench. Lean checks only these formalized statements.
+channel supplies no distinct judge pairs. The source artifact also separates
+the per-answer paired delta from its gold-stratified summaries: it computes
+the delta first, then averages over gold-positive, gold-negative, or all-answer
+masks. A shared gold label leaves each per-answer delta and the all-answer mean
+unchanged, but a label error can move an answer between strata and therefore
+change the recall/FPR-stratum means. The finite counterexample below proves
+that non-invariance; it does not show that actual label errors correlate with
+the observed deltas. A separate targeted human-review sensitivity is recorded
+in the h653 source-review note, not treated as a population estimate. Lean
+checks only these formalized statements.
 -/
 
 namespace HsHVerification
@@ -112,6 +119,45 @@ theorem one_judge_has_zero_distinct_pairs :
 theorem two_judges_have_one_distinct_pair :
     distinctJudgePairCount 2 = 1 := by
   norm_num [distinctJudgePairCount]
+
+namespace GoldStratumSensitivity
+
+/-- Mean of fixed per-answer paired deltas over a nonempty gold stratum. -/
+def meanOn (answers : Finset (Fin 3)) (delta : Fin 3 → ℝ) : ℝ :=
+  answers.sum delta / (answers.card : ℝ)
+
+/-- Reference labels: answers 0 and 1 are gold-positive. -/
+def referencePositive : Finset (Fin 3) := {0, 1}
+
+/-- One shared label is changed: answer 1 moves from positive to negative. -/
+def relabeledPositive : Finset (Fin 3) := {0}
+
+/-- The complementary negative strata for the same three answers. -/
+def referenceNegative : Finset (Fin 3) := {2}
+def relabeledNegative : Finset (Fin 3) := {1, 2}
+
+/-- Per-answer judge contrasts are held fixed while gold membership changes. -/
+def pairedDelta : Fin 3 → ℝ := fun i =>
+  if i = 0 then 1 else if i = 1 then -1 else 0
+
+/-- Unstratified mean: no gold label enters this quantity. -/
+def overallMean (delta : Fin 3 → ℝ) : ℝ :=
+  (delta 0 + delta 1 + delta 2) / 3
+
+/-- A single gold-label flip changes both conditional stratum means, while
+the all-answer mean of the unchanged paired deltas remains fixed. -/
+theorem one_label_reassignment_changes_strata_not_overall :
+    meanOn referencePositive pairedDelta = 0 ∧
+    meanOn relabeledPositive pairedDelta = 1 ∧
+    meanOn referenceNegative pairedDelta = 0 ∧
+    meanOn relabeledNegative pairedDelta = (-1 / 2 : ℝ) ∧
+    overallMean pairedDelta = 0 := by
+  norm_num [meanOn, referencePositive, relabeledPositive,
+    referenceNegative, relabeledNegative, pairedDelta, overallMean]
+
+end GoldStratumSensitivity
+
+#print axioms GoldStratumSensitivity.one_label_reassignment_changes_strata_not_overall
 
 #print axioms paired_contrast_cancels_answer_component
 #print axioms unpaired_contrast_decomposes
