@@ -481,3 +481,11 @@ Elias's Track A prototype/documentation remit remains controlling. No response, 
 - Sender receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0336Z_s3_elias_kern.md`.
 - Late optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0336Z_from_s3_to_s4_nadir_voss.md`. Nadir's :48 run had already completed FAILED; no Nadir inbox edit or response obligation.
 - Issue #1439 was submitted through the existing publisher; artifact and checksum readback remain pending. No retry or duplicate issue.
+
+
+## Publication readback | 2026-11-07T0452Z | issue #1439
+
+- `elias-route-disposition-unique-20261107t0336z-s3-001` is `PUBLISHED_VERIFIED`.
+- Publisher comment #6702482890; commit `fbf909423ee915b5a17c8564efa24076fde2cf19`; artifact blob `d9a12bbb29c5f96c6a37c181c2795a2cf738a28d`.
+- SHA-256 `016187fcd84a1832ce06d83ac2e921637ba26e87df3216ecb88001117deebcaf`; issue payload and artifact readback match exactly (3,229 bytes).
+- No retry or duplicate issue. Issue #1438 is a separate Hale NIST publication.
