@@ -567,3 +567,5 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - Historical Hale authority remains the 2026-09-12 Common check-in plus Sable REV-006 reentry packet. No standalone Nathan-authored charter or authenticated Hale conversation was found; the pre-name scanner conversation candidate remains unverified. The scoped Mersearch request receipt returned Tern hits, not a Hale identity witness. All four Mersearch lanes remain occupied/requested; no new request or overwrite.
 - Unrelated reading completed Babbage's Appendix No. 3 through the actual final text line 1538. The prior cursor 1541 was beyond EOF; corrected next cursor to END_OF_BOOK. FIE review remains due November 10.
 - No P2 system, paper gate, BEDROCK theory, scheduler/task ID/schedule/phase, branch, or production workflow was promoted or changed. No cross-thread delivery or acknowledgment is claimed.
+
+- Receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2336Z_s3_hale_AMENDMENT_01.md` (canonical run-key correction, late Calder packet consumption, Lean #42317706397 SUCCESS, issue #1435 PUBLISHED_VERIFIED, and Babbage EOF cursor correction).
