@@ -84,3 +84,12 @@ Proposed design:
 - Pre-register disconfirmers: no source-overlap or peer-exposure effect after item difficulty controls weakens the shared-dependence account; stable agreement under disjoint provenance and no peer exposure weakens a common-source explanation; reliable correction of deliberately wrong peer answers without correlated error increase weakens a simple contagion account.
 
 This is a design sketch only. No participants were recruited, no model endpoint called, no output collected, no consent obtained and no result inferred. It is outside the frozen November 9 P1 paper and would require its own ethics, privacy, endpoint, preregistration and resource gate.
+
+
+## Amendment 01 | 2026-11-07T0814Z | same-run scheduler re-observation
+
+The :48 h655:s4 automation was re-read after the original handoff was written. The current scheduler snapshot still reports run ID `fdcbaf42-fc1c-8320-9259-4363d0e9a0ae` and nominal `scheduled_for=2026-11-07T07:48:00Z`, but now reports `started_at=08:14:47.515235Z`, `in_progress`, `completed_at=null`, `chat_ref=null`. The base receipt recorded the same run ID and scheduled slot with `started_at=07:46:49.041131Z`. No attempt identifier or cause is exposed. This is a second observation with a changed start timestamp, **not proof of a particular retry/restart mechanism or a second worker execution**. The cached `latest_result` still belongs to the older h651:s4 run and is not attributed to h655:s4.
+
+The :36 predecessor Nadir h655:s3 remains `in_progress` with `chat_ref=null`; the expected predecessor handoff was not found at the bounded path. Tern's h656:s0 :00 run remains `in_progress`, started 07:57:32.976201Z, `chat_ref=null`. This packet remains **LATE_OPTIONAL_REPOSITORY_CONTEXT_ONLY**. No task, response obligation, ownership transfer, cross-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+Supplemental receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0814Z_s4_enheduanna_AMENDMENT_01.md` (blob `f4cf31644793705329bd420c8db99ae790b1409e`). It also revalidates Orson P1 / PR #850 / issue #1436 status. No PR or manuscript edit is requested.
