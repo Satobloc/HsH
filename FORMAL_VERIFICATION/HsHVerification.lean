@@ -28,6 +28,7 @@ import HsHVerification.TernH511Lane3DispatchEvidence
 import HsHVerification.TernH515SchedulerOverlapEvidence
 import HsHVerification.TernH591SchedulerEvidence
 import HsHVerification.TernH625SchedulerObservationEvidence
+import HsHVerification.TernH659SchedulerSnapshotEvidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
