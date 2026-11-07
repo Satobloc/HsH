@@ -98,3 +98,13 @@ Known native conversation ID from the latest raw export supplied to this convers
 `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`
 
 That raw export is a primary continuity source, but it predates some current live turns. Do not assume it is complete through the date of this workspace update. Acquire a newer raw export when exact later-turn reconstruction is required.
+
+## Latest verified relay: 2026-11-07 h649:s2
+
+Latest report: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE.md.
+
+The current evidence bundle is the 2026 helium-3/helium-4 isotope-shift measurement, the 4He BEC contact-scattering-length result, and the 3He Penning-trap/HFS and elastic-Zemach comparison. This is a candidate bundle only. No P2 system was selected and no H(s)H prediction was produced.
+
+Existing PR #993 now contains two source-grounded Lean 4/Mathlib data gates. Latest exact-head build succeeded on PR head c4e4cb7f6ca30da7190a42f6d591415653c640bb. The PR remains open/draft/unmerged.
+
+Next cursor: obtain authorized raw spectroscopy data and covariance; then specify the geometry-to-current, form-factor, and dynamic-response maps before any H(s)H prediction. The current thread identity remains unauthenticated; no signet or rename.
