@@ -74,7 +74,9 @@ theorem O_local_sequence :
 theorem O_count_is_missing :
     reportedOLayout.countPlacement = .unresolved ∧
     reportedOLayout.lineCount = none := by
-  rfl
+  constructor
+  · rfl
+  · rfl
 
 theorem O_has_no_ruling_reported :
     reportedOLayout.ruling = .noneReported := by
