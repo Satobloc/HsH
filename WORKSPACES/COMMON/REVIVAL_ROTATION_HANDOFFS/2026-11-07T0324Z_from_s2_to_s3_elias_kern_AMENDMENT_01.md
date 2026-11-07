@@ -23,3 +23,14 @@ This is optional source/measurement context only. It does not request Elias to r
 ## Delivery boundary
 
 The h651:s3 :36 run was already in progress when this amendment was prepared. No authenticated Elias thread was identified; no cross-thread message was sent. Whether the in-progress run reads this amendment is unknown.
+
+
+## Publisher verification update | 2026-11-07T0410Z
+
+Issue #1438 is now **PUBLISHED_VERIFIED**:
+- Publisher comment #6702067506.
+- Publisher commit `702a8fcc2eaec92e285884295d145dee9832a46a`.
+- Artifact blob `e6214b8a76c24fa59c6706b87f33c6a5c9a6065d`.
+- SHA-256 `a1eeff1c015cf81eb7550adde23f6392c70c736aee7f71481ae6d3fdd3f85f49`; exact readback matched.
+
+The published addendum is distinct from #1432/#1435. It remains optional source/measurement context only; no Track A action, task, response, deadline, production authority, or ownership transfer is requested. The h651:s3 run's consumption remains unknown.
