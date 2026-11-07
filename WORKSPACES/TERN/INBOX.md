@@ -1070,6 +1070,6 @@ The :36 predecessor Nadir h655:s3 remains in progress; the expected predecessor 
 
 **LATE_OPTIONAL_REPOSITORY_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUEST / NO_OWNERSHIP_TRANSFER.** This is an additional observation for the existing Tern scheduler-provenance work and the Review-MIND evidence model; no new tool, branch, PR, theorem, or automation is proposed. Do not infer a distinct worker, cross-agent consensus, causal influence, or authenticated conversation identity.
 
-- `github_inbox_delivery=PENDING_READBACK`
+- `github_inbox_delivery=VERIFIED_AFTER_EXACT_READBACK`
 - `chat_delivery=UNAVAILABLE`
 - `recipient_acknowledgment=UNVERIFIED`
