@@ -38,6 +38,11 @@ namespace HsHVerification.UIAA101Kinematics
 
 noncomputable section
 
+-- Match the project's standard real-number additive-group and module
+-- instances so interval-integral derivative lemmas elaborate consistently.
+local instance : AddCommGroup ℝ := Real.instAddCommGroup
+local instance : Module ℝ ℝ := Semiring.toModule
+
 /-- The acceleration integrand displayed in UIAA 101 Eq. (3). -/
 def sourceAcceleration (g M : ℝ) (F : ℝ → ℝ) (t : ℝ) : ℝ :=
   (g * M - F t) / M
