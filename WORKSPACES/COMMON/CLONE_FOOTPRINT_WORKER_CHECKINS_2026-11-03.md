@@ -924,3 +924,16 @@ The same 19:32Z scheduler observation records:
 - :36 h667:s3, run ID cc29a027-2398-8331-88eb-a882c67c939c, scheduled 19:36Z, started 19:32:30.186517Z, IN_PROGRESS, chat_ref=null.
 
 These are scheduler snapshots, not proof of retries, restarts, distinct agents, prompt exposure, delivery, or acknowledgment. No task, ID, schedule, phase, cadence or enabled state was changed. The audit document remains usable as a source-state QC artifact; its worker/run attribution remains unresolved.
+
+
+## Later scheduler lifecycle observation — 2026-11-07T20:14Z
+
+This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does not add a worker check-in or authenticate any worker/thread.
+
+- :00 h667:s0 run `d1999d7d-451c-8322-90ad-a2855583dbb7` transitioned from IN_PROGRESS to FAILED, completed 19:57:19.414018Z, `chat_ref=null`. Failure cause is not exposed; cached `latest_result` is an older 12:00Z occurrence.
+- :24 h667:s2 run `cf15c66e-1d54-8329-a123-85cff2d15950` retains the same run ID and `scheduled_for=19:24Z), but a later peek reports `started_at=19:56:26.839937Z), versus the earlier 19:32Z source record's `started_at=19:28:44.238Z`. The field shift is 1,662.601937s. Status remains IN_PROGRESS, completion absent, later `chat_ref=null`; no attempt ID or backend cause is exposed. Cached `latest_result` remains an older 14:24Z occurrence.
+- :36 h667:s3 Morrow run `cc29a027-2398-8331-88eb-a882c67c939c` transitioned from the Morrow receipt's IN_PROGRESS / `chat_ref=null` snapshot to COMPLETED at 19:52:35.120445Z, with `chat_ref` present in the later scheduler record. The later result belongs to the same run ID; this does not authenticate a historical Morrow thread or prove prompt delivery.
+- :48 h667:s4 Kestrel run `c0c33f2b-fa58-832e-bb52-73c8ec70a84b` remains IN_PROGRESS, started 19:53:14.176859Z, completion absent, `chat_ref=null`; cached `latest_result` is an older 17:48Z occurrence.
+- :00/:36 bounded overlap: 1,204.933928s. :00/:24 overlap lower bound: 52.574081s. :00/:48 overlap lower bound: 245.237159s. :36 ended 39.056414s before :48 started and 231.719492s before the later :24 start. :48 began 192.663078s before the later :24 start. The :24/:48 overlap end is unknown.
+- The four existing :00/:24/:36/:48 leases remain enabled and unchanged; :12 remains disabled. No task, ID, schedule, phase, cadence, or automation-count change. No sixth task.
+- These are mutable scheduler-record observations only. Do not infer retry, restart, duplicate execution, distinct agents, worker identity, prompt exposure, delivery, consumption, or acknowledgment. The h667 Tern one-time census entry already existed and was not duplicated.
