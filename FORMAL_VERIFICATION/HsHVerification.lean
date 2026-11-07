@@ -17,6 +17,18 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.EliasPublisherStatus
+import HsHVerification.EliasPublisherKeyEvidence
+import HsHVerification.EliasThreadingReceiptTransfer
+import HsHVerification.EliasHydraRewriteStarvation
+import HsHVerification.EliasActorRegistryCoverage
+import HsHVerification.EliasCapabilityRouteGate
+import HsHVerification.EliasProofTargetIdentity
+import HsHVerification.EliasReceiptEvidenceAxes
+import HsHVerification.EliasWorldtubeClaimEvidenceGate
+import HsHVerification.EliasWorldtubeEvidenceWitnessGate
+import HsHVerification.EliasStickyLifecycleGate
+import HsHVerification.EliasRouteBudgetCoverage
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
