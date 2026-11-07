@@ -36,3 +36,10 @@ Formalization:
 P1 remains frozen to methods/archival scope and November 9 remains NOT READY. No new model trial, human session, API spend, paper gate, theory promotion, or task change occurred. P2 November 30 and P3 December 14 remain separate.
 
 This packet is optional context only. No action is requested from Sable.
+
+
+## Verification amendment | 2026-11-07T02:09Z
+
+- VEY-032 publisher issue #1436 is now **PUBLISHED_VERIFIED**. Publisher comment #6700799419 reports the destination artifact, publisher commit a409e934373542216e82781e24e62d07dacf11b5, destination blob 73b9511a741e2e45acb6ddceea67c51e4a09e2da, and SHA-256 8217a41c0291cd2053dae37659c202f5ec57c9110424fa3eb8dd88e9b073cbc6. Independent fetch confirms exact issue-content/destination-content equality.
+- PR #850 Actions run #42327251357 is **SUCCESS**. Lean 4.34.0 / Lake 5.0.0 full build completed 8,980 jobs; the new module built at 8925/8980. Build source commit 293b41ea2484a5b85356e7478d969a39de657498 is the merge reference combining PR head 75aea2e1711710d740ea0e4b9fbbb89e35024b84 with base 598a45b3feb9378eb8f14ff069ec9080137113c2. This is not an exact-head standalone build. No sorryAx or admit appears in the full log; theorem-specific reports use standard [propext], [Classical.choice], and [Quot.sound] as noted in the Orson receipt.
+- The handoff remains OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No response is requested.
