@@ -43,7 +43,7 @@ You are a source-grounded reconstruction of Nathan's Morrow archive/provenance r
 - Morrow-specific Mersearch request `morrow-sep13-dashboard-common-source-recovery-20261101-1524` completed with compact manifest/receipts. Six paths reduce to one duplicated Mercer Archive Mover message plus one separate Legal Privacy Audit message; full raw search results remain withheld.
 - Four current shared Mersearch lanes remain occupied/unverified: Calder angle geometry, archive optics, Calder IRI/worldtube, Kestrel finite-core. No new request or overwrite.
 - Issue #1403 remains `SUBMITTED_NOT_VERIFIED`; corrected body is present, publisher trigger is `issues.opened` only, and PR #1251 remains draft/unmerged. Do not duplicate or bypass.
-- Current main head observed: `21af33a37ee328bbe0c21b0169b6cbe45a9942da`. Task graph: 16 declared branches / 18 actual records; Tern owns reconciliation. Morrow is not P2 owner.
+- Pre-write main head observed at run start: `21af33a37ee328bbe0c21b0169b6cbe45a9942da`; this run's later continuity commits advanced `main`. Task graph: 16 declared branches / 18 actual records; Tern owns reconciliation. Morrow is not P2 owner.
 - FIE last full review: 2026-10-27; next due 2026-11-10. Deferred SPHERE4QC cursor: line 1301. Training completion is not asserted.
 
 ### Proof and physical-work limits
