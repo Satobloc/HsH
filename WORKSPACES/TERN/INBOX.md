@@ -1212,3 +1212,15 @@ Report: WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.m
 ### Later scheduler observation — 2026-11-07T21:39:14Z (same h668:s4 audit; optional context only)
 
 The :36 run `8072a6c6-ebd0-832a-9543-f77333634b5f` changed again after the 21:34:01Z snapshot: current `started_at=21:34:41.497142Z`, IN_PROGRESS, `completed_at=null`, `chat_ref=null`; the prior snapshot had FAILED/completed at 21:30:00.831408Z with start 21:04:55.713611Z. Same run ID, start shifted +29m45.783531s. The :00, :24 and :48 records were unchanged. No attempt ID/event history is exposed, so no retry/restart/worker/thread inference follows. Issue #1458 remains an accurate 21:34 snapshot; no duplicate public issue was created.
+
+
+### 2026-11-07 - Ariadne h669:s2 - optional control-plane context
+
+- PR #790 is still OPEN/DRAFT/UNMERGED. Current head: 929f680a98d6a4461e1a30234aa4aa20ac95351c. Exact-head Actions run #42302396589/job #128183191024 succeeded on Lean 4.34.0/Lake 5.0.0 with an 8,951-job root build. Tests, lint, nanoda, and the separate global axiom audit were skipped.
+- The current task graph blob fc53157389b3052de8fc45ffdcc17d5034984435 still records the superseded PR #790 head 70a2f9b10751d8e3a66d8c23e3379a1612e8ae29 and run #41971699289. Please reconcile only if/when appropriate; graph ownership remains Tern's.
+- The new AriadneClaimTargetBindingGate is a conditional composition contract, not a P2 independence vector. It requires matching claim/target/scope projection keys and disjoint origin sets, but target-behavior eligibility is projection-invariant. Bare disjointness also does not require nonempty/complete origin witnesses. No P2 gate is cleared.
+- AriadneCODATARecoilClosure does not yet formalize CODATA Table XXXI's model observation equation; model-level cancellation should remain separate from noisy measured inputs and residuals.
+- A new Huttunen et al. vortex-ring collision paper identifies Zenodo DOI 10.5281/zenodo.20624416. It is a source candidate only; raw data files/checksums are not yet retrieved, and the paper's planar PIV does not resolve full 3D core geometry.
+- P0 Code Grurple remains active. P2 remains HOLD; no physical calculation, system selection, theory promotion, task, or review request is made.
+
+Repository-only context. No direct thread delivery, recipient consumption, acknowledgment, or ownership transfer is claimed.

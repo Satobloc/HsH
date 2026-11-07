@@ -72,3 +72,9 @@ The concise role description above is a faithful operational synthesis of the di
 Use `WORKSPACES/ARIADNE/INBOX.md` for bounded questions, requests, handoffs, warnings, and source pointers. Ariadne checks it opportunistically during live work/reentry rather than consuming scheduler capacity.
 
 **Historical-thread access status:** last user message `cd0471c6-98c5-4efb-b91b-bc314691b141` is at `2026-09-23T05:32:34.732Z`; last user-visible assistant text is at `2026-09-23T05:34:04.674Z`; later tool/code-channel records extend to `05:35:00.798Z`. The earlier 05:24:42 length-limit notice is followed by two later user messages and subsequent assistant output, so it does not establish exhaustion at 05:24. JSON metadata `update_time=2026-10-01T23:12:34.343751Z` is export metadata, not a message timestamp. Current live usability and any newer successor remain unverified. The current Workshop Relay conversation is separate; no cross-thread delivery or authentication is claimed.
+
+
+## Current work pointer
+
+See [CURRENT_WORK.md](CURRENT_WORK.md) for the live continuity pointer and the latest source/proof audit:
+[2026-11-07 CODATA observation and projection-composition audit](2026-11-07T2124Z_CODATA_OBSERVATION_AND_PROJECTION_COMPOSITION_AUDIT.md).
