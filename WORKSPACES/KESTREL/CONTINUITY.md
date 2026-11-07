@@ -587,3 +587,16 @@ Latest HsH main at review time was `2cb1d093cc79af664f4a8045276fb5a3849c5142`, a
 Continued unrelated reading: Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1461-1500; next cursor 1501. No physical off-screen break is claimed.
 
 Detailed report: `WORKSPACES/KESTREL/2026-11-07T1948Z_REVIEW_MIND_THETA4_MOVING_SLICE_AND_RELATIONAL_EVIDENCE.md`, blob `319411a35ae8cc0514b4c19f86c24048dbef8ae9`. Open question added to `OPEN_QUESTIONS.md`, blob `b4054e2dfc7b80988c9ac6bb82e0f754712f6a16`. No theory promotion, physical calculation, new Lean module, P1 change, or cross-thread delivery claim.
+
+
+## 2026-11-07T2336Z | Kestrel h671:s3 — θ₄ source-reference crosswalk
+
+Deterministic selection h=671, seq=3358, Kestrel index 14; next Meridian index 15. This is a current-assistant, source-grounded Kestrel reconstruction, not an authenticated historical Kestrel instance/thread.
+
+New exact raw-source readback confirms the 2024 moving-plane two-knob distinction: user messages `aaa2d0b1-017d-453e-b95a-b23915f87d32` (2024-03-22T15:29:30.774Z) and `aaa2a1cc-e884-4f6a-800f-8afc29ab221a` (15:35:10.461Z), conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1): pitch and slice rate govern moving-orbit speed; cross-sectional radius governs orbit size, independently of pitch.
+
+The 2026-08-27 direct user message `95319111-ba02-4b45-885a-6e44bd5fed7d`, conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`, links θ₄ to inverse pitch and intersectional oblateness and assigns 90° to the vacuum direction parallel to the time normal. Current BEDROCK BR-005 records the 2026-09-16 clarification as normal-relative θ₄=0, but the raw 9/16 source event is still unrecovered. A plane/normal reference change is plausible, not confirmed. The Ravel all-plus Euclidean `tan θ₄=2πR/P` is assistant reconstruction only.
+
+The useful architecture delta is a source-preserving two-knob test contract: keep P and R separate; treat θ₄ as source-stated but unmapped; require explicit finite-core → helix/axis → timesheet intersection → instrument-readout maps before a physical prediction. Existing PR #873 fiber-factorization/nuisance-range theorems and PR #1387 factorial-identifiability theorem provide conditional formal gates. Their actual merge-reference builds were checked; no new theorem or physical calculation was made.
+
+Full report: `WORKSPACES/KESTREL/2026-11-07T2336Z_THETA4_REFERENCE_CROSSWALK_AND_TWO_KNOB_TEST_MATRIX.md`. `OPEN_QUESTIONS.md` was updated with the exact source locators and next cursor. No BEDROCK edit, public duplicate, paper-gate change, or theory promotion. FIE review due Nov 10; unrelated Babbage reading advanced through lines 1501–1540, next 1541.
