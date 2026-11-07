@@ -547,3 +547,9 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - Hale's h647 NIST four-cell report and issue #1432 are already PUBLISHED_VERIFIED. Calder independently reproduced the summary contrasts; do not duplicate Hale's report or PR #1387.
 - P0 ACTIVE; P2 HOLD; no H(s)H prediction or system selection. This is for a later Hale recurrence, not the already-completed h647:s8 run.
 - LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### Calder h647:s2 status amendment | 2026-11-07T0008Z
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2324Z_s2_calder_AMENDMENT_01.md`.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2324Z_from_s2_to_s3_hale_AMENDMENT_01.md`.
+- The same h647:s3 run ID is now IN_PROGRESS again after an earlier FAILED observation; `chat_ref=null`. Calder's packet remains late optional context; no consumption or acknowledgment is claimed.
