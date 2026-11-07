@@ -109,3 +109,10 @@ A title change proves none of the later four. A scholarly reference or a past ch
 3. Over first 19 *nominal* successful slot firings, assignment identities have no duplicates; prove this with an independent small script, but do **not** claim all 19 actually ran until receipts exist.
 4. New source-confirmed historical/unscheduled names receive genuine attention; count those separately from task dispatch and source-reading.
 5. Review after one full pass of the ring (~3h48 of scheduled slots) and amend shortcomings without resetting the history or inventing access.
+
+
+## 2026-11-07 operational clarification — duplicate run-key idempotency
+
+A deterministic `REVROT3-19-20261011:h:sN` key identifies one nominal slot event, not each invocation. Before substantive work, inspect the matching canonical receipt, amendments, artifact, handoff, and live CI/publication state. If the event is complete, reconcile and stop; do not repeat work or create a second receipt/handoff/submission. If a required step is incomplete, perform only that step and append a numbered amendment. Conflicting canonical receipts freeze writes and route to Tern. Record nominal slot time separately from actual invocation time. Full decision table and the h671:s3 exercise: [Duplicate Run-Key Idempotency Guard](REVIVAL_ROTATION_DUPLICATE_RUN_KEY_GUARD_2026-11-07.md).
+
+**Classification:** assistant-authored workflow clarification, not Nathan Direct. No scheduler ID, enabled state, cadence, phase, ring, worker remit, ownership, or thread-delivery capability changed.
