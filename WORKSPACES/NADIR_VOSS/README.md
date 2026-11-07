@@ -100,3 +100,9 @@ The October 1 user messages `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, `11122adb-75
 The assistant-generated `Orthogonal Furnace` packet `bc111d6b-8435-4165-ac36-48fbd3aa1788` remains speculative sandbox content, not a verbatim SAT-O or Blockwave source. The later ring/workspace name is a routing label, not evidence of a persistent assistant identity or authenticated current thread. The 2026-11-06 source-recovery correction remains valid for the raw-export-unavailable claim; this amendment corrects the separate permission overstatement.
 
 See `2026-11-07_SOURCE_GROUNDED_REGENERATION_SEED.md` for the current source-first continuation cursor.
+
+
+## 2026-11-07 h659:s2 source/proof status audit
+
+- `2026-11-07T1124Z_SOURCE_AND_PROOF_STATUS_AUDIT.md` is the current source/proof reconciliation: no standalone Nathan-authored Nadir charter or authenticated current thread; old SAT archive composite is not an original equation source; PR #1189 exact-head CI was reverified (run #42114292197, 8,954 jobs, zero `sorryAx`/bare `admit`, with tests/lint/nanoda/global axiom audit skipped); no new physical calculation, P2 selection, or duplicate publication.
+- Unrelated reading advanced `SAT Mark V/TheTANGLE.txt` lines 1401–1440; next cursor 1441. FIE review remains due 2026-11-10, not this run.
