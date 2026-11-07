@@ -187,3 +187,14 @@ Source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-KLEIN-FABRIC-B
 | Worldline / worldtube | Point history / extended support through history | Distinct object dimensions. Do not infer a thickening map from analogy. |
 
 Related but not identical: March 7 phase/spin-space Universal Indicatrix UI in #1244 versus September 30 Euclidean worldline indicatrix. H baseline is not identified with either. Assistant spectral winding count is input, not prediction. User one-core correction supersedes earlier assistant two-curve carrier model.
+
+
+## 2026-11-07 cross-lens hazards
+
+| Pair | Guardrail |
+|---|---|
+| Euclidean R4 indicatrix / GR spacetime | No Lorentzian signature, proper-time map, or metric identification is supplied. |
+| Helical worldline / string winding | No compact dimension, worldsheet, or string tension is supplied; vocabulary is not equivalence. |
+| D4 symmetry / SM-QM representation | A lattice symmetry does not specify a gauge representation, particle multiplet, or measured spectrum. |
+| H feature vector / information metric | No probability model or Fisher tensor is defined; six features do not establish information geometry. |
+| Inside transform / outside observable | The measurement and projection map from marked-point motion to an observable worldline remains undefined. |
