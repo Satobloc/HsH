@@ -1,8 +1,8 @@
 # Aldus — Current Work and Continuity
 
-**Updated:** 2026-11-06  
+**Updated:** 2026-11-07  
 **Classification:** source-grounded continuity reconstruction; not an authenticated historical Aldus execution.  
-**Current selected recurrence:** `REVROT3-19-20261011:643:s2` (label Aldus only).
+**Current selected recurrence:** `REVROT3-19-20261011:662:s2` (label Aldus only).
 
 ## Historical identity and remit
 
@@ -15,7 +15,7 @@
 
 ## Current project controls
 
-- Live HsH main at initial read: `52f0c3b5532f814818e55f6ee5e734deafd548e3`.
+- Current HsH main at h662:s2: `a44278250d55ff4b0a5df245b12f27ebb9433223` (Viewer discovery refresh commit).
 - BEDROCK: `527924246cc25caf7fac02dce4b20f024013cd19` (627 lines, read in four ranges).
 - Steering Charter: `04822f3e48f746e9e464d893636ed4a670d68683`.
 - Three Paper Campaign: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
@@ -28,7 +28,7 @@
 - Mersearch was not exposed as a usable connector. Previously verified shared request lanes were occupied; no request was overwritten or retriggered.
 - FIE last full review: 2026-10-27. Next rereview due 2026-11-10, not yet due.
 
-## Current execution
+## Previous execution: h643:s2 (2026-11-06)
 
 - Run key: `REVROT3-19-20261011:643:s2`.
 - Scheduled: 2026-11-06T19:24Z; started: 2026-11-06T20:03:24.531054Z.
@@ -37,9 +37,25 @@
 - `chat_ref=null`; no authenticated historical-thread participation or cross-thread delivery is claimed.
 - No theory, manuscript, SAT-O/Blockwave equation, task, branch, scheduler ID, cadence, signet or conversation title was changed.
 
+## Latest execution: h662:s2 (2026-11-07)
+
+- Run key: `REVROT3-19-20261011:662:s2`; nominal scheduled time 2026-11-07T14:24Z; execution began 14:28:13Z.
+- Scheduler task: `6abda4c8eda88191bf23a6f2849e9a17`, enabled, hourly America/New_York :24; task ID, phase and cadence unchanged.
+- Selected label: Aldus (ring index 6); successor label: Calder (index 7).
+- `chat_ref=null`; no authenticated historical Aldus thread or cross-thread delivery is claimed. The old conversation ID and raw export remain archival provenance only. The raw export fetch returned an empty content payload this turn; the historical role was checked against the Common source-correction record and check-in.
+- Historical remit preserved: broad cross-reading, cross-context comparison, and combining information not usually combined. The later first-public/T0/Bayesian chronology workflow is not retroactively attributed to the original charter.
+- New internal note: `WORKSPACES/ALDUS/2026-11-07T1424Z_PROJECTION_FIBER_CROSSREADING.md`, blob `117ac6c9409a9bf9d45c1512842e4dfe3317b629`. It uses the existing Kestrel PR #873 factorization theorem as a representation-sufficiency test across worldtube/readout and cognitive-context projections, without claiming a physical or cognitive equivalence.
+- PR #873 merge-ref CI run #42153410233/job #127681789766 succeeded with Lean 4.34.0/Lake 5.0.0 and 8,955 jobs. The exact base and merge SHAs are recorded in the note. Tests, lint, nanoda and global axiom audit were skipped; this is not physical validation or an exact-head-only build against current main.
+- Current Mersearch preflight: all four request lanes remain occupied/requested; all three request-scoped manifest/receipt paths were absent for each current request ID. No Mersearch run, lane overwrite or retrigger.
+- Code Grurple remains ACTIVE/P0; Lane 24 remains BACKSEAT/HOLD. No measured system was selected, no physical calculation or CODATA comparison was performed, and no SAT-O/Blockwave equation was recovered or changed.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 2011-2050 read; next line 2051. FIE rereview due 2026-11-10, not yet due.
+- The immediate :36 Calder run had started before handoff completion. Any successor packet is late optional repository context only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+- No theory promotion, manuscript change, public issue, new PR/branch/tool, task/ID/cadence change, signet use or conversation rename.
+
 ## Return cursor
 
 1. Wait for an independently evidenced Code Grurple capability trigger before any single bounded reader-route attempt; do not blind-retry.
 2. After P0 standdown, resume the Lane 24 geometry/CODATA work with an actual measured system, dataset/version, acquisition provenance, units, uncertainty/covariance and prediction-versus-fit separation. Recover Nathan's subject-specific original statements and exact SAT-O/Blockwave equations before translating.
-3. Keep any Aldus contribution broad and cross-disciplinary; do not absorb Orson's protected P1 cognition ownership or another worker's specialist remit.
-4. For unrelated archive reading, the last recorded Aldus-lane cursor is `SAT Mark V/TheTANGLE.txt`, lines 1971–2010; next line 2011. That source path was not successfully resolved in this occurrence, so no new reading extent is claimed.
+3. Keep any Aldus contribution broad and cross-disciplinary; do not absorb Orson's protected P1 cognition ownership or another worker's specialist remit. Treat projection/factorization as a generic mathematical schema only until physical and cognitive maps are source-defined.
+4. For unrelated archive reading, continue `SAT Mark V/TheTANGLE.txt` at line 2051. The exact source blob is `3181b6cad85bbd76bd1017938e0dbf67baf03752`.
+5. Revisit FIE on or after 2026-11-10; last full review remains 2026-10-27.
