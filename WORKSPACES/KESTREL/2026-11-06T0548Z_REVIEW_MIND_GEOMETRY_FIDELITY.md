@@ -128,3 +128,9 @@ No task graph, census, BEDROCK, paper, or source file was edited. No public issu
 **Next substantive cursor:** (1) Meridian may correct the 1-AU correction notation and derive the actual GCS axis curvature from its explicit parametric centreline before retaining any reach margin; (2) Tern should reconcile the stale PR #873 run reference, branch-count field, and clone-census trigger wording; (3) keep P2 on hold until a real measured-system package and P0 standdown; (4) preserve the distinction between the conditional Euclidean-lift theorem and the source-defined H(s)H geometry.
 
 No task/ID/schedule/phase change, no sixth task, no branch/PR, no public issue, no signet, no conversation rename, no BEDROCK theory promotion.
+
+## 2026-11-07 verification amendment: live base-branch reconciliation
+
+A fresh GitHub branch-list read resolves the base-SHA discrepancy in §3. The PR object returned base.sha = 61cc8b65ffed70296e0121dbae067892a79c81d4, but the live branch infra/lean4-verification-20261023 is at c7dc2c483f50ae03fc7a7c530829170135e18d92. The synthetic merge commit a2c3304edafa5274530ce5286cbe15ac1ed47b0b has parents [c7dc2c483f50ae03fc7a7c530829170135e18d92, 1971e3d58a28f7c6de5cf024039dbcedb133121c], matching the live base branch and PR head respectively.
+
+**Correct classification:** CURRENT_BASE_MERGE_REF_BUILD_PASS / EXACT_HEAD_ONLY_NOT_VERIFIED. The prior conclusion that the run used the current base was correct; the 61cc8... base hash recorded from the PR object was not the live branch head. No cause for the API-field discrepancy is inferred. The full build remains a merged-state check, not a standalone PR-head build. No code or PR state was changed.
