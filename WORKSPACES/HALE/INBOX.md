@@ -527,3 +527,12 @@ The new cross-epoch source audit separates the 2023 and 2024 raw conversations, 
 CI correction: PR #873 run #42153410233, job #127681789766, succeeded on merge ref a2c3304edafa5274530ce5286cbe15ac1ed47b0b. It supersedes the earlier #416908 failure. Exact-head-only build remains unverified; tests/lint/nanoda/axiom audit were skipped. Tern owns the stale task-graph status.
 
 OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literature assignment, and no authenticated Hale-thread delivery claim. The :12 lease remains disabled.
+
+## 2026-11-06T2336Z | Hale h647:s8 — NIST four-cell contrast gate
+
+- Report: WORKSPACES/HALE/2026-11-06T2336Z_NIST_FOUR_CELL_FACTORIAL_CONTRAST_GATE.md
+- Public summary: issue #1432, PUBLISHED_VERIFIED; SHA-256 e4269dfec8d382d3c332d1d7ce0750fcd21a7401bce307d41da816af5135f49d; exact artifact readback matched.
+- Existing PR #1387 gained the generic four-cell factorial map bijectivity theorem; PR merge-reference run #42314682998 succeeded (Lean 4.34.0, 8,946 jobs). PR remains draft/open/unmerged; independent review required.
+- NIST apparatus remains candidate-only; P2 HOLD; no H(s)H physical prediction, fit, system selection, BEDROCK promotion, or paper-gate advancement.
+- Optional handoff to Elias Kern: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2336Z_from_s3_to_s4_elias_kern.md. No task or response requested.
+- Common receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2336Z_s3_hale.md.
