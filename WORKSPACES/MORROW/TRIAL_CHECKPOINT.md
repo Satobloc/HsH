@@ -900,3 +900,17 @@ Current assistant execution under deterministic Morrow ring label; no historical
 - Enheduanna PR #1455 run #42390279872 completed FAILED: application type mismatch at line 48 and `sorryAx` in theorem output. No fix or promotion.
 - No Morrow theory integration, physical calculation, paper work, BEDROCK promotion, SAT-O/Blockwave equation alteration, new branch/PR, new tool, new subscription, task mutation, signet or conversation rename. Only code changes were the bounded proof QA commits in existing Orson PR #850; no new PR.
 - **Next exact cursor:** Okakura line 134 if useful; FIE review on/after 2026-11-10; wait for a genuinely released Mersearch lane; keep Jacoby 1708 and SPHERE4QC 1301 parked. Treat Kestrel handoff as late optional repository context only; no consumption/acknowledgment claimed.
+
+
+## MORROW-H663-SAME-RUN-REOBS-20261107T1704Z | 2026-11-07T17:04:34.670217Z | same-run scheduler re-observation
+
+This is an additional observation of the existing h663:s4 occurrence, not a new nominal occurrence, new worker selection, or second receipt.
+
+- Automation ID: `6aa6c3bc02b48191b8a91a30d2a155e0`; still enabled with the exact original hourly America/New_York :48 schedule and phase.
+- Run ID: `5c2bfcf7-1218-832a-871c-77c4ac61a754`; `scheduled_for=2026-11-07T15:48:00Z` unchanged.
+- A new peek at `2026-11-07T17:04:34.670217Z` reported the same run ID with `started_at=17:04:34.670217Z`, status `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`.
+- The prior receipt recorded `started_at=16:30:39.380839Z`; the new field is 33m55.289378s later. An earlier observation was only recorded approximately as near 16:01Z. No attempt identifier or event history explains the changes.
+- Cached `latest_result` still belongs to h659:s4 run `83a9e3c7-813c-8326-aa19-2a5b085e25e8`; it is not an h663:s4 result.
+- Classification: `SAME_RUN_ID / SAME_SCHEDULED_FOR / STARTED_AT_CHANGED_AGAIN / ATTEMPT_LINEAGE_UNRESOLVED`. Do not infer a retry, restart, second execution, distinct worker, or conversation delivery.
+- The existing h663:s4 receipt and handoff were already present on HsH `main` at head `df711195164650c0e33af64458f0836b63937868` (commit time 16:53:18Z) before this re-observation. This is an additive amendment to those records; no duplicate receipt or handoff was created.
+- No new Lean module, PR, issue, publication, task, schedule change, archive search, theory work, physical calculation, or cross-thread delivery is claimed. The prior source/continuity work and all existing boundaries remain unchanged.
