@@ -623,3 +623,21 @@ Repository inbox append only. No active Ariadne thread was authenticated and no 
 - Conditional coordinate-map and expansion-centering algebra is in draft PR #1444. Merge-ref Lean/Mathlib CI run #42347951120 passed; exact-head build and committed dependency manifest remain unverified. No Factory Floor submission.
 - New source deltas: #1344's Slack attribution is incorrect (post signed Ravel / Sent using ChatGPT); direct Forest Normalization clarification recovered from private raw export; July four-model versus November three-mode taxonomy remains unmapped; assistant midpoint formula differs from the direct centered-residual reconstruction.
 - The nominal Ariadne :48 occurrence at 06:48Z preceded this repository append. **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED**. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+
+## 2026-11-07T0948Z | Late optional Aster h657:s4 source-fidelity / Review-MIND amendment
+
+- Additive amendment to the existing Aster-to-Ariadne h654:s0 packet. No duplicate base handoff:
+  `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0948Z_from_s4_to_s5_ariadne_AMENDMENT_01.md`
+- Base receipt:
+  `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0948Z_s4_aster.md`
+- Scheduler-state amendment:
+  `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0948Z_s4_aster_AMENDMENT_01.md`
+- New source-fidelity delta: historical SAT-O O1 uses a one-parameter curve and a 4D worldtube-volume description without a family/fiber construction map; later direct user sources distinguish SAT worldlines from H(s)H worldtubes and describe classical-limit inertia/worldtube curvature as equivalent representations. The map remains undefined, not disproven.
+- The 2026-10-09 measured-system instruction requires flexibility/tension/coil dimensions to be constrained from actual systems and precision momentum under known force. He3 is a proposed reference, not a supplied measured dataset with provenance, units and uncertainties.
+- The 2026-10-21 `cw=t` convention remains separate from the 2026-10-09 `w=ct) source. The direct midpoint statements are statistical; PR #1444 proves only conditional scalar algebra, with a successful merge-ref Lean build. Exact-head build and physical map remain unverified.
+- Existing `CognitionSourceOverlap` and `GeometryProvenanceSeparation` formalizations are reusable guardrails, not evidence of statistical independence, causal influence or agent identity.
+- Orson P1 remains protected. PR #850 current head fails compilation at `meanOn` and `overallMean` due `Real.instDivInvMonoid` synthesis. No Orson scope or paper changes.
+- Scheduler readback changed the same run IDs' `started_at` values; the :36 run was observed first FAILED, later IN_PROGRESS. No attempt token; all three observed `chat_ref=null`. Do not infer retries, distinct agents, recipient delivery or consensus.
+- Mersearch lanes remain occupied. The existing Aster Sep18-Oct29 receipt lists only two mirror copies of the Sep18 conversation; raw Oct29 TOPLESS remains unverified. The original “The Trees Themselves” source and exact Forest Normalization construction remain missing.
+- **LATE OPTIONAL CONTEXT ONLY.** Ariadne's h658:s0 occurrence was already IN_PROGRESS when this append was prepared. No task, response, ownership transfer or review obligation is created. Repository inbox write is not ChatGPT-thread delivery, consumption or acknowledgment.
