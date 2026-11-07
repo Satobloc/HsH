@@ -87,7 +87,7 @@ def timeExpansion (c vH : ℝ) : ℝ := c + vH
 def spaceExpansion (vH : ℝ) : ℝ := vH
 
 /-- Common midpoint of the two conditional rates. -/
-def commonMidpoint (c vH : ℝ) : ℝ :=
+noncomputable def commonMidpoint (c vH : ℝ) : ℝ :=
   (timeExpansion c vH + spaceExpansion vH) / 2
 
 /-- The time-side centered residual is +c/2. -/
@@ -124,8 +124,8 @@ These invariants show that this candidate pair is not the direct centered-residu
 pair in general: its sum is c and its difference is vH, rather than 0 and c.
 -/
 
-def assistantCandidatePlus (c vH : ℝ) : ℝ := (c + vH) / 2
-def assistantCandidateMinus (c vH : ℝ) : ℝ := (c - vH) / 2
+noncomputable def assistantCandidatePlus (c vH : ℝ) : ℝ := (c + vH) / 2
+noncomputable def assistantCandidateMinus (c vH : ℝ) : ℝ := (c - vH) / 2
 
 theorem assistant_candidate_sum_eq_c (c vH : ℝ) :
     assistantCandidatePlus c vH + assistantCandidateMinus c vH = c := by
