@@ -1,0 +1,122 @@
+{
+  "title": "Reality Defined: CTMU Summary",
+  "create_time": 1720146801.707312,
+  "update_time": 1720146819.755346,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "715b0f75-ce61-4225-bb16-1d6a89c7312c",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "sectioned_conversation": null,
+  "mapping": {
+    "aaa1fed4-05d9-498c-81fc-56c8c9ded5b6": {
+      "id": "aaa1fed4-05d9-498c-81fc-56c8c9ded5b6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa27791-aac9-410b-b0c2-e34d419619b4"
+      ]
+    },
+    "aaa27791-aac9-410b-b0c2-e34d419619b4": {
+      "id": "aaa27791-aac9-410b-b0c2-e34d419619b4",
+      "message": {
+        "id": "aaa27791-aac9-410b-b0c2-e34d419619b4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720146801.715881,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you summarize the following in simple terms?\n\n \nIn the CTMU, reality takes the form of an algebraic structure Langan calls a \"Self-Configuring Self-Processing Language\" or SCSPL.[26] The CTMU blends elements of various branches of advanced mathematics, including category theory, model theory, computation theory, abstract algebra, and the logic of formalized theories. Langan's public writings are meant to be relatively accessible, and for that reason, he says, tend to avoid heavy use of symbolic notation in favor of informal characterization. Nonetheless, he claims, the CTMU is axiomatizable and formalizable, SCSPL is well-defined, and he \"can reduce that entire 56 page paper to variables and functional, operational and relational symbols\".\n\nIn short, God is real BECAUSE He is proven using logic, and the CTMU shows the correspondence between logic and reality. And that reality is dictated by logic.\n\nAxioms\nLangan defines reality as \"the perceptual aggregate including (1) all scientific observations that ever were and ever will be, and (2) the entire abstract and/or cognitive explanatory infrastructure of perception\".[27] That is, reality consists of (1) our perceptions, and (2) everything relevant to explaining them. In short, reality is defined on relevance to perception.\n\nThe three metalogical principles used in the CTMU to relate logic to reality (see previous section) are:\n\nMetaphysical Autology Principle (associated with closure), or MAP\nMind Equals Reality Principle (associated with comprehensiveness), or M=R\nMultiplex Unity Principle (associated with consistency), or MU\nLangan calls these principles and properties the Three Ms and Three Cs. They can be viewed as axioms of the CTMU, with the caveat that they are not meant to be assumptions, but analytic truths necessarily modeled by reality as a condition of its existence.\n\nMAP says that reality is closed with respect to all internally relevant operations.[28] In other words, everything essential to reality, including everything needed to describe or explain it, is contained in reality itself. This makes reality self-contained. MAP is implied by the definition of reality: were anything outside of reality needed to explain it, it would then be relevant to reality and therefore inside reality by definition.\n\nM=R says that mind and reality are ultimately inseparable to the extent that they share common rules of structure and processing.[29] In particular, (a) reality is comprehensive with respect to mind (our minds are part of reality), and (b) reality conforms to the categories of mind.[30] M=R follows, argues Langan, from the definition of reality. On one hand, mind is included in reality by perceptual relevance. On the other hand, mind acts as a filter: that which does not conform to mental categories is irrelevant to perception, and therefore excluded from reality by definition.\n\nMU says that reality is consistent by virtue of the mutually inclusive relationship between itself (unity) and its contents (multiplicity).[31] Each part of reality contains a description of the whole, in the form of a common set of structural and functional rules. These rules allow the parts to consistently interact. The consistency of reality is implied, Langan argues, by the stability of perception: a single irresolvable paradox of the form \"A = not-A\" would destroy the information content of reality, making it impossible to perceive.\n\nOrigins\nQuestions like \"why and how does reality exist?\" and \"why does this reality exist instead of some other reality?\" are typically answered in one of two ways:\n\nReality \"just exists\", and no further explanation is needed or can be given.\nReality exists due to the influence of something outside of it, an external creator.\nLangan opposes both views, arguing that were reality to lack an explanation, it would lack the structure needed to enforce its own consistency, whereas for an external creator to create reality, the creator itself would have to be real, and therefore inside reality by definition, contradicting the premise.[32]\n\nThe CTMU treats the origin of reality in the context of freedom and constraint. Concepts are defined by constraints specifying their structure, and structure requires explanation. Consequently, Langan argues, every concept requires explanation except the \"terminal concept\" with no constraints, and no structure to explain. In the CTMU, this terminal concept or \"ontological groundstate\" is called \"unbound telesis\" or UBT.[33]\n\nBecause UBT is a medium of pure potential, everything is possible within it. This means that anything which is able to \"recognize itself\" as existing, will in fact exist from its own vantage. However, the requirements for doing so are, asserts Langan, more stringent than is normally supposed. Because UBT is unstructured, the only possibilities which can actualize from it are those with sufficient internal structure to create and configure themselves. So in the CTMU, reality, rather than being uncaused or externally caused, is self-caused, and constrained by the structure it needs to create and configure itself, that of SCSPL.\n\nThe above reasoning, holds Langan, resolves the ex nihilo or \"something-from-nothing\" paradox. The paradox arises when \"nothing\" is taken to exclude not just \"something\", but the potential for \"something\". Because exclusion of potential is a constraint, \"nothing\" in this sense requires its own explanation, and cannot serve as an ontological groundstate. But when \"nothing\" is viewed as unconstrained potential or UBT,[34] asserts Langan, reality arises inevitably from it.\n\nTeleology\nReality, Langan argues, requires as a condition of its existence not merely logical consistency, but \"teleological consistency\". To arise from UBT, reality needs a function to distinguish what it is from what it is not—to \"select itself\" for existence.[35] This requirement, the \"Telic Principle\", generalizes the well-known anthropic principle: whereas the anthropic principle asserts that reality must have a form that is compatible with our existence, the Telic Principle asserts that reality must have a form that \"selects\" its own existence.[36]\n\nBecause reality is self-contained, it serves as its own selection function. That is, the function, that which it selects, and the act of selection itself are identical; \"existence is everywhere the choice to exist\"[35] and \"reality triples as choice, chooser and chosen\". Langan explores the logic of this arrangement: \"[a] large part of the CTMU is about what happens when functions, including choice, generative and causal functions, are looped so that input coincides with output coincides with functional syntax\".\n\nThe requirement that reality serve as its own selection function gives it a reflexive form whose goal is to self-actualize. This \"MU form\" is the starting configuration of SCSPL grammar.[35] With \"existence and its amplification\" as its sole imperative, reality self-configures by maximizing a parameter Langan calls \"generalized utility\". The CTMU is therefore a teleological theory in which the purpose of reality is to optimally self-actualize.[37]\n\nBecause reality inherits distributive freedom from UBT, parts of reality can deviate from the teleology of reality as a whole. The whole maximizes potential utility, \"setting things up\" for maximum benefits should teleology be pursued. Langan takes generalized utility as the basis of a system of ethics, defining goodness as that which furthers teleology and extending the Golden Rule to fit the stratified structure of SCSPL.\n\nDynamics\nIn ordinary causation, physical states evolve over time according to laws of nature. But this leaves open the question of where the laws came from. If states depend on laws, what do laws depend on? In the CTMU, the answer involves a new kind of causation in which laws and states are mutually dependent. From a background of unbound potential (UBT), laws and states emerge together, undergoing mutual refinement to optimize their relationship in a higher-order process called \"telic recursion\".[38]\n\nGuided by the Telic Principle, telic recursion seeks to maximize generalized utility through \"telic feedback\" between laws and states. Telic feedback is cross-temporal and extends back to the very origin of reality, allowing the system to retroactively self-configure. In effect, \"the system brings itself into existence as a means of atemporal communication between its past and future whereby law and state, syntax and informational content, generate and refine each other across time to maximize total systemic self-utility.\"[39]\n\nThe CTMU relates space, time, and matter through a process Langan calls \"conspansion\"—\"material contraction qua spatial expansion\".[40] Because reality is self-contained, argues Langan, its external size and duration are undefined, and it cannot expand in an external sense: it has nothing to expand into, and nothing to expand during. Mainstream cosmologists prefer to describe expansion in terms of internal geometry, viewing the question of what the universe is expanding into as \"not a profitable thing to think about\".[41] Langan asserts that mainstream expansion models nonetheless violate self-containment, arguing that they employ a non-endomorphic concept of motion and cannot intrinsically explain the creation of the spacetime manifold itself.\n\nIn Langan's model, reality stratifies inwardly into a superposition of sequentially related states. New states are formed within the images of previous states. In the resulting \"conspansive spacetime\", rather than reality expanding relative to its contents, its contents contract relative to it, and time scales shrink in proportion—an idea adumbrated in 1933 by Arthur Eddington.[42] This picture is intended to retain the valid relationships of conventional spacetime while changing their interpretations so as to resolve paradoxes of cosmology and physics.\n\nConspansion alternates between two phases: a generative phase in which events produce new possibilities, and a selective phase in which possibilities collapse into new events. The alternation occurs at a fixed conspansion rate c, which can be identified with the speed of light in a vacuum,[43] and understood as the rate at which reality creates itself. Conspansive alternation is also associated with wave-particle duality, and the CTMU features a teleological interpretation of quantum mechanics called \"sum over futures\".[44]\n\nMind\nThe fundamental entity of SCSPL reality is the \"syntactic operator\", or unit of self-processing information.[45] Because, argues Langan, cognition is just the specific form of information processing that occurs in a mind, information processing can be described as \"generalized cognition\" and self-processing information as \"infocognition\".[46] So in the CTMU, reality embodies a dual-aspect monism consisting of one substance (infocognition) with two aspects (information and cognition); space is a configuration of syntactic operators, and time is the activity of these operators as they process themselves and each other.\n\nThe CTMU therefore supports a kind of panpsychism. Although every part of SCSPL has a cognitive aspect, the mental capabilities of a given subsystem depend on its structure. Langan distinguishes three \"levels of self-cognition\": subordinate, agentive, and global.[47] The lowest of these levels, subordinate, encompasses low-complexity objects such as rocks. In the CTMU, rocks are cognitive in the generalized sense—their molecules interact, thereby processing information—but they do not possess independent volition or any intrinisic ability to optimize their environment.\n\nThe next level of self-cognition, which includes humans, is that of agent-level \"telors\": observer-participants in the ongoing creation of reality.[48] Telors possess independent volition and constructive, creative intelligence or \"sentience\". In the CTMU, the distributed laws of physics do not fully determine reality; they are supplemented by \"meta-laws\" created by telors as reality evolves. This ability of telors is constrained by factors including locality, interference, and the probabilistic limits of the laws of physics.\n\nThe third and highest level of self-cognition, the global level, is that of reality itself. This level possesses three formal properties of SCSPL: \"syntactic self-distribution\" (analogous to omnipresence), \"perfect autotransductive reflexivity\" (analogous to omniscience), and \"self-configuration up to freedom\" (analogous to omnipotence). Because these are theological attributes, Langan describes reality as \"the mind of God\". So, claims Langan, because the CTMU constitutes absolute truth—because it is founded on necessary principles and supported by logical and mathematical reasoning—it proves the existence of God.[49]\n\nIn short, God is real BECAUSE He is proven using logic, and the CTMU shows the correspondence between logic and reality. And that reality is dictated by logic.\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "89e3f324fe5713ae-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1fed4-05d9-498c-81fc-56c8c9ded5b6",
+      "children": [
+        "f15f2c47-4035-4233-882e-cf03d2c35d7e"
+      ]
+    },
+    "f15f2c47-4035-4233-882e-cf03d2c35d7e": {
+      "id": "f15f2c47-4035-4233-882e-cf03d2c35d7e",
+      "message": {
+        "id": "f15f2c47-4035-4233-882e-cf03d2c35d7e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720146818.034325,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In simple terms, here's a summary of the CTMU (Cognitive-Theoretic Model of the Universe) by Christopher Langan:\n\n1. **Reality as a Language**: Langan describes reality as a special kind of language called \"Self-Configuring Self-Processing Language\" (SCSPL). This combines ideas from advanced math and logic, avoiding heavy symbolic notation to be more understandable. He claims he can express this complex theory in simpler terms using basic symbols.\n\n2. **Definition of Reality**: Reality includes all perceptions and everything needed to explain those perceptions. It is both what we observe and the abstract concepts that help us understand our observations.\n\n3. **Three Key Principles**:\n   - **Metaphysical Autology Principle (MAP)**: Reality contains everything needed to describe and explain itself.\n   - **Mind Equals Reality Principle (M=R)**: Mind and reality are inseparable; reality conforms to the mind's categories.\n   - **Multiplex Unity Principle (MU)**: Reality is consistent because its parts share a common set of rules, making it stable and perceivable.\n\n4. **Origins of Reality**: Langan rejects the idea that reality either just exists without explanation or is created by something outside itself. He argues reality explains itself through a concept called \"unbound telesis\" (UBT), which is a state of pure potential. Reality emerges from this potential by recognizing and structuring itself.\n\n5. **Purpose of Reality**: Reality must be logically and teleologically consistent, meaning it needs a purpose or function to exist. This \"Telic Principle\" states that reality selects itself for existence and is self-contained, aiming to optimize and self-actualize.\n\n6. **Dynamics of Reality**: In CTMU, laws and states of reality evolve together through a process called \"telic recursion,\" maximizing their relationship over time. This process, \"conspansion,\" involves reality expanding internally, not externally, and is linked to concepts like the speed of light and quantum mechanics.\n\n7. **Mind and Reality**: The basic unit of reality is \"infocognition,\" combining information and cognition. Reality is made of these cognitive units, supporting a form of panpsychism where everything has a cognitive aspect. There are three levels of self-cognition: basic objects (like rocks), sentient beings (like humans), and the global level (reality itself).\n\n8. **Proof of God**: Langan argues that the CTMU logically proves the existence of God by showing that reality, as described, has attributes like omnipresence, omniscience, and omnipotence. He claims the theory demonstrates that reality and God are one and the same, dictated by logic."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d155a5a5-b80d-4999-a8cd-d7e77505c229",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89e3f324fe5713ae-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa27791-aac9-410b-b0c2-e34d419619b4",
+      "children": []
+    }
+  },
+  "current_node": "f15f2c47-4035-4233-882e-cf03d2c35d7e",
+  "context_truncation_continuation": null
+}
