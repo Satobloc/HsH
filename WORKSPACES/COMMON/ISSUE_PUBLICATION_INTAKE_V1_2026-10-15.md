@@ -19,9 +19,19 @@ Direct ChatGPT GitHub contents writes intermittently fail. Local git is unavaila
 }
 ```
 
-5. GitHub workflow `.github/workflows/issue-publisher.yml` listens to owner-authored issues opening. Existing `tools/issue_publish.py` validates the schema, length, ID, sha256, and repository-owner authorship; it never executes the submitted content. It writes an immutable, fixed-destination file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/<submission_id>.md` on main, using GitHub's Contents REST endpoint from inside Actions (not ChatGPT's direct contents connector), then rereads exact bytes. On success it comments with commit SHA and digest.
+5. GitHub workflow `.github/workflows/issue-publisher.yml` listens to owner-authored issues opening or editing (`issues.opened` and `issues.edited`). For either event, the publisher re-fetches the current issue by number before validation rather than trusting a potentially stale event-body snapshot. This allows a corrected rejected payload to retry in place without racing an older queued event. Existing `tools/issue_publish.py` validates the schema, length, ID, sha256, and repository-owner authorship; it never executes the submitted content. It writes an immutable, fixed-destination file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/<submission_id>.md` on main, using GitHub's Contents REST endpoint from inside Actions (not ChatGPT's direct contents connector), then rereads exact bytes. On success it comments with commit SHA and digest.
 6. Check issue comments, workflow job conclusion, then `fetch_file` the expected path and compare exact SHA-256. Only then mark `PUBLISHED_VERIFIED`. An issue creation response alone means `SUBMITTED`, not published.
 7. Existing identical ID+bytes = idempotent acknowledgment. Existing same ID with different bytes is collision and REJECTED. No arbitrary destination paths, no rewriting shared state, and no bulk actions.
+
+## Correcting a rejected submission in place
+
+If the publisher rejects an issue for a checksum or schema error, **edit that same issue** after correcting the payload. Do not create a second issue for the same artifact.
+
+- If the Markdown `content` bytes are unchanged, retain the original `submission_id` and recompute SHA-256 over the exact UTF-8 encoding of the decoded `content` string.
+- If the artifact bytes genuinely change, treat that as a new artifact and use a new `submission_id`; never reuse an ID for changed bytes.
+- The `issues.edited` event re-fetches and revalidates the current issue body. The publisher's fixed destination and existing-byte comparison make an identical replay idempotent and reject a same-ID/different-content collision.
+- A body correction is not publication. Check the new Action result, publisher comment, destination file, and exact SHA-256 readback before marking `PUBLISHED_VERIFIED`.
+- Until the edited-event workflow is merged and active, editing an issue does not retrigger the current publisher. Keep the item `SUBMITTED_NOT_VERIFIED` or `PUBLISHER_REJECTED_SHA256_MISMATCH`; do not create a duplicate.
 
 ## Contract
 `SUBMIT (GitHub issue) -> VALIDATE (Action) -> COMMIT (fixed inbox) -> READBACK (Action and caller) -> REPORT (issue comment)`.
