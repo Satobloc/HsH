@@ -1,4 +1,4 @@
-"""Documentary source encoding only: J. A. Black, NABU 2002/1, pp. 2-4, note 4.
+"""Documentary source encoding only: J. A. Black, N.A.B.U. 2002, no. 1 (March), item 4, pp. 2-4.
 https://sepoa.fr/wp/wp-content/uploads/2012/05/2002-1.pdf
 A/B/O/Q are historical edition sigla, NOT physical tablet IDs.
 This checks only the transcription below, not the edition or original clay.

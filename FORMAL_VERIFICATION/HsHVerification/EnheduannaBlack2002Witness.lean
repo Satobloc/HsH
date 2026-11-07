@@ -4,7 +4,7 @@ import Mathlib
 # Black 2002 original note: directly printed witness evidence
 
 Source: Jeremy A. Black, "En-hedu-ana not the composer of The temple hymns",
-N.A.B.U. 2002/1, note 4, printed pp. 2-4 (PDF pages 2-4),
+N.A.B.U. 2002, no. 1 (March), item 4, printed pp. 2-4 (PDF pages 2-4),
 https://sepoa.fr/wp/wp-content/uploads/2012/05/2002-1.pdf
 The author prints excerpts for edition sigla A/B/O/Q. His manuscript O
 has damaged line 22 and NO preserved count. Manuscript A has a distinct

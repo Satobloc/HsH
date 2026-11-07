@@ -44,14 +44,20 @@ inductive EditorialSurface where
   | cdliComposite | helle2022 | cdliP464307 | cdliP346195
   deriving DecidableEq, Repr
 
-inductive TerminalReadout where
-  | du11 | du2ud | du8 | unpreserved
+inductive TerminalVariant where
+  | du11 | du3 | du2ud | du8
   deriving DecidableEq, Repr
 
-def terminal : EditorialSurface → TerminalReadout
-  | .cdliComposite => .du11
-  | .helle2022 => .du2ud
-  | .cdliP464307 => .du8
+/-- Preservation is separate from the positive lexical variant. -/
+inductive TerminalEvidence where
+  | attested (variant : TerminalVariant)
+  | unpreserved
+  deriving DecidableEq, Repr
+
+def terminal : EditorialSurface → TerminalEvidence
+  | .cdliComposite => .attested .du11
+  | .helle2022 => .attested .du2ud
+  | .cdliP464307 => .attested .du8
   | .cdliP346195 => .unpreserved
 
 theorem composite_and_helle_differ :
@@ -66,10 +72,22 @@ theorem third_artifact_differs_from_helle :
 theorem lacuna_not_a_positive_terminal_reading :
     terminal .cdliP346195 = .unpreserved := by rfl
 
-def helleReportedCounts : List Nat := [4, 3, 1, 1]
+/-- Helle 2022, line 138: source-reported manuscript distribution.
+    This is not an independent collation performed by this module. -/
+def helleReportedCounts : List (TerminalVariant × Nat) :=
+  [(.du11, 4), (.du3, 3), (.du2ud, 1), (.du8, 1)]
+
+def helleReportedTotal : Nat :=
+  helleReportedCounts.foldl (fun total entry => total + entry.2) 0
+
+theorem helle_reports_four_variant_classes :
+    helleReportedCounts.length = 4 := by decide
 
 theorem helle_reports_nine_readings :
-    helleReportedCounts.foldl (· + ·) 0 = 9 := by decide
+    helleReportedTotal = 9 := by decide
+
+theorem helle_reports_du3_in_three_manuscripts :
+    (.du3, 3) ∈ helleReportedCounts := by decide
 
 #print axioms three_name_loci
 #print axioms two_distinct_name_artifacts
@@ -79,6 +97,8 @@ theorem helle_reports_nine_readings :
 #print axioms third_artifact_differs_from_composite
 #print axioms third_artifact_differs_from_helle
 #print axioms lacuna_not_a_positive_terminal_reading
+#print axioms helle_reports_four_variant_classes
 #print axioms helle_reports_nine_readings
+#print axioms helle_reports_du3_in_three_manuscripts
 
 end HsHVerification.EnheduannaCDLIThirdWitness

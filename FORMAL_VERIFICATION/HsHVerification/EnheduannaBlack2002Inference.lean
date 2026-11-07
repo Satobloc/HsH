@@ -3,7 +3,7 @@ import HsHVerification.EnheduannaBlack2002Witness
 /-!
 # Black 2002: editorial grouping is not direct count preservation
 
-Black (N.A.B.U. 2002/1, note 4, pp. 2-4) identifies A/O/Q as a
+Black (N.A.B.U. 2002, no. 1 (March), item 4, pp. 2-4) identifies A/O/Q as a
 majority for the composite's line ordering, while acknowledging O's
 hymn-count rubric is not preserved. This source-conditional model keeps
 that EDITORIAL grouping separate from the three directly attested
