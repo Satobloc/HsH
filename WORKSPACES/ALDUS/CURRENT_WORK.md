@@ -50,7 +50,7 @@
 - Current Mersearch preflight: all four request lanes remain occupied/requested; all three request-scoped manifest/receipt paths were absent for each current request ID. No Mersearch run, lane overwrite or retrigger.
 - Code Grurple remains ACTIVE/P0; Lane 24 remains BACKSEAT/HOLD. No measured system was selected, no physical calculation or CODATA comparison was performed, and no SAT-O/Blockwave equation was recovered or changed.
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt`, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`, lines 2011-2050 read; next line 2051. FIE rereview due 2026-11-10, not yet due.
-- The immediate :36 Calder run had started before handoff completion. Any successor packet is late optional repository context only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+- The :36 task was in progress on delayed h661:s3 Aster (`scheduled_for` 2026-11-07T13:36Z; `started_at` 14:29:15Z), not h662:s3 Calder. At the final pre-handoff peek, no h662:s3 Calder start had been observed. The Calder packet is optional repository context for the next deterministic slot; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 - No theory promotion, manuscript change, public issue, new PR/branch/tool, task/ID/cadence change, signet use or conversation rename.
 
 ## Return cursor
