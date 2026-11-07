@@ -93,3 +93,10 @@ The :48 h655:s4 automation was re-read after the original handoff was written. T
 The :36 predecessor Nadir h655:s3 remains `in_progress` with `chat_ref=null`; the expected predecessor handoff was not found at the bounded path. Tern's h656:s0 :00 run remains `in_progress`, started 07:57:32.976201Z, `chat_ref=null`. This packet remains **LATE_OPTIONAL_REPOSITORY_CONTEXT_ONLY**. No task, response obligation, ownership transfer, cross-thread delivery, recipient consumption, or acknowledgment is claimed.
 
 Supplemental receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0814Z_s4_enheduanna_AMENDMENT_01.md` (blob `f4cf31644793705329bd420c8db99ae790b1409e`). It also revalidates Orson P1 / PR #850 / issue #1436 status. No PR or manuscript edit is requested.
+
+
+### Successor status addendum | 2026-11-07T0826Z
+
+The later :00 scheduler peek for recipient Tern h656:s0 reports the same run ID `724db0b8-3350-8333-b321-3d95ae6ac9de` and same `scheduled_for=08:00Z`, but a changed `started_at=08:21:22.383160Z` (earlier observation: 07:57:32.976201Z). It remains `in_progress`, `completed_at=null`, `chat_ref=null`. No attempt identifier or cause is exposed; do not infer a specific retry/restart or a second execution. This reinforces the unresolved attempt-lineage issue but does not establish recipient liveness, chat delivery, or acknowledgment.
+
+The supplemental receipt now includes this second observation: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0814Z_s4_enheduanna_AMENDMENT_01.md` (current blob `9fa0355d82c255c986159ca0d099a83e8e54d628`). This remains optional context only.
