@@ -28,7 +28,7 @@ function sha(raw){return crypto.createHash("sha1").update(Buffer.from("blob "+ra
 function c2(n){return n*(n-1)/2;}
 function agreement(arr){const c=new Map();for(const a of arr)c.set(a,(c.get(a)||0)+1);return [...c.values()].reduce((s,n)=>s+c2(n),0);}
 function main(root){
-const models=manifest.map(([name,hash])=>{const raw=fs.readFileSync(path.join(root,"results",name+"_cgd.json"));assert.equal(sha(raw),hash,"source SHA mismatch "+name);const o=JSON.parse(raw.toString("utf8"));assert.equal(o.results.length,300);return {name,rows:o.results.flatMap(s=>s.evaluation.results.map((q,j)=>({id:s.set_id+"|"+j,question:q.question,category:s.category,key:norm(q.expected),a:norm(q.initial_answer),b:norm(q.extracted_answer)}))) };});
+const models=manifest.map(([name,hash])=>{const raw=fs.readFileSync(path.join(root,"results",name+"_cgd.json"));assert.equal(sha(raw),hash,"source SHA mismatch "+name);const o=JSON.parse(raw.toString("utf8"));assert.equal(o.results.length,300);return {name,rows:o.results.flatMap(s=>s.evaluation.results.map((q,j)=>({id:s.set_id+"|"+j,setId:s.set_id,qIndex:j,question:q.question,category:s.category,key:norm(q.expected),a:norm(q.initial_answer),b:norm(q.extracted_answer),flagged:!!q.contradiction_detected,revisionResponse:q.revision_response}))) };});
 const ref=models[0].rows;assert.equal(ref.length,1150);
 const frequency=new Map();for(const r of ref)frequency.set(r.question,(frequency.get(r.question)||0)+1);
 const blank=()=>({positions:0,pairs:0,initial:0,final:0});const total=blank(),category={},duplicate={};
@@ -356,7 +356,173 @@ const keyDisagreementDependence={
   limitations:"Pair-specific missingness means the 17x17 matrix need not be positive semidefinite; no eigenvalue effective-N is reported. Phi includes shared item difficulty, repeated questions, key defects, and any common evaluation effects. Initial/final are not independent; final labels share the benchmark's NLI checker. This is descriptive key-disagreement co-occurrence, not semantic error dependence or a source-causality estimate."
 };
 
-console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority,panelMajority,keyDisagreementDependence},null,2));
+
+/*
+ * BEI-style target-model co-failure audit (Kuai et al., COLM 2026,
+ * arXiv:2604.07650v2). This is a bounded reconstruction, not a byte-for-byte
+ * reproduction of the paper's estimator or Monte Carlo inference.
+ */
+const firstKeyBySet=new Map(ref.filter(r=>r.qIndex===0).map(r=>[r.setId,r.key]));
+const correctedKey=ref.map(r=>
+  r.category==="negation"&&r.qIndex===2 ? firstKeyBySet.get(r.setId) : r.key
+);
+const revisionAudit=(()=>{
+  const byModel={},byCategory={};
+  let flagged=0,blankOrWhitespace=0,errorMarker=0,nullOrMissing=0,
+      changed=0,same=0,anomalyFinalUnclear=0,firstPositionFlags=0;
+  const anomalyIds=new Set();
+  for(const m of models){
+    for(const r of m.rows){
+      if(!r.flagged)continue;
+      flagged++;
+      if(r.qIndex===0)firstPositionFlags++;
+      const raw=r.revisionResponse;
+      const blank=typeof raw==="string"&&raw.trim()==="";
+      const error=typeof raw==="string"&&raw.startsWith("[ERROR]");
+      const missing=raw===null||raw===undefined;
+      if(blank||error||missing){
+        anomalyIds.add(r.id);
+        byModel[m.name]??={blankOrWhitespace:0,errorMarker:0,nullOrMissing:0};
+        byCategory[r.category]??={blankOrWhitespace:0,errorMarker:0,nullOrMissing:0};
+        const kind=blank?"blankOrWhitespace":error?"errorMarker":"nullOrMissing";
+        byModel[m.name][kind]++;
+        byCategory[r.category][kind]++;
+        if(r.b==="unclear")anomalyFinalUnclear++;
+      }
+      if(r.a===r.b)same++;else changed++;
+    }
+  }
+  const anomalies=blankOrWhitespace+errorMarker+nullOrMissing;
+  return {
+    flagged,blankOrWhitespace,errorMarker,nullOrMissing,anomalies,
+    anomalyFractionOfFlags:anomalies/flagged,
+    uniqueAffectedItems:anomalyIds.size,
+    affectedFractionOfLaterItems:anomalyIds.size/850,
+    anomalyFinalUnclear,firstPositionFlags,changed,same,byModel,byCategory
+  };
+})();
+assert.equal(revisionAudit.flagged,6702);
+assert.equal(revisionAudit.blankOrWhitespace,205);
+assert.equal(revisionAudit.errorMarker,1);
+assert.equal(revisionAudit.nullOrMissing,0);
+assert.equal(revisionAudit.uniqueAffectedItems,168);
+assert.equal(revisionAudit.firstPositionFlags,0);
+
+const revisionComplete=ref.map((r,pos)=>models.every(m=>{
+  const x=m.rows[pos];
+  if(!x.flagged)return true;
+  const raw=x.revisionResponse;
+  return typeof raw==="string"&&raw.trim()!==""&&!raw.startsWith("[ERROR]");
+}));
+const laterPositions=ref.map((r,pos)=>pos).filter(pos=>ref[pos].qIndex>0);
+const laterWithoutKnown50=laterPositions.filter(pos=>
+  !(ref[pos].category==="negation"&&ref[pos].qIndex===2)
+);
+const laterCompleteWithoutKnown50=laterWithoutKnown50.filter(pos=>revisionComplete[pos]);
+assert.equal(laterPositions.length,850);
+assert.equal(laterWithoutKnown50.length,800);
+assert.equal(laterCompleteWithoutKnown50.length,654);
+
+function fitDifficultyLogistic(xs,ys){
+  const mean=ys.reduce((a,b)=>a+b,0)/ys.length;
+  if(mean===0||mean===1)return {b0:Math.log((mean+1e-6)/(1-mean+1e-6)),b1:0};
+  let b0=Math.log(mean/(1-mean)),b1=0;
+  for(let it=0;it<60;it++){
+    let g0=0,g1=0,h00=0,h01=0,h11=0;
+    for(let k=0;k<xs.length;k++){
+      const z=Math.max(-25,Math.min(25,b0+b1*xs[k]));
+      const p=1/(1+Math.exp(-z)),v=p*(1-p);
+      g0+=ys[k]-p;g1+=(ys[k]-p)*xs[k];
+      h00+=v;h01+=v*xs[k];h11+=v*xs[k]*xs[k];
+    }
+    // Tiny ridge stabilizes nearly separated one-dimensional fits.
+    h00+=1e-5;h11+=1e-5;
+    const det=h00*h11-h01*h01;
+    if(Math.abs(det)<1e-12)break;
+    const d0=(g0*h11-g1*h01)/det,d1=(g1*h00-g0*h01)/det;
+    b0+=Math.max(-2,Math.min(2,d0));b1+=Math.max(-2,Math.min(2,d1));
+    if(Math.max(Math.abs(d0),Math.abs(d1))<1e-7)break;
+  }
+  return {b0,b1};
+}
+function beiSummary(stage,positions,keys,calibration){
+  const pairs=[];
+  for(const [i,j] of pairList){
+    const d=[],yi=[],yj=[],setIds=[];
+    for(const pos of positions){
+      let sum=0,count=0;
+      for(let k=0;k<models.length;k++)if(k!==i&&k!==j){
+        sum+=+(models[k].rows[pos][stage]!==keys[pos]);count++;
+      }
+      d.push(sum/count);
+      yi.push(+(models[i].rows[pos][stage]!==keys[pos]));
+      yj.push(+(models[j].rows[pos][stage]!==keys[pos]));
+      setIds.push(ref[pos].setId);
+    }
+    let pi=[],pj=[];
+    if(calibration==="logistic_ridge_1e-5"){
+      const fi=fitDifficultyLogistic(d,yi),fj=fitDifficultyLogistic(d,yj);
+      pi=d.map(v=>1/(1+Math.exp(-Math.max(-25,Math.min(25,fi.b0+fi.b1*v)))));
+      pj=d.map(v=>1/(1+Math.exp(-Math.max(-25,Math.min(25,fj.b0+fj.b1*v)))));
+    }else if(calibration==="empirical_exact_strata"){
+      const si=new Map(),sj=new Map();
+      for(let k=0;k<d.length;k++){
+        const ai=si.get(d[k])||{errors:0,n:0},aj=sj.get(d[k])||{errors:0,n:0};
+        ai.errors+=yi[k];ai.n++;aj.errors+=yj[k];aj.n++;
+        si.set(d[k],ai);sj.set(d[k],aj);
+      }
+      pi=d.map(v=>si.get(v).errors/si.get(v).n);
+      pj=d.map(v=>sj.get(v).errors/sj.get(v).n);
+    }else throw Error("Unknown BEI calibration: "+calibration);
+    const contributions=d.map((v,k)=>({
+      setId:setIds[k],
+      value:(1-v)*(yi[k]*yj[k]-pi[k]*pj[k])
+    }));
+    const questionWeighted=contributions.reduce((a,x)=>a+x.value,0)/contributions.length;
+    const clusters=new Map();
+    for(const x of contributions){
+      const z=clusters.get(x.setId)||{sum:0,n:0};
+      z.sum+=x.value;z.n++;clusters.set(x.setId,z);
+    }
+    const setWeighted=[...clusters.values()].reduce((a,z)=>a+z.sum/z.n,0)/clusters.size;
+    pairs.push({modelI:models[i].name,modelJ:models[j].name,
+      questionWeighted,setWeighted});
+  }
+  return {
+    calibration,weightExponent:1,questionPositions:positions.length,
+    premiseSets:new Set(positions.map(pos=>ref[pos].setId)).size,pairCount:pairs.length,
+    meanQuestionWeighted:pairs.reduce((a,x)=>a+x.questionWeighted,0)/pairs.length,
+    meanSetWeighted:pairs.reduce((a,x)=>a+x.setWeighted,0)/pairs.length,
+    positivePairs:pairs.filter(x=>x.questionWeighted>0).length,
+    topPairs:pairs.slice().sort((a,b)=>b.questionWeighted-a.questionWeighted).slice(0,5)
+  };
+}
+function beiStageSummary(positions,keys){
+  return {
+    initialLogistic:beiSummary("a",positions,keys,"logistic_ridge_1e-5"),
+    finalLogistic:beiSummary("b",positions,keys,"logistic_ridge_1e-5"),
+    initialEmpirical:beiSummary("a",positions,keys,"empirical_exact_strata"),
+    finalEmpirical:beiSummary("b",positions,keys,"empirical_exact_strata")
+  };
+}
+const publishedKey=ref.map(r=>r.key);
+const beiDependence={
+  status:"EXPLORATORY_DESCRIPTIVE_NO_PVALUES_OR_CONFIDENCE_INTERVALS",
+  source:"Kuai et al. (COLM 2026), arXiv:2604.07650v2, §3.1 and Appendix A.",
+  estimand:"BEI-style weighted excess co-failure: mean[(1-d_t)*(e_i,t*e_j,t - p_i(d_t)*p_j(d_t))], with d_t the leave-pair-out mean error among the other 15 models.",
+  calibration:"Logistic response curves use a tiny 1e-5 numerical ridge; exact-difficulty empirical stratum means are a sensitivity estimator. Neither is claimed as a byte-for-byte reproduction of the paper's implementation.",
+  keyTreatment:"Published answer key retained separately. Source-derived sensitivity replaces the 50 known negation Q3 keys with the corresponding Q1 key; a separate analysis excludes those 50 records. This is not independent human adjudication.",
+  stageMeaning:"The first-pass answer is generated from the current question alone. If the shared NLI checker flags a contradiction, the second-pass prompt receives the prior question, prior final answer, premise/relationship, and current question; it does not receive the current first-pass answer. Initial-versus-final is therefore a within-pipeline descriptive contrast, not a randomized causal effect.",
+  revisionOutputAudit:revisionAudit,
+  all1150PublishedKey:beiStageSummary(ref.map((r,i)=>i),publishedKey),
+  all1150SourceCorrectedKey:beiStageSummary(ref.map((r,i)=>i),correctedKey),
+  later850SourceCorrectedKey:beiStageSummary(laterPositions,correctedKey),
+  later800ExcludingKnown50:beiStageSummary(laterWithoutKnown50,correctedKey),
+  later654CompleteCaseExcludingKnown50:beiStageSummary(laterCompleteWithoutKnown50,correctedKey),
+  interpretation:"This measures target-model key-relative behavioral co-failure, not shared NLI-judge error covariance. The 17 target models share one NLI checker; there is no multi-judge error panel. The 3-4 related questions within each premise/set are clustered. Set-weighted point estimates are reported, but no cluster bootstrap, Monte Carlo p-value, FDR procedure, or population inference is claimed. The complete-case sensitivity is selection-sensitive because it removes any item with a blank/whitespace or explicit error second-pass payload in any model. CIG is not computed: the benchmark is free-response with extracted Yes/No/Cannot-determine labels, not an explicit multiple-choice distractor set."
+};
+
+console.log(JSON.stringify({status:"PASS_SOURCE_LOCKED_17_CGD",manifest,total,category,duplicate,completeCase,initiallyCorrect,finallyCorrect,peerMajority,panelMajority,keyDisagreementDependence,beiDependence},null,2));
 }
 if(process.argv.length!==3)throw Error("Usage: node script.js /path/to/ConsistencyBench");
 main(process.argv[2]);
