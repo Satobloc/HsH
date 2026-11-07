@@ -108,3 +108,7 @@ The current evidence bundle is the 2026 helium-3/helium-4 isotope-shift measurem
 Existing PR #993 now contains two source-grounded Lean 4/Mathlib data gates. Latest exact-head build succeeded on PR head c4e4cb7f6ca30da7190a42f6d591415653c640bb. The PR remains open/draft/unmerged.
 
 Next cursor: obtain authorized raw spectroscopy data and covariance; then specify the geometry-to-current, form-factor, and dynamic-response maps before any H(s)H prediction. The current thread identity remains unauthenticated; no signet or rename.
+
+### Data-access refinement (2026-11-07)
+
+The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
