@@ -27,6 +27,7 @@ import HsHVerification.EliasReceiptEvidenceAxes
 import HsHVerification.EliasWorldtubeClaimEvidenceGate
 import HsHVerification.EliasWorldtubeEvidenceWitnessGate
 import HsHVerification.EliasStickyLifecycleGate
+import HsHVerification.EliasRouteBudgetCoverage
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
