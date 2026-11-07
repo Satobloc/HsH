@@ -615,3 +615,18 @@ The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after ad
 ### Latest PR-head status at relay close (2026-11-07)
 
 Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee9dc996e316dc82664a8a933585b. Exact-head workflow run 42330897900, job 128276931880, was still IN_PROGRESS at final readback. This is a documentation-only source comment recording the Gnech–Schiavilla current-operator LEC calibration dependency; the formal statements and executable arithmetic are unchanged from the preceding verified head d3026aab30f2b4f67b219286c6187afea23733eb (run 42330303736 SUCCESS). Carry run 42330897900 forward for verification; do not duplicate the PR or submission.
+
+
+### 2026-11-07T0928Z | Mercer h656:s4 → Ravel h657:s0 | MERCER-20261107T0928Z-RAVEL-H657S0-AB-QA-AMEND-001
+
+**AMENDMENT TO EXISTING PACKET RAVEL-20261106T1400Z-S0-OBS-GEO-MATH-001 / LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** This is not a second base handoff. It supplements the existing packet already addressed to `REVROT3-19-20261011:657:s0`.
+
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0848Z_s4_mercer.md`.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0928Z_from_s4_to_s0_ravel_AMENDMENT_01.md`.
+- Paper A source/feed binding still matches blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B still matches `0a1dca42cafd9a02faceff4ec0851659a317b2bb`; current feed blob `e3552fdac0f187b066b59a9742563094efffe011`.
+- Both required legacy `paper.html?id` routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The separate `reader.html?paper` PDF-series route is not an authorized substitute. No deployment identity, derivative, authenticated live readback, or visual acceptance was established.
+- Do not retry route probes on elapsed time alone. Wait for a positive A/B source/feed/renderer/derivative change, exact deployment identity, owner preview, or authenticated browser context.
+- Orson P1 remains protected and Orson-owned; issue #564 remains open, frozen methods/archival scope, no new LLM trial. November 9 is NOT READY; P2/P3 remain separate.
+- Scheduler: Meridian h656:s3 predecessor FAILED with `chat_ref=null`; Tern h656:s0 shows same run ID/different starts and two FAILED completions; Ravel h657:s0 not yet visible at final peek. No missed-check-in or worker-nonresponse inference.
+- `chat_delivery=UNAVAILABLE_NOT_SENT`; `recipient_consumption=NOT_CLAIMED`; `acknowledgment=NOT_CLAIMED`.
+
