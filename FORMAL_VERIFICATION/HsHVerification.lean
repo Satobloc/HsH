@@ -53,6 +53,7 @@ import HsHVerification.OrsonIdentityChannelFactorial
 import HsHVerification.OrsonFamilyConditionedPreference
 import HsHVerification.OrsonEvaluatorMeasurementDecomposition
 import HsHVerification.OrsonAnswerPairedJudgeContrast
+import HsHVerification.OrsonJudgeScoreGeometry
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
