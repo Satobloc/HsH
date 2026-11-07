@@ -66,7 +66,9 @@ Updated the existing PR #1387 branch, without creating a new branch or PR.
 
 The first theorem expands the source model's phase parameterization into sine/cosine coefficients. The second proves that an added term in that same span is exactly absorbed by reparameterizing those coefficients.
 
-The first CI attempt, run #42317295290, failed because the three real-valued model definitions were not marked `noncomputable`. They were corrected on the same PR branch. Replacement run #42317706397 was **IN PROGRESS** at Lake dependency-manifest generation when this report was drafted. No compile-success claim is made here until that run and its logs are checked. The theorem statements contain no `sorry` or `admit`; the build result remains a separate question.
+The first CI attempt, run #42317295290, failed because the three real-valued model definitions were not marked `noncomputable`. They were corrected on the same PR branch. Replacement run #42317706397 **SUCCESS** on the PR merge reference (merge commit `31406fdfe8ba1c32ca4bd08449df3658b60de0f1`, PR head `c1d95b2ecdf3d6728b99db056b5450e1e7819069`). Environment: Lean 4.34.0, Lake 5.0.0. Full root build: 8,946 jobs. Both new theorem-specific `#print axioms` outputs list `propext`, `Classical.choice`, and `Quot.sound`; the full log contains zero `sorryAx` and zero `admit`. The separate test, lint, nanoda, and whole-project axiom-audit stages were skipped. The initial run #42317295290 failed because the real-valued model definitions were not marked `noncomputable`; that was corrected on the same PR branch before the successful replacement run.
+
+This is a successful merge-reference Lean build, not a standalone exact-head build. It verifies only the formalized algebraic statements, not the source-to-model translation or physical premises.
 
 Lean verifies only these formalized algebraic statements. It does not validate the source-to-model translation, the adequacy of the NIST nuisance model, or any physical H(s)H premise.
 
