@@ -154,3 +154,8 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - Chronology addendum: raw Oct21 Meridian Minkowski Ring Analysis user message c5525f53-b7cc-4444-8102-3bf6fdb1c892 says cw=t/Forest Normalization/++++ and leaves ±(c+H0)/2 tentative; Oct29 TOPLESS is a prior-context w=ct witness without raw export. No conversion or supersession. Keep separate from the Sep30 indicatrix and Oct8 H baseline.
 - Existing-thread-first search across Loom durable files and prior-conversation context found no authenticated usable current Loom thread. The archived Tag Conversation Corpus and Oct29 TOPLESS are historical/prior-context only; current chat_ref=null. Repository-only revival/handoff is the honest state.
 - Control-plane preflight was completed after initial writes, not before. It found no local Git push/checkout route in this runtime; issue publisher used for public output and direct GitHub connector fallback for internal records. Future runs must perform this preflight before the first write.
+
+
+### Scheduler-state reconciliation - h669:s0
+
+The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as FAILED at 2026-11-07T21:48:07.282223Z, then later as IN_PROGRESS at 21:52:59Z with a changed started_at=21:52:59.301657Z, scheduled_for still 21:00Z, completed_at=null, and chat_ref=null. Automation guidance says retries reuse the run ID; no attempt ID/history is exposed. Record RUN_STATE_UNRESOLVED / RETRY_IN_PROGRESS. Do not call it a successful run or a terminal failure. latest_result remains the older h660/Morrow result and is not attributable to this run. Delivery remains unknown. The task remains enabled with its exact ID, prompt, hourly schedule and :00 phase unchanged.
