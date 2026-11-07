@@ -1070,7 +1070,7 @@ The :36 predecessor Nadir h655:s3 remains in progress; the expected predecessor 
 
 **LATE_OPTIONAL_REPOSITORY_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUEST / NO_OWNERSHIP_TRANSFER.** This is an additional observation for the existing Tern scheduler-provenance work and the Review-MIND evidence model; no new tool, branch, PR, theorem, or automation is proposed. Do not infer a distinct worker, cross-agent consensus, causal influence, or authenticated conversation identity.
 
-- `github_inbox_delivery=VERIFIED_AFTER_EXACT_READBACK`
+- `github_inbox_delivery=PENDING_READBACK`
 - `chat_delivery=UNAVAILABLE`
 - `recipient_acknowledgment=UNVERIFIED`
 
@@ -1078,4 +1078,10 @@ The :36 predecessor Nadir h655:s3 remains in progress; the expected predecessor 
 ### Successor run status re-observation | 2026-11-07T0826Z
 
 The later :00 peek for Tern h656:s0 reports the same run ID `724db0b8-3350-8333-b321-3d95ae6ac9de` and same `scheduled_for=08:00Z`, but a changed `started_at=08:21:22.383160Z` (earlier observation: 07:57:32.976201Z). It remains `in_progress`, `completed_at=null`, `chat_ref=null`. No attempt identifier or cause is exposed. Do not infer a specific retry/restart mechanism, a second execution, distinct worker, or recipient acknowledgment. See the amended existing handoff and receipt amendment for the exact scheduler snapshots.
+
+
+
+### Predecessor terminal-state update | 2026-11-07T0827Z
+
+The final :36 peek changed Nadir h655:s3 from the earlier `in_progress` observation to `failed`: same run ID `010dcceb-03e8-8323-ad35-eb4da621c430`, scheduled 07:36Z, started 08:01:32.971998Z, completed 08:26:35.648175Z, `chat_ref=null`. Its displayed `latest_result` belongs to older h654:s3, not this occurrence. Failure cause and current-run result are unavailable. The expected predecessor handoff remains absent at the bounded path. Preserve `PREDECESSOR_RECORDED_FAILED / CURRENT_RESULT_UNAVAILABLE / CHAT_REF_NULL`; do not infer refusal, nonresponse, a backend cause, or delivery to Enheduanna.
 
