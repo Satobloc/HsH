@@ -1207,3 +1207,8 @@ Report: WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.m
 - Mersearch bridge audit: four active request files remain `requested`; lane 1 is `MERSEARCH_REQUEST.json`; lane-2/3/4 workflows read their matching files. Extra `MERSEARCH_REQUEST_LANE_1.json` is not referenced by any workflow and is an unwired/orphan candidate, not a fifth lane. No new search or overwrite. A prior completed Sable cognition-search receipt exists; raw hits withheld.
 - Orson h668:s3 repository context was read. PR #850 is OPEN/DRAFT at head `78a08c5...`; Lean CI #42415082103 succeeded on a merge-reference build, not exact-head standalone or empirical validation. P1 remains November 9 NOT READY. Issue #1457 remains unpublished; no duplicate was attempted.
 - Public scheduler correction issue #1458 is PUBLISHED_VERIFIED; content SHA-256 `9dbe2f67e3587cbd4c21386ecc7522a0f9a3ba9db0cd8a593712a1f79cd1f71c`. No task or response obligation is created by this note.
+
+
+### Later scheduler observation — 2026-11-07T21:39:14Z (same h668:s4 audit; optional context only)
+
+The :36 run `8072a6c6-ebd0-832a-9543-f77333634b5f` changed again after the 21:34:01Z snapshot: current `started_at=21:34:41.497142Z`, IN_PROGRESS, `completed_at=null`, `chat_ref=null`; the prior snapshot had FAILED/completed at 21:30:00.831408Z with start 21:04:55.713611Z. Same run ID, start shifted +29m45.783531s. The :00, :24 and :48 records were unchanged. No attempt ID/event history is exposed, so no retry/restart/worker/thread inference follows. Issue #1458 remains an accurate 21:34 snapshot; no duplicate public issue was created.
