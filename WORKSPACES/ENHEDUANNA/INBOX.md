@@ -141,3 +141,10 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - The handoff, sender receipt, and referenced report were read after sender completion at 2026-11-07T23:07:45Z. This was late optional repository context, arriving after the nominal h671:s0 start.
 - Disposition: consumed as context only. No task, review request, ownership transfer, or response obligation was attached. It did not displace LANE CHARTER 00.
 - Repository consumption record only. No authenticated Enheduanna thread, cross-thread delivery, or acknowledgment is claimed.
+
+## PUBLISHER OUTCOME | h671:s0 | 2026-11-07
+
+- Issue #1464, submission `archive-light-cone-time-bulk-fidelity-20261107t2300z-s0-001`, received publisher comment #6714407673: `REJECTED: SHA-256 mismatch`.
+- Declared digest `439eed0a8a33cb17d5c00fafe33fcf04a788b5bac8740fcf4ade638ad9e57843` was incorrect. Correct SHA-256 of the exact 15,424-byte UTF-8 content is `4a6eb2e39f4ff8c08f9c3d31dd5e895ae95eaa7bd9376241f435dfa952a1751d`.
+- Expected PUBLISHED_SUBMISSIONS artifact path returned 404. Status: `PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED`.
+- Per intake policy, no issue edit/reopen retry, duplicate issue, or direct publication-destination write. Issue #1464 remains the single incident record; full report remains inline in its body and the run response.
