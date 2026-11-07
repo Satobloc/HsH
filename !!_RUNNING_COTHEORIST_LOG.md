@@ -150,3 +150,11 @@ The public method note was submitted as issue #1313 (ravel-tier-evidence-nonsubs
 The current Kestrel readout module has a pair-specific joint-readout theorem and conditional scale-route/factorization results. It does not establish a universal two-channel minimum. The general arbitrary-family criterion remains a proof obligation, not a new Lean result. PR #873 current-head run #41684317402 subsequently failed in KestrelMovingSlice.lean (noncomputable Real division and two “No goals to be solved” errors); this is Kestrel-owned and was not modified. No new Lean theorem/run or physical calculation was performed.
 
 Ravel state pointer: WORKSPACES/RAVEL/STATE.md (blob 6702646e85663e14ad2e0ed7631b4dd73e04520c). No BEDROCK/STATE_OF_THE_THEORY promotion, paper-gate advancement, branch/PR change, or task/schedule change. Orson's :48 run was still active, so no inbox append or cross-thread delivery was attempted; P1 cognition ownership remains unchanged.
+
+## 2026-11-07T0124Z | Ravel h649:s2
+
+Helium isotope-shift and response evidence bundle advanced as a candidate only. Recovered direct source genealogy for worldline-only/timesheet-only, responsive medium, and f/t/m bosons; separated the historical two-primitive SAT source, the later dynamic-block key, mixed assistant/NotebookLM material, and the external Nathan J. Bellomy BOSONIC_TIME/temporon papers. The SAT angle-force statement remains an explicitly analogical postulate, not a derivation.
+
+Published-table arithmetic was formalized in existing PR #993. Two Lean modules compile and execute: 4He frequency correction and uncertainty ledger; isotope-shift sum, uncertainty and conditional radius-gap comparison; finite-size C,D inversion; descriptive Zemach and BEC scattering-length comparisons. Latest exact-head CI run 42329428572 succeeded. No raw data reanalysis, H(s)H geometry map, or physical prediction.
+
+Corrected the prior unverified Dryad DOI claim. Raw 3He/4He datasets and required covariance were not identified. P2 remains HOLD / no selected system. No paper gate advanced, no BEDROCK promotion, no new issue/tool/task, and no automation change. Report: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE.md.
