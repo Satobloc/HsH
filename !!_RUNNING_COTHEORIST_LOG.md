@@ -158,3 +158,7 @@ Helium isotope-shift and response evidence bundle advanced as a candidate only. 
 Published-table arithmetic was formalized in existing PR #993. Two Lean modules compile and execute: 4He frequency correction and uncertainty ledger; isotope-shift sum, uncertainty and conditional radius-gap comparison; finite-size C,D inversion; descriptive Zemach and BEC scattering-length comparisons. Latest exact-head CI run 42329428572 succeeded. No raw data reanalysis, H(s)H geometry map, or physical prediction.
 
 Corrected the prior unverified Dryad DOI claim. Raw 3He/4He datasets and required covariance were not identified. P2 remains HOLD / no selected system. No paper gate advanced, no BEDROCK promotion, no new issue/tool/task, and no automation change. Report: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE.md.
+
+### Data-access refinement (2026-11-07)
+
+The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
