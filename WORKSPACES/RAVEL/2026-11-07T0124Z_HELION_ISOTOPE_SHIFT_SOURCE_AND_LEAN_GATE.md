@@ -106,11 +106,10 @@ Existing PR #993 was reused; no new PR or branch was created.
 - Branch: research/ravel-helion-charge-radius-inverse-gate-20261029t0824z.
 - Base: infra/lean4-verification-20261023.
 - PR #993 remains OPEN / DRAFT / UNMERGED.
-- Latest head: d3026aab30f2b4f67b219286c6187afea23733eb.
-- Latest exact-head workflow run: 42330303736, job 128275069622, SUCCESS.
-- Workflow source commit: 45a03c722f3b4cb1da7debf4cc8718eaaddf467e.
-- Lean 4.34.0, Lake 5.0.0; 8,952 build jobs completed successfully.
-- The latest head adds the 2022 Nature data-availability note to the module documentation; the formal statements and executable arithmetic are unchanged from the already successful preceding head.
+- Previously verified head: d3026aab30f2b4f67b219286c6187afea23733eb; exact-head workflow run 42330303736, job 128275069622, SUCCESS; source commit 45a03c722f3b4cb1da7debf4cc8718eaaddf467e.
+- Latest head: 5e19d01b7f7ee9dc996e316dc82664a8a933585b.
+- Latest exact-head workflow run: 42330897900, job 128276931880, IN_PROGRESS at final readback. This latest change adds only a source comment describing the Gnech–Schiavilla current-operator LEC calibration dependency; the formal statements and executable arithmetic are unchanged.
+- Lean 4.34.0, Lake 5.0.0; the preceding verified head completed 8,952 build jobs. Carry run 42330897900 forward for verification; do not duplicate the PR or submission.
 
 New modules:
 1. FORMAL_VERIFICATION/HsHVerification/RavelHelionIsotopeShift2026DataGate.lean
@@ -174,7 +173,8 @@ The B parameter may be class-dependent by worldtube bundle/topology; no universa
 
 ## 8. Next research cursor
 
-1. Seek authorized access to the 2022 Nature Penning-trap dataset/code and the 2025/2026 spectroscopy data; no request has been sent. Do not retry the unverified Dryad DOI.
+1. Verify exact-head workflow run 42330897900 for PR head 5e19d01b7f7ee9dc996e316dc82664a8a933585b; do not duplicate the PR or resubmit.
+2. Seek authorized access to the 2022 Nature Penning-trap dataset/code and the 2025/2026 spectroscopy data; no request has been sent. Do not retry the unverified Dryad DOI.
 2. Recover the full covariance of the 2026 BEC slope and zero-density intercept, and any covariance between the isotope-shift components.
 3. Reconcile the elastic Zemach and HFS-effective conventions, including the inelastic two-photon/polarizability contribution.
 4. Trace the QMC current-operator LEC fit set, update its Purcell-2010 magnetic-moment benchmark against the 2022 Penning-trap result, and keep the calibration dependency explicit.
