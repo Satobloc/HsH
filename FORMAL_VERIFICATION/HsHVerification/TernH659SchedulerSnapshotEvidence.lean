@@ -3,26 +3,32 @@ import HsHVerification.TernH515SchedulerOverlapEvidence
 import HsHVerification.TernH591SchedulerEvidence
 
 /-!
-Tern / Review-MIND — 2026-11-07 nominal :48 scheduler snapshot.
+Tern / Review-MIND — 2026-11-07 scheduler snapshots.
 
-Source observations were obtained from read-only peeks of the five existing
-Workshop Relay automation IDs. The current :24 run ID was observed twice
-during this activation: first FAILED with a completion timestamp and an
-earlier started_at, then IN_PROGRESS with a later started_at and no completion.
-The run ID stayed the same. The exposed record contained no attempt identifier
-or reason for the change. These are two observations of one scheduler record,
-not proof of a retry, restart, second execution, or backend mechanism.
+Source observations were obtained from read-only peeks of the five fixed
+Workshop Relay automation IDs. The :24 run ID was observed twice: first
+FAILED with a completion timestamp and an earlier started_at, then IN_PROGRESS
+with a later started_at and no completion. The run ID stayed the same. The
+exposed record contained no attempt identifier or reason for the change.
+These are two observations of one scheduler record, not proof of a retry,
+restart, second execution, or backend mechanism.
 
-At the later snapshot:
-* :00 was FAILED; its latest_result run ID matched its current run ID.
-* :24, :36, and :48 were IN_PROGRESS, with chat_ref absent.
-* Their latest_result run IDs referred to earlier completed runs with
-  non-null chat references. Those cached results are not outputs of the
-  current in-progress runs.
-* All four existing active leases remained enabled. The existing :12 lease
-  remained disabled. No task was added or modified.
+At the 11:53Z snapshot:
+* :00's 10:00Z occurrence was FAILED.
+* :24, :36, and :48 were IN_PROGRESS.
 
-All timestamps are integer microseconds since 2026-11-07T00:00:00Z.
+At the 12:04Z snapshot:
+* :00's 12:00Z occurrence (the Morrow ring label) had started and was
+  IN_PROGRESS.
+* :24, :36, and :48 remained IN_PROGRESS.
+* All four current runs had chat_ref absent.
+* Their latest_result records referred to earlier completed runs. This is
+  expected cached-result behavior while the current runs are IN_PROGRESS;
+  it is not classified as a defect or current-run output.
+* The existing :12 lease remained disabled; the four existing active leases
+  remained enabled. No task was added or modified.
+
+All timestamps are integer microseconds since 2026-11-06T00:00:00Z.
 This module proves only finite arithmetic and record-equality propositions
 over these transcribed API observations and the user-supplied fixed ring.
 It does not prove scheduler API truth, backend semantics, attempt identity,
@@ -38,6 +44,11 @@ def sequence : Nat := 5 * nominalHour + slot
 def selectedIndex : Nat := sequence % 19
 def nextIndex : Nat := (sequence + 1) % 19
 
+def indexFor (h s : Nat) : Nat := (5 * h + s) % 19
+
+def labelFor (h s : Nat) : Option String :=
+  HsHVerification.TernH515SchedulerOverlapEvidence.ring[indexFor h s]?
+
 theorem elapsed_utc_hours_from_epoch_is_659 : 27 * 24 + 11 = nominalHour := by decide
 theorem sequence_is_3299 : sequence = 3299 := by decide
 theorem selected_index_is_12 : selectedIndex = 12 := by decide
@@ -49,9 +60,18 @@ theorem next_name_is_morrow :
     HsHVerification.TernH515SchedulerOverlapEvidence.ring[nextIndex]? =
       some "Morrow" := by decide
 
-open HsHVerification.TernH591SchedulerEvidence
+theorem nominal_658_s0_is_ariadne :
+    labelFor 658 0 = some "Ariadne" := by decide
+theorem nominal_659_s2_is_nadir :
+    labelFor 659 2 = some "Nadir Voss" := by decide
+theorem nominal_659_s3_is_enheduanna :
+    labelFor 659 3 = some "Enheduanna" := by decide
+theorem nominal_659_s4_is_tern :
+    labelFor 659 4 = some "Tern Rook" := by decide
+theorem nominal_660_s0_is_morrow :
+    labelFor 660 0 = some "Morrow" := by decide
 
-def currentLeases : List Lease :=
+def currentLeases : List HsHVerification.TernH591SchedulerEvidence.Lease :=
   [ ⟨":00", "6aa1fe0de5e48191b886496095b1343f", true⟩
   , ⟨":12", "6aa61b3b2e4081918927a35b61007acc", false⟩
   , ⟨":24", "6abda4c8eda88191bf23a6f2849e9a17", true⟩
@@ -73,29 +93,46 @@ theorem existing_12_lease_remains_disabled :
 theorem existing_48_lease_remains_enabled :
     currentLeaseEnabled ":48" = some true := by decide
 
-def run00 : RunSnapshot :=
+abbrev RunSnapshot := HsHVerification.TernH591SchedulerEvidence.RunSnapshot
+abbrev RecordedStatus := HsHVerification.TernH591SchedulerEvidence.RecordedStatus
+
+def run00At1153 : RunSnapshot :=
   ⟨ "d3c9a7f9-8c08-8323-884a-d247e0e88392"
-  , 36_000_000_000
-  , 40_367_610_246
-  , .failed
-  , some 41_869_613_831
+  , 122_400_000_000
+  , 126_767_610_246
+  , RecordedStatus.failed
+  , some 128_269_613_831
   , false
   , "d3c9a7f9-8c08-8323-884a-d247e0e88392"
-  , some 41_872_637_409
+  , some 128_272_637_409
   , true
   , false
   , false
   ⟩
 
+def run00At1204 : RunSnapshot :=
+  ⟨ "22e8ab4d-c13c-8325-9066-c6fadee14ef0"
+  , 129_600_000_000
+  , 129_666_270_544
+  , RecordedStatus.inProgress
+  , none
+  , false
+  , "adc759a8-e078-8322-bbeb-79bc1159f476"
+  , some 84_298_042_286
+  , true
+  , true
+  , true
+  ⟩
+
 def run24FirstObservation : RunSnapshot :=
   ⟨ "18ae23b8-71fc-8321-88a1-8ea272f50b33"
-  , 41_040_000_000
-  , 41_117_717_461
-  , .failed
-  , some 42_621_573_242
+  , 127_440_000_000
+  , 127_517_717_461
+  , RecordedStatus.failed
+  , some 129_021_573_242
   , false
   , "af3b9eed-0674-832a-8cb3-f2a081d0eb38"
-  , some 38_335_358_284
+  , some 124_735_358_284
   , true
   , true
   , true
@@ -103,13 +140,13 @@ def run24FirstObservation : RunSnapshot :=
 
 def run24LaterObservation : RunSnapshot :=
   ⟨ "18ae23b8-71fc-8321-88a1-8ea272f50b33"
-  , 41_040_000_000
-  , 42_789_650_516
-  , .inProgress
+  , 127_440_000_000
+  , 129_189_650_516
+  , RecordedStatus.inProgress
   , none
   , false
   , "af3b9eed-0674-832a-8cb3-f2a081d0eb38"
-  , some 38_335_358_284
+  , some 124_735_358_284
   , true
   , true
   , true
@@ -117,13 +154,13 @@ def run24LaterObservation : RunSnapshot :=
 
 def run36 : RunSnapshot :=
   ⟨ "ebbfc6f1-e3ec-8329-aa83-af6f6f1389b4"
-  , 41_760_000_000
-  , 41_691_959_084
-  , .inProgress
+  , 128_160_000_000
+  , 128_091_959_084
+  , RecordedStatus.inProgress
   , none
   , false
   , "1ee986bb-5f84-832c-a7fa-86e5cda31763"
-  , some 25_118_188_916
+  , some 111_518_188_916
   , true
   , true
   , true
@@ -131,31 +168,43 @@ def run36 : RunSnapshot :=
 
 def run48 : RunSnapshot :=
   ⟨ "83a9e3c7-813c-8326-aa19-2a5b085e25e8"
-  , 42_480_000_000
-  , 42_642_235_624
-  , .inProgress
+  , 128_880_000_000
+  , 129_042_235_624
+  , RecordedStatus.inProgress
   , none
   , false
   , "c38b404b-b044-8322-87c5-e9ec8684daa0"
-  , some 39_649_537_930
+  , some 126_049_537_930
   , true
   , true
   , true
   ⟩
 
-def currentRuns : List RunSnapshot := [run00, run24LaterObservation, run36, run48]
+def runsAt1153 : List RunSnapshot :=
+  [run00At1153, run24LaterObservation, run36, run48]
 
-def inProgressCount : Nat :=
-  (currentRuns.filter (fun run =>
+def runsAt1204 : List RunSnapshot :=
+  [run00At1204, run24LaterObservation, run36, run48]
+
+def inProgressCount (runs : List RunSnapshot) : Nat :=
+  (runs.filter (fun run =>
     decide (run.status = RecordedStatus.inProgress))).length
 
-def failedCount : Nat :=
-  (currentRuns.filter (fun run =>
+def failedCount (runs : List RunSnapshot) : Nat :=
+  (runs.filter (fun run =>
     decide (run.status = RecordedStatus.failed))).length
 
-theorem current_snapshot_contains_four_run_records : currentRuns.length = 4 := by decide
-theorem current_snapshot_has_three_in_progress : inProgressCount = 3 := by decide
-theorem current_snapshot_has_one_failed : failedCount = 1 := by decide
+theorem snapshot_1153_contains_four_run_records : runsAt1153.length = 4 := by decide
+theorem snapshot_1153_has_three_in_progress :
+    inProgressCount runsAt1153 = 3 := by decide
+theorem snapshot_1153_has_one_failed :
+    failedCount runsAt1153 = 1 := by decide
+
+theorem snapshot_1204_contains_four_run_records : runsAt1204.length = 4 := by decide
+theorem snapshot_1204_has_four_in_progress :
+    inProgressCount runsAt1204 = 4 := by decide
+theorem snapshot_1204_has_zero_failed :
+    failedCount runsAt1204 = 0 := by decide
 
 theorem run24_same_run_id_across_observations :
     run24FirstObservation.runId = run24LaterObservation.runId := by decide
@@ -165,7 +214,7 @@ theorem run24_status_changed_between_observations :
     run24LaterObservation.status = RecordedStatus.inProgress := by decide
 
 theorem run24_completion_changed_from_present_to_absent :
-    run24FirstObservation.completedUs = some 42_621_573_242 ∧
+    run24FirstObservation.completedUs = some 129_021_573_242 ∧
     run24LaterObservation.completedUs = none := by decide
 
 theorem run24_started_at_changed :
@@ -190,16 +239,22 @@ theorem run24_cached_result_is_not_current_run :
     run24LaterObservation.latestResultCompleted = true ∧
     run24LaterObservation.latestResultChatRefPresent = true := by decide
 
-theorem run24_cached_result_precedes_current_slot :
-    run24LaterObservation.latestResultCreatedUs =
-      some 38_335_358_284 ∧
-    38_335_358_284 < run24LaterObservation.scheduledUs := by decide
+theorem run00_1153_failure_result_matches_current_run :
+    run00At1153.status = RecordedStatus.failed ∧
+    run00At1153.latestResultRunId = run00At1153.runId ∧
+    run00At1153.latestResultCompleted = true ∧
+    run00At1153.latestResultChatRefPresent = false := by decide
 
-theorem run00_failure_result_matches_current_run :
-    run00.status = RecordedStatus.failed ∧
-    run00.latestResultRunId = run00.runId ∧
-    run00.latestResultCompleted = true ∧
-    run00.latestResultChatRefPresent = false := by decide
+theorem run00_1204_cached_result_is_not_current_run :
+    run00At1204.latestResultRunId ≠ run00At1204.runId ∧
+    run00At1204.latestResultFromEarlierSlot = true ∧
+    run00At1204.latestResultCompleted = true ∧
+    run00At1204.latestResultChatRefPresent = true ∧
+    run00At1204.latestResultCreatedUs = some 84_298_042_286 := by decide
+
+theorem run24_is_still_same_in_progress_record_at_1204 :
+    run24LaterObservation.status = RecordedStatus.inProgress ∧
+    run24LaterObservation.completedUs = none := by decide
 
 theorem run36_cached_result_is_not_current_run :
     run36.latestResultRunId ≠ run36.runId ∧
@@ -214,13 +269,19 @@ theorem run48_cached_result_is_not_current_run :
     run48.latestResultChatRefPresent = true := by decide
 
 theorem all_current_run_chat_refs_are_absent :
-    currentRuns.all (fun run => decide (run.chatRefPresent = false)) = true := by decide
+    runsAt1204.all (fun run => decide (run.chatRefPresent = false)) = true := by decide
+
+theorem run00_1204_start_lag_is_66270544us :
+    run00At1204.startedUs - run00At1204.scheduledUs = 66_270_544 := by decide
 
 theorem run36_started_before_nominal_slot :
     run36.startedUs < run36.scheduledUs := by decide
 
-theorem run48_started_after_nominal_slot :
-    run48.startedUs > run48.scheduledUs := by decide
+theorem run36_early_start_is_68040916us :
+    run36.scheduledUs - run36.startedUs = 68_040_916 := by decide
+
+theorem run48_start_lag_is_162235624us :
+    run48.startedUs - run48.scheduledUs = 162_235_624 := by decide
 
 #print axioms elapsed_utc_hours_from_epoch_is_659
 #print axioms sequence_is_3299
@@ -228,12 +289,19 @@ theorem run48_started_after_nominal_slot :
 #print axioms selected_name_is_tern
 #print axioms next_index_is_13
 #print axioms next_name_is_morrow
+#print axioms nominal_658_s0_is_ariadne
+#print axioms nominal_659_s2_is_nadir
+#print axioms nominal_659_s3_is_enheduanna
+#print axioms nominal_659_s4_is_tern
+#print axioms nominal_660_s0_is_morrow
 #print axioms five_prescribed_relay_leases
 #print axioms four_prescribed_leases_enabled
 #print axioms existing_12_lease_remains_disabled
 #print axioms existing_48_lease_remains_enabled
-#print axioms current_snapshot_has_three_in_progress
-#print axioms current_snapshot_has_one_failed
+#print axioms snapshot_1153_has_three_in_progress
+#print axioms snapshot_1153_has_one_failed
+#print axioms snapshot_1204_has_four_in_progress
+#print axioms snapshot_1204_has_zero_failed
 #print axioms run24_same_run_id_across_observations
 #print axioms run24_status_changed_between_observations
 #print axioms run24_completion_changed_from_present_to_absent
@@ -242,7 +310,8 @@ theorem run48_started_after_nominal_slot :
 #print axioms run24_first_start_lag_is_77717461us
 #print axioms run24_later_start_lag_is_1749650516us
 #print axioms run24_cached_result_is_not_current_run
-#print axioms run00_failure_result_matches_current_run
+#print axioms run00_1153_failure_result_matches_current_run
+#print axioms run00_1204_cached_result_is_not_current_run
 #print axioms run36_cached_result_is_not_current_run
 #print axioms run48_cached_result_is_not_current_run
 #print axioms all_current_run_chat_refs_are_absent
