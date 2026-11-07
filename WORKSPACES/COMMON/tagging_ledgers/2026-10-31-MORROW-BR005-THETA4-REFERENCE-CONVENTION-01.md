@@ -69,3 +69,17 @@ This is an additive correction to the 2026-11-01 note that the inverse-pitch cla
 - PR #674's current head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5` remains open/draft/unmerged. Its exact-head workflow run #40498334138 failed in `conversation-json-content-ci`; no exact-head Lean build is verified. The Lean module proves conditional complementarity algebra only, not historical intent or physical truth.
 
 Current classification: `INVERSE_PITCH_WORDING_DIRECT_AUG27 / NORMAL_REFERENCE_CONVERSION_UNRESOLVED / EXACT_SEP16_RAW_EVENT_UNRECOVERED`. Current BEDROCK BR-005 remains unchanged.
+
+
+## 2026-11-07T1940Z — PR #674 module build evidence
+
+The current PR #674 head is `138a40a678a61cfb8bb00448b6f5b4bc20b504c5`. The file blob for `FORMAL_VERIFICATION/HsHVerification/FIEAngleConventionFidelity.lean` is `056ff72af5e01c2db4f554f549d9a99a7cb34ce9` at both the current head and earlier commit `74dbac1b8658117dfaacb9553b637df109656c63`.
+
+Actual earlier Lean run #40447650215 succeeded on 2026-10-27T04:03:58Z at commit `74dbac1b8658117dfaacb9553b637df109656c63`. Job #122002634931 used Lean 4.34.0 and Lake 5.0.0; `lake build` completed successfully with 8,943 jobs and explicitly built `HsHVerification.FIEAngleConventionFidelity`. The four `#print axioms` outputs list `propext`, `Classical.choice`, and `Quot.sound`. Workflow settings show `axiom-audit=false`, `leanchecker=false`, `test=false`, and `lint=false`; this is not an independent axiom-audit or checker run.
+
+The current PR head aggregator imports the unchanged FIE module and a later `SourceSpanAttributionGate`. The retrieved current-head run #40498334138 failed in `conversation-json-content-ci`, not Lean. Therefore the FIE module blob has an earlier successful Lean build, but the integrated current PR head remains unverified.
+
+The formal result is conditional complementarity algebra. It does not authenticate the September 16 source event, determine which angle convention Nathan intended, prove the helix-to-pitch translation, or establish physical truth. No Lean run occurred in this archive-only execution; no local Lean/Lake/Elan executable was available.
+
+Current formalization status:
+`FIE_MODULE_BLOB_BUILT_ON_EARLIER_HEAD / MODULE_BLOB_UNCHANGED_AT_CURRENT_HEAD / CURRENT_FULL_PR_HEAD_BUILD_UNVERIFIED / CONDITIONAL_THEOREMS_ONLY`.
