@@ -93,7 +93,7 @@ A separate Ravel assistant reconstruction, `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHE
 
 This is an assistant reconstruction with an explicit radius and helix/timesheet assumptions, not a verbatim Nathan Direct equation. It offers one dimensionless candidate relation but does not establish that Nathan intended it.
 
-Existing PR #674 remains open, draft, and unmerged at head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5`. Its `FIEAngleConventionFidelity.lean` module defines complementarity and proves four conditional algebraic consequences. The exact-head workflow run #40498334138 is a failed `conversation-json-content-ci` run with no returned jobs; it is not a successful Lean build. No exact-head Lean compilation or independent axiom-output inspection is established here.
+Existing PR #674 remains open, draft, and unmerged at head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5`. Its `FIEAngleConventionFidelity.lean` module defines complementarity and proves four conditional algebraic consequences. The exact-head workflow run #40498334138 is a failed `conversation-json-content-ci` run with no returned jobs; it is not a successful Lean build. No exact-current-head full PR build or separate axiom audit is established here; see Section 9 for the earlier successful build of the identical FIE module blob and its `#print axioms` output.
 
 No Lean run was performed in this archive-only execution. The local runtime lacks Lean/Lake/Elan, and the Morrow theory stop remains controlling. No new Lean module, PR, or workflow was created.
 
