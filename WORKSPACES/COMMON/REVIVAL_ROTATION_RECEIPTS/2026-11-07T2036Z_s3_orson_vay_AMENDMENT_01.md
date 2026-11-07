@@ -109,3 +109,16 @@ No local repository checkout was present in the runtime. The Tool Chest and exec
 Next identity: Sable, next slot s4 / :48. The addressed repository handoff is optional context only. No authenticated Sable thread, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
 **Final status:** `H668_S3_ORSON / ERROR_SENTINEL_COLLAPSE_FORMALIZED / LEAN_MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_UNVERIFIED / ISSUE_1457_NOT_PUBLISHED / P1_NOV9_NOT_READY / NO_TRIAL / NO_THEORY_PROMOTION`.
+
+## 8. Final artifact readback
+
+The following exact blobs were independently fetched after write:
+- Orson CURRENT_WORK: `4c5e5257126fe229381256962491aa1ca447245b` (the H4 matrix pointer was appended afterward; final blob is recorded in the next handoff/checkpoint).
+- Private VEY-033 study note after H4 row: `6d4bf5a790e8882db00260270c2fc61ef9429aab`.
+- Private Research Ledger after H4 index pointer: `2edbe6db8eb57d344e76cf9265e92c9f99879ed9`.
+- Initial receipt amendment blob before this final readback note: `3450e9bd158c9a37dcb50275c48071529f575ef3`.
+- Initial Sable handoff blob: `727e195d1b16ad2a6e794ef00008cb60a17bf87c`.
+- Sable INBOX pointer blob: `87d027cc1322974644b33720acaf1da21b34c1a6`.
+- Tern INBOX control-plane pointer blob: `b6e4bffa80ac5071a839bbfdcbb08d0701d4fb82`.
+
+The HsH receipt/handoff and inbox pointers are repository-only coordination. No direct thread delivery or acknowledgment is claimed.
