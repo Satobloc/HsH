@@ -3,23 +3,32 @@ import Mathlib
 /-!
 # Four-cell factorial contrast identifiability
 
-This generic algebraic contract is motivated by the four aggregated
-configurations in Schlamminger et al., Metrologia 63 (2026) 025012,
-Table 16: copper/sapphire source-mass material crossed with
-electrostatic-servo/free-deflection readout.
+This generic algebraic contract is motivated by the four final aggregate
+determinations in Schlamminger et al., Metrologia 63 (2026) 025012,
+Table 16. They are a copper/sapphire by servo/free summary, not the raw
+acquisition design. Table 15 reports eight torque differences: copper
+source masses at 0, 120, and 240 degrees, plus sapphire at one orientation,
+each measured in both readout modes.
 
 The four coefficients are a common mean, material contrast, readout
 contrast, and material-by-readout interaction. The map from those four
-coefficients to the four cell summaries is bijective. Consequently, at
-this aggregation level the four-parameter factorial model is saturated:
-it can represent any four cell values exactly and supplies no residual
-degrees of freedom for testing an additional H(s)H-specific effect.
+coefficients to the four final summaries is bijective. Consequently, the
+four-summary model is saturated after aggregation. This does NOT imply
+that the full eight-observation acquisition has no residual structure.
 
-This theorem does NOT establish that the four measurements are independent,
-does not encode their published covariance matrix or the paper's
-configuration-specific dark-uncertainty model, and does not validate a
-physical H(s)H map. Those remain separate empirical and source-translation
-questions. No physical fixture or numerical measurement is introduced.
+For the copper orientations, the paper models
+G(theta) = G_i + A sin(theta - theta_0), with i indexing the two readout
+methods, and uses the three equally spaced clockings to cancel the
+first-harmonic density-gradient contribution. The added theorem below
+formalizes a conditional identifiability limit: an extra response in the
+same first-harmonic sine/cosine span can be absorbed by reparameterizing
+that nuisance model. It does not assert that H(s)H predicts such a term.
+
+The module does NOT encode the eight measured values, raw time series,
+published covariance matrix, or configuration-specific dark-uncertainty
+posterior, and it does not validate a physical H(s)H map. Those remain
+separate empirical and source-translation questions. No fit or physical
+prediction is computed.
 -/
 
 namespace HsHVerification.FactorialContrastIdentifiability
@@ -71,5 +80,48 @@ theorem factorialCellMap_bijective : Function.Bijective cells := by
 #print axioms recover_cells
 #print axioms cells_recover
 #print axioms factorialCellMap_bijective
+
+
+/-- The phase-form orientation nuisance used in the NIST paper is a
+    first-harmonic sine/cosine combination. This is a source-model
+    reparameterization, not a claim about an H(s)H response. -/
+theorem phase_parameterization_is_first_harmonic
+    (A theta₀ theta : ℝ) :
+    A * Real.sin (theta - theta₀) =
+      (A * Real.cos theta₀) * Real.sin theta -
+      (A * Real.sin theta₀) * Real.cos theta := by
+  rw [Real.sin_sub]
+  ring
+
+/-- First-harmonic orientation response in the linear nuisance basis. -/
+def firstHarmonic (a b theta : ℝ) : ℝ :=
+  a * Real.sin theta + b * Real.cos theta
+
+/-- Intercept plus the two first-harmonic nuisance coefficients. -/
+def orientationModel (base a b theta : ℝ) : ℝ :=
+  base + firstHarmonic a b theta
+
+/-- An augmented model with an additional response in the same nuisance span. -/
+def orientationModelWithExtra
+    (base a b amplitude extraSin extraCos theta : ℝ) : ℝ :=
+  orientationModel base a b theta +
+    amplitude * firstHarmonic extraSin extraCos theta
+
+/-- Any added first-harmonic response is exactly absorbed by changing the
+    two nuisance coefficients. This is a conditional identifiability
+    theorem; it does not establish that an H(s)H term has this form. -/
+theorem same_span_extra_is_absorbed
+    (base a b amplitude extraSin extraCos : ℝ) :
+    ∃ a' b' : ℝ, ∀ theta : ℝ,
+      orientationModelWithExtra base a b amplitude extraSin extraCos theta =
+        orientationModel base a' b' theta := by
+  refine ⟨a + amplitude * extraSin,
+    b + amplitude * extraCos, ?_⟩
+  intro theta
+  unfold orientationModelWithExtra orientationModel firstHarmonic
+  ring
+
+#print axioms phase_parameterization_is_first_harmonic
+#print axioms same_span_extra_is_absorbed
 
 end HsHVerification.FactorialContrastIdentifiability
