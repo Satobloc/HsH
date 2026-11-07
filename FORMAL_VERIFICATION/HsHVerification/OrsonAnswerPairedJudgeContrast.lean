@@ -120,10 +120,47 @@ theorem two_judges_have_one_distinct_pair :
     distinctJudgePairCount 2 = 1 := by
   norm_num [distinctJudgePairCount]
 
+namespace PublishedEstimand
+
+/-- The exact per-answer contrast in Selvam and Ghosh, §5.2:
+the matching judge's binary flag minus the mean of the two nonmatching
+judges' flags, all evaluated on the same candidate answer. -/
+def answerPairedDelta
+    (matchingFlag nonmatchingFlag1 nonmatchingFlag2 : ℝ) : ℝ :=
+  matchingFlag - (nonmatchingFlag1 + nonmatchingFlag2) / 2
+
+/-- A common answer-specific additive shift to all three judge scores cancels
+from the published same-answer contrast. This is a derived invariance, not
+an assumption that the empirical judge scores follow an additive model. -/
+theorem common_answer_shift_cancels
+    (matchingFlag nonmatchingFlag1 nonmatchingFlag2 answerShift : ℝ) :
+    answerPairedDelta
+      (matchingFlag + answerShift)
+      (nonmatchingFlag1 + answerShift)
+      (nonmatchingFlag2 + answerShift) =
+      answerPairedDelta matchingFlag nonmatchingFlag1 nonmatchingFlag2 := by
+  unfold answerPairedDelta
+  ring
+
+/-- For binary judge flags, the per-answer contrast is bounded by [-1, 1]. -/
+theorem binary_flags_bound
+    (matchingFlag nonmatchingFlag1 nonmatchingFlag2 : ℝ)
+    (hM : matchingFlag = 0 ∨ matchingFlag = 1)
+    (h1 : nonmatchingFlag1 = 0 ∨ nonmatchingFlag1 = 1)
+    (h2 : nonmatchingFlag2 = 0 ∨ nonmatchingFlag2 = 1) :
+    -1 ≤ answerPairedDelta matchingFlag nonmatchingFlag1 nonmatchingFlag2 ∧
+    answerPairedDelta matchingFlag nonmatchingFlag1 nonmatchingFlag2 ≤ 1 := by
+  rcases hM with hM | hM <;>
+  rcases h1 with h1 | h1 <;>
+  rcases h2 with h2 | h2 <;>
+  norm_num [answerPairedDelta, hM, h1, h2]
+
+end PublishedEstimand
+
 namespace GoldStratumSensitivity
 
 /-- Mean of fixed per-answer paired deltas over a nonempty gold stratum. -/
-def meanOn (answers : Finset (Fin 3)) (delta : Fin 3 → ℝ) : ℝ :=
+noncomputable def meanOn (answers : Finset (Fin 3)) (delta : Fin 3 → ℝ) : ℝ :=
   answers.sum delta / (answers.card : ℝ)
 
 /-- Reference labels: answers 0 and 1 are gold-positive. -/
@@ -141,7 +178,7 @@ def pairedDelta : Fin 3 → ℝ := fun i =>
   if i = 0 then 1 else if i = 1 then -1 else 0
 
 /-- Unstratified mean: no gold label enters this quantity. -/
-def overallMean (delta : Fin 3 → ℝ) : ℝ :=
+noncomputable def overallMean (delta : Fin 3 → ℝ) : ℝ :=
   (delta 0 + delta 1 + delta 2) / 3
 
 /-- A single gold-label flip changes both conditional stratum means, while
@@ -158,6 +195,8 @@ theorem one_label_reassignment_changes_strata_not_overall :
 end GoldStratumSensitivity
 
 #print axioms GoldStratumSensitivity.one_label_reassignment_changes_strata_not_overall
+#print axioms PublishedEstimand.common_answer_shift_cancels
+#print axioms PublishedEstimand.binary_flags_bound
 
 #print axioms paired_contrast_cancels_answer_component
 #print axioms unpaired_contrast_decomposes
