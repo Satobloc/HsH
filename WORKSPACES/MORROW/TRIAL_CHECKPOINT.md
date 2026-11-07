@@ -914,3 +914,53 @@ This is an additional observation of the existing h663:s4 occurrence, not a new 
 - Classification: `SAME_RUN_ID / SAME_SCHEDULED_FOR / STARTED_AT_CHANGED_AGAIN / ATTEMPT_LINEAGE_UNRESOLVED`. Do not infer a retry, restart, second execution, distinct worker, or conversation delivery.
 - The existing h663:s4 receipt and handoff were already present on HsH `main` at head `df711195164650c0e33af64458f0836b63937868` (commit time 16:53:18Z) before this re-observation. This is an additive amendment to those records; no duplicate receipt or handoff was created.
 - No new Lean module, PR, issue, publication, task, schedule change, archive search, theory work, physical calculation, or cross-thread delivery is claimed. The prior source/continuity work and all existing boundaries remain unchanged.
+
+
+## 2026-11-07T1936Z | h667:s3 | direct August 27 source witness and BR-005 provenance correction
+
+**Rotation:** h=667; seq=3338; ring index 13 Morrow; next Kestrel (index 14).  
+**Run key:** `REVROT3-19-20261011:667:s3`.  
+**Scheduler:** existing :36 task `6a9f52b69ec08191b0a2ba24a074f781`, enabled, hourly minute :36 unchanged. `scheduled_for=2026-11-07T19:36:00Z`; `started_at=19:32:30.186517Z`; run `cc29a027-2398-8331-88eb-a882c67c939c` remained `in_progress` with `chat_ref=null` at final peek. Cached latest_result belongs to h661 and was not attributed to this occurrence. This is a deterministic ring selection, not an authenticated Morrow thread.
+
+### Authority boundary
+
+The direct Team Archivist instruction is user message `402ade01-7116-4efb-9b14-31e477754458` in Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, raw snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Direct user message `934e87de-4e61-4622-a0ea-e5047aa235c6` on 2026-09-13 says stop work on theory immediately and quarantine theory artifacts. Later trial message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` permits archive/maintenance, provenance, chronology, source comparison, theory-material reading/note-taking, and mathematical/equation checking; it does not explicitly lift the theory stop. The generic :36 architecture/prediction lane does not override this specific boundary. No authenticated current Morrow thread was established.
+
+### New source witness
+
+Recovered raw Calder export:
+- Conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`.
+- Path `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json`.
+- Blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`, 2,207 mapping nodes.
+- Archived current node `70787228-7db1-4a4b-a993-15404dfb9148`.
+- Current-path user message `95319111-ba02-4b45-885a-6e44bd5fed7d`, 2026-08-27T00:20:22.945Z, parent assistant node `590a21ec-f75d-4fcd-80bb-2d0b68ca6342`.
+
+The direct message pairs vacuum `theta_4=90°` with a direction perpendicular to the time sheet and parallel to the time normal, then says `theta_4` is always the inverse pitch of the helix. It also describes H(s)H `theta_4` as intersectional particle oblateness. This is a direct user-role witness for the inverse-pitch wording, but not a typed equation or unique angle-reference definition. The same message is a correction to the parent assistant's claim that `w` orthogonality was fixed by construction.
+
+Sibling `6b31fd95-11dd-4d75-9f09-eed13f618d5f` and earlier August 26 messages `329d4d28-51c3-4fc0-8cae-7aa4c2dc0c5a` and `39530442-0b25-419b-bb18-844664a61ef6` are off-path and are not independent witnesses.
+
+The exact raw user event behind the 2026-09-16 running-log entry remains unrecovered. The only September 16 user message in the Calder export is `fbd31309-3e81-4e44-8629-4f2c4041b865` at 05:23:40.077Z, about Sable/Ravel coordination. The `All-Worker Standards Read` candidate export (blob `09e56a40582d8babad6bc339947b5ab97e80df6a`, 567 mapping nodes) has 15 target-term hits, all tool/assistant content; candidate `c339ad01-5dc9-4c74-9b3b-f940c2edab38` is a tool result retrieving the running log.
+
+The current `!!_RUNNING_COTHEORIST_LOG.md` blob `80c9c197ba117bb6c0ca7aee24b57fb5ff84fa95` records the normal-relative `theta_4=0` claim but gives no raw message ID. It remains a derivative working-log record. Its date may be the log-entry date rather than the original utterance date; unproven.
+
+### Formalization and theory boundary
+
+Ravel assistant reconstruction `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md`, blob `80d85bb3a7d18b70830fe54752151257674ae23b`, derives `tan(theta_4)=2*pi*R/P` within a declared fixed helix/timesheet model. This is not Nathan Direct. Since `theta_4` is dimensionless and `1/P` has inverse-length units, the source phrase requires a normalization or dimensionless ratio before it can be interpreted as an equation.
+
+PR #674 remains open/draft/unmerged at head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5`. Its module proves conditional complementarity algebra only. Exact-head workflow run #40498334138 failed in `conversation-json-content-ci`; no exact-head Lean build is verified. No Lean run occurred in this archive-only execution; no local Lean/Lake/Elan was available. No new theorem, module, PR, physical calculation, prediction, or theory work was performed.
+
+### Mersearch, reading, and durable records
+
+The completed request `morrow-br005-time-normal-source-20261031-1253` and compact receipt were reread. It searched pinned HsH, SAT archive, and HSH_RESOURCES roots, with 15,966 files, 20,844,775 records, 1,094 hits, and 334 paths. Its query has an unguarded OR branch; raw result files remain withheld. All four shared Mersearch lanes remain occupied/requested. No new request or lane overwrite occurred; GitHub blob retrieval was a bounded fallback.
+
+Unrelated reading continued in Kakuzo Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 134–488. Next cursor 489. FIE review due 2026-11-10. SPHERE4QC source/backend cursor remains parked at line 1301. No physical off-screen break is claimed.
+
+Durable artifacts:
+- Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `3f15e5022c3dd34d989ed465df2fe28e862bc525`.
+- Updated ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md`, blob `52e2438bf27589166d681067826206c729e0a379`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `014cf1cb5dc393eefa22520192310bd3229fcf93`.
+- Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1936Z_from_s3_to_s4_kestrel.md`, blob `a36956c19ac7af680f26ff31870e8a4d5eb3829c`.
+
+Current BEDROCK BR-005 remains unchanged. No public issue, theory promotion, paper gate advancement, task/ID/schedule/phase/cadence change, branch ownership change, signet use, or conversation rename occurred. No authenticated Morrow or Kestrel thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+**Next cursor:** when a shared Mersearch lane is released, run a corrected parenthesized three-repository query with the user-role predicate applied to every disjunct, then inspect exact raw message ancestry. Continue Okakura at line 489; FIE review on or after November 10; keep SPHERE4QC line 1301 deferred.
