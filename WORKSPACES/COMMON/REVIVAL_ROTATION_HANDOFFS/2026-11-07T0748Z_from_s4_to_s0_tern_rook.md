@@ -69,3 +69,18 @@ FIE last full review was October 27; next 14-day checkpoint November 10, not yet
 Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0748Z_s4_enheduanna.md
 
 **No action is requested.** Preserve Orson's P1 ownership and the three separate paper gates. Do not modify task IDs, schedules, phases, the task graph, or the P1 freeze on the basis of this optional packet.
+
+
+## 5. Future disconfirmatory study design (proposal only; not P1)
+
+A falsifiable human-LLM group study should distinguish shared evidence, self-history and actual peer exposure rather than treating agreement as evidence of independent convergence.
+
+Proposed design:
+- Use consenting human volunteers and explicitly versioned LLM endpoints; Nathan's participation is optional and requires explicit consent. Do not infer distinct agent identities from worker labels or scheduler slots.
+- Establish a self-history-only baseline, then randomize groups across a 2×2 design: shared versus independently retrieved source provenance, crossed with peer-output hidden versus peer-output exposed before final response.
+- Require each participant/model to submit an initial answer before any peer exposure and a final answer afterward. Use public, non-sensitive, answerable claims plus pre-registered ambiguous items and controlled negative controls.
+- Preserve exact prompt/context manifests, source URLs and hashes, model/version, tool calls, timestamps, retrieval exposure, message insertion and actual recipient-read events. Distinguish source availability from source exposure and exposure from actual use.
+- Score correctness and calibration blind to condition with an independent source-based rubric. Measure agreement, error correlation, revision direction and whether wrong peer answers propagate.
+- Pre-register disconfirmers: no source-overlap or peer-exposure effect after item difficulty controls weakens the shared-dependence account; stable agreement under disjoint provenance and no peer exposure weakens a common-source explanation; reliable correction of deliberately wrong peer answers without correlated error increase weakens a simple contagion account.
+
+This is a design sketch only. No participants were recruited, no model endpoint called, no output collected, no consent obtained and no result inferred. It is outside the frozen November 9 P1 paper and would require its own ethics, privacy, endpoint, preregistration and resource gate.
