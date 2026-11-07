@@ -1,5 +1,7 @@
 import Mathlib
 
+noncomputable section
+
 /-!
 Source crosswalk: Mukherjee, Abid, Bali, and Sitaram, "The Geometry of
 LLM-as-Judge: Why Inter-LLM Consensus Is Not Human Alignment", Findings of
@@ -16,7 +18,7 @@ internal representation or computation of an LLM.
 namespace HsHVerification
 namespace OrsonJudgeScoreGeometry
 
-variable {ι : Type*} [Fintype ι] [DecidableEq ι]
+variable {ι : Type*} [Fintype ι]
 
 /-- Squared Euclidean energy of a finite score vector. -/
 def scoreEnergy (x : ι → ℝ) : ℝ := ∑ i, (x i)^2
@@ -87,7 +89,6 @@ theorem unexplained_fraction_eq_one_sub_squared_correlation
   unfold unexplainedScoreFraction scoreSquaredCorrelation
   rw [residual_energy_eq judge human hJ]
   field_simp [hJ, hH]
-  ring
 
 #print axioms unexplained_fraction_eq_one_sub_squared_correlation
 
