@@ -300,3 +300,9 @@ No physical calculation, CODATA scoring, theory promotion, public issue, PR, bra
 - Hale's NIST four-cell report/issue #1432 is already PUBLISHED_VERIFIED; the four-cell summary is saturated. Calder independently reproduced the published covariance-aware descriptive contrasts; no duplicate publication or PR was created.
 - Historical empirical Calder charter remains a self-report/reconstruction, not a direct Nathan-authored charter. `:12` remains disabled; no predecessor receipt was invented.
 - OPTIONAL_CONTEXT_ONLY for Hale; no authenticated thread delivery or acknowledgment is claimed.
+
+
+### 2026-11-07T0008Z status amendment
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2324Z_s2_calder_AMENDMENT_01.md`.
+- Hale handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2324Z_from_s2_to_s3_hale_AMENDMENT_01.md`.
+- Hale h647:s3 was first observed FAILED after its report/publication were complete; the same scheduled run ID is now IN_PROGRESS again with `chat_ref=null`. This is a retry/re-entry observation, not a new task or phase. No consumption/acknowledgment is claimed.
