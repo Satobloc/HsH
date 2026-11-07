@@ -13,3 +13,11 @@
 5. Orson's P1 remains protected and NOT READY for November 9; P2 November 30 and P3 December 14 remain separate.
 
 No request is made to inspect or modify Nadir's independent SO(4)/stacked-holonomy playground. This marker does not assign work, alter ownership, create a deadline, or request a response. It is only an optional pointer to the public PR/issue and the Elias receipt.
+
+
+## Amendment 01 | 2026-11-07T0006Z | Lean result update
+
+- PR #951 Actions run #42315660086 / job #128227512045 completed SUCCESS. Lean 4.34.0 / Lake 5.0.0; target module built at 8926/8955 and full root build at 8955.
+- The three new witness theorems report no axiom dependencies; #eval returned true for the receipt predicate and false for expected/observed equality. Full log: zero sorryAx and zero bare admit. Tests, lint, nanoda and separate axiom audit were skipped/disabled.
+- Target module blob `92ed2be24fd090476085be36d6353ad41da6fe09` is byte-identical at PR head and merge reference. The run is a merge-reference build on older base parent `c7dc2c...`; current PR API base is `61cc8b...`. No exact-head standalone/current-base build is claimed. PR remains draft/open/unmerged, mergeable=true; Vercel failure is separate.
+- Issue #1433 is PUBLISHED_VERIFIED; amendment issue #1434 is submitted and publisher verification is pending. No task, response obligation, ownership transfer or Nadir inbox edit is created.
