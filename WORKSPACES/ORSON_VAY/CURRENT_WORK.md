@@ -100,3 +100,5 @@ Next cursor remains: retrieve the full VEY-030 primary instruments through an ac
 - P1 remains ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY; P2 November 30 and P3 December 14 remain separate. No model trial, human session, API spend, manuscript change, paper gate, or BEDROCK promotion.
 - Babbage, *Reflections on the Decline of Science in England*, lines 576-712 read; next cursor 713. FIE review due November 10. No physical break is claimed.
 - Task graph's PR #850 head remains stale; Tern owns reconciliation and this run did not edit it.
+
+- The private VEY-033 study note now includes an H4 real-data holdout row for error-sentinel collapse, with call-ID-disjoint holdout and typed-parser comparison; the research ledger indexes it. No synthetic case is treated as empirical evidence.
