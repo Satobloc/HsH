@@ -211,9 +211,7 @@ theorem fixedOrderProjection_equal_iff_compensating_transfer
     simp
     constructor
     · exact hτ.symm
-    · constructor
-      · ring
-      · linarith
+    · linarith
   · rintro ⟨c, rfl⟩
     simp [fixedOrderParameterProjection]
     ring
