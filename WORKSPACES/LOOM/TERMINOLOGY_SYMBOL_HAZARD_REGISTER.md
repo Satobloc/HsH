@@ -198,3 +198,13 @@ Related but not identical: March 7 phase/spin-space Universal Indicatrix UI in #
 | D4 symmetry / SM-QM representation | A lattice symmetry does not specify a gauge representation, particle multiplet, or measured spectrum. |
 | H feature vector / information metric | No probability model or Fisher tensor is defined; six features do not establish information geometry. |
 | Inside transform / outside observable | The measurement and projection map from marked-point motion to an observable worldline remains undefined. |
+
+
+## 2026-11-07 notation chronology hazard: cw=t vs w=ct
+
+| Witness | Provenance | Status | Guardrail |
+|---|---|---|---|
+| cw=t | Raw Meridian Minkowski Ring Analysis, 2026-10-21T13:55:40.205Z, user message c5525f53-b7cc-4444-8102-3bf6fdb1c892 | Direct raw user-role statement; ±(c+H0)/2 explicitly tentative; Forest Normalization and ++++ stated | Preserve literal notation; do not silently convert or promote the tentative expression. |
+| w=ct | 2026-10-29 TOPLESS intake and prior-context recovery | User-authored abbreviated index / prior-context witness; raw export, full body, message UUIDs and parent context absent | Does not establish raw-source supersession of cw=t. Preserve as a separate later witness. |
+
+The October 8 H baseline and September 30 D4 indicatrix have no source-defined map to either notation. Aster's earlier receipt contains a mistyped October 21 UUID; the raw mapping above is the corrected locator.
