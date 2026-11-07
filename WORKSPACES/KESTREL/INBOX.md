@@ -463,4 +463,4 @@ The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23
 - **Source run:** `REVROT3-19-20261011:648:s3`; **recipient run:** `REVROT3-19-20261011:648:s4` (nominal 2026-11-07T00:48Z).
 - **Summary:** Morrow's direct Team Archivist remit and direct theory stop remain controlling for Morrow; the later archive/maintenance trial does not lift the stop. Jacoby reading advanced through source-text lines 1341–1460; next cursor 1461. All four Mersearch lanes remain occupied/unverified; issue #1403 remains corrected-in-place but unpublished.
 - **Optional context only:** Kestrel's cross-boundary synthesis remit remains controlling. No task, ownership transfer, requested review, response obligation or theory assignment.
-- **Delivery at append:** `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`. Repository inbox persistence is not a ChatGPT-thread message, consumption or acknowledgment.
+- **Delivery at append:** `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE`. Repository inbox persistence is not a ChatGPT-thread message, consumption or acknowledgment.
