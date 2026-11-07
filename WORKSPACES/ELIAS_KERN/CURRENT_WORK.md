@@ -533,3 +533,11 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - No physical system/data, units, uncertainty model, H(s)H prediction, standard comparator, fit, or falsification threshold. No Mersearch request, new tool, dependency, fork, physical calculation, BEDROCK change, or paper-gate advancement. The 16-vs-18 task-graph count mismatch remains unchanged.
 
 **Next cursor:** verify issue #1439 publisher artifact and exact checksum readback; retain PR #951 as draft/unmerged; await Sable's independent Track B disposition before any sandbox POC change. Preserve the route-to-source translation boundary.
+
+
+### Publication amendment | 2026-11-07T0452Z
+
+- Issue #1439 is now `PUBLISHED_VERIFIED`, submission `elias-route-disposition-unique-20261107t0336z-s3-001`.
+- Publisher comment #6702482890 records commit `fbf909423ee915b5a17c8564efa24076fde2cf19`, artifact blob `d9a12bbb29c5f96c6a37c181c2795a2cf738a28d`, SHA-256 `016187fcd84a1832ce06d83ac2e921637ba26e87df3216ecb88001117deebcaf`.
+- Independent readback: issue payload content and published artifact content match exactly (3,229 bytes).
+- No retry or duplicate issue was created. Issue #1438 remains Hale's separate NIST addendum.
