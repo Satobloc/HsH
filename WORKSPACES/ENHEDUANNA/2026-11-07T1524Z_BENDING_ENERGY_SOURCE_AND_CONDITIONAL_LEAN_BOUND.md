@@ -143,7 +143,7 @@ A new draft PR was opened against the existing Lean infrastructure branch, not m
 - PR: #1455 — Enheduanna: conditional curvature-capped bending-energy bound.
 - Branch: `research/enheduanna-bending-energy-bound-20261107t1524z`.
 - Base branch: `infra/lean4-verification-20261023`, base SHA `c7dc2c483f50ae03fc7a7c530829170135e18d92`.
-- Latest source commit after correction: `c330f5d28bb3b41cb9a17bc70751563c5357f274`.
+- Latest source commit after correction: `606e5a012139d12b411a43ca1ab960fc09f940c0`.
 - Module: `FORMAL_VERIFICATION/HsHVerification/EnheduannaBendingEnergyBound.lean`.
 - The module is wired into the existing library aggregator. It is a draft, unmerged, and does not alter main or another worker's PR.
 
