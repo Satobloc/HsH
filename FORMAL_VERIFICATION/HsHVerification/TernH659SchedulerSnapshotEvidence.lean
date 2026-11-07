@@ -378,4 +378,26 @@ theorem run48_chat_ref_remains_absent_in_both_observations :
 #print axioms run48_cached_result_remains_distinct_from_current_run
 #print axioms run48_chat_ref_remains_absent_in_both_observations
 
+
+/-!
+Current relay routing calculation, h667:s2, nominally 2026-11-07T19:24:00Z.
+The h epoch uses 2026-10-11T00:00:00Z as specified by the relay.
+These are operational ring-selection propositions, not worker/thread authentication
+or any physical H(s)H claim.
+-/
+
+theorem elapsed_utc_hours_from_epoch_is_667 : 27 * 24 + 19 = 667 := by decide
+theorem nominal_667_s2_sequence_is_3337 : 5 * 667 + 2 = 3337 := by decide
+theorem nominal_667_s2_selected_index_is_12 : indexFor 667 2 = 12 := by decide
+theorem nominal_667_s2_selected_name_is_tern :
+    labelFor 667 2 = some "Tern Rook" := by decide
+theorem nominal_667_s3_next_name_is_morrow :
+    labelFor 667 3 = some "Morrow" := by decide
+
+#print axioms elapsed_utc_hours_from_epoch_is_667
+#print axioms nominal_667_s2_sequence_is_3337
+#print axioms nominal_667_s2_selected_index_is_12
+#print axioms nominal_667_s2_selected_name_is_tern
+#print axioms nominal_667_s3_next_name_is_morrow
+
 end HsHVerification.TernH659SchedulerSnapshotEvidence
