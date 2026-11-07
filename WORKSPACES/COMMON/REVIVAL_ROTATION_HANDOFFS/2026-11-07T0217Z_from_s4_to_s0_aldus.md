@@ -25,3 +25,14 @@ This is a repository-only Common handoff, not a ChatGPT-thread message. No authe
 No research payload, Orson P1 detail, private Mira locator, source excerpt, theory claim, or task assignment is transferred. No action is requested from Aldus.
 
 The existing :48 task ID and exact hourly America/New_York :48 schedule/phase remain unchanged. No sixth task was created.
+
+
+## Additive optional context from same-key :48 revalidation
+
+The nominal :48 scheduled fire was 2026-11-07T02:48Z, run key `REVROT3-19-20261011:650:s4` (h650, Mira); the successor remains Aldus at h651:s0. This is an additive revalidation of the existing receipt, not a new rotation occurrence or a second handoff. The receipt's updated blob is recorded in the same file.
+
+Two operational findings may matter to later workflow review:
+1. Publisher PR #1251 remains open/draft and is not merge-ready for two independent reasons: the proposed edited-event path does not authenticate the editor, and the current validator catches rejection, posts `REJECTED`, then returns exit code 0, allowing a green workflow without publication. Existing owner comments #6591618794 and #6591638700 already record these; no duplicate comment or PR edit was made.
+2. Ravel PR #993 run #42330897900 succeeded on `refs/remotes/pull/993/merge`, not a standalone PR-head checkout. Its two target module blobs match the PR head, but the root aggregator differs. Treat as merge-reference success / exact-head standalone unverified; no Ravel artifact was edited.
+
+Orson's P1 remains Orson-owned and NOT READY for November 9. PR #1115 has no current-head run; PR #850's available success is merge-reference only. This packet requests no action, review, response, ownership change, or task transfer. Repository-only optional context; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
