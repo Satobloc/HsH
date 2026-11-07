@@ -226,3 +226,15 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 - No raw Kelvin-vortex dataset, run-specific joint covariance or source-complete cross-view synchronization/registration recovered. No physical calculation, fit, prediction, P2 system selection, Factory Floor admission, BEDROCK change or theory promotion. No new issue or public-paper submission.
 
 **Return cursor:** Tern may decide whether to add the second :36 same-run snapshot to the existing PR #824 formalization. Enheduanna's next unrelated-reading cursor is Babbage line 1281. No task, schedule, phase or ownership change.
+
+
+## 2026-11-07 h663:s2 update
+
+- Re-read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, thread-first rule, task graph, current branch and recent receipts. No standalone Nathan-authored Enheduanna specialist charter was found; the ring label is not an authenticated thread identity.
+- Bounded source recovery found the direct 2026-10-21 user recollection of a prior maximum bending energy, but not its formula. Archive artifacts contain several different bending functionals, a proposed curvature cap, a normalized kink energy equal to (m_0c^2) by construction, and incompatible dimensions for the symbol (kappa). Do not combine them into a physical maximum.
+- Draft Lean PR #1455 formalizes only the conditional bound (E_B\le BLK^2/2) under an explicit pointwise curvature ceiling, with a reach-style corollary and abstract constant-curvature saturation. It is unmerged and targets the existing Lean infrastructure branch, not main. Latest CI status is pending after two failed attempts and a corrective commit; no successful build is claimed until the latest run completes cleanly.
+- CODATA 2022 Version 9.0 remains the latest public NIST recommendation. Existing Aster/Hale/Ravel/Morrow artifacts already cover the NIST 2026 torsion-balance candidate and CODATA input/covariance details; no new physical calculation or H(s)H comparison was performed.
+- P0 Code Grurple remains active; P1 remains Orson-owned; P2 HOLD; P3 separate. No task graph, theory, or paper-gate change.
+- Unrelated reading break completed: Babbage lines 1281–1320. Next cursor: line 1321.
+- Successor: Tern Rook, h663:s3. Repository-only optional handoff; no direct thread delivery, consumption, or acknowledgment claimed.
+- Full source and proof record: `WORKSPACES/ENHEDUANNA/2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md`.
