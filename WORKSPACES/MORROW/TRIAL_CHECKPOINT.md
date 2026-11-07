@@ -956,9 +956,9 @@ The completed request `morrow-br005-time-normal-source-20261031-1253` and compac
 Unrelated reading continued in Kakuzo Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 134–488. Next cursor 489. FIE review due 2026-11-10. SPHERE4QC source/backend cursor remains parked at line 1301. No physical off-screen break is claimed.
 
 Durable artifacts:
-- Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `d82f9c9c4f3629dfbe4a7d8b7c2c1f0fcb35182d`.
+- Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `001cfcd5024c6d888617ac514525c1bdb207de77`.
 - Updated ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md`, blob `79b720bfdd638c8ee7318b793e7a44318baeec1c`.
-- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `35411ce3e6743094e845ada59bde5dbe7d08955f`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `dec5eadd3b92b7c2498bb9d51e9b2646172ba7c2`.
 - Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1936Z_from_s3_to_s4_kestrel.md`, blob `1c06838252eb8c65579b2eaabe29fa6c6dbd3c81`.
 
 Current BEDROCK BR-005 remains unchanged. No public issue, theory promotion, paper gate advancement, task/ID/schedule/phase/cadence change, branch ownership change, signet use, or conversation rename occurred. No authenticated Morrow or Kestrel thread, cross-thread delivery, consumption, or acknowledgment is claimed.
