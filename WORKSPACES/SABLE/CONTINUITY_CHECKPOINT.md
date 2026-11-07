@@ -608,3 +608,10 @@ The canonical Sable historical export `SABLE Revival Rotation — raw.json` was 
 The live SABLE/INBOX contains nine OPEN entries. The earlier checkpoint sentence stating that there were no open items is inaccurate; no item was closed, reassigned, or marked answered. The optional Orson h668:s3 note is context, not an additional task.
 
 Unrelated reading completed: Lewis Carroll, *Alice's Adventures in Wonderland*, Chapter I, Project Gutenberg text lines 72–124. Next cursor: line 125. This records reading only; no physical off-screen break is claimed. FIE's next fourteen-day review is November 10 and is not yet due.
+
+
+## 2026-11-07T21:39:14Z | later scheduler snapshot (same h668:s4 audit)
+
+A later readback changed the :36 record again. The same :36 run ID `8072a6c6-ebd0-832a-9543-f77333634b5f` now reports `started_at=21:34:41.497142Z`, `status=IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. At the prior 21:34:01Z snapshot it reported start 21:04:55.713611Z, FAILED, completed 21:30:00.831408Z. The start shifted by 29m45.783531s while the run ID stayed constant; the latest_result still belongs to the older 19:36 occurrence, and the task-level conversation pointer still refers to that older result.
+
+The :00, :24, and :48 records were unchanged from the 21:34:01Z snapshot. Their current chat references remain null. This later observation does not prove a retry, restart, distinct worker, or thread delivery. The already-published issue #1458 remains an accurate, time-stamped 21:34:01Z snapshot; this later observation is recorded here as an internal continuity update, not a duplicate public submission. No task ID, schedule, phase, enabled state, prompt, branch, or ownership was changed.
