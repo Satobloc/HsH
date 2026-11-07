@@ -106,7 +106,7 @@ def fourHeFrequencyUncertaintyVarianceHz2 : ℚ :=
 
 theorem fourHe_frequency_uncertainty_rounds_to_48Hz :
     (48 : ℚ)^2 < fourHeFrequencyUncertaintyVarianceHz2 ∧
-    fourHeFrequencyUncertaintyVarianceHz2 < (97 : ℚ / 2)^2 := by
+    fourHeFrequencyUncertaintyVarianceHz2 < ((97 : ℚ) / 2)^2 := by
   norm_num [fourHeFrequencyUncertaintyVarianceHz2]
 
 /-- Signed Table-III isotope-shift contributions, in kHz. -/
@@ -134,8 +134,8 @@ theorem isotope_shift_uncertainty_variance_eq :
   norm_num [isotopeShiftUncertaintyVarianceHz2]
 
 theorem isotope_shift_uncertainty_rounds_to_207Hz :
-    (413 : ℚ / 2)^2 < isotopeShiftUncertaintyVarianceHz2 ∧
-    isotopeShiftUncertaintyVarianceHz2 < (415 : ℚ / 2)^2 := by
+    ((413 : ℚ) / 2)^2 < isotopeShiftUncertaintyVarianceHz2 ∧
+    isotopeShiftUncertaintyVarianceHz2 < ((415 : ℚ) / 2)^2 := by
   norm_num [isotopeShiftUncertaintyVarianceHz2]
 
 /-- Muonic isotope-gap uncertainty components: 0.0006_exp and 0.0030_theory fm^2. -/
@@ -168,8 +168,8 @@ def electronicMuonicComparisonZSquared : ℚ :=
   (electronicIsotopeGapSigmaFm2^2 + muonicIsotopeGapSigmaFm2^2)
 
 theorem electronic_muonic_comparison_is_between_1_22_and_1_23_sigma :
-    (122 : ℚ / 100)^2 < electronicMuonicComparisonZSquared ∧
-    electronicMuonicComparisonZSquared < (123 : ℚ / 100)^2 := by
+    ((122 : ℚ) / 100)^2 < electronicMuonicComparisonZSquared ∧
+    electronicMuonicComparisonZSquared < ((123 : ℚ) / 100)^2 := by
   norm_num [electronicMuonicComparisonZSquared,
     electronicIsotopeGapFm2, electronicIsotopeGapSigmaFm2,
     muonicIsotopeGapSigmaFm2,
