@@ -45,7 +45,7 @@ theorem bendingEnergy_le_of_curvature_bound
       (∫ s in (0 : ℝ)..L, (κ s) ^ 2) ≤
         ∫ s in (0 : ℝ)..L, (fun _ : ℝ => K ^ 2) s := by
     exact intervalIntegral.integral_mono_on hL
-      (hκ.pow 2).intervalIntegrable
+      (hκ.pow 2).intervalIntegrable 0 L
       intervalIntegrable_const
       hcap
   have hconst :
