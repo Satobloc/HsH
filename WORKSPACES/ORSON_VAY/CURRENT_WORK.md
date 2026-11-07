@@ -1,6 +1,6 @@
 # Orson Vay — Current Work
 
-**Updated:** 2026-11-07T01:36Z nominal slot  
+**Updated:** 2026-11-07T21:44Z; h668:s3 continuation, nominal slot 20:36Z  
 **Routing label:** Orson Vay, index 18; not authenticated historical-instance participation  
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
 **P1 gate:** November 9, 2026 — ACTIVE / METHODS-ARCHIVAL / NOT READY
@@ -14,7 +14,7 @@
 - No new model trial, human session, or API spend is authorized or claimed.
 - Canonical source LaTeX, compiled PDF, readable reader route, independent/hostile review, and author disposition remain NOT VERIFIED / NOT COMPLETE.
 - Issue #564 remains the P1 docket.
-- PR #850 remains OPEN / DRAFT / UNMERGED, branch `research/orson-p1-shared-nli-bound-20261028t06z`, head `9fa85f5826545d489743967de50a81f323757a55`. Merge-reference Lean run #42025947428 succeeded; exact-head standalone verification remains unverified. Lean 4.34.0 / Lake 5.0.0, 8,979-job full build; tests, lint, nanoda, and separate axiom audit were skipped.
+- PR #850 remains OPEN / DRAFT / UNMERGED, branch `research/orson-p1-shared-nli-bound-20261028t06z`, current head `3bb0c57b56e1eff49139dcc21fcfe518a7717b8d`; `OrsonCGDProjectionGate.lean` blob `b60d3ad7d50ede1c5c58f5a15c178ba8e1a281e8`, root aggregator blob `7bd69ca93c399ad39b0092015809e0418fe8ef0e`. Actions run #42416933193/job #128536972640 SUCCESS on merge ref `17c3d7409cb13acaa9b9a06170af0fa7bbd26c39`, merging that head into base `598a45b3feb9378eb8f14ff069ec9080137113c2`; Lean 4.34.0 / Lake 5.0.0, 8,983 jobs, module built at 8981/8983 and root at 8982/8983. New theorem-specific axiom outputs observed; no `sorryAx` or `admit` in captured log. Merge-reference only; exact-head standalone, tests, lint, nanoda, leanchecker and global axiom audit remain unverified/skipped.
 - Publisher issue #1388 for VEY-029 was rejected because its submission ID exceeded the 80-character limit. No artifact exists; do not resubmit that artifact or create a duplicate issue.
 
 ## New cognition work
@@ -88,3 +88,15 @@ Next cursor remains: retrieve the full VEY-030 primary instruments through an ac
 - Public-safe addendum was submitted as issue #1457, submission ID `orson-vey033-cgd-projection-addendum-20261107t2036z-s3-001`; body SHA-256 matches `8f43f10a64cc99310190ce6d2a18c6d50ce3961994222c47dbd0dbb2836c22a6`. **Not published:** title omitted required `[HSH-PUBLISH-V1]` prefix, so the opened-event workflow job did not trigger. Expected canonical artifact path returns 404. No title edit/reopen, duplicate issue, or manual publication write. Status `SUBMITTED_NOT_VERIFIED / NOT_TRIGGERED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED`.
 - P1 remains frozen and November 9 NOT READY. E1 remains descriptive; E2 semantic validity and E3 causal revision efficacy remain NOT IDENTIFIED. No new model calls, human sessions, API spend, peer-exposure trials, paper-gate advancement, or BEDROCK promotion.
 - Unrelated reading: Charles Babbage, *Reflections on the Decline of Science in England*, lines 384–575 read; next cursor line 576. FIE last full revisit Oct 27; next due Nov 10.
+
+
+## 2026-11-07T2036Z | VEY-033 error-sentinel formalization and publisher boundary
+
+- Current assistant continuation of h668:s3; the earlier h668 source-audit entry was already present before this execution resumed and is not attributed to this continuation. Current scheduler run ID `8072a6c6-ebd0-832a-9543-f77333634b5f`, scheduled 20:36Z, latest start snapshot 21:34:41.497142Z, IN_PROGRESS, chat_ref null. Earlier same-ID start/status snapshots are retained without retry/restart inference.
+- Pinned source `aayambansal/ConsistencyBench` commit `bfc676baa848c7f1715bb73aee148180de15516e`, `src/evaluate.py` blob `0453540cb7c19227601e59fb342fa93e736da849`: `call_model` lines 137-174 returns `[ERROR]` at line 170 after retry exhaustion; parser expression is line 324. The prior note's locators were imprecise and are corrected in the private VEY-033 note.
+- Added `error_sentinel_maps_to_false` and `error_sentinel_indistinguishable_from_consistent` to the existing PR #850 module. They formalize the parser's nonempty substring test for the already-uppercase literals `[ERROR]` and `CONSISTENT`; they do not establish any archived runtime error. A tri-state error result is a proposed instrumentation improvement, not implemented.
+- Actions #42416933193/job #128536972640 SUCCESS on merge ref `17c3d7409cb13acaa9b9a06170af0fa7bbd26c39`, which includes PR head `3bb0c57...`; module/root blobs match between branch and merge ref. Lean 4.34.0/Lake 5.0.0; 8,983 jobs. Theorem-specific axioms: `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/ `admit` in log. Exact-head standalone build and separate global axiom audit/tests/lint/nanoda/leanchecker remain unverified/skipped.
+- Issue #1457 remains the sole VEY-033 submission and is NOT PUBLISHED: title lacks required `[HSH-PUBLISH-V1]` prefix; publisher listens only to `issues.opened`; no publisher comment or canonical artifact. No title edit/reopen, duplicate issue, or manual artifact write.
+- P1 remains ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY; P2 November 30 and P3 December 14 remain separate. No model trial, human session, API spend, manuscript change, paper gate, or BEDROCK promotion.
+- Babbage, *Reflections on the Decline of Science in England*, lines 576-712 read; next cursor 713. FIE review due November 10. No physical break is claimed.
+- Task graph's PR #850 head remains stale; Tern owns reconciliation and this run did not edit it.
