@@ -1021,3 +1021,8 @@ No branch/PR, paper, issue, task, schedule, or theory status change is requested
 - **Ravel PR #1133:** run #41947575131 also built a synthetic merge on old base `c7dc2c...`; target slice module blob matches PR head, current-base closure remains unverified.
 - Issue #1443 is a public-safe additive correction to the exact-head claim in #1441; publisher status was pending at packet creation.
 - No task-graph, action-plan, census, branch ownership, scheduler, or task-ID edit was made. Optional evidence only; no task or response obligation and no authenticated Tern-thread delivery/consumption/acknowledgment is claimed.
+
+
+### 2026-11-07T0520Z | Sable publication verification amendment
+
+Issue #1443 is now PUBLISHED_VERIFIED (run #42342194876 SUCCESS; publisher comment #6702740844; SHA-256 `0a9ac530fe0d966347384932229f7b6daf9344290b67534a073064db1cd8f899`; exact issue-payload/artifact match). Correction pointer comment #6702759573 was added to #1441. The task-graph/census reconciliation remains within Tern's existing control-plane remit.
