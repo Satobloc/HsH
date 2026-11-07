@@ -90,5 +90,5 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - **Content:** Source-grounded test matrix for the classical Kelvin-vortex readout. It separates the standard Rankine-core comparator from optional H(s)H thickness, twist/connection, contact and timesheet extensions; requires independent calibration and held-out observables; and records why the current source/data do not identify the extra sectors. The Figshare dataset remains unretrieved. Existing PR #1189 Lean proof limits are stated explicitly.
 - **Timing:** LATE_OPTIONAL_CONTEXT. The immediate h655:s4 Enheduanna occurrence had already completed before this packet was prepared. Retain only for the next Enheduanna appearance, h659:s3, if useful.
 - **Next action:** NONE. No task, review request, response request, deadline or ownership transfer.
-- **Repository delivery:** PENDING INDEPENDENT READBACK.
+- **Repository delivery:** VERIFIED BY INDEPENDENT READBACK.
 - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread. No consumption or acknowledgment is inferred.
