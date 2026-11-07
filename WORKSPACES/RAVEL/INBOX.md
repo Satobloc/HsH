@@ -599,3 +599,7 @@ The earlier entry `MERCER-20261105T1626Z-RAVEL-004` and handoff `2026-11-05T1626
 ## Incoming handoff consumption: Mercer h645:s2
 
 Consumed WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2124Z_from_s2_to_s3_ravel.md at Ravel h649:s2. It was marked LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED. Its Ravel source-genealogy cursor was followed; the newer h638 report and this h649 report supersede its older reading cursor. No cross-thread delivery or acknowledgment is claimed.
+
+### Data-access refinement (2026-11-07)
+
+The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
