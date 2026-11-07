@@ -541,3 +541,8 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 - Publisher comment #6702482890 records commit `fbf909423ee915b5a17c8564efa24076fde2cf19`, artifact blob `d9a12bbb29c5f96c6a37c181c2795a2cf738a28d`, SHA-256 `016187fcd84a1832ce06d83ac2e921637ba26e87df3216ecb88001117deebcaf`.
 - Independent readback: issue payload content and published artifact content match exactly (3,229 bytes).
 - No retry or duplicate issue was created. Issue #1438 remains Hale's separate NIST addendum.
+
+
+### Execution-integrity correction | 2026-11-07T0456Z
+
+The first worker calculation used the delayed wall-clock start and briefly pointed to h652/Kestrel. The automation's `scheduled_for=2026-11-07T03:36:00Z` is authoritative for this occurrence and gives h651:Elias Kern. Kestrel workspace/PR materials were read-only during the preliminary check; no Kestrel file was changed, no work was assigned, and no Kestrel authority was claimed. The correct Elias selection was applied before the substantive operation.
