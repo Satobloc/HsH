@@ -17,6 +17,14 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.RavelHelionRadiusLedger
+import HsHVerification.RavelHelionRadiusBounds
+import HsHVerification.RavelMuonicSpectroscopyLedger
+import HsHVerification.RavelMuonicIsotopeGate
+import HsHVerification.RavelHelionMagneticMomentLedger
+import HsHVerification.RavelHelionJLabE04018DataGate
+import HsHVerification.RavelHelionIsotopeShift2026DataGate
+import HsHVerification.RavelHeliumResponseCrossChecks
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
