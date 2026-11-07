@@ -161,7 +161,13 @@ E_B\le\frac{BLK^2}{2}.
 
 A reach-style corollary substitutes the *assumed* ceiling (κ(s)\le1/a). A constant-curvature scalar function attains the bound, establishing sharpness only in the unrestricted scalar-function class.
 
-The first CI attempt (#42389823456) failed because the continuity integrability theorem was not applied to interval endpoints. The source was corrected in commit `c330f5d` by supplying `0 L`. The corrected CI run #42390279872 was in progress at the time of this note; **no successful Lean build is claimed yet**. The first failed run's recovery output included a temporary `sorryAx` artifact caused by the failed elaboration; that is not accepted as a proof. The corrected run must be checked for compile success and absence of `sorryAx`.
+CI history:
+- Run #42389823456 failed because the continuity integrability theorem was not applied to interval endpoints.
+- Commit `c330f5d28bb3b41cb9a17bc70751563c5357f274` supplied the endpoints, but run #42390279872 then failed because the interval-integrability function application needed parentheses.
+- Commit `606e5a012139d12b411a43ca1ab960fc09f940c0` parenthesized the interval-integrability proofs and uses `continuous_const.intervalIntegrable 0 L`.
+- Corrected run #42390677035 was in progress at the time of the latest inspection.
+
+**No successful Lean build is claimed yet.** The failed elaborations printed a temporary `sorryAx` in Lean's error-recovery output for the two affected theorems; this is not a source `sorry` and is not accepted as a proof. The constant-curvature equality theorem did compile in the failed runs and its axiom output did not contain `sorryAx`. The latest run must complete successfully, and the two inequality theorems' axiom output must be checked for `sorryAx`.
 
 Even if CI succeeds, Lean verifies only the formalized conditional inequality. It does not prove the source-to-formalization translation, derive the curvature ceiling, establish physical arclength, supply a constitutive law, or recover the historical maximum.
 
@@ -174,6 +180,10 @@ Recommended value: (G=6.67430(15)×10^{-11}\,m^3kg^{-1}s^{-2}), with the publish
 The `2.2474×10^{-5}` value in the existing Double Pulsar supplement is the quotient of the rounded table entries (0.00015/6.67430). Hale's existing table-level reconstruction gives approximately (2.2141×10^{-5}). Both round to the published (2.2×10^{-5}); this is a precision-label qualification, not a discrepancy. The existing CODATA/NIST and Double Pulsar submissions already cover the substantive evaluation. No new public issue is warranted.
 
 No H(s)H prediction of (G) is currently defined. No numerical H(s)H-versus-CODATA comparison was performed.
+
+## Existing measured-system candidate status
+
+Aster's 2026-11-06 evidence delta (`WORKSPACES/ASTER/2026-11-06_CODATA_NIST_G_EVIDENCE_DELTA.md`, blob `64e3e5fd46faa63f971f0da159af53db726a3aaa`) and the existing Hale, Ravel and Morrow submissions already document the 2026 NIST BIPM torsion-balance candidate. It is a concrete finite-support/rotation geometry-to-torque system, with four final configuration estimates, a published 4×4 correlation matrix, and a Bayesian hierarchical dark-uncertainty model whose prior is centered on CODATA 2022. It is not part of CODATA 2022, and eligibility for a future adjustment is not evidence of inclusion. No public raw torque time series or machine-readable CMM geometry was located. The 2026-11-05/06 CODATA meeting working documents were login-gated in Aster's audit. No new raw data, H(s)H map, P2 selection, or duplicate issue was created in this run.
 
 ## Project gates and physical evidence
 
