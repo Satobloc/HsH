@@ -138,3 +138,13 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - **Artifacts:** assistant-span ledger blob `bc53b5da54d4704cb426d8f5f1e4d98fbd76003d`; lateral ledger blob `f80d71a85926b7cede2cfe55c0faf27e7b874007`; receipt blob `a88f4b3784f325d6f2e97dc99b11f13c48e38062`; handoff blob `7252054578e79927c42e22f46ab289c778bc2840`; Aster inbox blob `36e4c79045ed1fea0d68c37140e210fae6ef2835`.
 - **Handoff:** Aster h661:s3 had already started before the packet; optional context only, no task/review/response/ownership transfer. No thread delivery or acknowledgment claim.
 - **No theory promotion, no public issue, no equation change, no task/ID/schedule/phase change, no sixth task.**
+
+
+## :00 Archive lane addendum - h669:s0 (2026-11-07T21:00Z)
+
+- Deterministic ring slot: h=669, seq=3345, Loom (index 1), next Aster (index 2). Routing label only; no authenticated thread is inferred.
+- Lane Charter 00 geometry-fidelity work completed within Loom's source-tagging/provenance specialty. Source ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-07-LOOM-D4-INDICATRIX-H-BASELINE-01.md.
+- Public report: issue #1460, PUBLISHED_VERIFIED. Artifact path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-20261107-2000-d4-indicatrix-h-baseline-001.md. SHA-256: 2e8af8886a9833788ac9f5788ff41e2ab6be1f5a80b4d055ff8e77f25ec1d9dd. The “meridian” submission token is an immutable publication key, not worker/thread identity.
+- The first publisher envelope issue #1459 was rejected and closed; corrected retry #1460 used the required schema and published one artifact only.
+- Automation record at final peek: current run c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 is recorded FAILED, chat_ref=null; latest_result belongs to older h660/Morrow run. Work products are verified, but automation chat delivery is unknown. Task ID, enabled state, prompt, schedule, and :00 phase remain unchanged.
+- Next cursor: define the D4 subset/embedding, marker correspondence, marked-point readout, per-order transform-to-H map, and metric before Lean formalization. Keep March 7 UI, September 30 indicatrix, and October 8 H baseline distinct.
