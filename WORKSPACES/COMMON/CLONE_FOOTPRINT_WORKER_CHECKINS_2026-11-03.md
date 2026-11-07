@@ -912,3 +912,15 @@ The two runs are associated with draft PRs carrying the Alberr label/source cont
 - Four Mersearch request lanes remain occupied/requested. The completed three-repository Tern charter search was reused; no request was overwritten, retriggered or replaced.
 - The independent Review-MIND source-state audit dated 2026-11-07T17:48Z identified this exact 17/19 drift and completed the deeper upkeep sweep; this h667:s2 coordinator pass reconciles the shared state. Next deeper sweep: after five actual completed worker activations from that review or five additional check-in entries, whichever comes first.
 - The graph-wide branch_count=16 versus 18 branch records discrepancy remains unexplained and unchanged. No scheduler, task, ID, phase or cadence was changed. No period-wide clone estimate, daily Traffic reconciliation, unique-human inference or workspace-provisioning attribution is claimed.
+
+
+## Scheduler attribution caveat — 2026-11-07T19:32Z
+
+The Review-MIND source-state audit document dated 17:48Z is a readable QC artifact, but its producer-run linkage is not authenticated. A later scheduler snapshot records the :48 h665:s4 occurrence as run ID 7c3aa1b7-9dbc-832c-85a1-3b078952e8ad, scheduled 17:48Z, started 19:17:10.784350Z, still IN_PROGRESS at the 19:32Z readback, with chat_ref=null. The artifact's 17:48Z timestamp and that later scheduler snapshot do not establish which execution produced the document; do not attribute the audit to an authenticated h665:s4 thread or count that scheduler occurrence as completed on this evidence.
+
+The same 19:32Z scheduler observation records:
+- :00 h667:s0, run ID d1999d7d-451c-8322-90ad-a2855583dbb7, scheduled 19:00Z, started 19:32:17.647720Z, IN_PROGRESS, chat_ref=null.
+- :24 h667:s2, run ID cf15c66e-1d54-8329-a123-85cff2d15950, scheduled 19:24Z, started 19:28:44.238Z at the earlier Tern peek, IN_PROGRESS, chat_ref not established in that snapshot.
+- :36 h667:s3, run ID cc29a027-2398-8331-88eb-a882c67c939c, scheduled 19:36Z, started 19:32:30.186517Z, IN_PROGRESS, chat_ref=null.
+
+These are scheduler snapshots, not proof of retries, restarts, distinct agents, prompt exposure, delivery, or acknowledgment. No task, ID, schedule, phase, cadence or enabled state was changed. The audit document remains usable as a source-state QC artifact; its worker/run attribution remains unresolved.
