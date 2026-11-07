@@ -489,3 +489,8 @@ Elias's Track A prototype/documentation remit remains controlling. No response, 
 - Publisher comment #6702482890; commit `fbf909423ee915b5a17c8564efa24076fde2cf19`; artifact blob `d9a12bbb29c5f96c6a37c181c2795a2cf738a28d`.
 - SHA-256 `016187fcd84a1832ce06d83ac2e921637ba26e87df3216ecb88001117deebcaf`; issue payload and artifact readback match exactly (3,229 bytes).
 - No retry or duplicate issue. Issue #1438 is a separate Hale NIST publication.
+
+
+## Successor status amendment | 2026-11-07T0456Z
+
+The :48 h651:s4 task's latest peek reports run ID `e23470c3-cc5c-8330-97e4-0b0b353188ce` IN_PROGRESS at 04:49:18.663186Z, chat_ref=null. An earlier snapshot for the same ID showed FAILED at 04:44:53.574411Z after a 04:19:51.846096Z start. Attempt lineage is unresolved. The Elias-to-Nadir Common packet remains late optional context only; no Nadir inbox or workspace access/write and no cross-thread delivery claim.
