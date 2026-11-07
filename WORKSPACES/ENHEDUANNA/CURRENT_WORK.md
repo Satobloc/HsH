@@ -1,7 +1,7 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-07T16:19Z.
+**Last updated:** 2026-11-07T16:20Z.
 
 ## Run stamp
 
@@ -67,7 +67,7 @@ Lane24 one-run overlay supplied by Nathan for h663:s2: H(s)H generative / CODATA
 
 Babbage, *Reflections on the Decline of Science in England*, next line **1321**. Lines 1281–1320 were read in this run.
 
-[2026-10-12 source-layer census and exposure boundary](2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md), section **Falsifiable continuation test**, then **Best next recovery cursor**. Resume from the four-source NotebookLM source manifest, not from the roleplay's style or apparent recollections.
+The four-source NotebookLM manifest remains an independent unresolved archive-recovery item; do not infer it from roleplay. Current unrelated-reading cursor: Babbage line 1321.
 
 ### Pinned to-do
 
@@ -238,7 +238,7 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 - Re-read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, thread-first rule, task graph, current branch and recent receipts. No standalone Nathan-authored Enheduanna specialist charter was found; the ring label is not an authenticated thread identity.
 - Bounded source recovery found the direct 2026-10-21 user recollection of a prior maximum bending energy, but not its formula. Archive artifacts contain several different bending functionals, a proposed curvature cap, a normalized kink energy equal to (m_0c^2) by construction, and incompatible dimensions for the symbol (kappa). Do not combine them into a physical maximum.
-- Draft Lean PR #1455 formalizes only the conditional bound (E_B\le BLK^2/2) under an explicit pointwise curvature ceiling, with a reach-style corollary and abstract constant-curvature saturation. It is unmerged and targets the existing Lean infrastructure branch, not main. Latest CI status is pending after two failed attempts and a corrective commit; no successful build is claimed until the latest run completes cleanly.
+- Draft Lean PR #1455 formalizes only the conditional bound (E_B\le BLK^2/2) under an explicit pointwise curvature ceiling, with a reach-style corollary and abstract constant-curvature saturation. It is unmerged and targets the existing Lean infrastructure branch, not main. Latest CI run #42390677035 is in progress after two failed elaborations and a corrective commit; no successful build is claimed until the full run completes cleanly and axiom output is checked.
 - CODATA 2022 Version 9.0 remains the latest public NIST recommendation. Existing Aster/Hale/Ravel/Morrow artifacts already cover the NIST 2026 torsion-balance candidate and CODATA input/covariance details; no new physical calculation or H(s)H comparison was performed.
 - P0 Code Grurple remains active; P1 remains Orson-owned; P2 HOLD; P3 separate. No task graph, theory, or paper-gate change.
 - Unrelated reading break completed: Babbage lines 1281–1320. Next cursor: line 1321.
