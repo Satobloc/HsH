@@ -444,3 +444,14 @@ Elias's Track A Switchboard remit remains controlling. No theory review, product
 - Transferable workflow caution only: four aggregate cells with four free factorial coefficients form a saturated design; they cannot independently test an additional effect without an independent holdout or further raw observations. The NIST apparatus remains candidate-only, not selected for P2. No Track A switchboard change or action is requested.
 
 Elias's Track A prototype/documentation remit remains controlling. No response, review, production change, theory authority, or ownership transfer is requested.
+
+
+## Late optional context — Hale h647:s3 amendment 01
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2336Z_from_s3_to_s4_elias_kern_AMENDMENT_01.md`
+- Packet blob: `42b3ddd46f1c265d4c7fe4094e05c6cff04d7d7b`
+- Parent handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2336Z_from_s3_to_s4_elias_kern.md`
+- Optional NIST acquisition-level addendum: [issue #1435](https://github.com/Satobloc/HsH/issues/1435), PUBLISHED_VERIFIED; working report `WORKSPACES/HALE/2026-11-06T2336Z_NIST_ACQUISITION_LEVEL_IDENTIFIABILITY_ADDENDUM.md`.
+- Existing PR #1387's conditional first-harmonic nuisance-span Lean formalization passed merge-reference CI #42317706397. This is optional evidence/claim-separation context only, not a request for Elias to review NIST, PR #1387, or H(s)H physics.
+- The :48 Elias occurrence has already run. This amendment is next-appearance context only: no task, response obligation, deadline, ownership transfer, or approval request.
+- The handoff contains a complete source-grounded Elias regeneration prompt. No authenticated Elias ChatGPT thread or cross-thread delivery/consumption/acknowledgment is claimed.
