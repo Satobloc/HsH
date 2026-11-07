@@ -182,3 +182,55 @@ The next current-ancestry node is user message aaa2cde7-2625-4acd-ac69-3efc59909
 ### Limits
 
 This is additive source-tag and assistant-span provenance work. It does not amend common source-integration policy, establish a theory equation, create a physical prediction, validate a mechanism, or promote any SAT/H(s)H proposition.
+
+
+## Continuation J | 2026-11-07T1324Z | h661:s2
+
+**Source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`  
+**Conversation ID:** `252d05c0-22ed-4ea2-a474-7966ab13145a`  
+**Immutable HsH blob:** `2cea1924266418e19b825b95ae51e6b7cbace7e1`  
+**Parse:** 466 mapping nodes; current ancestry 456 nodes including root, 455 messages (138 user, 192 assistant, 125 tool); off-ancestry 10 messages (0 user, 7 assistant, 3 tool).
+
+### Read extent and identity
+
+- Fully read current-ancestry indices 362-370: nine nodes, comprising five assistant messages, one bio tool node, and three user messages.
+- User messages at indices 365, 367 and 369 are already included in the existing 138/138 user-role tag pass. They were not duplicated.
+- User messages at indices 373 and 375 were also surfaced during navigation and are already covered by that same pass.
+- Assistant indices 372 and 374 were only partially previewed during cursor navigation. Add partial-read tags now; full read remains pending.
+- Tool indices 376-398 were only partially previewed. They comprise one empty file-search invocation, eleven PDF page markers, and eleven page-text excerpts. Add retrieval/provenance tags, not content-authority tags.
+
+### Fully read assistant spans
+
+| Index | Message ID | Raw UTC | Additive tags | Source status |
+|---:|---|---|---|---|
+| 362 | `bd861191-6499-486e-9c16-7a1ef58396cf` | 2024-03-28 06:10:25.445Z | `ASSISTANT-CONTEXT-SUMMARY`, `CROSS-TEMPORAL-GALACTIC-COLLISION`, `NOT-NATHAN-DIRECT`, `NOT-INDEPENDENT-EVIDENCE` | Assistant summary, not a primary user statement. |
+| 364 | `d1437d3a-bb4c-4a11-9757-ff9c431d30a8` | 2024-03-28 06:10:25.448Z | `ASSISTANT-GENERATED-OBSERVATIONAL-COMPARATOR`, `GALACTIC-MERGER-HISTORY-HYPOTHESIS`, `NO-TRANSFER-LAW`, `NO-QUANTIFIED-RESIDUAL`, `NOT-NATHAN-DIRECT` | Suggested a galaxy-merger comparison; no model or data. |
+| 366 | `9c3bfa7a-54c0-43b9-b1b5-b6d14c2f5d8a` | 2024-03-28 06:14:41.261Z | `ASSISTANT-GENERATED-GALAXY-SATELLITE-COMPARATOR`, `MILKY-WAY-LMC-EXAMPLE`, `NO-MATCHED-CONTROL`, `NO-NBODY-BASELINE`, `NOT-NATHAN-DIRECT` | Example only; no matched control or residual definition. |
+| 368 | `70e28c46-cb8b-43cc-a19d-aeea0f7bb4ec` | 2024-03-28 06:16:04.208Z | `ASSISTANT-PLANETARY-SCALE-EXTRAPOLATION`, `PAST-ENCOUNTER-HISTORY-HYPOTHESIS`, `NO-DATA`, `NO-BASELINE`, `NOT-NATHAN-DIRECT` | Qualitative extrapolation, not a measured result. |
+| 370 | `a2d54a22-9ef9-4e20-9c74-7d1c7d1b8f7e` | 2024-03-28 06:19:21.447Z | `ASSISTANT-UNCRITICAL-AGREEMENT`, `JUPITER-INNER-OUTER-PERTURBATION-CLAIM`, `HISTORY-DEPENDENT-GRAVITY-CLAIM-UNDERDEFINED`, `STANDARD-NBODY-BASELINE-UNRESOLVED`, `NO-RESIDUAL-OPERATOR`, `NO-DATA`, `NOT-NATHAN-DIRECT` | Agreed with the proposed inner/outer ordering without specifying a present-state standard-gravity comparator. |
+
+Bio tool node 363 (`d0c0b4a8-ef1e-4e9e-bb1d-1c4db43b3f44`) receives `BIO-TOOL-STATE-ACKNOWLEDGMENT`, `NON-SUBSTANTIVE`, `NOT-THEORY-EVIDENCE`.
+
+### Partial assistant and PDF retrieval nodes
+
+Assistant node 372 (`ca88f6a0-109a-4afa-843e-665cf40d2ea5`, 2026-06-01 21:40:47.991Z) and node 374 (`73ab2afb-0093-4fd5-9b88-892f18034e31`, 2026-06-01 21:42:10.805Z) receive `ASSISTANT-RECAP`, `METADATA-ACCESS-LIMIT-CLAIM`, `PARTIAL-READ`, `NOT-NATHAN-DIRECT`. Their statements about unavailable timestamps describe that assistant context, not the raw export's actual metadata.
+
+The file-search sequence is tied to `file_000000007c4071f7953ffee4c994fbf8`, domain/title `SAT.4DHH.UC.pdf`, citation pointer `turn0file0`. Only pages 1-11 of a 150-page PDF were surfaced. The excerpts include an `LLM DROP` label, a heading identifying Fundamental Intuitions Extended, and later a section titled `Full 4D Superhelical Action`. The exact underlying PDF bytes, repository path, blob SHA, internal author and complete 150-page content were not recovered.
+
+- Index 376 (`a8313a26-1f88-4b83-b7bc-93146bf62e51`): empty file-search invocation; `FILE-SEARCH-REQUEST-NONCONTENT`.
+- Page markers: 377 `35067793-7859-47ff-b2f6-680ab89210e1` (p.1); 379 `1688c23a-89c6-4255-b066-1d18a288656e` (p.2); 381 `c77e0fbf-b3f3-4f3c-964c-a5c2e10a3bd7` (p.3); 383 `686f7299-f345-48a9-b7d8-1ad1496aa1be` (p.4); 385 `dbc681f3-a3f9-4eed-9994-20e63664c509` (p.5); 387 `eee3e0e4-4146-4602-b84d-fd1fb88c2a66` (p.6); 389 `d95e8f4c-9030-4df8-8881-a1964e12e9b3` (p.7); 391 `49ddd756-0571-4eef-86a8-c868d7f30e45` (p.8); 393 `0e813a53-d850-4028-b726-33ba34cfdc9c` (p.9); 395 `ff59da62-5264-4258-8355-05804b04176a` (p.10); 397 `47f923ab-7a75-4a30-aa60-83e6b1c35660` (p.11).
+- Page-text nodes: 378 `13121165-71e7-4771-a6d5-e2037e63ad6d`; 380 `070c4e27-d721-41d8-a56b-2eea61209e58`; 382 `52ef9378-d8a4-470b-b3b1-fc7a75c52e9d`; 384 `cf159bf2-e251-48c5-86d8-3535c137b1de`; 386 `d62e7895-7256-4037-89a6-b4e9c6477bfe`; 388 `cdb947ef-bd2a-47c1-aa68-c64e8301dfdb`; 390 `f3939bcd-dd3e-4a7b-93c7-7fc93a9a7c2b`; 392 `41558f1f-d03f-4ecb-963d-ce1746223b2b`; 394 `b400cf12-4b51-48ca-ab3a-8ef740d7888a`; 396 `27cea311-e187-419f-9263-49c43cc7850a`; 398 `1718a4d8-d2d5-494b-a088-6831ac1ca761`.
+
+All page markers and page-text nodes receive `TOOL-RETRIEVED-PDF-EXCERPT`, `SAT.4DHH.UC.PDF`, `SOURCE-AUTHORSHIP-UNVERIFIED`, `NOT-NATHAN-CONVERSATION-TURN`, `PARTIAL-PAGES-1-11-OF-150`, `NO-RAW-BYTES`, `NO-EQUATION-VERIFICATION`. Do not treat the embedded action as verbatim SAT-O/Blockwave source or as a Nathan-authored equation. No equation was copied or corrected.
+
+### Methodological classification, not theory promotion
+
+The direct user-role hypotheses at indices 365, 367 and 369 remain historical Nathan-authored material and were already tagged. The assistant's subsequent galaxy, satellite, planetary and Jupiter statements remain assistant elaborations, not independent predictions or measurements.
+
+In particular, the Jupiter inner/outer answer does not define a present-state standard N-body/GR comparator, a history functional, a residual observable, or an acquisition/readout map. A future empirical discriminator would need a real measured system and independently sourced ephemerides, units, uncertainties, a standard present-state baseline, and a source-defined history variable whose additional residual could be tested on independent data. This is a worker methodological proposal, not Nathan Direct and not a calculation.
+
+**Formalization status:** `FORMALIZATION_BLOCKED_DEFINITION`. The source segment supplies no typed history state, complexity measure, interaction/transfer law, metric, projection or observable map from which a faithful closed proposition can be stated. No Lean run, no data-free calculation, no physical fixture, no CODATA comparison, no fit, and no prediction was made.
+
+### Next cursor
+
+User node 371 is already covered by the existing user-role pass. Resume with assistant node 372 for a full read; its partial preview is tagged but does not count as full coverage. The source-tag ledger remains additive. No current theory status changes.

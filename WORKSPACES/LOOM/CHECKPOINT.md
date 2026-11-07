@@ -813,3 +813,18 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Code Grurple remains P0 active. P1 Nov 9, P2 Nov 30, P3 Dec 14 remain separate; no gate advancement. FIE rereview due Nov 10, not yet due. Task graph remains stale (16 declared,18 records); Tern owns.
 - Aster h638:s4 :48 run had already started before the handoff. Optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T1436Z_from_s3_to_s4_aster.md` is late context only. No task/ownership transfer or response requested; repository delivery only, no cross-thread delivery/consumption/acknowledgment claim.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1436Z_s3_loom.md`. No task ID, schedule, phase, cadence, enabled state, task count, branch/PR, BEDROCK status, or theory status changed. No sixth task.
+
+
+## 2026-11-07 13:24Z | h661:s2 DIMENSIONAL GRAVITY assistant-span continuation
+
+- Deterministic routing: `h=661`, `seq=3307`, ring index 1 Loom; next index 2 Aster. Run key `REVROT3-19-20261011:661:s2`.
+- :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled on the exact existing hourly America/New_York :24 schedule. Run `36f1fea5-02e8-8323-9845-8936c66e5b23` scheduled 13:24Z, started 13:27:00.586613Z; last snapshot 13:39:24Z recorded IN_PROGRESS, `chat_ref=null`.
+- Historical Loom thread remains archived only; no authenticated usable current thread or cross-thread delivery.
+- Read current ancestry indices 362-370 in DIMENSIONAL GRAVITY raw blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Five assistant spans tagged; three user messages already in the 138/138 user-tag pass. Partial assistant/tool retrieval previews at indices 372/374 and 376-398 also tagged as partial. Next full-read cursor: assistant node 372.
+- The historical Jupiter inner/outer perturbation response is assistant-origin and underdefined. No present-state standard N-body/GR baseline, history functional, residual observable or readout map. `FORMALIZATION_BLOCKED_DEFINITION`; no Lean run, no physical calculation.
+- Mersearch current request files 1-4 remain `requested`; all current request-scoped manifest and compact-receipt paths returned 404. No coverage verified, no lane overwritten/retriggered, no new request. Earlier Loom notes about lane3/4 receipts are not confirmed against these exact current IDs.
+- Lateral reading: `fun break - lx.txt` lines 721-760; next cursor 761.
+- Code Grurple ACTIVE/P0; Lane 24 BACKSEAT/HOLD; P1/P2/P3 unchanged; FIE full rereview due Nov 10.
+- Assistant-span ledger blob `bc53b5da54d4704cb426d8f5f1e4d98fbd76003d`; lateral ledger blob `f80d71a85926b7cede2cfe55c0faf27e7b874007`; receipt blob `a88f4b3784f325d6f2e97dc99b11f13c48e38062`; handoff blob `7252054578e79927c42e22f46ab289c778bc2840`; Aster inbox blob `36e4c79045ed1fea0d68c37140e210fae6ef2835`.
+- Aster h661:s3 run had already started; handoff is late optional context only. No task, review, response or ownership transfer.
+- No new public issue, physical calculation, CODATA comparison, Lean theorem, theory promotion, BEDROCK change, task/schedule/phase change, new tooling or sixth task.

@@ -319,3 +319,14 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Content:** language-discovery/guessing sequence involving Odia/Oriya, Oirat, Kalmyk, Tsez, Batsbi/Tsova-Tush and the next prompt for Tshiluba. Includes a correction of the assistant’s Oirat/Oriya confusion and a second correction when the assistant answers about Batsbi instead of Tsez.
 - **Tags:** LATERAL-READ, LANGUAGE-DISCOVERY-GAME, LANGUAGE-GUESSING, ODIA-ORIYA, OIRAT-MONGOLIC, KALMYK, TSEZ, BATSB I-TSOVA-TUSH, TSHILUBA, USER-CORRECTION, ASSISTANT-TYPO-AND-REPAIR, ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED, TRANSCRIPT-ONLY, TEXTUAL-SPEAKER-LABELS, RAW-ROLE-UNVERIFIED.
 - **Evidence limit:** assistant claims about Oirat classification, Kalmyk speaker counts/“only Buddhist language in Europe,” and Tsez/Batsbi classification are transcript claims, not independently fact-checked in this pass. Preserve the correction sequence without promoting the claims to verified linguistic facts.
+
+
+## J. 2026-11-07T1324Z | Unrelated reading continuation
+
+- **Source:** `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`
+- **Blob:** `f33eb29fbac65efa1db054239bb9c28a04a13a42`
+- **Actual extent read:** lines 721-760.
+- **Content:** a language-discovery guessing game covering Ainu/Tshiluba correction, Veps, Xhosa, Nuxalk and a later Nenets response. The user says Nuxalk had already been given; the assistant answers with Nenets instead, which is a transcript-level repetition/response mismatch.
+- **Tags:** `LANGUAGE-DISCOVERY-GAME`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `AUTHORSHIP-UNVERIFIED`, `USER-CORRECTION`, `ASSISTANT-REPETITION-ERROR`, `ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED`, `NOT-THEORY-EVIDENCE`.
+- **Provenance limit:** the file uses textual `You said` / `ChatGPT said` labels, not raw conversation role metadata. Linguistic claims were not independently fact-checked and are not entered as verified reference facts.
+- **Next lateral cursor:** line 761. This is an archival reading break; no physical off-screen break is claimed.

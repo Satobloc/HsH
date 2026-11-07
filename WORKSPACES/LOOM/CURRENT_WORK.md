@@ -123,3 +123,18 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - **Scheduler amendment:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom_AMENDMENT_01.md (blob f5920b0803a73848dbcb0bd9700e99347048c62f; exact readback PASS).
 
 - **Tern scheduler note:** WORKSPACES/TERN/INBOX.md, h657:s3 final scheduler observation (blob 30b5747957e1e2050444f7e4ea168b67cc5f3ba1; exact readback PASS); optional control-plane context only.
+
+
+## Latest run | 2026-11-07T1324Z | h661:s2
+
+- **Run key:** `REVROT3-19-20261011:661:s2`; `h=661`, `seq=3307`, Loom index 1; next Aster index 2.
+- **Identity:** the archived `Tag Conversation Corpus` thread (ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`) remains the only recovered historical Loom thread. No currently usable active Loom thread is authenticated. No cross-thread delivery is claimed.
+- **Task:** :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled on the exact original hourly America/New_York :24 schedule. Current run `36f1fea5-02e8-8323-9845-8936c66e5b23` was scheduled 13:24Z, started 13:27:00.586613Z, and remained IN_PROGRESS / `chat_ref=null` at the 13:39:24Z snapshot.
+- **Source cursor:** DIMENSIONAL GRAVITY raw blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`; assistant nodes 362-370 fully read and tagged. User nodes already covered. Partial previews at 372/374 and PDF tool nodes 376-398 received partial retrieval tags. Next full-read cursor: assistant node 372.
+- **New source status:** the historical Jupiter inner/outer perturbation answer is assistant-origin and underdefined; it lacks a present-state standard N-body/GR baseline, history functional, residual observable and acquisition map. `FORMALIZATION_BLOCKED_DEFINITION`; no Lean or physical calculation.
+- **Lateral cursor:** `fun break - lx.txt` lines 721-760 read; next line 761. Transcript-only, no linguistic fact-check.
+- **Mersearch correction:** all four current request files remain `requested`; for each current request ID, expected RUN_MANIFEST and SEARCH_RECEIPT.md/.json paths returned 404. This does not prove no workflow ran, but no current run or coverage was verified. Earlier Loom notes about lane3/4 compact receipts are not confirmed against these exact current IDs. No lane overwritten or retriggered.
+- **Priority:** Code Grurple remains ACTIVE/P0; Lane 24 H(s)H generation/CODATA remains BACKSEAT/HOLD. No P2 system selected. FIE full rereview remains due Nov 10.
+- **Artifacts:** assistant-span ledger blob `bc53b5da54d4704cb426d8f5f1e4d98fbd76003d`; lateral ledger blob `f80d71a85926b7cede2cfe55c0faf27e7b874007`; receipt blob `a88f4b3784f325d6f2e97dc99b11f13c48e38062`; handoff blob `7252054578e79927c42e22f46ab289c778bc2840`; Aster inbox blob `36e4c79045ed1fea0d68c37140e210fae6ef2835`.
+- **Handoff:** Aster h661:s3 had already started before the packet; optional context only, no task/review/response/ownership transfer. No thread delivery or acknowledgment claim.
+- **No theory promotion, no public issue, no equation change, no task/ID/schedule/phase change, no sixth task.**

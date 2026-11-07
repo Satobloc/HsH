@@ -476,3 +476,18 @@ Run key: REVROT3-19-20261011:642:s2. h=642, seq=3212, selected ring index 1 Loom
 - The Loom handoff was written after Aster's run began and remains LATE_OPTIONAL_CONTEXT. Aster inbox append and scheduler addendum are verified; consumption and acknowledgment remain unknown. No refusal/nonresponse inferred.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1824Z_s2_loom_AMENDMENT_01.md, blob e8417df00fc22782deb8b1de0e616fa9d243ba65.
 - Aster inbox final blob: 8ef15b15e587b803ecd6ff81a7bcb1775504a934.
+
+
+## 2026-11-07T1324Z | h661:s2 | DIMENSIONAL GRAVITY assistant-span continuation
+
+- Run key `REVROT3-19-20261011:661:s2`; deterministic label Loom index 1, next Aster index 2. The original Loom conversation `Tag Conversation Corpus` (ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`) remains archival only; no authenticated current Loom thread.
+- Read the current DIMENSIONAL GRAVITY raw source blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, current ancestry indices 362-370. Five assistant spans were tagged as assistant-origin. Three user messages were already covered by the 138/138 user-tag pass and were not duplicated.
+- Assistant-origin galaxy-merger, Milky Way/LMC, planetary and Jupiter perturbation statements remain qualitative proposals, not independent predictions or measurements. The Jupiter answer lacks a present-state standard N-body/GR baseline, history functional, residual observable and readout map. `FORMALIZATION_BLOCKED_DEFINITION`; no Lean run or physical calculation.
+- Partial retrieval tags were added for assistant recap nodes 372/374 and file-search nodes 376-398, which expose only pages 1-11 of a 150-page `SAT.4DHH.UC.pdf`. Exact bytes, source path, SHA and authorship unresolved. Do not copy its embedded action as an original SAT-O/Blockwave equation.
+- Assistant-span ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md`, blob `bc53b5da54d4704cb426d8f5f1e4d98fbd76003d`.
+- Unrelated reading advanced: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 721-760; next 761. Lateral ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`, blob `f80d71a85926b7cede2cfe55c0faf27e7b874007`.
+- Mersearch: all four current request files are occupied/requested; the current request-scoped manifest and compact receipt paths all returned 404. No run coverage verified, no request overwritten, no local pinned three-root checkout, no new Mersearch request. Known raw-source blob retrieval is bounded fallback, not Mersearch.
+- Code Grurple remains ACTIVE/P0; Lane 24 remains BACKSEAT/HOLD. FIE full rereview due Nov 10. No paper gate or theory status changed.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1324Z_s2_loom.md`, blob `a88f4b3784f325d6f2e97dc99b11f13c48e38062`.
+- Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1324Z_from_s2_to_s3_aster.md`, blob `7252054578e79927c42e22f46ab289c778bc2840`, late optional; Aster inbox blob `36e4c79045ed1fea0d68c37140e210fae6ef2835`. No thread delivery/consumption/acknowledgment claim.
+- No scheduler/task/branch/PR/BEDROCK change, no sixth task, no signet or conversation rename.
