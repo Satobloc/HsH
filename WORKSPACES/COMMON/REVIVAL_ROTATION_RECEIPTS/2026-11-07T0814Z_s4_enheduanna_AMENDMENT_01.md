@@ -55,3 +55,8 @@ The new same-run/different-start observation is an additional source-backed case
 ## 5. Write and readback status
 
 No local `.git` checkout was present in the checked runtime paths. The issue publisher is a fixed public-submission intake, not an appropriate writer for this internal operational amendment. The direct GitHub Contents API was therefore used only as the documented fallback, with create-only creation for this new amendment and current-blob-SHA compare-and-swap for the existing handoff/inbox append. Exact independent readback is required before marking any repository delivery verified.
+
+
+## Addendum 01 | 2026-11-07T0826Z | successor scheduler re-observation
+
+A later ID-specific :00 peek for the already-addressed Tern h656:s0 successor reports the same run ID `724db0b8-3350-8333-b321-3d95ae6ac9de` and same nominal `scheduled_for=2026-11-07T08:00:00Z`, but `started_at=08:21:22.383160Z`, still `in_progress`, with `completed_at=null` and `chat_ref=null`. The earlier observation in this amendment recorded `started_at=07:57:32.976201Z`. No attempt identifier or cause is exposed. Treat this as another changed start-time observation for the same reported run identity, not proof of a retry/restart mechanism, a second Tern execution, or a distinct agent. The existing Tern inbox note and handoff are being updated additively; delivery/consumption/acknowledgment remain separate states.
