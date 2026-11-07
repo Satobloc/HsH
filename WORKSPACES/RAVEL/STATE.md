@@ -335,3 +335,14 @@ This update supersedes earlier statements that no new Lean theorem/run or O5/O8 
 - No physical calculation, fit, independent measurement, CODATA scoring, theory promotion, BEDROCK edit, or paper-gate advancement. No new task, branch, PR, or Orson handoff. Orson's existing optional context remains in place; P1 cognition remit protected.
 - All four Mersearch lanes remain occupied; no new request opened. FIE last full review 2026-10-27; next due 2026-11-10. Unrelated reading cursor advanced through *TheTANGLE* lines 1361-1400; next line 1401.
 - Next cursor: recover O5/O8 author/source conversations; resolve `ell_f` radius/diameter and `rho_link` support measure; specify explicit spine -> finite core -> timesheet trace -> medium/readout maps and composition conditions.
+
+## Current state update: 2026-11-07 h649:s2
+
+- Candidate evidence bundle: 2026 helium isotope shift, 4He BEC contact response, and 3He Penning-trap/HFS plus elastic Zemach response. Candidate only; P2 remains HOLD and no system is selected.
+- Source genealogy recovered: direct 2026-11-04 worldline-only/timesheet-only hypothesis and 2026-11-05 responsive-medium/f-t-m-boson statement; July 2026 two-primitive source; separate dynamic-block key; external Bellomy BOSONIC_TIME/temporon papers excluded from Nathan Direct.
+- The SAT ALL TOGETHER SYNTHESIS angle-force statement is explicitly a postulate introduced by analogy, not a derived law.
+- Previous Dryad DOI claim for 3He raw data is withdrawn as unverified. No raw 3He/4He reanalysis was performed.
+- Lean PR #993 contains two compiled modules; latest exact-head run 42329428572 succeeded. It verifies published-table arithmetic and conditional algebra only.
+- Next cursor: raw-data provenance and covariance, then explicit worldtube/timesheet/medium-to-current/form-factor/polarizability maps.
+- Unrelated reading cursor remains TheTANGLE.txt line 1521. FIE full rereview is due 2026-11-10.
+- No BEDROCK promotion, paper-gate advancement, task change, signet, rename, or cross-thread delivery claim.
