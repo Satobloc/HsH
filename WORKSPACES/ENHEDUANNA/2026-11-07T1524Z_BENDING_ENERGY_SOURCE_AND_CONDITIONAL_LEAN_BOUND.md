@@ -165,11 +165,12 @@ CI history:
 - Run #42389823456 failed because the continuity integrability theorem was not applied to interval endpoints.
 - Commit `c330f5d28bb3b41cb9a17bc70751563c5357f274` supplied the endpoints, but run #42390279872 then failed because the interval-integrability function application needed parentheses.
 - Commit `606e5a012139d12b411a43ca1ab960fc09f940c0` parenthesized the interval-integrability proofs and uses `continuous_const.intervalIntegrable 0 L`.
-- Corrected run #42390677035 was in progress at the time of the latest inspection.
+- **Corrected run #42390677035: SUCCESS.** Job #128457402086; merged test ref `80ad815d85c71054f61d1bbfdb29e18d5b49bdee`; Lean 4.34.0; Lake 5.0.0; Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`; full `lake build` completed successfully (8,945 jobs).
+- The new module built as `HsHVerification.EnheduannaBendingEnergyBound`. Its `#eval` arithmetic sanity check printed `48`.
+- `#print axioms` for `bendingEnergy_le_of_curvature_bound`, `bendingEnergy_le_of_reach_radius`, and `constant_curvature_saturates` returned only `[propext, Classical.choice, Quot.sound]`; **no `sorryAx`** appeared for these theorems.
+- The workflow ran `lake build` only. Tests, lint, nanoda, and the global axiom audit were disabled/skipped in the existing workflow.
 
-**No successful Lean build is claimed yet.** The failed elaborations printed a temporary `sorryAx` in Lean's error-recovery output for the two affected theorems; this is not a source `sorry` and is not accepted as a proof. The constant-curvature equality theorem did compile in the failed runs and its axiom output did not contain `sorryAx`. The latest run must complete successfully, and the two inequality theorems' axiom output must be checked for `sorryAx`.
-
-Even if CI succeeds, Lean verifies only the formalized conditional inequality. It does not prove the source-to-formalization translation, derive the curvature ceiling, establish physical arclength, supply a constitutive law, or recover the historical maximum.
+The conditional mathematical module is now successfully compiled and executed in the recorded CI environment. Lean verifies only the formalized conditional statements. It does not prove the source-to-formalization translation, derive the curvature ceiling, establish physical arclength, supply a constitutive law, validate a worldtube map, or recover the historical maximum.
 
 ## CODATA source/version audit
 
