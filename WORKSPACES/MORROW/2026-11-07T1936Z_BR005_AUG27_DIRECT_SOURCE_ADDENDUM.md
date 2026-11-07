@@ -113,3 +113,21 @@ Next reading cursor: line 489. FIE review is due 2026-11-10. The separate SPHERE
 - No authenticated Morrow or Kestrel ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
 
 Best next operation: when a shared Mersearch lane is actually released, run a corrected, parenthesized three-repository query with the user-role filter applied to every disjunct, then inspect candidate raw message ancestry. Until then, preserve the recovered August 27 witness without promoting it to the missing September 16 source.
+
+
+## 9. Lean execution evidence update
+
+A later audit of PR #674's historical Actions runs refines the formalization status:
+
+- Current PR head: `138a40a678a61cfb8bb00448b6f5b4bc20b504c5`, still open/draft/unmerged.
+- `FIEAngleConventionFidelity.lean` blob: `056ff72af5e01c2db4f554f549d9a99a7cb34ce9`. This exact file blob is identical at the current PR head and at earlier commit `74dbac1b8658117dfaacb9553b637df109656c63`.
+- Earlier actual Lean run: #40447650215, event `pull_request`, completed SUCCESS on 2026-10-27T04:03:58Z, head `74dbac1b8658117dfaacb9553b637df109656c63`.
+- Successful job: #122002634931, `verify`; Lean 4.34.0, Lake 5.0.0; `lake build` completed successfully with 8,943 build jobs. The log explicitly reports `HsHVerification.FIEAngleConventionFidelity` built at job step 8926/8943.
+- The four `#print axioms` outputs report `propext`, `Classical.choice`, and `Quot.sound` for each theorem. The workflow configuration has `axiom-audit=false`, `leanchecker=false`, `test=false`, and `lint=false`; this is not a separate axiom-audit or kernel-independent checker.
+- The current PR head aggregator imports both `FIEAngleConventionFidelity` and the later `SourceSpanAttributionGate`. The current head's only retrieved run, #40498334138, is a failed `conversation-json-content-ci` run, not a Lean build. The full current PR head therefore remains unverified as an integrated build, even though the unchanged FIE module blob has an earlier successful build.
+
+This is an actual remote Lean execution of the identical FIE module file on an earlier PR head, not a new run in this execution. It establishes compilation of the formalized conditional complementarity statements. It does not establish which angle convention Nathan intended, authenticate the September 16 raw user event, prove the helix-to-pitch translation, or establish any physical premise.
+
+No local Lean/Lake/Elan executable was available, and no workflow was rerun or code changed. The earlier statement “no exact-current-head full PR build is verified” remains correct; the more precise status is:
+
+`FIE_MODULE_BLOB_BUILT_ON_EARLIER_HEAD / MODULE_BLOB_UNCHANGED_AT_CURRENT_HEAD / CURRENT_FULL_PR_HEAD_BUILD_UNVERIFIED / CONDITIONAL_THEOREMS_ONLY`.
