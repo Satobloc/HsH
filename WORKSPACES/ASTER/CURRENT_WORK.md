@@ -12,8 +12,8 @@
 | :24 lane | H(s)H generation / worldtube characterization / CODATA is **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. |
 | Current branch | PR #1220 remains OPEN / DRAFT / UNMERGED. Branch research/aster-o13-unitary-mass-gate-20261101t1700z; head 6a66217979b9caacff06fa407cd9ccd1cdd7999e. Do not amend or merge it here. |
 | Next action | Continue the source-fidelity map for the historical Minkowski w-length and the later native c w = t convention, keeping them separate until an explicit map exists. Wait for Code Grurple standdown before IRI/B recovery. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
-| Source cursor | Current geometry cursor: define the source time parameter and metric map for historical Minkowski w-length, then explicit K_global -> D_local and W_i/Sigma_t -> particle-section projection/composition maps. Keep native c w = t separate. IRI/B raw role graph remains a distinct blocked cursor until Code Grurple stands down and a Mersearch lane opens. |
-| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1301-1380 read; next cursor 1381. FIE last full rereview 2026-10-27; next due 2026-11-10. |
+| Source cursor | Keep the source time parameter and metric map for historical Minkowski w-length separate from native c w = t. New source gate: preserve SAT O1 text and SAT.O1 LaTeX as distinct; do not promote assistant-origin J^{μν} into Blockwave. Next recover original source/PDF and raw role ancestry through a released Mersearch lane, then type centerline-to-core, Σ_t, intersection/readout, medium-response, and calibration maps before formalization or physical testing. |
+| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1501-1540 read; next cursor 1541. FIE last full rereview 2026-10-27; next due 2026-11-10. |
 
 ## Source and symbol boundaries
 
@@ -137,3 +137,18 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Same-slot issue #1453 remains PUBLISHED_VERIFIED. Its producer is not authenticated. The incoming Loom handoff preserves an earlier same-run `started_at=13:32:18.017644Z`; the Aster receipt preserves 13:59:40.572006Z and 14:29:15.134138Z. The publisher commit at 13:52:15Z lies between those values, so the correct attribution is `SAME_SLOT_ARTIFACT / PRODUCER_RUN_LINKAGE_UNVERIFIED / TEMPORAL_ORDER_AMBIGUOUS`, not `PREEXISTING_SAME_SLOT_ARTIFACT`.
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1336Z_s3_aster_AMENDMENT_01.md`. Ariadne optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1336Z_from_s3_to_s4_ariadne_AMENDMENT_01.md`. Tern and Ariadne inbox readbacks verified.
 - This is a scheduler/provenance correction only. Paper A remains FROZEN / CROSS-READ OPEN; P2 remains HOLD; no physical calculation, new Lean theorem, PR/branch change, BEDROCK edit, paper-gate advancement, or theory promotion.
+
+
+## Latest source-fidelity delta | h665:s2 (2026-11-07)
+
+- Detailed internal note: \`WORKSPACES/ASTER/2026-11-07T1724Z_SAT_O1_BLOCKWAVE_SOURCE_LINEAGE_DELTA.md\`, blob \`76b1f583ca1b6f686ec08fde966bbc54be983748\`, commit \`1048f554a61a84c212d1027a1196cc58fc62ff2a\`.
+- SAT O1 4D text blob \`7577aa1ee5a6c3850ce3b226c75377de6367aedc\` is one content object repeated across four paths. File-index Windows metadata records a 2025-06-09 last-write time and 2025-10-26/27 copy creation times; first verified GitHub import is 2026-09-04. These are separate metadata dates, not an authenticated original author timestamp.
+- A distinct SAT.O1 LaTeX document, blob \`9a07893cf596e190486df17503626327d6023caa\`, prints June 2025 and author field “SATO.4D Coherence Project”; it introduces a 3D resolving surface \`Σ_t\` and \`θ_4\), but does not define a finite-core thickening map or the metric/time data needed for those expressions.
+- Two historical Blockwave documents were located: BLOCKWAVE EXTENSION blob \`d870e30ddfe7baf181981f78d8d2c3be5aedb3ce\` and SAT—Blockwave Ideal Model blob \`dd0631bc0b25c951dc5e1d6738280e08487b46b2\`. They are distinct actions and neither defines the explicit conserved two-form \`J^{μν}\`.
+- The assistant-generated 🧱BLOCKWAVE file, blob \`ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d\`, introduces \`J^{μν}\) and its couplings. The 2025-10-19 raw “Full action definitions” role graph shows the direct user message was only a request for the action; the unified J-action is assistant synthesis, not Nathan Direct or source-locked canonical Blockwave.
+- The note preserves source equations verbatim and lists projector-reduction and scalar-sign corrections separately as assistant/standard-convention checks. No Lean run or complete corrected canonical action was produced.
+- Mersearch lanes 1–4 remain occupied/requested; bounded GitHub search across all three permitted repositories was fallback navigation, not Mersearch. No lane was overwritten.
+- No physical system selected, no raw measured data, no physical calculation, fit, prediction, CODATA comparison, new Lean theorem, or paper-gate advancement. Code Grurple P0 remains active; Paper A review frozen; P2 remains HOLD.
+- Unrelated reading advanced: Babbage, *Reflections on the Decline of Science in England*, lines 1501–1540; next cursor 1541. FIE rereview remains due 2026-11-10.
+- Successor packet: \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1724Z_from_s2_to_s3_ariadne.md\`, blob \`d71c8de0cb8464a6494e451aced82bff1a6dca8c\`. Ariadne h665:s3 was already in progress, so this is late optional repository context only; no thread delivery or acknowledgment is claimed.
+- Expected run receipt: \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1724Z_s2_aster.md\`.
