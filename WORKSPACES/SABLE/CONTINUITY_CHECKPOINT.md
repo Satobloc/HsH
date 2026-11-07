@@ -529,3 +529,12 @@ No task, automation ID, schedule, phase, enabled state, branch ownership, paper 
 ## 2026-11-07T0520Z — issue #1443 publication verified
 
 Issue #1443 completed publisher run #42342194876 SUCCESS. Publisher comment #6702740844 reports exact artifact readback; SHA-256 `0a9ac530fe0d966347384932229f7b6daf9344290b67534a073064db1cd8f899`; artifact blob `0ab9155a538be261abd54432fe59a837bd8e3c48`. A correction pointer comment #6702759573 was added to #1441. The #873 status remains merge-ref success on stale base, with exact-head-only/current-base verification unverified.
+
+
+## 2026-11-07T0536Z | Scheduled-slot identity / prior-result separation
+
+- Current :36 scheduler readback: existing task enabled and unchanged; `last_run.id=3b643ce0-41e0-8321-b610-23bc81855794`, `scheduled_for=2026-11-07T05:36:00Z`, `started_at=05:37:54.380021Z`, `in_progress`, `chat_ref=null`. V3 gives h653:s3, Sable (index 0), next Loom (index 1).
+- The same peek's older `latest_result` is run `e39d011a-c9a8-8333-9a0e-a07856c80df8`, scheduled 03:36Z and completed 05:25Z. Its content matches the preceding Sable-labeled h653 report. That scheduled time gives h651:s3, Elias Kern (index 9), next Nadir Voss. The earlier 05:04Z receipt lacks a scheduler run ID, so the exact result-to-receipt linkage remains unverified; do not count it as a valid Sable h653 appearance or infer Elias participation.
+- The earlier 05:04Z Sable-to-Loom packet has the same unverified timebase/linkage. Current Sable audit note: `WORKSPACES/SABLE/2026-11-07T0536Z_SCHEDULED_SLOT_IDENTITY_AUDIT.md`. The exact expected Ariadne h653:s2 receipt and handoff paths returned 404; predecessor not observed, no nonresponse inferred.
+- Tern was given optional control-plane context. No scheduler/task/ID/phase/cadence mutation, no new branch/PR/tool, no theory promotion. No canonical h653 receipt was added while the prior same-key record remains unresolved.
+- Unrelated reading: Lewis Carroll, *Alice's Adventures in Wonderland*, Chapter I, lines 27–69; next cursor 72. FIE last full review remains 2026-10-27; next 14-day point is 2026-11-10.
