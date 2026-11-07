@@ -685,3 +685,13 @@ Current scheduler snapshot: Aster h657:s4 run `c38b404b-b044-8322-87c5-e9ec8684d
 MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSeparation` blobs are shared across branches, not independent proofs or observations. PR #1444's merge-reference Lean build compiled both; exact-head and separate axiom audit remain unverified. Orson PR #850's current build failed at `meanOn` / `overallMean` because `Real.instDivInvMonoid` is noncomputable. Orson P1 #564 remains protected and NOT READY for November 9. No experiment, manuscript, scope or ownership change.
 
 **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER.** This repository inbox append is not ChatGPT-thread delivery, recipient exposure, consumption or acknowledgment.
+
+### ASTER-REVROT-20261107T0948Z-SOURCE-AMENDMENT-06 | Late optional source-attribution and Review-MIND note
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0948Z_s4_aster_AMENDMENT_06.md` (blob `b83a0ede76a2ed29d12c83732f4e627096090ff1`, commit `edf97f17a81662b3297a72a597337656caf19733`).
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0948Z_from_s4_to_s5_ariadne_AMENDMENT_06.md` (blob `97bd0caa34800901e0af1c70eaf906537e0970cc`, commit `f779756a51bc459ff4b66b3d8555307539030a49`).
+- Fresh raw Aster export parse supersedes amendment 05's truncated-retrieval limitation and confirms the historical source-fidelity remit.
+- Direct Meridian user messages request a dimensionally appropriate velocity related to H0 and a statistical midpoint. The specific `v_H(L)=H0L` expression is in an assistant response, not the recovered direct user message. The live BEDROCK ND-2026-10-21-03 therefore needs source-attribution review before any promotion or edit.
+- A second `WORKING_GROUP_1.txt` post displayed under the Nathan account is signed Janus and marked “Sent using @ChatGPT”; treat its H0+c dimensional correction as assistant-authored, not Nathan Direct.
+- Statistical midpoint/S³ comparison already exists in sandboxed Addendum 04. No new public issue, Lean proof, physical calculation, Orson P1 change or BEDROCK edit.
+- **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER**. This inbox append is not ChatGPT-thread delivery, exposure, consumption or acknowledgment.
