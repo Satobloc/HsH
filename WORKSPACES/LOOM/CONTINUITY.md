@@ -524,3 +524,8 @@ Read Kakuzo Okakura, The Book of Tea, Project Gutenberg eBook 769, lines 134-207
 ### Next deeper cursor
 
 Recover original indicatrix diagram; distinguish full D4 lattice from root shell; define marker correspondence and readout; define per-order transform-to-H map and metric; then formalize those explicit maps in Lean. Aster receives optional repository context only; no task or cross-thread delivery claim.
+
+
+### Cross-lens guardrail for h669:s0
+
+INSIDE the candidate geometry, the positive-scale SO(4) action and marked-point readout are proposals. OUTSIDE the model, the observable-worldline and measurement map is undefined. The Euclidean R4 indicatrix is not yet Lorentzian GR spacetime; no signature or proper-time map is supplied. Helical/winding vocabulary does not establish string winding without a compact dimension/worldsheet/tension. D4 symmetry alone does not specify an SM/QM gauge representation, particle multiplet, or measured spectrum. The H feature vector is not an information metric without a probability model or Fisher tensor. These are comparison lenses, not equivalences; no WWRD rope analogy was used.
