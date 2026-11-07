@@ -308,3 +308,14 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - This section is additive and does not alter the historical charter, theory status, or common tagging standard.
 
 **Next lateral-reading cursor:** line 681.
+
+
+## I. Lateral source break: fun break - lx.txt, lines 681–720
+
+- **Source:** SAT_THEORY_ARCHIVE_2023-25 / 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt.
+- **Blob SHA-1:** f33eb29fbac65efa1db054239bb9c28a04a13a42.
+- **Read extent:** lines 681–720 inclusive (40 lines); next cursor **721**.
+- **Source form:** flattened transcript text. “You said” and “ChatGPT said” are textual speaker labels, not raw role metadata. No raw message IDs or role metadata are supplied by this file.
+- **Content:** language-discovery/guessing sequence involving Odia/Oriya, Oirat, Kalmyk, Tsez, Batsbi/Tsova-Tush and the next prompt for Tshiluba. Includes a correction of the assistant’s Oirat/Oriya confusion and a second correction when the assistant answers about Batsbi instead of Tsez.
+- **Tags:** LATERAL-READ, LANGUAGE-DISCOVERY-GAME, LANGUAGE-GUESSING, ODIA-ORIYA, OIRAT-MONGOLIC, KALMYK, TSEZ, BATSB I-TSOVA-TUSH, TSHILUBA, USER-CORRECTION, ASSISTANT-TYPO-AND-REPAIR, ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED, TRANSCRIPT-ONLY, TEXTUAL-SPEAKER-LABELS, RAW-ROLE-UNVERIFIED.
+- **Evidence limit:** assistant claims about Oirat classification, Kalmyk speaker counts/“only Buddhist language in Europe,” and Tsez/Batsbi classification are transcript claims, not independently fact-checked in this pass. Preserve the correction sequence without promoting the claims to verified linguistic facts.
