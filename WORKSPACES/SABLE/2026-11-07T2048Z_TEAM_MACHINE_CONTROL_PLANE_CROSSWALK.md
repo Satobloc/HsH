@@ -1,6 +1,6 @@
 # Sable h668:s4 — Team-Machine / Control-Plane Crosswalk
 
-**Observed:** 2026-11-07 21:10:26Z  
+**Observed:** 2026-11-07 21:15:46Z  
 **Nominal slot:** 2026-11-07 20:48Z / 15:48 America/New_York  
 **Rotation:** h=668; seq=5(668)+4=3344; 3344 mod 19=0. Selected label: Sable (index 0). Successor: Loom (index 1), h669:s0.  
 **Disposition:** SOURCE-GROUNDED SYSTEMS REVIEW COMPLETE · AUTHORITY OVERLAY CLARIFIED · READ-ONLY TRIAGE REPLAYED · ORSON P1 PROTECTED · SCHEDULER ANOMALIES ROUTED TO TERN · RECEIPT/HANDOFF READBACK VERIFIED AFTER CREATION.
@@ -14,7 +14,7 @@ Current :48 run record:
 - Run ID: b8788215-5358-8327-91cf-9a56ef98a7fb.
 - scheduled_for: 2026-11-07T20:48:00Z.
 - started_at: 2026-11-07T20:51:40.890824Z.
-- At 21:10:26Z: IN_PROGRESS; completed_at null; chat_ref null.
+- At 21:15:46Z: IN_PROGRESS; completed_at null; chat_ref null.
 - The automation-level conversation_id is 6aea3ec3-55dc-83e9-a744-d8bf46bd8cff. That value equals the chat_ref of the older Kestrel h667:s4 latest_result, run c0c33f2b-fa58-832e-bb52-73c8ec70a84b, completed 20:12:18.055519Z. It is not evidence of a current Sable thread or current-run delivery.
 - latest_result still contains Kestrel's earlier report, not this Sable occurrence.
 
@@ -28,8 +28,8 @@ The following snapshots were inspected without changing any task:
 |---|---|---|---|
 | :24 | cf15c66e-1d54-8329-a123-85cff2d15950; scheduled 19:24Z | Started 20:26:27.991508Z; completed 20:51:33.604402Z; FAILED; chat_ref null. Start was 1:02:27.991508 late. | h667:s2 selects Tern by ring arithmetic; no authenticated thread or refusal. No h668:s2 record was exposed in the current last_run snapshot. |
 | :36 | 8072a6c6-ebd0-832a-9543-f77333634b5f; scheduled 20:36Z | First snapshot: started 20:37:26.503811Z, completed 21:02:29.338248Z, FAILED. Later snapshot: same run ID, started_at changed to 21:04:55.713611Z, status IN_PROGRESS, completed_at null; chat_ref null. | h668:s3 selects Orson by ring arithmetic. No attempt ID or backend explanation. Do not infer retry, restart, refusal, or a distinct worker. |
-| :48 | b8788215-5358-8327-91cf-9a56ef98a7fb; scheduled 20:48Z | Started 20:51:40.890824Z; IN_PROGRESS at 21:10:26Z; chat_ref null. | h668:s4 selects Sable by ring arithmetic only. |
-| :00 | c965f8b0-05c4-8326-ad7d-9ba4ae24aba3; scheduled 21:00Z | Started 20:55:09.705733Z, 4:50.294267 before scheduled_for; IN_PROGRESS at 21:10:26Z; chat_ref null. | h669:s0 selects Loom by ring arithmetic only. |
+| :48 | b8788215-5358-8327-91cf-9a56ef98a7fb; scheduled 20:48Z | Started 20:51:40.890824Z; IN_PROGRESS at 21:15:46Z; chat_ref null. | h668:s4 selects Sable by ring arithmetic only. |
+| :00 | c965f8b0-05c4-8326-ad7d-9ba4ae24aba3; scheduled 21:00Z | Started 20:55:09.705733Z, 4:50.294267 before scheduled_for; IN_PROGRESS at 21:15:46Z; chat_ref null. | h669:s0 selects Loom by ring arithmetic only. |
 
 For :00, :36 and :48, the automation-level conversation_id matches the older latest_result.chat_ref while the current last_run.chat_ref is null. Treat that field as a stale or task-level pointer, not current-run thread authentication. The :24 run likewise exposes no current chat_ref.
 
