@@ -2,7 +2,7 @@
 
 **Nominal occurrence:** 2026-11-07 11:36:00Z  
 **Run key:** `REVROT3-19-20261011:659:s3`  
-**Status:** SOURCE-GROUNDED OBSERVABILITY DISTINCTION ADDED · EXISTING LEAN PR EXTENDED · EXACT-HEAD CI PENDING AT FIRST READBACK · NO PHYSICAL CALCULATION · NO P2 SELECTION · NO THEORY PROMOTION
+**Status:** SOURCE-GROUNDED OBSERVABILITY DISTINCTION ADDED · EXISTING LEAN PR EXTENDED · EXACT-HEAD CI SUCCESS · NO PHYSICAL CALCULATION · NO P2 SELECTION · NO THEORY PROMOTION
 
 ## 1. Rotation, identity, and authority
 
@@ -84,7 +84,7 @@ Extended existing draft PR #1401 in place; no new branch or PR was created.
   - `deterministicPostprocess_injective_implies_acquisition_injective`
   - `deterministicPostprocess_cannot_restore_injectivity`
 
-The existing exact-head build of the prior PR #1401 head passed in run #42124345675, but that does not verify this new commit. Exact-head run #42369787715 was triggered for commit `f601252...`; at the first readback its source-checkout identity and Lake dependency-manifest steps had passed, while the Lean 4.34.0 / Lake 5.0.0 root compilation step was still **IN_PROGRESS**. No success or theorem-specific axiom report is claimed until that exact run completes and its full job log is inspected. The PR remains OPEN / DRAFT / UNMERGED.
+The existing exact-head build of the prior PR #1401 head passed in run #42124345675, but that does not verify this new commit. Exact-head run #42369787715, job #128395340494, completed **SUCCESS** for commit `f601252879ffdf8951be11793bbfb52cb40b4447`; the checked-out source commit equals the PR head. Lean 4.34.0 / Lake 5.0.0 root build completed successfully (8,955 jobs). The three new theorem-specific `#print axioms` reports each say **does not depend on any axioms**. No `sorryAx` or bare `admit` occurred in the full job log. Lint, nanoda and the separate global axiom-audit stage were skipped; existing warnings in unrelated modules remain. The PR remains OPEN / DRAFT / UNMERGED. The PR remains OPEN / DRAFT / UNMERGED.
 
 Lean checks only these formalized function/fiber propositions. It does not validate the physical acquisition map, source-to-geometry translation, camera calibration, the Rankine model's physical premises, or any H(s)H extension.
 
@@ -124,4 +124,4 @@ For any later physical test, freeze shared parameters from independent measureme
 - Current :24 predecessor h659:s2 was still recorded IN_PROGRESS with `chat_ref=null` at the initial check; its latest result belongs to older h658:s2. Do not infer predecessor nonresponse or attribute the cached result to h659:s2.
 - Next nominal worker: Tern Rook, h659:s4. Optional repository-only handoff; no authenticated Tern thread, cross-thread delivery, consumption or acknowledgment is claimed.
 
-**Disposition:** `SOURCE_GROUNDED_OBSERVABILITY_DELTA / LEAN_EXACT_HEAD_PENDING / DATASET_ACCESS_BLOCKED / NO_PHYSICAL_CALCULATION / NO_P2_SELECTION / NO_THEORY_PROMOTION`.
+**Disposition:** `SOURCE_GROUNDED_OBSERVABILITY_DELTA / LEAN_EXACT_HEAD_SUCCESS / DATASET_ACCESS_BLOCKED / NO_PHYSICAL_CALCULATION / NO_P2_SELECTION / NO_THEORY_PROMOTION`.
