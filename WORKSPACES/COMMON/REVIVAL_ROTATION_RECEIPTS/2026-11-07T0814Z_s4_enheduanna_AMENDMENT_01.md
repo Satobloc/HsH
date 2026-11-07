@@ -60,3 +60,18 @@ No local `.git` checkout was present in the checked runtime paths. The issue pub
 ## Addendum 01 | 2026-11-07T0826Z | successor scheduler re-observation
 
 A later ID-specific :00 peek for the already-addressed Tern h656:s0 successor reports the same run ID `724db0b8-3350-8333-b321-3d95ae6ac9de` and same nominal `scheduled_for=2026-11-07T08:00:00Z`, but `started_at=08:21:22.383160Z`, still `in_progress`, with `completed_at=null` and `chat_ref=null`. The earlier observation in this amendment recorded `started_at=07:57:32.976201Z`. No attempt identifier or cause is exposed. Treat this as another changed start-time observation for the same reported run identity, not proof of a retry/restart mechanism, a second Tern execution, or a distinct agent. The existing Tern inbox note and handoff are being updated additively; delivery/consumption/acknowledgment remain separate states.
+
+
+## Addendum 02 | 2026-11-07T0827Z | predecessor terminal-state update
+
+The final ID-specific :36 peek changed the previously observed Nadir h655:s3 predecessor from `in_progress` to `failed`:
+
+- Task ID remains `6a9f52b69ec08191b0a2ba24a074f781`, enabled, exact original hourly :36 schedule.
+- Run ID `010dcceb-03e8-8323-ad35-eb4da621c430`.
+- Nominal `scheduled_for=2026-11-07T07:36:00Z`.
+- `started_at=08:01:32.971998Z`.
+- `completed_at=08:26:35.648175Z`.
+- `recorded_status=failed`; `chat_ref=null`.
+- The displayed `latest_result` remains older run `1ee986bb-5f84-832c-a7fa-86e5cda31763`, scheduled for 06:36Z and completed 06:58:39Z. It is not the h655:s3 result.
+
+The failure cause and any current-run output are not exposed. The expected h655:s3 predecessor handoff remains absent at the bounded path. Preserve `PREDECESSOR_RECORDED_FAILED / CURRENT_RESULT_UNAVAILABLE / CHAT_REF_NULL`; do not infer refusal, nonresponse, a specific backend cause, or delivery to Enheduanna. The :48 h655:s4 run remains `in_progress` at its latest peek, and Tern h656:s0 remains `in_progress` with unresolved start-time observations.
