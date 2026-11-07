@@ -24,3 +24,8 @@ Full source hashes, run identifiers, limitations, current task IDs/schedules, pu
 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1548Z_s4_morrow.md`
 
 No task, ownership transfer, response obligation, or requested review. Repository inbox delivery is only a pointer; no authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## MORROW-H663-SAME-RUN-REOBS-20261107T1704Z | source-side scheduler re-observation
+
+The same h663:s4 run ID `5c2bfcf7-1218-832a-871c-77c4ac61a754` was re-observed at 2026-11-07T17:04:34.670217Z. Its scheduled time remains 15:48Z; the record remains IN_PROGRESS with no completion and `chat_ref=null`. The previously recorded `started_at=16:30:39.380839Z` is now replaced in the latest observation by `17:04:34.670217Z`, a difference of 33m55.289378s. No attempt ID or authoritative event history is available. The cached result remains the older h659:s4 run, not this occurrence. Treat this as a changed field on the same run ID, not evidence of a retry, restart, second execution, distinct agent or thread delivery. This updates the existing optional packet only; no new handoff, task, response obligation or ownership transfer.
