@@ -16,9 +16,11 @@ Primary experimental source:
   frequency and signed corrections used below.
 
 The 3He transition input is van der Werf et al., Science 388, 850 (2025),
-DOI 10.1126/science.adj2462; its raw-data deposit is Dryad
-10.5061/dryad.4j0zpc8m3. The muonic comparison is Schuhmann et al.,
-Science 388, 854 (2025), DOI 10.1126/science.adj2610. The existing
+DOI 10.1126/science.adj2462. The accessible institutional record identifies
+the article but no raw-data repository; an earlier proposed Dryad DOI could
+not be verified and is withdrawn. The publisher PDF was not accessible in
+this run, so no raw 3He reanalysis was performed. The muonic comparison is
+Schuhmann et al., Science 388, 854 (2025), DOI 10.1126/science.adj2610. The existing
 RavelMuonicIsotopeGate module supplies the published 1.0636 fm^2
 muonic isotope-gap central value.
 
@@ -36,7 +38,9 @@ Scope:
   only under the explicit zero-cross-covariance assumption.
 
 Not proved:
-* No raw 3He or 4He time-series reanalysis.
+* No raw 3He or 4He time-series reanalysis. The APS record exposes the
+  abstract and a subscription-required supplement; no public raw 4He
+  time-series repository was identified in this source pass.
 * No full covariance audit; the component tables do not publish all
   cross-covariances.
 * No H(s)H geometry-to-current, form-factor, polarizability, or
