@@ -73,7 +73,7 @@ theorem lit_port_is_depth_threshold
     (cell : CellChannels) (portIndex : Nat) :
     (renderPort targets key cell portIndex).lit =
       (portIndex < cell.evidenceDepth) := by
-  rfl
+  simp [renderPort]
 
 /-- Actual source-extracted grurple row destinations and first two cells. -/
 def grurpleTargets : PortTargets :=
