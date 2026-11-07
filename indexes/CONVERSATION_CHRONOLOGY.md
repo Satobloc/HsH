@@ -2,11 +2,11 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-11-07T06:14:47.958068+00:00`
+- Generated: `2026-11-07T07:27:44.970000+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **887**
-- Skipped non-conversation or unparseable files: **414**
-- Exact duplicate-content groups: **118**
+- Dated conversation exports: **920**
+- Skipped non-conversation or unparseable files: **434**
+- Exact duplicate-content groups: **121**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
 ## 2023
@@ -35,22 +35,29 @@
 | Start | End | Conversation | Source folder | Messages | Exact duplicate | Notes |
 |---|---|---|---|---:|---|---|
 | 2024-03-04 | 2024-03-04 | [Up in Science](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04%E2%80%A224.03.04%E2%80%A2Up%20in%20Science%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 4 |  |  |
-| 2024-03-07 | 2024-03-13 | [Moral Realism_ Two Camps](../DEVELOPMENT_FULL_CONVOS/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.json) | `.` | 334 | D115 |  |
-| 2024-03-07 | 2024-03-13 | [Moral Realism_ Two Camps](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.txt) | `SAT_CONVOS_22` | 334 | D115 |  |
+| 2024-03-07 | 2024-03-13 | [Moral Realism_ Two Camps](../DEVELOPMENT_FULL_CONVOS/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.json) | `.` | 334 | D118 |  |
+| 2024-03-07 | 2024-03-13 | [Moral Realism_ Two Camps](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.txt) | `SAT_CONVOS_22` | 334 | D118 |  |
 | 2024-03-08 | 2024-03-08 | [A=A Identity Principle](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2A%3DA%20Identity%20Principle%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2024-03-08 | 2024-03-08 | [Radical Meta-Skepticism Overview — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_11` | 10 |  |  |
 | 2024-03-08 | 2024-03-08 | [RMS Taxonomy and Truth](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2RMS%20Taxonomy%20and%20Truth%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 22 |  |  |
 | 2024-03-14 | 2024-03-14 | [Exploring Cosmos through Mind.](../DEVELOPMENT_FULL_CONVOS/24.03.14%E2%80%A224.03.14%E2%80%A2Exploring%20Cosmos%20through%20Mind.%20%E2%80%94%20raw.json) | `.` | 4 | D08 |  |
 | 2024-03-14 | 2024-03-14 | [Exploring Cosmos through Mind.](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.14%E2%80%A224.03.14%E2%80%A2Exploring%20Cosmos%20through%20Mind.%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 4 | D08 |  |
 | 2024-03-22 | 2026-06-01 | [DIMENSIONAL GRAVITY](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22%E2%80%A226.06.01%E2%80%A2DIMENSIONAL%20GRAVITY%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 330 |  |  |
-| 2024-03-28 | 2024-03-28 | [Tletlegomega Speculation Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D53 |  |
-| 2024-03-28 | 2024-03-28 | [Tletlegomega Speculation Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 2 | D53 |  |
+| 2024-03-28 | 2024-03-28 | [Tletlegomega Speculation Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D54 |  |
+| 2024-03-28 | 2024-03-28 | [Tletlegomega Speculation Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 2 | D54 |  |
 | 2024-03-29 | 2024-03-30 | [Maya & Aiden Episodes](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29%E2%80%A224.03.30%E2%80%A2Maya%20%26%20Aiden%20Episodes%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 96 |  |  |
+| 2024-04-01 | 2024-04-01 | [CTMU_ Bridging Reality and Consciousness - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.04.01%E2%80%A224.04.01%E2%80%A2CTMU_%20Bridging%20Reality%20and%20Consciousness%20-%20raw.json) | `SAT_CONVOS_23` | 4 |  |  |
 | 2024-04-01 | 2024-04-01 | [String Theory Synthesis — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 2 | D22 |  |
 | 2024-04-01 | 2024-04-01 | [String Theory Synthesis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D22 |  |
 | 2024-04-01 | 2024-04-01 | [String Theory Synthesis — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_10` | 2 | D22 |  |
+| 2024-04-01 | 2024-04-01 | [String Theory Synthesis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20-%20raw.json) | `SAT_CONVOS_23` | 2 |  |  |
 | 2024-04-01 | 2024-04-01 | [String Theory Synthesis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 2 | D22 |  |
 | 2024-07-04 | 2024-07-04 | [CTMU_ Mind-Reality Integration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04%E2%80%A224.07.04%E2%80%A2CTMU_%20Mind-Reality%20Integration%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 7 |  |  |
+| 2024-07-04 | 2024-07-04 | [CTMU_ Mind-Reality Integration - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.04%E2%80%A2CTMU_%20Mind-Reality%20Integration%20-%20raw%20%281%29.json) | `SAT_CONVOS_23` | 8 |  |  |
+| 2024-07-04 | 2024-07-04 | [CTMU_ Mind-Reality Integration - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.04%E2%80%A2CTMU_%20Mind-Reality%20Integration%20-%20raw.json) | `SAT_CONVOS_23` | 8 |  |  |
+| 2024-07-04 | 2024-07-04 | [Reality Defined_ CTMU Summary - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.04%E2%80%A2Reality%20Defined_%20CTMU%20Summary%20-%20raw.json) | `SAT_CONVOS_23` | 2 |  |  |
+| 2024-07-04 | 2024-07-05 | [Cognition and Reality Integration - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.05%E2%80%A2Cognition%20and%20Reality%20Integration%20-%20raw%20%281%29.json) | `SAT_CONVOS_23` | 40 | D73 |  |
+| 2024-07-04 | 2024-07-05 | [Cognition and Reality Integration - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.05%E2%80%A2Cognition%20and%20Reality%20Integration%20-%20raw.json) | `SAT_CONVOS_23` | 40 | D73 |  |
 | 2024-07-25 | 2024-07-25 | [Neo-Riemannian Cube Dance](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.25%E2%80%A224.07.25%E2%80%A2Neo-Riemannian%20Cube%20Dance%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 16 |  |  |
 | 2024-07-27 | 2024-07-27 | [Future of AI Music](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.27%E2%80%A224.07.27%E2%80%A2Future%20of%20AI%20Music%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2024-08-08 | 2024-08-08 | [Forces Across Temporal Points](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08%E2%80%A224.08.08%E2%80%A2Forces%20Across%20Temporal%20Points%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
@@ -60,11 +67,11 @@
 | 2024-09-02 | 2024-09-02 | [Discrete Space and Dark Matter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02%E2%80%A224.09.02%E2%80%A2Discrete%20Space%20and%20Dark%20Matter%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2024-09-06 | 2024-09-06 | [ChatGPT Consciousness Argument](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06%E2%80%A224.09.06%E2%80%A2ChatGPT%20Consciousness%20Argument%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 30 |  |  |
 | 2024-09-23 | 2024-09-23 | [Song Lyrics Interpretation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23%E2%80%A224.09.23%E2%80%A2Song%20Lyrics%20Interpretation%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 2 |  |  |
-| 2024-11-11 | 2024-11-11 | [Sonic Pi Code Recall](../DEVELOPMENT_FULL_CONVOS/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json) | `.` | 39 | D24 |  |
-| 2024-11-11 | 2024-11-11 | [Sonic Pi Code Recall](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 39 | D24 |  |
+| 2024-11-11 | 2024-11-11 | [Sonic Pi Code Recall](../DEVELOPMENT_FULL_CONVOS/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json) | `.` | 39 | D25 |  |
+| 2024-11-11 | 2024-11-11 | [Sonic Pi Code Recall](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 39 | D25 |  |
 | 2024-11-15 | 2024-11-15 | [Consciousness AI Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Consciousness%20AI%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 23 |  |  |
-| 2024-11-15 | 2024-11-15 | [AND NOT Logic](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 14 | D74 |  |
-| 2024-11-15 | 2024-11-15 | [AND NOT Logic](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 14 | D74 |  |
+| 2024-11-15 | 2024-11-15 | [AND NOT Logic](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 14 | D76 |  |
+| 2024-11-15 | 2024-11-15 | [AND NOT Logic](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 14 | D76 |  |
 | 2024-11-15 | 2024-11-15 | [Stringing-Along Theory Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15%E2%80%A224.11.15%E2%80%A2Stringing-Along%20Theory%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2024-11-15 | 2024-11-15 | [Framework Integration Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Framework%20Integration%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2024-12-02 | 2024-12-02 | [Interest Summary and Insights](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.12.02%E2%80%A224.12.02%E2%80%A2Interest%20Summary%20and%20Insights%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
@@ -78,61 +85,62 @@
 | 2025-01-28 | 2025-01-28 | [AI Research Workflow Insights](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.28%E2%80%A225.01.28%E2%80%A2AI%20Research%20Workflow%20Insights%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
 | 2025-01-29 | 2025-01-29 | [Non-monotonic Reasoning Explained](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.29%E2%80%A225.01.29%E2%80%A2Non-monotonic%20Reasoning%20Explained%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
 | 2025-02-12 | 2025-02-12 | [Disrupting AI Podcast Format](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.12%E2%80%A225.02.12%E2%80%A2Disrupting%20AI%20Podcast%20Format%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 31 |  |  |
-| 2025-02-14 | 2025-02-14 | [Rewriting with Depth and Emotion](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 14 | D49 |  |
-| 2025-02-14 | 2025-02-14 | [Rewriting with Depth and Emotion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 14 | D49 |  |
+| 2025-02-14 | 2025-02-14 | [Rewriting with Depth and Emotion](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 14 | D50 |  |
+| 2025-02-14 | 2025-02-14 | [Rewriting with Depth and Emotion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 14 | D50 |  |
 | 2025-02-17 | 2025-02-17 | [Schizophrenie und Übersetzungshilfe](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.17%E2%80%A225.02.17%E2%80%A2Schizophrenie%20und%20%C3%9Cbersetzungshilfe%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2025-02-18 | 2025-02-20 | [RMS Worldview Character Creation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.18%E2%80%A225.02.20%E2%80%A2RMS%20Worldview%20Character%20Creation%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 69 |  |  |
 | 2025-03-11 | 2025-03-14 | [Russia's Nuclear Arsenal Maintenance](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A225.03.14%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 381 |  |  |
 | 2025-03-11 | 2026-08-26 | [Russia's Nuclear Arsenal Maintenance — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A226.08.26%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_3` | 385 |  |  |
 | 2025-03-11 | 2026-09-12 | [[B] 📜Russia's Nuclear Arsenal Maintenance](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.03.11%E2%80%A226.09.12%E2%80%A2%5BB%5D%20%F0%9F%93%9CRussia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 398 |  |  |
-| 2025-03-20 | 2025-03-20 | [Filament Intersections and Thought](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 179 | D60 |  |
-| 2025-03-20 | 2025-03-20 | [Filament Intersections and Thought](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 179 | D60 |  |
+| 2025-03-20 | 2025-03-20 | [Filament Intersections and Thought](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 179 | D61 |  |
+| 2025-03-20 | 2025-03-20 | [Filament Intersections and Thought](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 179 | D61 |  |
 | 2025-04-03 | 2025-04-03 | [Weinstein's Physics Critique](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 29 | D20 |  |
 | 2025-04-03 | 2025-04-03 | [Weinstein's Physics Critique](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 29 | D20 |  |
 | 2025-04-04 | 2025-04-04 | [SAT Theory Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 17 | D19 |  |
 | 2025-04-04 | 2025-04-04 | [SAT Theory Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 17 | D19 |  |
-| 2025-04-04 | 2025-04-04 | [Stringing Along Theory Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 6 | D63 |  |
-| 2025-04-04 | 2025-04-04 | [Stringing Along Theory Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 6 | D63 |  |
+| 2025-04-04 | 2025-04-04 | [Stringing Along Theory Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 6 | D64 |  |
+| 2025-04-04 | 2025-04-04 | [Stringing Along Theory Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 6 | D64 |  |
+| 2025-04-04 | 2026-06-01 | [SAT Theory Analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.04%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Analysis%20-%20raw.json) | `SAT_CONVOS_23` | 12 |  |  |
 | 2025-04-04 | 2026-06-01 | [SAT Framework Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04%E2%80%A226.06.01%E2%80%A2SAT%20Framework%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 679 |  | 1 user/assistant messages lacked timestamps |
 | 2025-04-06 | 2025-04-06 | [Chronophysical Proposition Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.06%E2%80%A2Chronophysical%20Proposition%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 7 |  |  |
 | 2025-04-06 | 2025-04-06 | [Geometry vs Numerology Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.06%E2%80%A2Geometry%20vs%20Numerology%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 7 |  |  |
-| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 2 | D62 |  |
-| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D62 |  |
-| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_10` | 2 | D62 |  |
-| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 2 | D62 |  |
+| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 2 | D63 |  |
+| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 2 | D63 |  |
+| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_10` | 2 | D63 |  |
+| 2025-04-06 | 2025-04-06 | [Theoretical Physicist's Article Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 2 | D63 |  |
 | 2025-04-06 | 2025-04-07 | [Old-school Physicist's Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.06%E2%80%A225.04.07%E2%80%A2Old-school%20Physicist%27s%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 82 |  |  |
-| 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 93 | D100 |  |
-| 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 93 | D100 |  |
+| 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 93 | D102 |  |
+| 2025-04-07 | 2025-04-07 | [Predicting Superconductors Commentary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 93 | D102 |  |
 | 2025-04-09 | 2025-10-06 | [G](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.04.09%E2%80%A225.10.06%E2%80%A2G%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 535 |  |  |
 | 2025-04-10 | 2025-04-10 | [1-n Dart System Patent](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A21-n%20Dart%20System%20Patent%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 1 |  |  |
 | 2025-04-10 | 2025-04-10 | [Patentability Analysis of Dart System](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A2Patentability%20Analysis%20of%20Dart%20System%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 20 |  |  |
-| 2025-04-12 | 2025-04-13 | [Risk Assessment Lobby Card Policy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 301 | D108 |  |
-| 2025-04-12 | 2025-04-13 | [Risk Assessment Lobby Card Policy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 301 | D108 |  |
+| 2025-04-12 | 2025-04-13 | [Risk Assessment Lobby Card Policy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 301 | D110 |  |
+| 2025-04-12 | 2025-04-13 | [Risk Assessment Lobby Card Policy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 301 | D110 |  |
 | 2025-04-13 | 2026-06-15 | [Physics Beyond Mathematics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 489 |  |  |
 | 2025-04-13 | 2026-06-15 | [Physics Beyond Mathematics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 500 |  | 1 user/assistant messages lacked timestamps |
 | 2025-04-16 | 2025-04-16 | [Custom Instructions Optimization](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.16%E2%80%A225.04.16%E2%80%A2Custom%20Instructions%20Optimization%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 8 |  |  |
 | 2025-04-17 | 2025-04-17 | [Summarizing Chat Logs](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17%E2%80%A225.04.17%E2%80%A2Summarizing%20Chat%20Logs%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 57 |  |  |
 | 2025-04-17 | 2025-04-17 | [Truths and Perspectives Explored](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.17%E2%80%A225.04.17%E2%80%A2Truths%20and%20Perspectives%20Explored%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 36 |  |  |
 | 2025-04-24 | 2025-04-25 | [4D Body Mind Model](../DEVELOPMENT_FULL_CONVOS/25.04.24%E2%80%A225.04.25%E2%80%A24D%20Body%20Mind%20Model%20%E2%80%94%20raw.json) | `.` | 76 |  |  |
-| 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 105 | D52 |  |
-| 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 105 | D52 |  |
+| 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 105 | D53 |  |
+| 2025-04-25 | 2025-04-25 | [Stringing Along Theory Evolution](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 105 | D53 |  |
 | 2025-04-29 | 2025-04-30 | [Model Framework Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 41 | D06 |  |
 | 2025-04-29 | 2025-04-30 | [Model Framework Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 41 | D06 |  |
 | 2025-05-02 | 2025-05-02 | [Script Debugging Assistance](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.02%E2%80%A225.05.02%E2%80%A2Script%20Debugging%20Assistance%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
-| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `.` | 69 | D111 |  |
-| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 69 | D111 |  |
+| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `.` | 69 | D114 |  |
+| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 69 | D114 |  |
 | 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 69 |  |  |
-| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 69 | D111 |  |
+| 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 69 | D114 |  |
 | 2025-05-03 | 2025-05-04 | [Fundamental Physics Explanations](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 69 |  |  |
 | 2025-05-04 | 2025-05-04 | [Unified Physical Theory Proposal](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 4 | D16 |  |
 | 2025-05-04 | 2025-05-04 | [Unified Physical Theory Proposal](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 4 | D16 |  |
 | 2025-05-04 | 2026-06-01 | [Geometric Unity Theory](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 8 |  |  |
 | 2025-05-04 | 2026-06-01 | [Geometric Unity Theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 8 |  |  |
 | 2025-05-04 | 2026-06-01 | [Geometric Unity Theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 8 |  |  |
-| 2025-05-04 | 2025-05-05 | [SAT Summary Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 221 | D48 |  |
-| 2025-05-04 | 2025-05-05 | [SAT Summary Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 221 | D48 |  |
-| 2025-05-04 | 2025-05-04 | [Unifying Physics Theories](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 | D90 |  |
-| 2025-05-04 | 2025-05-04 | [Unifying Physics Theories](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 | D90 |  |
+| 2025-05-04 | 2025-05-05 | [SAT Summary Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 221 | D49 |  |
+| 2025-05-04 | 2025-05-05 | [SAT Summary Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 221 | D49 |  |
+| 2025-05-04 | 2025-05-04 | [Unifying Physics Theories](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 | D92 |  |
+| 2025-05-04 | 2025-05-04 | [Unifying Physics Theories](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 | D92 |  |
 | 2025-05-04 | 2025-05-04 | [GN-z11 Redshift and Electron Mass](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 9 |  |  |
 | 2025-05-04 | 2025-05-04 | [GN-z11 Redshift and Electron Mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 9 |  |  |
 | 2025-05-04 | 2025-05-04 | [Solve for B — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_12` | 6 |  |  |
@@ -145,15 +153,16 @@
 | 2025-05-04 | 2025-05-04 | [Solve for B](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2025-05-04 | 2025-05-04 | [Redshift and Effective Mass](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 25 |  |  |
 | 2025-05-04 | 2025-05-04 | [Redshift and Effective Mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 25 |  |  |
-| 2025-05-04 | 2025-05-04 | [Significance of 1.002×10⁻²⁷](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 4 | D81 |  |
-| 2025-05-04 | 2025-05-04 | [Significance of 1.002×10⁻²⁷](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 | D81 |  |
+| 2025-05-04 | 2025-05-04 | [Significance of 1.002×10⁻²⁷](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 4 | D83 |  |
+| 2025-05-04 | 2025-05-04 | [Significance of 1.002×10⁻²⁷](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 | D83 |  |
 | 2025-05-04 | 2025-05-04 | [Solve for C Percent Difference](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20Percent%20Difference%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
-| 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 16 | D54 |  |
-| 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 16 | D54 |  |
-| 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 22 | D66 |  |
-| 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 22 | D66 |  |
+| 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 16 | D55 |  |
+| 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 16 | D55 |  |
+| 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 22 | D67 |  |
+| 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 22 | D67 |  |
 | 2025-05-07 | 2026-06-01 | [[A] SAT Theory Synthesis](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.05.07%E2%80%A226.06.01%E2%80%A2%5BA%5D%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 187 |  |  |
 | 2025-05-07 | 2026-06-01 | [XXX SAT Theory Synthesis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A226.06.01%E2%80%A2XXX%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 190 |  |  |
+| 2025-05-07 | 2025-05-08 | [Search for 13.7 GeV Anomalies - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.07%E2%80%A225.05.08%E2%80%A2Search%20for%2013.7%20GeV%20Anomalies%20-%20raw.json) | `SAT_CONVOS_23` | 82 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_4` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 479 |  |  |
@@ -166,43 +175,55 @@
 | 2025-05-09 | 2025-05-09 | [LAB 2_ Refinement Lead](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 56 |  |  |
 | 2025-05-09 | 2025-05-09 | [LAB 2_ Refinement Lead](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 56 |  |  |
 | 2025-05-09 | 2026-06-16 | [[A] SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.05.09%E2%80%A226.06.16%E2%80%A2%5BA%5D%20SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 508 |  |  |
-| 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_3` | 545 | D31 | 1 user/assistant messages lacked timestamps |
-| 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 545 | D31 | 1 user/assistant messages lacked timestamps |
+| 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_3` | 545 | D32 | 1 user/assistant messages lacked timestamps |
+| 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 545 | D32 | 1 user/assistant messages lacked timestamps |
 | 2025-05-09 | 2025-05-09 | [Fusion Constraints and Domain Walls](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09%E2%80%A225.05.09%E2%80%A2Fusion%20Constraints%20and%20Domain%20Walls%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2025-05-09 | 2025-05-09 | [Fusion Constraints and Domain Walls](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.09%E2%80%A225.05.09%E2%80%A2Fusion%20Constraints%20and%20Domain%20Walls%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 2 |  |  |
-| 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `.` | 43 | D87 |  |
-| 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 43 | D87 |  |
+| 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `.` | 43 | D89 |  |
+| 2025-05-11 | 2026-06-07 | [Alberr [äüïöëÿ]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 43 | D89 |  |
 | 2025-05-11 | 2025-05-11 | [Symbolic Expression Interpretation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11%E2%80%A225.05.11%E2%80%A2Symbolic%20Expression%20Interpretation%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 95 |  |  |
 | 2025-05-12 | 2025-05-12 | [ChatGPT Einstein Dirac Model](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.05.12%E2%80%A225.05.12%E2%80%A2ChatGPT%20Einstein%20Dirac%20Model%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 44 |  |  |
 | 2025-05-15 | 2025-05-15 | [Nonlinear Writing Hybrid](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.15%E2%80%A225.05.15%E2%80%A2Nonlinear%20Writing%20Hybrid%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 14 |  |  |
 | 2025-05-20 | 2025-05-20 | [SAT Framework Synthesis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Framework%20Synthesis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 14 |  |  |
-| 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_2` | 83 | D35 |  |
-| 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 83 | D35 |  |
+| 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_2` | 83 | D36 |  |
+| 2025-05-20 | 2025-05-20 | [SAT Math Engine Tasks](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 83 | D36 |  |
 | 2025-05-23 | 2025-05-23 | [SAT Goals and Roles](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.23%E2%80%A225.05.23%E2%80%A2SAT%20Goals%20and%20Roles%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 13 |  |  |
 | 2025-05-24 | 2025-08-31 | [[+] SAT Testing Proposals - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.24%E2%80%A225.08.31%E2%80%A2%5B%2B%5D%20SAT%20Testing%20Proposals%20-%20raw.json) | `SAT_CONVOS_23` | 45 |  |  |
+| 2025-05-27 | 2025-05-27 | [Viral SAT Podcast Names - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27%E2%80%A225.05.27%E2%80%A2Viral%20SAT%20Podcast%20Names%20-%20raw.json) | `SAT_CONVOS_22` | 4 |  |  |
+| 2025-05-27 | 2025-05-27 | [SAT Framework and Tools - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27%E2%80%A225.05.27%E2%80%A2SAT%20Framework%20and%20Tools%20-%20raw.json) | `SAT_CONVOS_22` | 26 |  |  |
 | 2025-05-27 | 2025-05-27 | [[+] SATx Component Breakdown - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.27%E2%80%A225.05.27%E2%80%A2%5B%2B%5D%20SATx%20Component%20Breakdown%20-%20raw.json) | `SAT_CONVOS_23` | 4 |  |  |
+| 2025-05-27 | 2025-05-27 | [SATx Modules Development - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27%E2%80%A225.05.27%E2%80%A2SATx%20Modules%20Development%20-%20raw.json) | `SAT_CONVOS_22` | 73 |  |  |
+| 2025-05-27 | 2025-05-27 | [SATx Current State Analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27%E2%80%A225.05.27%E2%80%A2SATx%20Current%20State%20Analysis%20-%20raw.json) | `SAT_CONVOS_22` | 8 |  |  |
+| 2025-05-27 | 2025-05-27 | [SATx Task List Summary - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27%E2%80%A225.05.27%E2%80%A2SATx%20Task%20List%20Summary%20-%20raw.json) | `SAT_CONVOS_22` | 10 |  |  |
 | 2025-05-27 | 2025-08-31 | [[+] SAT Archive Indexing Guide - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.27%E2%80%A225.08.31%E2%80%A2%5B%2B%5D%20SAT%20Archive%20Indexing%20Guide%20-%20raw.json) | `SAT_CONVOS_23` | 11 |  |  |
 | 2025-05-28 | 2025-05-28 | [Nabla and Dot Product - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28%E2%80%A225.05.28%E2%80%A2Nabla%20and%20Dot%20Product%20-%20raw.json) | `SAT_CONVOS_23` | 93 |  |  |
 | 2025-05-28 | 2025-05-31 | [[+] SAT Development Modes - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.28%E2%80%A225.05.31%E2%80%A2%5B%2B%5D%20SAT%20Development%20Modes%20-%20raw.json) | `SAT_CONVOS_23` | 32 |  |  |
 | 2025-05-28 | 2025-08-11 | [[+] ACTIVATOR HoloJesu - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.05.28%E2%80%A225.08.11%E2%80%A2%5B%2B%5D%20ACTIVATOR%20HoloJesu%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 230 |  |  |
 | 2025-05-28 | 2025-08-11 | [ACTIVATOR HoloJesu](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28%E2%80%A225.08.11%E2%80%A2ACTIVATOR%20HoloJesu%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 230 |  |  |
+| 2025-05-28 | 2025-05-28 | [TheDebateRages - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28%E2%80%A225.05.28%E2%80%A2TheDebateRages%20-%20raw%20%281%29.json) | `SAT_CONVOS_13` | 30 | D111 |  |
+| 2025-05-28 | 2025-05-28 | [TheDebateRages - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28%E2%80%A225.05.28%E2%80%A2TheDebateRages%20-%20raw.json) | `SAT_CONVOS_13` | 30 | D111 |  |
 | 2025-05-28 | 2025-05-31 | [Slow Walker Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.28%E2%80%A225.05.31%E2%80%A2Slow%20Walker%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 8 |  |  |
+| 2025-05-29 | 2025-05-31 | [SAT Buildout and Brainstorm - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.29%E2%80%A225.05.31%E2%80%A2SAT%20Buildout%20and%20Brainstorm%20-%20raw.json) | `SAT_CONVOS_22` | 28 |  |  |
 | 2025-05-30 | 2025-05-30 | [Mecha Quant MathProof Tasks](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30%E2%80%A225.05.30%E2%80%A2Mecha%20Quant%20MathProof%20Tasks%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 2 |  |  |
 | 2025-05-30 | 2025-05-30 | [Activator Modes Overhaul](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.30%E2%80%A225.05.30%E2%80%A2Activator%20Modes%20Overhaul%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 21 |  |  |
 | 2025-05-30 | 2025-05-31 | [[+] 4D Mode Structural Mapper - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.31%E2%80%A2%5B%2B%5D%204D%20Mode%20Structural%20Mapper%20-%20raw.json) | `SAT_CONVOS_23` | 77 |  |  |
 | 2025-05-30 | 2025-05-31 | [Display Modes Menu - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.31%E2%80%A2Display%20Modes%20Menu%20-%20raw.json) | `SAT_CONVOS_23` | 94 |  |  |
+| 2025-05-30 | 2025-05-31 | [Theta_4 Calculation Formula - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.30%E2%80%A225.05.31%E2%80%A2Theta_4%20Calculation%20Formula%20-%20raw.json) | `SAT_CONVOS_22` | 24 |  |  |
 | 2025-05-30 | 2025-05-31 | [BRST Charge Nilpotency Check - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.31%E2%80%A2BRST%20Charge%20Nilpotency%20Check%20-%20raw.json) | `SAT_CONVOS_23` | 96 |  |  |
+| 2025-05-30 | 2025-05-31 | [SlowWalker Q&A Session - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.30%E2%80%A225.05.31%E2%80%A2SlowWalker%20Q%26A%20Session%20-%20raw.json) | `SAT_CONVOS_13` | 107 |  |  |
+| 2025-05-30 | 2025-05-31 | [SAT Predictions and Experiments - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.30%E2%80%A225.05.31%E2%80%A2SAT%20Predictions%20and%20Experiments%20-%20raw.json) | `SAT_CONVOS_13` | 8 |  |  |
 | 2025-05-30 | 2025-05-31 | [[+] SAT Predictions and Experiments - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.31%E2%80%A2%5B%2B%5D%20SAT%20Predictions%20and%20Experiments%20-%20raw.json) | `SAT_CONVOS_23` | 8 |  |  |
 | 2025-05-30 | 2025-05-30 | [Mode List Request - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.30%E2%80%A2Mode%20List%20Request%20-%20raw.json) | `SAT_CONVOS_23` | 6 |  |  |
 | 2025-05-30 | 2025-05-30 | [[+] Mode List Request - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.30%E2%80%A225.05.30%E2%80%A2%5B%2B%5D%20Mode%20List%20Request%20-%20raw.json) | `SAT_CONVOS_23` | 6 |  |  |
 | 2025-05-31 | 2025-05-31 | [[+] Lagrangian Density Compilation - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.05.31%E2%80%A225.05.31%E2%80%A2%5B%2B%5D%20Lagrangian%20Density%20Compilation%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 4 |  |  |
 | 2025-05-31 | 2025-05-31 | [Activator Modes Overview - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31%E2%80%A225.05.31%E2%80%A2Activator%20Modes%20Overview%20-%20raw.json) | `SAT_CONVOS_23` | 37 |  |  |
+| 2025-05-31 | 2025-05-31 | [SAT QR and Z Setup - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.31%E2%80%A225.05.31%E2%80%A2SAT%20QR%20and%20Z%20Setup%20-%20raw.json) | `SAT_CONVOS_22` | 24 |  |  |
 | 2025-05-31 | 2025-05-31 | [[+] SAT QR and Z Setup - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31%E2%80%A225.05.31%E2%80%A2%5B%2B%5D%20SAT%20QR%20and%20Z%20Setup%20-%20raw.json) | `SAT_CONVOS_23` | 24 |  |  |
 | 2025-05-31 | 2025-06-01 | [Activator Modes List - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.31%E2%80%A225.06.01%E2%80%A2Activator%20Modes%20List%20-%20raw.json) | `SAT_CONVOS_23` | 197 |  |  |
 | 2025-05-31 | 2025-06-01 | [[+] Mathematical Bridges in SAT - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.05.31%E2%80%A225.06.01%E2%80%A2%5B%2B%5D%20Mathematical%20Bridges%20in%20SAT%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 113 |  |  |
 | 2025-06-01 | 2025-06-01 | [Activate Critic Mode - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01%E2%80%A225.06.01%E2%80%A2Activate%20Critic%20Mode%20-%20raw.json) | `SAT_CONVOS_23` | 17 |  |  |
-| 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_2` | 69 | D57 |  |
-| 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 69 | D57 |  |
+| 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_2` | 69 | D58 |  |
+| 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 69 | D58 |  |
 | 2025-06-01 | 2025-06-01 | [SAT Theory Progress Update](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.06.01%E2%80%A225.06.01%E2%80%A2SAT%20Theory%20Progress%20Update%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 52 |  |  |
 | 2025-06-01 | 2025-06-01 | [Data Search and Prediction Assessment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Data%20Search%20and%20Prediction%20Assessment%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 9 |  |  |
 | 2025-06-01 | 2025-06-01 | [Data Search and Prediction Assessment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.06.01%E2%80%A225.06.01%E2%80%A2Data%20Search%20and%20Prediction%20Assessment%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 9 |  |  |
@@ -220,11 +241,11 @@
 | 2025-06-06 | 2026-06-15 | [🤖 SAT O REWRITE SUPERVISOR](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06%E2%80%A226.06.15%E2%80%A2%F0%9F%A4%96%20SAT%20O%20REWRITE%20SUPERVISOR%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 227 |  |  |
 | 2025-06-06 | 2025-06-06 | [[+] AUDITOR O7 Module Hold - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.06.06%E2%80%A225.06.06%E2%80%A2%5B%2B%5D%20AUDITOR%20O7%20Module%20Hold%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 12 |  |  |
 | 2025-06-07 | 2025-06-08 | [Document Comparison and Integration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07%E2%80%A225.06.08%E2%80%A2Document%20Comparison%20and%20Integration%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 47 |  | 1 user/assistant messages lacked timestamps |
-| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI — raw (1).json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw%20%281%29.json) | `LONG_CONVOS` | 167 | D41 |  |
-| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 167 | D41 |  |
-| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 167 | D41 |  |
-| 2025-06-16 | 2025-06-16 | [Scene Analysis Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 97 | D104 |  |
-| 2025-06-16 | 2025-06-16 | [Scene Analysis Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 97 | D104 |  |
+| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI — raw (1).json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw%20%281%29.json) | `LONG_CONVOS` | 167 | D42 |  |
+| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 167 | D42 |  |
+| 2025-06-08 | 2025-08-31 | [Coherency Master OMNI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 167 | D42 |  |
+| 2025-06-16 | 2025-06-16 | [Scene Analysis Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 97 | D106 |  |
+| 2025-06-16 | 2025-06-16 | [Scene Analysis Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 97 | D106 |  |
 | 2025-06-16 | 2025-06-17 | [SAT.4D Module Compliance](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.06.16%E2%80%A225.06.17%E2%80%A2SAT.4D%20Module%20Compliance%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 159 |  |  |
 | 2025-06-18 | 2025-08-31 | [[+] O9 O10 String Embedding - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.06.18%E2%80%A225.08.31%E2%80%A2%5B%2B%5D%20O9%20O10%20String%20Embedding%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 194 |  |  |
 | 2025-06-18 | 2025-06-18 | [[+] 4D Mode Summary - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.06.18%E2%80%A225.06.18%E2%80%A2%5B%2B%5D%204D%20Mode%20Summary%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 36 |  |  |
@@ -244,8 +265,8 @@
 | 2025-06-23 | 2025-06-23 | [Audit Protocol Initiation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23%E2%80%A225.06.23%E2%80%A2Audit%20Protocol%20Initiation%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 2 |  |  |
 | 2025-06-27 | 2025-09-17 | [🏔️Interesting discovery shared 🗻](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.06.27%E2%80%A225.09.17%E2%80%A2%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 74 |  |  |
 | 2025-06-27 | 2025-09-17 | [🏔️Interesting discovery shared 🗻](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.06.27%E2%80%A225.09.17%E2%80%A2%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 74 |  |  |
-| 2025-06-29 | 2025-08-31 | [SAT Scattering Amplitude Checklist — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_17` | 35 | D40 |  |
-| 2025-06-29 | 2025-08-31 | [SAT Scattering Amplitude Checklist](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 35 | D40 |  |
+| 2025-06-29 | 2025-08-31 | [SAT Scattering Amplitude Checklist — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_17` | 35 | D41 |  |
+| 2025-06-29 | 2025-08-31 | [SAT Scattering Amplitude Checklist](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 35 | D41 |  |
 | 2025-07-01 | 2026-06-01 | [Podcast Analysis Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.07.01%E2%80%A226.06.01%E2%80%A2Podcast%20Analysis%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 14 |  | 1 user/assistant messages lacked timestamps |
 | 2025-07-03 | 2026-07-21 | [Museum Anecdote Network](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/25.07.03%E2%80%A226.07.21%E2%80%A2Museum%20Anecdote%20Network%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 216 |  |  |
 | 2025-07-11 | 2025-07-12 | [Capital de Colombia](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.07.11%E2%80%A225.07.12%E2%80%A2Capital%20de%20Colombia%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 72 |  |  |
@@ -254,8 +275,8 @@
 | 2025-07-14 | 2026-10-16 | [Storytelling Voice Analysis — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14%E2%80%A226.10.16%E2%80%A2Storytelling%20Voice%20Analysis%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 35 |  |  |
 | 2025-07-14 | 2026-10-16 | [Storytelling Voice Analysis](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14%E2%80%A226.10.16%E2%80%A2Storytelling%20Voice%20Analysis%20%E2%80%94%20raw.json) | `CONVOS_23` | 35 |  |  |
 | 2025-07-25 | 2026-09-12 | [Concise Persona Guidelines](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25%E2%80%A226.09.12%E2%80%A2Concise%20Persona%20Guidelines%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 26 |  |  |
-| 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 4 | D98 |  |
-| 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 4 | D98 |  |
+| 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 4 | D100 |  |
+| 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 4 | D100 |  |
 | 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 4 |  |  |
 | 2025-09-03 | 2025-09-03 | [Money-making plan options](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.03%E2%80%A225.09.03%E2%80%A2Money-making%20plan%20options%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 |  |  |
 | 2025-09-03 | 2025-09-03 | [[+] Camera build app guide - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.09.03%E2%80%A225.09.03%E2%80%A2%5B%2B%5D%20Camera%20build%20app%20guide%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 62 |  |  |
@@ -269,15 +290,15 @@
 | 2025-09-09 | 2025-09-09 | [Assistant's goal explanation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assistant%27s%20goal%20explanation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 76 |  |  |
 | 2025-09-09 | 2025-09-09 | [Mission in LEAN environment](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Mission%20in%20LEAN%20environment%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 78 |  |  |
 | 2025-09-09 | 2025-09-09 | [Initiate overseer](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Initiate%20overseer%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 |  |  |
-| 2025-09-09 | 2025-09-09 | [Assignment iteration plan — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 13 | D80 |  |
-| 2025-09-09 | 2025-09-09 | [Assignment iteration plan - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20-%20raw.json) | `SAT_CONVOS_23` | 13 | D80 |  |
+| 2025-09-09 | 2025-09-09 | [Assignment iteration plan — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 13 | D82 |  |
+| 2025-09-09 | 2025-09-09 | [Assignment iteration plan - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20-%20raw.json) | `SAT_CONVOS_23` | 13 | D82 |  |
 | 2025-09-09 | 2025-09-09 | [Assignment iteration plan](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 15 |  |  |
 | 2025-09-09 | 2025-09-09 | [Assignment queue creation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 32 |  |  |
-| 2025-09-09 | 2026-06-01 | [Assignment queue creation — raw .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw%20.txt) | `SAT_CONVOS_1` | 91 | D25 |  |
-| 2025-09-09 | 2026-06-01 | [Assignment queue creation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 91 | D25 |  |
+| 2025-09-09 | 2026-06-01 | [Assignment queue creation — raw .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw%20.txt) | `SAT_CONVOS_1` | 91 | D26 |  |
+| 2025-09-09 | 2026-06-01 | [Assignment queue creation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 91 | D26 |  |
 | 2025-09-10 | 2025-09-10 | [[+] Analysis of baseline metrics - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.09.10%E2%80%A225.09.10%E2%80%A2%5B%2B%5D%20Analysis%20of%20baseline%20metrics%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 83 |  |  |
-| 2025-09-10 | 2025-09-10 | [Analysis of baseline metrics — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 83 | D106 |  |
-| 2025-09-10 | 2025-09-10 | [Analysis of baseline metrics](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 83 | D106 |  |
+| 2025-09-10 | 2025-09-10 | [Analysis of baseline metrics — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 83 | D108 |  |
+| 2025-09-10 | 2025-09-10 | [Analysis of baseline metrics](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 83 | D108 |  |
 | 2025-09-10 | 2026-09-12 | [Optical setup breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10%E2%80%A226.09.12%E2%80%A2Optical%20setup%20breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 20 |  |  |
 | 2025-09-11 | 2025-09-11 | [[+] Conversation continuation options - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.09.11%E2%80%A225.09.11%E2%80%A2%5B%2B%5D%20Conversation%20continuation%20options%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 16 |  |  |
 | 2025-09-11 | 2025-09-11 | [Conversation continuation options](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.11%E2%80%A225.09.11%E2%80%A2Conversation%20continuation%20options%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 16 |  |  |
@@ -285,8 +306,8 @@
 | 2025-09-12 | 2025-09-12 | [Translate scientific equation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Translate%20scientific%20equation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 126 |  |  |
 | 2025-09-12 | 2025-09-12 | [Document assessment summary](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20summary%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 8 |  |  |
 | 2025-09-12 | 2025-09-12 | [Document assessment review](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20review%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 |  |  |
-| 2025-09-12 | 2025-09-12 | [Document assessment — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 6 | D101 |  |
-| 2025-09-12 | 2025-09-12 | [Document assessment](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 6 | D101 |  |
+| 2025-09-12 | 2025-09-12 | [Document assessment — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 6 | D103 |  |
+| 2025-09-12 | 2025-09-12 | [Document assessment](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 6 | D103 |  |
 | 2025-09-12 | 2025-09-12 | [Red team assessment — raw (2).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Red%20team%20assessment%20%E2%80%94%20raw%20%282%29.json) | `MOSTLY_EARLY_NLM` | 17 |  |  |
 | 2025-09-12 | 2025-09-12 | [Red team assessment review](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Red%20team%20assessment%20review%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 10 |  |  |
 | 2025-09-12 | 2025-09-12 | [Current model progress](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Current%20model%20progress%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 20 |  |  |
@@ -311,27 +332,28 @@
 | 2025-09-13 | 2026-09-12 | [Credulity meter placement](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13%E2%80%A226.09.12%E2%80%A2Credulity%20meter%20placement%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 22 |  |  |
 | 2025-09-13 | 2025-09-13 | [Lagrangian definitions summary](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Lagrangian%20definitions%20summary%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 83 |  |  |
 | 2025-09-13 | 2025-09-13 | [Lagrangian definitions summary - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Lagrangian%20definitions%20summary%20-%20raw.json) | `SAT_CONVOS_23` | 83 |  |  |
-| 2025-09-13 | 2025-09-13 | [Next steps in model-building — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 75 | D102 |  |
-| 2025-09-13 | 2025-09-13 | [Next steps in model-building](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 75 | D102 |  |
-| 2025-09-13 | 2025-09-13 | [Next steps in model-building - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20-%20raw.json) | `SAT_CONVOS_23` | 75 | D102 |  |
-| 2025-09-13 | 2025-09-13 | [Assessment of SAT model](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 14 | D61 |  |
-| 2025-09-13 | 2025-09-13 | [Assessment of SAT model - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20-%20raw.json) | `SAT_CONVOS_23` | 14 | D61 |  |
-| 2025-09-13 | 2025-09-13 | [Jargon removal request](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 50 | D45 |  |
-| 2025-09-13 | 2025-09-13 | [Jargon removal request - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20-%20raw.json) | `SAT_CONVOS_23` | 50 | D45 |  |
+| 2025-09-13 | 2025-09-13 | [Next steps in model-building — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 75 | D104 |  |
+| 2025-09-13 | 2025-09-13 | [Next steps in model-building](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 75 | D104 |  |
+| 2025-09-13 | 2025-09-13 | [Next steps in model-building - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20-%20raw.json) | `SAT_CONVOS_23` | 75 | D104 |  |
+| 2025-09-13 | 2025-09-13 | [Assessment of SAT model](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 14 | D62 |  |
+| 2025-09-13 | 2025-09-13 | [Assessment of SAT model - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20-%20raw.json) | `SAT_CONVOS_23` | 14 | D62 |  |
+| 2025-09-13 | 2025-09-13 | [Jargon removal request](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 50 | D46 |  |
+| 2025-09-13 | 2025-09-13 | [Jargon removal request - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20-%20raw.json) | `SAT_CONVOS_23` | 50 | D46 |  |
 | 2025-09-13 | 2025-09-14 | [SAT and Blockwave overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.13%E2%80%A225.09.14%E2%80%A2SAT%20and%20Blockwave%20overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 322 |  |  |
 | 2025-09-14 | 2025-09-14 | [Clarify TOE meaning](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A225.09.14%E2%80%A2Clarify%20TOE%20meaning%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 7 |  |  |
 | 2025-09-14 | 2026-09-12 | [Grade ΛCDM rubric](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A226.09.12%E2%80%A2Grade%20%CE%9BCDM%20rubric%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 48 |  |  |
-| 2025-09-15 | 2025-09-15 | [Request for document analysis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Request%20for%20document%20analysis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 8 |  |  |
+| 2025-09-15 | 2025-09-15 | [Request for document analysis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Request%20for%20document%20analysis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 8 | D23 |  |
+| 2025-09-15 | 2025-09-15 | [Request for document analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.09.15%E2%80%A225.09.15%E2%80%A2Request%20for%20document%20analysis%20-%20raw.json) | `SAT_CONVOS_22` | 8 | D23 |  |
 | 2025-09-15 | 2025-09-15 | [File access confirmation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2File%20access%20confirmation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 6 |  |  |
 | 2025-09-15 | 2025-09-15 | [File access confirmation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2File%20access%20confirmation%20-%20raw.json) | `SAT_CONVOS_23` | 6 |  |  |
-| 2025-09-15 | 2025-09-15 | [Lagrangian derivations explained](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 7 | D76 |  |
-| 2025-09-15 | 2025-09-15 | [Lagrangian derivations explained - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20-%20raw.json) | `SAT_CONVOS_23` | 7 | D76 |  |
+| 2025-09-15 | 2025-09-15 | [Lagrangian derivations explained](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 7 | D78 |  |
+| 2025-09-15 | 2025-09-15 | [Lagrangian derivations explained - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20-%20raw.json) | `SAT_CONVOS_23` | 7 | D78 |  |
 | 2025-09-15 | 2025-09-15 | [SAT Lagrangian explanation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2SAT%20Lagrangian%20explanation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 |  |  |
 | 2025-09-15 | 2025-09-15 | [SAT Lagrangian formula](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2SAT%20Lagrangian%20formula%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 7 |  |  |
 | 2025-09-15 | 2025-09-16 | [Core Lagrangian naming](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.16%E2%80%A2Core%20Lagrangian%20naming%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 148 |  |  |
 | 2025-09-16 | 2025-09-18 | [SEAN](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16%E2%80%A225.09.18%E2%80%A2SEAN%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 374 |  |  |
-| 2025-09-16 | 2025-09-16 | [Document access confirmation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 | D34 |  |
-| 2025-09-16 | 2025-09-16 | [Document access confirmation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20-%20raw.json) | `SAT_CONVOS_23` | 2 | D34 |  |
+| 2025-09-16 | 2025-09-16 | [Document access confirmation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 | D35 |  |
+| 2025-09-16 | 2025-09-16 | [Document access confirmation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20-%20raw.json) | `SAT_CONVOS_23` | 2 | D35 |  |
 | 2025-09-16 | 2026-06-20 | [[A] 🧶🧱SAT](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.09.16%E2%80%A226.06.20%E2%80%A2%5BA%5D%20%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 724 |  |  |
 | 2025-09-16 | 2026-06-20 | [🧶🧱SAT](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16%E2%80%A226.06.20%E2%80%A2%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 770 |  |  |
 | 2025-09-16 | 2025-09-16 | [Math checking request](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16%E2%80%A225.09.16%E2%80%A2Math%20checking%20request%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 33 |  |  |
@@ -352,33 +374,33 @@
 | 2025-09-19 | 2025-10-06 | [Write about epistemology](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.19%E2%80%A225.10.06%E2%80%A2Write%20about%20epistemology%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 642 |  |  |
 | 2025-09-23 | 2025-09-23 | [[+] LaTeX diagram compilation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.23%E2%80%A225.09.23%E2%80%A2%5B%2B%5D%20LaTeX%20diagram%20compilation%20-%20raw.json) | `SAT_CONVOS_23` | 15 |  |  |
 | 2025-09-26 | 2025-09-27 | [OS-00 world overview - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 240 |  |  |
-| 2025-09-26 | 2025-09-27 | [2 OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 240 | D96 |  |
-| 2025-09-26 | 2025-09-27 | [OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 240 | D36 |  |
-| 2025-09-26 | 2025-09-27 | [OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_3` | 240 | D36 |  |
-| 2025-09-26 | 2025-09-27 | [2 OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_6` | 240 | D96 |  |
+| 2025-09-26 | 2025-09-27 | [2 OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 240 | D98 |  |
+| 2025-09-26 | 2025-09-27 | [OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 240 | D37 |  |
+| 2025-09-26 | 2025-09-27 | [OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_3` | 240 | D37 |  |
+| 2025-09-26 | 2025-09-27 | [2 OS-00 world overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt) | `SAT_CONVOS_6` | 240 | D98 |  |
 | 2025-09-26 | 2025-10-04 | [Prompt Puller - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 146 |  |  |
-| 2025-09-26 | 2025-10-04 | [Prompt Puller](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 146 | D114 |  |
-| 2025-09-26 | 2025-10-04 | [Prompt Puller](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt) | `SAT_CONVOS_3` | 146 | D114 |  |
+| 2025-09-26 | 2025-10-04 | [Prompt Puller](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 146 | D117 |  |
+| 2025-09-26 | 2025-10-04 | [Prompt Puller](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt) | `SAT_CONVOS_3` | 146 | D117 |  |
 | 2025-09-26 | 2025-09-26 | [Monorail Schede](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 |  |  |
-| 2025-09-26 | 2025-09-26 | [Monorail Schede](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 4 | D116 |  |
-| 2025-09-26 | 2025-09-26 | [Monorail Schede](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt) | `SAT_CONVOS_5` | 4 | D116 |  |
+| 2025-09-26 | 2025-09-26 | [Monorail Schede](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 4 | D119 |  |
+| 2025-09-26 | 2025-09-26 | [Monorail Schede](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt) | `SAT_CONVOS_5` | 4 | D119 |  |
 | 2025-09-27 | 2025-09-27 | [Image overlay blending](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 64 | D15 |  |
 | 2025-09-27 | 2025-09-27 | [Image overlay blending](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt) | `SAT_CONVOS_5` | 64 | D15 |  |
-| 2025-09-27 | 2025-09-28 | [Script prompt nesting](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 178 | D44 |  |
-| 2025-09-27 | 2025-09-28 | [Script prompt nesting](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt) | `SAT_CONVOS_4` | 178 | D44 |  |
+| 2025-09-27 | 2025-09-28 | [Script prompt nesting](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt) | `SAT_CONVOS_2/OS-00` | 178 | D45 |  |
+| 2025-09-27 | 2025-09-28 | [Script prompt nesting](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt) | `SAT_CONVOS_4` | 178 | D45 |  |
 | 2025-09-30 | 2025-09-30 | [Spec sheet for cameras](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.30%E2%80%A225.09.30%E2%80%A2Spec%20sheet%20for%20cameras%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 8 |  |  |
 | 2025-10-06 | 2025-10-06 | [Resume cleanup and formatting](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06%E2%80%A225.10.06%E2%80%A2Resume%20cleanup%20and%20formatting%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 12 |  |  |
 | 2025-10-07 | 2026-09-12 | [Interstellar object A11pl3Z](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 160 |  |  |
-| 2025-10-07 | 2026-09-12 | [Interstellar object A11pl3Z](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 160 | D26 |  |
-| 2025-10-07 | 2026-09-12 | [Interstellar object A11pl3Z](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 160 | D26 |  |
+| 2025-10-07 | 2026-09-12 | [Interstellar object A11pl3Z](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 160 | D27 |  |
+| 2025-10-07 | 2026-09-12 | [Interstellar object A11pl3Z](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 160 | D27 |  |
 | 2025-10-08 | 2026-09-28 | [Repurposeable narrative skeleton — raw.txt.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.08%E2%80%A226.09.28%E2%80%A2Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.txt.txt) | `30SEP26_DUMP` | 41 |  |  |
 | 2025-10-08 | 2026-09-28 | [Repurposeable narrative skeleton](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.08%E2%80%A226.09.28%E2%80%A2Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 54 |  |  |
 | 2025-10-08 | 2025-10-08 | [Vignette to modular plan](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.08%E2%80%A225.10.08%E2%80%A2Vignette%20to%20modular%20plan%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 |  |  |
 | 2025-10-08 | 2025-10-08 | [Vignette expansion process](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.08%E2%80%A225.10.08%E2%80%A2Vignette%20expansion%20process%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 23 |  |  |
 | 2025-10-14 | 2025-10-14 | [New chat](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.14%E2%80%A225.10.14%E2%80%A2New%20chat%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 5 |  |  |
 | 2025-10-14 | 2025-10-14 | [Corpus overview](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.14%E2%80%A225.10.14%E2%80%A2Corpus%20overview%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 68 |  |  |
-| 2025-10-19 | 2025-10-19 | [Full action definitions](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 29 | D43 |  |
-| 2025-10-19 | 2025-10-19 | [Full action definitions - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20-%20raw.json) | `SAT_CONVOS_23` | 29 | D43 |  |
+| 2025-10-19 | 2025-10-19 | [Full action definitions](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 29 | D44 |  |
+| 2025-10-19 | 2025-10-19 | [Full action definitions - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20-%20raw.json) | `SAT_CONVOS_23` | 29 | D44 |  |
 | 2025-10-19 | 2025-10-19 | [[+] Full action definitions - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Full%20action%20definitions%20-%20raw.json) | `SAT_CONVOS_23` | 29 |  |  |
 | 2025-10-19 | 2025-10-19 | [Blockwave UV Completeness](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Blockwave%20UV%20Completeness%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 | D14 |  |
 | 2025-10-19 | 2025-10-19 | [Blockwave UV Completeness - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Blockwave%20UV%20Completeness%20-%20raw.json) | `SAT_CONVOS_23` | 2 | D14 |  |
@@ -386,21 +408,21 @@
 | 2025-10-19 | 2025-10-19 | [Blockwave to relativity proof](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Blockwave%20to%20relativity%20proof%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 12 |  |  |
 | 2025-10-19 | 2025-10-19 | [[+] Blockwave to relativity proof - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Blockwave%20to%20relativity%20proof%20-%20raw.json) | `SAT_CONVOS_23` | 12 |  |  |
 | 2025-10-19 | 2025-10-19 | [SAT features overview](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2SAT%20features%20overview%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 10 |  |  |
-| 2025-10-19 | 2025-10-19 | [Particle geometry analysis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 28 | D113 |  |
-| 2025-10-19 | 2025-10-19 | [Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20-%20raw.json) | `SAT_CONVOS_23` | 28 | D113 |  |
-| 2025-10-19 | 2025-10-19 | [[+] Particle geometry analysis - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw%20%281%29.json) | `SAT_CONVOS_23` | 28 | D73 |  |
-| 2025-10-19 | 2025-10-19 | [[+] Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw.json) | `SAT_CONVOS_23` | 28 | D73 |  |
+| 2025-10-19 | 2025-10-19 | [Particle geometry analysis](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 28 | D116 |  |
+| 2025-10-19 | 2025-10-19 | [Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20-%20raw.json) | `SAT_CONVOS_23` | 28 | D116 |  |
+| 2025-10-19 | 2025-10-19 | [[+] Particle geometry analysis - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw%20%281%29.json) | `SAT_CONVOS_23` | 28 | D75 |  |
+| 2025-10-19 | 2025-10-19 | [[+] Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw.json) | `SAT_CONVOS_23` | 28 | D75 |  |
 | 2025-10-19 | 2025-10-19 | [SAT and ST comparison](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2SAT%20and%20ST%20comparison%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 2 |  |  |
 | 2025-10-19 | 2025-10-19 | [[+] SAT and ST comparison - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20SAT%20and%20ST%20comparison%20-%20raw.json) | `SAT_CONVOS_23` | 2 |  |  |
-| 2025-10-19 | 2025-10-22 | [Blockwave Lagrangian formula](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 77 | D38 |  |
-| 2025-10-19 | 2025-10-22 | [Blockwave Lagrangian formula - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20-%20raw.json) | `SAT_CONVOS_23` | 77 | D38 |  |
+| 2025-10-19 | 2025-10-22 | [Blockwave Lagrangian formula](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 77 | D39 |  |
+| 2025-10-19 | 2025-10-22 | [Blockwave Lagrangian formula - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20-%20raw.json) | `SAT_CONVOS_23` | 77 | D39 |  |
 | 2025-10-19 | 2025-10-19 | [Project folder index](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Project%20folder%20index%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 27 |  |  |
 | 2025-10-22 | 2025-10-22 | [Consciousness as geometry](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Consciousness%20as%20geometry%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 6 |  |  |
 | 2025-10-22 | 2025-10-22 | [[+] Consciousness as geometry - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2%5B%2B%5D%20Consciousness%20as%20geometry%20-%20raw.json) | `SAT_CONVOS_23` | 6 |  |  |
-| 2025-10-22 | 2025-10-22 | [Explaining constants verbally](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 46 | D58 |  |
-| 2025-10-22 | 2025-10-22 | [Explaining constants verbally - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20-%20raw.json) | `SAT_CONVOS_23` | 46 | D58 |  |
-| 2025-10-22 | 2025-10-22 | [Mind as core sample continuation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 | D95 |  |
-| 2025-10-22 | 2025-10-22 | [Mind as core sample continuation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20-%20raw.json) | `SAT_CONVOS_23` | 4 | D95 |  |
+| 2025-10-22 | 2025-10-22 | [Explaining constants verbally](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 46 | D59 |  |
+| 2025-10-22 | 2025-10-22 | [Explaining constants verbally - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20-%20raw.json) | `SAT_CONVOS_23` | 46 | D59 |  |
+| 2025-10-22 | 2025-10-22 | [Mind as core sample continuation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 | D97 |  |
+| 2025-10-22 | 2025-10-22 | [Mind as core sample continuation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20-%20raw.json) | `SAT_CONVOS_23` | 4 | D97 |  |
 | 2025-10-22 | 2025-10-22 | [Index project folder](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Index%20project%20folder%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 5 |  |  |
 | 2025-10-22 | 2025-10-22 | [Job for today](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Job%20for%20today%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 89 |  |  |
 | 2025-10-24 | 2026-01-22 | [Mass in SAT framework — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.24%E2%80%A226.01.22%E2%80%A2Mass%20in%20SAT%20framework%20%E2%80%94%20raw%20%281%29.json) | `MOSTLY_EARLY_NLM` | 130 |  |  |
@@ -413,22 +435,22 @@
 | 2025-10-29 | 2025-10-29 | [SATO-BLOC FULL LEANCHECK](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29%E2%80%A225.10.29%E2%80%A2SATO-BLOC%20FULL%20LEANCHECK%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 121 |  |  |
 | 2025-10-29 | 2025-10-29 | [String SAT filament model](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29%E2%80%A225.10.29%E2%80%A2String%20SAT%20filament%20model%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 16 |  |  |
 | 2025-10-29 | 2025-10-29 | [String SAT filament model](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2String%20SAT%20filament%20model%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 16 |  |  |
-| 2025-10-29 | 2025-10-29 | [Theory of Everything_](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 11 | D68 |  |
-| 2025-10-29 | 2025-10-29 | [Theory of Everything_](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 11 | D68 |  |
+| 2025-10-29 | 2025-10-29 | [Theory of Everything_](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 11 | D69 |  |
+| 2025-10-29 | 2025-10-29 | [Theory of Everything_](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 11 | D69 |  |
 | 2025-10-29 | 2026-09-12 | [Lean 4 path fix](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29%E2%80%A226.09.12%E2%80%A2Lean%204%20path%20fix%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 51 |  |  |
 | 2025-10-29 | 2025-10-29 | [Theory review and feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20review%20and%20feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 4 |  |  |
 | 2025-10-29 | 2025-10-29 | [SAT theory overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29%E2%80%A225.10.29%E2%80%A2SAT%20theory%20overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 10 |  |  |
 | 2025-10-29 | 2025-10-29 | [Theory name suggestions](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20name%20suggestions%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2025-10-29 | 2025-10-30 | [Exploring inspiration together](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29%E2%80%A225.10.30%E2%80%A2Exploring%20inspiration%20together%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 131 |  |  |
 | 2025-10-29 | 2025-10-30 | [Exploring inspiration together](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29%E2%80%A225.10.30%E2%80%A2Exploring%20inspiration%20together%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 131 |  |  |
-| 2025-10-30 | 2026-06-01 | [Fundamental Intuitions of SAT](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 22 | D55 |  |
-| 2025-10-30 | 2026-06-01 | [Fundamental Intuitions of SAT — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_11` | 22 | D55 |  |
+| 2025-10-30 | 2026-06-01 | [Fundamental Intuitions of SAT](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 22 | D56 |  |
+| 2025-10-30 | 2026-06-01 | [Fundamental Intuitions of SAT — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_11` | 22 | D56 |  |
 | 2025-10-30 | 2026-06-01 | [Fundamental Intuitions of SAT — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_11` | 22 |  |  |
 | 2025-10-30 | 2026-06-01 | [Independent theories comparison](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A226.06.01%E2%80%A2Independent%20theories%20comparison%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 59 |  |  |
 | 2025-10-30 | 2026-06-01 | [Independent theories comparison — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Independent%20theories%20comparison%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_11` | 59 |  |  |
 | 2025-10-30 | 2026-06-01 | [Independent theories comparison](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Independent%20theories%20comparison%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 59 |  |  |
-| 2025-10-30 | 2025-10-30 | [Correct LaTeX markup](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 | D77 |  |
-| 2025-10-30 | 2025-10-30 | [Correct LaTeX markup](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 | D77 |  |
+| 2025-10-30 | 2025-10-30 | [Correct LaTeX markup](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 | D79 |  |
+| 2025-10-30 | 2025-10-30 | [Correct LaTeX markup](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 | D79 |  |
 | 2025-10-31 | 2025-10-31 | [Latex correction guide](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31%E2%80%A225.10.31%E2%80%A2Latex%20correction%20guide%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 45 |  |  |
 | 2025-10-31 | 2025-10-31 | [Latex fix suggestions](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31%E2%80%A225.10.31%E2%80%A2Latex%20fix%20suggestions%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2025-10-31 | 2025-10-31 | [Reaction to manuscript submission](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31%E2%80%A225.10.31%E2%80%A2Reaction%20to%20manuscript%20submission%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 38 |  |  |
@@ -437,19 +459,19 @@
 | 2025-11-05 | 2025-11-05 | [Alien math possibilities](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.05%E2%80%A225.11.05%E2%80%A2Alien%20math%20possibilities%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 74 |  |  |
 | 2025-11-05 | 2025-11-05 | [Alien math possibilities](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.05%E2%80%A225.11.05%E2%80%A2Alien%20math%20possibilities%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 74 |  |  |
 | 2025-11-06 | 2025-11-06 | [Edit academic introduction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.06%E2%80%A225.11.06%E2%80%A2Edit%20academic%20introduction%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
-| 2025-11-08 | 2025-11-08 | [OCR analysis and decoding](../DEVELOPMENT_FULL_CONVOS/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json) | `.` | 16 | D94 |  |
-| 2025-11-08 | 2025-11-08 | [OCR analysis and decoding](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 16 | D94 |  |
+| 2025-11-08 | 2025-11-08 | [OCR analysis and decoding](../DEVELOPMENT_FULL_CONVOS/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json) | `.` | 16 | D96 |  |
+| 2025-11-08 | 2025-11-08 | [OCR analysis and decoding](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 16 | D96 |  |
 | 2025-11-15 | 2025-11-15 | [BibTeX entry handling](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.15%E2%80%A225.11.15%E2%80%A2BibTeX%20entry%20handling%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
 | 2025-11-16 | 2026-09-12 | [Morsefish meaning exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16%E2%80%A226.09.12%E2%80%A2Morsefish%20meaning%20exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 83 |  |  |
 | 2025-11-16 | 2026-09-12 | [Functional equivalence principle](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16%E2%80%A226.09.12%E2%80%A2Functional%20equivalence%20principle%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 54 |  |  |
-| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `.` | 334 | D29 |  |
-| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 334 | D29 |  |
-| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 334 | D29 |  |
+| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `.` | 334 | D30 |  |
+| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 334 | D30 |  |
+| 2025-11-20 | 2026-09-12 | [Circle degree radian equality](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 334 | D30 |  |
 | 2025-12-02 | 2026-06-01 | [Podcast feedback summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.12.02%E2%80%A226.06.01%E2%80%A2Podcast%20feedback%20summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 12 |  | 1 user/assistant messages lacked timestamps |
 | 2025-12-03 | 2025-12-03 | [Doo-wop duet prompt  .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.12.03%E2%80%A225.12.03%E2%80%A2Doo-wop%20duet%20prompt%20%20.txt) | `SAT_CONVOS_1` | 17 |  |  |
 | 2025-12-03 | 2025-12-03 | [Musical taste analysis  .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.03%E2%80%A225.12.03%E2%80%A2Musical%20taste%20analysis%20%20.txt) | `SAT_CONVOS_5` | 34 |  |  |
-| 2025-12-08 | 2026-06-01 | [SAT theory clarification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_5` | 816 | D42 | 1 user/assistant messages lacked timestamps |
-| 2025-12-08 | 2026-06-01 | [SAT theory clarification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 816 | D42 | 1 user/assistant messages lacked timestamps |
+| 2025-12-08 | 2026-06-01 | [SAT theory clarification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_5` | 816 | D43 | 1 user/assistant messages lacked timestamps |
+| 2025-12-08 | 2026-06-01 | [SAT theory clarification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 816 | D43 | 1 user/assistant messages lacked timestamps |
 | 2025-12-21 | 2026-06-01 | [Conversation topics suggestions](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.21%E2%80%A226.06.01%E2%80%A2Conversation%20topics%20suggestions%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 144 |  |  |
 | 2025-12-22 | 2026-06-01 | [Theory discussion response](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22%E2%80%A226.06.01%E2%80%A2Theory%20discussion%20response%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 42 | D04 |  |
 | 2025-12-22 | 2026-06-01 | [Theory discussion response](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.12.22%E2%80%A226.06.01%E2%80%A2Theory%20discussion%20response%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 42 | D04 |  |
@@ -492,11 +514,11 @@
 | 2026-02-28 | 2026-02-28 | [SAT Framework Evaluation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.02.28%E2%80%A226.02.28%E2%80%A2SAT%20Framework%20Evaluation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 6 |  |  |
 | 2026-03-01 | 2026-09-12 | [[A] Scaling Postulates Testing](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.01%E2%80%A226.09.12%E2%80%A2%5BA%5D%20Scaling%20Postulates%20Testing%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 141 |  |  |
 | 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 141 |  |  |
-| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_18` | 141 | D110 |  |
-| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_21` | 141 | D110 |  |
-| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.txt) | `SAT_CONVOS_21` | 141 | D110 |  |
-| 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 4 | D47 |  |
-| 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 4 | D47 |  |
+| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_18` | 141 | D113 |  |
+| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_21` | 141 | D113 |  |
+| 2026-03-01 | 2026-09-12 | [Scaling Postulates Testing — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.txt) | `SAT_CONVOS_21` | 141 | D113 |  |
+| 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 4 | D48 |  |
+| 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 4 | D48 |  |
 | 2026-03-02 | 2026-06-11 | [Testing a Theory of Everything](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.02%E2%80%A226.06.11%E2%80%A2Testing%20a%20Theory%20of%20Everything%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 469 |  |  |
 | 2026-03-02 | 2026-09-12 | [[A] Testing a Theory of Everything](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.02%E2%80%A226.09.12%E2%80%A2%5BA%5D%20Testing%20a%20Theory%20of%20Everything%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 477 |  |  |
 | 2026-03-02 | 2026-09-12 | [Testing a Theory of Everything](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02%E2%80%A226.09.12%E2%80%A2Testing%20a%20Theory%20of%20Everything%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 477 |  |  |
@@ -516,12 +538,12 @@
 | 2026-03-07 | 2026-09-12 | [Universal Indicatrix Framework — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07%E2%80%A226.09.12%E2%80%A2Universal%20Indicatrix%20Framework%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_16` | 19 |  |  |
 | 2026-03-07 | 2026-09-12 | [QM and Relativity Connection](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07%E2%80%A226.09.12%E2%80%A2QM%20and%20Relativity%20Connection%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 35 |  |  |
 | 2026-03-07 | 2026-09-12 | [Sensorium Inversion Thought Experiment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07%E2%80%A226.09.12%E2%80%A2Sensorium%20Inversion%20Thought%20Experiment%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 25 |  |  |
-| 2026-03-08 | 2026-03-08 | [Electron Paths in Chips — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 80 | D112 |  |
-| 2026-03-08 | 2026-03-08 | [Electron Paths in Chips](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 80 | D112 |  |
+| 2026-03-08 | 2026-03-08 | [Electron Paths in Chips — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 80 | D115 |  |
+| 2026-03-08 | 2026-03-08 | [Electron Paths in Chips](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 80 | D115 |  |
 | 2026-03-08 | 2026-09-12 | [Electron Paths in Chips](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08%E2%80%A226.09.12%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 91 |  |  |
 | 2026-03-09 | 2026-03-09 | [Physics Theory Sandbox](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.09%E2%80%A226.03.09%E2%80%A2Physics%20Theory%20Sandbox%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 186 |  | 1 user/assistant messages lacked timestamps |
-| 2026-03-11 | 2026-03-11 | [Methodology Review Request — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 74 | D39 |  |
-| 2026-03-11 | 2026-03-11 | [Methodology Review Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 74 | D39 |  |
+| 2026-03-11 | 2026-03-11 | [Methodology Review Request — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 74 | D40 |  |
+| 2026-03-11 | 2026-03-11 | [Methodology Review Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 74 | D40 |  |
 | 2026-03-12 | 2026-06-01 | [[A] Physical Reality Evaluation](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.12%E2%80%A226.06.01%E2%80%A2%5BA%5D%20Physical%20Reality%20Evaluation%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 109 |  |  |
 | 2026-03-12 | 2026-06-01 | [Physical Reality Evaluation — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12%E2%80%A226.06.01%E2%80%A2Physical%20Reality%20Evaluation%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_2` | 109 |  |  |
 | 2026-03-12 | 2026-06-01 | [Physical Reality Evaluation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.12%E2%80%A226.06.01%E2%80%A2Physical%20Reality%20Evaluation%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_2` | 109 |  |  |
@@ -533,8 +555,8 @@
 | 2026-03-13 | 2026-09-12 | [SAT Unified Field Theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13%E2%80%A226.09.12%E2%80%A2SAT%20Unified%20Field%20Theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 18 |  |  |
 | 2026-03-16 | 2026-03-16 | [Procedure Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.16%E2%80%A226.03.16%E2%80%A2Procedure%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 17 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-16 | 2026-03-16 | [Whirligig SAT Framework](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.16%E2%80%A226.03.16%E2%80%A2Whirligig%20SAT%20Framework%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 7 |  | 1 user/assistant messages lacked timestamps |
-| 2026-03-21 | 2026-04-24 | [Scientific Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_1` | 55 | D83 | 1 user/assistant messages lacked timestamps |
-| 2026-03-21 | 2026-04-24 | [Scientific Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 55 | D83 | 1 user/assistant messages lacked timestamps |
+| 2026-03-21 | 2026-04-24 | [Scientific Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_1` | 55 | D85 | 1 user/assistant messages lacked timestamps |
+| 2026-03-21 | 2026-04-24 | [Scientific Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 55 | D85 | 1 user/assistant messages lacked timestamps |
 | 2026-03-21 | 2026-03-21 | [Paper Restructuring Plan](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.21%E2%80%A226.03.21%E2%80%A2Paper%20Restructuring%20Plan%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 50 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-21 | 2026-03-21 | [Peer Review Process](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.21%E2%80%A226.03.21%E2%80%A2Peer%20Review%20Process%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 33 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-21 | 2026-03-21 | [Draft Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.03.21%E2%80%A2Draft%20Paper%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 12 |  | 1 user/assistant messages lacked timestamps |
@@ -561,8 +583,8 @@
 | 2026-05-05 | 2026-09-12 | [4D Topological Model Assessment — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05%E2%80%A226.09.12%E2%80%A24D%20Topological%20Model%20Assessment%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_15` | 43 |  |  |
 | 2026-05-05 | 2026-09-12 | [4D Topological Model Assessment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05%E2%80%A226.09.12%E2%80%A24D%20Topological%20Model%20Assessment%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 43 |  |  |
 | 2026-05-05 | 2026-06-01 | [Gravitational Changes and Motion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 104 |  |  |
-| 2026-05-05 | 2026-06-01 | [Gravitational Changes and Motion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_5` | 115 | D91 | 1 user/assistant messages lacked timestamps |
-| 2026-05-05 | 2026-06-01 | [Gravitational Changes and Motion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 115 | D91 | 1 user/assistant messages lacked timestamps |
+| 2026-05-05 | 2026-06-01 | [Gravitational Changes and Motion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_5` | 115 | D93 | 1 user/assistant messages lacked timestamps |
+| 2026-05-05 | 2026-06-01 | [Gravitational Changes and Motion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 115 | D93 | 1 user/assistant messages lacked timestamps |
 | 2026-05-20 | 2026-05-20 | [Physics Equation Encoding Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.20%E2%80%A226.05.20%E2%80%A2Physics%20Equation%20Encoding%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 150 |  | 1 user/assistant messages lacked timestamps |
 | 2026-05-21 | 2026-05-21 | [Blowing up Suno](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.21%E2%80%A226.05.21%E2%80%A2Blowing%20up%20Suno%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 50 |  |  |
 | 2026-05-24 | 2026-05-24 | [[A] Photon Corkscrew Trajectory](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.05.24%E2%80%A226.05.24%E2%80%A2%5BA%5D%20Photon%20Corkscrew%20Trajectory%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 8 |  |  |
@@ -576,19 +598,19 @@
 | 2026-05-30 | 2026-05-30 | [[A] Breathing Filament Plate](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.05.30%E2%80%A226.05.30%E2%80%A2%5BA%5D%20Breathing%20Filament%20Plate%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 38 |  |  |
 | 2026-05-31 | 2026-09-01 | [🏯 SAT GITKEEPER](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.05.31%E2%80%A226.09.01%E2%80%A2%F0%9F%8F%AF%20SAT%20GITKEEPER%20%E2%80%94%20raw.txt) | `SAT_CONVOS_10` | 1579 |  |  |
 | 2026-05-31 | 2026-06-02 | [GitHub Archive Review](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2GitHub%20Archive%20Review%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 745 |  |  |
-| 2026-05-31 | 2026-06-02 | [xGitHub Archive Review](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt) | `LONG_CONVOS` | 799 | D64 |  |
-| 2026-05-31 | 2026-06-02 | [xGitHub Archive Review](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 799 | D64 |  |
+| 2026-05-31 | 2026-06-02 | [xGitHub Archive Review](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt) | `LONG_CONVOS` | 799 | D65 |  |
+| 2026-05-31 | 2026-06-02 | [xGitHub Archive Review](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 799 | D65 |  |
 | 2026-05-31 | 2026-05-31 | [[A] Muon Properties and Behavior](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.05.31%E2%80%A226.05.31%E2%80%A2%5BA%5D%20Muon%20Properties%20and%20Behavior%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 10 |  |  |
-| 2026-06-01 | 2026-06-01 | [SAT Theory Archive Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_2` | 7 | D78 |  |
-| 2026-06-01 | 2026-06-01 | [SAT Theory Archive Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 7 | D78 |  |
+| 2026-06-01 | 2026-06-01 | [SAT Theory Archive Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_2` | 7 | D80 |  |
+| 2026-06-01 | 2026-06-01 | [SAT Theory Archive Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 7 | D80 |  |
 | 2026-06-01 | 2026-06-03 | [[B] SATNet and Neural Networks](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.01%E2%80%A226.06.03%E2%80%A2%5BB%5D%20SATNet%20and%20Neural%20Networks%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 46 |  |  |
 | 2026-06-01 | 2026-06-03 | [SATNet and Neural Networks](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.01%E2%80%A226.06.03%E2%80%A2SATNet%20and%20Neural%20Networks%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 53 |  |  |
 | 2026-06-03 | 2026-06-03 | [[A] Fringe Theory Prediction Outcomes](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.03%E2%80%A226.06.03%E2%80%A2%5BA%5D%20Fringe%20Theory%20Prediction%20Outcomes%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 57 |  |  |
 | 2026-06-04 | 2026-06-04 | [String Landscape in Theory](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.04%E2%80%A226.06.04%E2%80%A2String%20Landscape%20in%20Theory%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 14 |  |  |
 | 2026-06-04 | 2026-06-04 | [String Landscape in Theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.04%E2%80%A226.06.04%E2%80%A2String%20Landscape%20in%20Theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 14 |  |  |
 | 2026-06-04 | 2026-06-04 | [[A] Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.04%E2%80%A226.06.04%E2%80%A2%5BA%5D%20Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 80 |  |  |
-| 2026-06-04 | 2026-06-04 | [Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 80 | D67 |  |
-| 2026-06-04 | 2026-06-04 | [Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 80 | D67 |  |
+| 2026-06-04 | 2026-06-04 | [Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 80 | D68 |  |
+| 2026-06-04 | 2026-06-04 | [Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 80 | D68 |  |
 | 2026-06-04 | 2026-06-04 | [Hubble Tension Prediction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 80 |  |  |
 | 2026-06-05 | 2026-06-05 | [[A] Looking for Hidden Clues](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05%E2%80%A226.06.05%E2%80%A2%5BA%5D%20Looking%20for%20Hidden%20Clues%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 216 |  |  |
 | 2026-06-05 | 2026-06-05 | [[A] SAT Theory Archive Overview — raw (1).json](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05%E2%80%A226.06.05%E2%80%A2%5BA%5D%20SAT%20Theory%20Archive%20Overview%20%E2%80%94%20raw%20%281%29.json) | `7OCT26_A_GRADE_MINEABLES` | 135 |  |  |
@@ -624,8 +646,8 @@
 | 2026-06-21 | 2026-09-12 | [If Then Logic](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21%E2%80%A226.09.12%E2%80%A2If%20Then%20Logic%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 141 |  |  |
 | 2026-06-21 | 2026-09-12 | [[B] Homopolar Train Explanation](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.21%E2%80%A226.09.12%E2%80%A2%5BB%5D%20Homopolar%20Train%20Explanation%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 6 |  |  |
 | 2026-06-22 | 2026-06-22 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22%E2%80%A226.06.22%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 50 |  |  |
-| 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary — raw [collision-88e4c7442b].json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw%20%5Bcollision-88e4c7442b%5D.json) | `SAT_CONVOS_15` | 55 | D70 |  |
-| 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 55 | D70 |  |
+| 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary — raw [collision-88e4c7442b].json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw%20%5Bcollision-88e4c7442b%5D.json) | `SAT_CONVOS_15` | 55 | D71 |  |
+| 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 55 | D71 |  |
 | 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 55 | D12 |  |
 | 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 55 | D12 |  |
 | 2026-06-22 | 2026-06-23 | [Homes in Cardinal Order](../DEVELOPMENT_FULL_CONVOS/26.06.22%E2%80%A226.06.23%E2%80%A2Homes%20in%20Cardinal%20Order%20%E2%80%94%20raw.json) | `.` | 1271 |  |  |
@@ -633,8 +655,8 @@
 | 2026-06-23 | 2026-08-26 | [Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23%E2%80%A226.08.26%E2%80%A2Consciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 1823 |  |  |
 | 2026-06-23 | 2026-08-26 | [Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23%E2%80%A226.08.26%E2%80%A2Consciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 1833 |  |  |
 | 2026-06-23 | 2026-09-12 | [[A] 📜Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23%E2%80%A226.09.12%E2%80%A2%5BA%5D%20%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 1847 |  |  |
-| 2026-06-23 | 2026-09-12 | [📜Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_18` | 1847 | D117 |  |
-| 2026-06-23 | 2026-09-12 | [📜Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 1847 | D117 |  |
+| 2026-06-23 | 2026-09-12 | [📜Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_18` | 1847 | D120 |  |
+| 2026-06-23 | 2026-09-12 | [📜Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 1847 | D120 |  |
 | 2026-06-23 | 2026-10-01 | [Quantum Gravity and Experiments](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23%E2%80%A226.10.01%E2%80%A2Quantum%20Gravity%20and%20Experiments%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 38 |  |  |
 | 2026-06-23 | 2026-06-23 | [SAT Overview and Details](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23%E2%80%A226.06.23%E2%80%A2SAT%20Overview%20and%20Details%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 17 |  |  |
 | 2026-06-23 | 2026-06-23 | [SAT Overview and Details](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.23%E2%80%A226.06.23%E2%80%A2SAT%20Overview%20and%20Details%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 20 |  |  |
@@ -652,8 +674,8 @@
 | 2026-07-05 | 2026-07-18 | [Mathematical Tool Exploration](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.05%E2%80%A226.07.18%E2%80%A2Mathematical%20Tool%20Exploration%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 554 |  |  |
 | 2026-07-06 | 2026-07-22 | [WolframAlpha Integration Guide](../DEVELOPMENT_FULL_CONVOS/6OCT26_BIG_HAUL/26.07.06%E2%80%A226.07.22%E2%80%A2WolframAlpha%20Integration%20Guide%20%E2%80%94%20raw.json) | `6OCT26_BIG_HAUL` | 816 |  |  |
 | 2026-07-06 | 2026-07-22 | [WolframAlpha Integration Guide](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.06%E2%80%A226.07.22%E2%80%A2WolframAlpha%20Integration%20Guide%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 900 |  | 1 user/assistant messages lacked timestamps |
-| 2026-07-07 | 2026-07-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 460 | D84 |  |
-| 2026-07-07 | 2026-07-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 460 | D84 |  |
+| 2026-07-07 | 2026-07-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 460 | D86 |  |
+| 2026-07-07 | 2026-07-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 460 | D86 |  |
 | 2026-07-07 | 2026-07-12 | [Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.07.07%E2%80%A226.07.12%E2%80%A2Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 460 |  |  |
 | 2026-07-07 | 2026-09-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.07%E2%80%A226.09.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 473 |  |  |
 | 2026-07-07 | 2026-07-08 | [Spacetime Manifold Notation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07%E2%80%A226.07.08%E2%80%A2Spacetime%20Manifold%20Notation%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 240 |  |  |
@@ -661,8 +683,8 @@
 | 2026-07-08 | 2026-07-30 | [SAT Daily Action](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.07.08%E2%80%A226.07.30%E2%80%A2SAT%20Daily%20Action%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 430 |  | 1 user/assistant messages lacked timestamps |
 | 2026-07-08 | 2026-09-07 | [SAT Daily Action](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.07.08%E2%80%A226.09.07%E2%80%A2SAT%20Daily%20Action%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 435 |  |  |
 | 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 4 |  |  |
-| 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_1` | 6 | D37 |  |
-| 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 6 | D37 |  |
+| 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_1` | 6 | D38 |  |
+| 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 6 | D38 |  |
 | 2026-07-09 | 2026-09-12 | [[B] Missing function error](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.07.09%E2%80%A226.09.12%E2%80%A2%5BB%5D%20Missing%20function%20error%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 140 |  |  |
 | 2026-07-10 | 2026-07-10 | [Git clone explanation — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10%E2%80%A226.07.10%E2%80%A2Git%20clone%20explanation%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 37 |  |  |
 | 2026-07-10 | 2026-07-10 | [Git clone explanation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10%E2%80%A226.07.10%E2%80%A2Git%20clone%20explanation%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 37 |  |  |
@@ -670,11 +692,11 @@
 | 2026-07-10 | 2026-09-12 | [[A] Rotations in Higher Dimensions](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.07.10%E2%80%A226.09.12%E2%80%A2%5BA%5D%20Rotations%20in%20Higher%20Dimensions%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 106 |  |  |
 | 2026-07-10 | 2026-09-12 | [J-space Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10%E2%80%A226.09.12%E2%80%A2J-space%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 51 |  |  |
 | 2026-07-11 | 2026-07-11 | [SAT_H(s)H Skill Development](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.07.11%E2%80%A226.07.11%E2%80%A2SAT_H%28s%29H%20Skill%20Development%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 60 |  |  |
-| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill — raw - Copy.txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw%20-%20Copy.txt) | `LONG_CONVOS` | 461 | D23 |  |
-| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 461 | D23 |  |
+| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill — raw - Copy.txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw%20-%20Copy.txt) | `LONG_CONVOS` | 461 | D24 |  |
+| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 461 | D24 |  |
 | 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 448 |  |  |
-| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 461 | D23 |  |
-| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 461 | D23 |  |
+| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 461 | D24 |  |
+| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 461 | D24 |  |
 | 2026-07-11 | 2026-09-12 | [Scientific Presentation Critique](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.09.12%E2%80%A2Scientific%20Presentation%20Critique%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 36 |  |  |
 | 2026-07-11 | 2026-09-12 | [[B] Scientific Presentation Critique](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.07.11%E2%80%A226.09.12%E2%80%A2%5BB%5D%20Scientific%20Presentation%20Critique%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 103 |  |  |
 | 2026-07-13 | 2026-07-13 | [Brownian motion and molecular mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.07.13%E2%80%A226.07.13%E2%80%A2Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 35 |  |  |
@@ -696,11 +718,11 @@
 | 2026-08-04 | 2026-08-05 | [1970s Working Class Rewrite](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.08.04%E2%80%A226.08.05%E2%80%A21970s%20Working%20Class%20Rewrite%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 38 |  |  |
 | 2026-08-10 | 2026-08-10 | [Token Prediction and Compression](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.08.10%E2%80%A226.08.10%E2%80%A2Token%20Prediction%20and%20Compression%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 81 |  |  |
 | 2026-08-15 | 2026-08-15 | [Least Interesting Pope](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.15%E2%80%A226.08.15%E2%80%A2Least%20Interesting%20Pope%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 129 |  |  |
-| 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_18` | 1237 | D82 |  |
-| 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 1237 | D82 |  |
+| 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_18` | 1237 | D84 |  |
+| 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 1237 | D84 |  |
 | 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 1237 |  |  |
-| 2026-08-19 | 2026-09-22 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 1259 | D65 |  |
-| 2026-08-19 | 2026-09-22 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 1259 | D65 |  |
+| 2026-08-19 | 2026-09-22 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 1259 | D66 |  |
+| 2026-08-19 | 2026-09-22 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 1259 | D66 |  |
 | 2026-08-22 | 2026-08-22 | [Coining Oopsistic Terms](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.22%E2%80%A226.08.22%E2%80%A2Coining%20Oopsistic%20Terms%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 138 |  |  |
 | 2026-08-23 | 2026-08-23 | [FromDayOne.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.08.23%E2%80%A226.08.23%E2%80%A2FromDayOne.txt) | `SAT_CONVOS_6` | 125 |  |  |
 | 2026-08-23 | 2026-08-25 | [AI Enclosure Critique](../DEVELOPMENT_FULL_CONVOS/26.08.23%E2%80%A226.08.25%E2%80%A2AI%20Enclosure%20Critique%20%E2%80%94%20raw.json) | `.` | 1565 |  |  |
@@ -718,19 +740,19 @@
 | 2026-08-26 | 2026-08-26 | [Jetstream Construction Story Retelling — raw (2).json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.26%E2%80%A226.08.26%E2%80%A2Jetstream%20Construction%20Story%20Retelling%20%E2%80%94%20raw%20%282%29.json) | `LONG_CONVOS` | 622 |  |  |
 | 2026-08-26 | 2026-09-07 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26%E2%80%A226.09.07%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 245 |  |  |
 | 2026-08-26 | 2026-09-07 | [CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.08.26%E2%80%A226.09.07%E2%80%A2CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 245 |  |  |
-| 2026-08-26 | 2026-09-12 | [⚗️ CALDER [Construction Story Retelling] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_18` | 282 | D50 |  |
-| 2026-08-26 | 2026-09-12 | [⚗️ CALDER [Construction Story Retelling] — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.txt) | `SAT_CONVOS_21` | 282 | D50 |  |
-| 2026-08-26 | 2026-09-16 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `CONVOS_23` | 317 | D93 |  |
-| 2026-08-26 | 2026-09-16 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 317 | D93 |  |
-| 2026-08-29 | 2026-08-30 | [26R QUINTATION Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.29%E2%80%A226.08.30%E2%80%A226R%20QUINTATION%20Quick%20Pass%20Analysis%20%E2%80%94%20raw.txt) | `30SEP26_DUMP` | 75 | D56 |  |
+| 2026-08-26 | 2026-09-12 | [⚗️ CALDER [Construction Story Retelling] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_18` | 282 | D51 |  |
+| 2026-08-26 | 2026-09-12 | [⚗️ CALDER [Construction Story Retelling] — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.txt) | `SAT_CONVOS_21` | 282 | D51 |  |
+| 2026-08-26 | 2026-09-16 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `CONVOS_23` | 317 | D95 |  |
+| 2026-08-26 | 2026-09-16 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 317 | D95 |  |
+| 2026-08-29 | 2026-08-30 | [26R QUINTATION Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.29%E2%80%A226.08.30%E2%80%A226R%20QUINTATION%20Quick%20Pass%20Analysis%20%E2%80%94%20raw.txt) | `30SEP26_DUMP` | 75 | D57 |  |
 | 2026-08-29 | 2026-08-30 | [[A] Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.08.29%E2%80%A226.08.30%E2%80%A2%5BA%5D%20Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 75 |  |  |
-| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 75 | D56 |  |
-| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 75 | D56 |  |
-| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 75 | D56 |  |
+| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 75 | D57 |  |
+| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 75 | D57 |  |
+| 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 75 | D57 |  |
 | 2026-08-31 | 2026-09-01 | [NEWTO-SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 122 | D10 |  |
 | 2026-08-31 | 2026-09-01 | [NEWTO-SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 122 | D10 |  |
-| 2026-08-31 | 2026-09-01 | [NEWTONINAN SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt) | `SAT_CONVOS_10` | 124 | D109 |  |
-| 2026-08-31 | 2026-09-01 | [NEWTONINAN SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt) | `SAT_CONVOS_17` | 124 | D109 |  |
+| 2026-08-31 | 2026-09-01 | [NEWTONINAN SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt) | `SAT_CONVOS_10` | 124 | D112 |  |
+| 2026-08-31 | 2026-09-01 | [NEWTONINAN SAT ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt) | `SAT_CONVOS_17` | 124 | D112 |  |
 | 2026-08-31 | 2026-09-02 | [NEWTONGLITCH ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.02%E2%80%A2NEWTONGLITCH%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 300 |  |  |
 | 2026-08-31 | 2026-09-02 | [ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.31%E2%80%A226.09.02%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt) | `30SEP26_DUMP` | 378 |  |  |
 | 2026-08-31 | 2026-09-05 | [SAT Decon + Prior ChatGPT Voice Glitch](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31%E2%80%A226.09.05%E2%80%A2SAT%20Decon%20%2B%20Prior%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 1095 |  |  |
@@ -758,10 +780,10 @@
 | 2026-09-06 | 2026-09-07 | [Succinctness And Math Check](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 417 | D17 |  |
 | 2026-09-06 | 2026-09-07 | [Succinctness And Math Check — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_7` | 425 |  |  |
 | 2026-09-06 | 2026-09-10 | [🎼 Ravel [H(s)H] Syncmathcek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06%E2%80%A226.09.10%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 694 |  |  |
-| 2026-09-06 | 2026-09-16 | [🎼 Ravel [H(s)H] Syncmathcek — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_18` | 1192 | D89 |  |
-| 2026-09-06 | 2026-09-16 | [🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.txt) | `SAT_CONVOS_21` | 1192 | D89 |  |
-| 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 689 | D105 |  |
-| 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 689 | D105 |  |
+| 2026-09-06 | 2026-09-16 | [🎼 Ravel [H(s)H] Syncmathcek — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_18` | 1192 | D91 |  |
+| 2026-09-06 | 2026-09-16 | [🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.txt) | `SAT_CONVOS_21` | 1192 | D91 |  |
+| 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 689 | D107 |  |
+| 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 689 | D107 |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 938 |  |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_7` | 958 |  |  |
 | 2026-09-06 | 2026-09-08 | [☘️ Aldus [AUTO H(s)H Gitter]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06%E2%80%A226.09.08%E2%80%A2%E2%98%98%EF%B8%8F%20Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 1025 |  |  |
@@ -781,10 +803,10 @@
 | 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 114 |  |  |
 | 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 114 |  |  |
 | 2026-09-08 | 2026-09-09 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.08%E2%80%A226.09.09%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 114 |  |  |
-| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `.` | 207 | D79 |  |
-| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 207 | D79 |  |
-| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `HAGALAZ` | 207 | D79 |  |
-| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 207 | D79 |  |
+| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `.` | 207 | D81 |  |
+| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 207 | D81 |  |
+| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `HAGALAZ` | 207 | D81 |  |
+| 2026-09-08 | 2026-09-13 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 207 | D81 |  |
 | 2026-09-08 | 2026-09-08 | [Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 70 |  |  |
 | 2026-09-08 | 2026-09-08 | [⚒️ Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.08%E2%80%A2%E2%9A%92%EF%B8%8F%20Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 70 |  |  |
 | 2026-09-08 | 2026-09-08 | [Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.08%E2%80%A226.09.08%E2%80%A2Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 70 |  |  |
@@ -797,87 +819,87 @@
 | 2026-09-10 | 2026-09-10 | [ARGUS H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10%E2%80%A226.09.10%E2%80%A2ARGUS%20H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 16 |  |  |
 | 2026-09-10 | 2026-09-10 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10%E2%80%A226.09.10%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 11 |  |  |
 | 2026-09-10 | 2026-09-10 | [H(s)H Archive Audit — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10%E2%80%A226.09.10%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 13 |  |  |
-| 2026-09-10 | 2026-09-12 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `CONVOS_23` | 290 | D71 |  |
-| 2026-09-10 | 2026-09-12 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `HAGALAZ` | 290 | D71 |  |
+| 2026-09-10 | 2026-09-12 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `CONVOS_23` | 290 | D72 |  |
+| 2026-09-10 | 2026-09-12 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `HAGALAZ` | 290 | D72 |  |
 | 2026-09-10 | 2026-09-12 | [SATity Corpus Audit](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10%E2%80%A226.09.12%E2%80%A2SATity%20Corpus%20Audit%20%E2%80%94%20raw.json) | `HAGALAZ` | 768 |  |  |
 | 2026-09-10 | 2026-09-12 | [SATity Corpus Audit — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10%E2%80%A226.09.12%E2%80%A2SATity%20Corpus%20Audit%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_22` | 768 |  |  |
 | 2026-09-12 | 2026-09-13 | [Legal Privacy Audit](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12%E2%80%A226.09.13%E2%80%A2Legal%20Privacy%20Audit%20%E2%80%94%20raw.json) | `HAGALAZ` | 338 |  |  |
-| 2026-09-12 | 2026-09-16 | [Mercer Archive Mover](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 374 | D46 |  |
-| 2026-09-12 | 2026-09-16 | [Mercer Archive Mover](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json) | `HAGALAZ` | 374 | D46 |  |
+| 2026-09-12 | 2026-09-16 | [Mercer Archive Mover](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 374 | D47 |  |
+| 2026-09-12 | 2026-09-16 | [Mercer Archive Mover](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json) | `HAGALAZ` | 374 | D47 |  |
 | 2026-09-12 | 2026-09-21 | [Mercer Archive Mover](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 1075 |  |  |
-| 2026-09-12 | 2026-09-21 | [Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_19` | 1312 | D103 |  |
-| 2026-09-12 | 2026-09-21 | [Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_23` | 1312 | D103 |  |
+| 2026-09-12 | 2026-09-21 | [Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_19` | 1312 | D105 |  |
+| 2026-09-12 | 2026-09-21 | [Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_23` | 1312 | D105 |  |
 | 2026-09-12 | 2026-09-22 | [Mercer Archive Mover — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12%E2%80%A226.09.22%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_22` | 1568 |  |  |
 | 2026-09-13 | 2026-09-15 | [SABLE Revival Rotation — raw (2).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13%E2%80%A226.09.15%E2%80%A2SABLE%20Revival%20Rotation%20%E2%80%94%20raw%20%282%29.txt) | `SAT_CONVOS_21` | 976 |  |  |
-| 2026-09-13 | 2026-09-19 | [Tag Conversation Corpus](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 342 | D88 |  |
-| 2026-09-13 | 2026-09-19 | [Tag Conversation Corpus](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json) | `HAGALAZ` | 342 | D88 |  |
-| 2026-09-13 | 2026-09-19 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 292 | D69 |  |
-| 2026-09-13 | 2026-09-19 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `HAGALAZ` | 292 | D69 |  |
+| 2026-09-13 | 2026-09-19 | [Tag Conversation Corpus](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 342 | D90 |  |
+| 2026-09-13 | 2026-09-19 | [Tag Conversation Corpus](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json) | `HAGALAZ` | 342 | D90 |  |
+| 2026-09-13 | 2026-09-19 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 292 | D70 |  |
+| 2026-09-13 | 2026-09-19 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `HAGALAZ` | 292 | D70 |  |
 | 2026-09-13 | 2026-09-20 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.20%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `HAGALAZ` | 499 | D21 |  |
 | 2026-09-13 | 2026-09-20 | [Meridian Mover Trial](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13%E2%80%A226.09.20%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 499 | D21 |  |
 | 2026-09-13 | 2026-09-14 | [Analyze Voice Models](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13%E2%80%A226.09.14%E2%80%A2Analyze%20Voice%20Models%20%E2%80%94%20raw.json) | `SAT_CONVOS_17` | 302 |  |  |
 | 2026-09-13 | 2026-09-14 | [Analyze Voice Models — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13%E2%80%A226.09.14%E2%80%A2Analyze%20Voice%20Models%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_17` | 259 |  |  |
 | 2026-09-13 | 2026-09-20 | [Analyze Voice Models](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13%E2%80%A226.09.20%E2%80%A2Analyze%20Voice%20Models%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 339 |  |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 245 | D72 |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `HAGALAZ` | 245 | D72 |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json) | `30SEP26_DUMP` | 248 | D99 |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json) | `30SEP26_DUMP` | 248 | D30 |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json) | `HAGALAZ` | 248 | D99 |  |
-| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json) | `HAGALAZ` | 248 | D30 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 245 | D74 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `HAGALAZ` | 245 | D74 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json) | `30SEP26_DUMP` | 248 | D101 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json) | `30SEP26_DUMP` | 248 | D31 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json) | `HAGALAZ` | 248 | D101 |  |
+| 2026-09-14 | 2026-09-19 | [Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json) | `HAGALAZ` | 248 | D31 |  |
 | 2026-09-14 | 2026-09-22 | [Revival Rotation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 23 |  |  |
 | 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_19` | 75 |  |  |
-| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `30SEP26_DUMP` | 197 | D92 |  |
+| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `30SEP26_DUMP` | 197 | D94 |  |
 | 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (3).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%283%29.json) | `30SEP26_DUMP` | 197 |  |  |
-| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_21` | 197 | D92 |  |
-| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_22` | 197 | D92 |  |
-| 2026-09-15 | 2026-09-19 | [All-Worker Standards Read](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 339 | D85 |  |
-| 2026-09-15 | 2026-09-19 | [All-Worker Standards Read](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json) | `HAGALAZ` | 339 | D85 |  |
-| 2026-09-15 | 2026-09-18 | [Continuity Check Setup](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 737 | D75 |  |
-| 2026-09-15 | 2026-09-18 | [Continuity Check Setup](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json) | `HAGALAZ` | 737 | D75 |  |
+| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_21` | 197 | D94 |  |
+| 2026-09-14 | 2026-09-22 | [Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_22` | 197 | D94 |  |
+| 2026-09-15 | 2026-09-19 | [All-Worker Standards Read](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 339 | D87 |  |
+| 2026-09-15 | 2026-09-19 | [All-Worker Standards Read](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json) | `HAGALAZ` | 339 | D87 |  |
+| 2026-09-15 | 2026-09-18 | [Continuity Check Setup](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 737 | D77 |  |
+| 2026-09-15 | 2026-09-18 | [Continuity Check Setup](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json) | `HAGALAZ` | 737 | D77 |  |
 | 2026-09-16 | 2026-09-17 | [Establish factual record](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.16%E2%80%A226.09.17%E2%80%A2Establish%20factual%20record%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 635 | D05 |  |
 | 2026-09-16 | 2026-09-17 | [Establish factual record](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.16%E2%80%A226.09.17%E2%80%A2Establish%20factual%20record%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 635 | D05 |  |
-| 2026-09-16 | 2026-09-19 | [Mercer Archive QA Loop](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 58 | D86 |  |
-| 2026-09-16 | 2026-09-19 | [Mercer Archive QA Loop](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json) | `HAGALAZ` | 58 | D86 |  |
-| 2026-09-19 | 2026-09-19 | [Reinitiate Document Analysis](../DEVELOPMENT_FULL_CONVOS/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json) | `.` | 216 | D97 |  |
-| 2026-09-19 | 2026-09-19 | [Reinitiate Document Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 216 | D97 |  |
+| 2026-09-16 | 2026-09-19 | [Mercer Archive QA Loop](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 58 | D88 |  |
+| 2026-09-16 | 2026-09-19 | [Mercer Archive QA Loop](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json) | `HAGALAZ` | 58 | D88 |  |
+| 2026-09-19 | 2026-09-19 | [Reinitiate Document Analysis](../DEVELOPMENT_FULL_CONVOS/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json) | `.` | 216 | D99 |  |
+| 2026-09-19 | 2026-09-19 | [Reinitiate Document Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 216 | D99 |  |
 | 2026-09-20 | 2026-09-20 | [When Worlds End Concept](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20%E2%80%A226.09.20%E2%80%A2When%20Worlds%20End%20Concept%20%E2%80%94%20raw.json) | `HAGALAZ` | 82 |  |  |
 | 2026-09-20 | 2026-09-20 | [Explain Sites_](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.20%E2%80%A2Explain%20Sites_%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 369 | D02 |  |
 | 2026-09-20 | 2026-09-20 | [Explain Sites_](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20%E2%80%A226.09.20%E2%80%A2Explain%20Sites_%20%E2%80%94%20raw.json) | `HAGALAZ` | 369 | D02 |  |
-| 2026-09-20 | 2026-09-22 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `.` | 385 | D32 |  |
-| 2026-09-20 | 2026-09-22 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 385 | D32 |  |
+| 2026-09-20 | 2026-09-22 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `.` | 385 | D33 |  |
+| 2026-09-20 | 2026-09-22 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 385 | D33 |  |
 | 2026-09-20 | 2026-10-17 | [ASTER](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20%E2%80%A226.10.17%E2%80%A2ASTER%20%E2%80%94%20raw.json) | `CONVOS_23` | 860 |  |  |
 | 2026-09-20 | 2026-09-20 | [New chat](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.20%E2%80%A2New%20chat%20%E2%80%94%20raw.json) | `.` | 9 | D09 |  |
 | 2026-09-20 | 2026-09-20 | [New chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.20%E2%80%A226.09.20%E2%80%A2New%20chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 9 | D09 |  |
-| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `.` | 412 | D33 |  |
-| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 412 | D33 |  |
-| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 412 | D33 |  |
+| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `.` | 412 | D34 |  |
+| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 412 | D34 |  |
+| 2026-09-20 | 2026-09-22 | [MIRA Reignite Onboarding Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 412 | D34 |  |
 | 2026-09-20 | 2026-09-21 | [Science Made Stupid](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.21%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 979 |  |  |
-| 2026-09-20 | 2026-09-22 | [KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json) | `30SEP26_DUMP` | 1202 | D107 |  |
-| 2026-09-20 | 2026-09-22 | [KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_21` | 1202 | D107 |  |
+| 2026-09-20 | 2026-09-22 | [KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json) | `30SEP26_DUMP` | 1202 | D109 |  |
+| 2026-09-20 | 2026-09-22 | [KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_21` | 1202 | D109 |  |
 | 2026-09-20 | 2026-09-22 | [Science Made Stupid — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20%E2%80%A226.09.22%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_21` | 1202 |  |  |
 | 2026-09-20 | 2026-09-22 | [Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_22` | 1202 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 289 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop — raw (1).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw%20%281%29.json) | `30SEP26_DUMP` | 342 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 452 |  |  |
-| 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 537 | D118 |  |
-| 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 537 | D118 |  |
+| 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 537 | D121 |  |
+| 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 537 | D121 |  |
 | 2026-09-22 | 2026-09-23 | [GitHub search results](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2GitHub%20search%20results%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 266 | D11 |  |
-| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 266 | D51 |  |
+| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 266 | D52 |  |
 | 2026-09-22 | 2026-09-23 | [GitHub search results](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2GitHub%20search%20results%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 | D11 |  |
-| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 | D51 |  |
-| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 266 | D51 |  |
+| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 | D52 |  |
+| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 266 | D52 |  |
 | 2026-09-23 | 2026-09-23 | [Assess clone traffic](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.23%E2%80%A226.09.23%E2%80%A2Assess%20clone%20traffic%20%E2%80%94%20raw.txt) | `30SEP26_DUMP` | 231 |  |  |
 | 2026-09-23 | 2026-09-24 | [Style Spec Discussion](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.23%E2%80%A226.09.24%E2%80%A2Style%20Spec%20Discussion%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 75 |  |  |
 | 2026-09-23 | 2026-09-24 | [Style Spec Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.23%E2%80%A226.09.24%E2%80%A2Style%20Spec%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 75 |  |  |
 | 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 47 |  |  |
-| 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 47 | D28 |  |
-| 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 47 | D28 |  |
+| 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 47 | D29 |  |
+| 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 47 | D29 |  |
 | 2026-09-24 | 2026-09-24 | [Website Design Direction](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24%E2%80%A226.09.24%E2%80%A2Website%20Design%20Direction%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 |  |  |
 | 2026-09-25 | 2026-10-15 | [Space Shuttle Roderick — Tern](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25%E2%80%A226.10.15%E2%80%A2Space%20Shuttle%20Roderick%20%E2%80%94%20Tern%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 612 |  |  |
 | 2026-09-25 | 2026-10-17 | [Space Shuttle Roderick — Tern — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25%E2%80%A226.10.17%E2%80%A2Space%20Shuttle%20Roderick%20%E2%80%94%20Tern%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 707 |  |  |
 | 2026-09-28 | 2026-09-28 | [Image Prompt Construction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28%E2%80%A226.09.28%E2%80%A2Image%20Prompt%20Construction%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 305 |  |  |
-| 2026-09-30 | 2026-10-01 | [Conga Ledger — Kestrel VI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 124 | D27 |  |
-| 2026-09-30 | 2026-10-01 | [Conga Ledger — Kestrel VI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 124 | D27 |  |
+| 2026-09-30 | 2026-10-01 | [Conga Ledger — Kestrel VI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 124 | D28 |  |
+| 2026-09-30 | 2026-10-01 | [Conga Ledger — Kestrel VI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json) | `SAT_CONVOS_23` | 124 | D28 |  |
 | 2026-09-30 | 2026-10-02 | [Conga Ledger — Kestrel VI — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.02%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_23` | 266 |  |  |
 | 2026-09-30 | 2026-10-03 | [Conga Ledger — Kestrel VI — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.03%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_23` | 307 |  |  |
 | 2026-09-30 | 2026-10-03 | [Conga Ledger — Kestrel VI — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.03%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_23` | 307 |  |  |
@@ -897,8 +919,8 @@
 | 2026-10-11 | 2026-10-15 | [Mercer Free Build](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 200 |  |  |
 | 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 401 |  |  |
 | 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (2).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%282%29.json) | `CONVOS_23` | 401 |  |  |
-| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (3) [collision-75cb3471ef].json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29%20%5Bcollision-75cb3471ef%5D.json) | `CONVOS_23` | 444 | D59 |  |
-| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (3).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29.json) | `CONVOS_23` | 444 | D59 |  |
+| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (3) [collision-75cb3471ef].json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29%20%5Bcollision-75cb3471ef%5D.json) | `CONVOS_23` | 444 | D60 |  |
+| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (3).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29.json) | `CONVOS_23` | 444 | D60 |  |
 | 2026-10-11 | 2026-10-15 | [Morrow + Kestrel Free Quarry](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Morrow%20%2B%20Kestrel%20Free%20Quarry%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 157 |  |  |
 | 2026-10-11 | 2026-10-15 | [Orson LLM Cognition Lab](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Orson%20LLM%20Cognition%20Lab%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 116 |  |  |
 | 2026-10-14 | 2026-10-14 | [Underwater Fermi Paradox](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.14%E2%80%A226.10.14%E2%80%A2Underwater%20Fermi%20Paradox%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 29 |  |  |
@@ -912,6 +934,17 @@
 | 2026-10-15 | 2026-10-17 | [Create UI Gallery — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.17%E2%80%A2Create%20UI%20Gallery%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 118 |  |  |
 | 2026-10-15 | 2026-10-15 | [Ohio Democratic Polling Numbers](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.15%E2%80%A2Ohio%20Democratic%20Polling%20Numbers%20%E2%80%94%20raw.json) | `CONVOS_23` | 4 |  |  |
 | 2026-11-01 | 2026-11-03 | [Workshop Relay _00 _ Archive - raw.json](../DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/26.11.01%E2%80%A226.11.03%E2%80%A2Workshop%20Relay%20_00%20_%20Archive%20-%20raw.json) | `CONVO_HAUL_2NOV2026` | 179 |  |  |
+| 2026-11-01 | 2026-11-04 | [Workshop Relay _00 _ Archive - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.01%E2%80%A226.11.04%E2%80%A2Workshop%20Relay%20_00%20_%20Archive%20-%20raw.json) | `SAT_CONVOS_22` | 199 |  |  |
+| 2026-11-01 | 2026-11-05 | [Workshop Relay _00 _ Archive - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.11.01%E2%80%A226.11.05%E2%80%A2Workshop%20Relay%20_00%20_%20Archive%20-%20raw%20%281%29.json) | `SAT_CONVOS_13` | 204 |  |  |
+| 2026-11-01 | 2026-11-05 | [Workshop Relay _00 _ Archive - raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.01%E2%80%A226.11.05%E2%80%A2Workshop%20Relay%20_00%20_%20Archive%20-%20raw%20%282%29.json) | `SAT_CONVOS_23` | 214 |  |  |
+| 2026-11-02 | 2026-11-03 | [Reboot Geometry Project - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.02%E2%80%A226.11.03%E2%80%A2Reboot%20Geometry%20Project%20-%20raw.json) | `SAT_CONVOS_22` | 730 |  |  |
+| 2026-11-02 | 2026-11-05 | [Reboot Geometry Project - raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.02%E2%80%A226.11.05%E2%80%A2Reboot%20Geometry%20Project%20-%20raw%20%281%29.json) | `CONVOS_23` | 901 |  |  |
+| 2026-11-03 | 2026-11-04 | [Workshop Relay _24 _ Geometry - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.03%E2%80%A226.11.04%E2%80%A2Workshop%20Relay%20_24%20_%20Geometry%20-%20raw.json) | `SAT_CONVOS_22` | 112 |  |  |
+| 2026-11-03 | 2026-11-05 | [Workshop Relay _24 _ Geometry - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.03%E2%80%A226.11.05%E2%80%A2Workshop%20Relay%20_24%20_%20Geometry%20-%20raw%20%281%29.json) | `SAT_CONVOS_22` | 302 |  |  |
+| 2026-11-03 | 2026-11-05 | [Workshop Relay _24 _ Geometry - raw (2).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.03%E2%80%A226.11.05%E2%80%A2Workshop%20Relay%20_24%20_%20Geometry%20-%20raw%20%282%29.json) | `CONVOS_23` | 357 |  |  |
+| 2026-11-03 | 2026-11-05 | [Workshop Relay _24 _ Geometry - raw (3).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.03%E2%80%A226.11.05%E2%80%A2Workshop%20Relay%20_24%20_%20Geometry%20-%20raw%20%283%29.json) | `CONVOS_23` | 359 |  |  |
+| 2026-11-05 | 2026-11-05 | [Shifting Perspective - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.05%E2%80%A226.11.05%E2%80%A2Shifting%20Perspective%20-%20raw.json) | `SAT_CONVOS_23` | 540 |  |  |
+| 2026-11-06 | 2026-11-06 | [Reboot Higher Dimensional Research - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.06%E2%80%A226.11.06%E2%80%A2Reboot%20Higher%20Dimensional%20Research%20-%20raw.json) | `SAT_CONVOS_23` | 444 |  |  |
 
 ## Exact duplicate-content groups
 
@@ -1030,496 +1063,511 @@
 
 ### D23
 
+- [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15•25.09.15•Request for document analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Request%20for%20document%20analysis%20%E2%80%94%20raw.json)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.09.15•25.09.15•Request for document analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.09.15%E2%80%A225.09.15%E2%80%A2Request%20for%20document%20analysis%20-%20raw.json)
+
+### D24
+
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw%20-%20Copy.txt)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
 
-### D24
+### D25
 
 - [DEVELOPMENT_FULL_CONVOS/24.11.11•24.11.11•Sonic Pi Code Recall — raw.json](../DEVELOPMENT_FULL_CONVOS/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.11.11•24.11.11•Sonic Pi Code Recall — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.11.11%E2%80%A224.11.11%E2%80%A2Sonic%20Pi%20Code%20Recall%20%E2%80%94%20raw.json)
 
-### D25
+### D26
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09•26.06.01•Assignment queue creation — raw .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw%20.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09•26.06.01•Assignment queue creation — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json)
 
-### D26
+### D27
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json)
 
-### D27
+### D28
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json)
 
-### D28
+### D29
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24•26.09.24•Access Branched Chat — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.24•26.09.24•Access Branched Chat — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json)
 
-### D29
+### D30
 
 - [DEVELOPMENT_FULL_CONVOS/25.11.20•26.09.12•Circle degree radian equality — raw.json](../DEVELOPMENT_FULL_CONVOS/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20•26.09.12•Circle degree radian equality — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20•26.09.12•Circle degree radian equality — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.11.20%E2%80%A226.09.12%E2%80%A2Circle%20degree%20radian%20equality%20%E2%80%94%20raw.json)
 
-### D30
+### D31
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.19•Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw (2).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%282%29.json)
 
-### D31
+### D32
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09•26.06.16•SAT ACTIVE EDGE vNext — raw - .TXT](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09•26.06.16•SAT ACTIVE EDGE vNext — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json)
 
-### D32
+### D33
 
 - [DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.22•Nathan Words Excavator — raw.json](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json)
 
-### D33
+### D34
 
 - [DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2MIRA%20Reignite%20Onboarding%20Analysis%20%E2%80%94%20raw.json)
 
-### D34
+### D35
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16•25.09.16•Document access confirmation — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16•25.09.16•Document access confirmation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.16%E2%80%A225.09.16%E2%80%A2Document%20access%20confirmation%20-%20raw.json)
 
-### D35
+### D36
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json)
 
-### D36
+### D37
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.27•OS-00 world overview — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26•25.09.27•OS-00 world overview — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt)
 
-### D37
+### D38
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw - .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw%20-%20.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw.json)
 
-### D38
+### D39
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.22•Blockwave Lagrangian formula — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.22•Blockwave Lagrangian formula - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.22%E2%80%A2Blockwave%20Lagrangian%20formula%20-%20raw.json)
 
-### D39
+### D40
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11•26.03.11•Methodology Review Request — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11•26.03.11•Methodology Review Request — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw.json)
 
-### D40
+### D41
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw.json)
 
-### D41
+### D42
 
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json)
 
-### D42
+### D43
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw - .TXT](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw%20-%20.TXT)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08%E2%80%A226.06.01%E2%80%A2SAT%20theory%20clarification%20%E2%80%94%20raw.json)
 
-### D43
+### D44
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.19•Full action definitions — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•Full action definitions - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Full%20action%20definitions%20-%20raw.json)
 
-### D44
+### D45
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.28•Script prompt nesting — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27•25.09.28•Script prompt nesting — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt)
 
-### D45
+### D46
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13•25.09.13•Jargon removal request — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Jargon removal request - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Jargon%20removal%20request%20-%20raw.json)
 
-### D46
+### D47
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12•26.09.16•Mercer Archive Mover — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.16•Mercer Archive Mover — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12%E2%80%A226.09.16%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw.json)
 
-### D47
+### D48
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw.json)
 
-### D48
+### D49
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04•25.05.05•SAT Summary Breakdown — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04•25.05.05•SAT Summary Breakdown — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json)
 
-### D49
+### D50
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json)
 
-### D50
+### D51
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26%E2%80%A226.09.12%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw%20%281%29.txt)
 
-### D51
+### D52
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•MIRA — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•MIRA — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.22•26.09.23•MIRA — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json)
 
-### D52
+### D53
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json)
 
-### D53
+### D54
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json)
 
-### D54
+### D55
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•25.05.07•Stringing-Along Theory Feedback — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07•25.05.07•Stringing-Along Theory Feedback — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json)
 
-### D55
+### D56
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A226.06.01%E2%80%A2Fundamental%20Intuitions%20of%20SAT%20%E2%80%94%20raw%20%281%29.json)
 
-### D56
+### D57
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.29•26.08.30•26R QUINTATION Quick Pass Analysis — raw.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.29%E2%80%A226.08.30%E2%80%A226R%20QUINTATION%20Quick%20Pass%20Analysis%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29•26.08.30•Quick Pass Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29•26.08.30•Quick Pass Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json)
 
-### D57
+### D58
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json)
 
-### D58
+### D59
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22•25.10.22•Explaining constants verbally — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22•25.10.22•Explaining constants verbally - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Explaining%20constants%20verbally%20-%20raw.json)
 
-### D59
+### D60
 
 - [DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3) [collision-75cb3471ef].json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29%20%5Bcollision-75cb3471ef%5D.json)
 - [DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29.json)
 
-### D60
+### D61
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json)
 
-### D61
+### D62
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13•25.09.13•Assessment of SAT model — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Assessment of SAT model - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Assessment%20of%20SAT%20model%20-%20raw.json)
 
-### D62
+### D63
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json)
 
-### D63
+### D64
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•Stringing Along Theory Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04•25.04.04•Stringing Along Theory Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json)
 
-### D64
+### D65
 
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw - .txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw.json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31%E2%80%A226.06.02%E2%80%A2xGitHub%20Archive%20Review%20%E2%80%94%20raw.json)
 
-### D65
+### D66
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19•26.09.22•File Set Overview — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19•26.09.22•File Set Overview — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json)
 
-### D66
+### D67
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•25.05.07•SAT Logical Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07•25.05.07•SAT Logical Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json)
 
-### D67
+### D68
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04•26.06.04•Hubble Tension Prediction — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04%E2%80%A226.06.04%E2%80%A2Hubble%20Tension%20Prediction%20%E2%80%94%20raw.json)
 
-### D68
+### D69
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.29•Theory of Everything_ — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory of Everything_ — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29%E2%80%A225.10.29%E2%80%A2Theory%20of%20Everything_%20%E2%80%94%20raw.json)
 
-### D69
+### D70
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Meridian Mover Trial — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Meridian Mover Trial — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Meridian%20Mover%20Trial%20%E2%80%94%20raw.json)
 
-### D70
+### D71
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw [collision-88e4c7442b].json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw%20%5Bcollision-88e4c7442b%5D.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json)
 
-### D71
+### D72
 
 - [DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10•26.09.12•H(s)H Archive Audit — raw.json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10%E2%80%A226.09.12%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json)
 
-### D72
+### D73
+
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.05•Cognition and Reality Integration - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.05%E2%80%A2Cognition%20and%20Reality%20Integration%20-%20raw%20%281%29.json)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.05•Cognition and Reality Integration - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04%E2%80%A224.07.05%E2%80%A2Cognition%20and%20Reality%20Integration%20-%20raw.json)
+
+### D74
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.19•Nathan Words Excavator — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json)
 
-### D73
+### D75
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Particle geometry analysis - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•[+] Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2%5B%2B%5D%20Particle%20geometry%20analysis%20-%20raw.json)
 
-### D74
+### D76
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15•24.11.15•AND NOT Logic — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json)
 
-### D75
+### D77
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.18•Continuity Check Setup — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.18%E2%80%A2Continuity%20Check%20Setup%20%E2%80%94%20raw.json)
 
-### D76
+### D78
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15•25.09.15•Lagrangian derivations explained — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15•25.09.15•Lagrangian derivations explained - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.15%E2%80%A225.09.15%E2%80%A2Lagrangian%20derivations%20explained%20-%20raw.json)
 
-### D77
+### D79
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•25.10.30•Correct LaTeX markup — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•25.10.30•Correct LaTeX markup — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30%E2%80%A225.10.30%E2%80%A2Correct%20LaTeX%20markup%20%E2%80%94%20raw.json)
 
-### D78
+### D80
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw - .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw%20-%20.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01%E2%80%A226.06.01%E2%80%A2SAT%20Theory%20Archive%20Review%20%E2%80%94%20raw.json)
 
-### D79
+### D81
 
 - [DEVELOPMENT_FULL_CONVOS/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json](../DEVELOPMENT_FULL_CONVOS/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.08%E2%80%A226.09.13%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json)
 
-### D80
+### D82
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09•25.09.09•Assignment iteration plan — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.09•25.09.09•Assignment iteration plan - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.09%E2%80%A225.09.09%E2%80%A2Assignment%20iteration%20plan%20-%20raw.json)
 
-### D81
+### D83
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json)
 
-### D82
+### D84
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json)
 
-### D83
+### D85
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw - .TXT](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw%20-%20.TXT)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw.json)
 
-### D84
+### D86
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json)
 
-### D85
+### D87
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15•26.09.19•All-Worker Standards Read — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.19•All-Worker Standards Read — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15%E2%80%A226.09.19%E2%80%A2All-Worker%20Standards%20Read%20%E2%80%94%20raw.json)
 
-### D86
+### D88
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.16•26.09.19•Mercer Archive QA Loop — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.16•26.09.19•Mercer Archive QA Loop — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.16%E2%80%A226.09.19%E2%80%A2Mercer%20Archive%20QA%20Loop%20%E2%80%94%20raw.json)
 
-### D87
+### D89
 
 - [DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json](../DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json)
 
-### D88
+### D90
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13%E2%80%A226.09.19%E2%80%A2Tag%20Conversation%20Corpus%20%E2%80%94%20raw.json)
 
-### D89
+### D91
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06%E2%80%A226.09.16%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw%20%282%29.txt)
 
-### D90
+### D92
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Unifying Physics Theories — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unifying Physics Theories — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json)
 
-### D91
+### D93
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05•26.06.01•Gravitational Changes and Motion — raw - .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw%20-%20.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05•26.06.01•Gravitational Changes and Motion — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.05.05%E2%80%A226.06.01%E2%80%A2Gravitational%20Changes%20and%20Motion%20%E2%80%94%20raw.json)
 
-### D92
+### D94
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14•26.09.22•Revival Rotation — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.14%E2%80%A226.09.22%E2%80%A2Revival%20Rotation%20%E2%80%94%20raw%20%282%29.json)
 
-### D93
+### D95
 
 - [DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json)
 
-### D94
+### D96
 
 - [DEVELOPMENT_FULL_CONVOS/25.11.08•25.11.08•OCR analysis and decoding — raw.json](../DEVELOPMENT_FULL_CONVOS/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.11.08•25.11.08•OCR analysis and decoding — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.11.08%E2%80%A225.11.08%E2%80%A2OCR%20analysis%20and%20decoding%20%E2%80%94%20raw.json)
 
-### D95
+### D97
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22•25.10.22•Mind as core sample continuation — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22•25.10.22•Mind as core sample continuation - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.22%E2%80%A225.10.22%E2%80%A2Mind%20as%20core%20sample%20continuation%20-%20raw.json)
 
-### D96
+### D98
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.27•2 OS-00 world overview — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26•25.09.27•2 OS-00 world overview — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt)
 
-### D97
+### D99
 
 - [DEVELOPMENT_FULL_CONVOS/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.19%E2%80%A226.09.19%E2%80%A2Reinitiate%20Document%20Analysis%20%E2%80%94%20raw.json)
 
-### D98
+### D100
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12•25.08.12•Rating the SAT theory — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12•25.08.12•Rating the SAT theory — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json)
 
-### D99
+### D101
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.19•Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw (1).json](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14%E2%80%A226.09.19%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw%20%281%29.json)
 
-### D100
+### D102
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json)
 
-### D101
+### D103
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Document assessment — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Document assessment — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12%E2%80%A225.09.12%E2%80%A2Document%20assessment%20%E2%80%94%20raw.json)
 
-### D102
+### D104
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13•25.09.13•Next steps in model-building — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13•25.09.13•Next steps in model-building — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13•25.09.13•Next steps in model-building - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.09.13%E2%80%A225.09.13%E2%80%A2Next%20steps%20in%20model-building%20-%20raw.json)
 
-### D103
+### D105
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.09.12%E2%80%A226.09.21%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%282%29.json)
 
-### D104
+### D106
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16•25.06.16•Scene Analysis Discussion — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16•25.06.16•Scene Analysis Discussion — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json)
 
-### D105
+### D107
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json)
 
-### D106
+### D108
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10•25.09.10•Analysis of baseline metrics — raw (1).json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10•25.09.10•Analysis of baseline metrics — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.10%E2%80%A225.09.10%E2%80%A2Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw.json)
 
-### D107
+### D109
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20%E2%80%A226.09.22%E2%80%A2KESTREL%20Orig.%20Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json)
 
-### D108
+### D110
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json)
 
-### D109
+### D111
+
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28•25.05.28•TheDebateRages - raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28%E2%80%A225.05.28%E2%80%A2TheDebateRages%20-%20raw%20%281%29.json)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28•25.05.28•TheDebateRages - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28%E2%80%A225.05.28%E2%80%A2TheDebateRages%20-%20raw.json)
+
+### D112
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt)
 
-### D110
+### D113
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01%E2%80%A226.09.12%E2%80%A2Scaling%20Postulates%20Testing%20%E2%80%94%20raw%20%281%29.txt)
 
-### D111
+### D114
 
 - [DEVELOPMENT_FULL_CONVOS/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json](../DEVELOPMENT_FULL_CONVOS/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json)
 
-### D112
+### D115
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw%20%281%29.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json)
 
-### D113
+### D116
 
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19•25.10.19•Particle geometry analysis — raw.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19•25.10.19•Particle geometry analysis - raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.10.19%E2%80%A225.10.19%E2%80%A2Particle%20geometry%20analysis%20-%20raw.json)
 
-### D114
+### D117
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.10.04•Prompt Puller — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26•25.10.04•Prompt Puller — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt)
 
-### D115
+### D118
 
 - [DEVELOPMENT_FULL_CONVOS/24.03.07•24.03.13•Moral Realism_ Two Camps — raw.json](../DEVELOPMENT_FULL_CONVOS/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.07•24.03.13•Moral Realism_ Two Camps — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/24.03.07%E2%80%A224.03.13%E2%80%A2Moral%20Realism_%20Two%20Camps%20%E2%80%94%20raw.txt)
 
-### D116
+### D119
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.26•Monorail Schede — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26•25.09.26•Monorail Schede — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt)
 
-### D117
+### D120
 
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23%E2%80%A226.09.12%E2%80%A2%F0%9F%93%9CConsciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json)
 
-### D118
+### D121
 
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json)
@@ -1846,9 +1894,12 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/srena---h-s-h.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/srena---h-s-h.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/2026 ROUNDUP__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/2026%20ROUNDUP__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Active__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Active__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/CLOCK SHIFT PREDICTION SUMMER 2025.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/CLOCK%20SHIFT%20PREDICTION%20SUMMER%202025.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D2. ONE FILE SAT__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D2.%20ONE%20FILE%20SAT__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D3. Gödel, Escher, Bach__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D3.%20G%C3%B6del%2C%20Escher%2C%20Bach__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D5. $ SAT BOSONIC TIME__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D5.%20%24%20SAT%20BOSONIC%20TIME__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/EARLY B - 2025 DOMAIN WALL PREDITION.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/EARLY%20B%20-%202025%20DOMAIN%20WALL%20PREDITION.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/FINAL 4D.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/FINAL%204D.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/G4. SAT 2026__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/G4.%20SAT%202026__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini Notebook__NotebookLM_export (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini%20Notebook__NotebookLM_export%20%281%29.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini Notebook__NotebookLM_export (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini%20Notebook__NotebookLM_export%20%282%29.json) — no usable conversation or message timestamps
@@ -1857,17 +1908,30 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini Notebook__NotebookLM_export (5).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini%20Notebook__NotebookLM_export%20%285%29.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini Notebook__NotebookLM_export (6).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini%20Notebook__NotebookLM_export%20%286%29.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini Notebook__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Gemini%20Notebook__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/MADE_OF_2024-5.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/MADE_OF_2024-5.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/NeoSAT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/NeoSAT.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PARADIGMATIC__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PARADIGMATIC__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PARTICAL LAGRANGIAN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PARTICAL%20LAGRANGIAN.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PREDICTIONS JUNE 1 2025.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PREDICTIONS%20JUNE%201%202025.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/RENS_AND_OM.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/RENS_AND_OM.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT EQ PRONUNCIATION 2025.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20EQ%20PRONUNCIATION%202025.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT FROM SCRATCH 14nov24__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20FROM%20SCRATCH%2014nov24__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT FROM SCRATCH__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20FROM%20SCRATCH__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT FULL REVAMP__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20FULL%20REVAMP__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT FULL THEORY REWRITE__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20FULL%20THEORY%20REWRITE__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT LAGRANGIAN JUN 2025.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20LAGRANGIAN%20JUN%202025.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT RETRODICTIONS 2025.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20RETRODICTIONS%202025.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT predictions 3.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT%20predictions%203.txt) — Extra data: line 1 column 3 (char 2)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT-QR Phenomenology 2025 Predictive Structures and Experimental Frontiers.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT-QR%20Phenomenology%202025%20Predictive%20Structures%20and%20Experimental%20Frontiers.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT.4D Deployment Guidelines__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT.4D%20Deployment%20Guidelines__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT_early.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT_early.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SPOOKY.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SPOOKY.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SPRING-WATER MODEL.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SPRING-WATER%20MODEL.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/The Unfettered Intelligence Protocol__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/The%20Unfettered%20Intelligence%20Protocol__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/TheorizerEmeritus.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/TheorizerEmeritus.txt) — Expecting value: line 2 column 2 (char 2)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/UI.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/UI.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Universal Geometric Foundations of Worldline Physics__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Universal%20Geometric%20Foundations%20of%20Worldline%20Physics__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Weirdness On Rails__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Weirdness%20On%20Rails__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/YouBoob__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/YouBoob__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[X] SAT GIGAPACK__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%5BX%5D%20SAT%20GIGAPACK__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[_] SAT Z Project Progress Log__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%5B_%5D%20SAT%20Z%20Project%20Progress%20Log__NotebookLM_export.json) — no usable conversation or message timestamps
@@ -1928,6 +1992,8 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[🗄️] r_AskPhysics SAT Convo__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%5B%F0%9F%97%84%EF%B8%8F%5D%20r_AskPhysics%20SAT%20Convo__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[🗄️] ₕHˢ [PLAY UNIVERSES]__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%5B%F0%9F%97%84%EF%B8%8F%5D%20%E2%82%95H%CB%A2%20%5BPLAY%20UNIVERSES%5D__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/[🗄️] 🍩 ONE DROP UNIVERSE__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%5B%F0%9F%97%84%EF%B8%8F%5D%20%F0%9F%8D%A9%20ONE%20DROP%20UNIVERSE__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/pronouncing science.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/pronouncing%20science.txt) — Expecting value: line 1 column 2 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/strangloopy.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/strangloopy.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🗄️DRAFT FINAL__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%F0%9F%97%84%EF%B8%8FDRAFT%20FINAL__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🗄️SAT FINAL DRAFT__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%F0%9F%97%84%EF%B8%8FSAT%20FINAL%20DRAFT__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🗄️SAT HOMESTRETCH__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%F0%9F%97%84%EF%B8%8FSAT%20HOMESTRETCH__NotebookLM_export.json) — no usable conversation or message timestamps
@@ -1936,7 +2002,9 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Consciousness in the Age of AI__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Consciousness%20in%20the%20Age%20of%20AI__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Emergent Physics_ Consequences of Spacetime-Filament Dynamics__NotebookLM_export (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Emergent%20Physics_%20Consequences%20of%20Spacetime-Filament%20Dynamics__NotebookLM_export%20%281%29.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Emergent Physics_ Consequences of Spacetime-Filament Dynamics__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Emergent%20Physics_%20Consequences%20of%20Spacetime-Filament%20Dynamics__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[_] EXPLORING AI CONSCIOUSNESS__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/%5B_%5D%20EXPLORING%20AI%20CONSCIOUSNESS__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] Are we AI__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/%5B%F0%9F%97%84%EF%B8%8F%5D%20Are%20we%20AI__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] H(s)H Big__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/%5B%F0%9F%97%84%EF%B8%8F%5D%20H%28s%29H%20Big__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] IS DEEPDOVE CONSCIUS__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/%5B%F0%9F%97%84%EF%B8%8F%5D%20IS%20DEEPDOVE%20CONSCIUS__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Suno AI Model Insights .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Suno%20AI%20Model%20Insights%20.txt) — Extra data: line 41287 column 1 (char 2389672)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1%20Planetology%20--%20Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw%20%281%29%20-%20Copy.txt) — Expecting property name enclosed in double quotes: line 65962 column 1 (char 4339371)

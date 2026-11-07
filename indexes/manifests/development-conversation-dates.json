@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-11-07T06:13:53.009624+00:00",
+  "generated_at_utc": "2026-11-07T07:26:39.008655+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 887,
-    "skipped": 414
+    "skipped": 434,
+    "renamed": 33
   },
   "records": [
     {
@@ -2526,6 +2527,36 @@
       "warnings": [
         "Extra data: line 20 column 14 (char 647)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Reboot Geometry Project - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.02•26.11.05•Reboot Geometry Project - raw (1).json",
+      "start_local": "2026-11-02T07:31:37.620000-05:00",
+      "end_local": "2026-11-05T06:18:10.806406-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 901,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Workshop Relay _24 _ Geometry - raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.03•26.11.05•Workshop Relay _24 _ Geometry - raw (2).json",
+      "start_local": "2026-11-03T15:39:50.081112-05:00",
+      "end_local": "2026-11-05T05:15:23.839576-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 357,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Workshop Relay _24 _ Geometry - raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.11.03•26.11.05•Workshop Relay _24 _ Geometry - raw (3).json",
+      "start_local": "2026-11-03T15:39:50.081112-05:00",
+      "end_local": "2026-11-05T06:20:15.002089-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 359,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/25.05.28•25.08.11•[+] ACTIVATOR HoloJesu - raw.json",
@@ -7776,6 +7807,56 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/SAT Predictions and Experiments - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.30•25.05.31•SAT Predictions and Experiments - raw.json",
+      "start_local": "2025-05-30T20:20:02.360431-04:00",
+      "end_local": "2025-05-31T01:36:27.879143-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/SlowWalker Q&A Session - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.30•25.05.31•SlowWalker Q&A Session - raw.json",
+      "start_local": "2025-05-30T18:16:37.509000-04:00",
+      "end_local": "2025-05-31T01:34:55.131563-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 107,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/TheDebateRages - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28•25.05.28•TheDebateRages - raw (1).json",
+      "start_local": "2025-05-28T16:51:18.054000-04:00",
+      "end_local": "2025-05-28T17:04:43.481085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 30,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/TheDebateRages - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/25.05.28•25.05.28•TheDebateRages - raw.json",
+      "start_local": "2025-05-28T16:51:18.054000-04:00",
+      "end_local": "2025-05-28T17:04:43.481085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 30,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/Workshop Relay _00 _ Archive - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.11.01•26.11.05•Workshop Relay _00 _ Archive - raw (1).json",
+      "start_local": "2026-11-01T19:43:05.663221-05:00",
+      "end_local": "2026-11-05T04:24:24.958247-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 204,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
       "start_local": "2025-05-08T13:55:08.002000-04:00",
@@ -10952,6 +11033,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/CLOCK SHIFT PREDICTION SUMMER 2025.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/D2. ONE FILE SAT__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -10985,6 +11078,30 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/EARLY B - 2025 DOMAIN WALL PREDITION.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/FINAL 4D.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
       ]
     },
     {
@@ -11084,6 +11201,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/MADE_OF_2024-5.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/NeoSAT.txt",
       "new_path": null,
       "start_local": null,
@@ -11105,6 +11234,84 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PARTICAL LAGRANGIAN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/PREDICTIONS JUNE 1 2025.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/RENS_AND_OM.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Reboot Geometry Project - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.02•26.11.03•Reboot Geometry Project - raw.json",
+      "start_local": "2026-11-02T07:31:37.620000-05:00",
+      "end_local": "2026-11-03T13:59:42.529687-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 730,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Request for document analysis - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.09.15•25.09.15•Request for document analysis - raw.json",
+      "start_local": "2025-09-15T18:53:23.110313-04:00",
+      "end_local": "2025-09-15T18:54:32.337401-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT Buildout and Brainstorm - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.29•25.05.31•SAT Buildout and Brainstorm - raw.json",
+      "start_local": "2025-05-29T08:28:34.206000-04:00",
+      "end_local": "2025-05-31T01:11:54.790517-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 28,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT EQ PRONUNCIATION 2025.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
       ]
     },
     {
@@ -11156,6 +11363,50 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT Framework and Tools - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27•25.05.27•SAT Framework and Tools - raw.json",
+      "start_local": "2025-05-27T06:05:06.743000-04:00",
+      "end_local": "2025-05-27T20:44:40.246287-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 26,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT LAGRANGIAN JUN 2025.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT QR and Z Setup - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.31•25.05.31•SAT QR and Z Setup - raw.json",
+      "start_local": "2025-05-31T01:55:15.344000-04:00",
+      "end_local": "2025-05-31T02:12:49.415573-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 24,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT RETRODICTIONS 2025.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT predictions 3.txt",
       "new_path": null,
       "start_local": null,
@@ -11168,6 +11419,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT-QR Phenomenology 2025 Predictive Structures and Experimental Frontiers.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT.4D Deployment Guidelines__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -11177,6 +11440,60 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SAT_early.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATx Current State Analysis - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27•25.05.27•SATx Current State Analysis - raw.json",
+      "start_local": "2025-05-27T17:03:03.454000-04:00",
+      "end_local": "2025-05-27T17:52:43.703148-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATx Modules Development - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27•25.05.27•SATx Modules Development - raw.json",
+      "start_local": "2025-05-27T16:20:01.669000-04:00",
+      "end_local": "2025-05-27T16:49:17.235860-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 73,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATx Task List Summary - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27•25.05.27•SATx Task List Summary - raw.json",
+      "start_local": "2025-05-27T17:28:04.595000-04:00",
+      "end_local": "2025-05-27T17:30:53.980063-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 10,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SPOOKY.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
       ]
     },
     {
@@ -11204,6 +11521,40 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/TheorizerEmeritus.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 2 (char 2)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Theta_4 Calculation Formula - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.30•25.05.31•Theta_4 Calculation Formula - raw.json",
+      "start_local": "2025-05-30T11:58:12.393491-04:00",
+      "end_local": "2025-05-31T01:30:05.820813-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 24,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/UI.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Universal Geometric Foundations of Worldline Physics__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -11214,6 +11565,58 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Viral SAT Podcast Names - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.27•25.05.27•Viral SAT Podcast Names - raw.json",
+      "start_local": "2025-05-27T05:16:10.183000-04:00",
+      "end_local": "2025-05-27T05:32:47.149001-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Weirdness On Rails__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Workshop Relay _00 _ Archive - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.01•26.11.04•Workshop Relay _00 _ Archive - raw.json",
+      "start_local": "2026-11-01T19:43:05.663221-05:00",
+      "end_local": "2026-11-04T18:25:14.928722-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 199,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Workshop Relay _24 _ Geometry - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.03•26.11.05•Workshop Relay _24 _ Geometry - raw (1).json",
+      "start_local": "2026-11-03T15:39:50.081112-05:00",
+      "end_local": "2026-11-05T04:19:40.322031-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 302,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Workshop Relay _24 _ Geometry - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.03•26.11.04•Workshop Relay _24 _ Geometry - raw.json",
+      "start_local": "2026-11-03T15:39:50.081112-05:00",
+      "end_local": "2026-11-04T22:00:20.380562-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 112,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/YouBoob__NotebookLM_export.json",
@@ -11933,6 +12336,30 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/pronouncing science.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/strangloopy.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 2 (char 1)"
       ]
     },
     {
@@ -12676,6 +13103,56 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/CTMU_ Bridging Reality and Consciousness - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.04.01•24.04.01•CTMU_ Bridging Reality and Consciousness - raw.json",
+      "start_local": "2024-04-01T16:05:24.865303-04:00",
+      "end_local": "2024-04-01T16:09:34.955334-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/CTMU_ Mind-Reality Integration - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.04•CTMU_ Mind-Reality Integration - raw (1).json",
+      "start_local": "2024-07-04T22:29:56.494550-04:00",
+      "end_local": "2024-07-04T22:33:04.226176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/CTMU_ Mind-Reality Integration - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.04•CTMU_ Mind-Reality Integration - raw.json",
+      "start_local": "2024-07-04T22:29:56.494550-04:00",
+      "end_local": "2024-07-04T22:33:04.226176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Cognition and Reality Integration - raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.05•Cognition and Reality Integration - raw (1).json",
+      "start_local": "2024-07-04T22:42:43.980858-04:00",
+      "end_local": "2024-07-05T01:59:14.477122-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 40,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Cognition and Reality Integration - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.05•Cognition and Reality Integration - raw.json",
+      "start_local": "2024-07-04T22:42:43.980858-04:00",
+      "end_local": "2024-07-05T01:59:14.477122-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 40,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Consciousness in the Age of AI__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -12712,7 +13189,101 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Reality Defined_ CTMU Summary - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.07.04•24.07.04•Reality Defined_ CTMU Summary - raw.json",
+      "start_local": "2024-07-04T22:33:21.715881-04:00",
+      "end_local": "2024-07-04T22:33:38.034325-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Reboot Higher Dimensional Research - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.06•26.11.06•Reboot Higher Dimensional Research - raw.json",
+      "start_local": "2026-11-06T04:03:08.226000-05:00",
+      "end_local": "2026-11-06T18:30:10.518726-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 444,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/SAT Theory Analysis - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.04.04•26.06.01•SAT Theory Analysis - raw.json",
+      "start_local": "2025-04-04T22:13:56.067000-04:00",
+      "end_local": "2026-06-01T17:13:59.698118-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Search for 13.7 GeV Anomalies - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/25.05.07•25.05.08•Search for 13.7 GeV Anomalies - raw.json",
+      "start_local": "2025-05-07T14:17:00.780000-04:00",
+      "end_local": "2025-05-08T23:37:16.934282-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 82,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Shifting Perspective - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.05•26.11.05•Shifting Perspective - raw.json",
+      "start_local": "2026-11-05T13:33:41.959000-05:00",
+      "end_local": "2026-11-05T19:00:30.267387-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 540,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/String Theory Synthesis - raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/24.04.01•24.04.01•String Theory Synthesis - raw.json",
+      "start_local": "2024-04-01T16:20:27.324247-04:00",
+      "end_local": "2024-04-01T16:21:21.661391-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/Workshop Relay _00 _ Archive - raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.01•26.11.05•Workshop Relay _00 _ Archive - raw (2).json",
+      "start_local": "2026-11-01T19:43:05.663221-05:00",
+      "end_local": "2026-11-05T22:14:03.459145-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 214,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[_] EXPLORING AI CONSCIOUSNESS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] Are we AI__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/[🗄️] H(s)H Big__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
       "end_local": null,
