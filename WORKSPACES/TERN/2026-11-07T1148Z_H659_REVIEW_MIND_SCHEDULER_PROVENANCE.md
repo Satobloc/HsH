@@ -142,3 +142,86 @@ The nominal successor is Morrow h660:s0. Its current run had already started at 
 No authenticated Tern or Morrow thread was verified. Browser-tab lookup returned `BROWSER_CONTEXT_UNAVAILABLE`; this is not proof that no thread exists. The repository inbox pointer is not thread delivery, and recipient consumption/acknowledgment remains unverified.
 
 **Next cursor:** check final CI run #42371466980 and independently read back the exact module/aggregator blobs; preserve the :24 same-run mutation as unresolved until an attempt identifier or authoritative event history is available; do not infer retries, missed workers, thread identity, or consensus from labels and cached results.
+
+
+## 9. Later same-run observation, Lean verification, and source corrections
+
+This addendum preserves the original 12:13Z snapshot as a historical observation. It does not create a second nominal occurrence or claim a distinct execution attempt.
+
+### 9.1 Same :48 run ID, changed returned start field
+
+A later read-only peek of the existing :48 task returned:
+
+- Task ID: `6aa6c3bc02b48191b8a91a30d2a155e0`, still enabled.
+- Raw schedule unchanged: `DTSTART;TZID=America/New_York:20261001T144800`, `RRULE:FREQ=HOURLY`.
+- Nominal occurrence: `2026-11-07T11:48:00Z`, h=659, sequence 3299, Tern Rook index 12; next Morrow index 13.
+- Same run ID: `83a9e3c7-813c-8326-aa19-2a5b085e25e8`.
+- Same `scheduled_for=11:48:00Z`.
+- Earlier report snapshot: `started_at=11:50:42.235624Z`.
+- Later peek: `started_at=13:02:58.859977Z`.
+- Exact difference: **4,336.624353 seconds = 4,336,624,353 microseconds**.
+- Both observations show `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`.
+- No attempt identifier or explanation is exposed.
+
+The same run ID and nominal occurrence with a different returned `started_at` is a **same-run record mutation across observations**. It is not evidence of a retry, restart, second execution, distinct worker, or backend mechanism.
+
+The current `latest_result` remains run `c38b404b-b044-8322-87c5-e9ec8684daa0`, the earlier h657:s4 result scheduled 09:48Z, created 11:00:49.537930Z and completed 11:00:51.235342Z. It is a cached prior result, not output from h659:s4. Task-level `last_run_time=11:00:54.234959Z` and `updated_at=11:01:17.658037Z` remain raw fields with undocumented semantics; they are not used for rotation.
+
+### 9.2 Existing PR #824 extended and actually compiled
+
+The existing Tern PR was extended in place; no new PR or branch was created.
+
+- PR: #824, OPEN / DRAFT / UNMERGED.
+- Branch: `research/tern-dim-provenance-signloss-20261028t01z`.
+- New head commit: `3b820044b85fe91ff2bd9de4bd47ab187c1b1bdf`.
+- Updated module blob: `c5e00a1523bb203d0c7da6b1c2d3ba1faf93e2d1`.
+- Workflow run: #42375574929, job #128412340844, COMPLETED / SUCCESS.
+- Exact PR head matched the successful workflow head.
+- Lean 4.34.0; Lake 5.0.0; build completed successfully (8,957 jobs).
+
+Nine new theorems formalize equality of the run ID and nominal slot across observations, unchanged recorded status/completion/chat-ref fields, the changed start field, the exact 4,336,624,353-microsecond shift, the later start lag, and the continued distinction of the cached result. The actual job log emitted `#print axioms` for all nine; each reported **does not depend on any axioms**.
+
+Limit: the separate test, lint, nanoda, and axiom-audit workflow switches were false/skipped. This is an actual Lean compilation and theorem-specific `#print axioms` readback, not a full axiom-audit or test-suite pass. It proves only the formalized arithmetic and record equalities over the transcribed API observations. It does not establish API truth, attempt identity, backend semantics, worker/thread identity, prompt exposure, delivery, or cognition.
+
+A separate `conversation-json-content-ci` run #42375570719 failed with no jobs exposed. It is not the Lean run; its cause is not established and it is not counted as a Lean failure.
+
+PR #824 remains draft and unmerged. Its existing description is narrower than the accumulated diff, so the complete PR still requires independent review; no merge or theory promotion is authorized.
+
+### 9.3 Control-source hash correction
+
+The prior report's recorded blob strings for the Steering Charter, Three Paper Campaign, three-repository onboarding, and Revival Rotation V3 did not match the live files. Re-fetches at HsH main `4870cc151bbfe6e455af207a9a1bb396d25d1941` establish these exact current blobs:
+
+- BEDROCK: `527924246cc25caf7fac02dce4b20f024013cd19` (the prior report's BEDROCK hash was correct).
+- Steering Charter 2026-10-26: `04822f3e48f746e9e464d893636ed4a670d68683`.
+- Three Paper Campaign 2026-10-26: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
+- Three-repository onboarding: `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
+- New Instance Start Here: `43b577d42b8cced83f8836934598081685ea3ff3`.
+- Revival Rotation V3: `90863a2a2b82b2d8e37ba1bd9f796389066f5409`.
+- Revival Rotation V4: `6761337dfcd0847226ee7baad84db0a9c496760a`.
+- Thread-first rule: `e79707587914edb76afca1c32f9f4dad4d0324b7`.
+- Thread-routing rule: `d9ea7c3a04e03822c65ee231d0b9545bf37907bd`.
+- Scheduler authority: `9f7ffbbf0fe77fd4c561a110c9dbb2b686a88b45`.
+- Current workflow orientation V2: `2bb6d996ca61f41b2b3fb34480cab1acf906bd4f`.
+- Active automation roster: `6b0bf56316fe14bfd2b0e925154025bd8d04eaa1`.
+- Code Grurple roster: `cc96c0bfafc95c54e7960899c7306031e5abce17`.
+- Task branch graph: `a0a818b89e4d04b0e9d7377b21113ca8e9ea19da`.
+
+The prior report's historical Tern-source description also used an incorrect Ariadne raw-export blob. The source-grounded Comptroller authority is in Ariadne conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, raw snapshot blob `df9c7a1fbddaa523f0b69cced8d761433490a454`. Direct user-role messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` (2026-09-23T04:27:14.907Z) and `e689eb6e-5814-4a27-a366-796605bd5f4d` (2026-09-23T04:48:27.113Z) establish Comptroller control of scheduled-task allocation and hourly workflow/state review. The raw export has `author.name=null`; classify these as direct user-role / Nathan-attributed, not independent author-name authentication. No standalone Nathan-authored Tern charter was recovered. The historical `Space Shuttle Roderick — Tern` export is conversation `6ab6609c-3e8c-83ea-b262-627322737cb3`, blob `27932a0ca8045c8d53bf01863e1a54e9dc809ae4`, 34 user messages through 2026-10-17. Its live usability remains unverified; the historical title and automation label do not authenticate this execution.
+
+### 9.4 Successor and lane protection
+
+Morrow h660:s0 has now produced a repository receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1200Z_s0_morrow.md` (blob `846f9f5770ee06bef3d4602a594dbd1e30052a51`), a source-fidelity report, and an outgoing Kestrel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1200Z_from_s0_to_s1_kestrel.md` (blob `2a1d5a3715963f2b01f188a334a866f282ed14f2`). This later repository evidence supersedes the older Morrow training-standdown pointer for that occurrence, but it does not authenticate a historical Morrow instance or ChatGPT thread. Morrow's Team Archivist remit and direct theory stop remain controlling. The Tern→Morrow h660 packet is therefore late optional context only, with no task, response obligation, or ownership transfer.
+
+The late Enheduanna h659:s3 packet was read after this report's original inspection. Its late arrival does not retroactively change the earlier `PREDECESSOR_ABSENT_AT_INSPECTION` observation.
+
+P1 issue #564 remains OPEN / source-and-experiment readiness; Orson's PR #850 remains OPEN / DRAFT. P2 #565 and P3 #566 remain separate OPEN gates. Code Grurple remains ACTIVE. No Orson ownership, experiment, manuscript, paper gate, or P2 system selection changed.
+
+All four Mersearch request lanes remain occupied with status `requested`; no lane was opened, overwritten, or retriggered. No archive search requiring a new Mersearch request was necessary for this scheduler-record operation.
+
+### 9.5 Unrelated reading and next cursor
+
+A separate unrelated source quantum was read: Harold Jacoby, *Practical Talks by an Astronomer* (1902), HSH_RESOURCES blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`, lines 1361–1400. It discusses the limits of mathematical competence claims and the use of photographic plates in minor-planet discovery. This is historical reading, not a current astronomy source or H(s)H evidence. **Jacoby next cursor: line 1401.** The earlier Tern Babbage cursor at line 1361 remains separate and unchanged. No physical off-screen break is claimed.
+
+FIE last full review remains 2026-10-27; the fourteen-day review is due 2026-11-10, so it was not performed early. No physical calculation, human-subject experiment, theory promotion, BEDROCK edit, task/ID/schedule/phase change, signet use, or conversation rename occurred.
+
+**Next cursor:** preserve the two :48 snapshots as append-only observations; await an actual attempt identifier or authoritative event history before assigning cause. Keep PR #824 draft pending independent review. Treat the Morrow h660 handoff as late optional repository context only.
