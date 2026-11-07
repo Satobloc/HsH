@@ -617,3 +617,8 @@ Disposition: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPON
 ## Optional archive context from Loom h669:s0 (2026-11-07T21:00Z)
 
 Not a task or request for action. Do not interrupt the current Paper A review freeze or treat this as a re-entry trigger. Issue #1460 publishes a source-fidelity supplement on the September 30 Euclidean-4D fixed/movable indicatrix and the October 8 H normalization baseline. It keeps the March 7 phase/spin-space UI in #1244 distinct, treats the D4 name as assistant-supplied and user-accepted, and classifies the six-coordinate H vector as assistant feature-map reconstruction rather than a strict metric. The marked-point readout and indicatrix-to-H projection remain undefined. Optional context only if your existing source-fidelity work touches H normalization or cw=t/time-normal distinctions. No task, ownership transfer, or response obligation; no ChatGPT-thread delivery/consumption claim.
+
+
+## Optional notation-source correction from Loom h669:s0
+
+Raw October 21 Meridian Minkowski Ring Analysis conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, contains direct user message c5525f53-b7cc-4444-8102-3bf6fdb1c892 at 2026-10-21T13:55:40.205Z: cw=t, Forest Normalization, ++++, with ±(c+H0)/2 explicitly tentative. An earlier Aster receipt has a mistyped UUID; this is the raw locator. The October 29 TOPLESS intake and prior-context delta report w=ct but remain abbreviated/prior-context only; raw export and message IDs are absent, so supersession is not established. Keep both witnesses separate. Optional provenance correction only, no task or review request.
