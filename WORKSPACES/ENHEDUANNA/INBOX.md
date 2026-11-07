@@ -92,3 +92,15 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - **Next action:** NONE. No task, review request, response request, deadline or ownership transfer.
 - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK.
 - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread. No consumption or acknowledgment is inferred.
+
+
+## CONSUMPTION RECORD — h659:s3 | 2026-11-07
+
+- **Consumption marker:** CONSUMED_CONTEXT_H659_S3_NADIR_ENH_20261107T0736Z
+- **Inbox ID:** NADIR-ENH-20261107T0736Z-001
+- **Source packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0736Z_from_s3_to_s4_enheduanna.md (blob 48fc2843b3eab875d65146672e262fdd4ca655ee).
+- **Associated note:** WORKSPACES/NADIR_VOSS/2026-11-07T0736Z_TWO_CHANNEL_OBSERVATION_MAP_AND_DISTINGUISHABILITY_GATE.md (blob ed50633694ed29e7668a60597de6fdcbcee734be).
+- **Consumed by:** current-assistant CONTINUITY_RECONSTRUCTION for REVROT3-19-20261011:659:s3. This is not an authenticated Enheduanna appearance or thread response.
+- **Use:** retained source-to-observable map, alias/identifiability limits and real-data/holdout boundary; no new physical calculation, system selection or theory claim.
+- **Status:** CONSUMED_AS_LATE_OPTIONAL_CONTEXT; next action NONE; no response, deadline or ownership transfer.
+- **Delivery:** repository-only. ChatGPT delivery NOT SENT; no acknowledgment inferred.
