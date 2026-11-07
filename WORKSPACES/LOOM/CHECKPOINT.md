@@ -841,3 +841,9 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Post-run preflight read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival/thread-first/reentry, Reference Desk/Toolbox, shared-write/cross-repo standards, scheduler control, Mersearch start/release, and Factory Floor gate. No local Git push/checkout route was exposed; issue publisher used for public output, direct GitHub connector fallback for internal files. Preflight occurred after initial writes, a process-order deviation; future runs must do it first.
 - Unrelated reading: Okakura, The Book of Tea, Gutenberg eBook 769, lines 134-207; next cursor 208. FIE due 2026-11-10, not yet due. No physical calculation, CODATA, invented fixture, Factory Floor admission, plot, paper-gate advancement, or BEDROCK promotion.
 - Automation run c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was recorded FAILED, chat_ref=null; task remains enabled, exact ID/schedule/phase unchanged. No sixth task.
+
+
+### Scheduler-state reconciliation after h669:s0 work
+
+- The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed FAILED at 21:48:07.282223Z and later IN_PROGRESS at 21:52:59Z, with changed started_at=21:52:59.301657Z, completed_at=null, chat_ref=null. Runtime guidance says retries reuse run ID; no attempt ID/history is exposed.
+- Final status: RUN_STATE_UNRESOLVED / RETRY_IN_PROGRESS. Do not claim success or terminal failure. latest_result remains the older h660/Morrow result; delivery unknown. Task remains enabled and unchanged.
