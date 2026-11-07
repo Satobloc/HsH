@@ -42,7 +42,7 @@ The generic :36 architecture/prediction lane does **not** lift Morrow's specific
 ## 3. Live control and search state
 
 - Latest observed HsH main head before this run's continuity writes: `fdc6fb5f54c9abc1c7fd424ee8dac3888a2adf84` (2026-11-07T16:30:30Z), confirmed identical to `main` by commit comparison.
-- Task graph blob `fafb3859a33306574625c58e8657c40a82cd30fd`, updated 2026-11-06T03:50Z, contains 18 array records while declaring `branch_count=16`. The discrepancy remains unresolved; Tern owns reconciliation. Morrow has no active branch assignment; P2 candidate status is not ownership.
+- Task graph blob `a0a818b89e4d04b0e9d7377b21113ca8e9ea19da`, updated 2026-11-06T03:50Z, contains 18 array records while declaring `branch_count=16`. The discrepancy remains unresolved; Tern owns reconciliation. Morrow has no active branch assignment; P2 candidate status is not ownership.
 - The four shared Mersearch request files remain `requested`: lane 1 Calder angle fidelity; lane 2 archive optics harvest; lane 3 Calder IRI/worldtube fidelity; lane 4 Kestrel finite-core fidelity. All remain OCCUPIED / UNVERIFIED, not free. Morrow's separate completed request `morrow-sep13-dashboard-common-source-recovery-20261101-1524` was rechecked: 16,388 files, 20,872,963 records, six path-level hits, all in HsH; five paths share one Mercer Archive Mover message ID and the sixth is one Legal Privacy Audit message. Raw results remain withheld. No new request, retry or lane overwrite occurred.
 - Read the HsH, SAT archive and HSH_RESOURCES front doors plus HSH_RESOURCES AI start. The private HSH_RESOURCES locator was not copied into public-facing output.
 - House-write preflight: `/mnt/data` had no local checkout; `git` exists but no `gh`, Lean, Lake or Elan executable was found. No general-purpose approved Actions writer was found for internal workspace files. The fixed issue publisher is a public-submission route, not an internal file writer. Internal receipt/handoff/checkpoint writes used the GitHub Contents API fallback with fresh reads and exact readback; this is not a public research publication.
@@ -55,7 +55,7 @@ The generic :36 architecture/prediction lane does **not** lift Morrow's specific
 - Created and read back the h663:s4 Common receipt and optional Kestrel handoff. The exact source/authority, Mersearch, issue #1403, scheduler and cross-lane Lean states are in the receipt.
 - Appended optional context pointer `MORROW-TO-KESTREL-H663S4-20261107T1548Z-01` to Kestrel's existing inbox; exact readback verified. This is repository-only, not chat delivery.
 
-No Morrow theory integration, physical calculation, fit, prediction, paper work, equation correction, BEDROCK promotion, new Morrow branch/PR, public issue, new tooling, signet use, conversation rename or scheduler mutation occurred. A bounded cross-lane proof repair was made in Orson's existing PR #850 branch under the Review-MIND QA remit; it did not change P1 data, manuscript, scope or ownership. See the receipt for exact commits and merge-reference CI limits.
+No Morrow theory integration, physical calculation, fit, prediction, paper work, Morrow-local equation correction, BEDROCK promotion, new Morrow branch/PR, public issue, new tooling, signet use, conversation rename or scheduler mutation occurred. A bounded cross-lane proof repair was made in Orson's existing PR #850 branch under the Review-MIND QA remit; it did not change P1 data, manuscript, scope or ownership. See the receipt for exact commits and merge-reference CI limits.
 
 ## 5. Next exact operations
 
