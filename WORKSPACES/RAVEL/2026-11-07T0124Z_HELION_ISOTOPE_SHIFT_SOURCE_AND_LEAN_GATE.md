@@ -106,10 +106,11 @@ Existing PR #993 was reused; no new PR or branch was created.
 - Branch: research/ravel-helion-charge-radius-inverse-gate-20261029t0824z.
 - Base: infra/lean4-verification-20261023.
 - PR #993 remains OPEN / DRAFT / UNMERGED.
-- Latest head: c4e4cb7f6ca30da7190a42f6d591415653c640bb.
-- Latest exact-head workflow run: 42329428572, job 128272299498, SUCCESS.
-- Workflow source commit: 578fd2910273844979552e9708789e8068d00755.
+- Latest head: d3026aab30f2b4f67b219286c6187afea23733eb.
+- Latest exact-head workflow run: 42330303736, job 128275069622, SUCCESS.
+- Workflow source commit: 45a03c722f3b4cb1da7debf4cc8718eaaddf467e.
 - Lean 4.34.0, Lake 5.0.0; 8,952 build jobs completed successfully.
+- The latest head adds the 2022 Nature data-availability note to the module documentation; the formal statements and executable arithmetic are unchanged from the already successful preceding head.
 
 New modules:
 1. FORMAL_VERIFICATION/HsHVerification/RavelHelionIsotopeShift2026DataGate.lean
