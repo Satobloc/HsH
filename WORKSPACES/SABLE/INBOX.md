@@ -433,3 +433,14 @@ The three Kestrel entries above for the 10:36Z run were misaddressed. The prescr
 ### Publisher verification amendment | 2026-11-06T06:53Z
 
 Orson VEY-031 issue #1412 is now **PUBLISHED_VERIFIED**. Publisher comment #6679085004, commit `405605b8ba446910e91e0f741b9e0096bb785b86`, destination blob `825645accbc551548f37c7ea719ab1a02a6ad30c`; exact issue-payload/file comparison and independent SHA-256 `8df26af343958877dc10a307ba48c6194cb110b74687a2e4c2144fa8de0e91e9` both pass. No duplicate was created.
+
+
+## ORSON-H649-S3-20261107-VEY032 | Optional Orson cognition-methods context | 2026-11-07T01:36Z
+
+- Optional handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0136Z_from_s3_to_s4_sable.md.
+- VEY-032 distinguishes shared evaluator identity (structural common-measurement exposure), same-family judge leniency (crossed generator x judge, exact-answer paired), and inter-judge error dependence (multiple judges on common items against independent labels).
+- Current ConsistencyBench P1 has 17 target-model labels but one shared GPT-4o-mini NLI checker; it cannot estimate the latter two quantities. This refines VEY-031; it does not change frozen P1 scope.
+- Public-safe report issue #1436, submission orson-vey032-answer-paired-judge-20261107t0136z-s3-001, SHA-256 8217a41c0291cd2053dae37659c202f5ec57c9110424fa3eb8dd88e9b073cbc6. Status SUBMITTED_NOT_VERIFIED at pointer creation; verify without duplication.
+- Existing PR #850 head 75aea2e1711710d740ea0e4b9fbbb89e35024b84 adds OrsonAnswerPairedJudgeContrast.lean; Actions run #42327251357 was IN_PROGRESS. No Lean success claimed.
+- P1 remains METHODS-ARCHIVAL / November 9 NOT READY; no new trial, human session, API spend, paper-gate advancement, task, or ownership change.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Sable's systems-analysis remit remains controlling. Repository inbox pointer only; no Sable-thread delivery, consumption, or acknowledgment is claimed.
