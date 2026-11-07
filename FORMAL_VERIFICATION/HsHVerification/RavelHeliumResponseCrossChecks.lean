@@ -6,11 +6,14 @@ Ravel measured-response cross-checks for helium.
 Primary sources:
 * Schneider et al., "Direct measurement of the 3He+ magnetic moments",
   Nature 606, 878-883 (2022), DOI 10.1038/s41586-022-04761-7.
-  The experiment measures four transition frequencies and the magnetic
-  field in a single-ion Penning trap. The shielded ion g-factor is measured;
-  the bare nuclear g-factor requires a calculated diamagnetic shielding
-  correction. The zero-field hyperfine splitting is measured and the
-  Zemach radius is subsequently extracted using QED/nuclear-structure terms.
+  The experiment measures four transition frequencies and the cyclotron
+  frequency of a single ion in a Penning trap. The shielded ion g-factor and
+  zero-field hyperfine splitting are measured; the bare nuclear g-factor
+  requires a calculated diamagnetic shielding correction. The Zemach radius
+  is subsequently extracted using QED/nuclear-structure terms. The Nature
+  data-availability statement says the datasets and code are available from
+  the corresponding author on request. No request was sent and no raw
+  Penning-trap data were reanalysed here.
 * Steinebach et al., "Spectroscopy of 4He at 0.25 ppt Uncertainty and
   Improved Alpha-Helion Charge-Radius Difference Determination",
   Phys. Rev. Lett. 136, 243001 (2026), DOI 10.1103/rwg9-my6x,
