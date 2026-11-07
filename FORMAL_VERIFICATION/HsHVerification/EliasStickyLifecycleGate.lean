@@ -211,6 +211,68 @@ theorem promoted_without_receipt_is_not_applied
     wakeApplies
       { candidate := c, stage := .promoted, receipt := none } = false := rfl
 
+/-!
+## Adversarial witness: the receipt predicate accepts contradictory behavior
+
+This is a synthetic software-state witness, not an observed transfer or worker
+event. It tests the predicate above exactly as written. The current predicate
+requires nonempty expected/observed strings and an externally supplied
+passed flag, but does not relate the two strings. It also requires nonempty
+reviewer/exposure references without checking reviewer independence or
+exposure separation.
+-/
+
+def mismatchedBehaviorCandidate : Candidate :=
+  { id := "candidate-01"
+    actor := "Elias Kern"
+    kind := .skill
+    text := "Apply the captured skill at wake"
+    sourcePath := "source/path"
+    sourceBlob := "blob-01"
+    sourceVersion := "version-01"
+    originContext := "context-A"
+    captureExposureManifest := "manifest-01" }
+
+def mismatchedBehaviorReceipt : TransferReceipt :=
+  { candidateId := mismatchedBehaviorCandidate.id
+    sourcePath := mismatchedBehaviorCandidate.sourcePath
+    sourceBlob := mismatchedBehaviorCandidate.sourceBlob
+    sourceVersion := mismatchedBehaviorCandidate.sourceVersion
+    originContext := mismatchedBehaviorCandidate.originContext
+    testContext := "context-B"
+    expectedBehavior := "candidate applied at wake"
+    observedBehavior := "candidate not applied at wake"
+    passed := true
+    reviewerRef := mismatchedBehaviorCandidate.actor
+    testExposureManifest := mismatchedBehaviorCandidate.captureExposureManifest }
+
+theorem valid_receipt_can_record_opposite_behavior :
+    validTransferReceipt mismatchedBehaviorCandidate mismatchedBehaviorReceipt = true ∧
+    mismatchedBehaviorReceipt.expectedBehavior ≠
+      mismatchedBehaviorReceipt.observedBehavior := by
+  decide
+
+theorem valid_receipt_can_reuse_actor_and_capture_exposure :
+    validTransferReceipt mismatchedBehaviorCandidate mismatchedBehaviorReceipt = true ∧
+    mismatchedBehaviorReceipt.reviewerRef = mismatchedBehaviorCandidate.actor ∧
+    mismatchedBehaviorReceipt.testExposureManifest =
+      mismatchedBehaviorCandidate.captureExposureManifest := by
+  decide
+
+theorem valid_receipt_only_requires_distinct_context_labels :
+    validTransferReceipt mismatchedBehaviorCandidate mismatchedBehaviorReceipt = true ∧
+    mismatchedBehaviorReceipt.testContext ≠
+      mismatchedBehaviorCandidate.originContext := by
+  decide
+
+#eval validTransferReceipt mismatchedBehaviorCandidate mismatchedBehaviorReceipt
+#eval mismatchedBehaviorReceipt.expectedBehavior ==
+  mismatchedBehaviorReceipt.observedBehavior
+
+#print axioms valid_receipt_can_record_opposite_behavior
+#print axioms valid_receipt_can_reuse_actor_and_capture_exposure
+#print axioms valid_receipt_only_requires_distinct_context_labels
+
 #print axioms capture_not_applied_at_wake
 #print axioms invalid_receipt_cannot_promote
 #print axioms valid_receipt_promotes
