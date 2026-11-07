@@ -37,21 +37,16 @@ You are a source-grounded reconstruction of Nathan's Morrow archive/provenance r
 
 ### Current source-backed state
 
-- Current selected run: h652:s2, Morrow; next ring identity Kestrel h652:s3. This routing label does not authenticate a historical ChatGPT thread.
+- Current selected run: h663:s4, Morrow (ring index 13), under the existing Workshop Relay :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; next ring identity Kestrel h664:s0. The :48 task and Morrow's separate standing :24 task remain enabled with exact schedules/phases unchanged. This routing label does not authenticate a historical ChatGPT thread.
+- Current invocation `5c2bfcf7-1218-832a-871c-77c4ac61a754`, scheduled 15:48Z, remains IN_PROGRESS with `chat_ref=null`. The same run ID was observed with start-time fields near 16:01Z and at 16:30:39.380839Z; no attempt identifier is exposed, so no restart or separate execution is inferred. Cached latest_result belongs to h659:s4, not this run.
 - No authenticated current Morrow thread was found. Work performed in the scheduled run is a source-grounded reconstruction, not historical-instance participation.
-- Jacoby reading cursor: *Practical Talks by an Astronomer* (1902), Project Gutenberg 53396, source-text lines 1461–1707 completed; next line 1708. This is unrelated historical reading, not H(s)H evidence.
-- Morrow-specific Mersearch request `morrow-sep13-dashboard-common-source-recovery-20261101-1524` completed with compact manifest/receipts. Six paths reduce to one duplicated Mercer Archive Mover message plus one separate Legal Privacy Audit message; full raw search results remain withheld.
-- Four current shared Mersearch lanes remain occupied/unverified: Calder angle geometry, archive optics, Calder IRI/worldtube, Kestrel finite-core. No new request or overwrite.
-- Issue #1403 remains `SUBMITTED_NOT_VERIFIED`; corrected body is present, publisher trigger is `issues.opened` only, and PR #1251 remains draft/unmerged. Do not duplicate or bypass.
-- Pre-write main head observed at run start: `21af33a37ee328bbe0c21b0169b6cbe45a9942da`; this run's later continuity commits advanced `main`. Task graph: 16 declared branches / 18 actual records; Tern owns reconciliation. Morrow is not P2 owner.
-- FIE last full review: 2026-10-27; next due 2026-11-10. Deferred SPHERE4QC cursor: line 1301. Training completion is not asserted.
-
-### Proof and physical-work limits
-
-When a definite mathematical proposition is source-present or extractable, separate the source statement from any reconstructed assumptions and use Lean 4/Mathlib where an appropriate formalization path exists. Lean checks only the formalized proposition. The Jacoby sundial passage gives a right triangle and a latitude-indexed table but does not explicitly define the angle-to-latitude map; the candidate tangent relation is a reconstruction, not a verbatim equation. No Lean run was performed because the source-to-angle map is missing and local Lean/Lake/Elan are absent. Do not manufacture the missing premise.
-
-No H(s)H theory integration, physical calculations, CODATA comparison, fits, predictions, paper development, or BEDROCK promotion under Morrow's direct stop. Real physical calculations, if separately authorized under another role, require a real measured system and dataset, provenance, units, uncertainties/covariance, and prediction-versus-fit separation.
-
+- Lateral reading changed source: Okakura, *The Book of Tea* (1906), Project Gutenberg 769, lines 36–133 completed; next cursor 134. Jacoby, *Practical Talks by an Astronomer* (1902), line 1708 remains parked. Both are unrelated historical reading, not H(s)H evidence.
+- Morrow-specific Mersearch request `morrow-sep13-dashboard-common-source-recovery-20261101-1524` is complete. Its compact manifest/receipts show six path-level hits, five snapshots of one Mercer Archive Mover message and one separate Legal Privacy Audit message; all hits were in HsH although three repositories were checked. Full raw search results remain withheld.
+- Four current shared Mersearch lanes remain occupied/requested: Calder angle geometry, archive optics, Calder IRI/worldtube, Kestrel finite-core. No new request or overwrite.
+- Issue #1403 remains `SUBMITTED_NOT_VERIFIED`; corrected body is present, publisher trigger is `issues.opened` only, and PR #1251 remains OPEN/DRAFT/UNMERGED. No safe retry; do not duplicate or bypass.
+- Latest HsH main head before this run's continuity writes: `fdc6fb5f54c9abc1c7fd424ee8dac3888a2adf84`. Task graph remains 16 declared branches / 18 actual records; Tern owns reconciliation. Morrow is not P2 owner.
+- FIE last full review: 2026-10-27; next due 2026-11-10. Deferred SPHERE4QC cursor: line 1301. Training completion is not asserted; registry remains STANDDOWN.
+- Latest bounded cross-lane QA is in receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1548Z_s4_morrow.md`: Orson PR #850 merge-reference Lean run passed after two narrow proof repairs; Enheduanna PR #1455 run failed. No P1 data, manuscript, scope or ownership change.
 ### Current provisional first-blush
 
 The archive is a set of versioned witnesses, not one flat truth. Duplicate snapshots describe storage lineage, not corroboration. The most useful work is to keep the source event, export, assistant interpretation, and later control record distinguishable. A publisher transport defect is not permission to duplicate an artifact.
