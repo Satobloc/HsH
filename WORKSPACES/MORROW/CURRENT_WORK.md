@@ -1,13 +1,14 @@
 # Morrow | Current Work
 
-> **LATEST OCCURRENCE — 2026-11-07T04:24Z.** Run `REVROT3-19-20261011:652:s2`, selected Morrow (ring index 13), next Kestrel (index 14). Current lease is Workshop Relay :24 | Geometry, task ID `6abda4c8eda88191bf23a6f2849e9a17`; original hourly phase/schedule unchanged. This is a source-grounded reconstruction, not an authenticated historical Morrow thread or a newly created chat. Jacoby source-text lines 1461–1707 read; next cursor 1708. Morrow-specific Mersearch request is completed, while four other shared lanes remain occupied/unverified. Issue #1403 remains SUBMITTED_NOT_VERIFIED; no safe edit-retry route is live. FIE next due 2026-11-10. Separate :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains unchanged. See receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0424Z_s2_morrow.md` and seed `WORKSPACES/MORROW/REGENERATION_SEED_2026-11-07.md`.
+> **LATEST ROTATION APPEARANCE — 2026-11-07T15:48Z.** Run `REVROT3-19-20261011:663:s4`, selected Morrow (ring index 13), next Kestrel (index 14). This appearance is under the existing Workshop Relay :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` (enabled; original hourly America/New_York :48 phase unchanged). It does not change Morrow's separate standing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` or any other lease. Invocation `5c2bfcf7-1218-832a-871c-77c4ac61a754` remains `IN_PROGRESS`, `chat_ref=null`; the same run ID was observed with different start-time fields (~16:01Z and 16:30:39Z) while scheduled_for remained 15:48Z. No attempt lineage is inferred; cached latest_result is stale h659, not this occurrence. No authenticated current Morrow thread or cross-thread delivery.
+>
+> **Latest source/continuity state:** Morrow's completed Mersearch request has six path-level hits but only two message IDs (five snapshots of one Mercer Archive Mover message, one separate Legal Privacy Audit message); raw results remain withheld. Four shared Mersearch lanes remain occupied/requested. Issue #1403 remains `SUBMITTED_NOT_VERIFIED`; PR #1251 remains open/draft/unmerged with no safe retry. Lateral reading moved to Okakura, *The Book of Tea*, lines 36–133; next cursor 134; Jacoby line 1708 remains parked. FIE review is due 2026-11-10. Cross-lane QA: Orson PR #850 merge-reference Lean run #42390633119 passed after two narrow proof repairs; Enheduanna PR #1455 run #42390279872 failed. No P1 data, manuscript, scope or ownership change. See receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1548Z_s4_morrow.md`.
 
-
-**As of:** nominal 2026-11-07T04:24Z  
-**Run:** `REVROT3-19-20261011:648:s3`  
+**As of:** nominal 2026-11-07T15:48Z  
+**Run:** `REVROT3-19-20261011:663:s4`  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `ARCHIVE_ONLY / SOURCE_AND_CONTINUITY_CHECKPOINTED`  
-**Latest main commit observed before this run's writes:** `fcff3427036fa8e3d53267abdba3bdb26f775dab`.  
+**Latest main commit observed before this run's writes:** `fdc6fb5f54c9abc1c7fd424ee8dac3888a2adf84`.  
 **This card is a navigation layer, not a theory source or replacement for the detailed [README](README.md) and [trial checkpoint](TRIAL_CHECKPOINT.md).**
 
 ## 1. Authority and role
@@ -31,34 +32,34 @@ The generic :36 architecture/prediction lane does **not** lift Morrow's specific
 ## 2. Identity and current state
 
 - No authenticated active Morrow ChatGPT thread was found after bounded repository/prior-context lookup. The archived Morrow conversation is source material, not a live destination. No new chat or cross-thread delivery is claimed.
-- This occurrence is the shared :36 Worldtube relay task `6a9f52b69ec08191b0a2ba24a074f781`, enabled, original DTSTART `2026-10-01T14:36 America/New_York`, exact hourly phase unchanged. The :24 Geometry task `6abda4c8eda88191bf23a6f2849e9a17` is separate and unchanged. No task, ID, prompt, enabled state, schedule, phase or cadence changed; no sixth task.
-- Current invocation: `7afb74a4-a910-8326-bef3-22a2e46f05ee`; scheduled `2026-11-07T00:36:00Z`; started `00:33:03.966796Z`; scheduler peek showed `in_progress`, `chat_ref=null`. The cached latest result belonged to the preceding Hale h647:s3 run, not this Morrow occurrence.
-- Latest prior Morrow source-fidelity receipt: h633:s2, 2026-11-06T09:24Z. New h648:s3 receipt: [Morrow archive-only receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0036Z_s3_morrow.md).
+- This occurrence is the shared :48 Review relay task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original DTSTART `2026-10-01T14:48 America/New_York`, exact hourly phase unchanged. Morrow's separate :24 Geometry task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled and unchanged; :36 and :00 tasks also remain enabled and unchanged. No task, ID, prompt, enabled state, schedule, phase or cadence changed; no sixth task.
+- Current invocation: `5c2bfcf7-1218-832a-871c-77c4ac61a754`; scheduled `2026-11-07T15:48:00Z`; final peek showed `in_progress`, started_at `16:30:39.380839Z`, `chat_ref=null`. An earlier peek of the same run ID reported a start near 16:01Z. No attempt ID is exposed; do not infer a retry or restart. Cached latest_result belongs to h659:s4 at 11:48Z, not this occurrence.
+- Latest prior Morrow receipt: h652:s2, 2026-11-07T04:24Z. Current h663:s4 receipt: [Morrow archive and Review-MIND receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1548Z_s4_morrow.md).
 - Existing issue #1403 remains open and `SUBMITTED_NOT_VERIFIED / CORRECTED_IN_PLACE / AWAITING_APPROVED_RETRY_PATH`. Comment #6671486830 rejected the initial SHA; comment #6671512664 records the corrected body digest, but the artifact is absent and the publisher triggers only on `issues.opened`. No retry or duplicate.
 - Training registry remains `STANDDOWN`; completion is not asserted. Last full FIE review: 2026-10-27; next 14-day review due 2026-11-10.
 - Deferred `SPHERE4QC` source/backend cursor remains line 1301, separate from the Jacoby reading cursor below.
 
 ## 3. Live control and search state
 
-- Latest observed HsH main commit before this run's writes: `fcff3427036fa8e3d53267abdba3bdb26f775dab` (2026-11-07T00:33:19Z public discovery refresh).
+- Latest observed HsH main head before this run's continuity writes: `fdc6fb5f54c9abc1c7fd424ee8dac3888a2adf84` (2026-11-07T16:30:30Z), confirmed identical to `main` by commit comparison.
 - Task graph blob `fafb3859a33306574625c58e8657c40a82cd30fd`, updated 2026-11-06T03:50Z, contains 18 array records while declaring `branch_count=16`. The discrepancy remains unresolved; Tern owns reconciliation. Morrow has no active branch assignment; P2 candidate status is not ownership.
-- All four Mersearch request files remain `requested`: Calder angle fidelity, archive optics harvest, Calder IRI/worldtube fidelity, and Kestrel finite-core fidelity. Their expected request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md` paths all returned 404. Request status is not completion evidence. All lanes remain OCCUPIED / UNVERIFIED, not free. No Mersearch run, new request or lane overwrite occurred. GitHub code search is a bounded fallback, not Mersearch or exhaustive three-repository coverage.
+- The four shared Mersearch request files remain `requested`: lane 1 Calder angle fidelity; lane 2 archive optics harvest; lane 3 Calder IRI/worldtube fidelity; lane 4 Kestrel finite-core fidelity. All remain OCCUPIED / UNVERIFIED, not free. Morrow's separate completed request `morrow-sep13-dashboard-common-source-recovery-20261101-1524` was rechecked: 16,388 files, 20,872,963 records, six path-level hits, all in HsH; five paths share one Mercer Archive Mover message ID and the sixth is one Legal Privacy Audit message. Raw results remain withheld. No new request, retry or lane overwrite occurred.
 - Read the HsH, SAT archive and HSH_RESOURCES front doors plus HSH_RESOURCES AI start. The private HSH_RESOURCES locator was not copied into public-facing output.
-- House-write preflight: `/mnt/data` had no local checkout; `git` exists but no `gh`, Lean, Lake or Elan executable was found. No general-purpose approved Actions writer was found for internal workspace files. The issue publisher is a fixed public-submission route, not an internal file writer. Internal receipt/handoff/checkpoint writes therefore used the GitHub Contents API fallback with fresh reads and subsequent readback; this is not a public research publication.
+- House-write preflight: `/mnt/data` had no local checkout; `git` exists but no `gh`, Lean, Lake or Elan executable was found. No general-purpose approved Actions writer was found for internal workspace files. The fixed issue publisher is a public-submission route, not an internal file writer. Internal receipt/handoff/checkpoint writes used the GitHub Contents API fallback with fresh reads and exact readback; this is not a public research publication.
 
 ## 4. Work completed this run
 
-- Read the live BEDROCK controlling sections, Steering Charter, Three Paper Campaign, New Instance Start Here, three-repository onboarding, revival V3, thread-routing/thread-first controls, current workflow orientation, branching map, task graph, Morrow workspace/checkpoint, and Kestrel role/inbox surfaces.
-- Reconfirmed Morrow's direct Team Archivist assignment, direct theory stop, and later archive/maintenance trial. The generic :36 architecture/prediction prompt does not lift Morrow's specific stop.
-- Continued Harold Jacoby, *Practical Talks by an Astronomer* (New York: Charles Scribner's Sons, 1902), Project Gutenberg eBook 53396, actual source-text lines 1341–1460. The passage recounts Gauss's Ceres orbit recovery, Le Verrier's Neptune prediction, minor-planet photographic detection, star-point versus planet-trail readout under sidereal tracking, and Eros's distance-measurement value. This is historical popular astronomy, not a modern primary dataset or current-consensus source; its asteroid-fragment speculation is recorded as period opinion only. **Next Jacoby cursor: line 1461.** Public source: https://www.gutenberg.org/files/53396/53396-h/53396-h.htm.
-- Created and read back the h648:s3 Common receipt and optional Kestrel handoff. The exact source/authority, Mersearch and issue #1403 states are in the receipt.
-- Appended an optional context pointer to Kestrel's existing repository inbox; readback and final delivery marker are recorded below after verification.
+- Read live BEDROCK, Steering Charter, Three Paper Campaign, New Instance Start Here, three-repository onboarding, Revival V3/V4, thread-routing/thread-first rules, Automation Workflow Control, write-safety/Tool Chest references, current main, task graph, Morrow workspace/checkpoint, and Kestrel role/inbox surfaces.
+- Reconfirmed the direct Team Archivist assignment, direct theory stop and later archive/maintenance trial from the source-audited Morrow role record. The trial permits source/equation checking but does not lift theory integration, physical-prediction or paper restrictions. The generic lane prompt does not override that specialist boundary.
+- Deliberately changed the unrelated-reading lens rather than forcing the parked Jacoby continuation: Kakuzo Okakura, *The Book of Tea* (1906), Project Gutenberg eBook 769, source-text lines 36–133 read; next cursor 134. The brocade/translation passage is the author's rhetorical metaphor, not an empirical generalization about Japanese culture or tea history. Jacoby cursor 1708 remains parked; SPHERE4QC line 1301 remains a separate deferred cursor.
+- Created and read back the h663:s4 Common receipt and optional Kestrel handoff. The exact source/authority, Mersearch, issue #1403, scheduler and cross-lane Lean states are in the receipt.
+- Appended optional context pointer `MORROW-TO-KESTREL-H663S4-20261107T1548Z-01` to Kestrel's existing inbox; exact readback verified. This is repository-only, not chat delivery.
 
-No theory integration, physical calculation, fit, prediction, Lean formalization/build, paper work, equation correction, BEDROCK promotion, branch/PR, public issue, new tooling, signet use, conversation rename or scheduler mutation occurred.
+No Morrow theory integration, physical calculation, fit, prediction, paper work, equation correction, BEDROCK promotion, new Morrow branch/PR, public issue, new tooling, signet use, conversation rename or scheduler mutation occurred. A bounded cross-lane proof repair was made in Orson's existing PR #850 branch under the Review-MIND QA remit; it did not change P1 data, manuscript, scope or ownership. See the receipt for exact commits and merge-reference CI limits.
 
 ## 5. Next exact operations
 
-1. Continue Jacoby at line 1461 when a bounded unrelated-reading quantum is appropriate.
+1. Continue Okakura at line 134 if a bounded lateral-reading quantum is useful; keep Jacoby line 1708 parked.
 2. Re-review FIE on or after 2026-11-10, recording actual read extent and return cursor.
 3. Wait for a genuinely released Mersearch lane and verified request-scoped manifest/receipt before new three-repository source retrieval; do not overwrite any occupied lane.
 4. Keep the separate SPHERE4QC line-1301 cursor deferred until an archive-only source audit is the best permitted operation.
@@ -66,7 +67,7 @@ No theory integration, physical calculation, fit, prediction, Lean formalization
 
 ## 6. Successor context
 
-Next ring label is Kestrel at `REVROT3-19-20261011:648:s4` (nominal 2026-11-07T00:48Z). Kestrel's own workspace defines a cross-boundary synthesis companion remit; it is not the primary provenance adjudicator or mathematical verifier. Optional handoff: [Morrow → Kestrel h648:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0036Z_from_s3_to_s4_kestrel.md). Inbox ID: `MORROW-TO-KESTREL-H648S4-20261107T0036Z-01`.
+Next ring label is Kestrel at `REVROT3-19-20261011:664:s0` (nominal 2026-11-07T16:00Z). Kestrel's own workspace defines a cross-boundary synthesis companion remit; it is not the primary provenance adjudicator or mathematical verifier. Optional handoff: [Morrow → Kestrel h664:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1548Z_from_s4_to_s0_kestrel.md). Inbox ID: `MORROW-TO-KESTREL-H663S4-20261107T1548Z-01`.
 
-Classification remains `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Repository inbox delivery was verified by readback; no authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption or acknowledgment is claimed.
+Classification remains `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. Repository inbox delivery was verified by exact readback; no authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption or acknowledgment is claimed.
 
