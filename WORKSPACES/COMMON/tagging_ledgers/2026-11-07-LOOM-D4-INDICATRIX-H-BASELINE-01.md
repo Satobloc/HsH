@@ -90,3 +90,34 @@ Recover an original indicatrix diagram/source; decide full D4 lattice versus roo
 - Information: the six-entry H descriptor is not an information metric; no probability model or Fisher tensor is defined.
 
 These are comparison lenses and open tests, not equivalences. No WWRD rope analogy or physical equivalence was used.
+
+
+## I. October 21 raw notation witness and October 29 prior-context witness
+
+### October 21 raw direct message
+- Conversation: Meridian Minkowski Ring Analysis, ID 6ad7e9c0-e8a0-83e9-984e-94d020de3abf.
+- Raw blob: 56a84cb85d5c386efa4ea11d322d11e95e2c7703.
+- Correct direct user-role message ID: c5525f53-b7cc-4444-8102-3bf6fdb1c892.
+- Timestamp: 2026-10-21T13:55:40.205Z.
+- Direct text: “So, we're always in cw=t, we're always in +/-(c+H_0)/2 [or whatever the proper expression of that is], we're always in Forest Normalizatin, and we're always in (++++)”.
+- Tags: NATHAN-DIRECT-RAW-USER-ROLE; CW-EQUALS-T; FOREST-NORMALIZATION; POSITIVE-DEFINITE-++++-CLAIM; H0-EXPRESSION-TENTATIVE-PLACEHOLDER; NATURAL-UNITS-CONTEXT.
+- An earlier Aster receipt carries a different UUID. The raw mapping above is the corrected locator.
+- The surrounding conversation rejects an assistant-invented numerical coincidence as evidence; the illustrative 120-day period and shear were assistant-generated and discarded, not physical data.
+
+### October 29 TOPLESS witness
+- Intake: WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-29_TOPLESS_GEOMETRIC_INTAKE.md, blob 74ce884326a25877dd226977a1c91eb016174893.
+- Aster recovery delta: WORKSPACES/ASTER/2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md, blob 8971125f18e9cad09b45c370e96a25159b2872.
+- Prior-context retrieval identifies user-role messages at 2026-10-29T17:00:52Z and 17:28:42Z and reports a later w=ct / Forest Normalization clarification, equal intrinsic wavefront speed c, and coiled/bunched matter versus straighter vacuum worldlines.
+- Tags: USER-AUTHORED-INDEX; PRIOR-CONTEXT-WITNESS; RAW-ARCHIVE-NOT-RECOVERED; FULL-BODY-ABSENT; MESSAGE-UUID-ABSENT; PARENT-BRANCH-ABSENT; SUPERSESSION-NOT-ESTABLISHED.
+- Keep the raw October 21 cw=t witness and the October 29 w=ct prior-context witness separate. No conversion map or source-authenticated supersession is established. Do not silently normalize either notation.
+
+### Chronology boundary
+September 30 indicatrix transcript -> October 8 H baseline -> October 9 one-core/worldtube claims -> October 21 raw cw=t/Forest Normalization/++++ -> October 29 TOPLESS prior-context w=ct witness. The H baseline is not yet mapped to either notation witness or the D4 indicatrix.
+
+## J. Post-run control-plane and routing sources read
+
+Read after initial work to complete the preflight audit: BEDROCK.md; Steering Charter 2026-10-26; Three Paper Campaign 2026-10-26; NEW_INSTANCE_START_HERE; INSTANCE_ONBOARDING_3REPO; README_ONBOARDING_POINTER; REVIVAL_ROTATION_PROTOCOL; REVIVAL_ROTATION_V3; REVIVAL_ROTATION_THREAD_ROUTING; REVIVAL_REENTRY_PROTOCOL_V2; REVIVAL_RELAY_THREAD_FIRST_RULE; REVIVAL_RELAY_NAVIGATION_PREFLIGHT; REFERENCE_DESK README; TOOLBOX_TOOLKIT_ROUTER; CROSS_REPO_SCRIPT_EXECUTION_STANDARD; SHARED_STATE_WRITE_SAFETY; AUTOMATION_WORKFLOW_CONTROL; SCHEDULER_AUTHORITY_MUST_READ; MERSEARCH_WORKER_START_HERE; MERSEARCH_RELEASES; WRITE_ROUTE_SMOKE_TEST; TOOLBOX_INGESTION_NAMESPACE_PRIORITY; WORKER_AUTONOMY_HANDOFF_PROTOCOL; NO_CONVERSATION_RENAMING_POLICY; FACTORY_FLOOR_GEOMETRY_FIRST_GATE. Tags: CONTROLLING-DIRECTIVE; TOOL-ROUTE-PREFLIGHT; THREAD-FIRST; SCHEDULER-AUTHORITY; SHARED-STATE-WRITE-SAFETY; MERSEARCH-PROTOCOL; FACTORY-FLOOR-GATE.
+
+Bounded existing-thread search: Loom workspace README/CURRENT_WORK/CONTINUITY/CHECKPOINT/INBOX plus prior-conversation context search found no authenticated usable current Loom thread. The archived LOOM Tag Conversation Corpus conversation is historical; the October 29 TOPLESS item is prior-context only and supplies no current thread pointer. Current automation chat_ref=null. Source-grounded revival in the scheduled turn was therefore used; no cross-thread delivery is claimed.
+
+Write-route audit: the project protocol prefers a local checked-out Git/house route or the approved issue-publisher workflow. This runtime exposed no local Git push/checkout route; the issue publisher was used for public output, and direct GitHub connector writes were used as fallback for internal continuity/receipt files. The preflight audit occurred after the initial internal writes, a process-order deviation; future runs must perform this route check before the first write. No tool or dependency was built.
