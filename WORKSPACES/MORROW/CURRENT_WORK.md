@@ -3,7 +3,7 @@
 > **LATEST OCCURRENCE — 2026-11-07T04:24Z.** Run `REVROT3-19-20261011:652:s2`, selected Morrow (ring index 13), next Kestrel (index 14). Current lease is Workshop Relay :24 | Geometry, task ID `6abda4c8eda88191bf23a6f2849e9a17`; original hourly phase/schedule unchanged. This is a source-grounded reconstruction, not an authenticated historical Morrow thread or a newly created chat. Jacoby source-text lines 1461–1707 read; next cursor 1708. Morrow-specific Mersearch request is completed, while four other shared lanes remain occupied/unverified. Issue #1403 remains SUBMITTED_NOT_VERIFIED; no safe edit-retry route is live. FIE next due 2026-11-10. Separate :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains unchanged. See receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0424Z_s2_morrow.md` and seed `WORKSPACES/MORROW/REGENERATION_SEED_2026-11-07.md`.
 
 
-**As of:** nominal 2026-11-07T00:36Z  
+**As of:** nominal 2026-11-07T04:24Z  
 **Run:** `REVROT3-19-20261011:648:s3`  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `ARCHIVE_ONLY / SOURCE_AND_CONTINUITY_CHECKPOINTED`  
