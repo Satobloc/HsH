@@ -20,7 +20,7 @@ The following source-level comparison is material:
 | Item | Nature Physics paper | PRL paper |
 |---|---|---|
 | Printed perturbation phase | (e^{i(kz+m\theta+\omega t)}) | (e^{i(kz+m\theta+\omega t)}) |
-| Printed Doppler-shifted frequency | (~tilde{\omega}=\omega+m\Omega_0+kv_z) | (~tilde{\omega}=\omega+m\Omega_0-kv_z) |
+| Printed Doppler-shifted frequency | (\tilde{\omega}=\omega+m\Omega_0+kv_z) | (\tilde{\omega}=\omega+m\Omega_0-kv_z) |
 | Prose convention for (v_z) | Positive downward | Positive downward |
 | Example fitted/used value | Figure 3 uses (v_z=+0.57\,\mathrm{m\,s^{-1}}) for the downward branch; another mode uses (+0.85\,\mathrm{m\,s^{-1}}) | Figure 2 caption uses (v_z=-0.63\,\mathrm{m\,s^{-1}}) |
 
