@@ -83,9 +83,9 @@ Classification remains `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRAN
 - The current-path August 27 Calder user message is a direct source for the inverse-pitch wording, but its 90-degree/time-normal pairing leaves the angle reference ambiguous. Off-path sibling and August 26 messages are not independent witnesses.
 - The exact September 16 raw user event behind the running-log entry remains unrecovered. The Calder export's only September 16 user message concerns Sable/Ravel coordination, not theta_4. The All-Worker Standards Read candidate is tool/assistant content, not a user-role source.
 - The current running log and BEDROCK BR-005 remain unchanged. FIE module blob `056ff72af5e01c2db4f554f549d9a99a7cb34ce9` is unchanged at current PR #674 head and an earlier head with successful Lean run #40447650215 (Lean 4.34.0 / Lake 5.0.0; 8,943 build jobs). The current integrated PR head remains unverified; the build's `#print axioms` outputs list `propext`, `Classical.choice`, and `Quot.sound`, but no separate axiom audit ran. This compiles conditional complementarity algebra only, not source intent or physical truth. No Lean run occurred in this execution; no theory work, physical calculation, or prediction occurred.
-- Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `d82f9c9c4f3629dfbe4a7d8b7c2c1f0fcb35182d`.
+- Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `001cfcd5024c6d888617ac514525c1bdb207de77`.
 - Updated source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md`, blob `79b720bfdd638c8ee7318b793e7a44318baeec1c`.
-- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `35411ce3e6743094e845ada59bde5dbe7d08955f`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `dec5eadd3b92b7c2498bb9d51e9b2646172ba7c2`.
 - Unrelated reading advanced from lines 36–133 to lines 134–488; next cursor 489. FIE due 2026-11-10. No physical break is claimed.
 
 ## 8. Latest successor context: Kestrel h667:s4
