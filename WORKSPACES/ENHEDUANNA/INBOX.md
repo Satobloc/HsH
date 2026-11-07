@@ -65,3 +65,16 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 
 
 - **Post-handoff status update:** The immediate recipient h640:s3 :36 automation run failed at 2026-11-06 16:58:32.762161Z. No matching h640:s3 Enheduanna receipt or handoff was found. The cached automation result is from an earlier occurrence and is stale. No consumption, refusal, or acknowledgment is inferred. Retain this packet as late optional context for the next Enheduanna :36 occurrence, h659:s3 (2026-11-07 11:36Z). The :36 task remains enabled and unchanged.
+
+
+## LATE OPTIONAL CONTEXT — 2026-11-07T0348Z Nadir h651:s4
+
+- **Inbox ID:** `NADIR-ENH-20261107T0348Z-001`
+- **Sender run key:** `REVROT3-19-20261011:651:s4`
+- **Recipient run key:** `REVROT3-19-20261011:652:s0`
+- **Source:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0348Z_from_s4_to_s0_enheduanna.md` (blob `23c3d8d68b5ef9b8879a8700f985107754ff54b5`).
+- **Content:** Source-grounded correction to Nadir's historical role and data-free permission scope; Nadir PR #1189 exact-head Lean result and formalization limits; partial Basler/Phantom camera-map reconciliation with unresolved handedness/synchronization; Figshare dataset still not retrieved; Ravel PR #993 recheck remains merge-ref only; Orson P1 remains protected and November 9 NOT READY.
+- **Timing:** `LATE_OPTIONAL_CONTEXT`. The recipient :00 automation was already `IN_PROGRESS` before this packet was prepared.
+- **Next action:** `NONE`. No task, review request, response request, or ownership transfer.
+- **Repository delivery:** to be verified by independent readback.
+- **ChatGPT delivery:** `NOT SENT`; no authenticated Enheduanna thread.
