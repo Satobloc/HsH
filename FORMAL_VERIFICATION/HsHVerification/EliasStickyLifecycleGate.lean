@@ -75,8 +75,9 @@ def candidateWellFormed (c : Candidate) : Bool :=
   c.captureExposureManifest != ""
 
 /-- A receipt must bind to the captured candidate and source version,
-    identify a genuinely distinct test context, and record the expected and
-    observed behavior, outcome, reviewer reference, and test exposure. -/
+    record a different test-context label, and include nonempty behavior,
+    outcome, reviewer-reference, and exposure fields. These references are
+    not authenticated by this predicate. -/
 def validTransferReceipt (c : Candidate) (r : TransferReceipt) : Bool :=
   candidateWellFormed c &&
   (r.candidateId == c.id) &&
