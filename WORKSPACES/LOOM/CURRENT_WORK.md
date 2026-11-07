@@ -148,3 +148,5 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - The first publisher envelope issue #1459 was rejected and closed; corrected retry #1460 used the required schema and published one artifact only.
 - Automation record at final peek: current run c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 is recorded FAILED, chat_ref=null; latest_result belongs to older h660/Morrow run. Work products are verified, but automation chat delivery is unknown. Task ID, enabled state, prompt, schedule, and :00 phase remain unchanged.
 - Next cursor: define the D4 subset/embedding, marker correspondence, marked-point readout, per-order transform-to-H map, and metric before Lean formalization. Keep March 7 UI, September 30 indicatrix, and October 8 H baseline distinct.
+
+- Cross-lens guardrails (inside/outside; GR/string/SM-QM/information) are recorded in issue #1460 and the h669 continuity/tagging records; no equivalences asserted.
