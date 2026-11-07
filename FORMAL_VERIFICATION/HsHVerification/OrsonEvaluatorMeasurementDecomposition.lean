@@ -121,6 +121,105 @@ theorem all_wrong_context_shift
   simp [signedPeerContext]
 
 /-!
+## Pass-order identifiability boundary
+
+The v2 source says every answer is rated blindly and each peer-presented
+answer is then rated again with the peer block visible; Appendix B.1/B.2
+lists the blind and informed prompts but does not report randomized or
+counterbalanced pass order. The source model includes only the signed
+context term gamma_j*d_i on the informed pass; it has no pass-order
+intercept or context-by-order interaction.
+
+The following is an assistant-derived sensitivity model, not a claim that
+an order effect actually occurred. Let tau be a generic second-pass effect,
+gamma the peer-context slope, and omega a context-dependent order interaction.
+Under the reported fixed blind-then-informed sequence, the observable shift
+is tau + (gamma + omega)*d. The projection to (tau, gamma + omega) is
+non-injective: gamma and omega cannot be separated without order variation
+or the assumption omega = 0. The mixed context d = 0 can identify tau under
+this additive extension, but does not separate gamma from omega.
+-/
+
+/-- Parameter tuple for the fixed-order sensitivity extension:
+    (generic pass effect, peer-context effect, context-by-order interaction). -/
+abbrev PassOrderParameters := ℝ × ℝ × ℝ
+
+/-- Observable parameter projection under a fixed blind-then-informed order:
+    only the generic pass effect and the sum of context and order slopes remain. -/
+def fixedOrderParameterProjection (p : PassOrderParameters) : ℝ × ℝ :=
+  (p.1, p.2.1 + p.2.2)
+
+/-- Paired informed-minus-blind shift under the fixed reported order. -/
+def fixedOrderObservedShift (p : PassOrderParameters) (d : ℝ) : ℝ :=
+  p.1 + (p.2.1 + p.2.2) * d
+
+/-- The fixed-order observation factors through the two-coordinate projection. -/
+theorem fixedOrderObservedShift_factors_through_projection
+    (p : PassOrderParameters) (d : ℝ) :
+    fixedOrderObservedShift p d =
+      (fixedOrderParameterProjection p).1 +
+        (fixedOrderParameterProjection p).2 * d := by
+  rfl
+
+/-- Compensating transfer between peer-context and context-dependent order
+    effects leaves every fixed-order observable parameter unchanged. -/
+theorem fixedOrderProjection_compensating_transfer
+    (tau gamma omega c : ℝ) :
+    fixedOrderParameterProjection (tau, gamma + c, omega - c) =
+      fixedOrderParameterProjection (tau, gamma, omega) := by
+  simp [fixedOrderParameterProjection]
+
+/-- The fixed-order parameter projection is not injective. -/
+theorem fixedOrderProjection_not_injective :
+    ¬ Function.Injective fixedOrderParameterProjection := by
+  intro hinj
+  have heq :
+      fixedOrderParameterProjection (0, 0, 0) =
+        fixedOrderParameterProjection (0, 1, -1) := by
+    simp [fixedOrderParameterProjection]
+  have hne : (0, 0, 0 : PassOrderParameters) ≠ (0, 1, -1) := by
+    norm_num
+  exact hne (hinj heq)
+
+/-- In the mixed context (d = 0), the fixed-order shift equals the
+    generic pass effect under this additive extension. -/
+theorem mixed_context_identifies_pass_intercept
+    (p : PassOrderParameters) :
+    fixedOrderObservedShift p 0 = p.1 := by
+  simp [fixedOrderObservedShift]
+
+/-- The all-correct minus all-wrong contrast identifies twice the combined
+    peer-context plus context-dependent order slope, not either component alone. -/
+theorem signed_context_difference_identifies_combined_slope
+    (p : PassOrderParameters) :
+    fixedOrderObservedShift p 1 - fixedOrderObservedShift p (-1) =
+      2 * (p.2.1 + p.2.2) := by
+  simp [fixedOrderObservedShift]
+  ring
+
+/-- Counterbalancing pass order with orientations +1 and -1 cancels both
+    generic and context-dependent order effects, leaving the peer-context term.
+    This is a proposed design identity, not a source-paper experiment. -/
+def observedShiftWithOrder
+    (tau gamma omega d orderOrientation : ℝ) : ℝ :=
+  gamma * d + orderOrientation * (tau + omega * d)
+
+theorem counterbalanced_order_average_is_peer_context_slope
+    (tau gamma omega d : ℝ) :
+    (observedShiftWithOrder tau gamma omega d 1 +
+      observedShiftWithOrder tau gamma omega d (-1)) / 2 =
+      gamma * d := by
+  unfold observedShiftWithOrder
+  ring
+
+#print axioms fixedOrderObservedShift_factors_through_projection
+#print axioms fixedOrderProjection_compensating_transfer
+#print axioms fixedOrderProjection_not_injective
+#print axioms mixed_context_identifies_pass_intercept
+#print axioms signed_context_difference_identifies_combined_slope
+#print axioms counterbalanced_order_average_is_peer_context_slope
+
+/-!
 ## Conditional identifiability of the six-cue peer-presentation bundle
 
 Guerra & Hu list six prompt features that change jointly in the peer-presentation
