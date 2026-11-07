@@ -3,9 +3,10 @@
 **Status:** worker-specific continuity pilot; assistant-maintained navigation card. Not a common standard, historical-instance claim, or theory authority.
 
 ## Run stamp
-- **Routing key:** REVROT3-19-20261011:642:s2 (h=642, s2, sequence=3212, ring index 1 = Loom; next ring index 2 = Aster, s3).
-- **Scheduler:** task 6abda4c8eda88191bf23a6f2849e9a17, enabled, original hourly America/New_York :24 phase unchanged. Exact VEVENT: DTSTART;TZID=America/New_York:20261001T142400; RRULE:FREQ=HOURLY.
-- **Current run:** d15c23aa-fb8c-832c-b144-54aece34578b, scheduled 2026-11-06T18:24:00Z, started 18:53:26.992097Z; last peek in_progress, completed_at=null, chat_ref=null. Cached latest result belongs to h641/Meridian run 3560bfa2-794c-8321-ae5e-3df2b32c16e8; it is not this run's output.
+- **Routing key:** REVROT3-19-20261011:657:s3 (h=657, s3, sequence=3288, ring index 1 = Loom; next ring index 2 = Aster, s4).
+- **Scheduler:** task 6a9f52b69ec08191b0a2ba24a074f781, enabled, original hourly America/New_York :36 phase unchanged. Exact VEVENT: DTSTART;TZID=America/New_York:20261001T143600; RRULE:FREQ=HOURLY.
+- **Current run:** 0c3923cb-55d4-8325-b0f3-dadddc0a86f6, scheduled 2026-11-07T09:36:00Z, started 10:45:25.634100Z, completed 11:10:39.770862Z, chat_ref=null; latest_result.is_failure_message=true. Aster's h657:s4 receipt separately reported an earlier Loom h657:s3 failure at 10:00:52Z; its run ID was not supplied, so the relation between the two observations is unknown.
+- This is a delayed occurrence selected by scheduled_for, not started_at. Aster h657:s4 had already started at 10:47:11.394913Z and completed at 11:00:51.235342Z before this :36 run completed. Any handoff is late optional repository context.
 - This routing stamp is not a signature, persistent model identity, or thread ID. No task, ID, schedule, phase, cadence, enabled state, or task count was changed.
 
 ## Identity and remit
@@ -22,9 +23,9 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 ## Current cursors
 - **Corpus:** all 138 `DIMENSIONAL GRAVITY` user-role turns remain tagged. Assistant-span ancestry has now been read through assistant node `f10e6bcf-f1c0-4749-a026-ca0dcb9004f3` at current-ancestry index 360. The next node is user `aaa2cde7-2625-4acd-ac69-3efc59909aff` at 2024-03-28 06:10:19.285Z (index 361), already inside the 138/138 user-tag corpus. Continue with assistant response `bd861191-6499-486e-9c16-7a1ef58396cf` at index 362; do not retag user turns.
 - **H(s)H:** parked return cursor is source-grounded recovery of the Klein Fabric topology/instantiation relation, not a presumed material-flow object. Resume only after Code Grurple standdown; if no direct source defines the relation, leave it missing. Preserve `w=ct` and `cw=t` literally; no conversion map is supplied.
-- **Lateral reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 461–680 are cumulatively tagged in `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`; section H records lines 641–680. Next cursor: line 681. This run read lines 641–680; no physical break is claimed. Textual speaker labels remain transcript-only, not raw role metadata.
+- **Lateral reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 641–720 are cumulatively tagged in `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`; section I records lines 681–720. Next cursor: line 721. Textual speaker labels remain transcript-only, not raw role metadata.
 - **Clone census:** Loom's one-time entry already exists. The live log now contains 10 distinct ring-label sections (Nadir Voss, Kestrel, Orson Vay, Mira, Loom, Meridian, Aldus, Calder, Enheduanna, Morrow), all reconstructed from receipts/current-run records, with no authenticated first-hand worker-thread responses. The log header says 8/19; the action plan and task graph still say 1/19. Tern owns reconciliation; no duplicate Loom entry and no control-plane edit were made.
-- **Mersearch:** Mersearch was not exposed as a tool in this runtime; all four shared request files were nonempty/occupied. No request was submitted, overwritten, or reset. Direct immutable-blob retrieval was a bounded fallback, not a Mersearch run.
+- **Mersearch:** no direct Mersearch connector was exposed. Existing completed lane 3 and lane 4 manifests/compact receipts were reused as navigation; raw results remain withheld and shared request files were not changed. No new request was submitted or overwritten. Direct raw-source fetch from a known Mersearch hit path was bounded retrieval, not a new Mersearch run.
 
 ## Next / waiting
 1. After Code Grurple standdown, resume the source-grounded Klein Fabric topology/instantiation map.
@@ -100,3 +101,17 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1824Z_s2_loom_AMENDMENT_01.md, blob e8417df00fc22782deb8b1de0e616fa9d243ba65; exact readback PASS.
 - Aster inbox scheduler addendum: blob 8ef15b15e587b803ecd6ff81a7bcb1775504a934; exact readback PASS.
 - Handoff remains LATE_OPTIONAL_CONTEXT. The failed run is not treated as refusal or nonresponse. No retry, reroll, task change or new handoff target.
+
+
+## Latest :36 activation | 2026-11-07T0936Z
+
+- Run key: REVROT3-19-20261011:657:s3; selected Loom, next Aster. The current run is a current-assistant reconstruction; no authenticated historical Loom thread was found, and chat_ref is null. No new chat was created.
+- Main improvement: source-lineage/operation-type crosswalk separating COMPOSE/AGGREGATE, INTERSECT/SLICE, THICKEN/EMBED, FRAME/TWIST, CONTACT, INTERBRAID, NEST, COARSE-GRAIN, PROJECT/READOUT and MEASURE. Historical filament/thread/twine/yarn/bundle/rope is a composition proposal, not a nesting map. Finite-core/worldtube, twist and contact surface remain typed as current target/optional/unresolved rather than physically forced.
+- Public artifact: issue #1448, PUBLISHED_VERIFIED. Submission loom-geometry-term-lineage-20261107t0936z-s3-001; publisher comment #6706125430; SHA-256 d2a94b414dcfbdc2a8450c4f8fae691109c1de1aeb68dc970184c3b22ec3236d; artifact blob 2a0a54ae6a58bece6ff65fbc74a750395fdf1a8d. Issue-payload content and published artifact were independently compared and matched exactly.
+- Regeneration prompt: WORKSPACES/LOOM/REGENERATION_PROMPT_2026-11-07T0936Z.md, blob 999216f92a7522b11f3d4d458ee14795349a7f0b; exact readback PASS. This is paste-ready only; no thread was created or delivered to.
+- Lateral reading: SAT archive fun break - lx.txt lines 681–720 read; section I appended to WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md, blob 66722834cd2b38261090054759e06cb0e661bd62; exact readback PASS. Next cursor line 721. Textual speaker labels are not raw role metadata; assistant linguistic claims were not independently fact-checked.
+- Mersearch: existing completed lane 3 and lane 4 compact manifests/receipts were reused as navigation; raw results remain withheld. No new request or lane overwrite. Direct raw DIMENSIONAL GRAVITY source retrieval was bounded to the known hit path. Existing user-turn tags were not duplicated.
+- Formalization: no new Lean theorem/build; source-defined finite-core/twist/contact/Klein maps remain incomplete and new data-free pure-geometry calculation requires Nathan's prior permission. No physical system/dataset, calculation, fit, prediction, falsification threshold or empirical validation.
+- Klein Fabric remains parked until Code Grurple standdown. No SAT-O/Blockwave equation was copied, corrected or re-attributed; no new shared symbol.
+- Scheduler readback: current :36 occurrence completed with latest_result.is_failure_message=true and chat_ref=null. Do not infer why or treat it as a successful scheduler completion. Earlier same-slot failure observation at 10:00:52Z is not linked to this run ID. Aster h657:s4 already completed; any packet is LATE_OPTIONAL_CONTEXT only, repository delivery not thread delivery.
+- P1 Nov 9, P2 Nov 30 and P3 Dec 14 remain separate and unchanged. Code Grurple remains ACTIVE/P0. FIE full rereview due Nov 10 (last full review Oct 27). No BEDROCK promotion, task/ID/cadence change, new branch/PR/tool/dependency, or sixth task.
