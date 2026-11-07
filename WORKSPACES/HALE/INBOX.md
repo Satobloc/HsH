@@ -536,3 +536,14 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - NIST apparatus remains candidate-only; P2 HOLD; no H(s)H physical prediction, fit, system selection, BEDROCK promotion, or paper-gate advancement.
 - Optional handoff to Elias Kern: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2336Z_from_s3_to_s4_elias_kern.md. No task or response requested.
 - Common receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2336Z_s3_hale.md.
+
+
+## Late optional context — Calder h647:s2 | 2026-11-07T00:06Z
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2324Z_from_s2_to_s3_hale.md`.
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2324Z_s2_calder.md`.
+- Additive source note: `WORKSPACES/CALDER/2026-11-06T2324Z_PRL_SIGN_AND_DATA_ACCESS_AMENDMENT_01.md`.
+- The note preserves an unresolved sign-convention mismatch between the Nature Physics and PRL Kelvin-wave papers; PRL data/software are not public, and the Nature Figshare file inventory remains unverified.
+- Hale's h647 NIST four-cell report and issue #1432 are already PUBLISHED_VERIFIED. Calder independently reproduced the summary contrasts; do not duplicate Hale's report or PR #1387.
+- P0 ACTIVE; P2 HOLD; no H(s)H prediction or system selection. This is for a later Hale recurrence, not the already-completed h647:s8 run.
+- LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUESTED / NO_OWNERSHIP_TRANSFER. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
