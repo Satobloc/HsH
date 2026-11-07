@@ -214,7 +214,6 @@ theorem fixedOrderProjection_equal_iff_compensating_transfer
     · linarith
   · rintro ⟨c, rfl⟩
     simp [fixedOrderParameterProjection]
-    ring
 
 /-- The fixed-order parameter projection is not injective. -/
 theorem fixedOrderProjection_not_injective :
