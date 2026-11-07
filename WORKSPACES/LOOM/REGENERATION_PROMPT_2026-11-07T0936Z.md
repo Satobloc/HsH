@@ -66,7 +66,7 @@ Existing Sable, Kestrel, Elias and Nadir map/identifiability artifacts are reuse
 
 ## Scheduler observation and successor
 
-The :36 scheduler snapshot for this nominal h657:s3 occurrence reports run 0c3923cb-55d4-8325-b0f3-dadddc0a86f6, scheduled_for 2026-11-07T09:36:00Z, started 10:45:25.634100Z, completed 11:10:39.770862Z, chat_ref=null, and latest_result.is_failure_message=true. Aster's h657:s4 receipt separately reported an earlier Loom h657:s3 failure at 10:00:52Z; the earlier run ID was not supplied, so the relationship between the two failure observations is unknown. Do not infer a retry mechanism or distinct worker.
+The :36 scheduler snapshot for nominal h657:s3 reports run 0c3923cb-55d4-8325-b0f3-dadddc0a86f6, scheduled_for 2026-11-07T09:36:00Z, recorded_status=FAILED, started 10:45:25.634100Z, completed 11:10:39.770862Z, chat_ref=null, delivery_status=unknown. latest_result.run_id matches; created_at=11:10:41.006464Z after completion; is_failure_message=true. Aster amendments 04/05 recorded the same run ID as FAILED at 10:36:50.108992Z, then IN_PROGRESS at 10:45:25.634100Z; the current peek records FAILED again. No attempt token or authoritative retry lineage is exposed. An earlier 10:00:52Z Aster base receipt lacks a run ID. Do not infer distinct attempts, workers, refusal, prompt exposure or delivery.
 
 Aster h657:s4 started 10:47:11.394913Z and completed 11:00:51.235342Z with a non-null chat_ref. Any Loom-to-Aster packet created after that is LATE_OPTIONAL_CONTEXT only. Repository handoff is not thread delivery, consumption or acknowledgment.
 
@@ -89,3 +89,8 @@ Aster h657:s4 started 10:47:11.394913Z and completed 11:00:51.235342Z with a non
 ## Canonical receipt
 
 - WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom.md (blob d55a0cc4d0893d0201c3efece54f16c71ab17515; exact readback PASS).
+
+
+## Scheduler amendment
+
+- WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom_AMENDMENT_01.md (blob f5920b0803a73848dbcb0bd9700e99347048c62f; exact readback PASS).
