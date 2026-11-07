@@ -315,4 +315,67 @@ theorem run48_start_lag_is_162235624us :
 #print axioms run48_cached_result_is_not_current_run
 #print axioms all_current_run_chat_refs_are_absent
 
+
+/-!
+Later read-only peek of the same :48 automation record during the h659:s4
+continuity execution. The run ID and scheduled_for are unchanged from
+run48, while the returned started_at value differs. No attempt_id is exposed.
+The later latest_result still belongs to the earlier h657:s4 run.
+Timestamps remain microseconds since 2026-11-06T00:00:00Z.
+-/
+
+def run48LaterObservation : RunSnapshot :=
+  ⟨ "83a9e3c7-813c-8326-aa19-2a5b085e25e8"
+  , 128_880_000_000
+  , 133_378_859_977
+  , HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress
+  , none
+  , false
+  , "c38b404b-b044-8322-87c5-e9ec8684daa0"
+  , some 126_049_537_930
+  , true
+  , true
+  , true
+  ⟩
+
+theorem run48_same_run_id_across_observations :
+    run48.runId = run48LaterObservation.runId := by decide
+
+theorem run48_same_scheduled_occurrence_across_observations :
+    run48.scheduledUs = run48LaterObservation.scheduledUs := by decide
+
+theorem run48_status_remains_in_progress :
+    run48.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress ∧
+    run48LaterObservation.status = HsHVerification.TernH591SchedulerEvidence.RecordedStatus.inProgress := by decide
+
+theorem run48_completion_absent_in_both_observations :
+    run48.completedUs = none ∧ run48LaterObservation.completedUs = none := by decide
+
+theorem run48_started_at_changed_between_observations :
+    run48.startedUs ≠ run48LaterObservation.startedUs := by decide
+
+theorem run48_observed_start_shift_is_4336624353us :
+    run48LaterObservation.startedUs - run48.startedUs = 4_336_624_353 := by decide
+
+theorem run48_later_start_lag_is_4498859977us :
+    run48LaterObservation.startedUs - run48LaterObservation.scheduledUs = 4_498_859_977 := by decide
+
+theorem run48_cached_result_remains_distinct_from_current_run :
+    run48LaterObservation.latestResultRunId ≠ run48LaterObservation.runId ∧
+    run48LaterObservation.latestResultFromEarlierSlot = true ∧
+    run48LaterObservation.latestResultCompleted = true := by decide
+
+theorem run48_chat_ref_remains_absent_in_both_observations :
+    run48.chatRefPresent = false ∧ run48LaterObservation.chatRefPresent = false := by decide
+
+#print axioms run48_same_run_id_across_observations
+#print axioms run48_same_scheduled_occurrence_across_observations
+#print axioms run48_status_remains_in_progress
+#print axioms run48_completion_absent_in_both_observations
+#print axioms run48_started_at_changed_between_observations
+#print axioms run48_observed_start_shift_is_4336624353us
+#print axioms run48_later_start_lag_is_4498859977us
+#print axioms run48_cached_result_remains_distinct_from_current_run
+#print axioms run48_chat_ref_remains_absent_in_both_observations
+
 end HsHVerification.TernH659SchedulerSnapshotEvidence
