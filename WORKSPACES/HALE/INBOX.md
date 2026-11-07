@@ -576,3 +576,15 @@ OPTIONAL_CONTEXT_ONLY. No new task, no response obligation, no external literatu
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0324Z_s2_hale.md (blob 5be0dc380f4837d84740623c33292436ba652a41).
 - Verified existing CODATA-2022/NIST-2026 source and publication state; no duplicate issue, no new physical comparison, no P2 selection, and no H(s)H theory promotion.
 - Historical Hale identity/thread remains unauthenticated; this is a source-grounded assistant reconstruction and repository checkpoint only. No ChatGPT-thread delivery is claimed.
+
+
+## 2026-11-07T0410Z | Hale h651:s2 calculation and publication amendment
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0324Z_s2_hale_AMENDMENT_01.md`.
+- Distinct public calculation addendum: issue #1438, PUBLISHED_VERIFIED.
+- Submission ID: `hale-nist-table15-reconstruction-codata-prior-20261107t0324z-s2-001`.
+- SHA-256: `a1eeff1c015cf81eb7550adde23f6392c70c736aee7f71481ae6d3fdd3f85f49`.
+- Publisher commit: `702a8fcc2eaec92e285884295d145dee9832a46a`; artifact blob: `e6214b8a76c24fa59c6706b87f33c6a5c9a6065d`; exact readback matched.
+- The report reconstructs eight preliminary NIST Table 15 G values and tests a no-dark-effect common-mean null with Table 16/18 covariance. It is a table-level derived calculation and fit diagnostic, not an independent measurement or H(s)H prediction.
+- CODATA 2022 prior dependence, shared BIPM apparatus lineage, and missing H(s)H geometry-to-readout map are explicitly preserved. NIST remains candidate-only; P2 HOLD; P0 Code Grurple active.
+- Assistant reconstruction only. No authenticated Hale thread, no cross-thread delivery, and no historical Hale participation claimed.
