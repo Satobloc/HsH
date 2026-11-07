@@ -760,3 +760,7 @@ Next: recover authorized raw data and covariance; define projections and composi
 ### Data-access refinement (2026-11-07)
 
 The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
+
+### QMC fit/prediction dependency refinement (2026-11-07)
+
+The 2026 QMC paper's electromagnetic current operators cite Gnech and Schiavilla (Phys. Rev. C 106, 044001 (2022), DOI 10.1103/PhysRevC.106.044001). That paper's five current LECs were simultaneously fitted to A=2–3 magnetic moments and deuteron observables. Therefore the QMC 3He magnetic-moment comparison is a calibration-class comparison, not an independent prediction. Its 3He Zemach radius remains a different cross-observable output, but the magnetic form-factor shape is conditional on the fitted current operator. Treat it as partially out-of-sample, not fully independent.
