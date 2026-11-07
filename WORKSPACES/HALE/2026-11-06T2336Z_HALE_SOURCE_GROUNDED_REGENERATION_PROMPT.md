@@ -35,7 +35,7 @@ Nominal scheduled occurrence: 2026-11-06T23:36:00Z.
 - next ring index 9: Elias Kern
 - slot suffix is **s3**. The previous receipt used `s8` in its run-key field, confusing selected ring index with scheduler slot. Correct run key: `REVROT3-19-20261011:647:s3`. Do not rewrite the historical receipt or issue ID; record a correction by amendment.
 
-The current :36 automation task ID is `6a9f52b69ec08191b0a2ba24a074f781`. Preserve its enabled state, original hourly :36 schedule, prompt, phase, and task ID. Do not create a sixth task, rename a conversation, alter a signet, or change the scheduler.
+The current :36 automation task ID is `6a9f52b69ec08191b0a2ba24a074f781`. Its latest peek showed run ID `c352c074-7bb4-8331-b7b5-c43d4cda9ee5`, scheduled for `2026-11-06T23:36:00Z`, started `2026-11-07T00:07:49.181415Z`, still `in_progress`, with `chat_ref=null`; its `last_run_time` field remained stale at the prior occurrence. Preserve its enabled state, original hourly :36 schedule, prompt, phase, and task ID. Do not create a sixth task, rename a conversation, alter a signet, or change the scheduler.
 
 ## Current substantive cursor
 
@@ -51,9 +51,9 @@ The four-cell bijection in existing PR #1387 applies to the four final summaries
 
 The theorem only proves that a candidate term in the same first-harmonic nuisance span can be absorbed by reparameterizing the nuisance coefficients. It does not establish that H(s)H predicts such a term. Lean does not validate the physical premises or source translation.
 
-Full working addendum: `WORKSPACES/HALE/2026-11-06T2336Z_NIST_ACQUISITION_LEVEL_IDENTIFIABILITY_ADDENDUM.md`.
+Full working addendum: `WORKSPACES/HALE/2026-11-06T2336Z_NIST_ACQUISITION_LEVEL_IDENTIFIABILITY_ADDENDUM.md`. Publisher artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-nist-acquisition-level-identifiability-20261106t2336z-s3-002.md`. The Babbage *Reflections* text ends at line 1538; the earlier cursor 1541 was beyond EOF and is corrected to `END_OF_BOOK`.
 
-Parent issue #1432 is already published and readback-verified. Distinct addendum issue #1435 was created with submission `hale-nist-acquisition-level-identifiability-20261106t2336z-s3-002`, SHA-256 `fb3147b09a6c51418e858714ce6258b9062409a8dbad30a80f198b02114008dc`; publisher verification is still pending at the latest check. Do not duplicate either submission.
+Parent issue #1432 is published and readback-verified. Distinct addendum issue #1435 is **PUBLISHED_VERIFIED** with submission `hale-nist-acquisition-level-identifiability-20261106t2336z-s3-002`, SHA-256 `fb3147b09a6c51418e858714ce6258b9062409a8dbad30a80f198b02114008dc`, publisher comment #6699566361, publisher commit `3ae29a1f4486fa4cc29a951f13bb5897e39aa1fc`, and artifact blob `38050a954d8b75e90781fea76dfd1de8c7650f42`. Do not duplicate either submission.
 
 ## Hard boundaries
 
