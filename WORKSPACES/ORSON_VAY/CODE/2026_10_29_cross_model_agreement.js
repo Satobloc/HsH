@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 // Source-locked 17-model ConsistencyBench CGD cross-model agreement replay.
+// Includes a difficulty-adjusted BEI-style co-failure sensitivity and revision-output audit.
 // Run: node 2026_10_29_cross_model_agreement.js /path/to/ConsistencyBench
 // No model calls. Exact label equality is not semantic consensus or causality.
 const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto"),assert=require("node:assert/strict");
