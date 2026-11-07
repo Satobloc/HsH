@@ -171,3 +171,19 @@ Do not conflate first Klein-related precursor, first descriptive worldtube-fabri
 GW241011 is a real published finite-size comparator, not a P2 selection or H(s)H validation. Keep primary-only `delta_kappa_1` distinct from the tighter `delta_kappa_s` result that assumes equal component coefficients. The standard GR metric→multipoles→`(chi,kappa)` map exists; H(s)H has no corresponding source-defined metric/invariant→multipole map. Multiple model families remain compatible with the observed posterior, so `kappa` alone does not identify a unique interior. No H(s)H prediction, fit, raw-strain/posterior reanalysis or numeric falsification threshold is available.
 
 Source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-04-LOOM-KLEIN-FABRIC-BRANCH-CHRONOLOGY-ADDENDUM-02.md`. Public addendum: issue #1343. This register is a source/terminology control, not a BEDROCK theory promotion.
+
+
+## 2026-11-07 Loom h669:s0 - Indicatrix / D4 / H baseline
+
+| Term | Controlled meaning | Hazard / relationship |
+|---|---|---|
+| Indicatrix | Fixed and movable coincident unit-hypersphere/grid construction in Euclidean four-space | Direct descriptive geometry from transcript; user-turn attribution is transcript-inferred, not raw role-coded. |
+| D4 root lattice | Candidate discrete coordinate scaffold | Name supplied by assistant after geometry was described; user accepted it. Do not attribute a D4 derivation to Nathan Direct. Full lattice, root shell, and continuous sphere are distinct. |
+| Root-shell normalization | Candidate map n -> n/sqrt(2) for norm-squared-2 D4 vectors | Standard mathematical candidate; not source-specified. Finite lattice symmetry is not the full continuous SO(4). |
+| H baseline | Zero-deviation normalization reference for a regular second-order superhelix | Direct user intent, 2026-10-08. Do not identify with H/transport in issue #4 or H(lambda) in #559. |
+| H feature vector | Assistant-generated six angle/displacement/log-scale entries | Feature map, not a strict metric. No d_H, g_H, unit normalization, or transform projection defined. |
+| Index sphere | Later direct term associated with each helical order | Not explicitly equated with the earlier indicatrix. Keep terms separate. |
+| Marked-point readout | Relative path of a point on movable grid against fixed copy | Direct intent; difference/projection/ray/multi-marker map unresolved. |
+| Worldline / worldtube | Point history / extended support through history | Distinct object dimensions. Do not infer a thickening map from analogy. |
+
+Related but not identical: March 7 phase/spin-space Universal Indicatrix UI in #1244 versus September 30 Euclidean worldline indicatrix. H baseline is not identified with either. Assistant spectral winding count is input, not prediction. User one-core correction supersedes earlier assistant two-curve carrier model.
