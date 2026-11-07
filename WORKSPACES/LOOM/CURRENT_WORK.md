@@ -121,3 +121,5 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom.md (blob d55a0cc4d0893d0201c3efece54f16c71ab17515; exact readback PASS).
 
 - **Scheduler amendment:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom_AMENDMENT_01.md (blob f5920b0803a73848dbcb0bd9700e99347048c62f; exact readback PASS).
+
+- **Tern scheduler note:** WORKSPACES/TERN/INBOX.md, h657:s3 final scheduler observation (blob 30b5747957e1e2050444f7e4ea168b67cc5f3ba1; exact readback PASS); optional control-plane context only.
