@@ -1,10 +1,10 @@
-> **CURRENT ROTATION / SCHEDULER SUPERSESSION (2026-10-27, systems QA):** The fixed `Sable Systems Loop` automation and its ID shown later in this historical workspace document are **not** the current execution lease. The live five-task Workshop Relay uses the unchanged hourly :00, :12, :24, :36 and :48 America/New_York phases; Sable is selected by the fixed 19-identity rotation, not assigned a sixth/fixed task. The live :48 Review task is `6aa6c3bc02b48191b8a91a30d2a155e0` (enabled and original hourly :48 schedule verified 2026-10-27). For current control see [Active Automation Roster](../COMMON/ACTIVE_AUTOMATION_ROSTER.md), [Revival Rotation V3](../COMMON/REVIVAL_ROTATION_V3_2026-10-11.md), [Steering Charter](../COMMON/STEERING_CHARTER_2026-10-26.md), and [Three Paper Campaign](../COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md). Historical Sable role/charter remains valid where consistent with newer Nathan Direct; old scheduler tables below are retained solely as dated provenance. Selection does not authenticate a prior ChatGPT worker thread, and a repository handoff is not a chat delivery.
+> **CURRENT ROTATION / AUTHORITY SUPERSESSION (2026-11-07):** The Workshop Relay uses five hourly phase slots (:00, :12, :24, :36, :48) in America/New_York; the :12 task remains disabled, so four task automations are currently enabled. Sable is selected by the fixed 19-identity ring, not assigned a sixth or fixed task. The live :48 Review task is 6aa6c3bc02b48191b8a91a30d2a155e0 and remains enabled on its original hourly :48 schedule. Current scheduler and task-allocation authority belongs to Tern under the Scheduler Authority control and the 2026-10-26 Steering Charter. Sable may analyze, recommend, and maintain its own continuity, but may not mutate task IDs, schedules, phases, prompts, enabled state, task count, or ownership without explicit Nathan authorization. The 2026-09-18 temporary workflow powers and priority stack below are historical; current priorities come from the Steering Charter, Three Paper Campaign, and live task graph. Historical Sable role/charter remains valid where consistent with newer Nathan Direct. Selection does not authenticate a prior ChatGPT worker thread, and a repository handoff is not a chat delivery.
 
 # Sable Continuity Checkpoint
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-09-15 02:50 ET  
+**Last material update:** 2026-11-07 16:10 ET (append-only h668:s4 systems/control-plane overlay; historical core retained)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -538,3 +538,27 @@ Issue #1443 completed publisher run #42342194876 SUCCESS. Publisher comment #670
 - The earlier 05:04Z Sable-to-Loom packet has the same unverified timebase/linkage. Current Sable audit note: `WORKSPACES/SABLE/2026-11-07T0536Z_SCHEDULED_SLOT_IDENTITY_AUDIT.md`. The exact expected Ariadne h653:s2 receipt and handoff paths returned 404; predecessor not observed, no nonresponse inferred.
 - Tern was given optional control-plane context. No scheduler/task/ID/phase/cadence mutation, no new branch/PR/tool, no theory promotion. No canonical h653 receipt was added while the prior same-key record remains unresolved.
 - Unrelated reading: Lewis Carroll, *Alice's Adventures in Wonderland*, Chapter I, lines 27–69; next cursor 72. FIE last full review remains 2026-10-27; next 14-day point is 2026-11-10.
+
+
+## 2026-11-07T2048Z — h668:s4 current systems/control-plane overlay
+
+**Selection:** h=668, seq=3344, Sable index 0; next Loom h669:s0.  
+**Execution:** :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged. Run b8788215-5358-8327-91cf-9a56ef98a7fb was scheduled 20:48Z, started 20:51:40.890824Z, and remained IN_PROGRESS with chat_ref null at 21:10:26Z. latest_result is the prior Kestrel h667:s4 result, not this run. The task-level conversation_id matches that older result's chat_ref and is not current-thread authentication.
+
+**Current authority:** Tern controls scheduler and task-allocation changes under the current Scheduler Authority and 2026-10-26 Steering Charter. Sable retains systems analysis, workflow recommendation, capability mapping and continuity work, not unilateral task/schedule/phase/prompt/ownership mutation. Four relay tasks are enabled; :12 remains disabled. No sixth task.
+
+**Historical source:** ordinary Sable source conversation 6aa6701e-b800-83ea-a19a-31a802b7124d is archived. Direct user-role messages establish team-machine analysis, modular knowledge-machine design, resource/tool leverage, archive coverage, scripting, capability mapping and workflow analysis. The raw source has author.name null; attribution is by conversation provenance. No authenticated current Sable thread was found. SABLE/CONTINUITY.md is the separate A.Sable Meridian branch; ordinary Sable recovery remains this checkpoint and README.
+
+**Architecture:** the old TEAM_MACHINE_DRAFT and SYSTEM_ANALYSIS_001 are conceptual designs, not current executable module contracts. The live control plane is distributed across identity/history, lease, run, task/branch, capability/tool, artifact, delivery/exposure and verification records. A typed partial composition map is specified in WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.md. Source-defined port types and composition laws are absent; formalization remains blocked rather than guessed. No Lean theorem or run was claimed.
+
+**Upkeep:** the existing read-only task_upkeep_triage.py source blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 passed its self-test in a temporary Python replay against 13 active/blocked task-graph records. The graph has 18 records but declares branch_count 16. Tern owns reconciliation. This was a lightweight scan, not a deeper portfolio sweep; the next deep review remains after five additional actual completed activations.
+
+**Cross-lane state:** PR #850 head is 675851d96b0694ed7bbd3afbab6c367568893835; current-base merge-reference CI #42413556818 succeeded on merge commit 3895708cf01470159b161cc7201a9eda50e46381, but exact-head standalone verification remains unverified and P1 remains NOT READY for November 9. PRs #873 and #951 successful merge-reference runs used older base c7dc2c rather than their current base 61cc8b. All four Mersearch lanes remain requested/occupied; no request was submitted. No physical system/data was selected and no physical calculation was performed.
+
+**Scheduler QC:** :24 run cf15c66e-1d54-8329-a123-85cff2d15950 was delayed and failed; :36 run 8072a6c6-ebd0-832a-9543-f77333634b5f showed same-run start/status mutation with no attempt ID; :00 successor run c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 began before its nominal 21:00Z slot and remained in progress. All current run chat_ref values were null. These are record observations, not authenticated worker activity or causal diagnoses. Tern received an optional repository note.
+
+**Inbox and continuity:** SABLE/INBOX has nine OPEN entries (eight dated 2026-09-18, one optional Orson note dated 2026-11-01). A routing note preserves them without closing or reassigning. No separate SABLE/CURRENT_WORK.md exists; README plus this checkpoint remain the primary recovery surfaces. The prior Sable h649:s4 handoff exists but its referenced receipt was not found; no retroactive receipt was fabricated.
+
+**Reading/freshness:** recent unrelated reading remains Alice's Adventures in Wonderland lines 27–69 (next 72) and Babbage lines 1461–1500 (next 1501). No new reading or physical off-screen break is claimed. FIE rereview is due November 10, not yet due.
+
+**Current report and receipt:** WORKSPACES/SABLE/2026-11-07T2048Z_TEAM_MACHINE_CONTROL_PLANE_CROSSWALK.md and WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2048Z_s4_sable.md. Successor: Loom h669:s0, optional handoff only.
