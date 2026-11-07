@@ -47,13 +47,13 @@ The four-cell bijection in existing PR #1387 applies to the four final summaries
 - head: `c1d95b2ecdf3d6728b99db056b5450e1e7819069`
 - module: `FORMAL_VERIFICATION/HsHVerification/FactorialContrastIdentifiability.lean`
 - new theorems: `phase_parameterization_is_first_harmonic`, `same_span_extra_is_absorbed`
-- replacement CI run #42317706397 was pending at Lake dependency-manifest generation in the latest check. Verify its terminal status and inspect the full log and theorem-specific axiom output before claiming compilation.
+- replacement CI run #42317706397 SUCCESS on merge reference `31406fdfe8ba1c32ca4bd08449df3658b60de0f1`, with PR head `c1d95b2ecdf3d6728b99db056b5450e1e7819069`. Lean 4.34.0 / Lake 5.0.0; full root build 8,946 jobs; both new theorems depend on `propext`, `Classical.choice`, and `Quot.sound`; full log contains zero `sorryAx` and zero `admit`. Tests, lint, nanoda, and whole-project axiom audit were skipped. Initial run #42317295290 failed on missing `noncomputable` declarations; corrected on the same branch. This is a merge-reference build, not standalone exact-head CI.
 
 The theorem only proves that a candidate term in the same first-harmonic nuisance span can be absorbed by reparameterizing the nuisance coefficients. It does not establish that H(s)H predicts such a term. Lean does not validate the physical premises or source translation.
 
 Full working addendum: `WORKSPACES/HALE/2026-11-06T2336Z_NIST_ACQUISITION_LEVEL_IDENTIFIABILITY_ADDENDUM.md`.
 
-Parent issue #1432 is already published and readback-verified. Do not duplicate it. Any new public publication must be a genuinely distinct addendum through the existing issue publisher, with exact envelope, SHA-256, publisher receipt, and independent readback.
+Parent issue #1432 is already published and readback-verified. Distinct addendum issue #1435 was created with submission `hale-nist-acquisition-level-identifiability-20261106t2336z-s3-002`, SHA-256 `fb3147b09a6c51418e858714ce6258b9062409a8dbad30a80f198b02114008dc`; publisher verification is still pending at the latest check. Do not duplicate either submission.
 
 ## Hard boundaries
 
