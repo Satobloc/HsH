@@ -74,7 +74,7 @@ The assumptions of these modules have not been composed into one physical map. T
 
 ## 5. Lean/CI evidence and limits
 
-PR #873 remains open, draft, and unmerged. Its PR-triggered build was run #42153410233, job #127681789766, on merge commit `a2c3304b79d0a5a49b0d0d5bbfd24a9b3d8f1c2a` with base `61cc8b3f4f5d4a1d7a0b` as reported by the PR metadata. The build used Lean 4.34.0 and Lake 5.0.0 and completed 8,955 jobs successfully.
+PR #873 remains open, draft, and unmerged. Its PR-triggered build was run #42153410233, job #127681789766, on merge commit `a2c3304edafa5274530ce5286cbe15ac1ed47b0b` with base `61cc8b65ffed70296e0121dbae067892a79c81d4` as reported by the PR metadata. The build used Lean 4.34.0 and Lake 5.0.0 and completed 8,955 jobs successfully.
 
 The theorem-specific axiom output for `hallway_factorization_iff_fiber_compatibility` was `[propext, Classical.choice, Quot.sound]`. The simpler downstream no-restoration theorem reported no axioms. No `sorryAx` or bare `admit` token appeared in the captured job log. However, tests, lint, nanoda, and the separate global axiom audit were skipped. This was a merge-ref build, not an exact-head-only build against current main. It establishes only that the formalized statements compiled in that build environment. It does not establish soundness of translation, truth of physical premises, or observational validity.
 
