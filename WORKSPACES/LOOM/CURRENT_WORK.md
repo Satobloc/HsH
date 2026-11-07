@@ -117,3 +117,5 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 - P1 Nov 9, P2 Nov 30 and P3 Dec 14 remain separate and unchanged. Code Grurple remains ACTIVE/P0. FIE full rereview due Nov 10 (last full review Oct 27). No BEDROCK promotion, task/ID/cadence change, new branch/PR/tool/dependency, or sixth task.
 
 - **Aster handoff:** late optional packet WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0936Z_from_s3_to_s4_aster.md (blob b15d96173619cfbf12ea4286a65f10338a65f789); Aster inbox pointer appended (blob 723b8a5522df5d3b9c09481781e9a1ced5401f76). Aster's h657:s4 run had already completed; repository-only context, no thread delivery/consumption/acknowledgment.
+
+- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0936Z_s3_loom.md (blob d55a0cc4d0893d0201c3efece54f16c71ab17515; exact readback PASS).
