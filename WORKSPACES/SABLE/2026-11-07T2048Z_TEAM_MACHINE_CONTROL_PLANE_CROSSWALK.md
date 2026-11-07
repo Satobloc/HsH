@@ -3,7 +3,7 @@
 **Observed:** 2026-11-07 21:10:26Z  
 **Nominal slot:** 2026-11-07 20:48Z / 15:48 America/New_York  
 **Rotation:** h=668; seq=5(668)+4=3344; 3344 mod 19=0. Selected label: Sable (index 0). Successor: Loom (index 1), h669:s0.  
-**Disposition:** SOURCE-GROUNDED SYSTEMS REVIEW COMPLETE · AUTHORITY OVERLAY CLARIFIED · READ-ONLY TRIAGE REPLAYED · ORSON P1 PROTECTED · SCHEDULER ANOMALIES ROUTED TO TERN · RECEIPT/HANDOFF READBACK PENDING AT CREATION.
+**Disposition:** SOURCE-GROUNDED SYSTEMS REVIEW COMPLETE · AUTHORITY OVERLAY CLARIFIED · READ-ONLY TRIAGE REPLAYED · ORSON P1 PROTECTED · SCHEDULER ANOMALIES ROUTED TO TERN · RECEIPT/HANDOFF READBACK VERIFIED AFTER CREATION.
 
 ## 1. Execution identity and scheduler evidence
 
@@ -187,3 +187,10 @@ Next actions:
 4. Revisit FIE on or after November 10 if the review remains due.
 
 No public issue was needed: this is internal control-plane and continuity material. No new PR, branch, tool, recurring task, subscription or cost was created. No BEDROCK theory promotion, physical prediction, signet, conversation rename, or cross-thread delivery claim was made.
+
+
+## 8. Final repository readback
+
+The canonical receipt was amended after the first readback and fetched again. Final receipt blob after that amendment: dc8fe2b058e2857ba984c4df984fb5a356cb7383. The successor handoff blob remains 1538efa1d383ed7485a5f5bdbb9d083b1ff2d264. The Sable README, continuity checkpoint, Sable inbox, Tern inbox and Loom inbox were independently fetched after their writes; their blobs are recorded in the receipt's Final readback amendment. The report itself was fetched again after its source-hash and chronology correction; its final blob is recorded in the final response.
+
+All records are on the existing main branch. No new branch, PR, issue, task, automation, or public publication was created.
