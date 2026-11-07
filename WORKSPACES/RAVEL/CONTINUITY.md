@@ -756,3 +756,7 @@ The h638 source-genealogy cursor was followed. The key source correction is that
 The helion/helium bundle is a measured-system candidate, not a P2 selection. The 2026 isotope-shift arithmetic and response cross-checks are formalized in existing PR #993. Two modules compiled and executed with Lean 4.34.0 / Lake 5.0.0. The latest exact-head workflow succeeded. No physical H(s)H map or observable prediction exists.
 
 Next: recover authorized raw data and covariance; define projections and compositions from geometry to conserved current, form factors, elastic Zemach radius, dynamic polarizability, and atomic readout. Preserve the distinction between measured, theory-corrected, and inferred quantities.
+
+### Data-access refinement (2026-11-07)
+
+The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed datasets and code are available from the corresponding author on request. No request was sent and no raw Penning-trap data were reanalysed. This is separate from the 2025 3He spectroscopy input and the 2026 4He BEC spectroscopy data, for which no public raw dataset was identified in this source pass. The earlier Dryad DOI remains withdrawn as unverified.
