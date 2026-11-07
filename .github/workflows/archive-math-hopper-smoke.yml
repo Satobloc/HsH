@@ -6,6 +6,11 @@ on:
       - .github/workflows/archive-math-hopper-smoke.yml
       - tools/archive_math_hopper.py
       - tools/mersearch_math_structural.py
+  pull_request:
+    paths:
+      - .github/workflows/archive-math-hopper-smoke.yml
+      - tools/archive_math_hopper.py
+      - tools/mersearch_math_structural.py
   workflow_dispatch:
 
 permissions:
@@ -42,6 +47,29 @@ jobs:
           rows=[json.loads(x) for x in (folder/"CANDIDATES.jsonl").read_text().splitlines()]
           assert rows and all(x["sha256"] and x["math"]=="NOT_RUN" for x in rows)
           print("ARCHIVE_HOPPER_SOURCE_SMOKE_PASS",d["candidates"])
+          PY
+      - name: Source-locked SAT backbone coverage warning regression
+        run: |
+          python tools/archive_math_hopper.py \
+            "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 2/SAT MATH — BACKBONE.txt" \
+            --out "$RUNNER_TEMP/math-hopper-backbone"
+          python - <<'PY'
+          import json, os, pathlib, subprocess
+          src=pathlib.Path("DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 2/SAT MATH — BACKBONE.txt")
+          blob=subprocess.check_output(["git","hash-object",str(src)],text=True).strip()
+          assert blob=="1854995be3311f565739f2be64269cbb0385a82f",blob
+          folder=pathlib.Path(os.environ["RUNNER_TEMP"])/"math-hopper-backbone"
+          manifest=json.loads((folder/"MANIFEST.json").read_text())
+          counts=manifest["source_coverage"]
+          assert manifest["files_inspected"]==1
+          assert counts["heuristic_token_lines"]==517,counts
+          assert counts["unspanned_heuristic_token_lines"]==111,counts
+          assert counts["unspanned_over_405"]==66,counts
+          assert counts["unspanned_at_most_405"]==45,counts
+          assert counts["covered_heuristic_token_lines"]==406,counts
+          assert counts["over_405_token_lines"]==66,counts
+          assert manifest["math_pass"] is None and manifest["lean_status"]=="NOT_RUN"
+          print("HOPPER_SOURCE_COVERAGE_WARNING_PASS",counts)
           PY
       - name: Upload report and manifest ONLY (not raw math candidates)
         uses: actions/upload-artifact@v4
