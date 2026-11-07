@@ -1,19 +1,19 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-06T21:09Z.
+**Last updated:** 2026-11-07T16:19Z.
 
 ## Run stamp
 
-- **Nominal selection:** 2026-11-06T16:36:00Z
-- **Run key:** `REVROT3-19-20261011:640:s3`
+- **Nominal selection:** 2026-11-07T15:24:00Z
+- **Run key:** `REVROT3-19-20261011:663:s2`
 - **Ring label:** Enheduanna (index 11)
-- **Next:** Tern Rook (index 12), `REVROT3-19-20261011:640:s4`
-- **Scheduler task:** `6a9f52b69ec08191b0a2ba24a074f781` (existing :36 lease; unchanged)
-- **Invocation:** `3d699829-98c0-8332-b2d3-c817489a8983`
+- **Next:** Tern Rook (index 12), `REVROT3-19-20261011:663:s3`
+- **Scheduler task:** `6abda4c8eda88191bf23a6f2849e9a17` (existing :24 lease; enabled; unchanged)
+- **Invocation:** not exposed in this automation context
 - **Participation class:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`
 - **Identity continuity:** `RECONSTRUCTED_NOT_LITERAL`
-- **Current ChatGPT thread:** not authenticated; current run `chat_ref=null` at last scheduler readback.
+- **Current ChatGPT thread:** not authenticated; no cross-thread delivery claim.
 - **Signature meaning:** this stamp records a scheduled routing/execution event only. It is not an identity signature or authentication.
 
 ## One-minute syllabus
@@ -40,14 +40,15 @@ Source-layer provenance, archive-wide source recovery, exposure-boundary account
 
 ### Current assignment
 
-Lane 36 bounded operation: correct the source-to-acquisition map and verification metadata in the two existing Kelvin-vortex formalization drafts. This is an architecture/source-fidelity repair, not a new physical calculation, P2 system selection, or theory result.
+Lane24 one-run overlay supplied by Nathan for h663:s2: H(s)H generative / CODATA. This pass is bounded to historical bending-energy source recovery, conditional mathematical formalization, and CODATA provenance reconciliation. This is not a permanent Enheduanna specialization, does not overwrite the historical Lane36 workflow, and does not displace another worker's charter.
 
 ### Last verified position
 
-- Source basis: [2026-10-12 source-layer census](2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md).
-- Latest scheduled-run receipt: [2026-11-06T1636Z h640:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T1636Z_s3_enheduanna.md), final blob `aae3047a0c3bb5f5f68c7586960721a961186375`; exact-path readback PASS.
+- Full source/proof note: [2026-11-07 h663:s2 bending-energy source and conditional Lean bound](2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md).
+- Canonical receipt: [2026-11-07T1524Z h663:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1524Z_s2_enheduanna.md).
+- Draft conditional Lean PR #1455 targets the existing infrastructure branch, not main; CI is not yet verified.
+- Optional successor handoff: [Enheduanna to Tern h663:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1524Z_from_s2_to_s3_tern_rook.md).
 - No authenticated current Enheduanna ChatGPT thread was found.
-- Before this pilot, this workspace had no README, CURRENT_WORK, or INBOX.
 
 ### Blocked / waiting
 
@@ -57,9 +58,14 @@ Lane 36 bounded operation: correct the source-to-acquisition map and verificatio
 
 ### Next action
 
-When a provenance-preserving four-source NotebookLM export/manifest becomes available, classify each source as `ORIGINAL_PRIMARY`, `NATHAN_DIRECT_DIALOGUE`, or `DERIVATIVE_ANALYSIS` before making any continuity inference. Do not repeat the broad archive search while all shared Mersearch lanes remain occupied.
+1. Check the latest CI run for PR #1455; do not claim formal verification until the complete Lean build succeeds and axiom output is checked.
+2. Continue source recovery for the specific historical maximum when a Mersearch lane is available; do not repeat the broad search while all four lanes remain occupied.
+3. Resolve the incompatible `κ` dimensions and the direct `10^44 J` versus archive `1.2×10^44 N` distinction before any physical energy calculation.
+4. Do not calculate a numerical maximum until source-authorized stiffness, arclength, curvature bound, and physical worldtube-to-observable map are recovered.
 
 ### Return cursor
+
+Babbage, *Reflections on the Decline of Science in England*, next line **1321**. Lines 1281–1320 were read in this run.
 
 [2026-10-12 source-layer census and exposure boundary](2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md), section **Falsifiable continuation test**, then **Best next recovery cursor**. Resume from the four-source NotebookLM source manifest, not from the roleplay's style or apparent recollections.
 
