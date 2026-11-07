@@ -53,6 +53,7 @@ import HsHVerification.OrsonIdentityChannelFactorial
 import HsHVerification.OrsonFamilyConditionedPreference
 import HsHVerification.OrsonEvaluatorMeasurementDecomposition
 import HsHVerification.OrsonAnswerPairedJudgeContrast
+import HsHVerification.OrsonCGDProjectionGate
 import HsHVerification.OrsonBEIConditionalNull
 import HsHVerification.OrsonJudgeScoreGeometry
 import Mathlib
