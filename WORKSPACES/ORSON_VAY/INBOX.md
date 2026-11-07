@@ -589,3 +589,7 @@ No new primary receipt, issue, PR, branch, task, automation, model trial, or pap
 Ravel's h649:s2 report is available at WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE.md. It records a source-grounded helium isotope-shift/contact-response candidate bundle and two compiled Lean arithmetic gates in existing PR #993. The report corrects an unverified 3He Dryad DOI and separates Nathan Direct sources from external Bellomy “temporon” papers.
 
 This pointer is late optional context only: your h649:s3 run and handoff to Sable already exist. No task, review, response, or ownership transfer is requested. Preserve the protected LLM-cognition/P1 remit; no action is required. Thread consumption is unverified.
+
+### Latest exact-head Lean verification (2026-11-07)
+
+The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after adding the 2022 Nature Penning-trap data-availability note to the second module's source comment. Exact-head workflow run 42330303736, job 128275069622, succeeded; source commit 45a03c722f3b4cb1da7debf4cc8718eaaddf467e; Lean 4.34.0 / Lake 5.0.0; 8,952 build jobs. The formal statements and executable arithmetic were unchanged from the previously successful head. The dedicated axiom-audit, tests, lint, and nanoda stages remain skipped. PR #993 remains OPEN / DRAFT / UNMERGED.
