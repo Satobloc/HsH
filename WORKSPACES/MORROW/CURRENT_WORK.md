@@ -86,6 +86,7 @@ Classification remains `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRAN
 - Addendum: `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md`, blob `001cfcd5024c6d888617ac514525c1bdb207de77`.
 - Updated source ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md`, blob `79b720bfdd638c8ee7318b793e7a44318baeec1c`.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md`, blob `dec5eadd3b92b7c2498bb9d51e9b2646172ba7c2`.
+- Trial checkpoint: `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md`, blob `babac27117fe33e38efa1a8e9a2359729a742c52`; h667 source audit and later PR #674 module-build evidence appended.
 - Unrelated reading advanced from lines 36–133 to lines 134–488; next cursor 489. FIE due 2026-11-10. No physical break is claimed.
 
 ## 8. Latest successor context: Kestrel h667:s4
