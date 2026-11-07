@@ -25,7 +25,7 @@ inductive Route where
   | externalEvidence
   | dashboardPlans
   | preferenceRuntime
-  deriving DecidableEq, Fintype, Repr
+  deriving DecidableEq, Repr
 
 structure RoutePlan where
   required : Finset Route
@@ -51,13 +51,18 @@ theorem required_routes_are_accounted_for (p : RoutePlan) :
     p.required ⊆ p.selected ∪ p.deferred ∪ p.unrepresented :=
   p.requiredAccounted
 
+theorem complete_plan_required_count_within_budget
+    (p : RoutePlan)
+    (hcomplete : oneWaveComplete p) :
+    p.required.card ≤ p.budget := by
+  exact le_trans (Finset.card_le_card hcomplete.1) p.selectedWithinBudget
+
 theorem required_over_budget_cannot_fit_one_wave
     (p : RoutePlan)
     (h : p.budget < p.required.card) :
     ¬ oneWaveComplete p := by
   intro hcomplete
-  have hcard : p.required.card ≤ p.selected.card :=
-    Finset.card_le_card hcomplete.1
+  have hfit := complete_plan_required_count_within_budget p hcomplete
   omega
 
 theorem required_deferred_route_blocks_one_wave
@@ -68,7 +73,7 @@ theorem required_deferred_route_blocks_one_wave
   rcases h with ⟨r, hrRequired, hrDeferred⟩
   exact
     (Finset.disjoint_left.mp p.selectedDeferredDisjoint)
-      r (hcomplete.1 hrRequired) hrDeferred
+      (hcomplete.1 hrRequired) hrDeferred
 
 theorem required_unrepresented_route_blocks_one_wave
     (p : RoutePlan)
@@ -78,6 +83,7 @@ theorem required_unrepresented_route_blocks_one_wave
   rcases h with ⟨r, _hrRequired, hrUnrepresented⟩
   have hfalse : r ∈ (∅ : Finset Route) := by
     simpa [hcomplete.2] using hrUnrepresented
+  simp at hfalse
   exact hfalse
 
 /-- Math Hopper: five required families, four slots, one explicit deferral. -/
@@ -155,10 +161,12 @@ theorem mathHopper_needs_deferred_wave :
 
 theorem codeGrurple_one_wave_covers_required :
     oneWaveComplete codeGrurplePlan := by
+  classical
   decide
 
 theorem cloneCensus_one_wave_covers_required :
     oneWaveComplete cloneCensusPlan := by
+  classical
   decide
 
 theorem p2_blocked_by_unrepresented_external_evidence :
