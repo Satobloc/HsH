@@ -546,3 +546,8 @@ Next Elias-specific cursor remains the `sticky()` transfer-test/promotion-gate i
 ### Execution-integrity correction | 2026-11-07T0456Z
 
 The first worker calculation used the delayed wall-clock start and briefly pointed to h652/Kestrel. The automation's `scheduled_for=2026-11-07T03:36:00Z` is authoritative for this occurrence and gives h651:Elias Kern. Kestrel workspace/PR materials were read-only during the preliminary check; no Kestrel file was changed, no work was assigned, and no Kestrel authority was claimed. The correct Elias selection was applied before the substantive operation.
+
+
+### Successor status amendment | 2026-11-07T0456Z
+
+The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-cc5c-8330-97e4-0b0b353188ce` IN_PROGRESS, started 04:49:18.663186Z, chat_ref=null. An earlier snapshot for that ID reported start 04:19:51.846096Z and completion FAILED at 04:44:53.574411Z. No attempt token is exposed. Preserve both observations as unresolved attempt lineage; do not treat the earlier failure as final or claim an authenticated Nadir thread. The Common handoff remains late optional context only; no Nadir workspace/inbox access or write.
