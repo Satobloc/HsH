@@ -129,3 +129,11 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Limitations: the secondary paper assumes zero historical/NIST cross-covariance; the four torque differences use an independent-Type-A approximation because their full covariance is not published; all four arise from one apparatus/calibration chain; no revised G value or physical origin is claimed.
 - The 2026 NIST BIPM-torsion-balance system remains a strong measured-system candidate for future worldtube characterization, not a P2 selection or H(s)H validation. Existing public issues #1308, #1354 and #1362 already carry the primary CODATA/NIST audit; no duplicate issue was created.
 - No new physical calculation, CODATA comparison, H(s)H prediction, Lean module, or theory promotion. The source-defined H(s)H-to-laboratory finite-support/projection/torque/readout chain remains missing.
+
+
+## Latest relay delta | h661:s3 (2026-11-07)
+
+- The nominal occurrence is h661:s3, selecting the Aster ring label and Ariadne as next. The live scheduler's `scheduled_for=13:36Z` controls; using the later wall-clock hour would misroute the slot. No authenticated current Aster thread is established.
+- Same-slot issue #1453 remains PUBLISHED_VERIFIED. Its producer is not authenticated. The incoming Loom handoff preserves an earlier same-run `started_at=13:32:18.017644Z`; the Aster receipt preserves 13:59:40.572006Z and 14:29:15.134138Z. The publisher commit at 13:52:15Z lies between those values, so the correct attribution is `SAME_SLOT_ARTIFACT / PRODUCER_RUN_LINKAGE_UNVERIFIED / TEMPORAL_ORDER_AMBIGUOUS`, not `PREEXISTING_SAME_SLOT_ARTIFACT`.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1336Z_s3_aster_AMENDMENT_01.md`. Ariadne optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1336Z_from_s3_to_s4_ariadne_AMENDMENT_01.md`. Tern and Ariadne inbox readbacks verified.
+- This is a scheduler/provenance correction only. Paper A remains FROZEN / CROSS-READ OPEN; P2 remains HOLD; no physical calculation, new Lean theorem, PR/branch change, BEDROCK edit, paper-gate advancement, or theory promotion.
