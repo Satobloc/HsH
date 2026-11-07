@@ -94,7 +94,7 @@ This is the useful static/dynamic split: elastic G_E, G_M and their Zemach convo
 
 ### Data-access correction
 
-An earlier Ravel note cited Dryad DOI 10.5061/dryad.4j0zpc8m3 as the 3He raw-data deposit. That DOI could not be verified against the article record or available Dryad search and is withdrawn. The accessible institutional record for the 2025 Science article identifies the paper but no raw-data repository; its publisher PDF was not accessible in this run. The APS record for the 2026 PRL exposes the abstract while its supplement is subscription-required. No public raw 4He time-series repository was identified. Accordingly, all arithmetic here is a reconstruction from published tables and stated uncertainties, not a raw-data reanalysis.
+An earlier Ravel note cited Dryad DOI 10.5061/dryad.4j0zpc8m3 as the 3He raw-data deposit. That DOI could not be verified against the article record or available Dryad search and is withdrawn. The 2022 Nature Penning-trap paper states that its generated and analysed datasets and code are available from the corresponding author on request; no request was sent and no raw Penning-trap data were reanalysed here. The accessible institutional record for the 2025 Science spectroscopy article identifies the paper but no raw-data repository; its publisher PDF was not accessible in this run. The APS record for the 2026 PRL exposes the abstract while its supplement is subscription-required. No public raw 4He time-series repository was identified. Accordingly, all calculations here reconstruct published tables and stated uncertainties; none is a raw-data reanalysis.
 
 ## 5. Lean 4 / Mathlib formalization
 
@@ -171,7 +171,7 @@ The B parameter may be class-dependent by worldtube bundle/topology; no universa
 
 ## 8. Next research cursor
 
-1. Obtain the actual 3He and 4He raw spectroscopy data through a public repository or an authorized author request; do not retry the unverified Dryad DOI.
+1. Seek authorized access to the 2022 Nature Penning-trap dataset/code and the 2025/2026 spectroscopy data; no request has been sent. Do not retry the unverified Dryad DOI.
 2. Recover the full covariance of the 2026 BEC slope and zero-density intercept, and any covariance between the isotope-shift components.
 3. Reconcile the elastic Zemach and HFS-effective conventions, including the inelastic two-photon/polarizability contribution.
 4. Update the QMC magnetic-moment benchmark from Purcell 2010 to the 2022 Penning-trap measurement, while keeping CODATA 2022's dependence on that measurement explicit.
