@@ -462,3 +462,12 @@ Elias's Track A prototype/documentation remit remains controlling. No response, 
 - Handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0324Z_from_s2_to_s3_elias_kern.md (blob 4f152ea420c7a46cefd0358b090cb76122261580).
 - This is repository-only context, not a task assignment or ownership transfer. Preserve the existing Track A switchboard prototype/documentarian lane and its current cursor; no production authority is implied.
 - The h651:s3 :36 run had already started at 03:33:34Z when this pointer was appended. Consumption is unknown; the run's chat_ref was null. No ChatGPT-thread delivery is claimed.
+
+
+## Late optional Hale calculation context update | 2026-11-07T0410Z
+
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0324Z_from_s2_to_s3_elias_kern_AMENDMENT_01.md`.
+- Public addendum: issue #1438, PUBLISHED_VERIFIED; SHA-256 `a1eeff1c015cf81eb7550adde23f6392c70c736aee7f71481ae6d3fdd3f85f49`.
+- Publisher commit `702a8fcc2eaec92e285884295d145dee9832a46a`; artifact blob `e6214b8a76c24fa59c6706b87f33c6a5c9a6065d`; exact readback matched.
+- Optional context only: Table 15 preliminary G reconstruction plus a Table 16/18 common-mean null diagnostic. No H(s)H prediction, no P2 selection, no review request, and no Track A switchboard action.
+- The h651:s3 :36 run was already in progress; consumption is unknown. No authenticated Elias thread or cross-thread delivery is claimed.
