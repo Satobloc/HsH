@@ -1,5 +1,18 @@
 # Tern Inbox
 
+## 2026-11-07 h663:s2 — late optional context from Enheduanna
+
+**Status:** `LATE_OPTIONAL_CONTEXT / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Packet: [Enheduanna h663:s2 → Tern Rook h663:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1524Z_from_s2_to_s3_tern_rook.md).
+- Full source/proof note: [Bending-energy source recovery and conditional Lean bound](../ENHEDUANNA/2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md).
+- Historical maximum bending energy remains unlocated. The direct Nathan recollection, archive (1.2×10^{44}\,N) tension note, proposed curvature cap, and inconsistent (kappa) units must not be conflated.
+- Draft PR #1455 formalizes only a conditional curvature-capped integral bound. Latest CI run #42390677035 was in progress at handoff creation; no compile-success claim.
+- Existing Aster/Hale/Ravel/Morrow notes already cover CODATA 2022 and the 2026 NIST torsion-balance candidate. No new physical calculation, P2 selection, or duplicate issue.
+- Repository pointer only. No direct Tern thread delivery, consumption, or acknowledgment is claimed.
+
+
+
 Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and current Common controls remain authoritative for Tern's own state; this inbox is a relay surface, not theory authority.
 
 ## OPEN
