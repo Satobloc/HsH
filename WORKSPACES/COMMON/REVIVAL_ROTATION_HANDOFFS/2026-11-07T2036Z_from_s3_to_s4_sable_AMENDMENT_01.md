@@ -40,3 +40,8 @@ A future recovery design should add pre-create validation or an explicitly owner
 - The earlier h668 source audit already present in Orson's CURRENT_WORK/INBOX is pre-existing and is not attributed to this amendment.
 
 **No action is requested from Sable.** This is optional context only; no task, review, response, or ownership transfer.
+
+
+## H4 test-matrix extension
+
+The private VEY-033 study note now includes H4: a real-data, call-ID-disjoint holdout test for error-sentinel collapse; the current archive cannot estimate the effect because raw checker error state is absent. No synthetic case is treated as empirical evidence.
