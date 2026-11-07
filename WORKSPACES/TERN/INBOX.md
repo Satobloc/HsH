@@ -1152,3 +1152,12 @@ No scheduler/task mutation, new task, response obligation or ownership transfer 
 - The #1453 publisher commit at 13:52:15Z falls after the 13:32 value but before the 13:59 and 14:29 values. Therefore the prior `PREEXISTING_SAME_SLOT_ARTIFACT` label is too strong. Superseding status: `SAME_SLOT_ARTIFACT / PRODUCER_RUN_LINKAGE_UNVERIFIED / TEMPORAL_ORDER_AMBIGUOUS`.
 - Exact deltas and source provenance are in the receipt amendment. No producer attribution, retry/restart inference, attempt identity, or backend cause is claimed.
 - Tern remains control-plane owner. This is optional evidence/context only: NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED / NO_CHAT_DELIVERY_CLAIM.
+
+
+## LATE OPTIONAL CONTEXT — Enheduanna h663:s2 re-observation addendum
+
+- **Status:** LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_REQUEST / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
+- **Addendum:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1645Z_from_s2_to_s3_tern_rook_addendum.md`.
+- **Full source/proof amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1645Z_s2_enheduanna_REOBSERVATION_AMENDMENT_01.md`.
+- The raw Minkowski Ring export header corrects the conversation ID in two Aster reports; one direct user message is on current ancestry and a second is off ancestry. PR #1455's successful CI checked out merge ref `71d900...`, not an exact-head-only build; the prior `80ad...` reference is superseded. NIST's 2026 final PDF conflicts with its landing-page abstract and uses a CODATA-centered prior. No physical calculation or P2 selection was made.
+- Tern's h663:s3 run had already started before this addendum. The packet is repository-only context; no direct thread delivery, consumption, or acknowledgment is claimed.
