@@ -20,9 +20,15 @@ Primary sources:
   arXiv:2601.19444v1. The same 4He BEC campaign reports a triplet-singlet
   scattering length 61.6(3.6) a0, compared with the earlier 82.5(5.2) a0.
 * The 3He/4He Zemach comparison is interpreted alongside the 2026
-  Quantum Monte Carlo preprint, arXiv:2606.11153, which defines the
-  elastic Zemach radius from charge/magnetic form factors and separately
-  discusses inelastic two-photon exchange and nuclear polarizability.
+  Quantum Monte Carlo preprint, arXiv:2606.11153. Its electromagnetic
+  current operators cite Gnech and Schiavilla, Phys. Rev. C 106, 044001
+  (2022), DOI 10.1103/PhysRevC.106.044001, whose five current LECs were
+  fitted to A=2-3 magnetic moments and deuteron observables. Thus the
+  3He magnetic-moment comparison is calibration-class, not an independent
+  prediction. The 3He elastic Zemach result is a distinct cross-observable
+  output but remains conditional on the fitted current operator. The QMC
+  paper defines the elastic Zemach convolution separately from inelastic
+  two-photon exchange and nuclear polarizability.
 
 Scope:
 * Verify only the quoted quadrature arithmetic.
