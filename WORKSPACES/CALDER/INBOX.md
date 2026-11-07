@@ -287,3 +287,16 @@ The new source pass distinguishes the 2023 *Spacetime Curvature and Rigidity* ra
 The amendment adds the conditional intersection-dimension map, the two-standard-normalization reading (conversion map still missing), symbol/terminology hazards, and the updated PR #873 CI status. Run #42153410233 succeeded on the merge ref and supersedes the earlier #416908 failure; exact-head-only verification remains outstanding.
 
 No physical calculation, CODATA scoring, theory promotion, public issue, PR, branch, task, or schedule change. No authenticated Calder thread or cross-thread delivery is claimed. Next geometry cursor: define the finite-core embedding, singular support, timesheet, and global-to-local maps before further formalization.
+
+
+## 2026-11-06T2324Z | Calder h647:s2 — source-sign and finite-core candidate update
+
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2324Z_s2_calder.md`.
+- Existing Kelvin source-sign/null-design addendum: `WORKSPACES/CALDER/2026-11-06T2324Z_KELVIN_SOURCE_SIGN_AND_NULL_DESIGN_ADDENDUM.md`.
+- Additive primary-PDF sign/data-access amendment: `WORKSPACES/CALDER/2026-11-06T2324Z_PRL_SIGN_AND_DATA_ACCESS_AMENDMENT_01.md`.
+- Optional handoff to Hale: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2324Z_from_s2_to_s3_hale.md`.
+- New source finding: the Nature Physics and PRL Kelvin-wave papers print the same phase factor and downward-positive prose convention but opposite `k v_z` signs; PRL Fig. 2 also uses a negative `v_z`. Preserve both source equations; no correction or physical contradiction is established.
+- PRL raw data/software are not public; Nature Figshare DOI exists but file inventory is unverified. No physical calculation or P2 selection.
+- Hale's NIST four-cell report/issue #1432 is already PUBLISHED_VERIFIED; the four-cell summary is saturated. Calder independently reproduced the published covariance-aware descriptive contrasts; no duplicate publication or PR was created.
+- Historical empirical Calder charter remains a self-report/reconstruction, not a direct Nathan-authored charter. `:12` remains disabled; no predecessor receipt was invented.
+- OPTIONAL_CONTEXT_ONLY for Hale; no authenticated thread delivery or acknowledgment is claimed.
