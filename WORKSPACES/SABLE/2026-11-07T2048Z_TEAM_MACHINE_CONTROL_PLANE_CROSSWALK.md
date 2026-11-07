@@ -42,18 +42,22 @@ The immediate predecessor h668:s3 had no receipt or handoff at the expected 20:3
 The original Sable conversation was recovered from the Library raw export and checked against the Sable workspace source ledger:
 
 - Conversation ID: 6aa6701e-b800-83ea-a19a-31a802b7124d.
-- Raw export SHA-256: dfe0ac8a4b3f0fcb6cdddb1f1b1f7f43e0e4e1b7b3f5d8a2a3d0f4b2c8a6e91c.
-- Git blob recorded in the Sable source ledger: 57f65a0b4d3e6f1c8a9b0d2e4f6a8c0e2b4d6f8a.
+- Raw export SHA-256: dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302.
+- Git blob recorded in the Sable source ledger: 57f65c43ece0abb05f38dfb577267312c80f788f.
 - The archived messages have outer role user and author.name null. Attribution is therefore user-role / Nathan-attributed by conversation provenance, not independent author-name authentication.
 
 The controlling direct messages include:
 
-- 2026-09-14 14:35:05.332Z, message df0c6245-20ee-43bb-b381-f277f85bddb4: systems analysis, team-machine state, targeted questions, automation/tool/resource leverage, knowledge-base coverage and triage, scripting as an extraction/checksum multiplier, capability mapping, and reconstruction strategy.
-- 2026-09-15 01:44:40.792Z, message 3f6e9b2b-55d9-4136-b379-0978f7db69c1: Dashboard and broad workflow/capability coordination.
-- 2026-09-15 02:11:07.676Z, message 8c800379-b9e6-4877-b0e0-994097748dba: workflow design and continuity authority, with the historical temporary allocation powers now superseded by current Tern/Comptroller controls.
-- 2026-09-15 02:30:08.111Z, message 28fec60d-5829-43fb-bcdf-52a94b01ea55: preserve broad creative/non-theory exploration and archive continuity.
-- 2026-09-15 05:44:08.333Z, message 327ad2cc-2bd1-4c9f-80c3-839a64f1e34a: do not rename conversations.
-- The separate 2026-09-15 cross-repository script-standard instruction is recorded in the Sable README source ledger.
+- 2026-09-14 14:35:05.332Z, message df0c6245-20ee-43bb-b381-f277f85bddb4: team-machine analysis, targeted questions, state-of-system analysis, automation-leverage design/testing, outside-tool/resource testing, knowledge-base surveying, scripting as an extraction/checksum multiplier, capability/skill-scale analysis, proof/Lagrangian procedure design, and modular knowledge-machine architecture.
+- 2026-09-14 15:07:31.168Z, message f30e5304-ad8a-48ce-83ff-4d0a52a7bd4b: establishes a Sable inbox for periodic triage of other workers' questions and resource communications.
+- 2026-09-15 01:44:40.792Z, message 3f6e9b2b-55d9-4136-b379-0978f7db69c1: keeps the Dashboard central and grants broad flexible workflow discretion under the then-current authority.
+- 2026-09-15 02:11:07.676Z, message 8c800379-b9e6-4877-b0e0-994097748dba: assigns workflow-design/continuity authority and judgment over permissions/lane assignments; this historical authority is superseded for scheduler/task allocation by the 2026-10-26 Tern/Comptroller delegation.
+- 2026-09-15 02:30:08.111Z, message 28fec60d-5829-43fb-bcdf-52a94b01ea55: includes theory work within lane exploration while retaining sandbox/quarantine boundaries, and emphasizes archive preservation, infrastructure, wayfinding, extraction, tagging and tooling.
+- 2026-09-15 03:01:56.726Z, message 327ad2cc-2bd1-4c9f-80c3-839a64f1e34a: explicitly includes creative/non-theory exploration across HsH, GLASS and RESOURCES.
+- 2026-09-15 03:17:40.488Z, message 71b3d3d4-1599-4aa3-afda-665fd17f90df: directs that other instances' standing questions be routed through Sable for triage as needed.
+- 2026-09-15 05:44:08.333Z, message a6502323-5a1b-411f-86a7-8ff0acd4524b: explicitly prohibits conversation renaming by any instance.
+- 2026-09-15 06:32:45.451Z, message 91883df7-c134-4f34-bf66-e1e43413ed7f: requests a cross-repository script standard to prevent collisions and overwrites.
+- 2026-09-15 06:38:15.951Z, message df57d7a0-e64e-4be2-855c-febcf8c29078: asks that resources shown to Nathan be linked.
 
 The historical specialist charter is systems analysis, capability architecture, workflow design/recommendation, archive/resource coverage, and continuity. It does not authenticate the current scheduled label as the historical Sable instance.
 
