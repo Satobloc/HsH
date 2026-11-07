@@ -116,3 +116,7 @@ The 2022 Nature 3He+ Penning-trap paper explicitly says its generated/analysed d
 ### QMC fit/prediction dependency refinement (2026-11-07)
 
 The 2026 QMC paper's electromagnetic current operators cite Gnech and Schiavilla (Phys. Rev. C 106, 044001 (2022), DOI 10.1103/PhysRevC.106.044001). That paper's five current LECs were simultaneously fitted to A=2–3 magnetic moments and deuteron observables. Therefore the QMC 3He magnetic-moment comparison is a calibration-class comparison, not an independent prediction. Its 3He Zemach radius remains a different cross-observable output, but the magnetic form-factor shape is conditional on the fitted current operator. Treat it as partially out-of-sample, not fully independent.
+
+### Latest exact-head Lean verification (2026-11-07)
+
+The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after adding the 2022 Nature Penning-trap data-availability note to the second module's source comment. Exact-head workflow run 42330303736, job 128275069622, succeeded; source commit 45a03c722f3b4cb1da7debf4cc8718eaaddf467e; Lean 4.34.0 / Lake 5.0.0; 8,952 build jobs. The formal statements and executable arithmetic were unchanged from the previously successful head. The dedicated axiom-audit, tests, lint, and nanoda stages remain skipped. PR #993 remains OPEN / DRAFT / UNMERGED.
