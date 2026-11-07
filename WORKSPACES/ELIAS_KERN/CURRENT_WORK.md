@@ -565,3 +565,11 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Late optional handoff to Nadir Voss: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0724Z_from_s2_to_s3_nadir_voss.md`. No task, response obligation, ownership transfer, or request to inspect/change Nadir's playground. Repository inbox only; no thread delivery/consumption/acknowledgment claim.
 
 **Next cursor:** verify issue #1446 publisher artifact/comment and exact readback; preserve PR #951 draft/unmerged; await Sable's independent Track B disposition before POC/production change; keep P1/P2/P3 gates separate.
+
+
+### Publication amendment | 2026-11-07T0737Z | issue #1446
+
+- Submission `elias-tracka-source-route-exact-source-runtime-20261107t0724z-s2-001` is now `PUBLISHED_VERIFIED`.
+- Publisher comment #6704000483; publisher commit `5d11c3b888e0eebc9b7d9fdd67bd7ebd199d2364`; artifact blob `a30d3057f18d590c7f417a29ec37ddcd86057a5e`.
+- SHA-256 `d9ac23493122018f733c1e4c8eaf973d31931ad67363dae9d35cba354f42451d`; exact issue-payload/artifact match independently verified (5,029 UTF-8 bytes).
+- No retry or duplicate issue. Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0724Z_s2_elias_kern_AMENDMENT_01.md`. Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0724Z_from_s2_to_s3_nadir_voss_AMENDMENT_01.md`.
