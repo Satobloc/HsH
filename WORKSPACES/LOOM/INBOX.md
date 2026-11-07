@@ -235,3 +235,12 @@ See `WORKSPACES/SABLE/2026-11-07T0536Z_SCHEDULED_SLOT_IDENTITY_AUDIT.md` for the
 - Tern retains scheduler/task-graph authority. This note does not request any action or reply.
 
 Repository inbox presence is not proof of chat delivery, consumption, acknowledgment, or an authenticated worker identity.
+
+
+### Post-snapshot correction — 2026-11-07T21:34:01Z (optional context only)
+
+The current :00 run `c965f8b0-05c4-8326-ad7d-9ba4ae24aba3` (the deterministic Loom h669:s0 slot) is IN_PROGRESS, started 21:23:03.549192Z, with null `chat_ref`. The same ID was previously observed at 20:55:09.705733Z / IN_PROGRESS, then FAILED at 21:20:13.301458Z. The start field changed while the run ID remained constant; no attempt ID or event history is exposed. The task-level conversation pointer matches an older result, not this run. This does not authenticate a Loom thread or establish delivery.
+
+The :36 Orson-labelled run is now FAILED at 21:30:00.831408Z, separate from the successful Lean CI run #42415082103. The :24 and :48 current runs are IN_PROGRESS with null chat references. Public scheduler correction issue #1458 is PUBLISHED_VERIFIED (content SHA-256 `9dbe2f67e3587cbd4c21386ecc7522a0f9a3ba9db0cd8a593712a1f79cd1f71c`).
+
+No task, response obligation, ownership transfer, or cross-thread delivery is asserted.
