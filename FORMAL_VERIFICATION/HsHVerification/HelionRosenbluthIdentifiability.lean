@@ -28,7 +28,7 @@ readout, not a derivation of that readout from HsH geometry.
 namespace HsHVerification.HelionRosenbluthIdentifiability
 
 /-- Source structure function A(Q²), expressed in squared form factors. -/
-def camsonneA (tauQ mu fcSq fmSq : ℝ) : ℝ :=
+noncomputable def camsonneA (tauQ mu fcSq fmSq : ℝ) : ℝ :=
   (fcSq + mu^2 * tauQ * fmSq) / (1 + tauQ)
 
 /-- Source structure function B(Q²), qualified to avoid the HsH symbol B. -/
@@ -36,7 +36,7 @@ def camsonneB (tauQ mu fmSq : ℝ) : ℝ :=
   2 * tauQ * mu^2 * fmSq
 
 /-- Rosenbluth abscissa x = mu² tau / epsilon_pol. -/
-def rosenbluthX (tauQ mu epsilonPol : ℝ) : ℝ :=
+noncomputable def rosenbluthX (tauQ mu epsilonPol : ℝ) : ℝ :=
   mu^2 * tauQ / epsilonPol
 
 /-- Reduced cross section as an affine function of the squared form factors. -/
@@ -60,7 +60,6 @@ theorem camsonneB_recovers_magnetic_square
   unfold camsonneB
   have hden : 2 * tauQ * mu^2 ≠ 0 := by positivity
   field_simp [hden]
-  ring
 
 /-- Determinant of the source (A,B) map is nonzero on the physical domain. -/
 theorem camsonneAB_determinant_ne_zero
@@ -106,7 +105,8 @@ theorem two_x_identifies_squared_form_factors
     · exact False.elim (hx (sub_eq_zero.mp h))
     · exact sub_eq_zero.mp h
   constructor
-  · nlinarith [h1, hfm]
+  · rw [hfm] at h1
+    linarith
   · exact hfm
 
 /-- At fixed Q²_eff, two distinct virtual-photon polarizations identify the
