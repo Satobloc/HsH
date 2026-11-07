@@ -51,6 +51,41 @@ theorem required_routes_are_accounted_for (p : RoutePlan) :
     p.required ⊆ p.selected ∪ p.deferred ∪ p.unrepresented :=
   p.requiredAccounted
 
+/** Every required route receives exactly one explicit disposition:
+    selected, deferred, or unrepresented. Pairwise disjointness prevents
+    double-counting; requiredAccounted prevents silent omission. -/
+theorem required_route_has_exactly_one_disposition
+    (p : RoutePlan) (r : Route) (hr : r ∈ p.required) :
+    (r ∈ p.selected ∧ r ∉ p.deferred ∧ r ∉ p.unrepresented) ∨
+    (r ∈ p.deferred ∧ r ∉ p.selected ∧ r ∉ p.unrepresented) ∨
+    (r ∈ p.unrepresented ∧ r ∉ p.selected ∧ r ∉ p.deferred) := by
+  have hAccounted : r ∈ p.selected ∪ p.deferred ∪ p.unrepresented :=
+    p.requiredAccounted hr
+  rcases Finset.mem_union.mp hAccounted with hSelectedDeferred | hUnrepresented
+  · rcases Finset.mem_union.mp hSelectedDeferred with hSelected | hDeferred
+    · left
+      refine ⟨hSelected, ?_, ?_⟩
+      · intro hDeferred
+        exact (Finset.disjoint_left.mp p.selectedDeferredDisjoint) hSelected hDeferred
+      · intro hUnrepresented
+        exact (Finset.disjoint_left.mp p.selectedUnrepresentedDisjoint) hSelected hUnrepresented
+    · right
+      left
+      refine ⟨hDeferred, ?_, ?_⟩
+      · intro hSelected
+        exact (Finset.disjoint_left.mp p.selectedDeferredDisjoint) hSelected hDeferred
+      · intro hUnrepresented
+        exact (Finset.disjoint_left.mp p.deferredUnrepresentedDisjoint) hDeferred hUnrepresented
+  · right
+    right
+    refine ⟨hUnrepresented, ?_, ?_⟩
+    · intro hSelected
+      exact (Finset.disjoint_left.mp p.selectedUnrepresentedDisjoint) hSelected hUnrepresented
+    · intro hDeferred
+      exact (Finset.disjoint_left.mp p.deferredUnrepresentedDisjoint) hDeferred hUnrepresented
+
+#print axioms required_route_has_exactly_one_disposition
+
 theorem complete_plan_required_count_within_budget
     (p : RoutePlan)
     (hcomplete : oneWaveComplete p) :
