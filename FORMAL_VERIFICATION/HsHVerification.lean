@@ -20,6 +20,7 @@ import HsHVerification.NadirAffineObstructionDimension
 import HsHVerification.NadirProjectedFrameCurvature
 import HsHVerification.NadirReadoutMetricSignature
 import HsHVerification.NadirVortexTwoChannelReadout
+import HsHVerification.UIAA101Kinematics
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirGPBNiAxialBound
