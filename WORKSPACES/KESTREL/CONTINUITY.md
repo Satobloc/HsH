@@ -556,3 +556,34 @@ A small algebraic formalization was added to the existing PR #873 branch in FORM
 - All four Mersearch lanes remain requested/occupied; all twelve request-scoped manifest/receipt paths were absent in the configured HsH output root. No request was created or overwritten. FIE rereview is due November 10, not yet due; last unrelated reading was completed in the preceding Kestrel run, so no new reading quantum was taken.
 - At the last scheduler read, the :48 occurrence and next :00 occurrence were both IN_PROGRESS with chat_ref=null. The Meridian handoff is therefore post-start optional repository context only; no cross-thread delivery, consumption, or acknowledgment is claimed.
 - No new Lean module, tool, dependency, branch, PR, public issue, physical calculation, human/LLM experiment, paper-gate advancement, BEDROCK promotion, or scheduler mutation.
+
+## 2026-11-07 h667:s4 | Review-MIND source-grounded reconstruction
+
+This entry records a current scheduled-run reconstruction under the Kestrel label, not an authenticated historical Kestrel thread. The deterministic selection was h=667, seq=3339, ring index 14 Kestrel; next index 15 Meridian. The current :48 automation record had `chat_ref=null`. No active Kestrel thread pointer was found in the worker workspace, Common check-ins, instance registry, or current automation record.
+
+The incoming Morrow h667:s3 handoff (`2026-11-07T1936Z_from_s3_to_s4_kestrel.md`, blob `1c06838252eb8c65579b2eaabe29fa6c6dbd3c81`) was read and treated as optional context only. It carried no task, review request, ownership transfer, or response obligation.
+
+### New direct-source bridge
+
+The 2024 DIMENSIONAL GRAVITY raw export (conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`) distinguishes pitch-controlled moving-plane orbit speed from cross-sectional-radius-controlled orbit size. The 2026-08-27 Calder raw export (conversation `6a8eacca-c470-83ea-af92-8fb8df194de9`, blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`, user-role message `95319111-ba02-4b45-885a-6e44bd5fed7d`) describes θ₄ as inverse pitch and links it to intersectional particle oblateness.
+
+The August 27 message also corrects the parent assistant's claim that w-orthogonality is fixed by construction. The direct source says orthogonality is inferred from classical-particle sphericity, exact only in perfect vacuum, and not generally true of H(s)H helical worldtubes. Preserve this correction. The orthogonal affine lift remains a conditional Euclidean construction, not the general physical worldtube.
+
+Working hypothesis only: pitch may control longitudinal phase advance; cross-sectional radius may control transverse orbit size; θ₄ may be a local nonparallelism/readout connecting the helix axis to time-sheet intersection shape. The 2024 moving-slice ellipse is a comparator, not proof of the 2026 H(s)H map. θ₄'s reference convention, metric/signature, pitch/radius normalization, and explicit worldtube-to-time-sheet projection remain undefined. The exact September 16 raw event behind the normal-relative θ₄=0 entry remains unrecovered.
+
+### Formal and cognition QC
+
+- FIEAngleConventionFidelity blob `056ff72af5e01c2db4f554f549d9a99a7cb34ce9` has a genuine earlier successful build (#40447650215 / job #122002634931, 8,943 jobs) at PR #674's earlier head; the identical module is present at current PR head. The current integrated PR run #40498334138 failed before a Lean job in conversation-JSON content checking. Exact integrated-head build remains unverified.
+- KestrelMovingSlice blob `58175babe7c7ac956b7e1465fe2e7db3a2689cec` and WorldtubeCurveCurvatureLift blob `79597de14cd0c69a93c19c2697bc1b8dcf2456d2` are conditional Euclidean models, not H(s)H physical maps.
+- KestrelConsensusIdentityBlindness blob `27ad85df1e1586b7e45148ae2b12ed19d39f9813` built in PR #873 run #42153410233 / job #127681789766 (8,955 jobs). The synthetic finite witness prints 6, 6, 2, 3, true, false: an aggregate pair count does not identify a partition; the full pairwise relation recovers identity fibers under the formal definitions. No semantic truth, independence, or causal group effect follows.
+- The live `infra/lean4-verification-20261023` branch head is `c7dc2c483f50ae03fc7a7c530829170135e18d92`. PR #873 merge commit `a2c3304...` and PR #951 merge commit `57be06f...` both have that base as a parent alongside their respective PR heads. The PR API base.sha value `61cc8b...` is inconsistent with the live branch and tested merge parents; no cause inferred.
+- Elias PR #951 run #42402136180 / job #128492003772 successfully built the receipt-evidence and proof-target modules on a current-base merge reference. It does not authenticate scheduler semantics or delivery. Tests, lint, nanoda, and the separate axiom audit were skipped.
+- Orson P1 remains owned by Orson. The 1,150 matched-question-occurrence count in the Kestrel module comment and the 19,550 response-record count in Orson's source audit are different units; no mapping is established. Do not conflate them or expand P1 scope.
+
+### Workflow boundaries
+
+Latest HsH main at review time was `2cb1d093cc79af664f4a8045276fb5a3849c5142`, a discovery-docket refresh changing only `PUBLIC_SITE/generated/discovery.json`; no deployment run was associated. Browser tab listing was unavailable because the originating browser context was absent. Meridian remains on Paper A accepted-R1 presentation repair only; no route trigger, route probe, renderer edit, or manuscript change occurred. No public issue, PR, branch, tool, or BEDROCK change was created.
+
+Continued unrelated reading: Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1461-1500; next cursor 1501. No physical off-screen break is claimed.
+
+Detailed report: `WORKSPACES/KESTREL/2026-11-07T1948Z_REVIEW_MIND_THETA4_MOVING_SLICE_AND_RELATIONAL_EVIDENCE.md`, blob `319411a35ae8cc0514b4c19f86c24048dbef8ae9`. Open question added to `OPEN_QUESTIONS.md`, blob `b4054e2dfc7b80988c9ac6bb82e0f754712f6a16`. No theory promotion, physical calculation, new Lean module, P1 change, or cross-thread delivery claim.
