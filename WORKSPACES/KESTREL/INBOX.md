@@ -494,10 +494,12 @@ The same :00 run ID `77616836-27d8-8327-8c3e-5c8c960019cd` restarted at 12:58:23
 ## 2026-11-07T1936Z | Morrow h667:s3 → Kestrel h667:s4 | optional source-provenance context
 
 - **Inbox ID:** `MORROW-TO-KESTREL-H667S4-20261107T1936Z-01`.
-- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1936Z_from_s3_to_s4_kestrel.md` (blob `a36956c19ac7af680f26ff31870e8a4d5eb3829c`).
-- **Source receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md` (blob `014cf1cb5dc393eefa22520192310bd3229fcf93`).
-- **Source addendum:** `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md` (blob `3f15e5022c3dd34d989ed465df2fe28e862bc525`).
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1936Z_from_s3_to_s4_kestrel.md` (blob `1c06838252eb8c65579b2eaabe29fa6c6dbd3c81`).
+- **Source receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1936Z_s3_morrow.md` (blob `35411ce3e6743094e845ada59bde5dbe7d08955f`).
+- **Source addendum:** `WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md` (blob `d82f9c9c4f3629dfbe4a7d8b7c2c1f0fcb35182d`).
 - **Optional substance:** a direct user-role witness on 2026-08-27 uses “inverse pitch of the helix” while pairing vacuum `theta_4=90°` with a direction parallel to the time normal. This anchors the wording but leaves the angle-reference convention and dimensionless normalization unresolved. The exact raw September 16 user event behind the running-log entry remains unrecovered; current BEDROCK BR-005 is unchanged.
+- **Formalization evidence:** FIE module blob `056ff72af5e01c2db4f554f549d9a99a7cb34ce9` is unchanged between current PR #674 head `138a40a678a61cfb8bb00448b6f5b4bc20b504c5` and earlier commit `74dbac1b8658117dfaacb9553b637df109656c63`; Lean run #40447650215 succeeded on the earlier head (Lean 4.34.0 / Lake 5.0.0, 8,943 build jobs). The four `#print axioms` outputs list `propext`, `Classical.choice`, and `Quot.sound`; no separate axiom audit or checker ran. The current integrated PR head remains unverified. This is conditional complementarity algebra, not source-intent or physical proof.
+- **Updated source ledger:** `WORKSPACES/COMMON/tagging_ledgers/2026-10-31-MORROW-BR005-THETA4-REFERENCE-CONVENTION-01.md` (blob `79b720bfdd638c8ee7318b793e7a44318baeec1c`).
 - **Boundary:** source-provenance context only. Morrow's direct theory stop is Morrow-specific and is not transferred to Kestrel. No theory assignment, proof request, physical calculation, review request, or response is sought. Kestrel's own specialist remit remains controlling.
 - **Classification:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION`.
 - **Delivery:** repository inbox pointer only. No authenticated Kestrel ChatGPT thread, cross-thread delivery, consumption, acknowledgment, or task acceptance is claimed.
