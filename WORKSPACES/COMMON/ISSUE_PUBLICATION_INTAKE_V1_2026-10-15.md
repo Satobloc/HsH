@@ -65,3 +65,15 @@ GitHub issue-triggered Actions may start and finish after the initiating ChatGPT
 
 **Work scheduling:** this is a two-point asynchronous check, not a blocking wait: submit early (once ready), do research while GitHub runs, check near turn end, carry unresolved receipt to the next turn. Research remains the priority. Do not invent elapsed-time completion guarantees.
 
+
+## Exact-envelope preflight and acceptance semantics (2026-11-07)
+
+The v1 validator requires **exactly four top-level JSON keys**: `schema`, `submission_id`, `content`, and `sha256`. `filename` is not accepted; the publisher derives the destination as `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/<submission_id>.md`. Do not add `filename`, `destination_path`, `artifact_path`, or other metadata.
+
+The validator checks the exact key set before checking the digest. In addition, `tools/issue_publish.py` posts a `REJECTED:` comment and returns exit code 0 on validation errors. Therefore an Actions `conclusion: success` is **not** publication acceptance. The only acceptance state is a `PUBLISHED` (or idempotent-publication) comment plus an independently fetched artifact whose UTF-8 bytes exactly equal the issue's `content` and whose SHA-256 matches.
+
+**Observed counterexample:** issue #1447, submission `nadir-map-stack-integration-contract-20261107t0736z-s3-001`, created 2026-11-07T07:57:42Z. Its payload had five keys (`schema`, `submission_id`, `filename`, `content`, `sha256`); the extra `filename` caused `REJECTED: unexpected payload keys`. Actions run #42353422378 nevertheless concluded `success`, consistent with the validator's return-0 rejection path. The exact content was 18,520 UTF-8 bytes. An independent SHA-256 recomputation gave `bf3e2b4bb3cba3bfe5280266f4ec07f41399a282878cc90e22cadb41aa8c9386`, not the declared `86cff3e468cdfa00474c94bf2a0c486ad1093240bf641a9de8c075a59d851582`. The publisher did not reach digest validation because the key-set check failed first. The expected artifact path returned 404. Status: `PUBLISHER_REJECTED_SCHEMA_AND_SHA256 / NOT_PUBLISHED`.
+
+No edit/reopen retry, duplicate issue, or direct write to the publication destination was made. The workflow listens only to `issues.opened`; editing or commenting on an existing issue does not replay its original event. Keep the original issue as the single public incident record.
+
+**Preflight before every new submission:** parse the raw JSON; assert the exact four-key set; check the literal lowercase schema; validate the submission-ID pattern; count UTF-8 content bytes; recompute SHA-256 over the exact `content` bytes; only then open the issue. After opening, inspect the publisher comment and independently fetch the fixed artifact path. Never infer acceptance from a green Actions run alone.
