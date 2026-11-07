@@ -114,3 +114,12 @@ A second pass found earlier components of the current conception. This narrows t
 | SAT archive, `Misc HsH-SAT/NESTED HOLONOMIES.txt`, blob `0a8d52da06d1a787252b9a120c4770aa29095879` | June 11, 2026 discussion includes extensions: timesheet as a coordinated bosonic-ripple wavefront; fermions, bosons, gravity, and time as different distortions of one filament network, potentially admitting shared wave equations. | Mixed conversation/synthesis; classify individual spans by speaker before treating the extensions as Nathan Direct. |
 
 **Chronology conclusion:** the base time-wavefront ontology and the boson-as-filament-ripple ontology are older than the explicit recovered “Bosonic Time” synthesis. The exact Summer 2025 source Nathan recalls has not yet been located. Do not replace Nathan's recollection with the later file timestamp; keep both as distinct evidence until the original conversation or dated note is recovered.
+
+
+## 2026-11-07 source-locator update
+
+A user-role message dated 2026-11-04T23:33:42Z has now been recovered in a private Library raw export of a separate **Workshop Relay :24 | Geometry** conversation. The message explicitly asks that the position be associated with the **:00 Archive** lane. This resolves message-level source recovery for that specific tentative position.
+
+This does **not** recover the separate original h597 transcript capture previously marked source-recovery-blocked, and it does not establish a currently addressable live thread or any cross-thread delivery. Exact conversation/message identifiers and the private raw-file locator are preserved in the internal revival receipt rather than this public index.
+
+The recovered message directly supports the tentative mutual-worldtube/timesheet-curvature position, possible equivalence to worldline-only or timesheet-only representations, even attribution as a default absent evidence of asymmetry, and the local/global wavefront description. These remain hypotheses/descriptive claims; no explicit metric encoding, projection map, curvature tensor, or observational validation is supplied.
