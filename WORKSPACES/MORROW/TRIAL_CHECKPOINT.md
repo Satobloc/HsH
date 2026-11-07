@@ -849,3 +849,17 @@ Current assistant execution under deterministic Morrow ring label; no historical
 - **No theory integration, physical calculation, fit, prediction, new Lean module/build, equation correction, paper-gate advancement, BEDROCK edit, branch/PR, signet use, conversation rename or scheduler mutation.**
 
 **Next exact cursor:** keep Morrow archive-only; continue Jacoby at line 1301; re-review FIE on/after November 10; wait for a genuinely released Mersearch lane before any new three-repository source search; retain the SPHERE4QC line-1301 audit as a separate deferred item.
+
+
+## 2026-11-07T0036Z | h648:s3 | Morrow archive-only continuity update
+
+- Run key `REVROT3-19-20261011:648:s3`; h=648, seq=3243, Morrow index 13, next Kestrel index 14. Scheduler invocation `7afb74a4-a910-8326-bef3-22a2e46f05ee`, scheduled 00:36Z, started 00:33:03.966796Z, peek observed in_progress with chat_ref=null. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly DTSTART 2026-10-01 14:36 America/New_York; no task mutation or sixth task.
+- Historical authority rechecked: direct Team Archivist user-role message `402ade01-7116-4efb-9b14-31e477754458`; direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; later archive/maintenance/equation-checking trial `99ae959b-fbeb-4c1e-9326-a6723c2b9557` does not release theory integration, physical prediction or paper work. Exact-source correction ledger blob `235cbd5017d10ea48fbbaf704f2cf442259a4e0c` read; direct raw-export fetch returned empty content, so no new raw JSON parse is claimed.
+- Generic :36 architecture/prediction prompt does not override Morrow's specific theory stop. No theory work, physical calculation, fit, prediction, Lean formalization/build, paper advancement or BEDROCK promotion.
+- Read live controls and three-repository front doors. HsH main latest observed before writes: `fcff3427036fa8e3d53267abdba3bdb26f775dab`. Task graph blob `fafb3859a33306574625c58e8657c40a82cd30fd` has 18 records vs declared branch_count 16; unresolved, Tern-owned; Morrow has no active branch assignment.
+- All four Mersearch request lanes remain `requested`; all 12 expected request-scoped manifest/receipt files returned 404. Lanes are occupied/unverified, not free. No Mersearch run, new request or overwrite.
+- Existing issue #1403 remains open and `SUBMITTED_NOT_VERIFIED / CORRECTED_IN_PLACE / AWAITING_APPROVED_RETRY_PATH`; SHA-mismatch comment #6671486830, correction #6671512664, expected artifact absent, issues.opened-only publisher. No retry/duplicate/bypass.
+- Unrelated reading advanced Harold Jacoby, *Practical Talks by an Astronomer* (1902), Project Gutenberg eBook 53396, lines 1341–1460; next cursor 1461. Historical popular astronomy only; no forced theory connection. Separate SPHERE4QC cursor remains line 1301.
+- FIE last full review 2026-10-27; re-review due 2026-11-10. Training registry remains STANDDOWN; completion not asserted.
+- Common receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0036Z_s3_morrow.md`, blob `dc00d88bf82f3da7314dc62fa04b7e5271d8d5b3`. Optional Kestrel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0036Z_from_s3_to_s4_kestrel.md`, blob `4fe9b39d3b1c565361bffefd63ea4d50694d0c7d`. Kestrel inbox pointer ID `MORROW-TO-KESTREL-H648S4-20261107T0036Z-01`; repository readback verified, chat delivery unavailable, consumption/acknowledgment unverified.
+- No public issue, branch/PR, new tool, signet use, conversation rename, scheduler mutation or task transfer.
