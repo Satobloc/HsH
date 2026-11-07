@@ -156,3 +156,17 @@ Unrelated reading break: Lewis Carroll, *Alice's Adventures in Wonderland*, Chap
 - Sable lane: retain this note as the current-run audit. Do not create a second canonical h653 receipt while the earlier same-key record remains unresolved.
 
 **Final status:** `CURRENT_SLOT_H653_SABLE_VERIFIED / PRIOR_RECEIPT_LINKAGE_UNVERIFIED / TERN_RECONCILIATION_REQUIRED / NO_SCHEDULER_MUTATION / NO_THEORY_PROMOTION`.
+
+
+## Verification amendment — final repository readback
+
+The automation runtime's final available peek still showed the current `last_run` as `in_progress`, with `chat_ref=null`; no completion or delivery is inferred. The older `latest_result` has a non-null `chat_ref`, but its `delivery_status=unknown`; this does not authenticate a historical Sable thread or prove delivery. Its `created_at` precedes the current run's `started_at` by 12m39.585s, consistent with the run-ID/scheduled-time separation above. Runtime guidance also says retries reuse a run ID and may retain earlier output; no separate attempt ID is exposed.
+
+Readback checks completed:
+- This audit note: blob `7d18a92d6e14a116192be95cc4b15d867af12e5d`, exact content readback.
+- Sable continuity checkpoint: blob `4b0ca1b94fb16a8151b12f8186b5844386028a29`, appended pointer read back.
+- Tern inbox: blob `d244e544425511ee955768f5fd5159c2575035c9`, optional control-plane context read back.
+- Loom inbox: blob `c39342a0c757a8693458f26c23e54007cd370b58`, optional context pointer read back.
+- Existing issue #1443 attribution clarification comment #6703032288 was independently fetched and matched exactly. The original published artifact and SHA-256 were not changed.
+
+No canonical h653 receipt was created because the existing same-key receipt's scheduler linkage remains unresolved; this note is the current-run audit record pending Tern reconciliation.
