@@ -5,7 +5,7 @@
 ## Run and preservation
 
 - Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact hourly schedule and phase. No task, ID, prompt, cadence, or enabled-state change; no sixth task.
-- The current scheduler occurrence run 95692beb-... is recorded FAILED with chat_ref=null. This report is repository work and does not turn that scheduler record into a successful or authenticated worker-thread receipt.
+- The current scheduler occurrence run 95692beb-e144-832a-b593-1d64649ffec7 is recorded FAILED with chat_ref=null. This report is repository work and does not turn that scheduler record into a successful or authenticated worker-thread receipt.
 - The :12 slot remains disabled. Morrow is only the next ring label; the handoff is repository-only optional context, not a scheduled delivery, assignment, or ownership transfer.
 - Read the live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, main-branch task graph, receipts, and Tern's historical Comptroller/upkeep charter. Morrow's README, INBOX, and CURRENT_WORK were also read before preparing the optional archive handoff. Morrow's Team Archivist remit and direct theory stop remain controlling.
 
@@ -57,3 +57,5 @@ Continued the unrelated HSH_RESOURCES source at blob SHA-1 fa52e41ab73566a13109a
 - Continue Actions/Pages and daily Traffic reconciliation, cloud-provisioning investigation, and repo/run/job/attempt/day clone-event classification.
 - Continue θ4 source recovery with the raw September 16 event, dated angle conventions, Lorentzian signature/causal character, W-to-spine and timesheet-to-director maps, and a separately defined readout law.
 - Next same-phase Tern appearance is h686:s2 at 2026-11-08T14:24Z, subject to the existing :24 lease. No task or schedule change is requested.
+
+**FIE cadence check:** last full FIE review recorded October 27; next re-review is due November 10, so it was not yet due on this November 8 pass. No premature re-review or status change was made.
