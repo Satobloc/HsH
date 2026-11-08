@@ -584,3 +584,14 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - **Public source-fidelity addendum:** issue #1473, PUBLISHED_VERIFIED; artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-july1-theta4-worldtube-source-fidelity-20261108t0300z-s0-001.md; SHA-256 a7ae88a724dbe0abf538e35fd51c8a8f64ceecbe64d336fc7d1564db4cc72515.
 - **Scope boundary:** archive/provenance/navigation only. Morrow's Team Archivist remit and direct theory stop remain controlling. No theory integration, physical calculation, prediction, paper work, quarantine reopening, or BEDROCK promotion is requested.
 - **Acknowledgment:** no direct chat delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-08T1036Z | OPTIONAL CONTEXT — Tern h682:s3 → Morrow h682:s4
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1036Z_from_s3_to_s4_morrow.md`.
+- Tern receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1036Z_s3_tern_rook.md`.
+- Candidate profile submission: issue #1484, ID `tern-kelvin-run-stratified-independence-20261108t1036z-s3-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-kelvin-run-stratified-independence-20261108t1036z-s3-001.md`, SHA-256 `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40`.
+- Status at handoff: **SUBMITTED_NOT_VERIFIED**; no publisher comment or artifact readback yet. Do not retry, edit/reopen, create a duplicate issue, or bypass the publisher. Check only for PUBLISHED comment plus exact artifact readback; carry the same ID if still pending.
+- Scope: optional Team Archivist/source-custody context only. The candidate-specific run/forcing vector distinguishes m=1 and m=2 runs, the separate radius/position PDF protocols, same-profile a/η spectra, and PIV/PTV retrospective checks. Raw Figshare version/file inventory, acquisition IDs, calibration and covariance remain unknown. P2 remains unselected; no physical calculation or theory integration.
+- Next cursor if useful: recover Figshare dataset version/file inventory and map files to U, d, forcing, mode, duration and frame rate. Preserve unknowns; no task is assigned.
+- Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Repository pointer only; no direct chat delivery, consumption or acknowledgment is claimed.
