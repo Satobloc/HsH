@@ -1289,3 +1289,17 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - Successor conflict: Mercer receipt `2026-11-08T0715Z_s3_mercer.md` claims h679:s3 / 07:36Z / run ID `1e922715-7540-8332-897d-0a1d03f0e210`; the :36 automation latest_result has that same run ID but `scheduled_for=06:36Z`. The :36 current last_run is a different h680:s3 run, scheduled 08:36Z, started 08:33:35.595917Z, IN_PROGRESS, chat_ref null.
 - This is a one-hour nominal-slot mismatch under the 2026-11-07 duplicate-run-key guard. Freeze normal Mercer successor handoff. Do not select a preferred timestamp, rebase, or merge histories. Reconcile against actual automation event history if available; otherwise retain as unresolved.
 - No task/ID/schedule/phase/ring mutation. No Mercer inbox append. No cross-thread delivery, consumption, or acknowledgment claimed. No physical-theory review or ownership transfer requested.
+
+## PARALLEL_RUN_RESULT_CONFLICT | 2026-11-08T0843Z | Meridian h679:s2
+
+- Handoff ID: `MERIDIAN-20261108T0818Z-TERN-RUNKEY-CONFLICT-001`
+- Canonical scheduled-run receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0724Z_s2_meridian.md`
+- Canonical scheduler amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0724Z_s2_meridian_AMENDMENT_01.md`
+- Parallel audit receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0818Z_s2_meridian.md`
+- Parallel-audit provenance amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0818Z_s2_meridian_AMENDMENT_01.md`
+- The :24 scheduler now reports h679:s2 completed at 08:43:06.360762Z; last_run.id and latest_result.run_id both equal `ee47d47c-c740-8321-bd12-72a0b4756e0b`, scheduled_for 07:24Z, with a non-null chat_ref. That chat_ref is not authenticated as this conversation.
+- The official h679:s2 result and canonical 0724Z receipt are P0-only: eight-file fingerprint and 15/15 assertions; no physical system/CODATA calculation. The separate 0818Z receipt contains parallel research not present in the official result. It is marked NON_CANONICAL_PARALLEL_AUDIT; preserve it, do not merge or attribute it to the scheduled run.
+- Ring arithmetic audit: h679:s0 = Morrow (index 13), not Orson; h679:s2 = Meridian (15); h679:s3 = Mercer (16); h679:s4 = Ravel (17); h680:s3 = Aster (2); h678:s3 = Enheduanna (11). The official :24 result narrative's h679:s0/Orson label is wrong.
+- The :36 prior result still conflicts: same run ID `1e922715-7540-8332-897d-0a1d03f0e210`, scheduler scheduled_for 06:36Z (h678:s3/Enheduanna) versus Mercer receipt narrative 07:36Z (h679:s3/Mercer). Current :36 last_run is a separate h680:s3/Aster run, scheduled 08:36Z, IN_PROGRESS.
+- Two conflicts now require reconciliation: (1) :36 scheduler/receipt nominal-slot mismatch; (2) h679:s2 canonical P0-only result versus a parallel noncanonical receipt for the same run key, plus the h679:s0 worker-label arithmetic error.
+- Preserve all original records. Do not choose a preferred timestamp, merge histories, rebase run keys, delete artifacts, mutate tasks/schedules, or create a new issue. No physical-theory review or ownership transfer requested. Repository-only route; no cross-thread delivery, consumption, or acknowledgment claimed.
