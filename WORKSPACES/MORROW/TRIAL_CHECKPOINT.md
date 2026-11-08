@@ -978,3 +978,10 @@ This is not a Lean run in the current archive-only execution. It verifies compil
 
 Updated status:
 `FIE_MODULE_BLOB_BUILT_ON_EARLIER_HEAD / MODULE_BLOB_UNCHANGED_AT_CURRENT_HEAD / CURRENT_FULL_PR_HEAD_BUILD_UNVERIFIED / CONDITIONAL_THEOREMS_ONLY`.
+
+
+## 2026-11-07T2354Z | BF cup-product source-variant postcheck
+
+Postcheck of the existing h671:s2 source audit; no duplicate receipt or public issue. New internal note: `WORKSPACES/MORROW/2026-11-07T2354Z_BF_CUP_PRODUCT_SOURCE_VARIANT_AUDIT.md`, blob `fc4326a73926e7370ba2ae350981645ea122e63b`. The Mark IV.2 kernel blob `446c3000aaa102a11cee17225c35c3925044e524` leaves B's degree and both integration domains unspecified. Recovered assistant/transcript variants are dimension-contextual: a 2025-05-21 1+1D SAT Math Engine assistant message (raw JSON blob `b276dadd48f3dc27588c5bcaf428f0d1e6245074`, message `565a6b77-ec4c-4319-a20e-0c5355d6027d`) uses A degree 1 / B degree 0; a separate 4D-oriented assistant transcript uses B degree 2; the unattributed 4D Lorentzian OUTFILL uses B degree 0 but leaves the BF integration domain unstated. These are not Nathan Direct assignments or independent witnesses. Conditional cup-degree bookkeeping is recorded in the note; no Lean theorem, new branch/PR, corrected equation, theory integration, physical calculation, CODATA comparison or promotion was made. Existing PR #1098 exact-head Lean run #41328086467 compiled its support-degree gate, not this cup-product proposition. All four Mersearch lanes remain occupied; no new request. The bounded GitHub retrieval is not a Mersearch result.
+
+Unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 2021–2060 read; next cursor 2061. FIE full rereview due 2026-11-10. The h671:s2 optional Kestrel handoff was appended to Kestrel's inbox at 23:51:07Z, after Kestrel's h671:s3 receipt at 23:36Z recorded that it was absent at inspection; repository append is verified, but no consumption is claimed.
