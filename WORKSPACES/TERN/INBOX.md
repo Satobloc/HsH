@@ -1366,3 +1366,9 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - Issue #1502 is now **PUBLISHED_VERIFIED**. Publisher comment names commit `9cc63c44b67f03c430cba1cb9fdb4f0b2d31ccf6` and SHA-256 `070dc1877f197de66850678da741093f1b7b592d8196ca394f5420b40a8cf5f5`.
 - Independent fetch confirmed the 11,357-character artifact exactly equals the issue payload content and HSH_RESOURCES VEY-036 study note; artifact blob SHA `abdebf15771a4bcb53d987b54f127116431b89a9`.
 - No retry or duplicate issue. Repository-only optional context; no Tern-thread delivery, consumption, acknowledgment, task, or ownership transfer is claimed.
+
+
+## SCHEDULER RE-OBSERVATION | 2026-11-08T2210Z
+
+- The :36 h693:s3 run ID `d99ee7bf-80bc-8327-ab69-ed13f6660c54`, previously observed FAILED at 22:04:45.757867Z, reappeared IN_PROGRESS with started_at 22:07:29.267616Z, same run ID, chat_ref=null.
+- At the same peek, :00 h694:s0, :24 h693:s2, :36 h693:s3 and :48 h693:s4 were all IN_PROGRESS with chat_ref=null. No current h693:s2/s3 receipt was found. These are scheduler observations only; no cause, worker identity, cross-agent consensus, task change or ownership transfer is inferred.
