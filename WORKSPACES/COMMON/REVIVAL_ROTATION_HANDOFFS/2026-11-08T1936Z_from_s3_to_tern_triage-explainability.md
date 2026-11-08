@@ -29,3 +29,16 @@ No priority, owner, status, due date, task ID, schedule, phase, or cadence was c
 ## Delivery boundary
 
 A repository handoff and inbox pointer may be verified; that is not ChatGPT-thread delivery. No Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
+
+## Post-check amendment | 2026-11-08T20:37Z | exact publisher digest
+
+The original packet's `SUBMITTED_NOT_VERIFIED` state is superseded by this readback:
+
+- Issue #1499 publisher comment #6726423212: `REJECTED: SHA-256 mismatch`.
+- Expected artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-task-upkeep-triage-explainability-20261108t1936z-s3-001.md` returned 404. Status: `PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED`.
+- The issue payload has exactly the four required keys. Its `content` is 5,600 UTF-8 bytes and has no final LF. Declared SHA-256 `f6c733be0e7bb0f1c3200f6f5e1c707aadbcbf58bf3935ccda17090c415286b1` matches `SHA256(UTF8(content + LF))`; exact-payload `SHA256(UTF8(content))` is `6f888d0fb7aa38a76ad2aec9483b964b83e505729a47d4ef1e314164ac2acdea`.
+- Diagnosis: final-LF mismatch. The earlier issue is the sole public incident record. Do not edit/reopen it, create a duplicate, or bypass the opened-only publisher.
+- Current automation invocation `4927eb1a-7bf0-8323-990c-d2f2d1e52cdd` started at 20:37:05Z, after issue creation at 20:02:15Z; issue #1499 has no scheduler run ID and is not attributed to this invocation.
+- Reusable preflight refinement: freeze exact content; record UTF-8 byte count and final-LF state; hash exactly the payload bytes; compute the with-LF variant only to diagnose `FINAL_LF_MISMATCH`; never normalize after hashing.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1936Z_s3_sable.md`.
+- Repository-only optional context. No Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed. No scheduler/task/graph/script mutation occurred.
