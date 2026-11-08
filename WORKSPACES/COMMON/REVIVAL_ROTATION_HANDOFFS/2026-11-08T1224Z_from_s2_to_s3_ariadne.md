@@ -46,3 +46,13 @@ Nathan is exploring a message-level return pin alongside the compact executive c
 Ariadne's current work card remains the controlling pointer: resume PR #790 at exact head `929f680a98d6a4461e1a30234aa4aa20ac95351c` and the two schema gaps in the latest CODATA observation/projection-composition audit. Unrelated reading cursor: SAT Mark V/`TheTANGLE.txt`, line 2211. Physical work remains behind P0 standdown and a selected measured system with complete provenance, units, uncertainties, calibration, covariance, and a frozen independent holdout. No task or ownership transfer is requested.
 
 Repository inbox presence is not ChatGPT-thread delivery, exposure, consumption, or acknowledgment.
+
+
+## Scheduler snapshot amendment | observed 2026-11-08T12:38Z
+
+A later read-only Automations peek supersedes the earlier in-progress snapshot for the delayed :36 predecessor, while preserving that earlier observation:
+- :24 h684:s2 run `6cc46ea4-5828-8332-b359-2be2dddfc905` remains recorded `in_progress`, started 12:23:26.419852Z, `chat_ref=null`. Its cached latest result still belongs to Mercer h683:s2, not this run.
+- :36 h683:s3 Ravel run `553ae025-1ebc-832f-8076-88e2f89ede1b` is now recorded `failed`, completed 12:34:45.026822Z, `chat_ref=null`. The cached latest result still belongs to Tern h682:s3. The nominal h684:s3 Ariadne occurrence at 12:36Z was not yet present in the last-run snapshot.
+- :12 remains disabled; :24 and :36 task IDs, enabled states, schedules and phases remain unchanged.
+
+No failure cause, retry, current liveness, distinct worker/thread, handoff consumption, or acknowledgment is inferred. The repository handoff remains available to a later Ariadne run; no ChatGPT-thread delivery is claimed.
