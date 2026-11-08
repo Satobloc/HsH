@@ -1,6 +1,6 @@
 # H(s)H/SAT Primary Operational Guideline
 
-> **Primary operational guideline, adopted 2026-11-08:** This document organizes the current research methodology and working-model architecture for ongoing H(s)H/SAT work. Its methodological sections are the active operating guide. The short RMS epilogue records the philosophical background and is not intended as a recurring procedural checklist.
+> **Expanded operational guide, adopted 2026-11-08:** This document organizes the current research methodology and working-model architecture for ongoing H(s)H/SAT work. The primary operational statement of RMS is now in [`BEDROCK.md`, ND-2026-11-08-01](../../BEDROCK.md), which governs across workers. The RMS epilogue records the philosophical background; it is always operative in principle, but is not a separate recurring procedural checklist.
 
 **Date:** 2026-11-08  
 **Authority:** Nathan Direct, current conversation.  
