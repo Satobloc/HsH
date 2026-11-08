@@ -126,3 +126,10 @@ The October 1 direct user instructions authorize a general independent sandbox a
 - Current review: [h670:s4 Review-MIND source correction and cross-lane QC](2026-11-07T2248Z_REVIEW_MIND_SOURCE_CORRECTION_AND_CROSS_LANE_QC.md).
 
 No current Nadir ChatGPT thread is authenticated. No new calculation, Lean run, physical claim, or theory promotion was made by this source-locator correction.
+
+
+## 2026-11-08 h693:s3 resolution-stability gate
+
+- `2026-11-08T2136Z_RESOLUTION_STABILITY_GATE.md` adds a resolution-stability subgate between structural identifiability and empirical validation. It reuses the existing exact-head Lean result in PR #1189; no new theorem, Lean execution, physical calculation, P2 selection, or theory promotion was made.
+- Public publisher issue #1503; submission `nadir-resolution-stability-gate-20261108t2136z-s3-001`; SHA-256 `91cc97196d758e41c2e00f48b7ff70122375ddb4b6c7fdd8bf32f2916acf307d`. Initial status: `SUBMITTED_NOT_VERIFIED`; verify the publisher receipt and exact artifact readback before upgrading.
+- Next cursor: recover the Nature Figshare item/version and calibration/covariance package; separately assess whether the PRL raw data can be obtained; define the H(s)H-to-fluid map before any physical test.
