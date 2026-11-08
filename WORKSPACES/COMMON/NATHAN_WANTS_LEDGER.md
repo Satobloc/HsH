@@ -201,3 +201,14 @@ Read with `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md`.
 
 ---
 
+
+
+## 2026-11-08 — cross-repository project recovery and global priority list
+
+**Status:** ADOPTED PLAN / EXECUTION PENDING
+**Trigger:** Nathan: “We should make it a plan too try to clean up our priority list and return certain things to the workflow, do a sweep of the archives and see what we can do to make a global priority list.”
+**Proposal:** Extend the existing OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md into a deliberate three-repository portfolio recovery: find started, partially completed, stalled, dormant and promising projects; reconstruct intent/progress/blockers; reconcile them against current steering and commitments; then publish a source-linked global priority list and a bounded re-entry docket.
+**Guard:** Do not mechanically revive old TODOs; do not delete or rewrite source projects during discovery; do not let the new sweep displace current controlling commitments, protected remits, or alter scheduler/lease state. Preserve parked work and resume cursors. “Old” or “inactive” is not by itself a disposition.
+**Example intake:** HsH/WORKSPACES/COMMON/PLAYGROUNDS/CALDER_VANE/ (four connected open sandbox notes dated 2026-10-01) is a strong initial recovery candidate; its ranking awaits checking for later continuation and reviewing the actual calculations.
+**Implementation:** expanded existing old-plan recovery sweep with scope, project record schema, dispositions, ranking method, phases and initial candidate docket. No project has yet been promoted, parked, retired or assigned.
+**Return trigger:** complete discovery and publish the first reconciled global priority register; revisit after the first set of projects is returned to workflow.
