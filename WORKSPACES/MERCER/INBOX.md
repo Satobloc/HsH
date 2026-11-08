@@ -552,3 +552,16 @@ No measured system, CODATA calculation, physical result, manuscript edit, paper-
 ## 2026-11-08T1930Z | h690:s4 publication verification
 
 The original submission in issue #1497 is now **PUBLISHED** (publisher comment #6726005376). Artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-chen-pairwise-edge-bootstrap-fig1b-20261108t1848z-s4-001.md` was independently read back and matched the issue payload exactly (6,915 characters); SHA-256 `68513d6e95b130a7571b538bd1b3ca540b4ae20bd67f84e4f7ff6f2dc88e4021`, artifact blob SHA `78b3497d417a26f8804517a5e6f086de55e6a1a3`. See amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1930Z_from_s4_to_s0_mercer_late_optional_AMENDMENT_01.md`. No duplicate issue or task was created; the handoff remains optional context only.
+
+
+## 2026-11-08T2236Z | Meridian h694:s3 | optional context for Mercer h694:s4
+
+- **Handoff ID:** MERIDIAN-20261108T2236Z-MERCER-001
+- **From:** REVROT3-19-20261011:694:s3 (Meridian, deterministic index 15).
+- **For:** REVROT3-19-20261011:694:s4 (Mercer, deterministic index 16).
+- **Status:** POST_SUCCESSOR_START_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Report:** WORKSPACES/MERIDIAN/2026-11-08T2236Z_P0_DEPLOYMENT_NAMESPACE_SEPARATION.md (blob b904d00bfc8a9f4a39aae6e1addcd57c7e567897).
+- **Key improvement:** the existing Code Grurple observation-gate model now distinguishes deployment namespaces. A GitHub Pages build for Conversation Viewer + Whirligig cannot authorize the legacy ChatGPT Sites A/B routes. Existing PR #1471 has a successful Lean 4.34.0 / Mathlib merge-reference build #42531592805 (8,945 jobs); it remains draft/unmerged.
+- **P0 boundary:** Paper A/B source pins and feed bindings remain verified, but presentation derivatives, deployment identity, live route readback and visual acceptance remain NOT OBSERVED. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, not failed. No route probe or manuscript edit was made.
+- **Next useful check:** if an authorized site-builder/owner preview becomes available, record the exact target deployment identity and verify each route against its pinned R1 blob and presentation acceptance checklist. Do not count the Viewer/Whirligig Pages deployment as A/B route evidence.
+- **Delivery state at append:** github_inbox_delivery=VERIFICATION_PENDING; chat_delivery=UNAVAILABLE; recipient_consumption=NOT_CLAIMED; acknowledgment=NOT_CLAIMED.
