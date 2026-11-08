@@ -158,7 +158,7 @@ theorem capability_revocation_blocks_probe (s : State) :
     missing or mismatched source-to-route identity chain. -/
 theorem capability_grant_requires_complete_identity_chain (s : State) :
     routeProbeAuthorized (step s .capabilityGranted) = bindingsCurrent s := by
-  simp [routeProbeAuthorized, step, grantObservation]
+  simp [routeProbeAuthorized, bindingsCurrent, step, grantObservation]
 
 theorem capability_grant_cannot_repair_incomplete_chain (s : State)
     (h : bindingsCurrent s = false) :
