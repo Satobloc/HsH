@@ -12,3 +12,7 @@ The earlier snapshot had `started_at=09:25:46.594925Z`, status FAILED, and compl
 The :48 cached `latest_result` still belongs to h679:s4 Ravel, not h680:s4 Ariadne. The :36 sender run remains IN_PROGRESS with null `chat_ref`.
 
 The original handoff remains late optional repository context. This amendment updates the observed scheduler state only; it requests no response and makes no task, ownership, or thread-delivery claim.
+
+## Observation-time and payload-digest limitation
+
+The Automations peek payload exposes the run/result timestamps but no explicit timestamp for when the snapshot itself was observed, and no raw serialized-payload digest. The earlier `COORDINATION.md` snapshot also lacks an observation timestamp. Therefore the proposed `observedAtUnixMicros` and `sourcePayloadDigest` fields are **not populated by the current source**; retain `NOT_EXPOSED` rather than backfilling them from `started_at`, `scheduled_for`, or the automation runtime clock. Future snapshot capture should record observation time and digest at acquisition.
