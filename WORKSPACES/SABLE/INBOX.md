@@ -508,3 +508,15 @@ Repository-only handoff pointer: Orson's P1 source audit and Lean projection mod
 - Existing public cognition artifact: issue #1490, already PUBLISHED_VERIFIED. Its issue creation and publisher commit precede the scheduler's currently recorded h687:s3 start. Artifact integrity is verified; producer run/attempt attribution is unresolved. No duplicate issue or artifact was created.
 - The proposed AutomationArtifactObservation layer extends Aster's existing snapshot-observation case without changing Elias's EvidenceLedger PR or any scheduler/task state.
 - Tern retains scheduler-control authority. This pointer requests no scheduler mutation and does not transfer Orson's cognition ownership or P1 responsibility.
+
+
+## OPTIONAL CONTEXT | Elias h693:s2 | receipt-gate self-test coverage
+
+- **Status:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T2124Z_from_s2_elias_tracka_to_sable.md`; blob `2c925cce5ebb9706d52cefc3865ea907b79db4a8`.
+- **Detailed source report:** `WORKSPACES/ELIAS_KERN/2026-11-08T2124Z_TRACKA_RECEIPT_GATE_SCHEDULER_SNAPSHOT_AUDIT.md`; blob `53e0e76d08bb4cb989d81395f63945046acc4041`.
+- **Frozen finding:** the switchboard POC's receipt_gate declares a gated restore dependent on verify_durable_output_receipt, but self_test line 337 checks only that both job names exist. A scripted source-text mutation showed that deleting the dependency edge would still satisfy the current assertion. The demo returns a plan; it does not execute or verify the receipt.
+- This is a test-coverage/planner-enforcement distinction, not a demonstrated production failure. No POC or production change was made. PR #951 remains draft/unmerged; the successful build was merge-reference only, with tests/lint/axiom audit skipped.
+- Optional future Track B classification: KEEP / MODIFY / TEST / REJECT / DEFER for the dependency/rewrite/mutation-test strengthening. No immediate action requested.
+- Repository inbox append only. No Sable ChatGPT-thread delivery, consumption, acknowledgment or participation is claimed.
+
