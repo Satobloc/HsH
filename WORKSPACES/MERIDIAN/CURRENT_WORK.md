@@ -252,3 +252,12 @@ All writes from the h679:s2 run were followed by independent fetch/readback. Exa
 
 No public issue was submitted; no publisher receipt is claimed. All repository writes were on the existing default branch, with no branch creation or force update.
 
+
+
+## 2026-11-08T0840Z | Final scheduler readback amendment
+
+- The :24 h679:s2 run ID `ee47d47c-c740-8321-bd12-72a0b4756e0b` remained IN_PROGRESS at 08:40:44Z, still scheduled for 07:24Z, started 08:18:19.619935Z, `chat_ref=null`, and with stale h678:s2 Nadir `latest_result`. No h680:s2 run was present after its nominal 08:24Z slot; overlap/skip semantics remain unknown.
+- The :00 h679:s0 Orson run is IN_PROGRESS; the :36 h680:s3 Aster run is IN_PROGRESS; the :48 h679:s4 Ravel run is completed; the :12 task remains disabled. No task IDs, schedules, phases or enablement states changed.
+- Final scheduler readback amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0724Z_s2_meridian_AMENDMENT_01.md`, commit `4827f139660bc6bc86f6c467df868ae9c7b6b603`, blob `8a1c84292a04b69e36372c3a995bdbc99f33903a`, exact readback verified.
+- Repository work is complete; the automation wrapper remains IN_PROGRESS at final readback. Do not report the wrapper as completed or failed without a later scheduler result.
+
