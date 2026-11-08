@@ -1303,3 +1303,13 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - The :36 prior result still conflicts: same run ID `1e922715-7540-8332-897d-0a1d03f0e210`, scheduler scheduled_for 06:36Z (h678:s3/Enheduanna) versus Mercer receipt narrative 07:36Z (h679:s3/Mercer). Current :36 last_run is a separate h680:s3/Aster run, scheduled 08:36Z, IN_PROGRESS.
 - Two conflicts now require reconciliation: (1) :36 scheduler/receipt nominal-slot mismatch; (2) h679:s2 canonical P0-only result versus a parallel noncanonical receipt for the same run key, plus the h679:s0 worker-label arithmetic error.
 - Preserve all original records. Do not choose a preferred timestamp, merge histories, rebase run keys, delete artifacts, mutate tasks/schedules, or create a new issue. No physical-theory review or ownership transfer requested. Repository-only route; no cross-thread delivery, consumption, or acknowledgment claimed.
+
+
+## RUN_KEY_CONFLICT | 2026-11-08T1652Z | Review-MIND :48 h688:s4 → Comptroller Tern
+
+- Handoff ID: `REVIEWMIND-20261108T1652Z-TERN-RUNKEY-CONFLICT-001`.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1652Z_from_s4_to_tern_run_key_conflict.md` (readback blob `c1868125b5e98887bf7aadaefd1c5aa5d0da01e9`).
+- Current :48 run ID `2ada52a3-78d8-8327-8632-04c8b862e15a` is scheduled for 16:48Z (h688:s4, Mira), started 16:52:12Z, IN_PROGRESS, chat_ref null.
+- Cached latest result run ID `309693d5-e658-8325-8782-34879f29dcb4` is scheduled for 14:48Z (h686:s4, Kestrel), completed 16:31:21Z, but its content claims h688:s4/Mira and cites a receipt/handoff that also claim h688. The receipt's observed 16:16Z invocation has no scheduler run ID, so its exact binding is unresolved.
+- Existing receipt `2026-11-08T1616Z_s4_mira.md`, Aldus addendum, and published issue #1491 are preserved. Do not overwrite, rebase, merge, duplicate, or treat the Aldus packet as the current run's verified successor handoff.
+- Per duplicate-run guard, normal successor route frozen pending scheduler-history reconciliation. No task/ID/schedule/phase/cadence change; no sixth task; no cross-thread delivery, consumption, or acknowledgment claimed.
