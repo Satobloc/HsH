@@ -237,3 +237,18 @@ No Lean run or new mathematical calculation was made: the current Code Grurple a
 - Late optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0724Z_from_s2_to_s3_mercer.md`, ID `MERIDIAN-20261108T0724Z-MERCER-001`. The expected h679:s3 slot is not observed; this is repository-only optional context, not direct ChatGPT-thread delivery, task, response obligation or ownership transfer.
 - `TRIAL_CHECKPOINT.md` remains a legacy snapshot and was not rewritten.
 
+
+
+## 2026-11-08T0835Z | Durable-write checksum and readback receipt
+
+All writes from the h679:s2 run were followed by independent fetch/readback. Exact content or appended tail matched:
+
+- :36 scheduler-attribution amendment: commit `4786635dfa5f13379f874c62537a263660c558d0`, blob `1cc04916fd07e7e804ae66575f8b2fe87a3a7837`.
+- h679:s2 canonical receipt: commit `559961b20bdb6c2d3b8de85052b314e2ebd2f56f`, blob `ad6e26264268127ab4ba21ce29149e25cc06c3aa`.
+- h679:s2 to h679:s3 optional handoff: commit `ef833031ac2d81beaabcd5cb7fc64f79007dd672`, blob `5289d1c052d0e42b6ab2cf1539cc3c4e4e677b75`.
+- Mercer inbox append: commit `b3674df26fdc8df5614c73b427b28cb821e9b0e5`, blob `0207b7160c85ffe8a9fe766979744ee4c8162d90`.
+- Common scheduler FYI: commit `e3201aef2843426bd43e56468b9b030ed1da4b8a`, blob `c23bdf7728f19d3fd23d464ef3377f5aab42b360`.
+- This current-work append: commit `71c96c9791f6ddab24ee097eb1fb431f5f68b913`, blob `a374677ea39f4d02e24881de996d5911bbd9fc4e`.
+
+No public issue was submitted; no publisher receipt is claimed. All repository writes were on the existing default branch, with no branch creation or force update.
+
