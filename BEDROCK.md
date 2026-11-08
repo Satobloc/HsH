@@ -1,5 +1,17 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+### ND-2026-11-08-02 — Primary Operational Guideline precedence and FIE foundation
+
+**Authority:** Nathan Direct, 2026-11-08. **Scope:** operational-methodology authority across SAT/H(s)H. **Status:** controlling hierarchy clarification.
+
+The [H(s)H/SAT Primary Operational Guideline](WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md) is the primary operational guideline. It **supersedes BEDROCK wherever the two directly contradict**. BEDROCK remains a repository of theory premises, constraints, equations, and historical directives where compatible; its general claim to be the controlling operational authority is subordinate to the newer Primary Operational Guideline.
+
+The Primary Operational Guideline is itself **subordinate to the conceptual underpinnings of Fundamental Intuitions — Extended (FIE)**. FIE retains foundational conceptual status. Current H(s)H/SAT working hypotheses may significantly modify particular specifics or applications and therefore form an important interpretive lens for how FIE is presently operationalized. They do not displace FIE's conceptual foundation.
+
+This hierarchy does not silently erase earlier BEDROCK entries or make all of them inapplicable. Where a direct contradiction exists, the Primary Operational Guideline controls; otherwise compatible, more specific evidence, calculation, source, and safety controls remain applicable. Any conflict is to be resolved explicitly with source fidelity.
+
+---
+
 ### ND-2026-11-08-01 — RMS as the operative philosophical background; human intelligibility as a model-selection preference
 
 **Authority:** Nathan Direct, 2026-11-08, current conversation. **Scope:** all SAT/H(s)H epistemology, research, modeling, interpretation, communication and operational practice. **Status:** primary epistemological and methodological guideline. This adds no physical mechanism, equation, or empirical claim.
