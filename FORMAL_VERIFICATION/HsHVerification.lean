@@ -47,6 +47,7 @@ import HsHVerification.OrsonSharedRecordIdentifiability
 import HsHVerification.OrsonFinitePatternDistribution
 import HsHVerification.HumanAIGroupsSessionConfounding
 import HsHVerification.HumanAIGroupsTemporalExposure
+import HsHVerification.HumanAIMemoryCarryover
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
