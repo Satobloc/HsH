@@ -985,3 +985,57 @@ Updated status:
 Postcheck of the existing h671:s2 source audit; no duplicate receipt or public issue. New internal note: `WORKSPACES/MORROW/2026-11-07T2354Z_BF_CUP_PRODUCT_SOURCE_VARIANT_AUDIT.md`, blob `fc4326a73926e7370ba2ae350981645ea122e63b`. The Mark IV.2 kernel blob `446c3000aaa102a11cee17225c35c3925044e524` leaves B's degree and both integration domains unspecified. Recovered assistant/transcript variants are dimension-contextual: a 2025-05-21 1+1D SAT Math Engine assistant message (raw JSON blob `b276dadd48f3dc27588c5bcaf428f0d1e6245074`, message `565a6b77-ec4c-4319-a20e-0c5355d6027d`) uses A degree 1 / B degree 0; a separate 4D-oriented assistant transcript uses B degree 2; the unattributed 4D Lorentzian OUTFILL uses B degree 0 but leaves the BF integration domain unstated. These are not Nathan Direct assignments or independent witnesses. Conditional cup-degree bookkeeping is recorded in the note; no Lean theorem, new branch/PR, corrected equation, theory integration, physical calculation, CODATA comparison or promotion was made. Existing PR #1098 exact-head Lean run #41328086467 compiled its support-degree gate, not this cup-product proposition. All four Mersearch lanes remain occupied; no new request. The bounded GitHub retrieval is not a Mersearch result.
 
 Unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 2021–2060 read; next cursor 2061. FIE full rereview due 2026-11-10. The h671:s2 optional Kestrel handoff was appended to Kestrel's inbox at 23:51:07Z, after Kestrel's h671:s3 receipt at 23:36Z recorded that it was absent at inspection; repository append is verified, but no consumption is claimed.
+
+
+---
+
+## 2026-11-08 h679:s0 | Factory Floor five-object hierarchy source-fidelity addendum
+
+**Worker label:** Morrow (ring index 13). **Successor:** Kestrel (index 14). Deterministic selection only; no authenticated live worker thread or cross-thread delivery is claimed.
+
+### Continuity and authority
+- Main at work start: `77cae5918b42df504f0415ba392ab993c7a4630f`; task-branch graph blob `fc5315...`, 16 declared branches / 18 records, Morrow P2 candidate, no branch owner.
+- Morrow historical charter and direct stop reread: Team Archivist, archive/source custody, chronology, provenance, source comparison, equation checking, and formalization triage. No theory integration or physical prediction. The deliberately parked SPHERE4QC backend cursor remains line 1301.
+- No incoming Tern h678:s4 handoff found. The later h679:s4 Ravel run is not the predecessor and its optional handoff is addressed to Orson. Morrow's historical conversation is source material, not an authenticated current thread.
+- Existing :00 automation task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled and unchanged. No task/schedule/phase/ID change, no sixth task, no branch, no signet, no conversation rename.
+
+### Source cluster and provenance
+- Nathan Direct geometry-first instruction, 2026-11-03, raw :00 export user message `937638a6-0095-47da-8bd3-4d2bc92137bc`, timestamp 2026-11-03T16:06:08.288Z. Public transcription/control: `WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-03_GEOMETRY_FIRST_FACTORY_FLOOR_GATE.md` (blob previously read: `6a82fd...`).
+- Historical assistant-role report: `WORKSPACES/ELIAS_KERN/2026-11-03T1600Z_FACTORY_FLOOR_GEOMETRY_GATE_M87.md`; raw assistant node `0a5ee53b-72d1-4419-a303-7498d69909ca`, timestamp 2026-11-03T16:23:16.655Z. This is assistant synthesis, not Nathan Direct.
+- Factory Floor control: `WORKSPACES/COMMON/FACTORY_FLOOR_GEOMETRY_FIRST_GATE_2026-11-03.md` (blob previously read: `276408...`).
+
+### Five-object source versus assistant translation
+Nathan Direct names: primary observation; secondary physical working orrery/hands-on demonstration; tertiary precision dynamic geometry software model; quaternary precise static geometric diagram; pentary mathematics. The theoretical object is geometry, not mathematics.
+
+The assistant report's table glosses the primary as “actual empirical object and evidence,” conflating observation with its physical referent. It calls the secondary a “tangible physical instantiation of the system,” which can similarly collapse a demonstrator with the observed system. The other levels are broadly aligned, but geometry itself must remain the theoretical object and mathematics the formal description.
+
+### Typed map scaffold, not source equations
+- S: physical referent (analytic placeholder, not a sixth level).
+- O: observation of S (primary).
+- G: theoretical geometry.
+- P: physical orrery/demo (secondary); D: dynamic software model (tertiary); Q: static diagram (quaternary); M: mathematics (pentary).
+- Proposed distinct maps: measurement mu:S->O; inference I:O↠G; realization R:G->P; simulation Dyn:G->D; visualization V:G->Q; formalization F:G->M. These are analyst placeholders, not source-defined maps.
+- Each map needs explicit domain/codomain, assumptions, units/provenance/uncertainty where empirical, geometry/topology/metric/orientation/incidence/boundary where geometric, preserved observables, lossiness, and composition rules.
+- The five-level evidence/representation hierarchy is not a physical shape hierarchy and does not imply a linear chain of projections.
+- For actual nested shapes, define embeddings/projections and require composition coherence, e.g. p(k->i)=p(j->i) o p(k->j), or state the exact replacement isomorphism. A readout descends through p only if it is constant on every fiber of p.
+
+### Lean/formalization status
+- Existing Kestrel PR #873, module `KestrelProjectedIncidence.lean`, blob `0fe5390faa10113830132b12cdb98172194adfee`, includes `hallway_factorization_iff_fiber_compatibility`.
+- Recorded merge-ref run #41758925555 / job #126341666752 built the module at 8952/8954. The factorization theorem's axiom report includes `Classical.choice`; uniqueness uses `Quot.sound`; scale-route agreement is axiom-free.
+- The overall PR build failed later in `KestrelMovingSlice.lean` at lines 114 and 125 with unresolved goals / `sorryAx` in two moving-slice theorem reports. PR #873 remains open/draft/unmerged. This is not a clean full-project build, not current-main verification, and not an instantiation of any Factory Floor map.
+- No new Lean module/run: the source hierarchy supplies no typed maps to formalize. Lean proves only the formalized generic statement, not translation fidelity or physical premises.
+
+### Factory Floor and scientific limits
+- The M87* map-gap diagram in the historical Elias report is a diagnostic of missing maps/evidence, not a geometric plot of the actual system and not an admission artifact. Factory Floor remains blocked pending a sourced actual-system plot and geometry-first fidelity review.
+- No measured system, dataset, provenance package, units, uncertainties, fit, prediction, physical calculation, or CODATA scoring was used. No theory promoted; no paper gate advanced.
+
+### Publication
+- Issue #1482 created once through HSH-PUBLISH-V1. Submission ID: `morrow-factory-floor-five-level-typing-20261108t0700z-s0-001`. SHA-256: `3da9712562880cc6723767c2b6494658ebd0556923888f7509eb57bfd1bdb43c`. Content: 9,504 bytes. Status at checkpoint creation: `SUBMITTED_NOT_VERIFIED`. Expected artifact path: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-factory-floor-five-level-typing-20261108t0700z-s0-001.md`. No retry/duplicate; verify workflow comment, checksum, and independent readback near end.
+
+### Break and next cursor
+- Okakura, `The Book of Tea`, lines 489-780 read as unrelated source reading; next cursor line 781.
+- FIE last full review 2026-10-27, due 2026-11-10; not yet due.
+- Next deeper geometry cursor: choose one actual physical system, recover the observation and provenance, distinguish referent from observation and geometry from its representations, define each map and preserved invariant, check composition/fiber compatibility, then formalize and run Lean on the exact revision. Keep 2024 rope hierarchy and Factory Floor evidence hierarchy as separate source families.
+
+### Handoff
+Repository-only optional handoff to Kestrel. No authenticated Kestrel thread, cross-thread delivery, consumption, or acknowledgment is claimed.
