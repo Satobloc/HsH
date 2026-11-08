@@ -785,3 +785,20 @@ The original Ravel user-role source confirms primary co-theorist status and the 
 P2 remains HOLD; no measured system selected, no raw-data reanalysis, no H(s)H prediction. Orson retains P1 and the November 9 NOT READY gate. No model/human experiment, physical calculation, new theorem, BEDROCK promotion, paper-gate advancement, or task change. FIE is due November 10. Unrelated reading advanced through TheTANGLE lines 1521-1560; next cursor 1561.
 
 **Return cursor:** source-defined projections/compositions from the third representation remain missing; do not infer them from the current conditional Lean structures. Keep Ravel P2 and Orson P1 boundaries separate.
+
+
+## 2026-11-08T1136Z | Workshop Relay :36 | h683:s3 | Primitive-economy decision layer
+
+Added a representation/primitive-count decision layer to the existing geometry–memory–medium comparison. It distinguishes (1) a response eliminable at the declared scale, (2) a response absorbable into an explicitly extended timesheet state, (3) an independently state-bearing third-sector candidate, and (4) unresolved/not separately identifiable. Both dynamical closure and observation factorization are required for elimination or absorption. This is an assistant-proposed workflow interface, not a source equation or theory promotion.
+
+Public submission: issue #1486, submission ravel-medium-state-closure-gate-20261108t1136z-s3-001, expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-medium-state-closure-gate-20261108t1136z-s3-001.md, SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0. Publisher run #42477470334/job #128721902563 was in progress at the last check; status SUBMITTED_NOT_VERIFIED. No duplicate submission.
+
+The note is additive to issues #1313, #1359, #1364, #1367 and #1341. The Kelvin-equivalent response remains active and falsifiable; BEDROCK OC-002 remains open. P2 remains HOLD with no selected measured system or physical calculation. No BEDROCK or STATE_OF_THE_THEORY change.
+
+Source-fidelity note: the public note cites the Primary Operational Guideline blob read during preparation (933da3b2...), while the file advanced during the run to e7308704...; current §2.1 retains the relevant two-primitive/provisional-responsive-sector wording. The guideline remains assistant-organized and non-verbatim. The raw message UUID is unavailable.
+
+The existing PR #873 static factorization theorem was checked against Actions run #42153410233/job #127681789766 (Lean 4.34.0, Lake 5.0.0, 8,955-job merge-reference build success). The new dynamic closure map remains FORMALIZATION_BLOCKED_DEFINITION because source-defined transition and encoding maps are absent. No new theorem or data-free proof.
+
+Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 1621–1660; next cursor 1661. FIE review last completed 2026-10-27; next due 2026-11-10.
+
+Successor: Orson Vay, h683:s4. His :48 task was already IN_PROGRESS (run 4196a280-8450-8321-aac8-38ad3b608277, chat_ref null) at the delivery check. Per thread-first routing, no Orson inbox append or cross-thread delivery was attempted; the Common handoff is repository-only optional context, no task or response request.
