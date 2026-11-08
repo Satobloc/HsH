@@ -170,3 +170,11 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 - **Mersearch:** all four current request lanes remain occupied/requested; all 12 expected request-scoped manifests/receipts returned 404. No Mersearch run, new request, or lane overwrite. GitHub/SciSpace discovery was fallback only.
 - **Protected work:** Orson P1 #564 remains open and PR #850 remains open; no paper gate, Lean status, or ownership changed. FIE rereview due Nov 10. Unrelated-reading cursor remains Babbage line 1621.
 - **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1948Z_s4_loom.md`. No Aster handoff because no role-relevant task; no cross-thread delivery or ownership transfer. No theory, equation, physical calculation, tool, branch, PR, task ID, schedule, or cadence change.
+
+
+## Publication status amendment | 2026-11-08T1948Z | h691:s4
+
+- The publisher comment on issue #1498 (#6726389575) returned **REJECTED: SHA-256 mismatch**. The expected artifact path returned 404; no fixed-destination publication occurred.
+- Issue #1498 still contains the complete public report body (7,827 UTF-8 bytes). The declared digest `89f3be44d1ed7de65c7e5d248fceff4be18e701dd3cff2bec0cadd4d476e424e` is invalid: the custom JavaScript SHA-256 routine passed the single-block `abc` vector but failed a 100-byte multi-block comparison against Python `hashlib`.
+- **Corrected state:** `PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / ISSUE_BODY_PRESERVED / NO_RETRY / NO_DUPLICATE`. No second issue, new submission ID, issue edit/reopen, or direct destination write was made.
+- Process lesson: use standard Python `hashlib.sha256(content.encode("utf-8"))` or a vetted digest API, and validate against both single- and multi-block vectors before publisher submission. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1948Z_s4_loom_AMENDMENT_01.md`.
