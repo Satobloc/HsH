@@ -323,9 +323,9 @@ The executive capsule may contain an ultra-condensed work strip with:
 
 Keep this strip small. Its job is to orient attention and point into the deeper hierarchy, not to reproduce the whole plan or become another competing state file. The executive capsule should point to the authoritative current-work record; the detailed record should point back to the capsule.
 
-### 10.2 Repeatable message signature
+### 10.2 Repeatable message footer
 
-During a substantial extended workflow, experiment with a short navigation footer that repeats the current pin at the end of each substantive assistant message. This is a locator only, not a sign-off, authorship marker, approval, or signature, and it must never imitate Nathan's reserved signet. Candidate forms include:
+During a substantial extended workflow, experiment with a short navigation footer that repeats the current pin at the end of each substantive assistant message. This is a locator only, not a sign-off, authorship marker, approval, or footer, and it must never imitate Nathan's reserved signet. Candidate forms include:
 
 - `PIN <cycle-slot> | NEXT <one action> | RETURN <durable pointer>`
 - `CYCLE <cycle-slot> / <lane> / <NOW→NEXT> / <return pointer>`
@@ -341,7 +341,7 @@ This is intended for substantive workflow messages, not every casual exchange or
 
 When a substantial diversion is recognized:
 1. Secure or refresh the suspended task's exact next action and durable return address before allowing the branch to consume the conversation.
-2. Preserve the active cycle slot in the message signature. Mark the mainline as suspended only if that accurately describes its state.
+2. Preserve the active cycle slot in the message footer. Mark the mainline as suspended only if that accurately describes its state.
 3. Follow the new discussion without forcing the user to stop and manage the bookkeeping.
 4. If the branch becomes the new priority, give it its own pin and retain the previous one in the parked list.
 5. When asked what was underway before the diversion, use the latest visible pin as a retrieval clue, then verify against the work anchor, task receipt, worker `CURRENT_WORK`, repository state, or other authoritative record. A pin is a locator, not proof of completion or current status.
@@ -362,9 +362,7 @@ Record the conditions and observed results. Cross-pollinate successful variants,
 
 This experiment does not authorize new scheduled tasks, changes to existing task IDs, schedules, phases, enabled states, worker ownership, or other protected automation configuration. It is a low-risk message and continuity practice that can be tested during ordinary work while the larger architecture is still being developed.
 
-### 10.5 Compact capsule task strip and current place marker
-
-A lightweight message-level return pin is an experimental companion to the repository-backed work anchor and personal executive capsule. Its purpose is to keep the exact place in an active workflow visible even when a conversation branches, grows long, or spends many turns on a different subject. It should also support periodic attention refresh, plan review, capability upkeep and deliberate movement among different branches of a larger workflow.
+The existing pin and miniature queue can be extended into a lightweight attention-navigation system. It should keep the active workflow position visible while periodically surfacing neglected plans, tools, skills, sources, maintenance and development goals. The marker remains small; detailed instructions stay in linked modules.
 
 ### 10.5 Compact capsule task strip and current place marker
 
@@ -374,9 +372,9 @@ A message-level pin may contain a short lane/workflow identifier, operation or c
 
 ### 10.6 Rotating cycle tickers and workflow-specific footer variants
 
-Experiment with several lightweight end-of-message formats rather than imposing one universal signature prematurely. Variants may be:
-- **Fixed workflow pin:** a stable compact sign-off for a particular recurring lane or project.
-- **Purpose-specific pin:** a signature whose fields are tailored to a workflow, such as research, archive recovery, writing, tool development or review.
+Experiment with several lightweight end-of-message formats rather than imposing one universal footer prematurely. Variants may be:
+- **Fixed workflow pin:** a stable compact navigation footer for a particular recurring lane or project.
+- **Purpose-specific pin:** a footer whose fields are tailored to a workflow, such as research, archive recovery, writing, tool development or review.
 - **Rotating cycle ticker:** a small indicator that advances one step per assistant turn through a defined sequence of review, maintenance, exploration or execution slots.
 - **Hybrid pin:** a current operation marker plus a cycle indicator that points to an occasional attention-refresh action.
 
@@ -406,13 +404,13 @@ This mechanism should deliberately distribute attention across different levels 
 
 ### 10.8 Scripts, calendars and scheduled attention refresh
 
-A complementary approach is to maintain a larger task or upkeep list in a structured file, calendar or script, and have a helper periodically produce a much shorter current view. The generated quick list might live in a routinely consulted capsule, dashboard, inbox or message signature. Scripts can select the next appropriate item, rotate through a sequence, track due or neglected items, and produce a compact reminder or return pointer.
+A complementary approach is to maintain a larger task or upkeep list in a structured file, calendar or script, and have a helper periodically produce a much shorter current view. The generated quick list might live in a routinely consulted capsule, dashboard, inbox or message footer. Scripts can select the next appropriate item, rotate through a sequence, track due or neglected items, and produce a compact reminder or return pointer.
 
 Any such helper should expose how it selects and advances items, how its state is stored, and how to pause, reset, reprioritize or override it. It must not silently change project priorities or obscure the source task list. A schedule may also contain a short note about the purpose of a particular reminder, how the worker is currently using it, or what should be reconsidered when it fires. Alarms and calendars are attention aids, not proof that work occurred.
 
 ### 10.9 Workflow-specific tuning and evaluation
 
-The appropriate ticker, signature and review rhythm may differ between workers and workflows. Some work benefits from a per-turn attention cycle; some from an operation counter; some from a periodic calendar prompt; some needs no ticker at all. Try fixed, rotating, random, purpose-specific and hybrid variants. Keep the mechanics simple enough that the marker itself does not become a cognitive burden.
+The appropriate ticker, footer and review rhythm may differ between workers and workflows. Some work benefits from a per-turn attention cycle; some from an operation counter; some from a periodic calendar prompt; some needs no ticker at all. Try fixed, rotating, random, purpose-specific and hybrid variants. Keep the mechanics simple enough that the marker itself does not become a cognitive burden.
 
 Evaluate whether a design actually improves:
 - recovery of exact work position after long discussions or context handoffs;
@@ -423,7 +421,7 @@ Evaluate whether a design actually improves:
 - completion of planned maintenance and development actions;
 - overhead, distraction and false or unnecessary reminders.
 
-A useful design should be cheap to repeat, easy to inspect and revise, and capable of pointing to arbitrarily deep material without requiring that material to remain in active attention. No single signature or cycle convention is canonical until trials establish its usefulness. Preserve the possibility that a particular workflow needs a different or no mechanism.
+A useful design should be cheap to repeat, easy to inspect and revise, and capable of pointing to arbitrarily deep material without requiring that material to remain in active attention. No single footer or cycle convention is canonical until trials establish its usefulness. Preserve the possibility that a particular workflow needs a different or no mechanism.
 
 ### 10.10 Relationship to interruption and resumption
 
@@ -431,7 +429,7 @@ When a significant new branch temporarily displaces an active operation, the cur
 
 Thus the same compact mechanism can serve both ordinary attention management and interruption recovery. Its wider purpose is not merely to prevent conversational derailment: it is to create an easily maintained rhythm for revisiting intentions, shifting attention, exploring the broader capability hierarchy and returning to focused work with the correct context.
 
-**Status:** Experimental recommendation for individual worker trials. Different signature styles, tickers, slot definitions, scripts and review cadences should be compared and refined before any shared standard is selected.
+**Status:** Experimental recommendation for individual worker trials. Different footer styles, tickers, slot definitions, scripts and review cadences should be compared and refined before any shared standard is selected.
 
 ---
 
