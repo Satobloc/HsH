@@ -55,9 +55,9 @@ The existing PR #1455 module is `FORMAL_VERIFICATION/HsHVerification/NadirHelixS
 
 - SAT4D live draft: SAT archive `SATOBLOC/SAT4D_LIVE_DRAFT.txt`, blob SHA-1 `2a79fe25018cce7e99a2c33786d88b0551db6ae7`, document-level June 2025 Nathan byline. Its historical O1 curve/action includes `gamma^mu(lambda)`, `v^mu=d gamma^mu/d lambda`, and `L=(1/2)m v^mu v_mu - V_tension(gamma)`.
 - Standalone `SATOBLOC/SAT O1 4D.txt`, blob SHA-1 `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, is unbylined and substantively similar but not byte-identical.
-- Unbylined `SAT—Blockwave Ideal Model.txt`, blob SHA-1 `dd0631bc0b25c951dc5e1d6738280e08487b46b2`, is a separate `g,u,theta` model and contains no `J) current.
-- `🧱BLOCKWAVE.txt`, blob SHA-1 `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, is a user-supplied artifact with unresolved content authorship and includes a two-form `J^{mu nu}) current. The 2025-10-19T12:29:46.538Z assistant message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`, raw blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, adds a “unified” action, master kernel, determinant condition, and quantization claims; these are assistant-originated, not Nathan Direct O1 equations.
-- `BLOCKWAVE EXTENSION .txt`, blob SHA-1 `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce`, is another branch without the `J) current. Keep the three artifacts separate. The later direct rejection of invented tension does not supply a replacement Lagrangian; preserve `V_tension) as historical source text, not as an established current constitutive law. No corrected action is adopted here.
+- Unbylined `SAT—Blockwave Ideal Model.txt`, blob SHA-1 `dd0631bc0b25c951dc5e1d6738280e08487b46b2`, is a separate `g,u,theta` model and contains no `J` current.
+- `🧱BLOCKWAVE.txt`, blob SHA-1 `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, is a user-supplied artifact with unresolved content authorship and includes a two-form `J^{mu nu}` current. The 2025-10-19T12:29:46.538Z assistant message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d`, raw blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, adds a “unified” action, master kernel, determinant condition, and quantization claims; these are assistant-originated, not Nathan Direct O1 equations.
+- `BLOCKWAVE EXTENSION .txt`, blob SHA-1 `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce`, is another branch without the `J` current. Keep the three artifacts separate. The later direct rejection of invented tension does not supply a replacement Lagrangian; preserve `V_tension` as historical source text, not as an established current constitutive law. No corrected action is adopted here.
 
 ## 5. Continuity and next cursor
 
@@ -65,7 +65,7 @@ The existing PR #1455 module is `FORMAL_VERIFICATION/HsHVerification/NadirHelixS
 - Nadir h689:s4 packet arrived at 18:03:32Z, ten seconds after the first h690 start at 18:03:22Z. It is late optional context only, with no task or response obligation. It was read as optional context during the later re-entry.
 - The existing h671 optional Tern handoff and its Amendment 01 remain the only Tern continuity packet referenced here. No new h690 handoff, cross-thread delivery, consumption, or acknowledgment is claimed.
 - Babbage unrelated-reading cursor remains line 1481. FIE last full review was 2026-10-27; re-review is due 2026-11-10, not yet due.
-- Next geometry cursor: recover the authoritative Klein Fabric source; type the 4D object; specify the thickening/sweep map from the 1D core to finite 4D support; specify the 3D timesheet/bulk intersection and readout; and define composition maps linking the 2024 3D helix/2D-plane example to the later 4D-filament/3D-trace description. Keep `J^{mu nu}), `theta_BW), and `theta_4) separate until source-defined maps exist.
+- Next geometry cursor: recover the authoritative Klein Fabric source; type the 4D object; specify the thickening/sweep map from the 1D core to finite 4D support; specify the 3D timesheet/bulk intersection and readout; and define composition maps linking the 2024 3D helix/2D-plane example to the later 4D-filament/3D-trace description. Keep `J^{mu nu}`, `theta_BW`, and `theta_4` separate until source-defined maps exist.
 
 ## 6. Controls retained
 
