@@ -1,4 +1,6 @@
-# Nathan Direct — H(s)H/SAT Methodology and Working-Model Overview
+# H(s)H/SAT Primary Operational Guideline
+
+> **Primary operational guideline, adopted 2026-11-08:** This document organizes the current research methodology and working-model architecture for ongoing H(s)H/SAT work. Its methodological sections are the active operating guide. The short RMS epilogue records the philosophical background and is not intended as a recurring procedural checklist.
 
 **Date:** 2026-11-08  
 **Authority:** Nathan Direct, current conversation.  
@@ -7,46 +9,28 @@
 
 > **Provenance note:** This document is an assistant-prepared transcription and organization of Nathan's direct statement in the conversation dated 2026-11-08. It is not a verbatim transcript and must not be represented as though Nathan authored this file. The source conversation is the primary source; no immutable message UUID or export locator was available during this capture. Preserve the distinction between Nathan's claims, this editorial organization, and any future mathematical reconstruction.
 
-## 1. RMS as the always-operative philosophical background
+## 1. Operating aim and model-selection preference
 
-RMS is not a short list of negative rules about information, prediction, or observational completeness. It is the philosophical background that we recognize as always operative in principle, including while ordinary practice proceeds through the familiar conventions of human language, concepts, models, and shared scientific work.
+H(s)H/SAT aims to construct the minimal model consistent with observations and with the chosen, revisable Minkowski geometric representational grammar, while making the model as graspable as possible through human geometric and causal intuitions.
 
-In practice, we ordinarily speak as though objects, properties, events, causes, laws, observations, and explanations are stable features of a coherent world. RMS does not require us to abandon that language or continually qualify every sentence. It reminds us what this language and practice amount to at the philosophical level: conventions through which we describe the **apparent coherence of our perceptual world** and the **apparent convergences of our shared observation space**. Those apparent coherencies and convergences make it possible to construct models that apparently explain observations and make predictions.
+There are indefinitely many, and in general unboundedly many, models that may be effective with respect to a given body of observations. Predictive adequacy alone therefore does not determine which model we choose to develop. We deliberately prefer models that make the most effective use of human geometric and physical intuitions: models whose structure, mechanisms, and relationships can be grasped, inspected, reasoned about, and extended by human thinkers.
 
-The qualification is not a special exception applied only to claims about information. It is the general background condition of modeling and knowing. Our ordinary models, measurements, causal accounts, mathematical structures, and claims of predictive success all operate within it. We can use them rigorously and productively without mistaking their practical success for a view from outside all possible points of view.
+This is a methodological preference, not an ontological requirement or a claim that the most intuitive model must be true. More complex models may be equally effective or preferable under other criteria. We choose to impose the additional discipline of human intelligibility because an explanatory model that can be understood and worked with is a valued goal of this project.
 
-### 1.1 Model choice is also a human-directed preference
-
-We recognize that there are always indefinitely many, and in general without bound, possible models that can be effective with respect to a given body of observations. The choice among effective models is therefore not determined by predictive fit alone.
-
-H(s)H/SAT deliberately prefers models that leverage human geometric and physical intuitions as effectively as possible. The aim is to make the account intelligible to human understanding: to strain the construction toward a model whose structure, mechanisms, and relationships can be grasped, inspected, reasoned about, and extended by human thinkers.
-
-This is a **methodological preference**, not a universal law of nature and not a claim that the most intuitive model must be the true one. More complex models may be effective; they may be more or less elegant, useful, or preferable under other criteria. We choose to impose the additional discipline of human intelligibility because an explanatory model that can be understood and worked with is a valued goal of this project.
-
-Accordingly, model selection has at least two distinct considerations:
-- **Adequacy:** how effectively the model organizes the apparent regularities of the available observation space and makes predictions that continue to agree with observations.
+Model choice therefore considers both:
+- **Adequacy:** how effectively the model organizes the apparent regularities of the available observation space and how well its predictions agree with observations.
 - **Intelligibility:** how effectively the model uses human geometric and causal intuitions to make those regularities understandable.
 
-These considerations can reinforce one another, but they are not identical. Intelligibility is a deliberate preference in our research program, not proof of empirical adequacy.
+These aims can reinforce one another, but they are not identical. Intelligibility is a deliberate preference, not evidence of empirical adequacy.
 
-### 1.2 The observer's experiential boundary and provisional knowledge
+## 2. Epistemic working posture
 
-An observer works from within their own perceptual experience and the shared observational practices available to them. Statements about what lies beyond that experience are expressed through the same conventional resources of language, concepts, testimony, inference, and modeling. They are not comparisons with an independently accessible external viewpoint.
+In ordinary work, proceed using the familiar conventions of scientific language, concepts, measurement, mathematical description, causal reasoning, and model comparison. Use them rigorously and productively. Treat empirical adequacy as something assessed against observations actually available, not as a guarantee about unobserved domains.
 
-This does not make empirical work pointless or reduce every model to arbitrary opinion. It describes the conditions under which empirical practice is possible: we identify apparent regularities, coordinate observations, construct models, compare their consequences with subsequent experience, and revise them when that experience calls for revision. The results can be extraordinarily robust and practically reliable while remaining situated within the observer's experience.
-
-The previous formulation that presented RMS primarily as a prohibition on universal information principles, followed by “durable predictive adequacy remains provisional,” was too narrow. The provisional character of predictive claims is one consequence of the broader RMS background, not an adequate definition of RMS itself.
-
-### 1.3 Information, holography, dimensionality, and prediction remain open questions within the model
-
-The earlier discussion of complete histories, present-state encoding, holographic universes or privileged holographic slices, recoverability, observer access, equivalent dimensional encodings, reversible or irreversible dynamics, and the possible arrival of new observations remains relevant as an exploration of what a limited observer can establish. It should not be mistaken for the definition of RMS.
-
-No universal information-preservation, holography, or observational-completeness axiom is being added to H(s)H/SAT. Equally, RMS is not merely the assertion of those absences. Such matters can be investigated in particular physical models and observational domains, while retaining the recognition that our descriptions and conclusions are made from within the apparent coherence of our perceptual and shared observational world.
-
-The working practice remains: construct models to the best of our ability from the observations available, test their consequences against further observations, and revise them when needed. Alongside empirical adequacy, deliberately prefer constructions that make effective use of human geometric and physical intuition, while keeping that preference distinct from claims about what the universe must be.
+Construct models to the best of our ability from observations and established constraints; derive consequences; compare them with further observations; preserve discrepancies and failures; and revise the model when warranted. Do not require every operational statement to carry philosophical qualifications. The RMS background is retained as a brief epilogue below, rather than made into a constant procedural concern.
 
 
-## 2. Minimal geometric model and primitive discipline
+## 3. Minimal geometric model and primitive discipline
 
 The aim is to construct the minimal model consistent with observations and with the chosen, revisable Minkowski geometric representational grammar, while making the model as graspable as possible through human geometric and causal intuitions.
 
@@ -77,7 +61,7 @@ Avoid adding complication until geometry or evidence requires it to improve cons
 
 The desired result is not the most elaborate model. It is the most economical, internally coherent and human-graspable geometric model that remains consistent with the evidence.
 
-## 3. Working-hypothesis portfolio (not established results)
+## 4. Working-hypothesis portfolio (not established results)
 
 The following are prominent current working hypotheses or interpretive proposals. Their inclusion here records the research state; it does not validate them or authorize their promotion.
 
@@ -91,7 +75,7 @@ The following are prominent current working hypotheses or interpretive proposals
 
 These proposals must be handled under the established multitier hypothesis-admission guidelines. Preserve their status separately from mathematical validity, cross-sector explanatory candidacy, and empirical verification. Recover and correct prior equations rather than silently replacing them. Lean verification is required for working mathematical formulations, but a Lean proof establishes only the encoded conditional mathematics, not physical truth.
 
-## 4. Core construction and investigation methods
+## 5. Core construction and investigation methods
 
 ### 4.1 Star-Shaped Derivation Map
 
@@ -131,7 +115,7 @@ The detailed procedure is:
 
 In practice, a plausible geometric solution often becomes apparent quickly once a well-mapped system is inspected. That practical observation is not permission to skip source recovery, calculations, formalization, or hostile tests when the claim requires them.
 
-## 5. Canonical examples in Nathan's current geometric interpretation
+## 6. Canonical examples in Nathan's current geometric interpretation
 
 These examples record the user's current account of how the method has operated. They are not yet a substitute for source-faithful derivations, formal proofs, or independent physical validation.
 
@@ -159,7 +143,7 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 
 **Required treatment:** preserve the historical failed model and the later Kelvin-vortex-inspired candidate as distinct stages. Do not conflate ordinary-fluid vortex cores in a responsive medium with SAT matter worldtubes. Any transfer of vortex mathematics requires an explicit mapping of physical objects, variables and constitutive behavior. Recover the original Nathan statements and equations before formalizing this account.
 
-## 6. Methodological safeguards and status distinctions
+## 7. Methodological safeguards and status distinctions
 
 - **Source-first fidelity:** recover Nathan's original statements with context, corrections and chronology. Preserve original source text and immutable locators where available. Distinguish Nathan Direct from assistant interpretation, normalization or reconstruction.
 - **Standard-physics baseline:** ordinary Minkowski geometry and established physics are comparison controls. State signatures, dimensions, observers/slicings, variables and maps explicitly. Do not silently exchange distinct geometries or physical objects.
@@ -171,16 +155,27 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 - **No premature closure:** distinguish equivalence from alternatives; retain nonunique possibilities; park unresolved questions instead of inventing a convenient solution.
 - **No universal information axiom:** do not infer information conservation, complete-history retention, holography, observer completeness, or guaranteed predictive success as a universal principle of H(s)H/SAT.
 
-## 7. Immediate implications for future work
+## 8. Immediate implications for future work
 
 1. Treat this document as a source-faithful methodological intake, not a change to BEDROCK premise status or a promotion of the working-hypothesis portfolio.
 2. Compare it against live BEDROCK, STATE_OF_THE_THEORY, the Steering Charter, Three Paper Campaign, and relevant primary Nathan Direct records before any canonical integration.
 3. Recover the exact historical sources for the Star-Shaped Derivation Map, Loop Derivation Torquing, Back Hallways, zero-parameter/single-constant method, multitier hypothesis admission, WWRD, and the canonical QCD/GR/EM examples.
 4. Reconstruct the simplified worldtube–timesheet model first, identifying and correcting historical formulation errors. Then compare it with the provisional responsive-medium extension.
-5. Keep epistemological claims at the RMS level described above. Do not add universal information principles to BEDROCK.
+5. Keep the RMS philosophical background in its proper place as the brief epilogue below; do not turn it into recurring procedural overhead or add universal information principles to BEDROCK.
 6. For each active physical hypothesis, identify its exact status, primary source, equations, standard-physics baseline, real measured system, cross-sector implications, Lean status, empirical test and next falsifiable question.
 7. Preserve the current priority order: develop whichever part can be advanced rigorously without forcing premature primitive proliferation; return to unresolved gaps when other geometric work supplies constraints.
 
 ---
 
 **Capture status:** Recorded in a new dated Nathan Direct intake document. No BEDROCK or theory-status promotion is made by this record.
+
+## Epilogue: RMS philosophical background
+
+RMS remains the philosophical background that we recognize as always operative in principle. It need not be a constant worry in ordinary research practice, nor does it require abandoning the conventional language and concepts through which science proceeds.
+
+Within the range of our own perception, what is immediately apparent is that perceptual space exhibits strikingly consistent pattern, remarkable coherence, and a high degree of conceptual interpretability. These patterns apparently support, and frequently provide, fairly reliable interpretations and predictions. Treating them as pragmatic working assumptions is therefore sensible and useful.
+
+Why these patterns are present, how they arise, whether they represent something that should be called “real,” and what, if anything, produces this state of affairs are unknowable from any standpoint outside the limits of experience. That uncertainty does not erase the clear practical fact that the patterns hold within our experience and that working with them is effective.
+
+RMS is the reminder of the philosophical limits and conventional character of our descriptions. It is not a demand to suspend ordinary modeling, nor a reason to keep reopening those limits at every step. For day-to-day H(s)H/SAT work, proceed from the apparent regularities, build intelligible models, test them, and correct them.
+
