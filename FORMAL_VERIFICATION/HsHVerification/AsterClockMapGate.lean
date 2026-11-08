@@ -12,7 +12,9 @@ The source witnesses are not assumed to identify their variables or units:
 The theorems below test only the conditional scalar reading in which c, t, and w
 are literally the same real-valued symbols. They do not establish that the
 historical source intended that identification, nor do they encode physical
-units, a metric signature, or a physical model.
+units or physical premises. The separate final section is a standard 1+1D
+Lorentzian rapidity comparator; it is not a source-derived definition and is
+not mapped to the later native (++++) geometry.
 -/
 
 /-- Literal scalar reading of both coordinate equations forces c² = 1
@@ -167,7 +169,7 @@ def minkowskiInner1p1 (x y : ℝ × ℝ) : ℝ :=
   -(x.1 * y.1) + x.2 * y.2
 
 /-- Unit future-timelike vector parameterized by rapidity. -/
-def rapidityVector (η : ℝ) : ℝ × ℝ :=
+noncomputable def rapidityVector (η : ℝ) : ℝ × ℝ :=
   (Real.cosh η, Real.sinh η)
 
 theorem rapidityVector_unit_timelike (η : ℝ) :
