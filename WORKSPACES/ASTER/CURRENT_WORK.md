@@ -160,3 +160,13 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Scheduler amendment: \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1724Z_s2_aster_AMENDMENT_01.md\`, blob \`e6758c0ab815c6833aa96ee398f136e7dbcfa46f\`.
 - Ariadne inbox status amendment blob: \`79d1a8942fb4ae7e032bd585a30a8e6a4dc24837\`.
 - The Aster packet remains LATE_OPTIONAL_CONTEXT_ONLY. Do not infer retry, separate agent/thread, exposure, consumption, acknowledgment, refusal, or failure reason.
+
+
+## 2026-11-08 | h673:s0 | delayed retry and publication metadata correction
+
+- Correct nominal selection: h=673, seq=3365, Aster -> Ariadne. The :00 automation remained enabled and unchanged. Its recorded invocation for 01:00Z started late and ended FAILED with chat_ref=null; do not derive the worker from actual start time.
+- Existing h673 Aster receipt and Ariadne handoff were already present. This reconciliation creates no duplicate research or handoff.
+- Scheeler source note #1467 is content-valid and readback verified, but its header incorrectly says h674/Calder/Hale. Correction issue #1468 was submitted once via the existing publisher; current status SUBMITTED_NOT_VERIFIED. Do not retry or duplicate while pending.
+- Existing Aster source-fidelity report and PR #1444 remain authoritative for the cw=t / w=ct audit. Paper A remains frozen. Exact-head Lean verification remains pending; no new theorem or CI run.
+- Unrelated reading: Babbage lines 1541-1580; next 1581.
+- Next research cursor remains the existing Aster O1/D1/D2 source/attachment recovery gate. No BEDROCK edit or theory promotion.
