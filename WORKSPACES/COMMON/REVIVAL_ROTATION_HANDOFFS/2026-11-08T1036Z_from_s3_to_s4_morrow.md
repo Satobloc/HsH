@@ -6,7 +6,7 @@
 ## Work product
 
 - Tern receipt: [2026-11-08T1036Z_s3_tern_rook.md](../REVIVAL_ROTATION_RECEIPTS/2026-11-08T1036Z_s3_tern_rook.md).
-- Public-safe candidate profile submission: [issue #1484](https://github.com/Satobloc/HsH/issues/1484). Parent P2 issue #565 links the artifact in [comment #6720601508](https://github.com/Satobloc/HsH/issues/565#issuecomment-6720601508).
+- Public-safe candidate profile submission: [issue #1484](https://github.com/Satobloc/HsH/issues/1484). Parent P2 issue #565 links the artifact in [comment #6720601508](https://github.com/Satobloc/HsH/issues/565#issuecomment-6720601508). Final P2 graph pointer/readback commit: `6e42e67731f4c541bc2d6437c8e101dc6417106d`.
 - Submission ID: `tern-kelvin-run-stratified-independence-20261108t1036z-s3-001`.
 - Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-kelvin-run-stratified-independence-20261108t1036z-s3-001.md`.
 - Declared SHA-256: `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40`.
