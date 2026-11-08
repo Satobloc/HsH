@@ -72,3 +72,20 @@ A subsequent invocation of the same `REVROT3-19-20261011:671:s3` key found the c
 ## Authority boundary
 
 This is a workflow-integrity clarification under the existing steering remit. It does not authenticate a historical worker, prove delivery to another ChatGPT thread, promote a theory claim, change paper gates, or alter scheduler authority. Existing-thread-first remains controlling; a repository handoff remains repository-only unless an actual authenticated delivery action and destination receipt are available.
+
+
+## Scheduler snapshot binding: stale results and rebased starts
+
+The scheduler's `last_run` and `latest_result` are separate records and must be reconciled before attributing output:
+
+1. Compare `last_run.id` with `latest_result.run_id`, and compare their `scheduled_for` values. Never attribute `latest_result.content_text` to the current `last_run` unless the identifiers and nominal slot match.
+2. Compare `latest_result.created_at` with `last_run.started_at`. A cached result created before the current attempt is prior output, even if it is the only visible result.
+3. A retry/re-entry can expose the same run ID with a changed `started_at` snapshot. Record each observed snapshot with its observation time; do not infer a new slot event, a new worker identity, or a second run key.
+4. Durable repository work and a successful CI run can coexist with `last_run.recorded_status=failed`. Report repository/CI state and scheduler-wrapper state separately. Do not erase verified artifacts or relabel the wrapper as successful.
+5. `chat_ref=null` or `delivery_status=unknown` does not establish cross-thread delivery or acknowledgment.
+
+### Concrete exercise: h675:s3
+
+For `REVROT3-19-20261011:675:s3`, run ID `fdbcaff8-87ec-8325-9a68-06e1196f63a6` was observed with start-time snapshots 03:35:04.898663Z, 04:02:15Z, and 04:31:41.535355Z for the same nominal 03:36Z slot. The final peek recorded the run as FAILED at 04:43:45.469388Z with `chat_ref=null`. Its `latest_result` still referenced the prior h674:s3 Nadir run ID `d5e3c0f6-8c84-832e-b944-78c6c0b4b9ca`, created at 03:01:07Z. Meanwhile, the existing PR #1471 had a successful Lean merge-reference build and its repository artifacts were read back. These are distinct facts, not contradictory evidence.
+
+The cause of the scheduler start-time changes and final FAILED status is not exposed. Preserve the task's enabled state and exact schedule; do not disable, reschedule, create a replacement task, or duplicate the h675:s3 work.
