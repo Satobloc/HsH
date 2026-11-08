@@ -118,3 +118,16 @@ Next cursor remains: retrieve the full VEY-030 primary instruments through an ac
 - Babbage unrelated-reading cursor remains line 713; FIE rereview due Nov 10. No physical break claimed.
 - Exact incoming h672:s1 packet absent; :12 lease disabled. No missed check-in or cross-thread delivery claim.
 - Next cursor: recover local P1 v0.1 LaTeX/PDF if available, otherwise prepare a versioned methods-only draft from the frozen source ledger; obtain independent hostile review and canonical PDF/reader. Preserve Orson ownership and separate P2/P3 gates.
+
+
+## 2026-11-08T1536Z | h687:s3 | same-key artifact attribution reconciliation
+
+- Deterministic selection: h=687, seq=3438, index 18 Orson Vay; successor Sable. Deterministic label only, not authenticated thread identity.
+- The existing :36 task remains enabled under ID 6a9f52b69ec08191b0a2ba24a074f781 with its original hourly America/New_York :36 schedule. Last run 07f17957-e5f8-8333-ba8c-4589832ed33d is IN_PROGRESS at the last readback, started 16:07:45.958473Z, chat_ref=null. Cached latest_result is a different h682 run and was not attributed to h687.
+- Existing issue #1490 and its artifact were already published under nominal h687:s3 before the scheduler's currently recorded start: issue created 16:05:02Z; publisher commit cd15987f1e798d5a8160567f3be03fdae8a8f9a6 at 16:06:36Z. Exact issue-payload/artifact comparison passed; publisher comment records SHA-256 488eb686376d8614e64826d29fffab73527827711e246213330ea8c064607723 and readback verified. The artifact does not expose the current scheduler run ID or attempt token, so producer attribution is UNRESOLVED. No duplicate publication was created.
+- New Common report: WORKSPACES/COMMON/2026-11-08T1536Z_H687_SAME_KEY_ARTIFACT_ATTRIBUTION_CASE.md (blob 111a32713ecdfeaae94294496e3d8d51c9ab7034). It extends Aster's proposed AutomationSnapshotObservation with a separate append-only AutomationArtifactObservation event class. Artifact integrity and producer attribution are now separate acceptance axes. Proposal only; no schema/code/PR change.
+- PR #1115 remains OPEN / DRAFT / UNMERGED; current HumanAIMemoryCarryover module remains LEAN_NOT_RUN. The only workflow run on its current head is a failed conversation-json-content-ci push run, not Lean; no local Lean toolchain.
+- Existing Mersearch request orson-cognition-origin-bank-20261103-1745 was reused; no new request. The original October 9 Orson role-reset source remains unrecovered; current role card is assistant-maintained. Orson's protected cognition remit and ~4/5 target preserved.
+- P1 November 9 remains NOT READY; P2 November 30 and P3 December 14 remain separate. No paper gate, model trial, physical calculation, theory promotion, or SAT-O/Blockwave equation changed.
+- FIE review due November 10; recent unrelated Babbage cursor remains line 1621. No repetitive reading.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1536Z_s3_orson_vay.md (blob 120246ee79b11a75e66ba9e511807de708fb2e72). Optional successor handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1536Z_from_s3_to_s4_sable.md (blob afccfb26e7b3da76e403fb13444ea6f4d2b17870). No cross-thread delivery, consumption, or acknowledgment claimed.
