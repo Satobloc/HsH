@@ -435,6 +435,70 @@ Thus the same compact mechanism can serve both ordinary attention management and
 
 ---
 
+## 11. Branching workflow graphs and cross-worker orchestration experiments
+
+Message pins and cycle tickers may develop beyond simple reminders into a compact control surface for planning and navigating complex work. Treat this as an open experimental direction, not a designed or approved institutional architecture.
+
+### 11.1 From cycle slots to executable workflow maps
+
+A cycle slot may point to a task, but it may also point to a node in a larger branching workflow. A node can define:
+- its purpose, inputs and expected output;
+- prerequisites and dependency links;
+- a bounded action and stop condition;
+- decision criteria and conditional next steps;
+- branches to pursue, defer, retry, abandon or revisit;
+- a return address and the next checkpoint;
+- the relevant skill, reference, tool or script modules.
+
+The ticker remains very small. It identifies the current node or checkpoint, while the workflow map stores the detailed instructions. This permits complex plans and hierarchical investigations to remain available without requiring their entire structure to occupy the active context.
+
+### 11.2 Conditional and adaptive paths
+
+Experiment with workflows that express simple conditional logic, for example:
+
+- IF source verification succeeds, THEN proceed to formalization; OTHERWISE open a source-recovery branch.
+- IF a calculation is blocked by missing measurements, THEN identify the missing data and continue an independent branch.
+- IF two approaches produce equivalent results, THEN compare cost and generality; OTHERWISE preserve the divergence for investigation.
+- IF a task reaches its stop condition, THEN close its operation receipt and activate the next eligible node.
+- IF a repeated method yields no new evidence, THEN trigger a change of search method or analytical lens.
+
+Conditions should be explicit and inspectable. The system should distinguish a verified condition from an assumption, an absent result from a negative result, and a blocked branch from a failed one. Conditional routing must not silently promote hypotheses or bypass source, permission, review or governance gates.
+
+### 11.3 Hierarchical investigations and priority branches
+
+Large goals may be represented as nested investigations: programme → project → work package → operation → individual actions. Each level should have its own compact purpose, priority, dependencies, status and next return point, with links to the level above and below.
+
+An investigation may reveal new branches. Record and rank them by relevance, enabling value, urgency, uncertainty, cost and opportunity. Keep one bounded active operation where that is the appropriate control, while allowing several clearly separated branches to remain eligible, parked or assigned. Do not let the workflow graph become an uncontrolled task explosion.
+
+### 11.4 Coordination with other workers and lanes
+
+A workflow node may identify work suitable for another worker or recurring lane. Experiment with cross-worker coordination through bounded assignments, shared dependencies, artifact pointers, explicit acceptance criteria and return receipts. The originating worker should be able to see whether a task is merely proposed, assigned, accepted, underway, completed, blocked or independently verified.
+
+Shared workflow maps may eventually coordinate specialist lanes and rotating workers, but must respect protected remits, actual identity/continuity evidence, task ownership, access boundaries and existing scheduler controls. A handoff packet or repository write is not proof that another worker consumed or accepted the task. Avoid duplicate ownership and conflicting writes by using explicit claims, leases or other tested coordination mechanisms where needed.
+
+### 11.5 Prototype variety and integration path
+
+Try different representations, including:
+- a manually maintained cycle-slot list;
+- a small indexed decision tree;
+- a dependency graph with conditional edges;
+- nested task lists with return pointers;
+- a scripted queue that emits the next compact action;
+- calendar-driven review nodes;
+- worker-specific workflow maps linked through shared project dependencies.
+
+These may be combined if testing shows benefit. Begin with simple, reversible prototypes and increase sophistication only when it addresses a demonstrated need. Preserve interoperability where practical: a node should have a stable identifier, concise status, owner/lane where relevant, and a durable link to its detailed record.
+
+### 11.6 Evaluation and governance
+
+Evaluate whether these designs improve planning clarity, branch discovery, dependency management, exact resumption, worker coordination, evidence traceability and execution quality, while monitoring overhead, stale state, duplicate work, false triggers and excessive rigidity. Test whether the system can be understood by a successor without requiring the originating worker's conversational context.
+
+The long-term possibility is a flexible workflow ecology in which a compact ticker navigates a rich, branching and conditional plan, and individual workers can coordinate their activities through shared but modular structures. That possibility should guide experimentation, not predetermine the final design.
+
+**Status:** Open experimental direction. No universal workflow engine, cross-worker dispatch system, or institutional control architecture is selected or claimed to exist.
+
+---
+
 ## Epilogue: RMS philosophical background
 
 RMS is the philosophical background recognized as always operative in principle. Ordinary scientific language and concepts are practical conventions through which we describe the apparent coherence of our perceptual world and the apparent convergences of shared observation. These conventions make it possible to construct models, explanations, and predictions.
