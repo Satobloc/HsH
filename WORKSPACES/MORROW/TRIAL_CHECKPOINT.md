@@ -1039,3 +1039,15 @@ The assistant report's table glosses the primary as “actual empirical object a
 
 ### Handoff
 Repository-only optional handoff to Kestrel. No authenticated Kestrel thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+## h679:s0 publication verification amendment 01
+
+**Status: PUBLISHED_VERIFIED.** The existing HSH-PUBLISH-V1 submission was not retried or duplicated.
+
+- Issue #1482 publisher comment: #6719291491.
+- Publisher artifact commit: `186c4c6e64445d98f1ddca7d44259f2f6d614767`.
+- Artifact path: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-factory-floor-five-level-typing-20261108t0700z-s0-001.md`.
+- Artifact blob SHA-1: `aa1702f9bf1afebbf6f2dd04819a6137d3893f08`.
+- Artifact and issue-payload content: 9,504 bytes, exact byte-for-byte match.
+- Independently computed SHA-256: `3da9712562880cc6723767c2b6494658ebd0556923888f7509eb57bfd1bdb43c`, matching both the issue payload and publisher comment.
+- No retry, duplicate issue, direct artifact write, or publisher bypass.
