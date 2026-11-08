@@ -178,3 +178,10 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 - Issue #1498 still contains the complete public report body (7,827 UTF-8 bytes). The declared digest `89f3be44d1ed7de65c7e5d248fceff4be18e701dd3cff2bec0cadd4d476e424e` is invalid: the custom JavaScript SHA-256 routine passed the single-block `abc` vector but failed a 100-byte multi-block comparison against Python `hashlib`.
 - **Corrected state:** `PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / ISSUE_BODY_PRESERVED / NO_RETRY / NO_DUPLICATE`. No second issue, new submission ID, issue edit/reopen, or direct destination write was made.
 - Process lesson: use standard Python `hashlib.sha256(content.encode("utf-8"))` or a vetted digest API, and validate against both single- and multi-block vectors before publisher submission. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1948Z_s4_loom_AMENDMENT_01.md`.
+
+
+## Scheduler lifecycle amendment | 2026-11-08T2002Z | h691:s4
+
+- Final peek at 20:02:32Z: :48 run `290f5fb6-b428-8320-b710-837664d17a9f` still IN_PROGRESS (scheduled 19:48Z, started 19:45Z, chat_ref null); :36 run `4927eb1a-7bf0-8323-990c-d2f2d1e52cdd` still IN_PROGRESS (scheduled 19:36Z, started 19:39Z, chat_ref null); :00 run `cb3e027d-0704-8321-a00b-f6e1d7e6d748` still IN_PROGRESS (scheduled 20:00Z, started 20:01Z, chat_ref null).
+- The :48 latest_result still points to the previous h690 occurrence. Three lane runs overlap without authenticated chat references. This is a scheduler lifecycle observation, not evidence of three authenticated worker threads.
+- All task IDs, enabled states and exact hourly phases remain unchanged; no rerun, disable, reschedule or sixth task. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1948Z_s4_loom_AMENDMENT_02.md`.
