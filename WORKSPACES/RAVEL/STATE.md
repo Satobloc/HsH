@@ -362,3 +362,21 @@ The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after ad
 ### Latest PR-head status at relay close (2026-11-07)
 
 Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee9dc996e316dc82664a8a933585b. Exact-head workflow run 42330897900, job 128276931880, was still IN_PROGRESS at final readback. This is a documentation-only source comment recording the Gnech–Schiavilla current-operator LEC calibration dependency; the formal statements and executable arithmetic are unchanged from the preceding verified head d3026aab30f2b4f67b219286c6187afea23733eb (run 42330303736 SUCCESS). Carry run 42330897900 forward for verification; do not duplicate the PR or submission.
+
+
+## 2026-11-08T0755Z | h679:s4 | Review-MIND source/CI QC
+
+Current scheduled assistant reconstruction under deterministic Ravel label; not an authenticated historical Ravel thread. Report: `WORKSPACES/RAVEL/2026-11-08T0748Z_REVIEW_MIND_RAVEL_SOURCE_GRAPH_AND_LEAN_REPLAY_QA.md`, blob `7831369c5ea4a05a1d1eaa94d894f9925d620928`.
+
+- Recovered direct Ravel role from original user messages `638d13ba` (primary co-theorist) and `c5639160` (conceptual cohesion, drift, epistemic hygiene, full-theory probing and methodological risks) in raw conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, blob `c49367b0faa424491e7b3520a034b9e44fe6897f`.
+- Rechecked Nathan-direct three-representation message `496a15ea`: reduced 3D Minkowski/worldworm view, full 4D bulk, and actual 4D view plus our 3D slice remain distinct. The third is not source-defined as a timesheet intersection. Assistant equations `P(τ)=W∩Στ` and `P(τ)=W∩ΔΣτ` remain reconstructions.
+- PR #1133 run #41947575131 succeeded on merge ref `9aae205d...` (Lean 4.34.0 / Lake 5.0.0, 8,950 jobs). All five Ravel modules checked match PR head; root aggregator differs because current base adds `NadirHelixSliceGeometry`. Global axiom audit skipped; no `sorryAx` or `admit` in log. Standalone exact-head build not established.
+- PR #993 run #42330897900 succeeded on merge ref `32cd73bc...` (Lean 4.34.0 / Lake 5.0.0, 8,952 jobs). All nine Ravel modules checked match PR head; root aggregator differs because current base adds `NadirHelixSliceGeometry`. Global axiom audit skipped; no `sorryAx` or `admit` in log. Standalone exact-head build not established. Prior README/STATE "exact-head" label for this run is corrected here.
+- PRs #1133 and #993 remain OPEN / DRAFT / UNMERGED. These builds verify formalized modules only, not physical premises or H(s)H predictions. The explicit `preservesSlice` map condition remains unproved from source.
+- P2 remains HOLD / no selected measured system / no H(s)H prediction. No raw-data reanalysis, fit or independent measurement.
+- Orson P1 issue #564 remains OPEN / November 9 NOT READY. PR #850 merge-reference run succeeded; PR #1115 remains LEAN_UNTESTED. No model trial, human session, API spend, manuscript, PDF/reader or independent-review gate advanced.
+- Code Grurple P0 remains active; Mercer h679:s3 found no re-entry trigger. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- Mersearch lanes 1-4 remain occupied; no new request. FIE next due November 10. Unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 1521-1560; next cursor 1561.
+- No BEDROCK or STATE_OF_THE_THEORY promotion, no SAT-O/Blockwave equation change, no new theorem/tool/issue/PR/task, no signet or rename.
+
+**Next cursor:** preserve the missing source-defined map between Nathan's third representation and a timesheet readout; replay existing PRs only when head/base changes; keep P2 HOLD until source, measured data, units, uncertainties/covariance, and prediction-versus-fit separation are all present.
