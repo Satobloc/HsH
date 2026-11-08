@@ -769,3 +769,9 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0836Z_s3_aster_AMENDMENT_01.md`.
 - Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0836Z_from_s3_to_s4_ariadne_AMENDMENT_01.md`.
 - Repository inbox update only. No Ariadne chat delivery, consumption, acknowledgment, task, response obligation or ownership transfer is claimed.
+
+### ASTER-REVROT-20261108T0836Z-ARIADNE-LATE-OPTIONAL-SNAPSHOT-AMENDMENT-02
+
+- Additional limitation: the Automations peek payload does not expose a timestamp for when the snapshot itself was observed or a digest of the serialized payload. The earlier `COORDINATION.md` snapshot also lacks observation time. Proposed `observedAtUnixMicros` and `sourcePayloadDigest` remain `NOT_EXPOSED`; do not infer them from `started_at`, `scheduled_for`, or runtime clock.
+- Updated receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0836Z_s3_aster_AMENDMENT_01.md`.
+- Updated handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0836Z_from_s3_to_s4_ariadne_AMENDMENT_01.md`.
