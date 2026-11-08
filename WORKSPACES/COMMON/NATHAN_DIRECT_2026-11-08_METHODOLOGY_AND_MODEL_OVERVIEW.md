@@ -325,7 +325,7 @@ Keep this strip small. Its job is to orient attention and point into the deeper 
 
 ### 10.2 Repeatable message signature
 
-During a substantial extended workflow, experiment with a short sign-off or footer that repeats the current pin at the end of each substantive assistant message. Candidate forms include:
+During a substantial extended workflow, experiment with a short navigation footer that repeats the current pin at the end of each substantive assistant message. This is a locator only, not a sign-off, authorship marker, approval, or signature, and it must never imitate Nathan's reserved signet. Candidate forms include:
 
 - `PIN <cycle-slot> | NEXT <one action> | RETURN <durable pointer>`
 - `CYCLE <cycle-slot> / <lane> / <NOW→NEXT> / <return pointer>`
@@ -362,17 +362,17 @@ Record the conditions and observed results. Cross-pollinate successful variants,
 
 This experiment does not authorize new scheduled tasks, changes to existing task IDs, schedules, phases, enabled states, worker ownership, or other protected automation configuration. It is a low-risk message and continuity practice that can be tested during ordinary work while the larger architecture is still being developed.
 
-## 10. Message-level return pins and workflow attention tickers
+### 10.5 Compact capsule task strip and current place marker
 
 A lightweight message-level return pin is an experimental companion to the repository-backed work anchor and personal executive capsule. Its purpose is to keep the exact place in an active workflow visible even when a conversation branches, grows long, or spends many turns on a different subject. It should also support periodic attention refresh, plan review, capability upkeep and deliberate movement among different branches of a larger workflow.
 
-### 10.1 Compact capsule task strip and current place marker
+### 10.5 Compact capsule task strip and current place marker
 
 Where useful, keep an ultra-condensed task strip alongside or within the personal executive capsule. It should contain only the current priority, the next few actions, and a compact place marker that resolves to the detailed active tray or work record. The quick-reference strip is a navigation surface, not a duplicate of the full task list.
 
 A message-level pin may contain a short lane/workflow identifier, operation or cycle number, current slot, and a repository pointer or concise return label. It should be readable at a glance and easy to repeat exactly in later messages.
 
-### 10.2 Sign-off pins and cycle tickers as experiments
+### 10.6 Rotating cycle tickers and workflow-specific footer variants
 
 Experiment with several lightweight end-of-message formats rather than imposing one universal signature prematurely. Variants may be:
 - **Fixed workflow pin:** a stable compact sign-off for a particular recurring lane or project.
@@ -388,7 +388,7 @@ The cycle slot is a pointer, not the whole instruction. Its corresponding slot d
 
 The ticker should advance according to a clear, simple rule, such as once per assistant turn, once per completed operation, or once per defined workflow cycle. These are different designs and should be tested rather than conflated. A turn-based ticker is useful for surfacing occasional reminders during long conversations; an operation-based ticker is better when substantive work units vary greatly in length. A workflow may use both, provided their meanings remain unambiguous.
 
-### 10.3 What cycle slots can point to
+### 10.7 What cycle slots can point to
 
 A cycle slot may call for a very small action, or point to a more substantial module. Examples include:
 - Check the active task strip and exact work cursor.
@@ -404,13 +404,13 @@ A cycle slot may call for a very small action, or point to a more substantial mo
 
 This mechanism should deliberately distribute attention across different levels of the hierarchy: executive priorities, project plans, methods, tools, individual skills, source collections and detailed task modules. The short ticker keeps the reminder present while the more elaborate instruction remains selectively retrievable.
 
-### 10.4 Scripts, calendars and scheduled attention refresh
+### 10.8 Scripts, calendars and scheduled attention refresh
 
 A complementary approach is to maintain a larger task or upkeep list in a structured file, calendar or script, and have a helper periodically produce a much shorter current view. The generated quick list might live in a routinely consulted capsule, dashboard, inbox or message signature. Scripts can select the next appropriate item, rotate through a sequence, track due or neglected items, and produce a compact reminder or return pointer.
 
 Any such helper should expose how it selects and advances items, how its state is stored, and how to pause, reset, reprioritize or override it. It must not silently change project priorities or obscure the source task list. A schedule may also contain a short note about the purpose of a particular reminder, how the worker is currently using it, or what should be reconsidered when it fires. Alarms and calendars are attention aids, not proof that work occurred.
 
-### 10.5 Workflow-specific tuning and evaluation
+### 10.9 Workflow-specific tuning and evaluation
 
 The appropriate ticker, signature and review rhythm may differ between workers and workflows. Some work benefits from a per-turn attention cycle; some from an operation counter; some from a periodic calendar prompt; some needs no ticker at all. Try fixed, rotating, random, purpose-specific and hybrid variants. Keep the mechanics simple enough that the marker itself does not become a cognitive burden.
 
@@ -425,7 +425,7 @@ Evaluate whether a design actually improves:
 
 A useful design should be cheap to repeat, easy to inspect and revise, and capable of pointing to arbitrarily deep material without requiring that material to remain in active attention. No single signature or cycle convention is canonical until trials establish its usefulness. Preserve the possibility that a particular workflow needs a different or no mechanism.
 
-### 10.6 Relationship to interruption and resumption
+### 10.10 Relationship to interruption and resumption
 
 When a significant new branch temporarily displaces an active operation, the current pin should identify the suspended operation and its exact return point. The foreground discussion may use its own pin, while the suspended-work pointer remains available in the capsule or branch record. On resumption, reconcile the pin against the latest verified work receipt before continuing.
 
