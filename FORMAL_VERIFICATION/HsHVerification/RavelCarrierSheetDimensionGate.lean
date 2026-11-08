@@ -294,4 +294,62 @@ theorem zeroSection_embedding_agrees_with_carrier
 #print axioms typed_outcome_separates_empty_and_point
 #print axioms nonnegative_outcome_agrees_with_nat_helper
 
+/-!
+## Exact slice versus finite-thickness slab
+
+The archived geometry uses both a 3D time-support/bulk description and
+finite "time thickness" language. Until the thickness is defined as a
+separate parameter over a hypersurface or as a genuine 4D slab, those
+supports must remain distinct types. The following is only conditional
+dimension bookkeeping under the same transversality model above; it does
+not choose Nathan's intended physical construction.
+-/
+
+/-- A time support may be modeled as an exact 3D resolving hypersurface or
+    as a finite-thickness 4D slab. These are not interchangeable types. -/
+inductive TimeSupportKind where
+  | exactHypersurface3D
+  | finiteThicknessSlab4D
+  deriving DecidableEq, Repr
+
+/-- Ambient support dimension attached to each explicit time-support type. -/
+def timeSupportDimension : TimeSupportKind → Nat
+  | .exactHypersurface3D => 3
+  | .finiteThicknessSlab4D => 4
+
+/-- Expected intersection of a full 4D core with the selected time support,
+    conditional on transversality. -/
+def fullCoreTimeSupportOutcome (support : TimeSupportKind) :
+    ExpectedTransverseIntersectionOutcome :=
+  expectedTransverseIntersectionOutcome 4 (timeSupportDimension support) 4
+
+/-- A full 4D core cut by an exact 3D hypersurface has a 3D expected trace. -/
+theorem fullCore_exactHypersurface_yields_three_dimensional_trace :
+    fullCoreTimeSupportOutcome .exactHypersurface3D = .dimension 3 := by
+  decide
+
+/-- A full 4D core intersected with a finite-thickness 4D slab remains
+    4D in this expected-dimension model. -/
+theorem fullCore_finiteSlab_yields_four_dimensional_region :
+    fullCoreTimeSupportOutcome .finiteThicknessSlab4D = .dimension 4 := by
+  decide
+
+/-- A finite-thickness 4D slab is not the 3D hypersurface trace. -/
+theorem fullCore_finiteSlab_not_three_dimensional_trace :
+    fullCoreTimeSupportOutcome .finiteThicknessSlab4D ≠ .dimension 3 := by
+  decide
+
+/-- The two time-support interpretations yield different typed outcomes. -/
+theorem exactHypersurface_and_finiteSlab_outcomes_differ :
+    fullCoreTimeSupportOutcome .exactHypersurface3D ≠
+      fullCoreTimeSupportOutcome .finiteThicknessSlab4D := by
+  decide
+
+#eval [fullCoreTimeSupportOutcome .exactHypersurface3D,
+       fullCoreTimeSupportOutcome .finiteThicknessSlab4D]
+#print axioms fullCore_exactHypersurface_yields_three_dimensional_trace
+#print axioms fullCore_finiteSlab_yields_four_dimensional_region
+#print axioms fullCore_finiteSlab_not_three_dimensional_trace
+#print axioms exactHypersurface_and_finiteSlab_outcomes_differ
+
 end HsHVerification.RavelCarrierSheetDimensionGate
