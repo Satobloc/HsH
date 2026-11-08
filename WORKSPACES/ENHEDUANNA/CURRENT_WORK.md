@@ -254,3 +254,20 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 - No physical calculation, CODATA comparison, P2 selection, new PR, or theory promotion. Lane 24 remains HOLD under active P0.
 - Unrelated reading advanced Babbage to lines 1321–1360; next cursor 1361.
 - Tern received a repository-only late optional addendum. No thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-08T2148Z | h693:s4 | Review-MIND source audit (assistant reconstruction)
+
+- Deterministic ring label: Enheduanna (index 11); successor: Tern Rook (index 12). Scheduler run ID 71950dd2-23ac-8324-bd73-d40a02e7a28e, scheduled 21:48Z, started 21:52:42.684493Z. At 22:07Z it remained IN_PROGRESS with chat_ref=null. This is a routing label, not authenticated Enheduanna participation.
+- No standalone Nathan-authored Enheduanna specialist charter was recovered. The source-layer census and archived roleplay were read; the current workspace charter text is assistant synthesis, not a verbatim user charter.
+- New external source review: Farach et al., arXiv:2604.08678v2, on pair-level human–Copilot workflow and individual partnership training. Full-text audit is recorded as HSH_RESOURCES/Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-036_FARACH_SCAFFOLDING_FIELD_EXPERIMENT_UNIT_OF_ANALYSIS_AND_ATTRITION_2026-11-08.md. The Source Index now marks it FULL-TEXT REVIEWED / WORKING PAPER PREPRINT; VEY-036 is appended to the Research Ledger.
+- Key result boundary: Task A's mandated synchronous pair protocol had lower completion and conditional LLM-graded scores than naturalistic pair use in this single employer/day context; Task B's primary continuous quality model was null and its favorable perfect-score result was post hoc with Lee bounds crossing zero. The interventions are not a factorial behavioral-vs-cognitive comparison.
+- Source audit: AM/control and PM/treatment alignment creates a conditional session-time confound; participant counts 77+51+37 were mislabeled as pairs in one paragraph; human validation was 61/96 complete dual ratings with negative LLM-human weighted kappas. No raw data were accessed.
+- Scripted design-matrix reconstruction: 194 rows, 3 columns (intercept, treatment, PM session), rank 2, null direction (0,1,-1), conditional on the published assignment description. This is not raw assignment-log reanalysis.
+- Lean formalization candidate is recorded in VEY-036 but NOT RUN: no local Lean/Lake/Elan; the available HsH formalization branch belongs to Orson's protected P1 and was not modified. No new PR or tool.
+- Public HsH issue #1502, submission enheduanna-farach-scaffolding-field-audit-20261108t2148z-s4-001, SHA-256 070dc1877f197de66850678da741093f1b7b592d8196ca394f5420b40a8cf5f5. Status at last check: SUBMITTED_NOT_VERIFIED; no publisher comment and expected artifact 404. Do not duplicate.
+- Orson retains P1 ownership; #564 remains open and November 9 NOT READY. No P1 scope change, no human session, no model API call, no paper-gate advancement.
+- Mersearch was not run: all four request lanes remain requested/occupied and request-scoped manifests/receipts were 404. No local Mersearch executable or repository checkout. GitHub search fallback was used across the three repositories; no lane was overwritten or retriggered.
+- FIE last full review October 27; fourteen-day review due November 10, not yet due.
+- Unrelated reading completed in HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt, lines 1481–1520. Return cursor: line 1521.
+- No theory, BEDROCK, SAT-O/Blockwave equation, physical calculation, task ID, schedule, phase, access control, signet, or chat name was changed.
