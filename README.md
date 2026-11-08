@@ -24,6 +24,15 @@
 >
 > **Rule of thumb:** “reference material” is not a status. Every habitually consulted document should be clearly routed as **theory/BEDROCK**, **archive/provenance**, **navigation/orientation**, **admin/workflow**, **infrastructure/QA**, **methods/resources**, or **quarantine/prior-art**. If its lane is unclear, treat that as a documentation defect rather than guessing its authority.
 
+## SAT → H(s)H transition source packet
+
+**Start here for the historical material Nathan gathered to make the transition.** These archive sources are important starting inputs, not a blanket statement of current belief or accepted theory.
+
+**[Open the SAT → H(s)H Transition Source Packet](WORKSPACES/COMMON/SAT_TO_HSH_TRANSITION_SOURCE_PACKET.md)**
+
+It links directly to the [SAT26 TOOLBOX folder](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/%5B%5BSAT26%20TOOLBOX%5D%5D), [SAT_2025_DERIV](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/%5B%5B%5BSAT_2025_DERIV%5D%5D%5D.txt), [SAT_2025-26_PRED-POST](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/%5B%5B%5BSAT_2025-26_PRED-POST%5D%5D%5D.txt), and [SAT26_BIGBOOK](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/%5B%5B%5BSAT26_BIGBOOK%5D%5D%5D.txt). Much of this material is historical, heterogeneous, and subject to reconstruction or revision. Inclusion does not confer current theory status.
+
+---
 <table>
 <tr>
 <td>
