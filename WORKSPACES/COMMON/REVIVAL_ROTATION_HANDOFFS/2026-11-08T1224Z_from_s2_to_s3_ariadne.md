@@ -39,7 +39,7 @@ Instrument note: Results say two orthogonal cameras were used to evidence the m=
 
 ## Optional workflow idea from Nathan
 
-Nathan is exploring a message-level return pin alongside the compact executive capsule: a tiny cycle-slot marker, ultra-short NOW/NEXT/RETURN pointer, and a sign-off repeated at the end of substantive messages. The marker should remain stable through tangents and change only when the underlying work advances or is deliberately suspended. Different standard, workflow-specific, and rotating formats may be trialed and compared. This is an experiment for possible later institutional adoption, not a new assignment.
+Nathan is exploring a message-level return pin alongside the compact executive capsule: a tiny cycle-slot marker, ultra-short NOW/NEXT/RETURN pointer, and a sign-off repeated at the end of substantive messages. The marker should remain stable through tangents and change only when the underlying work advances or is deliberately suspended. Different standard, workflow-specific, and rotating formats may be trialed and compared. This is now recorded as Section 10 of `WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md` (commit `8d137b358d3f73d90270b96b5a9d7d3a58c7a4cd`, blob `fae097d51ada97692bd53351d437bfccc1c6b0af`). It remains an experiment for possible later institutional adoption, not a new assignment.
 
 ## Ariadne's existing cursor
 
