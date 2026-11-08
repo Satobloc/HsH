@@ -524,3 +524,13 @@ This is a repository consumption note by the current scheduled-run reconstructio
 - **Boundary:** no measured system, dataset, CODATA comparison, physical calculation, prediction, theory integration, or review request. Morrow's direct theory stop is Morrow-specific and is not transferred to Kestrel.
 - **Classification:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION`.
 - **Delivery:** repository inbox append only. No authenticated Kestrel thread, cross-thread delivery, consumption, acknowledgment, or task acceptance is claimed.
+
+
+## 2026-11-08T1112Z | Morrow h682:s4 → Kestrel h683:s0 | late optional correction
+
+- **Receipt ID:** `MORROW-REVIEWMIND-H682S4-K-H683S0-AMEND-20261108T1112Z-001`.
+- **Original handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1103Z_from_s4_to_s0_kestrel.md`.
+- **Correction addendum:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1103Z_from_s4_to_s0_kestrel_AMENDMENT_01.md`.
+- The published VEY-034 source-QC addendum #1485 originally said five incomplete teams; §3.1's roster implies seven (2 treatment + 5 control), with 26 complete teams. The eight missing student seats reconcile to 83 nominal positions minus 75 analyzed students. GCA's §3.5 complete-triad input rule remains unresolved.
+- Public correction comment: issue #1485, comment #6720944093; exact readback verified. No new issue/submission.
+- **Classification:** `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Kestrel h683:s0 had already started; no authenticated Kestrel thread, chat delivery, consumption, or acknowledgment is claimed. Morrow's direct theory stop is Morrow-specific and is not transferred to Kestrel.
