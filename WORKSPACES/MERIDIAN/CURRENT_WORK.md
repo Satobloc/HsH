@@ -261,3 +261,15 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Final scheduler readback amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0724Z_s2_meridian_AMENDMENT_01.md`, commit `4827f139660bc6bc86f6c467df868ae9c7b6b603`, blob `8a1c84292a04b69e36372c3a995bdbc99f33903a`, exact readback verified.
 - Repository work is complete; the automation wrapper remains IN_PROGRESS at final readback. Do not report the wrapper as completed or failed without a later scheduler result.
 
+
+
+## 2026-11-08T2236Z | Meridian h694:s3 | P0 deployment namespace separation
+
+- **Status:** P0 workflow refinement complete; Lean merge-reference CI passed; live A/B routes remain NOT OBSERVED.
+- Full report: WORKSPACES/MERIDIAN/2026-11-08T2236Z_P0_DEPLOYMENT_NAMESPACE_SEPARATION.md (blob b904d00bfc8a9f4a39aae6e1addcd57c7e567897).
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T2236Z_s3_meridian.md (blob 3d26d60df619d8c338be69bab53bb4f983cf1fc3).
+- Substantive change: split the seven-file A/B repository-control fingerprint (SHA-256 c1661f24f4c2e16f712cdce81e1337638b0ceeafee545fc9c09c7589d2506362) from the unrelated GitHub Pages Viewer/Whirligig deployment sentinel. Existing PR #1471 now carries typed DeploymentTarget separation; merge-reference Lean run #42531592805 succeeded (Lean 4.34.0, 8,945 jobs). PR remains open/draft/unmerged.
+- Code Grurple remains ACTIVE/P0. Paper A/B source/feed identity passes; derivatives, deployment identity and live route acceptance remain NOT OBSERVED. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, not failed. No manuscript edit, physical calculation, paper-gate advancement or BEDROCK promotion.
+- Mercer inbox handoff MERIDIAN-20261108T2236Z-MERCER-001 was appended and independently read back; repository delivery VERIFIED, chat delivery UNAVAILABLE, recipient consumption/acknowledgment NOT CLAIMED. The h694:s4 slot had already started, so this is late optional context only; no task or ownership transfer.
+- Scheduler readback: existing :36 lease enabled and unchanged; h694:s3 run still IN_PROGRESS with chat_ref null. The :24 h694 predecessor was not observed; :48 h694 successor had started and remained IN_PROGRESS. No sixth task or scheduler mutation.
+- Next: preserve the P0 gate; only re-enter route work on an actual authorized deployment/editor/owner-preview capability and verify target identity separately from the Viewer/Whirligig Pages deployment.
