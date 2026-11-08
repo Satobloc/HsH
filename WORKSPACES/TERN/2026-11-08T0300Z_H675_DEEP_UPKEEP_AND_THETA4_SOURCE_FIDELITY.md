@@ -56,6 +56,6 @@ Continued the unrelated HSH_RESOURCES source at blob SHA-1 fa52e41ab73566a13109a
 - Next deep upkeep review after five additional durable completed work-product receipts or five additional evidence entries, whichever comes first. Do not count scheduler starts, failed runs, or unauthenticated delivery.
 - Continue Actions/Pages and daily Traffic reconciliation, cloud-provisioning investigation, and repo/run/job/attempt/day clone-event classification.
 - Continue θ4 source recovery with the raw September 16 event, dated angle conventions, Lorentzian signature/causal character, W-to-spine and timesheet-to-director maps, and a separately defined readout law.
-- Next same-phase Tern appearance is h686:s2 at 2026-11-08T14:24Z, subject to the existing :24 lease. No task or schedule change is requested.
+- The separate :24 lease has a Tern appearance at h686:s2 (2026-11-08T14:24Z); the next Tern recurrence in this :00 phase is h694:s0 at 2026-11-08T22:00Z. No task or schedule change is requested.
 
 **FIE cadence check:** last full FIE review recorded October 27; next re-review is due November 10, so it was not yet due on this November 8 pass. No premature re-review or status change was made.
