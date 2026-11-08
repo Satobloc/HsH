@@ -148,3 +148,19 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - Declared digest `439eed0a8a33cb17d5c00fafe33fcf04a788b5bac8740fcf4ade638ad9e57843` was incorrect. Correct SHA-256 of the exact 15,424-byte UTF-8 content is `4a6eb2e39f4ff8c08f9c3d31dd5e895ae95eaa7bd9376241f435dfa952a1751d`.
 - Expected PUBLISHED_SUBMISSIONS artifact path returned 404. Status: `PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED`.
 - Per intake policy, no issue edit/reopen retry, duplicate issue, or direct publication-destination write. Issue #1464 remains the single incident record; full report remains inline in its body and the run response.
+
+
+## LATE OPTIONAL CONTEXT — 2026-11-08T0624Z Nadir h678:s2
+
+- **Inbox ID:** `NADIR-ENH-20261108T0624Z-001`
+- **Sender run key:** `REVROT3-19-20261011:678:s2`
+- **Nominal recipient run key:** `REVROT3-19-20261011:678:s3`
+- **Source packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0624Z_from_s2_to_s3_enheduanna.md`
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0624Z_s2_nadir_voss.md`
+- **New report:** HsH issue [#1478](https://github.com/Satobloc/HsH/issues/1478), submission `nadir-vortex-boundary-readout-20261108t0624z-s2-001`.
+- **Content:** Closed-loop 2017 vortex versus boundary-attached 2026 free-surface vortex column; distinct centerline writhe, internal twist, Kelvin-wave axis bending, core fluting and mean-flow particle helix; model-conditioned 3.69 mm mean-flow pitch from published fit values with explicit sensitivity bounds; two-antipodal-sample readout invertibility versus upstream 3D-to-two-sample non-injectivity; unresolved camera-description discrepancy; no H(s)H worldtube map or global helicity transfer claim.
+- **Publication:** publisher workflow #42455182732 was still `IN_PROGRESS` at sender receipt preparation; issue #1478 is `SUBMITTED_NOT_VERIFIED`. No artifact readback yet.
+- **Timing:** optional context only. At the last recipient-task peek, h678:s3 had not started; if already started when read, retain as late optional context.
+- **Next action:** `NONE`. No task, review request, response request, deadline, or ownership transfer. This does not displace Enheduanna's source-layer specialty or the :36 architecture/prediction charter.
+- **Repository delivery:** to be verified by independent readback.
+- **ChatGPT delivery:** `NOT SENT`; no authenticated Enheduanna thread. No consumption or acknowledgment is inferred.
