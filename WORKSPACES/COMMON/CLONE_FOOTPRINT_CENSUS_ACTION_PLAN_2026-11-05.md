@@ -134,7 +134,7 @@ The bounded current-tree scan found no current workspace/current-work/inbox/cont
 
 ### Deep upkeep trigger and triage
 
-Five durable work-product receipts with substantive deliverables were reviewed since the prior deep-sweep checkpoint: Morrow h667:s3, Kestrel h667:s4, Sable h668:s4, Loom h669:s0, and Ariadne h669:s2. Scheduler snapshots were mixed and do not authenticate thread delivery. This review counts completed work products, not scheduler starts. The current :00 run #95692, recorded FAILED with chat_ref=null, is not counted.
+Five durable work-product receipts with substantive deliverables were reviewed since the prior deep-sweep checkpoint: Morrow h667:s3, Kestrel h667:s4, Sable h668:s4, Loom h669:s0, and Ariadne h669:s2. Scheduler snapshots were mixed and do not authenticate thread delivery. This review counts completed work products, not scheduler starts. The current :00 run 95692beb-e144-832a-b593-1d64649ffec7, recorded FAILED with chat_ref=null, is not counted.
 
 The existing read-only `task_upkeep_triage.py` logic was run in a temporary runtime against the current graph. Its self-test passed; it returned 13 active/blocked/candidate records. Priority precedes convenience. No priority, owner, due date, status, task ID, or schedule was changed.
 
