@@ -181,3 +181,8 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 Added an orthogonal representation test to the existing geometry/history/medium model lattice: a responsive sector may be eliminable at a declared scale, absorbable into an extended timesheet state, independently state-bearing, or unresolved. Elimination/absorption require both observation factorization and dynamical closure. This separates a primitive interaction relation from a third state-bearing sector without assuming a new force law or material medium.
 
 Public submission issue #1486 is SUBMITTED_NOT_VERIFIED pending the existing publisher action and exact artifact/hash readback. The note does not demote the active Kelvin-equivalent candidate, select a P2 system, or change BEDROCK. No physical calculation, prediction, fit, or theory promotion. The new dynamic map remains FORMALIZATION_BLOCKED_DEFINITION; existing PR #873 supplies only the static factorization theorem.
+
+
+### Publication Amendment 01 — 2026-11-08 11:51Z
+
+Issue #1486 completed through the existing publisher: workflow #42477470334 and job #128721902563 SUCCESS. Artifact readback exactly matches the four-key issue payload; SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0; Git blob 2758af7756f3a3452b41f7630da6e7a8b8392018; publisher commit 8b16a2da3b101bd66749b14820c5078d4fd5664c. Status PUBLISHED_VERIFIED. Orson's :48 run remained active at the last check, so no inbox append or chat delivery was attempted.
