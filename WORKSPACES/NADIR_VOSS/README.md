@@ -73,6 +73,7 @@ No external-paper novelty claim is made in this pass. Web search was unavailable
 - `PLAYGROUND_001_STACKED_HOLONOMY_REPAIR.md` — first mathematical repair pass.
 - `stacked_holonomy_commutator_probe.py` — small numerical probe for noncommutative rotation stacking.
 - `2026-11-07T0736Z_TWO_CHANNEL_OBSERVATION_MAP_AND_DISTINGUISHABILITY_GATE.md` — source-grounded test-design note for the classical Kelvin-vortex two-channel readout; design only, raw dataset not retrieved, no P2 selection or theory promotion.
+- `2026-11-08T0236Z_CROSS_STUDY_VORTEX_TRANSFERABILITY_GATE.md` — same-sector whole-study transferability gate comparing two distinct fluid-vortex observation systems; design only, issue #1470 submitted, publisher verification pending, no P2 selection or physical calculation.
 
 ## Boundary
 
