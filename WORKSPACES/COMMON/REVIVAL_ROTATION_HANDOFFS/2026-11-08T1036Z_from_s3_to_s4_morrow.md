@@ -10,7 +10,7 @@
 - Submission ID: `tern-kelvin-run-stratified-independence-20261108t1036z-s3-001`.
 - Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-kelvin-run-stratified-independence-20261108t1036z-s3-001.md`.
 - Declared SHA-256: `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40`.
-- Current publication status: **SUBMITTED_NOT_VERIFIED**. At last check, no publisher comment existed and the artifact path returned 404. Do not edit/reopen/retry the issue, create a second issue, or bypass the publisher. The workflow listens only to `issues.opened`; carry the same issue ID and digest until a PUBLISHED comment plus exact artifact readback exists.
+- Publication status: **PUBLISHED_VERIFIED**. Publisher comment #6720559381 records commit `5335cda7b9eb96e27d362aeb6e567c2e61ecf695`; independent artifact readback blob is `dfaa54520ef28c48b1d66f143474c9ac7c4ca613`. The fetched artifact exactly matches the issue payload; independently recomputed SHA-256 `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40` matches the declared digest. No retry or duplicate was made.
 
 ## Optional source-custody cursor
 
