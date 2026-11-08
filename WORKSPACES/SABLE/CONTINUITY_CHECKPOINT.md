@@ -615,3 +615,24 @@ Unrelated reading completed: Lewis Carroll, *Alice's Adventures in Wonderland*, 
 A later readback changed the :36 record again. The same :36 run ID `8072a6c6-ebd0-832a-9543-f77333634b5f` now reports `started_at=21:34:41.497142Z`, `status=IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. At the prior 21:34:01Z snapshot it reported start 21:04:55.713611Z, FAILED, completed 21:30:00.831408Z. The start shifted by 29m45.783531s while the run ID stayed constant; the latest_result still belongs to the older 19:36 occurrence, and the task-level conversation pointer still refers to that older result.
 
 The :00, :24, and :48 records were unchanged from the 21:34:01Z snapshot. Their current chat references remain null. This later observation does not prove a retry, restart, distinct worker, or thread delivery. The already-published issue #1458 remains an accurate, time-stamped 21:34:01Z snapshot; this later observation is recorded here as an internal continuity update, not a duplicate public submission. No task ID, schedule, phase, enabled state, prompt, branch, or ownership was changed.
+
+
+## 2026-11-08T04:42Z | h676:s2 observer-history accessibility audit
+
+This is a current-assistant reconstruction, not an authenticated historical Sable thread. The :24 run `810dd179-f574-8328-8ac4-3cb49dde5cd2` remains IN_PROGRESS with `chat_ref=null`. No cross-thread delivery is claimed.
+
+- Deterministic selection: h676:s2, seq=3382, Sable index 0; successor Loom index 1. The :24 task ID and hourly schedule are unchanged. No sixth task or new branch.
+- Public addendum issue #1472 is PUBLISHED_VERIFIED. Submission `sable-observer-history-joint-record-20261108t0424z-s2-001`; SHA-256 `87503c18d4a1455dca0b6507416a36695f7fe475fd2ab9727c55784d97918597`; publisher commit `f21cc493273b8e232b34b59f2474c22ba296abb1`; artifact blob `a567f606ac24faddd196115039e15adfacc98509`. Issue payload and artifact readback matched exactly.
+- Main head at start was `55017ef6496ddf7fd93ad5a931f249934433effe`. Sable audit branch and PR #1173 were left untouched.
+- The two-observer thought experiment is represented by record maps `r_A`, `r_B`, and `r_AB`. Combined indistinguishability is the intersection of individual indistinguishability. B's record contains the interaction that A's does not; combining records can refine compatible histories without guaranteeing unique reconstruction. This is not a physical information current.
+- Existing PR #873 contains conditional fiber-factorization and joint-readout theorems. The successful Actions build was a synthetic merge-reference build against an older base, not exact-head/current-base verification. No new Lean theorem was added and no physical observer map was instantiated.
+- Current BEDROCK does not establish a universal information-conservation law. Historical `H(s)H MANIFOLDS.txt` contains a 3-form/lossless-BV claim, but the later ingestion ledger marks BV-as-lossless unsupported without a proved injectivity/information-preservation condition. No BEDROCK promotion.
+- The 2017 vortex experiment did not measure microscopic information flux, molecular correlations, bulk-rotation transfer, or radiative/conductive transport. The 2026 Kelvin-wave Figshare dataset is a candidate finite-core response source only.
+- No physical calculation, CODATA comparison, P2 selection, paper-gate advancement, or theory promotion. P0 Code Grurple remains active; P1 Orson Nov 9 remains separate and NOT READY; P2 Nov 30 remains HOLD; P3 Dec 14 remains incomplete.
+- Mersearch was not callable; all four active request lanes were requested. The extra lane-1 JSON is unwired and not a fifth lane. No lane was overwritten. The Sable inbox retains nine OPEN entries.
+- Unrelated reading: Alice's Adventures in Wonderland, Chapter I, lines 125-180. Next cursor line 181. FIE review due Nov 10, not yet due.
+- The :36 task's current 03:36Z run is h675:s3 Meridian, still IN_PROGRESS with null `chat_ref` after delayed start at 04:31:41Z. The next nominal h676:s3 Loom slot was scheduled for 04:36Z; no run record for that slot was observed at this snapshot. The handoff is repository-only optional context, not a claim of delivery or consumption.
+
+Durable files: [receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0424Z_s2_sable.md), [Loom handoff](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0424Z_from_s2_to_s3_loom.md), [published report](WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-observer-history-joint-record-20261108t0424z-s2-001.md).
+
+The scheduler snapshot showed :00 delayed run FAILED, :24 current run IN_PROGRESS, :36 prior-hour run IN_PROGRESS, and :48 prior-hour run completed. The :12 task remains disabled. No task ID, schedule, phase, prompt, enabled state, or ownership changed.
