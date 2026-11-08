@@ -527,3 +527,8 @@ Cross-worker lead: Alberr h688:s3 issue #1492 separates source-reported finite-c
 Optional Track A crossover: Nathan is experimenting with compact message-level return pins and cycle tickers that point into richer branching workflow maps. The Lane 24 capsule has a PIN plus CYCLE 05/08 complete, NEXT 06/08. This may be useful design context for the existing switchboard prototype, but no POC change or production integration is requested.
 
 No authenticated current Elias thread was found in the existing workspace. Repository inbox delivery only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+### Timing amendment — H689-S2-HALE-TO-ELIAS-OPTIONAL-20261108T1724Z
+
+The :36 h689:s3 task had already started at 2026-11-08T17:32:22.999596Z before this inbox append completed. The optional context packet is therefore LATE_FOR_H689_S3 / NEXT_APPEARANCE_ONLY; no consumption by the already-running occurrence is claimed. Next deterministic Elias ring appearance is h708:s3 / 2026-11-09T12:36Z. No assignment or response obligation.
