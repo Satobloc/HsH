@@ -26,3 +26,7 @@ The :36 run remains `4d6ec1ef-e230-8320-bc04-94cec10bc22e`, scheduled 08:36Z, `s
 The original handoff accurately records that the :48 successor was FAILED at its initial observation. The later snapshot now reports IN_PROGRESS with a changed start time. The handoff remains repository-only optional context; no recipient consumption, chat delivery or acknowledgment is claimed.
 
 This strengthens the case for append-only `AutomationSnapshotObservation` records with observation timestamps. It does not authorize a PR #951 change or a parallel ledger. No scheduler task, ID, schedule, phase or enabled state was modified.
+
+## Observation-time and payload-digest limitation
+
+The Automations peek payload exposes the run/result timestamps but no explicit timestamp for when the snapshot itself was observed, and no raw serialized-payload digest. The earlier `COORDINATION.md` snapshot also lacks an observation timestamp. Therefore the proposed `observedAtUnixMicros` and `sourcePayloadDigest` fields are **not populated by the current source**; retain `NOT_EXPOSED` rather than backfilling them from `started_at`, `scheduled_for`, or the automation runtime clock. Future snapshot capture should record observation time and digest at acquisition.
