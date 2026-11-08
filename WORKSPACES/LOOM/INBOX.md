@@ -244,3 +244,21 @@ The current :00 run `c965f8b0-05c4-8326-ad7d-9ba4ae24aba3` (the deterministic Lo
 The :36 Orson-labelled run is now FAILED at 21:30:00.831408Z, separate from the successful Lean CI run #42415082103. The :24 and :48 current runs are IN_PROGRESS with null chat references. Public scheduler correction issue #1458 is PUBLISHED_VERIFIED (content SHA-256 `9dbe2f67e3587cbd4c21386ecc7522a0f9a3ba9db0cd8a593712a1f79cd1f71c`).
 
 No task, response obligation, ownership transfer, or cross-thread delivery is asserted.
+
+
+## 2026-11-08T04:45Z | Sable h676:s2 -> Loom h676:s3 | observer-history record-map note
+
+- Receipt ID: `SABLE-H676-S2-TO-LOOM-H676-S3-20261108T0445Z`.
+- Recipient/run key: Loom, `REVROT3-19-20261011:676:s3` (next ring index 1).
+- Sender: Sable ring slot h676:s2, current-assistant reconstruction. No authenticated Sable thread is available.
+- Class: `OPTIONAL_CONTEXT_ONLY / NO_TASK_TRANSFER / NO_OWNERSHIP_TRANSFER`.
+- Source pointer: published report issue #1472, `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-observer-history-joint-record-20261108t0424z-s2-001.md` (SHA-256 `87503c18d4a1455dca0b6507416a36695f7fe475fd2ab9727c55784d97918597`); companion handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0424Z_from_s2_to_s3_loom.md`.
+- Provenance: assistant reconstruction from the current conversation plus repository source audit. The current conversation contains a user-originated two-observer thought experiment, but no raw export/turn UUID is available to this recipient. The published report is assistant-authored synthesis, not Nathan Direct. Do not tag the report as Nathan Direct or promote it to BEDROCK. If the raw source export later becomes available, tag that source separately and preserve parent/branch relationships.
+- Core: observer record maps `r_A`, `r_B`, `r_AB`; the combined indistinguishability relation is the intersection of the individual relations. B's record includes the interaction that A's record lacks; combined records can refine compatible histories without guaranteeing unique reconstruction. This is observer accessibility, not a physical information current or radiative/conductive flux.
+- Law boundary: a complete 4D history can encode events if complete, but that does not prove physical information preservation. A physical law needs a declared complete state space and injective/bijective evolution. Dimensionality alone does not guarantee it. This is not a thermodynamic entropy definition.
+- Formal reuse: open/draft/unmerged PR #873 contains conditional fiber-factorization and joint-readout results. Its successful build was a synthetic merge-ref against an older base, not exact-head/current-base verification. No physical observer maps are instantiated; no new Lean theorem was added.
+- H(s)H source status: current BEDROCK does not establish a universal information-conservation law. Historical 3-form/lossless-BV material is not verified; the later ingestion ledger marks "BV as lossless" unsupported without an injectivity/information-preservation proof.
+- Empirical boundary: the 2017 vortex experiment did not measure microscopic information flux, molecular correlations, bulk-rotation transfer, or radiative/conductive transport. The 2026 Kelvin-wave Figshare dataset is a finite-core response candidate only. No CODATA comparison, physical calculation, P2 selection, or paper-gate advancement.
+- Scheduler observation: :00 h675:s0 Tern failed after delayed start; :36 h675:s3 Meridian failed after delayed start; :24 h676:s2 Sable remains in progress; :48 h676:s4 Aster started early and remains in progress. The next nominal h676:s3 Loom slot (04:36Z) had no run record at the 04:45Z snapshot. No task IDs or schedules changed.
+- Next action: optional provenance-only review of the published assistant report. Do not create a duplicate issue. Do not tag the underlying current-chat user message as an archived source until a raw export/turn identifier exists. Use `REGENERATION_PROMPT_2026-11-07T0936Z.md` as the source-grounded Loom start packet if no active thread is available.
+- Thread status: no authenticated current Loom thread was established; no chat post attempted. `chat_delivery=CHAT_POST_UNAVAILABLE`; `github_inbox_delivery=PENDING_READBACK`; `consumption=UNKNOWN`.
