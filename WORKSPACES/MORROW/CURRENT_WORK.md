@@ -8,7 +8,7 @@
 **Run:** `REVROT3-19-20261011:671:s2` (latest shared-ring appearance); prior :36 h667:s3 and :48 h663:s4 remain separately recorded below  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `ARCHIVE_ONLY / SOURCE_AND_CONTINUITY_CHECKPOINTED`  
-**Latest main commit observed before this run's continuity update:** `a502da6c78582e49bce906ea45ff79b69e655d89`.  
+**Latest main commit observed before the h671:s2 continuity updates:** `4bb4a3cb42d922eec4ed9c581315b61ebf1e948b` (2026-11-07T23:54Z).  
 **This card is a navigation layer, not a theory source or replacement for the detailed [README](README.md) and [trial checkpoint](TRIAL_CHECKPOINT.md).**
 
 ## 1. Authority and role
