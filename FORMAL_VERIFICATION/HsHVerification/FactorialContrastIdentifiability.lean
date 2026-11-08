@@ -224,15 +224,13 @@ theorem shared_response_sine_coefficient (c : SharedTwoReadoutCoefficients)
     (r : Fin 2) :
     sampledSineCoefficient (fun i => sharedTwoReadoutResponse c r i) = c.sine := by
   simp [sampledSineCoefficient, sharedTwoReadoutResponse,
-    threeClockingSineBasis, threeClockingCosineBasis]
-  ring
+    threeClockingSineBasis, threeClockingCosineBasis] <;> ring
 
 theorem shared_response_cosine_coefficient (c : SharedTwoReadoutCoefficients)
     (r : Fin 2) :
     sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c r i) = c.cosine := by
   simp [sampledCosineCoefficient, sharedTwoReadoutResponse,
-    threeClockingSineBasis, threeClockingCosineBasis]
-  ring
+    threeClockingSineBasis, threeClockingCosineBasis] <;> ring
 
 /-- The source model's shared harmonic pair forces both readouts to have equal extracted coefficients. -/
 theorem shared_response_sine_coefficients_equal (c : SharedTwoReadoutCoefficients) :
