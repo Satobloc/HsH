@@ -351,3 +351,14 @@ A quick read of the current phase-steering document and live `WORKSPACES/COMMON`
 - [Live Paper Proposals](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/LIVE_PAPER_PROPOSALS.md)
 
 These candidates expose an important possible omission in the original list: **the active control plane itself** (authority, task graph, execution leases, scheduler, onboarding, retrieval router, and project-intake/publishing standards). The triage should inspect those first and resolve which document is authoritative where multiple versions or parallel registers exist.
+
+
+## 2026-11-08 — Nathan Direct — CROSS-REPO PROJECT RECOVERY / GLOBAL PRIORITY PLAN
+
+Nathan requests a deliberate sweep of started, partially completed, dormant, stalled and promising projects across Satobloc/SAT_THEORY_ARCHIVE_2023-25, Satobloc/HsH and Satobloc/HSH_RESOURCES, followed by reconciliation of the priority list and selective return of worthwhile projects to the active workflow.
+
+The canonical plan is the expanded [Old Plan Recovery Sweep](OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md), with intake recorded in the [Nathan Wants Ledger](NATHAN_WANTS_LEDGER.md). This extends the existing OP-01 onward recovery work; it does not create a competing dashboard or priority ledger.
+
+Initial recovery candidate: [CALDER_VANE](PLAYGROUNDS/CALDER_VANE/) — four connected open-sandbox notes dated 2026-10-01, covering carrier–resolver geometry, a trial action, recursive-level elimination and a recursive-kernel/H(s)H backbone. Trace later work and review the calculations before assigning priority. Its sandbox status and speculative assumptions remain explicit.
+
+**Status: PLAN ADOPTED; SWEEP NOT YET EXECUTED.** Discovery/recovery/triage precede ranking and re-entry. Preserve originals; do not mass-clean, retire, or mechanically revive old TODOs. Reconcile against current BEDROCK, steering, Three Paper Campaign, task graph, execution leases and scheduler authority. No scheduler changes, worker assignments or project promotions are made by this pin.
