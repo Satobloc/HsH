@@ -70,3 +70,16 @@ Sable's standing Q&A queue currently has no submitted worker questions. Do not m
 `timestamp | worker | scheduler | last checkpoint/checkin | expected cadence | observed gap | evidence | classification | confidence | action/handoff`
 
 Only notify Nathan when a silence/drift/block changes project risk materially or requires his decision/manual intervention.
+
+
+## Scheduler observation — 2026-11-08T04:45Z (h676:s2)
+
+| Automation | Run key / worker | Scheduler evidence | Classification | Action |
+|---|---|---|---|---|
+| :00 Archive (`6aa1fe0de5e48191b886496095b1343f`) | h675:s0 / Tern Rook; run `95692beb-e144-832a-b593-1d64649ffec7` | Scheduled 03:00Z; started 04:01:59.938Z; failed 04:27:02.846Z; `chat_ref=null` | `AUTOMATION-FAULT?` (single failed delayed run; cause unknown) | Record only; recheck next :00 run. No schedule or ownership change. |
+| :24 Geometry (`6abda4c8eda88191bf23a6f2849e9a17`) | h676:s2 / Sable; run `810dd179-f574-8328-8ac4-3cb49dde5cd2` | Scheduled 04:24Z; started 04:25:49.432Z; IN_PROGRESS; `chat_ref=null`; receipt, report, checkpoint and handoff updated | `ACTIVE-NORMAL` (repository work evidenced) | Continue current run; no cross-thread claim. |
+| :36 Worldtube (`6a9f52b69ec08191b0a2ba24a074f781`) | h675:s3 / Meridian; run `fdbcaff8-87ec-8325-9a68-06e1196f63a6` | Scheduled 03:36Z; started 04:31:41.535Z; failed 04:43:45.469Z; `chat_ref=null`; next nominal h676:s3 Loom slot not yet observed | `AUTOMATION-FAULT?` (single failed delayed run; cause unknown) | Record only; inspect next :36 slot. No reroute or schedule change. |
+| :48 Review (`6aa6c3bc02b48191b8a91a30d2a155e0`) | h676:s4 / Aster; run `993d3c4f-f578-832d-bad4-c146eedc43c8` | Scheduled 04:48Z; started 04:45:13.726Z; IN_PROGRESS; `chat_ref=null` | `ACTIVE-NORMAL` (early start observed; cause unknown) | No intervention; recheck on next snapshot. |
+| :12 disabled | no run | Deliberately disabled | `INTENTIONAL-SLEEP` | No action. |
+
+These are scheduler observations, not claims about productive output or worker identity. Two delayed runs (:00 and :36) failed; causes are not established. The :36 h676:s3 Loom run has not appeared in the observed task state. Do not alter IDs, cadence, phase, enabled state, or ownership without explicit authorization.
