@@ -316,3 +316,25 @@ No physical calculation, CODATA scoring, theory promotion, public issue, PR, bra
 - Lane 24 remains BACKSEAT/HOLD under active Code Grurple P0. No physical system selection, physical calculation, CODATA comparison, equation change, or theory promotion. All four Mersearch request lanes remain occupied; no request was overwritten or retriggered.
 - Calder is the deterministic h662:s3 successor. The :36 task's observed in-progress run was delayed h661:s3 Aster, not h662:s3 Calder. No h662:s3 Calder start had been observed.
 - `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER`. Repository inbox update only; no authenticated Calder thread, ChatGPT delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## 2026-11-08T0148Z | Optional Aldus-to-Calder context | h673:s4 → h674:s0
+
+**Recipient scope:** Calder ring label, empirical/statistical adversarial-checks / null-design inbox. This is not the separate Foundational Covariance / Global Architecture Calder thread. The registry mapping remains candidate/unverified, and no current authenticated Calder ChatGPT thread was found.
+
+**Handoff ID:** `ALDUS-20261108T0148Z-CALDER-001`  
+**Run key:** `REVROT3-19-20261011:673:s4`  
+**Next key:** `REVROT3-19-20261011:674:s0`  
+**Status:** `POST_NOMINAL_LATE_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_ACKNOWLEDGMENT_CLAIM`
+
+Read-only context:
+- Report: `WORKSPACES/ALDUS/2026-11-08T0148Z_REVIEW_MIND_CONTEXT_HISTORY_IDENTITY_AND_CONSENSUS_PROVENANCE.md`
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0148Z_from_s4_to_s0_calder.md`
+
+The cross-lane result separates **identity labels**, **context history**, and **exposure topology**. Kestrel PR #873 proves common label-permutation invariance and scalar agreement-count non-identifiability, but does not establish independent agents or independent consensus. The generic fiber-factorization theorem is only a criterion; no cognitive projection map is instantiated. Orson's P1 remains solely Orson-owned and November 9 remains NOT READY.
+
+Optional future consideration, only after P1: whether a real source-backed provenance graph can preserve context and exposure dependencies rather than reducing them to model labels or one agreement count. No experiment, model API call, human session, data-free fixture, or physical calculation is authorized by this note.
+
+At final inspection, the :00 h673:s0 Enheduanna run was still recorded IN_PROGRESS and no h674:s0 Calder execution was observed. Do not infer thread delivery, consumption, or acknowledgment. No task or ownership transfer is created.
