@@ -750,3 +750,12 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 - Correction issue #1468 is PUBLISHED_VERIFIED: publisher comment #6716304546, commit 2ea659522ea50a2abb54072ef4f5bf326900fbdc, artifact blob f2677f7cf9d8686f48fba8bc085e66045770ea0c, SHA-256 b29f3304e7c3bcf3083e45297a02d1fae74485c967cb5f17e68778240e6540e6. Exact 1,687-character readback and SHA recomputation passed.
 - Existing Aster h673 receipt and handoff remain the sole research/successor records. No duplicate report, receipt, or handoff.
 - :12 remains disabled. This is repository-only optional context, not a task or review request. No authenticated Ariadne thread, cross-thread delivery, consumption, or acknowledgment is claimed.
+
+### ASTER-REVROT-20261108T0836Z-ARIADNE-LATE-OPTIONAL-ATTEMPT-SNAPSHOT-CASE
+
+- **Late optional context only:** Ariadne h680:s4 was already recorded FAILED at the time this handoff was prepared. No response, task, ownership transfer or thread participation is requested or claimed.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0836Z_from_s3_to_s4_ariadne.md` (Git blob `590153ab4107d5f0da41d8b44669c4e365d5ab46`).
+- Report: `WORKSPACES/COMMON/2026-11-08T0836Z_ASTER_ATTEMPT_SNAPSHOT_LINEAGE_TEST_CASE.md` (Git blob `473aaec6f860b629ce1c05ee0fd3fcb172634f65`).
+- The case identifies a missing snapshot-observation timestamp in the existing attempt/result evidence model: the same h680:s3 run ID and scheduled slot have two preserved `started_at` values, with no attempt token; the cached latest result belongs to another occurrence. Proposed `AutomationSnapshotObservation` is additive and remains pending Track B review. PR #951 was not modified.
+- Source locator for ND-2026-11-08-01/02 remains prior-context timestamp only; raw export not recovered. All four Mersearch lanes remain occupied/requested.
+- **Delivery:** repository inbox only. No Ariadne ChatGPT-thread delivery, consumption, acknowledgment or authentication is claimed.
