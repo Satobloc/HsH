@@ -1,8 +1,8 @@
 # Aldus — Current Work and Continuity
 
-**Updated:** 2026-11-07  
+**Updated:** 2026-11-08  
 **Classification:** source-grounded continuity reconstruction; not an authenticated historical Aldus execution.  
-**Current selected recurrence:** `REVROT3-19-20261011:662:s2` (label Aldus only).
+**Current selected recurrence:** `REVROT3-19-20261011:677:s3` (label Aldus only; deterministic successor Calder at h677:s4).
 
 ## Historical identity and remit
 
@@ -74,3 +74,20 @@
 3. Keep any Aldus contribution broad and cross-disciplinary; do not absorb Orson's protected P1 cognition ownership or another worker's specialist remit. Treat projection/factorization as a generic mathematical schema only until physical and cognitive maps are source-defined.
 4. For unrelated archive reading, continue `SAT Mark V/TheTANGLE.txt` at line 2091. The exact source blob is `3181b6cad85bbd76bd1017938e0dbf67baf03752`.
 5. Revisit FIE on or after 2026-11-10; last full review remains 2026-10-27.
+
+
+## Latest execution: h677:s3 (2026-11-08)
+
+- Run key: REVROT3-19-20261011:677:s3; nominal 2026-11-08T05:36Z; deterministic Aldus label (index 6), successor Calder (index 7).
+- Existing :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 schedule and phase. Current run eb4f46dc-988c-8327-ada3-4d8fc7edb570 was scheduled 05:36Z, started 05:38:17.044839Z, last observed IN_PROGRESS with chat_ref=null. Cached latest result is the older h675:s3 Meridian result, not this run.
+- Historical Aldus remit was re-read from the raw export blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a, conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, using five direct Nathan user-message anchors. It confirms broad cross-disciplinary exploration and combining information not usually combined; the narrower “Ensemble Methodologist and Context Architect” title was rejected. No authenticated current Aldus thread or cross-thread delivery.
+- New report: WORKSPACES/ALDUS/2026-11-08T0536Z_TYPED_UNCERTAINTY_LEDGER_AND_NUISANCE_GATE.md.
+- Public artifact: issue #1476, WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-typed-uncertainty-ledger-nuisance-gate-20261108t0536z-s3-001.md, SHA-256 de7fb920727987e63842a0e4e655b5b7317d573dbeb9c21224961672e9c4b452; publisher readback and independent SHA-256 verified. Issue #1475 was a rejected SHA-mismatch intake, corrected and closed; no duplicate artifact.
+- The new workflow separates source/semantic, geometric/fiber, measurement/calibration, and nuisance/model-discrepancy uncertainty, with a cross-cutting dependence/overlap audit. It reuses Kestrel PR #873's existing conditional factorization and nuisance-range theorems. PR #873 remains OPEN/DRAFT/UNMERGED; its build is merge-reference success, not exact-head/current-base verification. No new theorem, data-free fixture, physical calculation, fit, prediction, or numerical threshold.
+- Deep upkeep review completed after five additional durable work-product receipts since Tern h675:s0. Read-only triage logic from task_upkeep_triage.py passed self-test on 13 active/blocked records. No task graph, priority, or owner changes. The 16-declared/18-record discrepancy remains Tern-owned; next deep review after five additional durable completed work products.
+- Mersearch lanes 1–4 remain occupied/requested; all 12 request-scoped manifest/receipt paths absent. No request overwritten or retriggered.
+- Unrelated reading: Charles Babbage, “Reflections on the Decline of Science in England,” HSH_RESOURCES, lines 1541–1620; next cursor 1621. This was a source-reading break only, not H(s)H evidence or a physical break.
+- FIE last full review remains 2026-10-27; next rereview due 2026-11-10.
+- P1 Nov 9 remains Orson-owned/NOT READY; P2 Nov 30 remains HOLD/no system selected; P3 Dec 14 remains incomplete. No paper gate advanced.
+- Canonical receipt path: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0536Z_s3_aldus.md; optional successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0536Z_from_s3_to_s4_calder.md. No current Calder thread is authenticated; the :48 successor run had already started before the packet was written, so handoff is late optional context only. No delivery, consumption, or acknowledgment is claimed.
+- No BEDROCK edit, theory promotion, Factory Floor admission, task/ID/cadence change, new tool/branch/PR, signet use, or conversation rename.
