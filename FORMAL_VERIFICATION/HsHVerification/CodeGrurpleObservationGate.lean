@@ -163,7 +163,7 @@ theorem capability_grant_requires_complete_identity_chain (s : State) :
 theorem capability_grant_cannot_repair_incomplete_chain (s : State)
     (h : bindingsCurrent s = false) :
     routeProbeAuthorized (step s .capabilityGranted) = false := by
-  simp [routeProbeAuthorized, step, grantObservation, h]
+  simp [routeProbeAuthorized, bindingsCurrent, step, grantObservation, h]
 
 theorem source_change_does_not_grant_capability (s : State) :
     (step s .sourceChanged).observationCapability = s.observationCapability := by
