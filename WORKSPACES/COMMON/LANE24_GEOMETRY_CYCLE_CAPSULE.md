@@ -2,14 +2,14 @@
 
 **Status:** EXPERIMENTAL NAVIGATION AID / assistant-maintained / not a theory premise, worker-authored check-in, new task system, or priority authority.  
 **Updated:** 2026-11-08T19:22Z · run key `REVROT3-19-20261011:690:s2`  
-**Authoring boundary:** source-grounded scheduled-run reconstruction; no authenticated Hale thread or Hale participation claimed.
+**Authoring boundary:** source-grounded scheduled-run reconstruction; no authenticated Morrow thread or Morrow participation claimed. The prior h689:s2 Hale pass remains separately attributed in its receipt.
 
 ## Current pin
 
 `PIN: L24 / P0-HOLD | main@8e30a544923a7ae59f067c193f6bb27df3f5de61 | P0 route vector 8/8 unchanged | NEXT: wait for positive trigger or Code Grurple standdown`
 
 - Code Grurple remains ACTIVE / P0. Paper A and B manuscript pins remain unchanged.
-- Compared the eight P0 route-trigger file blobs at baseline `8c7612d246794da05492ad25c773ce92cb8289d5` with current main `016dc4a299166ea46aea525b7b8e472d06f70cbf`: **8/8 unchanged**.
+- Last P0 route-trigger comparison at h690:s2 (baseline `8c7612d246794da05492ad25c773ce92cb8289d5`; then-current main `62326ad6019172c3d89d98c70e1845e8c5340474`): **8/8 unchanged**. Subsequent main commits through `8e30a544923a7ae59f067c193f6bb27df3f5de61` touched generated discovery output and Morrow/Kestrel source-custody records only; no P0 trigger file changed.
 - Issues #1193, #1144 and #1273 remain open with no new issue-level update since Nov 1, Oct 31 and Nov 2 respectively. No new route trigger, deployment identity, owner preview, or authenticated browser context was recovered in this read-only pass.
 - Do not probe the live reader routes on elapsed time alone. Preserve the P0 owner split: Meridian supports Paper A presentation repair; Mercer QA-checks A/B; Tern retains control-plane coordination.
 - Lane 24 H(s)H generation / worldtube / CODATA remains **BACKSEAT / HOLD** until P0 standdown. No physical calculation, new Lean run, paper advancement, or theory promotion this turn.
