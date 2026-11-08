@@ -150,3 +150,56 @@ theorem assistant_candidate_difference_eq_vH (c vH : ℝ) :
 #print axioms assistant_candidate_difference_eq_vH
 
 end HsHVerification.AsterClockMapGate
+
+
+/-!
+## Conditional Lorentzian rapidity comparator for the historical O1 theta4 expression
+
+This is a deliberately small 1+1-dimensional slice with metric diag(-1,+1).
+It proves a standard conditional fact about two unit future-timelike vectors
+written in rapidity coordinates. It does NOT assert that the O1 document's
+undefined u is unit timelike, that its metric/connection is fixed, or that
+this Lorentzian slice maps to the later native (++++) geometry.
+-/
+
+/-- Minkowski bilinear form on a 1+1D Lorentzian plane, signature (-,+). -/
+def minkowskiInner1p1 (x y : ℝ × ℝ) : ℝ :=
+  -(x.1 * y.1) + x.2 * y.2
+
+/-- Unit future-timelike vector parameterized by rapidity. -/
+def rapidityVector (η : ℝ) : ℝ × ℝ :=
+  (Real.cosh η, Real.sinh η)
+
+theorem rapidityVector_unit_timelike (η : ℝ) :
+    minkowskiInner1p1 (rapidityVector η) (rapidityVector η) = -1 := by
+  simp [minkowskiInner1p1, rapidityVector, Real.cosh_sq_sub_sinh_sq]
+
+theorem rapidity_inner_eq_cosh (η ζ : ℝ) :
+    -minkowskiInner1p1 (rapidityVector η) (rapidityVector ζ) =
+      Real.cosh (η - ζ) := by
+  simp [minkowskiInner1p1, rapidityVector, Real.cosh_sub]
+  ring
+
+theorem rapidity_inner_ge_one (η ζ : ℝ) :
+    1 ≤ -minkowskiInner1p1 (rapidityVector η) (rapidityVector ζ) := by
+  rw [rapidity_inner_eq_cosh]
+  exact Real.one_le_cosh _
+
+theorem rapidity_inner_gt_one_of_distinct (η ζ : ℝ)
+    (h : η ≠ ζ) :
+    1 < -minkowskiInner1p1 (rapidityVector η) (rapidityVector ζ) := by
+  rw [rapidity_inner_eq_cosh]
+  exact Real.one_lt_cosh.mpr (sub_ne_zero.mpr h)
+
+theorem no_real_cosine_for_distinct_rapidities (η ζ θ : ℝ)
+    (h : η ≠ ζ) :
+    Real.cos θ ≠
+      -minkowskiInner1p1 (rapidityVector η) (rapidityVector ζ) := by
+  apply ne_of_lt
+  exact lt_of_le_of_lt (Real.cos_le_one _) (rapidity_inner_gt_one_of_distinct η ζ h)
+
+#print axioms rapidityVector_unit_timelike
+#print axioms rapidity_inner_eq_cosh
+#print axioms rapidity_inner_ge_one
+#print axioms rapidity_inner_gt_one_of_distinct
+#print axioms no_real_cosine_for_distinct_rapidities
