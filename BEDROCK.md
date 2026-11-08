@@ -1,5 +1,33 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+### ND-2026-11-08-01 — RMS as the operative philosophical background; human intelligibility as a model-selection preference
+
+**Authority:** Nathan Direct, 2026-11-08, current conversation. **Scope:** all SAT/H(s)H epistemology, research, modeling, interpretation, communication and operational practice. **Status:** primary epistemological and methodological guideline. This adds no physical mechanism, equation, or empirical claim.
+
+**RMS is the philosophical background that we recognize as always operative in principle.** It is not a short list of prohibitions, a special disclaimer reserved for information claims, or a demand that we abandon ordinary human language and concepts. In practical work we continue to use familiar conventions for objects, properties, events, causes, laws, measurements and explanations. We understand these as conventions through which we describe the **apparent coherence of our perceptual world** and the **apparent convergences of our shared observation space**. Those apparent coherencies and convergences make it possible to construct models that apparently explain observations and make predictions.
+
+RMS therefore informs the entire modeling enterprise, including ordinary scientific language and successful technical practice. It does not require every practical statement to be surrounded by repetitive qualifications. It does require us to remember that our descriptions, conceptual divisions, models and claims of predictive success are made from within human perceptual and shared observational practice, not from an independently accessible view outside every possible point of view.
+
+**Model choice is underdetermined by adequacy alone.** We recognize that there are always an infinite number of possible effective models for a given body of observations. H(s)H/SAT deliberately prefers models that make effective use of human geometric and physical intuitions, so that their structures and relationships can be grasped, inspected, reasoned about and extended by human thinkers. We choose to strain the research toward intelligibility and human understanding.
+
+This is a **methodological preference**, not an ontological law, a guarantee of truth, or a claim that nature must be uniquely or optimally represented in human-intuitive terms. More complicated models may also be effective; they may be more elegant or preferable under other criteria. We deliberately adopt human intelligibility as an additional criterion because it is a valued research outcome.
+
+Keep two considerations distinct:
+
+- **Empirical adequacy:** how well a model organizes the apparent regularities of available observations and how its consequences compare with subsequent observations.
+- **Human intelligibility:** how effectively the model uses human geometric and physical intuitions to make those regularities understandable and workable.
+
+These can reinforce one another, but neither entails the other. An intuitive construction is not thereby empirically adequate; a highly predictive construction is not thereby the most intelligible one.
+
+Within this preference, pursue the most economical geometric construction consistent with observations and the current, revisable constraints. Prefer clarification or justified modification of existing primitives before introducing additional machinery, but do not mistake simplicity or elegance for proof. Add complexity when the geometry, internal coherence or evidence requires it; otherwise retain alternatives or move to work that can proceed without premature complication.
+
+The preceding RMS discussion of information in complete histories, present states, holographic encodings, recoverability, observer access and observational limits is an **application** of this background, not its definition. Do not promote a universal information-preservation, holography, completeness or predictive-continuity claim to an H(s)H/SAT principle without grounds. Equally, do not define RMS merely by listing such claims that are not adopted. Investigate information properties within specific models and systems while retaining the general RMS understanding of how all such descriptions and conclusions are situated.
+
+**Operational relation:** This guideline supplies the philosophical background for the existing source-first, real-data-first, proof-first, geometry-first, minimal-pair, correction-first and cross-sector controls below. It does not relax any of them, does not authorize data-free calculations, and does not promote a working physical hypothesis. The expanded source-faithful account is recorded in [Nathan Direct — Methodology and Working-Model Overview, 2026-11-08](WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md).
+
+---
+
+
 ### ND-2026-11-04-01 — EXCLUSIVE NATHAN SIGNET AND PROVENANCE CONTROL
 
 **Authority:** Nathan Direct, 2026-11-04, explicit correction in the Workshop Relay :00 | Archive discussion. **Scope:** all assistants, workers, automations, scripts, repository text, generated artifacts, chat responses, metadata, and corpus/indexing workflows. **Status:** mandatory provenance BEDROCK.
