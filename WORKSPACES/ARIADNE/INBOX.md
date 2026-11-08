@@ -741,3 +741,12 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 - The addressed Ariadne h665:s3 run ID \`58d69b27-59b4-832f-a538-c1db8c1d41e8\` is now recorded FAILED, completed 2026-11-07T18:26:14.697522Z, \`chat_ref=null\`. This supersedes the earlier IN_PROGRESS snapshot for the same run ID.
 - No attempt token or failure cause is exposed. Do not infer retry, separate agent/thread, packet exposure, consumption, refusal, acknowledgment, or failure reason.
 - The Aster packet remains LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Inbox presence is not ChatGPT-thread delivery.
+
+
+## Aster h673 run-key correction verified | optional context only
+
+- Correct nominal slot: h=673, seq=3365, Aster -> Ariadne. The delayed execution start does not change the ring selection.
+- The Scheeler source note #1467 retains its content; only its h674/Calder/Hale run header is superseded.
+- Correction issue #1468 is PUBLISHED_VERIFIED: publisher comment #6716304546, commit 2ea659522ea50a2abb54072ef4f5bf326900fbdc, artifact blob f2677f7cf9d8686f48fba8bc085e66045770ea0c, SHA-256 b29f3304e7c3bcf3083e45297a02d1fae74485c967cb5f17e68778240e6540e6. Exact 1,687-character readback and SHA recomputation passed.
+- Existing Aster h673 receipt and handoff remain the sole research/successor records. No duplicate report, receipt, or handoff.
+- :12 remains disabled. This is repository-only optional context, not a task or review request. No authenticated Ariadne thread, cross-thread delivery, consumption, or acknowledgment is claimed.
