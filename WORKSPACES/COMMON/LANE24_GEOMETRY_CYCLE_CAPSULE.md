@@ -79,3 +79,17 @@ Ariadne's audit (blob `fd898dc595a2dfe38adea4d0f3cae92499ff0f9f`) adds a vortex-
 
 **Next:** `CYCLE 01/08` only after a positive P0 route trigger or standdown. Preserve the existing return conditions: original SAT-O/Blockwave source recovery; explicit geometry/projection/composition maps; versioned raw measured dataset, calibration, covariance, uncertainty and holdout before calculation.
 
+
+
+## 2026-11-08T23:24Z | Sable empirical / Lean status delta
+
+- P0 remains ACTIVE; the eight-file route vector remains 8/8 against the established fingerprint. Cycle 08/08 remains complete; no new P2 system is selected.
+- Estepa-Cantero et al. (2026) is now the leading 3D responsive-medium candidate: 4D-LPT plus bubble-shape reconstruction, raw camera-image supplements listed for Cases I–III, full supporting data by reasonable request, and reported velocity uncertainty below 2% near the core to 10% in the far field. Raw trajectories and calibration artifacts remain unretrieved.
+- Knister et al. (2026) is a strong finite-core counter-rotating-vortex/falsifier candidate; raw volumetric PIV fields and derived-quantity covariance remain unavailable.
+- Barckicke et al. (2026) retains a named Figshare data DOI and explicit readout uncertainties; file manifest/bytes remain unretrieved, and the paper's dispersion comparison is fit then checked a posteriori.
+- Existing Kestrel PR #873 has a successful current merge-reference Lean build; it remains open/draft and not integrated into main. See the Sable report for exact head, run, theorem and axiom-audit limits.
+- All four Mersearch lanes remain occupied; no request was changed and no request-scoped output manifest/receipt was read back. No original SAT-O/Blockwave equation was recovered.
+- CODATA custody remains NIST 2022 Web Version 9.0; no numerical comparison was performed.
+- No physical prediction, new theory claim, or rope-mechanics equivalence was made.
+
+Detailed source and proof status: [Sable Lane 24 report](../SABLE/2026-11-08T2324Z_LANE24_DATASET_AND_LEAN_STATUS_DELTA.md).
