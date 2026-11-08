@@ -325,7 +325,7 @@ Keep this strip small. Its job is to orient attention and point into the deeper 
 
 ### 10.2 Repeatable message footer
 
-During a substantial extended workflow, experiment with a short navigation footer that repeats the current pin at the end of each substantive assistant message. This is a locator only, not a sign-off, authorship marker, approval, or footer, and it must never imitate Nathan's reserved signet. Candidate forms include:
+During a substantial extended workflow, experiment with a short navigation footer that repeats the current pin at the end of each substantive assistant message. This is a navigation locator only, not an authorship marker, approval, or signature, and it must never imitate Nathan's reserved signet. Candidate forms include:
 
 - `PIN <cycle-slot> | NEXT <one action> | RETURN <durable pointer>`
 - `CYCLE <cycle-slot> / <lane> / <NOW→NEXT> / <return pointer>`
