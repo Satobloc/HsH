@@ -3,7 +3,7 @@
 **Opened:** 2026-11-03  
 **Purpose:** Estimate the project's own contribution to GitHub clone and unique-cloner traffic by collecting one source-aware report from each worker identity in the active rotation.
 
-**Status:** OPEN - delivery path repaired 2026-11-05; 17/19 ring-label entries recorded (Sable, Loom, Aster, Ariadne, Alberr, Mira, Aldus, Calder, Hale, Nadir Voss, Enheduanna, Tern Rook, Morrow, Kestrel, Meridian, Mercer, and Orson Vay; all reconstructed from accessible receipts/current-run logs; no authenticated first-hand worker-thread responses yet; two labels remain: Elias Kern and Ravel).
+**Status:** OPEN - delivery path repaired 2026-11-05; 19/19 ring-label dispositions recorded (17 reconstructed entries; 2 coordinator UNAVAILABLE/UNKNOWN current-thread dispositions for Elias Kern and Ravel). Authenticated first-hand current-thread responses: 0/19; clone telemetry remains incomplete.
 
 ## Scope and scheduler context
 
@@ -937,3 +937,24 @@ This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does no
 - :00/:36 bounded overlap: 1,204.933928s. :00/:24 overlap lower bound: 52.574081s. :00/:48 overlap lower bound: 245.237159s. :36 ended 39.056414s before :48 started and 231.719492s before the later :24 start. :48 began 192.663078s before the later :24 start. The :24/:48 overlap end is unknown.
 - The four existing :00/:24/:36/:48 leases remain enabled and unchanged; :12 remains disabled. No task, ID, schedule, phase, cadence, or automation-count change. No sixth task.
 - These are mutable scheduler-record observations only. Do not infer retry, restart, duplicate execution, distinct agents, worker identity, prompt exposure, delivery, consumption, or acknowledgment. The h667 Tern one-time census entry already existed and was not duplicated.
+
+
+## Coordinator disposition update - 2026-11-08T03:00Z (Tern h675:s0)
+
+**Current tally:** 19/19 ring labels now have an evidence-bounded disposition: 17 reconstructed entries and two explicit coordinator UNAVAILABLE/UNKNOWN dispositions. This is not 19 authenticated responses. Authenticated first-hand current-thread responses remain **0/19** for this census. The two entries below are coordinator dispositions, not worker check-ins.
+
+### Elias Kern - coordinator disposition
+
+- **Status:** UNAVAILABLE/UNKNOWN for a current authenticated worker thread or current clone-footprint check-in.
+- **Bounded evidence:** The current HsH main-tree scan found no WORKSPACES/ELIAS... workspace, current-work file, inbox, or continuity path. The active automation roster contains the four existing relay tasks, not a dedicated Elias task. The :24 lane label is an assignment label, not authentication of an Elias ChatGPT instance/thread.
+- **Historical context:** Historical archive/publication artifacts exist, but they do not establish a current authenticated thread or a current clone-producing operation.
+- **Attribution:** No response, delivery, acknowledgment, clone, or current activity is attributed to Elias in this census.
+
+### Ravel - coordinator disposition
+
+- **Status:** UNAVAILABLE/UNKNOWN for a current authenticated worker thread or current clone-footprint check-in.
+- **Bounded evidence:** The current HsH main-tree scan found no WORKSPACES/RAVEL... workspace, current-work file, inbox, or continuity path. Historical archive/publication artifacts do not establish a current authenticated Ravel thread.
+- **Historical context:** The existence of Ravel-labeled archive material is not evidence of current thread identity, delivery, or clone activity.
+- **Attribution:** No response, delivery, acknowledgment, clone, or current activity is attributed to Ravel in this census.
+
+**Exit-criterion effect:** the ring-label disposition criterion is satisfied at 19/19. The census remains ACTIVE because period-wide Actions/Pages history, daily GitHub Traffic, cloud-workspace provisioning, and the actual clone-producing operation count are still unresolved. Do not infer clone activity from a ring label, issue, historical artifact, or scheduler start.
