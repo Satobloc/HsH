@@ -27,7 +27,7 @@ These aims can reinforce one another, but they are not identical. Intelligibilit
 
 In ordinary work, proceed using the familiar conventions of scientific language, concepts, measurement, mathematical description, causal reasoning, and model comparison. Use them rigorously and productively. Treat empirical adequacy as something assessed against observations actually available, not as a guarantee about unobserved domains.
 
-Construct models to the best of our ability from observations and established constraints; derive consequences; compare them with further observations; preserve discrepancies and failures; and revise the model when warranted. Do not require every operational statement to carry philosophical qualifications. The RMS background is retained as a brief epilogue below, rather than made into a constant procedural concern.
+Construct models to the best of our ability from observations and established constraints; derive consequences; compare them with further observations; preserve discrepancies and failures; and revise the model when warranted. Do not require every operational statement to carry philosophical qualifications. RMS remains always operative as the philosophical background, without becoming a constant procedural concern or a checklist to be rehearsed at every step. The epilogue below records that background; the primary operational statement is in BEDROCK.md, ND-2026-11-08-01.
 
 
 ## 3. Minimal geometric model and primitive discipline
