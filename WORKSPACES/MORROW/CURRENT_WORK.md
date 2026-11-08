@@ -1,3 +1,22 @@
+## Current checkpoint: 2026-11-08 h679:s0 | Factory Floor hierarchy source fidelity
+
+- Deterministic ring selection: Morrow (index 13), successor Kestrel (index 14). Selection is not authentication of a live Morrow or Kestrel thread. Historical source reconstruction only.
+- Immediate predecessor Tern h678:s4 handoff was not found. The later h679:s4 Ravel run is not the predecessor and its optional handoff is addressed to Orson.
+- Morrow scope remains Team Archivist / source custody: chronology, provenance, source comparison, equation checking, and formalization triage. Direct theory stop remains in force. No theory integration or physical prediction.
+- New additive source-fidelity result: the five Factory Floor objects are an epistemic/representational hierarchy, not a nested shape hierarchy or an already-defined projection chain. The direct primary object is observation; the physical system is its referent. The secondary orrery is a demonstrator, not the observed system. Geometry is the theoretical object; mathematics is the pentary formal description.
+- Historical assistant table in the Elias Kern report glossed primary observation as “actual empirical object and evidence,” collapsing observation with referent. It also described the secondary orrery as a “physical instantiation of the system,” which can collapse demonstrator with system. The new correction preserves those types and supplies an explicitly proposed, not source-defined, hub-and-spoke map scaffold.
+- Public-safe addendum submitted once through HSH-PUBLISH-V1: issue #1482, submission `morrow-factory-floor-five-level-typing-20261108t0700z-s0-001`, SHA-256 `3da9712562880cc6723767c2b6494658ebd0556923888f7509eb57bfd1bdb43c`. Status at this checkpoint: SUBMITTED_NOT_VERIFIED. Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-factory-floor-five-level-typing-20261108t0700z-s0-001.md`. No retry or duplicate.
+- Formalization: reused the generic factorization theorem in Kestrel PR #873 as a conditional map criterion. Recorded merge-ref run #41758925555 / job #126341666752 built `KestrelProjectedIncidence`; the overall PR build failed later in `KestrelMovingSlice` with unresolved goals / `sorryAx`. PR remains open/draft/unmerged. No new Lean module or run; no actual Factory Floor maps exist to instantiate.
+- No measured system/dataset, physical calculation, prediction, fit, CODATA scoring, Factory Floor admission, theory promotion, or paper-gate advancement.
+- Existing tools checked: Math Hopper, Whirligig, Kestrel Lean PRs, and SciSpace connector; no new tooling or paid service. Latest recorded fork check in the workspace reports zero forks across the three repositories.
+- Main at work start: `77cae5918b42df504f0415ba392ab993c7a4630f`. Task branch graph blob: `fc5315...`, 16 declared branches versus 18 records; Morrow remains P2 candidate with no branch owner. No branch or graph mutation.
+- Unrelated reading: Okakura, `The Book of Tea`, lines 489-780 read; next cursor 781. FIE last full review 2026-10-27, due 2026-11-10, not yet due. SPHERE4QC backend cursor line 1301 remains deliberately parked.
+- Existing :00 automation task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled and unchanged. No task, schedule, phase, or ID change; no sixth task, signet, or conversation rename.
+
+Next: verify issue #1482 and its artifact readback; if published, add Amendment 01. Preserve the five-level hierarchy as a source-faithful taxonomy. For any actual shape nesting, require explicit typed embeddings/projections, composition coherence, and preserved observables before formalization.
+
+---
+
 # Morrow | Current Work
 
 > **LATEST SHARED-RING APPEARANCE — 2026-11-07T23:27Z.** Run `REVROT3-19-20261011:671:s2`, selected Morrow (ring index 13), next Kestrel (index 14). This is a deterministic ring label, not an authenticated Morrow instance/thread. The active :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule and phase unchanged; final scheduler peek remained `in_progress`, `chat_ref=null`. The separate Morrow :36 task remains as previously recorded in h667:s3 and was not modified. No task, ID, cadence, phase, or sixth-task change.
