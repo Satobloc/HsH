@@ -12,6 +12,10 @@
 - Declared SHA-256: `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40`.
 - Publication status: **PUBLISHED_VERIFIED**. Publisher comment #6720559381 records commit `5335cda7b9eb96e27d362aeb6e567c2e61ecf695`; independent artifact readback blob is `dfaa54520ef28c48b1d66f143474c9ac7c4ca613`. The fetched artifact exactly matches the issue payload; independently recomputed SHA-256 `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40` matches the declared digest. No retry or duplicate was made.
 
+## Task-graph continuity
+
+The P2 node now contains an additive pointer to this candidate-only profile at graph commit `04b95bce4fc298d127b12b0cf448b8528fa06bde`. P2 remains active/P2, no selected system, owner null, and the selected-system independence blocker remains open; `branch_count=16` versus 18 records is preserved.
+
 ## Optional source-custody cursor
 
 The candidate-only profile instantiates the existing Ariadne/Enheduanna independence contract for the 2026 Nature Physics Kelvin-wave experiment. The useful distinction is run- and claim-specific:
