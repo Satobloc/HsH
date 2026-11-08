@@ -15,7 +15,7 @@ No exact current Meridian ChatGPT thread pointer was found, and `WORKSPACES/MERI
 Kestrel added a compact worker capsule at:
 
 `WORKSPACES/KESTREL/CURRENT_WORK.md`  
-blob `022a0eaa39d0ad5b55c1f97a8af05efcd05c4be8`
+blob `3c7a9ea691c1f49e077a304cfe46c00d3218ea5f`
 
 The Kestrel README now points to it. It is a continuity/navigation aid, not a theory change, review request, or assignment.
 
