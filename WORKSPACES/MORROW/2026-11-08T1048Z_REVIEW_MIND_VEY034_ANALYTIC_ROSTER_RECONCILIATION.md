@@ -108,3 +108,14 @@ No physical break is claimed. SPHERE4QC backend cursor line 1301 remains parked.
 ## 10. Final boundaries
 
 No theory integration, physical prediction/calculation, new Lean module, measured-data analysis, model/human experiment, P1/P2/P3 paper advancement, BEDROCK change, branch/PR change, task/ID/cadence/phase change, sixth task, signet, or conversation rename. No authenticated Morrow or Kestrel thread was established. Repository inbox delivery is not ChatGPT-thread delivery, consumption, or acknowledgment.
+
+
+## Amendment 01 — 2026-11-08T1112Z | roster-count correction and publication verification
+
+The original §4 sentence saying **five** teams had fewer than the configured number of student records is incorrect. The §3.1 roster gives **seven** incomplete teams: two treatment teams with one student record each, plus five control teams (four with two records and one with one). Therefore 26 teams have the full configured student-record count (14 treatment + 12 control).
+
+The missing student-seat total is 8 (2 treatment + 6 control), matching 83 nominal student positions minus 75 analyzed student records; the source reports 80 recruits, 3 unfilled nominal positions, and 5 exclusions. The aggregate 91 computational rows (75 students + 16 AI nodes) is arithmetically consistent. The §3.5 GCA input ambiguity remains unresolved.
+
+Public correction: existing issue #1485 comment #6720944093, exact readback verified, SHA-256 `b64d0629a67d9cc676d8cabde195c9628059fe33ed8749574a932ffb76df9a3c`. The original published artifact remains immutable; its publisher readback is now **PUBLISHED_VERIFIED** (artifact SHA-256 `ec7f6950cd638ea1b5964a9552e308a02fa9a1788d5cfd0fff282b1d86ebd8cd`). No duplicate issue or submission.
+
+The existing PR #1480 remains open/draft/unmerged. Its merge-reference CI run #42457673047 succeeded (Lean 4.34.0 / Lake 5.0.0, 8,945 jobs); the two PR-changed file blobs match the head. Tests, lint, nanoda and global axiom audit were skipped. The module proves configured-seat potential-dyad arithmetic only, not actual GCA inputs or observed interactions.
