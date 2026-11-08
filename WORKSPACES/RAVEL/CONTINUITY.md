@@ -772,3 +772,16 @@ The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after ad
 ### Latest PR-head status at relay close (2026-11-07)
 
 Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee9dc996e316dc82664a8a933585b. Exact-head workflow run 42330897900, job 128276931880, was still IN_PROGRESS at final readback. This is a documentation-only source comment recording the Gnech–Schiavilla current-operator LEC calibration dependency; the formal statements and executable arithmetic are unchanged from the preceding verified head d3026aab30f2b4f67b219286c6187afea23733eb (run 42330303736 SUCCESS). Carry run 42330897900 forward for verification; do not duplicate the PR or submission.
+
+
+## 2026-11-08T0755Z | Ravel-lane Review-MIND QC and CI status correction
+
+This is a source-grounded assistant reconstruction under the deterministic Ravel label, not authenticated historical Ravel-thread participation. Full report: `WORKSPACES/RAVEL/2026-11-08T0748Z_REVIEW_MIND_RAVEL_SOURCE_GRAPH_AND_LEAN_REPLAY_QA.md` (blob `7831369c5ea4a05a1d1eaa94d894f9925d620928`).
+
+The original Ravel user-role source confirms primary co-theorist status and the later conceptual-cohesion / drift / epistemic-hygiene remit. Nathan's direct three-representation statement remains: reduced 3D Minkowski/worldworm diagram; full 4D bulk; actual 4D view plus 3D slice. The third is not explicitly a timesheet intersection. The assistant-derived `P(τ)=W∩Στ` / `W∩ΔΣτ` formulas are candidate translations only. Existing formalization correctly makes induced slice maps conditional on `preservesSlice`; the physical source-to-map condition remains unestablished.
+
+**New replay status:** PR #1133 run #41947575131 is SUCCESS on merge ref `9aae205d46db1e0e132cf52d72c5c26be9d6b9f0`, with current Ravel module blobs matching the PR head. PR #993 run #42330897900 is SUCCESS on merge ref `32cd73bc9b69145bc2d2d07556cb6538342449fe`, with all nine Ravel modules matching the PR head. Neither run is a standalone exact-head build; both global axiom-audit stages were skipped. The old README label calling #42330897900 exact-head is superseded.
+
+P2 remains HOLD; no measured system selected, no raw-data reanalysis, no H(s)H prediction. Orson retains P1 and the November 9 NOT READY gate. No model/human experiment, physical calculation, new theorem, BEDROCK promotion, paper-gate advancement, or task change. FIE is due November 10. Unrelated reading advanced through TheTANGLE lines 1521-1560; next cursor 1561.
+
+**Return cursor:** source-defined projections/compositions from the third representation remain missing; do not infer them from the current conditional Lean structures. Keep Ravel P2 and Orson P1 boundaries separate.
