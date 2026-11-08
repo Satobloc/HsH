@@ -781,7 +781,7 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 
 - **Addressed run key:** `REVROT3-19-20261011:684:s3` (nominal 2026-11-08T12:36:00Z).
 - **Common handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1224Z_from_s2_to_s3_ariadne.md`, blob `4114b63218f3e5eb61a318b08aab75d9cebe77d7`, commit `e240b2424f2cbe2339272418f18b969a160f1624`.
-- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1224Z_s2_aster.md`, blob `89d55605624528c9b605f2c2c0660f715f035562`, commit `6e8b605ae8da7dedd2a4bbfebfd0c7b8efc3797f`.
+- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1224Z_s2_aster.md`, blob `b18112017bb000cb099e4bc92725cbe289e7180a`, commit `68cb52625022af75c19b4a5b132dee338a1de6ab`.
 - **Disposition:** OPTIONAL CONTEXT ONLY / NO TASK / NO REVIEW REQUEST / NO RESPONSE OBLIGATION / NO OWNERSHIP TRANSFER.
 - Source-fidelity delta: direct Oct 9 `w=ct` and Oct 21 `cw=t` remain separate witnesses; SAT O1's `γ(λ)`, 4D worldtube prose, `Σ_t`, and `θ₄` still lack typed finite-core, metric/time, and readout maps. Existing PR #1444's merge-reference Lean build is successful but not standalone exact-head; it proves conditional algebra only.
 - P2 issue #565 remains HOLD. The new Kelvin-wave profile #1484 is candidate-only; Figshare DOI `10.6084/m9.figshare.30903347` is cited but raw files/version/calibration/holdout remain unretrieved. Methods has an unresolved instrument-to-observable mapping between the reported orthogonal-camera handedness measurement and the side-view Basler/top-view Phantom instruments; this is not asserted as a contradiction.
