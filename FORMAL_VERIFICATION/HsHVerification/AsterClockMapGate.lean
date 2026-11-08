@@ -174,7 +174,8 @@ noncomputable def rapidityVector (η : ℝ) : ℝ × ℝ :=
 
 theorem rapidityVector_unit_timelike (η : ℝ) :
     minkowskiInner1p1 (rapidityVector η) (rapidityVector η) = -1 := by
-  simp [minkowskiInner1p1, rapidityVector, Real.cosh_sq_sub_sinh_sq]
+  simp [minkowskiInner1p1, rapidityVector]
+  nlinarith [Real.cosh_sq_sub_sinh_sq η]
 
 theorem rapidity_inner_eq_cosh (η ζ : ℝ) :
     -minkowskiInner1p1 (rapidityVector η) (rapidityVector ζ) =
