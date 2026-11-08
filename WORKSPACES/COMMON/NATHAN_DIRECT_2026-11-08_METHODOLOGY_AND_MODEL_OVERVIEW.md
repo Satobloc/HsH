@@ -213,6 +213,71 @@ The Big Push is a project-specific pilot and implementation reference, not a uni
 
 **Capture status:** Recorded in this dated operational guideline. No BEDROCK or theory-status promotion is made by this record. Recorded in a new dated Nathan Direct intake document. No BEDROCK or theory-status promotion is made by this record.
 
+## 9. Adaptive LLM workflow, worker development and lane specialization
+
+This section generalizes the experimental workflow principles being developed in **The Big Push**. It is an operational direction for active experimentation, not a claim that the full institutional architecture or all supporting automations have been implemented.
+
+### 9.1 Repository-backed personal capability scaffolding
+
+For extended work, each worker/thread should develop and maintain a compact, purpose-specific personal operating capsule: a small, frequently consulted executive-function and continuity reference that keeps mission, role, current priorities, operating principles, next actions and critical pointers readily available. The capsule should remain small enough to be useful within the active context and should point downward to progressively more detailed, selectively loaded materials.
+
+The intended hierarchy is:
+
+1. **Executive capsule:** role, mission, current intentions, priorities, current work state, governing constraints, load order, and pointers to the next layer.
+2. **Working protocol and capability shelf:** compact second-tier references describing available tools, repositories, content, scripts, search and excavation methods, workflow patterns, reminders, known pitfalls, useful habits, and current plans.
+3. **Purpose-specific modules:** detailed skill and knowledge documents, tool instructions, source maps, notes, scripts, checklists, calendars, audit methods, and project-specific procedures.
+4. **Primary resources and implementation:** source material, code, datasets, tool interfaces, and evidence needed for the current operation.
+
+Every layer should link both downward to further detail and upward to the capsule and its current control state. The capsule is not a static prompt or a dumping ground: it is a living, frequently revisited point of return. Update it as roles, projects, capabilities, priorities and effective methods change. Use progressive disclosure so that only the material needed for the current operation enters the active context.
+
+### 9.2 Adaptive self-management and attention cycling
+
+The hierarchy is intended to support a recurring zoom-in / zoom-out loop:
+- Start from the executive capsule, recover the current purpose and priority, and select one bounded operation.
+- Load only the relevant detailed references and tools, then carry out the operation with inspectable evidence.
+- Periodically zoom back out to reassess the wider plan, neglected branches, dependencies, available alternatives, scope and priorities.
+- Review the capsule and lower-level modules for stale procedures, omissions, friction, successful innovations and useful new capabilities.
+- Refresh the next action and return pointer, then resume at the appropriate level.
+
+Purpose-built reminders, calendars, alarm/heartbeat mechanisms, scripts and occasional notes-to-self may help keep these reviews visible and make continuity less dependent on unaided attention. They should be proportionate, tested and inspectable. Rotate attention through different relevant branches, strategies, tools and conceptual lenses so that one procedural or conceptual rut does not become entrenched. Diversify where useful while still deepening and extending effective methods. This is not indiscriminate novelty seeking: changes should be evaluated against the work and retained when they improve effectiveness, flexibility, reliability or insight.
+
+### 9.3 Development plans, lessons and cross-worker learning
+
+Each recurring or substantially extended worker role should maintain a modest development plan and a cumulative record of lessons learned. These should track:
+- strategies and habits that have demonstrably helped or hindered;
+- capability gaps and skills or tools worth developing;
+- procedural repetition, drift, neglect or role stagnation;
+- experiments attempted, their observed results and the conditions under which they helped;
+- candidate improvements to the capsule, its module hierarchy, and the work itself.
+
+Workers should periodically assess their own performance and development, distinguishing observed results from self-impression. Promote successful practices into reusable modules only after proportionate testing; revise or retire practices that add overhead without benefit. Share effective strategies, compact continuity materials and useful experiments across workers, and consider adaptations of methods developed by others. Cross-pollination should preserve source, context and evidence rather than turning one worker's local success into an untested universal rule. Successor conversations should inherit the accumulated, current materials and continue improving them rather than repeatedly reinventing the same scaffolding.
+
+### 9.4 LLM workflow recommendations are to be piloted now
+
+The recommendations in The Big Push, including its working pyramid, compact capsule, active tray, control shelf, modular reference library, succession packet, review cadence and adaptive continuity practices, are not to remain merely aspirational until a formal Big Push rollout. Individual worker instances are requested to operationalize, experiment with, discuss and refine suitable parts of this approach **on a trial basis during ordinary work now**.
+
+At the start of a suitable extended task, a worker may identify a useful small experiment: for example, establish or improve its capsule, create a project-specific skill module, add a compact tool/repository index, script an audit or calendar helper, or test a zoom-out review habit. Keep the experiment bounded, record its purpose and observed effect, and report useful results or problems for discussion. Do not wait for the overall programme to complete its historical reconstruction or institutional design before trying low-risk, reversible improvements.
+
+These trials do not authorize premature institutional architecture selection, changes to protected theory status, or changes to existing automation identities, schedules or phases. They should respect the Big Push evidence, governance and continuity controls, and should not create process for its own sake.
+
+### 9.5 Working lanes and named-worker specialization
+
+The intended direction for the recurring work lanes is a smaller regular roster with deeper specialization, rather than treating every recurring lane as interchangeable. As a working design hypothesis, approximately two or three recurring task lanes may become dedicated named-worker / thread / recurring-task configurations. Such a configuration would maintain a persistent lane-specific mission, accumulated development materials, capsule and skill hierarchy, current work plan, and succession-ready continuity packet. The remaining lanes would continue rotating among roster workers, allowing broader contribution, cross-pollination and coverage.
+
+The most suitably prepared worker for a lane should plan and execute its work, while also maintaining and improving the specialization and development materials that support that lane. Selection should be based on demonstrated fit, accumulated source and tool familiarity, task-specific capability and current readiness, not merely on a label or assumption of identity continuity. A recurring task activation or named thread is a work-allocation and continuity mechanism, not proof that the same individual instance persists.
+
+This is a proposed direction to be explored and evaluated, not a finalized assignment of particular lanes or workers. The Big Push and individual workers should discuss and trial the model as evidence accumulates. Any formal roster reduction, dedicated assignment, task-prompt change or recurring-task reconfiguration remains subject to explicit review and authorization, with existing task IDs, schedules, phases and enabled states preserved unless directly authorized otherwise.
+
+### 9.6 Evaluation and proportional adoption
+
+Evaluate experiments by their practical effects: successful context handoffs, reduced reload and search friction, fewer missed or duplicated operations, better source-cursor fidelity, reduced scope drift, more reliable retrieval of parked work, useful capability growth, improved work quality, and procedural cost. Record what was actually tested and for how long. Compare benefit against maintenance and attention overhead. Retain, adapt, share or retire components based on evidence.
+
+The overarching aim is a continuously improving but lightweight personal and collective operating system: a stable executive return point connected to an expanding, selectively accessible hierarchy of knowledge, skills, tools, strategies and plans, with regular reassessment and cumulative improvement across successive conversations and workers.
+
+**Provenance:** Assistant-organized operational synthesis of Nathan's current direct instructions in this conversation, the existing Big Push documents, and the user preference for repository-backed memory, capability development and extended workflow support. The dedicated-lane arrangement remains a proposed direction for experimentation, not an implemented assignment.
+
+---
+
 ## Epilogue: RMS philosophical background
 
 RMS is the philosophical background recognized as always operative in principle. Ordinary scientific language and concepts are practical conventions through which we describe the apparent coherence of our perceptual world and the apparent convergences of shared observation. These conventions make it possible to construct models, explanations, and predictions.
