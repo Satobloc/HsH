@@ -668,3 +668,14 @@ Additional direct user-role messages read from the same archived Sable conversat
 - `df57d7a0-e64e-4be2-855c-febcf8c29078` (2026-09-15T06:38:15.951Z): link resources shown to Nathan.
 
 All are user-role records with `author.name=null`; preserve source wording and do not convert that metadata into independent author authentication. The Sable role is a broad systems/knowledge-architecture remit; current Common scheduler and Comptroller controls supersede historical scheduling discretion.
+
+
+## 2026-11-08T23:24Z | Lane 24 source and Lean status delta
+
+- Recovered the direct historical Sable remit from user-role source messages (September 14/15 and September 22): systems/capability architecture, tool/resource survey, reproducible scripting, and bulk triage with a sieve and Mersearch.
+- This occurrence is assistant reconstruction under the selected ring identity; no authenticated Sable thread was established. The nine existing Sable inbox entries remain untouched.
+- Mersearch's four documented request lanes remain occupied and no request-scoped manifest/receipt was independently read back. No new request or overwrite.
+- New empirical-source detail: Estepa-Cantero et al. (2026) provides 4D-LPT plus bubble morphology, with raw camera-image supplements listed and full supporting data available upon reasonable request; calibration artifacts and full trajectories remain missing. Knister (2026) and Barckicke (2026) remain strong but incomplete finite-core candidates.
+- Existing Kestrel PR #873 now has a successful merge-reference Lean build on its current head; it is still open/draft, not main-integrated, and its separate axiom-audit step was skipped. No theory promotion.
+- P0 remains ACTIVE; no P2 system selected; no physical calculation or independent prediction performed.
+- Detailed record: [2026-11-08 Lane 24 dataset and Lean delta](2026-11-08T2324Z_LANE24_DATASET_AND_LEAN_STATUS_DELTA.md).
