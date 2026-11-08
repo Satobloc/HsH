@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-08T17:11:32.667458+00:00",
+  "generated_at_utc": "2026-11-08T21:17:32.995908+00:00",
   "design": "manual registrations plus structurally discovered public cross-repo conversations; private resources excluded",
   "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
   "source_branch": "main",
   "stats": {
-    "candidates": 249,
+    "candidates": 254,
     "recognized": 24,
-    "duplicate_hash": 114,
+    "duplicate_hash": 119,
     "not_conversation": 111,
     "manual": 1,
     "discovered_added": 24,
