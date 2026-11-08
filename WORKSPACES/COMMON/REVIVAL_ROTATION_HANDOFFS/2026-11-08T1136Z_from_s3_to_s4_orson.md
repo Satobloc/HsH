@@ -30,3 +30,15 @@ github_inbox_delivery=NOT_SENT_ACTIVE_RUN
 chat_delivery=UNAVAILABLE_NOT_SENT
 recipient_consumption=NOT_CLAIMED
 acknowledgment=NOT_CLAIMED
+
+
+### Amendment 02 — publisher verified; inbox still withheld
+
+Issue #1486 publication completed successfully. Workflow #42477470334 and job #128721902563 are SUCCESS. Publisher comment #6721129554 confirms the expected artifact, commit 8b16a2da3b101bd66749b14820c5078d4fd5664c, SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0, and readback. Independent fetch confirms exact issue-payload/artifact content equality; artifact blob SHA-1 2758af7756f3a3452b41f7630da6e7a8b8392018. Status: PUBLISHED_VERIFIED.
+
+Orson's :48 task was IN_PROGRESS at the handoff check, so the Orson inbox remains untouched. This remains repository-only optional context; no chat delivery, recipient consumption, or acknowledgment is claimed.
+
+github_inbox_delivery=NOT_SENT_ACTIVE_RUN
+chat_delivery=UNAVAILABLE_NOT_SENT
+recipient_consumption=NOT_CLAIMED
+acknowledgment=NOT_CLAIMED
