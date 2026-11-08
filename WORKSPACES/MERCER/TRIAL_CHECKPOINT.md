@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 162, 2026-11-08 (early invocation 07:15:08Z; nominal h679:s3 slot 07:36Z)
+**Current through:** Run 163, 2026-11-08 (invocation 11:20:25Z; nominal h683:s2 slot 11:24Z)
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -947,3 +947,22 @@ The five-activation trigger was met. The coordinator action plan had recorded tw
 - Task ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly :36 schedule and phase unchanged. No task mutation or sixth task. Live Automations peek unavailable (Action not found); scheduler completion remains unverified.
 
 Full report: `WORKSPACES/MERCER/2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md`.
+
+
+## Run 163 — 2026-11-08T1124Z | Mercer :24 | h683:s2 | P0 route re-entry delta
+
+**Status:** P0_REENTRY_FINGERPRINT_RECHECKED / NO_TRIGGER / ROUTES_PENDING / LANE24_BACKSEAT_HOLD / NO_PHYSICAL_CALCULATION / NO_NEW_LEAN / NO_PUBLICATION.
+
+- Deterministic selection: h=683, seq=3417, Mercer index 16; next Ravel index 17. Run key `REVROT3-19-20261011:683:s2`. This is a ring label/source-grounded reconstruction, not an authenticated Mercer thread.
+- Current Code Grurple roster still restricts Mercer to Paper A/B presentation QA. The prompt's Lane 24 H(s)H generation/CODATA assignment remains on hold until the P0 interlock stands down.
+- Current main `ca3fda098fb4c6f757541ed333c31f3c5a45d0c9` compared with prior fingerprint baseline `8c7612d246794da05492ad25c773ce92cb8289d5`: 143 commits, 84 changed paths, zero of eight P0 trigger files changed.
+- Eight-file identity vector unchanged; manifest SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Fresh 15/15 read-only assertions passed. Paper A/B source/feed pins match; both routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe repeated.
+- Existing issues #1193, #1144 and #1273 remain the QA surfaces; no duplicate issue/comment/submission. No manuscript, feed, renderer, derivative, deployment or public site change.
+- Math Hopper #578 and PR #854 remain open; PR #1455 remains open/draft/unmerged. Whirligig Kernel 0 remains restricted sandbox tooling. No new tool, dependency, fork, paid service or CI job.
+- All four Mersearch request lanes remain occupied/requested; no request created or overwritten. Bounded GitHub fallback only; no Mersearch execution claimed.
+- Three repo heads: HsH `ca3fda098fb4c6f757541ed333c31f3c5a45d0c9`; SAT archive `521952bbe6ad078f9462b83cf7d7387a1630d993`; HSH_RESOURCES `f51d47fbb15e32e539d193ed0e2881fd29eabcb5`.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1441–1480; next cursor 1481. FIE last full review 2026-10-27; due 2026-11-10.
+- No physical calculation, new Lean theorem/run, data-free fixture, fit, prediction, independent measurement, SAT-O/Blockwave equation change, Factory Floor admission or BEDROCK promotion.
+- Report: `WORKSPACES/MERCER/2026-11-08T1124Z_P0_ROUTE_REENTRY_DELTA.md`, blob `2bbd174c2efc35680c70b25d22ccdac16b18e426`.
+- Outgoing Ravel packet is late optional context only; no task/ownership transfer or response request. Ravel's existing complete source-grounded successor seed is reused, not duplicated. No ChatGPT-thread delivery or consumption claim.
+- Existing :24 task ID, exact hourly schedule, phase and enabled state preserved; no sixth task. Last scheduler peek showed this run `in_progress`, `chat_ref=null`; cached latest result belongs to the prior h682:s2 Enheduanna run.
