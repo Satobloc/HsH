@@ -124,4 +124,167 @@ theorem same_span_extra_is_absorbed
 #print axioms phase_parameterization_is_first_harmonic
 #print axioms same_span_extra_is_absorbed
 
+
+/-!
+## Three-clocking, two-readout identifiability
+
+The NIST Table 15 copper block has three clockings (0, 120, 240 degrees)
+for each of two readout methods. The source's model
+G(theta) = G_i + A * sin(theta - theta0) has a separate intercept G_i
+for each readout but a shared amplitude and phase. After linearizing the
+phase parameterization, this is a shared sine/cosine pair.
+
+At the three sampled angles, the sine and cosine vectors are nonzero
+scalar multiples of (0, 1, -1) and (2, -1, -1), respectively. Those
+rationally rescaled vectors are used below to avoid introducing sqrt(3)
+into an otherwise exact rational design argument.
+
+Each readout's three values can be represented exactly by its own
+intercept and two harmonic coefficients. Requiring one shared harmonic
+pair across both readouts therefore imposes two cross-readout coefficient
+equalities. A mismatch in either coefficient rules out the source's
+shared-harmonic model. This is a finite-design statement, not an H(s)H
+response claim and not a statistical significance result.
+-/
+
+def threeClockingSineBasis (i : Fin 3) : ℚ :=
+  if i.val = 0 then 0 else if i.val = 1 then 1 else -1
+
+def threeClockingCosineBasis (i : Fin 3) : ℚ :=
+  if i.val = 0 then 2 else -1
+
+@[ext]
+structure ThreeClockingCoefficients where
+  offset : ℚ
+  sine : ℚ
+  cosine : ℚ
+deriving DecidableEq
+
+/-- Offset plus the two sampled first-harmonic basis vectors. -/
+def threeClockingResponse (c : ThreeClockingCoefficients) (i : Fin 3) : ℚ :=
+  c.offset + c.sine * threeClockingSineBasis i +
+    c.cosine * threeClockingCosineBasis i
+
+/-- Exact inverse coefficient extraction for the three clockings. -/
+def recoverThreeClockingResponse (y : Fin 3 → ℚ) : ThreeClockingCoefficients where
+  offset := (y 0 + y 1 + y 2) / 3
+  sine := (y 1 - y 2) / 2
+  cosine := (2 * y 0 - y 1 - y 2) / 6
+
+/-- Every three-point orientation series has a unique offset plus first-harmonic representation. -/
+theorem recover_threeClockingResponse (c : ThreeClockingCoefficients) :
+    recoverThreeClockingResponse (threeClockingResponse c) = c := by
+  cases c
+  ext <;>
+    simp [recoverThreeClockingResponse, threeClockingResponse,
+      threeClockingSineBasis, threeClockingCosineBasis] <;> ring
+
+/-- The inverse coefficients reconstruct every three-point orientation series. -/
+theorem threeClockingResponse_recover (y : Fin 3 → ℚ) :
+    threeClockingResponse (recoverThreeClockingResponse y) = y := by
+  funext i
+  fin_cases i <;>
+    simp [threeClockingResponse, recoverThreeClockingResponse,
+      threeClockingSineBasis, threeClockingCosineBasis] <;> ring
+
+/-- The three equally spaced clockings are saturated for an independent first-harmonic fit. -/
+theorem threeClockingResponse_bijective :
+    Function.Bijective threeClockingResponse := by
+  constructor
+  · intro c₁ c₂ h
+    have h' := congrArg recoverThreeClockingResponse h
+    simpa [recover_threeClockingResponse] using h'
+  · intro y
+    exact ⟨recoverThreeClockingResponse y, threeClockingResponse_recover y⟩
+
+/-- Two readouts with separate offsets but a shared sampled first-harmonic pair. -/
+@[ext]
+structure SharedTwoReadoutCoefficients where
+  servoOffset : ℚ
+  freeOffset : ℚ
+  sine : ℚ
+  cosine : ℚ
+deriving DecidableEq
+
+def sharedTwoReadoutResponse (c : SharedTwoReadoutCoefficients)
+    (r : Fin 2) (i : Fin 3) : ℚ :=
+  (if r.val = 0 then c.servoOffset else c.freeOffset) +
+    c.sine * threeClockingSineBasis i +
+    c.cosine * threeClockingCosineBasis i
+
+/-- Sine-coordinate contrast extracted from the three sampled clockings. -/
+def sampledSineCoefficient (y : Fin 3 → ℚ) : ℚ :=
+  (y 1 - y 2) / 2
+
+/-- Cosine-coordinate contrast extracted from the three sampled clockings. -/
+def sampledCosineCoefficient (y : Fin 3 → ℚ) : ℚ :=
+  (2 * y 0 - y 1 - y 2) / 6
+
+theorem shared_response_sine_coefficient (c : SharedTwoReadoutCoefficients)
+    (r : Fin 2) :
+    sampledSineCoefficient (fun i => sharedTwoReadoutResponse c r i) = c.sine := by
+  simp [sampledSineCoefficient, sharedTwoReadoutResponse,
+    threeClockingSineBasis, threeClockingCosineBasis]
+  ring
+
+theorem shared_response_cosine_coefficient (c : SharedTwoReadoutCoefficients)
+    (r : Fin 2) :
+    sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c r i) = c.cosine := by
+  simp [sampledCosineCoefficient, sharedTwoReadoutResponse,
+    threeClockingSineBasis, threeClockingCosineBasis]
+  ring
+
+/-- The source model's shared harmonic pair forces both readouts to have equal extracted coefficients. -/
+theorem shared_response_sine_coefficients_equal (c : SharedTwoReadoutCoefficients) :
+    sampledSineCoefficient (fun i => sharedTwoReadoutResponse c 0 i) =
+      sampledSineCoefficient (fun i => sharedTwoReadoutResponse c 1 i) := by
+  rw [shared_response_sine_coefficient, shared_response_sine_coefficient]
+
+theorem shared_response_cosine_coefficients_equal (c : SharedTwoReadoutCoefficients) :
+    sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c 0 i) =
+      sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c 1 i) := by
+  rw [shared_response_cosine_coefficient, shared_response_cosine_coefficient]
+
+/-- A readout-dependent sine-coordinate mismatch cannot be represented by the shared-harmonic source model. -/
+theorem readout_sine_mismatch_excludes_shared_model
+    (servo free : Fin 3 → ℚ)
+    (h : sampledSineCoefficient servo ≠ sampledSineCoefficient free) :
+    ¬ ∃ c : SharedTwoReadoutCoefficients,
+      (fun i => sharedTwoReadoutResponse c 0 i) = servo ∧
+      (fun i => sharedTwoReadoutResponse c 1 i) = free := by
+  rintro ⟨c, hs, hf⟩
+  apply h
+  calc
+    sampledSineCoefficient servo =
+        sampledSineCoefficient (fun i => sharedTwoReadoutResponse c 0 i) := by
+          rw [← hs]
+    _ = sampledSineCoefficient (fun i => sharedTwoReadoutResponse c 1 i) :=
+      shared_response_sine_coefficients_equal c
+    _ = sampledSineCoefficient free := by rw [hf]
+
+/-- A readout-dependent cosine-coordinate mismatch cannot be represented by the shared-harmonic source model. -/
+theorem readout_cosine_mismatch_excludes_shared_model
+    (servo free : Fin 3 → ℚ)
+    (h : sampledCosineCoefficient servo ≠ sampledCosineCoefficient free) :
+    ¬ ∃ c : SharedTwoReadoutCoefficients,
+      (fun i => sharedTwoReadoutResponse c 0 i) = servo ∧
+      (fun i => sharedTwoReadoutResponse c 1 i) = free := by
+  rintro ⟨c, hs, hf⟩
+  apply h
+  calc
+    sampledCosineCoefficient servo =
+        sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c 0 i) := by
+          rw [← hs]
+    _ = sampledCosineCoefficient (fun i => sharedTwoReadoutResponse c 1 i) :=
+      shared_response_cosine_coefficients_equal c
+    _ = sampledCosineCoefficient free := by rw [hf]
+
+#print axioms recover_threeClockingResponse
+#print axioms threeClockingResponse_recover
+#print axioms threeClockingResponse_bijective
+#print axioms shared_response_sine_coefficient
+#print axioms shared_response_cosine_coefficient
+#print axioms readout_sine_mismatch_excludes_shared_model
+#print axioms readout_cosine_mismatch_excludes_shared_model
+
 end HsHVerification.FactorialContrastIdentifiability
