@@ -1,3 +1,17 @@
+## Current checkpoint: 2026-11-08 h690:s2 | cycle 06/08 priority/dependency panorama and source custody
+
+- Deterministic selection: h=690, seq=3452, ring index 13 Morrow; ring successor Kestrel index 14. The next scheduled :24 selection h691:s2 is Orson Vay. This is a source-grounded slot reconstruction, not authentication of a Morrow thread or instance.
+- Morrow remains Team Archivist/source custody under direct theory-stop message `934e87de-4e61-4622-a0ea-e5047aa235c6`. No theory integration, physical prediction, paper work, or theory promotion.
+- Historical role pointers were re-read from the source-audited workspace records. The oversized raw export fetch returned empty content this turn, so no fresh full raw-transcript read is claimed.
+- Completed the cycle 06/08 priority/dependency panorama. P0 Code Grurple remains ACTIVE; eight trigger-file blobs remain 8/8 unchanged and issues #1193, #1144, #1273 remain open. P2 remains BACKSEAT/HOLD, with no selected measured system. Task graph remains 16 declared branches versus 18 records, last updated 10:55Z.
+- Source-custody readback verified SAT-O1 `SAT4D_LIVE_DRAFT.txt` blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7` (bylined June 2025; archive/Git upload timestamps remain unreconciled), separate unbylined `SAT O1 4D.txt` blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, Blockwave minimal core blob `dd0631bc0b25c951dc5e1d6738280e08487b46b2`, and separate user-supplied clean-action attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`. No equation correction was made; source classes remain distinct.
+- Existing `NadirHelixSliceGeometry.lean` blob `3e47ffa6d6bcd534abdedf18ea865fb2941a0947` and CI run #42390677035 were audited. The run built the module on PR #1455 merge ref, not exact PR head; its conditional affine/helix mathematics is not a physical worldtube/timesheet/readout map. No new Lean module/build or physical calculation.
+- Mersearch's four lanes remain occupied/requested; no request was created or overwritten. Existing Math Hopper/Whirligig assets were checked; no new tool, branch, dependency, paid service or API spend. Fork counts were not exposed by the connector, so no fresh fork census is claimed.
+- FIE last full review 2026-10-27; 14-day re-review threshold is 2026-11-10, not yet due. Unrelated-reading cursor remains Okakura line 861; no new unrelated reading this turn.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly :24 schedule and phase. No task/ID/cadence change, no sixth task, no signet, no chat rename.
+- Successor Kestrel h690:s3 run was recorded FAILED at 19:05:27Z with `chat_ref=null`, but it created a new Kestrel `CURRENT_WORK.md` capsule and README pointer. Its failure reason is not exposed. A late optional source-custody packet is staged for Kestrel's next appearance h709:s3; repository inbox routing is the final operation and is not yet claimed.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1824Z_s2_morrow.md` (blob `77d2d3e56ebfb2f242e64d3ba998f6c9ef8ec79d`). Optional handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1914Z_from_s2_to_s3_kestrel.md` (blob `12083bca53b7da761fced3c109ccae7ce800caa3`).
+
 ## Current checkpoint: 2026-11-08 h682:s4 | VEY-034 analytic-roster source reconciliation
 
 - Deterministic selection: h=682, seq=3414, ring index 13 Morrow; successor Kestrel index 14, h683:s0. Selection is not authentication of either thread.
