@@ -1,6 +1,6 @@
 # H(s)H/SAT Primary Operational Guideline
 
-> **Expanded operational guide, adopted 2026-11-08:** This document organizes the current research methodology and working-model architecture for ongoing H(s)H/SAT work. The primary operational statement of RMS is now in [`BEDROCK.md`, ND-2026-11-08-01](../../BEDROCK.md), which governs across workers. The RMS epilogue records the philosophical background; it is always operative in principle, but is not a separate recurring procedural checklist.
+> **Primary operational guideline, adopted 2026-11-08:** This document governs operational methodology and current working-model organization for H(s)H/SAT. It **supersedes BEDROCK wherever they directly contradict**. The conceptual underpinnings of **Fundamental Intuitions — Extended (FIE)** remain foundational and this guideline is subordinate to them. Current working hypotheses may significantly modify particular specifics or applications and therefore provide an important lens for interpreting the present operationalization of FIE.
 
 **Date:** 2026-11-08  
 **Authority:** Nathan Direct, current conversation.  
@@ -8,8 +8,8 @@
 **Status:** Methodological directive and working research map. This record does not promote any proposed physical mechanism to established theory, mathematical clearance, or empirical validation.
 
 **Authority hierarchy (Nathan Direct, 2026-11-08):**
-- This Primary Operational Guideline supersedes BEDROCK wherever the two directly contradict one another. Apply the more specific compatible provisions of BEDROCK elsewhere; reconcile conflicts in the repository's governing records rather than silently blending inconsistent instructions.
-- This guideline is subordinate to the conceptual underpinnings of **Fundamental Intuitions — Extended (FIE)**. FIE supplies the deeper conceptual foundation. Current H(s)H/SAT working hypotheses may significantly modify particular specifics or applications; those current hypotheses therefore form an important interpretive lens for understanding how FIE is presently operationalized, without displacing FIE's foundational status.
+- This Primary Operational Guideline supersedes BEDROCK wherever the two directly contradict one another.
+- The guideline is subordinate to the conceptual underpinnings of **Fundamental Intuitions — Extended (FIE)**. Current H(s)H/SAT working hypotheses may significantly modify particular specifics or applications and therefore provide an important interpretive lens for the present operationalization of FIE.
 
 > **Provenance note:** This document is an assistant-prepared transcription and organization of Nathan's direct statement in the conversation dated 2026-11-08. It is not a verbatim transcript and must not be represented as though Nathan authored this file. The source conversation is the primary source; no immutable message UUID or export locator was available during this capture. Preserve the distinction between Nathan's claims, this editorial organization, and any future mathematical reconstruction.
 
@@ -39,7 +39,7 @@ The minimal starting model has two primitives:
 1. **Worldline/worldtube:** the physical structural primitive, with worldtube now preferred as the general representation where finite spatial extent and internal structure matter.
 2. **Timesheet:** the complementary geometric structure.
 
-The exact roles, mutual relations, and mathematical types of these primitives must be made explicit rather than assumed from names.
+The exact roles, mutual relations, and mathematical types of these primitives are to be explicitly specified, not inferred from their names.
 
 A **responsive/reactive medium** is provisionally adopted as a third primitive for the purpose of continuing the investigation. This is a working device, not an established ontological commitment. The explicit test is whether the medium:
 - can be eliminated and represented by the two-primitive worldtube–timesheet model;
@@ -119,7 +119,7 @@ These examples record the user's current account of how the method has operated.
 
 ### 5.1 QCD as worldtube braiding
 
-QCD is regarded as an immediately and obviously interpretable case of worldtube braiding. The precise map from QCD variables and established equations to the proposed worldtube topology must be stated explicitly, checked against primary SAT/H(s)H sources, and tested across the relevant sectors. Do not treat the geometric description as validated solely because it is visually or conceptually compelling.
+QCD is regarded as an immediately and obviously interpretable case of worldtube braiding. The precise map from QCD variables and established equations to the proposed worldtube topology must be stated explicitly, checked against primary SAT/H(s)H sources, and tested across the relevant sectors. Visual or conceptual compellingness alone does not validate the geometric description.
 
 ### 5.2 GR as timesheet response and “distorted time push”
 
@@ -133,19 +133,19 @@ The user's current reconstruction is that general relativity appears on the time
 
 An entropy formulation is also suspected.
 
-**Required treatment:** this is Nathan's proposed geometric interpretation and remembered derivational route. Do not claim that GR has already been rigorously derived from these statements. Reconstruct the exact geometry, define the angle, area, push, resistance, w-lag, stress/energy content and conservation laws, derive equations with correct dimensions and limits, and compare them quantitatively to GR and observations. In particular, Newton's third law does not by itself supply a relativistic field equation; the reciprocal coupling and its stress-energy bookkeeping must be derived. Preserve the proposal while testing it.
+**Required treatment:** this is Nathan's proposed geometric interpretation and remembered derivational route. These statements do not, by themselves, constitute a rigorous derivation of GR. Reconstruct the exact geometry, define the angle, area, push, resistance, w-lag, stress/energy content and conservation laws, derive equations with correct dimensions and limits, and compare them quantitatively to GR and observations. In particular, Newton's third law does not by itself supply a relativistic field equation; the reciprocal coupling and its stress-energy bookkeeping must be derived. Preserve the proposal while testing it.
 
 ### 5.3 Electromagnetism as the canonical difficult case
 
 Electromagnetism resisted a satisfactory characterization for a long time. The tentative “Velcro model” was recognized as insufficient, so full characterization was deferred while other parts of the model developed. The later identification of the Kelvin vortex is remembered as the geometric clue that made the EM construction appear to fall into place and suggested a needed modification to the primitives.
 
-**Required treatment:** preserve the historical failed model and the later Kelvin-vortex-inspired candidate as distinct stages. Do not conflate ordinary-fluid vortex cores in a responsive medium with SAT matter worldtubes. Any transfer of vortex mathematics requires an explicit mapping of physical objects, variables and constitutive behavior. Recover the original Nathan statements and equations before formalizing this account.
+**Required treatment:** preserve the historical failed model and the later Kelvin-vortex-inspired candidate as distinct stages. Ordinary-fluid vortex cores in a responsive medium and SAT matter worldtubes are distinct physical structures unless an explicit derived mapping identifies them. Any transfer of vortex mathematics requires an explicit mapping of physical objects, variables and constitutive behavior. Recover the original Nathan statements and equations before formalizing this account.
 
 ## 6. Methodological safeguards and status distinctions
 
 - **Source-first fidelity:** recover Nathan's original statements with context, corrections and chronology. Preserve original source text and immutable locators where available. Distinguish Nathan Direct from assistant interpretation, normalization or reconstruction.
 - **Standard-physics baseline:** ordinary Minkowski geometry and established physics are comparison controls. State signatures, dimensions, observers/slicings, variables and maps explicitly. Do not silently exchange distinct geometries or physical objects.
-- **Real physical systems and measured data:** physical calculations must be anchored to identifiable real systems and genuine observations/measurements with source, version/date, units and uncertainties. Do not invent numerical fixtures. A data-free calculation requires Nathan's explicit prior permission under the applicable research-control rules, subject to the authority hierarchy stated above.
+- **Real physical systems and measured data:** physical calculations must be anchored to identifiable real systems and genuine observations/measurements with source, version/date, units and uncertainties. Do not invent numerical fixtures. A data-free calculation requires Nathan's explicit prior permission. This guideline's authority over BEDROCK in direct conflicts does not itself grant permission for a data-free calculation.
 - **No analogy transfer:** similar words or shapes do not identify physical objects. In particular, a SAT worldtube is not an ordinary-fluid vortex core. State which object each equation describes.
 - **Mathematics versus physics:** a Lean-checked theorem proves only the formal proposition under its encoded assumptions. Mathematical clearance does not automatically create an H(s)H candidate. Tentative candidacy requires an independently audited connection to the operative construction and explanatory/constraining power across multiple sectors. Physical verification is a separate gate.
 - **Cross-sector consistency:** propagate substantive corrections through the star-shaped derivation map and retain failed or contradictory results.
@@ -169,10 +169,12 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 
 ## Epilogue: RMS philosophical background
 
-RMS remains the philosophical background recognized as always operative in principle. Ordinary scientific language and concepts are practical conventions through which we describe the apparent coherence of our perceptual world and the apparent convergence of shared observation. These conventions make it possible to construct models, explanations, and predictions.
+RMS is the philosophical background recognized as always operative in principle. Ordinary scientific language and concepts are practical conventions through which we describe the apparent coherence of our perceptual world and the apparent convergences of shared observation. These conventions make it possible to construct models, explanations, and predictions.
 
 Within the range of our own perception, perceptual space is marked by strikingly consistent pattern, remarkable coherence, and high conceptual interpretability. These patterns apparently support, and frequently provide, fairly reliable interpretations and predictions. Treating them as pragmatic working assumptions is sensible and useful.
 
 Why these patterns hold, how they arise, whether they represent something that should be called “real,” and what, if anything, produces this state of affairs are unknowable from any standpoint outside the limits of experience. The philosophical recognition of those limits does not negate the practical regularities and utility apparent within experience.
 
-RMS is the background understanding of the enterprise, not a routine procedural checklist. The operating methodology is built around working with apparent regularities, constructing intelligible models, and assessing their usefulness against observations.
+The earlier discussion of information in complete histories, present states, holographic encodings, recoverability, observer access, dimensionality and observational limits is one application of this philosophical background, not its definition. Information-related questions remain open for investigation within specific models and systems; no universal information-preservation, holography, completeness or predictive-continuity law is established here.
+
+RMS provides philosophical context for the modeling enterprise. The operational methodology remains directed toward the apparent regularities, coherence and interpretability encountered in experience.
