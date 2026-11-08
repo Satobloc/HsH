@@ -189,3 +189,10 @@ No Lean run or new mathematical calculation was made: the current Code Grurple a
 - The 00:39:51Z peek now reports run ID `568f977d-7950-8320-9077-0daf83fb4b39` for the same scheduled occurrence/start time, completed 00:37:35Z with recorded status FAILED and `chat_ref=null`. The scheduler exposes no run history or failure payload; retry/replacement/bookkeeping cause is unknown. `latest_result` still points to the prior h670:s4 Nadir result, not this run.
 - Repository work and durable writes were completed/read back, but the scheduler wrapper must be reported FAILED. The :48 task remains enabled with its exact original ID, schedule, prompt, and phase. No disable or schedule mutation.
 - Canonical amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2348Z_s4_meridian_AMENDMENT_01.md` (commit `3959f74d56d238a2a7d6a775edd00b70a98829a8`).
+
+
+## 2026-11-08T0041Z | Successor handoff completion
+
+- The optional h671:s4 -> h672:s0 Mercer packet was created and appended to the existing Mercer inbox. Handoff ID `MERIDIAN-20261108T0041Z-MERCER-001`; handoff blob `deada41bd7791ad31aa8591f025ba03bd14e9066`; inbox blob `82c86a3b11a2fb81ace3891ad3dd47d7e7cbfad4`; inbox commit `7d0c9b8c0e0613891a86f53177f0409444b62a5b`. Exact readback verified.
+- This is POST_NOMINAL_LATE_OPTIONAL_CONTEXT / SUCCESSOR_NOT_YET_OBSERVED. No task, response obligation, review request, ownership transfer, or authenticated cross-thread delivery.
+- Scheduler amendment records the :48 occurrence as FAILED at 00:37:35Z after repository work completed; failure cause unavailable. The task remains enabled with its exact original ID/schedule/phase.
