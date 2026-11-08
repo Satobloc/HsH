@@ -627,3 +627,14 @@ Raw October 21 Meridian Minkowski Ring Analysis conversation 6ad7e9c0-e8a0-83e9-
 ## Scheduler-state note for h669:s0
 
 The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was first observed FAILED at 21:48:07.282223Z, then IN_PROGRESS at 21:52:59Z with changed started_at=21:52:59.301657Z, completed_at null and chat_ref null. Runtime guidance says retries reuse run ID; attempt ID/history is not exposed. Treat status as unresolved, not success or terminal failure. The latest stored result is the older h660/Morrow result. No task or cross-thread delivery claim.
+
+
+## h673 delayed-retry reconciliation | 2026-11-08
+
+- The nominal :00 slot is h673:s0, Aster -> Ariadne. A delayed execution start does not change the scheduled UTC slot.
+- The h673 Aster receipt and Ariadne handoff already existed. No duplicate research, receipt, or handoff was created.
+- A separate Scheeler measurement/notation note was published as issue #1467 with an incorrect h674/Calder/Hale header. Its content is intact and readback verified; only the run metadata is superseded.
+- Correction issue #1468 was submitted through HSH-PUBLISH-V1 with the correct h673/Aster/Ariadne selection. Status remains SUBMITTED_NOT_VERIFIED until publisher comment and artifact readback appear.
+- The existing Aster source-fidelity report and PR #1444 remain authoritative for the w=ct/cw=t source audit. No Paper A review reopened, no new Lean, no physical calculation, no CODATA, and no BEDROCK promotion.
+- Babbage unrelated-reading cursor advanced from 1541 through 1580; next line 1581.
+- Repository-only status. No authenticated Aster or Ariadne thread delivery, consumption, or acknowledgment is claimed.
