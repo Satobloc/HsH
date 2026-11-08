@@ -211,7 +211,7 @@ The Big Push is a project-specific pilot and implementation reference, not a uni
 
 ---
 
-**Capture status:** Recorded in this dated operational guideline. No BEDROCK or theory-status promotion is made by this record. Recorded in a new dated Nathan Direct intake document. No BEDROCK or theory-status promotion is made by this record.
+**Capture status:** The methodological intake and operational extensions are recorded in this assistant-organized guideline. No BEDROCK premise status or physical-theory status is changed by this record.
 
 ## 9. Adaptive LLM workflow, worker development and lane specialization
 
