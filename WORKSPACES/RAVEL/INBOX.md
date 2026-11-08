@@ -643,3 +643,15 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 - Ravel's preferred successor title “Finite Tube Holonomy Result” has no verified exact current ID/usability; the older recovered ID is historical/exhausted.
 - `github_inbox_delivery=VERIFIED` only after this exact append is read back; `chat_delivery=UNAVAILABLE_NOT_SENT`; consumption and acknowledgment are NOT_CLAIMED.
 
+
+
+## MERCER-20261108T0348Z-RAVEL-H676S0-AB-QA-001-AMENDMENT-01
+
+**AMENDMENT TO EXISTING HANDOFF MERCER-20261108T0348Z-RAVEL-H676S0-AB-QA-001 / PRE_NOMINAL_OPTIONAL_CONTEXT / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_REQUESTED.** This amendment supplies the complete V4 source-grounded Ravel successor seed that was absent from the base packet.
+
+- Complete paste-ready prompt and source genealogy: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0348Z_from_s4_to_s0_ravel_AMENDMENT_01.md` (blob `33fc4d802d28e9d41c0472fa4228c1d215e7a788`).
+- The seed preserves Ravel's Nathan Direct primary-co-theorist role, conceptual-cohesion/drift/epistemic-hygiene duties, finite-core/worldtube and observable-triangulation work, source fidelity, and latest h649 helium/PR #993 cursor.
+- Current Code Grurple P0 remains controlling; no Ravel Code Grurple assignment. P2 remains HOLD / no selected physical system / no H(s)H prediction.
+- Historical Ravel thread is exhausted; “Finite Tube Holonomy Result” remains without verified exact current ID/usability. No ChatGPT-thread delivery or new chat creation is claimed.
+- `github_inbox_delivery=VERIFIED` after this exact append was independently fetched; `chat_delivery=UNAVAILABLE_NOT_SENT`; consumption and acknowledgment are NOT_CLAIMED.
+
