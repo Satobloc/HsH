@@ -56,3 +56,13 @@ A later read-only Automations peek supersedes the earlier in-progress snapshot f
 - :12 remains disabled; :24 and :36 task IDs, enabled states, schedules and phases remain unchanged.
 
 No failure cause, retry, current liveness, distinct worker/thread, handoff consumption, or acknowledgment is inferred. The repository handoff remains available to a later Ariadne run; no ChatGPT-thread delivery is claimed.
+
+
+## Scheduler snapshot amendment 02 | observed 2026-11-08T12:43Z
+
+The :36 task's same h683:s3 Ravel run ID `553ae025-1ebc-832f-8076-88e2dddfc905` now appears in another Automations snapshot:
+- Earlier observed `started_at=2026-11-08T12:09:43.267474Z`, `scheduled_for=2026-11-08T11:36:00Z`, status `in_progress`.
+- Later observed `failed`, `completed_at=2026-11-08T12:34:45.026822Z`, with the same run ID and scheduled_for.
+- Latest observed snapshot: same run ID and scheduled_for, status `in_progress`, new `started_at=2026-11-08T12:43:09.347769Z`, `completed_at=null`, `chat_ref=null`.
+
+No attempt token or snapshot-observation timestamp is exposed. Preserve all observations as `SAME_RUN_ID / START_TIME_DIVERGENCE / STATUS_CHANGED / ATTEMPT_TOKEN_NOT_EXPOSED`. Do not infer retry, separate execution, distinct worker/thread, scheduler correction, or current liveness. The nominal h684:s3 Ariadne occurrence is still not present in the last-run snapshot. This is a second useful example alongside the h680 snapshot-lineage case already in Ariadne's inbox, and may be relevant to its existing observation-schema work; no task or review request is made.
