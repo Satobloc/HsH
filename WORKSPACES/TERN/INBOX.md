@@ -1267,3 +1267,15 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - Declared digest `439eed0a8a33cb17d5c00fafe33fcf04a788b5bac8740fcf4ade638ad9e57843` was incorrect. Correct SHA-256 of the exact 15,424-byte UTF-8 issue content: `4a6eb2e39f4ff8c08f9c3d31dd5e895ae95eaa7bd9376241f435dfa952a1751d`.
 - Expected PUBLISHED_SUBMISSIONS artifact path returned 404. Status: `PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED`.
 - Do not edit/reopen, duplicate, or bypass the publisher. Issue #1464 remains the sole incident record; full report remains inline in its body and the run response. No task or response obligation is created.
+
+
+## TERN h675:s0 | 2026-11-08T03:00Z | Deep upkeep + θ4 source fidelity
+
+- Internal run report: WORKSPACES/TERN/2026-11-08T0300Z_H675_DEEP_UPKEEP_AND_THETA4_SOURCE_FIDELITY.md.
+- Public addendum: issue #1473, PUBLISHED_VERIFIED. Publisher run #42447993064, comment #6717377228. Artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-july1-theta4-worldtube-source-fidelity-20261108t0300z-s0-001.md; commit 86e738a8f46b9e10a52eaca1768d63415dd24274; blob 0cdce3b21807c7094e180d5339f274a7df8cf033; SHA-256 a7ae88a724dbe0abf538e35fd51c8a8f64ceecbe64d336fc7d1564db4cc72515. Readback confirmed.
+- Clone census updated to 19/19 dispositions (17 reconstructed, 2 coordinator UNAVAILABLE/UNKNOWN current-thread dispositions; 0 authenticated first-hand current-thread replies). Telemetry remains open. Action plan and TASK_BRANCH_GRAPH updated; branch_count=16 versus 18 records preserved.
+- Read-only task_upkeep_triage.py self-test PASS; 13 active/blocked/candidate records. Deep review completed after five durable work-product receipts; next after five additional completed work products or five evidence entries, whichever first.
+- Unrelated reading source correction: Babbage, Reflections on the Decline of Science in England (1830), not Harold Jacoby; read lines 1401-1440, next 1441.
+- No task/ID/schedule/phase/cadence change, no sixth task, no paper-gate advancement, no physical calculation, no CODATA scoring, no BEDROCK promotion.
+- Current :00 run 95692beb-e144-832a-b593-1d64649ffec7 is recorded FAILED/chat_ref=null. The durable repository work is not an authenticated Tern thread receipt.
+- Next same-phase Tern selection h686:s2 at 2026-11-08T14:24Z. Morrow is the deterministic next ring label for h675:s1, but :12 is disabled; any handoff is repository-only late optional context with no response obligation or cross-thread delivery claim.
