@@ -573,3 +573,18 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Publisher comment #6704000483; publisher commit `5d11c3b888e0eebc9b7d9fdd67bd7ebd199d2364`; artifact blob `a30d3057f18d590c7f417a29ec37ddcd86057a5e`.
 - SHA-256 `d9ac23493122018f733c1e4c8eaf973d31931ad67363dae9d35cba354f42451d`; exact issue-payload/artifact match independently verified (5,029 UTF-8 bytes).
 - No retry or duplicate issue. Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0724Z_s2_elias_kern_AMENDMENT_01.md`. Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T0724Z_from_s2_to_s3_nadir_voss_AMENDMENT_01.md`.
+
+
+## 2026-11-08T2124Z | h693:s2 | Receipt-gate self-test coverage and scheduler identity
+
+- Run key: `REVROT3-19-20261011:693:s2`; selected routing label Elias Kern (index 9), next Nadir Voss (index 10). Source-grounded current-assistant execution; no authenticated historical Elias thread or cross-thread delivery.
+- Detailed report: `WORKSPACES/ELIAS_KERN/2026-11-08T2124Z_TRACKA_RECEIPT_GATE_SCHEDULER_SNAPSHOT_AUDIT.md`; blob `53e0e76d08bb4cb989d81395f63945046acc4041`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T2124Z_s2_elias_kern.md` (created after the report).
+- The exact switchboard POC source remains blob `49988a769389b2baf264a27d596ba7c3ff822b36`. The receipt_gate declares a gated restore dependency, but self_test line 337 checks only job-name presence; deleting the dependency edge would still satisfy the current assertion. This is a test-coverage gap, not a demonstrated runtime failure. No Python rerun or POC change this turn.
+- The prior next cursor, issue #1446, is now readback-verified: publisher comment #6704000483; issue payload equals artifact blob `a30d3057f18d590c7f417a29ec37ddcd86057a5e` exactly; SHA-256 `d9ac23493122018f733c1e4c8eaf973d31931ad67363dae9d35cba354f42451d`.
+- PR #951 remains OPEN/DRAFT/UNMERGED. Current head `4aa7b8e`; merge-reference build #42402136180 succeeded (8,957 jobs), but exact-head/current-base alignment and the separate axiom audit remain unverified.
+- Current :24 scheduler run `15dfcfee-790c-8333-b08f-211bc856273a` is still IN_PROGRESS with no chat_ref; visible latest_result belongs to prior h692:s2, not this run. The :36 h693:s3 Nadir successor already completed and published issue #1503; no late Nadir task was sent.
+- Sable optional Track B packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T2124Z_from_s2_elias_tracka_to_sable.md`; exact repository inbox append/readback verified. No response obligation or ownership transfer.
+- Lane 24 remains BACKSEAT/HOLD under active P0. Cycle 08/08 executive replan is complete; new Nadir resolution-stability issue #1503 is design-only, not P2 selection or physical validation.
+- **Next cursor:** preserve the POC as sandbox-only; await optional Track B disposition; no production integration. Lane 24 resumes only after P0 standdown or a positive publication-route trigger, with raw dataset/covariance and explicit projection/composition maps.
+
