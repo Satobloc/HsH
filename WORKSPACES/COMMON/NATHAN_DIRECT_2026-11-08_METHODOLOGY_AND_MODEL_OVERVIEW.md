@@ -163,9 +163,55 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 6. For each active physical hypothesis, identify its exact status, primary source, equations, standard-physics baseline, real measured system, cross-sector implications, Lean status, empirical test and next falsifiable question.
 7. Preserve the current priority order: develop whichever part can be advanced rigorously without forcing premature primitive proliferation; return to unresolved gaps when other geometric work supplies constraints.
 
+
+## 8. Repository-backed continuity and extended-workflow scaffolding
+
+For complex or long-running work, repositories serve as durable external memory and capability scaffolding; the chat is a temporary working surface. The aim is to preserve a small, useful identity/role/intent packet while allowing arbitrarily rich information, methods, tools and capability modules to be retrieved when needed.
+
+### 8.1 Compact launch state and modular memory
+
+- Keep a small boot capsule containing the mission, role and intent, current priorities, source-of-truth locations, load order, restart condition and exact next cursor.
+- Point from that capsule to structured modules rather than repeating large instructions. Open the smallest relevant source, method, tool or capability module at the point of use.
+- Organize durable state in layers: **boot capsule** (launch and navigation), **active tray** (one current operation), **control shelf** (phases, decisions, dependencies, gates and receipts), **reference library** (retrievable sources and capabilities), and **parking drawer** (valuable deferred work with retrieval triggers).
+
+### 8.2 Branching plans and bounded execution
+
+- Translate extended goals into a priority-aware, unfolding plan: one bounded active operation, with other branches recorded by purpose, dependency, owner or lane, stop condition, and return trigger.
+- New discoveries can create or reprioritize branches, but do not silently expand or replace the active operation.
+- Each completed operation leaves an inspectable record of its question and scope, exact sources and immutable identifiers, actual read or execution extent, method and search limits, findings, uncertainty and contradictions, artifact and commit, and next cursor.
+- Preserve distinctions among Nathan Direct, primary historical source, external reference, assistant reconstruction, proposal, tested capability, and untested capability.
+- Use scripts for bulk inventories, retrieval, deduplication, calculations, calendars, scheduling diagnostics and audits where they reduce manual error. Keep inputs, scripts and outputs inspectable.
+
+### 8.3 Adaptive continuity, review and succession
+
+- Use project-specific heartbeats, calendars, restart triggers and a single continuity steward when the work warrants them. A scheduled activation is not identity continuity, and automation must not impersonate a human heartbeat or imply background work that did not occur.
+- At five completed operations or a phase gate, and at proportionate periodic reviews, inspect scope drift, neglected goals, parked-item triggers, repetition, evidence freshness, capability gaps, procedural overhead and cost. Record explicit **KEEP / CHANGE / PARK / RETIRE** decisions.
+- Use concise succession packets with verified artifact pointers, source exposure, exact cursors, blockers and one first action. A successor must inspect the named primary sources independently.
+- Mirror check-ins and lessons-learned records may refine task-specific role, method and capability modules. They should reveal actual development or slippage and prompt useful course correction, not become ritual paperwork or a source of role stagnation.
+
+### 8.4 Capability reconnaissance and exploratory work
+
+- Before building a tool or process, inspect relevant repositories, existing code and branches, formalization infrastructure, connected applications, local or remote software, current literature, free methods and realistic costs. Compare **reuse, adapt, integrate, build, park or reject**. A listed capability is not a tested capability.
+- Maintain a protected exploratory space for creative synthesis and cross-domain combinations. Keep exploratory proposals distinct from canonical theory, and route concrete candidates through the appropriate source, mathematical, empirical and review gates.
+
+### 8.5 Implementation reference and proportionality
+
+The current implementation pilot is **The Big Push**. Its boot capsule, operating protocol, project control, queue, calendar, heartbeat, automation state and succession documents provide the detailed operational pattern:
+
+- [Big Push boot capsule](BIG_PUSH/BOOT.md)
+- [Big Push operating protocol](BIG_PUSH/OPERATING_PROTOCOL.md)
+- [Big Push project control](BIG_PUSH/PROJECT_CONTROL.md)
+- [Reusable worker recommendations](BIG_PUSH/WORKER_RECOMMENDATIONS.md)
+- [Calendar and audit cadence](BIG_PUSH/CALENDAR_AND_AUDITS.md)
+- [Succession and context-limit protocol](BIG_PUSH/SUCCESSION.md)
+
+The Big Push is a project-specific pilot and implementation reference, not a universal mandate, not theory authority, and not a replacement for FIE or this guideline's authority hierarchy. Apply the scaffold in proportion to the complexity and duration of the work. The purpose is adaptive continuity and effective capability, not process for its own sake.
+
+**Provenance:** This section is an assistant-organized synthesis of Nathan's current user preferences and the existing Big Push repository documents. It extends the operational packet without attributing this wording to Nathan or changing the status of any physical hypothesis.
+
 ---
 
-**Capture status:** Recorded in a new dated Nathan Direct intake document. No BEDROCK or theory-status promotion is made by this record.
+**Capture status:** Recorded in this dated operational guideline. No BEDROCK or theory-status promotion is made by this record. Recorded in a new dated Nathan Direct intake document. No BEDROCK or theory-status promotion is made by this record.
 
 ## Epilogue: RMS philosophical background
 
