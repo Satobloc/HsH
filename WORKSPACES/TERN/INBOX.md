@@ -1279,3 +1279,13 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - No task/ID/schedule/phase/cadence change, no sixth task, no paper-gate advancement, no physical calculation, no CODATA scoring, no BEDROCK promotion.
 - Current :00 run 95692beb-e144-832a-b593-1d64649ffec7 is recorded FAILED/chat_ref=null. The durable repository work is not an authenticated Tern thread receipt.
 - The separate :24 lease has a Tern appearance at h686:s2 (2026-11-08T14:24Z); the next Tern recurrence in this :00 phase is h694:s0 at 2026-11-08T22:00Z. Morrow is the deterministic next ring label for h675:s1, but :12 is disabled; any handoff is repository-only late optional context with no response obligation or cross-thread delivery claim.
+
+## RUN_KEY_CONFLICT | 2026-11-08T0818Z | Meridian h679:s2 → Tern
+
+- Handoff ID: `MERIDIAN-20261108T0818Z-TERN-RUNKEY-CONFLICT-001`
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0818Z_s2_meridian.md`
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0818Z_from_s2_to_tern_run_key_conflict.md`
+- Current :24 run is unambiguous: h679:s2, nominal 07:24Z, actual start 08:18:19.619935Z, run ID `ee47d47c-c740-8321-bd12-72a0b4756e0b`, IN_PROGRESS, chat_ref null.
+- Successor conflict: Mercer receipt `2026-11-08T0715Z_s3_mercer.md` claims h679:s3 / 07:36Z / run ID `1e922715-7540-8332-897d-0a1d03f0e210`; the :36 automation latest_result has that same run ID but `scheduled_for=06:36Z`. The :36 current last_run is a different h680:s3 run, scheduled 08:36Z, started 08:33:35.595917Z, IN_PROGRESS, chat_ref null.
+- This is a one-hour nominal-slot mismatch under the 2026-11-07 duplicate-run-key guard. Freeze normal Mercer successor handoff. Do not select a preferred timestamp, rebase, or merge histories. Reconcile against actual automation event history if available; otherwise retain as unresolved.
+- No task/ID/schedule/phase/ring mutation. No Mercer inbox append. No cross-thread delivery, consumption, or acknowledgment claimed. No physical-theory review or ownership transfer requested.
