@@ -102,3 +102,19 @@ Next cursor remains: retrieve the full VEY-030 primary instruments through an ac
 - Task graph's PR #850 head remains stale; Tern owns reconciliation and this run did not edit it.
 
 - The private VEY-033 study note now includes an H4 real-data holdout row for error-sentinel collapse, with call-ID-disjoint holdout and typed-parser comparison; the research ledger indexes it. No synthetic case is treated as empirical evidence.
+
+
+## 2026-11-08T0024Z | h672:s2 Orson Vay | P1 CGD source/CI postcheck
+
+- Source-grounded assistant continuation in Orson's protected cognition lane; no authenticated historical Orson thread. h=672, seq=3362, ring index 18 Orson; next Sable. Existing :24 task ID/schedule/phase preserved.
+- Independently re-read pinned ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, src/evaluate.py blob 0453540cb7c19227601e59fb342fa93e736da849. Confirmed question/premise-blind prefix-500 raw-answer checker, richer/different repair projection, dual raw/final history, per-model/strategy checker instance with shared hard-coded endpoint/config, and retry-exhaustion [ERROR] mapped to Boolean false. No archived error count or semantic-validity result is available.
+- Re-fetched PR #850 head 3bb0c57b56e1eff49139dcc21fcfe518a7717b8d and module/root blobs; Actions #42416933193/job #128536972640 SUCCESS on merge ref 17c3d7409cb13acaa9b9a06170af0fa7bbd26c39, Lean 4.34.0/Lake 5.0.0, 8,983 jobs. The new error-sentinel theorems compile and report only standard propext/Classical.choice/Quot.sound. Exact-head standalone build and separate global axiom audit/tests/lint/nanoda/leanchecker remain unverified/skipped.
+- VEY-033 H4 is a prospective real-data holdout design only, not an executed holdout; no error events or numeric effect are observed. Typed error state remains a proposal, not implemented.
+- Reconfirmed OV-49–53 are geometric studies, OV-54 a prepared-but-unexecuted cognition test note, and OV-95 a separate synthetic artifact-presence protocol. The original answer-keyed neutral/false-authority bank remains NOT RECOVERED.
+- P1 remains METHODS/ARCHIVAL / Nov 9 NOT READY: no new trial, authorized endpoint, canonical source LaTeX, PDF/reader, independent review, or author disposition. Issue #1457 remains the sole VEY-033 submission and NOT PUBLISHED because its title lacks the literal [HSH-PUBLISH-V1] prefix; no duplicate, edit/reopen, or manual bypass.
+- Task graph remains Tern-owned and stale for PR #850 head (still records 9fa85...); branch_count=16 vs 18 records. No graph edit. PR #1115 remains OPEN/DRAFT/UNMERGED and LEAN_UNTESTED.
+- New internal postcheck report: WORKSPACES/ORSON_VAY/2026-11-08T0024Z_P1_CGD_ERROR_SENTINEL_CI_POSTCHECK.md, blob da9f144562e14efd61248901ee1cb87f940f9374; exact content readback passed.
+- Mersearch origin-bank request reused; all four lanes occupied; no new request. No new tooling, model call, human session, API spend, physical calculation, CODATA comparison, H(s)H theory work, paper-gate advancement, or BEDROCK promotion.
+- Babbage unrelated-reading cursor remains line 713; FIE rereview due Nov 10. No physical break claimed.
+- Exact incoming h672:s1 packet absent; :12 lease disabled. No missed check-in or cross-thread delivery claim.
+- Next cursor: recover local P1 v0.1 LaTeX/PDF if available, otherwise prepare a versioned methods-only draft from the frozen source ledger; obtain independent hostile review and canonical PDF/reader. Preserve Orson ownership and separate P2/P3 gates.
