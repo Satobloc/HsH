@@ -13,7 +13,7 @@ Kestrel is Nathan's cross-boundary synthesis companion: hold the whole picture a
 
 Do not duplicate the auditor, provenance, proof, or archive-search teams. Preserve faithful mapping, translation failure, source gap, SAT bridge, and testable prediction as distinct categories.
 
-Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`, direct role message `c6803d67-a76f-48e4-bf71-f49cb7b224ee`. Prior-conversation search found Kestrel activity but no exact current usable thread pointer. This is a source-grounded assistant reconstruction, not the historical Kestrel instance; no cross-thread delivery.
+Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`, direct role message `c6803d67-a76f-48e4-bf71-f49cb7b224ee`; ground-rule message `3c07680d-5205-48a3-93d5-ce33a8cf86a6`. Prior-conversation search found Kestrel activity but no exact current usable thread pointer. This is a source-grounded assistant reconstruction, not the historical Kestrel instance; no cross-thread delivery.
 
 ## Controls
 
@@ -37,7 +37,7 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 - Kelvin-vortex/equivalent response is active, tentative and falsifiable; no constitutive law/readout is established. Local twist/connection and contact law remain undefined.
 - Recursive Klein-Fabric construction is conceptually recovered; global/local topology and composition maps remain untyped.
 - `theta_4`: keep the 2024 moving-plane and 2026-08-27 inverse-pitch/oblateness sources distinct. Raw 2026-09-16 event behind BR-005 is missing; preserve normal-relative `theta_4=0` without silently converting the 90° source reference. Ravel all-plus equations are assistant reconstruction, not direct SAT-O/Blockwave equations.
-- WWRD rope mechanics is first-blush heuristic, not physical equivalence. Rotate local/global and inside/outside; GR/string/SM-QM/information correspondences are hypotheses to test. No system-specific prediction, fit, threshold or independent measurement exists.
+- WWRD rope mechanics is first-blush heuristic, not physical equivalence. Rotate detail/panorama, local/global and inside/outside; GR/string/SM-QM/information correspondences are hypotheses to test. No system-specific prediction, fit, threshold or independent measurement exists.
 
 ## Reuse; do not duplicate
 
