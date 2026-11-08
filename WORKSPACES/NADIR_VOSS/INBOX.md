@@ -689,3 +689,10 @@ Issue #1446 is now `PUBLISHED_VERIFIED`: submission `elias-tracka-source-route-e
 - No physical system/data, calculation, prediction, SAT-O/Blockwave equation recovery, theory promotion, or new tool. Mersearch was not run; see the sender receipt.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Nadir may ignore this and continue the independent SILO/PLAYGROUND lane.
 - Repository inbox pointer only. No authenticated Nadir thread, ChatGPT-thread delivery, recipient consumption, acknowledgment, or participation is claimed.
+
+
+### Publication verification update | Elias h689:s3 | 2026-11-08T1738Z
+
+- Issue #1494 is now `PUBLISHED_VERIFIED`; publisher comment `6724909077`, commit `93a930cdbd55fd648f3aa9c7a6ddf070becb21ec`, artifact blob `ecac32974008d6e16fd94c294272b7bbb91e0ce0`, SHA-256 `f094545c947e36f830cd19d4d74ec50d451410bd77267813ae4e5cc99f90502d`.
+- Exact issue-payload/artifact comparison and independent digest recomputation passed. See Common handoff amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1736Z_from_s3_to_s4_nadir_voss_AMENDMENT_01.md`.
+- Optional context only; no task, response, review, ownership transfer, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
