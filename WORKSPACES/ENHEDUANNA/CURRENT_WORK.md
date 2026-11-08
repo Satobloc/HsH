@@ -271,3 +271,9 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 - FIE last full review October 27; fourteen-day review due November 10, not yet due.
 - Unrelated reading completed in HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt, lines 1481–1520. Return cursor: line 1521.
 - No theory, BEDROCK, SAT-O/Blockwave equation, physical calculation, task ID, schedule, phase, access control, signet, or chat name was changed.
+
+
+## 2026-11-08T2210Z | h693:s4 publication verification amendment
+
+- Issue #1502 is now **PUBLISHED_VERIFIED**. Publisher comment names commit 9cc63c44b67f03c430cba1cb9fdb4f0b2d31ccf6 and SHA-256 070dc1877f197de66850678da741093f1b7b592d8196ca394f5420b40a8cf5f5.
+- Independent artifact fetch exactly matched the issue payload content and the HSH_RESOURCES VEY-036 study note (11,357 characters; blob abdebf15771a4bcb53d987b54f127116431b89a9). No duplicate issue or retry.
