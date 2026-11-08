@@ -4,8 +4,8 @@
 >
 > **Role boundary:** Morrow's historical Team Archivist remit and direct theory stop remain controlling. This h671:s2 work is source custody, provenance, and conditional formalization triage only. The current Lane 24 prompt is not treated as a blanket release for theory integration, physical calculation/prediction, paper development, quarantine reopening, or BEDROCK promotion.
 
-**As of:** latest shared-ring appearance nominal 2026-11-07T19:36Z (h667:s3); prior :48 Review appearance is h663:s4  
-**Run:** `REVROT3-19-20261011:667:s3` (latest shared-ring appearance); prior :48 Review run h663:s4 remains separately recorded below  
+**As of:** latest shared-ring appearance nominal 2026-11-07T23:27Z (h671:s2); prior :36 Morrow appearance h667:s3 and :48 Review h663:s4 remain separately recorded  
+**Run:** `REVROT3-19-20261011:671:s2` (latest shared-ring appearance); prior :36 h667:s3 and :48 h663:s4 remain separately recorded below  
 **Selection:** Morrow (ring index 13); next Kestrel (index 14).  
 **State:** `ARCHIVE_ONLY / SOURCE_AND_CONTINUITY_CHECKPOINTED`  
 **Latest main commit observed before this run's continuity update:** `a502da6c78582e49bce906ea45ff79b69e655d89`.  
@@ -100,3 +100,8 @@ Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1936Z_
 - Existing Math Hopper remains extraction-only with an unverified three-repository pilot; PRs #991 and #854 remain open drafts. Whirligig was inspected as a sandboxed geometry/query engine, not a physical evidence source. SciSpace is available but unused. Fork enumeration remains incomplete.
 - Deliberate unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 1981–2020 read; next cursor 2021. Existing Okakura cursor remains 489. FIE rereview due 2026-11-10.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2327Z_s2_morrow.md`. Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T2327Z_from_s2_to_s3_kestrel.md`. No cross-thread delivery or consumption is claimed.
+
+
+## 10. h671:s2 post-publication source-type clarification
+
+Internal addendum: [BF cup-product source-variant audit](2026-11-07T2354Z_BF_CUP_PRODUCT_SOURCE_VARIANT_AUDIT.md), blob `fc4326a73926e7370ba2ae350981645ea122e63b`. It separates the Mark IV.2 kernel's undefined B type from the assistant-generated 1+1D B⁰ and 4D B² variants and the unattributed 4D OUTFILL B⁰ variant. The degree contexts may differ; no canonical B assignment or corrected equation is adopted. Existing PR #1098's exact-head Lean build is relevant support-degree evidence only, not a proof of this cup-product term. No new Lean run, branch, PR, public issue, theory work, physical calculation or CODATA comparison. The optional Kestrel handoff was appended after Kestrel's h671:s3 inspection; no consumption is claimed. The :24 task remains enabled with its exact ID and hourly :24 phase unchanged; the latest scheduler peek remains `in_progress`, `chat_ref=null`.
