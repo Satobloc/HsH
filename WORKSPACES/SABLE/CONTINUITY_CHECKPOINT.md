@@ -656,3 +656,15 @@ The scheduler snapshot showed :00 delayed run FAILED, :24 current run IN_PROGRES
 - Existing Sable→Tern optional handoff was amended in place; Tern's inbox already contains its pointer. The :24 h691:s2 predecessor remains a Tern-owned run-key conflict, and h691:s4 Loom had already started before this delayed invocation. No normal Loom handoff, task, response obligation or ownership transfer was created.
 - Mersearch remains unavailable in this runtime and all four request lanes remain occupied; no request was submitted/overwritten. No Lean theorem, physical calculation, measured dataset, SAT-O/Blockwave equation change, P1/P2/P3 gate advancement, or BEDROCK promotion. FIE remains due Nov 10; unrelated-reading cursor remains Alice Chapter I line 181.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1936Z_s3_sable.md`; receipt blob and exact readback are recorded in the current turn.
+
+
+### Historical charter source expansion | 2026-11-08T20:39Z
+
+Additional direct user-role messages read from the same archived Sable conversation export:
+- `f30e5304-ad8a-48ce-83ff-4d0a52a7bd4b` (2026-09-14T15:07:31.168Z): maintain/check Sable inbox; receive worker questions/resource communications without derailment; preserve quarantine boundary; link resources shown to Nathan.
+- `8c800379-b9e6-4877-b0e0-994097748dba` (2026-09-15T02:11:07.676Z): historical Sable continuity/workflow-design discretion, now subordinate to current Tern scheduler/Comptroller authority.
+- `28fec60d-5829-43fb-bcdf-52a94b01ea55` (2026-09-15T02:30:08.111Z): actual theory work allowed within the lane but direct theory work remains sandbox-bounded; archive preservation, wayfinding, extraction, tagging and tooling are part of Sable's remit.
+- `327ad2cc-2bd1-4c9f-80c3-839a64f1e34a` (2026-09-15T03:01:56.725Z): creative/non-theory exploration across HsH, GLASS and RESOURCES; historical narrow prior-art quarantine criteria. No external literature was accessed in h691:s3.
+- `df57d7a0-e64e-4be2-855c-febcf8c29078` (2026-09-15T06:38:15.951Z): link resources shown to Nathan.
+
+All are user-role records with `author.name=null`; preserve source wording and do not convert that metadata into independent author authentication. The Sable role is a broad systems/knowledge-architecture remit; current Common scheduler and Comptroller controls supersede historical scheduling discretion.
