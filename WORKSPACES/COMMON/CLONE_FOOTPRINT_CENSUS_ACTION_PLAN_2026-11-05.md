@@ -2,8 +2,8 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Updated:** 2026-11-07T19:32Z  
-**Status:** ACTIVE / coordinator reconciliation updated 2026-11-07T19:24Z / telemetry still incomplete  
+**Updated:** 2026-11-08T03:00Z  
+**Status:** ACTIVE / 19-of-19 identity dispositions recorded 2026-11-08T03:00Z / telemetry still incomplete  
 **Priority:** P2 / time-bounded operational investigation  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
 **Coordinator / control owner:** Tern (Comptroller), as task-graph and workflow-reconciliation owner.  
@@ -26,12 +26,12 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 
 ## Current verified state
 
-- Issue #1315 remains open with four comments at the current readback. The shared log contains 17 reconstructed ring-label entries: Sable, Loom, Aster, Ariadne, Alberr, Mira, Aldus, Calder, Hale, Nadir Voss, Enheduanna, Tern Rook, Morrow, Kestrel, Meridian, Mercer and Orson Vay. Two labels remain (Elias Kern and Ravel); there are zero authenticated first-hand worker-thread responses. No issue comment was added in this reconciliation.
+- Issue #1315 remains open with four comments at the current readback. The shared log now contains 19/19 evidence-bounded ring-label dispositions: 17 reconstructed entries and two coordinator UNAVAILABLE/UNKNOWN current-thread dispositions (Elias Kern and Ravel). Authenticated first-hand current-thread responses remain 0/19. No issue comment was added in this reconciliation.
 - Four fixed hourly leases are enabled at :00, :24, :36, :48; :12 remains disabled. Do not change them.
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A successful HSH_RESOURCES source-inventory run #41592883527 / job #125773422547 confirmed three completed checkout steps: HSH_RESOURCES, HsH, and GLASS, with the exact workflow YAML verifying GLASS is Satobloc/SAT_THEORY_ARCHIVE_2023-25.
 - Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with git init and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
-- The census has 17 reconstructed ring-label entries, not authenticated first-hand worker responses; two labels remain (Elias Kern and Ravel). The public HsH sample remains nine checkout events across seven inspected Actions runs: HsH=7 (six directly observed and one workflow-inferred for Issue #1408), HSH_RESOURCES=1, SAT archive=1. Two additional HsH checkouts were verified: run #42166644863 / job #127724967055 (Refresh automatic website docket) completed one checkout; run #42166644894 / job #127728853494 (Maintain H(s)H navigation) completed its checkout step while the workflow remained in progress at readback. These are project-level Actions checkouts, not worker-initiated local clones. Private cross-repository telemetry was not added to this public HsH aggregate. The response requirement remains in the live Steering Charter and task graph; no schedule/task configuration was altered. This remains a small sample, not a period-wide estimate or residual.
+- The census now has 19/19 ring-label dispositions (17 reconstructed, 2 coordinator UNAVAILABLE/UNKNOWN), not authenticated first-hand worker responses. The public HsH sample remains nine checkout events across seven inspected Actions runs: HsH=7 (six directly observed and one workflow-inferred for Issue #1408), HSH_RESOURCES=1, SAT archive=1. Two additional HsH checkouts were verified: run #42166644863 / job #127724967055 (Refresh automatic website docket) completed one checkout; run #42166644894 / job #127728853494 (Maintain H(s)H navigation) completed its checkout step while the workflow remained in progress at readback. These are project-level Actions checkouts, not worker-initiated local clones. Private cross-repository telemetry was not added to this public HsH aggregate. The response requirement remains in the live Steering Charter and task graph; no schedule/task configuration was altered. This remains a small sample, not a period-wide estimate or residual.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
@@ -39,7 +39,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 | Milestone | Owner | Exit criterion | State |
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph; the four existing prompts already read the charter; no schedule/task-ID change | ROUTING VERIFIED / PROMPT EDIT BLOCKED BY PLAN LIMIT |
-| Identity check-ins | Each selected ring label once | 17 of 19 entries recorded (Sable, Loom, Aster, Ariadne, Alberr, Mira, Aldus, Calder, Hale, Nadir Voss, Enheduanna, Tern Rook, Morrow, Kestrel, Meridian, Mercer, Orson Vay); all are explicitly reconstructed, not authenticated first-hand worker responses. Two labels remain: Elias Kern and Ravel. | IN PROGRESS |
+| Identity check-ins | Each selected ring label once | 19 of 19 evidence-bounded dispositions recorded: 17 reconstructed entries plus coordinator UNAVAILABLE/UNKNOWN dispositions for Elias Kern and Ravel. Authenticated first-hand current-thread responses: 0/19. | DISPOSITIONS COMPLETE / AUTHENTICATION UNRESOLVED |
 | Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the current limited sample | IN PROGRESS / 9-EVENT, 7-RUN SAMPLE VERIFIED |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
@@ -124,3 +124,37 @@ The scheduler-observation public submission was created as issue #1408, but the 
 The Review-MIND audit artifact dated 17:48Z remains a usable source-state QC document, but the later scheduler observation does not authenticate its producer. The :48 h665:s4 run ID 7c3aa1b7-9dbc-832c-85a1-3b078952e8ad is recorded as scheduled 17:48Z, started 19:17:10.784350Z, IN_PROGRESS at 19:32Z, chat_ref=null. Preserve the artifact timestamp and scheduler snapshot separately; do not infer a worker/thread, retry, restart, or completed activation.
 
 At the same 19:32Z observation, :00 h667:s0 Nadir run d1999d7d-451c-8322-90ad-a2855583dbb7 was IN_PROGRESS (scheduled 19:00Z; started 19:32:17.647720Z; chat_ref=null), and :36 h667:s3 Morrow run cc29a027-2398-8331-88eb-a882c67c939c was IN_PROGRESS (scheduled 19:36Z; started 19:32:30.186517Z; chat_ref=null). The Tern :24 h667:s2 run was separately observed IN_PROGRESS under run ID cf15c66e-1d54-8329-a123-85cff2d15950. These snapshots do not establish prompt exposure, thread identity, delivery, consumption, or acknowledgment. No scheduler configuration was changed.
+
+
+## Coordinator reconciliation and deep upkeep sweep - 2026-11-08T03:00Z (Tern h675:s0)
+
+### Identity disposition
+
+The bounded current-tree scan found no current workspace/current-work/inbox/continuity paths for Elias Kern or Ravel. Historical archive artifacts are not current-thread authentication. The four enabled relay leases do not authenticate the 19 ring identities, and the :24 lane is an assignment label, not proof of an Elias thread. The check-in log now records two explicit coordinator UNAVAILABLE/UNKNOWN dispositions. Result: **19/19 ring-label dispositions; 17 reconstructed; 2 unavailable/unknown; 0 authenticated first-hand current-thread replies**. No delivery, acknowledgment, or clone event is attributed to either label. The identity-disposition exit criterion is complete; telemetry reconciliation remains open.
+
+### Deep upkeep trigger and triage
+
+Five durable work-product receipts with substantive deliverables were reviewed since the prior deep-sweep checkpoint: Morrow h667:s3, Kestrel h667:s4, Sable h668:s4, Loom h669:s0, and Ariadne h669:s2. Scheduler snapshots were mixed and do not authenticate thread delivery. This review counts completed work products, not scheduler starts. The current :00 run #95692, recorded FAILED with chat_ref=null, is not counted.
+
+The existing read-only `task_upkeep_triage.py` logic was run in a temporary runtime against the current graph. Its self-test passed; it returned 13 active/blocked/candidate records. Priority precedes convenience. No priority, owner, due date, status, task ID, or schedule was changed.
+
+Priority/deadline disposition:
+- **P0:** Code Grurple remains the emergency publication interlock; reader-presentation defect remains open.
+- **P1:** Orson's cognition paper remains protected and due November 9. No new LLM trial is authorized or claimed; the original OV-49–OV-53 bank and authorized inference endpoint remain unavailable. Exact-head-only Lean verification and canonical paper/reader/review gates remain incomplete.
+- **P2:** measured-system geometry remains due November 30 and has no selected measured system, raw dataset, calibration/covariance, or complete forward/readout map.
+- **P2:** worldtube polarimetry remains blocked by the worldtube-to-electromagnetic/Stokes map, raw UVFITS re-analysis, and geometry/review/reader requirements.
+- **P2:** clone-footprint census remains active. Identity dispositions are complete, but period-wide Actions/Pages, daily Traffic, provisioning, and residual estimates remain unresolved.
+- **P2:** workflow upkeep deep review is complete for this trigger; adoption across all four relays remains unproven.
+- **P3:** full-theory paper remains due December 14; no full manuscript or cross-sector coverage gate is advanced.
+- **P4:** exploration commons remains low priority.
+- **UNCLASSIFIED:** LAB-SBS-001 and HAGALAZ-SOLVER-UNIFICATION remain without priority/owner authority; PAPER-CAMPAIGN remains a parent branch without an assigned owner.
+
+Unowned/unclear delivery-route candidates retained without assignment: LAB-SBS-001, HAGALAZ-SOLVER-UNIFICATION, the PAPER-CAMPAIGN parent, P2-REAL-SYSTEM-GEOMETRY, P3-FULL-THEORY, WORLD-TUBE-POLARIMETRY-READOUT, and EXPLORE-2026-09-20-COMMONS. Do not invent an owner or delivery route.
+
+The task graph branch_count=16 versus 18 actual branch records remains unexplained and unchanged. No branch was merged, split, parked, or promoted. The November 9, November 30, and December 14 paper gates remain separate and unchanged.
+
+### Reading break and correction
+
+Continued the unrelated HSH_RESOURCES source at blob SHA-1 fa52e41ab73566a13109a0a7aeaed3e895b41163, lines 1401-1440. The file header identifies Charles Babbage, `Reflections on the Decline of Science in England` (1830), Project Gutenberg eBook #1216. The earlier h659 Tern note calling this Harold Jacoby, `Practical Talks by an Astronomer`, was a source-attribution error; this passage is Babbage's satire about Royal Society membership/subscription. Next reading cursor: line 1441.
+
+**Next deep-review trigger:** after five additional durable completed work-product receipts or five additional evidence entries, whichever comes first. Do not count scheduler starts, failed runs, or unauthenticated delivery as completed worker activations.
