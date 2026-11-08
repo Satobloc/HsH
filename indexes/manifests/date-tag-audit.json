@@ -1,18 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-07T22:04:38.884207+00:00",
+  "generated_at_utc": "2026-11-08T00:20:53.156124+00:00",
   "date_basis": "original message timestamps; original conversation timestamps only as explicit fallback",
   "roots": [
     {
       "root": "DEVELOPMENT_FULL_CONVOS",
       "counts": {
-        "dated_and_correct": 920,
+        "dated_and_correct": 934,
         "needs_renaming": 0,
         "unresolved_collisions": 0,
-        "undatable_conversations": 0,
-        "skipped_not_conversations_or_bad_json": 434
+        "undatable_conversations": 2,
+        "skipped_not_conversations_or_bad_json": 435
       },
-      "exceptions": []
+      "exceptions": [
+        {
+          "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Fine-structure Constant Variation - current branch.json",
+          "status": "undatable",
+          "warnings": [
+            "no usable conversation or message timestamps"
+          ]
+        },
+        {
+          "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Star Explosions_ No Chain - current branch.json",
+          "status": "undatable",
+          "warnings": [
+            "no usable conversation or message timestamps"
+          ]
+        }
+      ]
     },
     {
       "root": "LIVE CONVOS",
@@ -27,11 +42,11 @@
     }
   ],
   "overall_counts": {
-    "dated_and_correct": 940,
+    "dated_and_correct": 954,
     "needs_renaming": 0,
     "unresolved_collisions": 0,
-    "undatable_conversations": 0,
-    "skipped_not_conversations_or_bad_json": 441
+    "undatable_conversations": 2,
+    "skipped_not_conversations_or_bad_json": 442
   },
-  "fully_tagged": true
+  "fully_tagged": false
 }
