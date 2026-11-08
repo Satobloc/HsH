@@ -7,6 +7,10 @@
 **Record type:** Source-faithful capture of a methodological and working-model statement.  
 **Status:** Methodological directive and working research map. This record does not promote any proposed physical mechanism to established theory, mathematical clearance, or empirical validation.
 
+**Authority hierarchy (Nathan Direct, 2026-11-08):**
+- This Primary Operational Guideline supersedes BEDROCK wherever the two directly contradict one another. Apply the more specific compatible provisions of BEDROCK elsewhere; reconcile conflicts in the repository's governing records rather than silently blending inconsistent instructions.
+- This guideline is subordinate to the conceptual underpinnings of **Fundamental Intuitions — Extended (FIE)**. FIE supplies the deeper conceptual foundation. Current H(s)H/SAT working hypotheses may significantly modify particular specifics or applications; those current hypotheses therefore form an important interpretive lens for understanding how FIE is presently operationalized, without displacing FIE's foundational status.
+
 > **Provenance note:** This document is an assistant-prepared transcription and organization of Nathan's direct statement in the conversation dated 2026-11-08. It is not a verbatim transcript and must not be represented as though Nathan authored this file. The source conversation is the primary source; no immutable message UUID or export locator was available during this capture. Preserve the distinction between Nathan's claims, this editorial organization, and any future mathematical reconstruction.
 
 ## 1. Operating aim and model-selection preference
@@ -23,14 +27,8 @@ Model choice therefore considers both:
 
 These aims can reinforce one another, but they are not identical. Intelligibility is a deliberate preference, not evidence of empirical adequacy.
 
-## 2. Epistemic working posture
 
-In ordinary work, proceed using the familiar conventions of scientific language, concepts, measurement, mathematical description, causal reasoning, and model comparison. Use them rigorously and productively. Treat empirical adequacy as something assessed against observations actually available, not as a guarantee about unobserved domains.
-
-Construct models to the best of our ability from observations and established constraints; derive consequences; compare them with further observations; preserve discrepancies and failures; and revise the model when warranted. Do not require every operational statement to carry philosophical qualifications. RMS remains always operative as the philosophical background, without becoming a constant procedural concern or a checklist to be rehearsed at every step. The epilogue below records that background; the primary operational statement is in BEDROCK.md, ND-2026-11-08-01.
-
-
-## 3. Minimal geometric model and primitive discipline
+## 2. Minimal geometric model and primitive discipline
 
 The aim is to construct the minimal model consistent with observations and with the chosen, revisable Minkowski geometric representational grammar, while making the model as graspable as possible through human geometric and causal intuitions.
 
@@ -61,7 +59,7 @@ Avoid adding complication until geometry or evidence requires it to improve cons
 
 The desired result is not the most elaborate model. It is the most economical, internally coherent and human-graspable geometric model that remains consistent with the evidence.
 
-## 4. Working-hypothesis portfolio (not established results)
+## 3. Working-hypothesis portfolio (not established results)
 
 The following are prominent current working hypotheses or interpretive proposals. Their inclusion here records the research state; it does not validate them or authorize their promotion.
 
@@ -75,7 +73,7 @@ The following are prominent current working hypotheses or interpretive proposals
 
 These proposals must be handled under the established multitier hypothesis-admission guidelines. Preserve their status separately from mathematical validity, cross-sector explanatory candidacy, and empirical verification. Recover and correct prior equations rather than silently replacing them. Lean verification is required for working mathematical formulations, but a Lean proof establishes only the encoded conditional mathematics, not physical truth.
 
-## 5. Core construction and investigation methods
+## 4. Core construction and investigation methods
 
 ### 4.1 Star-Shaped Derivation Map
 
@@ -115,7 +113,7 @@ The detailed procedure is:
 
 In practice, a plausible geometric solution often becomes apparent quickly once a well-mapped system is inspected. That practical observation is not permission to skip source recovery, calculations, formalization, or hostile tests when the claim requires them.
 
-## 6. Canonical examples in Nathan's current geometric interpretation
+## 5. Canonical examples in Nathan's current geometric interpretation
 
 These examples record the user's current account of how the method has operated. They are not yet a substitute for source-faithful derivations, formal proofs, or independent physical validation.
 
@@ -143,11 +141,11 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 
 **Required treatment:** preserve the historical failed model and the later Kelvin-vortex-inspired candidate as distinct stages. Do not conflate ordinary-fluid vortex cores in a responsive medium with SAT matter worldtubes. Any transfer of vortex mathematics requires an explicit mapping of physical objects, variables and constitutive behavior. Recover the original Nathan statements and equations before formalizing this account.
 
-## 7. Methodological safeguards and status distinctions
+## 6. Methodological safeguards and status distinctions
 
 - **Source-first fidelity:** recover Nathan's original statements with context, corrections and chronology. Preserve original source text and immutable locators where available. Distinguish Nathan Direct from assistant interpretation, normalization or reconstruction.
 - **Standard-physics baseline:** ordinary Minkowski geometry and established physics are comparison controls. State signatures, dimensions, observers/slicings, variables and maps explicitly. Do not silently exchange distinct geometries or physical objects.
-- **Real physical systems and measured data:** physical calculations must be anchored to identifiable real systems and genuine observations/measurements with source, version/date, units and uncertainties. Do not invent numerical fixtures. A data-free calculation requires Nathan's explicit prior permission under current BEDROCK.
+- **Real physical systems and measured data:** physical calculations must be anchored to identifiable real systems and genuine observations/measurements with source, version/date, units and uncertainties. Do not invent numerical fixtures. A data-free calculation requires Nathan's explicit prior permission under the applicable research-control rules, subject to the authority hierarchy stated above.
 - **No analogy transfer:** similar words or shapes do not identify physical objects. In particular, a SAT worldtube is not an ordinary-fluid vortex core. State which object each equation describes.
 - **Mathematics versus physics:** a Lean-checked theorem proves only the formal proposition under its encoded assumptions. Mathematical clearance does not automatically create an H(s)H candidate. Tentative candidacy requires an independently audited connection to the operative construction and explanatory/constraining power across multiple sectors. Physical verification is a separate gate.
 - **Cross-sector consistency:** propagate substantive corrections through the star-shaped derivation map and retain failed or contradictory results.
@@ -155,13 +153,13 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 - **No premature closure:** distinguish equivalence from alternatives; retain nonunique possibilities; park unresolved questions instead of inventing a convenient solution.
 - **No universal information axiom:** do not infer information conservation, complete-history retention, holography, observer completeness, or guaranteed predictive success as a universal principle of H(s)H/SAT.
 
-## 8. Immediate implications for future work
+## 7. Immediate implications for future work
 
 1. Treat this document as a source-faithful methodological intake, not a change to BEDROCK premise status or a promotion of the working-hypothesis portfolio.
 2. Compare it against live BEDROCK, STATE_OF_THE_THEORY, the Steering Charter, Three Paper Campaign, and relevant primary Nathan Direct records before any canonical integration.
 3. Recover the exact historical sources for the Star-Shaped Derivation Map, Loop Derivation Torquing, Back Hallways, zero-parameter/single-constant method, multitier hypothesis admission, WWRD, and the canonical QCD/GR/EM examples.
 4. Reconstruct the simplified worldtube–timesheet model first, identifying and correcting historical formulation errors. Then compare it with the provisional responsive-medium extension.
-5. Keep the RMS philosophical background in its proper place as the brief epilogue below; do not turn it into recurring procedural overhead or add universal information principles to BEDROCK.
+5. Preserve the authority hierarchy: FIE provides the conceptual foundation; this guideline governs operational methodology and supersedes conflicting BEDROCK provisions.
 6. For each active physical hypothesis, identify its exact status, primary source, equations, standard-physics baseline, real measured system, cross-sector implications, Lean status, empirical test and next falsifiable question.
 7. Preserve the current priority order: develop whichever part can be advanced rigorously without forcing premature primitive proliferation; return to unresolved gaps when other geometric work supplies constraints.
 
@@ -171,11 +169,10 @@ Electromagnetism resisted a satisfactory characterization for a long time. The t
 
 ## Epilogue: RMS philosophical background
 
-RMS remains the philosophical background that we recognize as always operative in principle. It need not be a constant worry in ordinary research practice, nor does it require abandoning the conventional language and concepts through which science proceeds.
+RMS remains the philosophical background recognized as always operative in principle. Ordinary scientific language and concepts are practical conventions through which we describe the apparent coherence of our perceptual world and the apparent convergence of shared observation. These conventions make it possible to construct models, explanations, and predictions.
 
-Within the range of our own perception, what is immediately apparent is that perceptual space exhibits strikingly consistent pattern, remarkable coherence, and a high degree of conceptual interpretability. These patterns apparently support, and frequently provide, fairly reliable interpretations and predictions. Treating them as pragmatic working assumptions is therefore sensible and useful.
+Within the range of our own perception, perceptual space is marked by strikingly consistent pattern, remarkable coherence, and high conceptual interpretability. These patterns apparently support, and frequently provide, fairly reliable interpretations and predictions. Treating them as pragmatic working assumptions is sensible and useful.
 
-Why these patterns are present, how they arise, whether they represent something that should be called “real,” and what, if anything, produces this state of affairs are unknowable from any standpoint outside the limits of experience. That uncertainty does not erase the clear practical fact that the patterns hold within our experience and that working with them is effective.
+Why these patterns hold, how they arise, whether they represent something that should be called “real,” and what, if anything, produces this state of affairs are unknowable from any standpoint outside the limits of experience. The philosophical recognition of those limits does not negate the practical regularities and utility apparent within experience.
 
-RMS is the reminder of the philosophical limits and conventional character of our descriptions. It is not a demand to suspend ordinary modeling, nor a reason to keep reopening those limits at every step. For day-to-day H(s)H/SAT work, proceed from the apparent regularities, build intelligible models, test them, and correct them.
-
+RMS is the background understanding of the enterprise, not a routine procedural checklist. The operating methodology is built around working with apparent regularities, constructing intelligible models, and assessing their usefulness against observations.
