@@ -282,7 +282,7 @@ The purpose of present-day trials is twofold: improve the work being done now, a
 
 The desired culture is disciplined but adventurous: reliable enough to accumulate knowledge, diverse enough to keep discovering alternatives, and flexible enough to revise its own increasingly capable systems. Experimentation is not merely a preliminary phase that ends when rollout begins. It remains a permanent feature of development and institutional life.
 
-### 9.6 Evaluation and proportional adoption
+### 9.7 Evaluation and proportional adoption
 
 Evaluate experiments by their practical effects: successful context handoffs, reduced reload and search friction, fewer missed or duplicated operations, better source-cursor fidelity, reduced scope drift, more reliable retrieval of parked work, useful capability growth, improved work quality, and procedural cost. Record what was actually tested and for how long. Compare benefit against maintenance and attention overhead. Retain, adapt, share or retire components based on evidence.
 
@@ -292,7 +292,7 @@ The overarching aim is a continuously improving but lightweight personal and col
 
 ---
 
-### 9.6 Lateral archive exploration and unexpected cross-application
+### 9.8 Lateral archive exploration and unexpected cross-application
 
 A continuing source of new methods, questions and capabilities is the underused material already accumulated across past conversations and repositories. Periodically explore this material deliberately, with special attention to older conversations and sources that are not already prominent in current work.
 
@@ -307,6 +307,60 @@ A continuing source of new methods, questions and capabilities is the underused 
 This exploration should be balanced with other modes of work. Some tasks require careful planning, controlled execution and evidence discipline; others are straightforward operations that should simply be completed efficiently. Lateral exploration is a complementary mode, not a universal replacement. Its value is often greatest after stepping back from immediate task pressure, clearing the current conceptual frame and deliberately looking across a wider landscape.
 
 The goal is to make serendipity partly cultivable without trying to schedule every discovery: create recurring opportunities for neglected material and unusual connections to enter awareness, then allow their value to emerge through selective exploration.
+
+## 10. Message-level return pins and interruption continuity experiments
+
+A compact message-level return pin is an experimental companion to the executive capsule and the repository-backed work anchor. Its purpose is to keep the exact place in an active workflow visible even when a conversation branches, becomes lengthy, or temporarily loses its original task from immediate context.
+
+### 10.1 The hot pin and miniature work queue
+
+The executive capsule may contain an ultra-condensed work strip with:
+- **PIN / CYCLE SLOT:** a stable, human-readable key for the current workflow position, such as its run key, project cursor, or task slot;
+- **NOW:** the single operation currently in progress;
+- **NEXT:** the precise next action or return point;
+- **PARKED:** a very short pointer to important suspended branches, not a second full task list;
+- **RETURN:** the durable work anchor, receipt, source cursor, or other location from which the work can be verified and resumed.
+
+Keep this strip small. Its job is to orient attention and point into the deeper hierarchy, not to reproduce the whole plan or become another competing state file. The executive capsule should point to the authoritative current-work record; the detailed record should point back to the capsule.
+
+### 10.2 Repeatable message signature
+
+During a substantial extended workflow, experiment with a short sign-off or footer that repeats the current pin at the end of each substantive assistant message. Candidate forms include:
+
+- `PIN <cycle-slot> | NEXT <one action> | RETURN <durable pointer>`
+- `CYCLE <cycle-slot> / <lane> / <NOW→NEXT> / <return pointer>`
+- `<workflow-specific marker> <cycle-slot> | <status> | <resume point>`
+
+The exact style may be standard, purpose-specific, workflow-specific, or deliberately rotated between variants. The stable information is more important than the typography: a compact slot identifier, a one-line next action, and a return pointer. Use a branch marker only when it helps distinguish the mainline from a tangent. Do not confuse the conversational branch marker with the scheduler's slot or worker identity.
+
+Repeat the same pin while the underlying task state remains unchanged. If a tangent begins, keep the original cycle slot visible rather than silently replacing it with the tangent. When appropriate, mark the original work `SUSPENDED_BY_BRANCH` and add a separate branch pointer. Update the pin only when the work genuinely advances, the priority is explicitly changed, or the task is completed or abandoned by decision. If a user explicitly replaces the priority, preserve the former pin as a parked return address rather than erasing it.
+
+This is intended for substantive workflow messages, not every casual exchange or every user-facing artifact. The footer should be brief enough that repeating it costs little attention and makes the previous assistant message an immediately visible breadcrumb.
+
+### 10.3 Interruption and resumption behavior
+
+When a substantial diversion is recognized:
+1. Secure or refresh the suspended task's exact next action and durable return address before allowing the branch to consume the conversation.
+2. Preserve the active cycle slot in the message signature. Mark the mainline as suspended only if that accurately describes its state.
+3. Follow the new discussion without forcing the user to stop and manage the bookkeeping.
+4. If the branch becomes the new priority, give it its own pin and retain the previous one in the parked list.
+5. When asked what was underway before the diversion, use the latest visible pin as a retrieval clue, then verify against the work anchor, task receipt, worker `CURRENT_WORK`, repository state, or other authoritative record. A pin is a locator, not proof of completion or current status.
+
+A pin must never substitute for the underlying durable record. It should make the record easy to find and reduce the chance that the next action disappears from view. If the pin and repository state disagree, flag and reconcile the discrepancy rather than trusting a stale footer.
+
+### 10.4 Experiment with formats before standardizing
+
+Individual workers are encouraged to trial different pin designs now, including compact standard forms, purpose-specific forms, workflow-specific forms, and rotating sign-offs. Compare them rather than assuming the first convenient form is optimal. Possible evaluation criteria include:
+- time and turns required to recover correctly after a long tangent or context transition;
+- missed, duplicated, or incorrectly resumed operations;
+- frequency of stale or ambiguous pins;
+- readability and usefulness to the human collaborator;
+- update friction, token/attention overhead, and compatibility with the worker's capsule;
+- how reliably the pin survives succession to a different conversation or worker.
+
+Record the conditions and observed results. Cross-pollinate successful variants, but retain room for different lanes to prefer different designs. A useful format may be promoted into a shared module or partially standardized protocol after repeated success, but it remains open to later revision, extension, replacement, or retirement. Do not let standardization suppress better local experiments.
+
+This experiment does not authorize new scheduled tasks, changes to existing task IDs, schedules, phases, enabled states, worker ownership, or other protected automation configuration. It is a low-risk message and continuity practice that can be tested during ordinary work while the larger architecture is still being developed.
 
 ## Epilogue: RMS philosophical background
 
