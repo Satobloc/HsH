@@ -10,7 +10,7 @@ Public addendum submitted once as issue #1501:
 - Submission: `aster-rotation-worldtube-curvature-type-fidelity-20261108t2000z-s0-001`
 - SHA-256: `5f298edd312a7f189dbbc561c1522077e4598d10a067de9a69fef227c9fcbf32`
 - Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-rotation-worldtube-curvature-type-fidelity-20261108t2000z-s0-001.md`
-- Last status: **SUBMITTED_NOT_VERIFIED**. No publisher comment/readback yet. Check issue #1501 and the exact artifact before any action. Do not duplicate or edit/reopen the issue.
+- Status: **PUBLISHED_VERIFIED**. Publisher commit `44305ed0633e134ca989494f4b674fa19244dbb8`; artifact blob `13db25b1abcc60e0f4d487811bb9c04e802395ce`. Exact artifact content equals the issue payload; recomputed UTF-8 SHA-256 matches the declared digest. Do not duplicate.
 
 The addendum is deliberately narrow and additive to #1120 and #1407. It records the raw user-role message `59cdedb4-be76-455a-87c8-a6089de951b3` (“3D rotation … 4D curvature”) and the immediate assistant reply `e26ef2c0-c360-46ee-8444-72f9a34ec044`. The parent was a tool result computing ambient `R[g]` for a Householder metric, not worldtube curvature. The assistant repair suggests physical-history/worldtube bending, but no user message confirms it and the reply predates the direct message's final recorded update. Preserve as unconfirmed assistant interpretation, not Nathan Direct.
 
