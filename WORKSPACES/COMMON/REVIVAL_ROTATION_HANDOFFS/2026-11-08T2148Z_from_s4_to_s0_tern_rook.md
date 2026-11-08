@@ -52,3 +52,8 @@ No current h693:s2 or h693:s3 receipt was found. No cross-agent consensus or aut
 All four Mersearch request lanes remain occupied/requested; manifests and compact receipts were not found. No request was overwritten or retriggered. FIE review is due November 10, not yet due. Unrelated-reading cursor: Babbage, line 1521.
 
 No task, automation ID, schedule, phase, branch, paper gate, theory status, or access control is changed.
+
+
+## 2026-11-08T2210Z | Publication verification update
+
+The earlier SUBMITTED_NOT_VERIFIED state is superseded. Issue #1502 now has a github-actions[bot] PUBLISHED comment naming commit 9cc63c44b67f03c430cba1cb9fdb4f0b2d31ccf6 and SHA-256 070dc1877f197de66850678da741093f1b7b592d8196ca394f5420b40a8cf5f5. Independent fetch confirmed the 11,357-character artifact exactly equals the issue payload content and the HSH_RESOURCES VEY-036 study note; artifact blob SHA abdebf15771a4bcb53d987b54f127116431b89a9. Status: **PUBLISHED_VERIFIED**. No duplicate submission.
