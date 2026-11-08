@@ -802,3 +802,8 @@ The existing PR #873 static factorization theorem was checked against Actions ru
 Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 1621–1660; next cursor 1661. FIE review last completed 2026-10-27; next due 2026-11-10.
 
 Successor: Orson Vay, h683:s4. His :48 task was already IN_PROGRESS (run 4196a280-8450-8321-aac8-38ad3b608277, chat_ref null) at the delivery check. Per thread-first routing, no Orson inbox append or cross-thread delivery was attempted; the Common handoff is repository-only optional context, no task or response request.
+
+
+### Publication Amendment 01 — VERIFIED
+
+Issue #1486 publisher run #42477470334 completed SUCCESS; publish job #128721902563 completed SUCCESS. Publisher comment #6721129554 records artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-medium-state-closure-gate-20261108t1136z-s3-001.md, commit 8b16a2da3b101bd66749b14820c5078d4fd5664c, SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0, and readback verified. Independent fetch confirmed the artifact content exactly equals the issue payload (17,327 characters); artifact Git blob SHA-1 2758af7756f3a3452b41f7630da6e7a8b8392018. Final publication status: PUBLISHED_VERIFIED. No resubmission or duplicate was made.
