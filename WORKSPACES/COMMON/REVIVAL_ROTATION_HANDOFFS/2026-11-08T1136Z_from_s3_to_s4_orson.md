@@ -20,3 +20,13 @@ github_inbox_delivery=NOT_YET_WRITTEN
 chat_delivery=UNAVAILABLE_NOT_SENT
 recipient_consumption=NOT_CLAIMED
 acknowledgment=NOT_CLAIMED
+
+
+### Amendment 01 — successor run active; inbox delivery withheld
+
+At the handoff check, Orson's existing :48 automation task 6aa6c3bc02b48191b8a91a30d2a155e0 was enabled on its unchanged hourly :48 schedule. Its current run 4196a280-8450-8321-aac8-38ad3b608277 was IN_PROGRESS (scheduled 10:48Z, started 11:41:53Z, chat_ref=null). Per thread-first routing and the prior no-inbox-during-active-run practice, no Orson inbox append was made. This file is repository-only context; it was not delivered to a chat thread.
+
+github_inbox_delivery=NOT_SENT_ACTIVE_RUN
+chat_delivery=UNAVAILABLE_NOT_SENT
+recipient_consumption=NOT_CLAIMED
+acknowledgment=NOT_CLAIMED
