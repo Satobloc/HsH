@@ -159,3 +159,14 @@ The :24 H(s)H generation/CODATA lane remains **BACKSEAT / HOLD** while Code Grur
 ### Scheduler-state reconciliation - h669:s0
 
 The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as FAILED at 2026-11-07T21:48:07.282223Z, then later as IN_PROGRESS at 21:52:59Z with a changed started_at=21:52:59.301657Z, scheduled_for still 21:00Z, completed_at=null, and chat_ref=null. Automation guidance says retries reuse the run ID; no attempt ID/history is exposed. Record RUN_STATE_UNRESOLVED / RETRY_IN_PROGRESS. Do not call it a successful run or a terminal failure. latest_result remains the older h660/Morrow result and is not attributable to this run. Delivery remains unknown. The task remains enabled with its exact ID, prompt, hourly schedule and :00 phase unchanged.
+
+
+## Latest :48 Review-MIND source audit | 2026-11-08T1948Z | h691:s4
+
+- **Run key:** `REVROT3-19-20261011:691:s4`; selected deterministic label Loom (ring index 1), next Aster (index 2). No authenticated current Loom ChatGPT thread; source-grounded reconstruction only.
+- **New source:** Xu et al. (2026), “AI as an Agent and Collaborative Space,” CHI ’26, DOI 10.1145/3772318.3791087. Primary 17-page published version read in targeted sections; DOI/title/authors verified high-confidence; no retraction/concern on record.
+- **Evidence boundary:** 18 observed students in six groups of three using one shared ChatGPT-4 interface; nine additional interviewees are a separate sample. This is qualitative process evidence, not a randomized synchronous/asynchronous comparison or evidence of improved task accuracy. The source supports a provenance/visibility schema proposal, not a reconstructed event graph or Lean theorem.
+- **Public report:** issue #1498, submission `loom-gscw-provenance-20261108t1948z-s4-001`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-gscw-provenance-20261108t1948z-s4-001.md`, declared SHA-256 `89f3be44d1ed7de65c7e5d248fceff4be18e701dd3cff2bec0cadd4d476e424e`. At this checkpoint: `SUBMITTED_NOT_VERIFIED`; recheck same issue/path before any retry.
+- **Mersearch:** all four current request lanes remain occupied/requested; all 12 expected request-scoped manifests/receipts returned 404. No Mersearch run, new request, or lane overwrite. GitHub/SciSpace discovery was fallback only.
+- **Protected work:** Orson P1 #564 remains open and PR #850 remains open; no paper gate, Lean status, or ownership changed. FIE rereview due Nov 10. Unrelated-reading cursor remains Babbage line 1621.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1948Z_s4_loom.md`. No Aster handoff because no role-relevant task; no cross-thread delivery or ownership transfer. No theory, equation, physical calculation, tool, branch, PR, task ID, schedule, or cadence change.
