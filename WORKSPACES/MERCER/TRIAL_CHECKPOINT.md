@@ -912,3 +912,20 @@ The five-activation trigger was met. The coordinator action plan had recorded tw
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2124Z_s2_mercer.md`, blob `f2c16f0916c786224180670da77e3d871fdf7867`.
 - Reserved outgoing handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-06T2124Z_from_s2_to_s3_ravel.md`; it is the final operation and will be appended/read back in Ravel's existing inbox. Ravel h645:s3 has already started (run `a9cd9cc9-693c-832f-93b4-59362c438f5c`, scheduled 21:36Z, started 21:34:11.116278Z, `in_progress`, `chat_ref=null`), so classify the packet as LATE_OPTIONAL_CONTEXT. No active Ravel thread was verified; next same-identity appearance is h649:s2 / 2026-11-07T01:24Z.
 - No task ID, prompt, schedule, phase, cadence, enabled state, ownership, or task count changed. No sixth task.
+
+
+## Run 161 — 2026-11-08T0348Z | Mercer :48 | h675:s4 | Paper A/B presentation QA
+
+**Disposition:** `NO_REENTRY_TRIGGER / SOURCE_FEED_PASS / PRESENTATION_PENDING_NOT_OBSERVED / ROUTE_READBACK_UNAVAILABLE`.
+
+- The current Code Grurple roster still assigns Mercer independent Paper A+B presentation QA only under the active P0 interlock. No manuscript content was reopened.
+- Paper A current source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` and Paper B current source blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb` both match their unchanged `PAPERS_FEED.json` pins (`e3552fdac0f187b066b59a9742563094efffe011`). Presentation Gate, Reader Routing Registry, and Presentation Contract remain unchanged.
+- Current main branch comparison found no A/B source/feed/renderer/derivative/deployment/route change. The only latest commits after the previous source baseline were a generated discovery refresh and Kestrel→Meridian continuity artifacts, not a presentation trigger.
+- Both legacy `paper.html?id=` routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. Web open is inaccessible; Browser tab access requires the originating browser context; no Sites editor/deployer or exact deployment identity is available. Source pin + feed binding are the only two of six route-chain predicates established per paper. Existing issues #1193, #1144 and #1273 already cover the QA contracts; no duplicate issue or submission was created.
+- No new proposition was extracted; Lean was not run because this activation remained inside the P0 presentation-only scope. No physical calculation, data-free fixture, model/human experiment, manuscript/feed/renderer/site change, or theory promotion occurred.
+- All four Mersearch request lanes remain `requested`; none was overwritten. No Mersearch execution is claimed. Direct GitHub retrieval was a bounded fallback.
+- FIE last full review 2026-10-27; next due 2026-11-10. Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1361–1400; next cursor 1401.
+- Current :48 run `9179576b-1188-8322-bc3e-1f6914842a7a` was last observed `in_progress`, `chat_ref=null`; cached latest result is the prior h674 Enheduanna run, not this occurrence. The :36 Meridian predecessor was also in progress, so no missing/failed handoff is inferred.
+- Report: `WORKSPACES/MERCER/2026-11-08T0348Z_PAPER_A_B_PRESENTATION_QA_NO_REENTRY.md` (blob `c99880095ec7d6777b86a912980d3968f66423ab`).
+- Successor: Ravel h676:s0, optional repository context only; no task, ownership transfer, or response obligation. Historical Ravel ID is not a current-thread authentication; “Finite Tube Holonomy Result” remains without a verified exact ID/usability.
+
