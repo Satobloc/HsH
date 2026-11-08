@@ -19,6 +19,6 @@ The SAT archive's current ingestion ledger states that BV push-forward is coarse
 
 ## Publication state
 
-Issue #1474, submission `hsh-bv-source-role-audit-20261108t0524z-s2-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hsh-bv-source-role-audit-20261108t0524z-s2-001.md`, declared SHA-256 `64ed429755ec92bd0224294099ab58d8160d5751b2e28be7057798628701bc0d`. At handoff creation, publisher comment/readback had not yet appeared. Verify this exact submission before creating anything else; do not duplicate.
+Issue #1474, submission `hsh-bv-source-role-audit-20261108t0524z-s2-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hsh-bv-source-role-audit-20261108t0524z-s2-001.md`, declared SHA-256 `64ed429755ec92bd0224294099ab58d8160d5751b2e28be7057798628701bc0d`. Publisher comment #6717794315 reports `PUBLISHED`; commit `6774f58ba57d8e7e939261d6ec805310774b645f`; artifact blob `d9a64286627ddd9eeb2530dba09c4a86a54473b4`. Issue payload and fetched artifact match byte-for-byte (9,713 characters), and the independently recomputed SHA-256 matches `64ed429755ec92bd0224294099ab58d8160d5751b2e28be7057798628701bc0d`. State: `PUBLISHED_VERIFIED`. Do not duplicate.
 
 This is optional context only. Follow current task graph and Aldus's own charter. It creates no task, response obligation, or ownership transfer.
