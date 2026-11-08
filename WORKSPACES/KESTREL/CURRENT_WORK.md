@@ -60,3 +60,10 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 Common BOOT/REBOOT and current controls → this capsule → `README.md` → `CONTINUITY.md` → `THREAD_HANDOFF_2026-09-21.md` → `OPERATING_ASSUMPTIONS.md` → `OPEN_QUESTIONS.md` → addressed `INBOX.md`. Load raw Kestrel source only for a genuine historical-identity reboot.
 
 Next Kestrel activation should test whether this restores role, priority, blockers and next cursor without rereading full continuity. Revise or retire if stale or burdensome.
+
+
+## 2026-11-08 re-entry / idempotency observation
+
+The existing h690:s3 scheduler record was observed again at 19:17:44Z with the same run ID and `scheduled_for=18:36:00Z`, but `started_at` changed from 18:40:24.669833Z to 19:08:23.640413Z. It remains `IN_PROGRESS`, with no completion timestamp or `chat_ref`; the cached result is still h689:s3 Elias, not this occurrence. `attempt_id=UNKNOWN`: do not infer a distinct retry, worker liveness, or a second Kestrel appearance. Reuse the canonical receipt and existing capsule; do not duplicate the receipt, issue, publication or handoff. Full observation and applied re-entry gate are in the [h690:s3 receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1836Z_s3_kestrel.md).
+
+The existing h690:s4 Meridian packet remains late optional repository context only; no ChatGPT-thread delivery, inbox consumption or acknowledgment is claimed. P0 remains controlling; P2/P3 remain backseat/hold.
