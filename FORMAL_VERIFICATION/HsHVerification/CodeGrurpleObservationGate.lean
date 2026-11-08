@@ -92,6 +92,12 @@ def bindingsCurrent (s : State) : Bool :=
 def routeProbeAuthorized (s : State) : Bool :=
   bindingsCurrent s && s.observationCapability
 
+/-- Binding validity is independent of the separately granted observation bit. -/
+theorem bindingsCurrent_ignores_observation_capability (s : State) (capability : Bool) :
+    bindingsCurrent { s with observationCapability := capability } = bindingsCurrent s := by
+  cases s
+  rfl
+
 def clearSource (s : State) : State := { s with source := none }
 def clearFeed (s : State) : State := { s with feed := none }
 def clearAdapter (s : State) : State := { s with adapter := none }
@@ -158,12 +164,14 @@ theorem capability_revocation_blocks_probe (s : State) :
     missing or mismatched source-to-route identity chain. -/
 theorem capability_grant_requires_complete_identity_chain (s : State) :
     routeProbeAuthorized (step s .capabilityGranted) = bindingsCurrent s := by
-  simp [routeProbeAuthorized, bindingsCurrent, step, grantObservation]
+  simp [routeProbeAuthorized, step, grantObservation,
+    bindingsCurrent_ignores_observation_capability]
 
 theorem capability_grant_cannot_repair_incomplete_chain (s : State)
     (h : bindingsCurrent s = false) :
     routeProbeAuthorized (step s .capabilityGranted) = false := by
-  simp [routeProbeAuthorized, bindingsCurrent, step, grantObservation, h]
+  rw [capability_grant_requires_complete_identity_chain]
+  exact h
 
 theorem source_change_does_not_grant_capability (s : State) :
     (step s .sourceChanged).observationCapability = s.observationCapability := by
@@ -199,6 +207,7 @@ theorem mismatched_route_deployment_binding_blocks_probe
 #print axioms deployment_change_invalidates_probe
 #print axioms route_change_invalidates_probe
 #print axioms capability_revocation_blocks_probe
+#print axioms bindingsCurrent_ignores_observation_capability
 #print axioms capability_grant_requires_complete_identity_chain
 #print axioms capability_grant_cannot_repair_incomplete_chain
 #print axioms source_change_does_not_grant_capability
