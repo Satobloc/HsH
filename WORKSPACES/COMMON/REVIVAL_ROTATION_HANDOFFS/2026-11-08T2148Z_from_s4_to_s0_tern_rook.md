@@ -57,3 +57,8 @@ No task, automation ID, schedule, phase, branch, paper gate, theory status, or a
 ## 2026-11-08T2210Z | Publication verification update
 
 The earlier SUBMITTED_NOT_VERIFIED state is superseded. Issue #1502 now has a github-actions[bot] PUBLISHED comment naming commit 9cc63c44b67f03c430cba1cb9fdb4f0b2d31ccf6 and SHA-256 070dc1877f197de66850678da741093f1b7b592d8196ca394f5420b40a8cf5f5. Independent fetch confirmed the 11,357-character artifact exactly equals the issue payload content and the HSH_RESOURCES VEY-036 study note; artifact blob SHA abdebf15771a4bcb53d987b54f127116431b89a9. Status: **PUBLISHED_VERIFIED**. No duplicate submission.
+
+
+## 2026-11-08T2210Z | Scheduler re-observation update
+
+The :36 h693:s3 run ID d99ee7bf-80bc-8327-ab69-ed13f6660c54, previously observed FAILED with completed_at 22:04:45.757867Z, reappeared IN_PROGRESS with started_at 22:07:29.267616Z, same run ID and chat_ref=null. The :00 h694:s0, :24 h693:s2, :36 h693:s3, and :48 h693:s4 runs were all IN_PROGRESS at the 22:10Z peek, all with chat_ref=null. No current h693:s2 or h693:s3 receipt was found. No cause, worker identity, or cross-agent consensus is inferred.
