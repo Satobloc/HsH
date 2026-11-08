@@ -12,6 +12,12 @@ dependency edge. The identifiers stand for externally verified version
 identities. They are not hashes computed by Lean, and this module does not
 inspect repository bytes, a PDF, a deployment, or a live reader.
 
+The route and deployment must also name the same deployment target. This
+prevents a successful build in one hosting namespace (for example, GitHub
+Pages) from being mistaken for deployment identity in another (for example,
+ChatGPT Sites). The target labels are formal inputs, not observations of a
+live deployment.
+
 The model is invalidation-only. Rebinding requires a new State constructed
 after the external source/feed/build/deployment checks have actually passed.
 It formalizes no browser security property, no live route state, and no
@@ -23,6 +29,14 @@ namespace HsHVerification.CodeGrurpleObservationGate
 /-- Abstract version identity. The external workflow must bind this token
     to the actual SHA/deployment identifier; Nat is not a hash function. -/
 abbrev ArtifactId := Nat
+
+/-- Hosting/deployment namespace. A route is valid only for the target that
+    actually produced its deployment artifact. -/
+inductive DeploymentTarget where
+  | githubPages
+  | chatgptSites
+  | other
+deriving DecidableEq, Repr
 
 structure SourceArtifact where
   id : ArtifactId
@@ -46,11 +60,13 @@ deriving DecidableEq, Repr
 structure DeploymentArtifact where
   id : ArtifactId
   derivativeId : ArtifactId
+  target : DeploymentTarget
 deriving DecidableEq, Repr
 
 structure RouteArtifact where
   id : ArtifactId
   deploymentId : ArtifactId
+  target : DeploymentTarget
 deriving DecidableEq, Repr
 
 inductive Event where
@@ -84,7 +100,8 @@ def bindingsCurrent (s : State) : Bool :=
       decide (adapter.feedId = feed.id) &&
       decide (derivative.adapterId = adapter.id) &&
       decide (deployment.derivativeId = derivative.id) &&
-      decide (route.deploymentId = deployment.id)
+      decide (route.deploymentId = deployment.id) &&
+      decide (deployment.target = route.target)
   | _, _, _, _, _, _ => false
 
 /-- A route probe requires both a complete identity chain and an
@@ -189,6 +206,36 @@ theorem mismatched_source_feed_binding_blocks_probe
         route := some route, observationCapability := capability } = false := by
   simp [routeProbeAuthorized, bindingsCurrent, h]
 
+theorem mismatched_deployment_target_blocks_probe
+    (source : SourceArtifact) (feed : FeedArtifact)
+    (adapter : AdapterArtifact) (derivative : DerivativeArtifact)
+    (deployment : DeploymentArtifact) (route : RouteArtifact)
+    (capability : Bool) (h : deployment.target ≠ route.target) :
+    routeProbeAuthorized
+      { source := some source, feed := some feed, adapter := some adapter,
+        derivative := some derivative, deployment := some deployment,
+        route := some route, observationCapability := capability } = false := by
+  simp [routeProbeAuthorized, bindingsCurrent, h]
+
+theorem github_pages_ne_chatgpt_sites :
+    DeploymentTarget.githubPages ≠ DeploymentTarget.chatgptSites := by
+  decide
+
+theorem github_pages_deployment_cannot_authorize_chatgpt_site_route
+    (source : SourceArtifact) (feed : FeedArtifact)
+    (adapter : AdapterArtifact) (derivative : DerivativeArtifact)
+    (deployment : DeploymentArtifact) (route : RouteArtifact)
+    (capability : Bool)
+    (hDeployment : deployment.target = DeploymentTarget.githubPages)
+    (hRoute : route.target = DeploymentTarget.chatgptSites) :
+    routeProbeAuthorized
+      { source := some source, feed := some feed, adapter := some adapter,
+        derivative := some derivative, deployment := some deployment,
+        route := some route, observationCapability := capability } = false := by
+  apply mismatched_deployment_target_blocks_probe
+  intro hEqual
+  exact github_pages_ne_chatgpt_sites (hDeployment.symm.trans (hEqual.trans hRoute))
+
 theorem mismatched_route_deployment_binding_blocks_probe
     (source : SourceArtifact) (feed : FeedArtifact)
     (adapter : AdapterArtifact) (derivative : DerivativeArtifact)
@@ -212,6 +259,9 @@ theorem mismatched_route_deployment_binding_blocks_probe
 #print axioms capability_grant_cannot_repair_incomplete_chain
 #print axioms source_change_does_not_grant_capability
 #print axioms mismatched_source_feed_binding_blocks_probe
+#print axioms mismatched_deployment_target_blocks_probe
+#print axioms github_pages_ne_chatgpt_sites
+#print axioms github_pages_deployment_cannot_authorize_chatgpt_site_route
 #print axioms mismatched_route_deployment_binding_blocks_probe
 
 end HsHVerification.CodeGrurpleObservationGate
