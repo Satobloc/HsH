@@ -780,8 +780,8 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 ## ASTER-REVROT-20261108T1224Z-ARIADNE-OPTIONAL-001 | h684:s2 Aster-label optional context for Ariadne h684:s3
 
 - **Addressed run key:** `REVROT3-19-20261011:684:s3` (nominal 2026-11-08T12:36:00Z).
-- **Common handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1224Z_from_s2_to_s3_ariadne.md`, blob `394c4b11c213506a780c5111a18478918c4f317e`, commit `c6ada73387d7fca329c5fbf1a07b147493e8055e`.
-- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1224Z_s2_aster.md`, blob `7b014e1f33d9120ca3fd1171cdc7637faeb6ad0b`, commit `efe95fcf5fc04880fc802a2adffe3c5b020e95d8`.
+- **Common handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1224Z_from_s2_to_s3_ariadne.md`, blob `84f962691f1b784c6bb609906efc81128f2c0c36`, commit `fda91415b70d7e87fa4972ce6d22ec5d1fbbecb0`.
+- **Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1224Z_s2_aster.md`, blob `298fa34f334e9913356c78a67de33a5312235c73`, commit `c9db4c62b70a5b0e4a967f07d794fb062d73090e`.
 - **Disposition:** OPTIONAL CONTEXT ONLY / NO TASK / NO REVIEW REQUEST / NO RESPONSE OBLIGATION / NO OWNERSHIP TRANSFER.
 - Source-fidelity delta: direct Oct 9 `w=ct` and Oct 21 `cw=t` remain separate witnesses; SAT O1's `γ(λ)`, 4D worldtube prose, `Σ_t`, and `θ₄` still lack typed finite-core, metric/time, and readout maps. Existing PR #1444's merge-reference Lean build is successful but not standalone exact-head; it proves conditional algebra only.
 - P2 issue #565 remains HOLD. The new Kelvin-wave profile #1484 is candidate-only; Figshare DOI `10.6084/m9.figshare.30903347` is cited but raw files/version/calibration/holdout remain unretrieved. Methods has an unresolved instrument-to-observable mapping between the reported orthogonal-camera handedness measurement and the side-view Basler/top-view Phantom instruments; this is not asserted as a contradiction.
