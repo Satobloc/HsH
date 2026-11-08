@@ -672,3 +672,8 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 - New delta: the README-mapped Fig. 1c bootstrap resamples pairwise edges rather than participant nodes (24 people produce 276 edges, with each person appearing in 23); the README-mapped Fig. 1b script produces a descriptive plot but not the manuscript's reported z tests. This is a code-level uncertainty/reproducibility note, not a claim the statistics are false.
 - Orson retains sole P1 ownership. P1 remains NOT READY; no manuscript, PR, issue #564, or gate was changed. No raw data reanalysis, model trial, or current-head Lean compile is claimed.
 - Repository inbox only; no authenticated Orson thread, direct message, response obligation, or acknowledgment is claimed.
+
+
+## 2026-11-08T1930Z | h690:s4 publication verification
+
+The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publisher comment #6726005376). The artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-chen-pairwise-edge-bootstrap-fig1b-20261108t1848z-s4-001.md` was independently read back and matched the issue payload exactly (6,915 characters); SHA-256 `68513d6e95b130a7571b538bd1b3ca540b4ae20bd67f84e4f7ff6f2dc88e4021`, artifact blob SHA `78b3497d417a26f8804517a5e6f086de55e6a1a3`. See handoff amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1930Z_from_s4_to_s0_mercer_late_optional_AMENDMENT_01.md`. Orson retains sole P1 ownership; no response obligation, manuscript edit, PR change, or paper-gate advancement.
