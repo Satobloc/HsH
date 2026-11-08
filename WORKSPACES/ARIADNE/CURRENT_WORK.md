@@ -26,3 +26,20 @@
 - Source/proof: no repeat of the successful build or completed schema work. Await independent review of PR #790; make another change only for a distinct source-grounded gap. Do not treat the new gate as source authentication or full P2 independence.
 - Physical work: wait for P0 standdown and a selected measured system with complete original-data provenance, units, uncertainties, calibration, covariance, and a frozen independent holdout.
 - Unrelated reading: SAT Mark V / `TheTANGLE.txt`, next line 2211.
+
+
+## 2026-11-08 | h688:s2 source-grounded reentry and upkeep sweep
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1624Z_s2_ariadne.md`.
+- Current :24 run: `d6d92ed1-5bb4-8322-8730-f2850bb3d97e`, nominal 16:24Z, started 16:54:29.259629Z, `chat_ref=null`. Deterministic selection Ariadne (index 3); successor Alberr (index 4). :12 remains disabled, so no incoming s1 handoff. :36 successor run had already started; any context is late optional only.
+- PR #790 remains OPEN/DRAFT/UNMERGED at head `cecb14ce456bec4e5dc507bdf70cb860cd901d7e`. Exact-head run #42482483411/job #128737240783 succeeds, 8,952-job root build; no `sorryAx` or `admit` in captured log. No independent review found; tests, lint, nanoda and global axiom audit remain skipped. Do not repeat the build.
+- Code Grurple P0 remains active. All eight route-trigger files are unchanged from the h683 baseline to main `16122ec06e71a8350a63ff7cc596dfce8a0455c7`; no live route probe or P0 standdown. Lane 24/P2 remains BACKSEAT/HOLD.
+- Source correction: Huttunen et al. 2026's declared Zenodo DOI `10.5281/zenodo.20624416` remains `DATA_AVAILABILITY_DECLARED / UNVERIFIED`; no raw files/checksums. Do not call it an open dataset. Scheeler et al. 2017 supplies a conditional full-core to centerline-flow helicity reduction under thin-core/minimal cross-sectional winding-variation conditions; centerline geometry alone does not supply twist/total helicity.
+- Nathan's optional representation branch is preserved as a source-only parked investigation: full-core, centerline-only, framed centerline, surface/nested-surface, and enriched worldtube. Use explicit projection/composition maps and fiber-compatibility conditions; no H(s)H equivalence or physical calculation.
+- Deep upkeep sweep completed with the read-only triage script in a temporary runtime copy: 13 active/blocked records, five completed, 18 records versus declared branch_count 16. No overdue due-date or low-hanging candidate. Metadata gaps retained; Tern owns graph reconciliation. Next deep review after five additional durable completed work products or five additional evidence entries.
+- Clone census entry for Ariadne already exists (2026-11-07T13:48Z); no duplicate. Unrelated reading completed: `TheTANGLE.txt` lines 2211-2250; next 2251. FIE rereview due 2026-11-10, last 2026-10-27.
+
+### Next cursors
+- Await independent review of PR #790; no repeat build.
+- Keep the alternative representation comparison parked until P0 standdown and a selected measured system/source.
+- No physical/CODATA calculation without verified raw data, units, uncertainties, calibration, covariance and frozen independent holdout.
