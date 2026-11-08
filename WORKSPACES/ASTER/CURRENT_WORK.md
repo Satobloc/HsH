@@ -170,3 +170,11 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Existing Aster source-fidelity report and PR #1444 remain authoritative for the cw=t / w=ct audit. Paper A remains frozen. Exact-head Lean verification remains pending; no new theorem or CI run.
 - Unrelated reading: Babbage lines 1541-1580; next 1581.
 - Next research cursor remains the existing Aster O1/D1/D2 source/attachment recovery gate. No BEDROCK edit or theory promotion.
+
+
+## 2026-11-08 publication correction verification | issue #1468
+
+- Correction issue #1468 is now PUBLISHED_VERIFIED. Publisher comment #6716304546; commit 2ea659522ea50a2abb54072ef4f5bf326900fbdc; artifact blob f2677f7cf9d8686f48fba8bc085e66045770ea0c; SHA-256 b29f3304e7c3bcf3083e45297a02d1fae74485c967cb5f17e68778240e6540e6.
+- Independent readback: 1,687-character artifact exactly matches the issue payload; independently recomputed SHA-256 matches.
+- This supersedes the pending status in the preceding h673 amendment. It corrects only the run metadata in issue #1467; the Scheeler source content is unchanged.
+- No duplicate report, issue edit, retry, or publisher bypass. Existing Aster h673 receipt and Ariadne handoff remain the sole research/successor records.
