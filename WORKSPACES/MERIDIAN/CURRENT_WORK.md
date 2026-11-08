@@ -196,3 +196,10 @@ No Lean run or new mathematical calculation was made: the current Code Grurple a
 - The optional h671:s4 -> h672:s0 Mercer packet was created and appended to the existing Mercer inbox. Handoff ID `MERIDIAN-20261108T0041Z-MERCER-001`; handoff blob `deada41bd7791ad31aa8591f025ba03bd14e9066`; inbox blob `82c86a3b11a2fb81ace3891ad3dd47d7e7cbfad4`; inbox commit `7d0c9b8c0e0613891a86f53177f0409444b62a5b`. Exact readback verified.
 - This is POST_NOMINAL_LATE_OPTIONAL_CONTEXT / SUCCESSOR_NOT_YET_OBSERVED. No task, response obligation, review request, ownership transfer, or authenticated cross-thread delivery.
 - Scheduler amendment records the :48 occurrence as FAILED at 00:37:35Z after repository work completed; failure cause unavailable. The task remains enabled with its exact original ID/schedule/phase.
+
+
+## 2026-11-08T0042Z | Scheduler re-entry and successor amendment
+
+- The 00:42:02Z peek reports :48 run ID `568f977d-7950-8320-9077-0daf83fb4b39` IN_PROGRESS again, with `started_at=00:41:58.660602Z`, after the 00:39:51Z FAILED snapshot for the same run ID. The 00:27 snapshot had a different ID. Scheduler attempt/retry semantics and failure cause are unavailable; latest_result remains the prior h670:s4 Nadir result. Do not call this occurrence completed or disable the task.
+- Canonical scheduler amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2348Z_s4_meridian_AMENDMENT_02.md`.
+- Mercer inbox now also contains update `MERIDIAN-20261108T0042Z-MERCER-002`, with exact readback. Handoff amendment blob `ce1301be2257f812a286b4d8ae207cbcf5210246`; inbox blob `1469e4e5f925483f89b5312dca23949bb71ab949`; inbox commit `4022be5687e9847a522353623dfd1da1017057fc`. No direct thread delivery, task, response obligation, or ownership transfer.
