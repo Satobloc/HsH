@@ -43,10 +43,10 @@ The :36 execution lane requires one bounded architecture/workflow improvement pe
 
 - Working pair: worldtube/worldline plus timesheet; responsive medium remains a provisional third-state candidate.
 - Finite-core support is source-level content, but profile, numerical thickness, embedding and metric/gluing maps remain unresolved. First-order coil scale `ell_f` is not filament thickness.
-- Kelvin-vortex or equivalent response is active, tentative and falsifiable; no constitutive law/readout is established. Local twist/connection and contact-surface law remain undefined.
+- Kelvin-vortex or equivalent response is active, tentative and falsifiable; no constitutive law/readout is established. Local twist/connection and contact-surface law remain undefined. WWRD climbing-rope mechanics is a first-blush geometric heuristic, not a physical equivalence.
 - Recursive Klein-Fabric construction is conceptually recovered, but manifold/topology, gluing, metric/causal structure and local/global composition maps remain untyped.
 - `theta_4`: preserve the 2024 moving-plane two-knob source and 2026-08-27 inverse-pitch/oblateness wording separately. The raw 2026-09-16 event behind BR-005 remains unrecovered; retain normal-relative `theta_4=0` without silently converting the 90° source reference. Ravel's all-plus equations are assistant reconstruction, not direct SAT-O/Blockwave equations.
-- No system-specific prediction, fit, threshold or independent measurement exists.
+- No system-specific prediction, fit, threshold or independent measurement exists. Rotate the next lens across local/global and inside/outside; treat GR/string-theory/SM-QM/information correspondences as test hypotheses, not assumed equivalences.
 
 ## Reuse; do not duplicate
 
