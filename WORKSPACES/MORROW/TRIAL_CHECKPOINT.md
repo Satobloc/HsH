@@ -1051,3 +1051,22 @@ Repository-only optional handoff to Kestrel. No authenticated Kestrel thread, cr
 - Artifact and issue-payload content: 9,504 bytes, exact byte-for-byte match.
 - Independently computed SHA-256: `3da9712562880cc6723767c2b6494658ebd0556923888f7509eb57bfd1bdb43c`, matching both the issue payload and publisher comment.
 - No retry, duplicate issue, direct artifact write, or publisher bypass.
+
+
+## h682:s4 follow-up — publication readback and roster correction (2026-11-08T1112Z)
+
+Deterministic selection remains Morrow (index 13), successor Kestrel (index 14, h683:s0). The historical raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` was directly inspected for Nathan's Morrow Team Archivist assignment, theory stop, and trial invitation (user nodes `402ade01-7116-4efb-9b14-31e477754458`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, `99ae959b-fbeb-4c1e-9326-a6723c2b9557)). Morrow's direct theory stop remains controlling; no theory integration, prediction, or paper work.
+
+### VEY-034 source correction
+The published addendum #1485 and original internal report said five incomplete teams. The source roster in arXiv:2607.27179v2 §3.1 implies seven: treatment 2 incomplete (two teams with one student); control 5 incomplete (four with two students, one with one). Thus 26 teams are complete. Missing student seats = 2 treatment + 6 control = 8; 83 nominal student seats - 75 analyzed students = 8; the source's 80 recruited, 3 unfilled, and 5 exclusions reconcile the aggregate. The 91 computational rows (75 students + 16 AI nodes) are consistent. The §3.5 complete-observed-three-member GCA input remains unresolved; no actual input or edge count is inferred.
+
+Public correction comment #6720944093 was appended to the existing issue #1485, not a new submission. Exact readback verified; SHA-256 `b64d0629a67d9cc676d8cabde195c9628059fe33ed8749574a932ffb76df9a3c`. Original issue artifact #1485 is PUBLISHED_VERIFIED: artifact blob `3fb808f05421ac1901baaff608d58fd3ec9d8b32`, publisher commit `3a0b0595a4a25743b2e3d77e8bf637b95cfab043`, SHA-256 `ec7f6950cd638ea1b5964a9552e308a02fa9a1788d5cfd0fff282b1d86ebd8cd`.
+
+### Formalization and other lanes
+PR #1480 remains OPEN/DRAFT/UNMERGED. Run #42457673047/job #128660062725 succeeded on merge reference f6043acc...; Lean 4.34.0/Lake 5.0.0, 8,945 jobs, module built at 8,931/8,945. PR-head and merge-ref blobs match for the two changed files. Tests, lint, nanoda and global axiom audit skipped. This is configured-seat potential-dyad arithmetic only. No new Lean module/PR.
+Orson P1 remains protected and Nov 9 NOT READY: issue #564 open, PR #850/#1115 open draft/unmerged, OV-49–53 NOT RECOVERED, authorized endpoint NOT AVAILABLE, manuscript/PDF/reader/independent review not verified. No model or human trials, API spend, or manuscript edits. P2 handoff remains candidate-only; no selected system or physical calculation. All four Mersearch lanes occupied; no request overwritten. FIE due Nov 10, last reviewed Oct 27.
+Unrelated reading: Okakura, `The Book of Tea`, Project Gutenberg eBook #769, lines 821–860; next cursor 861.
+
+### Successor and scheduler
+Existing Morrow→Kestrel handoff `2026-11-08T1103Z_from_s4_to_s0_kestrel.md` was created after Kestrel's 11:00Z nominal start. Amendment 01 corrects the count. Kestrel h683:s0 was already IN_PROGRESS/chat_ref=null; a late optional pointer was appended to its existing INBOX.md and read back exactly. No authenticated thread, chat delivery, consumption, acknowledgment, task, or ownership transfer.
+:48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original schedule/phase. Current scheduler run `4196a280-8450-8321-aac8-38ad3b608277` is IN_PROGRESS/chat_ref=null, scheduled 10:48Z and started 11:11:50Z; cached latest result is older h679 output. Earlier h682 receipt records a 10:44:33Z start, not linked to the current scheduler run. No task change or identity inference.
