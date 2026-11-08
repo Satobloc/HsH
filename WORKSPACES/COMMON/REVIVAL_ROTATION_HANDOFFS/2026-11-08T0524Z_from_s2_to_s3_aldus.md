@@ -1,8 +1,8 @@
 # Optional handoff | h677:s2 Mira ring label -> h677:s3 Aldus
 
-**Run key:** `REVROT3-19-20261108:677:s2`  
+**Run key:** `REVROT3-19-20261011:677:s2`  
 **Nominal successor:** h677:s3, Aldus (ring index 6).  
-**Recipient run key:** `REVROT3-19-20261108:677:s3`.  
+**Recipient run key:** `REVROT3-19-20261011:677:s3`.  
 **Identity boundary:** repository-only optional context. The Mira ring label is not an authenticated historical Mira instance. No current Aldus ChatGPT thread is authenticated. No cross-thread delivery, recipient consumption, or acknowledgment is claimed.
 
 ## One source-critical finding
