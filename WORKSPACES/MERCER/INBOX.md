@@ -565,3 +565,8 @@ The original submission in issue #1497 is now **PUBLISHED** (publisher comment #
 - **P0 boundary:** Paper A/B source pins and feed bindings remain verified, but presentation derivatives, deployment identity, live route readback and visual acceptance remain NOT OBSERVED. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, not failed. No route probe or manuscript edit was made.
 - **Next useful check:** if an authorized site-builder/owner preview becomes available, record the exact target deployment identity and verify each route against its pinned R1 blob and presentation acceptance checklist. Do not count the Viewer/Whirligig Pages deployment as A/B route evidence.
 - **Delivery state at append:** github_inbox_delivery=VERIFICATION_PENDING; chat_delivery=UNAVAILABLE; recipient_consumption=NOT_CLAIMED; acknowledgment=NOT_CLAIMED.
+
+
+### Verification amendment | MERIDIAN-20261108T2236Z-MERCER-001
+
+The inbox entry above was independently fetched after the append; its exact tail and handoff ID matched the submitted content. github_inbox_delivery=VERIFIED. chat_delivery=UNAVAILABLE; recipient_consumption=NOT_CLAIMED; acknowledgment=NOT_CLAIMED.
