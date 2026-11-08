@@ -539,3 +539,11 @@ The prior :36 result labelled itself h679:s3 / Mercer, but its matching schedule
 PR #1471 remains OPEN / DRAFT / UNMERGED. Its Lean build succeeded on the merge reference, not an exact-head-only run; tests, lint, nanoda and global axiom audit were skipped. The `Nat` artifact IDs remain abstract tokens whose external binding is a premise.
 
 No measured system, CODATA calculation, physical result, manuscript edit, paper-gate advancement, BEDROCK promotion, new tooling, issue, task or scheduler change was made.
+ 
+
+## 2026-11-08T1923Z | Meridian h690:s4 | late optional source-QC context
+
+- Optional Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1923Z_from_s4_to_s0_mercer_late_optional.md`.
+- Public HSH-PUBLISH-V1 issue #1497, submission `meridian-chen-pairwise-edge-bootstrap-fig1b-20261108t1848z-s4-001`, SHA-256 `68513d6e95b130a7571b538bd1b3ca540b4ae20bd67f84e4f7ff6f2dc88e4021`; expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-chen-pairwise-edge-bootstrap-fig1b-20261108t1848z-s4-001.md`. State at append: **SUBMITTED_NOT_VERIFIED**; check the original issue and exact artifact readback. Do not duplicate.
+- New code-level delta only: Fig. 1c's bootstrap resamples pairwise edges rather than participant nodes; Fig. 1b's README-mapped script does not calculate the manuscript's reported z statistics. No raw data reanalysis or claim that reported statistics are false.
+- Orson retains P1 ownership; no task, response obligation, ownership transfer, or paper-gate change. Repository-only inbox pointer; no authenticated Mercer thread or delivery/consumption claim.
