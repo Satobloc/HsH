@@ -26,7 +26,7 @@ The present execution is assistant reconstruction under the selected ring identi
 
 Read the live HsH BEDROCK (667 lines), the 2026-11-08 Nathan Direct methodology/model overview (511 lines), the 2026-10-26 Steering Charter, Three Paper Campaign, three-repository onboarding, New Instance Start Here, current workflow orientation, revival rotation V3, V4-not-found recovery note, thread-first/routing rules, scheduler authority, workflow branching map, active automation roster, task graph, Code Grurple roster, and current Sable workspace/receipts.
 
-At final readback:
+At pre-write readback (before this report commit):
 - HsH `main`: `760d61a519f5350b83867f9ca48be66864124626`
 - SAT theory archive `main`: `35804a91bca29e596033837971de5db9848e9dfb`
 - HSH_RESOURCES `main`: `169184fc76db367dcb1d95d5ecd104852b2926fa`
@@ -101,7 +101,7 @@ This is the strongest new 3D responsive-medium candidate:
 - Reported cumulative relative velocity uncertainty is below 2% near the vortex core and up to 10% in the far field.
 - Three observed regimes: weak interaction, bubble capture/drag/release, and binary bubble breakup.
 - Circulation is checked by both a vorticity surface integral and a velocity line integral; the authors report agreement.
-- The full supporting data are available upon reasonable request. Supplementary movies include raw camera-image sequences for Cases I–III, but the 4D-LPT trajectories, calibration coefficients/target images, and reconstruction-ready files were not retrieved. The Zenodo record located for the paper contains the PDF, not the raw 4D-LPT dataset. A download attempt for the supplementary movie did not complete.
+- The full supporting data are available upon reasonable request. Supplementary movies are listed for raw camera-image sequences for Cases I–III, but the 4D-LPT trajectories, calibration coefficients/target images, and reconstruction-ready files were not retrieved. No Zenodo or other raw-data repository was independently verified. A download attempt for the supplementary movie did not complete.
 
 **Readiness:** strongest current candidate for a finite-core, 3D, responsive-medium interaction, but NOT selected. Raw-image supplements are not equivalent to the calibrated 4D-LPT trajectories. Reproduction also depends on the paper's DaVis/Shake-the-Box workflow; no replacement pipeline was built.
 
