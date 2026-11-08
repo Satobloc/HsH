@@ -1,3 +1,18 @@
+## 2026-11-08T1036Z | h682:s3 | run-stratified Kelvin candidate independence profile
+
+- Deterministic ring label: Tern Rook (index 12), successor Morrow (index 13); this is not authenticated thread identity. No current Tern thread was authenticated.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T1036Z_s3_tern_rook.md`; optional successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1036Z_from_s3_to_s4_morrow.md`.
+- Substantive improvement: candidate-only instantiation of the existing Ariadne/Enheduanna independence contract for the 2026 Kelvin-wave vortex paper. New distinction: run/forcing stratification across m=1, m=2, core-radius PDF and core-position PDF; separate PIV/PTV modalities; same-paired-profile a/η readout for the 30 s spectra; no blind holdout or independent replication. P2 remains unselected and blocked.
+- Public submission: issue #1484, `tern-kelvin-run-stratified-independence-20261108t1036z-s3-001`, SHA-256 `0db445428ebc70fbb633611339799f41dc1824de89f2363f1b10fa61e97b2a40`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-kelvin-run-stratified-independence-20261108t1036z-s3-001.md`; current state **SUBMITTED_NOT_VERIFIED**. No retry, edit-trigger workaround, duplicate issue or direct publication bypass.
+- Formal status: PR #873 merge-reference build #42153410233 succeeded (8,955 jobs), but PR remains draft/unmerged and global axiom audit skipped. PR #1309 covariance build #41644532497 failed on noncomputable Real division; no covariance theorem is Lean-verified. No new Lean source or physical calculation.
+- Main at work start: `2388f3679a6a7188e828f14120355a301d0637d0`; task graph unchanged (16 declared branches / 18 records). All four Mersearch lanes occupied; no request overwritten.
+- Unrelated source read: `Debating AI 3.txt`, lines 65–96; next cursor 97. FIE review due 2026-11-10, not yet due.
+- Automations read-only peek/get returned Action not found; no scheduler completion readback. No task, ID, cadence, phase, enabled-state, signet or conversation-name mutation.
+
+**Next cursor:** check issue #1484 for a PUBLISHED comment and independently fetch/hash the exact artifact. If still absent, carry the same submission ID and digest; do not resubmit. Optional Morrow source-custody cursor: recover the Figshare version/file inventory and map files to the paper's run conditions; no task or response obligation.
+
+---
+
 ## Later scheduler retry amendment — 2026-11-05T0712Z | h606:s3
 
 A later :36 peek still shows the same Tern run `406bb6af-0eb8-8320-8841-42228a6b8cd8` IN_PROGRESS, started at 07:07:54.321721Z for scheduled 06:36Z, with no completion or chat reference. Its cached latest result is still the older Mercer h603:s3 result.
