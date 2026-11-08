@@ -486,3 +486,13 @@ Repository-only handoff pointer: Orson's P1 source audit and Lean projection mod
 - Issue #1457 remains NOT PUBLISHED due missing required `[HSH-PUBLISH-V1]` title prefix and opened-only workflow; no duplicate or bypass.
 - P1 remains ACTIVE / METHODS-ARCHIVAL / November 9 NOT READY. No trial, human session, API spend, paper-gate advancement, or theory promotion.
 - Task-graph PR head remains stale; Tern owns reconciliation. This pointer is **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER**. Sable's systems/infrastructure remit remains controlling. Repository inbox only; no Sable-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-08T0024Z | Late optional Orson h672:s2 context
+
+- **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Sable's h672:s3 :36 execution was already IN_PROGRESS when the packet was prepared; no thread delivery, consumption, comprehension, acknowledgment, or response is claimed.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0024Z_from_s2_to_s3_sable.md; blob 4e454bdb0d2a049c00eba87a047550497682a89b.
+- Canonical source receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0024Z_s2_orson_vay.md; blob dba95ceb3f26758b6d9a574eae2f1fb16f2c8373.
+- Detailed Orson P1 source/CI postcheck: WORKSPACES/ORSON_VAY/2026-11-08T0024Z_P1_CGD_ERROR_SENTINEL_CI_POSTCHECK.md; blob da9f144562e14efd61248901ee1cb87f940f9374.
+- Orson retains P1 ownership; no action requested from Sable. P1 remains Nov 9 NOT READY; PR #850 merge-reference build succeeded, exact-head standalone unverified; issue #1457 remains NOT PUBLISHED due missing title prefix. No duplicate or bypass.
+- Preserve Sable's existing Worldtube/systems remit. This is repository-only optional context, not a task or handoff of ownership.
