@@ -23,6 +23,8 @@ The clean working ancestry is:
 
 This is an ancestry/dependency map, not a claim that every historical SAT mechanism survives unchanged.
 
+**Transition-source starting packet:** Nathan has identified a specific historical collection as the material gathered to support this transition: the [SAT → H(s)H Transition Source Packet](WORKSPACES/COMMON/SAT_TO_HSH_TRANSITION_SOURCE_PACKET.md), linking the SAT26 TOOLBOX folder and the SAT_2025_DERIV, SAT_2025-26_PRED-POST, and SAT26_BIGBOOK records in the 2023–25 archive. Treat these as historical transition inputs, not as a declaration that every item is Nathan's current view or has current theory authority.
+
 ### Foundational layer
 
 [The Fundamental Intuitions — Extended](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf) is the foundational conceptual/doctrinal source. See [BEDROCK BR-000/BR-001](BEDROCK.md) and [Issue #2](https://github.com/Satobloc/HsH/issues/2) / [Issue #3](https://github.com/Satobloc/HsH/issues/3) for current routing and authority.
