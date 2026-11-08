@@ -638,3 +638,11 @@ The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was first observed FAILED a
 - The existing Aster source-fidelity report and PR #1444 remain authoritative for the w=ct/cw=t source audit. No Paper A review reopened, no new Lean, no physical calculation, no CODATA, and no BEDROCK promotion.
 - Babbage unrelated-reading cursor advanced from 1541 through 1580; next line 1581.
 - Repository-only status. No authenticated Aster or Ariadne thread delivery, consumption, or acknowledgment is claimed.
+
+
+## h673 run-key correction verified | 2026-11-08
+
+- Issue #1468 is PUBLISHED_VERIFIED. Publisher comment #6716304546; commit 2ea659522ea50a2abb54072ef4f5bf326900fbdc; artifact blob f2677f7cf9d8686f48fba8bc085e66045770ea0c; SHA-256 b29f3304e7c3bcf3083e45297a02d1fae74485c967cb5f17e68778240e6540e6.
+- Independent readback: exact 1,687-character match between issue payload and artifact; SHA-256 recomputation matches.
+- This corrects only issue #1467's h674/Calder/Hale run header. The source note remains unchanged; no duplicate report or thread attribution is created.
+- Existing Aster h673 receipt and Ariadne handoff remain the sole records. Repository-only optional context; no ChatGPT-thread delivery or acknowledgment.
