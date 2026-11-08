@@ -19,8 +19,8 @@ Preserve Ravel's specialist remit: finite cores, worldtubes, particle geometry, 
 
 ## Delivery status
 
-- Common handoff file: repository-created.
-- Ravel inbox: to be appended and read back.
+- Common handoff file: repository-created and exact-readback verified.
+- Ravel inbox append: VERIFIED by exact repository readback after append.
 - ChatGPT-thread delivery: UNAVAILABLE / NOT SENT.
 - Recipient consumption: NOT CLAIMED.
 - Acknowledgment: NOT CLAIMED.
