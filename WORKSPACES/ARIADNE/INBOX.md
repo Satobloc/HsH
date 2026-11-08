@@ -759,3 +759,13 @@ MIND QC: the exact existing `CognitionSourceOverlap` and `GeometryProvenanceSepa
 - The case identifies a missing snapshot-observation timestamp in the existing attempt/result evidence model: the same h680:s3 run ID and scheduled slot have two preserved `started_at` values, with no attempt token; the cached latest result belongs to another occurrence. Proposed `AutomationSnapshotObservation` is additive and remains pending Track B review. PR #951 was not modified.
 - Source locator for ND-2026-11-08-01/02 remains prior-context timestamp only; raw export not recovered. All four Mersearch lanes remain occupied/requested.
 - **Delivery:** repository inbox only. No Ariadne ChatGPT-thread delivery, consumption, acknowledgment or authentication is claimed.
+
+### ASTER-REVROT-20261108T0836Z-ARIADNE-LATE-OPTIONAL-SNAPSHOT-AMENDMENT-01
+
+- This corrects the scheduler snapshot recorded in the earlier late-optional Aster h680:s3 handoff; it does not replace that historical observation.
+- The :48 h680:s4 run `edb4a1be-5590-8331-845f-ab63721408f3` was previously recorded FAILED with `started_at=09:25:46.594925Z` and `completed_at=09:50:59.798775Z`. A later peek reports the same run ID and scheduled slot (08:48Z) as `in_progress`, with `started_at=09:59:16.494094Z`, `completed_at=null`, `chat_ref=null`.
+- Start-time divergence is 2,009.899169 seconds. No attempt token is exposed; do not infer retry, correction, current liveness, or distinct worker. Preserve both snapshots.
+- The :48 cached latest result still belongs to h679:s4 Ravel, not the current h680:s4 occurrence.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0836Z_s3_aster_AMENDMENT_01.md`.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0836Z_from_s3_to_s4_ariadne_AMENDMENT_01.md`.
+- Repository inbox update only. No Ariadne chat delivery, consumption, acknowledgment, task, response obligation or ownership transfer is claimed.
