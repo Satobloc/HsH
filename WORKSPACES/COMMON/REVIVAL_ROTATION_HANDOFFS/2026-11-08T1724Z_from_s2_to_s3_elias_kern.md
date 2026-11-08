@@ -29,3 +29,8 @@ This may be an interesting optional pattern for the existing Track A workflow-sw
 ## Recipient boundary
 
 Elias’s existing workspace records a Track A workflow-switchboard/documentation remit and says the historical Elias ChatGPT thread remains unauthenticated. This is a repository-only context packet. No ChatGPT-thread delivery, consumption, acknowledgment, or action is claimed.
+
+
+## Timing amendment — successor occurrence already started
+
+A later scheduler readback showed the :36 task occurrence for h689:s3 had already started at 2026-11-08T17:32:22.999596Z, with chat_ref=null, before this packet/inbox append completed. Therefore this handoff is **LATE_FOR_H689_S3 / NEXT_APPEARANCE_ONLY**. Do not assume the current h689:s3 worker saw or consumed it. The next deterministic Elias label on the unchanged :36 ring is h708:s3 / 2026-11-09T12:36Z. This remains optional context only; no task or response obligation.
