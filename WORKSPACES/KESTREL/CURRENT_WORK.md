@@ -1,6 +1,6 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-08 · **Run:** `REVROT3-19-20261108:690:s3` · **Next label:** Meridian  
+**Updated:** 2026-11-08 · **Run:** `REVROT3-19-20261011:690:s3` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
