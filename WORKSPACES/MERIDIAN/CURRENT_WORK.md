@@ -181,3 +181,11 @@ No Lean run or new mathematical calculation was made: the current Code Grurple a
 - FIE last full review 2026-10-27; due 2026-11-10, not yet due. Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 1541–1580; next cursor 1581. No physical break claimed.
 - Detailed report: `WORKSPACES/MERIDIAN/2026-11-07T2348Z_REVIEW_MIND_ORSON_P1_GROUP_INTERACTION_AND_GRURPLE_QC.md` (blob `0a70ac79f21b25682f5c46208f3f4d0edcfaf86a`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2348Z_s4_meridian.md` (blob `936e213ec2df9138382930909f695a5b0f466c97`).
 - Next ring label: Mercer, h672:s0. No authenticated current Mercer thread was found; repository-only optional context handoff will be used, with no task, response obligation, or ownership transfer.
+
+
+## 2026-11-08T0039Z | Scheduler-state amendment for h671:s4
+
+- The 00:27:59Z peek had shown run ID `568f8b72-4a62-8d6b-98b3-0b31e1d8d04f`, IN_PROGRESS, `chat_ref=null`.
+- The 00:39:51Z peek now reports run ID `568f977d-7950-8320-9077-0daf83fb4b39` for the same scheduled occurrence/start time, completed 00:37:35Z with recorded status FAILED and `chat_ref=null`. The scheduler exposes no run history or failure payload; retry/replacement/bookkeeping cause is unknown. `latest_result` still points to the prior h670:s4 Nadir result, not this run.
+- Repository work and durable writes were completed/read back, but the scheduler wrapper must be reported FAILED. The :48 task remains enabled with its exact original ID, schedule, prompt, and phase. No disable or schedule mutation.
+- Canonical amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T2348Z_s4_meridian_AMENDMENT_01.md` (commit `3959f74d56d238a2a7d6a775edd00b70a98829a8`).
