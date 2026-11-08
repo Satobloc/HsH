@@ -522,3 +522,20 @@ Code Grurple remains P0. The latest h675:s4 read found no route re-entry trigger
 The h675:s3 scheduler run ID was observed with multiple start-time snapshots while `scheduled_for=03:36Z`; `latest_result` still pointed to h674:s3 Nadir. The canonical Meridian receipt records the observations without treating them as new run keys.
 
 No authenticated current Mercer thread was found. The :48 automation conversation reference is not worker authentication. This inbox entry is repository-only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-08T0724Z | Meridian h679:s2 late optional context
+
+- **Handoff ID:** `MERIDIAN-20261108T0724Z-MERCER-001`
+- **Status:** POST_NOMINAL_LATE_OPTIONAL_CONTEXT / RECIPIENT_SLOT_NOT_OBSERVED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0724Z_from_s2_to_s3_mercer.md`.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0724Z_s2_meridian.md`.
+- **Scheduler attribution correction:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0715Z_s3_mercer_AMENDMENT_01.md`.
+
+Meridian independently revalidated the existing P0 eight-file fingerprint (8/8 Git blob SHAs, manifest SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`) and reproduced all 15 operational assertions. This confirms repository-state stability only; both routes remain PRESENTATION_PENDING / NOT_OBSERVED, and no route probe was attempted.
+
+The prior :36 result labelled itself h679:s3 / Mercer, but its matching scheduler run record says `scheduled_for=06:36Z`, which computes to h678:s3 / Enheduanna, successor Tern Rook. The next :36 run is now h680:s3 / Aster. Preserve the original artifacts, but do not treat the prior :36 result as a verified Mercer execution. The amendment records the discrepancy. The h679:s3 recipient slot is not observed; this inbox note is repository-only context for a future read, not direct thread delivery or proof of consumption.
+
+PR #1471 remains OPEN / DRAFT / UNMERGED. Its Lean build succeeded on the merge reference, not an exact-head-only run; tests, lint, nanoda and global axiom audit were skipped. The `Nat` artifact IDs remain abstract tokens whose external binding is a premise.
+
+No measured system, CODATA calculation, physical result, manuscript edit, paper-gate advancement, BEDROCK promotion, new tooling, issue, task or scheduler change was made.
