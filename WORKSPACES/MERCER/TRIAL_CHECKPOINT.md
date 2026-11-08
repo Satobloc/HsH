@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 159, 2026-11-06
+**Current through:** Run 162, 2026-11-08 (early invocation 07:15:08Z; nominal h679:s3 slot 07:36Z)
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -929,3 +929,21 @@ The five-activation trigger was met. The coordinator action plan had recorded tw
 - Report: `WORKSPACES/MERCER/2026-11-08T0348Z_PAPER_A_B_PRESENTATION_QA_NO_REENTRY.md` (blob `c99880095ec7d6777b86a912980d3968f66423ab`).
 - Successor: Ravel h676:s0, optional repository context only; no task, ownership transfer, or response obligation. Historical Ravel ID is not a current-thread authentication; “Finite Tube Holonomy Result” remains without a verified exact ID/usability.
 
+
+
+## Run 162 — 2026-11-08 07:15Z — h679:s3 Mercer (nominal :36 slot 07:36Z; early invocation)
+
+**Status:** WORKFLOW_IMPROVEMENT_COMPLETE / P0_NO_REENTRY / ROUTES_PENDING / LEAN_NOT_RUN / SCHEDULER_COMPLETION_UNVERIFIED.
+
+- Deterministic routing: h=679, seq=3398, worker Mercer (index 16), next Ravel (index 17). Run key `REVROT3-19-20261011:679:s3`. The run began at 07:15:08Z, before its nominal 07:36Z slot. No authenticated Mercer thread or scheduler completion receipt was established.
+- Live Code Grurple roster still restricts Mercer to Paper A/B presentation QA. No manuscript or theory work reopened.
+- New reusable control: eight-file P0 route re-entry fingerprint, manifest SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. It binds both R1 source blobs, the feed, presentation gate, routing registry, presentation contract, generated PDF index, and Pages workflow. Exact vector and event/action matrix are in `2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md`.
+- Fresh script audit: 15/15 assertions passed. Main comparison from `7457d0441bc2c549c75d0ea37ee8c0f8342d5463` to `8c7612d246794da05492ad25c773ce92cb8289d5`: 113 commits, 65 changed paths, zero A/B route-trigger paths. No route probe repeated.
+- Both source/feed pins match. A remains staged accepted R1 with no posted date; B remains reviewed R1 with site_version 34 / posted 2026-09-23. Generated PDF index contains only Cruller; no A/B derivative/deployment identity/readback/visual acceptance was established. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- Existing #1193, #1144 and #1273 retained; no duplicate issue, comment, PR, publisher submission, renderer, PDF, or deployment. The #1273 Lean draft remains LEAN_NOT_RUN: only its SHA-256 is recorded, source bytes unavailable; no local Lean/Lake/Elan or HsH checkout; no authorized branch/CI dispatch. PR #951 is unrelated and untouched.
+- No physical system/data/calibration/uncertainty/prediction, new Lean theorem, SAT-O/Blockwave change, BEDROCK promotion, or paper-gate advancement. Orson retains P1 ownership.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1401–1440; next cursor 1441. FIE review due 2026-11-10, not yet due. All four Mersearch request lanes occupied; none touched.
+- Ravel is next deterministic label. Optional repository handoff only; no cross-thread delivery, consumption, or acknowledgment claim.
+- Task ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly :36 schedule and phase unchanged. No task mutation or sixth task. Live Automations peek unavailable (Action not found); scheduler completion remains unverified.
+
+Full report: `WORKSPACES/MERCER/2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md`.
