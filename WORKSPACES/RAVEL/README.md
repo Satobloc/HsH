@@ -124,3 +124,12 @@ The PR #993 branch advanced to d3026aab30f2b4f67b219286c6187afea23733eb after ad
 ### Latest PR-head status at relay close (2026-11-07)
 
 Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee9dc996e316dc82664a8a933585b. Exact-head workflow run 42330897900, job 128276931880, was still IN_PROGRESS at final readback. This is a documentation-only source comment recording the Gnech–Schiavilla current-operator LEC calibration dependency; the formal statements and executable arithmetic are unchanged from the preceding verified head d3026aab30f2b4f67b219286c6187afea23733eb (run 42330303736 SUCCESS). Carry run 42330897900 forward for verification; do not duplicate the PR or submission.
+
+
+## 2026-11-08T0755Z | h679:s4 Review-MIND source/CI QC update
+
+The current scheduled assistant execution used the deterministic Ravel label; this is not an authenticated historical Ravel thread. Readback-verified report: [Ravel source-graph and Lean replay QC](2026-11-08T0748Z_REVIEW_MIND_RAVEL_SOURCE_GRAPH_AND_LEAN_REPLAY_QA.md), Git blob `7831369c5ea4a05a1d1eaa94d894f9925d620928`.
+
+**CI status correction:** PR #1133 run #41947575131 completed SUCCESS on merge reference `9aae205d46db1e0e132cf52d72c5c26be9d6b9f0`; its five Ravel modules match the current PR head, while the root aggregator also includes the current base-branch Nadir module. PR #993 run #42330897900 completed SUCCESS on merge reference `32cd73bc9b69145bc2d2d07556cb6538342449fe`; all nine Ravel modules match the current PR head, while the root aggregator differs by the base-branch Nadir import. Both are merge-reference builds, not standalone exact-head builds. Global axiom-audit stages were skipped. The prior "exact-head" label for #993 is superseded.
+
+No physical calculation, H(s)H prediction, P2 system selection, theorem addition, theory promotion or paper-gate advancement. P2 remains HOLD. Orson's P1 ownership and November 9 NOT READY gate remain unchanged. Next cursor: preserve the source-defined map gap for the third Nathan-direct representation and require explicit maps before any physical equivalence claim.
