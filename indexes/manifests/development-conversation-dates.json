@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-11-08T13:43:21.349076+00:00",
+  "generated_at_utc": "2026-11-08T15:44:50.203705+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 934,
-    "skipped": 437
+    "skipped": 437,
+    "renamed": 11
   },
   "records": [
     {
@@ -13306,6 +13307,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/1-n Dart System Patent — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.04.10•25.04.10•1-n Dart System Patent — raw [collision-6e99389333].json",
+      "start_local": "2025-04-10T05:35:56.823000-04:00",
+      "end_local": "2025-04-10T05:35:56.823000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/24.11.15•24.11.15•Consciousness AI Analysis — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/24.11.15•24.11.15•Consciousness AI Analysis — raw.json",
       "start_local": "2024-11-15T00:31:17.872504-05:00",
@@ -13446,6 +13459,42 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Create Rotating Animation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/26.11.07•26.11.07•Create Rotating Animation — raw [collision-9a663e9418].json",
+      "start_local": "2026-11-07T15:12:27.725000-05:00",
+      "end_local": "2026-11-07T19:08:15.500314-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 42,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Data Search and Prediction Assessment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.06.01•25.06.01•Data Search and Prediction Assessment — raw [collision-20da231634].json",
+      "start_local": "2025-06-01T09:50:35.497000-04:00",
+      "end_local": "2025-06-01T09:55:19.368792-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 9,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Exposure Settings for DIY Cameras — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.01.22•25.03.18•Exposure Settings for DIY Cameras — raw [collision-61c27a9bc4].json",
+      "start_local": "2025-01-22T05:41:04.512248-05:00",
+      "end_local": "2025-03-18T20:36:35.331766-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 27,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Fine-structure Constant Variation - current branch.json",
       "new_path": null,
       "start_local": null,
@@ -13455,6 +13504,18 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Fusion Constraints and Domain Walls — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw [collision-514c3b8902].json",
+      "start_local": "2025-05-09T15:40:23.629000-04:00",
+      "end_local": "2025-05-09T15:40:24.532216-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
       ]
     },
     {
@@ -13470,6 +13531,30 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Patentability Analysis of Dart System — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.04.10•25.04.10•Patentability Analysis of Dart System — raw [collision-f3ed50edb9].json",
+      "start_local": "2025-04-10T05:38:24.270000-04:00",
+      "end_local": "2025-04-10T06:05:54.272699-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 20,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Proof Consistency Check — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.06.01•25.06.01•Proof Consistency Check — raw [collision-ad81ff3ed6].json",
+      "start_local": "2025-06-01T14:41:30.939000-04:00",
+      "end_local": "2025-06-01T14:41:31.313436-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Star Explosions_ No Chain - current branch.json",
       "new_path": null,
       "start_local": null,
@@ -13479,6 +13564,54 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Theory of Everything_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.10.29•25.10.29•Theory of Everything_ — raw [collision-6da9c0373f].json",
+      "start_local": "2025-10-29T14:41:47.425000-04:00",
+      "end_local": "2025-10-29T14:54:53.416209-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 11,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Unified Physical Theory Proposal — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.05.04•25.05.04•Unified Physical Theory Proposal — raw [collision-18b4cf8f72].json",
+      "start_local": "2025-05-04T01:16:51.872698-04:00",
+      "end_local": "2025-05-04T01:18:55.036000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Unifying Physics Theories — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.05.04•25.05.04•Unifying Physics Theories — raw [collision-e61c75964e].json",
+      "start_local": "2025-05-04T02:45:04.401086-04:00",
+      "end_local": "2025-05-04T02:45:04.795000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/What is SAT — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/25.06.01•25.06.01•What is SAT — raw [collision-a9183f4c98].json",
+      "start_local": "2025-06-01T10:11:04.970000-04:00",
+      "end_local": "2025-06-01T10:11:41.159182-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
       ]
     },
     {
