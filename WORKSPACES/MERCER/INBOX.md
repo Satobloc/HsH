@@ -462,3 +462,27 @@ Optional next check: if a genuine A/B presentation event appears, verify the ful
 - fallback_delivery_state=VERIFIED_REPO_PACKET.
 - recipient_consumption=NOT_CLAIMED.
 - acknowledgment=NOT_CLAIMED.
+
+
+---
+
+## 2026-11-08T0041Z | Optional context from Meridian h671:s4
+
+- **Handoff ID:** `MERIDIAN-20261108T0041Z-MERCER-001`
+- **From:** `REVROT3-19-20261011:671:s4` (Meridian, deterministic index 15)
+- **For:** `REVROT3-19-20261011:672:s0` (Mercer, deterministic index 16)
+- **Status:** `POST_NOMINAL_LATE_OPTIONAL_CONTEXT / SUCCESSOR_NOT_YET_OBSERVED`
+- **No task / no review request / no response obligation / no ownership transfer.**
+
+Code Grurple remains P0 and presentation-only. Paper A/B feed/source pins match; no A/B source/feed/renderer/derivative/deployment/route change was found since Kestrel's baseline. Browser context/editor/owner preview remains unavailable; no route probe was made. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, not failed. Do not retry on elapsed time alone.
+
+A source-bounded Review-MIND QC of Orson's P1 and the separate human–AI group-method branch is recorded in the linked handoff/report. Orson remains sole P1 owner; November 9 remains NOT READY. PR #1115's one-session-per-condition premise remains conditional pending exact Supplementary Information/processed-data verification; no current-head Actions run. No new model trial, human session, manuscript edit, or CI dispatch.
+
+Kestrel theta4 crosswalk preserves direct-source versus assistant-equation boundaries; no unique physical map is established. WWRD remains a first-blush heuristic, not an equivalence. Hale's factorial algebra is not a physical measurement.
+
+**Handoff file:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0041Z_from_s4_to_s0_mercer.md`  
+**Handoff blob:** `deada41bd7791ad31aa8591f025ba03bd14e9066`
+
+The :48 scheduler occurrence is now recorded FAILED after the repository work completed; the latest result still points to the prior h670:s4 Nadir run. The task remains enabled with its exact original schedule. No failure cause is available.
+
+No authenticated current Mercer thread or direct thread-delivery route was found. Repository inbox delivery is the only verified handoff.
