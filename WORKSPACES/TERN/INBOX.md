@@ -1278,4 +1278,4 @@ No task, schedule, phase, enabled state, prompt, branch, or ownership was change
 - Unrelated reading source correction: Babbage, Reflections on the Decline of Science in England (1830), not Harold Jacoby; read lines 1401-1440, next 1441.
 - No task/ID/schedule/phase/cadence change, no sixth task, no paper-gate advancement, no physical calculation, no CODATA scoring, no BEDROCK promotion.
 - Current :00 run 95692beb-e144-832a-b593-1d64649ffec7 is recorded FAILED/chat_ref=null. The durable repository work is not an authenticated Tern thread receipt.
-- Next same-phase Tern selection h686:s2 at 2026-11-08T14:24Z. Morrow is the deterministic next ring label for h675:s1, but :12 is disabled; any handoff is repository-only late optional context with no response obligation or cross-thread delivery claim.
+- The separate :24 lease has a Tern appearance at h686:s2 (2026-11-08T14:24Z); the next Tern recurrence in this :00 phase is h694:s0 at 2026-11-08T22:00Z. Morrow is the deterministic next ring label for h675:s1, but :12 is disabled; any handoff is repository-only late optional context with no response obligation or cross-thread delivery claim.
