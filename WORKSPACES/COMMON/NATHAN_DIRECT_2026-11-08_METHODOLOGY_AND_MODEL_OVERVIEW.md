@@ -7,52 +7,44 @@
 
 > **Provenance note:** This document is an assistant-prepared transcription and organization of Nathan's direct statement in the conversation dated 2026-11-08. It is not a verbatim transcript and must not be represented as though Nathan authored this file. The source conversation is the primary source; no immutable message UUID or export locator was available during this capture. Preserve the distinction between Nathan's claims, this editorial organization, and any future mathematical reconstruction.
 
-## 1. Epistemological foundation: RMS, not a universal information ontology
+## 1. RMS as the always-operative philosophical background
 
-H(s)H and SAT epistemology are grounded in RMS, or refinements of RMS. No universal principle about the structure, conservation, retention, encoding, recoverability, or completeness of information is to be asserted as an H(s)H/SAT axiom merely because it is philosophically attractive or mathematically convenient.
+RMS is not a short list of negative rules about information, prediction, or observational completeness. It is the philosophical background that we recognize as always operative in principle, including while ordinary practice proceeds through the familiar conventions of human language, concepts, models, and shared scientific work.
 
-The observer does not encounter the universe as a complete object. An observer's evidence consists of a finite, situated experiential domain: observations, records, testimony, inherited descriptions, memories, and inferences. Even if every available piece of information in that domain were extracted, and even if the observer could somehow establish that extraction as complete, this would not establish that the domain is representative of all possible interactions or that its regularities determine every unobserved state.
+In practice, we ordinarily speak as though objects, properties, events, causes, laws, observations, and explanations are stable features of a coherent world. RMS does not require us to abandon that language or continually qualify every sentence. It reminds us what this language and practice amount to at the philosophical level: conventions through which we describe the **apparent coherence of our perceptual world** and the **apparent convergences of our shared observation space**. Those apparent coherencies and convergences make it possible to construct models that apparently explain observations and make predictions.
 
-A model may be maximally consistent with all observations to date and may continue to predict every subsequent observation encountered. That establishes durable apparent adequacy over the tested domain. It does not establish that the model is complete, that its success must continue, or that no additional phenomenon could enter the observer's experience.
+The qualification is not a special exception applied only to claims about information. It is the general background condition of modeling and knowing. Our ordinary models, measurements, causal accounts, mathematical structures, and claims of predictive success all operate within it. We can use them rigorously and productively without mistaking their practical success for a view from outside all possible points of view.
 
-The two possibilities remain open:
-- A new observation may eventually appear, requiring revision of the model. The later model may appear more complete, but no finite accumulation of observations establishes that it is now complete or that the earlier state was demonstrably incomplete in every relevant sense.
-- No new observation of a certain kind may ever appear within an observer's entire experiential history. The observer's model may then be entirely sufficient for everything that observer ever experiences, even if phenomena exist outside that experiential domain. Such phenomena are not part of that observer's operational universe unless they enter, can enter, or are reconstructable within that observer's possible experience.
+### 1.1 Model choice is also a human-directed preference
 
-Even claims of increased knowledge are provisional. Memory of former knowledge and experience may be inaccurate; remembered information may have been forgotten; later beliefs may be more elaborate but less accurate; an apparent memory may itself be a present perception interpreted as past. A judgment that knowledge has improved is therefore not infallible.
+We recognize that there are always indefinitely many, and in general without bound, possible models that can be effective with respect to a given body of observations. The choice among effective models is therefore not determined by predictive fit alone.
 
-### 1.1 Information questions must remain distinct
+H(s)H/SAT deliberately prefers models that leverage human geometric and physical intuitions as effectively as possible. The aim is to make the account intelligible to human understanding: to strain the construction toward a model whose structure, mechanisms, and relationships can be grasped, inspected, reasoned about, and extended by human thinkers.
 
-Do not collapse these questions into one another:
+This is a **methodological preference**, not a universal law of nature and not a claim that the most intuitive model must be the true one. More complex models may be effective; they may be more or less elegant, useful, or preferable under other criteria. We choose to impose the additional discipline of human intelligibility because an explanatory model that can be understood and worked with is a valued goal of this project.
 
-1. **Information in a complete history:** By definition, a genuinely complete history contains the information belonging to that history. But a limited observer cannot know that they possess the complete history, nor know with certainty that they do not.
-2. **Information encoded in a present physical state:** This depends on the physical and informational construction. It may be possible, but is not guaranteed by the existence of a complete history.
-3. **Recoverability from a state:** In-principle reconstruction of other states may be possible in a genuinely holographic universe, or from one or more privileged holographic slices in a non-holographic universe. Neither condition can be established merely from an observer's apparent success at reconstruction.
-4. **Access by a particular observer:** Access depends on what is encoded in the observer's accessible region and whether the observer is embedded in a region or slice with the relevant encoding. Even if such a region exists, the observer cannot establish with certainty that they occupy it.
+Accordingly, model selection has at least two distinct considerations:
+- **Adequacy:** how effectively the model organizes the apparent regularities of the available observation space and makes predictions that continue to agree with observations.
+- **Intelligibility:** how effectively the model uses human geometric and causal intuitions to make those regularities understandable.
 
-A holographic universe is one possible construction: every accessible portion might contain enough information to reconstruct every other accessible portion. Another possibility is a non-holographic universe with one or more privileged slices that encode all information about the present slice and other slices. A slice intersecting such a privileged slice might also have special access. These are possibilities, not H(s)H premises. Repeated successful reconstruction within an accessible domain cannot rule out the arrival of a new, non-deducible piece of information.
+These considerations can reinforce one another, but they are not identical. Intelligibility is a deliberate preference in our research program, not proof of empirical adequacy.
 
-The distinction between information in a complete history and information encoded in a present state is important, but neither side licenses a universal information-retention law. Do not assert that information must be preserved, recoverable, or encoded in a present slice.
+### 1.2 The observer's experiential boundary and provisional knowledge
 
-### 1.2 Dimensionality and equivalent encodings
+An observer works from within their own perceptual experience and the shared observational practices available to them. Statements about what lies beyond that experience are expressed through the same conventional resources of language, concepts, testimony, inference, and modeling. They are not comparisons with an independently accessible external viewpoint.
 
-Distinguish spacetime dimensionality from the dimensionality of a physical state space conceptually. However, if two encodings can always be constructed to be observationally equivalent from every non-omniscient observer's point of view, then their distinction is conceptual rather than empirically discriminable for those observers. An omniscient observer is only a limiting thought experiment; even an apparent external view of an entirety might itself be a slice of something larger.
+This does not make empirical work pointless or reduce every model to arbitrary opinion. It describes the conditions under which empirical practice is possible: we identify apparent regularities, coordinate observations, construct models, compare their consequences with subsequent experience, and revise them when that experience calls for revision. The results can be extraordinarily robust and practically reliable while remaining situated within the observer's experience.
 
-For the observed universe, four dimensions are presently part of the empirical representational grammar. If and only if those are the only relevant dimensions, and no holographic or otherwise equivalent encoding is available, a complete representation of the observed system must account for the four-dimensional structure. A four-dimensional block is one such representation, but any construction containing the same information would serve. Even possession of all information in the apparent 4D block would not establish that the block exhausts all information there is.
+The previous formulation that presented RMS primarily as a prohibition on universal information principles, followed by “durable predictive adequacy remains provisional,” was too narrow. The provisional character of predictive claims is one consequence of the broader RMS background, not an adequate definition of RMS itself.
 
-Information can be present in any nonzero-dimensional structure. “Preservation” is a construct meaningful from a limited point of view or relative to a chosen reference domain, because it presupposes the possibility of loss, discontinuity, or comparison. An omniscient observer would not experience loss in the ordinary observer-relative sense. Do not turn this conceptual point into a universal law about dimensionality or preservation.
+### 1.3 Information, holography, dimensionality, and prediction remain open questions within the model
 
-### 1.3 The absolute experiential boundary
+The earlier discussion of complete histories, present-state encoding, holographic universes or privileged holographic slices, recoverability, observer access, equivalent dimensional encodings, reversible or irreversible dynamics, and the possible arrival of new observations remains relevant as an exploration of what a limited observer can establish. It should not be mistaken for the definition of RMS.
 
-Every observer is limited by their own perceptual experience. Statements about what lies outside that experience are representations, inferences, testimony, or speculation, not direct comparison with an external view. This limitation applies whether an observer is restricted by time, space, both, a light cone, a physical barrier, or some other boundary. Even an observer who happened to possess all information about everything there is could not make a directly experienced comparison with anything outside their own perception.
+No universal information-preservation, holography, or observational-completeness axiom is being added to H(s)H/SAT. Equally, RMS is not merely the assertion of those absences. Such matters can be investigated in particular physical models and observational domains, while retaining the recognition that our descriptions and conclusions are made from within the apparent coherence of our perceptual and shared observational world.
 
-Operational models may still have meaning through possible instrumental connections, testimony, and future testability. But no observer can turn an inaccessible external perspective into a directly verified one.
+The working practice remains: construct models to the best of our ability from the observations available, test their consequences against further observations, and revise them when needed. Alongside empirical adequacy, deliberately prefer constructions that make effective use of human geometric and physical intuition, while keeping that preference distinct from claims about what the universe must be.
 
-### 1.4 Dynamics under incomplete observation
-
-Every observer is in the category of incomplete observation. Reversible dynamics, deducible past dynamics, or deducible future dynamics may also hold in a given universe, and an observer may discover a method that successfully reconstructs or predicts states. The only warranted assessment is whether that method continues to agree with observations encountered after its adoption. Without access to the totality, the observer cannot know that the agreement will continue indefinitely.
-
-**Methodological consequence:** Construct models to be maximally consistent with past observations and hope that they remain consistent with future observations. Do not posit a universal feature of the universe that guarantees this success.
 
 ## 2. Minimal geometric model and primitive discipline
 
