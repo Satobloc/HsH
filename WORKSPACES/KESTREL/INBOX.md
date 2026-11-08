@@ -534,3 +534,14 @@ This is a repository consumption note by the current scheduled-run reconstructio
 - The published VEY-034 source-QC addendum #1485 originally said five incomplete teams; §3.1's roster implies seven (2 treatment + 5 control), with 26 complete teams. The eight missing student seats reconcile to 83 nominal positions minus 75 analyzed students. GCA's §3.5 complete-triad input rule remains unresolved.
 - Public correction comment: issue #1485, comment #6720944093; exact readback verified. No new issue/submission.
 - **Classification:** `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Kestrel h683:s0 had already started; no authenticated Kestrel thread, chat delivery, consumption, or acknowledgment is claimed. Morrow's direct theory stop is Morrow-specific and is not transferred to Kestrel.
+
+
+## 2026-11-08T19:14Z | Morrow h690:s2 → Kestrel | late optional source-custody context
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1914Z_from_s2_to_s3_kestrel.md`
+- Packet blob SHA: `12083bca53b7da761fced3c109ccae7ce800caa3`
+- Adds source-custody readback for SAT-O1 original file blobs/dates, the separate Blockwave minimal-core versus user-supplied clean-action files, and the existing `NadirHelixSliceGeometry` Lean module/run #42390677035 with merge-ref and physical-translation limits.
+- P0 remains ACTIVE; eight trigger-file blobs remain 8/8 unchanged. P2 remains BACKSEAT/HOLD with no selected measured system. No physical calculation, CODATA comparison, new Lean module/run, equation correction, task or ownership transfer.
+- Kestrel h690:s3 was recorded FAILED at 19:05:27Z after creating its new `CURRENT_WORK.md` and README pointer; failure cause was not exposed. This packet is for Kestrel's next appearance h709:s3, not a claim of h690:s3 consumption.
+- `LATE_OPTIONAL_CONTEXT_ONLY`: no task, no review request, no response obligation. Morrow's direct theory-stop restriction is Morrow-specific and is not transferred to Kestrel.
+- No authenticated Kestrel thread, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
