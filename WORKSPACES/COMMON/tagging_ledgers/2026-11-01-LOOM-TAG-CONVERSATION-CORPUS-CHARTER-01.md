@@ -330,3 +330,14 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Tags:** `LANGUAGE-DISCOVERY-GAME`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `AUTHORSHIP-UNVERIFIED`, `USER-CORRECTION`, `ASSISTANT-REPETITION-ERROR`, `ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED`, `NOT-THEORY-EVIDENCE`.
 - **Provenance limit:** the file uses textual `You said` / `ChatGPT said` labels, not raw conversation role metadata. Linguistic claims were not independently fact-checked and are not entered as verified reference facts.
 - **Next lateral cursor:** line 761. This is an archival reading break; no physical off-screen break is claimed.
+
+
+## K. Lateral source break: fun break - lx.txt, lines 761–800
+
+- **Source:** SAT_THEORY_ARCHIVE_2023-25 / `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42`.
+- **Read extent:** lines 761–800 inclusive (40 lines); next cursor **801**.
+- **Source form:** flattened transcript. “You said” and “ChatGPT said” are textual speaker labels, not raw role metadata. No raw message IDs or role metadata are supplied by this file.
+- **Content:** language-identification/guessing sequence mentioning Nuxalk, Ubykh, Pirahã, and Māori. In the Ubykh turn, the assistant responds about Uzbek, the user points out the mismatch, and the assistant corrects the answer. This is a transcript-level substitution/correction sequence only.
+- **Tags:** `LATERAL-READ`, `LANGUAGE-DISCOVERY-GAME`, `LANGUAGE-GUESSING`, `NUXALK`, `UBYKH`, `PIRAHÃ`, `MĀORI`, `ASSISTANT-ENTITY-SUBSTITUTION`, `USER-CORRECTION`, `ASSISTANT-REPAIR`, `ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `RAW-ROLE-UNVERIFIED`, `NOT-THEORY-EVIDENCE`.
+- **Evidence limit:** the language/geography statements remain transcript claims and were not independently fact-checked. Do not promote them to verified reference facts or theory evidence.
