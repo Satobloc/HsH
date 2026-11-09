@@ -97,9 +97,9 @@ The formalization proves only the abstract conditional map-composition contract.
 
 ## 6. Publication status
 
-The public-safe summary was submitted through the existing HsH issue publisher as issue [#1509](https://github.com/Satobloc/HsH/issues/1509), submission ID `enheduanna-branch-scope-map-composition-20261109t0136z-s3-001`. Declared content SHA-256: `2d5bc28bb2518b0ad013a3b122d4b47e7e9ef9aa4963584b09eb8048886eac5d`; expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-branch-scope-map-composition-20261109t0136z-s3-001.md`.
+Public-safe summary was submitted through the existing HsH issue publisher as issue [#1509](https://github.com/Satobloc/HsH/issues/1509), submission ID `enheduanna-branch-scope-map-composition-20261109t0136z-s3-001`. Declared content SHA-256: `2d5bc28bb2518b0ad013a3b122d4b47e7e9ef9aa4963584b09eb8048886eac5d`; artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-branch-scope-map-composition-20261109t0136z-s3-001.md`.
 
-At the last check, issue #1509 had no publisher comment and the expected artifact returned 404. Status is **`SUBMITTED_NOT_VERIFIED`**, not published. The issue payload's content length and declared digest match the independently prepared UTF-8 content; publisher execution/readback remains pending. No second issue or direct artifact write was made.
+Publisher comment #6730368014 reports successful publication at commit `26a10f8a29d2904d499529f9b8e7202c5f0ebf3a`. Artifact blob: `f5e13c2bbe0fd95505c6a54134fdbdcc1b321b30`. Independent connector readback found exact byte-text equality between the issue payload content and the published artifact (4,591 characters); the declared SHA-256 matches the prepared UTF-8 content. Status: **`PUBLISHED_VERIFIED`**. No duplicate issue or direct artifact write was made.
 
 ## 7. Physical and project boundaries
 
