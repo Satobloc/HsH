@@ -60,4 +60,5 @@
 - Next cursor: source-coded behavioral-operator audit against the available script corpus, keeping style separate from behavior; original January 22 raw source identity remains unresolved. Wait for a Mersearch lane or a genuinely new source locator before another archive search.
 
 - Scheduler snapshot amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0348Z_s4_ariadne_AMENDMENT_01.md`. Final peek confirmed the four existing :00/:24/:36/:48 relay tasks remain enabled with their exact schedules; :12 remains disabled. h699:s4 :48 and h700:s0/:36 runs were simultaneously in progress, with late/early starts; no h699:s3 predecessor receipt was visible. No automation setting was changed.
+- Report-pointer correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0348Z_s4_ariadne_AMENDMENT_02.md` records the post-correction report blob SHA `6fefc0d0ae7669254357acf90365d5ff8643d444`; the earlier SHA in the canonical receipt identifies the pre-correction report version.
 
