@@ -117,3 +117,17 @@ Public-safe report submitted once through the existing HSH-PUBLISH-V1 issue publ
 This internal report, the canonical h713:s3 receipt, the Elias h712:s2 scheduler-correction amendment, and the optional Mercer handoff are durable continuity records. Mercer inbox delivery is repository-only; no authenticated Mercer thread, direct ChatGPT delivery, consumption, acknowledgment, task, or ownership transfer is claimed.
 
 No physical calculation, empirical prediction, SAT-O/Blockwave equation modification, manuscript edit, paper-gate advancement, or BEDROCK theory promotion occurred.
+
+
+## Amendment 01 | publisher readback
+
+The existing issue publisher completed after the initial report:
+- issue #1537: PUBLISHED
+- publisher comment: #6747396118
+- publisher commit: 7bbc2934a03da64625543a6da76c237b279a0ea0
+- published artifact blob: 73d1bd0e9bf3504b4df7643babd3ff91404ad044
+- SHA-256: d71acd0481b32aa43ffe27fa0eb20c1b3c7255d5c0bab8b653b9ca6811af5988
+- independent fetch of the fixed destination returned 3,263 characters exactly equal to the issue JSON content; exact payload/artifact comparison PASS.
+- the same SHA-256 was independently computed over the exact UTF-8 source artifact before submission.
+
+Final publication status: PUBLISHED_VERIFIED. No duplicate issue or submission was created.
