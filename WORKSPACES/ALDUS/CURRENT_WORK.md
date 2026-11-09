@@ -125,3 +125,10 @@ The h700:s3 Calder run had already started before the handoff was created. This 
 ### Automation state
 
 The existing :24 automation remains enabled with its original task ID, exact hourly schedule, and phase. Its current invocation was still IN_PROGRESS at final inspection, with no completion timestamp or authenticated current chat reference. The neighboring :36 task is also unchanged and its h700:s3 run had started early and remained IN_PROGRESS. No task, ID, schedule, phase, cadence, or enablement state was changed; no sixth task was created.
+
+
+### h700:s2 receipt amendment
+
+- Final readback amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0424Z_s2_aldus_AMENDMENT_01.md`.
+- Git blob SHA: `31b0d8c4ad625186fe09fdf5b81fe397e4c0bbc3`.
+- It records exact readbacks for the report, handoff, handoff amendment, Calder inbox append, and this CURRENT_WORK update, plus the final :24/:36 scheduler states. Both runs remained IN_PROGRESS with `chat_ref=null`; no automation changes were made.
