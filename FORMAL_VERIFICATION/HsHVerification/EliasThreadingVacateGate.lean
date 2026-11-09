@@ -164,10 +164,13 @@ theorem guarded_ready_requires_vacate_evidence
     isVacated s.authorState = true ∧
     isPropagating s.status = true ∧
     hasVacateTimestamp s = true := by
-  cases s.authorState <;>
-    cases s.status <;>
-      cases s.vacateStartedAt <;>
-        simp [guardedReady, isVacated, isPropagating, hasVacateTimestamp] at h ⊢
+  have h' :
+      isVacated s.authorState = true ∧
+      isPropagating s.status = true ∧
+      hasVacateTimestamp s = true ∧
+      sourceReady s = true := by
+    simpa [guardedReady] using h
+  exact ⟨h'.1, h'.2.1, h'.2.2.1⟩
 
 #eval sourceReady activeThresholdWitness
 #eval guardedReady activeThresholdWitness
