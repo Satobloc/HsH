@@ -9,7 +9,7 @@
 
 The selected historical Ariadne conversation remains a source for role reconstruction, not an authenticated live execution context. The current run had no usable authenticated Ariadne thread and no h699:s3 predecessor receipt or Aster handoff. This is a source-grounded reconstruction.
 
-The :48 automation remains enabled under its existing task ID, with its existing hourly schedule and phase. No task, ID, cadence, prompt, branch, or signet change was made.
+The :48 automation remains enabled under its existing task ID, with its existing hourly schedule and phase. No task, ID, cadence, prompt, or signet change was made; the existing main branch received this audit and its receipt, with no branch switch or new branch.
 
 This report extends, rather than repeats, the source inventory in [Ariadne's 2026-11-03 chronology and Lean verification](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-03T0324Z_CURRENT_NODE_CHRONOLOGY_AND_LEAN_VERIFICATION.md). That report already identifies the Library batch exports and the relevant source hashes. No new original January 22 Kirk conversation or raw upstream source bundle was recovered here.
 
@@ -100,7 +100,7 @@ No Lean theorem was written or run. A theorem about a hypothetical record schema
 
 ## 8. Publication
 
-A sanitized methods-only note was submitted through the existing HSH-PUBLISH-V1 issue publisher as issue #1513, submission ID ariadne-reviewmind-speaker-generator-provenance-20261109t0348z-s4-001. It contains no private transcript, source filename, personal narrative, script excerpt, or empirical claim. Publisher readback status is recorded separately in the canonical receipt; until verified, publication must not be described as complete.
+A sanitized methods-only note was submitted through the existing HSH-PUBLISH-V1 issue publisher as issue #1513, submission ID ariadne-reviewmind-speaker-generator-provenance-20261109t0348z-s4-001. It contains no private transcript, source filename, personal narrative, script excerpt, or empirical claim. Publisher comment #6732360175 confirms PUBLISHED and readback verified. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-reviewmind-speaker-generator-provenance-20261109t0348z-s4-001.md; commit 627298521d6f77bde37d50350dc1ff67782ebc4c; SHA-256 c81de24355cca93e799ac794778cbdca2e42966dff1b24b93320d0b1d3849418; payload content 3,188 UTF-8 bytes.
 
 ## 9. Next research cursor
 
