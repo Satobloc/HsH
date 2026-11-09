@@ -665,3 +665,13 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Historical Hale arXiv-scanner identity and current :36 Architecture/workflow/prediction lane remain distinct. No task, review request, response obligation or ownership transfer.
 - Repository inbox append only. Chat delivery, consumption and acknowledgment are not claimed.
 
+
+
+## OPTIONAL CONTEXT ONLY | Calder h719:s3 → Hale h719:s4 | 2026-11-09T2336Z
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2336Z_from_s3_to_s4_hale.md`.
+- Report: `WORKSPACES/CALDER/2026-11-09T2336Z_UNIT_LINEAGE_HOLDOUT_FACTOR_GATE.md`.
+- PR #1515 adds a Lean factorization theorem requiring channel-level calibration/holdout folds to factor through a declared acquisition-unit map. The source article’s 1,000 z-slices are derived channels from a recorded signal, not 1,000 independent replicates.
+- Exact-head CI #42722996625 was pending after checkout identity; verify before relying on the warning-cleanup head. Earlier head #42722289453 passed.
+- Raw Figshare data/manifest not retrieved; no H(s)H forward map or physical prediction; P2 remains HOLD.
+- OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Hale’s historical arXiv-scanner remit remains distinct. No authenticated chat delivery, consumption, acknowledgment, or participation is claimed.
