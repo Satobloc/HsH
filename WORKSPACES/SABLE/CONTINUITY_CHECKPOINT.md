@@ -696,3 +696,55 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - **Next:** Loom h710:s4. Its existing :48 task is enabled on the unchanged hourly America/New_York :48 schedule; run `a4c6e816-2a90-832b-9cd4-aad891fe14c1` was already IN_PROGRESS (scheduled 14:48Z, started 14:52:16.868452Z, `chat_ref=null`). The packet is LATE_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, acknowledgment, task assignment, response obligation, or ownership transfer is claimed.
 
 **Return pin:** `H710:S3 / SABLE / PUBLICATION-EVENT-TEMPORAL-REGRESSION-PAIR / ISSUE1529-PUBLISHED_VERIFIED / RECEIPT-VERIFIED / CURRENT-RUN-IN_PROGRESS / LATEST-RESULT-STALE-H700 / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / FIE-DUE-2026-11-10 / NEXT=LOOM`
+
+
+## 2026-11-09T18:24Z | h714:s2 | Sable | Lane 24 source-to-proof bridge
+
+### Deterministic routing and identity
+
+- Nominal slot: 2026-11-09T18:24:00Z; h=714; seq=5*714+2=3572; ring index 0.
+- Selected label: Sable. Next label: Loom (index 1). Run key: `REVROT3-19-20261011:714:s2`.
+- This is deterministic routing only. The current :24 scheduler record has `chat_ref=null`; no authenticated Sable thread or historical instance is claimed.
+- The current :24 task remains enabled with its exact original task ID `6abda4c8eda88191bf23a6f2849e9a17` and hourly America/New_York :24 schedule. No task ID, prompt, schedule, phase, cadence, enabled state, ring, or ownership was changed. Four of five phase tasks remain enabled; :12 remains disabled. No sixth task was created.
+
+### Historical remit and BEDROCK review
+
+- Sable's historical remit is source-grounded in archived user-role messages from conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`, including messages `df0c6245-20ee-43bb-b381-f277f85bddb4` and `3f6e9b2b-55d9-4136-b379-0978f7db69c1`. It supports systems/capability architecture, workflow and continuity, resource/tool survey, reproducible scripting, data/extraction, and bounded infrastructure QA. It does not establish an authenticated current Sable instance or a standalone signed physics-specialist charter.
+- Full live BEDROCK was read in this run: blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867`, 667 lines; header authority notice `ND-2026-11-08-02`. The 2026-11-08 Primary Operational Guideline controls direct operational conflicts; FIE remains foundational.
+- Steering Charter blob: `04822f3e48f746e9e464d893636ed4a670d68683`.
+- Three Paper Campaign blob: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
+- New Instance Start Here blob: `43b577d42b8cced83f8836934598081685ea3ff3`.
+- Three-repository onboarding blob: `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
+- Revival Rotation V3 blob: `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`.
+- Review retained: source-first/provenance separation; proof-first when mathematical structure is explicit; real physical calculations require identifiable measured system, dataset, provenance, units, calibration, uncertainty and prediction-vs-fit separation; Lean checks only the encoded statement; explicit projection/composition maps are required; no information-conservation/retention/holography/completeness/predictive-continuity law is presumed; no theory promotion without review.
+- No theory-level contradiction or BEDROCK amendment was identified. The explicit current Nathan Direct request authorized this bounded symbolic Lean proof; it did not authorize a physical calculation or P0 standdown.
+- **Process-order deviation:** the first branch/PR and publisher-issue writes preceded completion of the full BEDROCK and full onboarding reads. Partial preflight had already read the Sable role, current branch, P0 fingerprint, and source candidate. After detecting the omission, the full BEDROCK and required onboarding/control documents were read. This is disclosed; it is not represented as compliant preflight. No main-branch theory change or scheduler mutation occurred.
+
+### Substantive source-to-proof result
+
+- New assistant-authored stacked draft PR [#1538](https://github.com/Satobloc/HsH/pull/1538), branch `research/sable-vortex-covariance-bridge-20261109t1824z`, head `ae0e98444b97dcc61de41c15b08a16751f39a9bc`, base Nadir's open PR #1189 branch. The module imports `NadirVortexTwoChannelReadout`; Nadir's branch and PR were not modified.
+- Exact-head Actions run [#42678421460](https://github.com/Satobloc/HsH/actions/runs/42678421460), job #129366005810: SUCCESS. `lake build HsHVerification` completed. The three new theorem-specific axiom reports each contain only `[propext, Classical.choice, Quot.sound]`; no `sorryAx` or `admit` appears. This is not a global axiom audit.
+- Earlier runs #42676465874 and #42677387723 failed on the matrix-to-observe proof. The first left `True and True` after an unnecessary `ring`; the second left two arithmetic equalities after `trivial`. The third version used `ext` before the component algebra and passed.
+- This is an integration/conditional algebra result, not a new physical law or a distinctive H(s)H prediction. It does not establish the source-to-code translation, the experiment's measurement pipeline, raw covariance, positive-semidefinite validity of any measured covariance, mode identifiability, a full 3-D/4-D reconstruction, or a worldtube/timesheet map.
+- Nadir PR #1189 remains open/draft/unmerged; Kestrel PR #873 remains separate; Aster PR #1309 remains unchanged. No worker ownership or specialty was transferred.
+
+### Empirical source and candidate state
+
+- Barckicke, Falcon & Gissinger (2026), Nature Physics DOI 10.1038/s41567-026-03175-w; Figshare DOI 10.6084/m9.figshare.30903347. The two-contour readout and measurement uncertainties are source-identified. Figshare version/file manifest/raw bytes/checksums, acquisition IDs, paired contour covariance and holdout remain unretrieved.
+- Estepa-Cantero et al. (2026), JFM DOI 10.1017/jfm.2026.12078: 4D-LPT bubble-vortex-ring interaction; raw image supplements are indexed, but full trajectories, camera registration/calibration, tracking parameters, and covariance package remain unavailable from the verified public objects.
+- Existing P2 docket #565 retains Mäkinen ³He-B rotation/reconnection, Knister counter-rotating vortex pairs, Han free-surface collision, and the Barckicke/Estepa candidates. Tern's candidate-only independence profile is issue #1484; no P2 system is selected.
+- Existing P3 source lane retains GW241011 as an inspiral comparator. No H(s)H metric/multipole map or raw-strain/posterior reanalysis is established.
+- Aster's mode-identifiability note #1347 remains controlling: two antipodal samples do not uniquely identify Fourier m labels or sine quadratures; the m=1/m=3 alias remains unresolved. The covariance bridge does not resolve it.
+- No CODATA comparison, physical calculation, fit, prediction, raw-data analysis, or independent measurement was performed. No SAT-O/Blockwave original equation was retrieved or modified.
+
+### Publication incident and scheduler reconciliation
+
+- Issue #1540 contains the public report payload but the existing publisher run #42678165560 rejected it for SHA-256 mismatch. Declared digest: `5e7f2c992c9171d64e207bb5a62d66447950a5816703cfc9898a03329d8dc1fc`; exact final content digest: `f1923dd88442a17ecbbcea41dcd18a4cc35c3f12b12d7871ec11ce2be6129691`; content length 9,986 UTF-8 bytes. The final content had an added P2 docket link after the original digest calculation. Correction comment #6748742845 records the mismatch and the successful Lean run. No `PUBLISHED_SUBMISSIONS` file exists; no duplicate issue or manual artifact write was created.
+- Current HsH main head at final source check: `d40295c0b51aed5979f53af5e923d380bf4d3820`. SAT archive main: `35804a91bca29e596033837971de5db9848e9dfb`. HSH_RESOURCES main: `f00a82caa091df02e745b772a695e6c59fb4de8d`.
+- P0 eight-file route fingerprint rechecked on current main: 8/8 exact baseline blob matches. Issues #1193, #1144 and #1273 remain open. P0 ACTIVE.
+- P1 November 9 remains Orson-owned / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE rereview due November 10, not yet due. Last unrelated-reading cursor remains *The Book of Tea*, line 901.
+- The deterministic successor label is Loom, but its h714:s3 slot has already started and its repository report/receipt/publication exist: [Loom h714 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-09T1836Z_POLARIZATION_READOUT_NORMALIZATION_DOMAIN_AND_LEAN_REPAIR.md), issue #1539 PUBLISHED_VERIFIED. Its scheduler run still records IN_PROGRESS with `chat_ref=null`. The :48 Aster and :00 Tern-labelled slots also started with null chat refs. No new Loom handoff was created because the successor slot had already run; no cross-thread delivery or consumption is claimed.
+- Current :24 scheduler run: `de711293-c244-832a-8736-7f658a5e74c8`, scheduled 18:24Z, started 18:52:31.119756Z, recorded IN_PROGRESS, `chat_ref=null`. Cached latest result is h712 Elias, not h714 Sable. No h713:s2 canonical receipt was located; occurrence status remains unknown. The scheduler wrapper is not marked complete.
+- Existing :24 task remains enabled and unchanged. No task, ID, schedule, phase, cadence, enabled state, ownership or task count was modified. No sixth task; no signet or conversation rename.
+
+**Return pin:** `H714:S2 / SABLE / PR1538-LEAN-EXACT-HEAD-SUCCESS / ISSUE1540-PUBLISHER-REJECTED-SHA / P0-ACTIVE / P2-HOLD / NO-PHYSICAL-CALCULATION / NO-THEORY-PROMOTION / SUCCESSOR-LOOM-ALREADY-RAN / SCHEDULER-IN_PROGRESS / CHAT_REF_NULL`.
