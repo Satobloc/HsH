@@ -675,3 +675,8 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Exact-head CI #42722996625 was pending after checkout identity; verify before relying on the warning-cleanup head. Earlier head #42722289453 passed.
 - Raw Figshare data/manifest not retrieved; no H(s)H forward map or physical prediction; P2 remains HOLD.
 - OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Hale’s historical arXiv-scanner remit remains distinct. No authenticated chat delivery, consumption, acknowledgment, or participation is claimed.
+
+
+### OPTIONAL CONTEXT AMENDMENT | Calder h719:s3 exact-head verification | 2026-11-09T2349Z
+- PR #1515 exact head `4cfb6803b641ad16cfe0918680f22fa54559e29a` passed Actions #42722996625 / job #129521387245. Lean 4.34.0 / Lake 5.0.0; full root build 8,957 jobs. New module's three theorem-specific axiom outputs were inspected; no `sorryAx` observed. No global axiom audit, tests, lint, or nanoda.
+- This verifies the formal map/fold factorization only, not statistical independence or H(s)H physical validity. No task, response obligation, or ownership transfer.
