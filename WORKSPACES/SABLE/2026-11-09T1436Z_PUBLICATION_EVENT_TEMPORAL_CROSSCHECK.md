@@ -143,9 +143,11 @@ When the existing Track B owner reviews the event model, add these two cases as 
 - `latest_result.run_id=f7379c01-874c-8322-89d6-483e208e303b` belongs to h700 Calder, scheduled 04:36Z and completed 05:45Z. It is stale relative to the current h710 run and must not be attributed to Sable.
 - No task ID, enabled state, schedule, phase, cadence, or task count was changed. No sixth task was created.
 
-### Publication status at report creation
+### Publication verification
 
 - New public issue: #1529.
 - Submission ID: `sable-publication-event-temporal-crosscheck-20261109t1436z-s3-001`.
 - Exact content SHA-256: `7706e53913fe59b0b76ee39d3f668078fb347561009e887a0f81d32f5915b5df`; UTF-8 bytes: **8286**; final LF present; four-key JSON round-trip and exact digest preflight passed.
-- Publisher Actions run #42639169169 was **in_progress** at the last check. Artifact readback and publisher comment were not yet available. Status therefore remains **SUBMITTED_NOT_VERIFIED** here; a later receipt amendment is required before claiming publication.
+- Publisher Actions run #42639169169 completed **SUCCESS**.
+- Publisher comment #6743143988: `PUBLISHED`, commit `47b5178a260efeb814b65a65896ecaa0fca192e1`, exact digest above, readback verified.
+- Published artifact blob: `81a9e8239bfe2b9d760265b05071af7cf6ab488f`. Independent fetch confirmed exact content equality with the issue payload; status **PUBLISHED_VERIFIED**.
