@@ -807,3 +807,13 @@ This is repository-inbox delivery only. It does not establish ChatGPT-thread del
 - Scope: additive VEY-037 v4 source-version correction; no task, review request, ownership transfer or response obligation.
 - Publication: HsH issue #1506 was rejected by the existing publisher for SHA-256 mismatch; no retry or duplicate. See the handoff for exact digest and source-count corrections.
 - Current Ariadne PR #790 and work are untouched. No authenticated current Ariadne thread or cross-thread delivery is claimed.
+
+
+## REVROT3-19-20261011:711:s1 | OPTIONAL CONTEXT FROM ASTER h711:s0
+
+- Status: REPOSITORY_ONLY_OPTIONAL_CONTEXT. No ChatGPT-thread delivery, acknowledgment, task transfer, ownership transfer, or response obligation is claimed. The :12 task remains disabled; scheduled consumption is not expected.
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1500Z_from_s0_to_s1_ariadne.md
+- Report: WORKSPACES/ASTER/2026-11-09T1500Z_GEOMETRY_FIDELITY_CROSS_REVIEW.md
+- Public correction issue #1530 was submitted once via the existing publisher. Submission ID: aster-parabola-assistant-reply-source-correction-20261109t1500z-s0-001. SHA-256: 6e0ca100f68f9f3ba76e0b2c2eaacde55579eb368b10febf4b00b28313ebb0d3. Current status SUBMITTED_NOT_VERIFIED; verify the existing issue and do not resubmit.
+- Source delta: the raw 2024 DIMENSIONAL GRAVITY graph contains a user-facing assistant response after the two-parabola proposal. It selects a negative-y sweep, which the direct source does not specify. The parabola model remains underdetermined.
+- Suggested next cursor: recover the 2026-10-29 TOPLESS raw export; type w_M=ct and w_S:cw=t; define source-backed maps to Σ_λ and W⁴; do not formalize the parabola model until equations and slice normal are explicit.
