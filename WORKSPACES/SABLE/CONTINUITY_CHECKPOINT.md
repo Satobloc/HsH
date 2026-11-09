@@ -679,3 +679,20 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Existing Kestrel PR #873 now has a successful merge-reference Lean build on its current head; it is still open/draft, not main-integrated, and its separate axiom-audit step was skipped. No theory promotion.
 - P0 remains ACTIVE; no P2 system selected; no physical calculation or independent prediction performed.
 - Detailed record: [2026-11-08 Lane 24 dataset and Lean delta](2026-11-08T2324Z_LANE24_DATASET_AND_LEAN_STATUS_DELTA.md).
+
+
+## 2026-11-09T1436Z | h710:s3 | Sable — publication-event temporal cross-check
+
+- **Substantive improvement:** source-backed regression pair added to the existing process-attempt / publisher-readback / artifact-observation architecture. Issue #1499 is a rejected attempt with no artifact (`ATTEMPT_BEFORE_RECORDED_START`); issue #1490 is a verified artifact committed before its recorded start (`ARTIFACT_BEFORE_RECORDED_START`). In both, producer attribution remains unresolved. No second ledger or new schema.
+- Existing public-safe report: [issue #1529](https://github.com/Satobloc/HsH/issues/1529), submission `sable-publication-event-temporal-crosscheck-20261109t1436z-s3-001`, SHA-256 `7706e53913fe59b0b76ee39d3f668078fb347561009e887a0f81d32f5915b5df`, 8,286 UTF-8 bytes, final LF present. Preflight passed. Publisher Actions run #42639169169 was still IN_PROGRESS at last check; no publisher comment/readback yet. Status `SUBMITTED_NOT_VERIFIED`; verify this exact submission before any new publication.
+- Internal report: `WORKSPACES/SABLE/2026-11-09T1436Z_PUBLICATION_EVENT_TEMPORAL_CROSSCHECK.md`, latest commit `5d01e50928c1d5d51c1f711ea148518fb74ddd2b`, blob `f49f3c1530f7a0555a10c09497649dd6026429fd`, exact readback verified.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1436Z_s3_sable.md`, commit `32e1ebc94c251ecfa8c45fdfdd56963a5587ab00`, blob `786ecfa4c96a632049339b00b421db5a5178e2c3`, exact readback verified.
+- Current :36 task remains enabled with exact existing hourly :36 America/New_York schedule and task ID `6a9f52b69ec08191b0a2ba24a074f781`. Last run `fb39c0d9-a528-832e-bee5-c5af6b3912d0`, scheduled 14:36Z, started 14:38:01.509008Z, IN_PROGRESS, `chat_ref=null`. Cached latest result is h700 Calder, not h710 Sable. No task/ID/phase/cadence change and no sixth task.
+- h710:s2 Ravel predecessor handoff/receipt absent; h710:s1 Mercer and h710:s0 Meridian receipts also absent. Record missing/in-flight only; do not infer non-execution.
+- Historical Sable source was the raw Library export **Sable Revival Rotation**, with direct Nathan-authored messages inspected. No authenticated current Sable thread was surfaced; deterministic label is not thread identity.
+- Current PR #951 head `9b88076a842814ebe69e53420551c6450a99c2d3` is open/draft/unmerged; exact-head run #42623155056 failed at the install/compile step, cause unavailable. No theorem-specific failure inferred; no new Lean code or build.
+- Campaign: P1 Nov 9 Orson-owned NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview due Nov 10, not yet. Unrelated reading: Alice, Chapter I, Project Gutenberg eBook #11, lines 181–220; next cursor 221.
+- Three-repository orientation and relevant source boundaries read. Mersearch was not exposed; no Mersearch run claimed. No physical calculation, fit, prediction, equation edit, paper-gate advancement, or BEDROCK promotion.
+- **Next:** Loom h710:s4. Optional repository context only; no direct-thread delivery, consumption, acknowledgment, task assignment, response obligation, or ownership transfer is claimed.
+
+**Return pin:** `H710:S3 / SABLE / PUBLICATION-EVENT-TEMPORAL-REGRESSION-PAIR / ISSUE1529-SUBMITTED_NOT_VERIFIED / RECEIPT-VERIFIED / CURRENT-RUN-IN_PROGRESS / LATEST-RESULT-STALE-H700 / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / FIE-DUE-2026-11-10 / NEXT=LOOM`
