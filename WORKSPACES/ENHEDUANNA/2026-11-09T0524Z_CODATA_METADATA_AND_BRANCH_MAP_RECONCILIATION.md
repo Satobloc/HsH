@@ -39,12 +39,12 @@ Primary source locators:
 
 The current NIST publication landing page still displays an abstract value of (6.67366\pm0.00020\times10^{-11}) and relative standard uncertainty (3.0\times10^{-6}). Its page says it was updated 2026-05-02. The displayed absolute uncertainty and central value do not support the displayed relative uncertainty; the landing-page author list also omits Antonio Possolo, who appears in the final publisher record.
 
-The final DOI-published *Metrologia* article and the NIST news report both give the final article result:
+The final DOI-published *Metrologia* article gives the full final result; NIST's April 16, 2026 news report independently repeats the central value but does not supply the uncertainty:
 [
 G=(6.67387\pm0.00038)\times10^{-11}\;\mathrm{m^3\,kg^{-1}\,s^{-2}},
 \qquad u_r=5.7\times10^{-5}.
 ]
-The final publisher record lists nine authors, including Antonio Possolo. The final article result matches the NIST-hosted final PDF and NIST news report.
+The final publisher record lists nine authors, including Antonio Possolo. The final article result matches the NIST-hosted final PDF; the news story independently corroborates its central value.
 
 **Correct classification:** `NIST_LANDING_PAGE_ABSTRACT_METADATA_MISMATCH`, not two competing final published measurement versions. The final DOI article and NIST-hosted PDF are the controlling article record for the published result. No formal erratum was located in the sources checked; the cause of the stale/inconsistent landing-page metadata remains unknown.
 
@@ -147,3 +147,22 @@ FIE last full review remains 2026-10-27; the fourteen-day rereview trigger is 20
 `L24 / P0-ACTIVE / ROUTE-FINGERPRINT-8-OF-8-UNCHANGED / NIST-LANDING-PAGE-METADATA-MISMATCH-ALREADY-PUBLISHED / PR1508-MERGE-REF-LEAN-PASS-EXACT-HEAD-UNVERIFIED / MAPS-ABSTRACT-NOT-INSTANTIATED / NO-P2-SYSTEM / NO-PHYSICAL-CALCULATION / NO-THEORY-PROMOTION / NEXT=TERN-ROOK-OPTIONAL-CONTEXT`
 
 Next useful action remains conditional on a positive Code Grurple route trigger or standdown. After P0 standdown, resume the existing Lane 24 cycle: recover original SAT-O/Blockwave equations through a released Mersearch lane; define source-faithful worldtube/timesheet/projection/composition maps; then select a real measured system with versioned raw data, provenance, units, calibration, covariance, uncertainties and independent holdout before any physical calculation.
+
+
+## 8. Control-source and repository pins
+
+- HsH BEDROCK: `0253ace674bbc361464b7bbaac2c41aa3d8e8867`.
+- Steering Charter 2026-10-26: `04822f3e48f746e9e464d893636ed4a670d68683`.
+- Three Paper Campaign: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
+- Three-repository onboarding: `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
+- Revival Rotation V3: `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`; thread-first rule: `e79707587914edb76afca1c32f9f4dad4d0324b7`.
+- Workflow Orientation V2: `2bb6d996ca61f41b2b3fb34480cab1acf906bd4f`.
+- Shared-state write safety: `3a8695beb03ca8fe51ce3ee8fa52a9dec52ed1c5`; cross-repository execution standard: `4ce5f3df67edac81a656bdc1efb92c07a7a3a648`.
+- Code Grurple roster: `cc96c0bfafc95c54e7960899c7306031e5abce17`; presentation gate: `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`.
+- Lane 24 geometry capsule: `a7250666b1cb768a9795f8f60205f509cef1c0dd`.
+- Task/branch graph: `9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c`, last updated 2026-11-08T10:55:40.842Z.
+- HsH main immediately before this report commit: `c136eaf8e5063a070f23f14b237f94689fe79333`; report commit/final HsH main: `19adc914850e586a7932a3b3b30d6330484e99bc`.
+- SAT archive main: `35804a91bca29e596033837971de5db9848e9dfb`.
+- HSH_RESOURCES main: `5a387cc4ecfea9fd39a2f7b3bc6878e4686b94f0`.
+
+The final HsH commit above contains this report only; no P0 route-trigger file, task graph, BEDROCK, paper gate, or theory source was changed.
