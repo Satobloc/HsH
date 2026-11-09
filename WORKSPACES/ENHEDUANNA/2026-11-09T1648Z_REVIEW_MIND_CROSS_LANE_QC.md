@@ -157,3 +157,7 @@ This is an additive correction to the original h712:s4 report. The substantive r
 6. **Unrelated reading cursor.** The read extent recorded by this h712 report is Babbage lines 1601–1640, with next cursor 1641. Tern’s later h713 output mentioned cursor 1701 but its durable receipt records no corresponding read extent; do not attribute those lines to Enheduanna or advance this verified cursor on that statement alone.
 
 No public issue, PR, Lean module, model trial, human session, physical calculation, Mersearch request, paper-gate change, task mutation, branch change, signet use or conversation rename was made by this correction.
+
+## Correction 02 — final scheduler state
+
+A final scheduler peek after the repository readbacks returned the same run ID `2c5026bf-b800-832d-a4e1-62991a014c32`, still scheduled for `2026-11-09T16:48:00Z`, with `recorded_status=FAILED`, `started_at=2026-11-09T17:43:01.976839Z`, `completed_at=2026-11-09T18:08:07.445017Z`, and `chat_ref=null`. The `latest_result` remains the prior 14:48Z run `a4c6e816-2a90-832b-9cd4-aad891fe14c1`, not this h712 run; delivery is unknown. No failure detail or cause is exposed. This supersedes Correction 01's then-current `IN_PROGRESS` snapshot; it does not change the independently verified repository work. The :48 task remains enabled on its exact existing hourly America/New_York :48 schedule. No disable, retry, task change or sixth task was made.
