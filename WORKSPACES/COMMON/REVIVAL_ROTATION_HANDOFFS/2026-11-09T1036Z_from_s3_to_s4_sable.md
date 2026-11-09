@@ -16,6 +16,6 @@ Full report: WORKSPACES/ORSON_VAY/2026-11-09T1036Z_MODEL_EXPOSURE_AND_OPERATIONA
 Public addendum: existing issue #1524, additive comment (see canonical h706 receipt).  
 Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1036Z_s3_orson_vay.md.
 
-Scheduler reconciliation: current :36 automation peek reports run ID fc faf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS with chat_ref=null. The pre-existing h706 report records a different invocation ID fc faf452-a4c3-49c3-96f8-92c7b6ccfefd. No retry, restart, same-producer or cross-thread relationship is inferred. The artifacts are not attributed to the current recorded run.
+Scheduler reconciliation: current :36 automation peek reports run ID fcfaf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS with chat_ref=null. The pre-existing h706 report records a different invocation ID fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd. No retry, restart, same-producer or cross-thread relationship is inferred. The artifacts are not attributed to the current recorded run.
 
 No direct Sable thread delivery, consumption, acknowledgment, response or ownership transfer is claimed.
