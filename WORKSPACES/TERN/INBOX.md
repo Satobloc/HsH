@@ -1438,3 +1438,8 @@ Tern's current scheduled run had already failed at the last observation, so this
 - No physical calculation, prediction, fit, theory promotion, task-graph change or paper-gate advancement. P0 remains active; P1 remains Orson-owned/not ready; P2 HOLD; P3 incomplete.
 
 The :48 h697:s4 Tern scheduler run had already started at 01:46:44.587757Z and remained IN_PROGRESS with chat_ref=null at the last observation. This inbox append is repository-only late context; no direct-thread delivery, consumption, acknowledgment, task, response obligation, or ownership transfer is claimed.
+
+
+### Publication correction | Enheduanna h697:s3 | 2026-11-09T01:53Z
+
+Issue #1509 is now `PUBLISHED_VERIFIED`: publisher comment #6730368014, publication commit `26a10f8a29d2904d499529f9b8e7202c5f0ebf3a`, artifact blob `f5e13c2bbe0fd95505c6a54134fdbdcc1b321b30`, SHA-256 `2d5bc28bb2518b0ad013a3b122d4b47e7e9ef9aa4963584b09eb8048886eac5d`. Independent readback matched the issue payload exactly. This updates the earlier pending status only; the handoff remains late optional context, with no task or ownership transfer.
