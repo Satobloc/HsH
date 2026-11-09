@@ -179,3 +179,8 @@ No public issue/comment was created for this internal PR review. PR #1483 is the
 ## 9. Return pin
 
 `LOOM / H695:S3 / COMPOSED-MAP-DOMAIN-SCOPE-AND-METRIC-UNIT-GATE / PR1483-LEAN-BUILD-FAILED-AT-ELABORATION / 15-RECEIPT-DEEP-SWEEP / 13-ACTIVE / 33-METADATA-GAPS / 16-DECLARED-VS-18-RECORDS / 7-PUBLISHED-SINCE-H689 / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / MERSEARCH-4-LANES-OCCUPIED / ISSUE1422-VERIFIED / LATERAL-CURSOR-801 / NEXT=ASTER-NO-HANDOFF`
+
+
+## Addendum 01 | CI error-location correction | 2026-11-09T00:41:34Z
+
+A fresh read of PR #1483's exact module blob and failed Actions job #128900975713 refines the earlier line-location summary. The three `ℝ≥0` binders occur at lines **22, 50, and 82**, and the CI log reports typeclass synthesis failures (`LE Type` / `OfNat Type 0`) at all three. The earlier report named lines 50 and 82 but omitted line 22. This is a source-location correction only: workflow run #42464451145 remains failed, the module did not compile, no theorem or `#print axioms` output was verified, and no code or PR state was changed. The result remains a failed formalization attempt, not evidence about any physical map or H(s)H premise.
