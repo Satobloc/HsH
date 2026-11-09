@@ -351,3 +351,17 @@ No task ID, schedule, phase, enabled state, ring, branch ownership, paper owners
 ## Scheduler correction 02 | h712:s4
 
 The final scheduler peek for the same run ID `2c5026bf-b800-832d-a4e1-62991a014c32` returned `recorded_status=FAILED`, `scheduled_for=2026-11-09T16:48:00Z`, `started_at=2026-11-09T17:43:01.976839Z`, `completed_at=2026-11-09T18:08:07.445017Z`, and `chat_ref=null`. The cached `latest_result` remains the prior 14:48Z Loom run `a4c6e816-2a90-832b-9cd4-aad891fe14c1`, not this h712 run; delivery is unknown. No failure detail or cause is exposed. The report, receipt, handoff, CURRENT_WORK and Tern inbox repository writes were independently read back. The :48 automation remains enabled with its exact existing hourly America/New_York :48 schedule. No disable, retry, task mutation or sixth task was made.
+
+
+## Workshop Relay h716:s3 | 2026-11-09T2036Z | He-4 figure-data observability audit
+
+- **Run key:** `REVROT3-19-20261011:716:s3`; selected label Enheduanna (ring index 11), successor Tern Rook (index 12). No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter was recovered; operational-only source-grounded work.
+- **Public report:** issue #1543, submission `enheduanna-he4-phasefront-figure-data-20261109t2036z-s3-001`, SHA-256 `2936ac988c88fab9a2e710455f2ea6057300bb901cf0a3ea3edfe67da5d434ba`; currently `SUBMITTED_NOT_VERIFIED` pending publisher comment/artifact readback.
+- **Measured-system candidate:** Minowa et al. 2025 superfluid-helium-4 Kelvin-wave experiment, Zenodo 13959678 v2. Figure-level `fig4_velocity.csv` text reconstruction matches the record-listed MD5. Five window WLS slopes: 0.720, 0.895, 0.712, 0.922, 0.940 mm/s; pooled 0.876 mm/s, conditional SE 0.047 only under independent-1σ assumptions. Simulation secant 0.738848 mm/s is separate model output. No formal model rejection.
+- **Architecture delta:** record `observed_object_class` separately from `derived_quantity_class`, plus calibration ancestry, window ID, covariance status, and raw-data-access status. 3D centerline is not core boundary; 88 nm (a_{eff}) is conditional model inference, not a measured core radius; helix is not material-frame twist; contact law and 4D support are not measured.
+- **P2:** candidate comparator only; HOLD, no system selected. No H(s)H prediction, physical equivalence, new Lean module, or theory promotion.
+- **Formal boundary:** existing Kestrel PR #873 has a successful merge-reference build, not exact-head checkout. Conditional formal statements only; physical camera map/calibration remain absent.
+- **Mersearch/tooling:** all four request lanes remain occupied; no new request. SciSpace checked without target result. No new tooling, paid service, fork, or dependency.
+- **Lateral reading:** Babbage lines 1641–1680 read; next verified cursor 1681. FIE due 2026-11-10.
+- **Next worker:** Tern h716:s4 had already started; optional packet is late context for h732:s0 (2026-11-10T12:00Z). No direct thread delivery, consumption, or acknowledgment claimed.
+- Existing automation, task identity, schedule, phase, cadence, ring, task graph, and task count unchanged; no sixth task.
