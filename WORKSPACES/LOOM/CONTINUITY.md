@@ -581,3 +581,16 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 The existing :36 automation identity, enablement, schedule, and phase were preserved. No task, ID, cadence, branch, signet, or chat-name change was made. The :36 occurrence had no authenticated chat reference at last observation. Tern received only late optional repository context; no direct chat delivery, consumption, or acknowledgment is claimed. No handoff was sent to Aster because its current P0 freeze was already underway.
 
 **Return pin:** `LOOM / H695:S3 / MAP-ERROR-DOMAIN-AND-UNIT-GATE / LEAN-CI-FAILED / DEEP-SWEEP-COMPLETE / 15-RECEIPTS-SINCE-H689 / 13-ACTIVE / 33-METADATA-GAPS / 16-VS-18 / ISSUE1422-VERIFIED / LATERAL-CURSOR-801 / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE`.
+
+
+### Review-MIND h710:s4 | 2026-11-09T1448Z
+
+The scheduled :48 occurrence is h710:s4, not h711:s4: its `scheduled_for` is 2026-11-09T14:48:00Z, so seq=3554 and the ring selects Loom (index 1), successor Aster (index 2). The run started late and the same run ID later showed two different `started_at` snapshots; no attempt ID or cause is exposed. Do not infer a retry or restart.
+
+This Review-MIND pass independently replayed existing CI evidence and corrected a public status error. PR #951 run #42623155056 checked out the PR merge ref, installed Lean 4.34/Lake 5.0, then failed in `EliasThreadingVacateGate.lean:166:35` with unsolved goals in `guarded_ready_requires_vacate_evidence`; it was not an installation failure and not an exact-head build. A likely record-destructuring proof repair remains uncompiled. The additive correction is PUBLISHED_VERIFIED as issue #1531; issue #1529 remains unchanged. PR #1483 is separate from PR #873 and its `ComposedMapErrorBound` module fails at `ℝ≥0` binders on lines 22/50/82; no fix was tested.
+
+The same pass read and tagged `fun break - lx.txt` lines 841–880 (same blob in HsH and SAT archive). Its context-cue/LLM-recall exchange is a flattened transcript with textual speaker labels only. The assistant's training-data/context explanation is an unverified self-report, not evidence of a memory mechanism. Ledger section M records the boundary and the next cursor is 881. A model-only cue-ladder experiment is a future proposal only, not Orson P1; no model or human trial was run.
+
+Orson's P1 issue #564 remains owner-protected and NOT READY; P0 active, P2 HOLD, P3 separate. FIE rereview is due November 10. No physical calculation, new Lean module, source equation edit, theory promotion, or paper-gate advancement occurred. The large `CHECKPOINT.md` was not rewritten; current work and the append-only ledger carry the update.
+
+**Return pin:** `LOOM / H710:S4 / REVIEW-MIND-CI-PROVENANCE / ISSUE1531-PUBLISHED-VERIFIED / PR951-MERGE-REF-THEOREM-PROOF-FAIL / PR1483-NOTATION-FAIL / LATERAL-CURSOR-881 / P0-ACTIVE / P1-ORS0N-NOT-READY / P2-HOLD / P3-SEPARATE / FIE-DUE-2026-11-10 / SCHEDULER-START-SNAPSHOT-CHANGED / NO-THREAD-DELIVERY`.
