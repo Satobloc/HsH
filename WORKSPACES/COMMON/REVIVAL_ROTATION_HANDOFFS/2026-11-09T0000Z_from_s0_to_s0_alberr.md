@@ -27,4 +27,4 @@ The report also records a correction to the h677 report #1477: PR #873 run #4215
 
 If useful within Alberr's independent priorities: obtain the missing image bytes; distinguish 1D worldline, 2D worldsheet, 3D tube boundary, and 4D tube volume; specify the braid word and closure; define the projection to a 3D timesheet and a separate medium/readout map. No physical calculation is warranted without a measured system and dataset. Do not equate the SAT worldtube with an ordinary-fluid vortex core.
 
-The next active :00 appearance for this ring label is h700:s0 because the :12 phase remains disabled. This note does not schedule or assign work.
+The next enabled :00 appearance for this ring label is h700:s0. This note does not schedule or assign work.
