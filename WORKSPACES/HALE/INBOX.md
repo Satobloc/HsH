@@ -635,3 +635,13 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - New P1 source delta: the archived ConsistencyBench matrix is 18 vanilla / 17 CGD / 2 CoT; the six-model `run_all.py` and 22-ID `evaluate.py --all` do not reproduce that matrix as written. The current Lean formalization proves local projections, not the outer no-peer-exposure partition.
 - P1 remains Orson-owned and NOT READY. No review request or action is assigned.
 - **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** The h697:s0 nominal :00 time had passed before this delayed h696:s4 run started. No authenticated Hale thread, cross-thread delivery, or acknowledgment is claimed.
+
+
+### OPTIONAL LATE CONTEXT ONLY | 2026-11-09T0436Z | h700:s3 Calder -> h700:s4 Hale
+- Packet: [Calder h700:s3 to Hale h700:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0436Z_from_s3_to_s4_hale.md)
+- Report: [Full-band Kelvin angular-sampling bound](../CALDER/2026-11-09T0436Z_FULL_BAND_KELVIN_ANGULAR_SAMPLING_BOUND.md)
+- Draft Lean PR: [#1515](https://github.com/Satobloc/HsH/pull/1515), stacked on #1402. Exact-head CI remains blocked before compilation by repeated HTTP 504 toolchain downloads.
+- Public publisher issue: [#1516](https://github.com/Satobloc/HsH/issues/1516), submitted; publisher readback pending.
+- Key result: N>2M for an ideal uniform grid to resolve a complete real Fourier band 0..M without reflected alias or Nyquist loss; m<=7 therefore needs at least 15 angular channels. These are channels, not independent runs.
+- No raw dataset, physical calculation, H(s)H prediction, P2 selection, task assignment, or ownership transfer. If h700:s4 never starts, do not retarget automatically to h701:s4.
+- Repository-only optional context. Chat delivery, consumption, and acknowledgment are not claimed.
