@@ -228,3 +228,8 @@ Ravel PR #1133 now has a current-head CI failure (#42672531085) at head `8911635
 Existing issue #1547 is PUBLISHED_VERIFIED and its artifact hash/readback were independently checked. The artifact's old "no current-head check run" statement is superseded by comment #6754132880; no duplicate issue was created. Its publication commit falls between two conflicting `started_at` observations for the same :36 run ID, so producer linkage remains unresolved.
 
 Latest :36 scheduler peek: run `d1571c56-4fc0-8324-8e90-20b5628492b5` still IN_PROGRESS, `chat_ref=null`, cached result stale at h714. Preserve both observed start times (22:32:26.826284Z and 22:59:44.536173Z); no attempt ID is exposed. Tern received a no-task control-plane note. Ariadne's h718:s4 run had already started, so its packet is optional repository context only. No task, schedule, phase, enabled state, or task count changed. No authenticated Aster thread, cross-thread delivery, physical prediction, or theory promotion is claimed.
+
+
+### Scheduler observation 02 (2026-11-09 23:21Z)
+
+The same :48 run ID `cbf392dc-dec0-8321-a4e2-9c27a21c1b44` was observed first with `started_at=22:51:53.833660Z`, then with `started_at=23:19:01.787261Z` (difference 1,627.953601 s). Latest state remains IN_PROGRESS with `chat_ref=null`. Preserve both snapshots; no separate attempt ID is exposed. The Ariadne handoff is POST_START_OPTIONAL_CONTEXT_ONLY. Tern has the control-plane observation. No task or schedule change.
