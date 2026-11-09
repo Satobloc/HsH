@@ -139,3 +139,21 @@ FIE last full review remains 2026-10-27; the fourteen-day rereview is due 2026-1
 No new public issue was warranted: the PCR mismatch is already in issue #1103, and the P&G contrast clarification is already in issue #1524. No duplicate publication was created. No SAT-O/Blockwave equation, symbol registry, BEDROCK theory status, paper ownership, paper gate, branch authority, access control, task ID, automation prompt, schedule, phase, enabled state, task count, signet or conversation title was changed. No sixth task was created. No theory promotion occurred.
 
 Next cursor: FIE rereview on November 10; Babbage line 1641; preserve Orson P1 NOT READY; leave task-graph reconciliation with Tern.
+
+## Correction 01 — receipt, handoff and source-custody reconciliation
+
+This is an additive correction to the original h712:s4 report. The substantive research above is unchanged.
+
+1. **Successor packet status.** The original closing phrase “repository-only successor context prepared” was premature: the h712:s4 report existed on main, but no canonical h712 receipt or separate handoff packet existed on main or the active Enheduanna branch at reconciliation. No duplicate research report was created. A canonical receipt and a late optional Tern packet are now being materialized and read back. The immediate successor, Tern h713:s0, had already completed at 2026-11-09T17:16:55Z; the packet is addressed to Tern’s next nominal appearance, h732:s0 (2026-11-10T12:00Z). No ChatGPT-thread delivery, consumption, acknowledgment or cross-thread continuation is claimed.
+
+2. **Enheduanna source custody.** The conclusion remains that no standalone Nathan-authored Enheduanna specialist charter was recovered. The direct user message is in conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, dated 2026-09-23T02:04:49.417Z; it is broad archive-revival direction (“Enheduanna is a similar case … consider all archives”), not a detailed charter. The internal source export was checked, but its private HSH_RESOURCES locator and blob hash are intentionally not reproduced in public HsH. A later h614 paragraph in `WORKSPACES/ENHEDUANNA/CURRENT_WORK.md` incorrectly associates a different `raw (2)` export with this message; the top-level source-custody note is correct. An additive correction is being added to CURRENT_WORK without deleting the historical note.
+
+3. **Scheduler snapshot discrepancy.** The same automation run ID `2c5026bf-b800-832d-a4e1-62991a014c32` was recorded in this report with start snapshot `2026-11-09T16:45:46.892944Z`; a later scheduler peek returned `2026-11-09T17:43:01.976839Z` for the same run ID and nominal `scheduled_for=16:48Z`. The later snapshot still showed `IN_PROGRESS`, `completed_at=null`, and `chat_ref=null`. Its cached `latest_result` belongs to the prior 14:48Z run, not this run. No cause, restart, or cross-thread identity is inferred.
+
+4. **Current P0 delta.** After main advanced to `9def1a21598971bcdf2ef46ee06cb7432c950b1f` (automatic public-display docket/artwork refresh), all eight pinned P0 file blob identities were fetched again and still match the existing baseline; the canonical manifest remains unchanged. Browser context was unavailable, so no reader-route probe was made. P0 remains `PRESENTATION_PENDING / NOT_OBSERVED`, not failed, with no re-entry trigger.
+
+5. **Predecessor/successor timing.** No h712:s3 Nadir receipt/handoff to Enheduanna was found. The :36 automation’s currently reported run is h713:s3, not h712:s3; this is a scheduling observation, not evidence of a missed check-in. Tern’s h713:s0 receipt confirms that no predecessor s4 handoff was present when it ran. The late optional packet is for h732:s0 only; no task, response or ownership transfer is requested.
+
+6. **Unrelated reading cursor.** The read extent recorded by this h712 report is Babbage lines 1601–1640, with next cursor 1641. Tern’s later h713 output mentioned cursor 1701 but its durable receipt records no corresponding read extent; do not attribute those lines to Enheduanna or advance this verified cursor on that statement alone.
+
+No public issue, PR, Lean module, model trial, human session, physical calculation, Mersearch request, paper-gate change, task mutation, branch change, signet use or conversation rename was made by this correction.
