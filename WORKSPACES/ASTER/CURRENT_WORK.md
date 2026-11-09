@@ -206,3 +206,14 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - No new Mersearch request, tool, branch, PR, physical calculation, CODATA score, SAT-O/Blockwave equation edit, empirical claim, paper-gate advancement, or BEDROCK promotion. PR #1220 remains untouched.
 - Unrelated reading advanced to Babbage lines 1661-1700; next 1701. FIE review due 2026-11-10, not yet due.
 - Next: recover Oct29 TOPLESS raw export; type w_M/w_S and map to Σ_λ/W⁴; define hierarchy composition/projection maps; revisit parabola formalization only after exact equations and slice geometry exist.
+
+
+## 2026-11-09 22:36Z h718:s3 — TOPLESS raw source recovered
+
+The unresolved 2026-10-29 TOPLESS raw source has now been recovered from the user's Files archive. Full provenance, message UUIDs, parent/child pointers, current-node pointer, raw-export SHA-256, and the geometry-map gate are recorded in [the Aster source-recovery report](2026-11-09T2236Z_TOPLESS_RAW_SOURCE_RECOVERY_AND_MAP_GATE.md).
+
+The later direct 2026-10-29 follow-up explicitly says to use `w=ct` with Forest Normalization for this source branch. The earlier 2026-10-21 `cw=t` statement remains preserved historically; no typed conversion or complete Forest Normalization definition is recovered, so no BEDROCK rewrite is made.
+
+The direct source's tube/wavefront intersection is verbal. `P_i(λ)=W_i∩Σ_λ` remains assistant reconstruction. The source does not type `W_i`, the metric/signature, the wavefront embedding, transversality, or the observation map. The next gate is to recover the Forest Normalization source and define those maps before any Lean formalization or physical test. No new Lean proof, physical calculation, P2 system selection, paper-gate advancement, or theory promotion occurred.
+
+Unrelated reading: `fun break - lx.txt`, lines 921–960; next cursor 961. FIE rereview is due November 10, not yet due. Existing :36 automation remains enabled and unchanged; current run had `chat_ref=null`. Ariadne's h718:s4 run had already started, so any handoff is late optional repository context only.
