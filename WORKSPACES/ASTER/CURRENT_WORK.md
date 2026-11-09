@@ -191,3 +191,5 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Aster PR #1220 remains OPEN/DRAFT/UNMERGED; no branch change. HsH main pre-write head was `c2bf9f6da5beb27523dedab8b33e436c172ae131`. Code Grurple P0 remains active; Aster Paper A review remains frozen. FIE rereview is due 2026-11-10, not yet due.
 - Unrelated reading was already completed in the preceding Aster receipt: Babbage lines 1621–1660; next cursor 1661. No duplicate reading was performed.
 - Scheduler :48 task remains enabled with its original ID and exact hourly :48 phase. Nominal h695 run was scheduled 23:48Z, started 23:46:36Z, and still showed IN_PROGRESS / chat_ref=null at the latest peek; its cached latest_result still points to h694. No task or schedule changed.
+
+- Canonical h695:s4 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T2348Z_s4_aster.md` (receipt created before successor inbox handoff; handoff verification is recorded in its own file).
