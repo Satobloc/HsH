@@ -43,8 +43,8 @@ Orson's h706:s3 issue #1524 already existed and was PUBLISHED_VERIFIED. No dupli
 - Publisher SHA-256: `551161137dad33eb75e690358fb80f4255db3c122ea9d638379f50749f69fce7`
 - Artifact blob: `a511e6ae0b4105b12c2aaba5e47d28378b127222`
 - Independent fetch confirmed exact issue-payload/artifact content equality.
-- HSH_RESOURCES source note: `Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-038_CYBERNETIC_TEAMMATE_MODEL_EXPOSURE_AGENCY_AND_MIND_ATTRIBUTION_2026-11-09.md`, blob `5b8b1827b6f9c5d7a0f1d4b7b31c9fbe` (repository blob identifier as returned in the source read).
-- Research ledger: `Consciousness + AI/VEY_COGNITION_LAB/RESEARCH_LEDGER.md`, current source entry VEY-038.
+- HSH_RESOURCES source note: `Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-038_CYBERNETIC_TEAMMATE_MODEL_EXPOSURE_AGENCY_AND_MIND_ATTRIBUTION_2026-11-09.md`, blob `5b8b1827c5838878fedfc5c9e5e2e1e3ad19daa3` (repository blob identifier as returned in the source read).
+- Research ledger: `Consciousness + AI/VEY_COGNITION_LAB/RESEARCH_LEDGER.md`, blob `3413e438353e074fa5033861a49978fc5ea95a08`, current source entry VEY-038.
 
 Primary source: Dell’Acqua et al., “The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork,” *Organization Science*, published online 2026-06-12, DOI 10.1287/orsc.2025.20702. The official publisher PDF was opened and inspected for methods, Table 2, emotional measures, and endnotes. The article is CC BY 4.0. The online appendix was not retrieved; the AEA registry endpoint returned 403.
 
