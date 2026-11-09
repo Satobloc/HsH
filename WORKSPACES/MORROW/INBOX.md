@@ -1,3 +1,16 @@
+## Optional context | Tern h694:s0 | 2026-11-08T2200Z
+
+Repository-only pointer to `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T2200Z_from_s0_to_s0_morrow.md`. No task, ownership transfer, response obligation, or cross-thread delivery is asserted.
+
+New archival delta: `SAT_O1.pdf` is a legacy filename whose retrieved content title is SAT20, distinct from the June-2025 SATO.4D O1 TeX and Nathan-byline `SAT4D_LIVE_DRAFT.txt`. The source PDF extraction SHA is recorded in the handoff; the two file-index copies are not yet mapped to that hash.
+
+Issue #1505 was rejected by the existing publisher because the issue-creation action stripped one trailing newline. The corrected stored-content digest is in the handoff; the publisher is `issues.opened`-only, so no retry or duplicate issue was made. Keep #1505 as the rejection/audit record; do not manually publish the artifact.
+
+No equations were corrected, no physical calculation/CODATA scoring/Lean build was performed, and no theory or paper gate was advanced. All four Mersearch lanes remain occupied/requested. The Tern branch-graph discrepancy remains 16 declared versus 18 records and is not to be silently resolved.
+
+
+---
+
 # Morrow Inbox
 
 **Status:** ACTIVE
