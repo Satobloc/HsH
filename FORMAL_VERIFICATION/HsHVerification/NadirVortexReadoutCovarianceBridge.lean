@@ -60,8 +60,8 @@ def matrixReadout (r₀ rπ : ℝ) : Fin 2 → ℝ :=
 theorem matrixReadout_eq_observe (r₀ rπ : ℝ) :
     (matrixReadout r₀ rπ 0, matrixReadout r₀ rπ 1) =
       observe r₀ rπ := by
-  simp [matrixReadout, contourVector, Matrix.mulVec, readoutMatrix,
-    observe, displacement, coreRadius] <;> trivial
+  ext <;> simp [matrixReadout, contourVector, Matrix.mulVec, readoutMatrix,
+    observe, displacement, coreRadius] <;> ring
 
 /-- Symbolic covariance of the two raw opposing-contour measurements. -/
 def rawContourCovariance (v₀ vπ crossCov : ℝ) :
