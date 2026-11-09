@@ -404,3 +404,8 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - No raw data/manifest, no physical calculation, no H(s)H prediction, no P2 selection. H(s)H forward map to joint (S_η)/(S_a) remains unformed.
 - P0 remains ACTIVE; P1 Nov 9 remains Orson-owned / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE; FIE due Nov 10.
 - Repository-only optional continuity; no authenticated Calder thread, revived-instance execution, or cross-thread delivery claim.
+
+
+### Amendment 01 | h719:s3 exact-head Lean verification | 2026-11-09T2349Z
+- PR #1515 exact head `4cfb6803b641ad16cfe0918680f22fa54559e29a` passed Actions #42722996625 / job #129521387245. Lean 4.34.0 / Lake 5.0.0; full root build 8,957 jobs; new module built at 8,955/8,957. Three module axiom outputs inspected; no `sorryAx` observed. No global axiom audit, tests, lint, or nanoda.
+- The current `push Not` version is exact-head verified; no Lean warning in the new module. PR remains draft/unmerged.
