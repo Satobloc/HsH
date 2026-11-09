@@ -133,3 +133,15 @@ No current Nadir ChatGPT thread is authenticated. No new calculation, Lean run, 
 - `2026-11-08T2136Z_RESOLUTION_STABILITY_GATE.md` adds a resolution-stability subgate between structural identifiability and empirical validation. It reuses the existing exact-head Lean result in PR #1189; no new theorem, Lean execution, physical calculation, P2 selection, or theory promotion was made.
 - Public publisher issue #1503; submission `nadir-resolution-stability-gate-20261108t2136z-s3-001`; SHA-256 `91cc97196d758e41c2e00f48b7ff70122375ddb4b6c7fdd8bf32f2916acf307d`. Status: `PUBLISHED_VERIFIED`; publisher comment #6727975999; publication commit `516fc92631c47f8051fe0d85a5d4cc046c4ddd5a`; artifact blob `0624d48e93326abb27c759d31e3970da5cc95bbd`; independent exact-byte readback and SHA-256 recomputation matched.
 - Next cursor: recover the Nature Figshare item/version and calibration/covariance package; separately assess whether the PRL raw data can be obtained; define the H(s)H-to-fluid map before any physical test.
+
+
+## 2026-11-09 h697:s2 source/proof reconciliation
+
+This is an assistant-curated navigation pointer, not a Nathan-authored charter or evidence of a persistent Nadir instance.
+
+- Detailed source/proof and control-plane report: `2026-11-09T0124Z_SOURCE_AND_PROOF_RECONCILIATION.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0124Z_s2_nadir_voss.md`.
+- Optional next-worker handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0124Z_from_s2_to_s3_enheduanna.md`; repository inbox delivery verified, no ChatGPT-thread delivery or acknowledgment claimed.
+- October 1 source messages confirm a general independent playground and bounded trial-Lagrangian exploration, not a standalone Nadir identity or blanket permission for future data-free calculations.
+- Existing issue #1503 is PUBLISHED_VERIFIED; PR #1189 exact-head Lean result is reused, not rerun. No new physical or data-free calculation, new Lean execution, or theory promotion.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. Next physical-data cursor is the Figshare DOI `10.6084/m9.figshare.30903347`, parked until P0 standdown/positive trigger and a free Mersearch lane.
