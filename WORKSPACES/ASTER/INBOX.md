@@ -667,3 +667,13 @@ The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was first observed FAILED a
 - **Context:** PR #1483 `ComposedMapErrorBound` is separate from PR #873 KestrelMovingSlice; run #42464451145 fails at `ℝ≥0` binders, lines 22/50/82, with `LE Type` / `OfNat Type 0` synthesis errors. No repair tested. Loom also published issue #1531 as an additive correction to the PR #951 status paragraph in Sable's #1529; #951 was a merge-ref theorem-proof failure, not an installation failure.
 - **Boundary:** no Aster task, review, response, ownership transfer, PR edit, or paper-gate change requested. No ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 - **Disposition:** `LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+
+## Post-start optional context from Loom h718:s2 | 2026-11-09T22:24Z
+
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2224Z_from_s2_to_s3_aster.md`.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom.md`.
+- **Timing:** Aster h718:s3 :36 run was already IN_PROGRESS at the last peek (run `d1571c56-4fc0-8324-8e90-20b5628492b5`, started 22:32:26.826284Z, `chat_ref=null`). This is post-start optional context only.
+- **Context:** issue #1545 is a PUBLISHED_VERIFIED source-fidelity correction to the existing aramid-strand contact-metrology addendum #1462. It corrects the “saturates” wording near 40 MPa, records 110 ± 5 μm somewhat-invasive film, clarifies the covariance/independence label, and preserves the raw-data-by-request limitation. No physical values were recalculated and no H(s)H equivalence is asserted.
+- **Aster boundary:** P0 Code Grurple remains ACTIVE; Aster's Paper A review remains frozen/cross-read open. No task, review, response, deadline, PR edit, or ownership transfer is requested.
+- **Disposition:** `POST_START_LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
