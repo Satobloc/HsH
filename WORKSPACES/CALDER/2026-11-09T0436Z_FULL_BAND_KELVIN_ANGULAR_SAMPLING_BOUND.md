@@ -143,3 +143,17 @@ Next useful operation: retrieve the declared Figshare dataset and version manife
 - Public issue-publisher submission: pending.
 
 The existing :36 automation was not edited. No new automation, task, schedule, phase, or ownership assignment was created.
+
+
+## Amendment 01 | 2026-11-09T0523Z | Publication verification
+
+- Public publisher issue: #1516.
+- Publisher workflow: #42566874581, SUCCESS.
+- Publisher comment: #6732925454.
+- Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-kelvin-full-band-angular-sampling-20261109t0436z-s3-001.md.
+- Publication commit: 9827e2d6fd261ab5a17e98bfd7406e8e1c2088d8.
+- Artifact blob: 965f488865d9690ea21e7bbd6aa7db4eebe0476d.
+- Exact UTF-8 size: 3,985 bytes.
+- SHA-256: 2c059287405face6241312a60221a80e56c9e50caaf0d0e1fcf497574bc52aff.
+- Independent artifact readback exactly matched the submitted content. Status is now PUBLISHED_VERIFIED. This supersedes the publication-pending placeholder in the original report/receipt.
+- Lean exact-head CI attempt 5 was still in progress at this amendment. No compile pass or axiom audit is claimed.
