@@ -1,0 +1,18 @@
+# Correction to Review-MIND cross-case identity evidence: Lean freshness
+
+**Supersedes only §4 of issue #1521.** The five-axis cross-case synthesis in #1521 remains. Its Lean-build freshness section incorrectly described the `c7dc2c...` merge parent as the current base for PRs #873 and #951. The live pull-request metadata snapshot checked at 2026-11-09T10:44Z reports a different base SHA. Current-base verification for those runs is therefore unresolved, not confirmed.
+
+Issue #1522 was an idempotent duplicate intake of the same submission and is being closed as a duplicate. This correction is a separate, narrowly scoped amendment, not a replacement for the cross-case analysis.
+
+## Corrected Lean/Mathlib status
+
+- **Kestrel PR #873:** current PR head `1971e3d58a28f7c6de5cf024039dbcedb133121c`; run #42153410233 succeeded on merge commit `a2c3304edafa5274530ce5286cbe15ac1ed47b0b`, whose parents are `c7dc2c483f50ae03fc7a7c530829170135e18d92` and the PR head. The live PR metadata reports base SHA `61cc8b65ffed70296e0121dbae067892a79c81d4`. This is a PR-head-matched merge-reference success, but the run's base parent and live PR base metadata differ. **Current-base verification is unresolved; no exact-head standalone build is established.**
+- **Elias PR #951:** current PR head `d0b17f74082137db03eb3f46102c99a888fbf1d4`; run #42590880703 succeeded on merge commit `54c63ef000edb63fb11688ef6592a598106be892`, whose parents are `c7dc2c483f50ae03fc7a7c530829170135e18d92` and the PR head. The live PR metadata reports base SHA `61cc8b65ffed70296e0121dbae067892a79c81d4`. Same status: PR-head-matched merge-reference success, but current-base verification unresolved and no exact-head standalone build.
+- **Loom PR #759:** current PR head `45f6d5167c064d04dbba436c220c900b479b873f`; last success #41349278088 used older head `11e5eafee7d5ce361fe78f2061e5154a0994dc8b` and merge-base parent `7a0098eaf4bfe979590bab46d0a727cb57982f51`. Live PR metadata reports base SHA `d8a36337650c93ee21d8c8443639fb844e5e7c83`. Both head and base differ: **stale for the current PR snapshot**.
+- **Ariadne PR #790:** current PR head `cecb14ce456bec4e5dc507bdf70cb860cd901d7e`; run #42302396589 used older head `929f680a98d6a4461e1a30234aa4aa20ac95351c` and merge-base parent `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Live PR metadata reports base SHA `61cc8b65ffed70296e0121dbae067892a79c81d4`. **Stale for the current PR snapshot.** This PR concerns archived role/transclusion provenance, not the multi-voice identity claim in #1513.
+- **Orson PR #1115:** current head `7e3b3e5e1ac9933cd6a7c0f5c42879b469f34c7e`; the only run on that head, #42496973026, failed `conversation-json-content-ci`. **No Lean run.** Its 2×2 algebra remains conditional design identifiability, not a causal or empirical result.
+- **Orson PR #850:** current PR head `3bb0c57b56e1eff49139dcc21fcfe518a7717b8d`; run #42416933193 succeeded on merge ref `17c3d7409cb13acaa9b9a06170af0fa7bbd26c39`, whose parents are live PR base SHA `598a45b3feb9378eb8f14ff069ec9080137113c2` and the PR head. This is a current-base merge-reference pass, not an exact-head standalone build, and is separate from PR #1115.
+
+## Limits
+
+No new theorem or module was created. The existing formalizations remain separate and have no verified composition map into one unified cognition/provenance model. Compilation verifies only the encoded statements and assumptions; it does not establish the source-to-model translation, actual worker identity, independent reasoning, causal influence, or physical truth. The five-axis synthesis in #1521 remains a methodological proposal, not a Lean theorem.
