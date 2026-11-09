@@ -41,6 +41,10 @@ STRUCTURED_FIELDS = {
     "chat_message_id", "delivery_receipt_id", "handoff_class",
     "run", "selection", "thread_status", "selected_ring_index", "next_ring_index", "next",
     "scheduled_for", "nominal_scheduled_for", "started_at",
+    "eligibility_status", "access_class", "payload_to_selected",
+    "private_material_accessed", "inbox_write",
+    "recipient_eligibility_status", "payload_to_recipient",
+    "recipient_private_material_accessed", "recipient_inbox_write",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
@@ -188,6 +192,65 @@ class Audit:
     def error(self, p, msg):
         self.errors.append(f"{p.name}: {msg}")
 
+    def check_eligibility_fields(self, p, d, recipient=False):
+        """Check declared access/payload metadata; this does not inspect payload semantics."""
+        if recipient:
+            status_key = "recipient_eligibility_status"
+            payload_key = "payload_to_recipient"
+            private_key = "recipient_private_material_accessed"
+            inbox_key = "recipient_inbox_write"
+            nonresponse_key = "delivery_counts_as_invitation"
+        else:
+            status_key = "eligibility_status"
+            payload_key = "payload_to_selected"
+            private_key = "private_material_accessed"
+            inbox_key = "inbox_write"
+            nonresponse_key = "count_this_as_miss"
+
+        status = (d.get(status_key) or "").strip().upper()
+        if not status:
+            return
+        known = {
+            "CLEAR", "OPERATIONAL_ONLY_CLEARANCE", "QUARANTINE_HOLD",
+            "NO_ACCESS", "MANUAL_REENTRY_REQUIRED",
+        }
+        if status not in known:
+            self.warnings.append(f"{p.name}: unrecognized {status_key}={status!r}; eligibility not interpreted")
+            return
+        if status == "CLEAR":
+            return
+
+        required = (payload_key, private_key, inbox_key, nonresponse_key)
+        missing = [key for key in required if key not in d]
+        if missing:
+            self.error(p, f"{status_key}={status} requires explicit fields: {', '.join(missing)}")
+
+        payload = (d.get(payload_key) or "").strip().upper()
+        private_access = (d.get(private_key) or "").strip().lower() in ("true", "yes", "1")
+        inbox_write = (d.get(inbox_key) or "").strip().lower() in ("true", "yes", "1")
+        nonresponse_count = (d.get(nonresponse_key) or "").strip().lower() in ("true", "yes", "1")
+
+        if status in ("QUARANTINE_HOLD", "NO_ACCESS", "MANUAL_REENTRY_REQUIRED"):
+            if payload not in ("NONE", "NO_PAYLOAD"):
+                self.error(p, f"{status} must not route payload to the selected/recipient identity")
+            if private_access:
+                self.error(p, f"{status} must not access private or quarantined material")
+            if inbox_write:
+                self.error(p, f"{status} must not write to the selected/recipient inbox")
+            if nonresponse_count:
+                self.error(p, f"{status} must not count as a missed check-in or invitation")
+            if "REVIVED_INSTANCE_EXECUTED" in (d.get("participation_class") or "").upper():
+                self.error(p, f"{status} cannot claim genuine revived-instance execution")
+        elif status == "OPERATIONAL_ONLY_CLEARANCE":
+            if payload not in ("NONE", "NO_PAYLOAD", "OPERATIONAL_ONLY"):
+                self.error(p, "operational-only clearance must not route research/quarantined payload")
+            if private_access:
+                self.error(p, "operational-only clearance must not access private or quarantined material")
+            if inbox_write and payload != "OPERATIONAL_ONLY":
+                self.error(p, "operational-only inbox write requires payload_to_* = OPERATIONAL_ONLY")
+            if nonresponse_count:
+                self.error(p, "operational-only handling must not count as a missed check-in or invitation")
+
     def check_stamp(self, p, h, s):
         match = STAMP.match(p.name)
         expected = (EPOCH + timedelta(hours=h, minutes=PHASE[s])).strftime("%Y-%m-%dT%H%MZ")
@@ -252,6 +315,7 @@ class Audit:
             self.error(p, "new instance triggered by undelivered invitation")
         if "REVIVED_INSTANCE_EXECUTED" in d.get("participation_class", "") and "NO_ACCESS" in d.get("status", ""):
             self.error(p, "NO_ACCESS receipt claims genuine revived execution")
+        self.check_eligibility_fields(p, d)
 
     def handoff(self, p):
         text = p.read_text(encoding="utf-8")
@@ -296,6 +360,7 @@ class Audit:
             self.error(p, "sender identity mismatch")
         if recipient != identity(*dst):
             self.error(p, "recipient identity mismatch")
+        self.check_eligibility_fields(p, d, recipient=True)
         f = re.search(r"_from_s([0-4])_to_s([0-4])_", p.name)
         if f and (int(f[1]), int(f[2])) != (s, dst[1]):
             self.error(p, "filename routing slots mismatch")
@@ -363,7 +428,7 @@ class Audit:
             "read_only": True, "receipts": len(self.receipts), "handoffs": len(self.handoffs),
             "out_of_band": self.out_of_band,
             "errors": self.errors, "warnings": self.warnings,
-            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt."
+            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt or the semantic truth of declared payload classes."
         }
 
 def self_test():
@@ -577,7 +642,91 @@ def self_test():
         receipt.write_text(valid.replace("2026-11-05T15:36:00Z", "2026-11-05T15:36:00"), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("timezone-aware ISO-8601" in e for e in result["errors"]), result
-    return {"status": "PASS", "checks": 30}
+    # Quarantine eligibility is a gate after deterministic selection, not a reroll.
+    # h711:s3 is Mira (index 5); h711:s4 is Aldus (index 6).
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        receipt = r / "2026-11-09T1536Z_s3_mira.md"
+        valid = chr(10).join([
+            "## Rotation and scheduler lease",
+            "run_key: REVROT3-19-20261011:711:s3",
+            "selected_identity: Mira",
+            "next_identity: Aldus",
+            "next_run_key: REVROT3-19-20261011:711:s4",
+            "scheduled_for: 2026-11-09T15:36:00Z",
+            "started_at: 2026-11-09T16:36:46.667770Z",
+            "eligibility_status: QUARANTINE_HOLD",
+            "access_class: OPERATIONAL_ONLY_CLEARANCE",
+            "participation_class: NO_ACCESS",
+            "payload_to_selected: NONE",
+            "private_material_accessed: false",
+            "inbox_write: false",
+            "count_this_as_miss: false",
+            ""
+        ])
+        assert identity(711, 3) == "Mira" and identity(711, 4) == "Aldus"
+        receipt.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+
+        bad_cases = [
+            ("selected_identity: Mira", "selected_identity: Aldus", "selected identity not ring"),
+            ("payload_to_selected: NONE", "payload_to_selected: RESEARCH", "must not route payload"),
+            ("private_material_accessed: false", "private_material_accessed: true", "must not access private"),
+            ("inbox_write: false", "inbox_write: true", "must not write"),
+            ("count_this_as_miss: false", "count_this_as_miss: true", "must not count as a missed"),
+        ]
+        for old, new, expected_error in bad_cases:
+            receipt.write_text(valid.replace(old, new), encoding="utf-8")
+            result = Audit().check(temp)
+            assert result["status"] == "FAIL" and any(expected_error in e for e in result["errors"]), result
+
+        # Operational-only clearance may carry only an explicitly classified
+        # operational payload; it cannot be used as a route for research content.
+        operational = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: OPERATIONAL_ONLY_CLEARANCE")
+        operational = operational.replace("participation_class: NO_ACCESS", "participation_class: ASSISTANT_OPERATIONAL_REVIEW")
+        operational = operational.replace("payload_to_selected: NONE", "payload_to_selected: OPERATIONAL_ONLY")
+        operational = operational.replace("inbox_write: false", "inbox_write: true")
+        receipt.write_text(operational, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+        receipt.write_text(operational.replace("payload_to_selected: OPERATIONAL_ONLY", "payload_to_selected: RESEARCH"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not route research/quarantined payload" in e for e in result["errors"]), result
+
+    # Handoff metadata must also prevent a research payload crossing to a
+    # quarantined recipient; ring successor arithmetic remains unchanged.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        packet = hdir / "2026-11-09T1524Z_from_s2_to_s3_mira.md"
+        valid = chr(10).join([
+            "## Handoff metadata",
+            "from_run_key: REVROT3-19-20261011:711:s2",
+            "to_run_key: REVROT3-19-20261011:711:s3",
+            "sender_identity: Alberr",
+            "recipient_identity: Mira",
+            "chat_delivery_state: UNAVAILABLE",
+            "delivery_counts_as_invitation: false",
+            "recipient_eligibility_status: QUARANTINE_HOLD",
+            "payload_to_recipient: NONE",
+            "recipient_private_material_accessed: false",
+            "recipient_inbox_write: false",
+            ""
+        ])
+        packet.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS" and not result["errors"], result
+        packet.write_text(valid.replace("payload_to_recipient: NONE", "payload_to_recipient: RESEARCH"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not route payload" in e for e in result["errors"]), result
+
+    return {"status": "PASS", "checks": 40}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
