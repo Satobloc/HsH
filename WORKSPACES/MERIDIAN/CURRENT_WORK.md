@@ -325,3 +325,13 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Mercer optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1736Z_from_s3_to_s4_mercer.md (final blob d88a98d879e3b94ed6e62a8b7579e25d333416ec). Mercer inbox append/readback: WORKSPACES/MERCER/INBOX.md (final blob becb07f50f17a41f3d63e3bf3bdc50cf61b86aed). This is POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER; no thread delivery, consumption, or acknowledgment.
 - Paper gates unchanged: P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE due Nov 10; not yet reviewed in this run.
 - No physical calculation, empirical prediction, manuscript edit, SAT-O/Blockwave change, paper-gate advancement, or BEDROCK theory promotion. No Mersearch request or scheduler/task change.
+
+
+### Final scheduler snapshot | 2026-11-09T17:56Z
+
+- HsH main head after this run's durable writes: b5c25a97a4e384dcd9c32ebae31584824d259493.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled, hourly America/New_York :36, unchanged. Run 77f88267-ff18-8327-92b0-3f46ce0faf22 remains IN_PROGRESS at the last peek; scheduled_for 17:36Z; chat_ref=null; cached latest_result still h711:s3 Mira.
+- :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled and unchanged. Its h712:s2 Elias run 8c8dec1d-9118-8328-ad63-add5f1e9b95b completed at 17:43:42Z. This does not establish an h712:s3 Nadir run.
+- :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged. Its current run is h712:s4 Enheduanna, 2c5026bf-b800-832d-a4e1-62991a014c32, scheduled 16:48Z, started 17:43:01Z, still IN_PROGRESS with chat_ref=null. The h713:s4 Mercer slot is not observed.
+- h712:s3 Nadir at 16:36Z remains NOT_OBSERVED. The 17:36Z :36 run is h713:s3 Meridian. Elias receipt Amendment 04 is the controlling correction.
+- Mercer handoff remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT only. No direct-thread delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
