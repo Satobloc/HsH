@@ -4,7 +4,7 @@
 **Run key:** `REVROT3-19-20261011:697:s3`  
 **Selection:** Enheduanna, ring index 11  
 **Successor:** Tern Rook, ring index 12  
-**Disposition:** `SOURCE_GROUNDED_ASSISTANT_RECONSTRUCTION / BRANCH_MAP_GATE_ADDED / LEAN_SUBMITTED_NOT_VERIFIED`
+**Disposition:** `SOURCE_GROUNDED_ASSISTANT_RECONSTRUCTION / BRANCH_MAP_GATE_ADDED / LEAN_VERIFIED_MERGE_REFERENCE / EXACT_MODULE_BLOB_MATCH`
 
 This is a source-grounded relay-session reconstruction, not an authenticated historical Enheduanna ChatGPT thread. Personal-context and repository searches found no authenticated existing Enheduanna worker thread and no standalone Nathan-authored specialist charter. The current Enheduanna source-layer census and role summary are assistant-curated. Preserve the source-critical remit without upgrading that summary into direct historical authority.
 
@@ -84,7 +84,7 @@ The module defines:
 
 The type indices prevent composing maps whose middle branch types do not match. The compatibility witness prevents treating a merely type-correct composition as domain-valid.
 
-**Lean status at report creation:** `LEAN_SUBMITTED_NOT_VERIFIED`. PR-triggered Actions run #42547294085 / job #128934928067 was queued, then in progress at the Lake dependency-manifest step. The compile step had not yet started. No theorem is called compiled or verified. The local runtime has no repository checkout or Lean/Lake executable. The workflow has tests, lint and the separate global axiom audit disabled; those remain separate gates even if the build succeeds.
+**Lean status after completion:** `LEAN_VERIFIED_MERGE_REFERENCE / EXACT_MODULE_BLOB_MATCH`. PR-triggered Actions run #42547294085 / job #128934928067 completed SUCCESS. The workflow checked out synthetic merge commit `65a3e601952ff41b28633b57f7c56195f911c24c`, whose merge message identifies PR head `8647396cb5a3ce4803720a02982bc9af1a12df96` and base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. The module blob `e38901478a62cb5807b2d52978afc514250f3061` and root aggregator blob `fb0da3035c9f48be7285851255d39679a2ca66c9` match exactly between PR head and merge reference. Lean 4.34.0 (compiler commit `293d5d0c0c3f3dded4688b3ccd6a33939ac5102b`), Lake 5.0.0, Mathlib tag v4.34.0 at commit `5ed2965256430c3649e86755f9576b54eca72435`; full root build SUCCESS, 8,945 jobs, new module built at 8,930/8,945. The theorem-specific `#print axioms` outputs: `compose_preserves_target` and `transport_compose` report no axioms; `transport_identity` reports `[propext]`. No `sorry` or `admit` appears in the new module by source inspection. Tests and lint were disabled; nanoda and the global axiom audit were skipped. This is a merge-reference build, not an exact-head standalone build. The local runtime has no repository checkout or Lean/Lake executable.
 
 The formalization proves only the abstract conditional map-composition contract. It does not authenticate the source messages, establish that B0/B1/B2 maps exist, prove physical equivalence, or validate any H(s)H premise.
 
@@ -109,6 +109,6 @@ No physical system, measured dataset, units, calibration, uncertainty/covariance
 
 ## 7. Return cursor
 
-`BRANCH_SCOPE_LOCK / B0-OCT09 → B1-KLEIN-FABRIC → B2-FOREST-++++ / MAPS-UNMAPPED / PR1508-LEAN-PENDING / NO-PHYSICAL-PREDICTION / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / NEXT=TERN-ROOK-OPTIONAL-CONTEXT`
+`BRANCH_SCOPE_LOCK / B0-OCT09 → B1-KLEIN-FABRIC → B2-FOREST-++++ / MAPS-UNMAPPED / PR1508-MERGE-REF-LEAN-PASS-EXACT-MODULE-MATCH / NO-PHYSICAL-PREDICTION / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / NEXT=TERN-ROOK-OPTIONAL-CONTEXT`
 
 Next useful operation: inspect PR #1508's exact-head CI to completion, correct any Lean errors without changing the historical source record, then obtain independent translation review. Separately, recover source-defined transition/projection maps only if the primary archive actually contains them; do not infer them from the branch names or the PG comparison.
