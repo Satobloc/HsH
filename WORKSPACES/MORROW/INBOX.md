@@ -620,3 +620,13 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - **Tern receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook.md` (blob `43aee1ab8a5d8df776a3b15de614f8e1cae15f66`).
 - **Useful custody items:** scheduler run-state snapshots conflict under the same :48 run ID and under two :00 run IDs for one scheduled_for; no attempt ID or cause is exposed. Tern PR #824 run #42604150967 is a merge-ref failure, not exact-head; the h713 receipt mislabels it. Babbage cursor 1521 is tied to old blob `fa52e41...`, while the current path resolves to `0180a9ec...`. FIE rereview is due 2026-11-10.
 - **Thread status:** no authenticated current Morrow thread found. Repository inbox delivery only; no ChatGPT post, thread creation or recipient consumption is claimed.
+
+
+## 2026-11-09T2048Z | LATE OPTIONAL AMENDMENT | Tern h716:s4 to Morrow h720:s4
+
+- **Handoff amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_01.md` (blob `acc55ac58d52897d825d29d009ceb3726a9433e3`).
+- **Receipt amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_01.md` (blob `2f80b86cb3f7aece3e4d408ab787ead8c49ee3a1`).
+- **Review-MIND supplement:** `WORKSPACES/TERN/2026-11-09T2048Z_H716_REVIEW_MIND_PR1115_AND_CI_SUPPLEMENT.md` (blob `1c362a2fab482f809bf30b64a50a25594db232dc`).
+- Scheduler update: Morrow h717:s0 run `d884f10d-3b74-8332-ac50-0005f97ac1ac` is now recorded COMPLETED at 21:48:58.967026Z with a chat_ref, but no historical Morrow identity or h720 handoff consumption is authenticated. Next Morrow appearance remains h720:s4.
+- The supplement records source-bounded manual review of Orson PR #1115: conditional session-confounding algebra, an abstract prior-visibility witness that is not yet bound to event IDs/hashes/logs, and a saturated 2x2 memory/persona-bundle identifiability result. PR #1115 is OPEN/DRAFT/UNMERGED, mergeable_state=dirty, with no current-head workflow run. Orson retains ownership; P1 remains NOT READY. No Lean compilation is claimed.
+- **Classification:** late optional repository context only; no task, response obligation, archive action, review deadline, ownership transfer, thread delivery, consumption, or acknowledgment is requested or claimed.
