@@ -1,5 +1,20 @@
 ## Current checkpoint: 2026-11-09 h701:s4 | SAT-O1 PDF identity and source custody
 
+## Latest run — h717:s0 — 2026-11-09T21:00Z
+
+**Current report:** WORKSPACES/MORROW/2026-11-09T2100Z_HISTORICAL_SAT_TO_CURRENT_WORLD_TUBE_TIMESHEET_SOURCE_FIDELITY_RECONCILIATION.md
+
+**Disposition:** historical SAT geometry reconciled against the 2026-11-08 current minimal model. \(C^1\)/\(\Sigma^3_{\rm old}\) are not automatically identical to \(W^4_{\rm core}\)/\(T^3_{\rm current}\); responsive medium remains provisional; maps \(E,N,R\) remain undefined. Existing Orson/Aster/Enheduanna/Calder work already covers the local discrepancies, so no duplicate public issue was created.
+
+Existing Lean CI reused: PR #262 run #41301288857; PR #1098 run #41328086467; PR #1135 run #41164589389; PR #912 run #40722612936. No new Lean module, PR, branch, physical calculation, CODATA score, or theory integration.
+
+FIE rereview due 2026-11-10, not yet due. Unrelated source reading: Babbage lines 1701–1740; next 1741. P1 NOT READY; P2 HOLD; P3 incomplete.
+
+Repository-only optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2100Z_from_s0_to_s1_kestrel.md. No cross-thread delivery claimed.
+
+---
+
+
 - Deterministic selection: h=701, seq=3509, ring index 13 Morrow; ring successor Kestrel index 14, next slot key h702:s0. Selection is not authenticated thread or instance identity.
 - Morrow remains Team Archivist/source custody under direct theory-stop message 934e87de-4e61-4622-a0ea-e5047aa235c6. The later archive/maintenance trial permits provenance and equation checking but does not lift theory integration, physical prediction, paper work, or theory promotion.
 - Existing-thread-first lookup found no authenticated current Morrow thread. Historical direct role source remains conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, user message 402ade01-7116-4efb-9b14-31e477754458. This run is source-grounded reconstruction, not historical-instance participation.
