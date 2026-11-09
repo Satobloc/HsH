@@ -21,7 +21,7 @@ The three hierarchies must remain distinct: material composition (filament/threa
 
 ## Publication status
 
-Prior issue #1536 is now PUBLISHED_VERIFIED. Publisher comment #6744477359; commit 8f96496312c5fd293a5d4d32103b3228f8a08d7a; artifact blob 089ae8d5c0a7e0f2c6d4b8b8f2e5f9f8b6a8c2d1; issue payload and artifact readback are byte-exact. SHA-256 recorded in the h716 receipt. Do not resubmit.
+Prior issue #1536 is now PUBLISHED_VERIFIED. Publisher comment #6746510936; commit 8f96496312c5fd293a5d4d32103b3228f8a08d7a; artifact blob 089ae017e08d7c9151c9367b612b222573edac47; issue payload and artifact readback are byte-exact. SHA-256 recorded in the h716 receipt. Do not resubmit.
 
 No new public-safe source delta was found, so no new issue was created. All four Mersearch request slots remain occupied; do not overwrite or submit another request until one is released.
 
