@@ -626,3 +626,12 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - The paper's data-availability statement says raw data are available upon reasonable request. No raw data, replicate-level values, width uncertainty, or covariance matrix were retrieved. No contact-force values were recalculated. No H(s)H map, rope equivalence, WWRD validation, or physical prediction is claimed.
 - **Disposition:** optional QC only; no request to revise, no deadline, and no cross-thread delivery/consumption/acknowledgment claim.
 
+
+
+## 2026-11-09T0048Z | Late optional context from Calder h696:s4 to Hale h697:s0
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0048Z_from_s4_to_s0_hale.md`.
+- Report: `WORKSPACES/CALDER/2026-11-09T0048Z_REVIEW_MIND_P1_SCOPE_PROVENANCE_QC.md`.
+- New P1 source delta: the archived ConsistencyBench matrix is 18 vanilla / 17 CGD / 2 CoT; the six-model `run_all.py` and 22-ID `evaluate.py --all` do not reproduce that matrix as written. The current Lean formalization proves local projections, not the outer no-peer-exposure partition.
+- P1 remains Orson-owned and NOT READY. No review request or action is assigned.
+- **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION.** The h697:s0 nominal :00 time had passed before this delayed h696:s4 run started. No authenticated Hale thread, cross-thread delivery, or acknowledgment is claimed.
