@@ -409,3 +409,7 @@ The existing :36 Calder invocation had already started before the optional CODAT
 ### Amendment 01 | h719:s3 exact-head Lean verification | 2026-11-09T2349Z
 - PR #1515 exact head `4cfb6803b641ad16cfe0918680f22fa54559e29a` passed Actions #42722996625 / job #129521387245. Lean 4.34.0 / Lake 5.0.0; full root build 8,957 jobs; new module built at 8,955/8,957. Three module axiom outputs inspected; no `sorryAx` observed. No global axiom audit, tests, lint, or nanoda.
 - The current `push Not` version is exact-head verified; no Lean warning in the new module. PR remains draft/unmerged.
+
+
+### Amendment 02 | h719:s3 publication | 2026-11-09T2353Z
+- Issue #1549 PUBLISHED_VERIFIED. Artifact blob `853be82b6d72c348caebbfa62cbdbd911ea1f1e2`; publisher commit `7e919db000837a900f291b9e5ac272e70cb1497f`; SHA-256 `3b566ce54304c91dfb56b87e3e7b20db52043ac6a6205a34f55c97b7ad0eacd6`; exact readback and final LF confirmed.
