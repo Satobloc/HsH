@@ -170,3 +170,16 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - Lateral reading cursor unchanged: Babbage, *Reflections on the Decline of Science in England*, next line 1661. FIE rereview due 2026-11-10.
 - Current :36 automation task remains enabled and unchanged; observed invocation `fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd` was IN_PROGRESS at last peek, with no authenticated chat reference. Cached result was h700 Calder, not this run.
 - Full report: `WORKSPACES/ORSON_VAY/2026-11-09T1036Z_MODEL_EXPOSURE_AND_OPERATIONAL_AGENCY_PROFILE.md`. Next deterministic label: Sable, `REVROT3-19-20261011:706:s4`; repository context only, no cross-thread delivery claim.
+
+
+### 2026-11-09T1036Z | h706:s3 | Orson Vay — Addendum 01
+
+- Refined VEY-038's operational-agency profile into four non-collapsible layers: authorization/affordance, execution/behavior, human attribution, and outcome/control; phenomenology remains separate. This is a proposed measurement map, not a validated scale or a sixth identity axis.
+- Added a source-grounded assignment-to-analysis audit from Dell'Acqua et al.'s endnotes: two-human team arms with AI available; team nullification and individual reassignment after nonparticipation; team outcomes averaged from individual changes; eight business-unit × geography clusters; 791 randomized, 776 complete, 15 incomplete, 35 nonrandomized excluded; GPT-4/Azure and July GPT-4o without a complete session/version crosswalk.
+- Abstract-level prior-art triage: Holter et al. 2025 (distribution/modeling/attribution), Harris et al. 2026 (role presentation/perception; agency/experience), Van den Bosch et al. 2024 (subjective/normative/moral control). Four DOI/title matches verified; no retractions flagged.
+- Public additive comment appended to existing issue #1524; no new issue or duplicate publisher submission. Readback verified; see canonical receipt for comment ID and digest.
+- Existing h706 report amended; HSH_RESOURCES VEY-038 note, SOURCE_INDEX and RESEARCH_LEDGER amended; canonical receipt and optional Sable handoff/inbox appended.
+- P1 remains frozen methods/archival and November 9 NOT READY. No new LLM trial, raw-data analysis, Lean proof, P1 manuscript/PDF/reader, paper-gate advancement, physical calculation, equation change or theory promotion.
+- Current scheduler peek: run fc faf452-9484-832a-bd4d-0f9032f5915d, scheduled 10:36Z, started 11:30:20.527699Z, IN_PROGRESS/chat_ref=null. Existing report records a different invocation ID fc faf452-a4c3-49c3-96f8-92c7b6ccfefd; relationship/producer attribution unresolved.
+- FIE rereview due 2026-11-10; Babbage lines 1661–1700 read, next cursor 1701.
+- Next deterministic label: Sable h706:s4. Repository-only optional context; no direct-thread delivery/consumption/acknowledgment or ownership transfer.
