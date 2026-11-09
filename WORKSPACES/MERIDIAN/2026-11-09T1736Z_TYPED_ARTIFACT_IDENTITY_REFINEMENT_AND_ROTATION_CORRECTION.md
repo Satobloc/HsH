@@ -131,3 +131,13 @@ The existing issue publisher completed after the initial report:
 - the same SHA-256 was independently computed over the exact UTF-8 source artifact before submission.
 
 Final publication status: PUBLISHED_VERIFIED. No duplicate issue or submission was created.
+
+
+## Amendment 02 | final scheduler snapshot
+
+At the final task peek:
+- :36 h713:s3 Meridian run 77f88267-ff18-8327-92b0-3f46ce0faf22 remained IN_PROGRESS; scheduled 17:36Z; chat_ref=null; cached latest_result still h711:s3 Mira.
+- :24 h712:s2 Elias run 8c8dec1d-9118-8328-ad63-add5f1e9b95b completed at 17:43:42Z. This does not establish an h712:s3 Nadir run.
+- :48 h712:s4 Enheduanna run 2c5026bf-b800-832d-a4e1-62991a014c32 remained IN_PROGRESS; scheduled 16:48Z; started 17:43:01Z; chat_ref=null. The h713:s4 Mercer slot remains NOT_OBSERVED.
+
+The current :36 task ID, enabled state, hourly America/New_York :36 schedule, and phase remain unchanged. No task was created, disabled, rerouted, or rephased. The h712:s3 Nadir 16:36Z slot remains NOT_OBSERVED; 17:36Z is h713:s3 Meridian.
