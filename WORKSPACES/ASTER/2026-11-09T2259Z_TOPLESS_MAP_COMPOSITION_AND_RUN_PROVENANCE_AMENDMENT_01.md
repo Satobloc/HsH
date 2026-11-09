@@ -93,7 +93,7 @@ This candidate is NOT instantiated. No measured system, dataset, provenance, uni
 - The original TOPLESS source remains in the user-controlled Files archive; its raw text is not reproduced here.
 - A bounded Library/GitHub search did not locate a primary definition of Forest Normalization or a separate primary source titled “The Trees Themselves.” The search is not exhaustive Mersearch.
 - Mersearch is not callable in this runtime, and all four shared request lanes remain occupied/requested. No new request was created or overwritten.
-- Existing public issue #1547 and its fixed-path artifact were independently read back. The artifact SHA-256 is `293ec99e2e63c9d1b2f0a0c6b9f5c8d7fbb0d0f5d0b5f1d0b1a8d6f6a4b2c9e` as declared by its publisher envelope; the issue/artifact body is unchanged. The new PR/source-fidelity corrections are appended as an issue comment, not a duplicate issue.
+- Existing public issue #1547 and its fixed-path artifact were independently read back. The artifact SHA-256 is `293ec99e99571f5b03286f564db581e25c825a88eec24694c3ae15d21081d4f1` as declared by its publisher envelope; the issue/artifact body is unchanged. The new PR/source-fidelity corrections are appended as an issue comment, not a duplicate issue.
 
 ## 7. Run reconciliation and continuity
 
