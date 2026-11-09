@@ -96,7 +96,7 @@ No Lean theorem was written or run. A theorem about a hypothetical record schema
 - Ariadne's one-time clone-census entry already exists; no duplicate was added.
 - FIE review is due November 10, not yet due. The unrelated-reading cursor is 2251; no duplicate reading tranche was performed.
 - The task-branch graph still has 16 declared branches against 18 records; Tern retains reconciliation ownership.
-- The :36 predecessor record for h699:s3 was not visible; the latest observed :36 run remained an h698 failure with unknown cause. The current :48 invocation started late. No automation settings were changed.
+- At the initial report snapshot, the last visible :36 run was an h698 failure with unknown cause. A later snapshot showed a new h700:s3 :36 run in progress, scheduled 04:36Z and started 04:31:24Z; the h699:s3 predecessor remains unobserved. The h699:s4 :48 run remained in progress after its late start. The :00 h700 run was also in progress; the task list confirmed the :24 task remained enabled with its original schedule. All four existing :00/:24/:36/:48 tasks remain enabled and unchanged; :12 remains disabled. See receipt amendment 01. No automation settings were changed.
 
 ## 8. Publication
 
