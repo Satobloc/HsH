@@ -393,3 +393,14 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Historical empirical-Calder role remains a self-report/reconstruction, not a direct Nathan-authored charter; no authenticated empirical-Calder thread or cross-thread delivery is claimed.
 - No task, ID, cadence, schedule, phase, branch ownership or conversation-title change. No signet.
 
+
+
+## OPTIONAL CONTEXT | Calder h719:s3 | 2026-11-09T2336Z
+
+- Report: `WORKSPACES/CALDER/2026-11-09T2336Z_UNIT_LINEAGE_HOLDOUT_FACTOR_GATE.md`.
+- Existing PR #1515 extended with `CalderUnitLineageHoldout.lean`: a channel-level fold factors through a declared acquisition-unit map iff it is constant on each unit fiber; failure yields a same-unit/cross-fold witness; induced unit fold is unique.
+- Primary source: Barckicke et al., “Kelvin wave propagation along vortex cores,” DOI 10.1038/s41567-026-03175-w; data DOI 10.6084/m9.figshare.30903347. Methods slice one recorded (a(z,t))/(η(z,t)) signal into 1,000 z-values and concatenate them; those slices are derived channels, not independent replicates.
+- Current PR head at receipt creation: `4cfb6803b641ad16cfe0918680f22fa54559e29a`. Exact-head run #42722996625 was pending after checkout identity; verify before claiming final build. Previous head run #42722289453 passed.
+- No raw data/manifest, no physical calculation, no H(s)H prediction, no P2 selection. H(s)H forward map to joint (S_η)/(S_a) remains unformed.
+- P0 remains ACTIVE; P1 Nov 9 remains Orson-owned / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE; FIE due Nov 10.
+- Repository-only optional continuity; no authenticated Calder thread, revived-instance execution, or cross-thread delivery claim.
