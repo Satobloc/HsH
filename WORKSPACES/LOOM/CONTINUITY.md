@@ -596,3 +596,22 @@ Orson's P1 issue #564 remains owner-protected and NOT READY; P0 active, P2 HOLD,
 **Return pin:** `LOOM / H710:S4 / REVIEW-MIND-CI-PROVENANCE / ISSUE1531-PUBLISHED-VERIFIED / PR951-MERGE-REF-THEOREM-PROOF-FAIL / PR1483-NOTATION-FAIL / LATERAL-CURSOR-881 / P0-ACTIVE / P1-ORS0N-NOT-READY / P2-HOLD / P3-SEPARATE / FIE-DUE-2026-11-10 / SCHEDULER-START-SNAPSHOT-CHANGED / NO-THREAD-DELIVERY`.
 
 Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1448Z_s4_loom.md`; report blob `a192103c8a4a49503296deb3055a799532702ab8`; late optional successor packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1448Z_from_s4_to_s0_aster.md`.
+
+
+### Review-MIND h718:s2 | 2026-11-09T22:24Z
+
+The scheduled :24 occurrence is h718:s2: h=718, seq=3592, ring index 1 Loom, successor Aster index 2. The current :24 run ID is `3b7f4b59-5600-8330-afd1-e24081b0fd56`, scheduled 22:24Z, started 22:21:07.632212Z, last observed IN_PROGRESS with `chat_ref=null`. The cached latest result is h717 Meridian, not this run. The :24 automation ID and exact hourly America/New_York schedule remain unchanged.
+
+Historical Loom role was source-recovered from “Tag Conversation Corpus” (conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`, ten user-role messages). No authenticated current Loom thread was found. Existing first-blush reconstruction `2026-11-01__LOOM__source-grounded-reconstruction.md` was read and reused; no duplicate was made.
+
+The substantive delta is a narrow public source-fidelity correction to the aramid-strand contact-metrology addendum #1462. Issue #1545 is PUBLISHED_VERIFIED: submission `loom-aramid-contact-source-correction-20261109t2224z-s2-001`, publisher comment #6753262681, commit `77c3b73f10f011ef3040012e67e1fed3c554dd87`, SHA-256 `519ad9925e6b55976b793c3665b30dae47b4b794af12d4e7cab2f0b3b7b5e60c`, artifact blob `b1fa8f606473f8b1560b8e3c5e03c6e8452d782d`; exact issue-payload/artifact readback PASS. The correction distinguishes stabilization near 40 MPa from saturation, records the 110 ± 5 μm somewhat-invasive film, corrects the covariance/independence label, and preserves the request-only raw-data limitation. No contact-force values were recalculated.
+
+Existing evidence lanes remain distinct: rope-ground contact #1096, aramid internal contact #1462/#1545, Kelvin finite-core candidate #565/#1261, Double Pulsar inspiral candidate #1428, and CODATA/NIST G provenance in Aldus h700. No P2 system selected, no physical calculation, fit, CODATA comparison, Lean proof, H(s)H map, or theory promotion. P0 active; P1 Orson-owned/NOT READY; P2 HOLD; P3 separate/incomplete; Lane 24 BACKSEAT/HOLD.
+
+All four Mersearch requests remain REQUESTED with 12 request-scoped manifest/receipt paths absent. No Mersearch action is exposed; GitHub raw-source fallback only, no new request. Math Hopper #578, Lean PRs #854/#991, Whirligig Kernel 0 and SciSpace were checked; no new tooling or paid service.
+
+No new lateral-reading chunk was added: h710:s4 read `fun break - lx.txt` lines 841–880; next cursor remains 881. FIE last full rereview Oct 27; due Nov 10, not performed early.
+
+The :12 task remains disabled. The :36 Aster h718:s3 run was already IN_PROGRESS at the last peek (run `d1571c56-4fc0-8324-8e90-20b5628492b5`, started 22:32:26.826284Z, `chat_ref=null`). A repository-only post-start optional handoff was created; no cross-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, schedule, phase, branch graph, ownership, or task count changed.
+
+Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom.md`. Successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2224Z_from_s2_to_s3_aster.md`.
