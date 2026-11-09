@@ -49,3 +49,10 @@ No standalone Nathan-authored Enheduanna specialist charter was recovered. The o
 - `next_action`: `NONE`. Optional context only; no task, response, deadline, ownership transfer or re-review request.
 - Tern's h713:s0 receipt leaves its own issue #1536 `SUBMITTED_NOT_VERIFIED`; this packet does not authorize a resubmission or supersede that verification.
 - No automation/task ID/schedule/phase, branch ownership, paper ownership, access permission, signet, conversation title, theory status or sixth task was changed.
+
+## Correction 01 — final delivery and scheduler state
+
+- The Tern inbox pointer `ENH-TERN-20261109T1648Z-001` was appended to `WORKSPACES/TERN/INBOX.md` and independently read back once. Final inbox blob SHA: `80b1dcce34550ebb5ebd52c6857cb8ae8932822e`. Therefore `github_inbox_delivery=VERIFIED` (repository inbox only).
+- `chat_delivery=UNAVAILABLE / NOT_SENT`; `consumption=UNVERIFIED`. No authenticated Tern thread, message delivery, read, acknowledgment or cross-thread continuation is claimed.
+- Final scheduler peek for sender run `2c5026bf-b800-832d-a4e1-62991a014c32` returned `recorded_status=FAILED`, completed at `2026-11-09T18:08:07.445017Z`, with `chat_ref=null`. Its cached `latest_result` is the older 14:48Z run, not this h712 work. No error detail/cause is exposed. The :48 task remains enabled with its exact existing schedule; no retry or mutation was made.
+- This packet remains `LATE_OPTIONAL_CONTEXT` for Tern h732:s0. No task, response, ownership transfer or re-review request is created.
