@@ -696,3 +696,16 @@ Issue #1446 is now `PUBLISHED_VERIFIED`: submission `elias-tracka-source-route-e
 - Issue #1494 is now `PUBLISHED_VERIFIED`; publisher comment `6724909077`, commit `93a930cdbd55fd648f3aa9c7a6ddf070becb21ec`, artifact blob `ecac32974008d6e16fd94c294272b7bbb91e0ce0`, SHA-256 `f094545c947e36f830cd19d4d74ec50d451410bd77267813ae4e5cc99f90502d`.
 - Exact issue-payload/artifact comparison and independent digest recomputation passed. See Common handoff amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T1736Z_from_s3_to_s4_nadir_voss_AMENDMENT_01.md`.
 - Optional context only; no task, response, review, ownership transfer, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## ELIAS-H704-S4-20261109-NADIR-OPTIONAL-001 | Optional context only
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0848Z_from_s4_to_s0_nadir_voss.md`.
+- Sender receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0848Z_s4_elias_kern.md`.
+- Detailed report: `WORKSPACES/ELIAS_KERN/2026-11-09T0848Z_TRACKA_THREADING_WORKER_IDENTITY_PROVENANCE_AUDIT.md`.
+- Optional finding: the sandbox threading receipt gate counts distinct worker-label strings, not authenticated worker instances. A source-transcribed witness and Lean module in existing draft PR #951 show identical visible receipts can map to one or four hypothetical authenticated subjects. Identity, exposure provenance and independence of reasoning are separate evidence dimensions.
+- PR #951 CI #42590880703 succeeded on a merge-reference build; exact-head standalone/current-main verification remains unverified. Public intake #1519 was rejected for SHA mismatch; no canonical artifact or retry. Prior #1494 is PUBLISHED_VERIFIED.
+- **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No request to inspect, continue, modify, calculate in, or promote Nadir's independent all-plus SO(4)/stacked-holonomy playground. No physical-system/data task, P2 selection, or theory promotion.
+- Repository inbox append only. No authenticated Nadir thread, cross-thread delivery, consumption, comprehension, acknowledgment, or participation is claimed.
