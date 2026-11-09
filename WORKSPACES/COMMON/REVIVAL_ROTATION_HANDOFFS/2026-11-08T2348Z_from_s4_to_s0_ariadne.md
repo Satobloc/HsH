@@ -41,4 +41,4 @@ Personal-context lookup returned only older/ambiguous Ariadne thread references;
 
 This handoff is repository-only. It does not claim thread delivery, consumption, acknowledgment or a response. Ariadne's current PR #790 and source work are not being interrupted.
 
-**Inbox append status at file creation:** PENDING.
+**Inbox append status:** VERIFIED by exact readback of Ariadne INBOX.md.
