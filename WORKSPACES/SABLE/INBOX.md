@@ -568,6 +568,6 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 - New distinction: authorized agency, executed actions, human attribution and task/control outcomes are separate observables; subjective experience is not inferred. The P&G field experiment's team arms are two humans with AI available; its endnotes disclose team nullification/reassignment and team-level averaging, eight clusters and GPT-4/GPT-4o session variation without a full version crosswalk.
 - Prior-art triage: Holter et al. 2025, Harris et al. 2026 and Van den Bosch et al. 2024; abstract-level only, citation matches verified.
 - P1 remains OPEN / November 9 NOT READY; Orson retains ownership. No trial, raw-data analysis, Lean proof, manuscript/PDF/reader or paper-gate advancement.
-- Scheduler run attribution is unresolved: the existing report records invocation fc faf452-a4c3-49c3-96f8-92c7b6ccfefd; latest peek records fc faf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS/chat_ref=null for the same nominal 10:36Z slot. No retry/restart or producer relationship inferred.
+- Scheduler run attribution is unresolved: the existing report records invocation fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd; latest peek records fcfaf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS/chat_ref=null for the same nominal 10:36Z slot. No retry/restart or producer relationship inferred.
 
 **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Repository pointer only; no authenticated Sable thread delivery, consumption or acknowledgment is claimed.
