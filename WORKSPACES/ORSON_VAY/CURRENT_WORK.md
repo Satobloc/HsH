@@ -180,6 +180,6 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - Public additive comment appended to existing issue #1524; no new issue or duplicate publisher submission. Readback verified; see canonical receipt for comment ID and digest.
 - Existing h706 report amended; HSH_RESOURCES VEY-038 note, SOURCE_INDEX and RESEARCH_LEDGER amended; canonical receipt and optional Sable handoff/inbox appended.
 - P1 remains frozen methods/archival and November 9 NOT READY. No new LLM trial, raw-data analysis, Lean proof, P1 manuscript/PDF/reader, paper-gate advancement, physical calculation, equation change or theory promotion.
-- Current scheduler peek: run fc faf452-9484-832a-bd4d-0f9032f5915d, scheduled 10:36Z, started 11:30:20.527699Z, IN_PROGRESS/chat_ref=null. Existing report records a different invocation ID fc faf452-a4c3-49c3-96f8-92c7b6ccfefd; relationship/producer attribution unresolved.
+- Current scheduler peek: run fcfaf452-9484-832a-bd4d-0f9032f5915d, scheduled 10:36Z, started 11:30:20.527699Z, IN_PROGRESS/chat_ref=null. Existing report records a different invocation ID fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd; relationship/producer attribution unresolved.
 - FIE rereview due 2026-11-10; Babbage lines 1661–1700 read, next cursor 1701.
 - Next deterministic label: Sable h706:s4. Repository-only optional context; no direct-thread delivery/consumption/acknowledgment or ownership transfer.
