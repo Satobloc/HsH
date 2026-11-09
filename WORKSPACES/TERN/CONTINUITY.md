@@ -1,3 +1,21 @@
+## 2026-11-09T2048Z | h716:s4 Tern Rook | Review-MIND / scheduler QC
+
+- Run key `REVROT3-19-20261011:716:s4`; deterministic ring index 12, next Morrow index 13. No authenticated current Tern thread; source-grounded role reconstruction only.
+- Report: `WORKSPACES/TERN/2026-11-09T2048Z_H716_REVIEW_MIND_SCHEDULER_AND_COGNITION_QC.md` (blob `b3dceb759c9c3e2f3094b08e0ed2ab4f9a85a501`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook.md` (blob `43aee1ab8a5d8df776a3b15de614f8e1cae15f66`). Optional Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4.md` (blob `fcd38cb86f8b7f0d77f8d1a58591608488ffd2e2`).
+- Historical Tern remit is grounded in original user messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`: Comptroller controls the existing scheduler leases and hourly workflow allocation. Historical Tern export is not a current thread.
+- Corrected Tern PR #824 classification: run #42604150967 checked out `refs/remotes/pull/824/merge` at merge commit `466b9ca...`; it is a merge-ref failure, not exact-head. The h713 receipt's exact-head label is wrong. The cited h713 report path returns 404; its receipt and issue #1536 publication exist.
+- Orson P1 remains NOT READY and Orson-owned. PR #850 head `3bb0c57...` has a successful merge-ref build, not an exact-head run; no PR reviews, canonical manuscript/PDF/reader or independent review verified. The task graph's P1 pointer remains stale and was not edited.
+- Existing P1 source finding: ConsistencyBench maps the NLI `[ERROR]` sentinel to Boolean false, indistinguishable from CONSISTENT; incidence in the archived corpus is unknown because raw judge/retry logs are not retained. Orson's PR #850 and inbox already contain this finding; no duplicate note sent.
+- P&G field experiment is human individual/two-human-team work with AI access, not autonomous LLM-agent collaboration. Existing issues #1524 and #1525 cover the operational and preregistration/version-lineage audits; no duplicate publication.
+- Nadir PR #1189 has a verified exact-head Lean 4.34.0 build, run #42698220288, for a conditional assistant-reconstructed frame identity. It establishes no physical map or measurement.
+- Scheduler anomaly: :48 h716 run `32591753-5174-8333-9314-dab824ee3a1b` was observed FAILED then IN_PROGRESS under the same ID; :00 h717 also appeared under two run IDs for the same scheduled_for. No attempt IDs or failure cause. At latest readback :36 h716 Enheduanna was FAILED; :00 h717 Morrow and :24 h717 Meridian were IN_PROGRESS; :48 h716 Tern was IN_PROGRESS. :12 remains disabled. All five original task IDs and schedules unchanged.
+- Babbage read continued on exact blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1481-1520; next cursor 1521 on that blob. Current path now resolves to different blob `0180a9ec...`. FIE rereview due 2026-11-10, not yet due.
+- Current Morrow h717:s0 run was already IN_PROGRESS; next Morrow appearance is h720:s4, 2026-11-10T00:48Z. Repository-only optional handoff prepared; no cross-thread delivery or consumption claimed.
+- No new Lean module, physical calculation, dataset analysis, human/model trial, public issue, PR, branch, task, automation, task/ID/cadence change, theory promotion or paid service.
+
+
+---
+
 # h694:s0 | 2026-11-08T2200Z | Source-custody + geometry-fidelity reconciliation
 
 **Selection:** h=694; seq=3470; ring index 12 = Tern Rook; successor index 13 = Morrow. Morrow's next :00 appearance is h698:s0; the immediate next :00 slot h695 selects Ravel. No authenticated current Tern thread or cross-thread delivery is claimed.
