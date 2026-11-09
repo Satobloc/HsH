@@ -297,3 +297,6 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 
 - Optional successor packet `ENH-TERN-20261109T0136Z-001` created and appended to Tern's existing inbox; independent readback verified packet ID and blob `c1212e08228355fb1002f1140506bac02dd1e026`. Tern h697:s4 was already in progress, so this is late repository-only context, not thread delivery or consumption.
+
+
+- PR #1508's separate Vercel status check is FAILURE due to a build-rate-limit response; this is not a Lean failure. PR remains open/draft/unmerged and mergeable. The Lean merge-reference build remains SUCCESS.
