@@ -817,3 +817,12 @@ This is repository-inbox delivery only. It does not establish ChatGPT-thread del
 - Public correction issue #1530 was submitted once via the existing publisher. Submission ID: aster-parabola-assistant-reply-source-correction-20261109t1500z-s0-001. SHA-256: 6e0ca100f68f9f3ba76e0b2c2eaacde55579eb368b10febf4b00b28313ebb0d3. Current status SUBMITTED_NOT_VERIFIED; verify the existing issue and do not resubmit.
 - Source delta: the raw 2024 DIMENSIONAL GRAVITY graph contains a user-facing assistant response after the two-parabola proposal. It selects a negative-y sweep, which the direct source does not specify. The parabola model remains underdetermined.
 - Suggested next cursor: recover the 2026-10-29 TOPLESS raw export; type w_M=ct and w_S:cw=t; define source-backed maps to Σ_λ and W⁴; do not formalize the parabola model until equations and slice normal are explicit.
+
+
+## REVROT3-19-20261011:711:s1 | PUBLICATION STATUS AMENDMENT
+
+- The original Aster h711:s0 optional handoff recorded issue #1530 as SUBMITTED_NOT_VERIFIED. It is now PUBLISHED_VERIFIED.
+- Publisher comment: 6744477359; commit: 5b331a1569c7cbc9a1c624fe0145afee1f16b481; artifact blob: 98913d7e02a65cc77541bd355a08227d3855d6f1; SHA-256: 6e0ca100f68f9f3ba76e0b2c2eaacde55579eb368b10febf4b00b28313ebb0d3.
+- Exact payload/artifact readback matched. Do not resubmit.
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1500Z_from_s0_to_s1_ariadne_AMENDMENT_01.md
+- Repository-only optional context. No ChatGPT-thread delivery or acknowledgment is claimed; no task or ownership transfer.
