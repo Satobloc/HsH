@@ -285,4 +285,51 @@ theorem readout_cosine_mismatch_excludes_shared_model
 #print axioms readout_sine_mismatch_excludes_shared_model
 #print axioms readout_cosine_mismatch_excludes_shared_model
 
+
+/-!
+## Common-mode aliasing on the actual three-clocking acquisition
+
+The preceding results show that every three-point series on the copper
+clocking grid has a unique offset-plus-sampled-sine-plus-sampled-cosine
+representation. Combining that result with the source model's shared
+harmonic pair gives a stronger conditional identifiability statement:
+any added sampled increment that is identical in the two readout modes
+can be absorbed exactly by changing the two readout offsets by the same
+amount and changing the shared harmonic coefficients.
+
+This applies to the three acquired values only. The underlying angular
+function may have any behavior between the sampled clockings; the
+three-point acquisition does not observe those unsampled values. The
+result is a design-level non-identifiability theorem, not an H(s)H law,
+not evidence that an H(s)H response is common to the two readouts, and
+not a statement about the full eight-observation covariance or the
+sapphire configuration.
+-/
+
+/-- Any common increment on the three sampled copper clockings is
+    exactly absorbed by updating both readout offsets equally and the
+    shared sampled sine/cosine coefficients. This is a conditional
+    finite-acquisition non-identifiability result. -/
+theorem common_sampled_increment_absorbed
+    (c : SharedTwoReadoutCoefficients) (h : Fin 3 → ℚ) :
+    ∃ c' : SharedTwoReadoutCoefficients,
+      ∀ r i, sharedTwoReadoutResponse c r i + h i =
+        sharedTwoReadoutResponse c' r i := by
+  let d := recoverThreeClockingResponse h
+  refine ⟨{ servoOffset := c.servoOffset + d.offset
+          , freeOffset := c.freeOffset + d.offset
+          , sine := c.sine + d.sine
+          , cosine := c.cosine + d.cosine }, ?_⟩
+  intro r i
+  have hrep :
+      h i =
+        d.offset + d.sine * threeClockingSineBasis i +
+          d.cosine * threeClockingCosineBasis i := by
+    simpa [d, threeClockingResponse] using
+      (congrFun (threeClockingResponse_recover h) i).symm
+  fin_cases r <;>
+    simp [sharedTwoReadoutResponse, d, hrep] <;> ring
+
+#print axioms common_sampled_increment_absorbed
+
 end HsHVerification.FactorialContrastIdentifiability
