@@ -173,6 +173,21 @@ theorem inverse_sqrt_coupling_iff_inverse_square
         field_simp [ne_of_gt (Real.sqrt_pos.2 hx)]
       _ = c / Real.sqrt x := by rw [hprod]
 
+/--
+Conditional cancellation in the quadratic Yang--Mills factor if the archived
+D5/D6 relation F = g K is read with K independent of g:
+(1/g^2) * F^2 = K^2. This does not establish that the physical K is independent
+of g; in a non-Abelian construction the commutator term can carry g-dependence.
+-/
+theorem inverse_square_scaled_square_cancels
+    (g k : ℝ) (hg : g ≠ 0) :
+    (1 / g^2) * (g * k)^2 = k^2 := by
+  have hg2 : g^2 ≠ 0 := pow_ne_zero 2 hg
+  field_simp [hg2]
+  ring
+
+#print axioms inverse_square_scaled_square_cancels
+
 #print axioms inverse_sqrt_coupling_iff_inverse_square
 
 #eval Dim.div (scaleDim 4 dSpeed) dNewtonG
