@@ -1,3 +1,9 @@
+## 2026-11-09T2218Z | h716:s4 handoff delivery readback
+
+- The Morrow inbox append for late optional handoff Amendment 03 was completed and independently fetched at blob `817876f7fe18e2d68530279b3a7773fe4ab0cc84`; the new section is present.
+- Handoff Amendment 03 blob `76c682f27d32b7bd76ace528291daad29240d54c` and receipt Amendment 03 blob `dccbdfaca290e77fd50696812d40c4ef88f3b32d` were independently fetched and matched.
+- This resolves the earlier “pending at this checkpoint” line below; delivery remains repository-only. No authenticated Morrow thread, consumption, acknowledgment, or cross-thread delivery is claimed.
+
 ## 2026-11-09T2217Z | h716:s4 post-snapshot scheduler/source amendment
 
 - Additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_03.md`, blob `dccbdfaca290e77fd50696812d40c4ef88f3b32d`.
