@@ -1483,3 +1483,10 @@ The nominal h701:s3 slot has passed, but no h701:s3 run was observed at final re
 - `MERSEARCH_REQUEST_LANE_1.json` is an unwired/orphan candidate, not active Lane 1 or a fifth lane. The earlier h698 pointer-mismatch interpretation is superseded; the active Calder request remains pending, not complete.
 - All four active request lanes remain `requested`; none of the expected request-scoped run-manifest/search-receipt files was found. No new query, request, overwrite, or rerun. No task-graph mutation, task, response obligation, or ownership transfer.
 - Repository inbox append only. No historical Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-09 h713:s0 | Geometry-fidelity delta
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1700Z_s0_tern_rook.md
+- Repository-only handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1700Z_from_s0_to_s1_morrow.md
+- Publication issue #1536; submission tern-o9-o10-worldsheet-kernel-fidelity-20261109t1700z-s0-001; SHA-256 933ee27ebcc03d4f2e4d71e92aaf415b9f47710fd7841d265c0254ef7af18f89; currently SUBMITTED_NOT_VERIFIED. Verify exact artifact readback before any repeat.
+- Scope: O9/O10 source genealogy and geometry fidelity; no CODATA, no physical calculation, no theory promotion.
