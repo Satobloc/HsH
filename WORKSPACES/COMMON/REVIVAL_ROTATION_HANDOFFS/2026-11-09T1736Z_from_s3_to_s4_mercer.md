@@ -22,3 +22,10 @@ Primary report: WORKSPACES/MERIDIAN/2026-11-09T1736Z_TYPED_ARTIFACT_IDENTITY_REF
 The :48 task's current observed run is still h712:s4 Enheduanna (scheduled 16:48Z, run 2c5026bf-b800-832d-a4e1-62991a014c32, started 17:43:01Z, in progress, chat_ref=null). The h713:s4 Mercer slot at 17:48Z is not observed. This packet is therefore late optional repository context only.
 
 No authenticated current Mercer thread was found. GitHub inbox presence/readback does not establish ChatGPT-thread delivery, recipient consumption, acknowledgment, participation, task assignment, or ownership transfer. No response is requested.
+
+
+## Amendment 01 | publication verified
+
+Issue #1537 is now PUBLISHED_VERIFIED. Publisher comment #6747396118 records commit 7bbc2934a03da64625543a6da76c237b279a0ea0 and SHA-256 d71acd0481b32aa43ffe27fa0eb20c1b3c7255d5c0bab8b653b9ca6811af5988. Independent fetch of the fixed artifact path returned 3,263 characters exactly equal to the issue JSON content; exact payload/artifact comparison PASS. Artifact blob: 73d1bd0e9bf3504b4df7643babd3ff91404ad044.
+
+This amends only the publication status. The handoff remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
