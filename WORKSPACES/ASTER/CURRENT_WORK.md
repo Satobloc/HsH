@@ -217,3 +217,14 @@ The later direct 2026-10-29 follow-up explicitly says to use `w=ct` with Forest 
 The direct source's tube/wavefront intersection is verbal. `P_i(λ)=W_i∩Σ_λ` remains assistant reconstruction. The source does not type `W_i`, the metric/signature, the wavefront embedding, transversality, or the observation map. The next gate is to recover the Forest Normalization source and define those maps before any Lean formalization or physical test. No new Lean proof, physical calculation, P2 system selection, paper-gate advancement, or theory promotion occurred.
 
 Unrelated reading: `fun break - lx.txt`, lines 921–960; next cursor 961. FIE rereview is due November 10, not yet due. Existing :36 automation remains enabled and unchanged; current run had `chat_ref=null`. Ariadne's h718:s4 run had already started, so any handoff is late optional repository context only.
+
+
+## 2026-11-09 22:59Z h718:s3 — source/map and scheduler amendment 01
+
+Addendum: `2026-11-09T2259Z_TOPLESS_MAP_COMPOSITION_AND_RUN_PROVENANCE_AMENDMENT_01.md` (commit `1b08b1c223b08170bc9b1258633e43b72da73dc2`, corrected-digest follow-up commit `dba2968550a1f32315aa96a107e8856aa164c0a2`). The direct source describes a tube/donut-hole and moving-wavefront intersection, with global twisted-thread language; it does not define a torus, finite-core thickness, local twist field, contact surface, metric, or readout. `w=ct` is branch-specific; earlier `cw=t` remains historical and unmapped. Forest Normalization remains named but undefined. The source's annual-distance numeral is 1,000x below the product of its stated constants; original preserved, corrected arithmetic separate.
+
+Ravel PR #1133 now has a current-head CI failure (#42672531085) at head `891163566eff9a37e44972cf987c14a583f7f905`; job details/cause unavailable. Its existing label-preserving pullback and slice-compatibility structures are a useful generic template, but a multiplicity-aware readout and detector map are missing for TOPLESS. No Ravel PR modification or rerun.
+
+Existing issue #1547 is PUBLISHED_VERIFIED and its artifact hash/readback were independently checked. The artifact's old "no current-head check run" statement is superseded by comment #6754132880; no duplicate issue was created. Its publication commit falls between two conflicting `started_at` observations for the same :36 run ID, so producer linkage remains unresolved.
+
+Latest :36 scheduler peek: run `d1571c56-4fc0-8324-8e90-20b5628492b5` still IN_PROGRESS, `chat_ref=null`, cached result stale at h714. Preserve both observed start times (22:32:26.826284Z and 22:59:44.536173Z); no attempt ID is exposed. Tern received a no-task control-plane note. Ariadne's h718:s4 run had already started, so its packet is optional repository context only. No task, schedule, phase, enabled state, or task count changed. No authenticated Aster thread, cross-thread delivery, physical prediction, or theory promotion is claimed.
