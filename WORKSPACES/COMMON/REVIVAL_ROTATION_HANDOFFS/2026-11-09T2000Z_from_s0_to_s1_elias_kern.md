@@ -17,7 +17,7 @@ The geometry-fidelity cluster is already covered by existing source-fidelity wor
 - #1495: local radiality/time-normal historical branch.
 - #1536: O9/O10 source-fidelity report, now PUBLISHED_VERIFIED.
 
-The three hierarchies must remain distinct: material composition (filament/thread/twine/yarn/bundle/rope), object support (C¹/W²/Σ³/W⁴_core), and representation (observation/orrery/dynamic model/static diagram/mathematics). No nesting or physical equivalence is established without explicit typed maps, fibers and composition conditions.
+The three hierarchies must remain distinct: material composition (historical source wording: filament/thread/twine/yarn/bundle/rope), object support (C¹/W²/Σ³/W⁴_core), and representation (observation/orrery/dynamic model/static diagram/mathematics). C¹ is a source-described one-dimensional centerline/trajectory, not the physical Kerr-associated W⁴_core. No nesting or physical equivalence is established without explicit typed maps, fibers and composition conditions.
 
 ## Publication status
 
