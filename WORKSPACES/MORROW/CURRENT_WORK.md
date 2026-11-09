@@ -1,3 +1,23 @@
+## Current checkpoint: 2026-11-09 h701:s4 | SAT-O1 PDF identity and source custody
+
+- Deterministic selection: h=701, seq=3509, ring index 13 Morrow; ring successor Kestrel index 14, next slot key h702:s0. Selection is not authenticated thread or instance identity.
+- Morrow remains Team Archivist/source custody under direct theory-stop message 934e87de-4e61-4622-a0ea-e5047aa235c6. The later archive/maintenance trial permits provenance and equation checking but does not lift theory integration, physical prediction, paper work, or theory promotion.
+- Existing-thread-first lookup found no authenticated current Morrow thread. Historical direct role source remains conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, user message 402ade01-7116-4efb-9b14-31e477754458. This run is source-grounded reconstruction, not historical-instance participation.
+- Consumed late optional Tern h694:s0 -> Morrow h698:s0 source-custody packet during h701:s4; no task or ownership transfer. The packet's issue #1505 remains PUBLISHER_REJECTED / NOT PUBLISHED.
+- New source result: SAT_O1.pdf is a legacy filename for SAT20: Emergent 4D Filament–Surface Theory. Seven current SAT archive paths share Git blob af5f44d3f936666b4743d8e2ab102b2b9f28f2c2 (150,401 bytes). The extraction manifest records source SHA-256 fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d for both SAT_O1.pdf and Minimal Introduction (SAT O era).pdf; extracted page-text sections match exactly. Binary SHA-256 was not independently recomputed.
+- Correction to the prior handoff's count: SAT_FULL_FILE_INDEX.txt contains four local SAT_O1.pdf path rows in two creation-date families (two 2025-06-03; two 2025-06-09), not two individual paths. The current GitHub tree contains seven alias paths including three Minimal Introduction filenames; all seven are byte-identical by Git blob identity. The HsH/SAT copies of the file index are the same Git blob, not independent witnesses.
+- Separate source: SATO.4D Coherence Project TeX at EARLY LOGGED/2025-10-24_12→17_SAT_O1.tex, blob 9a07893cf596e190486df17503626327d6023caa, in-document June 2025. It is distinct from the SAT20 PDF and Nathan-byline SAT4D_LIVE_DRAFT.txt. Source equations preserved verbatim; no corrections or equivalences proposed.
+- Nathan Direct intent/authorship for the PDF was not recovered from available raw-conversation searches: SOURCE_RECOVERY_BLOCKED for authorial intent, while repository-copy identity is established. No theory/geometry fidelity assessment was attempted.
+- Mersearch not run: all four shared lanes remain requested and request-scoped manifests/receipts are absent; no Mersearch connector or local pinned checkout is available. GitHub search/tree was bounded fallback, not Mersearch.
+- Orson P1 Nov 9 remains NOT READY. Issue #564 open; PR #850 open/draft/unmerged; zero formal PR review records. No canonical manuscript source, readable PDF/reader, verified independent review or author disposition. No paper edit, model trial, human session, API spend or ownership change.
+- No local checkout, gh, Lean, Lake or Elan executable; no Math Hopper or Whirligig tool exposed. Existing Orson PR #850 was not modified. No Lean proof or physical calculation claimed; no new tool, branch, PR, dependency, paid service or theory promotion.
+- P0 remains active; P2/P3 remain separate and held. Task graph remains 16 declared branches / 18 records; Tern owns reconciliation. No graph edit.
+- FIE last full review 2026-10-27; rereview due 2026-11-10, not yet due. Unrelated reading advanced in Okakura, The Book of Tea, Project Gutenberg eBook 769, lines 861–900; next cursor 901. No physical break is claimed.
+- Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact hourly :48 America/New_York schedule/phase. No task/ID/cadence/prompt change, no sixth task, no signet, no conversation rename.
+- Kestrel h702:s0 had already started by the final scheduler peek. The successor packet is therefore late optional repository context only; no authenticated Kestrel thread, cross-thread delivery, consumption or acknowledgment is claimed.
+- Report: WORKSPACES/MORROW/2026-11-09T0548Z_SAT_O1_PDF_IDENTITY_AND_SOURCE_CUSTODY.md. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0548Z_s4_morrow.md. No public submission or duplicate issue.
+
+
 ## Current checkpoint: 2026-11-08 h690:s2 | cycle 06/08 priority/dependency panorama and source custody
 
 - Deterministic selection: h=690, seq=3452, ring index 13 Morrow; ring successor Kestrel index 14. The next scheduled :24 selection h691:s2 is Orson Vay. This is a source-grounded slot reconstruction, not authentication of a Morrow thread or instance.
