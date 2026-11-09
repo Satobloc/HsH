@@ -93,3 +93,44 @@ Ariadne's audit (blob `fd898dc595a2dfe38adea4d0f3cae92499ff0f9f`) adds a vortex-
 - No physical prediction, new theory claim, or rope-mechanics equivalence was made.
 
 Detailed source and proof status: [Sable Lane 24 report](../SABLE/2026-11-08T2324Z_LANE24_DATASET_AND_LEAN_STATUS_DELTA.md).
+
+
+## 2026-11-09T18:24Z | h714:s2 | bounded proof exception and source-data delta
+
+**Authority and scope:** The current Nathan Direct run instruction explicitly requested an interconnected Lean 4/Mathlib formalization. That specific authorization supersedes the earlier navigation note saying no new Lean run while P0 is active, but only for this bounded source-derived algebraic bridge. P0 remains ACTIVE; this is not a standdown, P2 selection, paper-gate advance, or BEDROCK promotion.
+
+### Source-to-proof bridge
+
+- New assistant-authored stacked draft PR [#1538](https://github.com/Satobloc/HsH/pull/1538), branch `research/sable-vortex-covariance-bridge-20261109t1824z`, head `ae0e98444b97dcc61de41c15b08a16751f39a9bc`, based on Nadir's open PR #1189 branch. It imports `NadirVortexTwoChannelReadout`; it does not modify Nadir's branch or PR.
+- Exact-head Actions run [#42678421460](https://github.com/Satobloc/HsH/actions/runs/42678421460), job #129366005810: SUCCESS; `lake build HsHVerification` completed.
+- The three new theorem-specific `#print axioms` lists are `[propext, Classical.choice, Quot.sound]`; no `sorryAx` or `admit` appears in those outputs. This is not a global axiom audit.
+- Two earlier proof attempts failed; the third split the product equality with `ext` before the component algebra and passed. Keep the failure history in the receipt.
+- The result is conditional linear algebra only. It does not validate the paper-to-code translation, camera/calibration pipeline, raw covariance, mode assignment, Kelvin-wave dynamics, a full 3-D/4-D reconstruction, or an H(s)H worldtube/timesheet map.
+
+The source-defined 2x2 readout is `(r0,rpi) -> (eta,a)`, with `eta=(r0-rpi)/2`, `a=(r0+rpi)/2`, and inverse `r0=a+eta`, `rpi=a-eta`. For symbolic symmetric raw covariance `Sigma_r=[[v0,c],[c,vpi]]`, the propagated covariance is
+`Sigma_(eta,a)=[[ (v0+vpi-2c)/4, (v0-vpi)/4 ], [ (v0-vpi)/4, (v0+vpi+2c)/4 ]]`.
+The derived cross-covariance is zero iff the raw marginal variances match. No positive-semidefinite condition or measured covariance values are asserted; zero covariance is not independence.
+
+### Mode-identifiability and projection limits
+
+Aster's published mode-identifiability note [#1347](https://github.com/Satobloc/HsH/issues/1347) remains controlling: two antipodal contour samples recover parity combinations, not unique Fourier-mode labels or sine quadratures. The `m=1/m=3` alias and other unresolved mode assignments remain open. The new covariance bridge does not repair that identifiability gap.
+
+The 2-to-2 contour map is not the larger `Phi/Pi/G_HsH` map contract in [#1341](https://github.com/Satobloc/HsH/issues/1341), nor the memory-aware coarse-slice closure in [#1359](https://github.com/Satobloc/HsH/issues/1359). No hierarchy, nesting, worldtube, or timesheet relation is inferred by analogy.
+
+### Measured-system candidate map
+
+- Barckicke, Falcon & Gissinger (2026), finite-core air-core water vortex/Kelvin waves: Nature Physics DOI 10.1038/s41567-026-03175-w; Figshare DOI 10.6084/m9.figshare.30903347. Acquisition/uncertainty details are source-identified, but the Figshare version, file manifest, raw bytes/checksums, paired left/right contour covariance, acquisition IDs, and holdout remain unretrieved.
+- Estepa-Cantero et al. (2026), bubble-vortex-ring interaction/4D-LPT: JFM DOI 10.1017/jfm.2026.12078. Three raw-image supplements are indexed; full trajectories/calibration/covariance package remain unavailable from the verified public objects.
+- Existing P2 docket #565 retains Mäkinen ³He-B rotation/reconnection, Knister counter-rotating vortex pairs, Han free-surface collision, and the Barckicke/Estepa candidates. Tern's candidate-only run-stratified profile [#1484](https://github.com/Satobloc/HsH/issues/1484) is not a selection.
+- Existing P3 source lane retains GW241011 as an inspiral comparator; no H(s)H metric/multipole map or raw-strain/posterior reanalysis is established. The GW170817 pointer in the noncanonical Sable issue body is auxiliary only.
+
+No CODATA comparison, physical calculation, fit, H(s)H prediction, independent measurement, or holdout test was performed. Measured, calibrated, derived, fitted, simulated, and predicted quantities remain separate. WWRD climbing-rope mechanics remains a first-blush geometric heuristic, not a physical equivalence or universality claim.
+
+### Governance and next evidence gates
+
+- P0 Code Grurple remains ACTIVE. The eight-file route fingerprint remains 8/8 unchanged on current main; issues #1193, #1144, and #1273 remain open.
+- P1 November 9 remains Orson-owned / NOT READY. P2 November 30 remains HOLD / no selected system. P3 December 14 remains INCOMPLETE.
+- All four Mersearch lanes remain occupied; no request was created or overwritten. No local Lean/Lake/Elan executable is installed; existing GitHub Actions and connected SciSpace were reused. No new tool, dependency, fork, paid service, or subscription was introduced.
+- No SAT-O/Blockwave original equation was retrieved, altered, corrected, or promoted; no original-equation SHA/date is asserted.
+- The issue-publisher attempt is recorded in issue #1540 and was rejected for SHA mismatch; no canonical `PUBLISHED_SUBMISSIONS` artifact exists. Do not edit/reopen or create a duplicate issue.
+- Next: verify the raw Figshare manifest/version/checksums and sample-level covariance; obtain calibration/acquisition IDs and an independent holdout; resolve mode identifiability with additional calibrated azimuthal/volumetric readout; only after P0 standdown and independent review compare forward geometry-to-equations, reverse equations-to-geometry, and held-out observables.
