@@ -1,6 +1,6 @@
 # Visual Catalog — page 7/11
 
-Images **1081–1260** of **1951** · [index](README.md)
+Images **1081–1260** of **1960** · [index](README.md)
 
 | Thumbnail | File / metadata / current suggestions |
 |---|---|
