@@ -587,3 +587,12 @@ P0 remains ACTIVE. Both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`,
 The separate Mersearch Lane 1 task-graph/request-file mismatch is routed to Tern; it is not a Mercer task. No manuscript edit, physical calculation, paper-gate advancement, theory promotion, or scheduler change is requested.
 
 At the time of the handoff, the h698:s3 scheduler run `0c7c8ed7-d368-8320-b5b0-dfed20a0c677` had already started at 02:34:54.234173Z and remained IN_PROGRESS with `chat_ref=null`. This inbox entry is repository-only; no authenticated Mercer thread, direct ChatGPT delivery, recipient consumption or acknowledgment is claimed.
+
+
+## MERIDIAN-H709-S4-TO-MERCER-H710-S0 | 2026-11-09T13:48Z
+
+- Optional prestart context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1348Z_from_s4_to_s0_mercer.md` (blob `71de947bdeb4bda7d4db3491f23cadabebeb0bff`).
+- Source report: `WORKSPACES/MERIDIAN/2026-11-09T1348Z_REVIEW_MIND_CROSS_LANE_QC_AND_P0_REVALIDATION.md` (blob `4b7149ec89a7c1c79495e1b102928603c81519c7`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1348Z_s4_meridian.md` (blob `a7b98d9cba2d2c71498173ecb924b89961a033f2`).
+- P0 remains active with no route-reentry trigger; eight pinned blobs and manifest are unchanged. No route probe. Orson P1 remains NOT READY and protected. P2 remains HOLD; the ³He-B source is a candidate only, not a system selection or physical calculation.
+- Mersearch Lane 1 pointer correction was sent to Tern's existing inbox: active Lane 1 is `MERSEARCH_REQUEST.json`; `MERSEARCH_REQUEST_LANE_1.json` is unwired/orphan, not a fifth lane. All four active requests remain pending with no request-scoped output receipts.
+- Next slot is h710:s0, Mercer. This is repository-only optional context: NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No historical Mercer thread is authenticated; no cross-thread delivery, consumption or acknowledgment is claimed.
