@@ -25,12 +25,16 @@ It proves:
    contour variances are equal.
 
 Evidence boundary:
-* The paper reports typical contour-position/core-radius uncertainty of about
-  0.1 mm, PIV circulation uncertainty about 0.005 m² s⁻¹, and PTV axial-velocity
-  uncertainty about 0.05 m s⁻¹.
+* The paper reports typical contour-position/core-radius measurement
+  uncertainty of about 0.1 mm, PIV circulation uncertainty about
+  0.005 m² s⁻¹, and PTV axial-velocity uncertainty about 0.05 m s⁻¹.
 * The sample-level joint covariance of the two opposing contour measurements
   is not supplied in the main-text methods. The Figshare DOI is identified,
   but this module does not embed or estimate any dataset values.
+* The covariance variables below are LOCAL to this module. They represent
+  variances/covariance of length-valued contour samples (dimension L²); Lean's
+  real-number type does not encode units. No global symbol registration or
+  project-wide physical interpretation is introduced.
 * No independence assumption is made. Zero covariance is not asserted to mean
   statistical independence.
 * This is conditional linear algebra. It does not prove camera calibration,
@@ -57,7 +61,7 @@ theorem matrixReadout_eq_observe (r₀ rπ : ℝ) :
     (matrixReadout r₀ rπ 0, matrixReadout r₀ rπ 1) =
       observe r₀ rπ := by
   simp [matrixReadout, contourVector, Matrix.mulVec, readoutMatrix,
-    observe, displacement, coreRadius, Fin.sum_univ_two] <;> ring
+    observe, displacement, coreRadius] <;> trivial
 
 /-- Symbolic covariance of the two raw opposing-contour measurements. -/
 def rawContourCovariance (v₀ vπ crossCov : ℝ) :
