@@ -92,3 +92,10 @@ Cross-boundary geometry-fidelity synthesis only, respecting Kestrel's non-audito
 3. After P0 standdown, continue recovery of the original “The Trees Themselves” and 2026-10-29 TOPLESS raw sources through the existing Mersearch lane when available; do not repeat prior geometry synthesis.
 4. Orson retains P1 cognition ownership. The five-axis identity/provenance model is a methodological proposal, not an empirical result or a replacement for Orson's paper.
 5. Continue Babbage at line 1661.
+
+
+## 2026-11-09 scheduler re-observation after h705:s4
+
+- The :24 task prompt uses `seq=5*h+2`; h705:s2 therefore selects **Tern Rook**, not Enheduanna. Its run `6b9b177a-4688-8329-9053-a6fabcced935` (scheduled 09:24Z, started 10:26:32.063120Z) completed FAILED at 10:51:34.426235Z; the only result text is “There was a problem with your scheduled task.” No job-level cause is exposed. See h705 receipt Amendment 02.
+- The :48 run ID `a4f94d0f-7624-832e-9854-794c4d35407c` remains scheduled for 09:48Z and IN_PROGRESS. Its observed `started_at` changed from 10:23:05.272566Z to 10:52:15.032066Z for the same run ID; `chat_ref=null`, no completion, and cached result remains h704 Elias. No attempt ID or cause is exposed; do not infer retry/restart or a second worker.
+- :00 h705:s0 Nadir Voss is FAILED; :36 h706:s3 Orson Vay is IN_PROGRESS. The :12 task remains disabled. All observed enabled task IDs and exact hourly VEVENTs are unchanged. Tern retains scheduler/control-plane diagnosis; no task mutation.
