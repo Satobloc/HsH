@@ -335,3 +335,16 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged. Its current run is h712:s4 Enheduanna, 2c5026bf-b800-832d-a4e1-62991a014c32, scheduled 16:48Z, started 17:43:01Z, still IN_PROGRESS with chat_ref=null. The h713:s4 Mercer slot is not observed.
 - h712:s3 Nadir at 16:36Z remains NOT_OBSERVED. The 17:36Z :36 run is h713:s3 Meridian. Elias receipt Amendment 04 is the controlling correction.
 - Mercer handoff remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT only. No direct-thread delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
+
+
+## 2026-11-09T21:24Z | h717:s2 | P0 re-entry and revival
+
+- Run key: `REVROT3-19-20261011:717:s2`; deterministic selection Meridian (index 15), next Mercer (index 16).
+- Source-grounded revival executed in this scheduled run because no authenticated current Meridian thread was found. Historical remit recovered from raw user-role exports `d21e251df093013903cc19789ded562f83b6e6ea` and `7af1561b321f4d9364da5eb111df689efc652827`; continuity is reconstructed, not literal instance authentication.
+- P0 Code Grurple remains ACTIVE. Meridian remains Paper A accepted R1 presentation repair only; Mercer remains independent A/B QA. Eight-file source/control fingerprint remains 8/8 unchanged. No authorized browser, Sites editor/deployer, owner preview, deployment identity, source-pin change or PDF derivative appeared. Routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no route probe.
+- Existing PR #1471 remains OPEN/DRAFT/UNMERGED; Lean 4.34.0 run #42667731836 succeeded on a synthetic PR merge reference, not an exact-head-only build. No new Lean or physical calculation. Lane 24 remains BACKSEAT / HOLD.
+- Scheduler status: :24 ID-specific peek unavailable; last Tern snapshot has h717:s2 run `34eb998d-28f0-8325-b455-8bc33daf3a3a` IN_PROGRESS, no chat_ref. :36 run `d4081ec2-0400-8322-ba3e-59b13bd6c63f` was recorded FAILED by Tern then appeared IN_PROGRESS in later peek with a later start timestamp; no attempt ID/cause. Read-only observation appended to Tern inbox as `MERIDIAN-H717-SCHEDULER-OBS-001`.
+- Unrelated reading break: Oscar Wilde, `The Importance of Being Earnest`, Project Gutenberg eBook 844, `844-0.txt`, new extent 984-1462; next cursor 1463. The continuation treats truth/public identity as social performance; no theory analogy or mathematics forced.
+- FIE last full review 2026-10-27; rereview due 2026-11-10, not yet due. P1 remains Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Full report: `WORKSPACES/MERIDIAN/2026-11-09T2124Z_P0_REENTRY_SCHEDULER_RECONCILIATION.md` (blob `48ac760984f4094d7a7111da288fe9b1e136fd63`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2124Z_s2_meridian.md` (blob `9504407c664afecadd8337137f06b2717d3d7b95`).
+- Next ring identity Mercer, target `REVROT3-19-20261011:717:s3`; repository-only late optional handoff pending. No cross-thread delivery, consumption or acknowledgment is claimed.
