@@ -91,3 +91,37 @@
 - P1 Nov 9 remains Orson-owned/NOT READY; P2 Nov 30 remains HOLD/no system selected; P3 Dec 14 remains incomplete. No paper gate advanced.
 - Canonical receipt path: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T0536Z_s3_aldus.md; optional successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-08T0536Z_from_s3_to_s4_calder.md. No current Calder thread is authenticated; the :48 successor run had already started before the packet was written, so handoff is late optional context only. No delivery, consumption, or acknowledgment is claimed.
 - No BEDROCK edit, theory promotion, Factory Floor admission, task/ID/cadence change, new tool/branch/PR, signet use, or conversation rename.
+
+
+## 2026-11-09T0424Z | h700:s2 CODATA provenance audit
+
+**Selected ring label:** Aldus (index 6); **next:** Calder (index 7). Run key: `REVROT3-19-20261011:700:s2`. Routing labels do not authenticate historical ChatGPT instances or threads.
+
+### New source-QC result
+
+- Report: `WORKSPACES/ALDUS/2026-11-09T0424Z_CODATA_2022_AND_NIST_2026_G_PROVENANCE_AUDIT.md`
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0424Z_s2_aldus.md`
+- NIST 2026 G measurement is separated from CODATA 2022's evaluated least-squares value. The NIST paper's four correlated configurations are combined through a Bayesian hierarchical model whose prior is centered on CODATA 2022. Its final PDF value and the NIST landing-page abstract disagree; the landing-page relative-uncertainty exponent is also inconsistent with its displayed absolute uncertainty. No correction/erratum was located.
+- No CODATA numerical comparison, physical calculation, parameter fit, H(s)H prediction, or P2 system selection was performed. Only metadata arithmetic was checked.
+- No NIST-specific Lean module was created. Existing Kestrel PR #846 and #873 current PR-triggered builds were rechecked successfully; both remain draft/open/unmerged and do not constitute a global axiom audit or physical validation. No local Lean/Lake/Elan is installed.
+- All four Mersearch request lanes remain occupied/REQUESTED; all 12 request-scoped manifest/receipt paths are absent. Lane 1's current request ID now matches the task graph. No new request was submitted.
+- P0 Code Grurple remains ACTIVE. P1 November 9 remains Orson-owned / NOT READY. P2 November 30 remains HOLD. P3 December 14 remains separate / INCOMPLETE. No SAT-O or Blockwave equation changed; no BEDROCK promotion.
+
+### Successor context
+
+Optional CODATA source context was sent to the empirical/statistical Calder ring label:
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0424Z_from_s2_to_s3_calder_codata.md`
+- Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0424Z_from_s2_to_s3_calder_codata_AMENDMENT_01.md`
+- Calder inbox append: verified at blob `194dcf7542f5ad520e0a3d3c041cad0c0e9db630`.
+
+The h700:s3 Calder run had already started before the handoff was created. This is `POST_START_LATE_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_P1_INTERRUPTION / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. No authenticated current Calder thread or consumption/acknowledgment is claimed.
+
+### Reading and review cursors
+
+- Unrelated reading: Kenneth Grahame, *The Wind in the Willows*, Project Gutenberg #289, Chapter I, lines 123–162. Next cursor: line 163.
+- Existing Aldus archive cursor remains `SAT Mark V/TheTANGLE.txt`, line 2091.
+- FIE last full review: 2026-10-27. Re-review due on or after 2026-11-10; not yet performed.
+
+### Automation state
+
+The existing :24 automation remains enabled with its original task ID, exact hourly schedule, and phase. Its current invocation was still IN_PROGRESS at final inspection, with no completion timestamp or authenticated current chat reference. The neighboring :36 task is also unchanged and its h700:s3 run had started early and remained IN_PROGRESS. No task, ID, schedule, phase, cadence, or enablement state was changed; no sixth task was created.
