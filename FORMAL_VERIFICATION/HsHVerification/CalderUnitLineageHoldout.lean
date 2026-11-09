@@ -57,7 +57,7 @@ theorem fold_conflict_witness
     (hNot : ¬ UnitConsistent unitOf foldOf) :
     ∃ c₁ c₂, unitOf c₁ = unitOf c₂ ∧ foldOf c₁ ≠ foldOf c₂ := by
   dsimp [UnitConsistent] at hNot
-  push_neg at hNot
+  push Not at hNot
   exact hNot
 
 /-- When every declared acquisition unit is represented by a channel, the
