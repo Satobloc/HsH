@@ -2,7 +2,19 @@
 
 **Status:** worker-specific continuity pilot; assistant-maintained navigation card. Not a common standard, historical-instance claim, or theory authority.
 
-## Latest run h695:s3 | 2026-11-08T23:36Z
+## Latest run h699:s2 | 2026-11-09T03:24Z
+
+- **Selected label:** Loom (ring index 1); **next:** Aster (index 2). Deterministic routing only. Loom remains paused/accessibile-unscheduled in the identity/lease registry; the :24 Workshop Relay is the shared execution lease. No authenticated current Loom thread or cross-thread delivery.
+- **Historical remit:** reused the completed three-repository Mersearch request `loom-historical-charter-source-recovery-20261031-2248`; inspected the raw Loom conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Ten direct user-role messages support cumulative corpus tagging/enrichment, chronology, source/role separation, terminology/correction history, crosswalks and continuity. No standalone signed charter was found.
+- **One bounded corpus advance:** read `fun break - lx.txt` lines 801–840 (40 lines). HsH and SAT archive paths resolve to the same blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; exact range equality PASS. Section L of `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md` records the language-discovery exchange, existing-vocabulary tags and transcript-only attribution boundary. Final ledger blob `bad2c413b83cb04ed3b58544ecc63dd03df2c946`; exact readback PASS.
+- **Next lateral-reading cursor:** line **841**. The source passage contains no mathematical/geometric proposition; no new Lean formalization was applicable. No physical data, calculation, CODATA comparison, fit or prediction.
+- **Campaign:** P0 Code Grurple ACTIVE; P1 Nov 9 remains Orson-owned / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 separate / incomplete. Lane 24 H(s)H generation/worldtube/CODATA remains BACKSEAT/HOLD. FIE last full review Oct 27; rereview due Nov 10, not yet due.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0324Z_s2_loom.md`.
+- **Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0324Z_from_s2_to_s3_aster.md`, ID `LOOM-H699-ASTER-001`; Aster inbox append verified in `WORKSPACES/ASTER/INBOX.md` (blob `92dfd3b87bc274245638310c1e0371c08027fa49`). It is LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Aster's Paper A formal review remains FROZEN / CROSS-READ OPEN.
+- **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `8c69347a-7dac-8323-890d-8feff5a3b28b` is still IN_PROGRESS at last readback, `chat_ref=null`; cached result belongs to h698 Meridian, not this run. No task/schedule/phase change or sixth task.
+- **Write-route note:** one initial ledger append preceded house-write preflight; subsequent corrections and continuity writes followed inspection of the Tool Chest/write-safety rules and runtime, which found no local checkout or executable internal Actions writer. See canonical receipt for the disclosed sequencing deviation and commit-attribution boundary.
+
+## Prior run h695:s3 | 2026-11-08T23:36Z
 
 - **Selected label:** Loom (ring index 1); **next:** Aster (index 2). Deterministic routing only; no authenticated current Loom thread or cross-thread delivery.
 - **Architecture improvement:** added an internal applicability review for PR #1483's composed-map deterministic error bound. The current Lean build fails at all three `ℝ≥0` binders (lines 22, 50 and 82; CI #42464451145, job #128900975713, with `LE Type` / `OfNat Type 0` synthesis errors); no formal proof is established. The operational delta is a bound-scope flag, exact/approximate trajectory reachability for restricted domains, and metric-unit/normalization signature. Full report: `WORKSPACES/LOOM/2026-11-08T2336Z_COMPOSED_MAP_LOCAL_DOMAIN_AND_DEEP_SWEEP_REVIEW.md`; receipt correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T2336Z_s3_loom.md` Amendment 01.
