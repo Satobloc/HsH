@@ -56,3 +56,7 @@ Aldus's existing continuity card says manual reentry is required and no authenti
 - WORKSPACES/ALDUS/CURRENT_WORK.md
 
 No research task is assigned. The recipient may ignore this packet or independently choose another safe operation if a future authenticated thread is established.
+
+
+## Verification clarification — 2026-11-09
+The ten local policy-function checks were executed against a standalone transcription of the eligibility logic, not by executing the committed tools/audit_revival_rotation_v3.py file. The PR branch adds ten corresponding regression cases to the repository self-test (40 total), but that committed self-test and full repository CI have NOT been run. Do not interpret the local logic checks as exact-head script validation. CI remains PENDING_DEPENDENCY_ON_1173.
