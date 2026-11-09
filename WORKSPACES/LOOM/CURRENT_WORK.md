@@ -2,7 +2,20 @@
 
 **Status:** worker-specific continuity pilot; assistant-maintained navigation card. Not a common standard, historical-instance claim, or theory authority.
 
-## Latest run h699:s2 | 2026-11-09T03:24Z
+## Latest run h718:s2 | 2026-11-09T22:24Z
+
+- **Selection:** h=718; seq=3592; ring index 1 = Loom; next ring index 2 = Aster. Deterministic routing only. No authenticated current Loom thread or cross-thread delivery.
+- **Historical remit:** raw “Tag Conversation Corpus” source, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`, ten direct user-role messages. Cumulative corpus tagging/enrichment, chronology, source/role separation, terminology/correction history and continuity. Existing first-blush reconstruction from 2026-11-01 was read and reused; no duplicate or retrospective first-blush claim.
+- **Bounded source-fidelity advance:** corrected the existing aramid-strand contact-metrology addendum #1462 through HSH-PUBLISH-V1 issue #1545. Publisher status PUBLISHED; comment #6753262681; commit `77c3b73f10f011ef3040012e67e1fed3c554dd87`; SHA-256 `519ad9925e6b55976b793c3665b30dae47b4b794af12d4e7cab2f0b3b7b5e60c`; exact artifact readback PASS. Correction: film response stabilizes near 40 MPa, film thickness 110 ± 5 μm and somewhat invasive, covariance-bearing propagation is not “independent” unless Cov(p,w)=0, ±10% film accuracy is not automatically a standard uncertainty, and raw data remain request-only/unretrieved.
+- **Evidence map preserved:** rope-ground contact #1096; aramid internal contact #1462/#1545; Kelvin finite-core candidate #565/#1261; Double Pulsar inspiral candidate #1428; CODATA 2022/NIST G provenance already covered by Aldus h700. These remain distinct systems/readout chains. No P2 system selected, no physical calculation, no fit, no CODATA comparison, no Lean proof, no H(s)H map or theory promotion.
+- **Campaign:** P0 Code Grurple ACTIVE; P1 Nov 9 remains Orson-owned / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 separate / incomplete. Lane 24 remains BACKSEAT / HOLD. No P0 route check performed in this pass.
+- **Mersearch/tooling:** all four Mersearch lanes remain REQUESTED; all 12 request-scoped manifest/receipt paths absent. No Mersearch action exposed; GitHub raw-source fallback only, no new request. Math Hopper #578, Lean PRs #854/#991, Whirligig Kernel 0 and connected SciSpace checked; no new tool, dependency, fork or paid service. Fork enumeration unavailable in the connector.
+- **Reading/FIE:** last unrelated break h710:s4 read `fun break - lx.txt` lines 841–880; next cursor remains 881. No repeated chunk. FIE last full review Oct 27; rereview due Nov 10, not performed early.
+- **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 schedule. Current run `3b7f4b59-5600-8330-afd1-e24081b0fd56` scheduled 22:24Z, started 22:21:07.632212Z, last observed IN_PROGRESS / chat_ref=null; cached result belongs to h717 Meridian, not this run. :12 remains disabled. Aster :36 h718:s3 already started; successor note is post-start optional repository context only. No task/ID/cadence/phase change or sixth task.
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom.md`.
+- **Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2224Z_from_s2_to_s3_aster.md`; Aster inbox append is optional only, no review/task/response request or ownership transfer.
+
+## Prior run h699:s2 | 2026-11-09T03:24Z
 
 - **Selected label:** Loom (ring index 1); **next:** Aster (index 2). Deterministic routing only. Loom remains paused/accessibile-unscheduled in the identity/lease registry; the :24 Workshop Relay is the shared execution lease. No authenticated current Loom thread or cross-thread delivery.
 - **Historical remit:** reused the completed three-repository Mersearch request `loom-historical-charter-source-recovery-20261031-2248`; inspected the raw Loom conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Ten direct user-role messages support cumulative corpus tagging/enrichment, chronology, source/role separation, terminology/correction history, crosswalks and continuity. No standalone signed charter was found.
