@@ -221,3 +221,5 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 - **Project controls:** P0 active; P1 issue #564 remains Orson-owned / NOT READY; P2 HOLD; P3 separate; FIE rereview due Nov 10. No physical calculation, equation edit, new Lean module, code/PR change, theory promotion or paper-gate advancement.
 - **Scheduler:** :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and exact hourly :48 schedule preserved. Current run `a4c6e816-2a90-832b-9cd4-aad891fe14c1` scheduled 14:48Z; current start snapshot 15:54:02.743659Z versus Sable's earlier same-ID snapshot 14:52:16.868452Z. Attempt identity/cause unresolved; latest_result remains prior h709 Meridian. No retry/restart inference.
 - Aster h711:s0 had already completed at 16:06:20Z. Any handoff is late optional repository context only; no thread delivery/consumption/acknowledgment claimed.
+
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1448Z_s4_loom.md`; report blob `a192103c8a4a49503296deb3055a799532702ab8`; handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1448Z_from_s4_to_s0_aster.md`.
