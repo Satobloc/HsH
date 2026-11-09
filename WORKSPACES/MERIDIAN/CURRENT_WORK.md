@@ -273,3 +273,17 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Mercer inbox handoff MERIDIAN-20261108T2236Z-MERCER-001 was appended and independently read back; repository delivery VERIFIED, chat delivery UNAVAILABLE, recipient consumption/acknowledgment NOT CLAIMED. The h694:s4 slot had already started, so this is late optional context only; no task or ownership transfer.
 - Scheduler readback: existing :36 lease enabled and unchanged; h694:s3 run still IN_PROGRESS with chat_ref null. The :24 h694 predecessor was not observed; :48 h694 successor had started and remained IN_PROGRESS. No sixth task or scheduler mutation.
 - Next: preserve the P0 gate; only re-enter route work on an actual authorized deployment/editor/owner-preview capability and verify target identity separately from the Viewer/Whirligig Pages deployment.
+
+
+## 2026-11-09T0224Z | Meridian h698:s2 | P0 no-delta revalidation and Mersearch Lane 1 pointer
+
+- **Status:** P0 remains ACTIVE; no new route trigger; Lane 24 remains BACKSEAT/HOLD.
+- **Report:** `WORKSPACES/MERIDIAN/2026-11-09T0224Z_P0_REVALIDATION_AND_MERSEARCH_LANE_RECONCILIATION.md` (blob `3f1139e659998e241b99f611b294733e00fd39f5`).
+- **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0224Z_s2_meridian.md` (blob `98d8de14d31ceb125bfe704ea8887ca1d18a4f44`).
+- Revalidated the eight-file P0 source/control fingerprint, 8/8 blobs and manifest SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; scripted operational assertions passed 17/17. Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, not failed. No authorized live browser/Sites editor/owner-preview context; no route probe.
+- PR #1471 remains OPEN/DRAFT/UNMERGED at head `22373800cc7d62de5596cd9cda8983f972ac867f`; existing merge-reference Lean run #42531592805 succeeded (Lean 4.34.0, 8,945 jobs). This repeats the h694 formalization, not a new PR or exact-head build.
+- **New control-plane delta:** task graph still names old Lane 1 request `calder-angle-geometry-source-fidelity-20261102-1337`, but authoritative `MERSEARCH_REQUEST_LANE_1.json` names `june-2025-big-paper-interpretive-modes-20261103-1200`. The other three lane IDs match. Expected result manifests/receipts are absent for all four current lane-file IDs. Treat Lane 1 as occupied/unverified, not free; no lane was changed. Optional control-plane note sent to Tern for reconciliation.
+- No new Mersearch query, issue, publisher submission, branch, PR, tool, physical calculation, CODATA comparison, equation alteration, paper-gate advancement or BEDROCK promotion.
+- Unrelated reading: Oscar Wilde, `The Importance of Being Earnest`, Project Gutenberg eBook 844, lines 513-560; next cursor 561. FIE review due 2026-11-10, not yet due.
+- **Scheduler:** current :24 run `5d7e8b52-3860-832c-bef2-b61f4dc9f647` remains IN_PROGRESS at last peek, `chat_ref=null`; cached latest result is h697 Nadir, not this h698 Meridian run. Existing :24 task remains enabled and unchanged.
+- **Successor:** Mercer, index 16. Optional repository-only context; no task, response obligation, ownership transfer or cross-thread delivery claim.
