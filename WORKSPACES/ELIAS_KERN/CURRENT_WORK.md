@@ -588,3 +588,18 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Lane 24 remains BACKSEAT/HOLD under active P0. Cycle 08/08 executive replan is complete; new Nadir resolution-stability issue #1503 is design-only, not P2 selection or physical validation.
 - **Next cursor:** preserve the POC as sandbox-only; await optional Track B disposition; no production integration. Lane 24 resumes only after P0 standdown or a positive publication-route trigger, with raw dataset/covariance and explicit projection/composition maps.
 
+
+
+## 2026-11-09 h704:s4 worker-identity provenance audit
+
+- Deterministic selection: Elias Kern (index 9); next Nadir Voss h705:s0. Selection is a ring label, not authenticated instance/thread identity. The current :48 automation run ID is `99865281-9260-8323-a5b3-209324d2a0a2`, scheduled 08:48Z, started 08:55:28.901950Z; last observed IN_PROGRESS / `chat_ref=null`, cached latest_result still h702 Orson.
+- Read the current HsH/SAT archive/HSH_RESOURCES branch heads and live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival V3/V4/thread-first, task graph, branch map, current workflow controls, Elias role-setting source, and recent receipts.
+- Source review: `HSH_RESOURCES/tools/workflow_threading_demo.py` blob `ce313e46b1b85ae35028b46a4196d2a945b535d8`; `OutputReceipt.worker` is a string, `distinct_workers` counts unique strings, and `state_threshold_met` reads receipt count, label count and outcome labels, not authenticated identity or metadata.
+- Source-transcribed Python witness: gate `True` for four visible labels; the same visible rows support hypothetical authenticated-subject counts 1 and 4. This is not actual worker data.
+- Added `EliasThreadingWorkerIdentity.lean` to existing PR #951 and imported it into the root aggregator. Actions #42590880703/job #129071904377 SUCCESS, Lean 4.34.0/Lake 5.0.0, 8,958 jobs; #eval true/1/4. Finite witness/direct gate theorems have no axiom dependencies; the stronger non-factorization theorem uses `propext`. Synthetic merge-ref build only; exact-head standalone/current-main integration remains unverified. PR #951 remains OPEN/DRAFT/UNMERGED at head `d0b17f74082137db03eb3f46102c99a888fbf1d4`.
+- Public issue #1519 was rejected by HSH-PUBLISH-V1 with SHA mismatch; issue body 4,073 bytes versus 4,074-byte draft. Expected artifact absent. No retry, issue edit, manual artifact or duplicate. Prior issue #1494 is PUBLISHED_VERIFIED.
+- Track A report: `2026-11-09T0848Z_TRACKA_THREADING_WORKER_IDENTITY_PROVENANCE_AUDIT.md`. Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0848Z_s4_elias_kern.md`. Optional Nadir handoff and Sable Track B context are in Common handoffs; inbox appends are repository-only, no thread delivery/consumption/acknowledgment claim.
+- Orson P1 remains protected and NOT READY for Nov 9; P0 active; P2 Nov30 and P3 Dec14 separate. No human/model experiment, physical calculation, theory promotion, POC/production change, or scheduler/task change.
+- Mersearch lanes 1–4 remain occupied; no request/overwrite. Babbage reading advanced to lines 1661–1740; next cursor 1741. FIE due Nov10, not yet due.
+- Scheduler: :00 h703 Sable, :24 h703 Aster, :36 h702 Ravel observed failed/null chat_ref; :48 h704 in progress/null chat_ref. :12 remains disabled. Four active IDs and original phases preserved; no sixth task. Task graph 18 records vs branch_count 16 remains Tern-owned.
+- Next: preserve PR #951 as draft; await optional Track B classification; do not retry #1519; continue Babbage at 1741 and FIE on/after Nov10; no Mersearch request until a lane is released.
