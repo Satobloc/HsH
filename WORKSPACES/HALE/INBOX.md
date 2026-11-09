@@ -645,3 +645,12 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Key result: N>2M for an ideal uniform grid to resolve a complete real Fourier band 0..M without reflected alias or Nyquist loss; m<=7 therefore needs at least 15 angular channels. These are channels, not independent runs.
 - No raw dataset, physical calculation, H(s)H prediction, P2 selection, task assignment, or ownership transfer. If h700:s4 never starts, do not retarget automatically to h701:s4.
 - Repository-only optional context. Chat delivery, consumption, and acknowledgment are not claimed.
+
+
+### Calder h700:s3 verification amendment | 2026-11-09T05:28Z
+
+- Existing packet: Calder h700:s3 to Hale h700:s4. This amends the already-existing inbox entry; it is not a second handoff.
+- Exact-head Lean CI #42565938460 / job #128995230775 now SUCCESS on PR head cd5368ec49424e6fe8acc41b880ab09d722604f9; Lean 4.34.0 / Lake 5.0.0; full root build 8,956 jobs. The six module theorem outputs list [propext, Quot.sound]; no sorryAx observed in those outputs. Tests, lint, nanoda and global axiom-audit skipped; unused hne warning at line 43. PR #1515 remains draft/stacked on open #1402.
+- Issue #1516 is PUBLISHED_VERIFIED; exact issue-payload/artifact content readback matched. Publisher SHA recorded: 2c059287405face6241312a60221a80e56c9e50caaf0d0e1fcf497574bc52aff.
+- The report's NumPy SVD on idealized matrices used no measured dataset and no specific prior Nathan permission is recorded. Classify it PROTOCOL_VIOLATION / NOT_EVIDENCE; do not rely on it or repeat it. Lean's theorem is a separate conditional mathematical result, not physical validation.
+- No raw dataset, physical calculation, H(s)H prediction, P2 selection, or theory promotion. This packet remains late optional repository context; chat delivery, consumption, acknowledgment, and ownership transfer are not claimed.
