@@ -140,6 +140,41 @@ theorem o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J :
     Dim.div dEnergy dLength ≠ dMass := by
   decide
 
+/--
+Conditional exact-normalization identity corresponding to the O5 inverse-square-root
+and O6 inverse-square coupling scalings. The source uses `~`, not `=`, and does
+not specify the proportionality constants. This theorem checks only the exact
+algebraic representative after a positive shared normalization `c`; it does
+not assert that the historical proportionality factors are equal.
+-/
+theorem inverse_sqrt_coupling_iff_inverse_square
+    (x g c : ℝ)
+    (hx : 0 < x)
+    (hg : 0 < g)
+    (hc : 0 < c) :
+    g = c / Real.sqrt x ↔ 1 / g^2 = x / c^2 := by
+  constructor
+  · intro h
+    rw [h, div_pow, Real.sq_sqrt hx.le]
+    field_simp [hc.ne', hx.ne']
+  · intro h
+    have hsq : c^2 = x * g^2 := by
+      field_simp [hg.ne', hc.ne', hx.ne'] at h
+      nlinarith [h]
+    have hprod : g * Real.sqrt x = c := by
+      have hprodSq : (g * Real.sqrt x)^2 = c^2 := by
+        rw [mul_pow, Real.sq_sqrt hx.le]
+        nlinarith [hsq]
+      have hprodPos : 0 < g * Real.sqrt x :=
+        mul_pos hg (Real.sqrt_pos.2 hx)
+      nlinarith [hprodSq, hprodPos]
+    calc
+      g = g * Real.sqrt x / Real.sqrt x := by
+        field_simp [ne_of_gt (Real.sqrt_pos.2 hx)]
+      _ = c / Real.sqrt x := by rw [hprod]
+
+#print axioms inverse_sqrt_coupling_iff_inverse_square
+
 #eval Dim.div (scaleDim 4 dSpeed) dNewtonG
 #eval Dim.mul dForce (scaleDim 3 dLength)
 #eval Dim.mul dForcePerLength (scaleDim 3 dLength)
