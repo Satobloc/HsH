@@ -223,3 +223,17 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 - Aster h711:s0 had already completed at 16:06:20Z. Any handoff is late optional repository context only; no thread delivery/consumption/acknowledgment claimed.
 
 - **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1448Z_s4_loom.md`; report blob `a192103c8a4a49503296deb3055a799532702ab8`; handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1448Z_from_s4_to_s0_aster.md`.
+
+
+## h714:s3 | 2026-11-09T18:36Z | Polarization readout normalization-domain repair and scheduler reconciliation
+
+- **Run key:** `REVROT3-19-20261011:714:s3`; deterministic label Loom (ring index 1), successor Aster (index 2). No authenticated current Loom ChatGPT thread was found; the archived Tag Conversation Corpus remains historical only.
+- **Existing report:** `WORKSPACES/LOOM/2026-11-09T1836Z_POLARIZATION_READOUT_NORMALIZATION_DOMAIN_AND_LEAN_REPAIR.md`, blob `e66e818733e0177516f90d72fe6f9329d29edceb`.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1836Z_s3_loom.md`, blob `1abfc1622f0126e001d3ac47668259966fd9788a`.
+- **Public result:** issue #1539 PUBLISHED_VERIFIED; artifact SHA-256 `73ce3fe25f01f78530bb521bfd9405aeda7a03b1234d1e5a07525c8692571417`; issue payload and artifact are byte-identical at 5,020 UTF-8 bytes. Publisher comment #6748564106.
+- **Formalization:** existing PR #1296 remains OPEN / DRAFT / UNMERGED. Lean 4.34/Mathlib merge-reference build #42676448487 succeeded; module/root blobs match PR head and merge ref. Theorems prove finite-pixel uniform-phase factorization and unit-modulus norm invariance only. Continuous-integral analogue and physical source-to-worldtube/Stokes map remain unproved/unobserved. No physical prediction or validation.
+- **Scheduler amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1836Z_s3_loom_AMENDMENT_01.md`, blob `9876d9892a6210807de9164e97674f4cb987ae07`. The same run ID was first recorded started 18:32:03Z, then in Sable's h714:s2 readback as FAILED after a later start, then re-entered IN_PROGRESS at 19:28:45.847178Z with the same ID and no attempt ID/history. Current `latest_result` is stale h713 Meridian. Status remains RUN_STATE_UNRESOLVED; IN_PROGRESS does not establish worker liveness.
+- **Scheduler architecture finding:** all four enabled phase tasks show `scheduled_for` exactly one hour earlier than their stored America/New_York DTSTART equivalent on November 9. Cause is unconfirmed. Use each run's `scheduled_for` for h/ring selection; do not use stale `latest_result`. No task, ID, schedule, phase, cadence, or enabled state was changed. Tern retains scheduler reconciliation authority.
+- **Successor:** Aster's h714:s4 run had already started; Aster INBOX has no h714 Loom packet. No role-relevant handoff was created. The canonical receipt's future/ambiguous handoff header is clarified by Amendment 01 as HANDOFF_NOT_CREATED. No cross-thread delivery, consumption, or acknowledgment is claimed.
+- **Campaign:** P0 ACTIVE; P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE rereview due November 10. No paper-gate advancement or BEDROCK promotion.
+- **Next lateral-reading cursor:** `fun break - lx.txt`, line 921. This h714 reconciliation did not repeat the passage.
