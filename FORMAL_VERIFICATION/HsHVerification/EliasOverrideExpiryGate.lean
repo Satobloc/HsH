@@ -140,7 +140,17 @@ def activeForB (o : OverrideLease)
 theorem sample_active_at_issue :
     activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
       "alternate-interpretation-check" 10 := by
-  simp [activeFor, wellFormed, sampleOneQuantum]
+  unfold activeFor
+  constructor
+  · unfold wellFormed
+    constructor <;> decide
+  · constructor
+    · rfl
+    · constructor
+      · rfl
+      · constructor
+        · rfl
+        · constructor <;> decide
 
 theorem sample_inactive_at_expiry :
     ¬ activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
