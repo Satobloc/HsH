@@ -130,7 +130,7 @@ def activeForB (o : OverrideLease)
   nonemptyStringB o.operation &&
   nonemptyStringB o.purpose &&
   nonemptyStringB o.note &&
-  (o.issuedAt < o.expiresAt) &&
+  decide (o.issuedAt < o.expiresAt) &&
   (o.actor == actor) &&
   (o.locale == locale) &&
   (o.operation == operation) &&
