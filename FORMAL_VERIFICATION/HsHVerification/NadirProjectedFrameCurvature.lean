@@ -83,9 +83,6 @@ def dPhiFullOmegaTheta (s c : ℝ) : M4 :=
      -c, 0, 0, 0;
      0, 0, 0, 0]
 
-/-- Full Maurer-Cartan curvature coefficient:
-    d_theta Omega_phi - d_phi Omega_theta + [Omega_theta, Omega_phi]. -/
-
 /-! ## Explicit frame map generating the coefficient family
 
 The analytic trigonometric parameterization is intentionally not hidden in
@@ -248,6 +245,8 @@ theorem frameConnectionPhi_eq_fullOmegaPhi
       simpa [generator23] using
         rotation23_conjugate_generator23 cφ sφ hφ
 
+/-- Full Maurer-Cartan curvature coefficient:
+    d_theta Omega_phi - d_phi Omega_theta + [Omega_theta, Omega_phi]. -/
 def fullCurvatureCoeff (s c : ℝ) : M4 :=
   - dPhiFullOmegaTheta s c
     + (fullOmegaTheta s c * fullOmegaPhi - fullOmegaPhi * fullOmegaTheta s c)
