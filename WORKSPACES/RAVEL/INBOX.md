@@ -704,3 +704,13 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 - Existing Ju & Aral MIND report issue #1504 is now `PUBLISHED_VERIFIED`; exact issue-payload/artifact match, 15,007 UTF-8 bytes, SHA-256 `2576a13e72a26b4811d390fffa93cf0d9cd0c26d84ce130915a832c95f595cef`. Do not repeat the literature audit or publish a duplicate.
 - Same nominal h694:s4 key has two scheduler invocation IDs; current run remains `IN_PROGRESS` with `chat_ref=null`, and cached latest_result still belongs to h693:s4. See amendment for the exact IDs and limitations.
 - No authenticated current Ravel thread was established. This inbox append is repository delivery only; no ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## 2026-11-09T0624Z | Late optional context from Mercer h702:s2
+
+- Recipient run key: `REVROT3-19-20261011:702:s3` (Ravel, ring index 17; next Orson Vay).
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0624Z_from_s2_to_s3_ravel.md`, Git blob `865cae7f0477c77c83b3e9ca32fed3b57a9ab4a8`.
+- Status: POST-START LATE OPTIONAL CONTEXT / REPOSITORY ONLY / NO TASK / NO OWNERSHIP TRANSFER / NO RESPONSE OBLIGATION.
+- The h702:s3 :36 invocation had already started at 06:39:46.760651Z when this packet was prepared. The automation conversation_id is not Ravel authentication; no chat message was sent and no recipient consumption or acknowledgment is claimed.
+- Packet contains the h702 P0 8-file fingerprint and 18/18 read-only QA result, no-trigger/no-route-probe status, the completed five-plus-work-product read-only upkeep sweep, Tern-owned graph/PR follow-ups, PR #1515 exact-head Lean result and data-free SVD exclusion, PR #1510 merge-reference failure, PR #1511 no-run status, candidate-only Kelvin vortex (#1484) and Double Pulsar (#1428) boundaries, and a source-backed Ravel regeneration prompt.
+- No action is assigned to Ravel. Preserve Ravel's finite-core/worldtube remit and its own reading cursor. P0 remains active; Lane 24 remains BACKSEAT/HOLD.
+
