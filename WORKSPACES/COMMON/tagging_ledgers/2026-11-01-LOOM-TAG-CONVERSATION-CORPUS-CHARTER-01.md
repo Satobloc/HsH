@@ -365,3 +365,15 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Attribution boundary:** “You said” and “ChatGPT said” are textual labels, not raw role metadata. No speaker is authenticated; no passage is attributed to Nathan Direct. The phrase “jog my memory” is not evidence of persistent episodic memory, introspection, training-example access, or a verified retrieval mechanism.
 - **MIND relevance:** candidate question for a separately scoped model-only test of whether disambiguating context improves accuracy/calibration or merely increases specificity/confidence. No model trial or human session was run; this is not Orson's P1 experiment or a paper-gate result.
 - **Source limit:** the literary and mechanistic claims in the transcript were not independently fact-checked and are not promoted to reference facts.
+
+
+## N. Lateral source break: fun break - lx.txt, lines 881–920
+
+- **Sources:** HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42` in both repositories. The 40-line ranges are byte-identical; one source, not two witnesses.
+- **Read extent:** lines 881–920 inclusive (40 lines); next cursor **921**.
+- **Content:** the transcript continues a language-identification game with explicit scorekeeping. It contains a Yurok/Yupik prompt-response swap, a user correction, an assistant self-contradiction within the same passage (Yurok is first called Algic, then called a language isolate), a repeated Taa suggestion after the user says it was already used, and a subsequent Lahu/Nihali sequence after the user declines to guess.
+- **Tags:** `LATERAL-READ`; `LANGUAGE-DISCOVERY-GAME`; `GAME-STATE-TRACKING`; `SCORE-TRACKING`; `PROMPT-RESPONSE-MISMATCH`; `ASSISTANT-ENTITY-RESPONSE-SWAP`; `ASSISTANT-INTERNAL-CONTRADICTION`; `REPEATED-SUGGESTION`; `USER-CORRECTION`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `RAW-ROLE-UNVERIFIED`; `ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED`; `NOT-LLM-EXPERIMENT`; `NOT-THEORY-EVIDENCE`.
+- **Attribution boundary:** “You said:” and “ChatGPT said:” are textual labels, not raw message-role metadata. No speaker is authenticated and no passage is attributed to Nathan Direct. The Yurok classification conflict is recorded as an internal transcript contradiction only; no external linguistic fact-check was performed.
+- **MIND relevance:** this is a conversational example of score-state drift, response-target substitution, repetition and self-contradiction. It is not a controlled model trial, not Orson's P1 dataset, and not evidence of a persistent memory mechanism.
+- **Research boundary:** no external fact claims are promoted to reference status; no physical or SAT/H(s)H premise is supplied.
