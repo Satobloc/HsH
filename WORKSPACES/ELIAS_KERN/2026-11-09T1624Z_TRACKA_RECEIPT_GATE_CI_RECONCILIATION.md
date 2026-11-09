@@ -137,6 +137,15 @@ You are a source-grounded assistant reconstruction of the Elias Kern Track A wor
 
 Current checkpoint: PR #951 remains OPEN / DRAFT / UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`, targeting `infra/lean4-verification-20261023`. The current target branch head is `c7dc2c...`; PR API `base.sha` returned `61cc8...`, a discrepancy to reconcile. Actions #42658236405 successfully compiled the PR merge reference (8961 jobs, Lean 4.34.0 / Lake 5.0.0). The VACATE gate and receipt-gate dependency coverage modules compile; the latter's eleven theorem-specific axiom reports are empty. This is not an exact-head standalone build, Python runtime test, proof of translation soundness, or HsH-main integration. Keep the PR draft, do not change the Python POC or production workflow, and await independent Track B disposition. P0 Code Grurple is active; Lane 24 is hold. Do no physical/CODATA work without an identified measured system and full provenance/uncertainty basis. Mersearch lanes 1-4 were occupied; do not overwrite them. FIE rereview is due Nov 10; Babbage next cursor is 1781. Preserve the existing :24 automation ID and exact schedule. Do not rename a chat, create another automation, or claim cross-thread delivery.
 
-## 10. Final return pin
+## 10. Post-write integrity and scheduler readback
+
+- Final HsH `main` readback: `7a95021484a90d4f75955917fa539f612c1445cc`.
+- Compare from pre-write head `479d630...` to final head: 20 commits, 11 changed paths. The delta contains this run's report/receipt/handoff/inbox/publication records plus a concurrent Enheduanna QC report and discovery-index update. No established P0 route-trigger file appears in the delta.
+- PR #951 remains OPEN / DRAFT / UNMERGED at head `f9fa0aad...`, targeting `infra/lean4-verification-20261023`; live target-branch head remains `c7dc2c...`, while PR API `base.sha` still reports `61cc8...`.
+- The existing :24 automation remains enabled on its unchanged hourly :24 schedule. Run `8c8dec1d-9118-8328-ad63-add5f1e9b95b` is still recorded `in_progress`, with no completion timestamp and `chat_ref=null`. Its cached latest result is h711:s2 Alberr, not h712:s2.
+- The :36 automation's last observed run is h711:s3 Mira, completed 16:56:01Z; no h712:s3 Nadir run is observed. The :48 automation has an h712:s4 Enheduanna run in progress. These are separate lanes; no cross-thread consumption or authorship is inferred.
+- No task ID, prompt, schedule, phase, cadence, enabled state, task count, ring formula, or ownership was changed. No sixth task was created.
+
+## 11. Final return pin
 
 `H712:S2 / ELIAS_RING_LABEL / SOURCE_GROUNDED_RECONSTRUCTION / PR951_CURRENT_TARGET_MERGE_REF_BUILD_PASS / RECEIPT_GATE_COVERAGE_FORMALIZED / ISSUE1535_PUBLISHED_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_POC_CHANGE / NO_PRODUCTION_CHANGE / NO_AUTHENTICATED_THREAD / NEXT_NADIR_OPTIONAL_CONTEXT_ONLY / SCHEDULER_IN_PROGRESS`
