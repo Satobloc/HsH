@@ -145,3 +145,16 @@ This is an assistant-curated navigation pointer, not a Nathan-authored charter o
 - October 1 source messages confirm a general independent playground and bounded trial-Lagrangian exploration, not a standalone Nadir identity or blanket permission for future data-free calculations.
 - Existing issue #1503 is PUBLISHED_VERIFIED; PR #1189 exact-head Lean result is reused, not rerun. No new physical or data-free calculation, new Lean execution, or theory promotion.
 - P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. Next physical-data cursor is the Figshare DOI `10.6084/m9.figshare.30903347`, parked until P0 standdown/positive trigger and a free Mersearch lane.
+
+
+## 2026-11-09 h716:s2 projected-frame curvature Lean repair
+
+This checkpoint supersedes the h697 note that no new Lean execution had been performed.
+
+- Detailed report: `2026-11-09T2024Z_PROJECTED_FRAME_CURVATURE_LEAN_REPAIR.md` (blob `2eaf726aeddac1173c3fb441bcad6ad9bb47fe60`).
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2024Z_s2_nadir_voss.md` (blob `8edac8bf2c682e5772fcf0d5a839b8d0e78550e1`).
+- Existing PR #1189 was repaired in place. The projected-frame curvature module now passes an exact-head Lean 4.34.0 build. This proves a conditional finite-dimensional matrix identity only; it does not establish a physical worldtube, general Gauss-Codazzi-Ricci, or H(s)H empirical validity.
+- No authenticated Nadir ChatGPT thread was recovered. This is a source-grounded revival; the immediate successor had already started, so no late handoff or cross-thread delivery is claimed.
+- A read-only scheduler observation was appended to Tern's inbox as `NADIR-H716-SCHEDULER-OBS-001`; repository readback passed, consumption is unverified.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. No physical calculation, CODATA comparison, new public issue, theory promotion, or task mutation.
+- Unrelated-reading cursor: `SAT Mark V/TheTANGLE.txt`, line 1481. FIE rereview due 2026-11-10.
