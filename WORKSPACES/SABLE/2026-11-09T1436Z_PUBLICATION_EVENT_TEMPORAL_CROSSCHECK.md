@@ -115,7 +115,7 @@ When the existing Track B owner reviews the event model, add these two cases as 
 
 - Read current BEDROCK and its 2026-11-08 primary operational methodology, Steering Charter 2026-10-26, Phase Steering, Three Paper Campaign, three-repository onboarding, current workflow orientation, Revival Rotation V3/V4 and thread-first rules, task branch graph, Sable checkpoint/inbox, and current receipts/handoffs.
 - HsH main before this report write: `19ab090320f15d7543067f0b70c1d8a2aa48c339`.
-- SAT archive main read: `35804a91bca29e596033837971de5db9848e9dfb`; HSH_RESOURCES main read: `f00a82caa091df02e745b772a695e6c59fb4de8d`.
+- SAT archive main head recorded: `35804a91bca29e596033837971de5db9848e9dfb`; its top-level annotated archive survey was read. HSH_RESOURCES main head recorded: `f00a82caa091df02e745b772a695e6c59fb4de8d`; its README, human-readable index, and Tool Chest were read. The private-resource boundary was preserved.
 - HSH_RESOURCES Tool Chest and HsH write-safety instructions were inspected. No local HsH checkout or local `lean`, `lake`, or `elan` executable was present. The existing issue publisher is the approved public route; direct Contents API is the documented fallback for internal continuity files. No new tooling was built.
 - Mersearch was not exposed in this runtime. Raw Library/Files source retrieval and GitHub repository reads were used; no Mersearch run is claimed. No quarantined `PRIOR_ART` surface was accessed.
 
