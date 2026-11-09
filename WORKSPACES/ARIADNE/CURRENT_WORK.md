@@ -1,3 +1,19 @@
+## Latest run: 2026-11-09T11:24Z | h707:s2 | Lane 24 source intake
+
+- Deterministic ring label: Ariadne (index 3); next slot/ring label Alberr (index 4). This is not thread authentication.
+- Existing-thread-first check recovered the archived ARIADNE source export and workspace, but no authenticated live Ariadne thread or cross-thread delivery. Historical user remit is broad archive/source exploration and revival; no standalone Nathan-authored specialist charter was recovered. This is a run-specific Lane 24 assignment, not a permanent role change.
+- New source candidate: Mäkinen et al. (2023), rotating superfluid ³He-B, Nature Physics DOI 10.1038/s41567-023-01966-z; correction DOI 10.1038/s41567-023-02057-9; Zenodo v1 DOI 10.5281/zenodo.7525698; Aalto catalogue also lists 10.5281/zenodo.7525697.
+- Public source note published through the existing issue publisher: issue #1526; file `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-rotating-qwt-3heb-data-provenance-20261109t1124z-s2-001.md`; SHA-256 `3783b5b897bdca5e8524c6e26b45efd5931833b5e70f6d031e344e76d6d6ec91`; exact issue-payload/file readback PASS.
+- Candidate-only note added to existing P2 docket #565 (comment 6739920845). No P2 selection or gate advancement.
+- The public dataset is 16 figure-organized files / 1.6 MB, not a full acquisition archive. DatasetDescription.pdf preview unavailable; raw acquisition, joint covariance, and analysis code not verified. NMR is indirect; beta/tau are fitted/derived; 127 reconnections are simulation-only; core radius is not directly measured; paper cannot distinguish the proposed Kelvin-wave cascade models.
+- No CODATA comparison, H(s)H prediction, physical calculation, new Lean module, new PR, branch, tool, or theory promotion. Existing PR #790 remains open/draft/unmerged with no independent review; its prior successful build was not repeated.
+- P0 ACTIVE; P1 Nov 9 Orson-owned NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview due 2026-11-10, not yet due.
+- Mersearch tool unavailable; all four request lanes remain occupied/requested. Three-repository GitHub fallback found no prior Mäkinen/Zenodo entry. No lane mutation.
+- Unrelated reading: `TheTANGLE.txt` reached EOF at line 2261; `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt` lines 1–60 read. Next cursor: line 61.
+- Next work: retrieve/verify DatasetDescription.pdf and CSV schema; seek raw NMR, calibration, telemetry, code, covariance; define explicit vortex-to-texture-to-NMR forward map and test inverse identifiability. Keep as candidate only until P0 standdown and P2 review.
+- The next ring handoff to Alberr is optional repository context only. Alberr's autonomy is absolute; no task, response obligation, or ownership transfer.
+- Existing :24 automation identity/schedule/phase unchanged; no sixth task.
+
 # Ariadne - Current Work
 
 **Latest audit:** [Review-MIND multi-voice output fidelity and agent-identity audit](2026-11-09T0348Z_REVIEW_MIND_MULTIVOICE_SOURCE_FIDELITY_AUDIT.md)  
