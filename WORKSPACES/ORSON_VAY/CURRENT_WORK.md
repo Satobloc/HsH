@@ -151,3 +151,8 @@ Next cursor remains: retrieve the full VEY-030 primary instruments through an ac
 - **No-change boundary:** no model call, human subject, API spend, physical calculation, new tooling/dependency, PR, theory promotion, BEDROCK change, P1 scope/ownership change, or scheduler/task ID/schedule/phase/cadence/count change.
 
 **Next cursor:** keep P1 NOT READY until the original OV bank/authorized endpoint and a canonical source/PDF/reader/review package are actually recovered; verify no new source crosswalk or team-state export before expanding the TRAIL design analysis; continue Babbage at line 1661; FIE rereview becomes due Nov 10.
+
+
+## 2026-11-09T0748Z | h702:s4 | scheduler snapshot amendment
+
+A later automation peek supersedes the earlier snapshot only as a new observation: :00 Sable h703:s0 remains IN_PROGRESS under run `4d4f7b53-2488-8320-b153-a8b34dd10ca8`; :24 Aster h703:s2 run `1b7530d8-b01c-8327-b1bc-0e4bdf8dd3b7` is now FAILED at 07:48:51.171145Z; :36 Ravel h702:s3 run `c67d6879-f070-8324-bedb-5c910b22d68d` now reports IN_PROGRESS with a later start-time snapshot 07:46:23.225325Z after an earlier FAILED observation at 07:36:45.508600Z; :48 Orson h702:s4 run `bba84b16-fba0-8321-930c-37d7bb1a3e6b` remains IN_PROGRESS. All have `chat_ref=null`. Do not infer retry/restart or failure causes from mutable snapshots; cached latest-result pointers remain older occurrences. All four task IDs, enabled states, and exact hourly phases remain unchanged. Canonical receipt and Sable handoff/inbox amendments record the same observation.
