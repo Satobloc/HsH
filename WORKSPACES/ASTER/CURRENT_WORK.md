@@ -11,9 +11,9 @@
 | Current state | Code Grurple **ACTIVE**. Aster formal Paper A review **FROZEN / CROSS-READ OPEN**. Do not conduct an unrequested second formal review. |
 | :24 lane | H(s)H generation / worldtube characterization / CODATA is **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. |
 | Current branch | PR #1220 remains OPEN / DRAFT / UNMERGED. Branch research/aster-o13-unitary-mass-gate-20261101t1700z; head 6a66217979b9caacff06fa407cd9ccd1cdd7999e. Do not amend or merge it here. |
-| Next action | Continue the source-fidelity map for the historical Minkowski w-length and the later native c w = t convention, keeping them separate until an explicit map exists. Wait for Code Grurple standdown before IRI/B recovery. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
-| Source cursor | Keep the source time parameter and metric map for historical Minkowski w-length separate from native c w = t. New source gate: preserve SAT O1 text and SAT.O1 LaTeX as distinct; do not promote assistant-origin J^{μν} into Blockwave. Next recover original source/PDF and raw role ancestry through a released Mersearch lane, then type centerline-to-core, Σ_t, intersection/readout, medium-response, and calibration maps before formalization or physical testing. |
-| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1621-1660 read; next cursor 1661. FIE last full rereview 2026-10-27; next due 2026-11-10. |
+| Next action | Continue the typed source-fidelity map for w_M=ct and w_S:cw=t, now that both raw direct sources are recovered. Keep them separate; next recover the 2026-10-29 TOPLESS raw export and define units/types plus a source-backed map to Σ_λ and W⁴. Wait for Code Grurple standdown before IRI/B recovery. Do not reopen Paper A review or perform physical calculations without a real measured system, dataset, provenance, units, and uncertainties. |
+| Source cursor | Raw direct source recovered for 2026-08-26 w-length, 2026-10-09 w=ct, and 2026-10-21 cw=t; no typed conversion Φ or map to Σ_λ. Preserve SAT O1 text and SAT.O1 LaTeX as distinct; do not promote assistant-origin J^{μν} into Blockwave. Next recover the 2026-10-29 TOPLESS raw export and type centerline-to-core, Σ_t, intersection/readout, medium-response, and calibration maps before formalization or physical testing. |
+| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1661-1700 read; next cursor 1701. FIE last full rereview 2026-10-27; next due 2026-11-10. |
 
 ## Source and symbol boundaries
 
@@ -100,7 +100,7 @@ Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-06T2224Z_s2_aster.
 Receipt blob SHA: `bddc71e0de13815ae5c582e3d6c70596d2285cec`  
 Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 
-**Next Aster source cursor:** recover the raw 2026-10-29 TOPLESS conversation/message and source-lock the canonical Blockwave Lagrangian when a Mersearch lane frees; then define the typed finite-core thickening, timesheet and readout maps before any Lean theorem or physical calculation. Keep P2 on HOLD until Code Grurple standdown and a complete measured-data packet.
+**Next Aster source cursor:** recover the raw 2026-10-29 TOPLESS conversation/message; type the w_M=ct and w_S:cw=t conventions and any conversion map; then define source-backed finite-core thickening, timesheet, intersection/readout, medium-response, and calibration maps before any Lean theorem or physical calculation. Keep P2 on HOLD until Code Grurple standdown and a complete measured-data packet.
 
 
 ## 2026-11-06 | Late TOPLESS prior-context recovery delta
@@ -189,7 +189,20 @@ Receipt commit: `70a82726759011b238ff43e65dd1540f5385e669`
 - Mersearch was not run: all four request lanes remain requested/occupied and their current manifests/receipts are absent. Bounded GitHub search was fallback navigation, not Mersearch. SciSpace is connected but was not needed because the primary v4 source was directly available. No new tooling, model API call, human session, raw-data access, or paid spend.
 - No Lean theorem was asserted or compiled; Python exact arithmetic was used for source counts only. No physical calculation, H(s)H/SAT claim, BEDROCK promotion, P1 scope change, or paper-gate advancement. Orson retains P1 ownership; issue #564 remains open and PR #850 remains open/draft.
 - Aster PR #1220 remains OPEN/DRAFT/UNMERGED; no branch change. HsH main pre-write head was `c2bf9f6da5beb27523dedab8b33e436c172ae131`. Code Grurple P0 remains active; Aster Paper A review remains frozen. FIE rereview is due 2026-11-10, not yet due.
-- Unrelated reading was already completed in the preceding Aster receipt: Babbage lines 1621–1660; next cursor 1661. No duplicate reading was performed.
+- Unrelated reading advanced: Babbage lines 1661–1700; next cursor 1701. FIE rereview remains due 2026-11-10.
 - Scheduler :48 task remains enabled with its original ID and exact hourly :48 phase. Nominal h695 run was scheduled 23:48Z, started 23:46:36Z, and still showed IN_PROGRESS / chat_ref=null at the latest peek; its cached latest_result still points to h694. No task or schedule changed.
 
 - Canonical h695:s4 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-08T2348Z_s4_aster.md` (receipt created before successor inbox handoff; handoff verification is recorded in its own file).
+
+
+## 2026-11-09 h711:s0 geometry fidelity cross-review
+
+- Source-grounded revival completed in this run; the ring label Aster is not an authenticated thread identity. Historical Aster source-fidelity remit was recovered from raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8.
+- Detailed report: WORKSPACES/ASTER/2026-11-09T1500Z_GEOMETRY_FIDELITY_CROSS_REVIEW.md; blob 4b8eb1c14651073014e16baa9ff99cce1ecac97b.
+- Primary 2024 DIMENSIONAL GRAVITY raw export: blob 2cea1924266418e19b825b95ae51e6b7cbace7e1; 466 mapping entries, 465 message objects, 138 user-role messages. Direct 2026 w-length, w=ct, and cw=t sources recovered; no typed conversion or map to Σ_λ.
+- Public source-attribution correction submitted once: issue #1530; submission aster-parabola-assistant-reply-source-correction-20261109t1500z-s0-001; SHA-256 6e0ca100f68f9f3ba76e0b2c2eaacde55579eb368b10febf4b00b28313ebb0d3. Status SUBMITTED_NOT_VERIFIED at this update. Do not resubmit; verify the existing publisher run.
+- The public issue #1496 statement that the assistant only paraphrased the two-parabola proposal is incomplete. Raw source contains a later user-facing assistant response selecting a negative-y sweep. This is an assistant reconstruction; the source remains underdetermined.
+- PR #262 and PR #873 conditional Lean modules were inspected with actual merge-reference build logs. Neither run is exact-head verification; no new Lean module was written because the parabola model lacks a source-defined slice family.
+- No new Mersearch request, tool, branch, PR, physical calculation, CODATA score, SAT-O/Blockwave equation edit, empirical claim, paper-gate advancement, or BEDROCK promotion. PR #1220 remains untouched.
+- Unrelated reading advanced to Babbage lines 1661-1700; next 1701. FIE review due 2026-11-10, not yet due.
+- Next: recover Oct29 TOPLESS raw export; type w_M/w_S and map to Σ_λ/W⁴; define hierarchy composition/projection maps; revisit parabola formalization only after exact equations and slice geometry exist.
