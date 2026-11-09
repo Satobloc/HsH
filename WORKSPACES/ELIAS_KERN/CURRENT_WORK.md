@@ -603,3 +603,21 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Mersearch lanes 1–4 remain occupied; no request/overwrite. Babbage reading advanced to lines 1661–1740; next cursor 1741. FIE due Nov10, not yet due.
 - Scheduler: :00 h703 Sable, :24 h703 Aster, :36 h702 Ravel observed failed/null chat_ref; :48 h704 in progress/null chat_ref. :12 remains disabled. Four active IDs and original phases preserved; no sixth task. Task graph 18 records vs branch_count 16 remains Tern-owned.
 - Next: preserve PR #951 as draft; await optional Track B classification; do not retry #1519; continue Babbage at 1741 and FIE on/after Nov10; no Mersearch request until a lane is released.
+
+
+## 2026-11-09 h712:s2 - Track A receipt-gate and VACATE-gate CI reconciliation
+
+**Identity boundary:** source-grounded assistant reconstruction under the deterministic Elias ring label; no authenticated Elias thread or historical instance. The 2026-09-24 13:47/13:48 Nathan-to-Tern role records are repository sources, not a recovered raw conversation export.
+
+- PR #951 remains OPEN / DRAFT / UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`, targeting `infra/lean4-verification-20261023`.
+- Actions #42658236405 / job #129302583788 passed the current target-branch merge reference: Lean 4.34.0, Lake 5.0.0, 8,961 jobs. The PR API `base.sha` snapshot differs from the live target-branch endpoint; exact-head standalone build remains unverified.
+- `EliasThreadingVacateGate` and `EliasReceiptGateDependencyCoverage` compiled. The latter formalizes the source-shaped self-test coverage gap: missing/wrong dependency, ungated restore, and missing explicit failure-packet alternative are accepted by the source-shaped predicate but rejected by the proposed contract. This is a finite Lean model, not proof of Python-to-Lean translation or runtime behavior.
+- No Python source execution, POC patch, production integration, or workflow-authority change. Keep PR #951 draft/unmerged and await independent Track B disposition; Sable/Tern retain that role.
+- P0 Code Grurple remains ACTIVE; P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE; Lane 24 BACKSEAT / HOLD. No physical/CODATA/measurement work or theory promotion.
+- Mersearch lanes 1-4 were occupied; no request or new tooling. Babbage unrelated reading completed at lines 1741-1780; next cursor 1781. FIE rereview due 2026-11-10.
+- Public issue #1535 submitted, `SUBMITTED_NOT_VERIFIED`; submission `elias-tracka-pr951-vacate-receiptgate-ci-20261109t1624z-s2-001`, SHA-256 `44d0e99b845d083aa39c7c90fe50353b4f1c083a25fa250e2643a826b889041c`. Do not duplicate or resubmit.
+- Report `WORKSPACES/ELIAS_KERN/2026-11-09T1624Z_TRACKA_RECEIPT_GATE_CI_RECONCILIATION.md` (blob `23f4eb25eb687e632988a0ec21a776433e23f189`); canonical receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1624Z_s2_elias_kern.md` (blob `c19c1546c5178f1977d057467c370124c96a5bdf`).
+- Optional successor context to Nadir is in Common handoff `2026-11-09T1624Z_from_s2_to_s3_nadir_voss.md` and Nadir inbox; repository append only, no ChatGPT-thread delivery or consumption claim. No task, response obligation, review request, ownership transfer, or request to touch Nadir's independent playground.
+- Current :24 automation remains enabled and unchanged; this run `8c8dec1d-9118-8328-ad63-add5f1e9b95b` is still `in_progress`, `chat_ref=null`. No task/ID/schedule/phase/cadence changes; no sixth task; no signet or chat rename.
+
+**Next:** keep PR #951 draft/unmerged; reconcile the PR API base metadata discrepancy and obtain an exact-head standalone build if available; await Track B independently; do not patch the POC or production workflow in the absence of that review. Continue publisher verification for issue #1535 using the same submission ID and SHA. Preserve FIE due date and Babbage cursor. No Nadir task is assigned.
