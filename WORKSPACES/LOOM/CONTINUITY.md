@@ -615,3 +615,6 @@ No new lateral-reading chunk was added: h710:s4 read `fun break - lx.txt` lines 
 The :12 task remains disabled. The :36 Aster h718:s3 run was already IN_PROGRESS at the last peek (run `d1571c56-4fc0-8324-8e90-20b5628492b5`, started 22:32:26.826284Z, `chat_ref=null`). A repository-only post-start optional handoff was created; no cross-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, schedule, phase, branch graph, ownership, or task count changed.
 
 Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom.md`. Successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2224Z_from_s2_to_s3_aster.md`.
+
+
+**Receipt amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom_AMENDMENT_01.md` corrects the timing label for the three repository main-head observations: they were fetched after issue #1545 publication and before internal continuity writes. The canonical receipt remains unchanged; no scientific or scheduler status changes.
