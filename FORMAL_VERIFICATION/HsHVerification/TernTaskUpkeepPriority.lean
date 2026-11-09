@@ -26,11 +26,11 @@ No physical data, physical model, or H(s)H theory claim is involved.
 namespace HsHVerification.TernTaskUpkeepPriority
 
 def priorityRank (p : String) : Nat :=
-  if p = "P0" then 0 else
-  if p = "P1" then 1 else
-  if p = "P2" then 2 else
-  if p = "P3" then 3 else
-  if p = "P4" then 4 else 5
+  if p == "P0" then 0 else
+  if p == "P1" then 1 else
+  if p == "P2" then 2 else
+  if p == "P3" then 3 else
+  if p == "P4" then 4 else 5
 
 structure PriorityKey where
   priority : String
@@ -44,27 +44,27 @@ def lexLess (a b : PriorityKey) : Prop :=
 theorem p0_precedes_p1_for_any_tail (a b : Nat) :
     lexLess ⟨"P0", a⟩ ⟨"P1", b⟩ := by
   left
-  decide
+  simp [priorityRank]
 
 theorem p1_precedes_p2_for_any_tail (a b : Nat) :
     lexLess ⟨"P1", a⟩ ⟨"P2", b⟩ := by
   left
-  decide
+  simp [priorityRank]
 
 theorem p2_precedes_p3_for_any_tail (a b : Nat) :
     lexLess ⟨"P2", a⟩ ⟨"P3", b⟩ := by
   left
-  decide
+  simp [priorityRank]
 
 theorem p3_precedes_p4_for_any_tail (a b : Nat) :
     lexLess ⟨"P3", a⟩ ⟨"P4", b⟩ := by
   left
-  decide
+  simp [priorityRank]
 
 theorem p4_precedes_unclassified_for_any_tail (a b : Nat) :
     lexLess ⟨"P4", a⟩ ⟨"UNCLASSIFIED", b⟩ := by
   left
-  decide
+  simp [priorityRank]
 
 theorem equal_priority_uses_tail (p : String) (a b : Nat) (h : a < b) :
     lexLess ⟨p, a⟩ ⟨p, b⟩ := by
