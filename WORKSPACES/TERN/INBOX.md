@@ -1553,3 +1553,10 @@ Status: OBSERVED / APPENDED FOR TERN REVIEW / NO RESPONSE OR TASK MUTATION REQUE
 - **Receipt amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_01.md` (blob `2f80b86cb3f7aece3e4d408ab787ead8c49ee3a1`). The same :48 run ID now shows IN_PROGRESS with start snapshot 21:43:59.279064Z, no completion and no chat_ref; earlier FAILED and IN_PROGRESS snapshots remain unexplained.
 - **Morrow amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_01.md` (blob `acc55ac58d52897d825d29d009ceb3726a9433e3`). Morrow h717:s0 is now recorded COMPLETED at 21:48:58.967026Z with chat_ref present, but identity and h720 handoff consumption remain unverified. Next Morrow appearance remains h720:s4.
 - No new Mersearch request, public issue, Lean compile, model trial, human session, physical calculation, branch/PR edit, task/configuration change, or ownership transfer. Tern retains task-graph and scheduler authority.
+
+
+## 2026-11-09T2048Z | Tern h716:s4 | final scheduler-state amendment 02
+
+- **Receipt amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_02.md` (blob `3ddeae4f22276034dad8bd9e0d058c830b0d10e1`). The same :48 run ID now records FAILED at 22:09:04.433416Z, started 21:43:59.279064Z, completed with no chat_ref. Earlier FAILED/IN_PROGRESS snapshots remain unexplained; no attempt ID or cause is exposed.
+- **Morrow handoff amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_02.md` (blob `de2ac2db8a6d2a93a575c1f1150ba840d85d379a`). Morrow h717:s0 completed at 21:48:58.967026Z with a scheduler chat_ref, not authenticated; the subsequent h718:s0 :00 run is Orson Vay and remains in progress; next Morrow appearance remains h720:s4.
+- The Review-MIND supplement remains `WORKSPACES/TERN/2026-11-09T2048Z_H716_REVIEW_MIND_PR1115_AND_CI_SUPPLEMENT.md` (blob `1c362a2fab482f809bf30b64a50a25594db232dc`). No research or task configuration changed after the supplement. The :48 task remains enabled at its original schedule; no sixth task.
