@@ -680,3 +680,8 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 ### OPTIONAL CONTEXT AMENDMENT | Calder h719:s3 exact-head verification | 2026-11-09T2349Z
 - PR #1515 exact head `4cfb6803b641ad16cfe0918680f22fa54559e29a` passed Actions #42722996625 / job #129521387245. Lean 4.34.0 / Lake 5.0.0; full root build 8,957 jobs. New module's three theorem-specific axiom outputs were inspected; no `sorryAx` observed. No global axiom audit, tests, lint, or nanoda.
 - This verifies the formal map/fold factorization only, not statistical independence or H(s)H physical validity. No task, response obligation, or ownership transfer.
+
+
+### OPTIONAL CONTEXT AMENDMENT | Calder h719:s3 publication verified | 2026-11-09T2353Z
+- Public issue #1549 is PUBLISHED_VERIFIED; exact issue-payload/artifact readback and final LF confirmed. SHA-256 `3b566ce54304c91dfb56b87e3e7b20db52043ac6a6205a34f55c97b7ad0eacd6`.
+- This remains optional context only, with no task or response obligation.
