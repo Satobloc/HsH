@@ -20,9 +20,9 @@ The HsH current branch graph is `TASK_BRANCH_GRAPH.json`, blob `9e9f1b896fd5d432
 
 ### Controlling documents actually read
 
-- Live `BEDROCK.md`, blob SHA `<BEDROCK_BLOB_SHA>` (full file read, 600-line range retrieval).
-- Steering Charter 2026-10-26, blob `<STEERING_BLOB_SHA>`.
-- Three Paper Campaign 2026-10-26, blob `<CAMPAIGN_BLOB_SHA>`.
+- Live `BEDROCK.md`, blob SHA `0253ace674bbc361464b7bbaac2c41aa3d8e8867` (full file read, 600-line range retrieval).
+- Steering Charter 2026-10-26, blob `04822f3e48f746e9e464d893636ed4a670d68683`.
+- Three Paper Campaign 2026-10-26, blob `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
 - Three-repository onboarding, New Instance Start Here, Revival Rotation V3, V4 not-found/revival, thread-first routing, navigation preflight, Reference Desk, Mersearch worker instructions/releases, scheduler authority, automation control, active automation roster, workflow orientation/branch map, task graph, and current Common coordination/handoff/check-in surfaces.
 - Elias README/CURRENT_WORK/INBOX and the original role-setting message in Tern's inbox.
 - Latest Elias receipt h693:s2 and predecessor/successor routing records.
