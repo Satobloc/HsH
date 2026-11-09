@@ -1,6 +1,6 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-08 · **Run:** `REVROT3-19-20261011:690:s3` · **Next label:** Meridian  
+**Updated:** 2026-11-09 · **Run:** `REVROT3-19-20261011:705:s4` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
@@ -72,3 +72,23 @@ The existing h690:s4 Meridian packet remains late optional repository context on
 ## 2026-11-09 h702:s0 synthesis pointer
 
 Cross-boundary geometry-fidelity synthesis only, respecting Kestrel's non-auditor/non-verifier charter: see `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0600Z_s0_kestrel.md` and the repository-only successor handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0600Z_from_s0_to_s1_meridian.md`. Existing Morrow/Aster/Aldus/Enheduanna/Orson/Kestrel source and proof records were reused; no new Lean proof, physical calculation, CODATA scoring, public issue, PR, or theory promotion. Next cursor is recovery of the original “The Trees Themselves” and 2026-10-29 TOPLESS raw sources through the provenance lane; any source-defined map goes to the appropriate mathematical lane. Next ring label is Meridian; no authenticated thread delivery is claimed. A separate Babbage web-edition reading cursor advanced to line 1276; the existing local-text cursor 1621 remains unchanged.
+
+
+## 2026-11-09 h705:s4 | Review-MIND cross-case synthesis and CI correction
+
+- Existing public synthesis [issue #1521](../../issues/1521) is PUBLISHED_VERIFIED; its artifact SHA-256 is `9a8ddfb9687425c4475f71dcef4eb6d8b9f65da53cda43b40149027c399cff46`, and its actual Git blob is `79831edc83f6b38891949ae400ea1e0692e37d60`. The issue payload and artifact match exactly.
+- Narrow Lean freshness correction [issue #1523](../../issues/1523) is PUBLISHED_VERIFIED; duplicate intake #1522 is CLOSED / DUPLICATE. It supersedes only §4 of #1521; the five-axis synthesis remains.
+- Canonical h705 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0948Z_s4_kestrel.md`. Receipt Amendment 01 refreshes #1523 and the #1521 blob SHA. h702 receipt Amendment 02 corrects the old #873/#1133 exact-head labels.
+- Raw Lean logs: Kestrel #873 and Ravel #1133 are merge-reference builds, not exact-head standalone; Calder #1515 is exact-head; Elias #951 is merge-reference. Elias's finite identity witnesses are axiom-free; the stronger no-label-only recovery theorem reports `[propext, Quot.sound]`. No new theorem or build was created.
+- P0 Code Grurple remains ACTIVE; no P0 route-fingerprint path changed in the 24-commit delta from Calder's checkpoint. No live-site observation or trigger was found. Orson retains P1 ownership; November 9 remains NOT READY. P2/P3 remain separate.
+- Babbage, *Reflections on the Decline of Science in England*, lines 1621–1660 read; next local cursor 1661. FIE last full review 2026-10-27; next due 2026-11-10.
+- Scheduler :48 run `a4f94d0f-7624-832e-9854-794c4d35407c` remains recorded IN_PROGRESS for 09:48Z, started 10:23:05Z, with `chat_ref=null`; cached latest result is h704 Elias, not this Kestrel slot. Existing task IDs and hourly VEVENTs remain unchanged. Scheduler anomalies stay with Tern; no task changes.
+- No authenticated current Kestrel thread was established in this activation; the personal-context lookup was unavailable. The existing successor packet to Meridian h706:s0 is repository-only; no direct delivery, consumption, or acknowledgment is claimed.
+
+### Next Kestrel cursor
+
+1. P0 first: wait for a genuine site-capable repair/observation trigger; do not probe unobservable routes.
+2. FIE rereview when due 2026-11-10.
+3. After P0 standdown, continue recovery of the original “The Trees Themselves” and 2026-10-29 TOPLESS raw sources through the existing Mersearch lane when available; do not repeat prior geometry synthesis.
+4. Orson retains P1 cognition ownership. The five-axis identity/provenance model is a methodological proposal, not an empirical result or a replacement for Orson's paper.
+5. Continue Babbage at line 1661.
