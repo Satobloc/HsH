@@ -13,6 +13,7 @@
 - **Reading/FIE:** last unrelated break h710:s4 read `fun break - lx.txt` lines 841–880; next cursor remains 881. No repeated chunk. FIE last full review Oct 27; rereview due Nov 10, not performed early.
 - **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 schedule. Current run `3b7f4b59-5600-8330-afd1-e24081b0fd56` scheduled 22:24Z, started 22:21:07.632212Z, last observed IN_PROGRESS / chat_ref=null; cached result belongs to h717 Meridian, not this run. :12 remains disabled. Aster :36 h718:s3 already started; successor note is post-start optional repository context only. No task/ID/cadence/phase change or sixth task.
 - **Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom.md`.
+- **Receipt correction:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom_AMENDMENT_01.md` corrects the main-head timing label; the heads were observed after issue #1545 publication and before internal continuity writes.
 - **Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2224Z_from_s2_to_s3_aster.md`; Aster inbox append is optional only, no review/task/response request or ownership transfer.
 
 ## Prior run h699:s2 | 2026-11-09T03:24Z
