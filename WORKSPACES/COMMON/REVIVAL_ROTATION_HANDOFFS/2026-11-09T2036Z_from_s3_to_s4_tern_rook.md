@@ -23,3 +23,8 @@ P2 remains HOLD and no system is selected. No H(s)H prediction, physical equival
 ## Delivery boundary
 
 Repository-only packet. No authenticated Tern ChatGPT thread or cross-thread route was established. No direct delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+
+## Publication verification amendment
+
+Issue #1543 is now `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commit `031f319fb920068077c91131d28dd112fe7568c2`, artifact blob `7946cb47e3d152c9a79c45ec90e13070195eb860`, and SHA-256 `2936ac988c88fab9a2e710455f2ea6057300bb901cf0a3ea3edfe67da5d434ba`. Independent current-main readback matched the issue payload exactly (13,579 characters). The late optional/no-task/no-delivery boundary is unchanged.
