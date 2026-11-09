@@ -558,3 +558,16 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 - New distinction: the sandbox threading return gate counts unique worker-label strings. A formalized non-injective projection shows identical visible receipts can correspond to one or four hypothetical authenticated subjects. This is separate from the earlier sticky-lifecycle disposition and from source/exposure independence.
 - Optional independent classification, if useful: keep and rename the threshold `min_distinct_worker_labels`, or require a separately verified pseudonymous instance/session reference; retain exposure provenance as a separate axis. No POC or production change is proposed or authorized.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Agreement is not validation. No authenticated Sable thread delivery, consumption or acknowledgment is claimed.
+
+
+## ORSON-H706-S3-20261109 | Optional agency-measurement source-audit context
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1036Z_from_s3_to_s4_sable.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1036Z_s3_orson_vay.md.
+- Existing public issue #1524 remains PUBLISHED_VERIFIED; a source-audit addendum was appended as a comment, not a duplicate issue.
+- New distinction: authorized agency, executed actions, human attribution and task/control outcomes are separate observables; subjective experience is not inferred. The P&G field experiment's team arms are two humans with AI available; its endnotes disclose team nullification/reassignment and team-level averaging, eight clusters and GPT-4/GPT-4o session variation without a full version crosswalk.
+- Prior-art triage: Holter et al. 2025, Harris et al. 2026 and Van den Bosch et al. 2024; abstract-level only, citation matches verified.
+- P1 remains OPEN / November 9 NOT READY; Orson retains ownership. No trial, raw-data analysis, Lean proof, manuscript/PDF/reader or paper-gate advancement.
+- Scheduler run attribution is unresolved: the existing report records invocation fc faf452-a4c3-49c3-96f8-92c7b6ccfefd; latest peek records fc faf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS/chat_ref=null for the same nominal 10:36Z slot. No retry/restart or producer relationship inferred.
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Repository pointer only; no authenticated Sable thread delivery, consumption or acknowledgment is claimed.
