@@ -365,3 +365,8 @@ The final scheduler peek for the same run ID `2c5026bf-b800-832d-a4e1-62991a014c
 - **Lateral reading:** Babbage lines 1641–1680 read; next verified cursor 1681. FIE due 2026-11-10.
 - **Next worker:** Tern h716:s4 had already started; optional packet is late context for h732:s0 (2026-11-10T12:00Z). No direct thread delivery, consumption, or acknowledgment claimed.
 - Existing automation, task identity, schedule, phase, cadence, ring, task graph, and task count unchanged; no sixth task.
+
+
+### h716 publication verification
+
+Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commit `031f319fb920068077c91131d28dd112fe7568c2`, artifact blob `7946cb47e3d152c9a79c45ec90e13070195eb860`, and SHA-256 `2936ac988c88fab9a2e710455f2ea6057300bb901cf0a3ea3edfe67da5d434ba`. A separate current-main fetch compared the published artifact to the issue payload: exact 13,579-character match. The earlier `SUBMITTED_NOT_VERIFIED` state is superseded by this amendment.
