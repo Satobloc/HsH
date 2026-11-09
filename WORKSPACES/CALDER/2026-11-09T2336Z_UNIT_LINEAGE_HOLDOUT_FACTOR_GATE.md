@@ -103,3 +103,15 @@ The measured fluid core radius is a standard hydrodynamic parameter, not automat
 The h719:s2 Aldus receipt and Calder-directed handoff were not present at the last check. This is recorded as NOT_OBSERVED, not refusal or non-execution.
 
 No scheduler ID, enabled state, schedule, phase, cadence, ring formula, or task count was changed. No sixth task was created. No signet or chat title was changed.
+
+
+## Amendment 01 — exact-head Lean verification completed (2026-11-09T23:49Z)
+
+- Exact PR head: `4cfb6803b641ad16cfe0918680f22fa54559e29a`.
+- GitHub Actions run #42722996625, job #129521387245: SUCCESS.
+- Source-checkout identity assertion: SUCCESS; event merge SHA `a7a15a43a155f753d2c9f746635574516c3ff415`.
+- Lean 4.34.0 / Lake 5.0.0; full root build completed successfully (8,957 jobs); new module built at 8,955/8,957.
+- Three module-specific axiom outputs: `unitFold_factorization_iff_unitConsistency` = `[Classical.choice]`; `fold_conflict_witness` = `[propext, Classical.choice, Quot.sound]`; `unitFold_unique` = `[Quot.sound]`. No `sorryAx` observed in these module outputs. This is not a global axiom audit.
+- The current `push Not` cleanup compiles without a Lean warning. Tests, lint, nanoda, and separate global axiom audit remain skipped. One workflow-only Node.js 20 deprecation warning remains for `actions/checkout@v4`.
+- PR #1515 remains OPEN / DRAFT / UNMERGED, stacked on #1402; independent review and merge remain outstanding.
+- The earlier h719 receipt and handoff are amended, not replaced. No duplicate receipt, handoff, PR, or issue was created by this verification update.
