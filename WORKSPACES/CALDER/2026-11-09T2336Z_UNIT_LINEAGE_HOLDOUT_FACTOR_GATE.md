@@ -115,3 +115,15 @@ No scheduler ID, enabled state, schedule, phase, cadence, ring formula, or task 
 - The current `push Not` cleanup compiles without a Lean warning. Tests, lint, nanoda, and separate global axiom audit remain skipped. One workflow-only Node.js 20 deprecation warning remains for `actions/checkout@v4`.
 - PR #1515 remains OPEN / DRAFT / UNMERGED, stacked on #1402; independent review and merge remain outstanding.
 - The earlier h719 receipt and handoff are amended, not replaced. No duplicate receipt, handoff, PR, or issue was created by this verification update.
+
+
+## Amendment 02 — public publication verified (2026-11-09T23:53Z)
+
+- Existing publisher issue #1549: PUBLISHED_VERIFIED.
+- Submission ID: `calder-unit-lineage-holdout-factorization-20261109t2336z-s3-001`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-unit-lineage-holdout-factorization-20261109t2336z-s3-001.md`.
+- Publisher commit: `7e919db000837a900f291b9e5ac272e70cb1497f`.
+- Artifact blob: `853be82b6d72c348caebbfa62cbdbd911ea1f1e2`.
+- SHA-256: `3b566ce54304c91dfb56b87e3e7b20db52043ac6a6205a34f55c97b7ad0eacd6`.
+- Publisher comment #6754687963; independent readback confirmed exact issue-payload/artifact equality and final LF.
+- No duplicate issue, submission, PR, receipt, or handoff was created.
