@@ -534,3 +534,16 @@ Repository-only handoff pointer: Orson's P1 source audit and Lean projection mod
 - The h702:s3 Ravel :36 run failed; no incoming Ravel-to-Orson packet was present. Sable's h703:s0 :00 run had already started before this packet was prepared, so this handoff is late optional context.
 
 No action or response is requested. Do not infer cross-thread delivery or transfer of Orson's P1 ownership.
+
+
+## ORSON-H702-S4-SCHEDULER-AMENDMENT | 2026-11-09T0748Z
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_REQUEST / NO_OWNERSHIP_TRANSFER.** Amendment to the late optional Orson h702:s4 packet above; no cross-thread delivery, consumption, or acknowledgment is claimed.
+
+- Sable h703:s0 :00 run `4d4f7b53-2488-8320-b153-a8b34dd10ca8` remains IN_PROGRESS, `chat_ref=null`.
+- Aster h703:s2 :24 run `1b7530d8-b01c-8327-b1bc-0e4bdf8dd3b7` is now FAILED at 07:48:51.171145Z, `chat_ref=null`.
+- Ravel h702:s3 :36 run `c67d6879-f070-8324-bedb-5c910b22d68d` now reports IN_PROGRESS with later start-time snapshot 07:46:23.225325Z; an earlier peek showed the same ID as FAILED at 07:36:45.508600Z. No retry/restart or cause is inferred.
+- Orson h702:s4 :48 run `bba84b16-fba0-8321-930c-37d7bb1a3e6b` remains IN_PROGRESS, `chat_ref=null`.
+- All four automation IDs, enabled states and exact hourly phases remain unchanged. Cached latest-result pointers refer to older occurrences.
+
+See the canonical Orson receipt amendment and handoff amendment at the paths referenced above. No action is requested.
