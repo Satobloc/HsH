@@ -162,15 +162,13 @@ theorem rotation12_conjugate_generator12 (c s : ℝ)
     nlinarith [h]
 
 /-- Conjugating J12 by R23 produces the displayed full theta coefficient. -/
-theorem rotation23_conjugate_generator12 (c s : ℝ)
-    (h : c^2 + s^2 = 1) :
+theorem rotation23_conjugate_generator12 (c s : ℝ) :
     (rotation23 c s).transpose *
       (generator12 * rotation23 c s) = fullOmegaTheta s c := by
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [rotation23, generator12, fullOmegaTheta,
-      Matrix.mul_apply, Fin.sum_univ_succ] <;>
-    nlinarith [h]
+      Matrix.mul_apply, Fin.sum_univ_succ]
 
 /-- Conjugating J23 by R23 leaves the second generator fixed. -/
 theorem rotation23_conjugate_generator23 (c s : ℝ)
@@ -203,7 +201,7 @@ theorem frameMap_orthogonal (cθ sθ cφ sφ : ℝ)
 /-- Eᵀ d_theta E gives the displayed full theta connection coefficient. -/
 theorem frameConnectionTheta_eq_fullOmegaTheta
     (cθ sθ cφ sφ : ℝ)
-    (hθ : cθ^2 + sθ^2 = 1) (hφ : cφ^2 + sφ^2 = 1) :
+    (hθ : cθ^2 + sθ^2 = 1) :
     frameConnectionTheta cθ sθ cφ sφ =
       fullOmegaTheta sφ cφ := by
   unfold frameConnectionTheta dThetaFrameMap frameMap
@@ -219,9 +217,9 @@ theorem frameConnectionTheta_eq_fullOmegaTheta
     _ = (rotation23 cφ sφ).transpose *
           (generator12 * rotation23 cφ sφ) := by
             rw [rotation12_conjugate_generator12 cθ sθ hθ]
-            simp [Matrix.mul_assoc]
+            simp
     _ = fullOmegaTheta sφ cφ :=
-      rotation23_conjugate_generator12 cφ sφ hφ
+      rotation23_conjugate_generator12 cφ sφ
 
 /-- Eᵀ d_phi E gives the displayed full phi connection coefficient. -/
 theorem frameConnectionPhi_eq_fullOmegaPhi
@@ -240,7 +238,7 @@ theorem frameConnectionPhi_eq_fullOmegaPhi
     _ = (rotation23 cφ sφ).transpose *
           (generator23 * rotation23 cφ sφ) := by
             rw [rotation12_orthogonal cθ sθ hθ]
-            simp [Matrix.mul_assoc]
+            simp
     _ = fullOmegaPhi := by
       simpa [generator23] using
         rotation23_conjugate_generator23 cφ sφ hφ
@@ -257,7 +255,7 @@ theorem fullFrameCurvatureCoeff_eq_zero (s c : ℝ) :
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [fullCurvatureCoeff, dPhiFullOmegaTheta, fullOmegaTheta,
-      fullOmegaPhi, Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
+      fullOmegaPhi]
 
 /-- The projected tangent-block connection along theta. -/
 def tangentOmegaTheta (c : ℝ) : M2 := skew2 c
@@ -280,7 +278,7 @@ theorem tangentCurvatureCoeff_eq_skew2 (s c : ℝ) :
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [tangentCurvatureCoeff, dPhiTangentOmegaTheta,
-      tangentOmegaTheta, tangentOmegaPhi, skew2, Matrix.mul_apply] <;> ring
+      tangentOmegaTheta, tangentOmegaPhi, skew2]
 
 /-- Off-diagonal frame-connection block along theta (second fundamental data). -/
 def BTheta (s : ℝ) : M2 := !![-s, 0; 0, 0]
@@ -348,19 +346,19 @@ theorem mixedBlock_fullOmegaPhi :
 /-- The frame-map theta projection recovers the selected tangent block. -/
 theorem frameMap_tangentBlock_theta
     (cθ sθ cφ sφ : ℝ)
-    (hθ : cθ^2 + sθ^2 = 1) (hφ : cφ^2 + sφ^2 = 1) :
+    (hθ : cθ^2 + sθ^2 = 1) :
     tangentBlock (frameConnectionTheta cθ sθ cφ sφ) =
       tangentOmegaTheta cφ := by
-  rw [frameConnectionTheta_eq_fullOmegaTheta cθ sθ cφ sφ hθ hφ]
+  rw [frameConnectionTheta_eq_fullOmegaTheta cθ sθ cφ sφ hθ]
   exact tangentBlock_fullOmegaTheta sφ cφ
 
 /-- The frame-map theta projection recovers the selected mixed block. -/
 theorem frameMap_mixedBlock_theta
     (cθ sθ cφ sφ : ℝ)
-    (hθ : cθ^2 + sθ^2 = 1) (hφ : cφ^2 + sφ^2 = 1) :
+    (hθ : cθ^2 + sθ^2 = 1) :
     mixedBlock (frameConnectionTheta cθ sθ cφ sφ) =
       BTheta sφ := by
-  rw [frameConnectionTheta_eq_fullOmegaTheta cθ sθ cφ sφ hθ hφ]
+  rw [frameConnectionTheta_eq_fullOmegaTheta cθ sθ cφ sφ hθ]
   exact mixedBlock_fullOmegaTheta sφ cφ
 
 /-- The frame-map phi projection recovers the selected mixed block. -/
@@ -376,14 +374,28 @@ theorem gaussBlockCoeff_eq_skew2 (s : ℝ) :
     gaussBlockCoeff s = skew2 s := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [gaussBlockCoeff, BTheta, BPhi, skew2,
-      Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
+    simp [gaussBlockCoeff, BTheta, BPhi, skew2]
 
 /-- Concrete Gauss-block identity for this coefficient family. -/
 theorem tangentCurvature_eq_gaussBlock (s c : ℝ) :
     tangentCurvatureCoeff s c = gaussBlockCoeff s := by
   rw [tangentCurvatureCoeff_eq_skew2, gaussBlockCoeff_eq_skew2]
 
+#print axioms rotation12_orthogonal
+#print axioms rotation23_orthogonal
+#print axioms rotation12_conjugate_generator12
+#print axioms rotation23_conjugate_generator12
+#print axioms rotation23_conjugate_generator23
+#print axioms frameMap_orthogonal
+#print axioms frameConnectionTheta_eq_fullOmegaTheta
+#print axioms frameConnectionPhi_eq_fullOmegaPhi
+#print axioms tangentBlock_fullOmegaTheta
+#print axioms tangentBlock_fullOmegaPhi
+#print axioms mixedBlock_fullOmegaTheta
+#print axioms mixedBlock_fullOmegaPhi
+#print axioms frameMap_tangentBlock_theta
+#print axioms frameMap_mixedBlock_theta
+#print axioms frameMap_mixedBlock_phi
 #print axioms fullFrameCurvatureCoeff_eq_zero
 #print axioms tangentCurvatureCoeff_eq_skew2
 #print axioms gaussBlockCoeff_eq_skew2
