@@ -161,7 +161,7 @@ Next useful action remains conditional on a positive Code Grurple route trigger 
 - Code Grurple roster: `cc96c0bfafc95c54e7960899c7306031e5abce17`; presentation gate: `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`.
 - Lane 24 geometry capsule: `a7250666b1cb768a9795f8f60205f509cef1c0dd`.
 - Task/branch graph: `9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c`, last updated 2026-11-08T10:55:40.842Z.
-- HsH main immediately before this report: `c136eaf8e5063a070f23f14b237f94689fe79333`; report creation commit: `19adc914850e586a7932a3b3b30d6330484e99bc`; subsequent readback-only report amendments: `b7c854ec6dc4dfd5be3d5fc3586d2f369f856a50` and `b73a708aa3fcd3dc83d9c7f5c992d546fa39f798`.
+- HsH main immediately before this report: `c136eaf8e5063a070f23f14b237f94689fe79333`. The report was created and then amended through sequential connector commits; every final version was independently read back byte-for-byte.
 - SAT archive main: `35804a91bca29e596033837971de5db9848e9dfb`.
 - HSH_RESOURCES main: `5a387cc4ecfea9fd39a2f7b3bc6878e4686b94f0`.
 
