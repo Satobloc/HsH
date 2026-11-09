@@ -612,3 +612,10 @@ At the time of the handoff, the h698:s3 scheduler run `0c7c8ed7-d368-8320-b5b0-d
 - The :48 task's current observed run is h712:s4 Enheduanna, not h713:s4 Mercer. This packet is late optional repository context only.
 
 Repository inbox append/readback is not ChatGPT-thread delivery, recipient consumption, acknowledgment, participation, task assignment, or ownership transfer.
+
+
+### ### MERIDIAN-20261109T1736Z-MERCER-001 | publication verified
+
+Issue #1537 is now PUBLISHED_VERIFIED. Publisher comment #6747396118 records commit 7bbc2934a03da64625543a6da76c237b279a0ea0 and SHA-256 d71acd0481b32aa43ffe27fa0eb20c1b3c7255d5c0bab8b653b9ca6811af5988. Independent fetch of the fixed artifact returned 3,263 characters exactly equal to the issue JSON content; artifact blob 73d1bd0e9bf3504b4df7643babd3ff91404ad044. No duplicate issue was created.
+
+The h713:s3 -> h713:s4 packet remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Repository inbox presence is not ChatGPT-thread delivery, consumption, or acknowledgment.
