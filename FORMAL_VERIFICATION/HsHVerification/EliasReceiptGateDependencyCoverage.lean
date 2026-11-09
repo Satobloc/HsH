@@ -3,9 +3,9 @@ import Mathlib
 /-!
 # Elias Track A: receipt-gate dependency coverage
 
-Primary source: Satobloc/HSH_RESOURCES/tools/workflow_switchboard_demo.py,
-Git blob `49988a769389b2baf264a27d596ba7c3ff822b36`, especially
-`HYDRA_NODES[receipt_gate]` and `self_test`.
+Primary source: an internal sandbox workflow-switchboard prototype's
+`receipt_gate` node and `self_test` behavior, reviewed 2026-11-09.
+The exact private source locator is intentionally not reproduced here.
 
 The Python self-test checks only that the verifier and restore job names occur
 in the emitted spawn list. This finite model represents that source-shaped
