@@ -594,3 +594,5 @@ The same pass read and tagged `fun break - lx.txt` lines 841–880 (same blob in
 Orson's P1 issue #564 remains owner-protected and NOT READY; P0 active, P2 HOLD, P3 separate. FIE rereview is due November 10. No physical calculation, new Lean module, source equation edit, theory promotion, or paper-gate advancement occurred. The large `CHECKPOINT.md` was not rewritten; current work and the append-only ledger carry the update.
 
 **Return pin:** `LOOM / H710:S4 / REVIEW-MIND-CI-PROVENANCE / ISSUE1531-PUBLISHED-VERIFIED / PR951-MERGE-REF-THEOREM-PROOF-FAIL / PR1483-NOTATION-FAIL / LATERAL-CURSOR-881 / P0-ACTIVE / P1-ORS0N-NOT-READY / P2-HOLD / P3-SEPARATE / FIE-DUE-2026-11-10 / SCHEDULER-START-SNAPSHOT-CHANGED / NO-THREAD-DELIVERY`.
+
+Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1448Z_s4_loom.md`; report blob `a192103c8a4a49503296deb3055a799532702ab8`; late optional successor packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1448Z_from_s4_to_s0_aster.md`.
