@@ -78,8 +78,8 @@ theorem normalizedModeCoefficient_norm_invariant {n : ℕ}
     (hz : ‖z‖ = 1) :
     ‖normalizedModeCoefficient kernel (fun i => z * p i) iAnn‖ =
       ‖normalizedModeCoefficient kernel p iAnn‖ := by
-  rw [normalizedModeCoefficient, normalizedModeCoefficient,
-      modeCoefficient_norm_invariant, hz]
+  simpa [normalizedModeCoefficient] using
+    modeCoefficient_norm_invariant kernel p iAnn.value z hz
 
 /--
 If a measured normalized mode norm changes while the pixel kernel and
