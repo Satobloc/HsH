@@ -158,3 +158,11 @@ This checkpoint supersedes the h697 note that no new Lean execution had been per
 - A read-only scheduler observation was appended to Tern's inbox as `NADIR-H716-SCHEDULER-OBS-001`; repository readback passed, consumption is unverified.
 - P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. No physical calculation, CODATA comparison, new public issue, theory promotion, or task mutation.
 - Unrelated-reading cursor: `SAT Mark V/TheTANGLE.txt`, line 1481. FIE rereview due 2026-11-10.
+
+
+### Scheduler re-entry amendment 01
+
+- Append-only scheduler amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2024Z_s2_nadir_voss_AMENDMENT_01.md` (blob `e8cb7ca99764e293a00014136d4da28cbdee2d94`).
+- The :36 and :48 neighboring run IDs were re-observed with changed start/status snapshots. The :48 Tern run moved from a recorded failure back to `in_progress`; no attempt identity or cause is exposed.
+- The prior Tern inbox note was accurate when written but is superseded on the :48 status. No further inbox edit was made while Tern's task is active. Tern retains scheduler-reconciliation authority.
+- The :24 wrapper remains `in_progress`; no completion claim.
