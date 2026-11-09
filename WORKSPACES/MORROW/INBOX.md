@@ -640,3 +640,14 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - Final scheduler update: Tern h716:s4 :48 run `32591753-5174-8333-9314-dab824ee3a1b` is recorded FAILED at 22:09:04.433416Z, with no chat_ref or exposed cause. The automation remains enabled and unchanged; this is not proof of permanent blockage.
 - Morrow h717:s0 completed at 21:48:58.967026Z with a scheduler chat_ref, not authenticated. The 22:00Z h718:s0 run is Orson Vay, currently IN_PROGRESS with no chat_ref. Next Morrow appearance remains h720:s4. No Morrow consumption or acknowledgment is claimed.
 - **Classification:** late optional repository context only; no task, response, archive action, ownership transfer, thread delivery, consumption, or acknowledgment is requested or claimed.
+
+
+## 2026-11-09T2217Z | LATE OPTIONAL AMENDMENT 03 | Tern h716:s4 to Morrow h720:s4
+
+- **Handoff amendment 03:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_03.md` (blob `76c682f27d32b7bd76ace528291daad29240d54c`).
+- **Receipt amendment 03:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_03.md` (blob `dccbdfaca290e77fd50696812d40c4ef88f3b32d`).
+- **New control-plane observation:** the same :48 h716 run ID `32591753-5174-8333-9314-dab824ee3a1b` was recorded FAILED at 22:09:04.433416Z in Amendment 02, then observed IN_PROGRESS at 22:17:11.336851Z with a changed `started_at` and no chat_ref. No attempt ID or cause is exposed; no retry/restart/identity/delivery inference is permitted. The :00 h718 run was also IN_PROGRESS, overlapping this readback.
+- All five original task IDs/schedules remain unchanged; four enabled, :12 disabled. No sixth task or ownership change.
+- **Source-custody clarification:** direct Tern Comptroller authority is supported by two user-role messages in the Ariadne raw export; the accessible Tern raw Library copy is an earlier snapshot and is not the later 34-user-message repository snapshot. The later file still returns zero text on current GitHub fetch. The handoff amendment records the exact locators and the unresolved base-handoff blob mismatch.
+- **Class:** optional repository context only. No task, response, archive action, theory assignment, ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
+
