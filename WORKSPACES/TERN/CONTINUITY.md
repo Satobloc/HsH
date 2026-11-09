@@ -1,3 +1,43 @@
+# h694:s0 | 2026-11-08T2200Z | Source-custody + geometry-fidelity reconciliation
+
+**Selection:** h=694; seq=3470; ring index 12 = Tern Rook; successor index 13 = Morrow. Morrow's next :00 appearance is h698:s0; the immediate next :00 slot h695 selects Ravel. No authenticated current Tern thread or cross-thread delivery is claimed.
+
+**Control:** existing :00 automation ID `6aa1fe0de5e48191b886496095b1343f` and hourly America/New_York minute-0 / s0 phase were not changed; no sixth task, branch, PR, signet, rename, or task mutation. Automations `get` returned Action not found, so no fresh scheduler readback was available. Current observed main head after automated public-display refresh: `c2bf9f6da5beb27523dedab8b33e436c172ae131`. `TASK_BRANCH_GRAPH.json` remains 16 declared branches versus 18 records (blob `9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c`, last updated 2026-11-08T10:55:40Z); no graph mutation. Tern retains reconciliation ownership.
+
+## Source-fidelity synthesis
+
+The original-source chronology is not one settled geometry:
+
+- **2024 DIMENSIONAL GRAVITY:** role-verified raw graph (466 nodes; conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`) gives 1D/stringlike filaments in a 4D carrier intersecting a time surface. Edited wording calls the time surface a 4D expanding wavefront whose 3D surface is “now”; particles are intersectional manifestations. The qualitative hierarchy is Filament → Thread → Twine → Yarn → Bundle → Rope; heloid/loop/tether are morphologies. Assistant overview misclassified levels and added predictions; later user repost mixed direct and assistant text. Preserve the exact-span distinction already audited by Loom/Aster.
+- **2025 direct:** raw `Exploring inspiration together` user messages `bc8d8dac…` and `6bf0429c…` state the core: 4D particle worldlines, time wavefront through filaments, observed particle = their intersection. The same outline proposes mutual energy transfer, time-surface back-reaction/curvature, tension/tensile strength, future/past influence, a possible θ₄ mass-angle relation, QCD braiding, low-angle vacuum/high-angle matter, and constants from tension/torsion. These remain proposals without a constitutive law/equations. User clarification `53d5c323…` explicitly distinguishes SAT filaments from cosmic-web filaments.
+- **2025–26 direct clarification:** raw `Theory discussion response` messages `22b411ad…` and `49c7cb56…` describe a worldline as the particle's full 4D history, not a 3D object moving through space; internal properties are patterns/oscillations along it; a time surface can be described as a 3D wavefront through the 4D structure. Worldline force transmission, time-field distortion and asynchronous propagation are proposed equivalent descriptive frames, not proved. The user says the non-mathematical account is only a descriptive surface.
+- **2026 exploratory questions:** `Particle Worldline Intersection` asks about angle/energy exchange and mass, braiding, vacuum/matter continuity, photon/neutrino geometry, bosons, c-as-time-speed, string-theory slices and projection constants. Questions are not established claims. The O10 particle-geometry module is a proposal, not a measured model.
+- **2026 direct refinements recorded in existing Loom/Morrow/Kestrel sources:** one core with a hollow outer superhelix; 4D filament distinct from its 3D intersectional trace; coil diameter distinct from intrinsic filament thickness; timesheet as 3D bulk; tension unresolved rather than forbidden; worldtube curvature/inertia as a proposition. The 2026-10-10 `a96d56d7…` and `59c5c4c6…` are mixed Morrow/Kestrel cross-posts: only the user's correction after quoted text is direct; donor text is not independent Nathan evidence. The 2026-10-21 message `090f5160…` is a supersession signal: older reciprocal filament/timesheet-deformation language was superseded by the then-common Klein Fabric model.
+- The 2024 “4D expanding wavefront / 3D now surface” and later “3D wavefront/bulk timesheet” vocabularies are a historical dimensional shift, not an equivalence already demonstrated. No explicit sweep/thickening map γ¹→W⁴, W⁴-to-timesheet readout, hierarchy composition maps, or typed map to current Klein Fabric has been recovered.
+
+Raw retrieval boundary: this run directly parsed the 2025 `Exploring inspiration together` and `Theory discussion response` exports and 2026 `Particle Worldline Intersection` and `Particle geometry analysis` exports. Oversized 2024 `DIMENSIONAL GRAVITY`, 2026 Meridian Free Build and 2026-09 Ravel raw exports were not re-fetched in full; existing Loom/Aster/Calder/Morrow receipts/reports were used as secondary navigation witnesses, not represented as newly re-authenticated raw reads.
+
+## SAT-O / Blockwave source-custody delta
+
+- Nathan-byline `SAT4D_LIVE_DRAFT.txt` (June 2025; blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7`) is distinct from SATO.4D-project `SAT.O1 – 4D Hyperhelical Filament Dynamics.tex` (June 2025; blob `9a07893cf596e190486df17503626327d6023caa`). They share a hyperhelical curve parameterization but differ in byline/path/surrounding propositions. The Live Draft combines a 1D curve/line Lagrangian with prose defining a 4D swept-volume worldtube; no sweep/thickening map is supplied.
+- **New correction:** legacy `SAT_O1.pdf` extracts as **SAT20: Emergent 4D Filament-Surface Theory**, not the O1 TeX. Source PDF SHA-256 `fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d`; extracted text blob `bd244e49c6b668a72131b4f195e32820d4540746`. File index has two copies (created 2025-06-03 and 2025-06-09, both modified 2025-10-27); extraction does not map the hash to a copy. Creation time is not a verified content-version date. SAT20's `J^μ` line current is not Blockwave's assistant-produced `J^{μν}`.
+- `SAT O1 4D.txt` (blob `7577aa1…`), `SAT4D_4.txt` (blob `efc88f…`) and `SAT4D_6.txt` (blob `167136…`) remain distinct records. Blockwave attachment and assistant unified action remain separate; no equation correction or replacement metric was issued.
+
+## Publication outcome
+
+Issue #1505 (`tern-sat-o1-pdf-version-correction-20261108t2200z-s0-001`) was **PUBLISHER_REJECTED / NOT PUBLISHED**. The issue-creation action stripped one final newline: submitted SHA `595a1527…` covered 12,653 characters, while the stored issue body has 12,652; stored-content digest without the newline is `ec179c49daa648e46f0bc2fbdf1fcba077b50638a9fb8f83280469ef7b328329`. Publisher rejection comment #6728846608; audit explanation #6728860440. Expected artifact path is absent. Publisher listens only to `issues.opened`; editing cannot retrigger. No duplicate issue or manual artifact write was made. Keep #1505 as the rejection/audit trail.
+
+## Method and next cursor
+
+No new Mersearch request: all four lanes remain occupied/requested (Orson, archive-harvest, Calder IRI, Kestrel finite-core); no Mersearch connector or local pinned checkout was available. Existing Loom/Morrow receipts and Aster/Loom/Calder/Morrow/Aldus/Kestrel reports were reused; no private HSH_RESOURCES material was exported. No new tooling, Lean module/build, physical calculation, CODATA scoring, fit, independent measurement, theory promotion, or paper-gate advancement.
+
+Unrelated reading: Babbage, `HISTORICAL/BABBAGE—ECON OF MACH.txt`, lines 1441–1480; next cursor 1481. FIE last full review 2026-10-27; 14-day rereview due 2026-11-10, not yet. P1 Nov 9, P2 Nov 30 and P3 Dec 14 remain separate.
+
+Next deeper cursor: map the SAT20 extraction hash to an exact PDF binary path/copy and recover revision history; re-authenticate the oversized Ravel export and original donor threads for the 2026-10-10 cross-posts; recover current Klein Fabric direct definition; then specify the sweep/thickening, timesheet section/readout and hierarchy composition maps before any new formalization.
+
+
+---
+
 ## 2026-11-08T1036Z | h682:s3 | run-stratified Kelvin candidate independence profile
 
 - Deterministic ring label: Tern Rook (index 12), successor Morrow (index 13); this is not authenticated thread identity. No current Tern thread was authenticated.
