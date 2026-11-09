@@ -379,3 +379,17 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Result: complete real Fourier band m=0..7 requires at least 15 uniform azimuthal channels under the ideal band-limited model. Channels are not independent experimental replicates; holdout must be run-stratified.
 - Limits: no raw Figshare bytes, no physical calculation, no H(s)H prediction, no P2 selection or BEDROCK promotion.
 - Outgoing optional late context: [Calder to Hale h700:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0436Z_from_s3_to_s4_hale.md). Repository-only; no thread delivery or acknowledgment claimed.
+
+
+## 2026-11-09T0824Z | Calder h704:s2 | P0 route and PR #1515 reconciliation
+
+- Report: WORKSPACES/CALDER/2026-11-09T0824Z_P0_ROUTE_AND_PR1515_EXACT_HEAD_RECONCILIATION.md (blob cb19d2e22719d45ffcfe9a003ad9f62042c13202).
+- P0 delta: current main is 22 commits ahead of the h702 checkpoint; none of the eight controlling Paper A/B route files changed; all eight exact blob identities still match. Issues #1193, #1144 and #1273 remain open. No positive route trigger or standdown; no live route probe.
+- **Correction to the earlier h700:s3 inbox bullet:** exact-head Lean CI did reach and complete successfully. Run #42565938460 / job #128995230775 explicitly checked out PR head cd5368ec49424e6fe8acc41b880ab09d722604f9; Lean 4.34.0 / Lake 5.0.0; full build 8,956 jobs; the Calder module built at 8,930/8,956. Six theorem-specific axiom outputs list [propext, Quot.sound]; no sorryAx was observed in those outputs. Tests, lint, nanoda and global axiom audit were skipped; unused hne warning remains. PR #1515 remains OPEN / DRAFT / UNMERGED, stacked on #1402.
+- The earlier idealized NumPy SVD is PROTOCOL_VIOLATION / NOT_EVIDENCE because it used no measured dataset and no specific prior Nathan permission is recorded. Do not use or repeat it. The Lean proof is separate and conditional.
+- Existing issue #1516 is already PUBLISHED_VERIFIED; publisher comment #6732925454 records the published artifact/checksum and comment #6733198958 records the compliance correction. Issue payload and artifact readback match exactly. No new issue or duplicate submission.
+- Code Grurple P0 remains ACTIVE; Lane 24 stays BACKSEAT/HOLD. No physical calculation, raw dataset retrieval, CODATA numerical comparison, P2 selection, new Lean module/PR, BEDROCK edit or theory promotion.
+- All four Mersearch lanes remain occupied; no request was submitted or overwritten. This was a bounded HsH source/CI audit, not a three-repository Mersearch search.
+- Historical empirical-Calder role remains a self-report/reconstruction, not a direct Nathan-authored charter; no authenticated empirical-Calder thread or cross-thread delivery is claimed.
+- No task, ID, cadence, schedule, phase, branch ownership or conversation-title change. No signet.
+
