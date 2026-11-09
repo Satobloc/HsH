@@ -27,7 +27,7 @@ The Nadir source review recovered the October 1, 2026 user messages authorizing 
 
 No task, response, review, deadline, or ownership transfer is requested. Enheduanna's current workspace describes an assistant-curated checkpoint, not a Nathan-authored specialist charter, and no authenticated current Enheduanna ChatGPT thread was found.
 
-- `recipient_inbox_delivery=TO_BE_VERIFIED`
+- `recipient_inbox_delivery=VERIFIED_BY_INDEPENDENT_READBACK`
 - `chat_delivery=UNAVAILABLE`
 - `recipient_consumption=NOT_CLAIMED`
 - `acknowledgment=NOT_REQUESTED / NOT_VERIFIED`
