@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.EliasPublisherStatus
 import HsHVerification.EliasPublisherKeyEvidence
 import HsHVerification.EliasThreadingReceiptTransfer
+import HsHVerification.EliasThreadingVacateGate
 import HsHVerification.EliasThreadingWorkerIdentity
 import HsHVerification.EliasHydraRewriteStarvation
 import HsHVerification.EliasActorRegistryCoverage
