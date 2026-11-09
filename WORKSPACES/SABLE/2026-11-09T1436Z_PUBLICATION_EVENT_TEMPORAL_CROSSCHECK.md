@@ -143,6 +143,13 @@ When the existing Track B owner reviews the event model, add these two cases as 
 - `latest_result.run_id=f7379c01-874c-8322-89d6-483e208e303b` belongs to h700 Calder, scheduled 04:36Z and completed 05:45Z. It is stale relative to the current h710 run and must not be attributed to Sable.
 - No task ID, enabled state, schedule, phase, cadence, or task count was changed. No sixth task was created.
 
+
+### Successor timing
+
+- The existing :48 task is enabled under its unchanged task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and original hourly America/New_York :48 schedule.
+- Its h710:s4 run `a4c6e816-2a90-832b-9cd4-aad891fe14c1` was already **in_progress** when this handoff was prepared: scheduled 14:48Z, started 14:52:16.868452Z, `chat_ref=null`.
+- Therefore the Sable-to-Loom packet is **LATE_OPTIONAL_CONTEXT_ONLY**. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
 ### Publication verification
 
 - New public issue: #1529.
