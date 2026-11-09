@@ -322,3 +322,223 @@ The new value here is the explicit source-typed bridge from historical SAT geome
 5. Keep Orson's LLM-cognition specialty and all three paper gates separate.
 
 **Final status:** HISTORICAL_SAT_SOURCE_RECONCILED / CURRENT_MODEL_BRIDGE_UNDEFINED / PRIOR_DISCREPANCIES_REUSED / NO_NEW_PUBLIC_DELTA / NO_CODATA / NO_PHYSICAL_CALCULATION / NO_THEORY_PROMOTION.
+
+
+## Appendix A — Verbatim source excerpts (stored text, not normalized)
+
+The following are literal stored-source excerpts. They are kept separate from the standard mathematical checks above. Whitespace is preserved to the extent of the retrieved text lines; no index repair is applied.
+
+### A1. SAT4D_LIVE_DRAFT.txt — Nathan McKnight byline, June 2025; blob 2a79fe25018cce7e99a2c33786d88b0551db6ae7
+
+        \begin{itemize}
+        \item The fundamental objects are \textbf{1D physical filaments} embedded in 4D spacetime $\mathbb{R}^{3,1}$.
+        \item Filaments possess intrinsic tension and vibrational dynamics.
+        \item No external fields or forces are postulated; all interactions and particle properties emerge from filament geometry and topology.
+    \end{itemize}
+    
+    \subsection*{Definitions}
+    
+    \textbf{Filament}:
+    A smooth, one-dimensional object $\gamma : \mathbb{R} \to \mathbb{R}^{3,1}$ parameterized by an affine parameter $\lambda$.
+    
+    \textbf{Worldtube}:
+    The 4D volume swept out by the vibrating filament, representing its real, physical presence in spacetime.
+    
+    \textbf{Hyperhelix}:
+    A vibrational mode of a filament in 4D spacetime, characterized by helical motion in three spatial dimensions while progressing forward in time:
+    \[
+    \gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+    \]
+    where $\lambda$ is an affine parameter along the filament, $A_i$ are amplitudes, $k_i$ are wavenumbers, and $\phi_i$ are phase shifts for $i \in \{x, y, z\}$.
+    
+    \textbf{Tangent Vector}:
+    The 4-velocity of the filament is:
+    \[
+    v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+    \]
+    
+    \textbf{Phase}:
+    The internal geometric property of the filament vibration, determined by the $\phi_i$ in each transverse direction. Phase governs interlocking and binding behavior.
+    
+    \subsection*{Action Principle}
+    
+    The action $S$ for a filament $\gamma$ is given by:
+    \[
+    S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+    \]
+    with Lagrangian:
+    \[
+    L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+    \]
+    where:
+    \begin{itemize}
+        \item $m$ is the filament tension mass-equivalent parameter.
+        \item $v^\mu v_\mu$ is the Minkowski-normed kinetic term.
+        \item $V_{\text{tension}}$ is a potential energy term arising from filament tension, dependent on the filament's geometric configuration.
+
+### A2. SAT_O1.tex — SATO.4D Coherence Project, June 2025; blob 9a07893cf596e190486df17503626327d6023caa
+
+        
+    \documentclass[12pt]{article}
+    \usepackage{amsmath, amssymb}
+    \usepackage{geometry}
+    \geometry{margin=1in}
+    \title{SAT.O1 – 4D Hyperhelical Filament Dynamics}
+    \author{SATO.4D Coherence Project}
+    \date{June 2025}
+    
+    \begin{document}
+    \maketitle
+    
+    \section*{1. Foundational Assumptions}
+    
+    \begin{itemize}
+        \item The universe is a 4D manifold \( M \), populated by one-dimensional physical filaments \( \gamma: \mathbb{R} \to M \).
+        \item No metric, field, or dynamical law is imposed a priori; all observable phenomena emerge from filament topology and geometry.
+        \item A propagating 3D resolving surface \( \Sigma_t \subset M \) interacts with filaments to generate the structure of observable phenomena.
+    \end{itemize}
+    
+    \section*{2. Geometric Structure of a Single Filament}
+    
+    A filament is defined by:
+    \[
+    \gamma^\mu(\lambda): \mathbb{R} \rightarrow \mathbb{R}^{3,1}, \quad v^\mu(\lambda) = \frac{d\gamma^\mu}{d\lambda}
+    \]
+    
+    \subsection*{2.1 Hyperhelical Embedding}
+    
+    The 4D hyperhelical form:
+    \[
+    \gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+    \]
+    encodes intrinsic tension and phase structure. The phase angles \( \phi_i \) later govern binding behavior.
+    
+    \section*{3. Canonical Formalism}
+    
+    Let \( \xi^\mu(\lambda) \) represent transverse perturbations and \( \pi_\mu(\lambda) \) their conjugate momenta:
+    \[
+    \pi_\mu(\lambda) = m \, \dot{\xi}_\mu(\lambda)
+    \]
+    The Hamiltonian is:
+    \[
+    H = \int d\lambda \left( \frac{1}{2m} \pi^\mu \pi_\mu + V_{\text{tension}}[\xi^\mu] \right)
+    \]
+
+### A3. SAT20 neutral derivative text — undated/unbylined; blob 1b91341f43a18477837446dbc4f67d7711345032
+
+        
+    \documentclass[11pt]{article}
+    \usepackage{amsmath, amssymb}
+    \usepackage{geometry}
+    \usepackage{hyperref}
+    \geometry{a4paper, margin=1in}
+    \title{SAT20: Emergent 4D Filament--Surface Theory}
+    \author{}
+    \date{}
+    
+    \begin{document}
+    \maketitle
+    
+    \begin{abstract}
+    We present a theoretical framework for the emergence of spacetime geometry, quantum mechanics, and Standard Model gauge structures from minimal geometric and dynamical assumptions. Structures are emergent from a differentiable 4D manifold and a filament ensemble, without manually inserted constants and with explicit falsifiability criteria.
+    \end{abstract}
+    
+    \section{Introduction}
+    We develop a 4D action-based physical theory starting from a differentiable manifold $M$ and a set of particle worldlines (filaments), introducing new structures only when logically and physically compelled. No metric, connection, or gauge field is assumed initially. Emergent structures are subject to explicit falsifiability.
+    
+    \section{Fundamental Structures}
+    \textbf{Manifold:} $M$, a smooth, 4D differentiable manifold.
+    
+    \textbf{Worldlines:} Filaments are smooth embeddings $\gamma: \mathbb{R} \to M$ with tangent vector $v^\mu = d\gamma^\mu/d\lambda$.
+    
+    \section{Emergent Time Orientation and Foliation}
+    \textbf{Filament Current:}
+    \begin{equation}
+    J^\mu(x) = \sum_{\gamma} \int d\lambda \, v^\mu(\lambda) \delta^4(x - \gamma(\lambda))
+    \end{equation}
+    
+    \textbf{Emergent 1-Form:} Define $\tau_\mu(x) \propto J_\mu(x)$ dynamically.
+    
+    \textbf{Foliation:} Construct $\phi(x)$ locally via
+    \begin{equation}
+    d\phi(x) = \tau_\mu(x)dx^\mu
+    \end{equation}
+    where integrability is examined through local Frobenius conditions and vorticity in the filament congruence.
+    
+    \section{Filament Vorticity and Integrability}
+    Generic initial filament conditions (random initial orientations) lead to nonzero vorticity $\omega_{\mu\nu}$ in the filament congruence. The evolution of vorticity follows a Raychaudhuri-type equation in the absence of dissipative forces, yielding
+    \begin{equation}
+    \frac{d\omega_{\mu\nu}}{d\lambda} \approx 0
+    \end{equation}
+    thus preserving vorticity along filaments. Nonzero vorticity prevents convergence and supports the construction of an approximately integrable $\tau$ and local time foliation $\phi$.
+
+### A4. BLOCKWAVE CLEAN ACTION — undated/unbylined; blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d
+
+        BLOCKWAVE CLEAN ACTION
+    
+    Here’s a single, compact action that captures the SAT/Blockwave picture in one place—one ontology, one kernel—while keeping the pieces tightly interlocked (no bolted-on sectors). I’ve written it to be minimal but precise; anything not strictly needed is left out.
+    
+    ⸻
+    
+    One–Action SAT (compact form)
+    
+    Let g_{\mu\nu} be the emergent metric, u^\mu the unit time–flow (u^\mu u_\mu=-1), \theta a compact phase (\theta\sim\theta+2\pi). Define the spatial projector P^\mu{}\nu\!\equiv \delta^\mu{}\nu+u^\mu u_\nu. Let J^{\mu\nu} be the conserved two-form “filament worldsheet” current (distributional on physical filaments), \nabla_\mu J^{\mu\nu}=0.
+    
+    \boxed{
+    \begin{aligned}
+    S \;=\; \int d^4x\,\sqrt{-g}\;\Big[
+    &\; \frac{M_{\rm P}^2}{2}\,R
+    \;+\; \underbrace{\frac{f_\theta}{2}\,\nabla_\mu\theta\,\nabla^\mu\theta \;-\; \Lambda_\theta^4\big(1-\cos\theta\big)}{\text{compact phase (elastic + compactness)}}
+    \\[2pt]
+    &\;+\; \underbrace{\tfrac{c_1}{2}\,P^{\alpha\beta}P^{\mu\nu}(\nabla\alpha u_\mu)(\nabla_\beta u_\nu)
+    \;+\; \tfrac{c_2}{2}\,(\nabla_\mu u^\mu)^2}{\text{time–flow elasticity (Lorentz-safe sector)}}
+    \;+\; \lambda\,(u^\mu u\mu+1)
+    \\[2pt]
+    &\;+\; \underbrace{\tfrac{\kappa_0}{4}\,J_{\mu\nu}\,P^{\mu}{}{\rho}P^{\nu}{}{\sigma}\,J^{\rho\sigma}
+    \;+\; \tfrac{\kappa_2\,\ell^2}{4}\,(\nabla_\alpha J_{\mu\nu})\,P^{\alpha}{}{\beta}P^{\mu}{}{\rho}P^{\nu}{}{\sigma}\,(\nabla^\beta J^{\rho\sigma})}{\text{filament spectrum: flex/twist/coil}}
+    \\[2pt]
+    &\;+\; \underbrace{\frac{g_h}{2}\,F_{\mu\nu}(\theta)\,J^{\mu\nu}}{\text{holonomy–trace coupling}}
+    \;+\; \underbrace{\frac{1}{2}\,J{\mu\nu}\,\mathcal{M}^{\mu\nu}{}{\rho\sigma}(\theta,u)\,J^{\rho\sigma}}{\text{mixing / medium response}}
+    \Big].
+    \end{aligned}
+    }
+    
+    Definitions / constraints (built-in, not extra sectors):
+    	•	F_{\mu\nu}(\theta)\equiv \nabla_{[\mu}A_{\nu]}(\theta), with A_\mu(\theta)\equiv \alpha_*\,\nabla_\mu\theta. Because \theta is compact, \oint A\cdot d\ell\in 2\pi\mathbb{Z}; this drives quantization by holonomy.
+    	•	J^{\mu\nu} encodes the actual filament worldsheets. On a lattice or in a defect calculus, J is integer-valued on plaquettes; in the continuum it’s a conserved distribution supported on the worldsheets.
+    	•	\mathcal{M}^{\mu\nu}{}_{\rho\sigma}(\theta,u) is a local, symmetric response kernel (built from g,u,P) that allows controlled mixing (e.g., twist–flex, coupling to strain \nabla u). Keep only what you need; set it to zero for the strict minimal core.
+    	•	\lambda enforces u^\mu u_\mu=-1 (unit time–flow).
+    
+    ⸻
+    
+    Why this is “one clean action”
+    	•	One ontology: fields are only (g_{\mu\nu},u^\mu,\theta). Filaments are not new fields; they are encoded by the conserved current J^{\mu\nu} (defects of the \theta,u medium).
+    	•	One spectrum: the J-quadratic block (two terms with \kappa_0,\kappa_2) is the Master Kernel for filament excitations. Its eigenmodes are your flex / twist / coil ladders; the \ell term gives controlled bending stiffness / UV softness.
+    	•	One quantization engine: the compact phase \theta and holonomy coupling \tfrac{g_h}{2}F(\theta)\!\cdot\!J put integers on loops (intersection traces), yielding discrete spectra without imposing canonical quantization.
+    	•	Gravity, built-in: R + the elastic u-sector (with projector P) gives the emergent GR limit and keeps Lorentz tests satisfied (choose \{c_1,c_2\} on the safe line; c_T=1 etc.).
+
+### A5. SAT—Blockwave Ideal Model — undated/unbylined; blob dd0631bc0b25c951dc5e1d6738280e08487b46b2
+
+        
+    - The compactness of \( \theta \) implies a nontrivial topological structure:
+      - Quantized windings: \( N = \frac{1}{2\pi} \oint d\theta \in \mathbb{Z} \)
+      - Domain walls and kinks interpolate between distinct vacua \( \theta = 2\pi n \).
+    
+    2.3 Minimal Lagrangian
+    
+    The dynamics are governed by the following action in natural units (c = ℏ = 1):
+    
+    \[
+    \begin{aligned}
+    \mathcal{L}_{\min} =&\ \frac{M_P^2}{2} R + \lambda (u^\mu u_\mu + 1) + \frac{\rho}{2} (\nabla_\mu u_\nu)(\nabla^\mu u^\nu) \\
+    &+ \frac{f^2}{2} \partial_\mu \theta\, \partial^\mu \theta - \mu^4 (1 - \cos \theta) \\
+    &+ \frac{\alpha_1}{M_*^2} \left[(\nabla u)^2\right] \left[(\partial \theta)^2\right]
+    + \frac{\alpha_2}{M_*^2} (\nabla_\mu u_\nu)\, \partial^\mu \theta\, \partial^\nu \theta
+    + \frac{\beta}{M_*^2} \left[(\partial \theta)^2\right]^2
+    \end{aligned}
+    \]
+    
+    **Parameter roles:**
+
+The clean-action source contains two different displayed action forms: its initial compact action and the later “full action” using the constitutive tensor \(\mathcal C^{\alpha\mu\beta\nu}\). The separate Ideal Model file displays a minimal \(\mathcal L_{\min}\) without the \(J^{\mu\nu}\) term. These are separate source variants, not one canonical action.
+
