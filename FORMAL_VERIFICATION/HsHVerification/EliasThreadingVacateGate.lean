@@ -164,11 +164,10 @@ theorem guarded_ready_requires_vacate_evidence
     isVacated s.authorState = true ∧
     isPropagating s.status = true ∧
     hasVacateTimestamp s = true := by
-  unfold guardedReady at h
-  rcases Bool.and_eq_true.mp h with ⟨hBefore, _⟩
-  rcases Bool.and_eq_true.mp hBefore with ⟨hPair, hTime⟩
-  rcases Bool.and_eq_true.mp hPair with ⟨hVacated, hPropagating⟩
-  exact ⟨hVacated, hPropagating, hTime⟩
+  cases s.authorState <;>
+    cases s.status <;>
+      cases s.vacateStartedAt <;>
+        simp [guardedReady, isVacated, isPropagating, hasVacateTimestamp] at h ⊢
 
 #eval sourceReady activeThresholdWitness
 #eval guardedReady activeThresholdWitness
