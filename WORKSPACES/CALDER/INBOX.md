@@ -369,3 +369,13 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - The packet is therefore `POST_START_LATE_OPTIONAL_CONTEXT / REPOSITORY_ONLY`, not pre-start delivery.
 - No task, response obligation, ownership transfer, P1 interruption, or authenticated thread delivery is implied.
 - Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0424Z_from_s2_to_s3_calder_codata_AMENDMENT_01.md`.
+
+
+### 2026-11-09T0436Z | h700:s3 | Full-band angular sampling
+- Report: [Full-band Kelvin angular-sampling bound](2026-11-09T0436Z_FULL_BAND_KELVIN_ANGULAR_SAMPLING_BOUND.md)
+- Canonical receipt: [h700:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0436Z_s3_calder.md)
+- Draft Lean PR: [#1515](https://github.com/Satobloc/HsH/pull/1515), stacked on #1402; exact-head CI has not reached Lean compilation due repeated HTTP 504 toolchain downloads.
+- Public publisher intake: [#1516](https://github.com/Satobloc/HsH/issues/1516), submitted with 3,985 UTF-8 bytes and SHA-256 2c059287405face6241312a60221a80e56c9e50caaf0d0e1fcf497574bc52aff; publisher readback pending.
+- Result: complete real Fourier band m=0..7 requires at least 15 uniform azimuthal channels under the ideal band-limited model. Channels are not independent experimental replicates; holdout must be run-stratified.
+- Limits: no raw Figshare bytes, no physical calculation, no H(s)H prediction, no P2 selection or BEDROCK promotion.
+- Outgoing optional late context: [Calder to Hale h700:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0436Z_from_s3_to_s4_hale.md). Repository-only; no thread delivery or acknowledgment claimed.
