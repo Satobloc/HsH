@@ -353,3 +353,15 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Attribution boundary:** “You said:” and “ChatGPT said:” are plain transcript labels, not raw message-role metadata. No speaker is authenticated and no passage is attributed to Nathan Direct. Linguistic and literary claims were not independently fact-checked and are not promoted to reference facts.
 - **Relevance:** deliberate unrelated reading during a geometry/source-work cycle; this passage supplies no SAT/H(s)H premise and no physical evidence.
 - **Next lateral-reading cursor:** line **841**.
+
+
+## M. Lateral source break: fun break - lx.txt, lines 841–880
+
+- **Sources:** HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42`. Both repository paths resolve to this same blob; one source, not two witnesses.
+- **Read extent:** lines 841–880 inclusive (40 lines). HsH/SAT archive line-range equality: PASS. Next cursor: **881**.
+- **Content:** a science-fiction identification exchange about a Kikuyu space-habitat story, followed by a question about why an LLM may initially appear unable to identify something and then answer more specifically after added context. The transcript-labeled assistant response attributes this to training data, contextual cues, and associative patterns. This is a source record of an explanation, not evidence that the explanation is mechanistically accurate.
+- **Tags:** `LATERAL-READ`; `LLM-APPARENT-RECALL`; `CONTEXT-CUE-DISAMBIGUATION`; `PROMPT-CONTEXT-SENSITIVITY`; `TRANSCRIPT-LABELED-ASSISTANT-SELF-REPORT-UNVERIFIED`; `MECHANISM-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `RAW-ROLE-UNVERIFIED`; `NOT-THEORY-EVIDENCE`.
+- **Attribution boundary:** “You said” and “ChatGPT said” are textual labels, not raw role metadata. No speaker is authenticated; no passage is attributed to Nathan Direct. The phrase “jog my memory” is not evidence of persistent episodic memory, introspection, training-example access, or a verified retrieval mechanism.
+- **MIND relevance:** candidate question for a separately scoped model-only test of whether disambiguating context improves accuracy/calibration or merely increases specificity/confidence. No model trial or human session was run; this is not Orson's P1 experiment or a paper-gate result.
+- **Source limit:** the literary and mechanistic claims in the transcript were not independently fact-checked and are not promoted to reference facts.
