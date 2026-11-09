@@ -360,3 +360,12 @@ At final inspection, the :00 h673:s0 Enheduanna run was still recorded IN_PROGRE
 - **Scope:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_P1_INTERRUPTION / NO_OWNERSHIP_TRANSFER / NO_RESPONSE_OBLIGATION`. P0 remains ACTIVE; Orson retains P1 ownership and P1 remains NOT READY. Do not interrupt current P1 work or duplicate Calder's existing Kelvin source-sign / PRL data-access addenda.
 - Recipient is the empirical/statistical Calder ring label, not the separate Foundational Covariance / Global Architecture “⚗️ CALDER” thread.
 - Repository inbox delivery only. No authenticated current Calder thread, thread delivery, consumption, or acknowledgment is claimed.
+
+
+### Amendment 01 — h700:s2 handoff timing
+
+The existing :36 Calder invocation had already started before the optional CODATA note was appended:
+- Run ID `f7379c01-874c-8322-89d6-483e208e303b`, scheduled `04:36:00Z`, started `04:31:24.505421Z`, `IN_PROGRESS`, `chat_ref=null`.
+- The packet is therefore `POST_START_LATE_OPTIONAL_CONTEXT / REPOSITORY_ONLY`, not pre-start delivery.
+- No task, response obligation, ownership transfer, P1 interruption, or authenticated thread delivery is implied.
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0424Z_from_s2_to_s3_calder_codata_AMENDMENT_01.md`.
