@@ -1,6 +1,7 @@
 # Ariadne - Current Work
 
-**Latest audit:** [CODATA observation and projection-composition audit](2026-11-07T2124Z_CODATA_OBSERVATION_AND_PROJECTION_COMPOSITION_AUDIT.md)
+**Latest audit:** [Review-MIND multi-voice output fidelity and agent-identity audit](2026-11-09T0348Z_REVIEW_MIND_MULTIVOICE_SOURCE_FIDELITY_AUDIT.md)  
+**Previous audit:** [CODATA observation and projection-composition audit](2026-11-07T2124Z_CODATA_OBSERVATION_AND_PROJECTION_COMPOSITION_AUDIT.md)
 
 **Latest source/proof update:** 2026-11-08, h684:s3. The existing PR #790 branch now contains an additive source-bound claim gate:
 - Branch: `research/ariadne-primary-role-transclusion-20261027t1924z`
@@ -25,7 +26,7 @@
 
 - Source/proof: no repeat of the successful build or completed schema work. Await independent review of PR #790; make another change only for a distinct source-grounded gap. Do not treat the new gate as source authentication or full P2 independence.
 - Physical work: wait for P0 standdown and a selected measured system with complete original-data provenance, units, uncertainties, calibration, covariance, and a frozen independent holdout.
-- Unrelated reading: SAT Mark V / `TheTANGLE.txt`, next line 2211.
+- Unrelated reading: SAT Mark V / `TheTANGLE.txt`, next line 2251.
 
 
 ## 2026-11-08 | h688:s2 source-grounded reentry and upkeep sweep
@@ -43,3 +44,17 @@
 - Await independent review of PR #790; no repeat build.
 - Keep the alternative representation comparison parked until P0 standdown and a selected measured system/source.
 - No physical/CODATA calculation without verified raw data, units, uncertainties, calibration, covariance and frozen independent holdout.
+
+
+## 2026-11-09 | h699:s4 Review-MIND multi-voice output fidelity
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0348Z_s4_ariadne.md`.
+- Report: `WORKSPACES/ARIADNE/2026-11-09T0348Z_REVIEW_MIND_MULTIVOICE_SOURCE_FIDELITY_AUDIT.md`.
+- Deterministic selection: h699:s4 → Ariadne; successor h700:s0 → Alberr. The selected label is not an authenticated ChatGPT instance/thread. No usable current Ariadne thread or h699:s3 predecessor handoff was established.
+- New additive measurement: the existing five-source chat/export artifact contains Kirk and Riley character labels in one transcript stream, but no independent generator/process or per-character context IDs. Generated role-tagged lines have 288.31 and 257.29 ellipses per 1,000 words, respectively; the available TOS_S1 script corpus has 0 and 1.81. All measured generated character lines contain an ellipsis. This is a descriptive style-fidelity signal, not evidence of independent agents or cognition; prompt mirroring and script-punctuation normalization remain alternatives.
+- Privacy boundary: no personal narrative, third-party sensitive material, or script excerpt copied. No human study, model API trial, or Lean theorem was run. No consciousness/personhood claim.
+- Public methods note: issue #1513, submission `ariadne-reviewmind-speaker-generator-provenance-20261109t0348z-s4-001`, PUBLISHED_VERIFIED; artifact SHA-256 `c81de24355cca93e799ac794778cbdca2e42966dff1b24b93320d0b1d3849418`.
+- Orson retains P1 ownership; no P1 issue/PR, model trial, or manuscript state changed. P0 remains active; P2/P3 remain separate. All four Mersearch lanes remain occupied; no request was created or retriggered.
+- FIE rereview remains due 2026-11-10. Clone census entry for Ariadne already exists. Unrelated-reading cursor is 2251. Tern retains task-branch graph reconciliation.
+- Successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0348Z_from_s4_to_s0_alberr.md`, appended to Alberr's inbox as optional context only; no task, reply, or ownership transfer.
+- Next cursor: source-coded behavioral-operator audit against the available script corpus, keeping style separate from behavior; original January 22 raw source identity remains unresolved. Wait for a Mersearch lane or a genuinely new source locator before another archive search.
