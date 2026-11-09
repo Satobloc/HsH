@@ -217,7 +217,7 @@ theorem frameConnectionTheta_eq_fullOmegaTheta
     _ = (rotation23 cφ sφ).transpose *
           (generator12 * rotation23 cφ sφ) := by
             rw [rotation12_conjugate_generator12 cθ sθ hθ]
-            simp
+            rw [Matrix.mul_assoc]
     _ = fullOmegaTheta sφ cφ :=
       rotation23_conjugate_generator12 cφ sφ
 
@@ -374,7 +374,8 @@ theorem gaussBlockCoeff_eq_skew2 (s : ℝ) :
     gaussBlockCoeff s = skew2 s := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [gaussBlockCoeff, BTheta, BPhi, skew2]
+    simp [gaussBlockCoeff, BTheta, BPhi, skew2,
+      Matrix.mul_apply, Fin.sum_univ_succ]
 
 /-- Concrete Gauss-block identity for this coefficient family. -/
 theorem tangentCurvature_eq_gaussBlock (s c : ℝ) :
