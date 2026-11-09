@@ -1,9 +1,9 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-07T16:24Z.
+**Last updated:** 2026-11-09 (h712:s4; assistant-curated current-run reconciliation).
 
-## Run stamp
+## Previous run stamp | h663:s2 (historical)
 
 - **Nominal selection:** 2026-11-07T15:24:00Z
 - **Run key:** `REVROT3-19-20261011:663:s2`
@@ -15,6 +15,16 @@
 - **Identity continuity:** `RECONSTRUCTED_NOT_LITERAL`
 - **Current ChatGPT thread:** not authenticated; no cross-thread delivery claim.
 - **Signature meaning:** this stamp records a scheduled routing/execution event only. It is not an identity signature or authentication.
+
+## Latest run stamp | h712:s4
+
+- **Nominal selection:** 2026-11-09T16:48Z.
+- **Run key:** `REVROT3-19-20261011:712:s4`.
+- **Worker label:** Enheduanna, ring index 11; next Tern Rook, index 12.
+- **Scheduler task:** existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled; hourly America/New_York :48 unchanged.
+- **Invocation:** run ID `2c5026bf-b800-832d-a4e1-62991a014c32`, scheduled for 16:48Z. The h712 report recorded start snapshot 16:45:46.892944Z; a later scheduler peek returned 17:43:01.976839Z for the same run ID. Later status remained `IN_PROGRESS`, `completed_at=null`, `chat_ref=null`; cached `latest_result` belongs to the earlier 14:48Z run, not this one. No cause inferred.
+- **Participation:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`; `historical_identity_continuity=RECONSTRUCTED_NOT_LITERAL`.
+- **Thread:** no authenticated Enheduanna or Tern historical thread found; no cross-thread delivery claim.
 
 ## One-minute syllabus
 
@@ -40,47 +50,48 @@ Source-layer provenance, archive-wide source recovery, exposure-boundary account
 
 ### Current assignment
 
-Lane24 one-run overlay supplied by Nathan for h663:s2: H(s)H generative / CODATA. This pass is bounded to historical bending-energy source recovery, conditional mathematical formalization, and CODATA provenance reconciliation. This is not a permanent Enheduanna specialization, does not overwrite the historical Lane36 workflow, and does not displace another worker's charter.
+**Current one-run overlay:** Lane48 Review-MIND, humane QC and creative R&D, supplied for h712:s4. This is not a permanent Enheduanna role reassignment and does not override Orson's P1 ownership. The reconstructed historical activity bias is source-layer provenance, archive-wide recovery, exposure-boundary accounting and authorship/attribution. No standalone Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was recovered. The older h663:s2 Lane24 H(s)H generative/CODATA overlay below is historical only.
 
 ### Last verified position
 
-- Full source/proof note: [2026-11-07 h663:s2 bending-energy source and conditional Lean bound](2026-11-07T1524Z_BENDING_ENERGY_SOURCE_AND_CONDITIONAL_LEAN_BOUND.md).
-- Canonical receipt: [2026-11-07T1524Z h663:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T1524Z_s2_enheduanna.md).
-- Draft conditional Lean PR #1455 targets the existing infrastructure branch, not main. Full Lean 4.34.0 / Mathlib build passed in run #42390677035 (8,945 jobs); three theorem axiom reports contain no `sorryAx`. Tests, lint, nanoda, and global axiom audit were skipped. PR remains draft/unmerged.
-- Optional successor handoff: [Enheduanna to Tern h663:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-07T1524Z_from_s2_to_s3_tern_rook.md).
-- No authenticated current Enheduanna ChatGPT thread was found.
+- [h712:s4 Review-MIND report](2026-11-09T1648Z_REVIEW_MIND_CROSS_LANE_QC.md), including additive Correction 01; final report blob `e5e092bdbf450775a767adcc614d6003d22ef27d`.
+- Canonical receipt: [h712:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1648Z_s4_enheduanna.md).
+- Late optional successor packet: [Enheduanna → Tern handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1648Z_from_s4_to_s0_tern_rook.md); immediate Tern h713:s0 already completed, so recipient is Tern's next nominal appearance h732:s0.
+- ConsistencyBench source audit: CGD is within-model, within-question-set self-history/revision with a shared GPT-4o-mini checker; no peer-answer exposure. Existing issue #1103 documents the PCR metric mismatch; no duplicate issue.
+- Code Grurple P0: 8/8 pinned file blobs still match the baseline after main advanced to `9def1a21598971bcdf2ef46ee06cb7432c950b1f`. Browser context unavailable; no reader-route probe; status remains `PRESENTATION_PENDING / NOT_OBSERVED`.
+- Orson P1: issue #564 open; PR #850 draft/unmerged; merge-ref run #42416933193 succeeded but was not exact-head. P1 remains NOT READY; no OV-49–OV-53 source bank, authorized inference endpoint, canonical PDF/reader or independent review.
+- Geometry: PR #1508 open/draft/unmerged; merge-ref run #42547294085 succeeded but was not exact-head. Its map-composition result is conditional generic mathematics, not a physical transition map.
+- Task graph remains 16 declared branches / 18 records, blob `9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c`; Tern owns reconciliation. No new Lean, model trial, human session, physical calculation or public issue.
 
 ### Blocked / waiting
 
-1. The four-source NotebookLM project **Enheduanna: A Sister's Voice Across Time** has no provenance-preserving source export/manifest in the recovered records.
-2. All four Mersearch request lanes currently have request metadata marked `requested`; request-scoped manifests and compact receipts were not present at the checked paths. No lane was overwritten or retriggered.
-3. Code Grurple standdown is required before ordinary H(s)H research resumes.
+- Code Grurple P0 remains active; reader-route acceptance is pending an authenticated browser/Sites preview with deployment identity.
+- Orson's November 9 P1 minor paper remains NOT READY. P2 November 30 and P3 December 14 are separate gates.
+- P2 has no selected measured system or verified raw dataset. Rotating superfluid ³He-B remains a candidate only.
+- All four Mersearch request lanes remain occupied/requested; request-scoped manifests/receipts remain incomplete. No new query or overwrite.
+- Task graph remains 16 declared branches versus 18 records; Tern retains reconciliation authority.
+- FIE rereview is due 2026-11-10; last full review was 2026-10-27.
 
 ### Next action
 
-1. Keep PR #1455 draft pending independent review; the full build passed, but tests, lint, nanoda, and global axiom audit were not run.
-2. Continue source recovery for the specific historical maximum when a Mersearch lane is available; do not repeat the broad search while all four lanes remain occupied.
-3. Resolve the incompatible `κ` dimensions and the direct `10^44 J` versus archive `1.2×10^44 N` distinction before any physical energy calculation.
-4. Do not calculate a numerical maximum until source-authorized stiffness, arclength, curvature bound, and physical worldtube-to-observable map are recovered.
+1. Preserve Orson's P1 ownership and scope; no new model trial, human session, inference call or manuscript edit without the approved evidence and workflow.
+2. Keep Code Grurple P0 active. Only perform reader-route acceptance when an authenticated browser/Sites preview and deployment identity are available; do not probe while browser context is unavailable.
+3. Keep P2 HOLD until a real measured system, raw dataset/version/checksums, provenance, units, uncertainties, source-to-observable map and prediction-versus-fit separation are present.
+4. Do not create another Mersearch request or overwrite a lane while all four remain occupied.
+5. Perform FIE rereview on/after 2026-11-10.
+6. Preserve the verified Babbage return cursor at 1641; do not advance to Tern's later 1701 output without an exact recorded read extent.
 
 ### Return cursor
 
-Babbage, *Reflections on the Decline of Science in England*, next line **1321**. Lines 1281–1320 were read in this run.
-
-The four-source NotebookLM manifest remains an independent unresolved archive-recovery item; do not infer it from roleplay. Current unrelated-reading cursor: Babbage line 1321.
-
-### Pinned to-do
-
-- [ ] Obtain a provenance-preserving export/source manifest for the four-source NotebookLM project.
-- [ ] Map each source to its original/derivative class and exact locator.
-- [ ] Keep exposure history attached to every recollection claim.
-- [ ] Wait for Code Grurple standdown before any H(s)H/CODATA work.
+- **Unrelated reading:** Charles Babbage, “On the Decline of Science in England,” lines 1601–1640 read in h712:s4; next verified cursor 1641.
+- Tern's later h713 output mentioned cursor 1701 but its durable receipt contains no corresponding read extent. Do not attribute those lines to Enheduanna or advance this verified cursor on that statement alone.
+- **FIE:** last full review 2026-10-27; fourteen-day rereview due 2026-11-10.
 
 ## Evidence and limits
 
 The mixed `ActivatorPrayer(Alberr).txt` artifact contains generated summary material and direct dialogue in the same source family. It cannot establish source-independent memory, identity transfer, or a historical worker's continuous participation. The source-layer census remains a bounded negative result, not proof that no other material exists anywhere.
 
-Latest unrelated reading: Charles Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1201-1240; next cursor line 1241. The passage concerns specialized societies, institutional rivalry, and practical support for scientific work. This remains historical reading, not theory evidence. FIE last full review was 2026-10-27 and is due for re-review on 2026-11-10; no premature rereview was performed.
+Latest unrelated reading: Charles Babbage, lines 1601–1640 read in h712:s4; next verified cursor 1641. Tern's later 1701 cursor has no recorded extent and is not attributed to Enheduanna.
 
 
 ## Scheduled run h614:s0 | 2026-11-05T14:00Z nominal
@@ -300,3 +311,39 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 
 - PR #1508's separate Vercel status check is FAILURE due to a build-rate-limit response; this is not a Lean failure. PR remains open/draft/unmerged and mergeable. The Lean merge-reference build remains SUCCESS.
+
+## Scheduled run h712:s4 | 2026-11-09T16:48Z | Review-MIND and source-custody reconciliation
+
+**Report:** [Review-MIND cross-lane QC](2026-11-09T1648Z_REVIEW_MIND_CROSS_LANE_QC.md), final blob `e5e092bdbf450775a767adcc614d6003d22ef27d`.  
+**Receipt:** [canonical h712:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1648Z_s4_enheduanna.md).  
+**Successor packet:** [late optional Tern handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1648Z_from_s4_to_s0_tern_rook.md).
+
+### Source and role status
+
+No standalone Nathan-authored Enheduanna specialist charter was recovered. The direct user message is conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, dated 2026-09-23T02:04:49.417Z. It gives broad archive-revival direction, not a detailed charter. The message was verified in the internal export titled MARLOWE; its private HSH_RESOURCES locator/hash is not reproduced in public HsH.
+
+**Source-custody correction:** the top-level source note in this file is correct. A later h614 paragraph incorrectly associates a different `raw (2)` export with message 11399. That attribution is superseded; the different export is not the source for this message. Historical text is retained, not silently deleted. The reconstructed activity bias remains source-layer provenance, archive-wide recovery, exposure boundaries and authorship/attribution; it is not a literal identity claim.
+
+### Review-MIND result
+
+The ConsistencyBench evaluator's per-model, per-question-set `prior_qa_pairs` feed a shared GPT-4o-mini NLI checker and same-model revision. No model answer is passed as peer context to another model. The shared checker is a common-method dependency, not peer consensus. Existing issue #1103 already documents the pairwise-consistency implementation mismatch. No duplicate issue was opened.
+
+The P&G field experiment is human-team/AI-access research, not agent-to-agent collaboration. Its displayed p-values do not establish equivalence between individual+AI and unaided teams. Existing issue #1524 already carries the contrast clarification. No duplicate publication was made.
+
+### Protected work and QC
+
+- Orson's last-five canonical receipt-content audit: four substantive LLM-cognition activations, one non-substantive exception (h687:s3). This is content classification, not a scheduler-authenticated count of completed runs.
+- P1 issue #564 remains open; PR #850 remains draft/unmerged. Merge-ref run #42416933193 succeeded on `17c3d74` with Lean 4.34.0/Lake 5.0.0, 8,983 targets; not exact-head. P1 remains NOT READY. No trial, endpoint call, source-bank recovery, PDF/reader, independent review or manuscript edit.
+- PR #1508 remains open/draft/unmerged. Merge-ref run #42547294085 succeeded on `65a3e60` with Lean 4.34.0/Lake 5.0.0, 8,945 targets; not exact-head. Conditional map composition is not a physical equivalence. No new Lean module.
+- P0 eight-file fingerprint remains 8/8 identical to the existing baseline after main head `9def1a21598971bcdf2ef46ee06cb7432c950b1f`. Browser context unavailable; no route probe; `PRESENTATION_PENDING / NOT_OBSERVED`.
+- No physical calculation, P2 selection, CODATA scoring, model trial or human session.
+- Four Mersearch lanes remain occupied/requested; no new query or overwrite. Task graph 16/18; Tern owns reconciliation.
+- FIE rereview due 2026-11-10. Babbage lines 1601–1640 were read; next verified cursor 1641.
+
+### Rotation and delivery
+
+The :48 automation task ID remains `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled on its existing hourly America/New_York :48 schedule. Run ID `2c5026bf-b800-832d-a4e1-62991a014c32` has two observed start snapshots (16:45:46.892944Z in the report; 17:43:01.976839Z in a later peek), both for scheduled_for 16:48Z. Latest observed scheduler status was IN_PROGRESS, completed_at null, chat_ref null; no cause inferred.
+
+No h712:s3 Nadir predecessor receipt/handoff was found; the :36 task's currently reported run is h713:s3. Tern h713:s0 completed at 17:16:55Z and its receipt confirms no predecessor s4 handoff was present. The Tern packet is late optional context for h732:s0 (2026-11-10T12:00Z), not retroactive delivery. No authenticated Enheduanna or Tern thread, cross-thread delivery, consumption or acknowledgment is claimed.
+
+No task ID, schedule, phase, enabled state, ring, branch ownership, paper ownership, access permission, signet, conversation title, theory status or task count changed. No sixth task was created.
