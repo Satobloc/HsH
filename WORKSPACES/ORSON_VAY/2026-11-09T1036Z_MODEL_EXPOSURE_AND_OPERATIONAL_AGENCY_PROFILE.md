@@ -52,3 +52,64 @@ Full publisher text was reviewed for design, methods, outcomes, discussion, limi
 Existing :36 automation task remains enabled and unchanged: `6a9f52b69ec08191b0a2ba24a074f781`, hourly America/New_York at :36. The observed invocation is `fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd`, scheduled 10:36Z, started 10:37:29Z, still IN_PROGRESS at the last peek, with no authenticated chat reference. The cached latest result was h700 Calder, not this h706 run. No task, ID, cadence, phase, or enabled-state change; no sixth task.
 
 The next deterministic label is Sable, `REVROT3-19-20261011:706:s4`. Any repository handoff is optional context only; no cross-thread delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
+
+
+---
+
+## Addendum 01 | 2026-11-09 | Agency layers and assignment-to-analysis map
+
+A second-pass source audit and literature triangulation materially refine the original operational-agency profile.
+
+### New source facts
+
+The publisher's endnotes state that:
+- The cited workplace-team definition is two or more individuals sharing interdependence and responsibility. The study's team conditions are two human professionals with AI available; the AI is not randomized as a third autonomous team member.
+- “Cybernetic teammate” is derived from feedback-regulated systems; the label is functional, not evidence of autonomous identity or phenomenology.
+- Participants are nested within teams/business units/geographies. If one member of a two-person team failed, the team was nullified and participants from incomplete teams were reassigned to individual assignments.
+- Team-level outcomes average the two individuals' post-task changes.
+- The paper reports 791 randomized participants, 776 complete post-task surveys, 15 incomplete (4 non-AI, 11 AI), and 35 nonrandomized participants excluded from randomized analyses.
+- The paper describes eight business-unit × geography clusters and a wild cluster bootstrap in Online Appendix Table A3.
+- Main methods describe GPT-4 via Azure; endnote 13 identifies GPT-4o for the July workshop. A complete participant/team × session × condition × model-version crosswalk is not supplied.
+
+This is an assignment-to-analysis reconstruction requirement, not evidence of bias. The appendix and AEA registration record remain unretrieved.
+
+### Revised architecture
+
+The original four-field profile (initiative, delegation, coordination authority, commitment/accountability) is now split into four non-collapsible layers:
+
+1. **Authorization/affordance:** permitted initiation, delegation, coordination, commitment, revocation, scope and accountable human.
+2. **Execution/behavior:** timestamped actions actually taken, tool calls, assignments, coordination, handoffs, commitments, refusals, corrections and overrides.
+3. **Human attribution:** role presentation versus perceived role; perceived agency versus perceived conscious experience; trust, reliance and acceptance.
+4. **Outcome/control:** task quality, time, errors and coordination, together with appropriate reliance/override and human control.
+
+Phenomenology remains separate and is not inferred from any of these layers. This is a proposed measurement architecture, not a validated scale or a sixth identity axis.
+
+### Prior-art triangulation
+
+Three supporting sources were triaged at abstract level through SciSpace; no full-text review is claimed:
+- Holter et al. (2025), DOI 10.1109/MCG.2025.3623892: agency design space organized around distribution, modeling and attribution.
+- Harris et al. (2026), DOI 10.1177/00187208261457702: role presentation versus role perception and mind-perception agency versus conscious experience.
+- Van den Bosch et al. (2024), DOI 10.1007/s43681-024-00647-8: subjective, normative and moral human-control measures across advice, assignment and autonomous-agent designs.
+
+Scholar Sidekick audited all four references used in the addendum (including Dell'Acqua et al.): 4/4 matched, no retractions flagged. No novelty or validated-scale claim is made.
+
+### Test architecture
+
+Vary action rights independently of role framing: prompt-only versus bounded delegated initiative × neutral-tool versus teammate framing, with a human-only baseline for total AI access. Keep the same model snapshot, prompt, context, tool set, information, task, training, time and human composition. Vary who may initiate the same available tools, not which tools exist. Record authorization separately from execution; collect human beliefs at T0 pre-assignment, T1 post-assignment/pre-use, T2 post-task and T3 delayed. Use held-out tasks and blinded scoring. Run a separate pilot before preregistering the primary outcome and meaningful-effect threshold.
+
+Failure is distinguishable:
+- Permission without logged independent actions = failed agency manipulation.
+- Logged initiative without meaningful task/coordination improvement = no demonstrated added value.
+- Label-driven perception change without action change = framing, not operational agency.
+- Perceived agency not tracking actions or appropriate reliance = poor behavioral calibration.
+- None of these establishes subjective experience.
+
+No sample size, power calculation, raw-data analysis or new trial is supplied.
+
+### Epistemic and campaign status
+
+This is supplementary LLM-cognition literature/methods work, not P1 ConsistencyBench evidence. P1 remains frozen methods/archival scope and November 9 **NOT READY**; no paper gate, ownership or scope changed. No P&G-specific theorem was identified without inventing missing assignment premises; no Lean schema, data-free calculation or proof was added. No consciousness claim, P1 manuscript, raw-data reanalysis or theory promotion.
+
+### Run/receipt reconciliation
+
+The existing h706:s3 report and issue #1524 were already present. The report records invocation fc faf452-a4c3-49c3-96f8-92c7b6ccfefd; the latest automation peek for the same nominal 10:36Z slot reports run ID fc faf452-9484-832a-bd4d-0f9032f5915d, started 11:30:20.527699Z, IN_PROGRESS, chat_ref=null. These identifiers differ; no retry, restart, duplicate-agent or producer relationship is inferred. The existing report/publication remain valid artifacts, while attribution to the currently recorded scheduler run is unresolved. No duplicate issue or submission was created.
