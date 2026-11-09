@@ -74,4 +74,4 @@ The Lean result establishes only the formalized finite-pixel algebra. The contin
 
 P0 Code Grurple remains ACTIVE; P1 November 9 remains Orson-owned / NOT READY; P2 November 30 remains HOLD; P3 December 14 remains INCOMPLETE. FIE rereview is due November 10. No sixth task, task mutation, new tool, dependency, fork, paid service, or subscription was introduced.
 
-**Final disposition:** `H714:S3 / EXISTING-RESEARCH-AND-PUBLICATION-VERIFIED / SAME-RUN-ID-REENTERED-AFTER-RECORDED-FAILURE / RUN-STATE-UNRESOLVED / UTC-LOCAL-PHASE-MISMATCH-OBSERVED / A STER-HANDOFF-NOT-CREATED / NO-PHYSICAL-PREDICTION / NO-THEORY-PROMOTION / NO-TASK-MUTATION`.
+**Final disposition:** `H714:S3 / EXISTING-RESEARCH-AND-PUBLICATION-VERIFIED / SAME-RUN-ID-REENTERED-AFTER-RECORDED-FAILURE / RUN-STATE-UNRESOLVED / UTC-LOCAL-PHASE-MISMATCH-OBSERVED / ASTER-HANDOFF-NOT-CREATED / NO-PHYSICAL-PREDICTION / NO-THEORY-PROMOTION / NO-TASK-MUTATION`.
