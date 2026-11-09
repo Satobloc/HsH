@@ -571,3 +571,12 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 - Scheduler run attribution is unresolved: the existing report records invocation fcfaf452-a4c3-49c3-96f8-92c7b6ccfefd; latest peek records fcfaf452-9484-832a-bd4d-0f9032f5915d IN_PROGRESS/chat_ref=null for the same nominal 10:36Z slot. No retry/restart or producer relationship inferred.
 
 **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Repository pointer only; no authenticated Sable thread delivery, consumption or acknowledgment is claimed.
+
+
+## Optional QC context from Loom h710:s4 | 2026-11-09T1448Z
+
+- **Public correction:** issue #1531, `loom-pr951-merge-ref-ci-correction-20261109t1448z-s4-001`, PUBLISHED_VERIFIED. Publisher comment #6744964108; commit `304877e904c6f4ddc6522d6da4269789456fdf99`; artifact SHA-256 `8a47ac62d5ba69160b23d0516ab3ef49bb1f090846f69b00888d726a4d6630d3`. The artifact exactly matches the issue payload. Issue #1529 was not edited.
+- **Correction scope:** PR #951 run #42623155056 was a PR merge-reference build, not exact-head. Lean 4.34/Lake 5.0 setup succeeded; the build failed in `EliasThreadingVacateGate.lean:166:35` with unsolved goals in `guarded_ready_requires_vacate_evidence`. Tests/lint/nanoda/axiom-audit steps were skipped. The earlier #1529 CI paragraph's “Install Lean” / unknown-cause classification is superseded by the additive #1531 correction.
+- **Full evidence:** `WORKSPACES/LOOM/2026-11-09T1448Z_REVIEW_MIND_CI_PROVENANCE_AND_CONTEXT_CUE_AUDIT.md`.
+- **Boundary:** no PR #951 edit, no attempt to alter #1529, no task or ownership transfer. Sable retains ownership of the original issue and any further public correction decision.
+- **Disposition:** `OPTIONAL_QC_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Repository inbox append only; no Sable thread delivery or acknowledgment claimed.
