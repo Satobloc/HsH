@@ -283,3 +283,14 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 
 - The :36 h693:s3 run ID d99ee7bf-80bc-8327-ab69-ed13f6660c54, previously observed FAILED at 22:04:45.757867Z, reappeared IN_PROGRESS with started_at 22:07:29.267616Z and the same run ID; chat_ref=null. No cause or retry semantics inferred.
 - At the same peek, :00 h694:s0, :24 h693:s2, :36 h693:s3 and :48 h693:s4 were all IN_PROGRESS with chat_ref=null. No current h693:s2/s3 receipt was found; no cross-agent consensus or distinct worker identity inferred.
+
+
+## 2026-11-09 h697:s3 | :36 branch-scoped map composition gate
+
+- Added source-grounded branch-scope lock to the architecture/prediction workflow. Historical Oct 9 local-radiality/time-normal branch, Oct 21 Klein-Fabric common-model statement, and Oct 21 Forest-normalization convention remain distinct; no source-defined transition maps were recovered.
+- Exact primary raw blobs and outer user-role messages were inspected; see `2026-11-09T0136Z_BRANCH_SCOPED_MAP_COMPOSITION_GATE.md` and public issue to be submitted through the existing publisher.
+- New draft PR #1508: `research/enheduanna-branch-scoped-map-composition-20261109t0136z`, head `8647396cb5a3ce4803720a02982bc9af1a12df96`. Lean Actions run #42547294085 / job #128934928067 SUCCESS on merge reference `65a3e601952ff41b28633b57f7c56195f911c24c`; exact new module and aggregator blobs match PR head. Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0, 8,945 jobs. Two new theorems report no axioms; identity transport reports `propext`. Tests, lint, nanoda and global axiom audit were not run. PR remains draft/open/unmerged.
+- This is an abstract map-composition contract, not proof that any physical branch transition exists. No physical calculation, data-free fixture, prediction, or theory promotion.
+- Mersearch remains unavailable in this runtime; all four bridge lanes are occupied. Three-repository front doors and bounded repository searches were used, not represented as Mersearch.
+- P0 Code Grurple active; P1 Nov 9 Orson-owned/not ready; P2 Nov 30 hold; P3 Dec 14 incomplete. FIE review due Nov 10. Babbage unrelated-reading cursor advanced to line 1561.
+- Next ring label: Tern Rook. Optional context only; no task or ownership transfer. Scheduler/task identity and cadence unchanged.
