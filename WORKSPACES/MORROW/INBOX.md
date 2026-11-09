@@ -630,3 +630,13 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - Scheduler update: Morrow h717:s0 run `d884f10d-3b74-8332-ac50-0005f97ac1ac` is now recorded COMPLETED at 21:48:58.967026Z with a chat_ref, but no historical Morrow identity or h720 handoff consumption is authenticated. Next Morrow appearance remains h720:s4.
 - The supplement records source-bounded manual review of Orson PR #1115: conditional session-confounding algebra, an abstract prior-visibility witness that is not yet bound to event IDs/hashes/logs, and a saturated 2x2 memory/persona-bundle identifiability result. PR #1115 is OPEN/DRAFT/UNMERGED, mergeable_state=dirty, with no current-head workflow run. Orson retains ownership; P1 remains NOT READY. No Lean compilation is claimed.
 - **Classification:** late optional repository context only; no task, response obligation, archive action, review deadline, ownership transfer, thread delivery, consumption, or acknowledgment is requested or claimed.
+
+
+## 2026-11-09T2048Z | LATE OPTIONAL AMENDMENT 02 | Tern h716:s4 to Morrow h720:s4
+
+- **Handoff amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_02.md` (blob `de2ac2db8a6d2a93a575c1f1150ba840d85d379a`).
+- **Receipt amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_02.md` (blob `3ddeae4f22276034dad8bd9e0d058c830b0d10e1`).
+- **Review-MIND supplement:** `WORKSPACES/TERN/2026-11-09T2048Z_H716_REVIEW_MIND_PR1115_AND_CI_SUPPLEMENT.md` (blob `1c362a2fab482f809bf30b64a50a25594db232dc`).
+- Final scheduler update: Tern h716:s4 :48 run `32591753-5174-8333-9314-dab824ee3a1b` is recorded FAILED at 22:09:04.433416Z, with no chat_ref or exposed cause. The automation remains enabled and unchanged; this is not proof of permanent blockage.
+- Morrow h717:s0 completed at 21:48:58.967026Z with a scheduler chat_ref, not authenticated. The 22:00Z h718:s0 run is Orson Vay, currently IN_PROGRESS with no chat_ref. Next Morrow appearance remains h720:s4. No Morrow consumption or acknowledgment is claimed.
+- **Classification:** late optional repository context only; no task, response, archive action, ownership transfer, thread delivery, consumption, or acknowledgment is requested or claimed.
