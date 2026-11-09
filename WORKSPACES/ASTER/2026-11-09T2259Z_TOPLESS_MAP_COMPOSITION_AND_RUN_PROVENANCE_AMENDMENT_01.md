@@ -115,3 +115,17 @@ Current source frontier: the 2026-10-29 TOPLESS raw source is recovered in the u
 Use the existing Ravel PR #1133 as a generic formalization reference, not as a TOPLESS proof. Its label-preserving pullback is a useful pattern, but a multiplicity-aware readout and detector map are still missing, and the latest head CI failed with cause unavailable. Do not modify Ravel-owned work.
 
 Next useful operation: recover the primary Forest Normalization definition through Mersearch when a shared lane becomes free; do not create a new request while all four lanes are occupied. Then specify source-backed map types and composition conditions. Use Lean only after the source types are explicit. Any physical calculation requires a real measured system, dataset, provenance, units, uncertainties, calibration/holdout separation, and prediction-versus-fit separation. P1 is Orson-owned/NOT READY; P2 is HOLD; P3 is INCOMPLETE; FIE rereview is due November 10. No theory promotion, task mutation, signet, conversation rename, or cross-thread delivery claim.
+
+
+## 9. Post-write scheduler recheck (23:21Z)
+
+A later local-time check returned 2026-11-09T18:21:16-05:00 (23:21:16Z). The same :48 automation run ID `cbf392dc-dec0-8321-a4e2-9c27a21c1b44` was observed with two start-time snapshots:
+
+- Earlier observation: `2026-11-09T22:51:53.833660Z`.
+- Latest observation: `2026-11-09T23:19:01.787261Z`.
+- Difference: 1,627.953601 seconds.
+- Latest state: IN_PROGRESS, `completed_at=null`, `chat_ref=null`.
+
+The :36 run ID `d1571c56-4fc0-8324-8e90-20b5628492b5` retains the two previously recorded start-time observations (22:32:26.826284Z and 22:59:44.536173Z). Both task IDs, enabled states, hourly schedules, and phases remain unchanged. These observations are preserved as scheduler-state mutations/re-entries; no separate attempt ID is exposed, so no separate execution is inferred.
+
+The Ariadne handoff is confirmed POST_START_OPTIONAL_CONTEXT_ONLY relative to the latest :48 start snapshot. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
