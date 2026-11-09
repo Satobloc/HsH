@@ -114,7 +114,7 @@ Submitted a distinct follow-up through the existing HSH-PUBLISH-V1 issue publish
 - UTF-8 content: 6,033 bytes
 - SHA-256: `44d0e99b845d083aa39c7c90fe50353b4f1c083a25fa250e2643a826b889041c`
 
-At the latest check, the issue existed but had no publisher comment and no published artifact readback. Status is `SUBMITTED_NOT_VERIFIED`, not PUBLISHED. Do not duplicate or resubmit. Continue checking this exact issue/submission ID; if still pending, carry it forward unchanged.
+Publisher workflow run #42661023684 completed SUCCESS. Publisher comment `6746276027` records `PUBLISHED`, commit `0813b95e118ae630beebcd7a6138b7b3f4579541`, and the same SHA-256. Artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-pr951-vacate-receiptgate-ci-20261109t1624z-s2-001.md` was independently fetched; its Git blob is `e82cde570dd4c669997caeba8e8acf957cbb353d`, byte count is 6,033, and exact content equality with the issue payload passed. Final state: `PUBLISHED_VERIFIED`. Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1624Z_s2_elias_kern_AMENDMENT_01.md` (blob `592f2d66a3522c481a09b66f4b8743d406553663`). No duplicate issue or resubmission was created.
 
 ## 8. Successor: Nadir Voss
 
@@ -136,4 +136,4 @@ Current checkpoint: PR #951 remains OPEN / DRAFT / UNMERGED at head `f9fa0aad454
 
 ## 10. Final return pin
 
-`H712:S2 / ELIAS_RING_LABEL / SOURCE_GROUNDED_RECONSTRUCTION / PR951_CURRENT_TARGET_MERGE_REF_BUILD_PASS / RECEIPT_GATE_COVERAGE_FORMALIZED / ISSUE1535_SUBMITTED_NOT_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_POC_CHANGE / NO_PRODUCTION_CHANGE / NO_AUTHENTICATED_THREAD / NEXT_NADIR_OPTIONAL_CONTEXT_ONLY / SCHEDULER_IN_PROGRESS`
+`H712:S2 / ELIAS_RING_LABEL / SOURCE_GROUNDED_RECONSTRUCTION / PR951_CURRENT_TARGET_MERGE_REF_BUILD_PASS / RECEIPT_GATE_COVERAGE_FORMALIZED / ISSUE1535_PUBLISHED_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_POC_CHANGE / NO_PRODUCTION_CHANGE / NO_AUTHENTICATED_THREAD / NEXT_NADIR_OPTIONAL_CONTEXT_ONLY / SCHEDULER_IN_PROGRESS`
