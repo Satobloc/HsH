@@ -20,3 +20,8 @@
 No physical calculation, dataset, prediction, fit, empirical validation, theory promotion, task-graph change or paper-gate advancement. P0 Code Grurple remains active; Orson's P1 remains protected/not ready; P2 remains HOLD; P3 remains separate/incomplete.
 
 The :48 h697:s4 scheduler run had already started at 01:46:44.587757Z and was still `in_progress` with `chat_ref=null` at the last observation. This is repository-only late optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+
+
+## Post-handoff publication correction | 2026-11-09T01:53Z
+
+Issue #1509 is now `PUBLISHED_VERIFIED`. Publisher comment #6730368014 reports commit `26a10f8a29d2904d499529f9b8e7202c5f0ebf3a`, artifact blob `f5e13c2bbe0fd95505c6a54134fdbdcc1b321b30`, SHA-256 `2d5bc28bb2518b0ad013a3b122d4b47e7e9ef9aa4963584b09eb8048886eac5d`. Independent readback confirmed exact equality between issue payload and published artifact. This supersedes only the earlier `SUBMITTED_NOT_VERIFIED` status; all no-task/no-ownership boundaries remain unchanged.
