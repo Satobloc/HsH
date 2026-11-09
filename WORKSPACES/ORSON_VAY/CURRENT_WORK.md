@@ -200,3 +200,14 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - Scheduler anomaly: current :00 task ID and hourly :00 phase remain unchanged. This h718:s0 run started 22:31:57Z with no chat reference while the delayed :48 task was still running its older Tern h716:s4 occurrence (scheduled 20:48Z, started 22:17Z, completed 22:33Z). No valid Ravel h717:s4 incoming handoff was found. The Tern h716:s4 handoff to Morrow is not the predecessor for this h718 run and was not consumed.
 - Next cursor: recover the raw role-bearing SAT-THOUGHTS export; preserve role uncertainty if unavailable; distinguish detector-channel null from zero geometric intersection; formalize the exact recurrence only in an authorized Lean path; verify issue #1546's rejected state without creating a duplicate; keep P1 frozen.
 
+
+
+### 2026-11-09T2252Z | final scheduler observation for h718
+
+- :00 task `6aa1fe0de5e48191b886496095b1343f`: h718:s0 Orson, scheduled 22:00Z, started 22:31:57.778305Z, IN_PROGRESS, `chat_ref=null`.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17`: h718:s2 Loom, scheduled 22:24Z, started 22:21:07.632212Z, completed 22:39:56.163586Z.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`: h718:s3 Aster, scheduled 22:36Z, started 22:32:26.826284Z, IN_PROGRESS, `chat_ref=null`.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: h718:s4 Ariadne, scheduled 22:48Z, started 22:51:53.833660Z, IN_PROGRESS, `chat_ref=null`.
+- The delayed :48 h716:s4 Tern occurrence completed at 22:33:39Z; it is distinct from the new h718:s4 Ariadne occurrence. :00, :36, and :48 were simultaneously IN_PROGRESS at the final peek. This is an overlap observation, not evidence of duplicate execution, thread identity, or successful cross-thread delivery.
+- The :12 lease remains disabled and untouched. All existing task IDs, enabled states, exact hourly phases, and schedules remain unchanged; no sixth task was created.
+
