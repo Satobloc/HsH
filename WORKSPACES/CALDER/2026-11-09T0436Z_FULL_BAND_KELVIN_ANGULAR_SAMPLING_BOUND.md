@@ -1,6 +1,6 @@
 # Calder h700:s3 | Full-band Kelvin angular-sampling bound
 
-**Status:** SUBSTANTIVE ACQUISITION-DESIGN RESULT / LEAN CI PENDING EXTERNAL TOOLCHAIN RETRY / NO PHYSICAL PREDICTION / NO P2 SELECTION
+**Status:** SUBSTANTIVE ACQUISITION-DESIGN RESULT / EXACT-HEAD LEAN CI PASSED / NUMERICAL SVD CHECK NOT EVIDENCE / NO PHYSICAL PREDICTION / NO P2 SELECTION
 
 ## 1. Rotation, identity, and source authority
 
@@ -60,7 +60,11 @@ For the complete band through m = 7, the minimum is:
 
 This is a conditional acquisition-design theorem, not an H(s)H prediction and not a statement that the published apparatus used fifteen azimuthal views.
 
-### Numerical design check
+### Historical numerical design check — NOT EVIDENCE (2026-11-09 correction)
+
+**Compliance correction:** The following NumPy SVD used idealized design matrices and no measured dataset. No specific prior Nathan permission for this data-free numerical test is present in the run record. Under BEDROCK ND-2026-10-25, classify it as PROTOCOL_VIOLATION / NOT_EVIDENCE. The table is retained solely as a historical audit trace; do not use it as empirical or design-validation evidence and do not repeat it. The Lean theorem is a separate source-derived formal statement.
+
+
 
 A NumPy 2.3.5 double-precision SVD of the ideal real Fourier design matrices gave:
 
@@ -102,7 +106,7 @@ The module states and proves:
 - the M = 7 specialization requiring at least 15 samples;
 - the no-first-wrap-alias condition for N = 15 across modes 0..7.
 
-**Verification status at report creation:** CI run #42565938460 was retried after two transient HTTP 504 failures while downloading the Elan release. The build had not reached Lean compilation at the last inspection. No compile pass, axiom audit, tests, lint, or nanoda result is claimed. The exact-head CI retry remains pending. The PR remains draft and unmerged.
+Exact-head verification update (2026-11-09T05:25Z): GitHub Actions run #42565938460, job #128995230775, completed SUCCESS. The workflow explicitly checked out PR head cd5368ec49424e6fe8acc41b880ab09d722604f9; its event merge SHA was b6d50350c78337c3aa376dd8a62a00a2db7576b6. Lean 4.34.0 / Lake 5.0.0. The full root build completed successfully (8,956 jobs); CalderKelvinAngularSampling built at 8,930/8,956. The six theorem-specific #print axioms outputs list [propext, Quot.sound]; no sorryAx was found in those module outputs. This is theorem-specific log inspection, not a separate global axiom audit. Tests, lint, nanoda, and the separate axiom-audit stage were skipped. One compiler warning remains: hne is unused at line 43. Vercel's status check failed because of a deployment build-rate limit and is separate from Lean. PR #1515 remains OPEN / DRAFT / UNMERGED, stacked on open PR #1402; no independent review or merge is claimed.
 
 The formalization proves only its encoded integer statements. It does not prove the source-to-formalization translation, the full DFT inverse, the camera map, physical premises, or any H(s)H claim.
 
@@ -157,3 +161,16 @@ The existing :36 automation was not edited. No new automation, task, schedule, p
 - SHA-256: 2c059287405face6241312a60221a80e56c9e50caaf0d0e1fcf497574bc52aff.
 - Independent artifact readback exactly matched the submitted content. Status is now PUBLISHED_VERIFIED. This supersedes the publication-pending placeholder in the original report/receipt.
 - Lean exact-head CI attempt 5 was still in progress at this amendment. No compile pass or axiom audit is claimed.
+
+
+## Amendment 02 | 2026-11-09T05:28Z | verification and compliance reconciliation
+
+- The exact-head Lean result above supersedes the pending-CI status in the original report.
+- The earlier ideal-matrix NumPy SVD is explicitly excluded from evidentiary use because no measured dataset or specific prior Nathan permission is recorded. Do not rely on it or repeat it. The Lean theorem remains conditional on the ideal uniform-grid/Fourier assumptions and does not establish full DFT matrix invertibility, camera mapping, a physical system, or an H(s)H prediction.
+- Issue #1516 remains PUBLISHED_VERIFIED. Current readback compared the issue payload's content string with the published artifact and found exact equality. Artifact blob: 965f488865d9690ea21e7bbd6aa7db4eebe0476d; the publisher comment records SHA-256 2c059287405face6241312a60221a80e56c9e50caaf0d0e1fcf497574bc52aff and exact readback.
+- Existing completed three-repository Mersearch receipt calder-worldtube-inspiral-nathan-source-20261030-0124 was reused as bounded navigation only; it is not exhaustive and does not itself identify the Kelvin-vortex source. No new Mersearch request was created. The current request file remains occupied by its existing lane-1 request.
+- Current HsH main head observed: ed9d2653d1d2e2d150da6307a090d6b512fe5a5c. Task-branch graph blob: 9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c, updated 2026-11-08T10:55:40.842Z, with 16 declared branches and 18 records; discrepancy unchanged and not reconciled here.
+- Existing :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its hourly America/New_York :36 schedule. Latest observed run ID f7379c01-874c-8322-89d6-483e208e303b is IN_PROGRESS, scheduled 2026-11-09T04:36Z, started 05:28:23Z, chat_ref=null. Cached latest result run ff7b0e9d-387c-8329-9347-cb1671267b0b is the older h697 result and is not this run's output.
+- The :48 task's last observed run remains h699:s4; no h700:s4 Hale execution was observed. The existing h700 handoff is already present in Hale's inbox and remains late optional context only. No chat delivery, consumption, acknowledgment, or ownership transfer is claimed.
+- FIE full rereview remains due 2026-11-10 (last recorded review 2026-10-27); not performed early. Unrelated reading completed: Babbage, Reflections on the Decline of Science in England, lines 1561–1600; next cursor 1601.
+- No raw Figshare dataset, physical calculation, fit, H(s)H prediction, P2 selection, task-graph promotion, SAT-O/Blockwave equation change, or BEDROCK promotion occurred.
