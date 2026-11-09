@@ -17,6 +17,11 @@ This module specifies a proposed typed contract. It does NOT prove the
 Python source is equivalent to this model, does not change the POC, and
 does not confer production authority. The time coordinate is an abstract
 monotone turn/quantum index, not wall-clock measurement.
+
+The previous sample proofs attempted to decide String nonemptiness/equality
+as a whole proposition. The executable sample is now separated into a Bool
+projection, while the general scope contract remains Prop-based. This avoids
+claiming a computable Decidable instance for the entire String-bearing Prop.
 -/
 
 namespace HsHVerification.EliasOverrideExpiryGate
@@ -33,11 +38,11 @@ structure OverrideLease where
 
 /-- Required fields and a nonempty, forward expiry interval. -/
 def wellFormed (o : OverrideLease) : Prop :=
-  o.actor ≠ "" ∧
-  o.locale ≠ "" ∧
-  o.operation ≠ "" ∧
-  o.purpose ≠ "" ∧
-  o.note ≠ "" ∧
+  0 < o.actor.length ∧
+  0 < o.locale.length ∧
+  0 < o.operation.length ∧
+  0 < o.purpose.length ∧
+  0 < o.note.length ∧
   o.issuedAt < o.expiresAt
 
 /-- An override applies only to its exact actor, locale and operation,
@@ -113,20 +118,49 @@ def sampleOneQuantum : OverrideLease :=
     issuedAt := 10
     expiresAt := 11 }
 
+/-- Executable Boolean shadow for the concrete sample; the general Prop contract
+    above remains the theorem-facing interface. -/
+def nonemptyStringB (s : String) : Bool :=
+  s.length != 0
+
+def activeForB (o : OverrideLease)
+    (actor locale operation : String) (now : Nat) : Bool :=
+  nonemptyStringB o.actor &&
+  nonemptyStringB o.locale &&
+  nonemptyStringB o.operation &&
+  nonemptyStringB o.purpose &&
+  nonemptyStringB o.note &&
+  (o.issuedAt < o.expiresAt) &&
+  (o.actor == actor) &&
+  (o.locale == locale) &&
+  (o.operation == operation) &&
+  decide (o.issuedAt ≤ now) &&
+  decide (now < o.expiresAt)
+
 theorem sample_active_at_issue :
     activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
       "alternate-interpretation-check" 10 := by
-  decide
+  simp [activeFor, wellFormed, sampleOneQuantum]
 
 theorem sample_inactive_at_expiry :
     ¬ activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
       "alternate-interpretation-check" 11 := by
+  simp [activeFor, wellFormed, sampleOneQuantum]
+
+theorem sample_active_bool_at_issue :
+    activeForB sampleOneQuantum "Elias Kern" "epistemic_locker"
+      "alternate-interpretation-check" 10 = true := by
   decide
 
-#eval decide (activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
-  "alternate-interpretation-check" 10)
-#eval decide (activeFor sampleOneQuantum "Elias Kern" "epistemic_locker"
-  "alternate-interpretation-check" 11)
+theorem sample_inactive_bool_at_expiry :
+    activeForB sampleOneQuantum "Elias Kern" "epistemic_locker"
+      "alternate-interpretation-check" 11 = false := by
+  decide
+
+#eval activeForB sampleOneQuantum "Elias Kern" "epistemic_locker"
+  "alternate-interpretation-check" 10
+#eval activeForB sampleOneQuantum "Elias Kern" "epistemic_locker"
+  "alternate-interpretation-check" 11
 
 #print axioms expired_override_cannot_apply
 #print axioms future_override_cannot_apply
@@ -137,5 +171,7 @@ theorem sample_inactive_at_expiry :
 #print axioms active_override_preserves_scope_and_time_bounds
 #print axioms sample_active_at_issue
 #print axioms sample_inactive_at_expiry
+#print axioms sample_active_bool_at_issue
+#print axioms sample_inactive_bool_at_expiry
 
 end HsHVerification.EliasOverrideExpiryGate
