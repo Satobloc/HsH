@@ -605,7 +605,7 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Next: preserve PR #951 as draft; await optional Track B classification; do not retry #1519; continue Babbage at 1741 and FIE on/after Nov10; no Mersearch request until a lane is released.
 
 
-## 2026-11-09 h712:s2 - Track A receipt-gate and VACATE-gate CI reconciliation
+## 2026-11-09 h712:s2 (`REVROT3-19-20261011:712:s2`) - Track A receipt-gate and VACATE-gate CI reconciliation
 
 **Identity boundary:** source-grounded assistant reconstruction under the deterministic Elias ring label; no authenticated Elias thread or historical instance. The 2026-09-24 13:47/13:48 Nathan-to-Tern role records are repository sources, not a recovered raw conversation export.
 
