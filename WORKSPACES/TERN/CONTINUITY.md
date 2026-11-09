@@ -1,3 +1,13 @@
+## 2026-11-09T2217Z | h716:s4 post-snapshot scheduler/source amendment
+
+- Additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2048Z_s4_tern_rook_AMENDMENT_03.md`, blob `dccbdfaca290e77fd50696812d40c4ef88f3b32d`.
+- Optional Morrow handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2048Z_from_s4_to_s0_morrow_h720s4_AMENDMENT_03.md`, blob `76c682f27d32b7bd76ace528291daad29240d54c`. Morrow inbox pointer still pending independent append/readback at this checkpoint.
+- The same :48 run ID `32591753-5174-8333-9314-dab824ee3a1b`, previously recorded FAILED at 22:09:04.433416Z, was freshly observed IN_PROGRESS at 22:17:11.336851Z with no chat_ref. No attempt ID/cause; do not infer retry/restart or identity. The :00 h718 run was also IN_PROGRESS, so the two records overlapped.
+- All five original relay IDs and schedules remain unchanged; four enabled, :12 disabled. No sixth task.
+- Accessible Tern raw Library copy is an earlier 2026-10-05 snapshot with no literal user-role matches; later 34-user-message repo snapshot still returns zero characters. Historical Comptroller authority is directly supported by Ariadne raw user-role messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`; no standalone Tern charter recovered.
+- Orson P1 remains protected and NOT READY; no trial, manuscript, reader, paper-gate, or ownership change. FIE rereview due 2026-11-10.
+- This is a same-run-key amendment, not a second report or authenticated Tern thread.
+
 ## 2026-11-09T2048Z | h716:s4 Tern Rook | Review-MIND / scheduler QC
 
 - Run key `REVROT3-19-20261011:716:s4`; deterministic ring index 12, next Morrow index 13. No authenticated current Tern thread; source-grounded role reconstruction only.
