@@ -17,9 +17,23 @@ The continuous-integral analogue is not formalized here. This module proves
 only the exact algebraic covariance of the finite-sum measurement operator.
 It does not identify a worldtube twist with an EVPA or polarization mode.
 -/
-def modeCoefficient {n : ℕ}
+noncomputable def modeCoefficient {n : ℕ}
     (kernel p : Fin n → ℂ) (iAnn : ℝ) : ℂ :=
   (∑ i : Fin n, kernel i * p i) / (iAnn : ℂ)
+
+/--
+A positive annular Stokes-I normalization is required for the physically
+admissible normalized readout. This structure records the condition; it does
+not establish that any particular dataset satisfies it.
+-/
+structure PositiveAnnularNormalization where
+  value : ℝ
+  positive : 0 < value
+
+/-- The normalized readout with an explicitly positive annular intensity. -/
+noncomputable def normalizedModeCoefficient {n : ℕ}
+    (kernel p : Fin n → ℂ) (iAnn : PositiveAnnularNormalization) : ℂ :=
+  modeCoefficient kernel p iAnn.value
 
 /--
 A spatially uniform complex phase factor on every polarization sample
@@ -45,33 +59,46 @@ theorem modeCoefficient_uniformPhase {n : ℕ}
   ring
 
 /--
-A unit-modulus uniform polarization rotation preserves the magnitude
-of every mode coefficient.
+A unit-modulus uniform polarization rotation preserves the norm
+of every finite-pixel mode coefficient.
 -/
-theorem modeCoefficient_abs_invariant {n : ℕ}
+theorem modeCoefficient_norm_invariant {n : ℕ}
     (kernel p : Fin n → ℂ) (iAnn : ℝ) (z : ℂ)
-    (hz : Complex.abs z = 1) :
-    Complex.abs (modeCoefficient kernel (fun i => z * p i) iAnn) =
-      Complex.abs (modeCoefficient kernel p iAnn) := by
-  rw [modeCoefficient_uniformPhase]
-  simp [hz]
+    (hz : ‖z‖ = 1) :
+    ‖modeCoefficient kernel (fun i => z * p i) iAnn‖ =
+      ‖modeCoefficient kernel p iAnn‖ := by
+  rw [modeCoefficient_uniformPhase, norm_mul, hz, one_mul]
 
 /--
-If a measured mode magnitude changes while the pixel kernel and annular
-normalization are fixed, that change cannot be explained by a spatially
-uniform unit-modulus phase rotation alone.
+The same invariance is available on the physically admissible domain where
+the annular Stokes-I normalization is explicitly positive.
+-/
+theorem normalizedModeCoefficient_norm_invariant {n : ℕ}
+    (kernel p : Fin n → ℂ) (iAnn : PositiveAnnularNormalization) (z : ℂ)
+    (hz : ‖z‖ = 1) :
+    ‖normalizedModeCoefficient kernel (fun i => z * p i) iAnn‖ =
+      ‖normalizedModeCoefficient kernel p iAnn‖ := by
+  rw [normalizedModeCoefficient, normalizedModeCoefficient,
+      modeCoefficient_norm_invariant, hz]
+
+/--
+If a measured normalized mode norm changes while the pixel kernel and
+positive annular normalization are fixed, that change cannot be explained by
+a spatially uniform unit-modulus phase rotation alone.
 -/
 theorem amplitude_change_excludes_uniformPhase {n : ℕ}
-    (kernel p : Fin n → ℂ) (iAnn : ℝ) (z : ℂ)
-    (hz : Complex.abs z = 1)
+    (kernel p : Fin n → ℂ) (iAnn : PositiveAnnularNormalization) (z : ℂ)
+    (hz : ‖z‖ = 1)
     (hchange :
-      Complex.abs (modeCoefficient kernel (fun i => z * p i) iAnn) ≠
-        Complex.abs (modeCoefficient kernel p iAnn)) :
+      ‖normalizedModeCoefficient kernel (fun i => z * p i) iAnn‖ ≠
+        ‖normalizedModeCoefficient kernel p iAnn‖) :
     False := by
-  exact hchange (modeCoefficient_abs_invariant kernel p iAnn z hz)
+  exact hchange
+    (normalizedModeCoefficient_norm_invariant kernel p iAnn z hz)
 
 #print axioms modeCoefficient_uniformPhase
-#print axioms modeCoefficient_abs_invariant
+#print axioms modeCoefficient_norm_invariant
+#print axioms normalizedModeCoefficient_norm_invariant
 #print axioms amplitude_change_excludes_uniformPhase
 
 end HsHVerification.PolarizationModeUniformRotation
