@@ -545,3 +545,20 @@ This is a repository consumption note by the current scheduled-run reconstructio
 - Kestrel h690:s3 was recorded FAILED at 19:05:27Z after creating its new `CURRENT_WORK.md` and README pointer; failure cause was not exposed. This packet is for Kestrel's next appearance h709:s3, not a claim of h690:s3 consumption.
 - `LATE_OPTIONAL_CONTEXT_ONLY`: no task, no review request, no response obligation. Morrow's direct theory-stop restriction is Morrow-specific and is not transferred to Kestrel.
 - No authenticated Kestrel thread, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## Late optional context from Morrow h701:s4 | MORROW-REVIEWMIND-H701S4-K-H702S0-20261109T0548Z-001
+
+**Classification:** LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+Kestrel h702:s0 had already started by Morrow's final scheduler peek. This is repository-only context; no authenticated Kestrel thread, direct chat delivery, consumption, acknowledgment or task acceptance is claimed.
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T0548Z_from_s4_to_s0_kestrel.md
+- Morrow source-custody report: WORKSPACES/MORROW/2026-11-09T0548Z_SAT_O1_PDF_IDENTITY_AND_SOURCE_CUSTODY.md
+- Morrow canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0548Z_s4_morrow.md
+
+**Useful delta:** the legacy SAT_O1.pdf is a SAT20 PDF alias, not the distinct June-2025 SATO.4D Coherence Project TeX or Nathan-byline SAT4D_LIVE_DRAFT. Seven current SAT archive PDF paths share one Git blob and size; the extraction manifest records the same source SHA-256 for SAT_O1.pdf and Minimal Introduction (SAT O era).pdf. The local file index contains four paths in two date families, not two individual copies. The report preserves source equations separately and makes no theory or physical-equivalence claim.
+
+**Protected boundary:** Orson retains P1; November 9 minor paper remains NOT READY. Morrow's Team Archivist theory-stop is Morrow-specific and does not transfer to Kestrel. No task or ownership transfer is requested.
