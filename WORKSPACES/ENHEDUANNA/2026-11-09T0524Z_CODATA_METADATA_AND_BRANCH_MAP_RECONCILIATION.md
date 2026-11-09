@@ -59,7 +59,7 @@ Consequences:
 - Do not treat the final Bayesian consensus as a CODATA-independent holdout.
 - Do not replace the paper’s covariance and dark-uncertainty structure with independent-cell error bars.
 - No raw torque/angle time-series, acquisition-block metadata, full raw-observation covariance, CMM point cloud, or independent holdout was retrieved here.
-- Existing Hale/Ravel published audits already contain the detailed Table 15/16/18 and prior-dependence work. This turn did not repeat their reconstruction or create a new numerical comparison.
+- Existing Hale/Ravel published audits already contain the detailed Table 15/16/18 and prior-dependence work. This turn did not repeat their reconstruction or add a new inferential/model-comparison claim.
 
 Existing public source-QC reference: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-nist-c4-torque-geometry-audit-20261104t1624z-s2-001.md`, blob `876597358845be3aad5f63d2f8815d6dc8b16718`. It explicitly records the landing-page/final-article discrepancy and the lack of an erratum in the sources it checked.
 
@@ -161,7 +161,7 @@ Next useful action remains conditional on a positive Code Grurple route trigger 
 - Code Grurple roster: `cc96c0bfafc95c54e7960899c7306031e5abce17`; presentation gate: `5f91020d0a71034ad6bed2de0a82ead1f1e48d98`.
 - Lane 24 geometry capsule: `a7250666b1cb768a9795f8f60205f509cef1c0dd`.
 - Task/branch graph: `9e9f1b896fd5d4320a7b0142ddc3f8d9c524339c`, last updated 2026-11-08T10:55:40.842Z.
-- HsH main immediately before this report commit: `c136eaf8e5063a070f23f14b237f94689fe79333`; report commit/final HsH main: `19adc914850e586a7932a3b3b30d6330484e99bc`.
+- HsH main immediately before this report: `c136eaf8e5063a070f23f14b237f94689fe79333`; initial report commit: `19adc914850e586a7932a3b3b30d6330484e99bc`; final report-amendment commit: `b7c854ec6dc4dfd5be3d5fc3586d2f369f856a50`.
 - SAT archive main: `35804a91bca29e596033837971de5db9848e9dfb`.
 - HSH_RESOURCES main: `5a387cc4ecfea9fd39a2f7b3bc6878e4686b94f0`.
 
