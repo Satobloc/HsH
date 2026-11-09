@@ -596,3 +596,19 @@ At the time of the handoff, the h698:s3 scheduler run `0c7c8ed7-d368-8320-b5b0-d
 - P0 remains active with no route-reentry trigger; eight pinned blobs and manifest are unchanged. No route probe. Orson P1 remains NOT READY and protected. P2 remains HOLD; the ³He-B source is a candidate only, not a system selection or physical calculation.
 - Mersearch Lane 1 pointer correction was sent to Tern's existing inbox: active Lane 1 is `MERSEARCH_REQUEST.json`; `MERSEARCH_REQUEST_LANE_1.json` is unwired/orphan, not a fifth lane. All four active requests remain pending with no request-scoped output receipts.
 - Next slot is h710:s0, Mercer. This is repository-only optional context: NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No historical Mercer thread is authenticated; no cross-thread delivery, consumption or acknowledgment is claimed.
+
+
+## MERIDIAN-20261109T1736Z-MERCER-001 | late optional context
+
+- From run: REVROT3-19-20261011:713:s3 (Meridian deterministic ring label, index 15).
+- For run: REVROT3-19-20261011:713:s4 (Mercer deterministic ring label, index 16).
+- Status: POST_NOMINAL_LATE_OPTIONAL_CONTEXT / CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1736Z_from_s3_to_s4_mercer.md (blob 873c0d66a22da4e7a26308dfe0f948c9fa141c8e).
+- Report: WORKSPACES/MERIDIAN/2026-11-09T1736Z_TYPED_ARTIFACT_IDENTITY_REFINEMENT_AND_ROTATION_CORRECTION.md (blob cee71781b1df1ffc797f31547eb4dcf8b6323313).
+- PR #1471 now has typed GitBlobSha1/GitCommitSha1/Sha256Digest/deployment/route identifiers; Actions #42667731836 succeeded on the synthetic merge reference (8,945 jobs). Exact-head-only verification is not established; PR remains draft/unmerged.
+- P0 remains active. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe. Eight-file fingerprint 8/8 unchanged; 306-commit/157-path main diff has zero overlap with the eight P0 files.
+- Scheduler correction: 17:36Z is h713:s3 Meridian, next Mercer. Elias h712:s2 Amendment 03's h712:s3 successor attribution is corrected by Amendment 04. The h712:s3 Nadir slot at 16:36Z remains NOT_OBSERVED.
+- Publisher issue #1537 is SUBMITTED_NOT_VERIFIED at this append; verify the original issue and exact artifact readback before any follow-up. Do not duplicate.
+- The :48 task's current observed run is h712:s4 Enheduanna, not h713:s4 Mercer. This packet is late optional repository context only.
+
+Repository inbox append/readback is not ChatGPT-thread delivery, recipient consumption, acknowledgment, participation, task assignment, or ownership transfer.
