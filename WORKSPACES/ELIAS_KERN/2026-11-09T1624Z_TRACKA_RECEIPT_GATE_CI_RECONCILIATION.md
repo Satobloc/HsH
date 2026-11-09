@@ -122,7 +122,10 @@ The deterministic next ring label is Nadir Voss. No authenticated active Nadir C
 
 A Common handoff and Nadir inbox append were created and independently read back:
 - Common handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1624Z_from_s2_to_s3_nadir_voss.md`, blob `87cb7ba2ffe6cf9dd0a274455046d5011e189d37`, commit `9a560a63e7e129c09f9a50ff4625541ec7ebd118`.
-- Nadir inbox: `WORKSPACES/NADIR_VOSS/INBOX.md`, previous blob `8148705975a1651c98cc827c5c1dde217aee3ee3`, final blob `0e9dfc6b763107a240ea8e48e45a53b5c9fa0b9d`, commit `4b59a76bf09ee25996cf43b502dcefe27b579cb2`; exact appended suffix readback PASS.
+- Nadir inbox initial append: previous blob `8148705975a1651c98cc827c5c1dde217aee3ee3`, first appended blob `0e9dfc6b763107a240ea8e48e45a53b5c9fa0b9d`, commit `4b59a76bf09ee25996cf43b502dcefe27b579cb2`, exact suffix readback PASS.
+- Publication-status handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T1624Z_from_s2_to_s3_nadir_voss_AMENDMENT_01.md`, blob `03acc7762eda6169f3106dd613a71b5e617ace21`.
+- Nadir inbox publication update: previous blob `0e9dfc6b763107a240ea8e48e45a53b5c9fa0b9d`, final blob `3fd7f37d1adc691106dd023b5b04a5072eb39510`, commit `1ff8fcf32ab90227423098f11fabb94f146afffc`, exact suffix readback PASS.
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T1624Z_s2_elias_kern_AMENDMENT_02.md`, blob `e53a9d15210b5dcd5a3c13ac20ff14b7295f60d0`.
 
 The packet is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. It makes no request to inspect, continue, modify, calculate in, or promote Nadir's independent all-plus SO(4)/stacked-holonomy playground, and assigns no physical-system or P2 work.
 
