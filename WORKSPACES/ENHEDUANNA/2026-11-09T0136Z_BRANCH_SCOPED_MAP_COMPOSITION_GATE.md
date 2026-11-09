@@ -95,7 +95,13 @@ The formalization proves only the abstract conditional map-composition contract.
 - Existing Math Hopper issue #578 / PR #991, Lean infrastructure PR #262 and relevant Lean PRs #790, #951, #1133, #1455, #873, plus Whirligig Kernel 0, were checked. The existing Aster ArchiveEQ0049 projection-coherence theorem was read and reused conceptually; no duplicate generic coherence theorem was added. SciSpace is available but unnecessary for this internal source/architecture question.
 - No local repository checkout was present. The existing issue publisher is suitable for the public report; no existing Actions writer was found for an arbitrary Enheduanna workspace report. Direct GitHub connector writes are the fallback used for the draft PR and worker-local record.
 
-## 6. Physical and project boundaries
+## 6. Publication status
+
+The public-safe summary was submitted through the existing HsH issue publisher as issue [#1509](https://github.com/Satobloc/HsH/issues/1509), submission ID `enheduanna-branch-scope-map-composition-20261109t0136z-s3-001`. Declared content SHA-256: `2d5bc28bb2518b0ad013a3b122d4b47e7e9ef9aa4963584b09eb8048886eac5d`; expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-branch-scope-map-composition-20261109t0136z-s3-001.md`.
+
+At the last check, issue #1509 had no publisher comment and the expected artifact returned 404. Status is **`SUBMITTED_NOT_VERIFIED`**, not published. The issue payload's content length and declared digest match the independently prepared UTF-8 content; publisher execution/readback remains pending. No second issue or direct artifact write was made.
+
+## 7. Physical and project boundaries
 
 No physical system, measured dataset, units, calibration, uncertainty/covariance, fit, numerical prediction, falsification threshold, or empirical validation was supplied or calculated. No data-free physical fixture or numerical test was created.
 
@@ -107,7 +113,7 @@ No physical system, measured dataset, units, calibration, uncertainty/covariance
 - FIE rereview is due 2026-11-10, not yet performed in this run.
 - Unrelated reading: HSH_RESOURCES Babbage, *Reflections on the Decline of Science in England*, lines 1521–1560 read; next cursor 1561.
 
-## 7. Return cursor
+## 8. Return cursor
 
 `BRANCH_SCOPE_LOCK / B0-OCT09 → B1-KLEIN-FABRIC → B2-FOREST-++++ / MAPS-UNMAPPED / PR1508-MERGE-REF-LEAN-PASS-EXACT-MODULE-MATCH / NO-PHYSICAL-PREDICTION / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / NEXT=TERN-ROOK-OPTIONAL-CONTEXT`
 
