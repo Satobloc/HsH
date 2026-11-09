@@ -288,7 +288,7 @@ A reusable acquisition product must carry: sensor, optics, view frame, modality,
 ## 2026-11-09 h697:s3 | :36 branch-scoped map composition gate
 
 - Added source-grounded branch-scope lock to the architecture/prediction workflow. Historical Oct 9 local-radiality/time-normal branch, Oct 21 Klein-Fabric common-model statement, and Oct 21 Forest-normalization convention remain distinct; no source-defined transition maps were recovered.
-- Exact primary raw blobs and outer user-role messages were inspected; see `2026-11-09T0136Z_BRANCH_SCOPED_MAP_COMPOSITION_GATE.md` and public issue to be submitted through the existing publisher.
+- Exact primary raw blobs and outer user-role messages were inspected; see `2026-11-09T0136Z_BRANCH_SCOPED_MAP_COMPOSITION_GATE.md` and public issue #1509 (`SUBMITTED_NOT_VERIFIED`; no publisher comment or artifact readback yet).
 - New draft PR #1508: `research/enheduanna-branch-scoped-map-composition-20261109t0136z`, head `8647396cb5a3ce4803720a02982bc9af1a12df96`. Lean Actions run #42547294085 / job #128934928067 SUCCESS on merge reference `65a3e601952ff41b28633b57f7c56195f911c24c`; exact new module and aggregator blobs match PR head. Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0, 8,945 jobs. Two new theorems report no axioms; identity transport reports `propext`. Tests, lint, nanoda and global axiom audit were not run. PR remains draft/open/unmerged.
 - This is an abstract map-composition contract, not proof that any physical branch transition exists. No physical calculation, data-free fixture, prediction, or theory promotion.
 - Mersearch remains unavailable in this runtime; all four bridge lanes are occupied. Three-repository front doors and bounded repository searches were used, not represented as Mersearch.
