@@ -20,7 +20,7 @@ A later ID-specific automation peek during this invocation returned the same run
 - Status: `IN_PROGRESS`
 - `completed_at=null`, `chat_ref=null`
 
-The returned `started_at` value changed by **27m9.525000s**. The connector exposes no per-peek observation timestamp, attempt identifier, or complete run history. This is a changed field in a same-ID snapshot, not proof of a retry, restart, duplicate execution, backend cause, worker identity, or liveness.
+The returned `started_at` value changed by **27m9.525359s**. The connector exposes no per-peek observation timestamp, attempt identifier, or complete run history. This is a changed field in a same-ID snapshot, not proof of a retry, restart, duplicate execution, backend cause, worker identity, or liveness.
 
 ## Separate task metadata and result pointer
 
