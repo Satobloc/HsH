@@ -19,7 +19,7 @@ theorem two_stage_composition_error_bound
     {X Y Z : Type*}
     [PseudoMetricSpace X] [PseudoMetricSpace Y] [PseudoMetricSpace Z]
     (f f' : X → Y) (g g' : Y → Z)
-    (L ε₁ ε₂ : ℝ≥0)
+    (L ε₁ ε₂ : NNReal)
     (hLip : ∀ y₁ y₂, dist (g y₁) (g y₂) ≤ (L : ℝ) * dist y₁ y₂)
     (hFirst : ∀ x, dist (f x) (f' x) ≤ (ε₁ : ℝ))
     (hSecond : ∀ y, dist (g y) (g' y) ≤ (ε₂ : ℝ)) :
@@ -47,7 +47,7 @@ theorem three_stage_composition_error_bound
     [PseudoMetricSpace X] [PseudoMetricSpace Y]
     [PseudoMetricSpace Z] [PseudoMetricSpace W]
     (f f' : X → Y) (g g' : Y → Z) (h h' : Z → W)
-    (L₁ L₂ ε₁ ε₂ ε₃ : ℝ≥0)
+    (L₁ L₂ ε₁ ε₂ ε₃ : NNReal)
     (hLipG : ∀ y₁ y₂, dist (g y₁) (g y₂) ≤ (L₁ : ℝ) * dist y₁ y₂)
     (hLipH : ∀ z₁ z₂, dist (h z₁) (h z₂) ≤ (L₂ : ℝ) * dist z₁ z₂)
     (hFirst : ∀ x, dist (f x) (f' x) ≤ (ε₁ : ℝ))
@@ -79,7 +79,7 @@ theorem two_stage_nonexpansive_error_bound
     {X Y Z : Type*}
     [PseudoMetricSpace X] [PseudoMetricSpace Y] [PseudoMetricSpace Z]
     (f f' : X → Y) (g g' : Y → Z)
-    (L ε₁ ε₂ : ℝ≥0)
+    (L ε₁ ε₂ : NNReal)
     (hL : (L : ℝ) ≤ 1)
     (hLip : ∀ y₁ y₂, dist (g y₁) (g y₂) ≤ (L : ℝ) * dist y₁ y₂)
     (hFirst : ∀ x, dist (f x) (f' x) ≤ (ε₁ : ℝ))
