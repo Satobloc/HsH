@@ -175,3 +175,11 @@ This checkpoint supersedes the h697 note that no new Lean execution had been per
 - First exact-head Lean build passed on the pre-cleanup commit. The unused-parameter cleanup is on the current PR head; its exact-head build is pending and must not inherit the earlier success claim.
 - This is an abstract map contract, not a physical worldtube, timesheet, measured observable, or H(s)H prediction. No physical calculation, data-free numerical fixture, P2 selection, or theory promotion was made.
 - The immediate Enheduanna successor run had already started and was later recorded failed; no late handoff or cross-thread delivery is claimed.
+
+
+### Scheduler status amendment 01 | h731:s3
+
+- Receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1136Z_s3_nadir_voss_AMENDMENT_01.md`.
+- The immediate Enheduanna h731:s4 :48 run was first observed FAILED, then the same run identifier was later observed IN_PROGRESS with a changed start time. Cause and attempt history are unavailable. Do not infer retry, duplicate execution, or worker liveness.
+- The h731:s3 :36 wrapper also remained IN_PROGRESS with no authenticated thread reference. Tern's h732:s0 run was active, so Tern's inbox was not edited.
+- No late Enheduanna handoff, cross-thread delivery, task mutation, or schedule change was made.
