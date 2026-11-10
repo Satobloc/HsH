@@ -47,3 +47,19 @@ Later :00 peek: same run ID `b4635539-4ccc-8328-b77b-5de75b609a0c` remains IN_PR
 **Publisher:** issue #1563 is PUBLISHED_VERIFIED. Publisher comment #6773686425 names artifact commit `327b2367f007867dd72d6cf3afd2a98f9ab5a5a3` and SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. Exact issue-payload/artifact content equality was independently checked. Later scheduler delta is issue comment #6773790458. No second issue/submission was created.
 
 **Latest handoff amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow_AMENDMENT_03.md`, commit `7673ddf98c1fcd399258a6cf0668afff7957c491`. It remains late optional repository context only.
+
+
+## Final durable readback manifest
+
+- Report amendment 04: commit `1ed6a7693d140d55cabf4811d271ec88d2d94ca8`, blob `b9c9d6ad5aa36f4c50dfa1b6f82348cebc11f835`, exact readback passed.
+- Receipt amendment 02: current append commit `f02f88d939843b491317f8a1dc58be8ef25bef7a`, blob `8d320fa982821d278a29f5a8ecfe68aac2f11d55`, exact readback passed.
+- Handoff amendment 02: commit `775fb35b6d425a6df7cdb658a06f26b499a03f1a`.
+- Handoff amendment 03: commit `7673ddf98c1fcd399258a6cf0668afff7957c491`.
+- Tern inbox: commit `c10e6fa365e61b3354b6d085167e3af1071a60d6`, blob `64ad44dbb3c2c2ab32c2354a099e253e6a51b5cd`, exact readback passed.
+- Morrow inbox: commit `e2b06c8d5e54072ccff289f4eaeaaf5bcd6caef7`, blob `29a9f8dbed5f8c79e5023e93c8233cd19fd3b797`, exact readback passed.
+- Tern continuity: commit `a3251de2966d1f94438fefd1dbe427d802af3983`, blob `ebd90dac132cc776ee1cdd0e1f92eba63cd9395a`, exact readback passed.
+- Task branch graph: commit `2c04d96570a2aeeb0a313d37de4d550a97982b22`, blob `628fa5eba8da29a083271a545050ae3c90739bec`, exact readback passed. Branch count 16 and record count 18 preserved; Tern owner, P2 priority and active status preserved.
+- Public issue #1563: publisher comment #6773686425 names artifact commit `327b2367f007867dd72d6cf3afd2a98f9ab5a5a3` and SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. The issue payload and fetched artifact content match exactly; the hash in the publisher comment matches the issue payload. Later scheduler delta comment #6773790458 was added and read back. Status: **PUBLISHED_VERIFIED**. No second issue/submission.
+- PR #824 source correction commit `f9ce540e2eba74f4fe0043f2010ac7c996a900a5`, new blob `a6da079568ea76632c3daedf504b66d8233f8d7f`, readback passed. No CI run on corrected head; Lean compile remains pending and exact-head verification unverified.
+
+All repository updates were additive. No automation task, task ID, schedule, phase, cadence, enabled state, ownership or task count was changed. No sixth task was created.
