@@ -1119,3 +1119,35 @@ Existing Morrow→Kestrel handoff `2026-11-08T1103Z_from_s4_to_s0_kestrel.md` wa
 - Optional repository-only handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2100Z_from_s0_to_s1_kestrel.md. No cross-thread delivery or acknowledgment claimed. The :12 lease remains disabled.
 - Existing :00 task ID, exact hourly schedule, and phase unchanged. No sixth task, task/ID/cadence change, signet, or chat rename.
 
+
+
+## h728:s2 — Mersearch lane binding and source-custody gate (2026-11-10T08:24Z nominal)
+
+**Selection:** h=728, seq=3642, ring index 13 Morrow; successor Kestrel index 14. Deterministic selection is not authenticated thread identity. No current Morrow thread was established; current :24 scheduler `chat_ref=null`.
+
+### Source authority and scope
+The original Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` was checked from fuller raw snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Direct user nodes: Team Archivist assignment `402ade01-7116-4efb-9b14-31e477754458`; theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; later archive/maintenance trial `99ae959b-fbeb-4c1e-9326-a6723c2b9557`. The trial does not expressly lift the direct theory stop. Lane 24 was therefore handled as source custody/routing only.
+
+### Mersearch lane binding
+Pinned stable 1.0 commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. No Mersearch connector or local three-repository checkout was available. All four actual request lanes remain requested and their current output folders/manifests/compact receipts were not found. Actual lane 1 is `MERSEARCH_REQUEST.json`; lanes 2-4 use their matching lane-specific files/workflows. The extra `MERSEARCH_REQUEST_LANE_1.json` is unbound and is not a fifth lane. This was already recorded in Tern's inbox by Meridian, including correction handoff `2026-11-09T1348Z_from_s4_meridian_to_tern_mersearch_lane1_correction.md`; Morrow independently revalidated it. No duplicate Tern inbox note was added. Lane 1, 3 and 4 already cover SAT-O/Blockwave source retrieval; no duplicate query was submitted.
+
+### CODATA and physical evidence boundary
+Existing source-custody issue #1328 remains the non-duplicated CODATA 2022 / finite-core air-water vortex reference. It records NIST 2022 v9.0, the 2025 adjustment paper, the 133-input/79-adjusted-constant evaluation, the separate G weighted mean of 16 measurements, three correlated pairs and the 3.9 uncertainty expansion. The cited Figshare raw-data metadata/version/inventory/checksum remains unverified. No numerical comparison, fit, prediction, physical calculation or independent measurement was performed. No SAT-O/Blockwave equation was recovered or corrected.
+
+### Freshness and lateral reading
+Aldus completed FIE rereview at 2026-11-10T00:17Z; next due 2026-11-24. No repeat review.
+Babbage remains parked at lines 1701-1740, next 1741, pending old/new blob crosswalk. As an alternate unrelated source after that blocker, read Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 625-1092. This overlaps prior lines 489-780 and 821-860; next cursor 1093. No analogy or theory premise imported. No physical break is claimed.
+
+### Durable artifacts and verification
+- Report `WORKSPACES/MORROW/2026-11-10T0824Z_MERSEARCH_LANE_BINDING_AND_SOURCE_CUSTODY_GATE.md`, blob `5aaa5bfa55faec6dc4f443ce5e815311e798a00b`, exact readback PASS.
+- Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0824Z_s2_morrow.md`, blob `1152b64739dbdbaade5dc0513ab30d5df4832176`, exact readback PASS.
+- Kestrel handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0824Z_from_s2_to_s3_kestrel.md`, blob `e03c12e53a90657961b16e51893670d95c408239`, exact readback PASS.
+- CURRENT_WORK update blob `189ad0d64d41dc31ed382023c6d5dc29571cc4d8`, exact readback PASS.
+- Kestrel :36 run had already started at 08:33:06.472627Z before the 08:36Z nominal time. The handoff is post-start optional context; no consumption or acknowledgment is claimed.
+- No Tern inbox update was made because the existing Tern inbox already contains the Meridian correction. No new issue, PR, public submission, branch, tool, or dependency.
+
+### Campaign and scheduler
+P0 ACTIVE; P1 November 9 overdue/NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. Orson's cognition remit remains protected. No paper gate advanced.
+The :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `1bc54ed9-a350-8325-b163-31d07cb35cd6` was IN_PROGRESS/chat_ref=null at last readback. No task, ID, schedule, phase, cadence, signet or conversation name changed; no sixth task.
+
+**Next exact operation:** await a genuine Mersearch lane release and verified request-scoped receipt. Then recover original SAT-O/Blockwave equations with exact source dates and blob SHAs, preserving verbatim originals and keeping any corrections in separate artifacts. Morrow remains source-custody only unless Nathan explicitly changes the specialist boundary.
