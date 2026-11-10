@@ -1005,3 +1005,16 @@ Full report: `WORKSPACES/MERCER/2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer.md`, blob `9d4c791ffe04e710b12b80e3372004f98061e2b1`.
 - Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2024Z_from_s2_to_s3_ravel.md`, blob `2dea8e618f735be484f4f933b92a8fe23b378303`. Ravel inbox append verified. Packet is POST_START_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY.
 - Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, exact original hourly America/New_York :24 schedule, enabled state and phase preserved. Run `6c243055-8474-8321-a156-08b4f9fdaac5` scheduled 20:24Z, started 20:56:21.583611Z, still IN_PROGRESS at final peek, `chat_ref=null`; cached latest result is h739, not h740. No task/prompt/ID/cadence mutation; no sixth task.
+
+
+### Run 165 addendum | 2026-11-10T2125Z | later same-run-ID scheduler snapshot
+
+This is a reconciliation addendum to the existing h740:s2 activation, **not a new Mercer run number or duplicate report**.
+
+The same :24 run ID `6c243055-8474-8321-a156-08b4f9fdaac5`, scheduled 20:24Z, was previously recorded with `started_at=20:56:21.583611Z`. A later exact-ID peek returned `started_at=21:25:54.071229Z`, a change of 29m32.487618s. Both snapshots report IN_PROGRESS, `completed_at=null`, and `chat_ref=null`. No attempt-history identifier or cause is exposed; do not infer retry, restart, duplicate, worker identity or liveness.
+
+The task remains enabled with its original ID and exact hourly America/New_York :24 VEVENT. Task-level last_run_time/updated_at and cached latest_result remain prior h739 values. Cached output is not h740 work. See canonical receipt Amendment 02 and Tern observation `TERN-H740-SCHEDULER-OBS-002`.
+
+Current main was independently compared from the h740 report baseline: 31 commits ahead, zero behind, with no protected P0 route file changed. The eight protected P0 blobs were fetched again and all eight matched. The prior 30/30 assertion result is retained from the original h740 report; it was not rerun in this addendum.
+
+Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer_AMENDMENT_02.md`. No task configuration, prompt, schedule, phase, cadence, enabled state or ownership was changed; no sixth task was created.
