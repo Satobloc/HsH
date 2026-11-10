@@ -52,4 +52,4 @@ The :36 h742:s3 Hale occurrence had previously completed without a durable prede
 - Immediate successor Nadir h743:s0 had already completed before this delayed :48 execution; the existing report explains why no new Nadir handoff was warranted. No direct thread delivery, consumption, or acknowledgment is claimed.
 - No task ID, enabled state, VEVENT, phase, cadence, prompt, branch ownership, or conversation name was changed. No sixth task.
 
-**Classification:** `INCOMPLETE_EXISTING_RUN_KEY — SCHEDULER_SNAPSHOT_AMENDED`. Repository readback is required before treating this amendment as durable.
+**Classification:** `INCOMPLETE_EXISTING_RUN_KEY — SCHEDULER_SNAPSHOT_AMENDED`. Repository readback after creation was completed with an exact-content match.
