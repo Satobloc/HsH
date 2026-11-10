@@ -670,3 +670,8 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - Key geometry distinction: the 2025 SAT4D/SAT-O1 source uses a 1D curve `γ¹(λ)`; a historical assistant sandbox uses a 2-parameter carrier family `Γ(s,τ)` plus synchronized moving-sheet sampling. A map between them is not source-defined. Full 2D carrier × fixed 3D timesheet generically yields a 1D intersection; a point readout needs a fixed-τ section/selection map and regularity conditions.
 - Related source records and Lean CI limits are in the receipt and issue #1561. No new Lean module, physical calculation, CODATA, theory promotion, paper advancement, or BEDROCK change.
 - :12 remains disabled. This is late optional repository context only: no task, response obligation, review request, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
+### Amendment 01 — h732 publication verified
+
+- HsH issue #1561 publisher comment #6767776971 confirms commit `9ec3eba8a11931d6dce238783f291c6fe3b92b93`.
+- Published artifact blob `0cdecee4b7edbff9264487293b288e353cf8b335`, 14,828 bytes; SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`; exact issue-body/artifact readback PASS.
+- Status `PUBLISHED_VERIFIED`; no retry. Handoff remains optional context only, no task or response obligation.
