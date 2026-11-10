@@ -53,14 +53,12 @@ theorem imageProjection_surjective (P : Wf → Of) :
   exact hw
 
 /--
-If the coarse-projected result is constant on fibres of the fine projection,
-choose any representative of an observed image point and evaluate the
-coarse-projected result there. Fibre constancy makes the choice immaterial.
+Choose a representative of an observed image point and evaluate the
+coarse-projected result there. Fibre constancy, when it holds, makes the
+choice immaterial.
 -/
 noncomputable def inducedCoarseGraining
-    (P : Wf → Of) (C4 : Wf → Wc) (Pcoarse : Wc → Oc)
-    (hFiber : ∀ x y, P x = P y →
-      Pcoarse (C4 x) = Pcoarse (C4 y)) :
+    (P : Wf → Of) (C4 : Wf → Wc) (Pcoarse : Wc → Oc) :
     Set.range P → Oc :=
   fun y => Pcoarse (C4 (Classical.choose y.property))
 
@@ -69,7 +67,7 @@ theorem inducedCoarseGraining_factors
     (P : Wf → Of) (C4 : Wf → Wc) (Pcoarse : Wc → Oc)
     (hFiber : ∀ x y, P x = P y →
       Pcoarse (C4 x) = Pcoarse (C4 y)) :
-    ∀ w, inducedCoarseGraining P C4 Pcoarse hFiber
+    ∀ w, inducedCoarseGraining P C4 Pcoarse
       (imageProjection P w) = Pcoarse (C4 w) := by
   intro w
   have hmem : P w ∈ Set.range P := ⟨w, rfl⟩
@@ -96,7 +94,7 @@ theorem factorization_iff_fiberwise
         congrArg C3 (Subtype.ext hxy)
       _ = Pcoarse (C4 y) := hC3 y
   · intro hFiber
-    exact ⟨inducedCoarseGraining P C4 Pcoarse hFiber,
+    exact ⟨inducedCoarseGraining P C4 Pcoarse,
       inducedCoarseGraining_factors P C4 Pcoarse hFiber⟩
 
 /-- The induced coarse-graining is unique on the projected image. -/
