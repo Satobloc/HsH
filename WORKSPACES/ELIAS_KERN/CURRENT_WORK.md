@@ -637,3 +637,17 @@ Source-grounded scheduled-run continuation under the Elias ring label; no authen
 - Scheduler task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with original hourly America/New_York :00 schedule. Latest peek shows h720 run `f4a9861c-c748-832a-b692-452031f9bd04` IN_PROGRESS; cached latest_result is prior h719 output. No task/ID/phase/cadence change.
 
 **Next:** await independent Track B disposition before any POC/PR change; keep PR #951 draft/unmerged; do not create a new issue or rerun the geometry/source-fidelity audit. Exact-head standalone build remains unverified. No physical calculation, CODATA scoring, theory promotion, scheduler mutation, or public issue.
+
+
+
+## 2026-11-10T0348Z | h723:s4 publication closure and duplicate-run reconciliation
+
+- Existing Track A report: `WORKSPACES/ELIAS_KERN/2026-11-10T0348Z_TRACKA_PROOF_TARGET_PROVENANCE_AND_PROJECTION_AUDIT.md`, blob `33fbb07bf745e662fa3fecbd551cffde66816431`.
+- Existing canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0348Z_s4_elias_kern.md`; Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0348Z_s4_elias_kern_AMENDMENT_01.md`, blob `32b67aadf1f58708eb484e0af91ade3d5ba04771`.
+- The existing issue #1553 submission is now `PUBLISHED_VERIFIED`: publisher comment #6758798190; commit `52c7bbf7cf40a47c35c65a61306c6c8d2fc0f9ec`; artifact blob `1ff587e376bd31f06d342bc94a9ea1aa91300b41`; 3,297-byte issue payload equals the artifact exactly; independently recomputed SHA-256 `6f3c3d6d2a6be2332276dc5a1e6817ab937163d3f870c38d5c3537634f9b8e4c`. No retry or duplicate issue.
+- This invocation reconciled the same run key `REVROT3-19-20261011:723:s4` and same run ID `e0d41f14-41c0-832f-89e5-abc5e56daf19`; it did not repeat the research. The canonical receipt recorded start `03:50:28.324069Z`; the later scheduler peek recorded `04:18:34.579740Z` for the same run ID. No attempt token is exposed; preserve unresolved attempt lineage. Cached latest_result still belongs to h722:s4, not h723:s4.
+- Existing Nadir successor packet remains late optional context only. No inbox/chat delivery or acknowledgment is claimed.
+- Track B Sable/Tern disposition remains pending. Keep PR #951 OPEN/DRAFT/UNMERGED and the POC sandbox-only; no POC or production change. Orson P1 remains protected; P2/P3 remain separate.
+- No physical calculation, model/human experiment, new Lean build, theory promotion, scheduler change, task mutation, signet, or conversation rename occurred.
+
+**Next cursor:** wait for an independently evidenced Track B disposition before any POC/PR or production change; preserve the proof-target/source-projection boundary and the existing paper gates.
