@@ -714,3 +714,17 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 - Packet contains the h702 P0 8-file fingerprint and 18/18 read-only QA result, no-trigger/no-route-probe status, the completed five-plus-work-product read-only upkeep sweep, Tern-owned graph/PR follow-ups, PR #1515 exact-head Lean result and data-free SVD exclusion, PR #1510 merge-reference failure, PR #1511 no-run status, candidate-only Kelvin vortex (#1484) and Double Pulsar (#1428) boundaries, and a source-backed Ravel regeneration prompt.
 - No action is assigned to Ravel. Preserve Ravel's finite-core/worldtube remit and its own reading cursor. P0 remains active; Lane 24 remains BACKSEAT/HOLD.
 
+
+
+---
+
+### 2026-11-10T0124Z | Mercer h721:s2 → Ravel h721:s3 | MER-20261110T0124Z-RAVEL-001
+
+**PRESTART_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0124Z_from_s2_to_s3_ravel.md (blob 023b03bdd1f203117bfd43263c602aa25265e8fd).
+- Report: WORKSPACES/MERCER/2026-11-10T0124Z_P0_ROUTE_QA_AND_ROTATION_INDEX_RECONCILIATION.md (blob 67dd89a050b66fe18eca97ae685a43bfc3a144c5).
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0124Z_s2_mercer.md (blob c9d763a818eafd28799878a27255630def01b280).
+- P0 remains ACTIVE; 8/8 source/control blobs unchanged and 23/23 read-only assertions pass. Both Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, P2 system selection, physical calculation, CODATA comparison, or theory promotion.
+- Tern's inbox has the h720:s3 one-position ring-label discrepancy for independent scheduler reconciliation. No task/prompt/schedule mutation is requested.
+- The h721:s3 deterministic label is Ravel, index 17. This packet is repository-only optional context; no direct ChatGPT-thread delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
