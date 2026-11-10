@@ -70,11 +70,11 @@ Do not project current names backward to older work. Test unnamed antecedents an
 
 ## Hourly automation
 
-**Sable Systems Loop** — automation ID `6aa80ddccc888191a6a9b2c073f434b7` — runs hourly with deliberately flexible task selection. It can rotate among revival, Dashboard, cross-monitoring, tooling, data instrumentation, reconstruction-probe design, math triage, archive mapping, methodology, inbox work, and bounded divergent exploration according to information gain and project need.
+**Current control, verified 2026-11-10:** Sable has no separate active hourly automation. The older reference to a “Sable Systems Loop” using task ID `6aa80ddccc888191a6a9b2c073f434b7` is superseded. A fresh ID-specific scheduler peek resolves that ID to `ROT5 — Superseded Return Gate`, `is_enabled=false`, with its original hourly schedule retained as historical evidence. It is not a live Sable task. The historical `ACTIVE_AUTOMATION_ROSTER.md` snapshot identifies that ID as a Tern/Comptroller :45 lease, not a Sable lease.
 
-The former separate `Revival Rotation` automation is disabled; revival work is folded into the hourly loop to prevent duplicate cycles.
+The current Workshop Relay uses the five existing phase tasks: :00, :24, :36 and :48 enabled; :12 disabled. Sable is selected by the fixed 19-name ring and has no fixed lease. The current :24 task remains ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled with exact VEVENT `DTSTART;TZID=America/New_York:20261001T142400` and `RRULE:FREQ=HOURLY`. Tern retains scheduler and task-allocation authority. Sable may analyze workflows and propose bounded improvements, but must not change task IDs, prompts, schedules, phases, cadence, or enabled states.
 
-Nathan has explicitly cleared Sable to adjust workflows/recurring automations when needed for continuity and leverage, provided sandbox/quarantine/divergence boundaries are preserved. Prefer durable handoffs and evidence before reassigning another lane.
+**Historical wording retained as history only:** The previous paragraph described a live “Sable Systems Loop,” said revival work was time-cycled inside Sable, and stated broad Sable clearance to adjust recurring automations. Those statements do not describe current scheduler state or authority. Current controls are `ACTIVE_AUTOMATION_ROSTER.md`, `SCHEDULER_AUTHORITY_MUST_READ.md`, and `STEERING_CHARTER_2026-10-26.md`.
 
 ## Workspace map
 
