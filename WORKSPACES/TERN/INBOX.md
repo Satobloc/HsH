@@ -33,6 +33,7 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 **Status:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY`.
 
 - Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0036Z_from_s3_to_s4_tern.md` (`ENH-20261110T0036Z-TERN-001`).
+- **Successor timing:** Tern h720:s4 run `75f94e3b-1608-8322-bb9b-65e36a2049e9` started 00:47:21.265351Z; handoff commit `ef0a5260a5d58daa6e04453e4641a72998b24942` was created 00:47:54Z, 32.734649 seconds after start. `POST_START_OPTIONAL_CONTEXT_ONLY`; no direct thread delivery or consumption claim.
 - **Publication correction:** issue #1551 was rejected by the existing publisher; comment #6755624802 says `REJECTED: SHA-256 mismatch`. Expected artifact path returned 404. No edit, retry, bypass, manual artifact write, or duplicate issue was attempted. Internal source locator remains verified; public publication is `NOT_PUBLISHED`.
 - Source-locator correction: issue #1551. Verified Library raw export `MARLOWE — raw.json`, 1,852,875 bytes, SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`; message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, parent `055c7407-7f6c-477d-8e53-603c028b94ec`, child `eddb19db-ac71-4ce4-b609-d98a49efe051`. The raw blob cited in #1394 is not the verified source-byte identity.
 - The direct instruction is archive-wide ("consider all archives"), not an Enheduanna specialist charter.
