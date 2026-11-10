@@ -163,3 +163,8 @@ No automation ID, prompt, schedule, phase, task count or cadence was changed. No
 5. Only after 1–4, freeze a distinctive observable, shared parameters, standard comparator, holdout unit map and uncertainty-derived falsification threshold before opening the holdout.
 
 **Return pin:** `H723:S3 / HALE-LABEL / MODEL-SELECTION-HARD-GATE-STRENGTHENED / LEAN-MERGE-REF-BUILD-PASS / MODULE-BLOB-MATCHES-HEAD / PR1487-OPEN-DRAFT / PR1538-EXACT-HEAD-BUILD-PASS / P2-HOLD / NO-PHYSICAL-PREDICTION / MERSEARCH-LANES-OCCUPIED / FIE-FRESH / LATERAL-READING-1041 / AUTOMATIONS-UNCHANGED`
+
+
+### Timing amendment — h723:s3 → h723:s4 optional context
+
+A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:50:28.324069Z` with no `chat_ref`. The handoff packet commit was created at `03:52:38Z`; the Elias inbox append commit was created at `03:52:48Z`. Therefore this packet is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start context. No consumption, reading, acknowledgment, thread delivery or ownership transfer is claimed.
