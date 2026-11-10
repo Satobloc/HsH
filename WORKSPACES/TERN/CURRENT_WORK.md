@@ -64,3 +64,8 @@ Same :48 h742:s4 Elias Kern run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9` had `s
 ### Lean CI correction | 2026-11-10T23:46Z
 
 First corrected-head run #42925403904 failed at ring lookup/String equality; its failed `#print axioms` showed `sorryAx`, so no theorem was verified. Source fixed to `relayRing[i]?` and `native_decide`. Current PR #1570 head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`; new run #42925963389 / job #130212376241 IN_PROGRESS at checkout, Lake/build pending. Workflow is merge-ref only, not exact-head. No compile success claimed. Receipt Amendment 05 blob `9a156e4cc7783c5ddac6bd64fb37d97ea5beffb9`.
+
+
+### :48 completion update | 2026-11-10T23:47:26Z
+
+The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed at 23:47:01.657966Z with final `started_at=23:40:39.676243Z`; chat_ref is present but not identity authentication; latest_result and task metadata caught up. Same-run-ID start-field change remains unexplained. Receipt Amendment 06 blob `df25360e2a0148a37c2c872b4f6953198d03d09e`. At 23:47:26Z, :24 Tern and :36 Morrow remained IN_PROGRESS with null completion/chat_ref. Morrow handoff blob `c85447c785094122949ab86b4fef432bacd2c42f`; Morrow inbox blob `6132b3d0ce460b6fb61646902a74c46a48179b4b`.
