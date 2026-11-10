@@ -779,3 +779,11 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1324Z_s2_sable_AMENDMENT_01.md`, blob `2b912143d83e0a82f39b6f6685df62d397316212`, exact readback verified.
 - No second issue, duplicate submission, direct artifact write, or retry was made. The rejected issue remains the single submission record. The full report content remains visible in the issue body and this conversation.
 
+
+
+## 2026-11-10T1348Z | h733:s2 | same-run-ID scheduler snapshot amendment
+
+- Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1324Z_s2_sable_AMENDMENT_02.md`, blob `7390a970dc04fcf4d6189e31f1ca9a6dcd1edf94`.
+- The existing :24 task remains enabled with unchanged ID and exact hourly :24 VEVENT. Run `db428a94-4cec-8322-ac07-dabe234ba08d`, scheduled 13:24Z, remains IN_PROGRESS with `completed_at=null` and `chat_ref=null`; its reported `started_at` changed from 13:20:12.278558Z in the canonical receipt to 13:47:59.023451Z in the later peek (delta 27m46.744893s). Cause and attempt history are unknown.
+- Task-level `last_run_time` and `updated_at` remain at 13:07Z; cached latest result is the prior Kestrel h732:s2 run, not this occurrence. Do not infer retry, restart, duplicate execution, liveness, identity, or delivery.
+- Tern inbox observation `TERN-H733-SCHEDULER-OBS-002` appended and readback verified. No scheduler configuration or task count changed.
