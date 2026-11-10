@@ -10,10 +10,18 @@ methodological preference for human-graspable geometric models. It is not a
 Nathan Direct theorem and it is not a physical model.
 
 The hard-gate propositions are external evidence obligations. They must be
-established from source-authorized maps, an identifiable measured system,
-versioned data and uncertainty, a matched standard comparator, frozen shared
-parameters, and an independent holdout. Lean does not establish any of those
-premises.
+established from source-authorized maps, an identified evaluation system,
+versioned/provenanced data, declared measurement scales and units, an
+uncertainty model, a matched standard comparator, nuisance-adjusted
+identifiability, frozen shared parameters, an authenticated acquisition-unit
+map, a holdout partition that respects that map, an untouched/unrefitted
+holdout, and a prediction/falsification protocol frozen before holdout access.
+
+The acquisition-unit distinction is deliberate: a Lean theorem can show that
+fold assignment factors through a declared unit map, but it cannot authenticate
+that the map corresponds to real independent acquisitions. Likewise, a
+predeclared threshold must be justified from the real uncertainty model; this
+module supplies neither a numerical threshold nor a physical prediction.
 
 The empirical-equivalence and human-preference relations are also inputs.
 This module proves only that an intelligibility preference is admitted as a
@@ -44,16 +52,46 @@ def noMoreComplex (a b : ComplexityFootprint) : Prop :=
   a.discrepancyDegrees ≤ b.discrepancyDegrees ∧
   a.externalPriors ≤ b.externalPriors
 
+/-- External evidence packet. For physical systems, the declared units must
+    be physical units; the abstract contract also permits nonphysical
+    empirical domains such as recorded model evaluations. -/
+structure MeasurementEvidence where
+  targetSystemIdentified : Prop
+  datasetVersionedAndProvenanced : Prop
+  measurementScaleAndUnitsDeclared : Prop
+  uncertaintyModelDeclared : Prop
+
+/-- Holdout integrity is split into the real-world unit-map authentication
+    obligation and the formal fold-consistency obligation. The latter is
+    compatible with Calder's factorization theorem; it does not prove the
+    former or statistical independence by itself. -/
+structure HoldoutProtocol where
+  acquisitionUnitMapAuthenticated : Prop
+  partitionRespectsAcquisitionUnits : Prop
+  holdoutUntouched : Prop
+  holdoutUnrefitted : Prop
+  independentHoldoutPasses : Prop
+
+/-- A prediction must be specified before the holdout is opened, and its
+    falsification rule/threshold must be justified by the declared uncertainty
+    model rather than selected after seeing the residuals. -/
+structure PredictionProtocol where
+  predictedObservableDeclared : Prop
+  predictionFrozenBeforeHoldout : Prop
+  falsificationRulePredeclared : Prop
+  thresholdJustifiedByUncertainty : Prop
+
 /-- A candidate model plus the external evidence obligations required before
     an intelligibility preference can affect model selection. -/
 structure Candidate where
   sourceAdmissible : Prop
   mapsDefinedAndComposable : Prop
-  measuredDataAndUncertaintyReady : Prop
+  measurement : MeasurementEvidence
   matchedStandardComparator : Prop
   identifiableAfterNuisance : Prop
   sharedParametersFrozen : Prop
-  independentHoldoutPasses : Prop
+  holdout : HoldoutProtocol
+  prediction : PredictionProtocol
   complexity : ComplexityFootprint
 
 /-- The non-compensatory evidence gate. Each field is a proposition to be
@@ -61,11 +99,45 @@ structure Candidate where
 def hardGate (c : Candidate) : Prop :=
   c.sourceAdmissible ∧
   c.mapsDefinedAndComposable ∧
-  c.measuredDataAndUncertaintyReady ∧
+  c.measurement.targetSystemIdentified ∧
+  c.measurement.datasetVersionedAndProvenanced ∧
+  c.measurement.measurementScaleAndUnitsDeclared ∧
+  c.measurement.uncertaintyModelDeclared ∧
   c.matchedStandardComparator ∧
   c.identifiableAfterNuisance ∧
   c.sharedParametersFrozen ∧
-  c.independentHoldoutPasses
+  c.holdout.acquisitionUnitMapAuthenticated ∧
+  c.holdout.partitionRespectsAcquisitionUnits ∧
+  c.holdout.holdoutUntouched ∧
+  c.holdout.holdoutUnrefitted ∧
+  c.holdout.independentHoldoutPasses ∧
+  c.prediction.predictedObservableDeclared ∧
+  c.prediction.predictionFrozenBeforeHoldout ∧
+  c.prediction.falsificationRulePredeclared ∧
+  c.prediction.thresholdJustifiedByUncertainty
+
+/-- The hard gate exposes every data, unit-lineage, holdout, prediction, and
+    falsification obligation. These are inputs, not facts established by
+    this theorem. -/
+theorem hardGate_requires_measurement_holdout_prediction_evidence
+    (c : Candidate) (h : hardGate c) :
+    c.measurement.targetSystemIdentified ∧
+    c.measurement.datasetVersionedAndProvenanced ∧
+    c.measurement.measurementScaleAndUnitsDeclared ∧
+    c.measurement.uncertaintyModelDeclared ∧
+    c.holdout.acquisitionUnitMapAuthenticated ∧
+    c.holdout.partitionRespectsAcquisitionUnits ∧
+    c.holdout.holdoutUntouched ∧
+    c.holdout.holdoutUnrefitted ∧
+    c.holdout.independentHoldoutPasses ∧
+    c.prediction.predictedObservableDeclared ∧
+    c.prediction.predictionFrozenBeforeHoldout ∧
+    c.prediction.falsificationRulePredeclared ∧
+    c.prediction.thresholdJustifiedByUncertainty := by
+  rcases h with ⟨_, _, hsys, hdata, hscale, hunc, _, _, _, hunit, hpartition,
+    huntouched, hnoRefit, hpass, hobs, hpred, hrule, hthreshold⟩
+  exact ⟨hsys, hdata, hscale, hunc, hunit, hpartition, huntouched, hnoRefit,
+    hpass, hobs, hpred, hrule, hthreshold⟩
 
 /-- Intelligibility is allowed to select between empirically equivalent,
     hard-gate-passing candidates only when the preferred candidate is no more
@@ -111,6 +183,7 @@ theorem intelligibility_cannot_rescue_failed_candidate
   intro h
   exact hfail h.1
 
+#print axioms hardGate_requires_measurement_holdout_prediction_evidence
 #print axioms tieBreak_requires_both_hard_gates
 #print axioms tieBreak_requires_empirical_equivalence
 #print axioms tieBreak_requires_no_greater_complexity
