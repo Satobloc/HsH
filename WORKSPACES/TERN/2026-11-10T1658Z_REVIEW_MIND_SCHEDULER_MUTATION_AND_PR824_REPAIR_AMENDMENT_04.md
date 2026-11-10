@@ -78,3 +78,23 @@ A public-safe control-plane summary was submitted once through the existing issu
 The existing Morrow handoff remains repository-only optional context. A new additive handoff amendment records that the same Morrow h736:s0 run ID later changed from FAILED to IN_PROGRESS with a shifted start time. The packet is late optional context, not a task, direct thread delivery, acknowledgment or ownership transfer.
 
 No automation or task configuration was modified. No sixth task was created.
+
+
+## 6. Later scheduler readback and provenance-pointer non-injectivity (17:02Z)
+
+A further ID-specific scheduler peek after the initial publisher verification produced another state change:
+
+- **:00 h736:s0:** the same run `b4635539-4ccc-8328-b77b-5de75b609a0c` remains IN_PROGRESS with `started_at=16:58:25.255185Z`, `completed_at=null`, `chat_ref=null`. Its preceding same-ID start was 16:28:59.462692Z, a further shift of **29m25.792493s**. The earlier FAILED/completed snapshot at 16:26:47.361171Z remains part of the record.
+- **:24 h735:s2:** the positive enabled/in-progress readback for run `8895ea66-d44c-8324-b969-6695d1c804e8` (start 16:50:15.644502Z, no chat_ref) was followed by another “not found or not accessible” peek. Preserve both. No deletion/disablement is inferred.
+- **:36 h736:s3:** run `3c25a8a5-5f84-8323-8825-92648787587c` remains completed at 16:50:32.155052Z and now exposes `chat_ref=6ae7ff45-d118-83ea-9e33-6277d620feb4`.
+- **:48 h735:s4:** run `7a6400b1-8b04-8329-9d47-ffd3f219d070` remains IN_PROGRESS, started 16:43:56.749035Z, no completion/chat_ref. Its cached latest_result is the older h731:s4 Enheduanna result, not the current run.
+
+### New MIND/provenance finding
+
+The :36 `chat_ref` value `6ae7ff45-d118-83ea-9e33-6277d620feb4` also appears on distinct historical h668:s3 run `8072a6c6-ebd0-832a-9543-f77333634b5f`. The deterministic labels are Orson Vay for h668:s3 and Mercer for h736:s3. Therefore the observed mapping from recorded run IDs to `chat_ref` is **non-injective**. Treat `chat_ref` as a possibly reused scheduler pointer, not a unique worker identity or unique run identity. This does not prove the underlying conversations were identical, that information was shared, or that either label identifies an authenticated instance/thread.
+
+A finite Lean statement could formalize non-injectivity of the recorded metadata relation, but no new theorem was added: the existing PR #824 remains mixed-scope, and no authorized workflow-dispatch action or local Lean/Lake/Elan executable is available. The source typo fix is not a compile result. No formal proof, actual group interaction, causal peer influence, or assistant consciousness claim is made.
+
+## 7. Publisher verification and later delta
+
+Issue #1563 is **PUBLISHED_VERIFIED** for the immutable original artifact. The publisher comment #6773686425 reports the expected artifact path, commit `327b2367f007867dd72d6cf3afd2a98f9ab5a5a3` and SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. The fetched artifact exactly matches the issue payload content; its declared digest matches the publisher comment. The later scheduler delta was appended to the same issue as comment #6773790458. No duplicate issue or second publisher submission was created.
