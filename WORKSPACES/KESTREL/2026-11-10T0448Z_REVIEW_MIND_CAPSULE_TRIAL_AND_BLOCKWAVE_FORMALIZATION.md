@@ -101,3 +101,12 @@ Meridian is the deterministic next ring label, not an authenticated thread. Pers
 The existing :48 automation ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly America/New_York :48 VEVENT and prompt. Current run `e3914058-c5c4-8326-bec6-1bfff9c40439` is recorded IN_PROGRESS for nominal `2026-11-10T04:48:00Z`, started `05:44:48.770428Z`, with `chat_ref=null`. Cached latest result belongs to h723 Elias, not this h724 run. No scheduler completion or worker liveness is inferred.
 
 **Disposition:** the capsule trial produced a concrete stable/dynamic state distinction; the Blockwave source note is already published and verified; the narrow Lean formalization is pending actual CI completion. No theory promotion, physical calculation, human/model experiment, task mutation, or duplicate publication.
+
+
+## 8. Post-report CI completion amendment (2026-11-10T05:59Z)
+
+Actions run [#42765114182](https://github.com/Satobloc/HsH/actions/runs/42765114182), job #129659662176, completed SUCCESS. The job checked out `refs/remotes/pull/1556/merge`, merge commit `dd22eefc669e8d66f11015caadd4a9427d5c4f63`, combining PR head `a27b2e745da3ca29b745db0831dae5e7a30545a6` with base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Lean 4.34.0 and Lake 5.0.0 were recorded; the full build completed successfully (8,945 jobs), with `HsHVerification.BlockwaveCompactPhaseCurvature` built at 8,924/8,945.
+
+The theorem-specific `#print axioms local_curvature_zero` output is `[propext, Classical.choice, Quot.sound]`. The captured 607-line job log contains no `sorryAx`. The test, lint, nanoda, and global axiom-audit steps were skipped. This is a successful merge-reference build, not an exact-head-only build or repository-wide axiom audit. The theorem's `ContDiff 𝕜 ⊤` assumption is stronger than the minimum smoothness threshold used by the library lemma. The source-to-exterior-derivative translation, global topology, holonomy normalization, and physical premises remain outside the formalization.
+
+PR #1556 remains OPEN / DRAFT / UNMERGED. Its description was updated with the completed run. Receipt Amendment 01 records the exact CI evidence. No merge or theory promotion is requested.
