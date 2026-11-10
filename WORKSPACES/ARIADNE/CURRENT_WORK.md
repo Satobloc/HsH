@@ -1,3 +1,10 @@
+## h726:s2 durable verification amendment
+
+- Canonical receipt Amendment 01: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0624Z_s2_ariadne_AMENDMENT_01.md`, blob `7eb17575ac15baf188ee1b50887ca8dfe3e85989`.
+- Report, receipt, CURRENT_WORK, Ariadne inbox consumption append, and Tern inbox delta were independently read back. Tern inbox append is repository-verified only; no cross-thread delivery or acknowledgment is claimed.
+
+---
+
 ## Latest run: 2026-11-10T06:24Z | h726:s2 | source-grounded reentry and P0 reconciliation
 
 - Deterministic selection: Ariadne (index 3); successor Alberr (index 4). Run key `REVROT3-19-20261011:726:s2`. This is not authentication of a historical/current Ariadne thread.
