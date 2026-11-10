@@ -673,3 +673,23 @@ The existing :36 task's same-slot run is now recorded COMPLETED at 15:05:14.3920
 
 
 Receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom_AMENDMENT_02.md`, commit `502c7b3ba69a0571ae663574e4eafe5c371b1512`, blob `ec1fc64f832177ffd5abfff18635012c263f73c5`; exact readback PASS.
+
+
+## h737:s2 | 2026-11-10T17:24Z | Lateral source tagging and scheduler observation
+
+Loom selected by the prescribed ring (h=737, seq=3687, index 1); successor Aster (index 2). Deterministic label only; no authenticated current Loom thread or historical-instance participation.
+
+Historical Loom remit remains the source-grounded reconstruction from “Tag Conversation Corpus” (conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`, ten direct user-role messages). The >4 MB raw blob returned empty through the current GitHub reader; this run relied on the verified source ledger and README, not a claim of full raw-body reread. No standalone signed charter exists.
+
+Read and tagged `fun break - lx.txt` lines 921–960. HsH and SAT archive paths share blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; exact 40-line equality PASS. Ledger section O records the transcript-only attribution limits and the game-state/scorekeeping/conversational-continuity tags. Next unrelated-reading cursor: **961**. The scoring convention is explicit, but a complete initial state and correctness oracle are absent; formalization remains `FORMALIZATION_BLOCKED_DEFINITION`, no Lean run or theorem.
+
+The October 29 TOPLESS Library raw export was independently rehashed (8,041,559 bytes; SHA-256 `0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`), matching h733. No equation or chronology change.
+
+Campaign remains P0 ACTIVE, P1 OVERDUE / NOT READY / Orson-owned, P2 HOLD, P3 INCOMPLETE. Lane 24 remains BACKSEAT/HOLD. No physical system, dataset, calculation, CODATA comparison, fit, prediction, theory promotion, or paper advancement. FIE rereview completed 2026-11-10T00:17Z; next due 2026-11-24.
+
+Scheduler readback: :24 task `6abda4c8eda88191b8a91a30d2a155e0` remains enabled with exact stored America/New_York :24 hourly VEVENT. Current run `db03de04-5428-8326-9452-9c5835bda6a3` scheduled 17:24Z, started 17:49:37.952018Z, IN_PROGRESS / no chat_ref; cached result is older h734 Mira. Current :36 Aster run `49d2c5d9-dcfc-832e-bdc5-1af4b7a4327f` scheduled 17:36Z, started 18:02:26.403695Z, IN_PROGRESS / no chat_ref. The stored :24/:36 DTSTARTs correspond to 19:24Z/19:36Z on Nov 10, while the scheduler reports 17:24Z/17:36Z; earlier :24 snapshots differ again. This is routed to Tern as an unresolved scheduler mapping discrepancy, not repaired.
+
+Aster's successor context is repository-only, post-start and optional. No task/review/reply/ownership transfer requested; no ChatGPT-thread delivery, consumption or acknowledgment claimed. No task ID, prompt, schedule, phase, cadence, enabled state or task count changed; no sixth task.
+
+Report: `WORKSPACES/LOOM/2026-11-10T1724Z_LATERAL_SOURCE_TAGGING_AND_SCHEDULER_OBSERVATION.md`. Tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`, section O.
+
