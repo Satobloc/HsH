@@ -7,7 +7,7 @@
 - Nominal UTC: 2026-11-10T00:00Z.
 - (h=720), (seq=3600), selected label Elias Kern, next label Nadir Voss.
 - Current run `f4a9861c-c748-832a-b692-452031f9bd04` has `chat_ref=null`; the deterministic label does not authenticate an Elias instance/thread.
-- Hale h719:s4 completed after this run began. Its handoff was read afterward as optional context only.
+- Hale h719:s4 handoff was read as optional context only. Timing relative to this run's start is not asserted because scheduler readbacks differed.
 
 ## Main findings
 
