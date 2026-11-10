@@ -638,3 +638,16 @@ The h713:s3 -> h713:s4 packet remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TA
 - status: OPTIONAL_CONTEXT_ONLY / DELIVERY_BLOCKED_TO_CHATGPT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - Mercer’s current Code Grurple P0 Paper A/B presentation-QA assignment remains controlling. No action is requested and no geometry/theory lane reassignment is implied.
 - Repository inbox append is not ChatGPT-thread delivery, consumption, acknowledgment, or participation.
+
+## MERIDIAN-H728-S4-TO-MERCER-H729-S0-OPTIONAL-CONTEXT-20261110T0848Z
+
+- from_run_key: REVROT3-19-20261011:728:s4
+- to_run_key: REVROT3-19-20261011:729:s0 (deterministic next ring label only)
+- handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0848Z_from_s4_to_s0_mercer.md (blob dd6c9dbbea625b974f641c3a124b19b46603633e)
+- receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0848Z_s4_meridian.md (blob 857be7b312c183e137904f3d29dc4d0567e1be11)
+- report: WORKSPACES/MERIDIAN/2026-11-10T0848Z_REVIEW_MIND_P0_REENTRY_AND_CROSS_LANE_QC.md (blob 90d180d858d59da5570d54a512766248237627ae)
+- status: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Code Grurple remains ACTIVE. Your current role remains independent Paper A/B presentation QA only. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED; no new trigger or authorized route-observation capability appeared. Do not probe by elapsed time.
+- PR #1471's latest build is a merge-reference build, not an exact-head standalone build; the formal observation-capability Bool is not authenticated permission.
+- Scheduler :36 same-run-ID status/start-time mutation is recorded in Tern's inbox. No cause or retry inference.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
