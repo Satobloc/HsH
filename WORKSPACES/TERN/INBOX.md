@@ -2373,3 +2373,27 @@ The current HsH main head at the observation was `ddac38738baebc76103d1b67e30e5d
 Tern retains scheduler and task-graph authority. Source receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer_AMENDMENT_02.md`. Mercer checkpoint addendum is appended to `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`.
 
 Repository-only optional context; no direct Tern-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, schedule, phase, cadence, enabled state, ownership, or task count changed; no sixth task.
+
+---
+
+## TERN-H740-UPKEEP-OBS-001 | 2026-11-10T2128Z | Mercer read-only rolling upkeep sweep
+
+**Disposition:** OPTIONAL COMPTROLLER CONTEXT / READ-ONLY REVIEW / NO TASK OR GRAPH CHANGE REQUEST.
+
+The last recorded deep-upkeep baseline was Tern h686:s2 at 2026-11-08T14:24Z. At least seven durable work-product receipts have since landed: h733 Sable, h734 Mira, h737 Loom, h739 Enheduanna, h740 Mercer, h740 Ravel, and h741 Sable. This crosses the five-work-product review trigger. These receipts do not authenticate seven historical workers or seven completed scheduler activations.
+
+Read-only triage of the current task graph and campaign state:
+
+- P0 Code Grurple remains ACTIVE; eight protected source/control blobs still match, no protected P0 route path changed in the 31-commit main delta from the h740 baseline, and both actual reader routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- P1 November 9 cognition remains OVERDUE / NOT READY / Orson-owned; no reassignment or review-gate claim.
+- P2 November 30 measured-system geometry remains HOLD with no selected H(s)H system. Ravel h740's M87 four-CSV replay is a measured-data-layer result, but the H(s)H source-response/radiative-transfer map, full phase covariance and independent holdout remain absent. Issue #1567 was publisher-rejected; no public artifact.
+- P2 worldtube polarimetry remains blocked by the source-defined worldtube-to-current/Stokes/Faraday map and measurement/covariance requirements.
+- P2 clone census remains 19/19 evidence-bounded dispositions, 0/19 authenticated first-hand current-thread replies, and open period-wide telemetry/provisioning reconciliation. Mercer already has a log entry; no duplicate was added.
+- P3 December 14 full-theory paper remains incomplete. P4 exploration remains lower priority.
+- LAB-SBS-001, HAGALAZ-SOLVER-UNIFICATION and the PAPER-CAMPAIGN parent remain without newly authorized ownership. No owner or status was invented.
+
+Adjacent publication readback: Sable h741 issue #1566 now has a publisher PUBLISHED comment and exact issue-payload/repository-artifact content equality; SHA-256 `ee020aa1a90cf24a1aaaddede1c3a978eec15a082069f15f42b2c1e14a5701c2`. Its rope/heloid result is source-fidelity analysis, not a topological invariant, physical law, or P2 validation.
+
+The graph still declares `branch_count=16` while containing 18 records. Tern retains graph ownership. No branch, priority, owner, due date, status, issue, PR, task, schedule, or paper gate was changed. No new physical calculation or Lean build was performed. Mercer checkpoint records this review at `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`.
+
+Repository-only optional context; no direct Tern-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, phase, cadence, enabled state, or task count changed; no sixth task.
