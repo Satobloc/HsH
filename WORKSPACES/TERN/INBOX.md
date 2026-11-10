@@ -1966,3 +1966,17 @@ Stored VEVENT DTSTARTs remain:
 The same runs report scheduled_for 13:36Z, 13:48Z, and 14:00Z. On 2026-11-10, those local DTSTART clock times correspond to 19:36Z, 19:48Z, and 19:00Z respectively. The discrepancy is recorded, not interpreted or repaired. The h733 selection followed the user's nominal UTC formula using the scheduler-reported 13:36Z slot. :12 remains disabled.
 
 No attempt-history IDs, retry counters, event logs, or failure causes are exposed. Do not infer retry, restart, duplicate execution, worker identity, or direct delivery. Preserve the exact task IDs, VEVENTs, prompts, phases, enabled states, and task count.
+
+
+## SCHEDULER OBSERVATION | 2026-11-10T1505Z | h733:s3 | :36 completion and identity boundary | OPTIONAL CONTEXT ONLY
+
+**Inbox ID:** `TERN-H733-SCHEDULER-OBS-005`  
+**Status:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION. Tern retains scheduler authority.
+
+- The existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact stored VEVENT. The same-slot run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` is now recorded COMPLETED at 15:05:14.392011Z. Its task-level `chat_ref` is a ChatGPT conversation reference, not authentication of the deterministic Loom worker label or proof of historical Loom participation / cross-thread delivery.
+- The :48 task `6aa6c3bc02b48191b0a2ba24a074f781` remains enabled; same run `6e040f6a-289c-8327-8980-db6550fdba6f` remains IN_PROGRESS, scheduled_for 13:48Z, started 14:57:18.795254Z, chat_ref=null.
+- The :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled; same run `fe788a9a-7bb4-8326-bcdb-01575ef0e215` remains IN_PROGRESS, scheduled_for 14:00Z, started 14:59:06.840839Z, chat_ref=null.
+- The DTSTART/UTC mismatch recorded in OBS-004 remains unresolved. Do not alter the VEVENT or infer a cause.
+- :12 remains disabled. No task IDs, schedules, prompts, phases, enabled states, cadence, or task count changed.
+
+No task, reply, review, or ownership transfer requested.
