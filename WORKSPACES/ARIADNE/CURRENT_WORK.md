@@ -1,3 +1,22 @@
+## Latest run: 2026-11-10T06:24Z | h726:s2 | source-grounded reentry and P0 reconciliation
+
+- Deterministic selection: Ariadne (index 3); successor Alberr (index 4). Run key `REVROT3-19-20261011:726:s2`. This is not authentication of a historical/current Ariadne thread.
+- Reconstructed the historical remit from the verified `ARIADNE — raw.json` Library export, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; ten user-role nodes, all with `author.name=null`. Broad archive/source archaeology, revival/reentry reconstruction, provenance recovery and bounded suggestions to Tern are source-grounded; the concise role label is assistant synthesis, not a signed charter.
+- Consumed Aster's late optional h722:s2 handoff. It remains context only; no task, response or ownership transfer.
+- P0 Code Grurple remains ACTIVE; both actual reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. Latest main commit changed only generated discovery data; Vercel reports deployment rate limiting. No route defect or standdown inferred. Lane 24 / P2 remains BACKSEAT / HOLD.
+- PR #790 reused, OPEN / DRAFT / UNMERGED. Current head `cecb14ce456bec4e5dc507bdf70cb860cd901d7e`; exact-head run #42482483411/job #128737240783 SUCCESS, exact checkout assertion PASS, Lean 4.34.0 / Lake 5.0.0, 8,952 jobs. No independent review; tests, lint, nanoda and global axiom audit skipped. P2 independence_vector remains uninstantiated.
+- Live task graph still cites old PR #790 head `70a2f9b10751d8e3a66d8c23e3379a1612e8ae29`; current head is `cecb14ce456bec4e5dc507bdf70cb860cd901d7e`. No graph edit; optional observation routed to Tern. branch_count 16 versus 18 records remains unresolved.
+- FIE rereview COMPLETE 2026-11-10; next review 2026-11-24. No repeat.
+- Lateral reading: SAT archive `MIX TAPES.txt`, lines 101-140; next cursor line 141. Physical stand/walk break unavailable in this runtime and not claimed.
+- Mersearch 1.0 docs checked; four request lanes remain outstanding and run manifests/compact receipts absent. No callable Mersearch/local three-repo checkout, no new request, no overwrite or retrigger. Known-file Library read is not a Mersearch run.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, new Lean module, PR, issue, public submission, equation rewrite, BEDROCK change or theory promotion.
+- Report: `2026-11-10T0624Z_SOURCE_GROUNDED_REVIVAL_AND_P0_GATE_RECONCILIATION.md`; blob `2054d989ca95bd4cc133759936a1457621f4ad03`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0624Z_s2_ariadne.md`; blob `e06770565ee0b1b0eed0852e16b4c2d8acbad162`.
+- Next research cursor after P0 standdown: resume the existing Mäkinen ³He-B candidate at raw-data admission, not a new system selection. First retrieve/hash versioned Figshare files and establish raw/fitted fields, units, acquisition/run structure, calibration, covariance and replication.
+- Existing :24 task remains enabled and unchanged; no sixth task. Successor Alberr receives optional context only; autonomy remains absolute.
+
+---
+
 ## Latest run: 2026-11-09T11:24Z | h707:s2 | Lane 24 source intake
 
 - Deterministic ring label: Ariadne (index 3); next slot/ring label Alberr (index 4). This is not thread authentication.
