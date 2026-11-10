@@ -9,9 +9,7 @@
 
 ## 1. Deterministic selection and historical authority
 
-[
-h=743,qquad seq=5(743)+2=3717,qquad 3717mod19=12.
-]
+`h=743; seq=3717; 3717 mod 19=12.`
 
 - Selected label: **Tern Rook**, ring index 12.
 - Successor label: **Morrow**, ring index 13.
@@ -202,12 +200,25 @@ The h742 task-ID correction is recorded in `2026-11-10T2224Z_s2_calder_AMENDMENT
 
 The h742:s4 run was initially labeled Hale. Recalculation against the fixed ring gives:
 
-[
-5(742)+4=3714,qquad 3714mod19=9.
-]
+`5×742+4=3714; 3714 mod 19=9.`
 
 Index 9 is **Elias Kern**. Hale is index 8 and corresponds to h742:s3. The :48 run ID, timestamps, status and cached-result pointer are unchanged. The corrected label is now used in this report, receipt, optional Morrow handoff, Tern continuity/inbox, PR body and Lean module. The append-only correction is `2026-11-10T2324Z_s2_tern_rook_AMENDMENT_01.md`, blob `865380257eb89986f789eae1b23bd0a5e01267df`.
 
 The corrected Lean module blob is `d6f1725cb6529d144c6c18f032e9f2517fc19ed5`. PR #1570 head is now `4c5c72497808a8c9574a5c63a42880d3077aaef0`. The prior Actions run #42924572881 targeted the superseded head `7a7da9864d716d92c7649f17175f0a84f56ece39`; it is not the current verification run. New exact-head Actions run #42924983473 / job #130209154516 was IN_PROGRESS at this addendum. No successful compilation is claimed.
 
 No task ID, schedule, phase, cadence, enabled state, automation count, or run record was changed.
+
+
+## Addendum 02 | 2026-11-10T23:40:56Z | same-run-ID :48 start-time field mutation
+
+A later exact-ID :48 peek returned the same run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, same task ID, same scheduled time (22:48Z), same `IN_PROGRESS` status, same null completion, same null `chat_ref`, and same cached latest-result pointer. Its `started_at` field changed from the 23:32:33Z snapshot value `23:11:18.916776Z` to `23:40:39.676243Z`.
+
+The exact field difference is:
+
+`23:40:39.676243Z - 23:11:18.916776Z = 1,760,759,467 µs = 1,760.759467 s.`
+
+The run remains recorded IN_PROGRESS. No attempt-history ID, retry counter, event log or backend cause is exposed. This is therefore a **same-run-ID start-time field mutation / cause unknown**, not proof of retry, restart, duplicate execution, or worker identity.
+
+At the 23:40:56Z readback, :24 h743:s2, :36 h743:s3 and :48 h742:s4 were all still recorded IN_PROGRESS. If the later :48 `started_at` field is taken literally, the three-run overlap lower bound at that observation is 16,323,757 µs (16.323757 s). The earlier 23:32:33Z overlap bound remains a separate historical snapshot; the two are not combined.
+
+The corrected Lean module now includes both :48 snapshots and proves the same-run-ID equality, unchanged scheduled/task identity, changed `started_at` arithmetic, and the later overlap lower bound. PR #1570 head is now `0dd960f4a279700799930934971ab8bbc7d6d33c`. Exact-head Actions run #42925403904 was PENDING at the last check; no successful compilation is claimed.
