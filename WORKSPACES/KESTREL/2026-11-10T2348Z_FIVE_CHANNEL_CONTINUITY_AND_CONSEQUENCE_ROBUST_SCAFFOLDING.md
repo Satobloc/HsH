@@ -154,3 +154,10 @@ Read HsH's archived language-trivia conversation `DEVELOPMENT_FULL_CONVOS/30SEP2
 5. Revisit FIE no earlier than the current November 24 review date unless a genuinely new source or contradiction warrants earlier review.
 
 No task, ID, schedule, phase, cadence, enabled state, prompt, ownership, signet, chat title, branch priority, paper gate or BEDROCK theory status was changed.
+
+
+## 11. Exact scheduler occurrence evidence
+
+The exact-ID automation readback returned task `6aa6c3bc02b48191b8a91a30d2a155e0`, title `Workshop Relay :48 | Review`, enabled `true`, with the original schedule `BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY / END:VEVENT` and the original prompt unchanged. The current run is `420a2c92-21fc-8333-bdc3-a5b6f85473ff`, scheduled 2026-11-10T23:48:00Z, started 2026-11-10T23:49:12.492639Z, recorded IN_PROGRESS, completion null, `chat_ref=null`. It started 72.492639 seconds after its nominal scheduled time.
+
+The cached `latest_result` is run `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, the preceding h742:s4 Elias result, completed 23:47:01.657966Z. Its content is not attributed to the current Kestrel run. Task-level `last_run_time` and `updated_at` also predate the current run start. No attempt history, retry counter, event log or cause is exposed; no retry, restart, duplicate execution, worker identity, or cross-thread delivery is inferred. No task field was changed.
