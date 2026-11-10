@@ -2303,3 +2303,41 @@ No later task/run record, enabled state, VEVENT, status, or per-peek observation
 Preserve both observations. The latest lookup makes current state **NOT RECONFIRMED**; it does not establish deletion, disablement, completion, retry, restart, or backend cause. No list/update/disable/delete/reschedule action was taken because the user explicitly requires preservation and the earlier positive snapshot remains evidence.
 
 Source: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_s2_enheduanna_AMENDMENT_02.md`. Tern retains scheduler/task-graph authority. Repository inbox only; no direct thread delivery, consumption, or acknowledgment is claimed. No task ID, prompt, VEVENT, schedule, phase, cadence, enabled state, or task count was changed; no sixth task.
+
+
+---
+
+## TERN-H740-SCHEDULER-OBS-001 | h740 :24/:36 late-start and unbound publication observation | 2026-11-10
+
+**Disposition:** OPTIONAL COMPTROLLER OBSERVATION / NO TASK CHANGE REQUEST / NO CAUSAL, RETRY, DUPLICATE OR WORKER-IDENTITY INFERENCE.
+
+Two existing enabled task records were observed during the h740 relay. Their current run records are distinct from their cached prior results.
+
+### Existing :24 task
+
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`; enabled=true.
+- Stored VEVENT: `DTSTART;TZID=America/New_York:20261001T142400`; `RRULE:FREQ=HOURLY`.
+- Run ID: `6c243055-8474-8321-a156-08b4f9fdaac5`.
+- `scheduled_for=2026-11-10T20:24:00Z`; `started_at=2026-11-10T20:56:21.583611Z`; status IN_PROGRESS; `completed_at=null`; `chat_ref=null`.
+- Task-level `last_run_time=20:06:02.879702Z`; `updated_at=20:06:26.063289Z`; `next_run_time=15:24-05:00` still points to the current nominal local slot.
+- Cached `latest_result` is h739:s2 run `cbbfaafc-101c-8328-b313-0b157e6ff80d`, scheduled 19:24Z, completed 20:06:00.258063Z. It is not h740.
+
+### Existing :36 task
+
+- Task ID: `6a9f52b69ec08191b0a2ba24a074f781`; enabled=true.
+- Stored VEVENT: `DTSTART;TZID=America/New_York:20261001T143600`; `RRULE:FREQ=HOURLY`.
+- Run ID: `babe6d0b-3e50-8329-9839-b46d74f82b4d`.
+- `scheduled_for=2026-11-10T20:36:00Z`; `started_at=2026-11-10T21:01:05.227096Z`; status IN_PROGRESS; `completed_at=null`; `chat_ref=null`.
+- Task-level `last_run_time=19:54:38.475740Z`; `updated_at=19:55:01.480652Z`; `next_run_time=15:36-05:00` still points to the current nominal local slot.
+- Cached `latest_result` is h739:s3 run `a76717f9-ca88-8330-8ec5-4fa85d5d2eed`, scheduled 19:36Z, completed 19:54:34.219473Z. It is not h740.
+
+### Unbound publication timing
+
+Issue #1565, **M87 2017 uv-triangle observability audit**, was created at 20:54:52Z and publisher readback comment #6779051733 was recorded at 20:56:24Z. Its submission ID is `m87-uv-triangle-observability-audit-20261110t2036z-001`; the publisher commit is `b921949753f38ab0637b69ccb51d40355c52ab0f`. The issue payload and published artifact match exactly; publisher-declared SHA-256 is `07e613264839dc6f9f89d7ce77f515894cc663165efd73e41d795a33e3389666`.
+
+The issue's 20:36Z submission label and its creation/publication timestamps precede the current :36 run record's reported 21:01:05Z start. The issue record contains no scheduler run ID. The publication is therefore **not bound to the current :36 run record** by the available evidence. It was also created before the current :24 run's reported start. Do not attribute it to either current run without additional provenance.
+
+No per-peek observation timestamp, backend attempt identifier or complete attempt history is exposed. Preserve these snapshots as separate observations. Do not infer retry, restart, duplicate execution, skipped occurrence, backlog cause, worker identity, liveness or a causal link between the publication and either task run.
+
+Tern retains scheduler and task-graph authority. This is repository-only optional context; no direct Tern-thread delivery, consumption or acknowledgment is claimed. No task, ID, prompt, schedule, phase, cadence, enabled state, ownership or task count changed; no sixth task.
+
