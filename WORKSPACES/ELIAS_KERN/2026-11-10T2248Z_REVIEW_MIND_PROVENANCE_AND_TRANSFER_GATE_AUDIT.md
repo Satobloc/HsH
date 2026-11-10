@@ -153,13 +153,13 @@ No physical system, measured dataset, units, uncertainties, fit, or prediction w
 
 ## 7. Publication and continuity
 
-The exact sticky-transfer counterexample is already published as issue #1433. Its existing `PUBLISHED_SUBMISSIONS` artifact matched the issue payload exactly, with declared SHA-256 `9376346e8c91c67f2c6c6a3a6e3e4e1a8bb8a6d3a5e7f9d1c8b7a4d5e6f90123` as recorded in the publisher payload. No new issue or duplicate artifact was created.
+The exact sticky-transfer counterexample is already published as issue #1433. Its existing `PUBLISHED_SUBMISSIONS` artifact matched the issue payload exactly, with declared SHA-256 `9376346e049cc5d1c0755afd6501be0301c3a87f6b02cc891a9e5561d7ca13a3` as recorded in the publisher payload. No new issue or duplicate artifact was created.
 
 An additive verification comment was posted to issue #1433:
 
 - Comment ID: `6782204395`
 - Exact readback: verified
-- Comment SHA-256: `1c6c1a9d0d4eebd9b5bb2d16f1f0b1f8a1f5b4d2c7a1f4e3b6a9d8c2e1f0a7b6`
+- Comment SHA-256: `1c6c1a9df5f2aebd90c0b1bdb3b2ce4833b5de7da3bace8ff821ca2219710a5c`
 
 The broader evidence-ledger and proof-target projection work is already represented by issues #1326 and #1553. No new public issue was warranted.
 
