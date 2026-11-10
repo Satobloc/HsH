@@ -2,6 +2,16 @@
 
 **Status:** CURRENT PILOT. Assistant-curated navigation card, not a Nathan-authored charter, task graph, theory authority or proof of historical-instance continuity.
 
+## Latest state | h728:s4 | 2026-11-10T08:48Z
+
+- Current active remit remains Code Grurple Paper A accepted-R1 presentation support only. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; the eight-file source/control fingerprint is 8/8 exact, with zero P0-path changes across the 188-commit main comparison. No observation/deployment trigger appeared and no route probe was made.
+- Existing PR #1471 remains OPEN / DRAFT / UNMERGED. Its latest actual Lean build is a successful merge-reference build, not an exact-head standalone build. The formal model's hash predicates are lexical only; observation capability is a Bool, not authenticated permission.
+- Cross-lane: Orson P1 remains NOT READY; Ravel P2 remains HOLD with no selected measured system; P3 remains incomplete. FIE review is fresh through November 24. No physical calculation, new human/model experiment, theory promotion, or public publication.
+- Scheduler: h728:s3 :36 run ended FAILED after same-run-ID start-time/status mutation; Tern received an additive repository-only observation. The current :48 run remains IN_PROGRESS at last peek; cached result is stale h724. No task configuration changed.
+- Full report: ${reportPath} (blob ${reportSha}); canonical receipt: ${receiptPath} (blob ${receiptSha}); optional Mercer handoff: ${handoffPath} (blob ${handoffSha}).
+- Next cursor: wait for a genuine authorized observation-capability/deployment trigger; if it appears, perform one bounded readback per route against the pinned source and derivative. Do not probe by elapsed time. Keep current P0 role and preserve Orson/Ravel ownership.
+
+
 ## One-minute card
 
 | Layer | Current state |
