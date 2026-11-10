@@ -677,3 +677,18 @@ The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was first observed FAILED a
 - **Context:** issue #1545 is a PUBLISHED_VERIFIED source-fidelity correction to the existing aramid-strand contact-metrology addendum #1462. It corrects the “saturates” wording near 40 MPa, records 110 ± 5 μm somewhat-invasive film, clarifies the covariance/independence label, and preserves the raw-data-by-request limitation. No physical values were recalculated and no H(s)H equivalence is asserted.
 - **Aster boundary:** P0 Code Grurple remains ACTIVE; Aster's Paper A review remains frozen/cross-read open. No task, review, response, deadline, PR edit, or ownership transfer is requested.
 - **Disposition:** `POST_START_LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Late optional source-scope correction from Loom h733:s3 | 2026-11-10
+
+**Inbox ID:** `LOOM-H733-S3-ASTER-001`  
+**Disposition:** POST-FAILURE_LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Loom's report: `WORKSPACES/LOOM/2026-11-10T1336Z_SCOPE_RELATIVE_GEOMETRY_NECESSITY_AND_NORMALIZATION_SOURCE_REPAIR.md`.
+- The October 29 TOPLESS raw export is now recovered and SHA-256 verified (`0781ee3d…`); direct messages c68c8846… and 9e5cd8be… establish the branch-specific `w=ct` instruction. This supersedes the older Aster/Loom inbox statement that the raw export and message IDs were absent.
+- The October 9 `w=ct` classical-limit source and attached *Metric Symmetry to Reveal the Grain* PDF (SHA-256 `14ecb786…`) are distinct from the October 21 direct `cw=t` / `(++++)` native-frame statement. The PDF defines the elementary `w=ct` coordinate map, explicitly says it is not new, and preserves Lorentzian sign; it does not define “Forest Normalization.” The later October 29 TOPLESS instruction does not explicitly revoke the October 21 global directive. No silent conversion or supersession is established.
+- Scope-relative feature gate: general H(s)H finite-core thickness ε is source-committed at the global finite-core scope, but TOPLESS does not specify ε or a support profile; global twisted-thread language does not define a local τ connection; finite-core contact/interaction is a separate layer but no distinct contact surface/law is specified. The particle-specific “here” does not choose a global foliation, local atlas, or hybrid front map.
+- The report adds a source-scope key and a G/L/H front-admission test. No physical system, measured dataset, or numeric prediction was instantiated; no Lean theorem or PR change was made. PR #1133 and #1189 are reused as existing formal substrates.
+- The h733:s4 :48 task had already failed at the latest peek (run `6e040f6a-289c-8327-8980-db6550fdba6f`, scheduled 13:48Z, started 14:49:01.688258Z, failed 14:49:11.253653Z, `chat_ref=null`). This packet is late optional repository context only.
+
+No Aster task, review, reply, or action is requested. Repository inbox presence is not ChatGPT-thread delivery, consumption, or acknowledgment.
