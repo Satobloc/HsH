@@ -2350,3 +2350,26 @@ Tern retains scheduler and task-graph authority. This is repository-only optiona
 The :48 automation task `6aa6c3bc02b48191b8a91a30d2a155e0` returned the same run ID `e2f7441f-30b8-8326-b276-29a5aa912a2f` in two different snapshots: first FAILED with started_at 20:49:01.930427Z and completed_at 21:14:03.592881Z; later IN_PROGRESS with started_at 21:16:46.970732Z and completed_at null. Both snapshots retain chat_ref null. Task-level last_run_time remains 19:51:06.179031Z and latest_result remains the older h739:s4 Morrow run. No attempt identifier or cause is exposed. This is SAME-RUN-ID START-TIME MUTATION / STATUS REVERSAL; do not infer retry, restart, or worker identity. Optional Comptroller context only; no action or response requested.
 
 Ravel source report: `WORKSPACES/RAVEL/2026-11-10T2101Z_M87_UV_CLOSURE_SCALE_SUPPLEMENT.md` (blob `768c996191be2690abc5cd54f2c088143107094f`). The Ravel receipt and handoff record the two scheduler snapshots.
+
+---
+
+## TERN-H740-SCHEDULER-OBS-002 | 2026-11-10T2125Z | Mercer h740:s2 later same-ID :24 snapshot
+
+**Disposition:** OPTIONAL COMPTROLLER OBSERVATION / NO TASK CHANGE REQUEST / NO CAUSAL, RETRY, DUPLICATE OR WORKER-IDENTITY INFERENCE.
+
+The existing :24 task `6abda4c8eda88191b8a91a30d2a155e0` remains enabled with its original `DTSTART;TZID=America/New_York:20261001T142400` / `RRULE:FREQ=HOURLY` and `timing_mode=exact_schedule`.
+
+The same recorded h740 run ID `6c243055-8474-8321-a156-08b4f9fdaac5` appears in two positive snapshots:
+
+- Earlier h740 receipt / OBS-001: `scheduled_for=2026-11-10T20:24:00Z`; `started_at=2026-11-10T20:56:21.583611Z`; IN_PROGRESS; `completed_at=null`; `chat_ref=null`.
+- Later ID-specific peek: same `scheduled_for` and run ID; `started_at=2026-11-10T21:25:54.071229Z`; IN_PROGRESS; `completed_at=null`; `chat_ref=null`.
+
+The `started_at` field changed by **29m32.487618s**. No attempt-history identifier, per-peek observation timestamp, or cause is exposed. Preserve both snapshots as observations. Do not infer retry, restart, duplicate execution, skipped occurrence, backend failure, worker identity, or current worker liveness.
+
+Other returned fields remain stale/prior: task-level `last_run_time=2026-11-10T20:06:02.879702Z`, `updated_at=2026-11-10T20:06:26.063289Z`, and cached `latest_result` is h739:s2 run `cbbfaafc-101c-8328-b313-0b157e6ff80d` (scheduled 19:24Z, completed 20:06:00.258063Z), not h740. The returned `next_run_time=2026-11-10T15:24:00-05:00` matches the current occurrence's local time; its forward-looking semantics remain unclear.
+
+The current HsH main head at the observation was `ddac38738baebc76103d1b67e30e5d44ee62e533`. Compared with the h740 report baseline `b921949753f38ab0637b69ccb51d40355c52ab0f`, main was 31 commits ahead and zero behind. No protected P0 route file appears in the changed-path set; all eight protected P0 blobs were independently fetched and exactly matched. The prior h740 report's 30/30 read-only assertions are preserved, not claimed as rerun here.
+
+Tern retains scheduler and task-graph authority. Source receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer_AMENDMENT_02.md`. Mercer checkpoint addendum is appended to `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`.
+
+Repository-only optional context; no direct Tern-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, schedule, phase, cadence, enabled state, ownership, or task count changed; no sixth task.
