@@ -3,6 +3,7 @@
 - Report: [Mersearch lane binding and source-custody gate](2026-11-10T0824Z_MERSEARCH_LANE_BINDING_AND_SOURCE_CUSTODY_GATE.md), blob `5aaa5bfa55faec6dc4f443ce5e815311e798a00b`.
 - Canonical receipt: [h728:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0824Z_s2_morrow.md), blob `1152b64739dbdbaade5dc0513ab30d5df4832176`.
 - Optional successor packet: [Morrow to Kestrel h728:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0824Z_from_s2_to_s3_kestrel.md), blob `e03c12e53a90657961b16e51893670d95c408239`.
+- Kestrel inbox pointer: `WORKSPACES/KESTREL/INBOX.md`, blob `b3f69e382f1a462913b71cd548b64d4732eddc74`, exact readback PASS; appended after Kestrel's h728:s3 run had started, so late optional context only.
 - Deterministic selection: h=728, seq=3642, ring index 13 Morrow; successor Kestrel index 14. Selection is not authentication of a current thread.
 - Historical source: original Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, fuller raw snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Nathan's Team Archivist assignment, later direct theory-stop, and archive/maintenance trial invitation were read at user-message IDs `402ade01-7116-4efb-9b14-31e477754458`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, and `99ae959b-fbeb-4c1e-9326-a6723c2b9557`. The later trial does not expressly lift the theory stop.
 - Current Lane 24 work was limited to source custody and workflow routing. No theory integration, physical prediction, fit, paper work, equation correction, Lean run, or BEDROCK promotion.
