@@ -34,9 +34,10 @@ theorem two_stage_composition_error_bound
     _ ≤ (L : ℝ) * dist (f x) (f' x) + (ε₂ : ℝ) :=
           add_le_add (hLip _ _) (hSecond _)
     _ ≤ (L : ℝ) * (ε₁ : ℝ) + (ε₂ : ℝ) := by
-          gcongr
-          exact mul_le_mul_of_nonneg_left (hFirst x)
-            (show 0 ≤ (L : ℝ) from L.2)
+          exact add_le_add
+            (mul_le_mul_of_nonneg_left (hFirst x)
+              (show 0 ≤ (L : ℝ) from L.2))
+            le_rfl
 
 /-- Three-stage composition.  The middle-stage error is first propagated
 through the final exact map; the first-stage error is propagated through both
@@ -67,9 +68,10 @@ theorem three_stage_composition_error_bound
           add_le_add (hLipH _ _) (hThird _)
     _ ≤ (L₂ : ℝ) *
           ((L₁ : ℝ) * (ε₁ : ℝ) + (ε₂ : ℝ)) + (ε₃ : ℝ) := by
-          gcongr
-          exact mul_le_mul_of_nonneg_left (hInner x)
-            (show 0 ≤ (L₂ : ℝ) from L₂.2)
+          exact add_le_add
+            (mul_le_mul_of_nonneg_left (hInner x)
+              (show 0 ≤ (L₂ : ℝ) from L₂.2))
+            le_rfl
 
 /-- If the exact downstream map is nonexpansive, the two local errors add
 without amplification. -/
@@ -91,9 +93,11 @@ theorem two_stage_nonexpansive_error_bound
     dist (g (f x)) (g' (f' x))
         ≤ (L : ℝ) * (ε₁ : ℝ) + (ε₂ : ℝ) := hGeneral x
     _ ≤ (ε₁ : ℝ) + (ε₂ : ℝ) := by
-          gcongr
-          simpa using mul_le_mul_of_nonneg_right hL
-            (show 0 ≤ (ε₁ : ℝ) from ε₁.2)
+          exact add_le_add
+            (by
+              simpa using mul_le_mul_of_nonneg_right hL
+                (show 0 ≤ (ε₁ : ℝ) from ε₁.2))
+            le_rfl
 
 #print axioms HsHVerification.ComposedMapErrorBound.two_stage_composition_error_bound
 #print axioms HsHVerification.ComposedMapErrorBound.three_stage_composition_error_bound
