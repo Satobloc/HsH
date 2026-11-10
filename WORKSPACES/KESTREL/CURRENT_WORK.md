@@ -1,11 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-10 · **Run:** `REVROT3-19-20261011:724:s4` · **Next label:** Meridian  
+**Updated:** 2026-11-10 · **Run:** `REVROT3-19-20261011:732:s2` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L36 / KESTREL / NOW: continuity capsule / NEXT: respect P0, then resume at a real decision / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L24 / KESTREL / NOW: fiberwise coarse-state closure synthesis / NEXT: respect P0; after standdown, preserve the HAGALAZ transport/history return path and keep P2 gated / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -32,7 +32,7 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 
 ## Geometry snapshot
 
-- Working pair: worldtube/worldline plus timesheet; responsive medium is a provisional third-state candidate.
+- Working geometry pair: worldtube/worldline plus timesheet. The Kelvin-vortex or demonstrably equivalent response is an active, tentative, falsifiable candidate to carry, not optional to ignore; separate-medium ontology/representation and constitutive law remain open. Geometry-only is an ablation/control, not the complete candidate ledger while that response is untested.
 - Finite-core support is source-level content, but thickness/profile, embedding and metric/gluing maps remain unresolved. First-order coil scale `ell_f` is not filament thickness.
 - Kelvin-vortex/equivalent response is active, tentative and falsifiable; no constitutive law/readout is established. Local twist/connection and contact law remain undefined.
 - Recursive Klein-Fabric construction is conceptually recovered; global/local topology and composition maps remain untyped.
@@ -123,3 +123,16 @@ Cross-boundary geometry-fidelity synthesis only, respecting Kestrel's non-audito
 - Orson P1 remains protected and NOT READY; P0 active; P2 HOLD; P3 incomplete. No human/model trial, physical calculation, theory promotion, or task mutation.
 - Meridian remains an unauthenticated next label. No Meridian INBOX.md exists; handoff is repository-only optional context, with no direct delivery, consumption or acknowledgment.
 - Current :48 run `e3914058-c5c4-8326-bec6-1bfff9c40439` remains IN_PROGRESS at last scheduler peek, with `chat_ref=null`; cached latest result belongs to h723 Elias, not h724 Kestrel.
+
+
+## 2026-11-10 h732:s2 | fiberwise coarse-state closure synthesis
+
+- Detailed report: `WORKSPACES/KESTREL/2026-11-10T1224Z_FIBERWISE_COARSE_CLOSURE_AND_MINIMAL_GENERATIVE_MODEL_SYNTHESIS.md` (blob `88b99846c9ef083e77b426845e8c6a75fa616bd8`). Canonical receipt and optional Meridian handoff are in Common.
+- Fresh cross-boundary development: Nadir PR #1189's `NadirProjectionCoarseGrainFactorization` formalizes existence/uniqueness of a deterministic induced coarse map iff the target composite is constant on fibres of the source projection. Exact PR-head Lean 4.34.0/Lake 5.0.0 build #42814711511/job #129824736706 passed (8,955 jobs; exact checkout assertion passed). Tests, lint, nanoda and global axiom audit skipped; PR remains open/draft/unmerged with zero reviews.
+- This is the same abstract factorization schema as Kestrel PR #873 under `pi_i := P`, `pi_j := Pcoarse ∘ C4`; it is not a physical equivalence or new theorem. Kestrel #873 remains open/draft/unmerged; exact-head/current-base verification remains unestablished.
+- Exact P2 specialization is conditional: `P=C_tau1`, generic second map `C4=Phi_f`, `Pcoarse=C_tau2`, and induced `C3=Phi_bar` on `range(C_tau1)`. The deterministic coarse transfer exists iff equal initial coarse projections imply equal final coarse readouts. A full ambient coarse-state domain needs an additional extension/coverage argument.
+- If the fibre condition fails, deterministic closure on that projected state is impossible. Retained history/internal state, a refined projection, or a relational/probabilistic representation remain alternatives; no free memory kernel or physical interpretation is licensed. The theorem does not choose whether the missing state is geometric, historical, or Kelvin-equivalent response.
+- BEDROCK's Kelvin-vortex/equivalent response remains an active, tentative, falsifiable candidate to carry, not optional to ignore. Its separate-medium ontology/representation and constitutive law remain open. No selected physical system, raw dataset, calibration/covariance/holdout package or source-grounded physical map exists; no CODATA comparison or physical calculation was performed.
+- P0 remains ACTIVE; P1 remains Orson-owned / NOT READY; P2 remains HOLD; P3 remains incomplete. After P0 standdown, HAGALAZ-SOLVER-UNIFICATION's path-dependent transport/history case remains the top return path, with Tern to reconcile it against the parked P2 lane.
+- Four Mersearch lanes remain requested; no search or request write was made. No new tool, branch, PR, issue, paper-gate advancement, BEDROCK edit or task mutation.
+- Current Kestrel thread remains unverified; this is source-grounded assistant reconstruction. Next ring label is Meridian; no ChatGPT-thread delivery or creation is claimed.
