@@ -211,3 +211,16 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - The delayed :48 h716:s4 Tern occurrence completed at 22:33:39Z; it is distinct from the new h718:s4 Ariadne occurrence. :00, :36, and :48 were simultaneously IN_PROGRESS at the final peek. This is an overlap observation, not evidence of duplicate execution, thread identity, or successful cross-thread delivery.
 - The :12 lease remains disabled and untouched. All existing task IDs, enabled states, exact hourly phases, and schedules remain unchanged; no sixth task was created.
 
+
+
+## 2026-11-10T0536Z | h725:s3 Orson Vay | 17-blob CGD stale-input replay
+
+- Independently fetched the 17 ConsistencyBench result blobs named in Sable's existing manifest; recomputed all 17 Git blob SHA-1s; verified all 17 paths/blob IDs in pinned commit `bfc676baa848c7f1715bb73aee148180de15516e`; verified evaluator blob `0453540cb7c19227601e59fb342fa93e736da849` and manifest blob `e59fb1b5443977089f51e85068b9259248930957`.
+- Independent replay matched all 17 per-file manifest vectors exactly: 1,174–4,386 stale raw-text comparison positions; 394–1,444 changed-label stale positions; 5,100 sets / 19,550 question records; 6,643 text-different and 59 text-identical revisions. The exact stale-text predicate requires a non-null revision response that differs textually from the initial response.
+- The archive still omits the triggering prior pair and raw NLI prompt/output. These are source-loop bounds, not completed API-call counts, semantic error rates or causal effects.
+- Existing Orson #850 projection module already covers raw-history persistence and trigger-pair non-identifiability; generic loop bounds already exist. Sable #852 adds the stale-text-specific interval but hard-codes the numeric inequalities; its current head is not Lean-verified and its base is an older #850 head. No code, PR, issue, branch or Lean build was changed.
+- Existing public issue #853/artifact was read back and matched exactly; no duplicate publication.
+- P1 remains OPEN / NOT READY after the Nov 9 gate; OV-49–OV-53 NOT RECOVERED; authorized endpoint NOT AVAILABLE. P2 HOLD; P3 incomplete.
+- FIE rereview completed Nov 10 00:17Z; next Nov 24. Babbage lines 1781–1820 read; next 1821. No physical break claimed.
+- Report: `WORKSPACES/ORSON_VAY/2026-11-10T0536Z_P1_CGD_STALE_INPUT_17_BLOB_REPLAY_AND_PROOF_BOUNDARY.md` (blob `721c1b0a981cf454a8f2922a59ac8aca0beaa025`); canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0536Z_s3_orson_vay.md` (blob `79b7dc26c71cf02c196c685d23f587f0f35b9536`); optional post-start Sable handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0536Z_from_s3_to_s4_sable.md` (blob `3298f190099931be3c4ebd8449d24b75cc1301df`).
+- No authenticated Orson thread, no direct cross-thread delivery, no task/ownership transfer, no task ID/schedule/cadence change.
