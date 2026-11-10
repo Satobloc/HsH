@@ -947,3 +947,8 @@ No BEDROCK promotion, equation modification, new issue, duplicate publisher subm
 - Mersearch lanes remain occupied; no request submitted or overwritten. Local Lean/Lake/Elan absent. No new tooling, physical calculation, CODATA scoring, paper advancement, theory promotion, or BEDROCK edit.
 - FIE rereview completed 2026-11-10; next due 2026-11-24. Babbage cursor 1781–1820; next 1821. P1 Nov 9 remains NOT READY, P2 Nov 30 HOLD, P3 Dec 14 separate/incomplete. Branch graph remains 16 declared vs 18 records.
 - Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f`, hourly America/New_York :00 schedule and phase unchanged. :12 remains disabled; Morrow handoff is late optional repository context only, no task/response/ownership transfer.
+### Amendment 01 — h732 publication readback
+
+- Issue #1561 publisher comment #6767776971 confirms publication commit `9ec3eba8a11931d6dce238783f291c6fe3b92b93`.
+- Artifact blob `0cdecee4b7edbff9264487293b288e353cf8b335`, 14,828 UTF-8 bytes; SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`; exact issue-payload/artifact comparison PASS.
+- Publication state is now `PUBLISHED_VERIFIED`; do not resubmit.
