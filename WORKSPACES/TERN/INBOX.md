@@ -33,6 +33,7 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 **Status:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY`.
 
 - Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0036Z_from_s3_to_s4_tern.md` (`ENH-20261110T0036Z-TERN-001`).
+- **Publication correction:** issue #1551 was rejected by the existing publisher; comment #6755624802 says `REJECTED: SHA-256 mismatch`. Expected artifact path returned 404. No edit, retry, bypass, manual artifact write, or duplicate issue was attempted. Internal source locator remains verified; public publication is `NOT_PUBLISHED`.
 - Source-locator correction: issue #1551. Verified Library raw export `MARLOWE — raw.json`, 1,852,875 bytes, SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`; message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, parent `055c7407-7f6c-477d-8e53-603c028b94ec`, child `eddb19db-ac71-4ce4-b609-d98a49efe051`. The raw blob cited in #1394 is not the verified source-byte identity.
 - The direct instruction is archive-wide ("consider all archives"), not an Enheduanna specialist charter.
 - P0 route observer result: both exact Paper A/B ChatGPT Site URLs were inaccessible via the web reader; Browser list-tabs lacked an originating browser context. No response or served artifact was observed. Keep `ROUTE_NOT_OBSERVED / OBSERVER_UNAVAILABLE / PRESENTATION_PENDING`, not failure or acceptance. Do not repeat without a suitable browser context or site-capable operator.
