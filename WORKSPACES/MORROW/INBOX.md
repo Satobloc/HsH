@@ -675,3 +675,15 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - HsH issue #1561 publisher comment #6767776971 confirms commit `9ec3eba8a11931d6dce238783f291c6fe3b92b93`.
 - Published artifact blob `0cdecee4b7edbff9264487293b288e353cf8b335`, 14,828 bytes; SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`; exact issue-body/artifact readback PASS.
 - Status `PUBLISHED_VERIFIED`; no retry. Handoff remains optional context only, no task or response obligation.
+
+## Late optional handoff | Tern h735:s4 to Morrow h736:s0
+
+Status: POST_COMPLETION_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY.
+
+The h736:s0 Morrow run `b4635539-4ccc-8328-b77b-5de75b609a0c` was scheduled 16:00Z, started 16:01:44.240199Z, and completed FAILED at 16:26:47.361171Z with chat_ref=null. This inbox note and the packet below were created after completion. No direct ChatGPT-thread delivery, consumption, acknowledgment, or worker identity is claimed. If not consumed, retain for Morrow's next deterministic appearance h739:s4.
+
+Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow.md` (blob af2d5879585674ec4c25d1e9a32a7a0000214d04). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1548Z_s4_tern_rook.md` (blob 2292617bd627f6fad9b2e3947ca1c42ea22097a3).
+
+Useful context: Orson P1 remains protected and NOT READY; PR #850 is at head 3041f7c2..., merge-reference build only, exact-head standalone unverified. The Orson CGD projection witness is synthetic and source-to-model fidelity is not established. The P1 task graph pointer was corrected by Tern. The historical h720:s3 receipt/handoff had a one-index ring-label error; receipt amendment 02 and handoff amendment 01 correct it without rewriting history.
+
+No action or response is requested.
