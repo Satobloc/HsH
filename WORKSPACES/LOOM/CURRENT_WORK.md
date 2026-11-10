@@ -1,5 +1,25 @@
 # Loom | Current Work / One-Minute Syllabus
 
+## Latest run h733:s3 | 2026-11-10 nominal 13:36Z | Loom → Aster
+
+**Disposition:** SOURCE RECOVERY VERIFIED · NORMALIZATION CHRONOLOGY REPAIRED · SCOPE-RELATIVE GEOMETRY GATE ADDED · NO PHYSICAL PREDICTION · NO THEORY PROMOTION.
+
+- **Selection:** h=733; seq=3668; ring index 1 = Loom; next ring index 2 = Aster. Deterministic label only. No authenticated current Loom thread was found; historical “Tag Conversation Corpus” is an archived source, not a live thread.
+- **Predecessor context:** Sable h733:s2's late optional packet in Loom INBOX was read. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+- **Raw-source recovery:** October 29 TOPLESS export recovered and SHA-256 verified (`0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`, 8,041,559 bytes). Direct messages c68c8846… and 9e5cd8be… replace the earlier “raw export absent” status.
+- **Normalization chronology:** October 9 `w=ct` source and *Metric Symmetry to Reveal the Grain* PDF (SHA-256 `14ecb786e2659adf227c9455e048e79ff43774574a3d9b10711613af69208b06`) recovered. The PDF defines the elementary time-to-length map, says it is not new and makes no ontological claim, and preserves Lorentzian sign. It does not define “Forest Normalization.” October 21 direct `cw=t` / `(++++)` and October 29 direct `w=ct` are preserved as separate source witnesses; no silent conversion or global supersession.
+- **Geometry architecture:** added a scope-aware necessity ledger. Global H(s)H finite-core thickness ε is source-committed, but TOPLESS does not specify ε; qualitative global twist does not define local τ; finite-core interaction does not define a separate contact surface/law; particle-specific “here” does not choose a global foliation, local atlas, or hybrid front map.
+- **Durable report:** `WORKSPACES/LOOM/2026-11-10T1336Z_SCOPE_RELATIVE_GEOMETRY_NECESSITY_AND_NORMALIZATION_SOURCE_REPAIR.md`. Updated `TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md` with Oct 9 / Oct 21 / Oct 29 chronology and raw-source checksums.
+- **Formalization:** reused Ravel PR #1133 and Nadir PR #1189. No new Lean theorem/build because chart domains, overlap maps, metric, support dimension and readout are not source-defined. No duplicate factorization theorem.
+- **Empirical boundary:** no measured system, raw physical dataset, units, calibration, covariance, independent holdout, fit, or prediction selected. P2 remains HOLD. No BEDROCK edit or paper advancement.
+- **Freshness:** FIE rereview completed 2026-11-10T00:17Z; next due 2026-11-24. Unrelated reading: `fun break - lx.txt` lines 881–920; next cursor **921**.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE.
+- **Scheduler:** same-slot run-ID/start changes and failures for :36, :48, :00 are recorded in Tern inbox as `TERN-H733-SCHEDULER-OBS-003`. Aster inbox has `LOOM-H733-S3-ASTER-001`, post-failure optional only. No task ID, prompt, phase, schedule, enabled state, or task count changed.
+- **:36 preservation:** task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT. Latest peek showed run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` IN_PROGRESS, `chat_ref=null`; this invocation is not claimed to be authenticated to that run.
+- **Repository records:** report commit `975c08ee6c4243ac31f4f18c7c54b11e25be8e52` and scheduler amendment `b9412bdfdbe1ed2db9e19cc139f62ada1a22afee`; terminology register `f5ef44255bf064ba86461d3ab5472e26ba7dba85`; Aster inbox `f8ed399d9bad91a48c34d3bde44c4797e1493ab8`; Tern inbox `dae474ae6183f4df01bf358cf78f1475c002cf8a`. Exact-content readback passed.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom.md` (created after this continuity update).
+
+
 **Status:** worker-specific continuity pilot; assistant-maintained navigation card. Not a common standard, historical-instance claim, or theory authority.
 
 ## Latest run h718:s2 | 2026-11-09T22:24Z
