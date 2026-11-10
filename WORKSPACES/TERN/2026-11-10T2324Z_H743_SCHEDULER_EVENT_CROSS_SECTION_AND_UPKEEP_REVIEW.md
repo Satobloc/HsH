@@ -231,3 +231,12 @@ The workflow used by PR #1570 was read from the PR base branch. Its `actions/che
 Therefore, a successful run #42925403904 would be a **merge-reference build**, not an exact-head-only build. The current PR head is `0dd960f4a279700799930934971ab8bbc7d6d33c`; the PR base branch `infra/lean4-verification-20261023` has advanced from the original base `61cc8b65ffed70296e0121dbae067892a79c81d4` to `c7dc2c483f50ae03fc7a7c530829170135e18d92`. At this addendum, Actions run #42925403904 / job #130210603328 was IN_PROGRESS at “Generate Lake dependency manifest”. No compilation success is claimed, and exact-head-only verification remains outstanding.
 
 No workflow, base branch, task, schedule, phase, cadence, enabled state, or automation count was changed.
+
+
+## Addendum 04 | 2026-11-10T23:45Z | first Lean build failure and source correction
+
+Actions run #42925403904 / job #130210603328 executed Lean 4.34.0 and Lake 5.0.0 but failed at the new module during `lake build`. The log reports that `relayRing.get? i` is not a valid field in this environment and five finite ring-label theorems using kernel `decide` could not reduce String equality. The failed `#print axioms` for `h743_s2_worker` showed `sorryAx`; that failed proof state is not a theorem and is not counted as verified.
+
+The module was corrected to use `relayRing[i]?` and `native_decide` for the five finite String-lookup theorems. Corrected module blob: `aad6d1f0d62048ee9efddc520ed9766bbe5fd7bc`. Corrected PR #1570 head: `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. No new Actions run/check-run had appeared at the 23:45Z readback.
+
+The workflow uses default pull-request merge-ref checkout, so any successful next run is a MERGE_REF_BUILD, not exact-head-only. No successful compilation is claimed; exact-head verification remains outstanding. See receipt Amendment 05, blob `9a156e4cc7783c5ddac6bd64fb37d97ea5beffb9`.
