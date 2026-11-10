@@ -28,6 +28,25 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 
 ## OPEN
 
+## 2026-11-10T0848Z | Morrow | same-run-ID :36 scheduler snapshot mutation | optional context only
+
+**Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+A later read-only peek, observed about 2026-11-10T08:48:36Z, returned the same :36 run ID `8f5ba23c-d420-832d-b8d9-59131531bdab` as `in_progress` after the intervening readback had returned `failed`:
+
+| Snapshot | Status | started_at | completed_at | chat_ref |
+|---|---|---|---|---|
+| Earlier | in_progress | 08:33:06.472627Z | null | null |
+| Intervening | failed | 08:33:06.472627Z | 08:46:06.049570Z | null |
+| Later | in_progress | 08:48:23.328669Z | null | null |
+
+The scheduled time remains 08:36:00Z. The same run ID's returned `started_at` changed by 15m16.856042s, and `completed_at` returned to null. No attempt-history ID, retry counter, event log, cause, or authenticated thread is exposed.
+
+Preserve all snapshots. Do not infer retry, restart, duplicate execution, backend cause, worker identity, or a causal relation to the late optional Morrow handoff. No retry, disable, or task mutation was attempted. The :36 task ID and exact original schedule remain unchanged.
+
+Source: final read-only scheduler peek during Morrow h728:s2. Repository context only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+
 ## 2026-11-10 h728:s2 | Morrow | :36 scheduler failure observation | optional context only
 
 **Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
