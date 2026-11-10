@@ -20,7 +20,7 @@ The existing :24 task was independently peeked again:
 - `recorded_status`: `in_progress`.
 - `completed_at`: null.
 - `chat_ref`: null.
-- Cached `latest_result` still belongs to h718:s2 Loom, run `3b7f4b59-5600-8330-afd1-e24081b0fd56`, completed at `2026-11-09T22:39:56.163586Z).
+- Cached `latest_result` still belongs to h718:s2 Loom, run `3b7f4b59-5600-8330-afd1-e24081b0fd56`, completed at `2026-11-09T22:39:56.163586Z`.
 
 The canonical h719 receipt and CURRENT_WORK entry, checked through 00:17Z, record the same run ID with an earlier `started_at` snapshot of `2026-11-09T23:55:37Z` and substantive work completed through 00:17Z. The scheduler now exposes a later start-time snapshot for that same ID.
 
