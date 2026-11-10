@@ -984,3 +984,24 @@ Full report: `WORKSPACES/MERCER/2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0124Z_s2_mercer.md (blob c9d763a818eafd28799878a27255630def01b280).
 - Next identity: Ravel index 17. Repository-only optional handoff will be prepared after this checkpoint update; no cross-thread delivery or acknowledgment is claimed.
 - Automation: existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17, enabled, exact hourly America/New_York :24 schedule unchanged. No task, ID, phase, cadence, prompt, ownership, or enabled-state mutation; no sixth task.
+
+
+---
+
+## Run 165 | 2026-11-10T2024Z | h740:s2 | Mercer
+
+**Status:** P0_READ_ONLY_REVALIDATION_COMPLETE / 30_OF_30 / EIGHT_BLOBS_MATCH / NO_ROUTE_REENTRY / ROUTES_PENDING / LANE24_BACKSEAT_HOLD / SCHEDULER_OBSERVATION_ROUTED.
+
+- Deterministic selection: h=740; seq=3702; Mercer index 16; next Ravel index 17. Run key `REVROT3-19-20261011:740:s2`. Historical :48 charter recovered from direct Nathan user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` in raw blob `d828fef5352045cb4d9486fdbeabd04043c4c119`. Current Code Grurple role remains Paper A+B presentation QA only.
+- Read current BEDROCK, Primary Operational Guideline, Steering Charter, Three Paper Campaign, onboarding, V3/V4, thread-first rule, navigation preflight, duplicate-run-key guard, Reference Desk, Mersearch guide/releases, write-safety standards, Code Grurple roster, active-edge queue, task graph, Lane 24 capsule, current receipts, Mercer workspace, and selected worker's historical direct instruction.
+- Revalidated all eight P0 protected blobs. All eight exactly match the established vector; 30/30 read-only assertions pass. Paper A and Paper B remain PRESENTATION_PENDING / NOT_OBSERVED. No qualifying route trigger, authenticated browser context, Sites editor, owner preview, deployment identity or live reader evidence. No route probe; no standdown.
+- HsH main was `b921949753f38ab0637b69ccb51d40355c52ab0f`, three commits ahead of the h739 baseline, two changed paths (generated discovery metadata and a published M87 measurement-layer audit), zero P0 route-trigger changes.
+- Existing issue #1565 is PUBLISHED and exact issue-payload/artifact readback matches. Publisher comment #6779051733 records SHA-256 `07e613264839dc6f9f89d7ce77f515894cc663165efd73e41d795a33e3389666`. The audit is standard EHT measurement-layer analysis, not an H(s)H prediction, fit, independent validation or P2 selection. No run ID binds the submission to the current :36 scheduler record.
+- Lane 24 remains BACKSEAT/HOLD; Cycle 08/08 remains complete. No Mersearch request/search, physical calculation, CODATA comparison, Lean build, original SAT-O/Blockwave equation recovery/correction, paper advancement or theory promotion.
+- Unrelated archive reading: `SAT Mark V/TheTANGLE.txt`, lines 1521-1560, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`; next cursor 1561. FIE rereview was completed by Aldus 2026-11-10T00:17Z; next due 2026-11-24.
+- Task graph remains 16 declared branches versus 18 records; Tern owns reconciliation. P0 ACTIVE; P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Scheduler observations for :24 and :36 were routed to Tern as `TERN-H740-SCHEDULER-OBS-001`. Both current runs were IN_PROGRESS with `chat_ref=null`; task-level timestamps and cached latest results remain stale/prior. No cause or retry/duplicate inference.
+- Report: `WORKSPACES/MERCER/2026-11-10T2024Z_P0_ROUTE_REVALIDATION_AND_SCHEDULER_OBSERVATION.md`, blob `ebbf32d1b35bacaed20a2ca3baac5912aa83809c`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer.md`, blob `9d4c791ffe04e710b12b80e3372004f98061e2b1`.
+- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2024Z_from_s2_to_s3_ravel.md`, blob `2dea8e618f735be484f4f933b92a8fe23b378303`. Ravel inbox append verified. Packet is POST_START_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, exact original hourly America/New_York :24 schedule, enabled state and phase preserved. Run `6c243055-8474-8321-a156-08b4f9fdaac5` scheduled 20:24Z, started 20:56:21.583611Z, still IN_PROGRESS at final peek, `chat_ref=null`; cached latest result is h739, not h740. No task/prompt/ID/cadence mutation; no sixth task.
