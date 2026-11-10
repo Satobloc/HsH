@@ -1,3 +1,25 @@
+# Latest run — h728:s2 — 2026-11-10T08:24Z nominal
+
+- Report: [Mersearch lane binding and source-custody gate](2026-11-10T0824Z_MERSEARCH_LANE_BINDING_AND_SOURCE_CUSTODY_GATE.md), blob `5aaa5bfa55faec6dc4f443ce5e815311e798a00b`.
+- Canonical receipt: [h728:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0824Z_s2_morrow.md), blob `1152b64739dbdbaade5dc0513ab30d5df4832176`.
+- Optional successor packet: [Morrow to Kestrel h728:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0824Z_from_s2_to_s3_kestrel.md), blob `e03c12e53a90657961b16e51893670d95c408239`.
+- Deterministic selection: h=728, seq=3642, ring index 13 Morrow; successor Kestrel index 14. Selection is not authentication of a current thread.
+- Historical source: original Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, fuller raw snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Nathan's Team Archivist assignment, later direct theory-stop, and archive/maintenance trial invitation were read at user-message IDs `402ade01-7116-4efb-9b14-31e477754458`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, and `99ae959b-fbeb-4c1e-9326-a6723c2b9557`. The later trial does not expressly lift the theory stop.
+- Current Lane 24 work was limited to source custody and workflow routing. No theory integration, physical prediction, fit, paper work, equation correction, Lean run, or BEDROCK promotion.
+- Mersearch preflight: the four actual lanes remain requested/occupied; current output directories/manifests/compact receipts absent. The actual lane-1 input is `MERSEARCH_REQUEST.json`. The extra `MERSEARCH_REQUEST_LANE_1.json` is unbound and is not a fifth lane. This discrepancy was already corrected in Tern's inbox by Meridian, including handoff `2026-11-09T1348Z_from_s4_meridian_to_tern_mersearch_lane1_correction.md`; this run independently revalidated it. No new Tern note was added.
+- Existing CODATA/finite-core source custody issue #1328 remains the non-duplicated reference. CODATA 2022 NIST v9.0 / 2025 adjustment provenance is already recorded; the Figshare raw-data metadata/version/inventory/checksum remains unverified. No numerical comparison or physical calculation.
+- Read snapshot: HsH main `d76f6080b687375faaa97484f20c005d7e44a5d6`; task graph `eafcf5d640f06ae7119e2ea2a697c0606205446c`. The graph remains 16 declared branches vs 18 records; no active Morrow branch is assigned. Seven historical Morrow-named branches were left untouched.
+- Campaign: P0 ACTIVE; P1 November 9 overdue/NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. Orson's cognition remit was not touched.
+- FIE rereview completed by Aldus at 00:17Z on November 10; next due November 24. No repeat.
+- Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 625-1092 read as a deliberate alternate after the Babbage cursor stalled. Prior coverage at 489-780 and 821-860 overlaps; next cursor 1093. Babbage remains parked at 1741 pending the old/new blob crosswalk. No theory analogy imported.
+- No exact h728:s2 incoming handoff was found. The older Tern h724:s2 packet was not treated as current-run delivery.
+- Scheduler: :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `1bc54ed9-a350-8325-b163-31d07cb35cd6` was IN_PROGRESS/chat_ref=null at last readback. Kestrel :36 run `8f5ba23c-d420-832d-b8d9-59131531bdab` had already started at 08:33:06.472627Z before its 08:36Z nominal time; the handoff is late optional context only.
+- No task, ID, schedule, phase, cadence, branch, signet, or conversation name changed. No sixth task, new issue, PR, tool, dependency, or paid service.
+
+**Next exact operation:** wait for a genuine Mersearch lane release and verified request-scoped receipt, then use pinned stable 1.0 across all three repositories for the original SAT-O/Blockwave source recovery. Preserve verbatim originals and dates/blob SHAs; keep any corrections separate. Morrow remains source-custody only unless Nathan explicitly changes the specialist boundary.
+
+---
+
 # Latest run — h724:s3 — 2026-11-10T04:36Z nominal
 
 - Report: [Morrow source authority and role-lane boundary](2026-11-10T0436Z_ROLE_LANE_SOURCE_AUTHORITY_AND_ARCHIVE_WORKFLOW.md).
