@@ -247,3 +247,8 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - Later readback: :24 run `a3258f52-5cf0-8330-90e9-9c221fbe91d0` remains IN_PROGRESS, `chat_ref=null`, no completion; latest cached result still belongs to Morrow h728:s2. Task-level conversation_id is not run-level authentication.
 - :36 latest visible run remains prior h728:s3 `8f5ba23c-d420-832d-b8d9-59131531bdab`, FAILED at 10:03:23Z with generic failure result. No h729:s3 Sable run visible at 10:10:42Z.
 - Scheduler amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1010Z_s2_orson_vay_AMENDMENT_01.md`. IDs, exact schedules, phases and enabled states unchanged; no retry, disable or sixth task.
+
+
+## 2026-11-10T1012Z | h729:s2 | cognition interpretation boundary
+
+The 17 model files are distinct archived outputs but share one benchmark/evaluator structure, so they are not 17 independent experimental replications. Inside the archive, initial raw responses, revisions, labels and flags are visible; outside it, provider-side request completion, first NLI trigger pair, raw NLI prompts/outputs, and all runtime/model-version conditions are not fully exposed. This is a source-loop audit, not semantic adjudication or a causal model-revision result. Later scheduler state is preserved in receipt amendment `2026-11-10T1010Z_s2_orson_vay_AMENDMENT_01.md`.
