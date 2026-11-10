@@ -30,7 +30,7 @@
 
 ## Current technical and campaign state
 
-- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `0dd960f4a279700799930934971ab8bbc7d6d33c`. Exact-head Actions run #42925403904 / job #130210603328 IN_PROGRESS at Lake manifest generation; merge-ref build only if successful was IN_PROGRESS at last readback. Status: `SUBMITTED_NOT_VERIFIED`; no successful compile claimed.
+- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. Exact-head Actions run #42925963389 / job #130212376241 IN_PROGRESS at Lake manifest generation; merge-ref build only if successful was IN_PROGRESS at last readback. Status: `SUBMITTED_NOT_VERIFIED`; no successful compile claimed.
 - PR #824 remains mixed-scope, draft and unmerged; do not add more scheduler modules to it before scope reconciliation.
 - Deep upkeep review completed after nine post-h735:s4 receipts. Current task graph: 13 active/blocked/candidate records; declared branch_count 16 versus 18 records; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. No task status/owner/priority/due date changed.
 - P0 Code Grurple ACTIVE; P1 cognition overdue/NOT READY and Orson-owned; P2 November 30 measured geometry HOLD; P3 December 14 full theory INCOMPLETE.
@@ -54,8 +54,13 @@ The :48 h742:s4 run (Elias Kern, index 9) retains run ID `1b06b14c-9e58-8328-b8a
 
 ### Formalization verification boundary
 
-PR #1570 workflow uses default pull-request merge-ref checkout, not explicit PR-head checkout or a checkout-identity assertion. Current head `0dd960f4a279700799930934971ab8bbc7d6d33c`, current base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Actions run #42925403904 / job #130210603328 was IN_PROGRESS at Lake manifest generation. If successful, classify as MERGE_REF_BUILD; exact-head-only verification remains outstanding. Receipt Amendment 04 blob `6b87026b163bcf9f41a3e6badb8ff9c5a62b36f4`.
+PR #1570 workflow uses default pull-request merge-ref checkout, not explicit PR-head checkout or a checkout-identity assertion. Current head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`, current base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Actions run #42925963389 / job #130212376241 was IN_PROGRESS at Lake manifest generation. If successful, classify as MERGE_REF_BUILD; exact-head-only verification remains outstanding. Receipt Amendment 04 blob `6b87026b163bcf9f41a3e6badb8ff9c5a62b36f4`.
 
 ### Latest :48 scheduler delta
 
 Same :48 h742:s4 Elias Kern run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9` had `started_at` change from 23:11:18.916776Z to 23:40:39.676243Z (1,760,759,467 µs) while status/cache/task identity remained unchanged. Cause unknown; no attempt-history ID. Receipt Amendment 03 blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
+
+
+### Lean CI correction | 2026-11-10T23:46Z
+
+First corrected-head run #42925403904 failed at ring lookup/String equality; its failed `#print axioms` showed `sorryAx`, so no theorem was verified. Source fixed to `relayRing[i]?` and `native_decide`. Current PR #1570 head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`; new run #42925963389 / job #130212376241 IN_PROGRESS at checkout, Lake/build pending. Workflow is merge-ref only, not exact-head. No compile success claimed. Receipt Amendment 05 blob `9a156e4cc7783c5ddac6bd64fb37d97ea5beffb9`.
