@@ -41,5 +41,6 @@ The current branch graph still reports 16 declared branches and 18 records; Tern
 2. Recover the raw 2026-10-29 TOPLESS export before treating the alleged (w=ct)-only correction as a superseding direct instruction.
 3. Resolve the same-named Blockwave attachment IDs and the empty-text Oct19 Ideal Model attachment without assuming byte identity.
 4. Define typed projections and compositions among (C^1), (W^2), (W^4_{core}), (Sigma^3), and observed traces before any theory or physical interpretation.
+7. The 4D Hodge-degree fact is standard, but no HsH Lean proof was added: Mathlib tag v4.34.0 lacks `Mathlib/LinearAlgebra/ExteriorPower/HodgeStar.lean`, and no local `lean`/`lake` executable is installed.
 5. Preserve PR #951 until Track B disposition; do not claim exact-head verification.
 6. Perform the formal FIE rereview on/after 2026-11-10 if still due.
