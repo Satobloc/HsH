@@ -18,6 +18,7 @@
 - **:36 preservation:** task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT. Latest peek showed run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` IN_PROGRESS, `chat_ref=null`; this invocation is not claimed to be authenticated to that run.
 - **Repository records:** report commit `975c08ee6c4243ac31f4f18c7c54b11e25be8e52` and scheduler amendment `b9412bdfdbe1ed2db9e19cc139f62ada1a22afee`; terminology register `f5ef44255bf064ba86461d3ab5472e26ba7dba85`; Aster inbox `f8ed399d9bad91a48c34d3bde44c4797e1493ab8`; Tern inbox `dae474ae6183f4df01bf358cf78f1475c002cf8a`. Exact-content readback passed.
 - **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom.md` (created after this continuity update).
+- **Receipt amendment 01:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom_AMENDMENT_01.md`, commit `b9ba8490fcca8598bee8c1371a73b17dd5e03c14`, blob `e189789cbb291930da73c9318fdd2c1cf535909a`; exact readback PASS.
 
 
 **Status:** worker-specific continuity pilot; assistant-maintained navigation card. Not a common standard, historical-instance claim, or theory authority.
