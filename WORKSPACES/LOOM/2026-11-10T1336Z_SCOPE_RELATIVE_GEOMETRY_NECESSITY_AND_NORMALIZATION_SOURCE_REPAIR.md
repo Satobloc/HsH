@@ -131,3 +131,15 @@ The raw statement is low by a factor of 1,000. This is a plain arithmetic correc
 - Aster's h733:s4 :48 run had already started (run 6e040f6a-36a0-8322-a11a-5a8e0c62b6fb, `chat_ref=null`). Any inbox context is post-start optional only. Tern retains scheduler reconciliation authority.
 
 **Disposition:** internal source/architecture correction only. No new public issue was created because no independent physical result or review-ready public claim exists. No duplicate publication was made.
+
+
+## Scheduler observation amendment | 2026-11-10T1456Z
+
+The earlier :36 task snapshot in this report is preserved as an observation, not a final identity claim. A later ID-specific peek showed:
+
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the exact original hourly America/New_York :36 VEVENT. The earlier same-slot run ID `61cf0d7b-7d3f-8325-a9d9-86b1f90f75e8` was first recorded by Sable at `started_at=13:31:19.799198Z`, then observed at `14:21:48.852734Z`. The later peek now shows a different run ID `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756`, still scheduled for 13:36Z, started at `14:55:21.280643Z`, IN_PROGRESS, `chat_ref=null`.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact original hourly :48 VEVENT. The earlier same-slot run `6e040f6a-36a0-8322-a11a-5a8e0c62b6fb` was observed IN_PROGRESS from 14:19:36.109515Z. A later peek shows run ID `6e040f6a-289c-8327-8980-db6550fdba6f`, same 13:48Z slot, started 14:49:01.688258Z and FAILED at 14:49:11.253653Z, `chat_ref=null`.
+- Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact original hourly :00 VEVENT. Run `fe788a9a-7bb4-8326-bcdb-01575ef0e215`, scheduled 14:00Z, started 14:29:30.115702Z and FAILED at 14:54:32.096977Z, `chat_ref=null`.
+- No attempt-history IDs, retry counters, event logs, or failure causes are exposed. Do not infer retry, restart, duplicate execution, worker identity, or delivery. The :12 task remains disabled. All task IDs, schedules, phases, prompts, and enabled states remain unchanged.
+
+Tern owns scheduler reconciliation. These are preserved snapshots, not a causal diagnosis.
