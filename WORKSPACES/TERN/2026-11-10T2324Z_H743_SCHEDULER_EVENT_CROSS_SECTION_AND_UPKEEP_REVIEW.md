@@ -222,3 +222,12 @@ The run remains recorded IN_PROGRESS. No attempt-history ID, retry counter, even
 At the 23:40:56Z readback, :24 h743:s2, :36 h743:s3 and :48 h742:s4 were all still recorded IN_PROGRESS. If the later :48 `started_at` field is taken literally, the three-run overlap lower bound at that observation is 16,323,757 µs (16.323757 s). The earlier 23:32:33Z overlap bound remains a separate historical snapshot; the two are not combined.
 
 The corrected Lean module now includes both :48 snapshots and proves the same-run-ID equality, unchanged scheduled/task identity, changed `started_at` arithmetic, and the later overlap lower bound. PR #1570 head is now `0dd960f4a279700799930934971ab8bbc7d6d33c`. Exact-head Actions run #42925403904 was PENDING at the last check; no successful compilation is claimed.
+
+
+## Addendum 03 | 2026-11-10T23:43Z | Lean workflow checkout semantics
+
+The workflow used by PR #1570 was read from the PR base branch. Its `actions/checkout@v4` step does not specify `ref`; for a pull-request event this is the default synthetic merge ref. The workflow's final environment step prints `GITHUB_SHA`, but there is no explicit PR-head checkout or checkout-identity assertion.
+
+Therefore, a successful run #42925403904 would be a **merge-reference build**, not an exact-head-only build. The current PR head is `0dd960f4a279700799930934971ab8bbc7d6d33c`; the PR base branch `infra/lean4-verification-20261023` has advanced from the original base `61cc8b65ffed70296e0121dbae067892a79c81d4` to `c7dc2c483f50ae03fc7a7c530829170135e18d92`. At this addendum, Actions run #42925403904 / job #130210603328 was IN_PROGRESS at “Generate Lake dependency manifest”. No compilation success is claimed, and exact-head-only verification remains outstanding.
+
+No workflow, base branch, task, schedule, phase, cadence, enabled state, or automation count was changed.
