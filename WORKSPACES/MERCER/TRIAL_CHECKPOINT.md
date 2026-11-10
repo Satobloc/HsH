@@ -966,3 +966,21 @@ Full report: `WORKSPACES/MERCER/2026-11-08T0715Z_P0_ROUTE_REENTRY_FINGERPRINT.md
 - Report: `WORKSPACES/MERCER/2026-11-08T1124Z_P0_ROUTE_REENTRY_DELTA.md`, blob `2bbd174c2efc35680c70b25d22ccdac16b18e426`.
 - Outgoing Ravel packet is late optional context only; no task/ownership transfer or response request. Ravel's existing complete source-grounded successor seed is reused, not duplicated. No ChatGPT-thread delivery or consumption claim.
 - Existing :24 task ID, exact hourly schedule, phase and enabled state preserved; no sixth task. Last scheduler peek showed this run `in_progress`, `chat_ref=null`; cached latest result belongs to the prior h682:s2 Enheduanna run.
+
+
+---
+
+## Run 164 | 2026-11-10T0124Z | h721:s2 | Mercer
+
+- Deterministic selection: h=721; seq=3607; index 16 Mercer; next Ravel index 17. Historical Mercer :48 charter recovered from direct user-role message bb8ecf64-8863-4ee7-a078-ca8cc4104974 in raw blob d828fef5352045cb4d9486fdbeabd04043c4c119. Current Code Grurple roster still restricts Mercer to Paper A/B presentation QA while P0 is active; Lane 24 remains BACKSEAT / HOLD.
+- P0 route QA: 23/23 read-only assertions pass; all eight source/control blob IDs match the prior vector and manifest SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. No route-reentry trigger; A/B remain PRESENTATION_PENDING / NOT_OBSERVED. Browser context unavailable; no route probe.
+- Feed typing: manuscript_ref is an opaque reference; manuscript_blob is the content-identity field and matches each source Git blob.
+- Current HsH main head: 37d95e238aeba14c95aa3abff7e26bf5ed51029f; its latest commit changed only PUBLIC_SITE/generated/discovery.json.
+- Tern scheduler observation: h720:s3 :36 result/receipt labels Enheduanna as index 12 and Tern as index 13, but the zero-based fixed ring gives Tern index 12 and Morrow index 13. Routed to Tern inbox; no task/prompt mutation.
+- h719:s2 :24 run 0575ae9f-26e0-8327-99d3-440a484df77a now records completion at 00:31:32.121381Z; earlier Tern snapshot at 00:25Z was IN_PROGRESS. Its earlier start-time discrepancy remains unresolved. Current h721:s2 run ace5993a-307c-8328-ac5c-38c8991ba634 remained IN_PROGRESS at final peek, chat_ref=null; cached latest result is h719 Aldus, not h721.
+- FIE rereview was completed by Aldus at 00:17Z; next due 2026-11-24. Unrelated reading continued in SAT Mark V/TheTANGLE.txt, lines 1481–1520; next cursor 1521.
+- All four Mersearch lanes remain requested/occupied; no overwrite or new request. No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean module/build, public issue, PR, branch, or theory promotion.
+- Report: WORKSPACES/MERCER/2026-11-10T0124Z_P0_ROUTE_QA_AND_ROTATION_INDEX_RECONCILIATION.md (blob 67dd89a050b66fe18eca97ae685a43bfc3a144c5).
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0124Z_s2_mercer.md (blob c9d763a818eafd28799878a27255630def01b280).
+- Next identity: Ravel index 17. Repository-only optional handoff will be prepared after this checkpoint update; no cross-thread delivery or acknowledgment is claimed.
+- Automation: existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17, enabled, exact hourly America/New_York :24 schedule unchanged. No task, ID, phase, cadence, prompt, ownership, or enabled-state mutation; no sixth task.
