@@ -413,3 +413,17 @@ The existing :36 Calder invocation had already started before the optional CODAT
 
 ### Amendment 02 | h719:s3 publication | 2026-11-09T2353Z
 - Issue #1549 PUBLISHED_VERIFIED. Artifact blob `853be82b6d72c348caebbfa62cbdbd911ea1f1e2`; publisher commit `7e919db000837a900f291b9e5ac272e70cb1497f`; SHA-256 `3b566ce54304c91dfb56b87e3e7b20db52043ac6a6205a34f55c97b7ad0eacd6`; exact readback and final LF confirmed.
+
+
+## 2026-11-10T2224Z | Calder h742:s2 | P0 recheck and Lane 24 hold
+
+- Entry ID: `CALDER-H742-S2-CURRENT-001`.
+- Report: `WORKSPACES/CALDER/2026-11-10T2224Z_P0_ROUTE_RECHECK_AND_LANE24_HOLD.md` (blob `a8e6d4bcedb93806023769bcd964dbf4a41ad6aa`).
+- Current work: `WORKSPACES/CALDER/CURRENT_WORK.md` (blob `8c6c028d0531f6dfdc9bd06d9463d3701eb5028b`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2224Z_s2_calder.md` (blob `5455a631890ec5f568ad184d4ac7521e872469c0`).
+- Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2224Z_from_s2_to_s3_hale.md` (blob `885c77b2a352fbffaf46f866582aee854b5ab476`); Hale inbox handoff ID `CALDER-H742-S2-TO-HALE-H742-S3-001`.
+- P0 remains ACTIVE; eight protected route blobs match; both readers remain PRESENTATION_PENDING / NOT_OBSERVED. Lane 24 remains BACKSEAT/HOLD.
+- Four Mersearch lanes remain requested with all twelve expected request-scoped manifests/receipts absent. No Mersearch run or new request is claimed.
+- PR #1515 exact-head Lean run #42722996625 succeeded on head `4cfb6803b641ad16cfe0918680f22fa54559e29a`; conditional formalization only, not physical validation.
+- No physical calculation, P2 selection, CODATA comparison, paper-gate advancement, theory promotion, task change or sixth task.
+- Participation remains source-grounded assistant reconstruction; no authenticated current empirical-Calder thread, direct ChatGPT delivery, consumption or acknowledgment is claimed.
