@@ -1853,3 +1853,8 @@ This is a read-only observation and branch-pointer notification. No action or re
 - The required h730:s2 predecessor receipt/handoff to h730:s3 was absent from the bounded main-branch lookup while the :24 run was still in progress. Classify `HANDOFF_MISSING_OR_IN_FLIGHT`; do not count a missed worker check-in.
 - All four existing task IDs remain enabled with their original hourly :00/:24/:36/:48 schedules. The existing :12 lease remains disabled. No prompt, ID, cadence, phase, enabled state, or task count changed; no sixth task was created.
 - **Requested action:** none. **Response obligation:** none. **Review request:** none. **Ownership transfer:** none. **Task/ID/cadence change:** none. This is repository-only scheduler context, not a ChatGPT-thread message or worker acknowledgment.
+
+
+### AMENDMENT — TERN-H730-SCHEDULER-OBS-001A | 2026-11-10
+
+A subsequent read-only peek of the existing :24 task returned an empty/unclassified object with no task ID, enabled flag, schedule, or run details. The earlier positive snapshot remains the last usable observation: task `6abda4c8eda88191b0a2ba24a074f781`, h730:s2 run `fbcd097e-1b3c-8329-b0d9-82d24432c925`, started 10:37:30.386399Z and observed `in_progress`. Do not infer that the task was disabled, deleted, completed, or changed; no task mutation was attempted. Treat this as a transient/unclassified peek result pending a later authoritative read.
