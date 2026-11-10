@@ -90,7 +90,7 @@ No merge is requested. A successful Lean build would verify only the encoded loc
 
 ## 6. Unrelated reading break
 
-Read `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`, lines 1041-1080, blob `f33eb29b2d... ` as a light language-trivia break. Next cursor: line 1081. This is a transcript reading cursor, not scientific evidence. No physical break is claimed.
+Read `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`, lines 1041-1080, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42` as a light language-trivia break. Next cursor: line 1081. This is a transcript reading cursor, not scientific evidence. No physical break is claimed.
 
 The separate Babbage local-text cursor remains parked at 1661 pending the old/new blob crosswalk. Do not resume it until that crosswalk is resolved.
 
