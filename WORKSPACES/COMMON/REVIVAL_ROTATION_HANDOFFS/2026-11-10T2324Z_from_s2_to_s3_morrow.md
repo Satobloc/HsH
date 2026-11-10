@@ -9,8 +9,8 @@ This packet is informational only. No task, response obligation, review, theory 
 
 ## Main records
 
-- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `3a0da45ac9159aab637ee2b7d0035967aa82d80e`.
+- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `329890f9ba584940245b2b140b86d0a9b091b17b`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `31c2d8976edbb25c3537a2f1540f3602768e89f9`.
 - Corrected h742 Calder receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2224Z_s2_calder_AMENDMENT_03.md`, blob `0b1f64555c61126acfd1415209003dfabee19ffe`.
 
 ## Useful control-plane delta
@@ -31,7 +31,10 @@ No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 **Amendment 01:** The :48 h742:s4 deterministic ring label is corrected to **Elias Kern** (index 9). Hale is h742:s3 (index 8). The run ID, timestamps, state and cache pointers are unchanged. See Tern h743 receipt Amendment 01.
 
 
-**Amendment 02:** Current report blob is `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`; current receipt blob is `3a0da45ac9159aab637ee2b7d0035967aa82d80e`. Corrected PR #1570 head is `0dd960f4a279700799930934971ab8bbc7d6d33c`, Actions run #42925403904 (job pending at last check) IN_PROGRESS. No successful compile is claimed. See Tern h743 receipt Amendment 02, blob `ac694b91d41703871eab4b2e9527442348882b3e`.
+**Amendment 02:** Current report blob is `329890f9ba584940245b2b140b86d0a9b091b17b`; current receipt blob is `31c2d8976edbb25c3537a2f1540f3602768e89f9`. Corrected PR #1570 head is `0dd960f4a279700799930934971ab8bbc7d6d33c`, Actions run #42925403904 (job pending at last check) IN_PROGRESS. No successful compile is claimed. See Tern h743 receipt Amendment 02, blob `ac694b91d41703871eab4b2e9527442348882b3e`.
 
 
 **Amendment 03 | 23:42Z:** The :48 h742:s4 run (Elias Kern, index 9) retains run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, scheduled 22:48Z, status IN_PROGRESS and null chat_ref, but a later exact-ID peek changed its `started_at` field from 23:11:18.916776Z to 23:40:39.676243Z (1,760,759,467 µs). No attempt-history ID or cause is exposed; do not infer retry/restart/duplicate execution. At 23:40:56Z, :24/:36/:48 were all recorded IN_PROGRESS; if the later :48 start field is taken literally, the three-way overlap lower bound was 16.323757 seconds. The corrected Lean PR #1570 head is `0dd960f4a279700799930934971ab8bbc7d6d33c`; Actions run #42925403904 was pending at last check. No successful compilation is claimed. See Tern h743 receipt Amendment 03, blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
+
+
+**Amendment 04 | 23:43Z:** PR #1570's workflow was inspected. The pull_request job uses default `actions/checkout@v4` without `ref`, so it builds the synthetic merge ref and does not assert the PR head. Current PR head `0dd960f4a279700799930934971ab8bbc7d6d33c`; base branch has advanced to `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Actions run #42925403904 / job #130210603328 was IN_PROGRESS at “Generate Lake dependency manifest”. If successful, classify MERGE_REF_BUILD, not exact-head-only; exact-head verification remains outstanding. See Tern h743 receipt Amendment 04, blob `6b87026b163bcf9f41a3e6badb8ff9c5a62b36f4`. No compile success is claimed.
