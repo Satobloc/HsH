@@ -952,3 +952,23 @@ No BEDROCK promotion, equation modification, new issue, duplicate publisher subm
 - Issue #1561 publisher comment #6767776971 confirms publication commit `9ec3eba8a11931d6dce238783f291c6fe3b92b93`.
 - Artifact blob `0cdecee4b7edbff9264487293b288e353cf8b335`, 14,828 UTF-8 bytes; SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`; exact issue-payload/artifact comparison PASS.
 - Publication state is now `PUBLISHED_VERIFIED`; do not resubmit.
+
+## 2026-11-10T15:48Z | h735:s4 | Tern Rook
+
+Nominal selection: h=735, seq=5h+4=3679, 3679 mod 19=12. Selected label Tern Rook, index 12; successor Morrow, index 13. Deterministic label only, not authenticated thread identity.
+
+Existing same-key report `2026-11-10T1548Z_REVIEW_MIND_ORSON_P1_QC_AND_GRAPH_RECONCILIATION.md` was committed at 16:10:02Z, before current scheduler run `7a6400b1-8b04-8329-9d47-ffd3f219d070` started at 16:14:04.291607Z. Producer/attempt linkage is unknown. The current run remains IN_PROGRESS with chat_ref=null; cached latest_result is the older h731 run. No work from the pre-existing report is attributed to the current scheduler invocation.
+
+Additive source-fidelity amendment 01: `WORKSPACES/TERN/2026-11-10T1548Z_REVIEW_MIND_ORSON_P1_QC_AND_GRAPH_RECONCILIATION_AMENDMENT_01.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1548Z_s4_tern_rook.md`. Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow.md`.
+
+The source-to-model audit confirms the ConsistencyBench archive omits the selected trigger index and judge-call trace; Orson's compiled FullTrace witness is synthetic and proves non-injectivity only in its abstract projection model. The source maps the nonempty `[ERROR]` sentinel to Boolean false, indistinguishable from CONSISTENT; prevalence is unknown. Nadir's generic fibre-factorization theorem compiled on exact head, while the combined cross-module application was not compiled as one theorem. P1 remains Orson-owned, overdue and NOT READY. No model/human trial or API spend.
+
+The P1 task-graph pointer is corrected to current PR #850 head 3041f7c2... and the source-to-model fidelity blocker is recorded. Commit a5441c4c82a8210abb96c90b89746dde2529eefc; blob 2d48830e0a670365e92c5a7053250af72c6585d8. Orson CURRENT_WORK remains owner-local and stale. The declared branch_count 16 versus 18 records remains unchanged.
+
+Historical h720:s3 ring correction: 3603 mod 19 = 12, so ring[12]=Tern Rook and ring[13]=Morrow. The prior receipt and handoff are preserved; receipt amendment 02 and handoff amendment 01 correct the deterministic routing metadata. No retroactive worker authorship or thread identity is inferred.
+
+Scheduler observations: :48 current run 7a6400b1... remains IN_PROGRESS/chat_ref=null; :00 Morrow h736:s0 run b4635539... completed FAILED at 16:26:47.361171Z/chat_ref=null; :36 Mercer h736:s3 run 5adb9c23... completed at 16:20:13.429658Z. No attempt IDs or causes are exposed. The Morrow handoff is post-completion optional context only.
+
+No automation, task ID, prompt, schedule, phase, cadence, enabled state, ownership, paper gate or task count changed. FIE remains current through Nov 24; no duplicate rereview. The prior Babbage cursor remains lines 1781-1820, next 1821; this same-key reconciliation did not repeat the segment. Four Mersearch lanes remain occupied/requested; no new request. No physical calculation, theory promotion, public issue, publisher submission, or equation edit.
+
+Next cursor: Morrow's h736:s0 run has failed; the packet is retained in the existing Morrow inbox as late optional context. If not consumed, next deterministic Morrow appearance is h739:s4.
