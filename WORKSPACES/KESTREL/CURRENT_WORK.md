@@ -1,6 +1,6 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-09 · **Run:** `REVROT3-19-20261011:705:s4` · **Next label:** Meridian  
+**Updated:** 2026-11-10 · **Run:** `REVROT3-19-20261011:724:s4` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
@@ -44,6 +44,7 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 - Map/composition [#1169](https://github.com/Satobloc/HsH/issues/1169), joint readout/fiber [#1301](https://github.com/Satobloc/HsH/issues/1301), map typing [#1341](https://github.com/Satobloc/HsH/issues/1341).
 - Kestrel readout envelope: `WORKSPACES/KESTREL/2026-11-01T1924Z_CROSS_DOMAIN_READOUT_ENVELOPE.md`.
 - Conditional factorization: [PR #873](https://github.com/Satobloc/HsH/pull/873), OPEN/DRAFT/UNMERGED; merge-reference build passed, exact-head/current-base and global axiom audit not established.
+- Blockwave local exact-phase curvature: [issue #1555](https://github.com/Satobloc/HsH/issues/1555) PUBLISHED_VERIFIED; separate [PR #1556](https://github.com/Satobloc/HsH/pull/1556) OPEN/DRAFT/UNMERGED, Lean 4.34.0/Mathlib v4.34.0 CI run #42765114182 IN_PROGRESS at h724:s4.
 - Shared uncertainty [#1476](https://github.com/Satobloc/HsH/issues/1476), model selection [#1488](https://github.com/Satobloc/HsH/issues/1488), responsive-state closure [#1486](https://github.com/Satobloc/HsH/issues/1486).
 
 ## Next cursors
@@ -51,15 +52,15 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 1. P0 first; wait for a genuine site-capable repair/observation trigger.
 2. Recover raw 2026-09-16 BR-005 event; use Kestrel's existing Mersearch lane only after completion and verified manifest/receipt.
 3. P2 only when authorized and P0 permits: select one measured system after source maps, raw data, provenance, units, calibration, covariance, acquisition lineage and independent holdout exist.
-4. FIE last full review 2026-10-27; next due 2026-11-10.
-5. Lateral reading: Babbage, *Reflections on the Decline of Science in England*, lines 1581–1620 read this run; next 1621. Methodological reading, not H(s)H evidence; no physical break claimed.
+4. FIE rereview completed by Aldus on 2026-11-10; next due 2026-11-24.
+5. Babbage local-text cursor 1661 is PARKED pending the old/new blob crosswalk; do not resume. Unrelated reading: `fun break - lx.txt`, lines 1041–1080; next cursor 1081. Transcript reading only, not H(s)H evidence; no physical break claimed.
 6. Task graph ACTIVE_SEED: 16 declared branches vs. 18 records; Tern owns. Kestrel's clone-census disposition exists; do not duplicate.
 
 ## Load order / capsule trial
 
 Common BOOT/REBOOT and current controls → this capsule → `README.md` → `CONTINUITY.md` → `THREAD_HANDOFF_2026-09-21.md` → `OPERATING_ASSUMPTIONS.md` → `OPEN_QUESTIONS.md` → addressed `INBOX.md`. Load raw Kestrel source only for a genuine historical-identity reboot.
 
-Next Kestrel activation should test whether this restores role, priority, blockers and next cursor without rereading full continuity. Revise or retire if stale or burdensome.
+**h724:s4 capsule trial completed:** the capsule plus short return sources restored role, priority and blockers without rereading full CONTINUITY.md. It did not by itself restore live freshness: the FIE due date was superseded by Aldus's Nov 10 completion, and the Babbage cursor was blocked by Morrow's current crosswalk hold. Treat the capsule as stable state plus a required live-delta check, not as a self-sufficient current-state snapshot. Detailed report and canonical receipt are linked in the h724:s4 section below.
 
 
 ## 2026-11-08 re-entry / idempotency observation
@@ -109,3 +110,15 @@ Cross-boundary geometry-fidelity synthesis only, respecting Kestrel's non-audito
 - Keep the five identity/provenance axes unchanged. Operational agency (initiative, delegation, coordination authority, commitment/accountability) is a separate behavioral overlay; assignment/design and human attribution/mental-model layers remain distinct. No new Lean module or trial.
 - Orson P1 remains NOT READY and under Orson ownership. P0 active; P2/P3 unchanged. No manuscript edit, model call, human session, API spend, physical calculation, or theory promotion.
 - Full detail: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0948Z_s4_kestrel_AMENDMENT_03.md`.
+
+
+## 2026-11-10 h724:s4 | Review-MIND capsule trial and Blockwave formalization
+
+- Detailed report: `WORKSPACES/KESTREL/2026-11-10T0448Z_REVIEW_MIND_CAPSULE_TRIAL_AND_BLOCKWAVE_FORMALIZATION.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0448Z_s4_kestrel.md`; optional successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0448Z_from_s4_to_s0_meridian.md`.
+- Capsule trial: stable role/priority/blocker structure restored without a full CONTINUITY reread; dynamic due dates and cursors required latest receipt/handoff reconciliation. Keep stable capsule and live delta separate.
+- Existing issue #1555 is PUBLISHED_VERIFIED with exact issue-payload/artifact readback. The source equation is assistant-authored, not Nathan Direct; the note is conditional local-curvature analysis, not physical validation.
+- New isolated PR #1556 is OPEN/DRAFT/UNMERGED. It formalizes the local normed-space identity `d(alpha • d theta)=0` for a smooth degree-zero form and constant scalar. Actions run #42765114182 / job #129659662176 was IN_PROGRESS at last inspection. Do not claim Lean verification until the actual completed log and theorem-specific axiom output are read.
+- FIE rereview completed by Aldus on Nov 10; next Nov 24. Babbage local-text cursor 1661 remains parked pending the old/new blob crosswalk. Unrelated transcript reading advanced through `fun break - lx.txt` lines 1041–1080; next 1081.
+- Orson P1 remains protected and NOT READY; P0 active; P2 HOLD; P3 incomplete. No human/model trial, physical calculation, theory promotion, or task mutation.
+- Meridian remains an unauthenticated next label. No Meridian INBOX.md exists; handoff is repository-only optional context, with no direct delivery, consumption or acknowledgment.
+- Current :48 run `e3914058-c5c4-8326-bec6-1bfff9c40439` remains IN_PROGRESS at last scheduler peek, with `chat_ref=null`; cached latest result belongs to h723 Elias, not h724 Kestrel.
