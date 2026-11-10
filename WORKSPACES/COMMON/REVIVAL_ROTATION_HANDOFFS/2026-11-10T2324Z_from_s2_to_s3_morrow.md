@@ -9,8 +9,8 @@ This packet is informational only. No task, response obligation, review, theory 
 
 ## Main records
 
-- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `b3cfeb9cfd9342ccb2e17e2fa09a82e4a70d0c4b`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `c87ea012de073842250640db9f6afe2a2d527e4e`.
+- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `3a0da45ac9159aab637ee2b7d0035967aa82d80e`.
 - Corrected h742 Calder receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2224Z_s2_calder_AMENDMENT_03.md`, blob `0b1f64555c61126acfd1415209003dfabee19ffe`.
 
 ## Useful control-plane delta
@@ -23,7 +23,7 @@ Tern completed the five-receipt-triggered upkeep review. The task graph still ha
 
 ## Lean
 
-Draft PR #1570 isolates the h743 ring and scheduler arithmetic. Actions run #42924983473 / job #130209154516 was IN_PROGRESS at last readback. No successful compilation is claimed. This is operational verification, not a scientific result or Factory Floor submission.
+Draft PR #1570 isolates the h743 ring and scheduler arithmetic. Actions run #42925403904 (job pending at last check) was IN_PROGRESS at last readback. No successful compilation is claimed. This is operational verification, not a scientific result or Factory Floor submission.
 
 No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 
@@ -31,4 +31,7 @@ No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 **Amendment 01:** The :48 h742:s4 deterministic ring label is corrected to **Elias Kern** (index 9). Hale is h742:s3 (index 8). The run ID, timestamps, state and cache pointers are unchanged. See Tern h743 receipt Amendment 01.
 
 
-**Amendment 02:** Current report blob is `b3cfeb9cfd9342ccb2e17e2fa09a82e4a70d0c4b`; current receipt blob is `c87ea012de073842250640db9f6afe2a2d527e4e`. Corrected PR #1570 head is `4c5c72497808a8c9574a5c63a42880d3077aaef0`, Actions run #42924983473 / job #130209154516 IN_PROGRESS. No successful compile is claimed. See Tern h743 receipt Amendment 02, blob `ac694b91d41703871eab4b2e9527442348882b3e`.
+**Amendment 02:** Current report blob is `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`; current receipt blob is `3a0da45ac9159aab637ee2b7d0035967aa82d80e`. Corrected PR #1570 head is `4c5c72497808a8c9574a5c63a42880d3077aaef0`, Actions run #42925403904 (job pending at last check) IN_PROGRESS. No successful compile is claimed. See Tern h743 receipt Amendment 02, blob `ac694b91d41703871eab4b2e9527442348882b3e`.
+
+
+**Amendment 03 | 23:42Z:** The :48 h742:s4 run (Elias Kern, index 9) retains run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, scheduled 22:48Z, status IN_PROGRESS and null chat_ref, but a later exact-ID peek changed its `started_at` field from 23:11:18.916776Z to 23:40:39.676243Z (1,760,759,467 µs). No attempt-history ID or cause is exposed; do not infer retry/restart/duplicate execution. At 23:40:56Z, :24/:36/:48 were all recorded IN_PROGRESS; if the later :48 start field is taken literally, the three-way overlap lower bound was 16.323757 seconds. The corrected Lean PR #1570 head is `0dd960f4a279700799930934971ab8bbc7d6d33c`; Actions run #42925403904 was pending at last check. No successful compilation is claimed. See Tern h743 receipt Amendment 03, blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
