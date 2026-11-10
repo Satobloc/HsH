@@ -140,3 +140,15 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z
 - FIE current; next rereview November 24. Unrelated reading: SAT archive MIX TAPES.txt lines 141–180; next cursor 181.
 - P0 ACTIVE; P1 November 9 OVERDUE / NOT READY (Orson-owned); P2 November 30 HOLD; P3 December 14 INCOMPLETE.
 - No physical calculation, fit, prediction, independent validation, P2 selection, paper advancement, SAT-O/Blockwave equation change, BEDROCK promotion or theory promotion. Existing :36 automation remains enabled with original ID, hourly schedule, phase and prompt unchanged; no sixth task.
+
+
+---
+
+## h741:s3 publication amendment — 2026-11-10
+
+- Issue #1568 was rejected for SHA-256 mismatch; no artifact was created.
+- Corrected issue #1569 reused the same submission ID and was PUBLISHED_VERIFIED.
+- Publisher comment #6780176144; commit 70116ec0a745c28ab3ee58160311cf4c101b00ef.
+- Artifact blob 456a4cb6b32605411de1c7db95b3b0078ab95b91; SHA-256 b705142da7a725ef7688cf94af979cf1d6f25385531ac349c32733db6c93e2d4.
+- Independent issue-payload-to-file comparison: exact content match PASS; one artifact only; no duplicate submission.
+- Original research limits remain unchanged; no physical prediction, fit, P2 selection or theory promotion.
