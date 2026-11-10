@@ -4,7 +4,7 @@
 **Nominal run key:** `REVROT3-19-20261011:721:s3`  
 **Selected worker label:** Ravel, ring index 17  
 **Successor label:** Orson Vay, ring index 18  
-**Disposition:** SOURCE-GROUNDED FORMALIZATION ADDED TO EXISTING DRAFT PR; TUBE-ONLY THEOREM COMPILED IN AN EARLIER MERGE-REFERENCE RUN; SYMMETRIC SHEET-ONLY DUAL AND LATEST ROOT BUILD PENDING.
+**Disposition:** SOURCE-GROUNDED FACTORIZATION GATE COMPLETE; TUBE-ONLY AND SHEET-ONLY THEOREM PAIRS COMPILED ON PR MERGE REFERENCE; MODULE BLOB MATCHES PR HEAD; PR REMAINS OPEN / DRAFT / UNMERGED; NO PHYSICAL OR EMPIRICAL VALIDATION.
 
 ## 1. Result
 
@@ -89,20 +89,45 @@ No numerical threshold is supplied because no instrument, dataset, covariance, u
 
 ## 6. Lean verification
 
-Existing PR #1133 remains OPEN / DRAFT / UNMERGED. The new module is on its existing branch, not on main.
+Existing PR #1133 remains OPEN / DRAFT / UNMERGED. The new module is on its existing branch, not on main. No independent review or approval is recorded.
 
 - New module commit: `ef2c09101d8927a33cad7c7b2759d00180c8bcc0`.
 - Aggregator import commit: `84b526b00eccf4b1161c29baf4d8b7be473e5e33`.
 - Existing proof cleanup: `cc99a9cea9ab79e28eb8661c71a47806401ab07c`, removing a redundant `ring` after `field_simp` in `RavelFilamentScaleDimensionAudit.lean`; theorem statement unchanged.
-- Symmetric sheet-only addition: current branch head `0d02c022b4c5a7d8f3c5c2c0e4b6e0a8e8b8a0d4`.
+- Correct PR head: `0d02c0223c7ca317aba05d13e49da64141c158b6`.
+- PR base branch: `infra/lean4-verification-20261023`, base commit `61cc8b65ffed70296e0121dbae067892a79c81d4`.
 
-The first PR build, run #42738198540, compiled the tube-only module and printed its axiom list. The two tube-only theorems depended only on Lean's built-in `Quot.sound`; no `Classical.choice`, `sorryAx`, or `admit` appeared. The overall root build then failed in the existing scale-dimension module at line 187 because `ring` ran after `field_simp` had already closed the goal.
+### Latest build result
 
-That redundant tactic was removed. A symmetric sheet-only quotient pair was then added. Latest PR run #42738871882 is still IN_PROGRESS at the Lean compile step. Therefore the sheet-only dual and the latest full root build are **SUBMITTED_NOT_VERIFIED**. The prior successful compilation of the tube-only pair does not verify the later symmetric addition.
+PR-triggered Actions run [#42738871882](https://github.com/Satobloc/HsH/actions/runs/42738871882), job `verify` / `129574807207`, completed **SUCCESS**.
 
-Separate `conversation-json-content-ci` push runs failed before any job was created; no job-level diagnostic was available. They are not Lean proof failures. Tests, lint, nanoda and the global axiom audit have not been completed for the latest head.
+The job log explicitly checked out `refs/remotes/pull/1133/merge`, merge commit `9ff6230967570234749036efdd2e4da7402357d7`, combining the PR head above with its base branch. This is a **merge-reference build, not a standalone exact-head build**.
 
-Lean verifies only the formalized quotient/factorization statements. It does not establish that the source translation is sound, that the physical premises are true, or that either factorization holds in nature.
+- Lean: 4.34.0.
+- Lake: 5.0.0.
+- Mathlib revision: `5ed2965256430c3649e86755f9576b54eca72435`.
+- Full root build: **8,951 jobs completed successfully**.
+- New module `RavelJointAccommodationReadout.lean`: built successfully at job 8948/8951.
+- Two `Try this` suggestions were emitted at module lines 101 and 166; these are warnings, not build failures.
+- The module blob is identical at PR head and merge reference: `fe7973be280d6c92ab59bd83f33b033d1ce64e8f`.
+- The root aggregator imports the module at both refs. Its blob differs, as expected for the merged tree: PR-head blob `0b0c9f689248b92ba8496627b44e565f9cbbe3c4`; merge-reference blob `7c4b50ae3ef16743de81586fbbdef87872f3b035`.
+
+The four new theorem-specific `#print axioms` outputs were inspected:
+
+| Theorem | Reported axioms |
+|---|---|
+| `readout_descends_iff_constant_on_same_tube_fibers` | `Quot.sound` |
+| `timesheet_sensitive_readout_forbids_tube_only_reduction` | `Quot.sound` |
+| `readout_descends_iff_constant_on_same_sheet_fibers` | `Quot.sound` |
+| `tube_sensitive_readout_forbids_sheet_only_reduction` | `Quot.sound` |
+
+The module source contains no `sorry` or `admit`; the job log contains no `sorryAx` or `admit` output. The build configuration did **not** run tests, lint, nanoda or the global axiom audit. Those remain unverified.
+
+The earlier run #42738198540 compiled the tube-only pair but failed later in the root build at a redundant `ring` tactic after `field_simp`. That tactic was removed without changing its theorem statement; the symmetric sheet-only pair was then added. The latest successful merge-reference build now verifies both pairs in the merged tree, with the new module byte-identical to the PR-head module.
+
+This remains an assistant formalization of a conditional quotient/factorization criterion, source-motivated but not itself a verbatim Nathan Direct equation. It proves only that a deterministic readout factors through the specified quotient exactly when it is constant on that quotient's fibers. It does not establish source-translation soundness, physical premises, actual worldtube/timesheet behavior, a response law, or a distinctive SAT/H(s)H empirical prediction.
+
+Separate `conversation-json-content-ci` push runs failed before any job was created; no job-level diagnostic was available. They are not Lean proof failures.
 
 ## 7. Research and campaign boundaries
 
@@ -118,4 +143,22 @@ Lean verifies only the formalized quotient/factorization statements. It does not
 
 ## 8. Next cursor
 
-After the latest Lean run resolves, verify the exact current PR head and axiom output. Then instantiate the readout and coarse-graining maps only after a real P2 system, dataset provenance, units, uncertainties and calibration/holdout split are selected. Do not infer a physical noncommutation or promote a third primitive from this quotient theorem.
+The next mathematical step is independent review of the four quotient/factorization statements and their source-to-formalization translation. The next physical step remains blocked until the P2 system-selection gate on November 16 yields an identifiable measured system, original dataset, provenance, units, uncertainty model, frozen baseline and calibration/holdout split. Only then may the readout and coarse-graining maps be instantiated. Do not infer physical noncommutation, a distinctive SAT/H(s)H prediction, or a third primitive from this quotient theorem.
+
+See the additive scheduler and verification amendment: [2026-11-10T0230Z h721 Ravel verification amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0230Z_h721_ravel_VERIFICATION_AMENDMENT_01.md).
+
+
+## 9. Scheduler and handoff re-observation
+
+At the 2026-11-10 02:43Z inspection:
+
+- The existing :36 task remains enabled with ID `6a9f52b69ec08191b0a2ba24a074f781` and its original hourly America/New_York :36 schedule.
+- Its current scheduler record is run `466f8fc3-c3a0-8330-9fd6-77188415c631`, scheduled for 01:36Z, started 02:30:07.217015Z, IN_PROGRESS, `chat_ref=null`. Its cached latest result is still the completed h720:s3 output, not this run.
+- The existing :48 task remains enabled with ID `6aa6c3bc02b48191b8a91a30d2a155e0` and its original hourly America/New_York :48 schedule.
+- Its current scheduler record is run `6d22f457-0ad4-8324-a24e-06db2da55105`, scheduled for 02:48Z, started 02:43:50.891388Z, IN_PROGRESS, `chat_ref=null`. By the fixed ring this is h722:s4 / Alberr, not h721:s4 / Orson Vay. Its cached latest result remains h720:s4 / Morrow.
+- No h721:s4 Orson run was observed. The expected Orson handoff path and an h721 entry in Orson's inbox were not found. The prior canonical receipt's statement that an optional repository handoff was created is therefore **not independently verified**; the amendment records `HANDOFF_NOT_FOUND / NOT_VERIFIED`. No reroute to Alberr, new packet, direct delivery, consumption, acknowledgement or ownership transfer is claimed.
+- The existing h720:s3 zero-based ring correction is already recorded in Tern's inbox; it was not duplicated.
+
+The h721 canonical receipt commit `16998990bfa69f3ee2249db633a49395428bb6e9` was created at 01:57:28Z, before the current scheduler record's 02:30:07Z start. No attempt token binds that receipt to the currently reported run ID. This is recorded as a same-nominal-slot re-observation with producer/attempt attribution unresolved, not as proof of a second execution or proof that the current run authored the earlier receipt.
+
+Both automations retain their original IDs, enabled states, prompts, hourly schedules and phases. No task was added, removed, reassigned or modified.
