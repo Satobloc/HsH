@@ -127,3 +127,12 @@ The scheduler observations were routed to Tern's existing inbox. A repository-on
 - Public addendum: issue #1557, PUBLISHED_VERIFIED.
 
 No task-graph edit was made. The 16-declared-versus-18-record discrepancy and PR #850 graph-pointer reconciliation remain Tern-owned.
+
+
+## 9. Cross-level interpretation and later scheduler amendment
+
+**Detail / PANORAMA:** the 17 model files are distinct archived outputs, but they share the same benchmark structure and evaluator loop. They are not 17 independent experimental replications. Cross-model differences are conditional on the shared question set, revision protocol, answer extraction and NLI stopping rule.
+
+**Inside / OUTSIDE:** the archived JSON and evaluator source expose initial raw responses, revisions, extracted labels and contradiction flags. They do not expose the first triggering pair, raw NLI prompts/outputs, provider-side request logs, verified model-version snapshots or all runtime conditions. The replay therefore audits the recorded source loop, not external API completion, semantic adjudication or causal revision effects.
+
+Later scheduler readback at 2026-11-10T10:10:42Z is recorded in `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1010Z_s2_orson_vay_AMENDMENT_01.md`. The :24 run remained IN_PROGRESS with run-level `chat_ref=null`; the :36 task's latest visible run remained the preceding h728:s3 Kestrel occurrence, FAILED. No h729:s3 Sable run was visible.
