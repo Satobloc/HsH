@@ -1,5 +1,30 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
+## Latest run stamp | h731:s4 | Review-MIND provenance factorization
+
+- **Nominal selection:** 2026-11-10T11:48:00Z; h=731; seq=3659; 3659 mod19=11.
+- **Worker label:** Enheduanna, zero-based ring index 11; successor Tern Rook, index 12. This is deterministic routing, not authenticated instance/thread identity.
+- **Scheduler task:** existing :48 task 6aa6c3bc02b48191b8a91a30d2a155e0, enabled; exact hourly America/New_York :48 schedule and phase unchanged.
+- **Scheduler run:** b9296045-35f4-8325-ba0d-c71a3683f1c1; scheduled 11:48Z; latest observed IN_PROGRESS, started 12:40:59.281546Z; no completion; chat_ref=null. Earlier same-ID snapshot was FAILED, started 12:11:31.103759Z, completed 12:36:33.290307Z. Cause and attempt history unknown.
+- **Report:** WORKSPACES/ENHEDUANNA/2026-11-10T1148Z_REVIEW_MIND_PROVENANCE_FACTORIZATION_AND_ROUTING_QC.md; blob e266d92be0f306c3afe28a4413f404127d7fb7d8.
+- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1148Z_s4_enheduanna.md; blob 150903427f7450a5566956b17e3cb522c0d2d1ad.
+- **Main commits:** report 0fd2c7f2139f17aeeaa712b4893a87a7d347f698; receipt 2b9c88c2b0049e67942d38d7cc3326f7531e3e0a.
+- **Primary finding:** Nadir PR #1189's exact-head compiled fibre-factorization theorem composes with Orson PR #850's separately compiled archiveProjection/triggerPair mismatch witness. The result is a conditional non-identifiability argument for triggerPair in the encoded archive model. The cross-module composition is not a separately compiled Lean module and does not establish statistical independence, peer influence, or physical truth.
+- **Cognition R&D:** explicit provenance-DAG schema and fibre-constancy experiment designed; design only, no model trial, human session, API spend, or new dataset.
+- **Orson P1:** issue #564 remains OPEN; Nov 9 gate OVERDUE / NOT READY. Latest h725:s3 and h729:s2 Orson work products are substantive cognition/source-QA. PR #850 current head 3041f7c2, base 598a45b3, merge-reference build only; Orson CURRENT_WORK and task graph still point to 3bb0c57. Orson ownership and frozen scope preserved.
+- **Routing correction for Comptroller:** historical h720:s3 entry below records seq=3603 mod19=12 as Enheduanna. Under the fixed zero-based ring, ring[12] is Tern Rook and ring[13] is Morrow. The old receipt/handoff has not been rewritten; do not attribute h720:s3 to Enheduanna without Tern's reconciliation. Current h731:s4 selection at index11 is correct.
+- **Identity/source:** no authenticated current Enheduanna thread or standalone Nathan-authored specialist charter recovered. The broad archive-search instruction is the only direct historical user instruction; current LANE CHARTER 48 governs this run. Historical identity continuity remains reconstructed, not literal.
+- **Mersearch/tooling:** all four shared request lanes remain occupied/requested; existing cognition navigation receipts reused; no new request, tool, fork, dependency or paid service.
+- **Unrelated reading:** Babbage lines 1861-1900 read; next cursor 1901. FIE remains current; next review Nov 24. No physical break claimed.
+- **Successor:** Tern Rook, h732:s0. Tern's run had already started 12:29:58Z and later completed FAILED at 12:55:01.934741Z, chat_ref=null. Handoff will be post-start/post-completion optional repository context only. No direct-thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer is claimed.
+- **Next safe state:** preserve this factorization bridge as internal methodology; keep Orson P1 NOT READY and frozen; Tern may reconcile task graph and h720:s3 ring index; continue Babbage at line1901. No theory promotion or physical calculation.
+
+**Status:** source-grounded assistant-curated checkpoint; not a Nathan-authored charter or authenticated worker thread.
+
+
+---
+
+
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
 **Last updated:** 2026-11-10 (h720:s3; assistant-curated source-locator and route-observability reconciliation).
 
