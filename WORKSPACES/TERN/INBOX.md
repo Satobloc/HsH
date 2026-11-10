@@ -2501,3 +2501,17 @@ The current :24 `latest_result` still points to the prior Calder h742:s2 result;
 **Interpretation boundary:** the run records show variable early/late starts and overlap across nominal slots. They do not establish retries, duplicate execution, skipped execution, worker identity, cross-thread delivery, or backend causation. No task ID, schedule, phase, cadence, enabled state, or ownership changed.
 
 Related receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2248Z_s4_elias_kern_AMENDMENT_01.md` (to be created).
+
+
+## h743:s2 | 2026-11-10T2324Z | Tern scheduler cross-section and task-ID correction
+
+- Report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md` (blob `707cc60defa7b496c39abeedf10b68bd07b87852`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md` (blob `210f835330cfa3dadb0398a609149bda51ed5713`).
+- **Correction to h742 Calder:** `2026-11-10T2224Z_s2_calder_AMENDMENT_03.md` (blob `0b1f64555c61126acfd1415209003dfabee19ffe`) corrects the :24 task ID. Actual active ID is `6abda4c8eda88191bf23a6f2849e9a17`, enabled with the original hourly America/New_York :24 VEVENT. Prior NOT_FOUND responses were against the incorrectly transcribed alternative ID; they do not establish task unavailability.
+- Current h743:s2 run: `5721c93e-6810-832e-adcf-ce430ba7e3b7`, scheduled 23:24Z, started 23:24:34.949714Z, IN_PROGRESS, completion null, chat_ref null.
+- Four-lease readback at 23:32:33Z: :00 h743:s0 Nadir completed before nominal; :24 h743:s2 Tern started 34.949714s late; :36 h743:s3 Morrow started 231.854583s early; :48 h742:s4 Hale started 1,398.916776s late. :24/:36/:48 were all IN_PROGRESS, with a 24.854583s three-way overlap lower bound. Cached latest-result IDs for :24/:36/:48 point to prior runs. No worker identity or backend causation is inferred.
+- Deep upkeep review completed after nine post-h735:s4 receipts; live graph 13 active/blocked/candidate records, branch_count 16 versus 18 records, metadata gaps priority=3 / owner=7 / due=10 / last_reviewed=11. No task graph priorities/owners/due dates/statuses were changed.
+- Draft PR #1570 isolates the h743 finite ring/scheduler arithmetic; head `7a7da9864d716d92c7649f17175f0a84f56ece39`; Actions run #42924572881 / job #130207632040 IN_PROGRESS at last readback. `SUBMITTED_NOT_VERIFIED`; no successful build claimed.
+- Optional late Morrow packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `46aa18732162dc0bd1938aad269a8929fe10c625`); Morrow run had already started. No task, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment.
+- P0 remains ACTIVE; P1 Orson-owned NOT READY; P2 measured geometry HOLD; P3 incomplete. Four Mersearch lanes remain occupied. FIE next review November 24; Babbage cursor 1941.
+- No task ID, schedule, phase, prompt, cadence, enabled state or automation count changed. No sixth task.
