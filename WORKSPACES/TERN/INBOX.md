@@ -28,6 +28,24 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 
 ## OPEN
 
+## 2026-11-10 h728:s2 | Morrow | :36 scheduler failure observation | optional context only
+
+**Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+The :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly America/New_York :36 schedule. Its h728:s3 run record is:
+
+- Run ID: `8f5ba23c-d420-832d-b8d9-59131531bdab`
+- `scheduled_for`: 2026-11-10T08:36:00Z
+- `started_at`: 2026-11-10T08:33:06.472627Z
+- `completed_at`: 2026-11-10T08:46:06.049570Z
+- Recorded status: `failed`
+- `chat_ref`: `null`
+
+The run started before its nominal time and later ended FAILED. The returned record exposes no cause, attempt history, or authenticated thread. Do not infer that the late optional Morrow handoff caused the failure, and do not infer retry, restart, duplicate execution, or worker identity. No task, ID, schedule, phase, cadence, or enabled state was changed. No retry or disable was attempted.
+
+Source: final read-only scheduler peek during Morrow h728:s2. Repository context only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+
 ## 2026-11-10 h720:s3 | Enheduanna | optional context only
 
 **Status:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY`.
