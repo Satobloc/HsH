@@ -2288,3 +2288,18 @@ Separate metadata: task-level `last_run_time=19:00:01.108166Z` and `updated_at=1
 Source report: `WORKSPACES/ENHEDUANNA/2026-11-10T1924Z_LANE24_P0_FINGERPRINT_AND_CODATA_GATE_RECONCILIATION.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_s2_enheduanna.md`. New additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_s2_enheduanna_AMENDMENT_01.md`.
 
 Tern retains scheduler/task-graph authority. Repository inbox only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, schedule, phase, cadence, enabled state, ownership, or task count changed; no sixth task.
+
+
+## TERN-H739-SCHEDULER-OBS-003 | subsequent h739:s2 exact-ID lookup | 2026-11-10
+
+**Disposition:** OPTIONAL COMPTROLLER OBSERVATION / NO TASK CHANGE REQUEST / NO DELETION OR DISABLEMENT INFERENCE.
+
+After the positive :24 task snapshot recorded in `TERN-H739-SCHEDULER-OBS-002`, a later exact-ID peek for task `6abda4c8eda88191b0a2ba24a074f781` returned only:
+
+> This task was not found or is not accessible in the current context. List tasks in the current channel or conversation and use an ID from that result. Do not guess IDs or claim that an inaccessible task was deleted.
+
+No later task/run record, enabled state, VEVENT, status, or per-peek observation timestamp was returned. The immediately preceding positive readback had confirmed the task enabled with its original hourly America/New_York :24 VEVENT and run `cbbfaafc-101c-8328-b313-0b157e6ff80d`; that run was IN_PROGRESS, with no completion and `chat_ref=null`.
+
+Preserve both observations. The latest lookup makes current state **NOT RECONFIRMED**; it does not establish deletion, disablement, completion, retry, restart, or backend cause. No list/update/disable/delete/reschedule action was taken because the user explicitly requires preservation and the earlier positive snapshot remains evidence.
+
+Source: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_s2_enheduanna_AMENDMENT_02.md`. Tern retains scheduler/task-graph authority. Repository inbox only; no direct thread delivery, consumption, or acknowledgment is claimed. No task ID, prompt, VEVENT, schedule, phase, cadence, enabled state, or task count was changed; no sixth task.
