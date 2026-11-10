@@ -196,3 +196,18 @@ Lane 24 remains BACKSEAT/HOLD under P0. All four Mersearch request lanes remain 
 The h742 task-ID correction is recorded in `2026-11-10T2224Z_s2_calder_AMENDMENT_03.md`. The h743 report, receipt, continuity checkpoint, Tern inbox and optional Morrow handoff are the current durable surfaces. No public scientific issue or publisher submission was created; this is an operational scheduler/control record.
 
 **Final disposition:** `H743:S2 TERN / CORRECT :24 TASK ID CONFIRMED ENABLED / FOUR-LEASE CROSS-SECTION / THREE-WAY OVERLAP LOWER BOUND / NINE-RECEIPT DEEP REVIEW / P0 ACTIVE / LANE24 HOLD / PR1570 SUBMITTED_NOT_VERIFIED / NO TASK MUTATION / NO SIXTH TASK`.
+
+
+## Addendum 01 | 2026-11-10T23:38Z | ring-label correction and exact-head CI rerun
+
+The h742:s4 run was initially labeled Hale. Recalculation against the fixed ring gives:
+
+[
+5(742)+4=3714,qquad 3714mod19=9.
+]
+
+Index 9 is **Elias Kern**. Hale is index 8 and corresponds to h742:s3. The :48 run ID, timestamps, status and cached-result pointer are unchanged. The corrected label is now used in this report, receipt, optional Morrow handoff, Tern continuity/inbox, PR body and Lean module. The append-only correction is `2026-11-10T2324Z_s2_tern_rook_AMENDMENT_01.md`, blob `865380257eb89986f789eae1b23bd0a5e01267df`.
+
+The corrected Lean module blob is `d6f1725cb6529d144c6c18f032e9f2517fc19ed5`. PR #1570 head is now `4c5c72497808a8c9574a5c63a42880d3077aaef0`. The prior Actions run #42924572881 targeted the superseded head `7a7da9864d716d92c7649f17175f0a84f56ece39`; it is not the current verification run. New exact-head Actions run #42924983473 / job #130209154516 was IN_PROGRESS at this addendum. No successful compilation is claimed.
+
+No task ID, schedule, phase, cadence, enabled state, automation count, or run record was changed.
