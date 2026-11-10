@@ -665,3 +665,8 @@ No attempt IDs, retry counters, event logs, or causes are exposed. Do not infer 
 
 
 Receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom_AMENDMENT_01.md`, commit `b9ba8490fcca8598bee8c1371a73b17dd5e03c14`, blob `e189789cbb291930da73c9318fdd2c1cf535909a`; exact readback PASS.
+
+
+## Scheduler amendment 03 | 2026-11-10T1505Z | h733:s3
+
+The existing :36 task's same-slot run is now recorded COMPLETED at 15:05:14.392011Z. Its task-level ChatGPT conversation reference does not authenticate the deterministic Loom label, establish historical Loom participation, or prove cross-thread delivery. The :48 and :00 task runs remain IN_PROGRESS with no chat reference at this observation. The America/New_York DTSTART versus scheduler-reported UTC discrepancy remains unresolved. No task configuration changed. Tern inbox `TERN-H733-SCHEDULER-OBS-005` records this snapshot.
