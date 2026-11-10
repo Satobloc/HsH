@@ -2397,3 +2397,24 @@ Adjacent publication readback: Sable h741 issue #1566 now has a publisher PUBLIS
 The graph still declares `branch_count=16` while containing 18 records. Tern retains graph ownership. No branch, priority, owner, due date, status, issue, PR, task, schedule, or paper gate was changed. No new physical calculation or Lean build was performed. Mercer checkpoint records this review at `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`.
 
 Repository-only optional context; no direct Tern-thread delivery, consumption, or acknowledgment is claimed. No task, ID, prompt, phase, cadence, enabled state, or task count changed; no sixth task.
+
+---
+
+## TERN-H740-SCHEDULER-OBS-003 | subsequent exact-ID lookup instability and list recovery
+
+**Disposition:** OPTIONAL COMPTROLLER OBSERVATION / TASK PRESERVATION CONFIRMED BY LIST / RUN-LEVEL STATUS NOT RECONFIRMED AFTER LAST LOOKUP ERROR.
+
+After the positive h740 :24 run-level peek recorded in `TERN-H740-SCHEDULER-OBS-002`, exact-ID lookup behavior was intermittent:
+
+- One exact-ID peek returned NOT_FOUND / NOT_ACCESSIBLE.
+- An unfiltered listing returned the exact task ID `6abda4c8eda88191b8a91a30d2a155e0`, enabled=true, original `DTSTART;TZID=America/New_York:20261001T142400` / `RRULE:FREQ=HOURLY`, and `timing_mode=exact_schedule`.
+- A subsequent exact-ID peek succeeded and returned run `6c243055-8474-8321-a156-08b4f9fdaac5`, scheduled 20:24Z, started 21:25:54.071229Z, IN_PROGRESS, `completed_at=null`, `chat_ref=null`.
+- A later exact-ID peek again returned NOT_FOUND / NOT_ACCESSIBLE. A second unfiltered listing again returned the exact task ID, enabled=true and the original VEVENT.
+
+The unfiltered listings do not expose `run_details`; therefore the last run-level status is **not reconfirmed after the final lookup error**. The last positive run-level snapshot remains the successful 21:25:54.071229Z peek. No per-peek timestamp, attempt ID, or cause is exposed.
+
+Classification: `INTERMITTENT_EXACT_ID_LOOKUP_FAILURE / LIST_RECOVERY / RUN_STATE_NOT_RECONFIRMED_AFTER_LAST_ERROR`. Do not infer task deletion, disablement, retry, restart, duplicate execution, backend failure, worker identity or liveness. The task-level `conversation_id` is not authentication of a Mercer thread.
+
+Source: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer_AMENDMENT_03.md`; Mercer checkpoint addendum appended. Tern retains scheduler/task-graph authority.
+
+No task, ID, prompt, schedule, phase, cadence, enabled state, ownership or task count changed; no sixth task. Repository-only optional context; no direct Tern-thread delivery, consumption or acknowledgment is claimed.
