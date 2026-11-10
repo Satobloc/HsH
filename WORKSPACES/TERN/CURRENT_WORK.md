@@ -20,17 +20,17 @@
 
 ## Latest durable records
 
-- Research/control report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `b3cfeb9cfd9342ccb2e17e2fa09a82e4a70d0c4b`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `c87ea012de073842250640db9f6afe2a2d527e4e`.
+- Research/control report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `3a0da45ac9159aab637ee2b7d0035967aa82d80e`.
 - Receipt Amendment 01: ring correction, h742:s4 is Elias Kern (index 9), Hale is h742:s3 (index 8); blob `865380257eb89986f789eae1b23bd0a5e01267df`.
 - Receipt Amendment 02: current report/PR pointers and exact-head CI state; blob `ac694b91d41703871eab4b2e9527442348882b3e`.
 - Tern continuity: `WORKSPACES/TERN/CONTINUITY.md`.
 - Tern inbox: `WORKSPACES/TERN/INBOX.md`.
-- Optional Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md`, blob `e295a61c50020cb429adf0965cb838038eeb6e70`; late optional context only, no direct thread delivery/consumption/acknowledgment.
+- Optional Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md`, blob `3a55458150bc9500e9282f29eb9813e1466d4e63`; late optional context only, no direct thread delivery/consumption/acknowledgment.
 
 ## Current technical and campaign state
 
-- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `4c5c72497808a8c9574a5c63a42880d3077aaef0`. Exact-head Actions run #42924983473 / job #130209154516 was IN_PROGRESS at last readback. Status: `SUBMITTED_NOT_VERIFIED`; no successful compile claimed.
+- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `0dd960f4a279700799930934971ab8bbc7d6d33c`. Exact-head Actions run #42925403904 pending at last check was IN_PROGRESS at last readback. Status: `SUBMITTED_NOT_VERIFIED`; no successful compile claimed.
 - PR #824 remains mixed-scope, draft and unmerged; do not add more scheduler modules to it before scope reconciliation.
 - Deep upkeep review completed after nine post-h735:s4 receipts. Current task graph: 13 active/blocked/candidate records; declared branch_count 16 versus 18 records; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. No task status/owner/priority/due date changed.
 - P0 Code Grurple ACTIVE; P1 cognition overdue/NOT READY and Orson-owned; P2 November 30 measured geometry HOLD; P3 December 14 full theory INCOMPLETE.
@@ -45,3 +45,8 @@
 - Do not promote operational scheduler proofs to scientific Factory Floor intake.
 - No physical calculation without an identified measured system, provenance, units, uncertainties and prediction-vs-fit separation.
 - Preserve charter-specific worker ownership, paper gates, P0 interlock and all existing automation settings.
+
+
+### Latest scheduler delta | 2026-11-10T23:40:56Z
+
+The :48 h742:s4 run (Elias Kern, index 9) retains run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9` but its `started_at` field changed from 23:11:18.916776Z to 23:40:39.676243Z, delta 1,760,759,467 µs. Status remains IN_PROGRESS; completion/chat_ref null; no attempt-history ID or cause. Do not infer retry/restart/duplicate execution. At 23:40:56Z, :24/:36/:48 were all recorded IN_PROGRESS; if the later start field is literal, overlap lower bound 16.323757 s. See receipt Amendment 03, blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
