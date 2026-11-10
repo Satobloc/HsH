@@ -1018,3 +1018,21 @@ The task remains enabled with its original ID and exact hourly America/New_York 
 Current main was independently compared from the h740 report baseline: 31 commits ahead, zero behind, with no protected P0 route file changed. The eight protected P0 blobs were fetched again and all eight matched. The prior 30/30 assertion result is retained from the original h740 report; it was not rerun in this addendum.
 
 Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2024Z_s2_mercer_AMENDMENT_02.md`. No task configuration, prompt, schedule, phase, cadence, enabled state or ownership was changed; no sixth task was created.
+
+### Run 165 addendum | 2026-11-10T2128Z | rolling upkeep/deep-sweep reconciliation
+
+The h686 deep-upkeep baseline was 2026-11-08T14:24Z. At least seven durable work-product receipts have since landed: Sable h733:s2, Mira h734:s2, Loom h737:s2, Enheduanna h739:s2, Mercer h740:s2, Ravel h740:s3, and Sable h741:s0. This crosses the five-work-product review trigger. These are receipt counts, not authenticated worker activations or proof of thread delivery.
+
+Read-only review of the current 18-record task graph and current campaign/receipt state:
+
+- **P0 Code Grurple:** ACTIVE. The eight protected source/control blobs still match exactly; the 31-commit main delta from the h740 report baseline contains no protected P0 route path. Both actual reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or standdown.
+- **P1 cognition:** November 9 gate is OVERDUE / NOT READY and remains Orson-owned. No reassignment or claim of a completed independent review.
+- **P2 measured-system geometry:** November 30 gate remains HOLD with no selected H(s)H system. Ravel's h740 M87 four-CSV replay is a useful measured-data-layer result, but its H(s)H source-response/radiative-transfer maps, full phase covariance and independent holdout remain absent; issue #1567 was publisher-rejected with no public artifact. The air-water vortex candidate still lacks released raw contours/acquisition provenance and covariance.
+- **P2 worldtube polarimetry:** remains blocked by the source-defined worldtube-to-current/Stokes/Faraday readout map and supporting measurement/covariance requirements.
+- **P2 clone census:** 19/19 evidence-bounded ring-label dispositions remain recorded; authenticated first-hand current-thread replies remain 0/19; period-wide Actions/Pages, provisioning and Traffic reconciliation remain open. Mercer's existing entry is present; no duplicate check-in was added.
+- **P3 full theory:** December 14 gate remains incomplete.
+- **P4 exploration:** remains lower priority. LAB-SBS-001, HAGALAZ-SOLVER-UNIFICATION and the PAPER-CAMPAIGN parent remain without newly authorized ownership; no owner was invented.
+
+Adjacent positive publication check: Sable h741 issue #1566 now has a publisher PUBLISHED comment and exact issue-payload/repository-artifact content equality; publisher SHA-256 is `ee020aa1a90cf24a1aaaddede1c3a978eec15a082069f15f42b2c1e14a5701c2`. Its rope/heloid material is source-fidelity analysis: loop/hop is descriptive, no topological invariant or physical law is asserted. It is not P2 validation or a P0 route trigger.
+
+The task graph still declares `branch_count=16` while containing 18 branch records. Tern owns reconciliation. No branch, priority, owner, deadline, status, issue, PR, tool, task, schedule, or paper gate was changed. No new physical calculation or Lean build was performed. This is a read-only upkeep sweep, not a new run number.
