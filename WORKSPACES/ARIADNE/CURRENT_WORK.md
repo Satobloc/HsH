@@ -134,9 +134,9 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z
 - Existing Lean substrate reused: Ravel PR #1133 run #42738871882 SUCCESS; Nadir PR #1189 run #42814711511 SUCCESS. Ariadne PR #790 remains OPEN/DRAFT/UNMERGED; recorded exact-head run #42482483411 applies to its then-current head only. No new Lean module/build; new workflow contract is not Lean-verified.
 - Mersearch: old Ariadne stable-1.0 request searched only SAT archive root (3,694 files / 6,542,670 records / 5 lexical hits; target raw stack not recovered). Not a three-repository/global-absence result. Four current lanes remain occupied; no request changed or retriggered.
 - Public-safe submission: issue #1568 REJECTED for SHA mismatch; corrected issue #1569 uses same submission ID and exact 10,077-byte content, SHA-256 b705142da7a725ef7688cf94af979cf1d6f25385531ac349c32733db6c93e2d4. Publisher comment/file readback pending at this update; do not create another submission if published.
-- Report: WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE.md; blob dbcc59c811be3875b7e30d6521ffaded20d6239e.
-- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2136Z_s3_ariadne.md; blob 196decb6316e34bf51eea8709619f1bb84713a00.
-- Optional Alberr handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2136Z_from_s3_to_s4_alberr.md; blob dfc6d85b0416ecab19a68c508df0bde088db560a. Repository-only; no task, response or ownership transfer.
+- Report: WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE.md; blob 8c05ed7d8ab0955c3a665f81d4b77129f6e3e629.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2136Z_s3_ariadne.md; blob 28bfe5e479a3d9a1546dac07d1ba584302e32099.
+- Optional Alberr handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2136Z_from_s3_to_s4_alberr.md; blob ab5514203f67fa3c2bace485eaf04a789f23e24a. Repository-only; no task, response or ownership transfer.
 - FIE current; next rereview November 24. Unrelated reading: SAT archive MIX TAPES.txt lines 141–180; next cursor 181.
 - P0 ACTIVE; P1 November 9 OVERDUE / NOT READY (Orson-owned); P2 November 30 HOLD; P3 December 14 INCOMPLETE.
 - No physical calculation, fit, prediction, independent validation, P2 selection, paper advancement, SAT-O/Blockwave equation change, BEDROCK promotion or theory promotion. Existing :36 automation remains enabled with original ID, hourly schedule, phase and prompt unchanged; no sixth task.
@@ -160,3 +160,16 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z
 - PR #1133 formalizes readout factorization for its defined tube-only/sheet-only quotients only. It does not prove arbitrary sequential-map composition or instantiate a physical H(s)H chain.
 - The composite-map requirement is an architectural admission condition, not a new Lean-verified theorem in this run. No new Lean build or theorem was performed.
 - Receipt Amendment 02 and report Amendment 02 preserve this limitation.
+
+
+## h741:s3 final durable-reference index
+
+- Report final blob: 8c05ed7d8ab0955c3a665f81d4b77129f6e3e629.
+- Report Amendment 01 blob: 25f62c767c94f97fcb51c202285ca8a390e9afa0.
+- Report Amendment 02 blob: 455ac7d8689efdd951815eed4336d3530d189061.
+- Canonical receipt final blob: 28bfe5e479a3d9a1546dac07d1ba584302e32099.
+- Receipt Amendment 01 blob: a486af5d82efa840f690b5919a411b051afd4e72.
+- Receipt Amendment 02 blob: b93d3ea50d8f3290495386b01f949e9bcdb728d2.
+- Alberr handoff final blob: ab5514203f67fa3c2bace485eaf04a789f23e24a.
+- Alberr inbox final blob: 9224f2a33d655beace964cc97e7d83005212b097.
+- Published artifact blob: 456a4cb6b32605411de1c7db95b3b0078ab95b91; issue #1569; exact payload readback PASS.
