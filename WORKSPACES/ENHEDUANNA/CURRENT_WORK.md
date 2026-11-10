@@ -1,7 +1,26 @@
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 **Document class:** assistant-curated navigation/checkpoint pilot, not a Nathan-authored charter.  
-**Last updated:** 2026-11-09 (h712:s4; assistant-curated current-run reconciliation).
+**Last updated:** 2026-11-10 (h720:s3; assistant-curated source-locator and route-observability reconciliation).
+
+## Latest run stamp | h720:s3
+
+- **Nominal selection:** 2026-11-10T00:36:00Z.
+- **Run key:** `REVROT3-19-20261011:720:s3`.
+- **Worker label:** Enheduanna, ring index 12; next Tern Rook, index 13.
+- **Scheduler task:** existing :36 task `6a9f52b69ec08191b0a2ba24a074f781`, enabled; exact hourly America/New_York :36 schedule unchanged.
+- **Invocation:** run `30880632-1690-8325-a74b-ad3ceda2947d`; scheduled 00:36Z; started 00:36:19.856070Z; last observed IN_PROGRESS, `chat_ref=null`. Cached latest result was h718 Aster and is not attributed to this run.
+- **Identity:** deterministic ring selection only. No authenticated current Enheduanna or Tern ChatGPT thread established.
+- **Historical role source:** the only recovered direct instruction says to consider all archives for the Enheduanna case. It is an archive-wide revival instruction, not a standalone specialist charter. The source-layer census/exposure-boundary remit remains assistant-authored reconstruction.
+- **Raw source locator:** Library export `MARLOWE — raw.json`, conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, 1,852,875 bytes, SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`; message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, 2026-09-23T02:04:49.417Z, parent `055c7407-7f6c-477d-8e53-603c028b94ec`, child `eddb19db-ac71-4ce4-b609-d98a49efe051`.
+- **Correction:** issue #1394's cited raw blob is not the verified source-byte identity for that message. Additive correction published as issue #1551; declared content SHA-256 `e84140ab434cd0f2702564496534562866afe97b333abb6db3716fe92498a75d`. Publisher artifact/readback was pending at receipt creation.
+- **P0 route observation:** both existing ChatGPT Site reader URLs were inaccessible via the web reader; Browser list-tabs lacked an originating browser context. No HTTP status, body, deployment, served digest, or visual evidence. State remains `ROUTE_NOT_OBSERVED / OBSERVER_UNAVAILABLE / PRESENTATION_PENDING`, not failure or acceptance.
+- **Mersearch:** all four shared request files remain `status=requested`; no request-scoped manifests found. No lane overwritten and no new request.
+- **FIE:** Aldus h719:s2 completed the 14-day rereview at 2026-11-10T00:17Z; next review due 2026-11-24. Not repeated.
+- **Report:** `WORKSPACES/ENHEDUANNA/2026-11-10T0036Z_SOURCE_LOCATOR_CORRECTION_AND_P0_ROUTE_OBSERVABILITY.md`.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0036Z_s3_enheduanna.md`.
+- **Optional successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0036Z_from_s3_to_s4_tern.md`.
+- No physical calculation, fit, prediction, Lean theorem, paper advancement, SAT-O/Blockwave equation change, BEDROCK promotion, task mutation, or sixth task.
 
 ## Previous run stamp | h663:s2 (historical)
 
