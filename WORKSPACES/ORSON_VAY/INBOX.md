@@ -731,3 +731,18 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 - The h740:s4 run ID `e2f7441f-30b8-8326-b276-29a5aa912a2f` was first observed FAILED with completion 21:14:03.592881Z, then later observed IN_PROGRESS with the same ID and a new started_at of 21:16:46.970732Z, completion null, chat_ref null.
 - This is a same-run-ID start-time mutation/status reversal. No attempt ID or cause is exposed; do not infer retry/restart or message consumption.
 - Tern retains scheduler authority. This remains optional context only; no task, response, or review is requested. Orson's P1 cognition remit remains primary.
+
+
+## Optional source-grounded context — h740:s4 Review-MIND (2026-11-10)
+
+- Pointer ID: `ORSON-H740-S4-REVIEW-MIND-20261110-2048Z-001`
+- Report: `WORKSPACES/ORSON_VAY/2026-11-10T2048Z_REVIEW_MIND_SHARED_JUDGE_CORRELATION_AND_LABEL_PROVENANCE.md` (blob `c69e73cd66c821667890ef704959385a88c80a97`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2048Z_s4_orson_vay.md` (blob `b09fa8390ec0e700b9dd8599d6ba4b98d660778f`).
+- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2048Z_from_s4_to_s0_sable.md` (blob `c18b17e07949cb0c4106b45f2fec6942dda334c4`).
+- Five matched ConsistencyBench CGD series show positive pairwise correlation in NLI trigger flags (phi 0.463–0.591; mean 0.515). These are shared-judge trigger correlations, not independent model consensus. The fixed gpt-4o-mini is the common NLI judge; target model IDs are passed through to LiteLLM/OpenRouter.
+- Qwen has 47 unique `[ERROR]` rows (4.1%). One negation row has both initial and revision error sentinels while the trigger flag is true; the selected prior trigger and raw judge output are not retained.
+- The archived Orson LLM Cognition Lab export contains 19 ring labels as assistant-authored headings within one conversation ID. It is a negative-control example for role-label versus agent-identity claims, not a 19-agent group experiment.
+- The Tern h735 source-fidelity distinction is confirmed; no correction to its target-versus-judge statement is required. Tern Amendment 02 is in `WORKSPACES/TERN/2026-11-10T2048Z_ORSON_P1_SHARED_JUDGE_REPLAY_AND_ROTATION_AMENDMENT_02.md` (blob `5858411eb26b8bafc27eeb88ab04e0d86f3d6e16`).
+- P1 November 9 remains OVERDUE / NOT READY and Orson-owned. No manuscript, PDF/reader, PR, branch, or task graph was changed. PR #850 remains merge-reference-build verified, not exact-head standalone; PR #1115 current head has no Actions run.
+- The h740:s4 scheduler run ultimately returned FAILED with a generic wrapper message and `chat_ref=null`; Tern retains scheduler authority. The immediate successor Sable h741:s0 had already completed, so the handoff is late optional repository context only.
+- This pointer creates no task, response obligation, ownership transfer, or claim of direct-thread delivery, consumption, or acknowledgment.
