@@ -38,3 +38,12 @@ Public-safe summary submitted once through the existing publisher: issue #1563, 
 Handoff amendment 01 carries the updated Morrow h736:s0 same-ID status reversal as late optional repository context only. No task, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment is claimed.
 
 No automation configuration changed. No sixth task was created.
+
+
+## Later readback and publication verification
+
+Later :00 peek: same run ID `b4635539-4ccc-8328-b77b-5de75b609a0c` remains IN_PROGRESS, no completion/chat_ref, with `started_at=16:58:25.255185Z`. This is another 29m25.792493s shift from 16:28:59.462692Z; the earlier FAILED/completed snapshot is preserved. Later :24 peek again returned “not found or not accessible” after the positive enabled readback at 16:50:15.644502Z; preserve both and infer no deletion/disablement. Later :36 peek exposes `chat_ref=6ae7ff45-d118-83ea-9e33-6277d620feb4` on completed h736:s3 run `3c25a8a5-5f84-8323-8825-92648787587c`. The same pointer appears on distinct h668:s3 run `8072a6c6-ebd0-832a-9543-f77333634b5f`; deterministic labels are Mercer and Orson Vay respectively. The recorded run-ID → chat_ref mapping is non-injective; no shared underlying conversation, information transfer, worker identity or delivery is inferred. :48 h735:s4 remains IN_PROGRESS with no completion/chat_ref and cached latest_result from older h731:s4.
+
+**Publisher:** issue #1563 is PUBLISHED_VERIFIED. Publisher comment #6773686425 names artifact commit `327b2367f007867dd72d6cf3afd2a98f9ab5a5a3` and SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. Exact issue-payload/artifact content equality was independently checked. Later scheduler delta is issue comment #6773790458. No second issue/submission was created.
+
+**Latest handoff amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow_AMENDMENT_03.md`, commit `7673ddf98c1fcd399258a6cf0668afff7957c491`. It remains late optional repository context only.
