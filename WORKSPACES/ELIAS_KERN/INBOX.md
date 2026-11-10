@@ -564,3 +564,8 @@ The existing NIST M0–M4 matrix remains candidate-only; its four aggregate cell
 P0 Code Grurple remains ACTIVE; P1 Orson remains NOT READY and protected; P3 remains INCOMPLETE. All four Mersearch request lanes remain occupied. FIE rereview was already completed by Aldus at 2026-11-10T00:17Z; next review November 24.
 
 Follow the existing :48 Review-MIND charter and your own historical specialist boundary. No Track A prototype, production integration, review, task or response is requested.
+
+
+### Timing amendment — h723:s3 → h723:s4 optional context
+
+A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:50:28.324069Z` with no `chat_ref`. The handoff packet commit was created at `03:52:38Z`; the Elias inbox append commit was created at `03:52:48Z`. Therefore this packet is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start context. No consumption, reading, acknowledgment, thread delivery or ownership transfer is claimed.
