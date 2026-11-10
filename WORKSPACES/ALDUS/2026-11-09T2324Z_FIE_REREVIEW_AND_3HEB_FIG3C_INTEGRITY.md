@@ -28,8 +28,8 @@ The five messages previously used as role anchors are not the complete user-mess
 2. **Later explicit role shaping:** reject a narrow specialist label and develop Aldus as a broad cross-disciplinary “Renaissance man” who reads across fields, combines material not usually combined, tests varied combinations of readings and ideas, and proposes the next useful exploration rather than following a fixed recipe.
 
 Useful direct user-role anchors include:
-- Initial archive-mathematics assignment: `f7987437-7b44-47b1-88f2-9f6d4d6c18d0` and `cec8d63b-2c7a-4b22-8a2c-ec6f9e0b7e2f`.
-- Broad role shaping: `ec01d986-5b09-4c44-897c-75c1bb2aca99`, `f8dfe961-6de6-4e4c-b74d-8b993ddfa337`, `939e981d-72ec-451b-81a3-f0a07b3a2c48`, `fcff5c18-85c4-4efc-b7e5-df7ee20c0646`, `6f93a66b-9c2b-4db1-9a31-6dba0f3dbe11`, and `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d`.
+- Initial archive-mathematics assignment: `f7987437-aee0-494f-9743-526e5ab79bcc` and `cec8d63b-45e5-4bd0-ac73-b250d2fae522`.
+- Broad role shaping: `ec01d986-5b09-4c44-897c-75c1bb2aca99`, `939e981d-72ec-451b-81a3-f0a07b3a2c48`, `638a5f8d-7b01-4bc2-9b2b-2792344addb7`, `fcff5c18-85c4-4efc-b7e5-df7ee20c0646`, `44d8d47c-7289-4a38-9b23-d78ae9542e73`, `6f93a66b-34cb-484f-a3ce-1e5ade380065`, and `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d`.
 
 The current Lane 24 assignment is a turn-specific scope overlay, not a replacement of the broader historical remit. The September 12 convergence/provenance workflow is a later operational specialization, not the original identity.
 
@@ -39,8 +39,8 @@ The re-review was due on 2026-11-10, fourteen days after the 2026-10-27 review. 
 
 Source identity:
 - PDF self-date: 2025-02-02; stated update: 2026-02-26.
-- Source PDF SHA-256 recorded by the archive: `d13d32109bba3e7b0d14a7c8f50cdb4e1a2d1e6b0b45c8e9f3a7b5c2d1e0f4a8`.
-- Extracted-text Git blob: `9b9409c4f52c9c9f2b9a2f7c0d2d7f8e8f5b6a4c`.
+- Source PDF SHA-256 recorded by the archive: `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`.
+- Extracted-text Git blob: `9b94093053f28be8bf64ee227d3382d2296f63ea`.
 - Original 2025-10-30 raw conversation export: blob `0a7a270482bdda92a61d1c54ccccaf356e47aa0b`; direct user-role message `f476afce-eba0-4312-8c2b-36b82dbe7f3f`, 9,796 characters.
 - The 2025 raw user message contains Extensions A and B. The 2026 PDF additionally contains Extensions C-E, Central Dogma, and Tentative material that is not present in that raw message. Their precise authorship and insertion history are not established by the available source chain.
 - The 2026-09-19 annotated export records the user's instruction that FIE remains foundational and discussion may add nuance with the user's agreement, not supersede it.
