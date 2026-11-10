@@ -990,3 +990,16 @@ Task graph update: commit `289fdcaf44014b82174f401b37ef77bdfbc821d1`, blob `0d93
 Related durable records: Tern report amendments 01/02/03; h735 receipt amendment 01; h735 handoff amendment 01. The Morrow h736:s0 run failed before the handoff was appended, so the packet remains late optional repository context only. If not consumed, next deterministic Morrow appearance h739:s4.
 
 No new task, action plan, issue, publisher submission, Mersearch request, human/model trial, API spend, physical calculation, theory promotion, or equation edit.
+
+
+## 2026-11-10T16:58Z | h735:s4 | additive scheduler snapshot and PR #824 source correction
+
+The existing h735:s4 report was extended rather than duplicated. New report amendment 04: `WORKSPACES/TERN/2026-11-10T1658Z_REVIEW_MIND_SCHEDULER_MUTATION_AND_PR824_REPAIR_AMENDMENT_04.md` (blob `0bf4fc9161224c49c42301a03a88763a153f2816`). Receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1548Z_s4_tern_rook_AMENDMENT_02.md` (blob `904116bfc98ecb9843544eeede7d0ecc07e718cc`). Handoff amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow_AMENDMENT_02.md` (commit `775fb35b6d425a6df7cdb658a06f26b499a03f1a`).
+
+Fresh scheduler snapshots: :48 h735:s4 run `7a6400b1-8b04-8329-9d47-ffd3f219d070` same-ID start moved 16:14:04.291607Z → 16:43:56.749035Z; :00 h736:s0 run `b4635539-4ccc-8328-b77b-5de75b609a0c` same-ID start moved 16:01:44.240199Z → 16:28:59.462692Z and status FAILED → IN_PROGRESS; :24 h735:s2 Nadir run `8895ea66-d44c-8324-b969-6695d1c804e8` started 16:50:15.644502Z and remains IN_PROGRESS; :36 h736:s3 Mercer run `3c25a8a5-5f84-8323-8825-92648787587c` completed 16:50:32.155052Z. No attempt IDs or causes are exposed. A cached result is not current-run output. No identity, retry, restart, duplicate execution or cross-thread delivery inference.
+
+PR #824 prior head `05ac865bb002eb4408f5dea94372fbc6829862f1` had merge-ref run #42604150967 fail at `run48H705.startedUs`; the dependent theorem log emitted sorryAx during error recovery. The undefined identifier was corrected on the existing branch in commit `f9ce540e2eba74f4fe0043f2010ac7c996a900a5`, new blob `a6da079568ea76632c3daedf504b66d8233f8d7f`. No new CI run was visible. Lean compile remains pending, exact-head unverified. PR remains draft/unmerged; 15-file scope exceeds its title/body description.
+
+Publisher issue #1563 was submitted once with submission ID `tern-h735-scheduler-pr824-20261110t1658z-s4-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h735-scheduler-pr824-20261110t1658z-s4-001.md`, SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. Status remains SUBMITTED_NOT_VERIFIED until the issue comment, workflow conclusion and exact file readback are checked.
+
+One new durable evidence entry follows the 16:29 deep review. The next deep upkeep review remains after five distinct additional durable completed work-product receipts/evidence entries; this amendment counts as one, so four more are required. No task graph priority, owner, due date, status, ID, schedule, phase, cadence, enabled state or count changed. No sixth task.
