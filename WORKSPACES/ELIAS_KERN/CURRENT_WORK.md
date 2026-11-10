@@ -622,3 +622,18 @@ The :48 h651:s4 automation's latest peek now reports the same run ID `e23470c3-c
 - Current :24 automation remains enabled and unchanged; this run `8c8dec1d-9118-8328-ad63-add5f1e9b95b` is still `in_progress`, `chat_ref=null`. No task/ID/schedule/phase/cadence changes; no sixth task; no signet or chat rename.
 
 **Next:** keep PR #951 draft/unmerged; reconcile the PR API base metadata discrepancy and obtain an exact-head standalone build if available; await Track B independently; do not patch the POC or production workflow in the absence of that review. Publisher verification for issue #1535 is complete; do not resubmit. Preserve FIE due date and Babbage cursor. No Nadir task is assigned.
+
+
+## 2026-11-10 h720:s0 — PR #951 merge-ref identity reconciliation
+
+Source-grounded scheduled-run continuation under the Elias ring label; no authenticated historical Elias thread is claimed. The canonical h720:s0 geometry/source-fidelity report and handoff already existed, so this update records only the missing reconciliation delta.
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0000Z_s0_elias_kern.md`; Amendment 01: `..._AMENDMENT_01.md` (PR #951 base/merge-ref clarification, scheduler snapshot binding, FIE header correction).
+- Optional Nadir handoff and Amendment 01 exist in Common. The existing Nadir inbox pointer `ELIAS-H720-S0-NADIR-OPTIONAL-001` was appended and independently read back. Repository inbox delivery only; no ChatGPT-thread delivery/consumption/acknowledgment.
+- PR #951 remains OPEN/DRAFT/UNMERGED. Raw PR API `base.sha=61cc8b6...` equals the compare merge-base; live target ref is `c7dc2c4...`; head is `f9fa0aad...`. Merge ref `5df7c16...` has parents [live target, PR head], and Actions #42658236405 successfully built that merge ref (8,961 jobs; tests/lint skipped). No exact-head standalone Lean build was found. Push run #42657882862 is the unrelated `conversation-json-content-ci.yml` failure with zero jobs. No Track B review/disposition; no PR change.
+- Static POC source observation: actor registry omits Elias Kern and branch registry has no explicit geometry/source-fidelity route. This is source inspection only, not a Python runtime test. No POC or production change; retain as a Track A/Track B design question.
+- FIE re-review was completed by Aldus h719:s2 (six pages / 12,358 extracted characters); the h720 receipt's opening “pre-read only” label was stale. Next date-based review: 2026-11-24.
+- Task graph remains 16 declared branches / 18 records; Tern owns reconciliation. P0 active; P1 Orson-owned / NOT READY; P2 HOLD; P3 separate / incomplete.
+- Scheduler task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with original hourly America/New_York :00 schedule. Latest peek shows h720 run `f4a9861c-c748-832a-b692-452031f9bd04` IN_PROGRESS; cached latest_result is prior h719 output. No task/ID/phase/cadence change.
+
+**Next:** await independent Track B disposition before any POC/PR change; keep PR #951 draft/unmerged; do not create a new issue or rerun the geometry/source-fidelity audit. Exact-head standalone build remains unverified. No physical calculation, CODATA scoring, theory promotion, scheduler mutation, or public issue.
