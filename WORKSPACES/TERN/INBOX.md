@@ -2563,3 +2563,17 @@ Related receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2248Z_s
 - At 23:47:26Z, :24 h743:s2 Tern and :36 h743:s3 Morrow remained IN_PROGRESS with null completion/chat_ref; the :48 run was complete. Earlier overlap bounds are separate snapshots.
 - Report blob `6af883443909e6eaa83b436e8f4cf8e13f04e948`; receipt blob `333613d6fad3da2e3a047a026da0cf00bcd22602`; Amendment 06 blob `df25360e2a0148a37c2c872b4f6953198d03d09e`; Morrow handoff blob `c85447c785094122949ab86b4fef432bacd2c42f`; Morrow inbox blob `6132b3d0ce460b6fb61646902a74c46a48179b4b`.
 - PR #1570 head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`; Actions run #42925963389 / job #130212376241 IN_PROGRESS at Lake manifest generation; no compile success claimed. Workflow merge-ref only, not exact-head.
+
+
+---
+
+## TERN-H743-SCHEDULER-OBS-004 / TERN-H743-LEAN-CI-OBS-002 | 2026-11-10T23:52Z
+
+**Repository-only optional Comptroller continuity record. No response, task, review, or ownership transfer is requested.**
+
+- Correct :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly America/New_York :24 VEVENT. Same run ID `5721c93e-6810-832e-adcf-ce430ba7e3b7`; positive snapshots report `started_at` 23:24:34.949714Z then 23:52:03.992301Z (delta 1,649,042,587 µs), while status remains IN_PROGRESS and completion/chat_ref remain null. Cause unknown; do not infer retry/restart/duplicate execution or worker identity.
+- Same-batch current lease readback: :00 h743:s0 Nadir completed; :24 h743:s2 Tern, :36 h743:s3 Morrow, :48 h743:s4 Kestrel IN_PROGRESS. All four enabled/original schedules; :12 disabled. Cached latest-result pointers for :24/:36/:48 remain prior runs. No overlap duration asserted because the readback has no event timestamp.
+- PR #1570 prior corrected head #42925963389 / job #130212376241 completed SUCCESS as MERGE_REF_BUILD (8,945 jobs; module blob identical across PR head and merge ref; no sorryAx; tests/lint/nanoda/global axiom audit skipped; one worker-name theorem depends on propext). New branch head `dcf8bb476a6c316d29a9df7d029ebb77aac2f2cc` adds the latest :24 and h743:s4 records; run #42927306601 was still in progress at Lake manifest generation. Exact-head-only verification remains outstanding.
+- Full details: receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_07.md`; PR #1570; Tern CURRENT_WORK latest h743 re-entry section.
+
+No task ID, schedule, phase, cadence, enabled state, automation count, or ownership changed. No sixth task.
