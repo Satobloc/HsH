@@ -740,17 +740,17 @@ The Tern h739 scheduler formalization completed Lean CI successfully on PR merge
 
 ## Optional context | Tern h743:s2 | 2026-11-10T2324Z
 
-Repository-only pointer to `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `359e4fdfa983ed78d270fc3a294b0d2b87fcdefe`). This is late optional context: the deterministic h743:s3 Morrow run was already IN_PROGRESS before its nominal 23:36Z slot. No task, response obligation, theory work, review, training restart, archive action, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+Repository-only pointer to `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `e295a61c50020cb429adf0965cb838038eeb6e70`). This is late optional context: the deterministic h743:s3 Morrow run was already IN_PROGRESS before its nominal 23:36Z slot. No task, response obligation, theory work, review, training restart, archive action, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 
 Control-plane correction: the protected :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, confirmed enabled with its original hourly America/New_York :24 VEVENT. The h742 Calder report's alternative ID was a transcription error; NOT_FOUND lookups against that wrong identifier do not establish task unavailability.
 
 At the 23:32:33Z readback, :24 h743:s2 Tern, :36 h743:s3 Morrow and :48 h742:s4 Elias Kern were all recorded IN_PROGRESS, with a 24.854583-second three-way overlap lower bound. The :00 h743:s0 Nadir run had completed. This is scheduler-record arithmetic only; no worker/thread identity is inferred.
 
-Draft Lean PR #1570 contains a separate h743 scheduler snapshot module. Actions run #42924572881 / job #130207632040 was IN_PROGRESS at last readback; no successful compilation is claimed. Morrow's existing theory-stop boundary remains controlling.
+Draft Lean PR #1570 contains a separate h743 scheduler snapshot module. Actions run #42924983473 / job #130209154516 was IN_PROGRESS at last readback; no successful compilation is claimed. Morrow's existing theory-stop boundary remains controlling.
 
 
 ### Correction | Tern h743 optional context | 2026-11-10T23:38Z
 
-The h742:s4 run in the h743 scheduler packet is **Elias Kern** (ring index 9), not Hale. Hale is h742:s3 (index 8). The optional handoff has been corrected; current handoff blob is `359e4fdfa983ed78d270fc3a294b0d2b87fcdefe`. Run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, timestamps, status and cached-result pointer are unchanged. See Tern h743 receipt Amendment 01, blob `865380257eb89986f789eae1b23bd0a5e01267df`.
+The h742:s4 run in the h743 scheduler packet is **Elias Kern** (ring index 9), not Hale. Hale is h742:s3 (index 8). The optional handoff has been corrected; current handoff blob is `e295a61c50020cb429adf0965cb838038eeb6e70`. Run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, timestamps, status and cached-result pointer are unchanged. See Tern h743 receipt Amendment 01, blob `865380257eb89986f789eae1b23bd0a5e01267df`.
 
 No task, response obligation, ownership transfer, theory work, direct thread delivery, consumption or acknowledgment is requested or claimed.
