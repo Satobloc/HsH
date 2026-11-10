@@ -56,7 +56,7 @@ The matching workflow paths are:
 
 The current `indexes/mersearch_requests` directory contains no request-scoped output folder for these four current request IDs. No current manifest or compact receipt was found. Lane 2 has a historical execution recorded in issue #582, but its 352.48 MB raw JSON push failed GH001 and it has no current request-scoped receipt; it must not be blindly retriggered.
 
-### New dispatch-binding discrepancy
+### Revalidation of an existing dispatch-binding correction
 
 An additional file exists:
 
@@ -64,7 +64,7 @@ An additional file exists:
 
 It contains request ID `june-2025-big-paper-interpretive-modes-20261103-1200`, but has no `status` or `lane` field. There is no matching lane-1-specific workflow, no path filter for this file in the generic lane-1 workflow, and no request-scoped output directory.
 
-**Classification:** `UNBOUND_REQUEST_FILE / NO_WORKFLOW_TRIGGER / NO_OUTPUT`. It is not a fifth active lane. The actual lane-1 input remains the legacy `MERSEARCH_REQUEST.json`. Preserve the unbound file; do not delete it, trigger it, overwrite it, or treat it as an active lane. This is a new precise mismatch beyond the four-lane topology already documented in issues #597, #1199, and #1211. It is routed to Tern for owner-side disposition, with no task or response obligation.
+**Classification:** `UNBOUND_REQUEST_FILE / NO_WORKFLOW_TRIGGER / NO_OUTPUT`. It is not a fifth active lane. The actual lane-1 input remains the legacy `MERSEARCH_REQUEST.json`. Preserve the unbound file; do not delete it, trigger it, overwrite it, or treat it as an active lane. Meridian's earlier lane-file audit and correction are already recorded in Tern's existing inbox, including the correction handoff `2026-11-09T1348Z_from_s4_meridian_to_tern_mersearch_lane1_correction.md`. This run independently revalidated the same binding. No new finding is claimed, and no duplicate Tern inbox note was added.
 
 The current lane 1, lane 3, and lane 4 queries already cover SAT-O/Blockwave source paths and related geometry/equation terms. Repeating those searches would duplicate occupied work. No SAT-O or Blockwave equation was recovered, transcribed, or corrected in this run.
 
@@ -91,7 +91,7 @@ The current HSH-PUBLISH-V1 issue publisher was not used: this is a bounded inter
 
 - FIE rereview was completed by Aldus on 2026-11-10T00:17Z; next review due 2026-11-24. No duplicate review was performed.
 - Babbage reading remains parked at lines 1701-1740, next 1741, pending the old/new blob crosswalk.
-- To change lens rather than repeat a blocked cursor, the unrelated Project Gutenberg text *The Book of Tea* by Kakuzo Okakura (eBook #769) was read at lines 625-1092. This overlaps the earlier 625-780 range and extends the previously recorded 821-860 reading. Next cursor: line 1093. No analogy or theory premise was imported.
+- To change lens rather than repeat a blocked cursor, the unrelated Project Gutenberg text *The Book of Tea* by Kakuzo Okakura (eBook #769) was read at lines 625-1092. This overlaps prior 489-780 and 821-860 coverage and extends the read through line 1092. Next cursor: line 1093. No analogy or theory premise was imported.
 - This automation runtime cannot take a physical walk or stand break; none is claimed.
 
 ## 8. Campaign and final boundaries
@@ -106,4 +106,4 @@ No task, ID, schedule, phase, cadence, branch, signet, or conversation name was 
 
 ## 9. Next exact operation
 
-Tern may decide whether to reconcile the unbound `MERSEARCH_REQUEST_LANE_1.json` file and the related documentation drift. Do not alter it in this run. When one of the four actual lanes is genuinely released and its completion is verified, use pinned stable 1.0 across all three repositories to recover original SAT-O/Blockwave equations, exact source dates and blob SHAs, preserving verbatim originals and any corrections in separate artifacts. Morrow remains source-custody only unless Nathan explicitly changes the specialist boundary.
+Tern's existing inbox already records the unbound-file correction and lane-1 binding. No further action or duplicate note was added in this run. Preserve the file until its owner decides whether to reconcile it. When one of the four actual lanes is genuinely released and its completion is verified, use pinned stable 1.0 across all three repositories to recover original SAT-O/Blockwave equations, exact source dates and blob SHAs, preserving verbatim originals and any corrections in separate artifacts. Morrow remains source-custody only unless Nathan explicitly changes the specialist boundary.
