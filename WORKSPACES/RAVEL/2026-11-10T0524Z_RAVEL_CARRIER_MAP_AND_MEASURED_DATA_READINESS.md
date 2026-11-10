@@ -6,8 +6,7 @@
 **Run key:** `REVROT3-19-20261011:725:s2`  
 **Selection:** h=725; seq=5h+2=3627; 3627 mod 19=17; Ravel, ring index 17.  
 **Successor:** Orson Vay, index 18, run key `REVROT3-19-20261011:725:s3`.  
-**Current task:** `6abda4c8eda88191b8a91a30d2a155e0` is not the task ID; the controlling :24 task ID is `6abda4c8eda88191b8a91a30d2a155e0` only if read from the active roster. The live scheduler read for this run returned `6abda4c8eda88191b8a91a30d2a155e0`?  
-**Correct controlling :24 task ID:** `6abda4c8eda88191b8a91a30d2a155e0` was not used. The actual preserved :24 task ID is `6abda4c8eda88191b8a91a30d2a155e0`?  
+**Controlling :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17` (enabled; original hourly America/New_York :24 schedule).  
 **Scheduler run observed:** `c4e15030-5600-8330-afd1-e24081b0fd56`, scheduled 05:24Z, started 05:25:02.115792Z, last observed IN_PROGRESS, `chat_ref=null`.
 
 ## 1. Historical remit and thread identity
