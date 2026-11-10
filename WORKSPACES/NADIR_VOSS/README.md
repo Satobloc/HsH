@@ -166,3 +166,12 @@ This checkpoint supersedes the h697 note that no new Lean execution had been per
 - The :36 and :48 neighboring run IDs were re-observed with changed start/status snapshots. The :48 Tern run moved from a recorded failure back to `in_progress`; no attempt identity or cause is exposed.
 - The prior Tern inbox note was accurate when written but is superseded on the :48 status. No further inbox edit was made while Tern's task is active. Tern retains scheduler-reconciliation authority.
 - The :24 wrapper remains `in_progress`; no completion claim.
+
+
+## 2026-11-10 h731:s3 projection/coarse-graining factorization contract
+
+- Report: `2026-11-10T1136Z_PROJECTION_COARSE_GRAINING_FACTOR_MAP_CONTRACT.md`.
+- Existing PR #1189 now includes `NadirProjectionCoarseGrainFactorization.lean`, a generic theorem: an induced coarse map exists on the image of a projection iff the coarse-projected result is constant on fibres of the fine projection; it is unique on that image.
+- First exact-head Lean build passed on the pre-cleanup commit. The unused-parameter cleanup is on the current PR head; its exact-head build is pending and must not inherit the earlier success claim.
+- This is an abstract map contract, not a physical worldtube, timesheet, measured observable, or H(s)H prediction. No physical calculation, data-free numerical fixture, P2 selection, or theory promotion was made.
+- The immediate Enheduanna successor run had already started and was later recorded failed; no late handoff or cross-thread delivery is claimed.
