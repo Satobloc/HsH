@@ -42,7 +42,7 @@ theorem h743_s0_worker :
     ringAt ((5 * 743 + 0) % 19) = some "Nadir Voss" := by decide
 
 theorem h742_s4_worker :
-    ringAt ((5 * 742 + 4) % 19) = some "Hale" := by decide
+    ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by decide
 
 /-- Convert a same-day UTC clock reading to microseconds since midnight. -/
 def us (hour minute second micros : Nat) : Nat :=
@@ -122,7 +122,7 @@ def run36 : SchedulerSnapshot :=
     taskUpdatedUs := us 22 40 15 174146
     nextRunUs := us 23 36 0 0 }
 
-/-- :48 h742:s4, Hale. It is still in progress at the observation time. -/
+/-- :48 h742:s4, Elias Kern. It is still in progress at the observation time. -/
 def run48 : SchedulerSnapshot :=
   { phase := 4
     taskId := "6aa6c3bc02b48191b8a91a30d2a155e0"
