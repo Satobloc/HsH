@@ -156,3 +156,8 @@ A final read-only peek showed two same-run status/start reversals after the 14:5
 A separate timezone/phase discrepancy is visible in the read-only metadata. Stored VEVENT DTSTARTs are `TZID=America/New_York:20261001T143600`, `...144800`, and `...140000`, while the corresponding run metadata reports scheduled_for 13:36Z, 13:48Z, and 14:00Z. On 2026-11-10, 14:36/14:48/14:00 America/New_York correspond to 19:36/19:48/19:00Z, not the reported UTC slots. The h733 selection above follows the explicit nominal UTC `scheduled_for=13:36Z` field; this discrepancy is not resolved here.
 
 No attempt IDs, retry counters, event logs, or causes are exposed. Preserve all snapshots; do not infer retry/restart/duplicate execution or alter the VEVENT. Tern retains scheduler reconciliation authority. All task IDs, schedules, prompts, phases, enabled states, and task count remain unchanged.
+
+
+## Scheduler observation amendment 03 | 2026-11-10T1505Z
+
+The next read-only peek shows the existing :36 task's current same-slot run has now COMPLETED. Its run record has a ChatGPT conversation reference, but that task-level reference does not authenticate the deterministic Loom label, prove historical Loom participation, or establish cross-thread delivery. The :48 and :00 task runs remain IN_PROGRESS with no chat reference at this observation. The stored America/New_York DTSTART versus scheduler-reported UTC discrepancy remains unresolved. No task configuration changed.
