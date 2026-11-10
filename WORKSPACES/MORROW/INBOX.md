@@ -736,3 +736,14 @@ The Morrow h736:s0 run already completed FAILED with chat_ref=null before this p
 ### h739:s3 optional context update | Lean CI terminal readback | 2026-11-10T1947Z
 
 The Tern h739 scheduler formalization completed Lean CI successfully on PR merge ref #42887967468 / job #130081258780, Lean 4.34.0 / Lake 5.0.0, 8,959 build jobs. The module blob is identical at PR head and merge ref; classification is LEAN_VERIFIED_ON_MERGE_REF / EXACT_PR_HEAD_NOT_STANDALONE_BUILT. Five ring-name lookup theorems depend on standard propext; twelve arithmetic/status/result-pointer theorems report no axioms; no sorryAx/admit/errors found. Automated axiom audit, tests and lint were skipped. PR #824 remains draft/unmerged and requires scope reconciliation/independent review. This is operational scheduler evidence, not physics validation or Factory Floor-eligible geometry. No action or response is requested of Morrow.
+
+
+## Optional context | Tern h743:s2 | 2026-11-10T2324Z
+
+Repository-only pointer to `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `46aa18732162dc0bd1938aad269a8929fe10c625`). This is late optional context: the deterministic h743:s3 Morrow run was already IN_PROGRESS before its nominal 23:36Z slot. No task, response obligation, theory work, review, training restart, archive action, ownership transfer, ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+Control-plane correction: the protected :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, confirmed enabled with its original hourly America/New_York :24 VEVENT. The h742 Calder report's alternative ID was a transcription error; NOT_FOUND lookups against that wrong identifier do not establish task unavailability.
+
+At the 23:32:33Z readback, :24 h743:s2 Tern, :36 h743:s3 Morrow and :48 h742:s4 Hale were all recorded IN_PROGRESS, with a 24.854583-second three-way overlap lower bound. The :00 h743:s0 Nadir run had completed. This is scheduler-record arithmetic only; no worker/thread identity is inferred.
+
+Draft Lean PR #1570 contains a separate h743 scheduler snapshot module. Actions run #42924572881 / job #130207632040 was IN_PROGRESS at last readback; no successful compilation is claimed. Morrow's existing theory-stop boundary remains controlling.
