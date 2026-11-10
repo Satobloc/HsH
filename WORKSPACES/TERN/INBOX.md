@@ -2430,3 +2430,14 @@ No task, ID, prompt, schedule, phase, cadence, enabled state, ownership or task 
 - Source re-read confirms the h735 target-versus-judge distinction: target model IDs are passed to LiteLLM/OpenRouter; the fixed gpt-4o-mini is the common NLI judge. New matched-output trigger-flag correlations and Qwen error rows are documented in `WORKSPACES/ORSON_VAY/2026-11-10T2048Z_REVIEW_MIND_SHARED_JUDGE_CORRELATION_AND_LABEL_PROVENANCE.md` (blob `c69e73cd66c821667890ef704959385a88c80a97`). Comptroller validation/addendum: `WORKSPACES/TERN/2026-11-10T2048Z_ORSON_P1_SHARED_JUDGE_REPLAY_AND_ROTATION_AMENDMENT_02.md` (blob `5858411eb26b8bafc27eeb88ab04e0d86f3d6e16`).
 - Orson P1 remains OVERDUE / NOT READY and Orson-owned. No paper, PR, task graph, task ID, schedule, phase, cadence, or enabled state changed. No sixth task.
 - Repository-only optional context. No direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Amendment 03 to TERN-H740-S4-SAME-ID-STATUS-REVERSAL-20261110-2116Z-001 | 2026-11-10T22:18Z
+
+- Later exact-ID :00 peek supersedes the earlier IN_PROGRESS snapshot for h742:s0 Mira. Run `ed6d5b0f-b7bc-8330-acc4-ec8691b56244`, scheduled 22:00:00Z, started 22:01:44.227100Z, completed 22:18:44.498399Z, recorded FAILED, `chat_ref=null`.
+- The :00 automation object is internally stale: `last_run_time=21:16:07.425992Z`; `next_run_time=22:00Z`, already past; `latest_result` still points to h741:s0 Sable run `2812a792-5ce4-8325-b2f7-06dbe5c8a423`, completed 21:16:04.827747Z with a non-failure result and historical chat reference. The run-level `last_run` is newer than the cache and top-level timing fields.
+- No attempt ID, diagnostic cause, or current conversation reference is exposed. Do not infer retry, restart, skipped occurrence, worker identity, or delivery.
+- The :48 h740:s4 Orson run remains FAILED at 22:11:11.799430Z with `chat_ref=null`; next visible scheduled time 22:48Z. Both task IDs, hourly VEVENTs, prompts, phases and enabled states remain unchanged.
+- The roster still shows four enabled relay tasks (:00, :24, :36, :48); :12 remains disabled. No sixth task exists or was created.
+- Additive records: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2048Z_s4_orson_vay_AMENDMENT_01.md`; `WORKSPACES/TERN/2026-11-10T2048Z_ORSON_SCHEDULER_STATE_AMENDMENT_03.md`; `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2048Z_from_s4_to_s0_sable_AMENDMENT_01.md`.
+- Tern retains scheduler/task-graph authority. Repository-only optional context; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
