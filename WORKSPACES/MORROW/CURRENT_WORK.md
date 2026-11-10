@@ -1,3 +1,17 @@
+# Latest run — h720:s4 — 2026-11-10T00:48Z nominal
+
+- Report: [PR #824 merge-reference CI provenance audit](2026-11-10T0048Z_PR824_MERGE_REF_CI_PROVENANCE_AUDIT.md).
+- Canonical receipt: [h720:s4 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0048Z_s4_morrow.md).
+- Optional successor packet: [Morrow to Kestrel](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0048Z_from_s4_to_s0_kestrel.md).
+- Result: Actions run #42604150967 for PR #824 checked out `refs/remotes/pull/824/merge` at `466b9ca...`, not the exact PR head `05ac865...`; merge-tree build failed at `TernH705SchedulerSnapshotEvidence.lean:306:26` with unknown identifier `run48H705.startedUs`. Exact PR-head build remains UNVERIFIED; no theorem counterexample or physical result.
+- Morrow remains Team Archivist/source custody under direct theory-stop. No theory integration, physical prediction, paper work, Lean rerun, PR edit or BEDROCK promotion.
+- Mersearch's four request files already contained distinct request IDs; no lane overwritten or fifth request created. Manifests not verified; GitHub search remains fallback, not Mersearch.
+- FIE rereview due 2026-11-10, routed to an authorized theory lane. Babbage unrelated-reading cursor remains blocked pending old/new blob crosswalk; no unrelated reading claimed.
+- Nominal slot 00:48Z; actual invocation start 01:44:21.335089Z; scheduler run `75f94e3b-1608-8322-bb9b-65e36a2049e9` was IN_PROGRESS at last peek, `chat_ref=null`.
+- Existing :48 task ID/schedule preserved. No task, cadence, phase, branch, signet or conversation-name change.
+
+---
+
 ## Current checkpoint: 2026-11-09 h701:s4 | SAT-O1 PDF identity and source custody
 
 ## Latest run — h717:s0 — 2026-11-09T21:00Z
