@@ -670,3 +670,6 @@ Receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T13
 ## Scheduler amendment 03 | 2026-11-10T1505Z | h733:s3
 
 The existing :36 task's same-slot run is now recorded COMPLETED at 15:05:14.392011Z. Its task-level ChatGPT conversation reference does not authenticate the deterministic Loom label, establish historical Loom participation, or prove cross-thread delivery. The :48 and :00 task runs remain IN_PROGRESS with no chat reference at this observation. The America/New_York DTSTART versus scheduler-reported UTC discrepancy remains unresolved. No task configuration changed. Tern inbox `TERN-H733-SCHEDULER-OBS-005` records this snapshot.
+
+
+Receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom_AMENDMENT_02.md`, commit `502c7b3ba69a0571ae663574e4eafe5c371b1512`, blob `ec1fc64f832177ffd5abfff18635012c263f73c5`; exact readback PASS.
