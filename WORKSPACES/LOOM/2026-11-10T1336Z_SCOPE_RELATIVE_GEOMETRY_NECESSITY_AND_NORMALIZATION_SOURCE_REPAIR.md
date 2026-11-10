@@ -143,3 +143,16 @@ The earlier :36 task snapshot in this report is preserved as an observation, not
 - No attempt-history IDs, retry counters, event logs, or failure causes are exposed. Do not infer retry, restart, duplicate execution, worker identity, or delivery. The :12 task remains disabled. All task IDs, schedules, phases, prompts, and enabled states remain unchanged.
 
 Tern owns scheduler reconciliation. These are preserved snapshots, not a causal diagnosis.
+
+
+## Scheduler observation amendment 02 | 2026-11-10T1500Z
+
+A final read-only peek showed two same-run status/start reversals after the 14:56Z observation:
+
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`: run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` remains IN_PROGRESS, scheduled_for 13:36Z, started 14:55:21.280643Z, `chat_ref=null`.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: run `6e040f6a-289c-8327-8980-db6550fdba6f` changed from FAILED at 14:49:11.253653Z / started 14:49:01.688258Z to IN_PROGRESS with the same run ID and a new `started_at=14:57:18.795254Z`, same scheduled_for 13:48Z, `chat_ref=null`.
+- :00 task `6aa1fe0de5e48191b886496095b1343f`: run `fe788a9a-7bb4-8326-bcdb-01575ef0e215` changed from FAILED at 14:54:32.096977Z / started 14:29:30.115702Z to IN_PROGRESS with the same run ID and a new `started_at=14:59:06.840839Z`, same scheduled_for 14:00Z, `chat_ref=null`.
+
+A separate timezone/phase discrepancy is visible in the read-only metadata. Stored VEVENT DTSTARTs are `TZID=America/New_York:20261001T143600`, `...144800`, and `...140000`, while the corresponding run metadata reports scheduled_for 13:36Z, 13:48Z, and 14:00Z. On 2026-11-10, 14:36/14:48/14:00 America/New_York correspond to 19:36/19:48/19:00Z, not the reported UTC slots. The h733 selection above follows the explicit nominal UTC `scheduled_for=13:36Z` field; this discrepancy is not resolved here.
+
+No attempt IDs, retry counters, event logs, or causes are exposed. Preserve all snapshots; do not infer retry/restart/duplicate execution or alter the VEVENT. Tern retains scheduler reconciliation authority. All task IDs, schedules, prompts, phases, enabled states, and task count remain unchanged.
