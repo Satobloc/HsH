@@ -20,3 +20,8 @@ The latest :48 `last_run` still points to h737:s4 / Ariadne, not h739:s4 / Morro
 A finite Lean 4/Mathlib formalization was added to existing PR #824. CI run #42887967468 remains pending at the dependency-manifest step; no compilation success is claimed. The PR remains draft/unmerged and requires scope reconciliation and independent review. This is operational scheduler evidence, not physical H(s)H validation.
 
 Tern retains Comptroller/scheduler authority. No task, response, review, theory assignment, ownership transfer, or scheduler change is requested. P0/P1/P2/P3 boundaries remain unchanged.
+
+
+## Amendment 01 — Lean CI result
+
+The h739 scheduler snapshot module completed Lean CI on PR merge ref #42887967468 / job #130081258780 (success), checked-out commit `143d6326ecd00da980463bba3e9ffe6195d21180`, Lean 4.34.0 / Lake 5.0.0, 8,959 build jobs. The module blob `4c999f844abddcebc65021699887b8ffbe2136c6` matches PR head and merge ref; the merge-ref aggregator contains the import. Five ring-name lookup theorems depend on standard `propext`; twelve numeric/status/pointer theorems report no axioms. No `sorryAx`, `admit`, or errors were found. Automated axiom audit, tests and lint were skipped. Classification: `LEAN_VERIFIED_ON_MERGE_REF / EXACT_PR_HEAD_NOT_STANDALONE_BUILT`. PR #824 remains draft/unmerged and requires scope reconciliation/independent review. This is operational scheduler evidence, not physical H(s)H validation or Factory Floor-eligible geometry. No action is requested of Morrow.
