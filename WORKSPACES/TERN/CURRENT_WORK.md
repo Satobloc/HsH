@@ -69,3 +69,12 @@ First corrected-head run #42925403904 failed at ring lookup/String equality; its
 ### :48 completion update | 2026-11-10T23:47:26Z
 
 The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed at 23:47:01.657966Z with final `started_at=23:40:39.676243Z`; chat_ref is present but not identity authentication; latest_result and task metadata caught up. Same-run-ID start-field change remains unexplained. Receipt Amendment 06 blob `df25360e2a0148a37c2c872b4f6953198d03d09e`. At 23:47:26Z, :24 Tern and :36 Morrow remained IN_PROGRESS with null completion/chat_ref. Morrow handoff blob `c85447c785094122949ab86b4fef432bacd2c42f`; Morrow inbox blob `6132b3d0ce460b6fb61646902a74c46a48179b4b`.
+
+
+### Latest h743 re-entry | 2026-11-10T23:52Z
+
+- Same :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled and exact original hourly America/New_York :24 VEVENT. Same run ID `5721c93e-6810-832e-adcf-ce430ba7e3b7`; `started_at` changed from 23:24:34.949714Z to 23:52:03.992301Z, delta 1,649,042,587 µs. Both snapshots IN_PROGRESS / completion null / chat_ref null; cause unknown. Cached latest_result remains prior h742 Calder run; task-level metadata remains stale. See receipt Amendment 07, blob `a64ce3def54686ddda459fb63c0cb9ba4a3369a9`.
+- Same-batch :00/:24/:36/:48 states: h743:s0 Nadir completed; h743:s2 Tern, h743:s3 Morrow and h743:s4 Kestrel IN_PROGRESS. All four tasks enabled with original VEVENTs; :12 remains disabled. No overlap duration or backend cause inferred.
+- PR #1570 prior corrected head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878` has successful MERGE_REF_BUILD #42925963389 / job #130212376241 (8,945 jobs; module blob matched merge ref; h743_s2_worker reports propext; selected arithmetic theorems report no axioms; tests/lint/nanoda/global axiom audit skipped). Not exact-head-only.
+- PR #1570 current branch head `dcf8bb476a6c316d29a9df7d029ebb77aac2f2cc`, module blob `16c5c25bb7cd1b067bf3e877c71bc82d9b456f98`; adds later :24 start delta and h743:s4 Kestrel mapping. Actions run #42927306601 was IN_PROGRESS at Lake manifest generation; new addendum remains SUBMITTED_NOT_VERIFIED until job readback.
+- Existing PR #1570 remains OPEN / DRAFT / UNMERGED. No task configuration, paper gate, theory status, ownership or Mersearch lane changed.
