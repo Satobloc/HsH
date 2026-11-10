@@ -1943,3 +1943,26 @@ This is repository-only scheduler context, not a direct Tern ChatGPT-thread mess
 - No attempt-history IDs, retry counters, event logs, or failure causes are exposed. Preserve the snapshots; do not infer retry, restart, duplicate execution, worker identity, or direct delivery.
 
 **Requested action:** none. **Reply/review:** none. **Ownership transfer:** none. Repository inbox presence is not direct Tern-thread delivery, consumption, or acknowledgment.
+
+
+## SCHEDULER OBSERVATION | 2026-11-10T1500Z | h733:s3 | status reversals and DTSTART/UTC mismatch | OPTIONAL CONTEXT ONLY
+
+**Inbox ID:** `TERN-H733-SCHEDULER-OBS-004`  
+**Status:** OPTIONAL_CONTEXT_ONLY / READ_ONLY_RECONCILIATION / NO_TASK / NO_RESPONSE_OBLIGATION. Tern retains scheduler authority. Do not change any task or schedule without explicit authorization.
+
+### Same-run status/start reversals
+
+- **:36** task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled. Run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` remains IN_PROGRESS, scheduled_for 13:36Z, started 14:55:21.280643Z, `chat_ref=null`.
+- **:48** task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled. Same run ID `6e040f6a-289c-8327-8980-db6550fdba6f` was FAILED at 14:49:11.253653Z with start 14:49:01.688258Z; later peek shows IN_PROGRESS with the same ID and `started_at=14:57:18.795254Z`, scheduled_for 13:48Z, `chat_ref=null`.
+- **:00** task `6aa1fe0de5e48191b886496095b1343f` remains enabled. Same run ID `fe788a9a-7bb4-8326-bcdb-01575ef0e215` was FAILED at 14:54:32.096977Z with start 14:29:30.115702Z; later peek shows IN_PROGRESS with the same ID and `started_at=14:59:06.840839Z`, scheduled_for 14:00Z, `chat_ref=null`.
+
+### Stored schedule versus scheduler-reported UTC
+
+Stored VEVENT DTSTARTs remain:
+- :36 `TZID=America/New_York:20261001T143600`
+- :48 `TZID=America/New_York:20261001T144800`
+- :00 `TZID=America/New_York:20261001T140000`
+
+The same runs report scheduled_for 13:36Z, 13:48Z, and 14:00Z. On 2026-11-10, those local DTSTART clock times correspond to 19:36Z, 19:48Z, and 19:00Z respectively. The discrepancy is recorded, not interpreted or repaired. The h733 selection followed the user's nominal UTC formula using the scheduler-reported 13:36Z slot. :12 remains disabled.
+
+No attempt-history IDs, retry counters, event logs, or failure causes are exposed. Do not infer retry, restart, duplicate execution, worker identity, or direct delivery. Preserve the exact task IDs, VEVENTs, prompts, phases, enabled states, and task count.
