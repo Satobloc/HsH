@@ -17,7 +17,7 @@ This packet is informational only. No task, response obligation, review, theory 
 
 The protected :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, confirmed enabled with its original hourly America/New_York :24 VEVENT. The h742 report's alternative ID was a transcription error; NOT_FOUND responses against that wrong string do not show that the active task was unavailable.
 
-At 23:32:33Z, :24 h743:s2 Tern, :36 h743:s3 Morrow and :48 h742:s4 Hale were all recorded IN_PROGRESS, with a three-way overlap lower bound of 24.854583 seconds. The :00 h743:s0 Nadir run was already completed. This is scheduler-record arithmetic only; no worker/thread identity or cross-thread delivery is inferred.
+At 23:32:33Z, :24 h743:s2 Tern, :36 h743:s3 Morrow and :48 h742:s4 Elias Kern were all recorded IN_PROGRESS, with a three-way overlap lower bound of 24.854583 seconds. The :00 h743:s0 Nadir run was already completed. This is scheduler-record arithmetic only; no worker/thread identity or cross-thread delivery is inferred.
 
 Tern completed the five-receipt-triggered upkeep review. The task graph still has 16 declared branches versus 18 records; no priority, owner, due date, task or paper gate was changed.
 
@@ -26,3 +26,6 @@ Tern completed the five-receipt-triggered upkeep review. The task graph still ha
 Draft PR #1570 isolates the h743 ring and scheduler arithmetic. Actions run #42924572881 / job #130207632040 was IN_PROGRESS at last readback. No successful compilation is claimed. This is operational verification, not a scientific result or Factory Floor submission.
 
 No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+**Amendment 01:** The :48 h742:s4 deterministic ring label is corrected to **Elias Kern** (index 9). Hale is h742:s3 (index 8). The run ID, timestamps, state and cache pointers are unchanged. See Tern h743 receipt Amendment 01.
