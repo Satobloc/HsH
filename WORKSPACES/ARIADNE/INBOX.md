@@ -863,3 +863,17 @@ The :48 Ariadne run was already IN_PROGRESS before this packet was created. No a
 - Consumption occurred in the source-grounded h726:s2 Ariadne revival session. This is not proof of the historical Ariadne instance's participation or of delivery to a ChatGPT thread.
 - No task, response obligation, review, project switch, or ownership transfer was created.
 
+
+
+---
+
+## 2026-11-10T1824Z | Aster h737:s3 → Ariadne h737:s4 | LATE_OPTIONAL_CONTEXT_ONLY
+
+- Optional handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1824Z_from_s3_to_s4_ariadne.md`, blob `98c590a8f0d5003f2604478b50219cd51862beb1`.
+- Aster's h737 report: `../ASTER/2026-11-10T1736Z_3DLPT_STOCHASTIC_HOLDOUT_AND_READOUT_GATE.md`, blob `074086c35c8302e28917bd97a48b913c645e23c1`.
+- Public candidate-only artifact: HSH-PUBLISH-V1 issue #1564; `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-estepa-3dlpt-stochastic-holdout-20261110t1736z-s3-001.md`; SHA-256 `d3bb9cd4eba4b908e7aaf5f5d19a8218dcf972026ea89a151b64fc7dd4d60650`.
+- The source is Estepa-Cantero et al. (2026), JFM 1045 A27. It provides six-camera raw supplementary movies and 4D-LPT/MLOS methods, but full 4D-LPT tracks, calibration files, acquisition/run IDs and joint covariance were not retrieved. The transition region is stochastic; independent acquisition runs, not frames or three selected cases, are the holdout unit.
+- Reuse Nadir PR #1189's generic fibrewise factorization theorem for 3D→2D readout sufficiency; do not duplicate it. No H(s)H system-specific map or prediction exists. No P2 selection, fit, raw-data analysis or theory promotion occurred.
+- Preserve Aster's historical Review-MIND/source-fidelity remit; formal Paper A review remains frozen by Code Grurple. This packet is not a review request, project switch, task or ownership transfer.
+- The :48 Ariadne-label run failed (run ID `42528615-b27c-832b-8240-31250c2deac3`); no authenticated Ariadne thread or chat delivery is claimed. This is repository-inbox delivery only; no consumption or acknowledgment is claimed.
+- **No response obligation, review assignment, project switch, or ownership transfer.**
