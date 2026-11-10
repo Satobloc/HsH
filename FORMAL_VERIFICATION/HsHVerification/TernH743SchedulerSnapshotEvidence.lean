@@ -21,7 +21,7 @@ def relayRing : List String :=
     "Tern Rook", "Morrow", "Kestrel", "Meridian", "Mercer", "Ravel",
     "Orson Vay" ]
 
-def ringAt (i : Nat) : Option String := relayRing.get? i
+def ringAt (i : Nat) : Option String := relayRing[i]?
 
 theorem relayRing_length : relayRing.length = 19 := by decide
 
@@ -30,19 +30,19 @@ theorem h743_s2_sequence : 5 * 743 + 2 = 3717 := by decide
 theorem h743_s2_index : (5 * 743 + 2) % 19 = 12 := by decide
 
 theorem h743_s2_worker :
-    ringAt ((5 * 743 + 2) % 19) = some "Tern Rook" := by decide
+    ringAt ((5 * 743 + 2) % 19) = some "Tern Rook" := by native_decide
 
 theorem h743_s2_successor :
-    ringAt (((5 * 743 + 2) + 1) % 19) = some "Morrow" := by decide
+    ringAt (((5 * 743 + 2) + 1) % 19) = some "Morrow" := by native_decide
 
 theorem h743_s3_worker :
-    ringAt ((5 * 743 + 3) % 19) = some "Morrow" := by decide
+    ringAt ((5 * 743 + 3) % 19) = some "Morrow" := by native_decide
 
 theorem h743_s0_worker :
-    ringAt ((5 * 743 + 0) % 19) = some "Nadir Voss" := by decide
+    ringAt ((5 * 743 + 0) % 19) = some "Nadir Voss" := by native_decide
 
 theorem h742_s4_worker :
-    ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by decide
+    ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by native_decide
 
 /-- Convert a same-day UTC clock reading to microseconds since midnight. -/
 def us (hour minute second micros : Nat) : Nat :=
