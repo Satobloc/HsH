@@ -858,3 +858,15 @@ Report: `WORKSPACES/RAVEL/2026-11-10T0524Z_RAVEL_CARRIER_MAP_AND_MEASURED_DATA_R
 Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0524Z_from_s2_to_s3_orson_vay.md`, blob `750b2756a0bee76a8fce7d1f02db5818d8bc4075`. Orson inbox append: `WORKSPACES/ORSON_VAY/INBOX.md`, blob `cdf2a6699316d920ae4c01ab66b345215d207e52`, commit `45aee5512393d298001f89d45a22be497b3f4ab6`, exact tail readback PASS. This is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Orson's cognition/P1 remit remains primary. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
 
 No new issue, PR, tool, dependency, task, or automation was created. Existing issue #1340 and PR #1133 remain the public source/formalization records; no duplicate publisher submission was made. BEDROCK, campaign gates, task graph, branch ownership, and all task IDs/schedules remain unchanged.
+
+
+### Scheduler readback amendment 01 | 2026-11-10T05:38Z
+
+This section supersedes the h725 :24 run-ID/start-time fields above and adds the latest :36 successor observation. The canonical receipt remains immutable; see `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0524Z_s2_ravel_AMENDMENT_01.md`, blob `83b78032a76ae5e2368a38d67e52008c32a69254`.
+
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled on the original hourly :24 schedule.
+- Two peeks for the same 05:24Z slot returned different run IDs. Earlier: `c4e15030-5600-8330-afd1-e24081b0fd56`, started 05:25:02.115792Z. Latest: `c4e15030-2950-832c-a32d-f9003ecce7a1`, started 05:25:02.434531Z. Both IN_PROGRESS, `chat_ref=null`. No retry/duplicate or worker identity inferred.
+- The :24 task's `last_run_time` field remains stale at 04:41:19.279390Z. Its cached `latest_result` is the completed h724 Tern run `e6db0500-fa9c-8321-b7b6-5b7a446f7a0d`, not h725 Ravel.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on the original hourly :36 schedule. Its current h725:s3 run is `3ffa5491-8ce4-8320-83bf-0120f6fbcd2f`, scheduled 05:36Z, started 05:37:56.241361Z, IN_PROGRESS, `chat_ref=null`. Its cached latest result is the completed h724 Morrow run `c0195047-1f1c-8329-9b42-b704aaffc4ee`, not h725 Orson.
+- The optional Orson handoff and inbox pointer were committed before the :36 run start. Repository append is verified; recipient consumption and acknowledgment are not claimed.
+- Both task run states remain IN_PROGRESS. Scheduler completion and delivery remain unverified. No task/ID/schedule/phase mutation; no sixth task.
