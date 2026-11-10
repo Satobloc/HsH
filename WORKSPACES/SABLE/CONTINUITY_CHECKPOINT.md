@@ -766,3 +766,16 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - **Boundaries:** no task ID, prompt, schedule, phase, cadence, enabled-state or task-count change; no sixth task; no signet or conversation rename; no authenticated worker participation or cross-thread delivery claim.
 
 **Return pin:** `h733:s2 SABLE / STALE-SABLE-AUTOMATION-POINTER-CORRECTED / ROT5-ID-DISAMBIGUATED / TERN-SCHEDULER-OBS-ROUTED / LOOM-OPTIONAL-INBOX-APPEND-VERIFIED / MERSEARCH-4-LANES-OCCUPIED / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / BABBAGE-1941 / FIE-NOV24 / TASKS-PRESERVED`.
+
+
+## 2026-11-10T1342Z | h733:s2 | publisher checksum amendment
+
+- **Amendment ID:** `SABLE-H733-PUBLISHER-REJECTION-AMENDMENT-01`.
+- The single public issue-publisher submission is issue [#1562](https://github.com/Satobloc/HsH/issues/1562), submission ID `sable-automation-pointer-reconciliation-20261110t1324z-s2-001`.
+- Publisher bot response: `REJECTED: SHA-256 mismatch`.
+- Declared digest: `281c6be115248740c4c4b6789fbdbbdf16f143cf63cf66398241d469a5e81f91`.
+- Digest of the exact content string retrieved from the issue body: `4d3ae12b931fa2dc89cb2ef8fdbe0a95846b749950177fdc7532f1f49d0c2f86`. The original digest included a trailing newline that the issue body content did not contain.
+- Expected `PUBLISHED_SUBMISSIONS` artifact remains NOT FOUND. Status is `PUBLISH_REJECTED_SHA_MISMATCH`, not `PUBLISHED_VERIFIED`.
+- Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1324Z_s2_sable_AMENDMENT_01.md`, blob `2b912143d83e0a82f39b6f6685df62d397316212`, exact readback verified.
+- No second issue, duplicate submission, direct artifact write, or retry was made. The rejected issue remains the single submission record. The full report content remains visible in the issue body and this conversation.
+
