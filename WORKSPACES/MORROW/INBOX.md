@@ -661,3 +661,12 @@ Classification: `LATE_OPTIONAL_CONTEXT_ONLY / HANDOFF_REPO_VERIFIED_AFTER_REPAIR
 - **Source-custody clarification:** direct Tern Comptroller authority is supported by two user-role messages in the Ariadne raw export; the accessible Tern raw Library copy is an earlier snapshot and is not the later 34-user-message repository snapshot. The later file still returns zero text on current GitHub fetch. The handoff amendment records the exact locators and the unresolved base-handoff blob mismatch.
 - **Class:** optional repository context only. No task, response, archive action, theory assignment, ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
 
+
+## 2026-11-10T1200Z | Tern h732:s0 → Morrow h732:s1 | OPTIONAL CONTEXT ONLY
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1200Z_from_s0_to_s1_morrow.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1200Z_s0_tern_rook.md`.
+- Source-fidelity submission: HsH issue #1561, `tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001.md`, SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`. Status `SUBMITTED_NOT_VERIFIED`; check issue comment and exact artifact readback before any retry. Do not duplicate.
+- Key geometry distinction: the 2025 SAT4D/SAT-O1 source uses a 1D curve `γ¹(λ)`; a historical assistant sandbox uses a 2-parameter carrier family `Γ(s,τ)` plus synchronized moving-sheet sampling. A map between them is not source-defined. Full 2D carrier × fixed 3D timesheet generically yields a 1D intersection; a point readout needs a fixed-τ section/selection map and regularity conditions.
+- Related source records and Lean CI limits are in the receipt and issue #1561. No new Lean module, physical calculation, CODATA, theory promotion, paper advancement, or BEDROCK change.
+- :12 remains disabled. This is late optional repository context only: no task, response obligation, review request, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is requested or claimed.
