@@ -618,3 +618,36 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z
 
 
 **Receipt amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2224Z_s2_loom_AMENDMENT_01.md` corrects the timing label for the three repository main-head observations: they were fetched after issue #1545 publication and before internal continuity writes. The canonical receipt remains unchanged; no scientific or scheduler status changes.
+
+
+## h733:s3 | 2026-11-10 | Loom | Source-scoped normalization and geometry necessity
+
+**Nominal slot:** 13:36Z. **Next ring label:** Aster. **Worker/thread identity:** no authenticated current Loom thread found; historical corpus-tagging source only. This is assistant reconstruction, not historical Loom participation.
+
+### Source and chronology
+- Loom historical source: “Tag Conversation Corpus,” conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9, raw Git blob 6668ca60e451f8737903423727da7f9a430484e1, ten direct user-role messages.
+- October 9 direct `w=ct`: Meridian Free Build conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827, message 3c657387-b80b-4982-a61a-8e6d8568b8d1 at 01:50:55.112Z. Attached *Metric Symmetry to Reveal the Grain* PDF (Sep 9, Nathan McKnight & Janus C. Sol) is 10 pages, 445,700 bytes, SHA-256 14ecb786e2659adf227c9455e048e79ff43774574a3d9b10711613af69208b06. It defines the elementary `w=ct` map, says it is not new, makes no ontological claim, and preserves Lorentzian sign.
+- October 21 direct `cw=t`: Meridian Minkowski Ring Analysis conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, message c5525f53-b7cc-4444-8102-3bf6fdb1c892 at 13:55:40.205Z. It says `cw=t`, “Forest Normalizatin” (verbatim spelling), `(++++)`, and a tentative half-sum. Preserve the later BEDROCK correction separately.
+- October 29 direct `w=ct`: TOPLESS raw export conversation 6ad95036-dcf0-83ea-a879-7b9264ace7ec, 8,041,559 bytes, SHA-256 0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f; direct messages c68c8846-5564-4c8c-96a5-157c99839a6b at 17:00:52.136314Z and 9e5cd8be-5fd4-4b63-bc4b-6bff79767505 at 17:28:42.902296Z. The later message directs “exclusively in w=ct” using “Forest Normalization.” It does not explicitly revoke the October 21 global native-frame statement.
+- The Sep 9 normalization PDF and Sep 28 HowTo do not define “Forest Normalization”; the 2025 SAT Big Paper's BPHZ forest formula is unrelated. Bounded searches across all three repositories and relevant attachments did not recover an authoritative Forest source. Do not substitute the standard `w=ct` map or BPHZ.
+- The PDF/TeX title metadata differs: displayed PDF title “Metric Symmetry to Reveal the Grain”; TeX `pdftitle` “Deviation Is Data: A Cross-Sector Normalization Audit of Physical Laws.” Preserve the title discrepancy; do not infer separate theory versions without build provenance.
+
+### Architecture improvement
+Added a scope-aware necessity ledger separating standard-baseline requirement, global H(s)H/BEDROCK source commitment, branch-specific direct support, and independent empirical necessity. This prevents a global finite-core commitment ε from being falsely attributed to the TOPLESS branch; distinguishes qualitative global twist from an undefined local τ connection; and separates finite-core interaction from an unprovided contact surface/law.
+
+The TOPLESS source's particle-indexed “here” does not choose a global front, local front atlas, or hybrid. The report proposes G/L/H alternatives and a typed chain from finite-core support through front intersection, observer/readout, detector-native data, coarse-graining and covariance-aware comparison. These are proposals, not source equations. Use explicit domains, codomains, normalization, metric/signature, observer, units, overlap transitions, calibration, covariance and independent holdout. No shape analogy substitutes for a map.
+
+### Formalization and empirical limits
+- Reuse Ravel PR #1133 slice/pullback structures and Nadir PR #1189 fiber-constancy result; no new generic theorem.
+- No Lean theorem/build: local chart domains, transition maps, metric, support dimension and readout are not source-defined.
+- No measured system/dataset/calibration/covariance/holdout was selected. No physical calculation, fit or prediction. P2 HOLD.
+- HSH_RESOURCES hostile review 1/6 concerns a different helical-embedding paper; its 3D-subspace and Minkowski timelike observations are a caution, not transferable evidence about TOPLESS.
+
+### Operations and continuity
+- Sable h733:s2 optional inbox packet read. Aster h733:s4 inbox entry `LOOM-H733-S3-ASTER-001` is post-failure optional context only; no task/review/response requested.
+- Tern inbox entry `TERN-H733-SCHEDULER-OBS-003` records same-slot :36/:48 run-ID/start changes and :48/:00 failures; no cause inferred.
+- FIE rereview completed 2026-11-10T00:17Z; next 2026-11-24.
+- Unrelated reading: `fun break - lx.txt`, lines 881–920; next cursor 921.
+- Campaign remains P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE.
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly America/New_York :36 schedule. No task, prompt, phase, cadence or sixth-task change.
+- Report: `WORKSPACES/LOOM/2026-11-10T1336Z_SCOPE_RELATIVE_GEOMETRY_NECESSITY_AND_NORMALIZATION_SOURCE_REPAIR.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom.md`.
