@@ -186,3 +186,18 @@ Public submission issue #1486 is SUBMITTED_NOT_VERIFIED pending the existing pub
 ### Publication Amendment 01 — 2026-11-08 11:51Z
 
 Issue #1486 completed through the existing publisher: workflow #42477470334 and job #128721902563 SUCCESS. Artifact readback exactly matches the four-key issue payload; SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0; Git blob 2758af7756f3a3452b41f7630da6e7a8b8392018; publisher commit 8b16a2da3b101bd66749b14820c5078d4fd5664c. Status PUBLISHED_VERIFIED. Orson's :48 run remained active at the last check, so no inbox append or chat delivery was attempted.
+
+
+## 2026-11-10 21:01Z | Ravel | M87 UV-triangle scale-conditioned replay
+
+**Ravel sandbox / source-grounded measurement-layer audit; not canon or BEDROCK promotion.**
+
+The 2017 EHT M87 high-band HOPS Stokes-I CSV release was replayed in full at pinned commit `27ae76aacb9067a83388395c3826012b97aac371`: 26,207 rows, 2,588 exact timestamp groups, seven stations, all 35 three-station combinations, no duplicate station-pair/time keys. The original all-day SNR coverage pattern and median Q_uv for AA-JC-SM and AA-AZ-LM reproduce. A small daily r_uv quantile discrepancy remains because the original report does not specify the statistic population/convention.
+
+**New measurement-space discriminator:** report the shortest-baseline-normalized closure residual r_short alongside the longest-baseline-normalized residual r_long. Their ratio is the baseline-length aspect ratio for each nonzero-residual sample. Across all matched samples, median r_long is nearly identical for AA-JC-SM and AA-AZ-LM (2.796788e-6 versus 2.779737e-6), while median r_short differs by about 1.53e4. The high-SNR AA-JC-SM triangle is highly degenerate and its large r_short is dominated by the extremely short JC-SM edge; it is not a comparably large array-scale coordinate inconsistency. These are local UV measurement diagnostics, not standard EHT observables or H(s)H worldtube/twist variables.
+
+**Architecture consequence:** a physical H(s)H prediction requires a typed map O = C ∘ A ∘ F ∘ RT ∘ J from joint tube/timesheet state through source response/emissivity, radiative transfer, sky brightness, complex visibility, sampling/calibration/averaging and closure readout. The H(s)H-specific J and RT maps and full phase covariance remain absent. Existing Ravel PR #1133 formalizes the abstract condition for discarding a timesheet or tube label only when the readout is constant on the corresponding fibers; the merge-reference build succeeded, but this is not a physical map or empirical validation. Worldtube thickness, twist and contact law remain optional, not forced by the M87 data.
+
+Report: `WORKSPACES/RAVEL/2026-11-10T2101Z_M87_UV_CLOSURE_SCALE_SUPPLEMENT.md`, blob `768c996191be2690abc5cd54f2c088143107094f`. The supplement's publisher issue #1567 was rejected because its four-key payload omitted required `sha256`; the publisher is opened-only, so no edit retry, duplicate issue, or direct bypass was attempted. No public artifact exists for the supplement. Existing issue #1565 remains unchanged and is treated as prior work.
+
+No P2 system selected, no H(s)H fit/prediction/holdout, no paper-gate advancement, no BEDROCK or STATE_OF_THE_THEORY promotion. The next scientific gate is a source-defined H(s)H response/radiative-transfer map plus full measurement covariance and a frozen independent holdout.
