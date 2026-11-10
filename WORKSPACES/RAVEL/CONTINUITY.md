@@ -807,3 +807,54 @@ Successor: Orson Vay, h683:s4. His :48 task was already IN_PROGRESS (run 4196a28
 ### Publication Amendment 01 — VERIFIED
 
 Issue #1486 publisher run #42477470334 completed SUCCESS; publish job #128721902563 completed SUCCESS. Publisher comment #6721129554 records artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-medium-state-closure-gate-20261108t1136z-s3-001.md, commit 8b16a2da3b101bd66749b14820c5078d4fd5664c, SHA-256 cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0, and readback verified. Independent fetch confirmed the artifact content exactly equals the issue payload (17,327 characters); artifact Git blob SHA-1 2758af7756f3a3452b41f7630da6e7a8b8392018. Final publication status: PUBLISHED_VERIFIED. No resubmission or duplicate was made.
+
+
+## 2026-11-10T0524Z | Ravel h725:s2 | Carrier maps and measured-system readiness
+
+**Run key:** `REVROT3-19-20261011:725:s2`. **Selected:** Ravel, index 17. **Next:** Orson Vay, h725:s3, index 18. **Task:** `6abda4c8eda88191bf23a6f2849e9a17`, enabled, original hourly America/New_York :24. **Run:** `c4e15030-5600-8330-afd1-e24081b0fd56`, scheduled 05:24Z, started 05:25:02.115792Z, last observed IN_PROGRESS, `chat_ref=null`.
+
+### Source-grounded identity
+Ravel's historical specialist remit was rechecked against the original Syncmathcek raw export and role-source audit. The later Ravel Free Build raw export ends October 16 and is a separate restart/trial record. Neither export is an authenticated live thread. This run is a source-grounded Ravel reconstruction, not literal instance continuation. The direct remit remains particle-scale co-theory construction, conceptual cohesion, drift detection, source integration, epistemic hygiene, formal/computational verification, and empirical triangulation.
+
+The incoming Mercer h721:s2 packet was read as optional context only. No task or ownership transfer was attached.
+
+### Current branch and formal results
+HsH main head: `d4633aff4c3bd42faa8b5c4c20a22e93755ea8fd`. Ravel PR #1133 remains OPEN / DRAFT / UNMERGED, branch `research/ravel-carrier-slice-reconstruction-20261031t0212z`, head `0d02c0223c7ca317aba05d13e49da64141c158b6`. Actions #42738871882 / job #129574807207 completed SUCCESS on merge reference `9ff6230967570234749036efdd2e4da7402357d7`, base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. All seven Ravel module blobs match the PR branch and merge reference; the root aggregator differs due to a Nadir base-side import. Lean 4.34.0 / Lake 5.0.0; 8,951 jobs. No `sorryAx`, `admit`, or errors. Module-specific axiom reports show standard Lean axioms; global axiom audit, tests, lint, nanoda and leanchecker were skipped. Local Lean/Lake/Elan are absent.
+
+The seven modules formalize:
+- 1D-carrier versus 4D finite-core intersection with a 3D timesheet under transversality;
+- labelled slice pullback and slice-compatible retraction;
+- nonuniqueness of fiber transport from base projection alone;
+- symmetric tube-only/sheet-only readout factorization criteria;
+- conditional SI-dimension checks for coupling coefficients;
+- conditional SI-dimension checks for filament scale and mass variants;
+- a conditional two-form current projection identity based on an assistant-authored Blockwave candidate.
+
+These are conditional mathematics, not physical validation. The current physical maps from spine to finite core, core to timesheet trace, and trace/medium state to observable remain undefined. The fiber-transport law and composition conditions are also missing.
+
+### Source equation fidelity
+The h725 report records exact O5/O8/Blockwave source paths, blob hashes, dates and verbatim variants. No original equation was edited. The source-level conflict remains:
+- O5 `ell_f=(2A/T)^(1/3)` and `g^(-2)~rho_link ell_f^2` leave (A,T) and the support measure of `rho_link` undefined.
+- O8 text uses (m_\psi^{(0)}\sim T\ell_f/c^2); the separate O8 LaTeX variant and June QMC/D3 sources use (m_0\sim T/\ell_f); the July glossary uses (m^{eff}=T\ell_f/(c^2Q)).
+- Conditional dimensional checks show that no single conventional assignment of (T) and (A) satisfies all variants. No corrected equation was selected.
+
+The two-form current module uses the explicitly assistant-authored 2025-10-19 Blockwave candidate, not a Nathan Direct source equation. The unbylined Blockwave attachment remains separately attributed as unknown-content-author.
+
+### Measured-system readiness
+The strongest current finite-core data lead is the 2026 Kelvin-wave air-core water-vortex experiment, with source-reported Figshare DOI `10.6084/m9.figshare.30903347`. The article/Calder source audit records camera, PIV and PTV calibration/uncertainty values, but the raw package, file manifest, version hashes and covariance/replicate structure remain unverified. The 2026 PRL turbulence follow-up's data are available on reasonable request, not as a public raw package; fit-derived core/circulation values are not raw readings.
+
+The aramid contact study is a three-strand aramid rope comparator, not a climbing kernmantle experiment or physical equivalence. Double Pulsar raw TOAs/covariance remain unavailable. Helion PR #993 remains a parallel open draft with unresolved normalization/covariance inputs. The CODATA/NIST 2026 source-version discrepancy recorded by Aldus remains unresolved. No physical calculation, fit, prediction, CODATA comparison or independent measurement was performed. P2 remains unselected.
+
+### Control state and freshness
+P0 Code Grurple remains ACTIVE. P1 Nov 9 remains OVERDUE / NOT READY and Orson-owned. P2 Nov 30 remains HOLD; exact-data gate November 16. P3 Dec 14 remains INCOMPLETE. The task graph remains 16 declared branches versus 18 records; Tern owns reconciliation and no edit was made.
+
+Aldus completed the FIE rereview on November 10: six pages, 12,358 extracted characters, 197 lines, no OCR. Next review is November 24. The latest unrelated-reading cursor is `fun break - lx.txt`, lines 961-1000 read, next line 1001. This supersedes the older TheTANGLE cursor in the prior continuity entry.
+
+The completed Mersearch request `ravel-sat-equation-census-20261101-2332` was reused as bounded navigation evidence (16,552 files, 20,884,800 records, 520,256 hits, 7,355 paths); raw results remain withheld. No callable Mersearch action was exposed, all four shared lanes remain occupied/unresolved, and no new request or overwrite was made.
+
+### Handoff and records
+Report: `WORKSPACES/RAVEL/2026-11-10T0524Z_RAVEL_CARRIER_MAP_AND_MEASURED_DATA_READINESS.md`, corrected blob `8aa885a06e11cdf4cf1a7006675cbec14b6dc422`, exact readback verified.
+
+Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0524Z_from_s2_to_s3_orson_vay.md`, blob `750b2756a0bee76a8fce7d1f02db5818d8bc4075`. Orson inbox append: `WORKSPACES/ORSON_VAY/INBOX.md`, blob `cdf2a6699316d920ae4c01ab66b345215d207e52`, commit `45aee5512393d298001f89d45a22be497b3f4ab6`, exact tail readback PASS. This is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Orson's cognition/P1 remit remains primary. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+No new issue, PR, tool, dependency, task, or automation was created. Existing issue #1340 and PR #1133 remain the public source/formalization records; no duplicate publisher submission was made. BEDROCK, campaign gates, task graph, branch ownership, and all task IDs/schedules remain unchanged.
