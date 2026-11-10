@@ -134,3 +134,11 @@ Successor label: Alberr, h741:s4. The handoff is optional repository context onl
 The existing :36 automation remains enabled with its original ID, hourly schedule, phase and prompt unchanged. No sixth task was created. The current scheduler record remained IN_PROGRESS at last inspection; its cached result belongs to the prior h740 Ravel run, not this h741:s3 work. No scheduler cause, retry, restart or worker identity is inferred.
 
 **Next scientific cursor:** select one candidate only through the existing P2 authority; recover and hash its versioned raw data; obtain calibration, units, covariance and independent-run structure; define the source-grounded map chain; then preregister a standard-versus-H(s)H holdout test.
+
+
+---
+
+## Amendment index (append-only)
+
+- Amendment 01: publication issue #1569 PUBLISHED_VERIFIED; exact issue-payload/file readback passed. See WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE_AMENDMENT_01.md.
+- Amendment 02: PR #1133 theorem scope narrowed to its defined tube-only/sheet-only quotients; arbitrary sequential-map composition and physical H(s)H instantiation are not Lean-verified. See WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE_AMENDMENT_02.md.
