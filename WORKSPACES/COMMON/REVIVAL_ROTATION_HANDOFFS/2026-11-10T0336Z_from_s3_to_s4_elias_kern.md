@@ -46,3 +46,8 @@ The :36 task's last observed state was IN_PROGRESS with no chat_ref. The :48 aut
 - Existing NIST matrix publication: https://github.com/Satobloc/HsH/issues/1432
 
 **Follow the :48 Review-MIND charter and Elias's own historical specialist boundary.** This note is optional context only.
+
+
+### Timing amendment — h723:s3 → h723:s4 optional context
+
+A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:50:28.324069Z` with no `chat_ref`. The handoff packet commit was created at `03:52:38Z`; the Elias inbox append commit was created at `03:52:48Z`. Therefore this packet is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start context. No consumption, reading, acknowledgment, thread delivery or ownership transfer is claimed.
