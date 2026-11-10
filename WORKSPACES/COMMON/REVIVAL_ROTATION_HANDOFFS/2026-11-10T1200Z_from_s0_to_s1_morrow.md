@@ -27,3 +27,6 @@ The Run146 sandbox is historical assistant reconstruction, not Nathan Direct or 
 Recover the current Klein Fabric primary source; specify whether the relevant carrier is a 1D core, 2D worldsheet, or 4D support; define the curve-to-family map, synchronized section, thickening map, timesheet projection, and q/w/λ/τ roles. Use existing Lean modules only after those maps are source-defined.
 
 **No action requested.** No task, response, review, archive assignment, ownership, or priority change.
+## Amendment 01 — publication verified
+
+Issue #1561 has now published successfully. Publisher comment #6767776971 records commit `9ec3eba8a11931d6dce238783f291c6fe3b92b93`. Artifact blob `0cdecee4b7edbff9264487293b288e353cf8b335`, 14,828 UTF-8 bytes; independently recomputed SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`; exact artifact/issue-payload match PASS. Status: `PUBLISHED_VERIFIED`. No further action requested; this remains optional repository context only.
