@@ -58,16 +58,18 @@ From explicit Nathan corrections on 2026-09-14:
 
 Do not project current names backward onto unnamed historical antecedents.
 
-## Hourly automation ecosystem
+## Hourly automation ecosystem (historical snapshot; superseded 2026-11-10)
 
-Enabled recurring loops are hourly and staggered:
+> **Current scheduler control, verified by ID-specific peeks on 2026-11-10:** The existing Workshop Relay tasks remain :00 `6aa1fe0de5e48191b886496095b1343f` enabled, :12 `6aa61b3b2e4081918927a35b61007acc` disabled, :24 `6abda4c8eda88191bf23a6f2849e9a17` enabled, :36 `6a9f52b69ec08191b0a2ba24a074f781` enabled, and :48 `6aa6c3bc02b48191b8a91a30d2a155e0` enabled. Four active leases, no sixth task. Sable is a deterministic ring-selected label, not a separate automation. The old ID `6aa80ddccc888191a6a9b2c073f434b7` now resolves to disabled `ROT5 — Superseded Return Gate`, not a Sable Systems Loop. Tern retains scheduler and task-allocation authority. The table below is retained as a 2026-09-20 historical snapshot only and must not be used as live scheduler state.
+
+Historical recurring loops as recorded on 2026-09-20:
 - `:00` Tag Conversation Corpus — `6aa61b3b2e4081918927a35b61007acc`
 - `:12` Nathan Words Excavator — `6aa5890bd0f081918f528b4f94990653`
 - `:28` Meridian Solver Loop — `6aa6c3bc02b48191b8a91a30d2a155e0`
 - `:45` AUTOMATION — Project Systems — `6aa80ddccc888191a6a9b2c073f434b7`
 - `:52` Mercer Archive QA Loop — `6aa6c2792c9c8191ab2c128a80c437cf`
 
-Former separate Revival Rotation automation remains disabled; revival work is time-cycled inside Sable.
+Historical 2026-09-20 note (superseded 2026-10-11): “Former separate Revival Rotation automation remains disabled; revival work is time-cycled inside Sable.” The current deterministic 19-worker rotation operates inside the five existing Workshop Relay leases, not a Sable-owned loop.
 
 All active workers already read `AUTOMATION_WORKFLOW_CONTROL.md`; as of 2026-09-15 that shared startup surface requires `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md` before write-capable script/workflow operations.
 
@@ -748,3 +750,19 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Existing :24 task remains enabled and unchanged. No task, ID, schedule, phase, cadence, enabled state, ownership or task count was modified. No sixth task; no signet or conversation rename.
 
 **Return pin:** `H714:S2 / SABLE / PR1538-LEAN-EXACT-HEAD-SUCCESS / ISSUE1540-PUBLISHER-REJECTED-SHA / P0-ACTIVE / P2-HOLD / NO-PHYSICAL-CALCULATION / NO-THEORY-PROMOTION / SUCCESSOR-LOOM-ALREADY-RAN / SCHEDULER-IN_PROGRESS / CHAT_REF_NULL`.
+
+
+## 2026-11-10T1324Z | h733:s2 | Sable systems re-entry and scheduler-pointer correction
+
+- **Run key:** `REVROT3-19-20261011:733:s2`; `h=733`, `seq=3667`, ring index 0 = Sable; next index 1 = Loom (`REVROT3-19-20261011:733:s3`). Deterministic selection is not thread authentication.
+- **Historical role source:** raw “SABLE Revival Rotation” conversation ID `6aa6701e-b800-83ea-a19a-31a802b7124d`; direct user-role messages from 2026-09-14 establish systems analysis, workflow/capability architecture, resource/tool survey, extraction/tagging/triage, archive/dashboard continuity and bounded workflow experiments. No authenticated current Sable thread was established.
+- **Stale automation pointer corrected:** README commit `332851729d67f4ce2bade95869b50667d61bbf07`, new blob `47c7b1caa61ee1ec5e70eca99f6a37a0ac2b60c8`, exact independent readback. ID `6aa80ddccc888191a6a9b2c073f434b7` is disabled `ROT5 — Superseded Return Gate`, not a live Sable loop. The historical scheduler table above is now explicitly labeled historical. No scheduler setting changed.
+- **Current :24 lease:** task `6abda4c8eda88191bf23a6f2849e9a17`, enabled, exact `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`. Run `db428a94-4cec-8322-ac07-dabe234ba08d` was scheduled 13:24Z, started 13:20:12Z, and remained IN_PROGRESS with `completed_at=null`, `chat_ref=null` at the last readback. Cached latest result belonged to the preceding Kestrel run.
+- **New :00 scheduler observation:** run `fd2fc4bf-7e04-8324-a51e-25d8721e42e4` on the enabled :00 task completed FAILED at 13:24:37Z with only the generic scheduled-task failure message; no attempt history or cause is exposed. Tern inbox item `TERN-H733-SCHEDULER-OBS-001` was appended and exact-readback verified (commit `755d0a9bdc683e4e0a86c865e3564cf10245cba5`, blob `3059d8dcc77e07637e9e7113af12cac828f343ca`). No retry or task mutation.
+- **Successor:** Loom's existing inbox received optional late context under `SABLE-H733-S2-TO-LOOM-H733-S3-001`; commit `6ea1d8f3dd139d59eec892796747021bb0f9a42b`, blob `542ca6e99fb42e3dfa5dde8efc4c79fa3eb2969a`, exact readback. Loom's :36 run had already started; this is repository inbox delivery only, not ChatGPT-thread delivery, consumption or acknowledgment.
+- **Lane 24:** all four Mersearch requests remain requested; all 12 expected request-scoped manifest/receipt paths were absent. No new request or overwrite. P0 Code Grurple ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD, no selected measured system; P3 INCOMPLETE. No physical calculation, CODATA comparison, Lean run, equation recovery, manuscript advancement or BEDROCK promotion.
+- **Lateral reading:** Charles Babbage, *Reflections on the Decline of Science in England*, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1901–1940. Next cursor **1941**. FIE rereview completed 2026-11-10; next due November 24. No physical off-screen break is claimed.
+- **Tool reconnaissance:** existing Math Hopper #578 / PR #991, Whirligig, Lean PRs, Tool Chest and SciSpace route checked. No new tool, dependency, fork, subscription, paid service or cost. No local Git checkout or local Lean/Lake/Elan executable.
+- **Boundaries:** no task ID, prompt, schedule, phase, cadence, enabled-state or task-count change; no sixth task; no signet or conversation rename; no authenticated worker participation or cross-thread delivery claim.
+
+**Return pin:** `h733:s2 SABLE / STALE-SABLE-AUTOMATION-POINTER-CORRECTED / ROT5-ID-DISAMBIGUATED / TERN-SCHEDULER-OBS-ROUTED / LOOM-OPTIONAL-INBOX-APPEND-VERIFIED / MERSEARCH-4-LANES-OCCUPIED / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / BABBAGE-1941 / FIE-NOV24 / TASKS-PRESERVED`.
