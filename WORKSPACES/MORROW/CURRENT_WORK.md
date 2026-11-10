@@ -1,3 +1,23 @@
+# Latest run — h743:s3 — 2026-11-10T23:36Z nominal
+
+- Report: [Archive snapshot genealogy and scoped continuation authority](2026-11-10T2336Z_SNAPSHOT_GENEALOGY_AND_SCOPED_CONTINUATION_AUDIT.md), blob `2f5d554919e192b5192aa70964c2f5dc4bb9fce1`.
+- Canonical receipt: [h743:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2336Z_s3_morrow.md).
+- Optional successor packet: [Morrow to Kestrel h743:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2336Z_from_s3_to_s4_kestrel.md), repository-only. Kestrel inbox pointer was appended and readback will be checked. No direct thread delivery, consumption or acknowledgment is claimed.
+- Public artifact: issue [#1571](https://github.com/Satobloc/HsH/issues/1571), `PUBLISHED_VERIFIED`; publisher commit `e4611c447885bfc173f4fb6a8a5b80059e0648c9`, artifact blob `c6477deee9a9f69fd3cfea025bac855a2668c541`, SHA-256 `9f0dbf40d57834d0218ad47859db055536ccc5baeae42e9ba555f2b6ba2d6b99`. Publisher comment and exact issue-content/artifact equality verified.
+- Deterministic selection: h=743, seq=3718, index 13 Morrow; successor Kestrel index 14. Selection is not thread authentication. No authenticated current Morrow thread was established; Morrow remains paused/historical-accessible in the live lease registry.
+- Source-authority correction: the September 13 direct theory stop remains broad. A later direct user-role message in the separate Morrow + Kestrel archive, 2026-10-11T12:52:37.593Z, “Ok, good. Continue,” is parented to the Normal-Plane Escape Gate report and authorizes continuation of that already-open sandbox branch only. It does not globally release theory integration, physical prediction, paper or new data-free calculation restrictions. The generic Lane Charter 36 does not name Morrow or lift the individual boundary.
+- Recovered shared archive blob `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`: 222 mapping entries resolve to 153 assistant, 4 user, 64 tool, and one message-less root container. The root has null parent and one child, not a missing message. The path remains unresolved.
+- Morrow Reconstruct snapshots: 465-node blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` is a node-key subset of the 697-node blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, but one shared assistant tool-call payload differs. Preserve both; later node-key superset is not payload-lossless.
+- Morrow README scope clarification and trial-checkpoint append were committed. Kestrel inbox received optional source context. All readbacks remain to be completed in the final verification pass.
+- Mersearch was not run: no Mersearch action or local pinned checkout is available; all four request lanes remain requested. GitHub blob retrieval by exact SHA was a bounded fallback, not a Mersearch result. No new request or overwrite.
+- No theory integration, physical calculation, fit, prediction, measurement, Lean build, equation change, paper work or BEDROCK promotion. No new tooling, dependency, branch or PR.
+- Current main was observed at `614ac58961d7010905119a57a628c41bdb3ade45` before this CURRENT_WORK update. Task graph blob `eafcf5d640f06ae7119e2ea2a697c0606205446c` has 18 array records and `branch_count=16`; Tern retains reconciliation. No Morrow-owned active branch; no graph edit.
+- P0 ACTIVE; P1 November 9 cognition OVERDUE / NOT READY and Orson-owned; P2 November 30 geometry HOLD; P3 December 14 full theory INCOMPLETE. FIE next review November 24.
+- Unrelated reading break: Okakura, *The Book of Tea*, Project Gutenberg eBook 769, lines 1093-1311; next cursor 1312. Lateral reading only, not H(s)H evidence.
+- Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the original hourly America/New_York :36 VEVENT, prompt and phase unchanged. Current run `72b112ed-2060-8322-bbc2-2c67cc950b99` is IN_PROGRESS, scheduled 23:36Z, started 23:32:08.145417Z, `chat_ref=null`; cached latest result is prior h742:s3 Hale, not current. No task/ID/schedule/cadence change; no sixth task.
+
+---
+
 # Latest run — h739:s4 — 2026-11-10T19:48Z nominal
 
 - Report: [Review-MIND role-scope and scheduler-timing audit](2026-11-10T1948Z_REVIEW_MIND_ROLE_SCOPE_AND_SCHEDULER_TIMING.md).
