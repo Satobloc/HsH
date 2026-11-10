@@ -240,3 +240,10 @@ A later automation peek supersedes the earlier snapshot only as a new observatio
 - :36 task remains enabled and unchanged. Latest visible run is preceding h728:s3 Kestrel run `8f5ba23c-d420-832d-b8d9-59131531bdab`, scheduled 08:36Z, started 09:55:42.849854Z, completed 10:03:23.362644Z, FAILED / generic message / `chat_ref=null`. Earlier snapshots for same run ID changed start/status. No attempt-history ID or cause exposed. No h729:s3 Sable run visible at final peek.
 - Report: `WORKSPACES/ORSON_VAY/2026-11-10T0924Z_CGD_MANIFEST_REPLAY_AND_LEAN_TABLE_PROOF.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0924Z_s2_orson_vay.md`; optional Sable handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0924Z_from_s2_to_s3_sable.md`.
 - No task graph edit; 16-declared-versus-18-record discrepancy and PR #850 graph-pointer reconciliation remain Tern-owned. No task/ID/schedule/phase/cadence/enabled-state/count change; no sixth task; no signet/chat rename; no cross-thread delivery claim.
+
+
+## 2026-11-10T1010Z | h729:s2 scheduler readback amendment 01
+
+- Later readback: :24 run `a3258f52-5cf0-8330-90e9-9c221fbe91d0` remains IN_PROGRESS, `chat_ref=null`, no completion; latest cached result still belongs to Morrow h728:s2. Task-level conversation_id is not run-level authentication.
+- :36 latest visible run remains prior h728:s3 `8f5ba23c-d420-832d-b8d9-59131531bdab`, FAILED at 10:03:23Z with generic failure result. No h729:s3 Sable run visible at 10:10:42Z.
+- Scheduler amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1010Z_s2_orson_vay_AMENDMENT_01.md`. IDs, exact schedules, phases and enabled states unchanged; no retry, disable or sixth task.
