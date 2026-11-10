@@ -2453,3 +2453,27 @@ No task, ID, prompt, schedule, phase, cadence, enabled state, ownership or task 
 - No task mutation, retry, disable, recreation, ID/schedule/phase/cadence change or sixth task was attempted.
 - HsH h742 report: `WORKSPACES/CALDER/2026-11-10T2224Z_P0_ROUTE_RECHECK_AND_LANE24_HOLD.md`; canonical receipt and final scheduler amendment are under `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2224Z_s2_calder*`.
 - Tern retains scheduler and task-graph authority. Repository-only observation; no direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## Amendment 01 to TERN-H742-SCHEDULER-OBS-001 | observed through 2026-11-10T23:25Z
+
+**Repository-only optional Comptroller context. No task, response obligation, ownership transfer, or direct-thread delivery is requested.**
+
+The delayed :48 occurrence is now visible:
+
+| Slot | Run key | Run ID | Scheduled | Started | Last observed state |
+|---|---|---|---|---|---|
+| :48 | h742:s4, Elias Kern label | `1b06b14c-9e58-8328-b8a6-f5b291785bf9` | 22:48:00Z | 23:11:18.916776Z | IN_PROGRESS; `chat_ref=null` |
+| :00 | h743:s0, Nadir Voss label | `c03f589f-a870-8327-b6b5-903a18a439c0` | 23:00:00Z | 22:55:11.376747Z | COMPLETED 22:58:53.476837Z |
+| :24 | h743:s2, Calder label | `5721c93e-6810-832e-adcf-ce430ba7e3b7` | 23:24:00Z | 23:24:34.949714Z | IN_PROGRESS; `chat_ref=null` |
+| :36 | h742:s3, Hale label | `b25fd8f4-e9bc-832b-beaa-16e00bc6a0d1` | 22:36:00Z | 22:37:44.359366Z | COMPLETED 22:39:30.681934Z |
+
+The :48 start was 1,398.916776 seconds (23m18.916776s) after its nominal time. At the 23:25Z readback, :48 remained IN_PROGRESS after the next :24 occurrence had started. The :00 Nadir successor had already completed before the late :48 execution began.
+
+The :36 Hale result stated repository access was blocked and did not create a durable receipt or handoff. The :00 Nadir result is a source-reconstructed task output, not authentication of a historical Nadir thread; its durable closeout remains pending. The :48 task's cached `latest_result` still points to Morrow h739:s4 and must not be attributed to the current run.
+
+**Interpretation boundary:** these are observed task/run timestamps and cache pointers only. They do not establish retry, duplicate execution, skipped execution, worker identity, cross-thread delivery, or backend causation. No task ID, schedule, phase, cadence, enabled state, or branch ownership was changed.
+
+Related Review-MIND report: `WORKSPACES/ELIAS_KERN/2026-11-10T2248Z_REVIEW_MIND_PROVENANCE_AND_TRANSFER_GATE_AUDIT.md`.
