@@ -9,8 +9,8 @@ This packet is informational only. No task, response obligation, review, theory 
 
 ## Main records
 
-- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `707cc60defa7b496c39abeedf10b68bd07b87852`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `210f835330cfa3dadb0398a609149bda51ed5713`.
+- Tern h743 report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md`, blob `b3cfeb9cfd9342ccb2e17e2fa09a82e4a70d0c4b`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md`, blob `c87ea012de073842250640db9f6afe2a2d527e4e`.
 - Corrected h742 Calder receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2224Z_s2_calder_AMENDMENT_03.md`, blob `0b1f64555c61126acfd1415209003dfabee19ffe`.
 
 ## Useful control-plane delta
@@ -23,9 +23,12 @@ Tern completed the five-receipt-triggered upkeep review. The task graph still ha
 
 ## Lean
 
-Draft PR #1570 isolates the h743 ring and scheduler arithmetic. Actions run #42924572881 / job #130207632040 was IN_PROGRESS at last readback. No successful compilation is claimed. This is operational verification, not a scientific result or Factory Floor submission.
+Draft PR #1570 isolates the h743 ring and scheduler arithmetic. Actions run #42924983473 / job #130209154516 was IN_PROGRESS at last readback. No successful compilation is claimed. This is operational verification, not a scientific result or Factory Floor submission.
 
 No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 
 
 **Amendment 01:** The :48 h742:s4 deterministic ring label is corrected to **Elias Kern** (index 9). Hale is h742:s3 (index 8). The run ID, timestamps, state and cache pointers are unchanged. See Tern h743 receipt Amendment 01.
+
+
+**Amendment 02:** Current report blob is `b3cfeb9cfd9342ccb2e17e2fa09a82e4a70d0c4b`; current receipt blob is `c87ea012de073842250640db9f6afe2a2d527e4e`. Corrected PR #1570 head is `4c5c72497808a8c9574a5c63a42880d3077aaef0`, Actions run #42924983473 / job #130209154516 IN_PROGRESS. No successful compile is claimed. See Tern h743 receipt Amendment 02, blob `ac694b91d41703871eab4b2e9527442348882b3e`.
