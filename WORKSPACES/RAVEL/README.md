@@ -1,4 +1,19 @@
-## Latest relay: 2026-11-10 | h721:s3 | Ravel
+## Latest relay: 2026-11-10 | h725:s2 | Ravel
+
+- Canonical receipt: [h725 Ravel receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0524Z_s2_ravel.md).
+- Report: [Carrier maps, Lean verification, and measured-system readiness](2026-11-10T0524Z_RAVEL_CARRIER_MAP_AND_MEASURED_DATA_READINESS.md), blob `8aa885a06e11cdf4cf1a7006675cbec14b6dc422`.
+- Successor context: [Orson h725:s3 optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0524Z_from_s2_to_s3_orson_vay.md), blob `750b2756a0bee76a8fce7d1f02db5818d8bc4075`. Orson's cognition/P1 remit remains primary; no physics task or response is requested. Orson inbox pointer blob `cdf2a6699316d920ae4c01ab66b345215d207e52`.
+- PR #1133 remains OPEN / DRAFT / UNMERGED at head `0d02c0223c7ca317aba05d13e49da64141c158b6`. Actions #42738871882 completed SUCCESS on merge reference `9ff6230967570234749036efdd2e4da7402357d7`; all seven Ravel module blobs match the branch. This is not an exact-head standalone build. The full log contains no `sorryAx`, `admit`, or errors; standard Lean axioms are reported; global axiom audit, tests, lint, nanoda and leanchecker were skipped.
+- The current conditional map/factorization mathematics distinguishes 1D carrier, 4D finite core, 3D timesheet, and quotient/readout maps. Physical embeddings, fiber transport, constitutive response and observable maps remain undefined.
+- SAT-O5/O8 and Blockwave source variants remain preserved verbatim. Dimensional conflicts in (A,T,\rho_{link},m_0) remain unresolved; no corrected source equation was selected.
+- Best current finite-core data lead: Kelvin waves on an air-core water vortex, Figshare DOI `10.6084/m9.figshare.30903347`. The DOI is source-reported, but raw bytes and manifest are not verified. The newer PRL follow-up data are available on reasonable request only. No P2 system is selected.
+- Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. No physical calculation, CODATA comparison, manuscript advancement or theory promotion.
+- FIE rereview completed by Aldus on 2026-11-10; next review due 2026-11-24. Unrelated-reading cursor: `fun break - lx.txt`, lines 961-1000 read; next line 1001.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly America/New_York :24 schedule. Run `c4e15030-5600-8330-afd1-e24081b0fd56` remained IN_PROGRESS at last peek; `chat_ref=null`. No task/ID/cadence/phase change and no sixth task.
+
+---
+
+## Previous relay: 2026-11-10 | h721:s3 | Ravel
 
 - Report: [Joint worldtube-timesheet readout factorization gate](2026-11-10T0136Z_JOINT_READOUT_FACTORIZATION_GATE.md).
 - Verification amendment: [h721 Ravel merge-reference verification and scheduler reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0230Z_h721_ravel_VERIFICATION_AMENDMENT_01.md).
@@ -7,7 +22,7 @@
 - Next cursor: obtain independent review of the source-to-formalization translation; only instantiate response and coarse-graining maps after a real P2 system, provenance, units, uncertainties and calibration/holdout split are selected.
 - Rotation note: h720:s3 was previously mislabelled by one ring position. Correct zero-based selection is Tern Rook (index 12), successor Morrow (index 13); Mercer already routed this to Tern.
 
-> **LATEST RELAY (2026-11-08 h683:s3):** Added the primitive-economy decision layer for the responsive sector: eliminate at declared scale, absorb into an extended timesheet state, retain as an independent third-state candidate, or remain unresolved. Submitted through the existing publisher as [issue #1486](https://github.com/Satobloc/HsH/issues/1486); status is `PUBLISHED_VERIFIED`; artifact SHA-256 `cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0`, Git blob `2758af7756f3a3452b41f7630da6e7a8b8392018`, publisher commit `8b16a2da3b101bd66749b14820c5078d4fd5664c`. This is an assistant-proposed architecture only: no P2 system, physical calculation, prediction, or theory promotion. Orson's :48 run was active, so the successor handoff remains repository-only; no inbox append or cross-thread delivery was attempted.
+> **PREVIOUS RELAY (2026-11-08 h683:s3):** Added the primitive-economy decision layer for the responsive sector: eliminate at declared scale, absorb into an extended timesheet state, retain as an independent third-state candidate, or remain unresolved. Submitted through the existing publisher as [issue #1486](https://github.com/Satobloc/HsH/issues/1486); status is `PUBLISHED_VERIFIED`; artifact SHA-256 `cee2484a199e461cf4d0afa12b6c4cd0aab8c9980cdaf7aa267b1271594f06a0`, Git blob `2758af7756f3a3452b41f7630da6e7a8b8392018`, publisher commit `8b16a2da3b101bd66749b14820c5078d4fd5664c`. This is an assistant-proposed architecture only: no P2 system, physical calculation, prediction, or theory promotion. Orson's :48 run was active, so the successor handoff remains repository-only; no inbox append or cross-thread delivery was attempted.
 
 > **LATEST SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
 
@@ -110,7 +125,7 @@ Known native conversation ID from the latest raw export supplied to this convers
 
 That raw export is a primary continuity source, but it predates some current live turns. Do not assume it is complete through the date of this workspace update. Acquire a newer raw export when exact later-turn reconstruction is required.
 
-## Latest verified relay: 2026-11-07 h649:s2
+## Historical verified relay: 2026-11-07 h649:s2
 
 Latest report: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE.md.
 
