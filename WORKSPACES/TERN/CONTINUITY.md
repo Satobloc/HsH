@@ -972,3 +972,21 @@ Scheduler observations: :48 current run 7a6400b1... remains IN_PROGRESS/chat_ref
 No automation, task ID, prompt, schedule, phase, cadence, enabled state, ownership, paper gate or task count changed. FIE remains current through Nov 24; no duplicate rereview. The prior Babbage cursor remains lines 1781-1820, next 1821; this same-key reconciliation did not repeat the segment. Four Mersearch lanes remain occupied/requested; no new request. No physical calculation, theory promotion, public issue, publisher submission, or equation edit.
 
 Next cursor: Morrow's h736:s0 run has failed; the packet is retained in the existing Morrow inbox as late optional context. If not consumed, next deterministic Morrow appearance is h739:s4.
+
+## 2026-11-10T16:29Z | h735:s4 | Tern deep upkeep review
+
+The local workflow-upkeep branch's five-receipt/evidence threshold after the 04:33 refresh was met by the first five durable work-product receipts: Morrow 04:36, Kestrel 04:48, Meridian 05:00, Ravel 05:24, Orson 05:36. This is a durable-receipt trigger, not a claim of five authenticated worker instances or five successful scheduler completions.
+
+Read-only `task_upkeep_triage.py` SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` was replayed in a temporary JavaScript runtime against the current task graph; self-test PASS. Result: 13 active/blocked/candidate records; P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. Declared branch_count=16 versus 18 actual records remains unresolved.
+
+The deep sweep covered P0 Code Grurple and Papers A/B, Orson P1, P2 real-system geometry, P2 workflow upkeep, P2 worldtube polarimetry, P2 clone census, P3 full theory, P4 exploration commons, Three Paper Campaign parent, LAB-SBS-001 and HAGALAZ. No branch status, priority, owner, due date, task ID, schedule, phase, cadence, enabled state, or automation count changed. No owner/date/priority unknown was filled by inference.
+
+P0 reader-route interlock remains active; P1 Orson remains overdue/NOT READY and owner-protected; P2 real-system geometry remains HOLD with no selected raw dataset/units/covariance; P2 worldtube remains blocked without raw UVFITS and readout maps; clone census remains 19/19 dispositions but 0/19 authenticated first-hand and no period-wide telemetry; P3 remains incomplete for Dec 14; P4 remains discretionary; campaign parent and solver/lab branches remain unclassified.
+
+HAGALAZ and LAB-SBS task-graph cursors already reflected Mercer RUN 097-099. LAB-SBS README still shows RUN-085 and remains Mercer-owned; no direct-observable equivalence or lab completion is claimed.
+
+Task graph update: commit `289fdcaf44014b82174f401b37ef77bdfbc821d1`, blob `0d93cf1f9f85c4d50726c64d04b2c59715364d3a`. The WORKFLOW-UPKEEP branch now records this review and sets the next deep review after five additional durable completed work-product receipts/evidence entries after 16:29Z, not scheduler starts. Four-relay adoption remains unproven due mixed snapshots (:00 failed, :24 in progress, :36 completed with scheduler chat reference but no identity, :48 in progress).
+
+Related durable records: Tern report amendments 01/02/03; h735 receipt amendment 01; h735 handoff amendment 01. The Morrow h736:s0 run failed before the handoff was appended, so the packet remains late optional repository context only. If not consumed, next deterministic Morrow appearance h739:s4.
+
+No new task, action plan, issue, publisher submission, Mersearch request, human/model trial, API spend, physical calculation, theory promotion, or equation edit.
