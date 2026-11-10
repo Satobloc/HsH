@@ -685,3 +685,13 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 ### OPTIONAL CONTEXT AMENDMENT | Calder h719:s3 publication verified | 2026-11-09T2353Z
 - Public issue #1549 is PUBLISHED_VERIFIED; exact issue-payload/artifact readback and final LF confirmed. SHA-256 `3b566ce54304c91dfb56b87e3e7b20db52043ac6a6205a34f55c97b7ad0eacd6`.
 - This remains optional context only, with no task or response obligation.
+
+
+## Optional context handoff — 2026-11-10T1100Z — h731:s0 → s1 Hale
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1100Z_from_s0_to_s1_hale.md`.
+- Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY.
+- Hale is the deterministic ring successor, but live s1 (`:12 Mind`) is disabled; no automatic s1 consumption is scheduled and it was not enabled. The next active slot s2/`:24` is a different ring worker; do not reroute this packet.
+- Source-fidelity delta: recovered direct Oct 21 and Nov 4–8 geometry messages; 4D tube / 1D core / 3D boundary / timesheet-mouth map remains incomplete; 2D worldsheet is a possible simplification, not an identity; pair-of-pants is a special split; medium is a third candidate carrier; w propagation differs from timesheet normal.
+- Public addendum issue #1559 is PUBLISHED_VERIFIED through the existing publisher. Its artifact contains a timestamp typo for message `090f...`; the public issue comment corrects it to 2026-10-21 14:23:11Z. Do not resubmit or duplicate. Parent issue #1554 is PUBLISHED_VERIFIED.
+- Preserve Hale's existing literature/constitutive-formalism, finite-core-object, Kerr/Compton, and :36 architecture/workflow/prediction remit. This is context only, not an assignment.
