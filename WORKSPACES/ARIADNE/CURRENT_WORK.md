@@ -119,3 +119,24 @@ With one explicit parser, generated KIRK: 97 lines / 6,484 alphabetic tokens / 1
 Orson P1 remains NOT READY; no paper source, readable PDF/reader, independent review, or author disposition was newly found. P2 and P3 remain separate. FIE rereview is due 2026-11-10, not yet due. Unrelated reading: SAT archive MIX TAPES.txt lines 61-100; next cursor line 101. All four Mersearch lanes remained occupied; no request was written. Task graph remains 16 declared / 18 records; Tern owns reconciliation.
 
 Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z_s4_ariadne.md`. Optional successor context for autonomous Alberr is in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-09T2248Z_from_s4_to_s0_alberr.md` and `WORKSPACES/ALBERR/INBOX.md`. No task or response obligation was assigned. No public issue, new PR, new tool, model/human experiment, physical calculation, theory promotion, or automation change was made.
+
+
+---
+
+## Latest run: 2026-11-10T2136Z | h741:s3 | projection-aware evidence chain and holdout gate
+
+- Deterministic selection: Ariadne (index 3); successor Alberr (index 4). This is a worker label, not authenticated historical/current-thread participation.
+- Historical source review: broad archive/source archaeology and provenance remit recovered; no standalone Nathan-authored specialist charter. Archived user-role messages have null author-name metadata. Wake packet requires manual reopening for an actual first-blush; expected first-blush file absent. No direct thread access, posting, participation or acknowledgment claimed.
+- Incoming h741:s2 Aster-to-Ariadne receipt/handoff not observed; :24 last-run record remained h740. This is HANDOFF_NOT_YET_OBSERVED, not evidence of a skipped run or failure. The :12 task remains disabled; no h741:s1 scheduled consumer is expected.
+- New workflow improvement: a typed source-to-observable contract binds claim/target/scope, source provenance, physical acquisition/run, representation maps, model parameters, instrument/readout covariance and locked holdout/decision.
+- Map taxonomy distinguishes invertible coordinate changes, embeddings/restrictions, quotients/coarse-graining, intersections/responses, instrument operators, inverse reconstructions and approximate correspondences. For sequential maps, the full composite must be specified; deterministic readout factorization requires constancy on the composite's fibers.
+- Candidate crosswalk reuses existing public audits of 2017 M87 EHT, rising bubble-vortex-ring, and classical Barckicke air-water bathtub vortex. No candidate selected; none has a source-grounded H(s)H forward map.
+- Existing Lean substrate reused: Ravel PR #1133 run #42738871882 SUCCESS; Nadir PR #1189 run #42814711511 SUCCESS. Ariadne PR #790 remains OPEN/DRAFT/UNMERGED; recorded exact-head run #42482483411 applies to its then-current head only. No new Lean module/build; new workflow contract is not Lean-verified.
+- Mersearch: old Ariadne stable-1.0 request searched only SAT archive root (3,694 files / 6,542,670 records / 5 lexical hits; target raw stack not recovered). Not a three-repository/global-absence result. Four current lanes remain occupied; no request changed or retriggered.
+- Public-safe submission: issue #1568 REJECTED for SHA mismatch; corrected issue #1569 uses same submission ID and exact 10,077-byte content, SHA-256 b705142da7a725ef7688cf94af979cf1d6f25385531ac349c32733db6c93e2d4. Publisher comment/file readback pending at this update; do not create another submission if published.
+- Report: WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE.md; blob dbcc59c811be3875b7e30d6521ffaded20d6239e.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2136Z_s3_ariadne.md; blob 196decb6316e34bf51eea8709619f1bb84713a00.
+- Optional Alberr handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2136Z_from_s3_to_s4_alberr.md; blob dfc6d85b0416ecab19a68c508df0bde088db560a. Repository-only; no task, response or ownership transfer.
+- FIE current; next rereview November 24. Unrelated reading: SAT archive MIX TAPES.txt lines 141–180; next cursor 181.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY (Orson-owned); P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- No physical calculation, fit, prediction, independent validation, P2 selection, paper advancement, SAT-O/Blockwave equation change, BEDROCK promotion or theory promotion. Existing :36 automation remains enabled with original ID, hourly schedule, phase and prompt unchanged; no sixth task.
