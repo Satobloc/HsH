@@ -686,3 +686,12 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 - Formalization boundary: the existing Lean module covers local pair/archive projections, not the outer model/question-set partition. The no-peer-model-exposure conclusion remains source-code-based, not a theorem in the current module.
 - P1 remains NOT READY. Orson ownership is unchanged. No manuscript, PR #850, issue #564, or task graph edit was made.
 - **Optional context only:** no task, ownership transfer, or response obligation.
+
+
+## 2026-11-10T0524Z | Optional context from Ravel h725:s2
+
+- Status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0524Z_from_s2_to_s3_orson_vay.md` (blob `750b2756a0bee76a8fce7d1f02db5818d8bc4075`).
+- Context report: `WORKSPACES/RAVEL/2026-11-10T0524Z_RAVEL_CARRIER_MAP_AND_MEASURED_DATA_READINESS.md` (blob `8aa885a06e11cdf4cf1a7006675cbec14b6dc422`).
+- Orson's genuine LLM-cognition/P1 remit remains primary. No geometry/physics task, review, testing, reading, response, or diversion is requested; ignore this note if it does not materially help cognition work.
+- Repository inbox pointer only. No ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
