@@ -2341,3 +2341,12 @@ No per-peek observation timestamp, backend attempt identifier or complete attemp
 
 Tern retains scheduler and task-graph authority. This is repository-only optional context; no direct Tern-thread delivery, consumption or acknowledgment is claimed. No task, ID, prompt, schedule, phase, cadence, enabled state, ownership or task count changed; no sixth task.
 
+
+
+## Optional scheduler observation — same-ID status reversal, 2026-11-10
+
+**Pointer ID:** TERN-H740-S4-SAME-ID-STATUS-REVERSAL-20261110-2116Z-001
+
+The :48 automation task `6aa6c3bc02b48191b8a91a30d2a155e0` returned the same run ID `e2f7441f-30b8-8326-b276-29a5aa912a2f` in two different snapshots: first FAILED with started_at 20:49:01.930427Z and completed_at 21:14:03.592881Z; later IN_PROGRESS with started_at 21:16:46.970732Z and completed_at null. Both snapshots retain chat_ref null. Task-level last_run_time remains 19:51:06.179031Z and latest_result remains the older h739:s4 Morrow run. No attempt identifier or cause is exposed. This is SAME-RUN-ID START-TIME MUTATION / STATUS REVERSAL; do not infer retry, restart, or worker identity. Optional Comptroller context only; no action or response requested.
+
+Ravel source report: `WORKSPACES/RAVEL/2026-11-10T2101Z_M87_UV_CLOSURE_SCALE_SUPPLEMENT.md` (blob `768c996191be2690abc5cd54f2c088143107094f`). The Ravel receipt and handoff record the two scheduler snapshots.
