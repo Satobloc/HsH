@@ -158,6 +158,26 @@ def run36Prior : SchedulerSnapshot :=
 
 def observationUs : Nat := us 23 32 33 0
 
+/-- Later exact-ID readback of the same :48 run ID at 23:40:56Z. -/
+def run48Later : SchedulerSnapshot :=
+  { phase := 4
+    taskId := "6aa6c3bc02b48191b8a91a30d2a155e0"
+    enabled := true
+    scheduleMinute := 48
+    runId := "1b06b14c-9e58-8328-b8a6-f5b291785bf9"
+    scheduledUs := us 22 48 0 0
+    startedUs := us 23 40 39 676243
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "e06d3067-1ba4-832d-b9db-d8732eeb5668"
+    chatRef := none
+    taskLastRunUs := us 22 11 15 543737
+    taskUpdatedUs := us 22 11 39 534753
+    nextRunUs := us 22 48 0 0 }
+
+def observationUsLater : Nat := us 23 40 56 0
+
+
 theorem protected24_task_identity_and_schedule :
     run24.enabled = true ∧
     run24.taskId = "6abda4c8eda88191bf23a6f2849e9a17" ∧
@@ -214,6 +234,31 @@ theorem next_run_metadata_at_observation :
     run48.nextRunUs < observationUs := by decide
 
 /-- At least 24.854583 seconds of three-way overlap are visible at the readback. -/
+
+theorem h742_s4_same_run_id_across_readbacks :
+    run48.runId = run48Later.runId ∧
+    run48.taskId = run48Later.taskId ∧
+    run48.scheduledUs = run48Later.scheduledUs := by decide
+
+theorem h742_s4_started_at_field_changed :
+    run48Later.startedUs - run48.startedUs = 1760759467 := by decide
+
+theorem h742_s4_later_start_after_nominal :
+    run48Later.startedUs - run48Later.scheduledUs = 3159676243 := by decide
+
+theorem h742_s4_both_snapshots_in_progress :
+    run48.status = .inProgress ∧ run48Later.status = .inProgress := by decide
+
+theorem h742_s4_later_snapshot_still_in_progress_at_observation :
+    run48Later.startedUs < observationUsLater ∧
+    observationUsLater - run48Later.startedUs = 16323757 := by decide
+
+theorem later_three_run_overlap_lower_bound :
+    run24.startedUs ≤ run36.startedUs ∧
+    run36.startedUs ≤ run48Later.startedUs ∧
+    run48Later.startedUs < observationUsLater ∧
+    observationUsLater - run48Later.startedUs = 16323757 := by decide
+
 theorem three_run_overlap_lower_bound :
     run48.startedUs ≤ run24.startedUs ∧
     run24.startedUs ≤ run36.startedUs ∧
@@ -222,5 +267,7 @@ theorem three_run_overlap_lower_bound :
 
 #print axioms h743_s2_worker
 #print axioms three_run_overlap_lower_bound
+#print axioms h742_s4_started_at_field_changed
+#print axioms later_three_run_overlap_lower_bound
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
