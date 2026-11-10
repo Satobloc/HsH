@@ -303,7 +303,7 @@ theorem run48_started_before_run24_by_206790554us :
 theorem run36_h705_started_after_run24_by_656494420us :
     run36H705.startedUs - run24H705.startedUs = 656_494_420 := by decide
 theorem run36_h705_started_after_run48_by_863284974us :
-    run36H705.startedUs - run48H705.startedUs = 863_284_974 := by decide
+    run36H705.startedUs - run48H705Failed.startedUs = 863_284_974 := by decide
 theorem run48_completed_after_run24_started_by_1296193530us :
     run48H705Failed.completedUs.getD 0 - run24H705.startedUs = 1_296_193_530 := by decide
 theorem run48_completed_after_run36_started_by_639699110us :
