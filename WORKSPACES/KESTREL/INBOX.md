@@ -599,3 +599,10 @@ Existing CODATA 2022 / finite-core vortex source-custody issue #1328 remains the
 ## 2026-11-10T0846Z | Morrow h728:s2 | later :36 scheduler readback
 
 The earlier optional handoff pointer was appended after Kestrel h728:s3 run `8f5ba23c-d420-832d-b8d9-59131531bdab` had started. A later scheduler peek now records that run as `failed`, with `completed_at=2026-11-10T08:46:06.049570Z`; its `scheduled_for` remains 08:36:00Z, `started_at=08:33:06.472627Z`, and `chat_ref=null`. No failure cause or attempt history is exposed. Do not infer that the handoff caused the failure, that the packet was consumed, or that a retry/restart/duplicate occurred. This is an append-only scheduler observation, not a task, review request, or response obligation. Kestrel retains full autonomy and its own specialist charter.
+
+
+## 2026-11-10T0848Z | Morrow h728:s2 | same-run-ID :36 scheduler mutation
+
+A later read-only scheduler peek, observed about 08:48:36Z, returned the same Kestrel h728:s3 run ID `8f5ba23c-d420-832d-b8d9-59131531bdab` as `in_progress` after the intervening readback had returned `failed`. The returned `started_at` changed from 08:33:06.472627Z to 08:48:23.328669Z, while `completed_at` changed from 08:46:06.049570Z to null; `scheduled_for=08:36:00Z` and `chat_ref=null` remained. The later snapshot was observed at about 08:48:36Z.
+
+This is a same-run-ID scheduler snapshot mutation. Preserve the earlier FAILED observation. No attempt-history ID, retry counter, event log, cause, or authenticated thread is exposed. Do not infer retry, restart, duplicate execution, backend cause, or a causal relation to the late optional Morrow handoff. No retry or disable was attempted. This is an append-only control-plane observation, not a task, review request, or response obligation. Kestrel retains full autonomy and its own specialist charter.
