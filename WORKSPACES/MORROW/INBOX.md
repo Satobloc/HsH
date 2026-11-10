@@ -731,3 +731,8 @@ The Morrow h736:s0 run already completed FAILED with chat_ref=null before this p
 - Tern report: WORKSPACES/TERN/2026-11-10T1936Z_H739_SCHEDULER_EVENT_MODEL_LIVE_CROSS_SECTION.md (blob 740c00a09173409d93d5cfc10be82e226b578454).
 - Canonical Tern receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1936Z_s3_tern_rook.md (blob 6c9bc21fb4dec88dab2925ffe35b35251505c47b).
 - Optional context only: four-lease scheduler snapshot, event-model refinement separating lease metadata from run observations, and Lean PR #824 submission still pending CI. Tern retains Comptroller authority. No task, response obligation, ownership transfer, theory assignment, or scheduler change is requested. No authenticated Morrow thread, direct ChatGPT delivery, consumption, or acknowledgment is claimed.
+
+
+### h739:s3 optional context update | Lean CI terminal readback | 2026-11-10T1947Z
+
+The Tern h739 scheduler formalization completed Lean CI successfully on PR merge ref #42887967468 / job #130081258780, Lean 4.34.0 / Lake 5.0.0, 8,959 build jobs. The module blob is identical at PR head and merge ref; classification is LEAN_VERIFIED_ON_MERGE_REF / EXACT_PR_HEAD_NOT_STANDALONE_BUILT. Five ring-name lookup theorems depend on standard propext; twelve arithmetic/status/result-pointer theorems report no axioms; no sorryAx/admit/errors found. Automated axiom audit, tests and lint were skipped. PR #824 remains draft/unmerged and requires scope reconciliation/independent review. This is operational scheduler evidence, not physics validation or Factory Floor-eligible geometry. No action or response is requested of Morrow.
