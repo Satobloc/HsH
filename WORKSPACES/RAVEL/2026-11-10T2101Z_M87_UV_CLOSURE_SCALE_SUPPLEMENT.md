@@ -11,29 +11,15 @@
 
 The original audit normalized the measured-coordinate closure residual by the shortest baseline:
 
-[
-r_{\mathrm{short}} =
-\frac{\|u_{AB}+u_{BC}-u_{AC}\|}
-{\min(\|u_{AB}\|,\|u_{BC}\|,\|u_{AC}\|)}.
-]
+    r_short = ||u_AB + u_BC - u_AC|| / min(||u_AB||, ||u_BC||, ||u_AC||).
 
 That is a useful short-edge-relative diagnostic, but it is not a scale-neutral measure of array-wide coordinate closure. This supplement adds the complementary longest-baseline normalization:
 
-[
-r_{\mathrm{long}} =
-\frac{\|u_{AB}+u_{BC}-u_{AC}\|}
-{\max(\|u_{AB}\|,\|u_{BC}\|,\|u_{AC}\|)}.
-]
+    r_long = ||u_AB + u_BC - u_AC|| / max(||u_AB||, ||u_BC||, ||u_AC||).
 
 For every sample with nonzero residual,
 
-[
-\frac{r_{\mathrm{short}}}{r_{\mathrm{long}}}
-=
-\kappa_{uv}
-=
-\frac{\max(\|u\|)}{\min(\|u\|)}.
-]
+    r_short / r_long = kappa_uv = max(||u||) / min(||u||).
 
 Thus the two residuals differ by the triangle's baseline-length aspect ratio. They answer different questions and should be reported together when the triangle is highly anisotropic.
 
@@ -127,20 +113,18 @@ The original artifact does not state a separate filter or quantile convention fo
 
 The data-space triangle is not a worldtube, timesheet, twist, or contact surface. It is a triangle of sampled interferometric baselines. A physical H(s)H model must supply a complete map to the measured data before its geometry can be tested:
 
-[
-\mathcal O = C \circ A \circ F \circ RT \circ J.
-]
+    O = C ∘ A ∘ F ∘ RT ∘ J.
 
 Here:
 
-1. (X_{\mathrm{joint}}) retains the tube representative, timesheet label, and sheet representative.
-2. (J) maps that joint state to a specified current/emissivity or source-response field.
-3. (RT) is radiative transfer to sky brightness (I_\nu(\alpha,\beta,t)).
-4. (F) maps sky brightness to complex Fourier visibility (V(u,v,t)).
-5. (A) applies the actual sampling, station gains/noise, time/frequency averaging, and calibration policy.
-6. (C) forms closure-phase and other declared readouts from the sampled complex visibilities.
+1. X_joint retains the tube representative, timesheet label, and sheet representative.
+2. J maps that joint state to a specified current/emissivity or source-response field.
+3. RT is radiative transfer to sky brightness Iν(α, β, t).
+4. F maps sky brightness to complex Fourier visibility V(u, v, t).
+5. A applies the actual sampling, station gains/noise, time/frequency averaging, and calibration policy.
+6. C forms closure-phase and other declared readouts from the sampled complex visibilities.
 
-The H(s)H-specific (J) and (RT) maps are not supplied. Therefore this dataset does not yet instantiate (mathcal O) for H(s)H and cannot produce an H(s)H prediction or fit. The standard comparator must traverse the same measured uv sampling and use the same declared calibration/nuisance policy.
+The H(s)H-specific J and RT maps are not supplied. Therefore this dataset does not yet instantiate O for H(s)H and cannot produce an H(s)H prediction or fit. The standard comparator must traverse the same measured uv sampling and use the same declared calibration/nuisance policy.
 
 ### Existing Lean result reused, not expanded
 
