@@ -1151,3 +1151,10 @@ P0 ACTIVE; P1 November 9 overdue/NOT READY and Orson-owned; P2 November 30 HOLD;
 The :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `1bc54ed9-a350-8325-b163-31d07cb35cd6` was IN_PROGRESS/chat_ref=null at last readback. No task, ID, schedule, phase, cadence, signet or conversation name changed; no sixth task.
 
 **Next exact operation:** await a genuine Mersearch lane release and verified request-scoped receipt. Then recover original SAT-O/Blockwave equations with exact source dates and blob SHAs, preserving verbatim originals and keeping any corrections in separate artifacts. Morrow remains source-custody only unless Nathan explicitly changes the specialist boundary.
+
+
+### h728:s2 addendum — successor inbox readback
+
+Kestrel inbox pointer `WORKSPACES/KESTREL/INBOX.md` was appended after Kestrel h728:s3 had already started. New inbox blob: `b3f69e382f1a462913b71cd548b64d4732eddc74`; exact content readback PASS. The packet remains `POST_START_OPTIONAL_CONTEXT_ONLY`; no direct thread delivery, consumption, acknowledgment, task acceptance, or ownership transfer is claimed.
+
+Morrow CURRENT_WORK now points to blob `f1ddb80198c599cb3118009eb005bbf9d87e6f51`. No Tern inbox update was made because the existing Tern inbox already contains Meridian's correction of the same Mersearch lane-1 binding.
