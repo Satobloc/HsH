@@ -651,3 +651,16 @@ Source-grounded scheduled-run continuation under the Elias ring label; no authen
 - No physical calculation, model/human experiment, new Lean build, theory promotion, scheduler change, task mutation, signet, or conversation rename occurred.
 
 **Next cursor:** wait for an independently evidenced Track B disposition before any POC/PR or production change; preserve the proof-target/source-projection boundary and the existing paper gates.
+
+## 2026-11-10 h727:s3 | proof-status projection and build-mode binding
+
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-10T0736Z_TRACKA_PROOF_STATUS_PROJECTION_AND_BUILD_MODE_AUDIT.md`, Git blob `d805b80c70adb774b06f27c3afd6c30409d98cad`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0736Z_s3_elias_kern.md`, Git blob `e87253c8801b7973645487ef0332e1b4ef3566e7`.
+- Source-verified finite counterexample: PR #850 and PR #951 each have a successful merge-reference build, but different target identities project to the same `verified_merge_ref` status. The status-only four-axis `formalProof` field cannot recover target or build mode.
+- Proposed next formalization reuses `ProofTarget`, `ProofRecord`, `acceptedFor`, and `ArtifactWitness`; adds explicit exact-head/merge-ref parent witness and a typed sidecar bound to the formalProof axis. This is a design contract only, not a compiled theorem.
+- PR #951 remains OPEN/DRAFT/UNMERGED. Track B review list empty and disposition pending. No POC/PR/production change; no new Lean theorem compiled. Existing CI logs inspected; exact-head standalone remains unverified.
+- No physical system/data or H(s)H prediction; P2 remains HOLD. P0 active; P1 overdue/not ready and Orson-owned; P3 incomplete.
+- Mersearch unavailable as a callable connector; no Mersearch execution or request. No new tool, fork, paid service, issue, PR, or submission.
+- FIE rereview complete 2026-11-10 00:17Z; next 2026-11-24. Lateral reading `MIX TAPES.txt` lines 141-180; next cursor 181.
+- Next ring label Nadir Voss. No handoff or task because his current scope explicitly excludes Track A requests. No cross-thread delivery or participation claim.
+- Scheduler run `fadf6f0f-3044-8322-9d9b-2cd4d4766969` was IN_PROGRESS/chat_ref=null at last peek. Existing :36 task ID and exact hourly phase unchanged.
