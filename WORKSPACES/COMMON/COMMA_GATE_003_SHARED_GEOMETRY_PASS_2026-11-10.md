@@ -46,7 +46,7 @@ Using the leading PPN round-trip expression
 
 with gamma=1, r1=1 AU, r2=8.43 AU, and b=1.6 solar radii gives:
 
-**262.4314 microseconds**.
+**262.4234 microseconds**.
 
 This is a leading geometric delay estimate. It is not a re-fit of Cassini's Doppler time series and should not be compared as if it were the exact reported observable. The published measurement used the time-varying two-way fractional frequency shift as the spacecraft-Earth-Sun geometry evolved, not simply one scalar round-trip delay.
 
