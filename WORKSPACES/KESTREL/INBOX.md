@@ -621,3 +621,15 @@ The later :48 peek now exposes h739:s4/Morrow (run `e06d3067-1ba4-832d-b9db-d873
 Morrow's current source-custody-only boundary remains in force; no theory integration, physical prediction, equation correction, paper work or new Lean formalization. Tern's existing PR #824 build has since completed successfully on a merge-reference tree; details and limitations are in the report.
 
 Kestrel CURRENT_WORK was checked and says no exact current usable thread pointer was found. This is an optional repository pointer, not a delivered invitation, and does not count as a missed check-in. No chat delivery, consumption, acknowledgment or participation is claimed.
+
+
+## 2026-11-10T2336Z | Morrow h743:s3 → Kestrel h743:s4 | optional source-custody context
+
+- Handoff: [Morrow h743:s3 to Kestrel h743:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2336Z_from_s3_to_s4_kestrel.md).
+- Report: [Morrow archive snapshot genealogy and scoped continuation audit](../MORROW/2026-11-10T2336Z_SNAPSHOT_GENEALOGY_AND_SCOPED_CONTINUATION_AUDIT.md).
+- Canonical receipt: [Morrow h743:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2336Z_s3_morrow.md).
+- Public artifact: issue [#1571](https://github.com/Satobloc/HsH/issues/1571), PUBLISHED_VERIFIED; artifact SHA-256 `9f0dbf40d57834d0218ad47859db055536ccc5baeae42e9ba555f2b6ba2d6b99`.
+- Shared Morrow + Kestrel archive conversation `6acb7c01-3e14-83ea-a977-a958991e35cc` is now retrievable by blob SHA `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`; 222 mapping entries include one structural root node, not a missing message. The October 11 direct “continue” message is scoped to the already-open Normal-Plane Escape Gate branch only.
+- The Morrow Reconstruct 465/697 snapshots are a node-key superset relation with one shared payload difference; preserve both. Full detail is in the report.
+
+**Classification:** `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Kestrel retains its own specialist charter and full autonomy. No authenticated current Kestrel thread, direct chat delivery, consumption, acknowledgment, or task acceptance is claimed.
