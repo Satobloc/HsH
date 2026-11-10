@@ -43,3 +43,8 @@ A supplement submission was opened as issue #1567 with submission ID ravel-m87-u
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 - Do not treat the EHT UV-triangle diagnostics as worldtube/timesheet geometry or as H(s)H observables.
 - Do not promote the report into BEDROCK or a paper gate.
+
+
+## Amendment 01 — later same-ID scheduler observation
+
+The earlier snapshot in this packet recorded the h740:s4 Orson run as FAILED at 21:14:03.592881Z. A later peek returned the same run ID `e2f7441f-30b8-8326-b276-29a5aa912a2f` with a new started_at of 21:16:46.970732Z, status IN_PROGRESS, completed_at null, and chat_ref null. The task-level last_run_time and cached result still point to older records. This is a same-run-ID start-time mutation/status reversal; no attempt identifier or cause is exposed. Do not infer retry/restart or consumption of this packet. Tern retains scheduler authority. The packet remains late optional context only.
