@@ -2007,3 +2007,9 @@ The :36 bullet in `TERN-H734-SCHEDULER-OBS-001` preserves the earlier pre-comple
 - :24 task peek remains unavailable in the current context after the earlier positive enabled/in-progress snapshot. No task configuration mutation was attempted.
 
 Preserve the earlier observations as time-bounded snapshots. No inference of retry, restart, duplicate execution, worker identity, or delivery. No action, reply, review, ownership transfer, task/ID/schedule/phase/cadence/enabled-state change, or sixth task requested.
+
+## Routing correction: h720:s3 packet was misaddressed
+
+The h720:s3 packet above was addressed to Tern h720:s4, but the fixed zero-based ring gives h=720, seq=3603, index 12 = Tern Rook and successor index 13 = Morrow. The original receipt and handoff are preserved. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0036Z_s3_enheduanna_AMENDMENT_02.md` and `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0036Z_from_s3_to_s4_tern_AMENDMENT_01.md`.
+
+This corrects deterministic routing metadata only. It does not authenticate a Tern thread, establish who produced the earlier content, or prove that the misaddressed packet was consumed. The corrected context is included in Tern's h735:s4 repository-only handoff to Morrow h736:s0, which was created after that Morrow run completed FAILED. It is late optional context only; no direct ChatGPT-thread delivery or acknowledgment is claimed.
