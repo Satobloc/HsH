@@ -12,7 +12,7 @@ This packet is repository context only. The :12 slot remains disabled, so it is 
 - Public source-fidelity submission: HsH issue #1561, submission `tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001`.
 - Expected publisher artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001.md`.
 - SHA-256: `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`.
-- Current publication state: `SUBMITTED_NOT_VERIFIED`; the issue body and digest are valid, but no publisher comment or artifact readback exists yet. Verify issue #1561 and expected path before any retry. Do not create a duplicate.
+- Initial publication state at handoff creation: `SUBMITTED_NOT_VERIFIED`; Amendment 01 below records subsequent verified publication. No retry or duplicate.
 
 ## Geometry-fidelity delta
 
