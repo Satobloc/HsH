@@ -128,21 +128,19 @@ The original artifact does not state a separate filter or quantile convention fo
 The data-space triangle is not a worldtube, timesheet, twist, or contact surface. It is a triangle of sampled interferometric baselines. A physical H(s)H model must supply a complete map to the measured data before its geometry can be tested:
 
 [
-\mathcal O =
-\mathcal C \circ \mathcal A \circ \mathcal F
-\circ \mathcal R \circ \mathcal J.
+\mathcal O = C \circ A \circ F \circ RT \circ J.
 ]
 
 Here:
 
-1. Χ_joint is the joint state retaining the tube representative, timesheet label, and sheet representative.
-2. ℰ maps that state to a specified current/emissivity or source-response field.
-3. ℛ is radiative transfer to sky brightness (I_\nu(\alpha,\beta,t)).
-4. ℱ maps sky brightness to complex Fourier visibility (V(u,v,t)).
-5. ℰ applies the actual sampling, station gains/noise, time/frequency averaging, and calibration policy.
-6. ℱ forms closure-phase and other declared readouts from the sampled complex visibilities.
+1. (X_{\mathrm{joint}}) retains the tube representative, timesheet label, and sheet representative.
+2. (J) maps that joint state to a specified current/emissivity or source-response field.
+3. (RT) is radiative transfer to sky brightness (I_\nu(\alpha,\beta,t)).
+4. (F) maps sky brightness to complex Fourier visibility (V(u,v,t)).
+5. (A) applies the actual sampling, station gains/noise, time/frequency averaging, and calibration policy.
+6. (C) forms closure-phase and other declared readouts from the sampled complex visibilities.
 
-The H(s)H-specific ℰ and ℛ maps are not supplied. Therefore this dataset does not yet instantiate ℴ for H(s)H and cannot produce an H(s)H prediction or fit. The standard comparator must traverse the same measured uv sampling and use the same declared calibration/nuisance policy.
+The H(s)H-specific (J) and (RT) maps are not supplied. Therefore this dataset does not yet instantiate (mathcal O) for H(s)H and cannot produce an H(s)H prediction or fit. The standard comparator must traverse the same measured uv sampling and use the same declared calibration/nuisance policy.
 
 ### Existing Lean result reused, not expanded
 
