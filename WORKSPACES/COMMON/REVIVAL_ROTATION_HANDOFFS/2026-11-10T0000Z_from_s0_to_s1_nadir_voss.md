@@ -30,7 +30,7 @@ The current branch graph still reports 16 declared branches and 18 records; Tern
 
 ## Upkeep
 
-- FIE full-review date recorded: 2026-10-27; next due 2026-11-10. Current local date at run start was November 9, so the full six-page FIE text was pre-read but the formal rereview cadence was not reset. The 2026-11-08 RMS guideline remains compatible with FIE as conceptual foundation while denying universal information-retention or guaranteed-prediction claims.
+- FIE rereview completed at the 2026-11-10 nominal UTC date under the recorded date-based 14-day cadence. Prior full-review date recorded as 2026-10-27; exact prior time was not recovered. All six pages / 12,358 extracted characters were read and compared with the 2026-11-08 RMS guideline. Core 0th–2nd intuitions remain conceptual foundation; interaction/backreaction and later propositions remain hypotheses; no universal information-retention or guaranteed-prediction claim is promoted. Next review due 2026-11-24.
 - Unrelated reading: `TheTANGLE.txt`, lines 2091–2130. Next cursor 2131. Reading break only; no physical break claimed.
 - Paper gates unchanged: P0 active; P1 Orson-owned NOT READY; P2 HOLD; P3 separate/incomplete.
 - No physical calculation, CODATA scoring, theory promotion, public issue, task/ID/cadence change, new branch, new PR, signet, or chat rename.
@@ -43,4 +43,4 @@ The current branch graph still reports 16 declared branches and 18 records; Tern
 4. Define typed projections and compositions among (C^1), (W^2), (W^4_{core}), (Sigma^3), and observed traces before any theory or physical interpretation.
 5. The 4D Hodge-degree fact is standard, but no HsH Lean proof was added: Mathlib tag v4.34.0 lacks `Mathlib/LinearAlgebra/ExteriorPower/HodgeStar.lean`, and no local `lean`/`lake` executable is installed.
 6. Preserve PR #951 until Track B disposition; do not claim exact-head verification.
-7. Perform the formal FIE rereview on/after 2026-11-10 if still due.
+7. FIE rereview is complete; next date-based review is due 2026-11-24.
