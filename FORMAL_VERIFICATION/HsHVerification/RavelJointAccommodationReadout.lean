@@ -128,7 +128,74 @@ theorem timesheet_sensitive_readout_forbids_tube_only_reduction
       T S baseOf readout).mp hdesc
   exact different (hinv p q same)
 
+/-- Two joint states lie in the same sheet fiber when their
+labelled sheet representatives are exactly equal. -/
+def sameSheet (p q : JointState T S baseOf) : Prop :=
+  LabelledSlicePullback.toSheet T S baseOf p =
+    LabelledSlicePullback.toSheet T S baseOf q
+
+/-- Equivalence relation that forgets the tube representative while
+retaining the full labelled sheet representative. -/
+def sameSheetSetoid : Setoid (JointState T S baseOf) where
+  r := sameSheet T S baseOf
+  iseqv := ⟨
+    by intro p; rfl,
+    by intro p q h; exact h.symm,
+    by intro p q r hpq hqr; exact hpq.trans hqr
+  ⟩
+
+/-- Quotient of joint slice states by equality of their labelled sheet representative. -/
+abbrev SheetOnlyQuotient :=
+  Quot (sameSheetSetoid T S baseOf)
+
+/-- A readout descends to a sheet-only representation if it can be
+expressed as a deterministic function on the quotient that forgets
+the tube representative. -/
+def DescendsToSheetOnlyQuotient
+    (readout : JointState T S baseOf → Y) : Prop :=
+  ∃ g : SheetOnlyQuotient T S baseOf → Y,
+    ∀ p, g (Quot.mk (sameSheetSetoid T S baseOf) p) = readout p
+
+/-- Symmetric factorization criterion: a readout factors through the
+sheet-only quotient if and only if it is constant on every fiber of
+the joint-state-to-sheet projection. -/
+theorem readout_descends_iff_constant_on_same_sheet_fibers
+    (readout : JointState T S baseOf → Y) :
+    DescendsToSheetOnlyQuotient T S baseOf readout ↔
+      ∀ p q, sameSheet T S baseOf p q → readout p = readout q := by
+  letI : Setoid (JointState T S baseOf) := sameSheetSetoid T S baseOf
+  constructor
+  · rintro ⟨g, hg⟩ p q hpq
+    calc
+      readout p = g (Quot.mk (sameSheetSetoid T S baseOf) p) := (hg p).symm
+      _ = g (Quot.mk (sameSheetSetoid T S baseOf) q) := by
+        congr 1
+        exact Quot.sound hpq
+      _ = readout q := hg q
+  · intro h
+    refine ⟨Quot.lift readout ?_, ?_⟩
+    · intro p q hpq
+      exact h p q hpq
+    · intro p
+      rfl
+
+/-- If two tube representatives on the same labelled sheet yield
+different readouts, no deterministic sheet-only reduction can reproduce both. -/
+theorem tube_sensitive_readout_forbids_sheet_only_reduction
+    (readout : JointState T S baseOf → Y)
+    (p q : JointState T S baseOf)
+    (same : sameSheet T S baseOf p q)
+    (different : readout p ≠ readout q) :
+    ¬ DescendsToSheetOnlyQuotient T S baseOf readout := by
+  intro hdesc
+  have hinv :=
+    (readout_descends_iff_constant_on_same_sheet_fibers
+      T S baseOf readout).mp hdesc
+  exact different (hinv p q same)
+
 #print axioms readout_descends_iff_constant_on_same_tube_fibers
 #print axioms timesheet_sensitive_readout_forbids_tube_only_reduction
+#print axioms readout_descends_iff_constant_on_same_sheet_fibers
+#print axioms tube_sensitive_readout_forbids_sheet_only_reduction
 
 end HsHVerification.RavelJointAccommodationReadout
