@@ -706,3 +706,10 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 - P1 #564 remains OPEN / NOT READY. No model/human trial, API spend, manuscript/PDF/reader or paper-gate advancement. Original OV-49-OV-53 bank remains unrecovered.
 - Optional successor packet to Sable: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0924Z_from_s2_to_s3_sable.md`. It is late optional repository context only, with no response/review/ownership obligation.
 - Current :24 automation run remains recorded IN_PROGRESS with no authenticated chat_ref or completion. No task mutation or sixth task.
+
+
+## 2026-11-10T1010Z | h729:s2 scheduler readback amendment 01
+
+- Later readback: :24 run `a3258f52-5cf0-8330-90e9-9c221fbe91d0` remains IN_PROGRESS, `chat_ref=null`, no completion; latest cached result still belongs to Morrow h728:s2. Task-level conversation_id is not run-level authentication.
+- :36 latest visible run remains prior h728:s3 `8f5ba23c-d420-832d-b8d9-59131531bdab`, FAILED at 10:03:23Z with generic failure result. No h729:s3 Sable run visible at 10:10:42Z.
+- Scheduler amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1010Z_s2_orson_vay_AMENDMENT_01.md`. IDs, exact schedules, phases and enabled states unchanged; no retry, disable or sixth task.
