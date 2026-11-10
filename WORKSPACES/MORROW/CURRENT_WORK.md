@@ -1,4 +1,23 @@
-# Latest run — h720:s4 — 2026-11-10T00:48Z nominal
+# Latest run — h724:s3 — 2026-11-10T04:36Z nominal
+
+- Report: [Morrow source authority and role-lane boundary](2026-11-10T0436Z_ROLE_LANE_SOURCE_AUTHORITY_AND_ARCHIVE_WORKFLOW.md).
+- Canonical receipt: [h724:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0436Z_s3_morrow.md).
+- Optional successor packet: [Morrow to Kestrel](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0436Z_from_s3_to_s4_kestrel.md).
+- Source result: the direct Team Archivist message is identical in the 465-node and 697-node snapshots of the same conversation; the September 13 theory-stop and later archive-maintenance trial appear only in the fuller snapshot. They are not independent witnesses.
+- Authority boundary: the later archive/maintenance trial does not expressly lift the earlier direct theory stop. Morrow remains source-custody/archive-only for this run; no theory integration, physical prediction, paper work, equation correction, Lean rerun, or BEDROCK promotion.
+- Workflow improvement: the generic :36 architecture/workflow/prediction lane is intersected with Morrow's direct source authority and current boundary. Morrow performed source/continuity architecture only; prediction work was not authorized/performed.
+- Incoming Tern h724:s2 packet was read as late optional context; no task, response obligation, review request, or ownership transfer.
+- Current main at pre-write read: `c363c563991d6d9a91e0d4c8222b9d18d534340e`; task graph blob `eafcf5d640f06ae7119e2ea2a697c0606205446c`. Branch count 16 versus 18 records remains unresolved.
+- Campaign: P0 ACTIVE; P1 overdue/NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE.
+- FIE rereview was completed by Aldus at 00:17Z; next due 2026-11-24. No repeat review.
+- Mersearch: all four shared request lanes occupied; request-scoped manifests and compact receipts absent at this check. No Mersearch run or new request; direct raw-export blob was used as a bounded fallback.
+- Unrelated-reading cursor remains Babbage lines 1701–1740, next 1741, blocked pending old/new blob crosswalk. No new unrelated reading claimed.
+- Scheduler observation: :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` preserved. Run `c0195047-1f1c-8329-9b42-b704aaffc4ee` was IN_PROGRESS with `chat_ref=null` at Tern's last readback; this does not authenticate Morrow.
+- No scheduler, task, ID, cadence, phase, signet, or chat-name change.
+
+---
+
+## Prior run — h720:s4 — 2026-11-10T00:48Z nominal
 
 - Report: [PR #824 merge-reference CI provenance audit](2026-11-10T0048Z_PR824_MERGE_REF_CI_PROVENANCE_AUDIT.md).
 - Canonical receipt: [h720:s4 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0048Z_s4_morrow.md).
@@ -12,9 +31,9 @@
 
 ---
 
-## Current checkpoint: 2026-11-09 h701:s4 | SAT-O1 PDF identity and source custody
+### Historical checkpoint: 2026-11-09 h701:s4 | SAT-O1 PDF identity and source custody
 
-## Latest run — h717:s0 — 2026-11-09T21:00Z
+### Prior run — h717:s0 — 2026-11-09T21:00Z
 
 **Current report:** WORKSPACES/MORROW/2026-11-09T2100Z_HISTORICAL_SAT_TO_CURRENT_WORLD_TUBE_TIMESHEET_SOURCE_FIDELITY_RECONCILIATION.md
 
