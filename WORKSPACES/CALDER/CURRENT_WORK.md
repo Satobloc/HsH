@@ -63,3 +63,10 @@ The existing :24 task remains enabled:
 Preserve P0 and wait for a qualifying route/deployment trigger or explicit standdown. When a Mersearch lane is genuinely released and its completion is verified, recover original SAT-O/Blockwave sources first across the three permitted repositories. Preserve verbatim equations, source roles, immutable blob SHAs and first-extant dates; put any justified correction in a separate artifact. Only after a real measured system, raw data, acquisition provenance, units, calibration, covariance and independent holdout are available should the forward geometry/readout map, reverse reconstruction and independent observable prediction be compared.
 
 **Current state:** `P0 ACTIVE / LANE24 HOLD / FOUR MERSEARCH LANES OCCUPIED / PR1515 EXACT-HEAD LEAN SUCCESS / CODATA ISSUE1558 PUBLISHED / NO PHYSICAL PREDICTION / NO THEORY PROMOTION`.
+
+
+## Latest durable run record
+
+- h742:s2 report: `WORKSPACES/CALDER/2026-11-10T2224Z_P0_ROUTE_RECHECK_AND_LANE24_HOLD.md` (blob `a8e6d4bcedb93806023769bcd964dbf4a41ad6aa`).
+- Pre-write HsH main head: `e6e1daf3d6373962f2a543e3f2b6fc22d1888706`.
+- Canonical h742:s2 receipt and optional Hale handoff are the current run's remaining continuity records.
