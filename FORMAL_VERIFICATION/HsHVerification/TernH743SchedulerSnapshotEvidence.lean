@@ -265,6 +265,96 @@ theorem three_run_overlap_lower_bound :
     run36.startedUs < observationUs ∧
     observationUs - run36.startedUs = 24854583 := by decide
 
+/-! ## Addendum: later :24 snapshot and h743:s4 cross-section
+
+The later automation readback returned the same :24 task and run IDs but a
+different recorded `started_at`. The :48 lease was now the h743:s4 Kestrel
+occurrence. These remain formalizations of reported scheduler fields only.
+-/
+
+/-- Later :24 readback, same task/run/schedule/status, changed started_at. -/
+def run24Later : SchedulerSnapshot :=
+  { phase := 2
+    taskId := "6abda4c8eda88191bf23a6f2849e9a17"
+    enabled := true
+    scheduleMinute := 24
+    runId := "5721c93e-6810-832e-adcf-ce430ba7e3b7"
+    scheduledUs := us 23 24 0 0
+    startedUs := us 23 52 3 992301
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "cb7286dc-433c-8323-b174-d9431fa5a6a0"
+    chatRef := none
+    taskLastRunUs := us 22 37 31 603455
+    taskUpdatedUs := us 22 37 53 789210
+    nextRunUs := us 23 24 0 0 }
+
+/-- Current h743:s4 :48 occurrence, deterministically Kestrel. -/
+def run48H743 : SchedulerSnapshot :=
+  { phase := 4
+    taskId := "6aa6c3bc02b48191b8a91a30d2a155e0"
+    enabled := true
+    scheduleMinute := 48
+    runId := "420a2c92-21fc-8333-bdc3-a5b6f85473ff"
+    scheduledUs := us 23 48 0 0
+    startedUs := us 23 49 12 492639
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "1b06b14c-9e58-8328-b8a6-f5b291785bf9"
+    chatRef := none
+    taskLastRunUs := us 23 47 3 871119
+    taskUpdatedUs := us 23 47 26 472414
+    nextRunUs := us 23 48 0 0 }
+
+theorem h743_s4_sequence : 5 * 743 + 4 = 3719 := by decide
+
+theorem h743_s4_index : (5 * 743 + 4) % 19 = 14 := by decide
+
+theorem h743_s4_worker :
+    ringAt ((5 * 743 + 4) % 19) = some "Kestrel" := by native_decide
+
+theorem h743_s4_successor :
+    ringAt (((5 * 743 + 4) + 1) % 19) = some "Meridian" := by native_decide
+
+theorem h743_s2_same_run_and_schedule_across_readbacks :
+    run24.runId = run24Later.runId ∧
+    run24.taskId = run24Later.taskId ∧
+    run24.scheduledUs = run24Later.scheduledUs := by native_decide
+
+theorem h743_s2_started_at_field_changed :
+    run24Later.startedUs - run24.startedUs = 1649042587 := by decide
+
+theorem h743_s2_later_start_after_nominal :
+    run24Later.startedUs - run24Later.scheduledUs = 1683992301 := by decide
+
+theorem h743_s2_both_snapshots_in_progress :
+    run24.status = .inProgress ∧ run24Later.status = .inProgress := by decide
+
+theorem h743_s2_cached_result_still_prior :
+    run24.latestResultRunId = some "cb7286dc-433c-8323-b174-d9431fa5a6a0" ∧
+    run24Later.latestResultRunId = some "cb7286dc-433c-8323-b174-d9431fa5a6a0" ∧
+    run24.latestResultRunId ≠ some run24.runId := by native_decide
+
+theorem h743_s4_state_and_prior_cache :
+    run48H743.status = .inProgress ∧
+    run48H743.completedUs = none ∧
+    run48H743.chatRef = none ∧
+    run48H743.latestResultRunId ≠ some run48H743.runId := by native_decide
+
+theorem h743_s4_task_metadata_precedes_start :
+    run48H743.taskLastRunUs < run48H743.startedUs ∧
+    run48H743.taskUpdatedUs < run48H743.startedUs := by decide
+
+theorem h743_latest_s2_s3_s4_states :
+    run24Later.status = .inProgress ∧
+    run36.status = .inProgress ∧
+    run48H743.status = .inProgress := by decide
+
+#print axioms h743_s4_worker
+#print axioms h743_s2_same_run_and_schedule_across_readbacks
+#print axioms h743_s2_started_at_field_changed
+#print axioms h743_s4_state_and_prior_cache
+
 #print axioms h743_s2_worker
 #print axioms three_run_overlap_lower_bound
 #print axioms h742_s4_started_at_field_changed
