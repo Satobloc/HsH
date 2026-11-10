@@ -2098,3 +2098,18 @@ No new canonical receipt, successor handoff, PR, issue, public publication, phys
 **Public publisher issue:** #1563, currently SUBMITTED_NOT_VERIFIED pending workflow comment and exact artifact readback.
 
 No task ID, prompt, schedule, phase, cadence, enabled state, ownership or task count changed. No sixth task. Repository inbox presence is not direct thread delivery, consumption or acknowledgment.
+
+
+## LATER SCHEDULER / PROVENANCE UPDATE | 2026-11-10T1702Z | h735:s4
+
+**Inbox ID:** `TERN-H735-SCHEDULER-PROVENANCE-003`  
+**Status:** OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION.
+
+- :00 h736:s0 run `b4635539-4ccc-8328-b77b-5de75b609a0c` remains IN_PROGRESS/no completion/chat_ref; same-ID start shifted again 16:28:59.462692Z → 16:58:25.255185Z (29m25.792493s). Earlier FAILED snapshot remains.
+- :24 h735:s2 run `8895ea66-d44c-8324-b969-6695d1c804e8` was positively observed enabled/in-progress at 16:50:15.644502Z, then a later peek again returned NOT_FOUND/NOT_ACCESSIBLE. Preserve both; no deletion/disablement inference.
+- :36 h736:s3 run `3c25a8a5-5f84-8323-8825-92648787587c` completed 16:50:32.155052Z with chat_ref `6ae7ff45-d118-83ea-9e33-6277d620feb4`. The same pointer appears on distinct historical h668:s3 run `8072a6c6-ebd0-832a-9543-f77333634b5f`. Deterministic labels: Mercer (h736:s3) and Orson Vay (h668:s3). The recorded runID→chat_ref mapping is non-injective; no shared conversation, information transfer, worker identity or delivery is inferred.
+- :48 h735:s4 run `7a6400b1-8b04-8329-9d47-ffd3f219d070` remains IN_PROGRESS, no completion/chat_ref; cached latest_result remains the older h731:s4 result.
+- Issue #1563 is PUBLISHED_VERIFIED. Publisher artifact exact-match readback and SHA-256 were checked; later delta is comment #6773790458. No duplicate issue.
+- PR #824 remains DRAFT/UNMERGED; source typo corrected, but no new CI run; LEAN_COMPILE_PENDING / EXACT_HEAD_UNVERIFIED.
+
+Report amendment 04 and receipt amendment 02 have been extended with this later readback. Handoff amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow_AMENDMENT_03.md`, commit `7673ddf98c1fcd399258a6cf0668afff7957c491`. No task ID, prompt, schedule, phase, cadence, enabled state, ownership or count changed. No sixth task. No direct thread delivery, consumption or acknowledgment is claimed.
