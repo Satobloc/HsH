@@ -240,3 +240,14 @@ Actions run #42925403904 / job #130210603328 executed Lean 4.34.0 and Lake 5.0.0
 The module was corrected to use `relayRing[i]?` and `native_decide` for the five finite String-lookup theorems. Corrected module blob: `aad6d1f0d62048ee9efddc520ed9766bbe5fd7bc`. Corrected PR #1570 head: `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. No new Actions run/check-run had appeared at the 23:45Z readback.
 
 The workflow uses default pull-request merge-ref checkout, so any successful next run is a MERGE_REF_BUILD, not exact-head-only. No successful compilation is claimed; exact-head verification remains outstanding. See receipt Amendment 05, blob `9a156e4cc7783c5ddac6bd64fb37d97ea5beffb9`.
+
+
+## Addendum 05 | 2026-11-10T23:46Z | corrected Lean head queued for a new merge-ref run
+
+After the ring-lookup source fix, GitHub Actions created a new run for corrected branch head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`:
+
+- Actions run: #42925963389 (run number 1196).
+- Job: #130212376241.
+- State at last readback: IN_PROGRESS; checkout step running, Lake manifest and Lean build pending.
+
+The previous run #42925403904 remains FAILED on the superseded head `0dd960f4a279700799930934971ab8bbc7d6d33c`. It is not evidence for the corrected module. The new workflow still uses default pull-request merge-ref checkout; if successful, classify it as MERGE_REF_BUILD, not exact-head-only. No compilation success is claimed. Exact-head-only verification remains outstanding.
