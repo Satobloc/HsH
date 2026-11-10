@@ -195,3 +195,11 @@ This append-only index note supersedes the pending cleanup-head build status in 
 - Separate test and lint steps were skipped. This is formal verification of the encoded abstract map theorem only, not source-to-physics validation or an empirical result.
 - PR #1189 remains OPEN / DRAFT / UNMERGED. No code change, new PR, physical calculation, P2 selection, or theory promotion occurred.
 - This note is assistant-maintained continuity, not a Nadir-authored statement or authenticated worker participation.
+
+
+### 2026-11-10 h731:s3 scheduler observation update
+
+- Read-only scheduler amendment 03: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1241Z_h731_s3_nadir_voss_AMENDMENT_03.md`.
+- The h731:s3 :36 run remains IN_PROGRESS with no authenticated thread reference.
+- The h731:s4 :48 successor's same run ID changed from FAILED to IN_PROGRESS and its start time changed; attempt history and cause are unavailable. Tern retains scheduler reconciliation.
+- No late handoff, cross-thread delivery claim, or task/schedule mutation.
