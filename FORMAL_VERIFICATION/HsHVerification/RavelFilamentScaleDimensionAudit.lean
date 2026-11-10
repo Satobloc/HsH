@@ -184,7 +184,6 @@ theorem inverse_square_scaled_square_cancels
     (1 / g^2) * (g * k)^2 = k^2 := by
   have hg2 : g^2 ≠ 0 := pow_ne_zero 2 hg
   field_simp [hg2]
-  ring
 
 #print axioms inverse_square_scaled_square_cancels
 
