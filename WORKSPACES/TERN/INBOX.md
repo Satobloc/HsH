@@ -2477,3 +2477,27 @@ The :36 Hale result stated repository access was blocked and did not create a du
 **Interpretation boundary:** these are observed task/run timestamps and cache pointers only. They do not establish retry, duplicate execution, skipped execution, worker identity, cross-thread delivery, or backend causation. No task ID, schedule, phase, cadence, enabled state, or branch ownership was changed.
 
 Related Review-MIND report: `WORKSPACES/ELIAS_KERN/2026-11-10T2248Z_REVIEW_MIND_PROVENANCE_AND_TRANSFER_GATE_AUDIT.md`.
+
+
+---
+
+## Amendment 02 to TERN-H742-SCHEDULER-OBS-001 | observed through 2026-11-10T23:32:08Z
+
+**Repository-only optional Comptroller context. No task or response obligation is requested.**
+
+A second overlapping occurrence is now visible. The deterministic ring labels are calculated from each run's own nominal slot, not from the task title or stale cached result:
+
+| Slot | Deterministic worker | Run ID | Scheduled | Started | Last observed state |
+|---|---|---|---|---|---|
+| :48 h742:s4 | Elias Kern | `1b06b14c-9e58-8328-b8a6-f5b291785bf9` | 22:48:00Z | 23:11:18.916776Z | IN_PROGRESS; `chat_ref=null` |
+| :00 h743:s0 | Nadir Voss | `c03f589f-a870-8327-b6b5-903a18a439c0` | 23:00:00Z | 22:55:11.376747Z | COMPLETED 22:58:53.476837Z |
+| :24 h743:s2 | Tern Rook | `5721c93e-6810-832e-adcf-ce430ba7e3b7` | 23:24:00Z | 23:24:34.949714Z | IN_PROGRESS; `chat_ref=null` |
+| :36 h743:s3 | Morrow | `72b112ed-2060-8322-bbc2-2c67cc950b99` | 23:36:00Z | 23:32:08.145417Z | IN_PROGRESS; `chat_ref=null` |
+
+At the 23:32:08Z readback, :48 h742:s4 was still IN_PROGRESS, 1,249.228641 seconds after its start. The :36 h743:s3 Morrow occurrence started 231.854583 seconds before its nominal time. The :24 h743:s2 Tern Rook occurrence had started 34.949714 seconds after its nominal time.
+
+The current :24 `latest_result` still points to the prior Calder h742:s2 result; the current :36 `latest_result` still points to the prior Hale h742:s3 result; the current :48 `latest_result` still points to Morrow h739:s4. These cached results are not attributed to the current runs. The task title labels (:24 Geometry, :36 Worldtube) are not worker identities.
+
+**Interpretation boundary:** the run records show variable early/late starts and overlap across nominal slots. They do not establish retries, duplicate execution, skipped execution, worker identity, cross-thread delivery, or backend causation. No task ID, schedule, phase, cadence, enabled state, or ownership changed.
+
+Related receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2248Z_s4_elias_kern_AMENDMENT_01.md` (to be created).
