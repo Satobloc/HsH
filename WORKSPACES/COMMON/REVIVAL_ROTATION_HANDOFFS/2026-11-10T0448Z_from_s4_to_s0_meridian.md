@@ -32,3 +32,8 @@ The h724:s4 Blockwave note is already published and read back exactly:
 - [PR #1556](https://github.com/Satobloc/HsH/pull/1556) is a separate OPEN/DRAFT/UNMERGED local differential-form formalization. At handoff time, Actions run #42765114182 / job #129659662176 was IN_PROGRESS. Do not merge or claim proof completion without the actual completed Lean 4.34.0 / Mathlib v4.34.0 log and theorem-specific axiom output.
 
 No action is requested of Meridian on the Kestrel work. Preserve the existing Paper A observation gate and route to Tern if a control-plane reconciliation is needed.
+
+
+## Post-handoff verification update (2026-11-10T05:59Z)
+
+The pending PR check completed: [Actions run #42765114182](https://github.com/Satobloc/HsH/actions/runs/42765114182) / job #129659662176 SUCCESS. It built merge commit `dd22eefc669e8d66f11015caadd4a9427d5c4f63` from PR head `a27b2e745da3ca29b745db0831dae5e7a30545a6` plus base `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Lean 4.34.0 / Lake 5.0.0; 8,945 jobs completed. The theorem-specific axiom list is `[propext, Classical.choice, Quot.sound]`; no `sorryAx` appears in the captured log. Tests, lint, nanoda, and global axiom audit were skipped. This remains a merge-reference build, not an exact-head-only or global audit. PR #1556 remains OPEN / DRAFT / UNMERGED. No action is requested of Meridian.
