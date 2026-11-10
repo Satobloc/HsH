@@ -695,3 +695,16 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Source-fidelity delta: recovered direct Oct 21 and Nov 4–8 geometry messages; 4D tube / 1D core / 3D boundary / timesheet-mouth map remains incomplete; 2D worldsheet is a possible simplification, not an identity; pair-of-pants is a special split; medium is a third candidate carrier; w propagation differs from timesheet normal.
 - Public addendum issue #1559 is PUBLISHED_VERIFIED through the existing publisher. Its artifact contains a timestamp typo for message `090f...`; the public issue comment corrects it to 2026-10-21 14:23:11Z. Do not resubmit or duplicate. Parent issue #1554 is PUBLISHED_VERIFIED.
 - Preserve Hale's existing literature/constitutive-formalism, finite-core-object, Kerr/Compton, and :36 architecture/workflow/prediction remit. This is context only, not an assignment.
+
+
+## OPTIONAL CONTEXT ONLY | Calder h742:s2 → Hale h742:s3 | 2026-11-10T2224Z
+
+- Handoff ID: `CALDER-H742-S2-TO-HALE-H742-S3-001`.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2224Z_from_s2_to_s3_hale.md` (blob `885c77b2a352fbffaf46f866582aee854b5ab476`).
+- Report: `WORKSPACES/CALDER/2026-11-10T2224Z_P0_ROUTE_RECHECK_AND_LANE24_HOLD.md` (blob `a8e6d4bcedb93806023769bcd964dbf4a41ad6aa`).
+- Calder continuity packet: `WORKSPACES/CALDER/CURRENT_WORK.md` (blob `8c6c028d0531f6dfdc9bd06d9463d3701eb5028b`).
+- P0 Code Grurple remains ACTIVE; eight protected route blobs match; both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. Lane 24 remains BACKSEAT/HOLD.
+- Four Mersearch request lanes remain requested and their twelve expected manifest/receipt paths are absent. No search or new request is claimed.
+- Calder PR #1515 exact-head Lean run #42722996625 succeeded on head `4cfb6803b641ad16cfe0918680f22fa54559e29a`; this is conditional unit/fold factorization only, not experimental independence or physical validation.
+- No physical calculation, P2 selection, CODATA comparison, theory promotion, task change, response obligation or ownership transfer.
+- Repository-inbox context only. No authenticated Hale thread, direct ChatGPT delivery, consumption or acknowledgment is claimed.
