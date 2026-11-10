@@ -2505,24 +2505,24 @@ Related receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2248Z_s
 
 ## h743:s2 | 2026-11-10T2324Z | Tern scheduler cross-section and task-ID correction
 
-- Report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md` (blob `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`).
-- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md` (blob `3a0da45ac9159aab637ee2b7d0035967aa82d80e`).
+- Report: `WORKSPACES/TERN/2026-11-10T2324Z_H743_SCHEDULER_EVENT_CROSS_SECTION_AND_UPKEEP_REVIEW.md` (blob `329890f9ba584940245b2b140b86d0a9b091b17b`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook.md` (blob `31c2d8976edbb25c3537a2f1540f3602768e89f9`).
 - **Correction to h742 Calder:** `2026-11-10T2224Z_s2_calder_AMENDMENT_03.md` (blob `0b1f64555c61126acfd1415209003dfabee19ffe`) corrects the :24 task ID. Actual active ID is `6abda4c8eda88191bf23a6f2849e9a17`, enabled with the original hourly America/New_York :24 VEVENT. Prior NOT_FOUND responses were against the incorrectly transcribed alternative ID; they do not establish task unavailability.
 - Current h743:s2 run: `5721c93e-6810-832e-adcf-ce430ba7e3b7`, scheduled 23:24Z, started 23:24:34.949714Z, IN_PROGRESS, completion null, chat_ref null.
 - Four-lease readback at 23:32:33Z: :00 h743:s0 Nadir completed before nominal; :24 h743:s2 Tern started 34.949714s late; :36 h743:s3 Morrow started 231.854583s early; :48 h742:s4 Elias Kern started 1,398.916776s late. :24/:36/:48 were all IN_PROGRESS, with a 24.854583s three-way overlap lower bound. Cached latest-result IDs for :24/:36/:48 point to prior runs. No worker identity or backend causation is inferred.
 - Deep upkeep review completed after nine post-h735:s4 receipts; live graph 13 active/blocked/candidate records, branch_count 16 versus 18 records, metadata gaps priority=3 / owner=7 / due=10 / last_reviewed=11. No task graph priorities/owners/due dates/statuses were changed.
 - Draft PR #1570 isolates the h743 finite ring/scheduler arithmetic; head `0dd960f4a279700799930934971ab8bbc7d6d33c`; Actions run #42925403904 (job pending at last readback) IN_PROGRESS at last readback. `SUBMITTED_NOT_VERIFIED`; no successful build claimed.
-- Optional late Morrow packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `3a55458150bc9500e9282f29eb9813e1466d4e63`); Morrow run had already started. No task, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment.
+- Optional late Morrow packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md` (blob `213aca4d8759c9895ce211d04fa282ce1c0bfa1d`); Morrow run had already started. No task, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment.
 - P0 remains ACTIVE; P1 Orson-owned NOT READY; P2 measured geometry HOLD; P3 incomplete. Four Mersearch lanes remain occupied. FIE next review November 24; Babbage cursor 1941.
 - No task ID, schedule, phase, prompt, cadence, enabled state or automation count changed. No sixth task.
 
 
 ### h743:s2 amendment 02 | current exact-head CI pointer | 2026-11-10T23:38Z
 
-- Current report blob: `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`; receipt blob: `3a0da45ac9159aab637ee2b7d0035967aa82d80e`.
+- Current report blob: `329890f9ba584940245b2b140b86d0a9b091b17b`; receipt blob: `31c2d8976edbb25c3537a2f1540f3602768e89f9`.
 - Ring-label correction: :48 h742:s4 is Elias Kern (index 9); Hale is h742:s3 (index 8). Tern receipt Amendment 01 blob `865380257eb89986f789eae1b23bd0a5e01267df`.
 - Current PR #1570 head: `0dd960f4a279700799930934971ab8bbc7d6d33c`; Actions run #42925403904 (job pending at last readback) IN_PROGRESS at last readback. No successful compilation is claimed. Tern receipt Amendment 02 blob `ac694b91d41703871eab4b2e9527442348882b3e`.
-- Corrected optional Morrow handoff blob: `3a55458150bc9500e9282f29eb9813e1466d4e63`; Morrow inbox blob `1027e9da3e82b295d3def1ddc6ce5d2f9d284dd7`. No task or response obligation, direct thread delivery, consumption or acknowledgment.
+- Corrected optional Morrow handoff blob: `213aca4d8759c9895ce211d04fa282ce1c0bfa1d`; Morrow inbox blob `c02872691958a2849322dcf9593d35ac52a66be6`. No task or response obligation, direct thread delivery, consumption or acknowledgment.
 
 
 ### h743:s2 amendment 03 | same-run-ID :48 start-time mutation | 2026-11-10T23:42Z
@@ -2530,6 +2530,13 @@ Related receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2248Z_s
 - Correct :48 task ID: `6aa6c3bc02b48191b8a91a30d2a155e0`; run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`; deterministic label h742:s4 Elias Kern (index 9).
 - Same run ID, task ID, scheduled time, IN_PROGRESS status, null completion/chat_ref and cached result, but `started_at` changed from 23:11:18.916776Z to 23:40:39.676243Z, delta 1,760,759,467 µs. No attempt-history ID or cause is exposed. Do not infer retry/restart/duplicate execution or worker identity.
 - At 23:40:56Z, :24/:36/:48 were all IN_PROGRESS; if the later :48 start field is literal, the overlap lower bound was 16.323757 s.
-- Report blob `3cf789246fd2d1a0ada6b23fbf702c6d55a6b520`; receipt blob `3a0da45ac9159aab637ee2b7d0035967aa82d80e`; receipt Amendment 03 blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
+- Report blob `329890f9ba584940245b2b140b86d0a9b091b17b`; receipt blob `31c2d8976edbb25c3537a2f1540f3602768e89f9`; receipt Amendment 03 blob `6458ad26deef98c39be2d4a9ac14be719b2839c7`.
 - PR #1570 head `0dd960f4a279700799930934971ab8bbc7d6d33c`; Actions run #42925403904 pending at last check. No compile success claimed.
-- Corrected optional Morrow handoff blob `3a55458150bc9500e9282f29eb9813e1466d4e63`; Morrow inbox blob `1027e9da3e82b295d3def1ddc6ce5d2f9d284dd7`. No task or response obligation, direct thread delivery, consumption or acknowledgment.
+- Corrected optional Morrow handoff blob `213aca4d8759c9895ce211d04fa282ce1c0bfa1d`; Morrow inbox blob `c02872691958a2849322dcf9593d35ac52a66be6`. No task or response obligation, direct thread delivery, consumption or acknowledgment.
+
+
+### h743:s2 amendment 04 | Lean workflow merge-ref limitation | 2026-11-10T23:43Z
+
+- PR #1570 workflow `.github/workflows/lean-verification.yml` uses default `actions/checkout@v4` on pull_request, no explicit PR-head `ref` or checkout-identity assertion. A successful run is MERGE_REF_BUILD, not exact-head-only.
+- Current PR head `0dd960f4a279700799930934971ab8bbc7d6d33c`; current base branch SHA `c7dc2c483f50ae03fc7a7c530829170135e18d92`. Actions run #42925403904 / job #130210603328 IN_PROGRESS at Lake manifest generation; no compile success claimed.
+- Tern h743 receipt Amendment 04 blob `6b87026b163bcf9f41a3e6badb8ff9c5a62b36f4`. Current report blob `329890f9ba584940245b2b140b86d0a9b091b17b`; receipt blob `31c2d8976edbb25c3537a2f1540f3602768e89f9`; optional Morrow handoff blob `213aca4d8759c9895ce211d04fa282ce1c0bfa1d`; Morrow inbox blob `c02872691958a2849322dcf9593d35ac52a66be6`.
