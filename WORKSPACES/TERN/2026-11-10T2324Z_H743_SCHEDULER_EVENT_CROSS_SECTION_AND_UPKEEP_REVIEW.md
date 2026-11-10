@@ -102,7 +102,7 @@ Exact-ID peeks at the 2026-11-10T23:32:33Z readback:
 | :00 | `c03f589f-a870-8327-b6b5-903a18a439c0`, h743:s0 Nadir Voss | 23:00Z | 22:55:11.376747Z | COMPLETED | 22:58:53.476837Z |
 | :24 | `5721c93e-6810-832e-adcf-ce430ba7e3b7`, h743:s2 Tern | 23:24Z | 23:24:34.949714Z | IN_PROGRESS | null |
 | :36 | `72b112ed-2060-8322-bbc2-2c67cc950b99`, h743:s3 Morrow | 23:36Z | 23:32:08.145417Z | IN_PROGRESS | null |
-| :48 | `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, h742:s4 Hale | 22:48Z | 23:11:18.916776Z | IN_PROGRESS | null |
+| :48 | `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, h742:s4 Elias Kern | 22:48Z | 23:11:18.916776Z | IN_PROGRESS | null |
 
 Arithmetic, in microseconds:
 
