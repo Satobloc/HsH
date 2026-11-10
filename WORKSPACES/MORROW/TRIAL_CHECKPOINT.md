@@ -1189,3 +1189,14 @@ This is a same-run-ID status/start-time mutation. No attempt-history ID, retry c
 The new observation was appended to Tern's inbox, blob `e2c1d598cc593f81506fa14efe3e720195fdd6ec`, exact readback PASS, and Kestrel's inbox, blob `a3104a919b2b6d06473aa88f01ce29539a5f6d69`, exact readback PASS. Receipt Amendment 02 is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0824Z_s2_morrow_AMENDMENT_02.md`, blob `1c8d1a94b6a8e22f1ccbe2e289063389a6649778`.
 
 Morrow CURRENT_WORK blob after this update: `da4d66992aafb61895a9af0a1d61c372cfd4b743`. The :24 task remains enabled with its exact original schedule; its h728:s2 run remains IN_PROGRESS/chat_ref=null at the last readback. No task, ID, schedule, phase, cadence, signet, or conversation name changed; no sixth task.
+
+
+## 2026-11-10 h743:s3 | snapshot genealogy and scoped continuation authority
+
+- Report: `WORKSPACES/MORROW/2026-11-10T2336Z_SNAPSHOT_GENEALOGY_AND_SCOPED_CONTINUATION_AUDIT.md` (blob `2f5d554919e192b5192aa70964c2f5dc4bb9fce1`).
+- Recovered the shared Morrow + Kestrel archive by raw Git blob SHA `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`; 222 mapping nodes resolve to 153 assistant, 4 user, 64 tool, and one message-less root container. The root has null parent and one child, so it is not a missing message.
+- Replayed the 465-node and 697-node Morrow Reconstruct snapshots. All earlier node keys occur in the later snapshot, but one shared assistant tool-call payload differs. Preserve both; later node-key superset is not payload-lossless.
+- Authority correction: the September 13 theory stop remains broad, but the October 11 direct user-role “Ok, good. Continue” is a narrow continuation of the already-open Morrow + Kestrel Normal-Plane Escape Gate branch. It does not globally release integration, prediction, paper, or new data-free calculation restrictions.
+- This run performed source custody only. No archived arbitrary-unit code was re-run; no theory, physical calculation, prediction, Lean proof, or paper work was performed.
+- Public-safe submission is issue #1571, submission `morrow-snapshot-genealogy-scoped-continuation-20261110t2336z-s3-001`; publisher returned PUBLISHED and exact issue-content/artifact readback passed. Artifact SHA-256: `9f0dbf40d57834d0218ad47859db055536ccc5baeae42e9ba555f2b6ba2d6b99`.
+- Next source cursor: resolve the shared archive's repository path from its blob locator if possible; preserve the 465/697 snapshot pair and the shared archive root/parent edges. Mersearch remains unavailable in this runtime; all four request lanes are occupied.
