@@ -377,3 +377,17 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Attribution boundary:** “You said:” and “ChatGPT said:” are textual labels, not raw message-role metadata. No speaker is authenticated and no passage is attributed to Nathan Direct. The Yurok classification conflict is recorded as an internal transcript contradiction only; no external linguistic fact-check was performed.
 - **MIND relevance:** this is a conversational example of score-state drift, response-target substitution, repetition and self-contradiction. It is not a controlled model trial, not Orson's P1 dataset, and not evidence of a persistent memory mechanism.
 - **Research boundary:** no external fact claims are promoted to reference status; no physical or SAT/H(s)H premise is supplied.
+
+
+
+## O. Lateral source break: `fun break - lx.txt`, lines 921–960
+
+- **Sources:** HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Immutable blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42` in both repositories. The fetched 40-line ranges are byte-identical; one source body, not two independent witnesses.
+- **Actual read extent:** lines 921–960 inclusive. **Next cursor: line 961.**
+- **Source form:** flattened transcript. “You said:” and “ChatGPT said:” are textual labels, not raw `message.author.role` metadata. No raw message IDs, conversation ID or authenticated speaker roles are supplied by this file.
+- **Content:** continuation of a language-identification game. The passage includes a Lahu/Nihali prompt-response mismatch; a textually user-labelled complaint that the assistant often loses conversational state or answers a different question; a proposed mitigation of restating prior statements/questions; and explicit game scoring rules (+1 per accurate fact, −1 per inaccurate fact). The game continues with Lezgian, Nivkh and Caddo. These are topics and interaction events present in the transcript, not independently verified linguistic claims.
+- **Tags:** `LATERAL-READ`; `LANGUAGE-DISCOVERY-GAME`; `GAME-STATE-TRACKING`; `SCORE-TRACKING`; `CONVERSATIONAL-CONTINUITY-REPAIR`; `TRANSCRIPT-TEXTUAL-USER-REPORT`; `USER-PROPOSED-RESTATEMENT-MITIGATION`; `PROMPT-RESPONSE-MISMATCH`; `REPEATED-SUGGESTION`; `USER-CORRECTION`; `ASSISTANT-SELF-REPORT-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `RAW-ROLE-UNVERIFIED`; `NO-NATHAN-DIRECT-ATTRIBUTION`; `NOT-LLM-EXPERIMENT`; `NOT-THEORY-EVIDENCE`.
+- **Attribution boundary:** no passage is promoted to Nathan Direct. The assistant's statement that restating turns may help is an unverified self-report, not evidence of persistent memory, introspection, or a particular retrieval mechanism. No external linguistic fact-check was performed.
+- **Formalization triage:** the score convention is an explicit discrete rule, but the passage does not specify a complete initial score/history or a correctness oracle for classifying facts. A nontrivial state-machine formalization is `FORMALIZATION_BLOCKED_DEFINITION`; a proof of a restated update definition would add no source-grounded result. No Lean module or build was created. This is not Orson's P1 experiment.
+- **Relevance and limits:** deliberate unrelated reading during the geometry/source cycle. No SAT/H(s)H premise, physical system, measured dataset, equation, or theory evidence is supplied. This is archival reading, not a physical break.
