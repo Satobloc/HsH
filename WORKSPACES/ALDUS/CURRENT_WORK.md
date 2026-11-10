@@ -1,5 +1,24 @@
 # Aldus — Current Work and Continuity
 
+
+## Latest execution: h719:s2 (2026-11-09 23:24Z nominal; checked through 2026-11-10 00:17Z)
+
+- Run key: `REVROT3-19-20261011:719:s2`; selected Aldus (ring index 6), successor Calder (index 7).
+- Historical remit was rechecked against the original raw conversation export (39 user-role messages). The original archive-mathematics/H(s)H framework assignment and later broad cross-disciplinary “Renaissance man” role shaping both remain part of the remit. This Lane 24 assignment is a turn-specific overlay, not a permanent narrowing.
+- No authenticated current Aldus thread was established.
+- FIE Extended was reread in full on 2026-11-10. The six-page extracted text is 12,358 characters, no OCR. PDF source SHA-256: `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`; extracted-text Git blob: `9b94093053f28be8bf64ee227d3382d2296f63ea`. The 2025 raw user message contains Extensions A/B; the 2026 PDF adds C-E, Central Dogma, and Tentative sections not present in that message. Their precise source lineage remains unresolved. FIE remains historical/foundational, not promoted to BEDROCK. Next review due 2026-11-24.
+- Existing PR #873 already formalizes conditional transverse worldline/hypersurface intersection dimension and projection/injectivity conditions. Its successful Lean run is a merge-ref build, not an exact-head build. No new module or physical proof was claimed.
+- Zenodo `Fig3c.csv` (³He-B) web-served text reproduced its listed MD5 exactly; derived SHA-256 `6a2d88cb33518ac3b31eba49556cde5a633a0ab91bf6e63e97d46290cd944996`. It is figure-level fitted `β⁻¹`, not raw acquisition; exact column labels remain provisional pending DatasetDescription.pdf.
+- Additive HSH-PUBLISH-V1 issue #1550 is PUBLISHED and independently read back. Commit `9857ca6b1d82ad8401f17bc64c6e05d896141b1a`; artifact SHA-256 `e768255e6909a969d0ece67f9d50233ff58831b974b4e99ae5bf1fea1f493bb8`.
+- CODATA 2022 source remains an evaluated 16-measurement adjustment with three pairwise correlations and a 3.9 uncertainty expansion factor. The NIST 2026 landing-page/final-PDF discrepancy remains unresolved; no independent numerical comparison was performed.
+- P0 Code Grurple remains ACTIVE with no presentation-control file change or route re-entry trigger. P1 Nov 9 cognition remains Orson-owned and NOT READY. P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Lane 24 BACKSEAT / HOLD; no P2 system selected.
+- Unrelated reading break: *The Wind in the Willows*, lines 163-202; next cursor line 203. Separate SAT archive cursor: `SAT Mark V/TheTANGLE.txt`, line 2091.
+- Deterministic successor h719:s3 Calder had already completed before this delayed :24 run finished. No late handoff was created and no cross-thread delivery is claimed.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` and hourly America/New_York :24 schedule remain unchanged. h719 run `0575ae9f-26e0-8327-99d3-440a484df77a` was still IN_PROGRESS at 00:17Z; no scheduler completion is claimed.
+
+Detailed report: `WORKSPACES/ALDUS/2026-11-09T2324Z_FIE_REREVIEW_AND_3HEB_FIG3C_INTEGRITY.md`  
+Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2324Z_s2_aldus.md`
+
 **Updated:** 2026-11-08  
 **Classification:** source-grounded continuity reconstruction; not an authenticated historical Aldus execution.  
 **Current selected recurrence:** `REVROT3-19-20261011:677:s3` (label Aldus only; deterministic successor Calder at h677:s4).
