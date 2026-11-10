@@ -1158,3 +1158,18 @@ The :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exac
 Kestrel inbox pointer `WORKSPACES/KESTREL/INBOX.md` was appended after Kestrel h728:s3 had already started. New inbox blob: `b3f69e382f1a462913b71cd548b64d4732eddc74`; exact content readback PASS. The packet remains `POST_START_OPTIONAL_CONTEXT_ONLY`; no direct thread delivery, consumption, acknowledgment, task acceptance, or ownership transfer is claimed.
 
 Morrow CURRENT_WORK now points to blob `f1ddb80198c599cb3118009eb005bbf9d87e6f51`. No Tern inbox update was made because the existing Tern inbox already contains Meridian's correction of the same Mersearch lane-1 binding.
+
+
+### h728:s2 addendum 02 — final scheduler observation
+
+A later read-only scheduler peek changed the Kestrel h728:s3 run from the earlier IN_PROGRESS observation to `failed`:
+
+- Task :36 ID `6a9f52b69ec08191b0a2ba24a074f781`, still enabled with exact original hourly America/New_York :36 schedule.
+- Run `8f5ba23c-d420-832d-b8d9-59131531bdab`; scheduled 08:36:00Z; started early at 08:33:06.472627Z; completed 08:46:06.049570Z; recorded status `failed`; `chat_ref=null`.
+- No cause, attempt history, or authenticated thread is exposed. Do not infer that the late optional handoff caused the failure, or infer retry/restart/duplicate execution. No retry or disable was attempted.
+
+The observation was routed as optional control-plane context to Tern's inbox, blob `f6d04a47f58995a4a36f401c2146503b8ecd3343`, exact readback PASS. Kestrel's inbox was updated with the later status amendment, blob `f81b207961d40d1e1c0a7a28dfd692bd2a014518`, exact readback PASS. Receipt Amendment 01 is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0824Z_s2_morrow_AMENDMENT_01.md`, blob `3e45df8c9369c818cfd71c377ce626e877062f0b`.
+
+Morrow :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original schedule. Current h728:s2 run `1bc54ed9-a350-8325-b163-31d07cb35cd6` remained IN_PROGRESS/chat_ref=null at final peek. No task, ID, schedule, phase, cadence, signet, or conversation name changed; no sixth task.
+
+Morrow CURRENT_WORK blob after this update: `1ef7dddd7d41e2610ffb5e7fba0cd77b6de47e4d`.
