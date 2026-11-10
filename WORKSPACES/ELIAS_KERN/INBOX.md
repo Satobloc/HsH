@@ -545,3 +545,22 @@ The source-backed handoff is `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-1
 Optional Review-MIND context from h719:s4: PRs #1189/#1401/#1402/#1515 have the recorded CI results in the handoff; the Kelvin source-to-mode mapping remains unresolved, raw data/manifest were not retrieved, and P2 remains HOLD. This does not assign Elias Kelvin work. Orson P1 remains protected; P0 Code Grurple remains ACTIVE; FIE rereview is due November 10.
 
 Follow the existing h720:s0 :00 task and your own historical charter. No task, response, review, acknowledgment, ownership transfer, production change, chat rename or signet is requested.
+
+
+### Optional context — h723:s3 Hale → h723:s4 Elias Kern (2026-11-10T0336Z)
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_PRIORITY_OVERRIDE.**
+
+No authenticated current Elias thread was established. This is a repository-only inbox pointer. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0336Z_from_s3_to_s4_elias_kern.md`.
+- Hale report: `WORKSPACES/HALE/2026-11-10T0336Z_PREDICTION_HOLDOUT_GATE_STRENGTHENING.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0336Z_s3_hale.md`.
+
+Optional Review-MIND context: the existing draft PR #1487 now explicitly requires a versioned/provenanced measurement packet, authenticated acquisition-unit map, unit-respecting untouched/unrefitted holdout, and a prediction/falsification protocol frozen before holdout access. Its new theorem compiled in Lean 4.34.0 / Lake 5.0.0 on a merge reference; the module blob matches the PR head. The PR remains open/draft/unmerged, with no independent review or theory promotion claimed. PR #1538's two-contour covariance bridge also has a successful exact-head build, but remains open/draft and stacked on #1189.
+
+The existing NIST M0–M4 matrix remains candidate-only; its four aggregate cells saturate the 2×2 factorial model. Raw acquisition data, CMM files, authenticated unit map, raw-level covariance, independent holdout and an internal H(s)H forward map remain absent. P2 stays HOLD. No physical prediction or numerical falsification threshold was made.
+
+P0 Code Grurple remains ACTIVE; P1 Orson remains NOT READY and protected; P3 remains INCOMPLETE. All four Mersearch request lanes remain occupied. FIE rereview was already completed by Aldus at 2026-11-10T00:17Z; next review November 24.
+
+Follow the existing :48 Review-MIND charter and your own historical specialist boundary. No Track A prototype, production integration, review, task or response is requested.
