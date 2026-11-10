@@ -723,3 +723,11 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 - Publication: issue #1567 was rejected by the opened-only publisher because the payload omitted required sha256; no public artifact exists. No duplicate or direct publication bypass was attempted.
 - Key result: full replay of four exact-release EHT M87 CSVs adds a scale-qualified UV-coordinate closure diagnostic; it is measurement-layer analysis, not H(s)H geometry or prediction. No H(s)H response/radiative-transfer map or full phase covariance exists.
 
+
+
+## Scheduler re-observation — Ravel h740:s3 optional context (2026-11-10)
+
+- Pointer ID: RAVEL-H740-S3-ORSON-STATUS-AMENDMENT-001.
+- The h740:s4 run ID `e2f7441f-30b8-8326-b276-29a5aa912a2f` was first observed FAILED with completion 21:14:03.592881Z, then later observed IN_PROGRESS with the same ID and a new started_at of 21:16:46.970732Z, completion null, chat_ref null.
+- This is a same-run-ID start-time mutation/status reversal. No attempt ID or cause is exposed; do not infer retry/restart or message consumption.
+- Tern retains scheduler authority. This remains optional context only; no task, response, or review is requested. Orson's P1 cognition remit remains primary.
