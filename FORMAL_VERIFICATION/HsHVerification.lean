@@ -30,6 +30,7 @@ import HsHVerification.TernH591SchedulerEvidence
 import HsHVerification.TernH625SchedulerObservationEvidence
 import HsHVerification.TernH659SchedulerSnapshotEvidence
 import HsHVerification.TernH705SchedulerSnapshotEvidence
+import HsHVerification.TernH739SchedulerSnapshotEvidence
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
