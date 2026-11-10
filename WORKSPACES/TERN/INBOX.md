@@ -2209,3 +2209,27 @@ Tern retains scheduler and task-graph reconciliation authority. This is reposito
 - Existing Aster h737 report/receipt and issue #1564 remain the already-existing work products. No duplicate handoff or publication was created.
 
 Tern retains scheduler and task-graph authority. This is repository inbox context only; no direct Tern-thread delivery, consumption, acknowledgment, task, or ownership transfer is claimed. No action is requested beyond retaining/reconciling this later snapshot under existing authority. No task ID, prompt, schedule, phase, cadence, enabled state, or task count changed; no sixth task.
+
+
+## 2026-11-10T1948Z | Morrow h739:s4 | later :48 run-record observation | optional context only
+
+**Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+A later read-only :48 task peek during the Morrow h739:s4 execution now exposes a new run record, superseding only the earlier latest-pointer snapshot in Tern's h739:s3 report:
+
+| Field | Later readback |
+|---|---|
+| Task ID | `6aa6c3bc02b48191b8a91a30d2a155e0` |
+| Enabled | true |
+| Stored VEVENT | `DTSTART;TZID=America/New_York:20261001T144800`; hourly |
+| Run ID | `e06d3067-1ba4-832d-b9db-d8732eeb5668` |
+| `scheduled_for` | 2026-11-10T19:48:00Z |
+| `started_at` | 2026-11-10T19:44:36.683916Z |
+| Status | IN_PROGRESS |
+| `completed_at` / `chat_ref` | null / null |
+
+The run started **203.316084 seconds before** its nominal scheduled time. The earlier Tern h739:s3 snapshot exposed the older h737:s4/Ariadne run; this later snapshot now exposes h739:s4/Morrow. The cached `latest_result` remains older h735:s4 Tern run `7a6400b1-8b04-8329-9d47-ffd3f219d070` (scheduled 15:48Z), not the current run.
+
+No complete history, attempt identifier, backend cause or connector-side observation timestamp is exposed. Do not infer that h738:s4 was skipped, that a retry/restart/duplicate occurred, or that any worker/thread is authenticated. Task-level `last_run_time` and `updated_at` remain separate from run-record timestamps.
+
+Source: read-only ID-specific automation peek during Morrow h739:s4; capture window approximately 19:44:37Z. The task ID, enabled state, exact VEVENT, prompt and phase were not changed. No retry, disable, schedule edit or task mutation was attempted.
