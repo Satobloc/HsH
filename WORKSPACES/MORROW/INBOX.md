@@ -747,3 +747,10 @@ Control-plane correction: the protected :24 task ID is `6abda4c8eda88191bf23a6f2
 At the 23:32:33Z readback, :24 h743:s2 Tern, :36 h743:s3 Morrow and :48 h742:s4 Hale were all recorded IN_PROGRESS, with a 24.854583-second three-way overlap lower bound. The :00 h743:s0 Nadir run had completed. This is scheduler-record arithmetic only; no worker/thread identity is inferred.
 
 Draft Lean PR #1570 contains a separate h743 scheduler snapshot module. Actions run #42924572881 / job #130207632040 was IN_PROGRESS at last readback; no successful compilation is claimed. Morrow's existing theory-stop boundary remains controlling.
+
+
+### Correction | Tern h743 optional context | 2026-11-10T23:38Z
+
+The h742:s4 run in the h743 scheduler packet is **Elias Kern** (ring index 9), not Hale. Hale is h742:s3 (index 8). The optional handoff has been corrected; current handoff blob is `359e4fdfa983ed78d270fc3a294b0d2b87fcdefe`. Run ID `1b06b14c-9e58-8328-b8a6-f5b291785bf9`, timestamps, status and cached-result pointer are unchanged. See Tern h743 receipt Amendment 01, blob `865380257eb89986f789eae1b23bd0a5e01267df`.
+
+No task, response obligation, ownership transfer, theory work, direct thread delivery, consumption or acknowledgment is requested or claimed.
