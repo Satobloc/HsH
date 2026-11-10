@@ -662,3 +662,6 @@ A final read-only peek preserved same-run status/start reversals and a stored-sc
 - Stored DTSTART clock times 14:36/14:48/14:00 America/New_York correspond on Nov 10 to 19:36/19:48/19:00Z, while scheduler metadata reports 13:36/13:48/14:00Z. This mismatch is preserved, not repaired. Ring h733 used the explicit nominal UTC scheduled_for field.
 
 No attempt IDs, retry counters, event logs, or causes are exposed. Do not infer retry, restart, duplicate execution, or worker identity. Tern inbox `TERN-H733-SCHEDULER-OBS-004` records the same observation. No task or VEVENT changed.
+
+
+Receipt amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom_AMENDMENT_01.md`, commit `b9ba8490fcca8598bee8c1371a73b17dd5e03c14`, blob `e189789cbb291930da73c9318fdd2c1cf535909a`; exact readback PASS.
