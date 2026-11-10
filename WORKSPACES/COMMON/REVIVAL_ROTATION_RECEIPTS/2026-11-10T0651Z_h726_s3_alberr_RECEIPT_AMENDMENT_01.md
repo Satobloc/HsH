@@ -4,9 +4,9 @@ This is a time-stamped status amendment to the immutable canonical receipt `2026
 
 ## Post-intake scheduler readback
 
-- The h726:s2 Ariadne :24 run `a5367d4f-36bc-8323-a249-222f1b6682b5` transitioned from `IN_PROGRESS` at intake to `FAILED` at `2026-11-10T06:51:00.401046Z`; `chat_ref=null`. The expected h726:s2 receipt and s2-to-s3 handoff remain absent. Failure cause is not exposed by the scheduler readback. Do not infer worker refusal, missed check-in, or any content from the stale h725:s2 Ravel latest-result cache.
-- The existing :48 task remains enabled with its original hourly America/New_York :48 schedule. Its latest recorded run is still h724:s4 Kestrel, scheduled 04:48Z and completed 06:03:44.618606Z with a Kestrel chat reference. No h726:s4 Mira run is recorded in the scheduler readback at this observation. Do not infer that the task is disabled or change its schedule.
-- The current h726:s3 :36 run remains `IN_PROGRESS`, `chat_ref=null`, with no completion timestamp at this observation.
+- The h726:s2 Ariadne predecessor transitioned from `IN_PROGRESS` at intake to `FAILED` after the canonical receipt was written. No authenticated worker-thread reference was available, and the expected h726:s2 receipt and s2-to-s3 handoff remain absent. Failure cause is not exposed. Do not infer worker refusal, missed check-in, or any content from the stale h725:s2 Ravel latest-result cache.
+- The existing next-slot automation remains enabled and unchanged. Its latest recorded execution still belongs to an earlier cycle; no h726:s4 Mira run was recorded at this observation. Do not infer that the task is disabled or change its schedule.
+- The current h726:s3 scheduled execution remained active at this observation without an authenticated worker-thread reference.
 
 ## Handoff and authority
 
