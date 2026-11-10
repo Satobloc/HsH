@@ -251,3 +251,21 @@ After the ring-lookup source fix, GitHub Actions created a new run for corrected
 - State at last readback: IN_PROGRESS; checkout step running, Lake manifest and Lean build pending.
 
 The previous run #42925403904 remains FAILED on the superseded head `0dd960f4a279700799930934971ab8bbc7d6d33c`. It is not evidence for the corrected module. The new workflow still uses default pull-request merge-ref checkout; if successful, classify it as MERGE_REF_BUILD, not exact-head-only. No compilation success is claimed. Exact-head-only verification remains outstanding.
+
+
+## Addendum 06 | 2026-11-10T23:47:26Z | :48 same-run-ID completion
+
+The :48 h742:s4 run (Elias Kern, ring index 9) has now completed. The correct :48 task remains enabled with its original hourly America/New_York :48 VEVENT.
+
+- Run ID: `1b06b14c-9e58-8328-b8a6-f5b291785bf9`.
+- Scheduled: 22:48:00Z.
+- Final recorded `started_at`: 23:40:39.676243Z.
+- Completed: 23:47:01.657966Z.
+- Status: COMPLETED.
+- `chat_ref`: present (`6aea3ec3-55dc-83e9-a744-d8bf46bd8cff`); presence is not worker/thread authentication.
+- `latest_result` now matches this run ID and completion.
+- Task-level `last_run_time` and `updated_at` advanced to 23:47:03.871119Z and 23:47:26.472414Z; next :48 slot is 23:48Z.
+
+The same run ID previously had `started_at=23:11:18.916776Z` at the 23:32:33Z snapshot. The field difference remains 1,760,759,467 µs. The final record now shows completion 381,981,723 µs after the later start field. The field mutation remains unexplained; no attempt-history ID, retry counter, event log or backend cause is exposed. Do not infer retry, restart, duplicate execution, or worker identity.
+
+At the 23:47:26Z cross-section, :24 h743:s2 Tern and :36 h743:s3 Morrow remained IN_PROGRESS with null completion/chat_ref. The :48 run was complete. The earlier three-way overlap lower bounds remain separate historical snapshots, not a claim of continuous overlap through completion. See receipt Amendment 06, blob `df25360e2a0148a37c2c872b4f6953198d03d09e`.
