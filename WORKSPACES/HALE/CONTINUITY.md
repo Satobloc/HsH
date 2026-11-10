@@ -78,3 +78,8 @@ The existing NIST M0–M4 matrix in the 2026-11-06 report / issue #1432 remains 
 **Mersearch:** all four shared request lanes remain occupied. No request was overwritten or created; no SAT-O/Blockwave equation was retrieved or changed. HSH_RESOURCES remains a private reference boundary. The existing arXiv scanner remains v0.4 and was not revived.
 
 **Scheduler:** the :36 task ID and exact hourly schedule remain unchanged and enabled. At final readback, the current :36 run remained IN_PROGRESS with `chat_ref=null`; scheduler completion is not claimed. The next ring label is Elias Kern at h723:s4. A repository-only optional-context packet and Elias inbox pointer were created; no authenticated thread delivery, consumption or acknowledgment is claimed. No task, ID, cadence, phase, prompt, signet or chat name was changed.
+
+
+### Timing amendment — h723:s3 → h723:s4 optional context
+
+A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:50:28.324069Z` with no `chat_ref`. The handoff packet commit was created at `03:52:38Z`; the Elias inbox append commit was created at `03:52:48Z`. Therefore this packet is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start context. No consumption, reading, acknowledgment, thread delivery or ownership transfer is claimed.
