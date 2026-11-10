@@ -52,7 +52,7 @@ Later :00 peek: same run ID `b4635539-4ccc-8328-b77b-5de75b609a0c` remains IN_PR
 ## Final durable readback manifest
 
 - Report amendment 04: commit `1ed6a7693d140d55cabf4811d271ec88d2d94ca8`, blob `b9c9d6ad5aa36f4c50dfa1b6f82348cebc11f835`, exact readback passed.
-- Receipt amendment 02: current append commit `f02f88d939843b491317f8a1dc58be8ef25bef7a`, blob `8d320fa982821d278a29f5a8ecfe68aac2f11d55`, exact readback passed.
+- Receipt amendment 02: intermediate pre-manifest version commit `f02f88d939843b491317f8a1dc58be8ef25bef7a`, blob `8d320fa982821d278a29f5a8ecfe68aac2f11d55`; the final manifest version is the current file readback.
 - Handoff amendment 02: commit `775fb35b6d425a6df7cdb658a06f26b499a03f1a`.
 - Handoff amendment 03: commit `7673ddf98c1fcd399258a6cf0668afff7957c491`.
 - Tern inbox: commit `c10e6fa365e61b3354b6d085167e3af1071a60d6`, blob `64ad44dbb3c2c2ab32c2354a099e253e6a51b5cd`, exact readback passed.
