@@ -152,3 +152,11 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z
 - Artifact blob 456a4cb6b32605411de1c7db95b3b0078ab95b91; SHA-256 b705142da7a725ef7688cf94af979cf1d6f25385531ac349c32733db6c93e2d4.
 - Independent issue-payload-to-file comparison: exact content match PASS; one artifact only; no duplicate submission.
 - Original research limits remain unchanged; no physical prediction, fit, P2 selection or theory promotion.
+
+
+## h741:s3 formalization-scope amendment
+
+- Public issue #1569 clarification comment #6780253510 distinguishes the existing Ravel theorem from the new workflow contract.
+- PR #1133 formalizes readout factorization for its defined tube-only/sheet-only quotients only. It does not prove arbitrary sequential-map composition or instantiate a physical H(s)H chain.
+- The composite-map requirement is an architectural admission condition, not a new Lean-verified theorem in this run. No new Lean build or theorem was performed.
+- Receipt Amendment 02 and report Amendment 02 preserve this limitation.
