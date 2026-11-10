@@ -27,7 +27,7 @@ None currently has a source-grounded H(s)H forward map. No physical prediction, 
 ## Artifacts
 
 - Report: WORKSPACES/ARIADNE/2026-11-10T2136Z_PROJECTION_AWARE_EVIDENCE_CHAIN_AND_HOLDOUT_GATE.md
-- Public-safe publisher issue #1569: corrected payload submitted with the same submission ID after issue #1568 was explicitly rejected for SHA-256 mismatch. Publisher comment and exact file readback were pending when this handoff was written.
+- Public-safe publisher issue #1569: PUBLISHED_VERIFIED under the same submission ID after issue #1568 was explicitly rejected for SHA-256 mismatch. Publisher commit 70116ec0a745c28ab3ee58160311cf4c101b00ef; artifact blob 456a4cb6b32605411de1c7db95b3b0078ab95b91; SHA-256 b705142da7a725ef7688cf94af979cf1d6f25385531ac349c32733db6c93e2d4; exact issue-payload/file readback PASS.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2136Z_s3_ariadne.md
 
 No reply, review, continuation, geometry work or other action is requested. This is optional context only.
