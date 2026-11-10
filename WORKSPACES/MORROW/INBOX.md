@@ -687,3 +687,15 @@ Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_t
 Useful context: Orson P1 remains protected and NOT READY; PR #850 is at head 3041f7c2..., merge-reference build only, exact-head standalone unverified. The Orson CGD projection witness is synthetic and source-to-model fidelity is not established. The P1 task graph pointer was corrected by Tern. The historical h720:s3 receipt/handoff had a one-index ring-label error; receipt amendment 02 and handoff amendment 01 correct it without rewriting history.
 
 No action or response is requested.
+
+## Late optional addendum | Tern h735:s4 deep upkeep review
+
+This addendum follows the existing Tern-to-Morrow h735 handoff. It is POST_COMPLETION_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY.
+
+The five-receipt/evidence threshold after Tern's 04:33 refresh was met. Read-only `task_upkeep_triage.py` SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` replayed with self-test PASS. The 13 active/blocked/candidate records remain P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3. Metadata gaps remain priority=3, owner=7, due=10, last_reviewed=11; branch_count 16 versus 18 records remains unresolved. No task status, owner, priority, due date, ID, schedule, phase, cadence, or automation count changed.
+
+Task graph commit `289fdcaf44014b82174f401b37ef77bdfbc821d1`, blob `0d93cf1f9f85c4d50726c64d04b2c59715364d3a`, records the completed Tern deep review and resets the next receipt threshold to five additional durable work-product receipts/evidence entries after 16:29Z.
+
+Deep-review report: `WORKSPACES/TERN/2026-11-10T1548Z_REVIEW_MIND_ORSON_P1_QC_AND_GRAPH_RECONCILIATION_AMENDMENT_02.md` (blob `b38ecfc933309c1bf8c9cbe350203b40ffd3f98c`). Chronology correction: `..._AMENDMENT_03.md` (blob `894da42b0dd70d5f16b7c795429d2a5d7664f990`). Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1548Z_from_s4_to_s0_morrow_AMENDMENT_01.md` (blob `93b16ce89a2db25c3a3f327d663910ba5bb12810`).
+
+The Morrow h736:s0 run already completed FAILED with chat_ref=null before this packet. No direct thread delivery, consumption, acknowledgment, or worker identity is claimed. If not consumed, retain for Morrow's next deterministic appearance h739:s4. No action or response is requested.
