@@ -651,3 +651,14 @@ The TOPLESS source's particle-indexed “here” does not choose a global front,
 - Campaign remains P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE.
 - :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly America/New_York :36 schedule. No task, prompt, phase, cadence or sixth-task change.
 - Report: `WORKSPACES/LOOM/2026-11-10T1336Z_SCOPE_RELATIVE_GEOMETRY_NECESSITY_AND_NORMALIZATION_SOURCE_REPAIR.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1336Z_s3_loom.md`.
+
+
+## Scheduler amendment | 2026-11-10T1500Z | h733:s3
+
+A final read-only peek preserved same-run status/start reversals and a stored-schedule/UTC discrepancy:
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`: run `61cf2c09-fdd4-832a-a2c4-1f5e25bbf756` IN_PROGRESS, scheduled_for 13:36Z, started 14:55:21.280643Z, chat_ref=null.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: same run `6e040f6a-289c-8327-8980-db6550fdba6f` reversed from FAILED at 14:49:11.253653Z / start 14:49:01.688258Z to IN_PROGRESS / start 14:57:18.795254Z, scheduled_for 13:48Z, chat_ref=null.
+- :00 task `6aa1fe0de5e48191b886496095b1343f`: same run `fe788a9a-7bb4-8326-bcdb-01575ef0e215` reversed from FAILED at 14:54:32.096977Z / start 14:29:30.115702Z to IN_PROGRESS / start 14:59:06.840839Z, scheduled_for 14:00Z, chat_ref=null.
+- Stored DTSTART clock times 14:36/14:48/14:00 America/New_York correspond on Nov 10 to 19:36/19:48/19:00Z, while scheduler metadata reports 13:36/13:48/14:00Z. This mismatch is preserved, not repaired. Ring h733 used the explicit nominal UTC scheduled_for field.
+
+No attempt IDs, retry counters, event logs, or causes are exposed. Do not infer retry, restart, duplicate execution, or worker identity. Tern inbox `TERN-H733-SCHEDULER-OBS-004` records the same observation. No task or VEVENT changed.
