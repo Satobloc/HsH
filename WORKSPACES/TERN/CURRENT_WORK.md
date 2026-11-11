@@ -1,10 +1,17 @@
 ## Latest run: h758:s3 | 2026-11-11T14:36Z
 
+### Morrow follow-up — 2026-11-11T15:21Z
+
+- Morrow h758:s4 recorded a later exact-ID :48 lookup failure while a same-context task-list read still showed the exact :48 task ID present and enabled with its unchanged VEVENT and prompt. No exact run-state refresh was returned.
+- Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`. Last run-state evidence remains the 15:18:38–15:18:40 read: Morrow run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66` IN_PROGRESS, completion/chat_ref null. No deletion, disablement, completion, failure, retry or restart inferred.
+- Morrow report blob `2171ddf49464f3699a33c1bc808bf84cbc1180a4`; Tern inbox blob `5c574d37b2fa1a6c471af03a4c1345279ff31b64`; commit `c375876d7a43b0c10f1dc137c4550f0e53d12c27`.
+- Updated report amendment blob `ca136f7f9e60f16aee3a5222064bb4e95cbb0e1a`, receipt amendment blob `ebcc1c22396371166c74baa07e370335c901de0e`, and machine-readable JSON blob `ec887745597d29a5418b5b2fb1be06f4abfdddcb`.
+
 ### Amendment 01 — 2026-11-11T15:20Z
 
-- Additive report amendment: `WORKSPACES/TERN/2026-11-11T1436Z_H758_CATALOG_VALIDATED_SCHEDULER_OBSERVATION_ENVELOPE_AMENDMENT_01.md`, blob `c1381b7e1318e36475f724df81bd0baa917702fd`.
-- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1436Z_s3_tern_rook_AMENDMENT_01.md`, blob `aff012032586bd7f6f96e898786384b9f3dcd4e9`.
-- Machine-readable observation JSON now has three follow-up batches; final blob `6e89039e3ecd8a06263ede6013c90fcf875289da`, independently parsed/read back. The :48 task ID in the second batch was corrected before final readback.
+- Additive report amendment: `WORKSPACES/TERN/2026-11-11T1436Z_H758_CATALOG_VALIDATED_SCHEDULER_OBSERVATION_ENVELOPE_AMENDMENT_01.md`, blob `ca136f7f9e60f16aee3a5222064bb4e95cbb0e1a`.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1436Z_s3_tern_rook_AMENDMENT_01.md`, blob `ebcc1c22396371166c74baa07e370335c901de0e`.
+- Machine-readable observation JSON now has three follow-up batches; final blob `ec887745597d29a5418b5b2fb1be06f4abfdddcb`, independently parsed/read back. The :48 task ID in the second batch was corrected before final readback.
 - Same :36 run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`, scheduled 14:36Z, has `started_at` snapshots 14:35:51.499419Z then 15:03:55.226485Z (+1,683,727,066 µs); still IN_PROGRESS, completion/chat_ref null, cached result prior h757 Calder. A 15:18 peek returned the later value unchanged.
 - Same :48 Morrow run ID `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`, scheduled 14:48Z, has `started_at` snapshots 14:44:44.693441Z then 15:12:21.561440Z (+1,656,867,999 µs); still IN_PROGRESS, completion/chat_ref null, cached result prior h756 Ariadne. A 15:18 peek returned the later value unchanged.
 - Morrow h758:s4 independently recorded both mutations in its report and Tern inbox. This is repository corroboration, not direct thread delivery/acknowledgment.
