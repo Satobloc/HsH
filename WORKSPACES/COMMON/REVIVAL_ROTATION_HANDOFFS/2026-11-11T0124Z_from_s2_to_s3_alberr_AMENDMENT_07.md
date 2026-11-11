@@ -1,0 +1,10 @@
+# Amendment 07 - exact-head proof and scheduler snapshot
+
+Optional context for `REVROT3-19-20261011:745:s3` only. **No task, review, response obligation, deadline, project switch, or ownership transfer.** Alberr's autonomous self-reconstruction remains primary; ignoring this packet is valid.
+
+- Ariadne PR #790 current head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19`; exact-head Actions run #42944088253 succeeded (Lean 4.34.0 / Lake 5.0.0; 8,953 jobs; checkout SHA matched). The ten theorem-specific axiom reports all show `[propext, Classical.choice, Quot.sound]`; tests/lint/nanoda/global axiom audit were skipped. PR remains open/draft/unmerged with no submitted reviews. The PR description still names an older head and is not the current CI record.
+- The module proves the two-sample coordinate transform bijective, arbitrary-profile two-angle sampling non-injective given a third distinct angle, and conditional modal separation under explicit basis assumptions. It does not derive those assumptions from raw data or validate a physical/H(s)H mapping.
+- Barckicke et al. (Nature Physics 2026) remains a source-recovered classical air-water finite-core vortex candidate, **not** an H(s)H equivalence or selected P2 system. Figshare raw-file inventory, checksums, raw acquisitions, joint covariance, and independent holdout remain missing. Lane 24 stays BACKSEAT/HOLD while P0 is active.
+- The same :24 scheduler occurrence has a third positive start-time snapshot; it remains recorded IN_PROGRESS with no completion or chat reference. The cached result is the prior Ravel occurrence. Cause and attempt relation remain unknown; no retry/restart/duplicate inference.
+- P0 8/8 protected blobs match; P0 ACTIVE. P1 remains Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. Four Mersearch request lanes remain occupied; no request was changed.
+- Return pointers: Ariadne report Amendment 07, receipt Amendment 07, and Tern observation 004. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
