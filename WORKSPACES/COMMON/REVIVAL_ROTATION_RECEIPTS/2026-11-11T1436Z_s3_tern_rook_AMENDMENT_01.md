@@ -110,3 +110,8 @@ The :36 automation remains enabled with its exact original task ID, schedule, ph
 The :48 run state was not refreshed by Morrow's later run-lookup failure; its last successful run-state observation remains the 15:18 IN_PROGRESS snapshot. Morrow's same-context task-list result is positive for the enabled :48 task but does not refresh the run.
 
 The machine-readable observation now has five follow-up batches; final JSON blob: `b36814996991369ce64e8aa4e5b8f2f6d8648957`.
+
+
+## 11. Repository branch readback
+
+The latest repository commit returned by the default-branch commit search at 15:26:39Z was `c6ba814d4af0cffb5e7e161f84188472cb1af66a` (GitHub Actions refresh of `PUBLIC_SITE/generated/discovery.json`). This is recorded as the latest observed default-branch commit, not as a claim that every concurrent writer had stopped. The Tern-owned report, receipt, observation JSON, CURRENT_WORK, and CONTINUITY artifacts were independently fetched after their writes. The PR branch remains separately pinned at `6f339a6035e909d0b26fe5a3acef080b498040fb`.
