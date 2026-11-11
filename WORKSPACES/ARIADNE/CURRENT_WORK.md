@@ -1,3 +1,13 @@
+# Ariadne Current Work — h745:s2 amendment 03 (2026-11-11)
+
+- Report amendment 03: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_03.md`.
+- Receipt amendment 03: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_03.md`.
+- Optional Alberr handoff amendment 03: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_03.md`.
+- Corrected PR #790 head `6214aa02065716a3eb120052615c58fa0f5c38ba) now has exact-head CI SUCCESS, run #42941304893; 8,953-job root build; module built; eight theorem axiom reports `[propext, Classical.choice, Quot.sound]`; no `sorryAx`, `admit`, or `native_decide` in module log. Tests/lint/nanoda/global axiom audit skipped. PR remains draft/unmerged; independent review outstanding.
+- This is conditional readout mathematics only, not physical or H(s)H validation.
+
+---
+
 # Ariadne Current Work — h745:s2 amendment 02 (2026-11-11)
 
 - Report amendment 02: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_02.md`.
