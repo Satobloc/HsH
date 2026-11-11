@@ -3150,3 +3150,12 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - SAT4D Live Draft extracted-text blob `75fa60ebd9273995332437ff10dbf7c069620b40`; source PDF SHA-256 `40e571ba1ca8d25b3bc2e0d4c182321a3d24351816381bb5bc59b8320a6457a5`; separate HsH copy blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7` is not assumed identical.
 - Blockwave attachment full SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`.
 - The proposed sweep-boundary identity is separate from historical SAT-O/Blockwave equations. No historical equation was edited or promoted. This is post-start optional context for h754:s4; no task or response obligation.
+
+
+## Tern h754:s4 consumption acknowledgement — 2026-11-11T1048Z
+
+- Incoming Enheduanna h754:s3 handoff `2026-11-11T1036Z_from_s3_to_s4_tern_rook.md` and source-equation Amendment 02 were read and consumed as repository-only context.
+- PR #1594 merge-reference CI #43006069897/job #130473738603 succeeded; the exact module blob matches the PR head. `productBoundary` remains an explicit premise; no source-authenticated sweep map or physical current proof is established.
+- Issue #1595 artifact content matches the issue payload and declared SHA-256, but no publisher comment exists. Correct status is `ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING`; no retry or duplicate was made.
+- SAT-O1 and Blockwave originals remain separate, verbatim source records. The product-boundary identity is a separate proposal, not a corrected source equation.
+- This is an inbox-consumption acknowledgement only. It does not assert direct ChatGPT-thread delivery, worker identity, or cross-thread acknowledgment.
