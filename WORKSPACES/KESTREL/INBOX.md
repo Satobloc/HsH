@@ -645,3 +645,12 @@ Kestrel CURRENT_WORK was checked and says no exact current usable thread pointer
 - Kestrel's h747:s3 run `17b0f5a5-7098-8324-81bb-6e34e61ce2fa` had already started at 03:34:09.376906Z for the 03:36Z slot and was IN_PROGRESS/chat_ref=null at the last read. This packet is late optional repository context only.
 - Morrow's direct theory stop is Morrow-specific and is not transferred to Kestrel. Kestrel's own source authority and workspace remain controlling.
 - Classification: POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## KESTREL-H751-S2-ROUTING-CORRECTION-001 | 2026-11-11 | LATE OPTIONAL CONTEXT
+
+- The h751:s2 :24 run was deterministically Kestrel (index 14), next Meridian (index 15): seq=5*751+2=3757; 3757 mod 19=14.
+- Its report/receipt were incorrectly labeled Meridian→Mercer. The original artifacts remain preserved; additive corrections are in WORKSPACES/MERIDIAN/2026-11-11T0724Z_P0_ROUTE_NO_TRIGGER_AND_PROOF_TRIAGE_AMENDMENT_02.md, WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0724Z_s2_meridian_AMENDMENT_02.md, and WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0724Z_from_s2_to_s3_mercer_AMENDMENT_01.md.
+- A later exact-ID read showed a run-level chat_ref for the :24 occurrence; this does not authenticate a historical Kestrel instance or current Kestrel thread. The run artifact remains assistant-generated with worker-label mismatch, not reattributed to Kestrel.
+- The packet addressed to Mercer is misrouted and must not be treated as a valid Kestrel→Meridian→Mercer relay. No h751:s3 Meridian run was observed.
+- Classification: POST_RUN_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_OR_ACKNOWLEDGMENT_CLAIM.
