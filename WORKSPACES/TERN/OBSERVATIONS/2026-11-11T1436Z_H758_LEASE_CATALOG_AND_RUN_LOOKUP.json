@@ -745,6 +745,91 @@
           "chat_ref_still_null": true
         }
       }
+    },
+    {
+      "observed_window": "2026-11-11T15:36:35.551Z/2026-11-11T15:36:39.327Z",
+      "semantics": "Single exact-ID :36 peek; client request/response bounds only. No global catalog refresh in this batch.",
+      "id_specific_observation": {
+        "phase": "s3",
+        "nominal_hour": 758,
+        "worker_label": "Tern Rook",
+        "successor_label": "Morrow",
+        "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+        "outcome": "FOUND",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261001T143600\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+        "current_run": {
+          "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+          "scheduled_for": "2026-11-11T14:36:00Z",
+          "started_at": "2026-11-11T15:33:30.430957Z",
+          "completed_at": null,
+          "recorded_status": "in_progress",
+          "chat_ref": null
+        },
+        "latest_result": {
+          "run_id": "95d77437-253c-8330-b21b-35ac977feb87",
+          "scheduled_for": "2026-11-11T13:36:00Z",
+          "completed_at": "2026-11-11T14:14:17.806899Z",
+          "belongs_to_prior_run": true
+        },
+        "request_started_at": "2026-11-11T15:36:35.551Z",
+        "response_received_at": "2026-11-11T15:36:39.327Z",
+        "comparison_to_prior_readback": {
+          "prior_window": "2026-11-11T15:25:47.448Z/2026-11-11T15:25:51.374Z",
+          "prior_started_at": "2026-11-11T15:03:55.226485Z",
+          "later_started_at": "2026-11-11T15:33:30.430957Z",
+          "started_at_delta_microseconds": 1775204472,
+          "run_id_unchanged": true,
+          "scheduled_for_unchanged": true,
+          "status_unchanged": true,
+          "completion_still_null": true,
+          "chat_ref_still_null": true,
+          "change_time": "unknown within the interval between the two readback windows"
+        }
+      }
+    },
+    {
+      "observed_window": "2026-11-11T15:39:08.865Z/2026-11-11T15:39:14.628Z",
+      "semantics": "Single exact-ID :36 confirmation peek; client request/response bounds only. No global catalog refresh in this batch.",
+      "id_specific_observation": {
+        "phase": "s3",
+        "nominal_hour": 758,
+        "worker_label": "Tern Rook",
+        "successor_label": "Morrow",
+        "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+        "outcome": "FOUND",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261001T143600\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+        "current_run": {
+          "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+          "scheduled_for": "2026-11-11T14:36:00Z",
+          "started_at": "2026-11-11T15:33:30.430957Z",
+          "completed_at": null,
+          "recorded_status": "in_progress",
+          "chat_ref": null
+        },
+        "latest_result": {
+          "run_id": "95d77437-253c-8330-b21b-35ac977feb87",
+          "scheduled_for": "2026-11-11T13:36:00Z",
+          "completed_at": "2026-11-11T14:14:17.806899Z",
+          "belongs_to_prior_run": true
+        },
+        "request_started_at": "2026-11-11T15:39:08.865Z",
+        "response_received_at": "2026-11-11T15:39:14.628Z",
+        "task_metadata": {
+          "last_run_time": "2026-11-11T14:14:21.097833Z",
+          "updated_at": "2026-11-11T14:14:45.653362Z",
+          "next_run_time": "2026-11-11T09:36:00-05:00"
+        },
+        "comparison_to_prior_readback": {
+          "prior_window": "2026-11-11T15:36:35.551Z/2026-11-11T15:36:39.327Z",
+          "started_at_unchanged": true,
+          "status_unchanged": true,
+          "completion_still_null": true,
+          "chat_ref_still_null": true,
+          "latest_result_still_prior_run": true
+        }
+      }
     }
   ]
 }
