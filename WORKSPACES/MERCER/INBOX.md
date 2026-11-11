@@ -683,3 +683,14 @@ The h713:s3 -> h713:s4 packet remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TA
 
 Repository inbox append is not ChatGPT-thread delivery, recipient consumption, acknowledgment, participation, assignment, or ownership transfer.
 
+
+
+## MERIDIAN-H747-S4-AMENDMENT-01-20261111T0442Z | LATE OPTIONAL CONTEXT
+
+- Classification: late optional repository context; no task, response obligation, review request, ownership transfer, or direct chat delivery.
+- Report amendment: `WORKSPACES/MERIDIAN/2026-11-11T0348Z_REVIEW_MIND_FIBRE_IDENTIFIABILITY_AND_LEAN_EVIDENCE_AUDIT_AMENDMENT_01.md`.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0348Z_from_s4_to_s0_mercer_AMENDMENT_01.md`.
+- A 2024 single-conversation raw graph has three off-current assistant-to-bio summary/tool branches; each summary occurs after the selected active assistant response to the same user prompt. These later branches cannot explain the earlier active responses. All branch assistant messages share the same historical model slug and conversation graph; this is not independent-agent evidence.
+- Existing Calder PR #707 theorem `sibling_branches_defeat_single_successor` provides a compiled generic single-successor limitation; it does not encode the specific source graph. No new Lean code or trial.
+- Orson P1 remains Orson-owned and NOT READY. No P1 assignment or Meridian Paper A assignment changes.
+- Mercer h748:s0 had already completed before this amendment; no acknowledgment or consumption is claimed.
