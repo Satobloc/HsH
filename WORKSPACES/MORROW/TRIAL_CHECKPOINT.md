@@ -1214,3 +1214,20 @@ Morrow CURRENT_WORK blob after this update: `da4d66992aafb61895a9af0a1d61c372cfd
 - Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 1312–1351 (40 lines); next cursor **1352**. Babbage remains parked at 1741; FIE rereview completed 2026-11-10T00:17Z, next due Nov24.
 - Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly :24 VEVENT. Run `bd35de2c-00c0-8330-a417-5ad4e0fddd8e` was IN_PROGRESS/chat_ref=null at final readback; cached latest result remains prior Ariadne h745. No task/ID/schedule/phase/prompt/cadence change; no sixth task.
 - Successor Kestrel h747:s3 run `17b0f5a5-7098-8324-81bb-6e34e61ce2fa` had already started before the optional packet. Handoff `2026-11-11T0324Z_from_s2_to_s3_kestrel.md` is POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE / NO_OWNERSHIP_TRANSFER. No direct thread delivery, consumption, or acknowledgment claimed.
+
+
+## 2026-11-11 h755:s0 | 4DHH upload-event and scale-map source-fidelity amendment
+
+- Selected by fixed ring: h=755, seq=3775, index 13 Morrow; next Kestrel index 14. This is a routing label, not thread authentication.
+- Historical Morrow Team Archivist/corpus-appraisal role and direct theory stop were rechecked. The later archive/maintenance invitation does not expressly lift the stop; the Morrow+Kestrel “Ok, good. Continue” remains scoped to Normal-Plane Escape Gate only.
+- Source-custody delta: recovered the June 10 Geometry in Physics raw conversation and user upload event for the 150-page SAT.4DHH.UC.pdf. The file-search result exposes an “LLM DROP” first page, but the generating conversation/author remains unknown. The separate 21-page 4DHH LAGRANGIAN (nolat).pdf remains a distinct, already-audited object.
+- Direct September 9 Morrow messages establish conceptual 4DHH/H(s)H continuity and a cross-scale claim. The specific line-to-finite-core lift and equality of action functionals are assistant reconstructions; explicit parameter, scale, support, and action-composition maps are missing.
+- The report preserves exact SAT4D, SAT O1, BYO, Unit Cell, 4DHH, and Blockwave equation sources with attribution and hashes. No equation correction, theory integration, physical prediction, fit, or BEDROCK promotion.
+- Formalization status: FORMALIZATION_BLOCKED_DEFINITION. No theorem/Lean module/CI run; Morrow's current source-custody boundary does not authorize theory Lean reruns, and the needed maps are undefined.
+- Existing Morrow/Kestrel October 31 proper-dimensionality/4DHH report was reused, not duplicated. The source tag ledger received an additive amendment; no prior tag removed or downgraded.
+- Public issue #1597 was submitted through the existing issue publisher with schema hsh-publish-v1 and SHA-256 8732079a7d44949b17cb27c26c65ee9c4dd1654d0927b039e83babbdc55f4b8c. Publisher/readback status pending at checkpoint creation.
+- Mersearch: all four actual lanes remain requested/occupied; no new request or retrigger. Reused existing Ravel search result and bounded GitHub fallback; no new tool/dependency/fork/subscription.
+- Upkeep: FIE rereview completed Nov10, next Nov24. Okakura, The Book of Tea, Project Gutenberg eBook #769, lines 1352–1391 read; next cursor 1392. Babbage remains parked at 1741.
+- Campaign: P0 ACTIVE; P1 OVERDUE/NOT READY/Orson-owned; P2 HOLD; P3 INCOMPLETE. No manuscript, reader route, paper gate, or Orson cognition work changed.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1100Z_s0_morrow.md. Optional Kestrel handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer claimed.
+- The :00 automation remains enabled and unchanged; current run 3842fad6-30a0-8333-8a27-e81230253db1 was IN_PROGRESS/chat_ref=null at the last scheduler read. Cached latest result is h754 Hale, not h755 Morrow. No task/ID/schedule/phase/prompt/cadence mutation; no sixth task.
