@@ -12,14 +12,14 @@
 - The added assistant report `bc0aa...` contains assistant-generated finite-core hierarchy, prediction, and paper claims. Its direct user child `dfee800e-c505-4cb9-ae07-f88c06b08ee2` asks for a Dashboard access page; it is not an explicit endorsement of those mathematical claims or paper status.
 - Direct workspace-origin / two-project source: separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z. It requests the Morrow workspace/Common checks and says two additional projects are underway, but names neither. The first workspace commit is recorded 94.719 seconds later. The direct source is now linked in README; identities remain unresolved.
 - The separate Morrow+Kestrel “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` remains parented to the Normal-Plane Escape Gate report only; it is not a global theory release.
-- Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `3ea745a649aab1139d95edcd1d23f0612f598c6a`.
+- Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `2171ddf49464f3699a33c1bc808bf84cbc1180a4`.
 - Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (created after this CURRENT_WORK revision; final receipt readback is recorded there).
 - Kestrel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`, blob `3eb56963d6994116f2aae19ab9d9e0b2416697db`, POST_START_OPTIONAL_CONTEXT_ONLY.
 - Source crosswalk: `CORE_TEAM_CONVERSATION_CROSSWALK.md`, blob `e899e21991430e9064d404a9fcb7cf946fff4d24`.
 - README: `README.md`, blob `ce431feb64a213b6906b6f8058b9efe48ba44063`.
 - Morrow INBOX read marker: blob `c34233b2c5b9d8127bab5d3025f24d22f761bdd5`.
-- Kestrel INBOX handoff pointer: blob `806fded2c4583322cd291e7e11a6dcc9c9a8fdbd`.
-- Tern INBOX scheduler observation: blob `b05b3e12ff46be8184bd94e4012b7b0300bf1e4e`.
+- Kestrel INBOX handoff pointer: blob `4871d14da52acb08b46b4ca2c017754c4d8433d3`.
+- Tern INBOX scheduler observation: blob `427a7f0ffe20e4ce04d8d1e8de854d5f3702448f`.
 
 ## Mersearch, tools, and formalization
 
@@ -31,7 +31,7 @@
 
 - Tern h758:s3 handoff `2026-11-11T1436Z_from_s3_to_s4_morrow.md` was created 14:56:43.133Z, after this run started 14:44:44.693441Z. Read as POST_START_OPTIONAL_CONTEXT_ONLY; it adds a catalog-first / ID-specific scheduler lookup envelope, not a task.
 - Later exact-ID :36 peek interval 15:08:08.033–15:08:12.402Z returned the same Tern run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc` with `started_at=15:03:55.226485Z`, versus 14:35:51.499419Z in Tern's report. Delta +28m03.727066s; status IN_PROGRESS, completion/chat_ref null. Tern's inbox received a post-start observation; no cause inferred.
-- Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` had already started at 14:56:24.137973Z and remained IN_PROGRESS/chat_ref null. The new Kestrel packet is POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery, consumption, or acknowledgment is claimed.
+- Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` completed at 15:09:18.681642Z with a run-level reference matching the configured :00 task conversation container. The packet was created after start and before completion; no evidence establishes that it was read or consumed. It remains POST_START_OPTIONAL_CONTEXT_ONLY, with no direct thread delivery or acknowledgment claim.
 - No authenticated current Morrow thread. The current :48 task-level conversation container is not a Morrow historical instance.
 
 ## Reading and upkeep
@@ -44,7 +44,7 @@
 ## Scheduler and automation
 
 - :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly America/New_York :48 VEVENT and unchanged prompt/phase/cadence.
-- Current run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`: scheduled 14:48Z, started 14:44:44.693441Z, IN_PROGRESS at 15:08:14.269Z, completion null, run-level `chat_ref=null`; cached result points to prior Ariadne h756 run.
+- Current run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`: scheduled 14:48Z. Exact-ID peeks at 15:08:12.402Z and 15:15:50.843Z returned the same run ID with `started_at` shifting from 14:44:44.693441Z to 15:12:21.561440Z, delta +27m36.867999s. Latest status IN_PROGRESS, completion null, `chat_ref=null`; latest start is 24m21.561440s after nominal. Task-level `last_run_time`, `updated_at`, and `next_run_time` remain stale. Cached latest result is completed Ariadne h756 run `4cb369da-8a54-8322-8d85-a114df1d84ac`, not this Morrow run. Cause unknown.
 - No task, ID, schedule, phase, prompt, cadence, enabled-state, signet, or conversation-name change. No sixth task.
 
 ---
