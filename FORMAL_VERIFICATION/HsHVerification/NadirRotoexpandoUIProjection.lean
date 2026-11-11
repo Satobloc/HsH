@@ -98,14 +98,25 @@ def candidateAtlasUnview
     State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio :=
   ⟨view.1.1, view.1.2, view.2⟩
 
+/-- The augmented view has an explicit inverse on its image. -/
+theorem candidateAtlasView_leftInverse
+    (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) :
+    candidateAtlasUnview (candidateAtlasView s) = s := by
+  cases s
+  rfl
+
 /-- The augmented view is a left-invertible, hence injective, descriptor encoding. -/
 theorem candidateAtlasView_injective :
     Function.Injective (candidateAtlasView (Center := Center) (Radius := Radius)
       (Frame := Frame) (Mu := Mu) (Nu := Nu) (Xi := Xi)
       (Phase := Phase) (Chirality := Chirality) (CoreRatio := CoreRatio)) := by
   intro x y h
-  have h' := congrArg candidateAtlasUnview h
-  simpa [candidateAtlasUnview, candidateAtlasView, bareUI] using h'
+  calc
+    x = candidateAtlasUnview (candidateAtlasView x) :=
+      (candidateAtlasView_leftInverse x).symm
+    _ = candidateAtlasUnview (candidateAtlasView y) :=
+      congrArg candidateAtlasUnview h
+    _ = y := candidateAtlasView_leftInverse y
 
 /-- Replacing atlas channels while keeping both framed spheres fixed. -/
 def replaceExtras
