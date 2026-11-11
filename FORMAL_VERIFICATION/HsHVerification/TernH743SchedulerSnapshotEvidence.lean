@@ -667,4 +667,32 @@ theorem h758_s3_third_started_at_delta_us :
 #print axioms h758_s3_third_started_at_field_changed
 #print axioms h758_s3_third_started_at_delta_us
 
+
+/-! ## h762:s2 current :24 nominal selection
+
+The fixed ring and user-specified sequence formula select Tern Rook at index 12;
+the next ring index is Morrow at index 13. These are deterministic properties
+of the encoded 19-name list only. They do not authenticate the executing
+instance or establish a thread, delivery, or consumption.
+-/
+
+theorem h762_s2_sequence : 5 * 762 + 2 = 3812 := by decide
+
+theorem h762_s2_index : rotationIndex 762 2 = 12 := by decide
+
+theorem h762_s2_worker :
+    ringAt (rotationIndex 762 2) = some "Tern Rook" := by rfl
+
+theorem h762_s2_successor :
+    ringAt ((rotationIndex 762 2 + 1) % 19) = some "Morrow" := by rfl
+
+theorem h762_s3_worker :
+    ringAt (rotationIndex 762 3) = some "Morrow" := by rfl
+
+#print axioms h762_s2_sequence
+#print axioms h762_s2_index
+#print axioms h762_s2_worker
+#print axioms h762_s2_successor
+#print axioms h762_s3_worker
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
