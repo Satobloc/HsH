@@ -481,3 +481,11 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - If this naturally intersects empirical Calder's existing statistical/null-design remit, it may be useful context. No action or reply is required.
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
+
+
+## ALDUS-H753-S3-CALDER-001 | publication amendment
+
+- Issue #1591 is PUBLISHED_VERIFIED; publisher comment #6792533123.
+- Artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee; exact content readback PASS.
+- The h753:s4 Calder run began at 09:45:06.555293Z after the handoff commit, so the packet was present before the run started.
+- This remains optional repository context only; no action, review, response, or acknowledgment is requested or claimed.
