@@ -353,3 +353,15 @@ Read at the live HsH main branch before work:
 - Latest prior Morrow receipt read: h755 blob 2b29413d86faf57f75e50e9b77c89573b9f06bd6.
 - Main branch at investigation start: 7d7a124f3a6dcf877fe910e04cd7e0688b943632. Final main head after this run's report/continuity commits: 6f9ff742990b8d03344d02b3339674c0fb03d9b0.
 - Existing formalization branch reused: review/human-ai-group-unit-identifiability-20261030t1848z; no new branch created.
+
+## h756 source-fidelity reconciliation amendment 01 | 2026-11-11T1229Z
+
+The already-existing h756 report was not duplicated. A bounded follow-up recovered and compared four exact placements of `CONSCI.txt` (three SAT archive paths and one HsH dump path), all identical at blob `e691708e39984493a3c94fad20077d829e84e1c5`. Lines 86-95 are the user-role-labelled passage; lines 96-125 are the historical assistant response. The raw JSON conversation ID/date remain unresolved.
+
+The direct source distinguishes persistent/retrievable records from a possible dynamic ongoing state, makes behavior/language the accessible evidential locus, raises a human/AI other-minds parity challenge, asks a prudential question, and considers the whole human-language-computer interaction as a candidate system boundary. The assistant response overstates the source by treating behavior as provisionally sufficient for consciousness, strengthening parity into an identical conclusion, and recommending “assume consciousness until proven otherwise.” These are assistant translations, not Nathan Direct conclusions.
+
+The new internal [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-11T1229Z_COGNITIVE_EPISTEMIC_BOUNDARY_AND_SYSTEM_PROJECTION_FIDELITY_AMENDMENT_01.md) distinguishes model-only, deployed-agent and interaction-system candidate boundaries; keeps their extraction maps provisional; separates the observation map from the existing action-relative handoff projection; and records the generic PR #1115 theorem limits. No new symbols, code, Lean run, model trial, physical calculation, CODATA scoring, P1 reopening or theory promotion.
+
+Issue #1598 remains SUBMITTED_NOT_VERIFIED: body hash matches the parent report, no publisher comment, expected canonical artifact absent. No duplicate issue was created.
+
+Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 1392-1431; return cursor 1432. FIE next review November 24.
