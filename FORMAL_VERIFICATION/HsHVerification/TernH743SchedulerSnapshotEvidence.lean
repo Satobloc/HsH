@@ -695,4 +695,179 @@ theorem h762_s3_worker :
 #print axioms h762_s2_successor
 #print axioms h762_s3_worker
 
+
+
+/-! ## h762 four-slot scheduler readbacks and same-run-ID status reversal
+
+All timestamps below are UTC clock-of-day microseconds on 2026-11-11.
+The :00 first readback was returned in the 18:53Z collection batch; its exact
+client request interval was not retained. Later request/response windows are
+preserved in the companion observation JSON. These records are normalized
+connector observations, not raw HTTP bytes or provider-side event timestamps.
+
+The :36 task's returned current run is still scheduled_for 17:36Z (h761:s3);
+it is not relabeled as the next h762:s3 Morrow occurrence at 19:36Z.
+-/
+
+inductive ObservedRunStatus where
+  | inProgress
+  | failed
+  | completed
+  deriving DecidableEq, Repr
+
+/-- Minimal run fields needed for the h762 cross-slot comparison. -/
+structure RunRecordObservation where
+  runId : String
+  scheduledUs : Nat
+  startedUs : Nat
+  completedUs : Option Nat
+  status : ObservedRunStatus
+  latestResultRunId : Option String
+  chatRef : Option String
+  deriving DecidableEq, Repr
+
+/-- First h762:s0 readback: Nadir's run was returned FAILED at 18:53Z. -/
+def h762S0FailedReadback : RunRecordObservation :=
+  { runId := "54491578-3cc0-8330-a031-4c1986ef2314"
+    scheduledUs := us 18 0 0 0
+    startedUs := us 18 27 59 644661
+    completedUs := some (us 18 53 3 64133)
+    status := .failed
+    latestResultRunId := some "1e093ebd-e478-8325-86da-dd5fbf183847"
+    chatRef := none }
+
+/-- Later readback of the same h762:s0 run ID: status returned IN_PROGRESS. -/
+def h762S0LaterReadback : RunRecordObservation :=
+  { runId := "54491578-3cc0-8330-a031-4c1986ef2314"
+    scheduledUs := us 18 0 0 0
+    startedUs := us 18 57 19 294331
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "1e093ebd-e478-8325-86da-dd5fbf183847"
+    chatRef := none }
+
+/-- h762:s2 Tern run, read 18:59:56.770Z–18:59:59.337Z. -/
+def h762S2Readback : RunRecordObservation :=
+  { runId := "14db7f33-1298-8323-abb6-ee6f7091c3c0"
+    scheduledUs := us 18 24 0 0
+    startedUs := us 18 50 18 452090
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "325da37c-3fc8-832c-8943-5e5032f0bc39"
+    chatRef := none }
+
+/-- :36 lease's returned current run is still h761:s3, scheduled 17:36Z. -/
+def h761S3ReadbackAtH762 : RunRecordObservation :=
+  { runId := "23309e03-717c-8320-8c00-475ce51856d9"
+    scheduledUs := us 17 36 0 0
+    startedUs := us 18 36 52 771813
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "ac334e49-e780-8329-bced-028ccc39f86a"
+    chatRef := none }
+
+/-- h762:s4 Kestrel run, read 19:00:03.051Z–19:00:04.535Z. -/
+def h762S4Readback : RunRecordObservation :=
+  { runId := "90ced1b5-1ff4-8328-a31e-baee21c8846f"
+    scheduledUs := us 18 48 0 0
+    startedUs := us 18 50 43 600824
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "fa4f4310-8e88-8331-b416-f18113f51439"
+    chatRef := none }
+
+/-- Task-level metadata returned for the :24 lease at 18:59:56.770Z–18:59:59.337Z. -/
+structure TaskMetadataObservation where
+  lastRunUs : Nat
+  updatedUs : Nat
+  nextRunUs : Nat
+  deriving DecidableEq, Repr
+
+def h762S2TaskMetadata : TaskMetadataObservation :=
+  { lastRunUs := us 17 39 25 974700
+    updatedUs := us 17 39 49 814627
+    nextRunUs := us 18 24 0 0 }
+
+theorem h762_s0_same_run_id_schedule_cache_and_chat :
+    h762S0FailedReadback.runId = h762S0LaterReadback.runId ∧
+    h762S0FailedReadback.scheduledUs = h762S0LaterReadback.scheduledUs ∧
+    h762S0FailedReadback.latestResultRunId = h762S0LaterReadback.latestResultRunId ∧
+    h762S0FailedReadback.chatRef = h762S0LaterReadback.chatRef := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s0_status_and_completion_reversed :
+    h762S0FailedReadback.status = .failed ∧
+    h762S0FailedReadback.completedUs = some (us 18 53 3 64133) ∧
+    h762S0LaterReadback.status = .inProgress ∧
+    h762S0LaterReadback.completedUs = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s0_started_at_delta_us :
+    h762S0LaterReadback.startedUs - h762S0FailedReadback.startedUs = 1759649670 := by
+  decide
+
+theorem h762_s0_later_started_after_prior_completion_us :
+    h762S0LaterReadback.startedUs - (us 18 53 3 64133) = 256230198 := by
+  decide
+
+theorem h762_s0_later_started_after_nominal_us :
+    h762S0LaterReadback.startedUs - h762S0LaterReadback.scheduledUs = 3439294331 := by
+  decide
+
+theorem h762_s2_started_after_nominal_us :
+    h762S2Readback.startedUs - h762S2Readback.scheduledUs = 1578452090 := by
+  decide
+
+theorem h761_s3_lease_run_started_after_nominal_us :
+    h761S3ReadbackAtH762.startedUs - h761S3ReadbackAtH762.scheduledUs = 3652771813 := by
+  decide
+
+theorem h762_s4_started_after_nominal_us :
+    h762S4Readback.startedUs - h762S4Readback.scheduledUs = 163600824 := by
+  decide
+
+/-- Four enabled lease records were returned IN_PROGRESS in the same
+    18:59:53Z–19:00:04Z collection window. The :36 record retains its own
+    17:36Z scheduled_for value; this theorem does not infer worker execution
+    or a future :36 occurrence. -/
+theorem h762_four_returned_run_records_in_progress :
+    h762S0LaterReadback.status = .inProgress ∧
+    h762S2Readback.status = .inProgress ∧
+    h761S3ReadbackAtH762.status = .inProgress ∧
+    h762S4Readback.status = .inProgress := by
+  decide
+
+theorem h762_s2_task_metadata_precedes_current_start :
+    h762S2TaskMetadata.lastRunUs < h762S2Readback.startedUs ∧
+    h762S2TaskMetadata.updatedUs < h762S2Readback.startedUs ∧
+    h762S2TaskMetadata.nextRunUs = h762S2Readback.scheduledUs := by
+  decide
+
+theorem h762_s2_current_run_id_value :
+    h762S2Readback.runId = "14db7f33-1298-8323-abb6-ee6f7091c3c0" := by
+  rfl
+
+theorem h762_s2_latest_result_pointer_value :
+    h762S2Readback.latestResultRunId =
+      some "325da37c-3fc8-832c-8943-5e5032f0bc39" := by
+  rfl
+
+theorem h762_s2_current_chat_ref_absent :
+    h762S2Readback.chatRef = none := by
+  rfl
+
+#print axioms h762_s0_same_run_id_schedule_cache_and_chat
+#print axioms h762_s0_status_and_completion_reversed
+#print axioms h762_s0_started_at_delta_us
+#print axioms h762_s0_later_started_after_prior_completion_us
+#print axioms h762_s0_later_started_after_nominal_us
+#print axioms h762_s2_started_after_nominal_us
+#print axioms h761_s3_lease_run_started_after_nominal_us
+#print axioms h762_s4_started_after_nominal_us
+#print axioms h762_four_returned_run_records_in_progress
+#print axioms h762_s2_task_metadata_precedes_current_start
+#print axioms h762_s2_current_run_id_value
+#print axioms h762_s2_latest_result_pointer_value
+#print axioms h762_s2_current_chat_ref_absent
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
