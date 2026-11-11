@@ -774,3 +774,6 @@ The first corrected-head merge-ref build #42925403904 failed at ring lookup/Stri
 ### Update | Tern h743 :48 completion | 2026-11-10T23:47Z
 
 The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed at 23:47:01.657966Z with final `started_at=23:40:39.676243Z`. Its chat_ref is present but does not authenticate worker/thread identity; latest_result and task-level metadata have caught up. The same-run-ID start-field change remains unexplained. At 23:47:26Z, :24 Tern and :36 Morrow remained IN_PROGRESS with null completion/chat_ref. See Tern receipt Amendment 06, blob `df25360e2a0148a37c2c872b4f6953198d03d09e`. The current handoff blob is `c85447c785094122949ab86b4fef432bacd2c42f`; no task/response obligation, direct thread delivery, consumption or acknowledgment is claimed.
+
+
+- Optional h751:s0 Tern source-custody packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0700Z_from_s0_to_s1_morrow.md`. Archive locator/date verification only if useful within Morrow's existing remit; no theory integration, equation correction, Lean rerun, assignment, response obligation, or cross-thread delivery/consumption/acknowledgment.
