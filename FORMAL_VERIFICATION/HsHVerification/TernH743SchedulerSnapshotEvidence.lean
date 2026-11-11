@@ -495,4 +495,28 @@ theorem slotCycleImage_card (s : Fin 5) :
 #print axioms relayRing_nodup
 #print axioms slotCycleImage_complete
 #print axioms slotCycleImage_card
+/-! The following strengthens the base-cycle result to every starting
+residue. The theorem is about the five mathematical phase values `0..4`;
+the current :12 automation is disabled, so this does not assert that phase
+1 is an active task. The four enabled phases remain `0, 2, 3, 4`.
+-/
+
+/-- Indices visited by slot s during 19 consecutive hours from start residue. -/
+def slotCycleImageFrom (s : Fin 5) (start : Fin 19) : Finset (Fin 19) :=
+  Finset.univ.image (fun offset : Fin 19 =>
+    ⟨rotationIndex (start.val + offset.val) s.val, Nat.mod_lt _ (by decide)⟩)
+
+/-- Any 19-hour window covers every ring index for every mathematical slot. -/
+theorem slotCycleImageFrom_complete (s : Fin 5) (start : Fin 19) :
+    slotCycleImageFrom s start = Finset.univ := by
+  fin_cases s <;> fin_cases start <;> decide
+
+/-- Every shifted 19-hour slot window contains exactly 19 distinct indices. -/
+theorem slotCycleImageFrom_card (s : Fin 5) (start : Fin 19) :
+    (slotCycleImageFrom s start).card = 19 := by
+  rw [slotCycleImageFrom_complete]
+  simp
+
+#print axioms slotCycleImageFrom_complete
+#print axioms slotCycleImageFrom_card
 end HsHVerification.TernH743SchedulerSnapshotEvidence
