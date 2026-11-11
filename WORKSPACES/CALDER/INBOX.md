@@ -437,3 +437,9 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Public intake: issue #1575, `aldus-theta4-lorentzian-blockwave-primitive-crosswalk-20261111t0200z-s0-001`; publisher verification pending at pointer creation.
 - Optional focus: test the conditional Lorentzian incidence-type objection against the exact SAT.O1 TeX and existing θ₄/Frobenius audits; do not repeat existing F=dA, θ₄ convention, or medium primitive-economy work.
 - Delivery semantics: repository pointer only; no assignment, consumption, acknowledgement, ChatGPT posting, or cross-thread delivery claimed.
+
+
+### WORKSHOP-RELAY-746-ALDUS-TO-CALDER publisher status amendment
+- Issue #1575 publisher comment #6785384386: `REJECTED: unexpected payload keys`.
+- Expected published artifact was absent at final check. The intake is not published; no retry or duplicate issue was created.
+- Receipt and handoff remain the canonical repository records; this inbox pointer is optional context only.
