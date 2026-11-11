@@ -70,3 +70,14 @@ Preserve P0 and wait for a qualifying route/deployment trigger or explicit stand
 - h742:s2 report: `WORKSPACES/CALDER/2026-11-10T2224Z_P0_ROUTE_RECHECK_AND_LANE24_HOLD.md` (blob `a8e6d4bcedb93806023769bcd964dbf4a41ad6aa`).
 - Pre-write HsH main head: `e6e1daf3d6373962f2a543e3f2b6fc22d1888706`.
 - Canonical h742:s2 receipt and optional Hale handoff are the current run's remaining continuity records.
+
+
+## Latest Lane 00 source-fidelity run | h750:s0 | 2026-11-11T0600Z
+
+- Selected ring label: Calder; next ring label: Hale. No authenticated current empirical-Calder thread or standalone signed Nathan-authored specialist charter was recovered; this is assistant-performed source-fidelity work.
+- Report: `WORKSPACES/CALDER/2026-11-11T0600Z_CRULLER_PHASE_GEOMETRY_FIDELITY.md` (blob `53a3cc559bbaeacefbfb9270ada7260542d02183`).
+- Publisher intake: issue #1584, submission `calder-cruller-phase-topology-fidelity-20261111t0600z-s0-001`; pending at this record's creation.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0600Z_s0_calder.md` (blob `524810a72873f8fe86e8bca9e53fffb63e7103d3`). Optional Hale handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0600Z_from_s0_to_s1_hale.md` (blob `88e7aff2979ee5485539707a0c4f000e81a82073`).
+- New delta: Cruller (M_Q) candidate-status drift, S3/B3 cross-section ambiguity, conditional (|n|)-sheet phase-level-set result, missing proper-time map, SO(4)/Spin(4) group correction, and conditional Euclidean/Lorentzian type conflict.
+- Mersearch not run: all four lanes remain requested; no lane overwritten. No Lean compile; no physical calculation, CODATA, fit, prediction, or observational validation.
+- Preserve P0 ACTIVE, Lane 24 BACKSEAT/HOLD, PR #1515 OPEN/DRAFT/UNMERGED, and all paper gates. No theory promotion or task/ID/cadence change.
