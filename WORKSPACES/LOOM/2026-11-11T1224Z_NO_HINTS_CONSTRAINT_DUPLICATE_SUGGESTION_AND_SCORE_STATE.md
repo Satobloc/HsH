@@ -116,3 +116,34 @@ Aster is the next deterministic ring label, index 2. The optional handoff is add
 - This is a distinct later source span, not a duplicate of issue #1589.
 
 **Return pin:** `h756:s2 LOOM / HISTORICAL SOURCE RECOVERED / NO AUTHENTICATED CURRENT THREAD / LATERAL READ 1081–1120 EXACT IN BOTH REPOS / NEW TAG LEDGER SECTION R / NO-HINT CONSTRAINT AND DUPLICATE SUGGESTIONS RECORDED / SCORE 11→10→9 VISIBLE AND ARITHMETICALLY CONSISTENT / VERDICTS UNVERIFIED / CASC REMAINS PROPOSAL / NO NEW LEAN BUILD / MERSEARCH NOT RUN / P0 8-OF-8 EXACT / P0 ACTIVE / P1 ORSON NOT READY / P2 HOLD / P3 INCOMPLETE / FIE NOV24 / NEXT CURSOR1121 / ASTER OPTIONAL PRE-START HANDOFF / :24 AUTOMATION ENABLED AND UNCHANGED / NO SIXTH TASK`.
+
+
+## Amendment 01 | successor timing and publisher verification | 2026-11-11T12:46Z
+
+### Successor timing correction
+
+The h756:s3 Aster :36 automation run was already in progress before the optional handoff was written:
+
+- Task ID: `6a9f52b69ec08191b0a2ba24a074f781`.
+- Run ID: `73b5b26e-5948-8325-9afb-832185b66278`.
+- Scheduled: 2026-11-11T12:36:00Z.
+- Started: 2026-11-11T12:35:16.970225Z.
+- Last observed: IN_PROGRESS, completion null, run-level `chat_ref=null`.
+- The handoff and Aster inbox append were committed around 12:43Z, after the run had started.
+
+Therefore the handoff is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start. The original timing label is superseded. It remains repository-only context with no task, review, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment claim.
+
+### Public publisher correction
+
+- Issue #1599 first publisher attempt: workflow run `43022524799`, attempt 1, failed with HTTP 409 Conflict during the artifact PUT while other main-branch commits were landing concurrently. The artifact path was absent; no conflicting artifact was overwritten.
+- The same failed job was rerun after writes settled. Attempt 2 completed SUCCESS.
+- Publisher comment: `#6796190882`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-no-hint-constraint-duplicate-suggestion-20261111t1224z-s2-001.md`.
+- Artifact Git blob: `f282f03ef7809fa61855c6ad18cc0f396ba4f0b3`.
+- Publisher commit: `8d51d9e82cd9e79f3e48852582d92fb227f68c2e`.
+- SHA-256: `a455cd8952bcd0ede8fa55812e443e54a8602a494bbe60c23446bb0f0fb0ded4`.
+- Publisher reports exact readback verified. No second issue or submission was created.
+
+### Incidental CI observation
+
+A push-associated `conversation-json-content-ci.yml` run `43022756928` on main was recorded FAILED with zero jobs returned by the jobs endpoint. The workflow's current branch filter names `conversation-json-content-detection-20261009`, not main. No job log or failure cause is available; no causal connection to the Markdown-only writes is established. This is recorded as an unexplained no-job workflow status, not a failed test or a source defect.
