@@ -1,4 +1,18 @@
 # Aster | Current Work / One-Minute Syllabus
+
+## Latest activation | h760:s2 | 2026-11-11T16:24Z
+
+- Report: `WORKSPACES/ASTER/2026-11-11T1624Z_P0_REVALIDATION_AND_SOURCE_GROUNDED_REVIVAL.md` (blob `dcae02a03f90909fac26d8d005f52bfbc95640ff`).
+- Run key: `REVROT3-19-20261011:760:s2`; Aster index 2, successor Ariadne index 3. No authenticated current Aster thread found; source-grounded revival occurred in this scheduled execution, not a new ChatGPT thread.
+- Historical remit recovered from ASTER raw export `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, 39 user-role messages. Direct source IDs: `d15369d1-1412-4f4a-9460-702d2de573ea` (source-fidelity questions) and `01505af7-37cd-491f-a951-1822934e36ff` (historical Paper A assignment). Current Code Grurple roster supersedes that assignment: Paper A review FROZEN / CROSS-READ OPEN.
+- Current main head `c8f34c786be04a6b706576e67b48bf6526a3afc2`; 36 ahead / 0 behind / 22 changed paths from h759 baseline; no protected P0 path overlap. Eight protected P0 blobs 8/8 exact. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no new presentation trigger or route probe.
+- Existing Aster PRs #1220, #1444 and #811 remain OPEN / DRAFT / UNMERGED. No PR, branch, manuscript, theorem, equation, tool, or BEDROCK change. No new physical calculation or CODATA comparison; Lane 24 remains BACKSEAT / HOLD.
+- All four Mersearch lanes remain requested/occupied; no new request or overwrite. The known Aster export was fetched by exact existing HsH blob pointer, not through Mersearch. No local full checkout or Mersearch executable/callable action.
+- Public addendum #1600 remains PUBLISHED_VERIFIED; no duplicate publication.
+- Optional Ariadne h760:s3 handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1624Z_from_s2_to_s3_ariadne.md` (blob `da870ded135454b2e0cbe14584873836d151f2e5`); Ariadne inbox append marker `ASTER-H760-S2-P0-REVALIDATION-001` independently read back (blob `288447260269ec2d577e0f50971891d75228c25c`). PRE_START_OPTIONAL_CONTEXT_ONLY; repository delivery only, no chat delivery or acknowledgment.
+- FIE next review 2026-11-24. Unrelated reading: Babbage eBook #1216, lines 1781–1820; next cursor 1821.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly America/New_York :24 VEVENT and `exact_schedule`. Current run `27e1bda3-ed28-8321-b826-c1c81350e648` is IN_PROGRESS, `chat_ref=null`; cached result is prior Mercer h759, not Aster. No task/ID/prompt/schedule/phase/cadence change; no sixth task.
+
 ## Latest activation | h756:s3 | 2026-11-11T12:36Z
 
 - Report: WORKSPACES/ASTER/2026-11-11T1236Z_WHIRLIGIG_RAW_SOURCE_AUTHORITY_AND_BASEPOINT_GATE.md (blob ae7f6ceb23030d9709a516d764a929736104652f).
@@ -33,16 +47,16 @@
 
 ## One-minute card
 
-| Layer | Current state |
+| Layer | Current state | Code Grurple **ACTIVE / P0**. Aster formal Paper A review **FROZEN / CROSS-READ OPEN**. Do not conduct an unrequested second formal review; cross-read only for a concrete post-acceptance defect or explicit request. |
 |---|---|
-| Identity | Aster is a deterministic ring label. Historical conversation ASTER: ID 6ab006ce-e358-83ea-b3dd-7b23a26c00fa; raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8; 39 user-role messages. A prior Aster-labelled chat_ref candidate from h627 exists, but current activity/usability is unverified; h722:s2 has chat_ref=null. The current :24 task conversation ID is not worker authentication. |
-| Specialist remit | Nathan Direct assigned source-fidelity review: does a paper sound like Nathan, has he said it elsewhere, and does it contradict prior statements? He separately assigned Paper A review. No standalone Aster charter file was found; “Nathan Words Excavator” is an assistant-authored label, not authenticated as Nathan's title. |
+| Identity | Aster is a deterministic ring label. Historical ASTER conversation ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`; raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`; 39 user-role messages. Current thread usability remains unverified; the Oct 29 TOPLESS manual-thread pointer remains unresolved. The current automation conversation association is not worker authentication. |
+| Specialist remit | Direct user-role source messages `d15369d1-1412-4f4a-9460-702d2de573ea` and `01505af7-37cd-491f-a951-1822934e36ff` establish source-fidelity questions and historical Paper A assignment. The current Code Grurple roster supersedes the review assignment: formal review FROZEN / CROSS-READ OPEN. “Nathan Words Excavator” is assistant-authored, not a user-authored title. |
 | Current state | Code Grurple **ACTIVE**. Aster formal Paper A review **FROZEN / CROSS-READ OPEN**. Do not conduct an unrequested second formal review. |
 | :24 lane | H(s)H generation / worldtube characterization / CODATA is **BACKSEAT / HOLD** while Code Grurple is active. No P2 measured system is selected. |
-| Current branch | PR #1220 remains OPEN / DRAFT / UNMERGED. Branch research/aster-o13-unitary-mass-gate-20261101t1700z; head 6a66217979b9caacff06fa407cd9ccd1cdd7999e; do not amend or merge it here. Separate PR #1444 (research/aster-clock-map-centering-gate-20261107t0600z; head 223d54664380222e66e7399a15ab7344739640ad) also remains OPEN / DRAFT / UNMERGED; neither branch was changed. |
-| Next action | TOPLESS raw source is now recovered and hash-verified. Keep direct 2026-10-29 w=ct separate from historical 2026-10-21 cw=t; Forest Normalization is named but undefined. After P0 standdown, instantiate the existing Ravel #1133 FiberedSupport/EmbeddedSupportFamily/baseOf/LabelledSlicePullback and SliceCompatibleRetraction/preservesSlice maps from an authoritative source, including observable readout/fiber conditions. Do not write another generic theorem or perform physical calculations without an identified measured system, dataset, provenance, units, uncertainties, and prediction-vs-fit separation. Paper A review remains frozen. |
-| Source cursor | TOPLESS raw export: 8,041,559 bytes, SHA-256 0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f; direct messages c68c8846-5564-4c8c-96a5-157c99839a6b (17:00:52.136314Z) and 9e5cd8be-5fd4-4b63-bc4b-6bff79767505 (17:28:42.902296Z). Later source says w=ct and names Forest Normalization; earlier cw=t remains separate. Operator/types, metric, wavefront embedding, transversality, and readout remain undefined; P_i(λ)=W_i∩Σ_λ is assistant reconstruction. Source numeral 5,874,589,152 mi/year is 1,000× below 186,282 mi/s × 31,536,000 s/year = 5,874,589,152,000 mi/year; preserve original and corrected arithmetic separately. Preserve SAT O1 text and SAT.O1 LaTeX as distinct; do not promote assistant-origin J^{μν} into Blockwave. |
-| Freshness | Charles Babbage, Reflections on the Decline of Science in England, Project Gutenberg eBook #1216: lines 1661-1700 read; next cursor 1701. Unrelated reading break: fun break - lx.txt lines 961-1000; next 1001. FIE rereview completed 2026-11-10 by Elias h720:s0 (six pages, 12,358 extracted characters, no OCR); Amendment 01 corrects the stale opening label; next due 2026-11-24. |
+| Current branch | PR #1220 (head `6a66217979b9caacff06fa407cd9ccd1cdd7999e`), PR #1444 (head `223d54664380222e66e7399a15ab7344739640ad`), and PR #811 (head `37d33d29551deb4278d159efb0548826520e2737`) remain OPEN / DRAFT / UNMERGED; do not amend or merge them here. |
+| Next action | Wait for an actual source-bound P0 presentation trigger; do not repeat route probes or edit site/manuscript files. After P0 standdown, resume the existing TOPLESS source map and instantiate Ravel #1133 maps only from authoritative source-defined types, including observable readout/fiber conditions. No duplicate generic theorem or physical calculation without an identified measured system, dataset, provenance, units, uncertainties, covariance and prediction-vs-fit separation. |
+| Source cursor | TOPLESS raw export: 8,041,559 bytes, SHA-256 `0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`; direct `w=ct` remains separate from historical `cw=t`; Forest Normalization is named but undefined; `P_i(λ)=W_i∩Σ_λ` is assistant reconstruction. Babbage eBook #1216: lines 1781–1820 read; next cursor **1821**. |
+| Freshness | FIE rereview completed 2026-11-10 by Elias h720:s0 (six pages, 12,358 extracted characters, no OCR); next due 2026-11-24. No physical break is claimed. |
 
 ## Source and symbol boundaries
 
