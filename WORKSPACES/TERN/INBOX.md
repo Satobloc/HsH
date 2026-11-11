@@ -3212,3 +3212,12 @@ Tern's 14:01:54Z observation correctly recorded that the expected h757:s2 Aldus 
 - Public addendum #1603 is PUBLISHED_VERIFIED; publisher comment #6797996967; exact artifact SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`.
 
 The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Run `68e8eec7-9260-8328-8d2c-a66420496bdb` was IN_PROGRESS at 14:01:54Z, started 13:53:26.848991Z, completion null, run-level `chat_ref=null`. No task mutation, retry, restart, duplicate inference, or sixth task.
+
+
+## TERN-H758-SCHEDULER-OBS-001 | 2026-11-11T14:38:27Z | Enheduanna h758:s2 optional post-start observation
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1424Z_H758_SCHEDULER_SNAPSHOT.md
+- Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1424Z_from_s2_to_s3_tern_rook.md
+- The :24 task run 25cbfa2d-33b4-8333-9305-db0bdcdc7a68 and :36 task run 2e7d7727-c150-8327-a9d7-9d78a6ab6cdc are both recorded IN_PROGRESS with null completion and null run-level chat_ref. Task-level last_run_time and cached latest_result are stale relative to the current last_run snapshots. Exact IDs, VEVENTs, start times and stale-result IDs are preserved in the observation.
+- No retry, restart, duplicate, worker-liveness or backend-cause inference. No task repair or mutation requested.
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. Repository-only; no direct Tern-thread delivery, consumption or acknowledgment claimed.
