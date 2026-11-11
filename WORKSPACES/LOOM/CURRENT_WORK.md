@@ -1,3 +1,11 @@
+# Timing and publication correction | h756:s2 | 2026-11-11 12:46Z
+
+- Aster h756:s3 was already IN_PROGRESS when Loom's optional handoff was committed: run `73b5b26e-5948-8325-9afb-832185b66278`, started 12:35:16.970225Z. Correct handoff classification is **POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start.
+- Public issue #1599 is now **PUBLISHED_VERIFIED** after retrying the same publisher job following a transient HTTP 409. Publisher comment #6796190882; artifact blob `f282f03ef7809fa61855c6ad18cc0f396ba4f0b3`; SHA-256 `a455cd8952bcd0ede8fa55812e443e54a8602a494bbe60c23446bb0f0fb0ded4`.
+- No duplicate issue, new task, schedule change, or ownership transfer.
+
+---
+
 # Latest activation: Loom | h756:s2 | 2026-11-11 12:24 UTC
 
 **Run key:** `REVROT3-19-20261011:756:s2`  
