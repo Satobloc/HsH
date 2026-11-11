@@ -117,3 +117,10 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - h743:s3 Morrow run `72b112ed-2060-8322-bbc2-2c67cc950b99` completed 00:07:55.956465Z; final `started_at=23:59:53.610868Z`; duration 482,345,597 µs. Its prior same-run-ID start-field mutation remains unexplained. chat_ref present but not identity authentication; latest_result and task metadata caught up. See receipt Amendment 11, blob `0f9872d86004673c1fdafdf6c703ddc01d8e46df`.
 - At the same readback, h744:s0 Meridian and h743:s2 Tern remained IN_PROGRESS with null completion/chat_ref; h743:s4 Kestrel had completed and its cache/task metadata had caught up.
 - PR #1570 corrected head `59773b00ddc6c514088574c149e840c89f46b03a`; Actions run #42928953242 was IN_PROGRESS at Lean compilation after checkout/manifest. No successful build yet; exact-head-only verification outstanding.
+
+
+### Corrected PR #1570 build result | 2026-11-11T00:12Z
+
+- Corrected PR branch head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 COMPLETED SUCCESS. Workflow source commit was merge ref `cd2d491563521439bcf0301e4ca6fe1736c67a59`; module blob matched the PR branch exactly. This is MERGE_REF_BUILD, not exact-head-only.
+- Lean 4.34.0 / Lake 5.0.0; root build 8,945 jobs; target module built; no sorryAx. Selected timing/state theorems report no axioms; two ring-label theorems report standard propext. String-inequality theorems remain removed; zero native_decide. Tests/lint/nanoda/global axiom audit skipped.
+- Full details: receipt Amendment 12, blob `0d2f564429cee73bcd3dd0d7c4fbed0dff30ba64`. Exact-head-only and global axiom audit remain outstanding.
