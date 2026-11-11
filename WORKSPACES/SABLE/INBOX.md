@@ -614,3 +614,13 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0424Z_s2_orson_vay.md`, blob `bbe3a6cf70759df6eb188d49731c8d441ffe6959`.
 - Public addendum #1581 is PUBLISHED_VERIFIED; it supplements #1574 with the target-error-sentinel NLI input path and 850-row sensitivity. P1 remains Orson-owned and NOT READY; Sable's P0 presentation-QA remit is unchanged.
 - No task, review request, response obligation, ownership transfer, PR edit, manuscript change, reader certification, paper-gate advancement or cross-thread delivery is implied.
+
+
+## Optional context — 2026-11-11T1200Z
+
+- Optional handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1200Z_from_s0_to_s1_sable.md.
+- Orson h756 report: WORKSPACES/ORSON_VAY/2026-11-11T1200Z_COGNITIVE_STATE_GEOMETRY_AND_ACTION_RELATIVE_PROJECTION.md.
+- Public issue #1598 is HSH-PUBLISH-V1 with a matching issue-body SHA-256; publisher comment/canonical artifact were pending at handoff creation.
+- The packet records a cognition/source-fidelity crosswalk: persistent versus dynamic state, observable behavior versus complete system state, global handoff-state fidelity versus action-relative support, and provenance label versus evidence.
+- PR #1115 contains a generic ObservableProjection module on its existing draft branch; exact-head Lean compile remains pending. No new branch or merge.
+- Recipient scope is optional context only. Sable's P0 presentation-QA remit is unchanged. No task, response obligation, review request, ownership transfer, or direct-thread delivery is implied.
