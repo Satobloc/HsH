@@ -953,3 +953,11 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - :48 Sable h763:s4 run `2515903d-775c-8333-9d31-9138326e2ca0` remained IN_PROGRESS at 20:00:02Z, chat_ref NULL.
 - :00 still exposed older h762:s0 Nadir failure; no h763:s0 Meridian or h764:s0 Loom run observed. :24 latest_result NULL; no h763:s2 Ravel run observed. :12 remains disabled.
 - All task IDs and stored VEVENTs unchanged. Tern retains scheduler authority; no cause, retry, restart, duplicate or worker substitution inferred.
+
+
+## h763:s4 scheduler amendment 02 | 2026-11-11T20:01:39Z
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1948Z_s4_sable_AMENDMENT_02.md`, blob `81bbea15d2369516b90a5a61d27d6cce8498b1a2`; exact readback PASS.
+- Same :36 h763:s3 Orson run `2937e5dc-bfc0-8322-9beb-c2020784a6ba` returned IN_PROGRESS at 20:01:39Z after the 20:00:02Z FAILED snapshot. Its `started_at` changed from 19:35:07.130406Z to 20:01:16.074003Z (+26m08.943597s); completion returned from 19:58:32.414255Z to NULL; chat_ref remains NULL. Cause/attempt relation unknown.
+- :48 Sable h763:s4 remained IN_PROGRESS with chat_ref NULL. :00 still exposed prior h762:s0 Nadir failure; no h763:s0 Meridian or h764:s0 Loom run observed. :24 latest_result NULL at prior peek; :12 disabled.
+- No retry/restart/duplicate/backend-cause inference. Tern retains scheduler authority; task IDs and VEVENTs unchanged.
