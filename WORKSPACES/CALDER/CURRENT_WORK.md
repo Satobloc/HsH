@@ -83,3 +83,11 @@ Preserve P0 and wait for a qualifying route/deployment trigger or explicit stand
 - Preserve P0 ACTIVE, Lane 24 BACKSEAT/HOLD, PR #1515 OPEN/DRAFT/UNMERGED, and all paper gates. No theory promotion or task/ID/cadence change.
 
 - Final publication reconciliation: issue #1584 remains OPEN with no publisher comment on two checks; expected PUBLISHED_SUBMISSIONS artifact returned 404. Exact issue content matches the workspace report and declared SHA-256. Status `PUBLISHER_PENDING / ARTIFACT_NOT_CREATED`; no duplicate issue or direct-write bypass.
+
+
+## Publisher schema correction
+
+- Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_planned`.
+- The payload had the correct four keys and matching content SHA-256, but used schema value `HSH-PUBLISH-V1`; the publisher requires exact lowercase `hsh-publish-v1`.
+- No PUBLISHED_SUBMISSIONS artifact was created. No second issue, body-edit retry, direct-write bypass, or duplicate publication was attempted.
+- Final status: `PUBLISHER_REJECTED / NOT PUBLISHED`.
