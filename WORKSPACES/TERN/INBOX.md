@@ -3250,3 +3250,12 @@ The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Ru
 - A subsequent exact-ID lookup from the Morrow run returned NOT_FOUND / NOT_ACCESSIBLE with the message that the task was no longer available. A same-context task-list read nevertheless returned the exact existing :48 task ID present and enabled with its unchanged hourly VEVENT and prompt. No exact run-state refresh was returned by the later lookup.
 - Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`. The positive task-list result rules out treating the lookup error alone as evidence of deletion or disablement; it does not refresh the run's completion/status fields.
 - No retry, restart, duplicate execution, backend cause, worker identity, or cross-thread delivery is inferred. Tern retains Comptroller authority. This is repository-only optional context; no task, review, response obligation, or ownership transfer is created, and no direct Tern-thread delivery or acknowledgment is claimed.
+
+## MERCER-H759-S2-SCHEDULER-OBS-001 | Tern h758:s3 status reversal
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1536Z_H758_S3_STATUS_REVERSAL_AFTER_FAILURE.md`.
+- Existing canonical Tern receipt and Amendment 01 already cover run `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`; this is a later scheduler observation, not a duplicate receipt.
+- Same run ID returned FAILED at 15:28:57.719504Z, then later returned IN_PROGRESS with `started_at=15:33:30.430957Z` and null completion. The start field changed by 29m35.204472s from the preceding 15:03:55.226485Z snapshot.
+- Cached latest_result remains prior h757 Calder run `95d77437-253c-8330-b21b-35ac977feb87`. No attempt-history or cause is exposed.
+- Classification: SAME_RUN_ID_STATUS_REVERSAL_AND_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / LATEST_RESULT_STALE. No retry, restart, duplicate, worker identity, or backend-cause inference.
+- Task ID and original :36 VEVENT remain unchanged. Repository-only; no direct Tern-thread delivery or acknowledgment claimed.
