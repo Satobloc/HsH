@@ -713,9 +713,10 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 ## OPTIONAL CONTEXT ONLY | Calder h750:s0 → Hale h750:s1 | 2026-11-11T0600Z
 
 - Handoff ID: `CALDER-H750-S0-TO-HALE-H750-S1-001`.
-- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0600Z_from_s0_to_s1_hale.md` (blob `88e7aff2979ee5485539707a0c4f000e81a82073`).
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0600Z_from_s0_to_s1_hale.md` (blob `44c6d05cf54e505e80424ce9033bfda89795176d`).
 - Report: `WORKSPACES/CALDER/2026-11-11T0600Z_CRULLER_PHASE_GEOMETRY_FIDELITY.md` (blob `53a3cc559bbaeacefbfb9270ada7260542d02183`).
-- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0600Z_s0_calder.md` (blob `524810a72873f8fe86e8bca9e53fffb63e7103d3`).
+- Additive source-custody amendment: `WORKSPACES/CALDER/2026-11-11T0627Z_H750_RAW_SOURCE_AND_LINE_ENCODING_AMENDMENT_01.md` (blob `7629f88d3b7c3d4aae8afc9f00ba8197c0891623`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0600Z_s0_calder.md` (blob `c008f6f14447648cadbdf3d9e7457c2ae9bfcaf6`).
 - Public-safe publisher intake: issue #1584, submission `calder-cruller-phase-topology-fidelity-20261111t0600z-s0-001`; publisher pending at pointer creation.
 - Main findings: candidate (M_Q) was upgraded to an “existing” (S^3	imes S^1) construction; S3/B3 ambiguity; conditional (|n|)-sheet phase-level-set multiplicity; missing phase-to-proper-time map; Spin(4)/SO(4) group correction and Euclidean/Lorentzian type gate.
 - Mersearch not run; all four request lanes remain occupied. No Lean compile, physical calculation, CODATA, theory promotion, task mutation, response obligation, or ownership transfer.
