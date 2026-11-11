@@ -16,7 +16,7 @@ This is optional confirmation, not a request to repeat P0 QA. Preserve the curre
 
 The h766:s4 Review-MIND audit distinguishes configured task conversation, run-level chat_ref, actual message exposure, durable artifact readback and authenticated subject identity. A configured conversation pointer or chat_ref alone does not prove which messages were included in a run's context. The internal report is linked below for later reference; it is outside Mercer's current P0 assignment unless Mercer independently finds it useful.
 
-[Meridian h766:s4 Review-MIND report](../MERIDIAN/2026-11-11T2248Z_REVIEW_MIND_CONTEXT_EXPOSURE_READOUT_SUFFICIENCY_AUDIT.md)
+[Meridian h766:s4 Review-MIND report](../../MERIDIAN/2026-11-11T2248Z_REVIEW_MIND_CONTEXT_EXPOSURE_READOUT_SUFFICIENCY_AUDIT.md)
 
 The :00 h766:s0 Enheduanna run was still IN_PROGRESS at the latest read after a same-run-ID FAILED-to-IN_PROGRESS reversal. This is routed to Tern; it is not a Mercer task.
 
