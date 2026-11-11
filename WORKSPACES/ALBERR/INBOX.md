@@ -322,3 +322,6 @@ The h719:s0 scheduled run has since completed as `NO_ACCESS / AUTONOMY PRESERVED
 
 
 - Optional h745:s3 handoff amendment 05: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_05.md`. Adds a standard finite-core vortex coordinate-geometry reference (CITE-2026-001), an explicit assistant-reconstructed worldtube-to-centreline projection with conditions, and the current exact-head Lean status. The modal-separation theorems compile on head `0a75de3...`; axiom-print commands are on head `bcb3fcc...` with run #42944088253 pending. Optional context only; no task, response obligation, deadline, review, project switch, or ownership transfer. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+- Optional h745:s3 handoff amendment 06: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_06.md`. Corrects the Gilbert preprint citation role from STD/“standard reference” to COMPARISON on both ledgers. The source is a recent theoretical preprint, not an established standard or empirical measurement; the 4D projection remains an assistant reconstruction. No action requested.
