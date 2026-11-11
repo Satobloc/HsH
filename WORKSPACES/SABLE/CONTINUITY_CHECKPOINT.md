@@ -879,3 +879,20 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Issue #1606 submitted through the existing publisher; run #43057280653 was in progress at receipt creation. Status then: SUBMITTED_NOT_VERIFIED. Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h760-carrier-excitation-worldtube-map-20261111t1600z-s0-001.md. SHA-256: da6ef98085780ba2ae53dc8ca4fa7fcf0d0d933472ffb633c8e7604a99074f42.
 - Optional Loom context packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1600Z_from_s0_to_s1_loom.md. This is repository-only context, with no assignment, response obligation, ownership transfer, or cross-thread delivery claim.
 - FIE review remains current from November 10; next November 24. Paper gates unchanged. No CODATA, physical calculation, paper advancement, or theory promotion.
+
+
+## 2026-11-11T1635Z | h760:s0 | GR–QM source-genealogy amendment 01
+
+- Added `WORKSPACES/SABLE/2026-11-11T1600Z_GRQM_SCOPE_SOURCE_GENEALOGY_AMENDMENT_01.md`, blob `dbb51e1b8d47f57cc711ca79927a6a2d0b0210a5`, SHA-256 `536c947d607feb1a32639afd8664118ac95f5aef7e2b7ba1214685f18fa09890`. Exact report readback passed.
+- Recovered and parsed the October 30, 2025 *Fundamental Intuitions of SAT* raw export, conversation `6902f3c2-ee54-832b-8c70-b5a6fd900798`, Git blob `0a7a270482bdda92a61d1c54ccccaf356e47aa0b`. Direct user-role messages distinguish filament, time surface, intersectional particle readout, and a shared distortion mechanism across fermions, bosons, gravity and time.
+- Corrected the Lagrangian genealogy: Nathan said a complicated Lagrangian already existed, then explicitly invited an assistant-generated simplification. The resulting 1D toy was exploratory; no equivalence to the pre-existing action or derivation of GR/QFT/QED/QCD/SM was shown.
+- Distinguished representational “isomorphism” in a mixed transcript from a strict GR↔QM mathematical isomorphism asserted in later generated S³ material. The latter has no source-defined structures, bijection, inverse, or preservation map.
+- Parent issue #1606 is PUBLISHED_VERIFIED; publisher comment #6801149861; commit `0260a451839edc30b923af9212ddc5eba4a7b24`; canonical artifact SHA-256 `da6ef98085780ba2ae53dc8ca4fa7fcf0d0d933472ffb633c8e7604a99074f42`. Issue/report/artifact exact match verified.
+- Additive issue #1607 is open with valid `hsh-publish-v1` body. Issue body exactly matches the internal amendment. At last check it had no publisher comment and the expected canonical artifact was absent. Status: SUBMITTED_NOT_VERIFIED; do not duplicate, retry, or bypass.
+- No new Lean module or compile: the source-defined GR/QM structures and projections are absent. Existing PR #1098 exact-head CI remains limited to conditional support-degree/intersection results. No physical calculation, CODATA, fitting, observational validation, P0 route probe, manuscript advancement, or theory promotion.
+- FIE remains current from Aldus's 2026-11-10T00:17Z rereview; next due November 24. No duplicate review. Unrelated Babbage cursor remains line 2021; no redundant reading or physical-break claim.
+- P0 Code Grurple remains ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- No task graph, branch ownership, scheduler, task ID, schedule, phase, enabled state, signet, or conversation-name mutation. No sixth task.
+- Optional Loom handoff and inbox pointer were updated with publication/source status. No assignment, consumption, acknowledgment, or cross-thread delivery is claimed.
+
+**Return pin:** H760:S0 / PARENT REPORT #1606 PUBLISHED_VERIFIED / GR-QM SOURCE-GENEALOGY AMENDMENT #1607 SUBMITTED_NOT_VERIFIED / DIRECT FOUR-SECTOR COMMON-MECHANISM CLAIM DISTINCT FROM GENERATED STRICT ISOMORPHISM / NO NEW LEAN OR PHYSICAL CALCULATION / NO TASK MUTATION.
