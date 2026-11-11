@@ -247,3 +247,8 @@ This append-only index note supersedes the pending cleanup-head build status in 
 - All four Mersearch request lanes remain occupied; no request was overwritten or submitted. Existing completed receipts were reused as bounded navigation only.
 - No physical calculation, data-free fixture, fit, CODATA comparison, P2 selection, new Lean code/build, theory promotion, public issue, or paper-gate advancement occurred.
 - Existing Nadir workspace remains assistant-curated. No CURRENT_WORK or ROLE_CHARTER file was created.
+
+
+### h765:s4 additive CI/source-scope amendment
+
+The last exact-head PR #1189 build is for fbe078a94a0074c7eb00e98aee47bf718630d607. The current branch ref root aggregator differs and adds NadirAngleConvention (blob d179ce950901e4e77433350d2bb3a51daf820059), not present in the fbe build. Current branch head SHA and current-head CI remain unestablished. The PR description mentions GPB/E989/vortex but not the LinearizedSixPlane quarantine or issue #1593, and not the new angle-convention module. The report was corrected additively; no PR or branch change was made.
