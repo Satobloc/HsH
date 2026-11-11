@@ -105,3 +105,8 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - Actions run #42928188003 failed at `h743_s3_later_start_after_nominal`: corrected offset is 1,433,610,868 µs (23m53.610868s), not 1,073,610,868 µs. The separate same-run-ID start-delta theorem compiled without axioms in the failed run's partial output; module build as a whole failed.
 - Two cached/current String-inequality theorems were removed after `#print axioms` showed Classical.choice and Quot.sound. Exact ID fields remain recorded; inequality is not claimed as a Lean theorem. Zero native_decide occurrences remain.
 - Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`; no Actions run for this head at last readback. SUBMITTED_NOT_VERIFIED. See receipt Amendment 10, blob `2c896f63bea04280f9588a49f56ec2b963ea8bc1`.
+
+
+### Corrected PR #1570 CI submission | 2026-11-11T00:09Z
+
+- Corrected branch head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 has appeared. Last readback: IN_PROGRESS at checkout; manifest and Lean build pending. No successful compile or axiom audit claimed yet. Workflow remains merge-ref-only, exact-head-only verification outstanding.
