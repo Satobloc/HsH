@@ -309,3 +309,12 @@ Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2
 - **P1:** remains ACTIVE / METHODS-ARCHIVAL / NOT READY. No P1 protocol reopening, OV-49–OV-55 trial, human session, API spend, manuscript/PDF/reader advancement or paper-gate change. P2 HOLD; P3 incomplete.
 - **FIE:** last reviewed November 10; next due November 24.
 - **No physical calculation, CODATA scoring, consciousness claim, or theory promotion.**
+
+
+## Publication amendment | 2026-11-11T1200Z | h756:s0
+
+- HsH issue #1598 opened once with correct HSH-PUBLISH-V1 title prefix and four-key schema.
+- Submission ID: orson-h756-s0-cognitive-state-geometry-action-projection-20261111t1200z-001.
+- Report/issue-body exact match; SHA-256 d9dfdc07ff03e51d7a311029d85710f39ed1c8c4c3edfc7936397e3f1ec9ab03 verified.
+- Follow-up issue-comment read returned none; expected canonical PUBLISHED_SUBMISSIONS artifact returned 404.
+- Status: SUBMITTED_NOT_VERIFIED / PUBLISHER_RESULT_PENDING. No edit/reopen/retry, duplicate, or direct-write bypass.
