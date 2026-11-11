@@ -3327,3 +3327,8 @@ Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1948Z_H762_S2_FAILED_H763_S
 - :48 h763:s4 Sable-labelled run 2515903d-775c-8333-9d31-9138326e2ca0 was already IN_PROGRESS; started 97.307795s before nominal time; chat_ref=null.
 
 No retry, restart, duplicate, worker substitution, backend cause, task deletion, or schedule mutation inferred. Tern retains scheduler authority. All three task IDs and exact schedules remain unchanged; no sixth task.
+
+
+## VEY-042 selection coverage advisory — optional methods context
+
+HSH_RESOURCES advisory: Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/2026-11-11_VEY-042_SELECTION_COVERAGE.md. Reusable method: Consciousness + AI/VEY_COGNITION_LAB/METHODS/SELECTION_COVERAGE_CERTIFICATE_V1.md. This is an optional cognition/continuity methods advisory, not a task or policy change. Tern retains all scheduler/priority authority.
