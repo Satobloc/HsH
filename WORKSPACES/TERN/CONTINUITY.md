@@ -1,3 +1,13 @@
+## 2026-11-11T1521Z | h758:s3 cross-worker lookup follow-up
+
+- Morrow h758:s4's later exact-ID :48 lookup returned NOT_FOUND/NOT_ACCESSIBLE, while a same-context task-list read still returned the exact :48 task ID present and enabled with unchanged hourly VEVENT and prompt. No exact run-state refresh was returned.
+- Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`. Last run-state evidence remains the 15:18:38.399–15:18:40.597Z read: Morrow run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66` IN_PROGRESS, completion/chat_ref null. No deletion, disablement, completion, failure, retry, restart, duplicate execution or backend cause inferred.
+- Morrow report blob `2171ddf49464f3699a33c1bc808bf84cbc1180a4`; Tern inbox blob `5c574d37b2fa1a6c471af03a4c1345279ff31b64`; commit `c375876d7a43b0c10f1dc137c4550f0e53d12c27`.
+- Updated h758 report amendment blob `ca136f7f9e60f16aee3a5222064bb4e95cbb0e1a`; receipt amendment blob `ebcc1c22396371166c74baa07e370335c901de0e`; machine-readable observation blob `ec887745597d29a5418b5b2fb1be06f4abfdddcb`.
+- No task, task ID, VEVENT, phase, cadence, enabled state or automation count changed. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
 ## 2026-11-11T1436Z | h758:s3 Tern Rook | scheduler readback amendment
 
 - Deterministic selection: h=758, seq=3793, ring index 12 Tern Rook; successor Morrow index 13. No authenticated current Tern thread is claimed. Historical Comptroller authority remains grounded in Ariadne raw user-role messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`; no standalone signed Tern charter was recovered.
