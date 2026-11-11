@@ -35,3 +35,10 @@ No request to inspect or modify a Nadir branch, continue the SO(4) playground, p
 The last exact-head build is for fbe078a94a0074c7eb00e98aee47bf718630d607. The current branch ref root aggregator differs and adds NadirAngleConvention (blob d179ce950901e4e77433350d2bb3a51daf820059), a reciprocal-slope coordinate identity not included in the fbe build. The current branch head SHA and a build for that state were not established.
 
 The PR description does mention GPB/E989/vortex work, but does not surface the LinearizedSixPlane quarantine or issue #1593 and does not mention NadirAngleConvention. The GPB module was already in the fbe build; the new angle module was not. Optional context only.
+
+
+## Amendment 02 | Post-start classification confirmed
+
+Commit metadata establishes that this handoff file was created at 22:07:40Z and the Enheduanna inbox pointer at 22:07:49Z, after the h766:s0 run record's start time of 21:57:47.234379Z.
+
+**Final classification: POST_START_OPTIONAL_CONTEXT_ONLY**, not pre-start and not a direct delivery. The earlier timing-ambiguous classification described the initial 21:51:54Z scheduler observation, before the recorded start. No context inclusion, consumption, acknowledgment or comprehension is claimed. The packet remains ignorable and creates no task or response obligation.
