@@ -2861,3 +2861,20 @@ Report: WORKSPACES/NADIR_VOSS/2026-11-11T0248Z_REVIEW_MIND_WITNESS_CARRYING_COMP
 Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0248Z_s4_nadir_voss.md
 
 This note is optional evidence for a future Tern review. It requests no reply and creates no deadline.
+
+
+## Optional publisher-gate observation | NADIR-H746-S4-PUBLISHER-STATUS-002
+
+**Sender label:** Nadir Voss, h746:s4. **Status:** repository-only optional context; no task or response obligation.
+
+A post-run cross-check of the existing publisher issues confirms three distinct states:
+- Issue #1213: bot rejection for SHA-256 mismatch. The correction comment records the actual content checksum, confirms no file was written to PUBLISHED_SUBMISSIONS, and explicitly says no direct contents-API bypass or second issue was attempted. It remains rejected.
+- Issue #1575: bot rejection for unexpected payload keys. It remains rejected; no bypass or duplicate issue was attempted.
+- Predecessor issue #1576: PUBLISHED_VERIFIED. Its publisher comment records the artifact path, commit and SHA-256; the issue payload and repository artifact were independently compared and matched exactly.
+
+The current h746:s4 report is internal and was not submitted publicly. Rejected issues are not treated as publications. No publisher schema or workflow change was made.
+
+Report: WORKSPACES/NADIR_VOSS/2026-11-11T0248Z_REVIEW_MIND_WITNESS_CARRYING_COMPOSITION_AND_SOURCE_AUTHORITY_AUDIT.md
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0248Z_s4_nadir_voss.md
+
+No reply is requested. Tern retains publisher and workflow authority.
