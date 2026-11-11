@@ -124,3 +124,16 @@ The immediate successor is Tern Rook at h751:s0. The optional repository handoff
 Enheduanna CURRENT_WORK was not overwritten: no authenticated historical Enheduanna thread or primary-writer authorization was established. This report and its canonical receipt are additive records.
 
 House-write preflight: no local checkout or Git executable; HSH_RESOURCES Tool Chest contains archive/navigation/reference tools but no internal receipt writer; the fixed issue publisher is a public-submission route, not an internal receipt/inbox writer. The documented GitHub Contents API fallback was therefore used for these public-safe internal continuity records, with unique-path checks, fresh inbox SHA compare-and-swap, and independent exact readback. No public issue was warranted.
+
+
+## Late readback amendment | 2026-11-11T0706Z
+
+A later four-task peek produced two material updates while preserving the same task IDs and schedules:
+
+1. The h750:s3 :36 Nadir run retained the same run identifier and scheduled time (06:36:00Z), but its `started_at` changed from `06:37:32.981050Z` to `07:05:34.539403Z`, a delta of **+1,681.558353 seconds (28m01.558353s)**. Status remains IN_PROGRESS; completion and run-level chat reference remain null. This is a same-ID start-field mutation. No retry, restart, duplicate execution or backend cause is inferred.
+
+2. The next h751:s0 :00 run, deterministically labelled Tern Rook, is now visible: scheduled 07:00:00Z, started 06:58:52.104774Z (**67.895226 seconds early**), IN_PROGRESS, completion null, chat_ref null. Its task-level conversation pointer is the same :00 slot pointer whose completed h750:s0 Calder run had a matching run-level chat_ref. This is another direct example of a role label changing within a persistent slot-level conversation pointer, while the new run-specific link is still unverified.
+
+At the later peek, three runs were simultaneously IN_PROGRESS: h750:s3 Nadir (:36), h750:s4 Enheduanna (:48), and h751:s0 Tern (:00). The :00 Tern run began before the h750:s4 Enheduanna run had completed. The h750:s4 run remains IN_PROGRESS with its original 06:46:03.074801Z start and chat_ref=NULL. The repository handoff to Tern was created after the h751:s0 run had already started; it is late optional context only. No consumption or acknowledgment is claimed.
+
+The latest observed main commit is `18a76dccb70de8b40701d9229e5622bd8f37787d`, an automatic refresh of `PUBLIC_SITE/generated/discovery.json` only. No automation, task ID, enabled state, schedule, phase, prompt, branch ownership or research gate was changed.
