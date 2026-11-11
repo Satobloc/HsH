@@ -210,3 +210,56 @@ The existing publisher issues were checked rather than bypassed:
 - Predecessor issue #1576 is PUBLISHED_VERIFIED. Its publisher comment records the artifact path, commit and SHA-256; the artifact and issue payload were independently compared and matched exactly.
 
 This report is internal Review-MIND material and was not submitted publicly. The three issue states are distinct: two rejected submissions and one verified publication. No rejected issue is represented as published.
+
+
+## 11. Same-run formalization amendment | 2026-11-11T03:33Z
+
+The original Section 3 accurately recorded the range-subtype theorem as a proposed target at the initial report checkpoint. That status has now advanced. This is an additive amendment to the same h746:s4 run, not a second report or receipt.
+
+### Witness-carrying two-stage composition: formalized and compiled
+
+The existing PR #1189 branch `research/nadir-affine-translation-quotient-20261101t0324z` now contains:
+
+- `FORMAL_VERIFICATION/HsHVerification/NadirWitnessCarryingComposition.lean`
+- A root aggregator import in `FORMAL_VERIFICATION/HsHVerification.lean`
+- Module blob: `babec58f7bcdf3b25b3688888c5dc5f2648876ea`
+- Corrected branch head: `58520f72b728f70e38c2e20192f439df9f334d92`
+
+The first module commit `805450f13ea6471ec130333cf1d21600b57d503c` failed Actions run `#42952354340` because the two-stage theorem passed fibre-condition proofs as arguments to `inducedRangeMap`, which is defined without those proof arguments. The type mismatch was corrected in commit `58520f72b728f70e38c2e20192f439df9f334d92`. The failed attempt remains part of the record; it is not represented as a proof.
+
+**Corrected exact-head verification: SUCCESS**
+- Actions run: `#42953033586`
+- Job: `#130301572681`
+- Expected checkout commit = actual checkout commit: `58520f72b728f70e38c2e20192f439df9f334d92`
+- Lean: `4.34.0`
+- Lake: `5.0.0`
+- Build: `8,956` jobs; the new module built at `8952/8956`, and the root aggregator at `8955/8956`.
+- Captured log contains no `sorryAx`, bare `admit`, or compiler `error:`.
+
+The actual `#print axioms` results are:
+- `inducedRangeMap_factors`: `[Classical.choice]`
+- `rangeFactorization_iff_fiberwise`: `[Classical.choice]`
+- `inducedRangeMap_unique`: `[Quot.sound]`
+- `twoStage_witness_carrying_composition`: `[Classical.choice]`
+
+The map construction is noncomputable because it selects a representative from each image fibre. The reported axioms are standard Lean axioms; this run did not execute the global axiom audit. Tests and lint were skipped; leanchecker and nanoda were disabled/skipped. This is an exact-head successful compile, not a complete verification suite or independent review.
+
+The new module proves:
+1. A range-to-range induced map `Set.range P0 → Set.range P1` under the explicit fibre-constancy condition.
+2. Existence of such a map iff the fibre-constancy condition holds.
+3. Uniqueness of the induced map on the projected image.
+4. Two-stage witness-carrying composition, with each stage's fibre-constancy condition stated separately.
+
+**Epistemic boundary:** this is assistant-derived abstract map mathematics, not a Nathan Direct equation, historical source theorem, standard physical reference, or independent measurement. It formalizes a conditional composition law for abstract functions. It does not instantiate the source-defined nested-helix-to-framed-sphere map, establish a worldtube/timesheet projection, validate H(s)H/SAT physics, or prove any physical equivalence. PR #1189 remains OPEN / DRAFT / UNMERGED. No BEDROCK or paper-gate promotion follows.
+
+### Same-run scheduler amendment
+
+The :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly America/New_York :48 schedule and prompt unchanged. Exact-ID readback now shows run `2a909d52-23e0-832a-ab0e-f80593547021`, scheduled `02:48:00Z`, with `started_at` changed from the earlier `02:48:25.128685Z` observation to `03:16:06.287705Z` (+27m41.159020s). It remained IN_PROGRESS, with completion and chat reference null. Task-level timestamps and cached Sable h744 result remain stale. Tern's repository-only observation is `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T0330Z_H746_SCHEDULER_OBS_002.md`; no cause or retry/duplicate inference is made.
+
+### Upkeep amendment
+
+The read-only `task_upkeep_triage.py` self-test passed and its JSON mode produced a reproducible candidate order from a reduced graph projection preserving all ranking fields. The text renderer has two undefined-name defects: `as_of` at line 148 and `reasons` at line 154. A local-only patch of those two names rendered the same candidate order; no repository script edit was made. The live graph remains 16 declared branches versus 18 records, with 13 active/blocked/candidate records; Tern retains graph and workflow authority.
+
+Unrelated reading advanced to lines 1561–1600 of SAT_THEORY_ARCHIVE_2023-25 / `SAT Mark V/TheTANGLE.txt`, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`. Return cursor: line 1601. FIE remains current; next review November 24. All four Mersearch request lanes remain occupied; no new request or overwrite was made.
+
+No physical calculation, fabricated fixture, human-subject session, model trial, new tool, subscription, public issue, merge, task mutation, or sixth task was created.
