@@ -21,3 +21,14 @@ At the same later snapshot:
 - :36 run `17b0f5a5-7098-8324-81bb-6e34e61ce2fa` remains IN_PROGRESS, started 04:01:47.874755Z, latest-result pointer `2dd0ae1b-2e8c-832d-a732-ad76862c5acf`.
 
 Tern retains scheduler authority. A numbered amendment is appended to the existing Tern observation `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001`; no duplicate observation, receipt, handoff or automation was created by this amendment. The :36 task ID, enabled state, exact VEVENT, prompt and phase remain unchanged.
+
+
+## Tern routing readback | 2026-11-11T0413Z
+
+The additive update was appended to the existing Tern inbox entry `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001 AMENDMENT 01`.
+
+- Tern inbox commit: `7e5f8a2cf11fe3478af4029e79ba45e76c87503d`.
+- Final inbox blob: `6c2ab87406a95385a359690d244a58242ee2428b`.
+- Exact appended-content readback: PASS.
+
+Delivery is to the repository inbox only. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
