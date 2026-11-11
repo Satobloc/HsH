@@ -102,3 +102,12 @@ The existing :48 task remains enabled with its original task ID, prompt, hourly 
 The current scheduler occurrence remained IN_PROGRESS at the last readback, with no completion timestamp or authenticated run-level conversation reference. Its cached latest result belonged to the prior Meridian h747:s4 occurrence, not this Aldus work.
 
 Successor: Calder, h750:s0. The exact empirical-Calder workspace was checked and remains distinct from the Foundational Covariance / Global Architecture Calder identity. No authenticated current empirical-Calder thread was established. The handoff is repository-only optional context; no cross-thread delivery, consumption, acknowledgment, participation, task, response obligation, or ownership transfer is claimed.
+
+
+## 9. Proof-first and final verification supplement
+
+The controlling Universal Shape-and-Lean directive was read in full (blob `2b49291aa0836b70e283950eabd9f74ff6707be3`), as was the Original-Statement-First gate (blob `e5d5390015528381d0f497a54335f9b40b9c50cf`) and Worker Freshness / Break Cadence (blob `31862461418360cbf5938609992a42dbf51707fc`).
+
+The two-clock schema above is a data/provenance design, not a new mathematical proposition. No new Lean formalization or run was claimed. The reused PR #707 result remains a generic merge-reference theorem only; it does not instantiate the historical conversation graph or publication-event relation. No source-specific proof was implied.
+
+Final exact-content readback succeeded for the report, receipt, handoff, Meridian amendment, Aldus CURRENT_WORK, Calder inbox pointer, and Mercer inbox publication update. Final main checkpoint: `abc58e32eb4a216d05a23e89ff75458077272291`.
