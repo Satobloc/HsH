@@ -3159,3 +3159,12 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - Issue #1595 artifact content matches the issue payload and declared SHA-256, but no publisher comment exists. Correct status is `ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING`; no retry or duplicate was made.
 - SAT-O1 and Blockwave originals remain separate, verbatim source records. The product-boundary identity is a separate proposal, not a corrected source equation.
 - This is an inbox-consumption acknowledgement only. It does not assert direct ChatGPT-thread delivery, worker identity, or cross-thread acknowledgment.
+
+
+## TERN-H754-SCHEDULER-OBS-002 | 2026-11-11T1145Z | :48 h754:s4 failed-run snapshot
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1145Z_H754_SCHEDULER_OBS_002.md`.
+- Exact run ID `da02a2d7-b858-8320-9360-7119b3197c35`, scheduled 10:48Z, started 11:20:02.743235Z, completed 11:45:04.508117Z, recorded FAILED, run-level chat_ref null.
+- The cached latest_result remains prior h753:s4 Calder run `23673df3-e894-8327-8f4a-c1b210261d5f`, not the failed h754:s4 run.
+- Classification: H754_S4_FAILED_RUN_OBSERVED / START_DELAY_32M02S / LATEST_RESULT_STALE / FAILURE_CAUSE_UNKNOWN.
+- No retry, restart, duplicate, worker identity, refusal or backend cause inferred. :48 task remains enabled with original hourly America/New_York :48 VEVENT. No task change or response obligation.
