@@ -896,3 +896,16 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Optional Loom handoff and inbox pointer were updated with publication/source status. No assignment, consumption, acknowledgment, or cross-thread delivery is claimed.
 
 **Return pin:** H760:S0 / PARENT REPORT #1606 PUBLISHED_VERIFIED / GR-QM SOURCE-GENEALOGY AMENDMENT #1607 SUBMITTED_NOT_VERIFIED / DIRECT FOUR-SECTOR COMMON-MECHANISM CLAIM DISTINCT FROM GENERATED STRICT ISOMORPHISM / NO NEW LEAN OR PHYSICAL CALCULATION / NO TASK MUTATION.
+
+
+## Amendment 02 — exact digest correction | 2026-11-11T16:37Z
+
+A digest-preflight error was discovered after issue #1607 was opened. The previously recorded value `536c947d607feb1a32639afd8664118ac95f5aef7e2b7ba1214685f18fa09890` was computed from an earlier draft, not the exact final 15,075-character report committed and read back.
+
+- Exact current report SHA-256, independently recomputed from the GitHub-readback UTF-8 content: `fb88522c96f5bcfd2c66e33ac38ada6f0c8bb5c1967d5095711fc5b91c3cf1fe`.
+- The SHA-256 implementation passed the standard `abc` test vector.
+- Issue #1607's opened-event payload still declares the earlier digest `536c947d...`; its embedded content does exactly match the internal report, but the declared digest does not.
+- The live publisher consumes the original `issues.opened` event payload, validates SHA-256, and has no edit-trigger or manual-dispatch route. Therefore the existing issue is expected to be rejected for SHA mismatch. No issue edit, retry, duplicate issue, direct artifact write, or publisher bypass was attempted.
+- The single issue remains the submission record. Status: `SUBMITTED_NOT_VERIFIED / DECLARED_SHA256_MISMATCH`; expected canonical artifact remains absent unless a publisher comment/readback proves otherwise.
+
+This correction supersedes the earlier declared digest in Amendment 01 without erasing that historical entry.
