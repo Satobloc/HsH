@@ -183,3 +183,8 @@ A separate direct user-role message `0cccc21b-55d9-43c5-b0fd-c1566c27abf4` (2026
 The Morrow+Kestrel shared archive remains a third, separate conversation: `6acb7c01-3e14-83ea-a977-a958991e35cc`, blob `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`. Its direct “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` is parented to the Normal-Plane Escape Gate report `8420d805-22ad-47d4-b1ae-f4d183addced`; it remains branch-specific and does not lift Morrow's September 13 theory stop.
 
 Morrow's direct Team Archivist role `402ade01-7116-4efb-9b14-31e477754458`, theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`, and later archive/maintenance trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` remain separate source events in the M-container. The trial invitation does not expressly repeal the theory stop.
+
+
+### Authorship qualifier for the 2026-11-11 source additions
+
+The cited direct-user records have `author.role=user` and `author.name=null`. “Nathan Direct” is therefore used only as user-role/source attribution within the archived conversation. It is not external identity authentication, and it does not convert assistant-authored adjacent reports into user-authored claims.
