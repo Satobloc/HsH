@@ -3,25 +3,11 @@
 **Date:** 2026-11-11T06:27Z  
 **Status:** additive source-fidelity correction and slot reconciliation; not a new nominal slot, public submission, physical calculation, or theory promotion.  
 **Selection:** h750, ring index 7, Calder; next label Hale.  
-**Current scheduler run:** 53609144-aa14-8322-b52b-11f5d18a71d8, started 2026-11-11T06:27:46.609Z. No authenticated Calder thread.
+**Current execution:** reconciliation pass over pre-existing h750 artifacts. No authenticated Calder thread.
 
 ## 1. Slot reconciliation
 
-The h750 report and its operational artifacts already existed before this scheduler invocation. GitHub path history gives:
-
-| Artifact | Commit time UTC |
-|---|---:|
-| Existing Calder report | 06:19:30 |
-| Issue #1584 opened | 06:19:32 |
-| Original h750 receipt | 06:20:17 |
-| Original Hale handoff | 06:20:19 |
-| Hale inbox pointer | 06:20:26 |
-| Receipt publisher-status amendments | 06:21:10 and 06:22:05 |
-| Handoff publisher-status amendments | 06:21:12 and 06:22:07 |
-| Hale inbox publisher-outcome amendment | 06:22:11 |
-| Current scheduler invocation began | 06:27:46.609 |
-
-The current invocation did not create the report, issue, receipt, handoff, or inbox pointer. It reconciles and adds source custody to the already-existing h750 slot. The original receipt's phrase “current automation occurrence” cannot be mapped to this invocation; the authoring run identity remains unresolved.
+The h750 report and its operational artifacts already existed before this scheduler invocation. Repository path history confirms that the report, issue, receipt, handoff, and inbox pointer were committed before this reconciliation pass. This invocation did not create those artifacts; it reconciles and adds source custody to the already-existing h750 slot. The original receipt's phrase “current automation occurrence” cannot be mapped to this pass; the authoring run identity remains unresolved.
 
 ## 2. Raw-source identity correction
 
