@@ -92,29 +92,27 @@ def candidateAtlasView
     FramedSpherePair Center Radius Frame × Extras Mu Nu Xi Phase Chirality CoreRatio :=
   (bareUI s, s.extras)
 
+/-- Inverse descriptor reconstruction for the candidate augmented view. -/
+def candidateAtlasUnview
+    (view : FramedSpherePair Center Radius Frame × Extras Mu Nu Xi Phase Chirality CoreRatio) :
+    State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio :=
+  ⟨view.1.1, view.1.2, view.2⟩
+
+/-- The augmented view is a left-invertible, hence injective, descriptor encoding. -/
+theorem candidateAtlasView_injective :
+    Function.Injective (candidateAtlasView (Center := Center) (Radius := Radius)
+      (Frame := Frame) (Mu := Mu) (Nu := Nu) (Xi := Xi)
+      (Phase := Phase) (Chirality := Chirality) (CoreRatio := CoreRatio)) := by
+  intro x y h
+  have h' := congrArg candidateAtlasUnview h
+  simpa [candidateAtlasUnview, candidateAtlasView, bareUI] using h'
+
 /-- Replacing atlas channels while keeping both framed spheres fixed. -/
 def replaceExtras
     (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
     (extras : Extras Mu Nu Xi Phase Chirality CoreRatio) :
     State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio :=
   { s with extras := extras }
-
-/-- The candidate augmented view is injective at the descriptor level. -/
-theorem candidateAtlasView_injective :
-    Function.Injective (candidateAtlasView (Center := Center) (Radius := Radius)
-      (Frame := Frame) (Mu := Mu) (Nu := Nu) (Xi := Xi)
-      (Phase := Phase) (Chirality := Chirality) (CoreRatio := CoreRatio)) := by
-  intro x y h
-  cases x with
-  | mk xLower xUpper xExtras =>
-    cases y with
-    | mk yLower yUpper yExtras =>
-      simp [candidateAtlasView, bareUI] at h
-      rcases h with ⟨hLower, hUpper, hExtras⟩
-      cases hLower
-      cases hUpper
-      cases hExtras
-      rfl
 
 /-- The bare UI projection is unchanged when any atlas-only channel changes. -/
 theorem bareUI_replaceExtras
@@ -194,35 +192,37 @@ def relativePhaseReadout
     (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) : Phase :=
   s.extras.deltaPhi
 
-def replaceRelativePhase
-    (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
-    (phase : Phase) :
-    State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio :=
-  { s with extras := { s.extras with deltaPhi := phase } }
+def coreRatioReadout
+    (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) : CoreRatio :=
+  s.extras.coreRatio
 
 /-- A phase-sensitive readout cannot descend through the bare framed-sphere/UI projection. -/
 theorem relativePhase_readout_does_not_factor
     (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
     (phase : Phase) (hphase : phase ≠ s.extras.deltaPhi) :
-    ¬ ∃ induced : Set.range bareUI → Set.range relativePhaseReadout,
-      ∀ t, induced (imageProjection bareUI t) = imageProjection relativePhaseReadout t := by
+    ¬ ∃ induced :
+      Set.range (@bareUI Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) →
+      Set.range (@relativePhaseReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio),
+      ∀ t, induced (imageProjection bareUI t) =
+        imageProjection (@relativePhaseReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) t := by
   apply no_bareUI_factorization_of_extra_sensitive_readout
-    (readout := relativePhaseReadout) (s := s)
+    (readout := @relativePhaseReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
+    (s := s)
     (extras := { s.extras with deltaPhi := phase })
   simpa [relativePhaseReadout, replaceExtras] using hphase
-
-def coreRatioReadout
-    (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) : CoreRatio :=
-  s.extras.coreRatio
 
 /-- A finite-core-ratio readout cannot descend through bare UI when that ratio varies. -/
 theorem coreRatio_readout_does_not_factor
     (s : State Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
     (coreRatio : CoreRatio) (hcore : coreRatio ≠ s.extras.coreRatio) :
-    ¬ ∃ induced : Set.range bareUI → Set.range coreRatioReadout,
-      ∀ t, induced (imageProjection bareUI t) = imageProjection coreRatioReadout t := by
+    ¬ ∃ induced :
+      Set.range (@bareUI Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) →
+      Set.range (@coreRatioReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio),
+      ∀ t, induced (imageProjection bareUI t) =
+        imageProjection (@coreRatioReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio) t := by
   apply no_bareUI_factorization_of_extra_sensitive_readout
-    (readout := coreRatioReadout) (s := s)
+    (readout := @coreRatioReadout Center Radius Frame Mu Nu Xi Phase Chirality CoreRatio)
+    (s := s)
     (extras := { s.extras with coreRatio := coreRatio })
   simpa [coreRatioReadout, replaceExtras] using hcore
 
