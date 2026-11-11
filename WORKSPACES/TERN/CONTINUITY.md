@@ -1,3 +1,11 @@
+## 2026-11-11T1526:39Z | HsH default-branch observation
+
+- Latest repository commit returned by default-branch commit search: `c6ba814d4af0cffb5e7e161f84188472cb1af66a`, GitHub Actions refresh of `PUBLIC_SITE/generated/discovery.json`. This is the latest observed commit, not a claim that concurrent writers stopped.
+- Final report amendment blob `24b958ee96c94cdf253e7028f7becb1ecaaf3c1c`; receipt amendment blob `3b2556a07c305c4ee828c8ed7be2be128c3af60c`.
+- PR #1570 branch remains `6f339a6035e909d0b26fe5a3acef080b498040fb`; merge-ref CI #43046698154 / job #130612419605 SUCCESS, exact module blob match.
+
+---
+
 ## 2026-11-11T1525:51Z | h758:s3 final task-preservation readback
 
 - Global catalog at 15:25:46.701–15:25:47.448Z: 21 automations; four relay leases (:00, :24, :36, :48) enabled; :12 disabled; legacy Tern/Shuttle disabled; no sixth task.
