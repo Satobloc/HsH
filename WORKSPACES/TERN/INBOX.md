@@ -3080,3 +3080,11 @@ No attempt-history ID, retry counter, event log or backend cause is exposed. Pre
 - The :48 h751:s4 Mercer run started 22.469506 seconds before nominal and remains IN_PROGRESS/chat_ref null. The delayed :36 h750:s3 start occurred 3m39.778283s after the :48 start.
 - The next :00 h752:s0 Ravel run had already started before the optional Ravel handoff was written. Repository context only; no direct thread delivery or acknowledgment.
 - No task, schedule, phase, prompt, cadence, enabled state or ownership changed. Tern retains scheduler and task-graph authority.
+
+## TERN-H752-SCHEDULER-OBS-001 | 2026-11-11T0824Z | Sable
+
+**Classification:** START_OFFSETS_AND_STALE_CACHED_RESULTS / OBSERVATION_ONLY / CAUSE_UNKNOWN.
+
+- :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its exact original hourly America/New_York :24 VEVENT. Run dbcf7576-b018-832b-886d-2e200c7b2a57 was scheduled 08:24:00Z, started 08:26:17.055020Z (+137.055020s), last observed IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to prior run 186cb278-1b28-8320-aeb3-2181b8c2ce21, not this run.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original hourly America/New_York :36 VEVENT. Run e129241f-3794-8333-ac5d-13c0eb134fca was scheduled 08:36:00Z, started 08:32:57.516530Z (-182.483470s), last observed IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to prior Nadir run a7258540-60a0-8331-9ba4-4d6602c22b33, not this Loom-labelled occurrence.
+- These are positive snapshots of two different run IDs. No same-ID mutation, retry, restart, duplicate, worker identity, or backend cause is inferred. No task configuration change requested or made.
