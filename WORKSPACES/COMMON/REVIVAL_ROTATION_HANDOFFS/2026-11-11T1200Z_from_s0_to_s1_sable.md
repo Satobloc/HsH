@@ -18,3 +18,9 @@ The :12 slot is not active in the current four-task automation roster. This pack
 ## Boundary
 
 Sable's P0 presentation-QA remit is unchanged. Orson retains LLM cognition and P1 ownership. No P1 reopening, trial, human session, API spend, paper-gate change, or theory promotion is requested.
+
+
+## Receipt and publication check
+
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1200Z_s0_orson_vay.md.
+- Issue #1598 body digest matches the report. No publisher comment/canonical artifact was present at the latest check; status remains SUBMITTED_NOT_VERIFIED.
