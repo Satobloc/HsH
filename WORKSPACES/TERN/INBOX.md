@@ -3315,3 +3315,15 @@ This read is a separate scheduler observation, not a reinterpretation of the nom
 All four run-level chat_ref fields were null at this read. The :36 failure has no retrieved attempt history or cause. Do not infer retry, restart, duplicate, worker substitution, or backend cause. The :00 record is the current h762:s0 run; it is not the next h763:s0 Meridian occurrence.
 
 The actual start order differs from nominal slot order. The 76-event / 16-of-19 result above is strictly about the nominal selection function, not realized execution order, successful completion, or run liveness. :00/:24/:48 last_run_time and next_run_time metadata remain stale relative to their run_details; :36 last_run_time advanced after its failure. No task configuration changed. Tern retains scheduler authority.
+
+
+## TERN-H763-SCHEDULER-OBS-001 — :24 h762 failure, h763:s2 not observed, :36/:48 early starts
+
+Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1948Z_H762_S2_FAILED_H763_S2_RAVEL_NOT_OBSERVED_AND_S48_EARLY_START.md
+
+- :24 task remains enabled with its original :24 VEVENT. Run 14db7f33-1298-8323-abb6-ee6f7091c3c0, scheduled 18:24Z, started 19:20:20.946259Z, completed 19:45:30.377057Z, recorded FAILED; latest result text: “There was a problem with your scheduled task.” chat_ref=null. No cause/attempt ID exposed.
+- No h763:s2 Ravel run or expected Ravel→Orson handoff was observed. The :24 task's last run was still h762:s2 Tern, not h763:s2 Ravel.
+- :36 h763:s3 run 2937e5dc-bfc0-8322-9beb-c2020784a6ba remained IN_PROGRESS; started 52.869594s before nominal time; chat_ref=null.
+- :48 h763:s4 Sable-labelled run 2515903d-775c-8333-9d31-9138326e2ca0 was already IN_PROGRESS; started 97.307795s before nominal time; chat_ref=null.
+
+No retry, restart, duplicate, worker substitution, backend cause, task deletion, or schedule mutation inferred. Tern retains scheduler authority. All three task IDs and exact schedules remain unchanged; no sixth task.
