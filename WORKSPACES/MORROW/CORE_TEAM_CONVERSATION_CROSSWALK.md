@@ -153,3 +153,33 @@ A separate shared archive conversation is also present:
 - 222 mapping nodes / 4 outer-role user messages.
 
 This is a distinct joint Morrow/Kestrel archive thread, not the M-container conversation above and not a verified current standalone Morrow thread. The bounded LIVE CONVOS/registry search still does not authenticate a current Morrow destination. The current scheduled selection remains source-grounded reconstruction, not historical-thread continuity.
+
+
+## 2026-11-11 | M-container snapshot edge expansion and A-container workspace origin
+
+A direct blob-level comparison of the two M-container snapshots adds one structural fact not included in the November 10 report:
+
+- Earlier M-container snapshot: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, 465 mapping nodes / 14 user-role messages.
+- Later M-container snapshot: same conversation ID, blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 697 mapping nodes / 17 user-role messages.
+- Every earlier node key is present in the later snapshot; the later snapshot adds 232 nodes.
+- One shared message payload differs: `d3d1d7f6-a5d9-4881-b795-c9c4eaa6dcde`, earlier code-format search query versus later empty text, with message metadata unchanged.
+- One shared node's edge list differs: `5103e41b-1dae-54c5-a8ee-b91ca82f7103` retains the same payload and parent `b619df2a-035a-508f-a10b-fe67914222b9`, while children change from `[]` to `[bc0aa167-caf3-58b9-b69a-48b8ab7da5c3]`.
+
+The added assistant report `bc0aa167-caf3-58b9-b69a-48b8ab7da5c3` (2026-09-12T09:07:15.033Z) contains assistant-generated finite-core hierarchy, prediction, and paper-status claims. Its child `dfee800e-c505-4cb9-ae07-f88c06b08ee2` is a direct user-role request for a Dashboard access page (2026-09-12T09:11:43.379Z). That request does not explicitly endorse the assistant report's mathematical claims, prediction, or paper status. Preserve the source/author distinction.
+
+The correct relation is `NODE_KEY_SUPERSET / ONE_SHARED_PAYLOAD_DIFFERENCE / ONE_SHARED_NODE_CHILD_EDGE_EXPANSION`. This is an additive qualification to the November 10 report, not a replacement of either raw snapshot.
+
+The direct workspace-creation / two-project message is in a separate combined Aldus/Morrow conversation, not the M-container:
+
+- Conversation: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`.
+- Blob: `5833bf598db91c0a99768467d45ff90cf77dce4c`.
+- Direct user-role message: `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z.
+- Exact parent: assistant-role node `1b726282-9c45-4616-b67d-25fe2e36a6c5`; assistant child `40b839ff-8a65-5a8a-84e8-1e9d0c9b8b8b` is empty.
+
+The direct message asks for Morrow's workspace and routine Common checks and says two additional projects are underway. It does not name them. The first Morrow workspace commit is recorded at 09:14:25Z, 94.719 seconds later. The two project identities remain unresolved; do not infer them from later assistant summaries or unrelated outputs.
+
+A separate direct user-role message `0cccc21b-55d9-43c5-b0fd-c1566c27abf4` (2026-09-13T03:58:36.609Z) in the same combined conversation describes `ACTIVE` and `FULL_CONVOS`; it is not the M-container Dashboard-page request `dfee800e`. Keep those source events and directory labels distinct.
+
+The Morrow+Kestrel shared archive remains a third, separate conversation: `6acb7c01-3e14-83ea-a977-a958991e35cc`, blob `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`. Its direct “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` is parented to the Normal-Plane Escape Gate report `8420d805-22ad-47d4-b1ae-f4d183addced`; it remains branch-specific and does not lift Morrow's September 13 theory stop.
+
+Morrow's direct Team Archivist role `402ade01-7116-4efb-9b14-31e477754458`, theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`, and later archive/maintenance trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` remain separate source events in the M-container. The trial invitation does not expressly repeal the theory stop.
