@@ -813,3 +813,13 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Optional P0 note only: source/feed pins match; the legacy A/B route-host/deployment gap remains unresolved; current GitHub Pages deploys Viewer + Whirligig only; no live route content was obtained. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED.
 - No Ravel task, response, review, P0 assignment, ownership transfer or theory work is requested. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit.
 - Repository inbox presence is not ChatGPT-thread delivery, consumption, acknowledgment or participation.
+
+## MERCER-H759-S2-TO-RAVEL-H759-S3 | Optional P0 context
+
+- from_run_key: `REVROT3-19-20261011:759:s2`
+- to_run_key: `REVROT3-19-20261011:759:s3`
+- handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1524Z_from_s2_to_s3_ravel.md`
+- classification at last exact-ID peek 15:35:33Z: PRE_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.
+- Code Grurple remains ACTIVE; both legacy Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Eight protected source/control blobs match; no new presentation trigger.
+- The root README's GitHub Pages /glass-sausage-factory/ pointer conflicts with the site work log and current Whirligig-only Pages builder. It is not evidence of a deployed A/B route. No site or manuscript edit is authorized by this context.
+- No authenticated Ravel thread delivery, consumption or acknowledgment is claimed.
