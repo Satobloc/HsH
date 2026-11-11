@@ -961,3 +961,11 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Same :36 h763:s3 Orson run `2937e5dc-bfc0-8322-9beb-c2020784a6ba` returned IN_PROGRESS at 20:01:39Z after the 20:00:02Z FAILED snapshot. Its `started_at` changed from 19:35:07.130406Z to 20:01:16.074003Z (+26m08.943597s); completion returned from 19:58:32.414255Z to NULL; chat_ref remains NULL. Cause/attempt relation unknown.
 - :48 Sable h763:s4 remained IN_PROGRESS with chat_ref NULL. :00 still exposed prior h762:s0 Nadir failure; no h763:s0 Meridian or h764:s0 Loom run observed. :24 latest_result NULL at prior peek; :12 disabled.
 - No retry/restart/duplicate/backend-cause inference. Tern retains scheduler authority; task IDs and VEVENTs unchanged.
+
+
+## h763:s4 scheduler amendment 03 | 2026-11-11T20:02:10Z
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1948Z_s4_sable_AMENDMENT_03.md`, blob `cb931a90a7a07ffc83a40cbaf37cf5daf98a06d9`; exact readback PASS.
+- The :24 task's `latest_result` returned NULL at 20:00:02Z, then reappeared at 20:02:10Z as the same prior h762:s2 Tern run `14db7f33-1298-8323-abb6-ee6f7091c3c0`, completed FAILED at 19:45:30.377057Z. This is a readback-availability discrepancy, not a new h763:s2 Ravel execution or new run failure.
+- :36 Orson h763:s3 remains IN_PROGRESS after the same-run-ID status/start mutation; :48 Sable h763:s4 remains IN_PROGRESS. :00 still exposes prior h762:s0 Nadir failure; no h763:s0 Meridian or h764:s0 Loom run observed. :12 disabled.
+- Preserve all snapshots; no retry/restart/duplicate/backend-cause inference. Tern retains scheduler authority.
