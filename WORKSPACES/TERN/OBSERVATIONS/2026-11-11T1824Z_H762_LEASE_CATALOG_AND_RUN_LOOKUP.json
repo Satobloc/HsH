@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0",
+  "record_type": "catalog_validated_scheduler_observation_envelope",
+  "run_key": "REVROT3-19-20261011:762:s2",
+  "nominal_occurrence": {
+    "epoch": "2026-10-11T00:00:00Z",
+    "h": 762,
+    "phase": "s2",
+    "sequence": 3812,
+    "ring_index": 12,
+    "worker_label": "Tern Rook",
+    "successor_label": "Morrow",
+    "scheduled_for": "2026-11-11T18:24:00Z"
+  },
+  "collection_semantics": {
+    "timestamps": "Client-side request-start/response-received bounds; no provider-side snapshot timestamp was exposed.",
+    "raw_http_bytes": "NOT_AVAILABLE",
+    "digest": "NOT_COMPUTED",
+    "normalized_connector_payload": "The automation connector returned normalized structured objects, not raw HTTP response bytes.",
+    "identity_rule": "Worker label is derived from nominal scheduled_for and phase; started_at is execution timing only.",
+    "conversation_rule": "Run-level chat_ref is separate from task-level conversation_id and latest_result.chat_ref; neither cached references nor deterministic labels authenticate a historical worker/thread."
+  },
+  "global_catalog_observation": {
+    "source": "Automations global peek",
+    "request_started_at": "2026-11-11T18:59:03.190Z",
+    "response_received_at": "2026-11-11T18:59:03.730Z",
+    "reported_total_automations": 21,
+    "relay_leases": [
+      {
+        "phase": "s0",
+        "task_id": "6aa1fe0de5e48191b886496095b1343f",
+        "title": "Workshop Relay :00 | Archive",
+        "enabled": true,
+        "dtstart": "2026-10-01T14:00:00 America/New_York",
+        "rrule": "FREQ=HOURLY",
+        "timing_mode": "exact_schedule"
+      },
+      {
+        "phase": "s1",
+        "task_id": "6aa61b3b2e4081918927a35b61007acc",
+        "title": "Workshop Relay :12 | Mind",
+        "enabled": false,
+        "dtstart": "2026-10-01T14:12:00 America/New_York",
+        "rrule": "FREQ=HOURLY",
+        "timing_mode": "exact_schedule"
+      },
+      {
+        "phase": "s2",
+        "task_id": "6abda4c8eda88191bf23a6f2849e9a17",
+        "title": "Workshop Relay :24 | Geometry",
+        "enabled": true,
+        "dtstart": "2026-10-01T14:24:00 America/New_York",
+        "rrule": "FREQ=HOURLY",
+        "timing_mode": "exact_schedule"
+      },
+      {
+        "phase": "s3",
+        "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+        "title": "Workshop Relay :36 | Worldtube",
+        "enabled": true,
+        "dtstart": "2026-10-01T14:36:00 America/New_York",
+        "rrule": "FREQ=HOURLY",
+        "timing_mode": "exact_schedule"
+      },
+      {
+        "phase": "s4",
+        "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+        "title": "Workshop Relay :48 | Review",
+        "enabled": true,
+        "dtstart": "2026-10-01T14:48:00 America/New_York",
+        "rrule": "FREQ=HOURLY",
+        "timing_mode": "exact_schedule"
+      }
+    ],
+    "legacy_tern_shuttle": {
+      "task_id": "6aa6c2792c9c8191ab2c128a80c437cf",
+      "enabled": false
+    },
+    "summary": "Four of the five fixed relay leases are enabled (:00, :24, :36, :48); :12 remains disabled. The legacy Tern/Shuttle task is disabled. No sixth relay task exists."
+  },
+  "id_specific_observations": [
+    {
+      "phase": "s0",
+      "task_id": "6aa1fe0de5e48191b886496095b1343f",
+      "request_started_at": "2026-11-11T18:59:53.645Z",
+      "response_received_at": "2026-11-11T18:59:56.770Z",
+      "outcome": "FOUND",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:11:12.177767Z",
+        "updated_at": "2026-11-11T17:11:37.623861Z",
+        "next_run_time": "2026-11-11T13:00:00-05:00"
+      },
+      "current_run": {
+        "run_id": "54491578-3cc0-8330-a031-4c1986ef2314",
+        "scheduled_for": "2026-11-11T18:00:00Z",
+        "started_at": "2026-11-11T18:57:19.294331Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "1e093ebd-e478-8325-86da-dd5fbf183847",
+        "scheduled_for": "2026-11-11T17:00:00Z",
+        "created_at": "2026-11-11T17:11:05.879274Z",
+        "completed_at": "2026-11-11T17:11:07.787191Z",
+        "is_failure_message": false,
+        "chat_ref": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+        "belongs_to_prior_run": true
+      }
+    },
+    {
+      "phase": "s2",
+      "task_id": "6abda4c8eda88191bf23a6f2849e9a17",
+      "request_started_at": "2026-11-11T18:59:56.770Z",
+      "response_received_at": "2026-11-11T18:59:59.337Z",
+      "outcome": "FOUND",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:39:25.974700Z",
+        "updated_at": "2026-11-11T17:39:49.814627Z",
+        "next_run_time": "2026-11-11T13:24:00-05:00"
+      },
+      "current_run": {
+        "run_id": "14db7f33-1298-8323-abb6-ee6f7091c3c0",
+        "scheduled_for": "2026-11-11T18:24:00Z",
+        "started_at": "2026-11-11T18:50:18.452090Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "325da37c-3fc8-832c-8943-5e5032f0bc39",
+        "scheduled_for": "2026-11-11T17:24:00Z",
+        "created_at": "2026-11-11T17:39:20.169736Z",
+        "completed_at": "2026-11-11T17:39:21.881561Z",
+        "is_failure_message": false,
+        "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+        "belongs_to_prior_run": true
+      }
+    },
+    {
+      "phase": "s3",
+      "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+      "request_started_at": "2026-11-11T18:59:59.337Z",
+      "response_received_at": "2026-11-11T19:00:03.051Z",
+      "outcome": "FOUND",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T16:55:31.389490Z",
+        "updated_at": "2026-11-11T16:55:54.306019Z",
+        "next_run_time": "2026-11-11T12:36:00-05:00"
+      },
+      "current_run": {
+        "run_id": "23309e03-717c-8320-8c00-475ce51856d9",
+        "scheduled_for": "2026-11-11T17:36:00Z",
+        "started_at": "2026-11-11T18:36:52.771813Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "nominal_ring_label_for_scheduled_for": "Hale (h761:s3), not Morrow h762:s3"
+      },
+      "latest_result": {
+        "run_id": "ac334e49-e780-8329-bced-028ccc39f86a",
+        "scheduled_for": "2026-11-11T16:36:00Z",
+        "created_at": "2026-11-11T16:55:28.377781Z",
+        "completed_at": "2026-11-11T16:55:29.805167Z",
+        "is_failure_message": false,
+        "chat_ref": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+        "belongs_to_prior_run": true
+      }
+    },
+    {
+      "phase": "s4",
+      "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+      "request_started_at": "2026-11-11T19:00:03.051Z",
+      "response_received_at": "2026-11-11T19:00:04.535Z",
+      "outcome": "FOUND",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:56:55.065769Z",
+        "updated_at": "2026-11-11T17:57:18.012356Z",
+        "next_run_time": "2026-11-11T13:48:00-05:00"
+      },
+      "current_run": {
+        "run_id": "90ced1b5-1ff4-8328-a31e-baee21c8846f",
+        "scheduled_for": "2026-11-11T18:48:00Z",
+        "started_at": "2026-11-11T18:50:43.600824Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "fa4f4310-8e88-8331-b416-f18113f51439",
+        "scheduled_for": "2026-11-11T17:48:00Z",
+        "created_at": "2026-11-11T17:56:51.862734Z",
+        "completed_at": "2026-11-11T17:56:52.789179Z",
+        "is_failure_message": false,
+        "chat_ref": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+        "belongs_to_prior_run": true
+      }
+    }
+  ],
+  "earlier_readbacks": [
+    {
+      "phase": "s0",
+      "client_window": "18:53Z collection batch; exact client request interval NOT_RETAINED",
+      "current_run": {
+        "run_id": "54491578-3cc0-8330-a031-4c1986ef2314",
+        "scheduled_for": "2026-11-11T18:00:00Z",
+        "started_at": "2026-11-11T18:27:59.644661Z",
+        "completed_at": "2026-11-11T18:53:03.064133Z",
+        "recorded_status": "failed",
+        "chat_ref": null
+      },
+      "latest_result_run_id": "1e093ebd-e478-8325-86da-dd5fbf183847"
+    }
+  ],
+  "derived_observations": {
+    "s0_same_run_id_status_reversal": true,
+    "s0_started_at_shift_us": 1759649670,
+    "s0_later_started_after_prior_completion_us": 256230198,
+    "s0_later_started_after_nominal_us": 3439294331,
+    "s2_started_after_nominal_us": 1578452090,
+    "s3_current_returned_run_started_after_nominal_us": 3652771813,
+    "s4_started_after_nominal_us": 163600824,
+    "all_four_returned_in_progress_during_collection_window": "2026-11-11T18:59:53.645Z–2026-11-11T19:00:04.535Z",
+    "task_metadata": {
+      "all_four_last_run_time_and_updated_at_precede_the_returned_current_run_started_at": true,
+      "all_four_next_run_time_equals_the_returned_current_run_scheduled_for": true,
+      "interpretation": "Task-level metadata is stale relative to the run-level records; no backend cause inferred."
+    },
+    "cached_results": {
+      "all_four_latest_result_run_ids_differ_from_returned_current_run_ids": true,
+      "interpretation": "Cached latest_result pointers refer to preceding runs; they are not current-run results or identity evidence."
+    },
+    "run_level_chat_refs": "All four returned current runs have chat_ref=null."
+  },
+  "classification": [
+    "S0_SAME_RUN_ID_STATUS_REVERSAL_AND_STARTED_AT_MUTATION",
+    "S0_COMPLETION_CLEARED_AFTER_PRIOR_FAILED_COMPLETION",
+    "FOUR_SLOT_RETURNED_IN_PROGRESS_CROSS_SECTION",
+    "ALL_FOUR_TASK_METADATA_STALE_RELATIVE_TO_CURRENT_RUN",
+    "ALL_FOUR_LATEST_RESULT_POINTERS_PRIOR_RUN",
+    "ALL_FOUR_RUN_LEVEL_CHAT_REFS_NULL",
+    "ATTEMPT_HISTORY_NOT_EXPOSED",
+    "CAUSE_UNKNOWN"
+  ],
+  "no_task_or_automation_mutation": true
+}
