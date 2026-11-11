@@ -391,3 +391,15 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - **Attribution boundary:** no passage is promoted to Nathan Direct. The assistant's statement that restating turns may help is an unverified self-report, not evidence of persistent memory, introspection, or a particular retrieval mechanism. No external linguistic fact-check was performed.
 - **Formalization triage:** the score convention is an explicit discrete rule, but the passage does not specify a complete initial score/history or a correctness oracle for classifying facts. A nontrivial state-machine formalization is `FORMALIZATION_BLOCKED_DEFINITION`; a proof of a restated update definition would add no source-grounded result. No Lean module or build was created. This is not Orson's P1 experiment.
 - **Relevance and limits:** deliberate unrelated reading during the geometry/source cycle. No SAT/H(s)H premise, physical system, measured dataset, equation, or theory evidence is supplied. This is archival reading, not a physical break.
+
+
+## P. Lateral source break: fun break - lx.txt, lines 961-1000
+
+- **Sources:** HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt; SAT archive 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt.
+- **Immutable blob SHA-1:** f33eb29fbac65efa1db054239bb9c28a04a13a42 in both repositories. The two paths are one byte-identical source body, not independent witnesses.
+- **Actual read extent:** lines 961-1000 inclusive, 40 lines. Next cursor: **1001**.
+- **Source form:** flattened transcript with textual “You said” / “ChatGPT said” labels. No raw message IDs, conversation ID or authenticated role metadata. No passage is attributed to Nathan Direct.
+- **Content:** continuation of a language-identification guessing game. The passage includes a Saramaccan prompt followed by an assistant response about Lojban, a user correction, and a later repair. This is a transcript-level target-substitution/correction sequence, not an independently verified linguistic claim.
+- **Tags:** LATERAL-READ; LANGUAGE-DISCOVERY-GAME; GAME-STATE-TRACKING; PROMPT-RESPONSE-MISMATCH; ASSISTANT-ENTITY-SUBSTITUTION; USER-CORRECTION; ASSISTANT-REPAIR; TRANSCRIPT-ONLY; TEXTUAL-SPEAKER-LABELS; RAW-ROLE-UNVERIFIED; NO-NATHAN-DIRECT-ATTRIBUTION; NOT-LLM-EXPERIMENT; NOT-THEORY-EVIDENCE.
+- **Attribution boundary:** the assistant's language identification and explanatory claims were not externally fact-checked. No linguistic statement is promoted to reference status.
+- **Relevance:** deliberate unrelated reading during the geometry/source cycle. No SAT/H(s)H premise, equation, physical system, measured dataset or theory evidence is supplied.
