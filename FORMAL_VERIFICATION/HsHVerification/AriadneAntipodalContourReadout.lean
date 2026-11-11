@@ -155,20 +155,20 @@ shapes satisfy these hypotheses remains a separate source/geometric task.
 -/ 
 
 /-- Mean-channel weight of one mode at two sampled positions. -/
-def meanWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
+noncomputable def meanWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
     (θ₀ θπ : Angle) (m : Mode) : ℝ :=
   (basis m θ₀ + basis m θπ) / 2
 
 /-- Half-difference weight of one mode at two sampled positions. -/
-def halfDifferenceWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
+noncomputable def halfDifferenceWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
     (θ₀ θπ : Angle) (m : Mode) : ℝ :=
   (basis m θ₀ - basis m θπ) / 2
 
 /-- Finite modal half-difference readout. -/
-def positionReadout {Mode Angle : Type*} [DecidableEq Mode]
+noncomputable def positionReadout {Mode Angle : Type*} [DecidableEq Mode]
     (modes : Finset Mode) (coeff : Mode → ℝ)
     (basis : Mode → Angle → ℝ) (θ₀ θπ : Angle) : ℝ :=
-  ∑ m in modes, coeff m * halfDifferenceWeight basis θ₀ θπ m
+  modes.sum (fun m => coeff m * halfDifferenceWeight basis θ₀ θπ m)
 
 /-- An antisymmetric target mode contributes zero to the mean/radius channel. -/
 theorem meanWeight_zero_of_antisymmetric
