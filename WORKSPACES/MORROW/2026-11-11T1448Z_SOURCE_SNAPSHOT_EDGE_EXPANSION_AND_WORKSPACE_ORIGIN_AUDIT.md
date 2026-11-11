@@ -99,4 +99,21 @@ Campaign status remains: P0 Code Grurple ACTIVE; P1 November 9 cognition OVERDUE
 - No public issue was created. This is internal source-custody and scheduler-quality-control work, not a new public scientific result.
 - No task ID, schedule, phase, prompt, cadence, enabled state, signet, or conversation name was changed. No sixth task.
 
-**Final status:** SOURCE-CUSTODY DELTA VERIFIED / INTERNAL READBACK REQUIRED AFTER WRITES / SCHEDULER RUN STILL IN_PROGRESS AT LAST PEEK / NO THEORY PROMOTION.
+**Final status:** SOURCE-CUSTODY DELTA VERIFIED / INTERNAL READBACK VERIFIED / SCHEDULER RUN STILL IN_PROGRESS AT LAST PEEK / NO THEORY PROMOTION.
+
+
+## 10. Durable artifact paths and independent readback
+
+The following internal artifacts were written or updated and then fetched again from main:
+
+- This report: `WORKSPACES/MORROW/2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (created after report finalization).
+- Kestrel optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`.
+- Morrow source crosswalk: `WORKSPACES/MORROW/CORE_TEAM_CONVERSATION_CROSSWALK.md`.
+- Morrow README: `WORKSPACES/MORROW/README.md`.
+- Morrow CURRENT_WORK: `WORKSPACES/MORROW/CURRENT_WORK.md`.
+- Morrow INBOX read marker: `WORKSPACES/MORROW/INBOX.md`.
+- Kestrel INBOX handoff pointer: `WORKSPACES/KESTREL/INBOX.md`.
+- Tern INBOX scheduler observation: `WORKSPACES/TERN/INBOX.md`.
+
+The report, handoff, crosswalk, README, CURRENT_WORK, and all three inboxes were independently fetched after their respective writes. The canonical receipt is the final write and is independently fetched after creation. No public publisher issue was opened because these are internal provenance and scheduler-control records.
