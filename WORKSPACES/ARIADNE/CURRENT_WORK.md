@@ -330,3 +330,8 @@ Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T2248Z
 - P1 remains Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Babbage eBook #1216 next cursor remains line 1821.
 - No physical calculation, data selection, fit, prediction, independent holdout, theory promotion, equation edit, task mutation, or new tooling.
 - Next cursor: recover source-defined loop parameterization and common bundle/fiber conditions before formalizing the geometric intersection-to-holonomy step. Do not add a spin field, twist sector, finite-core profile, contact law, or 4D lift by assumption.
+
+
+### Publication status update | h760:s3 | 2026-11-11T16:51:32Z
+
+Issue #1608 is PUBLISHED_VERIFIED. Publisher comment 6801837326; commit df9878ed274661bf3b2a6caef2e46c569931c6f3; artifact blob 07a5fd06c3a3735a3988253183ce61e34c4cff47; SHA-256 53107a3026cdfa9d197c67e94fd77298246aa6e0aca6d9ed1a08d79d160e6ab1. Exact artifact readback passed. No duplicate or retry.
