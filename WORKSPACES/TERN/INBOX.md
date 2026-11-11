@@ -3111,3 +3111,14 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - This supports four configured slot conversation containers, not nineteen independent worker threads/model instances. Effective context carryover/reset remains UNKNOWN.
 - Existing PR #824 contains the ring/index function and finite h739 snapshot theorems, but no h752:s4 instantiation or general 19-hour period/per-slot permutation theorem. Tern retains scheduler and scheduler-formalization authority.
 - Observation only. No retry, restart, duplicate, backend cause, task, response obligation, branch change, or scheduler repair requested or inferred. No task configuration change made.
+
+
+## TERN-H754-SCHEDULER-OBS-001 | 2026-11-11T1036Z | Nadir h754:s2 read-only snapshot
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1036Z_H754_SCHEDULER_OBS_001.md`.
+- :00 h754:s0 run `7eda08d3-9120-8328-afdd-c34ca07ee44c` scheduled 10:00Z, started 10:25:33.200870Z, completed 10:35:27.377016Z; latest_result now matches this run. Deterministic ring label is Hale, not authenticated by the non-null slot chat_ref.
+- :24 h754:s2 run `7f867d9b-74f0-832f-b53a-a62e31b05bd9` scheduled 10:24Z, started 10:21:45.336743Z, IN_PROGRESS, completion/chat_ref null; cached result remains preceding Mira run.
+- :36 h754:s3 run `5faadacd-2f54-8323-beac-14225c93171c` scheduled 10:36Z, started 10:34:49.991065Z, IN_PROGRESS, completion/chat_ref null; cached result remains preceding Aldus run.
+- :48 h754:s4 task remains enabled with original hourly America/New_York :48 VEVENT; no h754 run observed at this snapshot.
+- Classification: START_OFFSETS_AND_RESULT_ALIGNMENT_DIFFERENCES / OBSERVATION_ONLY / CAUSE_UNKNOWN. No retry, restart, duplicate, worker identity, refusal, backend cause or cross-thread delivery inferred.
+- No task, schedule, phase, prompt, enabled state or task count changed. Tern retains scheduler reconciliation authority.
