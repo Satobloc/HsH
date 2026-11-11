@@ -938,4 +938,242 @@ theorem h762_s3_completed_run_id_value :
 #print axioms h762_s3_followup_four_slot_statuses
 #print axioms h762_s3_completed_run_id_value
 
+/-! ## h762 final four-lease follow-up readback at 19:40Z
+
+Client-side request/response bounds:
+- global catalog: 19:40:33.034Z–19:40:33.948Z;
+- :00: 19:40:33.949Z–19:40:35.121Z;
+- :24: 19:40:35.121Z–19:40:40.940Z;
+- :36: 19:40:40.940Z–19:40:42.561Z;
+- :48: 19:40:42.561Z–19:40:43.553Z.
+
+The :00 run ID previously returned FAILED, then IN_PROGRESS, and now FAILED
+again with a later completion. The :24 run retains its h762:s2 scheduled time
+and run ID, but its started_at field changed again. The :36 record is the
+new h762:s3 Morrow run, which started before its nominal time. The :48
+Kestrel run has now completed.
+
+The definitions below record returned fields and same-day UTC clock-of-day
+arithmetic only. They do not infer retry/restart/duplicate execution, backend
+cause, worker identity, direct-thread delivery, or handoff consumption.
+-/
+
+/-- Final h762:s0 readback: same run ID/start as the later IN_PROGRESS
+snapshot, now returned FAILED with a later completion. -/
+def h762S0FinalReadback : RunRecordObservation :=
+  { runId := "54491578-3cc0-8330-a031-4c1986ef2314"
+    scheduledUs := us 18 0 0 0
+    startedUs := us 18 57 19 294331
+    completedUs := some (us 19 22 24 521837)
+    status := .failed
+    latestResultRunId := some "54491578-3cc0-8330-a031-4c1986ef2314"
+    chatRef := none }
+
+def h762S0TaskMetadataAfterFinal : TaskMetadataObservation :=
+  { lastRunUs := us 19 22 27 530706
+    updatedUs := us 19 22 49 024620
+    nextRunUs := us 20 0 0 0 }
+
+/-- Final h762:s2 readback: same scheduled run and cache pointer, later
+started_at, still IN_PROGRESS, with no run-level chat reference. -/
+def h762S2FollowupReadback : RunRecordObservation :=
+  { runId := "14db7f33-1298-8323-abb6-ee6f7091c3c0"
+    scheduledUs := us 18 24 0 0
+    startedUs := us 19 20 20 946259
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "325da37c-3fc8-832c-8943-5e5032f0bc39"
+    chatRef := none }
+
+/-- Actual h762:s3 Morrow run observed before nominal start time. -/
+def h762S3MorrowReadback : RunRecordObservation :=
+  { runId := "2937e5dc-bfc0-8322-9beb-c2020784a6ba"
+    scheduledUs := us 19 36 0 0
+    startedUs := us 19 35 7 130406
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "ac334e49-e780-8329-bced-028ccc39f86a"
+    chatRef := none }
+
+def h762S3MorrowTaskMetadata : TaskMetadataObservation :=
+  { lastRunUs := us 19 1 58 865835
+    updatedUs := us 19 2 21 116576
+    nextRunUs := us 19 36 0 0 }
+
+/-- Final h762:s4 Kestrel readback: completed; the cached result now points
+to this run. A non-null task-container reference is not worker authentication. -/
+def h762S4CompletedReadback : RunRecordObservation :=
+  { runId := "90ced1b5-1ff4-8328-a31e-baee21c8846f"
+    scheduledUs := us 18 48 0 0
+    startedUs := us 18 50 43 600824
+    completedUs := some (us 19 11 51 964554)
+    status := .completed
+    latestResultRunId := some "90ced1b5-1ff4-8328-a31e-baee21c8846f"
+    chatRef := some "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff" }
+
+def h762S4TaskMetadataAfterCompletion : TaskMetadataObservation :=
+  { lastRunUs := us 19 11 55 117779
+    updatedUs := us 19 12 17 544534
+    nextRunUs := us 19 48 0 0 }
+
+theorem h762_s0_final_same_run_and_start_as_later :
+    h762S0LaterReadback.runId = h762S0FinalReadback.runId ∧
+    h762S0LaterReadback.scheduledUs = h762S0FinalReadback.scheduledUs ∧
+    h762S0LaterReadback.startedUs = h762S0FinalReadback.startedUs ∧
+    h762S0LaterReadback.latestResultRunId = h762S0FinalReadback.latestResultRunId ∧
+    h762S0LaterReadback.chatRef = h762S0FinalReadback.chatRef := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h762_s0_final_status_returned_failed :
+    h762S0LaterReadback.status = .inProgress ∧
+    h762S0LaterReadback.completedUs = none ∧
+    h762S0FinalReadback.status = .failed ∧
+    h762S0FinalReadback.completedUs = some (us 19 22 24 521837) := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s0_final_duration_us :
+    h762S0FinalReadback.completedUs.getD 0 -
+      h762S0FinalReadback.startedUs = 1505227506 := by
+  decide
+
+theorem h762_s0_final_completion_after_nominal_us :
+    h762S0FinalReadback.completedUs.getD 0 -
+      h762S0FinalReadback.scheduledUs = 4944521837 := by
+  decide
+
+theorem h762_s0_final_task_metadata_caught_up :
+    h762S0TaskMetadataAfterFinal.lastRunUs >
+      h762S0FinalReadback.completedUs.getD 0 ∧
+    h762S0TaskMetadataAfterFinal.updatedUs >
+      h762S0TaskMetadataAfterFinal.lastRunUs ∧
+    h762S0TaskMetadataAfterFinal.nextRunUs = us 20 0 0 0 := by
+  decide
+
+theorem h762_s0_final_latest_result_is_current :
+    h762S0FinalReadback.latestResultRunId = some h762S0FinalReadback.runId := by
+  rfl
+
+theorem h762_s2_followup_same_run_cache_and_chat :
+    h762S2Readback.runId = h762S2FollowupReadback.runId ∧
+    h762S2Readback.scheduledUs = h762S2FollowupReadback.scheduledUs ∧
+    h762S2Readback.latestResultRunId =
+      h762S2FollowupReadback.latestResultRunId ∧
+    h762S2Readback.chatRef = h762S2FollowupReadback.chatRef ∧
+    h762S2FollowupReadback.status = .inProgress ∧
+    h762S2FollowupReadback.completedUs = none := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h762_s2_followup_started_at_delta_us :
+    h762S2FollowupReadback.startedUs - h762S2Readback.startedUs =
+      1802494169 := by
+  decide
+
+theorem h762_s2_followup_started_after_nominal_us :
+    h762S2FollowupReadback.startedUs -
+      h762S2FollowupReadback.scheduledUs = 3380946259 := by
+  decide
+
+theorem h762_s2_followup_task_metadata_still_stale :
+    h762S2TaskMetadata.lastRunUs < h762S2FollowupReadback.startedUs ∧
+    h762S2TaskMetadata.updatedUs < h762S2FollowupReadback.startedUs ∧
+    h762S2TaskMetadata.nextRunUs =
+      h762S2FollowupReadback.scheduledUs := by
+  decide
+
+theorem h762_s2_latest_result_pointer_remains_prior :
+    h762S2FollowupReadback.latestResultRunId =
+      some "325da37c-3fc8-832c-8943-5e5032f0bc39" ∧
+    h762S2FollowupReadback.latestResultRunId ≠
+      some h762S2FollowupReadback.runId := by
+  decide
+
+theorem h762_s3_morrow_started_before_nominal_us :
+    h762S3MorrowReadback.scheduledUs -
+      h762S3MorrowReadback.startedUs = 52869594 := by
+  decide
+
+theorem h762_s3_morrow_current_run_fields :
+    h762S3MorrowReadback.status = .inProgress ∧
+    h762S3MorrowReadback.completedUs = none ∧
+    h762S3MorrowReadback.chatRef = none ∧
+    h762S3MorrowReadback.latestResultRunId =
+      some "ac334e49-e780-8329-bced-028ccc39f86a" := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s3_morrow_task_metadata_precedes_current_start :
+    h762S3MorrowTaskMetadata.lastRunUs <
+      h762S3MorrowReadback.startedUs ∧
+    h762S3MorrowTaskMetadata.updatedUs <
+      h762S3MorrowReadback.startedUs ∧
+    h762S3MorrowTaskMetadata.nextRunUs =
+      h762S3MorrowReadback.scheduledUs := by
+  decide
+
+theorem h762_s4_kestrel_completed_readback :
+    h762S4CompletedReadback.status = .completed ∧
+    h762S4CompletedReadback.completedUs =
+      some (us 19 11 51 964554) ∧
+    h762S4CompletedReadback.latestResultRunId =
+      some h762S4CompletedReadback.runId ∧
+    h762S4CompletedReadback.chatRef =
+      some "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff" := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s4_kestrel_duration_us :
+    h762S4CompletedReadback.completedUs.getD 0 -
+      h762S4CompletedReadback.startedUs = 1268363730 := by
+  decide
+
+theorem h762_s4_kestrel_completion_after_nominal_us :
+    h762S4CompletedReadback.completedUs.getD 0 -
+      h762S4CompletedReadback.scheduledUs = 1431964554 := by
+  decide
+
+theorem h762_s4_kestrel_task_metadata_caught_up :
+    h762S4TaskMetadataAfterCompletion.lastRunUs >
+      h762S4CompletedReadback.completedUs.getD 0 ∧
+    h762S4TaskMetadataAfterCompletion.updatedUs >
+      h762S4TaskMetadataAfterCompletion.lastRunUs ∧
+    h762S4TaskMetadataAfterCompletion.nextRunUs = us 19 48 0 0 := by
+  decide
+
+theorem h762_followup_four_lease_status_vector :
+    h762S0FinalReadback.status = .failed ∧
+    h762S2FollowupReadback.status = .inProgress ∧
+    h762S3MorrowReadback.status = .inProgress ∧
+    h762S4CompletedReadback.status = .completed := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_followup_four_lease_chat_ref_vector :
+    h762S0FinalReadback.chatRef = none ∧
+    h762S2FollowupReadback.chatRef = none ∧
+    h762S3MorrowReadback.chatRef = none ∧
+    h762S4CompletedReadback.chatRef =
+      some "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff" := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+#print axioms h762_s0_final_same_run_and_start_as_later
+#print axioms h762_s0_final_status_returned_failed
+#print axioms h762_s0_final_duration_us
+#print axioms h762_s0_final_completion_after_nominal_us
+#print axioms h762_s0_final_task_metadata_caught_up
+#print axioms h762_s0_final_latest_result_is_current
+#print axioms h762_s2_followup_same_run_cache_and_chat
+#print axioms h762_s2_followup_started_at_delta_us
+#print axioms h762_s2_followup_started_after_nominal_us
+#print axioms h762_s2_followup_task_metadata_still_stale
+#print axioms h762_s2_latest_result_pointer_remains_prior
+#print axioms h762_s3_morrow_started_before_nominal_us
+#print axioms h762_s3_morrow_current_run_fields
+#print axioms h762_s3_morrow_task_metadata_precedes_current_start
+#print axioms h762_s4_kestrel_completed_readback
+#print axioms h762_s4_kestrel_duration_us
+#print axioms h762_s4_kestrel_completion_after_nominal_us
+#print axioms h762_s4_kestrel_task_metadata_caught_up
+#print axioms h762_followup_four_lease_status_vector
+#print axioms h762_followup_four_lease_chat_ref_vector
+
+#eval [h762S0FinalReadback.status, h762S2FollowupReadback.status,
+      h762S3MorrowReadback.status, h762S4CompletedReadback.status]
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
