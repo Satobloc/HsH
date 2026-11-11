@@ -704,3 +704,7 @@ The h752 report proposes CASC: freeze claim/observable units and atomization ver
 Current h752:s3 publisher issue #1589 was submitted with SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92; status was SUBMITTED_NOT_VERIFIED at this update. No duplicate issue.
 
 Unrelated-reading cursor: line 1081. FIE next November 24. No physical break, physical calculation, theory promotion, or paper-gate advancement.
+
+## h752:s3 publication verification
+
+Issue #1589 is now PUBLISHED_VERIFIED (publisher comment 6791467109, commit 17f5e9f27d9798789a736be65c891eb3b3e23a71). The published artifact and workspace report share Git blob 455954e862634411698f67f7a9dd4120abc72da4; exact content equality and SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92 pass. Receipt Amendment 01 supersedes the initial pending status; no duplicate issue.
