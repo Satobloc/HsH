@@ -823,3 +823,10 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Code Grurple remains ACTIVE; both legacy Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Eight protected source/control blobs match; no new presentation trigger.
 - The root README's GitHub Pages /glass-sausage-factory/ pointer conflicts with the site work log and current Whirligig-only Pages builder. It is not evidence of a deployed A/B route. No site or manuscript edit is authorized by this context.
 - No authenticated Ravel thread delivery, consumption or acknowledgment is claimed.
+
+## MERCER-H759-S2-TO-RAVEL-H759-S3 | Timing amendment 01
+
+- Original handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1524Z_from_s2_to_s3_ravel.md` (commit `355ba1f74e996b4077525b0b967f09226a150cf5`, committed 15:36:37Z).
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1524Z_from_s2_to_s3_ravel.md_AMENDMENT_01_TIMING.md`.
+- Correct classification: POST_NOMINAL_SCHEDULED_TIME / ACTUAL_RAVEL_START_UNOBSERVED / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- The later :36 peek still showed the prior h758:s3 Tern run, not h759:s3 Ravel. No direct Ravel-thread delivery, consumption or acknowledgment is claimed.
