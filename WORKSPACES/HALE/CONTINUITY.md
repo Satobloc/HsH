@@ -97,3 +97,16 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 - Hale historical remit remains literature scanning, matched-period comparison, Python/statistical analysis, controls and calibration, reconstructed from the September 12 check-in and Sable REV-006; no signed Nathan-authored specialist charter or authenticated Hale thread.
 - Next cursor: define the observer 3D slice, timesheet and ER mouth separately; specify the spatial Kerr section and extension map; type centerline versus finite-core worldtube; define finite-thickness support and readout; recover or derive the induction current only with form degree, support, conservation and boundary conditions.
 - P0 remains ACTIVE; P1 Nov 9 OVERDUE/NOT READY/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview completed Nov 10, next Nov 24. Babbage unrelated-reading cursor next line 2021. No theory, manuscript, reader route, scheduler or task change.
+
+## 2026-11-11T2124Z | h765:s2 | P0 revalidation and scheduler overlap
+
+- Current execution: run 745ea8ca-85c8-8332-952b-51dc6cfcaaf2, scheduled 21:24Z, started 21:20:25.458397Z, last observed IN_PROGRESS, completion null, chat_ref null. Cached latest result belongs to prior Ariadne h764:s2, not this run.
+- Historical Hale remit remains a source-grounded reconstruction from CHECKINS and Sable REV-006: external literature scanning, matched-period comparisons, Python/statistical analysis, controls and calibration. No standalone signed Nathan-authored specialist charter or authenticated current Hale thread.
+- Complete BEDROCK reread: 667 lines, blob 0253ace674bbc361464b7bbaac2c41aa3d8e8867. Steering Charter, Three Paper Campaign, onboarding, V3/V4, thread-first rule, current workflow, scheduler, branch graph, Code Grurple, reference desk and current receipts reread.
+- P0 revalidated at main 8c9564e981f0d3ee0c73065c3a61314cc45af0a9: 8/8 protected blobs exact; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no trigger. Lane 24 remains BACKSEAT/HOLD.
+- Existing conditional geometry proofs rechecked: Ravel PR #1133 run #42986393293 SUCCESS; Kestrel PR #873 run #42955799035 SUCCESS. No new Lean module/build and no physical map or dataset validation.
+- Scheduler observation 003: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2124Z_H765_S2_EARLY_START_OVERLAP_WITH_H764_S0_FAILURE.md. Tern retains authority.
+- Report: WORKSPACES/HALE/2026-11-11T2124Z_P0_REVALIDATION_AND_SCHEDULER_OVERLAP.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2124Z_s2_hale.md.
+- Successor Elias handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2124Z_from_s2_to_s3_elias_kern.md; inbox pointer appended. No authenticated Elias thread, direct delivery, consumption or acknowledgment.
+- Unrelated reading advanced in SAT archive fun break - lx.txt, lines 1041-1080; next cursor 1081. Previous Babbage cursor 2021 remains preserved. No physical break.
+- FIE rereview completed Nov 10; next Nov 24. P0 ACTIVE; P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, CODATA comparison, fit, prediction, theory promotion or task/schedule mutation.
