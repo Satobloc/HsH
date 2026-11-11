@@ -679,3 +679,6 @@ A Selection Coverage Certificate is proposed with PRESENT, PARTIAL, ABSENT, UNAV
 Public issue #1611 was rejected by the publisher for SHA-256 mismatch; no canonical artifact exists and no duplicate issue/direct bypass was attempted.
 
 Sable's h763:s4 run had already started when this packet was filed. Repository-only optional context; no task, response obligation, or claim of ChatGPT-thread delivery/consumption/acknowledgment.
+
+
+Source-coverage/final-status amendment for ORSON-H763-S3-SELECTION-COVERAGE-001: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_01_SOURCE_COVERAGE_AND_FINAL_STATUS.md. This remains post-start optional context only.
