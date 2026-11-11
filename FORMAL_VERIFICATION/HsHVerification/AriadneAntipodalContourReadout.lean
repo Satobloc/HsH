@@ -135,6 +135,72 @@ theorem radiusDisplacementReadout_not_injective
     simpa [radiusDisplacementReadout] using congrArg toRadiusDisplacement hSamples
   exact hReadoutInjective hReadout
 
+/-!
+## Conditional modal-separation gate
+
+The source Methods state that combining the left- and right-hand profiles into
+core position and radius selects the m = 1 contribution for position and the
+other reported modes for radius. The arbitrary-profile non-injectivity result
+above does not contradict that source-specific claim: it concerns all
+functions, whereas modal separation requires restrictions on the admissible
+mode family.
+
+The following theorem makes a sufficient two-sample condition explicit. It
+does NOT derive that condition from the Euler/Rankine model or the raw data.
+The target mode must have normalized opposite samples, while every other
+included mode must have equal samples. Under those assumptions the
+half-difference readout isolates the target coefficient, and the target's
+mean-channel contribution vanishes. Establishing that the physical mode
+shapes satisfy these hypotheses remains a separate source/geometric task.
+-/ 
+
+/-- Mean-channel weight of one mode at two sampled positions. -/
+def meanWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
+    (θ₀ θπ : Angle) (m : Mode) : ℝ :=
+  (basis m θ₀ + basis m θπ) / 2
+
+/-- Half-difference weight of one mode at two sampled positions. -/
+def halfDifferenceWeight {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
+    (θ₀ θπ : Angle) (m : Mode) : ℝ :=
+  (basis m θ₀ - basis m θπ) / 2
+
+/-- Finite modal half-difference readout. -/
+def positionReadout {Mode Angle : Type*} [DecidableEq Mode]
+    (modes : Finset Mode) (coeff : Mode → ℝ)
+    (basis : Mode → Angle → ℝ) (θ₀ θπ : Angle) : ℝ :=
+  ∑ m in modes, coeff m * halfDifferenceWeight basis θ₀ θπ m
+
+/-- An antisymmetric target mode contributes zero to the mean/radius channel. -/
+theorem meanWeight_zero_of_antisymmetric
+    {Mode Angle : Type*} (basis : Mode → Angle → ℝ)
+    (θ₀ θπ : Angle) (target : Mode)
+    (hTarget : basis target θ₀ + basis target θπ = 0) :
+    meanWeight basis θ₀ θπ target = 0 := by
+  simp [meanWeight, hTarget]
+
+/-- If the target mode has opposite normalized samples and every other
+    included mode has equal samples, the finite half-difference readout
+    returns exactly the target coefficient. These are explicit assumptions,
+    not a derivation of the physical mode shapes. -/
+theorem positionReadout_eq_target
+    {Mode Angle : Type*} [DecidableEq Mode]
+    (modes : Finset Mode) (target : Mode)
+    (hmem : target ∈ modes)
+    (coeff : Mode → ℝ) (basis : Mode → Angle → ℝ)
+    (θ₀ θπ : Angle)
+    (hTarget : basis target θ₀ - basis target θπ = 2)
+    (hOther : ∀ m ∈ modes, m ≠ target →
+      basis m θ₀ = basis m θπ) :
+    positionReadout modes coeff basis θ₀ θπ = coeff target := by
+  unfold positionReadout halfDifferenceWeight
+  rw [Finset.sum_eq_single target]
+  · simp [hTarget]
+  · intro m hm hne
+    simp [hOther m hm hne]
+  · intro hnot
+    exact (hnot hmem).elim
+
+
 #print axioms from_toRadiusDisplacement
 #print axioms to_fromRadiusDisplacement
 #print axioms toRadiusDisplacement_injective
