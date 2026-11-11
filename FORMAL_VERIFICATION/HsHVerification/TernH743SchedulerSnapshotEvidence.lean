@@ -538,6 +538,8 @@ theorem h758_s3_worker :
 theorem h758_s3_successor :
     ringAt ((rotationIndex 758 3 + 1) % 19) = some "Morrow" := by rfl
 
+#print axioms h758_s3_sequence
+#print axioms h758_s3_index
 #print axioms h758_s3_worker
 #print axioms h758_s3_successor
 
