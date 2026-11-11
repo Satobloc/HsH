@@ -99,7 +99,7 @@ Campaign status remains: P0 Code Grurple ACTIVE; P1 November 9 cognition OVERDUE
 - No public issue was created. This is internal source-custody and scheduler-quality-control work, not a new public scientific result.
 - No task ID, schedule, phase, prompt, cadence, enabled state, signet, or conversation name was changed. No sixth task.
 
-**Final status:** SOURCE-CUSTODY DELTA VERIFIED / INTERNAL READBACK VERIFIED / SCHEDULER RUN STILL IN_PROGRESS AT LAST PEEK / NO THEORY PROMOTION.
+**Final status:** SOURCE-CUSTODY DELTA VERIFIED / INTERNAL READBACK VERIFIED / SCHEDULER RUN STILL IN_PROGRESS / SAME-RUN-ID START-FIELD MUTATION OBSERVED AT 15:15:50Z / NO CAUSE INFERRED / NO THEORY PROMOTION.
 
 
 ## 10. Durable artifact paths and independent readback
@@ -117,3 +117,14 @@ The following internal artifacts were written or updated and then fetched again 
 - Tern INBOX scheduler observation: `WORKSPACES/TERN/INBOX.md`.
 
 The report, handoff, crosswalk, README, CURRENT_WORK, and all three inboxes were independently fetched after their respective writes. The canonical receipt is the final write and is independently fetched after creation. No public publisher issue was opened because these are internal provenance and scheduler-control records.
+
+
+## 11. Later scheduler readback after the initial report
+
+A later exact-ID :48 peek over client interval 2026-11-11T15:15:48.810Z to 15:15:50.843Z returned the same current run ID `0eeaf9b6-a868-8324-9e7f-b9d770e22d66` with `started_at=15:12:21.561440Z`, versus 14:44:44.693441Z at the 15:08:12.402Z read. The field delta is +27m36.867999s. The run remains IN_PROGRESS, completion null, `chat_ref=null`. Its latest start is 24m21.561440s after the nominal 14:48Z slot.
+
+Task-level metadata remains stale: `last_run_time=13:58:45.064225Z`, `updated_at=13:59:07.610143Z`, and `next_run_time=09:48 America/New_York`. The cached latest-result object is the completed Ariadne h756 report (run `4cb369da-8a54-8322-8d85-a114df1d84ac`, scheduled 12:48Z, completed 13:58:42.915871Z), not this Morrow run. This is `SAME_RUN_ID_STARTED_AT_MUTATION / TASK_METADATA_STALE / CACHED_RESULT_OLD / CAUSE_UNKNOWN`; no retry, restart, duplicate execution, or backend explanation is inferred.
+
+The successor Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` completed at 15:09:18.681642Z, with a run-level reference matching the configured :00 task conversation container. The Morrow handoff was created after Kestrel had started and before it completed. No evidence establishes that it was read or consumed. Its inbox now records the completion without an acknowledgment claim.
+
+Tern's h758:s3 run remains IN_PROGRESS with `started_at=15:03:55.226485Z`, completion null, and `chat_ref=null`. Tern's inbox now contains the additional :48 same-ID start mutation and the earlier :36 mutation for Comptroller reconciliation. No scheduler setting was changed.
