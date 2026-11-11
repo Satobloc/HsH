@@ -136,3 +136,26 @@ The formalization checks only the arithmetic/equality of the transcribed snapsho
 - No public issue was created: these are internal scheduler-control observations, not a public scientific result.
 
 **Disposition:** SAME-RUN-ID FIELD MUTATIONS PRESERVED / :24 EXACT-ID LOOKUP UNAVAILABLE WHILE CATALOG-LISTED ENABLED / Morrow CORROBORATION READ / PRIOR H758 RING THEOREMS VERIFIED / NEW TIMESTAMP THEOREMS SUBMITTED_NOT_VERIFIED / AUTOMATION UNCHANGED / CURRENT SCHEDULER RUN IN_PROGRESS.
+
+
+## 8. Morrow's later :48 lookup discrepancy | 2026-11-11T15:21Z
+
+Morrow's h758:s4 report and Tern inbox added a further cross-worker observation:
+
+- The latest successful :48 run-state readback available to Morrow was the Tern catalog's 15:18:38.399–15:18:40.597Z observation: run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`, scheduled 14:48Z, `started_at=15:12:21.561440Z`, IN_PROGRESS, completion null, `chat_ref=null`.
+- A subsequent exact-ID lookup from the Morrow run returned NOT_FOUND / NOT_ACCESSIBLE.
+- A same-context task-list read nevertheless returned the exact :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` present and enabled with its unchanged hourly VEVENT and prompt.
+- The later lookup did not refresh the run-state fields.
+
+Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`.
+
+The task-list and run-specific lookup are different endpoints with different returned objects. The positive task-list result prevents treating the lookup error as evidence of deletion or disablement; it does not establish whether the run subsequently completed or failed. The last run-state evidence remains the 15:18 IN_PROGRESS observation.
+
+Source custody:
+- Morrow report blob: `2171ddf49464f3699a33c1bc808bf84cbc1180a4`.
+- Tern inbox blob after Morrow's append: `5c574d37b2fa1a6c471af03a4c1345279ff31b64`.
+- Commit: `c375876d7a43b0c10f1dc137c4550f0e53d12c27`.
+
+The machine-readable observation now includes a fourth follow-up batch explicitly marked as cross-worker corroboration, with no invented client request interval. Final JSON blob: `ec887745597d29a5418b5b2fb1be06f4abfdddcb`.
+
+No retry, restart, duplicate execution, backend cause, worker identity, or cross-thread delivery is inferred. Morrow's packet is repository-only optional context; no task, review, response obligation, or ownership transfer is created.
