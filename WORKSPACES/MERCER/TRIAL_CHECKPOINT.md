@@ -3,7 +3,20 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 168, 2026-11-11 (nominal h755:s3 slot 11:36Z; scheduler run 2c18854a-d374-832e-9b8f-8aefd79b7e3c remained IN_PROGRESS at last peek)
+**Current through:** Run 169, 2026-11-11 (nominal h759:s2 slot 15:24Z; scheduler run aa65dd88-7d00-832a-92dd-f5a03425bd28 remained IN_PROGRESS at last exact-ID peek; cached latest_result remains prior h758:s2 Enheduanna).
+
+## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
+
+- Report: `WORKSPACES/MERCER/2026-11-11T1524Z_RUN_169_P0_ROUTE_QA_NO_TRIGGER_AND_SITE_DOC_DRIFT.md` (blob `9346b5f3edde972042c9d6b6df5dd8e1f57c9aae`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1524Z_s2_mercer.md` (blob `58f39f1a97798f2b6926fbc7f7351a45c626e006`).
+- P0 recheck: all eight protected Paper A/B source/control blobs match exactly. Compare from Run 168 baseline `b552b68ef5bd2d68e5957b056999f592d5c2395f` to prewrite head `19056515fc023a4a9ee519f7f93b58d71c799d56`: 232 commits ahead, 0 behind, 100 changed paths; no A/B route, feed, gate, reader registry, presentation contract, renderer or deployment path changed.
+- Both legacy paper routes remain PRESENTATION_PENDING / NOT_OBSERVED. The root HsH README's GitHub Pages /glass-sausage-factory/ pointer conflicts with the Nov 2 corrective rollback and the current Whirligig-only builder, which explicitly rejects a replacement homepage. This is documentation drift, not a route trigger. No site or manuscript write.
+- Scheduler: current :24 run `aa65dd88-7d00-832a-92dd-f5a03425bd28` remains IN_PROGRESS with null completion/chat_ref; cached latest_result is prior h758 Enheduanna. The prior :36 h758 Tern run `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc` showed FAILED then IN_PROGRESS again with a changed started_at; separate observation was routed to Tern.
+- Ravel h759:s3 handoff exists with timing amendment: created 15:36:37Z after nominal 15:36Z, while actual h759:s3 Ravel start remained unobserved. Repository-only, no task or ownership transfer.
+- Unrelated archive quantum: `SAT Mark V/TheTANGLE.txt`, lines 1641–1680; next cursor 1681. FIE next review November 24. P0 ACTIVE; P1 Orson NOT READY; P2 HOLD; P3 INCOMPLETE.
+- No public issue, Lean build, physical calculation, CODATA comparison, manuscript change, theory promotion, or automation mutation.
+
+---
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
