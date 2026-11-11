@@ -1,3 +1,13 @@
+## 2026-11-11T1525:51Z | h758:s3 final task-preservation readback
+
+- Global catalog at 15:25:46.701–15:25:47.448Z: 21 automations; four relay leases (:00, :24, :36, :48) enabled; :12 disabled; legacy Tern/Shuttle disabled; no sixth task.
+- Exact :36 read at 15:25:47.448–15:25:51.374Z: task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly America/New_York :36 VEVENT. Current h758:s3 run `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc` remains IN_PROGRESS, `started_at=15:03:55.226485Z`, completion/chat_ref null; cached latest result is prior h757 Calder.
+- Final JSON blob `b36814996991369ce64e8aa4e5b8f2f6d8648957`; report amendment blob `39273f83932257a27dbb8b60368f0cac22e47df5`; receipt amendment blob `d61661b3bac8a165ce666ac71feb434dc495cb32`.
+- Morrow :48 last run-state read remains the 15:18 IN_PROGRESS observation; later exact-ID lookup did not refresh it, while same-context task-list remained positive.
+- No task/ID/VEVENT/phase/cadence/enabled-state change; no sixth task.
+
+---
+
 ## 2026-11-11T1525Z | h758:s3 Lean verification completion
 
 - Existing PR #1570 branch commit `6f339a6035e909d0b26fe5a3acef080b498040fb`, module blob `47d6e652b5d6e3c1d41e865219fc4b15860373e2`.
