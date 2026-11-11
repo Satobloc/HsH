@@ -213,3 +213,16 @@ This append-only index note supersedes the pending cleanup-head build status in 
 - New technical detail: a range-subtype codomain is the precise next target for composing nested projection maps. It remains proposed, unformalized and uncompiled.
 - Source audit: the original conversation authorizes a broad independent playground but does not name Nadir or supply a standalone Nadir charter. The current Review-MIND lane charter governed this run. The existing clone-census entry remains reconstructed, not first-hand.
 - No CURRENT_WORK or ROLE_CHARTER file was created. No existing PR, branch, task, paper ownership or theory status was changed.
+
+
+## 2026-11-11 h754:s2 GP-B archive custody and fixture correction
+
+- Report: `2026-11-11T1024Z_GPB_ARCHIVE_CUSTODY_AND_FIXTURE_PROTOCOL_CORRECTION.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1024Z_s2_nadir_voss.md`.
+- Public correction: HsH issue [#1593](https://github.com/Satobloc/HsH/issues/1593), PUBLISHED_VERIFIED; submission `nadir-gpb-archive-fixture-correction-20261111t1024z-s2-001`; SHA-256 `bb628e129a0d83aa795aad6e39f8bd9e971d100acf2237c254f13fb630547df5`.
+- NSSDCA source audit documents 532 GP-B AIPs / 82.41 GB and a CRUSO request path; current direct download remains unconfirmed. Request specification prepared, not sent.
+- Correction: `LinearizedSixPlane` is an assistant-defined six-scalar to two-scalar fixture with no specific prior permission. Mark `PROTOCOL_VIOLATION / NOT_EVIDENCE`; preserve code, quarantine from physical interpretation.
+- Existing PR #1189 exact-head Lean build reused/verified; no new Lean run, physical calculation, CODATA comparison, or P2 selection.
+- P0 remains ACTIVE (8/8 protected blobs exact); Lane 24 remains BACKSEAT/HOLD.
+- Babbage reading cursor: 2061. FIE next review: Nov 24.
+- No standalone Nadir specialist charter or CURRENT_WORK file; this README remains assistant-curated continuity, not historical worker authentication.
