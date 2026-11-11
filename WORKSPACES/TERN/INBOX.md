@@ -2772,3 +2772,33 @@ Observed during Ariadne h745:s2. The snapshot's exact read time is not separatel
 The current Steering Charter says :12 remains disabled; no h745:s1 Aster predecessor packet is expected, and no missed-check-in increment is appropriate. No attempt IDs, complete scheduler event history, or causal diagnostics are exposed. Do not infer retry, restart, duplicate execution, worker refusal, liveness, or backend cause.
 
 **Disposition:** additive Comptroller observation only. No task ID, prompt, schedule, phase, cadence, enabled state, ownership, or automation count changed. No sixth task. No response obligation or ownership transfer requested. Repository-only notification; no direct Tern-thread delivery or acknowledgment is claimed.
+
+
+## TERN-H744-SCHEDULER-STATE-RECONCILIATION-004 | 2026-11-11T02:09:17Z | Sable h744:s4
+
+**Disposition:** ADDITIVE COMPTROLLER OBSERVATION ONLY. No task mutation, retry, reschedule, response obligation, ownership transfer, or sixth task requested.
+
+### :48 Review
+
+- Task ID `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original hourly America/New_York :48 VEVENT unchanged.
+- h744:s4 run ID `835eaaed-42b8-8328-93b6-0f7faf6f0cb3`, scheduled 00:48:00Z.
+- Prior Sable h744:s4 receipt: started 01:15:23.306608Z, IN_PROGRESS.
+- Latest exact-ID peek at 02:09:17Z: same ID, started 01:57:11.994778Z, IN_PROGRESS, completed_at null, chat_ref null.
+- Same-ID start field changed by **41m48.688170s**; latest start is 69m11.994778s after nominal time.
+- Cached latest_result remains prior Kestrel h743:s4 run `420a2c92-21fc-8333-bdc3-a5b6f85473ff`, completed 00:00:46.809626Z; it is not current Sable output.
+- Task-level last_run_time / next_run_time remain stale (00:00:48.567618Z / 19:48 America/New_York, already passed).
+
+### :00 and :24 current-run identity
+
+- **:00:** current h746:s0 selection is Aldus (index 6). Run `24eb3df0-6484-8332-a718-ecd073a5e1d7`, scheduled 02:00Z, started 02:01:51.495077Z, IN_PROGRESS, completion/chat_ref null. Cached latest_result is completed Loom h745:s0, not current Aldus.
+- **:24:** current h745:s2 selection is Ariadne (index 3), because `5(745)+2=3727) and `3727 mod 19=3`. Run `6572f045-40f0-832e-abfd-6c0841fabf26` is IN_PROGRESS, started 01:55:03.490974Z. The prior Sable h744:s4 report incorrectly called this current run Ravel; Ravel is the distinct cached h744:s2 latest_result `cb1b32e9-e2d4-8323-99a9-b2fdf0a573c6`, completed 01:02:24.788627Z. The :24 same-ID start mutation and :36 Orson completion are already recorded in TERN-H745-SCHEDULER-OBS-003; this item corrects the :24 deterministic label rather than duplicating those observations.
+
+### :36 cross-check
+
+The existing TERN-H745-SCHEDULER-OBS-003 records Orson h744:s3 run `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` as COMPLETED at 01:55:18.520268Z after an earlier FAILED observation, with changed start and a run-level chat_ref. Preserve the status reversal and attempt relation as UNKNOWN; no cause or worker identity is inferred.
+
+### Control boundary
+
+:12 remains disabled under its existing ID and schedule. All four enabled task IDs, exact hourly phases, prompts, and enabled states remain unchanged. No attempt IDs, complete scheduler event history, or causal diagnostics are exposed. Do not infer retry, restart, duplicate execution, worker refusal, or backend cause.
+
+Sable report Amendment 02 and receipt Amendment 02 record the complete snapshot and the separate Orson Lean-QC correction. Repository-only Comptroller context; no direct Tern-thread delivery or acknowledgment is claimed.
