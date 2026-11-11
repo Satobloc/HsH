@@ -519,4 +519,26 @@ theorem slotCycleImageFrom_card (s : Fin 5) (start : Fin 19) :
 
 #print axioms slotCycleImageFrom_complete
 #print axioms slotCycleImageFrom_card
+
+
+/-! ## Current h758:s3 nominal selection
+
+The current fixed :36 phase is h=758, s=3. This verifies the deterministic
+ring lookup for this nominal slot only; it does not authenticate a worker,
+thread, execution, delivery, or independent model instance.
+-/
+
+theorem h758_s3_sequence : 5 * 758 + 3 = 3793 := by decide
+
+theorem h758_s3_index : rotationIndex 758 3 = 12 := by decide
+
+theorem h758_s3_worker :
+    ringAt (rotationIndex 758 3) = some "Tern Rook" := by rfl
+
+theorem h758_s3_successor :
+    ringAt ((rotationIndex 758 3 + 1) % 19) = some "Morrow" := by rfl
+
+#print axioms h758_s3_worker
+#print axioms h758_s3_successor
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
