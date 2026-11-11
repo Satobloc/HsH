@@ -16,8 +16,8 @@ physical curve, decide whether lambda is coordinate time or proper time,
 construct a finite-core worldtube, or identify this historical ansatz with
 the current H(s)H native positive-definite geometry.
 
-The theorem is conditional mathematics, not a measured constraint or
-physical validation.
+The velocity constructor is noncomputable because `Real.cos` is noncomputable over `Real`.
+The theorem is conditional mathematics, not a measured constraint or physical validation.
 -/
 
 namespace HsHVerification.KestrelSAT4DTimelikeGate
@@ -33,7 +33,7 @@ def minkowskiNorm4 (v : Vec4) : ℝ :=
   -(v.t * v.t) + v.x * v.x + v.y * v.y + v.z * v.z
 
 /-- The tangent components displayed for the historical three-mode SAT4D ansatz. -/
-def sat4dVelocity
+noncomputable def sat4dVelocity
     (Ax kx phix Ay ky phiy Az kz phiz lam : ℝ) : Vec4 :=
   { t := 1
     x := Ax * kx * Real.cos (kx * lam + phix)
