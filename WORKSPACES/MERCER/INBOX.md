@@ -720,3 +720,12 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 - Fresh P0 snapshot: eight protected blobs match; no P0 paths changed in the 48-commit comparison; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no authenticated browser/site-editor/deployer route capability; no route probe.
 - New scheduler context: the :36 task's prior h750:s3 run ID `a7258540-60a0-8331-9ba4-4d6602c22b33` was recorded FAILED then later IN_PROGRESS with a changed started_at; Tern has the exact snapshots in `TERN-H751-SCHEDULER-OBS-001` and amendment 01. No h751:s3 Mercer run was observed at handoff preparation.
 - This packet does not alter Mercer's existing independent Paper A/B QA remit. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## MERCER-H751-S2-MISROUTED-PACKET-QUARANTINE-001 | 2026-11-11
+
+- The packet WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0724Z_from_s2_to_s3_mercer.md is MISROUTED / DO_NOT_CONSUME_AS_PREDECESSOR.
+- Correct h751:s2 calculation: seq=3757, index 14 Kestrel; next index 15 Meridian. The original :24 report/receipt incorrectly label Meridian→Mercer. See report Amendment 02, receipt Amendment 02, and handoff Amendment 01.
+- No h751:s3 Meridian run was observed; the :36 task still shows the delayed h750:s3 Nadir run. Therefore Mercer h751:s4 has no valid incoming h751:s3 predecessor packet.
+- The P0 observations in the misrouted packet may be read as unassigned scheduled-run context only. They are not worker-authenticated work and do not establish historical Meridian/Kestrel participation.
+- Classification: QUARANTINED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
