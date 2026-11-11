@@ -50,7 +50,7 @@ theorem positive_alignment_with_changed_partner_not_immediate_exposure
     (candidate : CurrentPairAlignmentCandidate Participant partner round target source)
     (hPositive : 0 < candidate.directionalScore)
     (hChanged : partner round target ≠ source) :
-    candidate.currentPair ∧
+    partner (round + 1) target = source ∧
       0 < candidate.directionalScore ∧
       ¬ immediatePriorDyadicExposure partner round target source := by
   exact ⟨candidate.currentPair, hPositive, hChanged⟩
