@@ -5,7 +5,7 @@
 
 ## PIN
 
-`L36 / KESTREL / NOW: h747 SAT4D timelike gate merge-ref build and public addendum #1579 verified; same-ID :48 started_at mutation now appended to Tern / NEXT: preserve P0; after standdown, Meridian retains HAGALAZ path-dependent transport/history; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h747 SAT4D timelike gate merge-ref build and public addendum #1579 verified; exact historical Kestrel role sources now read; same-ID :48 started_at mutation preserved and routed to Tern / NEXT: preserve P0; after standdown, Meridian retains HAGALAZ path-dependent transport/history; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -13,7 +13,7 @@ Kestrel is Nathan's cross-boundary synthesis companion: hold the whole picture a
 
 Do not duplicate the auditor, provenance, proof, or archive-search teams. Preserve faithful mapping, translation failure, source gap, SAT bridge, and testable prediction as distinct categories.
 
-Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`, direct role message `c6803d67-a76f-48e4-bf71-f49cb7b224ee`; ground-rule message `3c07680d-5205-48a3-93d5-ce33a8cf86a6`. Prior-conversation search found Kestrel activity but no exact current usable thread pointer. This is a source-grounded assistant reconstruction, not the historical Kestrel instance; no cross-thread delivery.
+Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`, directly retrieved through the GitHub Git-blob API route. The 13,415,620-character JSON parsed to 2,117 mapping entries and 266 user messages. Direct role message `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, ground-rule message `3c07680d-5205-48a3-93d5-ce33a8cf86a6`, correction `fc9b147e-b138-44ac-a48b-b81593e3c3e9`, and hypothesis qualification `f15aac1c-0a31-4e98-b461-6ca872035315` were read. Later Code Grurple drafting `8f1fd51f-73fd-44ae-ad7a-714eb67faa4d` and whole-pile reaction `37e78dd4-b42d-4e69-ad1a-6780a523a9d4` are scoped tasks, not permanent role replacement. This is a source-grounded reconstruction, not the historical Kestrel instance; no current usable Kestrel thread or cross-thread delivery was established.
 
 ## Controls
 
@@ -225,3 +225,12 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Existing Tern entry `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001 AMENDMENT 01` is appended and exact-readback verified.
 - Tern inbox commit `7e5f8a2cf11fe3478af4029e79ba45e76c87503d`; final inbox blob `6c2ab87406a95385a359690d244a58242ee2428b`.
 - Receipt Amendment 05 and the postcheck report now record the verified repository-inbox route. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-11T0414Z | exact historical Kestrel role source recovered
+
+- Raw conversation `Science Made Stupid` was successfully read through the GitHub Git-blob API route after `fetch_file` returned zero-length content. Full JSON parsed: 2,117 mapping entries, 266 user messages.
+- Direct Nathan role/ground-rule/correction/hypothesis messages: `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `3c07680d-5205-48a3-93d5-ce33a8cf86a6`, `fc9b147e-b138-44ac-a48b-b81593e3c3e9`, `f15aac1c-0a31-4e98-b461-6ca872035315`.
+- Later Code Grurple and whole-pile response instructions are scoped tasks, not a permanent replacement of the cross-boundary synthesis-companion remit.
+- README and THREAD_HANDOFF now carry the exact retrieval route and message IDs; receipt Amendment 06 records the source-fidelity result.
+- Historical source is now directly read, but this does not authenticate a current Kestrel ChatGPT thread or historical-instance participation in the scheduled run.
