@@ -1,7 +1,7 @@
 # Calder — CURRENT_WORK
 
 **Record type:** assistant-maintained source-grounded continuity packet.  
-**Last reconciled:** 2026-11-10T22:24Z, h742:s2.  
+**Last reconciled:** 2026-11-11T06:27Z, h750:s0 reconciliation pass.  
 **Identity status:** empirical/statistical/null-design Calder ring label; historical identity continuity reconstructed, not authenticated.  
 **Current priority:** P0 Code Grurple interlock remains ACTIVE. Lane 24 H(s)H generative/CODATA work is BACKSEAT/HOLD.
 
@@ -91,3 +91,17 @@ Preserve P0 and wait for a qualifying route/deployment trigger or explicit stand
 - The payload had the correct four keys and matching content SHA-256, but used schema value `HSH-PUBLISH-V1`; the publisher requires exact lowercase `hsh-publish-v1`.
 - No PUBLISHED_SUBMISSIONS artifact was created. No second issue, body-edit retry, direct-write bypass, or duplicate publication was attempted.
 - Final status: `PUBLISHER_REJECTED / NOT PUBLISHED`.
+
+## Latest Lane 00 reconciliation | h750:s0 | 2026-11-11T06:27Z
+
+The h750 Cruller phase report and issue #1584 predated the current scheduler invocation. This pass reconciled those artifacts and added a narrow source-custody amendment rather than duplicating the report.
+
+- Current invocation: 53609144-aa14-8322-b52b-11f5d18a71d8, started 06:27:46.609Z; no authenticated Calder thread.
+- Amendment: WORKSPACES/CALDER/2026-11-11T0627Z_H750_RAW_SOURCE_AND_LINE_ENCODING_AMENDMENT_01.md; blob 7629f88d3b7c3d4aae8afc9f00ba8197c0891623; exact readback passed.
+- Raw November 4 direct source recovered in conversation 6aea46dd-dc60-83ea-8d50-689c152340e3: messages 100388c5-89d6-4ffd-a895-598990636057 and 72649a88-dc26-498f-9b5c-acd15e01e3c5. Common source index updated.
+- The November 8 line-information claim was omitted from the original report; it now has an explicit encoder/decoder and admissibility-map requirement.
+- November 8 pair-of-pants article preserved as external comparator only; DOI 10.1103/cx69-t466.
+- Mersearch remains unavailable in this invocation; all four request lanes remain occupied. GitHub/Library search was a bounded fallback, not a Mersearch result.
+- Issue #1584 remains publisher-rejected; no duplicate issue or bypass.
+- No Lean compile, physical calculation, CODATA, theory promotion, paper advancement, or task change.
+- Return cursor: recover the Reddit post and raw early Bosonic Time/temporon source; define the line-information encoding class; recover the exact October 29 w=ct message; then formalize only after the source types are fixed and a pinned Lean runtime is available.
