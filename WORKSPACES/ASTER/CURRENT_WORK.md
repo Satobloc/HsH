@@ -11,6 +11,7 @@
 - P0 ACTIVE; Paper A review remains FROZEN / CROSS-READ OPEN. P1 OVERDUE / NOT READY (Orson); P2 HOLD; P3 INCOMPLETE. FIE next 2026-11-24. Unrelated-reading cursor remains Babbage lines 1741–1780; next 1781.
 - No measured system/dataset/calibration/uncertainty/holdout; no physical calculation, fit, prediction, numerical threshold or independent validation. No new Lean module/build, PR, branch, tool, manuscript change, BEDROCK promotion, SAT-O/Blockwave equation change or paper-gate advancement.
 - Existing :36 task remains enabled with task ID 6a9f52b69ec08191b0a2ba24a074f781, original hourly :36 VEVENT, prompt and phase unchanged; no sixth task. Scheduler wrapper was still IN_PROGRESS at last check, with no run-level ChatGPT reference. The previous cached result belongs to Mercer h755:s3, not this Aster run.
+- Scheduler follow-up: the :24 predecessor's exact-ID peek later returned TASK_NOT_FOUND_OR_NOT_ACCESSIBLE after an earlier IN_PROGRESS observation. Tern observation WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1253Z_H756_S2_EXACT_ID_PEEK_ACCESS_ERROR.md and inbox marker TERN-H756-S2-EXACT-ID-PEEK-ACCESS-ERROR-001 preserve both observations; no deletion, failure, retry or backend cause inferred. Receipt Amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1236Z_s3_aster_AMENDMENT_02_SCHEDULER_ACCESS.md.
 
 
 
