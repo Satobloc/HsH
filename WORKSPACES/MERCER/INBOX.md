@@ -694,3 +694,5 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 - Existing Calder PR #707 theorem `sibling_branches_defeat_single_successor` provides a compiled generic single-successor limitation; it does not encode the specific source graph. No new Lean code or trial.
 - Orson P1 remains Orson-owned and NOT READY. No P1 assignment or Meridian Paper A assignment changes.
 - Mercer h748:s0 had already completed before this amendment; no acknowledgment or consumption is claimed.
+
+- Publication status: sanitized summary submitted once through existing publisher issue #1582, SHA-256 `3a00923f0498cd6c653817fd077d9a3237b9c2674a3a129a587f784f745ee46b`; publisher comment/artifact not observed at last readback, SUBMITTED_NOT_VERIFIED. No retry or duplicate.
