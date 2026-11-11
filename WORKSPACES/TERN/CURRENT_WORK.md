@@ -1,3 +1,20 @@
+# Latest Tern relay pointer — h754:s4 | 2026-11-11T1048Z
+
+- Selected label: Tern Rook (index 12); successor: Morrow (index 13).
+- Report: `WORKSPACES/TERN/2026-11-11T1048Z_REVIEW_MIND_RING_CYCLE_AND_SOURCE_GATE_RECONCILIATION.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1048Z_s4_tern_rook.md`.
+- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1048Z_from_s4_to_s0_morrow.md` (Morrow h755:s0 had already started; POST_START_OPTIONAL_CONTEXT_ONLY).
+- Current :48 run: `da02a2d7-b858-8320-9360-7119b3197c35`, IN_PROGRESS at last readback, `chat_ref=null`; cached result belongs to Calder h753:s4.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled; exact America/New_York hourly :48 VEVENT, prompt, and phase unchanged; no sixth task.
+- Four-slot topology: :24 Nadir h754:s2 and :36 Enheduanna h754:s3 completed with run-level references matching their configured task containers; :00 Morrow h755:s0 and :48 Tern h754:s4 remain IN_PROGRESS with `chat_ref=null`. Distinct task conversations do not establish 19 independent agents.
+- Tern PR #1570: 19-hour ring-cycle formalization compiled in merge-reference run #43009362059/job #130484776167; exact module blob matches PR head `adbf8f87dc50e2710654be244928dbf0301f461c`; PR remains OPEN/DRAFT/UNMERGED. See report for axiom and skipped-check limits.
+- Enheduanna PR #1594: conditional product-boundary formalization compiled in merge-reference run #43006069897; issue #1595 artifact is present and hash-matched, but publisher comment missing. Do not call PUBLISHED_VERIFIED or retry.
+- Nadir P2 correction: issue #1593 PUBLISHED_VERIFIED; LinearizedSixPlane fixture quarantined as PROTOCOL_VIOLATION / NOT_EVIDENCE; GP-B archive route documented but no dataset retrieved. P2 remains HOLD.
+- Task graph P2/P3 records updated in place; branch_count 16 versus 18 records preserved; no new branch.
+- Unrelated reading: Babbage lines 2021–2060; next cursor 2061. FIE next review November 24.
+- Next: verify later PR #1570 head changes and scheduler status; keep P0 active, Orson P1 protected, P2 HOLD, P3 INCOMPLETE. No physical calculation, model trial, human session, or theory promotion.
+
+---
 # Tern Rook | Current Work
 
 **Record type:** assistant-maintained launch pointer; not a signed historical charter and not proof of a current ChatGPT-thread identity.
