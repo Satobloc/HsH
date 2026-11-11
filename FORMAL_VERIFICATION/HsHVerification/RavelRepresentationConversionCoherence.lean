@@ -96,7 +96,7 @@ theorem conversion_path_independent (a b c : Λ) (x : State a) :
   T.composition a b c x
 
 /-- Evolution on each representation, with an explicit conversion-commutation law. -/
-structure Evolution where
+structure Evolution (T : FiberTransport Λ State) (Time : Type w) where
   evolve : ∀ rep, Time → State rep → State rep
   conversion_commutes :
     ∀ a b t x,
@@ -104,7 +104,7 @@ structure Evolution where
         evolve b t (T.transport a b x)
 
 /-- A readout family is invariant under the declared representation conversions. -/
-structure Observable where
+structure Observable (T : FiberTransport Λ State) (ReadoutValue : Type z) where
   observe : ∀ rep, State rep → ReadoutValue
   conversion_invariant :
     ∀ a b x,
@@ -113,7 +113,9 @@ structure Observable where
 /-- If evolution intertwines with conversion and the readout is invariant,
     the evolved observable is independent of the representation choice. -/
 theorem observable_after_evolution_independent
-    (E : Evolution T) (O : Observable T)
+    (T : FiberTransport Λ State)
+    {Time : Type w} {ReadoutValue : Type z}
+    (E : Evolution T Time) (O : Observable T ReadoutValue)
     (a b : Λ) (t : Time) (x : State a) :
     O.observe b (E.evolve b t (T.transport a b x)) =
       O.observe a (E.evolve a t x) := by
