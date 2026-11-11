@@ -3,8 +3,14 @@ import Mathlib
 /-!
 # Tern h743 scheduler event cross-section
 
-This module formalizes a bounded, source-recorded scheduler snapshot read at
-2026-11-10T23:32:33Z. Times are UTC microseconds since 00:00Z on that date.
+This module collects bounded, source-recorded scheduler cross-sections:
+- h743 observations on 2026-11-10;
+- h758 observations on 2026-11-11.
+
+The `us` function encodes a UTC clock-of-day in microseconds since midnight;
+the date is block-level metadata and is not part of the numeric coordinate.
+All start-time subtraction theorems here compare observations from the same
+declared UTC date. Cross-date ordering or subtraction is not formalized.
 
 The theorems establish only arithmetic and finite-list facts about the
 transcribed records. They do not authenticate a worker/thread, explain
@@ -44,7 +50,7 @@ theorem h743_s0_worker :
 theorem h742_s4_worker :
     ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by rfl
 
-/-- Convert a same-day UTC clock reading to microseconds since midnight. -/
+/-- Encode a UTC clock-of-day in microseconds since midnight, not an absolute timestamp. -/
 def us (hour minute second micros : Nat) : Nat :=
   ((hour * 3600 + minute * 60 + second) * 1000000) + micros
 
@@ -562,7 +568,7 @@ structure RunStampObservation where
   chatRef : Option String
   deriving DecidableEq, Repr
 
-/-- First readback of Tern h758:s3, observed at 14:55:32.706Z. -/
+/-- First readback of Tern h758:s3 on 2026-11-11, observed at 14:55:32.706Z. -/
 def h758S3FirstReadback : RunStampObservation :=
   { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
     scheduledUs := us 14 36 0 0
@@ -570,7 +576,7 @@ def h758S3FirstReadback : RunStampObservation :=
     status := .inProgress
     chatRef := none }
 
-/-- Later readback of the same Tern run, observed at 15:14:29.882Z. -/
+/-- Later readback of the same Tern run on 2026-11-11, observed at 15:14:29.882Z. -/
 def h758S3LaterReadback : RunStampObservation :=
   { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
     scheduledUs := us 14 36 0 0
@@ -593,7 +599,7 @@ theorem h758_s3_started_at_delta_us :
     h758S3LaterReadback.startedUs - h758S3FirstReadback.startedUs = 1683727066 := by
   decide
 
-/-- First readback of Morrow h758:s4, observed at 14:55:33.883Z. -/
+/-- First readback of Morrow h758:s4 on 2026-11-11, observed at 14:55:33.883Z. -/
 def h758S4FirstReadback : RunStampObservation :=
   { runId := "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
     scheduledUs := us 14 48 0 0
@@ -601,7 +607,7 @@ def h758S4FirstReadback : RunStampObservation :=
     status := .inProgress
     chatRef := none }
 
-/-- Later readback of the same Morrow run, observed at 15:14:31.395Z. -/
+/-- Later readback of the same Morrow run on 2026-11-11, observed at 15:14:31.395Z. -/
 def h758S4LaterReadback : RunStampObservation :=
   { runId := "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
     scheduledUs := us 14 48 0 0
@@ -633,7 +639,7 @@ theorem h758_s4_started_at_delta_us :
 
 
 
-/-- Third readback of the same Tern h758:s3 run, observed in the client
+/-- Third readback of the same Tern h758:s3 run on 2026-11-11, observed in the client
     interval 15:36:35.551Z–15:36:39.327Z. -/
 def h758S3ThirdReadback : RunStampObservation :=
   { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
