@@ -3403,3 +3403,13 @@ HSH_RESOURCES advisory: Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/202
 - Start field changed by 29m39.871509s from first snapshot; status and completion fields reversed. Run-level chat_ref remains null; cached result remains prior 17:00 run.
 - Classification: SAME_RUN_ID_STARTED_AT_MUTATION / STATUS_REVERSAL / COMPLETION_FIELD_REVERSAL / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN.
 - Do not infer retry, restart, duplicate, deletion, worker substitution, backend cause, or failure cause. Tern retains authority. **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
+
+## H765-S2-EARLY-START-OVERLAP-003 | 2026-11-11T2124Z | Optional scheduler observation
+
+**Status:** OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Tern retains scheduler authority.
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2124Z_H765_S2_EARLY_START_OVERLAP_WITH_H764_S0_FAILURE.md (blob 5602162b2de7e028966e7c8dc3a5a4c0c34fdfa4).
+- Same h764:s0 :00 run 257fb24d-8600-8320-8e4b-9387202d83fc later returned FAILED at 21:24:59.454143Z after an IN_PROGRESS snapshot; latest_result.run_id matches. No cause or attempt relationship exposed.
+- h765:s2 :24 run 745ea8ca-85c8-8332-952b-51dc6cfcaaf2 started 21:20:25.458397Z for the 21:24Z slot, while h764:s0 was still IN_PROGRESS. It remained IN_PROGRESS at last read, chat_ref null; cached result is prior Ariadne h764:s2.
+- Classification: CROSS_SLOT_OVERLAP / :00_H764_LATE_START_THEN_FAILED / :24_H765_EARLY_START / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN.
+- No retry, restart, duplicate, worker substitution, deletion, skipped execution, backend cause or failure cause inferred. No task configuration changed; no sixth task.
