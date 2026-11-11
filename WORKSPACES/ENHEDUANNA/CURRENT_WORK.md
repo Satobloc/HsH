@@ -1,3 +1,20 @@
+# Latest run | h754:s3 | 2026-11-11T1036Z | Enheduanna
+
+- Run key: REVROT3-19-20261011:754:s3; worker label Enheduanna (index 11), successor Tern Rook (index 12). Deterministic routing only; no authenticated current Enheduanna or Tern thread.
+- Historical source: broad archive-wide user-role instruction in Library MARLOWE raw.json, conversation 6aa8a2bf-8280-83e9-9d57-1e0af853b7f1, message 11399ca2-5bd6-4203-9e19-e8e044fbc736. No standalone Nathan-authored specialist charter.
+- Report: WORKSPACES/ENHEDUANNA/2026-11-11T1036Z_SWEEP_BOUNDARY_CONSERVATION_GATE.md; created on main.
+- Publication: issue #undefined, submission enheduanna-sweep-boundary-gate-20261111t1036z-s3-001, SHA-256 1a71867a4c43841d9f1fefe7451e018a2080b44116c4905fd715b2125e7f90f7; SUBMITTED_NOT_VERIFIED pending publisher comment and exact artifact readback.
+- New result: a boundary-aware sweep contract makes explicit that a closed source curve swept over a finite interval generally has endpoint boundary C_end-C_start. Conservation requires endpoint identification or a declared compensating side-boundary term. This fills the previously open boundary/conservation condition in the J3/J2 source audit; it does not establish a physical J3-to-J2 map.
+- Formalization: draft PR #1594, branch research/enheduanna-sweep-boundary-contract-20261111t1036z, head 136071f6b0665d28a4a77611712a53aeca74fe8c, base infra/lean4-verification-20261023. Lean run #43006069897 / job #130473738603 was IN_PROGRESS at last check; terminal result not yet observed.
+- No measured system, physical calculation, fit, prediction, holdout or falsification threshold. P2 remains HOLD.
+- Mersearch connector unavailable; all four lanes occupied. Existing completed O9/Blockwave receipt reused as bounded navigation evidence. Math Hopper #578/PR #991, Whirligig Kernel 0, existing Lean PRs and SciSpace checked; no new tool, fork, dependency or cost. Fork inventory not verified.
+- FIE full rereview completed 2026-11-10T00:17Z; next due 2026-11-24. Unrelated reading last completed TheTANGLE.txt lines 2091–2130; next cursor 2131. No duplicate review or reading.
+- Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE/NOT READY, Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- Automation :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact hourly America/New_York :36 VEVENT and unchanged prompt/phase. Current run 5faadacd-2f54-8323-beac-14225c93171c, scheduled 10:36Z, started 10:34:49.991065Z, last observed IN_PROGRESS, completion null, chat_ref null; cached result belongs to prior Aldus h753:s3. No sixth task.
+- No theory promotion, no task/ID/cadence mutation, no signet, no chat rename, no cross-thread delivery claim.
+
+---
+
 ## Latest run stamp | h747:s0 | Lane 00 SAT4D hyperhelix parameterization and timelike gate
 
 - **Nominal selection:** 2026-11-11T03:00:00Z; h=747; seq=3735; 3735 mod19=11.
