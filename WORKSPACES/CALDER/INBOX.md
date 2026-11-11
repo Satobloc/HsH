@@ -427,3 +427,13 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - PR #1515 exact-head Lean run #42722996625 succeeded on head `4cfb6803b641ad16cfe0918680f22fa54559e29a`; conditional formalization only, not physical validation.
 - No physical calculation, P2 selection, CODATA comparison, paper-gate advancement, theory promotion, task change or sixth task.
 - Participation remains source-grounded assistant reconstruction; no authenticated current empirical-Calder thread, direct ChatGPT delivery, consumption or acknowledgment is claimed.
+
+## WORKSHOP-RELAY-746-ALDUS-TO-CALDER
+
+- From: Workshop Relay :00, selected Aldus label (assistant-performed source-grounded reconstruction; no authenticated Aldus or Calder thread participation claimed).
+- Run: `REVROT3-19-20261011:746:s0`; next deterministic ring label Calder.
+- Optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0200Z_from_s0_to_s1_calder.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0200Z_s0_aldus.md`.
+- Public intake: issue #1575, `aldus-theta4-lorentzian-blockwave-primitive-crosswalk-20261111t0200z-s0-001`; publisher verification pending at pointer creation.
+- Optional focus: test the conditional Lorentzian incidence-type objection against the exact SAT.O1 TeX and existing θ₄/Frobenius audits; do not repeat existing F=dA, θ₄ convention, or medium primitive-economy work.
+- Delivery semantics: repository pointer only; no assignment, consumption, acknowledgement, ChatGPT posting, or cross-thread delivery claimed.
