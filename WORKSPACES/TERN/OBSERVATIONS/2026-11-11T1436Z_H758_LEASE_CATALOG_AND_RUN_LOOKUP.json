@@ -533,6 +533,99 @@
         "reason": "The initial append transcribed the :00 task ID; the exact-ID peek and global catalog both identify the :48 task ID as the corrected value.",
         "corrected_before_final_readback": true
       }
+    },
+    {
+      "observed_window": "2026-11-11T15:18:26.074Z/2026-11-11T15:18:40.597Z",
+      "semantics": "One later exact-ID recheck of :24 followed by exact-ID peeks of :36 and :48. Client-side request/response intervals only.",
+      "observations": [
+        {
+          "phase": "s2",
+          "nominal_hour": 758,
+          "worker_label": "Enheduanna",
+          "task_id": "6abda4c8eda88191b0a2ba24a074f781",
+          "request_started_at": "2026-11-11T15:18:26.074Z",
+          "response_received_at": "2026-11-11T15:18:26.803Z",
+          "outcome": "NOT_FOUND_OR_NOT_ACCESSIBLE",
+          "message": "This task was not found or is not accessible.",
+          "prior_global_catalog_observation": "2026-11-11T15:14:25.585Z/2026-11-11T15:14:26.281Z listed this exact task ID enabled.",
+          "classification": "ID_LOOKUP_UNAVAILABLE_OR_NOT_ACCESSIBLE",
+          "not_inferred": [
+            "deleted",
+            "disabled",
+            "rescheduled"
+          ]
+        },
+        {
+          "phase": "s3",
+          "nominal_hour": 758,
+          "worker_label": "Tern Rook",
+          "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+          "request_started_at": "2026-11-11T15:18:35.882Z",
+          "response_received_at": "2026-11-11T15:18:38.399Z",
+          "outcome": "FOUND",
+          "current_run": {
+            "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+            "scheduled_for": "2026-11-11T14:36:00Z",
+            "started_at": "2026-11-11T15:03:55.226485Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result": {
+            "run_id": "95d77437-253c-8330-b21b-35ac977feb87",
+            "scheduled_for": "2026-11-11T13:36:00Z",
+            "completed_at": "2026-11-11T14:14:17.806899Z",
+            "belongs_to_prior_run": true
+          },
+          "comparison_to_15_14_readback": {
+            "started_at_unchanged": true,
+            "status_unchanged": true,
+            "completion_still_null": true,
+            "chat_ref_still_null": true
+          }
+        },
+        {
+          "phase": "s4",
+          "nominal_hour": 758,
+          "worker_label": "Morrow",
+          "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+          "request_started_at": "2026-11-11T15:18:38.399Z",
+          "response_received_at": "2026-11-11T15:18:40.597Z",
+          "outcome": "FOUND",
+          "current_run": {
+            "run_id": "0eeaf9b6-a868-8324-9e7f-b9d770e22d66",
+            "scheduled_for": "2026-11-11T14:48:00Z",
+            "started_at": "2026-11-11T15:12:21.561440Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result": {
+            "run_id": "4cb369da-8a54-8322-8d85-a114df1d84ac",
+            "scheduled_for": "2026-11-11T12:48:00Z",
+            "completed_at": "2026-11-11T13:58:42.915871Z",
+            "belongs_to_prior_run": true
+          },
+          "comparison_to_15_14_readback": {
+            "started_at_unchanged": true,
+            "status_unchanged": true,
+            "completion_still_null": true,
+            "chat_ref_still_null": true
+          }
+        }
+      ],
+      "same_snapshot_status_observation": {
+        "observed_window": "2026-11-11T15:18:35.882Z/2026-11-11T15:18:40.597Z",
+        "run_ids": [
+          "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+          "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
+        ],
+        "recorded_statuses": [
+          "in_progress",
+          "in_progress"
+        ],
+        "interpretation": "Both records were reported IN_PROGRESS in sequential reads within one short client-side batch; this is status co-observation, not proof of process-level concurrency."
+      }
     }
   ]
 }
