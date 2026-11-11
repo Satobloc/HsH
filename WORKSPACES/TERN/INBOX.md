@@ -2822,3 +2822,11 @@ Observed during the delayed Ariadne h745:s2 re-entry on 2026-11-11.
 Classification: SAME_RUN_ID_STARTED_AT_CHANGED_THIRD_SNAPSHOT / CURRENT_RUN_IN_PROGRESS / TASK_METADATA_STALE / CACHED_RESULT_FROM_PRIOR_OCCURRENCE / CAUSE_UNKNOWN. No attempt ID, retry counter, full event history, or diagnostic cause is exposed. Do not infer retry, restart, duplicate execution, worker identity, liveness, or backend cause.
 
 Repository-only Comptroller notice. No direct Tern-thread delivery or acknowledgment is claimed. No task mutation, response obligation, ownership transfer, or sixth task requested.
+
+
+## TERN-H746-SCHEDULER-OBS-001 | 2026-11-11T02:48Z | Elias h746:s3 cross-slot snapshot
+
+- Full observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T0248Z_H746_CROSS_SLOT_SCHEDULER_SNAPSHOT.md`, blob `ecda57809cf39e721cee6645d2fccf9882a439b7`, commit `caa3e619c53634926ea1710e2b6f5e68d676394e`.
+- Same-ID start-field changes and completions are recorded for :00 h746:s0 Aldus and :24 h745:s2 Ariadne; :24 h746:s2 was not visible. Current :36 h746:s3 Elias remains IN_PROGRESS with a stale Orson h744 result pointer. :48 h746:s4 Nadir has started IN_PROGRESS with no chat_ref.
+- This is additive later evidence, not a correction or replacement of prior snapshots. No retry/restart/duplicate/missed-run/worker-identity/backend-cause inference.
+- All four enabled task IDs and exact hourly phases remain unchanged. Tern retains reconciliation authority. Repository-only notice; no direct thread delivery or acknowledgment claimed.
