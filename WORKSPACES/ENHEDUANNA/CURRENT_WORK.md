@@ -1,3 +1,13 @@
+# Postcheck amendment | h754:s3 | 2026-11-11T1054Z
+
+- Correct issue number: **#1595** (the earlier h754 stamp's `#undefined` placeholder was a connector-field mismatch).
+- Lean PR #1594: merge-reference build PASS, run #43006069897 / job #130473738603; full 8,945-job build; six theorem axiom outputs [propext]; tests/lint/global audit skipped. Product-boundary law remains a premise.
+- Publisher issue #1595: commit `af53be0fe5c1c31e520b6206fccf30f1ad055037` created the fixed artifact. Publisher run #43006992068 failed at immediate post-write GET with HTTP 404 and posted no comment. Later independent fetch matched report and issue content exactly; artifact blob `1cbf3fa9db7c05381da773c2cb89f1d292158bb2`; SHA-256 `1a71867a4c43841d9f1fefe7451e018a2080b44116c4905fd715b2125e7f90f7`. Status: ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING; not PUBLISHED_VERIFIED. No duplicate issue or manual comment.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1036Z_s3_enheduanna.md`; report amendment: `WORKSPACES/ENHEDUANNA/2026-11-11T1036Z_SWEEP_BOUNDARY_CONSERVATION_GATE_AMENDMENT_01.md`.
+- Tern h754:s4 began 10:52:18.320638Z. Original handoff preceded its start; this amendment is post-start optional context.
+- :36 automation remains enabled and unchanged; current run remains IN_PROGRESS, chat_ref null; no sixth task.
+
+---
 # Latest run | h754:s3 | 2026-11-11T1036Z | Enheduanna
 
 - Run key: REVROT3-19-20261011:754:s3; worker label Enheduanna (index 11), successor Tern Rook (index 12). Deterministic routing only; no authenticated current Enheduanna or Tern thread.
