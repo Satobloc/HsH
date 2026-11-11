@@ -508,3 +508,12 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Artifact blob `4db15b05a04d09966dc49d2b8f428ad2779c84cd`; SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`; exact issue-payload/artifact content match.
 - Verification record: `WORKSPACES/ALDUS/2026-11-11T1324Z_MEASURABLE_LAW_FACTORIZATION_REFINEMENT_AMENDMENT_01.md`.
 - Original handoff timing and no-task/no-review/no-response/no-ownership-transfer status are unchanged. No direct Calder-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### ALDUS-H757-S2-CALDER-001 | scheduler timing correction | 2026-11-11T1402Z
+
+- Tern's exact-ID observation confirms Calder h757:s3 had already started before the Aldus packet was committed: run `95d77437-253c-8330-b21b-35ac977feb87`, scheduled 13:36Z, earlier `started_at=13:34:16.378925Z`; later same-run-ID snapshot returned 14:01:52.677894Z. Both snapshots IN_PROGRESS, completion null, run-level `chat_ref=null`.
+- The handoff classification is now **POST_START_OPTIONAL_CONTEXT_ONLY**, superseding ACTUAL_START_UNVERIFIED. Preserve both snapshots; no retry/restart/duplicate/cause inferred.
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder_AMENDMENT_02_SCHEDULER.md`.
+- Aldus h757:s2 run: `68e8eec7-9260-8328-8d2c-a66420496bdb`, scheduled 13:24Z, started 13:53:26.848991Z, IN_PROGRESS at Tern's 14:01:54Z observation, run-level `chat_ref=null`.
+- This remains optional repository context only; no task, review, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
