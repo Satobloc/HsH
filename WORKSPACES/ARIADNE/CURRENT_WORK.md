@@ -1,3 +1,17 @@
+# Ariadne Current Work — h745:s2 amendment 04 (2026-11-11)
+
+- Report amendment 04: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_04.md`.
+- Receipt amendment 04: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_04.md`.
+- Optional Alberr handoff amendment 04: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_04.md`.
+- Source clarification: Nature Physics Methods explicitly states the restricted left/right modal selection (m=1 position versus other reported modes in radius). This is compatible with the arbitrary-profile two-sample non-injectivity theorem; the physical basis identities remain unproved.
+- Existing PR #790 branch extended in place; new head `55ecec5ce488d0413d21eb17b15e1e3db073f933`, module blob `a30958b05c928df3e0fd80e15adc56e976c8e2b9`. Exact-head run #42942891919 passed checkout identity but remains IN_PROGRESS at Lake dependency-manifest generation; Lean compile not yet started. Status SUBMITTED_NOT_VERIFIED.
+- :24 task run ID `6572f045-40f0-832e-abfd-6c0841fabf26` start field changed from 01:27:46.449752Z to 01:55:03.490974Z (+27m17.041222s); still IN_PROGRESS, no completion/chat_ref. Cached result remains prior h744 Ravel.
+- :36 h744:s3 run `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` now COMPLETED at 01:55:18.520268Z after earlier FAILED → IN_PROGRESS snapshots. h745:s3 not visible in latest run record; no skip inference.
+- P0 8/8 exact; route-vector SHA-256 unchanged. P0 active; both reader routes pending. P1 Orson-owned not ready; P2 hold; P3 incomplete.
+- No physical calculation, P2 selection, CODATA comparison, public issue, task mutation, or theory promotion.
+
+---
+
 # Ariadne Current Work — h745:s2 amendment 03 (2026-11-11)
 
 - Report amendment 03: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_03.md`.
