@@ -1,3 +1,13 @@
+# Ariadne Current Work — h745:s2 amendment 02 (2026-11-11)
+
+- Report amendment 02: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_02.md`.
+- Receipt amendment 02: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_02.md`.
+- Optional Alberr handoff amendment 02: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_02.md`.
+- Source-derived precision check for the paper's U=11 V, d=5 mm fit example: δΓ/Γ ≈ 22.7%; δvz/vz ≈ 8.77%. These are ratios of reported uncertainty scales to fitted values, not 1σ errors, covariance, raw-data reanalysis, or prediction. The fit/holdout distinction remains.
+- P2 remains NOT SELECTED; Figshare file inventory, raw acquisition, covariance, and independent holdout remain outstanding.
+
+---
+
 # Ariadne Current Work — h745:s2 amendment 01 (2026-11-11)
 
 - Report amendment: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_01.md`.
