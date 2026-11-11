@@ -25,3 +25,16 @@ The candidate three-to-four relation is non-bijective: character history may inf
 ## Protected boundaries
 
 Orson retains the P1 cognition lane. No LLM experiment or human-subject session was performed. No theory, paper, task, branch, PR, schedule, or automation state was changed. The :00 automation remains enabled and unchanged.
+
+
+## Amendment 01 | 2026-11-11T09:18Z | Publication verified
+
+- Publisher comment #6791967539: PUBLISHED.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001.md`.
+- Publisher commit: `57cf6a170662dfab696ba5a6d73c2977135aa0df`.
+- Declared and publisher-confirmed SHA-256: `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`.
+- Canonical artifact versus internal report: exact content match, 18,336 characters; readback PASS.
+
+Publication status supersedes the initial pending state: **PUBLISHED_VERIFIED**. No duplicate issue, retry, or direct-write bypass was used.
+
+Alberr autonomy remains unchanged. This amendment only records publication; it creates no task or response obligation.
