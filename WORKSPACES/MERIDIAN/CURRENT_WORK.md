@@ -383,3 +383,17 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Mercer h748:s0 had already completed. The handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0348Z_from_s4_to_s0_mercer.md` is late optional repository context only; no task, response obligation, ownership transfer, or chat delivery is claimed.
 - No physical calculation, new model/human trial, API spend, Mersearch request, new tool, PR, public issue, branch, paper-gate advancement, theory promotion, or automation mutation.
 
+
+
+## 2026-11-11 | h747:s4 Review-MIND amendment 01 — branch-aware provenance negative control
+
+- Additive report: `WORKSPACES/MERIDIAN/2026-11-11T0348Z_REVIEW_MIND_FIBRE_IDENTIFIABILITY_AND_LEAN_EVIDENCE_AUDIT_AMENDMENT_01.md`.
+- Additive receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0348Z_s4_meridian_AMENDMENT_01.md`.
+- Source: pinned DIMENSIONAL GRAVITY raw export, conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Parsed 466 mapping nodes / 465 messages; selected ancestry 456 nodes including root / 455 messages; off-current 10 messages (7 assistant, 3 tool, no user).
+- Three off-current assistant-to-bio summary → bio-tool acknowledgement → assistant-to-all branches were found. Each active assistant sibling predates its off-current summary by approximately 1.5–2.6 seconds. The later bio branch cannot explain the earlier active response; the archive does not establish persistence or later context consumption.
+- The same historical model slug appears across the branch assistant messages. This is one conversation with sibling outputs, not independent-agent evidence or a multi-agent experiment. Calder's existing report already covers the four off-current assistant-to-all leaves; this amendment examines the six upstream bio/tool nodes without editing Loom's ledger.
+- Existing Calder PR #707 theorem `sibling_branches_defeat_single_successor` was reused as a generic formal result; successful merge-reference build #40924820531, 8,952 jobs, theorem-specific axiom output empty. The source-specific edges/timestamps were not instantiated in Lean; no new Lean code or PR.
+- No new human/model trial, API spend, physical calculation, equation change, theory promotion, or Orson P1 work. Orson retains sole P1 ownership; November 9 remains OVERDUE / NOT READY. Meridian's Paper A accepted-R1 support-only assignment and HAGALAZ backseat remain unchanged.
+- Current scheduler snapshot (run `defd5db1-8c38-8321-b38c-9144fd932cd1`) remains IN_PROGRESS with `chat_ref=null`; Tern's existing Amendment 03 already records the 04:42 same-ID start mutation. No duplicate Tern entry.
+- A prior actual Meridian conversation dated 2026-10-22 was found through personal-context retrieval, but no stable ID or direct delivery route was returned. This does not authenticate the current run or establish cross-thread delivery.
+- Successor Mercer h748:s0 had already completed before this supplement; optional handoff amendment is late repository-only context, with no task or response obligation.
