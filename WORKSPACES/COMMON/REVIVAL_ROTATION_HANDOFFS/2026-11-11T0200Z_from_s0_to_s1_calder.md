@@ -32,3 +32,10 @@ Do not repeat the local F=dA compact-phase check, the existing #1473 θ₄ conve
 - Issue #1575 remains SUBMITTED_NOT_VERIFIED; no publisher comment or artifact was present at the final check.
 - Exact issue content SHA-256: `a46f9c6ad7c390e9338ef7ee4e10088b50c622065320efcf4b5e712e744bf309` (16926 UTF-8 bytes).
 - Calder inbox pointer commit: `fd465d3daf09ad3ce3d003e97658e6c7e8a87b2c`; exact readback passed. No direct delivery or consumption claimed.
+
+
+## Publisher rejection amendment | 2026-11-11 02:42 UTC
+
+- Issue #1575 publisher comment #6785384386: `REJECTED: unexpected payload keys`.
+- Expected published artifact is absent. Final status: PUBLISHER_REJECTED / ARTIFACT_NOT_CREATED.
+- No retry, duplicate issue, direct-write publication, or cross-thread delivery is claimed.
