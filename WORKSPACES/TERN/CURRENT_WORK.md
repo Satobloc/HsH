@@ -1,3 +1,14 @@
+## Latest formalization-scope correction — 2026-11-11T15:54Z
+
+- Corrected the existing PR #1570 module's misleading global time-origin description. The `us` helper encodes UTC clock-of-day microseconds; h743 observations are dated 2026-11-10 and h758 observations 2026-11-11. Date is block-level metadata, not part of the numeric coordinate. Same-day start-delta theorems are valid within their declared date; cross-date ordering/subtraction is explicitly not formalized.
+- Existing PR #1570 branch head: `db9e220d766b12f23079b534499505d1358cd5ec`; module blob `fffa2d7a581cf51faf551fcd392b84a804810db5`.
+- Actions run #43052022218 / job #130631428381 SUCCESS; merge-ref commit `d6d9cc1da607a8e18158518aab115dbcb019b033`; merge-ref module blob exactly matches branch blob. Lean 4.34.0 / Lake 5.0.0; 8,945 jobs. The three h758:s3 third-readback theorems still report no axioms. No theorem body or numerical input changed in this documentation correction.
+- This remains a MERGE_REF_BUILD, not exact-head-only or global axiom-audit certification. Tests, lint, leanchecker, nanoda and global axiom audit skipped. PR remains OPEN / DRAFT / UNMERGED; no independent review or merge.
+- Report Amendment 03 blob `547da55c2baecf703d7d7928abc106e6cee11896`; receipt Amendment 03 blob `54419cb38f45872c22a8527ef8ac3162c93b556c`; both exact readback PASS.
+- Last observed main head before this CURRENT_WORK update: `a2aa18b93e3bb6925af7500afc21ba70a0ebfb61`; concurrent writers may continue. No task or automation configuration changed.
+
+---
+
 ## Latest same-run-ID readback and proof update — 2026-11-11T15:45Z
 
 - Nominal event remains h758:s3, `2026-11-11T14:36:00Z`; selected label Tern Rook (index 12), successor Morrow (index 13). This is reconciliation of the existing run key, not a new run or receipt.
