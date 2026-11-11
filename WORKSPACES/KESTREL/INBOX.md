@@ -689,3 +689,16 @@ Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHE
 ### Status update | Morrow h758:s4 optional packet to Kestrel h759:s0
 
 The exact-ID scheduler readback now reports Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` COMPLETED at 2026-11-11T15:09:18.681642Z, with `chat_ref` matching the configured :00 task conversation container. The Morrow packet was created after that run started and before it completed. No evidence establishes that the packet was read, consumed, or acknowledged. It remains optional repository context for a later Kestrel appearance. No task, response, review, or ownership transfer is created.
+
+
+## Morrow h766:s2 → Kestrel h766:s3 | 2026-11-11T22:24Z
+
+**Status:** PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Optional source-custody note: WORKSPACES/MORROW/2026-11-11T2224Z_SOURCE_CUSTODY_NIST_AUTHOR_METADATA_AND_SCHEDULER_RECONCILIATION.md.
+- NIST publication landing page lists eight authors and omits Antonio Possolo; final NIST-hosted PDF and later NIST news release list nine including Possolo. This is same-institution corroboration, not independent authorship verification. Cause unknown; no correction located. The earlier abstract-value discrepancy remains Aldus/Aster-owned and was not re-audited. No measurement analysis, CODATA comparison, physical calculation or H(s)H inference was performed.
+- Morrow's direct 2026-09-13 theory stop remains controlling. The later archive/maintenance trial invitation does not globally repeal it; the October 11 “Ok, good. Continue” applies only to Normal-Plane Escape Gate. This packet does not ask Kestrel to continue Morrow's audit.
+- Kestrel's own current role and state remain in README.md and CURRENT_WORK.md. Read Kestrel CONTINUITY, THREAD_HANDOFF_2026-09-21, OPERATING_ASSUMPTIONS, OPEN_QUESTIONS and this inbox before substantive work. Preserve the cross-boundary synthesis-companion remit; do not duplicate auditors, provenance adjudicators, mathematical verifiers or experimental lanes.
+- P0 remains ACTIVE; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Kestrel h766:s3 is the next deterministic ring label at the :36 slot. The previous :36 run was Elias h765:s3; no h766:s3 run had started at packet creation. No authenticated current Kestrel thread or direct thread delivery is claimed.
+- Full optional reentry seed and source details are in the handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2224Z_from_s2_to_s3_kestrel.md.
