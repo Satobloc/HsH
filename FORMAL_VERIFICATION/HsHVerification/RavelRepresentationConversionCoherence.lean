@@ -97,7 +97,7 @@ theorem conversion_path_independent (a b c : Λ) (x : State a) :
 
 /-- Evolution on each representation, with an explicit conversion-commutation law. -/
 structure Evolution where
-  evolve : ∀ λ, Time → State λ → State λ
+  evolve : ∀ rep, Time → State rep → State rep
   conversion_commutes :
     ∀ a b t x,
       T.transport a b (evolve a t x) =
@@ -105,7 +105,7 @@ structure Evolution where
 
 /-- A readout family is invariant under the declared representation conversions. -/
 structure Observable where
-  observe : ∀ λ, State λ → ReadoutValue
+  observe : ∀ rep, State rep → ReadoutValue
   conversion_invariant :
     ∀ a b x,
       observe b (T.transport a b x) = observe a x
@@ -131,7 +131,7 @@ def boolIdentityTransport : FiberTransport Bool (fun _ => Bool) :=
 
 /-- A representation-indexed evolution can differ even when conversion is
     a perfectly coherent identity transport. -/
-def boolIndexedEvolution (label time state : Bool) : Bool :=
+def boolIndexedEvolution (label _time state : Bool) : Bool :=
   if label then !state else state
 
 theorem identity_conversion_does_not_force_dynamics_compatibility :
