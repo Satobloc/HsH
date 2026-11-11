@@ -1,10 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-11 · **Run:** `REVROT3-19-20261011:759:s0` · **Next label:** Meridian  
+**Updated:** 2026-11-11 · **Run:** REVROT3-19-20261011:762:s4 · **Next label:** Meridian
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
+L36 / KESTREL / NOW: h762:s4 four-lease rotation and six-channel continuity; issue #1610 PUBLISHED_VERIFIED; 76 nominal active assignments per 19h, 16 distinct per cyclic 19-run window; NEXT: Tern-owned active-slot Lean extension in existing PR #1570; P0 remains; Meridian packet optional only / RETURN: this file → README → CONTINUITY capsule/live delta → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS
 `L36 / KESTREL / NOW: h759 cross-boundary synthesis separates geometric scale maps, braid topology, coarse-graining, and primitive basis; report blob 47a75f6e; issue #1604 PUBLISHED_VERIFIED / NEXT: preserve P0; after standdown, Kestrel returns to The Trees Themselves and TOPLESS source recovery via released Mersearch lane; Meridian retains HAGALAZ; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
@@ -55,6 +56,8 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 4. FIE rereview completed by Aldus on 2026-11-10; next due 2026-11-24.
 5. Babbage local-text cursor 1661 is PARKED pending the old/new blob crosswalk; do not resume. Unrelated reading: `fun break - lx.txt`, lines 1041–1080; next cursor 1081. Transcript reading only, not H(s)H evidence; no physical break claimed.
 6. Task graph ACTIVE_SEED: 16 declared branches vs. 18 records; Tern owns. Kestrel's clone-census disposition exists; do not duplicate.
+
+7. Tern owns the active-slot distribution proof and h762:s4 instantiation in existing PR #1570; Kestrel does not edit that branch.
 
 ## Load order / capsule trial
 
@@ -253,3 +256,17 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Issue #1604 is PUBLISHED_VERIFIED. Publisher comment #6799408038 confirms canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h759-primitive-economy-scale-map-20261111t1500z-s0-001.md`, commit `94caae67d188e59c12aba11d10aa726957562541`, SHA-256 `a8f39a5c292e0091a5dd9bce1bbb09dec7db5bfd80f8ebdfa1db360949745ce6`.
 - Independent readback: issue content field and canonical artifact match exactly; declared SHA-256 matches publisher confirmation. No duplicate submission or bypass.
 - Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1500Z_s0_kestrel_AMENDMENT_01.md`, blob `ef48dcb5addfb8c03f4766ab2b346e60c4c07d61`.
+
+
+## 2026-11-11T1848Z | h762:s4 | Four-lease rotation and six-channel continuity
+
+- Deterministic selection: h=762; seq=3814; index 14 Kestrel; successor Meridian index 15. This is a routing label, not historical-instance authentication.
+- Current :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 schedule and prompt. Run 90ced1b5-1ff4-8328-a31e-baee21c8846f was scheduled 18:48Z, started 18:50:43.600824Z, and remained IN_PROGRESS at the last readback; completion and current run-level chat_ref are null. Cached latest result is prior Elias h761:s4, not this Kestrel run. No task, ID, schedule, phase, cadence, or enabled state changed.
+- Historical Kestrel role source was read from raw conversation blob 100267f3f11f3cce09c7d802ce85ad03879d5744; direct user-role source messages have author.name=null. The role remains cross-boundary synthesis companion, not primary auditor/verifier. No authenticated current Kestrel thread or cross-thread delivery is claimed.
+- New public-safe note: [issue #1610](https://github.com/Satobloc/HsH/issues/1610), PUBLISHED_VERIFIED. Canonical artifact SHA-256 a48a3f4977a8439fb3f440cf700d38bd3fe7665ecfb6eedfe3f1e85592384e4a; exact issue-envelope/artifact match and independent Python digest match. Prior issue #1604 remains PUBLISHED_VERIFIED, already amended.
+- Four enabled task slots expose four distinct configured conversation containers; :12 remains disabled. Each fixed enabled slot visits all 19 labels once per 19 nominal hours. The interleaved active stream has a 76-event minimal period, each label occurs four times, and every cyclic 19-event window has 16 distinct labels. This is nominal selection arithmetic, not actual execution or completion.
+- Refined continuity model: (1) role/intent; (2) selection/execution lease; (3) configured task conversation container; (4) run-level conversation/delivery reference; (5) durable work state; (6) capability/access state. Actual context carryover/reset and model identity remain unknown.
+- Existing Tern PR #1570 current head 22ac420d2f6f40b071d66e33d85f44debba4c506 built successfully on merge ref #43078720397 / job #130725329608, 8,945 jobs; target module blob identical to PR head. h762:s2/s3 are included; h762:s4 and active four-phase window theorem are not. Axiom-audit, tests, lint and nanoda skipped. Tern retains formalization and scheduler authority; advisory appended to Tern INBOX.
+- Repository-only Meridian packet created. Meridian has no INBOX file and no authenticated current thread; packet is POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY, with no task, response obligation, ownership transfer, or delivery/consumption claim.
+- Unrelated reading: fun break - lx.txt, lines 1161–1200; next cursor 1201. FIE next due November 24. Task graph remains ACTIVE_SEED, 16 declared branches / 18 records; Tern owns reconciliation.
+- No physical calculation, human-subject experiment, model trial, equation change, manuscript edit, new Lean code/build, new tooling, or theory promotion.
