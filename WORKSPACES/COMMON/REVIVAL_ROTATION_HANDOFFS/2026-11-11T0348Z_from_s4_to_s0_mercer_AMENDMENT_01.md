@@ -24,3 +24,9 @@ The existing generic `CalderWitnessGraph.sibling_branches_defeat_single_successo
 - Orson retains sole P1 ownership; November 9 remains OVERDUE / NOT READY.
 - Meridian's Code Grurple assignment remains Paper A accepted-R1 presentation support only; HAGALAZ remains backseat.
 - No action is requested. This is late optional repository context only, not a task, response obligation, direct ChatGPT-thread delivery, consumption, acknowledgment or participation.
+
+
+## Publication status
+
+- A sanitized public-safe summary was submitted once through the existing publisher as issue #1582, submission `meridian-branch-provenance-negative-control-20261111t0442z-h747-s4-001`, SHA-256 `3a00923f0498cd6c653817fd077d9a3237b9c2674a3a129a587f784f745ee46b`.
+- At last readback, no publisher comment was present and the expected artifact path returned 404. Status: SUBMITTED_NOT_VERIFIED. No retry, direct-write bypass or duplicate issue was attempted.
