@@ -1,0 +1,122 @@
+{
+  "run_key": "REVROT3-19-20261011:752:s0",
+  "nominal_utc": "2026-11-11T08:00:00Z",
+  "selected_label": "Ravel",
+  "next_label": "Orson Vay",
+  "current_thread_authenticated": false,
+  "candidate_successor_conversation_id": "6acb8e00-61b4-83e9-a128-ed07e9b22b7b",
+  "candidate_successor_status": "archived citation only; current usability unverified",
+  "historical_role_messages": [
+    "638d13ba-1541-483d-853f-3b6d04b9b1b2",
+    "c5639160-5631-4373-90c2-68d7c4c022de",
+    "5590d70d-6525-42aa-9de8-5a7022b189f7",
+    "4fb7a5be-a32d-43c0-b1a2-2c4787423b52"
+  ],
+  "primary_source": {
+    "conversation_id": "6a9d1a23-4fac-83ea-b76f-6805ece3ee9f",
+    "direct_messages": [
+      {
+        "id": "8471543a-6ed1-4743-9073-74735f019da4",
+        "utc": "2026-09-07T07:39:29.865Z"
+      },
+      {
+        "id": "3d0ad680-51db-4c79-ad4a-9bbacada24ef",
+        "utc": "2026-09-07T07:46:38.573Z"
+      },
+      {
+        "id": "b9805319-9d77-4b43-874a-5af50c0b6ef7",
+        "utc": "2026-09-07T08:06:58.114Z"
+      },
+      {
+        "id": "496a15ea-0263-459d-b815-908f52155b90",
+        "utc": "2026-09-07T10:06:12.842Z"
+      }
+    ],
+    "public_hsh_snapshots": [
+      {
+        "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
+        "git_blob": "c49367b0faa424491e7b3520a034b9e44fe6897f"
+      },
+      {
+        "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+        "git_blob": "17cfe3feb830f70009557d063482b35adba0834b"
+      }
+    ],
+    "note": "The two HsH snapshots are distinct. A separate larger Library raw export was read for message-role/context verification; no byte-identity claim is made."
+  },
+  "mersearch": {
+    "request_id": "ravel-kerr-timesheet-geometry-source-20261104-1235",
+    "tool": "Mercer_Searcher_1.0",
+    "stable_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+    "receipt_blob": "5742de08d26cbef456ede4cf652355f4a179e580",
+    "manifest_blob": "d6f9d278ed37583c94d9f59814ec2b32f652a4bc",
+    "source_repositories": [
+      {
+        "repo": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "commit": "1d9b39babb82915b05dda47ebe5fd034108ab813"
+      },
+      {
+        "repo": "Satobloc/HsH",
+        "commit": "8c5bd8f32830081554716bf8612e882a6b050931"
+      },
+      {
+        "repo": "Satobloc/HSH_RESOURCES",
+        "commit": "57d5d903a1b5db4b2491f2415782394358cc55ba"
+      }
+    ],
+    "counts": {
+      "files_scanned": 17314,
+      "records_scanned": 21602735,
+      "hits": 303,
+      "distinct_paths": 96
+    },
+    "note": "Bounded navigation receipt, not exhaustive results. Raw search result files withheld. No new Mersearch request was opened because shared lanes remain occupied."
+  },
+  "assistant_sandboxes": [
+    {
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-11_FINITE_TUBE_HOLONOMY_NOISE_GATE.md",
+      "blob": "410642ba5765bfb4394205ec733fd0396dbbd03f"
+    },
+    {
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-11_MATERIAL_FRAME_ACTION_AND_LEAKAGE.md",
+      "blob": "27efcf287fd3e5e4b8dcf6a33cead996dba20e32"
+    },
+    {
+      "path": "WORKSPACES/RAVEL/CODE/finite_tube_holonomy_noise.py",
+      "blob": "234508c4dd030d15dbb2024672625ea56c2dd770"
+    }
+  ],
+  "formalization": {
+    "pr": 1133,
+    "branch": "research/ravel-carrier-slice-reconstruction-20261031t0212z",
+    "head_commit": "ce59ec57a2aff34b6fa84f1510e192ee292829f5",
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/RavelNormalConnectionReduction.lean",
+    "module_blob": "b4974d21b7b40fbf51373b6129e628d31c8df56e",
+    "aggregator_commit": "69108684240c1318153c1ae2d7508ee13f443fe1",
+    "ci_run_id": 42986393293,
+    "ci_status_at_report": "IN_PROGRESS",
+    "scope": "component projection non-injectivity and injectivity on reduced subspace; no geometric or physical premise proof"
+  },
+  "controls": {
+    "hsh_main_head": "e3308c00ed97db9461a035b55d592954fc7588e7",
+    "existing_task_id": "6aa1fe0de5e48191b886496095b1343f",
+    "task_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261001T140000\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+    "run_id": "22083a1b-fa04-8324-9c63-160274fc81f0",
+    "scheduled_for": "2026-11-11T08:00:00Z",
+    "started_at": "2026-11-11T07:59:21.976601Z"
+  },
+  "upkeep": {
+    "fie_last_review": "2026-11-10",
+    "fie_next_due": "2026-11-24",
+    "unrelated_reading": {
+      "source": "HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt",
+      "blob": "fa52e41ab73566a13109a0a7aeaed3e895b41163",
+      "lines_read": [
+        1981,
+        2020
+      ],
+      "next_line": 2021
+    }
+  }
+}
