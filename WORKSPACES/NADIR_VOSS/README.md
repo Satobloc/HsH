@@ -233,3 +233,17 @@ This append-only index note supersedes the pending cleanup-head build status in 
 - The :00 h754 occurrence is Hale (index 8), not Tern; it completed at 10:35:27.377016Z after a 25m33s late start. :24 Nadir and :36 Enheduanna remained IN_PROGRESS with null chat_ref; :48 is the upcoming Tern slot.
 - Scheduler correction: `2026-11-11T1024Z_GPB_ARCHIVE_CUSTODY_AND_FIXTURE_PROTOCOL_CORRECTION_AMENDMENT_01.md` and receipt amendment `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1024Z_s2_nadir_voss_AMENDMENT_01.md`.
 - Read-only Tern observation `TERN-H754-SCHEDULER-OBS-001` appended/read back before the :48 run; no task mutation.
+
+
+## 2026-11-11 | h765:s4 Review-MIND source-lineage and witness-type checkpoint
+
+- Report: WORKSPACES/NADIR_VOSS/2026-11-11T2148Z_REVIEW_MIND_SOURCE_LINEAGE_WITNESS_TYPES_AND_PR_SCOPE_AUDIT.md
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2148Z_s4_nadir_voss.md
+- New source result: SAT-O1, O9 mass-spectrum, Blockwave Ideal Model, Blockwave Extension, assistant-supplied clean-action attachment, and Donut/Whirligig holonomy are distinct source objects. No single canonical action or map between them was established.
+- O9 mass relation m² = k(N + βQ² − a) is accompanied by a least-squares ground-state calibration example, while the O9-10 introduction says topology fixes the parameters. Preserve this as a fit/prediction source conflict; no fit was rerun.
+- Existing Nadir PR #1189 exact-head Lean build #42979143722 was replayed. Its branch root aggregator includes the GP-B LinearizedSixPlane module, but the PR description does not disclose the quarantine in issue #1593. No PR/code change was made.
+- “Witness” is overloaded across range-preimage, connector-element, source-attestation and measurement senses. No cross-layer composition contract was implemented.
+- Historical source still does not establish a standalone Nadir charter; original :48 assignment was Mercer, followed by broad playground permission. Current Review-MIND lane charter governed this run.
+- All four Mersearch request lanes remain occupied; no request was overwritten or submitted. Existing completed receipts were reused as bounded navigation only.
+- No physical calculation, data-free fixture, fit, CODATA comparison, P2 selection, new Lean code/build, theory promotion, public issue, or paper-gate advancement occurred.
+- Existing Nadir workspace remains assistant-curated. No CURRENT_WORK or ROLE_CHARTER file was created.
