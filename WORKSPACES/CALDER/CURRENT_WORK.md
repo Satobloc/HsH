@@ -126,3 +126,15 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - The existing :48 task remains enabled with original task ID, America/New_York hourly :48 VEVENT and prompt unchanged. Current run 23673df3-e894-8327-8f4a-c1b210261d5f remains IN_PROGRESS at last read; no run-level chat_ref. No sixth task.
 
 **Return cursor:** verify the Cambridge supplementary movie file formats/frame counts/checksums and camera-to-pipeline mapping; reconcile the versioned 3D-LPT / 4D-LPT terminology; obtain per-camera calibration, synchronization, run IDs, tracks/outcomes, covariance and independent transition-region acquisitions before any physical analysis. Formalize a Markov-kernel pushforward only after its measurable types and fibre-restricted injectivity condition are explicit and an authorized Lean path exists.
+
+
+## Latest h757:s3 reconciliation | 2026-11-11T1336Z
+
+- Existing report: WORKSPACES/CALDER/2026-11-11T1336Z_OBSERVED_UNIT_COVERAGE_AND_MISSINGNESS_GATE.md (blob 10042b67c78644633bb01e06c7adfda6645c094c); public issue #1602 PUBLISHED_VERIFIED.
+- Canonical receipt created during duplicate-run-key reconciliation: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1336Z_s3_calder.md (blob 220696ea05c9f5ce31d3824cd06e5e0a7248973c).
+- Scheduler/report amendment: WORKSPACES/CALDER/2026-11-11T1336Z_OBSERVED_UNIT_COVERAGE_AND_MISSINGNESS_GATE_AMENDMENT_01_SCHEDULER_RECONCILIATION.md (blob a1b7a37d84c1badc26ce4a43094d4de4edd712ff).
+- Original Hale handoff is preserved with additive timing correction: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1336Z_from_s3_to_s4_hale_AMENDMENT_01.md (blob eaa66903403ac4bd491bb052318bad26cee3239c). Hale inbox now contains the optional packet; no direct ChatGPT delivery/consumption/acknowledgment is claimed.
+- Tern scheduler observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1402Z_H757_S3_SAME_ID_START_MUTATION_AND_SUCCESSOR_LABEL_CORRECTION.md (blob 77dad0c6a773d64f002211a0cc0c24fe67e3db92); Tern inbox append verified.
+- Current exact-ID peek shows same :36 run ID with started_at shifted from the parent report's 13:34:16.378925Z to 14:01:52.677894Z; both snapshots remain IN_PROGRESS. The 13:44 :48 start is h756:s4 Ariadne, not h757:s4 Hale. See amendments; do not infer retry, missed run, or cause.
+- P0 Code Grurple remains ACTIVE; Calder is not on the Paper A/B repair roster; Lane 24 remains BACKSEAT/HOLD. P1 Nov 9 remains OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. No physical calculation, P2 selection, theory promotion, paper-gate advancement, SAT-O/Blockwave change, or automation mutation.
+- Next: await Tern's scheduler reconciliation; do not duplicate the h757:s3 research or publication.
