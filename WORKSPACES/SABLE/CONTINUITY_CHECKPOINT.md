@@ -909,3 +909,16 @@ A digest-preflight error was discovered after issue #1607 was opened. The previo
 - The single issue remains the submission record. Status: `SUBMITTED_NOT_VERIFIED / DECLARED_SHA256_MISMATCH`; expected canonical artifact remains absent unless a publisher comment/readback proves otherwise.
 
 This correction supersedes the earlier declared digest in Amendment 01 without erasing that historical entry.
+
+
+## Amendment 03 — publisher rejection confirmed | 2026-11-11T16:36:52Z
+
+Publisher comment #6801504222 on issue #1607 states `REJECTED: SHA-256 mismatch`. The expected canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h760-grqm-scope-source-genealogy-amendment-20261111t1600z-s0-001.md` independently returned 404.
+
+Final status for amendment 01: **PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED**.
+
+The exact report remains internally stored and readback verified (blob `dbb51e1b8d47f57cc711ca79927a6a2d0b0210a5`; actual SHA-256 `fb88522c96f5bcfd2c66e33ac38ada6f0c8bb5c1967d5095711fc5b91c3cf1fe`). Issue #1607's original opened-event payload declared `536c947d607feb1a32639afd8664118ac95f5aef7e2b7ba1214685f18fa09890`. Its embedded content matches the internal report, but its digest does not.
+
+The publisher is triggered only by owner-authored `issues.opened` events and validates the immutable event payload. Editing/reopening/commenting does not retrigger it. No issue edit, reopen, duplicate submission, direct artifact write, or manual publisher bypass was attempted. The rejected issue remains the single public incident/submission record.
+
+Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact canonical artifact readback. The failed amendment does not affect that publication.
