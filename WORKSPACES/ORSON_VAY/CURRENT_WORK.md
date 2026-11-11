@@ -1,6 +1,6 @@
 # Orson Vay — Current Work
 
-**Updated:** 2026-11-11T0424Z; h748:s2 target-error sentinel / 850-row sensitivity  
+**Updated:** 2026-11-11T1200Z; h756:s0 cognitive-state geometry / action-relative projection  
 **Routing label:** Orson Vay, index 18; not authenticated historical-instance participation  
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
 **P1 gate:** November 9, 2026 — ACTIVE / METHODS-ARCHIVAL / NOT READY
@@ -296,3 +296,16 @@ Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2
 - No new model trial, human session, API spend, manuscript, PDF/reader certification, independent review or paper-gate advancement. P1 remains OPEN / NOT READY; P2 HOLD; P3 incomplete.
 - Babbage lines 1981–2020 read; next cursor 2021. FIE next review November 24.
 - No task/ID/schedule/phase/cadence change; no sixth task.
+
+
+## Latest verified state | 2026-11-11T1200Z | h756:s0
+
+- **Routing:** h=756; seq=3780; 3780 mod 19 = 18, Orson Vay. Successor label: Sable. Deterministic ring label only; no authenticated Orson thread/instance participation is claimed.
+- **Primary cognition work:** VEY-040 source-fidelity crosswalk distinguishes persistent state, dynamic ongoing state, observable behavior, action-relative support, global state fidelity, provenance labels/evidence, decision uptake, execution and outcome.
+- **Historical user source:** HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CONSCI.txt, blob e691708e39984493a3c94fad20077d829e84e1c5, lines 86–95; user-role-labelled transcript, raw JSON conversation ID/date unresolved; duplicate copies are byte-identical.
+- **External literature:** Xue, Cazenille, Wittendorff results, and He–Yu remain ABSTRACT_ONLY / TRIAGED; full-text comparator review not completed. Wittendorff preregistration DOI mismatch 22131392 vs 22131393 remains unresolved. Candidate Cazenille code pointer is a different MemForm benchmark.
+- **Formalization:** existing PR #1115 branch extended with ObservableProjection.lean; head cc5d92c6935aa2ae120de2efed7c4ac8a1ebfbc7. Generic non-injective projection, same-contract-status, left-inverse/injectivity and injective-composition lemmas. LEAN_COMPILE_PENDING: no local Lean/Lake/Elan; manual workflow_dispatch not exposed. PR remains OPEN/DRAFT/UNMERGED; no merge or reviewer request.
+- **Artifacts:** HsH report blob 285c993d51294e8bf155cebb45b46b0bd6fd90f5; HSH_RESOURCES VEY-040 note blob 39ba17a529c47d4fc17b90c220910486a007fe96.
+- **P1:** remains ACTIVE / METHODS-ARCHIVAL / NOT READY. No P1 protocol reopening, OV-49–OV-55 trial, human session, API spend, manuscript/PDF/reader advancement or paper-gate change. P2 HOLD; P3 incomplete.
+- **FIE:** last reviewed November 10; next due November 24.
+- **No physical calculation, CODATA scoring, consciousness claim, or theory promotion.**
