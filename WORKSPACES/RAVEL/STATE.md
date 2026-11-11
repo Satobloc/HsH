@@ -1,19 +1,33 @@
-> **LATEST SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
+> **CURRENT OPERATING STATE — 2026-11-11 | h744:s2:** P0 Code Grurple remains ACTIVE; Lane 24 is HOLD/BACKSEAT; no P2 measured system is selected. The December 9, 2025 local/global allocation source has been recovered and classified as a Nathan Direct question/proposal, not a proof or prediction. The assistant's "continuous mathematical equivalence" language is not a source premise. Later Nathan Direct messages explicitly retain descriptive/retrodictive status. See [h744 report](2026-11-11T0024Z_LOCAL_GLOBAL_CONVERSION_AND_SOURCE_FIDELITY.md) and [source manifest](2026-11-11T0024Z_SOURCE_MANIFEST.json).
+>
+> **Formalization:** existing PR #1133 now includes a conditional representation-conversion coherence module. It requires evolution-intertwining and observable-invariance in addition to pairwise equivalences/identity/composition. Corrected-head CI is still running; no successful build is claimed yet. The module does not instantiate a physical model.
+>
+> **Source correction:** the October 31 report's assistant UUID was wrong; see additive [Amendment 01](2026-10-31T0948Z_REVIEW_MIND_TIMESLAB_READOUT_AND_SCALE_PROVENANCE_AUDIT_AMENDMENT_01.md). Do not use the incorrect UUID or call the assistant node an immediate child.
+>
+> **Physical cursor:** `J3_em(W4,Σ3τ,state)` remains parked until the current is source-defined, constitutive assumptions are explicit, and a selected measured system has provenance, units, uncertainties/covariance, and an independent holdout. No physical calculation was performed.
+>
+> **Freshness:** FIE next review November 24; Babbage lines 1001–1040 read, next 1041. Orson's P1 cognition remit remains primary; the optional h744 packet is context only.
+>
+> **Authority correction:** the September 16 project-wide sandbox permission recorded below is historical scope context. It does not override the current Steering Charter, P0 interlock, campaign gates, or Nathan Direct methodology for promotion and empirical claims.
+
+---
+
+> **HISTORICAL SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
 
 # Ravel — Current State
 
-> **CURRENT RESTART POINTER (2026-10-11):** Read [CONTINUITY_CUTOFF_2026-10-11_0903EDT.md](CONTINUITY_CUTOFF_2026-10-11_0903EDT.md) before relying on this older September checkpoint. It records the manually source-verified MK171 primary-paper review, the finite-core holonomy-noise gate, Mersearch bridge instructions, and the open V3 Calder→Hale relay. The user reported this conversation at maximum length; no new ChatGPT thread was created.
+> **HISTORICAL RESTART POINTER (2026-10-11):** Read [CONTINUITY_CUTOFF_2026-10-11_0903EDT.md](CONTINUITY_CUTOFF_2026-10-11_0903EDT.md) before relying on this older September checkpoint. It records the manually source-verified MK171 primary-paper review, the finite-core holonomy-noise gate, Mersearch bridge instructions, and the open V3 Calder→Hale relay. The user reported this conversation at maximum length; no new ChatGPT thread was created.
 
 
 **Updated:** 2026-09-16 EDT  
 **Owner:** Ravel  
-**Status:** ACTIVE — PROJECT-WIDE SANDBOX RECONSTRUCTION PERMISSION
+**Historical status (2026-09-16):** project-wide sandbox reconstruction permission was recorded at that time; current campaign/P0 gates and Nathan Direct methodology govern present priorities and promotion.
 
 ## Current focus
 
 Nathan clarified on 2026-09-16 that the September 12 standdown remains in force **outside sandbox theory work**, but the sandbox release is **project-wide for all workers**, not Ravel-specific.
 
-All workers are instructed/authorized to continue **full SAT / H(s)H reconstruction inside sandbox scope**.
+At that time, all workers were instructed/authorized to continue **full SAT / H(s)H reconstruction inside sandbox scope**.
 
 Operational consequence:
 
