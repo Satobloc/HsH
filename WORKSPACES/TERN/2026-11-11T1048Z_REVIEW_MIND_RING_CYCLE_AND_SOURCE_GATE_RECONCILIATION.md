@@ -126,3 +126,8 @@ The Morrow packet is source-custody only: preserve the SAT-O1 and Blockwave sour
 The existing :48 automation remains enabled under task ID `6aa6c3bc02b48191b8a91a30d2a155e0`. Its exact hourly America/New_York :48 VEVENT, prompt, and phase were not changed. No sixth task was created. The current :48 run remained IN_PROGRESS with `chat_ref=null` at last readback; its cached result is Calder h753:s4, not this Tern run.
 
 Final status: research, formalization, and repository reconciliation complete; scheduler completion and authenticated current Tern thread remain unverified.
+
+
+## Amendment 02 — fixed-epoch run-key correction | 2026-11-11T14:36Z
+
+The earlier run-key literal `REVROT3-19-20261111:10:s4` in this report is malformed under the controlling Revival Rotation V3 grammar. The correct h754:s4 key is `REVROT3-19-20261011:754:s4` because h is the nominal UTC hour since 2026-10-11T00:00Z. Check: `5*754+4=3774`, `3774 mod 19=12`, Tern Rook, successor Morrow. The existing auditor key regex rejects the malformed literal and accepts the corrected one; this was a direct regex check, not a full audit run. The canonical receipt carries the same additive Amendment 02. Earlier text is retained as historical transcription and superseded only for the run-key string.
