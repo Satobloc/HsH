@@ -543,4 +543,92 @@ theorem h758_s3_successor :
 #print axioms h758_s3_worker
 #print axioms h758_s3_successor
 
+
+/-! ## h758 same-run-ID start-time field changes
+
+These observations are client-readback records for the same run IDs and nominal
+slots. The source JSON preserves the separate request/response windows. This
+formalization checks only the transcribed identifiers, schedule fields, status,
+chat-reference absence, and integer microsecond differences. It does not
+identify scheduler attempts or explain why a mutable start-time field changed.
+-/
+
+/-- Minimal run-level fields needed to compare successive scheduler readbacks. -/
+structure RunStampObservation where
+  runId : String
+  scheduledUs : Nat
+  startedUs : Nat
+  status : RunStatus
+  chatRef : Option String
+  deriving DecidableEq, Repr
+
+/-- First readback of Tern h758:s3, observed at 14:55:32.706Z. -/
+def h758S3FirstReadback : RunStampObservation :=
+  { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
+    scheduledUs := us 14 36 0 0
+    startedUs := us 14 35 51 499419
+    status := .inProgress
+    chatRef := none }
+
+/-- Later readback of the same Tern run, observed at 15:14:29.882Z. -/
+def h758S3LaterReadback : RunStampObservation :=
+  { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
+    scheduledUs := us 14 36 0 0
+    startedUs := us 15 3 55 226485
+    status := .inProgress
+    chatRef := none }
+
+theorem h758_s3_same_run_schedule_status_and_chat_across_readbacks :
+    h758S3FirstReadback.runId = h758S3LaterReadback.runId ∧
+    h758S3FirstReadback.scheduledUs = h758S3LaterReadback.scheduledUs ∧
+    h758S3FirstReadback.status = h758S3LaterReadback.status ∧
+    h758S3FirstReadback.chatRef = h758S3LaterReadback.chatRef := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h758_s3_started_at_field_changed :
+    h758S3FirstReadback.startedUs ≠ h758S3LaterReadback.startedUs := by
+  decide
+
+theorem h758_s3_started_at_delta_us :
+    h758S3LaterReadback.startedUs - h758S3FirstReadback.startedUs = 1683727066 := by
+  decide
+
+/-- First readback of Morrow h758:s4, observed at 14:55:33.883Z. -/
+def h758S4FirstReadback : RunStampObservation :=
+  { runId := "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
+    scheduledUs := us 14 48 0 0
+    startedUs := us 14 44 44 693441
+    status := .inProgress
+    chatRef := none }
+
+/-- Later readback of the same Morrow run, observed at 15:14:31.395Z. -/
+def h758S4LaterReadback : RunStampObservation :=
+  { runId := "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
+    scheduledUs := us 14 48 0 0
+    startedUs := us 15 12 21 561440
+    status := .inProgress
+    chatRef := none }
+
+theorem h758_s4_same_run_schedule_status_and_chat_across_readbacks :
+    h758S4FirstReadback.runId = h758S4LaterReadback.runId ∧
+    h758S4FirstReadback.scheduledUs = h758S4LaterReadback.scheduledUs ∧
+    h758S4FirstReadback.status = h758S4LaterReadback.status ∧
+    h758S4FirstReadback.chatRef = h758S4LaterReadback.chatRef := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h758_s4_started_at_field_changed :
+    h758S4FirstReadback.startedUs ≠ h758S4LaterReadback.startedUs := by
+  decide
+
+theorem h758_s4_started_at_delta_us :
+    h758S4LaterReadback.startedUs - h758S4FirstReadback.startedUs = 1656867999 := by
+  decide
+
+#print axioms h758_s3_same_run_schedule_status_and_chat_across_readbacks
+#print axioms h758_s3_started_at_field_changed
+#print axioms h758_s3_started_at_delta_us
+#print axioms h758_s4_same_run_schedule_status_and_chat_across_readbacks
+#print axioms h758_s4_started_at_field_changed
+#print axioms h758_s4_started_at_delta_us
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
