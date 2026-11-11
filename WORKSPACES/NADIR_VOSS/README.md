@@ -252,3 +252,8 @@ This append-only index note supersedes the pending cleanup-head build status in 
 ### h765:s4 additive CI/source-scope amendment
 
 The last exact-head PR #1189 build is for fbe078a94a0074c7eb00e98aee47bf718630d607. The current branch ref root aggregator differs and adds NadirAngleConvention (blob d179ce950901e4e77433350d2bb3a51daf820059), not present in the fbe build. Current branch head SHA and current-head CI remain unestablished. The PR description mentions GPB/E989/vortex but not the LinearizedSixPlane quarantine or issue #1593, and not the new angle-convention module. The report was corrected additively; no PR or branch change was made.
+
+
+### h765:s4 successor timing amendment
+
+The Enheduanna h766:s0 optional handoff and inbox pointer were committed after the run record's start time. Final classification is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed. The later scheduler read still showed the Nadir :48 and Enheduanna :00 run records in progress with null run-level chat references; cached results remained older Mira outputs.
