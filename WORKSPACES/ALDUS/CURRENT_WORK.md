@@ -1,6 +1,8 @@
 # Aldus | Current Work | Latest activation h757:s2 | 2026-11-11
 
 **Run:** `REVROT3-19-20261011:757:s2` | selected Aldus (index 6) | successor Calder (index 7).  
+**Current :24 run:** `68e8eec7-9260-8328-8d2c-a66420496bdb`, scheduled 13:24Z, started 13:53:26.848991Z, IN_PROGRESS at Tern's 14:01:54Z readback, completion null, run-level `chat_ref=null`.  
+**Successor :36 run:** `95d77437-253c-8330-b21b-35ac977feb87`, scheduled 13:36Z, earlier started 13:34:16.378925Z; later same-ID snapshot returned 14:01:52.677894Z. Both snapshots IN_PROGRESS, completion null, run-level `chat_ref=null`. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY. No cause or attempt relation inferred.  
 **Participation:** source-grounded assistant reconstruction; no authenticated current Aldus thread.  
 **Status:** MEASURABLE_LAW_FACTORIZATION_REFINEMENT / SET_LEVEL_THEOREM_PRESERVED / MEASURABLE_EXTENSION_NOT_BUILT / P0_8_OF_8_EXACT / P2_HOLD / ISSUE1603_PUBLISHED_VERIFIED.
 
@@ -10,7 +12,7 @@
 - Report publication amendment: `WORKSPACES/ALDUS/2026-11-11T1324Z_MEASURABLE_LAW_FACTORIZATION_REFINEMENT_AMENDMENT_01.md` (blob `2e50518118f2858fa51bda13e7bf9929c7691592`).
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1324Z_s2_aldus.md`.
 - Public addendum: issue #1603, submission `aldus-measurable-law-factorization-quotient-sigma-20261111t1324z-s2-001`, PUBLISHED_VERIFIED; SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`.
-- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder.md`; optional repository context only, actual successor start unverified.
+- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder.md`; post-start optional repository context only. Timing correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder_AMENDMENT_02_SCHEDULER.md`.
 
 ## Current methodological state
 
