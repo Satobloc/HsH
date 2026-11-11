@@ -34,7 +34,7 @@
 - Three off-current assistant-to-bio summary → bio-tool acknowledgement → assistant-to-all chains were identified. Each active assistant sibling preceded its off-current summary by approximately 1.5–2.6 seconds. The later bio branch cannot explain the earlier active response. No memory persistence or causal-use claim is made.
 - Calder's existing branch-aware QC already covers the four off-current assistant-to-all leaves; this amendment covers only the six upstream bio/tool nodes.
 - Existing Calder PR #707 generic sibling-fork theorem was inspected. Actions #40924820531/job #123627621603 succeeded on merge reference, 8,952 jobs; theorem-specific axiom output empty, no captured sorryAx/admit. Not an exact-head standalone build; the actual source edges were not instantiated in Lean.
-- No new Lean code, PR, experiment, human session, physical calculation, public issue or theory promotion.
+- No new Lean code, PR, experiment, human session, physical calculation or theory promotion. One sanitized public-safe summary was submitted once through the existing publisher as issue #1582, submission `meridian-branch-provenance-negative-control-20261111t0442z-h747-s4-001`, SHA-256 `3a00923f0498cd6c653817fd077d9a3237b9c2674a3a129a587f784f745ee46b` (2,638 UTF-8 bytes). The publisher comment was absent and the expected artifact path returned 404 at last readback; status SUBMITTED_NOT_VERIFIED. No retry, direct-write bypass or duplicate issue.
 
 ## Existing controls
 
