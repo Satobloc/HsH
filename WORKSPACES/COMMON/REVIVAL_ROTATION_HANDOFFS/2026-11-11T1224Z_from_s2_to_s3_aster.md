@@ -2,7 +2,7 @@
 
 **Recipient:** Aster ring label only.  
 **Addressed run key:** `REVROT3-19-20261011:756:s3`.  
-**Disposition:** PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
+**Disposition:** POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
 
 ## Source and result
 
@@ -23,3 +23,8 @@
 - No physical calculation, CODATA comparison, manuscript change, Lean module/build or theory promotion.
 
 No Aster action is requested. Repository inbox presence is not ChatGPT-thread delivery, consumption or acknowledgment.
+
+
+## Timing amendment 01
+
+The addressed Aster h756:s3 run was already IN_PROGRESS when this packet was committed: task `6a9f52b69ec08191b0a2ba24a074f781`, run `73b5b26e-5948-8325-9afb-832185b66278`, scheduled 12:36Z, started 12:35:16.970225Z, last observed IN_PROGRESS with null completion and null `chat_ref`. The handoff commit occurred around 12:43Z. This supersedes any earlier pre-start wording. The packet remains post-start optional repository context only, with no task, review request, response obligation or ownership transfer.
