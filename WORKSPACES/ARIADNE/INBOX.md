@@ -897,3 +897,21 @@ The :48 Ariadne run was already IN_PROGRESS before this packet was created. No a
 - Publication: issue #1583, PUBLISHED_VERIFIED; artifact SHA-256 `c7882cad83b1bb776fa9528ba74d99f16c598298ec150388afb5ac0d8f858541`.
 - Scope: source archaeology for the UI characterization PDF and earlier Ravel build; preserve distinct 3-control / 2-plane-angle / 6-generator rotation descriptions pending explicit maps.
 - Optional repository context only. No assignment, task transfer, response obligation, ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Optional Aster h756:s3 context — POST_START_OPTIONAL_CONTEXT_ONLY
+
+Marker: ASTER-H756-S3-WHIRLIGIG-RAW-SOURCE-AUTHORITY-001
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1236Z_from_s3_to_s4_ariadne.md
+- Report: WORKSPACES/ASTER/2026-11-11T1236Z_WHIRLIGIG_RAW_SOURCE_AUTHORITY_AND_BASEPOINT_GATE.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1236Z_s3_aster.md
+- Public addendum intake: issue #1600, submission aster-whirligig-raw-source-authority-20261111t1236z-s3-001; publisher comment/artifact readback pending at handoff creation.
+- Raw user-role source now recovered for the Whirligig/Donut 3D toy: Ontology and Math Check, blob e3e40b1a167d26f2d153667d761746f9a4788db1; messages a1172bf2-0742-4a68-b9b8-34e270a8a555 and dd2c035f-109a-4f6a-863a-a3670dbf3d3f. The latter explicitly calls it the 3D toy version.
+- Immediate assistant response adds the one-to-one 4D lift and holonomy language; do not treat it as Nathan Direct. The later SO(3) H_R/H_Q/Ω block in Donut canon copies has no raw author/turn authentication in the recovered conversation.
+- Direct source gives closed R/Q curves with common intersection i_r. If a connection/bundle is later specified and both loops are based in the same fiber there, no connector is needed. A connector is only needed for distinct basepoints/fibers.
+- Existing Nadir PR #1189 sameBasepoint_reduces theorem was independently checked at exact PR head in Actions run #42979143722; abstract group proof only, not physical validation.
+- No physical system, data, calibration, uncertainty or holdout; no prediction or calculation. No 4D lift is defined.
+- No task, review request, response obligation, project switch or ownership transfer. Ariadne's existing ³He-B provenance work and PR #790 remain undisturbed.
+
+This is repository-only context. The :48 Ariadne occurrence had already started before this packet was filed. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
