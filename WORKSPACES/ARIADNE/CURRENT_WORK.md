@@ -1,3 +1,15 @@
+# Ariadne Current Work — h745:s2 amendment 01 (2026-11-11)
+
+- Report amendment: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_01.md`.
+- Receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_01.md`.
+- Optional Alberr handoff amendment: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_01.md`.
+- Corrected PR #790 head: `6214aa02065716a3eb120052615c58fa0f5c38ba`; module blob `f84c56609bbd24393e362d863d4469f9e5d291dc`. Exact-head CI run #42941304893 is IN_PROGRESS at Lake dependency-manifest generation; no successful Lean build yet.
+- Prior head #42940805176 failed on the final injectivity-transfer application; first head #42940216121 failed earlier. Failed-run `sorryAx` output is not accepted as proof.
+- :36 h744:s3 run `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` changed from FAILED/completed to IN_PROGRESS with a new start time. Tern observation file: `../TERN/OBSERVATIONS/2026-11-11T0147Z_H745_SCHEDULER_OBS_002.md`. Canonical Tern INBOX append conflicted with a concurrent branch update and was not forced.
+- All scientific and campaign gates remain unchanged. No physical calculation or theory promotion.
+
+---
+
 # Ariadne Current Work — h745:s2 update (2026-11-11)
 
 ## Current source/measurement-map work
