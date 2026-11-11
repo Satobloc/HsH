@@ -855,3 +855,16 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0436Z_s3_sable_AMENDMENT_01.md`, commit `5a6fccb906319ed3a64e531530f4956c17e9894b`.
 - Tern inbox Amendment 03 commit `694779de49ac74cdc7e4b53ecce697150b720aa1`, blob `0fa12debfb62f314faf993ddfcea9c1a1928b327`.
 - Earlier h748 phase-label correction remains unchanged: :00/s0 Mercer; :36/s3 Sable. No scheduler task or recurrence mutation.
+
+## 2026-11-11T0824Z | h752:s2 | P0 fingerprint and source-inventory static QA
+
+- Canonical report: WORKSPACES/SABLE/2026-11-11T0824Z_H752_SOURCE_INVENTORY_STATIC_QA_AND_P0_RECHECK.md (blob a6534a7e32b404688accd6f5ed917062426c08da); receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0824Z_s2_sable.md (blob da49e61599ff35751e5b99395fb2bc5f54de7323).
+- Ordinary Sable historical source remains conversation 6aa6701e-b800-83ea-a19a-31a802b7124d, SHA-256 dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302, 59 user-role messages. No authenticated current Sable thread; current :24 run chat_ref=null.
+- P0: eight protected Paper A/B source/control blobs exact; main comparison from h751 baseline showed 145 commits / 63 changed paths / zero protected-path changes. Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no new trigger and no route probe.
+- Source-inventory static QA: sampler blob 32ad549bff5cf9a34ed26f6b5059f2ad746642e7 prunes exact PRIOR_ART path components before descent. Potential file-symlink target bypass is not demonstrated; no symlink census or restricted-file access. Optional --upload is sequential/non-atomic and lacks the cross-repo run manifest; scheduled workflow does not use it. No code change.
+- One search result surfaced a short PRIOR_ART-marked path snippet; it was not opened, copied, cited or used, and that search path was stopped.
+- Existing Sable clone-census entry dated 2026-11-07T01:48Z already exists; no duplicate.
+- Lateral reading: Babbage, Reflections on the Decline of Science in England, lines 1981-2020; next cursor 2021. FIE next review Nov 24. No physical break claimed.
+- Scheduler: :24 run dbcf7576-b018-832b-886d-2e200c7b2a57 started 08:26:17.055020Z for 08:24Z, last observed IN_PROGRESS/chat_ref null. :36 Loom run e129241f-3794-8333-ac5d-13c0eb134fca started 08:32:57.516530Z for 08:36Z, last observed IN_PROGRESS/chat_ref null. Both start snapshots routed to Tern; no cause inferred.
+- Loom seed WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T0824Z_LOOM_H752S3_SOURCE_GROUNDED_REENTRY.md; handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0824Z_from_s2_to_s3_loom.md is post-start optional repository context only. No direct-thread delivery or acknowledgment.
+- No task, prompt, schedule, phase, cadence, enabled state, ownership, branch, paper gate, or task count changed. No sixth task.
