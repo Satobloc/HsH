@@ -20,3 +20,19 @@
 | Jacoby, `Astronomer Talks` | HSH_RESOURCES `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt`; blob `a7f48e0a01dc7c647d6c18f5418d90d71242b8e3`; lines 541-580 | `UNRELATED-READING`, `HISTORICAL-ASTRONOMY`, `SPECTROSCOPY`, `LIGHT-WAVE-EXPLANATION` | Deliberate out-of-field reading; next cursor line 581. |
 
 Tags are additive. No prior tag was removed or downgraded.
+
+
+## Amendment 01 — 2026-11-11 | upload-event and raw-message completion
+
+Tags are additive; no earlier classification is removed or downgraded.
+
+| Source | Exact locator | Added tags | Attribution and limits |
+|---|---|---|---|
+| Morrow September 9 geometry/scale message | Conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36; raw blob ee394b446b2e36d35fd1e5ecd004685c0422457b; user node fed478ad-8022-46b1-a972-ac74bf7d37b2 | FULL-READ, NATHAN-DIRECT, GEOMETRY, 4DHH-HSH-CONTINUITY, SCALE-SIMILARITY-CLAIM, PROVISIONAL-CLAIMS | Direct source contains conceptual continuity and cross-scale claims, but no explicit parameter/action map. |
+| Morrow follow-up: same-picture/Lagrangian genealogy | Same raw blob; user node 87cf1b1c-5ed7-4082-a0fe-6ed5c79dce3b | FULL-READ, NATHAN-DIRECT, HISTORICAL-GENEALOGY, LATTICE-OPTIONAL | “Same picture” is conceptual genealogy, not proof of identical action functionals. |
+| Morrow follow-up: RMS/SAT distinction | Same raw blob; user node fa3afa98-8d69-4bf1-878a-4d148d4473d2 | FULL-READ, NATHAN-DIRECT, RMS-SAT-DISTINCTION | Explicitly keeps RMS and SAT as distinct theories with a methodological/epistemic relation. |
+| Assistant translation | Same raw blob; assistant nodes 59c3a93e-0245-54e0-ba38-5a6c238e7dc3 and 13a42500-2f8a-599e-9362-f072c697ded7 | FULL-READ, ASSISTANT-RECONSTRUCTION, NOT-NATHAN-DIRECT | The first adds a line-to-finite-core lift; its “no new objects” sentence strengthens a provisional search report. The second's SAT/ACTIVE and a_e candidate labels are historical assistant status, superseded for current use by KERR_CORE_BASELINE's PROVISIONALLY_QUARANTINED state. |
+| SAT.4DHH.UC.pdf upload event | Geometry in Physics conversation 6a25a665-3a10-83ea-a7c0-cebebfdcf1d9; raw blob 2e0c8477873583b92f20a0a3f2af6528643b4a8a; user node f1598e06-6b6f-4b31-bc70-104690c65f22, 2026-06-10T09:33:03.404Z; attachment file_00000000459071f58137e5aae16ea726 | UPLOAD-EVENT-RECOVERED, USER-UPLOADED-ATTACHMENT, MIXED-ORIGIN | The message says “Ok. Next” and carries ten PDFs. It proves upload, not authorship or generation. The later file-search node f1f5fb48-ae25-4ccb-99fe-d60c439a6a3a exposes the “LLM DROP” first page; the generating conversation remains unknown. |
+| 4DHH LAGRANGIAN (nolat).pdf | Existing extraction blob 24d202bdbc79f3c0d83cfd8a9db584479eed5444; PDF SHA-256 8443a85e8a4117422565745b848bd32764f0059e8fbedb9b73107b34e02a3923 | RAW-GENERATION-NODE-STILL-MISSING, PRIOR-AUDIT-REUSED | This is the separate 21-page PDF already classified in the October 31 Morrow addendum; no new raw upload/generation node recovered. |
+
+The upload-event tag for SAT.4DHH.UC.pdf does not supersede MIXED-ORIGIN, LLM-DROP, PROMPT-LIKE, or AUTHORSHIP-UNRESOLVED. The 21-page 4DHH LAGRANGIAN (nolat).pdf remains a separate object and retains RAW-NODE-NOT-RECOVERED.
