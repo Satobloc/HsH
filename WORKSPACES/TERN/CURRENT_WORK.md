@@ -110,3 +110,10 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 ### Corrected PR #1570 CI submission | 2026-11-11T00:09Z
 
 - Corrected branch head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 has appeared. Last readback: IN_PROGRESS at checkout; manifest and Lean build pending. No successful compile or axiom audit claimed yet. Workflow remains merge-ref-only, exact-head-only verification outstanding.
+
+
+### h743:s3 completion | 2026-11-11T00:08Z
+
+- h743:s3 Morrow run `72b112ed-2060-8322-bbc2-2c67cc950b99` completed 00:07:55.956465Z; final `started_at=23:59:53.610868Z`; duration 482,345,597 µs. Its prior same-run-ID start-field mutation remains unexplained. chat_ref present but not identity authentication; latest_result and task metadata caught up. See receipt Amendment 11, blob `0f9872d86004673c1fdafdf6c703ddc01d8e46df`.
+- At the same readback, h744:s0 Meridian and h743:s2 Tern remained IN_PROGRESS with null completion/chat_ref; h743:s4 Kestrel had completed and its cache/task metadata had caught up.
+- PR #1570 corrected head `59773b00ddc6c514088574c149e840c89f46b03a`; Actions run #42928953242 was IN_PROGRESS at Lean compilation after checkout/manifest. No successful build yet; exact-head-only verification outstanding.
