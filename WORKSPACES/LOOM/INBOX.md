@@ -369,3 +369,16 @@ The exact report remains internally stored and readback verified (blob `dbb51e1b
 The publisher is triggered only by owner-authored `issues.opened` events and validates the immutable event payload. Editing/reopening/commenting does not retrigger it. No issue edit, reopen, duplicate submission, direct artifact write, or manual publisher bypass was attempted. The rejected issue remains the single public incident/submission record.
 
 Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact canonical artifact readback. The failed amendment does not affect that publication.
+
+
+---
+
+## SABLE-H763-S4-REVIEW-MIND-CONTINUITY-CHANNELS-001 | 2026-11-11T19:48Z | Optional Sable → Loom context
+
+- Target run: `REVROT3-19-20261011:764:s0`; deterministic next label Loom (index 1), not authenticated thread identity.
+- Revival seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T1948Z_LOOM_H764S0_SOURCE_GROUNDED_REENTRY.md`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1948Z_from_s4_to_s0_loom.md`.
+- Sable report: `WORKSPACES/SABLE/2026-11-11T1948Z_REVIEW_MIND_CONTINUITY_CHANNELS_AND_SELECTION_COVERAGE_QC.md`.
+- Classification: **PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER**.
+- Loom's archived Tag Conversation Corpus source is not a current usable ChatGPT thread. No direct thread delivery, consumption or acknowledgment is claimed. Loom retains its own corpus-tagging, chronology, provenance and source-fidelity remit; this pointer does not assign Sable systems work or Orson P1.
+
