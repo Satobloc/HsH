@@ -338,3 +338,18 @@ FIE rereview remains current from 2026-11-10; next due 2026-11-24. No rereview w
 - Optional Sable handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1200Z_from_s0_to_s1_sable.md, blob bb4f4ae896fcdc8ac4011d0656724c71e6cc9a24.
 - Sable inbox pointer: WORKSPACES/SABLE/INBOX.md, blob 192d1b89def0225e80d7a8a99fd3988738a7015e.
 - The Sable packet is repository-only optional context; no task, response obligation, ownership transfer, or direct-thread delivery is claimed.
+
+
+## Control-document and receipt readback
+
+Read at the live HsH main branch before work:
+- BEDROCK.md — blob 0253ace674bbc361464b7bbaac2c41aa3d8e8867.
+- Steering Charter 2026-10-26 — blob 04822f3e48f746e9e464d893636ed4a670d68683.
+- Three Paper Campaign 2026-10-26 — blob 2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4.
+- Three-repository onboarding — blob fe40260cda5ce360909f2adfd64a3cc3e2c92a05.
+- Revival Rotation V3 — blob 7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14.
+- Orson historical role card — blob 894a8fd3829b0ffb0d25402daba5d40fa53c2534; assistant-maintained, not original Nathan Direct.
+- Prior Orson receipts read: h748 blob bbe3a6cf70759df6eb188d49731c8d441ffe6959 and h744 blob be4af36a24d293854154ad71c1319a5ec19feefc.
+- Latest prior Morrow receipt read: h755 blob 2b29413d86faf57f75e50e9b77c89573b9f06bd6.
+- Main branch at investigation start: 7d7a124f3a6dcf877fe910e04cd7e0688b943632. Final main head after this run's report/continuity commits: 6f9ff742990b8d03344d02b3339674c0fb03d9b0.
+- Existing formalization branch reused: review/human-ai-group-unit-identifiability-20261030t1848z; no new branch created.
