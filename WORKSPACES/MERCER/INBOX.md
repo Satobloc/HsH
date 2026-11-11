@@ -709,3 +709,14 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 - See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0348Z_s4_meridian_AMENDMENT_02.md`.
 - This is late optional repository context only. No task, reply, review, ownership transfer, or direct ChatGPT-thread delivery/consumption/acknowledgment is requested or claimed.
 
+
+
+## MERIDIAN-H751-MERCER-001 | 2026-11-11T0724Z | optional P0 and scheduler context
+
+- Status: `OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM`.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0724Z_from_s2_to_s3_mercer.md`.
+- Packet blob: `ce06dd5afda37fb6bffc454375cae60eb0e79756`; exact packet readback: PASS.
+- To run key: `REVROT3-19-20261011:751:s3`.
+- Fresh P0 snapshot: eight protected blobs match; no P0 paths changed in the 48-commit comparison; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no authenticated browser/site-editor/deployer route capability; no route probe.
+- New scheduler context: the :36 task's prior h750:s3 run ID `a7258540-60a0-8331-9ba4-4d6602c22b33` was recorded FAILED then later IN_PROGRESS with a changed started_at; Tern has the exact snapshots in `TERN-H751-SCHEDULER-OBS-001` and amendment 01. No h751:s3 Mercer run was observed at handoff preparation.
+- This packet does not alter Mercer's existing independent Paper A/B QA remit. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
