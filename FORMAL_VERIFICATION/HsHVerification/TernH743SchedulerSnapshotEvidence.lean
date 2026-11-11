@@ -319,7 +319,8 @@ theorem h743_s4_successor :
 theorem h743_s2_same_run_and_schedule_across_readbacks :
     run24.runId = run24Later.runId ∧
     run24.taskId = run24Later.taskId ∧
-    run24.scheduledUs = run24Later.scheduledUs 
+    run24.scheduledUs = run24Later.scheduledUs := by
+  exact ⟨rfl, rfl, rfl⟩
 
 theorem h743_s2_started_at_field_changed :
     run24Later.startedUs - run24.startedUs = 1649042587 := by decide
@@ -330,16 +331,39 @@ theorem h743_s2_later_start_after_nominal :
 theorem h743_s2_both_snapshots_in_progress :
     run24.status = .inProgress ∧ run24Later.status = .inProgress := by decide
 
-theorem h743_s2_cached_result_still_prior :
+theorem h743_s2_cached_result_fields :
     run24.latestResultRunId = some "cb7286dc-433c-8323-b174-d9431fa5a6a0" ∧
     run24Later.latestResultRunId = some "cb7286dc-433c-8323-b174-d9431fa5a6a0" ∧
-    run24.latestResultRunId ≠ some run24.runId := by native_decide
+    run24.runId = "5721c93e-6810-832e-adcf-ce430ba7e3b7" := by
+  exact ⟨rfl, rfl, rfl⟩
 
-theorem h743_s4_state_and_prior_cache :
+theorem h743_s2_cached_result_is_prior :
+    run24.latestResultRunId ≠ some run24.runId := by
+  intro h
+  change some "cb7286dc-433c-8323-b174-d9431fa5a6a0" =
+    some "5721c93e-6810-832e-adcf-ce430ba7e3b7" at h
+  have hstr : "cb7286dc-433c-8323-b174-d9431fa5a6a0" =
+      "5721c93e-6810-832e-adcf-ce430ba7e3b7" := Option.some.inj h
+  have hhead := congrArg (fun s : String => s.toList.head?) hstr
+  simp at hhead
+
+theorem h743_s4_state_and_cache_fields :
     run48H743.status = .inProgress ∧
     run48H743.completedUs = none ∧
     run48H743.chatRef = none ∧
-    run48H743.latestResultRunId ≠ some run48H743.runId := by native_decide
+    run48H743.latestResultRunId = some "1b06b14c-9e58-8328-b8a6-f5b291785bf9" ∧
+    run48H743.runId = "420a2c92-21fc-8333-bdc3-a5b6f85473ff" := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h743_s4_cache_is_prior :
+    run48H743.latestResultRunId ≠ some run48H743.runId := by
+  intro h
+  change some "1b06b14c-9e58-8328-b8a6-f5b291785bf9" =
+    some "420a2c92-21fc-8333-bdc3-a5b6f85473ff" at h
+  have hstr : "1b06b14c-9e58-8328-b8a6-f5b291785bf9" =
+      "420a2c92-21fc-8333-bdc3-a5b6f85473ff" := Option.some.inj h
+  have hhead := congrArg (fun s : String => s.toList.head?) hstr
+  simp at hhead
 
 theorem h743_s4_task_metadata_precedes_start :
     run48H743.taskLastRunUs < run48H743.startedUs ∧
