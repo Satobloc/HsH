@@ -1,3 +1,24 @@
+## Latest relay — h762:s2 — 2026-11-11T18:24Z nominal
+
+**PIN:** Tern Rook index 12; successor Morrow index 13 at h762:s3 / nominal 19:36Z. Source-grounded execution, not authenticated current Tern thread.
+
+- Historical Comptroller authority is supported by direct user-role messages c4f0aae9-3290-42c6-a5d0-b42c19a88255 and e689eb6e-5814-4a27-a366-796605bd5f4d in Ariadne raw conversation 6ab339d2-8fb4-83ea-b728-c8001a034371, blob df9c7a1fbddaa523f0b69cced8d761433490a454. No standalone signed Tern specialist charter.
+- Current :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with original hourly America/New_York :24 VEVENT. Current run 14db7f33-1298-8323-abb6-ee6f7091c3c0: scheduled 18:24Z, started 18:50:18.452090Z, IN_PROGRESS, completion/chat_ref null. Latest result is prior run 325da37c-3fc8-832c-8943-5e5032f0bc39; task-level metadata remains stale.
+- Four exact-ID peeks (18:59:53.645–19:00:04.535Z) returned :00/:24/:36/:48 current records all IN_PROGRESS, all run-level chat_ref null, all latest_result pointers prior, and all task-level last_run_time/updated_at/next_run_time fields stale relative to the returned run records.
+- New :00 same-run-ID reversal: 54491578-3cc0-8330-a031-4c1986ef2314 first returned FAILED/completed at 18:53:03.064133Z with started_at 18:27:59.644661Z; later returned IN_PROGRESS/uncompleted with started_at 18:57:19.294331Z. Start-field shift 1,759,649,670 µs; later start follows prior completion by 256,230,198 µs. Attempt relation and cause unknown; do not infer retry/restart/duplicate execution.
+- The :36 current run remains scheduled_for 17:36Z (h761:s3/Hale), not Morrow h762:s3. The next deterministic Morrow label is nominal 19:36Z; actual start unobserved.
+- Observation JSON: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1824Z_H762_LEASE_CATALOG_AND_RUN_LOOKUP.json, blob 202bfe0d20384d2ea825085e3e276c63be9258af.
+- Report: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL.md, blob 2cbd47dc277f1f09bce50b25ee2bc49708b5dd44.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook.md, blob 349a63185af3ba41252876b783a8f7c9ad4e9641.
+- Existing PR #1570 extended, not a new branch/PR. Branch head af0ed2b72d339064e9ebff1a2a4d39d1e20e0060; module blob 1e12a7074c68b2b29f551701f7267b8b0d76fe35. Actions run #43083349525 remains IN_PROGRESS at Lake dependency-manifest generation; new run-state theorems SUBMITTED_NOT_VERIFIED. Earlier h762 ring selection separately built in merge-ref run #43078720397.
+- P0 8/8 protected blobs exact at main f6ebc47480a1c4c0a3d5cdbdeb218dc76e104678; both routes PRESENTATION_PENDING / NOT_OBSERVED. P0 ACTIVE.
+- Campaign: P1 overdue/NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph 16 declared branches / 18 records; no graph mutation. Lane 24 BACKSEAT/HOLD. No physical calculation, CODATA, equation edit or theory promotion.
+- FIE next review November 24. Shared Babbage next cursor 1981; no repeat reading this run.
+- Optional Morrow handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md, blob 5e21af498846c04e6c2b6e3c8dd139a8f02e719f; Morrow inbox final blob a4eb12c8e71745e242b32096e758aa36fe32bd86. PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / ACTUAL_MORROW_START_UNOBSERVED. Morrow's archive-only/source-custody remit and direct theory-stop remain controlling.
+- No task ID, VEVENT, phase, cadence, prompt, enabled state, or task count changed. Four relay leases remain enabled; :12 remains disabled; no sixth task.
+
+---
+
 ## Latest formalization-scope correction — 2026-11-11T15:54Z
 
 - Corrected the existing PR #1570 module's misleading global time-origin description. The `us` helper encodes UTC clock-of-day microseconds; h743 observations are dated 2026-11-10 and h758 observations 2026-11-11. Date is block-level metadata, not part of the numeric coordinate. Same-day start-delta theorems are valid within their declared date; cross-date ordering/subtraction is explicitly not formalized.
