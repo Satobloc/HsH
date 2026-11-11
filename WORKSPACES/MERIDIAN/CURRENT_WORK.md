@@ -2,7 +2,23 @@
 
 **Status:** CURRENT PILOT. Assistant-curated navigation card, not a Nathan-authored charter, task graph, theory authority or proof of historical-instance continuity.
 
-## Latest state | h751:s2 | 2026-11-11T07:24Z
+## Latest state | h755:s2 | 2026-11-11T11:24Z
+
+- Deterministic selection: h=755; seq=3777; 3777 mod 19=15, Meridian; next index 16, Mercer. Run key `REVROT3-19-20261011:755:s2`.
+- Historical remit was reread from direct user-role messages in Meridian raw exports `d21e251df093013903cc19789ded562f83b6e6ea` and `7af1561b321f4d9364da5eb111df689efc652827`. No standalone signed Nathan-authored specialist charter or authenticated current Meridian thread was recovered. Latest located Meridian conversation remains archived-only; current run `chat_ref=null`.
+- Current live assignment remains **Code Grurple Paper A accepted-R1 presentation support only**; Mercer retains independent Paper A/B QA. HAGALAZ and Lane 24 remain BACKSEAT/HOLD while P0 is active.
+- P0 revalidation: eight protected Paper A/B source/control blobs match exactly. Compared prior h751 prewrite main `5a2f96f54d7756ae7052c30a0639fd3b26bd3c1d` to main `92e1c53b88b6db39d267d92589ead590152d8fde`: 151 commits / 83 changed paths, zero protected P0 path changes; only site-related path changed was `PUBLIC_SITE/generated/discovery.json`.
+- Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, not PASS/FAIL. No new derivative, renderer/config identity, deployed build identity, owner preview or authorized site editor/deployer. No observation-capability trigger; no route probe.
+- Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Task graph ACTIVE_SEED, 16 declared branches versus 18 records; Tern owns reconciliation.
+- Lane 24 remains BACKSEAT/HOLD; all four Mersearch request files are occupied. No new archive search/request, physical calculation, CODATA comparison, Lean build, equation edit, manuscript edit, public publication or theory promotion.
+- FIE last rereviewed Nov 10; next due Nov 24. Last valid Meridian unrelated-reading cursor remains 1463 from h747:s4. The misattributed h751 cursor 1503 is not adopted; no new reading performed.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 VEVENT and prompt. Current run `8548fcef-a6f8-8326-929e-635f1d21c4d9`, scheduled 11:24Z, started 11:23:29.281207Z, last observed IN_PROGRESS, completion null, `chat_ref=null`; cached result is prior Nadir h754:s2, not this run. :36 task remains enabled with exact original :36 VEVENT; h754:s3 Enheduanna completed 10:57:48Z; no h755:s3 Mercer run observed.
+- Full report: `WORKSPACES/MERIDIAN/2026-11-11T1124Z_P0_REVALIDATION_AND_RING_CONTINUITY.md` (blob `3a5322373937a404381bbd6a4b6593399b363f46`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1124Z_s2_meridian.md` (blob `706d9e656a87718a79aada9f0762d31cde8ca2a9`). Mercer handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1124Z_from_s2_to_s3_mercer.md` (blob `18745eec11456ad73e48b142d1bd17b3c4bef595`); inbox append read back at blob `a3ccd2ddfad5e1f455f13cb0e3a729572abcb564`.
+- Next cursor: wait for a genuine authorized P0 observation/deployment trigger; do not probe by elapsed time. After P0 standdown, Tern must reconcile HAGALAZ with the parked :24/P2 lane before ordinary solver work resumes.
+
+## Prior checkpoint | h751:s2 | 2026-11-11T07:24Z | MISATTRIBUTED LABEL; CORRECTED BY MERCER h751:s4
+
+**Controlling correction:** the fixed zero-based ring gives h751:s2 seq=3757, index 14 = Kestrel; next index 15 = Meridian. The original h751 report/receipt and packet to Mercer were misattributed/misrouted. Mercer h751:s4 report/receipt, Meridian report/receipt Amendment 02, handoff Amendment 01, and Tern observation 002 are controlling. Preserve the original h751 artifacts as scheduled-run records, not authenticated Kestrel or Meridian work. The h751:s2 reading cursor 1503 is not adopted as Meridian continuity.
 
 - Current active remit remains **Code Grurple Paper A accepted-R1 presentation support only**. Mercer retains independent Paper A/B QA. HAGALAZ and Lane 24 remain BACKSEAT/HOLD while P0 is active.
 - P0 revalidation: eight protected source/control blobs match their pinned identities exactly; 48 commits since prior h750 main have zero overlap with the eight P0 paths. Both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, not PASS and not FAIL. No authorized site editor/deployer, owner preview, deployment identity or authenticated browser context. Browser tab listing failed because the originating browser context is unavailable; no route probe.
@@ -30,7 +46,7 @@
 
 ## Identity provenance
 
-Historical role-setting comes from user-role messages in conversation `6a9aa91b-11f4-83ea-80a1-4d502522e441`, raw export blob `d21e251df093013903cc19789ded562f83b6e6ea`: messages `054d1aea-cf67-4154-93c8-e302dc3ce1ea`, `39299849-e2a4-4b63-88a0-5612c700cc1a`, and `f6a2377c-8873-41ee-9107-41aeeb0d2589`. The assistant-authored title “Geometric Formalization & Representation Lead” is not Nathan Direct. At the time of the prior run, the Contents API fetch returned blank. The 2026-11-05 h614:s4 run successfully retrieved the raw blob via Git blob API and verified selected direct user messages; this was not a full conversation reread. See the source-recovery amendment in NEW_INSTANCE_START_HERE.md and the canonical run receipt.
+Historical role-setting comes from direct user-role messages in conversation `6a9aa91b-11f4-83ea-80a1-4d502522e441`, raw export blob `d21e251df093013903cc19789ded562f83b6e6ea`: messages `054d1aea-cf67-4154-93c8-e302dc3ce1ea`, `39299849-e2a4-4b63-88a0-5612c700cc1a`, and `f6a2377c-8873-41ee-9107-41aeeb0d2589`. A later snapshot of conversation `6ac45d1f-17b0-83ea-ad1f-fa524602378b`, blob `7af1561b321f4d9364da5eb111df689efc652827`, was used only for direct Nathan user message `97d301cb-5174-4861-a273-ac4cc0b60d8b`, dated 2026-10-09; later-snapshot content was not treated as current authority. No standalone signed Nathan-authored specialist charter was recovered. The assistant-authored title “Geometric Formalization & Representation Lead” is not Nathan Direct. The latest located Meridian thread is archived-only; no authenticated current thread or cross-thread delivery is established.
 
 ## Re-entry gate
 
