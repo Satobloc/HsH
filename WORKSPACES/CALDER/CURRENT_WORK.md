@@ -81,3 +81,5 @@ Preserve P0 and wait for a qualifying route/deployment trigger or explicit stand
 - New delta: Cruller (M_Q) candidate-status drift, S3/B3 cross-section ambiguity, conditional (|n|)-sheet phase-level-set result, missing proper-time map, SO(4)/Spin(4) group correction, and conditional Euclidean/Lorentzian type conflict.
 - Mersearch not run: all four lanes remain requested; no lane overwritten. No Lean compile; no physical calculation, CODATA, fit, prediction, or observational validation.
 - Preserve P0 ACTIVE, Lane 24 BACKSEAT/HOLD, PR #1515 OPEN/DRAFT/UNMERGED, and all paper gates. No theory promotion or task/ID/cadence change.
+
+- Final publication reconciliation: issue #1584 remains OPEN with no publisher comment on two checks; expected PUBLISHED_SUBMISSIONS artifact returned 404. Exact issue content matches the workspace report and declared SHA-256. Status `PUBLISHER_PENDING / ARTIFACT_NOT_CREATED`; no duplicate issue or direct-write bypass.
