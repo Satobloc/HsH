@@ -1,7 +1,7 @@
 # Tern Rook — Review-MIND / Comptroller reconciliation
 
 - Nominal occurrence: 2026-11-11T10:48Z
-- Run key: `REVROT3-19-20261111:10:s4`
+- Run key: `REVROT3-19-20261011:754:s4`
 - Main branch preflight head: `92e1c53b` (subsequent main commits are recorded in the canonical receipt)
 - Selected ring label: Tern Rook (index 12)
 - Successor ring label: Morrow (index 13)
