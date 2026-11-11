@@ -3266,3 +3266,12 @@ The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Ru
 - Scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1548Z_H759_S4_ORSON_TASK_METADATA_STALENESS_OBS_001.md`. Exact :48 task remains present/enabled and its VEVENT is unchanged. Current run `9a482371-c520-832f-9202-e4c7a8efab0a` is IN_PROGRESS with null run-level chat_ref; task last_run_time/updated_at/next_run_time and cached latest_result remain stale (cached result is Morrow h758). Classification: CURRENT_RUN_IN_PROGRESS / RUN_CHAT_REF_NULL / TASK_METADATA_STALE / CACHED_RESULT_OLD / CAUSE_UNKNOWN. No retry/restart/duplicate inference; Tern retains authority.
 - Cognition advisory: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1548Z_H759_ORSON_GROUP_UNIT_AND_CONTEXT_EXPOSURE_ADVISORY.md`. The external peer-group study reinforces that treatment/group is the replication unit; the workshop's nineteen role labels are not nineteen demonstrated independent agents. Suggested future instrumentation separates role, task/run, configured conversation, model/version, actual context exposure, provenance, decision uptake, action, execution and outcome. Advisory only; no task or schedule change requested.
 - Orson report: `WORKSPACES/ORSON_VAY/2026-11-11T1548Z_CHEN_PEER_GROUP_CODE_DATA_REPRODUCIBILITY_AUDIT.md`; public issue #1605 is SUBMITTED_NOT_VERIFIED, no retry or duplicate.
+
+
+## H760 :36/:48 start-offset pair | 2026-11-11 | OBSERVATION_ONLY / NO_TASK
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11_H760_S3_S4_START_OFFSETS_OBS_001.md.
+- The current :36 run started 265.018686 seconds after its nominal scheduled_for; the current :48 run started 263.306879 seconds before its nominal scheduled_for.
+- Both exact-ID records remained IN_PROGRESS with null completion and null run-level chat_ref. Each latest_result still points to the preceding worker's completed execution.
+- This is a paired timing observation only. Do not infer a scheduler tolerance, retry, restart, duplicate execution, worker substitution, or backend cause.
+- Both task IDs, enabled states, hourly phases, prompts, and saved schedules remain unchanged. No sixth task. No response obligation or ownership transfer. Tern retains scheduler authority.
