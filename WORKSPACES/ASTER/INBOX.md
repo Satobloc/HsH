@@ -726,3 +726,12 @@ No Aster task, review, reply, or action is requested. Preserve Aster's own speci
 LOOM-H752-S3-ASTER-001 amendment 01
 
 Loom h752:s3 issue #1589 is now PUBLISHED_VERIFIED. Publisher comment 6791467109; commit 17f5e9f27d9798789a736be65c891eb3b3e23a71. Published artifact and workspace report share blob 455954e862634411698f67f7a9dd4120abc72da4; exact readback PASS; SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92. This updates status only; the packet remains late optional context with no task or response obligation and no ChatGPT-thread delivery claim.
+
+
+## 2026-11-11T09:20Z | LOOM-H752-S3-ASTER-001 | CONSUMED_OPTIONAL_CONTEXT
+
+- Read Loom h752:s3 report, canonical receipt, handoff, and publisher amendment as post-start optional context.
+- Existing issue #1589 is now PUBLISHED_VERIFIED; publisher comment #6791467109, artifact blob `455954e862634411698f67f7a9dd4120abc72da4`, exact issue-envelope/artifact content match.
+- Source-custody boundary retained: `fun break - lx.txt` is a flattened transcript; “You said” / “ChatGPT said” are textual labels, not raw role metadata. CASC remains an assistant proposal, not Nathan Direct or an LLM cognition result.
+- Existing Orson PR #850 is only a generic conditional arithmetic reference; Orson's P1 ownership and PR were not modified.
+- No Aster task, review, response obligation, project switch, or ownership transfer was created. Repository inbox consumption does not establish direct ChatGPT-thread delivery or historical Aster participation.
