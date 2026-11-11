@@ -21,6 +21,7 @@ import HsHVerification.RavelJointAccommodationReadout
 import HsHVerification.RavelCouplingDimensionalAudit
 import HsHVerification.RavelCarrierSheetDimensionGate
 import HsHVerification.RavelFiberTransportNonuniqueness
+import HsHVerification.RavelNormalConnectionReduction
 import HsHVerification.RavelRepresentationConversionCoherence
 -- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
 import HsHVerification.RavelTwoFormCurrentProjection
