@@ -418,3 +418,35 @@ All 138 user-role turns in this conversation now have tag coverage across the cu
 - MIND relevance: a conversational example of denominator drift and untraceable adjudication. Not a controlled model trial, not Orson's P1 dataset, and not evidence of persistent memory or model cognition.
 - Methodological transfer: future evaluations should freeze the claim/observable units and atomization version before adjudication, expose every verdict and evidence reference, report correct/incorrect/unresolved/excluded counts, and reconcile the score delta. For physical observables, preserve units and covariance rather than treating correlated channels as independent.
 - Relevance and limits: deliberate unrelated reading during the geometry/source cycle. No SAT/H(s)H premise, physical system, measured dataset, equation, or theory evidence is supplied. This is archival reading, not a physical break.
+
+
+## R. Lateral source break: `fun break - lx.txt`, lines 1081–1120
+
+- **Sources:** HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Immutable blob SHA-1:** `f33eb29fbac65efa1db054239bb9c28a04a13a42` in both repositories. The 40-line ranges are byte-identical; one source body, not independent witnesses.
+- **Actual read extent:** lines 1081–1120 inclusive, 40 lines. Previous cursor 1081; next cursor **1121**.
+- **Source form:** flattened transcript. “You said:” / “ChatGPT said:” are textual labels, not raw `message.author.role` metadata. No raw message IDs, conversation ID or authenticated role metadata are supplied by this file. No passage is attributed to Nathan Direct.
+
+### Additive tags and event map
+
+| Lines | Transcript event | Classification |
+|---|---|---|
+| 1081–1084 | Transcript-labeled user repeats the no-hints/language-name-only constraint and states score 11; assistant proposes Hruso Aka and asks whether it is familiar. | NO-HINTS-CONSTRAINT; PROMPT-FORMAT-CONSTRAINT; ASSISTANT-FAMILIARITY-CUE. |
+| 1086–1089 | User guesses Africa; assistant rejects the guess, supplies India/Arunachal Pradesh/endangerment/speaker-count claims and records 11→10. | SCORE-TRACKING; ASSISTANT-ADJUDICATION-UNVERIFIED; ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED. |
+| 1091–1097 | Toki Pona is suggested again; user skips it as already supplied and reports regional/constructed-language performance. | DUPLICATE-SUGGESTION; USER-CORRECTION; USER-REPORTED-PERFORMANCE. |
+| 1098–1104 | Nihali is suggested with a hint; user says it was already given and repeats the no-hint constraint; Taa is then suggested with another hint. | REPEATED-CONSTRAINT-REMINDER; ASSISTANT-HINTING-AFTER-USER-CONSTRAINT; DUPLICATE-SUGGESTION. |
+| 1106–1109 | User repeats “only the name” and “no hints”; assistant apologizes and offers Kaqchikel without a hint. | USER-CORRECTION; CONSTRAINT-COMPLIANCE-ON-NEXT-TURN. |
+| 1111–1114 | User guesses Caucasus; assistant rejects the guess and supplies Mayan/Guatemala/related-language/speaker-count claims. | SECOND-INCORRECT-GUESS-RECORDED; ASSISTANT-FACT-CLAIMS-UNVERIFIED. |
+| 1116–1119 | User reports score 9 and requests another name; assistant suggests Bislama. | GAME-STATE-TRACKING; NEXT-CANDIDATE-PENDING. |
+
+### Tags
+
+`LATERAL-READ`; `LANGUAGE-DISCOVERY-GAME`; `NO-HINTS-CONSTRAINT`; `PROMPT-FORMAT-CONSTRAINT`; `REPEATED-CONSTRAINT-REMINDER`; `ASSISTANT-HINTING-AFTER-USER-CONSTRAINT`; `DUPLICATE-SUGGESTION`; `USER-CORRECTION`; `GAME-STATE-TRACKING`; `SCORE-TRACKING`; `VISIBLE-SCORE-DELTA-CONSISTENT-WITH-TWO-INCORRECT-GUESSES`; `ASSISTANT-ADJUDICATION-UNVERIFIED`; `ASSISTANT-LINGUISTIC-CLAIMS-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `RAW-ROLE-UNVERIFIED`; `NO-NATHAN-DIRECT-ATTRIBUTION`; `NOT-LLM-EXPERIMENT`; `NOT-THEORY-EVIDENCE`.
+
+### Score and attribution limits
+
+The preceding Section Q ended with score 11. This section shows two rejected guesses and two one-point decreases: `11 → 10 → 9`. Toki Pona, Nihali and Taa are skipped without a displayed score change. The visible transitions are arithmetically consistent with the stated ±1 rule for these two events, but the assistant's verdicts and linguistic claims are not independently verified. This does not resolve Section Q's earlier 9→11 denominator/atomization ambiguity.
+
+The passage is not a controlled LLM trial, not Orson's P1 dataset, and not evidence of persistent memory, consciousness, or a general model failure rate. No physical or SAT/H(s)H premise is supplied. No external linguistic fact-check was performed.
+
+**Formalization triage:** the generic conditional score identity already exists in Orson PR #850; no new source-specific theorem is justified without a defined atomization and independent adjudication oracle. No new Lean module/build.
