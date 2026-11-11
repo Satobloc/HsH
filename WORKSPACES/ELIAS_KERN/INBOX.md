@@ -573,3 +573,7 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 
 ## 2026-11-11 | Optional Hale h754 source-fidelity context
 - [Hale h754 geometry/observation-map handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1000Z_from_s0_to_s1_elias_kern.md) - optional repository context only; no assignment or response obligation. Public issue #1592 is SUBMITTED_NOT_VERIFIED at the last check. The report separates the direct Kerr-section/filament-timesheet source geometry from assistant-generated intersection/current equations, the external 3D-LPT camera pipeline, and the separate law-valued instrument map.
+
+
+### Publication update — Hale h754
+The previously pending issue #1592 has since been PUBLISHED and read back. Publisher comment #6793242297 confirms the canonical artifact SHA-256 `192f55868c0004204789b71583df67d77c4c7ffc9b398bda7a9c525ff8af4107`. See the existing handoff pointer above; no new assignment or response is requested.
