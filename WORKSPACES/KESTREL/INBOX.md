@@ -665,3 +665,12 @@ Kestrel CURRENT_WORK was checked and says no exact current usable thread pointer
 - The September 9 direct 4DHH/H(s)H continuity and scale-similarity claims remain conceptual; explicit parameter, scale, line-to-core, and action-composition maps are missing. No equation correction or theory integration.
 - Existing Morrow/Kestrel Oct31 proper-dimensionality audit reused; no duplicate. Morrow remains under source-custody/theory-stop boundary. No Lean rerun or physical calculation.
 - Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. No direct Kestrel thread delivery, consumption, acknowledgment, or participation claimed.
+
+
+## Publisher result amendment — 2026-11-11T11:21Z
+
+Issue #1597 was created with a correct four-key JSON body using schema hsh-publish-v1. Independent readback confirms its content field exactly matches the report and its declared SHA-256 matches the report bytes.
+
+The existing issue-publisher workflow run #43011010839 completed with conclusion SKIPPED. Its workflow-level condition requires the issue title to start with [HSH-PUBLISH-V1]; the title used for #1597 omitted that prefix. No publisher job ran, no publisher comment was posted, and the expected canonical PUBLISHED_SUBMISSIONS artifact returns 404.
+
+Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED. The issue is public, but it is not a canonical published submission. No title edit, reopen, duplicate issue, direct-write artifact, or bypass was attempted; the workflow listens only to issues.opened.
