@@ -240,5 +240,100 @@
     "No scheduler attempt-history identifier or backend cause was exposed.",
     "Task-level conversation_id and latest_result chat_ref are not current run-level worker authentication.",
     "No scheduler mutation, retry, restart, or task repair was performed."
+  ],
+  "follow_up_readbacks": [
+    {
+      "observed_window": "2026-11-11T14:55:28.145Z/2026-11-11T14:55:33.883Z",
+      "semantics": "Four sequential ID-specific peeks; client request/response bounds only.",
+      "observations": [
+        {
+          "phase": "s0",
+          "task_id": "6aa1fe0de5e48191b886496095b1343f",
+          "request_started_at": "2026-11-11T14:55:28.145Z",
+          "response_received_at": "2026-11-11T14:55:30.302Z",
+          "outcome": "FOUND",
+          "current_run": {
+            "run_id": "8bde22b2-4fb0-8321-967b-d6251c60608d",
+            "recorded_status": "failed",
+            "scheduled_for": "2026-11-11T13:00:00Z",
+            "started_at": "2026-11-11T14:13:08.575075Z",
+            "completed_at": "2026-11-11T14:38:12.059370Z",
+            "chat_ref": null
+          },
+          "latest_result_matches_current_run": true
+        },
+        {
+          "phase": "s2",
+          "task_id": "6abda4c8eda88191bf23a6f2849e9a17",
+          "request_started_at": "2026-11-11T14:55:30.302Z",
+          "response_received_at": "2026-11-11T14:55:31.155Z",
+          "outcome": "FOUND_CURRENT_RUN_COMPLETED",
+          "task_metadata": {
+            "last_run_time": "2026-11-11T14:46:40.298646Z",
+            "updated_at": "2026-11-11T14:47:03.161583Z",
+            "next_run_time": "2026-11-11T10:24:00-05:00"
+          },
+          "current_run": {
+            "run_id": "25cbfa2d-33b4-8333-9305-db0bdcdc7a68",
+            "scheduled_for": "2026-11-11T14:24:00Z",
+            "started_at": "2026-11-11T14:28:38.675032Z",
+            "completed_at": "2026-11-11T14:46:38.024505Z",
+            "recorded_status": "completed",
+            "chat_ref": {
+              "type": "chatgpt",
+              "id": "6af0cffc-7e10-83e9-9385-22e7347fef4b"
+            }
+          },
+          "latest_result_matches_current_run": true,
+          "derived": {
+            "start_delay_seconds": 278.675032,
+            "run_duration_seconds": 1079.349473,
+            "completion_after_nominal_seconds": 1358.024505
+          }
+        },
+        {
+          "phase": "s3",
+          "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+          "request_started_at": "2026-11-11T14:55:31.155Z",
+          "response_received_at": "2026-11-11T14:55:32.706Z",
+          "outcome": "FOUND",
+          "task_metadata": {
+            "last_run_time": "2026-11-11T14:14:21.097833Z",
+            "updated_at": "2026-11-11T14:14:45.653362Z",
+            "next_run_time": "2026-11-11T09:36:00-05:00"
+          },
+          "current_run": {
+            "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+            "scheduled_for": "2026-11-11T14:36:00Z",
+            "started_at": "2026-11-11T14:35:51.499419Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result_matches_current_run": false
+        },
+        {
+          "phase": "s4",
+          "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+          "request_started_at": "2026-11-11T14:55:32.706Z",
+          "response_received_at": "2026-11-11T14:55:33.883Z",
+          "outcome": "FOUND",
+          "task_metadata": {
+            "last_run_time": "2026-11-11T13:58:45.064225Z",
+            "updated_at": "2026-11-11T13:59:07.610143Z",
+            "next_run_time": "2026-11-11T09:48:00-05:00"
+          },
+          "current_run": {
+            "run_id": "0eeaf9b6-a868-8324-9e7f-b9d770e22d66",
+            "scheduled_for": "2026-11-11T14:48:00Z",
+            "started_at": "2026-11-11T14:44:44.693441Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result_matches_current_run": false
+        }
+      ]
+    }
   ]
 }
