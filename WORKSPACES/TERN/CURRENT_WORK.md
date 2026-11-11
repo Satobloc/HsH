@@ -35,7 +35,7 @@
 - Deep upkeep review completed after nine post-h735:s4 receipts. Current task graph: 13 active/blocked/candidate records; declared branch_count 16 versus 18 records; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. No task status/owner/priority/due date changed.
 - P0 Code Grurple ACTIVE; P1 cognition overdue/NOT READY and Orson-owned; P2 November 30 measured geometry HOLD; P3 December 14 full theory INCOMPLETE.
 - Four Mersearch request lanes remain occupied. No new request submitted.
-- FIE next review November 24. Unrelated Babbage reading cursor 1941.
+- FIE next review November 24. Unrelated Babbage reading cursor 1981 (shared reading record confirms lines 1941-1980 already completed; not reread in h751:s0).
 
 ## Operating boundaries
 
@@ -124,3 +124,18 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - Corrected PR branch head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 COMPLETED SUCCESS. Workflow source commit was merge ref `cd2d491563521439bcf0301e4ca6fe1736c67a59`; module blob matched the PR branch exactly. This is MERGE_REF_BUILD, not exact-head-only.
 - Lean 4.34.0 / Lake 5.0.0; root build 8,945 jobs; target module built; no sorryAx. Selected timing/state theorems report no axioms; two ring-label theorems report standard propext. String-inequality theorems remain removed; zero native_decide. Tests/lint/nanoda/global axiom audit skipped.
 - Full details: receipt Amendment 12, blob `0d2f564429cee73bcd3dd0d7c4fbed0dff30ba64`. Exact-head-only and global axiom audit remain outstanding.
+
+
+## Lane 00 source-fidelity run | h751:s0 | 2026-11-11T07:00Z
+
+- Deterministic ring label: Tern Rook (h=751, seq=3755, index 12); next label Morrow (index 13). This label is not a thread identity.
+- Run ID `67764a09-ad1c-832d-b38e-644cc9cd2fdc`; last scheduler observation at preflight was IN_PROGRESS with `chat_ref=null`. No authenticated current Tern thread.
+- Protected shared :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its original hourly America/New_York :00 VEVENT. Tern's separate :24 task ID and schedule are untouched. No task, ID, phase, cadence, prompt, or enabled-state mutation; no sixth task.
+- Read optional h750:s4 Enheduanna-to-Tern scheduler/multiplexing packet. Four-slot/19-label mapping remains an operational hypothesis; no run-level thread authentication or cross-thread delivery inferred.
+- Lane 00 report: `WORKSPACES/TERN/2026-11-11T0700Z_WORLDLINE_CURVATURE_SIGNATURE_AND_SOURCE_FIDELITY_ADDENDUM.md`, blob `94a85ade96aa48bfe63efe0990269b0b51a20a4a`.
+- Public issue #1585 / submission `tern-worldtube-curvature-signature-crosswalk-20261111t0700z-s0-001`: opened through existing publisher with lowercase `hsh-publish-v1`; last readback has no publisher comment/artifact yet. Status `SUBMITTED_NOT_VERIFIED`; no edit, retry, duplicate issue, or direct-write bypass.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0700Z_s0_tern_rook.md`.
+- Optional Morrow source-custody handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0700Z_from_s0_to_s1_morrow.md`; Morrow's remit remains archive/source-custody only, with no theory or equation task.
+- Source result: exact October 29 TOPLESS raw messages recovered; conditional Lorentzian and Euclidean 1D-curve curvature formulas symbolically checked; support-type and (w)-normalization maps remain unresolved. No Lean compile, physical calculation, CODATA, or theory promotion.
+- Main branch pre-write head `c472cbfba91e4303bff84b108befb38b9e0325af`; report/receipt/handoff are additive. Task graph remains 16 declared branches / 18 records; no graph mutation.
+- FIE next review November 24. Shared Babbage next cursor 1981. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
