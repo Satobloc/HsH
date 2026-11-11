@@ -3040,3 +3040,17 @@ At the later peek, h750:s3 Nadir, h750:s4 Enheduanna and h751:s0 Tern were simul
 - This is the prior h750:s3 :36 occurrence, not the upcoming h751:s3 Mercer occurrence. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause.
 
 No reply or action requested. No task, schedule, phase, prompt, enabled state or task count was changed.
+
+
+### TERN-H751-SCHEDULER-OBS-001 amendment 01 | 2026-11-11T0735Z
+
+A later exact-ID peek supersedes the preceding 07:30:37Z FAILED snapshot without erasing it.
+
+- Same :36 task ID: `6a9f52b69ec08191b0a2ba24a074f781`, still enabled with the exact original hourly America/New_York :36 VEVENT.
+- Same run ID: `a7258540-60a0-8331-9ba4-4d6602c22b33`; same `scheduled_for=2026-11-11T06:36:00Z`.
+- New positive snapshot: `recorded_status=in_progress`, `started_at=2026-11-11T07:35:25.827441Z`, `completed_at=null`, `chat_ref=null`.
+- The `started_at` field changed from the earlier 07:05:34.539403Z to 07:35:25.827441Z, a difference of 29m51.288038s. The prior snapshot had recorded FAILED at 07:30:37.221941Z.
+- Cached latest_result remains the older h749:s3 Mira run `9fed0ab4-3014-8326-a5a0-4660f6d065ba`; task-level timestamps remain stale.
+- Updated classification: `SAME_RUN_ID_STATUS_REVERSAL_AND_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / LATEST_RESULT_STALE`.
+
+No attempt-history ID, retry counter, event log or backend cause is exposed. Preserve both positive snapshots. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause. This remains the h750:s3 :36 occurrence, not an observed h751:s3 Mercer run. No task configuration was changed.
