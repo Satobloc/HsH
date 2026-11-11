@@ -97,7 +97,7 @@ Preserve P0 and wait for a qualifying route/deployment trigger or explicit stand
 The h750 Cruller phase report and issue #1584 predated the current scheduler invocation. This pass reconciled those artifacts and added a narrow source-custody amendment rather than duplicating the report.
 
 - This was a reconciliation pass over pre-existing h750 artifacts; no authenticated Calder thread was established.
-- Amendment: WORKSPACES/CALDER/2026-11-11T0627Z_H750_RAW_SOURCE_AND_LINE_ENCODING_AMENDMENT_01.md; blob 7629f88d3b7c3d4aae8afc9f00ba8197c0891623; exact readback passed.
+- Amendment: WORKSPACES/CALDER/2026-11-11T0627Z_H750_RAW_SOURCE_AND_LINE_ENCODING_AMENDMENT_01.md; blob 264f826beb3067c3afbe3b9d930bf029dac4635d; exact readback passed.
 - Raw November 4 direct source recovered in conversation 6aea46dd-dc60-83ea-8d50-689c152340e3: messages 100388c5-89d6-4ffd-a895-598990636057 and 72649a88-dc26-498f-9b5c-acd15e01e3c5. Common source index updated.
 - The November 8 line-information claim was omitted from the original report; it now has an explicit encoder/decoder and admissibility-map requirement.
 - November 8 pair-of-pants article preserved as external comparator only; DOI 10.1103/cx69-t466.
