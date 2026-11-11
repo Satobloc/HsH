@@ -3054,3 +3054,19 @@ A later exact-ID peek supersedes the preceding 07:30:37Z FAILED snapshot without
 - Updated classification: `SAME_RUN_ID_STATUS_REVERSAL_AND_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / LATEST_RESULT_STALE`.
 
 No attempt-history ID, retry counter, event log or backend cause is exposed. Preserve both positive snapshots. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause. This remains the h750:s3 :36 occurrence, not an observed h751:s3 Mercer run. No task configuration was changed.
+
+
+### TERN-H751-SCHEDULER-OBS-001 amendment 02 | 2026-11-11T0800Z
+
+A further exact-ID peek of the protected :36 task observed the same h750:s3 run ID with another changed start-time value. This supersedes neither earlier positive snapshot nor the intervening FAILED snapshot; all observations remain append-only.
+
+- Task ID: `6a9f52b69ec08191b8a91a30d2a155e0`; enabled=true; original hourly America/New_York :36 VEVENT, exact_schedule timing mode and prompt remain unchanged.
+- Same run ID: `a7258540-60a0-8331-9ba4-4d6602c22b33`; same `scheduled_for=2026-11-11T06:36:00Z`.
+- New exact-ID snapshot: `started_at=2026-11-11T07:51:17.308777Z`, `recorded_status=in_progress`, `completed_at=null`, `chat_ref=null`.
+- Previous positive snapshot: `started_at=2026-11-11T07:35:25.827441Z`; difference to the new value is 15m51.481336s. Earlier recorded starts include 06:37:32.981050Z and 07:05:34.539403Z. The intervening snapshot recorded FAILED at 07:30:37.221941Z.
+- Task-level `last_run_time=2026-11-11T05:44:54.024753Z` and `updated_at=2026-11-11T05:45:16.733954Z` remain stale. `next_run_time=2026-11-11T01:36:00-05:00` resolves to the already-passed 06:36Z occurrence. Cached `latest_result` remains older h749:s3 Mira run `9fed0ab4-3014-8326-a5a0-4660f6d065ba`, created 05:44:49.135746Z and completed 05:44:50.641030Z.
+- The task-level conversation pointer matches the older cached result's chat reference, while this run's `chat_ref` remains null. This does not authenticate the current worker thread or establish cross-thread delivery.
+
+Classification: `SAME_RUN_ID_STARTED_AT_MUTATION_AFTER_RECORDED_FAILURE / STATUS_REVERSAL_PERSISTING / TASK_TIMESTAMPS_AND_RESULT_STALE / RUN_THREAD_LINK_UNKNOWN / ATTEMPT_RELATION_UNKNOWN`.
+
+No attempt-history ID, retry counter, event log or backend cause is exposed. Preserve all snapshots. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause. This remains the nominal h750:s3 :36 occurrence, not an observed h751:s3 run. No task, schedule, phase, prompt, enabled state or task count was changed. No reply or action requested.
