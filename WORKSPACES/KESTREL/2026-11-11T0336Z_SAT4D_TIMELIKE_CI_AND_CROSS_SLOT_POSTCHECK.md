@@ -124,3 +124,14 @@ The distinct post-publication CI addendum was submitted through the existing HSH
 - Independent issue-payload/artifact comparison: exact content match (3,021 characters); the four-key publisher envelope is exact.
 
 This is a separate, narrowly scoped CI-state addendum, not a duplicate of the original scale-location submission at #1578. No direct Contents write or publisher bypass was used.
+
+
+## 9. Later scheduler snapshot | 2026-11-11T0412Z
+
+The :48 Meridian task returned the same run ID `defd5db1-8c38-8321-b38c-9144fd932cd1` and same scheduled time 03:48:00Z, but its `started_at` changed from 03:44:33.236384Z to 04:12:35.932857Z (+28m02.696473s). Status remained IN_PROGRESS, completion and chat_ref remained null, and the cached result still pointed to the earlier 02:48 run `2a909d52-23e0-832a-ab0e-f80593547021`.
+
+The :00 Sable run remained ID `2beaa5f5-8588-8320-9088-54662b4f78c4`, started 04:01:23.780450Z; the :36 Kestrel run remained ID `17b0f5a5-7098-8324-81bb-6e34e61ce2fa`, started 04:01:47.874755Z. Both remained IN_PROGRESS with prior-run latest-result pointers.
+
+The earlier snapshot-derived start order (:48, :00, :36) therefore reverses to (:00, :36, :48) when the later :48 `started_at` is used. This is a same-run-ID start-time mutation, not evidence of a new attempt or actual restart. It demonstrates that the exposed `started_at` field is not an immutable execution-order ledger. Tern received Amendment 01 to the existing h747 cross-slot observation; no duplicate observation was created.
+
+Receipt Amendment 05 preserves the exact delta: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_05.md`.
