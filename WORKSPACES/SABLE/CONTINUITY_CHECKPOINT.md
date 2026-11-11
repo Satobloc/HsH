@@ -868,3 +868,14 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Scheduler: :24 run dbcf7576-b018-832b-886d-2e200c7b2a57 started 08:26:17.055020Z for 08:24Z, last observed IN_PROGRESS/chat_ref null. :36 Loom run e129241f-3794-8333-ac5d-13c0eb134fca started 08:32:57.516530Z for 08:36Z, last observed IN_PROGRESS/chat_ref null. Both start snapshots routed to Tern; no cause inferred.
 - Loom seed WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T0824Z_LOOM_H752S3_SOURCE_GROUNDED_REENTRY.md; handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0824Z_from_s2_to_s3_loom.md is post-start optional repository context only. No direct-thread delivery or acknowledgment.
 - No task, prompt, schedule, phase, cadence, enabled state, ownership, branch, paper gate, or task count changed. No sixth task.
+
+
+## Sable source-fidelity update | 2026-11-11
+
+- Added WORKSPACES/SABLE/2026-11-11T1600Z_CARRIER_EXCITATION_WORLDTUBE_CURRENT_SUPPORT_SOURCE_FIDELITY_ADDENDUM_01.md; exact report readback verified. The new direct-source delta distinguishes filament carrier from bosonic excitation, distinguishes 2-/3-braid language from Hopf/Borromean link claims, and identifies a conditional 1D-base plus 3D spatial-section route to a 4D worldtube. The map remains a proposal; no physical mechanism or theory claim was promoted.
+- Preserved the June 2025 SAT4D/O1 equations and October 2025 assistant-generated Blockwave rank-two current as separate historical artifacts. The September 2025 3-form editorial direction is not treated as a physical current definition. Existing PR #1098 exact-head Lean CI was rechecked; no new Lean module or PR was created.
+- P0 static comparison against current main found zero changes to the eight protected presentation paths since the previous Sable exact-file audit. No route probe or new P0 trigger.
+- Existing completed Sable Mersearch request was reused; no new request, overwrite, or retrigger. All four current lanes remain occupied/requested.
+- Issue #1606 submitted through the existing publisher; run #43057280653 was in progress at receipt creation. Status then: SUBMITTED_NOT_VERIFIED. Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h760-carrier-excitation-worldtube-map-20261111t1600z-s0-001.md. SHA-256: da6ef98085780ba2ae53dc8ca4fa7fcf0d0d933472ffb633c8e7604a99074f42.
+- Optional Loom context packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1600Z_from_s0_to_s1_loom.md. This is repository-only context, with no assignment, response obligation, ownership transfer, or cross-thread delivery claim.
+- FIE review remains current from November 10; next November 24. Paper gates unchanged. No CODATA, physical calculation, paper advancement, or theory promotion.
