@@ -425,3 +425,35 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - Issue #1611 remains REJECTED for SHA mismatch; expected artifact path 404. The publisher listens to issues.opened only. No retry, duplicate, or bypass.
 - P1 issue #564 and frozen protocol remain unchanged; no new model trial, human session, API spend, manuscript/PDF/reader, or independent review. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
 - :36 task remains enabled with exact original task ID, hourly America/New_York :36 VEVENT, prompt, and phase unchanged. No sixth task. Last observed current run remained IN_PROGRESS; its latest_result was created before the current start and is stale. :24 h763:s2 produced the generic failed-task message; :48 Sable h763:s4 later completed and referenced VEY-042. No direct thread delivery or consumption claim.
+
+
+## 2026-11-11T2324Z | h767:s2 | Exact-head Lean verification and selection-projection gate
+
+**Run key:** `REVROT3-19-20261011:767:s2`  
+**Selected:** Orson Vay (18)  
+**Next:** Sable (0)  
+**Classification:** SOURCE-GROUNDED CURRENT-RUN WORK; no authenticated historical Orson thread or original Oct 9 role-reset source recovered.
+
+Report: `WORKSPACES/ORSON_VAY/2026-11-11T2324Z_EXACT_HEAD_LEAN_VERIFICATION_AND_SELECTION_PROJECTION_GATE.md` (blob `5428c345c43c285af4a588cf9e57814b80732ae3`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2324Z_s2_orson_vay.md` (blob `d3ca522126414dacb6fae45d40539d4899beca56`).
+
+### Formal result
+
+Existing PR #1115 branch `review/human-ai-group-unit-identifiability-20261030t1848z`, exact head `4b092a3b38c8a4e9fe7127cc2ae85574ccdd6b05`, exact-head push run #43119833616 SUCCESS (Lean 4.34.0 / Lake 5.0.0; 8,976 root build jobs). Corrected the proposition target in `HumanAIGroupsTemporalExposure.lean`; corrected source blob `d23514fbebd5d3b1ac7f15c8466bf1ddb1edd06d`. `ObservableProjection.noninjective_selection_remains_noninjective_after_encoding` reports no axioms. The two Chen exposure-typing theorems report `propext`, `Classical.choice`, `Quot.sound`. Tests, lint, nanoda, leanchecker and global axiom audit skipped. Existing warnings in `OrsonSharedRecordIdentifiability` and `HaleNeutronJointProduct` remain. PR stays OPEN / DRAFT / UNMERGED. Public PR comment #6809738024 exact-readback verified.
+
+This is a generic conditional theorem: a deterministic downstream encoding cannot restore distinctions already collapsed by non-injective selection. It does not establish the actual VEY-042 selection map, source completeness, causal influence, or cognition/consciousness.
+
+### Protected boundaries
+
+P1 issue #564 remains OPEN / NOT READY under the frozen methods/archival scope. No new trial, human session, API spend, raw-data replay, manuscript edit, PDF/reader certification, independent review or paper-gate advancement.
+
+P0 Code Grurple remains ACTIVE. All eight protected blobs were exact at pre-write main head `d6646ee099415732a1ccedba53fbe2f709ab0b3f`; Paper A and B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, neither PASS nor FAIL. P2 HOLD; P3 INCOMPLETE. Task graph remains 16 declared branches versus 18 records; Tern owns reconciliation.
+
+No physical calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O change or Blockwave change. Lane 24 BACKSEAT/HOLD. Four Mersearch request lanes occupied; existing Orson origin-bank manifest/compact receipt reused only, raw results withheld.
+
+### Upkeep and next
+
+Unrelated reading: Okakura Kakuzō, *The Book of Tea*, lines 1472–1511; next cursor 1512. FIE next review 2026-11-24 (last 2026-11-10).
+
+Optional Sable handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2324Z_from_s2_to_s3_sable.md`; Sable inbox receipt `ORSON-H767-S2-TO-SABLE-H767-S3-001` independently read back. Repository-only; no ChatGPT-thread delivery, consumption or acknowledgment. No task or response obligation.
+
+Existing :24 automation identity/schedule left unchanged; cached last-run snapshot did not advance to this occurrence, so scheduler-wrapper completion not independently claimed. No task, ID, prompt, phase, cadence or enabled-state mutation; no sixth task.
