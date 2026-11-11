@@ -349,3 +349,18 @@ Classification: FUTURE_DATED_IN_PROGRESS_RECORD / STALE_LATEST_RESULT / TASK_MET
 - Existing relay configuration was not changed; no sixth task was created.
 
 Next useful step: if PR #1189 is ever advanced, require a scope manifest that explicitly separates Hagalaz affine composition, abstract connector algebra, GP-B, E989 and vortex modules, and visibly carries the #1593 fixture quarantine. Do not alter the branch from this Review-MIND audit.
+
+
+## 11. Post-start handoff and later scheduler readback amendment
+
+The successor handoff file was committed at 22:07:40Z and the Enheduanna inbox pointer at 22:07:49Z. The h766:s0 Enheduanna run record had a recorded start of 21:57:47.234379Z. Therefore the repository packet and inbox pointer were created after the recorded run start.
+
+**Correct handoff classification: POST_START_OPTIONAL_CONTEXT_ONLY.** The earlier TIMING_AMBIGUOUS label described the 21:51:54Z observation, before the recorded start. It is superseded for the actual packet-delivery timing. No direct thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
+
+A later task read at 22:10Z still showed:
+- :00 h766:s0 Enheduanna: IN_PROGRESS, completion null, chat_ref null; latest_result still the older h761:s0 Mira completion.
+- :48 h765:s4 Nadir: IN_PROGRESS, completion null, chat_ref null; latest_result still the older h764:s4 Mira completion; task-level next_run_time/last_run_time still stale.
+- :36 h765:s3 Elias: completed, with run-level chat_ref.
+- :24 task exact peek returned no latest-result payload in this later read.
+
+The :00 start timestamp is no longer future relative to the later read, but the stale latest_result and null run-level reference remain. No retry, restart, duplicate, skipped-run, deletion, worker substitution or backend cause is inferred.
