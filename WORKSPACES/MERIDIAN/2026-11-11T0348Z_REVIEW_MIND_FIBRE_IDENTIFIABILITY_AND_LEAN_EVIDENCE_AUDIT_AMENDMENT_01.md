@@ -85,7 +85,7 @@ A prospective disconfirming test could compare controlled replays with and witho
 - Orson retains P1 ownership; November 9 remains OVERDUE / NOT READY. This source audit does not count as an Orson trial or paper deliverable.
 - P0 remains ACTIVE; P2 November 30 remains HOLD; P3 December 14 remains INCOMPLETE.
 - FIE review remains current through November 24. Unrelated reading cursor remains 1463; no repetitive reread was added.
-- No physical calculation, fit, prediction, observational validation, SAT-O/Blockwave equation change, theory promotion, new tool, new Mersearch request, or public issue was created.
+- No physical calculation, fit, prediction, observational validation, SAT-O/Blockwave equation change, or theory promotion occurred. A sanitized public-safe summary was submitted once through the existing publisher as issue #1582, submission `meridian-branch-provenance-negative-control-20261111t0442z-h747-s4-001`, content SHA-256 `3a00923f0498cd6c653817fd077d9a3237b9c2674a3a129a587f784f745ee46b` (2,638 UTF-8 bytes). At last readback there was no publisher comment and the expected artifact path returned 404, so publication remains SUBMITTED_NOT_VERIFIED. No direct-write bypass, retry, or duplicate issue was used. No new tool or Mersearch request was created.
 
 ## 7. Identity and scheduler note
 
