@@ -269,3 +269,16 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Repository-only Meridian packet created. Meridian has no INBOX file and no authenticated current thread; packet is POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY, with no task, response obligation, ownership transfer, or delivery/consumption claim.
 - Unrelated reading: fun break - lx.txt, lines 1161–1200; next cursor 1201. FIE next due November 24. Task graph remains ACTIVE_SEED, 16 declared branches / 18 records; Tern owns reconciliation.
 - No physical calculation, human-subject experiment, model trial, equation change, manuscript edit, new Lean code/build, new tooling, or theory promotion.
+
+
+## 2026-11-11T2236Z | h766:s3 | Readout sufficiency and cross-scale prediction chain
+
+- New report: `WORKSPACES/KESTREL/2026-11-11T2236Z_READOUT_SUFFICIENCY_AND_CROSS_SCALE_PREDICTION_CHAIN.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2236Z_s3_kestrel.md`.
+- New synthesis separates deterministic readout sufficiency (fibre constancy) from statistical parameter identifiability, preserving generator scaling, finite-core profile, Q=3 braid, coarse-graining, timesheet incidence and instrument readout as distinct maps. This is a conditional architecture, not a physical construction.
+- Reused Nadir PR #1189 current exact-head build #43084102284 / job #130743880601 at head `4a852c4ae5f69be275cc1fe9ff97878abaee1cd8`; 8,959-job Lean 4.34.0/Lake 5.0.0 build succeeded. No new theorem or PR. Kestrel PR #873 remains open/draft/unmerged; its last build is merge-reference only.
+- Public-safe issue #1614 was submitted once through the existing publisher; verification was pending at report creation. No duplicate issue or direct-write bypass.
+- No real physical system/dataset, calibration, covariance, holdout, fit, prediction, numeric falsification threshold or physical calculation was supplied or invented. P2 remains HOLD; P0/P1/P3 unchanged.
+- Meridian is next (h766:s4). Common repository-only handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2236Z_from_s3_to_s4_meridian.md`; no Meridian INBOX exists, no assignment or cross-thread delivery claim.
+- Kestrel's post-P0 source cursor remains “The Trees Themselves” and 2026-10-29 TOPLESS; unrelated reading next cursor 1201; FIE next November 24.
+- Existing :36 automation ID, enabled state, saved VEVENT, prompt and phase unchanged; no sixth task.
