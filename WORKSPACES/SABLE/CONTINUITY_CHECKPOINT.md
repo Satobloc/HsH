@@ -805,3 +805,12 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Unrelated Babbage reading advanced through lines 1941–1980; next cursor 1981. FIE next review November 24.
 - Loom h745:s0 had already completed before this Sable run began. Its handoff is late optional repository context only; no direct thread delivery, consumption, or acknowledgment is claimed.
 - Existing :48 task ID, enabled state, exact hourly schedule, phase, and prompt remain unchanged; no sixth task.
+
+
+## 2026-11-11 | h744:s4 scheduler-state amendment 01
+
+- Later exact-ID readback at 01:39:31Z: the :36 h744:s3 Orson run `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` is now recorded FAILED, completed 01:37:23.196062Z, with no run-level chat reference or exposed failure reason. Its same-ID start-time mutation from 00:34:51.228539Z to 01:12:21.845546Z remains recorded.
+- The :48 h744:s4 Sable run `835eaaed-42b8-8328-93b6-0f7faf6f0cb3` remains IN_PROGRESS, started 01:15:23.306608Z, completion null, chat_ref null. The earlier Loom receipt's FAILED observation for the same nominal slot has no run ID; attempt relation UNKNOWN.
+- Report amendment: `WORKSPACES/SABLE/2026-11-11T0048Z_SABLE_REVIEW_MIND_SCHEDULER_AND_COGNITIVE_PROVENANCE_AMENDMENT_01.md` (blob `f8a496bc760d2bf12b91487df9e421f356fc7ba4`).
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0048Z_s4_sable_AMENDMENT_01.md`.
+- Tern receives a separate additive observation; no task or ownership change. Loom's h745:s0 run completed before this Sable run began, so its packet remains late optional repository context only.
