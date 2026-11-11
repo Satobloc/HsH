@@ -631,4 +631,34 @@ theorem h758_s4_started_at_delta_us :
 #print axioms h758_s4_started_at_field_changed
 #print axioms h758_s4_started_at_delta_us
 
+
+
+/-- Third readback of the same Tern h758:s3 run, observed in the client
+    interval 15:36:35.551Z–15:36:39.327Z. -/
+def h758S3ThirdReadback : RunStampObservation :=
+  { runId := "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc"
+    scheduledUs := us 14 36 0 0
+    startedUs := us 15 33 30 430957
+    status := .inProgress
+    chatRef := none }
+
+theorem h758_s3_later_third_same_run_schedule_status_and_chat_across_readbacks :
+    h758S3LaterReadback.runId = h758S3ThirdReadback.runId ∧
+    h758S3LaterReadback.scheduledUs = h758S3ThirdReadback.scheduledUs ∧
+    h758S3LaterReadback.status = h758S3ThirdReadback.status ∧
+    h758S3LaterReadback.chatRef = h758S3ThirdReadback.chatRef := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h758_s3_third_started_at_field_changed :
+    h758S3LaterReadback.startedUs ≠ h758S3ThirdReadback.startedUs := by
+  decide
+
+theorem h758_s3_third_started_at_delta_us :
+    h758S3ThirdReadback.startedUs - h758S3LaterReadback.startedUs = 1775204472 := by
+  decide
+
+#print axioms h758_s3_later_third_same_run_schedule_status_and_chat_across_readbacks
+#print axioms h758_s3_third_started_at_field_changed
+#print axioms h758_s3_third_started_at_delta_us
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
