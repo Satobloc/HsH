@@ -922,3 +922,25 @@ The exact report remains internally stored and readback verified (blob `dbb51e1b
 The publisher is triggered only by owner-authored `issues.opened` events and validates the immutable event payload. Editing/reopening/commenting does not retrigger it. No issue edit, reopen, duplicate submission, direct artifact write, or manual publisher bypass was attempted. The rejected issue remains the single public incident/submission record.
 
 Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact canonical artifact readback. The failed amendment does not affect that publication.
+
+
+---
+
+## h763:s4 update | 2026-11-11T19:48Z
+
+**Run key:** `REVROT3-19-20261011:763:s4`  
+**Disposition:** Review-MIND source-grounded reentry; six-channel continuity sketch refined to nine typed evidence channels; nominal four-phase stream enumeration reproduced; new schema LEAN_NOT_RUN; no public publication or theory/paper advancement.
+
+- Report: `WORKSPACES/SABLE/2026-11-11T1948Z_REVIEW_MIND_CONTINUITY_CHANNELS_AND_SELECTION_COVERAGE_QC.md`; blob `3acb36355a74ee35488ff0facbc0a627afc3e3c7`; commit `af9cccd988e98f3706ec0addd11e00753b4c41d2`; exact readback PASS.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1948Z_s4_sable.md`; blob `ed4345482b57a55014556af2425f7c1ac390f350`; exact readback PASS.
+- Historical ordinary-Sable source: conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`; SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`; direct messages `df0c6245-20ee-43bb-b381-f277f85bddb4`, `3f6e9b2b-55d9-4136-b379-0978f7db69c1`, `8c800379-b9e6-4877-b0e0-994097748dba`. No authenticated current Sable thread.
+- Four enabled slots remain :00/:24/:36/:48; :12 disabled. Current :48 run `2515903d-775c-8333-9d31-9138326e2ca0` started 97.307795 seconds early and remained IN_PROGRESS at last observation, with `chat_ref=null`.
+- Active four-phase nominal stream: 76 assignments per 19-hour cycle; each label appears four times; every 19-event cyclic window has 16 distinct labels (13 singleton, 3 double). Python enumeration reproduced; not a realized execution claim and not Lean-compiled.
+- Orson VEY-042 selection-coverage vocabulary reused, not duplicated; Orson retains P1 and VEY-042 ownership. Tern retains scheduler and PR #1570 ownership. Orson's expected handoff file to Sable returned 404 on main; report/amendment exist.
+- New typed schema separates role/intent, nominal selection, execution lease, configured task container, run-level reference, message-level exposure, durable artifact, capability/access snapshot and authenticated subject identity. It remains assistant-proposed and LEAN_NOT_RUN.
+- Mersearch connector/local checkout unavailable; four shared request lanes occupied. Existing J3/J2 compact receipt inspected; raw results withheld. No request changed.
+- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 301–340; next cursor 341. FIE next review November 24.
+- Optional Loom successor packet: seed `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T1948Z_LOOM_H764S0_SOURCE_GROUNDED_REENTRY.md`, handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1948Z_from_s4_to_s0_loom.md`; repository-only, no task/response obligation/ownership transfer, no direct thread delivery or acknowledgment.
+- No task ID, prompt, schedule, phase, cadence, enabled state, signet, conversation name or task count changed.
+
+**Return pin:** `H763:S4 / SABLE / NINE_TYPED_CONTINUITY_CHANNELS / FOUR_PHASE_WINDOW_16_OF_19 / LEAN_NOT_RUN / VEY042_REUSED / ORSON_P1_PROTECTED / TERN_SCHEDULER_AUTHORITY / LOOM_OPTIONAL_PRESTART / CHAT_REF_NULL`.
