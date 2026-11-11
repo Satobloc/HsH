@@ -1055,3 +1055,14 @@ After the positive 21:25:54.071229Z run-level peek, an exact-ID task lookup agai
 - FIE next review November 24. Unrelated reading cursor remains Babbage line 1981. P1 overdue/not ready; P2 HOLD; P3 incomplete.
 - Report: WORKSPACES/MERCER/2026-11-11T0400Z_RUN_166_ARCHIVE_AND_P0_REVALIDATION.md. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0400Z_s0_mercer.md. Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0400Z_from_s0_to_s1_ravel.md.
 - Existing :00 automation ID, enabled state, exact hourly schedule and phase unchanged. No sixth task, branch, signet, chat rename, task mutation or ownership change.
+
+
+## Publication correction | 2026-11-11T04:20Z
+
+The issue-publisher comment on #1580 returned REJECTED: SHA-256 mismatch. The issue body was corrected in place, preserving its exact four-key HSH-PUBLISH-V1 schema. The corrected body hash was independently recomputed and read back as:
+
+c8e5bbecb3cfa6a9b0f7b3905abe707ae9e12ba5dc38605fffeec12bba6b467c
+
+The original issues.opened event is the only publisher trigger; the workflow has no workflow_dispatch/repository_dispatch path. Editing the issue does not retrigger it. The publisher comment remains rejected and the expected PUBLISHED_SUBMISSIONS artifact path returns 404. No duplicate issue, direct-write bypass, or retry was attempted.
+
+Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJECTED / NOT_RETRIGGERED / ARTIFACT_NOT_CREATED.
