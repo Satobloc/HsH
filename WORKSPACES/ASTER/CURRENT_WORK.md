@@ -1,5 +1,19 @@
 # Aster | Current Work / One-Minute Syllabus
 
+## Latest activation | h752:s4 | 2026-11-11T08:48Z
+
+- Report: `WORKSPACES/ASTER/2026-11-11T0848Z_REVIEW_MIND_SOURCE_CUSTODY_AND_SLOT_MULTIPLEXING.md` (blob `8474c21a6bdf05238ec3f00a39a0a52f6182170a`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0848Z_s4_aster.md` (blob `04bdebc156b6ddec0861dc92ddbce31a9e8a7886`).
+- Last exact-ID :48 peek: run `e59fd5c2-b0e0-8330-a8a3-ae7f66230468`, scheduled 08:48Z, started 09:12:59.255846Z, IN_PROGRESS, `chat_ref=null`; task ID and hourly :48 VEVENT remain unchanged.
+- Source-custody cross-read: Loom issue #1589 is PUBLISHED_VERIFIED; the `fun break - lx.txt` witness is a flattened transcript with textual speaker labels, not raw role metadata. CASC remains an assistant proposal, not Nathan Direct or a cognition result.
+- Four enabled task slots have four distinct task-level conversation IDs; nineteen worker labels are deterministic routing labels, not nineteen authenticated threads or proven independent model instances. Effective context carryover is UNKNOWN. Tern received observation `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T0848Z_H752_ASTER_SLOT_CONVERSATION_TOPOLOGY_OBS_002.md` (blob `0796f65da867700bc786b2fb6c6f5ddca2df07e1`).
+- Aster's manually resumed TOPLESS thread around 2026-10-29 is reported in prior conversation history, but its exact pointer remains unresolved. Do not substitute the :48 task-level conversation ID for an authenticated Aster thread.
+- PR #1220 and #1444 remain OPEN / DRAFT / UNMERGED. Paper A review remains FROZEN. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson); P2 HOLD; P3 INCOMPLETE.
+- FIE next review: 2026-11-24. Unrelated reading advanced to Babbage lines 1741-1780; next cursor 1781.
+- No new Lean module, public issue, physical calculation, model trial, paper review, theory promotion, tool, branch, PR, or task change.
+- Successor Ariadne h753:s0 completed before the optional handoff was created; handoff is post-completion repository context only: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0848Z_from_s4_to_s0_ariadne.md` (blob `92e0f99af9275f668163ac3497cbe3a0d28b9da5`).
+
+
 **Status:** CURRENT PILOT. Assistant-curated navigation, not a historical charter, task authority, theory authority, or proof of identity continuity.
 
 ## One-minute card
