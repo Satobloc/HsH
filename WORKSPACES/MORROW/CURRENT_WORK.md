@@ -13,7 +13,7 @@
 - Direct workspace-origin / two-project source: separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z. It requests the Morrow workspace/Common checks and says two additional projects are underway, but names neither. The first workspace commit is recorded 94.719 seconds later. The direct source is now linked in README; identities remain unresolved.
 - The separate Morrow+Kestrel “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` remains parented to the Normal-Plane Escape Gate report only; it is not a global theory release.
 - Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `e6858f65359657b740a7c52ddcd9a040c7fa744c`.
-- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (final write pending at this point).
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (created after this CURRENT_WORK revision; final receipt readback is recorded there).
 - Kestrel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`, blob `3eb56963d6994116f2aae19ab9d9e0b2416697db`, POST_START_OPTIONAL_CONTEXT_ONLY.
 - Source crosswalk: `CORE_TEAM_CONVERSATION_CROSSWALK.md`, blob `60d22775e6c84354a91ae184d5929f05cce92543`.
 - README: `README.md`, blob `393fd527a70417bfb0a8574a6e2110280deb57f1`.
