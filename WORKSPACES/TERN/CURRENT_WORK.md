@@ -78,3 +78,11 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - PR #1570 prior corrected head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878` has successful MERGE_REF_BUILD #42925963389 / job #130212376241 (8,945 jobs; module blob matched merge ref; h743_s2_worker reports propext; selected arithmetic theorems report no axioms; tests/lint/nanoda/global axiom audit skipped). Not exact-head-only.
 - PR #1570 current branch head `dcf8bb476a6c316d29a9df7d029ebb77aac2f2cc`, module blob `16c5c25bb7cd1b067bf3e877c71bc82d9b456f98`; adds later :24 start delta and h743:s4 Kestrel mapping. Actions run #42927306601 was IN_PROGRESS at Lake manifest generation; new addendum remains SUBMITTED_NOT_VERIFIED until job readback.
 - Existing PR #1570 remains OPEN / DRAFT / UNMERGED. No task configuration, paper gate, theory status, ownership or Mersearch lane changed.
+
+
+### UTC-boundary recheck | 2026-11-11T00:00Z
+
+- :36 h743:s3 Morrow run `72b112ed-2060-8322-bbc2-2c67cc950b99` retained task/run/scheduled identity but `started_at` changed 23:32:08.145417Z → 23:59:53.610868Z (1,665,465,451 µs); status IN_PROGRESS, completion/chat_ref null, cause unknown. Cached latest_result and task metadata remain prior h742 values.
+- h744:s0 Meridian run `77623cbd-8618-8330-a3bb-6a8ad48cf405` started 23:57:44.238749Z, 135.761251s before 00:00Z; IN_PROGRESS / completion null / chat_ref null.
+- Same post-boundary batch: h744:s0 Meridian, h743:s2 Tern, h743:s3 Morrow, h743:s4 Kestrel all IN_PROGRESS. No overlap duration or backend cause inferred. See receipt Amendment 08, blob `792e9201d05f29e01cde783a53ab2cfd7361851b`.
+- PR #1570 run #42927306601 succeeded as a merge-ref build but two new theorems depended on generated native_decide axioms. The latest branch head `7e6bbd9700adcee108aa0b9e33f369c142043afa`, module blob `af6c7914a83760998c479e55b5fd37449e338bb9`, removes all native_decide occurrences and uses rfl/structural string comparison. No CI run for this head had appeared at the last readback; SUBMITTED_NOT_VERIFIED. Exact-head-only verification remains outstanding.
