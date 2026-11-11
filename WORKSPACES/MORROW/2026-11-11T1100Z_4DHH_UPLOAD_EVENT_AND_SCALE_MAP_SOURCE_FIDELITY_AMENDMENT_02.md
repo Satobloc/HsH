@@ -232,3 +232,21 @@ No physical fixture, numerical calculation, fit, prediction, CODATA scoring, or 
 5. Preserve the September 9 archive as historical development, not settled policy; do not turn assistant translations into Nathan Direct material.
 
 **Disposition:** additive source-provenance advance; no theory integration, no equation correction, no Lean rerun, no physical calculation, no CODATA, and no BEDROCK promotion.
+
+
+## 8. Assistant-span ancestry and prior-audit reconciliation
+
+The assistant translation immediately following the September 9 direct message is:
+
+- Assistant message 59c3a93e-0245-54e0-ba38-5a6c238e7dc3, 2026-09-09T03:26:06.412Z.
+- A later assistant status/checkpoint message is 13a42500-2f8a-599e-9362-f072c697ded7, 2026-09-09T03:42:42.985Z.
+
+The first assistant message preserves several user qualifiers, including “provisionally,” “may,” “possibly,” and the lattice hold. Its phrase that 4DHH and H(s)H make “essentially the same nested-hyperhelical claim” is a conceptual paraphrase of the direct continuity statement. The more specific “line-based dynamical skeleton” to “finite-core lift” is an assistant-supplied mapping, not a map stated by the user.
+
+The same response changes “I haven't found a place for actually new objects” into “ordinary dynamics apparently do not require genuinely new objects.” That strengthens a provisional report of an incomplete search into a broader ontological conclusion. The qualification should be restored whenever this sentence is reused.
+
+The later assistant status note labels the Kerr/ER-worldtube role and 4DHH–H(s)H continuity SAT/ACTIVE and the electron-scale a_e a candidate. Those labels are historical assistant status, not present authority. The current KERR_CORE_BASELINE.md explicitly marks its geometry/scale package PROVISIONALLY_QUARANTINED pending provenance/dependency review. The September 9 user reference to Ravel's metrology file does not adopt every parameter or premise in that file.
+
+The separate 21-page 4DHH LAGRANGIAN (nolat).pdf was already reviewed in Morrow's 2026-10-31 source-stratigraphy addendum. That earlier audit found a six-block sector/claims registry, not the missing parameterized hyperhelical kernel: it supplied no nested morphology, curvature/torsion action, admissible variations, or equations of motion. Its PDF metadata date is 2026-04-13. This amendment reuses that finding and does not repeat the 21-page audit.
+
+The new result here is narrower: the raw upload event for the separate 150-page SAT.4DHH.UC.pdf is recovered. The user upload message does not identify the internal author or the conversation that generated its “LLM DROP” material. The two PDF extractions must remain separate.
