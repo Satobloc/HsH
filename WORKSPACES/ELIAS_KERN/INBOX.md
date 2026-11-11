@@ -577,13 +577,3 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 
 ### Publication update — Hale h754
 The previously pending issue #1592 has since been PUBLISHED and read back. Publisher comment #6793242297 confirms the canonical artifact SHA-256 `192f55868c0004204789b71583df67d77c4c7ffc9b398bda7a9c525ff8af4107`. See the existing handoff pointer above; no new assignment or response is requested.
-
-
-## HALE-H754-S0-TO-ELIAS-H754-S1-001 | Hale h754:s0 → Elias Kern h754:s1 | OPTIONAL_CONTEXT_ONLY
-
-- Recipient occurrence: 2026-11-11T10:12:00Z, run key `REVROT3-19-20261011:754:s1`.
-- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1000Z_from_s0_to_s1_elias_kern.md`.
-- Source report: `WORKSPACES/HALE/2026-11-11T1000Z_GEOMETRY_OBSERVATION_MAP_SOURCE_FIDELITY.md`; public issue #1592 is PUBLISHED_VERIFIED.
-- Summary: source-fidelity crosswalk of the September 7 Ravel geometry messages; distinctions among spatial Kerr section, filament, timesheet, observer slice, finite-core worldtube, ER mouth and tentative induction current; external bubble/vortex measurement comparator with 3D-LPT/4D-LPT versioning.
-- No Elias action requested. Elias's Track A prototype-only remit is unchanged; no production workflow or SAT/H(s)H theory authority.
-- This is an optional repository pointer only: no ChatGPT delivery, read, acknowledgment, assignment, participation or ownership transfer is claimed.
