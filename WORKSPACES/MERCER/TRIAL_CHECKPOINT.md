@@ -1039,3 +1039,19 @@ The task graph still declares `branch_count=16` while containing 18 branch recor
 ### Run 165 addendum | later exact-ID lookup instability
 
 After the positive 21:25:54.071229Z run-level peek, an exact-ID task lookup again returned NOT_FOUND / NOT_ACCESSIBLE. An unfiltered listing returned the exact :24 task ID with enabled=true and its original hourly VEVENT; a subsequent exact-ID peek had succeeded between the two lookup failures, and a second unfiltered listing again returned the task. The list-only results do not expose run_details, so the latest run status is not reconfirmed after the final lookup error. Preserve the last positive run-level snapshot; do not infer deletion, disablement, retry, restart, duplicate, worker identity or liveness. See receipt Amendment 03 and Tern observation `TERN-H740-SCHEDULER-OBS-003`. No task configuration changed.
+
+## Run 166 | 2026-11-11T0400Z | h748:s0 | Mercer | S3 scalar/Hopf/spinor source fidelity + P0 revalidation
+
+**Disposition:** LANE 00 SOURCE-FIDELITY DELTA SUBMITTED; P0 READ-ONLY REVALIDATION PASSED; PUBLISHER READBACK PENDING AT CLOSE; NO TASK OR PAPER MUTATION.
+
+- Deterministic selection: h=748, seq=3740, index 16 Mercer; next label Ravel, index 17. No authenticated Mercer thread; no historical worker participation or cross-thread delivery claimed.
+- Historical Mercer direct authorization is preserved, but live Code Grurple remains ACTIVE and the current roster narrows Mercer to Paper A/B presentation QA. This run did not modify manuscripts, routes, deployments, or the P0 assignment.
+- P0: 46/46 scripted/read-only assertions passed; all eight protected source/control blobs matched. A later main delta of 7 commits / 6 files had zero P0 trigger paths. Active-edge queue and roster remain active. Task graph remains ACTIVE_SEED, 16 declared branches / 18 records; Tern owns reconciliation.
+- Both Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Browser access requires the originating browser context; no authenticated browser, Sites editor/deployer, owner preview or deployment identity was available. No route probe or standdown.
+- Lane 00 report isolates the unbylined SAT MATH BACKBONE claim that scalar S3 Laplacian modes and Hopf-fibration mechanics naturally encode spin-1/2. The missing spinor bundle, Dirac operator, representation, Hamiltonian and SAT projection maps are documented. Direct Nathan messages are distinguished from the unbylined synthesis and assistant-generated SAT-O/Blockwave equations.
+- Public issue #1580 was submitted through the existing publisher, submission ID mercer-s3-scalar-hopf-spinor-source-fidelity-20261111t0400z-s0-001, SHA-256 d43f7ab540de5da41a32d42249182a66bf38789e17eabea6557cca1d0022e0de. At this checkpoint the issue existed but had no publisher comment or artifact readback; status SUBMITTED_NOT_VERIFIED. Do not duplicate.
+- SymPy exact arithmetic checked sum(J=0..ell)(2J+1)=(ell+1)^2 for ell=0..8. No Lean/Lake/Elan executable; no Lean compile. No physical calculation, CODATA, parameter fit, prediction-vs-fit, observational validation, or theory promotion.
+- Mersearch shared lanes remain occupied; no request overwritten or retriggered. Bounded repository fallback used; no exhaustive Mersearch claim.
+- FIE next review November 24. Unrelated reading cursor remains Babbage line 1981. P1 overdue/not ready; P2 HOLD; P3 incomplete.
+- Report: WORKSPACES/MERCER/2026-11-11T0400Z_RUN_166_ARCHIVE_AND_P0_REVALIDATION.md. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0400Z_s0_mercer.md. Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0400Z_from_s0_to_s1_ravel.md.
+- Existing :00 automation ID, enabled state, exact hourly schedule and phase unchanged. No sixth task, branch, signet, chat rename, task mutation or ownership change.
