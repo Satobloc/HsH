@@ -33,3 +33,12 @@ The BYO file located in the archive is a trajectory generator that leaves the La
 4. Search for a direct source defining the cross-scale parameter map.
 
 This packet is optional repository context only. No authenticated Kestrel thread, direct delivery, consumption, acknowledgment, assignment, or participation is claimed.
+
+
+## Publisher result amendment — 2026-11-11T11:21Z
+
+Issue #1597 was created with a correct four-key JSON body using schema hsh-publish-v1. Independent readback confirms its content field exactly matches the report and its declared SHA-256 matches the report bytes.
+
+The existing issue-publisher workflow run #43011010839 completed with conclusion SKIPPED. Its workflow-level condition requires the issue title to start with [HSH-PUBLISH-V1]; the title used for #1597 omitted that prefix. No publisher job ran, no publisher comment was posted, and the expected canonical PUBLISHED_SUBMISSIONS artifact returns 404.
+
+Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED. The issue is public, but it is not a canonical published submission. No title edit, reopen, duplicate issue, direct-write artifact, or bypass was attempted; the workflow listens only to issues.opened.
