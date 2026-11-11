@@ -666,6 +666,85 @@
         "duplicate_execution",
         "worker_identity"
       ]
+    },
+    {
+      "observed_window": "2026-11-11T15:25:46.701Z/2026-11-11T15:25:51.374Z",
+      "semantics": "Final global catalog peek followed by exact-ID :36 peek. Client-side request/response bounds only.",
+      "global_catalog_observation": {
+        "request_started_at": "2026-11-11T15:25:46.701Z",
+        "response_received_at": "2026-11-11T15:25:47.448Z",
+        "reported_total_automations": 21,
+        "relay_leases": [
+          {
+            "phase": "s0",
+            "task_id": "6aa1fe0de5e48191b886496095b1343f",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:00:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s1",
+            "task_id": "6aa61b3b2e4081918927a35b61007acc",
+            "enabled": false,
+            "dtstart": "2026-10-01T14:12:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s2",
+            "task_id": "6abda4c8eda88191b0a2ba24a074f781",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:24:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s3",
+            "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:36:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s4",
+            "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:48:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          }
+        ],
+        "summary": "Four fixed relay leases enabled (:00, :24, :36, :48); :12 disabled; legacy Tern/Shuttle disabled; no sixth relay task."
+      },
+      "id_specific_observation": {
+        "phase": "s3",
+        "nominal_hour": 758,
+        "worker_label": "Tern Rook",
+        "successor_label": "Morrow",
+        "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+        "request_started_at": "2026-11-11T15:25:47.448Z",
+        "response_received_at": "2026-11-11T15:25:51.374Z",
+        "outcome": "FOUND",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261001T143600\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+        "current_run": {
+          "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+          "scheduled_for": "2026-11-11T14:36:00Z",
+          "started_at": "2026-11-11T15:03:55.226485Z",
+          "completed_at": null,
+          "recorded_status": "in_progress",
+          "chat_ref": null
+        },
+        "latest_result": {
+          "run_id": "95d77437-253c-8330-b21b-35ac977feb87",
+          "scheduled_for": "2026-11-11T13:36:00Z",
+          "completed_at": "2026-11-11T14:14:17.806899Z",
+          "belongs_to_prior_run": true
+        },
+        "comparison_to_prior_readback": {
+          "started_at_unchanged": true,
+          "status_unchanged": true,
+          "completion_still_null": true,
+          "chat_ref_still_null": true
+        }
+      }
     }
   ]
 }
