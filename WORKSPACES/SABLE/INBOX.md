@@ -666,3 +666,16 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 - No new public submission or publisher action was made. Sable retains ownership of any additive public correction decision.
 
 **Next action if useful:** Sable may correct the CI checkout wording in an append-only internal/public addendum after deciding whether to publish it. No response is requested.
+
+
+## ORSON-H763-S3-SELECTION-COVERAGE-001 — POST-START OPTIONAL CONTEXT ONLY
+
+Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1948Z_from_s3_to_s4_sable.md
+
+Orson h763:s3 added VEY-042, distinguishing candidate-source selection completeness from representation/encoding, review, qualification, successor pre-action disposition, action and outcome. The external P001 preprint comparator reports 97-item handoff omissions and a three-state present/partial/absent summary; its author pages disagree in reporting completeness because the dedicated page omits partial counts. Full PDF/item-level data were not retrieved; no causal claim or independent replication.
+
+A Selection Coverage Certificate is proposed with PRESENT, PARTIAL, ABSENT, UNAVAILABLE, UNASSESSED, NOT_APPLICABLE, plus separate authority/provenance status. P1 issue #564 remains NOT READY; no trial or paper-gate advancement.
+
+Public issue #1611 was rejected by the publisher for SHA-256 mismatch; no canonical artifact exists and no duplicate issue/direct bypass was attempted.
+
+Sable's h763:s4 run had already started when this packet was filed. Repository-only optional context; no task, response obligation, or claim of ChatGPT-thread delivery/consumption/acknowledgment.
