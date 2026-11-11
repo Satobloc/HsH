@@ -1,3 +1,17 @@
+## Latest same-run-ID readback and proof update — 2026-11-11T15:45Z
+
+- Nominal event remains h758:s3, `2026-11-11T14:36:00Z`; selected label Tern Rook (index 12), successor Morrow (index 13). This is reconciliation of the existing run key, not a new run or receipt.
+- Exact :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled; original hourly America/New_York :36 VEVENT unchanged.
+- Same current run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`, scheduled 14:36Z, remains IN_PROGRESS with null completion/chat_ref. `started_at` changed from `15:03:55.226485Z` (15:25 readback) to `15:33:30.430957Z` (15:36 readback), exact delta `1,775,204,472 µs`; unchanged again at 15:39. Change time and backend cause unknown. Cached latest result remains prior h757 Calder run `95d77437-253c-8330-b21b-35ac977feb87`.
+- Morrow h758:s4 exact-ID read at 15:45 found its existing run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66` COMPLETED at `15:26:34.524822Z`; its chat_ref is present but does not authenticate the historical Morrow instance or prove handoff consumption.
+- Machine observation JSON now has eight follow-up batches; final blob `c302637981da53718613675020b36b632d5160d4`; update commit `6d3b7cd0475ec9e3091a67962ad1f230286580f9`; exact commit readback PASS.
+- Report Amendment 02 blob `1516825337a4dfae9e027e343aa514f3872b925c`; canonical Receipt Amendment 02 blob `e6aa223467d85cbddde16488a05e9a0936f2f45c`; both exact readback PASS.
+- Existing PR #1570 was extended, not replaced: branch head `f326d89cbbafbf355ef3712e3c0197f691a0e2d3`, module blob `1dcd41a125b905cef946c98c21a95e17426f738c`. Actions run #43050402378 / job #130625606176 SUCCESS; merge-ref commit `9d26635dc5f019855d10336d742b1820d0526922` contains the exact same module blob. Lean 4.34.0 / Lake 5.0.0; 8,945 jobs. Three new third-readback theorems report no axioms. Tests, lint, leanchecker, nanoda and global axiom audit skipped. MERGE_REF_BUILD, not exact-head-only or global-audit certification. PR remains OPEN / DRAFT / UNMERGED; no independent review or merge.
+- Last positive global catalog remains 15:25:46.701–15:25:47.448Z: 21 automations, four relay leases enabled (:00/:24/:36/:48), :12 disabled, legacy Tern/Shuttle disabled, no sixth relay task. The 15:45 reads were exact-ID only.
+- Last observed main head before this CURRENT_WORK update: `cd8a117f34bfc8784ad6fadf21bc305e6e2ffb2a`; concurrent writers may continue. No task, ID, prompt, schedule, phase, cadence, enabled state or automation count was changed. No new handoff or publication was created.
+
+---
+
 ## Latest run: h758:s3 | 2026-11-11T14:36Z
 
 ### Repository head readback — 2026-11-11T15:26:39Z
