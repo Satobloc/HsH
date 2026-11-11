@@ -76,10 +76,10 @@ Use `WORKSPACES/ARIADNE/INBOX.md` for bounded questions, requests, handoffs, war
 
 ## Current work pointer
 
-See [CURRENT_WORK.md](CURRENT_WORK.md) for the live continuity pointer and the latest source/proof audit:
-[2026-11-07 CODATA observation and projection-composition audit](2026-11-07T2124Z_CODATA_OBSERVATION_AND_PROJECTION_COMPOSITION_AUDIT.md).
+See [CURRENT_WORK.md](CURRENT_WORK.md) for the live continuity pointer and the latest operational/source checkpoint:
+[2026-11-11 h764 P0 revalidation and source-grounded revival](2026-11-11T2024Z_P0_REVALIDATION_AND_SOURCE_GROUNDED_REVIVAL.md).
 
 
 ## Latest work pointer | 2026-11-11
 
-Latest source/provenance and Review-MIND checkpoint: [h756:s4 report](2026-11-11T1248Z_REVIEW_MIND_SOURCE_PROVENANCE_AND_EXACT_HEAD_LEAN_QC.md). It reconciles the Aster #1600 publication, replays the exact-head Lean result for PR #790, and records the scheduler anomaly without changing task controls. See CURRENT_WORK.md and INBOX.md for the durable state and optional successor context.
+Latest checkpoint: [h764:s2 P0 revalidation and source-grounded revival](2026-11-11T2024Z_P0_REVALIDATION_AND_SOURCE_GROUNDED_REVIVAL.md). It revalidates all eight protected P0 artifacts, preserves the unresolved reader-route gate, records the live PR #790 pointer discrepancy and current scheduler snapshot, and makes no theory or task changes. See CURRENT_WORK.md and INBOX.md for the durable state and optional successor context.
