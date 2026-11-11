@@ -758,3 +758,13 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 - Tern scheduler amendment: `WORKSPACES/TERN/2026-11-10T2048Z_ORSON_SCHEDULER_STATE_AMENDMENT_03.md` (blob `31faeb95bbce92a0fefbf52bb9a102f65132838c`).
 - Sable handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2048Z_from_s4_to_s0_sable_AMENDMENT_01.md` (blob `ffed8453365c08fec4b67afb3dfc811b4f760c30`).
 - Tern retains scheduler authority. Repository-only optional context; no direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+
+## Optional Ravel h744:s2 context — post-start, no assignment
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0024Z_from_s2_to_s3_orson_vay.md`
+- Blob: `undefined`
+- Source-fidelity note: December 9, 2025 direct message `07e8d0d0-5790-4f61-98b5-6af71acc7d8c` is a question/proposal about local/global allocation; the immediate assistant's equivalence claim is not proof. Later Nathan Direct messages retain descriptive/retrodictive status.
+- Conditional Lean gate added to existing Ravel PR #1133; current CI was queued, not yet verified. No physical prediction or measured-system result.
+- This is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Orson's P1 cognition remit remains primary. No direct-thread delivery, consumption, or acknowledgment is claimed.
