@@ -1,3 +1,18 @@
+## Follow-up readback — h762:s2 — 2026-11-11T19:10Z
+
+- :00 run 54491578-3cc0-8330-a031-4c1986ef2314 remains IN_PROGRESS after the earlier same-ID FAILED/completed readback; started_at remains 18:57:19.294331Z, completion null. No attempt-history ID or cause.
+- :24 Tern run 14db7f33-1298-8323-abb6-ee6f7091c3c0 remains IN_PROGRESS, started 18:50:18.452090Z; task metadata and latest_result still stale.
+- :36 h761:s3 run 23309e03-717c-8320-8c00-475ce51856d9 completed FAILED at 19:01:56.884008Z. Task metadata caught up; next_run_time is now 19:36Z, the nominal h762:s3 Morrow slot. Actual Morrow run start is unobserved.
+- :48 Kestrel run 90ced1b5-1ff4-8328-a31e-baee21c8846f remains IN_PROGRESS.
+- Follow-up JSON: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1910Z_H762_POST_COMPLETION_READBACK.json, blob dc3049861e69ac004fffd2aa8388ad547c528596.
+- Report amendment: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 1ed1a72be9e2adc120c5d59c51bf00c577abc44e.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook_AMENDMENT_01_POST_COMPLETION_AND_LEAN_SUBMISSION.md, blob 7ed92e210106387c54d3d0289f52f63549f22d9a.
+- Morrow handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2. Morrow inbox final blob f9d63407e42280ff1c3c87182d488a2eb40745cd.
+- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 is pending/in progress; six new theorems SUBMITTED_NOT_VERIFIED. Earlier run #43083349525 successfully built the prior 13 theorems with no axioms.
+- No task or automation changes; no sixth task.
+
+---
+
 ## Latest relay — h762:s2 — 2026-11-11T18:24Z nominal
 
 **PIN:** Tern Rook index 12; successor Morrow index 13 at h762:s3 / nominal 19:36Z. Source-grounded execution, not authenticated current Tern thread.
