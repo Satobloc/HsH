@@ -178,3 +178,17 @@ The local runtime had no repository checkout, GitHub CLI, or Lean toolchain; the
 This is internal scheduler/control-plane material, not a public scientific result. No public issue was created. The JSON observation, report, receipt, and successor handoff are to be independently fetched after write; no publication status is claimed for a public issue.
 
 **No task, ID, prompt, schedule, phase, cadence, enabled state, conversation title, or automation count was changed. No sixth task was created.**
+
+
+
+## Follow-up readback — 2026-11-11T14:55Z
+
+A later sequential ID-specific readback shows that the h758:s2 Enheduanna run completed after the earlier 14:42 observation:
+
+- Run `25cbfa2d-33b4-8333-9305-db0bdcdc7a68` completed at 14:46:38.024505Z, after starting 278.675032 s late; elapsed run duration was 1,079.349473 s. Its current `latest_result` now matches its `last_run` ID, and task-level `last_run_time` / `updated_at` have caught up.
+- A run-level `chat_ref` is now present for :24 and matches its configured task conversation container. This is a run reference, not authentication of the historical Enheduanna instance and not proof that the post-start optional handoff was consumed.
+- The :00 Elias run remains FAILED with the same generic failure message.
+- The :36 Tern run remains IN_PROGRESS with null completion and null run-level `chat_ref`; task-level metadata and cached result remain stale relative to it.
+- The :48 Morrow run remains IN_PROGRESS with null completion and null run-level `chat_ref`; task-level metadata and cached result remain stale relative to it.
+
+The follow-up is appended to the machine-readable observation rather than replacing the first snapshot. Updated JSON blob: `5e2709f5f1460759cbf38ce4de487b6f8b87ba79`. This demonstrates why the observation model must preserve multiple timestamped readbacks per task/run rather than overwrite a single mutable snapshot.
