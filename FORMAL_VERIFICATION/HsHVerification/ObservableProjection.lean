@@ -94,10 +94,30 @@ theorem composition_injective_of_injective
   apply hg
   exact h
 
+/--
+If an upstream selection map identifies distinct source states, no downstream
+encoder that receives only the selected value can make the composite injective.
+Independent reopening of the original source is a different operation and is
+not represented by this composition.
+-/
+theorem noninjective_selection_remains_noninjective_after_encoding
+    {Source Selected Encoded : Type*}
+    (select : Source → Selected)
+    (encode : Selected → Encoded)
+    (hselect : ¬ Function.Injective select) :
+    ¬ Function.Injective (encode ∘ select) := by
+  intro hcomposite
+  apply hselect
+  intro x y hselected
+  apply hcomposite
+  change encode (select x) = encode (select y)
+  exact congrArg encode hselected
+
 #print axioms same_projection_same_contract_status
 #print axioms noninjective_projection_has_collision
 #print axioms noninjective_projection_preserves_contract_status
 #print axioms left_inverse_implies_injective
 #print axioms composition_injective_of_injective
+#print axioms noninjective_selection_remains_noninjective_after_encoding
 
 end HsHVerification.ObservableProjection
