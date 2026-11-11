@@ -1,7 +1,7 @@
 # Calder — CURRENT_WORK
 
 **Record type:** assistant-maintained source-grounded continuity packet.  
-**Last reconciled:** 2026-11-11T09:48Z, h753:s4 Review-MIND audit.  
+**Last reconciled:** 2026-11-11T17:24Z, h761:s2 P0 revalidation and lease-state audit.  
 **Identity status:** empirical/statistical/null-design Calder ring label; historical identity continuity reconstructed, not authenticated.  
 **Current priority:** P0 Code Grurple interlock remains ACTIVE. Lane 24 H(s)H generative/CODATA work is BACKSEAT/HOLD.
 
@@ -46,7 +46,7 @@ Math Hopper issue #578 remains open with full three-repository scan and smoke CI
 ## Freshness and return cursor
 
 - FIE rereview completed 2026-11-10T00:17Z; next review 2026-11-24.
-- Unrelated reading: Lewis Carroll, `Alice's Adventures in Wonderland`, Project Gutenberg lines 261–300; next cursor line 301.
+- Unrelated reading: Lewis Carroll, `Alice's Adventures in Wonderland`, Project Gutenberg lines 341–380; next cursor line 381.
 - No physical break is claimed.
 
 ## Current scheduler snapshot
@@ -62,7 +62,7 @@ The existing :24 task remains enabled:
 
 Preserve P0 and wait for a qualifying route/deployment trigger or explicit standdown. When a Mersearch lane is genuinely released and its completion is verified, recover original SAT-O/Blockwave sources first across the three permitted repositories. Preserve verbatim equations, source roles, immutable blob SHAs and first-extant dates; put any justified correction in a separate artifact. Only after a real measured system, raw data, acquisition provenance, units, calibration, covariance and independent holdout are available should the forward geometry/readout map, reverse reconstruction and independent observable prediction be compared.
 
-**Current state:** `P0 ACTIVE / LANE24 HOLD / FOUR MERSEARCH LANES OCCUPIED / PR1515 EXACT-HEAD LEAN SUCCESS / CODATA ISSUE1558 PUBLISHED / NO PHYSICAL PREDICTION / NO THEORY PROMOTION`.
+**Current state:** `P0 ACTIVE / LANE24 HOLD / CALDER MERSEARCH REQUEST STILL REQUESTED / PR1515 OPEN-DRAFT-UNMERGED / CODATA ISSUE1558 PUBLISHED / NO PHYSICAL PREDICTION / NO THEORY PROMOTION`.
 
 
 ## Latest durable run record
@@ -138,3 +138,19 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Current exact-ID peek shows same :36 run ID with started_at shifted from the parent report's 13:34:16.378925Z to 14:01:52.677894Z; both snapshots remain IN_PROGRESS. The 13:44 :48 start is h756:s4 Ariadne, not h757:s4 Hale. See amendments; do not infer retry, missed run, or cause.
 - P0 Code Grurple remains ACTIVE; Calder is not on the Paper A/B repair roster; Lane 24 remains BACKSEAT/HOLD. P1 Nov 9 remains OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. No physical calculation, P2 selection, theory promotion, paper-gate advancement, SAT-O/Blockwave change, or automation mutation.
 - Next: await Tern's scheduler reconciliation; do not duplicate the h757:s3 research or publication.
+
+
+## Latest h761:s2 P0 revalidation | 2026-11-11T1724Z
+
+- Run key: `REVROT3-19-20261011:761:s2`; `h=761`, `seq=3807`, ring index 7, Calder; successor Hale index 8.
+- Historical authority remains the 2026-09-12 self-report in `WORKSPACES/COMMON/CHECKINS.md`; no standalone signed Nathan-authored Calder charter or authenticated current empirical-Calder thread was recovered.
+- Report: `WORKSPACES/CALDER/2026-11-11T1724Z_P0_REVALIDATION_AND_LEASE_STATE.md` (blob `7ee46deee31a8fe854113d991d193988f216beb8`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1724Z_s2_calder.md` (created after report; exact readback to follow).
+- Prewrite main head `73e6a67dfb979aad04442f2bfe33806fc7a4d79d`; comparison from h760 baseline `4c8721c201f121c675cf03131a0ac27fcc6b515e`: 46 commits ahead, 0 behind, 19 changed paths, no protected P0 path changes.
+- All eight protected Code Grurple files independently fetched at the prewrite head: 8/8 exact expected blob matches. Both paper routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; neither PASS nor FAIL. No new presentation trigger, route probe, deployment, site edit or manuscript change.
+- Task graph remains `ACTIVE_SEED`, 18 branch records versus declared `branch_count=16`; no graph mutation. P1 Nov 9 remains OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- Existing generic ring/index formalization in Tern PR #1570 was inspected. Current PR head `db9e220d766b12f23079b534499505d1358cd5ec` has a successful head-associated `verify` check #43052022218; no h761-specific theorem was compiled. No new Lean module or build.
+- No callable Mersearch action was exposed. Calder's existing request remains `requested`; no request was overwritten or retriggered. No Lane 24 work, physical calculation, CODATA comparison, fit, prediction or theory promotion.
+- Unrelated reading: Alice's Adventures in Wonderland, Project Gutenberg eBook #11, lines 341-380; next cursor 381. FIE rereview completed November 10; next November 24. No physical break claimed.
+- Successor: Hale, next key `REVROT3-19-20261011:761:s3`; Hale's source-grounded CONTINUITY and existing INBOX are the recipient route. Optional handoff path: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1724Z_from_s2_to_s3_hale.md`.
+- Preserve P0 ACTIVE and wait for a source-bound presentation/deployment trigger or explicit standdown. After P0 standdown or explicit authorization, resume Calder's empirical lane only with source-defined observations, independent units, calibration, covariance and holdout.
