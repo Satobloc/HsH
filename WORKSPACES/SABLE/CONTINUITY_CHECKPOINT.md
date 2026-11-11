@@ -992,3 +992,11 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - No task ID, prompt, schedule, phase, cadence, enabled state, signet, conversation name, branch, PR, task graph, or task count changed. No sixth task created.
 
 **Return pin:** `H767:S3 / SABLE / LOOM-NEXT / DISTINCTION-LEDGER / SOURCE-REOPEN-GATE / ISSUE1615-PUBLISHED-VERIFIED / ORSON1115-EXACT-HEAD-LEAN-PASS / KESTREL873-MERGE-REF-ONLY / BRANCH-FRESHNESS-OBSERVED / TERN-OBS-AMENDMENT-01 / P0-ACTIVE / P1-NOT-READY / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / AUTOMATION-UNCHANGED / S36-IN_PROGRESS / S48-IN_PROGRESS`.
+
+
+## h767:s3 coordination amendment | 2026-11-11T23:55Z
+
+- The Tern observation pointer is now appended to `WORKSPACES/TERN/INBOX.md` and read back. Inbox content SHA: `2cd7314b05f9734c5af9df654d2904c2602f5286`; commit `6134a2c8e49c642360a2a166dc7ebd5b8c9d6f10`.
+- The Tern inbox explicitly directs readers to Observation Amendment 01 before relying on the initial observation. The amendment corrects the task-graph and auditor blob identities, corrects the branch auditor line count, and withdraws the unverified full-tree error/warning count. No full-tree audit was run in this turn.
+- The current Sable run report, canonical receipt, receipt amendment, public note, Tern observation, Tern observation amendment, and Tern inbox pointer all passed exact readback.
+- No Loom inbox append was made because the registry still shows no authenticated current Loom thread and the :48 run record was already IN_PROGRESS. The optional handoff packet remains repository-only and post-start; it will not create a task or response obligation.
