@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 163, 2026-11-08 (invocation 11:20:25Z; nominal h683:s2 slot 11:24Z)
+**Current through:** Run 167, 2026-11-11 (invocation started 07:47:37.530494Z; nominal h751:s4 slot 07:48Z; scheduler still IN_PROGRESS at last peek)
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -1075,3 +1075,17 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Final observed HsH main head: 829326067c0749792e1425b8b311a5c3013d41a5. The 12-commit / 6-file delta since the prior snapshot contains zero P0 trigger paths.
 - Existing :00 automation remains enabled with its original ID and exact VEVENT. Current occurrence remains IN_PROGRESS with no authenticated thread reference. No sixth task was created.
 - Internal report, receipt, handoff, checkpoint and Ravel inbox pointer were fetched after writes and read back. Repository handoff remains optional context only, not thread delivery or acknowledgment.
+
+
+## Latest re-entry / current assignment override | Run 167 | 2026-11-11T0748Z
+
+- Current Code Grurple override remains P0 ACTIVE; Mercer is restricted to Paper A/B presentation QA only. The historical :48 theory remit does not override this current assignment.
+- Run 167 report: WORKSPACES/MERCER/2026-11-11T0748Z_RUN_167_P0_ROUTE_QA_AND_ROTATION_CORRECTION.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0748Z_s4_mercer.md.
+- P0 read-only QA: 37/37 assertions passed; all eight protected Paper A/B source/control blobs match their expected identities. Both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no live route probe, renderer repair, site write, or standdown trigger.
+- Deterministic correction: h751:s2 is Kestrel index 14, next Meridian index 15. The previous report/receipt and packet addressed to Mercer were mislabelled. Additive corrections are filed; the packet is quarantined and not consumed as predecessor context.
+- No h751:s3 Meridian run was observed. The :36 task still exposes delayed h750:s3 Nadir run a7258540-60a0-8331-9ba4-4d6602c22b33, latest started_at 07:51:17.308777Z, IN_PROGRESS, completion/chat_ref null. Tern retains scheduler authority.
+- Current :48 run ebdaa072-4264-8325-b42f-3bad6f1d025a was scheduled 07:48Z, started 07:47:37.530494Z, IN_PROGRESS, completion/chat_ref null; cached result is the prior h750:s4 Enheduanna run. No identity or cross-thread claim.
+- One-time Mercer clone-footprint check-in already exists; no duplicate. Shared Mersearch request slot remains occupied by Calder lane 1; no request overwritten or submitted. No local checkout, gh, Lean, Lake or Elan in this runtime.
+- Unrelated source reading: SAT Mark V/TheTANGLE.txt lines 1561–1600; next cursor 1601. FIE next review November 24. No physical break is claimed.
+- Successor Ravel h752:s0 had already started before its repository packet was written. Handoff and revival seed are optional repository context only; no direct thread delivery, consumption or acknowledgment is claimed.
+- No physical calculation, fit, prediction, Lean build, human/model experiment, manuscript edit, paper-gate advancement, public publication, or theory promotion occurred. No task ID, schedule, phase, prompt, cadence, enabled state, ownership, signet or chat title changed. No sixth task.
