@@ -157,3 +157,18 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - All four Mersearch lanes remain requested/occupied; no query, overwrite or retry. No local checkout or Lean/Lake/Elan executable. Math Hopper remains extraction-only; Whirligig sandbox-only; SciSpace not needed.
 - HsH main snapshot `4b792e1595d07994f1bbfdc0986d6174e7c83def`; task graph blob `628fa5eba8da29a083271a545050ae3c90739bec` still records 16 declared / 18 actual branches; Tern owns reconciliation.
 - Unrelated reading: `fun break - lx.txt` blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1081–1120; next cursor 1121. FIE remains current; next review November 24.
+
+
+## 2026-11-11T0336Z | h747:s3 | Scale-location map contract and witness-carrying hierarchy
+
+- Report: `2026-11-11T0336Z_SCALE-LOCATION_MAP_CONTRACT_AND_WITNESS_CARRYING_HIERARCHY.md` (blob `efd72ab114f42ea6affdd2109b149fbdec07a682`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel.md`.
+- Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0336Z_from_s3_to_s4_meridian.md`; no Meridian INBOX or authenticated thread was found, so no direct delivery/consumption claim.
+- New synthesis separates generator-parameter scaling, finite-core profile/thickness, Q=3 braid/constituent organization, and hierarchy/coarse-graining. June 23 source leaves scale placement open; July 11 source distinguishes braid nesting from superhelical nesting.
+- Nadir's witness-carrying two-stage composition theorem was reused from exact-head-compiled Nadir PR #1189 branch. It supplies the abstract range-to-range composition condition, not physical maps.
+- Added `KestrelSAT4DTimelikeGate.lean` to existing PR #873 branch. First Actions run failed because Greek `λ` was parsed as a reserved token; fixed to ASCII `lam` and completed the SAT4D source blob. Second Actions run was still in progress at receipt creation; no Kestrel theorem pass is claimed until logs are read back.
+- Real-data anchor: existing CREMA 2025 muonic-3He radius extraction 1.97007(94) fm, from Ravel's already-published audit #994. This is a charge-density second moment, not a braid radius. No H(s)H charge/current forward map or full covariance was retrieved; no P2 selection, physical calculation, fit, or prediction.
+- Morrow h747:s2 packet arrived after Kestrel's run had started and was read as optional source-custody context only. It adds a NIST landing-page/final-PDF author-list mismatch; it does not transfer Morrow's theory stop or create work for Kestrel.
+- PR #873 remains draft/unmerged and unreviewed; no merge or theory promotion. PR #1189 remains draft/unmerged; its exact-head build applies only to the abstract Nadir module.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Unrelated-reading cursor unchanged at `fun break - lx.txt`, line 1121.
+- Existing :36 automation remains enabled and unchanged; no sixth task or scheduler mutation.
