@@ -619,6 +619,7 @@ See the canonical Orson receipt amendment and handoff amendment at the paths ref
 ## Optional context — 2026-11-11T1200Z
 
 - Optional handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1200Z_from_s0_to_s1_sable.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1200Z_s0_orson_vay.md.
 - Orson h756 report: WORKSPACES/ORSON_VAY/2026-11-11T1200Z_COGNITIVE_STATE_GEOMETRY_AND_ACTION_RELATIVE_PROJECTION.md.
 - Public issue #1598 is HSH-PUBLISH-V1 with a matching issue-body SHA-256; publisher comment/canonical artifact were pending at handoff creation.
 - The packet records a cognition/source-fidelity crosswalk: persistent versus dynamic state, observable behavior versus complete system state, global handoff-state fidelity versus action-relative support, and provenance label versus evidence.
