@@ -30,8 +30,6 @@ It formalizes only the source-defined measurement/readout map.
 
 namespace HsHVerification.AriadneAntipodalContourReadout
 
-noncomputable section
-
 abbrev AngularProfile (Angle : Type*) := Angle → ℝ
 
 /-- The two contour samples at the selected angular positions. -/
@@ -40,7 +38,7 @@ def samplePair {Angle : Type*} (θ₀ θπ : Angle)
   (r θ₀, r θπ)
 
 /-- Source-defined channels: mean core radius and half-difference displacement. -/
-def toRadiusDisplacement (samples : ℝ × ℝ) : ℝ × ℝ :=
+noncomputable def toRadiusDisplacement (samples : ℝ × ℝ) : ℝ × ℝ :=
   ((samples.1 + samples.2) / 2, (samples.1 - samples.2) / 2)
 
 /-- Inverse transformation from (a,η) to the two sampled radii. -/
@@ -50,7 +48,13 @@ def fromRadiusDisplacement (channels : ℝ × ℝ) : ℝ × ℝ :=
 theorem from_toRadiusDisplacement (samples : ℝ × ℝ) :
     fromRadiusDisplacement (toRadiusDisplacement samples) = samples := by
   rcases samples with ⟨r₀, rπ⟩
-  ext <;> field_simp <;> ring
+  apply Prod.ext
+  · dsimp [fromRadiusDisplacement, toRadiusDisplacement]
+    field_simp
+    ring
+  · dsimp [fromRadiusDisplacement, toRadiusDisplacement]
+    field_simp
+    ring
 
 theorem to_fromRadiusDisplacement (channels : ℝ × ℝ) :
     toRadiusDisplacement (fromRadiusDisplacement channels) = channels := by
@@ -77,7 +81,7 @@ theorem toRadiusDisplacement_bijective :
   ⟨toRadiusDisplacement_injective, toRadiusDisplacement_surjective⟩
 
 /-- The source-defined two-channel readout of an angular contour. -/
-def radiusDisplacementReadout {Angle : Type*} (θ₀ θπ : Angle)
+noncomputable def radiusDisplacementReadout {Angle : Type*} (θ₀ θπ : Angle)
     (r : AngularProfile Angle) : ℝ × ℝ :=
   toRadiusDisplacement (samplePair θ₀ θπ r)
 
