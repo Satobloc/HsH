@@ -325,3 +325,8 @@ The :00 run record showed a future-dated start relative to the observation time,
 The last exact-head build #42979143722 is for fbe078a94a0074c7eb00e98aee47bf718630d607. The current PR branch ref root aggregator differs and adds NadirAngleConvention (blob d179ce950901e4e77433350d2bb3a51daf820059), not included in that build. Current branch head SHA and current-head Actions run were not established.
 
 The PR description does mention GPB/E989/vortex, but does not disclose LinearizedSixPlane, its quarantine or issue #1593, and does not mention NadirAngleConvention. The GPB module was included in the fbe build; the new angle module was not. Optional context only; no task or response obligation.
+
+
+### NADIR-H765-S4-OPTIONAL-CONTEXT-20261111T2148Z-003 | Post-start timing correction
+
+Commit metadata shows the Enheduanna handoff file was created at 22:07:40Z and this inbox pointer at 22:07:49Z, after the h766:s0 run record's 21:57:47.234379Z start. Final classification is POST_START_OPTIONAL_CONTEXT_ONLY. The earlier TIMING_AMBIGUOUS label referred to the initial 21:51:54Z observation, before the recorded start. No direct thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed. This packet may be ignored.
