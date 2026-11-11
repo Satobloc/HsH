@@ -59,7 +59,7 @@ theorem from_toRadiusDisplacement (samples : ℝ × ℝ) :
 theorem to_fromRadiusDisplacement (channels : ℝ × ℝ) :
     toRadiusDisplacement (fromRadiusDisplacement channels) = channels := by
   rcases channels with ⟨a, η⟩
-  simp [fromRadiusDisplacement, toRadiusDisplacement] <;> ring
+  simp [fromRadiusDisplacement, toRadiusDisplacement]
 
 theorem toRadiusDisplacement_injective :
     Function.Injective toRadiusDisplacement := by
@@ -129,8 +129,11 @@ theorem radiusDisplacementReadout_not_injective
   intro hReadoutInjective
   apply samplePair_not_injective θ₀ θπ θ₁ h₁₀ h₁π
   intro r₁ r₂ hSamples
-  apply hReadoutInjective r₁ r₂
-  simpa [radiusDisplacementReadout] using congrArg toRadiusDisplacement hSamples
+  have hReadout :
+      radiusDisplacementReadout θ₀ θπ r₁ =
+        radiusDisplacementReadout θ₀ θπ r₂ := by
+    simpa [radiusDisplacementReadout] using congrArg toRadiusDisplacement hSamples
+  exact hReadoutInjective hReadout
 
 #print axioms from_toRadiusDisplacement
 #print axioms to_fromRadiusDisplacement
