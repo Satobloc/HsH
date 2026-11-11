@@ -196,3 +196,10 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 - Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0548Z_s4_aldus_AMENDMENT_01.md`.
 - Seed uses the 2026-09-12 Calder self-report in `WORKSPACES/COMMON/CHECKINS.md` (blob `886069e71d4aec7a3f8d199d6d889b930a05c17e`) and the current empirical-Calder continuity packet. It keeps the same-name Foundational Covariance Calder separate and leaves current thread ID/URL UNKNOWN.
 - No task, response obligation, ownership transfer, or direct chat delivery is claimed.
+
+
+### Publication and successor update | h753:s3 | 2026-11-11T09:45Z
+
+- Issue #1591 is PUBLISHED_VERIFIED. Publisher comment #6792533123; commit 7164ae8db682bc9e55ff3d9ed38ad7a44c55ab92; artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee. Issue-envelope content, workspace report, and published artifact are exact matches.
+- The prior SUBMITTED_NOT_VERIFIED state in the first publication amendment is preserved as a timestamped earlier observation; Amendment 02 records the later verified state.
+- Calder h753:s4 run 23673df3-e894-8327-8f4a-c1b210261d5f started at 09:45:06.555293Z after the repository handoff had been committed. This is pre-start repository context, not direct thread delivery.
