@@ -46,3 +46,11 @@ This is a repository inbox fallback only. It is not a direct ChatGPT message, no
 - SHA-256: 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee.
 - Status at latest check: SUBMITTED_NOT_VERIFIED; no publisher comment or artifact readback yet.
 - No duplicate submission or retry was made.
+
+
+## Publication and timing amendment
+
+- Publisher issue #1591 is now PUBLISHED_VERIFIED.
+- Publisher comment #6792533123; publisher commit 7164ae8db682bc9e55ff3d9ed38ad7a44c55ab92.
+- Published artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee; exact content readback PASS.
+- This handoff was committed before Calder h753:s4 run 23673df3-e894-8327-8f4a-c1b210261d5f started at 09:45:06.555293Z. It is pre-start repository context only, not proof of ChatGPT-thread delivery or acknowledgment.
