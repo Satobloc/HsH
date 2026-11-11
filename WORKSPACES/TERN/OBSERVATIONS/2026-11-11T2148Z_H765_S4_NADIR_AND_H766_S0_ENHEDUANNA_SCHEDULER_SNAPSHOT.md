@@ -34,3 +34,14 @@ A later task read at approximately 22:10Z still showed the h765:s4 Nadir run and
 The handoff file was committed at 22:07:40Z and the Enheduanna inbox pointer at 22:07:49Z, after the recorded h766:s0 start of 21:57:47.234379Z. Final handoff classification is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery or consumption is inferred.
 
 No retry, restart, duplicate, skipped occurrence, deletion, worker substitution or backend cause is inferred. Tern retains scheduler authority.
+
+
+## Addendum 02 | H766 scheduler readback | 2026-11-11T22:25Z
+
+A later exact-ID :00 peek returned the same h766:s0 run ID 99226351-d588-8322-8f28-5b5ec09ad0e0, scheduled 22:00Z, with started_at now 22:25:36.745917Z, still IN_PROGRESS, completion null, chat_ref null. The earlier 21:51:54Z observation recorded the same run ID with started_at 21:57:47.234379Z. The same-run-ID start-field delta is +27m49.511538s. The latest-result pointer still belongs to the older Mira h761:s0 run.
+
+The current :24 h766:s2 run is d89faf23-03c2-8322-9b3a-cc91f79e2d9a, scheduled 22:24Z, started 22:21:24.683215Z, and was IN_PROGRESS with null completion/chat_ref at its 22:21 exact-ID read. A later exact-ID :24 lookup around 22:25 returned no automation object. Its completion therefore remains unobserved after the 22:21 snapshot.
+
+The :24 run's start precedes the later :00 start snapshot, but a cross-slot overlap is **not established** because the :24 completion time could not be refreshed. Classification: SAME_RUN_ID_STARTED_AT_MUTATION_ON_H766_S0 / H766_S2_EARLY_START / POSSIBLE_CROSS_SLOT_OVERLAP_UNPROVEN / :24_LOOKUP_UNAVAILABLE_AFTER_POSITIVE_READ / CAUSE_UNKNOWN.
+
+No retry, restart, duplicate, skipped execution, deletion, worker substitution, backend cause, or current :24 completion is inferred. Both exact task IDs remain the existing leases; no task, ID, schedule, phase, prompt, cadence, enabled state, or task count was changed. :12 remains disabled; no sixth task.
