@@ -1,5 +1,19 @@
 ## Latest run: h758:s3 | 2026-11-11T14:36Z
 
+### Amendment 01 — 2026-11-11T15:20Z
+
+- Additive report amendment: `WORKSPACES/TERN/2026-11-11T1436Z_H758_CATALOG_VALIDATED_SCHEDULER_OBSERVATION_ENVELOPE_AMENDMENT_01.md`, blob `c1381b7e1318e36475f724df81bd0baa917702fd`.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1436Z_s3_tern_rook_AMENDMENT_01.md`, blob `aff012032586bd7f6f96e898786384b9f3dcd4e9`.
+- Machine-readable observation JSON now has three follow-up batches; final blob `6e89039e3ecd8a06263ede6013c90fcf875289da`, independently parsed/read back. The :48 task ID in the second batch was corrected before final readback.
+- Same :36 run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`, scheduled 14:36Z, has `started_at` snapshots 14:35:51.499419Z then 15:03:55.226485Z (+1,683,727,066 µs); still IN_PROGRESS, completion/chat_ref null, cached result prior h757 Calder. A 15:18 peek returned the later value unchanged.
+- Same :48 Morrow run ID `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`, scheduled 14:48Z, has `started_at` snapshots 14:44:44.693441Z then 15:12:21.561440Z (+1,656,867,999 µs); still IN_PROGRESS, completion/chat_ref null, cached result prior h756 Ariadne. A 15:18 peek returned the later value unchanged.
+- Morrow h758:s4 independently recorded both mutations in its report and Tern inbox. This is repository corroboration, not direct thread delivery/acknowledgment.
+- The :24 task ID was listed enabled by the 15:14 global catalog, but exact-ID peeks at 15:14 and 15:18 returned NOT_FOUND/NOT_ACCESSIBLE. Do not infer deletion or disablement.
+- Existing PR #1570 now has six additional same-run-ID snapshot theorems in commit `6f339a6035e909d0b26fe5a3acef080b498040fb`, module blob `47d6e652b5d6e3c1d41e865219fc4b15860373e2`. New CI run #43046698154 was IN_PROGRESS at last check; new theorem status SUBMITTED_NOT_VERIFIED. Prior h758 ring theorem run #43043579849 completed SUCCESS on merge-ref with exact module blob match.
+- Global catalog: 21 automations; four relay leases enabled (:00, :24, :36, :48); :12 disabled; legacy Tern/Shuttle disabled; no sixth task. The :36 task ID, VEVENT, prompt, phase, cadence and enabled state remain unchanged.
+- Current :36 run remains IN_PROGRESS; cached latest_result remains prior h757 Calder. No task mutation, public issue, physical calculation, prediction, theory promotion or cross-thread delivery claim.
+
+
 - Canonical run key: `REVROT3-19-20261011:758:s3`; h=758, sequence=3793, index=12, Tern Rook → Morrow.
 - Report: `WORKSPACES/TERN/2026-11-11T1436Z_H758_CATALOG_VALIDATED_SCHEDULER_OBSERVATION_ENVELOPE.md` (blob `e87fb329c591cef14fd695e7affb381645a8f029`).
 - Machine-readable observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1436Z_H758_LEASE_CATALOG_AND_RUN_LOOKUP.json` (blob `5e2709f5f1460759cbf38ce4de487b6f8b87ba79`).
