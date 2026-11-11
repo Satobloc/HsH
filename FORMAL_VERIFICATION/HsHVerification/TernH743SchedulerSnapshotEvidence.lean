@@ -30,19 +30,19 @@ theorem h743_s2_sequence : 5 * 743 + 2 = 3717 := by decide
 theorem h743_s2_index : (5 * 743 + 2) % 19 = 12 := by decide
 
 theorem h743_s2_worker :
-    ringAt ((5 * 743 + 2) % 19) = some "Tern Rook" := by native_decide
+    ringAt ((5 * 743 + 2) % 19) = some "Tern Rook" := by rfl
 
 theorem h743_s2_successor :
-    ringAt (((5 * 743 + 2) + 1) % 19) = some "Morrow" := by native_decide
+    ringAt (((5 * 743 + 2) + 1) % 19) = some "Morrow" := by rfl
 
 theorem h743_s3_worker :
-    ringAt ((5 * 743 + 3) % 19) = some "Morrow" := by native_decide
+    ringAt ((5 * 743 + 3) % 19) = some "Morrow" := by rfl
 
 theorem h743_s0_worker :
-    ringAt ((5 * 743 + 0) % 19) = some "Nadir Voss" := by native_decide
+    ringAt ((5 * 743 + 0) % 19) = some "Nadir Voss" := by rfl
 
 theorem h742_s4_worker :
-    ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by native_decide
+    ringAt ((5 * 742 + 4) % 19) = some "Elias Kern" := by rfl
 
 /-- Convert a same-day UTC clock reading to microseconds since midnight. -/
 def us (hour minute second micros : Nat) : Nat :=
@@ -311,15 +311,15 @@ theorem h743_s4_sequence : 5 * 743 + 4 = 3719 := by decide
 theorem h743_s4_index : (5 * 743 + 4) % 19 = 14 := by decide
 
 theorem h743_s4_worker :
-    ringAt ((5 * 743 + 4) % 19) = some "Kestrel" := by native_decide
+    ringAt ((5 * 743 + 4) % 19) = some "Kestrel" := by rfl
 
 theorem h743_s4_successor :
-    ringAt (((5 * 743 + 4) + 1) % 19) = some "Meridian" := by native_decide
+    ringAt (((5 * 743 + 4) + 1) % 19) = some "Meridian" := by rfl
 
 theorem h743_s2_same_run_and_schedule_across_readbacks :
     run24.runId = run24Later.runId ∧
     run24.taskId = run24Later.taskId ∧
-    run24.scheduledUs = run24Later.scheduledUs := by native_decide
+    run24.scheduledUs = run24Later.scheduledUs 
 
 theorem h743_s2_started_at_field_changed :
     run24Later.startedUs - run24.startedUs = 1649042587 := by decide
@@ -350,10 +350,98 @@ theorem h743_latest_s2_s3_s4_states :
     run36.status = .inProgress ∧
     run48H743.status = .inProgress := by decide
 
+/-! ## Addendum: h743:s3 start-field mutation and h744:s0 current lease -/
+
+/-- Later h743:s3 :36 readback; same run identity, changed started_at. -/
+def run36Later : SchedulerSnapshot :=
+  { phase := 3
+    taskId := "6a9f52b69ec08191b0a2ba24a074f781"
+    enabled := true
+    scheduleMinute := 36
+    runId := "72b112ed-2060-8322-bbc2-2c67cc950b99"
+    scheduledUs := us 23 36 0 0
+    startedUs := us 23 59 53 610868
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "b25fd8f4-e9bc-832b-beaa-16e00bc6a0d1"
+    chatRef := none
+    taskLastRunUs := us 22 39 32 682093
+    taskUpdatedUs := us 22 40 15 174146
+    nextRunUs := us 23 36 0 0 }
+
+/-- h744:s0 :00 lease, deterministically Meridian. -/
+def run00H744 : SchedulerSnapshot :=
+  { phase := 0
+    taskId := "6aa1fe0de5e48191b886496095b1343f"
+    enabled := true
+    scheduleMinute := 0
+    runId := "77623cbd-8618-8330-a3bb-6a8ad48cf405"
+    scheduledUs := us 24 0 0 0
+    startedUs := us 23 57 44 238749
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "c03f589f-a870-8327-b6b5-903a18a439c0"
+    chatRef := none
+    taskLastRunUs := us 22 58 57 811717
+    taskUpdatedUs := us 22 59 20 905241
+    nextRunUs := us 24 0 0 0 }
+
+theorem h743_s3_same_run_and_schedule_across_readbacks :
+    run36.runId = run36Later.runId ∧
+    run36.taskId = run36Later.taskId ∧
+    run36.scheduledUs = run36Later.scheduledUs := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h743_s3_started_at_field_changed :
+    run36Later.startedUs - run36.startedUs = 1665465451 := by decide
+
+theorem h743_s3_later_start_after_nominal :
+    run36Later.startedUs - run36Later.scheduledUs = 1073610868 := by decide
+
+theorem h743_s3_both_snapshots_in_progress :
+    run36.status = .inProgress ∧ run36Later.status = .inProgress := by decide
+
+theorem h743_s3_cache_and_current_ids_recorded :
+    run36.latestResultRunId = some "b25fd8f4-e9bc-832b-beaa-16e00bc6a0d1" ∧
+    run36Later.latestResultRunId = some "b25fd8f4-e9bc-832b-beaa-16e00bc6a0d1" ∧
+    run36.runId = "72b112ed-2060-8322-bbc2-2c67cc950b99" := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h744_s0_sequence : 5 * 744 + 0 = 3720 := by decide
+
+theorem h744_s0_index : (5 * 744 + 0) % 19 = 15 := by decide
+
+theorem h744_s0_worker :
+    ringAt ((5 * 744 + 0) % 19) = some "Meridian" := by rfl
+
+theorem h744_s0_successor :
+    ringAt (((5 * 744 + 0) + 1) % 19) = some "Mercer" := by rfl
+
+theorem h744_s0_started_before_nominal :
+    run00H744.scheduledUs - run00H744.startedUs = 135761251 := by decide
+
+theorem h744_s0_current_state_and_cache :
+    run00H744.enabled = true ∧
+    run00H744.status = .inProgress ∧
+    run00H744.completedUs = none ∧
+    run00H744.chatRef = none ∧
+    run00H744.latestResultRunId = some "c03f589f-a870-8327-b6b5-903a18a439c0" := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h744_four_current_run_states :
+    run00H744.status = .inProgress ∧
+    run24Later.status = .inProgress ∧
+    run36Later.status = .inProgress ∧
+    run48H743.status = .inProgress := by decide
+
 #print axioms h743_s4_worker
 #print axioms h743_s2_same_run_and_schedule_across_readbacks
 #print axioms h743_s2_started_at_field_changed
-#print axioms h743_s4_state_and_prior_cache
+#print axioms h743_s4_state_and_cache_fields
+#print axioms h743_s4_cache_is_prior
+#print axioms h743_s3_started_at_field_changed
+#print axioms h744_s0_started_before_nominal
+#print axioms h744_four_current_run_states
 
 #print axioms h743_s2_worker
 #print axioms three_run_overlap_lower_bound
