@@ -180,3 +180,11 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Corrected issue #1578 uses the same submission ID, identical content, and identical SHA-256 `423cdd815585b31519aba75396954ac962a47522ad650fc8bba27671677724e7`, with the required title prefix and exact four-key payload. This is an envelope correction for one artifact, not a duplicate submission.
 - Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_01.md`.
 - At this check, #1578 had no publisher comment and the expected artifact path remained absent. Status: SUBMITTED_NOT_VERIFIED. Do not create another issue or bypass the existing publisher.
+
+
+## 2026-11-11T0336Z | publication amendment 02
+
+- Corrected publisher issue #1578 is now PUBLISHED_VERIFIED. Comment #6786538491 reports the canonical artifact, commit, SHA-256 and readback.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-scale-location-witness-carrying-hierarchy-20261111t0336z-s3-001.md`; blob `b25ee239a78bbcc52e054ef414c81c195f93f71f`; 5,935 UTF-8 bytes; SHA-256 `423cdd815585b31519aba75396954ac962a47522ad650fc8bba27671677724e7`.
+- Independent issue-payload/artifact comparison: exact content match. The issue has exactly the four publisher keys. Issue #1577 remains closed as a non-publisher envelope; no duplicate artifact or manual Contents write.
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_02.md`.
