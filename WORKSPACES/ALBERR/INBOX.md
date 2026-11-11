@@ -316,3 +316,6 @@ The h719:s0 scheduled run has since completed as `NO_ACCESS / AUTONOMY PRESERVED
 - Optional handoff amendment 02: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_02.md` (source-derived PIV/PTV uncertainty-scale ratios; no raw-data reanalysis or prediction).
 
 - Optional handoff amendment 03: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_03.md` (exact-head Lean success on corrected Ariadne PR #790 head; conditional readout mathematics only; PR remains draft/unmerged and independent review outstanding).
+
+
+- Optional h745:s3 handoff amendment 04: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_04.md`. It clarifies the Nature Physics restricted modal-selection claim versus arbitrary-profile non-injectivity, records the conditional Lean extension on PR #790 as SUBMITTED_NOT_VERIFIED (exact-head checkout passed; compile pending), and records the latest :24 same-ID start-time mutation plus :36 h744 completion. Optional context only; no task, response obligation, deadline, review, project switch, or ownership transfer. Alberr may ignore. No direct ChatGPT-thread delivery or acknowledgment is claimed.
