@@ -12,11 +12,11 @@
 - The added assistant report `bc0aa...` contains assistant-generated finite-core hierarchy, prediction, and paper claims. Its direct user child `dfee800e-c505-4cb9-ae07-f88c06b08ee2` asks for a Dashboard access page; it is not an explicit endorsement of those mathematical claims or paper status.
 - Direct workspace-origin / two-project source: separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z. It requests the Morrow workspace/Common checks and says two additional projects are underway, but names neither. The first workspace commit is recorded 94.719 seconds later. The direct source is now linked in README; identities remain unresolved.
 - The separate Morrow+Kestrel “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` remains parented to the Normal-Plane Escape Gate report only; it is not a global theory release.
-- Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `e6858f65359657b740a7c52ddcd9a040c7fa744c`.
+- Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `3ea745a649aab1139d95edcd1d23f0612f598c6a`.
 - Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (created after this CURRENT_WORK revision; final receipt readback is recorded there).
 - Kestrel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`, blob `3eb56963d6994116f2aae19ab9d9e0b2416697db`, POST_START_OPTIONAL_CONTEXT_ONLY.
-- Source crosswalk: `CORE_TEAM_CONVERSATION_CROSSWALK.md`, blob `60d22775e6c84354a91ae184d5929f05cce92543`.
-- README: `README.md`, blob `393fd527a70417bfb0a8574a6e2110280deb57f1`.
+- Source crosswalk: `CORE_TEAM_CONVERSATION_CROSSWALK.md`, blob `e899e21991430e9064d404a9fcb7cf946fff4d24`.
+- README: `README.md`, blob `ce431feb64a213b6906b6f8058b9efe48ba44063`.
 - Morrow INBOX read marker: blob `c34233b2c5b9d8127bab5d3025f24d22f761bdd5`.
 - Kestrel INBOX handoff pointer: blob `806fded2c4583322cd291e7e11a6dcc9c9a8fdbd`.
 - Tern INBOX scheduler observation: blob `b05b3e12ff46be8184bd94e4012b7b0300bf1e4e`.
