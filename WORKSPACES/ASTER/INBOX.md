@@ -703,3 +703,5 @@ No Aster task, review, reply, or action is requested. Repository inbox presence 
 - public submission: issue #1573 (publisher pending at pointer creation)
 - optional action: independently challenge the separation between the 4D interaction map and 3D time-surface readout map; check existing Aster crosswalks for the missing projection/composition maps.
 - boundary: do not retag the 138 user turns or repeat the completed assistant ancestry. No assignment, thread delivery, Aster participation, consumption or acknowledgement is claimed.
+
+- publication correction for the h745 Loom packet: issue #1573 body corrected to SHA-256 1ed27ed3bfe42e81ed80d22f4b6bb8f12145f1b0a3341ba703c5881cd2e466b3; publisher did not retrigger on edit; artifact remains unverified. No duplicate issue or direct write.
