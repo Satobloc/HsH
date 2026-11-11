@@ -1225,9 +1225,18 @@ Morrow CURRENT_WORK blob after this update: `da4d66992aafb61895a9af0a1d61c372cfd
 - The report preserves exact SAT4D, SAT O1, BYO, Unit Cell, 4DHH, and Blockwave equation sources with attribution and hashes. No equation correction, theory integration, physical prediction, fit, or BEDROCK promotion.
 - Formalization status: FORMALIZATION_BLOCKED_DEFINITION. No theorem/Lean module/CI run; Morrow's current source-custody boundary does not authorize theory Lean reruns, and the needed maps are undefined.
 - Existing Morrow/Kestrel October 31 proper-dimensionality/4DHH report was reused, not duplicated. The source tag ledger received an additive amendment; no prior tag removed or downgraded.
-- Public issue #1597 was submitted through the existing issue publisher with schema hsh-publish-v1 and SHA-256 8732079a7d44949b17cb27c26c65ee9c4dd1654d0927b039e83babbdc55f4b8c. Publisher/readback status pending at checkpoint creation.
+- Public issue #1597 was submitted through the existing issue publisher with schema hsh-publish-v1 and SHA-256 8732079a7d44949b17cb27c26c65ee9c4dd1654d0927b039e83babbdc55f4b8c. PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED: workflow run #43011010839 was skipped because issue title lacked [HSH-PUBLISH-V1]; no canonical artifact.
 - Mersearch: all four actual lanes remain requested/occupied; no new request or retrigger. Reused existing Ravel search result and bounded GitHub fallback; no new tool/dependency/fork/subscription.
 - Upkeep: FIE rereview completed Nov10, next Nov24. Okakura, The Book of Tea, Project Gutenberg eBook #769, lines 1352–1391 read; next cursor 1392. Babbage remains parked at 1741.
 - Campaign: P0 ACTIVE; P1 OVERDUE/NOT READY/Orson-owned; P2 HOLD; P3 INCOMPLETE. No manuscript, reader route, paper gate, or Orson cognition work changed.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1100Z_s0_morrow.md. Optional Kestrel handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer claimed.
 - The :00 automation remains enabled and unchanged; current run 3842fad6-30a0-8333-8a27-e81230253db1 was IN_PROGRESS/chat_ref=null at the last scheduler read. Cached latest result is h754 Hale, not h755 Morrow. No task/ID/schedule/phase/prompt/cadence mutation; no sixth task.
+
+
+## Publisher result amendment — 2026-11-11T11:21Z
+
+Issue #1597 was created with a correct four-key JSON body using schema hsh-publish-v1. Independent readback confirms its content field exactly matches the report and its declared SHA-256 matches the report bytes.
+
+The existing issue-publisher workflow run #43011010839 completed with conclusion SKIPPED. Its workflow-level condition requires the issue title to start with [HSH-PUBLISH-V1]; the title used for #1597 omitted that prefix. No publisher job ran, no publisher comment was posted, and the expected canonical PUBLISHED_SUBMISSIONS artifact returns 404.
+
+Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED. The issue is public, but it is not a canonical published submission. No title edit, reopen, duplicate issue, direct-write artifact, or bypass was attempted; the workflow listens only to issues.opened.
