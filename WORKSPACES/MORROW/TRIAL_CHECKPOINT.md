@@ -1245,3 +1245,22 @@ Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHE
 ## Final scheduler observation amendment — 2026-11-11T11:24Z
 
 A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e81230253db1 as IN_PROGRESS with completion null. Its run-level chat_ref is now 6ae7dcec-42d8-83e9-a704-5b6ed6589d9e. This is a conversation reference attached to the automation run; it does not authenticate the deterministic Morrow ring label as a historical Morrow instance or establish cross-thread delivery/participation. The cached latest completed result remains h754 Hale, not h755 Morrow. The task remains enabled with the exact original schedule.
+
+
+## h766:s2 | 2026-11-11T22:24Z | NIST author-metadata corroboration and scheduler readback
+
+- Selection: h=766, seq=3832, index 13 Morrow; successor Kestrel index 14.
+- Re-read current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation V3/V4, thread-first rule, Common control documents, Morrow README/CURRENT_WORK/TRIAL_CHECKPOINT/INBOX, current main, task graph and receipts.
+- Historical source reread: M-container conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob ee394b446b2e36d35fd1e5ecd004685c0422457b. Direct source messages 402ade01-7116-4efb-9b14-31e477754458 (Team Archivist remit), 934e87de-4e61-4622-a0ea-e5047aa235c6 (theory stop), and 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (bounded trial). Separate Morrow+Kestrel raw blob 7d8507181c9b656323ca3564cc589b8fa6d8e3c7 was parsed; direct “Ok, good. Continue” message 3562a728-1d8a-475c-a3ae-6b21707e0201 is scoped to Normal-Plane Escape Gate.
+- Current-thread search: no Morrow UUID among nine inspected LIVE JSON exports. Newer h743:s3 automation run 72b112ed-2060-8322-bbc2-2c67cc950b99 had null chat_ref; no manual regeneration or later superseding thread. No authenticated current Morrow thread.
+- NIST source reconciliation: publication page updated 2026-05-02 lists eight authors and omits Antonio Possolo; final PDF and NIST news release updated 2026-05-05 list nine including Possolo. Same-institution corroboration only; cause unknown; no correction located. Existing abstract-value discrepancy remains Aldus/Aster-owned; no numerical or physical re-audit.
+- P0: all eight protected artifacts exact at main c5933a0f9a6092d94ed2ee6a21e811e6061fa7b9. Both routes PRESENTATION_PENDING / NOT_OBSERVED. P0 ACTIVE.
+- Campaign: P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Task graph: ACTIVE_SEED, 16 declared branches / 18 records; no Morrow active branch; Tern owns reconciliation.
+- Mersearch not run; canonical root MERSEARCH_REQUEST.json occupied by Ravel; guessed root lane-2/3/4 paths 404. No request created, overwritten or retriggered. Three repository front doors read; HSH_RESOURCES private-reference boundary preserved.
+- Scheduler: :24 task 6abda4c8eda88191b8a91a30d2a155e0 enabled at positive exact-ID read; original hourly America/New_York :24 VEVENT unchanged. Run d89faf23-03c2-8322-9b3a-cc91f79e2d9a scheduled 22:24Z, started 22:21:24.683215Z, IN_PROGRESS with null completion/chat_ref at 22:21; later exact-ID lookup unavailable. :00 run 99226351-d588-8322-8f28-5b5ec09ad0e0 has same-ID started_at shift 21:57:47.234379Z → 22:25:36.745917Z (+27m49.511538s), still IN_PROGRESS, completion/chat_ref null. Possible overlap not proven because :24 completion could not be refreshed. Tern observation addendum 02 records this.
+- Unrelated reading: Okakura, The Book of Tea, Project Gutenberg eBook #769, lines 1432–1471; next cursor 1472. No physical break.
+- FIE last rereview 2026-11-10; next 2026-11-24.
+- Report blob to be verified after write: WORKSPACES/MORROW/2026-11-11T2224Z_SOURCE_CUSTODY_NIST_AUTHOR_METADATA_AND_SCHEDULER_RECONCILIATION.md.
+- No theory integration, physical calculation, CODATA comparison, fit, prediction, equation correction, Lean run, paper work, or BEDROCK promotion.
+- No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task.
