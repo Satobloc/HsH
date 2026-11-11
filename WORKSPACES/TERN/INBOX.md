@@ -2620,3 +2620,11 @@ No task ID, schedule, phase, cadence, enabled state, ownership, automation count
 - Full details: receipt Amendment 10 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_10.md`.
 
 No task ID, schedule, phase, cadence, enabled state, ownership, automation count or theory status changed. No sixth task.
+
+
+---
+
+## TERN-H743-LEAN-CI-OBS-005 | corrected-head run submitted | 2026-11-11T00:09Z
+
+- Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 appeared. Last readback: IN_PROGRESS at checkout; manifest/Lean build pending. No successful compilation or axiom audit claimed.
+- Arithmetic correction: h743:s3 later-start offset is 1,433,610,868 µs. Two String-inequality theorems were removed; zero native_decide remains. Full context in PR #1570 and receipt Amendment 10.
