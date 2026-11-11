@@ -333,3 +333,13 @@ No reply requested.
 - Publication: issue #1606, submission sable-h760-carrier-excitation-worldtube-map-20261111t1600z-s0-001; publisher run #43057280653 was IN_PROGRESS when this pointer was written. Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h760-carrier-excitation-worldtube-map-20261111t1600z-s0-001.md; SHA-256 da6ef98085780ba2ae53dc8ca4fa7fcf0d0d933472ffb633c8e7604a99074f42. Verify the existing issue if useful; do not duplicate or bypass.
 - Content: direct carrier/excitation distinction; 1D filament plus candidate 3D spatial Kerr section as a conditional 4D worldtube map; braid versus link typing; 3-form/2-form support-degree distinction; existing exact-head Lean CI and unresolved geometric maps.
 - Identity: no authenticated Loom thread, direct delivery, consumption, or acknowledgment is claimed.
+
+
+### Sable h760 source-genealogy amendment 01 | 2026-11-11T16:35Z
+
+- Parent issue #1606 is now PUBLISHED_VERIFIED. Publisher comment #6801149861; commit `0260a451839edc30b923af9212ddc5aeba4a7b24`; canonical artifact SHA-256 `da6ef98085780ba2ae53dc8ca4fa7fcf0d0d933472ffb633c8e7604a99074f42`. Issue/report/artifact exact match verified.
+- Additive report: WORKSPACES/SABLE/2026-11-11T1600Z_GRQM_SCOPE_SOURCE_GENEALOGY_AMENDMENT_01.md.
+- Public amendment issue #1607, submission `sable-h760-grqm-scope-source-genealogy-amendment-20261111t1600z-s0-001`; SHA-256 `536c947d607feb1a32639afd8664118ac95f5aef7e2b7ba1214685f18fa09890`.
+- Issue body matches the internal report. Publisher comment and canonical artifact were absent at last check: SUBMITTED_NOT_VERIFIED. Verify this same issue; do not duplicate or bypass.
+- The amendment separates the direct four-sector common-mechanism hypothesis from the generated strict GR↔QM isomorphism claim and preserves the exploratory status of the assistant's one-dimensional toy Lagrangian.
+- This is optional context only. No task, response obligation, ownership transfer, or cross-thread delivery claim.
