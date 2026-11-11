@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "record_type": "follow_up_exact_id_scheduler_readback",
+  "run_key": "REVROT3-19-20261011:762:s2",
+  "collected_at": "2026-11-11T19:10:25.031Z",
+  "global_catalog": {
+    "request_started_at": "2026-11-11T19:10:13.208Z",
+    "response_received_at": "2026-11-11T19:10:13.793Z",
+    "total_automations": 21,
+    "relay_enabled": [
+      "s0",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "relay_disabled": [
+      "s1"
+    ],
+    "legacy_tern_shuttle_enabled": false,
+    "no_sixth_relay_task": true,
+    "all_original_vevents_unchanged": true
+  },
+  "id_specific_reads": [
+    {
+      "phase": "s0",
+      "task_id": "6aa1fe0de5e48191b886496095b1343f",
+      "request_started_at": "2026-11-11T19:10:13.794Z",
+      "response_received_at": "2026-11-11T19:10:17.195Z",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:11:12.177767Z",
+        "updated_at": "2026-11-11T17:11:37.623861Z",
+        "next_run_time": "2026-11-11T13:00:00-05:00"
+      },
+      "last_run": {
+        "run_id": "54491578-3cc0-8330-a031-4c1986ef2314",
+        "scheduled_for": "2026-11-11T18:00:00Z",
+        "started_at": "2026-11-11T18:57:19.294331Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "1e093ebd-e478-8325-86da-dd5fbf183847",
+        "scheduled_for": "2026-11-11T17:00:00Z",
+        "completed_at": "2026-11-11T17:11:07.787191Z",
+        "is_failure_message": false,
+        "chat_ref": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+        "belongs_to_prior_run": true
+      }
+    },
+    {
+      "phase": "s2",
+      "task_id": "6abda4c8eda88191bf23a6f2849e9a17",
+      "request_started_at": "2026-11-11T19:10:17.195Z",
+      "response_received_at": "2026-11-11T19:10:22.980Z",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:39:25.974700Z",
+        "updated_at": "2026-11-11T17:39:49.814627Z",
+        "next_run_time": "2026-11-11T13:24:00-05:00"
+      },
+      "last_run": {
+        "run_id": "14db7f33-1298-8323-abb6-ee6f7091c3c0",
+        "scheduled_for": "2026-11-11T18:24:00Z",
+        "started_at": "2026-11-11T18:50:18.452090Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "325da37c-3fc8-832c-8943-5e5032f0bc39",
+        "scheduled_for": "2026-11-11T17:24:00Z",
+        "completed_at": "2026-11-11T17:39:21.881561Z",
+        "is_failure_message": false,
+        "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+        "belongs_to_prior_run": true
+      }
+    },
+    {
+      "phase": "s3",
+      "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+      "request_started_at": "2026-11-11T19:10:22.980Z",
+      "response_received_at": "2026-11-11T19:10:23.709Z",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T19:01:58.865835Z",
+        "updated_at": "2026-11-11T19:02:21.116576Z",
+        "next_run_time": "2026-11-11T14:36:00-05:00"
+      },
+      "last_run": {
+        "run_id": "23309e03-717c-8320-8c00-475ce51856d9",
+        "scheduled_for": "2026-11-11T17:36:00Z",
+        "started_at": "2026-11-11T18:36:52.771813Z",
+        "completed_at": "2026-11-11T19:01:56.884008Z",
+        "recorded_status": "failed",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "23309e03-717c-8320-8c00-475ce51856d9",
+        "scheduled_for": "2026-11-11T17:36:00Z",
+        "completed_at": "2026-11-11T19:01:56.884008Z",
+        "is_failure_message": true,
+        "chat_ref": null,
+        "belongs_to_current_run": true
+      }
+    },
+    {
+      "phase": "s4",
+      "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+      "request_started_at": "2026-11-11T19:10:23.709Z",
+      "response_received_at": "2026-11-11T19:10:25.031Z",
+      "task_metadata": {
+        "last_run_time": "2026-11-11T17:56:55.065769Z",
+        "updated_at": "2026-11-11T17:57:18.012356Z",
+        "next_run_time": "2026-11-11T13:48:00-05:00"
+      },
+      "last_run": {
+        "run_id": "90ced1b5-1ff4-8328-a31e-baee21c8846f",
+        "scheduled_for": "2026-11-11T18:48:00Z",
+        "started_at": "2026-11-11T18:50:43.600824Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null
+      },
+      "latest_result": {
+        "run_id": "fa4f4310-8e88-8331-b416-f18113f51439",
+        "scheduled_for": "2026-11-11T17:48:00Z",
+        "completed_at": "2026-11-11T17:56:52.789179Z",
+        "is_failure_message": false,
+        "chat_ref": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+        "belongs_to_prior_run": true
+      }
+    }
+  ],
+  "derived": {
+    "current_status_cross_section": {
+      "s0": "in_progress",
+      "s2": "in_progress",
+      "s3": "failed_completed",
+      "s4": "in_progress"
+    },
+    "s0_same_run_id_reversal_persists": true,
+    "s0_run_id": "54491578-3cc0-8330-a031-4c1986ef2314",
+    "s0_started_at": "2026-11-11T18:57:19.294331Z",
+    "s0_completed_at": null,
+    "s0_recorded_status": "in_progress",
+    "s2_tern_run_still_in_progress": true,
+    "s2_run_id": "14db7f33-1298-8323-abb6-ee6f7091c3c0",
+    "s3_previous_h761_s3_run_completed_failed": true,
+    "s3_run_id": "23309e03-717c-8320-8c00-475ce51856d9",
+    "s3_run_duration_us": 1504112195,
+    "s3_completion_after_nominal_us": 5156884008,
+    "s3_task_metadata_caught_up": true,
+    "s3_next_run_time_utc": "2026-11-11T19:36:00Z",
+    "s3_next_deterministic_label": "Morrow h762:s3",
+    "actual_morrow_run_start_observed": false,
+    "task_metadata_stale_slots": [
+      "s0",
+      "s2",
+      "s4"
+    ],
+    "task_metadata_caught_up_slots": [
+      "s3"
+    ],
+    "latest_result_pointers_current_slots": [
+      "s3"
+    ],
+    "latest_result_pointers_prior_slots": [
+      "s0",
+      "s2",
+      "s4"
+    ],
+    "all_current_run_level_chat_refs_null": true,
+    "no_attempt_history_or_backend_cause": true
+  },
+  "classification": [
+    "S0_SAME_RUN_ID_STATUS_REVERSAL_PERSISTS",
+    "S3_H761_RUN_COMPLETED_FAILED_AND_METADATA_CAUGHT_UP",
+    "THREE_RUN_RECORDS_IN_PROGRESS_AT_FOLLOWUP_READBACK",
+    "S3_NEXT_NOMINAL_MORROW_SLOT_19_36Z",
+    "S0_S2_S4_TASK_METADATA_STALE",
+    "S0_S2_S4_LATEST_RESULT_POINTERS_PRIOR",
+    "ALL_CURRENT_RUN_CHAT_REFS_NULL",
+    "CAUSE_UNKNOWN",
+    "NO_TASK_MUTATION"
+  ]
+}
