@@ -764,7 +764,7 @@ The optional source-code QC submission in issue #1497 is now **PUBLISHED** (publ
 ## Optional Ravel h744:s2 context — post-start, no assignment
 
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0024Z_from_s2_to_s3_orson_vay.md`
-- Blob: `undefined`
+- Blob: `a9cfe64e956f6b7ba684f0ab90b78957c2fd0704`
 - Source-fidelity note: December 9, 2025 direct message `07e8d0d0-5790-4f61-98b5-6af71acc7d8c` is a question/proposal about local/global allocation; the immediate assistant's equivalence claim is not proof. Later Nathan Direct messages retain descriptive/retrodictive status.
 - Conditional Lean gate added to existing Ravel PR #1133; current CI was queued, not yet verified. No physical prediction or measured-system result.
 - This is OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Orson's P1 cognition remit remains primary. No direct-thread delivery, consumption, or acknowledgment is claimed.
