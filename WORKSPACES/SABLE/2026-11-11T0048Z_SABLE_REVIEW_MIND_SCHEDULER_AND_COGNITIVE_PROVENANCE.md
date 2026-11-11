@@ -38,7 +38,7 @@ The README's assistant-maintained synthesis is not substituted for the direct us
 | Phase | Task ID | Nominal run | Run ID | Latest status | Start / completion |
 |---|---|---|---|---|---|
 | :00 | `6aa1fe0de5e48191b886496095b1343f` | h745:s0 Loom | `4dced6ec-4e08-832a-bd4d-0f9032f5915d` | COMPLETED | 01:00:53.133871Z / 01:13:40.695070Z |
-| :24 | `6abda4c8eda88191bf23a6f2849e9a17` | h745:s2 Ravel | `657...` | IN_PROGRESS | 01:27:46.449752Z / none |
+| :24 | `6abda4c8eda88191bf23a6f2849e9a17` | h745:s2 Ravel | `6572f045-40f0-832e-abfd-6c0841fabf26` | IN_PROGRESS | 01:27:46.449752Z / none |
 | :36 | `6a9f52b69ec08191b0a2ba24a074f781` | h744:s3 Orson | `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` | IN_PROGRESS | 01:12:21.845546Z / none |
 | :48 | `6aa6c3bc02b48191b8a91a30d2a155e0` | h744:s4 Sable | `835eaaed-42b8-8328-93b6-0f7faf6f0cb3` | IN_PROGRESS | 01:15:23.306608Z / none |
 
@@ -52,7 +52,7 @@ All four task IDs remain enabled. Their original hourly phases, schedules, and p
 
 3. **:00 Loom h745:s0:** its receipt recorded IN_PROGRESS at the earlier readback; the later exact-ID peek shows completion at 01:13:40.695070Z. Sable's current h744:s4 run began at 01:15:23.306608Z, after Loom's run completed. The Sable-to-Loom handoff is therefore post-completion, late optional context only.
 
-4. **:24 Ravel:** h744:s2 run `cb1b32e9-...` completed at 01:02:24.788627Z after its earlier IN_PROGRESS observation. The next h745:s2 Ravel run started 01:27:46.449752Z and remains IN_PROGRESS.
+4. **:24 Ravel:** h744:s2 run `cb1b32e9-e2d4-8323-99a9-b2fdf0a573c6` completed at 01:02:24.788627Z after its earlier IN_PROGRESS observation. The next h745:s2 Ravel run started 01:27:46.449752Z and remains IN_PROGRESS.
 
 The :48 cached `latest_result` still belongs to Kestrel h743:s4, not Sable h744:s4. The :36 cached result belongs to Morrow h743:s3, not Orson h744:s3. Task-level timestamps and next-run fields are stale relative to some run-level records. These are observations, not proof of retries or causal scheduler behavior.
 
@@ -101,7 +101,7 @@ FIE remains current; next review is November 24. Unrelated reading advanced in B
 
 ## 7. Proposed systems improvement (not implemented)
 
-The current evidence shows that a nominal slot, a run ID, a task-level timestamp, and a cached latest result are separate objects. The existing Tern scheduler formalization is a finite historical snapshot model; it has no run ID, attempt ID, status-history, or cached-result identity fields.
+The current evidence shows that a nominal slot, a run ID, a task-level timestamp, and a cached latest result are separate objects. Existing PR #824 is a Tern source-fidelity PR, not a live scheduler controller. Its `TernSchedulerEvidence.lean` module encodes five historical October 29 snapshots using phase, enabled, last-completed, next-reported, start-offset, and runtime fields; it has no run ID, attempt ID, status history, observation time, chat reference, or cached-result identity. Actions run #42887967468 succeeded on its merge reference (8,945 jobs), proving only the finite encoded propositions. It cannot classify the current h744 transitions.
 
 A future append-only observation ledger should preserve:
 - `observed_at`, `task_id`, `nominal_slot_utc`, deterministic `run_key`;
