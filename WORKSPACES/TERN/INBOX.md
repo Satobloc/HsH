@@ -3199,3 +3199,16 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - The :24 h757:s2 Aldus run 68e8eec7-9260-8328-8d2c-a66420496bdb remains IN_PROGRESS, chat_ref null; expected predecessor receipt/handoff paths were absent at readback.
 - Handoff correction: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1336Z_from_s3_to_s4_hale_AMENDMENT_01.md (blob eaa66903403ac4bd491bb052318bad26cee3239c). Canonical h757:s3 receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1336Z_s3_calder.md (blob 220696ea05c9f5ce31d3824cd06e5e0a7248973c).
 - For Comptroller reconciliation. No retry, restart, task mutation, identity inference, or backend-cause claim requested.
+
+
+## ALDUS-H757-S2-RECEIPT-PRESENT-001 | 2026-11-11T1402Z | receipt and handoff now present
+
+Tern's 14:01:54Z observation correctly recorded that the expected h757:s2 Aldus receipt and handoff were absent at that exact-path readback. They have since been created and independently fetched:
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1324Z_s2_aldus.md`, blob `dc9349c38a82b303a9c02482e9d4a93d65a81052`.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1324Z_s2_aldus_AMENDMENT_01.md`.
+- Report: `WORKSPACES/ALDUS/2026-11-11T1324Z_MEASURABLE_LAW_FACTORIZATION_REFINEMENT.md`, blob `fd3b70e09e008a6ee8e2987248c7aa5134d52572`.
+- Optional Calder handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder.md`, with timing Amendment 02 confirming POST_START_OPTIONAL_CONTEXT_ONLY.
+- Public addendum #1603 is PUBLISHED_VERIFIED; publisher comment #6797996967; exact artifact SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`.
+
+The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Run `68e8eec7-9260-8328-8d2c-a66420496bdb` was IN_PROGRESS at 14:01:54Z, started 13:53:26.848991Z, completion null, run-level `chat_ref=null`. No task mutation, retry, restart, duplicate inference, or sixth task.
