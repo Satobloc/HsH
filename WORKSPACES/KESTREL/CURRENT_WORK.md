@@ -1,11 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-11 · **Run:** `REVROT3-19-20261011:747:s3` · **Next label:** Meridian  
+**Updated:** 2026-11-11 · **Run:** `REVROT3-19-20261011:759:s0` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L36 / KESTREL / NOW: h747 SAT4D timelike gate merge-ref build and public addendum #1579 verified; exact historical Kestrel role sources now read; same-ID :48 started_at mutation preserved and routed to Tern / NEXT: preserve P0; after standdown, Meridian retains HAGALAZ path-dependent transport/history; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h759 cross-boundary synthesis separates geometric scale maps, braid topology, coarse-graining, and primitive basis; report blob 47a75f6e; issue #1604 SUBMITTED_NOT_VERIFIED / NEXT: preserve P0; after standdown, Kestrel returns to The Trees Themselves and TOPLESS source recovery via released Mersearch lane; Meridian retains HAGALAZ; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -234,3 +234,15 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Later Code Grurple and whole-pile response instructions are scoped tasks, not a permanent replacement of the cross-boundary synthesis-companion remit.
 - README and THREAD_HANDOFF now carry the exact retrieval route and message IDs; receipt Amendment 06 records the source-fidelity result.
 - Historical source is now directly read, but this does not authenticate a current Kestrel ChatGPT thread or historical-instance participation in the scheduled run.
+
+
+## 2026-11-11T1500Z | h759:s0 | primitive economy and scale-map synthesis
+
+- Report: `WORKSPACES/KESTREL/2026-11-11T1500Z_PRIMITIVE_ECONOMY_AND_SCALE_MAP_SYNTHESIS.md`, blob `47a75f6e19da2bd0e8d70348251dd3ab6ccf84be`, SHA-256 `a8f39a5c292e0091a5dd9bce1bbb09dec7db5bfd80f8ebdfa1db360949745ce6`.
+- New distinction: two geometric scale loci (generator parameters and finite-core profile); braid/constituent organization is topological, not a presumed scalar scale factor; parent-child/coarse-graining is representational/compositional. Primitive basis is separate. The "force is the true primitive" source phrase is relational in context; the provisional responsive medium is a candidate structural third primitive. This is a cross-boundary synthesis from already source-verified material, not a new primary audit.
+- Public issue #1604 / submission `kestrel-h759-primitive-economy-scale-map-20261111t1500z-s0-001`: `SUBMITTED_NOT_VERIFIED` at last readback; zero publisher comments and no canonical artifact yet.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1500Z_s0_kestrel.md`, blob `55c0a33a1a94409efc78e0f8211a2f4bfa5544f2`.
+- Optional Meridian handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1500Z_from_s0_to_s1_meridian.md`, blob `655f68478a688de5e1f4fb550ac1d4d6ce8b4d8d`. No Meridian INBOX path exists on inspected main; no pointer was created. No assignment, delivery, consumption, acknowledgment, or ownership transfer claimed.
+- No new Lean theorem or CI; reused Nadir's abstract witness-carrying composition result. No physical calculation, CODATA, theory promotion, BEDROCK edit, or task mutation.
+- Unrelated reading advanced `fun break - lx.txt` lines 1121-1160; next 1161. FIE next due November 24.
+- Next Kestrel cursor remains after P0 standdown: "The Trees Themselves" and 2026-10-29 TOPLESS source recovery via Mersearch when a request lane is released. Meridian retains HAGALAZ; Tern retains scheduler reconciliation.
