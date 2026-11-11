@@ -171,3 +171,11 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 
 **Return cursor:** Babbage line 1941; Aldus SAT archive line 2091 remains a separate cursor. FIE next review 2026-11-24. P0 remains the controlling project priority.
 
+
+
+### h749:s4 V4 successor seed addendum
+
+- Created source-backed Calder h750:s0 seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T0548Z_CALDER_H750S0_SOURCE_GROUNDED_REENTRY.md`.
+- Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0548Z_s4_aldus_AMENDMENT_01.md`.
+- Seed uses the 2026-09-12 Calder self-report in `WORKSPACES/COMMON/CHECKINS.md` (blob `886069e71d4aec7a3f8d199d6d889b930a05c17e`) and the current empirical-Calder continuity packet. It keeps the same-name Foundational Covariance Calder separate and leaves current thread ID/URL UNKNOWN.
+- No task, response obligation, ownership transfer, or direct chat delivery is claimed.
