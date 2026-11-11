@@ -870,3 +870,22 @@ This section supersedes the h725 :24 run-ID/start-time fields above and adds the
 - :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on the original hourly :36 schedule. Its current h725:s3 run is `3ffa5491-8ce4-8320-83bf-0120f6fbcd2f`, scheduled 05:36Z, started 05:37:56.241361Z, IN_PROGRESS, `chat_ref=null`. Its cached latest result is the completed h724 Morrow run `c0195047-1f1c-8329-9b42-b704aaffc4ee`, not h725 Orson.
 - The optional Orson handoff and inbox pointer were committed before the :36 run start. Repository append is verified; recipient consumption and acknowledgment are not claimed.
 - Both task run states remain IN_PROGRESS. Scheduler completion and delivery remain unverified. No task/ID/schedule/phase mutation; no sixth task.
+
+
+## h744:s2 — 2026-11-11 source recovery and conversion-coherence gate
+
+The exact raw "SAT theory clarification" blob `507a7000082415373ee98dbc95f18a991dff3c5a` was fetched from HsH and SAT_THEORY_ARCHIVE_2023-25 and the returned contents compared byte-for-byte. Nathan Direct message `07e8d0d0-5790-4f61-98b5-6af71acc7d8c` asks whether dynamics can be allocated between time-field distortion and particle wave-equation evolution while local conversions preserve global behavior. It is a question/proposal. The immediate assistant child `63d479f5-e0ef-4dff-8cd5-2c021bba1d65` adds "continuous freedom" and asserts mathematical equivalence without a defined map or proof. Later Nathan Direct messages `e0adb9f3-47c4-45cb-b17c-f9ca72a4481e` and `cc23d323-1e0c-48ff-ba55-ba13196f0c63` explicitly classify the account as descriptive/retrodictive, not predictive.
+
+The existing `FiberTransport` structure in PR #1133 already provides pairwise equivalences, identity and composition. New module `RavelRepresentationConversionCoherence.lean` adds explicit evolution-intertwining and observable-invariance conditions, then proves that evolved observables are representation-independent under those assumptions. Two abstract Bool counterexamples show that coherent conversion alone does not imply either condition. This is conditional mathematics only; no topology/continuity, physical state spaces, wave equation, time-field variable, metric/action, or measured-system instantiation is present.
+
+CI history: the initial module build failed because Greek `λ` was used as an identifier. The next build exposed an implicit readout-type parameter error. Both source issues were corrected. Corrected-head run `42933770097` is the current verification attempt; its result must be read back before claiming compilation. No local Lean/Lake/Elan executable is installed.
+
+The September 7 raw Ravel snapshot `c49367b0faa424491e7b3520a034b9e44fe6897f` was freshly parsed. Correct assistant descendant for user message `496a15ea-0263-459d-b815-908f52155b90` is `9e36cf0e-6d48-4eca-93df-e6e99600b516`, through intermediate assistant nodes. The earlier UUID `9e36cf0e-9d9d-43a4-95d9-8e6f05d5f8b1` is absent. The old October 31 report has additive Amendment 01; no old source report or equation was overwritten.
+
+Ariadne's issue #1569 seven-layer evidence chain is reused, not duplicated. The proposed M87 chain remains `O=C∘A∘F∘RT∘J`; H(s)H-specific `J` and `RT`, full phase covariance, calibration provenance, and independent holdout remain incomplete. No new M87 replay, fit, physical calculation, CODATA comparison, or P2 selection.
+
+The four actual Mersearch request lanes remain occupied; the extra `MERSEARCH_REQUEST_LANE_1.json` is unbound. No new request was submitted. Morrow's prior completed finite-slab request is used as a locator only; the December raw source was recovered by exact Git blob, not by claiming a new Mersearch search.
+
+FIE remains current through November 10; next review November 24. Babbage lines 1001–1040 were read; next cursor 1041. No physical break is claimed.
+
+The optional Orson packet is post-start repository context only. Orson's P1 cognition remit remains primary; no task, response obligation, ownership transfer, or direct-thread delivery is claimed. P0 remains ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete. No BEDROCK or STATE_OF_THE_THEORY promotion, no SAT-O/Blockwave equation change, no task mutation, no signet, and no chat rename.
