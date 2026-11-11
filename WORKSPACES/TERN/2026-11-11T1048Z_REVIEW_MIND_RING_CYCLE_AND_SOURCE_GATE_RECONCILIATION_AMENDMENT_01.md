@@ -89,3 +89,9 @@ This is user-role / project-attributed source evidence, with no display-name fie
 The existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with the exact original hourly America/New_York :48 VEVENT and prompt. The :12 task remains disabled. No task, ID, schedule, phase, cadence or enabled state was changed; no sixth task was created.
 
 **Next cursor:** read the same h754:s4 run ID again only for a genuinely changed final scheduler state. Preserve this nominal run key, do not create a second receipt or handoff, and do not attribute the cached Calder result to Tern.
+
+
+
+## Amendment 02 — fixed-epoch run-key correction | 2026-11-11T14:36Z
+
+The earlier literal `REVROT3-19-20261111:10:s4` in this amendment is malformed. Under the controlling V3 grammar, the correct key is `REVROT3-19-20261011:754:s4` (`h=754`, `5h+4=3774`, `3774 mod 19=12`, Tern Rook → Morrow). The existing auditor's key regex rejects the earlier literal and accepts the corrected one; this is a direct regex check, not a full audit. This amendment supersedes only the run-key string; historical observations and task/run identities are unchanged.
