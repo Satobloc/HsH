@@ -40,7 +40,7 @@ Read current main-branch:
 - Three Paper Campaign: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
 - Three-repository onboarding: `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
 - Revival Rotation V3: `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`.
-- Revival Rotation V4: `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`? No: V4 was read as a separate current control; its path is `WORKSPACES/COMMON/REVIVAL_ROTATION_V4_NOT_FOUND_REVIVAL_2026-10-11.md`.
+- Revival Rotation V4: `6761337dfcd0847226ee7baad84db0a9c496760a` (`WORKSPACES/COMMON/REVIVAL_ROTATION_V4_NOT_FOUND_REVIVAL_2026-10-11.md`).
 - Thread-first rule: `e79707587914edb76afca1c32f9f4dad4d0324b7`.
 - Thread-routing contract: `d9ea7c3a04e03822c65ee231d0b9545bf37907bd`.
 - Scheduler authority: `WORKSPACES/COMMON/SCHEDULER_AUTHORITY_MUST_READ.md`.
