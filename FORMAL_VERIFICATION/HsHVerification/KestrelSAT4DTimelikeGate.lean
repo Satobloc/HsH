@@ -4,7 +4,7 @@ import Mathlib
 # Conditional Lorentzian timelike gate for the historical SAT4D ansatz
 
 Historical source: the June 2025 SAT4D bylined draft, source blob
-`2a79fe...` as recorded in the 2026-11-11 Enheduanna source audit.
+`2a79fe25018cce7e99a2c33786d88b0551db6ae7` as recorded in the 2026-11-11 Enheduanna source audit.
 The companion `SAT O1 4D.txt` is unbylined (blob
 `7577aa1ee5a6c3850ce3b226c75377de6367aedc`) and is not treated as
 Nathan-authored merely because it is adjacent in the archive.
@@ -34,30 +34,30 @@ def minkowskiNorm4 (v : Vec4) : ℝ :=
 
 /-- The tangent components displayed for the historical three-mode SAT4D ansatz. -/
 def sat4dVelocity
-    (Ax kx phix Ay ky phiy Az kz phiz λ : ℝ) : Vec4 :=
+    (Ax kx phix Ay ky phiy Az kz phiz lam : ℝ) : Vec4 :=
   { t := 1
-    x := Ax * kx * Real.cos (kx * λ + phix)
-    y := Ay * ky * Real.cos (ky * λ + phiy)
-    z := Az * kz * Real.cos (kz * λ + phiz) }
+    x := Ax * kx * Real.cos (kx * lam + phix)
+    y := Ay * ky * Real.cos (ky * lam + phiy)
+    z := Az * kz * Real.cos (kz * lam + phiz) }
 
 /-- Exact tangent-norm identity under the declared Lorentzian convention. -/
 theorem sat4dVelocity_minkowskiNorm_eq
-    (Ax kx phix Ay ky phiy Az kz phiz λ : ℝ) :
-    minkowskiNorm4 (sat4dVelocity Ax kx phix Ay ky phiy Az kz phiz λ) =
+    (Ax kx phix Ay ky phiy Az kz phiz lam : ℝ) :
+    minkowskiNorm4 (sat4dVelocity Ax kx phix Ay ky phiy Az kz phiz lam) =
       -1
-        + (Ax * kx * Real.cos (kx * λ + phix)) ^ 2
-        + (Ay * ky * Real.cos (ky * λ + phiy)) ^ 2
-        + (Az * kz * Real.cos (kz * λ + phiz)) ^ 2 := by
+        + (Ax * kx * Real.cos (kx * lam + phix)) ^ 2
+        + (Ay * ky * Real.cos (ky * lam + phiy)) ^ 2
+        + (Az * kz * Real.cos (kz * lam + phiz)) ^ 2 := by
   simp [minkowskiNorm4, sat4dVelocity]
   ring
 
 /-- Pointwise timelikeness is exactly the strict sub-unit spatial-speed condition. -/
 theorem sat4dVelocity_timelike_iff
-    (Ax kx phix Ay ky phiy Az kz phiz λ : ℝ) :
-    minkowskiNorm4 (sat4dVelocity Ax kx phix Ay ky phiy Az kz phiz λ) < 0 ↔
-      (Ax * kx * Real.cos (kx * λ + phix)) ^ 2
-        + (Ay * ky * Real.cos (ky * λ + phiy)) ^ 2
-        + (Az * kz * Real.cos (kz * λ + phiz)) ^ 2 < 1 := by
+    (Ax kx phix Ay ky phiy Az kz phiz lam : ℝ) :
+    minkowskiNorm4 (sat4dVelocity Ax kx phix Ay ky phiy Az kz phiz lam) < 0 ↔
+      (Ax * kx * Real.cos (kx * lam + phix)) ^ 2
+        + (Ay * ky * Real.cos (ky * lam + phiy)) ^ 2
+        + (Az * kz * Real.cos (kz * lam + phiz)) ^ 2 < 1 := by
   rw [sat4dVelocity_minkowskiNorm_eq]
   constructor <;> intro h <;> linarith
 
