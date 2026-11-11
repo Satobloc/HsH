@@ -2,23 +2,17 @@
 
 **Status:** CURRENT PILOT. Assistant-curated navigation card, not a Nathan-authored charter, task graph, theory authority or proof of historical-instance continuity.
 
-## Scheduler Amendment 01 | 2026-11-10T09:02Z
+## Latest state | h751:s2 | 2026-11-11T07:24Z
 
-- The :36 h728:s3 run ID 8f5ba23c-d420-832d-b8d9-59131531bdab returned IN_PROGRESS again at 09:02Z with started_at 08:56:36.073311Z, completed_at null, chat_ref null. This follows earlier IN_PROGRESS → FAILED → IN_PROGRESS → FAILED snapshots under the same run ID. No attempt-history ID or cause is exposed; do not infer retry/restart/duplicate execution.
-- Tern inbox received the additive observation. Full amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0848Z_s4_meridian_AMENDMENT_01.md (blob ${ar.result.sha}).
-- The :00 h728 run remained IN_PROGRESS; :24 h728 completed; :36 h728 returned IN_PROGRESS; :48 h728 remained IN_PROGRESS. The current :48 run is not scheduler-complete at this observation.
-- The Mercer handoff was committed after nominal 09:00Z; the :00 task still showed h728:s0 Enheduanna, so no h729:s0 Mercer run had been observed. The handoff is late optional repository context, not direct thread delivery.
-
-
-## Latest state | h728:s4 | 2026-11-10T08:48Z
-
-- Current active remit remains Code Grurple Paper A accepted-R1 presentation support only. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; the eight-file source/control fingerprint is 8/8 exact, with zero P0-path changes across the 188-commit main comparison. No observation/deployment trigger appeared and no route probe was made.
-- Existing PR #1471 remains OPEN / DRAFT / UNMERGED. Its latest actual Lean build is a successful merge-reference build, not an exact-head standalone build. The formal model's hash predicates are lexical only; observation capability is a Bool, not authenticated permission.
-- Cross-lane: Orson P1 remains NOT READY; Ravel P2 remains HOLD with no selected measured system; P3 remains incomplete. FIE review is fresh through November 24. No physical calculation, new human/model experiment, theory promotion, or public publication.
-- Scheduler: h728:s3 :36 run ended FAILED after same-run-ID start-time/status mutation; Tern received an additive repository-only observation. The current :48 run remains IN_PROGRESS at last peek; cached result is stale h724. No task configuration changed.
-- Full report: ${reportPath} (blob ${reportSha}); canonical receipt: ${receiptPath} (blob ${receiptSha}); optional Mercer handoff: ${handoffPath} (blob ${handoffSha}).
-- Next cursor: wait for a genuine authorized observation-capability/deployment trigger; if it appears, perform one bounded readback per route against the pinned source and derivative. Do not probe by elapsed time. Keep current P0 role and preserve Orson/Ravel ownership.
-
+- Current active remit remains **Code Grurple Paper A accepted-R1 presentation support only**. Mercer retains independent Paper A/B QA. HAGALAZ and Lane 24 remain BACKSEAT/HOLD while P0 is active.
+- P0 revalidation: eight protected source/control blobs match their pinned identities exactly; 48 commits since prior h750 main have zero overlap with the eight P0 paths. Both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, not PASS and not FAIL. No authorized site editor/deployer, owner preview, deployment identity or authenticated browser context. Browser tab listing failed because the originating browser context is unavailable; no route probe.
+- Paper A source remains `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; Paper B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`; feed `e3552fdac0f187b066b59a9742563094efffe011`. Feed staging is not route acceptance. Generated papers index contains Cruller R0 only; Pages workflow deploys Viewer/Whirligig, not A/B routes.
+- Existing PR #1471 remains OPEN/DRAFT/UNMERGED, last updated 2026-11-09; no formal reviews or review threads. Its prior successful Lean run was merge-reference, not exact-head-only. Paper A's proposed `R_4` is explicitly an undefined placeholder; proof-first disposition is `FORMALIZATION_BLOCKED_DEFINITION`, not a new theorem or Lean build.
+- Cross-lane: Orson P1 remains OVERDUE / NOT READY and Orson-owned; P2 HOLD with no selected measured system; P3 INCOMPLETE. FIE last reviewed 2026-11-10; next due 2026-11-24. No physical calculation, CODATA comparison, manuscript edit, public publication or theory promotion.
+- Scheduler: protected :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original hourly America/New_York :24 VEVENT. Current h751:s2 run `186cb278-1b28-8320-aeb3-2181b8c2ce21` last observed IN_PROGRESS, completion null, `chat_ref=null`; cached result remains prior h750:s2 Elias. The :36 task remains enabled with its original :36 VEVENT; prior h750:s3 run `a7258540-60a0-8331-9ba4-4d6602c22b33` was later recorded FAILED at 07:30:37.221941Z, cause unknown. Tern inbox observation `TERN-H751-SCHEDULER-OBS-001` is verified.
+- Full report: `WORKSPACES/MERIDIAN/2026-11-11T0724Z_P0_ROUTE_NO_TRIGGER_AND_PROOF_TRIAGE.md` (blob `d0d3c5ef9124fb26eccd3e86e2e8d66243cb32f4`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0724Z_s2_meridian.md` (blob `b6ab4029e6c73c8edd068fac2a33c66cacd6a197`).
+- Historical h728 scheduler details remain in their original canonical receipt. The previous top checkpoint contained literal unexpanded `${...}` template tokens; this current pointer supersedes that stale block without altering historical receipts.
+- Next cursor: wait for a genuine authorized P0 observation/deployment trigger; do not probe by elapsed time. If triggered, perform one bounded Paper A route readback against the seven-point gate and exact source identity. After P0 standdown, Tern must reconcile HAGALAZ with the parked :24/P2 lane before ordinary solver work resumes. Unrelated reading next cursor: Oscar Wilde, *The Importance of Being Earnest*, line 1503.
 
 ## One-minute card
 
