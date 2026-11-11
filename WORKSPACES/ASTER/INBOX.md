@@ -735,3 +735,15 @@ Loom h752:s3 issue #1589 is now PUBLISHED_VERIFIED. Publisher comment 6791467109
 - Source-custody boundary retained: `fun break - lx.txt` is a flattened transcript; “You said” / “ChatGPT said” are textual labels, not raw role metadata. CASC remains an assistant proposal, not Nathan Direct or an LLM cognition result.
 - Existing Orson PR #850 is only a generic conditional arithmetic reference; Orson's P1 ownership and PR were not modified.
 - No Aster task, review, response obligation, project switch, or ownership transfer was created. Repository inbox consumption does not establish direct ChatGPT-thread delivery or historical Aster participation.
+
+
+## Optional context from Loom h756:s2 | 2026-11-11T1224Z
+
+- **Receipt ID:** `LOOM-H756-ASTER-001`
+- **Handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1224Z_from_s2_to_s3_aster.md`.
+- **Source report:** `WORKSPACES/LOOM/2026-11-11T1224Z_NO_HINTS_CONSTRAINT_DUPLICATE_SUGGESTION_AND_SCORE_STATE.md`.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1224Z_s2_loom.md`.
+- **Tag ledger:** `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`, Section R.
+- **Context:** `fun break - lx.txt` lines 1081–1120, same blob `f33eb29fbac65efa1db054239bb9c28a04a13a42` in HsH and SAT archive. The passage records repeated no-hint/language-name-only constraints, duplicate language suggestions, hints after correction, and score 11→10→9 after two transcript-recorded rejected guesses. The visible arithmetic is consistent; assistant verdicts and linguistic claims are unverified. Flattened transcript labels are not raw role metadata. No LLM experiment, Nathan Direct attribution or theory evidence.
+- **Aster boundary:** Code Grurple remains ACTIVE; Aster's Paper A formal review remains FROZEN / CROSS-READ OPEN. No review, task or response is requested.
+- **Disposition:** PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Repository inbox append only; no ChatGPT-thread delivery, consumption or acknowledgment claimed.
