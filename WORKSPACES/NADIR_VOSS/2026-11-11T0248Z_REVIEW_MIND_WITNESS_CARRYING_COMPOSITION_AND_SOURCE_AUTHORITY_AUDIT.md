@@ -20,7 +20,7 @@ The historical specialist-charter search did not find a standalone Nathan-author
 
 The source export is HsH's raw conversation file:
 - Path: DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json
-- Blob: d828fef1b30db8f1111d043d0fb4aab5f00c2e6e
+- Blob: d828fef5352045cb4d9486fdbeabd04043c4c119
 - Parsed message objects: 13
 - Literal occurrence of “Nadir”: 0
 
@@ -148,13 +148,13 @@ Two task-graph pointers are stale and were routed to Tern rather than edited her
 The live upkeep plan's five-receipt trigger was crossed. Five distinct durable receipts were identified after its latest checkpoint: Morrow h735:s4, Morrow h739:s4, Elias h742:s4, Sable h744:s4 and Elias h746:s3. The deep sweep was therefore performed in this run.
 
 Live graph snapshot:
-- TASK_BRANCH_GRAPH.json blob: 628fa5e3f5b3d70d0f36c8fdbf85ed5bb52b1f40
+- TASK_BRANCH_GRAPH.json blob: 628fa5eba8da29a083271a545050ae3c90739bec
 - Declared branch_count: 16
 - Actual node records: 18
 - Active/blocked/candidate records: 13
 - The 16-versus-18 mismatch remains undefined and unresolved.
 
-The existing read-only task_upkeep_triage.py source (blob 49d2fdd8b3a91c1c3b4d4e6b0a2d7c1f2a5e9b73) was read. Its logic was run against the live active-node snapshot with the as-of date 2026-11-11; its self-test passed. The resulting priority order was:
+The existing read-only task_upkeep_triage.py source (blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01) was read. A local execution of that source's read-only logic against the live active-node snapshot, with as-of date 2026-11-11, passed its self-test. The resulting priority order was:
 
 1. P0 Code Grurple interlock and Paper A/B.
 2. P1 Orson cognition paper, overdue by two days.
