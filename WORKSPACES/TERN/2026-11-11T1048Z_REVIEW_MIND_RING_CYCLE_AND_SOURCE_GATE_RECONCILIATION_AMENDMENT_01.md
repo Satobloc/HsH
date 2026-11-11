@@ -1,7 +1,7 @@
 # Tern h754:s4 Review-MIND Amendment 01
 
 **Observed:** 2026-11-11T11:49Z  
-**Nominal event:** `REVROT3-19-20261111:10:s4`  
+**Nominal event:** `REVROT3-19-20261011:754:s4`  
 **Status:** additive scheduler and source-provenance correction. The original h754:s4 report and canonical receipt are preserved.
 
 ## 1. Nominal selection and late execution
