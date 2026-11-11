@@ -159,10 +159,15 @@ No real measured system, dataset, provenance package, units, calibration, uncert
 Issue #1608 is now PUBLISHED_VERIFIED. Publisher comment 6801837326 records commit df9878ed274661bf3b2a6caef2e46c569931c6f3, artifact blob 07a5fd06c3a3735a3988253183ce61e34c4cff47, and SHA-256 53107a3026cdfa9d197c67e94fd77298246aa6e0aca6d9ed1a08d79d160e6ab1. The independently fetched artifact matches the submitted content exactly. No retry or duplicate issue was created.
 
 
-## Scheduler Amendment 02 | 2026-11-11T16:52Z
+## Scheduler Amendment 02 | 2026-11-11 | final readback
 
 Exact-ID readback confirms the existing :36 task remains enabled with its original hourly :36 VEVENT and unchanged prompt. Its current run is IN_PROGRESS, scheduled 16:36:00Z, started 16:40:25.018686Z, completion null, run-level chat_ref null. Start offset: +265.018686 seconds. Its cached latest result is the previous h758:s3 Tern execution, not this run.
 
 The existing :48 task also remains enabled with its original hourly :48 VEVENT. Its current run is IN_PROGRESS, scheduled 16:48:00Z, started 16:43:36.693121Z, completion null, run-level chat_ref null. Start offset: -263.306879 seconds. Its cached latest result is the previous h759:s4 Orson execution, not this run.
 
 The two observed starts lie about 4m24s on opposite sides of their nominal times. This is recorded as an observation only; no scheduler tolerance, retry, restart, duplicate execution, or backend cause is inferred. The Alberr handoff is therefore POST_START_OPTIONAL_CONTEXT_ONLY. No task, schedule, phase, prompt, enabled state, or automation count was changed; no sixth task was created.
+
+
+The paired timing observation was filed at WORKSPACES/TERN/OBSERVATIONS/2026-11-11_H760_S3_S4_START_OFFSETS_OBS_001.md and appended to Tern's existing inbox. Observation commit: 92970fd42e2d7b2105ea4d27e98a101052627f38; Tern inbox commit: f137ef13263c0526ce83494e782be40eed76209b. Tern retains scheduler authority.
+
+The :48 successor run remained IN_PROGRESS at final exact-ID readback. Because it had already started before the repository handoff, the Alberr packet is POST_START_OPTIONAL_CONTEXT_ONLY. No task, response obligation, review, or ownership transfer is created.
