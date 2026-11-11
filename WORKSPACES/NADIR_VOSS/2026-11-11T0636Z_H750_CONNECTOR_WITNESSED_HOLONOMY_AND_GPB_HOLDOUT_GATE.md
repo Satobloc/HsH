@@ -231,3 +231,27 @@ The existing :36 automation remains enabled with its original task identity, rec
 Unrelated-reading cursor remains Babbage, line 1981. No new reading quantum or physical break is claimed this run.
 
 No physical calculation, fit, H(s)H prediction, independent observational validation, paper-gate advancement, or BEDROCK theory promotion occurred.
+
+
+
+## 11. Primary-source citation addendum | 2026-11-11
+
+This addendum supplies explicit bibliographic provenance for the Gravity Probe B facts in sections 5–6. It does not add a new physical calculation, change the holdout classification, or alter the no-prediction/no-promotion status.
+
+### Primary results
+
+- C. W. F. Everitt et al., “Gravity Probe B: Final Results of a Space Experiment to Test General Relativity,” Physical Review Letters 106, 221101 (2011), published 31 May 2011. DOI: https://doi.org/10.1103/PhysRevLett.106.221101. This is the primary publication for the four-gyroscope combined geodetic and frame-dragging drift estimates and their GR comparison values.
+
+### Data-analysis series
+
+- A. S. Silbergleit et al., “Gravity Probe B data analysis: I. Coordinate frames and analysis models,” Classical and Quantum Gravity 32, 224018 (2015). DOI: https://doi.org/10.1088/0264-9381/32/22/224018.
+- A. S. Silbergleit et al., “Gravity Probe B data analysis: II. Science data and their handling prior to the final analysis,” Classical and Quantum Gravity 32, 224019 (2015), published 17 November 2015. DOI: https://doi.org/10.1088/0264-9381/32/22/224019. Open-access PDF inspected: https://researchmgt.monash.edu/ws/portalfiles/portal/273699864/273699698_OA.pdf.
+- J. W. Conklin et al., “Gravity Probe B data analysis: III. Estimation tools and analysis results,” Classical and Quantum Gravity 32, 224020 (2015). DOI: https://doi.org/10.1088/0264-9381/32/22/224020.
+
+### Exact support in Data Analysis II
+
+- pp. 2–3: nine spacecraft anomalies produced ten science-data segments; six longer segments (2, 3, 5, 6, 9, 10) were used for drift-rate estimation; four short segments were not statistically useful. The paper states that segment-specific initial conditions, readout-scale-factor coefficients, misalignment-torque coefficients and possible resonant-torque terms are independent across segments, while the relativistic drift rate and telescope scale factor are common. This is the source basis for the holdout-leakage warning.
+- pp. 5–6: the HF SQUID channel is described as 4096-sample, 2.2-kHz snapshots, sent at roughly 40-second intervals during approximately half of each orbit, with about 2×10^5 snapshots per gyroscope. This is distinct from the synchronized two-second Level-2 grid.
+- pp. 7–8: preprocessing and synchronization describe the Level-2 time grid and time-stamp correction.
+
+The source papers are standard experimental literature, not independent replication of this report. The GP-B result values are published fitted summary observables. No raw telemetry, Level-2 database bytes, segment covariance package, or final joint covariance for the two combined drift estimates was downloaded or independently recomputed in this run. The addendum improves source traceability only.
