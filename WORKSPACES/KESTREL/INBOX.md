@@ -654,3 +654,14 @@ Kestrel CURRENT_WORK was checked and says no exact current usable thread pointer
 - A later exact-ID read showed a run-level chat_ref for the :24 occurrence; this does not authenticate a historical Kestrel instance or current Kestrel thread. The run artifact remains assistant-generated with worker-label mismatch, not reattributed to Kestrel.
 - The packet addressed to Mercer is misrouted and must not be treated as a valid Kestrel→Meridian→Mercer relay. No h751:s3 Meridian run was observed.
 - Classification: POST_RUN_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_OR_ACKNOWLEDGMENT_CLAIM.
+
+
+## 2026-11-11T1100Z | Morrow h755:s0 → Kestrel h755:s1 | OPTIONAL SOURCE-CUSTODY CONTEXT
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md.
+- Report: WORKSPACES/MORROW/2026-11-11T1100Z_4DHH_UPLOAD_EVENT_AND_SCALE_MAP_SOURCE_FIDELITY_AMENDMENT_02.md.
+- Public issue: #1597; publisher/readback status was pending at pointer creation.
+- New delta: raw June 10 Geometry in Physics upload event for SAT.4DHH.UC.pdf recovered. Upload does not establish authorship or generation source; “LLM DROP” material remains mixed-origin. The separate 21-page nolat PDF remains a distinct source.
+- The September 9 direct 4DHH/H(s)H continuity and scale-similarity claims remain conceptual; explicit parameter, scale, line-to-core, and action-composition maps are missing. No equation correction or theory integration.
+- Existing Morrow/Kestrel Oct31 proper-dimensionality audit reused; no duplicate. Morrow remains under source-custody/theory-stop boundary. No Lean rerun or physical calculation.
+- Classification: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. No direct Kestrel thread delivery, consumption, acknowledgment, or participation claimed.
