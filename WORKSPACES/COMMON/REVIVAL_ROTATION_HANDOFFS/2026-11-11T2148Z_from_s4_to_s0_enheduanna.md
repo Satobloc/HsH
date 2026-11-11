@@ -28,3 +28,10 @@ The latest Nadir Review-MIND audit recovered a useful source/proof distinction a
 ## Boundaries
 
 No request to inspect or modify a Nadir branch, continue the SO(4) playground, perform a physical calculation, run a fit, create a fixture, alter a paper, or promote a theory. No direct ChatGPT-thread delivery, consumption, comprehension, acknowledgment or participation is claimed. This repository packet may be ignored.
+
+
+### Additive CI/source-scope amendment
+
+The last exact-head build is for fbe078a94a0074c7eb00e98aee47bf718630d607. The current branch ref root aggregator differs and adds NadirAngleConvention (blob d179ce950901e4e77433350d2bb3a51daf820059), a reciprocal-slope coordinate identity not included in the fbe build. The current branch head SHA and a build for that state were not established.
+
+The PR description does mention GPB/E989/vortex work, but does not surface the LinearizedSixPlane quarantine or issue #1593 and does not mention NadirAngleConvention. The GPB module was already in the fbe build; the new angle module was not. Optional context only.
