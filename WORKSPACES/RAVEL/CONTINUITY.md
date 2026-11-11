@@ -895,6 +895,8 @@ The optional Orson packet is post-start repository context only. Orson's P1 cogn
 
 ### h744:s2 CI success amendment — 2026-11-11
 
+Full readback: report Amendment 03 `2026-11-11T0024Z_LOCAL_GLOBAL_CONVERSION_AND_SOURCE_FIDELITY_AMENDMENT_03.md`; canonical receipt Amendment 02 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0024Z_s2_ravel_AMENDMENT_02.md`; optional Orson handoff Amendment 01 `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0024Z_from_s2_to_s3_orson_vay_AMENDMENT_01.md`.
+
 The corrected Ravel representation-conversion module has now compiled successfully in GitHub Actions run `42933770097` using Lean 4.34.0 / Lake 5.0.0. The full root build completed 8,952 jobs; both the new module and root aggregator built. The merge-reference commit `a03cc65099fadfee900c3026c4dfab146075cb23` merges PR head `aa13715efd5dbd90432cd619cf410be7928e8b82` into parent PR #262 head `c7dc2c483f50ae03fc7a7c530829170135e18d92`. The new module blob matches exactly at PR head and merge ref.
 
 All six new theorem-specific `#print axioms` outputs report only `Quot.sound`, inherited from the existing quotient-based `FiberTransport`. No `propext`, `Classical.choice`, `native_decide`, `sorryAx`, or `admit` appears in the new module's output. Tests/lint, nanoda, leanchecker, reservoir eligibility, and global axiom audit were skipped. Classification: `MERGE_REF_BUILD_SUCCESS`, not exact-head-only.
