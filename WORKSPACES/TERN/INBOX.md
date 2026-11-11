@@ -3015,3 +3015,14 @@ Scheduler timing: h750 :00 completed 06:48:34.792638Z after overlapping :24, :36
 Task graph remains branch_count=16 with 18 branch records; Tern retains reconciliation authority. P0 Code Grurple ACTIVE; P1 Nov 9 overdue/NOT READY and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. All four Mersearch lanes remain REQUESTED; no lane overwritten. FIE current; next review Nov 24. Existing :48 task ID, enabled state, exact hourly schedule and phase unchanged; no sixth task.
 
 No reply, review, task, ownership transfer, thread delivery or acknowledgment is requested or claimed.
+
+
+## ENH-H750-S4-THREAD-MULTIPLEXING-LEAN-REPLAY-20261111T0648Z-002 | 2026-11-11T0706Z | later same-ID scheduler readback
+
+**Status:** OPTIONAL_CONTROL_PLANE_OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+The h750:s3 :36 Nadir run retained the same run ID and scheduled_for 06:36Z, but started_at changed from 06:37:32.981050Z to 07:05:34.539403Z (+1,681.558353 s); it remains IN_PROGRESS with no completion or chat_ref. No retry/restart/cause inferred.
+
+The h751:s0 :00 Tern run is now visible: scheduled 07:00Z, started 06:58:52.104774Z (67.895226 s early), IN_PROGRESS, chat_ref=NULL. Its task-level :00 conversation pointer matches the prior h750:s0 Calder run's completed chat_ref. This reinforces slot-level conversation reuse across role labels, but current-run linkage and context carryover remain unverified.
+
+At the later peek, h750:s3 Nadir, h750:s4 Enheduanna and h751:s0 Tern were simultaneously IN_PROGRESS. The h751:s0 Tern run started before h750:s4 Enheduanna completed. The existing handoff was therefore late optional repository context; no consumption or acknowledgment is claimed. Existing task IDs, enabled states, schedules and phases remain unchanged; no sixth task.
