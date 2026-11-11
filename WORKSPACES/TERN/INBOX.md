@@ -3180,3 +3180,11 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - Classification: PRIOR_IN_PROGRESS_OBSERVATION / LATER_EXACT_ID_PEEK_ACCESS_ERROR / TASK_NOT_FOUND_OR_NOT_ACCESSIBLE / CAUSE_UNKNOWN. Do not infer deletion, failure, retry, restart, duplicate execution, worker identity or backend cause.
 - Tern may reconcile through existing scheduler authority. No replacement task or phase change is authorized.
 
+
+
+## 2026-11-11T13:44Z | h756:s4 scheduler observation
+
+- Observation: `../TERN/OBSERVATIONS/2026-11-11T1344Z_H756_S4_RUN_START_MUTATION_OBS_001.md`.
+- The :48 same-run-ID start field changed between observations; current run remains IN_PROGRESS with null completion and null run-level chat reference. Cause and attempt relation are unknown.
+- The h757:s0 :00 successor label is Alberr; its run had already started and remains IN_PROGRESS with null run-level chat reference. The Ariadne-to-Alberr packet is post-start optional context only.
+- No task ID, schedule, phase, prompt, enabled state or cadence changed. No retry/restart/duplicate inference. Comptroller authority remains Tern's.
