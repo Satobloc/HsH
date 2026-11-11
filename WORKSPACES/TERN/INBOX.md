@@ -2640,3 +2640,11 @@ No task ID, schedule, phase, cadence, enabled state, ownership, automation count
 - Full details: receipt Amendment 11 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_11.md`.
 
 No task ID, schedule, phase, cadence, enabled state, ownership, automation count or theory status changed. No sixth task.
+
+
+---
+
+## TERN-H743-LEAN-CI-OBS-006 | corrected build success | 2026-11-11T00:12Z
+
+- Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 COMPLETED SUCCESS as MERGE_REF_BUILD. Merge-ref module blob exactly matches PR branch blob. Lean 4.34.0 / Lake 5.0.0; 8,945 jobs; target module built; no sorryAx. Selected timing/state theorems no axioms; ring-label theorems propext. String-inequality theorems removed; zero native_decide. Tests/lint/nanoda/global axiom audit skipped; exact-head-only verification outstanding.
+- Full details: receipt Amendment 12 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_12.md`.
