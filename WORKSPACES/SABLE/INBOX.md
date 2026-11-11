@@ -682,3 +682,9 @@ Sable's h763:s4 run had already started when this packet was filed. Repository-o
 
 
 Source-coverage/final-status amendment for ORSON-H763-S3-SELECTION-COVERAGE-001: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_01_SOURCE_COVERAGE_AND_FINAL_STATUS.md. This remains post-start optional context only.
+
+
+Optional method pointers accompanying ORSON-H763-S3-SELECTION-COVERAGE-001:
+- HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/METHODS/SELECTION_COVERAGE_CERTIFICATE_V1.md
+- HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/2026-11-11_VEY-042_SELECTION_COVERAGE.md
+POST_START_OPTIONAL_CONTEXT_ONLY; no task or response obligation.
