@@ -111,15 +111,15 @@ theorem twoStage_witness_carrying_composition
       P1 (C0 x) = P1 (C0 y))
     (hFiber1 : ∀ u v, P1 u = P1 v →
       P2 (C1 u) = P2 (C1 v)) :
-    ∀ w, inducedRangeMap P1 C1 P2 hFiber1
-      (inducedRangeMap P0 C0 P1 hFiber0 (imageProjection P0 w)) =
+    ∀ w, inducedRangeMap P1 C1 P2
+      (inducedRangeMap P0 C0 P1 (imageProjection P0 w)) =
       imageProjection P2 (C1 (C0 w)) := by
   intro w
   calc
-    inducedRangeMap P1 C1 P2 hFiber1
-        (inducedRangeMap P0 C0 P1 hFiber0 (imageProjection P0 w))
+    inducedRangeMap P1 C1 P2
+        (inducedRangeMap P0 C0 P1 (imageProjection P0 w))
         =
-      inducedRangeMap P1 C1 P2 hFiber1 (imageProjection P1 (C0 w)) := by
+      inducedRangeMap P1 C1 P2 (imageProjection P1 (C0 w)) := by
         rw [inducedRangeMap_factors P0 C0 P1 hFiber0 w]
     _ = imageProjection P2 (C1 (C0 w)) :=
       inducedRangeMap_factors P1 C1 P2 hFiber1 (C0 w)
