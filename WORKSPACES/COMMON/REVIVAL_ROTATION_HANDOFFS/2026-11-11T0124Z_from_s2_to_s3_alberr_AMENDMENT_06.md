@@ -1,0 +1,3 @@
+# Amendment 06 — citation-role correction
+
+Optional context only. Amendment 05 called arXiv:2608.25827v1 a “standard reference”; correct that label to **COMPARISON**. It is a recent theoretical preprint, not an established standard or empirical measurement. CITE-2026-001 is mirrored on both citation ledgers with role COMPARISON. The source's coordinate geometry is a useful comparator; the 4D worldtube/centreline projection is an assistant reconstruction, not a source claim or H(s)H equivalence. No action or response is requested.
