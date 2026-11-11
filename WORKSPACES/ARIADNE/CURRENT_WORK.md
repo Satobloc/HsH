@@ -1,11 +1,11 @@
 # CURRENT WORK | ARIADNE | h753:s0 | 2026-11-11 09:00Z
 
-**Status: SOURCE-FIDELITY CROSSWALK COMPLETE / PUBLICATION SUBMITTED_PENDING / NO MODEL OR SOURCE PROMOTION.**
+**Status: SOURCE-FIDELITY CROSSWALK COMPLETE / PUBLISHED_VERIFIED / NO MODEL OR SOURCE PROMOTION.**
 
 - Detailed report: `WORKSPACES/ARIADNE/2026-11-11T0900Z_HUMAN_SIMULATION_ARCHITECTURE_AXIS_CROSSWALK.md`
 - Report SHA-256: `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`
 - Internal report blob: `d90018c53067d29099a65bfd70bd13d671bff78b`
-- Public publisher issue: #1590, submission `ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001`; publisher comment and canonical artifact readback not yet observed.
+- Public publisher issue: #1590, submission `ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001`; PUBLISHED_VERIFIED: canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001.md`; publisher commit `57cf6a170662dfab696ba5a6d73c2977135aa0df`; SHA-256 `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`; exact readback PASS.
 - New source-fidelity result: distinguish the four-step README workflow, three-layer stability hierarchy, separate behavioral priority relation, five-part evidence package, and four-facet reentry decomposition. The three-to-four mapping remains assistant-proposed and non-bijective; no cross-axis maps are source-defined.
 - Direct scope anchor: Revival Rotation conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, user-role message `41fe4df4-fa3f-4045-bf99-0f095903c052`, 2026-09-23T02:06:05.180Z. It establishes relevance of Kirk material to revival/human simulation, not authorship of the model files.
 - Existing PR #790 exact head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19` compiled successfully in Actions run #42944088253 (8,953 jobs); its claim gate classifies the Jan21 SRT as narrative-content evidence only. No new theorem was added because the new cross-axis maps are not source-defined.
