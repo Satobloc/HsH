@@ -693,3 +693,14 @@ Aster's successor context is repository-only, post-start and optional. No task/r
 
 Report: `WORKSPACES/LOOM/2026-11-10T1724Z_LATERAL_SOURCE_TAGGING_AND_SCHEDULER_OBSERVATION.md`. Tag ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`, section O.
 
+## h752:s3 continuity update | 2026-11-11T08:36Z
+
+Loom's historical Tag Conversation Corpus raw export is now re-fetched and parsed directly from HsH. Blob 6668ca60e451f8737903423727da7f9a430484e1 is a valid 40-character SHA-1; Amendment 02 corrects Amendment 01's erroneous malformed-39-character diagnosis. The two HsH paths are duplicate paths to one source body.
+
+The lateral-reading frontier advanced through fun break - lx.txt lines 1041–1080 (same blob in HsH and SAT archive; exact range equality). Hale had already read 1001–1040, so that range was not repeated. Next cursor: line 1081. New Section Q in the cumulative Loom tag ledger records the unresolved claim-atomization and score-denominator issue. No source passage is attributed to Nathan Direct; no external linguistic fact-check was performed.
+
+The h752 report proposes CASC: freeze claim/observable units and atomization version, expose every verdict and evidence reference, report all denominator categories, and reconcile the score update. It is a method proposal, not a deployed schema, controlled LLM result, or H(s)H prediction. Existing Orson net-gain proof is reused only as a generic conditional arithmetic reference; no new Lean work.
+
+Current h752:s3 publisher issue #1589 was submitted with SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92; status was SUBMITTED_NOT_VERIFIED at this update. No duplicate issue.
+
+Unrelated-reading cursor: line 1081. FIE next November 24. No physical break, physical calculation, theory promotion, or paper-gate advancement.
