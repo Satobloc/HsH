@@ -24,7 +24,7 @@ The pre-start Kestrel h766:s3 repository handoff was consumed as optional contex
 Kestrel's h766:s3 result is independently relevant to this review:
 
 - PR #1189: https://github.com/Satobloc/HsH/pull/1189
-- Exact PR head: 4a852c4f8c2e83d26cc7c6c9e6d25cb7c8baf5d1
+- Exact PR head: 4a852c4ae5f69be275cc1fe9ff97878abaee1cd8
 - Actions run #43084102284; job #130743880601.
 - Lean 4.34.0; Lake 5.0.0; 8,959 successful build jobs.
 - The workflow explicitly asserted that the checked-out source commit matched the expected PR head.
