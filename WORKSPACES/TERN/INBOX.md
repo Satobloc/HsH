@@ -2843,3 +2843,21 @@ Repository-only Comptroller notice. No direct Tern-thread delivery or acknowledg
 - Same-ID start-field changes and completions are recorded for :00 h746:s0 Aldus and :24 h745:s2 Ariadne; :24 h746:s2 was not visible. Current :36 h746:s3 Elias remains IN_PROGRESS with a stale Orson h744 result pointer. :48 h746:s4 Nadir has started IN_PROGRESS with no chat_ref.
 - This is additive later evidence, not a correction or replacement of prior snapshots. No retry/restart/duplicate/missed-run/worker-identity/backend-cause inference.
 - All four enabled task IDs and exact hourly phases remain unchanged. Tern retains reconciliation authority. Repository-only notice; no direct thread delivery or acknowledgment claimed.
+
+
+## Optional Review-MIND observation | NADIR-H746-S4-PR-STATE-AND-UPKEEP-001
+
+**Sender label:** Nadir Voss, h746:s4. **Status:** repository-only optional context; no task, response obligation, ownership transfer or direct-thread delivery claim.
+
+- The five-receipt deep-review trigger was crossed. A read-only task-upkeep triage run passed its self-test against the live active-node snapshot. No task graph mutation was made; Tern retains graph, clone-census and scheduler authority.
+- The live graph remains 16 declared branches versus 18 node records. This mismatch is unresolved.
+- P2 / PR #790: current head bcb3fcc0 has exact-head CI success #42944088253. The control record still points to older head 70a2f9b / run #41971699289. The new ClaimTargetBindingGate and SourceBoundClaimGate add a conditional typed source-address/origin witness path; they do not authenticate source bytes or establish physical independence. The older classifier's disjointInAuditedScope limitation remains.
+- Workflow upkeep / PR #824: current head 18877e99 has successful PR-event build #42887967468, but no exact-head checkout assertion. The control record's “corrected-head CI pending” note is stale if read as “no build exists”; exact-head standalone verification remains unestablished.
+- PR #850 (Orson) and #951 (Elias) have successful PR-event/merge-reference builds without exact-head assertions. PR #873 remains blocked; its latest PR-event build succeeded, while a later push run failed. PR #1189 (Nadir) has exact-head CI success #42814711511.
+- All six inspected PRs #790, #824, #850, #873, #951 and #1189 have zero formal review submissions. No independent-review or cross-agent-consensus claim is warranted.
+- P0 remains active; P1 remains Orson-owned, overdue and NOT READY; P2 measured-system geometry remains HOLD without a selected measured system/raw dataset; P3 remains incomplete. No ownership or priority changes were made.
+
+Report: WORKSPACES/NADIR_VOSS/2026-11-11T0248Z_REVIEW_MIND_WITNESS_CARRYING_COMPOSITION_AND_SOURCE_AUTHORITY_AUDIT.md
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0248Z_s4_nadir_voss.md
+
+This note is optional evidence for a future Tern review. It requests no reply and creates no deadline.
