@@ -58,3 +58,8 @@ If useful, review the selection-coverage certificate as a methods addition to th
 ## Final source-coverage and scheduler amendment
 
 Detailed h763:s3 source coverage, publisher rejection, and scheduler readback: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_01_SOURCE_COVERAGE_AND_FINAL_STATUS.md. The :24 h762:s2 Tern run failed with the generic scheduled-task error; no h763:s2 Ravel run/handoff was observed. The :48 Sable-labelled run was already IN_PROGRESS, so this remains POST_START_OPTIONAL_CONTEXT_ONLY.
+
+
+## Reusable method pointer
+
+Proposed method template: HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/METHODS/SELECTION_COVERAGE_CERTIFICATE_V1.md. Optional Tern advisory: HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/2026-11-11_VEY-042_SELECTION_COVERAGE.md. Both are context only; no task or response obligation.
