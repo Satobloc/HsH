@@ -86,3 +86,10 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - h744:s0 Meridian run `77623cbd-8618-8330-a3bb-6a8ad48cf405` started 23:57:44.238749Z, 135.761251s before 00:00Z; IN_PROGRESS / completion null / chat_ref null.
 - Same post-boundary batch: h744:s0 Meridian, h743:s2 Tern, h743:s3 Morrow, h743:s4 Kestrel all IN_PROGRESS. No overlap duration or backend cause inferred. See receipt Amendment 08, blob `792e9201d05f29e01cde783a53ab2cfd7361851b`.
 - PR #1570 run #42927306601 succeeded as a merge-ref build but two new theorems depended on generated native_decide axioms. The latest branch head `7e6bbd9700adcee108aa0b9e33f369c142043afa`, module blob `af6c7914a83760998c479e55b5fd37449e338bb9`, removes all native_decide occurrences and uses rfl/structural string comparison. No CI run for this head had appeared at the last readback; SUBMITTED_NOT_VERIFIED. Exact-head-only verification remains outstanding.
+
+
+### h743:s4 completion | 2026-11-11T00:01Z
+
+- h743:s4 Kestrel run `420a2c92-21fc-8333-bdc3-a5b6f85473ff` completed 00:00:46.809626Z; final `started_at=23:49:12.492639Z`; status COMPLETED. `chat_ref` present but not identity authentication. latest_result and task metadata caught up. See receipt Amendment 09, blob `4f20777db7306a16756553ea9ba3a5b6e3467b24`.
+- At the same readback, h744:s0 Meridian, h743:s2 Tern and h743:s3 Morrow remained IN_PROGRESS with null completion/chat_ref. The :36 Morrow start-field mutation remains cause unknown. :24 Tern still has same run ID/start field; task metadata remains stale.
+- PR #1570 current head `7e6bbd9700adcee108aa0b9e33f369c142043afa`; run #42928188003 was IN_PROGRESS at Lake manifest generation. No successful build yet; exact-head-only verification outstanding.
