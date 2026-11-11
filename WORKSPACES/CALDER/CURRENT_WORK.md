@@ -105,3 +105,7 @@ The h750 Cruller phase report and issue #1584 predated the current scheduler inv
 - Issue #1584 remains publisher-rejected; no duplicate issue or bypass.
 - No Lean compile, physical calculation, CODATA, theory promotion, paper advancement, or task change.
 - Return cursor: recover the Reddit post and raw early Bosonic Time/temporon source; define the line-information encoding class; recover the exact October 29 w=ct message; then formalize only after the source types are fixed and a pinned Lean runtime is available.
+
+## Unrelated reading break | 2026-11-11
+
+Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBook #11, lines 301–340. Read extent: Alice's crocodile recitation, identity confusion, and entry into the pool of tears. Return cursor: line 341. This is a deliberate non-project break, not research evidence.
