@@ -4,7 +4,7 @@
 
 ## Final main-branch comparison
 
-The final HsH main head is `ed61aaff50526d33ef3c220a34632bb16c9d2b8b`. Compared with the h742 baseline `15e1d5ff6adc6eebdef32efb2c68cec473f8e82f`, 54 commits are present and **zero** of the eight protected Code Grurple manuscript/reader-route paths changed. The previous 8/8 exact fingerprint remains preserved by unchanged paths. P0 remains ACTIVE.
+The final HsH main head is `348df389c7211620add6453385327754c3f79b82`. Compared with the h742 baseline `15e1d5ff6adc6eebdef32efb2c68cec473f8e82`, 56 commits are present and **zero** of the eight protected Code Grurple manuscript/reader-route paths changed. The previous 8/8 exact fingerprint remains preserved by unchanged paths. P0 remains ACTIVE.
 
 ## Final scheduler observation
 
