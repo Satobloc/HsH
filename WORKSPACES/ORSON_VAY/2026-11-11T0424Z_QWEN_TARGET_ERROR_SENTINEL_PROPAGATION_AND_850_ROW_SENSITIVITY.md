@@ -144,3 +144,19 @@ A distinct additive HSH-PUBLISH-V1 submission was created because the existing i
 The new finding is that one archived target-model failure was still routed into the within-model NLI trigger path and then failed again during repair. The archived record cannot identify the triggering prior pair or raw judge output. The 850-row sensitivity shows only a small shift in the mean adjusted dependence statistic when the error rows are excluded.
 
 P1 remains NOT READY. The source and formalization boundaries are now more precise; no new experiment or theory claim has been made.
+
+
+## 11. Publication verification amendment | 2026-11-11T0443Z
+
+The earlier `SUBMITTED_NOT_VERIFIED` state in §10 was superseded by the publisher's completed readback:
+
+- Issue: [#1581](https://github.com/Satobloc/HsH/issues/1581)
+- Submission: `orson-qwen-error-input-sensitivity-20261111t0424z-s2-001`
+- Publisher comment: `#6787255869`, status `PUBLISHED` / readback verified.
+- Publisher commit: `a092c10872d1080cf175f24379644948e38dd087`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-qwen-error-input-sensitivity-20261111t0424z-s2-001.md`.
+- Artifact blob: `bec8497650698b7bc3c1fa9cb5a9ce5ef64d284a`.
+- SHA-256: `bcf354cb64ca0f9846762e69b15d72d966bc6f5f84e2548a695eeed4693a6179`.
+- Issue payload content and published artifact were independently fetched and compared: exact string match, 8,282 characters (8,298 UTF-8 bytes).
+
+This is an additive supplement to #1574, not a duplicate or replacement. No other paper or issue state changed.
