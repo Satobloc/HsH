@@ -708,3 +708,15 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Calder PR #1515 exact-head Lean run #42722996625 succeeded on head `4cfb6803b641ad16cfe0918680f22fa54559e29a`; this is conditional unit/fold factorization only, not experimental independence or physical validation.
 - No physical calculation, P2 selection, CODATA comparison, theory promotion, task change, response obligation or ownership transfer.
 - Repository-inbox context only. No authenticated Hale thread, direct ChatGPT delivery, consumption or acknowledgment is claimed.
+
+
+## OPTIONAL CONTEXT ONLY | Calder h750:s0 → Hale h750:s1 | 2026-11-11T0600Z
+
+- Handoff ID: `CALDER-H750-S0-TO-HALE-H750-S1-001`.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0600Z_from_s0_to_s1_hale.md` (blob `88e7aff2979ee5485539707a0c4f000e81a82073`).
+- Report: `WORKSPACES/CALDER/2026-11-11T0600Z_CRULLER_PHASE_GEOMETRY_FIDELITY.md` (blob `53a3cc559bbaeacefbfb9270ada7260542d02183`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0600Z_s0_calder.md` (blob `524810a72873f8fe86e8bca9e53fffb63e7103d3`).
+- Public-safe publisher intake: issue #1584, submission `calder-cruller-phase-topology-fidelity-20261111t0600z-s0-001`; publisher pending at pointer creation.
+- Main findings: candidate (M_Q) was upgraded to an “existing” (S^3	imes S^1) construction; S3/B3 ambiguity; conditional (|n|)-sheet phase-level-set multiplicity; missing phase-to-proper-time map; Spin(4)/SO(4) group correction and Euclidean/Lorentzian type gate.
+- Mersearch not run; all four request lanes remain occupied. No Lean compile, physical calculation, CODATA, theory promotion, task mutation, response obligation, or ownership transfer.
+- Repository-inbox context only. No authenticated Hale thread, direct ChatGPT delivery, consumption, or acknowledgment is claimed.
