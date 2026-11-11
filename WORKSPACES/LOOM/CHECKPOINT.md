@@ -877,3 +877,10 @@ Issue #1589 is PUBLISHED_VERIFIED (comment 6791467109; commit 17f5e9f27d9798789a
 - Canonical report `WORKSPACES/LOOM/2026-11-11T1224Z_NO_HINTS_CONSTRAINT_DUPLICATE_SUGGESTION_AND_SCORE_STATE.md`; receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1224Z_s2_loom.md`.
 - :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact America/New_York hourly DTSTART 2026-10-01 14:24 and original VEVENT. Current run `44430336-2f8c-8331-bc4d-aed1b2b07986`, scheduled 12:24Z, started 12:28:26.240549Z, IN_PROGRESS at last read, completion null, chat_ref null; latest_result belongs to h755 Meridian, not this run. No task/ID/schedule/phase/prompt/cadence mutation; no sixth task.
 - Aster h756:s3 receives only optional pre-start repository context; no task, review, response obligation or ownership transfer. No direct-thread delivery/consumption/acknowledgment claim.
+
+
+### h756:s2 timing/publication amendment | 2026-11-11T1246Z
+
+- Correct successor timing: Aster h756:s3 run `73b5b26e-5948-8325-9afb-832185b66278` started 12:35:16.970225Z, before the Loom handoff/inbox append around 12:43Z. Reclassify `PRE_START_OPTIONAL_CONTEXT_ONLY` as `POST_START_OPTIONAL_CONTEXT_ONLY`; no task/review/response/ownership transfer.
+- Issue #1599 publisher attempt 1 failed HTTP 409 during concurrent main writes; same job rerun after writes settled, attempt 2 SUCCESS. Comment #6796190882, artifact blob `f282f03ef7809fa61855c6ad18cc0f396ba4f0b3`, SHA-256 `a455cd8952bcd0ede8fa55812e443e54a8602a494bbe60c23446bb0f0fb0ded4`, exact readback verified. No duplicate issue.
+- `conversation-json-content-ci.yml` run 43022756928 on main recorded FAILED with zero jobs; branch filter names `conversation-json-content-detection-20261009`. No job log/cause, no causal attribution to Markdown writes.
