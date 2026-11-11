@@ -1,223 +1,27 @@
 {
-  "source_commit": "7a46a3077c20617c0163071bcdd8ab7d2e42e57e",
-  "observed_utc": "2026-11-10T17:55:20.111747+00:00",
+  "source_commit": "37fcbdc49b331cd11209d203384c0b64a604c7b9",
+  "observed_utc": "2026-11-11T17:56:05.997978+00:00",
   "changes": [
     {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261110_060454.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d59aff8c1d7ebc23bfd1a03d6a3c850f04d476c7",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261110_060608.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "6a7e747af3372428cbd52fc9cec7aac8e90dd49c",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261110_060736.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "7125f6a4411ca5efc1a244e2ed2ed9e90e7cf825",
-      "bytes": 1669
+      "change": "CHANGED",
+      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
+      "old_blob_sha": "c195d5b4d3b336134dd4948da59f00def97af741",
+      "new_blob_sha": "a45247036fab76ad367e84aa30b8fa9d5e9dfe02",
+      "bytes": 6169565
     },
     {
       "change": "CHANGED",
-      "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
-      "old_blob_sha": "dcb27ef818307c293548f309496ea72b93950ea2",
-      "new_blob_sha": "ade1cfa0cbfa7c76bb0ce0b4c7ae3ad495f73cf3",
-      "bytes": 174
+      "path": "..findex.txt",
+      "old_blob_sha": "9b65e13fe3c3f4e1704230bc2c28f628744ab5f6",
+      "new_blob_sha": "54243d717cb1cfe035926c04740143e5d6bc0603",
+      "bytes": 220918
     },
     {
       "change": "ADDED",
-      "path": "HISTORICAL_SAT/2025-10-24_01:43_Download TV with Transparent Screen (PNG).png",
+      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261111_171618.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "9809829aa0718687ae16d5e694ec3987049a0b2e",
-      "bytes": 897656
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/2025-10-24_02:31_operator_playbooks_chart.png",
-      "old_blob_sha": "",
-      "new_blob_sha": "3fc043115fb0dd351a1e69e2ec8bb4d034c7654e",
-      "bytes": 109726
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/2025-10-24_05:54_Download Reversed Overlay Composite PNG 2.png",
-      "old_blob_sha": "",
-      "new_blob_sha": "88879b2b4115e21b03765e2d86751334b26c4cfe",
-      "bytes": 959986
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/2025-10-24_23:18_Click to open the image.png",
-      "old_blob_sha": "",
-      "new_blob_sha": "b0c7772c4c8bc47a4ed8c95a812a6a3e64e96128",
-      "bytes": 1051599
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9547.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "f20b9cb858c39a8853d79d4f42f5352b1e1ac6bd",
-      "bytes": 1221276
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9548.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "d045f29bda0ffe1edcbfe2fa4cbcca4e21bc644c",
-      "bytes": 1226612
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9549.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "e8e93f508f4141d02b8aa9f2307b1feec51cf1d2",
-      "bytes": 1142189
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9550.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "7a767f0c6ab2ce50a6125cd71b793fa2d90f0f81",
-      "bytes": 1167449
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9551.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "e09cdaf65736e24556e85aeeb1f4002e3dc6a7f1",
-      "bytes": 1153645
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9553.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "874b57bef69c6951c46ebd3689bb1d0d83b8213a",
-      "bytes": 864837
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9554.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "2d6604f553e38fb28f247a253e21e98d2c2d4650",
-      "bytes": 841210
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9555.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "c81aaadfd7c607e4d6011945c54629742ee4e57c",
-      "bytes": 847236
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9556.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "58ca446053d42a9d019df2aa03dd6130d4daf65f",
-      "bytes": 872549
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9557.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "4b2cfddc168b1a8a1575fe343afda1b1cf9ad5bd",
-      "bytes": 762363
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9558.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "ff579153c8c3ac8c9045c9abb64e78c6b1e83602",
-      "bytes": 839438
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9594.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "6d0c465f15e05f4311d7b2c1addc0847d67e240c",
-      "bytes": 8285063
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9595.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "57e5771d5f270c19dffa46cc2a14eb3adcf84555",
-      "bytes": 5831400
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9596.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "b7623ca7eef3a0f8f73fe7cf917ff65de5cab977",
-      "bytes": 5588139
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/IMG_9597.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "f946fcc51dba11f3467668d5cb8fbb0bf0ca852c",
-      "bytes": 5283395
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT - BEFORE SAT PREDICTIONBOOK - 2012.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "09bf2fe342883766f7459d229c1a6fb944de3efb",
-      "bytes": 302990
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT EARLY - CHATGPT MEMORY SAVED - 2024.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "ec133eb197333d11e50d2642a3599cb63b2fcaf1",
-      "bytes": 214458
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT EARLY EARLY - 2023.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "f1f735139f96c7f59d8c8c4cd791db1954494700",
-      "bytes": 141570
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT FIRST - 2024.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "cac4859a09443c3f8eb6abedfcfcb6aa5ff98538",
-      "bytes": 157447
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT FIRST Forces Temporal.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "9c7f746ed4c4dea402c720249c0f26da67ebb668",
-      "bytes": 177342
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT PREHIST 2.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "5ef8097a77a266bd345754497408fa5989970055",
-      "bytes": 176797
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/SAT VERYFIRST 2024-3-13.PNG",
-      "old_blob_sha": "",
-      "new_blob_sha": "43a5c532e5eb4641016a99fab174a0849761f03b",
-      "bytes": 115357
-    },
-    {
-      "change": "ADDED",
-      "path": "HISTORICAL_SAT/gitignore.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
+      "new_blob_sha": "095125d667748cce965cc91b1bc8c95da1728a47",
+      "bytes": 301
     }
   ]
 }
