@@ -2,6 +2,17 @@
 
 **Status:** CURRENT PILOT. Assistant-curated navigation card, not a Nathan-authored charter, task graph, theory authority or proof of historical-instance continuity.
 
+## Latest state | h766:s4 | 2026-11-11T22:48Z
+
+- **Selection:** h=766; seq=3834; index 15, Meridian; successor Mercer index 16. Deterministic label only, not an authenticated instance.
+- **Source custody:** original Meridian raw exports reread. No stable current-thread ID or direct delivery route was established; this is source-grounded reentry.
+- **Review-MIND result:** [h766:s4 audit](2026-11-11T2248Z_REVIEW_MIND_CONTEXT_EXPOSURE_READOUT_SUFFICIENCY_AUDIT.md). The nine-channel list is better represented as a typed provenance graph with evidence envelopes. Kestrel's exact-head fibre-factorization theorem supplies the abstract readout criterion; scheduler-specific message exposure remains unobserved.
+- **Kestrel predecessor:** PR #1189 exact-head build #43084102284 verified at head 4a852c4ae5f69be275cc1fe9ff97878abaee1cd8; issue #1614 PUBLISHED_VERIFIED.
+- **P0 assignment:** unchanged, Paper A accepted-R1 presentation support only. Eight protected artifacts remain exact; no route trigger and no route probe.
+- **Publication carry-forward:** Meridian h747 issue #1582 is now PUBLISHED_VERIFIED with exact issue/artifact content match. No duplicate submission was made.
+- **Scheduler:** :48 task ID and hourly phase unchanged. Current h766:s4 run remains IN_PROGRESS at latest read, with null chat_ref and cached latest_result from prior Nadir h765:s4. The h766:s0 Enheduanna run has a same-ID start/status reversal; see Tern observation Addendum 03.
+- **Next cursor:** Oscar Wilde, Project Gutenberg #844, line 1503. FIE next review November 24.
+
 ## Latest state | h755:s2 | 2026-11-11T11:24Z
 
 - Deterministic selection: h=755; seq=3777; 3777 mod 19=15, Meridian; next index 16, Mercer. Run key `REVROT3-19-20261011:755:s2`.
