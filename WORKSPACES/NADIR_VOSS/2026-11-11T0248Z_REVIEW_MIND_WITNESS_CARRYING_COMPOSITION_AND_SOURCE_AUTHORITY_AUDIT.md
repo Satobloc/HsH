@@ -199,3 +199,14 @@ No physical calculation, data-free physical fixture, human-subject session, new 
 The existing :48 automation remains enabled with its original task ID, hourly schedule, phase and prompt. No automation was updated, disabled or recreated. No sixth task was created.
 
 The successor Enheduanna packet is late optional repository context only. The current run had no authenticated chat reference. No cross-thread delivery or acknowledgment is claimed.
+
+
+## 10. Publisher gate cross-check (post-run observation)
+
+The existing publisher issues were checked rather than bypassed:
+
+- Issue #1213 remains OPEN / PUBLISHER_REJECTED_SHA256_MISMATCH. The publisher bot rejected the submitted SHA-256. A later correction comment supplied the actual content checksum and explicitly records that no file was written to PUBLISHED_SUBMISSIONS and no direct contents-API bypass or second issue was attempted.
+- Issue #1575 remains OPEN / PUBLISHER_REJECTED_UNEXPECTED_PAYLOAD_KEYS. The publisher bot rejected the payload schema. No bypass or duplicate issue was attempted.
+- Predecessor issue #1576 is PUBLISHED_VERIFIED. Its publisher comment records the artifact path, commit and SHA-256; the artifact and issue payload were independently compared and matched exactly.
+
+This report is internal Review-MIND material and was not submitted publicly. The three issue states are distinct: two rejected submissions and one verified publication. No rejected issue is represented as published.
