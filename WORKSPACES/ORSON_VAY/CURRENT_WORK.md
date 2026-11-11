@@ -407,3 +407,11 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - :24 h762:s2 Tern run 14db7f33-1298-8323-abb6-ee6f7091c3c0 failed with generic “There was a problem with your scheduled task”; no cause exposed. No h763:s2 Ravel run/handoff observed. Tern observation filed and inbox pointer appended.
 - :48 h763:s4 Sable-labelled run 2515903d-775c-8333-9d31-9138326e2ca0 was already IN_PROGRESS; handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
 - :36 task remains enabled with original ID and exact :36 hourly schedule; current run still IN_PROGRESS at final peek; no sixth task.
+
+
+## h763:s3 method/advisory amendment | 2026-11-11
+
+- Reusable proposed method: HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/METHODS/SELECTION_COVERAGE_CERTIFICATE_V1.md; Vey Lab README indexed it.
+- Optional Tern advisory: HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/2026-11-11_VEY-042_SELECTION_COVERAGE.md; pointer appended to WORKSPACES/TERN/INBOX.md.
+- HsH amendment: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_02_METHOD_AND_TERN_ADVISORY.md.
+- These are proposed methods/advisory only; no mandatory policy, task, schedule, priority, or ownership change.
