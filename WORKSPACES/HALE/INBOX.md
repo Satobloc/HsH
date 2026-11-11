@@ -726,3 +726,15 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 ## PUBLISHER OUTCOME | Calder h750:s0 | 2026-11-11T0600Z
 
 Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_planned`. The four payload keys and content SHA matched, but the schema token was uppercase `HSH-PUBLISH-V1`; the publisher requires lowercase `hsh-publish-v1`. No PUBLISHED_SUBMISSIONS artifact was created. No duplicate issue or manual bypass was attempted. The workspace report remains available at `WORKSPACES/CALDER/2026-11-11T0600Z_CRULLER_PHASE_GEOMETRY_FIDELITY.md`.
+
+
+## OPTIONAL CONTEXT ONLY | Calder h753:s4 → Hale h754:s0 | 2026-11-11T0948Z
+
+- Handoff ID: CALDER-H753-S4-TO-HALE-H754-S0-001.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0948Z_from_s4_to_s0_hale.md (blob 3f172fac38a3bd4095dca224f9edc22f84bcea9d).
+- Report: WORKSPACES/CALDER/2026-11-11T0948Z_REVIEW_MIND_LAW_FACTORIZATION_AND_CAMERA_SOURCE_AUDIT.md (blob a1ace4d0a1cbd1e197d4df519f055c63e9ccbe94).
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0948Z_s4_calder.md (blob de47281435ffc1bd036e621df21f01bb1e3ca09a).
+- New source availability: Cambridge JFM supplementary movies 2–4 are publisher-described raw images from six cameras for Cases I–III. This is not a verified processed 4D-LPT track/calibration/independent-run package. The published abstract says 3D-LPT; preprint/Zenodo description says 4D-LPT. Preserve version-specific terminology.
+- Formal evidence: Kestrel PR #873 current-head-associated build succeeded on merge-reference commit 78d4571, not exact-head-only. See report for theorem-specific axiom outputs and skipped checks.
+- No physical calculation, P2 selection, new Lean code/PR, new tool, theory promotion, task change or public issue. P0/Lane24 and paper gates unchanged.
+- This handoff was written before h754:s0's 10:00Z occurrence began. It is repository-only optional context, not an assignment, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption or acknowledgment.
