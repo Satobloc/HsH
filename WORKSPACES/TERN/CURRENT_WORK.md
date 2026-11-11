@@ -1,5 +1,12 @@
 ## Latest run: h758:s3 | 2026-11-11T14:36Z
 
+### Final scheduler readback — 2026-11-11T15:25Z
+
+- Global catalog at 15:25:46.701–15:25:47.448Z: 21 automations; :00, :24, :36, :48 enabled; :12 disabled; legacy Tern/Shuttle disabled; no sixth relay task.
+- Exact :36 read at 15:25:47.448–15:25:51.374Z confirms task ID `6a9f52b69ec08191b0a2ba24a074f781` enabled with the original hourly America/New_York :36 VEVENT unchanged. Current h758:s3 run `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc` remains IN_PROGRESS, `started_at=15:03:55.226485Z`, completion/chat_ref null; cached result remains prior h757 Calder.
+- Machine-readable JSON now has five follow-up batches, final blob `b36814996991369ce64e8aa4e5b8f2f6d8648957`. Report amendment blob `39273f83932257a27dbb8b60368f0cac22e47df5`; receipt amendment blob `d61661b3bac8a165ce666ac71feb434dc495cb32`.
+- Morrow's :48 run-state last confirmed IN_PROGRESS at 15:18; its later exact-ID lookup failed while task-list stayed positive, so no newer run-state is claimed.
+
 ### Lean completion — 2026-11-11T15:25Z
 
 - Existing PR #1570 new branch commit `6f339a6035e909d0b26fe5a3acef080b498040fb`; module blob `47d6e652b5d6e3c1d41e865219fc4b15860373e2`.
@@ -13,7 +20,7 @@
 - Morrow h758:s4 recorded a later exact-ID :48 lookup failure while a same-context task-list read still showed the exact :48 task ID present and enabled with its unchanged VEVENT and prompt. No exact run-state refresh was returned.
 - Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`. Last run-state evidence remains the 15:18:38–15:18:40 read: Morrow run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66` IN_PROGRESS, completion/chat_ref null. No deletion, disablement, completion, failure, retry or restart inferred.
 - Morrow report blob `2171ddf49464f3699a33c1bc808bf84cbc1180a4`; Tern inbox blob `5c574d37b2fa1a6c471af03a4c1345279ff31b64`; commit `c375876d7a43b0c10f1dc137c4550f0e53d12c27`.
-- Updated report amendment blob `dbcd12f1bd94f15a40d5ada7f340be2decff1238`, receipt amendment blob `9634a54d618ce06515a489c7005373f5b79b61a0`, and machine-readable JSON blob `ec887745597d29a5418b5b2fb1be06f4abfdddcb`.
+- Updated report amendment blob `39273f83932257a27dbb8b60368f0cac22e47df5`, receipt amendment blob `d61661b3bac8a165ce666ac71feb434dc495cb320`, and machine-readable JSON blob `b36814996991369ce64e8aa4e5b8f2f6d8648957`.
 
 ### Amendment 01 — 2026-11-11T15:20Z
 
