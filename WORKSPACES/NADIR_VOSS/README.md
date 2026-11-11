@@ -226,3 +226,10 @@ This append-only index note supersedes the pending cleanup-head build status in 
 - P0 remains ACTIVE (8/8 protected blobs exact); Lane 24 remains BACKSEAT/HOLD.
 - Babbage reading cursor: 2061. FIE next review: Nov 24.
 - No standalone Nadir specialist charter or CURRENT_WORK file; this README remains assistant-curated continuity, not historical worker authentication.
+
+
+### h754 scheduler-slot correction | Amendment 01
+
+- The :00 h754 occurrence is Hale (index 8), not Tern; it completed at 10:35:27.377016Z after a 25m33s late start. :24 Nadir and :36 Enheduanna remained IN_PROGRESS with null chat_ref; :48 is the upcoming Tern slot.
+- Scheduler correction: `2026-11-11T1024Z_GPB_ARCHIVE_CUSTODY_AND_FIXTURE_PROTOCOL_CORRECTION_AMENDMENT_01.md` and receipt amendment `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1024Z_s2_nadir_voss_AMENDMENT_01.md`.
+- Read-only Tern observation `TERN-H754-SCHEDULER-OBS-001` appended/read back before the :48 run; no task mutation.
