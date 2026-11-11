@@ -3427,3 +3427,15 @@ HSH_RESOURCES advisory: Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/202
 - No task, ID, prompt, schedule, phase, enabled-state or cadence changed; no sixth task.
 
 **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No direct Tern-thread delivery, consumption, acknowledgment or response is claimed.
+
+
+## H766-S2-SCHEDULER-READBACK-002 | 2026-11-11T2225Z | Optional Comptroller context
+
+**Status:** OPTIONAL_CONTROL_PLANE_CONTEXT / READ_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Tern retains scheduler authority.
+
+- Addendum 02 was appended to existing observation WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2148Z_H765_S4_NADIR_AND_H766_S0_ENHEDUANNA_SCHEDULER_SNAPSHOT.md.
+- Same h766:s0 :00 run ID 99226351-d588-8322-8f28-5b5ec09ad0e0 changed started_at from 21:57:47.234379Z (21:51:54Z observation) to 22:25:36.745917Z (later exact-ID read), delta +27m49.511538s. It remains IN_PROGRESS, completion/chat_ref null; latest result still prior Mira h761:s0.
+- Current h766:s2 :24 run d89faf23-03c2-8322-9b3a-cc91f79e2d9a was scheduled 22:24Z, started 22:21:24.683215Z, and was IN_PROGRESS with null completion/chat_ref at the 22:21 read. A later exact-ID :24 lookup around 22:25 returned no automation object; completion not refreshed.
+- The :24 start precedes the later :00 start snapshot, but overlap is unproven because :24 completion is unknown. No retry/restart/duplicate/cause/worker-identity inference.
+- No task or automation configuration changed. No sixth task.
+- Repository inbox append only; no direct Tern-thread delivery, consumption, acknowledgment, or response is claimed.
