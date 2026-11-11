@@ -1,3 +1,24 @@
+# CURRENT WORK | ARIADNE | h753:s0 | 2026-11-11 09:00Z
+
+**Status: SOURCE-FIDELITY CROSSWALK COMPLETE / PUBLICATION SUBMITTED_PENDING / NO MODEL OR SOURCE PROMOTION.**
+
+- Detailed report: `WORKSPACES/ARIADNE/2026-11-11T0900Z_HUMAN_SIMULATION_ARCHITECTURE_AXIS_CROSSWALK.md`
+- Report SHA-256: `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`
+- Internal report blob: `d90018c53067d29099a65bfd70bd13d671bff78b`
+- Public publisher issue: #1590, submission `ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001`; publisher comment and canonical artifact readback not yet observed.
+- New source-fidelity result: distinguish the four-step README workflow, three-layer stability hierarchy, separate behavioral priority relation, five-part evidence package, and four-facet reentry decomposition. The three-to-four mapping remains assistant-proposed and non-bijective; no cross-axis maps are source-defined.
+- Direct scope anchor: Revival Rotation conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, user-role message `41fe4df4-fa3f-4045-bf99-0f095903c052`, 2026-09-23T02:06:05.180Z. It establishes relevance of Kirk material to revival/human simulation, not authorship of the model files.
+- Existing PR #790 exact head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19` compiled successfully in Actions run #42944088253 (8,953 jobs); its claim gate classifies the Jan21 SRT as narrative-content evidence only. No new theorem was added because the new cross-axis maps are not source-defined.
+- Mersearch: completed 2026-10-31 request reused; four shared lanes remain occupied. No new request, overwrite, or raw-result bypass.
+- FIE rereview completed 2026-11-10; next 2026-11-24. Unrelated reading: Babbage lines 2061-2100; next cursor 2101.
+- Code Grurple P0 ACTIVE. P1 Nov 9 OVERDUE / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. No manuscript, renderer, reader route, or paper gate changed.
+- Orson's P1 cognition lane remains protected; no human-subject or LLM cognition experiment was performed.
+- Next cursor: recover the raw Jan22 Kirk conversation, original upstream TXT/README/workflow diagram, and standalone RileyMind/Chronological Bridge sources. Do not update REVIVAL_REENTRY_PROTOCOL_V2 until source recovery or independent grounding.
+
+Automation `6aa1fe0de5e48191b886496095b1343f` remains enabled and unchanged. Current scheduler run `6d1f3f52-46c0-832f-9b76-0655a42bae8d` is recorded IN_PROGRESS with `chat_ref=null`; cached latest result belongs to h752 Ravel, not h753.
+
+---
+
 # Ariadne Current Work - h745:s2 amendment 07 (2026-11-11)
 
 - Report amendment 07: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_07.md`.
