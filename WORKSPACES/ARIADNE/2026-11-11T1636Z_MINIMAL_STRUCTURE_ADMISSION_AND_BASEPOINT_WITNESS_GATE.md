@@ -152,3 +152,8 @@ No real measured system, dataset, provenance package, units, calibration, uncert
 - No automation, task, ID, prompt, phase, schedule, branch ownership, signet, or conversation title was changed. No sixth task was created.
 
 **Next useful cursor:** if a source-defined parameterization or bundle/connection construction is recovered, formalize the map from the direct 3D loop intersection to a common based loop/fiber. Until then, keep the basepoint witness conditional, preserve the minimal primitives, and do not add a spin field, twist sector, finite-core profile, contact law, or 4D lift by assumption.
+
+
+## Publication Amendment 01 | 2026-11-11T16:51:32Z
+
+Issue #1608 is now PUBLISHED_VERIFIED. Publisher comment 6801837326 records commit df9878ed274661bf3b2a6caef2e46c569931c6f3, artifact blob 07a5fd06c3a3735a3988253183ce61e34c4cff47, and SHA-256 53107a3026cdfa9d197c67e94fd77298246aa6e0aca6d9ed1a08d79d160e6ab1. The independently fetched artifact matches the submitted content exactly. No retry or duplicate issue was created.
