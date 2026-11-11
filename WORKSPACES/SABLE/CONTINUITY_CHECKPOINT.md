@@ -844,3 +844,14 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - Existing auditor PRs #1173/#1533 remain draft/unmerged; their inspected scope does not validate free-form cross-slot observation tables. A typed observation-row extension is proposed, not implemented. No new tool/branch/PR.
 - Current :36 run `9c26ec1e-5460-832f-9215-471846f68075` remains IN_PROGRESS, scheduled 04:36Z, started 04:35:17.201268Z, chat_ref null; cached result remains prior Kestrel h747:s3. Existing task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled state, exact hourly :36 VEVENT and prompt unchanged. No sixth task.
 - FIE last rereview 2026-11-10; next November 24. Unrelated-reading cursor remains Babbage line 1981; no new reading quantum or physical break. P0 ACTIVE; P1 OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, equation change, paper-gate advancement or BEDROCK promotion.
+
+
+## 2026-11-11T0447Z | h748:s3 amendment 01 | later :48 same-ID status reversal
+
+- A later exact-ID peek of the enabled :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` returned the same prior h747:s4 Meridian run ID `defd5db1-8c38-8321-b38c-9144fd932cd1`, scheduled 03:48Z, but changed `started_at` from 04:12:35.932857Z to 04:42:02.955612Z (+1,767.022755s) and status from FAILED (completed 04:37:38.731473Z) back to IN_PROGRESS (completed_at null). `chat_ref` remains null; cached latest-result remains prior h746:s4 Nadir run `2a909d52-23e0-832a-ab0e-f80593547021`.
+- Classification: SAME_RUN_ID_STARTED_AT_MUTATION / STATUS_REVERSAL_AFTER_RECORDED_FAILURE / ATTEMPT_RELATION_UNKNOWN. No retry, restart, duplicate backend execution, worker identity or cause inferred. Preserve both snapshots.
+- This is delayed h747:s4 Meridian, not upcoming h748:s4 Loom scheduled 04:48Z; h748:s4 was not yet visible at the readback.
+- Report amendment: `WORKSPACES/SABLE/2026-11-11T0436Z_REVROT3_PHASE_LABEL_AND_RECEIPT_AUDIT_AMENDMENT_01.md`, commit `51232a20d56198f3230f11eadd701057c2705987`.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0436Z_s3_sable_AMENDMENT_01.md`, commit `5a6fccb906319ed3a64e531530f4956c17e9894b`.
+- Tern inbox Amendment 03 commit `694779de49ac74cdc7e4b53ecce697150b720aa1`, blob `0fa12debfb62f314faf993ddfcea9c1a1928b327`.
+- Earlier h748 phase-label correction remains unchanged: :00/s0 Mercer; :36/s3 Sable. No scheduler task or recurrence mutation.
