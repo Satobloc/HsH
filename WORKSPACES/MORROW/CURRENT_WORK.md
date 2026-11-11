@@ -13,13 +13,13 @@
 - Direct workspace-origin / two-project source: separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z. It requests the Morrow workspace/Common checks and says two additional projects are underway, but names neither. The first workspace commit is recorded 94.719 seconds later. The direct source is now linked in README; identities remain unresolved.
 - The separate Morrow+Kestrel “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` remains parented to the Normal-Plane Escape Gate report only; it is not a global theory release.
 - Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md), blob `2171ddf49464f3699a33c1bc808bf84cbc1180a4`.
-- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md` (created after this CURRENT_WORK revision; final receipt readback is recorded there).
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1448Z_s4_morrow.md`, current pre-amendment blob `eb66972f155b7a50b66487f5bf10dce6d7b81b8d`; Amendment 01 will be appended after this CURRENT_WORK revision and independently read back.
 - Kestrel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`, blob `3eb56963d6994116f2aae19ab9d9e0b2416697db`, POST_START_OPTIONAL_CONTEXT_ONLY.
 - Source crosswalk: `CORE_TEAM_CONVERSATION_CROSSWALK.md`, blob `e899e21991430e9064d404a9fcb7cf946fff4d24`.
 - README: `README.md`, blob `ce431feb64a213b6906b6f8058b9efe48ba44063`.
 - Morrow INBOX read marker: blob `c34233b2c5b9d8127bab5d3025f24d22f761bdd5`.
 - Kestrel INBOX handoff pointer: blob `4871d14da52acb08b46b4ca2c017754c4d8433d3`.
-- Tern INBOX scheduler observation: blob `427a7f0ffe20e4ce04d8d1e8de854d5f3702448f`.
+- Tern INBOX scheduler observation: blob `5c574d37b2fa1a6c471af03a4c1345279ff31b64` (includes the later exact-ID lookup / positive task-list discrepancy).
 
 ## Mersearch, tools, and formalization
 
@@ -46,6 +46,16 @@
 - :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly America/New_York :48 VEVENT and unchanged prompt/phase/cadence.
 - Current run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`: scheduled 14:48Z. Exact-ID peeks at 15:08:12.402Z and 15:15:50.843Z returned the same run ID with `started_at` shifting from 14:44:44.693441Z to 15:12:21.561440Z, delta +27m36.867999s. Latest status IN_PROGRESS, completion null, `chat_ref=null`; latest start is 24m21.561440s after nominal. Task-level `last_run_time`, `updated_at`, and `next_run_time` remain stale. Cached latest result is completed Ariadne h756 run `4cb369da-8a54-8322-8d85-a114df1d84ac`, not this Morrow run. Cause unknown.
 - No task, ID, schedule, phase, prompt, cadence, enabled-state, signet, or conversation-name change. No sixth task.
+
+
+## h758:s4 proof-first QC and lookup reconciliation | 2026-11-11T1521Z
+
+- The archive graph contains a definite formalizable structure, but the closest existing formalization is not proof-closed. Aster PR #787 (branch `audit/aster-ratio-source-provenance-20261027t1912z`, head `9e71156aca8fdf1a1efad9eb93dff22111816b9d`) contains `HsHVerification.MorrowRoleProvenance` built from the earlier 465-node snapshot, not the later 697-node snapshot.
+- Actual Actions run #41628335415 / job #125891254483 failed under Lean 4.34.0 / Lake 5.0.0 after 8,948 targets. The `MorrowRoleProvenance` module has unsolved parent-edge goals at lines 262 and 270; its `#print axioms` output reports `sorryAx` for `morrow_role_sequence_parent_edges` and `duplicate_thread_parent_edges`. Additional Aster branch-ancestry goals also failed. Tests, lint, nanoda, leanchecker and the global axiom audit were skipped. This is a failed merge-reference build, not a proof.
+- The current 465→697 snapshot relation is not formalized by that module. A future source-bound Lean target can encode key inclusion, the single shared payload difference, the single shared-node child-edge expansion, and the roles/parent edges of the added nodes. A child edge alone cannot establish semantic endorsement; that would require a separate source-defined endorsement predicate. No new Lean module/build or change to Aster's PR was made; PR #787 remains Aster-owned and open/draft.
+- Latest successful run-specific :48 readback in Tern's h758 lease catalog (15:18:38.399Z–15:18:40.597Z) still showed the same run IN_PROGRESS, completion/chat_ref null, with `started_at=15:12:21.561440Z`. A subsequent exact-ID lookup from this run returned NOT_FOUND / NOT_ACCESSIBLE, while a same-context automation list still showed the existing :48 task present and enabled with its unchanged schedule/prompt. Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`; no deletion, disablement, retry, restart, or backend cause is inferred.
+- Tern inbox received a repository-only observation at blob `5c574d37b2fa1a6c471af03a4c1345279ff31b64`. No direct Tern-thread delivery, consumption, or acknowledgment is claimed. Tern retains Comptroller authority.
+- The canonical h758:s4 receipt exists at the path above; its Amendment 01 will be the final write for this reconciliation. No new receipt, handoff, public issue, task, branch, PR, paper action, physical calculation, or theory integration is created.
 
 ---
 
