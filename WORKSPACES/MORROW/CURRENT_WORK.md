@@ -18,7 +18,7 @@
 ## :00 scheduler readback
 
 - Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact original hourly America/New_York :00 VEVENT, prompt, phase, and cadence.
-- Current run 3842fad6-30a0-8333-8a27-e81230253db1: scheduled 11:00:00Z; started 11:00:38.490276Z; last observed IN_PROGRESS; completion null; chat_ref=null. The cached latest result is the preceding h754 Hale result, not this Morrow-labelled occurrence.
+- Current run 3842fad6-30a0-8333-8a27-e81230253db1: scheduled 11:00:00Z; started 11:00:38.490276Z; last observed IN_PROGRESS; completion null; final run-level chat_ref=6ae7dcec-42d8-83e9-a704-5b6ed6589d9e. This reference does not authenticate the Morrow ring label as a historical instance or establish cross-thread delivery. The cached latest result is the preceding h754 Hale result, not this Morrow-labelled occurrence.
 - h754's deterministic ring successor was Elias Kern, not Morrow; no incoming Morrow handoff is claimed.
 - Canonical receipt: [h755:s0 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1100Z_s0_morrow.md).
 - Optional Kestrel packet: [Morrow to Kestrel h755:s1](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md), repository-only optional context.
