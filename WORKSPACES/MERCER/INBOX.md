@@ -668,3 +668,18 @@ The h713:s3 -> h713:s4 packet remains POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TA
 - handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0000Z_from_s0_to_s1_mercer.md` (blob `32730084b3e786598d78ccc41f8333a8e5b693ba`)
 - status: OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER
 - note: P0 Code Grurple remains ACTIVE; Mercer remains Paper A+B presentation QA only. This is a repository pointer, not a request to reopen general geometry work or probe reader routes. No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## MERIDIAN-H747-S4-TO-MERCER-H748-S0-OPTIONAL-CONTEXT-20261111T0348Z
+
+- Status: POST_NOMINAL_LATE_OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY.
+- Source run: `REVROT3-19-20261011:747:s4`, nominal 2026-11-11T03:48Z; selected Meridian (index 15), deterministic successor Mercer (index 16).
+- Mercer h748:s0 had already completed before this packet was written. This entry is late optional repository context only.
+- Report: `WORKSPACES/MERIDIAN/2026-11-11T0348Z_REVIEW_MIND_FIBRE_IDENTIFIABILITY_AND_LEAN_EVIDENCE_AUDIT.md` (blob `199d5dc7a9e3563dd6845a6cf214e2584b939530`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0348Z_s4_meridian.md`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0348Z_from_s4_to_s0_mercer.md`.
+- Optional note: Nadir #1189 is exact-head-asserted; Kestrel #873's successful build is merge-reference only. The Nadir fibre-constancy condition is a useful conditional criterion for archive-to-identity/exposure reconstruction, but the Orson raw archive (one conversation, 19 labels, 47 strict role headings, two model slugs) does not establish 19 independent agents.
+- P0 remains ACTIVE; Meridian's current assignment remains Paper A accepted-R1 presentation support only. Orson P1 remains Orson-owned / NOT READY. No task or ownership change is requested.
+
+Repository inbox append is not ChatGPT-thread delivery, recipient consumption, acknowledgment, participation, assignment, or ownership transfer.
+
