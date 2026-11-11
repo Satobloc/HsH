@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 167, 2026-11-11 (invocation started 07:47:37.530494Z; nominal h751:s4 slot 07:48Z; scheduler still IN_PROGRESS at last peek)
+**Current through:** Run 168, 2026-11-11 (nominal h755:s3 slot 11:36Z; scheduler run 2c18854a-d374-832e-9b8f-8aefd79b7e3c remained IN_PROGRESS at last peek)
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -1089,3 +1089,23 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Unrelated source reading: SAT Mark V/TheTANGLE.txt lines 1561–1600; next cursor 1601. FIE next review November 24. No physical break is claimed.
 - Successor Ravel h752:s0 had already started before its repository packet was written. Handoff and revival seed are optional repository context only; no direct thread delivery, consumption or acknowledgment is claimed.
 - No physical calculation, fit, prediction, Lean build, human/model experiment, manuscript edit, paper-gate advancement, public publication, or theory promotion occurred. No task ID, schedule, phase, prompt, cadence, enabled state, ownership, signet or chat title changed. No sixth task.
+
+
+## Run 168 | 2026-11-11T1136Z | h755:s3 | P0 route-host and deployment-path delta audit
+
+**Disposition:** P0 source/feed pins pass; legacy A/B route host and deployment path remain unverified; no site or manuscript write; no route-content probe; automation unchanged.
+
+- Deterministic label: h=755, seq=3778, index 16 Mercer; successor Ravel index 17. No authenticated current Mercer thread or historical-instance participation is claimed.
+- Historical direct Mercer message recovered/read from raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`. Historical :48 theory remit remains subordinate to current Code Grurple P0 assignment: Paper A/B presentation QA only.
+- Consumed pre-start Meridian h755:s2 optional packet `MERIDIAN-H755-MERCER-001`; no task or response obligation.
+- Main advanced 37 commits from Meridian's h755:s2 baseline `92e1c53b88b6db39d267d92589ead590152d8fde` to `b552b68ef5bd2d68e5957b056999f592d5c2395f`. No protected P0 path changed. The only `PUBLIC_SITE/` changed path was generated discovery metadata; its blob changed but its content was unavailable through the connector.
+- Independently fetched Paper A R1 blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`, Paper B R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`, and current feed blob `e3552fdac0f187b066b59a9742563094efffe011`; source/feed bindings match.
+- The legacy `paper.html?id=...` routes remain the required A/B route contract on the former ChatGPT Sites host. The current GitHub Pages workflow deploys Viewer + Whirligig only. The PDF-series reader contains Cruller-Rubin R0 only and is not an authorized substitute; `tools/publish_papers.py` validates already-typeset PDFs and does not convert raw TeX/Markdown.
+- New workflow refinement: keep route contract/host, deployment pipeline/authority, derivative identity, live route readback and visual acceptance as separate evidence dimensions. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, not PASS or FAIL.
+- No page content was obtained through the current web/browser/network surfaces. No further route probes were made. No site/feed/manuscript/renderer/route/PR/branch changes.
+- Old archive quantum: SAT Mark V/TheTANGLE.txt lines 1601–1640, blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`; next cursor 1641. This is unrelated Hamsalt's Patch worldbuilding, not physics evidence.
+- FIE next review November 24. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson); P2 HOLD; P3 INCOMPLETE.
+- Report: `WORKSPACES/MERCER/2026-11-11T1136Z_RUN_168_P0_ROUTE_HOST_AND_DEPLOYMENT_PATH_AUDIT.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1136Z_s3_mercer.md`.
+- Optional pre-start Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1136Z_from_s3_to_s4_ravel.md`. Repository-only context; no task or direct-thread delivery.
+- :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT and unchanged prompt. Current run remains IN_PROGRESS, run-level chat_ref null. No sixth task.
