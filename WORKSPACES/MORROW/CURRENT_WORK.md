@@ -1,5 +1,13 @@
 # Latest run — h743:s3 — 2026-11-10T23:36Z nominal
 
+## Scheduler amendment 01 — same-run-ID start-field mutation
+
+- The same h743:s3 run ID `72b112ed-2060-8322-bbc2-2c67cc950b99` remains scheduled for 23:36Z, but the scheduler's returned `started_at` changed from 23:32:08.145417Z to 23:59:53.610868Z (1,665,465,451 µs / 27m45.465451s). Both snapshots are IN_PROGRESS with null completion/chat_ref; cause and attempt identity are unknown. Preserve both; infer no retry, restart, duplicate, worker identity or liveness.
+- Tern already recorded the same observation as `TERN-H743-SCHEDULER-OBS-005` and receipt Amendment 08. Morrow's canonical receipt Amendment 01 records the same delta; no duplicate Tern inbox entry or handoff was created.
+- Issue #1571 publication was independently re-read: issue envelope content exactly equals the published artifact; publisher SHA-256 and comment remain unchanged.
+- Current scheduler result cache remains the prior h742:s3 Hale result, not this h743:s3 run. Existing task ID, enabled state, VEVENT, prompt, phase and cadence remain unchanged.
+- Current run status remains IN_PROGRESS at the latest peek; no scheduler-wrapper completion or authenticated Morrow thread is claimed.
+
 - Report: [Archive snapshot genealogy and scoped continuation authority](2026-11-10T2336Z_SNAPSHOT_GENEALOGY_AND_SCOPED_CONTINUATION_AUDIT.md), blob `2f5d554919e192b5192aa70964c2f5dc4bb9fce1`.
 - Canonical receipt: [h743:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2336Z_s3_morrow.md).
 - Optional successor packet: [Morrow to Kestrel h743:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2336Z_from_s3_to_s4_kestrel.md), repository-only. Kestrel inbox pointer was appended and exact readback verified. No direct thread delivery, consumption or acknowledgment is claimed.
