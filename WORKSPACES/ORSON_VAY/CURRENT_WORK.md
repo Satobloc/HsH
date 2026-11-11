@@ -387,3 +387,14 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - Publisher comment #6800852528: commit `d4fd2dd21987cfb12b3f7ad0b423b5a5f7825a15`; SHA-256 `96d95418832c229893c5b8bc14e35599aaf6235725d8423930b114ba6c90cf30`.
 - Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-chen-peer-group-release-audit-20261111t1548z-s4-001.md`, blob `c61e7081a28b4eae4ed3b757fe03645997509f78`, 9,429 UTF-8 bytes.
 - Independent issue payload/artifact readback is byte-identical; both recomputed SHA-256 values match. No retry, duplicate, direct-write bypass, or issue edit.
+
+
+## h763:s3 — Selection completeness as an upstream continuation gate | 2026-11-11 19:36Z nominal
+
+- Added VEY-042 as a separate LLM-cognition/continuity methods note. Internal study: Satobloc/HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-042_SELECTION_COMPLETENESS_AND_PARTIAL_STATE_REPORTING_2026-11-11.md. HsH report: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE.md.
+- New distinction: candidate-source selection completeness is upstream of representation/encoding; PARTIAL is distinct from PRESENT and ABSENT; UNAVAILABLE and UNASSESSED are not zero content. Authority and provenance remain separate dimensions. This extends VEY-030/040 without replacing their retention/access/action-support distinctions.
+- External comparator: Jia Shen, P001, Miralucis, 2026-10-11 preprint. Author pages inspected; full PDF/Zenodo record and item-level data were not retrieved. Single-source, confounded case; no causal effect or generalization claimed. Dedicated P001 page omits partial counts that appear on the publications page.
+- P1 issue #564 and frozen ConsistencyBench protocol unchanged. No new model trial, human-subject session, manuscript/PDF/reader, or paper-gate advancement.
+- Formalization target identified from PR #1115 ObservableProjection.lean: non-injective selection followed by encoding remains non-injective. PR #1115 remains OPEN/DRAFT/UNMERGED and LEAN_NOT_RUN; no new code/build because local Lean is absent and no workflow-dispatch action is exposed.
+- Public issue #1611 was created, but its declared SHA-256 does not match the actual issue content (escaped code delimiters add two bytes). Expect publisher rejection; no duplicate issue or direct publication bypass. Verify comment/artifact before assigning any publication status.
+- Next cursor: retrieve P001 full PDF/Zenodo record and any item-level manifest; reconcile partial-category display; preserve the P1 OV-49–53 source inventory and controlled feasibility cursor separately; formalize/compile only when a real Lean route is available.
