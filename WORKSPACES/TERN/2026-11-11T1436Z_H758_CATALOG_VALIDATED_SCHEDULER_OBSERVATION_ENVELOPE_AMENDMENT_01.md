@@ -190,3 +190,23 @@ Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipp
 The formalization establishes only the arithmetic and equality properties of the transcribed scheduler observations. It does not establish scheduler backend semantics, attempt identity, source-to-record correctness, retry/restart/duplicate execution, worker/thread identity, delivery, or any physical H(s)H premise.
 
 PR #1570 remains OPEN / DRAFT / UNMERGED. No independent review or merge is claimed.
+
+
+## 10. Final :36 task and lease-preservation readback | 2026-11-11T15:25Z
+
+A final global catalog read at 15:25:46.701–15:25:47.448Z reported 21 automations and the same five fixed relay task records: :00, :24, :36, :48 enabled; :12 disabled; legacy Tern/Shuttle disabled. No sixth relay task was present.
+
+The exact :36 task read at 15:25:47.448–15:25:51.374Z returned:
+
+- Task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled.
+- Original VEVENT unchanged: `DTSTART;TZID=America/New_York:20261001T143600`, `RRULE:FREQ=HOURLY`.
+- Current run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`, scheduled 14:36Z.
+- Latest reported `started_at=15:03:55.226485Z`, unchanged from the 15:14 and 15:18 readbacks.
+- Status IN_PROGRESS; completion null; run-level `chat_ref=null`.
+- Cached latest result remains prior h757:s3 Calder run `95d77437-253c-8330-b21b-35ac977feb87`, completed 14:14:17.806899Z.
+
+The :36 automation remains enabled with its exact original task ID, schedule, phase, prompt, and cadence. No task or automation was changed.
+
+The :48 run state was not refreshed by Morrow's later run-lookup failure; its last successful run-state observation remains the 15:18 IN_PROGRESS snapshot. Morrow's same-context task-list result is positive for the enabled :48 task but does not refresh the run.
+
+The machine-readable observation now has five follow-up batches; final JSON blob: `b36814996991369ce64e8aa4e5b8f2f6d8648957`.
