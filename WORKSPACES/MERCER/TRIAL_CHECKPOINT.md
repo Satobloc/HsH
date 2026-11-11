@@ -8,6 +8,7 @@
 ## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
 
 - Report: `WORKSPACES/MERCER/2026-11-11T1524Z_RUN_169_P0_ROUTE_QA_NO_TRIGGER_AND_SITE_DOC_DRIFT.md` (blob `9346b5f3edde972042c9d6b6df5dd8e1f57c9aae`).
+- Final readback amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1524Z_s2_mercer_AMENDMENT_01_FINAL_READBACK.md` (blob `2e6b29cfb39cb1915ac90f798b10e76f128a2dd2`). Pre-amendment main head `e0116cdff1c9fbca0182dee2f3b09544f4e37b2e`; final P0 compare 245 ahead / 105 changed paths, with only generated discovery JSON and the prior Mercer report P0-adjacent; eight protected blobs exact.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1524Z_s2_mercer.md` (blob `58f39f1a97798f2b6926fbc7f7351a45c626e006`).
 - P0 recheck: all eight protected Paper A/B source/control blobs match exactly. Compare from Run 168 baseline `b552b68ef5bd2d68e5957b056999f592d5c2395f` to prewrite head `19056515fc023a4a9ee519f7f93b58d71c799d56`: 232 commits ahead, 0 behind, 100 changed paths; no A/B route, feed, gate, reader registry, presentation contract, renderer or deployment path changed.
 - Both legacy paper routes remain PRESENTATION_PENDING / NOT_OBSERVED. The root HsH README's GitHub Pages /glass-sausage-factory/ pointer conflicts with the Nov 2 corrective rollback and the current Whirligig-only builder, which explicitly rejects a replacement homepage. This is documentation drift, not a route trigger. No site or manuscript write.
