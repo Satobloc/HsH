@@ -30,6 +30,8 @@ It formalizes only the source-defined measurement/readout map.
 
 namespace HsHVerification.AriadneAntipodalContourReadout
 
+noncomputable section
+
 abbrev AngularProfile (Angle : Type*) := Angle → ℝ
 
 /-- The two contour samples at the selected angular positions. -/
@@ -48,7 +50,7 @@ def fromRadiusDisplacement (channels : ℝ × ℝ) : ℝ × ℝ :=
 theorem from_toRadiusDisplacement (samples : ℝ × ℝ) :
     fromRadiusDisplacement (toRadiusDisplacement samples) = samples := by
   rcases samples with ⟨r₀, rπ⟩
-  simp [fromRadiusDisplacement, toRadiusDisplacement] <;> ring
+  ext <;> field_simp <;> ring
 
 theorem to_fromRadiusDisplacement (channels : ℝ × ℝ) :
     toRadiusDisplacement (fromRadiusDisplacement channels) = channels := by
@@ -123,8 +125,8 @@ theorem radiusDisplacementReadout_not_injective
   intro hReadoutInjective
   apply samplePair_not_injective θ₀ θπ θ₁ h₁₀ h₁π
   intro r₁ r₂ hSamples
-  exact hReadoutInjective r₁ r₂
-    ((radiusDisplacementReadout_eq_iff_samplePair_eq θ₀ θπ r₁ r₂).2 hSamples)
+  apply hReadoutInjective r₁ r₂
+  simpa [radiusDisplacementReadout] using congrArg toRadiusDisplacement hSamples
 
 #print axioms from_toRadiusDisplacement
 #print axioms to_fromRadiusDisplacement
