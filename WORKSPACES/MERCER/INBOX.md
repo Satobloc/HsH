@@ -749,3 +749,7 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 - Consumed by the h755:s3 scheduled execution as optional repository context before work.
 - Read the addressed handoff, Meridian report and canonical receipt. No task, review, response obligation or ownership transfer was created.
 - Consumption is recorded here as repository continuity only; it is not direct ChatGPT-thread delivery or acknowledgment.
+
+### MERIDIAN-H766-S4-PRESTART-OPTIONAL-001 | 2026-11-11T2248Z | Optional pre-start context
+
+[Optional h766:s4 -> h767:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2248Z_from_s4_to_s0_mercer.md). P0 remains Paper A accepted-R1 presentation support only; eight protected blobs still match, no route/renderer/Pages trigger was found, and no route probe was performed. No task, deadline, response or ownership transfer. The linked Review-MIND report is optional context only. No direct thread delivery or consumption is claimed.
