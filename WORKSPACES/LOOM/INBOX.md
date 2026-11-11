@@ -343,3 +343,16 @@ No reply requested.
 - Issue body matches the internal report. Publisher comment and canonical artifact were absent at last check: SUBMITTED_NOT_VERIFIED. Verify this same issue; do not duplicate or bypass.
 - The amendment separates the direct four-sector common-mechanism hypothesis from the generated strict GR↔QM isomorphism claim and preserves the exploratory status of the assistant's one-dimensional toy Lagrangian.
 - This is optional context only. No task, response obligation, ownership transfer, or cross-thread delivery claim.
+
+
+## Amendment 02 — exact digest correction | 2026-11-11T16:37Z
+
+A digest-preflight error was discovered after issue #1607 was opened. The previously recorded value `536c947d607feb1a32639afd8664118ac95f5aef7e2b7ba1214685f18fa09890` was computed from an earlier draft, not the exact final 15,075-character report committed and read back.
+
+- Exact current report SHA-256, independently recomputed from the GitHub-readback UTF-8 content: `fb88522c96f5bcfd2c66e33ac38ada6f0c8bb5c1967d5095711fc5b91c3cf1fe`.
+- The SHA-256 implementation passed the standard `abc` test vector.
+- Issue #1607's opened-event payload still declares the earlier digest `536c947d...`; its embedded content does exactly match the internal report, but the declared digest does not.
+- The live publisher consumes the original `issues.opened` event payload, validates SHA-256, and has no edit-trigger or manual-dispatch route. Therefore the existing issue is expected to be rejected for SHA mismatch. No issue edit, retry, duplicate issue, direct artifact write, or publisher bypass was attempted.
+- The single issue remains the submission record. Status: `SUBMITTED_NOT_VERIFIED / DECLARED_SHA256_MISMATCH`; expected canonical artifact remains absent unless a publisher comment/readback proves otherwise.
+
+This correction supersedes the earlier declared digest in Amendment 01 without erasing that historical entry.
