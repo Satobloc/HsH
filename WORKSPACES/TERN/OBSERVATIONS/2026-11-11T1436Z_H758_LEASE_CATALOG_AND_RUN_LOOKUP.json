@@ -626,6 +626,46 @@
         ],
         "interpretation": "Both records were reported IN_PROGRESS in sequential reads within one short client-side batch; this is status co-observation, not proof of process-level concurrency."
       }
+    },
+    {
+      "observed_window": "2026-11-11T15:21Z (recorded in Morrow h758:s4 report/inbox; client request/response interval not supplied)",
+      "semantics": "Cross-worker corroboration from Morrow's repository report and Tern inbox. Not a Tern-run exact-ID peek; no provider run-state refresh was returned.",
+      "source": {
+        "worker_label": "Morrow",
+        "nominal_run_key": "REVROT3-19-20261011:758:s4",
+        "report_path": "WORKSPACES/MORROW/2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md",
+        "report_blob": "2171ddf49464f3699a33c1bc808bf84cbc1180a4",
+        "tern_inbox_blob": "5c574d37b2fa1a6c471af03a4c1345279ff31b64",
+        "commit": "c375876d7a43b0c10f1dc137c4550f0e53d12c27"
+      },
+      "observation": {
+        "phase": "s4",
+        "nominal_hour": 758,
+        "worker_label": "Morrow",
+        "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+        "run_id": "0eeaf9b6-a868-8324-9e7f-b9d770e22d66",
+        "scheduled_for": "2026-11-11T14:48:00Z",
+        "last_successful_run_state_readback": "2026-11-11T15:18:38.399Z/2026-11-11T15:18:40.597Z",
+        "last_known_started_at": "2026-11-11T15:12:21.561440Z",
+        "last_known_recorded_status": "in_progress",
+        "last_known_completed_at": null,
+        "last_known_chat_ref": null,
+        "later_exact_id_lookup": "NOT_FOUND_OR_NOT_ACCESSIBLE",
+        "same_context_task_list": "EXACT_TASK_ID_PRESENT_ENABLED_WITH_UNCHANGED_HOURLY_VEVENT_AND_PROMPT",
+        "run_state_refreshed": false
+      },
+      "classification": "RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN",
+      "not_inferred": [
+        "deleted",
+        "disabled",
+        "rescheduled",
+        "completed",
+        "failed",
+        "retry",
+        "restart",
+        "duplicate_execution",
+        "worker_identity"
+      ]
     }
   ]
 }
