@@ -870,4 +870,72 @@ theorem h762_s2_current_chat_ref_absent :
 #print axioms h762_s2_latest_result_pointer_value
 #print axioms h762_s2_current_chat_ref_absent
 
+
+
+/-! ## h762 follow-up :36 completion readback
+
+Client request/response interval: 2026-11-11T19:10:22.980Z–19:10:23.709Z.
+This is the returned :36 lease run still scheduled_for 17:36Z (h761:s3), not
+the next h762:s3 Morrow occurrence. The task-level metadata has now advanced
+to the next nominal :36 occurrence at 19:36Z. -/
+
+def h762S3CompletedReadback : RunRecordObservation :=
+  { runId := "23309e03-717c-8320-8c00-475ce51856d9"
+    scheduledUs := us 17 36 0 0
+    startedUs := us 18 36 52 771813
+    completedUs := some (us 19 1 56 884008)
+    status := .failed
+    latestResultRunId := some "23309e03-717c-8320-8c00-475ce51856d9"
+    chatRef := none }
+
+def h762S3TaskMetadataAfterCompletion : TaskMetadataObservation :=
+  { lastRunUs := us 19 1 58 865835
+    updatedUs := us 19 2 21 116576
+    nextRunUs := us 19 36 0 0 }
+
+theorem h762_s3_completed_failed_readback :
+    h762S3CompletedReadback.status = .failed ∧
+    h762S3CompletedReadback.completedUs = some (us 19 1 56 884008) ∧
+    h762S3CompletedReadback.latestResultRunId =
+      some "23309e03-717c-8320-8c00-475ce51856d9" ∧
+    h762S3CompletedReadback.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h762_s3_run_duration_us :
+    h762S3CompletedReadback.completedUs.getD 0 -
+      h762S3CompletedReadback.startedUs = 1504112195 := by
+  decide
+
+theorem h762_s3_completion_after_nominal_us :
+    h762S3CompletedReadback.completedUs.getD 0 -
+      h762S3CompletedReadback.scheduledUs = 5156884008 := by
+  decide
+
+theorem h762_s3_task_metadata_caught_up :
+    h762S3TaskMetadataAfterCompletion.lastRunUs >
+      h762S3CompletedReadback.completedUs.getD 0 ∧
+    h762S3TaskMetadataAfterCompletion.updatedUs >
+      h762S3TaskMetadataAfterCompletion.lastRunUs ∧
+    h762S3TaskMetadataAfterCompletion.nextRunUs = us 19 36 0 0 := by
+  decide
+
+theorem h762_s3_followup_four_slot_statuses :
+    h762S0LaterReadback.status = .inProgress ∧
+    h762S2Readback.status = .inProgress ∧
+    h762S3CompletedReadback.status = .failed ∧
+    h762S4Readback.status = .inProgress := by
+  decide
+
+theorem h762_s3_completed_run_id_value :
+    h762S3CompletedReadback.runId =
+      "23309e03-717c-8320-8c00-475ce51856d9" := by
+  rfl
+
+#print axioms h762_s3_completed_failed_readback
+#print axioms h762_s3_run_duration_us
+#print axioms h762_s3_completion_after_nominal_us
+#print axioms h762_s3_task_metadata_caught_up
+#print axioms h762_s3_followup_four_slot_statuses
+#print axioms h762_s3_completed_run_id_value
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
