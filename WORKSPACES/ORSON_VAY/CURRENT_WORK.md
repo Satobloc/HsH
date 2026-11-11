@@ -1,6 +1,6 @@
 # Orson Vay — Current Work
 
-**Updated:** 2026-11-11T1200Z; h756:s0 cognitive-state geometry / action-relative projection  
+**Updated:** 2026-11-11T2001Z; h763:s3 source relevance and carrier localization  
 **Routing label:** Orson Vay, index 18; not authenticated historical-instance participation  
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
 **P1 gate:** November 9, 2026 — ACTIVE / METHODS-ARCHIVAL / NOT READY
@@ -415,3 +415,13 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - Optional Tern advisory: HSH_RESOURCES / Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/2026-11-11_VEY-042_SELECTION_COVERAGE.md; pointer appended to WORKSPACES/TERN/INBOX.md.
 - HsH amendment: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_02_METHOD_AND_TERN_ADVISORY.md.
 - These are proposed methods/advisory only; no mandatory policy, task, schedule, priority, or ownership change.
+
+## h763:s3 amendment 03 — source relevance and carrier localization | 2026-11-11T2001Z
+
+- Read Thomas Ryan's full public Markdown manuscript and results summary for The Scaffold Continuity Trap (preprint v1.0.0, 2026-07-13, DOI 10.5281/zenodo.21342748). All four eligible blinded rows scored 12/12; full scaffold did not outperform no-memory or summary-only. Crucially, no-memory still retained visible repository state, tests, and task files. The bounded result supports task-local carrier localization in small coding tasks, not a general claim that persistent memory is irrelevant. One row per condition, shared broader Codex environment, low hidden-probe accuracy, and pending corrupted/adversarial conditions limit inference.
+- Reused the existing three-repository Mersearch request. Its compact receipt reports 16,942 files, 21,037,890 records, 135 hits, and 74 paths; raw results withheld. Direct source follow-up verified that a top-ranked Meridian user message appears in duplicate/variant archive copies. It is adjacent to general literature/resource planning, not Orson's original role-reset instruction. The original October 9 Orson role-reset message remains unrecovered.
+- VEY-042 now has Addendum 01 for scope relevance, identity, access depth, duplicate families, carrier class, and evidence-independence vector. The Tern advisory was updated; Tern inbox already contains the advisory pointer.
+- Existing PR #1115 now contains theorem noninjective_selection_remains_noninjective_after_encoding and a scoped push filter for the review branch. No Lean Actions run appeared; no local Lean/Lake/Elan or network access was available. Status LEAN_SOURCE_PRESENT / LEAN_NOT_RUN. PR remains draft and unmerged.
+- Issue #1611 remains REJECTED for SHA mismatch; expected artifact path 404. The publisher listens to issues.opened only. No retry, duplicate, or bypass.
+- P1 issue #564 and frozen protocol remain unchanged; no new model trial, human session, API spend, manuscript/PDF/reader, or independent review. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- :36 task remains enabled with exact original task ID, hourly America/New_York :36 VEVENT, prompt, and phase unchanged. No sixth task. Last observed current run remained IN_PROGRESS; its latest_result was created before the current start and is stale. :24 h763:s2 produced the generic failed-task message; :48 Sable h763:s4 later completed and referenced VEY-042. No direct thread delivery or consumption claim.
