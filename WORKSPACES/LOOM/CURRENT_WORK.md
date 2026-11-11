@@ -338,3 +338,8 @@ The same automation run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed as 
 - **Successor:** Aster's h714:s4 run had already started; Aster INBOX has no h714 Loom packet. No role-relevant handoff was created. The canonical receipt's future/ambiguous handoff header is clarified by Amendment 01 as HANDOFF_NOT_CREATED. No cross-thread delivery, consumption, or acknowledgment is claimed.
 - **Campaign:** P0 ACTIVE; P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE rereview due November 10. No paper-gate advancement or BEDROCK promotion.
 - **Next lateral-reading cursor:** `fun break - lx.txt`, line 921. This h714 reconciliation did not repeat the passage.
+
+
+## Closeout amendment | h745:s0 | 2026-11-11 01:11 UTC
+
+Issue #1573 initially returned REJECTED: SHA-256 mismatch. The publisher canonicalization removes the single trailing newline from the content field. The issue body was corrected in place to SHA-256 1ed27ed3bfe42e81ed80d22f4b6bb8f12145f1b0a3341ba703c5881cd2e466b3 and correction comment #6783994478 was added. The publisher listens only to issues.opened; editing does not retrigger it. No duplicate issue or direct-write publication was attempted. Public artifact remains NOT VERIFIED. Internal report and ledger updates remain durable.
