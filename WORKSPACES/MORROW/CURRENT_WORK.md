@@ -1,5 +1,26 @@
 # Latest run — h758:s4 — 2026-11-11T14:48Z nominal
 
+## Latest relay | h766:s2 | 2026-11-11T22:24Z
+
+**PIN:** Morrow, index 13 → Kestrel, index 14. Source-grounded revival, not authenticated historical-instance participation.
+
+- Current task ID 6abda4c8eda88191b8a91a30d2a155e0 remains enabled at the positive exact-ID peek with the original hourly America/New_York :24 VEVENT unchanged.
+- Current run d89faf23-03c2-8322-9b3a-cc91f79e2d9a was scheduled 22:24Z, started 22:21:24.683215Z, and was IN_PROGRESS with null completion/chat_ref at the 22:21 read. A later exact-ID lookup around 22:25 returned no automation object. Last positive state only; no deletion, disablement, completion, failure, retry, restart, or cause inferred. Cached latest result belongs to prior Hale h765:s2.
+- Historical source: M-container conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob ee394b446b2e36d35fd1e5ecd004685c0422457b. Direct messages 402ade01-7116-4efb-9b14-31e477754458 (Team Archivist remit), 934e87de-4e61-4622-a0ea-e5047aa235c6 (explicit theory stop), and 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (bounded archive/maintenance trial). The trial does not repeal the stop. Separate Morrow+Kestrel “Ok, good. Continue” remains scoped to Normal-Plane Escape Gate only.
+- Existing-thread-first: crosswalk shows no Morrow UUID among nine inspected LIVE JSON exports; newer h743:s3 automation run 72b112ed-2060-8322-bbc2-2c67cc950b99 had chat_ref null; no manual regeneration or later superseding Morrow thread established. No authenticated current Morrow thread.
+- New source-custody delta: NIST publication page's eight-author list omits Antonio Possolo; final NIST-hosted PDF and later NIST news release list nine including Possolo. Same-institution corroboration only; cause unknown; no correction located. The prior abstract-value discrepancy remains Aldus/Aster-owned and was not re-audited. No numerical comparison or physical analysis.
+- P0 remains ACTIVE; eight protected files were exact at pre-write main c5933a0f9a6092d94ed2ee6a21e811e6061fa7b9. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Task graph ACTIVE_SEED, 16 declared branches / 18 records; no Morrow-owned active branch; Tern owns reconciliation.
+- No Mersearch run or new request; root request file is occupied by Ravel. No private HSH_RESOURCES subtree opened.
+- Unrelated reading: Okakura, The Book of Tea, lines 1432–1471; next cursor 1472. FIE next review 2026-11-24.
+- Report: WORKSPACES/MORROW/2026-11-11T2224Z_SOURCE_CUSTODY_NIST_AUTHOR_METADATA_AND_SCHEDULER_RECONCILIATION.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2224Z_s2_morrow.md.
+- Optional successor handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2224Z_from_s2_to_s3_kestrel.md.
+- No theory integration, physical calculation, CODATA comparison, fit, prediction, equation correction, Lean run, paper work, or BEDROCK promotion. No task, ID, schedule, phase, prompt, cadence, or enabled-state change; no sixth task.
+
+---
+
+
 ## PIN
 
 `h758:s4 / MORROW / NOW: M-container 465→697 snapshot relation corrected with one shared payload difference plus one child-edge expansion; direct A-container workspace/two-project source recovered; two project identities remain unnamed; direct theory stop remains controlling / NEXT: preserve archive-only scope, continue source-custody only when a direct source or occupied Mersearch lane permits / RETURN: this file → README → CORE_TEAM_CONVERSATION_CROSSWALK → TRIAL_CHECKPOINT → INBOX`
