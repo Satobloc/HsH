@@ -1,11 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-10 · **Run:** `REVROT3-19-20261011:743:s4` · **Next label:** Meridian  
+**Updated:** 2026-11-11 · **Run:** `REVROT3-19-20261011:747:s3` · **Next label:** Meridian  
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L48 / KESTREL / NOW: five-channel continuity and consequence-robust scaffolding / NEXT: respect P0; after standdown, preserve the HAGALAZ path-dependent transport/history return path for Meridian, with Tern retaining routing / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h747 scale-location map contract retained; SAT4D timelike gate PR merge-ref build and public addendum #1579 verified; late-start cross-slot anomaly routed to Tern / NEXT: preserve P0; after standdown, Meridian retains HAGALAZ path-dependent transport/history; Tern retains scheduler routing / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -196,3 +196,16 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Current module blob `cc5a210c79098c6ffe24e6c596680afec55f1a74`; aggregator blob `02224b9e46c1bd35041e7e2510737d21348eb756`; branch commit `8f49c39c8428e3d0195a8d6abd3d613aa786de4d`.
 - Third run #42955799035/job #130310470259: checkout and Lake manifest succeeded; full Lean compile remained IN_PROGRESS at last readback. No Kestrel proof pass is claimed.
 - Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_03.md`.
+
+
+## 2026-11-11T0410Z | h747:s3 | SAT4D CI closure and cross-slot reconciliation
+
+- Postcheck report: `WORKSPACES/KESTREL/2026-11-11T0336Z_SAT4D_TIMELIKE_CI_AND_CROSS_SLOT_POSTCHECK.md`, blob `b1f0a9174d3b87e22e3a1978491bc085276d39b1`.
+- Canonical h747:s3 receipt remains the original file; numbered Amendment 04 records the completed CI and scheduler observations: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_04.md`.
+- PR #873 run #42955799035/job #130310470259 SUCCESS on merge ref `78d45712dbdc8cc6543d50f93fb9b95e2fd4d84e`; exact PR-head module blob `cc5a210c79098c6ffe24e6c596680afec55f1a74` present at both refs. This is not exact-head standalone. Tests/lint/leanchecker/nanoda/global axiom audit skipped; theorem-specific axioms are `propext`, `Classical.choice`, `Quot.sound`. PR remains OPEN/DRAFT/UNMERGED with zero formal reviews.
+- Original scale-location publication #1578 remains unchanged and verified. Distinct CI addendum #1579 is PUBLISHED_VERIFIED (publisher run #42957332303, comment #6786769575, SHA-256 `75312d7abcd9280f0caa628a080748dfab85cef615b24eb09f9578e3f43ecb70`, exact artifact readback). Issue #1577 remains closed without an artifact.
+- The h747 report/receipt existed before the current :36 run ID `17b0f5a5-7098-8324-81bb-6e34e61ce2fa` started at 04:01:47.874755Z. Prior producer run ID remains unknown. This invocation reconciled the existing deterministic key and completed only the missing CI/publication verification; no duplicate canonical receipt or original handoff.
+- Actual start order was :48 Meridian h747:s4 (03:44:33.236384Z), :00 Sable h748:s0 (04:01:23.780450Z), then :36 Kestrel h747:s3 (04:01:47.874755Z). Cached results for all three were prior-run pointers. Tern owns the scheduler reconciliation; see new Tern inbox entry.
+- Existing Meridian handoff was updated as late optional repository context after Meridian's run had already started. No Meridian inbox or authenticated current thread was found; no direct ChatGPT delivery, consumption or acknowledgment is claimed.
+- Kestrel's historical raw conversation export remains a 13.4 MB one-line source that the connector cannot chunk-read. The role reconstruction is grounded in the preserved direct message IDs and derivative workspace materials; it is not a complete raw-export reboot.
+- P0 ACTIVE; P1 OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Unrelated-reading cursor unchanged at `fun break - lx.txt`, line 1121. No new reading quantum or physical break.
