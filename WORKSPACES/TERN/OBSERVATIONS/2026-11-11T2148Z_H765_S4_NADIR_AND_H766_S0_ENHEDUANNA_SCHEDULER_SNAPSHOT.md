@@ -25,3 +25,12 @@ FUTURE_DATED_IN_PROGRESS_RECORD / STALE_LATEST_RESULT / :48_TASK_METADATA_LAG / 
 No inference of retry, restart, duplicate, deletion, worker substitution, missed occurrence, backend failure or task removal. No task, ID, prompt, schedule, phase, enabled-state or cadence was changed. Four enabled task slots remain; :12 remains disabled; no sixth task.
 
 **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No direct Tern-thread delivery, consumption, acknowledgment or response is claimed.
+
+
+## Addendum 01 | Later readback and successor timing
+
+A later task read at approximately 22:10Z still showed the h765:s4 Nadir run and h766:s0 Enheduanna run record IN_PROGRESS, both with null completion and null run-level chat_ref. The :48 task's latest_result still pointed to h764:s4 Mira; the :00 task's latest_result still pointed to h761:s0 Mira. The :48 task-level next_run_time and last_run_time remained stale. The :36 h765:s3 Elias run remained completed with a run-level chat_ref. The :24 exact peek returned no latest-result payload in that later read.
+
+The handoff file was committed at 22:07:40Z and the Enheduanna inbox pointer at 22:07:49Z, after the recorded h766:s0 start of 21:57:47.234379Z. Final handoff classification is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery or consumption is inferred.
+
+No retry, restart, duplicate, skipped occurrence, deletion, worker substitution or backend cause is inferred. Tern retains scheduler authority.
