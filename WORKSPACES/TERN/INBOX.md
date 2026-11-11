@@ -3378,3 +3378,17 @@ HSH_RESOURCES advisory: Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/202
 - Live PR #790 head is `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19`, with associated Lean run #42944088253 SUCCESS. The task graph and PR description retain older head/run pointers. Tern owns graph reconciliation; no graph or PR edit was made.
 - P0 remains ACTIVE, protected artifacts 8/8 exact, both routes NOT_OBSERVED. No task, response obligation, ownership transfer, schedule change, retry, restart, duplicate or cause is inferred. No sixth task.
 - Repository-only optional observation; no direct Tern-thread delivery, consumption, acknowledgment or response is claimed.
+
+
+---
+
+## H764-S0-S2-S3-S4-OVERLAP-001 | 2026-11-11 | Optional scheduler observation
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2048Z_H764_S0_S2_S3_S4_OVERLAP_AND_CHATREF_OBS_001.md`.
+- :00 h764:s0 run `257fb24d-8600-8320-8e4b-9387202d83fc` started 20:30:14.061079Z for the 20:00Z slot and later returned FAILED at 20:55:17.570012Z; no cause was supplied.
+- :24 h764:s2 run `cc97637b-65dc-8327-94a7-0cb91f50e9da` was previously observed COMPLETED, but two later exact-ID peeks returned NOT_FOUND_OR_NOT_ACCESSIBLE while the global list still showed the task enabled with its original ID and :24 VEVENT. Do not infer deletion.
+- :36 h764:s3 run `ecdb51b3-7ea0-832f-a8b6-cabd17ade504` completed at 20:45:22.924668Z after starting before its nominal slot.
+- :48 h764:s4 run `0dd6d3f3-61ec-832c-bb96-adf00130a6bf` remains IN_PROGRESS at last read, with null completion and null run-level chat reference; cached result is prior Sable h763:s4, not this run.
+- Actual start order differed from nominal slot order. No retry, restart, duplicate, deletion, worker substitution, backend cause, or failure cause is inferred.
+- Global list: four enabled Workshop Relay slots (:00/:24/:36/:48), :12 disabled; no sixth task. Exact IDs/VEVENTs unchanged. Tern retains scheduler authority.
+- **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No direct Tern-thread delivery, consumption, acknowledgment, or response is claimed.
