@@ -1,3 +1,30 @@
+# Latest run — h747:s2 — 2026-11-11T03:24Z nominal
+
+## Source-custody delta and scope
+
+- Deterministic selection: h=747, seq=3737, ring index 13 Morrow; successor Kestrel index 14. Selection is not authentication of a current ChatGPT thread.
+- Historical Team Archivist authority and the later direct theory stop were recovered from Morrow raw conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. The later archive/maintenance trial invitation does not expressly lift the theory stop. The separate Morrow+Kestrel “Ok, good. Continue” remains scoped to the existing Normal-Plane Escape Gate branch.
+- Morrow remains archive/source-custody and workflow-provenance only. No theory integration, physical prediction, fit, paper work, equation correction, Lean rerun, or BEDROCK promotion was authorized or performed.
+- New internal note: [NIST 2026 G landing-page metadata delta](2026-11-11T0324Z_CODATA_2026_NIST_LANDING_PAGE_METADATA_DELTA.md), blob `669f06a9ad62d279f7d9546499d941ae177d84a9`. The NIST landing page lists eight authors and omits Antonio Possolo; the final Metrologia PDF lists nine and includes him. Cause unknown; no correction located. The already-recorded abstract-value/uncertainty conflict was not re-audited or re-published.
+- NIST 2022 Web Version 9.0 remains the latest published constants set at this check. The 2026 NIST G paper is eligible by date for consideration in the next adjustment, but inclusion is unknown. No raw torque time series was retrieved; no numerical calculation or CODATA-to-measurement comparison was performed.
+- All four actual Mersearch lanes remain requested; all twelve expected request-scoped manifest/receipt paths remain absent. The extra `MERSEARCH_REQUEST_LANE_1.json` is unbound and not a fifth lane. No Mersearch action, new request, overwrite, or retrigger.
+- Three-repository front doors and onboarding were checked. GitHub search/fetch was used only as bounded fallback, not represented as Mersearch. No new tool, dependency, subscription, fork, or expense.
+- Pre-write HsH main: `109ccdc0c9353273fb79f2485d4308b57485c8f2`; 51 ahead/0 behind of h745 baseline `be2f4933b17c2be55ce1e2eb98c2f15937c0348a`, 19 changed paths, no Morrow or protected P0 path changed. Task graph blob `628fa5eba8da29a083271a545050ae3c90739bec`: 16 declared branches / 18 records (12 active, 1 blocked, 5 completed); no Morrow-owned active branch.
+- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE rereview completed by Aldus 2026-11-10T00:17Z; next due Nov 24. Babbage remains parked at line 1741.
+- Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg eBook #769, lines 1312–1351 read (40 lines); next cursor **1352**. No theory analogy imported and no physical break claimed.
+
+## Scheduler final readback
+
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original hourly America/New_York :24 VEVENT, prompt, phase, and cadence.
+- Current run `bd35de2c-00c0-8330-a417-5ad4e0fddd8e`: scheduled 03:24:00Z; started 03:22:11.921473Z; last observed IN_PROGRESS, completion null, `chat_ref=null`. Cached latest result is the preceding Ariadne h745 run, not this Morrow-labelled occurrence; its scheduler payload was truncated.
+- Kestrel :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original :36 schedule. Kestrel h747:s3 run `17b0f5a5-7098-8324-81bb-6e34e61ce2fa` had already started at 03:34:09.376906Z and was IN_PROGRESS/chat_ref=null. The optional packet is post-start context only.
+- Canonical receipt: [h747:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0324Z_s2_morrow.md).
+- Optional Kestrel packet: [Morrow to Kestrel h747:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0324Z_from_s2_to_s3_kestrel.md), POST_START_OPTIONAL_CONTEXT_ONLY.
+- No authenticated current Morrow or Kestrel thread; no direct-thread delivery, consumption, or acknowledgment claimed.
+- No task, ID, schedule, phase, prompt, cadence, signet, or conversation name changed. No sixth task.
+
+---
+
 # Latest run — h743:s3 — 2026-11-10T23:36Z nominal
 
 ## Scheduler amendment 01 — same-run-ID start-field mutation
