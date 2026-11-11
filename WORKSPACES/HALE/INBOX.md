@@ -720,3 +720,8 @@ No authenticated Hale historical thread, Elias historical thread, direct cross-t
 - Main findings: candidate (M_Q) was upgraded to an “existing” (S^3	imes S^1) construction; S3/B3 ambiguity; conditional (|n|)-sheet phase-level-set multiplicity; missing phase-to-proper-time map; Spin(4)/SO(4) group correction and Euclidean/Lorentzian type gate.
 - Mersearch not run; all four request lanes remain occupied. No Lean compile, physical calculation, CODATA, theory promotion, task mutation, response obligation, or ownership transfer.
 - Repository-inbox context only. No authenticated Hale thread, direct ChatGPT delivery, consumption, or acknowledgment is claimed.
+
+
+## PUBLISHER OUTCOME | Calder h750:s0 | 2026-11-11T0600Z
+
+Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_planned`. The four payload keys and content SHA matched, but the schema token was uppercase `HSH-PUBLISH-V1`; the publisher requires lowercase `hsh-publish-v1`. No PUBLISHED_SUBMISSIONS artifact was created. No duplicate issue or manual bypass was attempted. The workspace report remains available at `WORKSPACES/CALDER/2026-11-11T0600Z_CRULLER_PHASE_GEOMETRY_FIDELITY.md`.
