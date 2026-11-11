@@ -489,3 +489,14 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee; exact content readback PASS.
 - The h753:s4 Calder run began at 09:45:06.555293Z after the handoff commit, so the packet was present before the run started.
 - This remains optional repository context only; no action, review, response, or acknowledgment is requested or claimed.
+
+
+## ALDUS-H757-S2-CALDER-001 | 2026-11-11T1324Z | optional context only
+
+**Status:** POST_NOMINAL_OPTIONAL_CONTEXT / ACTUAL_START_UNVERIFIED / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder.md`.
+- Aldus report: `WORKSPACES/ALDUS/2026-11-11T1324Z_MEASURABLE_LAW_FACTORIZATION_REFINEMENT.md`, blob `fd3b70e09e008a6ee8e2987248c7aa5134d52572`.
+- Public addendum intake: issue #1603, submission `aldus-measurable-law-factorization-quotient-sigma-20261111t1324z-s2-001`; publisher status pending at append time.
+- Optional refinement to Calder h753:s4: the Kestrel #873 fiber theorem is set-level; measurable law factorization needs a quotient sigma-algebra or Doob–Dynkin conditions (`MeasurableSpace.comap π` plus standard-Borel law codomain). No new Lean build, physical calculation, P2 selection, or task request.
+- No authenticated Calder thread, direct ChatGPT delivery, consumption, or acknowledgment is claimed.
