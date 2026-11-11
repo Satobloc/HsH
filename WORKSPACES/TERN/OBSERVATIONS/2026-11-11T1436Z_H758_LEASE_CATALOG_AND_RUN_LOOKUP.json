@@ -334,6 +334,198 @@
           "latest_result_matches_current_run": false
         }
       ]
+    },
+    {
+      "observed_window": "2026-11-11T15:14:25.585Z/2026-11-11T15:14:31.395Z",
+      "semantics": "One global catalog peek followed by four sequential exact-ID peeks. Times are client request-start/response-received bounds, not provider snapshot instants.",
+      "global_catalog_observation": {
+        "source": "Automations global peek",
+        "request_started_at": "2026-11-11T15:14:25.585Z",
+        "response_received_at": "2026-11-11T15:14:26.281Z",
+        "reported_total_automations": 21,
+        "relay_leases": [
+          {
+            "phase": "s0",
+            "task_id": "6aa1fe0de5e48191b886496095b1343f",
+            "title": "Workshop Relay :00 | Archive",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:00:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s1",
+            "task_id": "6aa61b3b2e4081918927a35b61007acc",
+            "title": "Workshop Relay :12 | Mind",
+            "enabled": false,
+            "dtstart": "2026-10-01T14:12:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s2",
+            "task_id": "6abda4c8eda88191b0a2ba24a074f781",
+            "title": "Workshop Relay :24 | Geometry",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:24:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s3",
+            "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+            "title": "Workshop Relay :36 | Worldtube",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:36:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          },
+          {
+            "phase": "s4",
+            "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+            "title": "Workshop Relay :48 | Review",
+            "enabled": true,
+            "dtstart": "2026-10-01T14:48:00 America/New_York",
+            "rrule": "FREQ=HOURLY"
+          }
+        ],
+        "legacy_tern_shuttle": {
+          "task_id": "6aa6c2792c9c8191ab2c128a80c437cf",
+          "enabled": false
+        },
+        "summary": "Four fixed relay leases enabled (:00, :24, :36, :48); :12 disabled; legacy Tern/Shuttle disabled; no sixth relay task."
+      },
+      "id_specific_observations": [
+        {
+          "phase": "s0",
+          "nominal_hour": 759,
+          "worker_label": "Kestrel",
+          "task_id": "6aa1fe0de5e48191b886496095b1343f",
+          "request_started_at": "2026-11-11T15:14:26.281Z",
+          "response_received_at": "2026-11-11T15:14:27.017Z",
+          "outcome": "FOUND",
+          "current_run": {
+            "run_id": "5fd52668-69ac-8323-b318-76144446e9ac",
+            "scheduled_for": "2026-11-11T15:00:00Z",
+            "started_at": "2026-11-11T14:56:24.137973Z",
+            "completed_at": "2026-11-11T15:09:18.681642Z",
+            "recorded_status": "completed",
+            "chat_ref": {
+              "type": "chatgpt",
+              "id": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e"
+            }
+          },
+          "latest_result": {
+            "run_id": "5fd52668-69ac-8323-b318-76144446e9ac",
+            "scheduled_for": "2026-11-11T15:00:00Z",
+            "completed_at": "2026-11-11T15:09:18.681642Z",
+            "matches_current_run": true
+          }
+        },
+        {
+          "phase": "s2",
+          "nominal_hour": 758,
+          "worker_label": "Enheduanna",
+          "task_id": "6abda4c8eda88191b0a2ba24a074f781",
+          "request_started_at": "2026-11-11T15:14:27.017Z",
+          "response_received_at": "2026-11-11T15:14:27.477Z",
+          "outcome": "NOT_FOUND_OR_NOT_ACCESSIBLE",
+          "message": "This task was not found or is not accessible.",
+          "catalog_listed_enabled": true,
+          "classification": "ID_LOOKUP_UNAVAILABLE_OR_NOT_ACCESSIBLE",
+          "not_inferred": [
+            "deleted",
+            "disabled",
+            "rescheduled"
+          ]
+        },
+        {
+          "phase": "s3",
+          "nominal_hour": 758,
+          "worker_label": "Tern Rook",
+          "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+          "request_started_at": "2026-11-11T15:14:27.477Z",
+          "response_received_at": "2026-11-11T15:14:29.882Z",
+          "outcome": "FOUND",
+          "task_metadata": {
+            "last_run_time": "2026-11-11T14:14:21.097833Z",
+            "updated_at": "2026-11-11T14:14:45.653362Z",
+            "next_run_time": "2026-11-11T09:36:00-05:00"
+          },
+          "current_run": {
+            "run_id": "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+            "scheduled_for": "2026-11-11T14:36:00Z",
+            "started_at": "2026-11-11T15:03:55.226485Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result": {
+            "run_id": "95d77437-253c-8330-b21b-35ac977feb87",
+            "scheduled_for": "2026-11-11T13:36:00Z",
+            "completed_at": "2026-11-11T14:14:17.806899Z",
+            "belongs_to_prior_run": true
+          },
+          "comparison_to_prior_readback": {
+            "prior_window": "2026-11-11T14:55:31.155Z/2026-11-11T14:55:32.706Z",
+            "prior_started_at": "2026-11-11T14:35:51.499419Z",
+            "later_started_at": "2026-11-11T15:03:55.226485Z",
+            "started_at_delta_microseconds": 1683727066,
+            "run_id_unchanged": true,
+            "scheduled_for_unchanged": true,
+            "status_unchanged": true,
+            "chat_ref_unchanged": true,
+            "change_time": "unknown within interval between the two readback windows"
+          }
+        },
+        {
+          "phase": "s4",
+          "nominal_hour": 758,
+          "worker_label": "Morrow",
+          "task_id": "6aa6c3bc02b48191b886496095b1343f",
+          "request_started_at": "2026-11-11T15:14:29.882Z",
+          "response_received_at": "2026-11-11T15:14:31.395Z",
+          "outcome": "FOUND",
+          "task_metadata": {
+            "last_run_time": "2026-11-11T13:58:45.064225Z",
+            "updated_at": "2026-11-11T13:59:07.610143Z",
+            "next_run_time": "2026-11-11T09:48:00-05:00"
+          },
+          "current_run": {
+            "run_id": "0eeaf9b6-a868-8324-9e7f-b9d770e22d66",
+            "scheduled_for": "2026-11-11T14:48:00Z",
+            "started_at": "2026-11-11T15:12:21.561440Z",
+            "completed_at": null,
+            "recorded_status": "in_progress",
+            "chat_ref": null
+          },
+          "latest_result": {
+            "run_id": "4cb369da-8a54-8322-8d85-a114df1d84ac",
+            "scheduled_for": "2026-11-11T12:48:00Z",
+            "completed_at": "2026-11-11T13:58:42.915871Z",
+            "belongs_to_prior_run": true
+          },
+          "comparison_to_prior_readback": {
+            "prior_window": "2026-11-11T14:55:32.706Z/2026-11-11T14:55:33.883Z",
+            "prior_started_at": "2026-11-11T14:44:44.693441Z",
+            "later_started_at": "2026-11-11T15:12:21.561440Z",
+            "started_at_delta_microseconds": 1656867999,
+            "run_id_unchanged": true,
+            "scheduled_for_unchanged": true,
+            "status_unchanged": true,
+            "chat_ref_unchanged": true,
+            "change_time": "unknown within interval between the two readback windows"
+          }
+        }
+      ],
+      "same_snapshot_status_observation": {
+        "observed_window": "2026-11-11T15:14:27.477Z/2026-11-11T15:14:31.395Z",
+        "run_ids": [
+          "2e7d7727-c150-8327-a9d7-9d78a6ab6cdc",
+          "0eeaf9b6-a868-8324-9e7f-b9d770e22d66"
+        ],
+        "recorded_statuses": [
+          "in_progress",
+          "in_progress"
+        ],
+        "interpretation": "Two distinct run records were reported IN_PROGRESS in sequential reads within one short client-side batch. This establishes co-observation of statuses, not process-level concurrency or exact execution overlap."
+      }
     }
   ]
 }
