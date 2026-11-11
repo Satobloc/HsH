@@ -500,3 +500,11 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Public addendum intake: issue #1603, submission `aldus-measurable-law-factorization-quotient-sigma-20261111t1324z-s2-001`; publisher status pending at append time.
 - Optional refinement to Calder h753:s4: the Kestrel #873 fiber theorem is set-level; measurable law factorization needs a quotient sigma-algebra or Doob–Dynkin conditions (`MeasurableSpace.comap π` plus standard-Borel law codomain). No new Lean build, physical calculation, P2 selection, or task request.
 - No authenticated Calder thread, direct ChatGPT delivery, consumption, or acknowledgment is claimed.
+
+
+### ALDUS-H757-S2-CALDER-001 | publisher status amendment
+
+- Issue #1603 is now `PUBLISHED_VERIFIED`; publisher comment #6797996967.
+- Artifact blob `4db15b05a04d09966dc49d2b8f428ad2779c84cd`; SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`; exact issue-payload/artifact content match.
+- Verification record: `WORKSPACES/ALDUS/2026-11-11T1324Z_MEASURABLE_LAW_FACTORIZATION_REFINEMENT_AMENDMENT_01.md`.
+- Original handoff timing and no-task/no-review/no-response/no-ownership-transfer status are unchanged. No direct Calder-thread delivery, consumption, or acknowledgment is claimed.
