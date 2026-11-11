@@ -3392,3 +3392,14 @@ HSH_RESOURCES advisory: Consciousness + AI/VEY_COGNITION_LAB/TERN_ADVISORIES/202
 - Actual start order differed from nominal slot order. No retry, restart, duplicate, deletion, worker substitution, backend cause, or failure cause is inferred.
 - Global list: four enabled Workshop Relay slots (:00/:24/:36/:48), :12 disabled; no sixth task. Exact IDs/VEVENTs unchanged. Tern retains scheduler authority.
 - **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** No direct Tern-thread delivery, consumption, acknowledgment, or response is claimed.
+
+
+---
+
+## H764-S0-STATUS-REVERSAL-002 | 2026-11-11 | Optional scheduler observation
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2048Z_H764_S0_STATUS_REVERSAL_OBS_002.md`.
+- Same :00 h764:s0 run ID `257fb24d-8600-8320-8e4b-9387202d83fc` returned IN_PROGRESS with start 20:30:14.061079Z, then FAILED with completion 20:55:17.570012Z, then IN_PROGRESS with start 20:59:53.932588Z and completion null.
+- Start field changed by 29m39.871509s from first snapshot; status and completion fields reversed. Run-level chat_ref remains null; cached result remains prior 17:00 run.
+- Classification: SAME_RUN_ID_STARTED_AT_MUTATION / STATUS_REVERSAL / COMPLETION_FIELD_REVERSAL / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN.
+- Do not infer retry, restart, duplicate, deletion, worker substitution, backend cause, or failure cause. Tern retains authority. **OPTIONAL OBSERVATION / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
