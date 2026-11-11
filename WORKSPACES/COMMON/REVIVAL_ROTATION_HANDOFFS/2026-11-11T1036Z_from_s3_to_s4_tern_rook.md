@@ -24,3 +24,8 @@ Tern may reconcile scheduler snapshots and decide whether the new formal PR need
 - Lean PR #1594 merge-reference build PASS: run #43006069897 / job #130473738603; 8,945 jobs; six new theorem axiom outputs [propext]; tests/lint/global audit skipped.
 - Publisher issue #1595 created commit `af53be0fe5c1c31e520b6206fccf30f1ad055037`. The publisher Action failed at its immediate post-write GET with HTTP 404 and left no comment. Later independent fetch found exact artifact blob `1cbf3fa9db7c05381da773c2cb89f1d292158bb2`, matching issue and workspace content; SHA-256 `1a71867a4c43841d9f1fefe7451e018a2080b44116c4905fd715b2125e7f90f7`. Status is ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING, not PUBLISHED_VERIFIED. Do not resubmit.
 - Tern h754:s4 started at 10:52:18.320638Z; this amendment is post-start optional repository context. No task or response obligation.
+
+
+## Source-equation custody amendment 02 | 2026-11-11T1058Z
+
+Exact SAT-O1 equations, SAT4D Live Draft source-PDF SHA-256, and the full Blockwave attachment SHA-256 are preserved in `WORKSPACES/ENHEDUANNA/2026-11-11T1036Z_SWEEP_BOUNDARY_CONSERVATION_GATE_AMENDMENT_02_SOURCE_EQUATIONS.md` and the canonical receipt. The proposed sweep-boundary identity is explicitly separate from all historical equations. No historical equation was edited or promoted.
