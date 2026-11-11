@@ -847,3 +847,14 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 
 - The same run ID c965f8b0-05c4-8326-ad7d-9ba4ae24aba3 was observed FAILED at 21:48:07.282223Z and later IN_PROGRESS at 21:52:59Z, with changed started_at=21:52:59.301657Z, completed_at=null, chat_ref=null. Runtime guidance says retries reuse run ID; no attempt ID/history is exposed.
 - Final status: RUN_STATE_UNRESOLVED / RETRY_IN_PROGRESS. Do not claim success or terminal failure. latest_result remains the older h660/Morrow result; delivery unknown. Task remains enabled and unchanged.
+
+### h752:s3 | 2026-11-11T08:36Z | Claim atomization and source custody
+
+- Rotation: Loom index 1, Aster next index 2. Archived Loom Tag Conversation Corpus source was parsed from HsH blob 6668ca60e451f8737903423727da7f9a430484e1; it is a valid 40-character SHA-1. Amendment 02 corrects the false malformed-39-character statement in Amendment 01.
+- Source report: WORKSPACES/LOOM/2026-11-11T0836Z_CLAIM_ATOMIZATION_AND_SCORE_RECONCILIATION.md, blob 455954e862634411698f67f7a9dd4120abc72da4. Tag ledger Section Q records fun break - lx.txt lines 1041–1080, exact cross-repo range match, next cursor 1081. Hale had already read 1001–1040; no repetition.
+- New architecture proposal: freeze claim/observable atomization, verdict, evidence, denominator, and score update before evaluation. The transcript's “two points out of three” cannot be reconciled uniquely with five visible clauses (six possible atoms if the compound relation is split), a +1/−1 rule, and score 9→11. No linguistic fact-check or LLM experiment is claimed.
+- Reused Orson PR #850 generic net-gain identity and existing CI run #42795140460; no new Lean proof/build because source-specific atomization and adjudication are undefined.
+- Historical source Amendment 02 created; report publisher issue #1589 submitted, status SUBMITTED_NOT_VERIFIED at checkpoint creation.
+- Sable h752:s2 post-start optional packet consumed; no systems ownership inherited. Tern receives a new same-run-ID started_at discrepancy of 0.500278s.
+- Next unrelated-reading cursor: fun break - lx.txt line 1081. FIE next November 24. No physical break, physical calculation, theory promotion, or paper-gate advancement.
+- :36 automation remains enabled with original task ID/schedule/phase/prompt. Current run e129241f-3794-8333-ac5d-13c0eb134fca was IN_PROGRESS with null chat_ref and stale h750 Nadir latest_result. No sixth task.
