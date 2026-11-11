@@ -283,18 +283,25 @@ PR: [HsH #1189](https://github.com/Satobloc/HsH/pull/1189)
 Last exact-head build replayed: [Actions #42979143722](https://github.com/Satobloc/HsH/actions/runs/42979143722)  
 Job: 130385181747. Checked-out source commit: **fbe078a94a0074c7eb00e98aee47bf718630d607**.
 
-The actual log reports Lean 4.34.0, Lake 5.0.0, and 8,958 successful build jobs. The target module blobs at that checked-out source were retrieved:
-- NadirConnectorWitnessHolonomy: de1ccc98d9d1f5a9d7f25b3f4c5cfc5c73e6a4d1.
-- NadirWitnessCarryingComposition: babec58bff3a8c7b9a38c9c2b6c4d3fbb3f6c6e4.
-- NadirProjectionCoarseGrainFactorization: e547d9b5b4f3a8c7b9a38c9c2b6c4d3fbb3f6c6e4.
-- NadirGPBFourGyroGate: 0f3925b2e6c5d4a3b2c1d0e9f8a7b6c5d4e3f2a1.
-- Root aggregator: 151320a4c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6.
+The actual log reports Lean 4.34.0, Lake 5.0.0, and 8,958 successful build jobs. The target module blobs were compared at the last verified checkout fbe078a94a0074c7eb00e98aee47bf718630d607 and the current PR branch ref:
+
+| Module | Blob SHA-1 | Current branch vs fbe |
+|---|---|---|
+| NadirConnectorWitnessHolonomy | de1cccaa93047fa7e5764ca36503abf624f4cfc1 | identical |
+| NadirWitnessCarryingComposition | babec58f7bcdf3b25b3688888c5dc5f2648876ea | identical |
+| NadirProjectionCoarseGrainFactorization | e547d9c5aa10be2f73b15ce757ec1645a67fd46b | identical |
+| NadirGPBFourGyroGate | 0f3925feb15d8f3f57d3bb9772c69d65441fa8fe | identical |
+| Root aggregator at fbe | 6e395aaf072283f6184ee65f47b1c27c7ab1a6f4 | last verified |
+| Current branch root aggregator | 15132079d035700c7ea34037a074b49ecf828a3d | differs |
+| New NadirAngleConvention | d179ce950901e4e77433350d2bb3a51daf820059 | not in fbe build |
+
+The current branch root aggregator adds the NadirAngleConvention import. Its module formalizes a reciprocal-slope coordinate identity for positive axial/radial components and explicitly disclaims any identification of the carrier axis with the timesheet normal, selection of a dated theta_4 convention, or derivation of the readout metric. No Actions run for this current branch-ref state was found. The branch-search action returned the branch name but not its head commit SHA, so the current branch head is not independently pinned. The last exact-head build verifies fbe, not the later branch-ref state.
 
 The connector module formalizes abstract group identities for a supplied connector element. The composition and coarse-graining modules formalize abstract map/fiber factorization. They do not define a physical worldtube, measured connector path, or instrument map.
 
 The captured log contains no sorryAx or bare admit match. Tests, lint, nanoda, leanchecker and the global axiom audit were skipped/disabled; nanoda-allow-sorry was enabled. The result is a successful exact-head build of the encoded Lean statements, not proof of the source translation or physical premises.
 
-**New QC finding:** the PR branch's root aggregator imports NadirGPBFourGyroGate and other GP-B/E989/vortex modules, while the current PR description is framed around Hagalaz composition and affine translation quotient and contains no GP-B, six-plane, quarantine or issue #1593 reference. The GP-B module remains in the branch and is compiled. Its own comments say the six-coordinate construction is assistant-defined and not a physical GP-B lift; issue #1593 separately classifies LinearizedSixPlane as PROTOCOL_VIOLATION / NOT_EVIDENCE. The PR description does not surface that correction. This is a scope/epistemic-disclosure gap, not evidence that the fixture became physical.
+**Corrected PR-scope finding:** the current PR description does mention GPB, E989 and vortex work. It does not mention the LinearizedSixPlane fixture, its PROTOCOL_VIOLATION / NOT_EVIDENCE quarantine, or issue #1593. It also does not mention the new NadirAngleConvention module present in the current branch ref. The GPB module was already imported at fbe and was included in that successful build; the later angle-convention module was not. This is a scope/epistemic-disclosure and CI-freshness gap, not evidence that the fixture became physical.
 
 Existing issue [#1593](https://github.com/Satobloc/HsH/issues/1593) was re-read. Its 12,178-character issue payload exactly matches the canonical published artifact; publisher comment records SHA-256 bb628e129a0d83aa795aad6e39f8bd9e971d100acf2237c254f13fb630547df5. No duplicate correction was created.
 
