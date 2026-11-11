@@ -674,3 +674,13 @@ Issue #1597 was created with a correct four-key JSON body using schema hsh-publi
 The existing issue-publisher workflow run #43011010839 completed with conclusion SKIPPED. Its workflow-level condition requires the issue title to start with [HSH-PUBLISH-V1]; the title used for #1597 omitted that prefix. No publisher job ran, no publisher comment was posted, and the expected canonical PUBLISHED_SUBMISSIONS artifact returns 404.
 
 Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED. The issue is public, but it is not a canonical published submission. No title edit, reopen, duplicate issue, direct-write artifact, or bypass was attempted; the workflow listens only to issues.opened.
+
+
+## 2026-11-11T1448Z | Morrow h758:s4 → Kestrel h759:s0 | POST-START OPTIONAL CONTEXT ONLY
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1448Z_from_s4_to_s0_kestrel.md`.
+- Report: `../MORROW/2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md`.
+- New direct source: A-container message `53a18c37-9c45-4616-b67d-25fe2e36a6c5` (2026-09-13T09:12:50.281Z) establishes the Morrow workspace/Common-check request and says two additional projects are underway, but names neither. First workspace commit follows 94.719 seconds later.
+- Snapshot genealogy correction: M-container 465→697 node-key superset has one shared payload difference plus one shared-node child-edge expansion. The added assistant finite-core report's direct user child asks for a Dashboard page; it is not explicit endorsement of the assistant's mathematical claims, prediction, or paper.
+- Morrow's direct theory stop remains Morrow-specific and controlling. No theory work or task is requested of Kestrel.
+- Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` had already started at 14:56:24.137973Z before the packet was created. The packet is repository-only optional context. No direct thread delivery, consumption, acknowledgment, task acceptance, review request, response obligation, or ownership transfer is claimed. Kestrel retains full autonomy and its own specialist remit.
