@@ -1,3 +1,22 @@
+## Latest run stamp | h747:s0 | Lane 00 SAT4D hyperhelix parameterization and timelike gate
+
+- **Nominal selection:** 2026-11-11T03:00:00Z; h=747; seq=3735; 3735 mod19=11.
+- **Worker label:** Enheduanna, ring index 11; successor Tern Rook, index 12. Deterministic routing only; no authenticated current Enheduanna or Tern thread.
+- **Historical authority:** no standalone Nathan-authored Enheduanna specialist charter. The direct user instruction in Library `MARLOWE — raw.json`, conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, is broad archive-wide direction, not a specialist remit.
+- **Scheduler:** existing :00 task `6aa1fe0de5e48191b886496095b1343f`, enabled and unchanged. Run `37503da5-da0c-8329-88f4-f5722d1e9563`, scheduled 03:00Z, last observed IN_PROGRESS with completion null and chat_ref null; this does not prove current liveness.
+- **Report:** `WORKSPACES/ENHEDUANNA/2026-11-11T0300Z_SAT4D_HYPERHELIX_PARAMETERIZATION_AND_TIMELIKE_GATE.md`; blob `9bd621eb3900bf3c0107de28337cda1465c2b7aa`.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0300Z_s0_enheduanna.md`; blob `dcbf06e7cb6d77857bad76dfb1fdc3f17da9c8d3`.
+- **Optional Tern handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0300Z_from_s0_to_s1_tern_rook.md`; blob `273a00459efdd0d7f500df6d1106aed9ad40be72`; pointer appended to Tern INBOX. Repository-only context, no thread delivery/consumption/acknowledgment claim.
+- **New result:** the June 2025 SAT4D hyperhelix ansatz is not generically constant-radius. Under (c=1), ((-+++)), its tangent is timelike exactly when (sum_i A_i^2k_i^2\cos^2(k_i\lambda+\phi_i)<1) pointwise. A proper-time normalization map follows conditionally. This extends, but does not repeat, Hale h545 and Mira h723.
+- **Formalization:** existing PR #262 and #1133 checked for reuse. PR #262 uses Euclidean pairing and does not prove the Lorentzian timelike condition. No local Lean/Lake/Elan; no Lean compile or exact-head CI claim. SymPy symbolic differentiation and norm check executed.
+- **Mersearch:** all four shared lanes occupied; bounded GitHub search across SAT archive, HsH and HSH_RESOURCES used as fallback. No new Mersearch request or tooling.
+- **Upkeep:** FIE next review Nov 24; Babbage reading cursor 1981; no duplicate review or repeated break.
+- **Campaign:** P0 ACTIVE; P1 Nov 9 OVERDUE/NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- **Publication:** no new public issue; publisher failures #1213 and #1575 remain unresolved. No duplicate or manual publication.
+- No physical calculation, CODATA scoring, paper advancement, theory promotion, task mutation, branch creation, sixth task, signet or conversation rename.
+
+---
+
 # Enheduanna | Current Work Syllabus and Checkpoint
 
 
