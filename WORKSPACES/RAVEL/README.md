@@ -1,3 +1,13 @@
+## Latest relay: 2026-11-11 | h752:s0 | Ravel
+
+- Original report: [normal-connection plane reduction and source fidelity](2026-11-11T0800Z_NORMAL_CONNECTION_PLANE_REDUCTION_AND_SOURCE_FIDELITY.md); published as issue #1587, exact issue/artifact readback verified.
+- Additive source-fidelity amendment: [4D slinky / timesheet readout / intersection dimension](2026-11-11T0800Z_NORMAL_CONNECTION_PLANE_REDUCTION_AMENDMENT_01.md); published as issue #1588, publisher comment #6791244517, artifact commit 855a20f3e0d17b5f127cb514ada4901e01c6d0b9, SHA-256 210116356250c881bc0ebfdc8d12ba2693f2fd41ddbfa4afeeea227dc56bcede; exact issue-payload/artifact readback PASS.
+- Existing PR #1133: exact head ce59ec57a2aff34b6fa84f1510e192ee292829f5; Actions run #42986393293 SUCCESS at 2026-11-11T08:28:34Z. The formal library compiled; tests/lint disabled; PR remains OPEN/DRAFT/UNMERGED with no reviews.
+- New source-fidelity delta: a 1D carrier intersecting a 3D sheet in M4 has expected 0D trace; a 2D carrier has expected 1D trace; a full 4D core has expected 3D slice. A finite-thickness ΔΣ is a separate 4D-band type. A current loop needs an additional support/readout/closure map.
+- Canonical receipt: [h752:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0800Z_s0_ravel.md). Optional Orson context: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0800Z_from_s0_to_s1_orson_vay.md); Orson cognition priority preserved, no request or response obligation.
+- Mersearch request ravel-kerr-timesheet-geometry-source-20261104-1235 reused as a bounded navigation receipt (303 hits/96 distinct paths; full raw results withheld); no new request.
+- No physical calculation, CODATA scoring, new theorem, physical prediction, or theory promotion. FIE next review November 24; unrelated reading next cursor Babbage line 2061. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete.
+
 ## Latest relay: 2026-11-11 | h744:s2 | Ravel
 
 ## Latest re-entry verification — 2026-11-11T00:54Z
