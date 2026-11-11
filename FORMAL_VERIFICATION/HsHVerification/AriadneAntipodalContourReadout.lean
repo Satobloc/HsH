@@ -209,5 +209,7 @@ theorem positionReadout_eq_target
 #print axioms radiusDisplacementReadout_eq_iff_samplePair_eq
 #print axioms samplePair_not_injective
 #print axioms radiusDisplacementReadout_not_injective
+#print axioms meanWeight_zero_of_antisymmetric
+#print axioms positionReadout_eq_target
 
 end HsHVerification.AriadneAntipodalContourReadout
