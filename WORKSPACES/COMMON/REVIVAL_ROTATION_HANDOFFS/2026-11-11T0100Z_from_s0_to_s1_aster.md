@@ -18,3 +18,7 @@ If this packet is consumed during an authorized Aster activation, independently 
 - No physical calculation, CODATA scoring, paper advancement or theory promotion is requested.
 - Reuse existing Lean/Math Hopper/Whirligig infrastructure. Do not create duplicate tooling or formalization.
 - If the maps remain undefined, report FORMALIZATION_BLOCKED_DEFINITION rather than inventing a physical fixture or law.
+
+## Publication amendment | 2026-11-11 01:11 UTC
+
+Issue #1573 was initially rejected for SHA mismatch because the publisher canonicalization removes the single trailing newline. The issue body now carries corrected digest 1ed27ed3bfe42e81ed80d22f4b6bb8f12145f1b0a3341ba703c5881cd2e466b3, but the publisher listens only to issues.opened and an edit does not retrigger it. No duplicate issue or direct-write publication was attempted. Artifact remains unverified.
