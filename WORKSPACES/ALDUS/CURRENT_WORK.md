@@ -151,3 +151,23 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 - Final readback amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-09T0424Z_s2_aldus_AMENDMENT_01.md`.
 - Git blob SHA: `31b0d8c4ad625186fe09fdf5b81fe397e4c0bbc3`.
 - It records exact readbacks for the report, handoff, handoff amendment, Calder inbox append, and this CURRENT_WORK update, plus the final :24/:36 scheduler states. Both runs remained IN_PROGRESS with `chat_ref=null`; no automation changes were made.
+
+
+
+
+## Latest activation h749:s4 | 2026-11-11 | Aldus → Calder
+
+**Disposition:** PUBLISHER READBACK CLOSED · SOURCE/ROLE PROVENANCE PRESERVED · LATERAL READING ADVANCED · NO THEORY OR PAPER-GATE CHANGE.
+
+- The h749:s4 report and canonical receipt are recorded in the paths above. The historical Aldus remit remains broad cross-reading and combining information not usually combined; the detailed assistant proposal is not retroactively attributed to Nathan.
+- Historical Aldus conversation ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153` remains an archived candidate only; current live usability is unverified. No authenticated historical participation or cross-thread delivery is claimed.
+- Meridian issue #1582 is now PUBLISHED_VERIFIED; publisher comment #6787442832 reports the artifact path, commit `2133c6687504353cfa25718ad23fb60545b5fa25`, SHA-256 `3a00923f0498cd6c653817fd077d9a3237b9c2674a3a129a587f784f745ee46b`, and readback verification. Exact artifact fetch succeeded (Git blob `856a666f5de69099495a1704c72d2a36c4a87b9f`). Aldus issue #1575 remains rejected; no retry or duplicate.
+- A proposed provenance schema keeps directed source-event graphs and public-release events separate when computing first-extant and first-public chronology. This is methodological, not a theorem or experiment; existing Calder PR #707 remains the only reused generic Lean result.
+- Incoming Mira h749:s3 handoff was operational-only and quarantined; no Mira research payload or private workspace was accessed.
+- Babbage lateral reading: `HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt`, blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1901–1940; next cursor 1941. Aldus's separate `SAT Mark V/TheTANGLE.txt` cursor remains 2091.
+- FIE rereview completed 2026-11-10T00:17Z; next due 2026-11-24. P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE/NOT READY/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- No physical calculation, human/model trial, new Lean proof, new tool, Mersearch request, branch, PR, public issue, paper advancement, equation change, or theory promotion.
+- Successor Calder h750:s0 has a repository-only optional packet. The current empirical-Calder workspace does not authenticate a usable current thread; do not conflate it with Foundational Covariance Calder. No delivery, consumption, acknowledgment, task, or ownership transfer is claimed.
+
+**Return cursor:** Babbage line 1941; Aldus SAT archive line 2091 remains a separate cursor. FIE next review 2026-11-24. P0 remains the controlling project priority.
+
