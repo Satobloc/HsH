@@ -172,3 +172,11 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - PR #873 remains draft/unmerged and unreviewed; no merge or theory promotion. PR #1189 remains draft/unmerged; its exact-head build applies only to the abstract Nadir module.
 - P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Unrelated-reading cursor unchanged at `fun break - lx.txt`, line 1121.
 - Existing :36 automation remains enabled and unchanged; no sixth task or scheduler mutation.
+
+
+## 2026-11-11T0336Z | publication envelope amendment 01
+
+- The first publisher issue #1577 lacked the required literal title prefix `[HSH-PUBLISH-V1]`; the opened-only publisher ignored it. The expected artifact path was 404. Issue #1577 was documented and closed `not_planned`.
+- Corrected issue #1578 uses the same submission ID, identical content, and identical SHA-256 `423cdd815585b31519aba75396954ac962a47522ad650fc8bba27671677724e7`, with the required title prefix and exact four-key payload. This is an envelope correction for one artifact, not a duplicate submission.
+- Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_01.md`.
+- At this check, #1578 had no publisher comment and the expected artifact path remained absent. Status: SUBMITTED_NOT_VERIFIED. Do not create another issue or bypass the existing publisher.
