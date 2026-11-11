@@ -350,3 +350,17 @@ Issue #1573 initially returned REJECTED: SHA-256 mismatch. The publisher canonic
 - Current h745 occurrence remains recorded IN_PROGRESS with no run-level chat_ref. The cached latest_result is from the preceding h744 Meridian run and is not evidence of h745 completion.
 - :48 automation remains enabled. Its h744 Sable occurrence is recorded FAILED; its cached latest_result belongs to the preceding h743 Kestrel run. No matching h744 Sable receipt or Loom handoff was found.
 - No automation was created, disabled, rescheduled or otherwise mutated.
+
+## Latest activation | h752:s3 | 2026-11-11T08:36Z
+
+- Deterministic selection: Loom index 1; successor Aster index 2. Historical Tag Conversation Corpus source re-read from HsH raw blob 6668ca60e451f8737903423727da7f9a430484e1 (40 hex characters); Amendment 02 corrects Amendment 01's mistaken 39-character diagnosis.
+- New report: WORKSPACES/LOOM/2026-11-11T0836Z_CLAIM_ATOMIZATION_AND_SCORE_RECONCILIATION.md; blob 455954e862634411698f67f7a9dd4120abc72da4. Source-custody Amendment 02 blob c3d5fc6262cb1d902e8d4aee616212293734aa5e. Tag ledger Section Q blob 44ae38ac796a4435aa2c3ac4479ccb3682b15d03.
+- New lateral read: fun break - lx.txt lines 1041–1080; next cursor 1081. Lines 1001–1040 were already read by Hale and were not repeated. No physical break is claimed.
+- New method proposal: Claim Atomization and Scoring Contract (CASC), freezing units, atomization, verdicts, evidence, denominator, and score reconciliation. This is not a deployed schema, LLM experiment, or H(s)H prediction.
+- Existing Orson PR #850 net_gain_identity reused only as a generic conditional arithmetic reference. Existing merge-reference CI run #42795140460/job #129758320557 re-read; no new Lean module or build. Source-specific formalization remains blocked by missing atomization and adjudication oracle.
+- Sable h752:s2 handoff/report arrived post-start and was read as optional context. P0 8/8 exact; static symlink-file risk remains Sable-owned; no symlink observed, no restricted target opened, no code changed.
+- Historical source Amendment 02 and report were created. Report publisher issue #1589, SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92. At this checkpoint no publisher comment was present: SUBMITTED_NOT_VERIFIED; no duplicate issue.
+- Tern scheduler amendment records same-run-ID start-time snapshots 08:32:57.016252Z and 08:32:57.516530Z (delta 0.500278s); no cause inferred.
+- P0 ACTIVE; P1 OVERDUE/NOT READY (Orson); P2 HOLD; P3 INCOMPLETE. FIE next November 24.
+- No physical calculation, fit, prediction, equation change, theory promotion, paper-gate advancement, task/ID/schedule/phase/prompt change, new tool, or sixth task.
+- Current :36 run e129241f-3794-8333-ac5d-13c0eb134fca last observed IN_PROGRESS, chat_ref null; cached result remains h750 Nadir. Automation remains enabled and unchanged.
