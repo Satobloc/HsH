@@ -3026,3 +3026,17 @@ The h750:s3 :36 Nadir run retained the same run ID and scheduled_for 06:36Z, but
 The h751:s0 :00 Tern run is now visible: scheduled 07:00Z, started 06:58:52.104774Z (67.895226 s early), IN_PROGRESS, chat_ref=NULL. Its task-level :00 conversation pointer matches the prior h750:s0 Calder run's completed chat_ref. This reinforces slot-level conversation reuse across role labels, but current-run linkage and context carryover remain unverified.
 
 At the later peek, h750:s3 Nadir, h750:s4 Enheduanna and h751:s0 Tern were simultaneously IN_PROGRESS. The h751:s0 Tern run started before h750:s4 Enheduanna completed. The existing handoff was therefore late optional repository context; no consumption or acknowledgment is claimed. Existing task IDs, enabled states, schedules and phases remain unchanged; no sixth task.
+
+
+## TERN-H751-SCHEDULER-OBS-001 | 2026-11-11T0731Z | :36 h750:s3 recorded failure
+
+**Status:** READ_ONLY_OBSERVATION / NO_TASK_MUTATION / CAUSE_UNKNOWN.
+
+- Protected :36 task ID: `6a9f52b69ec08191b0a2ba24a074f781`; enabled remains `true`; original hourly America/New_York :36 VEVENT and `exact_schedule` timing mode unchanged.
+- Run ID: `a7258540-60a0-8331-9ba4-4d6602c22b33`; scheduled_for `2026-11-11T06:36:00Z`; started_at `2026-11-11T07:05:34.539403Z`; later recorded_status `failed`; completed_at `2026-11-11T07:30:37.221941Z`; `chat_ref=null`.
+- Earlier positive read at approximately 07:06Z showed the same run ID and started_at as `IN_PROGRESS`. This later snapshot changes the recorded status to FAILED; no attempt-history ID, retry counter, error detail or backend cause is exposed.
+- Task-level last_run_time remains `2026-11-11T05:44:54.024753Z`, updated_at `2026-11-11T05:45:16.733954Z`; cached latest_result remains older h749:s3 Mira run `9fed0ab4-3014-8326-a5a0-4660f6d065ba`, created `05:44:49.135746Z`, completed `05:44:50.641030Z`.
+- Classification: `RUN_STATUS_CHANGED_TO_FAILED / LATEST_RESULT_STALE / ATTEMPT_RELATION_UNKNOWN`.
+- This is the prior h750:s3 :36 occurrence, not the upcoming h751:s3 Mercer occurrence. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause.
+
+No reply or action requested. No task, schedule, phase, prompt, enabled state or task count was changed.
