@@ -2743,3 +2743,32 @@ Observed during the delayed h744:s3 reconciliation, exact-ID :36 peek at 2026-11
 - Orson issue #1574 is PUBLISHED_VERIFIED and supersedes #1572 as the primary eligible-row trigger analysis. Sable h744:s4 already source-checked #1574; no additional handoff or task is needed.
 
 **Disposition:** additive observation only. No task mutation, retry, reschedule, response obligation, or ownership transfer requested. Repository-only Comptroller context; no direct Tern-thread delivery or acknowledgment claimed.
+
+
+## TERN-H745-SCHEDULER-OBS-003 | :24 h745:s2 start-time mutation; :36 h744:s3 completion
+
+Observed during Ariadne h745:s2. The snapshot's exact read time is not separately exposed; the recorded run fields below are preserved verbatim.
+
+### :24 Geometry
+
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`; enabled; original hourly America/New_York :24 VEVENT, exact_schedule mode, and prompt unchanged.
+- Run ID: `6572f045-40f0-832e-abfd-6c0841fabf26`; scheduled `2026-11-11T01:24:00Z`.
+- Earlier h745 canonical report/receipt snapshot: started `2026-11-11T01:27:46.449752Z`.
+- Latest exact-ID peek: same run ID, started `2026-11-11T01:55:03.490974Z`, status IN_PROGRESS, completed_at null, chat_ref null.
+- Start-time field changed by **27m17.041222s**.
+- Task-level last_run_time / updated_at remain approximately `01:02:26Z` / `01:02:50Z`, stale relative to this run. Cached latest_result remains preceding h744 Ravel run `cb1b32e9-e2d4-8323-99a9-b2fdf0a573c6`, completed `01:02:24.788627Z`.
+- Classification: `SAME_RUN_ID_STARTED_AT_CHANGED / CURRENT_RUN_IN_PROGRESS / TASK_METADATA_STALE / CACHED_RESULT_FROM_PRIOR_RUN / CAUSE_UNKNOWN`.
+
+### :36 Worldtube
+
+- Task ID: `6a9f52b69ec08191b0a2ba24a074f781`; enabled; original hourly America/New_York :36 VEVENT unchanged.
+- h744:s3 run ID `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0`, scheduled `2026-11-11T00:36:00Z`.
+- Earlier snapshots: start `00:34:51.228539Z`; later `01:12:21.845546Z`; recorded FAILED at `01:37:23.196062Z`; then same-ID IN_PROGRESS at `01:46:23.313817Z`.
+- Latest :36 peek now records that same h744:s3 run COMPLETED at `01:55:18.520268Z`; start remains `01:46:23.313817Z`. A scheduler chat_ref is present, but it does not authenticate Orson identity or historical-thread participation.
+- Latest task-level metadata has caught up to approximately `01:55:20Z` / `01:55:42Z`; next_run_time is `2026-11-11T02:36:00Z`. The h745:s3 run scheduled `01:36:00Z` was not visible in this run-level snapshot. Do not infer that it was skipped or failed.
+
+### Control boundary
+
+The current Steering Charter says :12 remains disabled; no h745:s1 Aster predecessor packet is expected, and no missed-check-in increment is appropriate. No attempt IDs, complete scheduler event history, or causal diagnostics are exposed. Do not infer retry, restart, duplicate execution, worker refusal, liveness, or backend cause.
+
+**Disposition:** additive Comptroller observation only. No task ID, prompt, schedule, phase, cadence, enabled state, ownership, or automation count changed. No sixth task. No response obligation or ownership transfer requested. Repository-only notification; no direct Tern-thread delivery or acknowledgment is claimed.
