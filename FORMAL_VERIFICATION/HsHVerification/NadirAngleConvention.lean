@@ -19,10 +19,10 @@ Nadir readout metric.
 namespace HsHVerification.NadirAngleConvention
 
 /-- Tangent slope for a pitch angle measured from the plane. -/
-def planePitchSlope (axial radial : ℝ) : ℝ := axial / radial
+noncomputable def planePitchSlope (axial radial : ℝ) : ℝ := axial / radial
 
 /-- Tangent slope for the complementary angle measured from the plane normal. -/
-def normalIncidenceSlope (axial radial : ℝ) : ℝ := radial / axial
+noncomputable def normalIncidenceSlope (axial radial : ℝ) : ℝ := radial / axial
 
 /-- Under positive nonzero axial and radial components, the two slopes are reciprocal. -/
 theorem plane_normal_slopes_reciprocal
@@ -32,6 +32,5 @@ theorem plane_normal_slopes_reciprocal
   have haxial0 : axial ≠ 0 := ne_of_gt haxial
   have hradial0 : radial ≠ 0 := ne_of_gt hradial
   field_simp [haxial0, hradial0]
-  <;> ring
 
 end HsHVerification.NadirAngleConvention
