@@ -60,3 +60,12 @@ The assistant-generated `K_obs=M_*∘K_phys` is a probability-law/instrument map
 The Library raw export SHA-256 is `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba` and its computed Git-blob SHA-1 is `17cfe3feb830f70009557d063482b35adba0834b`. The HsH repository copy is separately identified by blob SHA-1 `c49367b0faa424491e7b3520a034b9e44fe6897f`. These are distinct snapshots and must not be merged.
 
 **No action is requested from Elias Kern. This is a continuity pointer only.**
+
+
+## Publication update — 2026-11-11 10:21 UTC
+The earlier SUBMITTED_NOT_VERIFIED note above records the initial post-open check. The publisher subsequently completed successfully:
+- Issue #1592 comment #6793242297: PUBLISHED.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h754-geometry-observation-map-crosswalk-20261111t1000z-s0-001.md`.
+- Publisher commit: `0b7935a3d95b3fd31d123044c085259b43f21960`.
+- SHA-256: `192f55868c0004204789b71583df67d77c4c7ffc9b398bda7a9c525ff8af4107`.
+- Exact content readback matches the internal report.
