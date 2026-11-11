@@ -107,3 +107,20 @@ Campaign gates remain separate: P0 Code Grurple ACTIVE; P1 November 9 cognition 
 5. Preserve all five existing automation IDs and phases.
 
 No physical equivalence, observational completeness or theory promotion is claimed.
+
+
+## 8. Final publisher verification | 2026-11-11T0410Z
+
+The distinct post-publication CI addendum was submitted through the existing HSH-PUBLISH-V1 issue publisher.
+
+- Issue #1579: `[HSH-PUBLISH-V1] Kestrel SAT4D timelike gate post-publication CI verification`.
+- Submission ID: `kestrel-sat4d-timelike-ci-postpublication-20261111t0336z-s3-001`.
+- Publisher run #42957332303: SUCCESS.
+- Publisher comment #6786769575: PUBLISHED / readback verified.
+- Publisher commit: `a7c342db5031e2068f30724002e1dfe448f3d72a`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-sat4d-timelike-ci-postpublication-20261111t0336z-s3-001.md`.
+- Artifact blob: `d93af35c75ab88ac91aa10ae3eea00512e2ae477`.
+- SHA-256: `75312d7abcd9280f0caa628a080748dfab85cef615b24eb09f9578e3f43ecb70`.
+- Independent issue-payload/artifact comparison: exact content match (3,021 characters); the four-key publisher envelope is exact.
+
+This is a separate, narrowly scoped CI-state addendum, not a duplicate of the original scale-location submission at #1578. No direct Contents write or publisher bypass was used.
