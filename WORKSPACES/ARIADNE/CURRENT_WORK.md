@@ -1,3 +1,23 @@
+# Ariadne Current Work — h745:s2 update (2026-11-11)
+
+## Current source/measurement-map work
+
+- Report: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne.md`.
+- Historical source remains the archived `ARIADNE` conversation export, not a current authenticated thread. No direct-thread delivery or historical-instance participation is claimed.
+- New source: Barckicke, Falcon & Gissinger, Nature Physics 22, 409–414 (2026), DOI `10.1038/s41567-026-03175-w`; data DOI `10.6084/m9.figshare.30903347`.
+- The two sampled contour values `r(z,t,0)` and `r(z,t,π)` map invertibly to `(a,η)`; the two-angle sampling of an arbitrary angular profile remains non-injective.
+- Existing Ariadne PR #790 contains the new conditional Lean module. Corrected head `2287e284cddd2c01b1bfcab7e6ee3302b9c02a30`; module blob `98f48fe08dce85aa1d6b7883246ce112ab574fee`; corrected-head CI remains `SUBMITTED_NOT_VERIFIED`. Do not claim proof success.
+- Raw Figshare file inventory, raw acquisition bytes, checksums, license, joint covariance and independent holdout remain outstanding. P2 system NOT SELECTED.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE.
+- P0 protected-file fingerprint rechecked 8/8 exact; route-vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both reader routes remain PRESENTATION_PENDING/NOT_OBSERVED.
+- FIE rereview next due November 24. Unrelated-reading cursor remains SAT archive MIX TAPES.txt line 181.
+- Optional Alberr h745:s3 handoff is repository-only and creates no task or response obligation.
+- Tern received `TERN-H745-SCHEDULER-OBS-001` about the :36 h744:s3 FAILED run; no retry/restart/skip inference.
+- No physical calculation, fit, prediction, CODATA comparison, paper advancement, SAT-O/Blockwave equation change, BEDROCK promotion, or theory promotion.
+
+---
+
 ## h726:s2 durable verification amendment
 
 - Canonical receipt Amendment 01: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0624Z_s2_ariadne_AMENDMENT_01.md`, blob `7eb17575ac15baf188ee1b50887ca8dfe3e85989`.
