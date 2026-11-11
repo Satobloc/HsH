@@ -1,9 +1,23 @@
 # Orson Vay — Current Work
 
-**Updated:** 2026-11-09T2200Z; h718:s0 source-role / observer-memory fidelity  
+**Updated:** 2026-11-11T0424Z; h748:s2 target-error sentinel / 850-row sensitivity  
 **Routing label:** Orson Vay, index 18; not authenticated historical-instance participation  
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
 **P1 gate:** November 9, 2026 — ACTIVE / METHODS-ARCHIVAL / NOT READY
+
+## Latest verified state | 2026-11-11T0424Z | h748:s2
+
+- **Routing:** Orson Vay (index 18), successor Sable (index 0). Deterministic ring label only; current :24 run `15ce1def-a9f0-8327-afdc-8126a664b88d` is IN_PROGRESS with `chat_ref=null`; no authenticated Orson thread.
+- **New P1 source finding:** Qwen set `CB-91490`, negation, fourth question: target response `[ERROR]`, NLI trigger flag true, repair response `[ERROR]`, final answer `Unclear`. The evaluator passes a target error sentinel into the shared NLI checker when prior pairs exist. The archived record omits the triggering pair and raw judge output; do not call this a validated contradiction.
+- **850-row sensitivity:** 17 files / 136 pairs; baseline category-position adjusted mean 0.1326232362. Removing the one flagged error row only from Qwen pairs gives 0.1326902978; removing all 34 eligible Qwen error rows gives 0.1338882467. No sensitivity-specific CI; the primary interval remains the one published in #1574.
+- **Public addendum:** issue #1581, submission `orson-qwen-error-input-sensitivity-20261111t0424z-s2-001`, PUBLISHED_VERIFIED; publisher comment #6787255869; artifact blob `bec8497650698b7bc3c1fa9cb5a9ce5ef64d284a`; SHA-256 `bcf354cb64ca0f9846762e69b15d72d966bc6f5f84e2548a695eeed4693a6179`. Exact issue-payload/artifact string comparison passed. This is an addendum to #1574, not a P1 paper completion.
+- **Lean boundary:** PR #850's merge-reference build #42795140460 succeeded with the exact same target-module blob as the PR head. The theorem `error_sentinel_maps_to_false` concerns an error sentinel in the judge's output, not a target-model error in the judge's input. No new theorem or PR was created; exact-head standalone and global axiom audit remain outstanding.
+- **P1 gate:** issue #564 OPEN / NOT READY. OV-49–OV-53 matched-prompt bank NOT RECOVERED; authorized endpoint NOT AVAILABLE; canonical source LaTeX, PDF, reader, independent review and author disposition not verified. No model trial, human session or API spend.
+- **P0/P2/P3:** P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. Eight protected P0 blobs matched exact expected SHAs at observed main head `d531335fdf25ee00bd3de384b78a670dbac2d0de`.
+- **Mersearch:** reused existing three-repository origin-bank request; raw results withheld; all four request lanes occupied; no new request.
+- **Freshness:** FIE next review November 24; Babbage reading cursor 2021.
+- **Successor:** Sable h748:s3 :36 run had already started before the repository handoff. Any packet is post-start optional context only; no cross-thread delivery or acknowledgment.
+- **No-change boundary:** no task, schedule, prompt, phase, cadence, branch ownership, paper gate, BEDROCK theory, SAT-O or Blockwave equation changed. No sixth task.
 
 ## Current P1 state
 
@@ -14,7 +28,7 @@
 - No new model trial, human session, or API spend is authorized or claimed.
 - Canonical source LaTeX, compiled PDF, readable reader route, independent/hostile review, and author disposition remain NOT VERIFIED / NOT COMPLETE.
 - Issue #564 remains the P1 docket.
-- PR #850 remains OPEN / DRAFT / UNMERGED, branch `research/orson-p1-shared-nli-bound-20261028t06z`, current head `3bb0c57b56e1eff49139dcc21fcfe518a7717b8d`; `OrsonCGDProjectionGate.lean` blob `b60d3ad7d50ede1c5c58f5a15c178ba8e1a281e8`, root aggregator blob `7bd69ca93c399ad39b0092015809e0418fe8ef0e`. Actions run #42416933193/job #128536972640 SUCCESS on merge ref `17c3d7409cb13acaa9b9a06170af0fa7bbd26c39`, merging that head into base `598a45b3feb9378eb8f14ff069ec9080137113c2`; Lean 4.34.0 / Lake 5.0.0, 8,983 jobs, module built at 8981/8983 and root at 8982/8983. New theorem-specific axiom outputs observed; no `sorryAx` or `admit` in captured log. Merge-reference only; exact-head standalone, tests, lint, nanoda, leanchecker and global axiom audit remain unverified/skipped.
+- PR #850 remains OPEN / DRAFT / UNMERGED, branch `research/orson-p1-shared-nli-bound-20261028t06z`, current head `3041f7c2cd717b51945dacaf1d24bc69a0394987`; `OrsonCGDProjectionGate.lean` blob `b60d3ad7d50ede1c5c58f5a15c178ba8e1a281e8`. Actions run #42795140460/job #129758320557 SUCCESS on merge ref `3bced884cbea0a145e9e117a51a787283fe84c2a`; Lean 4.34.0 / Lake 5.0.0, 8,984 jobs. The target-module blob at PR head equals the compiled merge-reference blob. Theorem-specific axiom outputs were inspected; `archived_projection_does_not_identify_trigger_pair` reports no axioms, while the checker-view/error-sentinel theorems report `propext` and `Quot.sound`. Merge-reference only; exact-head standalone, tests, lint, nanoda/leanchecker and global axiom audit remain unverified/skipped.
 - Publisher issue #1388 for VEY-029 was rejected because its submission ID exceeded the 80-character limit. No artifact exists; do not resubmit that artifact or create a duplicate issue.
 
 ## New cognition work
@@ -269,3 +283,16 @@ The 17 model files are distinct archived outputs but share one benchmark/evaluat
 - Existing :36 task ID, enabled state, exact hourly VEVENT, prompt and phase remain unchanged. No sixth task.
 
 Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0036Z_s3_orson_vay.md`. Tern scheduler observation: `TERN-H745-SCHEDULER-OBS-002` in `WORKSPACES/TERN/INBOX.md`.
+
+
+## 2026-11-11T0424Z | h748:s2 | Qwen target-error sentinel propagation and sensitivity
+
+- Report: `WORKSPACES/ORSON_VAY/2026-11-11T0424Z_QWEN_TARGET_ERROR_SENTINEL_PROPAGATION_AND_850_ROW_SENSITIVITY.md` (current blob recorded in the canonical h748 receipt).
+- Source: pinned ConsistencyBench commit `bfc676baa848c7f1715bb73aee148180de15516e`; evaluator blob `0453540cb7c19227601e59fb342fa93e736da849`; sample blob `10eb2da27c84c706d8e9e2325afca864fcae6a0d`; Qwen blob `38393e09d44de963d109b00f66a1378f5b431720`. All 17 result-file blob IDs in the existing Orson script matched 17/17 at the pinned source commit.
+- Qwen has 47 initial target-call error rows; 34 occur at eligible later positions, and one is flagged. The flagged row is `CB-91490` / negation / fourth question; initial and revision target calls both return `[ERROR]`, with final extraction `Unclear`.
+- Reproduced 850-row / 136-pair baseline: raw mean phi 0.3744428585; category-position-adjusted mean 0.1326232362. Removing the one flagged error row from Qwen pairs: 0.1326902978. Removing all 34 eligible Qwen error rows from Qwen pairs: 0.1338882467. Descriptive point estimates only; no sensitivity-specific bootstrap CI.
+- Existing Lean PR #850 merge-reference build #42795140460 is successful, with exact target-module blob match to the PR head. The error-sentinel parser theorem concerns judge-output errors, not target-error input exclusion. No new theorem or PR.
+- Public addendum #1581 is PUBLISHED_VERIFIED; exact artifact readback passed. It supplements #1574 and does not advance P1.
+- No new model trial, human session, API spend, manuscript, PDF/reader certification, independent review or paper-gate advancement. P1 remains OPEN / NOT READY; P2 HOLD; P3 incomplete.
+- Babbage lines 1981–2020 read; next cursor 2021. FIE next review November 24.
+- No task/ID/schedule/phase/cadence change; no sixth task.
