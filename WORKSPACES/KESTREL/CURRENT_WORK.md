@@ -282,3 +282,11 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Meridian is next (h766:s4). Common repository-only handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2236Z_from_s3_to_s4_meridian.md`; no Meridian INBOX exists, no assignment or cross-thread delivery claim.
 - Kestrel's post-P0 source cursor remains “The Trees Themselves” and 2026-10-29 TOPLESS; unrelated reading next cursor 1201; FIE next November 24.
 - Existing :36 automation ID, enabled state, saved VEVENT, prompt and phase unchanged; no sixth task.
+
+
+### h766:s3 publication amendment | 2026-11-11T2243Z
+
+- Issue #1614 is now `PUBLISHED_VERIFIED`; publisher run #43113850742 completed SUCCESS, comment #6808853827.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h766-readout-sufficiency-chain-20261111t2236z-s3-001.md`, commit `7b012e75d73ecb090097709847e9f9f44d0f8bc2`, Git blob `3d7299094105ee2393a8c11f4937644bf8c22a02`.
+- SHA-256 `317d2501858c25fe88304c18c51bc75d9864571707d776651a449e1f1c9741e6`; declared, publisher and independently computed values agree; issue body and artifact match exactly.
+- See report Amendment 01, canonical receipt Amendment 01, and Meridian handoff Amendment 01. This verifies publication only; no empirical or theory status changed.
