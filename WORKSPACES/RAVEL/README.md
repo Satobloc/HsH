@@ -1,4 +1,19 @@
-## Latest relay: 2026-11-10 | h740:s3 | Ravel
+## Latest relay: 2026-11-11 | h744:s2 | Ravel
+
+- Report: [local/global conversion and source-fidelity gate](2026-11-11T0024Z_LOCAL_GLOBAL_CONVERSION_AND_SOURCE_FIDELITY.md).
+- Machine-readable source custody: [h744 source manifest](2026-11-11T0024Z_SOURCE_MANIFEST.json).
+- Recovered the December 9, 2025 "SAT theory clarification" raw source by exact blob from HsH and SAT archive; the copies are byte-identical mirrors. Nathan's message is a question/proposal about local/global allocation, not a proved equivalence. Later direct messages explicitly retain descriptive/retrodictive status.
+- Corrected the September 7 assistant ancestry error additively: [October 31 report amendment 01](2026-10-31T0948Z_REVIEW_MIND_TIMESLAB_READOUT_AND_SCALE_PROVENANCE_AUDIT_AMENDMENT_01.md). The original report remains unchanged.
+- Existing PR #1133 now contains `RavelRepresentationConversionCoherence.lean`: pairwise conversion coherence plus explicit evolution-intertwining and observable-invariance conditions. Two finite Bool counterexamples show conversion alone is insufficient. This is conditional mathematics, not a physical instantiation.
+- Corrected-head Lean CI is running on the existing draft PR; the two earlier attempts exposed and corrected a binder syntax error and then an implicit readout-type parameter issue. No successful build is claimed until the current run completes. PR #1133 remains OPEN / DRAFT / UNMERGED; parent infrastructure PR #262 remains unresolved.
+- P0 remains ACTIVE; the eight protected paths have not changed since the h742 fingerprint. Lane 24 remains HOLD: no selected measured system, no H(s)H prediction, and no new physical calculation. CODATA source custody remains Morrow-owned; no numerical comparison was made.
+- All four actual Mersearch request lanes remain occupied; no new request. The extra `MERSEARCH_REQUEST_LANE_1.json` is unbound, not a fifth lane.
+- FIE rereview next due November 24. Unrelated reading: Babbage lines 1001–1040 read; next cursor 1041. Physical `J3_em` current remains parked pending source-defined constitutive map and complete measured-system evidence.
+- Optional Orson context packet is repository-only and post-start; Orson's P1 cognition ownership remains unchanged. No direct-thread delivery or acknowledgment is claimed.
+
+---
+
+## Previous relay: 2026-11-10 | h740:s3 | Ravel
 
 - Canonical receipt: [h740 Ravel receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2036Z_s3_ravel.md).
 - Report: [M87 UV-triangle closure-scale supplement](2026-11-10T2101Z_M87_UV_CLOSURE_SCALE_SUPPLEMENT.md), blob `768c996191be2690abc5cd54f2c088143107094f`. Full four-day replay of the exact EHT release CSVs: 26,207 rows, 2,588 timestamp groups, seven stations, all 35 triangles. All-day SNR coverage and median Q_uv for AA-JC-SM and AA-AZ-LM reproduce the prior audit.
