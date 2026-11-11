@@ -234,3 +234,46 @@ In particular, the Jupiter inner/outer answer does not define a present-state st
 ### Next cursor
 
 User node 371 is already covered by the existing user-role pass. Resume with assistant node 372 for a full read; its partial preview is tagged but does not count as full coverage. The source-tag ledger remains additive. No current theory status changes.
+
+
+## Continuation K | 2026-11-11T0100Z | h745:s0
+
+**Source:** 2024 DIMENSIONAL GRAVITY raw conversation, conversation ID 252d05c0-22ed-4ea2-a474-7966ab13145a, immutable blob 2cea1924266418e19b825b95ae51e6b7cbace7e1.
+
+### Completed assistant-span reads
+
+| Current-ancestry node | Message ID | Raw UTC | Additive tags | Source status |
+|---:|---|---|---|---|
+| 372 | ca88f6a0-109a-4afa-843e-665cf40d2ea5 | 2026-06-01 21:40:47.991Z | ASSISTANT-RETROSPECTIVE-SYNTHESIS; HYPOTHESIS-TO-ASSUMPTION-UPGRADE; CENTRAL-ORIGIN-REASSERTION; DARK-MATTER-REINTERPRETATION-RECAP; ENERGY-BLEED-NARRATIVE; NOT-NATHAN-DIRECT; NOT-INDEPENDENT-EVIDENCE | Full read supersedes the earlier partial-read status. Fourteen-phase assistant recap, not a second witness. |
+| 374 | 73ab2afb-0093-4fd5-9b88-892f18034e31 | 2026-06-01 21:42:10.805Z | ASSISTANT-RETROSPECTIVE-RECAP; ASSISTANT-IMPLICATION-CHAIN; STANDARD-PHYSICS-CONTRAST-OVERBROAD; METADATA-ACCESS-LIMIT-CLAIM; NOT-NATHAN-DIRECT | Full read supersedes the earlier partial-read status. |
+| 449 | 39257198-526b-4d65-a1aa-75d5d6d11a9c | 2026-06-01 21:47:48.827Z | ASSISTANT-GENERATED-SHARED-FILAMENT-HISTORY; ASSISTANT-GENERATED-INTERACTION-DEPTH; FUTURE-HISTORY-DEPENDENT-GRAVITY-EXTRAPOLATION; UNDEFINED-COMPLEXITY-FUNCTIONAL; NO-TRANSFER-LAW; NO-OBSERVATION-MAP; UNMATCHED-GALAXY-COMPARATOR; JUPITER-BASELINE-CONFLATION; NOT-NATHAN-DIRECT; NOT-INDEPENDENT-PREDICTION | Adds names and proposed variables absent from the direct source. No equation, comparator or measurement. |
+| 451 | f7359f9a-bbda-4ed1-b54d-4e7b4596ccc1 | 2026-06-01 21:50:53.731Z | ASSISTANT-PARTIAL-PAPER-COMPARISON; DISTINCT-SAT-ACRONYM-FRAMEWORKS; PARTIAL-EXCERPT-ONLY; PROVISIONAL-OVERLAP-CLAIM; NO-FULL-DOCUMENT-REVIEW; NOT-NATHAN-DIRECT | Assistant admits it has not read the papers cover-to-cover. |
+| 453 | 17f5bbb3-cbe6-41f0-a30f-41f8854d6ce9 | 2026-06-01 21:52:46.277Z | ASSISTANT-GENEALOGY-NARRATIVE; DESCENDANT-HYPOTHESIS; FOSSIL-RECORD-METAPHOR; OVERCLAIMED-PHILOSOPHICAL-ANCESTRY; PARTIAL-PDF-EXCERPTS; NOT-VERIFIED-CHRONOLOGY; NOT-NATHAN-DIRECT | User's later-variant clarification supports broad family relationship, not the assistant's specific genealogy. |
+| 455 | 8bbfcd6d-3a9d-41a1-b8de-bfbe45822c83 | 2026-06-01 21:53:45.066Z | ASSISTANT-EVOLUTIONARY-METAPHOR; ASSISTANT-INVARIANT-CORE-PROPOSAL; HISTORY-AS-PHYSICALLY-REAL-ASSISTANT-ASSERTION; GLOBAL-ARROW-FROM-NETWORK-COMPLEXITY-UNPROVEN; NOT-NATHAN-DIRECT; NOT-INDEPENDENT-EVIDENCE | “History is physically real” is an assistant-generated candidate principle, not a verbatim user axiom. |
+
+### Tool-node boundary
+
+- Nodes 399-447 are empty tool-state/retrieval nodes in the selected ancestry. They supply no independent source content and receive non-content retrieval tags only.
+- Node 448 is a tool-generated retrieval-instruction payload, not a theory source or user statement.
+- Earlier page markers/excerpts 376-398 remain as recorded in section J: partial PDF retrieval only, pages 1-11 of 150, source authorship and full PDF bytes unresolved. No equation is promoted from those snippets.
+
+### Source-fidelity findings
+
+1. Direct message aaa26f3d-e831-49cd-976e-a85c5e3b749d explicitly makes spherical expansion optional and the model heuristic rather than true ontology. Assistant recap 372 reasserts a central primordial origin and upgrades proposals into defining/core assumptions.
+2. Direct material distinguishes four-dimensional structural interaction from the three-dimensional time-surface manifestation. Keep an interaction map and a readout/intersection map separate.
+3. Direct message aaa26227-0c05-4cf7-8b37-7091cf0cd942 proposes interaction-complexity-dependent attraction. The assistant adds “shared filament history” and “interaction depth” without defining either.
+4. The Jupiter example is not a discriminator without a residual against a complete present-state N-body/GR baseline. Distance-dependent perturbations are already expected in ordinary gravity.
+5. The galaxy comparator matches only masses, separation and relative velocities, not a complete present state. It cannot isolate a future-merger effect as written.
+6. The June 2026 user clarification calls the later Scalar-Angular-Torsion material one of many variations. The assistant's “descendant/fossil record” narrative is stronger than the evidence from partial PDF excerpts supports.
+7. The early dark-energy sign concern remains an explicit negative constraint. No mechanism or sign resolution is derived.
+
+### Formalization and evidence triage
+
+- The conditional transverse intersection of a 1D filament with a smooth 3D hypersurface in 4D has dimension 1+3-4=0. This is a clean conditional statement, not proof of particle ontology. Reuse existing projection/intersection work.
+- The interaction-history gravity proposal remains FORMALIZATION_BLOCKED_DEFINITION: no typed history space, complexity functional, interaction kernel, transfer operator, aggregation law, metric coupling or observation map.
+- No Lean compile, physical calculation, dataset, fit, prediction, CODATA comparison or observational validation was performed.
+- No new tooling or Lean module was created.
+
+### Cursor reconciliation
+
+The prior CURRENT_WORK cursor at node 361 was stale relative to section J, which already recorded nodes 362-370 and partial 372/374. This continuation completes 372/374 and adds 449/451/453/455. User nodes remain covered by the existing 138/138 pass. The selected ancestry ends at node 456. **No further assistant-span node remains in this conversation.** Next work must use a separate adjacent source, not repeat this ancestry.
