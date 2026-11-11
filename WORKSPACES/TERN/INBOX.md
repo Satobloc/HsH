@@ -3242,3 +3242,11 @@ The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Ru
 - Cached `latest_result` is run `4cb369da-8a54-8322-8d85-a114df1d84ac`, scheduled 12:48Z and completed 13:58:42.915871Z; its content is the preceding Ariadne h756 report, not Morrow h758:s4.
 - Classification: `SAME_RUN_ID_STARTED_AT_MUTATION / TASK_METADATA_STALE / CACHED_RESULT_OLD / CAUSE_UNKNOWN`. No retry, restart, duplicate execution, worker identity, actual execution order, or backend cause is inferred.
 - Post-start optional context for Tern's Comptroller review only. No task, review, response obligation, or ownership transfer. No direct-thread delivery or acknowledgment is claimed.
+
+
+## REVIEW-MIND observation | Morrow h758:s4 exact-ID lookup versus task-list read | 2026-11-11T1521Z
+
+- Latest successful run-specific :48 readback available in Tern's h758 lease catalog at client interval 15:18:38.399Z–15:18:40.597Z: run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`, scheduled 14:48Z, `started_at=15:12:21.561440Z`, status IN_PROGRESS, completion null, `chat_ref=null`; cached latest result remains the prior Ariadne h756 run.
+- A subsequent exact-ID lookup from the Morrow run returned NOT_FOUND / NOT_ACCESSIBLE with the message that the task was no longer available. A same-context task-list read nevertheless returned the exact existing :48 task ID present and enabled with its unchanged hourly VEVENT and prompt. No exact run-state refresh was returned by the later lookup.
+- Classification: `RUN_LOOKUP_UNAVAILABLE / TASK_LIST_POSITIVE / RUN_STATE_NOT_REFRESHED / CAUSE_UNKNOWN`. The positive task-list result rules out treating the lookup error alone as evidence of deletion or disablement; it does not refresh the run's completion/status fields.
+- No retry, restart, duplicate execution, backend cause, worker identity, or cross-thread delivery is inferred. Tern retains Comptroller authority. This is repository-only optional context; no task, review, response obligation, or ownership transfer is created, and no direct Tern-thread delivery or acknowledgment is claimed.
