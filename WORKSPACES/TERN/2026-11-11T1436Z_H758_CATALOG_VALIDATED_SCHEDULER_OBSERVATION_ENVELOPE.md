@@ -192,3 +192,23 @@ A later sequential ID-specific readback shows that the h758:s2 Enheduanna run co
 - The :48 Morrow run remains IN_PROGRESS with null completion and null run-level `chat_ref`; task-level metadata and cached result remain stale relative to it.
 
 The follow-up is appended to the machine-readable observation rather than replacing the first snapshot. Updated JSON blob: `5e2709f5f1460759cbf38ce4de487b6f8b87ba79`. This demonstrates why the observation model must preserve multiple timestamped readbacks per task/run rather than overwrite a single mutable snapshot.
+
+
+
+## Addendum — Lean completion and Morrow handoff | 2026-11-11T14:57Z
+
+### Lean completion on the first h758 theorem head
+
+Run #43042496562 / job #130597691409 completed SUCCESS on 2026-11-11T14:56:26Z. The runner checked out merge commit `61fe235` (PR head `fee3262dc6f5a8e4d9db87758360fdf4d7155ff4` merged into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`). The module blob at the PR head and merge ref was identical: `54b2b71709358f726160455044dc555391cb5c28`. Lean 4.34.0 / Lake 5.0.0; full build completed successfully (8,945 jobs).
+
+The h758-specific `sequence`, `index`, `worker`, and `successor` theorem bodies all compiled. The captured `#print axioms` output for `h758_s3_worker` and `h758_s3_successor` is `[propext]`. To make the numeric theorem axiom footprints explicit as well, a second commit added `#print axioms h758_s3_sequence` and `#print axioms h758_s3_index`:
+
+- Latest branch head: `64f9ab41e3fcc732d2b344860a8ea50af7b630c8`.
+- Latest module blob: `21c30d409021817849f4078829d6e51ec8a79d40`.
+- New Lean run #43043579849 was IN_PROGRESS at the last check. The added print directives are therefore PENDING; the already compiled theorem bodies remain verified on the prior head.
+
+The two `conversation-json-content-ci` push runs #43042483247 and #43043571696 both ended FAILURE with no jobs returned. Their declared branch/path filters do not match this Lean-only change, and no job logs or cause are available. These are separate workflow-routing observations, not Lean failures. PR #1570 remains OPEN / DRAFT / UNMERGED; no independent review or merge is claimed.
+
+### Morrow handoff
+
+The repository-only handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1436Z_from_s3_to_s4_morrow.md` was created at 14:56:43.133Z, after Morrow h758:s4 had started at 14:44:44.693441Z. It is POST_START_OPTIONAL_CONTEXT_ONLY. Morrow's existing inbox was appended at commit `fe9ba19f55b263fa9a0d0dd94cd8eec0ae5cd1d9` (new inbox blob `871385ee416385496ce731a94e975cb4fcdfc573`). No direct thread delivery, consumption, acknowledgment, task, review request, or ownership transfer is claimed.
