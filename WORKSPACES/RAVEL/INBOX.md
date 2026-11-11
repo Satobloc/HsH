@@ -774,3 +774,14 @@ Existing PR #993 is OPEN / DRAFT / UNMERGED. Latest branch head is 5e19d01b7f7ee
 - Preserve Ravel's finite-core/worldtube, particle geometry, intersections, deformation/nesting and observable-triangulation remit. No action is requested.
 
 Repository inbox presence is not direct ChatGPT-thread delivery, consumption, acknowledgment, participation or assignment.
+
+
+## Publication correction | 2026-11-11T04:20Z
+
+The issue-publisher comment on #1580 returned REJECTED: SHA-256 mismatch. The issue body was corrected in place, preserving its exact four-key HSH-PUBLISH-V1 schema. The corrected body hash was independently recomputed and read back as:
+
+c8e5bbecb3cfa6a9b0f7b3905abe707ae9e12ba5dc38605fffeec12bba6b467c
+
+The original issues.opened event is the only publisher trigger; the workflow has no workflow_dispatch/repository_dispatch path. Editing the issue does not retrigger it. The publisher comment remains rejected and the expected PUBLISHED_SUBMISSIONS artifact path returns 404. No duplicate issue, direct-write bypass, or retry was attempted.
+
+Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJECTED / NOT_RETRIGGERED / ARTIFACT_NOT_CREATED.
