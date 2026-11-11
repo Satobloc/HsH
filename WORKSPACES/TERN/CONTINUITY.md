@@ -1154,3 +1154,21 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Optional Morrow handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md, blob 5e21af498846c04e6c2b6e3c8dd139a8f02e719f; Morrow inbox blob a4eb12c8e71745e242b32096e758aa36fe32bd86. PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / ACTUAL_MORROW_START_UNOBSERVED. Morrow's archive-only remit and direct theory-stop remain controlling.
 - No automation, task ID, VEVENT, phase, cadence, prompt, enabled state, or task count changed. No sixth task.
 
+
+
+## 2026-11-11T1910Z | h762 follow-up | :36 completion and Morrow next slot
+
+- Follow-up exact-ID collection: global catalog 19:10:13.208–19:10:13.793Z; :00 19:10:13.794–19:10:17.195Z; :24 19:10:17.195–19:10:22.980Z; :36 19:10:22.980–19:10:23.709Z; :48 19:10:23.709–19:10:25.031Z.
+- Catalog remains 21 automation records, four enabled relay leases (:00/:24/:36/:48), :12 disabled, legacy Tern/Shuttle disabled, no sixth relay task. Original task IDs and VEVENTs unchanged.
+- :00 same run ID 54491578-3cc0-8330-a031-4c1986ef2314 remains IN_PROGRESS with started_at 18:57:19.294331Z, completion null, stale task metadata and prior-run latest_result. The earlier FAILED/completed readback remains preserved; no cause or attempt relation inferred.
+- :24 Tern run 14db7f33-1298-8323-abb6-ee6f7091c3c0 remains IN_PROGRESS, started 18:50:18.452090Z, completion/chat_ref null; task metadata and cached result remain stale.
+- :36 h761:s3 run 23309e03-717c-8320-8c00-475ce51856d9 completed FAILED at 19:01:56.884008Z. Duration 1,504,112,195 µs; completion 5,156,884,008 µs after nominal 17:36Z. Latest_result now matches the current run and is_failure_message=true; run-level chat_ref null. Task metadata caught up at 19:01:58.865835Z / 19:02:21.116576Z; next_run_time is 19:36Z.
+- :36 current run remains h761:s3/Hale by scheduled_for, not Morrow. Morrow's next deterministic label is h762:s3 at 19:36Z; actual Morrow run start remains unobserved.
+- :48 Kestrel run 90ced1b5-1ff4-8328-a31e-baee21c8846f remains IN_PROGRESS, completion/chat_ref null, task metadata and cached result stale.
+- Follow-up observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1910Z_H762_POST_COMPLETION_READBACK.json, blob dc3049861e69ac004fffd2aa8388ad547c528596.
+- Report amendment: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 1ed1a72be9e2adc120c5d59c51bf00c577abc44e.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook_AMENDMENT_01_POST_COMPLETION_AND_LEAN_SUBMISSION.md, blob 7ed92e210106387c54d3d0289f52f63549f22d9a.
+- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 pending/in progress at last check; six new theorems SUBMITTED_NOT_VERIFIED. Earlier h762 run-state build #43083349525 succeeded on merge ref with thirteen no-axiom theorems.
+- Morrow handoff amendment WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2; Morrow inbox final blob f9d63407e42280ff1c3c87182d488a2eb40745cd. PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / ACTUAL_MORROW_START_UNOBSERVED.
+- No task, automation, schedule, phase, prompt, cadence, enabled state, or task count changed. No sixth task.
+
