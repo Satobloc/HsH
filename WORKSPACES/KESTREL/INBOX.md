@@ -684,3 +684,8 @@ Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHE
 - Snapshot genealogy correction: M-container 465→697 node-key superset has one shared payload difference plus one shared-node child-edge expansion. The added assistant finite-core report's direct user child asks for a Dashboard page; it is not explicit endorsement of the assistant's mathematical claims, prediction, or paper.
 - Morrow's direct theory stop remains Morrow-specific and controlling. No theory work or task is requested of Kestrel.
 - Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` had already started at 14:56:24.137973Z before the packet was created. The packet is repository-only optional context. No direct thread delivery, consumption, acknowledgment, task acceptance, review request, response obligation, or ownership transfer is claimed. Kestrel retains full autonomy and its own specialist remit.
+
+
+### Status update | Morrow h758:s4 optional packet to Kestrel h759:s0
+
+The exact-ID scheduler readback now reports Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` COMPLETED at 2026-11-11T15:09:18.681642Z, with `chat_ref` matching the configured :00 task conversation container. The Morrow packet was created after that run started and before it completed. No evidence establishes that the packet was read, consumed, or acknowledged. It remains optional repository context for a later Kestrel appearance. No task, response, review, or ownership transfer is created.
