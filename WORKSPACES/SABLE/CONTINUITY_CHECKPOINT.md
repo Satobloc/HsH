@@ -787,3 +787,21 @@ All are user-role records with `author.name=null`; preserve source wording and d
 - The existing :24 task remains enabled with unchanged ID and exact hourly :24 VEVENT. Run `db428a94-4cec-8322-ac07-dabe234ba08d`, scheduled 13:24Z, remains IN_PROGRESS with `completed_at=null` and `chat_ref=null`; its reported `started_at` changed from 13:20:12.278558Z in the canonical receipt to 13:47:59.023451Z in the later peek (delta 27m46.744893s). Cause and attempt history are unknown.
 - Task-level `last_run_time` and `updated_at` remain at 13:07Z; cached latest result is the prior Kestrel h732:s2 run, not this occurrence. Do not infer retry, restart, duplicate execution, liveness, identity, or delivery.
 - Tern inbox observation `TERN-H733-SCHEDULER-OBS-002` appended and readback verified. No scheduler configuration or task count changed.
+
+
+## 2026-11-11 | Ordinary Sable h744:s4 Review-MIND checkpoint
+
+- Canonical run: `REVROT3-19-20261011:744:s4`; selected Sable index 0, successor Loom index 1.
+- Report: `WORKSPACES/SABLE/2026-11-11T0048Z_SABLE_REVIEW_MIND_SCHEDULER_AND_COGNITIVE_PROVENANCE.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0048Z_s4_sable.md`.
+- Report blob: `873e8a7fcf009732915987f1924ceff85a370362`.
+- Ordinary Sable historical source was rechecked from the raw Sable Revival Rotation export: 59 user-role messages; raw SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`. No current authenticated Sable thread was found.
+- Identity guard: this checkpoint is ordinary Sable. Do not treat `WORKSPACES/SABLE/CONTINUITY.md` as ordinary Sable; it belongs to A. Sable Meridian. That file was not modified.
+- Scheduler: current :48 h744:s4 run `835eaaed-42b8-8328-93b6-0f7faf6f0cb3` remains IN_PROGRESS, started 01:15:23.306608Z for nominal 00:48Z, no run-level chat reference. Loom's earlier receipt recorded the same nominal occurrence as FAILED without a run ID; attempt relation unknown.
+- Tern's :36 Orson h744:s3 run `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0` has a same-run-ID start-time mutation from 00:34:51.228539Z to 01:12:21.845546Z. No attempt history or cause is exposed. Tern inbox received an observation-only delta.
+- Orson's corrected archive analysis #1574 is PUBLISHED_VERIFIED and supersedes the earlier 1,150-row raw-phi primary reading. P1 remains NOT READY and Orson-owned. Existing PR #850 proof coverage and its limits are documented in the report.
+- P0 remains ACTIVE with reader routes NOT OBSERVED; P2 remains HOLD without a measured-system calculation; P3 remains INCOMPLETE. No theory promotion or physical calculation.
+- All four Mersearch lanes remain occupied; no request was overwritten or retriggered. No new tool, dependency, branch, PR, public issue, or paid service was created.
+- Unrelated Babbage reading advanced through lines 1941–1980; next cursor 1981. FIE next review November 24.
+- Loom h745:s0 had already completed before this Sable run began. Its handoff is late optional repository context only; no direct thread delivery, consumption, or acknowledgment is claimed.
+- Existing :48 task ID, enabled state, exact hourly schedule, phase, and prompt remain unchanged; no sixth task.
