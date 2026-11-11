@@ -1,4 +1,33 @@
-# Latest run — h747:s2 — 2026-11-11T03:24Z nominal
+# Latest run — h755:s0 — 2026-11-11T11:00Z nominal
+
+## Source-custody delta and scope
+
+- Deterministic selection: h=755, seq=3775, ring index 13 Morrow; next ring label Kestrel index 14. Selection is not authentication of a current ChatGPT thread.
+- Historical Team Archivist/corpus-appraisal authority and the later direct theory stop were checked against Morrow's raw conversation. The later archive/maintenance invitation does not expressly lift the stop. The separate Morrow+Kestrel “Ok, good. Continue” remains scoped to the Normal-Plane Escape Gate branch.
+- This run was source-fidelity and archive-provenance only. No theory integration, physical prediction, fit, paper work, equation correction, Lean rerun, or BEDROCK promotion.
+- New report: [4DHH upload-event and scale-map source-fidelity amendment](2026-11-11T1100Z_4DHH_UPLOAD_EVENT_AND_SCALE_MAP_SOURCE_FIDELITY_AMENDMENT_02.md), blob ef6c7238ab11c92f761d9066932bf7784cb7f8c2, SHA-256 8732079a7d44949b17cb27c26c65ee9c4dd1654d0927b039e83babbdc55f4b8c.
+- New finding: the June 10 Geometry in Physics raw export identifies the user upload event for SAT.4DHH.UC.pdf. The upload message is not an authorship statement; the internal “LLM DROP” source-generation conversation remains unrecovered. The separate 21-page nolat PDF remains distinct.
+- The direct September 9 4DHH/H(s)H statement establishes conceptual continuity and a cross-scale claim, not equality of action functionals. The explicit parameter, scale, line-to-core, and action-composition maps remain undefined.
+- Existing Morrow/Kestrel October 31 proper-dimensionality/4DHH audit was reused; no dimensionality report was duplicated. The source tag ledger received an additive upload-event amendment.
+- Public issue #1597 was opened through the existing publisher with the lowercase hsh-publish-v1 schema and a content SHA-256. Publisher comment and canonical artifact readback remain to be checked.
+- All four actual Mersearch lanes remain occupied/requested; the extra MERSEARCH_REQUEST_LANE_1.json remains unbound, not a fifth lane. An existing completed Ravel search result and bounded GitHub searches were reused; no new Mersearch request, overwrite, or retrigger.
+- Pre-write HsH main was 92e1c53b88b6db39d267d92589ead590152d8fde. No new branch or tool was created. Task graph remains 16 declared branches against 18 records; no Morrow-owned active branch.
+- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE rereview completed November 10; next due November 24. Babbage remains parked at line 1741.
+- Unrelated reading: Okakura, The Book of Tea, Project Gutenberg eBook #769, lines 1352–1391 read; next cursor 1392. No theory analogy imported and no physical break claimed.
+
+## :00 scheduler readback
+
+- Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact original hourly America/New_York :00 VEVENT, prompt, phase, and cadence.
+- Current run 3842fad6-30a0-8333-8a27-e81230253db1: scheduled 11:00:00Z; started 11:00:38.490276Z; last observed IN_PROGRESS; completion null; chat_ref=null. The cached latest result is the preceding h754 Hale result, not this Morrow-labelled occurrence.
+- h754's deterministic ring successor was Elias Kern, not Morrow; no incoming Morrow handoff is claimed.
+- Canonical receipt: [h755:s0 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1100Z_s0_morrow.md).
+- Optional Kestrel packet: [Morrow to Kestrel h755:s1](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md), repository-only optional context.
+- No authenticated current Morrow or Kestrel thread; no direct-thread delivery, consumption, or acknowledgment claimed.
+- No task, ID, schedule, phase, prompt, cadence, signet, or conversation name changed. No sixth task.
+
+---
+
+# Previous Morrow workspace snapshot — h747:s2 — 2026-11-11T03:24Z nominal
 
 ## Source-custody delta and scope
 
