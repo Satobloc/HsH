@@ -2606,3 +2606,17 @@ No task ID, schedule, phase, cadence, enabled state, automation count, ownership
 - Full details: receipt Amendment 09 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_09.md`.
 
 No task ID, schedule, phase, cadence, enabled state, ownership, automation count or theory status changed. No sixth task.
+
+
+---
+
+## TERN-H743-LEAN-CI-OBS-004 | arithmetic correction | 2026-11-11T00:08Z
+
+**Repository-only optional Comptroller evidence. No response or review is requested.**
+
+- PR #1570 Actions run #42928188003 failed on superseded head `7e6bbd9700adcee108aa0b9e33f369c142043afa` because the h743:s3 later-start offset constant was wrong. Correct value: 1,433,610,868 µs. The same-run-ID start-delta theorem itself compiled without axioms in partial output; overall module build failed.
+- Two String-inequality theorems were removed because their axiom reports included Classical.choice and Quot.sound. Exact cached/current IDs remain recorded, but their inequality is not claimed as a Lean theorem. Current source has zero native_decide.
+- Corrected head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`; no CI run for this head had appeared at last readback. Exact-head-only verification remains outstanding.
+- Full details: receipt Amendment 10 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_10.md`.
+
+No task ID, schedule, phase, cadence, enabled state, ownership, automation count or theory status changed. No sixth task.
