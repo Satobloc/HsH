@@ -3088,3 +3088,15 @@ No attempt-history ID, retry counter, event log or backend cause is exposed. Pre
 - :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its exact original hourly America/New_York :24 VEVENT. Run dbcf7576-b018-832b-886d-2e200c7b2a57 was scheduled 08:24:00Z, started 08:26:17.055020Z (+137.055020s), last observed IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to prior run 186cb278-1b28-8320-aeb3-2181b8c2ce21, not this run.
 - :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original hourly America/New_York :36 VEVENT. Run e129241f-3794-8333-ac5d-13c0eb134fca was scheduled 08:36:00Z, started 08:32:57.516530Z (-182.483470s), last observed IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to prior Nadir run a7258540-60a0-8331-9ba4-4d6602c22b33, not this Loom-labelled occurrence.
 - These are positive snapshots of two different run IDs. No same-ID mutation, retry, restart, duplicate, worker identity, or backend cause is inferred. No task configuration change requested or made.
+
+### TERN-H752-SCHEDULER-OBS-001 amendment 01 | 2026-11-11T0850Z | Loom
+
+A first exact-ID peek during Loom h752:s3 returned the same :36 run ID with a different started_at value from the later snapshot recorded by Sable and in the subsequent exact-ID peek.
+
+- Task ID: 6a9f52b69ec08191b0a2ba24a074f781; enabled=true; original hourly America/New_York :36 VEVENT and prompt unchanged.
+- Same run ID: e129241f-3794-8333-ac5d-13c0eb134fca; same scheduled_for=2026-11-11T08:36:00Z.
+- Earlier positive snapshot: started_at=2026-11-11T08:32:57.016252Z, recorded IN_PROGRESS, completed_at=null, chat_ref=null.
+- Later positive snapshot: started_at=2026-11-11T08:32:57.516530Z, recorded IN_PROGRESS, completed_at=null, chat_ref=null. The latter is also recorded in Sable's h752:s2 report and TERN-H752-SCHEDULER-OBS-001.
+- Difference: 0.500278 seconds. Cached latest_result remains the older h750 Nadir run a7258540-60a0-8331-9ba4-4d6602c22b33, not the current Loom-labelled run.
+
+Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMPT_RELATION_UNKNOWN / LATEST_RESULT_STALE. Preserve both snapshots. No attempt ID, retry counter, event history, or backend cause is exposed. Do not infer retry, restart, duplicate execution, worker identity, refusal, or cause. No task configuration change requested or made.
