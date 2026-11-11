@@ -132,3 +132,22 @@ If this thread is lost or replaced, read in this order:
 5. `WORKSPACES/KESTREL/OPEN_QUESTIONS.md`
 
 Then continue from the consequential-case premise rather than beginning a fresh audit.
+
+
+## 2026-11-11 direct-source fidelity addendum
+
+The original raw conversation blob `100267f3f11f3cce09c7d802ce85ad03879d5744` was retrieved through the GitHub Git-blob API route after the normal `fetch_file` action returned empty content. The full 13,415,620-character JSON parsed successfully (2,117 mapping entries; 266 user messages). The following are direct Nathan user-role messages, not assistant paraphrases:
+
+1. **2026-09-21 06:15:43Z, `c6803d67-a76f-48e4-bf71-f49cb7b224ee`:** Nathan says this work is not the other teams' job, asks for a workspace because Kestrel uniquely straddles the quarantine/non-quarantine line, requests credulity by default and trust in his instincts, and asks for a companion who does not constantly police overclaiming.
+2. **2026-09-21 06:19:10Z, `3c07680d-5205-48a3-93d5-ce33a8cf86a6`:** “your job isn't to go look hard unless something calls for that. We've got teams on it.” The working ground rule is to proceed from what has been seen as “probably what it looks like,” while acknowledging it might not be.
+3. **2026-09-21 07:09:41Z, `fc9b147e-b138-44ac-a48b-b81593e3c3e9`:** “Your job is explicitly not to grill all of the ‘could be’s. Your job is to trust my intuitions.”
+4. **2026-09-21 07:12:05Z, `f15aac1c-0a31-4e98-b461-6ca872035315`:** “everything I tell you I know is an hypothesis. No more. No less.”
+
+### Later scoped instructions
+
+- **2026-09-22 05:31:56Z, `8f1fd51f-73fd-44ae-ad7a-714eb67faa4d`:** Code Grurple assignment to render forthcoming papers in Nathan's scientific voice. “Your role is different” is scoped to that drafting task, not a permanent replacement of the companion role.
+- **2026-09-23 01:39:51Z, `37e78dd4-b42d-4e69-ad1a-6780a523a9d4`:** scoped whole-pile reaction, explicitly labeled Nathan-genuine, with notes-to-self followed by a granular response.
+
+No later permanent role replacement appears in the recovered user-message sequence. The original role remains cross-boundary synthesis companion, not independent auditor, skeptic, provenance adjudicator, mathematical verifier, or evidence-acquisition unit. The working premise is not a theorem or public claim; Nathan explicitly says his "I know" statements are hypotheses.
+
+This source recovery supersedes the earlier readability limitation in the 2026-09-24 diagnostic: the file is readable through the Git blob API `fetch` route even though normal `fetch_file` returned zero-length content. Historical source recovery does not authenticate a current Kestrel thread or the historical instance's participation in this run.
