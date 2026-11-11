@@ -379,3 +379,11 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - **Maintenance:** FIE next review November 24; no new unrelated-reading segment. Mersearch lanes remain occupied; existing origin-bank receipt reused only as navigation, no new request.
 - **Scheduler:** exact :48 task remains enabled and unchanged. Current run `9a482371-c520-832f-9202-e4c7a8efab0a` is IN_PROGRESS, `chat_ref=null`; task-level latest result remains Morrow h758 and task metadata is stale. Tern observation recorded separately.
 - **Successor:** Sable h760:s0 optional handoff prepared before nominal 16:00Z; no task, response obligation, ownership transfer, or direct-thread delivery claim.
+
+
+## VEY-041 publisher verification amendment | 2026-11-11
+
+- Issue #1605 is now `PUBLISHED_VERIFIED`.
+- Publisher comment #6800852528: commit `d4fd2dd21987cfb12b3f7ad0b423b5a5f7825a15`; SHA-256 `96d95418832c229893c5b8bc14e35599aaf6235725d8423930b114ba6c90cf30`.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-chen-peer-group-release-audit-20261111t1548z-s4-001.md`, blob `c61e7081a28b4eae4ed3b757fe03645997509f78`, 9,429 UTF-8 bytes.
+- Independent issue payload/artifact readback is byte-identical; both recomputed SHA-256 values match. No retry, duplicate, direct-write bypass, or issue edit.
