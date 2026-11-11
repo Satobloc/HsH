@@ -135,3 +135,14 @@ The :00 Sable run remained ID `2beaa5f5-8588-8320-9088-54662b4f78c4`, started 04
 The earlier snapshot-derived start order (:48, :00, :36) therefore reverses to (:00, :36, :48) when the later :48 `started_at` is used. This is a same-run-ID start-time mutation, not evidence of a new attempt or actual restart. It demonstrates that the exposed `started_at` field is not an immutable execution-order ledger. Tern received Amendment 01 to the existing h747 cross-slot observation; no duplicate observation was created.
 
 Receipt Amendment 05 preserves the exact delta: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_05.md`.
+
+
+## 10. Tern amendment readback | 2026-11-11T0413Z
+
+The same-run-ID :48 mutation was appended to the existing Tern inbox observation, not a second observation:
+- Entry: `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001 AMENDMENT 01`.
+- Commit: `7e5f8a2cf11fe3478af4029e79ba45e76c87503d`.
+- Final Tern inbox blob: `6c2ab87406a95385a359690d244a58242ee2428b`.
+- Exact appended-content readback: PASS.
+
+This verifies repository-inbox delivery only. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
