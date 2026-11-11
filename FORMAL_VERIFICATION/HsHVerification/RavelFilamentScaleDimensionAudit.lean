@@ -216,4 +216,20 @@ theorem inverse_square_scaled_square_cancels
 #print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_N_per_m
 #print axioms o8_tex_mass_scale_t_over_ell_not_mass_if_T_is_J
 
+
+/--
+Complementary-angle identity for the two historical assistant projection
+conventions. If one angle is measured from the filament to the timesheet plane
+and the other from the filament to the plane's propagation normal, the angles
+are complementary; the corresponding sine/cosine denominators then agree.
+This proves only the trigonometric identity. It does not establish that the
+historical source defined the two angles as complements.
+-/
+theorem cosine_of_complementary_angle (α : ℝ) :
+    Real.cos (Real.pi / 2 - α) = Real.sin α := by
+  rw [Real.cos_sub]
+  simp
+
+#print axioms cosine_of_complementary_angle
+
 end HsHVerification.RavelFilamentScaleDimensionAudit
