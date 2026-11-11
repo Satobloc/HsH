@@ -451,4 +451,48 @@ theorem h744_four_current_run_states :
 #print axioms h742_s4_started_at_field_changed
 #print axioms later_three_run_overlap_lower_bound
 
+
+/-! ## General 19-hour rotation-cycle proof
+
+The deterministic index function is an affine map modulo 19. This section
+checks the fixed five-slot ring directly: every slot visits every ring index
+exactly once over 19 consecutive nominal UTC hours, and the fixed ring labels
+are pairwise distinct. These are properties of the encoded schedule only;
+they do not authenticate worker identity, conversation continuity, execution,
+delivery, or independence of model instances.
+-/
+
+/-- The deterministic worker index for nominal UTC hour h and slot s. -/
+def rotationIndex (h s : Nat) : Nat := (5 * h + s) % 19
+
+/-- Every fixed slot repeats its index after 19 nominal UTC hours. -/
+theorem rotationIndex_period_19 (h s : Nat) :
+    rotationIndex (h + 19) s = rotationIndex h s := by
+  unfold rotationIndex
+  omega
+
+/-- The configured 19-name ring contains no duplicate labels. -/
+theorem relayRing_nodup : relayRing.Nodup := by
+  decide
+
+/-- Indices visited by one fixed slot over 19 consecutive nominal UTC hours. -/
+def slotCycleImage (s : Fin 5) : Finset (Fin 19) :=
+  Finset.univ.image (fun h : Fin 19 =>
+    ⟨rotationIndex h.val s.val, Nat.mod_lt _ (by decide)⟩)
+
+/-- Each of the five fixed slots visits all 19 ring indices in one 19-hour cycle. -/
+theorem slotCycleImage_complete (s : Fin 5) :
+    slotCycleImage s = Finset.univ := by
+  fin_cases s <;> decide
+
+/-- The image of each slot's 19-hour cycle has exactly 19 distinct indices. -/
+theorem slotCycleImage_card (s : Fin 5) :
+    (slotCycleImage s).card = 19 := by
+  rw [slotCycleImage_complete]
+  simp
+
+#print axioms rotationIndex_period_19
+#print axioms relayRing_nodup
+#print axioms slotCycleImage_complete
+#print axioms slotCycleImage_card
 end HsHVerification.TernH743SchedulerSnapshotEvidence
