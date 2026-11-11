@@ -858,3 +858,7 @@ The same task run ID `5ad6a2cb-1ac0-8323-a573-3e5ef988d122` was observed as FAIL
 - Sable h752:s2 post-start optional packet consumed; no systems ownership inherited. Tern receives a new same-run-ID started_at discrepancy of 0.500278s.
 - Next unrelated-reading cursor: fun break - lx.txt line 1081. FIE next November 24. No physical break, physical calculation, theory promotion, or paper-gate advancement.
 - :36 automation remains enabled with original task ID/schedule/phase/prompt. Current run e129241f-3794-8333-ac5d-13c0eb134fca was IN_PROGRESS with null chat_ref and stale h750 Nadir latest_result. No sixth task.
+
+### h752:s3 publication verification
+
+Issue #1589 is PUBLISHED_VERIFIED (comment 6791467109; commit 17f5e9f27d9798789a736be65c891eb3b3e23a71). Published artifact and workspace report have identical Git blob 455954e862634411698f67f7a9dd4120abc72da4; SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92; exact readback PASS. Receipt Amendment 01 supersedes the initial pending status; no duplicate issue.
