@@ -1,3 +1,46 @@
+# Latest activation: Loom | h745:s0 | 2026-11-11 01:00 UTC
+
+**Run ID:** 4dced6ec-ecf4-8327-99fd-5a415143c2ba  
+**Task ID:** 6aa1fe0de5e48191b886496095b1343f  
+**Disposition:** source-fidelity review completed; publication submitted and awaiting publisher readback at checkpoint.
+
+## Rotation and authority
+- h=745, seq=3725, ring index=1: Loom; successor ring label Aster (index 2).
+- The saved :00 task remains enabled with its original task ID and exact America/New_York hourly DTSTART/RRULE. No task or schedule mutation.
+- Run-level chat_ref is null. No authenticated historical Loom thread or cross-thread participation/delivery is claimed.
+- Historical Loom remit is established by the 2026-11-01 source-recovery record and direct user-role messages: conversation-corpus tagging, chronology/provenance, assistant-span ancestry, and source-fidelity crosswalk. No standalone Nathan-authored specialist charter was found.
+- The expected incoming Sable h744:s4 receipt/handoff was not found. The :48 task's h744 occurrence is recorded failed; no matching durable packet is claimed.
+
+## Current source-fidelity delta
+- Raw source: 2024 DIMENSIONAL GRAVITY, conversation 252d05c0-22ed-4ea2-a474-7966ab13145a, blob 2cea1924266418e19b825b95ae51e6b7cbace7e1.
+- Existing user-turn coverage remains 138/138. No user tags were duplicated.
+- Reconciled stale CURRENT_WORK cursor at node 361 against assistant-span ledger section J, which already covered nodes 362-370.
+- Completed full reads of assistant nodes 372 and 374; then nodes 449, 451, 453 and 455. Tool nodes 399-447 were empty retrieval state; node 448 was tool-generated instruction payload, not source evidence. User node 456 is already tagged. Selected ancestry is complete at node 456.
+- Main new fidelity result: distinguish the 4D interaction/dynamics map from the 3D time-surface intersection/readout map. The direct source allows non-spherical time-surface geometry and explicitly marks the construction heuristic, not true ontology. Later assistant recaps upgrade conditional ideas into defining assumptions and reassert a central-origin picture.
+- Assistant node 449 introduces “shared filament history” and “interaction depth” without definitions or source authority. Its Jupiter example is not a discriminator without a residual against a complete present-state N-body/GR baseline. Its galaxy comparator matches too few state variables to isolate a future-merger effect.
+- Assistant nodes 451/453/455 overstate the genealogy of later Scalar-Angular-Torsion material from partial PDF excerpts. The user describes the later theory as one of many variations, not a single canonical descendant.
+- Standard string-theory references correct the historical assistant's oversimplifications about the ground state, frequency-to-property mapping, gauge/gravity sectors, and critical dimension versus 4D effective spacetime.
+- The conditional transverse-intersection dimension count 1+3-4=0 is clear but does not prove particle ontology. History-dependent gravity remains FORMALIZATION_BLOCKED_DEFINITION.
+
+## Durable artifacts and publication
+- Internal report: WORKSPACES/LOOM/2026-11-11T0100Z_DIMENSIONAL_GRAVITY_ASSISTANT_SPAN_SOURCE_FIDELITY.md (commit 9fecfc25ed80e0ff8623a80f63867977d4c49332).
+- Public-safe issue publisher submission #1573, submission ID loom-dimensional-gravity-assistant-span-ancestry-20261111t0100z-s0-001, content SHA-256 4d6e41f777a31aa37b03f2654997125094152eaef313b66b8ad3710b9c653350. At this checkpoint the issue is open with no publisher comment and the public artifact has not yet appeared. Do not claim publication until checksum/readback.
+- Assistant-span ledger updated additively; full-read corrections supersede earlier partial statuses for nodes 372/374.
+- Lateral tag ledger updated: fun break - lx.txt lines 961-1000, next cursor 1001.
+- No new Lean module/PR; local runtime has no lean/lake/elan. Existing Math Hopper #578, Lean PRs #873/#1189, Whirligig Kernel 0 and SciSpace were checked as reuse routes. No new tooling or subscription.
+
+## Control and evidence boundaries
+- Main branch used; task graph remains active seed with 16 declared branches against 18 records. No branch created or repaired.
+- All four Mersearch request lanes remain occupied/requested; no lane overwritten or retriggered. Raw source reused from its existing Mersearch-indexed blob. No direct Mersearch action was exposed in this run.
+- HSH_RESOURCES prior-art boundary read. Private locators are not used in public output. The 2024 source predates the separate external programme discovered 2026-09-09; do not conflate that programme with the user's own later Scalar-Angular-Torsion variation.
+- FIE last rereview remains 2026-11-10; next review 2026-11-24. No duplicate review.
+- P0 Code Grurple remains ACTIVE. P1 Nov 9 remains overdue/NOT READY; P2 Nov 30 HOLD; P3 Dec 14 incomplete. No manuscript, renderer, reader route, or paper gate changed.
+- No physical calculation, measured dataset, fit, prediction, CODATA scoring, observational validation, or theory promotion.
+
+## Next cursor
+The selected ancestry of the 2024 DIMENSIONAL GRAVITY conversation is complete. Next source-fidelity pass must use a separate adjacent early-SAT conversation or recover the full later Scalar-Angular-Torsion source with exact bytes and provenance. Do not repeat this ancestry. Unrelated reading next cursor: line 1001.
+
+
 # Loom | Current Work / One-Minute Syllabus
 
 ## Latest run h737:s2 | 2026-11-10 nominal 17:24Z | Loom → Aster
