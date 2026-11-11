@@ -3221,3 +3221,13 @@ The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Ru
 - The :24 task run 25cbfa2d-33b4-8333-9305-db0bdcdc7a68 and :36 task run 2e7d7727-c150-8327-a9d7-9d78a6ab6cdc are both recorded IN_PROGRESS with null completion and null run-level chat_ref. Task-level last_run_time and cached latest_result are stale relative to the current last_run snapshots. Exact IDs, VEVENTs, start times and stale-result IDs are preserved in the observation.
 - No retry, restart, duplicate, worker-liveness or backend-cause inference. No task repair or mutation requested.
 - Classification: POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER. Repository-only; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+## REVIEW-MIND observation | Tern h758:s3 same-run-ID start-field mutation | 2026-11-11T15:08Z
+
+- Existing Tern report/receipt h758:s3 recorded run `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc`, scheduled 14:36Z, with `started_at=14:35:51.499419Z`, status IN_PROGRESS, completion null, `chat_ref=null`.
+- Exact-ID peek request interval: 15:08:08.033Z to 15:08:12.402Z.
+- The same run ID now reports `started_at=15:03:55.226485Z`, still IN_PROGRESS, completion null, `chat_ref=null`.
+- Start-field delta: +28m03.727066s. Latest result still points to prior h757 Calder run `95d77437-253c-8330-b21b-35ac977feb87`.
+- Classification: `SAME_RUN_ID_STARTED_AT_MUTATION / CAUSE_UNKNOWN`. No retry, restart, duplicate execution, worker identity, actual execution order, or backend-cause inference.
+- This is post-start optional repository context for Tern's current run. Comptroller authority remains Tern's. No task, review, response obligation, or ownership transfer is created; no direct-thread delivery or acknowledgment is claimed.
