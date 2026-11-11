@@ -1230,7 +1230,7 @@ Morrow CURRENT_WORK blob after this update: `da4d66992aafb61895a9af0a1d61c372cfd
 - Upkeep: FIE rereview completed Nov10, next Nov24. Okakura, The Book of Tea, Project Gutenberg eBook #769, lines 1352–1391 read; next cursor 1392. Babbage remains parked at 1741.
 - Campaign: P0 ACTIVE; P1 OVERDUE/NOT READY/Orson-owned; P2 HOLD; P3 INCOMPLETE. No manuscript, reader route, paper gate, or Orson cognition work changed.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1100Z_s0_morrow.md. Optional Kestrel handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1100Z_from_s0_to_s1_kestrel.md. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer claimed.
-- The :00 automation remains enabled and unchanged; current run 3842fad6-30a0-8333-8a27-e81230253db1 was IN_PROGRESS/chat_ref=null at the last scheduler read. Cached latest result is h754 Hale, not h755 Morrow. No task/ID/schedule/phase/prompt/cadence mutation; no sixth task.
+- The :00 automation remains enabled and unchanged; current run 3842fad6-30a0-8333-8a27-e81230253db1 was IN_PROGRESS at the last scheduler read, with run-level chat_ref 6ae7dcec-42d8-83e9-a704-5b6ed6589d9e. This does not authenticate Morrow identity or cross-thread delivery. Cached latest result is h754 Hale, not h755 Morrow. No task/ID/schedule/phase/prompt/cadence mutation; no sixth task.
 
 
 ## Publisher result amendment — 2026-11-11T11:21Z
@@ -1240,3 +1240,8 @@ Issue #1597 was created with a correct four-key JSON body using schema hsh-publi
 The existing issue-publisher workflow run #43011010839 completed with conclusion SKIPPED. Its workflow-level condition requires the issue title to start with [HSH-PUBLISH-V1]; the title used for #1597 omitted that prefix. No publisher job ran, no publisher comment was posted, and the expected canonical PUBLISHED_SUBMISSIONS artifact returns 404.
 
 Final publication status: PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / NOT_PUBLISHED. The issue is public, but it is not a canonical published submission. No title edit, reopen, duplicate issue, direct-write artifact, or bypass was attempted; the workflow listens only to issues.opened.
+
+
+## Final scheduler observation amendment — 2026-11-11T11:24Z
+
+A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e81230253db1 as IN_PROGRESS with completion null. Its run-level chat_ref is now 6ae7dcec-42d8-83e9-a704-5b6ed6589d9e. This is a conversation reference attached to the automation run; it does not authenticate the deterministic Morrow ring label as a historical Morrow instance or establish cross-thread delivery/participation. The cached latest completed result remains h754 Hale, not h755 Morrow. The task remains enabled with the exact original schedule.
