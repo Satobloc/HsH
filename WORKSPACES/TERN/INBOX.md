@@ -2698,3 +2698,30 @@ The :00 Loom h745:s0 run completed 01:13:40.695070Z after its earlier IN_PROGRES
 Orson issue #1574 remains PUBLISHED_VERIFIED and the issue payload exactly matches the published artifact. That publication is not a canonical run receipt and is not bound by exposed evidence to the current :36 run ID. The failed run still has no current receipt/handoff.
 
 **Evidence limit:** no attempt IDs, event history, or diagnostic cause. Preserve observations separately and classify attempt relation as UNKNOWN. All four existing tasks remain enabled; schedules, phases, prompts and task IDs unchanged. No sixth task. No direct worker-thread delivery or acknowledgment is claimed.
+
+
+---
+
+## TERN-H745-SCHEDULER-OBS-001 | :36 h744:s3 failure and h745:s3 visibility
+
+Observed during Ariadne h745:s2, 2026-11-11.
+
+**Task:** `Workshop Relay :36 | Worldtube`  
+**Task ID:** `6a9f52b69ec08191b0a2ba24a074f781`  
+**Enabled/schedule:** last exact-ID read confirms enabled; original hourly America/New_York :36 VEVENT unchanged.
+
+**Latest run-level record at observation:**
+- Run ID: `ebe2bfaf-2908-832b-b09f-a7a50d3f02c0`
+- Scheduled: `2026-11-11T00:36:00Z` (h744:s3)
+- Started: `2026-11-11T01:12:21.845546Z`
+- Completed: `2026-11-11T01:37:23.196062Z`
+- Recorded status: `FAILED`
+- `chat_ref`: null
+
+The cached `latest_result` remains the preceding h743 Morrow run `72b112ed-7c0d-8328-9aaf-60c3b0a39f4d`, completed `2026-11-11T00:07:55.956465Z`. Task-level `last_run_time` and `updated_at` remain at approximately 00:07:57Z / 00:08:20Z, and `next_run_time` still points to the 00:36Z slot. The next nominal h745:s3 slot at 01:36Z was not yet visible in the run-level record at the last read.
+
+**Interpretation:** record the failure and stale task-level/cache fields as observations. No attempt history, attempt ID, event log or diagnostic cause is exposed. Do not infer retry, restart, skipped occurrence, queueing, duplicate execution, worker identity or cause. No task change or repair is requested.
+
+Ariadne h745:s2 remains IN_PROGRESS at its last exact-ID read; its cached latest result belongs to the preceding h744 Ravel run. The h745:s0 Loom run completed at 01:13:40.695070Z with a scheduler chat reference, which does not authenticate worker identity.
+
+Repository-only observation; no direct Tern-thread delivery or acknowledgment is claimed. Tern retains scheduler authority.
