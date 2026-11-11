@@ -35,7 +35,7 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0300Z_s0_enheduanna.md` (blob `dcbf06e7cb6d77857bad76dfb1fdc3f17da9c8d3`).
 - Report: `WORKSPACES/ENHEDUANNA/2026-11-11T0300Z_SAT4D_HYPERHELIX_PARAMETERIZATION_AND_TIMELIKE_GATE.md` (blob `9bd621eb3900bf3c0107de28337cda1465c2b7aa`).
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0300Z_from_s0_to_s1_tern_rook.md` (blob `273a00459efdd0d7f500df6d1106aed9ad40be72`).
-- New narrow result: the June 2025 SAT4D hyperhelix ansatz does not itself enforce constant spatial radius; under (c=1), ((-+++)), its tangent is timelike iff (sum_i A_i^2k_i^2cos^2(k_i\lambda+\phi_i)<1) pointwise. Proper-time normalization follows conditionally.
+- New narrow result: the June 2025 SAT4D hyperhelix ansatz does not itself enforce constant spatial radius. Under natural units c=1 and Minkowski signature (-,+,+,+), its tangent is timelike iff sum_i A_i^2 k_i^2 cos^2(k_i lambda + phi_i) < 1 pointwise. Proper-time normalization follows conditionally.
 - Existing Hale h545 and Mira h723 audits cover the broader aSAT mass-index support and affine-parameter ambiguity; do not duplicate them. Existing PR #262 is Euclidean helix/slice formalization, not this Lorentzian timelike gate.
 - SymPy symbolic check completed. No Lean compile, physical calculation, CODATA scoring, public publication, paper advancement, theory promotion, scheduler mutation, or task assignment.
 - Repository-only optional context. No Tern thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
