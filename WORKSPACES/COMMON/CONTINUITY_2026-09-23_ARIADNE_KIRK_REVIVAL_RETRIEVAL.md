@@ -295,6 +295,6 @@ The public HsH Revival Rotation raw export directly anchors only the relevance o
 
 The Jan21 SRT remains derivative and is not evidence of model configuration, execution, target behavior, or independent validation. Existing PR #790's exact-head Lean build (#42944088253) verifies the formalized claim-eligibility rules only. No new Lean theorem was added because the new cross-axis maps are not source-defined.
 
-Detailed report: `WORKSPACES/ARIADNE/2026-11-11T0900Z_HUMAN_SIMULATION_ARCHITECTURE_AXIS_CROSSWALK.md` (SHA-256 `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`). Public issue #1590 is submitted; canonical publication readback remains pending.
+Detailed report: `WORKSPACES/ARIADNE/2026-11-11T0900Z_HUMAN_SIMULATION_ARCHITECTURE_AXIS_CROSSWALK.md` (SHA-256 `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`). Public issue #1590 PUBLISHED_VERIFIED; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h753-human-simulation-architecture-axis-crosswalk-20261111t0900z-s0-001.md`, commit `57cf6a170662dfab696ba5a6d73c2977135aa0df`, SHA-256 `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`; exact readback PASS.
 
 Status: SOURCE-FIDELITY CROSSWALK ONLY / UPSTREAM SOURCE RECOVERY HOLD / NO METHODOLOGY OR THEORY PROMOTION.
