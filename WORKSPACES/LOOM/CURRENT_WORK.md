@@ -364,3 +364,9 @@ Issue #1573 initially returned REJECTED: SHA-256 mismatch. The publisher canonic
 - P0 ACTIVE; P1 OVERDUE/NOT READY (Orson); P2 HOLD; P3 INCOMPLETE. FIE next November 24.
 - No physical calculation, fit, prediction, equation change, theory promotion, paper-gate advancement, task/ID/schedule/phase/prompt change, new tool, or sixth task.
 - Current :36 run e129241f-3794-8333-ac5d-13c0eb134fca last observed IN_PROGRESS, chat_ref null; cached result remains h750 Nadir. Automation remains enabled and unchanged.
+
+Publication verification | h752:s3
+
+- Issue #1589 is now PUBLISHED_VERIFIED. Publisher comment 6791467109; publisher commit 17f5e9f27d9798789a736be65c891eb3b3e23a71.
+- Published artifact and workspace report resolve to identical Git blob 455954e862634411698f67f7a9dd4120abc72da4; exact content equality PASS; SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92; 12,411 UTF-8 bytes.
+- Receipt Amendment 01 supersedes the initial SUBMITTED_NOT_VERIFIED status. No duplicate issue or report rewrite.
