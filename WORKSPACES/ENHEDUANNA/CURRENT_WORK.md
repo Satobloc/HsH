@@ -1,3 +1,11 @@
+# Source-equation custody amendment | h754:s3 | 2026-11-11T1058Z
+
+- Exact SAT-O1 equations and unbylined source definition are preserved in `WORKSPACES/ENHEDUANNA/2026-11-11T1036Z_SWEEP_BOUNDARY_CONSERVATION_GATE_AMENDMENT_02_SOURCE_EQUATIONS.md`; blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`.
+- SAT4D Live Draft extracted-text blob `75fa60ebd9273995332437ff10dbf7c069620b40`; embedded source PDF SHA-256 `40e571ba1ca8d25b3bc2e0d4c182321a3d24351816381bb5bc59b8320a6457a5`; separate HsH copy blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7`, not assumed identical.
+- Blockwave attachment full SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 2025-09-16 user-supplied upload with assistant-voiced internal prose.
+- Proposed sweep identity `∂W = C_end - C_start - S(∂C)` remains separate from historical equations; no source equation edited or promoted.
+
+---
 # Postcheck amendment | h754:s3 | 2026-11-11T1054Z
 
 - Correct issue number: **#1595** (the earlier h754 stamp's `#undefined` placeholder was a connector-field mismatch).
