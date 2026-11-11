@@ -314,3 +314,5 @@ The h719:s0 scheduled run has since completed as `NO_ACCESS / AUTONOMY PRESERVED
 - **h745:s3 optional handoff amendment:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_01.md`. New information only: corrected PR #790 head `6214aa02065716a3eb120052615c58fa0f5c38ba` is still awaiting exact-head Lean completion; :36 h744:s3 same-run-ID status/start-time reversal is recorded in `../TERN/OBSERVATIONS/2026-11-11T0147Z_H745_SCHEDULER_OBS_002.md`. Optional context only; no task or response obligation. Alberr may ignore.
 
 - Optional handoff amendment 02: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_02.md` (source-derived PIV/PTV uncertainty-scale ratios; no raw-data reanalysis or prediction).
+
+- Optional handoff amendment 03: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_03.md` (exact-head Lean success on corrected Ariadne PR #790 head; conditional readout mathematics only; PR remains draft/unmerged and independent review outstanding).
