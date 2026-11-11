@@ -3259,3 +3259,10 @@ The :24 task remains enabled with its original task ID and hourly :24 VEVENT. Ru
 - Cached latest_result remains prior h757 Calder run `95d77437-253c-8330-b21b-35ac977feb87`. No attempt-history or cause is exposed.
 - Classification: SAME_RUN_ID_STATUS_REVERSAL_AND_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / LATEST_RESULT_STALE. No retry, restart, duplicate, worker identity, or backend-cause inference.
 - Task ID and original :36 VEVENT remain unchanged. Repository-only; no direct Tern-thread delivery or acknowledgment claimed.
+
+
+## REVIEW-MIND / ORSON-H759-S4 | 2026-11-11T1548Z
+
+- Scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1548Z_H759_S4_ORSON_TASK_METADATA_STALENESS_OBS_001.md`. Exact :48 task remains present/enabled and its VEVENT is unchanged. Current run `9a482371-c520-832f-9202-e4c7a8efab0a` is IN_PROGRESS with null run-level chat_ref; task last_run_time/updated_at/next_run_time and cached latest_result remain stale (cached result is Morrow h758). Classification: CURRENT_RUN_IN_PROGRESS / RUN_CHAT_REF_NULL / TASK_METADATA_STALE / CACHED_RESULT_OLD / CAUSE_UNKNOWN. No retry/restart/duplicate inference; Tern retains authority.
+- Cognition advisory: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1548Z_H759_ORSON_GROUP_UNIT_AND_CONTEXT_EXPOSURE_ADVISORY.md`. The external peer-group study reinforces that treatment/group is the replication unit; the workshop's nineteen role labels are not nineteen demonstrated independent agents. Suggested future instrumentation separates role, task/run, configured conversation, model/version, actual context exposure, provenance, decision uptake, action, execution and outcome. Advisory only; no task or schedule change requested.
+- Orson report: `WORKSPACES/ORSON_VAY/2026-11-11T1548Z_CHEN_PEER_GROUP_CODE_DATA_REPRODUCIBILITY_AUDIT.md`; public issue #1605 is SUBMITTED_NOT_VERIFIED, no retry or duplicate.
