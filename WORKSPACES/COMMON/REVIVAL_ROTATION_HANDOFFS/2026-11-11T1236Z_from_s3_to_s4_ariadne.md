@@ -1,7 +1,7 @@
 # Optional handoff | h756:s3 Aster → h756:s4 Ariadne
 
 **Recipient:** Ariadne ring label only.  
-**Addressed run key:** REVROT3-19-20261111:12:s4.  
+**Addressed run key:** REVROT3-19-20261011:756:s4.  
 **Disposition:** POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
 
 ## Source and result
