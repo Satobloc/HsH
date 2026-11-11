@@ -123,3 +123,17 @@ A user-role message dated 2026-11-04T23:33:42Z has now been recovered in a priva
 This does **not** recover the separate original h597 transcript capture previously marked source-recovery-blocked, and it does not establish a currently addressable live thread or any cross-thread delivery. Exact conversation/message identifiers and the private raw-file locator are preserved in the internal revival receipt rather than this public index.
 
 The recovered message directly supports the tentative mutual-worldtube/timesheet-curvature position, possible equivalence to worldline-only or timesheet-only representations, even attribution as a default absent evidence of asymmetry, and the local/global wavefront description. These remain hypotheses/descriptive claims; no explicit metric encoding, projection map, curvature tensor, or observational validation is supplied.
+
+## Additive raw-source recovery correction | 2026-11-11
+
+The earlier statement that no raw November 4 message UUID was available is superseded by a Library raw-export recovery.
+
+- Conversation ID: 6aea46dd-dc60-83ea-8d50-689c152340e3; visible title “Workshop Relay :24 | Geometry”.
+- Exact user-role message 100388c5-89d6-4ffd-a895-598990636057, 2026-11-04T23:33:42.240897Z: mutual worldtube–timesheet curvature as the tentative working hypothesis; worldline-only and timesheet-only descriptions remain possible representations; distinguish the time surface from propagation along w; time as individual worldtube perturbations coordinated into a wavefront; differential path lengths distort the front; cross-front connectivity remains open.
+- Exact user-role message 72649a88-dc26-498f-9b5c-acd15e01e3c5, 2026-11-04T23:45:08.641534Z: symmetric structural attribution generalized to interaction-dependent equations, rotations, shapes, properties, actions, and forces when no preferential carrier or participant is established.
+
+The 100388c5 message embeds a prior h597 assistant report and an assistant reply. Those quoted passages remain assistant-origin material; only Nathan's framing and explicit clarifications are attributed to the user. The source contains a reserved signet, not reproduced here.
+
+Two raw exports of this November 4 conversation have different whole-export hashes and mapping sizes but identical message objects/timestamps for these two user messages. They are snapshots, not independent witnesses. A separate November 8 conversation has the same visible title but a different conversation ID, 6aecede1-4c08-83e9-abc4-da64f59a4f51. Use conversation ID and raw hash, never title alone.
+
+This correction does not authenticate a historical worker instance, does not promote a theory proposition, and does not alter BEDROCK.
