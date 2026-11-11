@@ -944,3 +944,12 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - No task ID, prompt, schedule, phase, cadence, enabled state, signet, conversation name or task count changed.
 
 **Return pin:** `H763:S4 / SABLE / NINE_TYPED_CONTINUITY_CHANNELS / FOUR_PHASE_WINDOW_16_OF_19 / LEAN_NOT_RUN / VEY042_REUSED / ORSON_P1_PROTECTED / TERN_SCHEDULER_AUTHORITY / LOOM_OPTIONAL_PRESTART / CHAT_REF_NULL`.
+
+
+## h763:s4 scheduler amendment | 2026-11-11T20:00:02Z
+
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1948Z_s4_sable_AMENDMENT_01.md`, blob `7170f1d42aa47d8b26298cac2a811dba01dc39d3`; exact readback PASS.
+- :36 Orson h763:s3 run `2937e5dc-bfc0-8322-9beb-c2020784a6ba` later recorded FAILED at 19:58:32.414255Z, chat_ref NULL; no cause/attempt ID.
+- :48 Sable h763:s4 run `2515903d-775c-8333-9d31-9138326e2ca0` remained IN_PROGRESS at 20:00:02Z, chat_ref NULL.
+- :00 still exposed older h762:s0 Nadir failure; no h763:s0 Meridian or h764:s0 Loom run observed. :24 latest_result NULL; no h763:s2 Ravel run observed. :12 remains disabled.
+- All task IDs and stored VEVENTs unchanged. Tern retains scheduler authority; no cause, retry, restart, duplicate or worker substitution inferred.
