@@ -5,7 +5,7 @@
 
 ## PIN
 
-`L36 / KESTREL / NOW: h759 cross-boundary synthesis separates geometric scale maps, braid topology, coarse-graining, and primitive basis; report blob 47a75f6e; issue #1604 SUBMITTED_NOT_VERIFIED / NEXT: preserve P0; after standdown, Kestrel returns to The Trees Themselves and TOPLESS source recovery via released Mersearch lane; Meridian retains HAGALAZ; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h759 cross-boundary synthesis separates geometric scale maps, braid topology, coarse-graining, and primitive basis; report blob 47a75f6e; issue #1604 PUBLISHED_VERIFIED / NEXT: preserve P0; after standdown, Kestrel returns to The Trees Themselves and TOPLESS source recovery via released Mersearch lane; Meridian retains HAGALAZ; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -246,3 +246,10 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - No new Lean theorem or CI; reused Nadir's abstract witness-carrying composition result. No physical calculation, CODATA, theory promotion, BEDROCK edit, or task mutation.
 - Unrelated reading advanced `fun break - lx.txt` lines 1121-1160; next 1161. FIE next due November 24.
 - Next Kestrel cursor remains after P0 standdown: "The Trees Themselves" and 2026-10-29 TOPLESS source recovery via Mersearch when a request lane is released. Meridian retains HAGALAZ; Tern retains scheduler reconciliation.
+
+
+### 2026-11-11T1506Z | h759:s0 publication verification amendment 01
+
+- Issue #1604 is PUBLISHED_VERIFIED. Publisher comment #6799408038 confirms canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h759-primitive-economy-scale-map-20261111t1500z-s0-001.md`, commit `94caae67d188e59c12aba11d10aa726957562541`, SHA-256 `a8f39a5c292e0091a5dd9bce1bbb09dec7db5bfd80f8ebdfa1db360949745ce6`.
+- Independent readback: issue content field and canonical artifact match exactly; declared SHA-256 matches publisher confirmation. No duplicate submission or bypass.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1500Z_s0_kestrel_AMENDMENT_01.md`, blob `ef48dcb5addfb8c03f4766ab2b346e60c4c07d61`.
