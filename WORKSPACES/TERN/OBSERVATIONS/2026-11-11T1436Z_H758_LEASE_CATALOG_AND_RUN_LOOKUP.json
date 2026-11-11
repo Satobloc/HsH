@@ -478,7 +478,7 @@
           "phase": "s4",
           "nominal_hour": 758,
           "worker_label": "Morrow",
-          "task_id": "6aa6c3bc02b48191b886496095b1343f",
+          "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
           "request_started_at": "2026-11-11T15:14:29.882Z",
           "response_received_at": "2026-11-11T15:14:31.395Z",
           "outcome": "FOUND",
@@ -525,6 +525,13 @@
           "in_progress"
         ],
         "interpretation": "Two distinct run records were reported IN_PROGRESS in sequential reads within one short client-side batch. This establishes co-observation of statuses, not process-level concurrency or exact execution overlap."
+      },
+      "transcription_correction": {
+        "field": "id_specific_observations[phase=s4].task_id",
+        "previous_value": "6aa6c3bc02b48191b886496095b1343f",
+        "corrected_value": "6aa6c3bc02b48191b8a91a30d2a155e0",
+        "reason": "The initial append transcribed the :00 task ID; the exact-ID peek and global catalog both identify the :48 task ID as the corrected value.",
+        "corrected_before_final_readback": true
       }
     }
   ]
