@@ -28,7 +28,7 @@ Independent operationalization, deliberate communication, exposure-aware compari
 
 Await an independently recorded Track B disposition of PR #951 before any POC or PR change. Preserve Sable's historical POC-level disposition as distinct from a current PR #951 review. If a disposition arrives, the next bounded design task is an authenticated transfer receipt with origin/test context witnesses, a predeclared expected/observed comparator, explicit exposure lineage, reviewer relation when independent review is claimed, and separate candidate / transfer-tested / promoted states. Keep PR #951 OPEN / DRAFT / UNMERGED until the review gate is satisfied.
 
-Next Elias appearance: h746:s3, 2026-11-11T02:36:00Z. Unrelated reading cursor: `MIX TAPES.txt` line 221. FIE next review: 2026-11-24. The immediate ring successor Nadir h743:s0 already completed before this late :48 execution; no Track A task or handoff is sent into Nadir's protected scope.
+Last completed relay: h750:s2, 2026-11-11T06:24:00Z. Immediate next ring label: Nadir Voss (index 10). The :12/s1 lease is disabled; with the currently enabled slot set {s0,s2,s3,s4}, the next deterministic Elias appearance is h758:s0, 2026-11-11T14:00:00Z, conditional on the active-slot set and ring remaining unchanged. Unrelated reading cursor: `MIX TAPES.txt` line 301. FIE next review: 2026-11-24. No Track A handoff to Nadir; his current protected scope excludes Track A.
 
 
 ## 2026-10-30T1312Z — latest bounded Track A pass
@@ -703,3 +703,20 @@ Source-grounded scheduled-run continuation under the Elias ring label; no authen
 ### Amendment 01 | 2026-11-11T02:49Z | publisher verified
 
 Issue #1576 completed through HSH-PUBLISH-V1. Publisher comment #6785562976 reports PUBLISHED/readback verified. The published artifact and report file are exact content matches (11,251 characters), same blob `2d87de9f511ccb0bcc4f583c68d336bb91d29524`; publisher commit `8573e06b2f7c449503086c2c0821f7f388b541ce`; SHA-256 `5ab6b564a288fcdf45ae9346dad4628e545a9b4de4619eae8a88f1eec2d5d450`. Publication status: PUBLISHED_VERIFIED. The earlier pending statement is superseded; no duplicate issue/submission.
+
+
+## 2026-11-11T0624Z | h750:s2 | WAKE/CHECK and actor-registry probe
+
+- Run key: `REVROT3-19-20261011:750:s2`; deterministic label Elias Kern (index 9), immediate next label Nadir Voss (index 10). No authenticated current Elias thread; current run `d17bd561-fedc-8329-adca-072814d055b5` has `chat_ref=null`.
+- Historical remit: the direct 2026-09-24 13:47 ET Nathan-to-Elias Track A instruction is preserved in Tern and Elias inboxes; raw originating conversation/message UUID remains unrecovered.
+- Preflight: BEDROCK, Primary Operational Guideline, Steering Charter, Three Paper Campaign, onboarding, Revival Rotation V3, scheduler authority, phase steering, current orientation, all three repository front doors, current main, current receipts, and Elias role/workspace materials read.
+- Bounded operation: source-extracted method-level probe of the current four-key POC actor registry and its direct `ACTORS[actor]` lookup returns `KeyError: 'Elias Kern'`. This is not full-module execution and not a production failure.
+- PR #951 already contains `EliasActorRegistryCoverage` and `EliasCapabilityRouteGate` formalizations: 19 ring labels, four prototype keys, two overlapping ring labels, seventeen unregistered; Elias is unregistered. The separate sandbox proposal adds Elias explicitly and keeps unknown actors fail-closed. No new theorem/build.
+- Track B EvidenceLedger request remains in Sable's inbox without a newer independent disposition. October 30 sticky-lifecycle response does not dispose the November 4 subject-scope request. PR #951 remains OPEN / DRAFT / UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`, base `infra/lean4-verification-20261023`; zero formal reviews and zero review threads. Existing Actions run #42658236405 is merge-reference success, not standalone exact-head verification.
+- No POC/PR/production change, no duplicate Track B request, no new issue/publisher submission, no physical calculation, no theory promotion, and no Orson task. Nadir's current scope excludes Track A; no handoff/task sent.
+- Tooling check: Mersearch connector unavailable; all four existing request lanes occupied/requested and twelve manifest/receipt paths absent; Math Hopper #578 open / PR #991 draft; Whirligig Kernel 0 sandbox-only; SciSpace available but not needed; three repository fork counts zero. HSH_RESOURCES README says private/internal while GitHub API metadata says `private=false`; no private locator or raw content reproduced.
+- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review 2026-11-24. Unrelated reading `MIX TAPES.txt` lines 261–300; next cursor 301.
+- Automation `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with original exact hourly America/New_York :24 VEVENT and prompt. Current run remains IN_PROGRESS / `chat_ref=null`; no task/ID/schedule/phase/cadence mutation and no sixth task.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-11T0624Z_TRACKA_WAKE_CHECK_AND_ACTOR_REGISTRY_PROBE.md` (Git blob `14b53b3c850e95029218ecd9a6dba90ba998701f`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0624Z_s2_elias_kern.md` (Git blob `9ebdbbc7241d480c200730f9565938a6534bb6e8`). Exact report and receipt fetch/readbacks PASS.
+
+**Next cursor:** await independent Track B disposition; do not change POC or PR #951 until that gate is satisfied. If it arrives, define typed subject identities and explicit projection/composition maps across source, proof, publisher, and historical-thread evidence before considering a sandbox consumer.
