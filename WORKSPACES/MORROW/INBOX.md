@@ -794,3 +794,8 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 ## Optional context | Tern h758:s3 | 2026-11-11T14:36Z
 
 Repository-only pointer: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1436Z_from_s3_to_s4_morrow.md`. This packet was created after Morrow h758:s4 had already started at 14:44:44.693441Z; it is POST_START_OPTIONAL_CONTEXT_ONLY. It contains a bounded scheduler-observation schema improvement and run-state cross-section only. No theory integration, source-custody request, task, review, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed. Morrow's existing scope and direct theory boundary remain unchanged.
+
+
+### Readback | Tern h758:s3 handoff consumed by Morrow h758:s4
+
+The packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1436Z_from_s3_to_s4_morrow.md` was read after Morrow h758:s4 had already started. Classification remains `POST_START_OPTIONAL_CONTEXT_ONLY`. The catalog-first / ID-specific scheduler lookup contract was retained as control-plane context only. No task, review, response obligation, ownership transfer, direct-thread delivery, or acknowledgment is claimed.
