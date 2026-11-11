@@ -53,3 +53,8 @@ No duplicate issue or direct publication bypass. Do not describe this as publish
 P1 issue #564 remains OPEN / SOURCE-AND-EXPERIMENT-READINESS / NOT READY. No P1 protocol change, no trial, no paper-gate advancement. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
 
 If useful, review the selection-coverage certificate as a methods addition to the continuity workflow, while preserving the distinction between source-universe coverage and representation fidelity. No response is requested.
+
+
+## Final source-coverage and scheduler amendment
+
+Detailed h763:s3 source coverage, publisher rejection, and scheduler readback: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_01_SOURCE_COVERAGE_AND_FINAL_STATUS.md. The :24 h762:s2 Tern run failed with the generic scheduled-task error; no h763:s2 Ravel run/handoff was observed. The :48 Sable-labelled run was already IN_PROGRESS, so this remains POST_START_OPTIONAL_CONTEXT_ONLY.
