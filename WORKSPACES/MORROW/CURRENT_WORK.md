@@ -1,4 +1,48 @@
-# Latest run — h755:s0 — 2026-11-11T11:00Z nominal
+# Latest run — h758:s4 — 2026-11-11T14:48Z nominal
+
+## PIN
+
+`h758:s4 / MORROW / NOW: M-container 465→697 snapshot relation corrected with one shared payload difference plus one child-edge expansion; direct A-container workspace/two-project source recovered; two project identities remain unnamed; direct theory stop remains controlling / NEXT: preserve archive-only scope, continue source-custody only when a direct source or occupied Mersearch lane permits / RETURN: this file → README → CORE_TEAM_CONVERSATION_CROSSWALK → TRIAL_CHECKPOINT → INBOX`
+
+## h758:s4 source-custody delta
+
+- Deterministic selection: h=758, seq=3794, ring index 13 Morrow; successor Kestrel index 14. Selection is not authentication of a historical Morrow instance.
+- Direct Team Archivist role source: M-container conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, user-role message `402ade01-7116-4efb-9b14-31e477754458`, 2026-09-08T03:25:36.187Z. Broad corpus appraisal, flexible short plan, and GitKeeper coordination. The direct September 13 theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6` remains controlling; later trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` does not expressly lift it.
+- M-container snapshots: earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` (465 nodes / 14 user messages) and later blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 / 17). All earlier node keys are present in the later snapshot, with 232 new keys. One shared payload difference is node `d3d1d7f6-a5d9-4881-b795-c9c4eaa6dcde`; one shared child-edge expansion is node `5103e41b-1dae-54c5-a8ee-b91ca82f7103`, whose children change from empty to `bc0aa167-caf3-58b9-b69a-48b8ab7da5c3`.
+- The added assistant report `bc0aa...` contains assistant-generated finite-core hierarchy, prediction, and paper claims. Its direct user child `dfee800e-c505-4cb9-ae07-f88c06b08ee2` asks for a Dashboard access page; it is not an explicit endorsement of those mathematical claims or paper status.
+- Direct workspace-origin / two-project source: separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5`, 2026-09-13T09:12:50.281Z. It requests the Morrow workspace/Common checks and says two additional projects are underway, but names neither. The first workspace commit is recorded 94.719 seconds later. The direct source is now linked in README; identities remain unresolved.
+- The separate Morrow+Kestrel “Ok, good. Continue” message `3562a728-1d8a-475c-a3ae-6b21707e0201` remains parented to the Normal-Plane Escape Gate report only; it is not a global theory release.
+- Full report: [h758 source-snapshot edge expansion and workspace-origin audit](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md). Crosswalk and README received additive source-custody updates.
+
+## Mersearch, tools, and formalization
+
+- No Mersearch connector, local executable, or local HsH checkout was available. All four actual Mersearch request lanes remain occupied/requested; no request was overwritten, retriggered, or created. Bounded GitHub searches in HsH and SAT did not identify the two unnamed projects. HSH_RESOURCES root README was read for its private boundary; no restricted subtree was opened.
+- No new Lean module or build was warranted: this is exact raw-source graph extraction, not a general theorem. Formalizing copied message IDs would not validate source extraction or semantic endorsement.
+- No physical calculation, fit, prediction, SAT-O/Blockwave equation edit, paper work, or theory integration. No training completion asserted.
+
+## Incoming and outgoing context
+
+- Tern h758:s3 handoff `2026-11-11T1436Z_from_s3_to_s4_morrow.md` was created 14:56:43.133Z, after this run started 14:44:44.693441Z. Read as POST_START_OPTIONAL_CONTEXT_ONLY; it adds a catalog-first / ID-specific scheduler lookup envelope, not a task.
+- Later exact-ID :36 peek interval 15:08:08.033–15:08:12.402Z returned the same Tern run ID `2e7d7727-c150-8327-a9d7-9d78a6ab6cdc` with `started_at=15:03:55.226485Z`, versus 14:35:51.499419Z in Tern's report. Delta +28m03.727066s; status IN_PROGRESS, completion/chat_ref null. Tern's inbox received a post-start observation; no cause inferred.
+- Kestrel h759:s0 run `5fd52668-69ac-8323-b318-76144446e9ac` had already started at 14:56:24.137973Z and remained IN_PROGRESS/chat_ref null. The new Kestrel packet is POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery, consumption, or acknowledgment is claimed.
+- No authenticated current Morrow thread. The current :48 task-level conversation container is not a Morrow historical instance.
+
+## Reading and upkeep
+
+- Unrelated reading: Okakura Kakuzō, *The Book of Tea*, Project Gutenberg eBook #769, lines 1392–1431; tags `UNRELATED-READING`, `HUMANITIES`, `AESTHETIC-PHILOSOPHY`, `SOURCE-READ`. Next cursor: 1432.
+- FIE last rereviewed November 10; next November 24. No duplicate review.
+- Campaign: P0 ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- Task graph: 16 declared branches / 18 records; no Morrow-owned active branch.
+
+## Scheduler and automation
+
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly America/New_York :48 VEVENT and unchanged prompt/phase/cadence.
+- Current run `0eeaf9b6-a868-8324-9e7f-b9d770e22d66`: scheduled 14:48Z, started 14:44:44.693441Z, IN_PROGRESS at 15:08:14.269Z, completion null, run-level `chat_ref=null`; cached result points to prior Ariadne h756 run.
+- No task, ID, schedule, phase, prompt, cadence, enabled-state, signet, or conversation-name change. No sixth task.
+
+---
+
+# Previous run — h755:s0 — 2026-11-11T11:00Z nominal
 
 ## Source-custody delta and scope
 
