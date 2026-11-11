@@ -260,3 +260,12 @@ The current shared lane-3 request file belongs to Orson's later request `orson-c
 ## 2026-11-10 source-scope clarification (h743:s3)
 
 A later direct user-role message exists in the separate shared Morrow + Kestrel archive: `3562a728-1d8a-475c-a3ae-6b21707e0201`, 2026-10-11T12:52:37.593Z, parented to assistant report `8420d805-22ad-47d4-b1ae-f4d183addced`, “Morrow + Kestrel | Normal-Plane Escape Gate.” Its “Ok, good. Continue” is a narrow authorization to continue that already-open sandbox branch. It does **not** globally repeal the September 13 theory stop or authorize new theory integration, physical predictions, papers, or new data-free calculations outside that branch. The later October 25 real-data gate still controls new physical calculations. The archived assistant continuation is not a Nathan-authored theorem or independent measurement. See `WORKSPACES/MORROW/2026-11-10T2336Z_SNAPSHOT_GENEALOGY_AND_SCOPED_CONTINUATION_AUDIT.md`.
+
+
+## 2026-11-11 source-custody addendum | h758:s4
+
+The queue item “watch for two additional projects Nathan says are underway” now has an exact direct source locator. In the separate combined Aldus/Morrow conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, raw blob `5833bf598db91c0a99768467d45ff90cf77dce4c`, direct user-role message `53a18c37-9c45-4616-b67d-25fe2e36a6c5` at 2026-09-13T09:12:50.281Z asks for Morrow's workspace and Common checks and says two additional projects are underway. It does not name either project. Its assistant child `40b839ff-8a65-5a8a-84e8-1e9d0c9b8b8b` is empty. The first Morrow workspace commit follows at 09:14:25Z, 94.719 seconds later. The queue remains open for the project outputs, but their identities must remain unresolved until a direct source names them.
+
+Keep this A-container workspace-origin message distinct from the M-container Dashboard-page request `dfee800e-c505-4cb9-ae07-f88c06b08ee2` and from the separate A-container `ACTIVE` / `FULL_CONVOS` clarification `0cccc21b-55d9-43c5-b0fd-c1566c27abf4`.
+
+The November 11 M-container snapshot audit also found a shared-node child-edge expansion in addition to the previously recorded shared payload difference. See [Core-team conversation crosswalk](CORE_TEAM_CONVERSATION_CROSSWALK.md#2026-11-11--m-container-snapshot-edge-expansion-and-a-container-workspace-origin) and [h758 source-custody report](2026-11-11T1448Z_SOURCE_SNAPSHOT_EDGE_EXPANSION_AND_WORKSPACE_ORIGIN_AUDIT.md). This is source genealogy only; it does not lift the theory stop or validate assistant-generated finite-core claims.
