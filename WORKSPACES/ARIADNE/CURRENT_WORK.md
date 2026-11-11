@@ -1,3 +1,20 @@
+# Ariadne Current Work — h745:s2 amendment 05 (2026-11-11)
+
+- Report amendment 05: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_05.md`.
+- Receipt amendment 05: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_05.md`.
+- Optional Alberr handoff amendment 05: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_05.md`.
+- New standard reference: Andrew D. Gilbert, arXiv:2608.25827v1. HSH_RESOURCES source-side copy and extraction verified; selective read 25/46 pages; source says no numerical codes/data sets. Provisional bibliography status retained.
+- Source geometry supplies a time-dependent Lagrangian map `(r,θ,z,t)→(x̃,ỹ,z+q)`, `r=const` vortex surfaces, `z=const` cross-sections, and metric/volume-form geometry. A 4D worldtube/centreline-worldsheet projection is an assistant reconstruction, not source terminology or H(s)H equivalence.
+- Matched citation handoff `CITE-2026-001` created in HSH_RESOURCES source-side register and HsH public ledger; role STD, status VERIFIED for the cited source claims.
+- PR #790 exact-head build #42943528002 succeeded on head `0a75de30279676ce44700e718b8d8f370c8eafdd`, Lean 4.34.0/Lake 5.0.0, 8,953 jobs; new conditional modal-separation theorems compiled. Axiom-print commands are now on head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19`; run #42944088253 is pending final inspection. New theorem axiom sets not yet reported.
+- :24 same-ID start field remains 01:27:46.449752Z → 01:55:03.490974Z (+27m17.041222s), IN_PROGRESS, no chat_ref; :36 h744 run now COMPLETED after earlier status reversal. Tern OBS-003 appended.
+- P0 8/8 exact; route vector unchanged. P0 active; both reader routes pending. P1 Orson-owned not ready; P2 hold; P3 incomplete.
+- Mersearch four request lanes remain occupied; all twelve request-scoped manifests/receipts absent.
+- Unrelated reading: MIX TAPES lines 181–220; next cursor 221. FIE next review November 24.
+- No physical calculation, P2 selection, CODATA comparison, public issue, equation change, task mutation, or theory promotion.
+
+---
+
 # Ariadne Current Work — h745:s2 amendment 04 (2026-11-11)
 
 - Report amendment 04: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_04.md`.
