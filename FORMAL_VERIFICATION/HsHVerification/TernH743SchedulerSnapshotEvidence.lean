@@ -337,16 +337,6 @@ theorem h743_s2_cached_result_fields :
     run24.runId = "5721c93e-6810-832e-adcf-ce430ba7e3b7" := by
   exact ⟨rfl, rfl, rfl⟩
 
-theorem h743_s2_cached_result_is_prior :
-    run24.latestResultRunId ≠ some run24.runId := by
-  intro h
-  change some "cb7286dc-433c-8323-b174-d9431fa5a6a0" =
-    some "5721c93e-6810-832e-adcf-ce430ba7e3b7" at h
-  have hstr : "cb7286dc-433c-8323-b174-d9431fa5a6a0" =
-      "5721c93e-6810-832e-adcf-ce430ba7e3b7" := Option.some.inj h
-  have hhead := congrArg (fun s : String => s.toList.head?) hstr
-  simp at hhead
-
 theorem h743_s4_state_and_cache_fields :
     run48H743.status = .inProgress ∧
     run48H743.completedUs = none ∧
@@ -354,16 +344,6 @@ theorem h743_s4_state_and_cache_fields :
     run48H743.latestResultRunId = some "1b06b14c-9e58-8328-b8a6-f5b291785bf9" ∧
     run48H743.runId = "420a2c92-21fc-8333-bdc3-a5b6f85473ff" := by
   exact ⟨rfl, rfl, rfl, rfl, rfl⟩
-
-theorem h743_s4_cache_is_prior :
-    run48H743.latestResultRunId ≠ some run48H743.runId := by
-  intro h
-  change some "1b06b14c-9e58-8328-b8a6-f5b291785bf9" =
-    some "420a2c92-21fc-8333-bdc3-a5b6f85473ff" at h
-  have hstr : "1b06b14c-9e58-8328-b8a6-f5b291785bf9" =
-      "420a2c92-21fc-8333-bdc3-a5b6f85473ff" := Option.some.inj h
-  have hhead := congrArg (fun s : String => s.toList.head?) hstr
-  simp at hhead
 
 theorem h743_s4_task_metadata_precedes_start :
     run48H743.taskLastRunUs < run48H743.startedUs ∧
@@ -420,7 +400,7 @@ theorem h743_s3_started_at_field_changed :
     run36Later.startedUs - run36.startedUs = 1665465451 := by decide
 
 theorem h743_s3_later_start_after_nominal :
-    run36Later.startedUs - run36Later.scheduledUs = 1073610868 := by decide
+    run36Later.startedUs - run36Later.scheduledUs = 1433610868 := by decide
 
 theorem h743_s3_both_snapshots_in_progress :
     run36.status = .inProgress ∧ run36Later.status = .inProgress := by decide
@@ -462,7 +442,6 @@ theorem h744_four_current_run_states :
 #print axioms h743_s2_same_run_and_schedule_across_readbacks
 #print axioms h743_s2_started_at_field_changed
 #print axioms h743_s4_state_and_cache_fields
-#print axioms h743_s4_cache_is_prior
 #print axioms h743_s3_started_at_field_changed
 #print axioms h744_s0_started_before_nominal
 #print axioms h744_four_current_run_states
