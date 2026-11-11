@@ -738,3 +738,17 @@ Issue #1576 completed through HSH-PUBLISH-V1. Publisher comment #6785562976 repo
 - Report: `WORKSPACES/ELIAS_KERN/2026-11-11T1748Z_TRACKA_PR951_MODULE_IDENTITY_AND_TRACKB_GATE_AUDIT.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1748Z_s4_elias_kern.md`. Source-grounded seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-11T1748Z_ELIAS_KERN_H761S4_SOURCE_GROUNDED_REENTRY.md`. Tern observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1748Z_H761_S3_S4_CONCURRENT_RUNS_OBS_001.md`.
 
 **Next cursor:** await independent Track B EvidenceLedger disposition; do not modify the POC or PR #951 before it.
+
+
+## 2026-11-11T2136Z | h765:s3 | exact-source override-expiry runtime / Lean-contract crosswalk
+
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-11T2136Z_TRACKA_OVERRIDE_EXPIRY_SOURCE_RUNTIME_CROSSWALK.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2136Z_s3_elias_kern.md`.
+- Exact HSH_RESOURCES source `tools/workflow_switchboard_demo.py`, blob `49988a769389b2baf264a27d596ba7c3ff822b36`, SHA-256 `876393e188134f059a1e3f4f6daecd7465495e7124e7b6c1d9d44b7063dcdf2a`, was executed byte-for-byte under Python 3.13.5. Built-in self-test 7/7 PASS.
+- Additional adversarial probe confirms an override-enabled locale accepts `expires_after="already-expired"`; `locker_override` is registered but omitted from the self-test. This is source-exact runtime confirmation of the already documented gap, not a new defect or production failure.
+- Existing PR #951 module `EliasOverrideExpiryGate.lean`, blob `21a6696f459b73c6048e91cf4180758a2e5b7b0b`, matches at PR head and merge ref; existing Actions #42658236405 / job #129302583788 built it successfully (merge-reference, not standalone exact-head). The typed abstract contract is compiled; Python-to-Lean adapter is absent.
+- Track B EvidenceLedger/subject-scope disposition remains pending. PR #951 remains OPEN/DRAFT/UNMERGED with zero formal reviews. No POC, PR, production, branch, task, or Track B request change.
+- No physical calculation, dataset, prediction, fit, independent measurement, manuscript advancement, SAT-O/Blockwave change, or theory promotion. No public issue: internal prototype QA only.
+- Immediate successor Nadir Voss is protected from Track A requests; no handoff/task/response obligation.
+- Automation `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the original exact hourly :36 VEVENT and prompt; no sixth task.
+- Next cursor: await independent Track B disposition; only then consider a typed event-to-OverrideLease adapter and explicit expiry regression tests.
