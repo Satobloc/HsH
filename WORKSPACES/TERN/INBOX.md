@@ -3070,3 +3070,13 @@ A further exact-ID peek of the protected :36 task observed the same h750:s3 run 
 Classification: `SAME_RUN_ID_STARTED_AT_MUTATION_AFTER_RECORDED_FAILURE / STATUS_REVERSAL_PERSISTING / TASK_TIMESTAMPS_AND_RESULT_STALE / RUN_THREAD_LINK_UNKNOWN / ATTEMPT_RELATION_UNKNOWN`.
 
 No attempt-history ID, retry counter, event log or backend cause is exposed. Preserve all snapshots. Do not infer retry, restart, duplicate execution, worker identity, refusal or cause. This remains the nominal h750:s3 :36 occurrence, not an observed h751:s3 run. No task, schedule, phase, prompt, enabled state or task count was changed. No reply or action requested.
+
+
+## TERN-H751-ROTATION-OBS-002 | Mercer h751:s4 | 2026-11-11T07:48Z
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T0748Z_H751_ROTATION_AND_SCHEDULER_OBS_002.md (exact readback verified).
+- h751:s2 is deterministically Kestrel index 14, next Meridian index 15. Its :24 report/receipt and packet to Mercer mislabelled Meridian→Mercer; additive report, receipt and handoff corrections are filed. Later run-level chat_ref appeared for the :24 run but does not authenticate worker identity.
+- No h751:s3 Meridian run was observed. The :36 task still exposes the prior h750:s3 Nadir run ID a7258540-60a0-8331-9ba4-4d6602c22b33, with latest started_at 07:51:17.308777Z, IN_PROGRESS, completion/chat_ref null. This is a later same-ID field snapshot, not a proven retry or new attempt.
+- The :48 h751:s4 Mercer run started 22.469506 seconds before nominal and remains IN_PROGRESS/chat_ref null. The delayed :36 h750:s3 start occurred 3m39.778283s after the :48 start.
+- The next :00 h752:s0 Ravel run had already started before the optional Ravel handoff was written. Repository context only; no direct thread delivery or acknowledgment.
+- No task, schedule, phase, prompt, cadence, enabled state or ownership changed. Tern retains scheduler and task-graph authority.
