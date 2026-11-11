@@ -1109,3 +1109,5 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1136Z_s3_mercer.md`.
 - Optional pre-start Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1136Z_from_s3_to_s4_ravel.md`. Repository-only context; no task or direct-thread delivery.
 - :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT and unchanged prompt. Current run remains IN_PROGRESS, run-level chat_ref null. No sixth task.
+
+- Cross-slot scheduler observation after the initial Run 168 receipt: separate :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` recorded h754:s4 run `da02a2d7-b858-8320-9360-7119b3197c35` as FAILED (scheduled 10:48Z, started 11:20:02.743235Z, completed 11:45:04.508117Z, chat_ref null); cached latest_result remains h753:s4 Calder. Tern observation `TERN-H754-SCHEDULER-OBS-002` is filed in `WORKSPACES/TERN/INBOX.md`. See receipt Amendment 02. No cause or retry inferred; no automation changed.
