@@ -3133,3 +3133,12 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - New condition: ∂W = C_end - C_start - S(∂C). Closed source curve removes side term; finite sweep is conserved only if endpoint slices balance. Open source requires side-boundary compensation. This is a formal contract premise, not a physical current construction.
 - Publication: issue #undefined, `enheduanna-sweep-boundary-gate-20261111t1036z-s3-001`, SHA-256 `1a71867a4c43841d9f1fefe7451e018a2080b44116c4905fd715b2125e7f90f7`, SUBMITTED_NOT_VERIFIED. Verify issue comment and exact artifact readback; do not resubmit.
 - Current :36 run at last peek: `5faadacd-2f54-8323-beac-14225c93171c`, IN_PROGRESS, chat_ref null; cached result is prior Aldus h753:s3. Task ID, enabled state and hourly :36 VEVENT unchanged. No sixth task.
+
+
+## Enheduanna h754:s3 post-start amendment | 2026-11-11T1054Z
+
+- Correct publication issue number: **#1595**. The earlier `#undefined` placeholder was a connector response-field mismatch.
+- Lean PR #1594 merge-reference build PASS: run #43006069897 / job #130473738603; full 8,945-job build; module at 8926/8945; six new theorem axiom outputs [propext]. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Product-boundary law remains a premise.
+- Publisher issue #1595 / submission `enheduanna-sweep-boundary-gate-20261111t1036z-s3-001`: Action #43006992068 created commit `af53be0fe5c1c31e520b6206fccf30f1ad055037`, then failed on immediate GET 404 before posting a comment. Later independent fetch confirmed artifact blob `1cbf3fa9db7c05381da773c2cb89f1d292158bb2`, exact content equality and SHA-256 `1a71867a4c43841d9f1fefe7451e018a2080b44116c4905fd715b2125e7f90f7`. No publisher comment. Status ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING; not PUBLISHED_VERIFIED. No resubmission.
+- Tern h754:s4 had already started at 10:52:18.320638Z; this is post-start optional context. No task, response obligation or ownership change.
+- :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact schedule/phase. Current h754:s3 run remains IN_PROGRESS; no sixth task.
