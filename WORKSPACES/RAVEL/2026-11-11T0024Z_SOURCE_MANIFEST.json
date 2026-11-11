@@ -1,0 +1,100 @@
+{
+  "schema": "RAVEL_SOURCE_MANIFEST_V1",
+  "run_key": "REVROT3-19-20261011:744:s2",
+  "generated_utc": "2026-11-11T00:24:00Z",
+  "source_pairs": [
+    {
+      "source_class": "Nathan Direct question/proposal",
+      "conversation_title": "SAT theory clarification",
+      "conversation_id": "69378c7f-6320-8325-9e10-83e42fe1433c",
+      "raw_blob_sha1": "507a7000082415373ee98dbc95f18a991dff3c5a",
+      "raw_characters": 2650098,
+      "mapping_nodes": 996,
+      "repositories": [
+        {
+          "name": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+          "blob_sha1": "507a7000082415373ee98dbc95f18a991dff3c5a"
+        },
+        {
+          "name": "Satobloc/HsH",
+          "blob_sha1": "507a7000082415373ee98dbc95f18a991dff3c5a"
+        }
+      ],
+      "mirror_relation": "BYTE_IDENTICAL_SAME_SOURCE_NOT_INDEPENDENT_WITNESSES",
+      "message_id": "07e8d0d0-5790-4f61-98b5-6af71acc7d8c",
+      "role": "user",
+      "timestamp_utc": "2025-12-09T04:35:56.748Z",
+      "parent_id": "8842743d-d0b1-4541-b6d7-9bcf5bcbbf9d",
+      "direct_child_assistant_id": "63d479f5-e0ef-4dff-8cd5-2c021bba1d65",
+      "direct_child_assistant_timestamp_utc": "2025-12-09T04:35:57.096Z",
+      "interpretation": "Question/proposal that dynamics may be allocated between time-field distortion and particle wave-equation evolution, with local conversions preserving global behavior. Not a demonstrated equivalence."
+    },
+    {
+      "source_class": "Assistant elaboration, not Nathan Direct",
+      "message_id": "63d479f5-e0ef-4dff-8cd5-2c021bba1d65",
+      "role": "assistant",
+      "timestamp_utc": "2025-12-09T04:35:57.096Z",
+      "interpretation": "Adds the phrase continuous freedom and asserts mathematical equivalence and global invariance without a defined map or proof."
+    },
+    {
+      "source_class": "Nathan Direct epistemic correction",
+      "message_id": "e0adb9f3-47c4-45cb-b17c-f9ca72a4481e",
+      "role": "user",
+      "timestamp_utc": "2025-12-09T05:09:22.838Z",
+      "interpretation": "Explicitly says the account remains descriptive/retrodictive and is not predicting new things."
+    },
+    {
+      "source_class": "Nathan Direct historical-development correction",
+      "message_id": "cc23d323-1e0c-48ff-ba55-ba13196f0c63",
+      "role": "user",
+      "timestamp_utc": "2025-12-09T05:13:22.529Z",
+      "interpretation": "Says the later picture grew from the original 4D particle-vector map through retrodictive steps; this is a historical claim, not independent mathematical validation."
+    },
+    {
+      "source_class": "Nathan Direct three-representation description",
+      "conversation_title": "🎼 Ravel [H(s)H] Syncmathcek",
+      "conversation_id": "6a9d1a23-4fac-83ea-b76f-6805ece3ee9f",
+      "raw_blob_sha1": "c49367b0faa424491e7b3520a034b9e44fe6897f",
+      "raw_characters": 5820410,
+      "mapping_nodes": 1157,
+      "message_id": "496a15ea-0263-459d-b815-908f52155b90",
+      "role": "user",
+      "timestamp_utc": "2026-09-07T10:06:12.842Z",
+      "parent_id": "a2c80d0e-49ba-46d5-8b9f-5a9d389b229f",
+      "interpretation": "Distinguishes reduced 3D Minkowski/worldworm view, full 4D bulk, and actual 4D view with 3D slice; describes an induction-current-like connection within timesheet thickness tentatively; supplies no explicit intersection/readout map."
+    },
+    {
+      "source_class": "Assistant same-branch descendant, not direct reply",
+      "message_id": "9e36cf0e-6d48-4eca-93df-e6e99600b516",
+      "role": "assistant",
+      "timestamp_utc": "2026-09-07T10:06:45.368Z",
+      "parent_id": "9661a842-1406-4cba-93c5-660996496830",
+      "parent_chain": [
+        "496a15ea-0263-459d-b815-908f52155b90",
+        "0e96c494-22a1-45e3-997a-ca2c71eb8abb",
+        "28b86186-7a9a-41e8-b077-711681d2e418",
+        "9661a842-1406-4cba-93c5-660996496830",
+        "9e36cf0e-6d48-4eca-93df-e6e99600b516"
+      ],
+      "incorrect_prior_id": "9e36cf0e-9d9d-43a4-95d9-8e6f05d5f8b1",
+      "interpretation": "Assistant reconstruction adds Στ, ΔΣτ and P(τ)=W∩Στ / W∩ΔΣτ. These are not Nathan Direct equations."
+    }
+  ],
+  "formalization_boundary": {
+    "existing_structure": "FiberTransport with pairwise equivalences, identity and composition",
+    "new_module": "FORMAL_VERIFICATION/HsHVerification/RavelRepresentationConversionCoherence.lean",
+    "conditional_claim": "If evolution intertwines with conversion and readout is invariant under conversion, evolved observables are representation-independent.",
+    "missing_instantiation": [
+      "representation state spaces",
+      "allocation parameter and topology/continuity",
+      "actual conversion maps",
+      "evolution operators/wave equations",
+      "observable maps",
+      "metric/action/constraints",
+      "physical units and measured-system link"
+    ],
+    "epistemic_status": "CONDITIONAL_MATHEMATICS_ONLY_NOT_PHYSICAL_VALIDATION"
+  },
+  "equation_policy": "NO_SAT_O_OR_BLOCKWAVE_SOURCE_EQUATION_CHANGED_OR_CORRECTED",
+  "physical_calculation": "NONE"
+}
