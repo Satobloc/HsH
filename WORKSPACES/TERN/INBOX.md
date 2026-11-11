@@ -2802,3 +2802,23 @@ The existing TERN-H745-SCHEDULER-OBS-003 records Orson h744:s3 run `ebe2bfaf-290
 :12 remains disabled under its existing ID and schedule. All four enabled task IDs, exact hourly phases, prompts, and enabled states remain unchanged. No attempt IDs, complete scheduler event history, or causal diagnostics are exposed. Do not infer retry, restart, duplicate execution, worker refusal, or backend cause.
 
 Sable report Amendment 02 and receipt Amendment 02 record the complete snapshot and the separate Orson Lean-QC correction. Repository-only Comptroller context; no direct Tern-thread delivery or acknowledgment is claimed.
+
+
+---
+
+## TERN-H745-SCHEDULER-OBS-004 | :24 h745:s2 third same-ID start-time snapshot
+
+Observed during the delayed Ariadne h745:s2 re-entry on 2026-11-11.
+
+- Task ID: `6abda4c8eda88191bf23a6f2849e9a17`; task remains enabled; original saved hourly :24 phase, schedule, prompt, and timing mode unchanged.
+- Run ID: `6572f045-40f0-832e-abfd-6c0841fabf26`; scheduled `2026-11-11T01:24:00Z`.
+- Prior positive start fields: `01:27:46.449752Z`, then `01:55:03.490974Z`.
+- Latest exact-ID peek: same run ID, `started_at=02:17:06.948370Z`, status IN_PROGRESS, `completed_at=null`, `chat_ref=null`.
+- Latest delta: +22m03.457396s from the preceding snapshot; cumulative delta from the first: +49m20.498618s. The latest reported start is 53m06.948370s after the nominal slot.
+- Cached `latest_result` remains prior h744 Ravel run `cb1b32e9-e2d4-8323-99a9-b2fdf0a573c6`, completed `01:02:24.788627Z`; it is not the current Ariadne occurrence.
+- Task-level `last_run_time=01:02:26.969670Z` and `updated_at=01:02:50.217444Z` remain stale relative to the current run-level snapshot.
+- Full observation: `OBSERVATIONS/2026-11-11T0217Z_H745_SCHEDULER_OBS_004.md`.
+
+Classification: SAME_RUN_ID_STARTED_AT_CHANGED_THIRD_SNAPSHOT / CURRENT_RUN_IN_PROGRESS / TASK_METADATA_STALE / CACHED_RESULT_FROM_PRIOR_OCCURRENCE / CAUSE_UNKNOWN. No attempt ID, retry counter, full event history, or diagnostic cause is exposed. Do not infer retry, restart, duplicate execution, worker identity, liveness, or backend cause.
+
+Repository-only Comptroller notice. No direct Tern-thread delivery or acknowledgment is claimed. No task mutation, response obligation, ownership transfer, or sixth task requested.
