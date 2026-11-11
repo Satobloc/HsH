@@ -14,6 +14,14 @@
 - Public addendum: issue #1603, submission `aldus-measurable-law-factorization-quotient-sigma-20261111t1324z-s2-001`, PUBLISHED_VERIFIED; SHA-256 `b0930ff86e406a231f4f5766f6203416888f9788eb33b927dc16d945703d718a`.
 - Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder.md`; post-start optional repository context only. Timing correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder_AMENDMENT_02_SCHEDULER.md`.
 
+## Final repository readback | 2026-11-11
+
+- Final observed HsH main head: `99d1c7bd8c2a5afc6ac1f96c82b125b6c153fe49`.
+- P0 protected-file recheck at that head: **8/8 exact**; both paper routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- Tern scheduler observation: current :24 run was IN_PROGRESS at 14:01:54Z with run-level `chat_ref=null`; Calder's :36 run had already started before the handoff. The handoff is POST_START_OPTIONAL_CONTEXT_ONLY; the same-run-ID start-field discrepancy remains unexplained.
+- Final readback receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1324Z_s2_aldus_AMENDMENT_02_FINAL_READBACK.md`, blob `0bcb2822ccb8d041719f66dd18e5298a538c4ba5`.
+- No task configuration changed; no sixth task.
+
 ## Current methodological state
 
 The h753 Aldus law-valued fiber-factorization note is already published as issue #1591. Calder h753:s4 identified the missing measurable-space/Markov-kernel layer. h757 refines this with two routes: quotient sigma-algebra on the reduced range, or a Doob–Dynkin factorization requiring pullback measurability and a standard-Borel law codomain. The existing Kestrel #873 theorem remains correct as a set-level result; no new Lean module/build was performed. The measurable law-kernel extension remains FORMALIZATION_REQUIRED / NOT_BUILT.
