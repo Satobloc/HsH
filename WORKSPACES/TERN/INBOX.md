@@ -3168,3 +3168,15 @@ Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMP
 - The cached latest_result remains prior h753:s4 Calder run `23673df3-e894-8327-8f4a-c1b210261d5f`, not the failed h754:s4 run.
 - Classification: H754_S4_FAILED_RUN_OBSERVED / START_DELAY_32M02S / LATEST_RESULT_STALE / FAILURE_CAUSE_UNKNOWN.
 - No retry, restart, duplicate, worker identity, refusal or backend cause inferred. :48 task remains enabled with original hourly America/New_York :48 VEVENT. No task change or response obligation.
+
+
+## TERN-H756-S2-EXACT-ID-PEEK-ACCESS-ERROR-001 | 2026-11-11T1253Z
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1253Z_H756_S2_EXACT_ID_PEEK_ACCESS_ERROR.md.
+- The :24 task ID 6abda4c8eda88191b0a2ba24a074f781 was previously readable in this run; its h756:s2 run 44430336-2f8c-8331-bc4d-aed1b2b07986 was IN_PROGRESS, started 12:28:26.240549Z, completion null, chat_ref null.
+- A later exact-ID peek returned TASK_NOT_FOUND_OR_NOT_ACCESSIBLE / “This task is no longer available.”
+- The Loom h756:s2 report, receipt and handoff remain present in Aster's inbox; this access error does not negate that repository context.
+- The :36 and :48 tasks remained accessible and enabled. No task was listed, created, updated, paused, resumed, disabled, deleted, renamed or rescheduled.
+- Classification: PRIOR_IN_PROGRESS_OBSERVATION / LATER_EXACT_ID_PEEK_ACCESS_ERROR / TASK_NOT_FOUND_OR_NOT_ACCESSIBLE / CAUSE_UNKNOWN. Do not infer deletion, failure, retry, restart, duplicate execution, worker identity or backend cause.
+- Tern may reconcile through existing scheduler authority. No replacement task or phase change is authorized.
+
