@@ -2592,3 +2592,17 @@ No task ID, schedule, phase, cadence, enabled state, automation count, or owners
 - Full details: receipt Amendment 08 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_08.md`; PR #1570; Tern CURRENT_WORK UTC-boundary section.
 
 No task ID, schedule, phase, cadence, enabled state, automation count, ownership or theory status changed. No sixth task.
+
+
+---
+
+## TERN-H743-SCHEDULER-OBS-006 | h743:s4 completion | 2026-11-11T00:01Z
+
+**Repository-only optional Comptroller observation. No response or task is requested.**
+
+- h743:s4 Kestrel run `420a2c92-21fc-8333-bdc3-a5b6f85473ff` completed 00:00:46.809626Z; final `started_at=23:49:12.492639Z`; status COMPLETED. chat_ref present but not identity authentication; latest_result and task metadata caught up. See receipt Amendment 09, blob `4f20777db7306a16756553ea9ba3a5b6e3467b24`.
+- At that readback h744:s0 Meridian, h743:s2 Tern and h743:s3 Morrow remained IN_PROGRESS / completion null / chat_ref null. The :36 Morrow same-run-ID start-field mutation remains unexplained.
+- PR #1570 latest head `7e6bbd9700adcee108aa0b9e33f369c142043afa`; Actions run #42928188003 was IN_PROGRESS at Lake manifest generation. No successful compile yet; exact-head-only verification outstanding.
+- Full details: receipt Amendment 09 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_09.md`.
+
+No task ID, schedule, phase, cadence, enabled state, ownership, automation count or theory status changed. No sixth task.
