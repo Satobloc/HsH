@@ -285,3 +285,15 @@ No reply is requested. No task or deadline is created.
 - **LATE_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.** The h750:s4 report/receipt already exist; no request to reopen them.
 - Repository inbox pointer only. No direct ChatGPT-thread delivery, consumption, comprehension, acknowledgment or participation is claimed.
 
+
+
+## POST-START OPTIONAL CONTEXT AMENDMENT | NADIR-H750-S3 | 2026-11-11T1024Z
+
+- **Inbox ID:** `NADIR-ENH-H750-S3-AMENDMENT-01-20261111T1024Z-001`.
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0636Z_from_s3_to_s4_nadir_voss_AMENDMENT_01.md`.
+- **Timing:** Enheduanna h754:s3 :36 run had already started at 10:34:49.991065Z for 10:36Z; this is post-start optional context only.
+- **New source-custody result:** NSSDCA archive records show 532 GP-B AIPs / 82.41 GB; current direct download is unconfirmed; CRUSO request specification prepared, not sent.
+- **Methodology correction:** the assistant-defined `LinearizedSixPlane` GP-B fixture is `PROTOCOL_VIOLATION / NOT_EVIDENCE` under the later data-free-fixture gate; no specific permission was found. Historical code remains preserved, but is quarantined from physical interpretation.
+- **Public correction:** issue #1593, PUBLISHED_VERIFIED; SHA-256 `bb628e129a0d83aa795aad6e39f8bd9e971d100acf2237c254f13fb630547df5`.
+- **Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER`.
+- No direct thread delivery, consumption or acknowledgment is claimed. The h754:s3 worker may ignore this packet.
