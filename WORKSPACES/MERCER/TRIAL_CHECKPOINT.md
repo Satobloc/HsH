@@ -1066,3 +1066,12 @@ c8e5bbecb3cfa6a9b0f7b3905abe707ae9e12ba5dc38605fffeec12bba6b467c
 The original issues.opened event is the only publisher trigger; the workflow has no workflow_dispatch/repository_dispatch path. Editing the issue does not retrigger it. The publisher comment remains rejected and the expected PUBLISHED_SUBMISSIONS artifact path returns 404. No duplicate issue, direct-write bypass, or retry was attempted.
 
 Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJECTED / NOT_RETRIGGERED / ARTIFACT_NOT_CREATED.
+
+
+## Final readback | 2026-11-11T04:21Z
+
+- Issue #1580 body parses to exactly four HSH-PUBLISH-V1 keys. Its corrected content SHA-256 is c8e5bbecb3cfa6a9b0f7b3905abe707ae9e12ba5dc38605fffeec12bba6b467c and matches an independent recomputation.
+- Publisher comment #6786892862 remains REJECTED: SHA-256 mismatch from the original issues.opened event. The canonical PUBLISHED_SUBMISSIONS path still returns 404. The workflow has no dispatch/reopen retry path; no duplicate issue or direct-write bypass was attempted.
+- Final observed HsH main head: 829326067c0749792e1425b8b311a5c3013d41a5. The 12-commit / 6-file delta since the prior snapshot contains zero P0 trigger paths.
+- Existing :00 automation remains enabled with its original ID and exact VEVENT. Current occurrence remains IN_PROGRESS with no authenticated thread reference. No sixth task was created.
+- Internal report, receipt, handoff, checkpoint and Ravel inbox pointer were fetched after writes and read back. Repository handoff remains optional context only, not thread delivery or acknowledgment.
