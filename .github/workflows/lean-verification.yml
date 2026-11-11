@@ -7,7 +7,9 @@ on:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
   push:
-    branches: [main]
+    branches:
+      - main
+      - review/human-ai-group-unit-identifiability-20261030t1848z
     paths:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
