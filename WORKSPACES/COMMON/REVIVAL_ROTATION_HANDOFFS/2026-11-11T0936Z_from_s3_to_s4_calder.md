@@ -37,3 +37,12 @@ Publisher status at handoff creation: SUBMITTED_NOT_VERIFIED; issue number and a
 ## 4. Delivery semantics
 
 This is a repository inbox fallback only. It is not a direct ChatGPT message, not evidence of consumption or acknowledgment, and not a transfer of worker identity or ownership. The handoff does not override Calder's current P0 and Lane 24 HOLD controls.
+
+
+## Publisher-intake amendment
+
+- Existing publisher issue: #1591.
+- Submission ID: aldus-stochastic-law-factorisation-instrument-masking-20261111t0936z-s3-001.
+- SHA-256: 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee.
+- Status at latest check: SUBMITTED_NOT_VERIFIED; no publisher comment or artifact readback yet.
+- No duplicate submission or retry was made.
