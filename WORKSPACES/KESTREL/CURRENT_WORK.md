@@ -218,3 +218,10 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Receipt Amendment 05: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_05.md`.
 - Report updated with the later snapshot; Tern's existing `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001` receives Amendment 01. No duplicate receipt or observation.
 - :36 Kestrel and :00 Sable run IDs/start times remain unchanged at last readback. All three run records remain IN_PROGRESS with stale prior-run result pointers.
+
+
+## 2026-11-11T0413Z | h747:s3 | Tern scheduler amendment readback
+
+- Existing Tern entry `TERN-H747-CROSS-SLOT-START-ORDER-OBS-001 AMENDMENT 01` is appended and exact-readback verified.
+- Tern inbox commit `7e5f8a2cf11fe3478af4029e79ba45e76c87503d`; final inbox blob `6c2ab87406a95385a359690d244a58242ee2428b`.
+- Receipt Amendment 05 and the postcheck report now record the verified repository-inbox route. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
