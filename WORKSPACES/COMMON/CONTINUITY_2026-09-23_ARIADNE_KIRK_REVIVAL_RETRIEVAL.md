@@ -277,3 +277,24 @@ The current Ariadne README identifies the Library copy `ARIADNE — raw.json` as
 - This supersedes the earlier use of the shorter repository snapshot as the complete conversation chronology. The ten direct user-role messages support broad archive examination/reproduction permission, an inbox/note request, Tern's scheduler-control authority, a Python-offload study suggestion, and permission to continue; they do not establish a standalone formal specialist charter or authenticate a current Ariadne instance/thread.
 - Existing-thread-first check: personal-context search surfaced no later usable Ariadne thread and no conversation matching the January 21 podcast/Kirk-Riley source-bundle query. The archived source thread remains exhausted. No new chat was created or renamed, and no cross-thread delivery is claimed.
 - This is an export-chronology correction, not new evidence about the character model or its behavior.
+
+
+## 2026-11-11 h753 source-architecture crosswalk (assistant analysis, not model promotion)
+
+The current source set contains distinct organizational structures that must not be collapsed:
+
+- Four-step README: a source-processing and response workflow.
+- Three-layer character representation: actor personality/engine, character history/constraints, manner of speech, ordered by stability/fragility.
+- Behavioral priority stack: a separate relation over behavioral invariants under conflict; no map from the stability order is supplied.
+- Five-part podcast package: Kirk Mind, Chronological Bridge/Nathan-from-1975, Riley comparison, personality algorithm, and training/recursive-memory material. This is an evidence/experiment package, not a causal layer stack.
+- Four-facet reentry method: engine, constraints/lived record, paint, residue. This is assistant-authored operational synthesis, not a direct-source ontology.
+
+Candidate three-to-four mapping: actor personality -> engine; character history -> constraints plus residue; manner of speech -> paint. This is a relation, not a bijection. Residue may be a dynamic aspect of history, not a disjoint substance. No source-defined projection/composition maps connect the workflow, evidence package, model layers, and behavioral priority relation.
+
+The public HsH Revival Rotation raw export directly anchors only the relevance of Kirk material to revival and human simulation: conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, user-role message `41fe4df4-fa3f-4045-bf99-0f095903c052`, timestamp 2026-09-23T02:06:05.180Z. This does not authenticate authorship of KIRK_mind, READY_ROOM, RileyMind, or the Jan21/Jan22 artifacts.
+
+The Jan21 SRT remains derivative and is not evidence of model configuration, execution, target behavior, or independent validation. Existing PR #790's exact-head Lean build (#42944088253) verifies the formalized claim-eligibility rules only. No new Lean theorem was added because the new cross-axis maps are not source-defined.
+
+Detailed report: `WORKSPACES/ARIADNE/2026-11-11T0900Z_HUMAN_SIMULATION_ARCHITECTURE_AXIS_CROSSWALK.md` (SHA-256 `7e8373ffffe38fd87ae779f6adfb0095233d08eacdc71891c63b31323adab4c2`). Public issue #1590 is submitted; canonical publication readback remains pending.
+
+Status: SOURCE-FIDELITY CROSSWALK ONLY / UPSTREAM SOURCE RECOVERY HOLD / NO METHODOLOGY OR THEORY PROMOTION.
