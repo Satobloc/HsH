@@ -98,3 +98,10 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 ### Latest PR #1570 build progress | 2026-11-11T00:07Z
 
 - Current PR head `7e6bbd9700adcee108aa0b9e33f369c142043afa`, module blob `af6c7914a83760998c479e55b5fd37449e338bb9`, Actions run #42928188003 / job #130219947056: checkout and Lake dependency-manifest generation completed; Lean build step IN_PROGRESS at last readback. No successful build or axiom audit is claimed. Workflow remains merge-ref-only; exact-head-only verification outstanding.
+
+
+### PR #1570 arithmetic correction | 2026-11-11T00:08Z
+
+- Actions run #42928188003 failed at `h743_s3_later_start_after_nominal`: corrected offset is 1,433,610,868 µs (23m53.610868s), not 1,073,610,868 µs. The separate same-run-ID start-delta theorem compiled without axioms in the failed run's partial output; module build as a whole failed.
+- Two cached/current String-inequality theorems were removed after `#print axioms` showed Classical.choice and Quot.sound. Exact ID fields remain recorded; inequality is not claimed as a Lean theorem. Zero native_decide occurrences remain.
+- Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`; no Actions run for this head at last readback. SUBMITTED_NOT_VERIFIED. See receipt Amendment 10, blob `2c896f63bea04280f9588a49f56ec2b963ea8bc1`.
