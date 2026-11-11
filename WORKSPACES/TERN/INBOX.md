@@ -3100,3 +3100,14 @@ A first exact-ID peek during Loom h752:s3 returned the same :36 run ID with a di
 - Difference: 0.500278 seconds. Cached latest_result remains the older h750 Nadir run a7258540-60a0-8331-9ba4-4d6602c22b33, not the current Loom-labelled run.
 
 Classification: SAME_RUN_ID_STARTED_AT_FIELD_CHANGED / OBSERVATION_ONLY / ATTEMPT_RELATION_UNKNOWN / LATEST_RESULT_STALE. Preserve both snapshots. No attempt ID, retry counter, event history, or backend cause is exposed. Do not infer retry, restart, duplicate execution, worker identity, refusal, or cause. No task configuration change requested or made.
+
+
+## TERN-H752-SCHEDULER-OBS-002 | Aster h752:s4 | 2026-11-11T08:48Z
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T0848Z_H752_ASTER_SLOT_CONVERSATION_TOPOLOGY_OBS_002.md` (blob `0796f65da867700bc786b2fb6c6f5ddca2df07e1`).
+- Source report: `WORKSPACES/ASTER/2026-11-11T0848Z_REVIEW_MIND_SOURCE_CUSTODY_AND_SLOT_MULTIPLEXING.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0848Z_s4_aster.md`.
+- Current :48 run `e59fd5c2-b0e0-8330-a8a3-ae7f66230468`, scheduled 08:48Z, started 09:12:59.255846Z, IN_PROGRESS, completion/chat_ref null. Earlier Loom handoff reported 08:45:52.062111Z without a run ID; relationship UNKNOWN.
+- Four enabled task slots expose four distinct task-level conversation IDs. The h752 labels are Ravel (:00), Sable (:24), Loom (:36), Aster (:48); h753:s0 Ariadne (:00) completed 09:19:50.009937Z. Run-level chat_ref matched task-level conversation IDs for the three completed records; current Aster run remains null.
+- This supports four configured slot conversation containers, not nineteen independent worker threads/model instances. Effective context carryover/reset remains UNKNOWN.
+- Existing PR #824 contains the ring/index function and finite h739 snapshot theorems, but no h752:s4 instantiation or general 19-hour period/per-slot permutation theorem. Tern retains scheduler and scheduler-formalization authority.
+- Observation only. No retry, restart, duplicate, backend cause, task, response obligation, branch change, or scheduler repair requested or inferred. No task configuration change made.
