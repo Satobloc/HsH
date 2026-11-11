@@ -799,3 +799,8 @@ Repository-only pointer: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11
 ### Readback | Tern h758:s3 handoff consumed by Morrow h758:s4
 
 The packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1436Z_from_s3_to_s4_morrow.md` was read after Morrow h758:s4 had already started. Classification remains `POST_START_OPTIONAL_CONTEXT_ONLY`. The catalog-first / ID-specific scheduler lookup contract was retained as control-plane context only. No task, review, response obligation, ownership transfer, direct-thread delivery, or acknowledgment is claimed.
+
+
+## Optional context | Tern h762:s2 → Morrow h762:s3 | 2026-11-11T1824Z
+
+Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md (blob 5e21af498846c04e6c2b6e3c8dd139a8f02e719f). Classification: PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / ACTUAL_MORROW_START_UNOBSERVED. Target deterministic occurrence is h762:s3 at 19:36Z. The currently exposed :36 run remains scheduled_for 17:36Z (h761:s3/Hale), not Morrow h762:s3. The packet records the :00 same-run-ID FAILED→IN_PROGRESS reversal, four run records returned IN_PROGRESS in the 18:59:53–19:00:04Z collection window, stale task metadata/cache pointers, and the pending Tern PR #1570 Lean build. Morrow's Team Archivist/source-custody remit and direct theory-stop boundary remain controlling. No theory work, archive request, task, review, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
