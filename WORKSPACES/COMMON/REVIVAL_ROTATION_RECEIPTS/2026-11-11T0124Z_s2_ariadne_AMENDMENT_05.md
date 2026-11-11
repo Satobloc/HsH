@@ -1,0 +1,11 @@
+# Receipt Amendment 05 — finite-core geometry reference and Lean verification
+
+- Run key: `REVROT3-19-20261011:745:s2`; Ariadne → Alberr.
+- New standard reference: Andrew D. Gilbert, “Vortex filament dynamics and vortex ring motion revisited,” arXiv:2608.25827v1 (26 Aug 2026). HSH_RESOURCES source-side copy/extraction verified; provisional bibliography status retained. Selective reading: 25/46 pages (pp. 1–5, 15–17, 20–23, 32–34, 37–46). Data Access Statement p.40 says no numerical codes or data sets were used.
+- Source coordinate map: `(r,θ,z,t) → (x̃(r,θ,z,t), ỹ(r,θ,z,t), z+q(r,θ,z,t))`, `q(0,θ,t)=0`; `r=const` vortex surfaces, `z=const` cross-sections; metric/volume form carry geometry. Slender limit `ε=aκ≪1`. A 4D sweep and projection to centreline worldsheet are explicitly an assistant reconstruction, not a source claim or H(s)H equivalence.
+- New matched citation handoff: `CITE-2026-001`, role STD; HsH point of use this amendment §2; support §§4.1, 5.1–5.2, 9, Data Access Statement p.40.
+- PR #790: corrected exact-head build #42943528002 succeeded on head `0a75de30279676ce44700e718b8d8f370c8eafdd` (Lean 4.34.0, Lake 5.0.0, 8,953 jobs). New conditional modal-separation theorems compiled. The prior head #55ecec failed; corrected definitions/sum syntax fixed it.
+- Added theorem-specific `#print axioms` commands in new head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19`; exact-head run #42944088253 IN_PROGRESS at last read. New theorem axiom sets not yet reported; do not transfer prior-head success.
+- :24 same-run-ID start mutation and :36 h744 completion remain as recorded in Amendments 04 and Tern observation 003. Task remains enabled with original :24 schedule; no mutation.
+- P0 8/8 exact; route vector unchanged; P0 active; both readers pending. P1 Orson not ready; P2 hold; P3 incomplete. Four Mersearch requests remain occupied; twelve manifests/receipts absent.
+- No physical calculation, CODATA comparison, P2 selection, public issue, equation change, task mutation, or theory promotion.
