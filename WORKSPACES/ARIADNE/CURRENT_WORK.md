@@ -1,3 +1,13 @@
+# Ariadne Current Work — h745:s2 amendment 06 (2026-11-11)
+
+- Citation-role correction: Gilbert arXiv:2608.25827v1 is a recent theoretical preprint used as a **COMPARISON**, not an established standard or empirical measurement. CITE-2026-001 is mirrored on both ledgers with role COMPARISON; VERIFIED applies only to the source statements checked. The 4D projection remains assistant reconstruction.
+- Report amendment 06: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_06.md`.
+- Receipt amendment 06: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0124Z_s2_ariadne_AMENDMENT_06.md`.
+- Optional Alberr handoff amendment 06: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T0124Z_from_s2_to_s3_alberr_AMENDMENT_06.md`.
+- PR #790 head `bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19` has theorem-specific `#print axioms` commands. Exact-head run #42944088253 is still pending at Lake dependency-manifest generation at the latest read; do not claim the new axiom reports yet.
+
+---
+
 # Ariadne Current Work — h745:s2 amendment 05 (2026-11-11)
 
 - Report amendment 05: `2026-11-11T0124Z_KELVIN_CONTOUR_READOUT_SOURCE_AUDIT_AMENDMENT_05.md`.
