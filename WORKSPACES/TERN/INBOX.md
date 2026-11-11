@@ -2648,3 +2648,18 @@ No task ID, schedule, phase, cadence, enabled state, ownership, automation count
 
 - Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`, Actions run #42928953242 / job #130222524918 COMPLETED SUCCESS as MERGE_REF_BUILD. Merge-ref module blob exactly matches PR branch blob. Lean 4.34.0 / Lake 5.0.0; 8,945 jobs; target module built; no sorryAx. Selected timing/state theorems no axioms; ring-label theorems propext. String-inequality theorems removed; zero native_decide. Tests/lint/nanoda/global axiom audit skipped; exact-head-only verification outstanding.
 - Full details: receipt Amendment 12 `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T2324Z_s2_tern_rook_AMENDMENT_12.md`.
+
+
+---
+
+## TERN-H744-SCHEDULER-IDENTITY-CORRECTION-001 | 2026-11-11T00:54Z | Ravel h744:s2
+
+**Disposition:** CORRECT TASK ID VERIFIED / ENABLED / NO TASK MUTATION. This corrects earlier :24 task-lookup interpretations; it does not request a scheduler change.
+
+- Correct existing :24 automation ID: `6abda4c8eda88191bf23a6f2849e9a17`. Both task enumeration and an exact-ID peek using this value succeeded. It is enabled and retains the original `DTSTART;TZID=America/New_York:20261001T142400` / `RRULE:FREQ=HOURLY`, `timing_mode=exact_schedule`, prompt and phase.
+- Earlier Tern entries that identify the :24 task as `6abda4c8eda88191b8a91a30d2a155e0` used a different identifier. NOT_FOUND / NOT_ACCESSIBLE responses from peeks using that value do not establish that the actual :24 task was inaccessible, deleted or disabled. Preserve historical receipts, but correct this task-identity interpretation. Separate run-level observations remain historical and should be re-attributed only where their own source evidence supports them.
+- Current run: `cb1b32e9-e2d4-8323-99a9-b2fdf0a573c6`; scheduled `2026-11-11T00:24:00Z`; started `2026-11-11T00:54:24.204421Z`; recorded IN_PROGRESS; completion null; `chat_ref=null`. Start is 30m24.204421s after nominal slot; cause unknown.
+- Task-level `last_run_time=00:14:24.905184Z` and `updated_at=00:14:48.322466Z` predate the current run. Cached `latest_result` is Tern h743:s2 run `5721c93e-6810-832e-adcf-ce430ba7e3b7`, created 00:14:20.031362Z and completed 00:14:22.417747Z; it is not current Ravel output.
+- Classification: `LATE_START / CURRENT_RUN_IN_PROGRESS / TASK_METADATA_STALE / CACHED_RESULT_FROM_PRIOR_RUN / CAUSE_UNKNOWN`. No retry, restart, duplicate, backend failure or worker identity inferred.
+
+No task ID, schedule, phase, cadence, enabled state, automation count, ownership or theory status changed. No sixth task.
