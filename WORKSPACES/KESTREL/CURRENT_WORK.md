@@ -188,3 +188,11 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 - Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-scale-location-witness-carrying-hierarchy-20261111t0336z-s3-001.md`; blob `b25ee239a78bbcc52e054ef414c81c195f93f71f`; 5,935 UTF-8 bytes; SHA-256 `423cdd815585b31519aba75396954ac962a47522ad650fc8bba27671677724e7`.
 - Independent issue-payload/artifact comparison: exact content match. The issue has exactly the four publisher keys. Issue #1577 remains closed as a non-publisher envelope; no duplicate artifact or manual Contents write.
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_02.md`.
+
+
+## 2026-11-11T0336Z | Lean gate amendment 03
+
+- Kestrel PR #873 timelike-gate CI chronology: #42954816385 failed on Greek `λ` binder parsing; #42955291571 failed because `Real.cos` made `sat4dVelocity` noncomputable; the definition is now explicitly `noncomputable`.
+- Current module blob `cc5a210c79098c6ffe24e6c596680afec55f1a74`; aggregator blob `02224b9e46c1bd35041e7e2510737d21348eb756`; branch commit `8f49c39c8428e3d0195a8d6abd3d613aa786de4d`.
+- Third run #42955799035/job #130310470259: checkout and Lake manifest succeeded; full Lean compile remained IN_PROGRESS at last readback. No Kestrel proof pass is claimed.
+- Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0336Z_s3_kestrel_AMENDMENT_03.md`.
