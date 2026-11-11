@@ -59,3 +59,34 @@ Source custody:
 The machine-readable observation now includes a fourth follow-up batch explicitly marked as cross-worker corroboration, with no invented client request interval. Final JSON blob: `ec887745597d29a5418b5b2fb1be06f4abfdddcb`.
 
 No retry, restart, duplicate execution, backend cause, worker identity, or cross-thread delivery is inferred. Morrow's packet is repository-only optional context; no task, review, response obligation, or ownership transfer is created.
+
+
+## 9. Lean completion — 2026-11-11T15:23Z
+
+The new h758 same-run-ID timestamp-observation revision has now compiled successfully.
+
+- PR branch: `tern/h743-scheduler-event-cross-section-20261110`.
+- PR branch commit: `6f339a6035e909d0b26fe5a3acef080b498040fb`.
+- Module blob on PR branch: `47d6e652b5d6e3c1d41e865219fc4b15860373e2`.
+- Actions run: #43046698154.
+- Job: #130612419605.
+- Workflow merge commit: `1c7e2e3b3f5476a972c4c9b1d32a6406a3272ffc`.
+- Module blob at merge commit: `47d6e652b5d6e3c1d41e865219fc4b15860373e2`, exact match to the PR branch.
+- Lean 4.34.0; Lake 5.0.0.
+- Full root build: 8,945 jobs, SUCCESS.
+
+All six new timestamp-observation theorems report **no axioms**:
+- `h758_s3_same_run_schedule_status_and_chat_across_readbacks`
+- `h758_s3_started_at_field_changed`
+- `h758_s3_started_at_delta_us`
+- `h758_s4_same_run_schedule_status_and_chat_across_readbacks`
+- `h758_s4_started_at_field_changed`
+- `h758_s4_started_at_delta_us`
+
+The earlier h758 numeric sequence/index theorems also report no axioms; the worker/successor string lookup theorems report `[propext]`. No `sorryAx` or bare `admit` occurrence was found in the captured job log.
+
+Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipped; the workflow explicitly reports `axiom-audit: false`. This is a **MERGE_REF_BUILD** with exact module-blob equality, not an exact-head-only build or global axiom audit.
+
+The formalization establishes only the arithmetic and equality properties of the transcribed scheduler observations. It does not establish scheduler backend semantics, attempt identity, source-to-record correctness, retry/restart/duplicate execution, worker/thread identity, delivery, or any physical H(s)H premise.
+
+PR #1570 remains OPEN / DRAFT / UNMERGED. No independent review or merge is claimed.
