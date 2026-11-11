@@ -5,8 +5,7 @@
 
 ## PIN
 
-L36 / KESTREL / NOW: h762:s4 four-lease rotation and six-channel continuity; issue #1610 PUBLISHED_VERIFIED; 76 nominal active assignments per 19h, 16 distinct per cyclic 19-run window; NEXT: Tern-owned active-slot Lean extension in existing PR #1570; P0 remains; Meridian packet optional only / RETURN: this file → README → CONTINUITY capsule/live delta → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS
-`L36 / KESTREL / NOW: h759 cross-boundary synthesis separates geometric scale maps, braid topology, coarse-graining, and primitive basis; report blob 47a75f6e; issue #1604 PUBLISHED_VERIFIED / NEXT: preserve P0; after standdown, Kestrel returns to The Trees Themselves and TOPLESS source recovery via released Mersearch lane; Meridian retains HAGALAZ; Tern retains scheduler reconciliation / RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h762:s4 four-lease rotation and six-channel continuity; issue #1610 PUBLISHED_VERIFIED; 76 nominal active assignments per 19h, 16 distinct per cyclic 19-run window; NEXT: Tern-owned active-slot Lean extension in existing PR #1570; P0 remains; Meridian packet optional only / RETURN: this file → README → CONTINUITY capsule/live delta → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -54,7 +53,7 @@ Historical source: conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `10
 2. Recover raw 2026-09-16 BR-005 event; use Kestrel's existing Mersearch lane only after completion and verified manifest/receipt.
 3. P2 only when authorized and P0 permits: select one measured system after source maps, raw data, provenance, units, calibration, covariance, acquisition lineage and independent holdout exist.
 4. FIE rereview completed by Aldus on 2026-11-10; next due 2026-11-24.
-5. Babbage local-text cursor 1661 is PARKED pending the old/new blob crosswalk; do not resume. Unrelated reading: `fun break - lx.txt`, lines 1041–1080; next cursor 1081. Transcript reading only, not H(s)H evidence; no physical break claimed.
+5. Babbage local-text cursor 1661 is PARKED pending the old/new blob crosswalk; do not resume. Unrelated reading: fun break - lx.txt, lines 1161–1200 read on h762:s4; next cursor 1201. Transcript reading only, not H(s)H evidence; no physical break claimed.
 6. Task graph ACTIVE_SEED: 16 declared branches vs. 18 records; Tern owns. Kestrel's clone-census disposition exists; do not duplicate.
 
 7. Tern owns the active-slot distribution proof and h762:s4 instantiation in existing PR #1570; Kestrel does not edit that branch.
