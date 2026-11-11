@@ -398,3 +398,12 @@ Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, lines 139
 - Formalization target identified from PR #1115 ObservableProjection.lean: non-injective selection followed by encoding remains non-injective. PR #1115 remains OPEN/DRAFT/UNMERGED and LEAN_NOT_RUN; no new code/build because local Lean is absent and no workflow-dispatch action is exposed.
 - Public issue #1611 was created, but its declared SHA-256 does not match the actual issue content (escaped code delimiters add two bytes). Expect publisher rejection; no duplicate issue or direct publication bypass. Verify comment/artifact before assigning any publication status.
 - Next cursor: retrieve P001 full PDF/Zenodo record and any item-level manifest; reconcile partial-category display; preserve the P1 OV-49–53 source inventory and controlled feasibility cursor separately; formalize/compile only when a real Lean route is available.
+
+
+## h763:s3 final disposition amendment | 2026-11-11
+
+- Source-coverage manifest and final publisher/scheduler status: WORKSPACES/ORSON_VAY/2026-11-11T1936Z_SELECTION_COVERAGE_AS_HANDOFF_GATE_AMENDMENT_01_SOURCE_COVERAGE_AND_FINAL_STATUS.md.
+- Issue #1611 publisher comment #6805705400: REJECTED: SHA-256 mismatch. Actual issue-body digest 6888d20a1daf6df6a38073cfc6918cddc7d6e3fe63d60744081615623985ddf3 differs from declared 3c08dcc2e3dd0efe66b2989c1689e1a5747818dfed1e7d077c662e737ff06ebb. Expected artifact path returned 404. No duplicate or bypass.
+- :24 h762:s2 Tern run 14db7f33-1298-8323-abb6-ee6f7091c3c0 failed with generic “There was a problem with your scheduled task”; no cause exposed. No h763:s2 Ravel run/handoff observed. Tern observation filed and inbox pointer appended.
+- :48 h763:s4 Sable-labelled run 2515903d-775c-8333-9d31-9138326e2ca0 was already IN_PROGRESS; handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- :36 task remains enabled with original ID and exact :36 hourly schedule; current run still IN_PROGRESS at final peek; no sixth task.
