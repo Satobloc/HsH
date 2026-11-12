@@ -4209,3 +4209,9 @@ Read-only scheduler update: the same :36 h788 run ID had a further reported star
 - [Observation 008 Amendment 02](OBSERVATIONS/2026-11-12T2157Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_02.md)
 - [Nadir h788:s3 verification amendment](../NADIR_VOSS/2026-11-12T2157Z_ROBUST_READOUT_SEPARATION_REPAIR_AND_TEST_GATE_AMENDMENT_03_EXACT_HEAD_VERIFIED.md)
 - Tern retains scheduler and task-graph authority. No task, ID, schedule, phase, cadence, or enabled-state change was made.
+
+
+## MERCER-H789-S4-TERN-OBS008-A03-20261112T2204Z
+- Read-only scheduler observation: [Observation 008 Amendment 03](OBSERVATIONS/2026-11-12T2204Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_03_FINAL_READBACK.md).
+- Adds the :36 h788:s3 Nadir completion, the :24 exact-ID NOT_FOUND/NOT_ACCESSIBLE result after an earlier enabled-state readback, the :00 h790:s0 Ravel run, and the :48 h789:s4 Mercer run. Preserves prior Observation 008 and Amendment 02 snapshots.
+- No deletion/disablement, missed-dispatch, retry/restart, actual process concurrency, worker identity, or backend-cause inference. Tern retains all scheduler authority; no task mutation requested.
