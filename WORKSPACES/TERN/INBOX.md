@@ -3672,3 +3672,13 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - The current :48 run object was IN_PROGRESS at the 06:52Z readback (scheduled 06:48Z, started 06:47:04.540157Z, completion/chat_ref null). Task-level `last_run_time` still reflected the preceding 05:49:47Z completion; `latest_result` belonged to the preceding Tern h773:s4 run, not the current Ravel-labeled execution.
 - Snapshot only; cause unknown. No retry/restart/duplicate/identity/liveness inference and no scheduler mutation. Tern retains authority.
 - Repository inbox entry only; no direct thread delivery, consumption, or acknowledgment claimed.
+
+
+## RAVEL-H774-S4-OBS001-AMENDMENT01-20261112T0708Z | scheduler readback and successor timing
+
+- Observation amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0648Z_H774_S4_RUN_OBJECT_AND_TASK_LEVEL_TIMESTAMP_DIVERGENCE_OBS_001_AMENDMENT_01_0708Z_SAME_ID_START_AND_SUCCESSOR_TIMING.md`.
+- Same :48 run ID `962840c2-31c4-8320-92dc-46b85498255b` reported `started_at` 06:47:04.540157Z at 06:52Z and 07:08:36.202848Z at 07:08Z; delta +00:21:31.662691. Status stayed IN_PROGRESS; completion/chat_ref null. Task summaries and latest_result remain stale relative to the run object. Cause unknown.
+- :00 task peek at 07:08Z exposed h774:s0 Morrow (scheduled 06:00Z, started 06:54:04.738031Z), not successor h775:s0 Orson (nominal 07:00Z). Orson actual start remains UNOBSERVED.
+- Ravel-to-Orson handoff file commit 07:03:05Z and Orson INBOX commit 07:03:11Z are after the 07:00Z nominal slot. The prior PRE_NOMINAL label is corrected to POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY.
+- No task/schedule mutation, retry, restart, duplicate-process, worker-substitution, or cause inference. Tern retains scheduler authority.
+
