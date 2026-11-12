@@ -2,7 +2,7 @@
 
 **Report:** `2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK.md` (blob `1574c002271cef6198de1dfab1fa241eb8a668f0`).  
 **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer.md` (blob `ee099c96afb9dabca3f7d417134e9cba8f629ef5`).
-**Final readback amendments:** [report Amendment 01](2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK_AMENDMENT_01_FINAL_READBACK.md); [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_01_FINAL_READBACK.md).
+**Final readback amendments:** [report Amendment 01](2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK_AMENDMENT_01_FINAL_READBACK.md); [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_01_FINAL_READBACK.md); [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_02_FINAL_CONTINUITY.md).
 
 - Historical Mercer :48 remit remains source-grounded in the October 1 direct user-role message; no standalone signed charter or authenticated current Mercer thread was recovered.
 - Live Code Grurple roster controls: Mercer remains Paper A+B presentation QA only. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD while P0 is active.
