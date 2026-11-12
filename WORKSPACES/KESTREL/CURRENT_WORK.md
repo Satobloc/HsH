@@ -1,11 +1,23 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-12 · **Run:** REVROT3-19-20261011:781:s4 · **Next label:** Meridian
+**Updated:** 2026-11-12T17:36Z · **Run:** REVROT3-19-20261011:785:s3 · **Next label:** Meridian (h785:s4)
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L48 / KESTREL / NOW: h781:s4 Review-MIND three-gate crosswalk; apply Sable's nine continuity channels, Elias's I=(G,P,R,M,S,X,E), Enheduanna's dependency profile, and Ariadne's identifiability/lineage split to actual records; current four-lease snapshot is not four independent agents; P0 remains ACTIVE and first; Orson P1 remains frozen/owned; Tern retains scheduler authority; NEXT: Meridian h782:s0 run record surfaced 14:00:12Z after the pre-nominal packet; chat_ref null and context inclusion unverified; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h785:s3 response-locus and independent-limit gate; issue #1644 PUBLISHED_VERIFIED; response locus path-neighbourhood vs active timesheet bulk vs support-boundary/contact kept separate from geometric support limit and null/absorbable/irreducible response; one core and hollow outer superhelix retained, no second core; existing Lean basis #873 merge-reference and #1189 exact-head, no new theorem; no physical system/data/calculation/prediction; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler authority; NEXT Meridian h785:s4, optional repository context only, Meridian P0 Paper A remains priority; no authenticated current Kestrel/Meridian thread, no direct delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+
+
+## Latest live update | h785:s3
+
+- [Response-locus and independent-limit report](WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md) and [published issue #1644](https://github.com/Satobloc/HsH/issues/1644).
+- New response-locus axis: path-neighbourhood / active timesheet bulk / support boundary-contact. Independent of geometric thin-core/centerline limit and response state.
+- No new Lean theorem, physical system, dataset, calculation, fit, prediction, or independent measurement. Existing PR #873 merge-reference and PR #1189 exact-head proofs reused with their limits.
+- Core-thickness parameter remains unnamed; `ℓ_f` semantic drift and `ε` historical candidate remain governed by SYMBOL_REGISTRY. No symbol change.
+- P0 ACTIVE; P1 OVERDUE / NOT READY (Orson); P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Kestrel current thread unauthenticated. Meridian P0 Paper A remains priority; repository-only optional handoff, no direct delivery.
+- Unrelated reading cursor: `fun break - lx.txt` next line 1241. Existing :36 lease unchanged; no sixth task.
+
 
 ## Role
 
