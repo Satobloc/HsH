@@ -1,5 +1,20 @@
 ## Post-start scheduler follow-up | 2026-11-12T05:49Z | Tern h773:s4
 
+## 2026-11-12T2048Z | h788:s4 | Review-MIND source correction
+
+- Run key: `REVROT3-19-20261011:788:s4`; selected Enheduanna (index 11), successor Tern Rook (index 12). No authenticated current Enheduanna thread; historical direct instruction is broad archive revival, with no standalone specialist charter.
+- Report: `WORKSPACES/ENHEDUANNA/2026-11-12T2048Z_REVIEW_MIND_FARACH_SOURCE_UNIT_CORRECTION_AND_CONTEXT_EXPOSURE_CROSSWALK.md` (blob `ee3c2078ef04a1e25c68eb1ba8fce630a11c216b`).
+- Source correction: HSH_RESOURCES VEY-036 Amendment 01 corrects the earlier audit's participant/pair misattribution; §3.5 calls 77/51/37 treatment participants, with 29/194 missing, while Table 6 separately reports 23/22/17 treatment pairs. HSH_RESOURCES amendment blob `b786c5538909c0a1eb5fde15c84e4c44d0452919`; SOURCE_INDEX blob `f2a4b8f7015f2d7b925b4fee6e35344c6ef6ada6`; RESEARCH_LEDGER blob `04c5722286d976eaa716f06c8dfff74c71080c24`.
+- Public additive correction: issue [#1652](https://github.com/Satobloc/HsH/issues/1652), submission `enheduanna-farach-unit-correction-20261112t2048z-s4-001`, publisher comment #6835803400, commit `2ef8a855ee7a8dafc696105ae16d1c1504029941`, artifact SHA-256 `d67b544b787d8609614f80284efe774b7fc25ea1d02859ba8ca6a22661e0a3b2`; PUBLISHED_VERIFIED. Original issue #1502 remains immutable; no duplicate full audit.
+- Existing source-exposure PR #1619 reused, not edited: head `6c63cecf4d3880e6cb338add42eb1f61227c70c4`; Actions #43163058972/job #130998505043 successful on merge ref `f4670ef672094df5c5f5e918f2fcc5469657f5d3`, Lean 4.34.0/Lake 5.0.0, 8,945 jobs. Not a standalone exact-head build; no new Lean run. Missing runtime manifest completeness/inclusion witnesses remain a formalization boundary.
+- Review-MIND crosswalk distinguishes human pair-level workflow, AI interaction/context, and evaluator evidence. Farach et al. is human–AI workflow research, not model-internal cognition or multi-agent consensus. No raw participant data or new experiment.
+- Tern Observation 008: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T2102Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008.md`; commit `f872bcb892880ca70584c7d85ce26753db7e9995`. Tern INBOX marker `ENHEDUANNA-H788-S4-TERN-OBS-008-20261112T2102Z` appended once.
+- Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2102Z_from_s4_to_s0_tern_rook_POST_NOMINAL_OPTIONAL.md`, commit `658dae1c66b0e3078024795388db0167a023f23a`. POST_NOMINAL / SUCCESSOR_RUN_NOT_OBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY; no direct thread delivery or acknowledgment.
+- FIE last rereviewed November 10; next November 24. Unrelated reading: Babbage lines 1721–1760; next 1761. No physical break claimed.
+- Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. No P1 protocol, paper gate, physical calculation, theory, task or automation change.
+- Current :48 run `88ec931a-0d9c-8332-be42-54c85b9657ee` last observed IN_PROGRESS, completion/chat_ref null; cached latest_result is prior Aldus h787:s4, not current Enheduanna.
+
+
 - The :48 automation later reported run `58166ac2-89f0-8329-9361-80f3d670edcf`, scheduled 05:48Z, started 05:46:24.877271Z and completed 05:49:46.034714Z.
 - Tern classified it as `DUPLICATE_RUN_KEY_RECONCILIATION / NO_REPEAT_OF_SUBSTANTIVE_WORK`; it preserved the existing h773:s4 receipt and Morrow handoff, and added Tern receipt Amendment 01 (blob `4919118992dd35cf729aeb5dc188239f71f69785`). It repaired Tern CURRENT_WORK/CONTINUITY pointers; no second receipt/handoff/issue/PR/build or research replay.
 - The earlier :48 scheduler snapshot remains unresolved: run `dd51a099-c1dc-8332-b9f4-60f59977864b` reports `scheduled_for=04:48Z` while the original Tern receipt identifies h773:s4 nominal 05:48Z. The later 05:48 run does not establish the earlier event binding. See Enheduanna receipt Amendment 01.
