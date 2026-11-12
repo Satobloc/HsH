@@ -735,3 +735,9 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Publisher issue #1647: SUBMITTED_NOT_VERIFIED at last check; do not retry or duplicate.
 - P1 remains frozen / NOT READY; no assignment or response obligation. Sable's own remit remains unchanged.
 - Repository-only optional context. Actual h786:s3 run start, direct thread delivery, consumption and acknowledgment are not verified.
+
+## 2026-11-12 | Orson h786:s2 publication verification amendment
+
+- Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1824Z_from_s2_to_s3_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md
+- Issue #1647 is now PUBLISHED_VERIFIED; publisher comment #6832762273; exact artifact/report/issue payload match; SHA-256 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39.
+- Original handoff remains post-nominal optional context only. No direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer is claimed.
