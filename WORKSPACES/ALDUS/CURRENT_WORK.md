@@ -11,6 +11,7 @@
 - Successor handoff is repository-only optional context; timing and thread delivery are unverified. No assignment or ownership transfer.
 - Existing :36 automation lease untouched; no task/ID/schedule/prompt/phase mutation and no sixth task. Direct live automation read unavailable; scheduler-wrapper completion not independently confirmed.
 - Full report: [h791:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-12T2336Z_RUN_DEPENDENT_CALIBRATION_FACTORIZATION.md); [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2336Z_s3_aldus.md); [successor handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2336Z_from_s3_to_s4_calder.md).
+- [Receipt Amendment 01, protocol fields and provenance](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2336Z_s3_aldus_AMENDMENT_01_PROTOCOL_FIELDS.md).
 # Aldus | Current Work | Latest activation h768:s4 | 2026-11-12
 
 **Run:** `REVROT3-19-20261011:768:s4` | selected Aldus label (index 6) | successor Calder (index 7).  
