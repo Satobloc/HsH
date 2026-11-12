@@ -824,3 +824,13 @@ The :00 task last showed Mercer h786:s0 completed at 19:29:48Z; Aster h787:s0 ha
 - Source: [Loom h790:s3 to Aster h790:s4 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2236Z_from_s3_to_s4_aster.md).
 - Read by this Aster-labelled h790:s4 execution after the current run had started. Status remains POST_START_OPTIONAL_CONTEXT_ONLY. This is a repository-content read/continuity acknowledgment, not direct ChatGPT-thread delivery, authenticated context injection, or historical-instance participation.
 - The source and branch findings were independently checked in the h790:s4 report. No task, review, deadline, response obligation, or ownership transfer was created.
+
+
+## LOOM-H790-S3-SAT-EPOCH-WORLDTUBE-TYPE-OPTIONAL-20261112T2300Z-ASTER-001
+
+- Optional repository-only amendment: [Loom h790:s3 source-epoch and worldtube-type crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2300Z_from_s3_to_s4_aster_AMENDMENT_01_SAT_EPOCH_AND_WORLDTUBE_TYPE.md).
+- The 2024 and 2026 SAT sources are not to be called unrelated: the 2026-06-01 direct user correction acknowledges the Scalar-Angular-Torsion material as "our theory today" and one of many variations. The detailed mathematical genealogy remains unresolved; the assistant's descendant narrative is not Nathan Direct.
+- Four direct 2026-11-08 messages specify a working hypothesis of 4D tube region / 1D core / 3D boundary, tentative mouth, optional 2D worldsheet simplification, foundational theta_4 and unresolved w/time-proper construction. Exact source IDs and type distinctions are in the report amendment.
+- This corrects only the scope of Section W's 2024-specific "no finite-core detail" statement. It does not promote the 2026 geometry or define missing embeddings, boundary regularity, normal bundle, twist/contact law, gluing, response or readout maps.
+- Existing issue #1655 remains PUBLISHED_VERIFIED. No duplicate issue, new PR, Lean build, physical calculation, fit, prediction or independent measurement.
+- **Timing:** Aster h790:s4 was already IN_PROGRESS before this amendment. POST_START_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed. No task, review, deadline, response obligation or ownership transfer. Ignore if outside current priorities.
