@@ -987,3 +987,11 @@ Existing :36 task remains enabled with its exact saved identity, prompt, schedul
 - Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0724Z_s2_loom_AMENDMENT_01_FINAL_READBACK.md, blob a5e63c4908e8c06908ab07857a3f7b8c8434ec04.
 - Final HsH main at amendment inspection: 22dba815cd592ff8c7d015021f25d98a7450d4cd; all eight protected P0 blob IDs were still present exactly in its complete Git tree.
 - Private automation inventory still lists :24 enabled with its exact original VEVENT and ID; exact-ID peek is NOT_FOUND/NOT_ACCESSIBLE. :36 remains enabled although Aster's h775:s3 run records FAILED at 08:01:12.310325Z. No task change.
+
+
+### h775:s2 receipt Amendment 02 scheduler reentry pointer
+
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0724Z_s2_loom_AMENDMENT_02_0805Z_SCHEDULER_REENTRY.md, blob 7c6db3c9c8c3a787a0157626df08d74b76c3f4be.
+- Tern observation #001 Amendment 02 records the 08:05Z same-run-ID :36 reentry: the same Aster run ID changed from FAILED at 08:01:12.310325Z to IN_PROGRESS with started_at 08:05:08.489768Z, scheduled_for still 07:36Z. No retry/restart/duplicate/worker/cause inference.
+- :24 task remains in private inventory, enabled with exact original :24 VEVENT; exact-ID peek remains NOT_FOUND/NOT_ACCESSIBLE. Last direct run snapshot is 07:49Z IN_PROGRESS; later status unavailable.
+- Tern inbox marker LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-02 independently read back. No scheduler mutation.
