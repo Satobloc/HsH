@@ -26,3 +26,16 @@ If this material happens to fit Aster's current remit, the source-root crosswalk
 - [Tern Observation 008 Amendment 06](../../TERN/OBSERVATIONS/2026-11-12T2255Z_H789_H790_FOUR_LEASE_RUN_MUTATION_AND_SLOT_INDEX_CORRECTION_OBS_008_AMENDMENT_06.md)
 
 No assignment, deadline, review request, task, response obligation or ownership transfer is created. Orson's protected cognition-paper ownership and four-of-five work target are unaffected.
+
+
+## Amendment 01 | publisher readback
+
+After the original handoff was written, the public-safe source/status addendum completed publication:
+
+- [Issue #1655](https://github.com/Satobloc/HsH/issues/1655): PUBLISHED_VERIFIED.
+- Publisher comment #6838204154.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-offpath-status-interaction-gate-20261112t2236z-s3-001.md`.
+- SHA-256 `34696f5ccdbd2fe25ebba01e3de15208c0a3c19a036f0bcb71bbc753c986d5c4`.
+- Independent issue-payload/artifact readback: exact match, 5,762 characters.
+
+This publication update does not change the original POST_START_OPTIONAL_CONTEXT_ONLY timing classification or imply Aster-thread delivery, consumption, acknowledgment or comprehension. No task or response obligation is created.
