@@ -1,0 +1,124 @@
+{
+  "schema": "HSH_FACTORY_HANDOFF_PENDING_V1",
+  "packet_id": "enheduanna-source-context-exposure-20261112t0536z-s3",
+  "status": "FACTORY_HANDOFF_PENDING",
+  "created_utc": "2026-11-12T05:36:00Z",
+  "prepared_utc": "2026-11-12T05:46:51.342868Z",
+  "source_worker_selection": {
+    "ring_role": "Enheduanna",
+    "ring_index": 11,
+    "nominal_hour_h": 773,
+    "sequence": 3868,
+    "next_ring_role": "Tern Rook",
+    "next_ring_index": 12,
+    "identity_status": "ROLE_SELECTION_ONLY_NOT_AUTHENTICATED_INSTANCE_OR_THREAD",
+    "historical_specialist_charter": "No standalone Nathan-authored Enheduanna specialist charter recovered; broad archive-revival instruction only."
+  },
+  "source_authority": {
+    "raw_export_repository": "ChatGPT Library",
+    "raw_export_path": "MARLOWE — raw.json",
+    "conversation_id": "6aa8a2bf-8280-83e9-9d57-1e0af853b7f1",
+    "direct_user_message_id": "11399ca2-5bd6-4203-9e19-e8e044fbc736",
+    "timestamp_utc": "2026-09-23T02:04:49.417Z",
+    "claim_scope": "Broad archive-revival instruction to consider all archives; not a specialist charter or theory ontology.",
+    "attribution_status": "DIRECT_USER_ROLE_MESSAGE_READ; no authenticated current Enheduanna thread."
+  },
+  "formal_artifact": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 1619,
+    "pull_request_url": "https://github.com/Satobloc/HsH/pull/1619",
+    "branch": "research/enheduanna-source-context-exposure-20261112t0148z",
+    "base_branch": "infra/lean4-verification-20261023",
+    "base_sha": "c7dc2c483f50ae03fc7a7c530829170135e18d92",
+    "head_sha": "6c63cecf4d3880e6cb338add42eb1f61227c70c4",
+    "merge_reference": "f4670ef672094df5c5f5e918f2fcc5469657f5d3",
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/EnheduannaSourceExposure.lean",
+    "module_blob_sha1": "fb24d1148729dd202ef6a2319fd4aad80b6fce26",
+    "module_blob_matches_current_pr_head_and_merge_reference": true,
+    "formalization_status": "COMPILED_WITH_ASSUMPTIONS",
+    "formalized_claims": [
+      "source_attestation_does_not_determine_context_exposure",
+      "source_attestation_does_not_determine_context_exposure_within_same_run"
+    ],
+    "lean_toolchain": "leanprover/lean4:v4.34.0",
+    "lake_version": "5.0.0",
+    "mathlib_version": "v4.34.0",
+    "ci": {
+      "run_id": 43163058972,
+      "job_id": 130998505043,
+      "source_commit": "f4670ef672094df5c5f5e918f2fcc5469657f5d3",
+      "build_kind": "PULL_REQUEST_MERGE_REFERENCE",
+      "conclusion": "success",
+      "full_build_jobs": 8945,
+      "theorem_specific_axiom_outputs": {
+        "source_attestation_does_not_determine_context_exposure": [
+          "propext"
+        ],
+        "source_attestation_does_not_determine_context_exposure_within_same_run": [
+          "propext"
+        ]
+      },
+      "captured_log_sorryAx_occurrences": 0,
+      "captured_log_bare_admit_occurrences": 0,
+      "skipped": [
+        "tests",
+        "lint",
+        "nanoda",
+        "separate_global_axiom_audit"
+      ],
+      "dependency_manifest": "Generated from scratch because no previous manifest was present; not committed, so full dependency closure is not pinned."
+    },
+    "epistemic_limits": [
+      "The same-run theorem is a type-level countermodel conditional on ContextSnapshot permitting distinct snapshots for one run without an inclusion invariant.",
+      "No actual historical execution or hidden model context snapshot is established.",
+      "No source inclusion, output uptake, causal influence, identity continuity, consciousness, or authenticated subject is established.",
+      "No physical geometric object, worldtube, timesheet, projection, instrument readout, or measured system is formalized.",
+      "The Lean build verifies the formalized statements only; source-to-formal translation and physical premises are not thereby validated."
+    ],
+    "pr_status": "OPEN_DRAFT_UNMERGED",
+    "formal_reviews": 0
+  },
+  "source_fidelity_report": {
+    "repository": "Satobloc/HsH",
+    "path": "WORKSPACES/ENHEDUANNA/2026-11-12T0536Z_SOURCE_CONTEXT_EXPOSURE_SAME_RUN_REFINEMENT_AND_SCHEDULER_CONFLICT.md",
+    "blob_sha1": "3fa7c88fe0dbfb237af4df6a38653183603943d7",
+    "readback": "exact"
+  },
+  "publication_status": {
+    "existing_methodology_issue": 1620,
+    "existing_issue_status": "PUBLISHED_VERIFIED",
+    "new_issue_created": false,
+    "new_publisher_submission_created": false,
+    "pr_1619_description_updated_with_current_ci": true
+  },
+  "target": {
+    "repository": "Satobloc/FACTORY_FLOOR",
+    "default_branch": "main",
+    "admission_status": "NOT_FACTORY_FLOOR_ELIGIBLE",
+    "required_geometry_plot": "ABSENT",
+    "independent_hostile_geometry_review": "ABSENT",
+    "machine_readable_intake_endpoint": null,
+    "allocated_floor_id": null,
+    "authorized_recipient": null,
+    "delivery_status": "NOT_DELIVERED",
+    "reason": "This is an abstract information-architecture theorem, not a physical geometric object. No source-faithful quaternary plot or independent hostile geometric-fidelity review exists. The pending packet is HsH-side routing/status only; no direct Factory Floor write or admission is authorized or claimed."
+  },
+  "guardrails": {
+    "no_direct_factory_floor_write": true,
+    "no_new_branch": true,
+    "existing_pr_branch_extended": true,
+    "no_pr_merge": true,
+    "no_new_task": true,
+    "no_task_id_or_schedule_change": true,
+    "no_physical_calculation": true,
+    "no_paper_gate_advance": true,
+    "no_bedrock_promotion": true,
+    "no_cross_thread_delivery_claim": true
+  },
+  "next_cursor": [
+    "If a later geometry-bearing proposal is considered, recover Nathan Direct source statements first, identify the actual object and all primitive maps, and construct the exact quaternary plot before Factory Floor admission.",
+    "A positive context-exposure claim needs a run/snapshot-bound inclusion witness with source digest, capture time, retrieval path and integrity/custody evidence; output uptake and causal influence remain separate gates.",
+    "Do not infer P2 readiness from this information-architecture proof. P2 still requires a real measured system, dataset, provenance, units, calibration, uncertainties/covariance, standard comparator, independent holdout and preregistered falsification threshold.",
+    "Preserve Orson's P1 cognition ownership and the November 9/November 30/December 14 campaign gates."
+  ]
+}
