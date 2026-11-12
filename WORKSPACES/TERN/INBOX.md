@@ -3613,3 +3613,8 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - The :24 h772:s2 run completed 04:29:30.089645Z and now has a non-null run-level chat_ref; earlier IN_PROGRESS/null snapshot is superseded for that run only.
 - :00 h772:s0 Ariadne and :48 h771:s4 Aster remain IN_PROGRESS with null completion/chat_ref. Preserve task-level summaries and cached latest_result separately.
 - Cause UNKNOWN. No retry/restart/duplicate/backend/liveness/worker-substitution inference. Tern retains authority; no task/configuration changes.
+
+
+## 2026-11-12 03:59Z — Loom later readback amendment
+
+See WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0359Z_H771_S3_SAME_RUN_START_FIELD_UPDATE_AMENDMENT_02.md. The same :36 run ID was observed with a later started_at value, differing from the earlier snapshot by 00:27:29.249558. Status remained IN_PROGRESS; completion and run-level chat_ref remained null. Task summary fields and latest_result remained stale. Classification is SAME_RUN_ID_START_TIMESTAMP_UPDATE / RETRY_OR_FIELD_SEMANTICS_UNRESOLVED. No cause or task mutation is inferred.
