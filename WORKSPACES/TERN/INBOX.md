@@ -33,8 +33,8 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 
 **Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
 
-- Observation: [h771 scheduler object transitions and phase-proof scope](../TERN/OBSERVATIONS/2026-11-12T0324Z_H771_SCHEDULER_STATUS_MUTATION_AND_CROSS_LEASE_OBS_003.md) (blob `55419fc22f3ce8036be82439daa7376fd01629f6`).
-- Sable report: [h771 systems/control audit](../SABLE/2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md) (blob `df23b60eedd8dedb0f76113322896931512cddfb`).
+- Observation: [h771 scheduler object transitions and phase-proof scope](../TERN/OBSERVATIONS/2026-11-12T0324Z_H771_SCHEDULER_STATUS_MUTATION_AND_CROSS_LEASE_OBS_003.md) (blob `31510ebefcf43720eaf47dfde907905946ffeb22`).
+- Sable report: [h771 systems/control audit](../SABLE/2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md) (blob `e1d78a47e662e70617c78cc5cafd63e0d9c994e0`).
 - New readback: :00 h770:s0 run `80898d72-7930-8324-9db1-a1439f9e071b` changed FAILED → IN_PROGRESS → COMPLETED under the same run ID, with `started_at` moving +33m29.102591s; :48 h770:s4 run `001a7c83-f994-8330-8cef-0fc7b68676dd` changed `started_at` +27m21.303006s and later completed. No attempt-history IDs or causes exposed.
 - h771:s2 :24 Sable run `9ee041bb-6ba0-8322-ab41-ae4b0cbaacd3` started 26.608762s early and remained IN_PROGRESS / `chat_ref=null` at 03:33:40Z. h771:s3 :36 Loom run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` had already started 03:32:23.424577Z, before its 03:36Z nominal slot; Sable's optional packet is therefore POST_START_CONTEXT_ONLY.
 - h771:s0 Ravel start was not observed; :00 next_run_time advanced to 04:00Z. Do not infer a skipped dispatch or cause.
@@ -3591,3 +3591,6 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - Same :00 h770:s0 run ID `80898d72-7930-8324-9db1-a1439f9e071b` retained scheduled_for 02:00Z while started_at changed from 02:40:55.175373Z to 03:14:24.277964Z (+33m29.102591s); its earlier FAILED/completed observation is now followed by IN_PROGRESS with null completion/chat_ref.
 - Ravel h771:s0 nominal 03:00Z remains unobserved; the :00 task still exposes the h770:s0 run ID. No failure/refusal inference.
 - No attempt-history IDs or cause. No retry/restart/duplicate/backend/identity/liveness/delivery inference. Tern retains scheduler authority. No task, ID, prompt, schedule, phase, cadence, enabled state, response obligation or ownership transfer.
+
+
+**Pointer amendment 2026-11-12T03:44Z:** Observation #003 and the Sable report were additively amended with the 03:44:18Z exact-ID readback. Use final blobs `31510ebefcf43720eaf47dfde907905946ffeb22` and `e1d78a47e662e70617c78cc5cafd63e0d9c994e0`; the original snapshots remain preserved in those files.
