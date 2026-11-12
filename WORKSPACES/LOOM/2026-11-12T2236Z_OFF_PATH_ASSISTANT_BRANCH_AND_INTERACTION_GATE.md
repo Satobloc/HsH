@@ -131,9 +131,9 @@ The script's model removes deterministic-clone multiplicity and preserves root i
 - Task graph: ACTIVE_SEED, 16 declared branches / 18 records; no task-graph mutation.
 - Lateral reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540. Next cursor 541. The prior `fun break - lx.txt` cursor 1281 remains deferred; this run changed source/lens. No embodied physical break is claimed.
 
-## 8. Scheduler and automation boundary
+## 8. Scheduler and automation boundary (preflight snapshot)
 
-The existing :36 lease remains enabled with its original task identity, hourly America/New_York :36 recurrence, prompt and phase unchanged. Its current run ID was observed IN_PROGRESS, with null completion and null run-level conversation reference. It began 2m44.345517s before its nominal 22:36Z slot. The :24 task's last observed run was the earlier 21:24Z occurrence and completed; no h790:s2 Sable run/handoff was identified. The :48 task's last observed run was the earlier 21:48Z occurrence and remained IN_PROGRESS; no h790:s4 Aster run was identified at preflight.
+At preflight, the existing :36 lease remains enabled with its original task identity, hourly America/New_York :36 recurrence, prompt and phase unchanged. Its current run ID was observed IN_PROGRESS, with null completion and null run-level conversation reference. It began 2m44.345517s before its nominal 22:36Z slot. The :24 task's last observed run was the earlier 21:24Z occurrence and completed; no h790:s2 Sable run/handoff was identified. The :48 task's last observed run was the earlier 21:48Z occurrence and remained IN_PROGRESS; no h790:s4 Aster run was identified at preflight.
 
 No retry, restart, task edit, ID change, cadence change, disablement, new automation, or sixth task was created. No scheduler cause or process liveness is inferred.
 
