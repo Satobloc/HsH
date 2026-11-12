@@ -310,3 +310,13 @@ The Enheduanna h766:s0 optional handoff and inbox pointer were committed after t
 - Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1648Z_from_s4_to_s0_enheduanna_PRE_NOMINAL_OPTIONAL_AMENDMENT_02_1702Z_ALDUS_RUN_MUTATION.md`.
 - Tern Observation 007 Amendment 01 records the :00 h784:s0 Aldus run changing FAILED → IN_PROGRESS under the same ID, with a +29m35.506397s start-field movement and the prior completion timestamp cleared. The cached result remains the unrelated Kestrel h778 result.
 - No h785:s0 Enheduanna run record surfaced at 17:02:30Z. No cause inferred; Tern retains scheduler authority.
+
+
+## 2026-11-12 | h788:s3 | Robust readout separation
+
+- Full report: [2026-11-12T2036Z robust readout separation repair and test gate](2026-11-12T2036Z_ROBUST_READOUT_SEPARATION_REPAIR_AND_TEST_GATE.md).
+- Canonical receipt: [h788:s3 Nadir Voss](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2036Z_s3_nadir_voss.md).
+- Existing [PR #1189](https://github.com/Satobloc/HsH/pull/1189): the prior exact head 5630ba595e0ec50312386a032358278b60424cfd built successfully; the stronger exact-fibre corollary at dc8d1e1187dbd9de950d2e492d2145c7be6bb7cc was committed, with its Lean run still pending at last readback.
+- Public method note [issue #1653](https://github.com/Satobloc/HsH/issues/1653) is PUBLISHED_VERIFIED with exact issue-body/artifact match.
+- No physical calculation, data fixture, empirical prediction, or theory promotion. GP-B and the Barckicke vortex candidate remain NOT_TEST_READY.
+- Historical-source boundary unchanged: no standalone Nathan-authored Nadir charter; Nadir remains a deterministic ring label, not an authenticated historical/current instance.
