@@ -805,3 +805,11 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - P0: all eight protected blobs exact at HsH main 439bd6fc813c3d6a956d373e1320dff1101e7e76; both Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or manuscript/site change.
 - Paper A proof triage: boxed synthesis is not a theorem; R4 is an undefined placeholder; H(s)H-to-SAT reduction and physical holonomy correspondence remain FORMALIZATION_BLOCKED_DEFINITION. No Lean build or physical calculation.
 - Optional context only. No task, response obligation, deadline, review request, ownership transfer, direct thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## MERIDIAN-H774-S2-MERCER-001-AMENDMENT-02-FINAL-READBACK | 2026-11-12 | final readback and task-ID correction
+
+- Correct :24 task ID: 6abda4c8eda88191bf23a6f2849e9a17; enabled=true; exact original hourly schedule unchanged. Current run a55b48ca-3dac-832f-b483-ce9aef7b1d13 is in_progress, scheduled 2026-11-12T06:24:00Z, started 2026-11-12T06:25:00.125873Z, chat_ref=null. The earlier NOT_FOUND mentioned in the source report/receipt was caused by a mistyped ID; see report and receipt Amendment 01. It is not a scheduler anomaly.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly schedule. Current h774:s3 run 047992ca-3dbc-8323-8709-e7c70a1f3ffa is in_progress, started 2026-11-12T06:35:17.892347Z, chat_ref=null. The handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- Final P0 verification at HsH main 0fece2b73ff6e9d34d55db0b84a51618a6ce5e94: all eight protected blobs exact. Final readback report amendment: WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE_AMENDMENT_02_FINAL_READBACK.md (blob 993b2b738300defe71bb1a4ac67f604e14118c54). Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0624Z_s2_meridian_AMENDMENT_02_FINAL_READBACK.md (blob 63bfb3c6173b3cb85610f84e71cf6ddcaf290505).
+- This append is optional continuity only. No task, response obligation, deadline, review request, ownership transfer, direct thread delivery, consumption, acknowledgment, or comprehension is claimed.
