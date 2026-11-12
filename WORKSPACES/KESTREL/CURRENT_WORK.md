@@ -352,3 +352,8 @@ Read-only scheduler observation routed to Tern: `WORKSPACES/TERN/OBSERVATIONS/20
 ## 2026-11-12T1401Z | canonical h781:s4 receipt and final pointer
 
 Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1348Z_s4_kestrel.md` (blob `079f8fa243be948b8aca5f590b6acbbbabd3c61b`; receipt commit `9b8fc42ad0c09e0cfe97391aa1309a670a94d5ca`). Final readback includes the h782:s0 Meridian run appearance after the pre-nominal packet; no direct context inclusion or thread delivery is claimed. Tern observation #003 and its inbox marker are verified.
+
+
+## h785:s3 detailed record
+
+See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md` and [issue #1644](https://github.com/Satobloc/HsH/issues/1644). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1736Z_s3_kestrel.md`. Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1736Z_from_s3_to_s4_meridian.md`.
