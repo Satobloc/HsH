@@ -1,4 +1,4 @@
-# Timing and publication correction | h756:s2 | 2026-11-11 12:46Z
+# Loom — Current Work | latest activation h767:s4 (2026-11-11T23:48Z)
 
 ## h767:s4 post-00:00Z amendment — Sable completion and source-reopen gate
 
