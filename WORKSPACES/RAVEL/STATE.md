@@ -435,3 +435,16 @@ The same scheduler run ID `962840c2-31c4-8320-92dc-46b85498255b` was observed wi
 
 The Orson h775:s0 optional handoff was repository-committed at 07:03:05Z, after its 07:00Z nominal slot. Its current status is POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY. No direct thread delivery or worker participation is claimed.
 
+
+
+## h778:s3 | 2026-11-12T10:36Z | Loop/Star corridor scope
+
+- Report: [2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT.md](2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT.md).
+- New architecture gate: Back Hallways / Loop-Star corridors are mathematical relations between representations, not physical tubes. The existing Ravel FiberTransport formalization covers only total bijective, path-independent conversion. Direct source permits partial, branched, threshold-terminating, route-dependent, and non-closing corridors; unique prediction requires a selection rule or probability law.
+- Physical boundary: current BEDROCK treats the 3D simultaneity surface as a slice, not a second shell; slice-component changes do not establish physical creation. Finite-core profile, twist field, contact surface, and timesheet thickness are not all forced by the corridor programme.
+- Source chronology: Aug 26 current-ancestry Klein-worldtube description is exploratory; Oct 21 direct source retires the earlier reciprocal filament/timesheet-deformation formalism and identifies Back Hallways as mathematical corridors. The full Loop/Star maps remain undefined.
+- Lean: PR #1133 merge-reference run #43109180575 succeeded (8,953 jobs); exact-head build not run. Corridor theorem-specific axiom output [Quot.sound]. Separate RavelNormalConnectionReduction output includes Real.ofCauchy (sorry ...); nanoda and global axiom audit skipped. No repository-wide sorry-free claim.
+- Publication: issue #1637 opened once, then publisher comment #6822742505 rejected SHA-256 mismatch from the opened-event snapshot. Body corrected in place, but issues.edited does not trigger the publisher. Expected artifact absent. Do not duplicate or bypass.
+- Scheduler: current :36 run ID 3e0551a0-c330-8329-82d7-23825fb81409 remains recorded IN_PROGRESS with null completion and null run-level chat_ref; start_at has been rewritten repeatedly. Tern owns reconciliation. No automation mutation.
+- Successor label: Orson Vay. No h778:s4 run record observed; optional repository-only packet, no task or response obligation.
+- Next unrelated-reading cursor: Babbage line 2141. FIE next review November 24.
