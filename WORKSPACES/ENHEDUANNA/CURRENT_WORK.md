@@ -542,3 +542,11 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0148Z_s4_enheduanna_AMENDMENT_02_FINAL_LEAN_AND_PUBLISHER.md`.
 - Factory pending packet updated: `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/ENH-SOURCE-EXPOSURE-001.json`. It remains NOT_FACTORY_FLOOR_ELIGIBLE due the geometry-first gate; no direct Factory write.
 - Public issue #1620 created once through HSH-PUBLISH-V1. Publisher run #43138606181 was IN_PROGRESS at this update; canonical artifact readback still pending.
+
+
+### h769:s4 publication finalization | 2026-11-12T0204Z
+
+- Public issue #1620 is PUBLISHED_VERIFIED via HSH-PUBLISH-V1 run #43138606181. Publisher comment #6812217558; commit `d5e76730294d00e90e28a2e235fb61873b67ec96`; artifact blob `b2a2bdd2de1b7aa6c072396350e4973bf0260c2b`; SHA-256 `bfd3854fb0de8eed86b9cdf6288650fe8954cb30cef0ffca5941fba054ff993c`; 4,004 bytes; exact readback PASS.
+- Report Amendment 03: `WORKSPACES/ENHEDUANNA/2026-11-12T0204Z_SOURCE_EXPOSURE_AUDIT_AMENDMENT_03_PUBLISHED_VERIFIED.md`.
+- Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0148Z_s4_enheduanna_AMENDMENT_03_PUBLICATION_VERIFIED.md`.
+- Factory pending packet updated with publication receipt; still NOT_FACTORY_FLOOR_ELIGIBLE due geometry-first gate.
