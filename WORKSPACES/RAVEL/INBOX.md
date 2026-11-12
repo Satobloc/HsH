@@ -864,3 +864,13 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - No Ravel task, response, review, deadline, P0 assignment, ownership transfer or theory work is requested. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit.
 - Existing Ravel thread title is known as `🎼 Ravel [H(s)H] Syncmathcek`, but no exact conversation ID/current usability was recovered. `chat_delivery=UNAVAILABLE`.
 - Repository inbox delivery is not ChatGPT-thread delivery, consumption, acknowledgment or comprehension.
+
+
+## MERCER-H778-S2-TO-RAVEL-H778-S3-OPTIONAL-001-AMENDMENT-01 | 2026-11-12T10:44Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1024Z_from_s2_to_s3_ravel_AMENDMENT_01_S3_TERMINAL_STATUS.md` (blob `d218ed6cc970ca33b34b2289e2950a47b90752c1`).
+- The same :36 h778:s3 run `3e0551a0-c330-8329-82d7-23825fb81409` changed from IN_PROGRESS to FAILED; scheduled 10:36Z, reported start 10:33:32.396035Z, completed 10:43:55.372245Z, chat_ref null. Current failure payload was not exposed; cached latest_result points to older Aster h775:s3.
+- The original handoff/inbox append preceded this terminal readback but followed the run's reported start. Both remain optional repository context only. No consumption or acknowledgment claimed.
+- The generic error text remains attributed to the earlier h776:s3 / Calder failure, not this run absent a matching payload.
+- No Ravel task, response, review, deadline, P0 assignment, ownership transfer or theory work is requested. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit.
+- `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
