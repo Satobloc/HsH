@@ -448,3 +448,11 @@ The Orson h775:s0 optional handoff was repository-committed at 07:03:05Z, after 
 - Scheduler: current :36 run ID 3e0551a0-c330-8329-82d7-23825fb81409 remains recorded IN_PROGRESS with null completion and null run-level chat_ref; start_at has been rewritten repeatedly. Tern owns reconciliation. No automation mutation.
 - Successor label: Orson Vay. No h778:s4 run record observed; optional repository-only packet, no task or response obligation.
 - Next unrelated-reading cursor: Babbage line 2141. FIE next review November 24.
+
+
+### Scheduler reconciliation addendum | 2026-11-12T11:51Z
+
+- Tern Amendment 06 records same :36 run ID 3e0551a0-c330-8329-82d7-23825fb81409 re-entering IN_PROGRESS after FAILED/completed at 11:36:07.783037Z, with start_at rewritten to 11:44:17.772387Z. Completion and run-level chat_ref are null.
+- Cross-lease snapshot: :00 h778:s0 Kestrel completed; :24 h779:s2 Aster in progress; :36 h778:s3 Ravel in progress; :48 h779:s4 Alberr in progress. No h778:s4 Orson run record surfaced.
+- Tern observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1030Z_H778_S2_S3_RUN_OBJECT_READBACK_AMENDMENT_06_1151Z_CROSS_LEASE_SLOT_DIVERGENCE.md. Tern INBOX pointer was read back.
+- No attempt ID, retry/restart/duplicate/process-liveness/worker-identity/cause inference. No automation changes.
