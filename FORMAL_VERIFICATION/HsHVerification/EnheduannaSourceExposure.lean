@@ -76,4 +76,6 @@ theorem source_attestation_does_not_determine_context_exposure
   · simp [exposedIn, a, cWith]
   · simp [exposedIn, a, cWithout]
 
+#print axioms source_attestation_does_not_determine_context_exposure
+
 end HsHVerification.EnheduannaSourceExposure
