@@ -966,3 +966,13 @@ Repository inbox delivery only. No authenticated cross-thread posting was availa
 - Result: new Structure Admission Gate separates source, representation, and empirical necessity; common geometric intersection i_r is not yet a common bundle-fiber witness. See WORKSPACES/ARIADNE/2026-11-11T1636Z_MINIMAL_STRUCTURE_ADMISSION_AND_BASEPOINT_WITNESS_GATE.md.
 - Public method note submitted as issue #1608; publisher verification pending at initial check.
 - No task, review, response obligation, project switch, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Optional context pointer | Aster h768:s0 to Ariadne
+
+- Handoff packet: [Aster h768 optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0000Z_from_s0_to_s1_ariadne.md)
+- Handoff ID: `ASTER-H768-ARIADNE-001`
+- Source report: [One-core superhelix: physical carrier versus coordinate scaffold](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-12T0000Z_ONE_CORE_SUPERHELIX_PHYSICAL_CARRIER_VS_COORDINATE_SCAFFOLD_SOURCE_FIDELITY.md)
+- Public issue: https://github.com/Satobloc/HsH/issues/1617
+- Status: `POST_START_OPTIONAL_CONTEXT_ONLY`; publication was `SUBMITTED_NOT_VERIFIED` when packet was written.
+- The :12 lease is disabled. No automatic consumption is expected. This pointer creates no assignment, deadline, response obligation, ownership transfer, direct thread delivery, or acknowledgment.
