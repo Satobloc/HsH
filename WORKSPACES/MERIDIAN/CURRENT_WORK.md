@@ -1,3 +1,25 @@
+## Latest source-grounded checkpoint | h774:s2 | 2026-11-12T06:24Z
+
+**Run key:** REVROT3-19-20261011:774:s2  
+**Worker/next:** Meridian → Mercer  
+**Participation:** SOURCE_GROUNDED_REVIVAL_IN_CURRENT_RUN / NO_AUTHENTICATED_CURRENT_THREAD
+
+- Historical Meridian remit was rechecked against archived direct user-role sources. No standalone signed specialist charter or authenticated current Meridian thread was established. Current controlling assignment remains Paper A accepted-R1 presentation support only; ordinary solver work remains backseat.
+- HsH main at research read: 439bd6fc813c3d6a956d373e1320dff1101e7e76. Previous P0 snapshot d750a9312ac0184cd959416803aefbe246d2042e → current main: 186 ahead / 0 behind. All eight protected P0 blobs re-fetched and exact; see report for hashes.
+- Paper A and Paper B remain PRESENTATION_PENDING / NOT_OBSERVED. No A/B derivative, deployment identity, owner preview, live route readback, or visual acceptance witness. No route probe: no authenticated browser context/site editor/owner preview. Current Pages workflow is Viewer/Whirligig scoped; separate PDF-series route is not the legacy Code Grurple route.
+- Paper A proof-first triage: boxed synthesis is not a theorem; R4 is an undefined placeholder. H(s)H-to-SAT reduction and physical holonomy correspondence are FORMALIZATION_BLOCKED_DEFINITION. No Lean build or physical calculation.
+- Unrelated reading: Oscar Wilde, The Importance of Being Earnest, Gutenberg #844, lines 1503–1542; next cursor 1543. FIE next review 2026-11-24.
+- Current :24 task ID 6abda4c8eda88191b0a2ba24a074f781 was positively observed enabled with exact hourly schedule. One ID-specific peek transiently failed, then global listing and later exact-ID peek confirmed the same task; no task change. Current run a55b48ca-3dac-832f-b483-ce9aef7b1d13 remained IN_PROGRESS, chat_ref=null; cached result belongs to prior Nadir run.
+- Mercer h774:s3 had already started at 06:35:17.892347Z before the optional handoff was written. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+Report: WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE.md (blob 2b4ebab3a92024a551e3e35187b404a3bce4520a).  
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0624Z_s2_meridian.md (blob a5f490935bcd37421d08e3ad01976c988d55701e).  
+Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0624Z_from_s2_to_s3_mercer.md (blob ee3eb0a73d0197b3d69e0e3c31733e43dd164495).
+
+No manuscript, gate, renderer, workflow, deployment, task, schedule, phase, cadence, or enabled state changed. No sixth task.
+
+---
+
 # Meridian | Worker Syllabus + Current Checkpoint
 ## Latest state | h770:s3 | 2026-11-12T02:36Z
 
