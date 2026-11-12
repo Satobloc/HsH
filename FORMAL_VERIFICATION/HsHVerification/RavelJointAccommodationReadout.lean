@@ -16,8 +16,10 @@ SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`.
   accommodate force; force is the primitive.
 - User message `496a15ea-0263-459d-b815-908f52155b90`,
   2026-09-07T10:06:12.842Z: distinguishes the reduced 3D diagram, full
-  4D bulk, and 4D view with a 3D timesheet; an induction-current
-  connection within timesheet thickness is tentative, not an equation
+  4D bulk, and the actual 4D view with "our 3D slice of it." The message
+  does not identify that slice as the timesheet or provide a
+  slice-to-timesheet map. It separately describes an induction-current
+  connection within timesheet thickness as tentative, not an equation
   or constitutive law.
 - User message `3d0ad680-51db-4c79-ad4a-9bbacada24ef`,
   2026-09-07T07:46:38.573Z: choose a spatial Kerr section and extend it
@@ -29,10 +31,13 @@ byte-identical to the Library export above.
 
 ## Formal question
 
-The existing `LabelledSlicePullback` retains a tube representative,
-a timesheet label, and a sheet representative. When may a downstream
-readout discard the latter two and become a function of the tube
-representative alone?
+The existing `LabelledSlicePullback` is an explicit assistant
+reconstruction that retains a tube representative, a timesheet label,
+and a sheet representative. The direct source does not identify its
+third representation's 3D slice with this timesheet family; a
+slice-to-timesheet map remains an uninstantiated input obligation.
+When may a downstream readout discard the latter two and become a
+function of the tube representative alone?
 
 This module proves the exact conditional answer: such a reduction exists
 if and only if the readout is constant on every fiber of the projection
