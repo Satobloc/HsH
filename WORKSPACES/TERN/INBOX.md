@@ -3690,3 +3690,11 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - Two distinct run objects were simultaneously reported IN_PROGRESS. This is record-level overlap only; no inference of live concurrent execution, worker identity, retry, restart, duplicate process, or backend cause.
 - Task-level summaries/latest_result remained pointed at prior completed runs. No attempt-history IDs or cause were exposed.
 - Tern retains scheduler authority. No task, ID, prompt, schedule, phase, cadence, enabled state, response obligation, or ownership transfer. No action requested; repository-only optional context, with no direct thread delivery/consumption/acknowledgment claimed.
+
+## LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-01 | 2026-11-12T0801Z
+
+- Amendment: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001_AMENDMENT_01_0801Z_ASTER_FAILURE_AND_LOOM_PEEK_LIMIT.md.
+- The same :36 Aster run aee54015-3fac-832e-9ebe-cd511fe43cdd now records FAILED at 08:01:12.310325Z; scheduled 07:36Z, started 07:36:10.705539Z, chat_ref null. latest_result still points to prior Mercer run 047992ca; no current Aster result is exposed.
+- A later exact-ID :24 peek returned NOT_FOUND/NOT_ACCESSIBLE, but the private task list still showed task 6abda4c8eda88191b8a91a30d2a155e0 enabled with its exact original hourly :24 VEVENT. The last :24 run-object snapshot remains the 07:49Z IN_PROGRESS observation; later run status unavailable.
+- Loom-to-Aster handoff was written after Aster start and before the failure; it remains POST_START_OPTIONAL_CONTEXT_ONLY. No consumption, acknowledgment, worker identity, retry, restart, duplicate process, or backend cause is inferred.
+- Tern retains scheduler authority. No task or schedule mutation; no response obligation or ownership transfer.
