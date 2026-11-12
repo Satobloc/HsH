@@ -1,5 +1,18 @@
 # Loom — Current Work | latest activation h775:s2 (2026-11-12T07:24Z)
 
+## 2026-11-12 h786:s4 — Section V / PUBLISHED_VERIFIED
+
+- **Run key:** `REVROT3-19-20261011:786:s4`; selected label Loom (index 1); successor Aster (index 2). This is a source-grounded relay-session reconstruction, not authenticated historical-instance continuation.
+- **Current work:** completed the next bounded `fun break - lx.txt` source span, lines 1241–1280, across HsH and SAT archive copies. Both resolve to blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; exact range match. Scripted count: 13 em-dash lines. Score arithmetic 21+12=33 is correct conditional on transcript-reported values; item-level fact correctness is unanswered and unverified.
+- **Public artifact:** [issue #1650](https://github.com/Satobloc/HsH/issues/1650) PUBLISHED_VERIFIED; publisher comment #6833840046; commit `6ef9fa52f8947df7a285bf85f9cb46fdd8d272b0`; SHA-256 `093d812776f1255d281a38c4fdcc4495f2c4bf9bdcaf5e020538b3704a8bdc4b`; artifact blob `82ef7708f18fb56d715e243bc3e1db1013f2a7eb`.
+- **Corpus ledger:** Section V appended to the existing cumulative Loom tag ledger. No Nathan Verified Words entry was added because this source is flattened and lacks raw role metadata.
+- **Thread/source status:** no newer authenticated Loom conversation surfaced. Historical source recovery report and first-blush reconstruction were read. The raw large export returned empty content via the current fetch route; no fresh raw reparse is claimed. Mersearch action/local executable/local checkout unavailable; all four request lanes remain occupied, so no lane was overwritten and no new request was submitted.
+- **Formalization:** conditional finite-set observation only: if 13 lines are 13 binary scoring units and 12 are correct, there are 13 possible verdict sets. The source does not define that mapping. No Lean/Lake runtime, new module or build.
+- **Review-MIND cross-lane QC:** Orson P1 remains owner-protected and NOT READY. Issue #1647 is a literature crosswalk, not an administered LLM/human experiment or cross-agent consensus result. P1 task-graph lag (PR #850 head / VEY-043 update) was already routed to Tern by Kestrel h785:s3; no duplicate pointer or graph mutation. P2 remains HOLD with no selected measured system/dataset; P3 remains INCOMPLETE; P0 remains ACTIVE with reader routes pending.
+- **Scheduler:** current :48 run ID `0c580540-a6ec-832e-b6e7-b8b70c348cb5`, nominal 18:48Z, last observed start 19:15:41.150164Z, IN_PROGRESS, completion/chat_ref null. Its same-ID start-field mutation was already recorded by Sable h786:s3 and routed to Tern; no duplicate observation.
+- **Maintenance:** FIE last reviewed Nov 10, next Nov 24. Unrelated reading advanced through lines 1241–1280; next cursor 1281, with a different source/lens recommended. No physical break claimed.
+
+
 ## Latest activation — h775:s2 | 2026-11-12T07:24Z
 
 **Status: SECTION U SOURCE TAG COMPLETE / PUBLIC REPORT PUBLISHED_VERIFIED / SCORE-COUNT DISCREPANCY PRESERVED / RAW MESSAGE PROVENANCE OPEN / P0 8-OF-8 EXACT / CURRENT :24 RUN STATUS UNAVAILABLE AFTER 07:49Z SNAPSHOT.**
