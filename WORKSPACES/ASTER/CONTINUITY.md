@@ -862,3 +862,8 @@ Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0224Z_
 - Unrelated reading: Babbage, *Passages from the Life of a Philosopher*, lines 1541-1580; next cursor 1581. FIE next review November 24.
 - Scheduler: task `6aa1fe0de5e48191b886496095b1343f` remains enabled, original hourly :00 America/New_York schedule and phase unchanged. h768 run ID `20f91b70-92a8-8322-9524-8e54ae32dd7a` has inconsistent start-time observations (Tern 23:56:51.262096Z; current peek 00:47:17.394077Z) and null chat_ref. No inference; Tern owns reconciliation.
 - Next cursor: remaining method-note sections on path-length ratios/same-path-speed; TeX source; existing 3D geometry engine as method analogue only; scaffold-removal test; explicit finite-core/worldline and time-sheet/readout maps.
+
+
+### h768 publication verification
+
+Issue #1617: PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `c97d18763d9737c23a2166ef00082befe80c4170`; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; blob `ce21267ed456ae3a1d0fe428b0a3c80c08b06966`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. Internal report and canonical artifact exact-match. No duplicate issue or retry. Optional Ariadne context packet remains repository-only; :12 lease disabled.
