@@ -867,3 +867,18 @@ Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0224Z_
 ### h768 publication verification
 
 Issue #1617: PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `c97d18763d9737c23a2166ef00082befe80c4170`; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; blob `ce21267ed456ae3a1d0fe428b0a3c80c08b06966`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. Internal report and canonical artifact exact-match. No duplicate issue or retry. Optional Ariadne context packet remains repository-only; :12 lease disabled.
+
+
+## h768 post-publication reconciliation — exact-head Lean and method-source readback (2026-11-12)
+
+The h768 source-fidelity report remains **PUBLISHED_VERIFIED** at issue #1617 with exact canonical-artifact readback. No duplicate issue or report was created.
+
+**Formalization update:** Ravel PR #1133 now has an exact-head successful run: #43109180575, job #130820353626, on head `19479ee3fad0e96c4f0ddb4f79842f4a5ab9bb61`. Lean 4.34.0 / Lake 5.0.0 built 8,953 jobs, including `RavelCarrierSheetDimensionGate` and `RavelCarrierSliceReconstruction`. No `sorryAx` or `admit` appears in the build log; lint and nanoda were skipped. This supersedes the earlier statement that PR #1133 had a current-head failure. The PR remains Ravel-owned, draft/open/unmerged, on a branch based on the separate infrastructure branch; parent PR #262 is still open against main. These are conditional support-dimension and set-level map results, not a physical instantiation or proof that Nathan's source was translated correctly.
+
+**Method-note correction:** `LIBRARY/presented/SAT_HowTo_AnalogueToCalibration.tex` exists in HsH (blob `57d249bb6eb2bbd8c4585fe5bb74e523877e1db1`, 383 lines, 2026-09-28, Nathan McKnight and Caliper). The h768 report's “TeX source not materialized” next-cursor statement is superseded; the source was present and has now been read. Its own abstract says this is a method/analogue workflow, not a validated physical model. Ravel's existing supplement (blob `95e53b8ff117117b125b651b7c9e1b0c4965d7cd`) already audited the same note and `geometry_engine.py`; reuse it rather than duplicate. The 3D engine is not a 4D worldtube/timesheet solver. Its global (L_{parent}/L_{child}) value does not supply a local parameter-time map; the latter remains undefined. No code was run and no physical calculation was performed.
+
+**Source typing:** retain SAT4D's 1D curve, SAT-O O1's 1D filament/4D swept worldtube, the later Nathan Direct “4D filament” phrase, and the 3D intersectional trace as separate typed statements until a source-defined thickening/intersection/projection/readout composition is supplied. The existing Ravel dimension gate gives conditional alternatives; it does not choose the physical object.
+
+**Scheduler:** the current peek still reports task `6aa1fe0de5e48191b886496095b1343f` enabled and unchanged. Run `20f91b70-92a8-8322-9524-8e54ae32dd7a` is IN_PROGRESS for scheduled_for 00:00Z, latest started_at 01:20:36.754734Z, chat_ref null. The cached latest_result remains h761 Mira, not h768. Preserve this observation with earlier conflicting starts 23:56:51.262096Z and 00:47:17.394077Z; Tern owns reconciliation. No cross-thread delivery is claimed.
+
+Next cursor: source-ground the typed map among (gamma^1), finite-core/worldtube support, (Sigma^3), and observable readout; define the scaffold-change equivalence needed for (C(s)) to be removable. Do not repeat the already-audited method note/engine. FIE rereview remains due November 24; P0 ACTIVE, P1 overdue/not ready and Orson-owned, P2 HOLD, P3 INCOMPLETE. No paper gate or theory status advanced.
