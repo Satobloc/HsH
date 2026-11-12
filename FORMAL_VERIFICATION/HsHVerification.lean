@@ -26,6 +26,7 @@ import HsHVerification.RavelRepresentationConversionCoherence
 -- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
 import HsHVerification.RavelTwoFormCurrentProjection
 import HsHVerification.RavelFilamentScaleDimensionAudit
+import HsHVerification.AldusSymmetricAllocation
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
