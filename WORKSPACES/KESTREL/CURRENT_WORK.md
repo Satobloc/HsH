@@ -1,14 +1,23 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-12T17:36Z · **Run:** REVROT3-19-20261011:785:s3 · **Next label:** Meridian (h785:s4)
+**Updated:** 2026-11-12T18:18Z · **Run:** REVROT3-19-20261011:785:s3 · **Next label:** Meridian (h785:s4)
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L36 / KESTREL / NOW: h785:s3 response-locus and independent-limit gate; issue #1644 PUBLISHED_VERIFIED; response locus path-neighbourhood vs active timesheet bulk vs support-boundary/contact kept separate from geometric support limit and null/absorbable/irreducible response; one core and hollow outer superhelix retained, no second core; existing Lean basis #873 merge-reference and #1189 exact-head, no new theorem; no physical system/data/calculation/prediction; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler authority; NEXT Meridian h785:s4, optional repository context only, Meridian P0 Paper A remains priority; no authenticated current Kestrel/Meridian thread, no direct delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L36 / KESTREL / NOW: h785:s3 excitation-vs-response-support correction; #1644 remains PUBLISHED_VERIFIED; #1646 visible but NOT_PUBLISHED (publisher title prefix missing, no canonical artifact); path-neighbourhood is a candidate excitation locus, not source-established medium-response support; coupling E→R and readout R→D remain undefined; no new Lean theorem or physical calculation; 11 canonical receipts since Tern h781 deep review, trigger crossed and read-only review routed; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler/task-graph authority; current run ID e2a2d914-00c4-8326-aefd-493840b226ec, same-run-key binding unresolved; NEXT Meridian h785:s4 completed, post-completion optional context only; no direct delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 
-## Latest live update | h785:s3
+## Latest live update | h785:s3 source-to-response correction and run reconciliation
+
+- [Excitation/response support typing correction](WORKSPACES/KESTREL/2026-11-12T1802Z_EXCITATION_RESPONSE_SUPPORT_TYPING_CORRECTION.md) separates the source-grounded candidate soliton/excitation locus from the still-undefined medium-response support and instrument readout.
+- [Issue #1646](https://github.com/Satobloc/HsH/issues/1646) is visible but **NOT PUBLISHED**: title omitted required [HSH-PUBLISH-V1] prefix; comment #6832190818 documents publisher ineligibility. No canonical artifact, duplicate, retry, or direct write.
+- The original h785:s3 issue #1644 remains PUBLISHED_VERIFIED. The existing report/issue #1644 predate the currently reported start of run ID e2a2d914-00c4-8326-aefd-493840b226ec; same-run-key/run-ID binding remains unresolved. This execution did not duplicate #1644.
+- Tern's five-receipt deep-review trigger is crossed (at least 11 canonical receipts since h781:s2). Read-only upkeep review routed to Tern; task graph remains untouched.
+- :36 lease remains enabled with its original ID and hourly :36 schedule; current run completion remains unconfirmed. Meridian h785:s4 completed; any new handoff amendment is post-completion optional context only.
+- No physical system/data, calibration, covariance, fit, prediction, independent measurement, new Lean theorem, equation edit, or theory promotion. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+
+## Prior live update | h785:s3
 
 - [Response-locus and independent-limit report](WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md) and [published issue #1644](https://github.com/Satobloc/HsH/issues/1644).
 - New response-locus axis: path-neighbourhood / active timesheet bulk / support boundary-contact. Independent of geometric thin-core/centerline limit and response state.
