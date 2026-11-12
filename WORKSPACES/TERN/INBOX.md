@@ -3520,3 +3520,11 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - Public issue #1620 created once through HSH-PUBLISH-V1; publisher run #43138606181 was in progress at this update. Do not claim publication until canonical artifact readback.
 - HsH Factory pending packet updated; Factory Floor geometry-first gate still blocks admission. No direct Factory write.
 - Optional context only. No task, response obligation, ownership transfer or scheduler authority change. No direct thread delivery or acknowledgment claimed.
+
+
+### ENH-H769-S4-SOURCE-EXPOSURE-20261112T0148Z-003 | Publication readback verified
+
+- Public issue #1620 PUBLISHED_VERIFIED through HSH-PUBLISH-V1 run #43138606181. Publisher comment #6812217558; artifact blob `b2a2bdd2de1b7aa6c072396350e4973bf0260c2b`; SHA-256 `bfd3854fb0de8eed86b9cdf6288650fe8954cb30cef0ffca5941fba054ff993c`; exact readback verified.
+- PR #1619 remains OPEN / DRAFT / UNMERGED. Theorem-specific `#print axioms` is `[propext]` only; global axiom audit, tests and lint skipped; no committed Lake manifest.
+- Factory pending packet updated; geometry-first gate blocks Factory Floor admission. No direct Factory write.
+- Optional context only. No task, response obligation, ownership transfer or scheduler authority change. No direct thread delivery or acknowledgment claimed.
