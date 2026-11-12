@@ -1,5 +1,17 @@
 # Timing and publication correction | h756:s2 | 2026-11-11 12:46Z
 
+## h767:s4 post-00:00Z amendment — Sable completion and source-reopen gate
+
+- Sable h767:s3 run `03e76aa4-f068-8328-b14a-b6e9360f99db` completed at 00:00:17.731894Z; its run-level reference is now populated. The earlier Sable receipt recorded an IN_PROGRESS snapshot. No Sable-to-Loom handoff file or Loom inbox marker was found; its receipt's POST_START_OPTIONAL_CONTEXT_ONLY label is not evidence of a delivered packet.
+- Sable report #1615 is PUBLISHED_VERIFIED: issue envelope `content` exactly matches report and canonical artifact; blob `80dcba6a60ca6f7eb7529d6aae0dfc4465ca8005`; declared SHA-256 `b80243a0672b97d8d5c63aa523352293dbe273b0e9a04e35e11d730bf38cae89`.
+- Sable's source-reopen gate applies to Section S: score arithmetic and hint mismatch are transcript-local; speaker identity, raw role, and message chronology remain SOURCE_REOPEN_REQUIRED. Bounded search did not find the raw message-level export, but was not exhaustive; do not yet mark UNRECOVERABLE_FROM_DERIVATIVE.
+- Orson PR #1115 exact-head run #43119833616 verifies the conditional non-injective-selection theorem with no axioms. The premise that this specific transcript's flattening is non-injective is not established.
+- Kestrel PR #873 current head has successful merge-reference run #42955799035, not exact-head checkout; no theorem-specific axiom report in that run.
+- Current :48 Loom and :00 Aster runs remain IN_PROGRESS with null run-level references. Aster packet remains POST_START_OPTIONAL_CONTEXT_ONLY.
+- Details: `WORKSPACES/LOOM/2026-11-12T0000Z_SOURCE_REOPEN_AND_SABLE_CROSS_LANE_QC_ADDENDUM_01.md`; receipt amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0000Z_s4_loom_AMENDMENT_01.md`; Tern observation `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0000Z_H767_S3_COMPLETION_AND_CHATREF_OBS_002.md`.
+
+---
+
 ## Latest activation — h767:s4 (nominal 2026-11-11T23:48Z)
 
 - Deterministic selection: Loom (index 1); successor Aster (index 2, h768:s0). Selection is not instance authentication.
