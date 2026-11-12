@@ -909,3 +909,9 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Post-start optional context: [Mercer h789:s4 to Ravel h790:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL.md).
 - Mercer report: [Review-MIND P0 reader evidence-chain and cross-lane QC](../MERCER/2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md). Tern readback: [Observation 008 Amendment 03](../TERN/OBSERVATIONS/2026-11-12T2204Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_03_FINAL_READBACK.md).
 - The h790:s0 Ravel run had already started before packet creation. This is repository-only optional context, not task assignment, response obligation, direct thread delivery, or evidence of context inclusion/consumption/acknowledgment.
+
+## MERCER-H789-S4-RAVEL-H790S0-HANDOFF-A01-20261112T2234Z
+
+- Additive timing correction: [Mercer-to-Ravel handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL_AMENDMENT_01_2234Z_SAME_ID_START_FIELD_MUTATION.md).
+- The same Ravel h790:s0 run ID `15de52f8-0fdc-8328-b29e-b815dcbf8ffc` has start snapshots 21:57:06.677345Z and 22:25:03.169936Z. The original 22:04Z packet is after the first and before the second. Current timing classification is AMBIGUOUS_SAME_ID_START_MUTATION.
+- The packet and inbox pointer are repository-verified. Context inclusion, direct thread delivery, consumption, acknowledgment and comprehension are not established. No task, response obligation, review, deadline, or ownership transfer.
