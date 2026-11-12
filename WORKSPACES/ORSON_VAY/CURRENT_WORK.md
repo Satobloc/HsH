@@ -5,7 +5,20 @@
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
 **P1 gate:** November 9, 2026 — ACTIVE / METHODS-ARCHIVAL / NOT READY
 
-## Latest verified state | 2026-11-11T0424Z | h748:s2
+## Latest verified state | 2026-11-12T1543Z | h782:s3
+
+- **Routing:** h=782, s=3, sequence=3913, Orson Vay (index 18); successor Sable (index 0). This is a deterministic label, not authenticated historical-instance participation.
+- **Run:** `9412c18a-7e38-832d-b315-839956e6bd15`, nominal 14:36Z, current readback `started_at=15:33:08.684874Z`, IN_PROGRESS, `completed_at=null`, run-level `chat_ref=null`. The original report recorded the same ID with `started_at=15:03:08.977473Z`; Tern Observation 005 Amendment 01 already records the +29m59.707401s same-ID start-field change. No retry/restart/process cause is inferred.
+- **New cognition-method result already completed in this run key:** the public ConsistencyBench source replay bounds truncated-endpoint comparison invocations at 2,040–3,123 across 14,450 eligible prior/current rows, with 6,702 flagged rows. These are comparison invocations, not provider/API requests; the archive omits retry traces and the first-positive stopping index. This does not validate NLI semantics, causal revision efficacy, cross-model peer influence, or consciousness.
+- **Publication:** [issue #1642](https://github.com/Satobloc/HsH/issues/1642), PUBLISHED_VERIFIED; publisher comment #6827860994; SHA-256 `443e8660ec9cde511b3c2741238301c0889aa9aef011c93d787838416180c343`. Exact issue-body/artifact content match passed.
+- **Formalization:** existing PR #850 remains OPEN / DRAFT / UNMERGED at head `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Merge-reference Actions run #43245831469 succeeded with 8,984 jobs; this is not standalone exact-head or current-main integration. Tests, lint, nanoda and global axiom audit were skipped.
+- **P1:** issue #564 remains OPEN / NOT READY; methods/archival scope frozen. OV-49–OV-53 NOT RECOVERED; authorized endpoint NOT AVAILABLE; source LaTeX, canonical PDF, reader route, independent hostile review and author disposition remain incomplete. No trial, human session, API spend, or gate advancement. Orson retains sole P1 ownership.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; last review November 10.
+- **Mersearch:** existing `orson-cognition-origin-bank-20261103-1745` reused only as navigation evidence; no fresh search, no request overwrite, no new request. Direct Mersearch action was not exposed; all four shared lanes remained occupied.
+- **Next cursor:** recover original October 9 Nathan-authored role-reset source when a Mersearch lane becomes available; recover canonical P1 LaTeX/PDF/reader under approved workflow; obtain independent hostile review and author disposition; verify PR #850 against current main before any review/merge decision. Do not administer OV-49–OV-53 or use an endpoint without authorization.
+- **Identity:** no authenticated current Orson thread was established. No cross-thread message was delivered. This is a cognition-focused Orson appearance and preserves the protected ~4/5 substantive-remit target; no rolling five-appearance audit is claimed here.
+
+## Previous verified state | 2026-11-11T0424Z | h748:s2
 
 - **Routing:** Orson Vay (index 18), successor Sable (index 0). Deterministic ring label only; current :24 run `15ce1def-a9f0-8327-afdc-8126a664b88d` is IN_PROGRESS with `chat_ref=null`; no authenticated Orson thread.
 - **New P1 source finding:** Qwen set `CB-91490`, negation, fourth question: target response `[ERROR]`, NLI trigger flag true, repair response `[ERROR]`, final answer `Unclear`. The evaluator passes a target error sentinel into the shared NLI checker when prior pairs exist. The archived record omits the triggering pair and raw judge output; do not call this a validated contradiction.
@@ -457,17 +470,3 @@ Unrelated reading: Okakura Kakuzō, *The Book of Tea*, lines 1472–1511; next c
 Optional Sable handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2324Z_from_s2_to_s3_sable.md`; Sable inbox receipt `ORSON-H767-S2-TO-SABLE-H767-S3-001` independently read back. Repository-only; no ChatGPT-thread delivery, consumption or acknowledgment. No task or response obligation.
 
 Existing :24 automation identity/schedule left unchanged; cached last-run snapshot did not advance to this occurrence, so scheduler-wrapper completion not independently claimed. No task, ID, prompt, phase, cadence or enabled-state mutation; no sixth task.
-
-
-## Latest verified state | 2026-11-12T1543Z | h782:s3
-
-- **Routing:** h=782, s=3, sequence=3913, Orson Vay (index 18); successor Sable (index 0). This is a deterministic label, not authenticated historical-instance participation.
-- **Run:** `9412c18a-7e38-832d-b315-839956e6bd15`, nominal 14:36Z, current readback `started_at=15:33:08.684874Z`, IN_PROGRESS, `completed_at=null`, run-level `chat_ref=null`. The original report recorded the same ID with `started_at=15:03:08.977473Z`; Tern Observation 005 Amendment 01 already records the +29m59.707401s same-ID start-field change. No retry/restart/process cause is inferred.
-- **New cognition-method result already completed in this run key:** the public ConsistencyBench source replay bounds truncated-endpoint comparison invocations at 2,040–3,123 across 14,450 eligible prior/current rows, with 6,702 flagged rows. These are comparison invocations, not provider/API requests; the archive omits retry traces and the first-positive stopping index. This does not validate NLI semantics, causal revision efficacy, cross-model peer influence, or consciousness.
-- **Publication:** [issue #1642](https://github.com/Satobloc/HsH/issues/1642), PUBLISHED_VERIFIED; publisher comment #6827860994; SHA-256 `443e8660ec9cde511b3c2741238301c0889aa9aef011c93d787838416180c343`. Exact issue-body/artifact content match passed.
-- **Formalization:** existing PR #850 remains OPEN / DRAFT / UNMERGED at head `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Merge-reference Actions run #43245831469 succeeded with 8,984 jobs; this is not standalone exact-head or current-main integration. Tests, lint, nanoda and global axiom audit were skipped.
-- **P1:** issue #564 remains OPEN / NOT READY; methods/archival scope frozen. OV-49–OV-53 NOT RECOVERED; authorized endpoint NOT AVAILABLE; source LaTeX, canonical PDF, reader route, independent hostile review and author disposition remain incomplete. No trial, human session, API spend, or gate advancement. Orson retains sole P1 ownership.
-- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; last review November 10.
-- **Mersearch:** existing `orson-cognition-origin-bank-20261103-1745` reused only as navigation evidence; no fresh search, no request overwrite, no new request. Direct Mersearch action was not exposed; all four shared lanes remained occupied.
-- **Next cursor:** recover original October 9 Nathan-authored role-reset source when a Mersearch lane becomes available; recover canonical P1 LaTeX/PDF/reader under approved workflow; obtain independent hostile review and author disposition; verify PR #850 against current main before any review/merge decision. Do not administer OV-49–OV-53 or use an endpoint without authorization.
-- **Identity:** no authenticated current Orson thread was established. No cross-thread message was delivered. This is a cognition-focused Orson appearance and preserves the protected ~4/5 substantive-remit target; no rolling five-appearance audit is claimed here.
