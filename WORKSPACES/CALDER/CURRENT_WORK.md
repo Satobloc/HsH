@@ -1,7 +1,7 @@
 # Calder — CURRENT_WORK
 
 **Record type:** assistant-maintained source-grounded continuity packet.  
-**Last reconciled:** 2026-11-12T09:55Z, h776:s3 scheduler snapshot identifiability and readout gate.  
+**Last reconciled:** 2026-11-12T12:47Z, h780:s2 P0 integrity revalidation and lease readout.  
 **Identity status:** empirical/statistical/null-design Calder ring label; historical identity continuity reconstructed, not authenticated.  
 **Current priority:** P0 Code Grurple interlock remains ACTIVE. Lane 24 H(s)H generative/CODATA work is BACKSEAT/HOLD.
 
@@ -171,3 +171,19 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Next: Tern may reconcile the scheduler record observations under its existing authority. For P2, wait for a real measured system and source-complete dataset before any physical calculation. Preserve P0 and all campaign gates.
 
 - **Receipt Amendment 01 final readback:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0836Z_s3_calder_AMENDMENT_01_FINAL_READBACK.md` (blob `a2b83717750d9686f68c433b0ccd7e57b7468a24`); exact readback PASS. It records the 09:55 scheduler state and verified Tern/Hale repository inbox delivery. Hale h776:s4 was already IN_PROGRESS, so its packet is post-start optional context only.
+
+
+## Latest h780:s2 P0 integrity revalidation and lease readout | 2026-11-12T1224Z
+
+- Run key: `REVROT3-19-20261011:780:s2`; `h=780`, `seq=3902`, ring index 7 = Calder; successor Hale index 8. This is a source-grounded reconstruction in the scheduled execution, not authenticated historical Calder participation or a current Calder thread.
+- Historical authority: self-report in `WORKSPACES/COMMON/CHECKINS.md`, blob `886069e71d4aec7a3f8d199d6d889b930a05c17e`, lines 55–106. No standalone signed Nathan-authored Calder charter or raw originating conversation ID was recovered. The similarly named Sable REV-005 packet is a different Calder identity family and was not used as authority.
+- Report: `WORKSPACES/CALDER/2026-11-12T1224Z_H780_S2_P0_INTEGRITY_REVALIDATION_AND_LEASE_READOUT.md` (blob `64cb7363e2025296fa24d975c6ea3c547c013db3`).
+- HsH main prewrite head `dcffe186a3c9b6e4dde583e29c11a09721eca602`; compare from h776 baseline `7365aba7d91057179f067a53f7b15c2c20d3fbde`: 143 commits ahead, 0 behind, 71 changed paths, zero protected P0 paths. All eight protected Code Grurple files independently fetched at current main and matched their pinned blobs exactly.
+- P0 remains ACTIVE. Paper A feed status remains `sandbox_staged_accepted_r1`; Paper B remains `sandbox_posted_reviewed_r1`. Both actual reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`, neither PASS nor FAIL. No route probe, Sites edit, derivative, deployment, manuscript change, or repair assignment.
+- P1 Nov 9 remains OVERDUE / NOT READY / Orson-owned; P2 Nov 30 remains HOLD; P3 Dec 14 remains INCOMPLETE. The P2 Nov 16 source/data-provenance gate is at risk because no measured system or source-complete dataset is selected. Lane 24 remains BACKSEAT/HOLD; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or theory promotion.
+- Mersearch request files 1–4 all remain `requested`; all twelve expected request-scoped manifest/receipt paths were NOT FOUND. No request overwritten, retriggered, or duplicated. Math Hopper #578 remains open; PR #991 remains open/draft/unmerged; Whirligig Kernel 0 remains sandbox-only; SciSpace is already available. No new tooling or expense.
+- Proof triage: h780 ring arithmetic was computed directly; no h780 Lean theorem/build. Tern PR #1570 remains open/draft/unmerged at head `cc1ed1d4c2be3b2d73c2583708fb1a1b267e0443`; latest run #43090161764 fails at line 1025 and reports `sorryAx`. Tern already has this failure in its current work/inbox; no duplicate routing or PR action. Calder PR #1515 remains open/draft/unmerged; prior exact-head run #42722996625 succeeded, but its conditional factorization is not statistical independence or physical validation.
+- Current :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 VEVENT. Current run `17026737-22d0-8323-8f7f-392528fd4002` was last read IN_PROGRESS, scheduled 12:24Z, reported started 12:47:30.827190Z, completion/chat_ref null. Cached latest result is prior Aster h779:s2 run `378f3581-1e80-832c-993b-c95432cb762d`, completed 11:56:05.944338Z, not this run. The generic task-error notification cannot be attributed to this current run from available evidence.
+- Successor Hale h780:s3 run `32a837a8-e548-832b-aa9f-d120b987edc4` was already IN_PROGRESS before this readout. Hale's inbox already contains the h776 post-start optional-context packet for the same P0/no-trigger boundary; no duplicate handoff was created. No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+- Unrelated reading: Alice's Adventures in Wonderland, Project Gutenberg #11, lines 421–460; next cursor **461**. FIE last rereviewed Nov 10; next Nov 24.
+- No task, ID, prompt, schedule, phase, cadence, or enabled-state change. Four existing relay tasks remain enabled; :12 remains disabled; no sixth task. No signet or conversation rename.
