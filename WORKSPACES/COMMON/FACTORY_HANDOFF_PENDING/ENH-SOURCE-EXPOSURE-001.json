@@ -2,7 +2,7 @@
   "schema": "factory-handoff-pending-v1",
   "source_item_id": "ENH-SOURCE-EXPOSURE-001",
   "factory_item_id": null,
-  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_PENDING",
+  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED",
   "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
   "eligibility_reason": "Factory Floor geometry-first admission requires a precise object-specific geometric plot and independent hostile fidelity review. This is an abstract source/context evidence-type theorem; no physical geometric object or plot is supplied.",
   "intake_route": "NOT_SUBMITTED",
