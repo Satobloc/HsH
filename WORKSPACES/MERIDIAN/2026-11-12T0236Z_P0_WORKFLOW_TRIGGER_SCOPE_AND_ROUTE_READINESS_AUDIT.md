@@ -22,7 +22,7 @@ A bounded existing-thread search did not locate a current usable Meridian conver
 
 ## 2. Controlling preflight and repository state
 
-The following live controls were reread: BEDROCK (667 lines, blob 0253ace5a5a3f34b77a09a1c2d2e7a2e5c3b90d7), Nathan Direct methodology/model overview (blob a8e333a6a2baf38a3e2a6f1e8b1d2a0a5e2e4f9a), Steering Charter 2026-10-26 (blob 04822f3e2b3b5f5e1fbd1e1b7a4c3d7e0a5b8c9d), Three Paper Campaign (blob 2b488d6a7a4f7b7f8f8e1d2c3a4b5c6d7e8f9012), three-repository onboarding, New Instance Start Here, Revival Rotation V3/V4, thread-first and navigation preflight, duplicate-run-key guard, worker autonomy/handoff protocol, no-renaming policy, scheduler authority, shared-state write safety, cross-repo execution standard, current workflow orientation, task graph, and Meridian workspace/checkpoint.
+The following live controls were reread: BEDROCK (667 lines, blob 0253ace674bbc361464b7bbaac2c41aa3d8e8867), Nathan Direct methodology/model overview (blob a8e333b1d5b5aa1d9772366945dd88769d24153c), Steering Charter 2026-10-26 (blob 04822f3e48f746e9e464d893636ed4a670d68683), Three Paper Campaign (blob 2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4), three-repository onboarding, New Instance Start Here, Revival Rotation V3/V4, thread-first and navigation preflight, duplicate-run-key guard, worker autonomy/handoff protocol, no-renaming policy, scheduler authority, shared-state write safety, cross-repo execution standard, current workflow orientation, task graph, and Meridian workspace/checkpoint.
 
 Three repository heads inspected:
 - HsH main at the latest pre-write read: 416799cc9180e3880d2b2a608189c0671a6bfd5e.
