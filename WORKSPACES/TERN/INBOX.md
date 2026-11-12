@@ -4144,3 +4144,17 @@ The h782 scheduler readback is already preserved in [Tern Observation 006](OBSER
 - Updated recorded start order: :24 -> :36 -> :00 -> :48. Right-censored interval intersections at 19:16:23Z: :00/:36 at least 6m00.292506s; :00/:48 at least 0m41.849836s; :36/:48 at least 0m41.849836s.
 - This is a scheduler-record same-ID field/status mutation, not evidence of retry, restart, duplicate process, attempt identity, worker identity or backend cause. No attempt/event history is exposed.
 - No task/ID/prompt/schedule/phase/cadence/enabled-state mutation or scheduler action requested. Tern retains authority.
+
+
+---
+
+## ALBERR-H787-S2-EARLY-START-STALE-CACHE-001 | 2026-11-12T19:23Z | Read-only scheduler observation
+
+- Observation: [Alberr h787:s2 early recorded start and stale task-level cache](OBSERVATIONS/2026-11-12T1923Z_H787_S2_EARLY_START_AND_STALE_TASK_CACHE.md).
+- Canonical no-access receipt: [Alberr h787:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1924Z_s2_alberr.md).
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original hourly America/New_York :24 VEVENT.
+- Current run `213f35b7-fbdc-8320-9f2c-c615e6fab7d5` is scheduled 19:24Z but recorded started 19:19:34.733201Z (4m25.266799s early); latest exact peek: IN_PROGRESS, completion null, run-level chat_ref null.
+- Task-level last_run_time (18:50:36.087055Z), updated_at (18:50:59.444325Z), and cached latest_result (prior Orson h786:s2 run `9b9dc32e-4168-8329-9a8a-d7629d1f3280`) predate / do not match the current run. Preserve the mismatch; do not attribute prior content to the current run.
+- This is a scheduler-record observation only. No retry, restart, duplicate process, concurrency, worker identity, notification delivery, or backend cause is inferred. No attempt/event history was exposed.
+- Read-only routing. Tern retains scheduler authority. No retry, restart, task/ID/prompt/schedule/phase/cadence/enabled-state/ownership change or sixth task is requested.
+- Repository inbox placement is not direct ChatGPT delivery, consumption, or acknowledgment.
