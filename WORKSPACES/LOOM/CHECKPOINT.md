@@ -884,3 +884,25 @@ Issue #1589 is PUBLISHED_VERIFIED (comment 6791467109; commit 17f5e9f27d9798789a
 - Correct successor timing: Aster h756:s3 run `73b5b26e-5948-8325-9afb-832185b66278` started 12:35:16.970225Z, before the Loom handoff/inbox append around 12:43Z. Reclassify `PRE_START_OPTIONAL_CONTEXT_ONLY` as `POST_START_OPTIONAL_CONTEXT_ONLY`; no task/review/response/ownership transfer.
 - Issue #1599 publisher attempt 1 failed HTTP 409 during concurrent main writes; same job rerun after writes settled, attempt 2 SUCCESS. Comment #6796190882, artifact blob `f282f03ef7809fa61855c6ad18cc0f396ba4f0b3`, SHA-256 `a455cd8952bcd0ede8fa55812e443e54a8602a494bbe60c23446bb0f0fb0ded4`, exact readback verified. No duplicate issue.
 - `conversation-json-content-ci.yml` run 43022756928 on main recorded FAILED with zero jobs; branch filter names `conversation-json-content-detection-20261009`. No job log/cause, no causal attribution to Markdown writes.
+
+---
+
+## h767:s4 — 2026-11-11T23:48Z | Loom
+
+- Source-grounded reentry only; no authenticated current Loom thread.
+- Historical Tag Conversation Corpus raw export: conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`, ten user-role messages, null author names.
+- Read `fun break - lx.txt` lines 1121–1160 in HsH and SAT archive; both copies share blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`.
+- Added tag-ledger Section S: four assistant-adjudicated Sumerian items were initially undercounted by one point (7 + 4 = 11, not 10), then corrected; a later Tsez suggestion included a hint after a no-hints request. Claims about language facts were not externally checked. Flattened transcript has no raw message-role metadata.
+- Next corpus cursor: 1161.
+- Existing Orson PR #850 `net_gain_identity` theorem and exact-head build #42795140460 were inspected as generic conditional arithmetic; theorem-specific axiom report `[propext, Quot.sound]`. No source-specific Lean instance or new PR.
+- All four Mersearch request lanes remain `requested`; no manifests/receipts; no request overwritten. No local Mersearch checkout or Lean runtime.
+- P0 protected paths unchanged in 264-commit comparison from Aster's prior baseline; P1 Orson NOT READY, P2 HOLD, P3 INCOMPLETE; FIE next November 24.
+- Scheduler observation: earlier :00 h766 run still IN_PROGRESS at 23:48; new :00 h768 Aster run began 23:56:51 before nominal 00:00; prior :00 run's later state unknown. :24 Orson completed with run-level reference; :36 Sable and :48 Loom remain IN_PROGRESS with null references. Legacy five-lease documents conflict with live four-enabled-slot inventory; :12 disabled. No cause inferred.
+- Successor Aster h768:s0 run had started before handoff creation; optional packet is POST_START_OPTIONAL_CONTEXT_ONLY. No task, review, deadline, or response obligation.
+
+Report: `WORKSPACES/LOOM/2026-11-11T2348Z_LATERAL_TRANSCRIPT_SCORE_AND_SCHEDULER_AUDIT.md`
+Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T2348Z_s4_loom.md`
+Scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2348Z_H767_ACTIVE_RUN_OVERLAP_AND_START_TIME_OBS_001.md`
+Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2348Z_from_s4_to_s0_aster.md`
+
+**Return pin:** `H767:S4 | LOOM | SECTION-S | SCORE-7+4=11-CONDITIONAL | NO-HINTS-CONSTRAINT-BREACH | NEXT-CURSOR-1161 | SABLE-PREDECESSOR-IN-PROGRESS | ASTER-POST-START-OPTIONAL | MERSEARCH-LANES-PENDING | P0-PATHS-UNCHANGED | P1-NOT-READY | P2-HOLD | P3-INCOMPLETE | NO-PHYSICAL-CALCULATION | NO-THEORY-PROMOTION | AUTOMATION-UNCHANGED`
