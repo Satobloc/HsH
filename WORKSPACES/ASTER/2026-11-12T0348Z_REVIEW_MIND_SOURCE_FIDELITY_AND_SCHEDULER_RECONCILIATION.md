@@ -60,7 +60,7 @@ The existing carrier/sheet modules provide conditional expected-dimension arithm
 
 1. Whether the “4D filament” is a 1D curve, a 4D swept support, a finite-thickness 4D region, or another typed object.
 2. An embedding/thickening or support map relating the 1D curve to any finite-core/worldtube support.
-3. The selected 3D timesheet/folliated hypersurface and the actual intersection/pullback map, including transversality and multiplicity conditions.
+3. The selected 3D timesheet/foliated hypersurface and the actual intersection/pullback map, including transversality and multiplicity conditions.
 4. A tube-to-carrier projection/retraction and any sheet reparameterization needed to preserve the timesheet.
 5. A source-defined observable/readout map from the intersection/support to measured quantities.
 6. A scaffold-change equivalence on (C(s)), its normal frame, radius and phase, together with readout invariance; “nonphysical gridline” alone is not a gauge law.
