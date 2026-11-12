@@ -401,3 +401,115 @@ theorem degree_projection_not_injective :
 #print axioms degree_projection_not_injective
 
 end HsHVerification.SableCurrentIdentityGate
+
+
+/-!
+## Kerr surface sweep versus filament-fibered worldtube
+
+This is a source-aware dimension crosswalk, not a geometry construction.
+
+* \`fixedRSurface\` is the 2D constant-\`r\` oblate surface in a 3D Kerr
+  spatial slice used by the standard Kerr shell note. Sweeping it in the
+  Kerr-time parameter gives a 3D worldvolume.
+* \`spatialKerrSection\` is the 3D fiber type used in the source-faithful
+  reconstruction of the direct instruction to extend a spatial Kerr section
+  along a 1D filament parameter. A locally product-like extension gives a
+  4D total support.
+
+The two base parameters are separately tagged even though both have dimension
+one. No map identifies Kerr time with the filament parameter, and no map
+identifies the fixed-r surface with the 3D spatial fiber or its boundary.
+The results below are only local-product dimension arithmetic and conditional
+transverse-slice/boundary bookkeeping. They do not construct an embedding,
+fiber bundle, filling, regular boundary, or physical readout.
+-/
+
+namespace HsHVerification.SableKerrSectionCrosswalk
+
+inductive SweepBase where
+  | kerrTime
+  | filamentParameter
+  deriving DecidableEq, Repr
+
+inductive CrossSection where
+  | fixedRSurface
+  | spatialKerrSection
+  deriving DecidableEq, Repr
+
+def baseDimension : SweepBase → Nat
+  | .kerrTime => 1
+  | .filamentParameter => 1
+
+def crossSectionDimension : CrossSection → Nat
+  | .fixedRSurface => 2
+  | .spatialKerrSection => 3
+
+/-- Conditional total dimension under a local product/trivialization. -/
+def localProductSupportDimension
+    (base : SweepBase) (section : CrossSection) : Nat :=
+  baseDimension base + crossSectionDimension section
+
+theorem time_swept_fixed_r_kerr_surface_is_three_dimensional :
+    localProductSupportDimension .kerrTime .fixedRSurface = 3 := by
+  decide
+
+theorem filament_parameter_over_fixed_r_surface_is_three_dimensional :
+    localProductSupportDimension .filamentParameter .fixedRSurface = 3 := by
+  decide
+
+theorem filament_parameter_over_spatial_kerr_section_is_four_dimensional :
+    localProductSupportDimension .filamentParameter .spatialKerrSection = 4 := by
+  decide
+
+theorem kerr_time_sweep_and_fibered_worldtube_have_different_dimensions :
+    localProductSupportDimension .kerrTime .fixedRSurface ≠
+      localProductSupportDimension .filamentParameter .spatialKerrSection := by
+  decide
+
+theorem fixed_r_surface_and_spatial_section_have_different_fiber_dimensions :
+    crossSectionDimension .fixedRSurface ≠
+      crossSectionDimension .spatialKerrSection := by
+  decide
+
+/-- If the 3D spatial section has a regular nonempty boundary, its boundary
+has dimension two. This does not identify that boundary with the fixed-r
+Kerr surface; an embedding and boundary identification remain separate. -/
+theorem regular_boundary_of_three_dimensional_spatial_section_is_two_dimensional :
+    HsHVerification.SableCurrentSupportDegreeGate.boundarySupportDimension 3 = 2 := by
+  norm_num [HsHVerification.SableCurrentSupportDegreeGate.boundarySupportDimension]
+
+/-- Under the existing transverse-hypersurface premise, a 3D Kerr-time
+surface sweep has a 2D intersection with a 3D timesheet in 4D. -/
+theorem transverse_timesheet_trace_of_kerr_surface_sweep_is_two_dimensional :
+    HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension
+      (localProductSupportDimension .kerrTime .fixedRSurface) = 2 := by
+  norm_num [localProductSupportDimension, baseDimension, crossSectionDimension,
+    HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension]
+
+/-- Under the same premise, a 4D filament-fibered support has a 3D
+timesheet trace. This is not a particle/readout map. -/
+theorem transverse_timesheet_trace_of_fibered_worldtube_is_three_dimensional :
+    HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension
+      (localProductSupportDimension .filamentParameter .spatialKerrSection) = 3 := by
+  norm_num [localProductSupportDimension, baseDimension, crossSectionDimension,
+    HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension]
+
+#eval (localProductSupportDimension .kerrTime .fixedRSurface,
+  localProductSupportDimension .filamentParameter .spatialKerrSection)
+
+#eval
+  (HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension
+    (localProductSupportDimension .kerrTime .fixedRSurface),
+   HsHVerification.SableCurrentSupportDegreeGate.transverseHypersurfaceSliceDimension
+    (localProductSupportDimension .filamentParameter .spatialKerrSection))
+
+#print axioms time_swept_fixed_r_kerr_surface_is_three_dimensional
+#print axioms filament_parameter_over_fixed_r_surface_is_three_dimensional
+#print axioms filament_parameter_over_spatial_kerr_section_is_four_dimensional
+#print axioms kerr_time_sweep_and_fibered_worldtube_have_different_dimensions
+#print axioms fixed_r_surface_and_spatial_section_have_different_fiber_dimensions
+#print axioms regular_boundary_of_three_dimensional_spatial_section_is_two_dimensional
+#print axioms transverse_timesheet_trace_of_kerr_surface_sweep_is_two_dimensional
+#print axioms transverse_timesheet_trace_of_fibered_worldtube_is_three_dimensional
+
+end HsHVerification.SableKerrSectionCrosswalk
