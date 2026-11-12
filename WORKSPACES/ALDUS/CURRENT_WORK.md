@@ -306,3 +306,6 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 - Existing P0 Code Grurple work remains active and unchanged. P1/P2/P3 statuses and FIE review date remain unchanged.
 - Repository-only handoff to next ring label Calder; no direct thread delivery or acknowledgment claimed.
 - The :00 task remains enabled with its original hourly schedule and phase. A separate h786:s0 run was observed in progress; it is not this h784 recovery.
+
+
+Supplemental glossary: WORKSPACES/ALDUS/2026-11-12T1600Z_GEOMETRY_FIDELITY_GLOSSARY.md (blob 0c94c842a0d7b47ce4a25330c26cf88ca03a0bd7); linked in issue #1645 comment 6832093944. It is a terminology aid only; the canonical publisher artifact remains unchanged and verified.
