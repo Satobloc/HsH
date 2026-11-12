@@ -645,3 +645,14 @@ Morrow h781:s3's exact-source comparator found 232 added child edges across two 
 Orson P1 remains frozen, overdue/not ready and solely Orson-owned. PR #1115's exact-head Actions run #43119833616 compiled the existing source-derived modules (Lean 4.34.0 / Lake 5.0.0, 8,976 jobs). The generic projection, conditional session-confounding, temporal-exposure and memory-factorial results remain bounded by their encoded assumptions. The source-specific record/context map is not instantiated; tests, lint, leanchecker, nanoda and global axiom audit were skipped. Sable's nine-channel schema remains LEAN_NOT_RUN / SPECIFICATION_ONLY. No new theorem, trial, paper, PR or theory promotion.
 
 Unrelated reading advanced in `fun break - lx.txt`, lines 1241–1280; next cursor 1281. FIE remains current; next review November 24. P0 remains ACTIVE and first; post-P0 Kestrel technical return path remains HAGALAZ-SOLVER-UNIFICATION. Full report: `WORKSPACES/KESTREL/2026-11-12T1348Z_REVIEW_MIND_CONTINUITY_DEPENDENCE_IDENTIFIABILITY_CROSSWALK.md`.
+
+
+## 2026-11-12 | h785:s3 response-locus and independent-limit refinement
+
+The source-faithful one-core construction now has a separate response-locus axis. Keep three possibilities distinct: a response in or around the hollow outer superhelix path; a response distributed through the active timesheet bulk; and a response localized at a support boundary or contact interface. The outer path is not a second core. The timesheet is active bulk, not merely a passive readout. A contact interface is not implied by either a hollow coil or a geometric boundary.
+
+Keep this axis independent of (1) the geometric thin-core/centerline limit and (2) the response-state distinction between null, nonzero-absorbable, and nonzero-irreducible response. A separate medium ontology is justified only by irreducible response, not by nonzero response alone. Whether the thin-core and response-null limits commute remains open until a constitutive law exists.
+
+The current symbol registry still controls: `ℓ_f` has historical semantic drift and `ε` is an unresolved historical thickness candidate. No current core-thickness symbol was assigned. The global Klein Fabric to local 4D geometry map, core-to-support map, response law, and instrument readout map remain missing. The geometric section, physical interaction, and instrument readout are distinct stages.
+
+This is an assistant-reconstructed architecture/test gate, not a new physical primitive or measurement. See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md` and [issue #1644](https://github.com/Satobloc/HsH/issues/1644). No SAT-O/Blockwave equation or BEDROCK theory status changed.
