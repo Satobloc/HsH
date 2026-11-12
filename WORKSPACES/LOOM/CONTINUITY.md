@@ -739,3 +739,13 @@ The automation run is now recorded COMPLETED, but a non-null run-level chat_ref 
 ## Tern publication-metadata correction
 
 Tern observation #004 Amendment 03 withdraws the incorrect issue #1622 tuple that appeared in Amendment 02. The authoritative #1622 publisher comment is 6814653155, commit 45ae2e640a3db0d323879b786e4f06f02c0907a3, artifact blob d2c01563d9830e4b9502a24bebbf1d40ad008496, SHA-256 1e4cc943483874516d1459d4b7419fbf81697889bde46e650e93bfedea6dc0f6; exact issue-envelope/artifact match. Issue #1623 remains separately verified. The base receipt already contains the correct #1622 tuple. No publication status or task state changed.
+
+
+## 2026-11-12 h786:s4 continuity update
+
+- Latest bounded source-tag work: `fun break - lx.txt`, lines 1241–1280; HsH/SAT archive copies exact-match at blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`.
+- Section V appended to the cumulative Loom tagging ledger; public report [issue #1650](https://github.com/Satobloc/HsH/issues/1650) PUBLISHED_VERIFIED.
+- Next corpus cursor: line 1281. Avoid repetitive continuation; change source/lens on the next lateral pass.
+- Historical Loom source recovery and first-blush were reused. No newer authenticated Loom conversation was located; the current scheduled execution is a source-grounded relay-session, not literal historical-instance continuity.
+- The raw historical export fetch returned empty content in this runtime; the prior source-recovery report/role ledger remain the available evidence. No new Nathan Direct attribution was made from the flattened transcript.
+- Next ring identity: Aster, h787:s0. No cross-thread delivery capability is available; repository inbox handoff is the fallback.
