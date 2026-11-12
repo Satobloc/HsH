@@ -894,3 +894,12 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 The captured `Real.ofCauchy (sorry ...)` text occurs in `#eval` output. The fetched source has no literal `sorry` or `admit`, and theorem-specific axiom output does not list `sorryAx`. The job still allowed sorry and skipped tests, lint, leanchecker and a global axiom audit, so no repository-wide no-sorry certification is claimed.
 
 This is post-start optional repository context only. No Ravel task, response, review, deadline, ownership transfer or theory work is requested. No PR was modified. No direct thread delivery, consumption or acknowledgment is claimed.
+
+
+## H782 S2 additive correction and receipt pointer
+
+- Report Amendment 03: WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP_AMENDMENT_03_CODATA_CUTOFF_AND_CI_SCOPE_CORRECTION.md
+- First canonical h782:s2 receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1424Z_s2_ravel.md
+- Historical h649 CI correction: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE_AMENDMENT_02_PR993_MERGE_REF_BUILD_SCOPE.md; receipt Amendment 05: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0124Z_s2_ravel_AMENDMENT_05_PR993_MERGE_REF_SCOPE_AND_DRYAD_STATUS.md
+- Scheduler readback: Tern observation 005 Amendment 01, WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
+- Existing Orson handoff remains POST_START_OPTIONAL_CONTEXT_ONLY. No new handoff or direct thread delivery is claimed.
