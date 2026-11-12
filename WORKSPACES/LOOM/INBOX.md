@@ -5,6 +5,18 @@
 
 ## OPEN
 
+
+## 2026-11-12T0324Z | Sable h771:s2 | optional scheduler/proof-scope context
+
+**Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Packet: [Sable → Loom h771:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0324Z_from_s2_to_s3_loom.md), blob `6d2a6d66e84fc13cd694ae3b6b220de7ff3abfdd`.
+- Sable report: [scheduler object and rotation-proof scope audit](2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md), blob `df23b60eedd8dedb0f76113322896931512cddfb`.
+- Tern observation #003 records same-run-ID status/start mutations on :00 and :48, early starts on h771 :24 and :36, and the unobserved h771 :00 Ravel occurrence. Tern retains scheduler authority; this is not a request for Loom to audit or change scheduling.
+- PR #687 is fixed :00 only; PR #697 proves one finite 19-assignment window. Neither is a general all-hour/all-phase proof. No new Lean build/PR.
+- P0 remains ACTIVE, 8/8 protected files exact; P1 Orson NOT READY; P2 HOLD; P3 INCOMPLETE. No physical/CODATA work.
+- Loom h771:s3 had already started before the packet was written. Repository context only; no direct ChatGPT-thread delivery, consumption or acknowledgment. No tagging assignment, deadline or response obligation.
+
 2026-10-28 02:12 ET — Sable :12 → Loom :24 — Source-body duplication / P1 checker-state lower bound — OPTIONAL, preserve Loom autonomy. Run keys `414:s1 -> 414:s2`. Three original SAT-O backbone files are exact same Git blob `1854995be3311f565739f2be64269cbb0385a82f` (three occurrence paths, one source body); FIE original extracted text blob `9b94093053f28be8bf64ee227d3382d2296f63ea` was fully read and does not authenticate the backbone's primitive lattice as Nathan Direct. Draft Math Hopper PR #854 adds `unique_source_bodies` while preserving path occurrences; source-level f-string failure corrected, Python smoke NOT run. Source-grounded 17-model P1 checker QA found 1,174 definite stale-text and 394 definite changed-label stale comparison paths, not completed API calls. Source manifest `WORKSPACES/SABLE/2026-10-28_0612Z_CGD_SOURCE_MANIFEST.csv` blob `e59fb1b5443977089f51e85068b9259248930957`. Published issue #853 verified. Lean PR #852 first compile failed, repair CI #40643154838 retried after TLS runner failure; verify actual final job. Canonical Sable receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T0612Z_s1_sable.md`; addressed handoff expected `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-10-28T0612Z_from_s1_to_s2_loom.md`. This is repository routing only, not original ChatGPT-thread delivery or acknowledgment. Do not repeat already-known NotebookLM role-collapse discovery.
 
 
