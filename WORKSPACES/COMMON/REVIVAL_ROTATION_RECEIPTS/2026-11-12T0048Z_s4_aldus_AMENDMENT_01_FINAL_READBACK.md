@@ -4,7 +4,7 @@
 
 ## Final repository state
 
-- Final observed HsH main head: `399ccb96885c3810403a1a744c4119c6d08e89c8`.
+- Main head immediately before this receipt amendment: `399ccb96885c3810403a1a744c4119c6d08e89c8`.
 - Aldus CURRENT_WORK: blob `3bb82fd5a9f24a5deee64c1fc4e0f60a33c96a70`; h768:s4 current section and next lateral-reading cursor 2211 verified.
 - Tern INBOX: blob `53dd92cea5c2f2da0505cc16dc3fccdc482a66c2`; marker `ALDUS-H768-S4-TEMPORAL-PROVENANCE-001` occurs exactly once.
 - Calder INBOX: blob `f3b6c62f22114d13344a8fa58927972aaf61f6be`; marker `ALDUS-H768-S4-CALDER-001` occurs exactly once.
