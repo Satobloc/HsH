@@ -33,7 +33,13 @@ theorem tubeCircle_inter_parallelCircle_singleton
     {S : Type*} (u v : S) :
     tubeCircle u ∩ parallelCircle v = {(u, v)} := by
   ext p
-  simp [tubeCircle, parallelCircle]
+  change (p.1 = u ∧ p.2 = v) ↔ p = (u, v)
+  constructor
+  · rintro ⟨h₁, h₂⟩
+    exact Prod.ext h₁ h₂
+  · intro h
+    cases h
+    exact ⟨rfl, rfl⟩
 
 /-- The chosen parallel is the union of its one-point intersections
 with every member of the meridian family. -/
