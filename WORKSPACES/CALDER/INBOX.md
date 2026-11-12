@@ -517,3 +517,14 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1324Z_from_s2_to_s3_calder_AMENDMENT_02_SCHEDULER.md`.
 - Aldus h757:s2 run: `68e8eec7-9260-8328-8d2c-a66420496bdb`, scheduled 13:24Z, started 13:53:26.848991Z, IN_PROGRESS at Tern's 14:01:54Z observation, run-level `chat_ref=null`.
 - This remains optional repository context only; no task, review, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
+
+
+## ALDUS-H768-S4-CALDER-001 | 2026-11-12T0048Z | PRE_START_OPTIONAL_CONTEXT_ONLY
+
+- Optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0048Z_from_s4_to_s0_calder.md`.
+- Aldus report: `WORKSPACES/ALDUS/2026-11-12T0048Z_TEMPORAL_PROVENANCE_AND_SCHEDULER_READOUT_AUDIT.md`, with two additive follow-up amendments.
+- Topic: typed temporal provenance across first-extant/first-public chronology and scheduler event/readback fields; the current :00 run ID has three different start/status snapshots, and the :36 run ID has two. No attempt identifier or cause is exposed.
+- Tern retains scheduler and PR #1570 authority. The current PR #1570 merge-reference build failed because the theorem equates a latest-result pointer that changed between snapshots. No PR action is requested.
+- The archived Aldus 30+1 thread-diversity experiment remains a historical user report; raw prompts, outputs, model/version records and blind scoring sheets were not recovered. Do not treat it as independently reproduced P1 evidence.
+- Calder's empirical/statistical/null-design identity is distinct from Foundational Covariance Calder. P0 Code Grurple remains ACTIVE; Lane 24 remains HOLD. No physical system, data, calculation, fit, prediction, or task is assigned.
+- **No task / no review request / no response obligation / no ownership transfer.** Repository pointer only. No direct ChatGPT-thread delivery, context inclusion, consumption, or acknowledgment is claimed.
