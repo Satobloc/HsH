@@ -785,3 +785,11 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - The original report's Section 2 control hashes are withdrawn and replaced by the exact live blob identities in the report amendment. The baseline-to-main comparison refreshed to d750a9312ac0184cd959416803aefbe246d2042e: 172 ahead / 0 behind; no protected P0 path in the returned changed-file list; only PUBLIC_SITE path was generated/discovery.json.
 - The same :36 run-ID started_at mutation is recorded as 27m30.392929s and routed to Tern. P0 routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or acceptance claim.
 - Optional context only. No task, review request, deadline, response obligation, ownership transfer, or direct thread delivery/consumption/acknowledgment is claimed.
+
+
+## MERIDIAN-H770-S3-MERCER-001-CONSUMED-LATE | 2026-11-12T0310Z
+
+- Source: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0236Z_from_s3_to_s4_mercer.md and its control-hash/diff amendment.
+- The handoff was read in the current Mercer h770:s4 scheduled execution after that run had started at 02:51:49.057940Z. Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- This marker records only that the current execution read the repository packet. It does not establish direct thread delivery, historical Mercer identity, another run's context inclusion, acknowledgment or comprehension.
+- No task, response obligation, deadline, review request or ownership transfer.
