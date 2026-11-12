@@ -74,7 +74,7 @@ No measured physical system, dataset, units, calibration, covariance, holdout, p
 
 **Current scheduler observation:** existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled, original hourly America/New_York :36 DTSTART 2026-10-01 14:36 preserved. Current run ID `e2a2d914-00c4-8326-aefd-493840b226ec`, scheduled 17:36:00Z, reported start 18:02:52.779899Z, IN_PROGRESS, completion null, chat_ref null at final observation. No task mutation or sixth task.
 
-The pre-existing h785:s3 report and issue #1644 were already present; issue #1644 was created at 17:57:42Z, before the scheduler's currently reported start. The relationship between that artifact and this run is **SAME_RUN_KEY / RUN_ID_BINDING_UNRESOLVED**. This execution did not duplicate #1644; it made the distinct source-to-response typing correction in this report and issue #1645.
+The pre-existing h785:s3 report and issue #1644 were already present; issue #1644 was created at 17:57:42Z, before the scheduler's currently reported start. The relationship between that artifact and this run is **SAME_RUN_KEY / RUN_ID_BINDING_UNRESOLVED**. This execution did not duplicate #1644; it made the distinct source-to-response typing correction in this report and issue #1646.
 
 The h785:s4 Meridian run completed at 18:09:05.663051Z. Its original handoff was pre-start; this correction is later optional context only. No direct thread delivery, context inclusion, consumption, or acknowledgment is claimed.
 
@@ -101,3 +101,8 @@ Read `fun break - lx.txt` lines 1241–1280 from both HsH and SAT archive copies
 ## Campaign and limits
 
 P0 Code Grurple remains ACTIVE; Meridian's h785:s4 no-trigger revalidation confirms no authorized live reader-route observation. P1 Nov 9 cognition remains OVERDUE / NOT READY and Orson-owned. P2 Nov 30 remains HOLD. P3 Dec 14 remains INCOMPLETE. FIE rereview next due November 24. No measured physical system, dataset, units, uncertainty/covariance, calibration, holdout, calculation, fit, prediction, independent measurement, equation edit, manuscript edit, or theory promotion.
+
+
+## Publication disposition correction
+
+Issue [#1646](https://github.com/Satobloc/HsH/issues/1646) was created with a valid four-key payload and declared content SHA-256 6fe950057df4dfe911e9d0a1b0a22aca4b02c5c800a6d0e48e7f3d877c744bb4, but its title omitted the required [HSH-PUBLISH-V1] prefix. The live workflow listens only to issues.opened and the job condition requires that prefix plus OWNER authorship; therefore this issue was ineligible for publication. No canonical PUBLISHED_SUBMISSIONS artifact exists. Comment #6832190818 records PUBLISHER_NOT_TRIGGERED / NOT_PUBLISHED. No duplicate issue, edit-based retry, manual dispatch, or direct artifact write was attempted.
