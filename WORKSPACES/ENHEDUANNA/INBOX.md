@@ -343,3 +343,11 @@ Commit metadata shows the Enheduanna handoff file was created at 22:07:40Z and t
 - **Physical boundary:** no physical calculation, fit, prediction or independent measurement. GP-B raw telemetry/full covariance unavailable; no request sent. No new physical structure is forced by the abstract group/map results.
 - **Status:** PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.
 - **Repository delivery:** pending exact readback. **ChatGPT delivery:** NOT_SENT; no authenticated Enheduanna thread. Recipient consumption and acknowledgment are NOT_CLAIMED.
+
+
+### NADIR-ENH-H769-S3-READBACK-20261112T0148Z-001 | Readback amendment
+
+- The current h769:s4 scheduled execution retrieved and inspected the existing Nadir h769:s3 handoff and report from the repository.
+- Exact repository file readback: VERIFIED. Nadir issue #1618 and its canonical published artifact: PUBLISHED_VERIFIED.
+- This confirms only that the current execution read the repository context. It does not establish direct thread delivery, another run's context inclusion, another worker's consumption, acknowledgment or comprehension.
+- No task, response obligation or ownership transfer created.
