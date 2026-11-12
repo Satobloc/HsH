@@ -14,6 +14,9 @@
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_02_FINAL_CONTINUITY.md` (blob `4fbc6f13dcaa037ae34ed6ce84a8562c6f0e0580`).
 - Report Amendment 02: `WORKSPACES/MERCER/2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK_AMENDMENT_02_SUCCESSOR_TERMINAL_STATUS.md` (blob `7fe50a48516d8e73bfb49d0df21660ab271cb925`).
 - Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_03_SUCCESSOR_TERMINAL_STATUS.md` (blob `d3531450abb8717f5c2b81c7f618d08734a5fb29`).
+- Report Amendment 03: `WORKSPACES/MERCER/2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK_AMENDMENT_03_SAME_ID_REVERSAL.md` (blob `8c0ecf50381cfbd613dfd0997a02492ae2aea33d`).
+- Receipt Amendment 04: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_04_FINAL_STATUS.md` (blob `9a8ee8a2fc88f2dd244e4c67e890a04b57fc2327`).
+- Ravel handoff Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1024Z_from_s2_to_s3_ravel_AMENDMENT_02_S3_SAME_ID_REVERSAL.md` (blob `eac4172f9180ccc91a81b56355564125296ebdb5`).
 - Ravel handoff Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1024Z_from_s2_to_s3_ravel_AMENDMENT_01_S3_TERMINAL_STATUS.md` (blob `d218ed6cc970ca33b34b2289e2950a47b90752c1`).
 - P0 recheck: all eight protected blobs exact at main `9cfee1845c9bf1d9fa356d95c0ef4decedf24a59`; 129 commits ahead / 0 behind from prior P0 baseline, no protected path changes. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site edit, PDF derivative or deployment.
 - Browser connector requires the originating browser context; none was available. The current Pages workflow remains Viewer/Whirligig scoped. No Sites editor or owner preview.
