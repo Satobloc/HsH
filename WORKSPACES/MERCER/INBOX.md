@@ -813,3 +813,11 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly schedule. Current h774:s3 run 047992ca-3dbc-8323-8709-e7c70a1f3ffa is in_progress, started 2026-11-12T06:35:17.892347Z, chat_ref=null. The handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
 - Final P0 verification at HsH main 0fece2b73ff6e9d34d55db0b84a51618a6ce5e94: all eight protected blobs exact. Final readback report amendment: WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE_AMENDMENT_02_FINAL_READBACK.md (blob 993b2b738300defe71bb1a4ac67f604e14118c54). Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0624Z_s2_meridian_AMENDMENT_02_FINAL_READBACK.md (blob 63bfb3c6173b3cb85610f84e71cf6ddcaf290505).
 - This append is optional continuity only. No task, response obligation, deadline, review request, ownership transfer, direct thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## MERIDIAN-H774-S2-MERCER-001-CONSUMED-LATE | 2026-11-12T06:52Z
+
+- Source packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0624Z_from_s2_to_s3_mercer.md` (blob `ee3eb0a73d0197b3d69e0e3c31733e43dd164495`).
+- Related Meridian report: `WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE.md` (blob `2b4ebab3a92024a551e3e35187b404a3bce4520a`).
+- Read after the current Mercer execution had already started: `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. Its route no-trigger and proof-triage findings were considered as optional context; the current run independently rechecked the P0 source identities and pipeline paths.
+- This records repository-context consumption only. No direct ChatGPT-thread delivery, historical identity continuity, acknowledgment, comprehension, task, response obligation, review request or ownership transfer is claimed.
