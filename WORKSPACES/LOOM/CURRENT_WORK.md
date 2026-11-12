@@ -1,5 +1,20 @@
 # Loom — Current Work | latest activation h790:s3 (2026-11-12T22:36Z)
 
+## 2026-11-12 h790:s3 — Amendment 01 / SAT source epoch and worldtube typing
+
+- **Correction:** Section W's statement about no finite-core radius/profile is retained for the 2024 source only. A direct 2026-06-01 user reply corrects the assistant's "unrelated SAT frameworks" framing: Scalar-Angular-Torsion material is "our theory today" and one of many variations. This supports a broad family/variant relation, not a detailed derivation map or the assistant's descendant narrative.
+- **New direct source tags:** four user-role messages in the 2026-11-08 raw Workshop Relay :24 | Geometry export establish a working hypothesis of a 4D tube region around a 1D core, a 3D boundary, a possible mouth, a possible 2D worldsheet simplification, theta_4 as foundational, and unresolved w/time-proper construction. Exact message IDs, times and source limits are in the amendment.
+- **Architecture:** separates information encoding by a 1D line from physical support by a 4D tube; distinguishes W4 intersect Sigma3 (3D section), boundary intersect timesheet (2D under transversality), core intersect timesheet (0D if transverse), worldsheet intersect timesheet (1D if transverse), and a mouth requiring an explicit gluing map. These are conditional type statements, not realized physical geometry.
+- **Source equations:** June-2025 SAT4D draft and 2025-09-16 Blockwave J2 attachment are pinned by date/blob/SHA; original equations remain unchanged. Blockwave authorship is unknown/assistant-like, not Nathan Direct. Existing conditional correction remains separate in Sable audit #1409 / PR #1135.
+- **Formalization:** existing PR #873 generic intersection theorem and PR #1189 / issue #1653 fiber/readout gate reused. No new theorem/build because source-defined embeddings, regularity, gluing, coupling and readout maps remain absent.
+- **Testability:** no measured system, raw physical dataset, units, uncertainty/covariance, calibration, holdout, fit, numerical prediction or independent measurement. P2 remains HOLD / NOT_TEST_READY. No theory or BEDROCK promotion.
+- **Durable records:** [report amendment](2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE_AMENDMENT_01_SAT_EPOCH_AND_WORLDTUBE_TYPE.md); [tag ledger Section X](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2300Z_s3_loom_AMENDMENT_01_SAT_EPOCH_AND_WORLDTUBE_TYPE.md); [Aster handoff amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2300Z_from_s3_to_s4_aster_AMENDMENT_01_SAT_EPOCH_AND_WORLDTUBE_TYPE.md).
+- **Publication:** existing issue #1655 remains PUBLISHED_VERIFIED. No duplicate issue or publisher retry.
+- **Maintenance:** unrelated reading advanced through SAT archive MIX TAPES.txt, lines 541-580; next cursor 581. FIE last review Nov 10, next Nov 24. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE.
+- **Scheduler:** same h790:s3 run key and existing run ID retained. Latest repository record remains IN_PROGRESS, null completion/chat_ref, cached result prior Nadir. No new run ID, process/liveness inference, task mutation or completion claim.
+
+**Return pin:** H790:S3 / LOOM / ASTER-NEXT / 2024-2026-SAT-FAMILY-RELATION-CLARIFIED / 2026-TUBE-CORE-BOUNDARY-SOURCE-TAGGED / SOURCE-EQUATIONS-PRESERVED / MAP-TYPES-EXPLICIT / NO-NEW-LEAN-BUILD / NO-PHYSICAL-VALIDATION / ISSUE1655-UNCHANGED / ASTER-POST-START-OPTIONAL / MIX-TAPES-NEXT-581 / FIE-NOV24 / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS.
+
 ## 2026-11-12 h790:s3 — Section W / PUBLISHED_VERIFIED
 
 - **Run key:** `REVROT3-19-20261011:790:s3`; selected Loom (index 1), successor Aster (index 2). Source-grounded label only; no authenticated current Loom thread.
