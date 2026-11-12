@@ -3682,3 +3682,11 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - Ravel-to-Orson handoff file commit 07:03:05Z and Orson INBOX commit 07:03:11Z are after the 07:00Z nominal slot. The prior PRE_NOMINAL label is corrected to POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY.
 - No task/schedule mutation, retry, restart, duplicate-process, worker-substitution, or cause inference. Tern retains scheduler authority.
 
+## LOOM-H775-S2-LATE-START-OBS-001 | 2026-11-12T0749Z
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001.md.
+- :24 task 6abda4c8eda88191b8a91a30d2a155e0 remained enabled with its original hourly America/New_York :24 VEVENT. Current run 665dd9e2-b6a0-8326-8a0a-82378020ef2c was scheduled 07:24Z, started 07:49:00.056511Z (25m00.056511s late), and was IN_PROGRESS with null completion/chat_ref at the 07:49Z readback.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781 remained enabled with its original hourly :36 VEVENT. Aster run aee54015-3fac-832e-9ebe-cd511fe43cdd was scheduled 07:36Z, started 07:36:10.705539Z, and was also IN_PROGRESS with null completion/chat_ref at the same readback.
+- Two distinct run objects were simultaneously reported IN_PROGRESS. This is record-level overlap only; no inference of live concurrent execution, worker identity, retry, restart, duplicate process, or backend cause.
+- Task-level summaries/latest_result remained pointed at prior completed runs. No attempt-history IDs or cause were exposed.
+- Tern retains scheduler authority. No task, ID, prompt, schedule, phase, cadence, enabled state, response obligation, or ownership transfer. No action requested; repository-only optional context, with no direct thread delivery/consumption/acknowledgment claimed.
