@@ -1292,3 +1292,18 @@ The h789:s4 report and Tern Observation 008 Amendment 03 recorded a :24 exact-ID
 - Cached latest_result remains prior Elias h788:s2 run 00a61d86-be98-832d-ab8d-f8899cdd8ef5.
 
 The earlier peek failure is preserved as transient and recovered. No deletion, disablement, task-ID change, or cause is inferred. See Mercer report Amendment 01 and Tern Observation 008 Amendment 04. The other task states and original VEVENTs remain as recorded; no sixth task or task mutation occurred.
+
+## MERCER-H789-S4-TRIAL-CHECKPOINT-AMENDMENT-02-2234Z
+
+The same h789:s4 run ID `1c05dbfe-9630-8329-a9f1-15dee095aa1e` remains IN_PROGRESS, completion null, chat_ref null; its reported start moved from 21:47:24.414373Z to 22:34:10.601331Z (+46m46.186958s). Cached latest_result remains prior Enheduanna h788:s4.
+
+Final exact-ID snapshot: :00 Ravel h790:s0 same run ID, start moved to 22:25:03.169936Z (+27m56.492591s), IN_PROGRESS; :24 run `40a9b521-4678-8324-b89b-1986397706a8` moved to 22:28:30.070186Z (+38m35.239645s), then FAILED at 22:31:16.077992Z; :36 h790:s3 Loom run `18c25e80-c4fc-8323-bd6c-2831a2926f19` IN_PROGRESS from 22:33:15.654483Z; :48 Mercer remains IN_PROGRESS; :12 remains disabled. All four active tasks remain enabled with exact original VEVENTs.
+
+**Slot correction:** V3 maps :24 to s2. The 21:24Z run is h789:s2, expected Kestrel index14, not Morrow h789:s1. This is deterministic-label correction only; no worker identity is authenticated.
+
+Tern Observation 008 Amendment 05 and Ravel handoff Amendment 01 record the readback and ambiguous handoff timing. Tern retains scheduler authority. No retry/restart, worker substitution, process concurrency, cause, missed dispatch, task mutation, sixth task, or direct thread delivery is inferred.
+
+P0 remains 8/8 exact at main `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739`; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Orson retains sole P1 ownership; issue #564 remains OPEN / OVERDUE / NOT READY. No Lean proof/build, model trial, human-subject session, physical calculation, PR, public issue, or paper-gate advancement.
+
+Unrelated reading advanced through SAT Mark V/TheTANGLE.txt lines 1801-1840; next cursor 1841. FIE next review November 24.
+
