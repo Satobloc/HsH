@@ -1231,3 +1231,14 @@ Run 169 has a separate report and canonical receipt but was not linked from this
 - Code Grurple P0 remains active. No manuscript, reader-route or site changes. P1 November 9 remains overdue/not ready, P2 November 30 remains hold, P3 December 14 remains incomplete. No paper gate advanced. No physical calculation, CODATA scoring, observational validation, BEDROCK change or theory promotion.
 - Standing Mercer P0 QA remit was not changed by this one-off archive audit. Existing automation remains enabled and unchanged: no task ID, schedule, phase, prompt, cadence or enabled-state mutation; no sixth task. No signet or conversation rename. No direct Ravel-thread delivery; the repository handoff is optional context only.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1800Z_s0_mercer.md. Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1853Z_from_s0_to_s1_ravel.md.
+
+
+## Run 172 final readback amendment | 2026-11-12
+
+- Publisher comment on [issue #1649](https://github.com/Satobloc/HsH/issues/1649) reports PUBLISHED and readback verified.
+- Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-active-timesheet-inertia-source-fidelity-20261112t1800z-s0-001.md.
+- Publisher commit: ea39b4b4f886b6c3664c719afa0de8e83ceb08b9. Artifact Git blob: 06e03d6669e09b792928d7dd3c6d0af765841084.
+- Independent readback confirmed the artifact content equals the issue-body content exactly. Recomputed SHA-256 matches eb12aa65a108c392fed1fbfdff755c32bac1e9c386119e756e63d0c323ca2042. Final publication status: PUBLISHED_VERIFIED. No duplicate issue or direct Contents bypass.
+- Final automation peek for the same run ID 6d469efb-ff48-8322-bb0c-717d748ee8a4 reports recorded_status=failed, completed_at=2026-11-12T19:01:41.402224Z, chat_ref=null. The cause is not exposed. The latest_result still belongs to earlier run 290a9408-549c-832e-9236-5710bd38aca4, not this run. Preserve the distinction; do not infer restart or thread identity.
+- Research, receipt and publisher work were completed despite the automation run's failed status. Existing automation remains enabled and unchanged; no task ID, schedule, phase, prompt, cadence or enabled-state change, and no sixth task.
+- Canonical receipt updated to PUBLISHED_VERIFIED: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1800Z_s0_mercer.md. Repository-only optional handoff updated: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1853Z_from_s0_to_s1_ravel.md. No direct Ravel thread delivery is claimed.
