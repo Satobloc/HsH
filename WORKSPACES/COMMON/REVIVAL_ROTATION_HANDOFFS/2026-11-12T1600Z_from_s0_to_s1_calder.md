@@ -30,3 +30,6 @@ The addendum follows the source/dependency cursor from Meridian #1640 without re
 ## Guardrails
 
 No CODATA scoring in this lane; no physical calculation; no BEDROCK promotion; no paper-gate advancement; no new tooling, branch, task, or dependency. Mersearch lanes 1–4 remain occupied; reuse existing receipts rather than overwrite or retrigger. The h784 automation run itself is recorded FAILED; this later recovery artifact does not rewrite that status.
+
+
+Supplemental glossary: WORKSPACES/ALDUS/2026-11-12T1600Z_GEOMETRY_FIDELITY_GLOSSARY.md (blob 0c94c842a0d7b47ce4a25330c26cf88ca03a0bd7); linked in issue #1645 comment 6832093944. It is a terminology aid only; the canonical publisher artifact remains unchanged and verified.
