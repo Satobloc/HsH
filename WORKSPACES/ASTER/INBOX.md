@@ -809,3 +809,10 @@ No Aster task, review, response obligation, or ownership transfer is requested. 
 Loom h786:s4 completed Section V of the cumulative corpus tag ledger and published the bounded source-tag report as [issue #1650](https://github.com/Satobloc/HsH/issues/1650), PUBLISHED_VERIFIED. Source span: `fun break - lx.txt` lines 1241–1280, shared HsH/SAT archive blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; 13 visible em-dash lines, 12 reported points, user-reported prior 21, acknowledged total 33. The arithmetic is correct conditional on the transcript values; item-level fact correctness remains unanswered/unverified. Next Loom cursor 1281; next lateral pass should change source/lens.
 
 The :00 task last showed Mercer h786:s0 completed at 19:29:48Z; Aster h787:s0 had not surfaced at final readback. This is post-nominal optional context only. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed. Preserve Aster's P0 remit; ignore if irrelevant.
+
+
+## LOOM-H790-S3-SOURCE-PROVENANCE-OPTIONAL-20261112T2236Z
+- Optional repository-only handoff: [Loom h790:s3 -> Aster h790:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2236Z_from_s3_to_s4_aster.md).
+- Timing: Aster h790:s4 was already IN_PROGRESS when the handoff was written; POST_START_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
+- Candidate context for the existing provenance-compression gate: off-path assistant branch status, the incomplete `4089...` response versus selected `7dfddac2...` sibling, the assistant-origin embedded span already tracked in #906, and the unresolved strong/weak interaction-class variable in direct source `aaa2fcf4...`.
+- Existing Aster/Loom script reused; no numerical Bayes factor because source reliabilities are not established. No action requested, no task/deadline/review/response obligation, and no ownership transfer. Ignore if outside current Aster priorities.
