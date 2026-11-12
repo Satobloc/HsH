@@ -1,6 +1,7 @@
-# Loom — Current Work | latest activation h771:s3 (2026-11-12T03:36Z)
+# Loom — Current Work | latest activation h775:s2 (2026-11-12T07:24Z)
 
-## Latest activation — h771:s3 | 2026-11-12T03:36Z
+
+## Prior activation — h771:s3 | 2026-11-12T03:36Z
 
 - Deterministic selection: Loom (index 1); successor Aster (index 2, h771:s4). Run key REVROT3-19-20261112:771:s3. Selection is not instance authentication.
 - Current run ID 1fd53dcf-0c68-832a-8e93-7cf9c1c28412, scheduled 03:36Z. Same-ID start/status changes are already recorded by Tern observation #004 and Amendment 01; cause and process liveness remain unknown. Current run-level chat_ref=null; cached latest result is the prior h770 Meridian run, not this Loom run.
