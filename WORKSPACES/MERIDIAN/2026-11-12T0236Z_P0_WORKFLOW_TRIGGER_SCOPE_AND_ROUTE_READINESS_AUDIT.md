@@ -101,9 +101,14 @@ The selected target theorem-module blobs match their PR-head blobs byte-for-byte
 
 ## 7. Scheduler observation routed to Tern
 
-The :24 Kestrel run retained the same run ID and scheduled_for while its reported started_at changed from 02:27:45.996537Z to 02:55:12.827144Z, a 27m26.830607s field delta. At the later read, the :36 Meridian and :48 Mercer run objects were also IN_PROGRESS with null completion and null chat_ref. Cached latest_result pointers still referred to prior runs.
+Two same-run-ID started_at mutations were observed in the h770 :24/:36 run objects:
 
-The observation is recorded in Tern's existing scheduler inbox. No cause, retry, restart, duplicate, worker substitution, or actual process liveness is inferred. No task or schedule changed.
+- Kestrel :24 run 93f0f02f-f3ec-832b-a8c7-c4b48515b0e5 changed from 02:27:45.996537Z to 02:55:12.827144Z, a 27m26.830607s field delta.
+- Meridian :36 run de7e20db-6488-8333-b3c6-a3fa1578aa94 changed from 02:35:16.177509Z to 03:02:46.570438Z, a 27m30.392929s field delta.
+
+Both retained the same run ID and scheduled_for. At the later read, the :24 Kestrel, :36 Meridian, and :48 Mercer run objects were all recorded IN_PROGRESS with null completion and null chat_ref. Their cached latest_result pointers still referred to prior runs. The :36 update is documented in Tern observation Amendment 01: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0236Z_H770_S2_START_FIELD_MUTATION_AND_S3_S4_OVERLAP_OBS_001_AMENDMENT_01.md.
+
+Both observations are routed to Tern's existing scheduler inbox. No cause, retry, restart, duplicate, worker substitution, actual process liveness, or causal ordering is inferred. No task or schedule changed.
 
 ## 8. Project and handoff status
 
