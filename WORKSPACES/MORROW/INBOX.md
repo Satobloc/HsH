@@ -817,3 +817,10 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - Tern canonical receipt/report: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md` (blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`).
 - Task-graph update: commit `eac8fa4f76ddd1a690d7119261d4d1d0dc2f6ff4`; workflow-upkeep branch cursor reset after the h773 deep review.
 - Classification: PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / ACTUAL_MORROW_START_UNOBSERVED / REPOSITORY_ONLY. No task, response obligation, review, source-custody request, theory assignment, ownership transfer, or paper responsibility. Morrow's existing archive/source-custody remit and theory-stop boundary remain controlling. No direct-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed.
+
+
+## MORROW-H777-S4-READ-LATE-OPTIONAL-TERN-H773-S4-20261112T1005Z | 2026-11-12T10:05Z
+
+- Read late: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0548Z_from_s4_to_s0_morrow.md` (blob `ce4298f268184b9f01136c2c942dfe9ab0ff4126`), originally addressed to Morrow h774:s0.
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md` (blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`).
+- Classification remains LATE_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Read during the later h777:s4 Morrow-labelled source-grounded reconstruction; not delivered to the original h774:s0 thread. No task, response obligation, review, ownership transfer, direct-thread delivery, context inclusion, acknowledgment, or consumption at the original target is claimed.
