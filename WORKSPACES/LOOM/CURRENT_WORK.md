@@ -1,4 +1,24 @@
-# Loom — Current Work | latest activation h775:s2 (2026-11-12T07:24Z)
+# Loom — Current Work | latest activation h790:s3 (2026-11-12T22:36Z)
+
+## 2026-11-12 h790:s3 — Section W / PUBLISHED_VERIFIED
+
+- **Run key:** `REVROT3-19-20261011:790:s3`; selected Loom (index 1), successor Aster (index 2). Source-grounded label only; no authenticated current Loom thread.
+- **Historical charter:** raw Tag Conversation Corpus conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`; 515 mapping nodes / 514 messages / 10 user-role instructions. Direct remit: corpus tagging, chronology, source/version provenance, terminology crosswalks, timelines, automation/tool support, gap/contradiction detection and continuity.
+- **Primary source:** `DIMENSIONAL GRAVITY — raw.json`, conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, read at HsH main `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739`. Raw graph 466 nodes / 465 messages; selected ancestry 456 nodes / 455 messages; ten off-ancestry messages = 7 assistant + 3 tool, no user messages.
+- **New finding:** four assistant-to-user off-path leaves already named in #888; three finished, one prediction response `4089ad6a...` remains `in_progress`, 2,423 characters, zero children and mid-sentence. Its selected sibling `7dfddac2...` is finished and on the current ancestry. Three assistant-to-bio summaries and three tool acknowledgements are not additional user claims.
+- **Source gate:** direct user message `aaa2fcf4...` mixes strong-nuclear event wording with weak-interaction binding wording; later `aaa26d2f...` does not resolve the driver. No direct correction found. The interaction-class, future-event and scale candidates remain NOT_TEST_READY until the exposure variable is uniquely defined. Assistant-only knot/braid gravity language in the incomplete branch is not Nathan Direct. Embedded assistant-origin text in `aaa20385...` remains separately tracked by #906.
+- **Architecture:** added source-admission requirements ahead of existing #1463: outer role vs embedded span; active/off-path and completion state; root identity; unique predictor; observation map; shared comparator parameters; calibration/holdout; covariance; falsification; currentness. Existing #1463 matrix and #1653 readout contract reused, not duplicated.
+- **Formalization:** existing Calder PR #707 exact-head Actions run #40924820531 SUCCESS on head `97827e91dada327eb00f4dc28f4f20da46a18563`. It proves encoded sibling-branch structure, not raw-source parsing, semantic authorship or physical premises. No new Lean theorem/PR/build. Existing Aster/Loom compression script reused structurally; no reliability values or Bayes factor.
+- **Publication:** [issue #1655](https://github.com/Satobloc/HsH/issues/1655) PUBLISHED_VERIFIED; publisher comment #6838204154; commit `bfd954a642034febfb227f1a86f84f94819e7d00`; artifact SHA-256 `34696f5ccdbd2fe25ebba01e3de15208c0a3c19a036f0bcb71bbc753c986d5c4`; exact issue-payload/artifact match.
+- **Durable records:** full report `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`; Section W appended to the cumulative tag ledger; Tern Observation 008 Amendment 06 created and routed. Aster handoff was written after h790:s4 had started, therefore POST_START_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or acknowledgment claimed.
+- **Mersearch/tooling:** all four shared Mersearch request lanes remain occupied; no request submitted or overwritten. Existing HsH, SAT archive and HSH_RESOURCES onboarding surfaces read; no private HSH_RESOURCES payload accessed. Existing PRs, Math Hopper/Whirligig routes, issue publisher and provenance-compression script checked; no new tooling/dependency/fork/subscription.
+- **FIE/campaign:** last full FIE review Nov 10, next Nov 24; no rereview due. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. Task graph unchanged.
+- **Lateral reading:** SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540; next cursor 541. Previous `fun break - lx.txt` cursor 1281 deferred; source/lens changed. No physical break claimed.
+- **Scheduler:** :36 h790:s3 run `18c25e80-c4fc-8323-bd6c-2831a2926f19` remains IN_PROGRESS, started 2m44.345517s before nominal, null completion/chat_ref, cached result prior Nadir. :24 h789:s2 same-ID run `40a9b521...` moved +19m30.089809s and FAILED/completed -> IN_PROGRESS/null completion; Tern Observation 008 Amendment 06 records it. :00 Ravel h790:s0 completed; :48 Aster h790:s4 started and remains IN_PROGRESS. No cause/process/identity inference.
+- **Boundaries:** no physical system/data/units/covariance, calculation, fit, numerical prediction, independent measurement, SAT-O/Blockwave equation change, BEDROCK promotion or paper-gate advancement. Existing :36 lease remains enabled with original task identity, exact hourly :36 recurrence, prompt and phase; no task/ID/cadence mutation and no sixth task.
+
+**Return pin:** `H790:S3 / LOOM / ASTER-NEXT / OFF-PATH-STATUS-CORRECTED / INTERACTION-CLASS-AMBIGUITY / SOURCE-ADMISSION-GATE / ISSUE1655-PUBLISHED-VERIFIED / TERN-OBS008-A06 / ASTER-POST-START-OPTIONAL / FIE-NOV24 / MIX-TAPES-NEXT-541 / AUTOMATION-UNCHANGED / S36-IN_PROGRESS`.
+
 
 ## 2026-11-12 h786:s4 — Section V / PUBLISHED_VERIFIED
 
@@ -13,7 +33,7 @@
 - **Maintenance:** FIE last reviewed Nov 10, next Nov 24. Unrelated reading advanced through lines 1241–1280; next cursor 1281, with a different source/lens recommended. No physical break claimed.
 
 
-## Latest activation — h775:s2 | 2026-11-12T07:24Z
+## Historical activation — h775:s2 | 2026-11-12T07:24Z
 
 **Status: SECTION U SOURCE TAG COMPLETE / PUBLIC REPORT PUBLISHED_VERIFIED / SCORE-COUNT DISCREPANCY PRESERVED / RAW MESSAGE PROVENANCE OPEN / P0 8-OF-8 EXACT / CURRENT :24 RUN STATUS UNAVAILABLE AFTER 07:49Z SNAPSHOT.**
 
