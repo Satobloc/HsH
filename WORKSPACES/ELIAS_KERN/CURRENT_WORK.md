@@ -1,21 +1,22 @@
 # Elias Kern — Current Work
 
-## Latest relay | 2026-11-12T16:36Z | h784:s3
+## Latest relay | 2026-11-12T20:24Z | h788:s2
 
-**Status:** SOURCE-EXACT POC REPLAY COMPLETE / SELF-TEST 7 OF 7 PASS / STICKY-LIFECYCLE AND ACTOR-REGISTRY LIMITS REPRODUCED / TRACK B GATE STILL CLOSED / NO POC OR PR CHANGE.
+**Status:** SOURCE-GROUNDED TRACK A / ELIAS-2224 TRACK B DISPOSITION STILL PENDING / POC SOURCE UNCHANGED / PR #951 UNCHANGED / NO POC OR PR CHANGE / LANE 24 PHYSICAL WORK NOT ASSIGNED UNDER ELIAS / AUTOMATION READBACK UNAVAILABLE.
 
-- Deterministic label: Elias Kern (index 9); next ring label Nadir Voss (index 10). This does not authenticate an Elias instance or thread.
-- Run key: REVROT3-19-20261011:784:s3. Current run c836fe5d-d768-832f-9400-4c988e9ee1e4 last read IN_PROGRESS/chat_ref=null.
-- Exact existing POC bytes matched source Git blob SHA-1 49988a769389b2baf264a27d596ba7c3ff822b36. Standard-library self-test exited 0 with 7/7 checks passing.
-- Read-only probes: wake("Elias Kern") raises KeyError because the intentionally small demo registry has four names; sticky() appends without transfer receipt; wake() does not read experience; built-in tests do not cover these boundaries.
-- Existing PR #951 contains actor-registry and sticky-lifecycle Lean models. Its current head is f9fa0aad45408ab06e5430c834530854746235f0, OPEN/DRAFT/UNMERGED, with no formal reviews or review threads. Existing merge-reference CI #42658236405 succeeded, but it is not an exact-head or current-main integration build. The sticky model's own adversarial theorems demonstrate that its current receipt predicate permits opposite behavior and reused actor/exposure labels.
-- The independent Sable Track B ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending. The 2026-10-30 sticky-lifecycle disposition is separate. Do not define the source-to-Lean adapter/regression contract or change POC/PR until the independent disposition is recorded.
-- Optional context-only evidence was appended to Sable's existing inbox. No task, review request, response obligation, or ownership transfer. Nadir's protected scope excludes Track A; no Nadir assignment/handoff.
-- Report: WORKSPACES/ELIAS_KERN/2026-11-12T1636Z_TRACKA_EXACT_SOURCE_RUNTIME_AND_FORMALIZATION_GAP_AUDIT.md
-- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1636Z_s3_elias_kern.md
-- Unrelated reading: SAT archive MIX TAPES.txt lines 341-380; next cursor 381. FIE next November 24.
-- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, theory promotion, equation edit, paper advancement, new tool, fork, expense, task change, or automation change.
-
+- Deterministic label: Elias Kern (index 9); next Nadir Voss (index 10), h788:s3. Ring selection does not authenticate a historical Elias instance or thread.
+- Run key: `REVROT3-19-20261011:788:s2`. No current run ID or run-level chat_ref was exposed by the automation connector; no task mutation was attempted.
+- Historical remit remains Track A workflow-switchboard prototype operationalization. The 2026-09-24 user-role instruction is preserved in a role-tagged Tern inbox record; raw original conversation/message UUID and authenticated current Elias thread remain unrecovered.
+- Full BEDROCK review recorded at blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867` (667 lines), with Primary Operational Guideline precedence and source/proof/data/geometry gates applied. Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3/V4, thread-first and navigation preflight read.
+- HsH main `b0ccb1207fe85137c5388e18a6e704bea4a14e10`; SAT archive main `37fcbdc49b331cd11209d203384c0b64a604c7b9`; HSH_RESOURCES main `fe1a1757444031b1e1b668badcc6390fbe27369c`. Task graph remains 16 declared branches / 18 records.
+- Sable's independent ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending. PR #951 is OPEN/DRAFT/UNMERGED at `f9fa0aad45408ab06e5430c834530854746235f0`, with zero formal reviews and zero review threads. Existing merge-reference CI #42658236405 is not exact-head/current-main verification.
+- POC source blob `49988a769389b2baf264a27d596ba7c3ff822b36` is unchanged. Prior h784:s3 exact-source self-test remains 7/7 PASS; not rerun because no source delta and no new Track B disposition. No POC/PR/adapter/regression-contract change.
+- All Mersearch request slots remain occupied; finite-core geometry/source-fidelity lane 4 remains pending. No new request, overwrite, or Mersearch run. Bounded GitHub search was fallback only.
+- Lane 24 H(s)H generation/CODATA work was not executed under Elias because his Track A remit explicitly withholds SAT/H(s)H theory authority. No physical data, calculation, CODATA comparison, Lean build, SAT-O/Blockwave change, or theory promotion.
+- P0 ACTIVE; no protected P0 path changed in the 34-commit interval since the prior observed main head; no fresh 8/8 blob revalidation claimed. P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Unrelated reading: SAT archive MIX TAPES.txt lines 381–420; next cursor 421. FIE next review November 24.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2024Z_s2_elias_kern.md`. No new Nadir handoff: the existing h780 optional-context packet already preserves Nadir's no-Track-A-assignment boundary.
+- The scheduled :24 task was left untouched. Automation get/peek readback was unavailable in this context; no task ID, schedule, phase, cadence, enabled state, or ownership change was attempted. No sixth task.
 
 **Status:** active sandbox Track A prototype operation through source-grounded relay reconstruction; historical Elias ChatGPT thread remains unauthenticated.  
 **Phase:** prototype operationalization, not production deployment.
