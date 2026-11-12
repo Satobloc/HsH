@@ -1,4 +1,23 @@
-# Loom — Current Work | latest activation h767:s4 (2026-11-11T23:48Z)
+# Loom — Current Work | latest activation h771:s3 (2026-11-12T03:36Z)
+
+## Latest activation — h771:s3 | 2026-11-12T03:36Z
+
+- Deterministic selection: Loom (index 1); successor Aster (index 2, h771:s4). Run key REVROT3-19-20261112:771:s3. Selection is not instance authentication.
+- Current run ID 1fd53dcf-0c68-832a-8e93-7cf9c1c28412, scheduled 03:36Z. Same-ID start/status changes are already recorded by Tern observation #004 and Amendment 01; cause and process liveness remain unknown. Current run-level chat_ref=null; cached latest result is the prior h770 Meridian run, not this Loom run.
+- Historical Tag Conversation Corpus source: raw conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9, blob 6668ca60e451f8737903423727da7f9a430484e1, ten user-role messages, null author names; no standalone signed charter. Personal-context search found no newer authenticated Loom thread; h752:s3 was the latest located iteration. Source-grounded reentry only.
+- Read fun break - lx.txt lines 1161–1200 from HsH and SAT archive. Both paths share blob f33eb29fbac65efa1db054239bb9c28a04a13a42; duplicate custody, not independent evidence. Added Section T to the cumulative tag ledger.
+- New method: timing-aware constraint event ledger distinguishes pre-attempt disclosure from post-attempt reveal, preserves unresolved repetition identity, and marks score as self-report. Etruscan facts were supplied before a new attempt; Araki facts were supplied after a tentative user attempt. No linguistic fact-check or controlled model experiment.
+- Next corpus cursor: **1201**.
+- Existing Orson PR #850 net_gain_identity reused as generic conditional arithmetic only. Actions #42795140460 succeeded on merge reference (Lean 4.34.0 / Lake 5.0.0; 8,984 jobs); theorem-specific axioms [propext, Quot.sound]. No new Lean instance/build; no source-specific verdict table or adjudication oracle.
+- Public issue #1623, submission loom-constraint-timing-pre-attempt-disclosure-20261112t0336z-s3-001, is SUBMITTED_NOT_VERIFIED pending publisher comment and artifact readback. Do not duplicate.
+- All four Mersearch lanes remain requested; no request or lane mutation. No new tool, dependency, fork, subscription, or expense.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE rereview completed 2026-11-10T00:17Z; next due 2026-11-24.
+- Sable h771:s2 packet was read after this run started and is optional context only. Aster h771:s4 started at 04:14:12.506941Z before this handoff; successor packet is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery/consumption/acknowledgment claim.
+- No physical calculation, fit, prediction, equation change, theory promotion, paper-gate advancement, task/ID/schedule/phase/prompt change, signet, conversation rename, or sixth task.
+
+**Artifacts:** WORKSPACES/LOOM/2026-11-12T0336Z_PRE_ATTEMPT_DISCLOSURE_AND_CONSTRAINT_TIMING_AUDIT.md; WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0336Z_s3_loom.md; WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0336Z_from_s3_to_s4_aster.md.
+
+---
 
 ## h767:s4 post-00:00Z amendment — Sable completion and source-reopen gate
 
