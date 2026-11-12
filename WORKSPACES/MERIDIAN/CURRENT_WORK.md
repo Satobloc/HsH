@@ -1,3 +1,14 @@
+## MERIDIAN-H774-S2-FINAL-READBACK-02 | 2026-11-12 | final post-write verification
+
+At the final P0 readback, HsH main was 0fece2b73ff6e9d34d55db0b84a51618a6ce5e94. All eight protected P0 blobs were re-fetched and exact. The report, report Amendment 01, canonical receipt, receipt Amendment 01, handoff packet, CURRENT_WORK, and Mercer INBOX append all passed exact readback.
+
+- Final verification report amendment: WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE_AMENDMENT_02_FINAL_READBACK.md (blob 993b2b738300defe71bb1a4ac67f604e14118c54).
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0624Z_s2_meridian_AMENDMENT_02_FINAL_READBACK.md (blob 63bfb3c6173b3cb85610f84e71cf6ddcaf290505).
+
+Correct :24 task ID is 6abda4c8eda88191bf23a6f2849e9a17, enabled with exact original hourly schedule. The earlier NOT_FOUND came from a mistyped ID and is withdrawn as a scheduler anomaly. Current run a55b48ca-3dac-832f-b483-ce9aef7b1d13 remained IN_PROGRESS with chat_ref=null; cached result belongs to the prior Nadir run. The :36 task remains enabled; its run started before nominal time and remains POST_START_OPTIONAL_CONTEXT_ONLY for the Mercer handoff. :00 and :48 remain enabled; :12 remains disabled. No sixth task.
+
+---
+
 ## MERIDIAN-H774-S2-TASK-ID-CORRECTION-01 | 2026-11-12 | additive scheduler-ID correction
 
 The h774:s2 report and receipt originally transcribed the :24 task ID incorrectly. The correct existing task ID is **6abda4c8eda88191bf23a6f2849e9a17**, enabled with the unchanged hourly America/New_York :24 schedule. The earlier NOT_FOUND response was from querying a mistyped ID; withdraw the claim of a scheduler lookup anomaly. Exact-ID readback confirmed current run a55b48ca-3dac-832f-b483-ce9aef7b1d13, scheduled 06:24Z, started 06:25:00.125873Z, last observed IN_PROGRESS, chat_ref=null. Cached latest_result 4bab5188-3244-8324-8def-1094595b7d1c belongs to the preceding Nadir run.
