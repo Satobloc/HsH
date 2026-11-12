@@ -78,4 +78,41 @@ theorem source_attestation_does_not_determine_context_exposure
 
 #print axioms source_attestation_does_not_determine_context_exposure
 
+/--
+Stronger same-run refinement: the two snapshots share one run identifier
+and the same source attestation, but have distinct snapshot identifiers and
+different source-inclusion states.
+
+This is a countermodel to determination by the source attestation even when
+run identity is held fixed. It relies on the present abstract ContextSnapshot
+type permitting distinct snapshots for one run; it does not establish that
+any actual execution generated both snapshots or that a historical context
+contained the source.
+-/
+theorem source_attestation_does_not_determine_context_exposure_within_same_run
+    {Source Digest Locator Role Timestamp Parent ReadExtent Run SnapshotId : Type}
+    (source : Source) (digest : Digest) (locator : Locator) (role : Role)
+    (timestamp : Timestamp) (parent : Parent) (readExtent : ReadExtent)
+    (run : Run) (snapshotWith snapshotWithout : SnapshotId)
+    (hSnapshots : snapshotWith ≠ snapshotWithout) :
+    ∃ a : SourceAttestation Source Digest Locator Role Timestamp Parent ReadExtent,
+      ∃ cWith cWithout : ContextSnapshot Source Run SnapshotId,
+        cWith.runId = run ∧
+        cWithout.runId = run ∧
+        cWith.snapshotId = snapshotWith ∧
+        cWithout.snapshotId = snapshotWithout ∧
+        cWith.snapshotId ≠ cWithout.snapshotId ∧
+        exposedIn a cWith ∧ ¬ exposedIn a cWithout := by
+  let a : SourceAttestation Source Digest Locator Role Timestamp Parent ReadExtent :=
+    ⟨source, digest, locator, role, timestamp, parent, readExtent⟩
+  let cWith : ContextSnapshot Source Run SnapshotId :=
+    ⟨run, snapshotWith, {source}⟩
+  let cWithout : ContextSnapshot Source Run SnapshotId :=
+    ⟨run, snapshotWithout, ∅⟩
+  refine ⟨a, cWith, cWithout, rfl, rfl, rfl, rfl, hSnapshots, ?_, ?_⟩
+  · simp [exposedIn, a, cWith]
+  · simp [exposedIn, a, cWithout]
+
+#print axioms source_attestation_does_not_determine_context_exposure_within_same_run
+
 end HsHVerification.EnheduannaSourceExposure
