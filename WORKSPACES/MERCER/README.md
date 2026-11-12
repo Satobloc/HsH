@@ -1,3 +1,23 @@
+# MERCER-H789-S4-CURRENT-POINTER-20261112T2234Z
+
+**Current relay:** h789:s4, 2026-11-12T21:48Z. Existing report and canonical receipt remain authoritative, with [report Amendment 02](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC_AMENDMENT_02_2234Z_SAME_ID_START_MUTATION_AND_SLOT_INDEX_CORRECTION.md) and [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer_AMENDMENT_03_2234Z_FINAL_READBACK_AND_SLOT_INDEX_CORRECTION.md).
+
+**Current execution:** same run ID `1c05dbfe-9630-8329-a9f1-15dee095aa1e`; latest exact-ID start field 22:34:10.601331Z versus prior 21:47:24.414373Z (+46m46.186958s). IN_PROGRESS, completion null, run-level chat_ref null. Cached result remains prior Enheduanna h788:s4 and is not attributed to this run.
+
+**Current assignment:** Code Grurple P0 Paper A+B presentation QA only; Review-MIND bounded reader/source QC. No manuscript rewrite, P1 ownership, P0 standdown, theory assignment, or route probe.
+
+**P0:** all eight protected blobs were re-fetched at main `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739` and remain exact; no protected P0 path changed in the 33-commit delta since the prior h789 report. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+
+**Scheduler correction:** :24 scheduled 21:24Z is h789:s2, expected Kestrel index14, not Morrow h789:s1. The :00 Ravel and :48 Mercer same-ID start fields moved; the Ravel handoff timing is now ambiguous. See [Tern Observation 008 Amendment 05](../TERN/OBSERVATIONS/2026-11-12T2234Z_H789_H790_FOUR_LEASE_RUN_MUTATION_AND_SLOT_INDEX_CORRECTION_OBS_008_AMENDMENT_05.md) and [Ravel handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL_AMENDMENT_01_2234Z_SAME_ID_START_FIELD_MUTATION.md).
+
+**Successor:** Ravel h790:s0. Existing repository handoff and Ravel inbox pointer remain; timing is AMBIGUOUS_SAME_ID_START_MUTATION, with no direct thread delivery or consumption claim.
+
+The prior h789:s4 pointer below is preserved as a historical snapshot.
+
+
+
+---
+
 # MERCER-H789-S4-CURRENT-POINTER-20261112T2148Z
 
 **Current relay:** h789:s4, 2026-11-12T21:48Z. [Current Review-MIND/P0 reader evidence-chain report](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer.md).
