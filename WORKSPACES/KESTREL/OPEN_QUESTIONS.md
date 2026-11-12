@@ -220,3 +220,28 @@ Public overlap check: existing issues #1158, #1191, #1266, #801 and #1037 alread
 8. What Lorentzian metric, time orientation, and explicit timelike curve family would make the proposed CTCs physical? What map connects the particle-side ring to the black-hole-side perpendicular disk?
 
 **Current formal status:** product-torus meridian/parallel intersection is Lean-checked in Kestrel PR #873; transverse slice dimensions are formalized in `KestrelIntersectionDimensionGate`; no physical premise or source-to-math translation is thereby proved. Issue #1636 is a single rejected publication attempt (missing required `schema` key); do not retry or duplicate. Full report: `WORKSPACES/KESTREL/2026-11-12T1000Z_4D_FILAMENT_TORUS_LINK_FIDELITY.md`.
+
+
+## 2026-11-12 Review-MIND: continuity, dependence, and readout
+
+The h781:s4 crosswalk reuses four existing strands rather than creating a parallel schema:
+- Sable's nine typed continuity channels (role source, selection, lease, configured container, run reference, message exposure, durable work, capability/access, authenticated subject/instance).
+- Elias h780:s4 Amendment 01's seven-axis bookkeeping vector I=(G,P,R,M,S,X,E).
+- Enheduanna h731:s4's finer candidate source-dependence profile (source corpus, prompt/context, retrieval/cache, memory, model/version, evaluator, orchestration/peer communication, human intervention, time/replication).
+- Ariadne's two orthogonal gates: evidence lineage/independence and readout identifiability.
+
+### Questions to keep live
+
+1. For each claim, what is the actual unit: source artifact, acquisition, run, participant, session/group, event/system, evaluator, or independent replication?
+2. Which of the nine continuity channels are evidenced for a particular run, and which remain UNKNOWN? In particular, what message/version was actually included in the run's context, and what source proves it?
+3. Which dependence dimensions are shared between two outputs: corpus, prompt/context, retrieval/cache, memory, model/version, orchestration, human intervention, timing, evaluator, group/session?
+4. What is the explicit full-history-to-log projection? Which target property is supposed to survive it? Does the target remain constant on every fiber of that projection?
+5. For nested groups, where are the actual projection/composition maps from individual trace to interaction graph to group summary to human decision? Which edges (message exposure, feedback, revision, intervention) are lost at each stage?
+6. How can we distinguish graph expansion inside one conversation from independent replication? Morrow's 232-edge snapshot delta is a useful example: 231 edges belong to newly added parents, not 231 independent witnesses.
+7. Which independent evaluator and external correctness criterion would disconfirm apparent consensus rather than merely re-score the same embedding or shared source?
+
+### Current evidence boundary
+
+The 13:54Z four-lease snapshot has four distinct task IDs/configured containers, two completed current runs with run-level references matching their configured containers, one failed run with null reference, and one current Kestrel run in progress with null reference. Message-level exposure, model/version identity and process/state isolation remain unobserved. This is a scheduler snapshot, not a human/LLM group experiment or evidence of four independent agents.
+
+Orson's P1 remains frozen and solely Orson-owned. No new model or human trial is authorized by this note. P0 remains first. The nine-channel schema remains LEAN_NOT_RUN / SPECIFICATION_ONLY; the existing Orson PR #1115 build verifies its formalized component claims but does not instantiate the complete source-to-context graph.
