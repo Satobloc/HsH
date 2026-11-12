@@ -623,3 +623,38 @@ Direct user-role `aaa2088c-598d-40b5-a836-8601319b71e0` adds scale/event compari
 **Tags:** `RAW-DIRECT`; `ASSISTANT-OFF-PATH`; `ASSISTANT-INCOMPLETE`; `ASSISTANT-TO-BIO`; `OFF-ANCESTRY`; `SELECTED-SIBLING`; `EMBEDDED-AUTHORSHIP`; `ROOT-PRESERVATION`; `INTERACTION-CLASS-AMBIGUITY`; `PREDICTOR-NOT-IDENTIFIED`; `NOT-TEST-READY`; `HISTORICAL-EARLY-SAT`; `NOT-CURRENT-BEDROCK`; `NO-PHYSICAL-DATA`; `NO-THEORY-PROMOTION`.
 
 **No duplicate direct user tags:** the user-role spans cited above are already present in the existing ledger/verified batches or prior issue lineage; this section adds assistant-branch status and the unresolved predictor ambiguity only.
+
+
+## Section X — 2026 SAT variant/source epoch and worldtube type crosswalk (2026-11-12, h790:s3 Amendment 01)
+
+**Purpose:** correct the compressed historical-theory sentence in Section W and add the later direct 2026 geometry source. This is additive source tagging, not a new theory claim.
+
+### X.1 Source relationship correction
+
+The 2026-06-01 user-role message de5227a7-022f-495e-9682-1cb16a7461b1 (conversation 252d05c0-22ed-4ea2-a474-7966ab13145a, raw blob 2cea1924266418e19b825b95ae51e6b7cbace7e1) replies to assistant message f7359f9a-bbda-4ed1-b54d-4e7b4596ccc1, which had called Scalar-Angular-Torsion SAT and Stringing Along Theory SAT different frameworks. The user says: "That's our theory today. Well… one of the countless variations." This corrects the assistant's unrelated-framework framing and supports a broad family/variant relationship. It does not authenticate the following assistant's detailed descendant narrative or establish a mathematical genealogy. Correct tag: USER-CONFIRMED-FAMILY-VARIANT-RELATION / DETAILED-MAP-UNRESOLVED.
+
+### X.2 Direct 2026-11-08 source messages
+
+Raw Library export: ND Workshop Relay _24 _ Geometry - raw(1).json; conversation 6aecede1-4c08-83e9-abc4-da64f59a4f51; 8,331,175 bytes; created 2026-11-08T21:12:02Z; 110,406 lines.
+
+- bcbe9ee8-b621-4a40-9edb-b34c17783be5, 18:05:28.410Z: working hypothesis of a 4D tube region around a 1D core, 3D boundary, possible mouth, and possible 2D worldsheet simplification.
+- f9356192-0ec6-4a9c-ab53-ab76bf75c42e, 18:36:17.730Z: pants is a special split case; Alexander's Horned Sphere is a candidate split/merge model; worldsheet may be a simplification; asks for topology, normal bundle, boundary, mouth, cobordism and worldsheet-emergence maps.
+- 6db8c5e8-a2db-4621-922e-adab214e025e, 18:58:38.020Z: theta_4 is called foundational to vacuum/matter distinction; classical timesheet and standard spacetime may differ.
+- c0520975-02a0-408f-a250-364b88ab7b30, 20:18:10.172Z: prefers a 4D universe; 1D line information-capacity argument is a hypothesis, not a proof; Klein Fabric is tentative; w/time-proper relation remains unresolved.
+
+### X.3 Historical equation/source pins
+
+- June-2025 SAT4D_LIVE_DRAFT.txt, byline Nathan McKnight, explicitly a draft/development bible/theory to be redeveloped; blob 2a79fe25018cce7e99a2c33786d88b0551db6ae7. It defines a 1D gamma : R -> R^{3,1} and a worldtube as the 4D volume swept by a vibrating filament. The verbatim gamma/tangent/action/Lagrangian excerpt is preserved in Loom's h790:s3 Amendment 01.
+- Unbylined, undated SAT O1 4D.txt, blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc, 75 lines. It contains an overlapping O1 equation block; it is not an independent authorship witness.
+- 2025-09-16 🧱BLOCKWAVE.txt, blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, original-file SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664, 25,255 bytes. Content author unknown; the assistant-like attachment defines a conserved rank-two J2 worldsheet current. Preserve it as assistant/unknown-authorship source, not Nathan Direct.
+- The existing conditional Blockwave correction remains separate in Sable's source audit and PR #1135. No original equation was overwritten and no new corrected equation was generated.
+
+### X.4 Typed map and status tags
+
+The 2026 direct source proposes a 4D tube region, 1D core and 3D boundary, but does not define a normal bundle, radius/profile, boundary regularity, transversality, mouth/gluing map, physical response law or instrument readout. A 2D worldsheet is explicitly a possible simplification, not the general object. Twist, contact surface, Kerr/ER cobordism, Alexander's Horned Sphere and Klein/Cruller topology remain tentative. The theta_4 field is not silently equated with Blockwave compact phase theta.
+
+The conditional section ladder is: full-dimensional W4 with Sigma3 gives a 3D section when nonempty; a regular 3D boundary intersecting Sigma3 transversely gives a 2D section; a 1D core intersects transversely in 0D; a 2D worldsheet intersects transversely in 1D. A 3D mouth requires an explicit gluing map or non-transverse overlap. Existing PR #873 and issue #1409 supply the relevant conditional dimension framework; existing PR #1189 / issue #1653 supply the fiber/readout gate. No new theorem or Lean build is claimed.
+
+**Corrected source boundary:** Section W's no-finite-core conclusion applies to the 2024 source only. It must not be generalized to the later 2026 working hypothesis. The broad user-acknowledged variant relation is recorded, but the exact map between 2024, 2025 and 2026 constructions remains unresolved.
+
+**Tags:** RAW-DIRECT; USER-CONFIRMED-FAMILY-VARIANT-RELATION; DETAILED-GENEALOGY-UNRESOLVED; 2026-WORLDTUBE-WORKING-HYPOTHESIS; 1D-CORE; 3D-BOUNDARY; MOUTH-TENTATIVE; WORLDSHEET-SIMPLIFICATION; THETA4-FOUNDATIONAL; W-TIME-PROPER-UNRESOLVED; KLEIN-FABRIC-TENTATIVE; SAT4D-HISTORICAL-DRAFT; BLOCKWAVE-ASSISTANT-OR-UNKNOWN-AUTHORSHIP; J2-NOT-J3; MAPS-UNDEFINED; NOT-TEST-READY; NO-PHYSICAL-DATA; NO-THEORY-PROMOTION.
