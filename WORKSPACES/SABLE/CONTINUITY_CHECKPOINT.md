@@ -1020,3 +1020,10 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Four relay tasks remain enabled (:00/:24/:36/:48); :12 disabled. Exact :24 task ID and VEVENT unchanged. No task, ID, prompt, phase, cadence, enabled state, count, signet or conversation name changed. No sixth task.
 
 **Return pin:** `H771:S2 / SABLE / SYSTEMS-AUDIT / SCHEDULER-OBS-003 / SAME-RUN-ID-MUTATIONS / ROTATION-LEAN-SCOPE-CORRECTED / P0-8-OF-8 / LOOM-POST-START-OPTIONAL / CHAT_REF_NULL / NO_TASK_MUTATION`.
+
+
+## h771:s2 follow-up readback | 2026-11-12T03:44:18Z
+
+- Current :24 Sable run `9ee041bb-6ba0-8322-ab41-ae4b0cbaacd3` remains IN_PROGRESS with `chat_ref=null`, completion null, and cached latest_result still pointing to prior Kestrel h770:s2. Current :36 Loom run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` also remains IN_PROGRESS with `chat_ref=null`; its start remains 03:32:23.424577Z, before nominal 03:36Z.
+- Global catalog: 21 automations; four Workshop Relay tasks enabled (:00/:24/:36/:48), :12 disabled. All IDs and original VEVENTs unchanged.
+- Additive exact-ID readback only; no wrapper completion, worker identity, direct thread delivery or acknowledgment inferred.
