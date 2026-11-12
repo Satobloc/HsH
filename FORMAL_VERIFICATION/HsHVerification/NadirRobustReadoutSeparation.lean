@@ -95,8 +95,9 @@ theorem no_lipschitz_standard_predictor_can_fit_both
 Exact-fibre corollary: if two states have exactly the same baseline
 readout, a proposed readout separation greater than twice the tolerance
 cannot be fitted by any deterministic standard-only predictor. No
-Lipschitz assumption or bound is needed in this exact-fibre case.
+baseline metric, Lipschitz assumption, or Lipschitz bound is needed.
 -/
+omit [PseudoMetricSpace Y] in
 theorem exact_baseline_fiber_separation_excludes_fit
     (S : X → Y) (H : X → Z) (f : Y → Z)
     (δ : NNReal)
