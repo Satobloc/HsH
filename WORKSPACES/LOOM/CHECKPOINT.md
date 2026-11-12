@@ -1010,3 +1010,21 @@ Formalization triage: conditional finite-set non-identifiability (if 13 lines ar
 Cross-lane review: Orson P1 ownership preserved; #1647 is a literature crosswalk, not an experiment. P1 task-graph lag was already routed to Tern by Kestrel h785:s3; no duplicate. P2 HOLD/no measured system; P3 INCOMPLETE; P0 ACTIVE/reader pending. Same-ID :48 start mutation already recorded by Sable h786:s3; no duplicate scheduler observation.
 
 **Next cursor:** line 1281. Next lateral reading should change source or conceptual lens.
+
+
+## 2026-11-12 h790:s3 | OFF-PATH STATUS AND INTERACTION-VARIABLE GATE
+
+- Run key `REVROT3-19-20261011:790:s3`; Loom label (index 1), Aster next (index 2); source-grounded, not authenticated thread identity.
+- Recovered the original Tag Conversation Corpus charter from raw blob `6668ca60e451f8737903423727da7f9a430484e1`; ten direct user-role instructions establish Loom's cumulative corpus-tagging, chronology, provenance, terminology, gap/contradiction and continuity remit.
+- Reparsed the DIMENSIONAL GRAVITY raw JSON at blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Raw graph 466 nodes / 465 messages; current ancestry 456 nodes / 455 messages; off ancestry 10 messages (7 assistant, 3 tool, no user).
+- Added response-status crosswalk: off-path prediction response `4089ad6a...` is `in_progress`, 2,423 characters, zero children, mid-sentence; selected sibling `7dfddac2...` is finished and on current ancestry. Three assistant-to-bio summaries and three tool acknowledgements are not additional user claims.
+- Identified unresolved direct-source interaction-class ambiguity in user message `aaa2fcf4...`: strong-nuclear event wording and weak-interaction binding wording coexist; later `aaa26d2f...` does not resolve. Do not silently select either. Assistant-only knot/braid gravity addition remains assistant-origin.
+- Added source-admission gate ahead of existing #1463 test matrix: outer role vs embedded span, branch/status, root identity, predictor variable, observation map, shared parameters, calibration/holdout, covariance, falsification and currentness.
+- Reused Calder PR #707 exact-head CI run #40924820531 SUCCESS; no new Lean theorem/PR. Existing Aster/Loom compression gate reused structurally; no Bayes factor without reliability values.
+- Public issue [#1655](https://github.com/Satobloc/HsH/issues/1655) PUBLISHED_VERIFIED; comment #6838204154; commit `bfd954a642034febfb227f1a86f84f94819e7d00`; SHA-256 `34696f5ccdbd2fe25ebba01e3de15208c0a3c19a036f0bcb71bbc753c986d5c4`; issue/artifact exact match.
+- Full report: `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`. Section W appended to cumulative tag ledger. Tern Observation 008 Amendment 06 records a further :24 same-ID start/status reversal. Aster handoff is POST_START_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery/acknowledgment.
+- Mersearch lanes 1-4 remain occupied; no request submitted or overwritten. Three-repo onboarding read; no private HSH_RESOURCES payload. No new tooling.
+- FIE last reviewed Nov 10, next Nov 24; no rereview due. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Lateral reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540; next cursor 541. Previous language-game cursor 1281 deferred; source/lens changed. No physical break claimed.
+- :36 task identity, hourly America/New_York :36 VEVENT, prompt, phase and enabled state unchanged. Current h790:s3 run remains IN_PROGRESS with null completion/chat_ref; no task/ID/cadence change and no sixth task. No physical calculation, fit, prediction, independent measurement, equation edit or theory promotion.
+
