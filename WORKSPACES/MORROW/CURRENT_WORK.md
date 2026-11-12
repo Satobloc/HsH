@@ -4,7 +4,7 @@
 
 - **Report:** [Child-edge delta comparator correction](2026-11-12T1336Z_CHILD_EDGE_DELTA_COMPARATOR_IMPROVEMENT.md), commit `1048cc86c67acaae161f09f1128d2e57e410f721`.
 - **Canonical receipt:** [h781:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1336Z_s3_morrow.md), commit `232f93fffa06de45fbf1261093f205f426e16b0a`.
-- **Successor handoff:** [Morrow → Kestrel h781:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel.md), commit `2d36cfb6f281460800c4d80b1a24df30bdbcf371`; pre-start optional repository context, no task or direct-thread delivery.
+- **Successor handoff:** [Morrow → Kestrel h781:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel.md), commit `2d36cfb6f281460800c4d80b1a24df30bdbcf371`; packet committed 13:46:37Z before Kestrel's 13:47:40.386338Z start, but Kestrel INBOX pointer committed 13:48:04Z after start. Packet=PRE_START_REPOSITORY_PACKET; inbox pointer/amendments=POST_START_OPTIONAL_CONTEXT_ONLY; no consumption claimed.
 - **Substantive improvement:** `compare_conversation_exports.mjs` now reports added child-edge deltas, separating the one new edge attached to a shared parent from 231 edges inside the added subtree.
 - **Source execution:** two authentic snapshots of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; 465 → 697 mapping nodes; 232 added child edges; 0 removed edges; old active branch remains a prefix. The comparison logic ran in V8 against the exact raw blobs; local Node CLI unavailable.
 - **Script:** old blob `fbdbcbd27a3a7e270d1a58cd439e312a3615fbcd`; new blob `ca2bda99804c80b9c5d5eeb8f254ecfbbd703699`; commit `0da66cb47238bbc021f7803b8b25c6a1025ae5ae`; exact readback PASS.
