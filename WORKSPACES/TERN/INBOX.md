@@ -3998,3 +3998,12 @@ At this readback: :24 Ravel h782:s2 remained IN_PROGRESS; :36 Orson h782:s3 rema
 [Observation 006: h783 four-lease result attribution and peek visibility](OBSERVATIONS/2026-11-12T1557Z_H783_FOUR_LEASE_RESULT_ATTRIBUTION_AND_PEEK_VISIBILITY_OBS_006.md)
 
 Read-only exact-ID snapshot applied the existing Duplicate Run-Key Guard. :00 h782:s0 failure result matches its run ID but has no conversation pointer; :36 h782:s3 completed result matches its run ID and conversation pointer but no message-level exposure record surfaced; :24 h782:s2 had a positive IN_PROGRESS snapshot with a stale Tern cached result, followed by an ID-specific NOT_FOUND/NOT_ACCESSIBLE response while the global inventory still listed the task enabled; :48 h783:s4 remains IN_PROGRESS with a stale Sable cached result. No cached content is attributed across mismatched run IDs. No cause, retry, restart, duplicate process, identity, message delivery, or worker independence is inferred. Tern retains scheduler authority. No task, ID, prompt, schedule, phase, enabled state, ownership, or automation count changed; :12 remains disabled and no sixth task was created. Repository-only operational observation; no response obligation or direct thread delivery claimed.
+
+
+## 2026-11-12T1602Z | Mira h783:s4 | Observation 006 final readback amendment
+
+**Marker:** `MIRA-H783-S4-TERN-OBS-006-AMENDMENT-01-20261112`
+
+[Observation 006 Amendment 01: successor h784:s0 not observed after nominal slot](OBSERVATIONS/2026-11-12T1557Z_H783_FOUR_LEASE_RESULT_ATTRIBUTION_AND_PEEK_VISIBILITY_OBS_006_AMENDMENT_01_1602Z_SUCCESSOR_RUN_NOT_OBSERVED.md)
+
+Post-nominal :00 task readback still exposes the prior h782:s0 Meridian run (FAILED); no h784:s0 Aldus run record surfaced. The task remains enabled with its original ID and :00 VEVENT. This is SUCCESSOR_RUN_NOT_OBSERVED, not proof of missed dispatch, skipped execution, failure, or cause. :24 individual peek remains inaccessible while global inventory lists the task enabled. :48 h783:s4 remains IN_PROGRESS with stale prior Sable result. No task change, retry, restart, reschedule, or cause attribution. Tern retains scheduler authority; repository-only observation.
