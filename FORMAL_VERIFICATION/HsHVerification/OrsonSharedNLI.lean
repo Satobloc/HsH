@@ -53,6 +53,53 @@ theorem source_bounds_consistent :
 theorem flagged_position_partition :
     (1541 : Nat) + 2143 + 3018 = 6702 := by norm_num
 
+/-!
+## Truncation-aware checker-call bounds
+
+The pinned evaluator passes each raw answer through a 500-Python-character
+prefix before the shared NLI comparison. The 17 source-locked result files
+show 3,123 possible prior/current comparison slots with at least one
+truncated endpoint. The first-positive loop stops after the first flagged
+comparison, but the archive stores neither the triggering prior index nor
+the judge output. The per-position values below are source-derived lower
+and upper bounds on comparison invocations whose prompt contains at least
+one truncated endpoint; they are not exact API-call counts.
+
+For a flagged row, the unknown trigger can occur at any prior index, so the
+number of truncated comparisons is bounded by the earliest and latest
+possible trigger positions. For an unflagged row, all prior comparisons
+are attempted and the truncated-comparison count is determined by the
+stored raw-response lengths. The finite table was replayed from the exact
+17 result blobs at ConsistencyBench commit
+bfc676baa848c7f1715bb73aee148180de15516e.
+
+Lean checks arithmetic over this source-derived table only. It does not
+authenticate the Python-to-table transcription, recover the missing trigger
+index, validate NLI semantics, or establish causal effects.
+-/
+
+def truncatedComparisonCallBoundsByPosition : List (Nat × Nat) :=
+  [(298, 298), (811, 1162), (931, 1663)]
+
+def minimumTruncatedComparisonCalls : Nat :=
+  (truncatedComparisonCallBoundsByPosition.map (fun p => p.1)).sum
+
+def maximumTruncatedComparisonCalls : Nat :=
+  (truncatedComparisonCallBoundsByPosition.map (fun p => p.2)).sum
+
+theorem truncated_position_table_has_three_positions :
+    truncatedComparisonCallBoundsByPosition.length = 3 := by decide
+
+theorem truncated_comparison_call_bounds :
+    minimumTruncatedComparisonCalls = 2040 ∧
+    maximumTruncatedComparisonCalls = 3123 := by decide
+
+theorem truncated_comparison_calls_within_total_pair_slots :
+    maximumTruncatedComparisonCalls ≤ 28050 := by norm_num [maximumTruncatedComparisonCalls]
+
+#eval minimumTruncatedComparisonCalls
+#eval maximumTruncatedComparisonCalls
+
 #print axioms unflagged_checks_all
 #print axioms flagged_checks_at_least_one
 #print axioms minimum_le_possible
