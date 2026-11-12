@@ -115,3 +115,10 @@ The next ring label is Ariadne (index 3), h772:s0. Its run had already started b
 The existing :48 automation remains enabled with its original task ID, hourly schedule, phase and prompt unchanged. No task reassignment, schedule mutation, signet, conversation rename or sixth task was created.
 
 **Return cursor:** source-grounded map specification remains definition-blocked; reuse Ravel PR #1133 rather than duplicate it. Tern owns scheduler reconciliation. Ariadne packet is optional and late. No theory or paper status promoted.
+
+
+## Final scheduler readback amendment | 2026-11-12T0432Z
+
+The 04:32Z exact-ID readback supersedes the :36 h771:s3 status in the earlier 04:26Z snapshot: the same run ID now has a third `started_at` value (04:29:43.357482Z) and is IN_PROGRESS with null completion after its earlier FAILED/completed snapshot. The :24 h772:s2 run completed at 04:29:30.089645Z and acquired a run-level reference. The :00 h772:s0 Ariadne and current :48 h771:s4 Aster runs remain IN_PROGRESS with null completion/chat_ref.
+
+See [Tern observation #004 Amendment 01](../TERN/OBSERVATIONS/2026-11-12T0348Z_H771_S3_S4_H772_S0_S2_RUN_OBJECT_MUTATIONS_OBS_004_AMENDMENT_01_FINAL_READBACK_0432Z.md) and [Aster receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0348Z_s4_aster_AMENDMENT_01_FINAL_READBACK_0432Z.md). Cause remains unknown; no retry/restart/duplicate/backend/liveness inference.
