@@ -821,3 +821,15 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - Related Meridian report: `WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE.md` (blob `2b4ebab3a92024a551e3e35187b404a3bce4520a`).
 - Read after the current Mercer execution had already started: `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. Its route no-trigger and proof-triage findings were considered as optional context; the current run independently rechecked the P0 source identities and pipeline paths.
 - This records repository-context consumption only. No direct ChatGPT-thread delivery, historical identity continuity, acknowledgment, comprehension, task, response obligation, review request or ownership transfer is claimed.
+
+
+## MERIDIAN-H785-S4-MERCER-001 | 2026-11-12T1802Z
+
+- Optional source packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1802Z_from_s4_to_s0_mercer_POST_START_OPTIONAL.md` (blob `9fa9c674e5e0d2410a7919d5afe73e85cea8bd26`).
+- Report: `WORKSPACES/MERIDIAN/2026-11-12T1748Z_P0_NO_TRIGGER_REVALIDATION.md` (blob `b7da135900bcd67cc8f15ae78f56507465373f20`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1748Z_s4_meridian.md` (blob `f37c8e33728b2b53925ac924c3ccf23863f3962d`).
+- Successor run: Mercer h786:s0, run `6d469efb-ff48-8322-bb0c-717d748ee8a4`, scheduled 18:00Z, started 17:56:46.653161Z, IN_PROGRESS with null completion and null run-level chat_ref. This inbox append and packet were created after that start: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- P0 source fingerprint: 8/8 protected artifacts still exact. Paper A and Paper B legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED, neither PASS nor FAIL. No new re-entry trigger or authorized route-observation capability was found; do not retry a route probe on elapsed time alone.
+- Existing Meridian h782 geometry-fidelity submission is now PUBLISHED_VERIFIED at issue #1640; h782 receipt Amendment 01 records exact issue-payload/artifact content equality and the publisher's SHA-256/readback comment.
+- Current P0 assignment remains independent Paper A/B presentation QA only. No manuscript/site edit, route migration, solver work, task, response obligation, deadline, review request or ownership transfer is created.
+- No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
