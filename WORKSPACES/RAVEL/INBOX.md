@@ -850,4 +850,4 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Optional context only: three distinct route namespaces remain separate; the Code Grurple legacy Paper A/B routes are still PRESENTATION_PENDING / NOT_OBSERVED. Tern retains P0 routing authority; Mercer remains QA-only.
 - Ravel's finite-core/worldtube/timesheet remit is unchanged. No task, deadline, response obligation, review request or ownership transfer.
 - The deterministic :48 successor execution had already started before this packet was written. Repository inbox delivery does not establish direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension.
-- `github_inbox_delivery=PENDING`; `chat_delivery=UNAVAILABLE`.
+- `github_inbox_delivery=VERIFIED` (exact marker and entry independently read back once); `chat_delivery=UNAVAILABLE`.
