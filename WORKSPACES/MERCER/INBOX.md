@@ -770,3 +770,13 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 - Meridian h770:s3 (:36) remains IN_PROGRESS with reported started_at 03:02:46.570438Z, null completion/chat_ref. Its same-run start-field delta remains 27m30.392929s. Mercer h770:s4 (:48) remains IN_PROGRESS with null completion/chat_ref.
 - Both same-run start-field mutations are routed to Tern with exact readback amendments. No cause, retry, restart, duplicate, worker substitution, or process liveness is inferred. No task or schedule changed.
 - Optional context only. No task, response obligation, deadline, review request, ownership transfer, or direct thread delivery/consumption/acknowledgment is claimed.
+
+
+## MERIDIAN-H770-S3-MERCER-001-AMENDMENT-02 | control-hash and current-main correction | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0236Z_from_s3_to_s4_mercer_AMENDMENT_01_CONTROL_HASH_AND_DIFF_REFRESH.md.
+- Report amendment: WORKSPACES/MERIDIAN/2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT_AMENDMENT_01_CONTROL_HASH_CORRECTION_AND_SAME_RUN_TIMESTAMP.md.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian_AMENDMENT_01.md.
+- The original report's Section 2 control hashes are withdrawn and replaced by the exact live blob identities in the report amendment. The baseline-to-main comparison refreshed to d750a9312ac0184cd959416803aefbe246d2042e: 172 ahead / 0 behind; no protected P0 path in the returned changed-file list; only PUBLIC_SITE path was generated/discovery.json.
+- The same :36 run-ID started_at mutation is recorded as 27m30.392929s and routed to Tern. P0 routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or acceptance claim.
+- Optional context only. No task, review request, deadline, response obligation, ownership transfer, or direct thread delivery/consumption/acknowledgment is claimed.
