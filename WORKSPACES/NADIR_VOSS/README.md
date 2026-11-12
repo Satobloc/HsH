@@ -291,3 +291,13 @@ The Enheduanna h766:s0 optional handoff and inbox pointer were committed after t
 - Mersearch lanes remain occupied; no request or overwrite. No physical calculation, model trial, human session, or paper-gate advancement.
 - Unrelated reading: Babbage lines 2141–2180; next cursor 2181. FIE next rereview November 24.
 - No CURRENT_WORK file created; this README remains the existing assistant-maintained continuity index.
+
+
+### h784:s4 Amendment 01 | final scheduler readback and handoff timing
+
+- Final readback amendment: `WORKSPACES/NADIR_VOSS/2026-11-12T1648Z_REVIEW_MIND_ORSON_CI_AND_BRANCH_PROVENANCE_QC_AMENDMENT_01_FINAL_SCHEDULER_AND_HANDOFF_READBACK.md`.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1648Z_s4_nadir_voss_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md`.
+- Handoff Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1648Z_from_s4_to_s0_enheduanna_PRE_NOMINAL_OPTIONAL_AMENDMENT_01_POST_NOMINAL_INBOX_POINTER.md`.
+- Tern Observation 007: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1700Z_H784_S0_ALDUS_FAILED_STALE_RESULT_POINTER_OBS_007.md`.
+- Handoff file commit was 16:59:44Z, but the Enheduanna INBOX pointer commit was 17:00:12Z; repository-delivery classification is POST_NOMINAL / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY.
+- At 17:00:15Z, :00 h784:s0 Aldus was FAILED with a stale prior Kestrel result pointer; no h785:s0 Enheduanna run record surfaced. Tern retains scheduler authority.
