@@ -204,3 +204,19 @@ The 2026-08-27 Calder raw message `95319111-ba02-4b45-885a-6e44bd5fed7d` (conver
 The working test architecture keeps P and R separate and treats θ₄ as a source-stated but unmapped orientation/shape relation. Required chain: finite-core support → helix/axis (P,R) → timesheet intersection → instrument readout. Every arrow needs a typed domain/codomain, metric/frame, units, conditions, composition order and fiber behavior. Existing Kestrel PR #873 supplies conditional fiber-factorization and nuisance-range theorems; existing Hale PR #1387 supplies the four-summary factorial identifiability theorem. Their actual merge-reference builds are recorded in `2026-11-07T2336Z_THETA4_REFERENCE_CROSSWALK_AND_TWO_KNOB_TEST_MATRIX.md`. No physical map, numerical threshold, system selection or calculation is supplied.
 
 Public overlap check: existing issues #1158, #1191, #1266, #801 and #1037 already cover θ₄ source genealogy/plane-normal correction; #1301, #1432, #1435, #1438, #1451 and #1453 cover map, acquisition-rank and prediction-readiness gates. No duplicate public issue was created. Next source cursor: raw 2026-09-16 event behind BR-005; then lane-4 Mersearch request only after its completion.
+
+
+## 2026-11-12 | 4D filament / 3D trace typing and link topology
+
+**Source cluster:** July 18 spoken topology episode; flattened `HsH COSMOTOPOLOGY.txt`; SAT4D bylined draft; unbylined SAT-O1 companion; Blockwave attachment; direct 2026-10-09 and 2026-10-21 user-role clarifications.
+
+1. What does “second order 4D filament” mean as a geometric type? Is it a 2D worldsheet/support, a higher-order object, or something else?
+2. Does “3D intersectional trace” mean a curve/loop lying in a 3D slice, or a genuinely 3-dimensional section?
+3. Which object is being sliced: a 1D centerline, a 2D support, or a finite-core 4D worldtube? Under transverse intersection with a 3D hypersurface in 4D, the respective dimensions are 0, 1, and 3. Existing `KestrelIntersectionDimensionGate` formalizes these cases.
+4. If a 1D Kerr CSC ring is extracted from a 3D section, what singular-locus/caustic map defines it? No map from the product-torus parallel to the Kerr CSC is supplied.
+5. Where do the SAT-O1 Hopf/Borromean invariants live? A specified 3D embedding/trace or codimension-two support is needed; bare 1D curves in 4D do not automatically carry the ordinary 3D link invariant.
+6. Is the SAT-O1 4D worldtube the image of a family of centerlines or a finite-core map? The displayed one-parameter hyperhelix alone has a 1D image.
+7. Which topology branch is intended: disjoint Hopf embedding, figure-eight immersed loop, four-valent graph, or smooth figure-eight knot? Supply the embedding and, where needed, a smoothing/reconnection map.
+8. What Lorentzian metric, time orientation, and explicit timelike curve family would make the proposed CTCs physical? What map connects the particle-side ring to the black-hole-side perpendicular disk?
+
+**Current formal status:** product-torus meridian/parallel intersection is Lean-checked in Kestrel PR #873; transverse slice dimensions are formalized in `KestrelIntersectionDimensionGate`; no physical premise or source-to-math translation is thereby proved. Issue #1636 is a single rejected publication attempt (missing required `schema` key); do not retry or duplicate. Full report: `WORKSPACES/KESTREL/2026-11-12T1000Z_4D_FILAMENT_TORUS_LINK_FIDELITY.md`.
