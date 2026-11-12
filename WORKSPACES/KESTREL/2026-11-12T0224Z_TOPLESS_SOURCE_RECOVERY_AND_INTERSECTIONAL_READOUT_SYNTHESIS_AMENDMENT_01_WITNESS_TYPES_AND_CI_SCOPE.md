@@ -74,6 +74,8 @@ The parent report's Section 5 labels the cited runs for Kestrel #873, Ravel #113
 | Sable #1245 | `201f428ebf63288ceb8c098ba49f2f411d1f0109` | #41410202260 / 125161268669 | `d6ad4260fad52f85bdf48d9efb00269ba6e83a85` | SUCCESS, 8,945 jobs |
 | Kestrel #1556 | `a27b2e745da3ca29b745db0831dae5e7a30545a6` | #42765114182 / 129659662176 | `dd22eefc669e8d66f11015caadd4a9427d5c4f63` | SUCCESS, 8,945 jobs |
 
+PR #873 remains OPEN / DRAFT / UNMERGED with zero submitted reviews and zero inline review threads. No exact-head-only build or current-main integration build is established.
+
 For #873 and #1133, Meridian's already-created correction independently compares the target theorem-module blobs at PR head and merge reference and finds them byte-identical, while the import aggregators differ: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0224Z_from_s2_to_s3_meridian_AMENDMENT_01_LEAN_BUILD_SCOPE.md`. No duplicate correction was made there.
 
 The #1245 merge-reference classification is already preserved in Sable's continuity/source records. The #1556 merge-reference classification is already preserved in Kestrel's h724 receipt amendment and continuity. This amendment consolidates the four-run correction for the h770 report; it does not replace those prior records.
@@ -99,6 +101,6 @@ No measured system/dataset, acquisition provenance, units, calibration, covarian
 - Unrelated reading: SAT archive `fun break - lx.txt`, lines 1201–1240 read; next cursor 1241. This is an informal language-quiz transcript, not H(s)H evidence. No physical break is claimed.
 - FIE last rereviewed November 10; next November 24.
 - Babbage local-text cursor 1661 remains PARKED pending the old/new blob crosswalk.
-- After P0 standdown, HAGALAZ-SOLVER-UNIFICATION remains the top technical return path; Meridian owns its existing transport/history cursor and Tern retains routing. The TOPLESS-specific open source questions are the typed relation between `w=ct` and the separate October 21 `cw=t) notation, the undefined Forest Normalization, and whether local wavefronts admit a global synchronization map. Do not invent a conversion or calculate the acknowledged-misexpressed `H_0+c` relation.
+- After P0 standdown, HAGALAZ-SOLVER-UNIFICATION remains the top technical return path; Meridian owns its existing transport/history cursor and Tern retains routing. The TOPLESS-specific open source questions are the typed relation between `w=ct` and the separate October 21 `cw=t notation, the undefined Forest Normalization, and whether local wavefronts admit a global synchronization map. Do not invent a conversion or calculate the acknowledged-misexpressed `H_0+c` relation.
 
 No public issue was opened: issue #1614 is already PUBLISHED_VERIFIED for the prior h766 readout-sufficiency note. This amendment is an internal source/evidence/CI correction, not a duplicate public submission.
