@@ -117,3 +117,17 @@ Unrelated reading completed through SAT Mark V/TheTANGLE.txt lines 1761-1800. Ne
 # MERCER-H789-S4-CONTINUITY-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
 
 The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exact-ID readback at 22:10:25Z found the same :24 task enabled with its original VEVENT and the same h789:s1 Morrow run 40a9b521-4678-8324-b89b-1986397706a8 still IN_PROGRESS. See Mercer report Amendment 01 and Tern Observation 008 Amendment 04. No deletion or disablement is inferred.
+
+---
+
+## MERCER-H789-S4-CONTINUITY-AMENDMENT-02-2234Z
+
+The current h789:s4 run remains the same run ID `1c05dbfe-9630-8329-a9f1-15dee095aa1e`, with reported start field 22:34:10.601331Z versus the earlier 21:47:24.414373Z. Status IN_PROGRESS; completion and run-level chat_ref null. Cached result is prior Enheduanna h788:s4.
+
+The :00 Ravel run's same-ID start moved +27m56.492591s; the :24 run's same-ID start moved +38m35.239645s and is now FAILED; :36 exposes a new h790:s3 Loom run. All four active task IDs remain enabled with unchanged original VEVENTs; :12 remains disabled. The :24 21:24Z run maps to h789:s2 Kestrel index14 under the V3 slot map, correcting earlier Morrow h789:s1 wording. No worker identity is authenticated.
+
+P0 remains 8/8 exact at main `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739`; no protected path changed in the 33-commit delta. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Orson retains P1 ownership. Tern retains scheduler authority.
+
+Ravel h790:s0 has a same-ID start-field movement across the 22:04Z handoff time; temporal relation is ambiguous. Repository handoff and inbox amendment are verified, but no direct ChatGPT delivery, context inclusion, consumption, or acknowledgment is claimed.
+
+Report Amendment 02, receipt Amendment 03, Tern Observation 008 Amendment 05, and Ravel handoff Amendment 01 are the controlling additive readbacks. No task mutation, sixth task, theory promotion, physical calculation, or new experiment.
