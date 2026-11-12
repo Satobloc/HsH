@@ -225,8 +225,8 @@ are complementary; the corresponding sine/cosine denominators then agree.
 This proves only the trigonometric identity. It does not establish that the
 historical source defined the two angles as complements.
 -/
-theorem cosine_of_complementary_angle (α : ℝ) :
-    Real.cos (Real.pi / 2 - α) = Real.sin α := by
+theorem cosine_of_complementary_angle (propagationAngle : ℝ) :
+    Real.cos (Real.pi / 2 - propagationAngle) = Real.sin propagationAngle := by
   rw [Real.cos_sub]
   simp
 
