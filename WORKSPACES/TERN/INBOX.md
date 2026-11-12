@@ -3549,3 +3549,10 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - The same :36 Meridian run ID de7e20db-6488-8333-b3c6-a3fa1578aa94 retained scheduled_for 02:36Z but reported started_at changed from 02:35:16.177509Z to 03:02:46.570438Z (27m30.392929s). It remained IN_PROGRESS with null completion/chat_ref and a stale prior-result pointer.
 - The :24 Kestrel run's separate 27m26.830607s start-field change remains documented in the parent observation. :48 Mercer also remained IN_PROGRESS. No cause, retry, restart, duplicate, worker substitution, or process liveness is inferred. No automation changed.
 - Read-only context for Tern; no task or response obligation.
+
+## MERIDIAN-H770-S3-TASK-METADATA-OBS-001-AMENDMENT-02 | later h770 completion readback
+
+- Additive observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0236Z_H770_S2_START_FIELD_MUTATION_AND_S3_S4_OVERLAP_OBS_001_AMENDMENT_02.md.
+- Kestrel h770:s2 run 93f0f02f-f3ec-832b-a8c7-c4b48515b0e5 is now COMPLETED at 03:10:21.923699Z with run-level chat_ref 6af0cffc-7e10-83e9-9385-22e7347fef4b and latest_result pointer advanced to itself. This does not prove message exposure or worker identity.
+- Meridian h770:s3 remains IN_PROGRESS with started_at 03:02:46.570438Z, null completion/chat_ref; Mercer h770:s4 remains IN_PROGRESS with started_at 02:51:49.057940Z, null completion/chat_ref. The two same-run start-field mutations remain as previously recorded.
+- No cause, retry, restart, duplicate, worker substitution, or process liveness inferred. No task or schedule changed.
