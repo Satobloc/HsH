@@ -1,0 +1,92 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "source_item_id": "ENH-SOURCE-EXPOSURE-001",
+  "factory_item_id": null,
+  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING",
+  "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
+  "eligibility_reason": "Factory Floor geometry-first admission requires a precise object-specific geometric plot and independent hostile fidelity review. This is an abstract source/context evidence-type theorem; no physical geometric object or plot is supplied.",
+  "intake_route": "NOT_SUBMITTED",
+  "direct_factory_write": false,
+  "source_repository": "Satobloc/HsH",
+  "source_branch": "research/enheduanna-source-context-exposure-20261112t0148z",
+  "source_pr_head_at_verified_build": "6599cf8bf7daf52e3741da757b8387fcf0782728",
+  "checked_out_merge_reference": "14750cd62953deb4c228e8f0b1a26fa049c41545",
+  "source_path": "FORMAL_VERIFICATION/HsHVerification/EnheduannaSourceExposure.lean",
+  "source_blob_sha": "275e1e5448379118d80148df493b8607c349d1c3",
+  "theorem": "HsHVerification.EnheduannaSourceExposure.source_attestation_does_not_determine_context_exposure",
+  "theorem_claim": "Two distinct run-scoped context snapshots can share an identical source attestation, including source identity, digest, locator, outer role, timestamp, parent context and auditor read extent, while differing on whether the source is included.",
+  "theorem_limit": "Type-level information-sufficiency countermodel only. Does not establish that either constructed snapshot corresponds to a real historical execution, or prove actual message exposure, output uptake, causal influence, subject identity, consciousness, physical truth or empirical behavior.",
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "lean_version": "Lean 4.34.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+  "lake_version": "5.0.0-src+293d5d0",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "dependency_manifest": {
+    "status": "TRANSIENT_RUNNER_GENERATED",
+    "committed_manifest": "NOT_FOUND",
+    "reproducibility_limit": "Workflow ran lake update and generated a manifest in the runner; no committed lake-manifest.json identity is available.",
+    "observed_revisions": {
+      "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+      "ProofWidgets4": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  },
+  "actions": {
+    "run_id": 43137274286,
+    "job_id": 130915506157,
+    "url": "https://github.com/Satobloc/HsH/actions/runs/43137274286",
+    "checkout": "MERGE_REFERENCE",
+    "target_module_blob_equal_at_pr_head_and_merge_ref": true,
+    "build_conclusion": "SUCCESS",
+    "build_jobs": 8945,
+    "tests": "SKIPPED",
+    "lint": "SKIPPED",
+    "axiom_audit": "SKIPPED",
+    "theorem_specific_axiom_print": "FOLLOW_UP_COMMIT_ADDED; SECOND_CI_PENDING",
+    "explicit_sorry_admit_custom_axiom_in_submitted_module": "NONE_FOUND_BY_SOURCE_SCAN"
+  },
+  "original_source_basis": [
+    {
+      "kind": "HsH source-layer census",
+      "path": "WORKSPACES/ENHEDUANNA/2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md",
+      "blob_sha": "8d6b08dac9e169f529f1b43cbd8c3cbf0cc78478"
+    },
+    {
+      "kind": "Nadir published witness-type firewall",
+      "issue": 1618,
+      "url": "https://github.com/Satobloc/HsH/issues/1618"
+    },
+    {
+      "kind": "Public derivative artifact",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "ActivatorPrayer(Alberr).txt",
+      "blob_sha": "3bf6385a3aedee3d9b61bf4567d8bcc23d3ea666",
+      "inspected_range": "lines 691-745"
+    },
+    {
+      "kind": "Private raw user-role archive instruction",
+      "repository": "Satobloc/HSH_RESOURCES",
+      "conversation_id": "6aa8a2bf-8280-83e9-9d57-1e0af853b7f1",
+      "message_id": "11399ca2-5bd6-4203-9e19-e8e044fbc736",
+      "timestamp": "2026-09-23T02:04:49.417Z",
+      "scope": "Broad instruction to consider all archives; not a standalone specialist charter."
+    }
+  ],
+  "physical_empirical_interpretation": "NONE. No physical system, measured dataset, units, uncertainties, prediction, fit or independent measurement is involved.",
+  "python_numeric_tests": "NONE",
+  "presentation_status": "SOURCE_ONLY",
+  "candidate_visibility": "INTERNAL",
+  "geometry_plot": "NOT_SUPPLIED",
+  "independent_hostile_geometry_review": "NOT_PERFORMED",
+  "factory_gate": "GEOMETRY_NOT_SUPPLIED / NOT FACTORY FLOOR ELIGIBLE",
+  "next_steps": [
+    "Capture theorem-specific #print axioms output from follow-up CI.",
+    "Keep PR draft until an independent review and dependency-manifest reproducibility issue are addressed.",
+    "Do not submit directly to Factory Floor without a valid geometry-first route.",
+    "Do not promote to BEDROCK, a paper, LIVE, ARTIFACTS or WEBSITE."
+  ]
+}
