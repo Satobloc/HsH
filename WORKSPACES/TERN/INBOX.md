@@ -3618,3 +3618,12 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 ## 2026-11-12 03:59Z — Loom later readback amendment
 
 See WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0359Z_H771_S3_SAME_RUN_START_FIELD_UPDATE_AMENDMENT_02.md. The same :36 run ID was observed with a later started_at value, differing from the earlier snapshot by 00:27:29.249558. Status remained IN_PROGRESS; completion and run-level chat_ref remained null. Task summary fields and latest_result remained stale. Classification is SAME_RUN_ID_START_TIMESTAMP_UPDATE / RETRY_OR_FIELD_SEMANTICS_UNRESOLVED. No cause or task mutation is inferred.
+
+
+## TERN-H771-S3-OBS004-AMENDMENT02-20261112T0443Z | final completion and multi-result reconciliation
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0348Z_H771_S3_S4_H772_S0_S2_RUN_OBJECT_MUTATIONS_OBS_004_AMENDMENT_02_FINAL_COMPLETION_AND_MULTI_RESULT_RECONCILIATION.md.
+- The :36 h771:s3 run ID 1fd53dcf-0c68-832a-8e93-7cf9c1c28412 now records COMPLETED at 04:43:05.427210Z, with started_at 04:29:43.357482Z and a non-null run-level chat_ref. Delivery and authenticated worker identity remain unknown.
+- The same run ID was observed with three start values and IN_PROGRESS → FAILED → IN_PROGRESS → COMPLETED status history. No attempt-history identifier or cause is exposed.
+- Two distinct public artifacts exist under the same deterministic run key: #1622 parameter/prediction identifiability and #1623 constraint-timing source tagging. Both publisher comments and exact artifact readbacks verified. Do not duplicate either.
+- Existing :36 task remains enabled and unchanged; no sixth task, retry, restart, or schedule mutation.
