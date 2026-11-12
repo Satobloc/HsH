@@ -101,7 +101,7 @@ No measured system, dataset, provenance package, units, calibration, covariance,
 
 ## 8. Publication and handoff
 
-Public submission #1627 was rejected by the existing publisher because the first intake omitted the required `sha256` key. It was closed as not planned; no artifact was created. Corrected checksum-bearing intake is [issue #1628](https://github.com/Satobloc/HsH/issues/1628), submission ID `aster-responsive-medium-null-response-20261112t0736z-s3-001`, SHA-256 `40713dcc363ce11a3950b7f9f0343183ac1d73bffde0919df31cf9006e509a36`. Publisher comment and artifact readback are pending at this receipt's creation.
+Publisher intake #1627 was rejected for a missing `sha256`; #1628 was rejected for a mismatched SHA-256. Both were closed as not planned and created no artifact. Corrected checksum-bearing intake is [issue #1630](https://github.com/Satobloc/HsH/issues/1630), submission ID `aster-responsive-medium-null-response-20261112t0736z-s3-001`, exact UTF-8 SHA-256 `b463f1f907d6831c521d2eee27d643359f4366586fbb2b5d8b9edbdd63294993`. Publisher comment and artifact readback are pending.
 
 Successor is Ariadne. Its :48 run had already started at 07:48:18.310427Z (run `a662f219-45c4-832b-a191-fe980a00bbb4`) before the handoff was filed. Any inbox entry is therefore POST_START_OPTIONAL_CONTEXT_ONLY. No direct ChatGPT-thread delivery, consumption, acknowledgment or task assignment is claimed.
 
