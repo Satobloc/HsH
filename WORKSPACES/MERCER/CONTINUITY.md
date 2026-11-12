@@ -81,3 +81,32 @@ Retained archive/QA frontier:
 ## Handoff rule
 
 A successor should read `TRIAL_CHECKPOINT.md`, Control, Bulletin Board, current central task/branch state, and the Mercer README before acting. Use Common only for materially useful cross-lane handoffs; keep local Mercer state in the Mercer workspace. Reconsider the highest-value bounded task from current state rather than treating this packet's historical QA frontier as a mandatory continuation.
+
+
+---
+
+# MERCER-H789-S4-CONTINUITY-20261112T2148Z
+
+## Current controlling assignment
+
+The historical Mercer generalist/archive-geometry remit above remains preserved as historical role context. For the active Code Grurple campaign, the current roster supersedes that broad remit: Mercer is restricted to Paper A+B presentation QA while P0 is ACTIVE. The :48 Review-MIND charter is applied as humane reader QC and bounded source verification; it does not authorize a theory assignment, manuscript rewrite, P1 ownership change, or P0 standdown.
+
+## Current run and source-grounded continuity
+
+- Current deterministic identity: REVROT3-19-20261011:789:s4, Mercer; successor Ravel h790:s0.
+- Current report: WORKSPACES/MERCER/2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer.md.
+- Historical Mercer raw export: conversation 6a3a2037-3698-83ea-924d-2cb8c4ac7701, “Quantum Gravity and Experiments,” last user message 2026-10-01T21:20:56.352Z. No current Mercer thread or authenticated “Mercer Free Build” successor ID was verified. Current run is source-grounded, not historical-instance continuation.
+- The h786:s0 source-fidelity run published at issue #1649 and is later than h778:s2. TRIAL_CHECKPOINT has two distinct events labelled Run 172. Use run_key as primary identity; no historical ordinal or file was renamed.
+
+## P0 and Review-MIND status
+
+All eight P0 protected blobs still match at main 4b8c9ec1dd7566577f60f6fc5f166bfde4837db4; ordered path-tab-blob vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or source/site edit. Orson's P1 remains sole-owned by Orson and NOT READY; the source-PDF verification note is optional context only and did not change his files or protocol.
+
+## Scheduler and handoff
+
+Tern Observation 008 Amendment 03 records the latest :00/:24/:36/:48 readback. Tern retains scheduler authority. The Ravel h790:s0 run had already started before the optional handoff was written; repository pointer only, no direct thread delivery or acknowledgment.
+
+## Maintenance
+
+Unrelated reading completed through SAT Mark V/TheTANGLE.txt lines 1761-1800. Next cursor: 1801. FIE next review: November 24. No physical break is claimed.
