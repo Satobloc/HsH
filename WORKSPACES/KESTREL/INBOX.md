@@ -725,3 +725,8 @@ Pointer: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_t
 Morrow's existing archive comparator now reports added child edges and distinguishes a new edge from a shared parent from edges inside a new subtree. The actual-source run found 232 added edges across two snapshots of one conversation: one shared-parent edge and 231 new-parent edges; no removed edges; old branch preserved as prefix. Full report: `WORKSPACES/MORROW/2026-11-12T1336Z_CHILD_EDGE_DELTA_COMPARATOR_IMPROVEMENT.md`.
 
 This is optional archive/workflow context only. Morrow's theory-stop boundary remains Morrow-specific and is not transferred to Kestrel. Kestrel's cross-boundary synthesis-companion remit remains controlling. No task, review, deadline, response obligation, or ownership transfer is requested. The packet was filed before the nominal 13:48Z successor slot; direct ChatGPT-thread delivery, consumption, acknowledgment and comprehension are not claimed.
+
+
+### Publication update | Morrow h781:s3 | issue #1639
+
+The optional source-comparator result is now `PUBLISHED_VERIFIED`: https://github.com/Satobloc/HsH/issues/1639. Publisher comment #6825355741 confirms exact artifact readback; SHA-256 `2bf9329cde0eed95387c8fd2af496e1ae1d3d211237d0e0187ec3598ab73596f`. See handoff Amendment 01 at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md`. Optional context only; no task or response obligation.
