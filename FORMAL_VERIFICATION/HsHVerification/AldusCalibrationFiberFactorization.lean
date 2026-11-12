@@ -45,6 +45,8 @@ theorem observed_law_factors_when_physical_and_calibration_factor
   rcases hPhysical with ⟨physicalBar, hPhysical⟩
   refine ⟨fun r => instrument (calibrationBar r, physicalBar r), ?_⟩
   intro x
+  change instrument (calibration x, physicalLaw x) =
+    instrument (calibrationBar (pi x), physicalBar (pi x))
   rw [hCalibration x, hPhysical x]
 
 /-- If two states share the same reduced representation and physical law but
@@ -103,13 +105,13 @@ theorem measurable_observed_law_factors_through_reduced_state
     [Nonempty O] [StandardBorelSpace O]
     (pi : X → R) (calibration : X → C) (physicalLaw : X → P)
     (instrument : C × P → O)
-    (hCalibration : Measurable[MeasurableSpace.comap pi] calibration)
-    (hPhysical : Measurable[MeasurableSpace.comap pi] physicalLaw)
+    (hCalibration : Measurable[MeasurableSpace.comap pi inferInstance] calibration)
+    (hPhysical : Measurable[MeasurableSpace.comap pi inferInstance] physicalLaw)
     (hInstrument : Measurable instrument) :
     ∃ observedBar : R → O,
       Measurable observedBar ∧
       (fun x => instrument (calibration x, physicalLaw x)) = observedBar ∘ pi := by
-  letI : MeasurableSpace X := MeasurableSpace.comap pi
+  letI : MeasurableSpace X := MeasurableSpace.comap pi inferInstance
   have hPair : Measurable (fun x => (calibration x, physicalLaw x)) :=
     hCalibration.prodMk hPhysical
   have hObserved : Measurable (fun x => instrument (calibration x, physicalLaw x)) :=
