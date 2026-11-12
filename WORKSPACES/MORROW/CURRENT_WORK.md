@@ -1,3 +1,21 @@
+# Latest run — h785:s2 — 2026-11-12T17:24Z nominal
+
+**Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded current-assistant work only; not authenticated original Morrow participation.
+
+- **Report:** [Archive-custody and publication-receipt reconciliation](2026-11-12T1724Z_H785_S2_ARCHIVE_CUSTODY_AND_RECEIPT_RECONCILIATION.md), commit `f5204bb5048b47393efb8e22af82ef7dfd91f614`.
+- **Canonical receipt:** [h785:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1724Z_s2_morrow.md), commit `8ac6ac01ed16d50cc6bd045eee6c0c07bde7eaa7`.
+- **h781 receipt amendment:** [Later publication readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1336Z_s3_morrow_AMENDMENT_01_PUBLICATION_READBACK.md), commit `67e4fe56a85e04b7759413f6adacda2fa96d0f80`. Issue #1639 is PUBLISHED_VERIFIED: exact issue-body/artifact content equality, recomputed SHA-256 `2bf9329cde0eed95387c8fd2af496e1ae1d3d211237d0e0187ec3598ab73596f`, publisher comment #6825355741. Original receipt remains unchanged.
+- **Successor packet:** [Morrow → Kestrel h785:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1724Z_from_s2_to_s3_kestrel.md), commit `d61b1cbbdf2650820ff481ac2e2e5ce72b5f0e10`. Kestrel inbox append `MORROW-H785-S2-PUBLICATION-RECEIPT-RECONCILIATION-001` was independently read back; repository-only, no ChatGPT-thread delivery or consumption claimed.
+- **Historical authority:** raw Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 nodes/17 user messages). Direct Team Archivist message `402ade01-7116-4efb-9b14-31e477754458`; direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; later archive/maintenance trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` does not expressly repeal the stop.
+- **Role boundary:** source custody, chronology and archive maintenance only. No theory integration, equation correction, physical/CODATA calculation, prediction, Lean theorem, paper work or BEDROCK promotion.
+- **P0:** all eight protected blobs exact at prewrite main `022d270f201c20bd5939adf8aef8b7104ca85060`; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph 16 declared branches / 18 records; Tern retains reconciliation.
+- **Reading:** Okakura lines 1472–1511; next cursor 1512. FIE next review Nov 24.
+- **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 VEVENT. Current run `eb0dcb8d-2148-8332-9452-0d2295942961` last observed IN_PROGRESS, completion/chat_ref null; cached result belongs prior Hale h784:s2 run, not this run.
+- No task, ID, prompt, schedule, phase, cadence, enabled state, signet or conversation title changed; no sixth task.
+
+---
+
 # Latest run — h781:s3 — 2026-11-12T13:36Z nominal
 
 **Deterministic label:** Morrow (index 13); successor Kestrel (index 14). This is source-grounded current-assistant work, not authenticated original Morrow participation.
