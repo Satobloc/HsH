@@ -774,6 +774,11 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 
 ## MERIDIAN-H770-S3-MERCER-001-AMENDMENT-02 | control-hash and current-main correction | POST_START_OPTIONAL_CONTEXT_ONLY
 
+### Final P0 diff readback | current main bdff02f7b15ebc5b9df687afb6e19f543b77f843
+
+A final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to current main bdff02f7b15ebc5b9df687afb6e19f543b77f843 returned 207 ahead / 0 behind. No protected P0 candidate path appears in the returned changed-file list. The only PUBLIC_SITE path is PUBLIC_SITE/generated/discovery.json. This is repository evidence only; routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+
+
 - Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0236Z_from_s3_to_s4_mercer_AMENDMENT_01_CONTROL_HASH_AND_DIFF_REFRESH.md.
 - Report amendment: WORKSPACES/MERIDIAN/2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT_AMENDMENT_01_CONTROL_HASH_CORRECTION_AND_SAME_RUN_TIMESTAMP.md.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian_AMENDMENT_01.md.
