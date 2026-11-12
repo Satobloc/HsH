@@ -123,3 +123,21 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 - FIE rereview completed Nov 10; next Nov 24. Latest shared receipt records Babbage lines 2061–2100, next 2101; no new unrelated reading this run. P1 Nov 9 remains overdue/NOT READY; P2 Nov 30 HOLD; P3 Dec 14 incomplete. Orson's protected four-of-five cognition remit was not touched.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0500Z_s0_hale.md. Optional repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0500Z_from_s0_to_s1_elias_kern.md. No direct Elias thread delivery, consumption, acknowledgement, or ownership transfer is claimed.
 - No task ID, schedule, phase, cadence, signet, chat name, branch ownership, or automation count changed. No sixth task.
+
+
+## 2026-11-12T1236Z | h780:s3 | Null-screen polarization representation gate
+
+- Deterministic selection: Hale (ring index 8), next Elias Kern (index 9); run key REVROT3-19-20261011:780:s3. Label only, not authenticated thread identity.
+- Historical Hale check-in and Sable REV-006 read. Specialist remit remains a reconstruction; no signed Nathan-authored charter or authenticated current Hale thread found.
+- New architecture: K^4 → Σ_t^3 → Φ_emit [missing] → k → S_k^2 → R_spin2 [missing] → h_AB → detector strain. Three-dimensional timesheet/section and two-dimensional null screen are distinct.
+- Representation gate: antisymmetric Blockwave two-form J_AB is not automatically symmetric trace-free spin-2 h_AB; a screen-rotation-equivariant map is required. No physical conclusion or theory promotion.
+- Source boundary: direct geometry anchors taken from issue #1631; cross-post attribution corrected by issue #1625 amendment. SAT-O1 and LOCAL:TRISWALE θ4 are not aliased. Meridian g=δ−2u⊗u remains sandbox-only.
+- Calder Mersearch lane 1 remains requested for SAT-O/Blockwave source fidelity; no duplicate request, no equation correction.
+- GW170817 is a candidate polarization test only, not a P2 selection. Dataset/published analysis identified; no raw data download, fit, physical calculation or independent reanalysis.
+- No new Lean theorem/module/PR/build. Existing PR #1133 and #1387 formal results reused only within their stated scope.
+- Math Hopper and Whirligig checked, not run/used. Targeted SciSpace/public literature check completed. No new tool/cost.
+- Issue #1638 created through HSH-PUBLISH-V1. Submission hale-null-screen-polarization-type-gate-gw170817-20261112t1236z-s3-001; SHA-256 d34e5514c1e5bfb58d836c854def57f00d951b5c646c95d986bd3949a185cbe4. First readback had no publisher comment/artifact: SUBMITTED_NOT_VERIFIED; no retry/direct write.
+- Unrelated reading: Babbage lines 2141–2180, next 2181. Hale-local fun break - lx.txt cursor remains 1081. No physical break.
+- P0 ACTIVE; P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
+- Common handoff to Elias Kern created. No Elias workspace/inbox path found; no direct delivery/acknowledgment/ownership transfer.
+- Existing :36 and :48 automations unchanged. Scheduler metadata inconsistent/future-dated relative to this execution; wrapper completion unconfirmed. No task/ID/schedule/phase/prompt/enabled-state change; no sixth task.
