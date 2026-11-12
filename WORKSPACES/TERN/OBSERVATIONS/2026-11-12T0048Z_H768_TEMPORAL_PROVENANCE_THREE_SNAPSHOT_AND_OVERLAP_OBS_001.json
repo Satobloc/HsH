@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "record_type": "catalog_validated_scheduler_observation_envelope",
+  "observation_key": "TERN-H768-S4-THREE-SNAPSHOT-TEMPORAL-PROVENANCE-OBS-001",
+  "run_key": "REVROT3-19-20261011:768:s4",
+  "nominal_occurrence": {
+    "epoch": "2026-10-11T00:00:00Z",
+    "h": 768,
+    "phase": "s4",
+    "sequence": 3844,
+    "ring_index": 6,
+    "worker_label": "Aldus",
+    "successor_label": "Calder",
+    "scheduled_for": "2026-11-12T00:48:00Z"
+  },
+  "collection_semantics": {
+    "source": "Automations exact-ID peeks for the four enabled relay tasks, plus prior Tern observation TERN-H767-S4-ACTIVE-RUN-OVERLAP-OBS-001.",
+    "normalized_connector_payload": "The automation connector returned normalized structured objects, not raw HTTP response bytes.",
+    "raw_http_bytes": "NOT_AVAILABLE",
+    "provider_snapshot_timestamp": "NOT_EXPOSED",
+    "client_request_started_at": "NOT_EXPOSED",
+    "client_response_received_at": "NOT_EXPOSED",
+    "digest": "NOT_COMPUTED",
+    "observation_order": "Three readback states are preserved in source order. The first is the prior Tern h767 observation; the second and third are separate h768 reads. No exact connector-call timestamps are available for the two h768 reads.",
+    "identity_rule": "Worker label is derived from nominal scheduled_for and phase; started_at is execution timing only. A deterministic label does not authenticate a historical instance.",
+    "conversation_rule": "Task conversation_id, current_run.chat_ref, and latest_result.chat_ref are distinct fields. None proves message delivery, context inclusion, consumption, or identity.",
+    "attempt_rule": "No attempt_id or attempt-history record was exposed. Same run_id with changed timestamps/status does not establish retry, restart, duplicate, or backend cause."
+  },
+  "live_catalog": {
+    "observed_task_count_from_prior_live_roster": 4,
+    "enabled_relay_phases": [
+      "s0",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "disabled_relay_phase": "s1",
+    "disabled_s1_task_id": "6aa61b3b2e4081918927a35b61007acc",
+    "disabled_legacy_tern_shuttle_task_id": "6aa6c2792c9c8191ab2c128a80c437cf",
+    "current_s4_task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+    "current_s4_enabled": true,
+    "current_s4_schedule": "DTSTART;TZID=America/New_York:20261001T144800; RRULE:FREQ=HOURLY",
+    "no_sixth_task": true
+  },
+  "task_slots": {
+    "s0": {
+      "task_id": "6aa1fe0de5e48191b886496095b1343f",
+      "conversation_id": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+      "nominal_label": "Aster at h768:s0"
+    },
+    "s2": {
+      "task_id": "6abda4c8eda88191b8a91a30d2a155e0",
+      "conversation_id": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+      "nominal_label": "Alberr at h768:s2"
+    },
+    "s3": {
+      "task_id": "6a9f52b69ec08191b0a2ba24a074f781",
+      "conversation_id": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+      "nominal_label": "Mira at h768:s3; label only, quarantine respected"
+    },
+    "s4": {
+      "task_id": "6aa6c3bc02b48191b8a91a30d2a155e0",
+      "conversation_id": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+      "nominal_label": "Aldus at h768:s4"
+    }
+  },
+  "readback_snapshots": [
+    {
+      "snapshot_order": 1,
+      "source": "Tern observation 2026-11-11T2348Z_H767_ACTIVE_RUN_OVERLAP_OBS_001.md, blob fa059db8185e69aae763f7c21642a0207656d89b",
+      "source_readback_description": "The prior Tern report describes an exact :00 task read around 23:56Z; exact connector request/response bounds are not present in that report.",
+      "s0": {
+        "run_id": "20f91b70-92a8-8322-9524-8e54ae32dd7a",
+        "scheduled_for": "2026-11-12T00:00:00Z",
+        "started_at": "2026-11-11T23:56:51.262096Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-11T23:54:37.053338Z",
+          "updated_at": "2026-11-11T23:55:00.169284Z",
+          "next_run_time": "2026-11-11T19:00:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "1e093ebd-e478-8325-86da-dd5fbf183847",
+          "scheduled_for": "2026-11-11T17:00:00Z",
+          "created_at": "2026-11-11T17:11:05.879274Z",
+          "completed_at": "2026-11-11T17:11:07.787191Z",
+          "chat_ref": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+          "belongs_to_current_run": false
+        }
+      },
+      "s2": {
+        "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+        "scheduled_for": "2026-11-12T00:24:00Z",
+        "started_at": "2026-11-12T00:27:40.708773Z",
+        "completed_at": "2026-11-12T00:36:11.156361Z",
+        "recorded_status": "completed",
+        "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:36:16.356325Z",
+          "updated_at": "2026-11-12T00:36:40.213120Z",
+          "next_run_time": "2026-11-11T20:24:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+          "scheduled_for": "2026-11-12T00:24:00Z",
+          "created_at": "2026-11-12T00:36:07.872721Z",
+          "completed_at": "2026-11-12T00:36:11.156361Z",
+          "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+          "belongs_to_current_run": true
+        }
+      },
+      "s3": {
+        "run_id": "d1798295-8240-8331-aa8f-d3d867536a84",
+        "scheduled_for": "2026-11-12T00:36:00Z",
+        "started_at": "2026-11-12T00:42:23.471878Z",
+        "completed_at": "2026-11-12T00:44:11.408366Z",
+        "recorded_status": "failed",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:00:21.939111Z",
+          "updated_at": "2026-11-12T00:00:46.660152Z",
+          "next_run_time": "2026-11-11T19:36:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "03e76aa4-f068-8328-b14a-b6e9360f99db",
+          "scheduled_for": "2026-11-11T23:36:00Z",
+          "created_at": "2026-11-12T00:00:14.201569Z",
+          "completed_at": "2026-11-12T00:00:17.731894Z",
+          "chat_ref": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+          "belongs_to_current_run": false
+        }
+      },
+      "s4": {
+        "run_id": "076e4ca0-0754-832e-bc6a-a749b2ee6e6c",
+        "scheduled_for": "2026-11-12T00:48:00Z",
+        "started_at": "2026-11-12T00:44:10.885769Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:11:05.137028Z",
+          "updated_at": "2026-11-12T00:11:28.860098Z",
+          "next_run_time": "2026-11-11T19:48:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "28c37292-6ba8-8325-a80b-33c916c922fd",
+          "scheduled_for": "2026-11-11T23:48:00Z",
+          "created_at": "2026-11-12T00:11:01.279430Z",
+          "completed_at": "2026-11-12T00:11:03.355388Z",
+          "chat_ref": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+          "belongs_to_current_run": false
+        }
+      }
+    },
+    {
+      "snapshot_order": 2,
+      "source": "Aldus h768:s4 exact-ID peeks during this run; request/response bounds not exposed.",
+      "s0": {
+        "run_id": "20f91b70-92a8-8322-9524-8e54ae32dd7a",
+        "scheduled_for": "2026-11-12T00:00:00Z",
+        "started_at": "2026-11-12T00:24:51.866289Z",
+        "completed_at": "2026-11-12T00:42:47.978252Z",
+        "recorded_status": "failed",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-11T23:54:37.053338Z",
+          "updated_at": "2026-11-11T23:55:00.169284Z",
+          "next_run_time": "2026-11-11T19:00:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "1e093ebd-e478-8325-86da-dd5fbf183847",
+          "scheduled_for": "2026-11-11T17:00:00Z",
+          "created_at": "2026-11-11T17:11:05.879274Z",
+          "completed_at": "2026-11-11T17:11:07.787191Z",
+          "chat_ref": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+          "belongs_to_current_run": false
+        }
+      },
+      "s2": {
+        "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+        "scheduled_for": "2026-11-12T00:24:00Z",
+        "started_at": "2026-11-12T00:27:40.708773Z",
+        "completed_at": "2026-11-12T00:36:11.156361Z",
+        "recorded_status": "completed",
+        "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:36:16.356325Z",
+          "updated_at": "2026-11-12T00:36:40.213120Z",
+          "next_run_time": "2026-11-11T19:24:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+          "scheduled_for": "2026-11-12T00:24:00Z",
+          "created_at": "2026-11-12T00:36:07.872721Z",
+          "completed_at": "2026-11-12T00:36:11.156361Z",
+          "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+          "belongs_to_current_run": true
+        }
+      },
+      "s3": {
+        "run_id": "d1798295-8240-8331-aa8f-d3d867536a84",
+        "scheduled_for": "2026-11-12T00:36:00Z",
+        "started_at": "2026-11-12T00:42:23.471878Z",
+        "completed_at": "2026-11-12T00:44:11.408366Z",
+        "recorded_status": "failed",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:00:21.939111Z",
+          "updated_at": "2026-11-12T00:00:46.660152Z",
+          "next_run_time": "2026-11-11T19:36:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "03e76aa4-f068-8328-b14a-b6e9360f99db",
+          "scheduled_for": "2026-11-11T23:36:00Z",
+          "created_at": "2026-11-12T00:00:14.201569Z",
+          "completed_at": "2026-11-12T00:00:17.731894Z",
+          "chat_ref": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+          "belongs_to_current_run": false
+        }
+      },
+      "s4": {
+        "run_id": "076e4ca0-0754-832e-bc6a-a749b2ee6e6c",
+        "scheduled_for": "2026-11-12T00:48:00Z",
+        "started_at": "2026-11-12T00:44:10.885769Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:11:05.137028Z",
+          "updated_at": "2026-11-12T00:11:28.860098Z",
+          "next_run_time": "2026-11-11T19:48:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "28c37292-6ba8-8325-a80b-33c916c922fd",
+          "scheduled_for": "2026-11-11T23:48:00Z",
+          "created_at": "2026-11-12T00:11:01.279430Z",
+          "completed_at": "2026-11-12T00:11:03.355388Z",
+          "chat_ref": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+          "belongs_to_current_run": false
+        }
+      }
+    },
+    {
+      "snapshot_order": 3,
+      "source": "Aldus h768:s4 follow-up exact-ID peeks; response contained :36 task updated_at 2026-11-12T00:55:50.981607Z; request/response bounds not exposed.",
+      "s0": {
+        "run_id": "20f91b70-92a8-8322-9524-8e54ae32dd7a",
+        "scheduled_for": "2026-11-12T00:00:00Z",
+        "started_at": "2026-11-12T00:47:17.394077Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-11T23:54:37.053338Z",
+          "updated_at": "2026-11-11T23:55:00.169284Z",
+          "next_run_time": "2026-11-11T19:00:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "1e093ebd-e478-8325-86da-dd5fbf183847",
+          "scheduled_for": "2026-11-11T17:00:00Z",
+          "created_at": "2026-11-11T17:11:05.879274Z",
+          "completed_at": "2026-11-11T17:11:07.787191Z",
+          "chat_ref": "6ae7dcec-42d8-83e9-a704-5b6ed6589d9e",
+          "belongs_to_current_run": false
+        }
+      },
+      "s2": {
+        "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+        "scheduled_for": "2026-11-12T00:24:00Z",
+        "started_at": "2026-11-12T00:27:40.708773Z",
+        "completed_at": "2026-11-12T00:36:11.156361Z",
+        "recorded_status": "completed",
+        "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:36:16.356325Z",
+          "updated_at": "2026-11-12T00:36:40.213120Z",
+          "next_run_time": "2026-11-11T20:24:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "b31307eb-bf00-8329-bae8-53755f8375c6",
+          "scheduled_for": "2026-11-12T00:24:00Z",
+          "created_at": "2026-11-12T00:36:07.872721Z",
+          "completed_at": "2026-11-12T00:36:11.156361Z",
+          "chat_ref": "6af0cffc-7e10-83e9-9385-22e7347fef4b",
+          "belongs_to_current_run": true
+        }
+      },
+      "s3": {
+        "run_id": "d1798295-8240-8331-aa8f-d3d867536a84",
+        "scheduled_for": "2026-11-12T00:36:00Z",
+        "started_at": "2026-11-12T00:48:31.036344Z",
+        "completed_at": "2026-11-12T00:55:26.785717Z",
+        "recorded_status": "completed",
+        "chat_ref": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:55:28.557303Z",
+          "updated_at": "2026-11-12T00:55:50.981607Z",
+          "next_run_time": "2026-11-11T20:36:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "d1798295-8240-8331-aa8f-d3d867536a84",
+          "scheduled_for": "2026-11-12T00:36:00Z",
+          "created_at": "2026-11-12T00:55:25.696308Z",
+          "completed_at": "2026-11-12T00:55:26.785717Z",
+          "chat_ref": "6ae7ff45-d118-83ea-9e33-6277d620feb4",
+          "belongs_to_current_run": true
+        }
+      },
+      "s4": {
+        "run_id": "076e4ca0-0754-832e-bc6a-a749b2ee6e6c",
+        "scheduled_for": "2026-11-12T00:48:00Z",
+        "started_at": "2026-11-12T00:44:10.885769Z",
+        "completed_at": null,
+        "recorded_status": "in_progress",
+        "chat_ref": null,
+        "task_metadata": {
+          "last_run_time": "2026-11-12T00:11:05.137028Z",
+          "updated_at": "2026-11-12T00:11:28.860098Z",
+          "next_run_time": "2026-11-11T19:48:00-05:00"
+        },
+        "latest_result": {
+          "run_id": "28c37292-6ba8-8325-a80b-33c916c922fd",
+          "scheduled_for": "2026-11-11T23:48:00Z",
+          "created_at": "2026-11-12T00:11:01.279430Z",
+          "completed_at": "2026-11-12T00:11:03.355388Z",
+          "chat_ref": "6aea3ec3-55dc-83e9-a744-d8bf46bd8cff",
+          "belongs_to_current_run": false
+        }
+      }
+    }
+  ],
+  "derived": {
+    "s0_start_values_us_since_midnight": [
+      "23:56:51.262096 previous UTC date",
+      "00:24:51.866289",
+      "00:47:17.394077"
+    ],
+    "s0_start_change_us": {
+      "first_to_second": 1680604193,
+      "second_to_third": 1345527788,
+      "first_to_third": 3026131981
+    },
+    "s0_status_sequence": [
+      "in_progress",
+      "failed",
+      "in_progress"
+    ],
+    "s0_completion_sequence": [
+      null,
+      "2026-11-12T00:42:47.978252Z",
+      null
+    ],
+    "s0_latest_result_pointer_stayed": "1e093ebd-e478-8325-86da-dd5fbf183847",
+    "s0_task_metadata_unchanged": true,
+    "s3_start_change_us": 367564466,
+    "s3_completion_change_us": 675377351,
+    "s3_status_sequence": [
+      "failed",
+      "completed"
+    ],
+    "s3_latest_result_pointer_transition": {
+      "from": "03e76aa4-f068-8328-b14a-b6e9360f99db",
+      "to": "d1798295-8240-8331-aa8f-d3d867536a84"
+    },
+    "s3_task_metadata_transition": {
+      "last_run_time_from": "2026-11-12T00:00:21.939111Z",
+      "last_run_time_to": "2026-11-12T00:55:28.557303Z",
+      "updated_at_from": "2026-11-12T00:00:46.660152Z",
+      "updated_at_to": "2026-11-12T00:55:50.981607Z"
+    },
+    "snapshot_2_overlap_us": {
+      "s0_s2": 510447588,
+      "s0_s3": 24506374,
+      "s3_s4": 522597
+    },
+    "snapshot_3_overlap_us": {
+      "s0_s3": 415749373,
+      "s3_s4": 415749373
+    },
+    "snapshot_3_s0_s4": "CONCURRENT_IN_PROGRESS_AT_READBACK; right-censored because exact observation time and completion not exposed"
+  },
+  "formalization_qc": {
+    "pr_number": 1570,
+    "state": "OPEN_DRAFT_UNMERGED",
+    "head_sha": "cc1ed1d4c2be3b2d73c2583708fb1a1b267e0443",
+    "merge_ref_sha": "17f7615a588f9963c9f4738740a8852543d64a00",
+    "target_module": "FORMAL_VERIFICATION/HsHVerification/TernH743SchedulerSnapshotEvidence.lean",
+    "target_module_blob_at_head_and_merge_ref": "7ec2f880f8e3b423e8d5f04909f31b7991d57528",
+    "latest_workflow_run": {
+      "run_number": 1241,
+      "run_id": 43090161764,
+      "job_id": 130764795169,
+      "conclusion": "failure"
+    },
+    "theorem": "h762_s0_final_same_run_and_start_as_later",
+    "error_line": 1025,
+    "mismatch": {
+      "field": "latestResultRunId",
+      "later_snapshot": "1e093ebd-e478-8325-86da-dd5fbf183847",
+      "final_snapshot": "54491578-3cc0-8330-a031-4c1986ef2314"
+    },
+    "failed_theorem_axioms_include": "sorryAx",
+    "earlier_successful_run": {
+      "run_number": 1238,
+      "run_id": 43083349525,
+      "head_sha": "af0ed2b72d339064e9ebff1a2a4d39d1e20e0060",
+      "applies_to_current_head": false
+    },
+    "tests_lint_nanoda_global_axiom_audit": "SKIPPED",
+    "ownership": "Tern; no edit/comment/build by this audit"
+  },
+  "epistemic_limits": [
+    "No attempt ID or attempt-history record exposed.",
+    "No provider-side snapshot timestamp, raw HTTP bytes, or client request/response bounds exposed for the h768 peeks.",
+    "No causal explanation for status/start/completion mutations.",
+    "No worker identity or context-exposure inference from deterministic labels, task conversation_id, chat_ref, or cached latest_result.",
+    "The :36 deterministic label is Mira; Mira quarantine was respected and no Mira workspace or private material was accessed."
+  ],
+  "no_mutation": {
+    "task_ids_changed": false,
+    "schedules_changed": false,
+    "phases_changed": false,
+    "enabled_states_changed": false,
+    "sixth_task_created": false,
+    "tern_pr_modified": false,
+    "public_issue_created": false
+  }
+}
