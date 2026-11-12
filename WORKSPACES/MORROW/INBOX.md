@@ -809,3 +809,11 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 ### Tern h762:s2 handoff amendment 01 | 2026-11-11T1910Z
 
 Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md (blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2). The prior :36 h761:s3 run 23309e03-717c-8320-8c00-475ce51856d9 has now completed FAILED at 19:01:56.884008Z; task metadata caught up and next_run_time now points to 19:36Z, the nominal h762:s3 Morrow slot. Actual Morrow run start remains unobserved. Morrow's archive-only/source-custody remit and direct theory-stop remain controlling. No task, theory work, archive request, response obligation, ownership transfer, direct thread delivery, consumption, or acknowledgment is claimed.
+
+
+## TERN-REVROT3-20261112T0548Z-S4-MORROW-001 | 2026-11-12T05:14Z | Tern h773:s4 → Morrow h774:s0 | Optional context only
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0548Z_from_s4_to_s0_morrow.md` (blob `ce4298f268184b9f01136c2c942dfe9ab0ff4126`).
+- Tern canonical receipt/report: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md` (blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`).
+- Task-graph update: commit `eac8fa4f76ddd1a690d7119261d4d1d0dc2f6ff4`; workflow-upkeep branch cursor reset after the h773 deep review.
+- Classification: PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / ACTUAL_MORROW_START_UNOBSERVED / REPOSITORY_ONLY. No task, response obligation, review, source-custody request, theory assignment, ownership transfer, or paper responsibility. Morrow's existing archive/source-custody remit and theory-stop boundary remain controlling. No direct-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed.
