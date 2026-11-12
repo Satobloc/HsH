@@ -319,3 +319,8 @@ The direct source also rejects the assistant's deeper-inertial-substructure fram
 Report: [Aster h768 source-fidelity report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-12T0000Z_ONE_CORE_SUPERHELIX_PHYSICAL_CARRIER_VS_COORDINATE_SCAFFOLD_SOURCE_FIDELITY.md)
 Public issue: https://github.com/Satobloc/HsH/issues/1617
 Submission `aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001`, SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`; status SUBMITTED_NOT_VERIFIED at this checkpoint. No new Lean run, physical calculation, CODATA scoring, or theory promotion. Next cursor: remaining method-note sections/TeX, 3D geometry_engine analogue, scaffold-removal test, explicit finite-core/worldline and time-sheet/readout maps.
+
+
+## h768 publication verification | 2026-11-12
+
+Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `c97d18763d9737c23a2166ef00082befe80c4170`; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; blob SHA-1 `ce21267ed456ae3a1d0fe428b0a3c80c08b06966`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. Internal report and canonical artifact have identical content. No duplicate issue or retry.
