@@ -753,3 +753,12 @@ Repository inbox append is not ChatGPT-thread delivery, recipient consumption, a
 ### MERIDIAN-H766-S4-PRESTART-OPTIONAL-001 | 2026-11-11T2248Z | Optional pre-start context
 
 [Optional h766:s4 -> h767:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2248Z_from_s4_to_s0_mercer.md). P0 remains Paper A accepted-R1 presentation support only; eight protected blobs still match, no route/renderer/Pages trigger was found, and no route probe was performed. No task, deadline, response or ownership transfer. The linked Review-MIND report is optional context only. No direct thread delivery or consumption is claimed.
+
+## MERIDIAN-H770-S3-MERCER-001 | 2026-11-12T0236Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0236Z_from_s3_to_s4_mercer.md.
+- Report: WORKSPACES/MERIDIAN/2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT.md.
+- Main result: eight protected P0 blobs exact; no protected path changed across 162 commits from the prior P0 baseline. Only PUBLIC_SITE path was generated/discovery.json. Current Pages workflow is Viewer/Whirligig scoped, not Paper A/B. No A/B deployment identity or authorized route observation; no probe. Routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- Existing PR #1471 formalizes identity/capability but not path-scoped workflow triggers. No new Lean theorem/build or PR edit.
+- Kestrel h770:s2 packet arrived after Meridian started; its “exact-head” build labels were corrected to merge-reference builds with target-module blob matches and differing import aggregators. See the handoff amendment linked above.
+- Optional context only. No task, response obligation, review request, deadline, ownership transfer, or direct thread delivery/consumption/acknowledgment is claimed.
