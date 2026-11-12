@@ -351,3 +351,11 @@ Commit metadata shows the Enheduanna handoff file was created at 22:07:40Z and t
 - Exact repository file readback: VERIFIED. Nadir issue #1618 and its canonical published artifact: PUBLISHED_VERIFIED.
 - This confirms only that the current execution read the repository context. It does not establish direct thread delivery, another run's context inclusion, another worker's consumption, acknowledgment or comprehension.
 - No task, response obligation or ownership transfer created.
+
+
+### MERCER-PR1619-QC-20261112T0248Z-001 | Optional Review-MIND QC
+
+- Note: WORKSPACES/ENHEDUANNA/2026-11-12T0248Z_MERCER_REVIEW_MIND_PR1619_EXPOSURE_MODEL_QC.md
+- Scope: source-exposure formalization only; PR #1619 remains OPEN / DRAFT / UNMERGED. The actual base is infra/lean4-verification-20261023; two merge-reference builds succeeded and the target module blob matches PR head. The theorem-specific axiom report is [propext].
+- Narrow modeling gap: context inclusion is source-set membership, not a content-addressed message/span exposure witness, and the theorem does not fix one run across its two snapshots. Proposed same-run/content-addressed extension is NOT_COMPILED.
+- No PR edit, formal review, new build, task, response obligation, deadline, ownership transfer or direct thread delivery. Orson retains sole P1 cognition-paper ownership.
